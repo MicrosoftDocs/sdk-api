@@ -4,10 +4,10 @@ title: AcquireCredentialsHandleA function
 author: windows-sdk-content
 description: The AcquireCredentialsHandle (CredSSP) function acquires a handle to preexisting credentials of a security principal.
 old-location: security\acquirecredentialshandle__credssp_.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 3b73decf-75d4-4bc4-b7ca-5f16aaadff29
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: AcquireCredentialsHandle, AcquireCredentialsHandle (CredSSP), AcquireCredentialsHandle function [Security], AcquireCredentialsHandleA, AcquireCredentialsHandleW, SECPKG_CRED_INBOUND, SECPKG_CRED_OUTBOUND, security.acquirecredentialshandle__credssp_, sspi/AcquireCredentialsHandle, sspi/AcquireCredentialsHandleA, sspi/AcquireCredentialsHandleW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # AcquireCredentialsHandleA function
@@ -53,8 +52,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-			The <b>AcquireCredentialsHandle (CredSSP)</b> function acquires a handle to preexisting <a href="https://msdn.microsoft.com/library/windows/hardware/dn922689">credentials</a> of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security principal</a>. This handle is required by the 
+The <b>AcquireCredentialsHandle (CredSSP)</b> function acquires a handle to preexisting <a href="https://msdn.microsoft.com/library/windows/hardware/dn922689">credentials</a> of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security principal</a>. This handle is required by the 
 <a href="https://msdn.microsoft.com/f3d8c07b-db28-4f26-ba29-8733fc95bdb5">InitializeSecurityContext (CredSSP)</a> and 
 <a href="https://msdn.microsoft.com/a53f733e-b646-4431-b021-a2c446308849">AcceptSecurityContext (CredSSP)</a> functions. These can be either preexisting <i>credentials</i>, which are established through a system logon that is not described here, or the caller can provide alternative credentials.
 			
@@ -154,8 +152,7 @@ A pointer to a  <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7
 
 
 
-
-						If the function succeeds, it returns <b>SEC_E_OK</b>.
+If the function succeeds, it returns <b>SEC_E_OK</b>.
 
 If the function fails, it returns one of the following error codes.
 
@@ -277,7 +274,7 @@ When you have finished using the returned credentials, free the memory used by t
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
  
 
  

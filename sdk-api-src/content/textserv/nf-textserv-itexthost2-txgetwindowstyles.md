@@ -4,10 +4,10 @@ title: ITextHost2::TxGetWindowStyles
 author: windows-sdk-content
 description: Retrieves the window styles and extended windows styles of the text host window.
 old-location: controls\itexthost2_txgetwindowstyles.htm
-old-project: controls
+old-project: Controls
 ms.assetid: 51885B3E-3DEE-461C-8625-3DE9D8C1F992
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxGetWindowStyles method, ITextHost2.TxGetWindowStyles, ITextHost2::TxGetWindowStyles, TxGetWindowStyles, TxGetWindowStyles method [Windows Controls], TxGetWindowStyles method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgetwindowstyles, textserv/ITextHost2::TxGetWindowStyles
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Retrieves the window styles and extended windows styles of the text host window.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
 
-The window styles. For a description of the possible values, see <a href="https://msdn.microsoft.com/library/ms632600(v=VS.85).aspx">Window Styles</a>.
+The window styles. For a description of the possible values, see <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">Window Styles</a>.
 
 
 ### -param pdwExStyle

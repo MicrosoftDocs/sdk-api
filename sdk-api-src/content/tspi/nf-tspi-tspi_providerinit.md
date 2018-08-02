@@ -4,10 +4,10 @@ title: TSPI_providerInit function
 author: windows-sdk-content
 description: The TSPI_providerInit function initializes the service provider and gives it parameters required for subsequent operations.
 old-location: tspi\tspi_providerinit.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 6cb7817b-6df3-4a6a-a666-b41c2eb0b118
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: TSPI_providerInit, TSPI_providerInit function [TAPI 2.2], _tspi_tspi_providerinit, tspi.tspi_providerinit, tspi/TSPI_providerInit
 ms.prod: windows
 ms.technology: windows-sdk

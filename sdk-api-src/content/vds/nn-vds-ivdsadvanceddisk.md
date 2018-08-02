@@ -4,10 +4,10 @@ title: IVdsAdvancedDisk
 author: windows-sdk-content
 description: Creates and deletes partitions, and modifies partition attributes.
 old-location: base\ivdsadvanceddisk.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 6b5e1bff-e7e8-4403-99ff-6dc97d113f37
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: IVdsAdvancedDisk, IVdsAdvancedDisk interface [VDS], IVdsAdvancedDisk interface [VDS],described, base.ivdsadvanceddisk, vds/IVdsAdvancedDisk
 ms.prod: windows
 ms.technology: windows-sdk
@@ -169,17 +169,15 @@ Retrieves information about all partitions on the current disk.
 
 
 
-
-        The relationship between partitions and volumes is complex, and is best described in terms of the software provider (basic or dynamic) that manages the disk. Basic providers support the following three categories of partitions:
+The relationship between partitions and volumes is complex, and is best described in terms of the software provider (basic or dynamic) that manages the disk. Basic providers support the following three categories of partitions:
 
 <ul>
 <li>Partitions that are not volumes, because you can neither format them nor assign a drive letter to them. These partitions are MSR partitions, LDM Metadata partitions, and extended partitions. </li>
 <li>Partitions associated with hidden volumes, which you can format and assign a drive letter to, but which host no user data. Instead, the system uses these partitions for booting, recovery, and so on. The partitions include OEM partitions, ESP partitions on GPT disks, and Unknown partitions. You cannot use the <a href="https://msdn.microsoft.com/a02ee0a6-ac29-406c-9fc0-4f632d32424f">IVdsVolume</a> or <a href="https://msdn.microsoft.com/4c8a63bd-ae2f-4157-92f9-aefc592c7d4f">IVdsVolumeMF</a> interfaces to format these partitions. Instead, use the <b>IVdsAdvancedDisk</b> interface, which exposes the <a href="https://msdn.microsoft.com/92a79b87-7385-40d9-aa20-e4724b241e59">AssignDriveLetter</a>, <a href="https://msdn.microsoft.com/1df6bf7e-0155-463c-85e2-c879557bc044">DeleteDriveLetter</a>, and <a href="https://msdn.microsoft.com/9b7015c2-a85d-4a56-8aec-208933640185">FormatPartition</a> methods.
 
 </li>
-<li>Partitions that do not fall into the preceding two categories hold user data, files, and the installed operating system for the user. These partitions are always volumes; you can format them, assign  drive letters to them, and enumerate through them with the <a href="https://msdn.microsoft.com/library/Aa364425(v=VS.85).aspx">FindFirstVolume</a> and <a href="https://msdn.microsoft.com/library/Aa364431(v=VS.85).aspx">FindNextVolume</a> functions.</li>
+<li>Partitions that do not fall into the preceding two categories hold user data, files, and the installed operating system for the user. These partitions are always volumes; you can format them, assign  drive letters to them, and enumerate through them with the <a href="https://msdn.microsoft.com/en-us/library/Aa364425(v=VS.85).aspx">FindFirstVolume</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa364431(v=VS.85).aspx">FindNextVolume</a> functions.</li>
 </ul>
-
 In general, dynamic providers  do not map volumes to partitions. The exceptions are system volumes, boot volumes, and volumes for which the caller explicitly requests this mapping. 
 Only the <a href="https://msdn.microsoft.com/6dc96e7b-34e5-4366-8804-d40f111d77c2">GetPartitionProperties</a>, <a href="https://msdn.microsoft.com/ca02c5f8-11cd-4bdf-a376-3b146eb2aa70">QueryPartitions</a>, and <a href="https://msdn.microsoft.com/4052f294-d911-44c6-a57f-0a0a6f24df70">Clean</a> methods are valid operations to be performed on dynamic disks. All other methods fail. Except for the <b>Clean</b> method, configuration-type operations are not valid on dynamic disks.
 

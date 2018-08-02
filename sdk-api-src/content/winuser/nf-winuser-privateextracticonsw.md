@@ -7,7 +7,7 @@ old-location: menurc\privateextracticons.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\privateextracticons.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: PrivateExtractIcons, PrivateExtractIcons function [Menus and Other Resources], PrivateExtractIconsA, PrivateExtractIconsW, _win32_PrivateExtractIcons, _win32_privateextracticons_cpp, menurc.privateextracticons, winui._win32_privateextracticons, winuser/PrivateExtractIcons, winuser/PrivateExtractIconsA, winuser/PrivateExtractIconsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -124,7 +124,7 @@ The number of icons to extract from the file. This parameter
 Type: <b>UINT</b>
 
 Specifies flags that control this function.  These flags are the LR_*
-				flags used by the <a href="https://msdn.microsoft.com/library/ms648045(v=VS.85).aspx">LoadImage</a> function.
+				flags used by the <a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a> function.
 
 
 #### - lpszFile [in]
@@ -141,8 +141,7 @@ The path and name of the file
 
 Type: <b>UINT</b>
 
-If the <i>phicon</i>
-				parameter is <b>NULL</b> and this function succeeds, then the return
+If the <i>phicon</i>parameter is <b>NULL</b> and this function succeeds, then the return
 				value is the number of icons in the file.  If the function fails then the
 				return value is 0.
 
@@ -170,8 +169,7 @@ The <i>cxIcon</i> and
       For example, <code>MAKELONG(24, 48)</code> for both the cxIcon and cyIcon parameters would extract
       both 24 and 48 size icons.
 
-You must destroy all icons extracted by <b>PrivateExtractIcons</b>
-			by calling the <a href="https://msdn.microsoft.com/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function. 
+You must destroy all icons extracted by <b>PrivateExtractIcons</b>by calling the <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function. 
 
 This function was not included in the SDK headers and libraries until Windows XP Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>.
 
@@ -187,19 +185,19 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648068(v=VS.85).aspx">ExtractIcon</a>
+<a href="https://msdn.microsoft.com/323c5e09-4e22-4a67-b8aa-5e5f369fb585">ExtractIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648069(v=VS.85).aspx">ExtractIconEx</a>
+<a href="https://msdn.microsoft.com/ef7a141f-9711-4345-8035-b7ad18a37caf">ExtractIconEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646973(v=VS.85).aspx">Icons</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646973(v=VS.85).aspx">Icons</a>
 
 
 

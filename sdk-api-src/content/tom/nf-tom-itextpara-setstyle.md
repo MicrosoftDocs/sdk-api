@@ -4,10 +4,10 @@ title: ITextPara::SetStyle
 author: windows-sdk-content
 description: Sets the paragraph style for the paragraphs in a range.
 old-location: controls\ITextPara_SetStyle.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparasetstyle.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextPara interface [Windows Controls],SetStyle method, ITextPara.SetStyle, ITextPara::SetStyle, SetStyle, SetStyle method [Windows Controls], SetStyle method [Windows Controls],ITextPara interface, _win32_ITextPara_SetStyle, _win32_ITextPara_SetStyle_cpp, controls.ITextPara_SetStyle, controls._win32_ITextPara_SetStyle, tom/ITextPara::SetStyle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Sets the paragraph style for the paragraphs in a range.
 
 Type: <b>long</b>
 
-New paragraph style handle. For a list of styles, see the Remarks section of <a href="https://msdn.microsoft.com/library/Bb787845(v=VS.85).aspx">ITextPara::GetStyle</a>. 
+New paragraph style handle. For a list of styles, see the Remarks section of <a href="https://msdn.microsoft.com/en-us/library/Bb787845(v=VS.85).aspx">ITextPara::GetStyle</a>. 
 
 
 ## -returns
@@ -149,11 +149,11 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787845(v=VS.85).aspx">GetStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787845(v=VS.85).aspx">GetStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
 
 
 
@@ -161,7 +161,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

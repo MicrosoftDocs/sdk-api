@@ -7,7 +7,7 @@ old-location: wes\evt_login_class.htm
 old-project: WES
 ms.assetid: 8d53402b-2d2c-4f93-8e98-4449701052b0
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EVT_LOGIN_CLASS, EvtRpcLogin, _EVT_LOGIN_CLASS, _EVT_LOGIN_CLASS enumeration [EventLog], wes.evt_login_class, winevt/EvtRpcLogin, winevt/_EVT_LOGIN_CLASS
 ms.prod: windows
 ms.technology: windows-sdk

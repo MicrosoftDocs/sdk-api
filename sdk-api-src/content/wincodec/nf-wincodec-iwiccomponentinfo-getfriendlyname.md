@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccomponentinfo_getfriendlyname.htm
 old-project: wic
 ms.assetid: c67e7a30-8bd5-427b-8a67-c77e3cf86e78
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method [Windows Imaging Component], GetFriendlyName method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetFriendlyName method, IWICComponentInfo.GetFriendlyName, IWICComponentInfo::GetFriendlyName, _wic_codec_iwiccomponentinfo_getfriendlyname, wic._wic_codec_iwiccomponentinfo_getfriendlyname, wincodec/IWICComponentInfo::GetFriendlyName
 ms.prod: windows
 ms.technology: windows-sdk

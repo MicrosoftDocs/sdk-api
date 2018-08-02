@@ -84,7 +84,7 @@ The routing group contains some devices that are unavailable for sending faxes. 
 
 
 
-<a href="https://msdn.microsoft.com/e009411d-07d1-4be3-a050-eea78084953f">IFaxOutboundRoutingGroup::get_Status</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688419(v=VS.85).aspx">IFaxOutboundRoutingGroup::get_Status</a>
  
 
  

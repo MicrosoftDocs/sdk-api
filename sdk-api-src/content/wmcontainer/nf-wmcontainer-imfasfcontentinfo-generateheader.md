@@ -7,7 +7,7 @@ old-location: mf\imfasfcontentinfo_generateheader.htm
 old-project: medfound
 ms.assetid: 972f5ae7-ad00-4c3b-8ec4-2cef4ce03c4e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: 972f5ae7-ad00-4c3b-8ec4-2cef4ce03c4e, GenerateHeader, GenerateHeader method [Media Foundation], GenerateHeader method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GenerateHeader method, IMFASFContentInfo.GenerateHeader, IMFASFContentInfo::GenerateHeader, mf.imfasfcontentinfo_generateheader, wmcontainer/IMFASFContentInfo::GenerateHeader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,15 +65,13 @@ Encodes the data in the <b>MFASFContentInfo</b> object into a binary Advanced Sy
 
 ### -param pIHeader [in, out]
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/3ccc7089-d0d0-4eb1-b763-0d4e348af685">IMFMediaBuffer</a> interface of the buffer object that will receive the encoded header. Set to <b>NULL</b> to retrieve the size of the header.
+A pointer to the <a href="https://msdn.microsoft.com/3ccc7089-d0d0-4eb1-b763-0d4e348af685">IMFMediaBuffer</a> interface of the buffer object that will receive the encoded header. Set to <b>NULL</b> to retrieve the size of the header.
           
 
 
 ### -param pcbHeader [out]
 
-
-            Size of the encoded ASF header in bytes. If <i>pIHeader</i> is <b>NULL</b>, this value is set to the buffer size required to hold the encoded header.
+Size of the encoded ASF header in bytes. If <i>pIHeader</i> is <b>NULL</b>, this value is set to the buffer size required to hold the encoded header.
           
 
 
@@ -95,8 +93,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -108,8 +105,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The ASF Header Objects do not exist for the media that the ContentInfo object holds reference to.
+The ASF Header Objects do not exist for the media that the ContentInfo object holds reference to.
               
 
 </td>
@@ -121,8 +117,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The ASF Header Object size exceeds 10 MB.
+The ASF Header Object size exceeds 10 MB.
               
 
 </td>
@@ -134,8 +129,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The buffer passed in <i>pIHeader</i> is not large enough to hold the ASF Header Object information.
+The buffer passed in <i>pIHeader</i> is not large enough to hold the ASF Header Object information.
               
 
 </td>

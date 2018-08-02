@@ -65,7 +65,7 @@ This property is read/write.
 
 By default, <b>CoverPageType</b> is set to 0, indicating that no file is used.
 
-Provide the name of the cover page in the <a href="https://msdn.microsoft.com/ae883970-dfd4-4811-b5a6-c666e1289707">CoverPage</a> property.
+Provide the name of the cover page in the <a href="https://msdn.microsoft.com/en-us/library/ms687493(v=VS.85).aspx">CoverPage</a> property.
 
 
 

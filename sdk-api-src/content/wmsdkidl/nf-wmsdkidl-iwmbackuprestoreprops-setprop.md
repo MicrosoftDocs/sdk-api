@@ -7,7 +7,7 @@ old-location: wmformat\iwmbackuprestoreprops_setprop.htm
 old-project: wmformat
 ms.assetid: 582c1590-8855-409c-9964-a0fb7baa05bd
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMBackupRestoreProps interface [windows Media Format],SetProp method, IWMBackupRestoreProps.SetProp, IWMBackupRestoreProps::SetProp, IWMBackupRestorePropsSetProp, SetProp, SetProp method [windows Media Format], SetProp method [windows Media Format],IWMBackupRestoreProps interface, wmformat.iwmbackuprestoreprops_setprop, wmsdkidl/IWMBackupRestoreProps::SetProp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,14 +107,11 @@ The following table lists the predefined properties.
 
 <table>
 <tr>
-<th>
-              Property name
+<th>Property name
             </th>
-<th>
-              Type
+<th>Type
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>

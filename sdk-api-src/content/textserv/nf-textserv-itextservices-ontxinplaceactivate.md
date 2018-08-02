@@ -4,10 +4,10 @@ title: ITextServices::OnTxInPlaceActivate
 author: windows-sdk-content
 description: Notifies the text services object that this control is in-place active.
 old-location: controls\ITextServices_OnTxInPlaceActivate.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxinplaceactivate.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextServices interface [Windows Controls],OnTxInPlaceActivate method, ITextServices.OnTxInPlaceActivate, ITextServices::OnTxInPlaceActivate, OnTxInPlaceActivate, OnTxInPlaceActivate method [Windows Controls], OnTxInPlaceActivate method [Windows Controls],ITextServices interface, _win32_ITextServices_OnTxInPlaceActivate, _win32_ITextServices_OnTxInPlaceActivate_cpp, controls.ITextServices_OnTxInPlaceActivate, controls._win32_ITextServices_OnTxInPlaceActivate, textserv/ITextServices::OnTxInPlaceActivate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,11 +85,11 @@ If the object could not be activated due to error, the return value is E_FAIL. F
 
 In-place active means that an embedded object is <i>running in-place</i> (for example, for regular controls and embeddings, it would have a window to draw in). In contrast, UI active means that an object currently has the <i>editing focus</i>. For example, things like menus and toolbars on the container may also contain elements from the UI-active control/embedding. There is only one UI-active control at any given time, while there can be many in-place active controls.
 
-Note, UI activation is different from getting the focus. To signal the text services object that the control is getting or losing focus, the host sends <a href="https://msdn.microsoft.com/library/ms646283(v=VS.85).aspx">WM_SETFOCUS</a> and <a href="https://msdn.microsoft.com/library/ms646282(v=VS.85).aspx">WM_KILLFOCUS</a> messages. Also, note that a windowless host will pass <b>NULL</b> as the <i>wParam</i> (window that lost the focus) for these messages.
+Note, UI activation is different from getting the focus. To signal the text services object that the control is getting or losing focus, the host sends <a href="https://msdn.microsoft.com/en-us/library/ms646283(v=VS.85).aspx">WM_SETFOCUS</a> and <a href="https://msdn.microsoft.com/en-us/library/ms646282(v=VS.85).aspx">WM_KILLFOCUS</a> messages. Also, note that a windowless host will pass <b>NULL</b> as the <i>wParam</i> (window that lost the focus) for these messages.
 
-When making the transition directly from a nonactive state to the UI-active state, the host should call <b>ITextServices::OnTxInPlaceActivate</b> first and then <a href="https://msdn.microsoft.com/library/Bb787632(v=VS.85).aspx">ITextServices::OnTxUIActivate</a>. 
+When making the transition directly from a nonactive state to the UI-active state, the host should call <b>ITextServices::OnTxInPlaceActivate</b> first and then <a href="https://msdn.microsoft.com/en-us/library/Bb787632(v=VS.85).aspx">ITextServices::OnTxUIActivate</a>. 
 
-<b>ITextServices::OnTxInPlaceActivate</b> takes as a parameter the client rectangle of the view being activated. This rectangle is given in client coordinates of the containing window. It is the same as would be obtained by calling <a href="https://msdn.microsoft.com/library/Bb787656(v=VS.85).aspx">TxGetClientRect</a> on the host.
+<b>ITextServices::OnTxInPlaceActivate</b> takes as a parameter the client rectangle of the view being activated. This rectangle is given in client coordinates of the containing window. It is the same as would be obtained by calling <a href="https://msdn.microsoft.com/en-us/library/Bb787656(v=VS.85).aspx">TxGetClientRect</a> on the host.
 
 
 
@@ -103,11 +103,11 @@ When making the transition directly from a nonactive state to the UI-active stat
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787617(v=VS.85).aspx">ITextServices</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787632(v=VS.85).aspx">OnTxUIActivate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787632(v=VS.85).aspx">OnTxUIActivate</a>
 
 
 
@@ -123,19 +123,19 @@ When making the transition directly from a nonactive state to the UI-active stat
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787656(v=VS.85).aspx">TxGetClientRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787656(v=VS.85).aspx">TxGetClientRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646282(v=VS.85).aspx">WM_KILLFOCUS</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646282(v=VS.85).aspx">WM_KILLFOCUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646283(v=VS.85).aspx">WM_SETFOCUS</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646283(v=VS.85).aspx">WM_SETFOCUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
  
 
  

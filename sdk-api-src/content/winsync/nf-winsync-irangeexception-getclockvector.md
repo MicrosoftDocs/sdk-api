@@ -7,7 +7,7 @@ old-location: winsync\irangeexception_getclockvector.htm
 old-project: winsync
 ms.assetid: 9a13bb4c-ed0e-45f0-a78f-13eadd32760e
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetClockVector, GetClockVector method [Windows Sync], GetClockVector method [Windows Sync],IRangeException interface, IRangeException interface [Windows Sync],GetClockVector method, IRangeException.GetClockVector, IRangeException::GetClockVector, winsync.irangeexception_getclockvector, winsync/IRangeException::GetClockVector
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\ws_element_description.htm
 old-project: wsw
 ms.assetid: 17035b64-9b2c-40d3-bdce-45e9b132e9f1
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ELEMENT_DESCRIPTION, WS_ELEMENT_DESCRIPTION structure [Web Services for Windows], _WS_ELEMENT_DESCRIPTION, webservices/WS_ELEMENT_DESCRIPTION, wsw.ws_element_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Represents a mapping between a C data type and an XML element.
+Represents a mapping between a C data type and an XML element.
             
 
 
@@ -73,12 +72,10 @@ The namespace of the XML element.
 
 ### -field type
 
-
-                    The type that corresponds to this XML element.
+The type that corresponds to this XML element.
                 
 
-
-                    Not all types support being read and written as an element.  If the
+Not all types support being read and written as an element.  If the
                     documentation for the <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a> indicates it supports
                     <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>, then it can be used with this structure.
                 
@@ -86,8 +83,7 @@ The namespace of the XML element.
 
 ### -field typeDescription
 
-
-                    Additional information about the type.  Each type has a different description
+Additional information about the type.  Each type has a different description
                     structure.  This may be <b>NULL</b>, depending on the <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a>.
                 
 

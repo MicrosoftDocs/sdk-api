@@ -4,10 +4,10 @@ title: "_SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX"
 author: windows-sdk-content
 description: Specifies serialized credentials and a list of security packages that support the credentials.
 old-location: security\sec_winnt_auth_packed_credentials_ex.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 33e42e35-e34c-4e89-90c7-8aee5176ae1b
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PSEC_WINNT_AUTH_PACKED_CREDENTIALS_EX, PSEC_WINNT_AUTH_PACKED_CREDENTIALS_EX, PSEC_WINNT_AUTH_PACKED_CREDENTIALS_EX structure pointer [Security], SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX, SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX structure [Security], _SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX, security.sec_winnt_auth_packed_credentials_ex, sspi/PSEC_WINNT_AUTH_PACKED_CREDENTIALS_EX, sspi/SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # _SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX structure

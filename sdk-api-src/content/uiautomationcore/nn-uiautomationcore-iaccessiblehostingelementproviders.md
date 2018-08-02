@@ -7,7 +7,7 @@ old-location: winauto\iaccessiblehostingelementproviders.htm
 old-project: WinAuto
 ms.assetid: 8D974311-25CB-4D49-B907-2984D0DA58D7
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IAccessibleHostingElementProviders, IAccessibleHostingElementProviders interface [Windows Accessibility], IAccessibleHostingElementProviders interface [Windows Accessibility],described, uiautomationcore/IAccessibleHostingElementProviders, winauto.iaccessiblehostingelementproviders
 ms.prod: windows
 ms.technology: windows-sdk

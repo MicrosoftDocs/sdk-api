@@ -4,10 +4,10 @@ title: "_VDS_PARTITION_FLAG"
 author: windows-sdk-content
 description: Defines a set of valid flags for a partition.
 old-location: base\vds_partition_flag.htm
-old-project: vds
+old-project: VDS
 ms.assetid: d6ac5769-d0bc-4a4e-93c0-e9c83303ec4c
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: VDS_PARTITION_FLAG, VDS_PARTITION_FLAG enumeration [VDS], VDS_PTF_SYSTEM, _VDS_PARTITION_FLAG, base.vds_partition_flag, vds/VDS_PARTITION_FLAG, vds/VDS_PTF_SYSTEM
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ If set, the partition is a system partition.
 
 
 
-
-        This enumeration provides the values for the <i>ulFlags</i> member of the <a href="https://msdn.microsoft.com/f1b465ad-f03b-4ce8-ae83-f8e93b7fa4c4">VDS_PARTITION_PROP</a> structure.
+This enumeration provides the values for the <i>ulFlags</i> member of the <a href="https://msdn.microsoft.com/f1b465ad-f03b-4ce8-ae83-f8e93b7fa4c4">VDS_PARTITION_PROP</a> structure.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_PARTITION_FLAG</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_PARTITION_FLAG</b> enumeration constant.</div>
 <div> </div>

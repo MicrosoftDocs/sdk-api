@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITransformProvider_Rotate.htm
 old-project: WinAuto
 ms.assetid: 2e8255de-b28d-4fc4-82ea-4255771f9838
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: ITransformProvider interface [Windows Accessibility],Rotate method, ITransformProvider.Rotate, ITransformProvider::Rotate, Rotate, Rotate method [Windows Accessibility], Rotate method [Windows Accessibility],ITransformProvider interface, uiauto.uiauto_ITransformProvider_Rotate, uiauto_ITransformProvider_Rotate, uiautomationcore/ITransformProvider::Rotate, winauto.uiauto_ITransformProvider_Rotate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,8 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-            An object cannot be moved, resized, or rotated such that its resulting screen location 
+An object cannot be moved, resized, or rotated such that its resulting screen location 
             would be completely outside the coordinates of its container and inaccessible to keyboard 
             or mouse. For example, a top-level window moved completely off-screen or a child object 
             moved outside the boundaries of the container's viewport. In these cases the object is 

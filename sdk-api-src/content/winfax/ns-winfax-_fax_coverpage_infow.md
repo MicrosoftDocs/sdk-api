@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_coverpage_info_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3zaq.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: "*PFAX_COVERPAGE_INFOW, FAX_COVERPAGE_INFO, FAX_COVERPAGE_INFO structure [Fax Service], FAX_COVERPAGE_INFOA, FAX_COVERPAGE_INFOW, PFAX_COVERPAGE_INFO, PFAX_COVERPAGE_INFO structure pointer [Fax Service], _FAX_COVERPAGE_INFOW, _mfax_fax_coverpage_info_str, fax._mfax_fax_coverpage_info_str, winfax/FAX_COVERPAGE_INFO, winfax/FAX_COVERPAGE_INFOA, winfax/FAX_COVERPAGE_INFOW, winfax/PFAX_COVERPAGE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -291,7 +291,7 @@ Specifies a <b>DWORD</b> variable that indicates the total number of pages in th
 
 
 
-A fax client application passes the <b>FAX_COVERPAGE_INFO</b> structure in a call to the <a href="https://msdn.microsoft.com/library/ms692378(v=VS.85).aspx">FaxPrintCoverPage</a> function. This enables a user to print a personal cover page at the beginning of a fax transmission. For more information, see <a href="https://msdn.microsoft.com/library/ms691363(v=VS.85).aspx">Cover Pages</a> and <a href="https://msdn.microsoft.com/library/ms691959(v=VS.85).aspx">Transmitting Faxes</a>.
+A fax client application passes the <b>FAX_COVERPAGE_INFO</b> structure in a call to the <a href="https://msdn.microsoft.com/en-us/library/ms692378(v=VS.85).aspx">FaxPrintCoverPage</a> function. This enables a user to print a personal cover page at the beginning of a fax transmission. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691363(v=VS.85).aspx">Cover Pages</a> and <a href="https://msdn.microsoft.com/en-us/library/ms691959(v=VS.85).aspx">Transmitting Faxes</a>.
 
 
 
@@ -301,23 +301,23 @@ A fax client application passes the <b>FAX_COVERPAGE_INFO</b> structure in a cal
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691952(v=VS.85).aspx">Fax Service Client API Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691952(v=VS.85).aspx">Fax Service Client API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692819(v=VS.85).aspx">FaxCompleteJobParams</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692819(v=VS.85).aspx">FaxCompleteJobParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692378(v=VS.85).aspx">FaxPrintCoverPage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692378(v=VS.85).aspx">FaxPrintCoverPage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692343(v=VS.85).aspx">FaxSendDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692343(v=VS.85).aspx">FaxSendDocument</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: mf\iwmcodecprivatedatasetpartialoutputtype.htm
 old-project: medfound
 ms.assetid: c906ac2d-b3e0-4ecd-8f0e-3fa1a2a0beea
 ms.author: windowssdkdev
-ms.date: 07/18/2018
-ms.keywords: IWMCodecPrivateData interface [Media Foundation],SetPartialOutputType method, IWMCodecPrivateData.SetPartialOutputType, IWMCodecPrivateData::SetPartialOutputType, SetPartialOutputType, SetPartialOutputType method [Media Foundation], SetPartialOutputType method [Media Foundation],IWMCodecPrivateData interface, codecapi.iwmcodecprivatedatasetpartialoutputtype, mf.iwmcodecprivatedatasetpartialoutputtype, wmcodecdsp/ IWMCodecPrivateData::SetPartialOutputType
+ms.date: 07/29/2018
+ms.keywords: IWMCodecPrivateData interface [Media Foundation],SetPartialOutputType method, IWMCodecPrivateData.SetPartialOutputType, IWMCodecPrivateData::SetPartialOutputType, SetPartialOutputType, SetPartialOutputType method [Media Foundation], SetPartialOutputType method [Media Foundation],IWMCodecPrivateData interface, codecapi.iwmcodecprivatedatasetpartialoutputtype, mf.iwmcodecprivatedatasetpartialoutputtype, wmcodecdsp/IWMCodecPrivateData::SetPartialOutputType
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -49,7 +49,6 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 ## -description
-
 
 
 Gives the codec the output media type without the codec data. This enables the codec to generate the private data.

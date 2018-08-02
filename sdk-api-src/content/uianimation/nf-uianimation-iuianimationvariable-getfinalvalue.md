@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable_getfinalvalue.htm
 old-project: UIAnimation
 ms.assetid: 577f83c1-aba7-4a51-82dc-68a103a31377
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetFinalValue, GetFinalValue method [Windows Animation], GetFinalValue method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetFinalValue method, IUIAnimationVariable.GetFinalValue, IUIAnimationVariable::GetFinalValue, uianimation.iuianimationvariable_getfinalvalue, uianimation/IUIAnimationVariable::GetFinalValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-       Gets the final value of the animation variable.  
+Gets the final value of the animation variable.  
    This is the value after all currently scheduled animations have completed.
 
 
@@ -63,8 +62,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param finalValue [out]
 
-
-               The final value of the animation variable.
+The final value of the animation variable.
 
 
 ## -returns
@@ -113,18 +111,15 @@ The result can be affected by the lower and upper bounds determined by <a href="
 
 
 
-<a href="https://msdn.microsoft.com/19d71abc-e3f8-48d4-9ceb-5920dcc9c007">
-      IUIAnimationVariable::GetFinalIntegerValue</a>
+<a href="https://msdn.microsoft.com/19d71abc-e3f8-48d4-9ceb-5920dcc9c007">IUIAnimationVariable::GetFinalIntegerValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/405bc35e-8b38-40fb-acf4-107fa6dd161a">
-      IUIAnimationVariable::GetPreviousValue</a>
+<a href="https://msdn.microsoft.com/405bc35e-8b38-40fb-acf4-107fa6dd161a">IUIAnimationVariable::GetPreviousValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/51ae200a-a630-44fd-afd4-33d1b1dbf6d7">
-      IUIAnimationVariable::GetValue</a>
+<a href="https://msdn.microsoft.com/51ae200a-a630-44fd-afd4-33d1b1dbf6d7">IUIAnimationVariable::GetValue</a>
 
 
 

@@ -79,7 +79,7 @@ Identifier that specifies how the embedded content is obtained.
 </dl>
 </td>
 <td width="60%">
-Output should be an <a href="_msaa_accessible_objects">Accessible object</a>.
+Output should be an <a href="https://msdn.microsoft.com/en-us/library/Dd317981(v=VS.85).aspx">Accessible object</a>.
 
 </td>
 </tr>
@@ -235,7 +235,7 @@ While the obtained object might not support certain interfaces, it is likely tha
 
 
 
-<a href="_msaa_accessible_objects">Accessible Objects</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd317981(v=VS.85).aspx">Accessible Objects</a>
 
 
 

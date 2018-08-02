@@ -7,7 +7,7 @@ old-location: winmsg\cwpstruct.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\cwpstruct.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPCWPSTRUCT, *NPCWPSTRUCT, *PCWPSTRUCT, CWPSTRUCT, CWPSTRUCT structure [Windows and Messages], LPCWPSTRUCT, LPCWPSTRUCT structure pointer [Windows and Messages], PCWPSTRUCT, PCWPSTRUCT structure pointer [Windows and Messages], _win32_CWPSTRUCT_str, _win32_cwpstruct_str_cpp, tagCWPSTRUCT, winmsg.cwpstruct, winui._win32_cwpstruct_str, winuser/CWPSTRUCT, winuser/LPCWPSTRUCT, winuser/PCWPSTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Defines the message parameters passed to a <b>WH_CALLWNDPROC</b> hook procedure, <a href="https://msdn.microsoft.com/library/ms644975(v=VS.85).aspx">CallWndProc</a>. 
+Defines the message parameters passed to a <b>WH_CALLWNDPROC</b> hook procedure, <a href="https://msdn.microsoft.com/en-us/library/ms644975(v=VS.85).aspx">CallWndProc</a>. 
 
 
 ## -struct-fields
@@ -94,7 +94,7 @@ A handle to the window to receive the message.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644975(v=VS.85).aspx">CallWndProc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644975(v=VS.85).aspx">CallWndProc</a>
 
 
 
@@ -102,7 +102,7 @@ A handle to the window to receive the message.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632589(v=VS.85).aspx">Hooks</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>
 
 
 
@@ -110,7 +110,7 @@ A handle to the window to receive the message.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wmformat\wmt_videoimage_sample2.htm
 old-project: wmformat
 ms.assetid: 0c4fa9e2-9b7b-4c9e-be58-e28da408337d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: WMT_VIDEOIMAGE_SAMPLE2, WMT_VIDEOIMAGE_SAMPLE2 structure [windows Media Format], __WMT_VIDEOIMAGE_SAMPLE2, wmformat.wmt_videoimage_sample2, wmsdkidl/WMT_VIDEOIMAGE_SAMPLE2
 ms.prod: windows
 ms.technology: windows-sdk

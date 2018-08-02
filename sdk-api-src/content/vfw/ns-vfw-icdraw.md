@@ -7,7 +7,7 @@ old-location: multimedia\icdraw_struct.htm
 old-project: Multimedia
 ms.assetid: 9b3e2788-176c-41be-8ae3-244ed93ff4f8
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: ICDRAW, ICDRAW structure [Windows Multimedia], ICDRAW_HURRYUP, ICDRAW_NOTKEYFRAME, ICDRAW_NULLFRAME, ICDRAW_PREROLL, ICDRAW_UPDATE, multimedia.icdraw_COLLISION9, multimedia.icdraw_struct, vfw/ICDRAW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ The <b>ICDRAW</b> structure contains parameters for drawing video data to the sc
 
 ### -field dwFlags
 
-
-            Flags from the AVI file index. The following values are defined:
+Flags from the AVI file index. The following values are defined:
           
 
 <table>
@@ -79,8 +78,7 @@ The <b>ICDRAW</b> structure contains parameters for drawing video data to the sc
 </dl>
 </td>
 <td width="60%">
-
-                Data is buffered and not drawn to the screen. Use this flag for fastest decompression.
+Data is buffered and not drawn to the screen. Use this flag for fastest decompression.
               
 
 </td>
@@ -91,8 +89,7 @@ The <b>ICDRAW</b> structure contains parameters for drawing video data to the sc
 </dl>
 </td>
 <td width="60%">
-
-                Current frame is not a key frame.
+Current frame is not a key frame.
               
 
 </td>
@@ -103,8 +100,7 @@ The <b>ICDRAW</b> structure contains parameters for drawing video data to the sc
 </dl>
 </td>
 <td width="60%">
-
-                Current frame does not contain any data, and the previous frame should be redrawn.
+Current frame does not contain any data, and the previous frame should be redrawn.
               
 
 </td>
@@ -115,8 +111,7 @@ The <b>ICDRAW</b> structure contains parameters for drawing video data to the sc
 </dl>
 </td>
 <td width="60%">
-
-                Current frame of video occurs before playback should start. For example, if playback will begin on frame 10, and frame 0 is the nearest previous key frame, frames 0 through 9 are sent to the driver with this flag set. The driver needs this data to display frame 10 properly.
+Current frame of video occurs before playback should start. For example, if playback will begin on frame 10, and frame 0 is the nearest previous key frame, frames 0 through 9 are sent to the driver with this flag set. The driver needs this data to display frame 10 properly.
               
 
 </td>
@@ -127,8 +122,7 @@ The <b>ICDRAW</b> structure contains parameters for drawing video data to the sc
 </dl>
 </td>
 <td width="60%">
-
-                Updates the screen based on data previously received. In this case, <b>lpData</b> should be ignored.
+Updates the screen based on data previously received. In this case, <b>lpData</b> should be ignored.
               
 
 </td>
@@ -139,29 +133,25 @@ The <b>ICDRAW</b> structure contains parameters for drawing video data to the sc
 
 ### -field lpFormat
 
-
-            Pointer to a structure containing the data format. For video streams, this is a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure.
+Pointer to a structure containing the data format. For video streams, this is a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure.
           
 
 
 ### -field lpData
 
-
-            Pointer to the data to render.
+Pointer to the data to render.
           
 
 
 ### -field cbData
 
-
-            Number of data bytes to render.
+Number of data bytes to render.
           
 
 
 ### -field lTime
 
-
-            Time, in samples, when this data should be drawn. For video data this is normally a frame number.
+Time, in samples, when this data should be drawn. For video data this is normally a frame number.
           
 
 

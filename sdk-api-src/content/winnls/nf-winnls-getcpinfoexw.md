@@ -7,7 +7,7 @@ old-location: intl\getcpinfoex.htm
 old-project: Intl
 ms.assetid: c21ed6fe-85b6-438a-8f53-e30833e0c88a
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_THREAD_ACP, GetCPInfoEx, GetCPInfoEx function [Internationalization for Windows Applications], GetCPInfoExA, GetCPInfoExW, _win32_GetCPInfoEx, intl.getcpinfoex, winnls/GetCPInfoEx, winnls/GetCPInfoExA, winnls/GetCPInfoExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,8 +115,7 @@ Use the system default OEM code page.
 </dl>
 </td>
 <td width="60%">
-
-                Use the current thread's ANSI code page.
+Use the current thread's ANSI code page.
 
 </td>
 </tr>
@@ -138,8 +137,7 @@ Pointer to a <a href="https://msdn.microsoft.com/9639bb11-477e-45ee-b9fb-d5d0999
 
 
 
-
-            Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
 
 
 <ul>

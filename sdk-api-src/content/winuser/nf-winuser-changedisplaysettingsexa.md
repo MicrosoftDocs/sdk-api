@@ -7,7 +7,7 @@ old-location: gdi\changedisplaysettingsex.htm
 old-project: gdi
 ms.assetid: 1448e04c-1452-4eab-bda4-4d249cb67a24
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CDS_DISABLE_UNSAFE_MODES, CDS_ENABLE_UNSAFE_MODES, CDS_FULLSCREEN, CDS_GLOBAL, CDS_NORESET, CDS_RESET, CDS_SET_PRIMARY, CDS_TEST, CDS_UPDATEREGISTRY, CDS_VIDEOPARAMETERS, ChangeDisplaySettingsEx, ChangeDisplaySettingsEx function [Windows GDI], ChangeDisplaySettingsExA, ChangeDisplaySettingsExW, _win32_ChangeDisplaySettingsEx, gdi.changedisplaysettingsex, winuser/ChangeDisplaySettingsEx, winuser/ChangeDisplaySettingsExA, winuser/ChangeDisplaySettingsExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,18 +95,15 @@ The <b>dmSize</b> member must be initialized to the size, in bytes, of the <a hr
 <td>Pixel height</td>
 </tr>
 <tr>
-<td><b>
-                dmDisplayFlags</b></td>
+<td><b>dmDisplayFlags</b></td>
 <td>Mode flags</td>
 </tr>
 <tr>
-<td><b>
-                dmDisplayFrequency</b></td>
+<td><b>dmDisplayFrequency</b></td>
 <td>Mode frequency</td>
 </tr>
 <tr>
-<td><b>
-                dmPosition</b></td>
+<td><b>dmPosition</b></td>
 <td>Position of the device in a multi-monitor configuration.</td>
 </tr>
 </table>
@@ -281,8 +278,7 @@ Specifying CDS_TEST allows an application to determine which graphics modes are 
 
 If CDS_UPDATEREGISTRY is specified and it is possible to change the graphics mode dynamically, the information is stored in the registry and DISP_CHANGE_SUCCESSFUL is returned. If it is not possible to change the graphics mode dynamically, the information is stored in the registry and DISP_CHANGE_RESTART is returned.
 
-
-             If CDS_UPDATEREGISTRY is specified and the information could not be stored in the registry, the graphics mode is not changed and DISP_CHANGE_NOTUPDATED is returned.
+If CDS_UPDATEREGISTRY is specified and the information could not be stored in the registry, the graphics mode is not changed and DISP_CHANGE_NOTUPDATED is returned.
 
 
 ### -param lParam [in]
@@ -319,8 +315,7 @@ The settings change was successful.
 </dl>
 </td>
 <td width="60%">
-
-                  The settings change was unsuccessful because the system is DualView capable.
+The settings change was unsuccessful because the system is DualView capable.
 
 </td>
 </tr>
@@ -375,8 +370,7 @@ The display driver failed the specified graphics mode.
 </dl>
 </td>
 <td width="60%">
-
-                   Unable to write settings to the registry.
+Unable to write settings to the registry.
 
 </td>
 </tr>
@@ -454,13 +448,11 @@ This API does not participate in DPI virtualization. The input given is always i
 
 
 
-<a href="https://msdn.microsoft.com/6fc443c8-da97-4196-a9ed-179a4e583849">
-        CreateDC</a>
+<a href="https://msdn.microsoft.com/6fc443c8-da97-4196-a9ed-179a4e583849">CreateDC</a>
 
 
 
-<a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">
-        DEVMODE</a>
+<a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a>
 
 
 
@@ -472,23 +464,19 @@ This API does not participate in DPI virtualization. The input given is always i
 
 
 
-<a href="https://msdn.microsoft.com/df3b493c-23d2-4996-9b79-86009efe3078">
-        EnumDisplayDevices</a>
+<a href="https://msdn.microsoft.com/df3b493c-23d2-4996-9b79-86009efe3078">EnumDisplayDevices</a>
 
 
 
-<a href="https://msdn.microsoft.com/af73610b-bcd8-4660-800e-84fa0cc5b4eb">
-        EnumDisplaySettings</a>
+<a href="https://msdn.microsoft.com/af73610b-bcd8-4660-800e-84fa0cc5b4eb">EnumDisplaySettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca5368ac-adf6-4f1d-abfd-4615dd0c6a68">
-        VIDEOPARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570173">VIDEOPARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a6111fd-648e-41a9-aaf8-e5d93f5d54cd">
-        WM_DISPLAYCHANGE</a>
+<a href="https://msdn.microsoft.com/5a6111fd-648e-41a9-aaf8-e5d93f5d54cd">WM_DISPLAYCHANGE</a>
  
 
  

@@ -4,10 +4,10 @@ title: IEnroll::put_ProviderFlags
 author: windows-sdk-content
 description: The ProviderFlags property of IEnroll4 sets or retrieves the provider type.
 old-location: security\ienroll4_providerflags.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 57e6f86e-fbd3-4fd7-acdd-146a67045ff8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IEnroll interface [Security],ProviderFlags property, IEnroll.ProviderFlags, IEnroll.put_ProviderFlags, IEnroll::ProviderFlags, IEnroll::get_ProviderFlags, IEnroll::put_ProviderFlags, ProviderFlags property [Security], ProviderFlags property [Security],IEnroll interface, put_ProviderFlags, security.ienroll4_providerflags, xenroll/IEnroll::ProviderFlags, xenroll/IEnroll::get_ProviderFlags, xenroll/IEnroll::put_ProviderFlags
 ms.prod: windows
 ms.technology: windows-sdk

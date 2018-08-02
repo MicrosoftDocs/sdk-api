@@ -4,10 +4,10 @@ title: IDownloadJob::get_IsCompleted
 author: windows-sdk-content
 description: Gets the setting that indicates whether the call to IUpdateDownloader.BeginDownload was processed completely.
 old-location: wua\idownloadjob_iscompleted.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: d63f1bfc-589c-4cd2-95dd-e8c88e7f593c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IDownloadJob interface [Windows Update Agent],IsCompleted property, IDownloadJob.IsCompleted, IDownloadJob.get_IsCompleted, IDownloadJob::IsCompleted, IDownloadJob::get_IsCompleted, IsCompleted property [Windows Update Agent], IsCompleted property [Windows Update Agent],IDownloadJob interface, get_IsCompleted, wua.idownloadjob_iscompleted, wuapi/IDownloadJob::IsCompleted, wuapi/IDownloadJob::get_IsCompleted
 ms.prod: windows
 ms.technology: windows-sdk

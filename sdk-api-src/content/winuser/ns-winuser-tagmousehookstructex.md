@@ -7,7 +7,7 @@ old-location: winmsg\mousehookstructex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\mousehookstructex.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPMOUSEHOOKSTRUCTEX, *PMOUSEHOOKSTRUCTEX, LPMOUSEHOOKSTRUCTEX, LPMOUSEHOOKSTRUCTEX structure pointer [Windows and Messages], MOUSEHOOKSTRUCTEX, MOUSEHOOKSTRUCTEX structure [Windows and Messages], PMOUSEHOOKSTRUCTEX, PMOUSEHOOKSTRUCTEX structure pointer [Windows and Messages], XBUTTON1, XBUTTON2, _win32_MOUSEHOOKSTRUCTEX_str, _win32_mousehookstructex_str_cpp, tagMOUSEHOOKSTRUCTEX, winmsg.mousehookstructex, winui._win32_mousehookstructex_str, winuser/LPMOUSEHOOKSTRUCTEX, winuser/MOUSEHOOKSTRUCTEX, winuser/PMOUSEHOOKSTRUCTEX"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,9 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Contains information about a mouse event passed to a <b>WH_MOUSE</b> hook procedure, <a href="https://msdn.microsoft.com/library/ms644988(v=VS.85).aspx">MouseProc</a>. 
+Contains information about a mouse event passed to a <b>WH_MOUSE</b> hook procedure, <a href="https://msdn.microsoft.com/en-us/library/ms644988(v=VS.85).aspx">MouseProc</a>. 
 
-This is an extension of the <a href="https://msdn.microsoft.com/library/ms644968(v=VS.85).aspx">MOUSEHOOKSTRUCT</a> structure that includes information about wheel movement or the use of the X button.
+This is an extension of the <a href="https://msdn.microsoft.com/en-us/library/ms644968(v=VS.85).aspx">MOUSEHOOKSTRUCT</a> structure that includes information about wheel movement or the use of the X button.
 
 
 ## -struct-fields
@@ -65,9 +65,9 @@ This is an extension of the <a href="https://msdn.microsoft.com/library/ms644968
 
 Type: <b>DWORD</b>
 
-If the message is <a href="https://msdn.microsoft.com/library/ms645617(v=VS.85).aspx">WM_MOUSEWHEEL</a>, the HIWORD of this member is the wheel delta. The LOWORD is undefined and reserved. A positive value indicates that the wheel was rotated forward, away from the user; a negative value indicates that the wheel was rotated backward, toward the user. One wheel click is defined as WHEEL_DELTA, which is 120. 
+If the message is <a href="https://msdn.microsoft.com/en-us/library/ms645617(v=VS.85).aspx">WM_MOUSEWHEEL</a>, the HIWORD of this member is the wheel delta. The LOWORD is undefined and reserved. A positive value indicates that the wheel was rotated forward, away from the user; a negative value indicates that the wheel was rotated backward, toward the user. One wheel click is defined as WHEEL_DELTA, which is 120. 
 
-If the message is <a href="https://msdn.microsoft.com/library/ms646245(v=VS.85).aspx">WM_XBUTTONDOWN</a>, <a href="https://msdn.microsoft.com/library/ms646246(v=VS.85).aspx">WM_XBUTTONUP</a>, <a href="https://msdn.microsoft.com/library/ms646244(v=VS.85).aspx">WM_XBUTTONDBLCLK</a>, <a href="https://msdn.microsoft.com/library/ms645632(v=VS.85).aspx">WM_NCXBUTTONDOWN</a>, <a href="https://msdn.microsoft.com/library/ms646240(v=VS.85).aspx">WM_NCXBUTTONUP</a>, or <a href="https://msdn.microsoft.com/library/ms645631(v=VS.85).aspx">WM_NCXBUTTONDBLCLK</a>, the HIWORD of 
+If the message is <a href="https://msdn.microsoft.com/en-us/library/ms646245(v=VS.85).aspx">WM_XBUTTONDOWN</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646246(v=VS.85).aspx">WM_XBUTTONUP</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646244(v=VS.85).aspx">WM_XBUTTONDBLCLK</a>, <a href="https://msdn.microsoft.com/en-us/library/ms645632(v=VS.85).aspx">WM_NCXBUTTONDOWN</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646240(v=VS.85).aspx">WM_NCXBUTTONUP</a>, or <a href="https://msdn.microsoft.com/en-us/library/ms645631(v=VS.85).aspx">WM_NCXBUTTONDBLCLK</a>, the HIWORD of 
 						<b>mouseData</b> specifies which X button was pressed or released, and the LOWORD is undefined and reserved. This member can be one or more of the following values. Otherwise, 
 						<b>mouseData</b> is not used. 
 
@@ -111,9 +111,9 @@ The second X button was pressed or released.
 
 #### - MOUSEHOOKSTRUCT
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms644968(v=VS.85).aspx">MOUSEHOOKSTRUCT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms644968(v=VS.85).aspx">MOUSEHOOKSTRUCT</a></b>
 
-The members of a <a href="https://msdn.microsoft.com/library/ms644968(v=VS.85).aspx">MOUSEHOOKSTRUCT</a> structure make up the first part of this structure. 
+The members of a <a href="https://msdn.microsoft.com/en-us/library/ms644968(v=VS.85).aspx">MOUSEHOOKSTRUCT</a> structure make up the first part of this structure. 
 
 
 ## -see-also
@@ -125,15 +125,15 @@ The members of a <a href="https://msdn.microsoft.com/library/ms644968(v=VS.85).a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632589(v=VS.85).aspx">Hooks</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644968(v=VS.85).aspx">MOUSEHOOKSTRUCT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644968(v=VS.85).aspx">MOUSEHOOKSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644988(v=VS.85).aspx">MouseProc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644988(v=VS.85).aspx">MouseProc</a>
 
 
 
@@ -141,31 +141,31 @@ The members of a <a href="https://msdn.microsoft.com/library/ms644968(v=VS.85).a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645617(v=VS.85).aspx">WM_MOUSEWHEEL</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645617(v=VS.85).aspx">WM_MOUSEWHEEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645631(v=VS.85).aspx">WM_NCXBUTTONDBLCLK</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645631(v=VS.85).aspx">WM_NCXBUTTONDBLCLK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645632(v=VS.85).aspx">WM_NCXBUTTONDOWN</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645632(v=VS.85).aspx">WM_NCXBUTTONDOWN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646240(v=VS.85).aspx">WM_NCXBUTTONUP</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646240(v=VS.85).aspx">WM_NCXBUTTONUP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646244(v=VS.85).aspx">WM_XBUTTONDBLCLK</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646244(v=VS.85).aspx">WM_XBUTTONDBLCLK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646245(v=VS.85).aspx">WM_XBUTTONDOWN</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646245(v=VS.85).aspx">WM_XBUTTONDOWN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646246(v=VS.85).aspx">WM_XBUTTONUP</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646246(v=VS.85).aspx">WM_XBUTTONUP</a>
  
 
  

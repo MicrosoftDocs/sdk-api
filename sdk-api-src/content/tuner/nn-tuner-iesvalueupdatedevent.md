@@ -7,7 +7,7 @@ old-location: mstv\iesvalueupdatedevent.htm
 old-project: mstv
 ms.assetid: 6639c483-aebe-43b4-94cd-494b820c1b14
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IESValueUpdatedEvent, IESValueUpdatedEvent interface [Microsoft TV Technologies], IESValueUpdatedEvent interface [Microsoft TV Technologies],described, mstv.iesvalueupdatedevent, tuner/IESValueUpdatedEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ The <b>IESValueUpdatedEvent</b> interface has these methods.
 <a href="https://msdn.microsoft.com/bc008b4a-fa6f-4b62-90da-417813081344">GetValueNames</a>
 </td>
 <td align="left" width="63%">
-
-      For a name-value pair in the PBDA General Purpose Name-Value Service, gets the name that has been updated. 
+For a name-value pair in the PBDA General Purpose Name-Value Service, gets the name that has been updated. 
 
 
 </td>

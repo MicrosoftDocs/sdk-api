@@ -4,10 +4,10 @@ title: TSPI_lineGetCallAddressID function
 author: windows-sdk-content
 description: The TSPI_lineGetCallAddressID function retrieves the address identifier for the indicated call.
 old-location: tspi\tspi_linegetcalladdressid.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 8dffbaa5-77fc-4653-84f9-f8e08141ee0e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: TSPI_lineGetCallAddressID, TSPI_lineGetCallAddressID function [TAPI 2.2], _tspi_tspi_linegetcalladdressid, tspi.tspi_linegetcalladdressid, tspi/TSPI_lineGetCallAddressID
 ms.prod: windows
 ms.technology: windows-sdk

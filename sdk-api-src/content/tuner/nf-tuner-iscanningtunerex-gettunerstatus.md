@@ -7,7 +7,7 @@ old-location: mstv\iscanningtunerex_gettunerstatus.htm
 old-project: mstv
 ms.assetid: 9e91f5ca-5a2e-414e-bf4c-882ba6a08b98
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetTunerStatus, GetTunerStatus method [Microsoft TV Technologies], GetTunerStatus method [Microsoft TV Technologies],IScanningTunerEx interface, IScanningTunerEx interface [Microsoft TV Technologies],GetTunerStatus method, IScanningTunerEx.GetTunerStatus, IScanningTunerEx::GetTunerStatus, IScanningTunerExGetTunerStatus, mstv.iscanningtunerex_gettunerstatus, tuner/IScanningTunerEx::GetTunerStatus
 ms.prod: windows
 ms.technology: windows-sdk

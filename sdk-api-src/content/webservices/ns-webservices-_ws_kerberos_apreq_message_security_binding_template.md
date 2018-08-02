@@ -7,7 +7,7 @@ old-location: wsw\ws_kerberos_apreq_message_security_binding_template.htm
 old-project: wsw
 ms.assetid: 7dabbc5e-2953-43dc-8ee9-e4ac3114c85a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE, WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], _WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE, webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE, wsw.ws_kerberos_apreq_message_security_binding_template
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        The security binding template for specifying the use of the Kerberos
+The security binding template for specifying the use of the Kerberos
         AP_REQ ticket as a direct (i.e., without establishing a session)
         security token with WS-Security.
       
@@ -68,15 +67,13 @@ See also <a href="https://msdn.microsoft.com/03127248-f5cc-44da-9c3d-abf016dd6bb
 
 ### -field securityBindingProperties
 
-
-          Application provided security binding properties that cannot be represented in policy.
+Application provided security binding properties that cannot be represented in policy.
         
 
 
 ### -field clientCredential
 
-
-          The Windows credential to be used to obtain the Kerberos ticket.  This
+The Windows credential to be used to obtain the Kerberos ticket.  This
           field is required on the client side, but must be <b>NULL</b> on the server
           side.
         

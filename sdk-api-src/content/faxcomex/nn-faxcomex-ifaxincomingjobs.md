@@ -121,7 +121,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count
 
 
 
-To create a <b>FaxIncomingJobs</b> object in C++, call the <a href="https://msdn.microsoft.com/c739a92b-4b3e-4ab5-8b17-4bc4db19ed0b">IFaxIncomingQueue::GetJobs</a> method.
+To create a <b>FaxIncomingJobs</b> object in C++, call the <a href="https://msdn.microsoft.com/en-us/library/ms686761(v=VS.85).aspx">IFaxIncomingQueue::GetJobs</a> method.
 
 
 

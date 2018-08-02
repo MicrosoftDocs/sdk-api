@@ -4,10 +4,10 @@ title: IUpdateHistoryEntry::get_Title
 author: windows-sdk-content
 description: Gets the title of an update.
 old-location: wua\iupdatehistoryentry_title.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 8a49fddf-ebaf-403e-bb7f-705ab08395eb
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],Title property, IUpdateHistoryEntry.Title, IUpdateHistoryEntry.get_Title, IUpdateHistoryEntry::Title, IUpdateHistoryEntry::get_Title, Title property [Windows Update Agent], Title property [Windows Update Agent],IUpdateHistoryEntry interface, get_Title, wua.iupdatehistoryentry_title, wuapi/IUpdateHistoryEntry::Title, wuapi/IUpdateHistoryEntry::get_Title
 ms.prod: windows
 ms.technology: windows-sdk

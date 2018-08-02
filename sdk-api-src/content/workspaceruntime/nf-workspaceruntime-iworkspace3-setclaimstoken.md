@@ -4,10 +4,10 @@ title: IWorkspace3::SetClaimsToken
 author: windows-sdk-content
 description: Sets the claims token.
 old-location: termserv\iworkspace3_setclaimstoken.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 221b0e8f-b43a-4942-9e70-152daf5b1ef0
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWorkspace3 interface [Remote Desktop Services],SetClaimsToken method, IWorkspace3.SetClaimsToken, IWorkspace3::SetClaimsToken, SetClaimsToken, SetClaimsToken method [Remote Desktop Services], SetClaimsToken method [Remote Desktop Services],IWorkspace3 interface, termserv.iworkspace3_setclaimstoken, workspaceruntime/IWorkspace3::SetClaimsToken
 ms.prod: windows
 ms.technology: windows-sdk

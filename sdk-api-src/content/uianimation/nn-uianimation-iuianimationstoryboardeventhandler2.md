@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboardeventhandler2.htm
 old-project: UIAnimation
 ms.assetid: 2AB8C0C5-2203-4778-BBEA-6D52B727FDDB
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationStoryboardEventHandler2, IUIAnimationStoryboardEventHandler2 interface [Windows Animation], IUIAnimationStoryboardEventHandler2 interface [Windows Animation],described, uianimation.iuianimationstoryboardeventhandler2, uianimation/IUIAnimationStoryboardEventHandler2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IUIAnimationStoryboardEventHandler2</b> interface has these methods.
 <a href="https://msdn.microsoft.com/6C428A75-755D-4171-A714-83FC65A9D972">OnStoryboardStatusChanged</a>
 </td>
 <td align="left" width="63%">
-
-      Handles storyboard status change events.
+Handles storyboard status change events.
 
 </td>
 </tr>
@@ -96,8 +95,7 @@ Handles storyboard update events.
 
 
 
-<a href="https://msdn.microsoft.com/1694B720-891A-4214-A009-6AA722E5B83D">
-      IUIAnimationStoryboard2::GetStatus</a>
+<a href="https://msdn.microsoft.com/1694B720-891A-4214-A009-6AA722E5B83D">IUIAnimationStoryboard2::GetStatus</a>
 
 
 
@@ -109,8 +107,7 @@ Handles storyboard update events.
 
 
 
-<a href="https://msdn.microsoft.com/02830092-0070-44dc-8db2-239941134473">
-      UI_ANIMATION_STORYBOARD_STATUS</a>
+<a href="https://msdn.microsoft.com/02830092-0070-44dc-8db2-239941134473">UI_ANIMATION_STORYBOARD_STATUS</a>
  
 
  

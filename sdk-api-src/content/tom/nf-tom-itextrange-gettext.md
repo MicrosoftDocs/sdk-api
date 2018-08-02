@@ -4,10 +4,10 @@ title: ITextRange::GetText
 author: windows-sdk-content
 description: Gets the plain text in this range. The Text property is the default property of the ITextRange interface.
 old-location: controls\ITextRange_GetText.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettext.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetText, GetText method [Windows Controls], GetText method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetText method, ITextRange.GetText, ITextRange::GetText, _win32_ITextRange_GetText, _win32_ITextRange_GetText_cpp, controls.ITextRange_GetText, controls._win32_ITextRange_GetText, tom/ITextRange::GetText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Gets the plain text in this range. The Text property is the default property of the <a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a> interface.
+Gets the plain text in this range. The Text property is the default property of the <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a> interface.
 
 
 ## -parameters
@@ -111,23 +111,23 @@ Insufficient memory to hold the text.
 
 
 
-The <b>ITextRange::GetText</b> method returns the plain text in the range. The Text property is the default property for <a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>; this is, it is automatically invoked for a range, as  in the following Microsoft Visual Basic for Applications (VBA) example.
+The <b>ITextRange::GetText</b> method returns the plain text in the range. The Text property is the default property for <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>; this is, it is automatically invoked for a range, as  in the following Microsoft Visual Basic for Applications (VBA) example.
 
 <code>print range</code>
 
-Some of the examples below use this fact. The <a href="https://msdn.microsoft.com/library/Bb787831(v=VS.85).aspx">ITextRange::SetText</a> method substitutes <i>bstr</i> for the range text. For processing a single character, the Char property is more efficient than the Text property and does not require creating a single character range for storing a character. If the range is degenerate, the Text property lets you insert text easily. You can also delete the text in a range, as shown in the following VBA examples.
+Some of the examples below use this fact. The <a href="https://msdn.microsoft.com/en-us/library/Bb787831(v=VS.85).aspx">ITextRange::SetText</a> method substitutes <i>bstr</i> for the range text. For processing a single character, the Char property is more efficient than the Text property and does not require creating a single character range for storing a character. If the range is degenerate, the Text property lets you insert text easily. You can also delete the text in a range, as shown in the following VBA examples.
             
 
 <code>range.delete</code>
 
 <code>range = ""</code>
 
-You can use the <b>Text</b> property to copy plain text from one place to another, simply by setting one range equal to another. (This is quite different from the <b>Duplicate</b> property; for more information, see <a href="https://msdn.microsoft.com/library/Bb787840(v=VS.85).aspx">ITextRange::GetDuplicate</a>). The following Microsoft Visual Basic example statement
+You can use the <b>Text</b> property to copy plain text from one place to another, simply by setting one range equal to another. (This is quite different from the <b>Duplicate</b> property; for more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb787840(v=VS.85).aspx">ITextRange::GetDuplicate</a>). The following Microsoft Visual Basic example statement
                 sets the text in the range1 to that in range2.
 
 <code>range1 = range2            ' Replace range1's text by range2's</code>
 
-The ranges can be in different stories or even in different applications. However, they do imply copying the text first into a <b>BSTR</b> and then from that string to the target location. For large amounts of text, the <a href="https://msdn.microsoft.com/library/Bb787742(v=VS.85).aspx">ITextRange::Copy</a> and <a href="https://msdn.microsoft.com/library/Bb774095(v=VS.85).aspx">ITextRange::Paste</a> methods can be faster, since they can perform the copy directly from source to target and with any format supported by the source and target.
+The ranges can be in different stories or even in different applications. However, they do imply copying the text first into a <b>BSTR</b> and then from that string to the target location. For large amounts of text, the <a href="https://msdn.microsoft.com/en-us/library/Bb787742(v=VS.85).aspx">ITextRange::Copy</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774095(v=VS.85).aspx">ITextRange::Paste</a> methods can be faster, since they can perform the copy directly from source to target and with any format supported by the source and target.
 
 The text returned by the Text property is given in Unicode. The end-of-paragraph mark may be given by 0x2029 (the Unicode Paragraph Separator), or by carriage return/line feed (CR/LF) (0xd, 0xa), or by a carriage return alone, depending on the original file. Microsoft Word uses a carriage return alone, unless it reads another choice in from a file, the clipboard, or an <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>. The placeholder for an embedded object is given by the special character, <b>WCH_EMBEDDING</b>, which has the Unicode value 0xFFFC.
 
@@ -147,15 +147,15 @@ The text returned by the Text property is given in Unicode. The end-of-paragraph
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787840(v=VS.85).aspx">GetDuplicate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787840(v=VS.85).aspx">GetDuplicate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774095(v=VS.85).aspx">Paste</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774095(v=VS.85).aspx">Paste</a>
 
 
 
@@ -163,7 +163,7 @@ The text returned by the Text property is given in Unicode. The end-of-paragraph
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

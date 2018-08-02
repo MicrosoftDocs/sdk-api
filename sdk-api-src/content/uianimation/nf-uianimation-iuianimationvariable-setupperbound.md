@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable_setupperbound.htm
 old-project: UIAnimation
 ms.assetid: d202f453-2e69-415b-823c-5a3279722274
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetUpperBound method, IUIAnimationVariable.SetUpperBound, IUIAnimationVariable::SetUpperBound, SetUpperBound, SetUpperBound method [Windows Animation], SetUpperBound method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setupperbound, uianimation/IUIAnimationVariable::SetUpperBound
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Sets an upper bound (ceiling) for the animation variable. The value of the animation variable should not rise above the specified value.
+Sets an upper bound (ceiling) for the animation variable. The value of the animation variable should not rise above the specified value.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param bound [in]
 
-
-                The upper bound for the animation variable.
+The upper bound for the animation variable.
 
 
 ## -returns
@@ -88,8 +86,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://msdn.microsoft.com/577f83c1-aba7-4a51-82dc-68a103a31377">
-      IUIAnimationVariable::GetFinalValue</a>
+<a href="https://msdn.microsoft.com/577f83c1-aba7-4a51-82dc-68a103a31377">IUIAnimationVariable::GetFinalValue</a>
 
 
 
@@ -101,8 +98,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://msdn.microsoft.com/405bc35e-8b38-40fb-acf4-107fa6dd161a">
-      IUIAnimationVariable::GetPreviousValue</a>
+<a href="https://msdn.microsoft.com/405bc35e-8b38-40fb-acf4-107fa6dd161a">IUIAnimationVariable::GetPreviousValue</a>
 
 
 
@@ -110,8 +106,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://msdn.microsoft.com/1e8f1106-6320-4670-867a-24ce6597026e">
-      IUIAnimationVariable::SetLowerBound</a>
+<a href="https://msdn.microsoft.com/1e8f1106-6320-4670-867a-24ce6597026e">IUIAnimationVariable::SetLowerBound</a>
  
 
  

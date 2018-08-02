@@ -65,7 +65,7 @@ This property is read-only.
 
 The value of this property is provided in <b>Date</b> format, but represents elapsed time, not the date and time. The value of this property is undefined if there is no job being executed on the device.
 
-You can use the <b>ElapsedTime</b> property of a <a href="https://msdn.microsoft.com/library/ms691355(v=VS.85).aspx">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/c9611619-b7b4-486d-b8fa-a8de8a50fae4">StartTime</a> property of the object to inform users about the transmission length of a fax job.
+You can use the <b>ElapsedTime</b> property of a <a href="https://msdn.microsoft.com/library/ms691355(v=VS.85).aspx">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/ms692322(v=VS.85).aspx">StartTime</a> property of the object to inform users about the transmission length of a fax job.
 
 
 

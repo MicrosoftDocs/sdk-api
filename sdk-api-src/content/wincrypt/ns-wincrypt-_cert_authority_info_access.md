@@ -4,10 +4,10 @@ title: "_CERT_AUTHORITY_INFO_ACCESS"
 author: windows-sdk-content
 description: Represents authority information access and subject information access certificate extensions and specifies how to access additional information and services for the subject or the issuer of a certificate.
 old-location: security\cert_authority_info_access.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 5f4abb15-3057-4d20-a319-550cec45d1f1
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCERT_AUTHORITY_INFO_ACCESS, *PCERT_SUBJECT_INFO_ACCESS, CERT_AUTHORITY_INFO_ACCESS, CERT_AUTHORITY_INFO_ACCESS structure [Security], CERT_SUBJECT_INFO_ACCESS, CERT_SUBJECT_INFO_ACCESS structure [Security], PCERT_AUTHORITY_INFO_ACCESS, PCERT_AUTHORITY_INFO_ACCESS structure pointer [Security], PCERT_SUBJECT_INFO_ACCESS, PCERT_SUBJECT_INFO_ACCESS structure pointer [Security], _CERT_AUTHORITY_INFO_ACCESS, _crypto2_cert_authority_info_access, security.cert_authority_info_access, wincrypt/CERT_AUTHORITY_INFO_ACCESS, wincrypt/CERT_SUBJECT_INFO_ACCESS, wincrypt/PCERT_AUTHORITY_INFO_ACCESS, wincrypt/PCERT_SUBJECT_INFO_ACCESS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ An array of pointers to
 
 
 
-
-				The type of information represented by this structure depends on the access methods specified by the <a href="https://msdn.microsoft.com/5e1e5b04-92af-45b1-acfd-17852c245d89">CERT_ACCESS_DESCRIPTION</a> structures in the <i>rgAccDescr</i> array. For more information about access methods, the authority information access extension, and the subject information access extension, see <a href="http://go.microsoft.com/fwlink/p/?linkid=104367">RFC 3280</a>.
+The type of information represented by this structure depends on the access methods specified by the <a href="https://msdn.microsoft.com/5e1e5b04-92af-45b1-acfd-17852c245d89">CERT_ACCESS_DESCRIPTION</a> structures in the <i>rgAccDescr</i> array. For more information about access methods, the authority information access extension, and the subject information access extension, see <a href="http://go.microsoft.com/fwlink/p/?linkid=104367">RFC 3280</a>.
 
 The <a href="https://msdn.microsoft.com/7d5ed4f4-9d76-4a16-9059-27b0edd83459">CryptDecodeObject</a> function creates an instance of this structure when decoding a 
 <a href="https://msdn.microsoft.com/787a4df0-c0e3-46b9-a7e6-eb3bee3ed717">CERT_EXTENSION</a> structure's <b>Value</b> member and the <b>pszObjId</b> member of the <b>CERT_EXTENSION</b> structure is set to szOID_AUTHORITY_INFO_ACCESS or szOID_SUBJECT_INFO_ACCESS.

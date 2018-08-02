@@ -7,7 +7,7 @@ old-location: wsw\ws_bytes_description.htm
 old-project: wsw
 ms.assetid: 0c5384f9-0f6c-4523-bacb-ec3dd7321648
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_BYTES_DESCRIPTION, WS_BYTES_DESCRIPTION structure [Web Services for Windows], _WS_BYTES_DESCRIPTION, webservices/WS_BYTES_DESCRIPTION, wsw.ws_bytes_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies constraints on the set of values
+Specifies constraints on the set of values
                 which can be deserialized. This type description is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_BYTES_TYPE</a> and is optional.
 
 
@@ -63,14 +62,12 @@ req.product: Windows Address Book 5.0
 
 ### -field minByteCount
 
-
-                    Specifies the minimum number of bytes.
+Specifies the minimum number of bytes.
                 
 
 
 ### -field maxByteCount
 
-
-                    Specifies the maximum number of bytes.
+Specifies the maximum number of bytes.
                 
 

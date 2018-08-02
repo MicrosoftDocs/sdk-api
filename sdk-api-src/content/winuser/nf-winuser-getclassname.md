@@ -7,7 +7,7 @@ old-location: winmsg\getclassname.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclassname.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: GetClassName, GetClassName function [Windows and Messages], GetClassNameA, GetClassNameW, _win32_GetClassName, _win32_getclassname_cpp, winmsg.getclassname, winui._win32_getclassname, winuser/GetClassName, winuser/GetClassNameA, winuser/GetClassNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,19 +120,19 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633499(v=VS.85).aspx">FindWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633499(v=VS.85).aspx">FindWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633578(v=VS.85).aspx">GetClassInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633578(v=VS.85).aspx">GetClassInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633580(v=VS.85).aspx">GetClassLong</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633580(v=VS.85).aspx">GetClassLong</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633583(v=VS.85).aspx">GetClassWord</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633583(v=VS.85).aspx">GetClassWord</a>
 
 
 
@@ -140,7 +140,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632596(v=VS.85).aspx">Window Classes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632596(v=VS.85).aspx">Window Classes</a>
  
 
  

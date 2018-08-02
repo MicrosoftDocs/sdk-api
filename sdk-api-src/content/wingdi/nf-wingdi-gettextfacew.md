@@ -7,7 +7,7 @@ old-location: gdi\gettextface.htm
 old-project: gdi
 ms.assetid: c4c8c8f5-3651-481b-a55f-da7f49d92f3a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetTextFace, GetTextFace function [Windows GDI], GetTextFaceA, GetTextFaceW, _win32_GetTextFace, gdi.gettextface, wingdi/GetTextFace, wingdi/GetTextFaceA, wingdi/GetTextFaceW
 ms.prod: windows
 ms.technology: windows-sdk

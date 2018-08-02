@@ -7,7 +7,7 @@ old-location: wsw\ws_http_header_auth_security_binding_policy_description.htm
 old-project: wsw
 ms.assetid: a8e879ef-f154-43f4-9191-db62baa504f7
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_POLICY_DESCRIPTION, WS_HTTP_HEADER_AUTH_SECURITY_BINDING_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_HTTP_HEADER_AUTH_SECURITY_BINDING_POLICY_DESCRIPTION, webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING_POLICY_DESCRIPTION, wsw.ws_http_header_auth_security_binding_policy_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,13 +51,11 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        This type description is used with template APIs to describe
+This type description is used with template APIs to describe
         the templates generated accordingly to input policy setting.
       
 
-
-        See also,
+See also,
         <a href="https://msdn.microsoft.com/09a6ee60-ffed-4bab-8747-61c9fee69695">WsCreateServiceProxyFromTemplate</a>,
         <a href="https://msdn.microsoft.com/433194eb-ac42-4b6a-a1c0-7260a7aabeeb">WsCreateServiceEndpointFromTemplate</a>
 
@@ -70,7 +68,6 @@ req.product: Windows Address Book 5.0
 
 ### -field securityBindingProperties
 
-
-          Specifies the security binding properties according to the specific policy.
+Specifies the security binding properties according to the specific policy.
         
 

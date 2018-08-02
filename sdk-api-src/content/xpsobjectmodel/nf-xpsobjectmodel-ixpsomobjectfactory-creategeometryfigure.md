@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_creategeometryfigure.htm
 old-project: printdocs
 ms.assetid: d9138dbc-5a9e-4653-bab2-71f6d716eba6
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CreateGeometryFigure, CreateGeometryFigure method [XPS Documents and Packaging], CreateGeometryFigure method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateGeometryFigure method, IXpsOMObjectFactory.CreateGeometryFigure, IXpsOMObjectFactory::CreateGeometryFigure, xps.ixpsomobjectfactory_creategeometryfigure, xpsobjectmodel/IXpsOMObjectFactory::CreateGeometryFigure
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,8 +66,7 @@ The coordinates of the starting point of the geometry figure.
 
 ### -param figure [out, retval]
 
-
-            A pointer to the new  <a href="https://msdn.microsoft.com/e76a14ce-cfc3-4a50-855e-f5779b9fc261">IXpsOMGeometryFigure</a> interface.
+A pointer to the new  <a href="https://msdn.microsoft.com/e76a14ce-cfc3-4a50-855e-f5779b9fc261">IXpsOMGeometryFigure</a> interface.
           
 
 

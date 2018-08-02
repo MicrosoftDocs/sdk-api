@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromrip_startrip.htm
 old-project: WMP
 ms.assetid: 88ba1e83-a3c5-4922-8c58-37993ccb4afc
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPCdromRip interface [Windows Media Player],startRip method, IWMPCdromRip.startRip, IWMPCdromRip::startRip, IWMPCdromRipstartRip, startRip, startRip method [Windows Media Player], startRip method [Windows Media Player],IWMPCdromRip interface, wmp.iwmpcdromrip_startrip, wmp/IWMPCdromRip::startRip
 ms.prod: windows
 ms.technology: windows-sdk

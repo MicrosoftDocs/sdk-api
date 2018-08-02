@@ -7,7 +7,7 @@ old-location: winauto\RegisterPointerInputTarget.htm
 old-project: WinAuto
 ms.assetid: 75faea24-91cd-448b-b67a-09fe530f1830
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: RegisterPointerInputTarget, RegisterPointerInputTarget function [Windows Accessibility], inputmsg.registerpointerinputtarget, winauto.RegisterPointerInputTarget, winuser/RegisterPointerInputTarget
 ms.prod: windows
 ms.technology: windows-sdk

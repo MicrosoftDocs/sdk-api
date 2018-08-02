@@ -7,7 +7,7 @@ old-location: wsw\ws_unique_id_description.htm
 old-project: wsw
 ms.assetid: d00695e6-2c3d-4eff-b5cd-f4f81954fb0f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_UNIQUE_ID_DESCRIPTION, WS_UNIQUE_ID_DESCRIPTION structure [Web Services for Windows], _WS_UNIQUE_ID_DESCRIPTION, webservices/WS_UNIQUE_ID_DESCRIPTION, wsw.ws_unique_id_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                
-                An optional type description used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_UNIQUE_ID_TYPE</a> to specify constraints on the set of values
+An optional type description used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_UNIQUE_ID_TYPE</a> to specify constraints on the set of values
                 which can be deserialized.
             
 
@@ -65,16 +63,14 @@ req.product: Windows Address Book 5.0
 
 ### -field minCharCount
 
-
-                    The minimum number of characters.  This only pertains 
+The minimum number of characters.  This only pertains 
                     to the case where the unique ID is represented as a string.
                 
 
 
 ### -field maxCharCount
 
-
-                    The maximum number of characters.  This only pertains
+The maximum number of characters.  This only pertains
                     to the case where the unique ID is represented as a string.
                 
 

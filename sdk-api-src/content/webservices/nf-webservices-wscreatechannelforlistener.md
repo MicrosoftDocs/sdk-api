@@ -7,7 +7,7 @@ old-location: wsw\wscreatechannelforlistener.htm
 old-project: wsw
 ms.assetid: d9a80506-d891-4cfd-b120-0d3fce946cf5
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCreateChannelForListener, WsCreateChannelForListener function [Web Services for Windows], webservices/WsCreateChannelForListener, wsw.wscreatechannelforlistener
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ The number of  properties in the <i>properties</i> array.
 
 ### -param channel
 
-
-                    On success, a pointer that receives the address of the created channel.   
+On success, a pointer that receives the address of the created channel.   
                     When the channel  is no longer needed, you must free  it by calling <a href="https://msdn.microsoft.com/74e36d19-c6db-4bba-90e3-88a48b6a1fb5">WsFreeChannel</a>.
                 
 
@@ -111,7 +110,6 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -123,7 +121,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 Insufficient memory to complete the operation.
 
 </td>
@@ -149,12 +146,10 @@ This function may return other errors not listed above.
 
 
 
-
-                To accept an incoming message exchange, call the <a href="https://msdn.microsoft.com/e18e0005-89bd-435e-9a12-6602c3c638b7">WsAcceptChannel</a> function.
+To accept an incoming message exchange, call the <a href="https://msdn.microsoft.com/e18e0005-89bd-435e-9a12-6602c3c638b7">WsAcceptChannel</a> function.
             
 
-
-                The security characteristics of the channel are the same as those 
+The security characteristics of the channel are the same as those 
                 specified for the listener.
             
 

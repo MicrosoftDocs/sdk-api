@@ -7,7 +7,7 @@ old-location: xps\ixpsompagereference.htm
 old-project: printdocs
 ms.assetid: cdebab24-f918-4235-b4d5-5ee1007ade87
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents and Packaging], IXpsOMPageReference interface [XPS Documents and Packaging],described, xps.ixpsompagereference, xpsobjectmodel/IXpsOMPageReference
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ Makes a deep copy of the interface.
 <a href="https://msdn.microsoft.com/82c64e8a-d8fb-41e3-95f8-b8ca490eae78">CollectLinkTargets</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an  <a href="https://msdn.microsoft.com/b27f83fc-0fcf-44e9-a6ce-c3612c5399ff">IXpsOMNameCollection</a> interface that contains the names of all the document sub-tree objects whose  <b>IsHyperlinkTarget</b> property is set to <b>true</b>.
+Gets an  <a href="https://msdn.microsoft.com/b27f83fc-0fcf-44e9-a6ce-c3612c5399ff">IXpsOMNameCollection</a> interface that contains the names of all the document sub-tree objects whose  <b>IsHyperlinkTarget</b> property is set to <b>true</b>.
             
 
 </td>
@@ -123,8 +122,7 @@ Gets the suggested dimensions of the page.
 <a href="https://msdn.microsoft.com/1229972d-ae0f-41db-aafb-99d9647360e1">GetOwner</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/22d3c0a1-3ad5-4f48-9e1e-eaf3bd95b39f">IXpsOMDocument</a> interface that contains the page reference.
+Gets a pointer to the <a href="https://msdn.microsoft.com/22d3c0a1-3ad5-4f48-9e1e-eaf3bd95b39f">IXpsOMDocument</a> interface that contains the page reference.
             
 
 </td>
@@ -134,8 +132,7 @@ Gets the suggested dimensions of the page.
 <a href="https://msdn.microsoft.com/0004217f-f379-4175-bbce-eea93d96f37f">GetPage</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/741deebd-9dce-4cd9-883e-4586c10a4609">IXpsOMPage</a> interface that contains the page.
+Gets a pointer to the <a href="https://msdn.microsoft.com/741deebd-9dce-4cd9-883e-4586c10a4609">IXpsOMPage</a> interface that contains the page.
             
 
 </td>
@@ -145,8 +142,7 @@ Gets the suggested dimensions of the page.
 <a href="https://msdn.microsoft.com/a205f18c-f8dd-4241-b1fd-b6505fb5bad9">GetPrintTicketResource</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the  <a href="https://msdn.microsoft.com/2f37dbd2-3078-4aa8-97e7-556a0ff2dd74">IXpsOMPrintTicketResource</a> interface of the page-level print ticket resource that is associated with the page.
+Gets a pointer to the  <a href="https://msdn.microsoft.com/2f37dbd2-3078-4aa8-97e7-556a0ff2dd74">IXpsOMPrintTicketResource</a> interface of the page-level print ticket resource that is associated with the page.
             
 
 </td>
@@ -156,8 +152,7 @@ Gets the suggested dimensions of the page.
 <a href="https://msdn.microsoft.com/9b768734-07e3-4917-adb9-29989e7e2b32">GetStoryFragmentsResource</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the  <a href="https://msdn.microsoft.com/83bc8017-c679-40a8-96a8-bff9aa2273af">IXpsOMStoryFragmentsResource</a> interface of the StoryFragments part resource that is associated with the page.
+Gets a pointer to the  <a href="https://msdn.microsoft.com/83bc8017-c679-40a8-96a8-bff9aa2273af">IXpsOMStoryFragmentsResource</a> interface of the StoryFragments part resource that is associated with the page.
             
 
 </td>
@@ -167,8 +162,7 @@ Gets the suggested dimensions of the page.
 <a href="https://msdn.microsoft.com/ec9cc698-892f-4216-b491-cabdfa60deaa">GetThumbnailResource</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface of the  thumbnail image resource that is associated with the page.
+Gets a pointer to the <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface of the  thumbnail image resource that is associated with the page.
             
 
 </td>
@@ -205,8 +199,7 @@ Sets the suggested dimensions of the page.
 <a href="https://msdn.microsoft.com/7d1381ad-6ac8-4ea4-99a2-8bc5d95773c7">SetPage</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <a href="https://msdn.microsoft.com/741deebd-9dce-4cd9-883e-4586c10a4609">IXpsOMPage</a> interface of the page reference.
+Sets the <a href="https://msdn.microsoft.com/741deebd-9dce-4cd9-883e-4586c10a4609">IXpsOMPage</a> interface of the page reference.
             
 
 </td>
@@ -216,8 +209,7 @@ Sets the suggested dimensions of the page.
 <a href="https://msdn.microsoft.com/76594c7d-327d-45a5-8947-c587ada7b758">SetPrintTicketResource</a>
 </td>
 <td align="left" width="63%">
-
-              Sets  the <a href="https://msdn.microsoft.com/2f37dbd2-3078-4aa8-97e7-556a0ff2dd74">IXpsOMPrintTicketResource</a> interface pointer of the page-level print ticket resource that is to be assigned to the page.
+Sets  the <a href="https://msdn.microsoft.com/2f37dbd2-3078-4aa8-97e7-556a0ff2dd74">IXpsOMPrintTicketResource</a> interface pointer of the page-level print ticket resource that is to be assigned to the page.
             
 
 </td>
@@ -227,8 +219,7 @@ Sets the suggested dimensions of the page.
 <a href="https://msdn.microsoft.com/0e096e8f-d2f1-4dcb-9a86-c56ff53393d1">SetStoryFragmentsResource</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <a href="https://msdn.microsoft.com/83bc8017-c679-40a8-96a8-bff9aa2273af">IXpsOMStoryFragmentsResource</a> interface pointer of the StoryFragments resource to be assigned to the page.
+Sets the <a href="https://msdn.microsoft.com/83bc8017-c679-40a8-96a8-bff9aa2273af">IXpsOMStoryFragmentsResource</a> interface pointer of the StoryFragments resource to be assigned to the page.
             
 
 </td>
@@ -238,8 +229,7 @@ Sets the suggested dimensions of the page.
 <a href="https://msdn.microsoft.com/b44c041d-dccd-4b64-b85b-454b203b865b">SetThumbnailResource</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the pointer to the <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface of the thumbnail image resource to be assigned to the page.
+Sets the pointer to the <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface of the thumbnail image resource to be assigned to the page.
             
 
 </td>

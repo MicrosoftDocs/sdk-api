@@ -4,10 +4,10 @@ title: MoveFileTransactedA function
 author: windows-sdk-content
 description: Moves an existing file or a directory, including its children, as a transacted operation.
 old-location: fs\movefiletransacted.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 466d733b-30d2-4297-a0e6-77038f1a21d5
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: MOVEFILE_COPY_ALLOWED, MOVEFILE_CREATE_HARDLINK, MOVEFILE_DELAY_UNTIL_REBOOT, MOVEFILE_REPLACE_EXISTING, MOVEFILE_WRITE_THROUGH, MoveFileTransacted, MoveFileTransacted function [Files], MoveFileTransactedA, MoveFileTransactedW, fs.movefiletransacted, rename file [Files], winbase/MoveFileTransacted, winbase/MoveFileTransactedA, winbase/MoveFileTransactedW
 ms.prod: windows
 ms.technology: windows-sdk

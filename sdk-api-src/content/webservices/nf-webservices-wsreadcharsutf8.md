@@ -7,7 +7,7 @@ old-location: wsw\wsreadcharsutf8.htm
 old-project: wsw
 ms.assetid: 03326291-a61b-457b-80ca-dbe5bef6bf9d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsReadCharsUtf8, WsReadCharsUtf8 function [Web Services for Windows], webservices/WsReadCharsUtf8, wsw.wsreadcharsutf8
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,7 +108,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -120,7 +119,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -135,13 +133,11 @@ A quota was exceeded.
 
 
 
-
-        XML text is read up to either a start element or end element.  Comments are skipped, and CDATA content is treated
+XML text is read up to either a start element or end element.  Comments are skipped, and CDATA content is treated
         identically to element content.    Character entities are converted to their unescaped form.
       
 
-
-        This function can fail for any of the reasons listed in <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a>.
+This function can fail for any of the reasons listed in <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a>.
       
 
 

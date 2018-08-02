@@ -7,7 +7,7 @@ old-location: menurc\lstrcpyn.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcpyn.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: "_win32_lstrcpyn, _win32_lstrcpyn_cpp, lstrcpyn, lstrcpyn function [Menus and Other Resources], lstrcpynA, lstrcpynW, menurc.lstrcpyn, winbase/lstrcpyn, winbase/lstrcpynA, winbase/lstrcpynW, winui._win32_lstrcpyn"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ req.product: Windows Address Book 5.0
 
 
 Copies a specified number of characters from a source string into a buffer.
-<div class="alert"><b>Warning</b>  Do not use. Consider using <a href="https://msdn.microsoft.com/library/ms647527(v=VS.85).aspx">StringCchCopy</a> instead. See Remarks.</div><div> </div>
+<div class="alert"><b>Warning</b>  Do not use. Consider using <a href="https://msdn.microsoft.com/en-us/library/ms647527(v=VS.85).aspx">StringCchCopy</a> instead. See Remarks.</div><div> </div>
 
 ## -parameters
 
@@ -149,14 +149,14 @@ Buffer overflow situations are the cause
 Using <code>sizeof(szString1)/sizeof(szString1[0])</code> 
 				gives the proper size of the buffer. 
 
-Consider using <a href="https://msdn.microsoft.com/library/ms647527(v=VS.85).aspx">StringCchCopy</a> instead; use either 
+Consider using <a href="https://msdn.microsoft.com/en-us/library/ms647527(v=VS.85).aspx">StringCchCopy</a> instead; use either 
 				<code>StringCchCopy(buffer, sizeof(buffer)/sizeof(buffer[0]), src);</code>, 
 				being aware that <code>buffer</code> must not be a pointer or 
 				use <code>StringCchCopy(buffer, ARRAYSIZE(buffer), src);</code>, 
 				being aware that, when copying to a pointer, the caller is responsible for 
 				passing in the size of the pointed-to memory in characters. 
 
-Review <a href="https://msdn.microsoft.com/library/ms632584(v=VS.85).aspx">Security Considerations: Windows User Interface</a> before continuing.
+Review <a href="https://msdn.microsoft.com/en-us/library/Hh969198(v=VS.85).aspx">Security Considerations: Windows User Interface</a> before continuing.
 
 
 
@@ -174,43 +174,43 @@ Review <a href="https://msdn.microsoft.com/library/ms632584(v=VS.85).aspx">Secur
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647499(v=VS.85).aspx">StringCbCopy</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647499(v=VS.85).aspx">StringCbCopy</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647500(v=VS.85).aspx">StringCbCopyEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647500(v=VS.85).aspx">StringCbCopyEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647501(v=VS.85).aspx">StringCbCopyN</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647501(v=VS.85).aspx">StringCbCopyN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647503(v=VS.85).aspx">StringCbCopyNEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647503(v=VS.85).aspx">StringCbCopyNEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647509(v=VS.85).aspx">StringCbLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647509(v=VS.85).aspx">StringCbLength</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647527(v=VS.85).aspx">StringCchCopy</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647527(v=VS.85).aspx">StringCchCopy</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647529(v=VS.85).aspx">StringCchCopyEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647529(v=VS.85).aspx">StringCchCopyEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647530(v=VS.85).aspx">StringCchCopyN</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647530(v=VS.85).aspx">StringCchCopyN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647533(v=VS.85).aspx">StringCchCopyNEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647533(v=VS.85).aspx">StringCchCopyNEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647539(v=VS.85).aspx">StringCchLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647539(v=VS.85).aspx">StringCchLength</a>
 
 
 
@@ -218,15 +218,15 @@ Review <a href="https://msdn.microsoft.com/library/ms632584(v=VS.85).aspx">Secur
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647488(v=VS.85).aspx">lstrcmp</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647488(v=VS.85).aspx">lstrcmp</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647489(v=VS.85).aspx">lstrcmpi</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647489(v=VS.85).aspx">lstrcmpi</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647492(v=VS.85).aspx">lstrlen</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647492(v=VS.85).aspx">lstrlen</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: xaudio2\ixapoparameters.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixapoparameters.IXAPOParameters
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IXAPOParameters, IXAPOParameters interface [XAudio2 Audio Mixing APIs], IXAPOParameters interface [XAudio2 Audio Mixing APIs],described, xapo/IXAPOParameters, xaudio2.ixapoparameters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ Gets the current values for any effect-specific parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418447(v=VS.85).aspx">SetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418447(v=VS.85).aspx">SetParameters</a>
 </td>
 <td align="left" width="63%">
 Sets effect-specific parameters.

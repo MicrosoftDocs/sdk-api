@@ -7,7 +7,7 @@ old-location: mstv\iesevent_getdata.htm
 old-project: mstv
 ms.assetid: bef529c5-0a97-4eb0-83ca-669edc7a2452
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetData, GetData method [Microsoft TV Technologies], GetData method [Microsoft TV Technologies],IESEvent interface, IESEvent interface [Microsoft TV Technologies],GetData method, IESEvent.GetData, IESEvent::GetData, mstv.iesevent_getdata, tuner/IESEvent::GetData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Gets data from an event that is derived from the <a href="https://msdn.microsoft.com/3c375480-c6df-4bb0-b417-5765b0bed9bf">IESEvent</a> interface. This method gets a byte array that contains the data in an <b>IESEvent</b> object, which is passed in a call to <a href="https://msdn.microsoft.com/3781e50c-ab19-4bfa-86d6-af12223019ca">IESEventService::FireESEvent</a>.
+Gets data from an event that is derived from the <a href="https://msdn.microsoft.com/3c375480-c6df-4bb0-b417-5765b0bed9bf">IESEvent</a> interface. This method gets a byte array that contains the data in an <b>IESEvent</b> object, which is passed in a call to <a href="https://msdn.microsoft.com/3781e50c-ab19-4bfa-86d6-af12223019ca">IESEventService::FireESEvent</a>.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param pbData [out, retval]
 
-
-            Pointer to <b>SAFEARRAY</b> that receives the event data.
+Pointer to <b>SAFEARRAY</b> that receives the event data.
           The caller is responsible for freeing the <b>SAFEARRAY</b>.
 
 

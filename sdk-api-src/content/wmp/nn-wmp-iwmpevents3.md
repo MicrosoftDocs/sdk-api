@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents3.htm
 old-project: WMP
 ms.assetid: 654b7d78-97d4-4770-9729-dd1fed0431d9
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPEvents3, IWMPEvents3 interface [Windows Media Player], IWMPEvents3 interface [Windows Media Player],described, IWMPEvents3Interface, wmp.iwmpevents3, wmp/IWMPEvents3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,11 +61,9 @@ The events provided by <b>IWMPEvents3</b> extend the set of events provided by <
 In addition to the methods inherited from <a href="https://msdn.microsoft.com/61cd0a2e-b94f-4c10-b3e2-ad1dc2a0b17d">IWMPEvents2</a>, the <b>IWMPEvents3</b> interface exposes the following methods.
 <table>
 <tr>
-<th>
-            Method
+<th>Method
           </th>
-<th>
-            Description
+<th>Description
           </th>
 </tr>
 <tr>

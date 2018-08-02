@@ -7,7 +7,7 @@ old-location: ual\ualstart.htm
 old-project: ual
 ms.assetid: 800E8BCF-39A1-490A-9B6A-12EE900B8D17
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: UalStart, UalStart function [User Access Logging], ual.ualstart, ual/UalStart
 ms.prod: windows
 ms.technology: windows-sdk

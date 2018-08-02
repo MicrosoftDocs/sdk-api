@@ -7,7 +7,7 @@ old-location: display\engsavefloatingpointstate.htm
 old-project: display
 ms.assetid: 25e9ae3b-a3a5-438c-84e0-53f2be7ba29c
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: EngSaveFloatingPointState, EngSaveFloatingPointState function [Display Devices], display.engsavefloatingpointstate, gdifncs_624220d2-de91-4558-86aa-94db622660eb.xml, winddi/EngSaveFloatingPointState
 ms.prod: windows
 ms.technology: windows-sdk

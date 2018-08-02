@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_playchapterintitle.htm
 old-project: DirectShow
 ms.assetid: 1ac5072b-d397-4415-b4b9-656fd59a9269
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayChapterInTitle method, IDvdControl2.PlayChapterInTitle, IDvdControl2::PlayChapterInTitle, IDvdControl2PlayChapterInTitle, PlayChapterInTitle, PlayChapterInTitle method [DirectShow], PlayChapterInTitle method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playchapterintitle, strmif/IDvdControl2::PlayChapterInTitle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -143,11 +143,9 @@ This method is demonstrated in the DVDSample application in <b>CDvdCore::PlayCha
 
 <table>
 <tr>
-<td>
-              Annex J Command Name
+<td>Annex J Command Name
             </td>
-<td>
-              Valid Domains
+<td>Valid Domains
             </td>
 </tr>
 <tr>

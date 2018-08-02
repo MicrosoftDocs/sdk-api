@@ -4,10 +4,10 @@ title: IWTSProtocolManager::CreateListener
 author: windows-sdk-content
 description: IWTSProtocolManager::CreateListener is no longer available. Instead, use IWRdsProtocolManager::CreateListener.
 old-location: termserv\iwtsprotocolmanager_createlistener.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 2c947181-5cac-40c1-b993-537b580efafe
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: CreateListener, CreateListener method [Remote Desktop Services], CreateListener method [Remote Desktop Services],IWTSProtocolManager interface, IWTSProtocolManager interface [Remote Desktop Services],CreateListener method, IWTSProtocolManager.CreateListener, IWTSProtocolManager::CreateListener, termserv.iwtsprotocolmanager_createlistener, wtsprotocol/IWTSProtocolManager::CreateListener
 ms.prod: windows
 ms.technology: windows-sdk

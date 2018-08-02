@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaLookupIdAutoMeth.htm
 old-project: WinAuto
 ms.assetid: 9906acea-5246-4f01-8d76-03b89ff2f789
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: UiaLookupId, UiaLookupId function [Windows Accessibility], uiauto.uiauto_UiaLookupIdAutoMeth, uiauto_UiaLookupIdAutoMeth, uiautomationcoreapi/UiaLookupId, winauto.uiauto_UiaLookupIdAutoMeth
 ms.prod: windows
 ms.technology: windows-sdk

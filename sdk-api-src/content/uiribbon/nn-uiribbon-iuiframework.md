@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiframework.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\iuiframework.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: IUIFramework, IUIFramework interface [Windows Ribbon], IUIFramework interface [Windows Ribbon],described, scenicintent_IUIFramework, uiribbon/IUIFramework, windowsribbon.windowsribbon_iuiframework
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-
-			
-				The <b>IUIFramework</b> interface is implemented by the Windows Ribbon framework and defines the methods that provide the core functionality for the framework.
+The <b>IUIFramework</b> interface is implemented by the Windows Ribbon framework and defines the methods that provide the core functionality for the framework.
 
 
 ## -inheritance
@@ -73,7 +71,7 @@ The <b>IUIFramework</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371368(v=VS.85).aspx">Destroy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371368(v=VS.85).aspx">Destroy</a>
 </td>
 <td align="left" width="63%">
 Terminates and releases all objects, hooks, and references for an instance of the Ribbon framework. 
@@ -83,34 +81,31 @@ Terminates and releases all objects, hooks, and references for an instance of th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371369(v=VS.85).aspx">FlushPendingInvalidations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371369(v=VS.85).aspx">FlushPendingInvalidations</a>
 </td>
 <td align="left" width="63%">
-
-			Processes all pending Command updates.
+Processes all pending Command updates.
 		
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371370(v=VS.85).aspx">GetUICommandProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371370(v=VS.85).aspx">GetUICommandProperty</a>
 </td>
 <td align="left" width="63%">
-
-			Retrieves a command property, value, or state.
+Retrieves a command property, value, or state.
 		
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371371(v=VS.85).aspx">GetView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371371(v=VS.85).aspx">GetView</a>
 </td>
 <td align="left" width="63%">
-
-			Retrieves the address of a pointer to an interface that represents a Ribbon framework View, such as <a href="https://msdn.microsoft.com/library/Dd371360(v=VS.85).aspx">IUIRibbon</a> 
-			or <a href="https://msdn.microsoft.com/library/Dd371482(v=VS.85).aspx">IUIContextualUI</a>.
+Retrieves the address of a pointer to an interface that represents a Ribbon framework View, such as <a href="https://msdn.microsoft.com/en-us/library/Dd371360(v=VS.85).aspx">IUIRibbon</a> 
+			or <a href="https://msdn.microsoft.com/en-us/library/Dd371482(v=VS.85).aspx">IUIContextualUI</a>.
 		
 
 </td>
@@ -127,44 +122,40 @@ Connects the host application to the Ribbon framework.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371375(v=VS.85).aspx">InvalidateUICommand</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371375(v=VS.85).aspx">InvalidateUICommand</a>
 </td>
 <td align="left" width="63%">
-
-			Invalidates a Ribbon framework Command property, value, or state. 
+Invalidates a Ribbon framework Command property, value, or state. 
 		
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371471(v=VS.85).aspx">LoadUI</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371471(v=VS.85).aspx">LoadUI</a>
 </td>
 <td align="left" width="63%">
-
-			Loads the Ribbon framework UI resource, or compiled markup, file.
+Loads the Ribbon framework UI resource, or compiled markup, file.
 		
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371476(v=VS.85).aspx">SetModes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371476(v=VS.85).aspx">SetModes</a>
 </td>
 <td align="left" width="63%">
-
-			Specifies the application modes to enable. 
+Specifies the application modes to enable. 
 		
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371478(v=VS.85).aspx">SetUICommandProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371478(v=VS.85).aspx">SetUICommandProperty</a>
 </td>
 <td align="left" width="63%">
-
-			Sets a command property, value, or state.
+Sets a command property, value, or state.
 		
 
 </td>
@@ -179,10 +170,9 @@ Connects the host application to the Ribbon framework.
 This interface is used to initialize and dismantle the Ribbon framework.
 
 Ribbon framework UI functionality is differentiated by Views, which are essentially 
-				built-in core controls, such as the <a href="https://msdn.microsoft.com/library/Dd316811(v=VS.85).aspx">Ribbon</a> and <a href="https://msdn.microsoft.com/library/Dd371654(v=VS.85).aspx">ContextPopup</a>.
+				built-in core controls, such as the <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd371654(v=VS.85).aspx">ContextPopup</a>.
 
-To get an interface pointer to the implementation of IUIFramework, use <a href="http://go.microsoft.com/fwlink/p/?linkid=199586">CoCreateInstance</a>
-		 to 
+To get an interface pointer to the implementation of IUIFramework, use <a href="http://go.microsoft.com/fwlink/p/?linkid=199586">CoCreateInstance</a>to 
 			create a COM object with the class identifier (CLSID) of CLSID_UIRibbonFramework.
 			
 
@@ -194,7 +184,7 @@ To get an interface pointer to the implementation of IUIFramework, use <a href="
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
  
 
  

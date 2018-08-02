@@ -7,7 +7,7 @@ old-location: wia\_wia_WIAVIDEO_STATE.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\enums\wiavideo_state.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: WIAVIDEO_CREATING_VIDEO, WIAVIDEO_DESTROYING_VIDEO, WIAVIDEO_NO_VIDEO, WIAVIDEO_STATE, WIAVIDEO_STATE enumeration [WIA], WIAVIDEO_VIDEO_CREATED, WIAVIDEO_VIDEO_PAUSED, WIAVIDEO_VIDEO_PLAYING, __MIDL___MIDL_itf_wiavideo_xp_0000_0000_0001, _wia_WIAVIDEO_STATE, wia._wia_WIAVIDEO_STATE, wiavideo/WIAVIDEO_CREATING_VIDEO, wiavideo/WIAVIDEO_DESTROYING_VIDEO, wiavideo/WIAVIDEO_NO_VIDEO, wiavideo/WIAVIDEO_STATE, wiavideo/WIAVIDEO_VIDEO_CREATED, wiavideo/WIAVIDEO_VIDEO_PAUSED, wiavideo/WIAVIDEO_VIDEO_PLAYING
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,12 +63,12 @@ The <b>WIAVIDEO_STATE</b> enumeration is used to specify the current state of a 
 
 ### -field WIAVIDEO_NO_VIDEO
 
-No video stream exists. Call <a href="https://msdn.microsoft.com/library/ms629889(v=VS.85).aspx">IWiaVideo::CreateVideoByWiaDevID</a>, <a href="https://msdn.microsoft.com/library/ms629884(v=VS.85).aspx">IWiaVideo::CreateVideoByDevNum</a>, or <a href="https://msdn.microsoft.com/library/ms629886(v=VS.85).aspx">IWiaVideo::CreateVideoByName</a> to create a video.
+No video stream exists. Call <a href="https://msdn.microsoft.com/en-us/library/ms629889(v=VS.85).aspx">IWiaVideo::CreateVideoByWiaDevID</a>, <a href="https://msdn.microsoft.com/en-us/library/ms629884(v=VS.85).aspx">IWiaVideo::CreateVideoByDevNum</a>, or <a href="https://msdn.microsoft.com/en-us/library/ms629886(v=VS.85).aspx">IWiaVideo::CreateVideoByName</a> to create a video.
 
 
 ### -field WIAVIDEO_CREATING_VIDEO
 
-One of the <a href="https://msdn.microsoft.com/library/ms629896(v=VS.85).aspx">IWiaVideo</a> CreateVideo methods was called and WIA is in the process of creating the video stream.
+One of the <a href="https://msdn.microsoft.com/en-us/library/ms629896(v=VS.85).aspx">IWiaVideo</a> CreateVideo methods was called and WIA is in the process of creating the video stream.
 
 
 ### -field WIAVIDEO_VIDEO_CREATED
@@ -78,17 +78,17 @@ A video stream has been successfully created, but playback has not yet started.
 
 ### -field WIAVIDEO_VIDEO_PLAYING
 
-A video stream has been successfully created, and the video is playing. The application can now call the <a href="https://msdn.microsoft.com/library/ms629905(v=VS.85).aspx">IWiaVideo::TakePicture</a> method.
+A video stream has been successfully created, and the video is playing. The application can now call the <a href="https://msdn.microsoft.com/en-us/library/ms629905(v=VS.85).aspx">IWiaVideo::TakePicture</a> method.
 
 
 ### -field WIAVIDEO_VIDEO_PAUSED
 
-A video stream has been successfully created, and the video is paused. The application can now call the <a href="https://msdn.microsoft.com/library/ms629905(v=VS.85).aspx">IWiaVideo::TakePicture</a> method.
+A video stream has been successfully created, and the video is paused. The application can now call the <a href="https://msdn.microsoft.com/en-us/library/ms629905(v=VS.85).aspx">IWiaVideo::TakePicture</a> method.
 
 
 ### -field WIAVIDEO_DESTROYING_VIDEO
 
-The application called <a href="https://msdn.microsoft.com/library/ms629890(v=VS.85).aspx">IWiaVideo::DestroyVideo</a> method, and WIA is in the process of destroying the video stream.
+The application called <a href="https://msdn.microsoft.com/en-us/library/ms629890(v=VS.85).aspx">IWiaVideo::DestroyVideo</a> method, and WIA is in the process of destroying the video stream.
 
 
 ## -see-also
@@ -96,7 +96,7 @@ The application called <a href="https://msdn.microsoft.com/library/ms629890(v=VS
 
 
 
-<a href="https://msdn.microsoft.com/library/ms629893(v=VS.85).aspx">IWiaVideo::GetCurrentState</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629893(v=VS.85).aspx">IWiaVideo::GetCurrentState</a>
  
 
  

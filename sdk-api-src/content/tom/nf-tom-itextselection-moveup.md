@@ -4,10 +4,10 @@ title: ITextSelection::MoveUp
 author: windows-sdk-content
 description: Mimics the functionality of the Up Arrow and Page Up keys.
 old-location: controls\ITextSelection_MoveUp.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveup.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextSelection interface [Windows Controls],MoveUp method, ITextSelection.MoveUp, ITextSelection::MoveUp, MoveUp, MoveUp method [Windows Controls], MoveUp method [Windows Controls],ITextSelection interface, _win32_ITextSelection_MoveUp, _win32_ITextSelection_MoveUp_cpp, controls.ITextSelection_MoveUp, controls._win32_ITextSelection_MoveUp, tom/ITextSelection::MoveUp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -165,7 +165,7 @@ Failure for some other reason.
 
 
 
-The <b>MoveUp</b> and <a href="https://msdn.microsoft.com/library/Bb774066(v=VS.85).aspx">MoveDown</a> methods are similar to the <a href="https://msdn.microsoft.com/library/Bb774074(v=VS.85).aspx">MoveLeft</a> and <a href="https://msdn.microsoft.com/library/Bb774076(v=VS.85).aspx">MoveRight</a> methods, except that they reflect the behavior of the Up Arrow, Down Arrow, Page Up, and Page Down keys on the cursor-keypad. 
+The <b>MoveUp</b> and <a href="https://msdn.microsoft.com/en-us/library/Bb774066(v=VS.85).aspx">MoveDown</a> methods are similar to the <a href="https://msdn.microsoft.com/en-us/library/Bb774074(v=VS.85).aspx">MoveLeft</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774076(v=VS.85).aspx">MoveRight</a> methods, except that they reflect the behavior of the Up Arrow, Down Arrow, Page Up, and Page Down keys on the cursor-keypad. 
 
 
 
@@ -179,19 +179,19 @@ The <b>MoveUp</b> and <a href="https://msdn.microsoft.com/library/Bb774066(v=VS.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774060(v=VS.85).aspx">ITextSelection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774060(v=VS.85).aspx">ITextSelection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774066(v=VS.85).aspx">MoveDown</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774066(v=VS.85).aspx">MoveDown</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774074(v=VS.85).aspx">MoveLeft</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774074(v=VS.85).aspx">MoveLeft</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774076(v=VS.85).aspx">MoveRight</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774076(v=VS.85).aspx">MoveRight</a>
 
 
 
@@ -199,7 +199,7 @@ The <b>MoveUp</b> and <a href="https://msdn.microsoft.com/library/Bb774066(v=VS.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

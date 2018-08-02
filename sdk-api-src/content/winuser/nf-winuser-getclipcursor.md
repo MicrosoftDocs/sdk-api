@@ -7,7 +7,7 @@ old-location: menurc\getclipcursor.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\getclipcursor.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: GetClipCursor, GetClipCursor function [Menus and Other Resources], _win32_GetClipCursor, _win32_getclipcursor_cpp, menurc.getclipcursor, winui._win32_getclipcursor, winuser/GetClipCursor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,14 +86,14 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The cursor is a shared resource. If an application confines the cursor with the <a href="https://msdn.microsoft.com/library/ms648383(v=VS.85).aspx">ClipCursor</a> function, it must later release the cursor by using <b>ClipCursor</b> before relinquishing control to another application. 
+The cursor is a shared resource. If an application confines the cursor with the <a href="https://msdn.microsoft.com/en-us/library/ms648383(v=VS.85).aspx">ClipCursor</a> function, it must later release the cursor by using <b>ClipCursor</b> before relinquishing control to another application. 
 
 The calling process must have <b>WINSTA_READATTRIBUTES</b> access to the window station. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms648380(v=VS.85).aspx">Confining a Cursor</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v=VS.85).aspx">Confining a Cursor</a>.
 
 <div class="code"></div>
 
@@ -104,7 +104,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648380(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648383(v=VS.85).aspx">ClipCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648383(v=VS.85).aspx">ClipCursor</a>
 
 
 
@@ -112,11 +112,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648380(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648390(v=VS.85).aspx">GetCursorPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648390(v=VS.85).aspx">GetCursorPos</a>
 
 
 

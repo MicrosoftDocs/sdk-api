@@ -7,7 +7,7 @@ old-location: multimedia\icsendmessage.htm
 old-project: Multimedia
 ms.assetid: 0f9c37a9-4bf7-4c49-8a6a-81fbfa76d096
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: ICSendMessage, ICSendMessage function [Windows Multimedia], _win32_ICSendMessage, multimedia.icsendmessage, vfw/ICSendMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ The <b>ICSendMessage</b> function sends a message to a compressor.
 
 ### -param hic
 
-
-            Handle to the compressor to receive the message.
+Handle to the compressor to receive the message.
           
 
 
@@ -76,22 +75,19 @@ TBD
 
 ### -param dw1
 
-
-            Additional message-specific information.
+Additional message-specific information.
           
 
 
 ### -param dw2
 
-
-            Additional message-specific information.
+Additional message-specific information.
           
 
 
 #### - wMsg
 
-
-            Message to send.
+Message to send.
           
 
 

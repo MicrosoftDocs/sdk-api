@@ -7,7 +7,7 @@ old-location: mstv\iencoderapi_getdefaultvalue.htm
 old-project: mstv
 ms.assetid: 86eb8008-6d1c-4de7-8a88-b42f33ca24d3
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetDefaultValue, GetDefaultValue method [Microsoft TV Technologies], GetDefaultValue method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetDefaultValue method, IEncoderAPI.GetDefaultValue, IEncoderAPI::GetDefaultValue, IEncoderAPIGetDefaultValue, mstv.iencoderapi_getdefaultvalue, strmif/IEncoderAPI::GetDefaultValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,15 +64,13 @@ The <b>GetDefaultValue</b> method retrieves the default value for a parameter, i
 
 ### -param Api [in]
 
-
-            Pointer to a GUID that specifies the parameter.
+Pointer to a GUID that specifies the parameter.
           
 
 
 ### -param Value [out]
 
-
-            Receives the value for the parameter specified in <i>Api</i>. If <i>Api</i> was specified as ENCAPIPARAM_BITRATE_MODE, then <i>Value</i> will be one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568695">VIDEOENCODER_BITRATE_MODE</a> constants.
+Receives the value for the parameter specified in <i>Api</i>. If <i>Api</i> was specified as ENCAPIPARAM_BITRATE_MODE, then <i>Value</i> will be one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568695">VIDEOENCODER_BITRATE_MODE</a> constants.
           
 
 

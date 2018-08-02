@@ -7,7 +7,7 @@ old-location: mf\imfasfsplitter_getselectedstreams.htm
 old-project: medfound
 ms.assetid: f2c12e45-f320-43e0-abf1-36993dfed32d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: GetSelectedStreams, GetSelectedStreams method [Media Foundation], GetSelectedStreams method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],GetSelectedStreams method, IMFASFSplitter.GetSelectedStreams, IMFASFSplitter::GetSelectedStreams, f2c12e45-f320-43e0-abf1-36993dfed32d, mf.imfasfsplitter_getselectedstreams, wmcontainer/IMFASFSplitter::GetSelectedStreams
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-          Gets a list of currently selected streams.
+Gets a list of currently selected streams.
         
 
 
@@ -64,8 +63,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 ### -param pwStreamNumbers [out]
 
-
-            The address of an array of <b>WORDs</b>. This array receives the stream numbers of the selected streams.
+The address of an array of <b>WORDs</b>. This array receives the stream numbers of the selected streams.
           This parameter can be <b>NULL</b>.
 
 
@@ -94,8 +92,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -107,8 +104,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                Invalid argument. 
+Invalid argument. 
 
 </td>
 </tr>
@@ -119,8 +115,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The <i>pwStreamNumbers</i> array is smaller than the number of selected streams.
+The <i>pwStreamNumbers</i> array is smaller than the number of selected streams.
               See Remarks.
 
 </td>
@@ -179,8 +174,7 @@ Alternatively, you can allocate an array that is equal to the total number of st
 
 Before calling this method, initialize <code>*pwNumStreams</code>  to the number of elements in <i>pwStreamNumbers</i>. If <i>pwStreamNumbers</i> is <b>NULL</b>, set <code>*pwNumStreams</code> to zero.
 
-
-        By default, no streams are selected by the splitter. Select streams by calling the <a href="https://msdn.microsoft.com/a241f8a4-7609-4a6c-825f-a7b882bfc25f">IMFASFSplitter::SelectStreams</a> method.
+By default, no streams are selected by the splitter. Select streams by calling the <a href="https://msdn.microsoft.com/a241f8a4-7609-4a6c-825f-a7b882bfc25f">IMFASFSplitter::SelectStreams</a> method.
       
 
 

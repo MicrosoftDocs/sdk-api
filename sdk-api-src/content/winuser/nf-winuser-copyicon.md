@@ -7,7 +7,7 @@ old-location: menurc\copyicon.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\copyicon.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: CopyIcon, CopyIcon function [Menus and Other Resources], _win32_CopyIcon, _win32_copyicon_cpp, menurc.copyicon, winui._win32_copyicon, winuser/CopyIcon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 The <b>CopyIcon</b> function enables an application or DLL to get its own handle to an icon owned by another module. If the other module is freed, the application icon will still be able to use the icon. 
 
-Before closing, an application must call the <a href="https://msdn.microsoft.com/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function to free any system resources associated with the icon.
+Before closing, an application must call the <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function to free any system resources associated with the icon.
 
 
 
@@ -101,23 +101,23 @@ Before closing, an application must call the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648384(v=VS.85).aspx">CopyCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648384(v=VS.85).aspx">CopyCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648064(v=VS.85).aspx">DrawIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648064(v=VS.85).aspx">DrawIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648065(v=VS.85).aspx">DrawIconEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648065(v=VS.85).aspx">DrawIconEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646973(v=VS.85).aspx">Icons</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646973(v=VS.85).aspx">Icons</a>
 
 
 

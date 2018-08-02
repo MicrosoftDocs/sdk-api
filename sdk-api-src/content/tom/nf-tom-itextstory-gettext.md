@@ -4,10 +4,10 @@ title: ITextStory::GetText
 author: windows-sdk-content
 description: Gets the text in a story according to the specified conversion flags.
 old-location: controls\itextstory_gettext.htm
-old-project: controls
+old-project: Controls
 ms.assetid: 8107910f-eb77-4313-97f5-1bd8126d6dec
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetText, GetText method [Windows Controls], GetText method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetText method, ITextStory.GetText, ITextStory::GetText, controls.itextstory_gettext, tom/ITextStory::GetText, tomAdjustCRLF, tomAllowFinalEOP, tomFoldMathAlpha, tomIncludeNumbering, tomLanguageTag, tomNoHidden, tomNoMathZoneBrackets, tomTextize, tomTranslateTableCell, tomUseCRLF
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ Type: <b>long</b>
 
 The conversion flags.
 
-
-A <i>Flags</i> value of 0 retrieves text the same as <a href="https://msdn.microsoft.com/library/Bb774036(v=VS.85).aspx">ITextRange::GetText</a>.  Other values include the following.
+A <i>Flags</i> value of 0 retrieves text the same as <a href="https://msdn.microsoft.com/en-us/library/Bb774036(v=VS.85).aspx">ITextRange::GetText</a>.  Other values include the following.
 
 <a id="tomAdjustCRLF"></a>
 <a id="tomadjustcrlf"></a>

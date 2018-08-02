@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2_filter_parameters.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_FILTER_PARAMETERS
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: XAUDIO2_FILTER_PARAMETERS, XAUDIO2_FILTER_PARAMETERS structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_filter_parameters, xaudio2/XAUDIO2_FILTER_PARAMETERS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,13 +61,13 @@ Defines filter parameters for a source voice.
 
 ### -field Type
 
-The <a href="https://msdn.microsoft.com/library/Ee419238(v=VS.85).aspx">XAUDIO2_FILTER_TYPE</a>.
+The <a href="https://msdn.microsoft.com/en-us/library/Ee419238(v=VS.85).aspx">XAUDIO2_FILTER_TYPE</a>.
 
 
 ### -field Frequency
 
 Filter radian frequency calculated as (2 * sin(pi * (desired filter cutoff frequency) / sampleRate)). The frequency must be greater than or equal to 0 and less than or equal to XAUDIO2_MAX_FILTER_FREQUENCY. The maximum frequency allowable is equal to the source sound's sample rate divided by six which corresponds to the maximum filter radian frequency of 1. For example, if a sound's sample rate is 48000 and the desired cutoff frequency is the maximum allowable value for that sample rate, 8000, the value for <b>Frequency</b> will be 1. 
-If XAUDIO2_HELPER_FUNCTIONS is defined, XAudio2.h will include the <a href="https://msdn.microsoft.com/library/Ee419226(v=VS.85).aspx">XAudio2RadiansToCutoffFrequency</a> and <a href="https://msdn.microsoft.com/library/Ee419215(v=VS.85).aspx">XAudio2CutoffFrequencyToRadians</a> helper functions for converting between hertz and radian frequencies. Defining XAUDIO2_HELPER_FUNCTIONS will also include <a href="https://msdn.microsoft.com/library/Hh871495(v=VS.85).aspx">XAudio2CutoffFrequencyToOnePoleCoefficient</a> for converting between hertz and a one-pole coefficient suitable for use with the LowPassOnePoleFilter and HighPassOnePoleFilter.
+If XAUDIO2_HELPER_FUNCTIONS is defined, XAudio2.h will include the <a href="https://msdn.microsoft.com/en-us/library/Ee419226(v=VS.85).aspx">XAudio2RadiansToCutoffFrequency</a> and <a href="https://msdn.microsoft.com/en-us/library/Ee419215(v=VS.85).aspx">XAudio2CutoffFrequencyToRadians</a> helper functions for converting between hertz and radian frequencies. Defining XAUDIO2_HELPER_FUNCTIONS will also include <a href="https://msdn.microsoft.com/en-us/library/Hh871495(v=VS.85).aspx">XAudio2CutoffFrequencyToOnePoleCoefficient</a> for converting between hertz and a one-pole coefficient suitable for use with the LowPassOnePoleFilter and HighPassOnePoleFilter.
 
 
 
@@ -142,11 +142,11 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee418588(v=VS.85).aspx">IXAudio2Voice::GetFilterParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418588(v=VS.85).aspx">IXAudio2Voice::GetFilterParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee418596(v=VS.85).aspx">IXAudio2Voice::SetFilterParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418596(v=VS.85).aspx">IXAudio2Voice::SetFilterParameters</a>
 
 
 

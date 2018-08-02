@@ -4,10 +4,10 @@ title: phoneGetDevCaps function
 author: windows-sdk-content
 description: The phoneGetDevCaps function queries a specified phone device to determine its telephony capabilities.
 old-location: tapi2\phonegetdevcaps.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 7bfef6d7-d5fd-4887-afb8-b1d850df050d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "_tapi2_phonegetdevcaps, phoneGetDevCaps, phoneGetDevCaps function [TAPI 2.2], phoneGetDevCapsA, phoneGetDevCapsW, tapi/phoneGetDevCaps, tapi/phoneGetDevCapsA, tapi/phoneGetDevCapsW, tapi2.phonegetdevcaps"
 ms.prod: windows
 ms.technology: windows-sdk

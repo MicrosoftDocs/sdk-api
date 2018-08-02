@@ -4,10 +4,10 @@ title: ITextDocument::EndEditCollection
 author: windows-sdk-content
 description: Turns off edit collection (also called undo grouping).
 old-location: controls\ITextDocument_EndEditCollection.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\endeditcollection.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: EndEditCollection, EndEditCollection method [Windows Controls], EndEditCollection method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],EndEditCollection method, ITextDocument.EndEditCollection, ITextDocument::EndEditCollection, _win32_ITextDocument_EndEditCollection, _win32_ITextDocument_EndEditCollection_cpp, controls.ITextDocument_EndEditCollection, controls._win32_ITextDocument_EndEditCollection, tom/ITextDocument::EndEditCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,7 +105,7 @@ The screen is unfrozen unless the freeze count is nonzero.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787730(v=VS.85).aspx">BeginEditCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787730(v=VS.85).aspx">BeginEditCollection</a>
 
 
 
@@ -113,11 +113,11 @@ The screen is unfrozen unless the freeze count is nonzero.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773925(v=VS.85).aspx">Freeze</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773925(v=VS.85).aspx">Freeze</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
 
 
 
@@ -125,7 +125,7 @@ The screen is unfrozen unless the freeze count is nonzero.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

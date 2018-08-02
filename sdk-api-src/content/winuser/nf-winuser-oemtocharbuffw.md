@@ -7,7 +7,7 @@ old-location: menurc\oemtocharbuff.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\oemtocharbuff.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: OemToCharBuff, OemToCharBuff function [Menus and Other Resources], OemToCharBuffA, OemToCharBuffW, _win32_OemToCharBuff, _win32_oemtocharbuff_cpp, menurc.oemtocharbuff, winui._win32_oemtocharbuff, winuser/OemToCharBuff, winuser/OemToCharBuffA, winuser/OemToCharBuffW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,7 +104,7 @@ The return value is always nonzero except when you pass the same address to
 
 
 
-Unlike the <a href="https://msdn.microsoft.com/library/ms647493(v=VS.85).aspx">OemToChar</a> function, the <b>OemToCharBuff</b> function does not stop converting characters when it encounters a null character in the buffer pointed to by 
+Unlike the <a href="https://msdn.microsoft.com/en-us/library/ms647493(v=VS.85).aspx">OemToChar</a> function, the <b>OemToCharBuff</b> function does not stop converting characters when it encounters a null character in the buffer pointed to by 
 				<i>lpszSrc</i>. The <b>OemToCharBuff</b> function converts all 
 				<i>cchDstLength</i> characters.
 
@@ -116,11 +116,11 @@ Unlike the <a href="https://msdn.microsoft.com/library/ms647493(v=VS.85).aspx">O
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647473(v=VS.85).aspx">CharToOem</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647473(v=VS.85).aspx">CharToOem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd319646(v=VS.85).aspx">CharToOemBuff</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319646(v=VS.85).aspx">CharToOemBuff</a>
 
 
 
@@ -128,7 +128,7 @@ Unlike the <a href="https://msdn.microsoft.com/library/ms647493(v=VS.85).aspx">O
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647493(v=VS.85).aspx">OemToChar</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647493(v=VS.85).aspx">OemToChar</a>
 
 
 

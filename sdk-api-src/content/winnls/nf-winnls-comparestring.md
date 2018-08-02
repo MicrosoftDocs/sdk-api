@@ -7,7 +7,7 @@ old-location: intl\comparestring.htm
 old-project: Intl
 ms.assetid: 4db84fa7-f3c2-48fb-ad7d-8673397c4b0e
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: CompareString, CompareString function [Internationalization for Windows Applications], CompareStringA, CompareStringW, _win32_CompareString, _win32_CompareString_cpp, intl.comparestring, stringapiset/CompareString, stringapiset/CompareStringA, stringapiset/CompareStringW, winnls/CompareString, winnls/CompareStringA, winnls/CompareStringW, winui._win32_CompareString
 ms.prod: windows
 ms.technology: windows-sdk

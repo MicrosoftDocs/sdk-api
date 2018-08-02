@@ -4,10 +4,10 @@ title: IEnroll2::InstallPKCS7Blob
 author: windows-sdk-content
 description: Processes a certificate or chain of certificates, placing them into the appropriate certificate stores. This method differs from the acceptPKCS7Blob method in that InstallPKCS7Blob does not receive a request certificate.
 old-location: security\ienroll4_installpkcs7blob.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: fa704c5e-f6ec-4187-b787-7b15cc7d4eb4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IEnroll2 interface [Security],InstallPKCS7Blob method, IEnroll2.InstallPKCS7Blob, IEnroll2::InstallPKCS7Blob, InstallPKCS7Blob, InstallPKCS7Blob method [Security], InstallPKCS7Blob method [Security],IEnroll2 interface, security.ienroll4_installpkcs7blob, xenroll/IEnroll2::InstallPKCS7Blob
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ A pointer to a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf071
 
 
 
-
-						 The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
+The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 
 

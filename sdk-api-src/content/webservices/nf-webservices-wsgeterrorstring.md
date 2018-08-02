@@ -7,7 +7,7 @@ old-location: wsw\wsgeterrorstring.htm
 old-project: wsw
 ms.assetid: 711c14b4-6a74-4860-a9cc-7b8673dc1a28
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetErrorString, WsGetErrorString function [Web Services for Windows], webservices/WsGetErrorString, wsw.wsgeterrorstring
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Retrieves an error string from an error object.
+Retrieves an error string from an error object.
             
 
 
@@ -63,35 +62,29 @@ req.product: Windows Address Book 5.0
 
 ### -param error [in]
 
-
-                    The error object containing the string.
+The error object containing the string.
                 
 
 
 ### -param index [in]
 
-
-                    The zero-based index identifying the string to retrieve.  The first
+The zero-based index identifying the string to retrieve.  The first
                     error string (index 0) will be the string most recently added to the
                     error object (using <a href="https://msdn.microsoft.com/5fdad296-5024-4360-b1c5-f0192929c612">WsAddErrorString</a>). When 
                     <a href="https://msdn.microsoft.com/527e39be-c959-40db-8f0b-14dcd49a7ca7">WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE</a> is presented in the 
                     error object, the corresponding error text will be available in the last index.
                 
 
-
-                    The number of errors can be retrieved using <a href="https://msdn.microsoft.com/527e39be-c959-40db-8f0b-14dcd49a7ca7">WS_ERROR_PROPERTY_STRING_COUNT</a>.
+The number of errors can be retrieved using <a href="https://msdn.microsoft.com/527e39be-c959-40db-8f0b-14dcd49a7ca7">WS_ERROR_PROPERTY_STRING_COUNT</a>.
                 
 
 
 ### -param string [out]
 
-
-                    The returned string.  The string is valid until <a href="https://msdn.microsoft.com/a01a65f1-3eca-452c-a10d-dc9c6c3db124">WsResetError</a>
-                    or <a href="https://msdn.microsoft.com/61da7bc2-b805-4379-a6b2-1e92374be1a0">WsFreeError</a> is called.
+The returned string.  The string is valid until <a href="https://msdn.microsoft.com/a01a65f1-3eca-452c-a10d-dc9c6c3db124">WsResetError</a>or <a href="https://msdn.microsoft.com/61da7bc2-b805-4379-a6b2-1e92374be1a0">WsFreeError</a> is called.
                 
 
-
-                    The string is not zero terminated.
+The string is not zero terminated.
                 
 
 
@@ -113,7 +106,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -139,10 +131,8 @@ This function may return other errors not listed above.
 
 
 
-
-                The string is in the language specified by the LANGID property of
-                the error object.  This can be retrieved using <a href="https://msdn.microsoft.com/35a1f4a8-aad6-43ad-81db-b1071a77d5f4">WsGetErrorProperty</a>
-                with <a href="https://msdn.microsoft.com/527e39be-c959-40db-8f0b-14dcd49a7ca7">WS_ERROR_PROPERTY_LANGID</a>.
+The string is in the language specified by the LANGID property of
+                the error object.  This can be retrieved using <a href="https://msdn.microsoft.com/35a1f4a8-aad6-43ad-81db-b1071a77d5f4">WsGetErrorProperty</a>with <a href="https://msdn.microsoft.com/527e39be-c959-40db-8f0b-14dcd49a7ca7">WS_ERROR_PROPERTY_LANGID</a>.
             
 
 

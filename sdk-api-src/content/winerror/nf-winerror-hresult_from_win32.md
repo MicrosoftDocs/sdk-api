@@ -7,7 +7,7 @@ old-location: com\hresult_from_win32_macro.htm
 old-project: com
 ms.assetid: 40e6f80d-a778-4d5f-bb1b-db294815f8b5
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: HRESULT_FROM_WIN32, HRESULT_FROM_WIN32 macro [COM], _com_HRESULT_FROM_WIN32, com.hresult_from_win32, com.hresult_from_win32_macro, winerror/HRESULT_FROM_WIN32
 ms.prod: windows
 ms.technology: windows-sdk

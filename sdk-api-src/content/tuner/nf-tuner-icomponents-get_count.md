@@ -7,7 +7,7 @@ old-location: mstv\icomponents_get_count.htm
 old-project: mstv
 ms.assetid: ba198e27-c699-4c93-aa2d-b8be8c40380c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IComponents interface [Microsoft TV Technologies],get_Count method, IComponents.get_Count, IComponents::get_Count, IComponentsget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IComponents interface, mstv.icomponents_get_count, tuner/IComponents::get_Count
 ms.prod: windows
 ms.technology: windows-sdk

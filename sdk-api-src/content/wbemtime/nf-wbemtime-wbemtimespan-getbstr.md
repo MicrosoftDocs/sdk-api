@@ -7,7 +7,7 @@ old-location: wmi\wbemtimespan_getbstr.htm
 old-project: WmiSdk
 ms.assetid: f5db5a7a-0590-4598-bde7-e90cfc7cd932
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: GetBSTR, GetBSTR method [Windows Management Instrumentation], GetBSTR method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],GetBSTR method, WBEMTimeSpan.GetBSTR, WBEMTimeSpan::GetBSTR, _hmm_wbemtimespan_getbstr, wbemtime/WBEMTimeSpan::GetBSTR, wmi.wbemtimespan_getbstr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ The time span is returned as a <b>BSTR</b> in <a href="https://msdn.microsoft.co
 
 
 
-The calling method must call <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> on the return value.
+The calling method must call <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> on the return value.
 
 
 

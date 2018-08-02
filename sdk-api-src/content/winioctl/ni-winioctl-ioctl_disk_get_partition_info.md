@@ -4,10 +4,10 @@ title: IOCTL_DISK_GET_PARTITION_INFO
 author: windows-sdk-content
 description: Retrieves information about the type, size, and nature of a disk partition.
 old-location: fs\ioctl_disk_get_partition_info.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 24053a1a-8cf8-4aa8-a611-15c9fae0a36d
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_DISK_GET_PARTITION_INFO, IOCTL_DISK_GET_PARTITION_INFO control, IOCTL_DISK_GET_PARTITION_INFO control code [Files], _win32_ioctl_disk_get_partition_info, base.ioctl_disk_get_partition_info, fs.ioctl_disk_get_partition_info, winioctl/IOCTL_DISK_GET_PARTITION_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,10 +64,7 @@ Retrieves information about the type, size, and nature of a disk partition.
 <tr>
 <td>
 <pre>BOOL DeviceIoControl( (HANDLE) hDevice,                // handle to a partition
-                      IOCTL_DISK_GET_PARTITION_INFO,   // dwIoControlCode
-                      (LPVOID) NULL,                   // lpInBuffer
-                      (DWORD) 0,                       // nInBufferSize
-                      (LPVOID) lpOutBuffer,            // output buffer
+                      IOCTL_DISK_GET_PARTITION_INFO,   // dwIoControlCode(LPVOID) NULL,                   // lpInBuffer(DWORD) 0,                       // nInBufferSize(LPVOID) lpOutBuffer,            // output buffer
                       (DWORD) nOutBufferSize,          // size of output buffer
                       (LPDWORD) lpBytesReturned,       // number of bytes returned
                       (LPOVERLAPPED) lpOverlapped );   // OVERLAPPED structure</pre>

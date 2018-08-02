@@ -7,7 +7,7 @@ old-location: winmsg\mousehookstruct.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\mousehookstruct.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPMOUSEHOOKSTRUCT, *PMOUSEHOOKSTRUCT, LPMOUSEHOOKSTRUCT, LPMOUSEHOOKSTRUCT structure pointer [Windows and Messages], MOUSEHOOKSTRUCT, MOUSEHOOKSTRUCT structure [Windows and Messages], PMOUSEHOOKSTRUCT, PMOUSEHOOKSTRUCT structure pointer [Windows and Messages], _win32_MOUSEHOOKSTRUCT_str, _win32_mousehookstruct_str_cpp, tagMOUSEHOOKSTRUCT, winmsg.mousehookstruct, winui._win32_mousehookstruct_str, winuser/LPMOUSEHOOKSTRUCT, winuser/MOUSEHOOKSTRUCT, winuser/PMOUSEHOOKSTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Contains information about a mouse event passed to a <b>WH_MOUSE</b> hook procedure, <a href="https://msdn.microsoft.com/library/ms644988(v=VS.85).aspx">MouseProc</a>. 
+Contains information about a mouse event passed to a <b>WH_MOUSE</b> hook procedure, <a href="https://msdn.microsoft.com/en-us/library/ms644988(v=VS.85).aspx">MouseProc</a>. 
 
 
 ## -struct-fields
@@ -77,7 +77,7 @@ A handle to the window that will receive the mouse message corresponding to the 
 
 Type: <b>UINT</b>
 
-The hit-test value. For a list of hit-test values, see the description of the <a href="https://msdn.microsoft.com/library/ms645618(v=VS.85).aspx">WM_NCHITTEST</a> message. 
+The hit-test value. For a list of hit-test values, see the description of the <a href="https://msdn.microsoft.com/en-us/library/ms645618(v=VS.85).aspx">WM_NCHITTEST</a> message. 
 
 
 ### -field dwExtraInfo
@@ -96,11 +96,11 @@ Additional information associated with the message.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632589(v=VS.85).aspx">Hooks</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644988(v=VS.85).aspx">MouseProc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644988(v=VS.85).aspx">MouseProc</a>
 
 
 
@@ -108,11 +108,11 @@ Additional information associated with the message.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645618(v=VS.85).aspx">WM_NCHITTEST</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645618(v=VS.85).aspx">WM_NCHITTEST</a>
  
 
  

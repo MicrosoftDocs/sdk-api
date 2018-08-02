@@ -4,10 +4,10 @@ title: "_VDS_INPUT_DISK"
 author: windows-sdk-content
 description: Defines the details of an input disk.
 old-location: base\vds_input_disk.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 837981e5-8600-4add-85cf-a802615133d3
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: VDS_INPUT_DISK, VDS_INPUT_DISK structure [VDS], _VDS_INPUT_DISK, base.vds_input_disk, vds/_VDS_INPUT_DISK
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,8 +91,7 @@ The member index of the disk to which the extent belongs. Either specify a <b>me
 
 
 
-
-        A disk cannot contribute more than one plex to the same volume; however, a disk can contribute to multiple volumes.
+A disk cannot contribute more than one plex to the same volume; however, a disk can contribute to multiple volumes.
 
 
 Callers can specify a member index for all disks or use the default member index for all disks. Never mix specified and default member indexes for the disks included in the same array. Avoid using a default member index in conjunction with the <a href="https://msdn.microsoft.com/8f31dd3e-0c06-49fe-8ff2-55cfabe5099e">IVdsVolume::Extend</a> method, unless the volume has only one plex with only one member.

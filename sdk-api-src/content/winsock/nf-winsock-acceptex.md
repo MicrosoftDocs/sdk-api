@@ -4,10 +4,10 @@ title: AcceptEx function
 author: windows-sdk-content
 description: Accepts a new connection, returns the local and remote address, and receives the first block of data sent by the client application. Note  This function is a Microsoft-specific extension to the Windows Sockets specification. .
 old-location: winsock\acceptex_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: cfd4c169-a8af-46cc-9b0e-fd7fb5aad61b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: AcceptEx, AcceptEx function [Winsock], _win32_acceptex_2, winsock.acceptex_2, winsock/AcceptEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -179,7 +179,7 @@ Another key difference between the
 The <i>sAcceptSocket</i> parameter must be an open socket that is neither bound nor connected.
 
 The <i>lpNumberOfBytesTransferred</i> parameter of the 
-<a href="https://msdn.microsoft.com/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a> function or the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a> function or the 
 <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> function indicates the number of bytes received in the request.
 
 
@@ -187,10 +187,10 @@ When this operation is successfully completed, <i>sAcceptSocket</i> can be passe
 
 <dl>
 <dd>
-<a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a>
 </dd>
 <dd>
-<a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>
 </dd>
 <dd>
 <a href="https://msdn.microsoft.com/902bb9cf-d847-43fc-8282-394d619b8f1b">send</a>
@@ -211,8 +211,7 @@ When this operation is successfully completed, <i>sAcceptSocket</i> can be passe
 <a href="https://msdn.microsoft.com/2f357aa8-389b-4c92-8a9f-289e048cc41c">closesocket</a>
 </dd>
 <dd>
-<a href="https://msdn.microsoft.com/3a6960c9-0c04-4403-aee1-ce250459dc30">setsockopt</a>
-			(only for SO_UPDATE_ACCEPT_CONTEXT)</dd>
+<a href="https://msdn.microsoft.com/3a6960c9-0c04-4403-aee1-ce250459dc30">setsockopt</a>(only for SO_UPDATE_ACCEPT_CONTEXT)</dd>
 </dl>
 <div class="alert"><b>Note</b>  If the 
 <a href="https://msdn.microsoft.com/45db763e-735d-48ac-a0e4-6e63b5dda7a5">TransmitFile</a> function is called with both the TF_DISCONNECT and TF_REUSE_SOCKET flags, the specified socket has been returned to a state in which it is neither bound nor connected. The socket handle can then be passed to the 
@@ -453,8 +452,7 @@ int main()
 </tr>
 </table></span></div>
 <h3><a id="Notes_for_QoS"></a><a id="notes_for_qos"></a><a id="NOTES_FOR_QOS"></a>Notes for QoS</h3>
-
-					The 
+The 
 <a href="https://msdn.microsoft.com/45db763e-735d-48ac-a0e4-6e63b5dda7a5">TransmitFile</a> function allows the setting of two flags, TF_DISCONNECT or TF_REUSE_SOCKET, that return the socket to a "disconnected, reusable" state after the file has been transmitted. These flags should not be used on a socket where quality of service has been requested, since the service provider may immediately delete any quality of service associated with the socket before the file transfer has completed. The best approach for a QoS-enabled socket is to simply call the 
 <a href="https://msdn.microsoft.com/2f357aa8-389b-4c92-8a9f-289e048cc41c">closesocket</a> function when the file transfer has completed, rather than relying on these flags.
 
@@ -478,7 +476,7 @@ There are important issues associated with connection setup when using Asynchron
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a>
 
 
 

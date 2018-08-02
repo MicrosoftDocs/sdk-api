@@ -4,10 +4,10 @@ title: IVdsVolume::AddPlex
 author: windows-sdk-content
 description: Adds a volume as a plex to the current volume.
 old-location: base\ivdsvolume_addplex.htm
-old-project: vds
+old-project: VDS
 ms.assetid: b463ad74-400d-4100-83ff-3eb98e6a0db4
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: AddPlex, AddPlex method [VDS], AddPlex method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],AddPlex method, IVdsVolume.AddPlex, IVdsVolume::AddPlex, base.ivdsvolume_addplex, vds/IVdsVolume::AddPlex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ The GUID of the volume to be added as a plex.
 
 ### -param ppAsync [out]
 
-
-      The address of an <a href="https://msdn.microsoft.com/7814b8ef-84b4-453e-b480-c32b67e5af93">IVdsAsync</a> interface pointer, which VDS 
+The address of an <a href="https://msdn.microsoft.com/7814b8ef-84b4-453e-b480-c32b67e5af93">IVdsAsync</a> interface pointer, which VDS 
       initializes on return. Callers must release the interface. Use this pointer to cancel, wait for, or query the 
       status of the operation.
 
@@ -80,7 +79,7 @@ The GUID of the volume to be added as a plex.
 
 
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/en-us/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -106,8 +105,7 @@ The plex was added successfully.
 </dl>
 </td>
 <td width="60%">
-
-        The boot volume on a GPT disk has been mirrored to an MBR disk. The new plex cannot be used to boot the 
+The boot volume on a GPT disk has been mirrored to an MBR disk. The new plex cannot be used to boot the 
         computer.
 
 </td>
@@ -168,8 +166,7 @@ The volume consists of multiple extents.
 </dl>
 </td>
 <td width="60%">
-
-        The source volume is smaller than the target volume. If the source volume is larger than the target volume, 
+The source volume is smaller than the target volume. If the source volume is larger than the target volume, 
         the target volume remains the same size and the operation succeeds.
 
 </td>
@@ -184,23 +181,19 @@ The volume consists of multiple extents.
 
 
 
+This operation is not valid for basic volumes, which have exactly one plex.
 
-    This operation is not valid for basic volumes, which have exactly one plex.
-
-
-    Use this method to add a volume as a plex to another volume. For example, a caller can create a volume (volume B), 
+Use this method to add a volume as a plex to another volume. For example, a caller can create a volume (volume B), 
     specify volume B as a new plex to an existing volume (volume A), then remove volume B. The new plex of Volume A
     occupies the same disk extents as did volume B.
 
 <div class="alert"><b>Note</b>  VDS attempts to use the same extents, but cannot guarantee this behavior.</div>
 <div> </div>
-
-    Callers can add a mirrored volume as a new plex to another volume. The resulting volume contains plexes equal in 
+Callers can add a mirrored volume as a new plex to another volume. The resulting volume contains plexes equal in 
     number to the sum of the original volumes.
      
 
-
-     Implementers must return a pointer to the <a href="https://msdn.microsoft.com/7814b8ef-84b4-453e-b480-c32b67e5af93">IVdsAsync</a> interface for 
+Implementers must return a pointer to the <a href="https://msdn.microsoft.com/7814b8ef-84b4-453e-b480-c32b67e5af93">IVdsAsync</a> interface for 
      this method, regardless of whether the call initiates an asynchronous operation.
 
 

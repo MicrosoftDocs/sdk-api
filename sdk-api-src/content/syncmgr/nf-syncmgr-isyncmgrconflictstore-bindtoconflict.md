@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrConflictStore_BindToConflict.htm
 old-project: shell
 ms.assetid: 86414360-7dc5-4819-8372-0cede07ba41b
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: BindToConflict, BindToConflict method [Windows Shell], BindToConflict method [Windows Shell],ISyncMgrConflictStore interface, ISyncMgrConflictStore interface [Windows Shell],BindToConflict method, ISyncMgrConflictStore.BindToConflict, ISyncMgrConflictStore::BindToConflict, _shell_ISyncMgrConflictStore_BindToConflict, shell.ISyncMgrConflictStore_BindToConflict, syncmgr/ISyncMgrConflictStore::BindToConflict
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Binds to a particular conflict specified by IID.
 
 Type: <b>const <a href="https://msdn.microsoft.com/9a54ef7e-0b22-436e-891b-80610ddaef00">SYNCMGR_CONFLICT_ID_INFO</a>*</b>
 
-
-          A pointer to a <a href="https://msdn.microsoft.com/9a54ef7e-0b22-436e-891b-80610ddaef00">SYNCMGR_CONFLICT_ID_INFO</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/9a54ef7e-0b22-436e-891b-80610ddaef00">SYNCMGR_CONFLICT_ID_INFO</a> structure.
         
 
 
@@ -72,8 +71,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/9a54ef7e-0b22-436e-891b-80610
 
 Type: <b>REFIID</b>
 
-
-          A reference to a desired conflict IID.
+A reference to a desired conflict IID.
         
 
 
@@ -81,8 +79,7 @@ Type: <b>REFIID</b>
 
 Type: <b>void**</b>
 
-
-          When this method returns, contains the interface pointer requested in <i>riid</i>.
+When this method returns, contains the interface pointer requested in <i>riid</i>.
         
 
 

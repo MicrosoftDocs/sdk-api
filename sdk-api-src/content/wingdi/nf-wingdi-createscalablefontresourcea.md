@@ -7,7 +7,7 @@ old-location: gdi\createscalablefontresource.htm
 old-project: gdi
 ms.assetid: 9a43a254-4cf4-46de-80b2-a83838871fd7
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: 0, 1, CreateScalableFontResource, CreateScalableFontResource function [Windows GDI], CreateScalableFontResourceA, CreateScalableFontResourceW, _win32_CreateScalableFontResource, gdi.createscalablefontresource, wingdi/CreateScalableFontResource, wingdi/CreateScalableFontResourceA, wingdi/CreateScalableFontResourceW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -167,20 +167,17 @@ When a path is specified in the <i>lpszFontFile</i> parameter and <b>NULL</b> is
 
 
 
-<a href="https://msdn.microsoft.com/e553a25a-f281-4ddc-8e95-1f61ed8238f9">
-        AddFontResource
+<a href="https://msdn.microsoft.com/e553a25a-f281-4ddc-8e95-1f61ed8238f9">AddFontResource
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/4960afbb-eeba-4030-ac89-d1ff077bb2f3">
-        EnumFontFamilies
+<a href="https://msdn.microsoft.com/4960afbb-eeba-4030-ac89-d1ff077bb2f3">EnumFontFamilies
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b5dfc38d-c400-4900-a15b-f251815ee346">
-        EnumFonts
+<a href="https://msdn.microsoft.com/b5dfc38d-c400-4900-a15b-f251815ee346">EnumFonts
       </a>
 
 

@@ -7,7 +7,7 @@ old-location: menurc\setcursor.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\setcursor.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: SetCursor, SetCursor function [Menus and Other Resources], _win32_SetCursor, _win32_setcursor_cpp, menurc.setcursor, winui._win32_setcursor, winuser/SetCursor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ Sets the cursor shape.
 
 Type: <b>HCURSOR</b>
 
-A handle to the cursor. The cursor must have been created by the <a href="https://msdn.microsoft.com/library/ms648385(v=VS.85).aspx">CreateCursor</a> function or loaded by the <a href="https://msdn.microsoft.com/library/ms648391(v=VS.85).aspx">LoadCursor</a> or <a href="https://msdn.microsoft.com/library/ms648045(v=VS.85).aspx">LoadImage</a> function. If this parameter is <b>NULL</b>, the cursor is removed from the screen.
+A handle to the cursor. The cursor must have been created by the <a href="https://msdn.microsoft.com/en-us/library/ms648385(v=VS.85).aspx">CreateCursor</a> function or loaded by the <a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a> or <a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a> function. If this parameter is <b>NULL</b>, the cursor is removed from the screen.
 
 
 ## -returns
@@ -97,12 +97,12 @@ The cursor is a shared resource. A window should set the cursor shape only when 
 
 If your application must set the cursor while it is in a window, make sure the class cursor for the specified window's class is set to <b>NULL</b>. If the class cursor is not <b>NULL</b>, the system restores the class cursor each time the mouse is moved. 
 
-The cursor is not shown on the screen if the internal cursor display count is less than zero. This occurs if the application uses the <a href="https://msdn.microsoft.com/library/ms648396(v=VS.85).aspx">ShowCursor</a> function to hide the cursor more times than to show the cursor. 
+The cursor is not shown on the screen if the internal cursor display count is less than zero. This occurs if the application uses the <a href="https://msdn.microsoft.com/en-us/library/ms648396(v=VS.85).aspx">ShowCursor</a> function to hide the cursor more times than to show the cursor. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms648380(v=VS.85).aspx">Displaying a Cursor</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v=VS.85).aspx">Displaying a Cursor</a>.
 
 <div class="code"></div>
 
@@ -117,15 +117,15 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648380(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648385(v=VS.85).aspx">CreateCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648385(v=VS.85).aspx">CreateCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648388(v=VS.85).aspx">GetCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648388(v=VS.85).aspx">GetCursor</a>
 
 
 
@@ -133,11 +133,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648380(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648045(v=VS.85).aspx">LoadImage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a>
 
 
 
@@ -149,11 +149,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648380(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648394(v=VS.85).aspx">SetCursorPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648394(v=VS.85).aspx">SetCursorPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648396(v=VS.85).aspx">ShowCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648396(v=VS.85).aspx">ShowCursor</a>
  
 
  

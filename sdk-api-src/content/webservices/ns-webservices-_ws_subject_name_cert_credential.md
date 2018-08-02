@@ -7,7 +7,7 @@ old-location: wsw\ws_subject_name_cert_credential.htm
 old-project: wsw
 ms.assetid: d146d12f-4a1a-44b4-9e08-9f660554fcbb
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SUBJECT_NAME_CERT_CREDENTIAL, WS_SUBJECT_NAME_CERT_CREDENTIAL structure [Web Services for Windows], _WS_SUBJECT_NAME_CERT_CREDENTIAL, webservices/WS_SUBJECT_NAME_CERT_CREDENTIAL, wsw.ws_subject_name_cert_credential
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,6 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 The type for specifying a certificate credential using the
 certificate's subject name, store location and store name.  The
 specified credential is loaded when the containing channel or listener
@@ -66,13 +65,11 @@ is opened.
 
 ### -field credential
 
-
 The base type from which this type and all other certificate credential types derive.
                 
 
 
 ### -field storeLocation
-
 
 The certificate store location (such as CERT_SYSTEM_STORE_CURRENT_USER
 or CERT_SYSTEM_STORE_LOCAL_MACHINE) that contains the specified
@@ -82,14 +79,12 @@ certificate.
 
 ### -field storeName
 
-
 The certificate store name (such as "My") that contains the specified
 certificate.
                 
 
 
 ### -field subjectName
-
 
 The subject name (such as "CN=service.com") of the specified
 certificate.  The supplied subject name string must be in a format acceptable to

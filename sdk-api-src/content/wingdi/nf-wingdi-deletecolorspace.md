@@ -7,7 +7,7 @@ old-location: wcs\deletecolorspace.htm
 old-project: WCS
 ms.assetid: 5b241224-2994-4533-9629-d2a4b129ce86
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: DeleteColorSpace, DeleteColorSpace function [Windows Color System], _color_DeleteColorSpace, wcs.deletecolorspace, wingdi/DeleteColorSpace
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>DeleteColorSpace</b> function removes and destroys a specified <a href="https://msdn.microsoft.com/library/Aa380689(v=VS.85).aspx">color space</a>.
+The <b>DeleteColorSpace</b> function removes and destroys a specified <a href="https://msdn.microsoft.com/en-us/library/Dd371818(v=VS.85).aspx">color space</a>.
 
 
 ## -parameters

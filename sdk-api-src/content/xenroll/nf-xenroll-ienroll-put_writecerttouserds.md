@@ -4,10 +4,10 @@ title: IEnroll::put_WriteCertToUserDS
 author: windows-sdk-content
 description: The WriteCertToUserDS property of IEnroll4 sets or retrieves a Boolean value that determines whether the certificate is written to the user's Active Directory store.
 old-location: security\ienroll4_writecerttouserds.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 8b29f442-265f-4826-a2f0-3305d6f70cbb
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IEnroll interface [Security],WriteCertToUserDS property, IEnroll.WriteCertToUserDS, IEnroll.put_WriteCertToUserDS, IEnroll::WriteCertToUserDS, IEnroll::get_WriteCertToUserDS, IEnroll::put_WriteCertToUserDS, WriteCertToUserDS property [Security], WriteCertToUserDS property [Security],IEnroll interface, put_WriteCertToUserDS, security.ienroll4_writecerttouserds, xenroll/IEnroll::WriteCertToUserDS, xenroll/IEnroll::get_WriteCertToUserDS, xenroll/IEnroll::put_WriteCertToUserDS
 ms.prod: windows
 ms.technology: windows-sdk

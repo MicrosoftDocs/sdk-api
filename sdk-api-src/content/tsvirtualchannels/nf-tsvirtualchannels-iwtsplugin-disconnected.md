@@ -4,10 +4,10 @@ title: IWTSPlugin::Disconnected
 author: windows-sdk-content
 description: Notifies the plug-in that the Remote Desktop Connection (RDC) client has disconnected from the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\iwtsplugin_disconnected.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: cbc753b4-531f-476e-8743-b8fbf2481c91
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: Disconnected, Disconnected method [Remote Desktop Services], Disconnected method [Remote Desktop Services],IWTSPlugin interface, IWTSPlugin interface [Remote Desktop Services],Disconnected method, IWTSPlugin.Disconnected, IWTSPlugin::Disconnected, termserv.iwtsplugin_disconnected, tsvirtualchannels/IWTSPlugin::Disconnected
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_getmethodorigin.htm
 old-project: WmiSdk
 ms.assetid: e3d55b1f-f9bd-40d1-9ad5-990c264524d5
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: GetMethodOrigin, GetMethodOrigin method [Windows Management Instrumentation], GetMethodOrigin method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetMethodOrigin method, IWbemClassObject.GetMethodOrigin, IWbemClassObject::GetMethodOrigin, _hmm_iwbemclassobject_getmethodorigin, wbemcli/IWbemClassObject::GetMethodOrigin, wmi.iwbemclassobject_getmethodorigin
 ms.prod: windows
 ms.technology: windows-sdk

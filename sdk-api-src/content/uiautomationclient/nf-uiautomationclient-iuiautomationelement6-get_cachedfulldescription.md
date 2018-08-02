@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement6_CachedFullDescription.htm
 old-project: WinAuto
 ms.assetid: A8CBAEF7-FFF4-4FAE-A05B-DA3A240256F9
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CachedFullDescription property [Windows Accessibility], CachedFullDescription property [Windows Accessibility],IUIAutomationElement6 interface, IUIAutomationElement6 interface [Windows Accessibility],CachedFullDescription property, IUIAutomationElement6.CachedFullDescription, IUIAutomationElement6.get_CachedFullDescription, IUIAutomationElement6::CachedFullDescription, IUIAutomationElement6::get_CachedFullDescription, get_CachedFullDescription, uiautomationclient/IUIAutomationElement6::CachedFullDescription, uiautomationclient/IUIAutomationElement6::get_CachedFullDescription, winauto.uiauto_IUIAutomationElement6_CachedFullDescription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt798238(v=VS.85).aspx">IUIAutomationElement6</a>
+<a href="winauto.iuiautomationelement6">IUIAutomationElement6</a>
  
 
  

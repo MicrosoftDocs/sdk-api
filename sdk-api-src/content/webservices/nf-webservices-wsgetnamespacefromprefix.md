@@ -7,7 +7,7 @@ old-location: wsw\wsgetnamespacefromprefix.htm
 old-project: wsw
 ms.assetid: 35351ce3-4ff9-4a15-856b-c3ee485f9d37
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetNamespaceFromPrefix, WsGetNamespaceFromPrefix function [Web Services for Windows], webservices/WsGetNamespaceFromPrefix, wsw.wsgetnamespacefromprefix
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,7 @@ req.product: Windows Address Book 5.0
 This function returns a namespace from the prefix to which it is bound.
       
 
-
-        If the value of the <i>required</i> parameter is set to <b>TRUE</b> and the Prefix is not bound to any namespace a <b>WS_E_INVALID_FORMAT</b> exception will be returned.
+If the value of the <i>required</i> parameter is set to <b>TRUE</b> and the Prefix is not bound to any namespace a <b>WS_E_INVALID_FORMAT</b> exception will be returned.
         (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.) If the <i>required</i> parameter is  <b>FALSE</b>, and the Prefix is not bound to any namespace the <i>ns</i> parameter will be <b>NULL</b> and the function will return S_FALSE.
       
 
@@ -67,8 +66,7 @@ This function returns a namespace from the prefix to which it is bound.
 
 ### -param reader [in]
 
-
-          A pointer to the reader for which the prefix should be searched.  
+A pointer to the reader for which the prefix should be searched.  
 
 
 ### -param prefix [in]
@@ -114,7 +112,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -129,12 +126,10 @@ The input data was not in the expected format or did not have the expected value
 
 
 
-
-        For the prefix "xml" it will return the namespace "http://www.w3.org/XML/1998/namespace".
+For the prefix "xml" it will return the namespace "http://www.w3.org/XML/1998/namespace".
       
 
-
-        For the prefix "xmlns" it will return the namespace "http://www.w3.org/2000/xmlns/".
+For the prefix "xmlns" it will return the namespace "http://www.w3.org/2000/xmlns/".
       
 
 

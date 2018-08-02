@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_progressnotificationcallback.htm
 old-project: wic
 ms.assetid: 10dd9fbe-abff-4fc9-a3a5-7c01ecc10a7f
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: PFNProgressNotification, PFNProgressNotification callback, ProgressNotificationCallback, ProgressNotificationCallback callback function [Windows Imaging Component], _wic_codec_progressnotificationcallback, wic._wic_codec_progressnotificationcallback, wincodec/ProgressNotificationCallback
 ms.prod: windows
 ms.technology: windows-sdk

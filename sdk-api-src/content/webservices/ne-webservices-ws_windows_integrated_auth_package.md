@@ -7,7 +7,7 @@ old-location: wsw\ws_windows_integrated_auth_package.htm
 old-project: wsw
 ms.assetid: 7aa0bbf3-afc0-4deb-9cb3-62e297dd8702
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_WINDOWS_INTEGRATED_AUTH_PACKAGE, WS_WINDOWS_INTEGRATED_AUTH_PACKAGE enumeration [Web Services for Windows], WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_KERBEROS, WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_NTLM, WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_SPNEGO, webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE, webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_KERBEROS, webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_NTLM, webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_SPNEGO, wsw.ws_windows_integrated_auth_package
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,6 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 Defines the specific SSP package to be used for Windows Integrated
 Authentication.
             
@@ -64,20 +63,17 @@ Authentication.
 
 ### -field WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_KERBEROS
 
-
 The Kerberos package.
                 
 
 
 ### -field WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_NTLM
 
-
 The NTLM package.
                 
 
 
 ### -field WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_SPNEGO
-
 
 The SPNEGO package.
                 

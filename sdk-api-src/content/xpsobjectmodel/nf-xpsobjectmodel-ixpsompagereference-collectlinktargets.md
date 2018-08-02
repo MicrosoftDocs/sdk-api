@@ -7,7 +7,7 @@ old-location: xps\ixpsompagereference_collectlinktargets.htm
 old-project: printdocs
 ms.assetid: 82c64e8a-d8fb-41e3-95f8-b8ca490eae78
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CollectLinkTargets, CollectLinkTargets method [XPS Documents and Packaging], CollectLinkTargets method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],CollectLinkTargets method, IXpsOMPageReference.CollectLinkTargets, IXpsOMPageReference::CollectLinkTargets, xps.ixpsompagereference_collectlinktargets, xpsobjectmodel/IXpsOMPageReference::CollectLinkTargets
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Gets an  <a href="https://msdn.microsoft.com/b27f83fc-0fcf-44e9-a6ce-c3612c5399f
 
 ### -param linkTargets [out, retval]
 
-
-              A pointer to an <a href="https://msdn.microsoft.com/b27f83fc-0fcf-44e9-a6ce-c3612c5399ff">IXpsOMNameCollection</a> interface that contains the names of all the document subtree objects whose <b>IsHyperlinkTarget</b> property is set to <b>TRUE</b>. If no such objects exist in the document, the <b>IXpsOMNameCollection</b> interface will be empty.
+A pointer to an <a href="https://msdn.microsoft.com/b27f83fc-0fcf-44e9-a6ce-c3612c5399ff">IXpsOMNameCollection</a> interface that contains the names of all the document subtree objects whose <b>IsHyperlinkTarget</b> property is set to <b>TRUE</b>. If no such objects exist in the document, the <b>IXpsOMNameCollection</b> interface will be empty.
 
 <div class="alert"><b>Note</b>  Every time this method is called, it returns a new collection.</div>
 <div> </div>
@@ -121,8 +120,7 @@ Not enough memory to perform this operation.
 
 
 
-
-        If the page is originally loaded from a package but  is not currently loaded in the object model, this method returns the values specified in the original <b>PageContent.LinkTargets</b> markup.
+If the page is originally loaded from a package but  is not currently loaded in the object model, this method returns the values specified in the original <b>PageContent.LinkTargets</b> markup.
       
 
 If the document does not have any link targets, the name collection returned in <i>linkTargets</i> will be empty.

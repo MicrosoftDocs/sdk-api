@@ -7,7 +7,7 @@ old-location: dshow\iamtimecodereader_put_vitcline.htm
 old-project: DirectShow
 ms.assetid: 171b0fd2-1498-41ae-9803-99b9128ee305
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMTimecodeReader interface [DirectShow],put_VITCLine method, IAMTimecodeReader.put_VITCLine, IAMTimecodeReader::put_VITCLine, IAMTimecodeReaderput_VITCLine, dshow.iamtimecodereader_put_vitcline, put_VITCLine, put_VITCLine method [DirectShow], put_VITCLine method [DirectShow],IAMTimecodeReader interface, strmif/IAMTimecodeReader::put_VITCLine
 ms.prod: windows
 ms.technology: windows-sdk

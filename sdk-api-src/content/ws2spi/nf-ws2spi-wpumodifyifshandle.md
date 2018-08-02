@@ -4,10 +4,10 @@ title: WPUModifyIFSHandle function
 author: windows-sdk-content
 description: The WPUModifyIFSHandle function receives a (possibly) modified IFS handle from Ws2_32.dll.
 old-location: winsock\wpumodifyifshandle_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: f58971eb-0948-4e16-a767-1d4cba9ec721
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: WPUModifyIFSHandle, WPUModifyIFSHandle function [Winsock], _win32_wpumodifyifshandle_2, winsock.wpumodifyifshandle_2, ws2spi/WPUModifyIFSHandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>WPUModifyIFSHandle</b> function receives a (possibly) modified IFS handle from Ws2_32.dll.
 
 
@@ -80,8 +79,7 @@ Pointer to the error code.
 
 
 
-
-						If no error occurs, 
+If no error occurs, 
 <b>WPUModifyIFSHandle</b> returns the modified socket handle. Otherwise, it returns INVALID_SOCKET, and a specific error code is available in <i>lpErrno</i>.
 
 
@@ -94,7 +92,7 @@ Pointer to the error code.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -135,7 +133,7 @@ There are several limitations a layered provider should observe if it takes this
 <a href="https://msdn.microsoft.com/9ebfe81c-bed6-4bde-b1dd-5eaefbaac9cf">WSPStartup</a> to make sure the Windows Sockets SPI client's access to these functions is as efficient as possible.</li>
 <li>The provider cannot rely on its 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566316">WSPSend</a> and 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566309">WSPRecv</a> functions being invoked for all I/O, particularly in the case of the I/O system functions <a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a> and <a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>. These functions would bypass the layered provider and invoke the base IFS provider's implementation directly even if the layered provider puts its own entry points for these functions into the procedure dispatch table.</li>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566309">WSPRecv</a> functions being invoked for all I/O, particularly in the case of the I/O system functions <a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>. These functions would bypass the layered provider and invoke the base IFS provider's implementation directly even if the layered provider puts its own entry points for these functions into the procedure dispatch table.</li>
 <li>The provider cannot rely on any ability to post-process overlapped I/O using 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566316">WSPSend</a>, 
 <a href="https://msdn.microsoft.com/9e788289-6545-4e5e-9d00-f284b2337fcd">WSPSendTo</a>, 

@@ -7,7 +7,7 @@ old-location: hidpi\setdialogresizebehavior.htm
 old-project: hidpi
 ms.assetid: 52BB557B-0D70-4189-9BD0-EB94188EA4E7
 ms.author: windowssdkdev
-ms.date: 03/30/2018
+ms.date: 07/29/2018
 ms.keywords: SetDialogControlDpiChangeBehavior, SetDialogResizeBehavior, SetDialogResizeBehavior function [High DPI], hidpi.setdialogresizebehavior, winuser/SetDialogResizeBehavior
 ms.prod: windows
 ms.technology: windows-sdk

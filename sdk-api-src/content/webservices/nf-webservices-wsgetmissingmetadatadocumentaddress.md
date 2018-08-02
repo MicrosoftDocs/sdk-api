@@ -7,7 +7,7 @@ old-location: wsw\wsgetmissingmetadatadocumentaddress.htm
 old-project: wsw
 ms.assetid: 7854fb44-c397-4fd0-8a0e-ea293eba4f01
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetMissingMetadataDocumentAddress, WsGetMissingMetadataDocumentAddress function [Web Services for Windows], webservices/WsGetMissingMetadataDocumentAddress, wsw.wsgetmissingmetadatadocumentaddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,12 +51,10 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                This function returns the address of a missing document that is referenced by the metadata object.
+This function returns the address of a missing document that is referenced by the metadata object.
             
 
-
-                Each document that is added to the metadata object may contain references to
+Each document that is added to the metadata object may contain references to
                 other documents.    After a document has been added
                 back to the Metadata the function can be used to find the next missing document.
             
@@ -78,8 +76,7 @@ req.product: Windows Address Book 5.0
 
 ### -param metadata [in]
 
-
-                    This parameter is a pointer to a <b>Metadata</b> object that should have the document.  
+This parameter is a pointer to a <b>Metadata</b> object that should have the document.  
 
 
 ### -param address
@@ -91,8 +88,7 @@ On success this parameter is populated with either a pointer to the
                     The returned address URL is fully qualified.
                 
 
-<div class="alert"><b>Note</b>  
-                    The data returned by this function is valid until the metadata
+<div class="alert"><b>Note</b>  The data returned by this function is valid until the metadata
                     object is freed or reset.  The data should not be modified.
                 </div>
 <div> </div>
@@ -123,7 +119,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -135,7 +130,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -161,13 +155,11 @@ This function may return other errors not listed above.
 
 
 
-
-                Whether or not this function will verify host names of URLs returned can be
+Whether or not this function will verify host names of URLs returned can be
                 controlled using the <b>WS_METADATA_PROPERTY_VERIFY_HOST_NAMES</b> enumerator value.
             
 
-
-                The purpose of the host name verification is to ensure that an application
+The purpose of the host name verification is to ensure that an application
                 does not use the address without knowing that it is from a host that it 
                 is willing to accept metadata from.
             

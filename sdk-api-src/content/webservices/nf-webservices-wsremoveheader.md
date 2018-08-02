@@ -7,7 +7,7 @@ old-location: wsw\wsremoveheader.htm
 old-project: wsw
 ms.assetid: b240acbd-2c0e-4e2c-a334-a86440627e72
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsRemoveHeader, WsRemoveHeader function [Web Services for Windows], webservices/WsRemoveHeader, wsw.wsremoveheader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,8 +67,7 @@ For application-defined header types use the <a href="https://msdn.microsoft.com
 
 ### -param message [in]
 
-
-                    A pointer to the <b>Message</b> object with the header  to be removed.  
+A pointer to the <b>Message</b> object with the header  to be removed.  
                     The message can be in any state except <b>WS_MESSAGE_STATE_EMPTY</b>.
 
 
@@ -101,8 +100,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    There are multiple instances of the type of header present in the message.
+There are multiple instances of the type of header present in the message.
 
 </td>
 </tr>
@@ -113,8 +111,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    One or more of the parameters are incorrect.
+One or more of the parameters are incorrect.
 
 </td>
 </tr>
@@ -139,8 +136,7 @@ This function may return other errors not listed above.
 
 
 
-
-                If a header of the given type exists in the message it is removed.  If the header does not exist, no action is taken
+If a header of the given type exists in the message it is removed.  If the header does not exist, no action is taken
                 and the function completes successfully.
 
 

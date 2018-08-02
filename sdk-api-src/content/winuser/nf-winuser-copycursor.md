@@ -7,7 +7,7 @@ old-location: menurc\copycursor.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\copycursor.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: CopyCursor, CopyCursor function [Menus and Other Resources], _win32_CopyCursor, _win32_copycursor_cpp, menurc.copycursor, winui._win32_copycursor, winuser/CopyCursor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,11 +72,11 @@ A handle to the cursor to be copied.
 
 <b>CopyCursor</b> enables an application or DLL to obtain the handle to a cursor shape owned by another module. Then if the other module is freed, the application is still able to use the cursor shape. 
 
-Before closing, an application must call the <a href="https://msdn.microsoft.com/library/ms648386(v=VS.85).aspx">DestroyCursor</a> function to free any system resources associated with the cursor. 
+Before closing, an application must call the <a href="https://msdn.microsoft.com/en-us/library/ms648386(v=VS.85).aspx">DestroyCursor</a> function to free any system resources associated with the cursor. 
 
-Do not use the <b>CopyCursor</b> function for animated cursors. Instead, use the <a href="https://msdn.microsoft.com/library/ms648031(v=VS.85).aspx">CopyImage</a> function.
+Do not use the <b>CopyCursor</b> function for animated cursors. Instead, use the <a href="https://msdn.microsoft.com/en-us/library/ms648031(v=VS.85).aspx">CopyImage</a> function.
 
-<b>CopyCursor</b> is implemented as a call to the <a href="https://msdn.microsoft.com/library/ms648058(v=VS.85).aspx">CopyIcon</a> function.
+<b>CopyCursor</b> is implemented as a call to the <a href="https://msdn.microsoft.com/en-us/library/ms648058(v=VS.85).aspx">CopyIcon</a> function.
 
 <pre class="syntax" xml:space="preserve"><code>#define CopyCursor(pcur) ((HCURSOR)CopyIcon((HICON)(pcur)))</code></pre>
 
@@ -91,23 +91,23 @@ Do not use the <b>CopyCursor</b> function for animated cursors. Instead, use the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648058(v=VS.85).aspx">CopyIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648058(v=VS.85).aspx">CopyIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648031(v=VS.85).aspx">CopyImage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648031(v=VS.85).aspx">CopyImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648386(v=VS.85).aspx">DestroyCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648386(v=VS.85).aspx">DestroyCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648388(v=VS.85).aspx">GetCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648388(v=VS.85).aspx">GetCursor</a>
 
 
 
@@ -115,11 +115,11 @@ Do not use the <b>CopyCursor</b> function for animated cursors. Instead, use the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648393(v=VS.85).aspx">SetCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648393(v=VS.85).aspx">SetCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648396(v=VS.85).aspx">ShowCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648396(v=VS.85).aspx">ShowCursor</a>
  
 
  

@@ -4,10 +4,10 @@ title: CredUIParseUserNameW function
 author: windows-sdk-content
 description: The CredUIParseUserName function extracts the domain and user account name from a fully qualified user name.
 old-location: security\creduiparseusername.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 4a7fb207-f940-4610-a740-7bf5d58fb285
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: CredUIParseUserName, CredUIParseUserName function [Security], CredUIParseUserNameA, CredUIParseUserNameW, _cred_creduiparseusername, security.creduiparseusername, wincred/CredUIParseUserName, wincred/CredUIParseUserNameA, wincred/CredUIParseUserNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,8 +55,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CredUIParseUserName</b> function extracts the domain and user account name from a fully qualified user name.
+The <b>CredUIParseUserName</b> function extracts the domain and user account name from a fully qualified user name.
 
 
 ## -parameters
@@ -132,8 +131,7 @@ Maximum number of characters to write to the <i>pszUser</i> string including the
 
 
 
-
-						This function returns the following:
+This function returns the following:
 
 <ul>
 <li>NO_ERROR 

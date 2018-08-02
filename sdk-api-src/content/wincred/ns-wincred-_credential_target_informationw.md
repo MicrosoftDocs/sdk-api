@@ -4,10 +4,10 @@ title: "_CREDENTIAL_TARGET_INFORMATIONW"
 author: windows-sdk-content
 description: The CREDENTIAL_TARGET_INFORMATION structure contains the target computer's name, domain, and tree.
 old-location: security\credential_target_information.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 92180f2c-ef7c-4481-9b6f-19234c114afb
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCREDENTIAL_TARGET_INFORMATIONW, CREDENTIAL_TARGET_INFORMATION, CREDENTIAL_TARGET_INFORMATION structure [Security], CREDENTIAL_TARGET_INFORMATIONW, PCREDENTIAL_TARGET_INFORMATION, PCREDENTIAL_TARGET_INFORMATION structure pointer [Security], _CREDENTIAL_TARGET_INFORMATIONW, _cred_credential_target_information, security.credential_target_information, wincred/CREDENTIAL_TARGET_INFORMATION, wincred/PCREDENTIAL_TARGET_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CREDENTIAL_TARGET_INFORMATION</b> structure contains the target computer's name, domain, and tree.
+The <b>CREDENTIAL_TARGET_INFORMATION</b> structure contains the target computer's name, domain, and tree.
 
 
 ## -struct-fields
@@ -182,8 +181,7 @@ DNS name of the target server. If the name is not known, this member can be <b>N
 
 ### -field NetbiosDomainName
 
-
-						NetBIOS name of the target server's domain. If the name is not known, this member can be <b>NULL</b>. If the target server is a member of a workgroup, this member must be <b>NULL</b>.
+NetBIOS name of the target server's domain. If the name is not known, this member can be <b>NULL</b>. If the target server is a member of a workgroup, this member must be <b>NULL</b>.
 
 
 ### -field DnsDomainName

@@ -7,7 +7,7 @@ old-location: menurc\lookupiconidfromdirectoryex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\lookupiconidfromdirectoryex.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: LR_DEFAULTCOLOR, LR_MONOCHROME, LookupIconIdFromDirectoryEx, LookupIconIdFromDirectoryEx function [Menus and Other Resources], _win32_LookupIconIdFromDirectoryEx, _win32_lookupiconidfromdirectoryex_cpp, menurc.lookupiconidfromdirectoryex, winui._win32_lookupiconidfromdirectoryex, winuser/LookupIconIdFromDirectoryEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -141,16 +141,16 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-A resource file of type <b>RT_GROUP_ICON</b> (<b>RT_GROUP_CURSOR</b> indicates cursors) contains icon (or cursor) data in several device-dependent and device-independent formats. <b>LookupIconIdFromDirectoryEx</b> searches the resource file for the icon (or cursor) that best fits the current display device and returns its integer identifier. The <a href="https://msdn.microsoft.com/library/ms648042(v=VS.85).aspx">FindResource</a> and <a href="https://msdn.microsoft.com/library/ms648043(v=VS.85).aspx">FindResourceEx</a> functions use the <a href="https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro with this identifier to locate the resource in the module. 
+A resource file of type <b>RT_GROUP_ICON</b> (<b>RT_GROUP_CURSOR</b> indicates cursors) contains icon (or cursor) data in several device-dependent and device-independent formats. <b>LookupIconIdFromDirectoryEx</b> searches the resource file for the icon (or cursor) that best fits the current display device and returns its integer identifier. The <a href="https://msdn.microsoft.com/en-us/library/ms648042(v=VS.85).aspx">FindResource</a> and <a href="https://msdn.microsoft.com/en-us/library/ms648043(v=VS.85).aspx">FindResourceEx</a> functions use the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro with this identifier to locate the resource in the module. 
 
 The icon directory is loaded from a resource file with resource type <b>RT_GROUP_ICON</b> (or <b>RT_GROUP_CURSOR</b> for cursors), and an integer resource name for the specific icon to be loaded. <b>LookupIconIdFromDirectoryEx</b> returns an integer identifier that is the resource name of the icon that best fits the current display device. 
 
-The <a href="https://msdn.microsoft.com/library/ms648072(v=VS.85).aspx">LoadIcon</a>, <a href="https://msdn.microsoft.com/library/ms648045(v=VS.85).aspx">LoadImage</a>, and <a href="https://msdn.microsoft.com/library/ms648391(v=VS.85).aspx">LoadCursor</a> functions use this function to search the specified resource data for the icon or cursor that best fits the current display device. 
+The <a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>, <a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a> functions use this function to search the specified resource data for the icon or cursor that best fits the current display device. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms648051(v=VS.85).aspx">Sharing Icon Resources</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648051(v=VS.85).aspx">Sharing Icon Resources</a>.
 
 <div class="code"></div>
 
@@ -165,47 +165,47 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648051(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648061(v=VS.85).aspx">CreateIconFromResourceEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648061(v=VS.85).aspx">CreateIconFromResourceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648062(v=VS.85).aspx">CreateIconIndirect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648062(v=VS.85).aspx">CreateIconIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648042(v=VS.85).aspx">FindResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648042(v=VS.85).aspx">FindResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648043(v=VS.85).aspx">FindResourceEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648043(v=VS.85).aspx">FindResourceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648070(v=VS.85).aspx">GetIconInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648070(v=VS.85).aspx">GetIconInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646973(v=VS.85).aspx">Icons</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646973(v=VS.85).aspx">Icons</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648072(v=VS.85).aspx">LoadIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648045(v=VS.85).aspx">LoadImage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648073(v=VS.85).aspx">LookupIconIdFromDirectory</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648073(v=VS.85).aspx">LookupIconIdFromDirectory</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>
 
 
 

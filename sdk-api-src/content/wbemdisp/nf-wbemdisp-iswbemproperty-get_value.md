@@ -7,7 +7,7 @@ old-location: wmi\swbemproperty_value.htm
 old-project: WmiSdk
 ms.assetid: 547ec691-ff1c-4a6d-bee8-54e73d21cc93
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemProperty interface [Windows Management Instrumentation],Value property, ISWbemProperty.get_Value, ISWbemProperty.put_Value, ISWbemProperty::get_Value, SWbemProperty object [Windows Management Instrumentation],Value property, SWbemProperty.Value, Value property [Windows Management Instrumentation], Value property [Windows Management Instrumentation],ISWbemProperty interface, Value property [Windows Management Instrumentation],SWbemProperty object, _hmm_swbemproperty.value, get_Value, wmi.swbemproperty_value
 ms.prod: windows
 ms.technology: windows-sdk

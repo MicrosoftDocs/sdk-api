@@ -7,7 +7,7 @@ old-location: dataxchg\globalfindatom.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\globalfindatom.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/29/2018
 ms.keywords: GlobalFindAtom, GlobalFindAtom function [Data Exchange], GlobalFindAtomA, GlobalFindAtomW, _win32_GlobalFindAtom, _win32_globalfindatom_cpp, dataxchg.globalfindatom, winbase/GlobalFindAtom, winbase/GlobalFindAtomA, winbase/GlobalFindAtomW, winui._win32_globalfindatom
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Type: <b>LPCTSTR</b>
 
 The null-terminated character string for which to search. 
 
-Alternatively, you can use an integer atom that has been converted using the <a href="https://msdn.microsoft.com/library/ms649055(v=VS.85).aspx">MAKEINTATOM</a> macro. See the Remarks for more information. 
+Alternatively, you can use an integer atom that has been converted using the <a href="https://msdn.microsoft.com/en-us/library/ms649055(v=VS.85).aspx">MAKEINTATOM</a> macro. See the Remarks for more information. 
 
 
 ## -returns
@@ -93,7 +93,7 @@ If the function fails, the return value is zero. To get extended error informati
 Even though the system preserves the case of a string in an atom table as it was originally entered, the search performed by <b>GlobalFindAtom</b> is not case sensitive. 
 
 If 
-				<i>lpString</i> was created by the <a href="https://msdn.microsoft.com/library/ms649055(v=VS.85).aspx">MAKEINTATOM</a> macro, the low-order word must be in the range 0x0001 through 0xBFFF. If the low-order word is not in this range, the function fails. 
+				<i>lpString</i> was created by the <a href="https://msdn.microsoft.com/en-us/library/ms649055(v=VS.85).aspx">MAKEINTATOM</a> macro, the low-order word must be in the range 0x0001 through 0xBFFF. If the low-order word is not in this range, the function fails. 
 
 
 
@@ -103,31 +103,31 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649056(v=VS.85).aspx">AddAtom</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649056(v=VS.85).aspx">AddAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649057(v=VS.85).aspx">DeleteAtom</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649057(v=VS.85).aspx">DeleteAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649058(v=VS.85).aspx">FindAtom</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649058(v=VS.85).aspx">FindAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649059(v=VS.85).aspx">GetAtomName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649059(v=VS.85).aspx">GetAtomName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649060(v=VS.85).aspx">GlobalAddAtom</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649060(v=VS.85).aspx">GlobalAddAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649061(v=VS.85).aspx">GlobalDeleteAtom</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649061(v=VS.85).aspx">GlobalDeleteAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649063(v=VS.85).aspx">GlobalGetAtomName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649063(v=VS.85).aspx">GlobalGetAtomName</a>
 
 
 

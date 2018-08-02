@@ -4,10 +4,10 @@ title: ITextFont::GetSpacing
 author: windows-sdk-content
 description: Gets the amount of horizontal spacing between characters.
 old-location: controls\ITextFont_GetSpacing.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getspacing.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetSpacing, GetSpacing method [Windows Controls], GetSpacing method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetSpacing method, ITextFont.GetSpacing, ITextFont::GetSpacing, _win32_ITextFont_GetSpacing, _win32_ITextFont_GetSpacing_cpp, controls.ITextFont_GetSpacing, controls._win32_ITextFont_GetSpacing, tom/ITextFont::GetSpacing
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,7 +125,7 @@ Displayed text typically has an intercharacter spacing value of zero. Positive v
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
 
 
 
@@ -133,11 +133,11 @@ Displayed text typically has an intercharacter spacing value of zero. Positive v
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787822(v=VS.85).aspx">SetSpacing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787822(v=VS.85).aspx">SetSpacing</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

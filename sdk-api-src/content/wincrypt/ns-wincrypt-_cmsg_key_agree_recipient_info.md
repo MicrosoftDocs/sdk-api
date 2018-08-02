@@ -4,10 +4,10 @@ title: "_CMSG_KEY_AGREE_RECIPIENT_INFO"
 author: windows-sdk-content
 description: Contains information used for key agreement algorithms.
 old-location: security\cmsg_key_agree_recipient_info.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: d29d04d6-065e-4bb7-843b-f563643eeb4c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCMSG_KEY_AGREE_RECIPIENT_INFO, CMSG_KEY_AGREE_ORIGINATOR_CERT, CMSG_KEY_AGREE_ORIGINATOR_PUBLIC_KEY, CMSG_KEY_AGREE_RECIPIENT_INFO, CMSG_KEY_AGREE_RECIPIENT_INFO structure [Security], PCMSG_KEY_AGREE_RECIPIENT_INFO, PCMSG_KEY_AGREE_RECIPIENT_INFO structure pointer [Security], _CMSG_KEY_AGREE_RECIPIENT_INFO, _crypto2_cmsg_key_agree_recipient_info, security.cmsg_key_agree_recipient_info, wincrypt/CMSG_KEY_AGREE_RECIPIENT_INFO, wincrypt/PCMSG_KEY_AGREE_RECIPIENT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,14 +109,12 @@ OriginatorPublicKeyInfo
 
 ### -field DUMMYUNIONNAME.OriginatorCertId
 
-
-							A <a href="https://msdn.microsoft.com/9e33f661-c365-4725-8c3f-27b6cdd9a84e">CERT_ID</a>  that identifies the public key of the message originator.
+A <a href="https://msdn.microsoft.com/9e33f661-c365-4725-8c3f-27b6cdd9a84e">CERT_ID</a>  that identifies the public key of the message originator.
 
 
 ### -field DUMMYUNIONNAME.OriginatorPublicKeyInfo
 
-
-							A <a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key of the message originator.
+A <a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key of the message originator.
 
 
 ### -field UserKeyingMaterial

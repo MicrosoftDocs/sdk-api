@@ -4,10 +4,10 @@ title: "_CERT_NAME_VALUE"
 author: windows-sdk-content
 description: Contains a relative distinguished name (RDN) attribute value.
 old-location: security\cert_name_value.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 9f4ba546-7881-4827-b8f5-c3dd8c54ea8b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCERT_NAME_VALUE, CERT_NAME_VALUE, CERT_NAME_VALUE structure [Security], PCERT_NAME_VALUE, PCERT_NAME_VALUE structure pointer [Security], _CERT_NAME_VALUE, _crypto2_cert_name_value, security.cert_name_value, wincrypt/CERT_NAME_VALUE, wincrypt/PCERT_NAME_VALUE"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary2_createacceleratedeceler
 old-project: UIAnimation
 ms.assetid: 813B4539-2942-484E-BC20-3A8178EBF9A0
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateAccelerateDecelerateTransition, CreateAccelerateDecelerateTransition method [Windows Animation], CreateAccelerateDecelerateTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateAccelerateDecelerateTransition method, IUIAnimationTransitionLibrary2.CreateAccelerateDecelerateTransition, IUIAnimationTransitionLibrary2::CreateAccelerateDecelerateTransition, uianimation.iuianimationtransitionlibrary2_createacceleratedeceleratetransition, uianimation/IUIAnimationTransitionLibrary2::CreateAccelerateDecelerateTransition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates an accelerate-decelerate scalar transition.
+Creates an accelerate-decelerate scalar transition.
 
 
 ## -parameters
@@ -67,26 +66,22 @@ The duration of the transition.
 
 ### -param finalValue [in]
 
-
-                The value of the animation variable at the end of the transition.
+The value of the animation variable at the end of the transition.
 
 
 ### -param accelerationRatio [in]
 
-
-               The ratio of <i>duration</i> time spent accelerating (0 to 1).
+The ratio of <i>duration</i> time spent accelerating (0 to 1).
 
 
 ### -param decelerationRatio [in]
 
-
-               The ratio of <i>duration</i> time spent decelerating (0 to 1).
+The ratio of <i>duration</i> time spent decelerating (0 to 1).
 
 
 ### -param transition [out]
 
-
-               The new accelerate-decelerate transition.
+The new accelerate-decelerate transition.
 
 
 ## -returns

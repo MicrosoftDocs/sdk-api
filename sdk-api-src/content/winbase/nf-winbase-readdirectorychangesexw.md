@@ -4,10 +4,10 @@ title: ReadDirectoryChangesExW function
 author: windows-sdk-content
 description: Retrieves information that describes the changes within the specified directory, which can include extended information if that information type is specified.
 old-location: fs\readdirectorychangesexw.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 90C2F258-094C-4A0E-80E7-3FA241D288EA
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: FILE_NOTIFY_CHANGE_ATTRIBUTES, FILE_NOTIFY_CHANGE_CREATION, FILE_NOTIFY_CHANGE_DIR_NAME, FILE_NOTIFY_CHANGE_FILE_NAME, FILE_NOTIFY_CHANGE_LAST_ACCESS, FILE_NOTIFY_CHANGE_LAST_WRITE, FILE_NOTIFY_CHANGE_SECURITY, FILE_NOTIFY_CHANGE_SIZE, ReadDirectoryChangesExW, ReadDirectoryChangesExW function [Files], fs.readdirectorychangesexw, winbase/ReadDirectoryChangesExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -233,8 +233,7 @@ A pointer to a completion routine to be called when the operation has been compl
 
 The type of   information that
         <b>ReadDirectoryChangesExW</b> should write to the buffer to which the <i>lpBuffer</i> parameter points. Specify <b>ReadDirectoryNotifyInformation</b> to indicate 
-        that the information should consist of <a href="https://msdn.microsoft.com/cb95352f-8a15-48d8-9150-e4bc395e0122">FILE_NOTIFY_INFORMATION</a> structures, or <b>ReadDirectoryNotifyExtendedInformation</b>
-         to indicate 
+        that the information should consist of <a href="https://msdn.microsoft.com/cb95352f-8a15-48d8-9150-e4bc395e0122">FILE_NOTIFY_INFORMATION</a> structures, or <b>ReadDirectoryNotifyExtendedInformation</b>to indicate 
         that the information should consist of <a href="https://msdn.microsoft.com/4558F2E8-F515-4202-9CAA-FDAF20160F61">FILE_NOTIFY_EXTENDED_INFORMATION</a> structures. 
 
 

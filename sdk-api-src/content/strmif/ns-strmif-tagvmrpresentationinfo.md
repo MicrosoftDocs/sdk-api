@@ -7,7 +7,7 @@ old-location: dshow\vmrpresentationinfo.htm
 old-project: DirectShow
 ms.assetid: cddbe3de-c5e2-4161-801f-f3497714922c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: VMRPRESENTATIONINFO, VMRPRESENTATIONINFO structure [DirectShow], VMRPRESENTATIONINFOStructure, dshow.vmrpresentationinfo, strmif/VMRPRESENTATIONINFO, tagVMRPRESENTATIONINFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,29 +74,25 @@ Pointer to the DirectDraw surface that contains the video frame to be presented.
 
 ### -field rtStart
 
-
-            The start time for the current frame, in 100-nanosecond units.
+The start time for the current frame, in 100-nanosecond units.
           
 
 
 ### -field rtEnd
 
-
-            The end time for the current frame, in 100-nanosecond units.
+The end time for the current frame, in 100-nanosecond units.
           
 
 
 ### -field szAspectRatio
 
-
-            The aspect ratio of the rectangle.
+The aspect ratio of the rectangle.
           
 
 
 ### -field rcSrc
 
-
-            The source rectangle.
+The source rectangle.
           
 
 

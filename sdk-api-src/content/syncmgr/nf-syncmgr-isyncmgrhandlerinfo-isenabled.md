@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandlerInfo_IsEnabled.htm
 old-project: shell
 ms.assetid: 1485ae25-20b8-4ee9-a30d-247f719047cd
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: ISyncMgrHandlerInfo interface [Windows Shell],IsEnabled method, ISyncMgrHandlerInfo.IsEnabled, ISyncMgrHandlerInfo::IsEnabled, IsEnabled, IsEnabled method [Windows Shell], IsEnabled method [Windows Shell],ISyncMgrHandlerInfo interface, _shell_ISyncMgrHandlerInfo_IsEnabled, shell.ISyncMgrHandlerInfo_IsEnabled, syncmgr/ISyncMgrHandlerInfo::IsEnabled
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,8 +93,7 @@ Sync Center calls this method whenever the <a href="https://msdn.microsoft.com/d
 
 
 
-
-        	The following example shows an implementation of this method that calls a private class function to retrieve the enabled state.
+The following example shows an implementation of this method that calls a private class function to retrieve the enabled state.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

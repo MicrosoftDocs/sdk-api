@@ -7,7 +7,7 @@ old-location: inputdev\mapvirtualkeyex.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\mapvirtualkeyex.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: MAPVK_VK_TO_CHAR, MAPVK_VK_TO_VSC, MAPVK_VK_TO_VSC_EX, MAPVK_VSC_TO_VK, MAPVK_VSC_TO_VK_EX, MapVirtualKeyEx, MapVirtualKeyEx function [Keyboard and Mouse Input], MapVirtualKeyExA, MapVirtualKeyExW, _win32_MapVirtualKeyEx, _win32_mapvirtualkeyex_cpp, inputdev.mapvirtualkeyex, winui._win32_mapvirtualkeyex, winuser/MapVirtualKeyEx, winuser/MapVirtualKeyExA, winuser/MapVirtualKeyExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -152,7 +152,7 @@ The <i>uCode</i> parameter is a scan code and is translated into a virtual-key c
 
 Type: <b>HKL</b>
 
-Input locale identifier to use for translating the specified code. This parameter can be any input locale identifier previously returned by the <a href="https://msdn.microsoft.com/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a> function.
+Input locale identifier to use for translating the specified code. This parameter can be any input locale identifier previously returned by the <a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a> function.
 
 
 ## -returns
@@ -184,7 +184,7 @@ An application can get the scan code corresponding to the left or right instance
 <li><b>VK_LMENU</b></li>
 <li><b>VK_RMENU</b></li>
 </ul>
-These left- and right-distinguishing constants are available to an application only through the <a href="https://msdn.microsoft.com/library/ms646299(v=VS.85).aspx">GetKeyboardState</a>, <a href="https://msdn.microsoft.com/library/ms646314(v=VS.85).aspx">SetKeyboardState</a>, <a href="https://msdn.microsoft.com/library/ms646293(v=VS.85).aspx">GetAsyncKeyState</a>, <a href="https://msdn.microsoft.com/library/ms646301(v=VS.85).aspx">GetKeyState</a>, <a href="https://msdn.microsoft.com/library/ms646306(v=VS.85).aspx">MapVirtualKey</a>, and <b>MapVirtualKeyEx</b> functions. For list complete table of virtual key codes, see <a href="https://msdn.microsoft.com/library/Dd375731(v=VS.85).aspx">Virtual Key Codes</a>.
+These left- and right-distinguishing constants are available to an application only through the <a href="https://msdn.microsoft.com/en-us/library/ms646299(v=VS.85).aspx">GetKeyboardState</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646314(v=VS.85).aspx">SetKeyboardState</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646293(v=VS.85).aspx">GetAsyncKeyState</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx">GetKeyState</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646306(v=VS.85).aspx">MapVirtualKey</a>, and <b>MapVirtualKeyEx</b> functions. For list complete table of virtual key codes, see <a href="https://msdn.microsoft.com/en-us/library/Dd375731(v=VS.85).aspx">Virtual Key Codes</a>.
 
 
 
@@ -198,23 +198,23 @@ These left- and right-distinguishing constants are available to an application o
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646293(v=VS.85).aspx">GetAsyncKeyState</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646293(v=VS.85).aspx">GetAsyncKeyState</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646301(v=VS.85).aspx">GetKeyState</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx">GetKeyState</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646299(v=VS.85).aspx">GetKeyboardState</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646299(v=VS.85).aspx">GetKeyboardState</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>
 
 
 
@@ -222,7 +222,7 @@ These left- and right-distinguishing constants are available to an application o
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646314(v=VS.85).aspx">SetKeyboardState</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646314(v=VS.85).aspx">SetKeyboardState</a>
  
 
  

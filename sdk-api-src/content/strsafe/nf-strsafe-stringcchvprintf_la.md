@@ -7,7 +7,7 @@ old-location: menurc\stringcchvprintf_l.htm
 old-project: menurc
 ms.assetid: 90c83405-f2c8-480b-883c-c3ce258016cd
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: StringCchVPrintf_l, StringCchVPrintf_l function [Menus and Other Resources], StringCchVPrintf_lA, StringCchVPrintf_lW, menurc.stringcchvprintf_l, strsafe/StringCchVPrintf_l, strsafe/StringCchVPrintf_lA, strsafe/StringCchVPrintf_lW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: Windows XP with SP1 and later
 
 Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCchVPrintf_l</b> is similar to <a href="https://msdn.microsoft.com/library/ms647546(v=VS.85).aspx">StringCchVPrintf</a> but includes a parameter for locale information.
+<b>StringCchVPrintf_l</b> is similar to <a href="https://msdn.microsoft.com/en-us/library/ms647546(v=VS.85).aspx">StringCchVPrintf</a> but includes a parameter for locale information.
 
 
 ## -parameters

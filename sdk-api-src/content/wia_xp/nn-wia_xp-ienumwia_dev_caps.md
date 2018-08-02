@@ -7,7 +7,7 @@ old-location: wia\_wia_IEnumWIA_DEV_CAPS.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_caps\ienumwia_dev_caps.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: IEnumWIA_DEV_CAPS, IEnumWIA_DEV_CAPS interface [WIA], IEnumWIA_DEV_CAPS interface [WIA],described, _wia_IEnumWIA_DEV_CAPS, wia._wia_IEnumWIA_DEV_CAPS, wia_xp/IEnumWIA_DEV_CAPS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ The <b>IEnumWIA_DEV_CAPS</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629836(v=VS.85).aspx">IEnumWIA_DEV_CAPS::Clone</a> method creates an additional instance of the <b>IEnumWIA_DEV_CAPS</b> interface and sends back a pointer to it.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629836(v=VS.85).aspx">IEnumWIA_DEV_CAPS::Clone</a> method creates an additional instance of the <b>IEnumWIA_DEV_CAPS</b> interface and sends back a pointer to it.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ The <a href="https://msdn.microsoft.com/library/ms629836(v=VS.85).aspx">IEnumWIA
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629839(v=VS.85).aspx">IEnumWIA_DEV_CAPS::GetCount</a> method returns the number of elements stored by this enumerator.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629839(v=VS.85).aspx">IEnumWIA_DEV_CAPS::GetCount</a> method returns the number of elements stored by this enumerator.
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ The <a href="https://msdn.microsoft.com/library/ms629839(v=VS.85).aspx">IEnumWIA
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms630167(v=VS.85).aspx">IEnumWIA_DEV_CAPS::Next</a> method fills an array of pointers to <a href="https://msdn.microsoft.com/library/ms629872(v=VS.85).aspx">WIA_DEV_CAP</a> structures.
+The <a href="https://msdn.microsoft.com/en-us/library/ms630167(v=VS.85).aspx">IEnumWIA_DEV_CAPS::Next</a> method fills an array of pointers to <a href="https://msdn.microsoft.com/en-us/library/ms629872(v=VS.85).aspx">WIA_DEV_CAP</a> structures.
 
 
 </td>
@@ -103,7 +103,7 @@ The <a href="https://msdn.microsoft.com/library/ms630167(v=VS.85).aspx">IEnumWIA
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms630168(v=VS.85).aspx">IEnumWIA_DEV_CAPS::Reset</a> method is used by applications to restart the enumeration of device capabilities.
+The <a href="https://msdn.microsoft.com/en-us/library/ms630168(v=VS.85).aspx">IEnumWIA_DEV_CAPS::Reset</a> method is used by applications to restart the enumeration of device capabilities.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ The <a href="https://msdn.microsoft.com/library/ms630168(v=VS.85).aspx">IEnumWIA
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms630169(v=VS.85).aspx">IEnumWIA_DEV_CAPS::Skip</a> method skips the specified number of hardware device capabilities during an enumeration of available device capabilities.
+The <a href="https://msdn.microsoft.com/en-us/library/ms630169(v=VS.85).aspx">IEnumWIA_DEV_CAPS::Skip</a> method skips the specified number of hardware device capabilities during an enumeration of available device capabilities.
 
 
 </td>
@@ -126,7 +126,7 @@ The <a href="https://msdn.microsoft.com/library/ms630169(v=VS.85).aspx">IEnumWIA
 
 The <b>IEnumWIA_DEV_CAPS</b> interface is a specific implementation for WIA of the standard OLE enumeration interface. For details, see <a href="_com_ienumxxxx">IEnumXXXX</a>.
 
-Applications obtain a pointer to the <b>IEnumWIA_DEV_CAPS</b> interface by invoking the <a href="https://msdn.microsoft.com/library/ms630103(v=VS.85).aspx">IWiaItem::EnumDeviceCapabilities</a> method.
+Applications obtain a pointer to the <b>IEnumWIA_DEV_CAPS</b> interface by invoking the <a href="https://msdn.microsoft.com/en-us/library/ms630103(v=VS.85).aspx">IWiaItem::EnumDeviceCapabilities</a> method.
 
 The <b>IEnumWIA_DEV_CAPS</b> interface, like all Component Object Model (COM) interfaces, inherits the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface methods.
 
@@ -164,7 +164,7 @@ The <b>IEnumWIA_DEV_CAPS</b> interface, like all Component Object Model (COM) in
 
 
 
-<a href="https://msdn.microsoft.com/library/ms630103(v=VS.85).aspx">EnumDeviceCapabilities</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms630103(v=VS.85).aspx">EnumDeviceCapabilities</a>
 
 
 

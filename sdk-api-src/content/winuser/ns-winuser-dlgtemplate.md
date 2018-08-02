@@ -7,7 +7,7 @@ old-location: dlgbox\dlgtemplate.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxstructures\dlgtemplate.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPDLGTEMPLATEA, *LPDLGTEMPLATEW, DLGTEMPLATE, DLGTEMPLATE structure [Dialog Boxes], LPDLGTEMPLATE, LPDLGTEMPLATE structure pointer [Dialog Boxes], _win32_DLGTEMPLATE_str, _win32_dlgtemplate_str_cpp, dlgbox.dlgtemplate, winui._win32_dlgtemplate_str, winuser/DLGTEMPLATE, winuser/LPDLGTEMPLATE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Defines the dimensions and style of a dialog box. This structure, always the first in a standard template for a dialog box, also specifies the number of controls in the dialog box and therefore specifies the number of subsequent <a href="https://msdn.microsoft.com/library/ms644997(v=VS.85).aspx">DLGITEMTEMPLATE</a> structures in the template. 
+Defines the dimensions and style of a dialog box. This structure, always the first in a standard template for a dialog box, also specifies the number of controls in the dialog box and therefore specifies the number of subsequent <a href="https://msdn.microsoft.com/en-us/library/ms644997(v=VS.85).aspx">DLGITEMTEMPLATE</a> structures in the template. 
 
 
 ## -struct-fields
@@ -66,10 +66,9 @@ Type: <b>DWORD</b>
 The style of the dialog box. This member can be a combination of <a href="winui._win32_Window_Styles">window style values</a> (such as <b>WS_CAPTION</b> and <b>WS_SYSMENU</b>) and <a href="https://msdn.microsoft.com/C347A1C4-BCE2-48de-B646-8D4869C5B971">dialog box style values</a> (such as <b>DS_CENTER</b>).
 
 If the style member includes the <b>DS_SETFONT</b> style, the header of the dialog box template contains additional data specifying the font to use for text in the client area and controls of the dialog box. The font data begins on the 
-						<b>WORD</b> boundary that follows the title array. The font data specifies a 16-bit point size value and a Unicode font name string. If possible, the system creates a font according to the specified values. Then the system sends a <a href="https://msdn.microsoft.com/library/ms632642(v=VS.85).aspx">WM_SETFONT</a> message to the dialog box and to each control to provide a handle to the font. If <b>DS_SETFONT</b> is not specified, the dialog box template does not include the font data. 
+						<b>WORD</b> boundary that follows the title array. The font data specifies a 16-bit point size value and a Unicode font name string. If possible, the system creates a font according to the specified values. Then the system sends a <a href="https://msdn.microsoft.com/en-us/library/ms632642(v=VS.85).aspx">WM_SETFONT</a> message to the dialog box and to each control to provide a handle to the font. If <b>DS_SETFONT</b> is not specified, the dialog box template does not include the font data. 
 
-
-						 The <b>DS_SHELLFONT</b> style is not supported in the <b>DLGTEMPLATE</b> header. 
+The <b>DS_SHELLFONT</b> style is not supported in the <b>DLGTEMPLATE</b> header. 
 
 
 ### -field dwExtendedStyle
@@ -129,9 +128,9 @@ Following the class array is a title array that specifies a null-terminated Unic
 
 The 16-bit point size value and the typeface array follow the title array, but only if the 
 				<b>style</b> member specifies the DS_SETFONT style. The point size value
-specifies the point size of the font to use for the text in the dialog box and its controls. The typeface array is a null-terminated Unicode string specifying the name of the typeface for the font. When these values are specified, the system creates a font having the specified size and typeface (if possible) and sends a <a href="https://msdn.microsoft.com/library/ms632642(v=VS.85).aspx">WM_SETFONT</a> message to the dialog box procedure and the control window procedures as it creates the dialog box and controls. 
+specifies the point size of the font to use for the text in the dialog box and its controls. The typeface array is a null-terminated Unicode string specifying the name of the typeface for the font. When these values are specified, the system creates a font having the specified size and typeface (if possible) and sends a <a href="https://msdn.microsoft.com/en-us/library/ms632642(v=VS.85).aspx">WM_SETFONT</a> message to the dialog box procedure and the control window procedures as it creates the dialog box and controls. 
 
-Following the <b>DLGTEMPLATE</b> header in a standard dialog box template are one or more <a href="https://msdn.microsoft.com/library/ms644997(v=VS.85).aspx">DLGITEMTEMPLATE</a> structures that define the dimensions and style of the controls in the dialog box. The 
+Following the <b>DLGTEMPLATE</b> header in a standard dialog box template are one or more <a href="https://msdn.microsoft.com/en-us/library/ms644997(v=VS.85).aspx">DLGITEMTEMPLATE</a> structures that define the dimensions and style of the controls in the dialog box. The 
 				<b>cdit</b> member specifies the number of <b>DLGITEMTEMPLATE</b> structures in the template. These <b>DLGITEMTEMPLATE</b> structures must be aligned on 
 				<b>DWORD</b> boundaries.
 
@@ -141,7 +140,7 @@ The
 				<b>x</b>, 
 				<b>y</b>, 
 				<b>cx</b>, and 
-				<b>cy</b> members specify values in dialog box units. You can convert these values to screen units (pixels) by using the <a href="https://msdn.microsoft.com/library/ms645502(v=VS.85).aspx">MapDialogRect</a> function. 
+				<b>cy</b> members specify values in dialog box units. You can convert these values to screen units (pixels) by using the <a href="https://msdn.microsoft.com/en-us/library/ms645502(v=VS.85).aspx">MapDialogRect</a> function. 
 
 
 
@@ -155,39 +154,39 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645436(v=VS.85).aspx">CreateDialogIndirect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645436(v=VS.85).aspx">CreateDialogIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645441(v=VS.85).aspx">CreateDialogIndirectParam</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645441(v=VS.85).aspx">CreateDialogIndirectParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644997(v=VS.85).aspx">DLGITEMTEMPLATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644997(v=VS.85).aspx">DLGITEMTEMPLATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645389(v=VS.85).aspx">DLGITEMTEMPLATEEX</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645389(v=VS.85).aspx">DLGITEMTEMPLATEEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645398(v=VS.85).aspx">DLGTEMPLATEEX</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645398(v=VS.85).aspx">DLGTEMPLATEEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645457(v=VS.85).aspx">DialogBoxIndirect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645457(v=VS.85).aspx">DialogBoxIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645461(v=VS.85).aspx">DialogBoxIndirectParam</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645461(v=VS.85).aspx">DialogBoxIndirectParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645502(v=VS.85).aspx">MapDialogRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645502(v=VS.85).aspx">MapDialogRect</a>
 
 
 

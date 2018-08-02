@@ -7,7 +7,7 @@ old-location: wsw\ws_wsz_description.htm
 old-project: wsw
 ms.assetid: 12b6f630-7585-4c88-8c49-f37d1899d32b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_WSZ_DESCRIPTION, WS_WSZ_DESCRIPTION structure [Web Services for Windows], _WS_WSZ_DESCRIPTION, webservices/WS_WSZ_DESCRIPTION, wsw.ws_wsz_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                This type description is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_WSZ_TYPE</a> and is optional.
+This type description is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_WSZ_TYPE</a> and is optional.
                 It is used to specify constraints on the set of values
                 which can be deserialized.
             
@@ -65,14 +64,12 @@ req.product: Windows Address Book 5.0
 
 ### -field minCharCount
 
-
-                    Specifies the minimum number of characters (not including the terminating '\0' character).
+Specifies the minimum number of characters (not including the terminating '\0' character).
                 
 
 
 ### -field maxCharCount
 
-
-                    Specifies the maximum number of characters (not including the terminating '\0' character).
+Specifies the maximum number of characters (not including the terminating '\0' character).
                 
 

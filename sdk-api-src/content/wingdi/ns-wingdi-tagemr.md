@@ -7,7 +7,7 @@ old-location: gdi\emr.htm
 old-project: gdi
 ms.assetid: 06582047-b64b-44ec-ae27-1f8ed7c56b97
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: "*PEMR, EMR, EMR structure [Windows GDI], PEMR, PEMR structure pointer [Windows GDI], _win32_EMR_str, gdi.emr, tagEMR, wingdi/EMR, wingdi/PEMR"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ The <b>EMR</b> structure provides the base structure for all enhanced metafile r
 
 ### -field iType
 
-
-            The record type. The parameter can be one of the following (with a link to the associated record structure).
+The record type. The parameter can be one of the following (with a link to the associated record structure).
 
 <a href="https://msdn.microsoft.com/ee9f57af-8d96-4b85-b8ab-4eb57e6c7c78">EMR_ABORTPATH</a>
 <a href="https://msdn.microsoft.com/3270d8ed-a174-4d77-a9a7-3e3f0cab2a23">EMR_ALPHABLEND</a>

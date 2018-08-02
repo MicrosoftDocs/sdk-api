@@ -7,7 +7,7 @@ old-location: wsw\ws_request_security_token_property.htm
 old-project: wsw
 ms.assetid: ebf6d821-f540-4c89-a2f8-c795a3688e0d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_REQUEST_SECURITY_TOKEN_PROPERTY, WS_REQUEST_SECURITY_TOKEN_PROPERTY structure [Web Services for Windows], _WS_REQUEST_SECURITY_TOKEN_PROPERTY, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY, wsw.ws_request_security_token_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies a property for requesting a security token from an issuer.
+Specifies a property for requesting a security token from an issuer.
             
 
 
@@ -63,15 +62,13 @@ req.product: Windows Address Book 5.0
 
 ### -field id
 
-
-                Identifies the <a href="https://msdn.microsoft.com/7a2063eb-ab60-43d5-bd8c-41ef132abf50">WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID</a>.
+Identifies the <a href="https://msdn.microsoft.com/7a2063eb-ab60-43d5-bd8c-41ef132abf50">WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID</a>.
             
 
 
 ### -field value
 
-
-                A pointer to the value.
+A pointer to the value.
                 The pointer must have an alignment compatible with the type
                 of the property.
             
@@ -79,7 +76,6 @@ req.product: Windows Address Book 5.0
 
 ### -field valueSize
 
-
-                The size in bytes of the memory pointed to by value.
+The size in bytes of the memory pointed to by value.
             
 

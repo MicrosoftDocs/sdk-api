@@ -7,7 +7,7 @@ old-location: buses\winusb_controltransfer.htm
 old-project: usbref
 ms.assetid: 2ae80c97-3a09-4e90-ae73-92b5caa5cf99
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 07/29/2018
 ms.keywords: WinUsb_ControlTransfer, WinUsb_ControlTransfer function [Buses], buses.winusb_controltransfer, winusb/WinUsb_ControlTransfer, winusbfunc_016c7bb1-6139-4a37-95d9-f3e2312871a2.xml
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\ws_fault_disclosure.htm
 old-project: wsw
 ms.assetid: 1dca9074-b329-4293-8a44-d0ced00ae59e
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_FAULT_DISCLOSURE, WS_FAULT_DISCLOSURE enumeration [Web Services for Windows], WS_FULL_FAULT_DISCLOSURE, WS_MINIMAL_FAULT_DISCLOSURE, webservices/WS_FAULT_DISCLOSURE, webservices/WS_FULL_FAULT_DISCLOSURE, webservices/WS_MINIMAL_FAULT_DISCLOSURE, wsw.ws_fault_disclosure
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Controls how much error information is included in a fault.
+Controls how much error information is included in a fault.
                 Since the error object may contain sensitive
                 data as part of the error string, it is not
                 always appropriate to include the error strings
@@ -67,14 +66,12 @@ req.product: Windows Address Book 5.0
 
 ### -field WS_MINIMAL_FAULT_DISCLOSURE
 
-
-                    Use a generic fault string for all errors.
+Use a generic fault string for all errors.
                 
 
 
 ### -field WS_FULL_FAULT_DISCLOSURE
 
-
-                    Use the error string as the fault string.
+Use the error string as the fault string.
                 
 

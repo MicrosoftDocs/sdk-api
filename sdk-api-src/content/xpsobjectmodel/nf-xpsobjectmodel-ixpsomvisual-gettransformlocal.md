@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisual_gettransformlocal.htm
 old-project: printdocs
 ms.assetid: a7152ba0-2b65-4c66-b99b-7450a8cdb6fd
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetTransformLocal, GetTransformLocal method [XPS Documents and Packaging], GetTransformLocal method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetTransformLocal method, IXpsOMVisual.GetTransformLocal, IXpsOMVisual::GetTransformLocal, xps.ixpsomvisual_gettransformlocal, xpsobjectmodel/IXpsOMVisual::GetTransformLocal
 ms.prod: windows
 ms.technology: windows-sdk

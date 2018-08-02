@@ -7,7 +7,7 @@ old-location: dshow\iamcertifiedoutputprotection_protectionstatus.htm
 old-project: DirectShow
 ms.assetid: c93ebbcc-ce44-4d77-b088-7112ddaf41b2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],ProtectionStatus method, IAMCertifiedOutputProtection.ProtectionStatus, IAMCertifiedOutputProtection::ProtectionStatus, IAMCertifiedOutputProtectionProtectionStatus, ProtectionStatus, ProtectionStatus method [DirectShow], ProtectionStatus method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_protectionstatus, strmif/IAMCertifiedOutputProtection::ProtectionStatus
 ms.prod: windows
 ms.technology: windows-sdk

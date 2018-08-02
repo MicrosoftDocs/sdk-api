@@ -4,10 +4,10 @@ title: ITTerminalManager::GetDynamicTerminalClasses
 author: windows-sdk-content
 description: The GetDynamicTerminalClasses method gets a list of terminal classes for a set of media types.
 old-location: tapi3\itterminalmanager_getdynamicterminalclasses.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 6e0ae94c-eab9-4ca2-a982-a5673f73130e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: GetDynamicTerminalClasses, GetDynamicTerminalClasses method [TAPI 2.2], GetDynamicTerminalClasses method [TAPI 2.2],ITTerminalManager interface, ITTerminalManager interface [TAPI 2.2],GetDynamicTerminalClasses method, ITTerminalManager.GetDynamicTerminalClasses, ITTerminalManager::GetDynamicTerminalClasses, _tapi3_itterminalmanager_getdynamicterminalclasses, tapi3.itterminalmanager_getdynamicterminalclasses, termmgr/ITTerminalManager::GetDynamicTerminalClasses
 ms.prod: windows
 ms.technology: windows-sdk

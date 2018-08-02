@@ -4,10 +4,10 @@ title: ntohd function
 author: windows-sdk-content
 description: Converts an unsigned __int64 from TCP/IP network order to host byte order (which is little-endian on Intel processors) and returns a double.
 old-location: winsock\ntohd.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 00176446-517B-40B8-AF9A-D61B5B033AE1
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ntohd, ntohd function [Winsock], winsock.ntohd, winsock2/ntohd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,8 +92,7 @@ The
 The 
 <b>ntohd</b> function can be used to convert an IPv4 address in network byte order to the IPv4 address in host byte order. This function does not do any checking to determine if the <i>value</i> parameter is a valid IPv4 address.
 
-The <b>ntohd</b>
-			function does not require that the Winsock DLL has previously been loaded with a successful 
+The <b>ntohd</b>function does not require that the Winsock DLL has previously been loaded with a successful 
 call to the <a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> function.
 
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.

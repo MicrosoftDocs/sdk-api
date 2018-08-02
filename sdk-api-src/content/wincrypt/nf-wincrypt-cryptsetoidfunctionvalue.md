@@ -4,10 +4,10 @@ title: CryptSetOIDFunctionValue function
 author: windows-sdk-content
 description: The CryptSetOIDFunctionValue function sets a value for the specified encoding type, function name, OID, and value name.
 old-location: security\cryptsetoidfunctionvalue.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 3e167c5d-0000-4359-a7b0-9b3e4e64c50c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptSetOIDFunctionValue, CryptSetOIDFunctionValue function [Security], REG_DWORD, REG_EXPAND_SZ, REG_MULTI_SZ, REG_SZ, _crypto2_cryptsetoidfunctionvalue, security.cryptsetoidfunctionvalue, wincrypt/CryptSetOIDFunctionValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CryptSetOIDFunctionValue</b> function sets a value for the specified encoding type, function name, OID, and value name.
+The <b>CryptSetOIDFunctionValue</b> function sets a value for the specified encoding type, function name, OID, and value name.
 
 
 ## -parameters
@@ -150,8 +149,7 @@ Specifies the size, in bytes, of the information pointed to by the <i>pbValueDat
 
 
 
-
-						If the function succeeds, the return value is nonzero (<b>TRUE</b>).
+If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>).
 
@@ -163,7 +161,7 @@ If the function fails, the return value is zero (<b>FALSE</b>).
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
  
 
  

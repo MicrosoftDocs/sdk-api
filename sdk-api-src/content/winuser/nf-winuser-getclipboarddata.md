@@ -7,7 +7,7 @@ old-location: dataxchg\getclipboarddata.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getclipboarddata.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/29/2018
 ms.keywords: GetClipboardData, GetClipboardData function [Data Exchange], _win32_GetClipboardData, _win32_getclipboarddata_cpp, dataxchg.getclipboarddata, winui._win32_getclipboarddata, winuser/GetClipboardData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ Retrieves data from the clipboard in a specified format. The clipboard must have
 
 Type: <b>UINT</b>
 
-A clipboard format. For a description of the standard clipboard formats, see <a href="https://msdn.microsoft.com/library/ms649013(v=VS.85).aspx">Standard Clipboard Formats</a>.
+A clipboard format. For a description of the standard clipboard formats, see <a href="https://msdn.microsoft.com/en-us/library/ms649013(v=VS.85).aspx">Standard Clipboard Formats</a>.
 
 
 ## -returns
@@ -91,16 +91,16 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 <div class="alert"><b>Caution</b>  Clipboard data is not trusted. Parse the data carefully before using it in your application.</div>
 <div> </div>
-An application can enumerate the available formats in advance by using the <a href="https://msdn.microsoft.com/library/ms649038(v=VS.85).aspx">EnumClipboardFormats</a> function. 
+An application can enumerate the available formats in advance by using the <a href="https://msdn.microsoft.com/en-us/library/ms649038(v=VS.85).aspx">EnumClipboardFormats</a> function. 
 
-The clipboard controls the handle that the <b>GetClipboardData</b> function returns, not the application. The application should copy the data immediately. The application must not free the handle nor leave it locked. The application must not use the handle after the <a href="https://msdn.microsoft.com/library/ms649037(v=VS.85).aspx">EmptyClipboard</a> or <a href="https://msdn.microsoft.com/library/ms649035(v=VS.85).aspx">CloseClipboard</a> function is called, or after the <a href="https://msdn.microsoft.com/library/ms649051(v=VS.85).aspx">SetClipboardData</a> function is called with the same clipboard format. 
+The clipboard controls the handle that the <b>GetClipboardData</b> function returns, not the application. The application should copy the data immediately. The application must not free the handle nor leave it locked. The application must not use the handle after the <a href="https://msdn.microsoft.com/en-us/library/ms649037(v=VS.85).aspx">EmptyClipboard</a> or <a href="https://msdn.microsoft.com/en-us/library/ms649035(v=VS.85).aspx">CloseClipboard</a> function is called, or after the <a href="https://msdn.microsoft.com/en-us/library/ms649051(v=VS.85).aspx">SetClipboardData</a> function is called with the same clipboard format. 
 
-The system performs implicit data format conversions between certain clipboard formats when an application calls the <b>GetClipboardData</b> function. For example, if the <a href="https://msdn.microsoft.com/library/Ff729168(v=VS.85).aspx">CF_OEMTEXT</a> format is on the clipboard, a window can retrieve data in the <a href="https://msdn.microsoft.com/library/Ff729168(v=VS.85).aspx">CF_TEXT</a> format. The format on the clipboard is converted to the requested format on demand. For more information, see <a href="https://msdn.microsoft.com/library/ms649013(v=VS.85).aspx">Synthesized Clipboard Formats</a>. 
+The system performs implicit data format conversions between certain clipboard formats when an application calls the <b>GetClipboardData</b> function. For example, if the <a href="https://msdn.microsoft.com/en-us/library/Ff729168(v=VS.85).aspx">CF_OEMTEXT</a> format is on the clipboard, a window can retrieve data in the <a href="https://msdn.microsoft.com/en-us/library/Ff729168(v=VS.85).aspx">CF_TEXT</a> format. The format on the clipboard is converted to the requested format on demand. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms649013(v=VS.85).aspx">Synthesized Clipboard Formats</a>. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms649016(v=VS.85).aspx">Copying Information to the Clipboard</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v=VS.85).aspx">Copying Information to the Clipboard</a>.
 
 <div class="code"></div>
 
@@ -111,11 +111,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms649016(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649035(v=VS.85).aspx">CloseClipboard</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649035(v=VS.85).aspx">CloseClipboard</a>
 
 
 
@@ -123,11 +123,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms649016(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649037(v=VS.85).aspx">EmptyClipboard</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649037(v=VS.85).aspx">EmptyClipboard</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649038(v=VS.85).aspx">EnumClipboardFormats</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649038(v=VS.85).aspx">EnumClipboardFormats</a>
 
 
 
@@ -135,7 +135,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms649016(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649051(v=VS.85).aspx">SetClipboardData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649051(v=VS.85).aspx">SetClipboardData</a>
  
 
  

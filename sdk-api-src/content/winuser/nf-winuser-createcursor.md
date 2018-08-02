@@ -7,7 +7,7 @@ old-location: menurc\createcursor.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\createcursor.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: CreateCursor, CreateCursor function [Menus and Other Resources], _win32_CreateCursor, _win32_createcursor_cpp, menurc.createcursor, winui._win32_createcursor, winuser/CreateCursor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -129,7 +129,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 The <i>nWidth</i> and <i>nHeight</i> parameters must specify a width and height that are supported by the current display driver, because the system cannot create cursors of other sizes. To determine the width and height supported by the display driver, use the <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> function, specifying the <b>SM_CXCURSOR</b> or <b>SM_CYCURSOR</b> value. 
 
-Before closing, an application must call the <a href="https://msdn.microsoft.com/library/ms648386(v=VS.85).aspx">DestroyCursor</a> function to free any system resources associated with the cursor. 
+Before closing, an application must call the <a href="https://msdn.microsoft.com/en-us/library/ms648386(v=VS.85).aspx">DestroyCursor</a> function to free any system resources associated with the cursor. 
 
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
 This API does not participate in DPI virtualization. The output returned is in terms of physical coordinates, and  is not affected by the DPI of the calling thread. Note that the cursor created may still be scaled to match the DPI of any given window it is drawn into.
@@ -137,7 +137,7 @@ This API does not participate in DPI virtualization. The output returned is in t
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms648380(v=VS.85).aspx">Creating a Cursor</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v=VS.85).aspx">Creating a Cursor</a>.
 
 <div class="code"></div>
 
@@ -152,15 +152,15 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648380(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648059(v=VS.85).aspx">CreateIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648059(v=VS.85).aspx">CreateIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648386(v=VS.85).aspx">DestroyCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648386(v=VS.85).aspx">DestroyCursor</a>
 
 
 
@@ -180,7 +180,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648380(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648393(v=VS.85).aspx">SetCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648393(v=VS.85).aspx">SetCursor</a>
  
 
  

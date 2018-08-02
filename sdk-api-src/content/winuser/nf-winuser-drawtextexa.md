@@ -7,7 +7,7 @@ old-location: gdi\drawtextex.htm
 old-project: gdi
 ms.assetid: 77b9973b-77f1-4508-a021-52d61d576c23
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: DT_BOTTOM, DT_CALCRECT, DT_CENTER, DT_EDITCONTROL, DT_END_ELLIPSIS, DT_EXPANDTABS, DT_EXTERNALLEADING, DT_HIDEPREFIX, DT_INTERNAL, DT_LEFT, DT_MODIFYSTRING, DT_NOCLIP, DT_NOFULLWIDTHCHARBREAK, DT_NOPREFIX, DT_PATH_ELLIPSIS, DT_PREFIXONLY, DT_RIGHT, DT_RTLREADING, DT_SINGLELINE, DT_TABSTOP, DT_TOP, DT_VCENTER, DT_WORDBREAK, DT_WORD_ELLIPSIS, DrawTextEx, DrawTextEx function [Windows GDI], DrawTextExA, DrawTextExW, _win32_DrawTextEx, gdi.drawtextex, winuser/DrawTextEx, winuser/DrawTextExA, winuser/DrawTextExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -188,8 +188,7 @@ Includes the font external leading in line height. Normally, external leading is
 </dl>
 </td>
 <td width="60%">
-
-                 Ignores the ampersand (&amp;) prefix character in the text. The letter that follows will not be underlined, but other mnemonic-prefix characters are still processed.
+Ignores the ampersand (&amp;) prefix character in the text. The letter that follows will not be underlined, but other mnemonic-prefix characters are still processed.
 
 Example:
 
@@ -249,8 +248,7 @@ Draws without clipping. <b>DrawTextEx</b> is somewhat faster when DT_NOCLIP is u
 </dl>
 </td>
 <td width="60%">
-
-                 Prevents a line break at a DBCS (double-wide character string), so that the line-breaking rule is equivalent to SBCS strings. For example, this can be used in Korean windows, for more readability of icon labels. This value has no effect unless DT_WORDBREAK is specified.
+Prevents a line break at a DBCS (double-wide character string), so that the line-breaking rule is equivalent to SBCS strings. For example, this can be used in Korean windows, for more readability of icon labels. This value has no effect unless DT_WORDBREAK is specified.
 
 </td>
 </tr>
@@ -282,8 +280,7 @@ Compare with DT_END_ELLIPSIS and DT_WORD_ELLIPSIS.
 </dl>
 </td>
 <td width="60%">
-
-                 Draws only an underline at the position of the character following the ampersand (&amp;) prefix character. Does not draw any character in the string.
+Draws only an underline at the position of the character following the ampersand (&amp;) prefix character. Does not draw any character in the string.
 
 Example:
 
@@ -415,14 +412,12 @@ The text alignment mode for the device context must include the TA_LEFT, TA_TOP,
 
 
 
-<a href="https://msdn.microsoft.com/d3b89ce2-9a05-42af-b03e-24e1c4d6ef1d">
-        DRAWTEXTPARAMS
+<a href="https://msdn.microsoft.com/d3b89ce2-9a05-42af-b03e-24e1c4d6ef1d">DRAWTEXTPARAMS
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/fe412280-d797-4abd-8a29-107a9cd96145">
-        DrawText
+<a href="https://msdn.microsoft.com/fe412280-d797-4abd-8a29-107a9cd96145">DrawText
       </a>
 
 

@@ -7,7 +7,7 @@ old-location: smi\isettingsitem_getvalueraw.htm
 old-project: SMI
 ms.assetid: 2b4b96df-1286-49be-869a-404adaead27a
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetValueRaw, GetValueRaw method [SMI], GetValueRaw method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetValueRaw method, ISettingsItem.GetValueRaw, ISettingsItem::GetValueRaw, smi.isettingsitem_getvalueraw, wcmconfig/ISettingsItem::GetValueRaw
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Gets the value from the current item as
 
 ### -param Data [out]
 
-An array of BYTE pointers, allocated with <a href="https://msdn.microsoft.com/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>, of length DataSize.
+An array of BYTE pointers, allocated with <a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>, of length DataSize.
 
 
 ### -param DataSize [out]

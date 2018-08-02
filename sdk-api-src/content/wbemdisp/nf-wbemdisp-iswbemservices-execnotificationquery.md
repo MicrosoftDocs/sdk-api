@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_execnotificationquery.htm
 old-project: WmiSdk
 ms.assetid: 3e1bb428-5395-4e90-9713-6d96242fef4e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ExecNotificationQuery, ExecNotificationQuery method [Windows Management Instrumentation], ExecNotificationQuery method [Windows Management Instrumentation],ISWbemServices interface, ExecNotificationQuery method [Windows Management Instrumentation],SWbemServices object, ISWbemServices interface [Windows Management Instrumentation],ExecNotificationQuery method, ISWbemServices.ExecNotificationQuery, ISWbemServices::ExecNotificationQuery, SWbemServices object [Windows Management Instrumentation],ExecNotificationQuery method, SWbemServices.ExecNotificationQuery, _hmm_swbemservices.execnotificationquery, wbemFlagForwardOnly, wbemFlagReturnImmediately, wmi.swbemservices_execnotificationquery
 ms.prod: windows
 ms.technology: windows-sdk

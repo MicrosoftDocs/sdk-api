@@ -7,7 +7,7 @@ old-location: gdi\drawstateproc.htm
 old-project: gdi
 ms.assetid: a95a4020-e433-4b2c-96e7-f272e28e5a43
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: DrawStateProc, DrawStateProc callback, DrawStateProc callback function [Windows GDI], _win32_DrawStateProc, gdi.drawstateproc, winuser/DrawStateProc
 ms.prod: windows
 ms.technology: windows-sdk

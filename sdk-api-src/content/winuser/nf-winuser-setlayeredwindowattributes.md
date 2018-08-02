@@ -7,7 +7,7 @@ old-location: winmsg\setlayeredwindowattributes.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setlayeredwindowattributes.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: LWA_ALPHA, LWA_COLORKEY, SetLayeredWindowAttributes, SetLayeredWindowAttributes function [Windows and Messages], _win32_SetLayeredWindowAttributes, _win32_setlayeredwindowattributes_cpp, winmsg.setlayeredwindowattributes, winui._win32_setlayeredwindowattributes, winuser/SetLayeredWindowAttributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ Sets the opacity and transparency color key of a layered window.
 
 Type: <b>HWND</b>
 
-A handle to the layered window. A layered window is created by specifying <b>WS_EX_LAYERED</b> when creating the window with the <a href="https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function or by setting <b>WS_EX_LAYERED</b> via <a href="https://msdn.microsoft.com/library/ms633591(v=VS.85).aspx">SetWindowLong</a> after the window has been created.
+A handle to the layered window. A layered window is created by specifying <b>WS_EX_LAYERED</b> when creating the window with the <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function or by setting <b>WS_EX_LAYERED</b> via <a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">SetWindowLong</a> after the window has been created.
 
 <b>Windows 8:  </b>The <b>WS_EX_LAYERED</b> style is supported for top-level windows and child windows. Previous Windows versions support <b>WS_EX_LAYERED</b> only for top-level windows.
 
@@ -144,9 +144,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-Note that once <b>SetLayeredWindowAttributes</b> has been called for a layered window, subsequent <a href="https://msdn.microsoft.com/library/ms633556(v=VS.85).aspx">UpdateLayeredWindow</a> calls will fail until the layering style bit is cleared and set again.
+Note that once <b>SetLayeredWindowAttributes</b> has been called for a layered window, subsequent <a href="https://msdn.microsoft.com/en-us/library/ms633556(v=VS.85).aspx">UpdateLayeredWindow</a> calls will fail until the layering style bit is cleared and set again.
 
-For more information, see <a href="https://msdn.microsoft.com/library/ms632598(v=VS.85).aspx">Using Layered Windows</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS.85).aspx">Using Layered Windows</a>.
 
 
 
@@ -168,7 +168,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/ms632598(v
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
 
 
 
@@ -184,7 +184,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/ms632598(v
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633591(v=VS.85).aspx">SetWindowLong</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">SetWindowLong</a>
 
 
 
@@ -192,11 +192,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/ms632598(v
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633556(v=VS.85).aspx">UpdateLayeredWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633556(v=VS.85).aspx">UpdateLayeredWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632598(v=VS.85).aspx">Using Windows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS.85).aspx">Using Windows</a>
 
 
 

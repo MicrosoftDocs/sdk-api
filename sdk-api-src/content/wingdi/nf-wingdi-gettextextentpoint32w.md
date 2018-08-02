@@ -7,7 +7,7 @@ old-location: gdi\gettextextentpoint32.htm
 old-project: gdi
 ms.assetid: 530280ee-dfd8-4905-9b72-6c19efcff133
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetTextExtentPoint32, GetTextExtentPoint32 function [Windows GDI], GetTextExtentPoint32A, GetTextExtentPoint32W, _win32_GetTextExtentPoint32, gdi.gettextextentpoint32, wingdi/GetTextExtentPoint32, wingdi/GetTextExtentPoint32A, wingdi/GetTextExtentPoint32W
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,11 +112,9 @@ The <b>GetTextExtentPoint32</b> function uses the currently selected font to com
 
 Because some devices kern characters, the sum of the extents of the characters in a string may not be equal to the extent of the string.
 
+The calculated string width takes into account the intercharacter spacing set by the <a href="https://msdn.microsoft.com/83b7d225-4fb9-4c75-bc4a-e1bea7f901f1">SetTextCharacterExtra</a> function and the justification set by <a href="https://msdn.microsoft.com/55fb5a28-b7da-40d8-8e64-4b42c23fa8b1">SetTextJustification</a>. This is true for both displaying on a screen and for printing. However, if <i>lpDx</i> is set in <a href="https://msdn.microsoft.com/74f8fcb8-8ad4-47f2-a330-fa56713bdb37">ExtTextOut</a>, <b>GetTextExtentPoint32</b> does not take into account either intercharacter spacing or justification. In addition, for EMF, the print result always takes both intercharacter spacing and justification into account.
 
-         The calculated string width takes into account the intercharacter spacing set by the <a href="https://msdn.microsoft.com/83b7d225-4fb9-4c75-bc4a-e1bea7f901f1">SetTextCharacterExtra</a> function and the justification set by <a href="https://msdn.microsoft.com/55fb5a28-b7da-40d8-8e64-4b42c23fa8b1">SetTextJustification</a>. This is true for both displaying on a screen and for printing. However, if <i>lpDx</i> is set in <a href="https://msdn.microsoft.com/74f8fcb8-8ad4-47f2-a330-fa56713bdb37">ExtTextOut</a>, <b>GetTextExtentPoint32</b> does not take into account either intercharacter spacing or justification. In addition, for EMF, the print result always takes both intercharacter spacing and justification into account.
-
-
-         When dealing with text displayed on a screen, the calculated string width takes into account the intercharacter spacing set by the <a href="https://msdn.microsoft.com/83b7d225-4fb9-4c75-bc4a-e1bea7f901f1">SetTextCharacterExtra</a> function and the justification set by <a href="https://msdn.microsoft.com/55fb5a28-b7da-40d8-8e64-4b42c23fa8b1">SetTextJustification</a>. However, if <i>lpDx</i> is set in <a href="https://msdn.microsoft.com/74f8fcb8-8ad4-47f2-a330-fa56713bdb37">ExtTextOut</a>, <b>GetTextExtentPoint32</b> does not take into account either intercharacter spacing or justification. However, when printing with EMF:
+When dealing with text displayed on a screen, the calculated string width takes into account the intercharacter spacing set by the <a href="https://msdn.microsoft.com/83b7d225-4fb9-4c75-bc4a-e1bea7f901f1">SetTextCharacterExtra</a> function and the justification set by <a href="https://msdn.microsoft.com/55fb5a28-b7da-40d8-8e64-4b42c23fa8b1">SetTextJustification</a>. However, if <i>lpDx</i> is set in <a href="https://msdn.microsoft.com/74f8fcb8-8ad4-47f2-a330-fa56713bdb37">ExtTextOut</a>, <b>GetTextExtentPoint32</b> does not take into account either intercharacter spacing or justification. However, when printing with EMF:
 
 <ul>
 <li>The print result ignores intercharacter spacing, although <b>GetTextExtentPoint32</b> takes it into account.</li>

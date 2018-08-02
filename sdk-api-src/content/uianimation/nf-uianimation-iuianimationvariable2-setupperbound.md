@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2_setupperbound.htm
 old-project: UIAnimation
 ms.assetid: AE142CD9-61BB-427A-A40B-42EFDD0B5CAD
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariable2 interface [Windows Animation],SetUpperBound method, IUIAnimationVariable2.SetUpperBound, IUIAnimationVariable2::SetUpperBound, SetUpperBound, SetUpperBound method [Windows Animation], SetUpperBound method [Windows Animation],IUIAnimationVariable2 interface, uianimation.iuianimationvariable2_setupperbound, uianimation/IUIAnimationVariable2::SetUpperBound
 ms.prod: windows
 ms.technology: windows-sdk

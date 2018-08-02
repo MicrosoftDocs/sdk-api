@@ -7,7 +7,7 @@ old-location: wmp\iwmperroritem2.htm
 old-project: WMP
 ms.assetid: b71d06db-c9bc-44fc-9e23-a16f89c56c1c
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPErrorItem2, IWMPErrorItem2 interface [Windows Media Player], IWMPErrorItem2 interface [Windows Media Player],described, IWMPErrorItem2Interface, wmp.iwmperroritem2, wmp/IWMPErrorItem2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,6 @@ Retrieves a value indicating the condition for the error.
 </td>
 </tr>
 </table> 
-
 
 Retrieve a pointer to an <b>IWMPErrorItem2</b> interface by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/4675eebf-80d7-4412-b3f1-ec54b977db31">IWMPErrorItem</a> interface.
 	

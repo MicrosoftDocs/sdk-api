@@ -7,7 +7,7 @@ old-location: gdi\scalewindowextex.htm
 old-project: gdi
 ms.assetid: c34f0978-74dd-4839-99f2-a106f3d2c0f9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: ScaleWindowExtEx, ScaleWindowExtEx function [Windows GDI], _win32_ScaleWindowExtEx, gdi.scalewindowextex, wingdi/ScaleWindowExtEx
 ms.prod: windows
 ms.technology: windows-sdk

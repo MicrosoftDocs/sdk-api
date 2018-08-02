@@ -81,7 +81,7 @@ After ink is saved, the dirty flag is automatically cleared and the value of thi
 
 
 
-<a href="tablet.iinkdisp">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
 
 
 

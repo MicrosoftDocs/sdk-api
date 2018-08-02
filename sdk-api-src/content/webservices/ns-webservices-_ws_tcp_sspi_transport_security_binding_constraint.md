@@ -7,7 +7,7 @@ old-location: wsw\ws_tcp_sspi_transport_security_binding_constraint.htm
 old-project: wsw
 ms.assetid: c2e793dd-99a7-4028-9e08-4376d494e2b5
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT, WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], _WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT, webservices/WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT, wsw.ws_tcp_sspi_transport_security_binding_constraint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                A security binding constraint that corresponds to the
+A security binding constraint that corresponds to the
                 <a href="https://msdn.microsoft.com/c617f6cf-cedb-4d52-954c-fd4577260ca3">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a>.
             
 
@@ -64,11 +63,9 @@ req.product: Windows Address Book 5.0
 
 ### -field bindingConstraint
 
-
-                    The base binding constraint that this binding constraint derives from.
+The base binding constraint that this binding constraint derives from.
                 
 
-
-                    There are currently no binding-specific properties defined for this binding constraint.
+There are currently no binding-specific properties defined for this binding constraint.
                 
 

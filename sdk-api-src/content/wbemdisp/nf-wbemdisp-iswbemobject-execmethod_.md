@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_execmethod_.htm
 old-project: WmiSdk
 ms.assetid: 39a8a6e7-b499-410a-8c27-d4a05d1a61b9
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ExecMethod_, ExecMethod_ method [Windows Management Instrumentation], ExecMethod_ method [Windows Management Instrumentation],ISWbemObject interface, ExecMethod_ method [Windows Management Instrumentation],SWbemObject object, ISWbemObject interface [Windows Management Instrumentation],ExecMethod_ method, ISWbemObject.ExecMethod_, ISWbemObject::ExecMethod_, SWbemObject object [Windows Management Instrumentation],ExecMethod_ method, SWbemObject.ExecMethod_, _hmm_swbemobject.execmethod_, wmi.swbemobject_execmethod_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -151,7 +151,7 @@ Set outParam = process.ExecMethod_("StartService")</pre>
 </td>
 </tr>
 </table></span></div>
-Use <b>SWbemObject.ExecMethod_</b> as an alternative to direct access for executing a <a href="https://msdn.microsoft.com/library/JJ819822(v=VS.85).aspx">provider method</a> in cases where it is not possible to execute a method directly. For example, you would use <b>SWbemObject.ExecMethod_</b> with a scripting language that does not support output parameters if your method has out parameters. Otherwise, the recommended means of invoking a method is to use direct access.
+Use <b>SWbemObject.ExecMethod_</b> as an alternative to direct access for executing a <a href="https://msdn.microsoft.com/en-us/library/Aa390825(v=VS.85).aspx">provider method</a> in cases where it is not possible to execute a method directly. For example, you would use <b>SWbemObject.ExecMethod_</b> with a scripting language that does not support output parameters if your method has out parameters. Otherwise, the recommended means of invoking a method is to use direct access.
 
 <ul>
 <li>The <b>SWbemObject.ExecMethod_</b> method assumes the object represented by <a href="https://msdn.microsoft.com/d303ec1a-5e0c-4a5e-8ed3-ed353a138755">SWbemObject</a> contains the method to execute. By contrast, <a href="https://msdn.microsoft.com/2637efdc-fde5-4a44-a41f-67e0fb0df19d">SWbemServices.ExecMethod</a> requires an object path. Use <b>SWbemObject.ExecMethod_</b> if you already have obtained the object whose method you want to execute.</li>

@@ -2,7 +2,7 @@
 UID: NA:wsman
 ms.assetid: 8ce23ed9-e3ad-3b0c-807f-1ceeb075279e
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

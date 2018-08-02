@@ -7,7 +7,7 @@ old-location: xps\ixpsompartresources.htm
 old-project: printdocs
 ms.assetid: 9f706f23-25a0-40ee-93f4-3d7ac98ad6ed
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMPartResources, IXpsOMPartResources interface [XPS Documents and Packaging], IXpsOMPartResources interface [XPS Documents and Packaging],described, xps.ixpsompartresources, xpsobjectmodel/IXpsOMPartResources
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IXpsOMPartResources</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ad986a95-a77d-4e04-b857-09ee137070e2">GetColorProfileResources</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <a href="https://msdn.microsoft.com/cb9253f3-461e-47a3-820b-bb6bf5e30210">IXpsOMColorProfileResourceCollection</a> interface that contains  the color profiles that are used in the XPS document.
+Gets the <a href="https://msdn.microsoft.com/cb9253f3-461e-47a3-820b-bb6bf5e30210">IXpsOMColorProfileResourceCollection</a> interface that contains  the color profiles that are used in the XPS document.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IXpsOMPartResources</b> interface has these methods.
 <a href="https://msdn.microsoft.com/c6655eed-5dd2-4b36-9ed7-55a3b25940e9">GetFontResources</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the   <a href="https://msdn.microsoft.com/71153c4c-631b-4f7a-9dd5-8537dcaca150">IXpsOMFontResourceCollection</a> interface that contains the fonts that are used in the XPS document.
+Gets the   <a href="https://msdn.microsoft.com/71153c4c-631b-4f7a-9dd5-8537dcaca150">IXpsOMFontResourceCollection</a> interface that contains the fonts that are used in the XPS document.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IXpsOMPartResources</b> interface has these methods.
 <a href="https://msdn.microsoft.com/d30281b7-0b2c-4240-813b-a53c8acb819c">GetImageResources</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the  <a href="https://msdn.microsoft.com/aed8b23e-71fd-49e6-aae9-006a59e0111b">IXpsOMImageResourceCollection</a> interface that contains the images that are used in the XPS document.
+Gets the  <a href="https://msdn.microsoft.com/aed8b23e-71fd-49e6-aae9-006a59e0111b">IXpsOMImageResourceCollection</a> interface that contains the images that are used in the XPS document.
             
 
 </td>
@@ -107,8 +104,7 @@ The <b>IXpsOMPartResources</b> interface has these methods.
 <a href="https://msdn.microsoft.com/cb12fe80-9e94-4797-adf5-a1986512bf57">GetRemoteDictionaryResources</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the  <a href="https://msdn.microsoft.com/50c9bd7a-226f-4785-96b4-d0b5e861ae37">IXpsOMRemoteDictionaryResourceCollection</a> interface that contains the remote resource dictionaries  that are used in the XPS document.
+Gets the  <a href="https://msdn.microsoft.com/50c9bd7a-226f-4785-96b4-d0b5e861ae37">IXpsOMRemoteDictionaryResourceCollection</a> interface that contains the remote resource dictionaries  that are used in the XPS document.
             
 
 </td>

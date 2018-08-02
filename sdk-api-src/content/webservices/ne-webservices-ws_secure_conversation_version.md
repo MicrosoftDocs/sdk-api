@@ -7,7 +7,7 @@ old-location: wsw\ws_secure_conversation_version.htm
 old-project: wsw
 ms.assetid: 17c21a3a-1cb5-4174-8300-a5c3d87e3e0f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SECURE_CONVERSATION_VERSION, WS_SECURE_CONVERSATION_VERSION enumeration [Web Services for Windows], WS_SECURE_CONVERSATION_VERSION_1_3, WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005, webservices/WS_SECURE_CONVERSATION_VERSION, webservices/WS_SECURE_CONVERSATION_VERSION_1_3, webservices/WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005, wsw.ws_secure_conversation_version
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Defines the WS-SecureConversation specification version to be used with message
+Defines the WS-SecureConversation specification version to be used with message
                 security and mixed-mode security.
             
 
@@ -64,14 +63,12 @@ req.product: Windows Address Book 5.0
 
 ### -field WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005
 
-
-                  WS-SecureConversation with the specification URI of http://schemas.xmlsoap.org/ws/2005/02/sc
+WS-SecureConversation with the specification URI of http://schemas.xmlsoap.org/ws/2005/02/sc
                 
 
 
 ### -field WS_SECURE_CONVERSATION_VERSION_1_3
 
-
-                  WS-SecureConversation 1.3 with the specification URI of http://docs.oasis-open.org/ws-sx/ws-secureconversation/200512
+WS-SecureConversation 1.3 with the specification URI of http://docs.oasis-open.org/ws-sx/ws-secureconversation/200512
                 
 

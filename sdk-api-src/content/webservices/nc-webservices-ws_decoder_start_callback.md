@@ -7,7 +7,7 @@ old-location: wsw\ws_decoder_start_callback.htm
 old-project: wsw
 ms.assetid: e607b5a2-4d4a-4e23-854d-b5168556bb69
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_DECODER_START_CALLBACK, WS_DECODER_START_CALLBACK callback, WS_DECODER_START_CALLBACK callback function [Web Services for Windows], webservices/WS_DECODER_START_CALLBACK, wsw.ws_decoder_start_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,22 +61,19 @@ Starts decoding a message.
 
 ### -param *encoderContext [in]
 
-
-                    The decoder instance returned by the <a href="https://msdn.microsoft.com/85311349-5c82-4545-8a2b-d8b9e629f04d">WS_CREATE_DECODER_CALLBACK</a>.
+The decoder instance returned by the <a href="https://msdn.microsoft.com/85311349-5c82-4545-8a2b-d8b9e629f04d">WS_CREATE_DECODER_CALLBACK</a>.
                 
 
 
 ### -param *asyncContext [in, optional]
 
-
-                    Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
+Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
                 
 
 
 ### -param *error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -96,7 +93,6 @@ Starts decoding a message.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -108,7 +104,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -134,8 +129,7 @@ This function may return other errors not listed above.
 
 
 
-
-              The decoder can use the callback passed to <a href="https://msdn.microsoft.com/85311349-5c82-4545-8a2b-d8b9e629f04d">WS_CREATE_DECODER_CALLBACK</a> to
+The decoder can use the callback passed to <a href="https://msdn.microsoft.com/85311349-5c82-4545-8a2b-d8b9e629f04d">WS_CREATE_DECODER_CALLBACK</a> to
               read the encoded data of the message.
             
 

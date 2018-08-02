@@ -4,10 +4,10 @@ title: ITextDocument::GetStoryRanges
 author: windows-sdk-content
 description: Gets the story collection object used to enumerate the stories in a document.
 old-location: controls\ITextDocument_GetStoryRanges.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstoryranges.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetStoryRanges, GetStoryRanges method [Windows Controls], GetStoryRanges method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],GetStoryRanges method, ITextDocument.GetStoryRanges, ITextDocument::GetStoryRanges, _win32_ITextDocument_GetStoryRanges, _win32_ITextDocument_GetStoryRanges_cpp, controls.ITextDocument_GetStoryRanges, controls._win32_ITextDocument_GetStoryRanges, tom/ITextDocument::GetStoryRanges
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Gets the story collection object used to enumerate the stories in a document.
 
 ### -param ppStories
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb774062(v=VS.85).aspx">ITextStoryRanges</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774062(v=VS.85).aspx">ITextStoryRanges</a>**</b>
 
-The <a href="https://msdn.microsoft.com/library/Bb774062(v=VS.85).aspx">ITextStoryRanges</a> pointer.
+The <a href="https://msdn.microsoft.com/en-us/library/Bb774062(v=VS.85).aspx">ITextStoryRanges</a> pointer.
 
 
 ## -returns
@@ -100,7 +100,7 @@ Not implemented; only one story in this document.
 
 
 
-Invoke this method only if <a href="https://msdn.microsoft.com/library/Bb774027(v=VS.85).aspx">ITextDocument::GetStoryCount</a> returns a value greater than 1.
+Invoke this method only if <a href="https://msdn.microsoft.com/en-us/library/Bb774027(v=VS.85).aspx">ITextDocument::GetStoryCount</a> returns a value greater than 1.
 
 
 
@@ -114,15 +114,15 @@ Invoke this method only if <a href="https://msdn.microsoft.com/library/Bb774027(
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774027(v=VS.85).aspx">GetStoryCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774027(v=VS.85).aspx">GetStoryCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774062(v=VS.85).aspx">ITextStoryRanges</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774062(v=VS.85).aspx">ITextStoryRanges</a>
 
 
 
@@ -130,7 +130,7 @@ Invoke this method only if <a href="https://msdn.microsoft.com/library/Bb774027(
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

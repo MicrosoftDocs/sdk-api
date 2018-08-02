@@ -7,7 +7,7 @@ old-location: menurc\setcursorpos.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\setcursorpos.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: SetCursorPos, SetCursorPos function [Menus and Other Resources], _win32_SetCursorPos, _win32_setcursorpos_cpp, menurc.setcursorpos, winui._win32_setcursorpos, winuser/SetCursorPos
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Moves the cursor to the specified screen coordinates. If the new coordinates are not within the screen rectangle set by the most recent <a href="https://msdn.microsoft.com/library/ms648383(v=VS.85).aspx">ClipCursor</a> function call, the system automatically adjusts the coordinates so that the cursor stays within the rectangle. 
+Moves the cursor to the specified screen coordinates. If the new coordinates are not within the screen rectangle set by the most recent <a href="https://msdn.microsoft.com/en-us/library/ms648383(v=VS.85).aspx">ClipCursor</a> function call, the system automatically adjusts the coordinates so that the cursor stays within the rectangle. 
 
 
 ## -parameters
@@ -106,7 +106,7 @@ The input desktop must be the current desktop when you call <b>SetCursorPos</b>.
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms648380(v=VS.85).aspx">Using the Keyboard to Move the Cursor</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v=VS.85).aspx">Using the Keyboard to Move the Cursor</a>.
 
 <div class="code"></div>
 
@@ -117,7 +117,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648380(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648383(v=VS.85).aspx">ClipCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648383(v=VS.85).aspx">ClipCursor</a>
 
 
 
@@ -125,11 +125,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648380(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648390(v=VS.85).aspx">GetCursorPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648390(v=VS.85).aspx">GetCursorPos</a>
 
 
 
@@ -137,15 +137,15 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648380(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648405(v=VS.85).aspx">SetCaretPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648405(v=VS.85).aspx">SetCaretPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648393(v=VS.85).aspx">SetCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648393(v=VS.85).aspx">SetCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648396(v=VS.85).aspx">ShowCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648396(v=VS.85).aspx">ShowCursor</a>
  
 
  

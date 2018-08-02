@@ -7,7 +7,7 @@ old-location: winmsg\childwindowfrompointex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\childwindowfrompointex.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: CWP_ALL, CWP_SKIPDISABLED, CWP_SKIPINVISIBLE, CWP_SKIPTRANSPARENT, ChildWindowFromPointEx, ChildWindowFromPointEx function [Windows and Messages], _win32_ChildWindowFromPointEx, _win32_childwindowfrompointex_cpp, winmsg.childwindowfrompointex, winui._win32_childwindowfrompointex, winuser/ChildWindowFromPointEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -207,7 +207,7 @@ The system maintains an internal list that contains the handles of the child
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633558(v=VS.85).aspx">WindowFromPoint</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633558(v=VS.85).aspx">WindowFromPoint</a>
 
 
 

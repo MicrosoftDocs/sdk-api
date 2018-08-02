@@ -7,8 +7,8 @@ old-location: mf\iwmcodecleakybucketsetbufferfullnessbits.htm
 old-project: medfound
 ms.assetid: e82badb3-64a8-40f0-9c51-bb2539f242f2
 ms.author: windowssdkdev
-ms.date: 07/18/2018
-ms.keywords: IWMCodecLeakyBucket interface [Media Foundation],SetBufferFullnessBits method, IWMCodecLeakyBucket.SetBufferFullnessBits, IWMCodecLeakyBucket::SetBufferFullnessBits, SetBufferFullnessBits, SetBufferFullnessBits method [Media Foundation], SetBufferFullnessBits method [Media Foundation],IWMCodecLeakyBucket interface, codecapi.iwmcodecleakybucketsetbufferfullnessbits, mf.iwmcodecleakybucketsetbufferfullnessbits, wmcodecdsp/ IWMCodecLeakyBucket::SetBufferFullnessBits
+ms.date: 07/29/2018
+ms.keywords: IWMCodecLeakyBucket interface [Media Foundation],SetBufferFullnessBits method, IWMCodecLeakyBucket.SetBufferFullnessBits, IWMCodecLeakyBucket::SetBufferFullnessBits, SetBufferFullnessBits, SetBufferFullnessBits method [Media Foundation], SetBufferFullnessBits method [Media Foundation],IWMCodecLeakyBucket interface, codecapi.iwmcodecleakybucketsetbufferfullnessbits, mf.iwmcodecleakybucketsetbufferfullnessbits, wmcodecdsp/IWMCodecLeakyBucket::SetBufferFullnessBits
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -49,7 +49,6 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 ## -description
-
 
 
 Not implemented in this release.

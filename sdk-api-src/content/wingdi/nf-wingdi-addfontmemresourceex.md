@@ -7,7 +7,7 @@ old-location: gdi\addfontmemresourceex.htm
 old-project: gdi
 ms.assetid: ad5153ba-fa9d-4a07-9be3-a07b524c1539
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: AddFontMemResourceEx, AddFontMemResourceEx function [Windows GDI], _win32_AddFontMemResourceEx, gdi.addfontmemresourceex, wingdi/AddFontMemResourceEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,8 +132,7 @@ When the function succeeds, the caller of this function can free the memory poin
 
 
 
-<a href="https://msdn.microsoft.com/aeff9901-2405-44aa-ba46-8d784afd6b76">
-        DESIGNVECTOR
+<a href="https://msdn.microsoft.com/aeff9901-2405-44aa-ba46-8d784afd6b76">DESIGNVECTOR
       </a>
 
 
@@ -146,8 +145,7 @@ When the function succeeds, the caller of this function can free the memory poin
 
 
 
-<a href="https://msdn.microsoft.com/b73c3f1d-c508-418c-a5a2-105a35ec3a9b">
-        RemoveFontMemResourceEx
+<a href="https://msdn.microsoft.com/b73c3f1d-c508-418c-a5a2-105a35ec3a9b">RemoveFontMemResourceEx
       </a>
 
 

@@ -7,7 +7,7 @@ old-location: wmi\swbemdatetime_utc.htm
 old-project: WmiSdk
 ms.assetid: 43d9d0c8-5521-410f-825b-6b00c3dd0039
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemDateTime interface [Windows Management Instrumentation],UTC property, ISWbemDateTime.get_UTC, ISWbemDateTime.put_UTC, ISWbemDateTime::put_UTC, SWbemDateTime object [Windows Management Instrumentation],UTC property, SWbemDateTime.UTC, UTC property [Windows Management Instrumentation], UTC property [Windows Management Instrumentation],ISWbemDateTime interface, UTC property [Windows Management Instrumentation],SWbemDateTime object, _hmm_swbemdatetime.utc, put_UTC, wmi.swbemdatetime_utc
 ms.prod: windows
 ms.technology: windows-sdk

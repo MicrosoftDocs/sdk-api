@@ -7,7 +7,7 @@ old-location: wmp\iwmpdvd_back.htm
 old-project: WMP
 ms.assetid: 89d3c8e2-4517-45db-a20c-961089ee8845
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],back method, IWMPDVD.back, IWMPDVD::back, IWMPDVDback, back, back method [Windows Media Player], back method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_back, wmp/IWMPDVD::back
 ms.prod: windows
 ms.technology: windows-sdk

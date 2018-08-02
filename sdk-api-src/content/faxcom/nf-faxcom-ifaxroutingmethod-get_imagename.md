@@ -75,7 +75,7 @@ A fax client application can use the <b>ImageName</b> property to uniquely ident
 
 
 
-<a href="https://msdn.microsoft.com/d0b42fc6-c797-4a51-a049-240ac0566b52">ExtensionName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690798(v=VS.85).aspx">ExtensionName</a>
 
 
 

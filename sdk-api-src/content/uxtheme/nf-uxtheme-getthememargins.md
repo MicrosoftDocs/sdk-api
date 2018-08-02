@@ -4,10 +4,10 @@ title: GetThemeMargins function
 author: windows-sdk-content
 description: Retrieves the value of a MARGINS property.
 old-location: controls\GetThemeMargins.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthememargins.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetThemeMargins, GetThemeMargins function [Windows Controls], controls.GetThemeMargins, controls.inet_GetThemeMargins, inet_GetThemeMargins, inet_GetThemeMargins_cpp, uxtheme/GetThemeMargins
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows UI
 ## -description
 
 
-Retrieves the value of a <a href="https://msdn.microsoft.com/library/Bb773244(v=VS.85).aspx">MARGINS</a> property.
+Retrieves the value of a <a href="https://msdn.microsoft.com/en-us/library/Bb773244(v=VS.85).aspx">MARGINS</a> property.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Retrieves the value of a <a href="https://msdn.microsoft.com/library/Bb773244(v=
 
 Type: <b>HTHEME</b>
 
-Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/library/Bb759821(v=VS.85).aspx">OpenThemeData</a> to create an HTHEME.
+Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/en-us/library/Bb759821(v=VS.85).aspx">OpenThemeData</a> to create an HTHEME.
 
 
 ### -param hdc [in]
@@ -80,21 +80,21 @@ HDC to select fonts into. This parameter may be set to <b>NULL</b>.
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the part that contains the <a href="https://msdn.microsoft.com/library/Bb773244(v=VS.85).aspx">MARGINS</a> property. See <a href="https://msdn.microsoft.com/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Value of type <b>int</b> that specifies the part that contains the <a href="https://msdn.microsoft.com/en-us/library/Bb773244(v=VS.85).aspx">MARGINS</a> property. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
 
 
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the state of the part. See <a href="https://msdn.microsoft.com/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Value of type <b>int</b> that specifies the state of the part. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
 
 
 ### -param iPropId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the property to retrieve. For a list of possible values, see <a href="https://msdn.microsoft.com/library/Bb773213(v=VS.85).aspx">Property Identifiers</a>.
+Value of type <b>int</b> that specifies the property to retrieve. For a list of possible values, see <a href="https://msdn.microsoft.com/en-us/library/Bb773213(v=VS.85).aspx">Property Identifiers</a>.
 
 
 ### -param prc [in]
@@ -106,9 +106,9 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5692
 
 ### -param pMargins [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb773244(v=VS.85).aspx">MARGINS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773244(v=VS.85).aspx">MARGINS</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb773244(v=VS.85).aspx">MARGINS</a> structure that receives the retrieved value.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773244(v=VS.85).aspx">MARGINS</a> structure that receives the retrieved value.
 
 
 ## -returns
@@ -127,7 +127,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773213(v=VS.85).aspx">Property Identifiers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773213(v=VS.85).aspx">Property Identifiers</a>
  
 
  

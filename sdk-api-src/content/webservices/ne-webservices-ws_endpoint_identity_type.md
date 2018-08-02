@@ -7,7 +7,7 @@ old-location: wsw\ws_endpoint_identity_type.htm
 old-project: wsw
 ms.assetid: e8c0b166-8b52-4ca7-ae31-4da335241562
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_DNS_ENDPOINT_IDENTITY_TYPE, WS_ENDPOINT_IDENTITY_TYPE, WS_ENDPOINT_IDENTITY_TYPE enumeration [Web Services for Windows], WS_SPN_ENDPOINT_IDENTITY_TYPE, WS_UNKNOWN_ENDPOINT_IDENTITY_TYPE, WS_UPN_ENDPOINT_IDENTITY_TYPE, webservices/WS_DNS_ENDPOINT_IDENTITY_TYPE, webservices/WS_ENDPOINT_IDENTITY_TYPE, webservices/WS_SPN_ENDPOINT_IDENTITY_TYPE, webservices/WS_UNKNOWN_ENDPOINT_IDENTITY_TYPE, webservices/WS_UPN_ENDPOINT_IDENTITY_TYPE, wsw.ws_endpoint_identity_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-
-                    The type of the endpoint IDentity, used as a selector for subtypes of
+The type of the endpoint IDentity, used as a selector for subtypes of
                     <a href="https://msdn.microsoft.com/59c851b4-6e1a-4144-9742-48d5c094d592">WS_ENDPOINT_IDENTITY</a>.
 
             
@@ -66,22 +64,19 @@ req.product: Windows Address Book 5.0
 
 ### -field WS_DNS_ENDPOINT_IDENTITY_TYPE
 
-
-                    Type ID for <a href="https://msdn.microsoft.com/09dea451-68ae-4052-8563-30f15c1335d6">WS_DNS_ENDPOINT_IDENTITY</a>.
+Type ID for <a href="https://msdn.microsoft.com/09dea451-68ae-4052-8563-30f15c1335d6">WS_DNS_ENDPOINT_IDENTITY</a>.
                 
 
 
 ### -field WS_UPN_ENDPOINT_IDENTITY_TYPE
 
-
-                    Type ID for <a href="https://msdn.microsoft.com/dc822551-6853-456f-a115-a96f64b0e056">WS_UPN_ENDPOINT_IDENTITY</a>.
+Type ID for <a href="https://msdn.microsoft.com/dc822551-6853-456f-a115-a96f64b0e056">WS_UPN_ENDPOINT_IDENTITY</a>.
                 
 
 
 ### -field WS_SPN_ENDPOINT_IDENTITY_TYPE
 
-
-                    Type ID for <a href="https://msdn.microsoft.com/99a484f0-4d04-4998-90d9-c39194ecf3f8">WS_SPN_ENDPOINT_IDENTITY</a>.
+Type ID for <a href="https://msdn.microsoft.com/99a484f0-4d04-4998-90d9-c39194ecf3f8">WS_SPN_ENDPOINT_IDENTITY</a>.
                 
 
 
@@ -93,7 +88,6 @@ req.product: Windows Address Book 5.0
 
 ### -field WS_UNKNOWN_ENDPOINT_IDENTITY_TYPE
 
-
-                    Type ID for <a href="https://msdn.microsoft.com/93a51fe5-7195-4286-97f3-92c20b0d3e54">WS_UNKNOWN_ENDPOINT_IDENTITY</a>.
+Type ID for <a href="https://msdn.microsoft.com/93a51fe5-7195-4286-97f3-92c20b0d3e54">WS_UNKNOWN_ENDPOINT_IDENTITY</a>.
                 
 

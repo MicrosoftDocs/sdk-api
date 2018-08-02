@@ -7,7 +7,7 @@ old-location: shell\GetProfileType.htm
 old-project: shell
 ms.assetid: 55ee76c8-1735-43eb-a98e-9e6c87ee1ba7
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: GetProfileType, GetProfileType function [Windows Shell], PT_MANDATORY, PT_ROAMING, PT_ROAMING_PREEXISTING, PT_TEMPORARY, _shell_GetProfileType, shell.GetProfileType, userenv/GetProfileType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,8 +88,7 @@ The user has a <a href="https://msdn.microsoft.com/8af06fdf-be99-4295-8f11-7d7f6
 
 #### PT_ROAMING_PREEXISTING
 
-
-						The user has a <a href="https://msdn.microsoft.com/8af06fdf-be99-4295-8f11-7d7f68e66956">Roaming User Profile</a> that was created on another PC and is being downloaded.
+The user has a <a href="https://msdn.microsoft.com/8af06fdf-be99-4295-8f11-7d7f68e66956">Roaming User Profile</a> that was created on another PC and is being downloaded.
 						This profile type implies <b>PT_ROAMING</b>.
 					
 
@@ -119,8 +118,7 @@ If the user profile is not already loaded, the function fails.
 
 Note that the caller must have <b>KEY_READ</b> access to <b>HKEY_LOCAL_MACHINE</b>. This access right is granted by default. For more information, see <a href="https://msdn.microsoft.com/266d5c8e-1bcd-48e5-bc06-2fbc956d8658">Registry Key Security and Access Rights</a>.
 
-
-				If the profile type is <b>PT_ROAMING_PREEXISTING</b>, Explorer will not reinitialize default programs associations when a profile is loaded on a machine for the first time.
+If the profile type is <b>PT_ROAMING_PREEXISTING</b>, Explorer will not reinitialize default programs associations when a profile is loaded on a machine for the first time.
 			
 
 

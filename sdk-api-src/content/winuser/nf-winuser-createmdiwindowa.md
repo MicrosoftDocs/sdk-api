@@ -7,7 +7,7 @@ old-location: winmsg\createmdiwindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacefunctions\createmdiwindow.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: CreateMDIWindow, CreateMDIWindow function [Windows and Messages], CreateMDIWindowA, CreateMDIWindowW, WS_HSCROLL, WS_MAXIMIZE, WS_MINIMIZE, WS_VSCROLL, _win32_CreateMDIWindow, _win32_createmdiwindow_cpp, winmsg.createmdiwindow, winui._win32_createmdiwindow, winuser/CreateMDIWindow, winuser/CreateMDIWindowA, winuser/CreateMDIWindowW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ Creates a multiple-document interface (MDI) child window.
 
 Type: <b>LPCTSTR</b>
 
-The window class of the MDI child window. The class name must have been registered by a call to the <a href="https://msdn.microsoft.com/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function.
+The window class of the MDI child window. The class name must have been registered by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function.
 
 
 ### -param lpWindowName [in]
@@ -79,7 +79,7 @@ The window name. The system displays the name in the title bar of the child wind
 
 Type: <b>DWORD</b>
 
-The style of the MDI child window. If the MDI client window is created with the <b>MDIS_ALLCHILDSTYLES</b> window style, this parameter can be any combination of the window styles listed in the <a href="https://msdn.microsoft.com/library/ms632600(v=VS.85).aspx">Window Styles</a> page. Otherwise, this parameter is limited to one or more of the following values.
+The style of the MDI child window. If the MDI client window is created with the <b>MDIS_ALLCHILDSTYLES</b> window style, this parameter can be any combination of the window styles listed in the <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">Window Styles</a> page. Otherwise, this parameter is limited to one or more of the following values.
 
 <table>
 <tr>
@@ -206,11 +206,11 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632591(v=VS.85).aspx">Multiple Document Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632591(v=VS.85).aspx">Multiple Document Interface</a>
 
 
 
@@ -218,11 +218,11 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644913(v=VS.85).aspx">WM_MDICREATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644913(v=VS.85).aspx">WM_MDICREATE</a>
  
 
  

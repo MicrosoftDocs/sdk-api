@@ -7,7 +7,7 @@ old-location: intl\enumsystemlanguagegroups.htm
 old-project: Intl
 ms.assetid: 8cc2335e-b222-44d9-a966-4b6803639071
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: EnumSystemLanguageGroups, EnumSystemLanguageGroups function [Internationalization for Windows Applications], EnumSystemLanguageGroupsA, EnumSystemLanguageGroupsW, LGRPID_INSTALLED, LGRPID_SUPPORTED, _win32_EnumSystemLanguageGroups, intl.enumsystemlanguagegroups, winnls/EnumSystemLanguageGroups, winnls/EnumSystemLanguageGroupsA, winnls/EnumSystemLanguageGroupsW
 ms.prod: windows
 ms.technology: windows-sdk

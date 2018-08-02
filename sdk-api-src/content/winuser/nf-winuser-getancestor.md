@@ -7,7 +7,7 @@ old-location: winmsg\getancestor.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getancestor.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: GA_PARENT, GA_ROOT, GA_ROOTOWNER, GetAncestor, GetAncestor function [Windows and Messages], _win32_GetAncestor, _win32_getancestor_cpp, winmsg.getancestor, winui._win32_getancestor, winuser/GetAncestor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,7 +93,7 @@ The ancestor to be retrieved. This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Retrieves the parent window. This does not include the owner, as it does with the <a href="https://msdn.microsoft.com/library/ms633510(v=VS.85).aspx">GetParent</a> function. 
+Retrieves the parent window. This does not include the owner, as it does with the <a href="https://msdn.microsoft.com/en-us/library/ms633510(v=VS.85).aspx">GetParent</a> function. 
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Retrieves the root window by walking the chain of parent windows.
 </dl>
 </td>
 <td width="60%">
-Retrieves the owned root window by walking the chain of parent and owner windows returned by <a href="https://msdn.microsoft.com/library/ms633510(v=VS.85).aspx">GetParent</a>. 
+Retrieves the owned root window by walking the chain of parent and owner windows returned by <a href="https://msdn.microsoft.com/en-us/library/ms633510(v=VS.85).aspx">GetParent</a>. 
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ The return value is the handle to the ancestor window.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633510(v=VS.85).aspx">GetParent</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633510(v=VS.85).aspx">GetParent</a>
 
 
 

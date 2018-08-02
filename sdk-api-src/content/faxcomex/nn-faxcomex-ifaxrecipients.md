@@ -102,7 +102,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item<
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/a3874a59-2eed-4cfb-b90e-2a437c00a5ae">IFaxRecipients::Remove</a> method removes an item from the <a href="https://msdn.microsoft.com/library/ms689604(v=VS.85).aspx">FaxRecipients</a> collection.
+The <a href="https://msdn.microsoft.com/en-us/library/ms690208(v=VS.85).aspx">IFaxRecipients::Remove</a> method removes an item from the <a href="https://msdn.microsoft.com/library/ms689604(v=VS.85).aspx">FaxRecipients</a> collection.
 
 </td>
 </tr>

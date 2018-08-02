@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_MoveEndpointByUnit.htm
 old-project: WinAuto
 ms.assetid: 3c0b9357-0f51-4044-8a5a-1f68af7a9762
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],MoveEndpointByUnit method, ITextRangeProvider.MoveEndpointByUnit, ITextRangeProvider::MoveEndpointByUnit, MoveEndpointByUnit, MoveEndpointByUnit method [Windows Accessibility], MoveEndpointByUnit method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_MoveEndpointByUnit, uiauto_ITextRangeProvider_MoveEndpointByUnit, uiautomationcore/ITextRangeProvider::MoveEndpointByUnit, winauto.uiauto_ITextRangeProvider_MoveEndpointByUnit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,8 +78,7 @@ The type of text units, such as character, word, paragraph, and so on.
 
 Type: <b>int</b>
 
-
-                The number of units to move. A positive value moves the endpoint forward. 
+The number of units to move. A positive value moves the endpoint forward. 
                 A negative value moves backward. A value of 0 has no effect.
 
 
@@ -114,8 +113,7 @@ If the <a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7"
 <b>ITextRangeProvider::MoveEndpointByUnit</b> deprecates up to the next supported text unit if the given text unit is not supported by the control. 
         
 
-
-        The order, from smallest unit to largest, is listed here.
+The order, from smallest unit to largest, is listed here.
         
 
 <ul>

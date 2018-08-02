@@ -4,10 +4,10 @@ title: PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK
 author: windows-sdk-content
 description: An application-defined callback function that allows the application to filter certificates that might be added to the certificate chain.
 old-location: security\certchainfindbyissuercallback.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 004c4caa-0063-41a3-8d6d-8b3a769b4112
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertChainFindByIssuerCallback, CertChainFindByIssuerCallback callback, CertChainFindByIssuerCallback callback function [Security], PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK, PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK callback function [Security], security.certchainfindbyissuercallback, wincrypt/CertChainFindByIssuerCallback, wincrypt/PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK
 ms.prod: windows
 ms.technology: windows-sdk

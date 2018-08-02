@@ -7,7 +7,7 @@ old-location: winsync\ienumsyncchangeunits_next.htm
 old-project: winsync
 ms.assetid: e9d237fc-c651-4e94-83cc-8606fe4b2386
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IEnumSyncChangeUnits interface [Windows Sync],Next method, IEnumSyncChangeUnits.Next, IEnumSyncChangeUnits::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumSyncChangeUnits interface, winsync.ienumsyncchangeunits_next, winsync/IEnumSyncChangeUnits::Next
 ms.prod: windows
 ms.technology: windows-sdk

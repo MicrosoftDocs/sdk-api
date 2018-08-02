@@ -4,10 +4,10 @@ title: "_WTSUSERCONFIGW"
 author: windows-sdk-content
 description: Contains configuration information for a user on a domain controller or Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsuserconfig.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 73788ea3-1ba7-4749-983d-4ca6e4f76acb
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PWTSUSERCONFIGW, PWTSUSERCONFIG, PWTSUSERCONFIG structure pointer [Remote Desktop Services], WTSUSERCONFIG, WTSUSERCONFIG structure [Remote Desktop Services], WTSUSERCONFIGA, WTSUSERCONFIGW, _WTSUSERCONFIGW, termserv.wtsuserconfig, wtsapi32/PWTSUSERCONFIG, wtsapi32/WTSUSERCONFIG, wtsapi32/WTSUSERCONFIGA, wtsapi32/WTSUSERCONFIGW"
 ms.prod: windows
 ms.technology: windows-sdk

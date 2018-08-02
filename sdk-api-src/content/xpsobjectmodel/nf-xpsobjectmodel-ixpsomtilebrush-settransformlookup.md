@@ -7,7 +7,7 @@ old-location: xps\ixpsomtilebrush_settransformlookup.htm
 old-project: printdocs
 ms.assetid: b2d9519a-9e22-44ba-839d-e1ba33aacc26
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetTransformLookup method, IXpsOMTileBrush.SetTransformLookup, IXpsOMTileBrush::SetTransformLookup, SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_settransformlookup, xpsobjectmodel/IXpsOMTileBrush::SetTransformLookup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-Sets the lookup key name of a shared matrix transform that will be used as the transform for this brush.
-
-  The shared matrix transform that is referenced by the lookup key is stored in the resource dictionary.
+Sets the lookup key name of a shared matrix transform that will be used as the transform for this brush.The shared matrix transform that is referenced by the lookup key is stored in the resource dictionary.
 
 
 ## -parameters

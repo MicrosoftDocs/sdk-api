@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createvisualbrush.htm
 old-project: printdocs
 ms.assetid: ad19841a-629f-4127-a6ea-890168e0c53c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CreateVisualBrush, CreateVisualBrush method [XPS Documents and Packaging], CreateVisualBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateVisualBrush method, IXpsOMObjectFactory.CreateVisualBrush, IXpsOMObjectFactory::CreateVisualBrush, xps.ixpsomobjectfactory_createvisualbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateVisualBrush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ The <a href="https://msdn.microsoft.com/e78a9ecb-b2e7-4295-a178-4a9936b0f27e">XP
 
 ### -param visualBrush [out, retval]
 
-
-            A pointer to the new <a href="https://msdn.microsoft.com/56c11e64-64a8-4c42-9547-4f1fcdc13a4b">IXpsOMVisualBrush</a> interface.
+A pointer to the new <a href="https://msdn.microsoft.com/56c11e64-64a8-4c42-9547-4f1fcdc13a4b">IXpsOMVisualBrush</a> interface.
 
 
 ## -returns

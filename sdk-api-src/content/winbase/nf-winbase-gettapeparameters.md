@@ -4,10 +4,10 @@ title: GetTapeParameters function
 author: windows-sdk-content
 description: Retrieves information that describes the tape or the tape drive.
 old-location: backup\gettapeparameters.htm
-old-project: backup
+old-project: Backup
 ms.assetid: 87e59e29-e174-4462-b692-512c3380eb4d
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: GET_TAPE_DRIVE_INFORMATION, GET_TAPE_MEDIA_INFORMATION, GetTapeParameters, GetTapeParameters function [Backup], _win32_gettapeparameters, backup.gettapeparameters, base.gettapeparameters, winbase/GetTapeParameters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device about which information is sought. This handle is created by using the 
-<a href="base.createfile">CreateFile</a> function.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.
 
 
 ### -param dwOperation [in]
@@ -338,7 +338,7 @@ The block size range values (maximum and minimum) returned by the
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
 
 
 

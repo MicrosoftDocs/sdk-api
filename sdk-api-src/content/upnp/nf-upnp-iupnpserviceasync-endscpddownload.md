@@ -4,10 +4,10 @@ title: IUPnPServiceAsync::EndSCPDDownload
 author: windows-sdk-content
 description: EndSCPDDownload method retrieves the results of a previous asynchronous download of an Service Control Protocol Description (SCPD) document.
 old-location: upnp\iupnpserviceasync_endscpddownload.htm
-old-project: upnp
+old-project: UPnP
 ms.assetid: 1C4F7986-9282-4775-B9B2-338AC44F2243
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 07/29/2018
 ms.keywords: EndSCPDDownload, EndSCPDDownload method [UPnP APIs], EndSCPDDownload method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],EndSCPDDownload method, IUPnPServiceAsync.EndSCPDDownload, IUPnPServiceAsync::EndSCPDDownload, upnp.iupnpserviceasync_endscpddownload, upnp/IUPnPServiceAsync::EndSCPDDownload
 ms.prod: windows
 ms.technology: windows-sdk

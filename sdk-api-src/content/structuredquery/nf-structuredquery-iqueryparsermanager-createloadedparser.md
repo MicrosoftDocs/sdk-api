@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParserManager_CreateLoadedParser.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\createloadedparser.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: CreateLoadedParser, CreateLoadedParser method [search], CreateLoadedParser method [search],IQueryParserManager interface, IQueryParserManager interface [search],CreateLoadedParser method, IQueryParserManager.CreateLoadedParser, IQueryParserManager::CreateLoadedParser, _search_IQueryParserManager_CreateLoadedParser, search._search_IQueryParserManager_CreateLoadedParser, structuredquery/IQueryParserManager::CreateLoadedParser
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Creates a new instance of a <a href="https://msdn.microsoft.com/library/Bb231353(v=VS.85).aspx">IQueryParser</a> interface implementation. This instance of the query parser is loaded with the schema for the specified catalog and is localized to a specified language. All other settings are initialized to default settings.
+Creates a new instance of a <a href="https://msdn.microsoft.com/en-us/library/Bb231353(v=VS.85).aspx">IQueryParser</a> interface implementation. This instance of the query parser is loaded with the schema for the specified catalog and is localized to a specified language. All other settings are initialized to default settings.
 
 
 ## -parameters
@@ -78,15 +78,14 @@ The <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">LA
 
 Type: <b>REFIID</b>
 
-The IID of the <a href="https://msdn.microsoft.com/library/Bb231353(v=VS.85).aspx">IQueryParser</a> interface implementation.
+The IID of the <a href="https://msdn.microsoft.com/en-us/library/Bb231353(v=VS.85).aspx">IQueryParser</a> interface implementation.
 
 
 ### -param ppQueryParser [out, retval]
 
 Type: <b>void**</b>
 
-
-          Receives a pointer to the newly created parser. The calling application must release it by calling its <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
+Receives a pointer to the newly created parser. The calling application must release it by calling its <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
         
 
 
@@ -105,7 +104,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-If %LOCALAPPDATA% is not available, then this method fails. You should call <a href="https://msdn.microsoft.com/library/Bb231350(v=VS.85).aspx">IQueryParserManager::SetOption</a> to point to a different folder like %ProgramData%.
+If %LOCALAPPDATA% is not available, then this method fails. You should call <a href="https://msdn.microsoft.com/en-us/library/Bb231350(v=VS.85).aspx">IQueryParserManager::SetOption</a> to point to a different folder like %ProgramData%.
 
 
 

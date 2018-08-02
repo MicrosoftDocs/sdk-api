@@ -4,10 +4,10 @@ title: CertNameToStrW function
 author: windows-sdk-content
 description: Converts an encoded name in a CERT_NAME_BLOB structure to a null-terminated character string.
 old-location: security\certnametostr.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: b3d96de8-5cbc-4ccb-b759-6757520bbda3
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CERT_NAME_STR_CRLF_FLAG, CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG, CERT_NAME_STR_ENABLE_PUNYCODE_FLAG, CERT_NAME_STR_NO_PLUS_FLAG, CERT_NAME_STR_NO_QUOTING_FLAG, CERT_NAME_STR_REVERSE_FLAG, CERT_NAME_STR_SEMICOLON_FLAG, CERT_OID_NAME_STR, CERT_SIMPLE_NAME_STR, CERT_X500_NAME_STR, CertNameToStr, CertNameToStr function [Security], CertNameToStrA, CertNameToStrW, X509_ASN_ENCODING, _crypto2_certnametostr, security.certnametostr, wincrypt/CertNameToStr, wincrypt/CertNameToStrA, wincrypt/CertNameToStrW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -275,8 +275,7 @@ The size, in characters, of the <i>psz</i> buffer. The size must include the ter
 
 
 
-
-                  Returns the number of characters converted, including the terminating null character. 
+Returns the number of characters converted, including the terminating null character. 
 
 If <i>psz</i> is <b>NULL</b> or <i>csz</i> is zero, returns the required size of the destination string.
                
@@ -398,7 +397,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Data Conversion Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Conversion Functions</a>
  
 
  

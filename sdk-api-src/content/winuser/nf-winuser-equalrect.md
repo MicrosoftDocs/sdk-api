@@ -7,7 +7,7 @@ old-location: gdi\equalrect.htm
 old-project: gdi
 ms.assetid: 00763184-6b60-4095-b71e-5a851c2643aa
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: EqualRect, EqualRect function [Windows GDI], _win32_EqualRect, gdi.equalrect, winuser/EqualRect
 ms.prod: windows
 ms.technology: windows-sdk

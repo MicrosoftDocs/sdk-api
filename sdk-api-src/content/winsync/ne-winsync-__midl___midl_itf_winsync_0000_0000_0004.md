@@ -7,7 +7,7 @@ old-location: winsync\sync_full_enumeration_action.htm
 old-project: winsync
 ms.assetid: 4fdb7123-d8c8-4ed7-9009-0e772252bbb7
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: SFEA_ABORT, SFEA_FULL_ENUMERATION, SFEA_PARTIAL_SYNC, SYNC_FULL_ENUMERATION_ACTION, SYNC_FULL_ENUMERATION_ACTION enumeration [Windows Sync], __MIDL___MIDL_itf_winsync_0000_0000_0004, winsync.sync_full_enumeration_action, winsync/SFEA_ABORT, winsync/SFEA_FULL_ENUMERATION, winsync/SFEA_PARTIAL_SYNC, winsync/SYNC_FULL_ENUMERATION_ACTION
 ms.prod: windows
 ms.technology: windows-sdk

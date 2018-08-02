@@ -4,10 +4,10 @@ title: "_TOKEN_TYPE"
 author: windows-sdk-content
 description: Contains values that differentiate between a primary token and an impersonation token.
 old-location: security\token_type.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 51b6717e-3fda-4af4-8995-4ac571eae2fd
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: "*PTOKEN_TYPE, PTOKEN_TYPE, PTOKEN_TYPE enumeration pointer [Security], TOKEN_TYPE, TOKEN_TYPE enumeration [Security], TokenImpersonation, TokenPrimary, _TOKEN_TYPE, _win32_token_type_str, security.token_type, winnt/PTOKEN_TYPE, winnt/TOKEN_TYPE, winnt/TokenImpersonation, winnt/TokenPrimary"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>TOKEN_TYPE</b> enumeration contains values that differentiate between a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">primary token</a> and an <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a>.
+The <b>TOKEN_TYPE</b> enumeration contains values that differentiate between a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">primary token</a> and an <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a>.
 		
 
 

@@ -7,7 +7,7 @@ old-location: dshow\ioverlay_getcliplist.htm
 old-project: DirectShow
 ms.assetid: 3133bcae-0a08-45e9-b70a-07ea6ffef8ee
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetClipList, GetClipList method [DirectShow], GetClipList method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetClipList method, IOverlay.GetClipList, IOverlay::GetClipList, IOverlayGetClipList, dshow.ioverlay_getcliplist, strmif/IOverlay::GetClipList
 ms.prod: windows
 ms.technology: windows-sdk

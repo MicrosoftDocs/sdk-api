@@ -4,10 +4,10 @@ title: TcAddFilter function
 author: windows-sdk-content
 description: The TcAddFilter function associates a new filter with an existing flow that allows packets matching the filter to be directed to the associated flow.
 old-location: qos\tcaddfilter.htm
-old-project: qos
+old-project: QOS
 ms.assetid: c6d7c346-c353-4224-a8b5-56910e447902
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 07/29/2018
 ms.keywords: TcAddFilter, TcAddFilter function [QOS], _gqos_tcaddfilter, qos.tcaddfilter, traffic/TcAddFilter
 ms.prod: windows
 ms.technology: windows-sdk

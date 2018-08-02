@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaNotifyDevMgr.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwianotifydevmgr\iwianotifydevmgr.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: IWiaNotifyDevMgr, IWiaNotifyDevMgr interface [WIA], IWiaNotifyDevMgr interface [WIA],described, _wia_IWiaNotifyDevMgr, wia._wia_IWiaNotifyDevMgr, wia_xp/IWiaNotifyDevMgr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IWiaNotifyDevMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629951(v=VS.85).aspx">NewDeviceArrival</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629951(v=VS.85).aspx">NewDeviceArrival</a>
 </td>
 <td align="left" width="63%">
 Not implemented.

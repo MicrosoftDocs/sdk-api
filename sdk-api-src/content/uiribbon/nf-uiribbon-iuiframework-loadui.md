@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiframework_loadui.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\loadui.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],LoadUI method, IUIFramework.LoadUI, IUIFramework::LoadUI, LoadUI, LoadUI method [Windows Ribbon], LoadUI method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_LoadUI, uiribbon/IUIFramework::LoadUI, windowsribbon.windowsribbon_iuiframework_loadui
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-
-			Loads the Windows Ribbon framework UI resource, or compiled markup, file.
+Loads the Windows Ribbon framework UI resource, or compiled markup, file.
 		
 
 
@@ -65,8 +64,7 @@ req.product: Windows UI
 
 Type: <b>HINSTANCE</b>
 
-
-					A handle to the Ribbon application instance. 
+A handle to the Ribbon application instance. 
 				
 
 
@@ -74,8 +72,7 @@ Type: <b>HINSTANCE</b>
 
 Type: <b>LPCWSTR</b>
 
-
-					The name of the resource that contains the compiled, binary markup.
+The name of the resource that contains the compiled, binary markup.
 				
 
 <div class="alert"><b>Note</b>  To initialize the Ribbon successfully, a compiled Ribbon markup file must be available as a resource. This markup file is an integral component of the Ribbon framework; it specifies the controls to use and their layout.
@@ -97,11 +94,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<b>IUIFramework::LoadUI</b> should be called upon initialization. This method can be called multiple times during the lifecycle of an application, for example, to show or hide a Ribbon, provided that <a href="https://msdn.microsoft.com/library/Dd371368(v=VS.85).aspx">IUIFramework::Destroy</a> is called in between. 
+<b>IUIFramework::LoadUI</b> should be called upon initialization. This method can be called multiple times during the lifecycle of an application, for example, to show or hide a Ribbon, provided that <a href="https://msdn.microsoft.com/en-us/library/Dd371368(v=VS.85).aspx">IUIFramework::Destroy</a> is called in between. 
 			
 
 
-<a href="https://msdn.microsoft.com/library/Dd371531(v=VS.85).aspx">OnCreateUICommand</a> and <a href="https://msdn.microsoft.com/library/Dd371537(v=VS.85).aspx">OnViewChanged</a> 
+<a href="https://msdn.microsoft.com/en-us/library/Dd371531(v=VS.85).aspx">OnCreateUICommand</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd371537(v=VS.85).aspx">OnViewChanged</a> 
 				are called during the execution of <b>IUIFramework::LoadUI</b>.
 			
 
@@ -189,23 +186,23 @@ bool InitializeFramework(HWND hWnd)
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd316930(v=VS.85).aspx">Compiling Ribbon Markup</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd316930(v=VS.85).aspx">Compiling Ribbon Markup</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371467(v=VS.85).aspx">IUIFramework</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371467(v=VS.85).aspx">IUIFramework</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371373(v=VS.85).aspx">IUIFramework::Initialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371373(v=VS.85).aspx">IUIFramework::Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371591(v=VS.85).aspx">Markup Elements</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371591(v=VS.85).aspx">Markup Elements</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
  
 
  

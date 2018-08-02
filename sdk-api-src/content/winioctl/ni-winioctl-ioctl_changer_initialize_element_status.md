@@ -4,10 +4,10 @@ title: IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
 author: windows-sdk-content
 description: Initializes the status of all elements or the specified elements of a particular type.
 old-location: base\ioctl_changer_initialize_element_status.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: be054a22-cde4-4efd-bd66-eb67b007fd19
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS, IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS control, IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS control code, _win32_ioctl_changer_initialize_element_status, base.ioctl_changer_initialize_element_status, winioctl/IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,15 +61,11 @@ To perform this operation, call the
 </tr>
 <tr>
 <td>
-<pre>
-BOOL DeviceIoControl(
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,                        // handle to device
-  IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS, // dwIoControlCode
-  (LPVOID) lpInBuffer,                     // input buffer
+  IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS, // dwIoControlCode(LPVOID) lpInBuffer,                     // input buffer
   (DWORD) nInBufferSize,                   // size of input buffer
-  NULL,                                    // lpOutBuffer
-  0,                                       // nOutBufferSize
-  (LPDWORD) lpBytesReturned,               // number of bytes returned
+  NULL,                                    // lpOutBuffer0,                                       // nOutBufferSize(LPDWORD) lpBytesReturned,               // number of bytes returned
   (LPOVERLAPPED) lpOverlapped              // OVERLAPPED structure
 );</pre>
 </td>

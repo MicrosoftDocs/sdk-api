@@ -7,7 +7,7 @@ old-location: gdi\creatediscardablebitmap.htm
 old-project: gdi
 ms.assetid: 79168baf-26ea-4d24-b75c-d0658a56892c
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateDiscardableBitmap, CreateDiscardableBitmap function [Windows GDI], _win32_CreateDiscardableBitmap, gdi.creatediscardablebitmap, wingdi/CreateDiscardableBitmap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,8 +121,7 @@ When you no longer need the bitmap, call the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/d2866beb-ff7a-4390-8651-e7bf458ddf88">
-        CreateCompatibleBitmap
+<a href="https://msdn.microsoft.com/d2866beb-ff7a-4390-8651-e7bf458ddf88">CreateCompatibleBitmap
       </a>
 
 

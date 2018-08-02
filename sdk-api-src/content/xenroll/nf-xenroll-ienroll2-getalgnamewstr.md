@@ -4,10 +4,10 @@ title: IEnroll2::GetAlgNameWStr
 author: windows-sdk-content
 description: Retrieves the name of a cryptographic algorithm given its ID. The values retrieved by this method depend on the current cryptographic service provider (CSP).
 old-location: security\ienroll4_getalgnamewstr.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 2d628d26-a081-49a2-8fc9-88f014d24a4e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetAlgNameWStr, GetAlgNameWStr method [Security], GetAlgNameWStr method [Security],IEnroll2 interface, IEnroll2 interface [Security],GetAlgNameWStr method, IEnroll2.GetAlgNameWStr, IEnroll2::GetAlgNameWStr, security.ienroll4_getalgnamewstr, xenroll/IEnroll2::GetAlgNameWStr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ Upon success, pointer to a <b>LPWSTR</b> that represents the name of the algorit
 
 
 
-
-						 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. If a CSP does not support this method or does not support the <i>algID</i> cryptographic algorithm, an error is returned.
+The return value is an <b>HRESULT</b>. A value of S_OK indicates success. If a CSP does not support this method or does not support the <i>algID</i> cryptographic algorithm, an error is returned.
 
 
 

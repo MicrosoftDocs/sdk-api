@@ -2,12 +2,12 @@
 UID: NF:webservices.WsReadBody
 title: WsReadBody function
 author: windows-sdk-content
-description: This is a helper function that deserializes a value from the XML Reader of the message. The WS_MESSAGE_STATE must be set to WS_MESSAGE_STATE_READING. This function does not cause any state transitions.
+description: This is a helper function that deserializes a value from the XML Readerof the message. The WS_MESSAGE_STATE must be set to WS_MESSAGE_STATE_READING. This function does not cause any state transitions.
 old-location: wsw\wsreadbody.htm
 old-project: wsw
 ms.assetid: 43ceeb1e-aeb2-4482-90f0-d7f6013b239f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsReadBody, WsReadBody function [Web Services for Windows], webservices/WsReadBody, wsw.wsreadbody
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                This is a helper function that deserializes a value from the XML Reader
-                of the message.
+This is a helper function that deserializes a value from the XML Readerof the message.
             The <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE</a> must be set to <b>WS_MESSAGE_STATE_READING</b>.  This function does
                 not cause any state transitions.
             
@@ -86,22 +84,19 @@ TBD
 
 ### -param heap [in, optional]
 
-
-                    A pointer to the <b>Heap</b> object to read the element into.  The pointer must reference a valid <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a> object.
+A pointer to the <b>Heap</b> object to read the element into.  The pointer must reference a valid <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a> object.
                 
 
 
 ### -param value
 
-
-                    The interpretation of the data referenced by this parameter depends on the <b>WS_READ_OPTION</b>.
+The interpretation of the data referenced by this parameter depends on the <b>WS_READ_OPTION</b>.
                 
 
 
 ### -param valueSize [in]
 
-
-                    The interpretation of the value of this parameter depends on the <b>WS_READ_OPTION</b>.
+The interpretation of the value of this parameter depends on the <b>WS_READ_OPTION</b>.
                 
 
 
@@ -136,7 +131,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -148,7 +142,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -160,7 +153,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -186,8 +178,7 @@ This function may return other errors not listed above.
 
 
 
-
-                This functions supports the following scenarios, based on the contents
+This functions supports the following scenarios, based on the contents
                 of the <b>WS_ELEMENT_DESCRIPTION</b>supplied:
             
 
@@ -201,8 +192,7 @@ This function may return other errors not listed above.
                 envelope/addressing version of the message).
                 </li>
 <li>Reading multiple elements as a single value.  In this case, the elementLocalName and elementNs
-                fields of the <b>WS_ELEMENT_DESCRIPTION</b> should be set to <b>NULL</b>, and a <b>WS_STRUCT_TYPE</b>
-                and <a href="https://msdn.microsoft.com/b426a07e-9993-4cea-8847-fc80e9d0b451">WS_STRUCT_DESCRIPTION</a> should be specified.  In this case, each field of the
+                fields of the <b>WS_ELEMENT_DESCRIPTION</b> should be set to <b>NULL</b>, and a <b>WS_STRUCT_TYPE</b>and <a href="https://msdn.microsoft.com/b426a07e-9993-4cea-8847-fc80e9d0b451">WS_STRUCT_DESCRIPTION</a> should be specified.  In this case, each field of the
                 structure value being deserialized should correspond to element(s) to read within the body.
                 </li>
 <li>Reading multiple elements as multiple values.  Reading multiple distinct values can be

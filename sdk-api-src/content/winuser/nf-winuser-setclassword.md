@@ -7,7 +7,7 @@ old-location: winmsg\setclassword.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setclassword.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: SetClassWord, SetClassWord function [Windows and Messages], _win32_SetClassWord, _win32_setclassword_cpp, winmsg.setclassword, winui._win32_setclassword, winuser/SetClassWord
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 Replaces the 16-bit (<b>WORD</b>) value at the specified offset into the extra class memory for the window class to which the specified window belongs.
-<div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="https://msdn.microsoft.com/library/ms633588(v=VS.85).aspx">SetClassLong</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="https://msdn.microsoft.com/en-us/library/ms633588(v=VS.85).aspx">SetClassLong</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -99,7 +99,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 Reserve extra class memory by specifying a nonzero value in the 
-				<b>cbClsExtra</b> member of the <a href="https://msdn.microsoft.com/library/ms633576(v=VS.85).aspx">WNDCLASS</a> structure used with the <a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a> function. 
+				<b>cbClsExtra</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms633576(v=VS.85).aspx">WNDCLASS</a> structure used with the <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a> function. 
 
 
 
@@ -113,7 +113,7 @@ Reserve extra class memory by specifying a nonzero value in the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633583(v=VS.85).aspx">GetClassWord</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633583(v=VS.85).aspx">GetClassWord</a>
 
 
 
@@ -121,19 +121,19 @@ Reserve extra class memory by specifying a nonzero value in the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633588(v=VS.85).aspx">SetClassLong</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633588(v=VS.85).aspx">SetClassLong</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633576(v=VS.85).aspx">WNDCLASS</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633576(v=VS.85).aspx">WNDCLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632596(v=VS.85).aspx">Window Classes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632596(v=VS.85).aspx">Window Classes</a>
  
 
  

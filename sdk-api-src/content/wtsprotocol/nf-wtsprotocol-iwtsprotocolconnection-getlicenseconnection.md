@@ -4,10 +4,10 @@ title: IWTSProtocolConnection::GetLicenseConnection
 author: windows-sdk-content
 description: IWTSProtocolConnection::GetLicenseConnection is no longer available. Instead, use IWRdsProtocolConnection::GetLicenseConnection.
 old-location: termserv\iwtsprotocolconnection_getlicenseconnection.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 714e2479-54b2-4899-9fbd-68fa35051f58
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetLicenseConnection, GetLicenseConnection method [Remote Desktop Services], GetLicenseConnection method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetLicenseConnection method, IWTSProtocolConnection.GetLicenseConnection, IWTSProtocolConnection::GetLicenseConnection, termserv.iwtsprotocolconnection_getlicenseconnection, wtsprotocol/IWTSProtocolConnection::GetLicenseConnection
 ms.prod: windows
 ms.technology: windows-sdk

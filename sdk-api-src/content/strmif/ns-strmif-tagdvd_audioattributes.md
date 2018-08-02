@@ -7,7 +7,7 @@ old-location: dshow\dvd_audioattributes.htm
 old-project: DirectShow
 ms.assetid: a4365c05-718e-4d48-bb2c-a13a609df82f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: DVD_AudioAttributes, DVD_AudioAttributes structure [DirectShow], DVD_AudioAttributesStructure, dshow.dvd_audioattributes, strmif/DVD_AudioAttributes, tagDVD_AudioAttributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,8 +109,7 @@ The number of channels. For example, 5.1 Dolby AC-3 has six channels.
 
 ### -field dwReserved
 
-
-            Reserved.
+Reserved.
           
 
 

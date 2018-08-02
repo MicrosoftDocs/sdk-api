@@ -4,10 +4,10 @@ title: DnsQueryConfig function
 author: windows-sdk-content
 description: The DnsQueryConfig function enables application programmers to query for the configuration of the local computer or a specific adapter.
 old-location: dns\dnsqueryconfig.htm
-old-project: dns
+old-project: DNS
 ms.assetid: 83de7df8-7e89-42fe-b609-1dc173afc9df
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/29/2018
 ms.keywords: DnsQueryConfig, DnsQueryConfig function [DNS], _dns_dnsqueryconfig, dns.dnsqueryconfig, windns/DnsQueryConfig
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The 
+The 
 <b>DnsQueryConfig</b> function enables application programmers to query for the configuration of the local computer or a specific adapter.
 
 
@@ -184,8 +183,7 @@ The length of the buffer, in bytes. If the buffer provided is not sufficient, an
 
 
 
-
-						Returns success confirmation upon successful completion. Otherwise, returns the appropriate DNS-specific error code as defined in Winerror.h.
+Returns success confirmation upon successful completion. Otherwise, returns the appropriate DNS-specific error code as defined in Winerror.h.
 
 
 

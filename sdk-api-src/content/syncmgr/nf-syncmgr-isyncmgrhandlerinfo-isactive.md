@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandlerInfo_IsActive.htm
 old-project: shell
 ms.assetid: 0bcb06ba-a94a-4a18-a284-48be19ec4b44
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: ISyncMgrHandlerInfo interface [Windows Shell],IsActive method, ISyncMgrHandlerInfo.IsActive, ISyncMgrHandlerInfo::IsActive, IsActive, IsActive method [Windows Shell], IsActive method [Windows Shell],ISyncMgrHandlerInfo interface, _shell_ISyncMgrHandlerInfo_IsActive, shell.ISyncMgrHandlerInfo_IsActive, syncmgr/ISyncMgrHandlerInfo::IsActive
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,8 +93,7 @@ Sync Center calls this method whenever the <a href="https://msdn.microsoft.com/d
 
 
 
-
-        	The following example shows an implementation of this method that calls a private class function to retrieve the active state.
+The following example shows an implementation of this method that calls a private class function to retrieve the active state.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

@@ -4,10 +4,10 @@ title: IOCTL_DISK_DELETE_DRIVE_LAYOUT
 author: windows-sdk-content
 description: Removes the boot signature from the master boot record, so that the disk will be formatted from sector zero to the end of the disk.
 old-location: fs\ioctl_disk_delete_drive_layout.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: b790e1f8-9371-4ff9-a820-3ea1af29cc6b
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_DISK_DELETE_DRIVE_LAYOUT, IOCTL_DISK_DELETE_DRIVE_LAYOUT control, IOCTL_DISK_DELETE_DRIVE_LAYOUT control code [Files], base.ioctl_disk_delete_drive_layout, fs.ioctl_disk_delete_drive_layout, winioctl/IOCTL_DISK_DELETE_DRIVE_LAYOUT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,15 +61,9 @@ To perform this operation, call the
 </tr>
 <tr>
 <td>
-<pre>
-BOOL DeviceIoControl(
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,               // handle to device
-  IOCTL_DISK_DELETE_DRIVE_LAYOUT, // dwIoControlCode
-  NULL,                           // lpInBuffer
-  0,                              // nInBufferSize
-  NULL,                           // lpOutBuffer
-  0,                              // nOutBufferSize
-  (LPDWORD) lpBytesReturned,      // number of bytes returned
+  IOCTL_DISK_DELETE_DRIVE_LAYOUT, // dwIoControlCodeNULL,                           // lpInBuffer0,                              // nInBufferSizeNULL,                           // lpOutBuffer0,                              // nOutBufferSize(LPDWORD) lpBytesReturned,      // number of bytes returned
   (LPOVERLAPPED) lpOverlapped     // OVERLAPPED structure
 );</pre>
 </td>

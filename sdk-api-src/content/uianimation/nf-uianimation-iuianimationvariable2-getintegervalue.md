@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2_getintegervalue.htm
 old-project: UIAnimation
 ms.assetid: C878B86A-87AD-457A-802A-9A329B401B08
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetIntegerValue, GetIntegerValue method [Windows Animation], GetIntegerValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetIntegerValue method, IUIAnimationVariable2.GetIntegerValue, IUIAnimationVariable2::GetIntegerValue, uianimation.iuianimationvariable2_getintegervalue, uianimation/IUIAnimationVariable2::GetIntegerValue
 ms.prod: windows
 ms.technology: windows-sdk

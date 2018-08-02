@@ -7,7 +7,7 @@ old-location: wsw\wscreatefaultfromerror.htm
 old-project: wsw
 ms.assetid: 193854d7-3b7f-4f2b-b068-33b9c4d91e57
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCreateFaultFromError, WsCreateFaultFromError function [Web Services for Windows], webservices/WsCreateFaultFromError, wsw.wscreatefaultfromerror
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,10 +87,8 @@ Pointer to a <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a4
 
 ### -param fault [out]
 
-
-                    Pointer to a <a href="https://msdn.microsoft.com/7fe0b142-04a1-4a92-99ca-523412f7c94e">WS_FAULT</a> structure representing the returned fault object.  The fields of the fault object are good until
-                    <a href="https://msdn.microsoft.com/ec643915-8c4b-4916-b390-d6ca043350db">WsFreeHeap</a> or <a href="https://msdn.microsoft.com/c927ccb9-66c8-4acf-bbb5-12313ea80ee0">WsResetHeap</a>
-                    is called to release the specified heap resources.
+Pointer to a <a href="https://msdn.microsoft.com/7fe0b142-04a1-4a92-99ca-523412f7c94e">WS_FAULT</a> structure representing the returned fault object.  The fields of the fault object are good until
+                    <a href="https://msdn.microsoft.com/ec643915-8c4b-4916-b390-d6ca043350db">WsFreeHeap</a> or <a href="https://msdn.microsoft.com/c927ccb9-66c8-4acf-bbb5-12313ea80ee0">WsResetHeap</a>is called to release the specified heap resources.
                 
 
 
@@ -130,7 +128,6 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -171,18 +168,15 @@ If the error object contains a fault (that is, the WS_FAULT_ERROR_PROPERTY_FAULT
 
 If the error object does not contain a fault (WS_FAULT_ERROR_PROPERTY_FAULT is <b>NULL</b>),  a generic fault with a generic fault code (and no reason text) is selected to construct the returned fault. 
 
-
-                If the selected fault does not include any reason text,  the fault reason
+If the selected fault does not include any reason text,  the fault reason
                 text is constructed according to the value of <i>disclosure</i> parameter:
                 <ul>
-<li>
-                    WS_FULL_FAULT_DISCLOSURE
+<li>WS_FULL_FAULT_DISCLOSURE
                     All the error strings present in the error object are appended together
                     to form the reason text.  If there are no strings, the string associated
                     with the <i>errorCode</i> parameter is used.
                     </li>
-<li>
-                    WS_MINIMAL_FAULT_DISCLOSURE
+<li>WS_MINIMAL_FAULT_DISCLOSURE
                     A generic error string is used.
                 </li>
 </ul>

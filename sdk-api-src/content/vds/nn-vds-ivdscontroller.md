@@ -4,10 +4,10 @@ title: IVdsController
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a controller.
 old-location: base\ivdscontroller.htm
-old-project: vds
+old-project: VDS
 ms.assetid: cc30a78a-78a4-49c2-a97d-228400da46a9
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: IVdsController, IVdsController interface [VDS], IVdsController interface [VDS],described, base.ivdscontroller, vds/IVdsController, vdshwprv/IVdsController
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,8 +123,7 @@ Invalidates the cache of the controller. All data in the cache is lost.
 <a href="https://msdn.microsoft.com/832b8d59-6e94-4d62-a31f-4658e9f6102b">QueryAssociatedLuns</a>
 </td>
 <td align="left" width="63%">
-
-           Returns an enumeration of the LUNs with which the controller is associated—in other words, the LUNs for which the controller is active.
+Returns an enumeration of the LUNs with which the controller is associated—in other words, the LUNs for which the controller is active.
           
 
 </td>

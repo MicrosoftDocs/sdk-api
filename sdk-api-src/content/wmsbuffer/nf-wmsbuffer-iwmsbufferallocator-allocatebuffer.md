@@ -7,7 +7,7 @@ old-location: wmformat\iwmsbufferallocator_allocatebuffer.htm
 old-project: wmformat
 ms.assetid: 857fb8fa-0e86-46f2-907d-a244d6c699ef
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: AllocateBuffer, AllocateBuffer method [windows Media Format], AllocateBuffer method [windows Media Format],IWMSBufferAllocator interface, IWMSBufferAllocator interface [windows Media Format],AllocateBuffer method, IWMSBufferAllocator.AllocateBuffer, IWMSBufferAllocator::AllocateBuffer, IWMSBufferAllocatorAllocateBuffer, wmformat.iwmsbufferallocator_allocatebuffer, wmsbuffer/IWMSBufferAllocator::AllocateBuffer
 ms.prod: windows
 ms.technology: windows-sdk

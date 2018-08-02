@@ -7,7 +7,7 @@ old-location: wes\evtgetextendedstatus.htm
 old-project: WES
 ms.assetid: 49451981-b3de-4515-ae88-835f17a0a8f9
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtGetExtendedStatus, EvtGetExtendedStatus function [EventLog], wes.evtgetextendedstatus, winevt/EvtGetExtendedStatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,6 @@ The size of the <i>Buffer</i> buffer, in characters.
 
 
 ### -param Buffer [in]
-
 
 A caller-allocated string buffer that will receive the extended error information. You can set this parameter to <b>NULL</b> to determine the required buffer size.
 

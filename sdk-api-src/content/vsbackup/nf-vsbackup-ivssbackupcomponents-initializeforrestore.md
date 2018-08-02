@@ -4,10 +4,10 @@ title: IVssBackupComponents::InitializeForRestore
 author: windows-sdk-content
 description: The InitializeForRestore method initializes the IVssBackupComponents interface in preparation for a restore operation.
 old-location: base\ivssbackupcomponents_initializeforrestore.htm
-old-project: vss
+old-project: VSS
 ms.assetid: a8ba1463-4da7-4539-8ade-b57ecda0a645
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: IVssBackupComponents interface [VSS],InitializeForRestore method, IVssBackupComponents.InitializeForRestore, IVssBackupComponents::InitializeForRestore, InitializeForRestore, InitializeForRestore method [VSS], InitializeForRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_initializeforrestore, base.ivssbackupcomponents_initializeforrestore, vsbackup/IVssBackupComponents::InitializeForRestore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -140,8 +140,7 @@ The load operation of the specified XML document failed.
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

@@ -4,10 +4,10 @@ title: IOCTL_DISK_GET_DRIVE_GEOMETRY
 author: windows-sdk-content
 description: Retrieves information about the physical disk's geometry:\_type, number of cylinders, tracks per cylinder, sectors per track, and bytes per sector.
 old-location: fs\ioctl_disk_get_drive_geometry.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 574efc29-112b-42fe-ad1b-72543f20e831
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_GEOMETRY, IOCTL_DISK_GET_DRIVE_GEOMETRY control, IOCTL_DISK_GET_DRIVE_GEOMETRY control code [Files], _win32_ioctl_disk_get_drive_geometry, base.ioctl_disk_get_drive_geometry, fs.ioctl_disk_get_drive_geometry, winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,13 +61,9 @@ Retrieves information about the physical disk's geometry: type, number of cylind
 </tr>
 <tr>
 <td>
-<pre>
-BOOL DeviceIoControl(
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,              // handle to device
-  IOCTL_DISK_GET_DRIVE_GEOMETRY, // dwIoControlCode
-  NULL,                          // lpInBuffer
-  0,                             // nInBufferSize
-  (LPVOID) lpOutBuffer,          // output buffer
+  IOCTL_DISK_GET_DRIVE_GEOMETRY, // dwIoControlCodeNULL,                          // lpInBuffer0,                             // nInBufferSize(LPVOID) lpOutBuffer,          // output buffer
   (DWORD) nOutBufferSize,        // size of output buffer
   (LPDWORD) lpBytesReturned,     // number of bytes returned
   (LPOVERLAPPED) lpOverlapped    // OVERLAPPED structure

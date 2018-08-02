@@ -7,7 +7,7 @@ old-location: wic\iwicplanarbitmapsourcetransform_doessupporttransform.htm
 old-project: wic
 ms.assetid: CB601454-591B-4292-A8BF-EA9D1F060AB3
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: DoesSupportTransform, DoesSupportTransform method [Windows Imaging Component], DoesSupportTransform method [Windows Imaging Component],IWICPlanarBitmapSourceTransform interface, IWICPlanarBitmapSourceTransform interface [Windows Imaging Component],DoesSupportTransform method, IWICPlanarBitmapSourceTransform.DoesSupportTransform, IWICPlanarBitmapSourceTransform::DoesSupportTransform, wic.iwicplanarbitmapsourcetransform_doessupporttransform, wincodec/IWICPlanarBitmapSourceTransform::DoesSupportTransform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,6 @@ req.product: Windows Address Book 5.0
 
 
 Use this method to determine if a desired planar output is supported and allow the caller to choose an optimized code path if it is.   Otherwise, callers should fall back to <a href="https://msdn.microsoft.com/f9cc348f-d4f0-4e77-90d6-9ff563a1799c">IWICBitmapSourceTransform</a> or <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a> and retrieve interleaved pixels.
-
-
 
 The following transforms can be checked:<ul>
 <li>	Determine if the flip/rotate option specified via <a href="https://msdn.microsoft.com/e123bb4d-bc75-4f3f-98f1-bea9b008498b">WICBitmapTransformOptions</a> is supported.</li>

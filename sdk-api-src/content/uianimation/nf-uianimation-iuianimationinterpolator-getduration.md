@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationinterpolator_getduration.htm
 old-project: UIAnimation
 ms.assetid: c39acf72-7c03-4d8b-b4f2-776e4b32f781
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetDuration, GetDuration method [Windows Animation], GetDuration method [Windows Animation],IUIAnimationInterpolator interface, IUIAnimationInterpolator interface [Windows Animation],GetDuration method, IUIAnimationInterpolator.GetDuration, IUIAnimationInterpolator::GetDuration, uianimation.iuianimationinterpolator_getduration, uianimation/IUIAnimationInterpolator::GetDuration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,8 +89,7 @@ Windows Animation can call <a href="https://msdn.microsoft.com/a1c5451a-b8d0-4eb
 
 
 
-<a href="https://msdn.microsoft.com/8e1f2a9a-ab93-485a-83b2-baebb9ee4bcc">
-         IUIAnimationInterpolator</a>
+<a href="https://msdn.microsoft.com/8e1f2a9a-ab93-485a-83b2-baebb9ee4bcc">IUIAnimationInterpolator</a>
 
 
 

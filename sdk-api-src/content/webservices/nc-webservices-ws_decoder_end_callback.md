@@ -7,7 +7,7 @@ old-location: wsw\ws_decoder_end_callback.htm
 old-project: wsw
 ms.assetid: 7cf93467-84f6-4ffb-8329-bc1df119087a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_DECODER_END_CALLBACK, WS_DECODER_END_CALLBACK callback, WS_DECODER_END_CALLBACK callback function [Web Services for Windows], webservices/WS_DECODER_END_CALLBACK, wsw.ws_decoder_end_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,22 +62,19 @@ Decodes the end of a message.
 
 ### -param *encoderContext [in]
 
-
-                    The decoder instance returned by the <a href="https://msdn.microsoft.com/85311349-5c82-4545-8a2b-d8b9e629f04d">WS_CREATE_DECODER_CALLBACK</a>.
+The decoder instance returned by the <a href="https://msdn.microsoft.com/85311349-5c82-4545-8a2b-d8b9e629f04d">WS_CREATE_DECODER_CALLBACK</a>.
                 
 
 
 ### -param *asyncContext [in, optional]
 
-
-                    Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
+Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
                 
 
 
 ### -param *error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -97,7 +94,6 @@ Decodes the end of a message.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -109,7 +105,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -135,13 +130,11 @@ This function may return other errors not listed above.
 
 
 
-
-            The decoder can use the callback passed to <a href="https://msdn.microsoft.com/85311349-5c82-4545-8a2b-d8b9e629f04d">WS_CREATE_DECODER_CALLBACK</a> to
+The decoder can use the callback passed to <a href="https://msdn.microsoft.com/85311349-5c82-4545-8a2b-d8b9e629f04d">WS_CREATE_DECODER_CALLBACK</a> to
             read the encoded data of the message.
           
 
-
-            This callback is not invoked until <a href="https://msdn.microsoft.com/04ba9b13-8145-4956-85b2-2330c792665a">WS_DECODER_DECODE_CALLBACK</a> returns 0 bytes.
+This callback is not invoked until <a href="https://msdn.microsoft.com/04ba9b13-8145-4956-85b2-2330c792665a">WS_DECODER_DECODE_CALLBACK</a> returns 0 bytes.
           
 
 

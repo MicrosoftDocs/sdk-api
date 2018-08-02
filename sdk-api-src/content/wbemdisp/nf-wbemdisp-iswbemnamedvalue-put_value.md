@@ -7,7 +7,7 @@ old-location: wmi\swbemnamedvalue_value.htm
 old-project: WmiSdk
 ms.assetid: f9609bd2-893a-48c3-9faa-93cd033c4109
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemNamedValue interface [Windows Management Instrumentation],Value property, ISWbemNamedValue.get_Value, ISWbemNamedValue.put_Value, ISWbemNamedValue::put_Value, SWbemNamedValue object [Windows Management Instrumentation],Value property, SWbemNamedValue.Value, Value property [Windows Management Instrumentation], Value property [Windows Management Instrumentation],ISWbemNamedValue interface, Value property [Windows Management Instrumentation],SWbemNamedValue object, _hmm_swbemnamedvalue.value, put_Value, wmi.swbemnamedvalue_value
 ms.prod: windows
 ms.technology: windows-sdk

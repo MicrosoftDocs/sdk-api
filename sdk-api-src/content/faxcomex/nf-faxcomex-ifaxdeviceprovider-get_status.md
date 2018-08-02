@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-If the FSP did not load successfully, the property indicates the reason for the failure, and <a href="https://msdn.microsoft.com/bbb2f8f1-81dd-4f54-ac91-1101ad2803fb">IFaxDeviceProvider::get_InitErrorCode</a> holds the last error code value. For more information, see <a href="https://msdn.microsoft.com/library/ms690089(v=VS.85).aspx">FAX_PROVIDER_STATUS_ENUM</a>.
+If the FSP did not load successfully, the property indicates the reason for the failure, and <a href="https://msdn.microsoft.com/en-us/library/ms684578(v=VS.85).aspx">IFaxDeviceProvider::get_InitErrorCode</a> holds the last error code value. For more information, see <a href="https://msdn.microsoft.com/library/ms690089(v=VS.85).aspx">FAX_PROVIDER_STATUS_ENUM</a>.
 
 
 

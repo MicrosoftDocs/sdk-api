@@ -7,7 +7,7 @@ old-location: mstv\iscanningtunerex_gettunerscanningcapability.htm
 old-project: mstv
 ms.assetid: 7dc7aeec-2a9d-4dfb-9f67-36d8131cc130
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetTunerScanningCapability, GetTunerScanningCapability method [Microsoft TV Technologies], GetTunerScanningCapability method [Microsoft TV Technologies],IScanningTunerEx interface, IScanningTunerEx interface [Microsoft TV Technologies],GetTunerScanningCapability method, IScanningTunerEx.GetTunerScanningCapability, IScanningTunerEx::GetTunerScanningCapability, IScanningTunerExGetTunerScanningCapability, mstv.iscanningtunerex_gettunerscanningcapability, tuner/IScanningTunerEx::GetTunerScanningCapability
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,8 +98,7 @@ The following broadcast standard GUIDs are defined in Bdamedia.h.
 <table>
 <tr>
 <th><b>GUID</b></th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable_getfinalintegervalue.htm
 old-project: UIAnimation
 ms.assetid: 19d71abc-e3f8-48d4-9ceb-5920dcc9c007
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetFinalIntegerValue, GetFinalIntegerValue method [Windows Animation], GetFinalIntegerValue method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetFinalIntegerValue method, IUIAnimationVariable.GetFinalIntegerValue, IUIAnimationVariable::GetFinalIntegerValue, uianimation.iuianimationvariable_getfinalintegervalue, uianimation/IUIAnimationVariable::GetFinalIntegerValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Gets the final value of the animation variable as an integer.      
+Gets the final value of the animation variable as an integer.      
    This is the value after all currently scheduled animations have completed.
 
 
@@ -63,8 +62,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param finalValue [out]
 
-
-            The final value of the animation variable, converted to an <b>INT32</b> value.
+The final value of the animation variable, converted to an <b>INT32</b> value.
 
 
 ## -returns
@@ -115,8 +113,7 @@ The result can also be affected by the lower and upper bounds determined by <a h
 
 
 
-<a href="https://msdn.microsoft.com/577f83c1-aba7-4a51-82dc-68a103a31377">
-      IUIAnimationVariable::GetFinalValue</a>
+<a href="https://msdn.microsoft.com/577f83c1-aba7-4a51-82dc-68a103a31377">IUIAnimationVariable::GetFinalValue</a>
 
 
 
@@ -124,8 +121,7 @@ The result can also be affected by the lower and upper bounds determined by <a h
 
 
 
-<a href="https://msdn.microsoft.com/ccf4c575-aa98-40cd-b2de-cf8db95ec57d">
-      IUIAnimationVariable::GetPreviousIntegerValue</a>
+<a href="https://msdn.microsoft.com/ccf4c575-aa98-40cd-b2de-cf8db95ec57d">IUIAnimationVariable::GetPreviousIntegerValue</a>
 
 
 
@@ -133,8 +129,7 @@ The result can also be affected by the lower and upper bounds determined by <a h
 
 
 
-<a href="https://msdn.microsoft.com/e8c86195-14a1-4535-9fc2-4992c8090e79">
-      IUIAnimationVariable::SetRoundingMode</a>
+<a href="https://msdn.microsoft.com/e8c86195-14a1-4535-9fc2-4992c8090e79">IUIAnimationVariable::SetRoundingMode</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: wsw\ws_certificate_validation_callback.htm
 old-project: wsw
 ms.assetid: 368A6162-F194-4C5C-B5FE-89633435168F
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_CERTIFICATE_VALIDATION_CALLBACK, WS_CERTIFICATE_VALIDATION_CALLBACK callback, WS_CERTIFICATE_VALIDATION_CALLBACK callback function [Web Services for Windows], webservices/WS_CERTIFICATE_VALIDATION_CALLBACK, wsw.ws_certificate_validation_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,6 @@ This callback function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The certificate validated successfully.
 
 </td>

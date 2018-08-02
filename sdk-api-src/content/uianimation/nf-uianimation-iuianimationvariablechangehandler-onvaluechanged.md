@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariablechangehandler_onvaluechanged.htm
 old-project: UIAnimation
 ms.assetid: 1e865f55-d703-4d91-8690-b816b5fe1a89
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariableChangeHandler interface [Windows Animation],OnValueChanged method, IUIAnimationVariableChangeHandler.OnValueChanged, IUIAnimationVariableChangeHandler::OnValueChanged, OnValueChanged, OnValueChanged method [Windows Animation], OnValueChanged method [Windows Animation],IUIAnimationVariableChangeHandler interface, uianimation.iuianimationvariablechangehandler_onvaluechanged, uianimation/IUIAnimationVariableChangeHandler::OnValueChanged
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,12 +51,10 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Handles events that occur when the value of an animation variable changes.
+Handles events that occur when the value of an animation variable changes.
 
 This method receives updates as <b>DOUBLE</b> values.  
-         To receive updates as <b>INT32</b> values, use the <a href="https://msdn.microsoft.com/e12224a2-c8f3-45eb-a254-d624de16e12d">
-         IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged</a> method.
+         To receive updates as <b>INT32</b> values, use the <a href="https://msdn.microsoft.com/e12224a2-c8f3-45eb-a254-d624de16e12d">IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged</a> method.
 
 
 ## -parameters
@@ -66,26 +64,22 @@ This method receives updates as <b>DOUBLE</b> values.
 
 ### -param storyboard [in]
 
-
-            The storyboard that is animating the animation variable specified by the <i>variable</i> parameter.
+The storyboard that is animating the animation variable specified by the <i>variable</i> parameter.
 
 
 ### -param variable [in]
 
-
-            The animation variable that has been updated.
+The animation variable that has been updated.
 
 
 ### -param newValue [in]
 
-
-            The new value of the animation variable.
+The new value of the animation variable.
 
 
 ### -param previousValue [in]
 
-
-            The previous value of the animation variable.
+The previous value of the animation variable.
 
 
 ## -returns
@@ -157,13 +151,11 @@ By default, a call made in a callback method to any other animation method resul
 
 
 
-<a href="https://msdn.microsoft.com/405bc35e-8b38-40fb-acf4-107fa6dd161a">
-      IUIAnimationVariable::GetPreviousValue</a>
+<a href="https://msdn.microsoft.com/405bc35e-8b38-40fb-acf4-107fa6dd161a">IUIAnimationVariable::GetPreviousValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/51ae200a-a630-44fd-afd4-33d1b1dbf6d7">
-      IUIAnimationVariable::GetValue</a>
+<a href="https://msdn.microsoft.com/51ae200a-a630-44fd-afd4-33d1b1dbf6d7">IUIAnimationVariable::GetValue</a>
 
 
 
@@ -175,8 +167,7 @@ By default, a call made in a callback method to any other animation method resul
 
 
 
-<a href="https://msdn.microsoft.com/e12224a2-c8f3-45eb-a254-d624de16e12d">
-         IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged</a>
+<a href="https://msdn.microsoft.com/e12224a2-c8f3-45eb-a254-d624de16e12d">IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged</a>
  
 
  

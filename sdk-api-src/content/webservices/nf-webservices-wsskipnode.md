@@ -7,7 +7,7 @@ old-location: wsw\wsskipnode.htm
 old-project: wsw
 ms.assetid: 90eda6f1-dda2-4595-90f5-029768278f5b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsSkipNode, WsSkipNode function [Web Services for Windows], webservices/WsSkipNode, wsw.wsskipnode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Advances the reader in the input stream.  If the current node is an element, 
+Advances the reader in the input stream.  If the current node is an element, 
         all of the children of that element are skipped, and the reader is positioned 
         on the node following its end element.  Otherwise, the reader is positioned 
         on the next node in the same manner as <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a>.
@@ -66,15 +65,13 @@ req.product: Windows Address Book 5.0
 
 ### -param reader [in]
 
-
-          The reader which is to skip to the next node.
+The reader which is to skip to the next node.
         
 
 
 ### -param error [in, optional]
 
-
-          Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
         
 
 
@@ -96,7 +93,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -108,7 +104,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -123,12 +118,10 @@ A quota was exceeded.
 
 
 
-
-        If there is an error parsing the input, the function will return <b>WS_E_INVALID_FORMAT</b>.
+If there is an error parsing the input, the function will return <b>WS_E_INVALID_FORMAT</b>.
       (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
 
-
-        This function can fail for any of the reasons listed in <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a>.
+This function can fail for any of the reasons listed in <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a>.
       
 
 

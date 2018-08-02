@@ -7,7 +7,7 @@ old-location: edp\srpsettokenenterpriseid.htm
 old-project: EDP
 ms.assetid: A96E6977-5637-4E3E-A2AE-7892DC61FB08
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: EDP.srpsettokenenterpriseid, SrpSetTokenEnterpriseId, SrpSetTokenEnterpriseId function, srpapi/SrpSetTokenEnterpriseId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,6 @@ targetos: Windows
 req.lib: Srpapi.lib
 req.dll: Srpapi.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # SrpSetTokenEnterpriseId function

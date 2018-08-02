@@ -7,7 +7,7 @@ old-location: dlgbox\createdialog.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\createdialog.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/29/2018
 ms.keywords: CreateDialog, CreateDialog function [Dialog Boxes], CreateDialogA, CreateDialogW, _win32_CreateDialog, _win32_createdialog_cpp, dlgbox.createdialog, winui._win32_createdialog, winuser/CreateDialog, winuser/CreateDialogA, winuser/CreateDialogW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Creates a modeless dialog box from a dialog box template resource. The <b>CreateDialog</b> macro uses the <a href="https://msdn.microsoft.com/library/ms645445(v=VS.85).aspx">CreateDialogParam</a> function.
+Creates a modeless dialog box from a dialog box template resource. The <b>CreateDialog</b> macro uses the <a href="https://msdn.microsoft.com/en-us/library/ms645445(v=VS.85).aspx">CreateDialogParam</a> function.
 
 
 ## -parameters
@@ -84,30 +84,28 @@ A handle to the window that owns the dialog box.
 
 Type: <b>DLGPROC</b>
 
-A pointer to the dialog box procedure. For more information about the dialog box procedure, see <a href="https://msdn.microsoft.com/library/ms645469(v=VS.85).aspx">DialogProc</a>. 
+A pointer to the dialog box procedure. For more information about the dialog box procedure, see <a href="https://msdn.microsoft.com/en-us/library/ms645469(v=VS.85).aspx">DialogProc</a>. 
 
 
 #### - lpTemplate [in]
 
 Type: <b>LPCTSTR</b>
 
-The dialog box template. This parameter is either the pointer to a null-terminated character string that specifies the name of the dialog box template or an integer value that specifies the resource identifier of the dialog box template. If the parameter specifies a resource identifier, its high-order word must be zero and its low-order word must contain the identifier. You can use the <a href="https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro to create this value. 
+The dialog box template. This parameter is either the pointer to a null-terminated character string that specifies the name of the dialog box template or an integer value that specifies the resource identifier of the dialog box template. If the parameter specifies a resource identifier, its high-order word must be zero and its low-order word must contain the identifier. You can use the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro to create this value. 
 
 
 ## -remarks
 
 
 
-The <b>CreateDialog</b> function uses the <a href="https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function to create the dialog box. <b>CreateDialog</b> then sends a <a href="https://msdn.microsoft.com/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a> message (and a <a href="https://msdn.microsoft.com/library/ms632642(v=VS.85).aspx">WM_SETFONT</a> message if the template specifies the <a href="https://msdn.microsoft.com/library/ms644994(v=VS.85).aspx">DS_SETFONT</a> or <b>DS_SHELLFONT</b> style) to the dialog box procedure. The function displays the dialog box if the template specifies the <b>WS_VISIBLE</b> style. Finally, <b>CreateDialog</b> returns the window handle to the dialog box. 
+The <b>CreateDialog</b> function uses the <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function to create the dialog box. <b>CreateDialog</b> then sends a <a href="https://msdn.microsoft.com/en-us/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a> message (and a <a href="https://msdn.microsoft.com/en-us/library/ms632642(v=VS.85).aspx">WM_SETFONT</a> message if the template specifies the <a href="https://msdn.microsoft.com/en-us/library/ms644994(v=VS.85).aspx">DS_SETFONT</a> or <b>DS_SHELLFONT</b> style) to the dialog box procedure. The function displays the dialog box if the template specifies the <b>WS_VISIBLE</b> style. Finally, <b>CreateDialog</b> returns the window handle to the dialog box. 
 
-After <b>CreateDialog</b> returns, the application displays the dialog box (if it is not already displayed) by using the <a href="https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx">ShowWindow</a> function. The application destroys the dialog box by using the <a href="https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx">DestroyWindow</a> function. To support keyboard navigation and other dialog box functionality, the message loop for the dialog box must call the <a href="https://msdn.microsoft.com/library/ms645498(v=VS.85).aspx">IsDialogMessage</a> function.
+After <b>CreateDialog</b> returns, the application displays the dialog box (if it is not already displayed) by using the <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> function. The application destroys the dialog box by using the <a href="https://msdn.microsoft.com/en-us/library/ms632682(v=VS.85).aspx">DestroyWindow</a> function. To support keyboard navigation and other dialog box functionality, the message loop for the dialog box must call the <a href="https://msdn.microsoft.com/en-us/library/ms645498(v=VS.85).aspx">IsDialogMessage</a> function.
 
 
 #### Examples
 
-
-			
-			For an example, see <a href="https://msdn.microsoft.com/library/ms644996(v=VS.85).aspx">Creating a Modeless Dialog Box</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v=VS.85).aspx">Creating a Modeless Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -122,39 +120,39 @@ After <b>CreateDialog</b> returns, the application displays the dialog box (if i
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645436(v=VS.85).aspx">CreateDialogIndirect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645436(v=VS.85).aspx">CreateDialogIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645441(v=VS.85).aspx">CreateDialogIndirectParam</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645441(v=VS.85).aspx">CreateDialogIndirectParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645445(v=VS.85).aspx">CreateDialogParam</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645445(v=VS.85).aspx">CreateDialogParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx">DestroyWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632682(v=VS.85).aspx">DestroyWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645452(v=VS.85).aspx">DialogBox</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645452(v=VS.85).aspx">DialogBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645469(v=VS.85).aspx">DialogProc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645469(v=VS.85).aspx">DialogProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645498(v=VS.85).aspx">IsDialogMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645498(v=VS.85).aspx">IsDialogMessage</a>
 
 
 
@@ -162,15 +160,15 @@ After <b>CreateDialog</b> returns, the application displays the dialog box (if i
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx">ShowWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632642(v=VS.85).aspx">WM_SETFONT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632642(v=VS.85).aspx">WM_SETFONT</a>
  
 
  

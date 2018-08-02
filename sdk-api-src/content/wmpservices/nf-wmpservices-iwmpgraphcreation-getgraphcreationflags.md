@@ -7,7 +7,7 @@ old-location: wmp\iwmpgraphcreation_getgraphcreationflags.htm
 old-project: WMP
 ms.assetid: 26cac321-f32a-4569-87a8-f397173f058b
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: GetGraphCreationFlags, GetGraphCreationFlags method [Windows Media Player], GetGraphCreationFlags method [Windows Media Player],IWMPGraphCreation interface, IWMPGraphCreation interface [Windows Media Player],GetGraphCreationFlags method, IWMPGraphCreation.GetGraphCreationFlags, IWMPGraphCreation::GetGraphCreationFlags, IWMPGraphCreationGetGraphCreationFlags, wmp.iwmpgraphcreation_getgraphcreationflags, wmpservices/IWMPGraphCreation::GetGraphCreationFlags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,11 +78,9 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -120,8 +118,7 @@ The following table describes the graph creation flags.
 <tr>
 <td>WMPGC_FLAGS_IGNORE_AV_SYNC</td>
 <td>0x4</td>
-<td>
-					Windows Media Player will not require audio and video to be synchronized when playing Windows Media-based content (.asf, .wma, or .wmv). Windows Media Player will attempt to play every frame of video. This occurs even when video data is arriving more slowly than audio data. 
+<td>Windows Media Player will not require audio and video to be synchronized when playing Windows Media-based content (.asf, .wma, or .wmv). Windows Media Player will attempt to play every frame of video. This occurs even when video data is arriving more slowly than audio data. 
 					<div class="alert"><b>Note</b>  This flag is supported only in Windows Media Player 10 or 11 running on Microsoft Windows XP.</div>
 <div> </div>
 </td>

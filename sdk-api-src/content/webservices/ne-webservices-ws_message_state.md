@@ -7,7 +7,7 @@ old-location: wsw\ws_message_state.htm
 old-project: wsw
 ms.assetid: 2c5ddedd-b0b4-4c26-a5c0-a5851f0408de
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_MESSAGE_STATE, WS_MESSAGE_STATE enumeration [Web Services for Windows], WS_MESSAGE_STATE_DONE, WS_MESSAGE_STATE_EMPTY, WS_MESSAGE_STATE_INITIALIZED, WS_MESSAGE_STATE_READING, WS_MESSAGE_STATE_WRITING, webservices/WS_MESSAGE_STATE, webservices/WS_MESSAGE_STATE_DONE, webservices/WS_MESSAGE_STATE_EMPTY, webservices/WS_MESSAGE_STATE_INITIALIZED, webservices/WS_MESSAGE_STATE_READING, webservices/WS_MESSAGE_STATE_WRITING, wsw.ws_message_state
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                The different states that a message can be in.
+The different states that a message can be in.
             
 
 
@@ -71,8 +70,7 @@ The initial state after a message has been created.
 
 ### -field WS_MESSAGE_STATE_INITIALIZED
 
-
-                    The message headers have been initialized, and
+The message headers have been initialized, and
                     can be accessed, but the body cannot be accessed.  This state
                     is used to build up all the headers prior to writing/sending them.
                 
@@ -109,23 +107,19 @@ The message body has been read or written (the end of the
 
 
 
-
-                A message object transitions through a set of states as it
+A message object transitions through a set of states as it
                 is being received or sent (or read or written).
             
 
-
-                The following are the state transitions while writing or sending:
+The following are the state transitions while writing or sending:
             
 
 <img alt="" src="./images/MessageSendStates.png"/>
-
-                The following are the state transitions while reading or receiving:
+The following are the state transitions while reading or receiving:
             
 
 <img alt="" src="./images/MessageReceiveStates.png"/>
-
-                Note that in the above diagrams, only valid transitions are
+Note that in the above diagrams, only valid transitions are
                 shown.
             
 

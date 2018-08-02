@@ -7,7 +7,7 @@ old-location: gdi\floodfill.htm
 old-project: gdi
 ms.assetid: e53bebb5-4e46-4ea4-8d41-c12f4c6645ef
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: FloodFill, FloodFill function [Windows GDI], _win32_FloodFill, gdi.floodfill, wingdi/FloodFill
 ms.prod: windows
 ms.technology: windows-sdk
@@ -136,20 +136,17 @@ The following are reasons this function might fail:
 
 
 
-<a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">
-        COLORREF
+<a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b996d47d-5aaf-4b13-8643-209744e5a04b">
-        ExtFloodFill
+<a href="https://msdn.microsoft.com/b996d47d-5aaf-4b13-8643-209744e5a04b">ExtFloodFill
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">
-        RGB
+<a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB
       </a>
  
 

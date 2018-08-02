@@ -4,10 +4,10 @@ title: ITextFont::SetLanguageID
 author: windows-sdk-content
 description: Sets the language ID or language code identifier (LCID).
 old-location: controls\ITextFont_SetLanguageID.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlanguageid.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextFont interface [Windows Controls],SetLanguageID method, ITextFont.SetLanguageID, ITextFont::SetLanguageID, SetLanguageID, SetLanguageID method [Windows Controls], SetLanguageID method [Windows Controls],ITextFont interface, _win32_ITextFont_SetLanguageID, _win32_ITextFont_SetLanguageID_cpp, controls.ITextFont_SetLanguageID, controls._win32_ITextFont_SetLanguageID, tom/ITextFont::SetLanguageID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,12 +133,12 @@ Insufficient memory.
 
 
 
-If the high nibble of  <i>Value</i> is <a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomCharset</a>, set the <i>charrep</i> from the <i>charset</i> in the low byte and the pitch and family from the next byte. See also <a href="https://msdn.microsoft.com/6c57b5e5-a5c7-416a-851c-fc8ef16b5a9a">ITextFont2::SetCharRep</a>. 
+If the high nibble of  <i>Value</i> is <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomCharset</a>, set the <i>charrep</i> from the <i>charset</i> in the low byte and the pitch and family from the next byte. See also <a href="https://msdn.microsoft.com/6c57b5e5-a5c7-416a-851c-fc8ef16b5a9a">ITextFont2::SetCharRep</a>. 
 
-If the high nibble of <i>Value</i> is <a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomCharRepFromLcid</a>, set the <i>charrep</i> from the LCID and set the LCID as well. See <a href="https://msdn.microsoft.com/library/Bb773975(v=VS.85).aspx">ITextFont::GetLanguageID</a> for more information. 
+If the high nibble of <i>Value</i> is <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomCharRepFromLcid</a>, set the <i>charrep</i> from the LCID and set the LCID as well. See <a href="https://msdn.microsoft.com/en-us/library/Bb773975(v=VS.85).aspx">ITextFont::GetLanguageID</a> for more information. 
 
 
-To set the BCP-47 language tag, such as "en-US", call <a href="https://msdn.microsoft.com/dd7a8a16-6cb5-40ee-8f5f-e51e68785d93">ITextRange2::SetText2</a> and set the <a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomLanguageTag</a> and <i>bstr</i> with the language tag.
+To set the BCP-47 language tag, such as "en-US", call <a href="https://msdn.microsoft.com/dd7a8a16-6cb5-40ee-8f5f-e51e68785d93">ITextRange2::SetText2</a> and set the <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomLanguageTag</a> and <i>bstr</i> with the language tag.
 
 
 
@@ -152,11 +152,11 @@ To set the BCP-47 language tag, such as "en-US", call <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773975(v=VS.85).aspx">GetLanguageID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773975(v=VS.85).aspx">GetLanguageID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
 
 
 
@@ -164,7 +164,7 @@ To set the BCP-47 language tag, such as "en-US", call <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

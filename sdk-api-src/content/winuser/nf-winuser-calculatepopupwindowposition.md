@@ -7,7 +7,7 @@ old-location: winmsg\calculatepopupwindowposition.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\calculatepopupwindowposition.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: CalculatePopupWindowPosition, CalculatePopupWindowPosition function [Windows and Messages], TPM_BOTTOMALIGN, TPM_CENTERALIGN, TPM_HORIZONTAL, TPM_LEFTALIGN, TPM_RIGHTALIGN, TPM_TOPALIGN, TPM_VCENTERALIGN, TPM_VERTICAL, TPM_WORKAREA, _win32_CalculatePopupWindowPosition, _win32_calculatepopupwindowposition_cpp, winmsg.calculatepopupwindowposition, winui._win32_calculatepopupwindowposition, winuser/CalculatePopupWindowPosition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ The specified window size.
 
 Type: <b>UINT</b>
 
-Use one of the following flags to specify how the function positions the pop-up window horizontally and vertically. The flags are the same as the vertical and horizontal positioning flags of the <a href="https://msdn.microsoft.com/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a> function.
+Use one of the following flags to specify how the function positions the pop-up window horizontally and vertically. The flags are the same as the vertical and horizontal positioning flags of the <a href="https://msdn.microsoft.com/en-us/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a> function.
 
 
 Use one of the following flags to specify how the function positions the pop-up window horizontally. 
@@ -97,8 +97,7 @@ Use one of the following flags to specify how the function positions the pop-up 
 </dl>
 </td>
 <td width="60%">
-
-						Centers pop-up window horizontally relative to the coordinate specified by the anchorPoint-&gt;x parameter. 
+Centers pop-up window horizontally relative to the coordinate specified by the anchorPoint-&gt;x parameter. 
 						
 
 </td>
@@ -124,8 +123,7 @@ Positions the pop-up window so
 </dl>
 </td>
 <td width="60%">
-
-						Positions the pop-up window so that its right edge is aligned with the coordinate specified by the anchorPoint-&gt;x parameter.
+Positions the pop-up window so that its right edge is aligned with the coordinate specified by the anchorPoint-&gt;x parameter.
 						
 
 </td>
@@ -134,8 +132,7 @@ Positions the pop-up window so
  
 
 
-
-					Uses one of the following flags to specify how the function positions the pop-up window vertically. 
+Uses one of the following flags to specify how the function positions the pop-up window vertically. 
 					
 
 
@@ -152,8 +149,7 @@ Positions the pop-up window so
 </dl>
 </td>
 <td width="60%">
-
-					Positions the pop-up window so 
+Positions the pop-up window so 
 					that its bottom edge is aligned with the coordinate specified by 
 					the anchorPoint-&gt;y parameter. 
 						
@@ -167,8 +163,7 @@ Positions the pop-up window so
 </dl>
 </td>
 <td width="60%">
-
-						Positions the pop-up window so 
+Positions the pop-up window so 
 						that its top edge is aligned with the coordinate specified by 
 						the anchorPoint-&gt;y parameter. 
 						
@@ -182,8 +177,7 @@ Positions the pop-up window so
 </dl>
 </td>
 <td width="60%">
-
-						Centers the pop-up window vertically relative to the coordinate specified by the anchorPoint-&gt;y 
+Centers the pop-up window vertically relative to the coordinate specified by the anchorPoint-&gt;y 
 						parameter.
 						
 
@@ -193,8 +187,7 @@ Positions the pop-up window so
  
 
 
-
-					Use one of the following flags to specify whether to accommodate horizontal or vertical alignment. 
+Use one of the following flags to specify whether to accommodate horizontal or vertical alignment. 
 					
 
 
@@ -211,8 +204,7 @@ Positions the pop-up window so
 </dl>
 </td>
 <td width="60%">
-
-					If the pop-up window cannot be shown at the specified location without overlapping 
+If the pop-up window cannot be shown at the specified location without overlapping 
 					the excluded rectangle, the system tries to accommodate the requested 
 					horizontal alignment before the requested vertical alignment. 
 						
@@ -226,8 +218,7 @@ Positions the pop-up window so
 </dl>
 </td>
 <td width="60%">
-
-					If the pop-up window cannot be shown at the specified location without overlapping 
+If the pop-up window cannot be shown at the specified location without overlapping 
 					the excluded rectangle, the system tries to accommodate the requested vertical 
 					alignment before the requested horizontal alignment.
 						
@@ -238,8 +229,7 @@ Positions the pop-up window so
  
 
 
-
-					The following flag
+The following flag
 					is available starting with Windows 7.
 					
 
@@ -257,8 +247,7 @@ Positions the pop-up window so
 </dl>
 </td>
 <td width="60%">
-
-						Restricts the pop-up window 
+Restricts the pop-up window 
 						to within the work area. If this flag is not set, 
 						the pop-up window is restricted to the work area only if the 
 						input point is within the work area. 
@@ -284,8 +273,7 @@ A pointer to a structure that specifies the exclude rectangle.
 
 Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>*</b>
 
-
-				A pointer to a structure that specifies the pop-up window position.
+A pointer to a structure that specifies the pop-up window position.
 				
 
 
@@ -306,7 +294,7 @@ If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE
 
 
 
-<b>TPM_WORKAREA</b> is supported for the <a href="https://msdn.microsoft.com/library/ms648002(v=VS.85).aspx">TrackPopupMenu</a> and <a href="https://msdn.microsoft.com/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a> functions.
+<b>TPM_WORKAREA</b> is supported for the <a href="https://msdn.microsoft.com/en-us/library/ms648002(v=VS.85).aspx">TrackPopupMenu</a> and <a href="https://msdn.microsoft.com/en-us/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a> functions.
 		 
 
 
@@ -322,11 +310,11 @@ If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648002(v=VS.85).aspx">TrackPopupMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648002(v=VS.85).aspx">TrackPopupMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a>
  
 
  

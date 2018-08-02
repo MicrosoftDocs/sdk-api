@@ -4,10 +4,10 @@ title: ITBasicCallControl::ParkDirect
 author: windows-sdk-content
 description: The ParkDirect method parks the call at a specified address.
 old-location: tapi3\itbasiccallcontrol_parkdirect.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 6461fd21-1726-4d24-8a17-d687b807b8e3
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],ParkDirect method, ITBasicCallControl.ParkDirect, ITBasicCallControl::ParkDirect, ParkDirect, ParkDirect method [TAPI 2.2], ParkDirect method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_parkdirect, tapi3.itbasiccallcontrol_parkdirect, tapi3if/ITBasicCallControl::ParkDirect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -166,8 +166,8 @@ The parked call enters the disconnected state after it has been successfully par
 Some switches can remind the user after a call has been parked for some long amount of time. The application sees an offering call with a call reason set to reminder.
 
 The application must use 
-<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pParkAddress</i> parameter and use 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pParkAddress</i> parameter and use 
+<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 
 

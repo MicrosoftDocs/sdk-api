@@ -7,8 +7,8 @@ old-location: mf\iwmcodecstringsgetname.htm
 old-project: medfound
 ms.assetid: 12422e46-dfde-4a0f-8988-567a42f5a212
 ms.author: windowssdkdev
-ms.date: 07/18/2018
-ms.keywords: GetName, GetName method [Media Foundation], GetName method [Media Foundation],IWMCodecStrings interface, IWMCodecStrings interface [Media Foundation],GetName method, IWMCodecStrings.GetName, IWMCodecStrings::GetName, codecapi.iwmcodecstringsgetname, mf.iwmcodecstringsgetname, wmcodecdsp/ IWMCodecStrings::GetName
+ms.date: 07/29/2018
+ms.keywords: GetName, GetName method [Media Foundation], GetName method [Media Foundation],IWMCodecStrings interface, IWMCodecStrings interface [Media Foundation],GetName method, IWMCodecStrings.GetName, IWMCodecStrings::GetName, codecapi.iwmcodecstringsgetname, mf.iwmcodecstringsgetname, wmcodecdsp/IWMCodecStrings::GetName
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -49,7 +49,6 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 ## -description
-
 
 
 Retrieves the name of a codec.

@@ -4,10 +4,10 @@ title: IVssComponent::GetRestoreMetadata
 author: windows-sdk-content
 description: The GetRestoreMetadata method retrieves private, writer-specific restore metadata that might have been set during a PreRestore event by CVssWriter::OnPreRestore using IVssComponent::SetRestoreMetadata.
 old-location: base\ivsscomponent_getrestoremetadata.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 1b53c523-a105-4507-89f3-1f746aa86204
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetRestoreMetadata, GetRestoreMetadata method [VSS], GetRestoreMetadata method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetRestoreMetadata method, IVssComponent.GetRestoreMetadata, IVssComponent::GetRestoreMetadata, _win32_ivsscomponent_getrestoremetadata, base.ivsscomponent_getrestoremetadata, vswriter/IVssComponent::GetRestoreMetadata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-
-    The <b>GetRestoreMetadata</b> method retrieves
+The <b>GetRestoreMetadata</b> method retrieves
     private, writer-specific restore metadata that might have been set during a 
     <a href="https://msdn.microsoft.com/7a4c8869-9655-49a7-818b-98a08103f4b4">PreRestore</a> event by 
     <a href="https://msdn.microsoft.com/5f4a6168-4102-4790-81d6-d195a440471f">CVssWriter::OnPreRestore</a> using 
@@ -135,8 +134,7 @@ The caller is out of memory or other system resources.
 </dl>
 </td>
 <td width="60%">
-
-        The XML document is not valid. Check the event log for details. For more
+The XML document is not valid. Check the event log for details. For more
         information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
        
@@ -155,18 +153,15 @@ The caller is out of memory or other system resources.
 
 This method can be called at any time depending on the logic of a given writer.
 
-
-    The caller should free the memory held by the <i>pbstrRestoreMetadata</i> parameter by calling 
-    <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller should free the memory held by the <i>pbstrRestoreMetadata</i> parameter by calling 
+    <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
    
 
-
-    If no backup metadata has been set, 
+If no backup metadata has been set, 
     <a href="https://msdn.microsoft.com/638b8909-0aef-4066-ade7-4ee6d96b309e">GetBackupMetadata</a> returns S_FALSE.
    
 
-
-    A writer setting the restore method to VSS_RME_RESTORE_TO_ALTERNATE_LOCATION without defining an alternate
+A writer setting the restore method to VSS_RME_RESTORE_TO_ALTERNATE_LOCATION without defining an alternate
     location mapping constitutes a writer error.
    
 

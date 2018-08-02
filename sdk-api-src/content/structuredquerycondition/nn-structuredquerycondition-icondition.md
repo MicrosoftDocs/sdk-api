@@ -7,7 +7,7 @@ old-location: search\_search_ICondition.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\icondition.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: ICondition, ICondition interface [search], ICondition interface [search],described, _search_ICondition, search._search_ICondition, structuredquerycondition/ICondition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,13 +51,13 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Provides methods for retrieving information about a search condition. An <b>ICondition</b> object represents the result of parsing an input string (using methods such as <a href="https://msdn.microsoft.com/library/Bb231354(v=VS.85).aspx">IQueryParser::Parse</a> or <a href="https://msdn.microsoft.com/library/Bb231345(v=VS.85).aspx">IQuerySolution::GetQuery</a>) into a tree of search condition nodes. A node can be a logical AND, OR, or NOT for comparing subnodes, or it can be a leaf node comparing a property and a constant value.
+Provides methods for retrieving information about a search condition. An <b>ICondition</b> object represents the result of parsing an input string (using methods such as <a href="https://msdn.microsoft.com/en-us/library/Bb231354(v=VS.85).aspx">IQueryParser::Parse</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb231345(v=VS.85).aspx">IQuerySolution::GetQuery</a>) into a tree of search condition nodes. A node can be a logical AND, OR, or NOT for comparing subnodes, or it can be a leaf node comparing a property and a constant value.
         
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICondition</b> interface inherits from <a href="https://msdn.microsoft.com/library/ms690091(v=VS.85).aspx">IPersistStream</a>. <b>ICondition</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICondition</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms690091(v=VS.85).aspx">IPersistStream</a>. <b>ICondition</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,71 +75,65 @@ The <b>ICondition</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
 </td>
 <td align="left" width="63%">
-
-      Creates a deep copy of this <b>ICondition</b> object.
+Creates a deep copy of this <b>ICondition</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231389(v=VS.85).aspx">GetComparisonInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231389(v=VS.85).aspx">GetComparisonInfo</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the property name, operation, and value from a leaf search condition node.
+Retrieves the property name, operation, and value from a leaf search condition node.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231390(v=VS.85).aspx">GetConditionType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231390(v=VS.85).aspx">GetConditionType</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the condition type for this search condition node, identifying it as a logical AND, OR, or NOT, or as a leaf node. 
+Retrieves the condition type for this search condition node, identifying it as a logical AND, OR, or NOT, or as a leaf node. 
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231391(v=VS.85).aspx">GetInputTerms</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231391(v=VS.85).aspx">GetInputTerms</a>
 </td>
 <td align="left" width="63%">
-For a leaf node, <a href="https://msdn.microsoft.com/library/Bb231391(v=VS.85).aspx">ICondition::GetInputTerms</a> retrieves information about what parts (or ranges) of the input string produced the property, the operation, and the value for the search condition node.
+For a leaf node, <a href="https://msdn.microsoft.com/en-us/library/Bb231391(v=VS.85).aspx">ICondition::GetInputTerms</a> retrieves information about what parts (or ranges) of the input string produced the property, the operation, and the value for the search condition node.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231392(v=VS.85).aspx">GetSubConditions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231392(v=VS.85).aspx">GetSubConditions</a>
 </td>
 <td align="left" width="63%">
-
-            Retrieves a collection of the subconditions of the search condition node and the IID of the interface for enumerating the collection.
+Retrieves a collection of the subconditions of the search condition node and the IID of the interface for enumerating the collection.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231393(v=VS.85).aspx">GetValueNormalization</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231393(v=VS.85).aspx">GetValueNormalization</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the character-normalized value of the search condition node.
+Retrieves the character-normalized value of the search condition node.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231394(v=VS.85).aspx">GetValueType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231394(v=VS.85).aspx">GetValueType</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the semantic type of the value of the search condition node.
+Retrieves the semantic type of the value of the search condition node.
         
 
 </td>
@@ -163,19 +157,19 @@ The StructuredQuerySample code sample, available on <a href="http://go.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965692(v=VS.85).aspx">CONDITION_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965692(v=VS.85).aspx">CONDITION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd742811(v=VS.85).aspx">ICondition2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742811(v=VS.85).aspx">ICondition2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690091(v=VS.85).aspx">IPersistStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690091(v=VS.85).aspx">IPersistStream</a>
 
 
 

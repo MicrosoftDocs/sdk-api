@@ -7,7 +7,7 @@ old-location: gdi\getmonitorinfo.htm
 old-project: gdi
 ms.assetid: 025a89c2-4bbd-4c8b-8367-3735fb5b872a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetMonitorInfo, GetMonitorInfo function [Windows GDI], GetMonitorInfoA, GetMonitorInfoW, _win32_GetMonitorInfo, gdi.getmonitorinfo, winuser/GetMonitorInfo, winuser/GetMonitorInfoA, winuser/GetMonitorInfoW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\wsreseterror.htm
 old-project: wsw
 ms.assetid: a01a65f1-3eca-452c-a10d-dc9c6c3db124
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsResetError, WsResetError function [Web Services for Windows], webservices/WsResetError, wsw.wsreseterror
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -103,8 +102,7 @@ One or more arguments are invalid.
 
 
 
-
-                String data added to the error object using the <a href="https://msdn.microsoft.com/5fdad296-5024-4360-b1c5-f0192929c612">WsAddErrorString</a> function are released.
+String data added to the error object using the <a href="https://msdn.microsoft.com/5fdad296-5024-4360-b1c5-f0192929c612">WsAddErrorString</a> function are released.
             
 
 Properties that have been set using the  <a href="https://msdn.microsoft.com/5193eaf4-29f7-4e97-a3b0-97441b26399c">WsSetErrorProperty</a> function are released.

@@ -7,7 +7,7 @@ old-location: wsw\wsendreadercanonicalization.htm
 old-project: wsw
 ms.assetid: 5cacad47-8581-4713-96cb-3b3a863e6327
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsEndReaderCanonicalization, WsEndReaderCanonicalization function [Web Services for Windows], webservices/WsEndReaderCanonicalization, wsw.wsendreadercanonicalization
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        This function stops XML canonicalization started by a preceding <a href="https://msdn.microsoft.com/5dad9485-db3c-4ae0-b053-e1e4f32ad64d">WsStartReaderCanonicalization</a> function call.
+This function stops XML canonicalization started by a preceding <a href="https://msdn.microsoft.com/5dad9485-db3c-4ae0-b053-e1e4f32ad64d">WsStartReaderCanonicalization</a> function call.
       
         Any remaining canonical bytes buffered by the reader will be written to the callback function.
 
@@ -91,7 +90,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -103,7 +101,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>
@@ -122,9 +119,7 @@ The operation is not allowed due to the current state of the object.
         which <a href="https://msdn.microsoft.com/5dad9485-db3c-4ae0-b053-e1e4f32ad64d">WsStartReaderCanonicalization</a> was called.
       
 
-
-        It is not necessary to call <b>WsEndReaderCanonicalization</b>
-        in order to call <a href="https://msdn.microsoft.com/31163bea-266f-43a3-bdf5-61386ebc197c">WsFreeReader</a>.
+It is not necessary to call <b>WsEndReaderCanonicalization</b>in order to call <a href="https://msdn.microsoft.com/31163bea-266f-43a3-bdf5-61386ebc197c">WsFreeReader</a>.
       
 
 

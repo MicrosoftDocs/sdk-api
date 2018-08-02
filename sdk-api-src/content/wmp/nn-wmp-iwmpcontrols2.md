@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols2.htm
 old-project: WMP
 ms.assetid: aadbd924-b583-4136-8d6c-e3c8c0b3872e
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPControls2, IWMPControls2 interface [Windows Media Player], IWMPControls2 interface [Windows Media Player],described, IWMPControls2Interface, wmp.iwmpcontrols2, wmp/IWMPControls2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,6 @@ Stops playback of the current DVD media item on the next or previous frame.
 </td>
 </tr>
 </table> 
-
 
 Retrieve a pointer to an <b>IWMPControls2</b> interface by calling the <b>QueryInterface</b> method of an <a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls</a> interface.
 	

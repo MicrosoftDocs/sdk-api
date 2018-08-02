@@ -7,7 +7,7 @@ old-location: dshow\iamextdevice_getcapability.htm
 old-project: DirectShow
 ms.assetid: 4efed2b8-a62c-4a82-bc2d-c6d3a202263c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetCapability, GetCapability method [DirectShow], GetCapability method [DirectShow],IAMExtDevice interface, IAMExtDevice interface [DirectShow],GetCapability method, IAMExtDevice.GetCapability, IAMExtDevice::GetCapability, IAMExtDeviceGetCapability, dshow.iamextdevice_getcapability, strmif/IAMExtDevice::GetCapability
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,11 +97,9 @@ For the following flags, the method returns the value OATRUE or OAFALSE in the <
 
 <table>
 <tr>
-<th>
-              Capability flag
+<th>Capability flag
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>
@@ -173,11 +171,9 @@ ED_DEVCAP_DEVICE_TYPE: Returns the device type.
 
 <table>
 <tr>
-<th>
-              Returned Constant
+<th>Returned Constant
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>
@@ -251,11 +247,9 @@ ED_DEVCAP_SYNC_ACCURACY: Returns an indication of the device's synchronization a
 
 <table>
 <tr>
-<th>
-              Returned Constant
+<th>Returned Constant
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>
@@ -277,11 +271,9 @@ ED_DEVCAP_NORMAL_RATE: Returns the device's normal frame rate.
 
 <table>
 <tr>
-<th>
-              Returned Constant
+<th>Returned Constant
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>
@@ -307,11 +299,9 @@ ED_DEVCAP_SEEK_TYPE: Returns an indication of the device's seeking accuracy.
 
 <table>
 <tr>
-<th>
-              Returned Constant
+<th>Returned Constant
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>
@@ -333,11 +323,9 @@ For the following flags, the method returns a numeric value in the <i>pValue</i>
 
 <table>
 <tr>
-<td>
-              Capability Flag
+<td>Capability Flag
             </td>
-<td>
-              Returned Value
+<td>Returned Value
             </td>
 </tr>
 <tr>

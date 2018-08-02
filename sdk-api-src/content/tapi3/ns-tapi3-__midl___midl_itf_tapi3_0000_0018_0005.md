@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_tapi3_0000_0018_0005"
 author: windows-sdk-content
 description: The MSP_EVENT_INFO structure defines the type of event returned by the GetEvent method.
 old-location: tapi3\msp_event_info.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 5286fbe6-3553-42f1-82e6-5bb6f75f3305
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: MSP_EVENT_INFO, MSP_EVENT_INFO structure [TAPI 2.2], __MIDL___MIDL_itf_tapi3_0000_0018_0005, _tapi3_msp_event_info, msp/MSP_EVENT_INFO, tapi3.msp_event_info
 ms.prod: windows
 ms.technology: windows-sdk
@@ -156,7 +156,7 @@ MSP event.
 
 ##### pEvent.pEvent
 
-Pointer to <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface of private object on which event has occurred.
+Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface of private object on which event has occurred.
 
 
 ### -field MSP_PRIVATE_EVENT_INFO.lEventCode
@@ -239,11 +239,6 @@ Pointer to <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">I
  
 
 
-
-
-###### - MSP_PRIVATE_EVENT_INFO.pEvent.pEvent
-
-Pointer to <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface of private object on which event has occurred.
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: gdi\unrealizeobject.htm
 old-project: gdi
 ms.assetid: b84cd0b3-fdf1-4f12-bc45-308032d6d698
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: UnrealizeObject, UnrealizeObject function [Windows GDI], _win32_UnrealizeObject, gdi.unrealizeobject, wingdi/UnrealizeObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,8 +92,7 @@ The <b>UnrealizeObject</b> function should not be used with stock objects. For e
 
 A palette identified by <i>hgdiobj</i> can be the currently selected palette of a device context.
 
-
-         If <i>hgdiobj</i> is a brush, <b>UnrealizeObject</b> does nothing, and the function returns <b>TRUE</b>. Use <a href="https://msdn.microsoft.com/dcc7575a-49fd-4306-8baa-57e9e0d5ed1f">SetBrushOrgEx</a> to set the origin of a brush.
+If <i>hgdiobj</i> is a brush, <b>UnrealizeObject</b> does nothing, and the function returns <b>TRUE</b>. Use <a href="https://msdn.microsoft.com/dcc7575a-49fd-4306-8baa-57e9e0d5ed1f">SetBrushOrgEx</a> to set the origin of a brush.
 
 
 

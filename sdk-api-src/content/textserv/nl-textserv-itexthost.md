@@ -4,10 +4,10 @@ title: ITextHost
 author: windows-sdk-content
 description: The ITextHost interface is used by a text services object to obtain text host services.
 old-location: controls\ITextHost.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextHost, ITextHost interface [Windows Controls], ITextHost interface [Windows Controls],described, _win32_ITextHost, _win32_ITextHost_cpp, controls.ITextHost, controls._win32_ITextHost, textserv/ITextHost
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>ITextHost</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787619(v=VS.85).aspx">OnTxCharFormatChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787619(v=VS.85).aspx">OnTxCharFormatChange</a>
 </td>
 <td align="left" width="63%">
 Sets the default character format for the text host.
@@ -80,7 +80,7 @@ Sets the default character format for the text host.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787625(v=VS.85).aspx">OnTxParaFormatChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787625(v=VS.85).aspx">OnTxParaFormatChange</a>
 </td>
 <td align="left" width="63%">
 Sets the default paragraph format for the text host.
@@ -89,7 +89,7 @@ Sets the default paragraph format for the text host.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787636(v=VS.85).aspx">TxActivate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787636(v=VS.85).aspx">TxActivate</a>
 </td>
 <td align="left" width="63%">
 Notifies the text host that the control is active.
@@ -98,7 +98,7 @@ Notifies the text host that the control is active.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787638(v=VS.85).aspx">TxClientToScreen</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787638(v=VS.85).aspx">TxClientToScreen</a>
 </td>
 <td align="left" width="63%">
 Converts text host coordinates to screen coordinates.
@@ -107,7 +107,7 @@ Converts text host coordinates to screen coordinates.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787640(v=VS.85).aspx">TxCreateCaret</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787640(v=VS.85).aspx">TxCreateCaret</a>
 </td>
 <td align="left" width="63%">
 Creates a new shape for text host's caret.
@@ -116,7 +116,7 @@ Creates a new shape for text host's caret.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787642(v=VS.85).aspx">TxDeactivate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787642(v=VS.85).aspx">TxDeactivate</a>
 </td>
 <td align="left" width="63%">
 Notifies the text host that the control is now inactive.
@@ -125,7 +125,7 @@ Notifies the text host that the control is now inactive.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787644(v=VS.85).aspx">TxEnableScrollBar</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787644(v=VS.85).aspx">TxEnableScrollBar</a>
 </td>
 <td align="left" width="63%">
 Enables or disables one or both scroll bar arrows in the text host window.
@@ -134,7 +134,7 @@ Enables or disables one or both scroll bar arrows in the text host window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787646(v=VS.85).aspx">TxGetAcceleratorPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787646(v=VS.85).aspx">TxGetAcceleratorPos</a>
 </td>
 <td align="left" width="63%">
 Requests the special character to use for the underlining accelerator character.
@@ -143,7 +143,7 @@ Requests the special character to use for the underlining accelerator character.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787648(v=VS.85).aspx">TxGetBackStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787648(v=VS.85).aspx">TxGetBackStyle</a>
 </td>
 <td align="left" width="63%">
 Requests the background style of the text host.
@@ -152,7 +152,7 @@ Requests the background style of the text host.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787654(v=VS.85).aspx">TxGetCharFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787654(v=VS.85).aspx">TxGetCharFormat</a>
 </td>
 <td align="left" width="63%">
 Requests the text host's default character format.
@@ -161,7 +161,7 @@ Requests the text host's default character format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787656(v=VS.85).aspx">TxGetClientRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787656(v=VS.85).aspx">TxGetClientRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves the client coordinates of the text host's client area.
@@ -170,7 +170,7 @@ Retrieves the client coordinates of the text host's client area.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787660(v=VS.85).aspx">TxGetDC</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787660(v=VS.85).aspx">TxGetDC</a>
 </td>
 <td align="left" width="63%">
 Requests the device context for the text host window.
@@ -179,7 +179,7 @@ Requests the device context for the text host window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787664(v=VS.85).aspx">TxGetExtent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787664(v=VS.85).aspx">TxGetExtent</a>
 </td>
 <td align="left" width="63%">
 Requests the native size of the control in <b>HIMETRIC</b>.
@@ -188,7 +188,7 @@ Requests the native size of the control in <b>HIMETRIC</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787669(v=VS.85).aspx">TxGetMaxLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787669(v=VS.85).aspx">TxGetMaxLength</a>
 </td>
 <td align="left" width="63%">
 Gets the text host's maximum allowed length for the text.
@@ -197,7 +197,7 @@ Gets the text host's maximum allowed length for the text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787674(v=VS.85).aspx">TxGetParaFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787674(v=VS.85).aspx">TxGetParaFormat</a>
 </td>
 <td align="left" width="63%">
 Requests the text host's default paragraph format.
@@ -206,7 +206,7 @@ Requests the text host's default paragraph format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787691(v=VS.85).aspx">TxGetPasswordChar</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787691(v=VS.85).aspx">TxGetPasswordChar</a>
 </td>
 <td align="left" width="63%">
 Requests the text host's password character.
@@ -215,7 +215,7 @@ Requests the text host's password character.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787692(v=VS.85).aspx">TxGetPropertyBits</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787692(v=VS.85).aspx">TxGetPropertyBits</a>
 </td>
 <td align="left" width="63%">
 Requests the bit property settings for the text host.
@@ -224,7 +224,7 @@ Requests the bit property settings for the text host.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787694(v=VS.85).aspx">TxGetScrollBars</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787694(v=VS.85).aspx">TxGetScrollBars</a>
 </td>
 <td align="left" width="63%">
 Requests information about the scroll bars supported by the text host.
@@ -233,7 +233,7 @@ Requests information about the scroll bars supported by the text host.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787696(v=VS.85).aspx">TxGetSelectionBarWidth</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787696(v=VS.85).aspx">TxGetSelectionBarWidth</a>
 </td>
 <td align="left" width="63%">
 Gets the size of selection bar in <b>HIMETRIC</b>.
@@ -242,7 +242,7 @@ Gets the size of selection bar in <b>HIMETRIC</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787698(v=VS.85).aspx">TxGetSysColor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787698(v=VS.85).aspx">TxGetSysColor</a>
 </td>
 <td align="left" width="63%">
 Gets the text host's color for a specified display element.
@@ -251,7 +251,7 @@ Gets the text host's color for a specified display element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787700(v=VS.85).aspx">TxGetViewInset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787700(v=VS.85).aspx">TxGetViewInset</a>
 </td>
 <td align="left" width="63%">
 Requests the dimensions of the white space inset around the text in the text host window.
@@ -260,11 +260,11 @@ Requests the dimensions of the white space inset around the text in the text hos
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787702(v=VS.85).aspx">TxImmGetContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787702(v=VS.85).aspx">TxImmGetContext</a>
 </td>
 <td align="left" width="63%">
 The 
-			<a href="https://msdn.microsoft.com/library/Bb787702(v=VS.85).aspx">TxImmGetContext</a> method retrieves the IME input context associated with the text services host. 
+			<a href="https://msdn.microsoft.com/en-us/library/Bb787702(v=VS.85).aspx">TxImmGetContext</a> method retrieves the IME input context associated with the text services host. 
 
 This method is used only in Asian-language versions of the operating system.
 
@@ -272,10 +272,10 @@ This method is used only in Asian-language versions of the operating system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787704(v=VS.85).aspx">TxImmReleaseContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787704(v=VS.85).aspx">TxImmReleaseContext</a>
 </td>
 <td align="left" width="63%">
-Releases an input context returned by the <a href="https://msdn.microsoft.com/library/Bb787702(v=VS.85).aspx">TxImmGetContext</a> method and unlocks the memory associated with the context. 
+Releases an input context returned by the <a href="https://msdn.microsoft.com/en-us/library/Bb787702(v=VS.85).aspx">TxImmGetContext</a> method and unlocks the memory associated with the context. 
 
 This method is used only in Asian-language versions of the operating system.
 
@@ -283,7 +283,7 @@ This method is used only in Asian-language versions of the operating system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787706(v=VS.85).aspx">TxInvalidateRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787706(v=VS.85).aspx">TxInvalidateRect</a>
 </td>
 <td align="left" width="63%">
 Specifies a rectangle for the text host to add to the update region of the text host window.
@@ -292,7 +292,7 @@ Specifies a rectangle for the text host to add to the update region of the text 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787708(v=VS.85).aspx">TxKillTimer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787708(v=VS.85).aspx">TxKillTimer</a>
 </td>
 <td align="left" width="63%">
 Requests the text host to destroy the specified timer.
@@ -301,7 +301,7 @@ Requests the text host to destroy the specified timer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787710(v=VS.85).aspx">TxNotify</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787710(v=VS.85).aspx">TxNotify</a>
 </td>
 <td align="left" width="63%">
 Notifies the text host of various events. 
@@ -310,16 +310,16 @@ Notifies the text host of various events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787712(v=VS.85).aspx">TxReleaseDC</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787712(v=VS.85).aspx">TxReleaseDC</a>
 </td>
 <td align="left" width="63%">
-Releases the device context obtained by the <a href="https://msdn.microsoft.com/library/Bb787660(v=VS.85).aspx">TxGetDC</a> method.
+Releases the device context obtained by the <a href="https://msdn.microsoft.com/en-us/library/Bb787660(v=VS.85).aspx">TxGetDC</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787714(v=VS.85).aspx">TxScreenToClient</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787714(v=VS.85).aspx">TxScreenToClient</a>
 </td>
 <td align="left" width="63%">
 Converts the screen coordinates to the text host window coordinates.
@@ -328,7 +328,7 @@ Converts the screen coordinates to the text host window coordinates.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787716(v=VS.85).aspx">TxScrollWindowEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787716(v=VS.85).aspx">TxScrollWindowEx</a>
 </td>
 <td align="left" width="63%">
 Requests the text host to scroll the content of the specified client area.
@@ -337,7 +337,7 @@ Requests the text host to scroll the content of the specified client area.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787718(v=VS.85).aspx">TxSetCapture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787718(v=VS.85).aspx">TxSetCapture</a>
 </td>
 <td align="left" width="63%">
 Sets the mouse capture in the text host's window.
@@ -346,7 +346,7 @@ Sets the mouse capture in the text host's window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787720(v=VS.85).aspx">TxSetCaretPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787720(v=VS.85).aspx">TxSetCaretPos</a>
 </td>
 <td align="left" width="63%">
 Moves the caret position to the specified coordinates in the text host window. 
@@ -355,7 +355,7 @@ Moves the caret position to the specified coordinates in the text host window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787681(v=VS.85).aspx">TxSetCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787681(v=VS.85).aspx">TxSetCursor</a>
 </td>
 <td align="left" width="63%">
 Establishes a new cursor shape (I-beam) in the text host's window.
@@ -364,7 +364,7 @@ Establishes a new cursor shape (I-beam) in the text host's window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787682(v=VS.85).aspx">TxSetFocus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787682(v=VS.85).aspx">TxSetFocus</a>
 </td>
 <td align="left" width="63%">
 Sets the focus to the text host window.
@@ -373,7 +373,7 @@ Sets the focus to the text host window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787683(v=VS.85).aspx">TxSetScrollPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787683(v=VS.85).aspx">TxSetScrollPos</a>
 </td>
 <td align="left" width="63%">
 Requests that the text host set the position of the scroll box (thumb) in the specified scroll bar and, if requested, redraws the scroll bar to reflect the new position of the scroll box.
@@ -382,7 +382,7 @@ Requests that the text host set the position of the scroll box (thumb) in the sp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787684(v=VS.85).aspx">TxSetScrollRange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787684(v=VS.85).aspx">TxSetScrollRange</a>
 </td>
 <td align="left" width="63%">
 Sets the minimum and maximum position values for the specified scroll bar in the text host window.
@@ -391,7 +391,7 @@ Sets the minimum and maximum position values for the specified scroll bar in the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787686(v=VS.85).aspx">TxSetTimer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787686(v=VS.85).aspx">TxSetTimer</a>
 </td>
 <td align="left" width="63%">
 Requests that the text host create a timer with a specified time-out.
@@ -400,16 +400,16 @@ Requests that the text host create a timer with a specified time-out.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787687(v=VS.85).aspx">TxShowCaret</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787687(v=VS.85).aspx">TxShowCaret</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/Bb787687(v=VS.85).aspx">TxShowCaret</a> method shows or hides the caret at the caret position in the text host window.
+The <a href="https://msdn.microsoft.com/en-us/library/Bb787687(v=VS.85).aspx">TxShowCaret</a> method shows or hides the caret at the caret position in the text host window.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787688(v=VS.85).aspx">TxShowScrollBar</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787688(v=VS.85).aspx">TxShowScrollBar</a>
 </td>
 <td align="left" width="63%">
 Shows or hides the scroll bar in the text host window.
@@ -418,7 +418,7 @@ Shows or hides the scroll bar in the text host window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb787689(v=VS.85).aspx">TxViewChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787689(v=VS.85).aspx">TxViewChange</a>
 </td>
 <td align="left" width="63%">
 Indicates to the text host that the update region has changed.
@@ -432,9 +432,9 @@ Indicates to the text host that the update region has changed.
 
 
 
-You must implement the <b>ITextHost</b> interface before you call the <a href="https://msdn.microsoft.com/library/Bb787722(v=VS.85).aspx">CreateTextServices</a> function.
+You must implement the <b>ITextHost</b> interface before you call the <a href="https://msdn.microsoft.com/en-us/library/Bb787722(v=VS.85).aspx">CreateTextServices</a> function.
 
-Applications do not call the <b>ITextHost</b> methods. A text services object created by the <a href="https://msdn.microsoft.com/library/Bb787722(v=VS.85).aspx">CreateTextServices</a> function calls the interface methods.
+Applications do not call the <b>ITextHost</b> methods. A text services object created by the <a href="https://msdn.microsoft.com/en-us/library/Bb787722(v=VS.85).aspx">CreateTextServices</a> function calls the interface methods.
 
 
 
@@ -444,7 +444,7 @@ Applications do not call the <b>ITextHost</b> methods. A text services object cr
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls Overview</a>
  
 
  

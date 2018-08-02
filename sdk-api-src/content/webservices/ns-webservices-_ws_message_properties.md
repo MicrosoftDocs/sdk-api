@@ -7,7 +7,7 @@ old-location: wsw\ws_message_properties.htm
 old-project: wsw
 ms.assetid: 74ad74fd-457a-4408-8032-15d365f98b14
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_MESSAGE_PROPERTIES, WS_MESSAGE_PROPERTIES structure [Web Services for Windows], _WS_MESSAGE_PROPERTIES, webservices/WS_MESSAGE_PROPERTIES, wsw.ws_message_properties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies a set of <a href="https://msdn.microsoft.com/40751692-a8e6-4aa6-8dc9-55308b129a94">WS_MESSAGE_PROPERTY</a> structures.
+Specifies a set of <a href="https://msdn.microsoft.com/40751692-a8e6-4aa6-8dc9-55308b129a94">WS_MESSAGE_PROPERTY</a> structures.
             
 
 
@@ -63,8 +62,7 @@ req.product: Windows Address Book 5.0
 
 ### -field properties
 
-
-                    An array of properties.  The number of elements in the array is specified
+An array of properties.  The number of elements in the array is specified
                     using the propertyCount parameter.  This field may be <b>NULL</b> if the propertyCount
                     is 0.
                 
@@ -72,7 +70,6 @@ req.product: Windows Address Book 5.0
 
 ### -field propertyCount
 
-
-                    The number of elements in the properties array.
+The number of elements in the properties array.
                 
 

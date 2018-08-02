@@ -7,7 +7,7 @@ old-location: wsw\wsresetmetadata.htm
 old-project: wsw
 ms.assetid: 091a227a-62d4-4625-9e96-b03f96e2304a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsResetMetadata, WsResetMetadata function [Web Services for Windows], webservices/WsResetMetadata, wsw.wsresetmetadata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,7 @@ Resets a metadata object state to <b>WS_METADATA_STATE_CREATED</b>.
 
 ### -param metadata [in]
 
-
-                    
-                    A pointer to the <b>Metadata</b> object to reset.  The pointer must reference a valid <a href="https://msdn.microsoft.com/aa7383a1-60fa-448a-b0c6-b9c49d9d5070">WS_METADATA</a>.
+A pointer to the <b>Metadata</b> object to reset.  The pointer must reference a valid <a href="https://msdn.microsoft.com/aa7383a1-60fa-448a-b0c6-b9c49d9d5070">WS_METADATA</a>.
                 
 
 
@@ -98,8 +96,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    The metadata was in an inappropriate state.
+The metadata was in an inappropriate state.
                 
 
 </td>
@@ -114,8 +111,7 @@ This function can return one of these values.
 
 
 
-
-                Reusing a metadata instead of creating one from scratch may improve performance.
+Reusing a metadata instead of creating one from scratch may improve performance.
             If called correctly, this function will not fail.
             
 

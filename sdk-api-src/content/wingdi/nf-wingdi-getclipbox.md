@@ -7,7 +7,7 @@ old-location: gdi\getclipbox.htm
 old-project: gdi
 ms.assetid: b4ee68ab-b99e-48b6-90ce-6d6c0ae144e2
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetClipBox, GetClipBox function [Windows GDI], _win32_GetClipBox, gdi.getclipbox, wingdi/GetClipBox
 ms.prod: windows
 ms.technology: windows-sdk

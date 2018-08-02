@@ -7,7 +7,7 @@ old-location: inputdev\releasecapture.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\releasecapture.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: ReleaseCapture, ReleaseCapture function [Keyboard and Mouse Input], _win32_ReleaseCapture, _win32_releasecapture_cpp, inputdev.releasecapture, winui._win32_releasecapture, winuser/ReleaseCapture
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,12 +82,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-An application calls this function after calling the <a href="https://msdn.microsoft.com/library/ms646262(v=VS.85).aspx">SetCapture</a> function. 
+An application calls this function after calling the <a href="https://msdn.microsoft.com/en-us/library/ms646262(v=VS.85).aspx">SetCapture</a> function. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms645602(v=VS.85).aspx">Drawing Lines with the Mouse</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms645602(v=VS.85).aspx">Drawing Lines with the Mouse</a>.
 
 <div class="code"></div>
 
@@ -102,11 +102,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms645602(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646257(v=VS.85).aspx">GetCapture</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646257(v=VS.85).aspx">GetCapture</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
 
 
 
@@ -114,11 +114,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms645602(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646262(v=VS.85).aspx">SetCapture</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646262(v=VS.85).aspx">SetCapture</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645605(v=VS.85).aspx">WM_CAPTURECHANGED</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645605(v=VS.85).aspx">WM_CAPTURECHANGED</a>
  
 
  

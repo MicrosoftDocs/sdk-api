@@ -7,7 +7,7 @@ old-location: wsw\ws_accept_channel_callback.htm
 old-project: wsw
 ms.assetid: 2c7f36cf-ee7d-4de0-8599-ccfd066cca7e
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ACCEPT_CHANNEL_CALLBACK, WS_ACCEPT_CHANNEL_CALLBACK callback, WS_ACCEPT_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_ACCEPT_CHANNEL_CALLBACK, wsw.ws_accept_channel_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,32 +63,27 @@ Handles the <a href="https://msdn.microsoft.com/e18e0005-89bd-435e-9a12-6602c3c6
 
 ### -param *listenerInstance [in]
 
-
-                    The pointer to the state specific to this listener instance,
+The pointer to the state specific to this listener instance,
                     as created by the <a href="https://msdn.microsoft.com/2d8e476d-dc68-44b4-b53b-be440a32efda">WS_CREATE_LISTENER_CALLBACK</a>.
                 
 
 
 ### -param *channelInstance [in]
 
-
-                    The pointer to the state specific to the channel instance,
-                    as created by the <a href="https://msdn.microsoft.com/440114f9-2258-4c33-93cd-7185ccf36f76">WS_CREATE_CHANNEL_CALLBACK</a>
-                    when <a href="https://msdn.microsoft.com/d9a80506-d891-4cfd-b120-0d3fce946cf5">WsCreateChannelForListener</a> was called.
+The pointer to the state specific to the channel instance,
+                    as created by the <a href="https://msdn.microsoft.com/440114f9-2258-4c33-93cd-7185ccf36f76">WS_CREATE_CHANNEL_CALLBACK</a>when <a href="https://msdn.microsoft.com/d9a80506-d891-4cfd-b120-0d3fce946cf5">WsCreateChannelForListener</a> was called.
                 
 
 
 ### -param *asyncContext [in, optional]
 
-
-                    Information on how to invoke the function asynchronously, or NULL if invoking synchronously.
+Information on how to invoke the function asynchronously, or NULL if invoking synchronously.
                 
 
 
 ### -param *error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -108,8 +103,7 @@ Handles the <a href="https://msdn.microsoft.com/e18e0005-89bd-435e-9a12-6602c3c6
 </dl>
 </td>
 <td width="60%">
-
-                    The asynchronous operation is still pending.
+The asynchronous operation is still pending.
                 
 
 </td>
@@ -121,8 +115,7 @@ Handles the <a href="https://msdn.microsoft.com/e18e0005-89bd-435e-9a12-6602c3c6
 </dl>
 </td>
 <td width="60%">
-
-                    The listener and/or channel was aborted.
+The listener and/or channel was aborted.
                 
 
 </td>
@@ -134,8 +127,7 @@ Handles the <a href="https://msdn.microsoft.com/e18e0005-89bd-435e-9a12-6602c3c6
 </dl>
 </td>
 <td width="60%">
-
-                    The listener has faulted.  Once a listener has faulted,
+The listener has faulted.  Once a listener has faulted,
                     then accepts will immediately return this error.
                 
 
@@ -148,8 +140,7 @@ Handles the <a href="https://msdn.microsoft.com/e18e0005-89bd-435e-9a12-6602c3c6
 </dl>
 </td>
 <td width="60%">
-
-                    The listener was in an inappropriate state.
+The listener was in an inappropriate state.
                 
 
 </td>
@@ -161,7 +152,6 @@ Handles the <a href="https://msdn.microsoft.com/e18e0005-89bd-435e-9a12-6602c3c6
 </dl>
 </td>
 <td width="60%">
-
 The connection with the remote endpoint was terminated.
 
 </td>
@@ -173,7 +163,6 @@ The connection with the remote endpoint was terminated.
 </dl>
 </td>
 <td width="60%">
-
 The operation did not complete within the time allotted.
 
 </td>
@@ -185,7 +174,6 @@ The operation did not complete within the time allotted.
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -197,7 +185,6 @@ A quota was exceeded.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -209,7 +196,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -221,7 +207,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -233,7 +218,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 Security verification was not successful for the received data.
 
 </td>
@@ -245,7 +229,6 @@ Security verification was not successful for the received data.
 </dl>
 </td>
 <td width="60%">
-
 A security operation failed in the Windows Web Services framework.
 
 </td>
@@ -271,8 +254,7 @@ This function may return other errors not listed above.
 
 
 
-
-                See <a href="https://msdn.microsoft.com/e18e0005-89bd-435e-9a12-6602c3c638b7">WsAcceptChannel</a> for information about the contract
+See <a href="https://msdn.microsoft.com/e18e0005-89bd-435e-9a12-6602c3c638b7">WsAcceptChannel</a> for information about the contract
                 of this API.
             
 

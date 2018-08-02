@@ -4,10 +4,10 @@ title: "_CMSG_CTRL_KEY_AGREE_DECRYPT_PARA"
 author: windows-sdk-content
 description: Contains information about a key agreement recipient.
 old-location: security\cmsg_ctrl_key_agree_decrypt_para.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 14e58281-4315-4ece-8ea8-92765cffd212
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA, CMSG_CTRL_KEY_AGREE_DECRYPT_PARA, CMSG_CTRL_KEY_AGREE_DECRYPT_PARA structure [Security], PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA, PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA structure pointer [Security], _CMSG_CTRL_KEY_AGREE_DECRYPT_PARA, _crypto2_cmsg_ctrl_key_agree_decrypt_para, security.cmsg_ctrl_key_agree_decrypt_para, wincrypt/CMSG_CTRL_KEY_AGREE_DECRYPT_PARA, wincrypt/PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,6 +103,5 @@ Indicates a specific encrypted key in an array of encrypted keys.
 
 ### -field OriginatorPublicKey
 
-
-						A <a href="https://msdn.microsoft.com/6f102ff3-bfff-4415-a5d8-ca2c226074b3">CRYPT_BIT_BLOB</a> structure that contains the sender's public key information.
+A <a href="https://msdn.microsoft.com/6f102ff3-bfff-4415-a5d8-ca2c226074b3">CRYPT_BIT_BLOB</a> structure that contains the sender's public key information.
 

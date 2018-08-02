@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamselector_getoutputmutex.htm
 old-project: medfound
 ms.assetid: d134f4a9-9bca-454f-8dc1-2e152684a4bf
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: GetOutputMutex, GetOutputMutex method [Media Foundation], GetOutputMutex method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputMutex method, IMFASFStreamSelector.GetOutputMutex, IMFASFStreamSelector::GetOutputMutex, d134f4a9-9bca-454f-8dc1-2e152684a4bf, mf.imfasfstreamselector_getoutputmutex, wmcontainer/IMFASFStreamSelector::GetOutputMutex
 ms.prod: windows
 ms.technology: windows-sdk

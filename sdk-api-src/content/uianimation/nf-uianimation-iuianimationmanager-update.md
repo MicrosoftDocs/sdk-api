@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager_update.htm
 old-project: UIAnimation
 ms.assetid: 6008fe44-8d86-4a56-a1e2-7bc144b224b2
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],Update method, IUIAnimationManager.Update, IUIAnimationManager::Update, Update, Update method [Windows Animation], Update method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_update, uianimation/IUIAnimationManager::Update
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Updates the values of all animation variables.
 
 ### -param timeNow [in]
 
-
-               The current system time. This parameter must be greater than or equal to 0.0.
+The current system time. This parameter must be greater than or equal to 0.0.
 
 
 ### -param updateResult [out, optional]
@@ -143,18 +142,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/b5d6c5f1-1e1c-497f-a556-f419e2c68585">
-      IUIAnimationManager::SetAnimationMode</a>
+<a href="https://msdn.microsoft.com/b5d6c5f1-1e1c-497f-a556-f419e2c68585">IUIAnimationManager::SetAnimationMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8995687-c0dc-4cd7-b11a-f871172895f9">
-      UI_ANIMATION_MODE</a>
+<a href="https://msdn.microsoft.com/b8995687-c0dc-4cd7-b11a-f871172895f9">UI_ANIMATION_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/19b1d80f-39b3-4046-aa6a-5312e004b4b0">
-      UI_ANIMATION_UPDATE_RESULT</a>
+<a href="https://msdn.microsoft.com/19b1d80f-39b3-4046-aa6a-5312e004b4b0">UI_ANIMATION_UPDATE_RESULT</a>
  
 
  

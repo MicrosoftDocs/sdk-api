@@ -4,10 +4,10 @@ title: IUpdateInstaller::get_AllowSourcePrompts
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether to show source prompts to the user when installing the updates.
 old-location: wua\iupdateinstaller_allowsourceprompts.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 6975fdc7-48db-4e34-986b-5504687fc53f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: AllowSourcePrompts property [Windows Update Agent], AllowSourcePrompts property [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],AllowSourcePrompts property, IUpdateInstaller.AllowSourcePrompts, IUpdateInstaller.get_AllowSourcePrompts, IUpdateInstaller::AllowSourcePrompts, IUpdateInstaller::get_AllowSourcePrompts, IUpdateInstaller::put_AllowSourcePrompts, get_AllowSourcePrompts, wua.iupdateinstaller_allowsourceprompts, wuapi/IUpdateInstaller::AllowSourcePrompts, wuapi/IUpdateInstaller::get_AllowSourcePrompts, wuapi/IUpdateInstaller::put_AllowSourcePrompts
 ms.prod: windows
 ms.technology: windows-sdk

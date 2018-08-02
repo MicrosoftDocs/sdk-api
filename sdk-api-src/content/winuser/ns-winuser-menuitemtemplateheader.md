@@ -7,7 +7,7 @@ old-location: menurc\menuitemtemplateheader.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menuitemtemplateheader.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: "*PMENUITEMTEMPLATEHEADER, MENUITEMTEMPLATEHEADER, MENUITEMTEMPLATEHEADER structure [Menus and Other Resources], PMENUITEMTEMPLATEHEADER, PMENUITEMTEMPLATEHEADER structure pointer [Menus and Other Resources], _win32_MENUITEMTEMPLATEHEADER_str, _win32_menuitemtemplateheader_str_cpp, menurc.menuitemtemplateheader, winui._win32_menuitemtemplateheader_str, winuser/MENUITEMTEMPLATEHEADER, winuser/PMENUITEMTEMPLATEHEADER"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ The offset, in bytes, from the end of the header. The menu item list begins at t
 
 
 
-One or more <a href="https://msdn.microsoft.com/library/ms647581(v=VS.85).aspx">MENUITEMTEMPLATE</a> structures are combined to form the menu item list. 
+One or more <a href="https://msdn.microsoft.com/en-us/library/ms647581(v=VS.85).aspx">MENUITEMTEMPLATE</a> structures are combined to form the menu item list. 
 
 
 
@@ -91,15 +91,15 @@ One or more <a href="https://msdn.microsoft.com/library/ms647581(v=VS.85).aspx">
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647991(v=VS.85).aspx">LoadMenuIndirect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647991(v=VS.85).aspx">LoadMenuIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647581(v=VS.85).aspx">MENUITEMTEMPLATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647581(v=VS.85).aspx">MENUITEMTEMPLATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
 
 
 

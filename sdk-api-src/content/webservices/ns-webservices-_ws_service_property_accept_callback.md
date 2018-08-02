@@ -7,7 +7,7 @@ old-location: wsw\ws_service_property_accept_callback.htm
 old-project: wsw
 ms.assetid: c0e08fbe-1552-4f0c-abd6-35cc33531123
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SERVICE_PROPERTY_ACCEPT_CALLBACK, WS_SERVICE_PROPERTY_ACCEPT_CALLBACK structure [Web Services for Windows], _WS_SERVICE_PROPERTY_ACCEPT_CALLBACK, webservices/WS_SERVICE_PROPERTY_ACCEPT_CALLBACK, wsw.ws_service_property_accept_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies the callback which is called when a channel is successfully accepted.
+Specifies the callback which is called when a channel is successfully accepted.
             
 
 
@@ -63,7 +62,6 @@ req.product: Windows Address Book 5.0
 
 ### -field callback
 
-
-                The accept channel callback function reference.
+The accept channel callback function reference.
             
 

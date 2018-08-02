@@ -4,10 +4,10 @@ title: ITaskSettings::get_Enabled
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the task is enabled. The task can be performed only when this setting is True.
 old-location: taskschd\itasksettings_enabled.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 6c6e7f51-9591-4b84-b06b-124cd88a0345
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: Enabled property [Task Scheduler], Enabled property [Task Scheduler],ITaskSettings interface, ITaskSettings interface [Task Scheduler],Enabled property, ITaskSettings.Enabled, ITaskSettings.get_Enabled, ITaskSettings::Enabled, ITaskSettings::get_Enabled, get_Enabled, taskschd.itasksettings_enabled, taskschd/ITaskSettings::Enabled, taskschd/ITaskSettings::get_Enabled
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xps\ixpsomfontresourcecollection_append.htm
 old-project: printdocs
 ms.assetid: ddee8ecc-6426-47b2-940d-045c21ce588c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, IXpsOMFontResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMFontResourceCollection.Append, IXpsOMFontResourceCollection::Append, xps.ixpsomfontresourcecollection_append, xpsobjectmodel/IXpsOMFontResourceCollection::Append
 ms.prod: windows
 ms.technology: windows-sdk

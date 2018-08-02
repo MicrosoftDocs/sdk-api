@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_gettransportvideoparameters.htm
 old-project: DirectShow
 ms.assetid: 7a77ecf6-49e4-4d91-a06e-80313b4b8957
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetTransportVideoParameters, GetTransportVideoParameters method [DirectShow], GetTransportVideoParameters method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetTransportVideoParameters method, IAMExtTransport.GetTransportVideoParameters, IAMExtTransport::GetTransportVideoParameters, IAMExtTransportGetTransportVideoParameters, dshow.iamexttransport_gettransportvideoparameters, strmif/IAMExtTransport::GetTransportVideoParameters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,11 +71,9 @@ Specifies the video parameter to retrieve. Must be one of the following values.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -112,11 +110,9 @@ If <i>Param</i> equals ED_TRANSVIDEO_SET_OUTPUT, <i>pValue</i> receives one of t
 
 <table>
 <tr>
-<th>
-              Value
+<th>Value
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>

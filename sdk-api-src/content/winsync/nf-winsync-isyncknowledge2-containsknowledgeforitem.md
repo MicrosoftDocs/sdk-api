@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge2_containsknowledgeforitem.htm
 old-project: winsync
 ms.assetid: 5359e50d-8541-40ed-8107-a904ac62bfe0
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: ContainsKnowledgeForItem, ContainsKnowledgeForItem method [Windows Sync], ContainsKnowledgeForItem method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],ContainsKnowledgeForItem method, ISyncKnowledge2.ContainsKnowledgeForItem, ISyncKnowledge2::ContainsKnowledgeForItem, winsync.isyncknowledge2_containsknowledgeforitem, winsync/ISyncKnowledge2::ContainsKnowledgeForItem
 ms.prod: windows
 ms.technology: windows-sdk

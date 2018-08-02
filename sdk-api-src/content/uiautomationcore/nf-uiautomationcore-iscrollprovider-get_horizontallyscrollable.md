@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IScrollProvider_HorizontallyScrollable.htm
 old-project: WinAuto
 ms.assetid: f9d073c0-b51a-4e62-ab67-872538a6a0e1
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: HorizontallyScrollable property [Windows Accessibility], HorizontallyScrollable property [Windows Accessibility],IScrollProvider interface, IScrollProvider interface [Windows Accessibility],HorizontallyScrollable property, IScrollProvider.HorizontallyScrollable, IScrollProvider.get_HorizontallyScrollable, IScrollProvider::HorizontallyScrollable, IScrollProvider::get_HorizontallyScrollable, get_HorizontallyScrollable, uiauto.uiauto_IScrollProvider_HorizontallyScrollable, uiauto_IScrollProvider_HorizontallyScrollable, uiautomationcore/IScrollProvider::HorizontallyScrollable, uiautomationcore/IScrollProvider::get_HorizontallyScrollable, winauto.uiauto_IScrollProvider_HorizontallyScrollable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ This property is read-only.
 
 
 
-
-        This property can be dynamic. For example, the content area of the control 
+This property can be dynamic. For example, the content area of the control 
         might not be larger than the current viewable area, meaning <b>IScrollProvider::HorizontallyScrollable</b> 
         is <b>FALSE</b>. However, either resizing the control or adding child items may increase the bounds of the 
         content area beyond the viewable area, meaning <b>IScrollProvider::HorizontallyScrollable</b> is <b>TRUE</b>. 

@@ -4,10 +4,10 @@ title: "_CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO"
 author: windows-sdk-content
 description: Contains encoded key transport information for a message recipient.
 old-location: security\cmsg_key_trans_recipient_encode_info.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 20b20759-3d76-4814-9e71-7376dd326f7b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO, CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO, CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO structure [Security], PCMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO, PCMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO structure pointer [Security], _CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO, _crypto2_cmsg_key_trans_recipient_encode_info, security.cmsg_key_trans_recipient_encode_info, wincrypt/CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO, wincrypt/PCMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,6 +94,5 @@ A <b>CRYPT_BIT_BLOB</b> variable that contains the public key of the recipient.
 
 ### -field RecipientId
 
-
-						A <a href="https://msdn.microsoft.com/9e33f661-c365-4725-8c3f-27b6cdd9a84e">CERT_ID</a> value that identifies the recipient. CMS supports the KEY_IDENTIFIER and ISSUER_SERIAL_NUMBER <b>CERT_ID</b>s. PKCS #7 version 1.5 supports only the ISSUER_SERIAL_NUMBER <b>CERT_ID</b>s.
+A <a href="https://msdn.microsoft.com/9e33f661-c365-4725-8c3f-27b6cdd9a84e">CERT_ID</a> value that identifies the recipient. CMS supports the KEY_IDENTIFIER and ISSUER_SERIAL_NUMBER <b>CERT_ID</b>s. PKCS #7 version 1.5 supports only the ISSUER_SERIAL_NUMBER <b>CERT_ID</b>s.
 

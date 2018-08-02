@@ -4,10 +4,10 @@ title: WSManGetSessionOptionAsString function
 author: windows-sdk-content
 description: Gets the value of a session option.
 old-location: winrm\wsmangetsessionoptionasstring.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 7fb1cec5-059f-4710-868a-d34c6ae2fd2a
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: WSManGetSessionOptionAsString, WSManGetSessionOptionAsString function [Windows Remote Management], winrm.wsmangetsessionoptionasstring, wsman/WSManGetSessionOptionAsString
 ms.prod: windows
 ms.technology: windows-sdk

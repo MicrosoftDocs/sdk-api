@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationinterpolator_setduration.htm
 old-project: UIAnimation
 ms.assetid: 79038ada-ebc2-4259-862a-d81403c2f6b8
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationInterpolator interface [Windows Animation],SetDuration method, IUIAnimationInterpolator.SetDuration, IUIAnimationInterpolator::SetDuration, SetDuration, SetDuration method [Windows Animation], SetDuration method [Windows Animation],IUIAnimationInterpolator interface, uianimation.iuianimationinterpolator_setduration, uianimation/IUIAnimationInterpolator::SetDuration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-   
-   Sets the duration of the transition.
+Sets the duration of the transition.
 
 
 ## -parameters
@@ -70,9 +68,7 @@ The duration of the transition.
 
 
 
-
-                
-                If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
+If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
 
 
 
@@ -97,8 +93,7 @@ Windows Animation can call <a href="https://msdn.microsoft.com/a1c5451a-b8d0-4eb
 
 
 
-<a href="https://msdn.microsoft.com/8e1f2a9a-ab93-485a-83b2-baebb9ee4bcc">
-         IUIAnimationInterpolator</a>
+<a href="https://msdn.microsoft.com/8e1f2a9a-ab93-485a-83b2-baebb9ee4bcc">IUIAnimationInterpolator</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: xaudio2\createfx.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xapofx.CreateFX(CLSID,IUnknown,void,UINT32)
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: CreateFX, CreateFX function [XAudio2 Audio Mixing APIs], xapofx/CreateFX, xaudio2.createfx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,11 +92,11 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-The created XAPO will have a reference count of 1. Client code must call <a href="https://msdn.microsoft.com/library/Ee418622(v=VS.85).aspx">IUnknown::Release</a> after passing the XAPO to XAudio2 to allow XAudio2 to dispose of the XAPO when it is no longer needed. Use <a href="https://msdn.microsoft.com/library/Ee418607(v=VS.85).aspx"> IXAudio2::CreateSourceVoice</a> or <a href="https://msdn.microsoft.com/library/Ee418594(v=VS.85).aspx">IXAudio2Voice::SetEffectChain</a> to pass an XAPO to XAudio2.
+The created XAPO will have a reference count of 1. Client code must call <a href="https://msdn.microsoft.com/en-us/library/Ee418622(v=VS.85).aspx">IUnknown::Release</a> after passing the XAPO to XAudio2 to allow XAudio2 to dispose of the XAPO when it is no longer needed. Use <a href="https://msdn.microsoft.com/en-us/library/Ee418607(v=VS.85).aspx"> IXAudio2::CreateSourceVoice</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee418594(v=VS.85).aspx">IXAudio2Voice::SetEffectChain</a> to pass an XAPO to XAudio2.
 
 
 
-<div class="alert"><b>Note</b>  The DirectX SDK version of this function doesn't have the <i>pInitData</i> or <i>InitDataByteSize</i> parameters as it only takes the first 2 parameters. To set initial parameters for the <a href="https://msdn.microsoft.com/762062de-4e19-5e42-8059-e2f8741bd362">XAPOFX</a> effect that is  created with the DirectX SDK version of this function, you must bind that effect to a voice and use <a href="https://msdn.microsoft.com/library/Ee418595(v=VS.85).aspx">IXAudio2Voice::SetEffectParameters</a>.
+<div class="alert"><b>Note</b>  The DirectX SDK version of this function doesn't have the <i>pInitData</i> or <i>InitDataByteSize</i> parameters as it only takes the first 2 parameters. To set initial parameters for the <a href="https://msdn.microsoft.com/762062de-4e19-5e42-8059-e2f8741bd362">XAPOFX</a> effect that is  created with the DirectX SDK version of this function, you must bind that effect to a voice and use <a href="https://msdn.microsoft.com/en-us/library/Ee418595(v=VS.85).aspx">IXAudio2Voice::SetEffectParameters</a>.
 For info about how to do this, see <a href="https://msdn.microsoft.com/dc325584-13f7-231a-e0c7-17f38d54ae11">How to: Use XAPOFX in XAudio2</a>.</div>
 <div> </div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

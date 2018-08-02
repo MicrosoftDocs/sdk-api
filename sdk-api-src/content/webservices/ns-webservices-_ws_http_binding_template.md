@@ -7,7 +7,7 @@ old-location: wsw\ws_http_binding_template.htm
 old-project: wsw
 ms.assetid: 88e68c68-61d1-4156-b5a8-c8d213a89240
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_HTTP_BINDING_TEMPLATE, WS_HTTP_BINDING_TEMPLATE structure [Web Services for Windows], _WS_HTTP_BINDING_TEMPLATE, webservices/WS_HTTP_BINDING_TEMPLATE, wsw.ws_http_binding_template
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        HTTP template structure to be filled in by application for http binding.
+HTTP template structure to be filled in by application for http binding.
       
 
 
@@ -63,7 +62,6 @@ req.product: Windows Address Book 5.0
 
 ### -field channelProperties
 
-
-          Application provided additional channel properties that cannot be represented in policy.
+Application provided additional channel properties that cannot be represented in policy.
         
 

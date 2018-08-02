@@ -7,7 +7,7 @@ old-location: dshow\vmr9monitorinfo.htm
 old-project: DirectShow
 ms.assetid: cb7d5c27-8762-450e-ba47-2a46e3106472
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: VMR9MonitorInfo, VMR9MonitorInfo structure [DirectShow], VMR9MonitorInfoStructure, _VMR9MonitorInfo, dshow.vmr9monitorinfo, vmr9/VMR9MonitorInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,9 +79,7 @@ Handle to the monitor.
 
 ### -field dwFlags
 
-
-            
-            Flags as defined for the <a href="https://msdn.microsoft.com/f296ce29-3fc8-41c9-a201-56e222aa2219">MONITORINFOEX</a> structure. Currently the only valid flag is <b>MONITORINFOF_PRIMARY</b>, which indicates the primary display monitor.
+Flags as defined for the <a href="https://msdn.microsoft.com/f296ce29-3fc8-41c9-a201-56e222aa2219">MONITORINFOEX</a> structure. Currently the only valid flag is <b>MONITORINFOF_PRIMARY</b>, which indicates the primary display monitor.
           
 
 

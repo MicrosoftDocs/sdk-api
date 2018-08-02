@@ -7,7 +7,7 @@ old-location: wsw\ws_double_description.htm
 old-project: wsw
 ms.assetid: cc845d24-4bbd-4491-9d4e-7a39c6c251da
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_DOUBLE_DESCRIPTION, WS_DOUBLE_DESCRIPTION structure [Web Services for Windows], _WS_DOUBLE_DESCRIPTION, webservices/WS_DOUBLE_DESCRIPTION, wsw.ws_double_description
 ms.prod: windows
 ms.technology: windows-sdk

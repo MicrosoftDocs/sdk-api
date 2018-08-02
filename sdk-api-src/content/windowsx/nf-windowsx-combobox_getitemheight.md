@@ -4,10 +4,10 @@ title: ComboBox_GetItemHeight macro
 author: windows-sdk-content
 description: Retrieves the height of list items in a combo box. You can use this macro or send the CB_GETITEMHEIGHT message explicitly.
 old-location: controls\ComboBox_GetItemHeight.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getitemheight.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ComboBox_GetItemHeight, ComboBox_GetItemHeight macro [Windows Controls], _win32_ComboBox_GetItemHeight, _win32_ComboBox_GetItemHeight_cpp, controls.ComboBox_GetItemHeight, controls._win32_ComboBox_GetItemHeight, windowsx/ComboBox_GetItemHeight
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Retrieves the height of list items in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775860(v=VS.85).aspx">CB_GETITEMHEIGHT</a> message explicitly.
+Retrieves the height of list items in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775860(v=VS.85).aspx">CB_GETITEMHEIGHT</a> message explicitly.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to the control.
 
 
 
-This macro passes zero as the <i>wParam</i> member of <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a>. For more information, see <a href="https://msdn.microsoft.com/library/Bb775860(v=VS.85).aspx">CB_GETITEMHEIGHT</a>.
+This macro passes zero as the <i>wParam</i> member of <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a>. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775860(v=VS.85).aspx">CB_GETITEMHEIGHT</a>.
 	
 
 

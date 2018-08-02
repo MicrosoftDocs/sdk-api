@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_subclasses_.htm
 old-project: WmiSdk
 ms.assetid: c17e5d4a-016f-42ae-bc11-e21a44772ce5
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemObject interface [Windows Management Instrumentation],Subclasses_ method, ISWbemObject.Subclasses_, ISWbemObject::Subclasses_, SWbemObject object [Windows Management Instrumentation],Subclasses_ method, SWbemObject.Subclasses_, Subclasses_, Subclasses_ method [Windows Management Instrumentation], Subclasses_ method [Windows Management Instrumentation],ISWbemObject interface, Subclasses_ method [Windows Management Instrumentation],SWbemObject object, WbemFlagReturnImmediately, _hmm_swbemobject.subclasses_, wbemFlagReturnWhenComplete, wbemFlagUseAmendedQualifiers, wbemQueryFlagDeep, wbemQueryFlagShallow, wmi.swbemobject_subclasses_
 ms.prod: windows
 ms.technology: windows-sdk

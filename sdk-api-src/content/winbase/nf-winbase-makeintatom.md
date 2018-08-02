@@ -7,7 +7,7 @@ old-location: dataxchg\makeintatom.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atommacros\makeintatom.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/29/2018
 ms.keywords: MAKEINTATOM, MAKEINTATOM macro [Data Exchange], _win32_MAKEINTATOM, _win32_makeintatom_cpp, dataxchg.makeintatom, winbase/MAKEINTATOM, winui._win32_makeintatom
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,27 +87,27 @@ Although the return value of the <b>MAKEINTATOM</b> macro is cast as an <b>LPTST
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649056(v=VS.85).aspx">AddAtom</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649056(v=VS.85).aspx">AddAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649057(v=VS.85).aspx">DeleteAtom</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649057(v=VS.85).aspx">DeleteAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649059(v=VS.85).aspx">GetAtomName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649059(v=VS.85).aspx">GetAtomName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649060(v=VS.85).aspx">GlobalAddAtom</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649060(v=VS.85).aspx">GlobalAddAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649061(v=VS.85).aspx">GlobalDeleteAtom</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649061(v=VS.85).aspx">GlobalDeleteAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649063(v=VS.85).aspx">GlobalGetAtomName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649063(v=VS.85).aspx">GlobalGetAtomName</a>
 
 
 

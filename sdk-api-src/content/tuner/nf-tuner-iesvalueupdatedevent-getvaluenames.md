@@ -7,7 +7,7 @@ old-location: mstv\iesvalueupdatedevent_getvaluenames.htm
 old-project: mstv
 ms.assetid: bc008b4a-fa6f-4b62-90da-417813081344
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetValueNames, GetValueNames method [Microsoft TV Technologies], GetValueNames method [Microsoft TV Technologies],IESValueUpdatedEvent interface, IESValueUpdatedEvent interface [Microsoft TV Technologies],GetValueNames method, IESValueUpdatedEvent.GetValueNames, IESValueUpdatedEvent::GetValueNames, mstv.iesvalueupdatedevent_getvaluenames, tuner/IESValueUpdatedEvent::GetValueNames
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      For a name-value pair in the PBDA General Purpose Name-Value Service, gets the name for the value that has been updated. PBDA Media Sink Devices (MSDs) get this name from <b>ValueUpdated</b> events fired by Media Transform Devices (MTDs) that implement the <a href="https://msdn.microsoft.com/6639c483-aebe-43b4-94cd-494b820c1b14">IESValueUpdatedEvent</a> interface.
+For a name-value pair in the PBDA General Purpose Name-Value Service, gets the name for the value that has been updated. PBDA Media Sink Devices (MSDs) get this name from <b>ValueUpdated</b> events fired by Media Transform Devices (MTDs) that implement the <a href="https://msdn.microsoft.com/6639c483-aebe-43b4-94cd-494b820c1b14">IESValueUpdatedEvent</a> interface.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param pbstrNames [out, retval]
 
-
-            Pointer to a buffer that gets the name that has been updated. The caller is responsible for freeing this memory.
+Pointer to a buffer that gets the name that has been updated. The caller is responsible for freeing this memory.
           
 
 

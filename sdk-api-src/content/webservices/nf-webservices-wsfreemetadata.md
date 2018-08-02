@@ -7,7 +7,7 @@ old-location: wsw\wsfreemetadata.htm
 old-project: wsw
 ms.assetid: 4e159619-3807-4e7f-9198-fb74962ae141
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsFreeMetadata, WsFreeMetadata function [Web Services for Windows], webservices/WsFreeMetadata, wsw.wsfreemetadata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Releases the memory resource associated with a metadata object.
+Releases the memory resource associated with a metadata object.
             
 
 
@@ -63,9 +62,7 @@ req.product: Windows Address Book 5.0
 
 ### -param metadata [in]
 
-
-                    
-                    A pointer to the metadata object to release.  The pointer must reference a valid <a href="https://msdn.microsoft.com/aa7383a1-60fa-448a-b0c6-b9c49d9d5070">WS_METADATA</a> object returned
+A pointer to the metadata object to release.  The pointer must reference a valid <a href="https://msdn.microsoft.com/aa7383a1-60fa-448a-b0c6-b9c49d9d5070">WS_METADATA</a> object returned
                     by <a href="https://msdn.microsoft.com/c3b6f926-331b-46a7-8180-36762abf63d7">WsCreateMetadata</a> and the referenced value may not be <b>NULL</b>.
                 
 
@@ -83,8 +80,7 @@ This function does not return a value.
 
 
 
-
-                Any <a href="https://msdn.microsoft.com/04623686-5065-4e97-8685-c72f848b92ab">WS_POLICY</a> objects that
+Any <a href="https://msdn.microsoft.com/04623686-5065-4e97-8685-c72f848b92ab">WS_POLICY</a> objects that
                 were retrieved using the metadata object will also be freed.
             
 

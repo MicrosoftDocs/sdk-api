@@ -4,10 +4,10 @@ title: InternetDialW function
 author: windows-sdk-content
 description: Initiates a connection to the Internet using a modem.
 old-location: wininet\internetdial.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: b8ce748b-9879-4f68-aea1-32e2bfaee8ab
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: InternetDial, InternetDial function [WinINet], InternetDialA, InternetDialW, _inet_internetdial_function, wininet.internetdial, winineti/InternetDial, winineti/InternetDialA, winineti/InternetDialW
 ms.prod: windows
 ms.technology: windows-sdk

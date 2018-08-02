@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITransformProvider_Resize.htm
 old-project: WinAuto
 ms.assetid: ba22f770-1306-4c15-bc72-a928b91e0eb5
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: ITransformProvider interface [Windows Accessibility],Resize method, ITransformProvider.Resize, ITransformProvider::Resize, Resize, Resize method [Windows Accessibility], Resize method [Windows Accessibility],ITransformProvider interface, uiauto.uiauto_ITransformProvider_Resize, uiauto_ITransformProvider_Resize, uiautomationcore/ITransformProvider::Resize, winauto.uiauto_ITransformProvider_Resize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,13 +88,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-            When called on a control supporting split panes, this method might have the 
+When called on a control supporting split panes, this method might have the 
             side effect of resizing other contiguous panes. 
             
 
-
-            An object cannot be moved, resized, or rotated such that its resulting screen location 
+An object cannot be moved, resized, or rotated such that its resulting screen location 
             would be completely outside the coordinates of its container and inaccessible to keyboard 
             or mouse. For example, a top-level window moved completely off-screen or a child object 
             moved outside the boundaries of the container's viewport. In these cases the object is 

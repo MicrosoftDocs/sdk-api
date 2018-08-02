@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiapplication.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\iuiapplication.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: IUIApplication, IUIApplication interface [Windows Ribbon], IUIApplication interface [Windows Ribbon],described, scenicintent_IUIApplication, uiribbon/IUIApplication, windowsribbon.windowsribbon_iuiapplication
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,18 +71,17 @@ The <b>IUIApplication</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371531(v=VS.85).aspx">OnCreateUICommand</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371531(v=VS.85).aspx">OnCreateUICommand</a>
 </td>
 <td align="left" width="63%">
-
-			Called for each Command specified in the Ribbon framework markup to bind the Command to an <a href="https://msdn.microsoft.com/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a>.
+Called for each Command specified in the Ribbon framework markup to bind the Command to an <a href="https://msdn.microsoft.com/en-us/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a>.
 		
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371534(v=VS.85).aspx">OnDestroyUICommand</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371534(v=VS.85).aspx">OnDestroyUICommand</a>
 </td>
 <td align="left" width="63%">
 Called for each Command specified in the Ribbon framework markup when the application window is destroyed.
@@ -92,7 +91,7 @@ Called for each Command specified in the Ribbon framework markup when the applic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371537(v=VS.85).aspx">OnViewChanged</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371537(v=VS.85).aspx">OnViewChanged</a>
 </td>
 <td align="left" width="63%">
 Called when the state of a  <a href="https://msdn.microsoft.com/library/windows/hardware/dn927297">View</a> changes.
@@ -107,7 +106,7 @@ Called when the state of a  <a href="https://msdn.microsoft.com/library/windows/
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
  
 
  

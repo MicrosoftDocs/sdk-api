@@ -4,10 +4,10 @@ title: QueryUsersOnEncryptedFile function
 author: windows-sdk-content
 description: Retrieves a list of users for the specified file.
 old-location: fs\queryusersonencryptedfile.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 1bdab753-e7f2-4c08-8b37-3903c0842227
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: QueryUsersOnEncryptedFile, QueryUsersOnEncryptedFile function [Files], _win32_queryusersonencryptedfile, base.queryusersonencryptedfile, fs.queryusersonencryptedfile, winefs/QueryUsersOnEncryptedFile
 ms.prod: windows
 ms.technology: windows-sdk

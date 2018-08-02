@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_getbstr.htm
 old-project: WmiSdk
 ms.assetid: f1fe92cc-1d51-4bd7-950b-84c76b001163
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: "?GetBSTR@WBEMTime@@QBEPAGXZ, ?GetBSTR@WBEMTime@@QEBAPEAGXZ, GetBSTR, GetBSTR method [Windows Management Instrumentation], GetBSTR method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetBSTR method, WBEMTime.GetBSTR, WBEMTime::GetBSTR, _hmm_wbemtime_getbstr, wbemtime/WBEMTime::GetBSTR, wmi.wbemtime_getbstr"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ The method returns a <b>BSTR</b> in <a href="https://msdn.microsoft.com/be239bf8
 
 
 
-If the value returned is not <b>NULL</b>, the calling function must call <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> on the returned value. This method returns the same value as <a href="https://msdn.microsoft.com/3bfcf7f8-0b0c-4a3f-83c7-be4c37753a7a">WBEMTime::GetDMTF</a>(false).
+If the value returned is not <b>NULL</b>, the calling function must call <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> on the returned value. This method returns the same value as <a href="https://msdn.microsoft.com/3bfcf7f8-0b0c-4a3f-83c7-be4c37753a7a">WBEMTime::GetDMTF</a>(false).
 
 
 

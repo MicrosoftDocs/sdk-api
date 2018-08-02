@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapsource_copypalette.htm
 old-project: wic
 ms.assetid: 5e45ca4a-2d14-4829-9542-9cfc3e4b0d73
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: CopyPalette, CopyPalette method [Windows Imaging Component], CopyPalette method [Windows Imaging Component],IWICBitmapSource interface, IWICBitmapSource interface [Windows Imaging Component],CopyPalette method, IWICBitmapSource.CopyPalette, IWICBitmapSource::CopyPalette, _wic_codec_iwicbitmapsource_copypalette, wic._wic_codec_iwicbitmapsource_copypalette, wincodec/IWICBitmapSource::CopyPalette
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,8 +111,7 @@ The palette was successfully copied.
 
 
 
-
-            If the <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a> is an <a href="https://msdn.microsoft.com/1498b800-6449-440f-bed7-85891637e559">IWICBitmapFrameDecode</a>, the function may return the image's global palette if a frame-level palette is not available.
+If the <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a> is an <a href="https://msdn.microsoft.com/1498b800-6449-440f-bed7-85891637e559">IWICBitmapFrameDecode</a>, the function may return the image's global palette if a frame-level palette is not available.
             The global palette may also be retrieved using the <a href="https://msdn.microsoft.com/4a387936-b045-42c7-b57c-1ac470640a14">CopyPalette</a> method.
          
 

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_RemoveFromSelectionConPat.htm
 old-project: WinAuto
 ms.assetid: c8de1889-82e8-4147-9c71-f77bf05c72a0
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: TextRange_RemoveFromSelection, TextRange_RemoveFromSelection function [Windows Accessibility], uiauto.uiauto_TextRange_RemoveFromSelectionConPat, uiauto_TextRange_RemoveFromSelectionConPat, uiautomationcoreapi/TextRange_RemoveFromSelection, winauto.uiauto_TextRange_RemoveFromSelectionConPat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,12 +84,10 @@ Returns S_OK if successful or an error value otherwise.
 
 
 
-
-            The text insertion point will move to the area of the new selection.
+The text insertion point will move to the area of the new selection.
             
 
-
-            Providing a degenerate text range will move the text insertion point. 
+Providing a degenerate text range will move the text insertion point. 
             
 
 

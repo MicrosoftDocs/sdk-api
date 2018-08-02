@@ -7,7 +7,7 @@ old-location: dlgbox\dlgitemtemplate.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxstructures\dlgitemtemplate.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPDLGITEMTEMPLATEA, *LPDLGITEMTEMPLATEW, *PDLGITEMTEMPLATEA, *PDLGITEMTEMPLATEW, DLGITEMTEMPLATE, DLGITEMTEMPLATE structure [Dialog Boxes], PDLGITEMTEMPLATE, PDLGITEMTEMPLATE structure pointer [Dialog Boxes], _win32_DLGITEMTEMPLATE_str, _win32_dlgitemtemplate_str_cpp, dlgbox.dlgitemtemplate, winui._win32_dlgitemtemplate_str, winuser/DLGITEMTEMPLATE, winuser/PDLGITEMTEMPLATE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Defines the dimensions and style of a control in a dialog box. One or more of these structures are combined with a <a href="https://msdn.microsoft.com/library/ms645394(v=VS.85).aspx">DLGTEMPLATE</a> structure to form a standard template for a dialog box. 
+Defines the dimensions and style of a control in a dialog box. One or more of these structures are combined with a <a href="https://msdn.microsoft.com/en-us/library/ms645394(v=VS.85).aspx">DLGTEMPLATE</a> structure to form a standard template for a dialog box. 
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ Defines the dimensions and style of a control in a dialog box. One or more of th
 
 Type: <b>DWORD</b>
 
-The style of the control. This member can be a combination of <a href="winui._win32_Window_Styles">window style values</a> (such as <b>WS_BORDER</b>) and one or more of the <a href="https://msdn.microsoft.com/library/Bb775498(v=VS.85).aspx">control style values</a> (such as <b>BS_PUSHBUTTON</b> and <b>ES_LEFT</b>). 
+The style of the control. This member can be a combination of <a href="winui._win32_Window_Styles">window style values</a> (such as <b>WS_BORDER</b>) and one or more of the <a href="https://msdn.microsoft.com/en-us/library/Bb775498(v=VS.85).aspx">control style values</a> (such as <b>BS_PUSHBUTTON</b> and <b>ES_LEFT</b>). 
 
 
 ### -field dwExtendedStyle
@@ -160,7 +160,7 @@ Following the class array is a title array that contains the initial text or res
 
 The creation data array begins at the next 
 				<b>WORD</b> boundary after the title array. This creation data can be of any size and format. If the first word of the creation data array is nonzero, it indicates the size, in bytes, of the creation data (including the size word). The control's window procedure must be able to interpret the data. When the system creates the control, it passes a pointer to this data in the 
-				<i>lParam</i> parameter of the <a href="https://msdn.microsoft.com/library/ms632619(v=VS.85).aspx">WM_CREATE</a> message that it sends to the control. 
+				<i>lParam</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms632619(v=VS.85).aspx">WM_CREATE</a> message that it sends to the control. 
 
 If you specify character strings in the class and title arrays, you must use Unicode strings. Use the 
 				<a href="https://msdn.microsoft.com/a117fdfe-b52b-466f-9300-6455e91ea2a8">MultiByteToWideChar</a> function to generate Unicode strings from ANSI strings.
@@ -169,7 +169,7 @@ The
 				<b>x</b>, 
 				<b>y</b>, 
 				<b>cx</b>, and 
-				<b>cy</b> members specify values in dialog box units. You can convert these values to screen units (pixels) by using the <a href="https://msdn.microsoft.com/library/ms645502(v=VS.85).aspx">MapDialogRect</a> function. 
+				<b>cy</b> members specify values in dialog box units. You can convert these values to screen units (pixels) by using the <a href="https://msdn.microsoft.com/en-us/library/ms645502(v=VS.85).aspx">MapDialogRect</a> function. 
 
 
 
@@ -183,43 +183,43 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645436(v=VS.85).aspx">CreateDialogIndirect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645436(v=VS.85).aspx">CreateDialogIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645441(v=VS.85).aspx">CreateDialogIndirectParam</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645441(v=VS.85).aspx">CreateDialogIndirectParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645389(v=VS.85).aspx">DLGITEMTEMPLATEEX</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645389(v=VS.85).aspx">DLGITEMTEMPLATEEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645394(v=VS.85).aspx">DLGTEMPLATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645394(v=VS.85).aspx">DLGTEMPLATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645398(v=VS.85).aspx">DLGTEMPLATEEX</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645398(v=VS.85).aspx">DLGTEMPLATEEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645457(v=VS.85).aspx">DialogBoxIndirect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645457(v=VS.85).aspx">DialogBoxIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645461(v=VS.85).aspx">DialogBoxIndirectParam</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645461(v=VS.85).aspx">DialogBoxIndirectParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645502(v=VS.85).aspx">MapDialogRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645502(v=VS.85).aspx">MapDialogRect</a>
 
 
 
@@ -235,7 +235,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632619(v=VS.85).aspx">WM_CREATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632619(v=VS.85).aspx">WM_CREATE</a>
  
 
  

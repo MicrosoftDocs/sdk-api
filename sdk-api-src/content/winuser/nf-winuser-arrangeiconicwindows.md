@@ -7,7 +7,7 @@ old-location: winmsg\arrangeiconicwindows.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\arrangeiconicwindows.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: ArrangeIconicWindows, ArrangeIconicWindows function [Windows and Messages], _win32_ArrangeIconicWindows, _win32_arrangeiconicwindows_cpp, winmsg.arrangeiconicwindows, winui._win32_arrangeiconicwindows, winuser/ArrangeIconicWindows
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,9 +84,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-An application that maintains its own minimized child windows can use the <b>ArrangeIconicWindows</b> function to arrange icons in a parent window. This function can also arrange icons on the desktop. To retrieve the window handle to the desktop window, use the <a href="https://msdn.microsoft.com/library/ms633504(v=VS.85).aspx">GetDesktopWindow</a> function. 
+An application that maintains its own minimized child windows can use the <b>ArrangeIconicWindows</b> function to arrange icons in a parent window. This function can also arrange icons on the desktop. To retrieve the window handle to the desktop window, use the <a href="https://msdn.microsoft.com/en-us/library/ms633504(v=VS.85).aspx">GetDesktopWindow</a> function. 
 
-An application sends the <a href="https://msdn.microsoft.com/library/ms644916(v=VS.85).aspx">WM_MDIICONARRANGE</a> message to the multiple-document interface (MDI) client window to prompt the client window to arrange its minimized MDI child windows. 
+An application sends the <a href="https://msdn.microsoft.com/en-us/library/ms644916(v=VS.85).aspx">WM_MDIICONARRANGE</a> message to the multiple-document interface (MDI) client window to prompt the client window to arrange its minimized MDI child windows. 
 
 
 
@@ -96,7 +96,7 @@ An application sends the <a href="https://msdn.microsoft.com/library/ms644916(v=
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632678(v=VS.85).aspx">CloseWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632678(v=VS.85).aspx">CloseWindow</a>
 
 
 
@@ -104,7 +104,7 @@ An application sends the <a href="https://msdn.microsoft.com/library/ms644916(v=
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633504(v=VS.85).aspx">GetDesktopWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633504(v=VS.85).aspx">GetDesktopWindow</a>
 
 
 

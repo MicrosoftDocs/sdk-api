@@ -4,10 +4,10 @@ title: PFN_CERT_STORE_PROV_WRITE_CTL
 author: windows-sdk-content
 description: The CertStoreProvWriteCTL callback function can be called by CertAddEncodedCTLToStore, CertAddCTLContextToStore or CertAddSerializedElementToStore before a CTL is added to the store.
 old-location: security\certstoreprovwritectl.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 91344133-0785-4c4f-8df3-83301cf85e70
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertStoreProvWriteCTL, CertStoreProvWriteCTL callback, CertStoreProvWriteCTL callback function [Security], PFN_CERT_STORE_PROV_WRITE_CTL, PFN_CERT_STORE_PROV_WRITE_CTL callback function [Security], _crypto2_certstoreprovwritectl, security.certstoreprovwritectl, wincrypt/CertStoreProvWriteCTL, wincrypt/PFN_CERT_STORE_PROV_WRITE_CTL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertStoreProvWriteCTL</b> callback function can be called by 
+The <b>CertStoreProvWriteCTL</b> callback function can be called by 
 <a href="https://msdn.microsoft.com/4239d43e-187d-4f40-99ae-6f914b7577ac">CertAddEncodedCTLToStore</a>, 
 <a href="https://msdn.microsoft.com/e8858f75-77a1-4c5f-a3e3-a645c5e0f053">CertAddCTLContextToStore</a> or 
 <a href="https://msdn.microsoft.com/2726cd34-51ba-4f68-9a3c-7cd505eb32a1">CertAddSerializedElementToStore</a> before a CTL is added to the store.
@@ -83,8 +82,7 @@ Any needed flag values.
 
 
 
-
-						Returns <b>TRUE</b> if elements can be added to the store.
+Returns <b>TRUE</b> if elements can be added to the store.
 
 
 

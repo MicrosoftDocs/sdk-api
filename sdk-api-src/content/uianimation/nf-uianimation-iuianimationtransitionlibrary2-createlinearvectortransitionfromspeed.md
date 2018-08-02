@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary2_createlinearvectortrans
 old-project: UIAnimation
 ms.assetid: 5CFA1E23-26A7-4139-B533-8BD325E9F1B9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateLinearVectorTransitionFromSpeed, CreateLinearVectorTransitionFromSpeed method [Windows Animation], CreateLinearVectorTransitionFromSpeed method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateLinearVectorTransitionFromSpeed method, IUIAnimationTransitionLibrary2.CreateLinearVectorTransitionFromSpeed, IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed, uianimation.iuianimationtransitionlibrary2_createlinearvectortransitionfromspeed, uianimation/IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates a linear-speed vector transition in the specified dimension.
+Creates a linear-speed vector transition in the specified dimension.
 
 
 ## -parameters
@@ -77,8 +76,7 @@ The number of dimensions to apply the transition. This parameter specifies the n
 
 ### -param transition [out]
 
-
-                The new linear-speed transition.
+The new linear-speed transition.
 
 
 ## -returns

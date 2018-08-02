@@ -4,10 +4,10 @@ title: "_READ_ELEMENT_ADDRESS_INFO"
 author: windows-sdk-content
 description: Represents the volume tag information. It is used by the IOCTL_CHANGER_QUERY_VOLUME_TAGS control code.
 old-location: base\read_element_address_info_str.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 2b7e611b-7db6-4ba6-ae1f-4269a96dbb16
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PREAD_ELEMENT_ADDRESS_INFO, PREAD_ELEMENT_ADDRESS_INFO, PREAD_ELEMENT_ADDRESS_INFO structure pointer, READ_ELEMENT_ADDRESS_INFO, READ_ELEMENT_ADDRESS_INFO structure, _READ_ELEMENT_ADDRESS_INFO, _win32_read_element_address_info_str, base.read_element_address_info_str, winioctl/PREAD_ELEMENT_ADDRESS_INFO, winioctl/READ_ELEMENT_ADDRESS_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

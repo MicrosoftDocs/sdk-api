@@ -7,7 +7,7 @@ old-location: search\_search_INTERVAL_LIMIT_KIND.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\interval_limit_kind.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: ILK_EXPLICIT_EXCLUDED, ILK_EXPLICIT_INCLUDED, ILK_NEGATIVE_INFINITY, ILK_POSITIVE_INFINITY, INTERVAL_LIMIT_KIND, INTERVAL_LIMIT_KIND enumeration [search], _search_INTERVAL_LIMIT_KIND, search._search_INTERVAL_LIMIT_KIND, structuredquery/ILK_EXPLICIT_EXCLUDED, structuredquery/ILK_EXPLICIT_INCLUDED, structuredquery/ILK_NEGATIVE_INFINITY, structuredquery/ILK_POSITIVE_INFINITY, structuredquery/INTERVAL_LIMIT_KIND, tagINTERVAL_LIMIT_KIND
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-These values are returned by <a href="https://msdn.microsoft.com/library/Bb231367(v=VS.85).aspx">IInterval::GetLimits</a> as pairs to specify a range with an upper and lower limit. <b>INTERVAL_LIMIT_KIND</b> identifies whether the ranges include or exclude the upper and lower values of the range, and whether a range begins or ends in infinity.
+These values are returned by <a href="https://msdn.microsoft.com/en-us/library/Bb231367(v=VS.85).aspx">IInterval::GetLimits</a> as pairs to specify a range with an upper and lower limit. <b>INTERVAL_LIMIT_KIND</b> identifies whether the ranges include or exclude the upper and lower values of the range, and whether a range begins or ends in infinity.
 
 
 ## -enum-fields

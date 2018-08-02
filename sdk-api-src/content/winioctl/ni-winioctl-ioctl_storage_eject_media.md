@@ -4,10 +4,10 @@ title: IOCTL_STORAGE_EJECT_MEDIA
 author: windows-sdk-content
 description: Ejects media from a SCSI device.
 old-location: base\ioctl_storage_eject_media.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: e1eeb3b8-b52b-4570-a3bc-e245ae58464f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_STORAGE_EJECT_MEDIA, IOCTL_STORAGE_EJECT_MEDIA control, IOCTL_STORAGE_EJECT_MEDIA control code, _win32_ioctl_storage_eject_media, base.ioctl_storage_eject_media, winioctl/IOCTL_STORAGE_EJECT_MEDIA
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,15 +61,9 @@ To perform this operation, call the
 </tr>
 <tr>
 <td>
-<pre>
-BOOL DeviceIoControl(
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,            // handle to device
-  IOCTL_STORAGE_EJECT_MEDIA,   // dwIoControlCode
-  NULL,                        // lpInBuffer
-  0,                           // nInBufferSize
-  NULL,                        // lpOutBuffer
-  0,                           // nOutBufferSize
-  (LPDWORD) lpBytesReturned,   // number of bytes returned
+  IOCTL_STORAGE_EJECT_MEDIA,   // dwIoControlCodeNULL,                        // lpInBuffer0,                           // nInBufferSizeNULL,                        // lpOutBuffer0,                           // nOutBufferSize(LPDWORD) lpBytesReturned,   // number of bytes returned
   (LPOVERLAPPED) lpOverlapped  // OVERLAPPED structure
 );</pre>
 </td>

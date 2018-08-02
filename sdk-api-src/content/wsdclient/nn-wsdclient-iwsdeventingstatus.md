@@ -4,10 +4,10 @@ title: IWSDEventingStatus
 author: windows-sdk-content
 description: Implement this interface to receive notification when status changes occur in event subscriptions.
 old-location: ncd\iwsdeventingstatus.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 04e6ea03-f9b5-48d9-940f-532bb3a85ff0
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: IWSDEventingStatus, IWSDEventingStatus interface, IWSDEventingStatus interface,described, ncd.iwsdeventingstatus, wsdclient/IWSDEventingStatus
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\ws_char_array_description.htm
 old-project: wsw
 ms.assetid: 3a489963-9ed3-40ca-be42-485415e7fa4a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_CHAR_ARRAY_DESCRIPTION, WS_CHAR_ARRAY_DESCRIPTION structure [Web Services for Windows], _WS_CHAR_ARRAY_DESCRIPTION, webservices/WS_CHAR_ARRAY_DESCRIPTION, wsw.ws_char_array_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,9 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 Specifies constraints on the set of values
-                which can be deserialized.
-            
-                This type description is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_CHAR_ARRAY_TYPE</a> and is optional.
+                which can be deserialized.This type description is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_CHAR_ARRAY_TYPE</a> and is optional.
                  
 
 
@@ -65,14 +63,12 @@ Specifies constraints on the set of values
 
 ### -field minCharCount
 
-
-                    The minimum number of characters.
+The minimum number of characters.
                 
 
 
 ### -field maxCharCount
 
-
-                    The maximum number of characters.
+The maximum number of characters.
                 
 

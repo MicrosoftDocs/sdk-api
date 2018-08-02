@@ -4,10 +4,10 @@ title: EraseTape function
 author: windows-sdk-content
 description: Erases all or part of a tape.
 old-location: backup\erasetape.htm
-old-project: backup
+old-project: Backup
 ms.assetid: af262e79-ebdb-4ec5-9b59-ed6725a48bdf
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: EraseTape, EraseTape function [Backup], TAPE_ERASE_LONG, TAPE_ERASE_SHORT, _win32_erasetape, backup.erasetape, base.erasetape, winbase/EraseTape
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device where the tape is to be erased. This handle is created by using the 
-<a href="base.createfile">CreateFile</a> function.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.
 
 
 ### -param dwEraseType [in]
@@ -323,7 +323,7 @@ Some tape devices do not support certain tape operations. To determine your tape
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
 
 
 

@@ -4,10 +4,10 @@ title: CertRegisterSystemStore function
 author: windows-sdk-content
 description: Registers a system store.
 old-location: security\certregistersystemstore.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: b6f72826-92ab-4e21-8db9-eb053663148b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CERT_STORE_CREATE_NEW_FLAG, CERT_SYSTEM_STORE_CURRENT_SERVICE, CERT_SYSTEM_STORE_CURRENT_USER, CERT_SYSTEM_STORE_LOCAL_MACHINE, CERT_SYSTEM_STORE_LOCAL_MACHINE_GROUP_POLICY, CERT_SYSTEM_STORE_RELOCATE_FLAG, CERT_SYSTEM_STORE_SERVICES, CERT_SYSTEM_STORE_USERS, CertRegisterSystemStore, CertRegisterSystemStore function [Security], _crypto2_certregistersystemstore, security.certregistersystemstore, wincrypt/CertRegisterSystemStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertRegisterSystemStore</b> function registers a system store.
+The <b>CertRegisterSystemStore</b> function registers a system store.
 
 
 ## -parameters
@@ -86,8 +85,7 @@ The high word of the <i>dwFlags</i> parameter is used to specify the location of
 					
 
 
-
-							The following high-word values are defined.
+The following high-word values are defined.
 
 
 
@@ -162,8 +160,7 @@ The high word of the <i>dwFlags</i> parameter is used to specify the location of
 Stores on remote computers can be registered for CERT_SYSTEM_STORE_LOCAL_MACHINE, CERT_SYSTEM_STORE_SERVICES, CERT_SYSTEM_STORE_USERS, or CERT_SYSTEM_STORE_LOCAL_MACHINE_GROUP_POLICY.
 
 
-
-							The following low-word values are also defined and can be combined using a bitwise-<b>OR</b> operation with high-word values.
+The following low-word values are also defined and can be combined using a bitwise-<b>OR</b> operation with high-word values.
 
 
 
@@ -292,7 +289,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
  
 
  

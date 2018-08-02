@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_time_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_24fm.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: "*PFAX_TIME, FAX_TIME, FAX_TIME structure [Fax Service], FAX_TIMEA, FAX_TIMEW, PFAX_TIME, PFAX_TIME structure pointer [Fax Service], _FAX_TIME, _mfax_fax_time_str, fax._mfax_fax_time_str, winfax/FAX_TIME, winfax/FAX_TIMEA, winfax/FAX_TIMEW, winfax/PFAX_TIME"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ Specifies a 16-bit unsigned integer that is the current minute. Valid values are
 
 
 
-The <a href="https://msdn.microsoft.com/library/ms690874(v=VS.85).aspx">FAX_CONFIGURATION</a> structure includes a <b>FAX_TIME</b> structure to describe the discount period that applies when a fax server is sending fax transmissions. 
+The <a href="https://msdn.microsoft.com/en-us/library/ms690874(v=VS.85).aspx">FAX_CONFIGURATION</a> structure includes a <b>FAX_TIME</b> structure to describe the discount period that applies when a fax server is sending fax transmissions. 
 
 
 
@@ -89,23 +89,23 @@ The <a href="https://msdn.microsoft.com/library/ms690874(v=VS.85).aspx">FAX_CONF
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690874(v=VS.85).aspx">FAX_CONFIGURATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690874(v=VS.85).aspx">FAX_CONFIGURATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691952(v=VS.85).aspx">Fax Service Client API Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691952(v=VS.85).aspx">Fax Service Client API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692282(v=VS.85).aspx">FaxGetConfiguration</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692282(v=VS.85).aspx">FaxGetConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692787(v=VS.85).aspx">FaxSetConfiguration</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692787(v=VS.85).aspx">FaxSetConfiguration</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wsw\wsacceptchannel.htm
 old-project: wsw
 ms.assetid: e18e0005-89bd-435e-9a12-6602c3c638b7
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsAcceptChannel, WsAcceptChannel function [Web Services for Windows], webservices/WsAcceptChannel, wsw.wsacceptchannel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,8 +66,7 @@ Accepts the next incoming message from the specified <a href="https://msdn.micro
 ### -param listener [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_LISTENER</a> structure representing the listener.
-                This is the listener passed to <a href="https://msdn.microsoft.com/d9a80506-d891-4cfd-b120-0d3fce946cf5">WsCreateChannelForListener</a>
-                    when the channel was created.
+                This is the listener passed to <a href="https://msdn.microsoft.com/d9a80506-d891-4cfd-b120-0d3fce946cf5">WsCreateChannelForListener</a>when the channel was created.
                 
 
 
@@ -109,8 +108,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
-                    The asynchronous operation is still pending.
+The asynchronous operation is still pending.
                 
 
                 
@@ -125,9 +123,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
-
-                The listener or channel was aborted.
+The listener or channel was aborted.
                 
             
 
@@ -140,9 +136,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
-
-                The listener has faulted. See the Remarks section.
+The listener has faulted. See the Remarks section.
 
 </td>
 </tr>
@@ -153,9 +147,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
-
-                The listener or the channel or both were in an inappropriate state.
+The listener or the channel or both were in an inappropriate state.
                 
             See the Remarks section.
 
@@ -192,7 +184,6 @@ The operation did not complete within the time allotted.
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -204,7 +195,6 @@ A quota was exceeded.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -216,7 +206,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 Insufficient memory to complete the operation.
 
 </td>
@@ -228,7 +217,6 @@ Insufficient memory to complete the operation.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are  not valid.
 
 </td>
@@ -240,7 +228,6 @@ One or more arguments are  not valid.
 </dl>
 </td>
 <td width="60%">
-
 Security verification was not successful for the received data.
 
 </td>
@@ -252,7 +239,6 @@ Security verification was not successful for the received data.
 </dl>
 </td>
 <td width="60%">
-
 A security operation failed in the Windows Web Services framework.
 
 </td>
@@ -278,16 +264,13 @@ This function may return other errors not listed above.
 
 
 
-
-
-            Once you accept a channel, you must close it  when you no longer need it and free the resources by calling the  
+Once you accept a channel, you must close it  when you no longer need it and free the resources by calling the  
                 <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae2ee2e0c6">WsCloseChannel</a> function, and then calling either the <a href="https://msdn.microsoft.com/74e36d19-c6db-4bba-90e3-88a48b6a1fb5">WsFreeChannel</a> or the <a href="https://msdn.microsoft.com/7aca8ae0-44a0-4ec7-87e8-bec9bd17d04b">WsResetChannel</a>.
             function. 
 
 For <b>WsAcceptChannel</b> to succeed, the listener must be in WS_LISTENER_STATE_OPEN state, and the channel must be in WS_CHANNEL_STATE_CREATED state. For more information, see the <a href="https://msdn.microsoft.com/275d0d36-f9a1-49a7-af74-e8967dff574a">WS_LISTENER_STATE</a> and <a href="https://msdn.microsoft.com/3a7f5bbd-e484-4a7e-8e5d-df229a7227a5">WS_CHANNEL_STATE</a> enumerations.
 
-
-                If a listener is in the <b>WS_LISTENER_STATE_FAULTED</b> state,  
+If a listener is in the <b>WS_LISTENER_STATE_FAULTED</b> state,  
                 <b>WsAcceptChannel</b> immediately returns the <b>WS_E_OBJECT_FAULTED</b> error code. If an
                 application is calling <b>WsAcceptChannel</b> in a loop, the application must check for this
                 error, so it can end the loop.

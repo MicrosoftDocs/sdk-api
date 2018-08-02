@@ -4,10 +4,10 @@ title: EnumerateSecurityPackagesW function
 author: windows-sdk-content
 description: Returns an array of SecPkgInfo structures that provide information about the security packages available to the client.
 old-location: security\enumeratesecuritypackages.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 900790a6-111d-43f5-9316-e85aab03a3bc
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: EnumerateSecurityPackages, EnumerateSecurityPackages function [Security], EnumerateSecurityPackagesA, EnumerateSecurityPackagesW, _ssp_enumeratesecuritypackages, security.enumeratesecuritypackages, sspi/EnumerateSecurityPackages, sspi/EnumerateSecurityPackagesA, sspi/EnumerateSecurityPackagesW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # EnumerateSecurityPackagesW function
@@ -53,8 +52,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-			The <b>EnumerateSecurityPackages</b> function returns an array of 
+The <b>EnumerateSecurityPackages</b> function returns an array of 
 <a href="https://msdn.microsoft.com/d0bff3d8-63f1-4a4e-851f-177040af6bd2">SecPkgInfo</a> structures that provide information about the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security packages</a> available to the client.
 
 
@@ -80,8 +78,7 @@ When you have finished using the array, free the memory by calling the <a href="
 
 
 
-
-						If the function succeeds, the function returns <b>SEC_E_OK</b>.
+If the function succeeds, the function returns <b>SEC_E_OK</b>.
 
 If the function fails, it returns a nonzero error code. Possible values include, but are not limited to, those in the following table.
 
@@ -155,7 +152,7 @@ The caller can use the <b>Name</b> member of a <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
 
 
 

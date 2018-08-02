@@ -4,10 +4,10 @@ title: SspiValidateAuthIdentity function
 author: windows-sdk-content
 description: Indicates whether the specified identity structure is valid.
 old-location: security\sspivalidateauthidentity.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 82733abd-d984-4902-b6e4-c3809171ad51
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: SspiValidateAuthIdentity, SspiValidateAuthIdentity function [Security], security.sspivalidateauthidentity, sspi/SspiValidateAuthIdentity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # SspiValidateAuthIdentity function
@@ -68,8 +67,7 @@ The identity structure to test.
 
 
 
-
-						If the function succeeds, it returns <b>SEC_E_OK</b>, which indicates that the identity structure specified by the <i>AuthData</i> parameter is valid.
+If the function succeeds, it returns <b>SEC_E_OK</b>, which indicates that the identity structure specified by the <i>AuthData</i> parameter is valid.
 
 If the function fails, it returns a nonzero error code that indicates that the identity structure specified by the <i>AuthData</i> parameter is not valid.
 

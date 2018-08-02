@@ -7,7 +7,7 @@ old-location: mstv\iscanningtunerex_getcurrentlocator.htm
 old-project: mstv
 ms.assetid: f5237236-50f3-49dd-aec0-578e0a8430c2
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetCurrentLocator, GetCurrentLocator method [Microsoft TV Technologies], GetCurrentLocator method [Microsoft TV Technologies],IScanningTunerEx interface, IScanningTunerEx interface [Microsoft TV Technologies],GetCurrentLocator method, IScanningTunerEx.GetCurrentLocator, IScanningTunerEx::GetCurrentLocator, IScanningTunerExGetCurrentLocator, mstv.iscanningtunerex_getcurrentlocator, tuner/IScanningTunerEx::GetCurrentLocator
 ms.prod: windows
 ms.technology: windows-sdk

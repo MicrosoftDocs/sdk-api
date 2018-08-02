@@ -4,10 +4,10 @@ title: WINTRUST_FILE_INFO_
 author: windows-sdk-content
 description: The WINTRUST_FILE_INFO structure is used when calling WinVerifyTrust to verify an individual file.
 old-location: security\wintrust_file_info.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 3c3bef86-a2ed-47d1-a726-90630433358a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PWINTRUST_FILE_INFO, PWINTRUCT_FILE_INFO, PWINTRUCT_FILE_INFO structure pointer [Security], WINTRUST_FILE_INFO, WINTRUST_FILE_INFO structure [Security], WINTRUST_FILE_INFO_, _win32_wintrust_file_info, security.wintrust_file_info, wintrust/PWINTRUCT_FILE_INFO, wintrust/WINTRUST_FILE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The <b>WINTRUST_FILE_INFO</b> structure is used when calling 
+The <b>WINTRUST_FILE_INFO</b> structure is used when calling 
 <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> to verify an individual file.
 
 

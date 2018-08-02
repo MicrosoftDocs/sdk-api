@@ -7,7 +7,7 @@ old-location: wsw\wsreceivemessage.htm
 old-project: wsw
 ms.assetid: 3976c02c-d052-4eae-b675-edd317ac6464
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsReceiveMessage, WsReceiveMessage function [Web Services for Windows], webservices/WsReceiveMessage, wsw.wsreceivemessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Receive a message and deserialize the body of the message as a value.
+Receive a message and deserialize the body of the message as a value.
             
 
 
@@ -63,74 +62,63 @@ req.product: Windows Address Book 5.0
 
 ### -param channel [in]
 
-
-                    The channel to receive from.
+The channel to receive from.
                 
 
 
 ### -param message [in]
 
-
-                    The message object used to receive.
+The message object used to receive.
                 
 
-
-                    The message should be in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a> state.
+The message should be in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a> state.
                 
 
 
 ### -param messageDescriptions
 
-
-                    An array of pointers to message descriptions that specifies the metadata for
+An array of pointers to message descriptions that specifies the metadata for
                     the expected types of messages.
                 
 
 
 ### -param messageDescriptionCount [in]
 
-
-                    The number of items in the messageDescriptions array.
+The number of items in the messageDescriptions array.
                 
 
 
 ### -param receiveOption [in]
 
-
-                    Whether the message is required.  See <a href="https://msdn.microsoft.com/a2aefba7-40ff-4399-b13f-f1bad191f366">WS_RECEIVE_OPTION</a> for more information.
+Whether the message is required.  See <a href="https://msdn.microsoft.com/a2aefba7-40ff-4399-b13f-f1bad191f366">WS_RECEIVE_OPTION</a> for more information.
                 
 
 
 ### -param readBodyOption [in]
 
-
-                    Whether the body element is required, and how to allocate the value.  
+Whether the body element is required, and how to allocate the value.  
                     See <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a> for more information.
                 
 
 
 ### -param heap [in, optional]
 
-
-                    The heap to store the deserialized values in.  If the heap is 
+The heap to store the deserialized values in.  If the heap is 
                     not required for the given type, then this parameter can be <b>NULL</b>.
                 
 
 
 ### -param value
 
-
-                    The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
                 
 
-
-                    If <a href="https://msdn.microsoft.com/a2aefba7-40ff-4399-b13f-f1bad191f366">WS_RECEIVE_OPTIONAL_MESSAGE</a> is specified for the receiveOption
+If <a href="https://msdn.microsoft.com/a2aefba7-40ff-4399-b13f-f1bad191f366">WS_RECEIVE_OPTIONAL_MESSAGE</a> is specified for the receiveOption
                     parameter, and no more messages are available on the channel, 
                     this parameter is not touched.  In this case, the function returns <b>WS_S_END</b>.
                 (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
 
-
-                    If the bodyElementDescription of the <a href="https://msdn.microsoft.com/399b3363-004b-499a-9726-0b2513826f43">WS_MESSAGE_DESCRIPTION</a> that
+If the bodyElementDescription of the <a href="https://msdn.microsoft.com/399b3363-004b-499a-9726-0b2513826f43">WS_MESSAGE_DESCRIPTION</a> that
                     matched is <b>NULL</b>, then this parameter is not touched.  In this case, the
                     parameter does not need to be specified.
                 
@@ -138,42 +126,36 @@ req.product: Windows Address Book 5.0
 
 ### -param valueSize [in]
 
-
-                    The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
                 
 
 
 ### -param index
 
-
-                    If <a href="https://msdn.microsoft.com/a2aefba7-40ff-4399-b13f-f1bad191f366">WS_RECEIVE_OPTIONAL_MESSAGE</a> is specified for the receiveOption
+If <a href="https://msdn.microsoft.com/a2aefba7-40ff-4399-b13f-f1bad191f366">WS_RECEIVE_OPTIONAL_MESSAGE</a> is specified for the receiveOption
                     parameter, and no more messages are available on the channel, 
                     this parameter is untouched.  In this case, the function will
                     return <b>WS_S_END</b>.
                 
 
-
-                    Otherwise, if the function succeeds this will contain the zero-based 
+Otherwise, if the function succeeds this will contain the zero-based 
                     index into the array of message descriptions indicating which one matched.
                 
 
-
-                    This parameter may be <b>NULL</b> if the caller is not interested in the value
+This parameter may be <b>NULL</b> if the caller is not interested in the value
                     (for example, if there is only one message description).
                 
 
 
 ### -param asyncContext [in, optional]
 
-
-                    Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
+Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
                 
 
 
 ### -param error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -195,8 +177,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    The asynchronous operation is still pending.
+The asynchronous operation is still pending.
                 
 
 </td>
@@ -208,8 +189,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    The receive option <a href="https://msdn.microsoft.com/a2aefba7-40ff-4399-b13f-f1bad191f366">WS_RECEIVE_OPTIONAL_MESSAGE</a> was specified and
+The receive option <a href="https://msdn.microsoft.com/a2aefba7-40ff-4399-b13f-f1bad191f366">WS_RECEIVE_OPTIONAL_MESSAGE</a> was specified and
                     there are no more messages available for the channel.
                 
 
@@ -222,8 +202,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    The received message contained a fault.  The fault can be extracted from the 
+The received message contained a fault.  The fault can be extracted from the 
                     <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> using <a href="https://msdn.microsoft.com/35a1f4a8-aad6-43ad-81db-b1071a77d5f4">WsGetErrorProperty</a>.
                 
 
@@ -236,7 +215,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The operation was aborted.
 
 </td>
@@ -248,7 +226,6 @@ The operation was aborted.
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>
@@ -260,7 +237,6 @@ The operation is not allowed due to the current state of the object.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint does not exist or could not be located.
 
 </td>
@@ -272,7 +248,6 @@ The remote endpoint does not exist or could not be located.
 </dl>
 </td>
 <td width="60%">
-
 Access was denied by the remote endpoint.
 
 </td>
@@ -284,7 +259,6 @@ Access was denied by the remote endpoint.
 </dl>
 </td>
 <td width="60%">
-
 The connection with the remote endpoint was terminated.
 
 </td>
@@ -296,7 +270,6 @@ The connection with the remote endpoint was terminated.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint could not process the request.
 
 </td>
@@ -308,7 +281,6 @@ The remote endpoint could not process the request.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint is not currently in service at this location.
 
 </td>
@@ -320,7 +292,6 @@ The remote endpoint is not currently in service at this location.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint is unable to process the request due to being overloaded.
 
 </td>
@@ -332,7 +303,6 @@ The remote endpoint is unable to process the request due to being overloaded.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint was not reachable.
 
 </td>
@@ -344,7 +314,6 @@ The remote endpoint was not reachable.
 </dl>
 </td>
 <td width="60%">
-
 The endpoint address URL is invalid.
 
 </td>
@@ -356,7 +325,6 @@ The endpoint address URL is invalid.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -368,7 +336,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 The operation did not complete within the time allotted.
 
 </td>
@@ -380,7 +347,6 @@ The operation did not complete within the time allotted.
 </dl>
 </td>
 <td width="60%">
-
 Access was denied by the HTTP proxy server.
 
 </td>
@@ -392,7 +358,6 @@ Access was denied by the HTTP proxy server.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server could not process the request.
 
 </td>
@@ -404,7 +369,6 @@ The HTTP proxy server could not process the request.
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -416,7 +380,6 @@ A quota was exceeded.
 </dl>
 </td>
 <td width="60%">
-
 Security verification was not successful for the received data.
 
 </td>
@@ -428,7 +391,6 @@ Security verification was not successful for the received data.
 </dl>
 </td>
 <td width="60%">
-
 A security operation failed in the Windows Web Services framework.
 
 </td>
@@ -440,7 +402,6 @@ A security operation failed in the Windows Web Services framework.
 </dl>
 </td>
 <td width="60%">
-
 A security token was rejected by the server because it has expired.
 
 </td>
@@ -452,7 +413,6 @@ A security token was rejected by the server because it has expired.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'basic'.
 
 </td>
@@ -464,7 +424,6 @@ The HTTP proxy server requires HTTP authentication scheme 'basic'.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'digest'.
 
 </td>
@@ -476,7 +435,6 @@ The HTTP proxy server requires HTTP authentication scheme 'digest'.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'negotiate'.
 
 </td>
@@ -488,7 +446,6 @@ The HTTP proxy server requires HTTP authentication scheme 'negotiate'.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'NTLM'.
 
 </td>
@@ -500,7 +457,6 @@ The HTTP proxy server requires HTTP authentication scheme 'NTLM'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'basic'.
 
 </td>
@@ -512,7 +468,6 @@ The remote endpoint requires HTTP authentication scheme 'basic'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'digest'.
 
 </td>
@@ -524,7 +479,6 @@ The remote endpoint requires HTTP authentication scheme 'digest'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'negotiate'.
 
 </td>
@@ -536,7 +490,6 @@ The remote endpoint requires HTTP authentication scheme 'negotiate'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'NTLM'.
 
 </td>
@@ -548,7 +501,6 @@ The remote endpoint requires HTTP authentication scheme 'NTLM'.
 </dl>
 </td>
 <td width="60%">
-
 A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.
 
 </td>
@@ -560,7 +512,6 @@ A required certificate is not within its validity period when verifying against 
 </dl>
 </td>
 <td width="60%">
-
 The certificates CN name does not match the passed value.
 
 </td>
@@ -572,7 +523,6 @@ The certificates CN name does not match the passed value.
 </dl>
 </td>
 <td width="60%">
-
 A certificate chain processed, but terminated in a root certificate which is not trusted by the trust provider.
 
 </td>
@@ -584,7 +534,6 @@ A certificate chain processed, but terminated in a root certificate which is not
 </dl>
 </td>
 <td width="60%">
-
 The certificate is not valid for the requested usage.
 
 </td>
@@ -596,7 +545,6 @@ The certificate is not valid for the requested usage.
 </dl>
 </td>
 <td width="60%">
-
 The revocation function was unable to check revocation because the revocation server was offline.
 
 </td>
@@ -608,7 +556,6 @@ The revocation function was unable to check revocation because the revocation se
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -620,7 +567,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -646,16 +592,13 @@ This function may return other errors not listed above.
 
 
 
-
-                This function uses metadata about the expected message types in order to deserialize the body.  
+This function uses metadata about the expected message types in order to deserialize the body.  
                 The metadata is an array of of pointers to <a href="https://msdn.microsoft.com/399b3363-004b-499a-9726-0b2513826f43">WS_MESSAGE_DESCRIPTION</a>s.
                 Each message description contains an action value, which is used to match against
-                the action of the message, and an <a href="https://msdn.microsoft.com/17035b64-9b2c-40d3-bdce-45e9b132e9f1">WS_ELEMENT_DESCRIPTION</a>
-                which provides the metadata for the body element.
+                the action of the message, and an <a href="https://msdn.microsoft.com/17035b64-9b2c-40d3-bdce-45e9b132e9f1">WS_ELEMENT_DESCRIPTION</a>which provides the metadata for the body element.
             
 
-
-                When the message headers have been received, the function will scan the array
+When the message headers have been received, the function will scan the array
                 in order to find a match against the action.  The first message description
                 that matches is used to deserialize the body, and the zero-based index 
                 of this message description in the array is returned in the index out parameter.
@@ -663,27 +606,22 @@ This function may return other errors not listed above.
                 message description was used.
             
 
-
-                In order for a message description to match, the action value must match that of
+In order for a message description to match, the action value must match that of
                 the message exactly.  If the action in the <a href="https://msdn.microsoft.com/399b3363-004b-499a-9726-0b2513826f43">WS_MESSAGE_DESCRIPTION</a> 
                 is <b>NULL</b>, then the action always matches.  This can be used in the case where there 
                 is no action header in the received message, or if the body is always the same no matter 
                 what the action is.
             
 
-
-                If the body is expected to be empty, the bodyElementDescription field of the 
+If the body is expected to be empty, the bodyElementDescription field of the 
                 <a href="https://msdn.microsoft.com/399b3363-004b-499a-9726-0b2513826f43">WS_MESSAGE_DESCRIPTION</a> may be <b>NULL</b>.
             
 
-
-                If the bodyElementDescription is non-<b>NULL</b>, then this function deserializes the 
+If the bodyElementDescription is non-<b>NULL</b>, then this function deserializes the 
                 body as described in <a href="https://msdn.microsoft.com/43ceeb1e-aeb2-4482-90f0-d7f6013b239f">WsReadBody</a>.
             
 
-
-                After a message has been received, it's headers can be inspected using <a href="https://msdn.microsoft.com/ff6e639f-715d-4a4f-b0ef-35202aa54dc5">WsGetHeader</a>
-                or <a href="https://msdn.microsoft.com/bdfb441b-afc4-4be8-b437-f299a31ce84b">WsGetCustomHeader</a>.
+After a message has been received, it's headers can be inspected using <a href="https://msdn.microsoft.com/ff6e639f-715d-4a4f-b0ef-35202aa54dc5">WsGetHeader</a>or <a href="https://msdn.microsoft.com/bdfb441b-afc4-4be8-b437-f299a31ce84b">WsGetCustomHeader</a>.
             
 
 

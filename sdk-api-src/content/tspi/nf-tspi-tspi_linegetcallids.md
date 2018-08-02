@@ -4,10 +4,10 @@ title: TSPI_lineGetCallIDs function
 author: windows-sdk-content
 description: The TSPI_lineGetCallIDs function returns the call identifiers for the service provider. This function requires TAPI 3.0 version negotiation.
 old-location: tspi\tspi_linegetcallids.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: d2a23712-a144-416c-a914-935f1776c256
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: TSPI_lineGetCallIDs, TSPI_lineGetCallIDs function [TAPI 2.2], _tspi_tspi_linegetcallids, tspi.tspi_linegetcallids, tspi/TSPI_lineGetCallIDs
 ms.prod: windows
 ms.technology: windows-sdk

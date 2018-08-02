@@ -4,10 +4,10 @@ title: "_VDS_PATH_INFO"
 author: windows-sdk-content
 description: Defines the information for a LUN path. This structure is returned in the ppPaths parameter of the IVdsLunMpio::GetPathInfo method.
 old-location: base\vds_path_info.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 14444252-11ca-4614-81d1-9a15e76d0186
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: VDS_PATH_INFO, VDS_PATH_INFO structure, _VDS_PATH_INFO, base.vds_path_info, vds/VDS_PATH_INFO, vdshwprv/VDS_PATH_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The unique ID of the path used by MPIO.
 
 ### -field type
 
-The type of interconnect that the hardware provider supports for this LUN path. <a href="https://msdn.microsoft.com/library/Aa383366(v=VS.85).aspx">VDS_HWT_HYBRID</a> is not a valid value for this member, even if the provider is a hybrid provider.
+The type of interconnect that the hardware provider supports for this LUN path. <a href="https://msdn.microsoft.com/en-us/library/Aa383366(v=VS.85).aspx">VDS_HWT_HYBRID</a> is not a valid value for this member, even if the provider is a hybrid provider.
 
 
 ### -field status

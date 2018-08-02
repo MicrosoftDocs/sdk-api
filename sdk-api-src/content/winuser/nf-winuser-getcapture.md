@@ -7,7 +7,7 @@ old-location: inputdev\getcapture.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\getcapture.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: GetCapture, GetCapture function [Keyboard and Mouse Input], _win32_GetCapture, _win32_getcapture_cpp, inputdev.getcapture, winui._win32_getcapture, winuser/GetCapture
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ The return value is a handle to the capture window associated with the current t
 
 A <b>NULL</b> return value means the current thread has not captured the mouse. However, it is possible that another thread or process has captured the mouse. 
 
-
-				 To get a handle to the capture window on another thread, use the <a href="https://msdn.microsoft.com/library/ms633506(v=VS.85).aspx">GetGUIThreadInfo</a> function.
+To get a handle to the capture window on another thread, use the <a href="https://msdn.microsoft.com/en-us/library/ms633506(v=VS.85).aspx">GetGUIThreadInfo</a> function.
 
 
 
@@ -96,11 +95,11 @@ A <b>NULL</b> return value means the current thread has not captured the mouse. 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633506(v=VS.85).aspx">GetGUIThreadInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633506(v=VS.85).aspx">GetGUIThreadInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
 
 
 
@@ -108,11 +107,11 @@ A <b>NULL</b> return value means the current thread has not captured the mouse. 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646261(v=VS.85).aspx">ReleaseCapture</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646261(v=VS.85).aspx">ReleaseCapture</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646262(v=VS.85).aspx">SetCapture</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646262(v=VS.85).aspx">SetCapture</a>
  
 
  

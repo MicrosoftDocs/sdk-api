@@ -7,7 +7,7 @@ old-location: intl\multibytetowidechar.htm
 old-project: Intl
 ms.assetid: a117fdfe-b52b-466f-9300-6455e91ea2a8
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_SYMBOL, CP_THREAD_ACP, CP_UTF7, CP_UTF8, MB_COMPOSITE, MB_ERR_INVALID_CHARS, MB_PRECOMPOSED, MB_USEGLYPHCHARS, MultiByteToWideChar, MultiByteToWideChar function [Internationalization for Windows Applications], _win32_MultiByteToWideChar, intl.multibytetowidechar, stringapiset/MultiByteToWideChar
 ms.prod: windows
 ms.technology: windows-sdk
@@ -46,7 +46,6 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # MultiByteToWideChar function
@@ -120,8 +119,7 @@ The current system OEM code page.
 </dl>
 </td>
 <td width="60%">
-
-                Symbol code page (42).
+Symbol code page (42).
 
 </td>
 </tr>
@@ -131,8 +129,7 @@ The current system OEM code page.
 </dl>
 </td>
 <td width="60%">
-
-                The Windows ANSI code page for the current thread. 
+The Windows ANSI code page for the current thread. 
 
 <div class="alert"><b>Note</b>  This value can be different on different computers, even on the same network. It can be changed on the same computer, leading to stored data becoming irrecoverably corrupted. This value is only intended for temporary use and permanent storage should use UTF-16 or UTF-8 if possible.</div>
 <div> </div>
@@ -154,8 +151,7 @@ UTF-7. Use this value only when forced by a 7-bit transport mechanism. Use of UT
 </dl>
 </td>
 <td width="60%">
-
-                UTF-8.
+UTF-8.
 
 </td>
 </tr>
@@ -300,8 +296,7 @@ The function fails if MB_ERR_INVALID_CHARS is set and an invalid character is en
 <li>A character that is not the default character in the source string, but translates to the default character when MB_ERR_INVALID_CHARS is not set</li>
 <li>For DBCS strings, a character that has a lead byte but no valid trail byte</li>
 </ul>
-
-        Starting with Windows Vista, this function fully conforms with the Unicode 4.1 specification for UTF-8 and UTF-16. The function used on earlier operating systems encodes or decodes lone <a href="https://msdn.microsoft.com/0dea39e2-a2b4-47fc-b44a-56af8ba1e346">surrogate</a> halves or mismatched surrogate pairs. Code written in earlier versions of Windows that rely on this behavior to encode random non-text binary data might run into problems. However, code that uses this function on valid UTF-8 strings will behave the same way as on earlier Windows operating systems.
+Starting with Windows Vista, this function fully conforms with the Unicode 4.1 specification for UTF-8 and UTF-16. The function used on earlier operating systems encodes or decodes lone <a href="https://msdn.microsoft.com/0dea39e2-a2b4-47fc-b44a-56af8ba1e346">surrogate</a> halves or mismatched surrogate pairs. Code written in earlier versions of Windows that rely on this behavior to encode random non-text binary data might run into problems. However, code that uses this function on valid UTF-8 strings will behave the same way as on earlier Windows operating systems.
 
 <b>Windows XP:</b> To prevent the security problem of the non-shortest-form versions of UTF-8 characters, <b>MultiByteToWideChar</b> deletes these characters.
 

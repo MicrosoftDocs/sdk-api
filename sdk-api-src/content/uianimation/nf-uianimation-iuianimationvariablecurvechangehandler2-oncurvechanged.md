@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariablecurvechangehandler2_oncurvechanged
 old-project: UIAnimation
 ms.assetid: CD0F59F7-9383-4602-8A97-356AEAB0FD82
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation],OnCurveChanged method, IUIAnimationVariableCurveChangeHandler2.OnCurveChanged, IUIAnimationVariableCurveChangeHandler2::OnCurveChanged, OnCurveChanged, OnCurveChanged method [Windows Animation], OnCurveChanged method [Windows Animation],IUIAnimationVariableCurveChangeHandler2 interface, uianimation.iuianimationvariablecurvechangehandler2_oncurvechanged, uianimation/IUIAnimationVariableCurveChangeHandler2::OnCurveChanged
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-         Handles events that occur when the animation curve of an animation variable changes.
+Handles events that occur when the animation curve of an animation variable changes.
 
 
 ## -parameters

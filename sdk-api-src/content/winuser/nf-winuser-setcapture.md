@@ -7,7 +7,7 @@ old-location: inputdev\setcapture.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\setcapture.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: SetCapture, SetCapture function [Keyboard and Mouse Input], _win32_SetCapture, _win32_setcapture_cpp, inputdev.setcapture, winui._win32_setcapture, winuser/SetCapture
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ The return value is a handle to the window that had previously captured the mous
 
 Only the foreground window can capture the mouse. When a background window attempts to do so, the window receives messages only for mouse events that occur when the cursor hot spot is within the visible portion of the window. Also, even if the foreground window has captured the mouse, the user can still click another window, bringing it to the foreground. 
 
-When the window no longer requires all mouse input, the thread that created the window should call the <a href="https://msdn.microsoft.com/library/ms646261(v=VS.85).aspx">ReleaseCapture</a> function to release the mouse. 
+When the window no longer requires all mouse input, the thread that created the window should call the <a href="https://msdn.microsoft.com/en-us/library/ms646261(v=VS.85).aspx">ReleaseCapture</a> function to release the mouse. 
 
 This function cannot be used to capture mouse input meant for another process. 
 
@@ -97,7 +97,7 @@ When the mouse is captured, menu hotkeys and other keyboard accelerators do not 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms645602(v=VS.85).aspx">Drawing Lines with the Mouse</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms645602(v=VS.85).aspx">Drawing Lines with the Mouse</a>.
 
 <div class="code"></div>
 
@@ -112,11 +112,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms645602(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646257(v=VS.85).aspx">GetCapture</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646257(v=VS.85).aspx">GetCapture</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
 
 
 
@@ -124,11 +124,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms645602(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646261(v=VS.85).aspx">ReleaseCapture</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646261(v=VS.85).aspx">ReleaseCapture</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645605(v=VS.85).aspx">WM_CAPTURECHANGED</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645605(v=VS.85).aspx">WM_CAPTURECHANGED</a>
  
 
  

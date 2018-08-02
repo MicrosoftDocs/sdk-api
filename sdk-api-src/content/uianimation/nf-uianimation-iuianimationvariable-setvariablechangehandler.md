@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable_setvariablechangehandler.htm
 old-project: UIAnimation
 ms.assetid: d773a59f-10a5-41e4-92f1-af72d8d15105
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetVariableChangeHandler method, IUIAnimationVariable.SetVariableChangeHandler, IUIAnimationVariable::SetVariableChangeHandler, SetVariableChangeHandler, SetVariableChangeHandler method [Windows Animation], SetVariableChangeHandler method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setvariablechangehandler, uianimation/IUIAnimationVariable::SetVariableChangeHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Specifies a variable change handler. This handler is notified of changes to the value of the animation variable.
+Specifies a variable change handler. This handler is notified of changes to the value of the animation variable.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param handler [in, optional]
 
-
-               A variable change handler.  
+A variable change handler.  
                
                The specified object must implement the
                <a href="https://msdn.microsoft.com/2288b256-aaf4-44fe-9ad1-f05ef7b0e30b">IUIAnimationVariableChangeHandler</a> interface or be <b>NULL</b>.
@@ -97,8 +95,7 @@ Passing <b>NULL</b> for the <i>handler</i> parameter causes Windows Animation to
 
 
 
-<a href="https://msdn.microsoft.com/8dc20701-0808-4308-92fc-8be6c4b039ca">
-      IUIAnimationVariable::SetVariableIntegerChangeHandler</a>
+<a href="https://msdn.microsoft.com/8dc20701-0808-4308-92fc-8be6c4b039ca">IUIAnimationVariable::SetVariableIntegerChangeHandler</a>
 
 
 

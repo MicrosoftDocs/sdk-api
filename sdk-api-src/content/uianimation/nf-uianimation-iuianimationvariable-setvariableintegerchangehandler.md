@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable_setvariableintegerchangehandler.h
 old-project: UIAnimation
 ms.assetid: 8dc20701-0808-4308-92fc-8be6c4b039ca
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetVariableIntegerChangeHandler method, IUIAnimationVariable.SetVariableIntegerChangeHandler, IUIAnimationVariable::SetVariableIntegerChangeHandler, SetVariableIntegerChangeHandler, SetVariableIntegerChangeHandler method [Windows Animation], SetVariableIntegerChangeHandler method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setvariableintegerchangehandler, uianimation/IUIAnimationVariable::SetVariableIntegerChangeHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Specifies an integer variable change handler. This handler is notified of changes to the integer value of the animation variable.
+Specifies an integer variable change handler. This handler is notified of changes to the integer value of the animation variable.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param handler [in, optional]
 
-
-               An integer variable change handler.  
+An integer variable change handler.  
                
                The specified object must implement the
                <a href="https://msdn.microsoft.com/acd9ff0f-e2e4-4711-9d9c-54624f170ec6">IUIAnimationVariableIntegerChangeHandler</a> interface or be NULL.

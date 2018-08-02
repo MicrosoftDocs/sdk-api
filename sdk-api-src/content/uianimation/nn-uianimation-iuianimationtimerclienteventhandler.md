@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimerclienteventhandler.htm
 old-project: UIAnimation
 ms.assetid: 8ca8f7d8-e698-4c55-8241-5c8f7b47f0e8
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationTimerClientEventHandler, IUIAnimationTimerClientEventHandler interface [Windows Animation], IUIAnimationTimerClientEventHandler interface [Windows Animation],described, uianimation.iuianimationtimerclienteventhandler, uianimation/IUIAnimationTimerClientEventHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Defines a method for handling events related to changes in timer client status.
+Defines a method for handling events related to changes in timer client status.
 
 
 ## -inheritance
@@ -75,8 +74,7 @@ The <b>IUIAnimationTimerClientEventHandler</b> interface has these methods.
 <a href="https://msdn.microsoft.com/a2c161ce-937e-449a-884f-89a8a847d8aa">IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged</a>
 </td>
 <td align="left" width="63%">
-
-      Handles events that occur when the status of the timer's  client changes.
+Handles events that occur when the status of the timer's  client changes.
 
 </td>
 </tr>
@@ -88,18 +86,15 @@ The <b>IUIAnimationTimerClientEventHandler</b> interface has these methods.
 
 
 
-<a href="https://msdn.microsoft.com/75d29528-005e-4f49-b8ff-651b58d58fc7">
-      IUIAnimationTimer</a>
+<a href="https://msdn.microsoft.com/75d29528-005e-4f49-b8ff-651b58d58fc7">IUIAnimationTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7383df5-dbd4-4cae-a682-47f84c2e8106">
-      IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler</a>
+<a href="https://msdn.microsoft.com/c7383df5-dbd4-4cae-a682-47f84c2e8106">IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce213fc5-1329-413f-abf1-a4ab7c78818e">
-      IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler</a>
+<a href="https://msdn.microsoft.com/ce213fc5-1329-413f-abf1-a4ab7c78818e">IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler</a>
 
 
 

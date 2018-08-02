@@ -7,7 +7,7 @@ old-location: wsw\wscreatexmlsecuritytoken.htm
 old-project: wsw
 ms.assetid: 1d82c6c3-2bcf-4883-aed7-1a163bbb2228
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCreateXmlSecurityToken, WsCreateXmlSecurityToken function [Web Services for Windows], webservices/WsCreateXmlSecurityToken, wsw.wscreatexmlsecuritytoken
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,13 +110,10 @@ The number of properties in the <i>properties</i> array.
 
 ### -param token
 
-
-
-                On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/050a2ce5-279e-48fb-85da-1d0b11cd8229">WS_SECURITY_TOKEN</a> structure representing the created XML security token.
+On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/050a2ce5-279e-48fb-85da-1d0b11cd8229">WS_SECURITY_TOKEN</a> structure representing the created XML security token.
                 
                 When you no longer need this structure, you must free it by calling <a href="https://msdn.microsoft.com/7f9500a8-b54f-4967-8f8d-9f8770d3dd60">WsFreeSecurityToken</a>.
                 
-
 
 The returned security token may be used with <a href="https://msdn.microsoft.com/5ca1e67a-11f5-44bb-afe8-c934837d711b">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> if it is to be
 
@@ -148,7 +145,6 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>

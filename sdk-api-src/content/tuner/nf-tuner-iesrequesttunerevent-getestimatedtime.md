@@ -7,7 +7,7 @@ old-location: mstv\iesrequesttunerevent_getestimatedtime.htm
 old-project: mstv
 ms.assetid: 9968c1b1-5a4d-45a1-a083-afdbcc616f6d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetEstimatedTime, GetEstimatedTime method [Microsoft TV Technologies], GetEstimatedTime method [Microsoft TV Technologies],IESRequestTunerEvent interface, IESRequestTunerEvent interface [Microsoft TV Technologies],GetEstimatedTime method, IESRequestTunerEvent.GetEstimatedTime, IESRequestTunerEvent::GetEstimatedTime, mstv.iesrequesttunerevent_getestimatedtime, tuner/IESRequestTunerEvent::GetEstimatedTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Gets a value indicating the amount of time that a device estimates it  needs exclusive access to a tuner and its Conditional Access Services (CAS).
+Gets a value indicating the amount of time that a device estimates it  needs exclusive access to a tuner and its Conditional Access Services (CAS).
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param pdwEstimatedTime [out, retval]
 
-
-            Gets the estimated time that exclusive access is needed, in seconds.
+Gets the estimated time that exclusive access is needed, in seconds.
           
 
 

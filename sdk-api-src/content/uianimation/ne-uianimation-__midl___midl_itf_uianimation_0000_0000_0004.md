@@ -7,7 +7,7 @@ old-location: uianimation\ui_animation_repeat_mode.htm
 old-project: UIAnimation
 ms.assetid: 5E3AAAFE-C4EC-4BAF-AD0E-51F1AC04E472
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: UI_ANIMATION_REPEAT_MODE, UI_ANIMATION_REPEAT_MODE enumeration [Windows Animation], UI_ANIMATION_REPEAT_MODE_ALTERNATE, UI_ANIMATION_REPEAT_MODE_NORMAL, __MIDL___MIDL_itf_UIAnimation_0000_0000_0004, uianimation.ui_animation_repeat_mode, uianimation/UI_ANIMATION_REPEAT_MODE, uianimation/UI_ANIMATION_REPEAT_MODE_ALTERNATE, uianimation/UI_ANIMATION_REPEAT_MODE_NORMAL
 ms.prod: windows
 ms.technology: windows-sdk

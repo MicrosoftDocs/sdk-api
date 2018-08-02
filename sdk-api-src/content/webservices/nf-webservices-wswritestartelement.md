@@ -7,7 +7,7 @@ old-location: wsw\wswritestartelement.htm
 old-project: wsw
 ms.assetid: da23f5e6-504c-4e93-9190-7d8c41efc0da
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsWriteStartElement, WsWriteStartElement function [Web Services for Windows], webservices/WsWriteStartElement, wsw.wswritestartelement
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,9 +54,7 @@ req.product: Windows Address Book 5.0
 Writes a start element to the writer.
       
 
-
-        After calling this function <a href="https://msdn.microsoft.com/9fd1eed9-6d8b-4b2e-a7ad-54a7f584734f">WsWriteStartAttribute</a> or <a href="https://msdn.microsoft.com/17d73228-ea3b-4212-b9f7-7dcfdd6043a3">WsWriteXmlnsAttribute</a>
-        can be called to write additional attributes to the element.
+After calling this function <a href="https://msdn.microsoft.com/9fd1eed9-6d8b-4b2e-a7ad-54a7f584734f">WsWriteStartAttribute</a> or <a href="https://msdn.microsoft.com/17d73228-ea3b-4212-b9f7-7dcfdd6043a3">WsWriteXmlnsAttribute</a>can be called to write additional attributes to the element.
       The element is not committed to the writer until <a href="https://msdn.microsoft.com/cfb23857-bc51-4467-9aeb-6ce8810ae1b0">WsWriteEndElement</a> or some other function  that 
         writes content is called.
       
@@ -75,8 +73,7 @@ A pointer to the <a href="https://msdn.microsoft.com/8f413e60-8a30-492c-8f2d-80b
 
 ### -param prefix [in, optional]
 
-
-          A WS_XML_STRING pointer to the prefix to use for the start element.  If the value referenced by this parameter is <b>NULL</b> the Writer will choose a attribute.
+A WS_XML_STRING pointer to the prefix to use for the start element.  If the value referenced by this parameter is <b>NULL</b> the Writer will choose a attribute.
         
 
 
@@ -88,8 +85,7 @@ A WS_XML_STRING pointer to the local name used by the start element.  It must be
 
 ### -param ns [in]
 
-
-          A WS_XML_STRING pointer to the namespace to be used for the start element.
+A WS_XML_STRING pointer to the namespace to be used for the start element.
         
           If no prefix is specified the Writer may use a prefix in scope that is bound to the specified namespace or it
           may generate a prefix and include an XMLNS attribute.
@@ -122,7 +118,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -134,7 +129,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>
@@ -146,7 +140,6 @@ The operation is not allowed due to the current state of the object.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -158,7 +151,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -173,21 +165,17 @@ A quota was exceeded.
 
 
 
-
-        If the underlying encoding supports empty elements and the element has no content an empty element is written.
+If the underlying encoding supports empty elements and the element has no content an empty element is written.
       
 
-
-        If a non-empty prefix is specified with an empty namespace <b>WS_E_INVALID_FORMAT</b> is returned.
+If a non-empty prefix is specified with an empty namespace <b>WS_E_INVALID_FORMAT</b> is returned.
       
 
-
-        If writing the start element causes <b>WS_XML_WRITER_PROPERTY_MAX_DEPTH</b> to be exceeded
+If writing the start element causes <b>WS_XML_WRITER_PROPERTY_MAX_DEPTH</b> to be exceeded
         <b>WS_E_QUOTA_EXCEEDED</b> is returned.
        (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
 
-
-        When using <a href="https://msdn.microsoft.com/18236818-492f-4906-9e7d-6ca03ef28d36">WS_XML_WRITER_MTOM_ENCODING</a> it is an error to attempt to write an element with the
+When using <a href="https://msdn.microsoft.com/18236818-492f-4906-9e7d-6ca03ef28d36">WS_XML_WRITER_MTOM_ENCODING</a> it is an error to attempt to write an element with the
         localName "Include" from the namespace"http://www.w3.org/2004/08/xop/include".
       
 

@@ -7,7 +7,7 @@ old-location: winmsg\callnexthookex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\callnexthookex.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: CallNextHookEx, CallNextHookEx function [Windows and Messages], _win32_CallNextHookEx, _win32_callnexthookex_cpp, winmsg.callnexthookex, winui._win32_callnexthookex, winuser/CallNextHookEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ Passes the hook information to the next hook procedure in the current hook chain
 
 Type: <b>HHOOK</b>
 
-
-                    This parameter is ignored.
+This parameter is ignored.
                 
 
 
@@ -128,7 +127,7 @@ Calling <b>CallNextHookEx</b> is optional, but it is highly recommended; otherwi
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632589(v=VS.85).aspx">Hooks</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>
 
 
 
@@ -136,11 +135,11 @@ Calling <b>CallNextHookEx</b> is optional, but it is highly recommended; otherwi
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644993(v=VS.85).aspx">UnhookWindowsHookEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644993(v=VS.85).aspx">UnhookWindowsHookEx</a>
  
 
  

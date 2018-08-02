@@ -4,10 +4,10 @@ title: PowerCreateRequest function
 author: windows-sdk-content
 description: Creates a new power request object.
 old-location: base\powercreaterequest.htm
-old-project: power
+old-project: Power
 ms.assetid: 2122bf00-9e6b-48ab-89b0-f53dd6804902
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: PowerCreateRequest, PowerCreateRequest function, base.powercreaterequest, winbase/PowerCreateRequest
 ms.prod: windows
 ms.technology: windows-sdk

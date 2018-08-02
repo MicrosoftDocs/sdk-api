@@ -7,7 +7,7 @@ old-location: menurc\lstrcat.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcat.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: "_win32_lstrcat, _win32_lstrcat_cpp, lstrcat, lstrcat function [Menus and Other Resources], lstrcatA, lstrcatW, menurc.lstrcat, winbase/lstrcat, winbase/lstrcatA, winbase/lstrcatW, winui._win32_lstrcat"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: Windows Address Book 5.0
 
 
 Appends one string to another.
-<div class="alert"><b>Warning</b>  Do not use. Consider using <a href="https://msdn.microsoft.com/library/ms647518(v=VS.85).aspx">StringCchCat</a> instead. See Security Considerations. </div><div> </div>
+<div class="alert"><b>Warning</b>  Do not use. Consider using <a href="https://msdn.microsoft.com/en-us/library/ms647518(v=VS.85).aspx">StringCchCat</a> instead. See Security Considerations. </div><div> </div>
 
 ## -parameters
 
@@ -108,35 +108,35 @@ If the function fails, the return value is <b>NULL</b>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647495(v=VS.85).aspx">StringCbCat</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647495(v=VS.85).aspx">StringCbCat</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647496(v=VS.85).aspx">StringCbCatEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647496(v=VS.85).aspx">StringCbCatEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647497(v=VS.85).aspx">StringCbCatN</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647497(v=VS.85).aspx">StringCbCatN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647498(v=VS.85).aspx">StringCbCatNEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647498(v=VS.85).aspx">StringCbCatNEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647518(v=VS.85).aspx">StringCchCat</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647518(v=VS.85).aspx">StringCchCat</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647520(v=VS.85).aspx">StringCchCatEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647520(v=VS.85).aspx">StringCchCatEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647522(v=VS.85).aspx">StringCchCatN</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647522(v=VS.85).aspx">StringCchCatN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647524(v=VS.85).aspx">StringCchCatNEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647524(v=VS.85).aspx">StringCchCatNEx</a>
 
 
 
@@ -144,15 +144,15 @@ If the function fails, the return value is <b>NULL</b>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647488(v=VS.85).aspx">lstrcmp</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647488(v=VS.85).aspx">lstrcmp</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647489(v=VS.85).aspx">lstrcmpi</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647489(v=VS.85).aspx">lstrcmpi</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647492(v=VS.85).aspx">lstrlen</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647492(v=VS.85).aspx">lstrlen</a>
  
 
  

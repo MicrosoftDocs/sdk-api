@@ -4,10 +4,10 @@ title: ITextPara::DeleteTab
 author: windows-sdk-content
 description: Deletes a tab at a specified displacement.
 old-location: controls\ITextPara_DeleteTab.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\deletetab.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: DeleteTab, DeleteTab method [Windows Controls], DeleteTab method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],DeleteTab method, ITextPara.DeleteTab, ITextPara::DeleteTab, _win32_ITextPara_DeleteTab, _win32_ITextPara_DeleteTab_cpp, controls.ITextPara_DeleteTab, controls._win32_ITextPara_DeleteTab, tom/ITextPara::DeleteTab
 ms.prod: windows
 ms.technology: windows-sdk
@@ -145,11 +145,11 @@ The paragraph format object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787728(v=VS.85).aspx">AddTab</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787728(v=VS.85).aspx">AddTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787738(v=VS.85).aspx">ClearAllTabs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787738(v=VS.85).aspx">ClearAllTabs</a>
 
 
 
@@ -157,19 +157,19 @@ The paragraph format object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773989(v=VS.85).aspx">GetListTab</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773989(v=VS.85).aspx">GetListTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774034(v=VS.85).aspx">GetTab</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774034(v=VS.85).aspx">GetTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774035(v=VS.85).aspx">GetTabCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774035(v=VS.85).aspx">GetTabCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
 
 
 
@@ -177,11 +177,11 @@ The paragraph format object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774177(v=VS.85).aspx">SetListTab</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774177(v=VS.85).aspx">SetListTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

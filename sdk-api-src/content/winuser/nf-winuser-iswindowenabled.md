@@ -7,7 +7,7 @@ old-location: inputdev\iswindowenabled.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\iswindowenabled.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: IsWindowEnabled, IsWindowEnabled function [Keyboard and Mouse Input], _win32_IsWindowEnabled, _win32_iswindowenabled_cpp, inputdev.iswindowenabled, winui._win32_iswindowenabled, winuser/IsWindowEnabled
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,15 +108,15 @@ A child window receives input only if it is both enabled and visible.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646291(v=VS.85).aspx">EnableWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646291(v=VS.85).aspx">EnableWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633530(v=VS.85).aspx">IsWindowVisible</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633530(v=VS.85).aspx">IsWindowVisible</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
 
 
 

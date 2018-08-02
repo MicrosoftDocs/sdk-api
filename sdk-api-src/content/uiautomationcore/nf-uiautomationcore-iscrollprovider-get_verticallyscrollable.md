@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IScrollProvider_VerticallyScrollable.htm
 old-project: WinAuto
 ms.assetid: fadc0fd7-969c-4189-b37c-9b8243e30ac1
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IScrollProvider interface [Windows Accessibility],VerticallyScrollable property, IScrollProvider.VerticallyScrollable, IScrollProvider.get_VerticallyScrollable, IScrollProvider::VerticallyScrollable, IScrollProvider::get_VerticallyScrollable, VerticallyScrollable property [Windows Accessibility], VerticallyScrollable property [Windows Accessibility],IScrollProvider interface, get_VerticallyScrollable, uiauto.uiauto_IScrollProvider_VerticallyScrollable, uiauto_IScrollProvider_VerticallyScrollable, uiautomationcore/IScrollProvider::VerticallyScrollable, uiautomationcore/IScrollProvider::get_VerticallyScrollable, winauto.uiauto_IScrollProvider_VerticallyScrollable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        Indicates whether the control can scroll vertically.
+Indicates whether the control can scroll vertically.
         
 
 This property is read-only.
@@ -66,8 +65,7 @@ This property is read-only.
 
 
 
-
-        This property can be dynamic. For example, the content area of the control 
+This property can be dynamic. For example, the content area of the control 
         might not be larger than the viewable area, meaning <b>IScrollProvider::VerticallyScrollable</b> 
         is <b>FALSE</b>. However, resizing the control or adding child items may increase the bounds of the 
         content area beyond the viewable area, meaning that <b>IScrollProvider::VerticallyScrollable</b> is <b>TRUE</b>. 

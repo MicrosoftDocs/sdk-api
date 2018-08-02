@@ -7,7 +7,7 @@ old-location: hidpi\getdpiforsystem.htm
 old-project: hidpi
 ms.assetid: B744EC4A-DB78-4654-B50F-C27CB7702899
 ms.author: windowssdkdev
-ms.date: 03/30/2018
+ms.date: 07/29/2018
 ms.keywords: GetDpiForSystem, GetDpiForSystem function [High DPI], hidpi.getdpiforsystem, winuser/GetDpiForSystem
 ms.prod: windows
 ms.technology: windows-sdk

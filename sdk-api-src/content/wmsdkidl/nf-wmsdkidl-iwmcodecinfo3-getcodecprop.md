@@ -7,7 +7,7 @@ old-location: wmformat\iwmcodecinfo3_getcodecprop.htm
 old-project: wmformat
 ms.assetid: 444f5789-c5e5-4eeb-a2b4-11f959641206
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetCodecProp, GetCodecProp method [windows Media Format], GetCodecProp method [windows Media Format],IWMCodecInfo3 interface, IWMCodecInfo3 interface [windows Media Format],GetCodecProp method, IWMCodecInfo3.GetCodecProp, IWMCodecInfo3::GetCodecProp, IWMCodecInfo3GetCodecProp, wmformat.iwmcodecinfo3_getcodecprop, wmsdkidl/IWMCodecInfo3::GetCodecProp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,11 +71,9 @@ GUID identifying the major type of digital media. This must be one of the follow
 
 <table>
 <tr>
-<th>
-                  Constant
+<th>Constant
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -103,14 +101,11 @@ The following table lists the codec properties you can retrieve. The property di
 
 <table>
 <tr>
-<th>
-                  Global constant
+<th>Global constant
                 </th>
-<th>
-                  Data type
+<th>Data type
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

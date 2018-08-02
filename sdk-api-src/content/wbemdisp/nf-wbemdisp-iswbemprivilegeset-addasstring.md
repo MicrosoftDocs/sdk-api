@@ -7,7 +7,7 @@ old-location: wmi\swbemprivilegeset_addasstring.htm
 old-project: WmiSdk
 ms.assetid: 729ed4e3-2c5c-4bb4-acc6-cf9ad0d5eaf1
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: AddAsString, AddAsString method [Windows Management Instrumentation], AddAsString method [Windows Management Instrumentation],ISWbemPrivilegeSet interface, AddAsString method [Windows Management Instrumentation],SWbemPrivilegeSet object, ISWbemPrivilegeSet interface [Windows Management Instrumentation],AddAsString method, ISWbemPrivilegeSet.AddAsString, ISWbemPrivilegeSet::AddAsString, SWbemPrivilegeSet object [Windows Management Instrumentation],AddAsString method, SWbemPrivilegeSet.AddAsString, _hmm_swbemprivilegeset.addasstring, wmi.swbemprivilegeset_addasstring
 ms.prod: windows
 ms.technology: windows-sdk

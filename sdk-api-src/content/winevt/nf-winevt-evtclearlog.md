@@ -7,7 +7,7 @@ old-location: wes\evtclearlog.htm
 old-project: WES
 ms.assetid: 26d2aabd-96dc-4091-82f4-e5d4c69e09a4
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtClearLog, EvtClearLog function [EventLog], wes.evtclearlog, winevt/EvtClearLog
 ms.prod: windows
 ms.technology: windows-sdk

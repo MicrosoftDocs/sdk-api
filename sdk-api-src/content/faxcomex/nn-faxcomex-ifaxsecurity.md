@@ -72,10 +72,10 @@ The <b>IFaxSecurity</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/32e13dff-72a5-4968-9f86-12fff06bd06a">Refresh</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690274(v=VS.85).aspx">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/32e13dff-72a5-4968-9f86-12fff06bd06a">IFaxSecurity::Refresh</a> method refreshes <a href="https://msdn.microsoft.com/library/ms689509(v=VS.85).aspx">FaxSecurity</a> object information from the fax server.
+The <a href="https://msdn.microsoft.com/en-us/library/ms690274(v=VS.85).aspx">IFaxSecurity::Refresh</a> method refreshes <a href="https://msdn.microsoft.com/library/ms689509(v=VS.85).aspx">FaxSecurity</a> object information from the fax server.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ The <a href="https://msdn.microsoft.com/32e13dff-72a5-4968-9f86-12fff06bd06a">IF
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/a016aff7-ca25-4724-b13c-92d31da28a38">IFaxSecurity::Save</a> method saves the <a href="https://msdn.microsoft.com/library/ms689509(v=VS.85).aspx">FaxSecurity</a> object data.
+The <a href="https://msdn.microsoft.com/en-us/library/ms690247(v=VS.85).aspx">IFaxSecurity::Save</a> method saves the <a href="https://msdn.microsoft.com/library/ms689509(v=VS.85).aspx">FaxSecurity</a> object data.
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ The <a href="https://msdn.microsoft.com/library/ms689128(v=VS.85).aspx">IFaxSecu
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/329c4bd1-6b92-4dbf-aaf9-2e8c89192fd6">GrantedRights</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689131(v=VS.85).aspx">GrantedRights</a>
 
 
 </td>
@@ -140,7 +140,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/329c4bd1-6b92-4dbf-aaf9-2e8c89192fd6">IFaxSecurity::get_GrantedRights</a> property is a combination of the fax server access rights granted to the user referencing this property. For example, some users have permission to submit fax jobs with high priority while others have permission to submit jobs with normal or low priority only.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689131(v=VS.85).aspx">IFaxSecurity::get_GrantedRights</a> property is a combination of the fax server access rights granted to the user referencing this property. For example, some users have permission to submit fax jobs with high priority while others have permission to submit jobs with normal or low priority only.
 
 </td>
 </tr>

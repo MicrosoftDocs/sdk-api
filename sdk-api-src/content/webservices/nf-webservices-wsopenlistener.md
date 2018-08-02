@@ -7,7 +7,7 @@ old-location: wsw\wsopenlistener.htm
 old-project: wsw
 ms.assetid: 36226881-3fe7-4510-b147-7ee30146482c
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsOpenListener, WsOpenListener function [Web Services for Windows], webservices/WsOpenListener, wsw.wsopenlistener
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ A pointer to the <b>Listener</b> object to open.  The pointer must reference a v
 A pointer to a object containing the URL address string for the Listener.  
                 
 
-<div class="alert"><b>Note</b>  
-                    The URL is always in escaped form..
+<div class="alert"><b>Note</b>  The URL is always in escaped form..
                 The URL may not contain a query string or fragment.
                 This URL can include the '+' or '*' wildcards
                     in the host name portion, or a host name, or a literal IP address.
@@ -112,8 +111,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    The asynchronous operation is still pending.
+The asynchronous operation is still pending.
                 
 
 </td>
@@ -125,8 +123,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    The listener was aborted during the open, or before the open.
+The listener was aborted during the open, or before the open.
                 
 
 </td>
@@ -138,8 +135,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    The listener is in the incorrect state.
+The listener is in the incorrect state.
                 
 
 </td>
@@ -151,7 +147,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The address is already being used.
 
 </td>
@@ -163,7 +158,6 @@ The address is already being used.
 </dl>
 </td>
 <td width="60%">
-
 The address is not valid for this context.
 
 </td>
@@ -175,7 +169,6 @@ The address is not valid for this context.
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -187,7 +180,6 @@ A quota was exceeded.
 </dl>
 </td>
 <td width="60%">
-
 The operation was aborted.
 
 </td>
@@ -199,7 +191,6 @@ The operation was aborted.
 </dl>
 </td>
 <td width="60%">
-
 The operation did not complete within the time allotted.
 
 </td>
@@ -211,7 +202,6 @@ The operation did not complete within the time allotted.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -223,7 +213,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -249,23 +238,19 @@ This function may return other errors not listed above.
 
 
 
-
-                    When using IPv6 addresses, they must be enclosed in brackets in
+When using IPv6 addresses, they must be enclosed in brackets in
                     the host name portion.
                 
 
-
-                    For more information, see <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>.
+For more information, see <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>.
                 
 
-
-                    For <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_UDP_CHANNEL_BINDING</a>, the path portion of the URL is
+For <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_UDP_CHANNEL_BINDING</a>, the path portion of the URL is
                     ignored.  If a literal IP address is specified, then it is used to listen, otherwise
                     a wildcard IP address is used.
                 
 
-
-                    For <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_TCP_CHANNEL_BINDING</a>, the path portion of the URL is
+For <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_TCP_CHANNEL_BINDING</a>, the path portion of the URL is
                     is matched as a prefix against the received URL.  
                     If a literal IP address is specified, then it is used to listen, 
                     otherwise a wildcard IP address is used.

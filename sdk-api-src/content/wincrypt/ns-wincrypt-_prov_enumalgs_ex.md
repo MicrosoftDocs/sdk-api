@@ -4,10 +4,10 @@ title: "_PROV_ENUMALGS_EX"
 author: windows-sdk-content
 description: Used with the CryptGetProvParam function when the PP_ENUMALGS_EX parameter is retrieved to contain information about an algorithm supported by a cryptographic service provider (CSP).
 old-location: security\prov_enumalgs_ex.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 239dbc6f-c3fa-4f97-aa9a-4993fe726a98
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: PROV_ENUMALGS_EX, PROV_ENUMALGS_EX structure [Security], _PROV_ENUMALGS_EX, _crypto2_prov_enumalgs_ex, security.prov_enumalgs_ex, wincrypt/PROV_ENUMALGS_EX
 ms.prod: windows
 ms.technology: windows-sdk

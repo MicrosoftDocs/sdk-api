@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimer_settimerupdatehandler.htm
 old-project: UIAnimation
 ms.assetid: 69c5f8b2-f3c8-43aa-8dae-cedd0036dc03
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationTimer interface [Windows Animation],SetTimerUpdateHandler method, IUIAnimationTimer.SetTimerUpdateHandler, IUIAnimationTimer::SetTimerUpdateHandler, SetTimerUpdateHandler, SetTimerUpdateHandler method [Windows Animation], SetTimerUpdateHandler method [Windows Animation],IUIAnimationTimer interface, uianimation.iuianimationtimer_settimerupdatehandler, uianimation/IUIAnimationTimer::SetTimerUpdateHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Specifies a timer update handler.
+Specifies a timer update handler.
 
 
 ## -parameters
@@ -62,15 +61,13 @@ req.product: Windows XP with SP1 and later
 
 ### -param updateHandler [in, optional]
 
-
-               A timer update handler, or <b>NULL</b> (see Remarks).  The specified object must implement the
+A timer update handler, or <b>NULL</b> (see Remarks).  The specified object must implement the
                <a href="https://msdn.microsoft.com/f155ed12-d493-48a0-9bdf-0e1e79cbcd38">IUIAnimationTimerUpdateHandler</a> interface.
 
 
 ### -param idleBehavior [in]
 
-
-               A member of 
+A member of 
                <a href="https://msdn.microsoft.com/70016fbd-060c-4f2a-89d3-d474850f9d01">UI_ANIMATION_IDLE_BEHAVIOR</a> 
                that specifies the behavior of the timer when it is idle.
 
@@ -88,8 +85,7 @@ If the method succeeds, it returns S_OK. If the update handler is already connec
 
 
 
-
-      The timer update handler receives time updates (ticks) from the timer. The timer indicates an update by calling 
+The timer update handler receives time updates (ticks) from the timer. The timer indicates an update by calling 
       the <a href="https://msdn.microsoft.com/06daa961-5f92-451f-958a-cf68f8ae2b0a">IUIAnimationTimerUpdateHandler::OnUpdate</a>      
       method on the specified handler.
 
@@ -113,8 +109,7 @@ For an example, see <a href="https://msdn.microsoft.com/c4f746c3-e47c-4b82-a41b-
 
 
 
-<a href="https://msdn.microsoft.com/ff1bae45-2199-4340-a27b-19865d2877f9">
-      IUIAnimationTimer::SetTimerEventHandler</a>
+<a href="https://msdn.microsoft.com/ff1bae45-2199-4340-a27b-19865d2877f9">IUIAnimationTimer::SetTimerEventHandler</a>
 
 
 

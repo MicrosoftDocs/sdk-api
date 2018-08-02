@@ -7,7 +7,7 @@ old-location: wes\evtopenlog.htm
 old-project: WES
 ms.assetid: 1bf81452-2a62-4999-91b1-f1b42e6db91f
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtOpenLog, EvtOpenLog function [EventLog], wes.evtopenlog, winevt/EvtOpenLog
 ms.prod: windows
 ms.technology: windows-sdk

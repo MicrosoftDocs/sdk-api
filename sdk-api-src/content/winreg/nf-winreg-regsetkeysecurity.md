@@ -4,10 +4,10 @@ title: RegSetKeySecurity function
 author: windows-sdk-content
 description: Sets the security of an open registry key.
 old-location: security\regsetkeysecurity.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 08bf8fc1-6a08-490e-b589-730211774257
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: RegSetKeySecurity, RegSetKeySecurity function [Security], _win32_regsetkeysecurity, security.regsetkeysecurity, winreg/RegSetKeySecurity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,8 +88,7 @@ A pointer to a
 
 
 
-
-						If the function succeeds, the function returns ERROR_SUCCESS.
+If the function succeeds, the function returns ERROR_SUCCESS.
 						
 
 If the function fails, it returns a nonzero error code defined in WinError.h. You can use the 
@@ -120,7 +119,7 @@ If <i>hKey</i> is one of the predefined keys, use  the <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
 
 
 

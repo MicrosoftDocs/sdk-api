@@ -7,7 +7,7 @@ old-location: automat\lpsafearray_userunmarshal.htm
 old-project: automat
 ms.assetid: 8798b8c1-d1c0-4729-b7bd-0329e8b71b0d
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: LPSAFEARRAY_UserUnmarshal, LPSAFEARRAY_UserUnmarshal function [Automation], _oa96_LPSAFEARRAY_UserUnmarshal, automat.lpsafearray_userunmarshal, wia_xp/LPSAFEARRAY_UserUnmarshal
 ms.prod: windows
 ms.technology: windows-sdk

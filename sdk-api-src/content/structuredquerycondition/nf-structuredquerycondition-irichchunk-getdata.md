@@ -7,7 +7,7 @@ old-location: search\_search_IRichChunk_GetData.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irichchunk\getdata.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: GetData, GetData method [search], GetData method [search],IRichChunk interface, IRichChunk interface [search],GetData method, IRichChunk.GetData, IRichChunk::GetData, _search_IRichChunk_GetData, search._search_IRichChunk_GetData, structuredquerycondition/IRichChunk::GetData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Retrieves the <a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> and input string that represents a chunk of data.
+Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> and input string that represents a chunk of data.
 
 
 ## -parameters
@@ -64,8 +63,7 @@ req.product: Windows XP with SP1 and later
 
 Type: <b>ULONG*</b>
 
-
-          Receives the zero-based starting position of the range. This parameter can be <b>NULL</b>.
+Receives the zero-based starting position of the range. This parameter can be <b>NULL</b>.
         
 
 
@@ -73,8 +71,7 @@ Type: <b>ULONG*</b>
 
 Type: <b>ULONG*</b>
 
-
-          Receives the length of the range. This parameter can be <b>NULL</b>.
+Receives the length of the range. This parameter can be <b>NULL</b>.
         
 
 
@@ -82,17 +79,15 @@ Type: <b>ULONG*</b>
 
 Type: <b>LPWSTR*</b>
 
-
-          Receives the associated Unicode string value, or <b>NULL</b> if not available.
+Receives the associated Unicode string value, or <b>NULL</b> if not available.
         
 
 
 ### -param pValue [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
 
-
-          Receives the associated <a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> value, or <b>VT_EMPTY</b> if not available. This parameter can be <b>NULL</b>.
+Receives the associated <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> value, or <b>VT_EMPTY</b> if not available. This parameter can be <b>NULL</b>.
         
 
 
@@ -121,7 +116,7 @@ Prior to Windows 7, this was declared in structuredquery.idl and structuredquer
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231336(v=VS.85).aspx">IRichChunk</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231336(v=VS.85).aspx">IRichChunk</a>
  
 
  

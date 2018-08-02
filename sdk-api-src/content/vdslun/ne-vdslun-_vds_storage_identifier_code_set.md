@@ -4,10 +4,10 @@ title: "_VDS_STORAGE_IDENTIFIER_CODE_SET"
 author: windows-sdk-content
 description: Defines the set of the valid code sets (encodings) of a storage identifier.
 old-location: base\vds_storage_identifier_code_set.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 6b4a3282-dc0c-4974-8c4c-777a28fb9005
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: VDSStorageIdCodeSetAscii, VDSStorageIdCodeSetBinary, VDSStorageIdCodeSetReserved, VDSStorageIdCodeSetUtf8, VDS_STORAGE_IDENTIFIER_CODE_SET, VDS_STORAGE_IDENTIFIER_CODE_SET enumeration [VDS], _VDS_STORAGE_IDENTIFIER_CODE_SET, base.vds_storage_identifier_code_set, vdslun/VDSStorageIdCodeSetAscii, vdslun/VDSStorageIdCodeSetBinary, vdslun/VDSStorageIdCodeSetReserved, vdslun/VDSStorageIdCodeSetUtf8, vdslun/VDS_STORAGE_IDENTIFIER_CODE_SET
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,8 +87,7 @@ The storage identifier is encoded as UTF-8.
 
 
 
-
-    The <a href="https://msdn.microsoft.com/8cc8b6d9-e189-44af-9f2b-2222b2eb0749">VDS_STORAGE_IDENTIFIER</a> structure includes 
+The <a href="https://msdn.microsoft.com/8cc8b6d9-e189-44af-9f2b-2222b2eb0749">VDS_STORAGE_IDENTIFIER</a> structure includes 
     a <b>VDS_STORAGE_IDENTIFIER_CODE_SET</b> value as a member to indicate the code set of a storage identifier.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_STORAGE_IDENTIFIER_CODE_SET</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_STORAGE_IDENTIFIER_CODE_SET</b> enumeration constant.</div>

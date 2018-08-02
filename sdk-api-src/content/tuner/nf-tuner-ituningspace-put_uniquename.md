@@ -7,7 +7,7 @@ old-location: mstv\ituningspace_put_uniquename.htm
 old-project: mstv
 ms.assetid: 44ce065b-5441-40c9-a987-6eafc04fba3d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_UniqueName method, ITuningSpace.put_UniqueName, ITuningSpace::put_UniqueName, ITuningSpaceput_UniqueName, mstv.ituningspace_put_uniquename, put_UniqueName, put_UniqueName method [Microsoft TV Technologies], put_UniqueName method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_UniqueName
 ms.prod: windows
 ms.technology: windows-sdk

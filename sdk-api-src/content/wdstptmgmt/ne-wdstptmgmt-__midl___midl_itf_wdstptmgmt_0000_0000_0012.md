@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0012"
 author: windows-sdk-content
 description: Indicates which features are supported by the WDS TFTP server.
 old-location: wds\wdstransport_tftp_capability.htm
-old-project: wds
+old-project: Wds
 ms.assetid: 3D8F193B-6EEA-4E40-A53C-EB0768E0DE83
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "*PWDSTRANSPORT_TFTP_CAPABILITY, WDSTRANSPORT_TFTP_CAPABILITY, WDSTRANSPORT_TFTP_CAPABILITY enumeration [Windows Deployment Services], WDSTRANSPORT_TFTP_CAPABILITY,*PWDSTRANSPORT_TFTP_CAPABILITY, WDSTRANSPORT_TFTP_CAPABILITY,*PWDSTRANSPORT_TFTP_CAPABILITY enumeration [Windows Deployment Services], WdsTptTftpCapMaximumBlockSize, WdsTptTftpCapVariableWindow, __MIDL___MIDL_itf_wdstptmgmt_0000_0000_0012, wds.wdstransport_tftp_capability, wdstptmgmt/WDSTRANSPORT_TFTP_CAPABILITY, wdstptmgmt/WdsTptTftpCapMaximumBlockSize, wdstptmgmt/WdsTptTftpCapVariableWindow"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingcustom.htm
 old-project: tracelogging
 ms.assetid: 617B5EFF-DB4F-493E-841B-14BBA312E26B
 ms.author: windowssdkdev
-ms.date: 04/27/2018
+ms.date: 07/29/2018
 ms.keywords: TraceLoggingCustom, TraceLoggingCustom macro, tracelogging.traceloggingcustom, traceloggingprovider/TraceLoggingCustom
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,13 +112,11 @@ An integer value. The low 28 bits of the value will be included in the field's m
 
 
 
-
-       Decoders should access TraceLoggingCustom serialized fields using the TDH APIs. The TRACE_EVENT_INFO structure returned by TdhGetEventInformation will contain two EVENT_PROPERTY_INFO structures related to a logged TraceLoggingCustom field. These correlate in the typical fashion with the data found in the EVENT_RECORD’s UserData blob.
-
+Decoders should access TraceLoggingCustom serialized fields using the TDH APIs. The TRACE_EVENT_INFO structure returned by TdhGetEventInformation will contain two EVENT_PROPERTY_INFO structures related to a logged TraceLoggingCustom field. These correlate in the typical fashion with the data found in the EVENT_RECORD’s UserData blob.
 
 
 
-       The first of the two EVENT_PROPERTY_INFO structures is the “Length” property which describes the length of the serialized payload (i.e. cbValue). 
+The first of the two EVENT_PROPERTY_INFO structures is the “Length” property which describes the length of the serialized payload (i.e. cbValue). 
 
 The second is the property that refers to the user's payload (pbValue). The second property will have PropertyParamLength (in reference to the first of the two properties) and PropertyHasCustomSchema set.
 
@@ -127,8 +125,7 @@ The second is the property that refers to the user's payload (pbValue). The seco
 Decoders should recognize PropertyHasCustomSchema has been set and consult this EVENT_PROPERTY_INFO’s customSchemaType member for the CustomSchemaOffset, the offset in the TRACE_EVENT_INFORMATION where the protocol type and protocol metadata are located. There, they can find the metadata they passed in with a format of (pseudo-struct):
 
 
-<pre class="syntax">
-struct _CUSTOM_SCHEMA {
+<pre class="syntax">struct _CUSTOM_SCHEMA {
     UINT16 protocolType;
     UINT16 cbSchema;
     BYTE bSchema[cbSchema];

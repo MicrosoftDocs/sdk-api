@@ -7,7 +7,7 @@ old-location: multimedia\avistreamreadformat.htm
 old-project: Multimedia
 ms.assetid: 312b7d20-89b2-4102-acf6-f603610dadd6
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: AVIStreamReadFormat, AVIStreamReadFormat function [Windows Multimedia], _win32_AVIStreamReadFormat, multimedia.avistreamreadformat, vfw/AVIStreamReadFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-
-        The <b>AVIStreamReadFormat</b> function reads the stream format data.
+The <b>AVIStreamReadFormat</b> function reads the stream format data.
       
 
 
@@ -64,22 +63,19 @@ req.product: Windows UI
 
 ### -param pavi
 
-
-            Handle to an open stream.
+Handle to an open stream.
           
 
 
 ### -param lPos
 
-
-            Position in the stream used to obtain the format data.
+Position in the stream used to obtain the format data.
           
 
 
 ### -param lpFormat
 
-
-            Pointer to a buffer to contain the format data.
+Pointer to a buffer to contain the format data.
           
 
 

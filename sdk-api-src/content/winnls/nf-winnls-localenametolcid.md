@@ -7,7 +7,7 @@ old-location: intl\localenametolcid.htm
 old-project: Intl
 ms.assetid: 00404566-b9ef-43ea-8056-ca9ab0117814
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: LocaleNameToLCID, LocaleNameToLCID function [Internationalization for Windows Applications], _win32_LocaleNameToLCID, intl.localenametolcid, winnls/LocaleNameToLCID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,11 +86,9 @@ Pointer to a null-terminated string representing a locale name, or one of the fo
 
 ### -param dwFlags [in]
 
-<b>Prior to Windows 7:</b>
-                  Reserved; should always be 0.
+<b>Prior to Windows 7:</b>Reserved; should always be 0.
 
-<b>
-              Beginning in Windows 7:</b> Can be set to <a href="https://msdn.microsoft.com/b4f9d07c-3c39-46aa-933d-5c8c6ae98345">LOCALE_ALLOW_NEUTRAL_NAMES</a> to allow the return of a neutral LCID.
+<b>Beginning in Windows 7:</b> Can be set to <a href="https://msdn.microsoft.com/b4f9d07c-3c39-46aa-933d-5c8c6ae98345">LOCALE_ALLOW_NEUTRAL_NAMES</a> to allow the return of a neutral LCID.
 
 
 ## -returns

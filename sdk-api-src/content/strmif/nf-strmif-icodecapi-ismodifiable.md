@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_ismodifiable.htm
 old-project: DirectShow
 ms.assetid: 5f7c7f72-02f2-4840-aaa2-9d26fe564577
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ICodecAPI interface [DirectShow],IsModifiable method, ICodecAPI.IsModifiable, ICodecAPI::IsModifiable, ICodecAPIIsModifiable, IsModifiable, IsModifiable method [DirectShow], IsModifiable method [DirectShow],ICodecAPI interface, dshow.icodecapi_ismodifiable, strmif/ICodecAPI::IsModifiable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows XP with SP1
 ## -description
 
 
-
-        The <b>IsModifiable</b> method queries whether a codec property can be changed, given the codec's current configuration.
+The <b>IsModifiable</b> method queries whether a codec property can be changed, given the codec's current configuration.
       
 
 
@@ -110,8 +109,7 @@ The value of this property can be changed.
 
 
 
-
-        Any errors besides those in the previous table indicate an inability to process the call.
+Any errors besides those in the previous table indicate an inability to process the call.
       
 
 

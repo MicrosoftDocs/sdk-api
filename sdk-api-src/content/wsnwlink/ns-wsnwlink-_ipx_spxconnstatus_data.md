@@ -4,10 +4,10 @@ title: "_IPX_SPXCONNSTATUS_DATA"
 author: windows-sdk-content
 description: The IPX_SPXCONNSTATUS_DATA structure provides information about a connected SPX socket.
 old-location: winsock\ipx_spxconnstatus_data_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 741fdb22-a92c-4159-bde6-e3d18a222b9e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "*PIPX_SPXCONNSTATUS_DATA, IPX_SPXCONNSTATUS_DATA, IPX_SPXCONNSTATUS_DATA structure [Winsock], PIPX_SPXCONNSTATUS_DATA, PIPX_SPXCONNSTATUS_DATA structure pointer [Winsock], _IPX_SPXCONNSTATUS_DATA, _win32_ipx_spxconnstatus_data_2, winsock.ipx_spxconnstatus_data_2, wsnwlink/IPX_SPXCONNSTATUS_DATA, wsnwlink/PIPX_SPXCONNSTATUS_DATA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>IPX_SPXCONNSTATUS_DATA</b> structure provides information about a connected SPX socket. Used in conjunction with 
 <a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">getsockopt</a> function calls that specify IPX_SPXGETCONNECTIONSTATUS in the <i>optname</i> parameter. All numbers in 
 <b>IPX_SPXCONNSTATUS_DATA</b> are in Novell (high-low) order.

@@ -74,7 +74,7 @@ If a fax client application passes a value of TRUE to the <b>Enable</b> property
 
 
 
-<a href="https://msdn.microsoft.com/c88c2855-51cd-404e-a89f-cc42f456f51c">CanModify</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692798(v=VS.85).aspx">CanModify</a>
 
 
 

@@ -4,10 +4,10 @@ title: CertEnumSystemStore function
 author: windows-sdk-content
 description: The CertEnumSystemStore function retrieves the system stores available. The function calls the provided callback function for each system store found.
 old-location: security\certenumsystemstore.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: fd9cb23b-e4a3-41cb-8f0a-30f4e813c6ac
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertEnumSystemStore, CertEnumSystemStore function [Security], _crypto2_certenumsystemstore, security.certenumsystemstore, wincrypt/CertEnumSystemStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertEnumSystemStore</b> function retrieves the system stores available. The function calls the provided callback function for each system store found.
+The <b>CertEnumSystemStore</b> function retrieves the system stores available. The function calls the provided callback function for each system store found.
 
 
 ## -parameters
@@ -109,8 +108,7 @@ A pointer to the callback function used to show the details for each system stor
 
 
 
-
-						If the function succeeds, the function returns  <b>TRUE</b>.
+If the function succeeds, the function returns  <b>TRUE</b>.
 
 If the function fails, it returns  <b>FALSE</b>.
 
@@ -166,7 +164,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
  
 
  

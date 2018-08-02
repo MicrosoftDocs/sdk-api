@@ -4,10 +4,10 @@ title: SnmpCleanupEx function
 author: windows-sdk-content
 description: The SnmpCleanupEx function performs cleanup when there are no outstanding successful calls to SnmpStartup or SnmpStartupEx within a Windows SNMP (WinSNMP) application.
 old-location: snmp\snmpcleanupex.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: e6521c35-a58e-4b8e-b415-b49954187736
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: SnmpCleanupEx, SnmpCleanupEx function [SNMP], _snmp_snmpcleanupex, snmp.snmpcleanupex, winsnmp/SnmpCleanupEx
 ms.prod: windows
 ms.technology: windows-sdk

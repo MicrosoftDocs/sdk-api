@@ -7,7 +7,7 @@ old-location: intl\scriptitemize.htm
 old-project: Intl
 ms.assetid: 1491d9c5-e86b-45cc-bb47-85c8619eab69
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: ScriptItemize, ScriptItemize function [Internationalization for Windows Applications], _win32_ScriptItemize, intl.scriptitemize, usp10/ScriptItemize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,8 +95,7 @@ Alternatively, the application can set this parameter to <b>NULL</b> if the scri
 
 Pointer to a buffer in which the function retrieves <a href="https://msdn.microsoft.com/d309f3a7-fec3-4999-bbbe-bb85ceecb4c4">SCRIPT_ITEM</a> structures representing the items that have been processed. The buffer should be  <code>(cMaxItems + 1) * sizeof(SCRIPT_ITEM)</code> bytes in length. It is invalid to call this function with a buffer to hold less than two <b>SCRIPT_ITEM</b> structures. The function always adds a terminal item to the item analysis array so that the length of the item with zero-based index "i" is always available as:
 
-<code>
-pItems[i+1].iCharPos - pItems[i].iCharPos;</code>
+<code>pItems[i+1].iCharPos - pItems[i].iCharPos;</code>
 
 
 ### -param pcItems [out]

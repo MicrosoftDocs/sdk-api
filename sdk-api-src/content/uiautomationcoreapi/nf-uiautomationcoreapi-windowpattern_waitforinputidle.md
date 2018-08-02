@@ -7,7 +7,7 @@ old-location: winauto\uiauto_WindowPattern_WaitForInputIdleConPat.htm
 old-project: WinAuto
 ms.assetid: c2a319bd-9698-4671-b3d9-bcfd07c15aef
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: WindowPattern_WaitForInputIdle, WindowPattern_WaitForInputIdle function [Windows Accessibility], uiauto.uiauto_WindowPattern_WaitForInputIdleConPat, uiauto_WindowPattern_WaitForInputIdleConPat, uiautomationcoreapi/WindowPattern_WaitForInputIdle, winauto.uiauto_WindowPattern_WaitForInputIdleConPat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,8 +95,7 @@ Returns S_OK if successful or an error value otherwise.
 
 
 
-
-            This method is typically used in conjunction with the handling of a WindowOpenedEvent 
+This method is typically used in conjunction with the handling of a WindowOpenedEvent 
         (<i>Window_WindowOpened_Event_GUID</i>).
         The implementation is dependent on the underlying application framework; 
         therefore this method may return some time after the window is ready for user input. 

@@ -4,10 +4,10 @@ title: IEnumAddress::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumaddress_clone.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: ba47872b-f13b-4588-b47e-8092c1fe2d61
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumAddress interface, IEnumAddress interface [TAPI 2.2],Clone method, IEnumAddress.Clone, IEnumAddress::Clone, _tapi3_ienumaddress_clone, tapi3.ienumaddress_clone, tapi3if/IEnumAddress::Clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,8 +131,8 @@ Failed for unknown reasons.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/bfe9f12e-ceb7-4120-8193-70feb2bc7c85">IEnumAddress</a> interface returned by this method. The application must call the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">Release</a> method on the 
+TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/bfe9f12e-ceb7-4120-8193-70feb2bc7c85">IEnumAddress</a> interface returned by this method. The application must call the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> method on the 
 <b>IEnumAddress</b> interface to free resources associated with it.
 
 

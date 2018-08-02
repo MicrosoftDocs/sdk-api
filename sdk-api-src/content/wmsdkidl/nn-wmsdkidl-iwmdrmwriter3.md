@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmwriter3.htm
 old-project: wmformat
 ms.assetid: b300b97b-e558-4c33-a84a-e92c28a3a606
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMDRMWriter3, IWMDRMWriter3 interface [windows Media Format], IWMDRMWriter3 interface [windows Media Format],described, IWMDRMWriter3Interface, wmformat.iwmdrmwriter3, wmsdkidl/IWMDRMWriter3
 ms.prod: windows
 ms.technology: windows-sdk

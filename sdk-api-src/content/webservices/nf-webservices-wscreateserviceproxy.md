@@ -7,7 +7,7 @@ old-location: wsw\wscreateserviceproxy.htm
 old-project: wsw
 ms.assetid: 9215684b-979e-48ad-b4ee-2ae1db1e3034
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCreateServiceProxy, WsCreateServiceProxy function [Web Services for Windows], webservices/WsCreateServiceProxy, wsw.wscreateserviceproxy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                Creates a  <a href="https://msdn.microsoft.com/e1a5bf5e-dbc1-43e3-981b-7db4caa08bdc">service proxy</a> with the specified properties.
+Creates a  <a href="https://msdn.microsoft.com/e1a5bf5e-dbc1-43e3-981b-7db4caa08bdc">service proxy</a> with the specified properties.
             
 
 
@@ -72,15 +71,13 @@ A <a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">WS_C
 
 ### -param channelBinding [in]
 
-
-                   A <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CHANNEL_BINDING</a> enumeration value representing the channel binding.
+A <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CHANNEL_BINDING</a> enumeration value representing the channel binding.
                 
 
 
 ### -param securityDescription [in, optional]
 
-
-                   A <a href="https://msdn.microsoft.com/b9490f00-877c-4d9f-b361-eaca343cdee0">WS_SECURITY_DESCRIPTION</a> structure representing the security description.
+A <a href="https://msdn.microsoft.com/b9490f00-877c-4d9f-b361-eaca343cdee0">WS_SECURITY_DESCRIPTION</a> structure representing the security description.
                 
 
 
@@ -108,18 +105,14 @@ An array of  <a href="https://msdn.microsoft.com/0298e8ae-67ad-4881-885f-2ed7133
 
 ### -param channelPropertyCount [in]
 
-
-
-                The number of properties in the <i>channelProperties</i> array.
+The number of properties in the <i>channelProperties</i> array.
                 
             
 
 
 ### -param serviceProxy
 
-
-
-                On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/623766ae-fe82-40f9-93c8-e78fe48bc6d1">WS_SERVICE_PROXY</a> structure representing the new service proxy.
+On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/623766ae-fe82-40f9-93c8-e78fe48bc6d1">WS_SERVICE_PROXY</a> structure representing the new service proxy.
                 
                 When you no longer need this structure, you must free it by calling <a href="https://msdn.microsoft.com/fb200cf8-c1d4-4a97-afef-f7c4ed5efb10">WsFreeServiceProxy</a>.
             
@@ -127,8 +120,7 @@ An array of  <a href="https://msdn.microsoft.com/0298e8ae-67ad-4881-885f-2ed7133
 
 ### -param error [in, optional]
 
-
-                    Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
                 
                 
 
@@ -151,7 +143,6 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -163,7 +154,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 Insufficient memory to complete the operation.
 
 </td>

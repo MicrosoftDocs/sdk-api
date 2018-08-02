@@ -4,10 +4,10 @@ title: GetActiveProcessorGroupCount function
 author: windows-sdk-content
 description: Returns the number of active processor groups in the system.
 old-location: base\getactiveprocessorgroupcount.htm
-old-project: procthread
+old-project: ProcThread
 ms.assetid: 566c6abe-9269-4e0e-9c98-e4607c808452
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetActiveProcessorGroupCount, GetActiveProcessorGroupCount function, base.getactiveprocessorgroupcount, winbase/GetActiveProcessorGroupCount
 ms.prod: windows
 ms.technology: windows-sdk

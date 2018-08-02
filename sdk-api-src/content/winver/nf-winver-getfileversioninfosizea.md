@@ -7,7 +7,7 @@ old-location: menurc\getfileversioninfosize.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\getfileversioninfosize.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: GetFileVersionInfoSize, GetFileVersionInfoSize function [Menus and Other Resources], GetFileVersionInfoSizeA, GetFileVersionInfoSizeW, _win32_GetFileVersionInfoSize, _win32_getfileversioninfosize_cpp, menurc.getfileversioninfosize, winui._win32_getfileversioninfosize, winver/GetFileVersionInfoSize, winver/GetFileVersionInfoSizeA, winver/GetFileVersionInfoSizeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 Call the 
-				<b>GetFileVersionInfoSize</b> function before calling the <a href="https://msdn.microsoft.com/library/ms647003(v=VS.85).aspx">GetFileVersionInfo</a> function. The size returned by <b>GetFileVersionInfoSize</b> indicates the buffer size required for the version information returned by <b>GetFileVersionInfo</b>. 
+				<b>GetFileVersionInfoSize</b> function before calling the <a href="https://msdn.microsoft.com/en-us/library/ms647003(v=VS.85).aspx">GetFileVersionInfo</a> function. The size returned by <b>GetFileVersionInfoSize</b> indicates the buffer size required for the version information returned by <b>GetFileVersionInfo</b>. 
 
 
 
@@ -112,7 +112,7 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647003(v=VS.85).aspx">GetFileVersionInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647003(v=VS.85).aspx">GetFileVersionInfo</a>
 
 
 
@@ -120,15 +120,15 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647001(v=VS.85).aspx">VS_VERSIONINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647001(v=VS.85).aspx">VS_VERSIONINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647464(v=VS.85).aspx">VerQueryValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647464(v=VS.85).aspx">VerQueryValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646981(v=VS.85).aspx">Version Information</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646981(v=VS.85).aspx">Version Information</a>
  
 
  

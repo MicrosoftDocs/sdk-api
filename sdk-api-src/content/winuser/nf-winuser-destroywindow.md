@@ -7,7 +7,7 @@ old-location: winmsg\destroywindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\destroywindow.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: DestroyWindow, DestroyWindow function [Windows and Messages], _win32_DestroyWindow, _win32_destroywindow_cpp, winmsg.destroywindow, winui._win32_destroywindow, winuser/DestroyWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,11 +61,11 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Destroys the specified window. The function sends <a href="https://msdn.microsoft.com/library/ms632620(v=VS.85).aspx">WM_DESTROY</a> and <a href="https://msdn.microsoft.com/library/ms632636(v=VS.85).aspx">WM_NCDESTROY</a> messages to the window to deactivate it and remove the keyboard focus from it. The function also destroys the window's menu, flushes the thread message queue, destroys timers, removes clipboard ownership, and breaks the clipboard viewer chain (if the window is at the top of the viewer chain).
+Destroys the specified window. The function sends <a href="https://msdn.microsoft.com/en-us/library/ms632620(v=VS.85).aspx">WM_DESTROY</a> and <a href="https://msdn.microsoft.com/en-us/library/ms632636(v=VS.85).aspx">WM_NCDESTROY</a> messages to the window to deactivate it and remove the keyboard focus from it. The function also destroys the window's menu, flushes the thread message queue, destroys timers, removes clipboard ownership, and breaks the clipboard viewer chain (if the window is at the top of the viewer chain).
 
 If the specified window is a parent or owner window, <b>DestroyWindow</b> automatically destroys the associated child or owned windows when it destroys the parent or owner window. The function first destroys child or owned windows, and then it destroys the parent or owner window.
 
-<b>DestroyWindow</b> also destroys modeless dialog boxes created by the <a href="https://msdn.microsoft.com/library/ms645434(v=VS.85).aspx">CreateDialog</a> function.
+<b>DestroyWindow</b> also destroys modeless dialog boxes created by the <a href="https://msdn.microsoft.com/en-us/library/ms645434(v=VS.85).aspx">CreateDialog</a> function.
 
 
 ## -parameters
@@ -100,12 +100,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 A thread cannot use <b>DestroyWindow</b> to destroy a window created by a different thread. 
 
-If the window being destroyed is a child window that does not have the <b>WS_EX_NOPARENTNOTIFY</b> style, a <a href="https://msdn.microsoft.com/library/Hh454920(v=VS.85).aspx">WM_PARENTNOTIFY</a> message is sent to the parent. 
+If the window being destroyed is a child window that does not have the <b>WS_EX_NOPARENTNOTIFY</b> style, a <a href="https://msdn.microsoft.com/en-us/library/Hh454920(v=VS.85).aspx">WM_PARENTNOTIFY</a> message is sent to the parent. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms632598(v=VS.85).aspx">Destroying a Window</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS.85).aspx">Destroying a Window</a>.
 
 <div class="code"></div>
 
@@ -120,15 +120,15 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms632598(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645434(v=VS.85).aspx">CreateDialog</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645434(v=VS.85).aspx">CreateDialog</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
 
 
 
@@ -136,15 +136,15 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms632598(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632620(v=VS.85).aspx">WM_DESTROY</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632620(v=VS.85).aspx">WM_DESTROY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632636(v=VS.85).aspx">WM_NCDESTROY</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632636(v=VS.85).aspx">WM_NCDESTROY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Hh454920(v=VS.85).aspx">WM_PARENTNOTIFY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh454920(v=VS.85).aspx">WM_PARENTNOTIFY</a>
 
 
 

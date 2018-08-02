@@ -7,7 +7,7 @@ old-location: winmsg\makewparam.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\makewparam.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: MAKEWPARAM, MAKEWPARAM macro [Windows and Messages], _win32_MAKEWPARAM, _win32_makewparam_cpp, winmsg.makewparam, winui._win32_makewparam, winuser/MAKEWPARAM
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,15 +92,15 @@ The low-order word of the new value.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632660(v=VS.85).aspx">MAKELONG</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632660(v=VS.85).aspx">MAKELONG</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632661(v=VS.85).aspx">MAKELPARAM</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632661(v=VS.85).aspx">MAKELPARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632662(v=VS.85).aspx">MAKELRESULT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632662(v=VS.85).aspx">MAKELRESULT</a>
 
 
 

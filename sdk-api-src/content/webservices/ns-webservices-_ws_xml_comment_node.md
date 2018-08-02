@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_comment_node.htm
 old-project: wsw
 ms.assetid: e1a0b493-4537-465b-93bb-64672bc5b3d9
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_COMMENT_NODE, WS_XML_COMMENT_NODE structure [Web Services for Windows], _WS_XML_COMMENT_NODE, webservices/WS_XML_COMMENT_NODE, wsw.ws_xml_comment_node
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Represents a comment.  (For example, &lt;!--The message follows--&gt;)
+Represents a comment.  (For example, &lt;!--The message follows--&gt;)
       
 
 
@@ -63,14 +62,12 @@ req.product: Windows Address Book 5.0
 
 ### -field node
 
-
-          The base type for all types that derive from <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">WS_XML_NODE</a>.
+The base type for all types that derive from <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">WS_XML_NODE</a>.
         
 
 
 ### -field value
 
-
-          The textual content of the comment.  In the example, it is the string "The message follows".
+The textual content of the comment.  In the example, it is the string "The message follows".
         
 

@@ -7,7 +7,7 @@ old-location: wsw\ws_type_mapping.htm
 old-project: wsw
 ms.assetid: 31e4abad-d007-41ae-bf51-fa693e8b8ae5
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ANY_ELEMENT_TYPE_MAPPING, WS_ATTRIBUTE_TYPE_MAPPING, WS_ELEMENT_CONTENT_TYPE_MAPPING, WS_ELEMENT_TYPE_MAPPING, WS_TYPE_MAPPING, WS_TYPE_MAPPING enumeration [Web Services for Windows], webservices/WS_ANY_ELEMENT_TYPE_MAPPING, webservices/WS_ATTRIBUTE_TYPE_MAPPING, webservices/WS_ELEMENT_CONTENT_TYPE_MAPPING, webservices/WS_ELEMENT_TYPE_MAPPING, webservices/WS_TYPE_MAPPING, wsw.ws_type_mapping
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,23 +63,20 @@ How a <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">
 
 ### -field WS_ELEMENT_TYPE_MAPPING
 
-
-                    This is used when reading or writing an element where the type
+This is used when reading or writing an element where the type
                     corresponds to the type of the element.
                     The definition of the type may include mappings to attributes,
                     text, or child elements of the element.
                 
 
-
-                    The following calling sequence is used when writing an element:
+The following calling sequence is used when writing an element:
                 
 
 <pre class="syntax" xml:space="preserve"><code>
 WsWriteStartElement(...)
 WsWriteType(..., WS_ELEMENT_TYPE_MAPPING, ...)
 WsWriteEndElement(...)</code></pre>
-
-                    The following calling sequence is used when reading an element:
+The following calling sequence is used when reading an element:
                 
 
 <pre class="syntax" xml:space="preserve"><code>
@@ -88,21 +85,18 @@ WsReadType(..., WS_ELEMENT_TYPE_MAPPING, ...)</code></pre>
 
 ### -field WS_ATTRIBUTE_TYPE_MAPPING
 
-
-                    This is used when reading or writing the value of a single attribute.  The definition
+This is used when reading or writing the value of a single attribute.  The definition
                     of the type must not require any mappings to attributes or child elements.
                 
 
-
-                    The following calling sequence is used when writing an attribute value.
+The following calling sequence is used when writing an attribute value.
                 
 
 <pre class="syntax" xml:space="preserve"><code>
 WsWriteStartAttribute(...)
 WsWriteType(..., WS_ATTRIBUTE_TYPE_MAPPING, ...)
 WsWriteEndAttribute(...)</code></pre>
-
-                    The following calling sequence is used when reading an attribute value.
+The following calling sequence is used when reading an attribute value.
                 
 
 <pre class="syntax" xml:space="preserve"><code>
@@ -113,15 +107,13 @@ WsReadEndAttribute(...)</code></pre>
 
 ### -field WS_ELEMENT_CONTENT_TYPE_MAPPING
 
-
-                    This is used when when the type corresponds to all or part of the 
+This is used when when the type corresponds to all or part of the 
                     content (text and child elements) of an element.
                     The definition of the type may include mappings to text or child
                     elements, but must not include any attributes.
                 
 
-
-                    The following calling sequence is used when writing the contents
+The following calling sequence is used when writing the contents
                     of an element:
                 
 
@@ -132,8 +124,7 @@ WsWriteStartElement(...)
 WsWriteType(..., WS_ELEMENT_CONTENT_TYPE_MAPPING, ...)
 // Write other element content, if any
 WsWriteEndElement(...)</code></pre>
-
-                    The following calling sequence is used when reading the contents of
+The following calling sequence is used when reading the contents of
                     an element:
                 
 
@@ -148,22 +139,19 @@ WsReadEndElement(...)</code></pre>
 
 ### -field WS_ANY_ELEMENT_TYPE_MAPPING
 
-
-                    This is used when when the type corresponds to the complete
+This is used when when the type corresponds to the complete
                     element, including the name and namespace of the element.
                     The definition may include attributes and child elements
                     and text.
                 
 
-
-                    The following calling sequence is used when writing 
+The following calling sequence is used when writing 
                     an element:
                 
 
 <pre class="syntax" xml:space="preserve"><code>
 WsWriteType(..., WS_ANY_ELEMENT_TYPE_MAPPING, ...)</code></pre>
-
-                    The following calling sequence is used when reading the contents of
+The following calling sequence is used when reading the contents of
                     an element:
                 
 
@@ -175,8 +163,7 @@ WsReadType(..., WS_ANY_ELEMENT_TYPE_MAPPING, ...)</code></pre>
 
 
 
-
-                See the documentation for each <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a> 
+See the documentation for each <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a> 
                 for which <b>WS_TYPE_MAPPING</b> values are supported.
             
 

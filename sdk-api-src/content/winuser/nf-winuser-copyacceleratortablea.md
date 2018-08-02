@@ -7,7 +7,7 @@ old-location: menurc\copyacceleratortable.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\copyacceleratortable.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: CopyAcceleratorTable, CopyAcceleratorTable function [Menus and Other Resources], CopyAcceleratorTableA, CopyAcceleratorTableW, _win32_CopyAcceleratorTable, _win32_copyacceleratortable_cpp, menurc.copyacceleratortable, winui._win32_copyacceleratortable, winuser/CopyAcceleratorTable, winuser/CopyAcceleratorTableA, winuser/CopyAcceleratorTableW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,14 +76,14 @@ A handle to the accelerator table to copy.
 
 Type: <b>LPACCEL</b>
 
-An array of <a href="https://msdn.microsoft.com/library/ms646340(v=VS.85).aspx">ACCEL</a> structures that receives the accelerator-table information.
+An array of <a href="https://msdn.microsoft.com/en-us/library/ms646340(v=VS.85).aspx">ACCEL</a> structures that receives the accelerator-table information.
 
 
 ### -param cAccelEntries [in]
 
 Type: <b>int</b>
 
-The number of <a href="https://msdn.microsoft.com/library/ms646340(v=VS.85).aspx">ACCEL</a> structures to copy to the buffer pointed to by the 
+The number of <a href="https://msdn.microsoft.com/en-us/library/ms646340(v=VS.85).aspx">ACCEL</a> structures to copy to the buffer pointed to by the 
      <i>lpAccelDst</i> parameter.
 
 
@@ -104,7 +104,7 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646340(v=VS.85).aspx">ACCEL</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646340(v=VS.85).aspx">ACCEL</a>
 
 
 
@@ -112,19 +112,19 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646365(v=VS.85).aspx">CreateAcceleratorTable</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646365(v=VS.85).aspx">CreateAcceleratorTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646368(v=VS.85).aspx">DestroyAcceleratorTable</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646368(v=VS.85).aspx">DestroyAcceleratorTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645526(v=VS.85).aspx">Keyboard Accelerators</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645526(v=VS.85).aspx">Keyboard Accelerators</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646370(v=VS.85).aspx">LoadAccelerators</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646370(v=VS.85).aspx">LoadAccelerators</a>
 
 
 
@@ -132,7 +132,7 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646373(v=VS.85).aspx">TranslateAccelerator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646373(v=VS.85).aspx">TranslateAccelerator</a>
  
 
  

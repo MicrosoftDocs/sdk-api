@@ -7,7 +7,7 @@ old-location: menurc\getcursor.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\getcursor.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: GetCursor, GetCursor function [Menus and Other Resources], _win32_GetCursor, _win32_getcursor_cpp, menurc.getcursor, winui._win32_getcursor, winuser/GetCursor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Retrieves a handle to the current cursor.
 
-
-						 To get information on the global cursor, even if it is not owned by the current thread, use <a href="https://msdn.microsoft.com/library/ms648389(v=VS.85).aspx">GetCursorInfo</a>.
+To get information on the global cursor, even if it is not owned by the current thread, use <a href="https://msdn.microsoft.com/en-us/library/ms648389(v=VS.85).aspx">GetCursorInfo</a>.
 
 
 ## -parameters
@@ -92,11 +91,11 @@ The return value is the handle to the current cursor. If there is no cursor, the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648389(v=VS.85).aspx">GetCursorInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648389(v=VS.85).aspx">GetCursorInfo</a>
 
 
 
@@ -104,7 +103,7 @@ The return value is the handle to the current cursor. If there is no cursor, the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648393(v=VS.85).aspx">SetCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648393(v=VS.85).aspx">SetCursor</a>
  
 
  

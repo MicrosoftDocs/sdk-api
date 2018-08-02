@@ -4,10 +4,10 @@ title: WritePrivateProfileStringW function
 author: windows-sdk-content
 description: Copies a string into the specified section of an initialization file.
 old-location: base\writeprivateprofilestring.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: f0799092-c6c1-4800-a17a-fcf744b1228f
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: WritePrivateProfileString, WritePrivateProfileString function, WritePrivateProfileStringA, WritePrivateProfileStringW, _win32_writeprivateprofilestring, base.writeprivateprofilestring, winbase/WritePrivateProfileString, winbase/WritePrivateProfileStringA, winbase/WritePrivateProfileStringW
 ms.prod: windows
 ms.technology: windows-sdk

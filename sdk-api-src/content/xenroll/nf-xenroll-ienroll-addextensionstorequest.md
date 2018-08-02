@@ -4,10 +4,10 @@ title: IEnroll::AddExtensionsToRequest
 author: windows-sdk-content
 description: The AddExtensionsToRequest method adds extensions to the certificate request. This method was first defined in the IEnroll interface.
 old-location: security\ienroll4_addextensionstorequest.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 6976fd52-98f0-4eff-aa83-7cf5cb5d5e67
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: AddExtensionsToRequest, AddExtensionsToRequest method [Security], AddExtensionsToRequest method [Security],IEnroll interface, IEnroll interface [Security],AddExtensionsToRequest method, IEnroll.AddExtensionsToRequest, IEnroll::AddExtensionsToRequest, security.ienroll4_addextensionstorequest, xenroll/IEnroll::AddExtensionsToRequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ A pointer to a <a href="https://msdn.microsoft.com/b393ef08-cedb-4840-a427-10ead
 
 
 
-
-						The return value is an <b>HRESULT</b>, with S_OK returned if the call is successful.
+The return value is an <b>HRESULT</b>, with S_OK returned if the call is successful.
 
 
 

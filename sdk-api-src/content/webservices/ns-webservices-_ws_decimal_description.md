@@ -7,7 +7,7 @@ old-location: wsw\ws_decimal_description.htm
 old-project: wsw
 ms.assetid: c2e8fc81-1a09-456c-b8bb-9160bc286ec2
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_DECIMAL_DESCRIPTION, WS_DECIMAL_DESCRIPTION structure [Web Services for Windows], _WS_DECIMAL_DESCRIPTION, webservices/WS_DECIMAL_DESCRIPTION, wsw.ws_decimal_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                An optional type description used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_DECIMAL_TYPE</a>.
+An optional type description used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_DECIMAL_TYPE</a>.
                 It is used to specify constraints on the set of values
                 which can be deserialized.
             
@@ -71,7 +70,6 @@ The minimum value.
 
 ### -field maxValue
 
-
-                    The maximum value.
+The maximum value.
                 
 

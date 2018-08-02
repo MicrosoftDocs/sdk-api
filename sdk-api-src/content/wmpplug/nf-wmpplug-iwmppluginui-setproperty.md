@@ -7,7 +7,7 @@ old-location: wmp\iwmppluginui_setproperty.htm
 old-project: WMP
 ms.assetid: 33b36239-3bda-44d3-8f85-7826bd8d3376
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPPluginUI interface [Windows Media Player],SetProperty method, IWMPPluginUI.SetProperty, IWMPPluginUI::SetProperty, IWMPPluginUISetProperty, SetProperty, SetProperty method [Windows Media Player], SetProperty method [Windows Media Player],IWMPPluginUI interface, wmp.iwmppluginui_setproperty, wmpplug/IWMPPluginUI::SetProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,26 +78,21 @@ Pointer to a <b>WCHAR</b><b>NULL</b>-terminated string constant containing the n
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
-<td>
-                  PLUGIN_MISC_CURRENTPRESET = L"CurrentPreset"</td>
+<td>PLUGIN_MISC_CURRENTPRESET = L"CurrentPreset"</td>
 <td>The <i>pvarProperty</i> parameter contains a <b>Long</b> (<b>VT_I4</b>) value that specifies the index of the plug-in preset which is to be made current.</td>
 </tr>
 <tr>
-<td>
-                  PLUGIN_ALL_MEDIASENDTO = L"MediaSendTo"</td>
+<td>PLUGIN_ALL_MEDIASENDTO = L"MediaSendTo"</td>
 <td>The <i>pvarProperty</i> parameter contains an array of <b>IUnknown</b> (<b>VT_ARRAY</b> | <b>VT_UNKNOWN</b>) pointers for <b>Media</b> objects that are sent to the plug-in from the Playlist control.</td>
 </tr>
 <tr>
-<td>
-                  PLUGIN_ALL_PLAYLISTSENDTO = L"PlaylistSendTo"</td>
+<td>PLUGIN_ALL_PLAYLISTSENDTO = L"PlaylistSendTo"</td>
 <td>The <i>pvarProperty</i> parameter contains an array of <b>IUnknown</b> (<b>VT_ARRAY</b> | <b>VT_UNKNOWN</b>) pointers for <b>Playlist</b> objects that are sent to the plug-in from the library.</td>
 </tr>
 </table>

@@ -65,7 +65,7 @@ This property is read-only.
 
 
 Note that it is possible for multiple fax ports to have the same user-friendly 
-name. Use the <a href="https://msdn.microsoft.com/f7720dda-3635-4a23-9dc4-09cac4b6aa17">DeviceId</a> property to uniquely identify a fax port.
+name. Use the <a href="https://msdn.microsoft.com/en-us/library/ms692379(v=VS.85).aspx">DeviceId</a> property to uniquely identify a fax port.
 
 <b>Name</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
@@ -77,7 +77,7 @@ name. Use the <a href="https://msdn.microsoft.com/f7720dda-3635-4a23-9dc4-09cac4
 
 
 
-<a href="https://msdn.microsoft.com/f7720dda-3635-4a23-9dc4-09cac4b6aa17">DeviceId</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692379(v=VS.85).aspx">DeviceId</a>
 
 
 

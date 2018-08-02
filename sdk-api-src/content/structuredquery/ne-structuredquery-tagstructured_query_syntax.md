@@ -7,7 +7,7 @@ old-location: search\_search_STRUCTURED_QUERY_SYNTAX.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\structured_query_syntax.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: SQS_ADVANCED_QUERY_SYNTAX, SQS_NATURAL_QUERY_SYNTAX, SQS_NO_SYNTAX, STRUCTURED_QUERY_SYNTAX, STRUCTURED_QUERY_SYNTAX enumeration [search], _search_STRUCTURED_QUERY_SYNTAX, search._search_STRUCTURED_QUERY_SYNTAX, structuredquery/SQS_ADVANCED_QUERY_SYNTAX, structuredquery/SQS_NATURAL_QUERY_SYNTAX, structuredquery/SQS_NO_SYNTAX, structuredquery/STRUCTURED_QUERY_SYNTAX, tagSTRUCTURED_QUERY_SYNTAX
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,22 +61,19 @@ Specifies the type of query syntax.
 
 ### -field SQS_NO_SYNTAX
 
-
-        No syntax.
+No syntax.
       
 
 
 ### -field SQS_ADVANCED_QUERY_SYNTAX
 
-
-      Specifies the Advanced Query Syntax. For example, "kind:email to:david to:bill".
+Specifies the Advanced Query Syntax. For example, "kind:email to:david to:bill".
       
 
 
 ### -field SQS_NATURAL_QUERY_SYNTAX
 
-
-      Specifies the Natural Query Syntax. This syntax removes the requirement for a colon between properties and values, for example, "email from david to bill".
+Specifies the Natural Query Syntax. This syntax removes the requirement for a colon between properties and values, for example, "email from david to bill".
       
 
 
@@ -84,7 +81,7 @@ Specifies the type of query syntax.
 
 
 
-Use this enumeration to set the desired SQSO_SYNTAX flag in <a href="https://msdn.microsoft.com/library/Aa965708(v=VS.85).aspx">STRUCTURED_QUERY_SINGLE_OPTION</a>, which is used with the methods <a href="https://msdn.microsoft.com/library/Bb231359(v=VS.85).aspx">IQueryParser::SetOption</a> and <a href="https://msdn.microsoft.com/library/Bb231351(v=VS.85).aspx">IQueryParser::GetOption</a>.
+Use this enumeration to set the desired SQSO_SYNTAX flag in <a href="https://msdn.microsoft.com/en-us/library/Aa965708(v=VS.85).aspx">STRUCTURED_QUERY_SINGLE_OPTION</a>, which is used with the methods <a href="https://msdn.microsoft.com/en-us/library/Bb231359(v=VS.85).aspx">IQueryParser::SetOption</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb231351(v=VS.85).aspx">IQueryParser::GetOption</a>.
 
 
 

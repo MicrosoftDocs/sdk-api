@@ -4,10 +4,10 @@ title: ITextDocument::Redo
 author: windows-sdk-content
 description: Performs a specified number of redo operations.
 old-location: controls\ITextDocument_Redo.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\redo.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextDocument interface [Windows Controls],Redo method, ITextDocument.Redo, ITextDocument::Redo, Redo, Redo method [Windows Controls], Redo method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Redo, _win32_ITextDocument_Redo_cpp, controls.ITextDocument_Redo, controls._win32_ITextDocument_Redo, tom/ITextDocument::Redo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,7 +119,7 @@ Less than <i>Count</i> redo operations were performed.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
 
 
 
@@ -127,11 +127,11 @@ Less than <i>Count</i> redo operations were performed.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787837(v=VS.85).aspx">Undo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787837(v=VS.85).aspx">Undo</a>
  
 
  

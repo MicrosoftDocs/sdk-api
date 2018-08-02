@@ -4,10 +4,10 @@ title: ITextServices::OnTxUIDeactivate
 author: windows-sdk-content
 description: Informs the text services object that the control is no longer UI active.
 old-location: controls\ITextServices_OnTxUIDeactivate.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxuideactivate.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextServices interface [Windows Controls],OnTxUIDeactivate method, ITextServices.OnTxUIDeactivate, ITextServices::OnTxUIDeactivate, OnTxUIDeactivate, OnTxUIDeactivate method [Windows Controls], OnTxUIDeactivate method [Windows Controls],ITextServices interface, _win32_ITextServices_OnTxUIDeactivate, _win32_ITextServices_OnTxUIDeactivate_cpp, controls.ITextServices_OnTxUIDeactivate, controls._win32_ITextServices_OnTxUIDeactivate, textserv/ITextServices::OnTxUIDeactivate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ The method always returns <b>S_OK</b>.
 
 
 
-See <a href="https://msdn.microsoft.com/library/Bb787621(v=VS.85).aspx">ITextServices::OnTxInPlaceActivate</a> for a detailed description of deactivation.
+See <a href="https://msdn.microsoft.com/en-us/library/Bb787621(v=VS.85).aspx">ITextServices::OnTxInPlaceActivate</a> for a detailed description of deactivation.
 
 
 
@@ -90,11 +90,11 @@ See <a href="https://msdn.microsoft.com/library/Bb787621(v=VS.85).aspx">ITextSer
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787617(v=VS.85).aspx">ITextServices</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787621(v=VS.85).aspx">OnTxInPlaceActivate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787621(v=VS.85).aspx">OnTxInPlaceActivate</a>
 
 
 
@@ -102,7 +102,7 @@ See <a href="https://msdn.microsoft.com/library/Bb787621(v=VS.85).aspx">ITextSer
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
  
 
  

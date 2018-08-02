@@ -7,7 +7,7 @@ old-location: dshow\iamvideoacceleratornotify_getuncompsurfacesinfo.htm
 old-project: DirectShow
 ms.assetid: ee8cbe71-6ac3-4f41-a9af-f372f825485d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetUncompSurfacesInfo, GetUncompSurfacesInfo method [DirectShow], GetUncompSurfacesInfo method [DirectShow],IAMVideoAcceleratorNotify interface, IAMVideoAcceleratorNotify interface [DirectShow],GetUncompSurfacesInfo method, IAMVideoAcceleratorNotify.GetUncompSurfacesInfo, IAMVideoAcceleratorNotify::GetUncompSurfacesInfo, IAMVideoAcceleratorNotifyGetUncompSurfacesInfo, dshow.iamvideoacceleratornotify_getuncompsurfacesinfo, videoacc/IAMVideoAcceleratorNotify::GetUncompSurfacesInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,12 @@ The <b>GetUncompSurfacesInfo</b> method queries the decoder for the number of un
 
 ### -param pGuid [in]
 
-
-            Pointer to a GUID that specifies the DXVA profile in use.
+Pointer to a GUID that specifies the DXVA profile in use.
 
 
 ### -param pUncompBufferInfo [in, out]
 
-
-            Pointer to a <a href="https://msdn.microsoft.com/113cc7ba-d05e-48a7-88cb-13645beb16d1">AMVAUncompBufferInfo</a> structure. The decoder fills in this structure with the decoder's requirements for the minimum and maximum number of surfaces and the pixel format.
+Pointer to a <a href="https://msdn.microsoft.com/113cc7ba-d05e-48a7-88cb-13645beb16d1">AMVAUncompBufferInfo</a> structure. The decoder fills in this structure with the decoder's requirements for the minimum and maximum number of surfaces and the pixel format.
 
 To get the list of supported pixel formats, the decoder should call <a href="https://msdn.microsoft.com/33f9a4ee-4de9-4853-9581-808d7a07bfc4">IAMVideoAccelerator::GetUncompFormatsSupported</a>.
 

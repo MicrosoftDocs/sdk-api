@@ -4,10 +4,10 @@ title: IVdsProviderPrivate
 author: windows-sdk-content
 description: Provides methods to enable VDS to perform miscellaneous operations on provider objects.
 old-location: base\ivdsproviderprivate.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 5f1c38bf-85a7-4123-becb-e8abf3052b41
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: IVdsProviderPrivate, IVdsProviderPrivate interface [VDS], IVdsProviderPrivate interface [VDS],described, base.ivdsproviderprivate, vdshwprv/IVdsProviderPrivate
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: inputdev\rawinputheader.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rawinputheader.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPRAWINPUTHEADER, *PRAWINPUTHEADER, PRAWINPUTHEADER, PRAWINPUTHEADER structure pointer [Keyboard and Mouse Input], RAWINPUTHEADER, RAWINPUTHEADER structure [Keyboard and Mouse Input], RIM_TYPEHID, RIM_TYPEKEYBOARD, RIM_TYPEMOUSE, _win32_RAWINPUTHEADER_str, _win32_rawinputheader_str_cpp, inputdev.rawinputheader, tagRAWINPUTHEADER, winui._win32_rawinputheader_str, winuser/PRAWINPUTHEADER, winuser/RAWINPUTHEADER"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,7 +111,7 @@ Raw input comes from the mouse.
 
 Type: <b>DWORD</b>
 
-The size, in bytes, of the entire input packet of data. This includes <a href="https://msdn.microsoft.com/library/ms645562(v=VS.85).aspx">RAWINPUT</a> plus possible extra input reports in the <a href="https://msdn.microsoft.com/library/ms645549(v=VS.85).aspx">RAWHID</a> variable length array. 
+The size, in bytes, of the entire input packet of data. This includes <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> plus possible extra input reports in the <a href="https://msdn.microsoft.com/en-us/library/ms645549(v=VS.85).aspx">RAWHID</a> variable length array. 
 
 
 ### -field hDevice
@@ -126,14 +126,14 @@ A handle to the device generating the raw input data.
 Type: <b>WPARAM</b>
 
 The value passed in the 
-					<i>wParam</i> parameter of the <a href="https://msdn.microsoft.com/library/ms645590(v=VS.85).aspx">WM_INPUT</a> message. 
+					<i>wParam</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms645590(v=VS.85).aspx">WM_INPUT</a> message. 
 
 
 ## -remarks
 
 
 
-To get more information on the device, use <b>hDevice</b> in a call to <a href="https://msdn.microsoft.com/library/ms645597(v=VS.85).aspx">GetRawInputDeviceInfo</a>.
+To get more information on the device, use <b>hDevice</b> in a call to <a href="https://msdn.microsoft.com/en-us/library/ms645597(v=VS.85).aspx">GetRawInputDeviceInfo</a>.
 
 
 
@@ -147,19 +147,19 @@ To get more information on the device, use <b>hDevice</b> in a call to <a href="
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645597(v=VS.85).aspx">GetRawInputDeviceInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645597(v=VS.85).aspx">GetRawInputDeviceInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645549(v=VS.85).aspx">RAWHID</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645549(v=VS.85).aspx">RAWHID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645562(v=VS.85).aspx">RAWINPUT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645536(v=VS.85).aspx">Raw Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>
 
 
 
@@ -167,7 +167,7 @@ To get more information on the device, use <b>hDevice</b> in a call to <a href="
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645590(v=VS.85).aspx">WM_INPUT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645590(v=VS.85).aspx">WM_INPUT</a>
  
 
  

@@ -4,10 +4,10 @@ title: EnterCriticalPolicySection function
 author: windows-sdk-content
 description: The EnterCriticalPolicySection function pauses the application of policy to allow applications to safely read policy settings.
 old-location: policy\entercriticalpolicysection.htm
-old-project: policy
+old-project: Policy
 ms.assetid: d17578b3-3a71-456b-97ca-961b81572528
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 07/29/2018
 ms.keywords: EnterCriticalPolicySection, EnterCriticalPolicySection function [Group Policy], _win32_entercriticalpolicysection, policy.entercriticalpolicysection, userenv/EnterCriticalPolicySection
 ms.prod: windows
 ms.technology: windows-sdk

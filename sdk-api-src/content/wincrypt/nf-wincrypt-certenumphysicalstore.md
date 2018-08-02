@@ -4,10 +4,10 @@ title: CertEnumPhysicalStore function
 author: windows-sdk-content
 description: The CertEnumPhysicalStore function retrieves the physical stores on a computer. The function calls the provided callback function for each physical store found.
 old-location: security\certenumphysicalstore.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 5804d565-5129-4e6d-8b3d-9bd938807740
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertEnumPhysicalStore, CertEnumPhysicalStore function [Security], _crypto2_certenumphysicalstore, security.certenumphysicalstore, wincrypt/CertEnumPhysicalStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertEnumPhysicalStore</b> function retrieves the physical stores on a computer. The function calls the provided callback function for each physical store found.
+The <b>CertEnumPhysicalStore</b> function retrieves the physical stores on a computer. The function calls the provided callback function for each physical store found.
 
 
 ## -parameters
@@ -98,8 +97,7 @@ A pointer to the callback function used to show the details for each physical st
 
 
 
-
-						If the function succeeds and another physical store was found, the return value is <b>TRUE</b>.
+If the function succeeds and another physical store was found, the return value is <b>TRUE</b>.
 
 If the system store location only supports system stores and does not support physical stores, the function returns <b>FALSE</b> and 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns the ERROR_NOT_SUPPORTED code.
@@ -159,7 +157,7 @@ See
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
  
 
  

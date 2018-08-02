@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxfreebuffer.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9xki.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: FaxFreeBufferA, FaxFreeBufferW, PFAXFREEBUFFER, PFAXFREEBUFFER callback, PFAXFREEBUFFER callback function [Fax Service], _mfax_faxfreebuffer, fax._mfax_faxfreebuffer, winfax/FaxFreeBufferA, winfax/FaxFreeBufferW, winfax/PFAXFREEBUFFER
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>FaxFreeBuffer</b> function releases resources associated with a buffer allocated previously as the result of a function call by a fax client application. This includes calls to the <a href="https://msdn.microsoft.com/library/ms692819(v=VS.85).aspx">FaxCompleteJobParams</a> function and to functions that begin with <b>FaxEnum</b> or <b>FaxGet</b>.
+The <b>FaxFreeBuffer</b> function releases resources associated with a buffer allocated previously as the result of a function call by a fax client application. This includes calls to the <a href="https://msdn.microsoft.com/en-us/library/ms692819(v=VS.85).aspx">FaxCompleteJobParams</a> function and to functions that begin with <b>FaxEnum</b> or <b>FaxGet</b>.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ This callback function does not return a value.
 
 
 
-When the resources allocated for a buffer are no longer needed, the calling application must free the resources. For more information, see <a href="https://msdn.microsoft.com/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
+When the resources allocated for a buffer are no longer needed, the calling application must free the resources. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
 
 
@@ -91,59 +91,59 @@ When the resources allocated for a buffer are no longer needed, the calling appl
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692819(v=VS.85).aspx">FaxCompleteJobParams</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692819(v=VS.85).aspx">FaxCompleteJobParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691941(v=VS.85).aspx">FaxEnumGlobalRoutingInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691941(v=VS.85).aspx">FaxEnumGlobalRoutingInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691958(v=VS.85).aspx">FaxEnumJobs</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691958(v=VS.85).aspx">FaxEnumJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690826(v=VS.85).aspx">FaxEnumPorts</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690826(v=VS.85).aspx">FaxEnumPorts</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691804(v=VS.85).aspx">FaxEnumRoutingMethods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691804(v=VS.85).aspx">FaxEnumRoutingMethods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692282(v=VS.85).aspx">FaxGetConfiguration</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692282(v=VS.85).aspx">FaxGetConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690909(v=VS.85).aspx">FaxGetDeviceStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690909(v=VS.85).aspx">FaxGetDeviceStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692186(v=VS.85).aspx">FaxGetJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692186(v=VS.85).aspx">FaxGetJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691956(v=VS.85).aspx">FaxGetLoggingCategories</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691956(v=VS.85).aspx">FaxGetLoggingCategories</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691456(v=VS.85).aspx">FaxGetPageData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691456(v=VS.85).aspx">FaxGetPageData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691388(v=VS.85).aspx">FaxGetPort</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691388(v=VS.85).aspx">FaxGetPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690904(v=VS.85).aspx">FaxGetRoutingInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690904(v=VS.85).aspx">FaxGetRoutingInfo</a>
  
 
  

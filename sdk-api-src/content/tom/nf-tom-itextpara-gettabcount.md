@@ -4,10 +4,10 @@ title: ITextPara::GetTabCount
 author: windows-sdk-content
 description: Retrieves the tab count.
 old-location: controls\ITextPara_GetTabCount.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettabcount.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetTabCount, GetTabCount method [Windows Controls], GetTabCount method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetTabCount method, ITextPara.GetTabCount, ITextPara::GetTabCount, _win32_ITextPara_GetTabCount, _win32_ITextPara_GetTabCount_cpp, controls.ITextPara_GetTabCount, controls._win32_ITextPara_GetTabCount, tom/ITextPara::GetTabCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -129,7 +129,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-The tab count of a new instance can be nonzero, depending on the underlying text engine. For example, Microsoft Word stories begin with no explicit tabs defined, while rich edit instances start with a single explicit tab. To be sure there are no explicit tabs (that is, to set the tab count to zero), call <a href="https://msdn.microsoft.com/library/Bb787738(v=VS.85).aspx">ITextPara::ClearAllTabs</a>.
+The tab count of a new instance can be nonzero, depending on the underlying text engine. For example, Microsoft Word stories begin with no explicit tabs defined, while rich edit instances start with a single explicit tab. To be sure there are no explicit tabs (that is, to set the tab count to zero), call <a href="https://msdn.microsoft.com/en-us/library/Bb787738(v=VS.85).aspx">ITextPara::ClearAllTabs</a>.
 
 
 
@@ -139,11 +139,11 @@ The tab count of a new instance can be nonzero, depending on the underlying text
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787728(v=VS.85).aspx">AddTab</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787728(v=VS.85).aspx">AddTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787738(v=VS.85).aspx">ClearAllTabs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787738(v=VS.85).aspx">ClearAllTabs</a>
 
 
 
@@ -151,19 +151,19 @@ The tab count of a new instance can be nonzero, depending on the underlying text
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787748(v=VS.85).aspx">DeleteTab</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787748(v=VS.85).aspx">DeleteTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773989(v=VS.85).aspx">GetListTab</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773989(v=VS.85).aspx">GetListTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774034(v=VS.85).aspx">GetTab</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774034(v=VS.85).aspx">GetTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
 
 
 
@@ -171,11 +171,11 @@ The tab count of a new instance can be nonzero, depending on the underlying text
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774177(v=VS.85).aspx">SetListTab</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774177(v=VS.85).aspx">SetListTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

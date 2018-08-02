@@ -7,7 +7,7 @@ old-location: wsb\registeronlinebackupwithwindowsserverbackup.htm
 old-project: wsb
 ms.assetid: F6BBE44C-E735-47E9-8AD1-A7F1FBAC0330
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: RegisterOnlineBackupWithWindowsServerBackup, RegisterOnlineBackupWithWindowsServerBackup function [Windows Server Backup], wsb.registeronlinebackupwithwindowsserverbackup, wsbonline/RegisterOnlineBackupWithWindowsServerBackup
 ms.prod: windows
 ms.technology: windows-sdk

@@ -74,28 +74,28 @@ The <b>IFaxIncomingArchive</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/250f7040-30ab-45c5-8d6f-307c7d0b4d84">GetMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684936(v=VS.85).aspx">GetMessage</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/250f7040-30ab-45c5-8d6f-307c7d0b4d84">GetMessage</a> method returns a fax message from the archive of inbound faxes by using the fax message ID.
+The <a href="https://msdn.microsoft.com/en-us/library/ms684936(v=VS.85).aspx">GetMessage</a> method returns a fax message from the archive of inbound faxes by using the fax message ID.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7b314907-97c9-49f8-abaf-d716706c6b79">GetMessages</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684869(v=VS.85).aspx">GetMessages</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/7b314907-97c9-49f8-abaf-d716706c6b79">GetMessages</a> method returns a new iterator (archive cursor) for the archive of inbound fax messages.
+The <a href="https://msdn.microsoft.com/en-us/library/ms684869(v=VS.85).aspx">GetMessages</a> method returns a new iterator (archive cursor) for the archive of inbound fax messages.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26a4f80f-bd94-45e4-ab0a-92c04e2dca77">Refresh</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687103(v=VS.85).aspx">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/26a4f80f-bd94-45e4-ab0a-92c04e2dca77">Refresh</a> method refreshes <a href="https://msdn.microsoft.com/library/ms687473(v=VS.85).aspx">FaxIncomingArchive</a> object information from the fax server. When the <b>Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method call are lost.
+The <a href="https://msdn.microsoft.com/en-us/library/ms687103(v=VS.85).aspx">Refresh</a> method refreshes <a href="https://msdn.microsoft.com/library/ms687473(v=VS.85).aspx">FaxIncomingArchive</a> object information from the fax server. When the <b>Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method call are lost.
 
 <div class="alert"><b>Note</b>  In Windows Vista, Windows Server 2008, and later versions of Windows, this method is not supported and returns an error.</div>
 <div> </div>
@@ -159,7 +159,7 @@ The <a href="https://msdn.microsoft.com/library/ms687062(v=VS.85).aspx">ArchiveF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/aa03892c-efa9-421f-9223-e83b3dba7b12">HighQuotaWaterMark</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684570(v=VS.85).aspx">HighQuotaWaterMark</a>
 
 
 </td>
@@ -168,7 +168,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/aa03892c-efa9-421f-9223-e83b3dba7b12">HighQuotaWaterMark</a> property is a value that specifies the upper warning threshold for the size of the archive of inbound fax messages, in megabytes. If the size of the archive exceeds this value, and the <a href="https://msdn.microsoft.com/5b798e21-1aa8-49ee-bad3-852a5cdf659d">SizeQuotaWarning</a> property is equal to <b>TRUE</b>, the fax service issues a warning in the event log.
+The <a href="https://msdn.microsoft.com/en-us/library/ms684570(v=VS.85).aspx">HighQuotaWaterMark</a> property is a value that specifies the upper warning threshold for the size of the archive of inbound fax messages, in megabytes. If the size of the archive exceeds this value, and the <a href="https://msdn.microsoft.com/en-us/library/ms685982(v=VS.85).aspx">SizeQuotaWarning</a> property is equal to <b>TRUE</b>, the fax service issues a warning in the event log.
 
 <div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows. To access this property in Windows Vista, Windows Server 2008, and later versions of Windows,  get the <a href="https://msdn.microsoft.com/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a> interface from the <a href="https://msdn.microsoft.com/library/Aa358976(v=VS.85).aspx">IFaxServer2</a> interface, and then call the  <a href="https://msdn.microsoft.com/library/Aa358922(v=VS.85).aspx">IFaxConfiguration::put_HighQuotaWaterMark</a>   or <a href="https://msdn.microsoft.com/library/Aa358922(v=VS.85).aspx">IFaxConfiguration::get_HighQuotaWaterMark</a> method.</div>
 <div> </div>
@@ -177,7 +177,7 @@ The <a href="https://msdn.microsoft.com/aa03892c-efa9-421f-9223-e83b3dba7b12">Hi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/360306b8-3aa7-4fe4-adbf-f0a989a2c4ff">LowQuotaWaterMark</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684861(v=VS.85).aspx">LowQuotaWaterMark</a>
 
 
 </td>
@@ -186,7 +186,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/360306b8-3aa7-4fe4-adbf-f0a989a2c4ff">LowQuotaWaterMark</a> property is a value that specifies the lower warning threshold for the archive of inbound fax messages, in megabytes. If the fax service has issued a warning in the event log, the service does not issue additional warnings until the size of the inbound archive drops below this value.
+The <a href="https://msdn.microsoft.com/en-us/library/ms684861(v=VS.85).aspx">LowQuotaWaterMark</a> property is a value that specifies the lower warning threshold for the archive of inbound fax messages, in megabytes. If the fax service has issued a warning in the event log, the service does not issue additional warnings until the size of the inbound archive drops below this value.
 
 <div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows. To access this property in Windows Vista, Windows Server 2008, and later versions of Windows,  get the <a href="https://msdn.microsoft.com/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a> interface from the <a href="https://msdn.microsoft.com/library/Aa358976(v=VS.85).aspx">IFaxServer2</a> interface, and then call the  <a href="https://msdn.microsoft.com/library/Aa358924(v=VS.85).aspx">IFaxConfiguration::put_LowQuotaWaterMark</a>   or <a href="https://msdn.microsoft.com/library/Aa358924(v=VS.85).aspx">IFaxConfiguration::get_LowQuotaWaterMark</a> method.</div>
 <div> </div>
@@ -195,7 +195,7 @@ The <a href="https://msdn.microsoft.com/360306b8-3aa7-4fe4-adbf-f0a989a2c4ff">Lo
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/628a3f20-7b6b-4e3a-8afc-44c29685e7b4">SizeHigh</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686172(v=VS.85).aspx">SizeHigh</a>
 
 
 </td>
@@ -204,7 +204,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/628a3f20-7b6b-4e3a-8afc-44c29685e7b4">SizeHigh</a> property is a value that specifies the high 32-bit value (in bytes) for the size of the archive of inbound fax messages.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686172(v=VS.85).aspx">SizeHigh</a> property is a value that specifies the high 32-bit value (in bytes) for the size of the archive of inbound fax messages.
 
 <div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows.</div>
 <div> </div>
@@ -213,7 +213,7 @@ The <a href="https://msdn.microsoft.com/628a3f20-7b6b-4e3a-8afc-44c29685e7b4">Si
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/b124c131-d9bd-45b8-b55e-0bdd944a403f">SizeLow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684568(v=VS.85).aspx">SizeLow</a>
 
 
 </td>
@@ -222,7 +222,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/b124c131-d9bd-45b8-b55e-0bdd944a403f">SizeLow</a> property is a value that specifies the low 32-bit value (in bytes) for the size of the archive of inbound fax messages.
+The <a href="https://msdn.microsoft.com/en-us/library/ms684568(v=VS.85).aspx">SizeLow</a> property is a value that specifies the low 32-bit value (in bytes) for the size of the archive of inbound fax messages.
 
 <div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows.</div>
 <div> </div>
@@ -231,7 +231,7 @@ The <a href="https://msdn.microsoft.com/b124c131-d9bd-45b8-b55e-0bdd944a403f">Si
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5b798e21-1aa8-49ee-bad3-852a5cdf659d">SizeQuotaWarning</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685982(v=VS.85).aspx">SizeQuotaWarning</a>
 
 
 </td>
@@ -240,16 +240,16 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/5b798e21-1aa8-49ee-bad3-852a5cdf659d">SizeQuotaWarning</a> property is a Boolean value that indicates whether the fax service issues a warning in the event log when the size of the inbound archive exceeds the limit defined by the <a href="https://msdn.microsoft.com/aa03892c-efa9-421f-9223-e83b3dba7b12">HighQuotaWaterMark</a> property.
+The <a href="https://msdn.microsoft.com/en-us/library/ms685982(v=VS.85).aspx">SizeQuotaWarning</a> property is a Boolean value that indicates whether the fax service issues a warning in the event log when the size of the inbound archive exceeds the limit defined by the <a href="https://msdn.microsoft.com/en-us/library/ms684570(v=VS.85).aspx">HighQuotaWaterMark</a> property.
 
-<div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows. To access this property in Windows Vista, Windows Server 2008, and later versions of Windows,  get the <a href="https://msdn.microsoft.com/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a> interface from the <a href="https://msdn.microsoft.com/library/Aa358976(v=VS.85).aspx">IFaxServer2</a> interface, and then call the  <a href="https://msdn.microsoft.com/541abd86-8edb-4d52-a323-5bdafab24653">IFaxConfiguration::put_SizeQuotaWarning</a>   or <a href="https://msdn.microsoft.com/541abd86-8edb-4d52-a323-5bdafab24653">IFaxConfiguration::get_SizeQuotaWarning</a> method.</div>
+<div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows. To access this property in Windows Vista, Windows Server 2008, and later versions of Windows,  get the <a href="https://msdn.microsoft.com/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a> interface from the <a href="https://msdn.microsoft.com/library/Aa358976(v=VS.85).aspx">IFaxServer2</a> interface, and then call the  <a href="https://msdn.microsoft.com/en-us/library/Aa358931(v=VS.85).aspx">IFaxConfiguration::put_SizeQuotaWarning</a>   or <a href="https://msdn.microsoft.com/en-us/library/Aa358931(v=VS.85).aspx">IFaxConfiguration::get_SizeQuotaWarning</a> method.</div>
 <div> </div>
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/142b274d-6ac6-493e-a65c-2d484fca47b8">UseArchive</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687489(v=VS.85).aspx">UseArchive</a>
 
 
 </td>
@@ -258,7 +258,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/142b274d-6ac6-493e-a65c-2d484fca47b8">UseArchive</a> property is a Boolean value that indicates whether the fax service archives inbound fax messages. If this property is equal to <b>TRUE</b>, the fax service archives inbound fax messages. If this property is equal to <b>FALSE</b>, the fax service does not archive inbound faxes.
+The <a href="https://msdn.microsoft.com/en-us/library/ms687489(v=VS.85).aspx">UseArchive</a> property is a Boolean value that indicates whether the fax service archives inbound fax messages. If this property is equal to <b>TRUE</b>, the fax service archives inbound fax messages. If this property is equal to <b>FALSE</b>, the fax service does not archive inbound faxes.
 
 <div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows. To access this property in Windows Vista, Windows Server 2008, and later versions of Windows,  get the <a href="https://msdn.microsoft.com/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a> interface from the <a href="https://msdn.microsoft.com/library/Aa358976(v=VS.85).aspx">IFaxServer2</a> interface, and then call the  <a href="https://msdn.microsoft.com/library/Aa358932(v=VS.85).aspx">IFaxConfiguration::put_UseArchive</a>   or <a href="https://msdn.microsoft.com/library/Aa358932(v=VS.85).aspx">IFaxConfiguration::get_UseArchive</a> method.</div>
 <div> </div>

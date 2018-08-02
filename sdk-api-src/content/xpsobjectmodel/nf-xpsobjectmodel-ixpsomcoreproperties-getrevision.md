@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_getrevision.htm
 old-project: printdocs
 ms.assetid: 7143e4e7-c5e3-41f8-84d8-64fa3008ccc8
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetRevision, GetRevision method [XPS Documents and Packaging], GetRevision method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetRevision method, IXpsOMCoreProperties.GetRevision, IXpsOMCoreProperties::GetRevision, xps.ixpsomcoreproperties_getrevision, xpsobjectmodel/IXpsOMCoreProperties::GetRevision
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,7 @@ The method succeeded.
 
 The <b>revision</b> property contains the resource's revision number.
 
-This method allocates the memory used by the string that is returned in <i>revision</i>.  If <i>revision</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>revision</i>.  If <i>revision</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
 
 
 

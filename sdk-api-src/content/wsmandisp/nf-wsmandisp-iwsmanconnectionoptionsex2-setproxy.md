@@ -4,10 +4,10 @@ title: IWSManConnectionOptionsEx2::SetProxy
 author: windows-sdk-content
 description: Sets the proxy information for the session.
 old-location: winrm\iwsmanconnectionoptionsex2_setproxy.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: b87d5625-c77d-41cb-a75d-a45ba0d3fbe6
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],SetProxy method, IWSManConnectionOptionsEx2.SetProxy, IWSManConnectionOptionsEx2::SetProxy, SetProxy, SetProxy method [Windows Remote Management], SetProxy method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_setproxy, wsmandisp/IWSManConnectionOptionsEx2::SetProxy
 ms.prod: windows
 ms.technology: windows-sdk

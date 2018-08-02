@@ -7,7 +7,7 @@ old-location: wmi\iwbemobjectsinkex.htm
 old-project: WmiSdk
 ms.assetid: f22b21f8-5191-480d-8471-3d5fc82ba060
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWbemObjectSinkEx, IWbemObjectSinkEx interface [Windows Management Instrumentation], IWbemObjectSinkEx interface [Windows Management Instrumentation],described, wbemcli/IWbemObjectSinkEx, wmi.iwbemobjectsinkex
 ms.prod: windows
 ms.technology: windows-sdk

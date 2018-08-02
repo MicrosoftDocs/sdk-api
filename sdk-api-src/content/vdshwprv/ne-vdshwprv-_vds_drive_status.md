@@ -4,10 +4,10 @@ title: "_VDS_DRIVE_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a drive.
 old-location: base\vds_drive_status.htm
-old-project: vds
+old-project: VDS
 ms.assetid: fff84c91-d207-44fc-bcd6-03e34eaed9e3
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: "*PVDS_DRIVE_STATUS, VDS_DRIVE_STATUS, VDS_DRIVE_STATUS enumeration [VDS], VDS_DRS_FAILED, VDS_DRS_NOT_READY, VDS_DRS_OFFLINE, VDS_DRS_ONLINE, VDS_DRS_REMOVED, VDS_DRS_UNKNOWN, _VDS_DRIVE_STATUS, base.vds_drive_status, vds/VDS_DRIVE_STATUS, vds/VDS_DRS_FAILED, vds/VDS_DRS_NOT_READY, vds/VDS_DRS_OFFLINE, vds/VDS_DRS_ONLINE, vds/VDS_DRS_REMOVED, vds/VDS_DRS_UNKNOWN, vdshwprv/VDS_DRIVE_STATUS, vdshwprv/VDS_DRS_FAILED, vdshwprv/VDS_DRS_NOT_READY, vdshwprv/VDS_DRS_OFFLINE, vdshwprv/VDS_DRS_ONLINE, vdshwprv/VDS_DRS_REMOVED, vdshwprv/VDS_DRS_UNKNOWN"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,8 +102,7 @@ The drive has been physically unplugged from the subsystem. When this status is 
 
 
 
-The <a href="https://msdn.microsoft.com/d74f045f-7b6f-4ede-827d-f7f7486495e8">IVdsDrive::SetStatus</a>
-      method passes a <b>VDS_DRIVE_STATUS</b> value as an argument to set the status of a drive, and  the <a href="https://msdn.microsoft.com/c17f13f6-ccea-4370-84d1-b422efb63e73">VDS_DRIVE_PROP</a> structure includes a <b>VDS_DRIVE_STATUS</b> value as a member to indicate the current status.
+The <a href="https://msdn.microsoft.com/d74f045f-7b6f-4ede-827d-f7f7486495e8">IVdsDrive::SetStatus</a>method passes a <b>VDS_DRIVE_STATUS</b> value as an argument to set the status of a drive, and  the <a href="https://msdn.microsoft.com/c17f13f6-ccea-4370-84d1-b422efb63e73">VDS_DRIVE_PROP</a> structure includes a <b>VDS_DRIVE_STATUS</b> value as a member to indicate the current status.
 
 If your application encounters a <b>VDS_DRIVE_STATUS</b> value that it does not recognize, it should display the drive status as unknown. It should not attempt to map the unrecognized drive status to another drive status.
 
@@ -117,8 +116,7 @@ If your application encounters a <b>VDS_DRIVE_STATUS</b> value that it does not 
 
 
 
-<a href="https://msdn.microsoft.com/d74f045f-7b6f-4ede-827d-f7f7486495e8">
-        IVdsDrive::SetStatus</a>
+<a href="https://msdn.microsoft.com/d74f045f-7b6f-4ede-827d-f7f7486495e8">IVdsDrive::SetStatus</a>
 
 
 
@@ -126,8 +124,7 @@ If your application encounters a <b>VDS_DRIVE_STATUS</b> value that it does not 
 
 
 
-<a href="https://msdn.microsoft.com/c17f13f6-ccea-4370-84d1-b422efb63e73">
-        VDS_DRIVE_PROP</a>
+<a href="https://msdn.microsoft.com/c17f13f6-ccea-4370-84d1-b422efb63e73">VDS_DRIVE_PROP</a>
  
 
  

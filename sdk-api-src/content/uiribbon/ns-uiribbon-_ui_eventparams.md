@@ -7,7 +7,7 @@ old-location: windowsribbon\ui_eventparams.htm
 old-project: windowsribbon
 ms.assetid: 438ACF91-3C83-4E2D-B919-4CCAE65BCD3E
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: PUI_EVENTPARAMS, PUI_EVENTPARAMS structure pointer [Windows Ribbon], UI_EVENTPARAMS, UI_EVENTPARAMS structure [Windows Ribbon], _UI_EVENTPARAMS, uiribbon/PUI_EVENTPARAMS, uiribbon/UI_EVENTPARAMS, windowsribbon.ui_eventparams
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-Contains information about a <a href="https://msdn.microsoft.com/library/Dd316811(v=VS.85).aspx">Ribbon</a> event.
+Contains information about a <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a> event.
 
 
 ## -struct-fields
@@ -71,7 +71,7 @@ The application modes.
 
 ### -field Params
 
-The <a href="https://msdn.microsoft.com/library/Dd371615(v=VS.85).aspx">Command</a> associated with the event.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd371615(v=VS.85).aspx">Command</a> associated with the event.
 
 
 ## -remarks
@@ -82,7 +82,7 @@ For top-level events (application menu opened/closed, ribbon minimized/expanded/
 
 
 
-For the <a href="https://msdn.microsoft.com/424C833C-E6D6-4532-8CF1-A294B429CC21">UI_EVENTTYPE_ApplicationModeSwitched</a> event,  <b>Modes</b> specifies which modes have been set.  (This is the same integer value that is passed to <a href="https://msdn.microsoft.com/library/Dd371476(v=VS.85).aspx">SetModes</a> to switch modes in the first place.)
+For the <a href="https://msdn.microsoft.com/424C833C-E6D6-4532-8CF1-A294B429CC21">UI_EVENTTYPE_ApplicationModeSwitched</a> event,  <b>Modes</b> specifies which modes have been set.  (This is the same integer value that is passed to <a href="https://msdn.microsoft.com/en-us/library/Dd371476(v=VS.85).aspx">SetModes</a> to switch modes in the first place.)
 
 
 
@@ -100,11 +100,11 @@ For all other events, <b>Params</b> contains additional data about the event.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd940486(v=VS.85).aspx">Reconfiguring the Ribbon with Application Modes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd940486(v=VS.85).aspx">Reconfiguring the Ribbon with Application Modes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371476(v=VS.85).aspx">SetModes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371476(v=VS.85).aspx">SetModes</a>
 
 
 

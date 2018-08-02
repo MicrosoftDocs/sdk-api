@@ -7,7 +7,7 @@ old-location: wintouch\gestureconfig.htm
 old-project: wintouch
 ms.assetid: 4ec5050e-7fef-4f52-89af-5237e8cdbdb8
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: "*PGESTURECONFIG, GESTURECONFIG, GESTURECONFIG structure [Windows Touch], PGESTURECONFIG, PGESTURECONFIG structure pointer [Windows Touch], tagGESTURECONFIG, wintouch.gestureconfig, winuser/GESTURECONFIG, winuser/PGESTURECONFIG"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-  Gets and sets the configuration for 
+Gets and sets the configuration for 
   enabling gesture messages and the type of this configuration.
   
 
@@ -81,26 +80,22 @@ The messages to disable.
 
 
 
-
-		It is impossible to disable two-finger panning and keep single finger panning.
+It is impossible to disable two-finger panning and keep single finger panning.
       You must set the want bits for GC_PAN before you can set them for GC_PAN_WITH_SINGLE_FINGER_HORIZONTALLY 
 		or GC_PAN_WITH_SINGLE_FINGER_VERTICALLY.
 		
 
-
-		An inertia vector is included in the GID_PAN message with the GF_END flag if inertia was disabled by a call to 
+An inertia vector is included in the GID_PAN message with the GF_END flag if inertia was disabled by a call to 
 		<a href="https://msdn.microsoft.com/7df5a18e-5e65-4dd5-a59d-853a91ead710">SetGestureConfig</a>.
 		
 
-
-  When you pass this structure, the <i>dwID</i> member contains information 
+When you pass this structure, the <i>dwID</i> member contains information 
   for a set of gestures. This determines what the other flags will mean.
   If you set flags for pan messages, they will be different from those
   flags that are set for rotation messages.
   
 
-
-  The following table indicates the various identifiers for gestures that are
+The following table indicates the various identifiers for gestures that are
   supported by the <i>dwID</i> member of the <b>GESTURECONFIG</b> structure.  Note that setting
   <i>dwID</i> to 0 indicates that global gesture configuration flags are set.
   
@@ -139,8 +134,7 @@ The messages to disable.
 </table>
  
 
-
-  The following flags are used when <i>dwID</i> is set to 0.
+The following flags are used when <i>dwID</i> is set to 0.
 
 <table>
 <tr>
@@ -156,8 +150,7 @@ The messages to disable.
 </table>
  
 
-
-  The following flags are used when <i>dwID</i> is set to GID_ZOOM.
+The following flags are used when <i>dwID</i> is set to GID_ZOOM.
 
 <table>
 <tr>
@@ -173,8 +166,7 @@ The messages to disable.
 </table>
  
 
-
-  The following flags are used when <i>dwID</i> is set to GID_PAN.
+The following flags are used when <i>dwID</i> is set to GID_PAN.
 
 <table>
 <tr>
@@ -210,14 +202,12 @@ The messages to disable.
 </table>
  
 
-<div class="alert"><b>Note</b>  
-    Setting the <b>GID_PAN</b> flags in <a href="https://msdn.microsoft.com/7df5a18e-5e65-4dd5-a59d-853a91ead710">SetGestureConfig</a> will affect the default gesture handler for panning.
+<div class="alert"><b>Note</b>  Setting the <b>GID_PAN</b> flags in <a href="https://msdn.microsoft.com/7df5a18e-5e65-4dd5-a59d-853a91ead710">SetGestureConfig</a> will affect the default gesture handler for panning.
     You should not have both <b>dwWant</b> and <b>dwBlock</b> set for the same flags; this will result in unexpected behavior.  
     See  <a href="https://msdn.microsoft.com/afd61b18-4e54-44c5-9b71-74908c76c7ac">Windows Touch Gestures</a> for more information on panning 
     and legacy panning support; see <b>SetGestureConfig</b> for examples  of enabling and blocking gestures.</div>
 <div> </div>
-
-  The following flags are used when <i>dwID</i> is set to GID_ROTATE.
+The following flags are used when <i>dwID</i> is set to GID_ROTATE.
 
 <table>
 <tr>
@@ -233,8 +223,7 @@ The messages to disable.
 </table>
  
 
-
-  The following flags are used when <i>dwID</i> is set to GID_TWOFINGERTAP.
+The following flags are used when <i>dwID</i> is set to GID_TWOFINGERTAP.
 
 <table>
 <tr>
@@ -250,8 +239,7 @@ The messages to disable.
 </table>
  
 
-
-  The following flags are used when <i>dwID</i> is set to GID_PRESSANDTAP.
+The following flags are used when <i>dwID</i> is set to GID_PRESSANDTAP.
 
 <table>
 <tr>

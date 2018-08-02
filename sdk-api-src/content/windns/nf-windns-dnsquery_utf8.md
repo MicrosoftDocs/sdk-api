@@ -4,10 +4,10 @@ title: DnsQuery_UTF8 function
 author: windows-sdk-content
 description: Is the generic query interface to the DNS namespace, and provides application developers with a DNS query resolution interface.
 old-location: dns\dnsquery.htm
-old-project: dns
+old-project: DNS
 ms.assetid: 3d810b76-cea1-4904-9b5a-c2566b332c2c
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/29/2018
 ms.keywords: DnsQuery, DnsQuery function [DNS], DnsQuery_A, DnsQuery_UTF8, DnsQuery_W, _dns_dnsquery, dns.dnsquery, windns/DnsQuery, windns/DnsQuery_A, windns/DnsQuery_UTF8, windns/DnsQuery_W
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The 
+The 
 <b>DnsQuery</b> function type is the generic query interface to the DNS namespace, and provides application developers with a DNS query resolution interface. Like many DNS functions, the 
 <b>DnsQuery</b> function type is implemented in multiple forms to facilitate different character encoding.
 		Based on the character encoding involved, use one of the following functions:
@@ -119,8 +118,7 @@ Optional. A pointer to a pointer that points to the list of RRs that comprise th
 
 
 
-
-						Returns success confirmation upon successful completion. Otherwise, returns the appropriate DNS-specific error code as defined in Winerror.h.
+Returns success confirmation upon successful completion. Otherwise, returns the appropriate DNS-specific error code as defined in Winerror.h.
 
 
 

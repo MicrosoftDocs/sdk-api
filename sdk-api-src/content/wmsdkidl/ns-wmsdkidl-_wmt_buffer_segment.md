@@ -7,7 +7,7 @@ old-location: wmformat\wmt_buffer_segment.htm
 old-project: wmformat
 ms.assetid: 047e19da-c819-46e5-8a1c-09bc93a05259
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: WMT_BUFFER_SEGMENT, WMT_BUFFER_SEGMENT structure [windows Media Format], _WMT_BUFFER_SEGMENT, wmformat.wmt_buffer_segment, wmsdkidl/WMT_BUFFER_SEGMENT
 ms.prod: windows
 ms.technology: windows-sdk

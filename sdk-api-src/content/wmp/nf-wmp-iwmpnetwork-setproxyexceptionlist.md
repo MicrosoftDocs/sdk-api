@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_setproxyexceptionlist.htm
 old-project: WMP
 ms.assetid: af9202aa-fa4e-4726-908f-3fc5370e06df
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],setProxyExceptionList method, IWMPNetwork.setProxyExceptionList, IWMPNetwork::setProxyExceptionList, IWMPNetworksetProxyExceptionList, setProxyExceptionList, setProxyExceptionList method [Windows Media Player], setProxyExceptionList method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_setproxyexceptionlist, wmp/IWMPNetwork::setProxyExceptionList
 ms.prod: windows
 ms.technology: windows-sdk

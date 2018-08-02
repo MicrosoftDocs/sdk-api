@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager2_estimatenexteventtime.htm
 old-project: UIAnimation
 ms.assetid: C2F049B7-287F-4EC2-A737-965E01515056
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: EstimateNextEventTime, EstimateNextEventTime method [Windows Animation], EstimateNextEventTime method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],EstimateNextEventTime method, IUIAnimationManager2.EstimateNextEventTime, IUIAnimationManager2::EstimateNextEventTime, uianimation.iuianimationmanager2_estimatenexteventtime, uianimation/IUIAnimationManager2::EstimateNextEventTime
 ms.prod: windows
 ms.technology: windows-sdk

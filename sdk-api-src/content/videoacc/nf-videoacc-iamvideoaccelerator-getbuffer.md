@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_getbuffer.htm
 old-project: DirectShow
 ms.assetid: 3385cad2-8885-4b17-83fa-f40f25b0c433
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetBuffer, GetBuffer method [DirectShow], GetBuffer method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetBuffer method, IAMVideoAccelerator.GetBuffer, IAMVideoAccelerator::GetBuffer, IAMVideoAcceleratorGetBuffer, dshow.iamvideoaccelerator_getbuffer, videoacc/IAMVideoAccelerator::GetBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ The zero-based index of the surface, within the pool of surfaces that were alloc
 
 ### -param bReadOnly [in]
 
-
-            Specifies whether the decoder will write to the surface memory. For read-only access, specify <b>TRUE</b>. This might allow faster access to reference frames that are currently in use.
+Specifies whether the decoder will write to the surface memory. For read-only access, specify <b>TRUE</b>. This might allow faster access to reference frames that are currently in use.
           
 
 
@@ -198,11 +197,9 @@ The pins on the decoder and video renderer filters are not connected.
 
 
 
+If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTED</b>.
 
-        If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTED</b>.
-
-
-        This method locks and obtains access to a single buffer. Buffers are identified by type and by index within that type. The <a href="https://msdn.microsoft.com/b60c6bf7-6cb6-4a82-bec4-7f1662d4ee95">IAMVideoAccelerator::GetInternalCompBufferInfo</a> method returns the number of surface types in its <i>pdwNumTypesCompBuffers</i> parameter. This number defines the valid range for <i>dwTypeIndex</i>. For each type, the <b>dwNumCompBuffers</b> member of the <a href="https://msdn.microsoft.com/74ef5dfb-1062-40c6-a2dd-76f46ca8db92">AMVACompBufferInfo</a> structure gives the number of buffers, which defines the valid range for <i>dwBufferIndex</i>. 
+This method locks and obtains access to a single buffer. Buffers are identified by type and by index within that type. The <a href="https://msdn.microsoft.com/b60c6bf7-6cb6-4a82-bec4-7f1662d4ee95">IAMVideoAccelerator::GetInternalCompBufferInfo</a> method returns the number of surface types in its <i>pdwNumTypesCompBuffers</i> parameter. This number defines the valid range for <i>dwTypeIndex</i>. For each type, the <b>dwNumCompBuffers</b> member of the <a href="https://msdn.microsoft.com/74ef5dfb-1062-40c6-a2dd-76f46ca8db92">AMVACompBufferInfo</a> structure gives the number of buffers, which defines the valid range for <i>dwBufferIndex</i>. 
       
 
 To release the buffer, call <a href="https://msdn.microsoft.com/2170cf7e-85c8-4658-84fd-96ebc0d2704f">IAMVideoAccelerator::ReleaseBuffer</a>.

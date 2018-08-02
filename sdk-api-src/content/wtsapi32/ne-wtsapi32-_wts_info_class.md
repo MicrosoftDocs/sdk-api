@@ -4,10 +4,10 @@ title: "_WTS_INFO_CLASS"
 author: windows-sdk-content
 description: Contains values that indicate the type of session information to retrieve in a call to the WTSQuerySessionInformation function.
 old-location: termserv\wts_info_class_str.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 20e015bd-323a-44c4-a0d6-02781f3a5eec
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: WTSApplicationName, WTSClientAddress, WTSClientBuildNumber, WTSClientDirectory, WTSClientDisplay, WTSClientHardwareId, WTSClientInfo, WTSClientName, WTSClientProductId, WTSClientProtocolType, WTSConfigInfo, WTSConnectState, WTSDomainName, WTSIdleTime, WTSIncomingBytes, WTSIncomingFrames, WTSInitialProgram, WTSIsRemoteSession, WTSLogonTime, WTSOEMId, WTSOutgoingBytes, WTSOutgoingFrames, WTSSessionAddressV4, WTSSessionId, WTSSessionInfo, WTSSessionInfoEx, WTSUserName, WTSValidationInfo, WTSWinStationName, WTSWorkingDirectory, WTS_INFO_CLASS, WTS_INFO_CLASS enumeration [Remote Desktop Services], _WTS_INFO_CLASS, _win32_wts_info_class_str, termserv.wts_info_class_str, wtsapi32/WTSApplicationName, wtsapi32/WTSClientAddress, wtsapi32/WTSClientBuildNumber, wtsapi32/WTSClientDirectory, wtsapi32/WTSClientDisplay, wtsapi32/WTSClientHardwareId, wtsapi32/WTSClientInfo, wtsapi32/WTSClientName, wtsapi32/WTSClientProductId, wtsapi32/WTSClientProtocolType, wtsapi32/WTSConfigInfo, wtsapi32/WTSConnectState, wtsapi32/WTSDomainName, wtsapi32/WTSIdleTime, wtsapi32/WTSIncomingBytes, wtsapi32/WTSIncomingFrames, wtsapi32/WTSInitialProgram, wtsapi32/WTSIsRemoteSession, wtsapi32/WTSLogonTime, wtsapi32/WTSOEMId, wtsapi32/WTSOutgoingBytes, wtsapi32/WTSOutgoingFrames, wtsapi32/WTSSessionAddressV4, wtsapi32/WTSSessionId, wtsapi32/WTSSessionInfo, wtsapi32/WTSSessionInfoEx, wtsapi32/WTSUserName, wtsapi32/WTSValidationInfo, wtsapi32/WTSWinStationName, wtsapi32/WTSWorkingDirectory, wtsapi32/WTS_INFO_CLASS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -244,8 +244,7 @@ This value returns <b>FALSE</b>. If you call <a href="https://msdn.microsoft.com
 
 ### -field WTSClientInfo
 
-
-     Information about a Remote Desktop Connection (RDC) client. For more information, see <a href="https://msdn.microsoft.com/864b7560-3f19-4a73-a02b-b82caa88b2de">WTSCLIENT</a>.
+Information about a Remote Desktop Connection (RDC) client. For more information, see <a href="https://msdn.microsoft.com/864b7560-3f19-4a73-a02b-b82caa88b2de">WTSCLIENT</a>.
 
 
 ### -field WTSSessionInfo

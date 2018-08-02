@@ -4,10 +4,10 @@ title: IWRdsProtocolConnection::SessionArbitrationEnumeration
 author: windows-sdk-content
 description: Called after arbitration to allow the protocol to specify the sessions to be reconnected.
 old-location: termserv\iwrdsprotocolconnection_sessionarbitrationenumeration.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: d0e93014-1f79-47ac-bf3a-c100eb652751
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],SessionArbitrationEnumeration method, IWRdsProtocolConnection.SessionArbitrationEnumeration, IWRdsProtocolConnection::SessionArbitrationEnumeration, SessionArbitrationEnumeration, SessionArbitrationEnumeration method [Remote Desktop Services], SessionArbitrationEnumeration method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_sessionarbitrationenumeration, wtsprotocol/IWRdsProtocolConnection::SessionArbitrationEnumeration
 ms.prod: windows
 ms.technology: windows-sdk

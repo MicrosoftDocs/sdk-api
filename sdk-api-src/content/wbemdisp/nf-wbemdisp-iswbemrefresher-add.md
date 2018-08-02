@@ -7,7 +7,7 @@ old-location: wmi\swbemrefresher_add.htm
 old-project: WmiSdk
 ms.assetid: 92d11a18-1eed-4958-b74a-2f9de4907dd0
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],ISWbemRefresher interface, Add method [Windows Management Instrumentation],SWbemRefresher object, ISWbemRefresher interface [Windows Management Instrumentation],Add method, ISWbemRefresher.Add, ISWbemRefresher::Add, SWbemRefresher object [Windows Management Instrumentation],Add method, SWbemRefresher.Add, _hmm_swbemrefresher.add, wmi.swbemrefresher_add
 ms.prod: windows
 ms.technology: windows-sdk

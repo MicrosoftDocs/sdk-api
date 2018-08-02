@@ -7,7 +7,7 @@ old-location: wsw\wscreatechannel.htm
 old-project: wsw
 ms.assetid: 4bef6f97-06f1-442a-8b84-869776f0541d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCreateChannel, WsCreateChannel function [Web Services for Windows], webservices/WsCreateChannel, wsw.wscreatechannel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,8 +100,7 @@ If you are creating a custom channel (using the WS_CUSTOM_CHANNEL_BINDING value 
 
 ### -param channel
 
-
-                    Pointer that receives the address of the created channel.   
+Pointer that receives the address of the created channel.   
                     When the channel  is no longer needed, you must free  it by calling <a href="https://msdn.microsoft.com/74e36d19-c6db-4bba-90e3-88a48b6a1fb5">WsFreeChannel</a>.
                 
 
@@ -130,7 +129,6 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -167,8 +165,7 @@ This function may return other errors not listed above.
 
 
 
-
-                Use the <a href="https://msdn.microsoft.com/a7226194-0974-4f3c-b92d-78a93e86eea5">WsOpenChannel</a> function to initiate  communication on the channel and to specify the endpoint.
+Use the <a href="https://msdn.microsoft.com/a7226194-0974-4f3c-b92d-78a93e86eea5">WsOpenChannel</a> function to initiate  communication on the channel and to specify the endpoint.
             
 
 When you create a custom channel (using the WS_CUSTOM_CHANNEL_BINDING value of the <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CHANNEL_BINDING</a> enumeration), you can specify only the following channel properties: 

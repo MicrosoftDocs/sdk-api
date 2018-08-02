@@ -7,7 +7,7 @@ old-location: smi\isettingsitem_getsettingtype.htm
 old-project: SMI
 ms.assetid: d222939f-9295-4751-8b32-586fa9930177
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetSettingType, GetSettingType method [SMI], GetSettingType method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetSettingType method, ISettingsItem.GetSettingType, ISettingsItem::GetSettingType, smi.isettingsitem_getsettingtype, wcmconfig/ISettingsItem::GetSettingType
 ms.prod: windows
 ms.technology: windows-sdk

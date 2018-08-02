@@ -4,10 +4,10 @@ title: IVssBackupComponents::BackupComplete
 author: windows-sdk-content
 description: The BackupComplete method causes VSS to generate a BackupComplete event, which signals writers that the backup process has completed.
 old-location: base\ivssbackupcomponents_backupcomplete.htm
-old-project: vss
+old-project: VSS
 ms.assetid: ee49d4b1-f3f4-4c85-a3a2-f4452d066f21
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: BackupComplete, BackupComplete method [VSS], BackupComplete method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],BackupComplete method, IVssBackupComponents.BackupComplete, IVssBackupComponents::BackupComplete, _win32_ivssbackupcomponents_backupcomplete, base.ivssbackupcomponents_backupcomplete, vsbackup/IVssBackupComponents::BackupComplete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,8 +132,7 @@ The backup components object is not initialized, this method has been called dur
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
@@ -180,7 +179,7 @@ After calling <b>BackupComplete</b>, requesters must call <a href="https://msdn.
 The backup application can choose to abort the backup at any time after the shadow copy is created by calling 
 <a href="https://msdn.microsoft.com/8ab44737-114b-4edc-a097-d0fa297f6276">IVssAsync::Cancel</a>.
 
-The calling application is responsible for calling <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the resources held by the returned 
+The calling application is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the resources held by the returned 
 <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> when it is no longer needed.
 
 

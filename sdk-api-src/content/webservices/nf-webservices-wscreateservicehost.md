@@ -7,7 +7,7 @@ old-location: wsw\wscreateservicehost.htm
 old-project: wsw
 ms.assetid: 412a262a-1706-4101-b154-1804408a5b9f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCreateServiceHost, WsCreateServiceHost function [Web Services for Windows], webservices/WsCreateServiceHost, wsw.wscreateservicehost
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                Creates a <a href="https://msdn.microsoft.com/42e4d24d-5611-4561-b874-6dc3f3f88c73">service host</a> for the specified endpoints.
+Creates a <a href="https://msdn.microsoft.com/42e4d24d-5611-4561-b874-6dc3f3f88c73">service host</a> for the specified endpoints.
             
 
 
@@ -71,8 +70,7 @@ An array of  <a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0c
 
 ### -param endpointCount [in]
 
-
-                    The number of endpoints in the <i>endpoints</i> array.
+The number of endpoints in the <i>endpoints</i> array.
                 
 
 
@@ -92,8 +90,7 @@ The number of properties in the <i>serviceProperties</i> array.
 
 ### -param serviceHost
 
-
-                    On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/1186e3ae-87d0-4d0b-a7cc-cce63dc091e2">WS_SERVICE_HOST</a> structure representing the new service host.
+On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/1186e3ae-87d0-4d0b-a7cc-cce63dc091e2">WS_SERVICE_HOST</a> structure representing the new service host.
                 
                 When you no longer need this structure, you must free it by calling <a href="https://msdn.microsoft.com/5362d8a4-8b38-462a-a7c1-9cde19abee1e">WsFreeServiceHost</a>.
 
@@ -134,7 +131,6 @@ An invalid argument is specified for creating the service host.
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -146,7 +142,6 @@ A quota was exceeded.
 </dl>
 </td>
 <td width="60%">
-
 Insufficient memory to complete the operation.
 
 </td>

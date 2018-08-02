@@ -4,10 +4,10 @@ title: CryptGetDefaultProviderW function
 author: windows-sdk-content
 description: Finds the default cryptographic service provider (CSP) of a specified provider type for the local computer or current user.
 old-location: security\cryptgetdefaultprovider.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 5d15641e-1ad7-441d-9423-65fd51de9812
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CRYPT_MACHINE_DEFAULT, CRYPT_USER_DEFAULT, CryptGetDefaultProvider, CryptGetDefaultProvider function [Security], CryptGetDefaultProviderA, CryptGetDefaultProviderW, _crypto2_cryptgetdefaultprovider, security.cryptgetdefaultprovider, wincrypt/CryptGetDefaultProvider, wincrypt/CryptGetDefaultProviderA, wincrypt/CryptGetDefaultProviderW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,8 +55,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>
-			The <b>CryptGetDefaultProvider</b> function finds the default <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) of a specified provider type for the local computer or current user. The name of the default CSP for the provider type specified in the <i>dwProvType</i> parameter is returned in the <i>pszProvName</i> buffer.
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptGetDefaultProvider</b> function finds the default <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) of a specified provider type for the local computer or current user. The name of the default CSP for the provider type specified in the <i>dwProvType</i> parameter is returned in the <i>pszProvName</i> buffer.
 
 
 ## -parameters
@@ -159,8 +158,7 @@ A pointer to a <b>DWORD</b> value that specifies the size, in bytes, of the buff
 
 
 
-
-						If the function succeeds, the return value is nonzero (<b>TRUE</b>).
+If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 						
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call 
@@ -313,7 +311,7 @@ void main()
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Service Provider Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Service Provider Functions</a>
  
 
  

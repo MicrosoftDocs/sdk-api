@@ -7,7 +7,7 @@ old-location: mstv\idvbtlocator_put_lpinnerfecrate.htm
 old-project: mstv
 ms.assetid: 4fcce13b-1cc4-4ee7-b010-2c5ffd55a5f7
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_LPInnerFECRate method, IDVBTLocator.put_LPInnerFECRate, IDVBTLocator::put_LPInnerFECRate, IDVBTLocatorput_LPInnerFECRate, mstv.idvbtlocator_put_lpinnerfecrate, put_LPInnerFECRate, put_LPInnerFECRate method [Microsoft TV Technologies], put_LPInnerFECRate method [Microsoft TV Technologies],IDVBTLocator interface, tuner/IDVBTLocator::put_LPInnerFECRate
 ms.prod: windows
 ms.technology: windows-sdk

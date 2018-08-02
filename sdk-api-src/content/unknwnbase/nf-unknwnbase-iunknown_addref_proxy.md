@@ -4,10 +4,10 @@ title: IUnknown_AddRef_Proxy function
 author: windows-sdk-content
 description: The IUnknown_AddRef_Proxy function implements the AddRef method for all interface proxies.
 old-location: rpc\iunknown_addref_proxy.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: a95efffc-1761-40ae-80d2-c2a4ceddab6c
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 07/29/2018
 ms.keywords: IUnknown_AddRef_Proxy, IUnknown_AddRef_Proxy function [RPC], rpc.iunknown_addref_proxy, unknwnbase/IUnknown_AddRef_Proxy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows UI
 
 <p class="CCE_Message">[IUnknown_AddRef_Proxy is not supported and may be altered or unavailable in the future.]
 
-The <b>IUnknown_AddRef_Proxy</b> function implements the <a href="https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx">AddRef</a> method for all interface proxies.
+The <b>IUnknown_AddRef_Proxy</b> function implements the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method for all interface proxies.
 
 
 ## -parameters

@@ -4,10 +4,10 @@ title: NotifyBootConfigStatus function
 author: windows-sdk-content
 description: Reports the boot status to the service control manager. It is used by boot verification programs.
 old-location: base\notifybootconfigstatus.htm
-old-project: services
+old-project: Services
 ms.assetid: 0b2b9cd0-f897-4681-9e99-5d0bed986112
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: NotifyBootConfigStatus, NotifyBootConfigStatus function, _win32_notifybootconfigstatus, base.notifybootconfigstatus, winsvc/NotifyBootConfigStatus
 ms.prod: windows
 ms.technology: windows-sdk

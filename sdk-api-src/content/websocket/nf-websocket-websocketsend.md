@@ -7,7 +7,7 @@ old-location: websock\websocketsend.htm
 old-project: WebSock
 ms.assetid: 289f3880-22ed-44f8-8a69-1c983153ea72
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: WebSocketSend, WebSocketSend function [Websocket Protocol Component API], websock.websocketsend, websocket/WebSocketSend
 ms.prod: windows
 ms.technology: windows-sdk

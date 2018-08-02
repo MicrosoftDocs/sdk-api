@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced3_startatposition.htm
 old-project: wmformat
 ms.assetid: 64b922be-3a8f-4cbe-aa1d-aa3833e1f0fa
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMReaderAdvanced3 interface [windows Media Format],StartAtPosition method, IWMReaderAdvanced3.StartAtPosition, IWMReaderAdvanced3::StartAtPosition, IWMReaderAdvanced3StartAtPosition, StartAtPosition, StartAtPosition method [windows Media Format], StartAtPosition method [windows Media Format],IWMReaderAdvanced3 interface, wmformat.iwmreaderadvanced3_startatposition, wmsdkidl/IWMReaderAdvanced3::StartAtPosition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ Void pointer to the address containing the offset start. The unit of measurement
 
 <table>
 <tr>
-<th>
-                  Offset format
+<th>Offset format
                 </th>
 <th><i>pvOffsetStart</i> data type
                 </th>
@@ -114,8 +113,7 @@ Void pointer to the address containing the duration of playback. If zero is pass
 
 <table>
 <tr>
-<th>
-                  Offset format
+<th>Offset format
                 </th>
 <th><i>pvDuration</i> data type
                 </th>
@@ -152,11 +150,9 @@ Void pointer to the address containing the duration of playback. If zero is pass
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

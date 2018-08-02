@@ -7,7 +7,7 @@ old-location: multimedia\icdrawbegin.htm
 old-project: Multimedia
 ms.assetid: 52a43888-9839-45a3-b139-e84943c345c2
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: ICDrawBegin, ICDrawBegin function [Windows Multimedia], _win32_ICDrawBegin, multimedia.icdrawbegin, vfw/ICDrawBegin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,24 +64,20 @@ The <b>ICDrawBegin</b> function initializes the renderer and prepares the drawin
 
 ### -param hic
 
-
-            Handle to the decompressor to use.
+Handle to the decompressor to use.
           
 
 
 ### -param dwFlags
 
-
-            Decompression flags. The following values are defined.
+Decompression flags. The following values are defined.
             
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Meaning
+<th>Meaning
                 </th>
 </tr>
 <tr>
@@ -118,99 +114,85 @@ The <b>ICDrawBegin</b> function initializes the renderer and prepares the drawin
 
 ### -param hpal
 
-
-            Handle to the palette used for drawing.
+Handle to the palette used for drawing.
           
 
 
 ### -param hwnd
 
-
-            Handle to the window used for drawing.
+Handle to the window used for drawing.
           
 
 
 ### -param hdc
 
-
-            DC used for drawing.
+DC used for drawing.
           
 
 
 ### -param xDst
 
-
-            The x-coordinate of the upper right corner of the destination rectangle.
+The x-coordinate of the upper right corner of the destination rectangle.
           
 
 
 ### -param yDst
 
-
-            The y-coordinate of the upper right corner of the destination rectangle.
+The y-coordinate of the upper right corner of the destination rectangle.
           
 
 
 ### -param dxDst
 
-
-            Width of the destination rectangle.
+Width of the destination rectangle.
           
 
 
 ### -param dyDst
 
-
-            Height of the destination rectangle.
+Height of the destination rectangle.
           
 
 
 ### -param lpbi
 
-
-            Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the format of the input data to be decompressed.
+Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the format of the input data to be decompressed.
           
 
 
 ### -param xSrc
 
-
-            The x-coordinate of the upper right corner of the source rectangle.
+The x-coordinate of the upper right corner of the source rectangle.
           
 
 
 ### -param ySrc
 
-
-            The y-coordinate of the upper right corner of the source rectangle.
+The y-coordinate of the upper right corner of the source rectangle.
           
 
 
 ### -param dxSrc
 
-
-            Width of the source rectangle.
+Width of the source rectangle.
           
 
 
 ### -param dySrc
 
-
-            Height of the source rectangle.
+Height of the source rectangle.
           
 
 
 ### -param dwRate
 
-
-            Frame rate numerator. The frame rate, in frames per second, is obtained by dividing <i>dwRate</i> by <i>dwScale</i>.
+Frame rate numerator. The frame rate, in frames per second, is obtained by dividing <i>dwRate</i> by <i>dwScale</i>.
           
 
 
 ### -param dwScale
 
-
-            Frame rate denominator. The frame rate, in frames per second, is obtained by dividing <i>dwRate</i> by <i>dwScale</i>.
+Frame rate denominator. The frame rate, in frames per second, is obtained by dividing <i>dwRate</i> by <i>dwScale</i>.
           
 
 
@@ -218,8 +200,7 @@ The <b>ICDrawBegin</b> function initializes the renderer and prepares the drawin
 
 
 
-
-            Returns ICERR_OK if the renderer can decompress the data or <b>ICERR_UNSUPPORTED</b> otherwise.
+Returns ICERR_OK if the renderer can decompress the data or <b>ICERR_UNSUPPORTED</b> otherwise.
           
 
 

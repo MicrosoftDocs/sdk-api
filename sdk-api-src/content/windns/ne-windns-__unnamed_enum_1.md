@@ -4,10 +4,10 @@ title: DNS_FREE_TYPE
 author: windows-sdk-content
 description: The DNS_FREE_TYPE enumeration specifies the type of data to free.
 old-location: dns\dns_free_type.htm
-old-project: dns
+old-project: DNS
 ms.assetid: 976982a1-08f1-4c67-b823-1eea34f0c643
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/29/2018
 ms.keywords: DNS_FREE_TYPE, DNS_FREE_TYPE enumeration [DNS], DnsFreeFlat, DnsFreeParsedMessageFields, DnsFreeRecordList, dns.dns_free_type, windns/DNS_FREE_TYPE, windns/DnsFreeFlat, windns/DnsFreeParsedMessageFields, windns/DnsFreeRecordList
 ms.prod: windows
 ms.technology: windows-sdk

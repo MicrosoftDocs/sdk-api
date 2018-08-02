@@ -7,7 +7,7 @@ old-location: winmsg\registerwindowmessage.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\registerwindowmessage.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: RegisterWindowMessage, RegisterWindowMessage function [Windows and Messages], RegisterWindowMessageA, RegisterWindowMessageW, _win32_RegisterWindowMessage, _win32_registerwindowmessage_cpp, winmsg.registerwindowmessage, winui._win32_registerwindowmessage, winuser/RegisterWindowMessage, winuser/RegisterWindowMessageA, winuser/RegisterWindowMessageW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,12 +99,12 @@ The <b>RegisterWindowMessage</b> function is typically used to register messages
 
 If two different applications register the same message string, the applications return the same message value. The message remains registered until the session ends. 
 
-Only use <b>RegisterWindowMessage</b> when more than one application must process the same message. For sending private messages within a window class, an application can use any integer in the range <a href="https://msdn.microsoft.com/library/ms644931(v=VS.85).aspx">WM_USER</a> through 0x7FFF. (Messages in this range are private to a window class, not to an application. For example, predefined control classes such as <b>BUTTON</b>, <b>EDIT</b>, <b>LISTBOX</b>, and <b>COMBOBOX</b> may use values in this range.) 
+Only use <b>RegisterWindowMessage</b> when more than one application must process the same message. For sending private messages within a window class, an application can use any integer in the range <a href="https://msdn.microsoft.com/en-us/library/ms644931(v=VS.85).aspx">WM_USER</a> through 0x7FFF. (Messages in this range are private to a window class, not to an application. For example, predefined control classes such as <b>BUTTON</b>, <b>EDIT</b>, <b>LISTBOX</b>, and <b>COMBOBOX</b> may use values in this range.) 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms646829(v=VS.85).aspx">Finding Text</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms646829(v=VS.85).aspx">Finding Text</a>.
 
 <div class="code"></div>
 
@@ -119,11 +119,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms646829(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx">PostMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a>
 
 
 

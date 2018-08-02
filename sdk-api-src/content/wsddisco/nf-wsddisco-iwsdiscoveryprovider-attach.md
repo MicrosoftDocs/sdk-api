@@ -4,10 +4,10 @@ title: IWSDiscoveryProvider::Attach
 author: windows-sdk-content
 description: Attaches a callback interface to the discovery provider.
 old-location: ncd\iwsdiscoveryprovider_attach_method.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 3bb2aead-b082-4a2b-b4bf-97a1feb1e11e
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: Attach, Attach method, Attach method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,Attach method, IWSDiscoveryProvider.Attach, IWSDiscoveryProvider::Attach, ncd.iwsdiscoveryprovider_attach_method, wsddisco/IWSDiscoveryProvider::Attach
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,8 +118,7 @@ A callback interface has already been attached to the provider.
 
 
 
-<div class="alert"><b>Note</b>  Attach must be called before any other <a href="https://msdn.microsoft.com/e3d3acc2-914b-40bd-9e1e-a3a612821ab7">IWSDiscoveryProvider</a>
-		 method is used, except for <a href="https://msdn.microsoft.com/33b13cd5-ea60-4928-a220-db563c00a43c">SetAddressFamily</a>.</div>
+<div class="alert"><b>Note</b>  Attach must be called before any other <a href="https://msdn.microsoft.com/e3d3acc2-914b-40bd-9e1e-a3a612821ab7">IWSDiscoveryProvider</a>method is used, except for <a href="https://msdn.microsoft.com/33b13cd5-ea60-4928-a220-db563c00a43c">SetAddressFamily</a>.</div>
 <div> </div>
 
 

@@ -7,7 +7,7 @@ old-location: dshow\video_stream_config_caps.htm
 old-project: DirectShow
 ms.assetid: c4e68065-79d0-4e2e-abe5-2e5b6a51bd40
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: 0, 1, 2, 3 and higher, VIDEO_STREAM_CONFIG_CAPS, VIDEO_STREAM_CONFIG_CAPS structure [DirectShow], VIDEO_STREAM_CONFIG_CAPSStructure, _VIDEO_STREAM_CONFIG_CAPS, dshow.video_stream_config_caps, strmif/VIDEO_STREAM_CONFIG_CAPS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: Windows XP
 ## -description
 
 
-
-          
-          The <b>VIDEO_STREAM_CONFIG_CAPS</b> structure describes a range of video formats. Video compression and video capture filters use this structure to describe what formats they can produce.
+The <b>VIDEO_STREAM_CONFIG_CAPS</b> structure describes a range of video formats. Video compression and video capture filters use this structure to describe what formats they can produce.
         
 <div class="alert"><b>Note</b>   Most of this  structure is deprecated, with the exception of the following structure members:<ul>
 <li><b>guid</b></li>
@@ -75,15 +73,13 @@ req.product: Windows XP
 
 ### -field VideoStandard
 
-
-            The analog video standard supported. The value is a bitwise combination of flags from the <a href="https://msdn.microsoft.com/6760a40c-550c-4774-a5d1-d7e2a6aa6096">AnalogVideoStandard</a> enumeration type, or zero.
+The analog video standard supported. The value is a bitwise combination of flags from the <a href="https://msdn.microsoft.com/6760a40c-550c-4774-a5d1-d7e2a6aa6096">AnalogVideoStandard</a> enumeration type, or zero.
           
 
 
 ### -field InputSize
 
-
-            Native size of the incoming video signal. For a compressor, the size is taken from the input pin. For a capture filter, the size is the largest signal the filter can digitize with every pixel remaining unique.
+Native size of the incoming video signal. For a compressor, the size is taken from the input pin. For a capture filter, the size is the largest signal the filter can digitize with every pixel remaining unique.
           
 
 <div class="alert"><b>Note</b>  Deprecated.</div>
@@ -91,8 +87,7 @@ req.product: Windows XP
 
 ### -field MinCroppingSize
 
-
-            Smallest source rectangle allowed. The source rectangle is defined in the <b>rcSource</b> member of the <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> or <a href="https://msdn.microsoft.com/5e3d5bf0-435f-45da-8409-a1463b56a7ae">VIDEOINFOHEADER2</a> structure.
+Smallest source rectangle allowed. The source rectangle is defined in the <b>rcSource</b> member of the <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> or <a href="https://msdn.microsoft.com/5e3d5bf0-435f-45da-8409-a1463b56a7ae">VIDEOINFOHEADER2</a> structure.
           
 
 <div class="alert"><b>Note</b>  Deprecated.</div>
@@ -100,16 +95,14 @@ req.product: Windows XP
 
 ### -field MaxCroppingSize
 
-
-            Largest source rectangle allowed.
+Largest source rectangle allowed.
 
 <div class="alert"><b>Note</b>  Deprecated.</div>
 <div> </div>
 
 ### -field CropGranularityX
 
-
-            Horizontal granularity of the source rectangle. This value specifies the increments that are valid between <b>MinCroppingSize</b> and <b>MaxCroppingSize</b>.
+Horizontal granularity of the source rectangle. This value specifies the increments that are valid between <b>MinCroppingSize</b> and <b>MaxCroppingSize</b>.
           
 
 <div class="alert"><b>Note</b>  Deprecated.</div>
@@ -117,8 +110,7 @@ req.product: Windows XP
 
 ### -field CropGranularityY
 
-
-            Vertical granularity of the source rectangle. This value specifies the increments that are valid between <b>MinCroppingSize</b> and <b>MaxCroppingSize</b>.
+Vertical granularity of the source rectangle. This value specifies the increments that are valid between <b>MinCroppingSize</b> and <b>MaxCroppingSize</b>.
           
 
 <div class="alert"><b>Note</b>  Deprecated.</div>
@@ -126,8 +118,7 @@ req.product: Windows XP
 
 ### -field CropAlignX
 
-
-            Required horizontal alignment of the source rectangle.
+Required horizontal alignment of the source rectangle.
           
 
 <div class="alert"><b>Note</b>  Deprecated.</div>
@@ -135,8 +126,7 @@ req.product: Windows XP
 
 ### -field CropAlignY
 
-
-            Required vertical alignment of the source rectangle.
+Required vertical alignment of the source rectangle.
           
 
 <div class="alert"><b>Note</b>  Deprecated.</div>
@@ -144,8 +134,7 @@ req.product: Windows XP
 
 ### -field MinOutputSize
 
-
-            Minimum output size.
+Minimum output size.
           
 
 <div class="alert"><b>Note</b>  Deprecated.</div>
@@ -153,8 +142,7 @@ req.product: Windows XP
 
 ### -field MaxOutputSize
 
-
-            Maximum output size.
+Maximum output size.
           
 
 <div class="alert"><b>Note</b>  Deprecated.</div>
@@ -162,8 +150,7 @@ req.product: Windows XP
 
 ### -field OutputGranularityX
 
-
-            Granularity of the output width. This value specifies the increments that are valid between <b>MinOutputSize</b> and <b>MaxOutputSize</b>.
+Granularity of the output width. This value specifies the increments that are valid between <b>MinOutputSize</b> and <b>MaxOutputSize</b>.
           
 
 <div class="alert"><b>Note</b>  Deprecated.</div>
@@ -171,8 +158,7 @@ req.product: Windows XP
 
 ### -field OutputGranularityY
 
-
-            Granularity of output height. This value specifies the increments that are valid between <b>MinOutputSize</b> and <b>MaxOutputSize</b>.
+Granularity of output height. This value specifies the increments that are valid between <b>MinOutputSize</b> and <b>MaxOutputSize</b>.
           
 
 <div class="alert"><b>Note</b>  Deprecated.</div>
@@ -180,8 +166,7 @@ req.product: Windows XP
 
 ### -field StretchTapsX
 
-
-            Indicates how well the filter can stretch the image horizontally.
+Indicates how well the filter can stretch the image horizontally.
           
 
 <div class="alert"><b>Note</b>  Deprecated.</div>
@@ -189,8 +174,7 @@ req.product: Windows XP
 
 ### -field StretchTapsY
 
-
-            Indicates how well the filter can stretch the image vertically.
+Indicates how well the filter can stretch the image vertically.
           
 
 <div class="alert"><b>Note</b>  Deprecated.</div>
@@ -198,8 +182,7 @@ req.product: Windows XP
 
 ### -field ShrinkTapsX
 
-
-            Indicates how well the filter can shrink the image horizontally.
+Indicates how well the filter can shrink the image horizontally.
           
 
 <div class="alert"><b>Note</b>  Deprecated.</div>
@@ -211,9 +194,7 @@ Indicates how well the filter can shrink the image vertically.
 
 <div class="alert"><b>Note</b>  Deprecated.</div>
 <div> </div>
-
-            
-            The previous four structure members use the following values:
+The previous four structure members use the following values:
           
 
 <table>
@@ -267,22 +248,19 @@ Uses interpolation (&gt;2 taps)
 
 ### -field MinFrameInterval
 
-
-            The minimum frame duration, in 100-nanosecond units. This value applies only to capture filters.
+The minimum frame duration, in 100-nanosecond units. This value applies only to capture filters.
           
 
 
 ### -field MaxFrameInterval
 
-
-            The maximum frame duration, in 100-nanosecond units. This value applies only to capture filters.
+The maximum frame duration, in 100-nanosecond units. This value applies only to capture filters.
           
 
 
 ### -field MinBitsPerSecond
 
-
-            Minimum data rate this pin can produce.
+Minimum data rate this pin can produce.
           
 
 <div class="alert"><b>Note</b>  Deprecated.</div>
@@ -290,8 +268,7 @@ Uses interpolation (&gt;2 taps)
 
 ### -field MaxBitsPerSecond
 
-
-            Maximum data rate this pin can produce.
+Maximum data rate this pin can produce.
           
 
 <div class="alert"><b>Note</b>  Deprecated.</div>
@@ -301,12 +278,10 @@ Uses interpolation (&gt;2 taps)
 
 
 
-
-        The <a href="https://msdn.microsoft.com/9dd84847-2cae-42f2-a858-7106cd2ac075">IAMStreamConfig::GetStreamCaps</a> method returns this structure. An application can use this information to modify the output format on a video compression filter or video capture filter.
+The <a href="https://msdn.microsoft.com/9dd84847-2cae-42f2-a858-7106cd2ac075">IAMStreamConfig::GetStreamCaps</a> method returns this structure. An application can use this information to modify the output format on a video compression filter or video capture filter.
       
 
-
-        For example, assume that filter returns the following values for the source rectangle:
+For example, assume that filter returns the following values for the source rectangle:
         
 
 <ul>

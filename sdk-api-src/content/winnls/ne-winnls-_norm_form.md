@@ -7,7 +7,7 @@ old-location: intl\norm_form.htm
 old-project: Intl
 ms.assetid: d0133c6d-3534-4616-8b6f-07ec712808a3
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: NORM_FORM, NORM_FORM enumeration [Internationalization for Windows Applications], NormalizationC, NormalizationD, NormalizationKC, NormalizationKD, NormalizationOther, _NORM_FORM, _win32_NORM_FORM, intl.norm_form, winnls/NORM_FORM, winnls/NormalizationC, winnls/NormalizationD, winnls/NormalizationKC, winnls/NormalizationKD, winnls/NormalizationOther
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,8 +88,7 @@ Unicode normalization form KD, compatibility decomposition. Transforms each prec
 
 
 
-
-        For more information about the normalization forms, see <a href="https://msdn.microsoft.com/027c9ef5-4012-4d1c-b78c-a4d3f1ccbf35">Using Unicode Normalization to Represent Strings</a>.
+For more information about the normalization forms, see <a href="https://msdn.microsoft.com/027c9ef5-4012-4d1c-b78c-a4d3f1ccbf35">Using Unicode Normalization to Represent Strings</a>.
 
 
 

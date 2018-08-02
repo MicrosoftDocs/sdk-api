@@ -4,10 +4,10 @@ title: WTSCreateListenerA function
 author: windows-sdk-content
 description: Creates a new Remote Desktop Services listener or configures an existing listener.
 old-location: termserv\wtscreatelistener.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 057facde-43b6-44c4-944a-7ad7854ec1e6
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: WTSCreateListener, WTSCreateListener function [Remote Desktop Services], WTSCreateListenerA, WTSCreateListenerW, WTS_LISTENER_CREATE, WTS_LISTENER_UPDATE, termserv.wtscreatelistener, wtsapi32/WTSCreateListener, wtsapi32/WTSCreateListenerA, wtsapi32/WTSCreateListenerW
 ms.prod: windows
 ms.technology: windows-sdk

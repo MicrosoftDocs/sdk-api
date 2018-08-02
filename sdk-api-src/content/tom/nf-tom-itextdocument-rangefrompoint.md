@@ -4,10 +4,10 @@ title: ITextDocument::RangeFromPoint
 author: windows-sdk-content
 description: Retrieves a range for the content at or nearest to the specified point on the screen.
 old-location: controls\ITextDocument_RangeFromPoint.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\rangefrompoint.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextDocument interface [Windows Controls],RangeFromPoint method, ITextDocument.RangeFromPoint, ITextDocument::RangeFromPoint, RangeFromPoint, RangeFromPoint method [Windows Controls], RangeFromPoint method [Windows Controls],ITextDocument interface, _win32_ITextDocument_RangeFromPoint, _win32_ITextDocument_RangeFromPoint_cpp, controls.ITextDocument_RangeFromPoint, controls._win32_ITextDocument_RangeFromPoint, tom/ITextDocument::RangeFromPoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ The vertical coordinate of the specified point, in screen coordinates.
 
 ### -param ppRange
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>**</b>
 
 The text range that corresponds to the specified point. 
 
@@ -130,23 +130,23 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787781(v=VS.85).aspx">Expand</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787781(v=VS.85).aspx">Expand</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774003(v=VS.85).aspx">GetPoint</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774003(v=VS.85).aspx">GetPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774078(v=VS.85).aspx">MoveStart</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774078(v=VS.85).aspx">MoveStart</a>
 
 
 
@@ -154,7 +154,7 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

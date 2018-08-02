@@ -7,7 +7,7 @@ old-location: wcs\enumicmprofilesproccallback.htm
 old-project: WCS
 ms.assetid: 6e8f4ce5-c546-4e6a-8f35-4a22d60b6754
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ICMENUMPROC, ICMENUMPROC callback, ICMENUMPROC callback function [Windows Color System], ICMENUMPROCA, ICMENUMPROCW, _color_EnumICMProfilesProcCallback, wcs.enumicmprofilesproccallback, wingdi/ICMENUMPROC, wingdi/ICMENUMPROCA, wingdi/ICMENUMPROCW
 ms.prod: windows
 ms.technology: windows-sdk

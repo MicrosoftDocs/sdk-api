@@ -7,7 +7,7 @@ old-location: mstv\impeg2tunerequest_put_progno.htm
 old-project: mstv
 ms.assetid: 08fc9cc1-52b7-4782-96a1-af00a76ff6c6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMPEG2TuneRequest interface [Microsoft TV Technologies],put_ProgNo method, IMPEG2TuneRequest.put_ProgNo, IMPEG2TuneRequest::put_ProgNo, IMPEG2TuneRequestput_ProgNo, mstv.impeg2tunerequest_put_progno, put_ProgNo, put_ProgNo method [Microsoft TV Technologies], put_ProgNo method [Microsoft TV Technologies],IMPEG2TuneRequest interface, tuner/IMPEG2TuneRequest::put_ProgNo
 ms.prod: windows
 ms.technology: windows-sdk

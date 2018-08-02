@@ -7,7 +7,7 @@ old-location: gdi\gdiflush.htm
 old-project: gdi
 ms.assetid: 6d2f398d-7a30-4b14-81de-23ab10e1749c
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GdiFlush, GdiFlush function [Windows GDI], _win32_GdiFlush, gdi.gdiflush, wingdi/GdiFlush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,14 +107,12 @@ A multithreaded application that serializes access to GDI objects with a mutex m
 
 
 
-<a href="https://msdn.microsoft.com/aafe7635-1a71-42a9-90b7-11179e245af4">
-        GdiGetBatchLimit
+<a href="https://msdn.microsoft.com/aafe7635-1a71-42a9-90b7-11179e245af4">GdiGetBatchLimit
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/53bf0dfe-e93c-401d-ac5d-6717bad2625e">
-        GdiSetBatchLimit
+<a href="https://msdn.microsoft.com/53bf0dfe-e93c-401d-ac5d-6717bad2625e">GdiSetBatchLimit
       </a>
 
 

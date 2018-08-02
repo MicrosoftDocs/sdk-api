@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromcollection_getbydrivespecifier.htm
 old-project: WMP
 ms.assetid: b48679da-c8f3-4e9d-89cd-0ecbcbc07fe4
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPCdromCollection interface [Windows Media Player],getByDriveSpecifier method, IWMPCdromCollection.getByDriveSpecifier, IWMPCdromCollection::getByDriveSpecifier, IWMPCdromCollectiongetByDriveSpecifier, getByDriveSpecifier, getByDriveSpecifier method [Windows Media Player], getByDriveSpecifier method [Windows Media Player],IWMPCdromCollection interface, wmp.iwmpcdromcollection_getbydrivespecifier, wmp/IWMPCdromCollection::getByDriveSpecifier
 ms.prod: windows
 ms.technology: windows-sdk

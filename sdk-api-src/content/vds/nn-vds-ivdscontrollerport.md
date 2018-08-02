@@ -4,10 +4,10 @@ title: IVdsControllerPort
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a controller port.
 old-location: base\ivdscontrollerport.htm
-old-project: vds
+old-project: VDS
 ms.assetid: a0ceaf1d-b839-4cf7-b64e-9100f3cf23ef
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: IVdsControllerPort, IVdsControllerPort interface [VDS], IVdsControllerPort interface [VDS],described, base.ivdscontrollerport, vds/IVdsControllerPort, vdshwprv/IVdsControllerPort
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,8 +92,7 @@ Retrieves the properties of a controller port.</p> (Inherited from <b>IVdsContro
 <a href="https://msdn.microsoft.com/062b820e-f384-4c2e-a2f7-c90748c74976">QueryAssociatedLuns</a>
 </td>
 <td align="left" width="63%">
-
-     Returns an enumeration of the LUNs with which the controller port is associated—the LUNs 
+Returns an enumeration of the LUNs with which the controller port is associated—the LUNs 
      for which the controller is active. This method replaces 
      <a href="https://msdn.microsoft.com/832b8d59-6e94-4d62-a31f-4658e9f6102b">IVdsController::QueryAssociatedLuns</a>.
  (Inherited from <b>IVdsControllerPort</b>)</td>

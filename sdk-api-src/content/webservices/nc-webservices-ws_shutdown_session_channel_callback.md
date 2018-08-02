@@ -7,7 +7,7 @@ old-location: wsw\ws_shutdown_session_channel_callback.htm
 old-project: wsw
 ms.assetid: 7dba0ae5-5610-4b8f-bbe5-b89244779e2d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SHUTDOWN_SESSION_CHANNEL_CALLBACK, WS_SHUTDOWN_SESSION_CHANNEL_CALLBACK callback, WS_SHUTDOWN_SESSION_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_SHUTDOWN_SESSION_CHANNEL_CALLBACK, wsw.ws_shutdown_session_channel_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,23 +63,20 @@ Handles the <a href="https://msdn.microsoft.com/db12b0b7-698e-4c74-b547-6c95d0c5
 
 ### -param *channelInstance [in]
 
-
-                    The pointer to the state specific to this channel instance,
+The pointer to the state specific to this channel instance,
                     as created by the <a href="https://msdn.microsoft.com/440114f9-2258-4c33-93cd-7185ccf36f76">WS_CREATE_CHANNEL_CALLBACK</a>.
                 
 
 
 ### -param *asyncContext [in, optional]
 
-
-                    Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
+Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
                 
 
 
 ### -param *error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -99,8 +96,7 @@ Handles the <a href="https://msdn.microsoft.com/db12b0b7-698e-4c74-b547-6c95d0c5
 </dl>
 </td>
 <td width="60%">
-
-                    This is returned if the channel is not in the <a href="https://msdn.microsoft.com/3a7f5bbd-e484-4a7e-8e5d-df229a7227a5">WS_CHANNEL_STATE_OPEN</a> state.
+This is returned if the channel is not in the <a href="https://msdn.microsoft.com/3a7f5bbd-e484-4a7e-8e5d-df229a7227a5">WS_CHANNEL_STATE_OPEN</a> state.
                 
 
 </td>
@@ -115,8 +111,7 @@ Handles the <a href="https://msdn.microsoft.com/db12b0b7-698e-4c74-b547-6c95d0c5
 
 
 
-
-                See <a href="https://msdn.microsoft.com/db12b0b7-698e-4c74-b547-6c95d0c5fdb7">WsShutdownSessionChannel</a> for information about the contract
+See <a href="https://msdn.microsoft.com/db12b0b7-698e-4c74-b547-6c95d0c5fdb7">WsShutdownSessionChannel</a> for information about the contract
                 of this API.
             
 

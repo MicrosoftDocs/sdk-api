@@ -7,7 +7,7 @@ old-location: mstv\ianaloglocator_put_videostandard.htm
 old-project: mstv
 ms.assetid: 6af47a98-ceea-45dd-8a34-3f82ed8a66b1
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IAnalogLocator interface [Microsoft TV Technologies],put_VideoStandard method, IAnalogLocator.put_VideoStandard, IAnalogLocator::put_VideoStandard, IAnalogLocatorput_VideoStandard, mstv.ianaloglocator_put_videostandard, put_VideoStandard, put_VideoStandard method [Microsoft TV Technologies], put_VideoStandard method [Microsoft TV Technologies],IAnalogLocator interface, tuner/IAnalogLocator::put_VideoStandard
 ms.prod: windows
 ms.technology: windows-sdk

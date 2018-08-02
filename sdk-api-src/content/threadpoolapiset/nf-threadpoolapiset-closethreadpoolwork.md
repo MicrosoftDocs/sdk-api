@@ -4,10 +4,10 @@ title: CloseThreadpoolWork function
 author: windows-sdk-content
 description: Releases the specified work object.
 old-location: base\closethreadpoolwork.htm
-old-project: procthread
+old-project: ProcThread
 ms.assetid: 89d7362e-0814-4f7e-a27f-8a297e210559
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: CloseThreadpoolWork, CloseThreadpoolWork function, base.closethreadpoolwork, threadpoolapiset/CloseThreadpoolWork, winbase/CloseThreadpoolWork
 ms.prod: windows
 ms.technology: windows-sdk

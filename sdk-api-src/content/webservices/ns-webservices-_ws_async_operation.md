@@ -7,7 +7,7 @@ old-location: wsw\ws_async_operation.htm
 old-project: wsw
 ms.assetid: 7a6311f0-4beb-4827-b754-68ef4bde093c
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ASYNC_OPERATION, WS_ASYNC_OPERATION structure [Web Services for Windows], _WS_ASYNC_OPERATION, webservices/WS_ASYNC_OPERATION, wsw.ws_async_operation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Used with the <a href="https://msdn.microsoft.com/8705ac1a-62ba-4239-aeb6-b35ac5f0dd18">WsAsyncExecute</a> to specify the next function 
+Used with the <a href="https://msdn.microsoft.com/8705ac1a-62ba-4239-aeb6-b35ac5f0dd18">WsAsyncExecute</a> to specify the next function 
                 to invoke in a series of async operations.
             
 
@@ -64,7 +63,6 @@ req.product: Windows Address Book 5.0
 
 ### -field function
 
-
-                    The asynchronous function to invoke.
+The asynchronous function to invoke.
                 
 

@@ -7,7 +7,7 @@ old-location: wmp\wmpstringcollectionchangeeventtype.htm
 old-project: WMP
 ms.assetid: 7690972b-52ac-4249-baa5-3d2b38a4487a
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: WMPStringCollectionChangeEventType, WMPStringCollectionChangeEventType enumeration [Windows Media Player], wmp.wmpstringcollectionchangeeventtype, wmp/WMPStringCollectionChangeEventType, wmp/wmpsccetBeginUpdates, wmp/wmpsccetChange, wmp/wmpsccetClear, wmp/wmpsccetDelete, wmp/wmpsccetEndUpdates, wmp/wmpsccetInsert, wmp/wmpsccetUnknown, wmpsccetBeginUpdates, wmpsccetChange, wmpsccetClear, wmpsccetDelete, wmpsccetEndUpdates, wmpsccetInsert, wmpsccetUnknown
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,8 +103,7 @@ Bulk updates have ended.
 
 
 
-
-          Windows Media Player 10 Mobile: This enumeration is not supported.
+Windows Media Player 10 Mobile: This enumeration is not supported.
 
 
 

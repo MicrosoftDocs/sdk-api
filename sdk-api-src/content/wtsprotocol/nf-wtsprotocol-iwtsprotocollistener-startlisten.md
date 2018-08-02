@@ -4,10 +4,10 @@ title: IWTSProtocolListener::StartListen
 author: windows-sdk-content
 description: IWTSProtocolListener::StartListen is no longer available. Instead, use IWRdsProtocolListener::StartListen.
 old-location: termserv\iwtsprotocollistener_startlisten.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: d922ea90-a4eb-4495-947c-ef33bd81f40a
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWTSProtocolListener interface [Remote Desktop Services],StartListen method, IWTSProtocolListener.StartListen, IWTSProtocolListener::StartListen, StartListen, StartListen method [Remote Desktop Services], StartListen method [Remote Desktop Services],IWTSProtocolListener interface, termserv.iwtsprotocollistener_startlisten, wtsprotocol/IWTSProtocolListener::StartListen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ### -param pCallback [in]
 
 A pointer to an <a href="https://msdn.microsoft.com/607fcb85-4602-4651-b246-3e32c8868e47">IWTSProtocolListenerCallback</a> object 
-implemented by the Remote Desktop Services
- service. The protocol uses the 
+implemented by the Remote Desktop Servicesservice. The protocol uses the 
 <b>IWTSProtocolListenerCallback</b> object to notify 
 the 
 

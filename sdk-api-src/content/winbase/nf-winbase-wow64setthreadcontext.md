@@ -4,10 +4,10 @@ title: Wow64SetThreadContext function
 author: windows-sdk-content
 description: Sets the context of the specified WOW64 thread.
 old-location: base\wow64setthreadcontext.htm
-old-project: debug
+old-project: Debug
 ms.assetid: 4119c945-b654-4634-a88b-e41bc762018a
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/29/2018
 ms.keywords: Wow64SetThreadContext, Wow64SetThreadContext function, base.wow64setthreadcontext, winbase/Wow64SetThreadContext
 ms.prod: windows
 ms.technology: windows-sdk

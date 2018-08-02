@@ -7,7 +7,7 @@ old-location: wcs\setcolorspace.htm
 old-project: WCS
 ms.assetid: 037c864f-f8ec-4467-9236-74ea4493d743
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: SetColorSpace, SetColorSpace function [Windows Color System], _color_SetColorSpace, wcs.setcolorspace, wingdi/SetColorSpace
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>SetColorSpace</b> function defines the input <a href="https://msdn.microsoft.com/library/Aa380689(v=VS.85).aspx">color space</a> for a given device context.
+The <b>SetColorSpace</b> function defines the input <a href="https://msdn.microsoft.com/en-us/library/Dd371818(v=VS.85).aspx">color space</a> for a given device context.
 
 
 ## -parameters

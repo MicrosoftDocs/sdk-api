@@ -4,10 +4,10 @@ title: "_WTSLISTENERCONFIGA"
 author: windows-sdk-content
 description: Contains information about a Remote Desktop Services listener.
 old-location: termserv\wtslistenerconfig.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 051cab0b-701c-4bb9-8728-6b383cdb8e6a
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PWTSLISTENERCONFIGA, 1, 2, 3, 4, 5, PWTSLISTENERCONFIG, PWTSLISTENERCONFIG structure pointer [Remote Desktop Services], WTSLISTENERCONFIG, WTSLISTENERCONFIG structure [Remote Desktop Services], WTSLISTENERCONFIGA, WTSLISTENERCONFIGW, _WTSLISTENERCONFIGA, termserv.wtslistenerconfig, wtsapi32/PWTSLISTENERCONFIG, wtsapi32/WTSLISTENERCONFIG, wtsapi32/WTSLISTENERCONFIGA, wtsapi32/WTSLISTENERCONFIGW"
 ms.prod: windows
 ms.technology: windows-sdk

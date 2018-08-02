@@ -7,7 +7,7 @@ old-location: wsw\ws_decoder_get_content_type_callback.htm
 old-project: wsw
 ms.assetid: 8920259f-e52d-4141-87ff-0e1ac1396517
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_DECODER_GET_CONTENT_TYPE_CALLBACK, WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback, WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback function [Web Services for Windows], webservices/WS_DECODER_GET_CONTENT_TYPE_CALLBACK, wsw.ws_decoder_get_content_type_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,36 +62,31 @@ Gets the content type of the message.
 
 ### -param *decoderContext [in]
 
-
-                    The encoder instance returned by the <a href="https://msdn.microsoft.com/85311349-5c82-4545-8a2b-d8b9e629f04d">WS_CREATE_DECODER_CALLBACK</a>.
+The encoder instance returned by the <a href="https://msdn.microsoft.com/85311349-5c82-4545-8a2b-d8b9e629f04d">WS_CREATE_DECODER_CALLBACK</a>.
                 
 
 
 ### -param *contentType [in]
 
-
-                    The content type of the encoded message.
+The content type of the encoded message.
                 
 
 
 ### -param *contentEncoding [in, optional]
 
-
-                    The content encoding for the encoded message.
+The content encoding for the encoded message.
                 
 
 
 ### -param *newContentType [out]
 
-
-                    The callback should return the content type for the newly decoded message here.
+The callback should return the content type for the newly decoded message here.
                 
 
 
 ### -param *error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -111,7 +106,6 @@ Gets the content type of the message.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -123,7 +117,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -149,30 +142,25 @@ This function may return other errors not listed above.
 
 
 
-
-              The callback should verify that the content type provided matches what is expected,
+The callback should verify that the content type provided matches what is expected,
               and then should return the content type of the decoded message.
             
 
-
-              The content type returned must remain valid until the next time the callback is
+The content type returned must remain valid until the next time the callback is
               invoked, or the decoder is freed.
             
 
-
-                The callback has to set newContentType to one that is supported by underlying channel.
+The callback has to set newContentType to one that is supported by underlying channel.
                 For example, with TCP session channel using SOAP 1.2 and binary encoding, 
                 the new content type should always be application/soap+msbinsession1.
             
 
-
-              For <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a> the content encoding parameter will
+For <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a> the content encoding parameter will
               be set to the value of the "Content-Encoding" HTTP header.  If this header does
               not exist, then <b>NULL</b> will be passed.
             
 
-
-              For all other channel bindings, <b>NULL</b> will be passed for the content encoding.
+For all other channel bindings, <b>NULL</b> will be passed for the content encoding.
             
 
 

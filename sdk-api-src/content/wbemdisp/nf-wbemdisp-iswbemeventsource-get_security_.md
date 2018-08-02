@@ -7,7 +7,7 @@ old-location: wmi\swbemeventsource_security_.htm
 old-project: WmiSdk
 ms.assetid: 9c906b80-ae54-4bc1-a587-43580d6b26e7
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemEventSource interface [Windows Management Instrumentation],Security_ property, ISWbemEventSource.get_Security_, ISWbemEventSource::get_Security_, SWbemEventSource object [Windows Management Instrumentation],Security_ property, SWbemEventSource.Security_, Security_ property [Windows Management Instrumentation], Security_ property [Windows Management Instrumentation],ISWbemEventSource interface, Security_ property [Windows Management Instrumentation],SWbemEventSource object, _hmm_swbemeventsource.security_, get_Security_, wmi.swbemeventsource_security_
 ms.prod: windows
 ms.technology: windows-sdk

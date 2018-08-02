@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createcomponentenumerator.htm
 old-project: wic
 ms.assetid: 810bf0c2-2780-4ba3-84c1-7b257139e26e
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: CreateComponentEnumerator, CreateComponentEnumerator method [Windows Imaging Component], CreateComponentEnumerator method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateComponentEnumerator method, IWICImagingFactory.CreateComponentEnumerator, IWICImagingFactory::CreateComponentEnumerator, _wic_codec_iwicimagingfactory_createcomponentenumerator, wic._wic_codec_iwicimagingfactory_createcomponentenumerator, wincodec/IWICImagingFactory::CreateComponentEnumerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/library/ms683764(v=VS.85).aspx">IEnumUnknown</a> object of the specified component types.
+Creates an <a href="https://msdn.microsoft.com/en-us/library/ms683764(v=VS.85).aspx">IEnumUnknown</a> object of the specified component types.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ The <a href="https://msdn.microsoft.com/52cc0860-6164-4400-8e81-03eb0c44904e">WI
 
 ### -param ppIEnumUnknown [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms683764(v=VS.85).aspx">IEnumUnknown</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms683764(v=VS.85).aspx">IEnumUnknown</a>**</b>
 
 A pointer that receives a pointer to a new component enumerator.
 

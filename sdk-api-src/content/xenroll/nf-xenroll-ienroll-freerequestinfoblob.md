@@ -4,10 +4,10 @@ title: IEnroll::freeRequestInfoBlob
 author: windows-sdk-content
 description: The freeRequestInfoBlob method deletes a certificate context. This method was first defined in the IEnroll interface.
 old-location: security\ienroll4_freerequestinfoblob.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 7c89de98-51b6-44c2-acd2-879d1d4e7f29
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IEnroll interface [Security],freeRequestInfoBlob method, IEnroll.freeRequestInfoBlob, IEnroll::freeRequestInfoBlob, freeRequestInfoBlob, freeRequestInfoBlob method [Security], freeRequestInfoBlob method [Security],IEnroll interface, security.ienroll4_freerequestinfoblob, xenroll/IEnroll::freeRequestInfoBlob
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYP
 
 
 
-
-						The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
+The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 
 

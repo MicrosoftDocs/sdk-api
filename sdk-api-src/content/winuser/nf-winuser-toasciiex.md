@@ -7,7 +7,7 @@ old-location: inputdev\toasciiex.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\toasciiex.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: ToAsciiEx, ToAsciiEx function [Keyboard and Mouse Input], _win32_ToAsciiEx, _win32_toasciiex_cpp, inputdev.toasciiex, winui._win32_toasciiex, winuser/ToAsciiEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ Translates the specified virtual-key code and keyboard state to the correspondin
 
 Type: <b>UINT</b>
 
-The virtual-key code to be translated. See <a href="https://msdn.microsoft.com/library/Dd375731(v=VS.85).aspx">Virtual-Key Codes</a>.
+The virtual-key code to be translated. See <a href="https://msdn.microsoft.com/en-us/library/Dd375731(v=VS.85).aspx">Virtual-Key Codes</a>.
 
 
 ### -param uScanCode [in]
@@ -104,7 +104,7 @@ This parameter must be 1 if a menu is active, zero otherwise.
 
 Type: <b>HKL</b>
 
-Input locale identifier to use to translate the code. This parameter can be any input locale identifier previously returned by the <a href="https://msdn.microsoft.com/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a> function.
+Input locale identifier to use to translate the code. This parameter can be any input locale identifier previously returned by the <a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a> function.
 
 
 ## -returns
@@ -186,15 +186,15 @@ Although NUM LOCK is a toggle key that affects keyboard behavior, <b>ToAsciiEx</
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646307(v=VS.85).aspx">MapVirtualKeyEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646307(v=VS.85).aspx">MapVirtualKeyEx</a>
 
 
 
@@ -202,11 +202,11 @@ Although NUM LOCK is a toggle key that affects keyboard behavior, <b>ToAsciiEx</
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646322(v=VS.85).aspx">ToUnicodeEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646322(v=VS.85).aspx">ToUnicodeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646329(v=VS.85).aspx">VkKeyScan</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646329(v=VS.85).aspx">VkKeyScan</a>
  
 
  

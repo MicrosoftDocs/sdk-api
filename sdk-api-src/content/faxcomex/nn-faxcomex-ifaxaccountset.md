@@ -81,7 +81,7 @@ Adds a fax account to the fax server and returns the new <a href="https://msdn.m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ccb844f1-fb6b-45dd-a1e6-cd4a0643a3fb">GetAccount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359015(v=VS.85).aspx">GetAccount</a>
 </td>
 <td align="left" width="63%">
 Returns an <a href="https://msdn.microsoft.com/library/Aa359058(v=VS.85).aspx">IFaxAccount</a> object by using the account name.
@@ -90,7 +90,7 @@ Returns an <a href="https://msdn.microsoft.com/library/Aa359058(v=VS.85).aspx">I
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c55ddf0c-9aef-4999-ba20-8da34afad311">GetAccounts</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359016(v=VS.85).aspx">GetAccounts</a>
 </td>
 <td align="left" width="63%">
 Returns an <a href="https://msdn.microsoft.com/library/Aa359019(v=VS.85).aspx">IFaxAccounts</a> object that represents all the fax accounts on the fax server.
@@ -99,7 +99,7 @@ Returns an <a href="https://msdn.microsoft.com/library/Aa359019(v=VS.85).aspx">I
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c61e8fe5-d4f0-4e47-91af-05799208f8fd">RemoveAccount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359017(v=VS.85).aspx">RemoveAccount</a>
 </td>
 <td align="left" width="63%">
 Removes a fax account from the fax server.

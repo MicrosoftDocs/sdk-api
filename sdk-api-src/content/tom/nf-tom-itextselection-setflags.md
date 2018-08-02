@@ -4,10 +4,10 @@ title: ITextSelection::SetFlags
 author: windows-sdk-content
 description: Sets the text selection flags.
 old-location: controls\ITextSelection_SetFlags.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setflags.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextSelection interface [Windows Controls],SetFlags method, ITextSelection.SetFlags, ITextSelection::SetFlags, SetFlags, SetFlags method [Windows Controls], SetFlags method [Windows Controls],ITextSelection interface, _win32_ITextSelection_SetFlags, _win32_ITextSelection_SetFlags_cpp, controls.ITextSelection_SetFlags, controls._win32_ITextSelection_SetFlags, tom/ITextSelection::SetFlags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,7 +101,6 @@ New flag values. It can be any combination of the following.
 </table>
  
 
-
 Each of the table values is binary. Thus, if any value is not set, the text selection has the opposite property. 
 
 
@@ -134,7 +133,7 @@ To make sure that the start end is active and that the ambiguous
 </tr>
 </table></span></div>
 The 
-				Flags property is useful because an <a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a> object can select itself. With <b>SetFlags</b>, you can change the active end from the default value of End, select the caret position for an ambiguous 
+				Flags property is useful because an <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a> object can select itself. With <b>SetFlags</b>, you can change the active end from the default value of End, select the caret position for an ambiguous 
 				character position, or change the Insert/Overtype mode.
 
 
@@ -153,11 +152,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774060(v=VS.85).aspx">ITextSelection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774060(v=VS.85).aspx">ITextSelection</a>
 
 
 
@@ -165,7 +164,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

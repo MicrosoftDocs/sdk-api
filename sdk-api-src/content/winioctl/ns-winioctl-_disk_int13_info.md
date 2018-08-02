@@ -4,10 +4,10 @@ title: "_DISK_INT13_INFO"
 author: windows-sdk-content
 description: Contains standard Int13 drive geometry parameters.
 old-location: fs\disk_int13_info_str.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: a6991ad1-da8a-4df6-a055-ead3c30938df
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "*PDISK_INT13_INFO, DISK_INT13_INFO, DISK_INT13_INFO structure [Files], PDISK_INT13_INFO, PDISK_INT13_INFO structure pointer [Files], _DISK_INT13_INFO, _win32_disk_int13_info_str, base.disk_int13_info_str, fs.disk_int13_info_str, winioctl/DISK_INT13_INFO, winioctl/PDISK_INT13_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

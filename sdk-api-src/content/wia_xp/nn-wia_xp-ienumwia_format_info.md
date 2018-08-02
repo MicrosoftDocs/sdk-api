@@ -7,7 +7,7 @@ old-location: wia\_wia_IEnumWIA_FORMAT_INFO.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_format_info\ienumwia_format_info.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: IEnumWIA_FORMAT_INFO, IEnumWIA_FORMAT_INFO interface [WIA], IEnumWIA_FORMAT_INFO interface [WIA],described, _wia_IEnumWIA_FORMAT_INFO, wia._wia_IEnumWIA_FORMAT_INFO, wia_xp/IEnumWIA_FORMAT_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ The <b>IEnumWIA_FORMAT_INFO</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629830(v=VS.85).aspx">IEnumWIA_FORMAT_INFO::Clone</a> method creates an additional instance of the <b>IEnumWIA_FORMAT_INFO</b> interface and returns an interface pointer to the new interface.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629830(v=VS.85).aspx">IEnumWIA_FORMAT_INFO::Clone</a> method creates an additional instance of the <b>IEnumWIA_FORMAT_INFO</b> interface and returns an interface pointer to the new interface.
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ The <a href="https://msdn.microsoft.com/library/ms629830(v=VS.85).aspx">IEnumWIA
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629832(v=VS.85).aspx">IEnumWIA_FORMAT_INFO::GetCount</a> method returns the number of elements stored by this enumerator.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629832(v=VS.85).aspx">IEnumWIA_FORMAT_INFO::GetCount</a> method returns the number of elements stored by this enumerator.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ The <a href="https://msdn.microsoft.com/library/ms629832(v=VS.85).aspx">IEnumWIA
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms630159(v=VS.85).aspx">IEnumWIA_FORMAT_INFO::Next</a> method returns an array of <a href="https://msdn.microsoft.com/library/ms629878(v=VS.85).aspx">WIA_FORMAT_INFO</a> structures.
+The <a href="https://msdn.microsoft.com/en-us/library/ms630159(v=VS.85).aspx">IEnumWIA_FORMAT_INFO::Next</a> method returns an array of <a href="https://msdn.microsoft.com/en-us/library/ms629878(v=VS.85).aspx">WIA_FORMAT_INFO</a> structures.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ The <a href="https://msdn.microsoft.com/library/ms630159(v=VS.85).aspx">IEnumWIA
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms630160(v=VS.85).aspx">IEnumWIA_FORMAT_INFO::Reset</a> method sets the enumeration back to the first <a href="https://msdn.microsoft.com/library/ms629878(v=VS.85).aspx">WIA_FORMAT_INFO</a> structure.
+The <a href="https://msdn.microsoft.com/en-us/library/ms630160(v=VS.85).aspx">IEnumWIA_FORMAT_INFO::Reset</a> method sets the enumeration back to the first <a href="https://msdn.microsoft.com/en-us/library/ms629878(v=VS.85).aspx">WIA_FORMAT_INFO</a> structure.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ The <a href="https://msdn.microsoft.com/library/ms630160(v=VS.85).aspx">IEnumWIA
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms630161(v=VS.85).aspx">IEnumWIA_FORMAT_INFO::Skip</a> method skips the specified number of structures in the enumeration.
+The <a href="https://msdn.microsoft.com/en-us/library/ms630161(v=VS.85).aspx">IEnumWIA_FORMAT_INFO::Skip</a> method skips the specified number of structures in the enumeration.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ The <a href="https://msdn.microsoft.com/library/ms630161(v=VS.85).aspx">IEnumWIA
 
 The <b>IEnumWIA_FORMAT_INFO</b> interface is a specific implementation for Windows Image Acquisition (WIA) of the standard Component Object Model (COM) enumeration interface. For details, see <a href="_com_ienumxxxx">IEnumXXXX</a>.
 
-Applications obtain a pointer to the <b>IEnumWIA_FORMAT_INFO</b> interface by invoking the <a href="https://msdn.microsoft.com/library/ms630150(v=VS.85).aspx">IWiaDataTransfer::idtEnumWIA_FORMAT_INFO</a> method of an item's <a href="https://msdn.microsoft.com/library/ms630155(v=VS.85).aspx">IWiaDataTransfer</a> interface.
+Applications obtain a pointer to the <b>IEnumWIA_FORMAT_INFO</b> interface by invoking the <a href="https://msdn.microsoft.com/en-us/library/ms630150(v=VS.85).aspx">IWiaDataTransfer::idtEnumWIA_FORMAT_INFO</a> method of an item's <a href="https://msdn.microsoft.com/en-us/library/ms630155(v=VS.85).aspx">IWiaDataTransfer</a> interface.
 
 The <b>IEnumWIA_FORMAT_INFO</b> interface, like all COM interfaces, inherits the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface methods. 
 
@@ -175,7 +175,7 @@ The <b>IEnumWIA_FORMAT_INFO</b> interface, like all COM interfaces, inherits the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms630150(v=VS.85).aspx">idtEnumWIA_FORMAT_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms630150(v=VS.85).aspx">idtEnumWIA_FORMAT_INFO</a>
  
 
  

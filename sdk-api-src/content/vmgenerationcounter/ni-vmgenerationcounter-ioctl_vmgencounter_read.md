@@ -7,7 +7,7 @@ old-location: hyperv\ioctl_vmgencounter_read.htm
 old-project: HyperV_v2
 ms.assetid: D8945F17-8982-4694-BDD9-DD67963626D1
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_VMGENCOUNTER_READ, IOCTL_VMGENCOUNTER_READ control, IOCTL_VMGENCOUNTER_READ control code, hyperv.ioctl_vmgencounter_read, vmgenerationcounter/IOCTL_VMGENCOUNTER_READ
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,8 +121,7 @@ To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087
 <pre class="syntax">BOOL 
    WINAPI 
    DeviceIoControl( (HANDLE)       hDevice,         // handle to device
-                    (DWORD)        IOCTL_VMGENCOUNTER_READ, // dwIoControlCode
-                    (LPDWORD)      lpInBuffer,      // input buffer
+                    (DWORD)        IOCTL_VMGENCOUNTER_READ, // dwIoControlCode(LPDWORD)      lpInBuffer,      // input buffer
                     (DWORD)        nInBufferSize,   // size of input buffer
                     (LPDWORD)      lpOutBuffer,     // output buffer
                     (DWORD)        nOutBufferSize,  // size of output buffer

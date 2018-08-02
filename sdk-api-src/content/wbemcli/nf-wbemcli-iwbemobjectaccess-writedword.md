@@ -7,7 +7,7 @@ old-location: wmi\iwbemobjectaccess_writedword.htm
 old-project: WmiSdk
 ms.assetid: a1716599-69ba-44fb-be68-b22578f6c6b2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],WriteDWORD method, IWbemObjectAccess.WriteDWORD, IWbemObjectAccess::WriteDWORD, WriteDWORD, WriteDWORD method [Windows Management Instrumentation], WriteDWORD method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_writedword, wbemcli/IWbemObjectAccess::WriteDWORD, wmi.iwbemobjectaccess_writedword
 ms.prod: windows
 ms.technology: windows-sdk

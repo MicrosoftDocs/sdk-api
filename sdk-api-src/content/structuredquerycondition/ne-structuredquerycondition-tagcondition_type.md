@@ -7,7 +7,7 @@ old-location: search\_search_CONDITION_TYPE.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\condition_type.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: CONDITION_TYPE, CONDITION_TYPE enumeration [search], CT_AND_CONDITION, CT_LEAF_CONDITION, CT_NOT_CONDITION, CT_OR_CONDITION, _search_CONDITION_TYPE, search._search_CONDITION_TYPE, structuredquerycondition/CONDITION_TYPE, structuredquerycondition/CT_AND_CONDITION, structuredquerycondition/CT_LEAF_CONDITION, structuredquerycondition/CT_NOT_CONDITION, structuredquerycondition/CT_OR_CONDITION, tagCONDITION_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,10 +52,10 @@ req.product: Windows XP with SP1 and later
 
 
 Provides a set of flags to be used with the following methods to indicate the type of condition tree node: 
-        <a href="https://msdn.microsoft.com/library/Bb231390(v=VS.85).aspx">ICondition::GetConditionType</a>, 
-        <a href="https://msdn.microsoft.com/library/Bb231384(v=VS.85).aspx">IConditionFactory::MakeAndOr</a>, 
-        <a href="https://msdn.microsoft.com/library/Dd742801(v=VS.85).aspx">IConditionFactory2::CreateCompoundFromArray</a>, and 
-        <a href="https://msdn.microsoft.com/library/Dd742793(v=VS.85).aspx">IConditionFactory2::CreateCompoundFromObjectArray</a>.
+        <a href="https://msdn.microsoft.com/en-us/library/Bb231390(v=VS.85).aspx">ICondition::GetConditionType</a>, 
+        <a href="https://msdn.microsoft.com/en-us/library/Bb231384(v=VS.85).aspx">IConditionFactory::MakeAndOr</a>, 
+        <a href="https://msdn.microsoft.com/en-us/library/Dd742801(v=VS.85).aspx">IConditionFactory2::CreateCompoundFromArray</a>, and 
+        <a href="https://msdn.microsoft.com/en-us/library/Dd742793(v=VS.85).aspx">IConditionFactory2::CreateCompoundFromObjectArray</a>.
 
 
 ## -enum-fields
@@ -80,7 +80,7 @@ Indicates a "NOT" comparison of subterms.
 
 ### -field CT_LEAF_CONDITION
 
-Indicates that the node is a comparison between a property and a constant value using a <a href="https://msdn.microsoft.com/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>.
+Indicates that the node is a comparison between a property and a constant value using a <a href="https://msdn.microsoft.com/en-us/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>.
 
 
 ## -remarks
@@ -99,31 +99,31 @@ The StructuredQuerySample code sample, available on <a href="http://go.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd797838(v=VS.85).aspx">CONDITION_CREATION_OPTIONS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd797838(v=VS.85).aspx">CONDITION_CREATION_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd742811(v=VS.85).aspx">ICondition2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742811(v=VS.85).aspx">ICondition2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231383(v=VS.85).aspx">IConditionFactory</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231383(v=VS.85).aspx">IConditionFactory</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd742799(v=VS.85).aspx">IConditionFactory2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742799(v=VS.85).aspx">IConditionFactory2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231380(v=VS.85).aspx">IConditionGenerator</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231380(v=VS.85).aspx">IConditionGenerator</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs.htm
 old-project: printdocs
 ms.assetid: 6d2cda65-c719-46f2-97c9-8aee7b5f84b9
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], IXpsOMGlyphs interface [XPS Documents and Packaging],described, xps.ixpsomglyphs, xpsobjectmodel/IXpsOMGlyphs
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,8 +103,7 @@ Gets the name of the  device font.
 <a href="https://msdn.microsoft.com/0deadd8e-24c5-4be1-8eaf-43cd59e22243">GetFillBrush</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to  the resolved <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface of the fill brush to be used for the text.
+Gets a pointer to  the resolved <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface of the fill brush to be used for the text.
             
 
 </td>
@@ -114,8 +113,7 @@ Gets the name of the  device font.
 <a href="https://msdn.microsoft.com/d497eac9-8096-4a0e-bb43-315f734fd36e">GetFillBrushLocal</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the  local, unshared <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface of  the fill brush to be used for the text.
+Gets a pointer to the  local, unshared <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface of  the fill brush to be used for the text.
             
 
 </td>
@@ -125,8 +123,7 @@ Gets the name of the  device font.
 <a href="https://msdn.microsoft.com/f71b0b98-12d6-4108-8b1e-4ad254ffbdfd">GetFillBrushLookup</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the lookup key of the <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface that is stored in a resource dictionary and will be used as the fill brush.
+Gets the lookup key of the <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface that is stored in a resource dictionary and will be used as the fill brush.
             
 
 </td>
@@ -154,8 +151,7 @@ Gets the font size.
 <a href="https://msdn.microsoft.com/6ecca6a0-eb47-4511-898d-cf097a78d6f0">GetFontResource</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the  <a href="https://msdn.microsoft.com/dd0ce1c0-1c04-46a8-9075-93de9b3e3062">IXpsOMFontResource</a> interface of the font resource object required for this text.
+Gets a pointer to the  <a href="https://msdn.microsoft.com/dd0ce1c0-1c04-46a8-9075-93de9b3e3062">IXpsOMFontResource</a> interface of the font resource object required for this text.
             
 
 </td>
@@ -174,8 +170,7 @@ Gets the number of Glyph indices.
 <a href="https://msdn.microsoft.com/6698ae0b-3525-4612-8234-8ba4dd2870a0">GetGlyphIndices</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an array of <a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a> structures that describe the specific glyph indices in the font.
+Gets an array of <a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a> structures that describe the specific glyph indices in the font.
             
 
 </td>
@@ -194,8 +189,7 @@ Gets the number of glyph mappings.
 <a href="https://msdn.microsoft.com/c7cf4352-f08a-43cb-a063-5d369017a887">GetGlyphMappings</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an array of <a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-969b-a99ec7bb22f3">XPS_GLYPH_MAPPING</a> structures that describe how to map UTF-16 scalar values to entries in the array of <a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a> structures, which is returned by <a href="https://msdn.microsoft.com/6698ae0b-3525-4612-8234-8ba4dd2870a0">GetGlyphIndices</a>.
+Gets an array of <a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-969b-a99ec7bb22f3">XPS_GLYPH_MAPPING</a> structures that describe how to map UTF-16 scalar values to entries in the array of <a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a> structures, which is returned by <a href="https://msdn.microsoft.com/6698ae0b-3525-4612-8234-8ba4dd2870a0">GetGlyphIndices</a>.
             
 
 </td>
@@ -205,8 +199,7 @@ Gets the number of glyph mappings.
 <a href="https://msdn.microsoft.com/1c641d99-9303-484d-82e0-2d71e2c43561">GetGlyphsEditor</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/5bdf2892-ce6f-4560-b638-e441166fc309">IXpsOMGlyphsEditor</a> interface that will be used to edit the glyphs in the object.
+Gets a pointer to the <a href="https://msdn.microsoft.com/5bdf2892-ce6f-4560-b638-e441166fc309">IXpsOMGlyphsEditor</a> interface that will be used to edit the glyphs in the object.
             
 
 </td>
@@ -270,8 +263,7 @@ Gets the text in unescaped UTF-16 scalar values.
 <a href="https://msdn.microsoft.com/73d1b0c2-81f9-4b1e-85fa-22e1e1c221f3">SetFillBrushLocal</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface pointer to a local, unshared fill brush.
+Sets the <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface pointer to a local, unshared fill brush.
             
 
 </td>
@@ -308,8 +300,7 @@ Sets the font size of the text.
 <a href="https://msdn.microsoft.com/0de80249-a1e1-4205-81bd-3ecb6cc938d4">SetFontResource</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the pointer to the  <a href="https://msdn.microsoft.com/dd0ce1c0-1c04-46a8-9075-93de9b3e3062">IXpsOMFontResource</a> interface of the font resource object that is required for this text.
+Sets the pointer to the  <a href="https://msdn.microsoft.com/dd0ce1c0-1c04-46a8-9075-93de9b3e3062">IXpsOMFontResource</a> interface of the font resource object that is required for this text.
             
 
 </td>

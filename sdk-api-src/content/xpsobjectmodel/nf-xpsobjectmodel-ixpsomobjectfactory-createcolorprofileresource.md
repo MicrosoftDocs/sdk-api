@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createcolorprofileresource.htm
 old-project: printdocs
 ms.assetid: cb4d1b49-fda6-46c3-a72a-21affdb7e82e
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CreateColorProfileResource, CreateColorProfileResource method [XPS Documents and Packaging], CreateColorProfileResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateColorProfileResource method, IXpsOMObjectFactory.CreateColorProfileResource, IXpsOMObjectFactory::CreateColorProfileResource, xps.ixpsomobjectfactory_createcolorprofileresource, xpsobjectmodel/IXpsOMObjectFactory::CreateColorProfileResource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Creates an <a href="https://msdn.microsoft.com/8a344300-c3fc-4225-bfa5-d5d33798a
 
 ### -param acquiredStream [in]
 
-
-            The read-only <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface to be associated with this resource. This parameter must not be <b>NULL</b>.
+The read-only <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface to be associated with this resource. This parameter must not be <b>NULL</b>.
 
 <div class="alert"><b>Important</b>  Treat this stream as a Single-Threaded Apartment (STA) object;   do not re-enter it.</div>
 <div> </div>
@@ -74,8 +73,7 @@ The <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IO
 
 ### -param colorProfileResource [out, retval]
 
-
-            A pointer to the new <a href="https://msdn.microsoft.com/8a344300-c3fc-4225-bfa5-d5d33798a094">IXpsOMColorProfileResource</a> interface.
+A pointer to the new <a href="https://msdn.microsoft.com/8a344300-c3fc-4225-bfa5-d5d33798a094">IXpsOMColorProfileResource</a> interface.
 
 
 ## -returns

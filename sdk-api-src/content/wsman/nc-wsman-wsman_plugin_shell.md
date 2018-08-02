@@ -4,10 +4,10 @@ title: WSMAN_PLUGIN_SHELL
 author: windows-sdk-content
 description: Defines the shell callback for a plug-in.
 old-location: winrm\wsman_plugin_shell.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 3016612a-ce99-405b-afae-200bcad9ed20
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: WSMAN_PLUGIN_SHELL, WSMAN_PLUGIN_SHELL callback, WSMAN_PLUGIN_SHELL callback function [Windows Remote Management], WSManPluginShell, winrm.wsman_plugin_shell, wsman/WSMAN_PLUGIN_SHELL
 ms.prod: windows
 ms.technology: windows-sdk

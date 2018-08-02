@@ -7,7 +7,7 @@ old-location: gdi\bitmapcoreheader.htm
 old-project: gdi
 ms.assetid: 0182adcd-dbba-43de-b41b-ab2f0fd8f7bf
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPBITMAPCOREHEADER, *PBITMAPCOREHEADER, BITMAPCOREHEADER, BITMAPCOREHEADER structure [Windows GDI], PBITMAPCOREHEADER, PBITMAPCOREHEADER structure pointer [Windows GDI], _win32_BITMAPCOREHEADER_str, gdi.bitmapcoreheader, tagBITMAPCOREHEADER, wingdi/BITMAPCOREHEADER, wingdi/PBITMAPCOREHEADER"
 ms.prod: windows
 ms.technology: windows-sdk

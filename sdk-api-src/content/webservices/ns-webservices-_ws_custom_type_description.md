@@ -7,7 +7,7 @@ old-location: wsw\ws_custom_type_description.htm
 old-project: wsw
 ms.assetid: 7ae3d16c-0755-4226-844e-52cf96fa84fb
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_CUSTOM_TYPE_DESCRIPTION, WS_CUSTOM_TYPE_DESCRIPTION structure [Web Services for Windows], _WS_CUSTOM_TYPE_DESCRIPTION, webservices/WS_CUSTOM_TYPE_DESCRIPTION, wsw.ws_custom_type_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Represents a custom mapping between a C data type and an XML element.
-                User-defined callbacks are invoked to do the actual reading and
+Represents a custom mapping between a C data type and an XML element.User-defined callbacks are invoked to do the actual reading and
                 writing.
             
 
@@ -64,15 +63,13 @@ Represents a custom mapping between a C data type and an XML element.
 
 ### -field size
 
-
-                    The size of the custom type, in bytes.
+The size of the custom type, in bytes.
                 
 
 
 ### -field alignment
 
-
-                    The alignment requirement of the custom type.  This must be a
+The alignment requirement of the custom type.  This must be a
                     power of two between 1 and 8.
                 
 
@@ -89,13 +86,11 @@ A pointer to a callback which is invoked to write the type.
 
 ### -field descriptionData
 
-
-                    This can be used to point to additional user-defined data
+This can be used to point to additional user-defined data
                     specific to the type.  It is optional and may be <b>NULL</b>.
                 
 
-
-                    The pointer to this data is passed
+The pointer to this data is passed
                     to the <a href="https://msdn.microsoft.com/95df152c-69cb-4417-9e85-e7ecb54ed042">WS_READ_TYPE_CALLBACK</a> and the
                     <a href="https://msdn.microsoft.com/f94bdf80-abea-4a97-9d41-add498e314b1">WS_WRITE_TYPE_CALLBACK</a>.  This allows the
                     callback to access information that is specific to this

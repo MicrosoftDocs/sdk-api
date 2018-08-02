@@ -7,7 +7,7 @@ old-location: wsw\ws_open_listener_callback.htm
 old-project: wsw
 ms.assetid: 061111f5-a568-4a8a-9892-9c8a352556ef
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_OPEN_LISTENER_CALLBACK, WS_OPEN_LISTENER_CALLBACK callback, WS_OPEN_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_OPEN_LISTENER_CALLBACK, wsw.ws_open_listener_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,31 +63,27 @@ Handles the <a href="https://msdn.microsoft.com/36226881-3fe7-4510-b147-7ee30146
 
 ### -param *listenerInstance [in]
 
-
-                    The pointer to the state specific to this listener instance,
+The pointer to the state specific to this listener instance,
                     as created by the <a href="https://msdn.microsoft.com/2d8e476d-dc68-44b4-b53b-be440a32efda">WS_CREATE_LISTENER_CALLBACK</a>.
                 
 
 
 ### -param *url [in]
 
-
-                    The URL to listen on.  The format and interpretation of the URL
+The URL to listen on.  The format and interpretation of the URL
                     is defined by the custom listener.
                 
 
 
 ### -param *asyncContext [in, optional]
 
-
-                    Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
+Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
                 
 
 
 ### -param *error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -107,8 +103,7 @@ Handles the <a href="https://msdn.microsoft.com/36226881-3fe7-4510-b147-7ee30146
 </dl>
 </td>
 <td width="60%">
-
-                    The asynchronous operation is still pending.
+The asynchronous operation is still pending.
                 
 
 </td>
@@ -120,8 +115,7 @@ Handles the <a href="https://msdn.microsoft.com/36226881-3fe7-4510-b147-7ee30146
 </dl>
 </td>
 <td width="60%">
-
-                    The listener was aborted during the open, or before the open.
+The listener was aborted during the open, or before the open.
                 
 
 </td>
@@ -133,8 +127,7 @@ Handles the <a href="https://msdn.microsoft.com/36226881-3fe7-4510-b147-7ee30146
 </dl>
 </td>
 <td width="60%">
-
-                    The listener is in the incorrect state.
+The listener is in the incorrect state.
                 
 
 </td>
@@ -146,7 +139,6 @@ Handles the <a href="https://msdn.microsoft.com/36226881-3fe7-4510-b147-7ee30146
 </dl>
 </td>
 <td width="60%">
-
 The address is already being used.
 
 </td>
@@ -158,7 +150,6 @@ The address is already being used.
 </dl>
 </td>
 <td width="60%">
-
 The address is not valid for this context.
 
 </td>
@@ -170,7 +161,6 @@ The address is not valid for this context.
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -182,7 +172,6 @@ A quota was exceeded.
 </dl>
 </td>
 <td width="60%">
-
 The operation was aborted.
 
 </td>
@@ -194,7 +183,6 @@ The operation was aborted.
 </dl>
 </td>
 <td width="60%">
-
 The operation did not complete within the time allotted.
 
 </td>
@@ -206,7 +194,6 @@ The operation did not complete within the time allotted.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -218,7 +205,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -244,8 +230,7 @@ This function may return other errors not listed above.
 
 
 
-
-                See <a href="https://msdn.microsoft.com/36226881-3fe7-4510-b147-7ee30146482c">WsOpenListener</a> for information about the contract
+See <a href="https://msdn.microsoft.com/36226881-3fe7-4510-b147-7ee30146482c">WsOpenListener</a> for information about the contract
                 of this API.
             
 

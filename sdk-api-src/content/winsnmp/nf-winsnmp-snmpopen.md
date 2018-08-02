@@ -4,10 +4,10 @@ title: SnmpOpen function
 author: windows-sdk-content
 description: The SnmpOpen function requests the Microsoft WinSNMP implementation to open a session for the WinSNMP application.
 old-location: snmp\snmpopen.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: 45085cad-2bfb-4f6c-9e42-6041fed681b8
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: SnmpOpen, SnmpOpen function [SNMP], _snmp_snmpopen, snmp.snmpopen, winsnmp/SnmpOpen
 ms.prod: windows
 ms.technology: windows-sdk

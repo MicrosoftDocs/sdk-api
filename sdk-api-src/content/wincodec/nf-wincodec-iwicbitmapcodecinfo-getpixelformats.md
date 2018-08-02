@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapcodecinfo_getpixelformats.htm
 old-project: wic
 ms.assetid: 2da56e46-bbbd-42d4-ba49-9dee01f6bba0
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetPixelFormats, GetPixelFormats method [Windows Imaging Component], GetPixelFormats method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetPixelFormats method, IWICBitmapCodecInfo.GetPixelFormats, IWICBitmapCodecInfo::GetPixelFormats, _wic_codec_iwicbitmapcodecinfo_getpixelformats, wic._wic_codec_iwicbitmapcodecinfo_getpixelformats, wincodec/IWICBitmapCodecInfo::GetPixelFormats
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,8 +95,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-            The usage pattern for this method is a two call process.
+The usage pattern for this method is a two call process.
             The first call retrieves the array size needed to retrieve all the supported pixel formats by calling it with <i>cFormats</i> set to <code>0</code> and <i>pguidPixelFormats</i> set to <code>NULL</code>.
             This call sets <i>pcActual</i> to the array size needed.
             Once the needed array size is determined, a second <b>GetPixelFormats</b> call with <i>pguidPixelFormats</i> set to an array of the appropriate size will retrieve the pixel formats.

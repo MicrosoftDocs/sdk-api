@@ -7,7 +7,7 @@ old-location: xps\ixpsompackage.htm
 old-project: printdocs
 ms.assetid: 7b0a36d6-1af1-4c2c-af14-d6139e9115c3
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMPackage, IXpsOMPackage interface [XPS Documents and Packaging], IXpsOMPackage interface [XPS Documents and Packaging],described, xps.ixpsompackage, xpsobjectmodel/IXpsOMPackage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ The <b>IXpsOMPackage</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ebe5c8a2-2d6a-4a86-8bf3-1fec1dec68d0">GetCoreProperties</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the  <a href="https://msdn.microsoft.com/705ec9c7-5aa9-4fc5-ad2c-441cb545d056">IXpsOMCoreProperties</a> interface of the XPS package.
+Gets a pointer to the  <a href="https://msdn.microsoft.com/705ec9c7-5aa9-4fc5-ad2c-441cb545d056">IXpsOMCoreProperties</a> interface of the XPS package.
             
 
 </td>
@@ -96,8 +95,7 @@ Gets the name of the discard control part in the XPS package.
 <a href="https://msdn.microsoft.com/30789376-1ac8-41ae-9c4d-e3d2d0715016">GetDocumentSequence</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the  <a href="https://msdn.microsoft.com/472095a4-ecd8-406a-97c2-1a34b4e5184a">IXpsOMDocumentSequence</a> interface that contains the document sequence of the XPS package.
+Gets a pointer to the  <a href="https://msdn.microsoft.com/472095a4-ecd8-406a-97c2-1a34b4e5184a">IXpsOMDocumentSequence</a> interface that contains the document sequence of the XPS package.
             
 
 </td>
@@ -107,8 +105,7 @@ Gets the name of the discard control part in the XPS package.
 <a href="https://msdn.microsoft.com/44a692a4-de5d-4fa9-89e2-ad969042797a">GetThumbnailResource</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface of the thumbnail resource that is associated with the XPS package.
+Gets a pointer to the <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface of the thumbnail resource that is associated with the XPS package.
             
 
 </td>
@@ -118,8 +115,7 @@ Gets the name of the discard control part in the XPS package.
 <a href="https://msdn.microsoft.com/e1be5c48-1e2b-4f94-98ec-b61bc255e63b">SetCoreProperties</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <a href="https://msdn.microsoft.com/705ec9c7-5aa9-4fc5-ad2c-441cb545d056">IXpsOMCoreProperties</a> interface of the XPS package.
+Sets the <a href="https://msdn.microsoft.com/705ec9c7-5aa9-4fc5-ad2c-441cb545d056">IXpsOMCoreProperties</a> interface of the XPS package.
             
 
 </td>
@@ -138,8 +134,7 @@ Sets the name of the discard control part in the XPS package.
 <a href="https://msdn.microsoft.com/cc159b7e-7cce-4f3b-ad0d-ce7b625b61d3">SetDocumentSequence</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <a href="https://msdn.microsoft.com/472095a4-ecd8-406a-97c2-1a34b4e5184a">IXpsOMDocumentSequence</a> interface of the XPS package.
+Sets the <a href="https://msdn.microsoft.com/472095a4-ecd8-406a-97c2-1a34b4e5184a">IXpsOMDocumentSequence</a> interface of the XPS package.
             
 
 </td>

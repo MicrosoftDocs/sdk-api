@@ -4,10 +4,10 @@ title: PCREATE_STATIC_SERVICE
 author: windows-sdk-content
 description: The CreateStaticService function adds a static service to the table.
 old-location: rras\createstaticservice.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 529beae6-ba39-417c-8fa6-7b97fc720352
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/29/2018
 ms.keywords: CreateStaticService, CreateStaticService callback function [RAS], PCREATE_STATIC_SERVICE, PCREATE_STATIC_SERVICE callback, _mpr_createstaticservice, rras.createstaticservice, stm/CreateStaticService
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # PCREATE_STATIC_SERVICE callback function

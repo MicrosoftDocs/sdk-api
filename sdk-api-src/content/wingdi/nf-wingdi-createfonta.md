@@ -7,7 +7,7 @@ old-location: gdi\createfont.htm
 old-project: gdi
 ms.assetid: 373bac6e-5d4d-4909-8096-2f0e909d2f1d
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: ANTIALIASED_QUALITY, CLEARTYPE_QUALITY, CLIP_CHARACTER_PRECIS, CLIP_DEFAULT_PRECIS, CLIP_DFA_DISABLE, CLIP_DFA_OVERRIDE, CLIP_EMBEDDED, CLIP_LH_ANGLES, CLIP_MASK, CLIP_STROKE_PRECIS, CLIP_TT_ALWAYS, CreateFont, CreateFont function [Windows GDI], CreateFontA, CreateFontW, DEFAULT_QUALITY, DRAFT_QUALITY, FF_DECORATIVE, FF_DONTCARE, FF_MODERN, FF_ROMAN, FF_SCRIPT, FF_SWISS, FW_BLACK, FW_BOLD, FW_DEMIBOLD, FW_DONTCARE, FW_EXTRABOLD, FW_EXTRALIGHT, FW_HEAVY, FW_LIGHT, FW_MEDIUM, FW_NORMAL, FW_REGULAR, FW_SEMIBOLD, FW_THIN, FW_ULTRABOLD, FW_ULTRALIGHT, NONANTIALIASED_QUALITY, OUT_CHARACTER_PRECIS, OUT_DEFAULT_PRECIS, OUT_DEVICE_PRECIS, OUT_OUTLINE_PRECIS, OUT_PS_ONLY_PRECIS, OUT_RASTER_PRECIS, OUT_STRING_PRECIS, OUT_STROKE_PRECIS, OUT_TT_ONLY_PRECIS, OUT_TT_PRECIS, PROOF_QUALITY, _win32_CreateFont, gdi.createfont, wingdi/CreateFont, wingdi/CreateFontA, wingdi/CreateFontW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -158,23 +158,20 @@ The character set. The following values are predefined:
 <li>TURKISH_CHARSET</li>
 <li>VIETNAMESE_CHARSET</li>
 </ul>
-
-            Korean language edition of Windows:
+Korean language edition of Windows:
             
 
 <ul>
 <li>JOHAB_CHARSET</li>
 </ul>
-
-            Middle East language edition of Windows:
+Middle East language edition of Windows:
             
 
 <ul>
 <li>ARABIC_CHARSET</li>
 <li>HEBREW_CHARSET</li>
 </ul>
-
-            Thai language edition of Windows:
+Thai language edition of Windows:
             
 
 <ul>
@@ -863,11 +860,9 @@ To help protect the copyrights of vendors who provide fonts for Windows, applica
 
 To get the appropriate font on different language versions of the OS, call <a href="https://msdn.microsoft.com/4d70906d-8005-4c4a-869e-16dd3e6fa3f2">EnumFontFamiliesEx</a> with the desired font characteristics in the <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure, then retrieve the appropriate typeface name and create the font using <b>CreateFont</b> or <a href="https://msdn.microsoft.com/b7919fb6-8515-4f1b-af9c-dc7eac381b90">CreateFontIndirect</a>.
 
+The font mapper for <b>CreateFont</b>,<a href="https://msdn.microsoft.com/b7919fb6-8515-4f1b-af9c-dc7eac381b90">CreateFontIndirect</a>, and <a href="https://msdn.microsoft.com/1161b79e-f9c8-4073-97c4-1ccc1a78279b">CreateFontIndirectEx</a> recognizes both the English and the localized typeface name, regardless of locale.
 
-         The font mapper for <b>CreateFont</b>,<a href="https://msdn.microsoft.com/b7919fb6-8515-4f1b-af9c-dc7eac381b90">CreateFontIndirect</a>, and <a href="https://msdn.microsoft.com/1161b79e-f9c8-4073-97c4-1ccc1a78279b">CreateFontIndirectEx</a> recognizes both the English and the localized typeface name, regardless of locale.
-
-
-         The following situations do not support ClearType antialiasing:
+The following situations do not support ClearType antialiasing:
 
 <ul>
 <li>Text rendered on a printer.</li>
@@ -956,7 +951,7 @@ To get the appropriate font on different language versions of the OS, call <a hr
 </td>
 </tr>
 </table></span></div>
-For another example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85).aspx">Using Menus</a>.
+For another example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Using Menus</a>.
 
 <div class="code"></div>
 
@@ -967,33 +962,27 @@ For another example, see "Setting Fonts for Menu-Item Text Strings" in <a href="
 
 
 
-<a href="https://msdn.microsoft.com/b7919fb6-8515-4f1b-af9c-dc7eac381b90">
-        CreateFontIndirect</a>
+<a href="https://msdn.microsoft.com/b7919fb6-8515-4f1b-af9c-dc7eac381b90">CreateFontIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/1161b79e-f9c8-4073-97c4-1ccc1a78279b">
-        CreateFontIndirectEx</a>
+<a href="https://msdn.microsoft.com/1161b79e-f9c8-4073-97c4-1ccc1a78279b">CreateFontIndirectEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">
-        DeleteObject</a>
+<a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a>
 
 
 
-<b>
-        EnumFontFamilies</b>
+<b>EnumFontFamilies</b>
 
 
 
-<a href="https://msdn.microsoft.com/4d70906d-8005-4c4a-869e-16dd3e6fa3f2">
-        EnumFontFamiliesEx</a>
+<a href="https://msdn.microsoft.com/4d70906d-8005-4c4a-869e-16dd3e6fa3f2">EnumFontFamiliesEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/b5dfc38d-c400-4900-a15b-f251815ee346">
-        EnumFonts</a>
+<a href="https://msdn.microsoft.com/b5dfc38d-c400-4900-a15b-f251815ee346">EnumFonts</a>
 
 
 
@@ -1005,13 +994,11 @@ For another example, see "Setting Fonts for Menu-Item Text Strings" in <a href="
 
 
 
-<a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">
-        LOGFONT</a>
+<a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a>
 
 
 
-<a href="https://msdn.microsoft.com/a89b875e-923d-4048-bc61-8dea132cc56d">
-        SelectObject</a>
+<a href="https://msdn.microsoft.com/a89b875e-923d-4048-bc61-8dea132cc56d">SelectObject</a>
  
 
  

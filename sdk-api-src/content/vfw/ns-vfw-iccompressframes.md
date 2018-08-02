@@ -7,7 +7,7 @@ old-location: multimedia\iccompressframes.htm
 old-project: Multimedia
 ms.assetid: ced9ceea-d3fa-4496-886a-837545a28194
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: ICCOMPRESSFRAMES, ICCOMPRESSFRAMES structure [Windows Multimedia], _win32_ICCOMPRESSFRAMES_str, multimedia.iccompressframes, vfw/ICCOMPRESSFRAMES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,22 +64,19 @@ The <b>ICCOMPRESSFRAMES</b> structure contains compression parameters used with 
 
 ### -field dwFlags
 
-
-            Applicable flags. The following value is defined: <b>ICCOMPRESSFRAMES_PADDING</b>. If this value is used, padding is used with the frame.
+Applicable flags. The following value is defined: <b>ICCOMPRESSFRAMES_PADDING</b>. If this value is used, padding is used with the frame.
           
 
 
 ### -field lpbiOutput
 
-
-            Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the output format.
+Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the output format.
           
 
 
 ### -field lOutput
 
-
-            Reserved; do not use.
+Reserved; do not use.
           
 
 

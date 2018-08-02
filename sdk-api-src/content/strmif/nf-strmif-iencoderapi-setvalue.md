@@ -7,7 +7,7 @@ old-location: mstv\iencoderapi_setvalue.htm
 old-project: mstv
 ms.assetid: a7dc0964-64b9-4ea3-8948-19ec100d64f5
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IEncoderAPI interface [Microsoft TV Technologies],SetValue method, IEncoderAPI.SetValue, IEncoderAPI::SetValue, IEncoderAPISetValue, SetValue, SetValue method [Microsoft TV Technologies], SetValue method [Microsoft TV Technologies],IEncoderAPI interface, mstv.iencoderapi_setvalue, strmif/IEncoderAPI::SetValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,15 +64,13 @@ The <b>SetValue</b> method sets the current value of a parameter.
 
 ### -param Api [in]
 
-
-            Pointer to a GUID that specifies the parameter.
+Pointer to a GUID that specifies the parameter.
           
 
 
 ### -param Value [out]
 
-
-            Pointer that specifies the value of <i>Api</i>. If <i>Api</i> was specified as <b>ENCAPIPARAM_BITRATE_MODE</b>, then <i>Value</i> must be one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568695">VIDEOENCODER_BITRATE_MODE</a> constants.
+Pointer that specifies the value of <i>Api</i>. If <i>Api</i> was specified as <b>ENCAPIPARAM_BITRATE_MODE</b>, then <i>Value</i> must be one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568695">VIDEOENCODER_BITRATE_MODE</a> constants.
             
           
 

@@ -4,10 +4,10 @@ title: SnmpGetVendorInfo function
 author: windows-sdk-content
 description: A WinSNMP application calls the SnmpGetVendorInfo function to retrieve information about the Microsoft WinSNMP implementation.
 old-location: snmp\snmpgetvendorinfo.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: e5929fb9-5011-42b9-887e-db0ccdd79e2b
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: SnmpGetVendorInfo, SnmpGetVendorInfo function [SNMP], _snmp_snmpgetvendorinfo, snmp.snmpgetvendorinfo, winsnmp/SnmpGetVendorInfo
 ms.prod: windows
 ms.technology: windows-sdk

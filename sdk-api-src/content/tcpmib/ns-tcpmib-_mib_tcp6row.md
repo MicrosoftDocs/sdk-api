@@ -4,10 +4,10 @@ title: "_MIB_TCP6ROW"
 author: windows-sdk-content
 description: Contains information that describes an IPv6 TCP connection.
 old-location: mib\mib_tcp6row.htm
-old-project: mib
+old-project: MIB
 ms.assetid: b3e9eda5-5e86-4790-8b1b-ca9bae44b502
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/29/2018
 ms.keywords: "*PMIB_TCP6ROW, MIB_TCP6ROW, MIB_TCP6ROW structure [MIB], MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCP6ROW, PMIB_TCP6ROW structure pointer [MIB], _MIB_TCP6ROW, mib.mib_tcp6row, tcpmib/MIB_TCP6ROW, tcpmib/PMIB_TCP6ROW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -276,8 +276,7 @@ The remote port number in network byte order for the TCP connection on the remot
 
 The <b>MIB_TCP6ROW</b> structure is defined on Windows Vista and later. 
 
-The <a href="https://msdn.microsoft.com/77150609-d06d-4492-bbd7-21eecd825bde">GetTcp6Table</a>
-			function retrieves the IPv6 TCP connection table on the local computer and returns this information in a <a href="https://msdn.microsoft.com/62bb8544-0a0a-40b5-92cf-9631c9a9987c">MIB_TCP6TABLE</a> structure. 
+The <a href="https://msdn.microsoft.com/77150609-d06d-4492-bbd7-21eecd825bde">GetTcp6Table</a>function retrieves the IPv6 TCP connection table on the local computer and returns this information in a <a href="https://msdn.microsoft.com/62bb8544-0a0a-40b5-92cf-9631c9a9987c">MIB_TCP6TABLE</a> structure. 
 
 An array of <b>MIB_TCP6ROW</b> structures are contained in the <b>MIB_TCP6TABLE</b> structure.  
 

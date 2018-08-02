@@ -4,10 +4,10 @@ title: GetTapeStatus function
 author: windows-sdk-content
 description: Determines whether the tape device is ready to process tape commands.
 old-location: backup\gettapestatus.htm
-old-project: backup
+old-project: Backup
 ms.assetid: 37422a27-2d46-43db-9318-4a3547b7f933
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: GetTapeStatus, GetTapeStatus function [Backup], _win32_gettapestatus, backup.gettapestatus, base.gettapestatus, winbase/GetTapeStatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device for which to get the device status. This handle is created by using the 
-<a href="base.createfile">CreateFile</a> function.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.
 
 
 ## -returns
@@ -282,7 +282,7 @@ The media is write protected.
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
  
 
  

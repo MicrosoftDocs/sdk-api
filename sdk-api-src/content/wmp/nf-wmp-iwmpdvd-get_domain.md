@@ -7,7 +7,7 @@ old-location: wmp\iwmpdvd_get_domain.htm
 old-project: WMP
 ms.assetid: 2a8d5ea6-ed70-4952-810c-215acd1ae560
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],get_domain method, IWMPDVD.get_domain, IWMPDVD::get_domain, IWMPDVDget_domain, get_domain, get_domain method [Windows Media Player], get_domain method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_get_domain, wmp/IWMPDVD::get_domain
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,11 +68,9 @@ Pointer to a <b>BSTR</b> that contains one of the following values.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

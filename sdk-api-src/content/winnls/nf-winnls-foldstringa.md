@@ -7,7 +7,7 @@ old-location: intl\foldstring.htm
 old-project: Intl
 ms.assetid: 986b9a72-04c0-49e2-8424-8948dc64de0c
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: FoldString, FoldString function [Internationalization for Windows Applications], FoldStringA, FoldStringW, MAP_COMPOSITE, MAP_EXPAND_LIGATURES, MAP_FOLDCZONE, MAP_FOLDDIGITS, MAP_PRECOMPOSED, _win32_FoldString, _win32_FoldString_cpp, intl.foldstring, stringapiset/FoldString, stringapiset/FoldStringA, stringapiset/FoldStringW, winnls/FoldString, winnls/FoldStringA, winnls/FoldStringW, winui._win32_FoldString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,8 +102,7 @@ Expand all ligature characters so that they are represented by their two-charact
 </dl>
 </td>
 <td width="60%">
-
-                Fold compatibility zone characters into standard Unicode equivalents. This flag is equivalent to normalization form KD in Windows Vista, if the MAP_COMPOSITE flag is also set. If the composite flag is not set (default), this flag is equivalent to normalization form KC in Windows Vista.
+Fold compatibility zone characters into standard Unicode equivalents. This flag is equivalent to normalization form KD in Windows Vista, if the MAP_COMPOSITE flag is also set. If the composite flag is not set (default), this flag is equivalent to normalization form KC in Windows Vista.
 
 </td>
 </tr>
@@ -113,8 +112,7 @@ Expand all ligature characters so that they are represented by their two-charact
 </dl>
 </td>
 <td width="60%">
-
-                Map all digits to Unicode characters 0 through 9. 
+Map all digits to Unicode characters 0 through 9. 
 
 </td>
 </tr>

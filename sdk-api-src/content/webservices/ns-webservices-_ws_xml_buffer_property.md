@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_buffer_property.htm
 old-project: wsw
 ms.assetid: bec8d297-7f5a-4b8f-a333-9b535358c470
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_BUFFER_PROPERTY, WS_XML_BUFFER_PROPERTY structure [Web Services for Windows], _WS_XML_BUFFER_PROPERTY, webservices/WS_XML_BUFFER_PROPERTY, wsw.ws_xml_buffer_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Specifies an XML buffer–specific setting.
+Specifies an XML buffer–specific setting.
       
 
 
@@ -63,15 +62,13 @@ req.product: Windows Address Book 5.0
 
 ### -field id
 
-
-          Identifies the <a href="https://msdn.microsoft.com/580a72d3-6800-48b3-9345-4e3b20bb4066">WS_XML_BUFFER_PROPERTY_ID</a>.
+Identifies the <a href="https://msdn.microsoft.com/580a72d3-6800-48b3-9345-4e3b20bb4066">WS_XML_BUFFER_PROPERTY_ID</a>.
         
 
 
 ### -field value
 
-
-            A pointer to the value to set.
+A pointer to the value to set.
             The pointer must have an alignment compatible with the type
             of the property.
         
@@ -79,7 +76,6 @@ req.product: Windows Address Book 5.0
 
 ### -field valueSize
 
-
-          The size in bytes of the memory pointed to by value.
+The size in bytes of the memory pointed to by value.
         
 

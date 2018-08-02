@@ -4,10 +4,10 @@ title: WSDGenerateFault function
 author: windows-sdk-content
 description: Generates a SOAP fault.
 old-location: ncd\wsdgeneratefault.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: eebecf71-2572-4e20-ad40-b1a2f811bedf
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: DataEncodingUnknown, MustUnderstand, Receiver, Sender, VersionMismatch, WSDGenerateFault, WSDGenerateFault function, ncd.wsdgeneratefault, wsdutil/WSDGenerateFault
 ms.prod: windows
 ms.technology: windows-sdk

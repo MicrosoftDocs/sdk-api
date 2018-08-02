@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_ExpandToEnclosingUnit.htm
 old-project: WinAuto
 ms.assetid: 6128b0ef-e78d-4f87-bc70-ab5ac0d055cf
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: ExpandToEnclosingUnit, ExpandToEnclosingUnit method [Windows Accessibility], ExpandToEnclosingUnit method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],ExpandToEnclosingUnit method, ITextRangeProvider.ExpandToEnclosingUnit, ITextRangeProvider::ExpandToEnclosingUnit, uiauto.uiauto_ITextRangeProvider_ExpandToEnclosingUnit, uiauto_ITextRangeProvider_ExpandToEnclosingUnit, uiautomationcore/ITextRangeProvider::ExpandToEnclosingUnit, winauto.uiauto_ITextRangeProvider_ExpandToEnclosingUnit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        Normalizes the text range by the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is 
+Normalizes the text range by the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is 
 		  longer than the specified unit. 
         
 

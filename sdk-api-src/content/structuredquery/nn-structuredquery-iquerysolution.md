@@ -7,7 +7,7 @@ old-location: search\_search_IQuerySolution.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\iquerysolution.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: IQuerySolution, IQuerySolution interface [search], IQuerySolution interface [search],described, _search_IQuerySolution, search._search_IQuerySolution, structuredquery/IQuerySolution
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,14 +51,13 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-          Provides methods that retrieve information about the interpretation of a parsed query.
+Provides methods that retrieve information about the interpretation of a parsed query.
         
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQuerySolution</b> interface inherits from <a href="https://msdn.microsoft.com/library/Bb231383(v=VS.85).aspx">IConditionFactory</a>. <b>IQuerySolution</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQuerySolution</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb231383(v=VS.85).aspx">IConditionFactory</a>. <b>IQuerySolution</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,33 +72,30 @@ The <b>IQuerySolution</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231343(v=VS.85).aspx">GetErrors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231343(v=VS.85).aspx">GetErrors</a>
 </td>
 <td align="left" width="63%">
-
-          Identifies parts of the input string that the parser did not recognize or did not use when constructing the <b>IQuerySolution</b> condition tree.
+Identifies parts of the input string that the parser did not recognize or did not use when constructing the <b>IQuerySolution</b> condition tree.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231344(v=VS.85).aspx">GetLexicalData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231344(v=VS.85).aspx">GetLexicalData</a>
 </td>
 <td align="left" width="63%">
-
-          Reports the query string, how it was tokenized, and what LCID and word breaker were used to parse it.
+Reports the query string, how it was tokenized, and what LCID and word breaker were used to parse it.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231345(v=VS.85).aspx">GetQuery</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231345(v=VS.85).aspx">GetQuery</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the condition tree and the semantic type of the solution.
+Retrieves the condition tree and the semantic type of the solution.
         
 
 </td>

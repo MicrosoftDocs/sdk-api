@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_writer_raw_encoding.htm
 old-project: wsw
 ms.assetid: 655a7d13-8ef1-4863-a6a2-4636ba0a8983
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_WRITER_RAW_ENCODING, WS_XML_WRITER_RAW_ENCODING structure [Web Services for Windows], _WS_XML_WRITER_RAW_ENCODING, webservices/WS_XML_WRITER_RAW_ENCODING, wsw.ws_xml_writer_raw_encoding
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Used to indicate that the writer should emit bytes from decoded base64 characters.
+Used to indicate that the writer should emit bytes from decoded base64 characters.
       
 
 
@@ -63,8 +62,7 @@ req.product: Windows Address Book 5.0
 
 ### -field encoding
 
-
-          The base type for all types that derive from <a href="https://msdn.microsoft.com/5ca43d39-e714-4070-b343-6c8ab9484817">WS_XML_WRITER_ENCODING</a>.
+The base type for all types that derive from <a href="https://msdn.microsoft.com/5ca43d39-e714-4070-b343-6c8ab9484817">WS_XML_WRITER_ENCODING</a>.
         
 
 
@@ -72,8 +70,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-        This encoding can be useful when it is desirable to write an arbitrary, perhaps, non-xml document
+This encoding can be useful when it is desirable to write an arbitrary, perhaps, non-xml document
         while still using the <a href="https://msdn.microsoft.com/8f413e60-8a30-492c-8f2d-80be511fee11">WS_XML_WRITER</a> abstraction.  In this encoding, only characters
         representing base64 encoded bytes may be written, and only at the root of the document.  No
         elements or comments may be written.  The writer will emit the bytes represented by the base64 encoded 
@@ -81,8 +78,7 @@ req.product: Windows Address Book 5.0
         will operate as if the <a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML_WRITER_PROPERTY_ALLOW_FRAGMENT</a> property has been specified.
       
 
-
-        The base64 characters of the document are only converted to bytes when necessary.  So, for example, 
+The base64 characters of the document are only converted to bytes when necessary.  So, for example, 
         using <a href="https://msdn.microsoft.com/1fa9ecfc-c791-459f-ae11-ffcdc82b7145">WsWriteBytes</a>, which normally performs a base64 encoding of the bytes it is passed,
         actually avoids all base64 conversions and is the most efficient way to write documents in this
         encoding. Using <a href="https://msdn.microsoft.com/e435058f-62b5-4ae9-800e-e022033a9664">WsWriteChars</a>, for example, will cause the base64 characters to physically get

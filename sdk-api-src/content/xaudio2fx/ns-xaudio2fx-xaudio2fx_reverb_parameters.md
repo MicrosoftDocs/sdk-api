@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2fx_reverb_parameters.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2FX_REVERB_PARAMETERS
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: XAUDIO2FX_REVERB_PARAMETERS, XAUDIO2FX_REVERB_PARAMETERS structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2fx_reverb_parameters, xaudio2fx/XAUDIO2FX_REVERB_PARAMETERS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -376,7 +376,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee418595(v=VS.85).aspx">IXAudio2Voice::SetEffectParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418595(v=VS.85).aspx">IXAudio2Voice::SetEffectParameters</a>
 
 
 
@@ -388,7 +388,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419213(v=VS.85).aspx">XAudio2CreateReverb</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419213(v=VS.85).aspx">XAudio2CreateReverb</a>
  
 
  

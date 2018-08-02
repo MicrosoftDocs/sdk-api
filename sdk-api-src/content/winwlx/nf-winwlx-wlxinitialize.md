@@ -4,10 +4,10 @@ title: WlxInitialize function
 author: windows-sdk-content
 description: Winlogon calls this function once for each window station present on the computer. Currently, the operating system supports one window station per workstation.
 old-location: security\wlxinitialize.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: db03f2b3-0719-40be-8a42-04ab7110f711
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: WLX_DISPATCH_VERSION_1_0, WLX_DISPATCH_VERSION_1_1, WLX_DISPATCH_VERSION_1_2, WLX_DISPATCH_VERSION_1_3, WLX_DISPATCH_VERSION_1_4, WlxInitialize, WlxInitialize function [Security], _gina_wlxinitialize, security.wlxinitialize, winwlx/WlxInitialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 <p class="CCE_Message">[The WlxInitialize function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-
-			The <b>WlxInitialize</b> function must be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a> calls this function once for each window station present on the computer. Currently, the operating system supports one window station per workstation.
+The <b>WlxInitialize</b> function must be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a> calls this function once for each window station present on the computer. Currently, the operating system supports one window station per workstation.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> returned by this function will be passed back to the GINA in all subsequent calls.
 
 
@@ -104,8 +103,7 @@ Winlogon dispatch table - version 1.4
 </dl>
 </td>
 <td width="60%">
-
-								Winlogon dispatch table - version 1.3
+Winlogon dispatch table - version 1.3
 
 </td>
 </tr>
@@ -115,8 +113,7 @@ Winlogon dispatch table - version 1.4
 </dl>
 </td>
 <td width="60%">
-
-								Winlogon dispatch table - version 1.2
+Winlogon dispatch table - version 1.2
 
 </td>
 </tr>
@@ -126,8 +123,7 @@ Winlogon dispatch table - version 1.4
 </dl>
 </td>
 <td width="60%">
-
-								Winlogondispatch table - version 1.1
+Winlogondispatch table - version 1.1
 
 </td>
 </tr>
@@ -137,8 +133,7 @@ Winlogon dispatch table - version 1.4
 </dl>
 </td>
 <td width="60%">
-
-								Winlogon dispatch table - version 1.0
+Winlogon dispatch table - version 1.0
 
 </td>
 </tr>
@@ -155,8 +150,7 @@ A pointer to a pointer to a <b>VOID</b> that will contain the address of the GIN
 
 
 
-
-					If the function successfully initializes the GINA DLL, the function returns <b>TRUE</b>.
+If the function successfully initializes the GINA DLL, the function returns <b>TRUE</b>.
 
 If the function fails, or if the GINA DLL was not initialized, the function returns <b>FALSE</b>. Winlogon will terminate, and the system will not boot.
 

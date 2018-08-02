@@ -4,10 +4,10 @@ title: ldap_conn_from_msg function
 author: windows-sdk-content
 description: Returns the LDAP session handle (connection pointer) for a particular message.
 old-location: ldap\ldap_conn_from_msg.htm
-old-project: ldap
+old-project: LDAP
 ms.assetid: 0f536c42-06c1-43d9-a298-4a9e9bf96a46
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "_ldap_ldap_conn_from_msg, ldap.ldap__conn__from__msg, ldap.ldap_conn_from_msg, ldap_conn_from_msg, ldap_conn_from_msg function [LDAP], winldap/ldap_conn_from_msg"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>LDAP</b> message queried.  If <b>NULL</b> is passed for this parameter, t
 
 
 
-
-      The return value is the <a href="https://msdn.microsoft.com/844093e1-daba-494d-91b3-67455ff2e456">LDAP</a> session handle (connection pointer) where the message originated from. This function returns <b>NULL</b> if the originating session has closed or if a <b>NULL</b> <b>LDAPMessage</b> pointer is passed to the function and the <a href="https://msdn.microsoft.com/a968e66d-933f-44b7-b74d-d18a92d7de3f">LDAP_OPT_REF_DEREF_CONN_PER_MSG</a> session option was not previously set for the message session.
+The return value is the <a href="https://msdn.microsoft.com/844093e1-daba-494d-91b3-67455ff2e456">LDAP</a> session handle (connection pointer) where the message originated from. This function returns <b>NULL</b> if the originating session has closed or if a <b>NULL</b> <b>LDAPMessage</b> pointer is passed to the function and the <a href="https://msdn.microsoft.com/a968e66d-933f-44b7-b74d-d18a92d7de3f">LDAP_OPT_REF_DEREF_CONN_PER_MSG</a> session option was not previously set for the message session.
 
 
 

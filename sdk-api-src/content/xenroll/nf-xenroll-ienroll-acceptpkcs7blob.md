@@ -4,10 +4,10 @@ title: IEnroll::acceptPKCS7Blob
 author: windows-sdk-content
 description: Accepts and processes a PKCS #7 message containing a certificate. The PKCS #7 is input as a parameter.
 old-location: security\ienroll4_acceptpkcs7blob.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 8772f528-2c33-48f4-bb0c-cfde91cf2fba
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IEnroll interface [Security],acceptPKCS7Blob method, IEnroll.acceptPKCS7Blob, IEnroll::acceptPKCS7Blob, acceptPKCS7Blob, acceptPKCS7Blob method [Security], acceptPKCS7Blob method [Security],IEnroll interface, security.ienroll4_acceptpkcs7blob, xenroll/IEnroll::acceptPKCS7Blob
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ Represents the base64-encoded PKCS #7 containing the certificate and the chain o
 
 
 
-
-						 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Upon successful completion of this function, the PKCS #7 will be accepted.
+The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Upon successful completion of this function, the PKCS #7 will be accepted.
 
 
 

@@ -7,7 +7,7 @@ old-location: wintouch\closegestureinfohandle.htm
 old-project: wintouch
 ms.assetid: f2bf98b2-a4f7-4b63-b9ae-b2534415cb4b
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: CloseGestureInfoHandle, CloseGestureInfoHandle function [Windows Touch], wintouch.closegestureinfohandle, winuser/CloseGestureInfoHandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,14 +88,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-
-   If an application processes a <a href="https://msdn.microsoft.com/4167aeb0-2c31-4b7b-ad1b-e6d37da09ef8">WM_GESTURE</a> message, it is responsible for
+If an application processes a <a href="https://msdn.microsoft.com/4167aeb0-2c31-4b7b-ad1b-e6d37da09ef8">WM_GESTURE</a> message, it is responsible for
    closing the handle using this function. Failure to do so may result in
    process memory leaks.
   
 
-
-   If the message is passed to <a href="http://go.microsoft.com/fwlink/p/?linkid=136637">DefWindowProc</a>, or is forwarded using
+If the message is passed to <a href="http://go.microsoft.com/fwlink/p/?linkid=136637">DefWindowProc</a>, or is forwarded using
    one of the PostMessage or SendMessage classes of API functions, the handle
    is transferred with the message and need not be closed by the application.
   

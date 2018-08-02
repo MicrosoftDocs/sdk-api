@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager2_setcancelprioritycomparison.htm
 old-project: UIAnimation
 ms.assetid: 55DEC4C2-A6F3-459D-BDCD-3D3819EBF0D2
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],SetCancelPriorityComparison method, IUIAnimationManager2.SetCancelPriorityComparison, IUIAnimationManager2::SetCancelPriorityComparison, SetCancelPriorityComparison, SetCancelPriorityComparison method [Windows Animation], SetCancelPriorityComparison method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_setcancelprioritycomparison, uianimation/IUIAnimationManager2::SetCancelPriorityComparison
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Sets the priority comparison handler that determines whether  a scheduled storyboard can be canceled.
+Sets the priority comparison handler that determines whether  a scheduled storyboard can be canceled.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param comparison [in, optional]
 
-
-               The priority comparison handler for cancelation.  
+The priority comparison handler for cancelation.  
                
                The specified object must implement the
                <a href="https://msdn.microsoft.com/B19E9BAF-A91E-4A58-A6F0-058B03153D10">IUIAnimationPriorityComparison2</a> interface or be <b>NULL</b>.
@@ -102,18 +100,15 @@ Passing <b>NULL</b> for the <i>comparison</i> parameter causes Windows Animation
 
 
 
-<a href="https://msdn.microsoft.com/A754A307-AFFB-4E43-862D-C2FBC85E6C74">
-      IUIAnimationManager2::SetCompressPriorityComparison</a>
+<a href="https://msdn.microsoft.com/A754A307-AFFB-4E43-862D-C2FBC85E6C74">IUIAnimationManager2::SetCompressPriorityComparison</a>
 
 
 
-<a href="https://msdn.microsoft.com/1BDC9094-6020-4640-B959-59CD6CF48751">
-      IUIAnimationManager2::SetConcludePriorityComparison</a>
+<a href="https://msdn.microsoft.com/1BDC9094-6020-4640-B959-59CD6CF48751">IUIAnimationManager2::SetConcludePriorityComparison</a>
 
 
 
-<a href="https://msdn.microsoft.com/742BCD19-FC1D-46DE-9CBC-716793259947">
-      IUIAnimationManager2::SetTrimPriorityComparison</a>
+<a href="https://msdn.microsoft.com/742BCD19-FC1D-46DE-9CBC-716793259947">IUIAnimationManager2::SetTrimPriorityComparison</a>
 
 
 

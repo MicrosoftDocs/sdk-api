@@ -4,10 +4,10 @@ title: "_FSCTL_QUERY_STORAGE_CLASSES_OUTPUT"
 author: windows-sdk-content
 description: Contains information for all tiers of a specific volume.
 old-location: fs\fsctl_query_storage_classes_output.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 376B457C-2D54-47D0-A80A-16A03DA6A2EA
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: FILE_STORAGE_TIER_FLAG_NO_SEEK_PENALTY, FSCTL_QUERY_STORAGE_CLASSES_OUTPUT, FSCTL_QUERY_STORAGE_CLASSES_OUTPUT structure [Files], PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT, PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT structure pointer [Files], _FSCTL_QUERY_STORAGE_CLASSES_OUTPUT, fs.fsctl_query_storage_classes_output, winioctl/FSCTL_QUERY_STORAGE_CLASSES_OUTPUT, winioctl/PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT
 ms.prod: windows
 ms.technology: windows-sdk

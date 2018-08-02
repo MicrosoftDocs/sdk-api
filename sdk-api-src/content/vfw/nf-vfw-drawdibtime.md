@@ -7,7 +7,7 @@ old-location: multimedia\drawdibtime.htm
 old-project: Multimedia
 ms.assetid: 86dd2c5c-f853-4954-b245-6aa51d157600
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: DrawDibTime, DrawDibTime function [Windows Multimedia], _win32_DrawDibTime, multimedia.drawdibtime, vfw/DrawDibTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,15 +64,13 @@ The <b>DrawDibTime</b> function retrieves timing information about the drawing o
 
 ### -param hdd
 
-
-            Handle to a DrawDib DC.
+Handle to a DrawDib DC.
           
 
 
 ### -param lpddtime
 
-
-            Pointer to a <a href="https://msdn.microsoft.com/ec8a4e04-9e38-4db3-bb2b-838c63284f3a">DRAWDIBTIME</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/ec8a4e04-9e38-4db3-bb2b-838c63284f3a">DRAWDIBTIME</a> structure.
           
 
 
@@ -80,8 +78,7 @@ The <b>DrawDibTime</b> function retrieves timing information about the drawing o
 
 
 
-
-            Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
+Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
           
 
 

@@ -7,7 +7,7 @@ old-location: wsw\ws_duration.htm
 old-project: wsw
 ms.assetid: ccb08c23-8c6f-4ea7-a43b-c30a0df75805
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_DURATION, WS_DURATION structure [Web Services for Windows], _WS_DURATION, webservices/WS_DURATION, wsw.ws_duration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Represents a <a href=" http://go.microsoft.com/fwlink/p/?linkid=139717">xsd:duration</a> data type.
+Represents a <a href=" http://go.microsoft.com/fwlink/p/?linkid=139717">xsd:duration</a> data type.
       
 
 
@@ -63,43 +62,37 @@ req.product: Windows Address Book 5.0
 
 ### -field negative
 
-
-          If <b>TRUE</b>, this represents a negative duration.
+If <b>TRUE</b>, this represents a negative duration.
         
 
 
 ### -field years
 
-
-          The number of years.
+The number of years.
         
 
 
 ### -field months
 
-
-          The number of months.
+The number of months.
         
 
 
 ### -field days
 
-
-          The number of days.
+The number of days.
         
 
 
 ### -field hours
 
-
-          The number of hours.
+The number of hours.
         
 
 
 ### -field minutes
 
-
-          The number of minutes.
+The number of minutes.
         
 
 
@@ -117,7 +110,6 @@ The number of milliseconds.  This value must be less than 1000.
 
 ### -field ticks
 
-
-          Indicates the number of ticks.  This value must be less than 10000.
+Indicates the number of ticks.  This value must be less than 10000.
         
 

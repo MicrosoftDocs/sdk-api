@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationinterpolator_getfinalvalue.htm
 old-project: UIAnimation
 ms.assetid: 5f99fc36-1f56-4275-9b6f-c22bde929d22
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetFinalValue, GetFinalValue method [Windows Animation], GetFinalValue method [Windows Animation],IUIAnimationInterpolator interface, IUIAnimationInterpolator interface [Windows Animation],GetFinalValue method, IUIAnimationInterpolator.GetFinalValue, IUIAnimationInterpolator::GetFinalValue, uianimation.iuianimationinterpolator_getfinalvalue, uianimation/IUIAnimationInterpolator::GetFinalValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,7 @@ The final value.
 
 
 
-
-                
-                If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. 
+If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. 
           See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
 
 
@@ -92,8 +90,7 @@ Windows Animation can call <a href="https://msdn.microsoft.com/a1c5451a-b8d0-4eb
 
 
 
-<a href="https://msdn.microsoft.com/8e1f2a9a-ab93-485a-83b2-baebb9ee4bcc">
-         IUIAnimationInterpolator</a>
+<a href="https://msdn.microsoft.com/8e1f2a9a-ab93-485a-83b2-baebb9ee4bcc">IUIAnimationInterpolator</a>
  
 
  

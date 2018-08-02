@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager_createstoryboard.htm
 old-project: UIAnimation
 ms.assetid: 933ffb62-0f69-4225-873b-e2e023939bea
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateStoryboard, CreateStoryboard method [Windows Animation], CreateStoryboard method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],CreateStoryboard method, IUIAnimationManager.CreateStoryboard, IUIAnimationManager::CreateStoryboard, uianimation.iuianimationmanager_createstoryboard, uianimation/IUIAnimationManager::CreateStoryboard
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates a new storyboard.
+Creates a new storyboard.
 
 
 ## -parameters
@@ -62,17 +61,14 @@ req.product: Windows XP with SP1 and later
 
 ### -param storyboard [out]
 
-
-               The new storyboard.
+The new storyboard.
 
 
 ## -returns
 
 
 
-
-                
-            If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
+If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
 
 
 
@@ -101,8 +97,7 @@ For an example, see <a href="https://msdn.microsoft.com/e2641c93-e520-4749-a98e-
 
 
 
-<a href="https://msdn.microsoft.com/6b30b660-dfa4-410f-a8de-58ea5c9a104d">
-      IUIAnimationStoryboard</a>
+<a href="https://msdn.microsoft.com/6b30b660-dfa4-410f-a8de-58ea5c9a104d">IUIAnimationStoryboard</a>
  
 
  

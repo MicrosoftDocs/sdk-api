@@ -7,7 +7,7 @@ old-location: wsw\ws_fault_reason.htm
 old-project: wsw
 ms.assetid: 70ec3d18-00ab-4dde-8a8a-b200eda44acd
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_FAULT_REASON, WS_FAULT_REASON structure [Web Services for Windows], _WS_FAULT_REASON, webservices/WS_FAULT_REASON, wsw.ws_fault_reason
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,19 +61,16 @@ Contains an explanation of the fault.
 
 ### -field text
 
-
-                    Text describing the fault.
+Text describing the fault.
                 
 
 
 ### -field lang
 
-
-                    The language identifier that identifies the language of the text.
+The language identifier that identifies the language of the text.
                 
 
-
-                    The identifier is serialized using the xml:lang attribute, and has
+The identifier is serialized using the xml:lang attribute, and has
                     values that follow <a href="http://go.microsoft.com/fwlink/p/?linkid=139708">RFC3066.txt</a>. 
                 
 

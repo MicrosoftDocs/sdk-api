@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable_gettag.htm
 old-project: UIAnimation
 ms.assetid: 2731d302-dc52-4a10-8012-a246856d132b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetTag, GetTag method [Windows Animation], GetTag method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetTag method, IUIAnimationVariable.GetTag, IUIAnimationVariable::GetTag, uianimation.iuianimationvariable_gettag, uianimation/IUIAnimationVariable::GetTag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Gets the tag for an animation variable.
+Gets the tag for an animation variable.
 
 
 ## -parameters
@@ -62,14 +61,12 @@ req.product: Windows XP with SP1 and later
 
 ### -param object [out, optional]
 
-
-            The object portion of the tag.
+The object portion of the tag.
 
 
 ### -param id [out, optional]
 
-
-            The identifier portion of the tag.
+The identifier portion of the tag.
 
 
 ## -returns
@@ -116,8 +113,7 @@ The parameters are optional so that the method can return both portions of the t
 
 
 
-<a href="https://msdn.microsoft.com/611c5341-f225-461d-9718-a2432d796764">
-      IUIAnimationManager::GetVariableFromTag
+<a href="https://msdn.microsoft.com/611c5341-f225-461d-9718-a2432d796764">IUIAnimationManager::GetVariableFromTag
       </a>
 
 

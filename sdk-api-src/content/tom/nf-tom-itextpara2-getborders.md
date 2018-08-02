@@ -4,10 +4,10 @@ title: ITextPara2::GetBorders
 author: windows-sdk-content
 description: Gets the borders collection.
 old-location: controls\itextpara2_getborders.htm
-old-project: controls
+old-project: Controls
 ms.assetid: c2a681f6-a8d6-49ad-9ccc-362050b2e8ad
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetBorders, GetBorders method [Windows Controls], GetBorders method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetBorders method, ITextPara2.GetBorders, ITextPara2::GetBorders, controls.itextpara2_getborders, tom/ITextPara2::GetBorders
 ms.prod: windows
 ms.technology: windows-sdk

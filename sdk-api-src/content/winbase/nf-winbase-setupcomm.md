@@ -4,10 +4,10 @@ title: SetupComm function
 author: windows-sdk-content
 description: Initializes the communications parameters for a specified communications device.
 old-location: base\setupcomm.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 7b42fdad-5847-4036-957e-2f71ad982d9f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: SetupComm, SetupComm function, _win32_setupcomm, base.setupcomm, winbase/SetupComm
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Initializes the communications parameters for a specified communications device.
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="base.createfile">CreateFile</a> function returns this handle.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function returns this handle.
 
 
 ### -param dwInQueue [in]
@@ -96,7 +96,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 After a process uses the 
-<a href="base.createfile">CreateFile</a> function to open a handle to a communications device, but before doing any I/O with the device, it can call 
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function to open a handle to a communications device, but before doing any I/O with the device, it can call 
 <b>SetupComm</b> to set the communications parameters for the device. If it does not set them, the device uses the default parameters when the first call to another communications function occurs.
 
 The <i>dwInQueue</i> and <i>dwOutQueue</i> parameters specify the recommended sizes for the internal buffers used by the driver for the specified device. For example, YMODEM protocol packets are slightly larger than 1024 bytes. Therefore, a recommended buffer size might be 1200 bytes for YMODEM communications. For Ethernet-based communications, a recommended buffer size might be 1600 bytes, which is slightly larger than a single Ethernet frame.
@@ -119,7 +119,7 @@ The device driver receives the recommended buffer sizes, but is free to use any 
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
 
 
 

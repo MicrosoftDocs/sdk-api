@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_unique_id_text.htm
 old-project: wsw
 ms.assetid: 4703fcb7-af03-4855-97c4-aac33e75ad4f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_UNIQUE_ID_TEXT, WS_XML_UNIQUE_ID_TEXT structure [Web Services for Windows], _WS_XML_UNIQUE_ID_TEXT, webservices/WS_XML_UNIQUE_ID_TEXT, wsw.ws_xml_unique_id_text
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Represents a GUID formatted as the text "urn:uuid:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx".
+Represents a GUID formatted as the text "urn:uuid:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx".
       
 
 
@@ -63,8 +62,7 @@ req.product: Windows Address Book 5.0
 
 ### -field text
 
-
-          The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
+The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
         
 
 

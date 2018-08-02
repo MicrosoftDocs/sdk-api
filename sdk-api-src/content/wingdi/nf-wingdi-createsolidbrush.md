@@ -7,7 +7,7 @@ old-location: gdi\createsolidbrush.htm
 old-project: gdi
 ms.assetid: e39b5f77-97d8-4ea6-8277-7da12b3367f3
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateSolidBrush, CreateSolidBrush function [Windows GDI], _win32_CreateSolidBrush, gdi.createsolidbrush, wingdi/CreateSolidBrush
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: display\englineto.htm
 old-project: display
 ms.assetid: 989ac941-496e-4433-a871-f541fdced45f
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: EngLineTo, EngLineTo function [Display Devices], display.englineto, gdifncs_7f51ef7a-df4c-4482-a411-101dff0711d7.xml, winddi/EngLineTo
 ms.prod: windows
 ms.technology: windows-sdk

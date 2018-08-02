@@ -4,10 +4,10 @@ title: InternetSetFilePointer function
 author: windows-sdk-content
 description: Sets a file position for InternetReadFile. This is a synchronous call; however, subsequent calls to InternetReadFile might block or return pending if the data is not available from the cache and the server does not support random access.
 old-location: wininet\internetsetfilepointer.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: 0fdd85cb-f6a9-4a08-b72b-10d2075efb59
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: InternetSetFilePointer, InternetSetFilePointer function [WinINet], _inet_internetsetfilepointer_function, wininet.internetsetfilepointer, wininet/InternetSetFilePointer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,8 +69,8 @@ Handle returned from a previous call to
 <a href="https://msdn.microsoft.com/caaff8e8-7db9-4d6d-8ba2-d8d19475173a">HttpOpenRequest</a> (using the GET or HEAD HTTP verb and passed to 
 <a href="https://msdn.microsoft.com/f53d9ff7-43b1-452f-a6cb-754d0229ab9a">HttpSendRequest</a> or 
 <a href="https://msdn.microsoft.com/3362fcd2-e8df-4886-9525-bf60589b2c1f">HttpSendRequestEx</a>). This handle must not have been created with the 
-<a href="https://msdn.microsoft.com/library/Aa383661(v=VS.85).aspx">INTERNET_FLAG_DONT_CACHE</a> or 
-<a href="https://msdn.microsoft.com/library/Aa383661(v=VS.85).aspx">INTERNET_FLAG_NO_CACHE_WRITE</a> value set.
+<a href="https://msdn.microsoft.com/en-us/library/Aa383661(v=VS.85).aspx">INTERNET_FLAG_DONT_CACHE</a> or 
+<a href="https://msdn.microsoft.com/en-us/library/Aa383661(v=VS.85).aspx">INTERNET_FLAG_NO_CACHE_WRITE</a> value set.
 
 
 ### -param lDistanceToMove [in]
@@ -155,8 +155,7 @@ If the function succeeds and <i>lpDistanceToMoveHigh</i> is <b>NULL</b>, the ret
     value is the low-order <b>DWORD</b> of the new file pointer.
 
         Note that if the function returns a value other than
-        <b>INVALID_SET_FILE_POINTER</b>, the call to <b>InternetSetFilePointer</b>
-        has succeeded and there is no need to call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+        <b>INVALID_SET_FILE_POINTER</b>, the call to <b>InternetSetFilePointer</b>has succeeded and there is no need to call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
 If the function succeeds and <i>lpDistanceToMoveHigh</i> is not <b>NULL</b>, the
     return value is the lower-order <b>DWORD</b> of the new file pointer and

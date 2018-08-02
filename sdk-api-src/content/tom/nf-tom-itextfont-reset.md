@@ -4,10 +4,10 @@ title: ITextFont::Reset
 author: windows-sdk-content
 description: Resets the character formatting to the specified values.
 old-location: controls\ITextFont_Reset.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontreset.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextFont interface [Windows Controls],Reset method, ITextFont.Reset, ITextFont::Reset, Reset, Reset method [Windows Controls], Reset method [Windows Controls],ITextFont interface, _win32_ITextFont_Reset, _win32_ITextFont_Reset_cpp, controls.ITextFont_Reset, controls._win32_ITextFont_Reset, tom/ITextFont::Reset, tomApplyLater, tomApplyNow, tomApplyTmp, tomCacheParms, tomDefault, tomDisableSmartFont, tomEnableSmartFont, tomTrackParms, tomUndefined, tomUsePoints, tomUseTwips
 ms.prod: windows
 ms.technology: windows-sdk
@@ -242,7 +242,7 @@ The font object is attached to a range that has been deleted.
 
 Calling 
 				<b>ITextFont::Reset</b> with <b>tomUndefined</b> sets all properties to undefined values. Thus, applying the font object to a range changes nothing. This applies to a font object that is obtained by the 
-				<a href="https://msdn.microsoft.com/library/Bb787857(v=VS.85).aspx">ITextFont::GetDuplicate</a> method.
+				<a href="https://msdn.microsoft.com/en-us/library/Bb787857(v=VS.85).aspx">ITextFont::GetDuplicate</a> method.
 
 
 
@@ -256,11 +256,11 @@ Calling
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787857(v=VS.85).aspx">GetDuplicate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787857(v=VS.85).aspx">GetDuplicate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
 
 
 
@@ -268,7 +268,7 @@ Calling
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

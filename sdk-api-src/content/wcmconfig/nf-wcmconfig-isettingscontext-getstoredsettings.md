@@ -7,7 +7,7 @@ old-location: smi\isettingscontext_getstoredsettings.htm
 old-project: SMI
 ms.assetid: 29ec0b36-31f2-4078-b1a4-872a8ed340e3
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetStoredSettings, GetStoredSettings method [SMI], GetStoredSettings method [SMI],ISettingsContext interface, ISettingsContext interface [SMI],GetStoredSettings method, ISettingsContext.GetStoredSettings, ISettingsContext::GetStoredSettings, smi.isettingscontext_getstoredsettings, wcmconfig/ISettingsContext::GetStoredSettings
 ms.prod: windows
 ms.technology: windows-sdk

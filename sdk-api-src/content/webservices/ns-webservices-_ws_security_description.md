@@ -7,7 +7,7 @@ old-location: wsw\ws_security_description.htm
 old-project: wsw
 ms.assetid: b9490f00-877c-4d9f-b361-eaca343cdee0
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SECURITY_DESCRIPTION, WS_SECURITY_DESCRIPTION structure [Web Services for Windows], _WS_SECURITY_DESCRIPTION, webservices/WS_SECURITY_DESCRIPTION, wsw.ws_security_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,6 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-
 The top-level structure used to specify the security requirements for
 a <a href="https://msdn.microsoft.com/4bef6f97-06f1-442a-8b84-869776f0541d">channel</a> (on the client side) or a <a href="https://msdn.microsoft.com/2e592fd2-cf88-4f87-a71b-1c3416917fa7">listener</a> (on the server side).
 
@@ -66,7 +64,6 @@ a <a href="https://msdn.microsoft.com/4bef6f97-06f1-442a-8b84-869776f0541d">chan
 
 ### -field securityBindings
 
-
 The array of pointers to security bindings.  The set of security
 bindings supplies determines the kind of security applied to the
 channel.  Each security binding specifies one security token.
@@ -75,13 +72,11 @@ channel.  Each security binding specifies one security token.
 
 ### -field securityBindingCount
 
-
 The count of elements in the securityBindings array.
                 
 
 
 ### -field properties
-
 
 The array of properties specifying the optional channel-wide security
 settings.  Each <a href="https://msdn.microsoft.com/676079cd-6ca8-486b-9604-172423210ad5">WS_SECURITY_PROPERTY</a> in the array is a key-value
@@ -93,13 +88,11 @@ channel setting.
 
 ### -field propertyCount
 
-
 The count of elements in the properties array.
                 
 
 
 ## -remarks
-
 
 
 

@@ -7,7 +7,7 @@ old-location: search\_search_IRelationship_DefaultPhrase.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\defaultphrase.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: DefaultPhrase, DefaultPhrase method [search], DefaultPhrase method [search],IRelationship interface, IRelationship interface [search],DefaultPhrase method, IRelationship.DefaultPhrase, IRelationship::DefaultPhrase, _search_IRelationship_DefaultPhrase, search._search_IRelationship_DefaultPhrase, structuredquery/IRelationship::DefaultPhrase
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        Retrieves the default phrase to use for this relationship in restatements.
+Retrieves the default phrase to use for this relationship in restatements.
       
 
 
@@ -65,8 +64,7 @@ req.product: Windows XP with SP1 and later
 
 Type: <b>LPWSTR*</b>
 
-
-            Receives the default phrase as a Unicode string. The calling application must free the string by calling <a href="https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>.
+Receives the default phrase as a Unicode string. The calling application must free the string by calling <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>.
 
 
 ## -returns

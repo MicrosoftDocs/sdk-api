@@ -4,10 +4,10 @@ title: DNS_PROXY_INFORMATION_TYPE
 author: windows-sdk-content
 description: The DNS_PROXY_INFORMATION_TYPE enumeration defines the proxy information type in the DNS_PROXY_INFORMATION structure.
 old-location: dns\dns_proxy_information_type.htm
-old-project: dns
+old-project: DNS
 ms.assetid: 983d38f3-3ee7-4df6-a9ff-f908f250020f
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/29/2018
 ms.keywords: DNS_PROXY_INFORMATION_DEFAULT_SETTINGS, DNS_PROXY_INFORMATION_DIRECT, DNS_PROXY_INFORMATION_DOES_NOT_EXIST, DNS_PROXY_INFORMATION_PROXY_NAME, DNS_PROXY_INFORMATION_TYPE, DNS_PROXY_INFORMATION_TYPE enumeration [DNS], dns.dns_proxy_information_type, windns/DNS_PROXY_INFORMATION_DEFAULT_SETTINGS, windns/DNS_PROXY_INFORMATION_DIRECT, windns/DNS_PROXY_INFORMATION_DOES_NOT_EXIST, windns/DNS_PROXY_INFORMATION_PROXY_NAME, windns/DNS_PROXY_INFORMATION_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The 
+The 
 <b>DNS_PROXY_INFORMATION_TYPE</b> enumeration defines the proxy information type in the <a href="https://msdn.microsoft.com/cfe7653f-7e68-4e50-ba67-bd441f837ef8">DNS_PROXY_INFORMATION</a> structure.
 
 

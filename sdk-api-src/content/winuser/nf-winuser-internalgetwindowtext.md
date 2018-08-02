@@ -7,7 +7,7 @@ old-location: winmsg\internalgetwindowtext.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\internalgetwindowtext.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: InternalGetWindowText, InternalGetWindowText function [Windows and Messages], _win32_InternalGetWindowText, _win32_internalgetwindowtext_cpp, winmsg.internalgetwindowtext, winui._win32_internalgetwindowtext, winuser/InternalGetWindowText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,11 +57,11 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Copies the text of the specified window's title bar (if it has one) into a buffer.
 
-This function is similar to the <a href="https://msdn.microsoft.com/library/ms633520(v=VS.85).aspx">GetWindowText</a> function.
+This function is similar to the <a href="https://msdn.microsoft.com/en-us/library/ms633520(v=VS.85).aspx">GetWindowText</a> function.
 		However, it obtains the window text directly from the window structure
 		associated with the specified window's handle and then always provides the text as a
 		Unicode string. This is unlike <b>GetWindowText</b> which obtains the
-		text by sending the window a <a href="https://msdn.microsoft.com/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a> message.  If the
+		text by sending the window a <a href="https://msdn.microsoft.com/en-us/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a> message.  If the
 		specified window is a control, the text of the control is obtained. 
 
 
@@ -143,11 +143,11 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633520(v=VS.85).aspx">GetWindowText</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633520(v=VS.85).aspx">GetWindowText</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633521(v=VS.85).aspx">GetWindowTextLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633521(v=VS.85).aspx">GetWindowTextLength</a>
 
 
 
@@ -155,15 +155,15 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633546(v=VS.85).aspx">SetWindowText</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633546(v=VS.85).aspx">SetWindowText</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644928(v=VS.85).aspx">Using Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644928(v=VS.85).aspx">Using Messages and Message Queues</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a>
 
 
 

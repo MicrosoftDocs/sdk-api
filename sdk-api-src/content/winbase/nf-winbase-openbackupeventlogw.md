@@ -4,10 +4,10 @@ title: OpenBackupEventLogW function
 author: windows-sdk-content
 description: Opens a handle to a backup event log created by the BackupEventLog function.
 old-location: base\openbackupeventlog.htm
-old-project: eventlog
+old-project: EventLog
 ms.assetid: cfef0912-9d35-44aa-a1d3-f9bb37213ce0
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: OpenBackupEventLog, OpenBackupEventLog function, OpenBackupEventLogA, OpenBackupEventLogW, _win32_openbackupeventlog, base.openbackupeventlog, winbase/OpenBackupEventLog, winbase/OpenBackupEventLogA, winbase/OpenBackupEventLogW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ The full path of the backup file.
 
 
 
-
-						If the function succeeds, the return value is a handle to the backup event log.
+If the function succeeds, the return value is a handle to the backup event log.
 						
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 

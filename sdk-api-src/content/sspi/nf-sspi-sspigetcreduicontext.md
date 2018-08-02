@@ -4,10 +4,10 @@ title: SspiGetCredUIContext function
 author: windows-sdk-content
 description: Retrieves context information from a credential provider.
 old-location: security\sspigetcreduicontext.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 9da39bc4-ece8-493f-b9fd-5f8ba9ed288e
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: SEC_WINNT_AUTH_DATA_TYPE_CERT, SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA, SEC_WINNT_AUTH_DATA_TYPE_PASSWORD, SspiGetCredUIContext, SspiGetCredUIContext function [Security], security.sspigetcreduicontext, sspi/SspiGetCredUIContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,6 @@ targetos: Windows
 req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # SspiGetCredUIContext function
@@ -133,8 +132,7 @@ A handle to the specified user's token.
 
 
 
-
-						If the function succeeds, it returns <b>SEC_E_OK</b>.
+If the function succeeds, it returns <b>SEC_E_OK</b>.
 
 If the function fails, it returns a nonzero error code.
 

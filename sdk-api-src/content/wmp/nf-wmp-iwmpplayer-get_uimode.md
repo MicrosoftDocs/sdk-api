@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayer_get_uimode.htm
 old-project: WMP
 ms.assetid: 8e05342f-812a-4dca-a491-b237f9a9f1bd
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],get_uiMode method, IWMPPlayer.get_uiMode, IWMPPlayer::get_uiMode, IWMPPlayerget_uiMode, get_uiMode, get_uiMode method [Windows Media Player], get_uiMode method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_get_uimode, wmp/IWMPPlayer::get_uiMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,17 +68,13 @@ Pointer to a <b>BSTR</b> containing one of the following values.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
-<th>
-                  Audio example
+<th>Audio example
                 </th>
-<th>
-                  Video example
+<th>Video example
                 </th>
 </tr>
 <tr>

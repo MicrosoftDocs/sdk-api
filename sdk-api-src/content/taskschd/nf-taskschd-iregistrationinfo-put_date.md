@@ -4,10 +4,10 @@ title: IRegistrationInfo::put_Date
 author: windows-sdk-content
 description: Gets or sets the date and time when the task is registered.
 old-location: taskschd\iregistrationinfo_date.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: b9a41413-954f-447c-8fce-f99c81fec40a
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: Date property [Task Scheduler], Date property [Task Scheduler],IRegistrationInfo interface, IRegistrationInfo interface [Task Scheduler],Date property, IRegistrationInfo.Date, IRegistrationInfo.put_Date, IRegistrationInfo::Date, IRegistrationInfo::get_Date, IRegistrationInfo::put_Date, put_Date, taskschd.iregistrationinfo_date, taskschd/IRegistrationInfo::Date, taskschd/IRegistrationInfo::get_Date, taskschd/IRegistrationInfo::put_Date
 ms.prod: windows
 ms.technology: windows-sdk

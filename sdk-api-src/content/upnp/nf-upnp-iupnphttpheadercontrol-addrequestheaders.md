@@ -4,10 +4,10 @@ title: IUPnPHttpHeaderControl::AddRequestHeaders
 author: windows-sdk-content
 description: Adds the supplied HTTP header to an HTTP request.
 old-location: upnp\iupnphttpheadercontrol_addrequestheaders.htm
-old-project: upnp
+old-project: UPnP
 ms.assetid: e44f83de-eaf6-4b16-a70e-64f4daffc6b3
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 07/29/2018
 ms.keywords: AddRequestHeaders, AddRequestHeaders method [UPnP APIs], AddRequestHeaders method [UPnP APIs],IUPnPHttpHeaderControl interface, IUPnPHttpHeaderControl interface [UPnP APIs],AddRequestHeaders method, IUPnPHttpHeaderControl.AddRequestHeaders, IUPnPHttpHeaderControl::AddRequestHeaders, upnp.iupnphttpheadercontrol_addrequestheaders, upnp/IUPnPHttpHeaderControl::AddRequestHeaders
 ms.prod: windows
 ms.technology: windows-sdk

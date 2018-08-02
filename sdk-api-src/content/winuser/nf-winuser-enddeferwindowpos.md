@@ -7,7 +7,7 @@ old-location: winmsg\enddeferwindowpos.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\enddeferwindowpos.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: EndDeferWindowPos, EndDeferWindowPos function [Windows and Messages], _win32_EndDeferWindowPos, _win32_enddeferwindowpos_cpp, winmsg.enddeferwindowpos, winui._win32_enddeferwindowpos, winuser/EndDeferWindowPos
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ Simultaneously updates the position and size of one or more windows in a single 
 Type: <b>HDWP</b>
 
 A handle to a multiple-window 
-					– position structure that contains size and position information for one or more windows. This internal structure is returned by the <a href="https://msdn.microsoft.com/library/ms632672(v=VS.85).aspx">BeginDeferWindowPos</a> function or by the most recent call to the <a href="https://msdn.microsoft.com/library/ms632681(v=VS.85).aspx">DeferWindowPos</a> function. 
+					– position structure that contains size and position information for one or more windows. This internal structure is returned by the <a href="https://msdn.microsoft.com/en-us/library/ms632672(v=VS.85).aspx">BeginDeferWindowPos</a> function or by the most recent call to the <a href="https://msdn.microsoft.com/en-us/library/ms632681(v=VS.85).aspx">DeferWindowPos</a> function. 
 
 
 ## -returns
@@ -90,7 +90,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The <b>EndDeferWindowPos</b> function sends the <a href="https://msdn.microsoft.com/library/ms632653(v=VS.85).aspx">WM_WINDOWPOSCHANGING</a> and <a href="https://msdn.microsoft.com/library/ms632652(v=VS.85).aspx">WM_WINDOWPOSCHANGED</a> messages to each window identified in the internal structure. 
+The <b>EndDeferWindowPos</b> function sends the <a href="https://msdn.microsoft.com/en-us/library/ms632653(v=VS.85).aspx">WM_WINDOWPOSCHANGING</a> and <a href="https://msdn.microsoft.com/en-us/library/ms632652(v=VS.85).aspx">WM_WINDOWPOSCHANGED</a> messages to each window identified in the internal structure. 
 
 
 
@@ -100,7 +100,7 @@ The <b>EndDeferWindowPos</b> function sends the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632672(v=VS.85).aspx">BeginDeferWindowPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632672(v=VS.85).aspx">BeginDeferWindowPos</a>
 
 
 
@@ -108,7 +108,7 @@ The <b>EndDeferWindowPos</b> function sends the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632681(v=VS.85).aspx">DeferWindowPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632681(v=VS.85).aspx">DeferWindowPos</a>
 
 
 
@@ -116,11 +116,11 @@ The <b>EndDeferWindowPos</b> function sends the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632652(v=VS.85).aspx">WM_WINDOWPOSCHANGED</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632652(v=VS.85).aspx">WM_WINDOWPOSCHANGED</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632653(v=VS.85).aspx">WM_WINDOWPOSCHANGING</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632653(v=VS.85).aspx">WM_WINDOWPOSCHANGING</a>
 
 
 

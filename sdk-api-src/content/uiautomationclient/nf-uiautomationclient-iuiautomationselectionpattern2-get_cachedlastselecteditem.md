@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CachedLastSelectedIt
 old-project: WinAuto
 ms.assetid: B0A3D3C6-75A4-4E4A-A104-B09EF6C77751
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CachedLastSelectedItem property [Windows Accessibility], CachedLastSelectedItem property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CachedLastSelectedItem property, IUIAutomationSelectionPattern2.CachedLastSelectedItem, IUIAutomationSelectionPattern2.get_CachedLastSelectedItem, IUIAutomationSelectionPattern2::CachedLastSelectedItem, IUIAutomationSelectionPattern2::get_CachedLastSelectedItem, get_CachedLastSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CachedLastSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CachedLastSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CachedLastSelectedItem
 ms.prod: windows
 ms.technology: windows-sdk

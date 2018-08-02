@@ -4,10 +4,10 @@ title: ITextDocument::GetSaved
 author: windows-sdk-content
 description: Gets a value that indicates whether changes have been made since the file was last saved.
 old-location: controls\ITextDocument_GetSaved.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsaved.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetSaved, GetSaved method [Windows Controls], GetSaved method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],GetSaved method, ITextDocument.GetSaved, ITextDocument::GetSaved, _win32_ITextDocument_GetSaved, _win32_ITextDocument_GetSaved_cpp, controls.ITextDocument_GetSaved, controls._win32_ITextDocument_GetSaved, tom/ITextDocument::GetSaved
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,7 +107,7 @@ Invalid argument.
 
 
 
-To set the saved property, call the <a href="https://msdn.microsoft.com/library/Bb787809(v=VS.85).aspx">ITextDocument::SetSaved</a> method.
+To set the saved property, call the <a href="https://msdn.microsoft.com/en-us/library/Bb787809(v=VS.85).aspx">ITextDocument::SetSaved</a> method.
 
 
 
@@ -121,7 +121,7 @@ To set the saved property, call the <a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
 
 
 
@@ -129,11 +129,11 @@ To set the saved property, call the <a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787809(v=VS.85).aspx">SetSaved</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787809(v=VS.85).aspx">SetSaved</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: xps\ixpsomfontresourcecollection_removeat.htm
 old-project: printdocs
 ms.assetid: adcb8673-47ab-4d2f-829f-49d78ab26273
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMFontResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMFontResourceCollection.RemoveAt, IXpsOMFontResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, xps.ixpsomfontresourcecollection_removeat, xpsobjectmodel/IXpsOMFontResourceCollection::RemoveAt
 ms.prod: windows
 ms.technology: windows-sdk

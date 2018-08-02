@@ -4,10 +4,10 @@ title: CreateJobObjectA function
 author: windows-sdk-content
 description: Creates or opens a job object.
 old-location: base\createjobobject.htm
-old-project: procthread
+old-project: ProcThread
 ms.assetid: ca6a044f-67ed-4a9c-9aeb-69dd77652854
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: CreateJobObject, CreateJobObject function, CreateJobObjectA, CreateJobObjectW, _win32_createjobobject, base.createjobobject, winbase/CreateJobObject, winbase/CreateJobObjectA, winbase/CreateJobObjectW
 ms.prod: windows
 ms.technology: windows-sdk

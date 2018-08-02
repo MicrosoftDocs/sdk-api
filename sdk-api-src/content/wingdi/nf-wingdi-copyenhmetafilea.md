@@ -7,7 +7,7 @@ old-location: gdi\copyenhmetafile.htm
 old-project: gdi
 ms.assetid: 7c428828-b239-41d4-926c-88caa0aa7214
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CopyEnhMetaFile, CopyEnhMetaFile function [Windows GDI], CopyEnhMetaFileA, CopyEnhMetaFileW, _win32_CopyEnhMetaFile, gdi.copyenhmetafile, wingdi/CopyEnhMetaFile, wingdi/CopyEnhMetaFileA, wingdi/CopyEnhMetaFileW
 ms.prod: windows
 ms.technology: windows-sdk

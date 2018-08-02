@@ -4,10 +4,10 @@ title: ITextPara::GetWidowControl
 author: windows-sdk-content
 description: Retrieves the widow and orphan control state for the paragraphs in a range.
 old-location: controls\ITextPara_GetWidowControl.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getwidowcontrol.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetWidowControl, GetWidowControl method [Windows Controls], GetWidowControl method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetWidowControl method, ITextPara.GetWidowControl, ITextPara::GetWidowControl, _win32_ITextPara_GetWidowControl, _win32_ITextPara_GetWidowControl_cpp, controls.ITextPara_GetWidowControl, controls._win32_ITextPara_GetWidowControl, tom/ITextPara::GetWidowControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Retrieves the widow and orphan control state for the paragraphs in a range.
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/library/Bb787724(v=VS.85).aspx">tomBool</a> value that indicates the state of widow and orphan control. It can be one of the following values. 
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that indicates the state of widow and orphan control. It can be one of the following values. 
 					
 
 <table class="clsStd">
@@ -164,7 +164,7 @@ A widow is created when the last line of a paragraph is printed by itself at the
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
 
 
 
@@ -172,11 +172,11 @@ A widow is created when the last line of a paragraph is printed by itself at the
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787834(v=VS.85).aspx">SetWidowControl</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787834(v=VS.85).aspx">SetWidowControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

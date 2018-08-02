@@ -4,10 +4,10 @@ title: "_TOKEN_INFORMATION_CLASS"
 author: windows-sdk-content
 description: Contains values that specify the type of information being assigned to or retrieved from an access token.
 old-location: security\token_information_class.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: cb606665-1266-4e71-a145-9b04bf157cdc
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: "*PTOKEN_INFORMATION_CLASS, MaxTokenInfoClass, PTOKEN_INFORMATION_CLASS, PTOKEN_INFORMATION_CLASS enumeration pointer [Security], TOKEN_INFORMATION_CLASS, TOKEN_INFORMATION_CLASS enumeration [Security], TokenAccessInformation, TokenAppContainerNumber, TokenAppContainerSid, TokenAuditPolicy, TokenCapabilities, TokenDefaultDacl, TokenDeviceClaimAttributes, TokenDeviceGroups, TokenElevation, TokenElevationType, TokenGroups, TokenGroupsAndPrivileges, TokenHasRestrictions, TokenImpersonationLevel, TokenIntegrityLevel, TokenIsAppContainer, TokenIsRestricted, TokenLinkedToken, TokenLogonSid, TokenMandatoryPolicy, TokenOrigin, TokenOwner, TokenPrimaryGroup, TokenPrivileges, TokenRestrictedDeviceClaimAttributes, TokenRestrictedDeviceGroups, TokenRestrictedSids, TokenRestrictedUserClaimAttributes, TokenSandBoxInert, TokenSecurityAttributes, TokenSessionId, TokenSessionReference, TokenSource, TokenStatistics, TokenType, TokenUIAccess, TokenUser, TokenUserClaimAttributes, TokenVirtualizationAllowed, TokenVirtualizationEnabled, _TOKEN_INFORMATION_CLASS, _win32_token_information_class_str, security.token_information_class, winnt/MaxTokenInfoClass, winnt/PTOKEN_INFORMATION_CLASS, winnt/TOKEN_INFORMATION_CLASS, winnt/TokenAccessInformation, winnt/TokenAppContainerNumber, winnt/TokenAppContainerSid, winnt/TokenAuditPolicy, winnt/TokenCapabilities, winnt/TokenDefaultDacl, winnt/TokenDeviceClaimAttributes, winnt/TokenDeviceGroups, winnt/TokenElevation, winnt/TokenElevationType, winnt/TokenGroups, winnt/TokenGroupsAndPrivileges, winnt/TokenHasRestrictions, winnt/TokenImpersonationLevel, winnt/TokenIntegrityLevel, winnt/TokenIsAppContainer, winnt/TokenIsRestricted, winnt/TokenLinkedToken, winnt/TokenLogonSid, winnt/TokenMandatoryPolicy, winnt/TokenOrigin, winnt/TokenOwner, winnt/TokenPrimaryGroup, winnt/TokenPrivileges, winnt/TokenRestrictedDeviceClaimAttributes, winnt/TokenRestrictedDeviceGroups, winnt/TokenRestrictedSids, winnt/TokenRestrictedUserClaimAttributes, winnt/TokenSandBoxInert, winnt/TokenSecurityAttributes, winnt/TokenSessionId, winnt/TokenSessionReference, winnt/TokenSource, winnt/TokenStatistics, winnt/TokenType, winnt/TokenUIAccess, winnt/TokenUser, winnt/TokenUserClaimAttributes, winnt/TokenVirtualizationAllowed, winnt/TokenVirtualizationEnabled"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>TOKEN_INFORMATION_CLASS</b> enumeration contains values that specify the type of information being assigned to or retrieved from an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access token</a>.
+The <b>TOKEN_INFORMATION_CLASS</b> enumeration contains values that specify the type of information being assigned to or retrieved from an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access token</a>.
 
 The <a href="https://msdn.microsoft.com/e94de19c-de12-40fb-a72c-060f7ad12f75">GetTokenInformation</a> function uses these values to indicate the type of token information to retrieve.
 

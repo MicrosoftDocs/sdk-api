@@ -4,10 +4,10 @@ title: IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState
 author: windows-sdk-content
 description: The get_userHomeMediaSharingState method retrieves a value that indicates whether the current user's media library is shared on the home network.
 old-location: wmlss\IWMLSSget_userHomeMediaSharingState.htm
-old-project: wmlss
+old-project: WMLSS
 ms.assetid: 6f56c825-0fdc-4414-aefa-83f8efee2150
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_userHomeMediaSharingState method, IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingState, IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState, get_userHomeMediaSharingState, get_userHomeMediaSharingState method [Windows Media Library Sharing Services], get_userHomeMediaSharingState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_userHomeMediaSharingState, wmlss/IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState
 ms.prod: windows
 ms.technology: windows-sdk

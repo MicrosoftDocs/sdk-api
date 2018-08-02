@@ -7,7 +7,7 @@ old-location: wmi\swbemrefresher_autoreconnect.htm
 old-project: WmiSdk
 ms.assetid: 3be24128-8a35-44b0-befd-8b8937eff1b7
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: AutoReconnect property [Windows Management Instrumentation], AutoReconnect property [Windows Management Instrumentation],ISWbemRefresher interface, AutoReconnect property [Windows Management Instrumentation],SWbemRefresher object, ISWbemRefresher interface [Windows Management Instrumentation],AutoReconnect property, ISWbemRefresher.get_AutoReconnect, ISWbemRefresher::get_AutoReconnect, SWbemRefresher object [Windows Management Instrumentation],AutoReconnect property, SWbemRefresher.AutoReconnect, _hmm_swbemrefresher.autoreconnect, get_AutoReconnect, wmi.swbemrefresher_autoreconnect
 ms.prod: windows
 ms.technology: windows-sdk

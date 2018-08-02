@@ -7,7 +7,7 @@ old-location: xps\ixpsomgradientstop_clone.htm
 old-project: printdocs
 ms.assetid: ea4cdf1d-bb65-4a1b-b5bc-3eb1e90929ff
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMGradientStop interface, IXpsOMGradientStop interface [XPS Documents and Packaging],Clone method, IXpsOMGradientStop.Clone, IXpsOMGradientStop::Clone, xps.ixpsomgradientstop_clone, xpsobjectmodel/IXpsOMGradientStop::Clone
 ms.prod: windows
 ms.technology: windows-sdk

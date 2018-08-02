@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataitems_getmaxvaluebufferlength.htm
 old-project: CoreAudio
 ms.assetid: B6D4117B-CDFE-49E8-A9BC-B69AEBA7C9AC
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/29/2018
 ms.keywords: GetMaxValueBufferLength, GetMaxValueBufferLength method [Core Audio], GetMaxValueBufferLength method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetMaxValueBufferLength method, ISpatialAudioMetadataItems.GetMaxValueBufferLength, ISpatialAudioMetadataItems::GetMaxValueBufferLength, coreaudio.ispatialaudiometadataitems_getmaxvaluebufferlength, spatialaudiometadata/ISpatialAudioMetadataItems::GetMaxValueBufferLength
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioMetadataItems::GetMaxValueBufferLength

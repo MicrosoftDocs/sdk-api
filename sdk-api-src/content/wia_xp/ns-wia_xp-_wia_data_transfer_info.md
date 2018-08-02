@@ -7,7 +7,7 @@ old-location: wia\_wia_WIA_DATA_TRANSFER_INFO.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_data_transfer_info.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: "*PWIA_DATA_TRANSFER_INFO, PWIA_DATA_TRANSFER_INFO, PWIA_DATA_TRANSFER_INFO structure pointer [WIA], WIA_DATA_TRANSFER_INFO, WIA_DATA_TRANSFER_INFO structure [WIA], _WIA_DATA_TRANSFER_INFO, _wia_WIA_DATA_TRANSFER_INFO, wia._wia_WIA_DATA_TRANSFER_INFO, wia_xp/PWIA_DATA_TRANSFER_INFO, wia_xp/WIA_DATA_TRANSFER_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>WIA_DATA_TRANSFER_INFO</b> structure is used by applications to describe the buffer used to retrieve bands of data from Windows Image Acquisition (WIA) devices. It is primarily used in conjunction with the methods of the <a href="https://msdn.microsoft.com/library/ms630155(v=VS.85).aspx">IWiaDataTransfer</a> interface.
+The <b>WIA_DATA_TRANSFER_INFO</b> structure is used by applications to describe the buffer used to retrieve bands of data from Windows Image Acquisition (WIA) devices. It is primarily used in conjunction with the methods of the <a href="https://msdn.microsoft.com/en-us/library/ms630155(v=VS.85).aspx">IWiaDataTransfer</a> interface.
 
 
 ## -struct-fields
@@ -70,7 +70,7 @@ Contains the size of this structure. Must be set to <b>sizeof(WIA_DATA_TRANSFER_
 
 Type: <b>ULONG</b>
 
-Specifies an optional handle to a shared section of memory allocated by the application. If this member is set to <b>NULL</b>, <a href="https://msdn.microsoft.com/library/ms630151(v=VS.85).aspx">IWiaDataTransfer::idtGetBandedData</a> allocates the shared memory itself.
+Specifies an optional handle to a shared section of memory allocated by the application. If this member is set to <b>NULL</b>, <a href="https://msdn.microsoft.com/en-us/library/ms630151(v=VS.85).aspx">IWiaDataTransfer::idtGetBandedData</a> allocates the shared memory itself.
 
 
 ### -field ulBufferSize

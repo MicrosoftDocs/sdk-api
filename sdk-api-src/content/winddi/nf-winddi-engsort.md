@@ -7,7 +7,7 @@ old-location: display\engsort.htm
 old-project: display
 ms.assetid: e3d1864e-97da-4085-89fa-86135a687f60
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: EngSort, EngSort function [Display Devices], display.engsort, gdifncs_d675bef7-30d0-4e0d-a798-a397b282ce48.xml, winddi/EngSort
 ms.prod: windows
 ms.technology: windows-sdk

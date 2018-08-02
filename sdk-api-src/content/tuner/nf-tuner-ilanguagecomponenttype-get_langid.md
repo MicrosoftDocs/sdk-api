@@ -7,7 +7,7 @@ old-location: mstv\ilanguagecomponenttype_get_langid.htm
 old-project: mstv
 ms.assetid: f70dcc70-701a-4465-ad40-1ddc5e697f46
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: ILanguageComponentType interface [Microsoft TV Technologies],get_LangID method, ILanguageComponentType.get_LangID, ILanguageComponentType::get_LangID, ILanguageComponentTypeget_LangID, get_LangID, get_LangID method [Microsoft TV Technologies], get_LangID method [Microsoft TV Technologies],ILanguageComponentType interface, mstv.ilanguagecomponenttype_get_langid, tuner/ILanguageComponentType::get_LangID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,8 +87,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-
-          The <i>pLangID</i> parameter is a pointer to a Win32 LCID. Use this method to determine the language of an audio stream. Use the <a href="https://msdn.microsoft.com/1c041173-0c78-486e-93b5-a46c9dc0afb1">IComponent::get_DescLangID</a> to determine the language of the text description of the stream.
+The <i>pLangID</i> parameter is a pointer to a Win32 LCID. Use this method to determine the language of an audio stream. Use the <a href="https://msdn.microsoft.com/1c041173-0c78-486e-93b5-a46c9dc0afb1">IComponent::get_DescLangID</a> to determine the language of the text description of the stream.
 
 
 

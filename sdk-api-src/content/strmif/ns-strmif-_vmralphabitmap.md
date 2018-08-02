@@ -7,7 +7,7 @@ old-location: dshow\vmralphabitmap.htm
 old-project: DirectShow
 ms.assetid: 03b3e619-4804-42de-88d5-5422089e875a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PVMRALPHABITMAP, PVMRALPHABITMAP, PVMRALPHABITMAP structure pointer [DirectShow], VMRALPHABITMAP, VMRALPHABITMAP structure [DirectShow], VMRALPHABITMAPStructure, VMRBITMAP_DISABLE, VMRBITMAP_ENTIREDDS, VMRBITMAP_HDC, VMRBITMAP_SRCCOLORKEY, VMRBITMAP_SRCRECT, _VMRALPHABITMAP, dshow.vmralphabitmap, strmif/PVMRALPHABITMAP, strmif/VMRALPHABITMAP"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: Windows XP
 ## -description
 
 
-
-          
-          The <b>VMRALPHABITMAP</b> structure is used in the VMR-7 filter's <a href="https://msdn.microsoft.com/ac7da3f9-2c17-4517-bb64-6b56257a65c3">IVMRMixerBitmap</a> methods when the application is providing a static alpha-blended bitmap to be displayed on the composited video frame.
+The <b>VMRALPHABITMAP</b> structure is used in the VMR-7 filter's <a href="https://msdn.microsoft.com/ac7da3f9-2c17-4517-bb64-6b56257a65c3">IVMRMixerBitmap</a> methods when the application is providing a static alpha-blended bitmap to be displayed on the composited video frame.
         
 
 
@@ -64,8 +62,7 @@ req.product: Windows XP
 
 ### -field dwFlags
 
-
-            Flags that instruct the mixer where to find the bitmap. The following values are defined.
+Flags that instruct the mixer where to find the bitmap. The following values are defined.
           
 
 <table>
@@ -138,15 +135,13 @@ This flag is only valid for the  <a href="https://msdn.microsoft.com/039cb675-c3
 
 ### -field hdc
 
-
-            The handle to the device context for the bitmap. Specify <b>NULL</b> if the bitmap is located in a DirectDraw surface.
+The handle to the device context for the bitmap. Specify <b>NULL</b> if the bitmap is located in a DirectDraw surface.
           
 
 
 ### -field pDDS
 
-
-            Pointer to a DirectDraw surface that contains the bitmap. Specify <b>NULL</b> if the bitmap is to be obtained from a GDI device context. If a DirectDraw surface is specified, 
+Pointer to a DirectDraw surface that contains the bitmap. Specify <b>NULL</b> if the bitmap is to be obtained from a GDI device context. If a DirectDraw surface is specified, 
           the pixel format must be ARGB-32 or RGB-32. If the surface contains per-pixel alpha, do not set the VMRBITMAP_SRCCOLORKEY flag in <b>dwFlags</b>.
 
 

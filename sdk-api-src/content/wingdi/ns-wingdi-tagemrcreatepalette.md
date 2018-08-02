@@ -7,7 +7,7 @@ old-location: gdi\emrcreatepalette.htm
 old-project: gdi
 ms.assetid: 5198dc94-49bf-4cc8-8b41-2f29acd3c17d
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: "*PEMRCREATEPALETTE, EMRCREATEPALETTE, EMRCREATEPALETTE structure [Windows GDI], PEMRCREATEPALETTE, PEMRCREATEPALETTE structure pointer [Windows GDI], _win32_EMRCREATEPALETTE_str, gdi.emrcreatepalette, tagEMRCREATEPALETTE, wingdi/EMRCREATEPALETTE, wingdi/PEMRCREATEPALETTE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ Index of palette in handle table.
 
 ### -field lgpl
 
-
-            A <a href="https://msdn.microsoft.com/99d70a0e-ac61-4a88-a500-66443e7882ad">LOGPALETTE</a> structure that contains information about the palette. Note that <b>peFlags</b> members in the <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structures do not contain any flags.
+A <a href="https://msdn.microsoft.com/99d70a0e-ac61-4a88-a500-66443e7882ad">LOGPALETTE</a> structure that contains information about the palette. Note that <b>peFlags</b> members in the <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structures do not contain any flags.
 
 
 ## -see-also

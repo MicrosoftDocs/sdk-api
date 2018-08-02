@@ -7,7 +7,7 @@ old-location: wsw\ws_saml_authenticator.htm
 old-project: wsw
 ms.assetid: 3e67670f-3fde-4a2d-8c55-f4a3f5bef5f0
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SAML_AUTHENTICATOR, WS_SAML_AUTHENTICATOR structure [Web Services for Windows], _WS_SAML_AUTHENTICATOR, webservices/WS_SAML_AUTHENTICATOR, wsw.ws_saml_authenticator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,6 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 The abstract base type for all SAML authenticators used on the server
 side to validate incoming SAML tokens.
             
@@ -63,7 +62,6 @@ side to validate incoming SAML tokens.
 
 
 ### -field authenticatorType
-
 
 The type id that indicates the SAML authenticator subtype of this authenticator.
                 

@@ -4,10 +4,10 @@ title: ITaskFolderCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of folders in the collection.
 old-location: taskschd\itaskfoldercollection_count.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 073a812d-209b-4e36-b94b-c24567377a84
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],ITaskFolderCollection interface, ITaskFolderCollection interface [Task Scheduler],Count property, ITaskFolderCollection.Count, ITaskFolderCollection.get_Count, ITaskFolderCollection::Count, ITaskFolderCollection::get_Count, get_Count, taskschd.itaskfoldercollection_count, taskschd/ITaskFolderCollection::Count, taskschd/ITaskFolderCollection::get_Count
 ms.prod: windows
 ms.technology: windows-sdk

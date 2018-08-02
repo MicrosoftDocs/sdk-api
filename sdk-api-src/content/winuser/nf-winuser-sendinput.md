@@ -7,7 +7,7 @@ old-location: inputdev\sendinput.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\sendinput.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: SendInput, SendInput function [Keyboard and Mouse Input], _win32_SendInput, _win32_sendinput_cpp, inputdev.sendinput, winui._win32_sendinput, winuser/SendInput
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,9 +110,9 @@ This function fails when it is blocked by UIPI. Note that neither <a href="https
 
 This function is subject to UIPI. Applications are permitted to inject input only into applications that are at an equal or lesser integrity level.
 
-The <b>SendInput</b> function inserts the events in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550962">INPUT</a> structures serially into the keyboard or mouse input stream. These events are not interspersed with other keyboard or mouse input events inserted either by the user (with the keyboard or mouse) or by calls to <a href="https://msdn.microsoft.com/library/ms646304(v=VS.85).aspx">keybd_event</a>, <a href="https://msdn.microsoft.com/library/ms646260(v=VS.85).aspx">mouse_event</a>, or other calls to <b>SendInput</b>.
+The <b>SendInput</b> function inserts the events in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550962">INPUT</a> structures serially into the keyboard or mouse input stream. These events are not interspersed with other keyboard or mouse input events inserted either by the user (with the keyboard or mouse) or by calls to <a href="https://msdn.microsoft.com/en-us/library/ms646304(v=VS.85).aspx">keybd_event</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646260(v=VS.85).aspx">mouse_event</a>, or other calls to <b>SendInput</b>.
 
-This function does not reset the keyboard's current state. Any keys that are already pressed when the function is called might interfere with the events that this function generates. To avoid this problem, check the keyboard's state with the <a href="https://msdn.microsoft.com/library/ms646293(v=VS.85).aspx">GetAsyncKeyState</a> function and correct as necessary.
+This function does not reset the keyboard's current state. Any keys that are already pressed when the function is called might interfere with the events that this function generates. To avoid this problem, check the keyboard's state with the <a href="https://msdn.microsoft.com/en-us/library/ms646293(v=VS.85).aspx">GetAsyncKeyState</a> function and correct as necessary.
 
 Because the touch keyboard uses the surrogate macros defined in winnls.h to send input to the system, a listener on the keyboard event hook must decode input originating from the touch keyboard. For more information, see <a href="https://msdn.microsoft.com/0dea39e2-a2b4-47fc-b44a-56af8ba1e346">Surrogates and Supplementary Characters</a>.
 
@@ -130,7 +130,7 @@ An accessibility application can use <b>SendInput</b> to inject keystrokes corre
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646293(v=VS.85).aspx">GetAsyncKeyState</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646293(v=VS.85).aspx">GetAsyncKeyState</a>
 
 
 
@@ -138,7 +138,7 @@ An accessibility application can use <b>SendInput</b> to inject keystrokes corre
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
 
 
 
@@ -150,11 +150,11 @@ An accessibility application can use <b>SendInput</b> to inject keystrokes corre
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646304(v=VS.85).aspx">keybd_event</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646304(v=VS.85).aspx">keybd_event</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646260(v=VS.85).aspx">mouse_event</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646260(v=VS.85).aspx">mouse_event</a>
  
 
  

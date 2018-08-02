@@ -7,7 +7,7 @@ old-location: winmsg\getlayeredwindowattributes.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getlayeredwindowattributes.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: GetLayeredWindowAttributes, GetLayeredWindowAttributes function [Windows and Messages], LWA_ALPHA, LWA_COLORKEY, _win32_GetLayeredWindowAttributes, _win32_getlayeredwindowattributes_cpp, winmsg.getlayeredwindowattributes, winui._win32_getlayeredwindowattributes, winuser/GetLayeredWindowAttributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ Retrieves the opacity and transparency color key of a layered window.
 
 Type: <b>HWND</b>
 
-A handle to the layered window. A layered window is created by specifying <b>WS_EX_LAYERED</b> when creating the window with the <a href="https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function or by setting <b>WS_EX_LAYERED</b> using <a href="https://msdn.microsoft.com/library/ms633591(v=VS.85).aspx">SetWindowLong</a> after the window has been created. 
+A handle to the layered window. A layered window is created by specifying <b>WS_EX_LAYERED</b> when creating the window with the <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function or by setting <b>WS_EX_LAYERED</b> using <a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">SetWindowLong</a> after the window has been created. 
 
 
 ### -param pcrKey [out, optional]
@@ -139,9 +139,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<b>GetLayeredWindowAttributes</b> can be called only if the application has previously called <a href="https://msdn.microsoft.com/library/ms633540(v=VS.85).aspx">SetLayeredWindowAttributes</a> on the window. The function will fail if the layered window was setup with <a href="https://msdn.microsoft.com/library/ms633556(v=VS.85).aspx">UpdateLayeredWindow</a>.
+<b>GetLayeredWindowAttributes</b> can be called only if the application has previously called <a href="https://msdn.microsoft.com/en-us/library/ms633540(v=VS.85).aspx">SetLayeredWindowAttributes</a> on the window. The function will fail if the layered window was setup with <a href="https://msdn.microsoft.com/en-us/library/ms633556(v=VS.85).aspx">UpdateLayeredWindow</a>.
 
-For more information, see <a href="https://msdn.microsoft.com/library/ms632598(v=VS.85).aspx">Using Layered Windows</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS.85).aspx">Using Layered Windows</a>.
 
 
 
@@ -155,7 +155,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/ms632598(v
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
 
 
 
@@ -163,15 +163,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/ms632598(v
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633540(v=VS.85).aspx">SetLayeredWindowAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633540(v=VS.85).aspx">SetLayeredWindowAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633591(v=VS.85).aspx">SetWindowLong</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">SetWindowLong</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632598(v=VS.85).aspx">Using Windows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS.85).aspx">Using Windows</a>
 
 
 

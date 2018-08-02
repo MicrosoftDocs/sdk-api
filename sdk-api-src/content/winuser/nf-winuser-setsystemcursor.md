@@ -7,7 +7,7 @@ old-location: menurc\setsystemcursor.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\setsystemcursor.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: OCR_APPSTARTING, OCR_CROSS, OCR_HAND, OCR_HELP, OCR_IBEAM, OCR_NO, OCR_NORMAL, OCR_SIZEALL, OCR_SIZENESW, OCR_SIZENS, OCR_SIZENWSE, OCR_SIZEWE, OCR_UP, OCR_WAIT, SetSystemCursor, SetSystemCursor function [Menus and Other Resources], _win32_SetSystemCursor, _win32_setsystemcursor_cpp, menurc.setsystemcursor, winui._win32_setsystemcursor, winuser/SetSystemCursor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ Type: <b>HCURSOR</b>
 
 A handle to the cursor. The function replaces the contents of the system cursor specified by <i>id</i> with the contents of the cursor handled by <i>hcur</i>.
 
-The system destroys <i>hcur</i> by calling the <a href="https://msdn.microsoft.com/library/ms648386(v=VS.85).aspx">DestroyCursor</a> function. Therefore, <i>hcur</i> cannot be a cursor loaded using the <a href="https://msdn.microsoft.com/library/ms648391(v=VS.85).aspx">LoadCursor</a> function. To specify a cursor loaded from a resource, copy the cursor using the <a href="https://msdn.microsoft.com/library/ms648384(v=VS.85).aspx">CopyCursor</a> function, then pass the copy to <b>SetSystemCursor</b>.
+The system destroys <i>hcur</i> by calling the <a href="https://msdn.microsoft.com/en-us/library/ms648386(v=VS.85).aspx">DestroyCursor</a> function. Therefore, <i>hcur</i> cannot be a cursor loaded using the <a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a> function. To specify a cursor loaded from a resource, copy the cursor using the <a href="https://msdn.microsoft.com/en-us/library/ms648384(v=VS.85).aspx">CopyCursor</a> function, then pass the copy to <b>SetSystemCursor</b>.
 
 
 ### -param id [in]
@@ -119,8 +119,7 @@ Crosshair
 </dl>
 </td>
 <td width="60%">
-
-						 Hand
+Hand
 
 </td>
 </tr>
@@ -269,19 +268,19 @@ For an application to use any of the OCR_ constants, the constant <b>OEMRESOURCE
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648386(v=VS.85).aspx">DestroyCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648386(v=VS.85).aspx">DestroyCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648392(v=VS.85).aspx">LoadCursorFromFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648392(v=VS.85).aspx">LoadCursorFromFile</a>
 
 
 
@@ -289,7 +288,7 @@ For an application to use any of the OCR_ constants, the constant <b>OEMRESOURCE
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648393(v=VS.85).aspx">SetCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648393(v=VS.85).aspx">SetCursor</a>
  
 
  

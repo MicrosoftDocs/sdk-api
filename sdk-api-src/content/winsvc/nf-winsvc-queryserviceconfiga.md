@@ -4,10 +4,10 @@ title: QueryServiceConfigA function
 author: windows-sdk-content
 description: Retrieves the configuration parameters of the specified service.
 old-location: base\queryserviceconfig.htm
-old-project: services
+old-project: Services
 ms.assetid: 364c5f61-dfbe-460b-8e42-5c457b65c050
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: QueryServiceConfig, QueryServiceConfig function, QueryServiceConfigA, QueryServiceConfigW, _win32_queryserviceconfig, base.queryserviceconfig, winsvc/QueryServiceConfig, winsvc/QueryServiceConfigA, winsvc/QueryServiceConfigW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,8 +98,7 @@ A pointer to a variable that receives the number of bytes needed to store all th
 
 
 
-
-						If the function succeeds, the return value is nonzero.
+If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 

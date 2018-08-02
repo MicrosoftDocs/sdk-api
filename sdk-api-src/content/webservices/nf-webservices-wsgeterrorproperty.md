@@ -7,7 +7,7 @@ old-location: wsw\wsgeterrorproperty.htm
 old-project: wsw
 ms.assetid: 35a1f4a8-aad6-43ad-81db-b1071a77d5f4
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetErrorProperty, WsGetErrorProperty function [Web Services for Windows], webservices/WsGetErrorProperty, wsw.wsgeterrorproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Retrieves a property of an <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object referenced by the <i>error</i> parameter.
+Retrieves a property of an <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object referenced by the <i>error</i> parameter.
 
 
 ## -parameters
@@ -115,7 +114,6 @@ The property id was not supported for this object or the specified buffer was no
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>

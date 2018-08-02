@@ -4,10 +4,10 @@ title: ITextPara::GetStyle
 author: windows-sdk-content
 description: Retrieves the style handle to the paragraphs in the specified range.
 old-location: controls\ITextPara_GetStyle.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparagetstyle.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetStyle, GetStyle method [Windows Controls], GetStyle method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetStyle method, ITextPara.GetStyle, ITextPara::GetStyle, _win32_ITextPara_GetStyle, _win32_ITextPara_GetStyle_cpp, controls.ITextPara_GetStyle, controls._win32_ITextPara_GetStyle, tom/ITextPara::GetStyle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -412,7 +412,7 @@ The Text Object Model (TOM) version 1.0 has no way to specify the meanings of us
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
 
 
 
@@ -420,11 +420,11 @@ The Text Object Model (TOM) version 1.0 has no way to specify the meanings of us
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787853(v=VS.85).aspx">SetStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787853(v=VS.85).aspx">SetStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

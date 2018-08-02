@@ -7,7 +7,7 @@ old-location: xps\ixpsomdictionary_removeat.htm
 old-project: printdocs
 ms.assetid: fd86046b-8d87-4093-bfbd-b91e5bacba49
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMDictionary interface [XPS Documents and Packaging],RemoveAt method, IXpsOMDictionary.RemoveAt, IXpsOMDictionary::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMDictionary interface, xps.ixpsomdictionary_removeat, xpsobjectmodel/IXpsOMDictionary::RemoveAt
 ms.prod: windows
 ms.technology: windows-sdk

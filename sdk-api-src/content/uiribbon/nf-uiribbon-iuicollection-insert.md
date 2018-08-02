@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuicollection_insert.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\insert.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: IUICollection interface [Windows Ribbon],Insert method, IUICollection.Insert, IUICollection::Insert, Insert, Insert method [Windows Ribbon], Insert method [Windows Ribbon],IUICollection interface, scenicintent_IUICollection_Insert, uiribbon/IUICollection::Insert, windowsribbon.windowsribbon_iuicollection_insert
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-Inserts an item into the <a href="https://msdn.microsoft.com/library/Dd371519(v=VS.85).aspx">IUICollection</a> at the specified index.
+Inserts an item into the <a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a> at the specified index.
 
 
 ## -parameters
@@ -63,17 +63,15 @@ Inserts an item into the <a href="https://msdn.microsoft.com/library/Dd371519(v=
 
 Type: <b>UINT32</b>
 
-
-					The zero-based index at which <i>item</i> is inserted into the <a href="https://msdn.microsoft.com/library/Dd371519(v=VS.85).aspx">IUICollection</a>.
+The zero-based index at which <i>item</i> is inserted into the <a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a>.
 				
 
 
 ### -param item [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
 
-
-					Pointer to the item that is added to the <a href="https://msdn.microsoft.com/library/Dd371519(v=VS.85).aspx">IUICollection</a>.
+Pointer to the item that is added to the <a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a>.
 				
 
 
@@ -93,11 +91,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd742704(v=VS.85).aspx">Gallery Sample</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742704(v=VS.85).aspx">Gallery Sample</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371519(v=VS.85).aspx">IUICollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a>
  
 
  

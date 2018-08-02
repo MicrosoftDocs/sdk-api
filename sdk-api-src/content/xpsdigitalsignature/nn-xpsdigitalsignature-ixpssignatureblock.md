@@ -7,7 +7,7 @@ old-location: xps\ixpssignatureblock.htm
 old-project: printdocs
 ms.assetid: cb2b7fe2-f3d9-4542-958f-5412d2498a9f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsSignatureBlock, IXpsSignatureBlock interface [XPS Documents and Packaging], IXpsSignatureBlock interface [XPS Documents and Packaging],described, xps.ixpssignatureblock, xpsdigitalsignature/IXpsSignatureBlock
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IXpsSignatureBlock</b> interface has these methods.
 <a href="https://msdn.microsoft.com/73b9e0b4-a650-4886-bafb-828a659b8446">CreateRequest</a>
 </td>
 <td align="left" width="63%">
-
-              Creates a new <a href="https://msdn.microsoft.com/5ece2402-ab0e-4695-b9d7-478a65199ec8">IXpsSignatureRequest</a> interface and adds it to the signature block.
+Creates a new <a href="https://msdn.microsoft.com/5ece2402-ab0e-4695-b9d7-478a65199ec8">IXpsSignatureRequest</a> interface and adds it to the signature block.
             
 
 </td>
@@ -94,8 +93,7 @@ Gets the index of the FixedDocument part that references the SignatureDefinition
 <a href="https://msdn.microsoft.com/f93e94ff-c56f-4b3c-8af8-983253bd5657">GetDocumentName</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the  <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a> interface that contains the URI of the document part.
+Gets a pointer to the  <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a> interface that contains the URI of the document part.
             
 
 </td>
@@ -105,8 +103,7 @@ Gets the index of the FixedDocument part that references the SignatureDefinition
 <a href="https://msdn.microsoft.com/43dbb5f5-d69b-435e-8ace-54615796871d">GetPartName</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a> interface that contains the URI of the SignatureDefinitions part.
+Gets a pointer to the <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a> interface that contains the URI of the SignatureDefinitions part.
 
 </td>
 </tr>
@@ -115,8 +112,7 @@ Gets the index of the FixedDocument part that references the SignatureDefinition
 <a href="https://msdn.microsoft.com/97050917-8b41-4e4f-80c5-d8f166897c96">GetRequests</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/bb8279e1-a98b-4156-8b90-d9b69411bfa3">IXpsSignatureRequestCollection</a> interface that contains a collection of signature requests.
+Gets a pointer to the <a href="https://msdn.microsoft.com/bb8279e1-a98b-4156-8b90-d9b69411bfa3">IXpsSignatureRequestCollection</a> interface that contains a collection of signature requests.
             
 
 </td>

@@ -7,7 +7,7 @@ old-location: winmsg\closewindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\closewindow.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: CloseWindow, CloseWindow function [Windows and Messages], _win32_CloseWindow, _win32_closewindow_cpp, winmsg.closewindow, winui._win32_closewindow, winuser/CloseWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-To destroy a window, an application must use the <a href="https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx">DestroyWindow</a> function. 
+To destroy a window, an application must use the <a href="https://msdn.microsoft.com/en-us/library/ms632682(v=VS.85).aspx">DestroyWindow</a> function. 
 
 
 
@@ -94,7 +94,7 @@ To destroy a window, an application must use the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632671(v=VS.85).aspx">ArrangeIconicWindows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632671(v=VS.85).aspx">ArrangeIconicWindows</a>
 
 
 
@@ -102,15 +102,15 @@ To destroy a window, an application must use the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx">DestroyWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632682(v=VS.85).aspx">DestroyWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633527(v=VS.85).aspx">IsIconic</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633527(v=VS.85).aspx">IsIconic</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633535(v=VS.85).aspx">OpenIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633535(v=VS.85).aspx">OpenIcon</a>
 
 
 

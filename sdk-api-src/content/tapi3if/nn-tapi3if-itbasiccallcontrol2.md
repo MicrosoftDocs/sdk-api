@@ -4,10 +4,10 @@ title: ITBasicCallControl2
 author: windows-sdk-content
 description: The ITBasicCallControl2 interface is an extension of the ITBasicCallControl interface.
 old-location: tapi3\itbasiccallcontrol2.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: fc693221-b7ba-4b33-aed7-59ec92fc9b58
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITBasicCallControl2, ITBasicCallControl2 interface [TAPI 2.2], ITBasicCallControl2 interface [TAPI 2.2],described, _tapi3_itbasiccallcontrol2, tapi3.itbasiccallcontrol2, tapi3if/ITBasicCallControl2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITBasicCallControl2</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITBasicCallControl2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITBasicCallControl2</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITBasicCallControl2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -109,7 +109,7 @@ Unselects a terminal from the call.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

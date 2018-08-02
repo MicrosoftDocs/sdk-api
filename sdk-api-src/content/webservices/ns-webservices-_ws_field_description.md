@@ -7,7 +7,7 @@ old-location: wsw\ws_field_description.htm
 old-project: wsw
 ms.assetid: 8b562fab-f3c5-4732-b993-f7f61ca14ab6
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_FIELD_DESCRIPTION, WS_FIELD_DESCRIPTION structure [Web Services for Windows], _WS_FIELD_DESCRIPTION, webservices/WS_FIELD_DESCRIPTION, wsw.ws_field_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Represents serialization information about a field within a structure.
+Represents serialization information about a field within a structure.
             
 
 
@@ -63,8 +62,7 @@ req.product: Windows Address Book 5.0
 
 ### -field mapping
 
-
-                    Identifies how the field maps to the XML.  See <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for 
+Identifies how the field maps to the XML.  See <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for 
                     the ways that the field can be exposed in the XML content.
                 
 
@@ -74,12 +72,10 @@ req.product: Windows Address Book 5.0
 The XML local name to use for the field.
                 
 
-
-                    This field is required, except in the following case, where it may be <b>NULL</b>.
+This field is required, except in the following case, where it may be <b>NULL</b>.
                     If the mapping field is <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>, then
                     this identifies the local name of the "wrapper" element that is the parent element
-                    of the array item elements.  Setting this field (and the ns field) to <b>NULL</b>
-                    will omit the wrapper element.  The ns and localName fields must be either both
+                    of the array item elements.  Setting this field (and the ns field) to <b>NULL</b>will omit the wrapper element.  The ns and localName fields must be either both
                     specified or both <b>NULL</b>.
                 
 
@@ -89,50 +85,43 @@ The XML local name to use for the field.
 The XML namespace to use for the field.
                 
 
-
-                    This field is required, except in the following case, where it may be <b>NULL</b>.
+This field is required, except in the following case, where it may be <b>NULL</b>.
                     If the mapping field is <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>, then
                     this identifies the namespace of the "wrapper" element that is the parent element
-                    of the array item elements.  Setting this field (and the localName field) to <b>NULL</b>
-                    will omit the wrapper element.  The ns and localName fields must be either both
+                    of the array item elements.  Setting this field (and the localName field) to <b>NULL</b>will omit the wrapper element.  The ns and localName fields must be either both
                     specified or both <b>NULL</b>.
                 
 
 
 ### -field type
 
-
-                    The type of the field.  See <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a> for a list of supported types.
+The type of the field.  See <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a> for a list of supported types.
                 
 
 
 ### -field typeDescription
 
-
-                    Additional information about the type.  Each type has a different description
+Additional information about the type.  Each type has a different description
                     structure.  This may be <b>NULL</b>, depending on the <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a>.  
                 
 
 
 ### -field offset
 
-
-                    The offset of the field within the containing structure.
+The offset of the field within the containing structure.
                 
 
 
 ### -field options
 
-
-                    Additional flags for the field.  See <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> for 
+Additional flags for the field.  See <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> for 
                     a list of flags.  If no flags are needed, this may be 0.
                 
 
 
 ### -field defaultValue
 
-
-                    Points to a default value for the field.  This is used in the following instances:
+Points to a default value for the field.  This is used in the following instances:
                 
 
 <ul>
@@ -144,20 +133,17 @@ The XML namespace to use for the field.
 <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a> was specified.
                 </li>
 </ul>
-
-                    If defaultValue is <b>NULL</b>, then it is the same as having a default value
+If defaultValue is <b>NULL</b>, then it is the same as having a default value
                     of all zero's.
                 
 
 
 ### -field countOffset
 
-
-                    The structure offset of the ULONG field that represents the number of items in the array.
+The structure offset of the ULONG field that represents the number of items in the array.
                 
 
-
-                    This field is used when using <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a> or array types 
+This field is used when using <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a> or array types 
                     (<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_CHAR_ARRAY_TYPE</a>, <b>WS_UTF8_ARRAY_TYPE</b>, <b>WS_BYTE_ARRAY_TYPE</b>).  
                     In other cases, it does not need to be specified (it can be 0).
                 
@@ -165,39 +151,33 @@ The XML namespace to use for the field.
 
 ### -field itemLocalName
 
-
-                    The XML local name to use for the repeating elements when
+The XML local name to use for the repeating elements when
                     using <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>.
                 
 
-
-                    In other cases this field does not need to be specified (it can be <b>NULL</b>).
+In other cases this field does not need to be specified (it can be <b>NULL</b>).
                 
 
 
 ### -field itemNs
 
-
-                    The XML namespace to use for the repeating elements when
+The XML namespace to use for the repeating elements when
                     using <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>.
                 
 
-
-                    In other cases this field does not need to be specified (it can be <b>NULL</b>).
+In other cases this field does not need to be specified (it can be <b>NULL</b>).
                 
 
 
 ### -field itemRange
 
-
-                    The minimum and maximum number of repeating elements
+The minimum and maximum number of repeating elements
                     that may appear when using <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>,
                     <b>WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING</b>,
                     or <b>WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING</b>.
                 If not specified (<b>NULL</b>), the minimum is 0, and the maximum is MAX ULONG.
             
 
-
-                    In other cases this field does not need to be specified (it can be <b>NULL</b>).
+In other cases this field does not need to be specified (it can be <b>NULL</b>).
                 
 

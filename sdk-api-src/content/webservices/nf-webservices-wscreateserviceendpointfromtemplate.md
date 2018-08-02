@@ -7,7 +7,7 @@ old-location: wsw\wscreateserviceendpointfromtemplate.htm
 old-project: wsw
 ms.assetid: 433194eb-ac42-4b6a-a1c0-7260a7aabeeb
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCreateServiceEndpointFromTemplate, WsCreateServiceEndpointFromTemplate function [Web Services for Windows], webservices/WsCreateServiceEndpointFromTemplate, wsw.wscreateserviceendpointfromtemplate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-        Helper routine for creating a service endpoint (<a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">WS_SERVICE_ENDPOINT</a>) from policy templates.
+Helper routine for creating a service endpoint (<a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">WS_SERVICE_ENDPOINT</a>) from policy templates.
       
 
 
@@ -72,51 +71,44 @@ A <a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">WS_C
 
 ### -param properties [in]
 
-
-          An array of <a href="https://msdn.microsoft.com/4342d1d2-3126-401b-8019-c7dd243d4ac4">WS_SERVICE_ENDPOINT_PROPERTY</a>  structures containing  properties for the service endpoint. (Application should fill in channel properties in the template structure.)
+An array of <a href="https://msdn.microsoft.com/4342d1d2-3126-401b-8019-c7dd243d4ac4">WS_SERVICE_ENDPOINT_PROPERTY</a>  structures containing  properties for the service endpoint. (Application should fill in channel properties in the template structure.)
 
 
 
 
 ### -param propertyCount [in]
 
-
-          The number of properties in the <i>properties</i> array.
+The number of properties in the <i>properties</i> array.
                 
 
 
 ### -param addressUrl [in, optional]
 
-
-          The URL address on which the endpoint is  to listen.
+The URL address on which the endpoint is  to listen.
         
 
 
 ### -param contract [in]
 
-
-          A <a href="https://msdn.microsoft.com/77bd8c1e-0596-44d7-be99-356d052ee6c1">WS_SERVICE_CONTRACT</a> structure representing the contract of the endpoint.
+A <a href="https://msdn.microsoft.com/77bd8c1e-0596-44d7-be99-356d052ee6c1">WS_SERVICE_CONTRACT</a> structure representing the contract of the endpoint.
         
 
 
 ### -param authorizationCallback [in]
 
-
-          A <a href="https://msdn.microsoft.com/0fa127ea-a715-4f21-8b49-3c2705c2bf5d">WS_SERVICE_SECURITY_CALLBACK</a> authorization callback for the service endpoint.
+A <a href="https://msdn.microsoft.com/0fa127ea-a715-4f21-8b49-3c2705c2bf5d">WS_SERVICE_SECURITY_CALLBACK</a> authorization callback for the service endpoint.
         
 
 
 ### -param heap [in]
 
-
-          The <a href="https://msdn.microsoft.com/library/windows/hardware/dn926854">heap</a> from which memory for the  service endpoint is allocated on successful return.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn926854">heap</a> from which memory for the  service endpoint is allocated on successful return.
         
 
 
 ### -param templateType [in]
 
-
-          A <a href="https://msdn.microsoft.com/831001f4-619d-4128-a645-85077701c28c">WS_BINDING_TEMPLATE_TYPE</a> enumeration value representing the type of templates being used to create the service endpoint.
+A <a href="https://msdn.microsoft.com/831001f4-619d-4128-a645-85077701c28c">WS_BINDING_TEMPLATE_TYPE</a> enumeration value representing the type of templates being used to create the service endpoint.
         
 
 
@@ -130,37 +122,32 @@ Optional template structure to be created and filled in by application.
 
 ### -param templateSize [in]
 
-
-          The size, in bytes, of the input templateValue structure.
+The size, in bytes, of the input templateValue structure.
         
 
 
 ### -param templateDescription [in]
 
-
-          The description of template structure (passed in the <i>templateValue</i> parameter). Needs to match templateType.
+The description of template structure (passed in the <i>templateValue</i> parameter). Needs to match templateType.
         
 
 
 ### -param templateDescriptionSize [in]
 
-
-          The size of the template description.
+The size of the template description.
         
 
 
 ### -param serviceEndpoint [out]
 
-
-                    On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">WS_SERVICE_ENDPOINT</a> structure representing the new service endpoint.
+On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">WS_SERVICE_ENDPOINT</a> structure representing the new service endpoint.
                 
                 
 
 
 ### -param error [in, optional]
 
-
-          Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
                 
                 
 

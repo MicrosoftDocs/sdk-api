@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisual_settransformlookup.htm
 old-project: printdocs
 ms.assetid: b9066cf8-37b5-4c30-ae41-f92a61aa552c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetTransformLookup method, IXpsOMVisual.SetTransformLookup, IXpsOMVisual::SetTransformLookup, SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_settransformlookup, xpsobjectmodel/IXpsOMVisual::SetTransformLookup
 ms.prod: windows
 ms.technology: windows-sdk

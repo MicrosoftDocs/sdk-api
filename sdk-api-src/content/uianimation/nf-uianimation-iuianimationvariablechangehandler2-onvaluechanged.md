@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariablechangehandler2_onvaluechanged.htm
 old-project: UIAnimation
 ms.assetid: 3C885518-8EAC-4123-83A5-5DEB27523DEF
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariableChangeHandler2 interface [Windows Animation],OnValueChanged method, IUIAnimationVariableChangeHandler2.OnValueChanged, IUIAnimationVariableChangeHandler2::OnValueChanged, OnValueChanged, OnValueChanged method [Windows Animation], OnValueChanged method [Windows Animation],IUIAnimationVariableChangeHandler2 interface, uianimation.iuianimationvariablechangehandler2_onvaluechanged, uianimation/IUIAnimationVariableChangeHandler2::OnValueChanged
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-         Handles events that occur when the value of an animation variable changes in the specified dimension.
+Handles events that occur when the value of an animation variable changes in the specified dimension.
 
 
 ## -parameters
@@ -99,8 +98,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 
 
 This method receives updates as <b>DOUBLE</b> values.  
-         To receive updates as <b>INT32</b> values, use the <a href="https://msdn.microsoft.com/76889784-BF1B-475B-8D84-201BEE6F0594">
-         IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged</a> method.
+         To receive updates as <b>INT32</b> values, use the <a href="https://msdn.microsoft.com/76889784-BF1B-475B-8D84-201BEE6F0594">IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged</a> method.
 
 By default, a call made in a callback method to any other animation method results in the call failing and returning <b>UI_E_ILLEGAL_REENTRANCY</b>. However, there are exceptions to this default. The following methods can be successfully called from <b>IUIAnimationVariableChangeHandler2::OnValueChanged</b>:
 
@@ -214,8 +212,7 @@ By default, a call made in a callback method to any other animation method resul
 
 
 
-<a href="https://msdn.microsoft.com/76889784-BF1B-475B-8D84-201BEE6F0594">
-         IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged</a>
+<a href="https://msdn.microsoft.com/76889784-BF1B-475B-8D84-201BEE6F0594">IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged</a>
  
 
  

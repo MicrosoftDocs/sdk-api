@@ -4,10 +4,10 @@ title: "_VDS_PARTITION_INFO_GPT"
 author: windows-sdk-content
 description: Defines details of a GUID partition table (GPT) partition.
 old-location: base\vds_partition_info_gpt.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 5c484155-df73-4007-a137-998c7f1c5a7c
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: VDS_PARTITION_INFO_GPT, VDS_PARTITION_INFO_GPT structure [VDS], _VDS_PARTITION_INFO_GPT, base.vds_partition_info_gpt, vds/_VDS_PARTITION_INFO_GPT
 ms.prod: windows
 ms.technology: windows-sdk

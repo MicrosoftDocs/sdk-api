@@ -4,10 +4,10 @@ title: ITextHost::TxGetCharFormat
 author: windows-sdk-content
 description: Requests the text host's default character format.
 old-location: controls\ITextHost_TxGetCharFormat.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetcharformat.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetCharFormat method, ITextHost.TxGetCharFormat, ITextHost::TxGetCharFormat, TxGetCharFormat, TxGetCharFormat method [Windows Controls], TxGetCharFormat method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetCharFormat, _win32_ITextHost_TxGetCharFormat_cpp, controls.ITextHost_TxGetCharFormat, controls._win32_ITextHost_TxGetCharFormat, textserv/ITextHost::TxGetCharFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Requests the text host's default character format.
 
 ### -param ppCF
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a>**</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a>**</b>
 
 The default character format. 
 
@@ -102,7 +102,7 @@ Not implemented.
 
 
 
-The text host retains ownership of the <a href="https://msdn.microsoft.com/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a> returned. However, the pointer returned must remain valid until the text host notifies the text services object through <a href="https://msdn.microsoft.com/library/Bb787627(v=VS.85).aspx">OnTxPropertyBitsChange</a> that the default character format has changed.
+The text host retains ownership of the <a href="https://msdn.microsoft.com/en-us/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a> returned. However, the pointer returned must remain valid until the text host notifies the text services object through <a href="https://msdn.microsoft.com/en-us/library/Bb787627(v=VS.85).aspx">OnTxPropertyBitsChange</a> that the default character format has changed.
 
 
 
@@ -112,7 +112,7 @@ The text host retains ownership of the <a href="https://msdn.microsoft.com/libra
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a>
 
 
 
@@ -120,11 +120,11 @@ The text host retains ownership of the <a href="https://msdn.microsoft.com/libra
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787627(v=VS.85).aspx">OnTxPropertyBitsChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787627(v=VS.85).aspx">OnTxPropertyBitsChange</a>
 
 
 
@@ -132,7 +132,7 @@ The text host retains ownership of the <a href="https://msdn.microsoft.com/libra
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
  
 
  

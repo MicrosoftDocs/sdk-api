@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IToggleProvider.htm
 old-project: WinAuto
 ms.assetid: 85da8225-31b8-4b4d-81f4-ad98871b8e31
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IToggleProvider, IToggleProvider interface [Windows Accessibility], IToggleProvider interface [Windows Accessibility],described, uiauto.uiauto_IToggleProvider, uiauto_IToggleProvider, uiautomationcore/IToggleProvider, winauto.uiauto_IToggleProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ The <b>IToggleProvider</b> interface has these methods.
 <a href="https://msdn.microsoft.com/afadbcaf-156f-496e-a0f3-900e7f8d44da">Toggle</a>
 </td>
 <td align="left" width="63%">
-
-        Cycles through the toggle states of a control.
+Cycles through the toggle states of a control.
         
 
 </td>

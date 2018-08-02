@@ -7,7 +7,7 @@ old-location: smi\isettingscontext_revertsetting.htm
 old-project: SMI
 ms.assetid: 11f541e6-fd97-4756-91c1-44ba2e3d35b1
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: ISettingsContext interface [SMI],RevertSetting method, ISettingsContext.RevertSetting, ISettingsContext::RevertSetting, RevertSetting, RevertSetting method [SMI], RevertSetting method [SMI],ISettingsContext interface, smi.isettingscontext_revertsetting, wcmconfig/ISettingsContext::RevertSetting
 ms.prod: windows
 ms.technology: windows-sdk

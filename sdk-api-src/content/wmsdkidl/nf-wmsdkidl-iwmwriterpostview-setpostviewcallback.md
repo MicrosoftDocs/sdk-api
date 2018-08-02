@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterpostview_setpostviewcallback.htm
 old-project: wmformat
 ms.assetid: c2814f32-1787-44a6-8ffc-5d2a9aca8601
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMWriterPostView interface [windows Media Format],SetPostViewCallback method, IWMWriterPostView.SetPostViewCallback, IWMWriterPostView::SetPostViewCallback, IWMWriterPostViewSetPostViewCallback, SetPostViewCallback, SetPostViewCallback method [windows Media Format], SetPostViewCallback method [windows Media Format],IWMWriterPostView interface, wmformat.iwmwriterpostview_setpostviewcallback, wmsdkidl/IWMWriterPostView::SetPostViewCallback
 ms.prod: windows
 ms.technology: windows-sdk

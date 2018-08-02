@@ -7,7 +7,7 @@ old-location: menurc\lstrcpy.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcpy.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: "_win32_lstrcpy, _win32_lstrcpy_cpp, lstrcpy, lstrcpy function [Menus and Other Resources], lstrcpyA, lstrcpyW, menurc.lstrcpy, winbase/lstrcpy, winbase/lstrcpyA, winbase/lstrcpyW, winui._win32_lstrcpy"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: Windows Address Book 5.0
 
 
 Copies a string to a buffer.
-<div class="alert"><b>Warning</b>  Do not use. Consider using <a href="https://msdn.microsoft.com/library/ms647527(v=VS.85).aspx">StringCchCopy</a> instead. See Remarks.</div><div> </div>
+<div class="alert"><b>Warning</b>  Do not use. Consider using <a href="https://msdn.microsoft.com/en-us/library/ms647527(v=VS.85).aspx">StringCchCopy</a> instead. See Remarks.</div><div> </div>
 
 ## -parameters
 
@@ -122,7 +122,7 @@ Buffer overflow situations are the cause of many security problems in applicatio
 			In the worst case, a buffer overrun may allow an attacker to inject executable code into 
 			your process, especially if <i>lpString1</i> is a stack-based buffer.
 
-Consider using <a href="https://msdn.microsoft.com/library/ms647527(v=VS.85).aspx">StringCchCopy</a> instead; use either 
+Consider using <a href="https://msdn.microsoft.com/en-us/library/ms647527(v=VS.85).aspx">StringCchCopy</a> instead; use either 
 				<code>StringCchCopy(buffer, sizeof(buffer)/sizeof(buffer[0]), src);</code>, 
 				being aware that <code>buffer</code> must not be a pointer or 
 				use <code>StringCchCopy(buffer, ARRAYSIZE(buffer), src);</code>, 
@@ -145,35 +145,35 @@ Consider using <a href="https://msdn.microsoft.com/library/ms647527(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647499(v=VS.85).aspx">StringCbCopy</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647499(v=VS.85).aspx">StringCbCopy</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647500(v=VS.85).aspx">StringCbCopyEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647500(v=VS.85).aspx">StringCbCopyEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647501(v=VS.85).aspx">StringCbCopyN</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647501(v=VS.85).aspx">StringCbCopyN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647503(v=VS.85).aspx">StringCbCopyNEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647503(v=VS.85).aspx">StringCbCopyNEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647527(v=VS.85).aspx">StringCchCopy</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647527(v=VS.85).aspx">StringCchCopy</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647529(v=VS.85).aspx">StringCchCopyEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647529(v=VS.85).aspx">StringCchCopyEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647530(v=VS.85).aspx">StringCchCopyN</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647530(v=VS.85).aspx">StringCchCopyN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647533(v=VS.85).aspx">StringCchCopyNEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647533(v=VS.85).aspx">StringCchCopyNEx</a>
 
 
 
@@ -181,15 +181,15 @@ Consider using <a href="https://msdn.microsoft.com/library/ms647527(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647488(v=VS.85).aspx">lstrcmp</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647488(v=VS.85).aspx">lstrcmp</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647489(v=VS.85).aspx">lstrcmpi</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647489(v=VS.85).aspx">lstrcmpi</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647492(v=VS.85).aspx">lstrlen</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647492(v=VS.85).aspx">lstrlen</a>
  
 
  

@@ -63,11 +63,11 @@ This property is read/write.
 
 
 
-To specify a server-based cover page file, you must set the <a href="https://msdn.microsoft.com/6313301b-06ec-494d-9671-66dc06a2ec1c">CoverPageType</a> property to 2.
+To specify a server-based cover page file, you must set the <a href="https://msdn.microsoft.com/en-us/library/ms686003(v=VS.85).aspx">CoverPageType</a> property to 2.
 
                 
 
-To specify a local or personal cover page file, you must set the <a href="https://msdn.microsoft.com/6313301b-06ec-494d-9671-66dc06a2ec1c">CoverPageType</a> property to 1.
+To specify a local or personal cover page file, you must set the <a href="https://msdn.microsoft.com/en-us/library/ms686003(v=VS.85).aspx">CoverPageType</a> property to 1.
 
 
 

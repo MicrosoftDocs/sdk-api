@@ -4,10 +4,10 @@ title: UnregisterPowerSettingNotification function
 author: windows-sdk-content
 description: Unregisters the power setting notification.
 old-location: base\unregisterpowersettingnotification.htm
-old-project: power
+old-project: Power
 ms.assetid: de1509f5-cf4c-448e-bb3b-08da6be53bfa
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: UnregisterPowerSettingNotification, UnregisterPowerSettingNotification function, base.unregisterpowersettingnotification, winuser/UnregisterPowerSettingNotification
 ms.prod: windows
 ms.technology: windows-sdk

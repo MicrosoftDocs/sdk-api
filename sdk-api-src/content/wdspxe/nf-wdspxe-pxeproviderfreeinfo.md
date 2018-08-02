@@ -4,10 +4,10 @@ title: PxeProviderFreeInfo function
 author: windows-sdk-content
 description: Frees memory allocated by the PxeProviderEnumNext function.
 old-location: wds\pxeproviderfreeinfo.htm
-old-project: wds
+old-project: Wds
 ms.assetid: dd0f2b02-afc9-4ff6-b5b8-772ef15e4aa7
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: PxeProviderFreeInfo, PxeProviderFreeInfo function [Windows Deployment Services], wds.pxeproviderfreeinfo, wdspxe/PxeProviderFreeInfo
 ms.prod: windows
 ms.technology: windows-sdk

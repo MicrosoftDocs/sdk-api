@@ -4,10 +4,10 @@ title: ITextDocument::BeginEditCollection
 author: windows-sdk-content
 description: Turns on edit collection (also called undo grouping).
 old-location: controls\ITextDocument_BeginEditCollection.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\begineditcollection.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: BeginEditCollection, BeginEditCollection method [Windows Controls], BeginEditCollection method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],BeginEditCollection method, ITextDocument.BeginEditCollection, ITextDocument::BeginEditCollection, _win32_ITextDocument_BeginEditCollection, _win32_ITextDocument_BeginEditCollection_cpp, controls.ITextDocument_BeginEditCollection, controls._win32_ITextDocument_BeginEditCollection, tom/ITextDocument::BeginEditCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,15 +121,15 @@ A single
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787750(v=VS.85).aspx">EndEditCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787750(v=VS.85).aspx">EndEditCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773925(v=VS.85).aspx">Freeze</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773925(v=VS.85).aspx">Freeze</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
 
 
 
@@ -137,7 +137,7 @@ A single
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

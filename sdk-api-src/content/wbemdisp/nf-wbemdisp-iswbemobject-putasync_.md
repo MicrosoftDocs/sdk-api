@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_putasync_.htm
 old-project: WmiSdk
 ms.assetid: ff738412-fcca-4e4a-a178-0d1d391ec99b
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemObject interface [Windows Management Instrumentation],PutAsync_ method, ISWbemObject.PutAsync_, ISWbemObject::PutAsync_, PutAsync_, PutAsync_ method [Windows Management Instrumentation], PutAsync_ method [Windows Management Instrumentation],ISWbemObject interface, PutAsync_ method [Windows Management Instrumentation],SWbemObject object, SWbemObject object [Windows Management Instrumentation],PutAsync_ method, SWbemObject.PutAsync_, WbemChangeFlagUpdateForceMode, _hmm_swbemobject.putasync_, wbemChangeFlagCreateOnly, wbemChangeFlagCreateOrUpdate, wbemChangeFlagUpdateCompatible, wbemChangeFlagUpdateOnly, wbemChangeFlagUpdateSafeMode, wbemFlagDontSendStatus, wbemFlagReturnImmediately, wbemFlagReturnWhenComplete, wbemFlagSendStatus, wbemFlagUseAmendedQualifiers, wmi.swbemobject_putasync_
 ms.prod: windows
 ms.technology: windows-sdk

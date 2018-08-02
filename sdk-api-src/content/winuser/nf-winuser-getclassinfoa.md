@@ -7,7 +7,7 @@ old-location: winmsg\getclassinfo.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclassinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: GetClassInfo, GetClassInfo function [Windows and Messages], GetClassInfoA, GetClassInfoW, _win32_GetClassInfo, _win32_getclassinfo_cpp, winmsg.getclassinfo, winui._win32_getclassinfo, winuser/GetClassInfo, winuser/GetClassInfoA, winuser/GetClassInfoW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ Retrieves information about a window class.
 
 
 			
-<div class="alert"><b>Note</b>  The <b>GetClassInfo</b> function has been superseded by the <a href="https://msdn.microsoft.com/library/ms633579(v=VS.85).aspx">GetClassInfoEx</a> function. You can still use <b>GetClassInfo</b>, however, if you do not need information about the class small icon.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>GetClassInfo</b> function has been superseded by the <a href="https://msdn.microsoft.com/en-us/library/ms633579(v=VS.85).aspx">GetClassInfoEx</a> function. You can still use <b>GetClassInfo</b>, however, if you do not need information about the class small icon.</div><div> </div>
 
 ## -parameters
 
@@ -83,9 +83,9 @@ A handle to the instance of the application that created the class. To retrieve 
 
 Type: <b>LPCTSTR</b>
 
-The class name. The name must be that of a preregistered class or a class registered by a previous call to the <a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a> or <a href="https://msdn.microsoft.com/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function. 
+The class name. The name must be that of a preregistered class or a class registered by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a> or <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function. 
 
-Alternatively, this parameter can be an atom. If so, it must be a class atom created by a previous call to <a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a> or <a href="https://msdn.microsoft.com/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>. The atom must be in the low-order word of 
+Alternatively, this parameter can be an atom. If so, it must be a class atom created by a previous call to <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a> or <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>. The atom must be in the low-order word of 
 					<i>lpClassName</i>; the high-order word must be zero.
 
 
@@ -93,7 +93,7 @@ Alternatively, this parameter can be an atom. If so, it must be a class atom cre
 
 Type: <b>LPWNDCLASS</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/ms633576(v=VS.85).aspx">WNDCLASS</a> structure that receives the information about the class. 
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms633576(v=VS.85).aspx">WNDCLASS</a> structure that receives the information about the class. 
 
 
 ## -returns
@@ -119,15 +119,15 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633579(v=VS.85).aspx">GetClassInfoEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633579(v=VS.85).aspx">GetClassInfoEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633580(v=VS.85).aspx">GetClassLong</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633580(v=VS.85).aspx">GetClassLong</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633582(v=VS.85).aspx">GetClassName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633582(v=VS.85).aspx">GetClassName</a>
 
 
 
@@ -135,19 +135,19 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633576(v=VS.85).aspx">WNDCLASS</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633576(v=VS.85).aspx">WNDCLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632596(v=VS.85).aspx">Window Classes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632596(v=VS.85).aspx">Window Classes</a>
  
 
  

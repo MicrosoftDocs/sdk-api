@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_getstrokebrush.htm
 old-project: printdocs
 ms.assetid: dbf786b0-5603-4735-8770-4c5e17a67253
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetStrokeBrush, GetStrokeBrush method [XPS Documents and Packaging], GetStrokeBrush method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeBrush method, IXpsOMPath.GetStrokeBrush, IXpsOMPath::GetStrokeBrush, xps.ixpsompath_getstrokebrush, xpsobjectmodel/IXpsOMPath::GetStrokeBrush
 ms.prod: windows
 ms.technology: windows-sdk

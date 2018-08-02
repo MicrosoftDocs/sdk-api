@@ -7,7 +7,7 @@ old-location: wsw\wswritestartcdata.htm
 old-project: wsw
 ms.assetid: c233244c-24b6-4baa-ba36-697283ff33f3
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsWriteStartCData, WsWriteStartCData function [Web Services for Windows], webservices/WsWriteStartCData, wsw.wswritestartcdata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        This operation starts a CDATA section in the writer.
+This operation starts a CDATA section in the writer.
       CDATA sections cannot be nested and cannot appear at the root of the document.  <div class="alert"><b>Note</b>  Some encodings do not support CDATA
         and will generate text instead.
       </div>
@@ -95,7 +94,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -107,7 +105,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>

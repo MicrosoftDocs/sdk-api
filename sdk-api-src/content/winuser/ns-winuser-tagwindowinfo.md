@@ -7,7 +7,7 @@ old-location: winmsg\windowinfo.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\windowinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPWINDOWINFO, *PWINDOWINFO, LPWINDOWINFO, LPWINDOWINFO structure pointer [Windows and Messages], PWINDOWINFO, PWINDOWINFO structure pointer [Windows and Messages], WINDOWINFO, WINDOWINFO structure [Windows and Messages], _win32_WINDOWINFO_str, _win32_windowinfo_str_cpp, tagWINDOWINFO, winmsg.windowinfo, winui._win32_windowinfo_str, winuser/LPWINDOWINFO, winuser/PWINDOWINFO, winuser/WINDOWINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ The coordinates of the client area.
 
 Type: <b>DWORD</b>
 
-The window styles. For a table of window styles, see <a href="https://msdn.microsoft.com/library/ms632600(v=VS.85).aspx">Window Styles</a>. 
+The window styles. For a table of window styles, see <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">Window Styles</a>. 
 
 
 ### -field dwExStyle
@@ -119,7 +119,7 @@ The height of the window border, in pixels.
 
 Type: <b>ATOM</b>
 
-The window class atom (see <a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a>). 
+The window class atom (see <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a>). 
 
 
 ### -field wCreatorVersion
@@ -138,11 +138,11 @@ The Windows version of the application that created the window.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633516(v=VS.85).aspx">GetWindowInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633516(v=VS.85).aspx">GetWindowInfo</a>
 
 
 
@@ -150,7 +150,7 @@ The Windows version of the application that created the window.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a>
 
 
 

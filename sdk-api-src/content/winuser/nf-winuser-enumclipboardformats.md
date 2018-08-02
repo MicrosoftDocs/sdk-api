@@ -7,7 +7,7 @@ old-location: dataxchg\enumclipboardformats.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\enumclipboardformats.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/29/2018
 ms.keywords: EnumClipboardFormats, EnumClipboardFormats function [Data Exchange], _win32_EnumClipboardFormats, _win32_enumclipboardformats_cpp, dataxchg.enumclipboardformats, winui._win32_enumclipboardformats, winuser/EnumClipboardFormats
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,17 +94,17 @@ If there are no more clipboard formats to enumerate, the return value is zero. I
 
 
 
-You must open the clipboard before enumerating its formats. Use the <a href="https://msdn.microsoft.com/library/ms649048(v=VS.85).aspx">OpenClipboard</a> function to open the clipboard. The <b>EnumClipboardFormats</b> function fails if the clipboard is not open.
+You must open the clipboard before enumerating its formats. Use the <a href="https://msdn.microsoft.com/en-us/library/ms649048(v=VS.85).aspx">OpenClipboard</a> function to open the clipboard. The <b>EnumClipboardFormats</b> function fails if the clipboard is not open.
 
 The
 				<b>EnumClipboardFormats</b> function enumerates formats in the order that they were placed on the clipboard. If you are copying information to the clipboard, add clipboard objects in order from the most descriptive clipboard format to the least descriptive clipboard format. If you are pasting information from the clipboard, retrieve the first clipboard format that you can handle. That will be the most descriptive clipboard format that you can handle.
 
-The system provides automatic type conversions for certain clipboard formats. In the case of such a format, this function enumerates the specified format, then enumerates the formats to which it can be converted. For more information, see <a href="https://msdn.microsoft.com/library/ms649013(v=VS.85).aspx">Standard Clipboard Formats</a>  and <a href="https://msdn.microsoft.com/library/ms649013(v=VS.85).aspx">Synthesized Clipboard Formats</a>.
+The system provides automatic type conversions for certain clipboard formats. In the case of such a format, this function enumerates the specified format, then enumerates the formats to which it can be converted. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms649013(v=VS.85).aspx">Standard Clipboard Formats</a>  and <a href="https://msdn.microsoft.com/en-us/library/ms649013(v=VS.85).aspx">Synthesized Clipboard Formats</a>.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms649016(v=VS.85).aspx">Example of a Clipboard Viewer</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v=VS.85).aspx">Example of a Clipboard Viewer</a>.
 
 <div class="code"></div>
 
@@ -115,7 +115,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms649016(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
 
 
 
@@ -123,11 +123,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms649016(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649036(v=VS.85).aspx">CountClipboardFormats</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649036(v=VS.85).aspx">CountClipboardFormats</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649048(v=VS.85).aspx">OpenClipboard</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649048(v=VS.85).aspx">OpenClipboard</a>
 
 
 
@@ -135,7 +135,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms649016(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649049(v=VS.85).aspx">RegisterClipboardFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649049(v=VS.85).aspx">RegisterClipboardFormat</a>
  
 
  

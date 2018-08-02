@@ -7,7 +7,7 @@ old-location: wsw\ws_error_property.htm
 old-project: wsw
 ms.assetid: 463b634f-bb15-494d-8061-c4fa0b97b990
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ERROR_PROPERTY, WS_ERROR_PROPERTY structure [Web Services for Windows], _WS_ERROR_PROPERTY, webservices/WS_ERROR_PROPERTY, wsw.ws_error_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies an error specific setting.
+Specifies an error specific setting.
             
 
 
@@ -63,15 +62,13 @@ req.product: Windows Address Book 5.0
 
 ### -field id
 
-
-                Identifies the <a href="https://msdn.microsoft.com/527e39be-c959-40db-8f0b-14dcd49a7ca7">WS_ERROR_PROPERTY_ID</a>.
+Identifies the <a href="https://msdn.microsoft.com/527e39be-c959-40db-8f0b-14dcd49a7ca7">WS_ERROR_PROPERTY_ID</a>.
             
 
 
 ### -field value
 
-
-                A pointer to the value to set.
+A pointer to the value to set.
                 The pointer must have an alignment compatible with the type
                 of the property.
             
@@ -79,7 +76,6 @@ req.product: Windows Address Book 5.0
 
 ### -field valueSize
 
-
-                The size, in bytes, of the memory pointed to by value.
+The size, in bytes, of the memory pointed to by value.
             
 

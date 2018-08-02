@@ -4,10 +4,10 @@ title: GetLongPathNameTransactedW function
 author: windows-sdk-content
 description: Converts the specified path to its long form as a transacted operation.
 old-location: fs\getlongpathnametransacted.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 8523cde9-f0dd-4832-8d9d-9e68bac89344
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: GetLongPathNameTransacted, GetLongPathNameTransacted function [Files], GetLongPathNameTransactedA, GetLongPathNameTransactedW, fs.getlongpathnametransacted, winbase/GetLongPathNameTransacted, winbase/GetLongPathNameTransactedA, winbase/GetLongPathNameTransactedW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -152,7 +152,7 @@ It is possible to have access to a file or directory but not have access to some
     unable to query the parent directory of a path component to determine the long name for that component. This check 
     can be skipped for directory components that have file extensions longer than 3 characters, or total lengths 
     longer than 12 characters. For more information, see the 
-    <a href="https://msdn.microsoft.com/library/Aa365247(v=VS.85).aspx">Short vs. Long Names</a> section of 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa365247(v=VS.85).aspx">Short vs. Long Names</a> section of 
     <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming Files, Paths, and Namespaces</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.

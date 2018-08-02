@@ -4,10 +4,10 @@ title: GetBufferedPaintTargetRect function
 author: windows-sdk-content
 description: Retrieves the target rectangle specified by BeginBufferedPaint.
 old-location: controls\GetBufferedPaintTargetRect.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getbufferedpainttargetrect.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetBufferedPaintTargetRect, GetBufferedPaintTargetRect function [Windows Controls], _shell_GetBufferedPaintTargetRect, _shell_GetBufferedPaintTargetRect_cpp, controls.GetBufferedPaintTargetRect, controls._shell_GetBufferedPaintTargetRect, uxtheme/GetBufferedPaintTargetRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Retrieves the target rectangle specified by BeginBufferedPaint.
 
 Type: <b>HPAINTBUFFER</b>
 
-Handle to the buffered paint context obtained through <a href="https://msdn.microsoft.com/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
+Handle to the buffered paint context obtained through <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
 
 
 ### -param prc [out]

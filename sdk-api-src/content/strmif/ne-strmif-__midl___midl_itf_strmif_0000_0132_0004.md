@@ -7,7 +7,7 @@ old-location: dshow\dvd_relative_button.htm
 old-project: DirectShow
 ms.assetid: f2641b5c-08a4-44a1-8f53-fad636a03c45
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: DVD_RELATIVE_BUTTON, DVD_RELATIVE_BUTTON , DVD_RELATIVE_BUTTON enumeration [DirectShow], DVD_RELATIVE_BUTTONEnumeration, DVD_Relative_Left, DVD_Relative_Lower, DVD_Relative_Right, DVD_Relative_Upper, __MIDL___MIDL_itf_strmif_0000_0132_0004, dshow.dvd_relative_button, strmif/DVD_RELATIVE_BUTTON, strmif/DVD_Relative_Left, strmif/DVD_Relative_Lower, strmif/DVD_Relative_Right, strmif/DVD_Relative_Upper
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,29 +64,25 @@ Identifies the four directional buttons used for DVD menu navigation and other o
 
 ### -field DVD_Relative_Upper
 
-
-            Upper button.
+Upper button.
           
 
 
 ### -field DVD_Relative_Lower
 
-
-            Lower button.
+Lower button.
           
 
 
 ### -field DVD_Relative_Left
 
-
-            Left button.
+Left button.
           
 
 
 ### -field DVD_Relative_Right
 
-
-            Right button.
+Right button.
           
 
 

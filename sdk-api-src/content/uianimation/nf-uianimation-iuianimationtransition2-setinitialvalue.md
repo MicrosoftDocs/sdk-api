@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransition2_setinitialvalue.htm
 old-project: UIAnimation
 ms.assetid: 813224BE-369D-4D65-AA12-AEE590627F40
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationTransition2 interface [Windows Animation],SetInitialValue method, IUIAnimationTransition2.SetInitialValue, IUIAnimationTransition2::SetInitialValue, SetInitialValue, SetInitialValue method [Windows Animation], SetInitialValue method [Windows Animation],IUIAnimationTransition2 interface, uianimation.iuianimationtransition2_setinitialvalue, uianimation/IUIAnimationTransition2::SetInitialValue
 ms.prod: windows
 ms.technology: windows-sdk

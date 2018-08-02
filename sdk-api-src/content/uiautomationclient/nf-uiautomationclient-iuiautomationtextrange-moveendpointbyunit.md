@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_MoveEndpointByUnit.htm
 old-project: WinAuto
 ms.assetid: 8724db1f-b8ed-4e00-9661-c22dd412653c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAutomationTextRange interface [Windows Accessibility],MoveEndpointByUnit method, IUIAutomationTextRange.MoveEndpointByUnit, IUIAutomationTextRange::MoveEndpointByUnit, MoveEndpointByUnit, MoveEndpointByUnit method [Windows Accessibility], MoveEndpointByUnit method [Windows Accessibility],IUIAutomationTextRange interface, uiauto.uiauto_IUIAutomationTextRange_MoveEndpointByUnit, uiauto_IUIAutomationTextRange_MoveEndpointByUnit, uiautomationclient/IUIAutomationTextRange::MoveEndpointByUnit, winauto.uiauto_IUIAutomationTextRange_MoveEndpointByUnit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,8 +111,7 @@ If the <a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7"
 <a href="https://msdn.microsoft.com/3c0b9357-0f51-4044-8a5a-1f68af7a9762">MoveEndpointByUnit</a> deprecates up to the next supported text unit if the given text unit is not supported by the control. 
         
 
-
-        The order, from smallest unit to largest, is listed here.
+The order, from smallest unit to largest, is listed here.
         
 
 <ul>

@@ -7,7 +7,7 @@ old-location: wmi\swbemdatetime_isinterval.htm
 old-project: WmiSdk
 ms.assetid: ba5fcf17-7c26-4960-9da9-e380d90e5f3e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemDateTime interface [Windows Management Instrumentation],IsInterval property, ISWbemDateTime.get_IsInterval, ISWbemDateTime.put_IsInterval, ISWbemDateTime::get_IsInterval, IsInterval property [Windows Management Instrumentation], IsInterval property [Windows Management Instrumentation],ISWbemDateTime interface, IsInterval property [Windows Management Instrumentation],SWbemDateTime object, SWbemDateTime object [Windows Management Instrumentation],IsInterval property, SWbemDateTime.IsInterval, _hmm_swbemdatetime.isinterval, get_IsInterval, wmi.swbemdatetime_isinterval
 ms.prod: windows
 ms.technology: windows-sdk

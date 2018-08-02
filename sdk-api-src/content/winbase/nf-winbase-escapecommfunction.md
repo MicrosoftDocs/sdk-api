@@ -4,10 +4,10 @@ title: EscapeCommFunction function
 author: windows-sdk-content
 description: Directs the specified communications device to perform an extended function.
 old-location: base\escapecommfunction.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 27c4ebdf-1c06-4a60-8e49-dcccba10789c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CLRBREAK, CLRDTR, CLRRTS, EscapeCommFunction, EscapeCommFunction function, SETBREAK, SETDTR, SETRTS, SETXOFF, SETXON, _win32_escapecommfunction, base.escapecommfunction, winbase/EscapeCommFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Directs the specified communications device to perform an extended function.
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="base.createfile">CreateFile</a> function returns this handle.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function returns this handle.
 
 
 ### -param dwFunc [in]
@@ -203,7 +203,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
 
 
 

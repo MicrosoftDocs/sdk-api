@@ -4,10 +4,10 @@ title: "_WLAN_IHV_CONTROL_TYPE"
 author: windows-sdk-content
 description: Specifies the type of software bypassed by a vendor-specific method.
 old-location: nwifi\wlan_ihv_control_type.htm
-old-project: nativewifi
+old-project: NativeWiFi
 ms.assetid: a2f147e7-3008-448a-8f79-bb4428b6a678
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PWLAN_IHV_CONTROL_TYPE, PWLAN_IHV_CONTROL_TYPE, PWLAN_IHV_CONTROL_TYPE enumeration pointer [NativeWIFI], WLAN_IHV_CONTROL_TYPE, WLAN_IHV_CONTROL_TYPE enumeration [NativeWIFI], _WLAN_IHV_CONTROL_TYPE, nwifi.wlan_ihv_control_type, wlan_ihv_control_type_driver, wlan_ihv_control_type_service, wlanapi/PWLAN_IHV_CONTROL_TYPE, wlanapi/WLAN_IHV_CONTROL_TYPE, wlanapi/wlan_ihv_control_type_driver, wlanapi/wlan_ihv_control_type_service"
 ms.prod: windows
 ms.technology: windows-sdk

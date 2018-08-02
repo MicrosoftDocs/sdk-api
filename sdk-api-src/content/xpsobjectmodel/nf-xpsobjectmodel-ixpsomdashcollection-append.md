@@ -7,7 +7,7 @@ old-location: xps\ixpsomdashcollection_append.htm
 old-project: printdocs
 ms.assetid: e8d2baf5-e36e-4363-bde6-1731c97e702f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMDashCollection interface, IXpsOMDashCollection interface [XPS Documents and Packaging],Append method, IXpsOMDashCollection.Append, IXpsOMDashCollection::Append, xps.ixpsomdashcollection_append, xpsobjectmodel/IXpsOMDashCollection::Append
 ms.prod: windows
 ms.technology: windows-sdk

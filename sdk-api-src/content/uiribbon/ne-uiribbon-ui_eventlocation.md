@@ -7,7 +7,7 @@ old-location: windowsribbon\ui_eventlocation.htm
 old-project: windowsribbon
 ms.assetid: EA278262-8CA7-42A3-9F66-0C7B4D3AA525
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: UI_EVENTLOCATION, UI_EVENTLOCATION enumeration [Windows Ribbon], UI_EVENTLOCATION_ApplicationMenu, UI_EVENTLOCATION_ContextPopup, UI_EVENTLOCATION_QAT, UI_EVENTLOCATION_Ribbon, uiribbon/UI_EVENTLOCATION, uiribbon/UI_EVENTLOCATION_ApplicationMenu, uiribbon/UI_EVENTLOCATION_ContextPopup, uiribbon/UI_EVENTLOCATION_QAT, uiribbon/UI_EVENTLOCATION_Ribbon, windowsribbon.ui_eventlocation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,22 +61,22 @@ Identifies the locations where events associated with a Ribbon control can origi
 
 ### -field UI_EVENTLOCATION_Ribbon
 
-The <a href="https://msdn.microsoft.com/library/Dd316811(v=VS.85).aspx">Ribbon</a>.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a>.
 
 
 ### -field UI_EVENTLOCATION_QAT
 
-The <a href="https://msdn.microsoft.com/library/Dd371713(v=VS.85).aspx">QuickAccessToolbar</a>.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd371713(v=VS.85).aspx">QuickAccessToolbar</a>.
 
 
 ### -field UI_EVENTLOCATION_ApplicationMenu
 
-The <a href="https://msdn.microsoft.com/library/Dd371601(v=VS.85).aspx">ApplicationMenu</a>.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd371601(v=VS.85).aspx">ApplicationMenu</a>.
 
 
 ### -field UI_EVENTLOCATION_ContextPopup
 
-The <a href="https://msdn.microsoft.com/library/Dd371654(v=VS.85).aspx">ContextPopup</a>.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd371654(v=VS.85).aspx">ContextPopup</a>.
 
 
 ## -see-also
@@ -84,7 +84,7 @@ The <a href="https://msdn.microsoft.com/library/Dd371654(v=VS.85).aspx">ContextP
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
 
 
 

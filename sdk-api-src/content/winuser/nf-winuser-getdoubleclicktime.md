@@ -7,7 +7,7 @@ old-location: inputdev\getdoubleclicktime.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\getdoubleclicktime.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: GetDoubleClickTime, GetDoubleClickTime function [Keyboard and Mouse Input], _win32_GetDoubleClickTime, _win32_getdoubleclicktime_cpp, inputdev.getdoubleclicktime, winui._win32_getdoubleclicktime, winuser/GetDoubleClickTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ The return value specifies the current double-click time, in milliseconds. The m
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
 
 
 
@@ -92,7 +92,7 @@ The return value specifies the current double-click time, in milliseconds. The m
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646263(v=VS.85).aspx">SetDoubleClickTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646263(v=VS.85).aspx">SetDoubleClickTime</a>
  
 
  

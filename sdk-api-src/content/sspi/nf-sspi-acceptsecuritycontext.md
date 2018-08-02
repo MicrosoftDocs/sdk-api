@@ -4,10 +4,10 @@ title: AcceptSecurityContext function
 author: windows-sdk-content
 description: Lets the server component of a transport application establish a security context between the server and a remote client.
 old-location: security\acceptsecuritycontext__credssp_.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: a53f733e-b646-4431-b021-a2c446308849
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: ASC_REQ_ALLOCATE_MEMORY, ASC_REQ_CONNECTION, ASC_REQ_DELEGATE, ASC_REQ_EXTENDED_ERROR, ASC_REQ_REPLAY_DETECT, ASC_REQ_SEQUENCE_DETECT, ASC_REQ_STREAM, AcceptSecurityContext, AcceptSecurityContext (CredSSP), AcceptSecurityContext function [Security], security.acceptsecuritycontext__credssp_, sspi/AcceptSecurityContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # AcceptSecurityContext function
@@ -51,8 +50,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-			The <b>AcceptSecurityContext (CredSSP)</b> function lets the server component of a transport application establish a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> between the server and a remote client. The remote client calls the 
+The <b>AcceptSecurityContext (CredSSP)</b> function lets the server component of a transport application establish a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> between the server and a remote client. The remote client calls the 
 <a href="https://msdn.microsoft.com/f3d8c07b-db28-4f26-ba29-8733fc95bdb5">InitializeSecurityContext (CredSSP)</a> function to start the process of establishing a security context. The server can require one or more reply tokens from the remote client to complete establishing the security context.
 
 
@@ -207,8 +205,7 @@ A pointer to a <a href="https://msdn.microsoft.com/0a609b32-dbd7-4905-8990-65eba
 
 
 
-
-						This function returns one of the following values.
+This function returns one of the following values.
 
 <table>
 <tr>
@@ -400,8 +397,7 @@ The <i>fContextReq</i> and <i>pfContextAttr</i> parameters are bitmasks that rep
 <div> </div>
 The caller is responsible for determining whether the final context attributes are sufficient. For example, if confidentiality (encryption) was requested but could not be established, some applications may choose to shut down the connection immediately. If the security context cannot be established, the server must free the partially created context by calling the <a href="https://msdn.microsoft.com/2a4dd697-ef90-4c37-ab74-0e5ab92794cd">DeleteSecurityContext</a> function. For information about when to call the <b>DeleteSecurityContext</b> function, see <b>DeleteSecurityContext</b>.\
 
-
-				After the security context has been established, the server application can use the <a href="https://msdn.microsoft.com/5dc23608-9ce3-4fee-8161-2e409cef4063">QuerySecurityContextToken</a> function to retrieve a handle to the user account to which the client certificate was mapped. Also, the server can use the <a href="https://msdn.microsoft.com/167eaf3b-b794-4587-946d-fa596f1f9411">ImpersonateSecurityContext</a> function to impersonate the user.
+After the security context has been established, the server application can use the <a href="https://msdn.microsoft.com/5dc23608-9ce3-4fee-8161-2e409cef4063">QuerySecurityContextToken</a> function to retrieve a handle to the user account to which the client certificate was mapped. Also, the server can use the <a href="https://msdn.microsoft.com/167eaf3b-b794-4587-946d-fa596f1f9411">ImpersonateSecurityContext</a> function to impersonate the user.
 
 
 
@@ -419,7 +415,7 @@ The caller is responsible for determining whether the final context attributes a
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
  
 
  

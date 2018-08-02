@@ -7,7 +7,7 @@ old-location: multimedia\capdriverconnect.htm
 old-project: Multimedia
 ms.assetid: ed8042c7-89c6-4591-b3e0-46327f8de2e1
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: "_win32_capDriverConnect, capDriverConnect, capDriverConnect macro [Windows Multimedia], multimedia.capdriverconnect, vfw/capDriverConnect"
 ms.prod: windows
 ms.technology: windows-sdk

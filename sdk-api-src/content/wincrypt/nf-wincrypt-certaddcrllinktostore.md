@@ -4,10 +4,10 @@ title: CertAddCRLLinkToStore function
 author: windows-sdk-content
 description: Adds a link in a store to a certificate revocation list (CRL) context in a different store.
 old-location: security\certaddcrllinktostore.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 2fde63ed-7522-4400-a16b-059a001e7c26
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_USE_EXISTING, CertAddCRLLinkToStore, CertAddCRLLinkToStore function [Security], _crypto2_certaddcrllinktostore, security.certaddcrllinktostore, wincrypt/CertAddCRLLinkToStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertAddCRLLinkToStore</b> function adds a link in a store to a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) context in a different store. Instead of creating and adding a duplicate of the CRL, this function adds a link to the original CRL context.
+The <b>CertAddCRLLinkToStore</b> function adds a link in a store to a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) context in a different store. Instead of creating and adding a duplicate of the CRL, this function adds a link to the original CRL context.
 
 
 ## -parameters
@@ -151,8 +150,7 @@ A pointer to a pointer of a copy of the link created. The <i>ppStoreContext</i> 
 
 
 
-
-						If the function succeeds, the return value is <b>TRUE</b>.
+If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Some possible error codes follow.
@@ -242,7 +240,7 @@ To remove the CRL context link from the certificate store, use the  <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
  
 
  

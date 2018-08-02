@@ -7,7 +7,7 @@ old-location: menurc\vs_fixedfileinfo.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationstructures\vs_fixedfileinfo.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: VFT2_DRV_COMM, VFT2_DRV_DISPLAY, VFT2_DRV_INSTALLABLE, VFT2_DRV_KEYBOARD, VFT2_DRV_LANGUAGE, VFT2_DRV_MOUSE, VFT2_DRV_NETWORK, VFT2_DRV_PRINTER, VFT2_DRV_SOUND, VFT2_DRV_SYSTEM, VFT2_DRV_VERSIONED_PRINTER, VFT2_FONT_RASTER, VFT2_FONT_TRUETYPE, VFT2_FONT_VECTOR, VFT2_UNKNOWN, VFT_APP, VFT_DLL, VFT_DRV, VFT_FONT, VFT_STATIC_LIB, VFT_UNKNOWN, VFT_VXD, VOS_DOS, VOS_DOS_WINDOWS16, VOS_DOS_WINDOWS32, VOS_NT, VOS_NT_WINDOWS32, VOS_OS216, VOS_OS216_PM16, VOS_OS232, VOS_OS232_PM32, VOS_UNKNOWN, VOS__PM16, VOS__PM32, VOS__WINDOWS16, VOS__WINDOWS32, VS_FF_DEBUG, VS_FF_INFOINFERRED, VS_FF_PATCHED, VS_FF_PRERELEASE, VS_FF_PRIVATEBUILD, VS_FF_SPECIALBUILD, VS_FIXEDFILEINFO, VS_FIXEDFILEINFO structure [Menus and Other Resources], _win32_VS_FIXEDFILEINFO_str, _win32_vs_fixedfileinfo_str_cpp, menurc.vs_fixedfileinfo, tagVS_FIXEDFILEINFO, verrsrc/VS_FIXEDFILEINFO, winui._win32_vs_fixedfileinfo_str
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ Contains version information for a file. This information is language and code p
 Type: <b>DWORD</b>
 
 Contains the value 0xFEEF04BD. This is used with the 
-					<b>szKey</b> member of the <a href="https://msdn.microsoft.com/library/ms647001(v=VS.85).aspx">VS_VERSIONINFO</a> structure when searching a file for the <b>VS_FIXEDFILEINFO</b> structure. 
+					<b>szKey</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms647001(v=VS.85).aspx">VS_VERSIONINFO</a> structure when searching a file for the <b>VS_FIXEDFILEINFO</b> structure. 
 
 
 ### -field dwStrucVersion
@@ -143,7 +143,7 @@ The file contains debugging information or is compiled with debugging features e
 </dl>
 </td>
 <td width="60%">
-The file's version structure was created dynamically; therefore, some of the members in this structure may be empty or incorrect. This flag should never be set in a file's <a href="https://msdn.microsoft.com/library/ms647001(v=VS.85).aspx">VS_VERSIONINFO</a> data.
+The file's version structure was created dynamically; therefore, some of the members in this structure may be empty or incorrect. This flag should never be set in a file's <a href="https://msdn.microsoft.com/en-us/library/ms647001(v=VS.85).aspx">VS_VERSIONINFO</a> data.
 
 </td>
 </tr>
@@ -176,7 +176,7 @@ The file is a development version, not a commercially released product.
 </dl>
 </td>
 <td width="60%">
-The file was not built using standard release procedures. If this flag is set, the <a href="https://msdn.microsoft.com/library/ms646989(v=VS.85).aspx">StringFileInfo</a> structure should contain a PrivateBuild entry.
+The file was not built using standard release procedures. If this flag is set, the <a href="https://msdn.microsoft.com/en-us/library/ms646989(v=VS.85).aspx">StringFileInfo</a> structure should contain a PrivateBuild entry.
 
 </td>
 </tr>
@@ -187,7 +187,7 @@ The file was not built using standard release procedures. If this flag is set, t
 </dl>
 </td>
 <td width="60%">
-The file was built by the original company using standard release procedures but is a variation of the normal file of the same version number. If this flag is set, the <a href="https://msdn.microsoft.com/library/ms646989(v=VS.85).aspx">StringFileInfo</a> structure should contain a SpecialBuild entry.
+The file was built by the original company using standard release procedures but is a variation of the normal file of the same version number. If this flag is set, the <a href="https://msdn.microsoft.com/en-us/library/ms646989(v=VS.85).aspx">StringFileInfo</a> structure should contain a SpecialBuild entry.
 
 </td>
 </tr>
@@ -724,19 +724,19 @@ The least significant 32 bits of the file's 64-bit binary creation date and time
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646987(v=VS.85).aspx">String</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646987(v=VS.85).aspx">String</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646989(v=VS.85).aspx">StringFileInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646989(v=VS.85).aspx">StringFileInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647001(v=VS.85).aspx">VS_VERSIONINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647001(v=VS.85).aspx">VS_VERSIONINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646981(v=VS.85).aspx">Version Information</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646981(v=VS.85).aspx">Version Information</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wintouch\setgestureconfig.htm
 old-project: wintouch
 ms.assetid: 7df5a18e-5e65-4dd5-a59d-853a91ead710
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: SetGestureConfig, SetGestureConfig function [Windows Touch], wintouch.setgestureconfig, winuser/SetGestureConfig
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-  Configures the messages that are sent from a window for Windows Touch gestures.
+Configures the messages that are sent from a window for Windows Touch gestures.
   
 
 
@@ -104,13 +103,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-
-	 If you don't expect to change the gesture configuration, call <b>SetGestureConfig</b> at window creation time.
+If you don't expect to change the gesture configuration, call <b>SetGestureConfig</b> at window creation time.
 	 If you want to dynamically change the gesture configuration, call <b>SetGestureConfig</b> in response to <a href="https://msdn.microsoft.com/83c23928-86ce-421d-bb84-5c41a770bf60">WM_GESTURENOTIFY</a> messages.
 	 
 
-
-  The following table shows the identifiers for gestures that are
+The following table shows the identifiers for gestures that are
   supported by the <i>dwID</i> member of the <a href="https://msdn.microsoft.com/4ec5050e-7fef-4f52-89af-5237e8cdbdb8">GESTURECONFIG</a> structure.  Note that setting
   <i>dwID</i> to 0 indicates that global gesture configuration flags are set.
   
@@ -149,8 +146,7 @@ If the function fails, the return value is zero. To get extended error informati
 </table>
  
 
-
-  The following flags are used when <i>dwID</i> is set to zero.
+The following flags are used when <i>dwID</i> is set to zero.
 
 <table>
 <tr>
@@ -166,8 +162,7 @@ If the function fails, the return value is zero. To get extended error informati
 </table>
  
 
-
-  The following flags are used when <i>dwID</i> is set to GID_ZOOM.
+The following flags are used when <i>dwID</i> is set to GID_ZOOM.
 
 <table>
 <tr>
@@ -183,8 +178,7 @@ If the function fails, the return value is zero. To get extended error informati
 </table>
  
 
-
-  The following flags are used when <i>dwID</i> is set to GID_PAN.
+The following flags are used when <i>dwID</i> is set to GID_PAN.
 
 <table>
 <tr>
@@ -220,24 +214,19 @@ If the function fails, the return value is zero. To get extended error informati
 </table>
  
 
-<div class="alert"><b>Note</b>  
-    Pan gestures can be used in conjunction with each other to control behavior. 
+<div class="alert"><b>Note</b>  Pan gestures can be used in conjunction with each other to control behavior. 
     For example, setting the <b>dwWant</b> bits to panning with single-finger horizontal
     and setting the <b>dwBlock</b> bits to single-finger vertical will restrict panning to horizontal pans. Changing the
-    <b>dwWant</b> bit to have <code>GC_PAN_WITH_SINGLE_FINGER_VERTICALLY | GC_PAN_WITH_SINGLE_FINGER_HORIZONTALLY</code>
-    and removing single-finger vertical pan from the <b>dwBlock </b>bit will enable both vertical and horizontal panning.    
+    <b>dwWant</b> bit to have <code>GC_PAN_WITH_SINGLE_FINGER_VERTICALLY | GC_PAN_WITH_SINGLE_FINGER_HORIZONTALLY</code>and removing single-finger vertical pan from the <b>dwBlock </b>bit will enable both vertical and horizontal panning.    
     </div>
 <div> </div>
-<div class="alert"><b>Note</b>  
-    By default, panning has inertia enabled.
+<div class="alert"><b>Note</b>  By default, panning has inertia enabled.
     </div>
 <div> </div>
-<div class="alert"><b>Note</b>  
-    A single call to <b>SetGestureConfig</b> cannot include other GIDs along with 0.	 
+<div class="alert"><b>Note</b>  A single call to <b>SetGestureConfig</b> cannot include other GIDs along with 0.	 
 	 </div>
 <div> </div>
-
-  The following flags are used when <i>dwID</i> is set to GID_ROTATE.
+The following flags are used when <i>dwID</i> is set to GID_ROTATE.
 
 <table>
 <tr>
@@ -253,8 +242,7 @@ If the function fails, the return value is zero. To get extended error informati
 </table>
  
 
-
-  The following flags are used when <i>dwID</i> is set to <b>GID_TWOFINGERTAP</b>.
+The following flags are used when <i>dwID</i> is set to <b>GID_TWOFINGERTAP</b>.
 
 <table>
 <tr>
@@ -270,8 +258,7 @@ If the function fails, the return value is zero. To get extended error informati
 </table>
  
 
-
-  The following flags are used when <i>dwID</i> is set to <b>GID_PRESSANDTAP</b>.
+The following flags are used when <i>dwID</i> is set to <b>GID_PRESSANDTAP</b>.
 
 <table>
 <tr>
@@ -287,8 +274,7 @@ If the function fails, the return value is zero. To get extended error informati
 </table>
  
 
-<div class="alert"><b>Note</b>  
-	 Calling <b>SetGestureConfig</b> will change the gesture configuration for the lifetime of the Window, not just for the next gesture.
+<div class="alert"><b>Note</b>  Calling <b>SetGestureConfig</b> will change the gesture configuration for the lifetime of the Window, not just for the next gesture.
 	 </div>
 <div> </div>
 
@@ -328,8 +314,7 @@ The following example shows how to receive single-finger pan gestures and disabl
 		  configuration for applications that scroll text such as Notepad.
 		  
 
-<div class="alert"><b>Note</b>  
-        You should explicitly set all the flags that you want enabled or disabled when controlling single-finger panning.
+<div class="alert"><b>Note</b>  You should explicitly set all the flags that you want enabled or disabled when controlling single-finger panning.
         </div>
 <div> </div>
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>

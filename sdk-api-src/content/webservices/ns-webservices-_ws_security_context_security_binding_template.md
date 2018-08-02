@@ -7,7 +7,7 @@ old-location: wsw\ws_security_context_security_binding_template.htm
 old-project: wsw
 ms.assetid: 09b6be85-ec60-4ba9-857f-fffc1f5fb368
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SECURITY_CONTEXT_SECURITY_BINDING_TEMPLATE, WS_SECURITY_CONTEXT_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], _WS_SECURITY_CONTEXT_SECURITY_BINDING_TEMPLATE, webservices/WS_SECURITY_CONTEXT_SECURITY_BINDING_TEMPLATE, wsw.ws_security_context_security_binding_template
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,16 +51,14 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        The security binding template for specifying the use of an application
+The security binding template for specifying the use of an application
         supplied security context security binding.  This security binding may 
         be used only with message security. So, it is used in conjunction with another transport
         security binding that provides message protection. The security properties are 
         used to establish the secure conversation.
       
 
-
-        See also <a href="https://msdn.microsoft.com/c7f45f44-25e9-4124-a0a2-eb9969f0eb99">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a>
+See also <a href="https://msdn.microsoft.com/c7f45f44-25e9-4124-a0a2-eb9969f0eb99">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a>
 
 
 
@@ -71,15 +69,13 @@ req.product: Windows Address Book 5.0
 
 ### -field securityContextMessageSecurityBinding
 
-
-          Application provided security binding properties that cannot be represented in policy.
+Application provided security binding properties that cannot be represented in policy.
         
 
 
 ### -field securityProperties
 
-
-          Application provided additional security properties for the service channel
+Application provided additional security properties for the service channel
           that cannot be represented in policy. Only policy specified security properties is used if no additional properties are specified here.
         
 

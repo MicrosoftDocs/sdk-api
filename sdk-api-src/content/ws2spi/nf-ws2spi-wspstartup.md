@@ -4,10 +4,10 @@ title: WSPStartup function
 author: windows-sdk-content
 description: The WSPStartup function initiates use of a Windows Sockets service provider interface (SPI) by a client.
 old-location: winsock\wspstartup_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 9ebfe81c-bed6-4bde-b1dd-5eaefbaac9cf
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: WSPStartup, WSPStartup function [Winsock], _win32_wspstartup_2, winsock.wspstartup_2, ws2spi/WSPStartup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>WSPStartup</b> function initiates use of a Windows Sockets service provider interface  (SPI) by a client.
 
 
@@ -92,8 +91,7 @@ A pointer to the table of SPI function pointers. This table is returned as an <a
 
 
 
-
-						The 
+The 
 <b>WSPStartup</b> function returns zero if successful. Otherwise, it returns one of the error codes listed below.
 
 <table>
@@ -104,7 +102,7 @@ A pointer to the table of SPI function pointers. This table is returned as an <a
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSASYSNOTREADY</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSASYSNOTREADY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -116,7 +114,7 @@ This error is returned if the Windows Sockets implementation cannot function at 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAVERNOTSUPPORTED</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAVERNOTSUPPORTED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -127,7 +125,7 @@ The Winsock.dll version is out of range. This error is returned if the version o
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -138,7 +136,7 @@ A blocking Windows Sockets 1.1 operation is in progress.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEPROCLIM</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEPROCLIM</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -149,7 +147,7 @@ A limit on the number of tasks supported by the Windows Sockets implementation h
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -219,10 +217,8 @@ The following chart gives examples of how
 
 <table>
 <tr>
-<th>DLL<div> </div>
-versions</th>
-<th>SP<div> </div>
-versions</th>
+<th>DLL<div> </div>versions</th>
+<th>SP<div> </div>versions</th>
 <th><i>wVersionRequested</i></th>
 <th><b>wVersion</b></th>
 <th><b>wHighVersion</b></th>
@@ -274,7 +270,7 @@ versions</th>
 <td>1.0</td>
 <td>---</td>
 <td>---</td>
-<td><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAVERNOTSUPPORTED</a></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAVERNOTSUPPORTED</a></td>
 </tr>
 <tr>
 <td>1.0 1.1</td>
@@ -439,7 +435,7 @@ A service thread can be safely used if these two design rules are carefully foll
 
 
 Several other cautions apply to the use of internal service threads. First, threads generally carry some performance penalty. Use as few as possible, and avoid thread transitions wherever possible. Second, your code should always check for errors in creating threads and fail gracefully and informatively (for example, with 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a>) in case some execution event you did not expect results in a 16-bit process executing a code path that needs threads.
+<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a>) in case some execution event you did not expect results in a 16-bit process executing a code path that needs threads.
 
 A layered service provider supplies an implementation of this function, but it is also a client of this function when it calls 
 <b>WSPStartup</b> to initialize the next layer in the protocol chain. The call to the next layer's 

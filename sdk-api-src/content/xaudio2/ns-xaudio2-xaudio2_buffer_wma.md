@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2_buffer_wma.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_BUFFER_WMA
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: XAUDIO2_BUFFER_WMA, XAUDIO2_BUFFER_WMA structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_buffer_wma, xaudio2/XAUDIO2_BUFFER_WMA
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-Used with <a href="https://msdn.microsoft.com/library/Ee418473(v=VS.85).aspx">IXAudio2SourceVoice::SubmitSourceBuffer</a> when submitting xWMA data.
+Used with <a href="https://msdn.microsoft.com/en-us/library/Ee418473(v=VS.85).aspx">IXAudio2SourceVoice::SubmitSourceBuffer</a> when submitting xWMA data.
 
 
 ## -struct-fields
@@ -66,14 +66,14 @@ Decoded packet cumulative data size array, each element is the number of bytes a
 
 ### -field PacketCount
 
-Number of xWMA packets submitted, must be &gt;= 1 and divide evenly into the respective <a href="https://msdn.microsoft.com/library/Ee419228(v=VS.85).aspx">XAUDIO2_BUFFER</a>.<b>AudioBytes</b> value passed to <a href="https://msdn.microsoft.com/library/Ee418473(v=VS.85).aspx">IXAudio2SourceVoice::SubmitSourceBuffer</a>.
+Number of xWMA packets submitted, must be &gt;= 1 and divide evenly into the respective <a href="https://msdn.microsoft.com/en-us/library/Ee419228(v=VS.85).aspx">XAUDIO2_BUFFER</a>.<b>AudioBytes</b> value passed to <a href="https://msdn.microsoft.com/en-us/library/Ee418473(v=VS.85).aspx">IXAudio2SourceVoice::SubmitSourceBuffer</a>.
 
 
 ## -remarks
 
 
 
-When streaming an xWMA file a few packets at a time, XAUDIO2_END_OF_STREAM should be specified on the last packet. Alternatively, the application may call <a href="https://msdn.microsoft.com/library/Ee418464(v=VS.85).aspx">IXAudio2SourceVoice::Discontinuity</a> after submitting the last packet.
+When streaming an xWMA file a few packets at a time, XAUDIO2_END_OF_STREAM should be specified on the last packet. Alternatively, the application may call <a href="https://msdn.microsoft.com/en-us/library/Ee418464(v=VS.85).aspx">IXAudio2SourceVoice::Discontinuity</a> after submitting the last packet.
 
 
 
@@ -85,7 +85,7 @@ The members of <b>XAUDIO2_BUFFER_WMA</b> correspond to values contained in the '
 
 
 
-Memory allocated to hold a <a href="https://msdn.microsoft.com/library/Ee419228(v=VS.85).aspx">XAUDIO2_BUFFER</a> or <b>XAUDIO2_BUFFER_WMA</b> structure can be freed as soon as the <a href="https://msdn.microsoft.com/library/Ee418473(v=VS.85).aspx">IXAudio2SourceVoice::SubmitSourceBuffer</a> call it is passed to returns. The data the structure points to (<b>pAudioData</b> and <b>pDecodedPacketCumulativeBytes</b>, respectively) can't be freed until the buffer completes (as signaled by the <a href="https://msdn.microsoft.com/library/Ee418474(v=VS.85).aspx">IXAudio2VoiceCallback::OnBufferEnd</a> callback) or the voice is stopped and destroyed.
+Memory allocated to hold a <a href="https://msdn.microsoft.com/en-us/library/Ee419228(v=VS.85).aspx">XAUDIO2_BUFFER</a> or <b>XAUDIO2_BUFFER_WMA</b> structure can be freed as soon as the <a href="https://msdn.microsoft.com/en-us/library/Ee418473(v=VS.85).aspx">IXAudio2SourceVoice::SubmitSourceBuffer</a> call it is passed to returns. The data the structure points to (<b>pAudioData</b> and <b>pDecodedPacketCumulativeBytes</b>, respectively) can't be freed until the buffer completes (as signaled by the <a href="https://msdn.microsoft.com/en-us/library/Ee418474(v=VS.85).aspx">IXAudio2VoiceCallback::OnBufferEnd</a> callback) or the voice is stopped and destroyed.
 
 
 

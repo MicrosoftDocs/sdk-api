@@ -7,7 +7,7 @@ old-location: winsat\iinitiatewinsatassessment_initiateformalassessment.htm
 old-project: WinSAT
 ms.assetid: 9425e41c-fe03-4c94-a5eb-686775b5fce7
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IInitiateWinSATAssessment interface [WinSAT],InitiateFormalAssessment method, IInitiateWinSATAssessment.InitiateFormalAssessment, IInitiateWinSATAssessment::InitiateFormalAssessment, InitiateFormalAssessment, InitiateFormalAssessment method [WinSAT], InitiateFormalAssessment method [WinSAT],IInitiateWinSATAssessment interface, winsat.iinitiatewinsatassessment_initiateformalassessment, winsatcominterfacei/IInitiateWinSATAssessment::InitiateFormalAssessment
 ms.prod: windows
 ms.technology: windows-sdk

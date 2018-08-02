@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationGridItemPattern_CachedColumnSpan.htm
 old-project: WinAuto
 ms.assetid: 1a13798b-81de-43d1-87ee-b3d8406fcc80
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CachedColumnSpan property [Windows Accessibility], CachedColumnSpan property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CachedColumnSpan property, IUIAutomationGridItemPattern.CachedColumnSpan, IUIAutomationGridItemPattern.get_CachedColumnSpan, IUIAutomationGridItemPattern::CachedColumnSpan, IUIAutomationGridItemPattern::get_CachedColumnSpan, get_CachedColumnSpan, uiauto.uiauto_IUIAutomationGridItemPattern_CachedColumnSpan, uiauto_IUIAutomationGridItemPattern_CachedColumnSpan, uiautomationclient/IUIAutomationGridItemPattern::CachedColumnSpan, uiautomationclient/IUIAutomationGridItemPattern::get_CachedColumnSpan, winauto.uiauto_IUIAutomationGridItemPattern_CachedColumnSpan
 ms.prod: windows
 ms.technology: windows-sdk

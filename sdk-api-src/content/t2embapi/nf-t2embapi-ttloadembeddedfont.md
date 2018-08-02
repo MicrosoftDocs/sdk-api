@@ -7,7 +7,7 @@ old-location: gdi\ttloadembeddedfont.htm
 old-project: gdi
 ms.assetid: 85181d86-bc18-4948-bc7d-65c2d71efefb
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, LICENSE_DEFAULT, LICENSE_EDITABLE, LICENSE_INSTALLABLE, LICENSE_NOEMBEDDING, LICENSE_PREVIEWPRINT, TTLOAD_FONT_IN_SYSSTARTUP, TTLOAD_FONT_SUBSETTED, TTLOAD_PRIVATE, TTLoadEmbeddedFont, TTLoadEmbeddedFont function [Windows GDI], _win32_TTLoadEmbeddedFont, gdi.ttloadembeddedfont, t2embapi/TTLoadEmbeddedFont
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,8 +102,7 @@ A pointer to flag indicating embedding privileges of the font. This flag is writ
 </dl>
 </td>
 <td width="60%">
-
-                Preview and Print Embedding. The font may be embedded within documents, but must only be installed temporarily on the remote system. A document containing this type of font can only be opened as read-only. The application must not allow the user to edit the document. The document can only be viewed and/or printed.
+Preview and Print Embedding. The font may be embedded within documents, but must only be installed temporarily on the remote system. A document containing this type of font can only be opened as read-only. The application must not allow the user to edit the document. The document can only be viewed and/or printed.
 
 </td>
 </tr>
@@ -113,8 +112,7 @@ A pointer to flag indicating embedding privileges of the font. This flag is writ
 </dl>
 </td>
 <td width="60%">
-
-                Editable Embedding. The font may be embedded within documents, but must only be installed temporarily on the remote system. A document containing this type of font may be opened "read/write," with editing permitted.
+Editable Embedding. The font may be embedded within documents, but must only be installed temporarily on the remote system. A document containing this type of font may be opened "read/write," with editing permitted.
 
 </td>
 </tr>
@@ -124,8 +122,7 @@ A pointer to flag indicating embedding privileges of the font. This flag is writ
 </dl>
 </td>
 <td width="60%">
-
-                Installable Embedding. The font may be embedded and permanently installed on the remote system. The user of the remote system acquires the identical rights, obligations, and licenses for that font as the original purchaser of the font, and is subject to the same end-user license agreement, copyright, design patent, and/or trademark as was the original purchaser.
+Installable Embedding. The font may be embedded and permanently installed on the remote system. The user of the remote system acquires the identical rights, obligations, and licenses for that font as the original purchaser of the font, and is subject to the same end-user license agreement, copyright, design patent, and/or trademark as was the original purchaser.
 
 </td>
 </tr>
@@ -135,8 +132,7 @@ A pointer to flag indicating embedding privileges of the font. This flag is writ
 </dl>
 </td>
 <td width="60%">
-
-                Restricted License Embedding. The font must not be modified, embedded, or exchanged in any manner without first obtaining permission of the legal owner.
+Restricted License Embedding. The font must not be modified, embedded, or exchanged in any manner without first obtaining permission of the legal owner.
 
 </td>
 </tr>

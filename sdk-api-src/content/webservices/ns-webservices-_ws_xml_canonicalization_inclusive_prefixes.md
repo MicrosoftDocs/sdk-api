@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_canonicalization_inclusive_prefixes.htm
 old-project: wsw
 ms.assetid: 792ab726-6309-4f77-b40c-95dad2d991d9
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES, WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES structure [Web Services for Windows], _WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES, webservices/WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES, wsw.ws_xml_canonicalization_inclusive_prefixes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        An array of XML prefixes that should be treated as
+An array of XML prefixes that should be treated as
         inclusive prefixes during exclusive XML canonicalization.  The
         treatment of inclusive prefixes is defined in 
         RFC 3741.
@@ -66,14 +65,12 @@ req.product: Windows Address Book 5.0
 
 ### -field prefixCount
 
-
-          The number of prefixes.
+The number of prefixes.
         
 
 
 ### -field prefixes
 
-
-          The array of prefixes.
+The array of prefixes.
         
 

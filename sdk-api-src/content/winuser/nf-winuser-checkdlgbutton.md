@@ -4,10 +4,10 @@ title: CheckDlgButton function
 author: windows-sdk-content
 description: Changes the check state of a button control.
 old-location: controls\CheckDlgButton.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonfunctions\checkdlgbutton.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: BST_CHECKED, BST_INDETERMINATE, BST_UNCHECKED, CheckDlgButton, CheckDlgButton function [Windows Controls], _win32_CheckDlgButton, _win32_CheckDlgButton_cpp, controls.CheckDlgButton, controls._win32_CheckDlgButton, winuser/CheckDlgButton
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,7 +103,7 @@ Sets the button state to checked.
 </dl>
 </td>
 <td width="60%">
-Sets the button state to grayed, indicating an indeterminate state. Use this value only if the button has the <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">BS_3STATE</a> or <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">BS_AUTO3STATE</a> style.
+Sets the button state to grayed, indicating an indeterminate state. Use this value only if the button has the <a href="Button_Styles.htm">BS_3STATE</a> or <a href="Button_Styles.htm">BS_AUTO3STATE</a> style.
 
 </td>
 </tr>
@@ -139,12 +139,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 The <b>CheckDlgButton</b> function sends a 
-				<a href="https://msdn.microsoft.com/library/Bb775989(v=VS.85).aspx">BM_SETCHECK</a> message to the specified button control in the specified dialog box.
+				<a href="https://msdn.microsoft.com/en-us/library/Bb775989(v=VS.85).aspx">BM_SETCHECK</a> message to the specified button control in the specified dialog box.
 
 
 #### Examples
 
-For an example, see <b>Creating a Modeless Dialog Box</b> in <a href="https://msdn.microsoft.com/library/ms644996(v=VS.85).aspx">Using Dialog Boxes</a>. 
+For an example, see <b>Creating a Modeless Dialog Box</b> in <a href="https://msdn.microsoft.com/en-us/library/ms644996(v=VS.85).aspx">Using Dialog Boxes</a>. 
 
 <div class="code"></div>
 
@@ -155,11 +155,11 @@ For an example, see <b>Creating a Modeless Dialog Box</b> in <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761877(v=VS.85).aspx">CheckRadioButton</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761877(v=VS.85).aspx">CheckRadioButton</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761879(v=VS.85).aspx">IsDlgButtonChecked</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761879(v=VS.85).aspx">IsDlgButtonChecked</a>
 
 
 

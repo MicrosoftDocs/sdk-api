@@ -4,10 +4,10 @@ title: GetComboBoxInfo function
 author: windows-sdk-content
 description: Retrieves information about the specified combo box.
 old-location: controls\GetComboBoxInfo.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxfunctions\getcomboboxinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetComboBoxInfo, GetComboBoxInfo function [Windows Controls], _win32_GetComboBoxInfo, _win32_GetComboBoxInfo_cpp, controls.GetComboBoxInfo, controls._win32_GetComboBoxInfo, winuser/GetComboBoxInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ A handle to the combo box.
 
 Type: <b>PCOMBOBOXINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Bb775798(v=VS.85).aspx">COMBOBOXINFO</a> structure that receives the information. You must set <b>COMBOBOXINFO.cbSize</b> before calling this function. 
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb775798(v=VS.85).aspx">COMBOBOXINFO</a> structure that receives the information. You must set <b>COMBOBOXINFO.cbSize</b> before calling this function. 
 
 
 ## -returns
@@ -91,7 +91,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The <a href="https://msdn.microsoft.com/library/Bb775839(v=VS.85).aspx">CB_GETCOMBOBOXINFO</a> message is equivalent to this function.
+The <a href="https://msdn.microsoft.com/en-us/library/Bb775839(v=VS.85).aspx">CB_GETCOMBOBOXINFO</a> message is equivalent to this function.
 
 
 #### Examples
@@ -118,15 +118,15 @@ GetComboBoxInfo(hwnd, &amp;info);
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775839(v=VS.85).aspx">CB_GETCOMBOBOXINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775839(v=VS.85).aspx">CB_GETCOMBOBOXINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775798(v=VS.85).aspx">COMBOBOXINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775798(v=VS.85).aspx">COMBOBOXINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761370(v=VS.85).aspx">GetListBoxInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761370(v=VS.85).aspx">GetListBoxInfo</a>
 
 
 

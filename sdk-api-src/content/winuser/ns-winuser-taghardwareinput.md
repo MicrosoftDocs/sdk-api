@@ -7,7 +7,7 @@ old-location: inputdev\hardwareinput.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputstructures\hardwareinput.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPHARDWAREINPUT, *PHARDWAREINPUT, HARDWAREINPUT, HARDWAREINPUT structure [Keyboard and Mouse Input], PHARDWAREINPUT, PHARDWAREINPUT structure pointer [Keyboard and Mouse Input], _win32_HARDWAREINPUT_str, _win32_hardwareinput_str_cpp, inputdev.hardwareinput, tagHARDWAREINPUT, winui._win32_hardwareinput_str, winuser/HARDWAREINPUT, winuser/PHARDWAREINPUT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,7 +93,7 @@ The high-order word of the <i>lParam </i> parameter for <b>uMsg</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
 
 
 
@@ -101,7 +101,7 @@ The high-order word of the <i>lParam </i> parameter for <b>uMsg</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646310(v=VS.85).aspx">SendInput</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx">SendInput</a>
  
 
  

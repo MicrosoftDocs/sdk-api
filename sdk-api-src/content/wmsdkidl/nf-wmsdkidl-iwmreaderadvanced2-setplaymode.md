@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced2_setplaymode.htm
 old-project: wmformat
 ms.assetid: d1b20a0c-fedf-46d4-a76b-7596dcf8fcf8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],SetPlayMode method, IWMReaderAdvanced2.SetPlayMode, IWMReaderAdvanced2::SetPlayMode, IWMReaderAdvanced2SetPlayMode, SetPlayMode, SetPlayMode method [windows Media Format], SetPlayMode method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_setplaymode, wmsdkidl/IWMReaderAdvanced2::SetPlayMode
 ms.prod: windows
 ms.technology: windows-sdk

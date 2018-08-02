@@ -7,7 +7,7 @@ old-location: wsw\ws_http_ssl_kerberos_apreq_binding_template.htm
 old-project: wsw
 ms.assetid: 6534962a-452c-4c61-9c01-7fe8a8cc5c7d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_HTTP_SSL_KERBEROS_APREQ_BINDING_TEMPLATE, WS_HTTP_SSL_KERBEROS_APREQ_BINDING_TEMPLATE structure [Web Services for Windows], _WS_HTTP_SSL_KERBEROS_APREQ_BINDING_TEMPLATE, webservices/WS_HTTP_SSL_KERBEROS_APREQ_BINDING_TEMPLATE, wsw.ws_http_ssl_kerberos_apreq_binding_template
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Username/password security template information to be filled in by application.
+Username/password security template information to be filled in by application.
         Associated with <a href="https://msdn.microsoft.com/831001f4-619d-4128-a645-85077701c28c">WS_HTTP_SSL_KERBEROS_APREQ_BINDING_TEMPLATE_TYPE</a>.
       
 
@@ -64,29 +63,25 @@ req.product: Windows Address Book 5.0
 
 ### -field channelProperties
 
-
-          Application provided additional channel properties that cannot be represented in policy.
+Application provided additional channel properties that cannot be represented in policy.
         
 
 
 ### -field securityProperties
 
-
-          Application provided additional security properties that cannot be represented in policy.
+Application provided additional security properties that cannot be represented in policy.
         
 
 
 ### -field sslTransportSecurityBinding
 
-
-          Application provided SSL transport security binding information that cannot be represented
+Application provided SSL transport security binding information that cannot be represented
           in policy.
         
 
 
 ### -field kerberosApreqMessageSecurityBinding
 
-
-          Application provided kerberos binding information that cannot be represented in policy.
+Application provided kerberos binding information that cannot be represented in policy.
         
 

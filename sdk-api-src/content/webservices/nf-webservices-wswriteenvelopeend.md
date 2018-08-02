@@ -7,7 +7,7 @@ old-location: wsw\wswriteenvelopeend.htm
 old-project: wsw
 ms.assetid: 4d19d70d-76c5-42db-ae15-1e1ebf9c5aac
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsWriteEnvelopeEnd, WsWriteEnvelopeEnd function [Web Services for Windows], webservices/WsWriteEnvelopeEnd, wsw.wswriteenvelopeend
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,8 +66,7 @@ Writes the closing elements of a message.
 
 ### -param message [in]
 
-
-                    A pointer to the <b>Message</b> object to write.  The pointer must reference a valid <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> object.
+A pointer to the <b>Message</b> object to write.  The pointer must reference a valid <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> object.
                 
                 
 
@@ -96,7 +95,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -108,7 +106,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -120,7 +117,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -146,8 +142,7 @@ This function may return other errors not listed above.
 
 
 
-
-                To use this function the message state must be set to <b>WS_MESSAGE_STATE_WRITING</b>.  If called in the correct
+To use this function the message state must be set to <b>WS_MESSAGE_STATE_WRITING</b>.  If called in the correct
                 state the message will transition to <b>WS_MESSAGE_STATE_DONE</b> regardless
                 of whether the function fails or not.
             

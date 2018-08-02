@@ -7,7 +7,7 @@ old-location: wsw\wsgetsecuritycontextproperty.htm
 old-project: wsw
 ms.assetid: 7ef32fbe-0b50-4ede-96af-075137df340d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetSecurityContextProperty, WsGetSecurityContextProperty function [Web Services for Windows], webservices/WsGetSecurityContextProperty, wsw.wsgetsecuritycontextproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Gets a property of the specified security context.
+Gets a property of the specified security context.
       
 
 
@@ -63,36 +62,31 @@ req.product: Windows Address Book 5.0
 
 ### -param securityContext [in]
 
-
-          The security context that is queried for its property.
+The security context that is queried for its property.
         
 
 
 ### -param id [in]
 
-
-          The id of the property (one of <a href="https://msdn.microsoft.com/fd2b92d4-9834-4d4b-85c3-8ea8d2c8bd8c">WS_SECURITY_CONTEXT_PROPERTY_ID</a>).
+The id of the property (one of <a href="https://msdn.microsoft.com/fd2b92d4-9834-4d4b-85c3-8ea8d2c8bd8c">WS_SECURITY_CONTEXT_PROPERTY_ID</a>).
         
 
 
 ### -param value
 
-
-          The address to place the retrieved value. The pointer must have an alignment compatible with the type of the property.
+The address to place the retrieved value. The pointer must have an alignment compatible with the type of the property.
         
 
 
 ### -param valueSize [in]
 
-
-          The size of the buffer that the caller has allocated for the retrieved value.
+The size of the buffer that the caller has allocated for the retrieved value.
         
 
 
 ### -param error [in, optional]
 
-
-          Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
         
 
 
@@ -125,7 +119,6 @@ The property id was not supported for this object or the specified buffer was no
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>

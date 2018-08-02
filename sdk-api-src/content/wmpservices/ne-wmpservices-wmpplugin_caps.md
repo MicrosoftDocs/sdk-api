@@ -7,7 +7,7 @@ old-location: wmp\wmpplugin_caps.htm
 old-project: WMP
 ms.assetid: 0f6cad76-7583-4272-88d7-25a121a0c2b9
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: WMPPlugin_Caps, WMPPlugin_Caps enumeration [Windows Media Player], WMPPlugin_CapsDSP, WMPPlugin_Caps_CannotConvertFormats, wmp.wmpplugin_caps, wmpservices/WMPPlugin_Caps, wmpservices/WMPPlugin_Caps_CannotConvertFormats
 ms.prod: windows
 ms.technology: windows-sdk

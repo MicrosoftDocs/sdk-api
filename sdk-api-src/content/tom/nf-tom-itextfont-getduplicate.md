@@ -4,10 +4,10 @@ title: ITextFont::GetDuplicate
 author: windows-sdk-content
 description: Gets a duplicate of this text font object.
 old-location: controls\ITextFont_GetDuplicate.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontgetduplicate.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetDuplicate, GetDuplicate method [Windows Controls], GetDuplicate method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetDuplicate method, ITextFont.GetDuplicate, ITextFont::GetDuplicate, _win32_ITextFont_GetDuplicate, _win32_ITextFont_GetDuplicate_cpp, controls.ITextFont_GetDuplicate, controls._win32_ITextFont_GetDuplicate, tom/ITextFont::GetDuplicate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Gets a duplicate of this text font object.
 
 ### -param ppFont
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>**</b>
 
 The duplicate text font object. 
 
@@ -122,9 +122,9 @@ The font object is attached to a range that has been deleted.
 
 
 
-The duplicate property is the default property of an <a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a> object.
+The duplicate property is the default property of an <a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a> object.
 
-For an example of how to use font duplicates, see <a href="https://msdn.microsoft.com/library/Bb774145(v=VS.85).aspx">SetFont</a>.
+For an example of how to use font duplicates, see <a href="https://msdn.microsoft.com/en-us/library/Bb774145(v=VS.85).aspx">SetFont</a>.
 
 
 
@@ -138,7 +138,7 @@ For an example of how to use font duplicates, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
 
 
 
@@ -146,15 +146,15 @@ For an example of how to use font duplicates, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787867(v=VS.85).aspx">SetDuplicate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787867(v=VS.85).aspx">SetDuplicate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774145(v=VS.85).aspx">SetFont</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774145(v=VS.85).aspx">SetFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

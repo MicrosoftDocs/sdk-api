@@ -4,10 +4,10 @@ title: CloseThreadpoolIo function
 author: windows-sdk-content
 description: Releases the specified I/O completion object.
 old-location: base\closethreadpoolio.htm
-old-project: procthread
+old-project: ProcThread
 ms.assetid: 499190de-54e8-4be6-909b-04505bcb0aa6
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: CloseThreadpoolIo, CloseThreadpoolIo function, base.closethreadpoolio, threadpoolapiset/CloseThreadpoolIo, winbase/CloseThreadpoolIo
 ms.prod: windows
 ms.technology: windows-sdk

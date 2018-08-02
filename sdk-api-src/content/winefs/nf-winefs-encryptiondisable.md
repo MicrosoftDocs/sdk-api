@@ -4,10 +4,10 @@ title: EncryptionDisable function
 author: windows-sdk-content
 description: Disables or enables encryption of the specified directory and the files in it.
 old-location: fs\encryptiondisable.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 6ff93a90-c1cf-4782-862c-d3d7e294c4b0
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: EncryptionDisable, EncryptionDisable function [Files], _win32_encryptiondisable, base.encryptiondisable, fs.encryptiondisable, winefs/EncryptionDisable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Disables or enables encryption of the specified directory and the files in it. I
 
 ### -param DirPath [in]
 
-
-      The name of the directory for which to enable or 
+The name of the directory for which to enable or 
       disable encryption.
 
 
@@ -80,8 +79,7 @@ Indicates whether to disable encryption (<b>TRUE</b>) or enable it
 
 If the function succeeds, the return value is nonzero.
 
-
-       If the function fails, the return value is zero. To get extended error information, call 
+If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
       
 
@@ -92,8 +90,7 @@ If the function succeeds, the return value is nonzero.
 
 
 
-
-    Under normal circumstances, <a href="https://msdn.microsoft.com/7620e9fa-74d6-4b41-93db-4a562be63202">EncryptFile</a> will not encrypt 
+Under normal circumstances, <a href="https://msdn.microsoft.com/7620e9fa-74d6-4b41-93db-4a562be63202">EncryptFile</a> will not encrypt 
     files and directories with the <b>FILE_ATTRIBUTE_SYSTEM</b> attribute set. It is possible to 
     override the <b>FILE_ATTRIBUTE_SYSTEM</b> attribute and encrypt files. Also, if a file or 
     directory is marked with the <b>FILE_ATTRIBUTE_SYSTEM</b> attribute, it will normally be

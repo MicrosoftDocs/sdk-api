@@ -4,10 +4,10 @@ title: CertGetValidUsages function
 author: windows-sdk-content
 description: Returns an array of usages that consist of the intersection of the valid usages for all certificates in an array of certificates.
 old-location: security\certgetvalidusages.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 1504f166-2fa9-4041-9d72-b150cd8baa8a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertGetValidUsages, CertGetValidUsages function [Security], _crypto2_certgetvalidusages, security.certgetvalidusages, wincrypt/CertGetValidUsages
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertGetValidUsages</b> function returns an array of usages that consist of the intersection of the valid usages for all certificates in an array of certificates.
+The <b>CertGetValidUsages</b> function returns an array of usages that consist of the intersection of the valid usages for all certificates in an array of certificates.
 
 
 ## -parameters
@@ -90,8 +89,7 @@ A pointer to a <b>DWORD</b> value that specifies the size, in bytes, of the <i>r
 
 
 
-
-						If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. For extended error information, call 
+If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
 

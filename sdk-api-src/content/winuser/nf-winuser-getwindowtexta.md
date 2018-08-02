@@ -7,7 +7,7 @@ old-location: winmsg\getwindowtext.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowtext.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: GetWindowText, GetWindowText function [Windows and Messages], GetWindowTextA, GetWindowTextW, _win32_GetWindowText, _win32_getwindowtext_cpp, winmsg.getwindowtext, winui._win32_getwindowtext, winuser/GetWindowText, winuser/GetWindowTextA, winuser/GetWindowTextW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,14 +110,14 @@ This function cannot retrieve the text of an edit control in another application
 
 
 
-If the target window is owned by the current process, <b>GetWindowText</b> causes a <a href="https://msdn.microsoft.com/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a> message to be sent to the specified window or control. If the target window is owned by another process and has a caption, <b>GetWindowText</b> retrieves the window caption text. If the window does not have a caption, the return value is a null string. This behavior is by design. It allows applications to call <b>GetWindowText</b> without becoming unresponsive if the process that owns the target window is not responding. However, if the target window is not responding and it belongs to the calling application, <b>GetWindowText</b> will cause the calling application to become unresponsive. 
+If the target window is owned by the current process, <b>GetWindowText</b> causes a <a href="https://msdn.microsoft.com/en-us/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a> message to be sent to the specified window or control. If the target window is owned by another process and has a caption, <b>GetWindowText</b> retrieves the window caption text. If the window does not have a caption, the return value is a null string. This behavior is by design. It allows applications to call <b>GetWindowText</b> without becoming unresponsive if the process that owns the target window is not responding. However, if the target window is not responding and it belongs to the calling application, <b>GetWindowText</b> will cause the calling application to become unresponsive. 
 
-To retrieve the text of a control in another process, send a <a href="https://msdn.microsoft.com/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a> message directly instead of calling <b>GetWindowText</b>. 
+To retrieve the text of a control in another process, send a <a href="https://msdn.microsoft.com/en-us/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a> message directly instead of calling <b>GetWindowText</b>. 
 
 
 #### Examples
 
- For an example, see <a href="https://msdn.microsoft.com/library/ms644928(v=VS.85).aspx">Sending a Message</a>.
+ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644928(v=VS.85).aspx">Sending a Message</a>.
 
 <div class="code"></div>
 
@@ -132,7 +132,7 @@ To retrieve the text of a control in another process, send a <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633521(v=VS.85).aspx">GetWindowTextLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633521(v=VS.85).aspx">GetWindowTextLength</a>
 
 
 
@@ -140,11 +140,11 @@ To retrieve the text of a control in another process, send a <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633546(v=VS.85).aspx">SetWindowText</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633546(v=VS.85).aspx">SetWindowText</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a>
 
 
 

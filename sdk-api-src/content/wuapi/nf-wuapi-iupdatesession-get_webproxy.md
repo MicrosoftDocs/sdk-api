@@ -4,10 +4,10 @@ title: IUpdateSession::get_WebProxy
 author: windows-sdk-content
 description: Gets and sets the proxy settings that are used to access the server.
 old-location: wua\iupdatesession_webproxy.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 33611ac4-9471-45c5-91cc-0a07251c74a5
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IUpdateSession interface [Windows Update Agent],WebProxy property, IUpdateSession.WebProxy, IUpdateSession.get_WebProxy, IUpdateSession::WebProxy, IUpdateSession::get_WebProxy, IUpdateSession::put_WebProxy, WebProxy property [Windows Update Agent], WebProxy property [Windows Update Agent],IUpdateSession interface, get_WebProxy, wua.iupdatesession_webproxy, wuapi/IUpdateSession::WebProxy, wuapi/IUpdateSession::get_WebProxy, wuapi/IUpdateSession::put_WebProxy
 ms.prod: windows
 ms.technology: windows-sdk

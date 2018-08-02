@@ -4,10 +4,10 @@ title: IInstallationResult::GetUpdateResult
 author: windows-sdk-content
 description: Returns an IUpdateInstallationResult interface that contains the installation results for a specified update.
 old-location: wua\iinstallationresult_getupdateresult.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 51d84e9e-9d92-43c9-af13-f833c3f3d631
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetUpdateResult, GetUpdateResult method [Windows Update Agent], GetUpdateResult method [Windows Update Agent],IInstallationResult interface, IInstallationResult interface [Windows Update Agent],GetUpdateResult method, IInstallationResult.GetUpdateResult, IInstallationResult::GetUpdateResult, wua.iinstallationresult_getupdateresult, wuapi/IInstallationResult::GetUpdateResult
 ms.prod: windows
 ms.technology: windows-sdk

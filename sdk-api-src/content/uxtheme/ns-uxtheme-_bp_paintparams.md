@@ -4,10 +4,10 @@ title: "_BP_PAINTPARAMS"
 author: windows-sdk-content
 description: Defines paint operation parameters for BeginBufferedPaint.
 old-location: controls\BP_PAINTPARAMS.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\bp_paintparams.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PBP_PAINTPARAMS, BPPF_ERASE, BPPF_NOCLIP, BPPF_NONCLIENT, BP_PAINTPARAMS, BP_PAINTPARAMS structure [Windows Controls], PBP_PAINTPARAMS, PBP_PAINTPARAMS structure pointer [Windows Controls], _BP_PAINTPARAMS, _shell_BP_PAINTPARAMS, _shell_BP_PAINTPARAMS_cpp, controls.BP_PAINTPARAMS, controls._shell_BP_PAINTPARAMS, uxtheme/BP_PAINTPARAMS, uxtheme/PBP_PAINTPARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-Defines paint operation parameters for <a href="https://msdn.microsoft.com/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
+Defines paint operation parameters for <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
 
 
 ## -struct-fields
@@ -84,7 +84,7 @@ One or more of the following values.
 </dl>
 </td>
 <td width="60%">
-Initialize the buffer to ARGB = {0, 0, 0, 0} during <a href="https://msdn.microsoft.com/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>. This erases the previous contents of the buffer.
+Initialize the buffer to ARGB = {0, 0, 0, 0} during <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>. This erases the previous contents of the buffer.
 
 
 

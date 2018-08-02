@@ -4,10 +4,10 @@ title: GetDisplayAutoRotationPreferences function
 author: windows-sdk-content
 description: Retrieves the screen auto-rotation preferences for the current process.
 old-location: base\getdisplayautorotationpreferences.htm
-old-project: procthread
+old-project: ProcThread
 ms.assetid: 48D609CC-3E2B-4E0E-9566-FE02853DD831
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetDisplayAutoRotationPreferences, GetDisplayAutoRotationPreferences function, base.getdisplayautorotationpreferences, winuser/GetDisplayAutoRotationPreferences
 ms.prod: windows
 ms.technology: windows-sdk

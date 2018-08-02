@@ -7,7 +7,7 @@ old-location: search\_search_IConditionFactory.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\iconditionfactory.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: IConditionFactory, IConditionFactory interface [search], IConditionFactory interface [search],described, _search_IConditionFactory, search._search_IConditionFactory, structuredquery/IConditionFactory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IConditionFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231384(v=VS.85).aspx">MakeAndOr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231384(v=VS.85).aspx">MakeAndOr</a>
 </td>
 <td align="left" width="63%">
 Creates a condition node that is a logical conjunction (AND) or disjunction (OR) of a collection of subconditions.
@@ -80,29 +80,27 @@ Creates a condition node that is a logical conjunction (AND) or disjunction (OR)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231385(v=VS.85).aspx">MakeLeaf</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231385(v=VS.85).aspx">MakeLeaf</a>
 </td>
 <td align="left" width="63%">
-
-          Creates a leaf condition node that represents a comparison of property value and constant value.
+Creates a leaf condition node that represents a comparison of property value and constant value.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231386(v=VS.85).aspx">MakeNot</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231386(v=VS.85).aspx">MakeNot</a>
 </td>
 <td align="left" width="63%">
-
-          Creates a condition node that is a logical negation (NOT) of another condition (a subnode of this node).
+Creates a condition node that is a logical negation (NOT) of another condition (a subnode of this node).
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231387(v=VS.85).aspx">Resolve</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231387(v=VS.85).aspx">Resolve</a>
 </td>
 <td align="left" width="63%">
 Performs a variety of transformations on a condition tree, including the following: resolves conditions with relative date/time expressions to conditions with absolute date/time (as a VT_FILETIME); turns other recognized named entities into condition trees with actual values; simplifies condition trees; replaces virtual or compound properties with OR trees of other properties; removes condition trees resulting from queries with property keywords that had no condition applied.
@@ -126,23 +124,23 @@ The StructuredQuerySample code sample, available on <a href="http://go.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965692(v=VS.85).aspx">CONDITION_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965692(v=VS.85).aspx">CONDITION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd742811(v=VS.85).aspx">ICondition2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742811(v=VS.85).aspx">ICondition2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd742799(v=VS.85).aspx">IConditionFactory2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742799(v=VS.85).aspx">IConditionFactory2</a>
 
 
 

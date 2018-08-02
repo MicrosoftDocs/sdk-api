@@ -4,10 +4,10 @@ title: "_WLX_PROFILE_V2_0"
 author: windows-sdk-content
 description: Contains profile information in addition to the information provided by WLX_PROFILE_V1_0.
 old-location: security\wlx_profile_v2_0.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 6ecec95f-e663-4fb3-b2d4-82984f31cb62
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PWLX_PROFILE_V2_0, PWLX_PROFILE_V2_0, PWLX_PROFILE_V2_0 structure pointer [Security], WLX_PROFILE_V2_0, WLX_PROFILE_V2_0 structure [Security], _WLX_PROFILE_V2_0, _gina_wlx_profile_v2_0, security.wlx_profile_v2_0, winwlx/PWLX_PROFILE_V2_0, winwlx/WLX_PROFILE_V2_0"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 <p class="CCE_Message">[The WLX_PROFILE_V2_0 structure is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-
-			The <b>WLX_PROFILE_V2_0</b> structure contains profile information in addition to the information provided by 
+The <b>WLX_PROFILE_V2_0</b> structure contains profile information in addition to the information provided by 
 <a href="https://msdn.microsoft.com/3b75cf38-e1d7-48dd-8319-d4daf508a3e9">WLX_PROFILE_V1_0</a>.
 
 

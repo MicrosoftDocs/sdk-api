@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmaplock_getstride.htm
 old-project: wic
 ms.assetid: f4bde79d-29a1-46bf-b7e4-91c39c2f0690
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetStride, GetStride method [Windows Imaging Component], GetStride method [Windows Imaging Component],IWICBitmapLock interface, IWICBitmapLock interface [Windows Imaging Component],GetStride method, IWICBitmapLock.GetStride, IWICBitmapLock::GetStride, _wic_codec_iwicbitmaplock_getstride, wic._wic_codec_iwicbitmaplock_getstride, wincodec/IWICBitmapLock::GetStride
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,8 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-            Note the <a href="https://docs.microsoft.com/">stride</a> value is specific to the <a href="https://msdn.microsoft.com/c0ddbc25-6abe-484b-a545-3b9376c514df">IWICBitmapLock</a>, not the bitmap. 
+Note the <a href="https://docs.microsoft.com/">stride</a> value is specific to the <a href="https://msdn.microsoft.com/c0ddbc25-6abe-484b-a545-3b9376c514df">IWICBitmapLock</a>, not the bitmap. 
             For example, two consecutive locks on the same rectangle of a bitmap may return different pointers and stride values, depending on internal implementation. 
          
 

@@ -7,7 +7,7 @@ old-location: xps\ixpsompage_getcontentbox.htm
 old-project: printdocs
 ms.assetid: 6402bcd0-84cb-472f-8c3c-1fe34eecc6d2
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetContentBox, GetContentBox method [XPS Documents and Packaging], GetContentBox method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetContentBox method, IXpsOMPage.GetContentBox, IXpsOMPage::GetContentBox, xps.ixpsompage_getcontentbox, xpsobjectmodel/IXpsOMPage::GetContentBox
 ms.prod: windows
 ms.technology: windows-sdk

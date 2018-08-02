@@ -4,10 +4,10 @@ title: GetThemeAnimationTransform function
 author: windows-sdk-content
 description: Gets an animation transform operation based on storyboard id, target id and transform index.
 old-location: controls\getthemeanimationtransform.htm
-old-project: controls
+old-project: Controls
 ms.assetid: 3B7691C0-4237-4CE4-9B7C-937089AC5606
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetThemeAnimationTransform, GetThemeAnimationTransform function [Windows Controls], controls.getthemeanimationtransform, uxtheme/GetThemeAnimationTransform
 ms.prod: windows
 ms.technology: windows-sdk

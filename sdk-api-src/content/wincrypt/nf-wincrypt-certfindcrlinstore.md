@@ -4,10 +4,10 @@ title: CertFindCRLInStore function
 author: windows-sdk-content
 description: Finds the first or next certificate revocation list (CRL) context in a certificate store that matches a search criterion established by the dwFindType parameter and the associated pvFindPara parameter.
 old-location: security\certfindcrlinstore.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 3e481912-204a-4d86-ab67-81f8ae4d1aaa
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CRL_FIND_ANY, CRL_FIND_EXISTING, CRL_FIND_ISSUED_BY, CRL_FIND_ISSUED_BY_AKI_FLAG, CRL_FIND_ISSUED_BY_BASE_FLAG, CRL_FIND_ISSUED_BY_DELTA_FLAG, CRL_FIND_ISSUED_BY_SIGNATURE_FLAG, CRL_FIND_ISSUED_FOR, CRL_FIND_ISSUED_FOR_SET_STRONG_PROPERTIES_FLAG, CertFindCRLInStore, CertFindCRLInStore function [Security], _crypto2_certfindcrlinstore, security.certfindcrlinstore, wincrypt/CertFindCRLInStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertFindCRLInStore</b> function finds the first or next <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) context in a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> that matches a search criterion established by the <i>dwFindType</i> parameter and the associated <i>pvFindPara</i> parameter. This function can be used in a loop to find all of the CRL contexts in a certificate store that match the specified find criteria.
+The <b>CertFindCRLInStore</b> function finds the first or next <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) context in a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> that matches a search criterion established by the <i>dwFindType</i> parameter and the associated <i>pvFindPara</i> parameter. This function can be used in a loop to find all of the CRL contexts in a certificate store that match the specified find criteria.
 
 
 ## -parameters
@@ -228,8 +227,7 @@ This parameter is not currently used. It must be set to zero.
 
 
 
-
-						If the function succeeds, the function returns a pointer to a read-only CRL context. When you have finished using the returned CRL context, free it by calling 
+If the function succeeds, the function returns a pointer to a read-only CRL context. When you have finished using the returned CRL context, free it by calling 
 the <a href="https://msdn.microsoft.com/19a590a5-bd39-4bbe-ad86-4e648baa1ba8">CertFreeCRLContext</a> function or implicitly free it by passing it as the <i>pPrevCrlContext</i> parameter on a subsequent call to the <b>CertFindCRLInStore</b> function.
 						
 						
@@ -314,7 +312,7 @@ The returned pointer is freed when passed as the <i>pPrevCrlContext</i> paramete
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
  
 
  

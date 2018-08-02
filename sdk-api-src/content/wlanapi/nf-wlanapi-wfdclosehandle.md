@@ -4,10 +4,10 @@ title: WFDCloseHandle function
 author: windows-sdk-content
 description: Closes a handle to the Wi-Fi Direct service.
 old-location: nwifi\wfdclosehandle.htm
-old-project: nativewifi
+old-project: NativeWiFi
 ms.assetid: A27C0AE1-1C51-4CAC-8929-63870ADB15A7
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: WFDCloseHandle, WFDCloseHandle function [NativeWIFI], nwifi.wfdclosehandle, wlanapi/WFDCloseHandle
 ms.prod: windows
 ms.technology: windows-sdk

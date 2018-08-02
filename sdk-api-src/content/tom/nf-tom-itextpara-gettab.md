@@ -4,10 +4,10 @@ title: ITextPara::GetTab
 author: windows-sdk-content
 description: Retrieves tab parameters (displacement, alignment, and leader style) for a specified tab.
 old-location: controls\ITextPara_GetTab.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettab.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetTab, GetTab method [Windows Controls], GetTab method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetTab method, ITextPara.GetTab, ITextPara::GetTab, _win32_ITextPara_GetTab, _win32_ITextPara_GetTab_cpp, controls.ITextPara_GetTab, controls._win32_ITextPara_GetTab, tom/ITextPara::GetTab
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,14 +107,14 @@ The tab displacement, in floating-point points. The value of * <i>ptbPos</i> is 
 
 Type: <b>long*</b>
 
-The tab alignment. For more information, see <a href="https://msdn.microsoft.com/library/Bb787728(v=VS.85).aspx">ITextPara::AddTab</a>. 
+The tab alignment. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb787728(v=VS.85).aspx">ITextPara::AddTab</a>. 
 
 
 ### -param ptbLeader
 
 Type: <b>long*</b>
 
-The tab leader-character style. For more information, see <a href="https://msdn.microsoft.com/library/Bb787728(v=VS.85).aspx">ITextPara::AddTab</a>. 
+The tab leader-character style. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb787728(v=VS.85).aspx">ITextPara::AddTab</a>. 
 
 
 ## -returns
@@ -185,11 +185,11 @@ There is no tab corresponding to iTab.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787728(v=VS.85).aspx">AddTab</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787728(v=VS.85).aspx">AddTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787738(v=VS.85).aspx">ClearAllTabs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787738(v=VS.85).aspx">ClearAllTabs</a>
 
 
 
@@ -197,19 +197,19 @@ There is no tab corresponding to iTab.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787748(v=VS.85).aspx">DeleteTab</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787748(v=VS.85).aspx">DeleteTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773989(v=VS.85).aspx">GetListTab</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773989(v=VS.85).aspx">GetListTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774035(v=VS.85).aspx">GetTabCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774035(v=VS.85).aspx">GetTabCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
 
 
 
@@ -217,11 +217,11 @@ There is no tab corresponding to iTab.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774177(v=VS.85).aspx">SetListTab</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774177(v=VS.85).aspx">SetListTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

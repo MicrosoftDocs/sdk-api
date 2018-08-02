@@ -7,7 +7,7 @@ old-location: menurc\setphysicalcursorpos.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\setphysicalcursorpos.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: SetPhysicalCursorPos, SetPhysicalCursorPos function [Menus and Other Resources], _win32_SetPhysicalCursorPos, _win32_setphysicalcursorpos_cpp, menurc.setphysicalcursorpos, winui._win32_setphysicalcursorpos, winuser/SetPhysicalCursorPos
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ Type: <b>BOOL</b>
 
 
 
-For a description of the difference between logicial coordinates and physical coordinates, see <a href="https://msdn.microsoft.com/library/ms633536(v=VS.85).aspx">PhysicalToLogicalPoint</a>.
+For a description of the difference between logicial coordinates and physical coordinates, see <a href="https://msdn.microsoft.com/en-us/library/ms633536(v=VS.85).aspx">PhysicalToLogicalPoint</a>.
 
 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> can be called to get more information about any error that is generated.
@@ -105,7 +105,7 @@ For a description of the difference between logicial coordinates and physical co
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648383(v=VS.85).aspx">ClipCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648383(v=VS.85).aspx">ClipCursor</a>
 
 
 
@@ -113,15 +113,15 @@ For a description of the difference between logicial coordinates and physical co
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648390(v=VS.85).aspx">GetCursorPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648390(v=VS.85).aspx">GetCursorPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa969464(v=VS.85).aspx">GetPhysicalCursorPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa969464(v=VS.85).aspx">GetPhysicalCursorPos</a>
 
 
 
@@ -129,19 +129,19 @@ For a description of the difference between logicial coordinates and physical co
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648405(v=VS.85).aspx">SetCaretPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648405(v=VS.85).aspx">SetCaretPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648393(v=VS.85).aspx">SetCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648393(v=VS.85).aspx">SetCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648394(v=VS.85).aspx">SetCursorPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648394(v=VS.85).aspx">SetCursorPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648396(v=VS.85).aspx">ShowCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648396(v=VS.85).aspx">ShowCursor</a>
  
 
  

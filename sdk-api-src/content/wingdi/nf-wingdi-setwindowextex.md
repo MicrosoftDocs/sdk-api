@@ -7,7 +7,7 @@ old-location: gdi\setwindowextex.htm
 old-project: gdi
 ms.assetid: 8fd13d56-f6fa-4aea-a7e5-535caf22a840
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: SetWindowExtEx, SetWindowExtEx function [Windows GDI], _win32_SetWindowExtEx, gdi.setwindowextex, wingdi/SetWindowExtEx
 ms.prod: windows
 ms.technology: windows-sdk

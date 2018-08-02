@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2_interface_release.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.Release
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IXAudio2 interface [XAudio2 Audio Mixing APIs],Release method, IXAudio2.Release, IXAudio2::Release, Release, Release method [XAudio2 Audio Mixing APIs], Release method [XAudio2 Audio Mixing APIs],IXAudio2 interface, xaudio2.ixaudio2_interface_release, xaudio2/IXAudio2::Release
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ When the final <b>Release</b> is called on a given XAudio2 object, all voice obj
 
 
 
-It is invalid to call <b>Release</b> from within a callback (that is, <a href="https://msdn.microsoft.com/library/Ee415910(v=VS.85).aspx">IXAudio2EngineCallback</a> or <a href="https://msdn.microsoft.com/library/Ee415919(v=VS.85).aspx">IXAudio2VoiceCallback</a>). 
+It is invalid to call <b>Release</b> from within a callback (that is, <a href="https://msdn.microsoft.com/en-us/library/Ee415910(v=VS.85).aspx">IXAudio2EngineCallback</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee415919(v=VS.85).aspx">IXAudio2VoiceCallback</a>). 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); 
@@ -96,7 +96,7 @@ Windows 10 (XAudio2.9);
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee415908(v=VS.85).aspx">IXAudio2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415908(v=VS.85).aspx">IXAudio2</a>
  
 
  

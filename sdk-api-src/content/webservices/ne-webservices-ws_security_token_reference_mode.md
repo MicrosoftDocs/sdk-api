@@ -7,7 +7,7 @@ old-location: wsw\ws_security_token_reference_mode.htm
 old-project: wsw
 ms.assetid: 09cd0350-d310-4335-9850-e0f6246be472
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SECURITY_TOKEN_REFERENCE_MODE, WS_SECURITY_TOKEN_REFERENCE_MODE enumeration [Web Services for Windows], WS_SECURITY_TOKEN_REFERENCE_MODE_CERT_THUMBPRINT, WS_SECURITY_TOKEN_REFERENCE_MODE_LOCAL_ID, WS_SECURITY_TOKEN_REFERENCE_MODE_SAML_ASSERTION_ID, WS_SECURITY_TOKEN_REFERENCE_MODE_SECURITY_CONTEXT_ID, WS_SECURITY_TOKEN_REFERENCE_MODE_XML_BUFFER, webservices/WS_SECURITY_TOKEN_REFERENCE_MODE, webservices/WS_SECURITY_TOKEN_REFERENCE_MODE_CERT_THUMBPRINT, webservices/WS_SECURITY_TOKEN_REFERENCE_MODE_LOCAL_ID, webservices/WS_SECURITY_TOKEN_REFERENCE_MODE_SAML_ASSERTION_ID, webservices/WS_SECURITY_TOKEN_REFERENCE_MODE_SECURITY_CONTEXT_ID, webservices/WS_SECURITY_TOKEN_REFERENCE_MODE_XML_BUFFER, wsw.ws_security_token_reference_mode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,6 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 With message and mixed-mode security bindings, the mechanism to use to
 refer to a security token from signatures, encrypted items and derived
 tokens.  The security runtime can use the right reference on its own
@@ -68,7 +67,6 @@ another platform that supports only that reference form.
 
 ### -field WS_SECURITY_TOKEN_REFERENCE_MODE_LOCAL_ID
 
-
 The id of the serialized security token is used to refer to it.  This
 reference mechanism can be used only when the security token is
 serialized in the same message as the item (such as a signature) that
@@ -78,12 +76,10 @@ needs to refer to the security token.
 
 ### -field WS_SECURITY_TOKEN_REFERENCE_MODE_XML_BUFFER
 
-
 An opaque XML buffer that is used as a token reference (for example, as in a custom token).
 
 
 ### -field WS_SECURITY_TOKEN_REFERENCE_MODE_CERT_THUMBPRINT
-
 
 The thumbprint of a certificate is used to refer to it.
                 
@@ -91,14 +87,12 @@ The thumbprint of a certificate is used to refer to it.
 
 ### -field WS_SECURITY_TOKEN_REFERENCE_MODE_SECURITY_CONTEXT_ID
 
-
-              The context-id is used to refer to a security context token.
+The context-id is used to refer to a security context token.
             
 
 
 ### -field WS_SECURITY_TOKEN_REFERENCE_MODE_SAML_ASSERTION_ID
 
-
-              The SAML assertion ID is used to refer to the SAML token.
+The SAML assertion ID is used to refer to the SAML token.
             
 

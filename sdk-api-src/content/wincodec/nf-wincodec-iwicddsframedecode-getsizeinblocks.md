@@ -7,7 +7,7 @@ old-location: wic\iwicddsframedecode_getsizeinblocks.htm
 old-project: wic
 ms.assetid: 34F3A19C-4B68-4E6A-AE08-71DE9A0687BF
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetSizeInBlocks, GetSizeInBlocks method [Windows Imaging Component], GetSizeInBlocks method [Windows Imaging Component],IWICDdsFrameDecode interface, IWICDdsFrameDecode interface [Windows Imaging Component],GetSizeInBlocks method, IWICDdsFrameDecode.GetSizeInBlocks, IWICDdsFrameDecode::GetSizeInBlocks, wic.iwicddsframedecode_getsizeinblocks, wincodec/IWICDdsFrameDecode::GetSizeInBlocks
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ For block compressed textures, the returned width and height values do not compl
 
 
 
-If the texture does not use a block-compressed <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>, this method returns the texture size in pixels; for these formats the block size returned by <a href="https://msdn.microsoft.com/0D5B9E45-E1EA-4D16-B793-63FEAB2BAF65">IWICDdsFrameDecoder::GetFormatInfo</a> is 1x1.
+If the texture does not use a block-compressed <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>, this method returns the texture size in pixels; for these formats the block size returned by <a href="https://msdn.microsoft.com/0D5B9E45-E1EA-4D16-B793-63FEAB2BAF65">IWICDdsFrameDecoder::GetFormatInfo</a> is 1x1.
 
 
 

@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_text.htm
 old-project: wsw
 ms.assetid: 430edd13-b664-4e10-8d61-ffa6a01dcb90
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_TEXT, WS_XML_TEXT structure [Web Services for Windows], _WS_XML_TEXT, webservices/WS_XML_TEXT, wsw.ws_xml_text
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Represents a node of text content in xml.
+Represents a node of text content in xml.
       
 
 
@@ -68,8 +67,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-        XML has no concept of typed content; all content is textual in nature.  In some cases this is inefficient, requiring
+XML has no concept of typed content; all content is textual in nature.  In some cases this is inefficient, requiring
         translation between text and natural form (e.g. the characters '1','2','8' and the numerical value 128) or requiring
         more bytes of storage for the representation (e.g. the characters '2',5','5' might take 3 bytes, while the numerical
         value 255 could only take 1).

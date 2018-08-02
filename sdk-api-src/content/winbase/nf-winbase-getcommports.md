@@ -4,10 +4,10 @@ title: GetCommPorts function
 author: windows-sdk-content
 description: Gets an array that contains the well-formed COM ports.
 old-location: base\getcommports.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 8E57FB62-D7A0-4B47-942B-E33E0B7A37B1
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetCommPorts, GetCommPorts function, base.getcommports, winbase/GetCommPorts
 ms.prod: windows
 ms.technology: windows-sdk

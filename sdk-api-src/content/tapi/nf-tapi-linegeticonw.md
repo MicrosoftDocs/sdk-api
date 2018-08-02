@@ -4,10 +4,10 @@ title: lineGetIconW function
 author: windows-sdk-content
 description: The lineGetIcon function allows an application to retrieve a service line device-specific (or provider-specific) icon for display to the user.
 old-location: tapi2\linegeticon.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 4c76a990-676e-4bb2-b7d7-3b4a0aabf058
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "_tapi2_linegeticon, lineGetIcon, lineGetIcon function [TAPI 2.2], lineGetIconA, lineGetIconW, tapi/lineGetIcon, tapi/lineGetIconA, tapi/lineGetIconW, tapi2.linegeticon"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,8 +94,8 @@ LINEERR_BADDEVICEID, LINEERR_OPERATIONFAILED, LINEERR_INVALPOINTER, LINEERR_RESO
 
 The 
 <b>lineGetIcon</b> function causes the provider to return a handle (in <i>lphIcon</i>) to an icon resource (obtained from 
-<a href="https://msdn.microsoft.com/library/ms648072(v=VS.85).aspx">LoadIcon</a>) that is associated with the specified line. The icon handle is for a resource associated with the provider. The application must use 
-<a href="https://msdn.microsoft.com/library/ms648058(v=VS.85).aspx">CopyIcon</a> if it wants to reference the icon after the provider is unloaded, which is unlikely to happen as long as the application has the line open.
+<a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>) that is associated with the specified line. The icon handle is for a resource associated with the provider. The application must use 
+<a href="https://msdn.microsoft.com/en-us/library/ms648058(v=VS.85).aspx">CopyIcon</a> if it wants to reference the icon after the provider is unloaded, which is unlikely to happen as long as the application has the line open.
 
 The <i>lpszDeviceClass</i> parameter allows the provider to return different icons based on the type of service being referenced by the caller. The permitted strings are the same as for 
 <a href="https://msdn.microsoft.com/e9981574-0058-420f-9627-6d5a1745a739">lineGetID</a>. For example, if the line supports the Comm API, passing "COMM" as <i>lpszDeviceClass</i> causes the provider to return an icon related specifically to the Comm device functions of the service provider. The parameters "tapi/line", "", or <b>NULL</b> can be used to request the icon for the line service.

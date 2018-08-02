@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IScrollItemProvider_ScrollIntoView.htm
 old-project: WinAuto
 ms.assetid: 2d1ce9f2-b3ba-40c5-a750-bd739b1abc07
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IScrollItemProvider interface [Windows Accessibility],ScrollIntoView method, IScrollItemProvider.ScrollIntoView, IScrollItemProvider::ScrollIntoView, ScrollIntoView, ScrollIntoView method [Windows Accessibility], ScrollIntoView method [Windows Accessibility],IScrollItemProvider interface, uiauto.uiauto_IScrollItemProvider_ScrollIntoView, uiauto_IScrollItemProvider_ScrollIntoView, uiautomationcore/IScrollItemProvider::ScrollIntoView, winauto.uiauto_IScrollItemProvider_ScrollIntoView
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        Scrolls the content area of a container object in order to display the control within the visible region (viewport) of the container.
+Scrolls the content area of a container object in order to display the control within the visible region (viewport) of the container.
         
 
 
@@ -78,8 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-            This method will not guarantee the position of the control 
+This method will not guarantee the position of the control 
             within the visible region (viewport) of the container.
             
 

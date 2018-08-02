@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayer_put_uimode.htm
 old-project: WMP
 ms.assetid: 154db914-a0c3-44de-b692-e1b7f9c681f6
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],put_uiMode method, IWMPPlayer.put_uiMode, IWMPPlayer::put_uiMode, IWMPPlayerput_uiMode, put_uiMode, put_uiMode method [Windows Media Player], put_uiMode method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_uimode, wmp/IWMPPlayer::put_uiMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,17 +68,13 @@ The <b>put_uiMode</b> method specifies a value indicating which controls are sho
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
-<th>
-                  Audio example
+<th>Audio example
                 </th>
-<th>
-                  Video example
+<th>Video example
                 </th>
 </tr>
 <tr>

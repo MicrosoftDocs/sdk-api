@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols_stop.htm
 old-project: WMP
 ms.assetid: 97ab009d-5ad9-4049-a212-1ef95941f951
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPControls interface [Windows Media Player],stop method, IWMPControls.stop, IWMPControls::stop, IWMPControlsstop, stop, stop method [Windows Media Player], stop method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_stop, wmp/IWMPControls::stop
 ms.prod: windows
 ms.technology: windows-sdk

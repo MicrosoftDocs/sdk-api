@@ -106,7 +106,7 @@ A fax client application can also access the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/45b195f9-0ac9-4150-84cf-64049cc4053f">GetJobs</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692836(v=VS.85).aspx">GetJobs</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: xps\ixpsomradialgradientbrush.htm
 old-project: printdocs
 ms.assetid: 2f5b7b99-64a0-4156-8963-cfceb0d73503
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMRadialGradientBrush, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging], IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],described, xps.ixpsomradialgradientbrush, xpsobjectmodel/IXpsOMRadialGradientBrush
 ms.prod: windows
 ms.technology: windows-sdk

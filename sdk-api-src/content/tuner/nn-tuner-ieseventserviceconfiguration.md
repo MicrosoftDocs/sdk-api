@@ -7,7 +7,7 @@ old-location: mstv\ieseventserviceconfiguration.htm
 old-project: mstv
 ms.assetid: 0b901732-42e1-4f50-904c-75d8202bb5b7
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IESEventServiceConfiguration, IESEventServiceConfiguration interface [Microsoft TV Technologies], IESEventServiceConfiguration interface [Microsoft TV Technologies],described, mstv.ieseventserviceconfiguration, tuner/IESEventServiceConfiguration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Contains methods that configure an event service that implements the <a href="https://msdn.microsoft.com/2720d616-18a6-488e-98ef-565768c22c2a">IESEventService</a> interface. This interface allows you to create your own event service and set it up to receive events from a Protected Broadcast Driver Architecture (PBDA) event service, then pass those events to your event service's clients. 
+Contains methods that configure an event service that implements the <a href="https://msdn.microsoft.com/2720d616-18a6-488e-98ef-565768c22c2a">IESEventService</a> interface. This interface allows you to create your own event service and set it up to receive events from a Protected Broadcast Driver Architecture (PBDA) event service, then pass those events to your event service's clients. 
 
 For more information about PBDA, download the specification from <a href="http://go.microsoft.com/fwlink/p/?linkid=132926">http://go.microsoft.com/fwlink/p/?linkid=132926</a>.
 
@@ -77,8 +76,7 @@ The <b>IESEventServiceConfiguration</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ba3d9748-5d3b-49ec-ac69-287a253caa12">RemoveGraph</a>
 </td>
 <td align="left" width="63%">
-
-            Removes a PBDA event service from a filter  graph.
+Removes a PBDA event service from a filter  graph.
           
 
 </td>
@@ -88,8 +86,7 @@ The <b>IESEventServiceConfiguration</b> interface has these methods.
 <a href="https://msdn.microsoft.com/c55b732e-960c-4a0c-939b-2f3628b5c9b6">RemoveOwner</a>
 </td>
 <td align="left" width="63%">
-
-            Removes the owner of an <a href="https://msdn.microsoft.com/2720d616-18a6-488e-98ef-565768c22c2a">IESEventService</a> event service.
+Removes the owner of an <a href="https://msdn.microsoft.com/2720d616-18a6-488e-98ef-565768c22c2a">IESEventService</a> event service.
           
 
 </td>
@@ -109,8 +106,7 @@ Removes the parent of an <a href="https://msdn.microsoft.com/2720d616-18a6-488e-
 <a href="https://msdn.microsoft.com/0aee92b4-740a-4c5a-a64e-9de08d1c35c2">SetGraph</a>
 </td>
 <td align="left" width="63%">
-
-            Attaches a PBDA event service to a filter  graph.
+Attaches a PBDA event service to a filter  graph.
           
 
 </td>

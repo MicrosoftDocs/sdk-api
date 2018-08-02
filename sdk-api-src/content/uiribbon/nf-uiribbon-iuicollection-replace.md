@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuicollection_replace.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\replace.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: IUICollection interface [Windows Ribbon],Replace method, IUICollection.Replace, IUICollection::Replace, Replace, Replace method [Windows Ribbon], Replace method [Windows Ribbon],IUICollection interface, scenicintent_IUICollection_Replace, uiribbon/IUICollection::Replace, windowsribbon.windowsribbon_iuicollection_replace
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-Replaces an item at the specified index of the <a href="https://msdn.microsoft.com/library/Dd371519(v=VS.85).aspx">IUICollection</a> with another item.
+Replaces an item at the specified index of the <a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a> with another item.
 
 
 ## -parameters
@@ -63,17 +63,15 @@ Replaces an item at the specified index of the <a href="https://msdn.microsoft.c
 
 Type: <b>UINT32</b>
 
-
-					The zero-based index of <i>item</i> to be replaced in the <a href="https://msdn.microsoft.com/library/Dd371519(v=VS.85).aspx">IUICollection</a>.
+The zero-based index of <i>item</i> to be replaced in the <a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a>.
 				
 
 
 ### -param itemReplaceWith [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
 
-
-					Pointer to the replacement item that is added to the <a href="https://msdn.microsoft.com/library/Dd371519(v=VS.85).aspx">IUICollection</a>.
+Pointer to the replacement item that is added to the <a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a>.
 				
 
 
@@ -93,11 +91,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd742704(v=VS.85).aspx">Gallery Sample</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742704(v=VS.85).aspx">Gallery Sample</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371519(v=VS.85).aspx">IUICollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a>
  
 
  

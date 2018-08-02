@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimereventhandler.htm
 old-project: UIAnimation
 ms.assetid: 7d5c459e-e1f2-470b-8568-e6847acba63a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationTimerEventHandler, IUIAnimationTimerEventHandler interface [Windows Animation], IUIAnimationTimerEventHandler interface [Windows Animation],described, uianimation.iuianimationtimereventhandler, uianimation/IUIAnimationTimerEventHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Defines methods for handling timing events.
+Defines methods for handling timing events.
 
 
 ## -inheritance
@@ -75,8 +74,7 @@ The <b>IUIAnimationTimerEventHandler</b> interface has these methods.
 <a href="https://msdn.microsoft.com/3a09537a-6cf7-4824-90c6-265dafa07a1b">IUIAnimationTimerEventHandler::OnPostUpdate</a>
 </td>
 <td align="left" width="63%">
-
-      Handles events that occur after an animation update is finished.
+Handles events that occur after an animation update is finished.
 
 </td>
 </tr>
@@ -85,8 +83,7 @@ The <b>IUIAnimationTimerEventHandler</b> interface has these methods.
 <a href="https://msdn.microsoft.com/4f3dcac0-c800-48e5-82d6-b6bc3fb0409b">IUIAnimationTimerEventHandler::OnPreUpdate</a>
 </td>
 <td align="left" width="63%">
-
-      Handles events that occur before an animation update begins.
+Handles events that occur before an animation update begins.
 
 </td>
 </tr>
@@ -95,8 +92,7 @@ The <b>IUIAnimationTimerEventHandler</b> interface has these methods.
 <a href="https://msdn.microsoft.com/79986646-2d82-41a3-bff7-b2f0492c7a1b">IUIAnimationTimerEventHandler::OnRenderingTooSlow</a>
 </td>
 <td align="left" width="63%">
-
-      Handles events that occur when the rendering frame rate 
+Handles events that occur when the rendering frame rate 
       for an animation falls below a minimum desirable frame rate.
    
 
@@ -109,11 +105,8 @@ The <b>IUIAnimationTimerEventHandler</b> interface has these methods.
 
 
 
-
-         Use 
-         <a href="https://msdn.microsoft.com/ff1bae45-2199-4340-a27b-19865d2877f9">
-         SetTimerEventHandler</a>
-         to specify the timing events handler for an instance of
+Use 
+         <a href="https://msdn.microsoft.com/ff1bae45-2199-4340-a27b-19865d2877f9">SetTimerEventHandler</a>to specify the timing events handler for an instance of
          <a href="https://msdn.microsoft.com/75d29528-005e-4f49-b8ff-651b58d58fc7">IUIAnimationTimer</a>. 
       
 
@@ -131,18 +124,15 @@ For an example, see <a href="https://msdn.microsoft.com/7abf084a-31f5-4e32-bfd1-
 
 
 
-<a href="https://msdn.microsoft.com/75d29528-005e-4f49-b8ff-651b58d58fc7">
-      IUIAnimationTimer</a>
+<a href="https://msdn.microsoft.com/75d29528-005e-4f49-b8ff-651b58d58fc7">IUIAnimationTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ca8f7d8-e698-4c55-8241-5c8f7b47f0e8">
-      IUIAnimationTimerClientEventHandler</a>
+<a href="https://msdn.microsoft.com/8ca8f7d8-e698-4c55-8241-5c8f7b47f0e8">IUIAnimationTimerClientEventHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/f155ed12-d493-48a0-9bdf-0e1e79cbcd38">
-      IUIAnimationTimerUpdateHandler
+<a href="https://msdn.microsoft.com/f155ed12-d493-48a0-9bdf-0e1e79cbcd38">IUIAnimationTimerUpdateHandler
       </a>
 
 

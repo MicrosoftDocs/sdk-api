@@ -4,10 +4,10 @@ title: GetScrollRange function
 author: windows-sdk-content
 description: The GetScrollRange function retrieves the current minimum and maximum scroll box (thumb) positions for the specified scroll bar.
 old-location: controls\GetScrollRange.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\getscrollrange.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetScrollRange, GetScrollRange function [Windows Controls], SB_CTL, SB_HORZ, SB_VERT, _win32_GetScrollRange, _win32_GetScrollRange_cpp, controls.GetScrollRange, controls._win32_GetScrollRange, winuser/GetScrollRange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 The <b>GetScrollRange</b> function retrieves the current minimum and maximum scroll box (thumb) positions for the specified scroll bar.
 
 			
-<div class="alert"><b>Note</b>  The <b>GetScrollRange</b> function is provided for compatibility only. New applications should use the <a href="https://msdn.microsoft.com/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>GetScrollRange</b> function is provided for compatibility only. New applications should use the <a href="https://msdn.microsoft.com/en-us/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -152,9 +152,9 @@ If the specified window does not have standard scroll bars or is not a scroll ba
 
 The default range for a standard scroll bar is 0 through 100. The default range for a scroll bar control is empty (both values are zero). 
 
-The messages that indicate scroll bar position, <a href="https://msdn.microsoft.com/library/Bb787575(v=VS.85).aspx">WM_HSCROLL</a> and <a href="https://msdn.microsoft.com/library/Bb787577(v=VS.85).aspx">WM_VSCROLL</a>, are limited to 16 bits of position data. However, because <a href="https://msdn.microsoft.com/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a>, <a href="https://msdn.microsoft.com/library/Bb787597(v=VS.85).aspx">SetScrollPos</a>, <a href="https://msdn.microsoft.com/library/Bb787599(v=VS.85).aspx">SetScrollRange</a>, <a href="https://msdn.microsoft.com/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a>, <a href="https://msdn.microsoft.com/library/Bb787585(v=VS.85).aspx">GetScrollPos</a>, and <b>GetScrollRange</b> support 32-bit scroll bar position data, there is a way to circumvent the 16-bit barrier of the <b>WM_HSCROLL</b> and <b>WM_VSCROLL</b> messages. See the <b>GetScrollInfo</b> function for a description of the technique. 
+The messages that indicate scroll bar position, <a href="https://msdn.microsoft.com/en-us/library/Bb787575(v=VS.85).aspx">WM_HSCROLL</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb787577(v=VS.85).aspx">WM_VSCROLL</a>, are limited to 16 bits of position data. However, because <a href="https://msdn.microsoft.com/en-us/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb787597(v=VS.85).aspx">SetScrollPos</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb787599(v=VS.85).aspx">SetScrollRange</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb787585(v=VS.85).aspx">GetScrollPos</a>, and <b>GetScrollRange</b> support 32-bit scroll bar position data, there is a way to circumvent the 16-bit barrier of the <b>WM_HSCROLL</b> and <b>WM_VSCROLL</b> messages. See the <b>GetScrollInfo</b> function for a description of the technique. 
 
-If the <i>nBar</i> parameter is SB_CTL and the window specified by the <i>hWnd</i> parameter is not a system scroll bar control, the system sends the <a href="https://msdn.microsoft.com/library/Bb787543(v=VS.85).aspx">SBM_GETRANGE</a> message to the window to obtain scroll bar information.  This allows <b>GetScrollRange</b> to operate on a custom control that mimics a scroll bar.  If the window does not handle the <b>SBM_GETRANGE</b> message, the <b>GetScrollRange</b> function fails.
+If the <i>nBar</i> parameter is SB_CTL and the window specified by the <i>hWnd</i> parameter is not a system scroll bar control, the system sends the <a href="https://msdn.microsoft.com/en-us/library/Bb787543(v=VS.85).aspx">SBM_GETRANGE</a> message to the window to obtain scroll bar information.  This allows <b>GetScrollRange</b> to operate on a custom control that mimics a scroll bar.  If the window does not handle the <b>SBM_GETRANGE</b> message, the <b>GetScrollRange</b> function fails.
 
 
 
@@ -164,11 +164,11 @@ If the <i>nBar</i> parameter is SB_CTL and the window specified by the <i>hWnd</
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787585(v=VS.85).aspx">GetScrollPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787585(v=VS.85).aspx">GetScrollPos</a>
 
 
 
@@ -176,23 +176,23 @@ If the <i>nBar</i> parameter is SB_CTL and the window specified by the <i>hWnd</
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787597(v=VS.85).aspx">SetScrollPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787597(v=VS.85).aspx">SetScrollPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787599(v=VS.85).aspx">SetScrollRange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787599(v=VS.85).aspx">SetScrollRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787575(v=VS.85).aspx">WM_HSCROLL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787575(v=VS.85).aspx">WM_HSCROLL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787577(v=VS.85).aspx">WM_VSCROLL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787577(v=VS.85).aspx">WM_VSCROLL</a>
  
 
  

@@ -4,10 +4,10 @@ title: "_SecPkgCredentials_Cert"
 author: windows-sdk-content
 description: Specifies the certificate credentials. The QueryCredentialsAttributes function uses this structure.
 old-location: security\secpkgcredentials_cert.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 9EEE6E98-D45C-4929-9C9C-F344972D186F
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PSecPkgCredentials_Cert, PSecPkgCredentials_Cert, PSecPkgCredentials_Cert structure pointer [Security], SecPkgCredentials_Cert, SecPkgCredentials_Cert structure [Security], _SecPkgCredentials_Cert, security.secpkgcredentials_cert, sspi/PSecPkgCredentials_Cert, sspi/SecPkgCredentials_Cert"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # _SecPkgCredentials_Cert structure

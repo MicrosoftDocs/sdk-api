@@ -7,7 +7,7 @@ old-location: gdi\polydraw.htm
 old-project: gdi
 ms.assetid: 5fd3f285-dcf3-4cd0-915a-236ba7902353
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: PT_BEZIERTO, PT_CLOSEFIGURE, PT_LINETO, PT_MOVETO, PolyDraw, PolyDraw function [Windows GDI], _win32_PolyDraw, gdi.polydraw, wingdi/PolyDraw
 ms.prod: windows
 ms.technology: windows-sdk

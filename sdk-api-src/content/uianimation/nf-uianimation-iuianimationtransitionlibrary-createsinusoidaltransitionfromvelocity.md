@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary_createsinusoidaltransiti
 old-project: UIAnimation
 ms.assetid: 47998787-dcd5-4973-bf7e-30096b01c51b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateSinusoidalTransitionFromVelocity, CreateSinusoidalTransitionFromVelocity method [Windows Animation], CreateSinusoidalTransitionFromVelocity method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateSinusoidalTransitionFromVelocity method, IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromVelocity, IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromVelocity, uianimation.iuianimationtransitionlibrary_createsinusoidaltransitionfromvelocity, uianimation/IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromVelocity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates a sinusoidal-velocity transition, with an amplitude determined by the initial velocity.
+Creates a sinusoidal-velocity transition, with an amplitude determined by the initial velocity.
 
 
 ## -parameters
@@ -72,9 +71,7 @@ The period of oscillation of the sinusoidal wave in seconds.
 
 ### -param transition [out]
 
-
-            
-               The new sinusoidal-velocity transition.
+The new sinusoidal-velocity transition.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: PFN_CERT_STORE_PROV_DELETE_CRL
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertDeleteCRLFromStore before deleting the CRL from the store.
 old-location: security\certstoreprovdeletecrlcallback.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: aa93cfaf-238f-4d77-a1cd-433a856ed133
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertStoreProvDeleteCRLCallback, CertStoreProvDeleteCRLCallback callback, CertStoreProvDeleteCRLCallback callback function [Security], PFN_CERT_STORE_PROV_DELETE_CRL, PFN_CERT_STORE_PROV_DELETE_CRL callback function [Security], _crypto2_certstoreprovdeletecrlcallback, security.certstoreprovdeletecrlcallback, wincrypt/CertStoreProvDeleteCRLCallback, wincrypt/PFN_CERT_STORE_PROV_DELETE_CRL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			An application-defined callback function that is called by 
+An application-defined callback function that is called by 
 <a href="https://msdn.microsoft.com/eb542c25-8d2b-4427-8f2a-719b472613a5">CertDeleteCRLFromStore</a> before deleting the CRL from the store.
 
 
@@ -82,8 +81,7 @@ Reserved for future use and is set to zero.
 
 
 
-
-						Returns <b>TRUE</b> if it is okay to delete from the store. Otherwise, returns <b>FALSE</b>.
+Returns <b>TRUE</b> if it is okay to delete from the store. Otherwise, returns <b>FALSE</b>.
 
 
 
@@ -93,7 +91,7 @@ Reserved for future use and is set to zero.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
  
 
  

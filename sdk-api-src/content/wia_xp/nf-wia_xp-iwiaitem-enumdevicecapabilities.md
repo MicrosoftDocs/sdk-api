@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaItem_EnumDeviceCapabilities.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\enumdevicecapabilities.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: EnumDeviceCapabilities, EnumDeviceCapabilities method [WIA], EnumDeviceCapabilities method [WIA],IWiaItem interface, IWiaItem interface [WIA],EnumDeviceCapabilities method, IWiaItem.EnumDeviceCapabilities, IWiaItem::EnumDeviceCapabilities, _wia_IWiaItem_EnumDeviceCapabilities, wia._wia_IWiaItem_EnumDeviceCapabilities, wia_xp/IWiaItem::EnumDeviceCapabilities
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,9 +86,9 @@ Specifies a flag that selects the type of capabilities to enumerate. Can be set 
 
 ### -param ppIEnumWIA_DEV_CAPS [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms630166(v=VS.85).aspx">IEnumWIA_DEV_CAPS</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms630166(v=VS.85).aspx">IEnumWIA_DEV_CAPS</a>**</b>
 
-Pointer to <a href="https://msdn.microsoft.com/library/ms630166(v=VS.85).aspx">IEnumWIA_DEV_CAPS</a> interface created by <b>IWiaItem::EnumDeviceCapabilities</b>.
+Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms630166(v=VS.85).aspx">IEnumWIA_DEV_CAPS</a> interface created by <b>IWiaItem::EnumDeviceCapabilities</b>.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: smi\isettingsengine.htm
 old-project: SMI
 ms.assetid: ba816a00-e238-4dbd-a09a-ad4e191d9c4e
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: ISettingsEngine, ISettingsEngine interface [SMI], ISettingsEngine interface [SMI],described, smi.isettingsengine, wcmconfig/ISettingsEngine
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,10 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The central interface for opening namespaces and controlling how they are opened.
-
-
-Unless otherwise specified, all methods return an HRESULT value.
+The central interface for opening namespaces and controlling how they are opened.Unless otherwise specified, all methods return an HRESULT value.
 
 
 ## -inheritance

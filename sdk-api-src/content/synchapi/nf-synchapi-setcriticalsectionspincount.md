@@ -4,10 +4,10 @@ title: SetCriticalSectionSpinCount function
 author: windows-sdk-content
 description: Sets the spin count for the specified critical section.
 old-location: base\setcriticalsectionspincount.htm
-old-project: sync
+old-project: Sync
 ms.assetid: 4d435c70-2e9b-4923-8726-9c8143dceb15
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/29/2018
 ms.keywords: SetCriticalSectionSpinCount, SetCriticalSectionSpinCount function, _win32_setcriticalsectionspincount, base.setcriticalsectionspincount, synchapi/SetCriticalSectionSpinCount, winbase/SetCriticalSectionSpinCount
 ms.prod: windows
 ms.technology: windows-sdk

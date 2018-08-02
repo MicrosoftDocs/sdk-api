@@ -7,7 +7,7 @@ old-location: wsw\ws_service_contract.htm
 old-project: wsw
 ms.assetid: 77bd8c1e-0596-44d7-be99-356d052ee6c1
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SERVICE_CONTRACT, WS_SERVICE_CONTRACT structure [Web Services for Windows], _WS_SERVICE_CONTRACT, webservices/WS_SERVICE_CONTRACT, wsw.ws_service_contract
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies a service contract on an <a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">endpoint</a>.
+Specifies a service contract on an <a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">endpoint</a>.
             
 
 
@@ -63,21 +62,18 @@ req.product: Windows Address Book 5.0
 
 ### -field contractDescription
 
-
-                    The typed contract metadata. See <a href="https://msdn.microsoft.com/0b2a5516-6faf-43d5-9370-a25dbc7e2843">WS_CONTRACT_DESCRIPTION</a>. Optional, if <b>defaultMessageHandlerCallback</b> is given.
+The typed contract metadata. See <a href="https://msdn.microsoft.com/0b2a5516-6faf-43d5-9370-a25dbc7e2843">WS_CONTRACT_DESCRIPTION</a>. Optional, if <b>defaultMessageHandlerCallback</b> is given.
                 
 
 
 ### -field defaultMessageHandlerCallback
 
-
-                    Callback for processing unhandled messages. Optional if contractDescription is given. 
+Callback for processing unhandled messages. Optional if contractDescription is given. 
                 
 
 
 ### -field methodTable
 
-
-                    The function table. Mandatory, if <b>contractDescription</b> is given.
+The function table. Mandatory, if <b>contractDescription</b> is given.
                 
 

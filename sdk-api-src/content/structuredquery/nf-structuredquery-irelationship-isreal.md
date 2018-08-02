@@ -7,7 +7,7 @@ old-location: search\_search_IRelationship_IsReal.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\isreal.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: IRelationship interface [search],IsReal method, IRelationship.IsReal, IRelationship::IsReal, IsReal, IsReal method [search], IsReal method [search],IRelationship interface, _search_IRelationship_IsReal, search._search_IRelationship_IsReal, structuredquery/IRelationship::IsReal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        A relationship is not considered real if its source entity derives from an entity
+A relationship is not considered real if its source entity derives from an entity
         that has a relationship of the same name. The purpose of such a "shadow" relationship
         is to store metadata specific to the inherited relationship.
       

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimer.htm
 old-project: UIAnimation
 ms.assetid: 75d29528-005e-4f49-b8ff-651b58d58fc7
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationTimer, IUIAnimationTimer interface [Windows Animation], IUIAnimationTimer interface [Windows Animation],described, uianimation.iuianimationtimer, uianimation/IUIAnimationTimer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Defines an animation timer, which provides services for managing animation timing.
+Defines an animation timer, which provides services for managing animation timing.
 
 
 ## -inheritance
@@ -75,8 +74,7 @@ The <b>IUIAnimationTimer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/981f2086-3588-4150-aa0a-c427b93ef8bb">IUIAnimationTimer::Disable</a>
 </td>
 <td align="left" width="63%">
-
-      Disables the animation timer.
+Disables the animation timer.
 
 </td>
 </tr>
@@ -85,8 +83,7 @@ The <b>IUIAnimationTimer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/b2efd694-67ff-4e6e-9a47-d0ce70dbd85a">IUIAnimationTimer::Enable</a>
 </td>
 <td align="left" width="63%">
-
-      Enables the animation timer.
+Enables the animation timer.
 
 </td>
 </tr>
@@ -95,8 +92,7 @@ The <b>IUIAnimationTimer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/32654e4b-158b-4d1a-afc7-98f90212b33b">IUIAnimationTimer::GetTime</a>
 </td>
 <td align="left" width="63%">
-
-      Gets the current time.
+Gets the current time.
 
 </td>
 </tr>
@@ -105,8 +101,7 @@ The <b>IUIAnimationTimer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/42a7e690-40bb-4795-9076-5e4bed62562d">IUIAnimationTimer::IsEnabled</a>
 </td>
 <td align="left" width="63%">
-
-      Determines whether the timer is currently enabled.
+Determines whether the timer is currently enabled.
 
 </td>
 </tr>
@@ -115,8 +110,7 @@ The <b>IUIAnimationTimer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/6e9b5278-a959-40a7-a4dc-88400a80b0e3">IUIAnimationTimer::SetFrameRateThreshold</a>
 </td>
 <td align="left" width="63%">
-
-      Sets the frame rate below which the timer notifies the application that rendering is too slow.
+Sets the frame rate below which the timer notifies the application that rendering is too slow.
 
 </td>
 </tr>
@@ -125,8 +119,7 @@ The <b>IUIAnimationTimer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ff1bae45-2199-4340-a27b-19865d2877f9">IUIAnimationTimer::SetTimerEventHandler</a>
 </td>
 <td align="left" width="63%">
-
-      Specifies a timer event handler.
+Specifies a timer event handler.
 
 </td>
 </tr>
@@ -135,8 +128,7 @@ The <b>IUIAnimationTimer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/69c5f8b2-f3c8-43aa-8dae-cedd0036dc03">IUIAnimationTimer::SetTimerUpdateHandler</a>
 </td>
 <td align="left" width="63%">
-
-      Specifies a timer update handler.
+Specifies a timer update handler.
 
 </td>
 </tr>
@@ -167,18 +159,15 @@ For an example that creates the animation timer object, see <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/8ca8f7d8-e698-4c55-8241-5c8f7b47f0e8">
-      IUIAnimationTimerClientEventHandler</a>
+<a href="https://msdn.microsoft.com/8ca8f7d8-e698-4c55-8241-5c8f7b47f0e8">IUIAnimationTimerClientEventHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d5c459e-e1f2-470b-8568-e6847acba63a">
-      IUIAnimationTimerEventHandler</a>
+<a href="https://msdn.microsoft.com/7d5c459e-e1f2-470b-8568-e6847acba63a">IUIAnimationTimerEventHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/f155ed12-d493-48a0-9bdf-0e1e79cbcd38">
-      IUIAnimationTimerUpdateHandler</a>
+<a href="https://msdn.microsoft.com/f155ed12-d493-48a0-9bdf-0e1e79cbcd38">IUIAnimationTimerUpdateHandler</a>
 
 
 

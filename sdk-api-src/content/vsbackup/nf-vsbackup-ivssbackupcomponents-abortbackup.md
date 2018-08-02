@@ -4,10 +4,10 @@ title: IVssBackupComponents::AbortBackup
 author: windows-sdk-content
 description: The AbortBackup method notifies VSS that a backup operation was terminated.
 old-location: base\ivssbackupcomponents_abortbackup.htm
-old-project: vss
+old-project: VSS
 ms.assetid: e854ab83-9a1a-4660-8a3e-37747b1b7d8c
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: AbortBackup, AbortBackup method [VSS], AbortBackup method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AbortBackup method, IVssBackupComponents.AbortBackup, IVssBackupComponents::AbortBackup, _win32_ivssbackupcomponents_abortbackup, base.ivssbackupcomponents_abortbackup, vsbackup/IVssBackupComponents::AbortBackup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,8 +121,7 @@ The backup components object is not initialized.
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
@@ -139,7 +138,7 @@ The backup components object is not initialized.
 
 
 
-<b>AbortBackup</b> generates an <a href="https://msdn.microsoft.com/library/Aa384651(v=VS.85).aspx">Abort</a> event, which is handled by each instance of each writer through the 
+<b>AbortBackup</b> generates an <a href="https://msdn.microsoft.com/en-us/library/Aa384651(v=VS.85).aspx">Abort</a> event, which is handled by each instance of each writer through the 
 <a href="https://msdn.microsoft.com/56ba5f08-4803-4137-9edd-ce05bc19773b">CVssWriter::OnAbort</a> method.
 
 

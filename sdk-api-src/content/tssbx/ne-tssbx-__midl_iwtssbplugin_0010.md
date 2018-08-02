@@ -4,10 +4,10 @@ title: "__MIDL_IWTSSBPlugin_0010"
 author: windows-sdk-content
 description: Contains values that indicate the type of status change that occurred on a Remote Desktop Session Host (RD Session Host) server or a user session.
 old-location: termserv\wtssbx_notification_type.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 06da6e20-a4de-4e2d-8f42-6d99b738226c
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: WTSSBX_NOTIFICATION_ADDED, WTSSBX_NOTIFICATION_CHANGED, WTSSBX_NOTIFICATION_REMOVED, WTSSBX_NOTIFICATION_RESYNC, WTSSBX_NOTIFICATION_TYPE, WTSSBX_NOTIFICATION_TYPE enumeration [Remote Desktop Services], __MIDL_IWTSSBPlugin_0010, termserv.wtssbx_notification_type, tssbx/WTSSBX_NOTIFICATION_ADDED, tssbx/WTSSBX_NOTIFICATION_CHANGED, tssbx/WTSSBX_NOTIFICATION_REMOVED, tssbx/WTSSBX_NOTIFICATION_RESYNC, tssbx/WTSSBX_NOTIFICATION_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-    Contains values that indicate the type of status change that occurred on a Remote Desktop Session Host (RD Session Host) server or a user session. Remote Desktop Connection Broker (RD Connection Broker) uses this enumeration type in the <a href="https://msdn.microsoft.com/226ca68e-6c3d-4160-a569-ca0b92cb9316">WTSSBX_MachineChangeNotification</a> and <a href="https://msdn.microsoft.com/00426aa2-1d22-462f-9ad1-2a63d151493d">WTSSBX_SessionChangeNotification</a> methods to notify the plug-in about changes that have occurred.
+Contains values that indicate the type of status change that occurred on a Remote Desktop Session Host (RD Session Host) server or a user session. Remote Desktop Connection Broker (RD Connection Broker) uses this enumeration type in the <a href="https://msdn.microsoft.com/226ca68e-6c3d-4160-a569-ca0b92cb9316">WTSSBX_MachineChangeNotification</a> and <a href="https://msdn.microsoft.com/00426aa2-1d22-462f-9ad1-2a63d151493d">WTSSBX_SessionChangeNotification</a> methods to notify the plug-in about changes that have occurred.
 
 
 ## -enum-fields

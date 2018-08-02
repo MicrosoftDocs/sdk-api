@@ -7,7 +7,7 @@ old-location: wsw\wsgetchannelproperty.htm
 old-project: wsw
 ms.assetid: 6f3440d2-90cc-4312-bb08-51f08b864cc7
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetChannelProperty, WsGetChannelProperty function [Web Services for Windows], webservices/WsGetChannelProperty, wsw.wsgetchannelproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ Represents an identifier of the property to retrieve.
 
 ### -param value
 
-
-                    A void pointer referencing the location to store the retrieved property.
+A void pointer referencing the location to store the retrieved property.
                     <div class="alert"><b>Note</b>  The pointer must have an alignment compatible with the type
                     of the property.
                 </div>
@@ -125,7 +124,6 @@ The property Id was not supported for this object or the specified buffer was no
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>

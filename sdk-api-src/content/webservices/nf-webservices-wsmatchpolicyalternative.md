@@ -7,7 +7,7 @@ old-location: wsw\wsmatchpolicyalternative.htm
 old-project: wsw
 ms.assetid: 6e5f352b-5422-4bba-9525-7850bdddf0a5
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsMatchPolicyAlternative, WsMatchPolicyAlternative function [Web Services for Windows], webservices/WsMatchPolicyAlternative, wsw.wsmatchpolicyalternative
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,8 +96,7 @@ A pointer to
 
 ### -param matchRequired [in]
 
-
-                    Indicates whether a match is required or not.  
+Indicates whether a match is required or not.  
                 <div class="alert"><b>Note</b>  If the value is <b>FALSE</b> a match is not required, and in conjunction with a non-matching policy alternative, the function returns
                     S_FALSE.
                 If the value of this parameter is <b>TRUE</b> a match is required,  and if the policy does not match, the function returns an 
@@ -109,8 +108,7 @@ A pointer to
 
 ### -param heap [in]
 
-
-                   A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn926854">Heap</a> object used to store any data requiring allocation
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn926854">Heap</a> object used to store any data requiring allocation
                    beyond the specified constraint. <div class="alert"><b>Note</b>  For example pointer types within the constraint "out" fields is allocated using this Heap.
                 </div>
 <div> </div>
@@ -141,7 +139,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -153,13 +150,11 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
-                    The policy alternative does not meet the specified constraints.
+The policy alternative does not meet the specified constraints.
                     and matchRequired was set to <b>TRUE</b>.
                 
 
-
-                    The policy or other metadata was in an invalid format.
+The policy or other metadata was in an invalid format.
                 
 
 </td>
@@ -171,8 +166,7 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
-                    The policy alternative does not meet the specified constraints.
+The policy alternative does not meet the specified constraints.
                     and matchRequired was set to <b>FALSE</b>.
                 
 
@@ -185,8 +179,7 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
-                    The policy alternative meets the specific constraints.  The <b>out</b> fields
+The policy alternative meets the specific constraints.  The <b>out</b> fields
                     of the constraints structures have been filled with values from the policy.
                 
 
@@ -202,8 +195,7 @@ One or more arguments are invalid.
 
 
 
-
-                Each of these data types contain a struct field called "out".  
+Each of these data types contain a struct field called "out".  
                 
 
 <ul>

@@ -7,7 +7,7 @@ old-location: winmsg\mdicreatestruct.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacestructures\mdicreatestruct.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPMDICREATESTRUCTA, LPMDICREATESTRUCT, LPMDICREATESTRUCT structure pointer [Windows and Messages], MDICREATESTRUCT, MDICREATESTRUCT structure [Windows and Messages], MDICREATESTRUCTA, MDICREATESTRUCTW, WS_HSCROLL, WS_MAXIMIZE, WS_MINIMIZE, WS_VSCROLL, _win32_MDICREATESTRUCT_str, _win32_mdicreatestruct_str_cpp, tagMDICREATESTRUCTA, winmsg.mdicreatestruct, winui._win32_mdicreatestruct_str, winuser/LPMDICREATESTRUCT, winuser/MDICREATESTRUCT, winuser/MDICREATESTRUCTA, winuser/MDICREATESTRUCTW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ Contains information about the class, title, owner, location, and size of a mult
 
 Type: <b>LPCTSTR</b>
 
-The name of the window class of the MDI child window. The class name must have been registered by a previous call to the <a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a> function. 
+The name of the window class of the MDI child window. The class name must have been registered by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a> function. 
 
 
 ### -field szTitle
@@ -115,7 +115,7 @@ The initial height, in device units, of the MDI child window. If this member is 
 Type: <b>DWORD</b>
 
 
-The style of the MDI child window. If the MDI client window was created with the <b>MDIS_ALLCHILDSTYLES</b> window style, this member can be any combination of the window styles listed in the <a href="https://msdn.microsoft.com/library/ms632600(v=VS.85).aspx">Window Styles</a> page. Otherwise, this member can be one or more of the following values. 
+The style of the MDI child window. If the MDI client window was created with the <b>MDIS_ALLCHILDSTYLES</b> window style, this member can be any combination of the window styles listed in the <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">Window Styles</a> page. Otherwise, this member can be one or more of the following values. 
 
 
 
@@ -183,10 +183,9 @@ An application-defined value.
 
 
 
-
-            When the MDI client window creates an MDI child window
-            by calling <a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a>, the system sends a <a href="https://msdn.microsoft.com/library/ms632619(v=VS.85).aspx">WM_CREATE</a> message to the created window. The <i>lParam</i> member of the <b>WM_CREATE</b> message contains a pointer to a <a href="https://msdn.microsoft.com/library/ms632603(v=VS.85).aspx">CREATESTRUCT</a> structure. The 
-				<b>lpCreateParams</b> member of this structure contains a pointer to the <b>MDICREATESTRUCT</b> structure passed with the <a href="https://msdn.microsoft.com/library/ms644913(v=VS.85).aspx">WM_MDICREATE</a> message that created the MDI child window.
+When the MDI client window creates an MDI child window
+            by calling <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a>, the system sends a <a href="https://msdn.microsoft.com/en-us/library/ms632619(v=VS.85).aspx">WM_CREATE</a> message to the created window. The <i>lParam</i> member of the <b>WM_CREATE</b> message contains a pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms632603(v=VS.85).aspx">CREATESTRUCT</a> structure. The 
+				<b>lpCreateParams</b> member of this structure contains a pointer to the <b>MDICREATESTRUCT</b> structure passed with the <a href="https://msdn.microsoft.com/en-us/library/ms644913(v=VS.85).aspx">WM_MDICREATE</a> message that created the MDI child window.
 
 
 
@@ -196,11 +195,11 @@ An application-defined value.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632602(v=VS.85).aspx">CLIENTCREATESTRUCT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632602(v=VS.85).aspx">CLIENTCREATESTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632603(v=VS.85).aspx">CREATESTRUCT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632603(v=VS.85).aspx">CREATESTRUCT</a>
 
 
 
@@ -208,7 +207,7 @@ An application-defined value.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632591(v=VS.85).aspx">Multiple Document Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632591(v=VS.85).aspx">Multiple Document Interface</a>
 
 
 
@@ -216,7 +215,7 @@ An application-defined value.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632619(v=VS.85).aspx">WM_CREATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632619(v=VS.85).aspx">WM_CREATE</a>
  
 
  

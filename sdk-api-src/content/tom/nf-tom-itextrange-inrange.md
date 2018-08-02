@@ -4,10 +4,10 @@ title: ITextRange::InRange
 author: windows-sdk-content
 description: Determines whether this range is within or at the same text as a specified range.
 old-location: controls\ITextRange_InRange.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\inrange.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextRange interface [Windows Controls],InRange method, ITextRange.InRange, ITextRange::InRange, InRange, InRange method [Windows Controls], InRange method [Windows Controls],ITextRange interface, _win32_ITextRange_InRange, _win32_ITextRange_InRange_cpp, controls.ITextRange_InRange, controls._win32_ITextRange_InRange, tom/ITextRange::InRange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Determines whether this range is within or at the same text as a specified range
 
 ### -param pRange
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>*</b>
 
 Text that is compared to the current range. 
 
@@ -100,8 +100,7 @@ For range2 to be contained in range1, both ranges must be in the same story, and
 				either of the following statements. 
 
 <ul>
-<li>
-						The start and end character positions of range1 are the same as range2. That is, both ranges are degenerate and have identical insertion points. </li>
+<li>The start and end character positions of range1 are the same as range2. That is, both ranges are degenerate and have identical insertion points. </li>
 <li>Range2 is a nondegenerate range with start and end character positions at or within those of range1. </li>
 </ul>
 The following example shows how to walk one range with another. 
@@ -120,11 +119,11 @@ The following example shows how to walk one range with another.
 </td>
 </tr>
 </table></span></div>
-When the <a href="https://msdn.microsoft.com/library/Bb787783(v=VS.85).aspx">ITextRange::FindText</a>, <a href="https://msdn.microsoft.com/library/Bb774088(v=VS.85).aspx">ITextRange::MoveWhile</a>, and <a href="https://msdn.microsoft.com/library/Bb774084(v=VS.85).aspx">ITextRange::MoveUntil</a> method families are used, you can use one range to walk another by specifying the appropriate limit count of characters (for an example, see the Remarks in 
+When the <a href="https://msdn.microsoft.com/en-us/library/Bb787783(v=VS.85).aspx">ITextRange::FindText</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb774088(v=VS.85).aspx">ITextRange::MoveWhile</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb774084(v=VS.85).aspx">ITextRange::MoveUntil</a> method families are used, you can use one range to walk another by specifying the appropriate limit count of characters (for an example, see the Remarks in 
 				<b>ITextRange::Find</b>).
 
 
-<a href="https://msdn.microsoft.com/library/Bb787841(v=VS.85).aspx">ITextRange::IsEqual</a> is a special case of <b>ITextRange::InRange</b> that returns <i>pB</i> <b>tomTrue</b> if the <i>pRange</i> has the same start and end character positions and belongs to the same story.
+<a href="https://msdn.microsoft.com/en-us/library/Bb787841(v=VS.85).aspx">ITextRange::IsEqual</a> is a special case of <b>ITextRange::InRange</b> that returns <i>pB</i> <b>tomTrue</b> if the <i>pRange</i> has the same start and end character positions and belongs to the same story.
 
 
 
@@ -138,19 +137,19 @@ When the <a href="https://msdn.microsoft.com/library/Bb787783(v=VS.85).aspx">ITe
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787783(v=VS.85).aspx">FindText</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787783(v=VS.85).aspx">FindText</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774084(v=VS.85).aspx">MoveUntil</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774084(v=VS.85).aspx">MoveUntil</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774088(v=VS.85).aspx">MoveWhile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774088(v=VS.85).aspx">MoveWhile</a>
 
 
 
@@ -158,7 +157,7 @@ When the <a href="https://msdn.microsoft.com/library/Bb787783(v=VS.85).aspx">ITe
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

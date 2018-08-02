@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_islocal.htm
 old-project: WmiSdk
 ms.assetid: 28f33c70-095f-4bf0-98fa-29c5bb57f583
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],IsLocal method, IWbemPath.IsLocal, IWbemPath::IsLocal, IsLocal, IsLocal method [Windows Management Instrumentation], IsLocal method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_islocal, wmi.iwbempath_islocal, wmiutils/IWbemPath::IsLocal
 ms.prod: windows
 ms.technology: windows-sdk

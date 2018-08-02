@@ -4,10 +4,10 @@ title: ITCustomTone
 author: windows-sdk-content
 description: The ITCustomTone interface exposes methods that allow detailed control over the custom tones that are available with some phone sets.
 old-location: tapi3\itcustomtone.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: f2c51048-93aa-4469-b00e-911e62b5702d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITCustomTone, ITCustomTone interface [TAPI 2.2], ITCustomTone interface [TAPI 2.2],described, _tapi3_itcustomtone, tapi3.itcustomtone, tapi3if/ITCustomTone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCustomTone</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITCustomTone</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCustomTone</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITCustomTone</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

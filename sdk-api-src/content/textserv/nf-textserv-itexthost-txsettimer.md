@@ -4,10 +4,10 @@ title: ITextHost::TxSetTimer
 author: windows-sdk-content
 description: Requests the text host to create a timer with a specified time-out.
 old-location: controls\ITextHost_TxSetTimer.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsettimer.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextHost interface [Windows Controls],TxSetTimer method, ITextHost.TxSetTimer, ITextHost::TxSetTimer, TxSetTimer, TxSetTimer method [Windows Controls], TxSetTimer method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetTimer, _win32_ITextHost_TxSetTimer_cpp, controls.ITextHost_TxSetTimer, controls._win32_ITextHost_TxSetTimer, textserv/ITextHost::TxSetTimer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ Return <b>FALSE</b> if the method fails.
 
 
 
-<i>idTimer</i> is used in <a href="https://msdn.microsoft.com/library/Bb787708(v=VS.85).aspx">ITextHost::TxKillTimer</a>.
+<i>idTimer</i> is used in <a href="https://msdn.microsoft.com/en-us/library/Bb787708(v=VS.85).aspx">ITextHost::TxKillTimer</a>.
 
 
 
@@ -104,7 +104,7 @@ Return <b>FALSE</b> if the method fails.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
 
 
 
@@ -112,11 +112,11 @@ Return <b>FALSE</b> if the method fails.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787708(v=VS.85).aspx">TxKillTimer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787708(v=VS.85).aspx">TxKillTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
  
 
  

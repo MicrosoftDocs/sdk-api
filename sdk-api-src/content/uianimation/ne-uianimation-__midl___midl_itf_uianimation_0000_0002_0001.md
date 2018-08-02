@@ -7,7 +7,7 @@ old-location: uianimation\ui_animation_storyboard_status.htm
 old-project: UIAnimation
 ms.assetid: 02830092-0070-44dc-8db2-239941134473
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: UI_ANIMATION_STORYBOARD_BUILDING, UI_ANIMATION_STORYBOARD_CANCELLED, UI_ANIMATION_STORYBOARD_FINISHED, UI_ANIMATION_STORYBOARD_INSUFFICIENT_PRIORITY, UI_ANIMATION_STORYBOARD_PLAYING, UI_ANIMATION_STORYBOARD_READY, UI_ANIMATION_STORYBOARD_SCHEDULED, UI_ANIMATION_STORYBOARD_STATUS, UI_ANIMATION_STORYBOARD_STATUS enumeration [Windows Animation], UI_ANIMATION_STORYBOARD_TRUNCATED, __MIDL___MIDL_itf_UIAnimation_0000_0002_0001, uianimation.ui_animation_storyboard_status, uianimation/UI_ANIMATION_STORYBOARD_BUILDING, uianimation/UI_ANIMATION_STORYBOARD_CANCELLED, uianimation/UI_ANIMATION_STORYBOARD_FINISHED, uianimation/UI_ANIMATION_STORYBOARD_INSUFFICIENT_PRIORITY, uianimation/UI_ANIMATION_STORYBOARD_PLAYING, uianimation/UI_ANIMATION_STORYBOARD_READY, uianimation/UI_ANIMATION_STORYBOARD_SCHEDULED, uianimation/UI_ANIMATION_STORYBOARD_STATUS, uianimation/UI_ANIMATION_STORYBOARD_TRUNCATED
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-         Defines  the status for a storyboard.
+Defines  the status for a storyboard.
 
 
 ## -enum-fields
@@ -62,50 +61,42 @@ req.product: Windows XP with SP1 and later
 
 ### -field UI_ANIMATION_STORYBOARD_BUILDING
 
-
-               The storyboard has never been scheduled.
+The storyboard has never been scheduled.
 
 
 ### -field UI_ANIMATION_STORYBOARD_SCHEDULED
 
-
-               The storyboard is scheduled to play.
+The storyboard is scheduled to play.
 
 
 ### -field UI_ANIMATION_STORYBOARD_CANCELLED
 
-
-               The storyboard was canceled.
+The storyboard was canceled.
 
 
 ### -field UI_ANIMATION_STORYBOARD_PLAYING
 
-
-               The storyboard is currently playing.
+The storyboard is currently playing.
 
 
 ### -field UI_ANIMATION_STORYBOARD_TRUNCATED
 
-
-               The storyboard was truncated.
+The storyboard was truncated.
 
 
 ### -field UI_ANIMATION_STORYBOARD_FINISHED
 
-
-               The storyboard has finished playing.
+The storyboard has finished playing.
 
 
 ### -field UI_ANIMATION_STORYBOARD_READY
 
-
-               The storyboard is built and ready for scheduling.
+The storyboard is built and ready for scheduling.
 
 
 ### -field UI_ANIMATION_STORYBOARD_INSUFFICIENT_PRIORITY
 
-
-               Scheduling the storyboard failed because a scheduling conflict occurred and the currently scheduled storyboard has higher priority.
+Scheduling the storyboard failed because a scheduling conflict occurred and the currently scheduled storyboard has higher priority.
 
 
 ## -remarks
@@ -134,13 +125,11 @@ The following diagram illustrates the transitions between these states.
 
 
 
-<a href="https://msdn.microsoft.com/8ee9a17f-c57c-49df-950d-491e05ba8768">
-               IUIAnimationStoryboard::GetStatus</a>
+<a href="https://msdn.microsoft.com/8ee9a17f-c57c-49df-950d-491e05ba8768">IUIAnimationStoryboard::GetStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1ccf0e3-64fc-444e-a27b-1a5bc1d9d6fd">
-               IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged</a>
+<a href="https://msdn.microsoft.com/e1ccf0e3-64fc-444e-a27b-1a5bc1d9d6fd">IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged</a>
  
 
  

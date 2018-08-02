@@ -7,7 +7,7 @@ old-location: inputdev\rawhid.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rawhid.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPRAWHID, *PRAWHID, LPRAWHID, LPRAWHID structure pointer [Keyboard and Mouse Input], PRAWHID, PRAWHID structure pointer [Keyboard and Mouse Input], RAWHID, RAWHID structure [Keyboard and Mouse Input], _win32_RAWHID_str, _win32_rawhid_str_cpp, inputdev.rawhid, tagRAWHID, winui._win32_rawhid_str, winuser/LPRAWHID, winuser/PRAWHID, winuser/RAWHID"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ The raw input data, as an array of bytes.
 
 
 
-Each <a href="https://msdn.microsoft.com/library/ms645590(v=VS.85).aspx">WM_INPUT</a> can indicate several inputs, but all of the inputs come from the same HID. The size of the <b>bRawData</b> array is <b>dwSizeHid</b> *	<b>dwCount</b>.
+Each <a href="https://msdn.microsoft.com/en-us/library/ms645590(v=VS.85).aspx">WM_INPUT</a> can indicate several inputs, but all of the inputs come from the same HID. The size of the <b>bRawData</b> array is <b>dwSizeHid</b> *	<b>dwCount</b>.
 
 
 
@@ -98,11 +98,11 @@ Each <a href="https://msdn.microsoft.com/library/ms645590(v=VS.85).aspx">WM_INPU
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645562(v=VS.85).aspx">RAWINPUT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645536(v=VS.85).aspx">Raw Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>
 
 
 
@@ -110,7 +110,7 @@ Each <a href="https://msdn.microsoft.com/library/ms645590(v=VS.85).aspx">WM_INPU
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645590(v=VS.85).aspx">WM_INPUT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645590(v=VS.85).aspx">WM_INPUT</a>
  
 
  

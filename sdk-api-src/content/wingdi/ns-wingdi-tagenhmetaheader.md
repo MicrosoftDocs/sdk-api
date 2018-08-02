@@ -7,7 +7,7 @@ old-location: gdi\enhmetaheader.htm
 old-project: gdi
 ms.assetid: 8e5f9a51-a995-48be-b936-1766fccb603a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPENHMETAHEADER, *PENHMETAHEADER, ENHMETAHEADER, ENHMETAHEADER structure [Windows GDI], PENHMETAHEADER, PENHMETAHEADER structure pointer [Windows GDI], _win32_ENHMETAHEADER_str, gdi.enhmetaheader, tagENHMETAHEADER, wingdi/ENHMETAHEADER, wingdi/PENHMETAHEADER"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -147,8 +147,7 @@ The resolution of the reference device, in millimeters.
 
 ### -field cbPixelFormat
 
-
-             The size of the last recorded pixel format in a metafile. 
+The size of the last recorded pixel format in a metafile. 
 	 If a pixel format is set in a reference DC at the start of recording, <i>cbPixelFormat</i> is set to the size of the <a href="https://msdn.microsoft.com/1480dea3-ae74-4e8b-b4de-fca8de5d8395">PIXELFORMATDESCRIPTOR</a>. 
 	 When no pixel format is set when a metafile is recorded, this member is set to zero. 
 	 If more than a single pixel format is set, the header points to the last pixel format.
@@ -156,8 +155,7 @@ The resolution of the reference device, in millimeters.
 
 ### -field offPixelFormat
 
-
-             The offset of pixel format used when recording a metafile. 
+The offset of pixel format used when recording a metafile. 
 	 If a pixel format is set in a reference DC at the start of recording or during recording, 
 	 <i>offPixelFormat</i> is set to the offset of the <a href="https://msdn.microsoft.com/1480dea3-ae74-4e8b-b4de-fca8de5d8395">PIXELFORMATDESCRIPTOR</a> in the metafile. 
 	 If no pixel format is set when a metafile is recorded, this member is set to zero. 
@@ -166,16 +164,14 @@ The resolution of the reference device, in millimeters.
 
 ### -field bOpenGL
 
-
-             Indicates whether any OpenGL records are present in a metafile. 
+Indicates whether any OpenGL records are present in a metafile. 
 	 <i>bOpenGL</i> is a simple Boolean flag that you can use to determine whether an enhanced metafile requires OpenGL handling. 
 	 When a metafile contains OpenGL records, <i>bOpenGL</i> is <b>TRUE</b>; otherwise it is <b>FALSE</b>.
 
 
 ### -field szlMicrometers
 
-
-            The size of the reference device, in micrometers.
+The size of the reference device, in micrometers.
 
 
 ## -see-also

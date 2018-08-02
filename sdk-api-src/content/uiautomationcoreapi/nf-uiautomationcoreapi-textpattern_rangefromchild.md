@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextPattern_RangeFromChildConPat.htm
 old-project: WinAuto
 ms.assetid: 9745b837-f185-48c5-94d6-30c93fa58313
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: TextPattern_RangeFromChild, TextPattern_RangeFromChild function [Windows Accessibility], uiauto.uiauto_TextPattern_RangeFromChildConPat, uiauto_TextPattern_RangeFromChildConPat, uiautomationcoreapi/TextPattern_RangeFromChild, winauto.uiauto_TextPattern_RangeFromChildConPat
 ms.prod: windows
 ms.technology: windows-sdk

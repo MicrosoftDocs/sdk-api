@@ -7,7 +7,7 @@ old-location: wsw\ws_validate_saml_callback.htm
 old-project: wsw
 ms.assetid: 72cc10ae-ba0e-4f3a-a376-c0b1999b074e
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_VALIDATE_SAML_CALLBACK, WS_VALIDATE_SAML_CALLBACK callback, WS_VALIDATE_SAML_CALLBACK callback function [Web Services for Windows], webservices/WS_VALIDATE_SAML_CALLBACK, wsw.ws_validate_saml_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,6 @@ this callback will result in the associated receive message failing
 with a security error.
             
 
-
 As with all security callbacks, the application should expect to
 receive this callback any time between listener open and close, but it
 will never be invoked when a listener is not open.
@@ -77,20 +76,17 @@ will never be invoked when a listener is not open.
 
 ### -param *samlValidatorCallbackState [in, optional]
 
-
 The state to be passed back when invoking this callback.
                 
 
 
 ### -param *samlAssertion [in]
 
-
 The received SAML assertion that has undergone a successful signature check.
                 
 
 
 ### -param *error [in, optional]
-
 
 Specifies where additional error information should be stored if the function fails.
                 

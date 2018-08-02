@@ -7,7 +7,7 @@ old-location: inputdev\setdoubleclicktime.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\setdoubleclicktime.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: SetDoubleClickTime, SetDoubleClickTime function [Keyboard and Mouse Input], _win32_SetDoubleClickTime, _win32_setdoubleclicktime_cpp, inputdev.setdoubleclicktime, winui._win32_setdoubleclicktime, winuser/SetDoubleClickTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,11 +105,11 @@ The <b>SetDoubleClickTime</b> function alters the double-click time for all wind
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646258(v=VS.85).aspx">GetDoubleClickTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646258(v=VS.85).aspx">GetDoubleClickTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
 
 
 

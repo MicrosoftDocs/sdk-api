@@ -7,7 +7,7 @@ old-location: wsw\ws_metadata_endpoint.htm
 old-project: wsw
 ms.assetid: ce2a45a8-c2e6-4867-b8f1-dcc4f137ef94
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_METADATA_ENDPOINT, WS_METADATA_ENDPOINT structure [Web Services for Windows], _WS_METADATA_ENDPOINT, webservices/WS_METADATA_ENDPOINT, wsw.ws_metadata_endpoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Information about a single endpoint that was
+Information about a single endpoint that was
                 read from metadata documents.
             
 
@@ -64,15 +63,13 @@ req.product: Windows Address Book 5.0
 
 ### -field endpointAddress
 
-
-                    The address of the endpoint.
+The address of the endpoint.
                 
 
 
 ### -field endpointPolicy
 
-
-                    An opaque handle representing the policy of the endpoint.  
+An opaque handle representing the policy of the endpoint.  
                     This handle is good until the metadata object
                     is freed or reset.
                 
@@ -80,49 +77,42 @@ req.product: Windows Address Book 5.0
 
 ### -field portName
 
-
-                    The WSDL port name of the endpoint, if available.
+The WSDL port name of the endpoint, if available.
                 
 
 
 ### -field serviceName
 
-
-                    The WSDL service name of the endpoint, if available.
+The WSDL service name of the endpoint, if available.
                 
 
 
 ### -field serviceNs
 
-
-                    The WSDL service namespace of the endpoint, if available.
+The WSDL service namespace of the endpoint, if available.
                 
 
 
 ### -field bindingName
 
-
-                    The WSDL binding name of the endpoint, if available.
+The WSDL binding name of the endpoint, if available.
                 
 
 
 ### -field bindingNs
 
-
-                    The WSDL binding namespace of the endpoint, if available.
+The WSDL binding namespace of the endpoint, if available.
                 
 
 
 ### -field portTypeName
 
-
-                    The WSDL portType name of the endpoint, if available.
+The WSDL portType name of the endpoint, if available.
                 
 
 
 ### -field portTypeNs
 
-
-                    The WSDL portType namespace of the endpoint, if available.
+The WSDL portType namespace of the endpoint, if available.
                 
 

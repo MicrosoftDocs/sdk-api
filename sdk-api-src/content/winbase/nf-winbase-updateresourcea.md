@@ -7,7 +7,7 @@ old-location: menurc\updateresource.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\updateresource.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: UpdateResource, UpdateResource function [Menus and Other Resources], UpdateResourceA, UpdateResourceW, _win32_UpdateResource, _win32_updateresource_cpp, menurc.updateresource, winbase/UpdateResource, winbase/UpdateResourceA, winbase/UpdateResourceW, winui._win32_updateresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,25 +65,25 @@ Adds, deletes, or replaces a resource in a portable executable (PE) file. There 
 
 Type: <b>HANDLE</b>
 
-A module handle returned by the <a href="https://msdn.microsoft.com/library/ms648030(v=VS.85).aspx">BeginUpdateResource</a> function, referencing the file to be updated. 
+A module handle returned by the <a href="https://msdn.microsoft.com/en-us/library/ms648030(v=VS.85).aspx">BeginUpdateResource</a> function, referencing the file to be updated. 
 
 
 ### -param lpType [in]
 
 Type: <b>LPCTSTR</b>
 
-The resource type to be updated. Alternatively, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. If the first character of the string is a pound sign (#), then the remaining characters represent a 
+The resource type to be updated. Alternatively, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. If the first character of the string is a pound sign (#), then the remaining characters represent a 
 
 decimal number that specifies the integer identifier of the resource type. For example, the string "#258" represents the identifier 258. 
 
-For a list of predefined resource types, see <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">Resource Types</a>. 
+For a list of predefined resource types, see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">Resource Types</a>. 
 
 
 ### -param lpName [in]
 
 Type: <b>LPCTSTR</b>
 
-The name of the resource to be updated. Alternatively, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>(ID), where ID is a resource ID. When creating a new resource do not use a string that begins with a '#' character for this parameter.
+The name of the resource to be updated. Alternatively, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>(ID), where ID is a resource ID. When creating a new resource do not use a string that begins with a '#' character for this parameter.
 
 
 ### -param wLanguage [in]
@@ -97,7 +97,7 @@ The <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">la
 
 Type: <b>LPVOID</b>
 
-The resource data to be inserted into the file indicated by <i>hUpdate</i>. If the resource is one of the predefined types, the data must be valid and properly aligned. Note that this is the raw binary data to be stored in the file indicated by <i>hUpdate</i>, not the data provided by <a href="https://msdn.microsoft.com/library/ms648072(v=VS.85).aspx">LoadIcon</a>, <a href="https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx">LoadString</a>, or other resource-specific load functions. All data containing strings or text must be in Unicode format. <i>lpData</i> must not point to ANSI data.
+The resource data to be inserted into the file indicated by <i>hUpdate</i>. If the resource is one of the predefined types, the data must be valid and properly aligned. Note that this is the raw binary data to be stored in the file indicated by <i>hUpdate</i>, not the data provided by <a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a>, or other resource-specific load functions. All data containing strings or text must be in Unicode format. <i>lpData</i> must not point to ANSI data.
 
     				
 
@@ -135,7 +135,7 @@ Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended err
 
 It is recommended that the resource file is not loaded before this function is called. However, if that file is already loaded, it will not cause an error to be returned.
 
-An application can use <b>UpdateResource</b> repeatedly to make changes to the resource data. Each call to <b>UpdateResource</b> contributes to an internal list of additions, deletions, and replacements but does not actually write the data to the file indicated by <i>hUpdate</i>. The application must use the <a href="https://msdn.microsoft.com/library/ms648032(v=VS.85).aspx">EndUpdateResource</a> function to write the accumulated changes to the file.
+An application can use <b>UpdateResource</b> repeatedly to make changes to the resource data. Each call to <b>UpdateResource</b> contributes to an internal list of additions, deletions, and replacements but does not actually write the data to the file indicated by <i>hUpdate</i>. The application must use the <a href="https://msdn.microsoft.com/en-us/library/ms648032(v=VS.85).aspx">EndUpdateResource</a> function to write the accumulated changes to the file.
 
 This function can update resources within modules that contain both code and resources.
 
@@ -195,7 +195,7 @@ This function can update resources within modules that contain both code and res
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms648008(v=VS.85).aspx">Updating Resources</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648008(v=VS.85).aspx">Updating Resources</a>.
 
 <div class="code"></div>
 
@@ -206,7 +206,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648008(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648030(v=VS.85).aspx">BeginUpdateResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648030(v=VS.85).aspx">BeginUpdateResource</a>
 
 
 
@@ -214,23 +214,23 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648008(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648032(v=VS.85).aspx">EndUpdateResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648032(v=VS.85).aspx">EndUpdateResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648072(v=VS.85).aspx">LoadIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx">LoadString</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648047(v=VS.85).aspx">LockResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648047(v=VS.85).aspx">LockResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>
 
 
 
@@ -246,11 +246,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648008(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632583(v=VS.85).aspx">Resources</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632583(v=VS.85).aspx">Resources</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648048(v=VS.85).aspx">SizeofResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648048(v=VS.85).aspx">SizeofResource</a>
  
 
  

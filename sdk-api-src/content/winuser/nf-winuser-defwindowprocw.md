@@ -7,7 +7,7 @@ old-location: winmsg\defwindowproc.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowprocedures\windowprocedurereference\windowprocedurefunctions\defwindowproc.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: DefWindowProc, DefWindowProc function [Windows and Messages], DefWindowProcA, DefWindowProcW, _win32_DefWindowProc, _win32_defwindowproc_cpp, winmsg.defwindowproc, winui._win32_defwindowproc, winuser/DefWindowProc, winuser/DefWindowProcA, winuser/DefWindowProcW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,7 +116,7 @@ The return value is the result of the message processing and depends on the mess
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633571(v=VS.85).aspx">CallWindowProc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633571(v=VS.85).aspx">CallWindowProc</a>
 
 
 
@@ -124,7 +124,7 @@ The return value is the result of the message processing and depends on the mess
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645450(v=VS.85).aspx">DefDlgProc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645450(v=VS.85).aspx">DefDlgProc</a>
 
 
 
@@ -132,11 +132,11 @@ The return value is the result of the message processing and depends on the mess
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632593(v=VS.85).aspx">Window Procedures</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632593(v=VS.85).aspx">Window Procedures</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx">WindowProc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx">WindowProc</a>
  
 
  

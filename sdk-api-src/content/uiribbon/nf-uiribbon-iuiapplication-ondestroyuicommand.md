@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiapplication_ondestroyuicommand.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\ondestroyuicommand.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: IUIApplication interface [Windows Ribbon],OnDestroyUICommand method, IUIApplication.OnDestroyUICommand, IUIApplication::OnDestroyUICommand, OnDestroyUICommand, OnDestroyUICommand method [Windows Ribbon], OnDestroyUICommand method [Windows Ribbon],IUIApplication interface, scenicintent_IUIApplication_OnDestroyUICommand, uiribbon/IUIApplication::OnDestroyUICommand, windowsribbon.windowsribbon_iuiapplication_ondestroyuicommand
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,26 +64,23 @@ Called for each Command specified in the Windows Ribbon framework markup when th
 
 Type: <b>UINT32</b>
 
-
-					The ID for the Command,  which is specified in the markup resource file.
+The ID for the Command,  which is specified in the markup resource file.
 				
 
 
 ### -param typeID [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Dd371556(v=VS.85).aspx">UI_COMMANDTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371556(v=VS.85).aspx">UI_COMMANDTYPE</a></b>
 
-
-					The <a href="https://msdn.microsoft.com/library/Dd371556(v=VS.85).aspx">Command type</a> that is associated with a specific control.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd371556(v=VS.85).aspx">Command type</a> that is associated with a specific control.
 				
 
 
 ### -param commandHandler [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a>*</b>
 
-
-					A pointer to an <a href="https://msdn.microsoft.com/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a> object. This value can be <b>NULL</b>. 
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a> object. This value can be <b>NULL</b>. 
 					
 
 
@@ -154,11 +151,11 @@ STDMETHODIMP CApplication::OnDestroyUICommand(
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371528(v=VS.85).aspx">IUIApplication</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371528(v=VS.85).aspx">IUIApplication</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
  
 
  

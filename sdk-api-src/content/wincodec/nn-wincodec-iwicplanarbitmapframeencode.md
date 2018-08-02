@@ -7,7 +7,7 @@ old-location: wic\iwicplanarbitmapframeencode.htm
 old-project: wic
 ms.assetid: 7ACA58CC-E132-4836-B955-322375ADDAA1
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWICPlanarBitmapFrameEncode, IWICPlanarBitmapFrameEncode interface [Windows Imaging Component], IWICPlanarBitmapFrameEncode interface [Windows Imaging Component],described, wic.iwicplanarbitmapframeencode, wincodec/IWICPlanarBitmapFrameEncode
 ms.prod: windows
 ms.technology: windows-sdk

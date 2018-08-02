@@ -7,7 +7,7 @@ old-location: xaudio2\xapo_registration_properties.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapo.XAPO_REGISTRATION_PROPERTIES
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: XAPO_REGISTRATION_PROPERTIES, XAPO_REGISTRATION_PROPERTIES structure [XAudio2 Audio Mixing APIs], xapo/XAPO_REGISTRATION_PROPERTIES, xaudio2.xapo_registration_properties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,8 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 
 
 Describes general characteristics of an XAPO. Used with 
-	 <a href="https://msdn.microsoft.com/library/Ee418451(v=VS.85).aspx">IXAPO::GetRegistrationProperties</a>, <a href="https://msdn.microsoft.com/library/Ee416386(v=VS.85).aspx">CXAPOParametersBase::CXAPOParametersBase</a>, and 
-	 <a href="https://msdn.microsoft.com/library/Ee416373(v=VS.85).aspx">CXAPOBase::CXAPOBase</a>. 
+	 <a href="https://msdn.microsoft.com/en-us/library/Ee418451(v=VS.85).aspx">IXAPO::GetRegistrationProperties</a>, <a href="https://msdn.microsoft.com/en-us/library/Ee416386(v=VS.85).aspx">CXAPOParametersBase::CXAPOParametersBase</a>, and 
+	 <a href="https://msdn.microsoft.com/en-us/library/Ee416373(v=VS.85).aspx">CXAPOBase::CXAPOBase</a>. 
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: wsw\ws_default_windows_integrated_auth_credential.htm
 old-project: wsw
 ms.assetid: 14753a2d-6054-4041-a72b-4cd7a9576f3b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL structure [Web Services for Windows], _WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, webservices/WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, wsw.ws_default_windows_integrated_auth_credential
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,6 @@ This type derives from the base type <a href="https://msdn.microsoft.com/78df263
 
 
 ### -field credential
-
 
 The base type from which this type and all other Windows Integrated Authentication credential types derive.
                 See <a href="https://msdn.microsoft.com/78df2636-439b-4e55-8ca5-dc0f4f4ad745">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.

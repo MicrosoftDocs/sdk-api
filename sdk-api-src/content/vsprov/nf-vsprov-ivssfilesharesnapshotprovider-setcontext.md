@@ -4,10 +4,10 @@ title: IVssFileShareSnapshotProvider::SetContext
 author: windows-sdk-content
 description: Sets the context for the subsequent shadow copy-related operations.
 old-location: base\ivssfilesharesnapshotprovider_setcontext.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 28e53076-4d8e-4f24-83b0-d0aaf7260802
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],SetContext method, IVssFileShareSnapshotProvider.SetContext, IVssFileShareSnapshotProvider::SetContext, SetContext, SetContext method [VSS], SetContext method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_setcontext, vsprov/IVssFileShareSnapshotProvider::SetContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -146,21 +146,18 @@ The context is frozen and cannot be changed.
 
 The default context for VSS shadow copies is VSS_CTX_BACKUP.
 
-<b>Windows XP:  </b>
-     The only supported context is the default context, VSS_CTX_BACKUP. Therefore, calling 
+<b>Windows XP:  </b>The only supported context is the default context, VSS_CTX_BACKUP. Therefore, calling 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff556644">SetContext</a> under Windows XP returns
      E_NOTIMPL.
 
-
-    For more information about how the context that is set by 
+For more information about how the context that is set by 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff556644">SetContext</a> affects 
     how a shadow copy is created and managed, see 
     <a href="https://msdn.microsoft.com/de5f1a5b-6e90-4abc-a232-aea93636772f">Implementation Details for 
     Creating Shadow Copies</a>.
    
 
-
-    For a complete discussion of the permitted shadow copy contexts, see 
+For a complete discussion of the permitted shadow copy contexts, see 
     <a href="https://msdn.microsoft.com/2efe3066-4b91-4501-bacb-4211b222e0c3">_VSS_SNAPSHOT_CONTEXT</a> and 
     <a href="https://msdn.microsoft.com/0326a81e-036c-4548-9e09-29054e51fadd">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>.
    

@@ -4,10 +4,10 @@ title: "_CSV_CONTROL_PARAM"
 author: windows-sdk-content
 description: Represents a type of CSV control operation.
 old-location: fs\csv_control_param.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: B984F8CA-3548-4442-8D3B-B2F469F699E1
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCSV_CONTROL_PARAM, CSV_CONTROL_PARAM, CSV_CONTROL_PARAM structure [Files], PCSV_CONTROL_PARAM, PCSV_CONTROL_PARAM structure pointer [Files], _CSV_CONTROL_PARAM, fs.csv_control_param, winioctl/CSV_CONTROL_PARAM, winioctl/PCSV_CONTROL_PARAM"
 ms.prod: windows
 ms.technology: windows-sdk

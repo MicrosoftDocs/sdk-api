@@ -4,10 +4,10 @@ title: SspiFreeAuthIdentity function
 author: windows-sdk-content
 description: Frees the memory allocated for the specified identity structure.
 old-location: security\sspifreeauthidentity.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 6199f66e-7adb-4bb9-8e77-a735e31dd5f6
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: SspiFreeAuthIdentity, SspiFreeAuthIdentity function [Security], security.sspifreeauthidentity, sspi/SspiFreeAuthIdentity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # SspiFreeAuthIdentity function
@@ -68,8 +67,7 @@ The identity structure to free.
 
 
 
-
-						If the function succeeds, it returns <b>SEC_E_OK</b>.
+If the function succeeds, it returns <b>SEC_E_OK</b>.
 
 If the function fails, it returns a nonzero error code.
 

@@ -114,7 +114,7 @@ A fax client application can also access the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/e10c4f3e-c8bd-4134-a325-fe7da93b1caa">GetPorts</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692815(v=VS.85).aspx">GetPorts</a>
 
 
 

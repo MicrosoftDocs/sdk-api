@@ -7,7 +7,7 @@ old-location: gdi\setpixelv.htm
 old-project: gdi
 ms.assetid: 638f0ffd-3771-4390-b335-0517be5312fd
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: SetPixelV, SetPixelV function [Windows GDI], _win32_SetPixelV, gdi.setpixelv, wingdi/SetPixelV
 ms.prod: windows
 ms.technology: windows-sdk

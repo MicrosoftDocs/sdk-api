@@ -63,15 +63,15 @@ This property is read-only.
 
 
 
-A fax client application must  set the <a href="https://msdn.microsoft.com/9e41ae1f-070d-4365-9d6a-a37f1979dae7">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/library/ms691832(v=VS.85).aspx">FaxTiff</a> object.
+A fax client application must  set the <a href="https://msdn.microsoft.com/en-us/library/ms690773(v=VS.85).aspx">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/library/ms691832(v=VS.85).aspx">FaxTiff</a> object.
 
 The <b>get_RawReceiveTime</b> method sets the <i>pVal</i> parameter to the local time at which the fax job started receiving or transmitting the fax file. 
 
 The <b>RawReceiveTime</b> property contains the local time at which the fax job started receiving or transmitting the fax file. 
 
-The <a href="https://msdn.microsoft.com/149c9bfd-9733-42ec-a583-95f758f5c97e">get_ReceiveTime</a> method returns the time in a formatted string.
+The <a href="https://msdn.microsoft.com/en-us/library/ms691929(v=VS.85).aspx">get_ReceiveTime</a> method returns the time in a formatted string.
 
-The <a href="https://msdn.microsoft.com/149c9bfd-9733-42ec-a583-95f758f5c97e">ReceiveTime</a> property contains the time in a formatted string.
+The <a href="https://msdn.microsoft.com/en-us/library/ms691929(v=VS.85).aspx">ReceiveTime</a> property contains the time in a formatted string.
 
 
 
@@ -101,11 +101,11 @@ The <a href="https://msdn.microsoft.com/149c9bfd-9733-42ec-a583-95f758f5c97e">Re
 
 
 
-<a href="https://msdn.microsoft.com/9e41ae1f-070d-4365-9d6a-a37f1979dae7">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690773(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/149c9bfd-9733-42ec-a583-95f758f5c97e">ReceiveTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691929(v=VS.85).aspx">ReceiveTime</a>
  
 
  

@@ -4,10 +4,10 @@ title: CryptGetOIDFunctionValue function
 author: windows-sdk-content
 description: The CryptGetOIDFunctionValue function queries a value associated with an OID.
 old-location: security\cryptgetoidfunctionvalue.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 14eb7f10-f42a-4496-9699-62eeb9878ea2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptGetOIDFunctionValue, CryptGetOIDFunctionValue function [Security], REG_DWORD, REG_EXPAND_SZ, REG_MULTI_SZ, REG_SZ, _crypto2_cryptgetoidfunctionvalue, security.cryptgetoidfunctionvalue, wincrypt/CryptGetOIDFunctionValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-         The <b>CryptGetOIDFunctionValue</b> function queries a value associated with an OID. The query is made for a specific named value associated with an OID, function name, and encoding type. The function can return the type of queried value, the value, itself, or both.
+The <b>CryptGetOIDFunctionValue</b> function queries a value associated with an OID. The query is made for a specific named value associated with an OID, function name, and encoding type. The function can return the type of queried value, the value, itself, or both.
 
 
 ## -parameters
@@ -156,8 +155,7 @@ In most cases the value returned in *<i>pcbValueData</i> includes the size of th
 
 
 
-
-                  If the function succeeds, the function returns nonzero (<b>TRUE</b>).
+If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
@@ -191,7 +189,7 @@ If the buffer specified by the <i>pbValueData</i> parameter is not large enough 
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
  
 
  

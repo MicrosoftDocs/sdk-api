@@ -4,10 +4,10 @@ title: PIS_SERVICE
 author: windows-sdk-content
 description: The IsService function checks whether a service of specified type and name exists in the service table, and optionally returns the service's parameters.
 old-location: rras\isservice.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: f2d8e1f4-ce6c-429c-bb14-26c6c75eab7e
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/29/2018
 ms.keywords: IsService, IsService callback function [RAS], PIS_SERVICE, PIS_SERVICE callback, _mpr_isservice, rras.isservice, stm/IsService
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # PIS_SERVICE callback function
@@ -115,7 +114,7 @@ The service exists in the table.
 </td>
 <td width="60%">
 No such service exists, or the operation failed. Call 
-<a href="https://msdn.microsoft.com/library/ms629690(v=VS.85).aspx">GetLastError</a> for more information about the failure.
+<a href="_win32_getlasterror">GetLastError</a> for more information about the failure.
 
 </td>
 </tr>
@@ -156,7 +155,7 @@ The service type or name is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms629690(v=VS.85).aspx">GetLastError</a>
+<a href="_win32_getlasterror">GetLastError</a>
 
 
 

@@ -99,7 +99,7 @@ A <b>Long</b> representing the zero-based position of the submitted file that ca
 
 <div class="alert"><b>Note</b>  To succeed, the <b>ConnectedSubmit2</b> method requires that the fax have at least one recipient, and either a cover page or a fax body. You can only use this method if the server (remote or local) is installed as a network printer on the local computer.</div>
 <div> </div>
-You must set the <a href="https://msdn.microsoft.com/c5e0fd2b-9d64-4854-954e-a6e7557f6d3d">Bodies</a> property with a semi-colon delimited list of the files to be faxed before calling <b>ConnectedSubmit2</b>. 
+You must set the <a href="https://msdn.microsoft.com/en-us/library/Aa359008(v=VS.85).aspx">Bodies</a> property with a semi-colon delimited list of the files to be faxed before calling <b>ConnectedSubmit2</b>. 
 
 
 
@@ -109,7 +109,7 @@ This method is not supported for a remote connection to a fax server running Win
 
 To use this method, a user must have the <a href="https://msdn.microsoft.com/library/Aa359062(v=VS.85).aspx">far2SUBMIT_LOW</a>, <a href="https://msdn.microsoft.com/library/Aa359062(v=VS.85).aspx">far2SUBMIT_NORMAL</a>, or <a href="https://msdn.microsoft.com/library/Aa359062(v=VS.85).aspx">far2SUBMIT_HIGH</a> access set correctly, depending on the <a href="https://msdn.microsoft.com/library/ms687026(v=VS.85).aspx">Priority</a> of the fax document.
 
-To illustrate <i>plErrorBodyFile</i>, here is an example: The following list of files is submitted as the value of <a href="https://msdn.microsoft.com/c5e0fd2b-9d64-4854-954e-a6e7557f6d3d">Bodies</a>:
+To illustrate <i>plErrorBodyFile</i>, here is an example: The following list of files is submitted as the value of <a href="https://msdn.microsoft.com/en-us/library/Aa359008(v=VS.85).aspx">Bodies</a>:
 
 "MyTextFile.txt;AnotherTextFile.txt;MyPDFfile.pdf;MyWordFile.doc".
 

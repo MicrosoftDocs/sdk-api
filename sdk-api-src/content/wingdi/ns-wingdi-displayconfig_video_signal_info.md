@@ -7,7 +7,7 @@ old-location: display\displayconfig_video_signal_info.htm
 old-project: display
 ms.assetid: 960089fe-dbb7-41a1-af73-0002cfce6da2
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: CCD_Structures_17b322c2-76a8-4f82-8ee7-c70d3f613d5a.xml, DISPLAYCONFIG_VIDEO_SIGNAL_INFO, DISPLAYCONFIG_VIDEO_SIGNAL_INFO structure [Display Devices], display.displayconfig_video_signal_info, wingdi/DISPLAYCONFIG_VIDEO_SIGNAL_INFO
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: Tbsi_Revoke_Attestation function
 author: windows-sdk-content
 description: Invalidates the PCRs if the ELAM driver detects a policy-violation (a rootkit, for example).
 old-location: tbs\tbsi_revoke_attestation.htm
-old-project: tbs
+old-project: TBS
 ms.assetid: 64B6BC8F-5031-4A31-86FD-DECA6203D6E4
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: Tbsi_Revoke_Attestation, Tbsi_Revoke_Attestation function [TBS], tbs.tbsi_revoke_attestation, tbs/Tbsi_Revoke_Attestation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,8 +108,7 @@ An internal software error occurred.
 
 This function is callable from kernel mode.
 
-
-  You must run this function with administrative rights. This function extends PCR[12] by an unspecified value and increment the event counter in the TPM. Both actions are necessary, so the trust is broken in all quotes that are created from here on forward. Since the PCRs are reset on hibernation and the extend to PCR[12] then will disappear, a gap in the event counter will indicate a broken chain of logs.
+You must run this function with administrative rights. This function extends PCR[12] by an unspecified value and increment the event counter in the TPM. Both actions are necessary, so the trust is broken in all quotes that are created from here on forward. Since the PCRs are reset on hibernation and the extend to PCR[12] then will disappear, a gap in the event counter will indicate a broken chain of logs.
 
 As a result, the WBCL files will not reflect the current state of the TPM for the remainder of the time that the TPM is powered up and remote systems will not be able to form trust in the security state of the system.  Note that anti-malware systems will probably perform additional remediation or alerts, but the invalidation step is crucial if attestation is supported.
 

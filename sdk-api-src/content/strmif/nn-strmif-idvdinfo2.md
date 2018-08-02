@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2.htm
 old-project: DirectShow
 ms.assetid: da30d3dc-feec-4f54-b2db-a771ce404286
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IDvdInfo2, IDvdInfo2 interface [DirectShow], IDvdInfo2 interface [DirectShow],described, IDvdInfo2Interface, dshow.idvdinfo2, strmif/IDvdInfo2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,8 +55,7 @@ req.product: Windows XP with SP1
 
 The <code>IDvdInfo2</code> interface reports attributes of a DVD disc or the current state of DVD playback and navigation. The <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator</a> filter implements this interface. <code>IDvdInfo2</code> is the companion interface to <a href="https://msdn.microsoft.com/eda43b20-1c4d-4769-bb87-3942716af13c">IDvdControl2</a> interface. <code>IDvdInfo2</code> groups the DVD Navigator's "get" methods and <b>IDvdControl2</b> groups the "set" methods. Together they provide DVD navigation and playback functionality beyond the DVD Annex J specification.
 
-<div class="alert"><b>Note</b>  
-           The information provided by some of these methods can also be obtained through event notifications sent from the DVD Navigator to the application's message loop. For example, to get the current DVD domain, you can call <a href="https://msdn.microsoft.com/ad850402-7b48-4517-a55f-42cfa75d3ee6">IDvdInfo2::GetCurrentDomain</a> or you can handle the <a href="https://msdn.microsoft.com/4faa46d6-2ba2-44a3-b237-acac3b32f8b1">EC_DVD_DOMAIN_CHANGE</a> event in your application's message loop and extract the new domain from the event's <i>lParam1</i> parameter.</div>
+<div class="alert"><b>Note</b>  The information provided by some of these methods can also be obtained through event notifications sent from the DVD Navigator to the application's message loop. For example, to get the current DVD domain, you can call <a href="https://msdn.microsoft.com/ad850402-7b48-4517-a55f-42cfa75d3ee6">IDvdInfo2::GetCurrentDomain</a> or you can handle the <a href="https://msdn.microsoft.com/4faa46d6-2ba2-44a3-b237-acac3b32f8b1">EC_DVD_DOMAIN_CHANGE</a> event in your application's message loop and extract the new domain from the event's <i>lParam1</i> parameter.</div>
 <div> </div>
 
 

@@ -7,7 +7,7 @@ old-location: menurc\loadstring.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\loadstring.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: LoadString, LoadString function [Menus and Other Resources], LoadStringA, LoadStringW, _win32_LoadString, _win32_loadstring_cpp, menurc.loadstring, winui._win32_loadstring, winuser/LoadString, winuser/LoadStringA, winuser/LoadStringW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -128,7 +128,7 @@ Using this function incorrectly can compromise the security of your application.
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms644909(v=VS.85).aspx">Creating a Child Window</a>
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644909(v=VS.85).aspx">Creating a Child Window</a>
 
 <div class="code"></div>
 
@@ -147,7 +147,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms644909(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646370(v=VS.85).aspx">LoadAccelerators</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646370(v=VS.85).aspx">LoadAccelerators</a>
 
 
 
@@ -155,19 +155,19 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms644909(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648072(v=VS.85).aspx">LoadIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647990(v=VS.85).aspx">LoadMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647990(v=VS.85).aspx">LoadMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647991(v=VS.85).aspx">LoadMenuIndirect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647991(v=VS.85).aspx">LoadMenuIndirect</a>
 
 
 

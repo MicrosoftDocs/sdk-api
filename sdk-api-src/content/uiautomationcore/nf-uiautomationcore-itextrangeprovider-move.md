@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_Move.htm
 old-project: WinAuto
 ms.assetid: 09cd8826-4fdf-4ea5-8159-18bb81e3b5cf
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],Move method, ITextRangeProvider.Move, ITextRangeProvider::Move, Move, Move method [Windows Accessibility], Move method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_Move, uiauto_ITextRangeProvider_Move, uiautomationcore/ITextRangeProvider::Move, winauto.uiauto_ITextRangeProvider_Move
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,8 +79,7 @@ The number of text units to move. A positive value moves the text range forward.
 
 Type: <b>int*</b>
 
-
-                The number of text units actually moved. This can be less than the number requested if 
+The number of text units actually moved. This can be less than the number requested if 
 				either of the new text range endpoints is greater than or less than the endpoints retrieved by the <a href="https://msdn.microsoft.com/38892548-7c1f-4bac-8eac-29d7b4d190d3">ITextProvider::DocumentRange</a> method. This value can be negative if navigation is happening in the backward direction.
 
 
@@ -115,8 +114,7 @@ For a non-degenerate (non-empty) text range, <b>ITextRangeProvider::Move</b> sho
 </ol>
 If any of the preceding steps fail, the text range should be left unchanged.  If the text range cannot be moved as far as the requested number of text units, but can be moved by a smaller number of text units, the text range should be moved by the smaller number of text units and <i>pRetVal</i> should be set to the number of text units moved successfully.
 
-
-            For a degenerate text range, <b>ITextRangeProvider::Move</b> should simply move the 
+For a degenerate text range, <b>ITextRangeProvider::Move</b> should simply move the 
             text insertion point by the specified number of text units. 
 
 When moving a text range, the provider should ignore the boundaries of any embedded objects in the text.
@@ -129,26 +127,19 @@ If a text-based control does not support the text unit specified by the <i>unit<
         The size of the text units, from smallest unit to largest, is as follows.
 
 <ul>
-<li>
-        Character
+<li>Character
         </li>
-<li>
-        Format
+<li>Format
         </li>
-<li>
-        Word
+<li>Word
         </li>
-<li>
-        Line
+<li>Line
         </li>
-<li>
-        Paragraph
+<li>Paragraph
         </li>
-<li>
-        Page
+<li>Page
         </li>
-<li>
-        Document
+<li>Document
         </li>
 </ul>
 <h3><a id="Range_behavior_when_unit_is_TextUnit__Format"></a><a id="range_behavior_when_unit_is_textunit__format"></a><a id="RANGE_BEHAVIOR_WHEN_UNIT_IS_TEXTUNIT__FORMAT"></a>Range behavior when <i>unit</i> is <code>TextUnit::Format</code></h3>

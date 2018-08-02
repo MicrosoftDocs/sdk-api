@@ -7,7 +7,7 @@ old-location: wsw\wsfreeerror.htm
 old-project: wsw
 ms.assetid: 61da7bc2-b805-4379-a6b2-1e92374be1a0
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsFreeError, WsFreeError function [Web Services for Windows], webservices/WsFreeError, wsw.wsfreeerror
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Releases the memory resource associated with an   <b>Error</b> object created us
 
 ### -param error [in]
 
-
-                    A pointer to the <b>Error</b> object to release.  The pointer must reference a valid <b>WS_ERROR</b> object
+A pointer to the <b>Error</b> object to release.  The pointer must reference a valid <b>WS_ERROR</b> object
                     returned by <a href="https://msdn.microsoft.com/0ec858f7-12a5-43cf-94a7-3838ab6d76ae">WsCreateError</a>.  The referenced value may 
                     not be NULL.
                 

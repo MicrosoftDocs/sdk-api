@@ -7,7 +7,7 @@ old-location: menurc\copyimage.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\copyimage.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: CopyImage, CopyImage function [Menus and Other Resources], IMAGE_BITMAP, IMAGE_CURSOR, IMAGE_ICON, LR_COPYDELETEORG, LR_COPYFROMRESOURCE, LR_COPYRETURNORG, LR_CREATEDIBSECTION, LR_DEFAULTSIZE, LR_MONOCHROME, _win32_CopyImage, _win32_copyimage_cpp, menurc.copyimage, winui._win32_copyimage, winuser/CopyImage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,7 +131,7 @@ Deletes the original image after creating the copy.
 </dl>
 </td>
 <td width="60%">
-Tries to reload an icon or cursor resource from the original resource file rather than simply copying the current image. This is useful for creating a different-sized copy when the resource file contains multiple sizes of the resource. Without this flag, <b>CopyImage</b> stretches the original image to the new size. If this flag is set, <b>CopyImage</b> uses the size in the resource file closest to the desired size. This will succeed only if <i>hImage</i> was loaded by <a href="https://msdn.microsoft.com/library/ms648072(v=VS.85).aspx">LoadIcon</a> or <a href="https://msdn.microsoft.com/library/ms648391(v=VS.85).aspx">LoadCursor</a>, or by <a href="https://msdn.microsoft.com/library/ms648045(v=VS.85).aspx">LoadImage</a> with the LR_SHARED flag.
+Tries to reload an icon or cursor resource from the original resource file rather than simply copying the current image. This is useful for creating a different-sized copy when the resource file contains multiple sizes of the resource. Without this flag, <b>CopyImage</b> stretches the original image to the new size. If this flag is set, <b>CopyImage</b> uses the size in the resource file closest to the desired size. This will succeed only if <i>hImage</i> was loaded by <a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a> or <a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a>, or by <a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a> with the LR_SHARED flag.
 
 </td>
 </tr>
@@ -271,13 +271,13 @@ When you are finished using the resource, you can release its associated memory 
 <tr>
 <td>Cursor</td>
 <td>
-<a href="https://msdn.microsoft.com/library/ms648386(v=VS.85).aspx">DestroyCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648386(v=VS.85).aspx">DestroyCursor</a>
 </td>
 </tr>
 <tr>
 <td>Icon</td>
 <td>
-<a href="https://msdn.microsoft.com/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
 </td>
 </tr>
 </table>
@@ -297,7 +297,7 @@ The system automatically deletes the resource when its process terminates, howev
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648045(v=VS.85).aspx">LoadImage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a>
 
 
 
@@ -305,7 +305,7 @@ The system automatically deletes the resource when its process terminates, howev
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632583(v=VS.85).aspx">Resources</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632583(v=VS.85).aspx">Resources</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_setstrokebrushlookup.htm
 old-project: printdocs
 ms.assetid: b2af731a-bea7-4f1b-8e31-b0173e38fd67
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeBrushLookup method, IXpsOMPath.SetStrokeBrushLookup, IXpsOMPath::SetStrokeBrushLookup, SetStrokeBrushLookup, SetStrokeBrushLookup method [XPS Documents and Packaging], SetStrokeBrushLookup method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokebrushlookup, xpsobjectmodel/IXpsOMPath::SetStrokeBrushLookup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-Sets the lookup key name of a shared brush to be used as the stroke brush.
-
-  The shared brush is stored in a resource dictionary.
+Sets the lookup key name of a shared brush to be used as the stroke brush.The shared brush is stored in a resource dictionary.
 
 
 ## -parameters

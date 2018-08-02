@@ -4,10 +4,10 @@ title: SnmpStartupEx function
 author: windows-sdk-content
 description: The SnmpStartupEx function notifies the Microsoft WinSNMP implementation that the WinSNMP application requires the implementation's services.
 old-location: snmp\snmpstartupex.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: 5f0c9da1-d18e-4f93-8b5c-c5ad18360a7a
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpStartupEx, SnmpStartupEx function [SNMP], _snmp_snmpstartupex, snmp.snmpstartupex, winsnmp/SnmpStartupEx
 ms.prod: windows
 ms.technology: windows-sdk

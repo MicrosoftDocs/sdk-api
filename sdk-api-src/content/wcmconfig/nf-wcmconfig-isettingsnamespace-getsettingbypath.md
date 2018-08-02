@@ -7,7 +7,7 @@ old-location: smi\isettingsnamespace_getsettingbypath.htm
 old-project: SMI
 ms.assetid: 7deadfed-036d-40cd-88b6-7afaf8fc7d41
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetSettingByPath, GetSettingByPath method [SMI], GetSettingByPath method [SMI],ISettingsNamespace interface, ISettingsNamespace interface [SMI],GetSettingByPath method, ISettingsNamespace.GetSettingByPath, ISettingsNamespace::GetSettingByPath, smi.isettingsnamespace_getsettingbypath, wcmconfig/ISettingsNamespace::GetSettingByPath
 ms.prod: windows
 ms.technology: windows-sdk

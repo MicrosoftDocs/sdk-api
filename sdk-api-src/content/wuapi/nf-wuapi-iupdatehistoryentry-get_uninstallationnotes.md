@@ -4,10 +4,10 @@ title: IUpdateHistoryEntry::get_UninstallationNotes
 author: windows-sdk-content
 description: Gets the uninstallation notes of an update.
 old-location: wua\iupdatehistoryentry_uninstallationnotes.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 735393fc-da9e-46a9-abf2-0e2e31c24fb2
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],UninstallationNotes property, IUpdateHistoryEntry.UninstallationNotes, IUpdateHistoryEntry.get_UninstallationNotes, IUpdateHistoryEntry::UninstallationNotes, IUpdateHistoryEntry::get_UninstallationNotes, UninstallationNotes property [Windows Update Agent], UninstallationNotes property [Windows Update Agent],IUpdateHistoryEntry interface, get_UninstallationNotes, wua.iupdatehistoryentry_uninstallationnotes, wuapi/IUpdateHistoryEntry::UninstallationNotes, wuapi/IUpdateHistoryEntry::get_UninstallationNotes
 ms.prod: windows
 ms.technology: windows-sdk

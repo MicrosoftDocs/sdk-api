@@ -7,7 +7,7 @@ old-location: wsw\wsresetchannel.htm
 old-project: wsw
 ms.assetid: 7aca8ae0-44a0-4ec7-87e8-bec9bd17d04b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsResetChannel, WsResetChannel function [Web Services for Windows], webservices/WsResetChannel, wsw.wsresetchannel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Reset a channel so it can be reused.
+Reset a channel so it can be reused.
             
 
 
@@ -63,15 +62,13 @@ req.product: Windows Address Book 5.0
 
 ### -param channel [in]
 
-
-                    The channel to reset.
+The channel to reset.
                 
 
 
 ### -param error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -93,8 +90,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    The channel was in an inappropriate state.
+The channel was in an inappropriate state.
                 
 
 </td>
@@ -109,17 +105,14 @@ This function can return one of these values.
 
 
 
-
-                Reusing a channel instead of creating one from scratch may improve performance.
+Reusing a channel instead of creating one from scratch may improve performance.
             
 
-
-                This function is only valid when the channel is in the either the
+This function is only valid when the channel is in the either the
                 <a href="https://msdn.microsoft.com/3a7f5bbd-e484-4a7e-8e5d-df229a7227a5">WS_CHANNEL_STATE_CREATED</a> or <b>WS_CHANNEL_STATE_CLOSED</b> state.
             
 
-
-                If called correctly, this function will not fail (for example, due to lack of system resources).
+If called correctly, this function will not fail (for example, due to lack of system resources).
             
 
 

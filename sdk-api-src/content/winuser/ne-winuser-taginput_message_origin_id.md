@@ -73,7 +73,7 @@ For more information about the <b>UIAccess</b> attribute and application manifes
 
 ### -field IMO_INJECTED
 
-The input message has been injected (through the <a href="https://msdn.microsoft.com/library/ms646310(v=VS.85).aspx">SendInput</a> function) by an application that doesn't have the <b>UIAccess</b> attribute set to TRUE in its manifest file.
+The input message has been injected (through the <a href="https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx">SendInput</a> function) by an application that doesn't have the <b>UIAccess</b> attribute set to TRUE in its manifest file.
 
 
 ### -field IMO_SYSTEM

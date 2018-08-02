@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_getenableudp.htm
 old-project: wmformat
 ms.assetid: 81c6536c-303c-4eac-a75a-54e9df29e299
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetEnableUDP, GetEnableUDP method [windows Media Format], GetEnableUDP method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetEnableUDP method, IWMReaderNetworkConfig.GetEnableUDP, IWMReaderNetworkConfig::GetEnableUDP, IWMReaderNetworkConfigGetEnableUDP, wmformat.iwmreadernetworkconfig_getenableudp, wmsdkidl/IWMReaderNetworkConfig::GetEnableUDP
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>GetEnableUDP</b> method queries whether <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">UDP</a> is enabled for protocol rollover.
+The <b>GetEnableUDP</b> method queries whether <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">UDP</a> is enabled for protocol rollover.
 
 
 

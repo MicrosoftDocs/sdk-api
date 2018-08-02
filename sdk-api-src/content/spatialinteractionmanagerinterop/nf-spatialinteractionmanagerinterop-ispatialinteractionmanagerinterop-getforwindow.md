@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # ISpatialInteractionManagerInterop::GetForWindow
@@ -103,7 +102,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt844796(v=WIN.10).aspx">ISpatialInteractionManagerInterop</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt844796(v=WIN.10).aspx">ISpatialInteractionManagerInterop</a>
 
 
 

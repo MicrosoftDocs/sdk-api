@@ -7,7 +7,7 @@ old-location: xps\ixpsompackagewriter.htm
 old-project: printdocs
 ms.assetid: cbbcc8bf-6172-41c8-9d74-27e5635ec167
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMPackageWriter, IXpsOMPackageWriter interface [XPS Documents and Packaging], IXpsOMPackageWriter interface [XPS Documents and Packaging],described, xps.ixpsompackagewriter, xpsobjectmodel/IXpsOMPackageWriter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,8 +101,7 @@ Closes any open parts of the package, then closes the package.
 <a href="https://msdn.microsoft.com/7f782432-3d36-466c-b265-9da99d97565e">IsClosed</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the status of the <b>IXpsOMPackageWriter</b> interface.
+Gets the status of the <b>IXpsOMPackageWriter</b> interface.
             
 
 </td>
@@ -112,8 +111,7 @@ Closes any open parts of the package, then closes the package.
 <a href="https://msdn.microsoft.com/da5fdbcd-ff3c-403a-a565-1590908cf333">StartNewDocument</a>
 </td>
 <td align="left" width="63%">
-
-              Opens and initializes a new FixedDocument in the FixedDocumentSequence of the package.
+Opens and initializes a new FixedDocument in the FixedDocumentSequence of the package.
             
 
 </td>

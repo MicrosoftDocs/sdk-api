@@ -4,10 +4,10 @@ title: ITextServices::TxQueryHitPoint
 author: windows-sdk-content
 description: Tests whether a specified point is within the rectangle of the text services object.
 old-location: controls\ITextServices_TxQueryHitPoint.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txqueryhitpoint.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, ITextServices interface [Windows Controls],TxQueryHitPoint method, ITextServices.TxQueryHitPoint, ITextServices::TxQueryHitPoint, TXTHITRESULT_CLOSE, TXTHITRESULT_HIT, TXTHITRESULT_NOHIT, TXTHITRESULT_TRANSPARENT, TxQueryHitPoint, TxQueryHitPoint method [Windows Controls], TxQueryHitPoint method [Windows Controls],ITextServices interface, _win32_ITextServices_TxQueryHitPoint, _win32_ITextServices_TxQueryHitPoint_cpp, controls.ITextServices_TxQueryHitPoint, controls._win32_ITextServices_TxQueryHitPoint, textserv/ITextServices::TxQueryHitPoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ The <i>hicTargetDev</i> and <i>ptd</i> parameters give information on the target
 Renders the object to the <i>hdcDraw</i> device context as though it were printed to a printer. Thus, the text services object can optimize for the printer (for example, not painting the background color, if white). Also, certain screen-specific elements (such as the selection) should not be rendered.
 
 
-<a href="https://msdn.microsoft.com/library/Bb787672(v=VS.85).aspx">ITextServices::TxGetNaturalSize</a> should render the <i>lprcClient</i> rectangle, starting at the current scrolling position.
+<a href="https://msdn.microsoft.com/en-us/library/Bb787672(v=VS.85).aspx">ITextServices::TxGetNaturalSize</a> should render the <i>lprcClient</i> rectangle, starting at the current scrolling position.
 
 </td>
 </tr>
@@ -227,7 +227,7 @@ The return value is an <b>HRESULT</b> code.
 
 This method allows the host to implement transparent hit testing on text.
 
-For more information, see the Remarks section in <a href="https://msdn.microsoft.com/library/Bb787690(v=VS.85).aspx">ITextServices::TxDraw</a> and <a href="https://msdn.microsoft.com/library/Bb787630(v=VS.85).aspx">ITextServices::OnTxSetCursor</a>.
+For more information, see the Remarks section in <a href="https://msdn.microsoft.com/en-us/library/Bb787690(v=VS.85).aspx">ITextServices::TxDraw</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb787630(v=VS.85).aspx">ITextServices::OnTxSetCursor</a>.
 
 
 
@@ -241,11 +241,11 @@ For more information, see the Remarks section in <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787617(v=VS.85).aspx">ITextServices</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787630(v=VS.85).aspx">OnTxSetCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787630(v=VS.85).aspx">OnTxSetCursor</a>
 
 
 
@@ -253,11 +253,11 @@ For more information, see the Remarks section in <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787690(v=VS.85).aspx">TxDraw</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787690(v=VS.85).aspx">TxDraw</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
  
 
  

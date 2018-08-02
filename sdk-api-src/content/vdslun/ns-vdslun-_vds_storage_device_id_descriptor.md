@@ -4,10 +4,10 @@ title: "_VDS_STORAGE_DEVICE_ID_DESCRIPTOR"
 author: windows-sdk-content
 description: Defines one or more storage identifiers for a storage device (typically an instance, as opposed to a class, of device).
 old-location: base\vds_storage_device_id_descriptor.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 88fe83cb-6d3c-40bd-a5ce-71771d2e7511
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: VDS_STORAGE_DEVICE_ID_DESCRIPTOR, VDS_STORAGE_DEVICE_ID_DESCRIPTOR structure [VDS], _VDS_STORAGE_DEVICE_ID_DESCRIPTOR, base.vds_storage_device_id_descriptor, vdslun/_VDS_STORAGE_DEVICE_ID_DESCRIPTOR
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ The number of identifiers specified in <b>m_rgIdentifiers</b>.
 
 ### -field m_rgIdentifiers
 
-
-      Pointer to <a href="https://msdn.microsoft.com/8cc8b6d9-e189-44af-9f2b-2222b2eb0749">VDS_STORAGE_IDENTIFIER</a> structure.
+Pointer to <a href="https://msdn.microsoft.com/8cc8b6d9-e189-44af-9f2b-2222b2eb0749">VDS_STORAGE_IDENTIFIER</a> structure.
      
 
 
@@ -84,8 +83,7 @@ The number of identifiers specified in <b>m_rgIdentifiers</b>.
 
 
 
-
-    Storage devices can have multiple identifiers, and each of these identifiers can have a different code set and 
+Storage devices can have multiple identifiers, and each of these identifiers can have a different code set and 
     type. The <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a> structure includes 
     this structure as a member to specify the storage device identifiers of a LUN.
 

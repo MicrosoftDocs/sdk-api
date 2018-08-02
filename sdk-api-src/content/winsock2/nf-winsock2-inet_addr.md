@@ -4,10 +4,10 @@ title: inet_addr function
 author: windows-sdk-content
 description: The inet_addr function converts a string containing an IPv4 dotted-decimal address into a proper address for the IN_ADDR structure.
 old-location: winsock\inet_addr_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 7d6df658-9d83-45c7-97e7-b2a016a73847
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "_win32_inet_addr_2, inet_addr, inet_addr function [Winsock], winsock.inet_addr_2, wsipv6ok/inet_addr"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,13 +76,11 @@ the <b>inet_addr</b> function returns an unsigned long value containing a suitab
 If the string in the <i>cp</i> parameter does not contain a legitimate Internet address, for example if a portion of an "a.b.c.d" address exceeds 255, then 
 <b>inet_addr</b> returns the value <b>INADDR_NONE</b>.
 
-On Windows Server 2003
-   and later if the string in the <i>cp</i> parameter is an empty string, then 
+On Windows Server 2003and later if the string in the <i>cp</i> parameter is an empty string, then 
 <b>inet_addr</b> returns the value <b>INADDR_NONE</b>.  If <b>NULL</b> is passed in the <i>cp</i> parameter, then 
 <b>inet_addr</b> returns the value <b>INADDR_NONE</b>.
 
-On Windows XP
-  and earlier if the string in the <i>cp</i> parameter is an empty string, then 
+On Windows XPand earlier if the string in the <i>cp</i> parameter is an empty string, then 
 <b>inet_addr</b> returns the value <b>INADDR_ANY</b>. If <b>NULL</b> is passed in the <i>cp</i> parameter, then 
 <b>inet_addr</b> returns the value <b>INADDR_NONE</b>.
 

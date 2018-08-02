@@ -7,7 +7,7 @@ old-location: wsw\wscreateerror.htm
 old-project: wsw
 ms.assetid: 0ec858f7-12a5-43cf-94a7-3838ab6d76ae
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCreateError, WsCreateError function [Web Services for Windows], webservices/WsCreateError, wsw.wscreateerror
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                Creates an error object that can passed to functions to record rich error information.
+Creates an error object that can passed to functions to record rich error information.
             
 
 
@@ -66,15 +65,13 @@ req.product: Windows Address Book 5.0
 
 ### -param properties
 
-
-                    An array of  <a href="https://msdn.microsoft.com/463b634f-bb15-494d-8061-c4fa0b97b990">WS_ERROR_PROPERTY</a> structures containing optional error properties.
+An array of  <a href="https://msdn.microsoft.com/463b634f-bb15-494d-8061-c4fa0b97b990">WS_ERROR_PROPERTY</a> structures containing optional error properties.
                 
 
 
 ### -param propertyCount [in]
 
-
-                    The number of properties in the <i>properties</i> array.
+The number of properties in the <i>properties</i> array.
                 
 
 
@@ -102,7 +99,6 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -139,8 +135,7 @@ This function may return other errors not listed above.
 
 
 
-
-                When you no long need the error object, free it by calling  the <a href="https://msdn.microsoft.com/61da7bc2-b805-4379-a6b2-1e92374be1a0">WsFreeError</a> function.
+When you no long need the error object, free it by calling  the <a href="https://msdn.microsoft.com/61da7bc2-b805-4379-a6b2-1e92374be1a0">WsFreeError</a> function.
             
 
 By default, the

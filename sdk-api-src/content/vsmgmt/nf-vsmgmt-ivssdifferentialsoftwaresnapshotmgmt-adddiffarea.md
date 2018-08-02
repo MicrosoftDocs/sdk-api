@@ -4,10 +4,10 @@ title: IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea
 author: windows-sdk-content
 description: Adds a shadow copy storage area association for the specified volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_adddiffarea.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 7b58331c-b8a2-4333-a05d-563395d5f0c2
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: AddDiffArea, AddDiffArea method [VSS], AddDiffArea method [VSS],IVssDifferentialSoftwareSnapshotMgmt interface, IVssDifferentialSoftwareSnapshotMgmt interface [VSS],AddDiffArea method, IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea, IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea, base.ivssdifferentialsoftwaresnapshotmgmt_adddiffarea, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea
 ms.prod: windows
 ms.technology: windows-sdk
@@ -213,8 +213,7 @@ Expected provider error. The provider logged the error in the event log. For mor
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

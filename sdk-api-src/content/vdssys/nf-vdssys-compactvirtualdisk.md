@@ -7,7 +7,7 @@ old-location: vhd\compactvirtualdisk.htm
 old-project: VStor
 ms.assetid: 8f887ef9-6be5-455a-8904-2047f2efe13c
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/29/2018
 ms.keywords: CompactVirtualDisk, CompactVirtualDisk function [VHD], vdssys/CompactVirtualDisk, vhd.compactvirtualdisk, virtdisk/CompactVirtualDisk
 ms.prod: windows
 ms.technology: windows-sdk
@@ -128,8 +128,7 @@ There are two different types of compaction.
       <a href="https://msdn.microsoft.com/08e2a82d-9110-42b1-be09-dc5150da42f6">OpenVirtualDisk</a>, and calling 
       <b>CompactVirtualDisk</b>.</li>
 </ul>
-
-    File-system-aware compaction is the most efficient compaction type but using first the file-system-aware 
+File-system-aware compaction is the most efficient compaction type but using first the file-system-aware 
     compaction followed by the file-system-agnostic compaction will produce the smallest VHD.
 
 A compaction operation on a virtual disk can be safely interrupted and re-run later. Re-opening a virtual disk 

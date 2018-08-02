@@ -7,7 +7,7 @@ old-location: wsw\wsabortservicehost.htm
 old-project: wsw
 ms.assetid: d9405b21-52d2-4d33-b133-f15402dd1d5b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsAbortServiceHost, WsAbortServiceHost function [Web Services for Windows], webservices/WsAbortServiceHost, wsw.wsabortservicehost
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,6 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>

@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaItem_AnalyzeItem.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\analyzeitem.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: AnalyzeItem, AnalyzeItem method [WIA], AnalyzeItem method [WIA],IWiaItem interface, IWiaItem interface [WIA],AnalyzeItem method, IWiaItem.AnalyzeItem, IWiaItem::AnalyzeItem, _wia_IWiaItem_AnalyzeItem, wia._wia_IWiaItem_AnalyzeItem, wia_xp/IWiaItem::AnalyzeItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,9 +81,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method is used with scanners to detect what type of data is on a page. When an application calls this method, the WIA hardware device driver scans and analyzes the current page. For each data type it detects, it creates an <a href="https://msdn.microsoft.com/library/ms630113(v=VS.85).aspx">IWiaItem</a> object to represent the region on the page the data occupies. 
+This method is used with scanners to detect what type of data is on a page. When an application calls this method, the WIA hardware device driver scans and analyzes the current page. For each data type it detects, it creates an <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> object to represent the region on the page the data occupies. 
 
-Image processing and OCR software can use this capability to detect graphics and text on a page. This method adds the regions it creates into the WIA device's <a href="https://msdn.microsoft.com/library/ms630113(v=VS.85).aspx">IWiaItem</a> tree. The application can select the individual regions and use the standard data transfer methods to acquire data from them.
+Image processing and OCR software can use this capability to detect graphics and text on a page. This method adds the regions it creates into the WIA device's <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> tree. The application can select the individual regions and use the standard data transfer methods to acquire data from them.
 
 If necessary, applications can override the regions created by this method. 
 

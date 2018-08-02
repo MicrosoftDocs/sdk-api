@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_spawninstance_.htm
 old-project: WmiSdk
 ms.assetid: 4761bdb2-455a-48c4-9e22-bfba6a1036ec
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemObject interface [Windows Management Instrumentation],SpawnInstance_ method, ISWbemObject.SpawnInstance_, ISWbemObject::SpawnInstance_, SWbemObject object [Windows Management Instrumentation],SpawnInstance_ method, SWbemObject.SpawnInstance_, SpawnInstance_, SpawnInstance_ method [Windows Management Instrumentation], SpawnInstance_ method [Windows Management Instrumentation],ISWbemObject interface, SpawnInstance_ method [Windows Management Instrumentation],SWbemObject object, _hmm_swbemobject.spawninstance_, wmi.swbemobject_spawninstance_
 ms.prod: windows
 ms.technology: windows-sdk

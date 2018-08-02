@@ -4,10 +4,10 @@ title: IUpdateInstaller::Uninstall
 author: windows-sdk-content
 description: Starts a synchronous uninstallation of the updates.
 old-location: wua\iupdateinstaller_uninstall.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: fd00fc89-077e-4897-a7ec-d2e06167b7b0
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],Uninstall method, IUpdateInstaller.Uninstall, IUpdateInstaller::Uninstall, Uninstall, Uninstall method [Windows Update Agent], Uninstall method [Windows Update Agent],IUpdateInstaller interface, wua.iupdateinstaller_uninstall, wuapi/IUpdateInstaller::Uninstall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,8 +68,7 @@ An <a href="https://msdn.microsoft.com/453945d7-11a3-4237-b1c8-928194be558d">IIn
 
 
 
-
-      This method returns the following <b>HRESULT</b> values and other COM or Windows 
+This method returns the following <b>HRESULT</b> values and other COM or Windows 
 
 error codes.
      

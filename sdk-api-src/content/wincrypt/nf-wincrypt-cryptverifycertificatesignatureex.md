@@ -4,10 +4,10 @@ title: CryptVerifyCertificateSignatureEx function
 author: windows-sdk-content
 description: Verifies the signature of a subject certificate, certificate revocation list, certificate request, or keygen request by using the issuer's public key.
 old-location: security\cryptverifycertificatesignatureex.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 8a84af66-b174-4a3e-b1d7-6f218a52d877
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CRYPT_VERIFY_CERT_SIGN_DISABLE_MD2_MD4_FLAG, CRYPT_VERIFY_CERT_SIGN_ISSUER_CERT, CRYPT_VERIFY_CERT_SIGN_ISSUER_CHAIN, CRYPT_VERIFY_CERT_SIGN_ISSUER_NULL, CRYPT_VERIFY_CERT_SIGN_ISSUER_PUBKEY, CRYPT_VERIFY_CERT_SIGN_RETURN_STRONG_PROPERTIES_FLAG, CRYPT_VERIFY_CERT_SIGN_SET_STRONG_PROPERTIES_FLAG, CRYPT_VERIFY_CERT_SIGN_SUBJECT_BLOB, CRYPT_VERIFY_CERT_SIGN_SUBJECT_CERT, CRYPT_VERIFY_CERT_SIGN_SUBJECT_CRL, CRYPT_VERIFY_CERT_SIGN_SUBJECT_OCSP_BASIC_SIGNED_RESPONSE, CryptVerifyCertificateSignatureEx, CryptVerifyCertificateSignatureEx function [Security], X509_ASN_ENCODING, _crypto2_cryptverifycertificatesignatureex, security.cryptverifycertificatesignatureex, wincrypt/CryptVerifyCertificateSignatureEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CryptVerifyCertificateSignatureEx</b> function verifies the signature of a subject certificate, <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a>, <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>, or keygen request by using the issuer's <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a>. The function does not require access to a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a>.
+The <b>CryptVerifyCertificateSignatureEx</b> function verifies the signature of a subject certificate, <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a>, <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>, or keygen request by using the issuer's <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a>. The function does not require access to a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a>.
 
 
 ## -parameters
@@ -117,9 +116,7 @@ The subject type. This parameter can be one of the following subject types.
 </dl>
 </td>
 <td width="60%">
-<i>
-								pvSubject</i> is a pointer to a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a>
-							structure.
+<i>pvSubject</i> is a pointer to a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a>structure.
 
 </td>
 </tr>
@@ -130,9 +127,7 @@ The subject type. This parameter can be one of the following subject types.
 </dl>
 </td>
 <td width="60%">
-<i>
-								pvSubject</i> is a pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CCERT_CONTEXT</a>
-							structure.
+<i>pvSubject</i> is a pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CCERT_CONTEXT</a>structure.
 
 </td>
 </tr>
@@ -143,9 +138,7 @@ The subject type. This parameter can be one of the following subject types.
 </dl>
 </td>
 <td width="60%">
-<i>
-								pvSubject</i> is a pointer to a <a href="https://msdn.microsoft.com/cf7cabcd-b469-492a-b855-8870465ea1cc">CCRL_CONTEXT</a>
-							structure.
+<i>pvSubject</i> is a pointer to a <a href="https://msdn.microsoft.com/cf7cabcd-b469-492a-b855-8870465ea1cc">CCRL_CONTEXT</a>structure.
 
 </td>
 </tr>
@@ -156,8 +149,7 @@ The subject type. This parameter can be one of the following subject types.
 </dl>
 </td>
 <td width="60%">
-<i>
-								pvSubject</i> is a pointer to an <a href="https://msdn.microsoft.com/4b88a946-030f-490a-b46a-c42507e1268d">OCSP_BASIC_SIGNED_RESPONSE_INFO</a> structure.
+<i>pvSubject</i> is a pointer to an <a href="https://msdn.microsoft.com/4b88a946-030f-490a-b46a-c42507e1268d">OCSP_BASIC_SIGNED_RESPONSE_INFO</a> structure.
 
 <b>Windows Server 2003 and Windows XP:  </b>This subject type is not supported.
 
@@ -188,9 +180,7 @@ The issuer type. This parameter can be one of the following issuer types.
 </dl>
 </td>
 <td width="60%">
-<i>
-								pvIssuer</i> is a pointer to a <a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a>
-							structure.
+<i>pvIssuer</i> is a pointer to a <a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a>structure.
 
 </td>
 </tr>
@@ -201,9 +191,7 @@ The issuer type. This parameter can be one of the following issuer types.
 </dl>
 </td>
 <td width="60%">
-<i>
-								pvIssuer</i> is a pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CCERT_CONTEXT</a>
-							structure.
+<i>pvIssuer</i> is a pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CCERT_CONTEXT</a>structure.
 
 </td>
 </tr>
@@ -214,9 +202,7 @@ The issuer type. This parameter can be one of the following issuer types.
 </dl>
 </td>
 <td width="60%">
-<i>
-								pvIssuer</i> is a pointer to a <a href="https://msdn.microsoft.com/609311f4-9cd6-4945-9f93-7266b3fc4a74">CCERT_CHAIN_CONTEXT</a>
-							structure.
+<i>pvIssuer</i> is a pointer to a <a href="https://msdn.microsoft.com/609311f4-9cd6-4945-9f93-7266b3fc4a74">CCERT_CHAIN_CONTEXT</a>structure.
 
 </td>
 </tr>

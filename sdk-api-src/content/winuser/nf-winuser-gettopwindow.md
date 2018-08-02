@@ -7,7 +7,7 @@ old-location: winmsg\gettopwindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\gettopwindow.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: GetTopWindow, GetTopWindow function [Windows and Messages], _win32_GetTopWindow, _win32_gettopwindow_cpp, winmsg.gettopwindow, winui._win32_gettopwindow, winuser/GetTopWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,11 +92,11 @@ If the function succeeds, the return value is a handle to the child window at th
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633509(v=VS.85).aspx">GetNextWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633509(v=VS.85).aspx">GetNextWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633515(v=VS.85).aspx">GetWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633515(v=VS.85).aspx">GetWindow</a>
 
 
 

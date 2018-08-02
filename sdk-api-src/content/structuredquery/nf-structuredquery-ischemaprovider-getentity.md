@@ -7,7 +7,7 @@ old-location: search\_search_ISchemaProvider_GetEntity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\getentity.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: GetEntity, GetEntity method [search], GetEntity method [search],ISchemaProvider interface, ISchemaProvider interface [search],GetEntity method, ISchemaProvider.GetEntity, ISchemaProvider::GetEntity, _search_ISchemaProvider_GetEntity, search._search_ISchemaProvider_GetEntity, structuredquery/ISchemaProvider::GetEntity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Retrieves an entity by name from the loaded schema. 
+Retrieves an entity by name from the loaded schema. 
 
 
 ## -parameters
@@ -64,17 +63,15 @@ req.product: Windows XP with SP1 and later
 
 Type: <b>LPCWSTR</b>
 
-
-          The name of the entity being requested.
+The name of the entity being requested.
         
 
 
 ### -param pEntity [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb231373(v=VS.85).aspx">IEntity</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a>**</b>
 
-
-          Receives the address of a pointer to the requested entity. The calling application must release the entity by calling its <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method. If there is no entity with the specified name, this parameter is set to <b>NULL</b>.
+Receives the address of a pointer to the requested entity. The calling application must release the entity by calling its <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method. If there is no entity with the specified name, this parameter is set to <b>NULL</b>.
         
 
 
@@ -84,8 +81,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Bb231373(v=VS.85).aspx">IEn
 
 Type: <b>HRESULT</b>
 
-
-          Returns S_OK if successful, S_FALSE if there is no entity with the specified name, or an error value otherwise.
+Returns S_OK if successful, S_FALSE if there is no entity with the specified name, or an error value otherwise.
         
 
 

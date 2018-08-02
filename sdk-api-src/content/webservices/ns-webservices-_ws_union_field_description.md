@@ -7,7 +7,7 @@ old-location: wsw\ws_union_field_description.htm
 old-project: wsw
 ms.assetid: c972e076-0f79-41a7-927b-e57f0cb7bcc6
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_UNION_FIELD_DESCRIPTION, WS_UNION_FIELD_DESCRIPTION structure [Web Services for Windows], _WS_UNION_FIELD_DESCRIPTION, webservices/WS_UNION_FIELD_DESCRIPTION, wsw.ws_union_field_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Represents serialization information about a field within a union.
+Represents serialization information about a field within a union.
                 See <a href="https://msdn.microsoft.com/04eddc88-f0ba-4a0b-8078-12c0d955d055">WS_UNION_DESCRIPTION</a>.
             
 
@@ -64,16 +63,13 @@ req.product: Windows Address Book 5.0
 
 ### -field value
 
-
-                    The enumeration value that field of the union corresponds to.
+The enumeration value that field of the union corresponds to.
                     See <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a> and <a href="https://msdn.microsoft.com/04eddc88-f0ba-4a0b-8078-12c0d955d055">WS_UNION_DESCRIPTION</a>.
                 
 
 
 ### -field field
 
-
-                    Information about the field.  See <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a>
-                    and <a href="https://msdn.microsoft.com/04eddc88-f0ba-4a0b-8078-12c0d955d055">WS_UNION_DESCRIPTION</a>.
+Information about the field.  See <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a>and <a href="https://msdn.microsoft.com/04eddc88-f0ba-4a0b-8078-12c0d955d055">WS_UNION_DESCRIPTION</a>.
                 
 

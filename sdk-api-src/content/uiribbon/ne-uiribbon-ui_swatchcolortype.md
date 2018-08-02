@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_ui_swatchcolortype.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_swatchcolortype.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: UI_SWATCHCOLORTYPE, UI_SWATCHCOLORTYPE enumeration [Windows Ribbon], UI_SWATCHCOLORTYPE_AUTOMATIC, UI_SWATCHCOLORTYPE_NOCOLOR, UI_SWATCHCOLORTYPE_RGB, scenicintent_UI_SWATCHCOLORTYPE, uiribbon/UI_SWATCHCOLORTYPE, uiribbon/UI_SWATCHCOLORTYPE_AUTOMATIC, uiribbon/UI_SWATCHCOLORTYPE_NOCOLOR, uiribbon/UI_SWATCHCOLORTYPE_RGB, windowsribbon.windowsribbon_ui_swatchcolortype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Specifies the values that identify how a color swatch in a <a href="https://msdn.microsoft.com/library/Dd371663(v=VS.85).aspx">DropDownColorPicker</a> or a <a href="https://msdn.microsoft.com/library/Dd371673(v=VS.85).aspx">FontControl</a> color picker (<b>Text color</b> or <b>Text highlight</b>) is filled.
+Specifies the values that identify how a color swatch in a <a href="https://msdn.microsoft.com/en-us/library/Dd371663(v=VS.85).aspx">DropDownColorPicker</a> or a <a href="https://msdn.microsoft.com/en-us/library/Dd371673(v=VS.85).aspx">FontControl</a> color picker (<b>Text color</b> or <b>Text highlight</b>) is filled.
 <div class="alert"><b>Note</b>  These are recommendations only. The application can associate any fill type with these values.</div><div> </div>
 
 ## -enum-fields
@@ -79,7 +79,7 @@ The swatch is filled with a solid RGB color.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
  
 
  

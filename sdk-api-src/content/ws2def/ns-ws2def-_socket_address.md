@@ -4,10 +4,10 @@ title: "_SOCKET_ADDRESS"
 author: windows-sdk-content
 description: SOCKET_ADDRESS structure stores protocol-specific address information.
 old-location: winsock\socket_address_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 37fbcb96-a859-4eca-8928-8051f95407b9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPSOCKET_ADDRESS, *PSOCKET_ADDRESS, PSOCKET_ADDRESS, PSOCKET_ADDRESS structure pointer [Winsock], SOCKET_ADDRESS, SOCKET_ADDRESS structure [Winsock], _SOCKET_ADDRESS, _win32_socket_address_2, winsock.socket_address_2, winsock2/PSOCKET_ADDRESS, winsock2/SOCKET_ADDRESS, ws2def/PSOCKET_ADDRESS, ws2def/SOCKET_ADDRESS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>SOCKET_ADDRESS</b> structure stores protocol-specific address information.
 
 

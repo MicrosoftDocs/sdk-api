@@ -7,7 +7,7 @@ old-location: multimedia\drawdibbegin.htm
 old-project: Multimedia
 ms.assetid: 89178e33-e440-49fe-9900-0baea229d289
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: DrawDibBegin, DrawDibBegin function [Windows Multimedia], _win32_DrawDibBegin, multimedia.drawdibbegin, vfw/DrawDibBegin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,15 +64,13 @@ The <b>DrawDib</b> function changes parameters of a DrawDib DC or initializes a 
 
 ### -param hdd
 
-
-            Handle to a DrawDib DC.
+Handle to a DrawDib DC.
           
 
 
 ### -param hdc
 
-
-            Handle to a DC for drawing. This parameter is optional.
+Handle to a DC for drawing. This parameter is optional.
           
 
 
@@ -88,38 +86,32 @@ TBD
 
 ### -param lpbi
 
-
-            Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the image format. The color table for the DIB follows the image format and the <b>biHeight</b> member must be a positive value.
+Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the image format. The color table for the DIB follows the image format and the <b>biHeight</b> member must be a positive value.
           
 
 
 ### -param dxSrc
 
-
-            Width, in pixels, of the source rectangle.
+Width, in pixels, of the source rectangle.
           
 
 
 ### -param dySrc
 
-
-            Height, in pixels, of the source rectangle.
+Height, in pixels, of the source rectangle.
           
 
 
 ### -param wFlags
 
-
-            Applicable flags for the function. The following values are defined.
+Applicable flags for the function. The following values are defined.
             
 
 <table>
 <tr>
-<th>
-Value
+<th>Value
 </th>
-<th>
-Meaning
+<th>Meaning
 </th>
 </tr>
 <tr>
@@ -168,15 +160,13 @@ Meaning
 
 #### - dxDest
 
-
-            Width, in <b>MM_TEXT</b> client units, of the destination rectangle.
+Width, in <b>MM_TEXT</b> client units, of the destination rectangle.
           
 
 
 #### - dyDest
 
-
-            Height, in <b>MM_TEXT</b> client units, of the destination rectangle.
+Height, in <b>MM_TEXT</b> client units, of the destination rectangle.
           
 
 

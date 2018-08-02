@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_irisrelative.htm
 old-project: DirectShow
 ms.assetid: 76cd3b1d-a6ce-4981-b82f-7ee83e118c33
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ICameraControl interface [DirectShow],put_IrisRelative method, ICameraControl.put_IrisRelative, ICameraControl::put_IrisRelative, ICameraControlput_IrisRelative, dshow.icameracontrol_put_irisrelative, put_IrisRelative, put_IrisRelative method [DirectShow], put_IrisRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_IrisRelative
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,11 +66,9 @@ Specifies the relative aperture setting. To get the range of possible values, ca
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

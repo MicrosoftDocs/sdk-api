@@ -7,7 +7,7 @@ old-location: wsw\wsclosechannel.htm
 old-project: wsw
 ms.assetid: e4928371-a172-4cc8-968b-12ae2ee2e0c6
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCloseChannel, WsCloseChannel function [Web Services for Windows], webservices/WsCloseChannel, wsw.wsclosechannel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,8 +98,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
-                    The asynchronous operation is still pending.
+The asynchronous operation is still pending.
                 
 
 </td>
@@ -111,8 +110,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
-                    The channel closure was aborted by a call to <a href="https://msdn.microsoft.com/67af85d7-db75-4e26-a7cc-8115ac3f2d59">WsAbortChannel</a> while the channel was closing.
+The channel closure was aborted by a call to <a href="https://msdn.microsoft.com/67af85d7-db75-4e26-a7cc-8115ac3f2d59">WsAbortChannel</a> while the channel was closing.
                 
 
 </td>
@@ -124,8 +122,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
-                    The channel was in an inappropriate state (see the Remarks section).
+The channel was in an inappropriate state (see the Remarks section).
                 
 
 </td>
@@ -137,7 +134,6 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
 The connection with the remote endpoint was terminated.
 
 </td>
@@ -149,7 +145,6 @@ The connection with the remote endpoint was terminated.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint could not process the request.
 
 </td>
@@ -161,7 +156,6 @@ The remote endpoint could not process the request.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -173,7 +167,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 The operation did not complete within the time allotted.
 
 </td>
@@ -185,7 +178,6 @@ The operation did not complete within the time allotted.
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -197,7 +189,6 @@ A quota was exceeded.
 </dl>
 </td>
 <td width="60%">
-
 Insuffiient memory to complete the operation.
 
 </td>
@@ -209,7 +200,6 @@ Insuffiient memory to complete the operation.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -249,8 +239,7 @@ If the channel attempts a graceful shutdown but encounters an error, <b>WsCloseC
 
 This operation is allowed only if the channel is in WS_CHANNEL_STATE_OPEN or WS_CHANNEL_STATE_FAULTED states.
 
-
-                Closing a channel automatically disassociates any messages that are in the
+Closing a channel automatically disassociates any messages that are in the
                 process of being read or written. Therefore, it is not necessary to call 
                 <a href="https://msdn.microsoft.com/b8f5da50-d296-4550-8810-114d1f0e810b">WsAbandonMessage</a> before calling <b>WsCloseChannel</b>).
             

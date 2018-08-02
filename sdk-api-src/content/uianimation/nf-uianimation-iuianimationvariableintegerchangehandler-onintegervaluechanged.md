@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariableintegerchangehandler_onintegervalu
 old-project: UIAnimation
 ms.assetid: e12224a2-c8f3-45eb-a254-d624de16e12d
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariableIntegerChangeHandler interface [Windows Animation],OnIntegerValueChanged method, IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged, IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged, OnIntegerValueChanged, OnIntegerValueChanged method [Windows Animation], OnIntegerValueChanged method [Windows Animation],IUIAnimationVariableIntegerChangeHandler interface, uianimation.iuianimationvariableintegerchangehandler_onintegervaluechanged, uianimation/IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Handles events that occur when the value of an animation variable changes.
+Handles events that occur when the value of an animation variable changes.
 
 This method receives updates as <b>INT32</b> values. To receive updates as <b>DOUBLE</b> values, use the <a href="https://msdn.microsoft.com/1e865f55-d703-4d91-8690-b816b5fe1a89">IUIAnimationVariableChangeHandler::OnValueChanged</a> method.
 
@@ -64,26 +63,22 @@ This method receives updates as <b>INT32</b> values. To receive updates as <b>DO
 
 ### -param storyboard [in]
 
-
-            The storyboard that is animating the animation variable  specified by the <i>variable</i> parameter.
+The storyboard that is animating the animation variable  specified by the <i>variable</i> parameter.
 
 
 ### -param variable [in]
 
-
-             The animation variable that has been updated.
+The animation variable that has been updated.
 
 
 ### -param newValue [in]
 
-
-            The new value of the animation variable, rounded according to the variable's rounding mode.
+The new value of the animation variable, rounded according to the variable's rounding mode.
 
 
 ### -param previousValue [in]
 
-
-            The previous value of the animation variable, rounded according to the variable's rounding mode.
+The previous value of the animation variable, rounded according to the variable's rounding mode.
 
 
 ## -returns
@@ -148,13 +143,11 @@ By default, a call made in a callback method to any other animation method resul
 
 
 
-<a href="https://msdn.microsoft.com/044fd6a3-6e40-4f4f-8777-1a1a66c91989">
-      IUIAnimationVariable::GetIntegerValue</a>
+<a href="https://msdn.microsoft.com/044fd6a3-6e40-4f4f-8777-1a1a66c91989">IUIAnimationVariable::GetIntegerValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/ccf4c575-aa98-40cd-b2de-cf8db95ec57d">
-      IUIAnimationVariable::GetPreviousIntegerValue</a>
+<a href="https://msdn.microsoft.com/ccf4c575-aa98-40cd-b2de-cf8db95ec57d">IUIAnimationVariable::GetPreviousIntegerValue</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: dshow\iamvideocompression_get_windowsize.htm
 old-project: DirectShow
 ms.assetid: 1f12aa72-3468-4dca-a5f6-43f64f6d2f83
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],get_WindowSize method, IAMVideoCompression.get_WindowSize, IAMVideoCompression::get_WindowSize, IAMVideoCompressionget_WindowSize, dshow.iamvideocompression_get_windowsize, get_WindowSize, get_WindowSize method [DirectShow], get_WindowSize method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::get_WindowSize
 ms.prod: windows
 ms.technology: windows-sdk

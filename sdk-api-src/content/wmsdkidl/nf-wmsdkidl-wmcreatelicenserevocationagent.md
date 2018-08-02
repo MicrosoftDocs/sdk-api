@@ -7,7 +7,7 @@ old-location: wmformat\wmcreatelicenserevocationagent.htm
 old-project: wmformat
 ms.assetid: 46898846-780f-4a86-93c7-826f55c358ba
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: WMCreateLicenseRevocationAgent, WMCreateLicenseRevocationAgent function [windows Media Format], wmformat.wmcreatelicenserevocationagent, wmsdkidl/WMCreateLicenseRevocationAgent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,11 +80,9 @@ The method returns an HRESULT. Possible values include, but are not limited to, 
 
 <table>
 <tr>
-<th>
-                  Return code
+<th>Return code
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

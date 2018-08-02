@@ -7,7 +7,7 @@ old-location: wsw\wswriteenvelopestart.htm
 old-project: wsw
 ms.assetid: 213fe780-82f2-4140-92f2-2665317a5cb6
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsWriteEnvelopeStart, WsWriteEnvelopeStart function [Web Services for Windows], webservices/WsWriteEnvelopeStart, wsw.wswriteenvelopestart
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,7 +121,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -133,7 +132,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -145,7 +143,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -171,19 +168,16 @@ This function may return other errors not listed above.
 
 
 
-
-                The start of the message, including the current set of headers that exist in the message, 
+The start of the message, including the current set of headers that exist in the message, 
                 are written to the writer.
             
 
-
-                The message state must be set to <b>WS_MESSAGE_STATE_INITIALIZED</b>.  On success 
+The message state must be set to <b>WS_MESSAGE_STATE_INITIALIZED</b>.  On success 
                 the Message state transitions to  <b>WS_MESSAGE_STATE_WRITING</b>.  
                 On failure state transition does not occur.
             
 
-
-                To write an element of the message body use <a href="https://msdn.microsoft.com/70ff43f5-6f1a-4bbb-aa39-6fb9476e6a37">WsWriteBody</a>.  To write
+To write an element of the message body use <a href="https://msdn.microsoft.com/70ff43f5-6f1a-4bbb-aa39-6fb9476e6a37">WsWriteBody</a>.  To write
                 directly to the Writer of the Message obtain the Reader with the  <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_ID</a> set to <b>WS_MESSAGE_PROPERTY_BODY_WRITER</b> property.
             
 

@@ -4,10 +4,10 @@ title: "__MIDL_IWTSSBPlugin_0002"
 author: windows-sdk-content
 description: Contains values that indicate the session mode of a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtssbx_machine_session_mode.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 38894819-a39f-4c1f-aef9-ec3036b42877
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: WTSSBX_MACHINE_SESSION_MODE, WTSSBX_MACHINE_SESSION_MODE enumeration [Remote Desktop Services], WTSSBX_MACHINE_SESSION_MODE_MULTIPLE, WTSSBX_MACHINE_SESSION_MODE_SINGLE, WTSSBX_MACHINE_SESSION_MODE_UNSPEC, __MIDL_IWTSSBPlugin_0002, termserv.wtssbx_machine_session_mode, tssbx/WTSSBX_MACHINE_SESSION_MODE, tssbx/WTSSBX_MACHINE_SESSION_MODE_MULTIPLE, tssbx/WTSSBX_MACHINE_SESSION_MODE_SINGLE, tssbx/WTSSBX_MACHINE_SESSION_MODE_UNSPEC
 ms.prod: windows
 ms.technology: windows-sdk

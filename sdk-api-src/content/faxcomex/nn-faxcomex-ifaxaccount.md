@@ -73,7 +73,7 @@ The <b>IFaxAccount</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f21dfd6c-f333-4b23-9cda-cb856d7c3d6a">ListenToAccountEvents</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359060(v=VS.85).aspx">ListenToAccountEvents</a>
 </td>
 <td align="left" width="63%">
 Sets the flags of a <a href="https://msdn.microsoft.com/library/Aa359063(v=VS.85).aspx">FAX_ACCOUNT_EVENTS_TYPE_ENUM</a> variable that represents the events for which the account is listening.
@@ -107,7 +107,7 @@ Retrieves the name of a particular fax account on the server.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/758f7984-7308-4380-a071-193ee4712ac9">Folders</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359059(v=VS.85).aspx">Folders</a>
 
 
 </td>
@@ -123,7 +123,7 @@ Represents the folders of the account, including the incoming and outgoing archi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/17e0ea01-541a-4f38-a34f-b740d4c7127b">RegisteredEvents</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359061(v=VS.85).aspx">RegisteredEvents</a>
 
 
 </td>

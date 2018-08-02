@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard_settag.htm
 old-project: UIAnimation
 ms.assetid: ade41b03-9194-4b1a-a672-32bb48a2f5ba
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationStoryboard interface [Windows Animation],SetTag method, IUIAnimationStoryboard.SetTag, IUIAnimationStoryboard::SetTag, SetTag, SetTag method [Windows Animation], SetTag method [Windows Animation],IUIAnimationStoryboard interface, uianimation.iuianimationstoryboard_settag, uianimation/IUIAnimationStoryboard::SetTag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Sets the tag for the storyboard.
+Sets the tag for the storyboard.
 
 
 ## -parameters
@@ -62,15 +61,13 @@ req.product: Windows XP with SP1 and later
 
 ### -param object [in, optional]
 
-
-            The object portion of the tag.        
+The object portion of the tag.        
             This parameter can be <b>NULL</b>.
 
 
 ### -param id [in]
 
-
-            The identifier portion of the tag.
+The identifier portion of the tag.
 
 
 ## -returns
@@ -105,9 +102,7 @@ The storyboard is currently in the schedule.
 
 
 
-
-         
-         A tag is a pairing of an integer identifier (<i>id</i>) with a COM object (<i>object</i>); it can be used by an application to identify a storyboard.
+A tag is a pairing of an integer identifier (<i>id</i>) with a COM object (<i>object</i>); it can be used by an application to identify a storyboard.
 
 
 
@@ -117,8 +112,7 @@ The storyboard is currently in the schedule.
 
 
 
-<a href="https://msdn.microsoft.com/74a9265a-3602-4707-949e-6073cbde9ac4">
-      IUIAnimationManager::GetStoryboardFromTag</a>
+<a href="https://msdn.microsoft.com/74a9265a-3602-4707-949e-6073cbde9ac4">IUIAnimationManager::GetStoryboardFromTag</a>
 
 
 
@@ -126,8 +120,7 @@ The storyboard is currently in the schedule.
 
 
 
-<a href="https://msdn.microsoft.com/9c74dc23-ea42-400d-a78c-79b716c5e614">
-      IUIAnimationStoryboard::GetTag</a>
+<a href="https://msdn.microsoft.com/9c74dc23-ea42-400d-a78c-79b716c5e614">IUIAnimationStoryboard::GetTag</a>
  
 
  

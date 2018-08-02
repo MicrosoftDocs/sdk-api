@@ -7,7 +7,7 @@ old-location: gdi\devmode.htm
 old-project: printdocs
 ms.assetid: 85741025-9393-42ab-8a6d-27f1ae2c0f1b
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPDEVMODEA, *NPDEVMODEA, *PDEVMODEA, DEVMODE, DEVMODE structure [Windows GDI], DEVMODEA, DMBIN_AUTO, DMBIN_CASSETTE, DMBIN_ENVELOPE, DMBIN_ENVMANUAL, DMBIN_FIRST, DMBIN_FORMSOURCE, DMBIN_LARGECAPACITY, DMBIN_LARGEFMT, DMBIN_LAST, DMBIN_LOWER, DMBIN_MANUAL, DMBIN_MIDDLE, DMBIN_ONLYONE, DMBIN_SMALLFMT, DMBIN_TRACTOR, DMBIN_UPPER, DMRES_DRAFT, DMRES_HIGH, DMRES_LOW, DMRES_MEDIUM, LPDEVMODE, LPDEVMODE structure pointer [Windows GDI], PDEVMODE, PDEVMODE structure pointer [Windows GDI], _DEVMODEA, _DEVMODEW, _devicemodeA, _win32_DEVMODE_str, gdi.devmode, wingdi/DEVMODE, wingdi/LPDEVMODE, wingdi/PDEVMODE, wingdi/_DEVMODEA, wingdi/_DEVMODEW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-          The <b>DEVMODE</b> data structure contains information about the initialization and environment of a printer or a display device.
+The <b>DEVMODE</b> data structure contains information about the initialization and environment of a printer or a display device.
         
 
 
@@ -68,8 +67,7 @@ req.product: Windows Address Book 5.0
 
 ### -field dmDeviceName
 
-
-            A zero-terminated character array that specifies the "friendly" name of the printer or display; for example, "PCL/HP LaserJet" in the case of PCL/HP LaserJet. This string is unique among device drivers. Note that this name may be truncated to fit in the <b>dmDeviceName</b> array.
+A zero-terminated character array that specifies the "friendly" name of the printer or display; for example, "PCL/HP LaserJet" in the case of PCL/HP LaserJet. This string is unique among device drivers. Note that this name may be truncated to fit in the <b>dmDeviceName</b> array.
           
 
 
@@ -85,8 +83,7 @@ The driver version number assigned by the driver developer.
 
 ### -field dmSize
 
-
-            Specifies the size, in bytes, of the <b>DEVMODE</b> structure, not including any private driver-specific data that might follow the structure's public members. Set this member to <code>sizeof (DEVMODE)</code> to indicate the version of the <b>DEVMODE</b> structure being used.
+Specifies the size, in bytes, of the <b>DEVMODE</b> structure, not including any private driver-specific data that might follow the structure's public members. Set this member to <code>sizeof (DEVMODE)</code> to indicate the version of the <b>DEVMODE</b> structure being used.
           
 
 
@@ -97,8 +94,7 @@ Contains the number of bytes of private driver-data that follow this structure. 
 
 ### -field dmFields
 
-
-            Specifies whether certain members of the <b>DEVMODE</b> structure have been initialized. If a member is initialized, its corresponding bit is set, otherwise the bit is clear. A driver supports only those <b>DEVMODE</b> members that are appropriate for the printer or display technology.
+Specifies whether certain members of the <b>DEVMODE</b> structure have been initialized. If a member is initialized, its corresponding bit is set, otherwise the bit is clear. A driver supports only those <b>DEVMODE</b> members that are appropriate for the printer or display technology.
 
 The following values are defined, and are listed here with the corresponding structure members.
 
@@ -248,8 +244,7 @@ For printer devices only, selects the orientation of the paper. This member can 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmPaperSize
 
-
-                For printer devices only, selects the size of the paper to print on. This member can be set to zero if the length and width of the paper are both set by the <b>dmPaperLength</b> and <b>dmPaperWidth</b> members. Otherwise, the <b>dmPaperSize</b> member can be set to a device specific value greater than or equal to DMPAPER_USER or to one of the following predefined values.
+For printer devices only, selects the size of the paper to print on. This member can be set to zero if the length and width of the paper are both set by the <b>dmPaperLength</b> and <b>dmPaperWidth</b> members. Otherwise, the <b>dmPaperSize</b> member can be set to a device specific value greater than or equal to DMPAPER_USER or to one of the following predefined values.
 
 <table>
 <tr>
@@ -772,22 +767,19 @@ For printer devices only, selects the orientation of the paper. This member can 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmPaperLength
 
-
-                For printer devices only, overrides the length of the paper specified by the <b>dmPaperSize</b> member, either for custom paper sizes or for devices such as dot-matrix printers that can print on a page of arbitrary length. These values, along with all other values in this structure that specify a physical length, are in tenths of a millimeter.
+For printer devices only, overrides the length of the paper specified by the <b>dmPaperSize</b> member, either for custom paper sizes or for devices such as dot-matrix printers that can print on a page of arbitrary length. These values, along with all other values in this structure that specify a physical length, are in tenths of a millimeter.
               
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmPaperWidth
 
-
-                For printer devices only, overrides the width of the paper specified by the <b>dmPaperSize</b> member.
+For printer devices only, overrides the width of the paper specified by the <b>dmPaperSize</b> member.
               
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmScale
 
-
-                Specifies the factor by which the printed output is to be scaled. The apparent page size is scaled from the physical page size by a factor of <b>dmScale</b> /100. For example, a letter-sized page with a <b>dmScale</b> value of 50 would contain as much data as a page of 17- by 22-inches because the output text and graphics would be half their original height and width.
+Specifies the factor by which the printed output is to be scaled. The apparent page size is scaled from the physical page size by a factor of <b>dmScale</b> /100. For example, a letter-sized page with a <b>dmScale</b> value of 50 would contain as much data as a page of 17- by 22-inches because the output text and graphics would be half their original height and width.
               
 
 
@@ -798,8 +790,7 @@ Selects the number of copies printed if the device supports multiple-page copies
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmDefaultSource
 
-
-                Specifies the paper source. To retrieve a list of the available paper sources for a printer, use the <a href="https://msdn.microsoft.com/d7f63ef7-0a2e-47c3-9e81-6e8a6dffe9af">DeviceCapabilities</a> function with the DC_BINS flag.
+Specifies the paper source. To retrieve a list of the available paper sources for a printer, use the <a href="https://msdn.microsoft.com/d7f63ef7-0a2e-47c3-9e81-6e8a6dffe9af">DeviceCapabilities</a> function with the DC_BINS flag.
 
 This member can be one of the following values, or it can be a device-specific value greater than or equal to DMBIN_USER.
 
@@ -808,8 +799,7 @@ This member can be one of the following values, or it can be a device-specific v
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmPrintQuality
 
-
-                Specifies the printer resolution. There are four predefined device-independent values:
+Specifies the printer resolution. There are four predefined device-independent values:
 
 <a id="DMRES_HIGH"></a>
 <a id="dmres_high"></a>
@@ -823,15 +813,13 @@ If a positive value is specified, it specifies the number of dots per inch (DPI)
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmPosition
 
-
-                 For display devices only, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structure that indicates the positional coordinates of the display device in reference to the desktop area. The primary display device is always located at coordinates (0,0).
+For display devices only, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structure that indicates the positional coordinates of the display device in reference to the desktop area. The primary display device is always located at coordinates (0,0).
               
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmDisplayOrientation
 
-
-                 For display devices only, the orientation at which images should be presented. If DM_DISPLAYORIENTATION is not set, this member must be zero. If DM_DISPLAYORIENTATION is set, this member must be one of the following values
+For display devices only, the orientation at which images should be presented. If DM_DISPLAYORIENTATION is not set, this member must be zero. If DM_DISPLAYORIENTATION is set, this member must be one of the following values
 
 <table>
 <tr>
@@ -857,8 +845,7 @@ If a positive value is specified, it specifies the number of dots per inch (DPI)
 </table>
  
 
-
-                  To determine whether the display orientation is portrait or landscape orientation, check the ratio of <b>dmPelsWidth</b> to <b>dmPelsHeight</b>.
+To determine whether the display orientation is portrait or landscape orientation, check the ratio of <b>dmPelsWidth</b> to <b>dmPelsHeight</b>.
                 
 
 <b>Windows 2000:  </b>Not supported.
@@ -866,8 +853,7 @@ If a positive value is specified, it specifies the number of dots per inch (DPI)
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmDisplayFixedOutput
 
-
-                 For fixed-resolution display devices only, how the display presents a low-resolution mode on a higher-resolution display. For example, if a display device's resolution is fixed at 1024 x 768 pixels but its mode is set to 640 x 480 pixels, the device can either display a 640 x 480 image somewhere in the interior of the 1024 x 768 screen space or stretch the 640 x 480 image to fill the larger screen space. If DM_DISPLAYFIXEDOUTPUT is not set, this member must be zero. If DM_DISPLAYFIXEDOUTPUT is set, this member must be one of the following values.
+For fixed-resolution display devices only, how the display presents a low-resolution mode on a higher-resolution display. For example, if a display device's resolution is fixed at 1024 x 768 pixels but its mode is set to 640 x 480 pixels, the device can either display a 640 x 480 image somewhere in the interior of the 1024 x 768 screen space or stretch the 640 x 480 image to fill the larger screen space. If DM_DISPLAYFIXEDOUTPUT is not set, this member must be zero. If DM_DISPLAYFIXEDOUTPUT is set, this member must be one of the following values.
 
 <table>
 <tr>
@@ -894,8 +880,7 @@ If a positive value is specified, it specifies the number of dots per inch (DPI)
 
 ### -field dmColor
 
-
-            Switches between color and monochrome on color printers. The following are the possible values:
+Switches between color and monochrome on color printers. The following are the possible values:
 
 <ul>
 <li>DMCOLOR_COLOR</li>
@@ -904,8 +889,7 @@ If a positive value is specified, it specifies the number of dots per inch (DPI)
 
 ### -field dmDuplex
 
-
-            Selects duplex or double-sided printing for printers capable of duplex printing. Following are the possible values.
+Selects duplex or double-sided printing for printers capable of duplex printing. Following are the possible values.
 
 <table>
 <tr>
@@ -930,15 +914,13 @@ If a positive value is specified, it specifies the number of dots per inch (DPI)
 
 ### -field dmYResolution
 
-
-            Specifies the y-resolution, in dots per inch, of the printer. If the printer initializes this member, the <b>dmPrintQuality</b> member specifies the x-resolution, in dots per inch, of the printer.
+Specifies the y-resolution, in dots per inch, of the printer. If the printer initializes this member, the <b>dmPrintQuality</b> member specifies the x-resolution, in dots per inch, of the printer.
           
 
 
 ### -field dmTTOption
 
-
-            Specifies how TrueType fonts should be printed. This member can be one of the following values.
+Specifies how TrueType fonts should be printed. This member can be one of the following values.
 
 <table>
 <tr>
@@ -968,8 +950,7 @@ If a positive value is specified, it specifies the number of dots per inch (DPI)
 
 ### -field dmCollate
 
-
-            Specifies whether collation should be used when printing multiple copies. (This member is ignored unless the printer driver indicates support for collation by setting the <b>dmFields</b> member to DM_COLLATE.) This member can be one of the following values.
+Specifies whether collation should be used when printing multiple copies. (This member is ignored unless the printer driver indicates support for collation by setting the <b>dmFields</b> member to DM_COLLATE.) This member can be one of the following values.
 
 <table>
 <tr>
@@ -990,8 +971,7 @@ If a positive value is specified, it specifies the number of dots per inch (DPI)
 
 ### -field dmFormName
 
-
-             A zero-terminated character array that specifies the name of the form to use; for example, "Letter" or "Legal". A complete set of names can be retrieved by using the <a href="https://msdn.microsoft.com/b13b515a-c764-4a80-ab85-95fb4abb2a6b">EnumForms</a> function.
+A zero-terminated character array that specifies the name of the form to use; for example, "Letter" or "Legal". A complete set of names can be retrieved by using the <a href="https://msdn.microsoft.com/b13b515a-c764-4a80-ab85-95fb4abb2a6b">EnumForms</a> function.
 
 
 ### -field dmLogPixels
@@ -1001,22 +981,19 @@ The number of pixels per logical inch. Printer drivers do not use this member.
 
 ### -field dmBitsPerPel
 
-
-            Specifies the color resolution, in bits per pixel, of the display device (for example: 4 bits for 16 colors, 8 bits for 256 colors, or 16 bits for 65,536 colors). Display drivers use this member, for example, in the <a href="https://msdn.microsoft.com/208bf1cc-c03c-4d03-92e4-32fcf856b4d8">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
+Specifies the color resolution, in bits per pixel, of the display device (for example: 4 bits for 16 colors, 8 bits for 256 colors, or 16 bits for 65,536 colors). Display drivers use this member, for example, in the <a href="https://msdn.microsoft.com/208bf1cc-c03c-4d03-92e4-32fcf856b4d8">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
           
 
 
 ### -field dmPelsWidth
 
-
-            Specifies the width, in pixels, of the visible device surface. Display drivers use this member, for example, in the <a href="https://msdn.microsoft.com/208bf1cc-c03c-4d03-92e4-32fcf856b4d8">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
+Specifies the width, in pixels, of the visible device surface. Display drivers use this member, for example, in the <a href="https://msdn.microsoft.com/208bf1cc-c03c-4d03-92e4-32fcf856b4d8">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
           
 
 
 ### -field dmPelsHeight
 
-
-            Specifies the height, in pixels, of the visible device surface. Display drivers use this member, for example, in the <a href="https://msdn.microsoft.com/208bf1cc-c03c-4d03-92e4-32fcf856b4d8">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
+Specifies the height, in pixels, of the visible device surface. Display drivers use this member, for example, in the <a href="https://msdn.microsoft.com/208bf1cc-c03c-4d03-92e4-32fcf856b4d8">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
           
 
 
@@ -1027,8 +1004,7 @@ The number of pixels per logical inch. Printer drivers do not use this member.
 
 ### -field DUMMYUNIONNAME2.dmDisplayFlags
 
-
-              Specifies the device's display mode. This member can be a combination of the following values.
+Specifies the device's display mode. This member can be a combination of the following values.
 
 <table>
 <tr>
@@ -1046,15 +1022,13 @@ The number of pixels per logical inch. Printer drivers do not use this member.
 </table>
  
 
-
-                Display drivers use this member, for example, in the <a href="https://msdn.microsoft.com/208bf1cc-c03c-4d03-92e4-32fcf856b4d8">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
+Display drivers use this member, for example, in the <a href="https://msdn.microsoft.com/208bf1cc-c03c-4d03-92e4-32fcf856b4d8">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
               
 
 
 ### -field DUMMYUNIONNAME2.dmNup
 
-
-              Specifies where the NUP is done. It can be one of the following.
+Specifies where the NUP is done. It can be one of the following.
 
 <table>
 <tr>
@@ -1075,18 +1049,15 @@ The number of pixels per logical inch. Printer drivers do not use this member.
 
 ### -field dmDisplayFrequency
 
+Specifies the frequency, in hertz (cycles per second), of the display device in a particular mode. This value is also known as the display device's vertical refresh rate. Display drivers use this member. It is used, for example, in the <a href="https://msdn.microsoft.com/208bf1cc-c03c-4d03-92e4-32fcf856b4d8">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
 
-            Specifies the frequency, in hertz (cycles per second), of the display device in a particular mode. This value is also known as the display device's vertical refresh rate. Display drivers use this member. It is used, for example, in the <a href="https://msdn.microsoft.com/208bf1cc-c03c-4d03-92e4-32fcf856b4d8">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
-
-
-              When you call the <a href="https://msdn.microsoft.com/af73610b-bcd8-4660-800e-84fa0cc5b4eb">EnumDisplaySettings</a> function, the <b>dmDisplayFrequency</b> member may return with the value 0 or 1. These values represent the display hardware's default refresh rate. This default rate is typically set by switches on a display card or computer motherboard, or by a configuration program that does not use display functions such as <a href="https://msdn.microsoft.com/208bf1cc-c03c-4d03-92e4-32fcf856b4d8">ChangeDisplaySettings</a>.
+When you call the <a href="https://msdn.microsoft.com/af73610b-bcd8-4660-800e-84fa0cc5b4eb">EnumDisplaySettings</a> function, the <b>dmDisplayFrequency</b> member may return with the value 0 or 1. These values represent the display hardware's default refresh rate. This default rate is typically set by switches on a display card or computer motherboard, or by a configuration program that does not use display functions such as <a href="https://msdn.microsoft.com/208bf1cc-c03c-4d03-92e4-32fcf856b4d8">ChangeDisplaySettings</a>.
             
 
 
 ### -field dmICMMethod
 
-
-             Specifies how ICM is handled. For a non-ICM application, this member determines if ICM is enabled or disabled. For ICM applications, the system examines this member to determine how to handle ICM support. This member can be one of the following predefined values, or a driver-defined value greater than or equal to the value of DMICMMETHOD_USER.
+Specifies how ICM is handled. For a non-ICM application, this member determines if ICM is enabled or disabled. For ICM applications, the system examines this member to determine how to handle ICM support. This member can be one of the following predefined values, or a driver-defined value greater than or equal to the value of DMICMMETHOD_USER.
 
 <table>
 <tr>
@@ -1117,8 +1088,7 @@ The printer driver must provide a user interface for setting this member. Most p
 
 ### -field dmICMIntent
 
-
-             Specifies which color matching method, or intent, should be used by default. This member is primarily for non-ICM applications. ICM applications can establish intents by using the ICM functions. This member can be one of the following predefined values, or a driver defined value greater than or equal to the value of DMICM_USER.
+Specifies which color matching method, or intent, should be used by default. This member is primarily for non-ICM applications. ICM applications can establish intents by using the ICM functions. This member can be one of the following predefined values, or a driver defined value greater than or equal to the value of DMICM_USER.
 
 <table>
 <tr>
@@ -1147,8 +1117,7 @@ The printer driver must provide a user interface for setting this member. Most p
 
 ### -field dmMediaType
 
-
-             Specifies the type of media being printed on. The member can be one of the following predefined values, or a driver-defined value greater than or equal to the value of DMMEDIA_USER.
+Specifies the type of media being printed on. The member can be one of the following predefined values, or a driver-defined value greater than or equal to the value of DMMEDIA_USER.
 
 <table>
 <tr>
@@ -1176,8 +1145,7 @@ The printer driver must provide a user interface for setting this member. Most p
 
 ### -field dmDitherType
 
-
-             Specifies how dithering is to be done. The member can be one of the following predefined values, or a driver-defined value greater than or equal to the value of DMDITHER_USER.
+Specifies how dithering is to be done. The member can be one of the following predefined values, or a driver-defined value greater than or equal to the value of DMDITHER_USER.
 
 <table>
 <tr>
@@ -1210,28 +1178,24 @@ The printer driver must provide a user interface for setting this member. Most p
 
 ### -field dmReserved1
 
-
-             Not used; must be zero.
+Not used; must be zero.
           
 
 
 ### -field dmReserved2
 
-
-             Not used; must be zero.
+Not used; must be zero.
           
 
 
 ### -field dmPanningWidth
 
-
-             This member must be zero.
+This member must be zero.
 
 
 ### -field dmPanningHeight
 
-
-             This member must be zero.
+This member must be zero.
 
 
 ##### - dmDefaultSource.DMBIN_AUTO
@@ -1334,8 +1298,7 @@ The printer driver must provide a user interface for setting this member. Most p
 
 
 
-
-        A device driver's private data follows the public portion of the <b>DEVMODE</b> structure. The size of the public data can vary for different versions of the structure. The <b>dmSize</b> member specifies the number of bytes of public data, and the <b>dmDriverExtra</b> member specifies the number of bytes of private data.
+A device driver's private data follows the public portion of the <b>DEVMODE</b> structure. The size of the public data can vary for different versions of the structure. The <b>dmSize</b> member specifies the number of bytes of public data, and the <b>dmDriverExtra</b> member specifies the number of bytes of private data.
       
 
 

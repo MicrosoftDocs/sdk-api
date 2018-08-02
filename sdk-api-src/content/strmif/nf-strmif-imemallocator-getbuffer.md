@@ -7,7 +7,7 @@ old-location: dshow\imemallocator_getbuffer.htm
 old-project: DirectShow
 ms.assetid: a5d015c8-ef15-4bac-906f-5d064fbff11f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetBuffer, GetBuffer method [DirectShow], GetBuffer method [DirectShow],IMemAllocator interface, IMemAllocator interface [DirectShow],GetBuffer method, IMemAllocator.GetBuffer, IMemAllocator::GetBuffer, IMemAllocatorGetBuffer, dshow.imemallocator_getbuffer, strmif/IMemAllocator::GetBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,22 +65,19 @@ The <b>GetBuffer</b> method retrieves a media sample that contains an empty buff
 
 ### -param ppBuffer [out]
 
-
-            Receives a pointer to the buffer's <a href="https://msdn.microsoft.com/883e5e3b-db91-4806-96cc-c6f8cddfcca6">IMediaSample</a> interface. The caller must release the interface.
+Receives a pointer to the buffer's <a href="https://msdn.microsoft.com/883e5e3b-db91-4806-96cc-c6f8cddfcca6">IMediaSample</a> interface. The caller must release the interface.
           
 
 
 ### -param pStartTime [in]
 
-
-            Pointer to the start time of the sample, or <b>NULL</b>.
+Pointer to the start time of the sample, or <b>NULL</b>.
           
 
 
 ### -param pEndTime [in]
 
-
-            Pointer to the ending time of the sample, or <b>NULL</b>.
+Pointer to the ending time of the sample, or <b>NULL</b>.
           
 
 
@@ -90,11 +87,9 @@ Bitwise combination of zero or more of the following flags:
 
 <table>
 <tr>
-<th>
-                  Flag
+<th>Flag
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

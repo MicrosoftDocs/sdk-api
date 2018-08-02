@@ -7,7 +7,7 @@ old-location: winmsg\getmessageextrainfo.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\getmessageextrainfo.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: GetMessageExtraInfo, GetMessageExtraInfo function [Windows and Messages], _win32_GetMessageExtraInfo, _win32_getmessageextrainfo_cpp, winmsg.getmessageextrainfo, winui._win32_getmessageextrainfo, winuser/GetMessageExtraInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ The return value specifies the extra information. The meaning of the extra infor
 
 
 
-To set a thread's extra message information, use the <a href="https://msdn.microsoft.com/library/ms644954(v=VS.85).aspx">SetMessageExtraInfo</a> function. 
+To set a thread's extra message information, use the <a href="https://msdn.microsoft.com/en-us/library/ms644954(v=VS.85).aspx">SetMessageExtraInfo</a> function. 
 
 
 
@@ -96,15 +96,15 @@ To set a thread's extra message information, use the <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx">GetMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>
 
 
 
@@ -112,7 +112,7 @@ To set a thread's extra message information, use the <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644954(v=VS.85).aspx">SetMessageExtraInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644954(v=VS.85).aspx">SetMessageExtraInfo</a>
  
 
  

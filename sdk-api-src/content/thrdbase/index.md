@@ -2,7 +2,7 @@
 UID: NA:thrdbase
 ms.assetid: e0aaa3b0-bd78-317f-a1b1-08fc80249c99
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

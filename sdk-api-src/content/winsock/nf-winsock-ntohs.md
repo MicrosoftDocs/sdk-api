@@ -4,10 +4,10 @@ title: ntohs function
 author: windows-sdk-content
 description: The ntohs function converts a u_short from TCP/IP network byte order to host byte order (which is little-endian on Intel processors).
 old-location: winsock\ntohs_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 9946df13-3b40-4bcb-91ca-10684b3fc9a5
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "_win32_ntohs_2, ntohs, ntohs function [Winsock], winsock.ntohs_2, winsock/ntohs"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ The
 The 
 <b>ntohs</b> function can be used to convert an IP port number in network byte order to the IP port number in host byte order. 
 
-The <b>ntohs</b>
-			function does not require that the Winsock DLL has previously been loaded with a successful 
+The <b>ntohs</b>function does not require that the Winsock DLL has previously been loaded with a successful 
 call to the <a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> function.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

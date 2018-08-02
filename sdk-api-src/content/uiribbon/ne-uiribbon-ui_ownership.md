@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_ui_ownership.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_ownership.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: UI_OWNERSHIP, UI_OWNERSHIP enumeration [Windows Ribbon], UI_OWNERSHIP_COPY, UI_OWNERSHIP_TRANSFER, scenicintent_UI_OWNERSHIP, uiribbon/UI_OWNERSHIP, uiribbon/UI_OWNERSHIP_COPY, uiribbon/UI_OWNERSHIP_TRANSFER, windowsribbon.windowsribbon_ui_ownership
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,17 +61,15 @@ Specifies values that identify the ownership conditions under which an image is 
 
 ### -field UI_OWNERSHIP_TRANSFER
 
-
-			The handle to the bitmap (HBITMAP) is owned by the Ribbon framework 
-			through the <a href="https://msdn.microsoft.com/library/Dd371367(v=VS.85).aspx">IUIImage</a> object.
+The handle to the bitmap (HBITMAP) is owned by the Ribbon framework 
+			through the <a href="https://msdn.microsoft.com/en-us/library/Dd371367(v=VS.85).aspx">IUIImage</a> object.
 			
 
 
 ### -field UI_OWNERSHIP_COPY
 
-
-			A copy of the HBITMAP is created by the Ribbon framework through 
-			the <a href="https://msdn.microsoft.com/library/Dd371367(v=VS.85).aspx">IUIImage</a> object. The host application still owns the HBITMAP.
+A copy of the HBITMAP is created by the Ribbon framework through 
+			the <a href="https://msdn.microsoft.com/en-us/library/Dd371367(v=VS.85).aspx">IUIImage</a> object. The host application still owns the HBITMAP.
 			
 
 
@@ -80,11 +78,11 @@ Specifies values that identify the ownership conditions under which an image is 
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371364(v=VS.85).aspx">IUIImageFromBitmap::CreateImage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371364(v=VS.85).aspx">IUIImageFromBitmap::CreateImage</a>
  
 
  

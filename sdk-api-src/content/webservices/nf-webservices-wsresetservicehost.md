@@ -7,7 +7,7 @@ old-location: wsw\wsresetservicehost.htm
 old-project: wsw
 ms.assetid: 99f57173-8d7e-41e6-bf1e-4e8177b740b7
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsResetServiceHost, WsResetServiceHost function [Web Services for Windows], webservices/WsResetServiceHost, wsw.wsresetservicehost
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,12 +51,10 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Resets service host so that it can be opened again.
+Resets service host so that it can be opened again.
             
 
-
-                Rather the creating a new service host from scratch <b>WsResetServiceHost</b> 
+Rather the creating a new service host from scratch <b>WsResetServiceHost</b> 
                 provides a convenient way to reuse service host. Specifically in a scenario 
                 where a service host has to go through close and open on a regular basis, 
                 this allows for an efficient way for reusing the same service host. It resets 
@@ -76,8 +74,7 @@ The service host to reset.
 
 ### -param error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -110,7 +107,6 @@ The serviceHost was in an inappropriate state.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>

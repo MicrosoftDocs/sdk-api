@@ -7,7 +7,7 @@ old-location: winmsg\getparent.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getparent.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: GetParent, GetParent function [Windows and Messages], _win32_GetParent, _win32_getparent_cpp, winmsg.getparent, winui._win32_getparent, winuser/GetParent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Retrieves a handle to the specified window's parent or owner.
 
-To retrieve a handle to a specified ancestor, use the <a href="https://msdn.microsoft.com/library/ms633502(v=VS.85).aspx">GetAncestor</a> function.
+To retrieve a handle to a specified ancestor, use the <a href="https://msdn.microsoft.com/en-us/library/ms633502(v=VS.85).aspx">GetAncestor</a> function.
 
 
 ## -parameters
@@ -105,12 +105,12 @@ This function typically fails for one of the following reasons:
 
 
 
-To obtain a window's owner window, instead of using <b>GetParent</b>, use <a href="https://msdn.microsoft.com/library/ms633515(v=VS.85).aspx">GetWindow</a> with the <b>GW_OWNER</b> flag. To obtain the parent window and not the owner, instead of using <b>GetParent</b>, use <a href="https://msdn.microsoft.com/library/ms633502(v=VS.85).aspx">GetAncestor</a> with the <b>GA_PARENT</b> flag.  
+To obtain a window's owner window, instead of using <b>GetParent</b>, use <a href="https://msdn.microsoft.com/en-us/library/ms633515(v=VS.85).aspx">GetWindow</a> with the <b>GW_OWNER</b> flag. To obtain the parent window and not the owner, instead of using <b>GetParent</b>, use <a href="https://msdn.microsoft.com/en-us/library/ms633502(v=VS.85).aspx">GetAncestor</a> with the <b>GA_PARENT</b> flag.  
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms644996(v=VS.85).aspx">Initializing a Dialog Box</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v=VS.85).aspx">Initializing a Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -125,11 +125,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms644996(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633502(v=VS.85).aspx">GetAncestor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633502(v=VS.85).aspx">GetAncestor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633515(v=VS.85).aspx">GetWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633515(v=VS.85).aspx">GetWindow</a>
 
 
 
@@ -137,7 +137,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms644996(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633541(v=VS.85).aspx">SetParent</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633541(v=VS.85).aspx">SetParent</a>
 
 
 
@@ -145,7 +145,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms644996(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632600(v=VS.85).aspx">Windows Styles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">Windows Styles</a>
  
 
  

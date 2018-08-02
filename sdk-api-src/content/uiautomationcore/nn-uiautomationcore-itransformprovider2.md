@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITransformProvider2.htm
 old-project: WinAuto
 ms.assetid: 763F30BC-782A-43ED-9DE4-97A237D7B9F8
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: ITransformProvider2, ITransformProvider2 interface [Windows Accessibility], ITransformProvider2 interface [Windows Accessibility],described, uiautomationcore/ITransformProvider2, winauto.uiauto_ITransformProvider2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        Extends the <a href="https://msdn.microsoft.com/cdc2f81b-cf69-469f-9139-e9a73cf8c730">ITransformProvider</a> interface to enable Microsoft UI Automation providers to expose properties to support the viewport zooming functionality of a control.
+Extends the <a href="https://msdn.microsoft.com/cdc2f81b-cf69-469f-9139-e9a73cf8c730">ITransformProvider</a> interface to enable Microsoft UI Automation providers to expose properties to support the viewport zooming functionality of a control.
         
 
 

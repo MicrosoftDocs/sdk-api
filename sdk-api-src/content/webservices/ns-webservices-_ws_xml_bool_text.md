@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_bool_text.htm
 old-project: wsw
 ms.assetid: 2f40b717-f94e-49d2-b79c-d8a5e86bebe6
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_BOOL_TEXT, WS_XML_BOOL_TEXT structure [Web Services for Windows], _WS_XML_BOOL_TEXT, webservices/WS_XML_BOOL_TEXT, wsw.ws_xml_bool_text
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        A Boolean value that represents the text "true" or "false".
+A Boolean value that represents the text "true" or "false".
       
 
 
@@ -63,14 +62,12 @@ req.product: Windows Address Book 5.0
 
 ### -field text
 
-
-          The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
+The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
         
 
 
 ### -field value
 
-
-          The Boolean value.  0 represents the text "false", while 1 represents the text "true".
+The Boolean value.  0 represents the text "false", while 1 represents the text "true".
         
 

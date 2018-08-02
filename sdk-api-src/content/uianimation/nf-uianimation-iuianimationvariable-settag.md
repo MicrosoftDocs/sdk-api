@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable_settag.htm
 old-project: UIAnimation
 ms.assetid: 176b0047-cac8-474b-9126-fdab4bc41537
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetTag method, IUIAnimationVariable.SetTag, IUIAnimationVariable::SetTag, SetTag, SetTag method [Windows Animation], SetTag method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_settag, uianimation/IUIAnimationVariable::SetTag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Sets the tag for an animation variable.
+Sets the tag for an animation variable.
 
 
 ## -parameters
@@ -62,15 +61,13 @@ req.product: Windows XP with SP1 and later
 
 ### -param object [in, optional]
 
-
-               The object portion of the tag.
+The object portion of the tag.
             This parameter can be <b>NULL</b>.
 
 
 ### -param id [in]
 
-
-               The identifier portion  of the tag.
+The identifier portion  of the tag.
 
 
 ## -returns
@@ -86,8 +83,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 
-
-         A tag is a pairing of an integer identifier (<i>id</i>) with a COM object (<i>object</i>); it can be used by an application to identify an animation variable.          
+A tag is a pairing of an integer identifier (<i>id</i>) with a COM object (<i>object</i>); it can be used by an application to identify an animation variable.          
          Because <b>NULL</b> is a valid object component of a tag, the <i>object</i> parameter can be <b>NULL</b>.
 
 
@@ -98,8 +94,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://msdn.microsoft.com/611c5341-f225-461d-9718-a2432d796764">
-      IUIAnimationManager::GetVariableFromTag</a>
+<a href="https://msdn.microsoft.com/611c5341-f225-461d-9718-a2432d796764">IUIAnimationManager::GetVariableFromTag</a>
 
 
 

@@ -4,10 +4,10 @@ title: ITextRange::SetEnd
 author: windows-sdk-content
 description: Sets the end position of the range.
 old-location: controls\ITextRange_SetEnd.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setend.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextRange interface [Windows Controls],SetEnd method, ITextRange.SetEnd, ITextRange::SetEnd, SetEnd, SetEnd method [Windows Controls], SetEnd method [Windows Controls],ITextRange interface, _win32_ITextRange_SetEnd, _win32_ITextRange_SetEnd_cpp, controls.ITextRange_SetEnd, controls._win32_ITextRange_SetEnd, tom/ITextRange::SetEnd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,7 +93,7 @@ If the new end position is less than the start position, this method also sets t
 If this range is actually the selection, the end position becomes the active end and, if the display is not frozen, it is scrolled into view.
 
 
-<a href="https://msdn.microsoft.com/library/Bb787823(v=VS.85).aspx">ITextRange::SetStart</a> sets the range's start position and <a href="https://msdn.microsoft.com/library/Bb787805(v=VS.85).aspx">ITextRange::SetRange</a> sets both range ends simultaneously. To convert a nondegenerate range, r, into a degenerate one (insertion point) at  the start position, use
+<a href="https://msdn.microsoft.com/en-us/library/Bb787823(v=VS.85).aspx">ITextRange::SetStart</a> sets the range's start position and <a href="https://msdn.microsoft.com/en-us/library/Bb787805(v=VS.85).aspx">ITextRange::SetRange</a> sets both range ends simultaneously. To convert a nondegenerate range, r, into a degenerate one (insertion point) at  the start position, use
 
 <code>r.End = r.Start</code>
 
@@ -117,11 +117,11 @@ This also makes end position the active end, and it can turn a degenerate range 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773947(v=VS.85).aspx">GetEnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773947(v=VS.85).aspx">GetEnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
 
 
 
@@ -129,15 +129,15 @@ This also makes end position the active end, and it can turn a degenerate range 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787805(v=VS.85).aspx">SetRange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787805(v=VS.85).aspx">SetRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787823(v=VS.85).aspx">SetStart</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787823(v=VS.85).aspx">SetStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

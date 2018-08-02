@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory1_createpackagefromfile1.htm
 old-project: printdocs
 ms.assetid: c5641576-9280-48a5-9fb6-ef3d2811386a
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CreatePackageFromFile1, CreatePackageFromFile1 method [XPS Documents and Packaging], CreatePackageFromFile1 method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],CreatePackageFromFile1 method, IXpsOMObjectFactory1.CreatePackageFromFile1, IXpsOMObjectFactory1::CreatePackageFromFile1, xps.ixpsomobjectfactory1_createpackagefromfile1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageFromFile1
 ms.prod: windows
 ms.technology: windows-sdk

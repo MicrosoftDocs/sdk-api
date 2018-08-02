@@ -7,7 +7,7 @@ old-location: intl\ioptiondescription_labels.htm
 old-project: Intl
 ms.assetid: cead418f-2c89-4b7c-a52e-604f5d8685d1
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: IOptionDescription interface [Internationalization for Windows Applications],Labels property, IOptionDescription.Labels, IOptionDescription.get_Labels, IOptionDescription::Labels, IOptionDescription::get_Labels, Labels property [Internationalization for Windows Applications], Labels property [Internationalization for Windows Applications],IOptionDescription interface, get_Labels, intl.ioptiondescription_labels, spellcheck/IOptionDescription::Labels, spellcheck/IOptionDescription::get_Labels
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # IOptionDescription::get_Labels

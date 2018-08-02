@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionfactory2_createtransition.htm
 old-project: UIAnimation
 ms.assetid: CFF79A6B-B2C1-4B48-8F1E-70ED2CBC567A
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateTransition, CreateTransition method [Windows Animation], CreateTransition method [Windows Animation],IUIAnimationTransitionFactory2 interface, IUIAnimationTransitionFactory2 interface [Windows Animation],CreateTransition method, IUIAnimationTransitionFactory2.CreateTransition, IUIAnimationTransitionFactory2::CreateTransition, uianimation.iuianimationtransitionfactory2_createtransition, uianimation/IUIAnimationTransitionFactory2::CreateTransition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Creates a transition from a custom interpolator for a given dimension.
 
 ### -param interpolator [in, optional]
 
-
-               The interpolator from which a transition is to be created.  
+The interpolator from which a transition is to be created.  
                
                The specified object must implement the
                <a href="https://msdn.microsoft.com/EC0D1933-37C3-41E2-AB13-DA4AAF4B8F04">IUIAnimationInterpolator2</a> interface.

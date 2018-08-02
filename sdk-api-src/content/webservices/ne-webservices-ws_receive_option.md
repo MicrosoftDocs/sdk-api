@@ -7,7 +7,7 @@ old-location: wsw\ws_receive_option.htm
 old-project: wsw
 ms.assetid: a2aefba7-40ff-4399-b13f-f1bad191f366
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_RECEIVE_OPTION, WS_RECEIVE_OPTION enumeration [Web Services for Windows], WS_RECEIVE_OPTIONAL_MESSAGE, WS_RECEIVE_REQUIRED_MESSAGE, webservices/WS_RECEIVE_OPTION, webservices/WS_RECEIVE_OPTIONAL_MESSAGE, webservices/WS_RECEIVE_REQUIRED_MESSAGE, wsw.ws_receive_option
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies whether a message is required when receiving from a channel.
+Specifies whether a message is required when receiving from a channel.
             
 
 
@@ -63,16 +62,14 @@ req.product: Windows Address Book 5.0
 
 ### -field WS_RECEIVE_REQUIRED_MESSAGE
 
-
-                    A message is required to be received.  If the channel does not have
+A message is required to be received.  If the channel does not have
                     any more messages, then the function will fail.
                 
 
 
 ### -field WS_RECEIVE_OPTIONAL_MESSAGE
 
-
-                    The message is not required to be received.  If the channel does not have any more
+The message is not required to be received.  If the channel does not have any more
                     messages, the function will return <b>WS_S_END</b>.
                 (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
 

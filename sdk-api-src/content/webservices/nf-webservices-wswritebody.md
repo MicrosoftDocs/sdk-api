@@ -7,7 +7,7 @@ old-location: wsw\wswritebody.htm
 old-project: wsw
 ms.assetid: 70ff43f5-6f1a-4bbb-aa39-6fb9476e6a37
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsWriteBody, WsWriteBody function [Web Services for Windows], webservices/WsWriteBody, wsw.wswritebody
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Writes a value in the body of a message.
+Writes a value in the body of a message.
             This is a helper function that serializes a value to the XML Writer 
                 of the message.
             The message state must be set to <b>WS_MESSAGE_STATE_WRITING</b>.  This function
@@ -87,8 +86,7 @@ Determines whether the value is required and how the value is allocated.
 
 ### -param value
 
-
-          A void pointer to the value to write.
+A void pointer to the value to write.
                 
 
 
@@ -122,7 +120,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -134,7 +131,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -146,7 +142,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -172,8 +167,7 @@ This function may return other errors not listed above.
 
 
 
-
-                This functions supports the following scenarios, based on the contents
+This functions supports the following scenarios, based on the contents
                 of the <a href="https://msdn.microsoft.com/17035b64-9b2c-40d3-bdce-45e9b132e9f1">WS_ELEMENT_DESCRIPTION</a> supplied:
             
 
@@ -187,8 +181,7 @@ This function may return other errors not listed above.
                 envelope/addressing version of the message).
                 </li>
 <li>Writing multiple elements as a single value.  In this case, the elementLocalName and elementNs
-                fields of the <b>WS_ELEMENT_DESCRIPTION</b> should be set to <b>NULL</b>, and a <b>WS_STRUCT_TYPE</b>
-                and <b>WS_STRUCT_DESCRIPTION</b> should be specified.  In this case, each field of the
+                fields of the <b>WS_ELEMENT_DESCRIPTION</b> should be set to <b>NULL</b>, and a <b>WS_STRUCT_TYPE</b>and <b>WS_STRUCT_DESCRIPTION</b> should be specified.  In this case, each field of the
                 structure value being serialized should correspond to element(s) to write within the body.
                 </li>
 <li>Writing multiple elements as multiple values.  Writing multiple distinct values can be

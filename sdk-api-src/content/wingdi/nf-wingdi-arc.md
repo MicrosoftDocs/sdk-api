@@ -7,7 +7,7 @@ old-location: gdi\arc.htm
 old-project: gdi
 ms.assetid: c15a2173-0fad-4a8a-b0f9-cd39fe4e7bac
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: Arc, Arc function [Windows GDI], _win32_Arc, gdi.arc, wingdi/Arc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -169,8 +169,7 @@ The arc is drawn using the current pen; it is not filled.
 
 The current position is neither used nor updated by <b>Arc</b>.
 
-
-         Use the <a href="https://msdn.microsoft.com/6bf426cd-e028-4568-9e9a-aca58dd69732">GetArcDirection</a> and <a href="https://msdn.microsoft.com/cec31eb2-cc9d-4384-b973-dd4339b96ed0">SetArcDirection</a> functions to get and set the current drawing direction for a device context. The default drawing direction is counterclockwise.
+Use the <a href="https://msdn.microsoft.com/6bf426cd-e028-4568-9e9a-aca58dd69732">GetArcDirection</a> and <a href="https://msdn.microsoft.com/cec31eb2-cc9d-4384-b973-dd4339b96ed0">SetArcDirection</a> functions to get and set the current drawing direction for a device context. The default drawing direction is counterclockwise.
 
 
 

@@ -4,10 +4,10 @@ title: CryptGetMessageCertificates function
 author: windows-sdk-content
 description: The CryptGetMessageCertificates function returns the handle of an open certificate store containing the message's certificates and CRLs. This function calls CertOpenStore using provider type CERT_STORE_PROV_PKCS7 as its lpszStoreProvider parameter.
 old-location: security\cryptgetmessagecertificates.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: d890f91f-bb45-463b-b7c0-56acc9367571
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptGetMessageCertificates, CryptGetMessageCertificates function [Security], _crypto2_cryptgetmessagecertificates, security.cryptgetmessagecertificates, wincrypt/CryptGetMessageCertificates
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CryptGetMessageCertificates</b> function returns the handle of an open <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> containing the message's certificates and <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CRLs</a>. This function calls 
+The <b>CryptGetMessageCertificates</b> function returns the handle of an open <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> containing the message's certificates and <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CRLs</a>. This function calls 
 <a href="https://msdn.microsoft.com/4edccbfe-c0a8-442b-b6b7-51ef598e7c90">CertOpenStore</a> using provider type CERT_STORE_PROV_PKCS7 as its <i>lpszStoreProvider</i> parameter.
 
 
@@ -108,8 +107,7 @@ The size, in bytes, of the signed message.
 
 
 
-
-						Returns the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> containing the message's certificates and CRLs. For an error, <b>NULL</b> is returned.
+Returns the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> containing the message's certificates and CRLs. For an error, <b>NULL</b> is returned.
 
 The following lists the error code most commonly returned by the 
 		       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
@@ -164,7 +162,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: xps\ixpsommatrixtransform.htm
 old-project: printdocs
 ms.assetid: d21457bc-9445-4ca2-ab9f-1e3f55e2e635
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMMatrixTransform, IXpsOMMatrixTransform interface [XPS Documents and Packaging], IXpsOMMatrixTransform interface [XPS Documents and Packaging],described, xps.ixpsommatrixtransform, xpsobjectmodel/IXpsOMMatrixTransform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,8 +83,7 @@ Makes a deep copy of the interface.
 <a href="https://msdn.microsoft.com/4067778d-d10f-4b53-9419-f438b7197f44">GetMatrix</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <a href="https://msdn.microsoft.com/0df75410-0e34-4962-8499-879d5153d9af">XPS_MATRIX</a> structure, which specifies the transform matrix.
+Gets the <a href="https://msdn.microsoft.com/0df75410-0e34-4962-8499-879d5153d9af">XPS_MATRIX</a> structure, which specifies the transform matrix.
             
 
 </td>
@@ -94,8 +93,7 @@ Makes a deep copy of the interface.
 <a href="https://msdn.microsoft.com/cbe6a992-1c94-40b0-a0b6-3b214b928805">SetMatrix</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <a href="https://msdn.microsoft.com/0df75410-0e34-4962-8499-879d5153d9af">XPS_MATRIX</a> structure, which specifies the transform matrix.
+Sets the <a href="https://msdn.microsoft.com/0df75410-0e34-4962-8499-879d5153d9af">XPS_MATRIX</a> structure, which specifies the transform matrix.
             
 
 </td>

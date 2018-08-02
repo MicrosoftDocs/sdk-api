@@ -7,7 +7,7 @@ old-location: wes\evtquery.htm
 old-project: WES
 ms.assetid: 06b67ec4-74ab-47d7-b7b9-1180e7dee725
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtQuery, EvtQuery function [EventLog], wes.evtquery, winevt/EvtQuery
 ms.prod: windows
 ms.technology: windows-sdk

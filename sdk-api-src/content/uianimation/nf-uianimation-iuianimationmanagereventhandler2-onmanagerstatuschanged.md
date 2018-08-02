@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanagereventhandler2_onmanagerstatuschange
 old-project: UIAnimation
 ms.assetid: 398A52B3-E7FA-466E-BCED-0A6E91633CF7
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationManagerEventHandler2 interface [Windows Animation],OnManagerStatusChanged method, IUIAnimationManagerEventHandler2.OnManagerStatusChanged, IUIAnimationManagerEventHandler2::OnManagerStatusChanged, OnManagerStatusChanged, OnManagerStatusChanged method [Windows Animation], OnManagerStatusChanged method [Windows Animation],IUIAnimationManagerEventHandler2 interface, uianimation.iuianimationmanagereventhandler2_onmanagerstatuschanged, uianimation/IUIAnimationManagerEventHandler2::OnManagerStatusChanged
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Handles status changes to an <a href="https://msdn.microsoft.com/BD7DAD23-2A7D-4EE7-9BCF-8380F928674D">animation manager</a>.
+Handles status changes to an <a href="https://msdn.microsoft.com/BD7DAD23-2A7D-4EE7-9BCF-8380F928674D">animation manager</a>.
 
 
 ## -parameters
@@ -62,14 +61,12 @@ req.product: Windows XP with SP1 and later
 
 ### -param newStatus [in]
 
-
-               The new status of the animation manager.
+The new status of the animation manager.
 
 
 ### -param previousStatus [in]
 
-
-               The previous status of the animation manager.
+The previous status of the animation manager.
 
 
 ## -returns
@@ -95,8 +92,7 @@ Calls made to other Windows Animation methods from <b>IUIAnimationManager2::OnMa
 
 
 
-<a href="https://msdn.microsoft.com/E989CED1-C6B7-4086-944E-924836AA7ECB">
-      IUIAnimationManager2::GetStatus</a>
+<a href="https://msdn.microsoft.com/E989CED1-C6B7-4086-944E-924836AA7ECB">IUIAnimationManager2::GetStatus</a>
 
 
 
@@ -104,8 +100,7 @@ Calls made to other Windows Animation methods from <b>IUIAnimationManager2::OnMa
 
 
 
-<a href="https://msdn.microsoft.com/499c74c0-d1e7-4ab4-9c3a-19c2e1abeda8">
-      UI_ANIMATION_MANAGER_STATUS</a>
+<a href="https://msdn.microsoft.com/499c74c0-d1e7-4ab4-9c3a-19c2e1abeda8">UI_ANIMATION_MANAGER_STATUS</a>
  
 
  

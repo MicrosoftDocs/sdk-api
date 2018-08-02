@@ -7,7 +7,7 @@ old-location: wsw\ws_security_context_message_security_binding_template.htm
 old-project: wsw
 ms.assetid: 87944c01-7a8c-4029-a6ea-605b8bb84e3e
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TEMPLATE, WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], _WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TEMPLATE, webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TEMPLATE, wsw.ws_security_context_message_security_binding_template
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,15 +51,13 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        The security binding template for specifying the use of an application
+The security binding template for specifying the use of an application
         supplied security context security binding.  This security binding may 
         be used only with message security. So, it is used in conjunction with another transport
         security or message security binding that provides message protection.
       
 
-
-        See also <a href="https://msdn.microsoft.com/c7f45f44-25e9-4124-a0a2-eb9969f0eb99">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a>
+See also <a href="https://msdn.microsoft.com/c7f45f44-25e9-4124-a0a2-eb9969f0eb99">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a>
 
 
 
@@ -70,7 +68,6 @@ req.product: Windows Address Book 5.0
 
 ### -field securityBindingProperties
 
-
-          Application provided security binding properties that cannot be represented in policy.
+Application provided security binding properties that cannot be represented in policy.
         
 

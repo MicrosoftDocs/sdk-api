@@ -7,7 +7,7 @@ old-location: mstv\ichanneltunerequest_get_channel.htm
 old-project: mstv
 ms.assetid: 1a529416-9b7a-41f4-961a-741b1a581d5f
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IChannelTuneRequest interface [Microsoft TV Technologies],get_Channel method, IChannelTuneRequest.get_Channel, IChannelTuneRequest::get_Channel, IChannelTuneRequestget_Channel, get_Channel, get_Channel method [Microsoft TV Technologies], get_Channel method [Microsoft TV Technologies],IChannelTuneRequest interface, mstv.ichanneltunerequest_get_channel, tuner/IChannelTuneRequest::get_Channel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        The <b>get_Channel</b> method gets the channel to be tuned.
+The <b>get_Channel</b> method gets the channel to be tuned.
       
 
 
@@ -70,8 +69,7 @@ req.product: Windows XP with SP1 and later
 
 #### - pChannel [out]
 
-
-            Pointer to a variable of type <b>long</b> that receives the current channel.
+Pointer to a variable of type <b>long</b> that receives the current channel.
           
 
 
@@ -79,8 +77,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-
-            Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
+Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
           
 
 

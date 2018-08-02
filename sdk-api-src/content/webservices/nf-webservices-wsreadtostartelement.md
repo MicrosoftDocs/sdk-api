@@ -7,7 +7,7 @@ old-location: wsw\wsreadtostartelement.htm
 old-project: wsw
 ms.assetid: 919a3836-6a26-4d47-b123-24856b20566d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsReadToStartElement, WsReadToStartElement function [Web Services for Windows], webservices/WsReadToStartElement, wsw.wsreadtostartelement
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Advances the reader to the next start element skipping whitespace and comments if necessary.  Optionally, 
+Advances the reader to the next start element skipping whitespace and comments if necessary.  Optionally, 
         it may also verify the localName and namespace of the element.
       
 
@@ -64,37 +63,32 @@ req.product: Windows Address Book 5.0
 
 ### -param reader [in]
 
-
-          The reader which is to read to the start element.
+The reader which is to read to the start element.
         
 
 
 ### -param localName [in, optional]
 
-
-          The localName name that the element should be.  If <b>NULL</b>, any localName is permitted.
+The localName name that the element should be.  If <b>NULL</b>, any localName is permitted.
         
 
 
 ### -param ns [in, optional]
 
-
-          The namespace that the element should be.  If <b>NULL</b>, any namespace is permitted.
+The namespace that the element should be.  If <b>NULL</b>, any namespace is permitted.
         
 
 
 ### -param found
 
-
-          If specified then this will indicate whether an element is found and the localName and namespace, if also specified, match.
+If specified then this will indicate whether an element is found and the localName and namespace, if also specified, match.
           If not specified, and an element is not found or the localName and namespace don't match, then it will return 
           <b>WS_E_INVALID_FORMAT</b>. (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
 
 
 ### -param error [in, optional]
 
-
-          Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
         
 
 
@@ -116,7 +110,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -128,7 +121,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -143,8 +135,7 @@ A quota was exceeded.
 
 
 
-
-        Consider the following XML:
+Consider the following XML:
       
 
 <pre class="syntax" xml:space="preserve"><code>&lt;!-- A purchase order --&gt;
@@ -154,8 +145,7 @@ A quota was exceeded.
             &lt;/Item&gt;
         &lt;/PurchaseOrder&gt;
 </code></pre>
-
-        The following examples illustrates the behaviors of <b>WsReadToStartElement</b> when the reader is
+The following examples illustrates the behaviors of <b>WsReadToStartElement</b> when the reader is
         positioned in various places in the document.
       
 
@@ -196,8 +186,7 @@ BOOL found;
 HRESULT hr = WsReadToStartElement(reader, NULL, NULL, &amp;found, error);
 // hr = NOERROR, found = FALSE, the reader is positioned on &lt;/Item&gt;
 </code></pre>
-
-        If <b>WsReadToStartElement</b> indicates an element has been found, then <a href="https://msdn.microsoft.com/88661ae5-2112-4a41-8fcd-03c74f6ec170">WsReadStartElement</a> 
+If <b>WsReadToStartElement</b> indicates an element has been found, then <a href="https://msdn.microsoft.com/88661ae5-2112-4a41-8fcd-03c74f6ec170">WsReadStartElement</a> 
         or <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a> may be used to move the reader past the start element into the content of the element.
       
 
@@ -206,8 +195,7 @@ HRESULT hr = WsReadToStartElement(reader, NULL, NULL, &amp;found, error);
         the <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">WS_XML_NODE</a> following the corresponding end element.
       
 
-
-        This function can fail for any of the reasons listed in <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a>.
+This function can fail for any of the reasons listed in <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a>.
       
 
 

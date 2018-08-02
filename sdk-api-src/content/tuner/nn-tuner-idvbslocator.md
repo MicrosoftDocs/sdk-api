@@ -7,7 +7,7 @@ old-location: mstv\idvbslocator.htm
 old-project: mstv
 ms.assetid: a9f02e78-3800-4b14-81df-acab01ea072b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IDVBSLocator, IDVBSLocator interface [Microsoft TV Technologies], IDVBSLocator interface [Microsoft TV Technologies],described, IDVBSLocatorInterface, mstv.idvbslocator, tuner/IDVBSLocator
 ms.prod: windows
 ms.technology: windows-sdk

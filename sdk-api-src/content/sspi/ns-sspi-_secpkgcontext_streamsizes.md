@@ -4,10 +4,10 @@ title: "_SecPkgContext_StreamSizes"
 author: windows-sdk-content
 description: Indicates the sizes of the various parts of a stream for use with the message support functions. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_streamsizes.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 75e5fc96-56cc-4713-a34f-fca687798ad6
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PSecPkgContext_StreamSizes, PSecPkgContext_StreamSizes, PSecPkgContext_StreamSizes structure pointer [Security], SecPkgContext_DatagramSizes, SecPkgContext_StreamSizes, SecPkgContext_StreamSizes structure [Security], _SecPkgContext_StreamSizes, _ssp_secpkgcontext_streamsizes, security.secpkgcontext_streamsizes, sspi/PSecPkgContext_StreamSizes, sspi/SecPkgContext_StreamSizes"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_StreamSizes structure
@@ -51,8 +50,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-			The <b>SecPkgContext_StreamSizes</b> structure indicates the sizes of the various parts of a stream for use with the message support functions. The 
+The <b>SecPkgContext_StreamSizes</b> structure indicates the sizes of the various parts of a stream for use with the message support functions. The 
 <a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a> function uses this structure.
 
 

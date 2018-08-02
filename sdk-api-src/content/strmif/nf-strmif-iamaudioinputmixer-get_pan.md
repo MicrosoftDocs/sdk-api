@@ -7,7 +7,7 @@ old-location: dshow\iamaudioinputmixer_get_pan.htm
 old-project: DirectShow
 ms.assetid: aa1aae16-484e-4f78-901e-2fdb0d8e365c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Pan method, IAMAudioInputMixer.get_Pan, IAMAudioInputMixer::get_Pan, IAMAudioInputMixerget_Pan, dshow.iamaudioinputmixer_get_pan, get_Pan, get_Pan method [DirectShow], get_Pan method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Pan
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Receives the pan level. Possible values range from from –1.0 to 1.0, as follow
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

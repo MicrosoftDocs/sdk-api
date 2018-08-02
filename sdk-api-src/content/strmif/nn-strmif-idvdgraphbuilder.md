@@ -7,7 +7,7 @@ old-location: dshow\idvdgraphbuilder.htm
 old-project: DirectShow
 ms.assetid: 2179e54a-c6e2-4837-9f89-be210bde9180
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IDvdGraphBuilder, IDvdGraphBuilder interface [DirectShow], IDvdGraphBuilder interface [DirectShow],described, IDvdGraphBuilderInterface, dshow.idvdgraphbuilder, strmif/IDvdGraphBuilder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,8 +57,7 @@ The <code>IDvdGraphBuilder</code> interface builds a filter graph for DVD-Video 
 
 The <a href="https://msdn.microsoft.com/731d2f4b-2a54-451a-8d98-b5fdf47c1dc8">RenderDvdVideoVolume</a> method builds a DVD playback graph from the available software and hardware on the system. For information on how to build the DVD filter graph and obtain the pointers to all the necessary interfaces, see <a href="https://msdn.microsoft.com/1d2f8284-2deb-4207-b067-24a54d6b286c">Building the DVD Filter Graph</a>.
 
-<div class="alert"><b>Note</b>  
-           A DVD filter graph requires either a hardware or software MPEG-2 decoder.</div>
+<div class="alert"><b>Note</b>  A DVD filter graph requires either a hardware or software MPEG-2 decoder.</div>
 <div> </div>
 Generally, you should not add, remove, connect, disconnect, or access individual filters in the graph created by <b>RenderDvdVideoVolume</b>, because doing so might confuse the cleanup code. The purpose of the <b>DvdGraphBuilder</b> object is to simplify the development of DVD-Video applications. If you need a specific type of graph for a particular solution, you should manually create the entire filter graph.
 

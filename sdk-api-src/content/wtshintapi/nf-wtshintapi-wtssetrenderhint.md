@@ -4,10 +4,10 @@ title: WTSSetRenderHint function
 author: windows-sdk-content
 description: Used by an application that is displaying content that can be optimized for displaying in a remote session to identify the region of a window that is the actual content.
 old-location: termserv\wtssetrenderhint.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: CF8AE408-AE3A-44AC-91F9-6F6D9858893F
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: RENDER_HINT_CLEAR, RENDER_HINT_MAPPEDWINDOW, RENDER_HINT_VIDEO, WTSSetRenderHint, WTSSetRenderHint function [Remote Desktop Services], termserv.wtssetrenderhint, wtshintapi/WTSSetRenderHint
 ms.prod: windows
 ms.technology: windows-sdk

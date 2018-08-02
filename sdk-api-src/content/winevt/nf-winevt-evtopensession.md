@@ -7,7 +7,7 @@ old-location: wes\evtopensession.htm
 old-project: WES
 ms.assetid: 26f1745c-dcca-4452-872e-1fffe20f049c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtOpenSession, EvtOpenSession function [EventLog], wes.evtopensession, winevt/EvtOpenSession
 ms.prod: windows
 ms.technology: windows-sdk

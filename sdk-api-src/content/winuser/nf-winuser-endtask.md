@@ -7,7 +7,7 @@ old-location: winmsg\endtask.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\endtask.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: EndTask, EndTask function [Windows and Messages], _win32_EndTask, _win32_endtask_cpp, winmsg.endtask, winui._win32_endtask, winuser/EndTask
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,9 +83,8 @@ Ignored. Must be <b>FALSE</b>.
 Type: <b>BOOL</b>
 
 A <b>TRUE</b> for this parameter will force the destruction of the
-        window if an initial attempt fails to gently close the window using <a href="https://msdn.microsoft.com/library/ms632617(v=VS.85).aspx">WM_CLOSE</a>.
-        With a <b>FALSE</b> for this parameter, only the close with <b>WM_CLOSE</b>
-        is attempted. 
+        window if an initial attempt fails to gently close the window using <a href="https://msdn.microsoft.com/en-us/library/ms632617(v=VS.85).aspx">WM_CLOSE</a>.
+        With a <b>FALSE</b> for this parameter, only the close with <b>WM_CLOSE</b>is attempted. 
 
 
 ## -returns
@@ -117,7 +116,7 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632678(v=VS.85).aspx">CloseWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632678(v=VS.85).aspx">CloseWindow</a>
 
 
 
@@ -125,7 +124,7 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx">DestroyWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632682(v=VS.85).aspx">DestroyWindow</a>
 
 
 
@@ -133,7 +132,7 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632617(v=VS.85).aspx">WM_CLOSE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632617(v=VS.85).aspx">WM_CLOSE</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: winsat\iwinsatinitiateevents_winsatupdate.htm
 old-project: WinSAT
 ms.assetid: d0f527a9-89b9-45d6-b5a5-82b0ae1ad122
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IWinSATInitiateEvents interface [WinSAT],WinSATUpdate method, IWinSATInitiateEvents.WinSATUpdate, IWinSATInitiateEvents::WinSATUpdate, WinSATUpdate, WinSATUpdate method [WinSAT], WinSATUpdate method [WinSAT],IWinSATInitiateEvents interface, winsat.iwinsatinitiateevents_winsatupdate, winsatcominterfacei/IWinSATInitiateEvents::WinSATUpdate
 ms.prod: windows
 ms.technology: windows-sdk

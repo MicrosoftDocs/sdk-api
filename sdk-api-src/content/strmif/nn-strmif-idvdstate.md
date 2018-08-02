@@ -7,7 +7,7 @@ old-location: dshow\idvdstate.htm
 old-project: DirectShow
 ms.assetid: df30a3b9-7541-42a8-b642-3b6450a0345e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IDvdState, IDvdState interface [DirectShow], IDvdState interface [DirectShow],described, IDvdStateInterface, dshow.idvdstate, strmif/IDvdState
 ms.prod: windows
 ms.technology: windows-sdk

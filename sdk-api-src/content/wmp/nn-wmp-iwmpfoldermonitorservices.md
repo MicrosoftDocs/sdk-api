@@ -7,7 +7,7 @@ old-location: wmp\iwmpfoldermonitorservices.htm
 old-project: WMP
 ms.assetid: 42c3b03c-f8f8-4219-91e1-da54a175fb24
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPFolderMonitorServices, IWMPFolderMonitorServices interface [Windows Media Player], IWMPFolderMonitorServices interface [Windows Media Player],described, IWMPFolderMonitorServicesInterface, wmp.iwmpfoldermonitorservices, wmp/IWMPFolderMonitorServices
 ms.prod: windows
 ms.technology: windows-sdk
@@ -176,7 +176,6 @@ Stops the scanning operation.
 </td>
 </tr>
 </table> 
-
 
 Retrieve a pointer to <b>IWMPFolderMonitorServices</b> by calling <b>QueryInterface</b> through <a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer</a>.
 	

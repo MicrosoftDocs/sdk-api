@@ -7,7 +7,7 @@ old-location: wsw\ws_service_close_channel_callback.htm
 old-project: wsw
 ms.assetid: e2860015-219b-46be-921d-7ced0d95fc60
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SERVICE_CLOSE_CHANNEL_CALLBACK, WS_SERVICE_CLOSE_CHANNEL_CALLBACK callback, WS_SERVICE_CLOSE_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_SERVICE_CLOSE_CHANNEL_CALLBACK, wsw.ws_service_close_channel_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,21 +55,18 @@ Invoked when a channel is closed or aborted on an endpoint.
                 This callback is called right before we are about to close the channel. 
             
 
-
-                For normal operation when service host is running and the client cleanly 
+For normal operation when service host is running and the client cleanly 
                 closed the channel, this implies that we have received a session closure 
                 from the client and we are about to close the channel. 
             
 
-
-                The other scenario is when service host is going through an Abort Shutdown 
+The other scenario is when service host is going through an Abort Shutdown 
                 or during the processing of the message an unrecoverable error condition is 
                 met, as a result of this we attempt to abort and then close the channel. 
                 In this case as well right before the abort we will call upon this callback. 
             
 
-
-                For session-based service contract, this notification 
+For session-based service contract, this notification 
                 signifies session tear down. Thus an application state scoped for the session 
                 can be destroyed within this callback. 
             
@@ -82,8 +79,7 @@ Invoked when a channel is closed or aborted on an endpoint.
 
 ### -param *context [in]
 
-
-                    The operation context.
+The operation context.
                 
 
 
@@ -105,28 +101,23 @@ This callback function does not return a value.
 
 
 
-
-                The returned HRESULT is only used to see if the function is completing asynchronously. Failure or 
+The returned HRESULT is only used to see if the function is completing asynchronously. Failure or 
                 reporting failure through HRESULT does not in any way affects the service host infrastructure.
                 
             
 
-
-                Irrespective of whether <a href="https://msdn.microsoft.com/473af4be-d193-42a5-82ff-359b50a7bc58">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> competed successfully or not. This function 
+Irrespective of whether <a href="https://msdn.microsoft.com/473af4be-d193-42a5-82ff-359b50a7bc58">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> competed successfully or not. This function 
                 will always be fired.
             
 
-
-                See also <a href="https://msdn.microsoft.com/473af4be-d193-42a5-82ff-359b50a7bc58">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> which can be used by the application to associate state,
+See also <a href="https://msdn.microsoft.com/473af4be-d193-42a5-82ff-359b50a7bc58">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> which can be used by the application to associate state,
                 and gets called when a channel gets accepted.
             
 
-
-                For an example implementation on how to use this callback for disassociating session state, see the session based calculator <a href="https://msdn.microsoft.com/7501025b-5692-4f89-ad74-c60694c29163">sample</a>.
+For an example implementation on how to use this callback for disassociating session state, see the session based calculator <a href="https://msdn.microsoft.com/7501025b-5692-4f89-ad74-c60694c29163">sample</a>.
             
 
-
-                This callback is cancellable.
+This callback is cancellable.
             
 
 

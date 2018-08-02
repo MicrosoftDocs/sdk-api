@@ -7,7 +7,7 @@ old-location: winmsg\movewindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\movewindow.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: MoveWindow, MoveWindow function [Windows and Messages], _win32_MoveWindow, _win32_movewindow_cpp, winmsg.movewindow, winui._win32_movewindow, winuser/MoveWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,12 +131,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 If the <i>bRepaint</i> parameter is <b>TRUE</b>, the system sends the <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> message to the window procedure immediately after moving the window (that is, the <b>MoveWindow</b> function calls the <a href="https://msdn.microsoft.com/51a50f1f-7b4d-4acd-83a0-1877f5181766">UpdateWindow</a> function). If <i>bRepaint</i> is <b>FALSE</b>, the application must explicitly invalidate or redraw any parts of the window and parent window that need redrawing.
 
-<b>MoveWindow</b> sends the <a href="https://msdn.microsoft.com/library/ms632653(v=VS.85).aspx">WM_WINDOWPOSCHANGING</a>, <a href="https://msdn.microsoft.com/library/ms632652(v=VS.85).aspx">WM_WINDOWPOSCHANGED</a>, <a href="https://msdn.microsoft.com/library/ms632631(v=VS.85).aspx">WM_MOVE</a>, <a href="https://msdn.microsoft.com/library/ms632646(v=VS.85).aspx">WM_SIZE</a>, and <a href="https://msdn.microsoft.com/library/ms632634(v=VS.85).aspx">WM_NCCALCSIZE</a> messages to the window. 
+<b>MoveWindow</b> sends the <a href="https://msdn.microsoft.com/en-us/library/ms632653(v=VS.85).aspx">WM_WINDOWPOSCHANGING</a>, <a href="https://msdn.microsoft.com/en-us/library/ms632652(v=VS.85).aspx">WM_WINDOWPOSCHANGED</a>, <a href="https://msdn.microsoft.com/en-us/library/ms632631(v=VS.85).aspx">WM_MOVE</a>, <a href="https://msdn.microsoft.com/en-us/library/ms632646(v=VS.85).aspx">WM_SIZE</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms632634(v=VS.85).aspx">WM_NCCALCSIZE</a> messages to the window. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms632598(v=VS.85).aspx">Creating, Enumerating, and Sizing Child Windows</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS.85).aspx">Creating, Enumerating, and Sizing Child Windows</a>.
 
 <div class="code"></div>
 
@@ -159,7 +159,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms632598(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633545(v=VS.85).aspx">SetWindowPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx">SetWindowPos</a>
 
 
 
@@ -167,7 +167,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms632598(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632626(v=VS.85).aspx">WM_GETMINMAXINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632626(v=VS.85).aspx">WM_GETMINMAXINFO</a>
 
 
 

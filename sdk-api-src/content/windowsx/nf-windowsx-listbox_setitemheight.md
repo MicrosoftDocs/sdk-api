@@ -4,10 +4,10 @@ title: ListBox_SetItemHeight macro
 author: windows-sdk-content
 description: Sets the height of items in a list box.
 old-location: controls\ListBox_SetItemHeight.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setitemheight.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ListBox_SetItemHeight, ListBox_SetItemHeight macro [Windows Controls], _win32_ListBox_SetItemHeight, _win32_ListBox_SetItemHeight_cpp, controls.ListBox_SetItemHeight, controls._win32_ListBox_SetItemHeight, windowsx/ListBox_SetItemHeight
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the height of items in a list box. If the list box has the <a href="https://msdn.microsoft.com/library/Bb775149(v=VS.85).aspx">LBS_OWNERDRAWVARIABLE</a> style, this macro sets the height of the specified item; otherwise, it sets the height of all items. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761348(v=VS.85).aspx">LB_SETITEMHEIGHT</a> message explicitly.
+Sets the height of items in a list box. If the list box has the <a href="List_Box_Styles.htm">LBS_OWNERDRAWVARIABLE</a> style, this macro sets the height of the specified item; otherwise, it sets the height of all items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761348(v=VS.85).aspx">LB_SETITEMHEIGHT</a> message explicitly.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to the control.
 
 Type: <b>int</b>
 
-The zero-based index of the item. If the list box does not have the <a href="https://msdn.microsoft.com/library/Bb775149(v=VS.85).aspx">LBS_OWNERDRAWVARIABLE</a> style, set this parameter to zero. 
+The zero-based index of the item. If the list box does not have the <a href="List_Box_Styles.htm">LBS_OWNERDRAWVARIABLE</a> style, set this parameter to zero. 
 
 
 ### -param cy
@@ -84,7 +84,7 @@ The height of the item or items, in pixels.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb761348(v=VS.85).aspx">LB_SETITEMHEIGHT</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761348(v=VS.85).aspx">LB_SETITEMHEIGHT</a>.
 	
 
 

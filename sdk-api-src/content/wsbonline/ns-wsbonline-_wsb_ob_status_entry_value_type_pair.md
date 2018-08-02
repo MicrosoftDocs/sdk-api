@@ -7,7 +7,7 @@ old-location: wsb\wsb_ob_status_entry_value_type_pair.htm
 old-project: wsb
 ms.assetid: FA92796E-7C26-4FD0-8AC2-F84F8F5E5A6C
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR, WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR structure [Windows Server Backup], _WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR, wsb.wsb_ob_status_entry_value_type_pair, wsbonline/WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\ws_service_security_identities.htm
 old-project: wsw
 ms.assetid: d38f0efd-2570-4db1-b4f7-113a45fe4449
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SERVICE_SECURITY_IDENTITIES, WS_SERVICE_SECURITY_IDENTITIES structure [Web Services for Windows], _WS_SERVICE_SECURITY_IDENTITIES, webservices/WS_SERVICE_SECURITY_IDENTITIES, wsw.ws_service_security_identities
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,12 +51,10 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                A list of Server Principal Names (SPNs) that are used to validate <a href="https://msdn.microsoft.com/35e48846-05e5-4db9-a3b5-098b62815b66">Extended Protection</a>. 
+A list of Server Principal Names (SPNs) that are used to validate <a href="https://msdn.microsoft.com/35e48846-05e5-4db9-a3b5-098b62815b66">Extended Protection</a>. 
             
 
-
-                Only available on the server.
+Only available on the server.
             
 
 
@@ -67,14 +65,12 @@ req.product: Windows Address Book 5.0
 
 ### -field serviceIdentities
 
-
-                    A array of strings representing the SPNs accepted by the server. Wildcards are not allowed.
+A array of strings representing the SPNs accepted by the server. Wildcards are not allowed.
                 
 
 
 ### -field serviceIdentityCount
 
-
-                    The number of strings in serviceIdentities.
+The number of strings in serviceIdentities.
                 
 

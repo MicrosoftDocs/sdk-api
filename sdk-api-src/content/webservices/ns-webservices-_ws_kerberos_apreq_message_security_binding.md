@@ -7,7 +7,7 @@ old-location: wsw\ws_kerberos_apreq_message_security_binding.htm
 old-project: wsw
 ms.assetid: 03127248-f5cc-44da-9c3d-abf016dd6bb2
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING, WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING structure [Web Services for Windows], _WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING, webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING, wsw.ws_kerberos_apreq_message_security_binding
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,16 +51,13 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 The security binding subtype for specifying the use of the Kerberos
 AP_REQ ticket as a direct (i.e., without establishing a session)
 security token with WS-Security.
             
 
-
-            Only one instance of this binding may be present in a <a href="https://msdn.microsoft.com/b9490f00-877c-4d9f-b361-eaca343cdee0">security description</a>.
+Only one instance of this binding may be present in a <a href="https://msdn.microsoft.com/b9490f00-877c-4d9f-b361-eaca343cdee0">security description</a>.
           This security binding is not supported with the <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_NAMEDPIPE_CHANNEL_BINDING</a>.
-
 
 With this security binding, the following security binding properties may be specified:
 <ul>
@@ -73,8 +70,7 @@ With this security binding, the following security binding properties may be spe
 </ul>
 
 
-
-                In Windows Vista and above on the client side, using this binding with HTTP will result in the message being sent using chunked transfer.
+In Windows Vista and above on the client side, using this binding with HTTP will result in the message being sent using chunked transfer.
             
 
 
@@ -85,13 +81,11 @@ With this security binding, the following security binding properties may be spe
 
 ### -field binding
 
-
 The base type from which this security binding subtype and all other security binding subtypes derive.
                 
 
 
 ### -field bindingUsage
-
 
 How the security token corresponding to this security binding should
 be attached to a message.
@@ -101,12 +95,10 @@ be attached to a message.
                     channel.
 
 
-
-                    To use this binding on HTTP without SSL, the security description property <b>WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL</b> must be explicitly set to <b>WS_PROTECTION_LEVEL_NONE</b>. This is not supported on the client or on TCP.
+To use this binding on HTTP without SSL, the security description property <b>WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL</b> must be explicitly set to <b>WS_PROTECTION_LEVEL_NONE</b>. This is not supported on the client or on TCP.
 
 
 ### -field clientCredential
-
 
 The Windows Integrated Authentication credential to be used to obtain
 the Kerberos ticket.  This field is required on the client side, but

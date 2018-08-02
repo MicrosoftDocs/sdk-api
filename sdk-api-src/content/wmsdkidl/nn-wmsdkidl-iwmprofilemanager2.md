@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofilemanager2.htm
 old-project: wmformat
 ms.assetid: eb5d904e-15ee-4066-ab05-c4e133bc89d7
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMProfileManager2, IWMProfileManager2 interface [windows Media Format], IWMProfileManager2 interface [windows Media Format],described, IWMProfileManager2Interface, wmformat.iwmprofilemanager2, wmsdkidl/IWMProfileManager2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,8 +92,7 @@ Specifies the version number of the system profiles that the profile manager enu
 </tr>
 </table> 
 
-
-    The following interfaces can be obtained by using the QueryInterface method of this interface.<table>
+The following interfaces can be obtained by using the QueryInterface method of this interface.<table>
 <tr>
 <th>Interface</th>
 <th>IID</th>

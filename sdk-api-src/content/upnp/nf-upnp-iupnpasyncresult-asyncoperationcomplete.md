@@ -4,10 +4,10 @@ title: IUPnPAsyncResult::AsyncOperationComplete
 author: windows-sdk-content
 description: AsyncOperationComplete callback method provides notification of the completion of an asynchronous I/O operation.
 old-location: upnp\iupnpasyncresult_asyncoperationcomplete.htm
-old-project: upnp
+old-project: UPnP
 ms.assetid: C71C0A78-C3D1-4725-99E2-542786B03C8F
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 07/29/2018
 ms.keywords: AsyncOperationComplete, AsyncOperationComplete method [UPnP APIs], AsyncOperationComplete method [UPnP APIs],IUPnPAsyncResult interface, IUPnPAsyncResult interface [UPnP APIs],AsyncOperationComplete method, IUPnPAsyncResult.AsyncOperationComplete, IUPnPAsyncResult::AsyncOperationComplete, upnp.iupnpasyncresult_asyncoperationcomplete, upnp/IUPnPAsyncResult::AsyncOperationComplete
 ms.prod: windows
 ms.technology: windows-sdk

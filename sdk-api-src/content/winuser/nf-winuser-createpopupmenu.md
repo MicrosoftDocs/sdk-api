@@ -7,7 +7,7 @@ old-location: menurc\createpopupmenu.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\createpopupmenu.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: CreatePopupMenu, CreatePopupMenu function [Menus and Other Resources], _win32_CreatePopupMenu, _win32_createpopupmenu_cpp, menurc.createpopupmenu, winui._win32_createpopupmenu, winuser/CreatePopupMenu
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Creates a drop-down menu, submenu, or shortcut menu. The menu is initially empty. You can insert or append menu items by using the <a href="https://msdn.microsoft.com/library/ms647988(v=VS.85).aspx">InsertMenuItem</a> function. You can also use the <a href="https://msdn.microsoft.com/library/ms647987(v=VS.85).aspx">InsertMenu</a> function to insert menu items and the <a href="https://msdn.microsoft.com/library/ms647616(v=VS.85).aspx">AppendMenu</a> function to append menu items.
+Creates a drop-down menu, submenu, or shortcut menu. The menu is initially empty. You can insert or append menu items by using the <a href="https://msdn.microsoft.com/en-us/library/ms647988(v=VS.85).aspx">InsertMenuItem</a> function. You can also use the <a href="https://msdn.microsoft.com/en-us/library/ms647987(v=VS.85).aspx">InsertMenu</a> function to insert menu items and the <a href="https://msdn.microsoft.com/en-us/library/ms647616(v=VS.85).aspx">AppendMenu</a> function to append menu items.
 
 
 ## -parameters
@@ -82,14 +82,14 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-The application can add the new menu to an existing menu, or it can display a shortcut menu by calling the <a href="https://msdn.microsoft.com/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a> or <a href="https://msdn.microsoft.com/library/ms648002(v=VS.85).aspx">TrackPopupMenu</a> functions. 
+The application can add the new menu to an existing menu, or it can display a shortcut menu by calling the <a href="https://msdn.microsoft.com/en-us/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a> or <a href="https://msdn.microsoft.com/en-us/library/ms648002(v=VS.85).aspx">TrackPopupMenu</a> functions. 
 
-Resources associated with a menu that is assigned to a window are freed automatically. If the menu is not assigned to a window, an application must free system resources associated with the menu before closing. An application frees menu resources by calling the <a href="https://msdn.microsoft.com/library/ms647631(v=VS.85).aspx">DestroyMenu</a> function. 
+Resources associated with a menu that is assigned to a window are freed automatically. If the menu is not assigned to a window, an application must free system resources associated with the menu before closing. An application frees menu resources by calling the <a href="https://msdn.microsoft.com/en-us/library/ms647631(v=VS.85).aspx">DestroyMenu</a> function. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85).aspx">Adding Lines and Graphs to a Menu</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Adding Lines and Graphs to a Menu</a>.
 
 <div class="code"></div>
 
@@ -100,7 +100,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647616(v=VS.85).aspx">AppendMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647616(v=VS.85).aspx">AppendMenu</a>
 
 
 
@@ -108,23 +108,23 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647624(v=VS.85).aspx">CreateMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647624(v=VS.85).aspx">CreateMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647631(v=VS.85).aspx">DestroyMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647631(v=VS.85).aspx">DestroyMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647987(v=VS.85).aspx">InsertMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647987(v=VS.85).aspx">InsertMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647988(v=VS.85).aspx">InsertMenuItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647988(v=VS.85).aspx">InsertMenuItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
 
 
 
@@ -132,15 +132,15 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647995(v=VS.85).aspx">SetMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647995(v=VS.85).aspx">SetMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648002(v=VS.85).aspx">TrackPopupMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648002(v=VS.85).aspx">TrackPopupMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a>
  
 
  

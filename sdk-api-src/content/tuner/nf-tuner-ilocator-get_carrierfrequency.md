@@ -7,7 +7,7 @@ old-location: mstv\ilocator_get_carrierfrequency.htm
 old-project: mstv
 ms.assetid: 15f6d54c-81c8-40d3-937f-c54102f3a230
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: ILocator interface [Microsoft TV Technologies],get_CarrierFrequency method, ILocator.get_CarrierFrequency, ILocator::get_CarrierFrequency, ILocatorget_CarrierFrequency, get_CarrierFrequency, get_CarrierFrequency method [Microsoft TV Technologies], get_CarrierFrequency method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_carrierfrequency, tuner/ILocator::get_CarrierFrequency
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ The <b>get_CarrierFrequency</b> method gets the frequency of the RF signal.
 
 #### - pFrequency [out]
 
-
-            Receives the frequency, in kilohertz (kHz).
+Receives the frequency, in kilohertz (kHz).
           
 
 

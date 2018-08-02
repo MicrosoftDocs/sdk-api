@@ -7,7 +7,7 @@ old-location: wmp\wmpripstate.htm
 old-project: WMP
 ms.assetid: bd62cae1-3f63-4355-afc7-e429a444189d
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: WMPRipState, WMPRipState enumeration [Windows Media Player], wmp.wmpripstate, wmp/WMPRipState, wmp/wmprsRipping, wmp/wmprsStopped, wmp/wmprsUnknown, wmprsRipping, wmprsStopped, wmprsUnknown
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ The ripping operation is stopped.
 
 
 
-
-          Windows Media Player 10 Mobile: This enumeration is not supported.
+Windows Media Player 10 Mobile: This enumeration is not supported.
 
 
 

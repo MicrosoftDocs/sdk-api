@@ -4,10 +4,10 @@ title: ComboBox_AddString macro
 author: windows-sdk-content
 description: Adds a string to a list in a combo box.
 old-location: controls\ComboBox_AddString.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_addstring.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ComboBox_AddString, ComboBox_AddString macro [Windows Controls], _win32_ComboBox_AddString, _win32_ComboBox_AddString_cpp, controls.ComboBox_AddString, controls._win32_ComboBox_AddString, windowsx/ComboBox_AddString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Adds a string to a list in a combo box. If the combo box does not have the <a href="https://msdn.microsoft.com/library/Bb775796(v=VS.85).aspx">CBS_SORT</a> style, the string is added to the end of the list. Otherwise, the string is inserted into the list and the list is sorted. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775828(v=VS.85).aspx">CB_ADDSTRING</a> message explicitly.
+Adds a string to a list in a combo box. If the combo box does not have the <a href="Combo_Box_Styles.htm">CBS_SORT</a> style, the string is added to the end of the list. Otherwise, the string is inserted into the list and the list is sorted. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775828(v=VS.85).aspx">CB_ADDSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ The string to add.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb775828(v=VS.85).aspx">CB_ADDSTRING</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775828(v=VS.85).aspx">CB_ADDSTRING</a>.
 	
 
 

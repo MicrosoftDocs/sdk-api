@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_UpdateEvents.htm
 old-project: shell
 ms.assetid: 72848e6a-eec3-45fc-b599-a5a8da2e1070
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateEvents method, ISyncMgrControl.UpdateEvents, ISyncMgrControl::UpdateEvents, UpdateEvents, UpdateEvents method [Windows Shell], UpdateEvents method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateEvents, shell.ISyncMgrControl_UpdateEvents, syncmgr/ISyncMgrControl::UpdateEvents
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,8 +102,7 @@ If SYNCMGR_CF_WAIT is set in the <i>nControlFlags</i> parameter, <b>UpdateEvents
 
 
 
-
-        	The following example shows the usage of <b>ISyncMgrControl::UpdateEvents</b> by a handler's procedure.
+The following example shows the usage of <b>ISyncMgrControl::UpdateEvents</b> by a handler's procedure.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

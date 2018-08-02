@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_reader_properties.htm
 old-project: wsw
 ms.assetid: 5373c8d3-9201-417e-99d9-cc0d15a35ea6
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_READER_PROPERTIES, WS_XML_READER_PROPERTIES structure [Web Services for Windows], _WS_XML_READER_PROPERTIES, webservices/WS_XML_READER_PROPERTIES, wsw.ws_xml_reader_properties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                A structure that is used to specify a set of <a href="https://msdn.microsoft.com/8864d679-c321-45bb-b774-f05696d6098e">WS_XML_READER_PROPERTY</a>s.
+A structure that is used to specify a set of <a href="https://msdn.microsoft.com/8864d679-c321-45bb-b774-f05696d6098e">WS_XML_READER_PROPERTY</a>s.
             
 
 
@@ -63,8 +62,7 @@ req.product: Windows Address Book 5.0
 
 ### -field properties
 
-
-                    An array of properties.  The number of elements in the array is specified
+An array of properties.  The number of elements in the array is specified
                     using the propertyCount parameter.  This field may be <b>NULL</b> if the propertyCount
                     is 0.
                 
@@ -72,7 +70,6 @@ req.product: Windows Address Book 5.0
 
 ### -field propertyCount
 
-
-                    The number of elements in the properties array.
+The number of elements in the properties array.
                 
 

@@ -4,10 +4,10 @@ title: ITAddressTranslation
 author: windows-sdk-content
 description: The ITAddressTranslation interface provides methods that allow translation of a calling address into a different format. For example, an application may need to translate an address from canonical to dialable prior to making a call.
 old-location: tapi3\itaddresstranslation.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: e1cd88f1-1ed7-4e7f-a745-9a9c4af69317
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITAddressTranslation, ITAddressTranslation interface [TAPI 2.2], ITAddressTranslation interface [TAPI 2.2],described, _tapi3_itaddresstranslation, tapi3.itaddresstranslation, tapi3if/ITAddressTranslation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,13 +63,13 @@ The
 <a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a>.
 
 For additional information, see 
-<a href="https://msdn.microsoft.com/library/ms728172(v=VS.85).aspx">Address Translation</a> and 
-<a href="https://msdn.microsoft.com/library/ms726017(v=VS.85).aspx">Dialable Addresses</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms728172(v=VS.85).aspx">Address Translation</a> and 
+<a href="https://msdn.microsoft.com/en-us/library/ms726017(v=VS.85).aspx">Dialable Addresses</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddressTranslation</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITAddressTranslation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddressTranslation</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITAddressTranslation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -148,15 +148,15 @@ Invokes the control panel's telephony applet.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms728172(v=VS.85).aspx">Address Translation</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms728172(v=VS.85).aspx">Address Translation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms726017(v=VS.85).aspx">Dialable Addresses</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726017(v=VS.85).aspx">Dialable Addresses</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

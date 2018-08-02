@@ -7,7 +7,7 @@ old-location: winmsg\wndclass.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassstructures\wndclass.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPWNDCLASSW, *NPWNDCLASSW, *PWNDCLASSW, PWNDCLASS, PWNDCLASS structure pointer [Windows and Messages], WNDCLASS, WNDCLASS structure [Windows and Messages], WNDCLASSA, WNDCLASSW, _win32_WNDCLASS_str, _win32_wndclass_str_cpp, tagWNDCLASSW, winmsg.wndclass, winui._win32_wndclass_str, winuser/PWNDCLASS, winuser/WNDCLASS, winuser/WNDCLASSA, winuser/WNDCLASSW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,9 +53,9 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Contains the window class attributes that are registered by the <a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a> function. 
+Contains the window class attributes that are registered by the <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a> function. 
 
-This structure has been superseded by the <a href="https://msdn.microsoft.com/library/ms633577(v=VS.85).aspx">WNDCLASSEX</a> structure used with the <a href="https://msdn.microsoft.com/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function. You can still use <b>WNDCLASS</b> and <a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a> if you do not need to set the small icon associated with the window class.
+This structure has been superseded by the <a href="https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx">WNDCLASSEX</a> structure used with the <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function. You can still use <b>WNDCLASS</b> and <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a> if you do not need to set the small icon associated with the window class.
 
 
 ## -struct-fields
@@ -67,14 +67,14 @@ This structure has been superseded by the <a href="https://msdn.microsoft.com/li
 
 Type: <b>UINT</b>
 
-The class style(s). This member can be any combination of the <a href="https://msdn.microsoft.com/library/ms633574(v=VS.85).aspx">Class Styles</a>. 
+The class style(s). This member can be any combination of the <a href="https://msdn.microsoft.com/en-us/library/ms633574(v=VS.85).aspx">Class Styles</a>. 
 
 
 ### -field lpfnWndProc
 
 Type: <b>WNDPROC</b>
 
-A pointer to the window procedure. You must use the <a href="https://msdn.microsoft.com/library/ms633571(v=VS.85).aspx">CallWindowProc</a> function to call the window procedure. For more information, see <a href="https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx">WindowProc</a>. 
+A pointer to the window procedure. You must use the <a href="https://msdn.microsoft.com/en-us/library/ms633571(v=VS.85).aspx">CallWindowProc</a> function to call the window procedure. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx">WindowProc</a>. 
 
 
 ### -field cbClsExtra
@@ -142,10 +142,10 @@ A handle to the class background brush. This member can be a handle to the physi
 <li>COLOR_WINDOWFRAME</li>
 <li>COLOR_WINDOWTEXT </li>
 </ul>
-The system automatically deletes class background brushes when the class is unregistered by using <a href="https://msdn.microsoft.com/library/ms644899(v=VS.85).aspx">UnregisterClass</a>. An application should not delete these brushes. 
+The system automatically deletes class background brushes when the class is unregistered by using <a href="https://msdn.microsoft.com/en-us/library/ms644899(v=VS.85).aspx">UnregisterClass</a>. An application should not delete these brushes. 
 
 When this member is <b>NULL</b>, an application must paint its own background whenever it is requested to paint in its client area. To determine whether the background must be painted, an application can either process the 
-						<a href="https://msdn.microsoft.com/library/ms648055(v=VS.85).aspx">WM_ERASEBKGND</a> message or test the 
+						<a href="https://msdn.microsoft.com/en-us/library/ms648055(v=VS.85).aspx">WM_ERASEBKGND</a> message or test the 
 						<b>fErase</b> member of the <a href="https://msdn.microsoft.com/1f8c6dd2-e511-48f2-8ab0-d2fadb1ce433">PAINTSTRUCT</a> structure filled by the <a href="https://msdn.microsoft.com/513341d7-bed8-469c-a067-ee71dc8860f9">BeginPaint</a> function. 
 
 
@@ -153,20 +153,20 @@ When this member is <b>NULL</b>, an application must paint its own background wh
 
 Type: <b>LPCTSTR</b>
 
-The resource name of the class menu, as the name appears in the resource file. If you use an integer to identify the menu, use the <a href="https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. If this member is <b>NULL</b>, windows belonging to this class have no default menu. 
+The resource name of the class menu, as the name appears in the resource file. If you use an integer to identify the menu, use the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. If this member is <b>NULL</b>, windows belonging to this class have no default menu. 
 
 
 ### -field lpszClassName
 
 Type: <b>LPCTSTR</b>
 
-A pointer to a null-terminated string or is an atom. If this parameter is an atom, it must be a class atom created by a previous call to the <a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a> or <a href="https://msdn.microsoft.com/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function. The atom must be in the low-order word of 
+A pointer to a null-terminated string or is an atom. If this parameter is an atom, it must be a class atom created by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a> or <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function. The atom must be in the low-order word of 
 					<b>lpszClassName</b>; the high-order word must be zero. 
 					
 
-If <b>lpszClassName</b> is a string, it specifies the window class name. The class name can be any name registered with <a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a> or <a href="https://msdn.microsoft.com/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>, or any of the predefined control-class names. 
+If <b>lpszClassName</b> is a string, it specifies the window class name. The class name can be any name registered with <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a> or <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>, or any of the predefined control-class names. 
 
-The maximum length for <b>lpszClassName</b> is 256. If <b>lpszClassName</b> is greater than the maximum length, the <a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a> function will fail.
+The maximum length for <b>lpszClassName</b> is 256. If <b>lpszClassName</b> is greater than the maximum length, the <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a> function will fail.
 
 
 ## -see-also
@@ -182,11 +182,11 @@ The maximum length for <b>lpszClassName</b> is 256. If <b>lpszClassName</b> is g
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
 
 
 
@@ -194,7 +194,7 @@ The maximum length for <b>lpszClassName</b> is 256. If <b>lpszClassName</b> is g
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>
 
 
 
@@ -210,11 +210,11 @@ The maximum length for <b>lpszClassName</b> is 256. If <b>lpszClassName</b> is g
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644899(v=VS.85).aspx">UnregisterClass</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644899(v=VS.85).aspx">UnregisterClass</a>
 
 
 
@@ -222,15 +222,15 @@ The maximum length for <b>lpszClassName</b> is 256. If <b>lpszClassName</b> is g
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633577(v=VS.85).aspx">WNDCLASSEX</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx">WNDCLASSEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632596(v=VS.85).aspx">Window Classes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632596(v=VS.85).aspx">Window Classes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx">WindowProc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx">WindowProc</a>
  
 
  

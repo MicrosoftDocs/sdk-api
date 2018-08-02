@@ -7,7 +7,7 @@ old-location: xaudio2\ixapo_interface_process.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.Process(UINT32,const XAPO_PROCESS_BUFFER_PARAMETERS,UINT32,XAPO_PROCESS_BUFFER_PARAMETERS@,BOOL)
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],Process method, IXAPO.Process, IXAPO::Process, Process, Process method [XAudio2 Audio Mixing APIs], Process method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::Process, xaudio2.ixapo_interface_process
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ Number of elements in pInputProcessParameters.
 
 ### -param pInputProcessParameters [in]
 
-Input array of <a href="https://msdn.microsoft.com/library/Ee419209(v=VS.85).aspx">XAPO_PROCESS_BUFFER_PARAMETERS</a> structures. 
+Input array of <a href="https://msdn.microsoft.com/en-us/library/Ee419209(v=VS.85).aspx">XAPO_PROCESS_BUFFER_PARAMETERS</a> structures. 
 
 
 ### -param OutputProcessParameterCount [in]
@@ -80,7 +80,7 @@ Number of elements in <i>pOutputProcessParameters</i>.
 
 ### -param pOutputProcessParameters [in, out]
 
-Output array of <a href="https://msdn.microsoft.com/library/Ee419209(v=VS.85).aspx">XAPO_PROCESS_BUFFER_PARAMETERS</a> structures. On input, the value of <b>XAPO_PROCESS_BUFFER_PARAMETERS</b>. <b>ValidFrameCount</b> indicates the number of frames that the XAPO should write to the output buffer. On output, the value of <b>XAPO_PROCESS_BUFFER_PARAMETERS</b>. <b>ValidFrameCount</b> indicates the actual number of frames written.
+Output array of <a href="https://msdn.microsoft.com/en-us/library/Ee419209(v=VS.85).aspx">XAPO_PROCESS_BUFFER_PARAMETERS</a> structures. On input, the value of <b>XAPO_PROCESS_BUFFER_PARAMETERS</b>. <b>ValidFrameCount</b> indicates the number of frames that the XAPO should write to the output buffer. On output, the value of <b>XAPO_PROCESS_BUFFER_PARAMETERS</b>. <b>ValidFrameCount</b> indicates the actual number of frames written.
 
 
 ### -param IsEnabled
@@ -105,7 +105,7 @@ Implementations of this function should not block, as the function is called fro
 
 
 
-All code that could cause a delay, such as format validation and memory allocation, should be put in the <a href="https://msdn.microsoft.com/library/Ee418455(v=VS.85).aspx">IXAPO::LockForProcess</a> method, which is not called from the realtime audio processing thread. 
+All code that could cause a delay, such as format validation and memory allocation, should be put in the <a href="https://msdn.microsoft.com/en-us/library/Ee418455(v=VS.85).aspx">IXAPO::LockForProcess</a> method, which is not called from the realtime audio processing thread. 
 
 
 
@@ -139,7 +139,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee415893(v=VS.85).aspx">IXAPO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415893(v=VS.85).aspx">IXAPO</a>
  
 
  

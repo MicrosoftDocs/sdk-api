@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_writer_output.htm
 old-project: wsw
 ms.assetid: 367e6f98-9351-4a08-b8ce-036e7f2788e4
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_WRITER_OUTPUT, WS_XML_WRITER_OUTPUT structure [Web Services for Windows], _WS_XML_WRITER_OUTPUT, webservices/WS_XML_WRITER_OUTPUT, wsw.ws_xml_writer_output
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Specifies where the writer should emit the bytes that comprise the xml document.
+Specifies where the writer should emit the bytes that comprise the xml document.
       
 
 
@@ -63,7 +62,6 @@ req.product: Windows Address Book 5.0
 
 ### -field outputType
 
-
-          Indicates the type of output this structure refers to.
+Indicates the type of output this structure refers to.
         
 

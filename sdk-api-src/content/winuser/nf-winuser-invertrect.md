@@ -7,7 +7,7 @@ old-location: gdi\invertrect.htm
 old-project: gdi
 ms.assetid: a8c4dbf1-94ec-46e9-b365-7dfc89e4f176
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: InvertRect, InvertRect function [Windows GDI], _win32_InvertRect, gdi.invertrect, winuser/InvertRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,8 +98,7 @@ On monochrome screens, <b>InvertRect</b> makes white pixels black and black pixe
 
 
 
-<a href="https://msdn.microsoft.com/98ab34da-ea07-4446-a62e-509c849d95f9">
-        FillRect
+<a href="https://msdn.microsoft.com/98ab34da-ea07-4446-a62e-509c849d95f9">FillRect
       </a>
 
 
@@ -112,8 +111,7 @@ On monochrome screens, <b>InvertRect</b> makes white pixels black and black pixe
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">
-        RECT
+<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT
       </a>
  
 

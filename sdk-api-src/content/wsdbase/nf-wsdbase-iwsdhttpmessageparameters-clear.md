@@ -4,10 +4,10 @@ title: IWSDHttpMessageParameters::Clear
 author: windows-sdk-content
 description: Clears the HTTP headers used for SOAP-over-HTTP transmissions.
 old-location: ncd\iwsdhttpmessageparameters_clear.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: e5cd5c07-3326-4508-89ac-939466381b12
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: Clear, Clear method, Clear method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,Clear method, IWSDHttpMessageParameters.Clear, IWSDHttpMessageParameters::Clear, ncd.iwsdhttpmessageparameters_clear, wsdbase/IWSDHttpMessageParameters::Clear
 ms.prod: windows
 ms.technology: windows-sdk

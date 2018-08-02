@@ -7,7 +7,7 @@ old-location: gdi\drawcaption.htm
 old-project: gdi
 ms.assetid: 9348e29f-ce56-4664-8862-f5810c797622
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: DC_ACTIVE, DC_BUTTONS, DC_GRADIENT, DC_ICON, DC_INBUTTON, DC_SMALLCAP, DC_TEXT, DrawCaption, DrawCaption function [Windows GDI], _win32_DrawCaption, gdi.drawcaption, winuser/DrawCaption
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,8 +111,7 @@ The function uses the colors that denote an active caption.
 </dl>
 </td>
 <td width="60%">
-
-                 If set, the function draws the buttons in the caption bar (to minimize, restore, or close an application).
+If set, the function draws the buttons in the caption bar (to minimize, restore, or close an application).
 
 </td>
 </tr>
@@ -122,8 +121,7 @@ The function uses the colors that denote an active caption.
 </dl>
 </td>
 <td width="60%">
-
-                 When this flag is set, the function uses COLOR_GRADIENTACTIVECAPTION (if the DC_ACTIVE flag was set) or COLOR_GRADIENTINACTIVECAPTION for the title-bar color.
+When this flag is set, the function uses COLOR_GRADIENTACTIVECAPTION (if the DC_ACTIVE flag was set) or COLOR_GRADIENTINACTIVECAPTION for the title-bar color.
 
 If this flag is not set, the function uses COLOR_ACTIVECAPTION or COLOR_INACTIVECAPTION for both colors.
 

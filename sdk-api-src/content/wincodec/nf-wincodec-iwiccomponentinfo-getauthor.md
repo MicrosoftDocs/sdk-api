@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccomponentinfo_getauthor.htm
 old-project: wic
 ms.assetid: c92f707f-6077-4da0-9ac4-6d1f30fb5b75
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetAuthor, GetAuthor method [Windows Imaging Component], GetAuthor method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetAuthor method, IWICComponentInfo.GetAuthor, IWICComponentInfo::GetAuthor, _wic_codec_iwiccomponentinfo_getauthor, wic._wic_codec_iwiccomponentinfo_getauthor, wincodec/IWICComponentInfo::GetAuthor
 ms.prod: windows
 ms.technology: windows-sdk

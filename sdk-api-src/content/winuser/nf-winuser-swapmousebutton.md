@@ -7,7 +7,7 @@ old-location: inputdev\swapmousebutton.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\swapmousebutton.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: SwapMouseButton, SwapMouseButton function [Keyboard and Mouse Input], _win32_SwapMouseButton, _win32_swapmousebutton_cpp, inputdev.swapmousebutton, winui._win32_swapmousebutton, winuser/SwapMouseButton
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ Button swapping is provided as a convenience to people who use the mouse with th
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
 
 
 
@@ -105,7 +105,7 @@ Button swapping is provided as a convenience to people who use the mouse with th
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646263(v=VS.85).aspx">SetDoubleClickTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646263(v=VS.85).aspx">SetDoubleClickTime</a>
  
 
  

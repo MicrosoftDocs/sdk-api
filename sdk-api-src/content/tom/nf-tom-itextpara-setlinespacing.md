@@ -4,10 +4,10 @@ title: ITextPara::SetLineSpacing
 author: windows-sdk-content
 description: Sets the paragraph line-spacing rule and the line spacing for a paragraph.
 old-location: controls\ITextPara_SetLineSpacing.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlinespacing.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextPara interface [Windows Controls],SetLineSpacing method, ITextPara.SetLineSpacing, ITextPara::SetLineSpacing, SetLineSpacing, SetLineSpacing method [Windows Controls], SetLineSpacing method [Windows Controls],ITextPara interface, _win32_ITextPara_SetLineSpacing, _win32_ITextPara_SetLineSpacing_cpp, controls.ITextPara_SetLineSpacing, controls._win32_ITextPara_SetLineSpacing, tom/ITextPara::SetLineSpacing
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Sets the paragraph line-spacing rule and the line spacing for a paragraph.
 
 Type: <b>long</b>
 
-Value of new line-spacing rule. For a list of possible rule values and further discussion, see the <a href="https://msdn.microsoft.com/library/Bb773981(v=VS.85).aspx">ITextPara::GetLineSpacingRule</a> method. 
+Value of new line-spacing rule. For a list of possible rule values and further discussion, see the <a href="https://msdn.microsoft.com/en-us/library/Bb773981(v=VS.85).aspx">ITextPara::GetLineSpacingRule</a> method. 
 
 
 ### -param Spacing [in]
@@ -165,11 +165,11 @@ The line-spacing rule and line spacing work together, and as a result, they must
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773981(v=VS.85).aspx">GetLineSpacingRule</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773981(v=VS.85).aspx">GetLineSpacingRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
 
 
 
@@ -177,7 +177,7 @@ The line-spacing rule and line spacing work together, and as a result, they must
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

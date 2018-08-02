@@ -7,7 +7,7 @@ old-location: multimedia\icdecompressexquery.htm
 old-project: Multimedia
 ms.assetid: 6a1aa686-7f3d-43be-baaa-d20ea4a33f9b
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: ICDecompressExQuery, ICDecompressExQuery function [Windows Multimedia], _win32_ICDecompressExQuery, multimedia.icdecompressexquery, vfw/ICDecompressExQuery
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,36 +109,31 @@ Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb1
 
 ### -param lpDst
 
-
-            Pointer to a buffer that is large enough to contain the decompressed data.
+Pointer to a buffer that is large enough to contain the decompressed data.
           
 
 
 ### -param xDst
 
-
-            The x-coordinate of the destination rectangle for the DIB specified by <i>lpbiDst</i>.
+The x-coordinate of the destination rectangle for the DIB specified by <i>lpbiDst</i>.
           
 
 
 ### -param yDst
 
-
-            The y-coordinate of the destination rectangle for the DIB specified by <i>lpbiDst</i>.
+The y-coordinate of the destination rectangle for the DIB specified by <i>lpbiDst</i>.
           
 
 
 ### -param dxDst
 
-
-            Width of the destination rectangle.
+Width of the destination rectangle.
           
 
 
 ### -param dyDst
 
-
-            Height of the destination rectangle.
+Height of the destination rectangle.
           
 
 
@@ -146,8 +141,7 @@ Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb1
 
 
 
-
-            Returns <b>ICERR_OK</b> if successful or an error otherwise.
+Returns <b>ICERR_OK</b> if successful or an error otherwise.
           
 
 

@@ -4,10 +4,10 @@ title: "_DRIVE_LAYOUT_INFORMATION_MBR"
 author: windows-sdk-content
 description: Provides information about a drive's master boot record (MBR) partitions.
 old-location: fs\drive_layout_information_mbr_str.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 71c361fe-8c85-4915-9776-8ad3f5837e11
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "*PDRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR structure [Files], PDRIVE_LAYOUT_INFORMATION_MBR, PDRIVE_LAYOUT_INFORMATION_MBR structure pointer [Files], _DRIVE_LAYOUT_INFORMATION_MBR, _win32_drive_layout_information_mbr_str, base.drive_layout_information_mbr_str, fs.drive_layout_information_mbr_str, winioctl/DRIVE_LAYOUT_INFORMATION_MBR, winioctl/PDRIVE_LAYOUT_INFORMATION_MBR"
 ms.prod: windows
 ms.technology: windows-sdk

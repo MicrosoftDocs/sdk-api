@@ -7,7 +7,7 @@ old-location: inputdev\setactivewindow.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\setactivewindow.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: SetActiveWindow, SetActiveWindow function [Keyboard and Mouse Input], _win32_SetActiveWindow, _win32_setactivewindow_cpp, inputdev.setactivewindow, winui._win32_setactivewindow, winuser/SetActiveWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-The <b>SetActiveWindow</b> function activates a window, but not if the application is in the background. The window will be brought into the foreground (top of <a href="https://msdn.microsoft.com/library/ms632599(v=VS.85).aspx">Z-Order</a>) if its application is in the foreground when the system activates the window.
+The <b>SetActiveWindow</b> function activates a window, but not if the application is in the background. The window will be brought into the foreground (top of <a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">Z-Order</a>) if its application is in the foreground when the system activates the window.
 
 If the window identified by the 
     <i>hWnd</i> parameter was created by the calling thread, the active window status of the calling thread is set to 
@@ -107,11 +107,11 @@ If the window identified by the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646292(v=VS.85).aspx">GetActiveWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646292(v=VS.85).aspx">GetActiveWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
 
 
 
@@ -119,11 +119,11 @@ If the window identified by the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646274(v=VS.85).aspx">WM_ACTIVATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646274(v=VS.85).aspx">WM_ACTIVATE</a>
  
 
  

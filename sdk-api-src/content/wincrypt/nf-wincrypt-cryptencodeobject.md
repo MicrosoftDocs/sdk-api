@@ -4,10 +4,10 @@ title: CryptEncodeObject function
 author: windows-sdk-content
 description: The CryptEncodeObject function encodes a structure of the type indicated by the value of the lpszStructType parameter. The use of CryptEncodeObjectEx is recommended as an API that performs the same function with significant performance improvements.
 old-location: security\cryptencodeobject.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 9576a2a7-4379-4c1b-8ad5-284720cf7ccc
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptEncodeObject, CryptEncodeObject function [Security], _crypto2_cryptencodeobject, security.cryptencodeobject, wincrypt/CryptEncodeObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CryptEncodeObject</b> function encodes a structure of the type indicated by the value of the <i>lpszStructType</i> parameter. The use of 
+The <b>CryptEncodeObject</b> function encodes a structure of the type indicated by the value of the <i>lpszStructType</i> parameter. The use of 
 <a href="https://msdn.microsoft.com/45134db8-059b-43d3-90c2-9b6cc970fca0">CryptEncodeObjectEx</a> is recommended as an API that performs the same function with significant performance improvements.
 
 
@@ -108,8 +107,7 @@ A pointer to a <b>DWORD</b> variable that contains the size, in bytes, of the bu
 
 
 
-
-						If the function succeeds, the return value is nonzero (<b>TRUE</b>).
+If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Some possible error codes are listed in the following table.
@@ -192,7 +190,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Object Encoding and Decoding Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Object Encoding and Decoding Functions</a>
  
 
  

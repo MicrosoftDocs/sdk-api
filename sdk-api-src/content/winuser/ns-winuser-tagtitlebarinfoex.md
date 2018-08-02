@@ -7,7 +7,7 @@ old-location: winmsg\titlebarinfoex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\titlebarinfoex.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPTITLEBARINFOEX, *PTITLEBARINFOEX, LPTITLEBARINFOEX, LPTITLEBARINFOEX structure pointer [Windows and Messages], PTITLEBARINFOEX, PTITLEBARINFOEX structure pointer [Windows and Messages], STATE_SYSTEM_FOCUSABLE, STATE_SYSTEM_INVISIBLE, STATE_SYSTEM_OFFSCREEN, STATE_SYSTEM_PRESSED, STATE_SYSTEM_UNAVAILABLE, TITLEBARINFOEX, TITLEBARINFOEX structure [Windows and Messages], _win32_TITLEBARINFOEX_str, _win32_titlebarinfoex_str_cpp, tagTITLEBARINFOEX, winmsg.titlebarinfoex, winui._win32_titlebarinfoex_str, winuser/LPTITLEBARINFOEX, winuser/PTITLEBARINFOEX, winuser/TITLEBARINFOEX"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,9 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Expands on the information described in the <a href="https://msdn.microsoft.com/library/ms632608(v=VS.85).aspx">TITLEBARINFO</a> structure by including the coordinates of each element of the title bar.
+Expands on the information described in the <a href="https://msdn.microsoft.com/en-us/library/ms632608(v=VS.85).aspx">TITLEBARINFO</a> structure by including the coordinates of each element of the title bar.
 
-This structure is sent with the <a href="https://msdn.microsoft.com/library/Aa969436(v=VS.85).aspx">WM_GETTITLEBARINFOEX</a> message.
+This structure is sent with the <a href="https://msdn.microsoft.com/en-us/library/Aa969436(v=VS.85).aspx">WM_GETTITLEBARINFOEX</a> message.
 
 
 ## -struct-fields
@@ -65,7 +65,7 @@ This structure is sent with the <a href="https://msdn.microsoft.com/library/Aa96
 
 Type: <b>DWORD</b>
 
-The size of the structure, in bytes. Set this member to <code>sizeof(TITLEBARINFOEX)</code> before sending with the <a href="https://msdn.microsoft.com/library/Aa969436(v=VS.85).aspx">WM_GETTITLEBARINFOEX</a> message.
+The size of the structure, in bytes. Set this member to <code>sizeof(TITLEBARINFOEX)</code> before sending with the <a href="https://msdn.microsoft.com/en-us/library/Aa969436(v=VS.85).aspx">WM_GETTITLEBARINFOEX</a> message.
 
 
 ### -field rcTitleBar
@@ -231,7 +231,7 @@ An array that receives a structure for each element of the title bar. The struct
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa969436(v=VS.85).aspx">WM_GETTITLEBARINFOEX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa969436(v=VS.85).aspx">WM_GETTITLEBARINFOEX</a>
 
 
 

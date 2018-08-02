@@ -4,10 +4,10 @@ title: WSAData
 author: windows-sdk-content
 description: Contains information about the Windows Sockets implementation.
 old-location: winsock\wsadata_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: c3c4c0d6-c8b3-4991-bedb-f45816cc8160
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPWSADATA, LPWSADATA, LPWSADATA structure pointer [Winsock], WSADATA, WSADATA structure [Winsock], WSAData, _win32_wsadata_2, winsock.wsadata_2, winsock/LPWSADATA, winsock/WSADATA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>WSADATA</b> structure contains information about the Windows Sockets implementation.
 
 
@@ -125,8 +124,7 @@ The <b>lpVendorInfo</b> member is retained for compatibility with Windows Socket
 
 
 The <a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> function initiates the use of the Windows Sockets DLL by a process.  The <b>WSAStartup</b> function returns a pointer to the  
-<b>WSADATA</b> structure in the <i>lpWSAData</i>
-parameter.
+<b>WSADATA</b> structure in the <i>lpWSAData</i>parameter.
 		
 
 The current version of the Windows Sockets specification returned in the <b>wHighVersion</b> member of the  

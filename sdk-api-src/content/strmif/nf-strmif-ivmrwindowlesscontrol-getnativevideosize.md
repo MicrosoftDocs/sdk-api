@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol_getnativevideosize.htm
 old-project: DirectShow
 ms.assetid: cc8fd96d-e9a8-4911-9330-a4cf71a2d926
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetNativeVideoSize, GetNativeVideoSize method [DirectShow], GetNativeVideoSize method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetNativeVideoSize method, IVMRWindowlessControl.GetNativeVideoSize, IVMRWindowlessControl::GetNativeVideoSize, IVMRWindowlessControlGetNativeVideoSize, dshow.ivmrwindowlesscontrol_getnativevideosize, strmif/IVMRWindowlessControl::GetNativeVideoSize
 ms.prod: windows
 ms.technology: windows-sdk

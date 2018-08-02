@@ -4,10 +4,10 @@ title: WSManRunShellCommandEx function
 author: windows-sdk-content
 description: Provides the same functionality as the WSManRunShellCommand function, with the addition of a command ID option.
 old-location: winrm\wsmanrunshellcommandex.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 3FEAB627-C38F-4709-BA17-0AFF76015A97
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: WSManRunShellCommandEx, WSManRunShellCommandEx function [Windows Remote Management], winrm.wsmanrunshellcommandex, wsman/WSManRunShellCommandEx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmformat\iwmlicenserestore_restorelicenses.htm
 old-project: wmformat
 ms.assetid: 2d645b3a-e856-4745-b80a-89a3bc2b38bd
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMLicenseRestore interface [windows Media Format],RestoreLicenses method, IWMLicenseRestore.RestoreLicenses, IWMLicenseRestore::RestoreLicenses, IWMLicenseRestoreRestoreLicenses, RestoreLicenses, RestoreLicenses method [windows Media Format], RestoreLicenses method [windows Media Format],IWMLicenseRestore interface, wmformat.iwmlicenserestore_restorelicenses, wmsdkidl/IWMLicenseRestore::RestoreLicenses
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,11 +74,9 @@ The <b>RestoreLicenses</b> method restores licenses that were previously backed 
 
 <table>
 <tr>
-<th>
-                  Flag
+<th>Flag
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

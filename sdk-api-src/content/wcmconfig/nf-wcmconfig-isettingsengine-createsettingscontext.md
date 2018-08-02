@@ -7,7 +7,7 @@ old-location: smi\isettingsengine_createsettingscontext.htm
 old-project: SMI
 ms.assetid: a9fe2c24-f696-4726-8e67-07280c8e8a3e
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: CreateSettingsContext, CreateSettingsContext method [SMI], CreateSettingsContext method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],CreateSettingsContext method, ISettingsEngine.CreateSettingsContext, ISettingsEngine::CreateSettingsContext, smi.isettingsengine_createsettingscontext, wcmconfig/ISettingsEngine::CreateSettingsContext
 ms.prod: windows
 ms.technology: windows-sdk

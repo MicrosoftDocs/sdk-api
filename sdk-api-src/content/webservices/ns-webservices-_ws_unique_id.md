@@ -7,7 +7,7 @@ old-location: wsw\ws_unique_id.htm
 old-project: wsw
 ms.assetid: b9fd4497-153f-45f9-8f23-0771ffc47830
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_UNIQUE_ID, WS_UNIQUE_ID structure [Web Services for Windows], _WS_UNIQUE_ID, webservices/WS_UNIQUE_ID, wsw.ws_unique_id
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Represents a unique ID URI.
+Represents a unique ID URI.
             
 
 
@@ -63,8 +62,7 @@ req.product: Windows Address Book 5.0
 
 ### -field uri
 
-
-                    A string representation of the URI.  If length is zero,
+A string representation of the URI.  If length is zero,
                     then the unique ID is a guid, and the value is stored
                     in the guid field.  Otherwise, the URI is a string
                     and the string value is stored in the uri field.
@@ -73,8 +71,7 @@ req.product: Windows Address Book 5.0
 
 ### -field guid
 
-
-                    If the uri.length field is 0, then this field contains
+If the uri.length field is 0, then this field contains
                     the GUID representation of the unique ID.  Otherwise
                     the value of the field is not defined.
                 
@@ -84,8 +81,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                This structure represents a URI that is used as a unique ID.
+This structure represents a URI that is used as a unique ID.
                 It has native support for GUID-based URI's, but can also
                 accommodate other unique-id URI's as a string.
             

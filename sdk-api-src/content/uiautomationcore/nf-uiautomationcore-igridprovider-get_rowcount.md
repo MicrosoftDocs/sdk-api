@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IGridProvider_RowCount.htm
 old-project: WinAuto
 ms.assetid: 036a05fd-53b7-4e6d-b96b-503832933b56
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IGridProvider interface [Windows Accessibility],RowCount property, IGridProvider.RowCount, IGridProvider.get_RowCount, IGridProvider::RowCount, IGridProvider::get_RowCount, RowCount property [Windows Accessibility], RowCount property [Windows Accessibility],IGridProvider interface, get_RowCount, uiauto.uiauto_IGridProvider_RowCount, uiauto_IGridProvider_RowCount, uiautomationcore/IGridProvider::RowCount, uiautomationcore/IGridProvider::get_RowCount, winauto.uiauto_IGridProvider_RowCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ This property is read-only.
 
 
 
-
-            Hidden rows and columns, depending on the provider implementation, may be loaded 
+Hidden rows and columns, depending on the provider implementation, may be loaded 
             in the logical tree and will therefore be reflected in the 
             <b>IGridProvider::RowCount</b> and 
             <a href="https://msdn.microsoft.com/8d180781-d797-4db4-82bd-92f3646da495">IGridProvider::ColumnCount</a> properties. 

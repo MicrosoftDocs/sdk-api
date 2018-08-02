@@ -4,10 +4,10 @@ title: IEnroll2::SetHStoreRequest
 author: windows-sdk-content
 description: The SetHStoreRequest method specifies the handle to use for the request store. This method was first defined in the IEnroll2 interface.
 old-location: security\ienroll4_sethstorerequest.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 7424d94f-8f81-432a-b003-a1c30fcc70ae
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IEnroll2 interface [Security],SetHStoreRequest method, IEnroll2.SetHStoreRequest, IEnroll2::SetHStoreRequest, SetHStoreRequest, SetHStoreRequest method [Security], SetHStoreRequest method [Security],IEnroll2 interface, security.ienroll4_sethstorerequest, xenroll/IEnroll2::SetHStoreRequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ Certificate store handle to use for the request store.
 
 
 
-
-						The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
+The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 
 

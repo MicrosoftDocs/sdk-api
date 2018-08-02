@@ -7,7 +7,7 @@ old-location: intl\enumdateformats.htm
 old-project: Intl
 ms.assetid: 77b5e753-aee9-42d8-a0fa-27b065fc3b20
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: EnumDateFormats, EnumDateFormats function [Internationalization for Windows Applications], EnumDateFormatsA, EnumDateFormatsW, _win32_EnumDateFormats, intl.enumdateformats, winnls/EnumDateFormats, winnls/EnumDateFormatsA, winnls/EnumDateFormatsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,8 +58,7 @@ req.product: Windows Address Book 5.0
 
 
 Enumerates the long date, short date, or year/month formats that are available for a specified locale.
-<div class="alert"><b>Note</b>  
-         To receive a calendar identifier in addition to date format information, the application should use the <a href="https://msdn.microsoft.com/523ef50f-722a-48b9-a2ce-20786b7c79e1">EnumDateFormatsEx</a> function. Another reason for preferring this function is that Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales, for interoperability reasons.</div><div> </div><div class="alert"><b>Note</b>  Any application that will be run only on Windows Vista or later should use <a href="https://msdn.microsoft.com/52bfec03-4cb3-4418-b467-f75d2900ba40">EnumDateFormatsExEx</a> in preference to <b>EnumDateFormats</b>.</div><div> </div>
+<div class="alert"><b>Note</b>  To receive a calendar identifier in addition to date format information, the application should use the <a href="https://msdn.microsoft.com/523ef50f-722a-48b9-a2ce-20786b7c79e1">EnumDateFormatsEx</a> function. Another reason for preferring this function is that Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales, for interoperability reasons.</div><div> </div><div class="alert"><b>Note</b>  Any application that will be run only on Windows Vista or later should use <a href="https://msdn.microsoft.com/52bfec03-4cb3-4418-b467-f75d2900ba40">EnumDateFormatsExEx</a> in preference to <b>EnumDateFormats</b>.</div><div> </div>
 
 ## -parameters
 

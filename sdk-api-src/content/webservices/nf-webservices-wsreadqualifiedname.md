@@ -7,7 +7,7 @@ old-location: wsw\wsreadqualifiedname.htm
 old-project: wsw
 ms.assetid: bc49fb89-72ba-435a-ac50-303f16d36da2
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsReadQualifiedName, WsReadQualifiedName function [Web Services for Windows], webservices/WsReadQualifiedName, wsw.wsreadqualifiedname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,12 +51,10 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Reads a qualified name and separates it into its prefix, localName 
+Reads a qualified name and separates it into its prefix, localName 
         and namespace based on the current namespace scope of the XML_READER. 
         If the ns parameter is specified, then the namespace that the prefix 
-        is bound to will be returned, or <b>WS_E_INVALID_FORMAT</b>
-        will be returned. (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.) The strings are placed in the specified heap.
+        is bound to will be returned, or <b>WS_E_INVALID_FORMAT</b>will be returned. (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.) The strings are placed in the specified heap.
       
 
 
@@ -67,43 +65,37 @@ req.product: Windows Address Book 5.0
 
 ### -param reader [in]
 
-
-          The reader which should read the qualified name.
+The reader which should read the qualified name.
         
 
 
 ### -param heap [in]
 
-
-          The heap on which the resulting strings should be allocated.
+The heap on which the resulting strings should be allocated.
         
 
 
 ### -param prefix
 
-
-          The prefix of the qualified name is returned here.
+The prefix of the qualified name is returned here.
         
 
 
 ### -param localName [out]
 
-
-          The localName of the qualified name is returned here.
+The localName of the qualified name is returned here.
         
 
 
 ### -param ns
 
-
-          The namespace to which the qualified name is bound is returned here.
+The namespace to which the qualified name is bound is returned here.
         
 
 
 ### -param error [in, optional]
 
-
-          If the localName is missing the function will return <b>WS_E_INVALID_FORMAT</b>.  
+If the localName is missing the function will return <b>WS_E_INVALID_FORMAT</b>.  
           If the ns parameter is specified, but the prefix is not bound to a namespace, 
            <b>WS_E_INVALID_FORMAT</b> will be returned.
         
@@ -127,7 +119,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>

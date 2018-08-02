@@ -7,7 +7,7 @@ old-location: multimedia\drawdibdraw.htm
 old-project: Multimedia
 ms.assetid: b503fcd8-e928-4b3c-9ff5-96b88c5fb2f4
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: DrawDibDraw, DrawDibDraw function [Windows Multimedia], _win32_DrawDibDraw, multimedia.drawdibdraw, vfw/DrawDibDraw
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,29 +64,25 @@ The <b>DrawDibDraw</b> function draws a DIB to the screen.
 
 ### -param hdd
 
-
-            Handle to a DrawDib DC.
+Handle to a DrawDib DC.
           
 
 
 ### -param hdc
 
-
-            Handle to the DC.
+Handle to the DC.
           
 
 
 ### -param xDst
 
-
-            The x-coordinate, in <b>MM_TEXT</b> client coordinates, of the upper left corner of the destination rectangle.
+The x-coordinate, in <b>MM_TEXT</b> client coordinates, of the upper left corner of the destination rectangle.
           
 
 
 ### -param yDst
 
-
-            The y-coordinate, in <b>MM_TEXT</b> client coordinates, of the upper left corner of the destination rectangle.
+The y-coordinate, in <b>MM_TEXT</b> client coordinates, of the upper left corner of the destination rectangle.
           
 
 
@@ -97,8 +93,7 @@ Width, in <b>MM_TEXT</b> client coordinates, of the destination rectangle. If <i
 
 ### -param dyDst
 
-
-            Height, in <b>MM_TEXT</b> client coordinates, of the destination rectangle. If <i>dyDst</i> is â€“1, the height of the bitmap is used.
+Height, in <b>MM_TEXT</b> client coordinates, of the destination rectangle. If <i>dyDst</i> is â€“1, the height of the bitmap is used.
           
 
 
@@ -109,52 +104,44 @@ Pointer to the <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915e
 
 ### -param lpBits
 
-
-            Pointer to the buffer that contains the bitmap bits.
+Pointer to the buffer that contains the bitmap bits.
           
 
 
 ### -param xSrc
 
-
-            The x-coordinate, in pixels, of the upper left corner of the source rectangle. The coordinates (0,0) represent the upper left corner of the bitmap.
+The x-coordinate, in pixels, of the upper left corner of the source rectangle. The coordinates (0,0) represent the upper left corner of the bitmap.
           
 
 
 ### -param ySrc
 
-
-            The y-coordinate, in pixels, of the upper left corner of the source rectangle. The coordinates (0,0) represent the upper left corner of the bitmap.
+The y-coordinate, in pixels, of the upper left corner of the source rectangle. The coordinates (0,0) represent the upper left corner of the bitmap.
           
 
 
 ### -param dxSrc
 
-
-            Width, in pixels, of the source rectangle.
+Width, in pixels, of the source rectangle.
           
 
 
 ### -param dySrc
 
-
-            Height, in pixels, of the source rectangle.
+Height, in pixels, of the source rectangle.
           
 
 
 ### -param wFlags
 
-
-            Applicable flags for drawing. The following values are defined.
+Applicable flags for drawing. The following values are defined.
             
 
 <table>
 <tr>
-<th>
-Value
+<th>Value
 </th>
-<th>
-Meaning
+<th>Meaning
 </th>
 </tr>
 <tr>
@@ -203,8 +190,7 @@ Meaning
 
 
 
-
-            Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
+Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
           
 
 

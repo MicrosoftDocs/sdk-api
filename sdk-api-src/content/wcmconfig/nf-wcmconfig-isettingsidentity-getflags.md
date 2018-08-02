@@ -7,7 +7,7 @@ old-location: smi\isettingsidentity_getflags.htm
 old-project: SMI
 ms.assetid: aec52cd2-90e2-492d-afcf-433a762133d1
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetFlags, GetFlags method [SMI], GetFlags method [SMI],ISettingsIdentity interface, ISettingsIdentity interface [SMI],GetFlags method, ISettingsIdentity.GetFlags, ISettingsIdentity::GetFlags, smi.isettingsidentity_getflags, wcmconfig/ISettingsIdentity::GetFlags
 ms.prod: windows
 ms.technology: windows-sdk

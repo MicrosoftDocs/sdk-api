@@ -4,10 +4,10 @@ title: IWSManEnumerator::ReadItem
 author: windows-sdk-content
 description: Retrieves an item from the resource and returns an XML representation of the item.
 old-location: winrm\enumerator_readitem.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 4280ecb8-2449-41bd-868a-785e8ac3b3d5
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: Enumerator object [Windows Remote Management],ReadItem method, Enumerator.ReadItem, IWSManEnumerator.ReadItem, IWSManEnumerator::ReadItem, ReadItem, ReadItem method [Windows Remote Management], ReadItem method [Windows Remote Management],Enumerator object, winrm.enumerator_readitem, wsman.enumerator_readitem
 ms.prod: windows
 ms.technology: windows-sdk

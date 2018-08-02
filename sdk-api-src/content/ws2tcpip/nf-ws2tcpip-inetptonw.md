@@ -4,10 +4,10 @@ title: InetPtonW function
 author: windows-sdk-content
 description: The InetPton function converts an IPv4 or IPv6 Internet network address in its standard text presentation form into its numeric binary form. The ANSI version of this function is inet_pton.
 old-location: winsock\inet_pton.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: d0705997-0dc7-443b-a43f-611301cc9169
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: AF_INET, AF_INET6, InetPton, InetPton function [Winsock], InetPtonA, InetPtonA or inet_pton, InetPtonW, inet_pton, winsock.inet_pton, ws2tcpip/InetPton, ws2tcpip/InetPtonA or inet_pton, ws2tcpip/InetPtonW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>InetPton</b> function converts an IPv4 or IPv6 Internet network address in its standard text   presentation form into its numeric binary form. The ANSI version of this function is   <b>inet_pton</b>.
 
 
@@ -140,7 +139,7 @@ If the function has an error, the extended error code returned by <a href="https
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -151,7 +150,7 @@ The address family specified in the <i>Family</i> parameter is not supported. Th
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -170,13 +169,11 @@ The <i>pszAddrString</i> or <i>pAddrBuf</i> parameters are <b>NULL</b> or are no
 
 
 The 
-<b>InetPton</b> function is supported on Windows Vista
-  and later.
+<b>InetPton</b> function is supported on Windows Vistaand later.
 
 The 
 <b>InetPton</b> function provides a protocol-independent conversion of an Internet network address in its standard text   presentation form into its numeric binary form. The 
-<b>InetPton</b> function takes a text representation of an Internet address pointed to  by the <i>pszAddrString</i> parameter and returns a pointer to the numeric binary IP address in the <i>pAddrBuf</i> parameter. While the <a href="https://msdn.microsoft.com/7d6df658-9d83-45c7-97e7-b2a016a73847">inet_addr</a>
-		 function works only with IPv4 address strings, the <b>InetPton</b> function works with either IPv4 or IPv6 address strings.
+<b>InetPton</b> function takes a text representation of an Internet address pointed to  by the <i>pszAddrString</i> parameter and returns a pointer to the numeric binary IP address in the <i>pAddrBuf</i> parameter. While the <a href="https://msdn.microsoft.com/7d6df658-9d83-45c7-97e7-b2a016a73847">inet_addr</a>function works only with IPv4 address strings, the <b>InetPton</b> function works with either IPv4 or IPv6 address strings.
 
 The ANSI version of this function is <b>inet_pton</b> as defined in RFC 2553. For more information, see RFC 2553 available at the <a href="http://go.microsoft.com/fwlink/p/?linkid=86448">IETF website</a>.
 

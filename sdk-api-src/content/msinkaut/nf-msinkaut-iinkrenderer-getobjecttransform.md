@@ -136,7 +136,7 @@ Any translations applied to this transform should be in ink space units (1 unit 
 
 
 
-<a href="tablet.iinkrenderer">IInkRenderer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
 
 
 

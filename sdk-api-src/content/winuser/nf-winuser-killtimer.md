@@ -7,7 +7,7 @@ old-location: winmsg\killtimer.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreference\timerfunctions\killtimer.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: KillTimer, KillTimer function [Windows and Messages], _win32_KillTimer, _win32_killtimer_cpp, winmsg.killtimer, winui._win32_killtimer, winuser/KillTimer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,14 +74,14 @@ Destroys the specified timer.
 Type: <b>HWND</b>
 
 A handle to the window associated with the specified timer. This value must be the same as the 
-					<i>hWnd</i> value passed to the <a href="https://msdn.microsoft.com/library/ms644906(v=VS.85).aspx">SetTimer</a> function that created the timer. 
+					<i>hWnd</i> value passed to the <a href="https://msdn.microsoft.com/en-us/library/ms644906(v=VS.85).aspx">SetTimer</a> function that created the timer. 
 
 
 ### -param uIDEvent [in]
 
 Type: <b>UINT_PTR</b>
 
-The timer to be destroyed. If the window handle passed to <a href="https://msdn.microsoft.com/library/ms644906(v=VS.85).aspx">SetTimer</a> is valid, this parameter must be the same as the
+The timer to be destroyed. If the window handle passed to <a href="https://msdn.microsoft.com/en-us/library/ms644906(v=VS.85).aspx">SetTimer</a> is valid, this parameter must be the same as the
 					<i>nIDEvent</i> 
 
 value passed to <b>SetTimer</b>. If the application calls <b>SetTimer</b> with 
@@ -106,12 +106,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The <b>KillTimer</b> function does not remove <a href="https://msdn.microsoft.com/library/ms644902(v=VS.85).aspx">WM_TIMER</a> messages already posted to the message queue.
+The <b>KillTimer</b> function does not remove <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> messages already posted to the message queue.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms644901(v=VS.85).aspx">Destroying a Timer</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644901(v=VS.85).aspx">Destroying a Timer</a>.
 
 <div class="code"></div>
 
@@ -130,7 +130,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms644901(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644906(v=VS.85).aspx">SetTimer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644906(v=VS.85).aspx">SetTimer</a>
 
 
 
@@ -138,7 +138,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms644901(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644902(v=VS.85).aspx">WM_TIMER</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a>
  
 
  

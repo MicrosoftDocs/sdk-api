@@ -7,7 +7,7 @@ old-location: dlgbox\setdlgitemtext.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\setdlgitemtext.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/29/2018
 ms.keywords: SetDlgItemText, SetDlgItemText function [Dialog Boxes], SetDlgItemTextA, SetDlgItemTextW, _win32_SetDlgItemText, _win32_setdlgitemtext_cpp, dlgbox.setdlgitemtext, winui._win32_setdlgitemtext, winuser/SetDlgItemText, winuser/SetDlgItemTextA, winuser/SetDlgItemTextW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,12 +102,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The <b>SetDlgItemText</b> function sends a <a href="https://msdn.microsoft.com/library/ms632644(v=VS.85).aspx">WM_SETTEXT</a> message to the specified control. 
+The <b>SetDlgItemText</b> function sends a <a href="https://msdn.microsoft.com/en-us/library/ms632644(v=VS.85).aspx">WM_SETTEXT</a> message to the specified control. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/Bb775148(v=VS.85).aspx">Using List Boxes</a>. 
+For an example, see <a href="_win32_Using_List_Boxes">Using List Boxes</a>. 
 
 <div class="code"></div>
 
@@ -122,15 +122,15 @@ For an example, see <a href="https://msdn.microsoft.com/library/Bb775148(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645485(v=VS.85).aspx">GetDlgItemInt</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645485(v=VS.85).aspx">GetDlgItemInt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645489(v=VS.85).aspx">GetDlgItemText</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645489(v=VS.85).aspx">GetDlgItemText</a>
 
 
 
@@ -138,11 +138,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/Bb775148(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645518(v=VS.85).aspx">SetDlgItemInt</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645518(v=VS.85).aspx">SetDlgItemInt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632644(v=VS.85).aspx">WM_SETTEXT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632644(v=VS.85).aspx">WM_SETTEXT</a>
  
 
  

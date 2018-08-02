@@ -4,10 +4,10 @@ title: PFN_CERT_STORE_PROV_DELETE_CERT
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertDeleteCertificateFromStore before deleting a certificate from the store.
 old-location: security\certstoreprovdeletecertcallback.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 0ae64bbc-05f6-4fc2-a05d-895654b4b97d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertStoreProvDeleteCertCallback, CertStoreProvDeleteCertCallback callback, CertStoreProvDeleteCertCallback callback function [Security], PFN_CERT_STORE_PROV_DELETE_CERT, PFN_CERT_STORE_PROV_DELETE_CERT callback function [Security], _crypto2_certstoreprovdeletecertcallback, security.certstoreprovdeletecertcallback, wincrypt/CertStoreProvDeleteCertCallback, wincrypt/PFN_CERT_STORE_PROV_DELETE_CERT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			An application-defined callback function that is called by 
+An application-defined callback function that is called by 
 <a href="https://msdn.microsoft.com/4390c8da-9c4d-47a4-9af4-d179829f77f3">CertDeleteCertificateFromStore</a> before deleting a certificate from the store.
 
 
@@ -82,8 +81,7 @@ Reserved for future use and is set to zero.
 
 
 
-
-						Returns <b>TRUE</b> if it is okay to delete the certificate from the store. Otherwise, returns <b>FALSE</b>.
+Returns <b>TRUE</b> if it is okay to delete the certificate from the store. Otherwise, returns <b>FALSE</b>.
 
 
 
@@ -93,7 +91,7 @@ Reserved for future use and is set to zero.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
  
 
  

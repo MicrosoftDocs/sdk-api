@@ -7,7 +7,7 @@ old-location: winmsg\showwindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\showwindow.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: SW_FORCEMINIMIZE, SW_HIDE, SW_MAXIMIZE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWDEFAULT, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, ShowWindow, ShowWindow function [Windows and Messages], _win32_ShowWindow, _win32_showwindow_cpp, winmsg.showwindow, winui._win32_showwindow, winuser/ShowWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ A handle to the window.
 
 Type: <b>int</b>
 
-Controls how the window is to be shown. This parameter is ignored the first time an application calls <b>ShowWindow</b>, if the program that launched the application provides a <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure. Otherwise, the first time <b>ShowWindow</b> is called, the value should be the value obtained by the <a href="https://msdn.microsoft.com/library/ms633559(v=VS.85).aspx">WinMain</a> function in its <i>nCmdShow</i> parameter. In subsequent calls, this parameter can be one of the following values. 
+Controls how the window is to be shown. This parameter is ignored the first time an application calls <b>ShowWindow</b>, if the program that launched the application provides a <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure. Otherwise, the first time <b>ShowWindow</b> is called, the value should be the value obtained by the <a href="https://msdn.microsoft.com/en-us/library/ms633559(v=VS.85).aspx">WinMain</a> function in its <i>nCmdShow</i> parameter. In subsequent calls, this parameter can be one of the following values. 
 
 <table>
 <tr>
@@ -94,8 +94,7 @@ Controls how the window is to be shown. This parameter is ignored the first time
 </dl>
 </td>
 <td width="60%">
-
-						 Minimizes a window, even if the thread that owns the window is not responding. This flag should only be used when minimizing windows from a different thread.
+Minimizes a window, even if the thread that owns the window is not responding. This flag should only be used when minimizing windows from a different thread.
 
 </td>
 </tr>
@@ -253,20 +252,20 @@ If the window was previously hidden, the return value is zero.
 
 
 
-To perform certain special effects when showing or hiding a window, use <a href="https://msdn.microsoft.com/library/ms632669(v=VS.85).aspx">AnimateWindow</a>. 
+To perform certain special effects when showing or hiding a window, use <a href="https://msdn.microsoft.com/en-us/library/ms632669(v=VS.85).aspx">AnimateWindow</a>. 
 
-The first time an application calls <b>ShowWindow</b>, it should use the <a href="https://msdn.microsoft.com/library/ms633559(v=VS.85).aspx">WinMain</a> function's <i>nCmdShow</i> parameter as its <i>nCmdShow</i> parameter. Subsequent calls to <b>ShowWindow</b> must use one of the values in the given list, instead of the one specified by the <b>WinMain</b> function's <i>nCmdShow</i> parameter. 
+The first time an application calls <b>ShowWindow</b>, it should use the <a href="https://msdn.microsoft.com/en-us/library/ms633559(v=VS.85).aspx">WinMain</a> function's <i>nCmdShow</i> parameter as its <i>nCmdShow</i> parameter. Subsequent calls to <b>ShowWindow</b> must use one of the values in the given list, instead of the one specified by the <b>WinMain</b> function's <i>nCmdShow</i> parameter. 
 
 As noted in the discussion of the <i>nCmdShow</i> parameter, the <i>nCmdShow</i> value is ignored in the first call to <b>ShowWindow</b> if the program that launched the application specifies startup information in the  structure. In this case, <b>ShowWindow</b> uses the information specified in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure to show the window. On subsequent calls, the application must call <b>ShowWindow</b> with <i>nCmdShow</i> set to <b>SW_SHOWDEFAULT</b> to use the startup information provided by the program that launched the application. This behavior is designed for the following situations: 
 
 <ul>
-<li>Applications create their main window by calling <a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a> with the <b>WS_VISIBLE</b> flag set. </li>
-<li>Applications create their main window by calling <a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a> with the <b>WS_VISIBLE</b> flag cleared, and later call <b>ShowWindow</b> with the <b>SW_SHOW</b> flag set to make it visible. </li>
+<li>Applications create their main window by calling <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a> with the <b>WS_VISIBLE</b> flag set. </li>
+<li>Applications create their main window by calling <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a> with the <b>WS_VISIBLE</b> flag cleared, and later call <b>ShowWindow</b> with the <b>SW_SHOW</b> flag set to make it visible. </li>
 </ul>
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms632598(v=VS.85).aspx">Creating a Main Window</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS.85).aspx">Creating a Main Window</a>.
 
 <div class="code"></div>
 
@@ -277,7 +276,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms632598(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632669(v=VS.85).aspx">AnimateWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632669(v=VS.85).aspx">AnimateWindow</a>
 
 
 
@@ -289,7 +288,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms632598(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a>
 
 
 
@@ -305,15 +304,15 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms632598(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633547(v=VS.85).aspx">ShowOwnedPopups</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633547(v=VS.85).aspx">ShowOwnedPopups</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633549(v=VS.85).aspx">ShowWindowAsync</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633549(v=VS.85).aspx">ShowWindowAsync</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633559(v=VS.85).aspx">WinMain</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633559(v=VS.85).aspx">WinMain</a>
 
 
 

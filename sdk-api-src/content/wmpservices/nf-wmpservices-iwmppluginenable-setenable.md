@@ -7,7 +7,7 @@ old-location: wmp\iwmppluginenable_setenable.htm
 old-project: WMP
 ms.assetid: a0b8e79b-e9bd-40e5-ab58-11469406110a
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPPluginEnable interface [Windows Media Player],SetEnable method, IWMPPluginEnable.SetEnable, IWMPPluginEnable::SetEnable, IWMPPluginEnableSetEnableDSP, SetEnable, SetEnable method [Windows Media Player], SetEnable method [Windows Media Player],IWMPPluginEnable interface, wmp.iwmppluginenable_setenable, wmpservices/IWMPPluginEnable::SetEnable
 ms.prod: windows
 ms.technology: windows-sdk

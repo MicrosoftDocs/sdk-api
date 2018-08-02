@@ -7,7 +7,7 @@ old-location: gdi\removefontmemresourceex.htm
 old-project: gdi
 ms.assetid: b73c3f1d-c508-418c-a5a2-105a35ec3a9b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: RemoveFontMemResourceEx, RemoveFontMemResourceEx function [Windows GDI], _win32_RemoveFontMemResourceEx, gdi.removefontmemresourceex, wingdi/RemoveFontMemResourceEx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_ExpandToEnclosingUnitConPat.htm
 old-project: WinAuto
 ms.assetid: a95a4e34-d3b3-4aa0-a21e-9788874dcf9b
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: TextRange_ExpandToEnclosingUnit, TextRange_ExpandToEnclosingUnit function [Windows Accessibility], uiauto.uiauto_TextRange_ExpandToEnclosingUnitConPat, uiauto_TextRange_ExpandToEnclosingUnitConPat, uiautomationcoreapi/TextRange_ExpandToEnclosingUnit, winauto.uiauto_TextRange_ExpandToEnclosingUnitConPat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,8 +98,7 @@ If the starting endpoint is not at a <a href="https://msdn.microsoft.com/518318f
 			at the insertion point or any virtual cursor position.
 </div>
 <div> </div>
-<b>TextRange_ExpandToEnclosingUnit</b> respects both hidden and visible text. The UI Automation
-			client can check the is-hidden attribute (Text_IsHidden_Attribute_GUID) for text visibility.
+<b>TextRange_ExpandToEnclosingUnit</b> respects both hidden and visible text. The UI Automationclient can check the is-hidden attribute (Text_IsHidden_Attribute_GUID) for text visibility.
 
 <b>TextRange_ExpandToEnclosingUnit</b> defaults up to the next supported <a href="https://msdn.microsoft.com/518318fc-d60f-41b7-a6da-1f2bf5c2e494">TextUnit</a> if the given <b>TextUnit</b> is not supported by the control.
 

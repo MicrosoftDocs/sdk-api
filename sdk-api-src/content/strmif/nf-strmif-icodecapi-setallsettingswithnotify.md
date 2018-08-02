@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_setallsettingswithnotify.htm
 old-project: DirectShow
 ms.assetid: 30f840d1-4c73-4a76-ba0b-c04f2901ad76
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetAllSettingsWithNotify method, ICodecAPI.SetAllSettingsWithNotify, ICodecAPI::SetAllSettingsWithNotify, ICodecAPISetAllSettingsWithNotify, SetAllSettingsWithNotify, SetAllSettingsWithNotify method [DirectShow], SetAllSettingsWithNotify method [DirectShow],ICodecAPI interface, dshow.icodecapi_setallsettingswithnotify, strmif/ICodecAPI::SetAllSettingsWithNotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,16 +70,13 @@ The <b>SetAllSettingsWithNotify</b> method reads codec properties from a stream,
 
 ### -param ChangedParam [out]
 
-
-            
-            Receives a pointer to an array of GUIDs. The array contains the GUIDs of any properties that changed as a result of this method call. The caller must free the array by calling <b>CoTaskMemFree</b>.
+Receives a pointer to an array of GUIDs. The array contains the GUIDs of any properties that changed as a result of this method call. The caller must free the array by calling <b>CoTaskMemFree</b>.
           
 
 
 ### -param ChangedParamCount [in]
 
-
-            Receives the number of elements in the <i>ChangedParam</i> array.
+Receives the number of elements in the <i>ChangedParam</i> array.
           
 
 

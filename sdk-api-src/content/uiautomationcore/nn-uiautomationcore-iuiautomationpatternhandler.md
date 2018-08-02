@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationPatternHandler.htm
 old-project: WinAuto
 ms.assetid: 6d0edd8e-3fd4-47d6-ab53-582eb81f38bd
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAutomationPatternHandler, IUIAutomationPatternHandler interface [Windows Accessibility], IUIAutomationPatternHandler interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationPatternHandler, uiauto_IUIAutomationPatternHandler, uiautomationcore/IUIAutomationPatternHandler, winauto.uiauto_IUIAutomationPatternHandler
 ms.prod: windows
 ms.technology: windows-sdk

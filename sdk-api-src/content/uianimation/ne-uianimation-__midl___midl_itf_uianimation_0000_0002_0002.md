@@ -7,7 +7,7 @@ old-location: uianimation\ui_animation_scheduling_result.htm
 old-project: UIAnimation
 ms.assetid: 2d62589a-9121-4af6-b704-566a28dcc21e
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: UI_ANIMATION_SCHEDULING_ALREADY_SCHEDULED, UI_ANIMATION_SCHEDULING_DEFERRED, UI_ANIMATION_SCHEDULING_INSUFFICIENT_PRIORITY, UI_ANIMATION_SCHEDULING_RESULT, UI_ANIMATION_SCHEDULING_RESULT enumeration [Windows Animation], UI_ANIMATION_SCHEDULING_SUCCEEDED, UI_ANIMATION_SCHEDULING_UNEXPECTED_FAILURE, __MIDL___MIDL_itf_UIAnimation_0000_0002_0002, uianimation.ui_animation_scheduling_result, uianimation/UI_ANIMATION_SCHEDULING_ALREADY_SCHEDULED, uianimation/UI_ANIMATION_SCHEDULING_DEFERRED, uianimation/UI_ANIMATION_SCHEDULING_INSUFFICIENT_PRIORITY, uianimation/UI_ANIMATION_SCHEDULING_RESULT, uianimation/UI_ANIMATION_SCHEDULING_SUCCEEDED, uianimation/UI_ANIMATION_SCHEDULING_UNEXPECTED_FAILURE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-         Defines results for storyboard scheduling.
+Defines results for storyboard scheduling.
 
 
 ## -enum-fields
@@ -62,14 +61,12 @@ req.product: Windows XP with SP1 and later
 
 ### -field UI_ANIMATION_SCHEDULING_UNEXPECTED_FAILURE
 
-
-               Scheduling failed for an unexpected reason.
+Scheduling failed for an unexpected reason.
 
 
 ### -field UI_ANIMATION_SCHEDULING_INSUFFICIENT_PRIORITY
 
-
-               Scheduling failed because
+Scheduling failed because
                a scheduling conflict occurred and the currently scheduled storyboard has higher priority.
                
                For more information, see <a href="https://msdn.microsoft.com/82a90bd1-7bcf-4849-bad1-bae425169a2f">IUIAnimationPriorityComparison::HasPriority</a>.
@@ -77,21 +74,18 @@ req.product: Windows XP with SP1 and later
 
 ### -field UI_ANIMATION_SCHEDULING_ALREADY_SCHEDULED
 
-
-               Scheduling failed because 
+Scheduling failed because 
                the storyboard is already scheduled.
 
 
 ### -field UI_ANIMATION_SCHEDULING_SUCCEEDED
 
-
-               Scheduling succeeded.
+Scheduling succeeded.
 
 
 ### -field UI_ANIMATION_SCHEDULING_DEFERRED
 
-
-               Scheduling is deferred and will be attempted when the current callback completes.
+Scheduling is deferred and will be attempted when the current callback completes.
 
 
 ## -remarks
@@ -109,8 +103,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-<a href="https://msdn.microsoft.com/b47d4ffd-ae51-40e7-8f91-9d7b7b2901c8">
-               IUIAnimationStoryboard::Schedule</a>
+<a href="https://msdn.microsoft.com/b47d4ffd-ae51-40e7-8f91-9d7b7b2901c8">IUIAnimationStoryboard::Schedule</a>
  
 
  

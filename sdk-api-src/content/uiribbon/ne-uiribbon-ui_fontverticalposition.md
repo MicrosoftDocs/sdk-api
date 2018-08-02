@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_ui_fontverticalposition.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_fontverticalposition.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: UI_FONTVERTICALPOSITION, UI_FONTVERTICALPOSITION enumeration [Windows Ribbon], UI_FONTVERTICALPOSITION_NOTAVAILABLE, UI_FONTVERTICALPOSITION_NOTSET, UI_FONTVERTICALPOSITION_SUBSCRIPT, UI_FONTVERTICALPOSITION_SUPERSCRIPT, scenicintent_UI_FONTVERTICALPOSITION, uiribbon/UI_FONTVERTICALPOSITION, uiribbon/UI_FONTVERTICALPOSITION_NOTAVAILABLE, uiribbon/UI_FONTVERTICALPOSITION_NOTSET, uiribbon/UI_FONTVERTICALPOSITION_SUBSCRIPT, uiribbon/UI_FONTVERTICALPOSITION_SUPERSCRIPT, windowsribbon.windowsribbon_ui_fontverticalposition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Specifies values that identify the vertical-alignment state of a <a href="https://msdn.microsoft.com/library/Dd371673(v=VS.85).aspx">FontControl</a>.
+Specifies values that identify the vertical-alignment state of a <a href="https://msdn.microsoft.com/en-us/library/Dd371673(v=VS.85).aspx">FontControl</a>.
 
 
 ## -enum-fields
@@ -83,12 +83,12 @@ Vertical positioning is enabled and toggled for subscript.
 
 
 
-<b>UI_FONTVERTICALPOSITION</b> is associated with the <b>Subscript</b> and <b>Superscript</b> toggle buttons of the <i>RichFont</i> <a href="https://msdn.microsoft.com/library/Dd371673(v=VS.85).aspx">FontControl</a> as shown in the following screen shot.
+<b>UI_FONTVERTICALPOSITION</b> is associated with the <b>Subscript</b> and <b>Superscript</b> toggle buttons of the <i>RichFont</i> <a href="https://msdn.microsoft.com/en-us/library/Dd371673(v=VS.85).aspx">FontControl</a> as shown in the following screen shot.
 
 <img alt="Screen shot of the FontControl element with the RichFont attribute set to true." src="./images/Markup/FontControl_SubSuper.png"/>
-The <b>Subscript</b> and <b>Superscript</b> toggle buttons  are displayed by default in a <a href="https://msdn.microsoft.com/library/Dd371673(v=VS.85).aspx">FontControl</a>, depending on the value of the <i>FontType</i> attribute. 
+The <b>Subscript</b> and <b>Superscript</b> toggle buttons  are displayed by default in a <a href="https://msdn.microsoft.com/en-us/library/Dd371673(v=VS.85).aspx">FontControl</a>, depending on the value of the <i>FontType</i> attribute. 
 
-The <b>Subscript</b> and <b>Superscript</b> buttons are toggled based on the <b>UI_FONTVERTICALPOSITION</b> value in <a href="https://msdn.microsoft.com/library/Dd371240(v=VS.85).aspx">UI_PKEY_FontProperties_VerticalPositioning</a>.
+The <b>Subscript</b> and <b>Superscript</b> buttons are toggled based on the <b>UI_FONTVERTICALPOSITION</b> value in <a href="https://msdn.microsoft.com/en-us/library/Dd371240(v=VS.85).aspx">UI_PKEY_FontProperties_VerticalPositioning</a>.
 
 
 
@@ -98,11 +98,11 @@ The <b>Subscript</b> and <b>Superscript</b> buttons are toggled based on the <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371240(v=VS.85).aspx">UI_PKEY_FontProperties_VerticalPositioning</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371240(v=VS.85).aspx">UI_PKEY_FontProperties_VerticalPositioning</a>
  
 
  

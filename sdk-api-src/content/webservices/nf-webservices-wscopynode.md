@@ -7,7 +7,7 @@ old-location: wsw\wscopynode.htm
 old-project: wsw
 ms.assetid: 36078f7d-4c1f-4b8a-9f44-cd4949b7de04
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCopyNode, WsCopyNode function [Web Services for Windows], webservices/WsCopyNode, wsw.wscopynode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,6 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>
@@ -111,7 +110,6 @@ The operation is not allowed due to the current state of the object.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -123,7 +121,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -138,18 +135,15 @@ A quota was exceeded.
 
 
 
-
-        If the current node type is WS_XML_NODE_TYPE_ELEMENT,the current node,
+If the current node type is WS_XML_NODE_TYPE_ELEMENT,the current node,
         all its children, and the corresponding end element, are copied to the XML writer.
       
 
-
-        If the current node type is WS_XML_NODE_TYPE_BOF, nodes are copied
+If the current node type is WS_XML_NODE_TYPE_BOF, nodes are copied
         until a node of type WS_XML_NODE_TYPE_EOF is reached.
       For information on node types, see the <a href="https://msdn.microsoft.com/eddef5db-432d-4615-9f0f-a712dffe42ab">WS_XML_NODE_TYPE</a> enumeration.
 
-
-        The reader will be positioned on the node following the node copied.
+The reader will be positioned on the node following the node copied.
       
 
 

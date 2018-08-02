@@ -4,10 +4,10 @@ title: "_CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO"
 author: windows-sdk-content
 description: Contains information about a message recipient that is using key agreement key management.
 old-location: security\cmsg_key_agree_recipient_encode_info.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: f8691df7-3cc1-48cb-8787-84c7046b280f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, CMSG_KEY_AGREE_EPHEMERAL_KEY_CHOICE, CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO structure [Security], CMSG_KEY_AGREE_STATIC_KEY_CHOICE, PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO structure pointer [Security], _CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, _crypto2_cmsg_key_agree_recipient_encode_info, security.cmsg_key_agree_recipient_encode_info, wincrypt/CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, wincrypt/PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO</b> structure contains information about a message recipient that is using key agreement key management.
-		This structure is used with the <a href="https://msdn.microsoft.com/eb85f3e4-a5f8-45e7-9bbf-9c649db1e141">CMSG_RECIPIENT_ENCODE_INFO</a> structure.
+The <b>CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO</b> structure contains information about a message recipient that is using key agreement key management.This structure is used with the <a href="https://msdn.microsoft.com/eb85f3e4-a5f8-45e7-9bbf-9c649db1e141">CMSG_RECIPIENT_ENCODE_INFO</a> structure.
 
 
 ## -struct-fields
@@ -68,8 +66,7 @@ The size, in bytes, of this structure.
 
 ### -field KeyEncryptionAlgorithm
 
-
-						A <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm used for encryption.
+A <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm used for encryption.
 
 For ECC recipients, the <b>pszObjId</b> member of the  <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure should be set to szOID_DH_SINGLE_PASS_STDDH_SHA1_KDF with the <b>dwKeyChoice</b> member of this <b>CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO</b> structure set to CMSG_KEY_AGREE_EPHEMERAL_KEY_CHOICE.
 

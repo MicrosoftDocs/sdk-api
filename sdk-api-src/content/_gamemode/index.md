@@ -2,7 +2,7 @@
 UID: TP:gamemode
 ms.assetid: 7e85c2c5-8d7f-3617-a348-14e79b75cc10
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

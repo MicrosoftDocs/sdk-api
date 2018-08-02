@@ -4,10 +4,10 @@ title: ReleaseActCtx function
 author: windows-sdk-content
 description: The ReleaseActCtx function decrements the reference count of the specified activation context.
 old-location: setup\releaseactctx.htm
-old-project: sbscs
+old-project: SbsCs
 ms.assetid: aaf58969-06b7-4981-83af-651252339186
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/29/2018
 ms.keywords: ReleaseActCtx, ReleaseActCtx function [Side-by-side Assemblies], _win32_releaseactctx, setup.releaseactctx, winbase/ReleaseActCtx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_DISK_GEOMETRY_EX"
 author: windows-sdk-content
 description: Describes the extended geometry of disk devices and media.
 old-location: fs\disk_geometry_ex_str.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 2b8b2021-8650-452d-a975-54249620d72f
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "*PDISK_GEOMETRY_EX, DISK_GEOMETRY_EX, DISK_GEOMETRY_EX structure [Files], PDISK_GEOMETRY_EX, PDISK_GEOMETRY_EX structure pointer [Files], _DISK_GEOMETRY_EX, _win32_disk_geometry_ex_str, base.disk_geometry_ex_str, fs.disk_geometry_ex_str, winioctl/DISK_GEOMETRY_EX, winioctl/PDISK_GEOMETRY_EX"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,8 +99,7 @@ PDISK_DETECTION_INFO DiskGeometryGetDetect(
 </td>
 </tr>
 </table></span></div>
-
-    Similarly, use the following macro to access the 
+Similarly, use the following macro to access the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552629">DISK_PARTITION_INFO</a> structure.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -116,8 +115,7 @@ PDISK_PARTITION_INFO DiskGeometryGetPartition(
 </td>
 </tr>
 </table></span></div>
-
-    The information returned does not include the number of partitions nor the partition information contained in the 
+The information returned does not include the number of partitions nor the partition information contained in the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563751">PARTITION_INFORMATION</a> structure. To obtain 
     this information, use the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff560364">IOCTL_DISK_GET_DRIVE_LAYOUT_EX</a> control code.

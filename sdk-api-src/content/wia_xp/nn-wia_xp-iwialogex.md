@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaLogEx.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialogex\iwialogex.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: IWiaLogEx, IWiaLogEx interface [WIA], IWiaLogEx interface [WIA],described, _wia_IWiaLogEx, wia._wia_IWiaLogEx, wia_xp/IWiaLogEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IWiaLogEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629953(v=VS.85).aspx">hResult</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629953(v=VS.85).aspx">hResult</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -80,7 +80,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629955(v=VS.85).aspx">hResultEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629955(v=VS.85).aspx">hResultEx</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -89,7 +89,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629957(v=VS.85).aspx">InitializeLogEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629957(v=VS.85).aspx">InitializeLogEx</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -107,7 +107,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629962(v=VS.85).aspx">LogEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629962(v=VS.85).aspx">LogEx</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.

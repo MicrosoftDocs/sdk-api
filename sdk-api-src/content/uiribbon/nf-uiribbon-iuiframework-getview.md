@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiframework_getview.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\getview.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: GetView, GetView method [Windows Ribbon], GetView method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],GetView method, IUIFramework.GetView, IUIFramework::GetView, scenicintent_IUIFramework_GetView, uiribbon/IUIFramework::GetView, windowsribbon.windowsribbon_iuiframework_getview
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,8 @@ req.product: Windows UI
 ## -description
 
 
-
-			Retrieves the address of a pointer to an interface that represents a Windows Ribbon framework View, such as <a href="https://msdn.microsoft.com/library/Dd371360(v=VS.85).aspx">IUIRibbon</a> 
-			or <a href="https://msdn.microsoft.com/library/Dd371482(v=VS.85).aspx">IUIContextualUI</a>.
+Retrieves the address of a pointer to an interface that represents a Windows Ribbon framework View, such as <a href="https://msdn.microsoft.com/en-us/library/Dd371360(v=VS.85).aspx">IUIRibbon</a> 
+			or <a href="https://msdn.microsoft.com/en-us/library/Dd371482(v=VS.85).aspx">IUIContextualUI</a>.
 		
 
 
@@ -66,18 +65,16 @@ req.product: Windows UI
 
 Type: <b>UINT32</b>
 
-
-					The ID for the View. 
-				A value of 0 for a <a href="https://msdn.microsoft.com/library/Dd316811(v=VS.85).aspx">Ribbon</a> or the <a href="https://msdn.microsoft.com/library/Dd371617(v=VS.85).aspx">Command.Id</a> of a <a href="https://msdn.microsoft.com/library/Dd371654(v=VS.85).aspx">ContextPopup</a>. 
+The ID for the View. 
+				A value of 0 for a <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a> or the <a href="https://msdn.microsoft.com/en-us/library/Dd371617(v=VS.85).aspx">Command.Id</a> of a <a href="https://msdn.microsoft.com/en-us/library/Dd371654(v=VS.85).aspx">ContextPopup</a>. 
 
 
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
-
-					The interface ID for <a href="https://msdn.microsoft.com/library/Dd371360(v=VS.85).aspx">IUIRibbon</a> 
-					or <a href="https://msdn.microsoft.com/library/Dd371482(v=VS.85).aspx">IUIContextualUI</a>.
+The interface ID for <a href="https://msdn.microsoft.com/en-us/library/Dd371360(v=VS.85).aspx">IUIRibbon</a> 
+					or <a href="https://msdn.microsoft.com/en-us/library/Dd371482(v=VS.85).aspx">IUIContextualUI</a>.
 				
 
 
@@ -85,9 +82,8 @@ Type: <b>REFIID</b>
 
 Type: <b>void**</b>
 
-
-					When this method returns, contains the address of a pointer to an <a href="https://msdn.microsoft.com/library/Dd371360(v=VS.85).aspx">IUIRibbon</a> 
-					or an <a href="https://msdn.microsoft.com/library/Dd371482(v=VS.85).aspx">IUIContextualUI</a> object. 
+When this method returns, contains the address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd371360(v=VS.85).aspx">IUIRibbon</a> 
+					or an <a href="https://msdn.microsoft.com/en-us/library/Dd371482(v=VS.85).aspx">IUIContextualUI</a> object. 
 					
 
 
@@ -97,8 +93,7 @@ Type: <b>void**</b>
 
 Type: <b>HRESULT</b>
 
-
-					Returns S_OK if successful; otherwise, an error value from the following list.
+Returns S_OK if successful; otherwise, an error value from the following list.
 					
 
 <table class="clsStd">
@@ -125,29 +120,26 @@ Type: <b>HRESULT</b>
 
 
 
-
-				Ribbon framework UI functionality is differentiated by Views, which are essentially built-in core frameworks, 
-				such as the <a href="https://msdn.microsoft.com/library/Dd316811(v=VS.85).aspx">Ribbon</a> and <a href="https://msdn.microsoft.com/library/Dd371654(v=VS.85).aspx">ContextPopup</a>.
+Ribbon framework UI functionality is differentiated by Views, which are essentially built-in core frameworks, 
+				such as the <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd371654(v=VS.85).aspx">ContextPopup</a>.
 			
 
-
-				Rather than maintaining a pointer to an interface throughout the life of an application,
+Rather than maintaining a pointer to an interface throughout the life of an application,
 				<b>IUIFramework::GetView</b> enables a host application to create a temporary interface pointer 
 				and call methods as necessary. 
 				
 
 <div class="alert"><b>Note</b>  The host application must call <a href="http://go.microsoft.com/fwlink/p/?linkid=142946">IUnknown::Release</a> on the temporary interface pointer to avoid a memory leak.</div>
 <div> </div>
-
-				For example, each time there is a change to the size of the ribbon, a host application calls 
-				<a href="https://msdn.microsoft.com/library/Dd742708(v=VS.85).aspx">GetHeight</a> to adjust the size of the host client area 
+For example, each time there is a change to the size of the ribbon, a host application calls 
+				<a href="https://msdn.microsoft.com/en-us/library/Dd742708(v=VS.85).aspx">GetHeight</a> to adjust the size of the host client area 
 				appropriately. 
 				
 
 
 #### Examples
 
-The following example demonstrates how to use the <b>IUIFramework::GetView</b> method to retrieve a Ribbon View object, call the <a href="https://msdn.microsoft.com/library/Dd742708(v=VS.85).aspx">GetHeight</a> method to retrieve the height  of the ribbon, and calculate a display location for a <a href="https://msdn.microsoft.com/library/Dd940493(v=VS.85).aspx">Context Popup</a> control based on the height of the ribbon.
+The following example demonstrates how to use the <b>IUIFramework::GetView</b> method to retrieve a Ribbon View object, call the <a href="https://msdn.microsoft.com/en-us/library/Dd742708(v=VS.85).aspx">GetHeight</a> method to retrieve the height  of the ribbon, and calculate a display location for a <a href="https://msdn.microsoft.com/en-us/library/Dd940493(v=VS.85).aspx">Context Popup</a> control based on the height of the ribbon.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -196,11 +188,11 @@ The following example demonstrates how to use the <b>IUIFramework::GetView</b> m
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371467(v=VS.85).aspx">IUIFramework</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371467(v=VS.85).aspx">IUIFramework</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
  
 
  

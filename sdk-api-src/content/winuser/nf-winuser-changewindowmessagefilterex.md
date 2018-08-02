@@ -7,7 +7,7 @@ old-location: winmsg\changewindowmessagefilterex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\changewindowmessagefilterex.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: ChangeWindowMessageFilterEx, ChangeWindowMessageFilterEx function [Windows and Messages], MSGFLT_ALLOW, MSGFLT_DISALLOW, MSGFLT_RESET, _win32_ChangeWindowMessageFilterEx, _win32_changewindowmessagefilterex_cpp, winmsg.changewindowmessagefilterex, winui._win32_changewindowmessagefilterex, winuser/ChangeWindowMessageFilterEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,7 +112,7 @@ Allows the message through the filter. This enables the message to be received b
 </td>
 <td width="60%">
 Blocks the message to be delivered to <i>hWnd</i> if it comes from a lower privileged process, 
-					unless the message is allowed process-wide by using the <a href="https://msdn.microsoft.com/library/ms632675(v=VS.85).aspx">ChangeWindowMessageFilter</a> function 
+					unless the message is allowed process-wide by using the <a href="https://msdn.microsoft.com/en-us/library/ms632675(v=VS.85).aspx">ChangeWindowMessageFilter</a> function 
 					or globally.
 					
 
@@ -140,7 +140,7 @@ Resets the window message filter for <i>hWnd</i> to the default.   Any message a
 
 Type: <b>PCHANGEFILTERSTRUCT</b>
 
-Optional pointer to a <a href="https://msdn.microsoft.com/library/Dd388197(v=VS.85).aspx">CHANGEFILTERSTRUCT</a> structure.
+Optional pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd388197(v=VS.85).aspx">CHANGEFILTERSTRUCT</a> structure.
 
 
 #### - hWnd [in]
@@ -158,8 +158,7 @@ A handle to the window whose UIPI message filter is to be modified.
 Type: <strong>Type: <b>BOOL</b>
 </strong>
 
-
-			If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 				
 
 
@@ -171,24 +170,21 @@ Type: <strong>Type: <b>BOOL</b>
 
 UIPI is a security feature that prevents messages from being received from a lower-integrity-level sender.
 		You can use this function to allow specific messages to be delivered to a window even 
-		if the message originates from a process at a lower integrity level. Unlike the <a href="https://msdn.microsoft.com/library/ms632675(v=VS.85).aspx">ChangeWindowMessageFilter</a> function, 
+		if the message originates from a process at a lower integrity level. Unlike the <a href="https://msdn.microsoft.com/en-us/library/ms632675(v=VS.85).aspx">ChangeWindowMessageFilter</a> function, 
 		which controls the process message filter, the <b>ChangeWindowMessageFilterEx</b> function controls the window message filter. 
 		
 
-
-		An application may use the <a href="https://msdn.microsoft.com/library/ms632675(v=VS.85).aspx">ChangeWindowMessageFilter</a> function to 
+An application may use the <a href="https://msdn.microsoft.com/en-us/library/ms632675(v=VS.85).aspx">ChangeWindowMessageFilter</a> function to 
 		allow or block a message in a process-wide manner. 
 		If the message is allowed by either the process message filter 
 		or the window message filter, it will be delivered to the window.
 		
 
-
-		Note that processes at or below <b>SECURITY_MANDATORY_LOW_RID</b> are not allowed to change the message filter. 
+Note that processes at or below <b>SECURITY_MANDATORY_LOW_RID</b> are not allowed to change the message filter. 
 		If those processes call this function, it will fail and generate the extended error code, <b>ERROR_ACCESS_DENIED</b>.
 		
 
-
-		Certain messages whose value is smaller than <b>WM_USER</b> are required to be passed through the filter, 
+Certain messages whose value is smaller than <b>WM_USER</b> are required to be passed through the filter, 
 		regardless of the filter setting. There will be no effect when you attempt to use this function to 
 		allow or block such messages. 
 		
@@ -201,7 +197,7 @@ UIPI is a security feature that prevents messages from being received from a low
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632675(v=VS.85).aspx">ChangeWindowMessageFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632675(v=VS.85).aspx">ChangeWindowMessageFilter</a>
 
 
 

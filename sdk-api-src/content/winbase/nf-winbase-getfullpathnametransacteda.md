@@ -4,10 +4,10 @@ title: GetFullPathNameTransactedA function
 author: windows-sdk-content
 description: Retrieves the full path and file name of the specified file as a transacted operation.
 old-location: fs\getfullpathnametransacted.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 63cbcec6-e9f0-4db3-bf2f-03a987000af1
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: GetFullPathNameTransacted, GetFullPathNameTransacted function [Files], GetFullPathNameTransactedA, GetFullPathNameTransactedW, fs.getfullpathnametransacted, winbase/GetFullPathNameTransacted, winbase/GetFullPathNameTransactedA, winbase/GetFullPathNameTransactedW
 ms.prod: windows
 ms.technology: windows-sdk

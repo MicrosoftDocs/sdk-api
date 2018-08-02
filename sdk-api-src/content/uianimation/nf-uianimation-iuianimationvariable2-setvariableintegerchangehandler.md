@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2_setvariableintegerchangehandler.
 old-project: UIAnimation
 ms.assetid: 4327AC4A-2C2C-4C1A-AFCD-D2BA8ECEBA12
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariable2 interface [Windows Animation],SetVariableIntegerChangeHandler method, IUIAnimationVariable2.SetVariableIntegerChangeHandler, IUIAnimationVariable2::SetVariableIntegerChangeHandler, SetVariableIntegerChangeHandler, SetVariableIntegerChangeHandler method [Windows Animation], SetVariableIntegerChangeHandler method [Windows Animation],IUIAnimationVariable2 interface, uianimation.iuianimationvariable2_setvariableintegerchangehandler, uianimation/IUIAnimationVariable2::SetVariableIntegerChangeHandler
 ms.prod: windows
 ms.technology: windows-sdk

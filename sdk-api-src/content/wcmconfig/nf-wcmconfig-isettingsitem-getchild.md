@@ -7,7 +7,7 @@ old-location: smi\isettingsitem_getchild.htm
 old-project: SMI
 ms.assetid: 4a3d3212-bd47-46fb-9ce1-79ac109c6444
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetChild, GetChild method [SMI], GetChild method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetChild method, ISettingsItem.GetChild, ISettingsItem::GetChild, smi.isettingsitem_getchild, wcmconfig/ISettingsItem::GetChild
 ms.prod: windows
 ms.technology: windows-sdk

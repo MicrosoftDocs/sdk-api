@@ -4,10 +4,10 @@ title: RegGetKeySecurity function
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor protecting the specified open registry key.
 old-location: security\reggetkeysecurity.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 26bd8f89-9241-4c13-a214-c2b276d68c92
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: RegGetKeySecurity, RegGetKeySecurity function [Security], _win32_reggetkeysecurity, security.reggetkeysecurity, winreg/RegGetKeySecurity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,8 +91,7 @@ A pointer to a variable that specifies the size, in bytes, of the buffer pointed
 
 
 
-
-						If the function succeeds, the function returns ERROR_SUCCESS.
+If the function succeeds, the function returns ERROR_SUCCESS.
 						
 
 If the function fails, it returns a nonzero error code defined in WinError.h. You can use the 
@@ -127,7 +126,7 @@ To read the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
 
 
 

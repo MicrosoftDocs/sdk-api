@@ -4,10 +4,10 @@ title: IVdsPack::MigrateDisks
 author: windows-sdk-content
 description: Migrates a set of disks from one pack to another pack.
 old-location: base\ivdspack_migratedisks.htm
-old-project: vds
+old-project: VDS
 ms.assetid: c7e85c4c-fb7c-48de-abd7-8d65ecb9a1fa
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: IVdsPack interface [VDS],MigrateDisks method, IVdsPack.MigrateDisks, IVdsPack::MigrateDisks, MigrateDisks, MigrateDisks method [VDS], MigrateDisks method [VDS],IVdsPack interface, base.ivdspack_migratedisks, vds/IVdsPack::MigrateDisks
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,8 +80,7 @@ The GUID of the pack object.
 
 ### -param bForce [in]
 
-
-      If this parameter is set to <b>TRUE</b>, VDS ignores all errors from this method and attempts to migrate the disks unconditionally. If it is set to <b>FALSE</b>, the 
+If this parameter is set to <b>TRUE</b>, VDS ignores all errors from this method and attempts to migrate the disks unconditionally. If it is set to <b>FALSE</b>, the 
       operation does not proceed. In some cases, a forced migration can cause data loss.
 
 
@@ -92,27 +91,24 @@ If this parameter is set to <b>TRUE</b>, the migration does not occur. If it is 
 
 ### -param pResults [out]
 
-
-      The address of a caller-allocated array of <b>HRESULT</b> values.
+The address of a caller-allocated array of <b>HRESULT</b> values.
        The number of elements in the array is <i>lNumberOfDisks</i>.
 
-
-      If a disk can be migrated, or was migrated successfully, the corresponding array element receives 
+If a disk can be migrated, or was migrated successfully, the corresponding array element receives 
       <b>S_OK</b>; otherwise, it receives the warning code or error code that was returned by the provider. For the list 
       of additional result codes, see Return Values.
 
 
 ### -param pbRebootNeeded [out]
 
-
-      If this parameter is set to <b>TRUE</b>, you must restart the computer to complete the operation. If it is set to <b>FALSE</b>, the operation completes without restarting.
+If this parameter is set to <b>TRUE</b>, you must restart the computer to complete the operation. If it is set to <b>FALSE</b>, the operation completes without restarting.
 
 
 ## -returns
 
 
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/en-us/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -207,8 +203,7 @@ The selected disk does not have enough free space to complete the operation.
 </dl>
 </td>
 <td width="60%">
-
-        An active partition was detected on the selected disk, and it is not the active partition used to boot the 
+An active partition was detected on the selected disk, and it is not the active partition used to boot the 
         active operating system.
 
 </td>
@@ -245,8 +240,7 @@ A partition with an unknown type was detected on the selected disk.
 </dl>
 </td>
 <td width="60%">
-
-        The selected GPT disk contains a non-basic data partition, which is both preceded by and followed by one 
+The selected GPT disk contains a non-basic data partition, which is both preceded by and followed by one 
         or more basic data partitions.
 
 </td>
@@ -275,11 +269,9 @@ A volume on the selected disk cannot be opened.
 
 VDS implements this method.
 
+A single pack can have only one basic disk. As such, you can migrate only one disk at a time between a basic and dynamic pack.
 
-    A single pack can have only one basic disk. As such, you can migrate only one disk at a time between a basic and dynamic pack.
-
-
-    You should force this operation when converting a basic disk to dynamic disk format and the end of the disk lacks 
+You should force this operation when converting a basic disk to dynamic disk format and the end of the disk lacks 
     enough space for the LDM database. Set the <i>bForce</i> parameter to <b>true</b> and force the 
     operation despite the space limitation. Likewise, if an OEM partition is in the middle of a MBR disk with free 
     space or data volumes on either side.

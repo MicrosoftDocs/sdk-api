@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuicollection.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\iuicollection.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: IUICollection, IUICollection interface [Windows Ribbon], IUICollection interface [Windows Ribbon],described, scenicintent_IUICollection, uiribbon/IUICollection, windowsribbon.windowsribbon_iuicollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows UI
 
 
 The <b>IUICollection</b> interface is implemented by the Ribbon framework. The <b>IUICollection</b> interface defines the 
-		methods for dynamically manipulating collection-based controls, such as the various Ribbon <a href="https://msdn.microsoft.com/library/Dd742868(v=VS.85).aspx">galleries</a> and the 
+		methods for dynamically manipulating collection-based controls, such as the various Ribbon <a href="https://msdn.microsoft.com/en-us/library/Dd742868(v=VS.85).aspx">galleries</a> and the 
 		Quick Access Toolbar (QAT), at run time.
 
 
@@ -100,7 +100,7 @@ Retrieves the number of items contained in the <b>IUICollection</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371513(v=VS.85).aspx">GetItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371513(v=VS.85).aspx">GetItem</a>
 </td>
 <td align="left" width="63%">
 Retrieves an item from the <b>IUICollection</b> at the specified index.
@@ -109,7 +109,7 @@ Retrieves an item from the <b>IUICollection</b> at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371516(v=VS.85).aspx">Insert</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371516(v=VS.85).aspx">Insert</a>
 </td>
 <td align="left" width="63%">
 Inserts an item into the <b>IUICollection</b> at the specified index.
@@ -127,7 +127,7 @@ Removes an item from the <b>IUICollection</b> at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371524(v=VS.85).aspx">Replace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371524(v=VS.85).aspx">Replace</a>
 </td>
 <td align="left" width="63%">
 Replaces an item at the specified index of the <b>IUICollection</b> with another item.
@@ -142,11 +142,11 @@ Replaces an item at the specified index of the <b>IUICollection</b> with another
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd742704(v=VS.85).aspx">Gallery Sample</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742704(v=VS.85).aspx">Gallery Sample</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371499(v=VS.85).aspx">IUICollectionChangedEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371499(v=VS.85).aspx">IUICollectionChangedEvent</a>
  
 
  

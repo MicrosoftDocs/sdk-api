@@ -7,7 +7,7 @@ old-location: wsw\ws_write_option.htm
 old-project: wsw
 ms.assetid: 24a0ad2c-fcec-42c5-8f72-bea431b06d2e
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_WRITE_NILLABLE_POINTER, WS_WRITE_NILLABLE_VALUE, WS_WRITE_OPTION, WS_WRITE_OPTION enumeration [Web Services for Windows], WS_WRITE_REQUIRED_POINTER, WS_WRITE_REQUIRED_VALUE, webservices/WS_WRITE_NILLABLE_POINTER, webservices/WS_WRITE_NILLABLE_VALUE, webservices/WS_WRITE_OPTION, webservices/WS_WRITE_REQUIRED_POINTER, webservices/WS_WRITE_REQUIRED_VALUE, wsw.ws_write_option
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies whether a storage specified contains the value, or a pointer to the value,
+Specifies whether a storage specified contains the value, or a pointer to the value,
                 and whether the value can be represented as nil in the XML content.
             
 
@@ -64,21 +63,18 @@ req.product: Windows Address Book 5.0
 
 ### -field WS_WRITE_REQUIRED_VALUE
 
-
-                    The storage specified contains the value.  The size of the storage 
+The storage specified contains the value.  The size of the storage 
                     specified should be the size of the value.
                 
 
-
-                    This option specifies that the value will always be written to the XML content.
+This option specifies that the value will always be written to the XML content.
                 
 
 <pre class="syntax" xml:space="preserve"><code>int value;
 Api(..., &amp;value, sizeof(value), ...);</code></pre>
 <pre class="syntax" xml:space="preserve"><code>// always written
 &lt;element&gt;123&lt;/element&gt;</code></pre>
-
-                    This option is not supported for pointer types
+This option is not supported for pointer types
                     (<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_WSZ_TYPE</a> and <b>WS_XML_BUFFER_TYPE</b>).  
                     The <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_REQUIRED_POINTER</a> option should be used for these types.
                 
@@ -86,36 +82,31 @@ Api(..., &amp;value, sizeof(value), ...);</code></pre>
 
 ### -field WS_WRITE_REQUIRED_POINTER
 
-
-                    The storage specified contains a pointer to the value.  The
+The storage specified contains a pointer to the value.  The
                     size of the storage specified is always the size of a pointer, regardless
                     of the type being serialized.
                 
 
-
-                    This option specifies that the value will always be written to the XML content.
+This option specifies that the value will always be written to the XML content.
                 
 
 <pre class="syntax" xml:space="preserve"><code>int* valuePointer; // may not be NULL
 Api(..., &amp;valuePointer, sizeof(valuePointer), ...);</code></pre>
 <pre class="syntax" xml:space="preserve"><code>// always written
 &lt;element&gt;123&lt;/element&gt;</code></pre>
-
-                    If the pointer to the value specified in the storage is <b>NULL</b>, 
+If the pointer to the value specified in the storage is <b>NULL</b>, 
                     <b>E_INVALIDARG</b> is returned.
                 (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
 
 
 ### -field WS_WRITE_NILLABLE_VALUE
 
-
-                    The storage specified contains a pointer to the value.  The
+The storage specified contains a pointer to the value.  The
                     size of the storage specified is always the size of a pointer, regardless
                     of the type being serialized.
                 
 
-
-                    If the value is nil, then a nil element is written in the XML content.
+If the value is nil, then a nil element is written in the XML content.
                     If non-nil, then the value is serialized normally.
                 
 
@@ -126,8 +117,7 @@ Api(..., &amp;value, sizeof(value), ...);</code></pre>
 
 // if value is nil
 &lt;element xsi:nil='true'/&gt;</code></pre>
-
-                    This option is only supported for the following types, listed below,
+This option is only supported for the following types, listed below,
                     which have a intrinsic way to represent a nil value.  See the documentation
                     for each type for information on how nil is represented.
                     <ul>
@@ -146,14 +136,12 @@ Api(..., &amp;value, sizeof(value), ...);</code></pre>
 
 ### -field WS_WRITE_NILLABLE_POINTER
 
-
-                    For all types, the storage specified contains a pointer to the value.  The
+For all types, the storage specified contains a pointer to the value.  The
                     size of the storage specified is always the size of a pointer, regardless
                     of the type being serialized.
                 
 
-
-                    If the pointer to the value specified in the storage is <b>NULL</b>, then
+If the pointer to the value specified in the storage is <b>NULL</b>, then
                     a nil element is written in the XML content.
                 
 

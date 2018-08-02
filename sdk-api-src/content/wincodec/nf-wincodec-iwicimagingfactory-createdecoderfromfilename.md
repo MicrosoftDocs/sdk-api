@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createdecoderfromfilename.htm
 old-project: wic
 ms.assetid: 100c54c7-bb10-47dd-8436-04282ec6b110
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: CreateDecoderFromFilename, CreateDecoderFromFilename method [Windows Imaging Component], CreateDecoderFromFilename method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateDecoderFromFilename method, IWICImagingFactory.CreateDecoderFromFilename, IWICImagingFactory::CreateDecoderFromFilename, _wic_codec_iwicimagingfactory_createdecoderfromfilename, wic._wic_codec_iwicimagingfactory_createdecoderfromfilename, wincodec/IWICImagingFactory::CreateDecoderFromFilename
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,8 +78,7 @@ The GUID for the preferred decoder vendor. Use <b>NULL</b> if no preferred vendo
 
 Type: <b>DWORD</b>
 
-
-               The access to the object, which can be read, write, or both.
+The access to the object, which can be read, write, or both.
                
 
 <table>

@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__currentitemchange.htm
 old-project: WMP
 ms.assetid: 3669fe6e-233e-4214-9f84-763a06835f48
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: CurrentItemChange, CurrentItemChange method [Windows Media Player], CurrentItemChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],CurrentItemChange method, IWMPEvents.CurrentItemChange, IWMPEvents::CurrentItemChange, IWMPEventsCurrentItemChange, wmp.iwmpevents_iwmpevents__currentitemchange, wmp/IWMPEvents::CurrentItemChange
 ms.prod: windows
 ms.technology: windows-sdk

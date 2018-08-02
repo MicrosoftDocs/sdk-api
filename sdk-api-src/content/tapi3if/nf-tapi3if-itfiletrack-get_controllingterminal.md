@@ -4,10 +4,10 @@ title: ITFileTrack::get_ControllingTerminal
 author: windows-sdk-content
 description: The get_ControllingTerminal method returns the multitrack terminal that controls the current track.
 old-location: tapi3\itfiletrack_get_controllingterminal.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: a3a2c5e7-0134-4dad-b192-7a6c71dabe54
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITFileTrack interface [TAPI 2.2],get_ControllingTerminal method, ITFileTrack.get_ControllingTerminal, ITFileTrack::get_ControllingTerminal, _tapi3_itfiletrack_get_controllingterminal, get_ControllingTerminal, get_ControllingTerminal method [TAPI 2.2], get_ControllingTerminal method [TAPI 2.2],ITFileTrack interface, tapi3.itfiletrack_get_controllingterminal, tapi3if/ITFileTrack::get_ControllingTerminal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,10 +80,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a>
-		interface returned by <b>ITFileTrack::get_ControllingTerminal</b>. The application must call <b>Release</b> on 
-<b>ITTerminal</b>
-		to free resources associated with it.
+<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a>interface returned by <b>ITFileTrack::get_ControllingTerminal</b>. The application must call <b>Release</b> on 
+<b>ITTerminal</b>to free resources associated with it.
 
 
 

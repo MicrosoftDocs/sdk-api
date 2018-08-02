@@ -7,7 +7,7 @@ old-location: inputmsg\pointer_info_struct.htm
 old-project: InputMsg
 ms.assetid: fee176ba-ad07-4145-0b4d-1b8c335fd102
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: POINTER_INFO, POINTER_INFO structure [Input Messages and Notifications], _POINTER_INFO, inputmsg.pointer_info_struct, tagPOINTER_INFO, winuser/POINTER_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -146,8 +146,6 @@ The application can specify the input time stamp in either <b>dwTime</b> or <b>P
 
 
 When <b>PerformanceCount</b> is specified, the time stamp will be converted to the current time in .1 millisecond resolution upon actual injection. If a custom <b>PerformanceCount</b> resulted in the same .1 millisecond window from the previous injection, <b>ERROR_NOT_READY</b> is returned and injection will not occur. While injection will not be invalidated immediately by the error, the next successful injection must have a <b>PerformanceCount</b> value that is at least 0.1 millisecond from the previously successful injection. This is also true if <b>dwTime</b> is used.
-
-
 
 If both <b>dwTime</b> and <b>PerformanceCount</b> are specified in <a href="https://msdn.microsoft.com/c3c1425e-2af6-4ecb-a0b2-a456654f7a53">InjectTouchInput</a>, ERROR_INVALID_PARAMETER is returned. 
 

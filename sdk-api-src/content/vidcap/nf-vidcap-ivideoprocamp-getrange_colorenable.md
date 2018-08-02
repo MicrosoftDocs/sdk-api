@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_getrange_colorenable.htm
 old-project: DirectShow
 ms.assetid: d9041f2a-cf38-419b-be8f-a55599b9a1d9
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_ColorEnable method, IVideoProcAmp.getRange_ColorEnable, IVideoProcAmp::getRange_ColorEnable, IVideoProcAmpgetRange_ColorEnable, dshow.ivideoprocamp_getrange_colorenable, getRange_ColorEnable, getRange_ColorEnable method [DirectShow], getRange_ColorEnable method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_ColorEnable
 ms.prod: windows
 ms.technology: windows-sdk

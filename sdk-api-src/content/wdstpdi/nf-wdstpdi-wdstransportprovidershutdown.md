@@ -4,10 +4,10 @@ title: WdsTransportProviderShutdown function
 author: windows-sdk-content
 description: Shutsdown the content provider.
 old-location: wds\wdstransportprovidershutdown.htm
-old-project: wds
+old-project: Wds
 ms.assetid: 89f563e1-8dbd-4660-8cec-506f708ae310
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: WdsTransportProviderShutdown, WdsTransportProviderShutdown callback, WdsTransportProviderShutdown callback function [Windows Deployment Services], wds.wdstransportprovidershutdown, wdstpdi/WdsTransportProviderShutdown
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: menurc\createacceleratortable.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\createacceleratortable.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: CreateAcceleratorTable, CreateAcceleratorTable function [Menus and Other Resources], CreateAcceleratorTableA, CreateAcceleratorTableW, _win32_CreateAcceleratorTable, _win32_createacceleratortable_cpp, menurc.createacceleratortable, winui._win32_createacceleratortable, winuser/CreateAcceleratorTable, winuser/CreateAcceleratorTableA, winuser/CreateAcceleratorTableW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,14 +81,14 @@ TBD
 
 Type: <b>int</b>
 
-The number of <a href="https://msdn.microsoft.com/library/ms646340(v=VS.85).aspx">ACCEL</a> structures in the array. This must be within the range 1 to 32767 or the function will fail.
+The number of <a href="https://msdn.microsoft.com/en-us/library/ms646340(v=VS.85).aspx">ACCEL</a> structures in the array. This must be within the range 1 to 32767 or the function will fail.
 
 
 #### - lpaccl [in]
 
 Type: <b>LPACCEL</b>
 
-An array of <a href="https://msdn.microsoft.com/library/ms646340(v=VS.85).aspx">ACCEL</a> structures that describes the accelerator table.
+An array of <a href="https://msdn.microsoft.com/en-us/library/ms646340(v=VS.85).aspx">ACCEL</a> structures that describes the accelerator table.
 
 
 ## -returns
@@ -106,12 +106,12 @@ If the function succeeds, the return value is the handle to the created accelera
 
 
 
-Before an application closes, it can use the <a href="https://msdn.microsoft.com/library/ms646368(v=VS.85).aspx">DestroyAcceleratorTable</a> function to destroy any accelerator tables that it created by using the <b>CreateAcceleratorTable</b> function.
+Before an application closes, it can use the <a href="https://msdn.microsoft.com/en-us/library/ms646368(v=VS.85).aspx">DestroyAcceleratorTable</a> function to destroy any accelerator tables that it created by using the <b>CreateAcceleratorTable</b> function.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms646337(v=VS.85).aspx">Creating User Editable Accelerators</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms646337(v=VS.85).aspx">Creating User Editable Accelerators</a>.
 
 <div class="code"></div>
 
@@ -122,7 +122,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms646337(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646340(v=VS.85).aspx">ACCEL</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646340(v=VS.85).aspx">ACCEL</a>
 
 
 
@@ -130,19 +130,19 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms646337(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646364(v=VS.85).aspx">CopyAcceleratorTable</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646364(v=VS.85).aspx">CopyAcceleratorTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646368(v=VS.85).aspx">DestroyAcceleratorTable</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646368(v=VS.85).aspx">DestroyAcceleratorTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645526(v=VS.85).aspx">Keyboard Accelerators</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645526(v=VS.85).aspx">Keyboard Accelerators</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646370(v=VS.85).aspx">LoadAccelerators</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646370(v=VS.85).aspx">LoadAccelerators</a>
 
 
 
@@ -150,7 +150,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms646337(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646373(v=VS.85).aspx">TranslateAccelerator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646373(v=VS.85).aspx">TranslateAccelerator</a>
  
 
  

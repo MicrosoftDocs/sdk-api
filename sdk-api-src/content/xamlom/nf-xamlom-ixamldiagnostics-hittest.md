@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ixamldiagnostics_hittest.htm
 old-project: xaml_diagnostics
 ms.assetid: B7722F49-F477-4D24-9183-BC09A4A12730
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: HitTest, HitTest method, HitTest method,IXamlDiagnostics interface, IXamlDiagnostics interface,HitTest method, IXamlDiagnostics.HitTest, IXamlDiagnostics::HitTest, xaml_diagnostics.ixamldiagnostics_hittest, xamlom/IXamlDiagnostics::HitTest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,8 +88,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 This method performs a hit test on the XAML visual tree and will return all elements
-    regardless if they are enabled or invisible for hit testing. This method does not return collapsed elements as they do not participate in layout. <a href="https://msdn.microsoft.com/83971154-4E40-474C-91AD-2436B1D02CB8">AdviseVisualTreeChange</a>
-    must be called before this method. The element does not need to be fully enclosed in the 
+    regardless if they are enabled or invisible for hit testing. This method does not return collapsed elements as they do not participate in layout. <a href="https://msdn.microsoft.com/83971154-4E40-474C-91AD-2436B1D02CB8">AdviseVisualTreeChange</a>must be called before this method. The element does not need to be fully enclosed in the 
     <i>rect</i> area to be returned.
 
 

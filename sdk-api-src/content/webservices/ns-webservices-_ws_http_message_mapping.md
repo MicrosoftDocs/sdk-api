@@ -7,7 +7,7 @@ old-location: wsw\ws_http_message_mapping.htm
 old-project: wsw
 ms.assetid: dff8217e-769d-4f0b-acf2-02d6e43589cf
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_HTTP_MESSAGE_MAPPING, WS_HTTP_MESSAGE_MAPPING structure [Web Services for Windows], _WS_HTTP_MESSAGE_MAPPING, webservices/WS_HTTP_MESSAGE_MAPPING, wsw.ws_http_message_mapping
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies information about how an HTTP request or response should be
+Specifies information about how an HTTP request or response should be
                 represented in a message object.
 
 
@@ -63,22 +62,19 @@ req.product: Windows Address Book 5.0
 
 ### -field requestMappingOptions
 
-
-                    Options that control how information in the HTTP request is mapped to the message object.
+Options that control how information in the HTTP request is mapped to the message object.
                 
 
 
 ### -field responseMappingOptions
 
-
-                    Options that control how information in the HTTP response is mapped to the message object.
+Options that control how information in the HTTP response is mapped to the message object.
                 
 
 
 ### -field requestHeaderMappings
 
-
-                    An array of pointers to mappings which describe which
+An array of pointers to mappings which describe which
                     HTTP headers are mapped to/from headers in the message object
                     for an HTTP request.  The pointers in the array may not be <b>NULL</b>.
                 
@@ -86,15 +82,13 @@ req.product: Windows Address Book 5.0
 
 ### -field requestHeaderMappingCount
 
-
-                    The number of items in the requestHeaderMappings array.
+The number of items in the requestHeaderMappings array.
                 
 
 
 ### -field responseHeaderMappings
 
-
-                    An array of pointers to mappings which describe which
+An array of pointers to mappings which describe which
                     HTTP headers are mapped to/from headers in the message object
                     for an HTTP response.  The pointers in the array may not be <b>NULL</b>.
                 
@@ -102,8 +96,7 @@ req.product: Windows Address Book 5.0
 
 ### -field responseHeaderMappingCount
 
-
-                    The number of items in the responseHeaderMappings array.
+The number of items in the responseHeaderMappings array.
                 
 
 
@@ -111,43 +104,36 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                A message may contain additional transport-specific information that is
+A message may contain additional transport-specific information that is
                 not part of the message envelope.  This transport-specific information
                 can be exposed programmatically as headers of the message object.  
                 These headers are referred to as mapped headers.
             
 
-
-                Each mapped header is stored as regular header element
+Each mapped header is stored as regular header element
                 in the headers of the message (see <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_HEADER_BUFFER</a>).
                 The empty XML namespace ("") is used for mapped headers.
             
 
-
-                This structure specifies how the mapping occurs between an HTTP request
+This structure specifies how the mapping occurs between an HTTP request
                 or response and the mapped headers of the message object.  The structure
-                can be specified using the <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_HTTP_MESSAGE_MAPPING</a>
-                property.
+                can be specified using the <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_HTTP_MESSAGE_MAPPING</a>property.
             
 
-
-                The following diagram shows how HTTP headers are mapped into
+The following diagram shows how HTTP headers are mapped into
                 the headers of a message.
             
 
 <img alt="" src="./images/MappedHeaders.png"/>
 
-
-                When a message is received, the HTTP channel
+When a message is received, the HTTP channel
                 will automatically copy the specified HTTP headers from the request
                 or response to the headers of the message object.  The application
                 can then use <a href="https://msdn.microsoft.com/abdff5ca-fb0d-4867-b729-5cfe18520f80">WsGetMappedHeader</a> to get the values of
                 the mapped headers.
             
 
-
-                Before a message is sent, an application can add mapped headers
+Before a message is sent, an application can add mapped headers
                 to the message object using <a href="https://msdn.microsoft.com/f91dac8e-606e-4a9f-a598-8f8136c6b386">WsAddMappedHeader</a>.
                 When the message is sent, the HTTP channel will automatically
                 remove the specified headers from the headers of message object (so they
@@ -155,16 +141,13 @@ req.product: Windows Address Book 5.0
                 request or response headers.
             
 
-
-                The HTTP channel will only perform this mapping for HTTP headers
+The HTTP channel will only perform this mapping for HTTP headers
                 that have been specified in the requestHeaderMappings or
-                responseHeaderMappings fields.  The <a href="https://msdn.microsoft.com/bca1f244-4692-42bb-bbd7-c96647038a06">WS_HTTP_HEADER_MAPPING</a>
-                is used to specify each header, and includes instructions about how
+                responseHeaderMappings fields.  The <a href="https://msdn.microsoft.com/bca1f244-4692-42bb-bbd7-c96647038a06">WS_HTTP_HEADER_MAPPING</a>is used to specify each header, and includes instructions about how
                 the message header is transformed to/from an HTTP header.
             
 
-
-                Other information in an HTTP request or response that does not correspond
+Other information in an HTTP request or response that does not correspond
                 to HTTP headers can be mapped into header of the message object by setting the 
                 requestMappingOptions or responseMappingOptions.  These mapped values can then be
                 extracted using <a href="https://msdn.microsoft.com/abdff5ca-fb0d-4867-b729-5cfe18520f80">WsGetMappedHeader</a>.  

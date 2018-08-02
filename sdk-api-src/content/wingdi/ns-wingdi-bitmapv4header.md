@@ -2,12 +2,12 @@
 UID: NS:wingdi.BITMAPV4HEADER
 title: BITMAPV4HEADER
 author: windows-sdk-content
-description: The BITMAPV4HEADER structure is the bitmap information header file. It is an extended version of the BITMAPINFOHEADER structure. Applications can use the BITMAPV5HEADER structure for added functionality.
+description: The BITMAPV4HEADER structure is the bitmap information header file. It is an extended version of the BITMAPINFOHEADER structure.Applications can use the BITMAPV5HEADER structure for added functionality.
 old-location: gdi\bitmapv4header.htm
 old-project: gdi
 ms.assetid: 17c50d55-1c95-4178-82ba-7f504aa63c83
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPBITMAPV4HEADER, *PBITMAPV4HEADER, BITMAPV4HEADER, BITMAPV4HEADER structure [Windows GDI], PBITMAPV4HEADER, PBITMAPV4HEADER structure pointer [Windows GDI], _win32_BITMAPV4HEADER_str, gdi.bitmapv4header, wingdi/BITMAPV4HEADER, wingdi/PBITMAPV4HEADER"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,7 @@ req.product: Windows Address Book 5.0
 
 The <b>BITMAPV4HEADER</b> structure is the bitmap information header file. It is an extended version of the <a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFOHEADER</a> structure.
 
-
-            Applications can use the 
+Applications can use the 
         <a href="https://msdn.microsoft.com/ec5db6f9-93fa-4dbe-afdb-c039292b26e3">BITMAPV5HEADER</a> structure for added functionality.
 
 
@@ -270,8 +269,7 @@ Tone response curve for blue. Used if <b>bV4CSType</b> is set to LCS_CALIBRATED_
 
 
 
-
-         The <b>BITMAPV4HEADER</b> structure is extended to allow a JPEG or PNG image to be passed as the source image to <a href="https://msdn.microsoft.com/3d57a79a-338d-48ab-8161-3ce17739bf20">StretchDIBits</a>.
+The <b>BITMAPV4HEADER</b> structure is extended to allow a JPEG or PNG image to be passed as the source image to <a href="https://msdn.microsoft.com/3d57a79a-338d-48ab-8161-3ce17739bf20">StretchDIBits</a>.
 
 
 

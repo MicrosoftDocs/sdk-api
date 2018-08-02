@@ -4,10 +4,10 @@ title: CryptFindLocalizedName function
 author: windows-sdk-content
 description: Finds the localized name for the specified name, such as the localize name of the &#0034;Root&#0034; system store.
 old-location: security\cryptfindlocalizedname.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 8f0006a9-0930-4b71-87ce-e72371095e4c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptFindLocalizedName, CryptFindLocalizedName function [Security], _crypto2_cryptfindlocalizedname, security.cryptfindlocalizedname, wincrypt/CryptFindLocalizedName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,8 +73,7 @@ A pointer to a specified name. An internal table is searched to compare a predef
 
 
 
-
-						If the specified name is found, a pointer to the localized name is returned. The returned pointer must not be freed.
+If the specified name is found, a pointer to the localized name is returned. The returned pointer must not be freed.
 						
 
 If the specified name is not found, <b>NULL</b> is returned.
@@ -156,7 +155,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
  
 
  

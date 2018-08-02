@@ -7,7 +7,7 @@ old-location: dshow\iamvfwcompressdialogs_showdialog.htm
 old-project: DirectShow
 ms.assetid: 4826bd47-0091-4a74-b88d-72a5b0f1c5ac
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMVfwCompressDialogs interface [DirectShow],ShowDialog method, IAMVfwCompressDialogs.ShowDialog, IAMVfwCompressDialogs::ShowDialog, IAMVfwCompressDialogsShowDialog, ShowDialog, ShowDialog method [DirectShow], ShowDialog method [DirectShow],IAMVfwCompressDialogs interface, dshow.iamvfwcompressdialogs_showdialog, strmif/IAMVfwCompressDialogs::ShowDialog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,8 +91,7 @@ This method returns an error when asked to display a dialog box while the driver
 <code>IAMVfwCompressDialogs::ShowDialog</code> calls the Video for Windows video compression manager (VCM) functions <a href="https://msdn.microsoft.com/58dbe8ff-4236-456c-8361-e7716e764f89">ICConfigure</a>, <a href="https://msdn.microsoft.com/18ec2659-8589-4a13-95ea-825a3aecbf98">ICAbout</a>, <a href="https://msdn.microsoft.com/a0e65123-5224-43a4-9a1e-28a10ecbed5c">ICQueryConfigure</a>, and <a href="https://msdn.microsoft.com/073f217f-961b-4de2-9430-5ee81379e807">ICQueryAbout</a> to display the appropriate dialog box or determine if one exists.
       
 
-
-        The VfwCompressDialog_QueryConfig and VfwCompressDialog_QueryAbout members of the <a href="https://msdn.microsoft.com/b1e92603-631a-45e0-aee0-3974e3114e03">VfwCompressDialogs</a> enumeration tell you whether or not the configure dialog or about dialog is available. If passed one of these flags, the filter will return S_OK if the dialog exists, and S_FALSE if it does not. If a dialog is available, you call <code>ShowDialog</code> with the value VfwCompressDialog_Config or VfwCompressDialog_About to bring up the dialog.
+The VfwCompressDialog_QueryConfig and VfwCompressDialog_QueryAbout members of the <a href="https://msdn.microsoft.com/b1e92603-631a-45e0-aee0-3974e3114e03">VfwCompressDialogs</a> enumeration tell you whether or not the configure dialog or about dialog is available. If passed one of these flags, the filter will return S_OK if the dialog exists, and S_FALSE if it does not. If a dialog is available, you call <code>ShowDialog</code> with the value VfwCompressDialog_Config or VfwCompressDialog_About to bring up the dialog.
       
 
 

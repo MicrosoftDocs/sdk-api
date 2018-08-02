@@ -4,10 +4,10 @@ title: InternetQueryOptionW function
 author: windows-sdk-content
 description: Queries an Internet option on the specified handle.
 old-location: wininet\internetqueryoption.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: b0bafd3d-8f54-429e-b423-dae3d61b0030
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: InternetQueryOption, InternetQueryOption function [WinINet], InternetQueryOptionA, InternetQueryOptionW, _inet_internetqueryoption_function, wininet.internetqueryoption, wininet/InternetQueryOption, wininet/InternetQueryOptionA, wininet/InternetQueryOptionW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Queries an Internet option on the specified handle.
 
 ### -param hInternet [in]
 
-
-						Handle on which to query information.
+Handle on which to query information.
 
 
 ### -param dwOption [in]

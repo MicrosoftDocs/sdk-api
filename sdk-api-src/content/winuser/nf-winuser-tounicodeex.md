@@ -7,7 +7,7 @@ old-location: inputdev\tounicodeex.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\tounicodeex.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: ToUnicodeEx, ToUnicodeEx function [Keyboard and Mouse Input], _win32_ToUnicodeEx, _win32_tounicodeex_cpp, inputdev.tounicodeex, winui._win32_tounicodeex, winuser/ToUnicodeEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ Translates the specified virtual-key code and keyboard state to the correspondin
 
 Type: <b>UINT</b>
 
-The virtual-key code to be translated. See <a href="https://msdn.microsoft.com/library/Dd375731(v=VS.85).aspx">Virtual-Key Codes</a>.
+The virtual-key code to be translated. See <a href="https://msdn.microsoft.com/en-us/library/Dd375731(v=VS.85).aspx">Virtual-Key Codes</a>.
 
 
 ### -param wScanCode [in]
@@ -122,7 +122,7 @@ All other bits (through 31) are reserved.
 
 Type: <b>HKL</b>
 
-The input locale identifier used to translate the specified code. This parameter can be any input locale identifier previously returned by the <a href="https://msdn.microsoft.com/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a> function.
+The input locale identifier used to translate the specified code. This parameter can be any input locale identifier previously returned by the <a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a> function.
 
 
 ## -returns
@@ -198,7 +198,7 @@ The parameters supplied to the <b>ToUnicodeEx</b> function might not be sufficie
 
 Typically, <b>ToUnicodeEx</b> performs the translation based on the virtual-key code. In some cases, however, bit 15 of the <i>wScanCode</i> parameter can be used to distinguish between a key press and a key release.
 
-As <b>ToUnicodeEx</b> translates the virtual-key code, it also changes the state of the kernel-mode keyboard buffer. This state-change affects dead keys, ligatures, alt+numpad key entry, and so on. It might also cause undesired side-effects if used in conjunction with <a href="https://msdn.microsoft.com/library/ms644955(v=VS.85).aspx">TranslateMessage</a> (which also changes the state of the kernel-mode keyboard buffer).
+As <b>ToUnicodeEx</b> translates the virtual-key code, it also changes the state of the kernel-mode keyboard buffer. This state-change affects dead keys, ligatures, alt+numpad key entry, and so on. It might also cause undesired side-effects if used in conjunction with <a href="https://msdn.microsoft.com/en-us/library/ms644955(v=VS.85).aspx">TranslateMessage</a> (which also changes the state of the kernel-mode keyboard buffer).
 
 
 
@@ -212,11 +212,11 @@ As <b>ToUnicodeEx</b> translates the virtual-key code, it also changes the state
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>
 
 
 
@@ -224,11 +224,11 @@ As <b>ToUnicodeEx</b> translates the virtual-key code, it also changes the state
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646318(v=VS.85).aspx">ToAsciiEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646318(v=VS.85).aspx">ToAsciiEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646329(v=VS.85).aspx">VkKeyScan</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646329(v=VS.85).aspx">VkKeyScan</a>
  
 
  

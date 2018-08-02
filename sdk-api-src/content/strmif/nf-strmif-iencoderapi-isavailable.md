@@ -7,7 +7,7 @@ old-location: mstv\iencoderapi_isavailable.htm
 old-project: mstv
 ms.assetid: ad94b70f-fd35-44b4-8322-9891cd7f17cc
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IEncoderAPI interface [Microsoft TV Technologies],IsAvailable method, IEncoderAPI.IsAvailable, IEncoderAPI::IsAvailable, IEncoderAPIIsAvailable, IsAvailable, IsAvailable method [Microsoft TV Technologies], IsAvailable method [Microsoft TV Technologies],IEncoderAPI interface, mstv.iencoderapi_isavailable, strmif/IEncoderAPI::IsAvailable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ The <b>IsAvailable</b> method queries whether a given parameter can be read and 
 
 ### -param Api [in]
 
-
-            Pointer to a GUID that specifies the parameter.
+Pointer to a GUID that specifies the parameter.
           
 
 
@@ -112,8 +111,7 @@ The parameter cannot be read or modified.
 
 
 
-
-        Any errors besides those in the table above indicate an inability to process the call.
+Any errors besides those in the table above indicate an inability to process the call.
       
 
 

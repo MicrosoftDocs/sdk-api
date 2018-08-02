@@ -73,7 +73,7 @@ The <b>IFaxAccountIncomingQueue</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/914601de-c370-4b22-891b-dfd205fe0c70">GetJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359044(v=VS.85).aspx">GetJob</a>
 </td>
 <td align="left" width="63%">
 Returns an incoming fax job in the job queue of the current fax account according to the job's ID.
@@ -82,7 +82,7 @@ Returns an incoming fax job in the job queue of the current fax account accordin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bcb21dfc-4131-4a91-9343-11052b567781">GetJobs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359045(v=VS.85).aspx">GetJobs</a>
 </td>
 <td align="left" width="63%">
 Returns the collection of inbound fax jobs in the queue for the current fax account.

@@ -114,7 +114,7 @@ typedef D3D_SHADER_MACRO D3D10_SHADER_MACRO;</pre>
 
 
 
-<a href="https://msdn.microsoft.com/b36309e0-1c44-42d9-adcf-33acd753438c">Shader Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
  
 
  

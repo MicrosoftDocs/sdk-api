@@ -4,10 +4,10 @@ title: CryptFindOIDInfo function
 author: windows-sdk-content
 description: Retrieves the first predefined or registered CRYPT_OID_INFO structure that matches a specified key type and key. The search can be limited to object identifiers (OIDs) within a specified OID group.
 old-location: security\cryptfindoidinfo.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 87acf207-d109-4173-9530-8cbbebb473b2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CRYPT_OID_DISABLE_SEARCH_DS_FLAG, CRYPT_OID_INFO_ALGID_KEY, CRYPT_OID_INFO_CNG_ALGID_KEY, CRYPT_OID_INFO_CNG_SIGN_KEY, CRYPT_OID_INFO_NAME_KEY, CRYPT_OID_INFO_OID_KEY, CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG, CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG, CRYPT_OID_INFO_SIGN_KEY, CryptFindOIDInfo, CryptFindOIDInfo function [Security], _crypto2_cryptfindoidinfo, security.cryptfindoidinfo, wincrypt/CryptFindOIDInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,8 +91,7 @@ This parameter can be one of the following key types.
 #### CRYPT_OID_INFO_ALGID_KEY
 
 <i>pvKey</i> is the address of an 
-<a href="https://msdn.microsoft.com/557436b4-f7f1-4708-acc7-c6b47e6322ad">ALG_ID</a>
-							variable. The following <b>ALG_ID</b>s are supported:
+<a href="https://msdn.microsoft.com/557436b4-f7f1-4708-acc7-c6b47e6322ad">ALG_ID</a>variable. The following <b>ALG_ID</b>s are supported:
 
 Hash Algorithms:
 
@@ -170,17 +169,25 @@ Algorithms that are not listed are supported through CNG only; instead, use <b>C
 
 #### CRYPT_OID_INFO_CNG_ALGID_KEY
 
+
 <i>pvKey</i> is the address of a null-terminated Unicode string that contains the CNG algorithm identifier to find. This can be one of the predefined <a href="https://msdn.microsoft.com/a05ae7e6-d882-4287-9990-23e4cd340b05">CNG Algorithm Identifiers</a> or another registered algorithm identifier.
 
-<b>Windows Server 2003 R2 and Windows Server 2003:  </b>This key type is not supported.
+<b>
+                    Windows Server 2003 R2
+                    Windows Server 2003
+                  :  </b>This key type is not supported.
 
 
 
 #### CRYPT_OID_INFO_CNG_SIGN_KEY
 
+
 <i>pvKey</i> is the address of an array of two null-terminated Unicode string pointers where the first string contains the hash CNG algorithm identifier and the second string contains the public key CNG algorithm identifier. These can be from the predefined <a href="https://msdn.microsoft.com/a05ae7e6-d882-4287-9990-23e4cd340b05">CNG Algorithm Identifiers</a> or another registered algorithm identifier.
 
-<b>Windows Server 2003 R2 and Windows Server 2003:  </b>This key type is not supported.
+<b>
+                    Windows Server 2003 R2
+                    Windows Server 2003
+                  :  </b>This key type is not supported.
 
 
 Optionally, the following key types can be specified in the <i>dwKeyType</i> parameter by using the logical <b>OR</b> operator (|).
@@ -323,7 +330,7 @@ PCCRYPT_OID_INFO pOIDInfo = CryptFindOIDInfo(
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
  
 
  

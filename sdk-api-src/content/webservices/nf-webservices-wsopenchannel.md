@@ -7,7 +7,7 @@ old-location: wsw\wsopenchannel.htm
 old-project: wsw
 ms.assetid: a7226194-0974-4f3c-b92d-78a93e86eea5
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsOpenChannel, WsOpenChannel function [Web Services for Windows], webservices/WsOpenChannel, wsw.wsopenchannel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Open a channel to an endpoint.
+Open a channel to an endpoint.
             
 
 
@@ -78,8 +77,7 @@ Information on how to invoke the function asynchronously, or <b>NULL</b> if invo
 
 ### -param error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -101,8 +99,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    The asynchronous operation is still pending.
+The asynchronous operation is still pending.
                 
 
 </td>
@@ -114,7 +111,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The operation was aborted.
 
 </td>
@@ -126,7 +122,6 @@ The operation was aborted.
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>
@@ -138,7 +133,6 @@ The operation is not allowed due to the current state of the object.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint does not exist or could not be located.
 
 </td>
@@ -150,7 +144,6 @@ The remote endpoint does not exist or could not be located.
 </dl>
 </td>
 <td width="60%">
-
 Access was denied by the remote endpoint.
 
 </td>
@@ -162,7 +155,6 @@ Access was denied by the remote endpoint.
 </dl>
 </td>
 <td width="60%">
-
 The connection with the remote endpoint was terminated.
 
 </td>
@@ -174,7 +166,6 @@ The connection with the remote endpoint was terminated.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint could not process the request.
 
 </td>
@@ -186,7 +177,6 @@ The remote endpoint could not process the request.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint is not currently in service at this location.
 
 </td>
@@ -198,7 +188,6 @@ The remote endpoint is not currently in service at this location.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint is unable to process the request due to being overloaded.
 
 </td>
@@ -210,7 +199,6 @@ The remote endpoint is unable to process the request due to being overloaded.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint was not reachable.
 
 </td>
@@ -222,7 +210,6 @@ The remote endpoint was not reachable.
 </dl>
 </td>
 <td width="60%">
-
 The endpoint address URL is invalid.
 
 </td>
@@ -234,7 +221,6 @@ The endpoint address URL is invalid.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -246,7 +232,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 The operation did not complete within the time allotted.
 
 </td>
@@ -258,7 +243,6 @@ The operation did not complete within the time allotted.
 </dl>
 </td>
 <td width="60%">
-
 Access was denied by the HTTP proxy server.
 
 </td>
@@ -270,7 +254,6 @@ Access was denied by the HTTP proxy server.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server could not process the request.
 
 </td>
@@ -282,7 +265,6 @@ The HTTP proxy server could not process the request.
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -294,7 +276,6 @@ A quota was exceeded.
 </dl>
 </td>
 <td width="60%">
-
 Security verification was not successful for the received data.
 
 </td>
@@ -306,7 +287,6 @@ Security verification was not successful for the received data.
 </dl>
 </td>
 <td width="60%">
-
 A security operation failed in the Windows Web Services framework.
 
 </td>
@@ -318,7 +298,6 @@ A security operation failed in the Windows Web Services framework.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'basic'.
 
 </td>
@@ -330,7 +309,6 @@ The HTTP proxy server requires HTTP authentication scheme 'basic'.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'digest'.
 
 </td>
@@ -342,7 +320,6 @@ The HTTP proxy server requires HTTP authentication scheme 'digest'.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'negotiate'.
 
 </td>
@@ -354,7 +331,6 @@ The HTTP proxy server requires HTTP authentication scheme 'negotiate'.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'NTLM'.
 
 </td>
@@ -366,7 +342,6 @@ The HTTP proxy server requires HTTP authentication scheme 'NTLM'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'basic'.
 
 </td>
@@ -378,7 +353,6 @@ The remote endpoint requires HTTP authentication scheme 'basic'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'digest'.
 
 </td>
@@ -390,7 +364,6 @@ The remote endpoint requires HTTP authentication scheme 'digest'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'negotiate'.
 
 </td>
@@ -402,7 +375,6 @@ The remote endpoint requires HTTP authentication scheme 'negotiate'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'NTLM'.
 
 </td>
@@ -414,7 +386,6 @@ The remote endpoint requires HTTP authentication scheme 'NTLM'.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -426,7 +397,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -452,28 +422,22 @@ This function may return other errors not listed above.
 
 
 
-
-                If the open is successful, then the channel must be closed using <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae2ee2e0c6">WsCloseChannel</a>
-                before it can be freed.
+If the open is successful, then the channel must be closed using <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae2ee2e0c6">WsCloseChannel</a>before it can be freed.
             
 
-
-                Use <a href="https://msdn.microsoft.com/4bef6f97-06f1-442a-8b84-869776f0541d">WsCreateChannel</a> to create the channel.
+Use <a href="https://msdn.microsoft.com/4bef6f97-06f1-442a-8b84-869776f0541d">WsCreateChannel</a> to create the channel.
             
 
-
-                Once a channel has been opened to an endpoint, then all communication
+Once a channel has been opened to an endpoint, then all communication
                 occurs with that endpoint.
             
 
-
-                The endpoint address and it's contents are not required after the 
+The endpoint address and it's contents are not required after the 
                 function returns, even if the function is invoked asynchronously 
                 (for example, it can safely be declared on the stack).
             
 
-
-                Whether any IO actually happens during this call will depend on the
+Whether any IO actually happens during this call will depend on the
                 type of channel and its settings.
             
 

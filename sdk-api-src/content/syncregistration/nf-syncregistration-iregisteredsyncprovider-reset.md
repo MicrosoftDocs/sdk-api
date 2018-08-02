@@ -7,7 +7,7 @@ old-location: winsync\iregisteredsyncprovider_reset.htm
 old-project: winsync
 ms.assetid: 05fe5db8-9a21-4e09-a1fb-d50d1f08a540
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IRegisteredSyncProvider interface [Windows Sync],Reset method, IRegisteredSyncProvider.Reset, IRegisteredSyncProvider::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IRegisteredSyncProvider interface, syncregistration/IRegisteredSyncProvider::Reset, winsync.iregisteredsyncprovider_reset
 ms.prod: windows
 ms.technology: windows-sdk

@@ -100,10 +100,10 @@ The <a href="https://msdn.microsoft.com/library/ms689575(v=VS.85).aspx">IFaxOutb
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/776a52cc-2e17-4443-b0a5-e16acc0d393e">ItemByCountryAndArea</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690143(v=VS.85).aspx">ItemByCountryAndArea</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/776a52cc-2e17-4443-b0a5-e16acc0d393e">IFaxOutboundRoutingRules::get_ItemByCountryAndArea</a> method returns an outbound routing rule (<a href="https://msdn.microsoft.com/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object) from the collection using the routing rule's country/region code and area code.
+The <a href="https://msdn.microsoft.com/en-us/library/ms690143(v=VS.85).aspx">IFaxOutboundRoutingRules::get_ItemByCountryAndArea</a> method returns an outbound routing rule (<a href="https://msdn.microsoft.com/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object) from the collection using the routing rule's country/region code and area code.
 
 </td>
 </tr>
@@ -112,16 +112,16 @@ The <a href="https://msdn.microsoft.com/776a52cc-2e17-4443-b0a5-e16acc0d393e">IF
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/ed1221a2-f3dc-46fb-b05c-8af85ba5a142">IFaxOutboundRoutingRules::Remove</a> method removes an outbound routing rule (<a href="https://msdn.microsoft.com/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object) from the <a href="https://msdn.microsoft.com/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a> collection using the routing rule's index.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689581(v=VS.85).aspx">IFaxOutboundRoutingRules::Remove</a> method removes an outbound routing rule (<a href="https://msdn.microsoft.com/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object) from the <a href="https://msdn.microsoft.com/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a> collection using the routing rule's index.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5776e1e4-fa77-4c00-99ac-df8b56f9dbc4">RemoveByCountryAndArea</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689207(v=VS.85).aspx">RemoveByCountryAndArea</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/5776e1e4-fa77-4c00-99ac-df8b56f9dbc4">IFaxOutboundRoutingRules::RemoveByCountryAndArea</a> method removes an outbound routing rule (<a href="https://msdn.microsoft.com/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object) from the collection using the routing rule's country/region code and area code.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689207(v=VS.85).aspx">IFaxOutboundRoutingRules::RemoveByCountryAndArea</a> method removes an outbound routing rule (<a href="https://msdn.microsoft.com/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object) from the collection using the routing rule's country/region code and area code.
 
 </td>
 </tr>

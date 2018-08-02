@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createprintticketresource.htm
 old-project: printdocs
 ms.assetid: 67d5ccfc-0f01-49d2-966e-09c7958921a5
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CreatePrintTicketResource, CreatePrintTicketResource method [XPS Documents and Packaging], CreatePrintTicketResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePrintTicketResource method, IXpsOMObjectFactory.CreatePrintTicketResource, IXpsOMObjectFactory::CreatePrintTicketResource, xps.ixpsomobjectfactory_createprintticketresource, xpsobjectmodel/IXpsOMObjectFactory::CreatePrintTicketResource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,8 +73,7 @@ The <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IO
 
 ### -param printTicketResource [out, retval]
 
-
-            A pointer to the new  <a href="https://msdn.microsoft.com/2f37dbd2-3078-4aa8-97e7-556a0ff2dd74">IXpsOMPrintTicketResource</a> interface.
+A pointer to the new  <a href="https://msdn.microsoft.com/2f37dbd2-3078-4aa8-97e7-556a0ff2dd74">IXpsOMPrintTicketResource</a> interface.
 
 
 ## -returns

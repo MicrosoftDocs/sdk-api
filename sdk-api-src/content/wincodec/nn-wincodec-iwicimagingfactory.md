@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory.htm
 old-project: wic
 ms.assetid: 30d155b1-a46c-46c4-9f8f-fb56dc6bf0a9
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], IWICImagingFactory interface [Windows Imaging Component],described, _wic_codec_iwicimagingfactory, wic._wic_codec_iwicimagingfactory, wincodec/IWICImagingFactory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -173,7 +173,7 @@ Creates a new instance of the <a href="https://msdn.microsoft.com/6c8ae787-3175-
 <a href="https://msdn.microsoft.com/810bf0c2-2780-4ba3-84c1-7b257139e26e">CreateComponentEnumerator</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/library/ms683764(v=VS.85).aspx">IEnumUnknown</a> object of the specified component types.
+Creates an <a href="https://msdn.microsoft.com/en-us/library/ms683764(v=VS.85).aspx">IEnumUnknown</a> object of the specified component types.
 
 </td>
 </tr>

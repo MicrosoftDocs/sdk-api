@@ -7,7 +7,7 @@ old-location: winauto\uiauto_itexteditprovider.htm
 old-project: WinAuto
 ms.assetid: 6AA3F2A5-B34C-F7CB-13B3-6C62E2B67326
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: ITextEditProvider, ITextEditProvider interface [Windows Accessibility], ITextEditProvider interface [Windows Accessibility],described, uiautomationcore/ITextEditProvider, winauto.uiauto_itexteditprovider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>ITextEditProvider</b> interface has these methods.
 <a href="https://msdn.microsoft.com/E0A4E340-8F23-8EE0-31E4-90DB8D8E68FF">GetActiveComposition</a>
 </td>
 <td align="left" width="63%">
-
-        Returns the active composition.
+Returns the active composition.
 
 </td>
 </tr>
@@ -84,8 +83,7 @@ The <b>ITextEditProvider</b> interface has these methods.
 <a href="https://msdn.microsoft.com/C05DC0F6-FB24-2D06-C2D8-43ADF2C110F9">GetConversionTarget</a>
 </td>
 <td align="left" width="63%">
-
-        Returns the current conversion target range.
+Returns the current conversion target range.
 
 </td>
 </tr>

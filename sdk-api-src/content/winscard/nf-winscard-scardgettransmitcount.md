@@ -4,10 +4,10 @@ title: SCardGetTransmitCount function
 author: windows-sdk-content
 description: Retrieves the number of transmit operations that have completed since the specified card reader was inserted.
 old-location: security\scardgettransmitcount.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 13857fc3-374d-4ba5-b4ca-e523b323974c
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: SCardGetTransmitCount, SCardGetTransmitCount function [Security], security.scardgettransmitcount, winscard/SCardGetTransmitCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,10 +74,9 @@ A pointer to the number of transmit operations that have completed since the spe
 
 
 
+If the function succeeds, it returns <b>SCARD_S_SUCCESS</b>. 
 
-						If the function succeeds, it returns <b>SCARD_S_SUCCESS</b>. 
-
-If the function fails, it returns an error code. For more information, see <a href="https://msdn.microsoft.com/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+If the function fails, it returns an error code. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
 
 
 

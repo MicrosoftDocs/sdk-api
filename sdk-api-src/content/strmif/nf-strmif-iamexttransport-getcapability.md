@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_getcapability.htm
 old-project: DirectShow
 ms.assetid: f5544fd9-2899-4995-9401-a53f59d6400b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetCapability, GetCapability method [DirectShow], GetCapability method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetCapability method, IAMExtTransport.GetCapability, IAMExtTransport::GetCapability, IAMExtTransportGetCapability, dshow.iamexttransport_getcapability, strmif/IAMExtTransport::GetCapability
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,11 +97,9 @@ For the following flags, the method returns the value OATRUE or OAFALSE in the <
 
 <table>
 <tr>
-<th>
-              Capability Flag
+<th>Capability Flag
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>
@@ -199,11 +197,9 @@ For the following flags, the method returns a numeric value in the <i>pValue</i>
 
 <table>
 <tr>
-<td>
-              Capability Flag
+<td>Capability Flag
             </td>
-<td>
-              Returned Value
+<td>Returned Value
             </td>
 </tr>
 <tr>
@@ -221,11 +217,9 @@ For the following flags, the method returns a value in the <i>pdblValue</i> para
 
 <table>
 <tr>
-<td>
-              Capability Flag
+<td>Capability Flag
             </td>
-<td>
-              Returned Value
+<td>Returned Value
             </td>
 </tr>
 <tr>

@@ -4,10 +4,10 @@ title: CertGetCertificateChain function
 author: windows-sdk-content
 description: Builds a certificate chain context starting from an end certificate and going back, if possible, to a trusted root certificate.
 old-location: security\certgetcertificatechain.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 8c93036c-0b93-40d4-b0e3-ba1f2fc72db1
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CERT_CHAIN_CACHE_END_CERT, CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL, CERT_CHAIN_DISABLE_AIA, CERT_CHAIN_DISABLE_AUTH_ROOT_AUTO_UPDATE, CERT_CHAIN_DISABLE_MY_PEER_TRUST, CERT_CHAIN_DISABLE_PASS1_QUALITY_FILTERING, CERT_CHAIN_ENABLE_PEER_TRUST, CERT_CHAIN_OPT_IN_WEAK_SIGNATURE, CERT_CHAIN_RETURN_LOWER_QUALITY_CONTEXTS, CERT_CHAIN_REVOCATION_ACCUMULATIVE_TIMEOUT, CERT_CHAIN_REVOCATION_CHECK_CACHE_ONLY, CERT_CHAIN_REVOCATION_CHECK_CHAIN, CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, CERT_CHAIN_REVOCATION_CHECK_END_CERT, CERT_CHAIN_REVOCATION_CHECK_OCSP_CERT, CERT_CHAIN_TIMESTAMP_TIME, CertGetCertificateChain, CertGetCertificateChain function [Security], _crypto2_certgetcertificatechain, security.certgetcertificatechain, wincrypt/CertGetCertificateChain
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertGetCertificateChain</b> function builds a certificate chain context starting from an end certificate and going back, if possible, to a trusted <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">root certificate</a>.
+The <b>CertGetCertificateChain</b> function builds a certificate chain context starting from an end certificate and going back, if possible, to a trusted <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">root certificate</a>.
 
 
 ## -parameters
@@ -177,7 +176,10 @@ This flag is not supported. Certificates in the "My" store are never considered 
 <td width="60%">
 End entity certificates in the "TrustedPeople" store are trusted without performing any chain building. This function does not set the <b>CERT_TRUST_IS_PARTIAL_CHAIN</b> or <b>CERT_TRUST_IS_UNTRUSTED_ROOT</b> <b>dwErrorStatus</b> member bits of the  <i>ppChainContext</i> parameter.
 
-<b>Windows Server 2003 and Windows XP:  </b>This flag is not supported.
+<b>
+                    Windows Server 2003
+                    Windows XP
+                  :  </b>This flag is not supported.
 
 </td>
 </tr>
@@ -379,7 +381,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a>
  
 
  

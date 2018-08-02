@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IValueProvider_SetValue.htm
 old-project: WinAuto
 ms.assetid: af555ac6-5abd-4019-804b-68f9ed3be801
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IValueProvider interface [Windows Accessibility],SetValue method, IValueProvider.SetValue, IValueProvider::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],IValueProvider interface, uiauto.uiauto_IValueProvider_SetValue, uiauto_IValueProvider_SetValue, uiautomationcore/IValueProvider::SetValue, winauto.uiauto_IValueProvider_SetValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,14 +82,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        Single-line edit controls support programmatic access to their contents by implementing <a href="https://msdn.microsoft.com/e6adbc23-dbfe-4dd2-82d9-66ce16de3338">IValueProvider</a>. 
+Single-line edit controls support programmatic access to their contents by implementing <a href="https://msdn.microsoft.com/e6adbc23-dbfe-4dd2-82d9-66ce16de3338">IValueProvider</a>. 
         However, multi-line edit controls do not implement <b>IValueProvider</b>; 
         instead they provide access to their content by implementing <a href="https://msdn.microsoft.com/8bd53f1e-731f-420b-a529-ca3f6c3fd97c">ITextProvider</a>.
         
 
-
-        Controls such as ListItem and TreeItem must implement <a href="https://msdn.microsoft.com/e6adbc23-dbfe-4dd2-82d9-66ce16de3338">IValueProvider</a> 
+Controls such as ListItem and TreeItem must implement <a href="https://msdn.microsoft.com/e6adbc23-dbfe-4dd2-82d9-66ce16de3338">IValueProvider</a> 
         if the value of any of the items is editable, regardless of the current edit 
         mode of the control. The parent control must also implement <b>IValueProvider</b> 
         if the child items are editable. 

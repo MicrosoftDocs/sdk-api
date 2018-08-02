@@ -4,10 +4,10 @@ title: "_ENCLAVE_INIT_INFO_VBS"
 author: windows-sdk-content
 description: Contains architecture-specific information to use to initialize an enclave when the enclave type is ENCLAVE_TYPE_VBS, which specifies a virtualization-based security (VBS) enclave.
 old-location: base\enclave_init_info_vbs.htm
-old-project: memory
+old-project: Memory
 ms.assetid: 93DA44C6-6776-4682-84C2-347192669C77
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: "*PENCLAVE_INIT_INFO_VBS, ENCLAVE_INIT_INFO_VBS, ENCLAVE_INIT_INFO_VBS structure, PENCLAVE_INIT_INFO_VBS, PENCLAVE_INIT_INFO_VBS structure pointer, _ENCLAVE_INIT_INFO_VBS, base.enclave_init_info_vbs, winnt/ENCLAVE_INIT_INFO_VBS, winnt/PENCLAVE_INIT_INFO_VBS"
 ms.prod: windows
 ms.technology: windows-sdk

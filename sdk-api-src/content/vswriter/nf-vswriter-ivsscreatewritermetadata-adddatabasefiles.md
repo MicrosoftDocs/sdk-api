@@ -4,10 +4,10 @@ title: IVssCreateWriterMetadata::AddDatabaseFiles
 author: windows-sdk-content
 description: The AddDatabaseFiles method indicates the file set (the specified file or files) that make up the database component to be backed up.
 old-location: base\ivsscreatewritermetadata_adddatabasefiles.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 37ef5e50-127d-4bd0-9d26-04dc7781b3ff
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: AddDatabaseFiles, AddDatabaseFiles method [VSS], AddDatabaseFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddDatabaseFiles method, IVssCreateWriterMetadata.AddDatabaseFiles, IVssCreateWriterMetadata::AddDatabaseFiles, _win32_ivsscreatewritermetadata_adddatabasefiles, base.ivsscreatewritermetadata_adddatabasefiles, vswriter/IVssCreateWriterMetadata::AddDatabaseFiles
 ms.prod: windows
 ms.technology: windows-sdk
@@ -190,8 +190,7 @@ The specified component does not exist.
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

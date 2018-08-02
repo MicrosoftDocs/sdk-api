@@ -4,10 +4,10 @@ title: PFN_CERT_STORE_PROV_WRITE_CERT
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertAddEncodedCertificateToStore, CertAddCertificateContextToStore and CertAddSerializedElementToStore before adding to the store.
 old-location: security\certstoreprovwritecertcallback.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 97cc488a-7993-4b48-a4b4-cb13c6168226
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertStoreProvWriteCertCallback, CertStoreProvWriteCertCallback callback, CertStoreProvWriteCertCallback callback function [Security], PFN_CERT_STORE_PROV_WRITE_CERT, PFN_CERT_STORE_PROV_WRITE_CERT callback function [Security], _crypto2_certstoreprovwritecertcallback, security.certstoreprovwritecertcallback, wincrypt/CertStoreProvWriteCertCallback, wincrypt/PFN_CERT_STORE_PROV_WRITE_CERT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			An application-defined callback function that is called by 
+An application-defined callback function that is called by 
 <a href="https://msdn.microsoft.com/7c092bf5-f8b2-47d0-94ee-c8e0f4bca62d">CertAddEncodedCertificateToStore</a>, 
 <a href="https://msdn.microsoft.com/5e4d8cae-1096-491f-9a04-92b7e9c020bb">CertAddCertificateContextToStore</a> and 
 <a href="https://msdn.microsoft.com/2726cd34-51ba-4f68-9a3c-7cd505eb32a1">CertAddSerializedElementToStore</a> before adding to the store. In addition to the encoded certificate, the added <i>pCertContext</i> might also have properties.
@@ -100,8 +99,7 @@ CERT_STORE_PROV_WRITE_ADD_FLAG is set when this function is called by the follow
 
 
 
-
-						Returns <b>TRUE</b> if it is okay to update the store.
+Returns <b>TRUE</b> if it is okay to update the store.
 
 
 
@@ -115,7 +113,7 @@ CERT_STORE_PROV_WRITE_ADD_FLAG is set when this function is called by the follow
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
 
 
 

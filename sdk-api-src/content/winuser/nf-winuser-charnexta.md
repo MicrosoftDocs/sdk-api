@@ -7,7 +7,7 @@ old-location: menurc\charnext.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charnext.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: CharNext, CharNext function [Menus and Other Resources], CharNextA, CharNextW, _win32_CharNext, _win32_charnext_cpp, menurc.charnext, winui._win32_charnext, winuser/CharNext, winuser/CharNextA, winuser/CharNextW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,10 +94,9 @@ If
 
 
 
-When called as an ANSI function, <b>CharNext</b> uses the system default code-page, whereas <a href="https://msdn.microsoft.com/library/ms647470(v=VS.85).aspx">CharNextExA</a> specifies a code-page to use.
+When called as an ANSI function, <b>CharNext</b> uses the system default code-page, whereas <a href="https://msdn.microsoft.com/en-us/library/ms647470(v=VS.85).aspx">CharNextExA</a> specifies a code-page to use.
 
-
-			This function works with default "user" expectations of characters when dealing with diacritics. For example:
+This function works with default "user" expectations of characters when dealing with diacritics. For example:
 A string that contains U+0061 U+030a "LATIN SMALL LETTER A" + COMBINING RING ABOVE" — which looks like "å", will advance two code points, not one.
 A string that contains U+0061 U+0301 U+0302 U+0303 U+0304 — which looks like "a´^~¯", will advance five code points, not one,
 and so on.
@@ -111,11 +110,11 @@ and so on.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647470(v=VS.85).aspx">CharNextExA</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647470(v=VS.85).aspx">CharNextExA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647471(v=VS.85).aspx">CharPrev</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647471(v=VS.85).aspx">CharPrev</a>
 
 
 

@@ -4,10 +4,10 @@ title: "_CRYPT_KEY_VERIFY_MESSAGE_PARA"
 author: windows-sdk-content
 description: Contains information needed to verify signed messages without a certificate for the signer.
 old-location: security\crypt_key_verify_message_para.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 4e0178fb-1f9f-4ee4-9a83-f37cf71d35ff
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCRYPT_KEY_VERIFY_MESSAGE_PARA, CRYPT_KEY_VERIFY_MESSAGE_PARA, CRYPT_KEY_VERIFY_MESSAGE_PARA structure [Security], PCRYPT_KEY_VERIFY_MESSAGE_PARA, PCRYPT_KEY_VERIFY_MESSAGE_PARA structure pointer [Security], _CRYPT_KEY_VERIFY_MESSAGE_PARA, security.crypt_key_verify_message_para, wincrypt/CRYPT_KEY_VERIFY_MESSAGE_PARA, wincrypt/PCRYPT_KEY_VERIFY_MESSAGE_PARA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CRYPT_KEY_VERIFY_MESSAGE_PARA</b> structure contains information needed to verify signed messages without a certificate for the signer.
+The <b>CRYPT_KEY_VERIFY_MESSAGE_PARA</b> structure contains information needed to verify signed messages without a certificate for the signer.
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: intl\isvalidcodepage.htm
 old-project: Intl
 ms.assetid: 7bd16f61-a534-4ada-ae27-d5deb47870a9
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: IsValidCodePage, IsValidCodePage function [Internationalization for Windows Applications], _win32_IsValidCodePage, intl.isvalidcodepage, winnls/IsValidCodePage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,8 +87,7 @@ Returns a nonzero value if the code page is valid, or 0 if the code page is inva
 
 A code page is considered valid only if it is installed on the operating system. Unicode is preferred.
 
-
-        Starting with Windows Vista, all code pages that can be installed are loaded by default.
+Starting with Windows Vista, all code pages that can be installed are loaded by default.
 
 
 

@@ -4,10 +4,10 @@ title: CryptMsgControl function
 author: windows-sdk-content
 description: Performs a control operation after a message has been decoded by a final call to the CryptMsgUpdate function.
 old-location: security\cryptmsgcontrol.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: a990d44d-2993-429f-b817-2a834105ecef
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CMSG_CRYPT_RELEASE_CONTEXT_FLAG, CMSG_CTRL_ADD_ATTR_CERT, CMSG_CTRL_ADD_CERT, CMSG_CTRL_ADD_CMS_SIGNER_INFO, CMSG_CTRL_ADD_CRL, CMSG_CTRL_ADD_SIGNER, CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR, CMSG_CTRL_DECRYPT, CMSG_CTRL_DECRYPT,CMSG_CTRL_KEY_TRANS_DECRYPT,CMSG_CTRL_KEY_AGREE_DECRYPT,or CMSG_CTRL_MAIL_LIST_DECRYPT,and the streamed enveloped message is being decoded, CMSG_CTRL_DEL_ATTR_CERT, CMSG_CTRL_DEL_CERT, CMSG_CTRL_DEL_CRL, CMSG_CTRL_DEL_SIGNER, CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR, CMSG_CTRL_ENABLE_STRONG_SIGNATURE, CMSG_CTRL_KEY_AGREE_DECRYPT, CMSG_CTRL_KEY_TRANS_DECRYPT, CMSG_CTRL_MAIL_LIST_DECRYPT, CMSG_CTRL_VERIFY_HASH, CMSG_CTRL_VERIFY_SIGNATURE, CMSG_CTRL_VERIFY_SIGNATURE_EX, CryptMsgControl, CryptMsgControl function [Security], _crypto2_cryptmsgcontrol, security.cryptmsgcontrol, wincrypt/CryptMsgControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CryptMsgControl</b> function performs a control operation after a message has been decoded by a final 
+The <b>CryptMsgControl</b> function performs a control operation after a message has been decoded by a final 
 call to the <a href="https://msdn.microsoft.com/d27d75f0-1646-4926-b375-59e52b00326c">CryptMsgUpdate</a>  function. The control operations provided by this function are used for decryption, signature and hash verification, and the addition and deletion of certificates, <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation lists</a> (CRLs), signers, and unauthenticated attributes.
 
 Important changes that affect the handling of enveloped messages have been made to CryptoAPI to support <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Secure/Multipurpose Internet Mail Extensions</a> (S/MIME) email interoperability. For more information, see the Remarks for 
@@ -162,8 +161,7 @@ A BLOB  that contains the encoded bytes of the CRL to be added to the message.
 </dl>
 </td>
 <td width="60%">
-
-								A <a href="https://msdn.microsoft.com/f599226d-ddd7-455f-b650-74b91674d8f9">CMSG_SIGNER_ENCODE_INFO</a>   structure that contains the signer information to be added to the message.
+A <a href="https://msdn.microsoft.com/f599226d-ddd7-455f-b650-74b91674d8f9">CMSG_SIGNER_ENCODE_INFO</a>   structure that contains the signer information to be added to the message.
 
 </td>
 </tr>
@@ -174,8 +172,7 @@ A BLOB  that contains the encoded bytes of the CRL to be added to the message.
 </dl>
 </td>
 <td width="60%">
-
-								A <a href="https://msdn.microsoft.com/5e347a50-942e-4278-a9ae-ad4c30c55c6b">CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains the index of the signer and a BLOB  that contains the unauthenticated attribute information to be added to the message.
+A <a href="https://msdn.microsoft.com/5e347a50-942e-4278-a9ae-ad4c30c55c6b">CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains the index of the signer and a BLOB  that contains the unauthenticated attribute information to be added to the message.
 
 </td>
 </tr>
@@ -242,8 +239,7 @@ The index of the signer to be deleted.
 </dl>
 </td>
 <td width="60%">
-
-								A <a href="https://msdn.microsoft.com/729fbbe0-40c6-41e7-851f-6f93f47e8f4d">CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains an index  that specifies the signer and the index  that specifies the signer's unauthenticated attribute to be deleted.
+A <a href="https://msdn.microsoft.com/729fbbe0-40c6-41e7-851f-6f93f47e8f4d">CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains an index  that specifies the signer and the index  that specifies the signer's unauthenticated attribute to be deleted.
 
 </td>
 </tr>
@@ -273,9 +269,7 @@ After the signature is successfully verified, this function checks for a strong 
 </dl>
 </td>
 <td width="60%">
-
-								
-								A <a href="https://msdn.microsoft.com/14e58281-4315-4ece-8ea8-92765cffd212">CMSG_CTRL_KEY_AGREE_DECRYPT_PARA</a> structure used to decrypt the message for the specified key agreement session key. Key agreement is used with Diffie-Hellman encryption/decryption.
+A <a href="https://msdn.microsoft.com/14e58281-4315-4ece-8ea8-92765cffd212">CMSG_CTRL_KEY_AGREE_DECRYPT_PARA</a> structure used to decrypt the message for the specified key agreement session key. Key agreement is used with Diffie-Hellman encryption/decryption.
 
 </td>
 </tr>
@@ -286,8 +280,7 @@ After the signature is successfully verified, this function checks for a strong 
 </dl>
 </td>
 <td width="60%">
-
-								A <a href="https://msdn.microsoft.com/5f3387c9-4ff0-42a0-8fc7-67d3bb8b6bef">CMSG_CTRL_KEY_TRANS_DECRYPT_PARA</a> structure used to decrypt the message for the specified key transport recipient. Key transport is used with RSA encryption/decryption.
+A <a href="https://msdn.microsoft.com/5f3387c9-4ff0-42a0-8fc7-67d3bb8b6bef">CMSG_CTRL_KEY_TRANS_DECRYPT_PARA</a> structure used to decrypt the message for the specified key transport recipient. Key transport is used with RSA encryption/decryption.
 
 </td>
 </tr>
@@ -298,8 +291,7 @@ After the signature is successfully verified, this function checks for a strong 
 </dl>
 </td>
 <td width="60%">
-
-								A 
+A 
 								<a href="https://msdn.microsoft.com/30735e01-db6b-40fc-b4c8-cdc24e73defa">CMSG_CTRL_MAIL_LIST_DECRYPT_PARA</a> structure used to decrypt the message for the specified recipient using a previously distributed key-encryption key (KEK).
 
 </td>
@@ -334,9 +326,7 @@ A
 </dl>
 </td>
 <td width="60%">
-
-								
-								A <a href="https://msdn.microsoft.com/56b73de8-c170-46f6-b488-096475b59c15">CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA</a>   structure that specifies the signer index and public key to verify the message signature. The signer public key can be a 
+A <a href="https://msdn.microsoft.com/56b73de8-c170-46f6-b488-096475b59c15">CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA</a>   structure that specifies the signer index and public key to verify the message signature. The signer public key can be a 
 <a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a> structure, a certificate context, or a certificate chain context.
 
 </td>
@@ -647,11 +637,11 @@ Not enough memory was available to complete the operation.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Low-level Message Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Low-level Message Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
  
 
  

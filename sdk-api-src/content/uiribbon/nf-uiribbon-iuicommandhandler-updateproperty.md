@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuicommandhandler_updateproperty.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicommandhandler\updateproperty.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: IUICommandHandler interface [Windows Ribbon],UpdateProperty method, IUICommandHandler.UpdateProperty, IUICommandHandler::UpdateProperty, UpdateProperty, UpdateProperty method [Windows Ribbon], UpdateProperty method [Windows Ribbon],IUICommandHandler interface, scenicintent_IUICommandHandler_UpdateProperty, uiribbon/IUICommandHandler::UpdateProperty, windowsribbon.windowsribbon_iuicommandhandler_updateproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-
-			Responds to property update requests from the Windows Ribbon framework.
+Responds to property update requests from the Windows Ribbon framework.
 		
 
 
@@ -65,8 +64,7 @@ req.product: Windows UI
 
 Type: <b>UINT32</b>
 
-
-					The ID for the Command, which is specified in the Markup resource file.
+The ID for the Command, which is specified in the Markup resource file.
 				
 
 
@@ -74,8 +72,7 @@ Type: <b>UINT32</b>
 
 Type: <b>REFPROPERTYKEY</b>
 
-
-					The <a href="https://msdn.microsoft.com/library/Dd371196(v=VS.85).aspx">Property Key</a> to update.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd371196(v=VS.85).aspx">Property Key</a> to update.
 				
 
 
@@ -83,8 +80,7 @@ Type: <b>REFPROPERTYKEY</b>
 
 Type: <b>const PROPVARIANT*</b>
 
-
-					A pointer to the current value for <i>key</i>. This parameter can be <b>NULL</b>.
+A pointer to the current value for <i>key</i>. This parameter can be <b>NULL</b>.
 				
 
 
@@ -92,8 +88,7 @@ Type: <b>const PROPVARIANT*</b>
 
 Type: <b>PROPVARIANT*</b>
 
-
-					When this method returns, contains a pointer to the new value for 
+When this method returns, contains a pointer to the new value for 
 					<i>key</i>.
 				
 
@@ -113,10 +108,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
+This method should be allowed to return before any subsequent calls to the Ribbon framework are made.
 
-			This method should be allowed to return before any subsequent calls to the Ribbon framework are made.
-
-The values of Command properties, such as <a href="https://msdn.microsoft.com/library/Dd940400(v=VS.85).aspx">UI_PKEY_Enabled</a> or <a href="https://msdn.microsoft.com/library/Dd371287(v=VS.85).aspx">UI_PKEY_Label</a>, are set through calls to <a href="https://msdn.microsoft.com/library/Dd371478(v=VS.85).aspx">SetUICommandProperty</a> or <a href="https://msdn.microsoft.com/library/Dd371375(v=VS.85).aspx">InvalidateUICommand</a>.
+The values of Command properties, such as <a href="https://msdn.microsoft.com/en-us/library/Dd940400(v=VS.85).aspx">UI_PKEY_Enabled</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd371287(v=VS.85).aspx">UI_PKEY_Label</a>, are set through calls to <a href="https://msdn.microsoft.com/en-us/library/Dd371478(v=VS.85).aspx">SetUICommandProperty</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd371375(v=VS.85).aspx">InvalidateUICommand</a>.
 
 
 
@@ -126,11 +120,11 @@ The values of Command properties, such as <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
  
 
  

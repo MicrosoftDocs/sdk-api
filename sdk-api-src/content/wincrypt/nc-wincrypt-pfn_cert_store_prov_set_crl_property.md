@@ -4,10 +4,10 @@ title: PFN_CERT_STORE_PROV_SET_CRL_PROPERTY
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertSetCRLContextProperty before setting the CRL's property.
 old-location: security\certstoreprovsetcrlpropertycallback.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 98ad9b24-8d7d-4fbe-8fd8-089f1ddfbff0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertStoreProvSetCRLPropertyCallback, CertStoreProvSetCRLPropertyCallback callback, CertStoreProvSetCRLPropertyCallback callback function [Security], PFN_CERT_STORE_PROV_SET_CRL_PROPERTY, PFN_CERT_STORE_PROV_SET_CRL_PROPERTY callback function [Security], _crypto2_certstoreprovsetcrlpropertycallback, security.certstoreprovsetcrlpropertycallback, wincrypt/CertStoreProvSetCRLPropertyCallback, wincrypt/PFN_CERT_STORE_PROV_SET_CRL_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			An application-defined callback function that is called by 
+An application-defined callback function that is called by 
 <a href="https://msdn.microsoft.com/7e4a0a39-ce55-4171-9b66-31c1c28d895f">CertSetCRLContextProperty</a> before setting the CRL's property. It is also called by 
 <a href="https://msdn.microsoft.com/16c2cc06-28fd-42d9-a377-0df2eaeeae56">CertGetCRLContextProperty</a> when getting a hash property that needs to be created and then persisted through the set.
 
@@ -96,8 +95,7 @@ See <a href="https://msdn.microsoft.com/7e4a0a39-ce55-4171-9b66-31c1c28d895f">Ce
 
 
 
-
-						Returns <b>TRUE</b> if it is okay to set the property.
+Returns <b>TRUE</b> if it is okay to set the property.
 
 
 
@@ -111,7 +109,7 @@ See <a href="https://msdn.microsoft.com/7e4a0a39-ce55-4171-9b66-31c1c28d895f">Ce
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
 
 
 

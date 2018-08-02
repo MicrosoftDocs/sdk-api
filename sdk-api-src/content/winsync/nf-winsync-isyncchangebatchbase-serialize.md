@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatchbase_serialize.htm
 old-project: winsync
 ms.assetid: 785a763c-99a2-45d1-b42b-9673aedc5c5d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: ISyncChangeBatchBase interface [Windows Sync],Serialize method, ISyncChangeBatchBase.Serialize, ISyncChangeBatchBase::Serialize, Serialize, Serialize method [Windows Sync], Serialize method [Windows Sync],ISyncChangeBatchBase interface, winsync.isyncchangebatchbase_serialize, winsync/ISyncChangeBatchBase::Serialize
 ms.prod: windows
 ms.technology: windows-sdk

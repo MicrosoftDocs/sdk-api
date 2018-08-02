@@ -7,7 +7,7 @@ old-location: multimedia\icopen.htm
 old-project: Multimedia
 ms.assetid: 2637b6ef-2324-40db-99e4-773fcb6fdbf6
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: ICOpen, ICOpen function [Windows Multimedia], _win32_ICOpen, multimedia.icopen, vfw/ICOpen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,11 +78,9 @@ Flag defining the use of the compressor or decompressor. The following values ar
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Meaning
+<th>Meaning
                 </th>
 </tr>
 <tr>

@@ -272,7 +272,7 @@ typedef D3D_NAME D3D10_NAME;</pre>
 </td>
 </tr>
 </table></span></div>
-These flags identify shader parameters that have <a href="https://msdn.microsoft.com/library/Bb509647(v=VS.85).aspx">predefined system-value</a> semantics. These flags are used in a shader-signature description (see <a href="https://msdn.microsoft.com/4c789141-5381-4fe9-b54f-c1a2761a5a20">D3D10_SIGNATURE_PARAMETER_DESC</a>).
+These flags identify shader parameters that have <a href="https://msdn.microsoft.com/library/Bb509647(v=VS.85).aspx">predefined system-value</a> semantics. These flags are used in a shader-signature description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172446(v=VS.85).aspx">D3D10_SIGNATURE_PARAMETER_DESC</a>).
 
 
 
@@ -282,7 +282,7 @@ These flags identify shader parameters that have <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/8d2b758b-cc2a-43ad-bf26-51674d4b5129">Shader Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205156(v=VS.85).aspx">Shader Enumerations</a>
  
 
  

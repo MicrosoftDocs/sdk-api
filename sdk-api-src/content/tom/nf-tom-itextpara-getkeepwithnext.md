@@ -4,10 +4,10 @@ title: ITextPara::GetKeepWithNext
 author: windows-sdk-content
 description: Determines whether page breaks are allowed between paragraphs in the range.
 old-location: controls\ITextPara_GetKeepWithNext.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getkeepwithnext.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetKeepWithNext, GetKeepWithNext method [Windows Controls], GetKeepWithNext method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetKeepWithNext method, ITextPara.GetKeepWithNext, ITextPara::GetKeepWithNext, _win32_ITextPara_GetKeepWithNext, _win32_ITextPara_GetKeepWithNext_cpp, controls.ITextPara_GetKeepWithNext, controls._win32_ITextPara_GetKeepWithNext, tom/ITextPara::GetKeepWithNext, tomFalse, tomTrue, tomUndefined
 ms.prod: windows
 ms.technology: windows-sdk
@@ -167,7 +167,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-This property corresponds to the PFE_KEEPNEXT effect described in the <a href="https://msdn.microsoft.com/library/Bb787942(v=VS.85).aspx">PARAFORMAT2</a> structure. 
+This property corresponds to the PFE_KEEPNEXT effect described in the <a href="https://msdn.microsoft.com/en-us/library/Bb787942(v=VS.85).aspx">PARAFORMAT2</a> structure. 
 
 
 
@@ -181,11 +181,11 @@ This property corresponds to the PFE_KEEPNEXT effect described in the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787942(v=VS.85).aspx">PARAFORMAT2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787942(v=VS.85).aspx">PARAFORMAT2</a>
 
 
 
@@ -193,11 +193,11 @@ This property corresponds to the PFE_KEEPNEXT effect described in the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774163(v=VS.85).aspx">SetKeepWithNext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774163(v=VS.85).aspx">SetKeepWithNext</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

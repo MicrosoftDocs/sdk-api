@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaItem_GetItemType.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\getitemtype.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: GetItemType, GetItemType method [WIA], GetItemType method [WIA],IWiaItem interface, IWiaItem interface [WIA],GetItemType method, IWiaItem.GetItemType, IWiaItem::GetItemType, _wia_IWiaItem_GetItemType, wia._wia_IWiaItem_GetItemType, wia_xp/IWiaItem::GetItemType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The <b>IWiaItem::GetItemType</b> method is called by applications to obtain the 
 
 Type: <b>LONG*</b>
 
-Receives the address of a <b>LONG</b> variable that contains a combination of <a href="https://msdn.microsoft.com/library/ms630198(v=VS.85).aspx">WIA Item Type Flags</a>.
+Receives the address of a <b>LONG</b> variable that contains a combination of <a href="https://msdn.microsoft.com/en-us/library/ms630198(v=VS.85).aspx">WIA Item Type Flags</a>.
 
 
 ## -returns
@@ -81,9 +81,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Every <a href="https://msdn.microsoft.com/library/ms630113(v=VS.85).aspx">IWiaItem</a> object in the hierarchical tree of objects associated with a Windows Image Acquisition (WIA) hardware device has a specific data type. Item objects represent folders and files. Folders contain file objects. File objects contain data acquired by the device such as images and sounds. This method enables applications to identify the type of any item in a hierarchical tree of item objects in a device.
+Every <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> object in the hierarchical tree of objects associated with a Windows Image Acquisition (WIA) hardware device has a specific data type. Item objects represent folders and files. Folders contain file objects. File objects contain data acquired by the device such as images and sounds. This method enables applications to identify the type of any item in a hierarchical tree of item objects in a device.
 
-An item may have more than one type. For example, an item that represents an audio file will have the type attributes <a href="https://msdn.microsoft.com/library/ms630198(v=VS.85).aspx">WiaItemTypeAudio</a> | <b>WiaItemTypeFile</b>.
+An item may have more than one type. For example, an item that represents an audio file will have the type attributes <a href="https://msdn.microsoft.com/en-us/library/ms630198(v=VS.85).aspx">WiaItemTypeAudio</a> | <b>WiaItemTypeFile</b>.
 
 
 

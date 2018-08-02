@@ -7,7 +7,7 @@ old-location: wmi\swbemrefresher_deleteall.htm
 old-project: WmiSdk
 ms.assetid: c6e462d3-52b3-40c0-9a9c-fa268415a5f0
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: DeleteAll, DeleteAll method [Windows Management Instrumentation], DeleteAll method [Windows Management Instrumentation],ISWbemRefresher interface, DeleteAll method [Windows Management Instrumentation],SWbemRefresher object, ISWbemRefresher interface [Windows Management Instrumentation],DeleteAll method, ISWbemRefresher.DeleteAll, ISWbemRefresher::DeleteAll, SWbemRefresher object [Windows Management Instrumentation],DeleteAll method, SWbemRefresher.DeleteAll, _hmm_swbemrefresher.deleteall, wmi.swbemrefresher_deleteall
 ms.prod: windows
 ms.technology: windows-sdk

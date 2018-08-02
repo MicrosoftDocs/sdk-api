@@ -7,7 +7,7 @@ old-location: wsw\wscreatemetadata.htm
 old-project: wsw
 ms.assetid: c3b6f926-331b-46a7-8180-36762abf63d7
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCreateMetadata, WsCreateMetadata function [Web Services for Windows], webservices/WsCreateMetadata, wsw.wscreatemetadata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,8 +78,7 @@ The number of properties in the <i>properties</i> array.
 
 ### -param metadata
 
-
-                    On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/aa7383a1-60fa-448a-b0c6-b9c49d9d5070">WS_METADATA</a> structure representing the new message.
+On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/aa7383a1-60fa-448a-b0c6-b9c49d9d5070">WS_METADATA</a> structure representing the new message.
                 
                 When you no longer need this structure, you must free it by calling <a href="https://msdn.microsoft.com/4e159619-3807-4e7f-9198-fb74962ae141">WsFreeMetadata</a>.
 
@@ -109,7 +108,6 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -121,7 +119,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>

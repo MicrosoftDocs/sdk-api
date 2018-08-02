@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaRegisterProviderCallbackAutoMeth.htm
 old-project: WinAuto
 ms.assetid: f80d3f42-dc21-4790-b670-0b900f092465
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: UiaRegisterProviderCallback, UiaRegisterProviderCallback function [Windows Accessibility], uiauto.uiauto_UiaRegisterProviderCallbackAutoMeth, uiauto_UiaRegisterProviderCallbackAutoMeth, uiautomationcoreapi/UiaRegisterProviderCallback, winauto.uiauto_UiaRegisterProviderCallbackAutoMeth
 ms.prod: windows
 ms.technology: windows-sdk

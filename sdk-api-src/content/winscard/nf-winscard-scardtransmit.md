@@ -4,10 +4,10 @@ title: SCardTransmit function
 author: windows-sdk-content
 description: Sends a service request to the smart card and expects to receive data back from the card.
 old-location: security\scardtransmit.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: d0c16b67-34e7-4872-aa36-79dcad19093e
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: SCardTransmit, SCardTransmit function [Security], _smart_scardtransmit, bCla, bIns, bP1,bP2, bP3, security.scardtransmit, winscard/SCardTransmit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -196,7 +196,7 @@ For T=0, the receive buffer must be at least two bytes long to receive the SW1 a
 If the function successfully sends a service request to the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a>, the return value is SCARD_S_SUCCESS.
 
 If the function fails, it returns an error code. For more information, see 
-<a href="https://msdn.microsoft.com/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
 
 
 

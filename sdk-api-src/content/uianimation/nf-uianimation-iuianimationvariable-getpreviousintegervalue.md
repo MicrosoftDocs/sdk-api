@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable_getpreviousintegervalue.htm
 old-project: UIAnimation
 ms.assetid: ccf4c575-aa98-40cd-b2de-cf8db95ec57d
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetPreviousIntegerValue, GetPreviousIntegerValue method [Windows Animation], GetPreviousIntegerValue method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetPreviousIntegerValue method, IUIAnimationVariable.GetPreviousIntegerValue, IUIAnimationVariable::GetPreviousIntegerValue, uianimation.iuianimationvariable_getpreviousintegervalue, uianimation/IUIAnimationVariable::GetPreviousIntegerValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Gets the previous value of the animation variable as an integer.      
+Gets the previous value of the animation variable as an integer.      
    This is the value of the animation variable before the most recent update.
 
 
@@ -63,9 +62,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param previousValue [out]
 
-
-            
-            The previous value of the animation variable, converted to an <b>INT32</b> value.
+The previous value of the animation variable, converted to an <b>INT32</b> value.
 
 
 ## -returns
@@ -105,8 +102,7 @@ The result can also be affected by the lower and upper bounds determined by <a h
 
 
 
-<a href="https://msdn.microsoft.com/405bc35e-8b38-40fb-acf4-107fa6dd161a">
-      IUIAnimationVariable::GetPreviousValue</a>
+<a href="https://msdn.microsoft.com/405bc35e-8b38-40fb-acf4-107fa6dd161a">IUIAnimationVariable::GetPreviousValue</a>
 
 
 
@@ -114,8 +110,7 @@ The result can also be affected by the lower and upper bounds determined by <a h
 
 
 
-<a href="https://msdn.microsoft.com/e8c86195-14a1-4535-9fc2-4992c8090e79">
-      IUIAnimationVariable::SetRoundingMode</a>
+<a href="https://msdn.microsoft.com/e8c86195-14a1-4535-9fc2-4992c8090e79">IUIAnimationVariable::SetRoundingMode</a>
 
 
 

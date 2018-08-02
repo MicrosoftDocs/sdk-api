@@ -7,7 +7,7 @@ old-location: xps\ixpsomsignatureblockresourcecollection_insertat.htm
 old-project: printdocs
 ms.assetid: bcb9d712-35b6-4dfc-91dc-dd376950e1e8
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMSignatureBlockResourceCollection.InsertAt, IXpsOMSignatureBlockResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, xps.ixpsomsignatureblockresourcecollection_insertat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::InsertAt
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xps\ixpsomimageresource_getstream.htm
 old-project: printdocs
 ms.assetid: 30d90686-67f5-4e18-811b-472e6a00538f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMImageResource interface, IXpsOMImageResource interface [XPS Documents and Packaging],GetStream method, IXpsOMImageResource.GetStream, IXpsOMImageResource::GetStream, xps.ixpsomimageresource_getstream, xpsobjectmodel/IXpsOMImageResource::GetStream
 ms.prod: windows
 ms.technology: windows-sdk

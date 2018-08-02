@@ -99,7 +99,7 @@ After calling the <b>IFaxPorts::get_Count</b> method, a fax client application c
 
 
 
-<a href="https://msdn.microsoft.com/e10c4f3e-c8bd-4134-a325-fe7da93b1caa">GetPorts</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692815(v=VS.85).aspx">GetPorts</a>
 
 
 

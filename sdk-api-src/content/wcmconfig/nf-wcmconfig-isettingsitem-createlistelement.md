@@ -7,7 +7,7 @@ old-location: smi\isettingsitem_createlistelement.htm
 old-project: SMI
 ms.assetid: c18fd849-aaa5-49d0-9e72-b3134a6f2be8
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: CreateListElement, CreateListElement method [SMI], CreateListElement method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],CreateListElement method, ISettingsItem.CreateListElement, ISettingsItem::CreateListElement, smi.isettingsitem_createlistelement, wcmconfig/ISettingsItem::CreateListElement
 ms.prod: windows
 ms.technology: windows-sdk

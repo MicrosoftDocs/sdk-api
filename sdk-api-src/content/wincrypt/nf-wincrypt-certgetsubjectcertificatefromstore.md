@@ -4,10 +4,10 @@ title: CertGetSubjectCertificateFromStore function
 author: windows-sdk-content
 description: Returns from a certificate store a subject certificate context uniquely identified by its issuer and serial number.
 old-location: security\certgetsubjectcertificatefromstore.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 61d73501-91b1-4498-b1a3-17392360c700
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertGetSubjectCertificateFromStore, CertGetSubjectCertificateFromStore function [Security], _crypto2_certgetsubjectcertificatefromstore, security.certgetsubjectcertificatefromstore, wincrypt/CertGetSubjectCertificateFromStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertGetSubjectCertificateFromStore</b> function returns from a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> a subject certificate context uniquely identified by its issuer and serial number.
+The <b>CertGetSubjectCertificateFromStore</b> function returns from a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> a subject certificate context uniquely identified by its issuer and serial number.
 
 
 ## -parameters
@@ -274,7 +273,7 @@ if(hMsg)
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Functions</a>
  
 
  

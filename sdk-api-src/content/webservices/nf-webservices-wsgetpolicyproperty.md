@@ -7,7 +7,7 @@ old-location: wsw\wsgetpolicyproperty.htm
 old-project: wsw
 ms.assetid: eebf1729-8492-47d3-90b2-6700d886de4a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetPolicyProperty, WsGetPolicyProperty function [Web Services for Windows], webservices/WsGetPolicyProperty, wsw.wsgetpolicyproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Retrieves a property of a policy object.
+Retrieves a property of a policy object.
             
             
 
@@ -64,8 +63,7 @@ req.product: Windows Address Book 5.0
 
 ### -param policy [in]
 
-
-                    A pointer to the <a href="https://msdn.microsoft.com/04623686-5065-4e97-8685-c72f848b92ab">WS_POLICY</a> object from which to obtain the property.
+A pointer to the <a href="https://msdn.microsoft.com/04623686-5065-4e97-8685-c72f848b92ab">WS_POLICY</a> object from which to obtain the property.
                 
 
 
@@ -84,8 +82,7 @@ A pointer to the address to store the retrieved property value. The pointer must
 
 ### -param valueSize [in]
 
-
-                    The number of bytes allocated by the caller to
+The number of bytes allocated by the caller to
                     store the retrieved property.
                 
 
@@ -125,7 +122,6 @@ The property id was not supported for this object or the specified buffer was no
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -151,8 +147,7 @@ This function may return other errors not listed above.
 
 
 
-
-                The data returned by this function is good until the 
+The data returned by this function is good until the 
                 metadata object is freed or reset.
             
 

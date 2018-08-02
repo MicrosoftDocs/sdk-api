@@ -7,7 +7,7 @@ old-location: xps\ixpsompage_getdictionary.htm
 old-project: printdocs
 ms.assetid: e842c828-6e8c-4190-b845-8c8a26af1579
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetDictionary, GetDictionary method [XPS Documents and Packaging], GetDictionary method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetDictionary method, IXpsOMPage.GetDictionary, IXpsOMPage::GetDictionary, xps.ixpsompage_getdictionary, xpsobjectmodel/IXpsOMPage::GetDictionary
 ms.prod: windows
 ms.technology: windows-sdk

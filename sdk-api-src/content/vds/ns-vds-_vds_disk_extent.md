@@ -4,10 +4,10 @@ title: "_VDS_DISK_EXTENT"
 author: windows-sdk-content
 description: Defines the properties of a disk extent.
 old-location: base\vds_disk_extent.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 79fa7b8a-9d24-49ab-8e5d-1471b023c459
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: "*PVDS_DISK_EXTENT, PVDS_DISK_EXTENT, PVDS_DISK_EXTENT structure pointer [VDS], VDS_DISK_EXTENT, VDS_DISK_EXTENT structure [VDS], _VDS_DISK_EXTENT, base.vds_disk_extent, vds/PVDS_DISK_EXTENT, vds/_VDS_DISK_EXTENT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,8 +69,7 @@ The GUID of the disk.
 
 ### -field type
 
-
-      A <a href="https://msdn.microsoft.com/3f7a5dba-315b-4757-bd4c-1335c18739eb">VDS_DISK_EXTENT_TYPE</a> enumeration value that specifies the type of the disk extent.
+A <a href="https://msdn.microsoft.com/3f7a5dba-315b-4757-bd4c-1335c18739eb">VDS_DISK_EXTENT_TYPE</a> enumeration value that specifies the type of the disk extent.
 
 
 ### -field ullOffset
@@ -102,22 +101,19 @@ If the extent is from a volume plex, this member is the zero-based index of the 
 
 
 
-
-    The <i>volumeId</i>, <i>plexId</i>, and 
+The <i>volumeId</i>, <i>plexId</i>, and 
     <i>memberIdx</i> members apply to data and ESP partitions only. If the extent lacks a volume 
     association, the GUIDs for <i>volumeId</i> and <i>plexId</i> are GUID_NULL, 
     and <i>memberIdx</i> is zero. The <i>memberIdx</i> member is always zero 
     unless the volume is striped or striped with parity (RAID-5). An extent can also be unallocated or free.
    
 
-
-    The <a href="https://msdn.microsoft.com/2e7de42f-da7a-41a7-b38e-849ab8d72ab2">IVdsDisk::QueryExtents</a> method returns this 
+The <a href="https://msdn.microsoft.com/2e7de42f-da7a-41a7-b38e-849ab8d72ab2">IVdsDisk::QueryExtents</a> method returns this 
     structure to report the property details of a disk extent. Likewise, the 
     <a href="https://msdn.microsoft.com/09548bcc-29b9-498f-a4c0-99428f26343a">IVdsVolumePlex::QueryExtents</a> method 
     returns it to report the details of the disk extents allocated to a plex.
 
-
-    A disk extent is a contiguous set of blocks on a single disk or LUN handled by a software provider. A drive 
+A disk extent is a contiguous set of blocks on a single disk or LUN handled by a software provider. A drive 
     extent is not required to be a contiguous set of blocks.
 
 

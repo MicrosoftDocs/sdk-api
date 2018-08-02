@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable.htm
 old-project: UIAnimation
 ms.assetid: 1632e62d-6e82-4841-8823-f6b60efc4298
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariable, IUIAnimationVariable interface [Windows Animation], IUIAnimationVariable interface [Windows Animation],described, uianimation.iuianimationvariable, uianimation/IUIAnimationVariable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Defines an animation variable, which represents a visual element that can be animated.
+Defines an animation variable, which represents a visual element that can be animated.
 
 
 ## -inheritance
@@ -72,156 +71,128 @@ The <b>IUIAnimationVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56042549-d6f6-4eed-8079-c1b14acbe160">
-         GetCurrentStoryboard</a>
+<a href="https://msdn.microsoft.com/56042549-d6f6-4eed-8079-c1b14acbe160">GetCurrentStoryboard</a>
 </td>
 <td align="left" width="63%">
-
-         Gets the storyboard that is currently animating the animation variable.
+Gets the storyboard that is currently animating the animation variable.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/19d71abc-e3f8-48d4-9ceb-5920dcc9c007">
-         GetFinalIntegerValue</a>
+<a href="https://msdn.microsoft.com/19d71abc-e3f8-48d4-9ceb-5920dcc9c007">GetFinalIntegerValue</a>
 </td>
 <td align="left" width="63%">
-
-         Gets the final value of the animation variable as an integer.      
+Gets the final value of the animation variable as an integer.      
          
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/577f83c1-aba7-4a51-82dc-68a103a31377">
-         GetFinalValue</a>
+<a href="https://msdn.microsoft.com/577f83c1-aba7-4a51-82dc-68a103a31377">GetFinalValue</a>
 </td>
 <td align="left" width="63%">
-
-         Gets the final value of the animation variable.
+Gets the final value of the animation variable.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/044fd6a3-6e40-4f4f-8777-1a1a66c91989">
-         GetIntegerValue</a>
+<a href="https://msdn.microsoft.com/044fd6a3-6e40-4f4f-8777-1a1a66c91989">GetIntegerValue</a>
 </td>
 <td align="left" width="63%">
-
-         Gets the current value of the animation variable as an integer.
+Gets the current value of the animation variable as an integer.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ccf4c575-aa98-40cd-b2de-cf8db95ec57d">
-         GetPreviousIntegerValue</a>
+<a href="https://msdn.microsoft.com/ccf4c575-aa98-40cd-b2de-cf8db95ec57d">GetPreviousIntegerValue</a>
 </td>
 <td align="left" width="63%">
-
-         Gets the previous value of the animation variable as an integer.
+Gets the previous value of the animation variable as an integer.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/405bc35e-8b38-40fb-acf4-107fa6dd161a">
-         GetPreviousValue</a>
+<a href="https://msdn.microsoft.com/405bc35e-8b38-40fb-acf4-107fa6dd161a">GetPreviousValue</a>
 </td>
 <td align="left" width="63%">
-
-         Gets the previous value of the animation variable.
+Gets the previous value of the animation variable.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2731d302-dc52-4a10-8012-a246856d132b">
-         GetTag</a>
+<a href="https://msdn.microsoft.com/2731d302-dc52-4a10-8012-a246856d132b">GetTag</a>
 </td>
 <td align="left" width="63%">
-
-         Gets the tag for an animation variable.
+Gets the tag for an animation variable.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51ae200a-a630-44fd-afd4-33d1b1dbf6d7">
-         GetValue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
 </td>
 <td align="left" width="63%">
-
-         Gets the current value of the animation variable.
+Gets the current value of the animation variable.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1e8f1106-6320-4670-867a-24ce6597026e">
-         SetLowerBound</a>
+<a href="https://msdn.microsoft.com/1e8f1106-6320-4670-867a-24ce6597026e">SetLowerBound</a>
 </td>
 <td align="left" width="63%">
-
-         Sets the lower bound (floor) for the animation variable.
+Sets the lower bound (floor) for the animation variable.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e8c86195-14a1-4535-9fc2-4992c8090e79">
-         SetRoundingMode</a>
+<a href="https://msdn.microsoft.com/e8c86195-14a1-4535-9fc2-4992c8090e79">SetRoundingMode</a>
 </td>
 <td align="left" width="63%">
-
-         Specifies the rounding mode for the animation variable.
+Specifies the rounding mode for the animation variable.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/176b0047-cac8-474b-9126-fdab4bc41537">
-         SetTag</a>
+<a href="https://msdn.microsoft.com/176b0047-cac8-474b-9126-fdab4bc41537">SetTag</a>
 </td>
 <td align="left" width="63%">
-
-         Sets the tag for an animation variable.
+Sets the tag for an animation variable.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d202f453-2e69-415b-823c-5a3279722274">
-         SetUpperBound</a>
+<a href="https://msdn.microsoft.com/d202f453-2e69-415b-823c-5a3279722274">SetUpperBound</a>
 </td>
 <td align="left" width="63%">
-
-         Sets the upper bound (ceiling) for the animation variable.
+Sets the upper bound (ceiling) for the animation variable.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d773a59f-10a5-41e4-92f1-af72d8d15105">
-         SetVariableChangeHandler</a>
+<a href="https://msdn.microsoft.com/d773a59f-10a5-41e4-92f1-af72d8d15105">SetVariableChangeHandler</a>
 </td>
 <td align="left" width="63%">
-
-         Specifies a variable change handler.
+Specifies a variable change handler.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8dc20701-0808-4308-92fc-8be6c4b039ca">
-         SetVariableIntegerChangeHandler</a>
+<a href="https://msdn.microsoft.com/8dc20701-0808-4308-92fc-8be6c4b039ca">SetVariableIntegerChangeHandler</a>
 </td>
 <td align="left" width="63%">
-
-         Specifies an integer variable change handler.
+Specifies an integer variable change handler.
 
 </td>
 </tr>
@@ -232,8 +203,7 @@ The <b>IUIAnimationVariable</b> interface has these methods.
 
 
 
-
-         Along with 
+Along with 
          <a href="https://msdn.microsoft.com/99804a2f-82c9-494c-b75d-69e66f1e49ef">IUIAnimationTransition</a> and 
          <a href="https://msdn.microsoft.com/6b30b660-dfa4-410f-a8de-58ea5c9a104d">IUIAnimationStoryboard</a>, <b>IUIAnimationVariable</b> is a primary component for building animations. To create and manage animation variables, use <a href="https://msdn.microsoft.com/21f16c65-90aa-4b1f-93bc-8ee0488c6ded">IUIAnimationManager</a>.
 

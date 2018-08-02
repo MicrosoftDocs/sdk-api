@@ -4,10 +4,10 @@ title: ldap_check_filterA function
 author: windows-sdk-content
 description: The ldap_check_filter function is used to verify filter syntax.
 old-location: ldap\ldap_check_filter.htm
-old-project: ldap
+old-project: LDAP
 ms.assetid: 33b549bc-4b23-484a-a7cf-f4963154d492
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "_ldap_ldap_check_filter, ldap.ldap__check__filter, ldap.ldap_check_filter, ldap_check_filter, ldap_check_filter function [LDAP], ldap_check_filterA, ldap_check_filterW, winldap/ldap_check_filter, winldap/ldap_check_filterA, winldap/ldap_check_filterW"
 ms.prod: windows
 ms.technology: windows-sdk

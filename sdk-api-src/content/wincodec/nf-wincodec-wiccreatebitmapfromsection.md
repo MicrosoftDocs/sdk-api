@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wiccreatebitmapfromsection.htm
 old-project: wic
 ms.assetid: a14022a0-7af6-4c06-9afa-4709b81efc96
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: WICCreateBitmapFromSection, WICCreateBitmapFromSection function [Windows Imaging Component], _wic_codec_wiccreatebitmapfromsection, wic._wic_codec_wiccreatebitmapfromsection, wincodec/WICCreateBitmapFromSection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ The height of the bitmap pixels.
 
 ### -param pixelFormat
 
-Type: <b><a href="https://msdn.microsoft.com/library/Ee719797(v=VS.85).aspx">REFWICPixelFormatGUID</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ee719797(v=VS.85).aspx">REFWICPixelFormatGUID</a></b>
 
 The pixel format of the bitmap.
 

@@ -4,10 +4,10 @@ title: WSDCreateHttpAddress function
 author: windows-sdk-content
 description: Creates an IWSDHttpAddress object.
 old-location: ncd\wsdcreatehttpaddress.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 05a862e9-51db-442d-bdce-1209cb718b6f
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: WSDCreateHttpAddress, WSDCreateHttpAddress function, ncd.wsdcreatehttpaddress, wsdbase/WSDCreateHttpAddress
 ms.prod: windows
 ms.technology: windows-sdk

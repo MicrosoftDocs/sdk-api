@@ -4,10 +4,10 @@ title: WSCSetProviderInfo function
 author: windows-sdk-content
 description: Sets the data value for the specified information class for a layered service provider (LSP).
 old-location: winsock\wscsetproviderinfo.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 10eed3e6-d5a0-4ba4-964e-3d924a231afb
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: WSCSetProviderInfo, WSCSetProviderInfo function [Winsock], winsock.wscsetproviderinfo, ws2spi/WSCSetProviderInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,8 +104,7 @@ If no error occurs, <b>WSCSetProviderInfo</b> returns <b>ERROR_SUCCESS</b> (zero
 <tr>
 <td width="40%">
 <dl>
-<dt><b>
-								ERROR_CALL_NOT_IMPLEMENTED</b></dt>
+<dt><b>ERROR_CALL_NOT_IMPLEMENTED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -116,7 +115,7 @@ The call is not implemented. This error is returned if <b>ProviderInfoAudit</b> 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -127,7 +126,7 @@ One or more of the arguments is not in a valid part of the user address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -138,7 +137,7 @@ One or more of the arguments are invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -149,7 +148,7 @@ A nonrecoverable error occurred. This error is returned under several conditions
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -239,8 +238,7 @@ If an LSP does not have category set, it is considered to be in the All Other ca
 The <b>WSCSetProviderInfo</b> function can only be called by a user logged on as a member of the Administrators group. If <b>WSCSetProviderInfo</b> is called by a user that is not a member of the Administrators group, the function call will fail and <b>WSANO_RECOVERY</b> is returned in the <i>lpErrno</i> parameter. 
  This function can also fail because of user account control (UAC). If an application  that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to <b>requireAdministrator</b>. If the application on Windows Vista or Windows Server 2008 lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
 
-<div class="alert"><b>Note</b>  
-The TDI feature is deprecated and will be removed in future versions of Microsoft
+<div class="alert"><b>Note</b>  The TDI feature is deprecated and will be removed in future versions of Microsoft
     Windows. Depending on how you use TDI, use either the Winsock Kernel (WSK) or Windows Filtering Platform
     (WFP). For more information about WFP and WSK, see 
     

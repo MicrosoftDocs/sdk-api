@@ -7,7 +7,7 @@ old-location: menurc\insertmenu.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\insertmenu.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: InsertMenu, InsertMenu function [Menus and Other Resources], InsertMenuA, InsertMenuW, MF_BITMAP, MF_BYCOMMAND, MF_BYPOSITION, MF_CHECKED, MF_DISABLED, MF_ENABLED, MF_GRAYED, MF_MENUBARBREAK, MF_MENUBREAK, MF_OWNERDRAW, MF_POPUP, MF_SEPARATOR, MF_STRING, MF_UNCHECKED, _win32_InsertMenu, _win32_insertmenu_cpp, menurc.insertmenu, winui._win32_insertmenu, winuser/InsertMenu, winuser/InsertMenuA, winuser/InsertMenuW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 Inserts a new menu item into a menu, moving other items down the menu. 
-<div class="alert"><b>Note</b>  The <b>InsertMenu</b> function has been superseded by the <a href="https://msdn.microsoft.com/library/ms647988(v=VS.85).aspx">InsertMenuItem</a> function. You can still use <b>InsertMenu</b>, however, if you do not need any of the extended features of <b>InsertMenuItem</b>.
+<div class="alert"><b>Note</b>  The <b>InsertMenu</b> function has been superseded by the <a href="https://msdn.microsoft.com/en-us/library/ms647988(v=VS.85).aspx">InsertMenuItem</a> function. You can still use <b>InsertMenu</b>, however, if you do not need any of the extended features of <b>InsertMenuItem</b>.
 </div><div> </div>
 
 ## -parameters
@@ -141,7 +141,7 @@ Uses a bitmap as the menu item. The <i>lpNewItem</i> parameter contains a handle
 </dl>
 </td>
 <td width="60%">
-Places a check mark next to the menu item. If the application provides check-mark bitmaps (see <a href="https://msdn.microsoft.com/library/ms647998(v=VS.85).aspx">SetMenuItemBitmaps</a>), this flag displays the check-mark bitmap next to the menu item. 
+Places a check mark next to the menu item. If the application provides check-mark bitmaps (see <a href="https://msdn.microsoft.com/en-us/library/ms647998(v=VS.85).aspx">SetMenuItemBitmaps</a>), this flag displays the check-mark bitmap next to the menu item. 
 
 </td>
 </tr>
@@ -207,7 +207,7 @@ Places the item on a new line (for menu bars) or in a new column (for a drop-dow
 </dl>
 </td>
 <td width="60%">
-Specifies that the item is an owner-drawn item. Before the menu is displayed for the first time, the window that owns the menu receives a <a href="https://msdn.microsoft.com/library/Bb775925(v=VS.85).aspx">WM_MEASUREITEM</a> message to retrieve the width and height of the menu item. The <a href="https://msdn.microsoft.com/library/Bb775923(v=VS.85).aspx">WM_DRAWITEM</a> message is then sent to the window procedure of the owner window whenever the appearance of the menu item must be updated. 
+Specifies that the item is an owner-drawn item. Before the menu is displayed for the first time, the window that owns the menu receives a <a href="controls._win32_WM_MEASUREITEM">WM_MEASUREITEM</a> message to retrieve the width and height of the menu item. The <a href="controls._win32_WM_DRAWITEM">WM_DRAWITEM</a> message is then sent to the window procedure of the owner window whenever the appearance of the menu item must be updated. 
 
 </td>
 </tr>
@@ -253,7 +253,7 @@ Specifies that the menu item is a text string; the
 </dl>
 </td>
 <td width="60%">
-Does not place a check mark next to the menu item (default). If the application supplies check-mark bitmaps (see the <a href="https://msdn.microsoft.com/library/ms647998(v=VS.85).aspx">SetMenuItemBitmaps</a> function), this flag displays the clear bitmap next to the menu item. 
+Does not place a check mark next to the menu item (default). If the application supplies check-mark bitmaps (see the <a href="https://msdn.microsoft.com/en-us/library/ms647998(v=VS.85).aspx">SetMenuItemBitmaps</a> function), this flag displays the clear bitmap next to the menu item. 
 
 </td>
 </tr>
@@ -297,7 +297,7 @@ Contains a bitmap handle.
 </dl>
 </td>
 <td width="60%">
-Contains an application-supplied value that can be used to maintain additional data related to the menu item. The value is in the <b>itemData</b> member of the structure pointed to by the <i>lParam</i> parameter of the <a href="https://msdn.microsoft.com/library/Bb775925(v=VS.85).aspx">WM_MEASUREITEM</a> or <a href="https://msdn.microsoft.com/library/Bb775923(v=VS.85).aspx">WM_DRAWITEM</a> message sent when the menu item is created or its appearance is updated. 
+Contains an application-supplied value that can be used to maintain additional data related to the menu item. The value is in the <b>itemData</b> member of the structure pointed to by the <i>lParam</i> parameter of the <a href="controls._win32_WM_MEASUREITEM">WM_MEASUREITEM</a> or <a href="controls._win32_WM_DRAWITEM">WM_DRAWITEM</a> message sent when the menu item is created or its appearance is updated. 
 
 </td>
 </tr>
@@ -333,7 +333,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The application must call the <a href="https://msdn.microsoft.com/library/ms647633(v=VS.85).aspx">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window. 
+The application must call the <a href="https://msdn.microsoft.com/en-us/library/ms647633(v=VS.85).aspx">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window. 
 
 The following groups of flags cannot be used together: 
 
@@ -352,7 +352,7 @@ The following groups of flags cannot be used together:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647616(v=VS.85).aspx">AppendMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647616(v=VS.85).aspx">AppendMenu</a>
 
 
 
@@ -360,23 +360,23 @@ The following groups of flags cannot be used together:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647629(v=VS.85).aspx">DeleteMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647629(v=VS.85).aspx">DeleteMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647633(v=VS.85).aspx">DrawMenuBar</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647633(v=VS.85).aspx">DrawMenuBar</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647988(v=VS.85).aspx">InsertMenuItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647988(v=VS.85).aspx">InsertMenuItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647993(v=VS.85).aspx">ModifyMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647993(v=VS.85).aspx">ModifyMenu</a>
 
 
 
@@ -388,19 +388,19 @@ The following groups of flags cannot be used together:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647994(v=VS.85).aspx">RemoveMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647994(v=VS.85).aspx">RemoveMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647998(v=VS.85).aspx">SetMenuItemBitmaps</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647998(v=VS.85).aspx">SetMenuItemBitmaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775923(v=VS.85).aspx">WM_DRAWITEM</a>
+<a href="controls._win32_WM_DRAWITEM">WM_DRAWITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775925(v=VS.85).aspx">WM_MEASUREITEM</a>
+<a href="controls._win32_WM_MEASUREITEM">WM_MEASUREITEM</a>
  
 
  

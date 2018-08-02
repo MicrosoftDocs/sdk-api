@@ -7,7 +7,7 @@ old-location: mstv\iscanningtunerex_terminatecurrentscan.htm
 old-project: mstv
 ms.assetid: 5ab18d8a-1e79-45c2-a8b6-9c27ecb68de2
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],TerminateCurrentScan method, IScanningTunerEx.TerminateCurrentScan, IScanningTunerEx::TerminateCurrentScan, IScanningTunerExTerminateCurrentScan, TerminateCurrentScan, TerminateCurrentScan method [Microsoft TV Technologies], TerminateCurrentScan method [Microsoft TV Technologies],IScanningTunerEx interface, mstv.iscanningtunerex_terminatecurrentscan, tuner/IScanningTunerEx::TerminateCurrentScan
 ms.prod: windows
 ms.technology: windows-sdk

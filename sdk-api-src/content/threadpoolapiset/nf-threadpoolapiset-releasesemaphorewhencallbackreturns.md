@@ -4,10 +4,10 @@ title: ReleaseSemaphoreWhenCallbackReturns function
 author: windows-sdk-content
 description: Specifies the semaphore that the thread pool will release when the current callback completes.
 old-location: base\releasesemaphorewhencallbackreturns.htm
-old-project: procthread
+old-project: ProcThread
 ms.assetid: d5c8d6a0-6bb1-4ecb-aaba-665d81cb3d14
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: ReleaseSemaphoreWhenCallbackReturns, ReleaseSemaphoreWhenCallbackReturns function, base.releasesemaphorewhencallbackreturns, threadpoolapiset/ReleaseSemaphoreWhenCallbackReturns, winbase/ReleaseSemaphoreWhenCallbackReturns
 ms.prod: windows
 ms.technology: windows-sdk

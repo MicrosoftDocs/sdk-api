@@ -2,12 +2,12 @@
 UID: NS:webservices._WS_VOID_DESCRIPTION
 title: "_WS_VOID_DESCRIPTION"
 author: windows-sdk-content
-description: Specifies information about a field which is neither serialized nor deserialized. This is used with WS_VOID_TYPE and WS_NO_FIELD_MAPPING within a WS_FIELD_DESCRIPTION. This type description is only required when WS_FIELD_POINTER is not being used.
+description: Specifies information about a field which is neither serialized nor deserialized.
 old-location: wsw\ws_void_description.htm
 old-project: wsw
 ms.assetid: 92373e0d-3fe1-4486-8e79-deb0fc24cb63
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_VOID_DESCRIPTION, WS_VOID_DESCRIPTION structure [Web Services for Windows], _WS_VOID_DESCRIPTION, webservices/WS_VOID_DESCRIPTION, wsw.ws_void_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,18 +51,14 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies information about a field which is neither serialized nor
+Specifies information about a field which is neither serialized nor
                 deserialized.
             
 
-
-                This is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_VOID_TYPE</a> and <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
-                within a <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a>.
+This is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_VOID_TYPE</a> and <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>within a <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a>.
             
 
-
-                This type description is only required when <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_POINTER</a> is not
+This type description is only required when <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_POINTER</a> is not
                 being used.
             
 
@@ -74,7 +70,6 @@ req.product: Windows Address Book 5.0
 
 ### -field size
 
-
-                    The size of the field.
+The size of the field.
                 
 

@@ -83,10 +83,10 @@ The <a href="https://msdn.microsoft.com/library/ms684905(v=VS.85).aspx">CopyTiff
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86e1f59e-5abe-4734-a736-0ef71d8d3ce1">Delete</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684553(v=VS.85).aspx">Delete</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/86e1f59e-5abe-4734-a736-0ef71d8d3ce1">Delete</a> method deletes the specified fax message from the inbound fax archive.
+The <a href="https://msdn.microsoft.com/en-us/library/ms684553(v=VS.85).aspx">Delete</a> method deletes the specified fax message from the inbound fax archive.
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">Id</a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ed0fe64a-7c8e-4024-99ce-c79a665c6bf7">Pages</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687449(v=VS.85).aspx">Pages</a>
 
 
 </td>
@@ -174,14 +174,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/ed0fe64a-7c8e-4024-99ce-c79a665c6bf7">Pages</a> property is a value that indicates the total number of pages in the inbound fax message.
+The <a href="https://msdn.microsoft.com/en-us/library/ms687449(v=VS.85).aspx">Pages</a> property is a value that indicates the total number of pages in the inbound fax message.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/add90176-d267-4697-af18-f2283b3cbd28">Retries</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687457(v=VS.85).aspx">Retries</a>
 
 
 </td>
@@ -190,14 +190,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/add90176-d267-4697-af18-f2283b3cbd28">Retries</a> property is a value that indicates the number of times that the fax service attempted to route an inbound fax message after the initial routing attempt failed.
+The <a href="https://msdn.microsoft.com/en-us/library/ms687457(v=VS.85).aspx">Retries</a> property is a value that indicates the number of times that the fax service attempted to route an inbound fax message after the initial routing attempt failed.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/fe0391d3-d4f2-4fb4-a60a-6e04f1930355">RoutingInformation</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684850(v=VS.85).aspx">RoutingInformation</a>
 
 
 </td>
@@ -206,7 +206,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/fe0391d3-d4f2-4fb4-a60a-6e04f1930355">RoutingInformation</a> property is a null-terminated string that indicates inbound routing information for the fax message.
+The <a href="https://msdn.microsoft.com/en-us/library/ms684850(v=VS.85).aspx">RoutingInformation</a> property is a null-terminated string that indicates inbound routing information for the fax message.
 
 </td>
 </tr>
@@ -229,7 +229,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">Size<
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/22b2696c-6bcd-44e5-b595-c23824a953f2">TransmissionEnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684560(v=VS.85).aspx">TransmissionEnd</a>
 
 
 </td>
@@ -238,14 +238,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/22b2696c-6bcd-44e5-b595-c23824a953f2">TransmissionEnd</a> property indicates the time that the inbound fax message completed transmission.
+The <a href="https://msdn.microsoft.com/en-us/library/ms684560(v=VS.85).aspx">TransmissionEnd</a> property indicates the time that the inbound fax message completed transmission.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/22f07bdf-aaeb-4d15-b4e6-5027a86a4ca2">TransmissionStart</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684556(v=VS.85).aspx">TransmissionStart</a>
 
 
 </td>
@@ -254,7 +254,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/22f07bdf-aaeb-4d15-b4e6-5027a86a4ca2">TransmissionStart</a> property indicates the time that the inbound fax message began transmitting.
+The <a href="https://msdn.microsoft.com/en-us/library/ms684556(v=VS.85).aspx">TransmissionStart</a> property indicates the time that the inbound fax message began transmitting.
 
 </td>
 </tr>
@@ -281,7 +281,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn997387">TSID<
 
 
 
-To create a <b>FaxIncomingMessage</b> object in C++, call the <a href="https://msdn.microsoft.com/250f7040-30ab-45c5-8d6f-307c7d0b4d84">IFaxIncomingArchive::GetMessage</a> method or the <a href="https://msdn.microsoft.com/52846cf4-4e6b-43cc-a9ba-3e4820fc2aa8">IFaxIncomingMessageIterator::get_Message</a> method.
+To create a <b>FaxIncomingMessage</b> object in C++, call the <a href="https://msdn.microsoft.com/en-us/library/ms684936(v=VS.85).aspx">IFaxIncomingArchive::GetMessage</a> method or the <a href="https://msdn.microsoft.com/en-us/library/ms687461(v=VS.85).aspx">IFaxIncomingMessageIterator::get_Message</a> method.
 
 
 

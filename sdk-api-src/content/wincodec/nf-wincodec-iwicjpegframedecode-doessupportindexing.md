@@ -7,7 +7,7 @@ old-location: wic\iwicjpegframedecode_doessupportindexing.htm
 old-project: wic
 ms.assetid: 99486168-6BF9-40C2-B9D8-903A73AAD125
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: DoesSupportIndexing, DoesSupportIndexing method [Windows Imaging Component], DoesSupportIndexing method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],DoesSupportIndexing method, IWICJpegFrameDecode.DoesSupportIndexing, IWICJpegFrameDecode::DoesSupportIndexing, wic.iwicjpegframedecode_doessupportindexing, wincodec/IWICJpegFrameDecode::DoesSupportIndexing
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ True if indexing is supported; otherwise, false.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns S_OK on successful completion.
 

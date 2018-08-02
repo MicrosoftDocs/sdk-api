@@ -7,7 +7,7 @@ old-location: dshow\imediasample_setmediatype.htm
 old-project: DirectShow
 ms.assetid: 5be0997a-ae70-45fb-94e4-cb5e0a36d71a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IMediaSample interface [DirectShow],SetMediaType method, IMediaSample.SetMediaType, IMediaSample::SetMediaType, IMediaSampleSetMediaType, SetMediaType, SetMediaType method [DirectShow], SetMediaType method [DirectShow],IMediaSample interface, dshow.imediasample_setmediatype, strmif/IMediaSample::SetMediaType
 ms.prod: windows
 ms.technology: windows-sdk

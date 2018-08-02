@@ -7,7 +7,7 @@ old-location: wsw\ws_host_names.htm
 old-project: wsw
 ms.assetid: 9815eb1e-0ce6-4b56-9f9a-e3938d502b72
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_HOST_NAMES, WS_HOST_NAMES structure [Web Services for Windows], _WS_HOST_NAMES, webservices/WS_HOST_NAMES, wsw.ws_host_names
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                A structure containing a list of host names.
+A structure containing a list of host names.
             
 
 
@@ -63,8 +62,7 @@ req.product: Windows Address Book 5.0
 
 ### -field hostNames
 
-
-                    A list of host names.  Each host name can be a DNS name or
+A list of host names.  Each host name can be a DNS name or
                     an IPv4 or IPv6 address.  IPv6 addresses are enclosed
                     in brackets ('[' address ']').
                 
@@ -72,7 +70,6 @@ req.product: Windows Address Book 5.0
 
 ### -field hostNameCount
 
-
-                    The number of elements in the hostNames array.
+The number of elements in the hostNames array.
                 
 

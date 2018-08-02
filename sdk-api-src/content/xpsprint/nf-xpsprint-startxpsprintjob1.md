@@ -7,7 +7,7 @@ old-location: gdi\startxpsprintjob1.htm
 old-project: printdocs
 ms.assetid: 91D0BA4D-60A6-43F8-8BD3-9183DC6CD50D
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: StartXpsPrintJob1, StartXpsPrintJob1 function [Windows GDI], gdi.startxpsprintjob1, xpsprint/StartXpsPrintJob1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 
 <p class="CCE_Message">[StartXpsPrintJob1 is not supported and may be altered or unavailable in the future. ]
 
-Creates a print job for sending XPS document content to a printer.
-      This function creates a more efficient print path than <a href="https://msdn.microsoft.com/d982ae2e-c68f-4197-b419-22a63e61db8a">StartXpsPrintJob</a>.
+Creates a print job for sending XPS document content to a printer.This function creates a more efficient print path than <a href="https://msdn.microsoft.com/d982ae2e-c68f-4197-b419-22a63e61db8a">StartXpsPrintJob</a>.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: dshow\iamaudioinputmixer_put_pan.htm
 old-project: DirectShow
 ms.assetid: eb0528e0-81d0-45a3-831a-8cf3ff1232b6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Pan method, IAMAudioInputMixer.put_Pan, IAMAudioInputMixer::put_Pan, IAMAudioInputMixerput_Pan, dshow.iamaudioinputmixer_put_pan, put_Pan, put_Pan method [DirectShow], put_Pan method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Pan
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Specifies the pan level. Possible values range from –1.0 to 1.0, as follows.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

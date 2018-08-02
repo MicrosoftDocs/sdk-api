@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_canonicalization_property.htm
 old-project: wsw
 ms.assetid: 79f65ff2-4fa2-4808-b5cb-ad3aa6200260
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_CANONICALIZATION_PROPERTY, WS_XML_CANONICALIZATION_PROPERTY structure [Web Services for Windows], _WS_XML_CANONICALIZATION_PROPERTY, webservices/WS_XML_CANONICALIZATION_PROPERTY, wsw.ws_xml_canonicalization_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Specifies a setting that controls how XML canonicalization is done.
+Specifies a setting that controls how XML canonicalization is done.
       
 
 
@@ -63,15 +62,13 @@ req.product: Windows Address Book 5.0
 
 ### -field id
 
-
-          Identifies the <a href="https://msdn.microsoft.com/af96e1e7-d7e8-4e38-a8ae-f8f28cf0eda9">WS_XML_CANONICALIZATION_PROPERTY_ID</a>.
+Identifies the <a href="https://msdn.microsoft.com/af96e1e7-d7e8-4e38-a8ae-f8f28cf0eda9">WS_XML_CANONICALIZATION_PROPERTY_ID</a>.
         
 
 
 ### -field value
 
-
-            A pointer to the value to set.
+A pointer to the value to set.
             The pointer must have an alignment compatible with the type
             of the property.
         
@@ -79,7 +76,6 @@ req.product: Windows Address Book 5.0
 
 ### -field valueSize
 
-
-          The size in bytes of the memory pointed to by value.
+The size in bytes of the memory pointed to by value.
         
 

@@ -7,7 +7,7 @@ old-location: inputdev\get_nchittest_wparam.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_nchittest_wparam.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: GET_NCHITTEST_WPARAM, GET_NCHITTEST_WPARAM macro [Keyboard and Mouse Input], _win32_GET_NCHITTEST_WPARAM, _win32_get_nchittest_wparam_cpp, inputdev.get_nchittest_wparam, winui._win32_get_nchittest_wparam, winuser/GET_NCHITTEST_WPARAM
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The value to be converted.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645533(v=VS.85).aspx">Mouse Input Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input Overview</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: winmsg\timerproc.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreference\timerfunctions\timerproc.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: TimerProc, TimerProc callback, TimerProc callback function [Windows and Messages], _win32_TimerProc, _win32_timerproc_cpp, winmsg.timerproc, winui._win32_timerproc, winuser/TimerProc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-An application-defined callback function that processes <a href="https://msdn.microsoft.com/library/ms644902(v=VS.85).aspx">WM_TIMER</a> messages. The 
+An application-defined callback function that processes <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> messages. The 
 			<b>TIMERPROC</b> type defines a pointer to this callback function. <i>TimerProc</i> is a placeholder for the application-defined function name. 
 
 
@@ -103,7 +103,7 @@ The timer's identifier.
 
 Type: <b>UINT</b>
 
-The <a href="https://msdn.microsoft.com/library/ms644902(v=VS.85).aspx">WM_TIMER</a> message. 
+The <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> message. 
 
 
 ## -returns
@@ -124,7 +124,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644903(v=VS.85).aspx">KillTimer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644903(v=VS.85).aspx">KillTimer</a>
 
 
 
@@ -132,7 +132,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644906(v=VS.85).aspx">SetTimer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644906(v=VS.85).aspx">SetTimer</a>
 
 
 
@@ -140,7 +140,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644902(v=VS.85).aspx">WM_TIMER</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a>
  
 
  

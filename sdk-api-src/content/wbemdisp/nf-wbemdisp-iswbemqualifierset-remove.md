@@ -7,7 +7,7 @@ old-location: wmi\swbemqualifierset_remove.htm
 old-project: WmiSdk
 ms.assetid: 7d386858-efd1-42e6-9176-9cb4bcfc77d0
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemQualifierSet interface [Windows Management Instrumentation],Remove method, ISWbemQualifierSet.Remove, ISWbemQualifierSet::Remove, Remove, Remove method [Windows Management Instrumentation], Remove method [Windows Management Instrumentation],ISWbemQualifierSet interface, Remove method [Windows Management Instrumentation],SWbemQualifierSet object, SWbemQualifierSet object [Windows Management Instrumentation],Remove method, SWbemQualifierSet.Remove, _hmm_swbemqualifierset.remove, wmi.swbemqualifierset_remove
 ms.prod: windows
 ms.technology: windows-sdk

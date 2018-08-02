@@ -7,7 +7,7 @@ old-location: menurc\getphysicalcursorpos.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\getphysicalcursorpos.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: GetPhysicalCursorPos, GetPhysicalCursorPos function [Menus and Other Resources], _win32_GetPhysicalCursorPos, _win32_getphysicalcursorpos_cpp, menurc.getphysicalcursorpos, winui._win32_getphysicalcursorpos, winuser/GetPhysicalCursorPos
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ Type: <b>BOOL</b>
 
 
 
-For a description of the difference between logicial coordinates and physical coordinates, see <a href="https://msdn.microsoft.com/library/ms633536(v=VS.85).aspx">PhysicalToLogicalPoint</a>.
+For a description of the difference between logicial coordinates and physical coordinates, see <a href="https://msdn.microsoft.com/en-us/library/ms633536(v=VS.85).aspx">PhysicalToLogicalPoint</a>.
 
 
 
@@ -98,7 +98,7 @@ For a description of the difference between logicial coordinates and physical co
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648383(v=VS.85).aspx">ClipCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648383(v=VS.85).aspx">ClipCursor</a>
 
 
 
@@ -106,11 +106,11 @@ For a description of the difference between logicial coordinates and physical co
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648390(v=VS.85).aspx">GetCursorPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648390(v=VS.85).aspx">GetCursorPos</a>
 
 
 
@@ -118,23 +118,23 @@ For a description of the difference between logicial coordinates and physical co
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648405(v=VS.85).aspx">SetCaretPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648405(v=VS.85).aspx">SetCaretPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648393(v=VS.85).aspx">SetCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648393(v=VS.85).aspx">SetCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648394(v=VS.85).aspx">SetCursorPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648394(v=VS.85).aspx">SetCursorPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa969465(v=VS.85).aspx">SetPhysicalCursorPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa969465(v=VS.85).aspx">SetPhysicalCursorPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648396(v=VS.85).aspx">ShowCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648396(v=VS.85).aspx">ShowCursor</a>
  
 
  

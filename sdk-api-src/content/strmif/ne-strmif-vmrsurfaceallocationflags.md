@@ -7,7 +7,7 @@ old-location: dshow\vmrsurfaceallocationflags.htm
 old-project: DirectShow
 ms.assetid: 1f75b357-0ce0-4efe-b1a8-39200e6b3d1a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: AMAP_3D_TARGET, AMAP_ALLOW_SYSMEM, AMAP_DIRECTED_FLIP, AMAP_DXVA_TARGET, AMAP_FORCE_SYSMEM, AMAP_PIXELFORMAT_VALID, VMRSurfaceAllocationFlags, VMRSurfaceAllocationFlags enumeration [DirectShow], VMR_ALLOCATE_SURFACE_FLAGSEnumeration, dshow.vmrsurfaceallocationflags, strmif/AMAP_3D_TARGET, strmif/AMAP_ALLOW_SYSMEM, strmif/AMAP_DIRECTED_FLIP, strmif/AMAP_DXVA_TARGET, strmif/AMAP_FORCE_SYSMEM, strmif/AMAP_PIXELFORMAT_VALID, strmif/VMRSurfaceAllocationFlags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,15 +64,13 @@ The <b>VMRSurfaceAllocationFlags</b> enumeration is used with the <a href="https
 
 ### -field AMAP_PIXELFORMAT_VALID
 
-
-            Indicates that the <b>lpPxFmt</b> field contains valid data that should be used to create the DirectDraw surface.
+Indicates that the <b>lpPxFmt</b> field contains valid data that should be used to create the DirectDraw surface.
           
 
 
 ### -field AMAP_3D_TARGET
 
-
-            Indicates that the DirectDraw surface created should also be a Direct3D render target that is created with the <b>DDSCAPS_3DDEVICE</b> flag set.
+Indicates that the DirectDraw surface created should also be a Direct3D render target that is created with the <b>DDSCAPS_3DDEVICE</b> flag set.
           
 
 

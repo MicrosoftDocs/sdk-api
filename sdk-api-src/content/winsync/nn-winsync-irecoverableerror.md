@@ -7,7 +7,7 @@ old-location: winsync\irecoverableerror.htm
 old-project: winsync
 ms.assetid: a8b8a84a-6083-4696-bef1-46145a4d71c8
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IRecoverableError, IRecoverableError interface [Windows Sync], IRecoverableError interface [Windows Sync],described, winsync.irecoverableerror, winsync/IRecoverableError
 ms.prod: windows
 ms.technology: windows-sdk

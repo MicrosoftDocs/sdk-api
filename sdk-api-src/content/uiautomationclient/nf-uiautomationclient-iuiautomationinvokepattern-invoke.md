@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationInvokePattern_Invoke.htm
 old-project: WinAuto
 ms.assetid: dd04426c-edc5-4ee9-95ac-22f32fb14daa
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAutomationInvokePattern interface [Windows Accessibility],Invoke method, IUIAutomationInvokePattern.Invoke, IUIAutomationInvokePattern::Invoke, Invoke, Invoke method [Windows Accessibility], Invoke method [Windows Accessibility],IUIAutomationInvokePattern interface, uiauto.uiauto_IUIAutomationInvokePattern_Invoke, uiauto_IUIAutomationInvokePattern_Invoke, uiautomationclient/IUIAutomationInvokePattern::Invoke, winauto.uiauto_IUIAutomationInvokePattern_Invoke
 ms.prod: windows
 ms.technology: windows-sdk

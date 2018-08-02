@@ -7,7 +7,7 @@ old-location: winsat\iprovidewinsatvisuals.htm
 old-project: WinSAT
 ms.assetid: 9e8d2490-9d48-4512-b5f0-5c2f9cdeb287
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IProvideWinSATVisuals, IProvideWinSATVisuals interface [WinSAT], IProvideWinSATVisuals interface [WinSAT],described, winsat.iprovidewinsatvisuals, winsatcominterfacei/IProvideWinSATVisuals
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Retrieves elements that can be used in a user interface to graphically represent the WinSAT assessment.
 
-To retrieve this interface, call the <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function. Use __uuidof(CProvideWinSATVisuals) as the class identifier and __uuidof(IProvideWinSATVisuals) as the interface identifier.
+To retrieve this interface, call the <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function. Use __uuidof(CProvideWinSATVisuals) as the class identifier and __uuidof(IProvideWinSATVisuals) as the interface identifier.
 
 
 ## -inheritance

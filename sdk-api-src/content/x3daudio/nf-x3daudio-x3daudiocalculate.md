@@ -7,7 +7,7 @@ old-location: xaudio2\x3daudiocalculate.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.x3daudio.X3DAudioCalculate(const X3DAUDIO_HANDLE,const X3DAUDIO_LISTENER,const X3DAUDIO_EMITTER,UINT32,X3DAUDIO_DSP_SETTINGS@)
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: X3DAudioCalculate, X3DAudioCalculate function [XAudio2 Audio Mixing APIs], x3daudio/X3DAudioCalculate, xaudio2.x3daudiocalculate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,17 +62,17 @@ Calculates DSP settings with respect to 3D parameters.
 
 ### -param Instance [in]
 
-3D audio instance handle. Call <a href="https://msdn.microsoft.com/library/Ee419053(v=VS.85).aspx">X3DAudioInitialize</a> to get this handle.
+3D audio instance handle. Call <a href="https://msdn.microsoft.com/en-us/library/Ee419053(v=VS.85).aspx">X3DAudioInitialize</a> to get this handle.
 
 
 ### -param pListener [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/Ee419059(v=VS.85).aspx">X3DAUDIO_LISTENER</a> representing the point of reception.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419059(v=VS.85).aspx">X3DAUDIO_LISTENER</a> representing the point of reception.
 
 
 ### -param pEmitter [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/Ee419058(v=VS.85).aspx">X3DAUDIO_EMITTER</a> representing the sound source.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419058(v=VS.85).aspx">X3DAUDIO_EMITTER</a> representing the sound source.
 
 
 ### -param Flags [in]
@@ -130,7 +130,7 @@ Pointer to an <a href="https://msdn.microsoft.com/library/Ee419058(v=VS.85).aspx
 
 ### -param pDSPSettings [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/Ee419057(v=VS.85).aspx">X3DAUDIO_DSP_SETTINGS</a> structure that receives the calculation results.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419057(v=VS.85).aspx">X3DAUDIO_DSP_SETTINGS</a> structure that receives the calculation results.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: "_CRYPT_PASSWORD_CREDENTIALSW"
 author: windows-sdk-content
 description: Contains the user name and password credentials to be used in the CRYPT_CREDENTIALS structure as optional input to a remote object retrieval function such as CryptRetrieveObjectByUrl or CryptGetTimeValidObject.
 old-location: security\crypt_password_credentials.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 21461344-1080-4603-bda1-a92dfda68c15
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCRYPT_PASSWORD_CREDENTIALSW, CRYPT_PASSWORD_CREDENTIALS, CRYPT_PASSWORD_CREDENTIALS structure [Security], CRYPT_PASSWORD_CREDENTIALSA, CRYPT_PASSWORD_CREDENTIALSW, PCRYPT_PASSWORD_CREDENTIALS, PCRYPT_PASSWORD_CREDENTIALS structure pointer [Security], _CRYPT_PASSWORD_CREDENTIALSW, security.crypt_password_credentials, wincrypt/CRYPT_PASSWORD_CREDENTIALS, wincrypt/CRYPT_PASSWORD_CREDENTIALSA, wincrypt/CRYPT_PASSWORD_CREDENTIALSW, wincrypt/PCRYPT_PASSWORD_CREDENTIALS"
 ms.prod: windows
 ms.technology: windows-sdk

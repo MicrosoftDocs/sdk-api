@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2voicecallback.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IXAudio2VoiceCallback, IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs], IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],described, xaudio2.ixaudio2voicecallback, xaudio2/IXAudio2VoiceCallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,9 +52,9 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-The <b>IXAudio2VoiceCallback</b> interface contains methods that notify the client when certain events happen in a given <a href="https://msdn.microsoft.com/library/Ee415914(v=VS.85).aspx">IXAudio2SourceVoice</a>. 
+The <b>IXAudio2VoiceCallback</b> interface contains methods that notify the client when certain events happen in a given <a href="https://msdn.microsoft.com/en-us/library/Ee415914(v=VS.85).aspx">IXAudio2SourceVoice</a>. 
 
-This interface should be implemented by the XAudio2 client. XAudio2 calls these methods through an interface pointer provided by the client in the <a href="https://msdn.microsoft.com/library/Ee418607(v=VS.85).aspx">IXAudio2::CreateSourceVoice</a> method. Methods in this interface return void, rather than an HRESULT. 
+This interface should be implemented by the XAudio2 client. XAudio2 calls these methods through an interface pointer provided by the client in the <a href="https://msdn.microsoft.com/en-us/library/Ee418607(v=VS.85).aspx">IXAudio2::CreateSourceVoice</a> method. Methods in this interface return void, rather than an HRESULT. 
 
 
 See the <a href="https://msdn.microsoft.com/4fbd4229-f7ac-33b3-b4b7-f09150a60598">XAudio2 Callbacks</a> topic for restrictions on callback implementation.
@@ -68,7 +68,7 @@ See the <a href="https://msdn.microsoft.com/4fbd4229-f7ac-33b3-b4b7-f09150a60598
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418474(v=VS.85).aspx">OnBufferEnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418474(v=VS.85).aspx">OnBufferEnd</a>
 </td>
 <td align="left" width="63%">
 Called when the voice finishes processing a buffer. 
@@ -77,7 +77,7 @@ Called when the voice finishes processing a buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418475(v=VS.85).aspx">OnBufferStart</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418475(v=VS.85).aspx">OnBufferStart</a>
 </td>
 <td align="left" width="63%">
 Called when the voice is about to start processing a new audio buffer.
@@ -86,7 +86,7 @@ Called when the voice is about to start processing a new audio buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418476(v=VS.85).aspx">OnLoopEnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418476(v=VS.85).aspx">OnLoopEnd</a>
 </td>
 <td align="left" width="63%">
 Called when the voice reaches the end position of a loop.
@@ -95,7 +95,7 @@ Called when the voice reaches the end position of a loop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418477(v=VS.85).aspx">OnStreamEnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418477(v=VS.85).aspx">OnStreamEnd</a>
 </td>
 <td align="left" width="63%">
 Called when the voice has just finished playing a contiguous audio stream.
@@ -104,7 +104,7 @@ Called when the voice has just finished playing a contiguous audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418478(v=VS.85).aspx">OnVoiceError</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418478(v=VS.85).aspx">OnVoiceError</a>
 </td>
 <td align="left" width="63%">
 Called when a critical error occurs during voice processing.
@@ -113,7 +113,7 @@ Called when a critical error occurs during voice processing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418479(v=VS.85).aspx">OnVoiceProcessingPassEnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418479(v=VS.85).aspx">OnVoiceProcessingPassEnd</a>
 </td>
 <td align="left" width="63%">
 Called just after the processing pass for the voice ends.
@@ -122,7 +122,7 @@ Called just after the processing pass for the voice ends.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418480(v=VS.85).aspx">OnVoiceProcessingPassStart</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418480(v=VS.85).aspx">OnVoiceProcessingPassStart</a>
 </td>
 <td align="left" width="63%">
 Called during each processing pass for each voice, just before XAudio2 reads data from the voice's buffer queue.
@@ -142,7 +142,7 @@ The <b>IXAudio2VoiceCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418474(v=VS.85).aspx">OnBufferEnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418474(v=VS.85).aspx">OnBufferEnd</a>
 </td>
 <td align="left" width="63%">
 Called when the voice finishes processing a buffer. 
@@ -151,7 +151,7 @@ Called when the voice finishes processing a buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418475(v=VS.85).aspx">OnBufferStart</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418475(v=VS.85).aspx">OnBufferStart</a>
 </td>
 <td align="left" width="63%">
 Called when the voice is about to start processing a new audio buffer.
@@ -160,7 +160,7 @@ Called when the voice is about to start processing a new audio buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418476(v=VS.85).aspx">OnLoopEnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418476(v=VS.85).aspx">OnLoopEnd</a>
 </td>
 <td align="left" width="63%">
 Called when the voice reaches the end position of a loop.
@@ -169,7 +169,7 @@ Called when the voice reaches the end position of a loop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418477(v=VS.85).aspx">OnStreamEnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418477(v=VS.85).aspx">OnStreamEnd</a>
 </td>
 <td align="left" width="63%">
 Called when the voice has just finished playing a contiguous audio stream.
@@ -178,7 +178,7 @@ Called when the voice has just finished playing a contiguous audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418478(v=VS.85).aspx">OnVoiceError</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418478(v=VS.85).aspx">OnVoiceError</a>
 </td>
 <td align="left" width="63%">
 Called when a critical error occurs during voice processing.
@@ -187,7 +187,7 @@ Called when a critical error occurs during voice processing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418479(v=VS.85).aspx">OnVoiceProcessingPassEnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418479(v=VS.85).aspx">OnVoiceProcessingPassEnd</a>
 </td>
 <td align="left" width="63%">
 Called just after the processing pass for the voice ends.
@@ -196,7 +196,7 @@ Called just after the processing pass for the voice ends.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418480(v=VS.85).aspx">OnVoiceProcessingPassStart</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418480(v=VS.85).aspx">OnVoiceProcessingPassStart</a>
 </td>
 <td align="left" width="63%">
 Called during each processing pass for each voice, just before XAudio2 reads data from the voice's buffer queue.

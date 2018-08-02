@@ -7,7 +7,7 @@ old-location: menurc\stringcchgets.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchgets.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: StringCchGets, StringCchGets function [Menus and Other Resources], StringCchGetsA, StringCchGetsW, _shell_StringCchGets, _shell_stringcchgets_cpp, menurc.stringcchgets, strsafe/StringCchGets, strsafe/StringCchGetsA, strsafe/StringCchGetsW, winui._shell_stringcchgets
 ms.prod: windows
 ms.technology: windows-sdk
@@ -148,10 +148,9 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 
 
-<b>StringCchGets</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchGets</b>
-				always null-terminates a nonzero-length destination buffer.
+<b>StringCchGets</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchGets</b>always null-terminates a nonzero-length destination buffer.
 
-The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="https://msdn.microsoft.com/library/ms647538(v=VS.85).aspx">StringCchGetsEx</a> if you require the handling of null string pointer values.
+The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="https://msdn.microsoft.com/en-us/library/ms647538(v=VS.85).aspx">StringCchGetsEx</a> if you require the handling of null string pointer values.
 
 <b>StringCchGets</b> can be used in its generic form, or in its more specific forms. The data type of the string determines the form of this function that you should use, as shown in the following table.
 
@@ -191,11 +190,11 @@ The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647505(v=VS.85).aspx">StringCbGets</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647505(v=VS.85).aspx">StringCbGets</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647538(v=VS.85).aspx">StringCchGetsEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647538(v=VS.85).aspx">StringCchGetsEx</a>
  
 
  

@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # SLGetLicenseFileId function

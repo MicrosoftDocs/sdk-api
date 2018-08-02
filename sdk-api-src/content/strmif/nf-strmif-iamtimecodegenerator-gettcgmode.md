@@ -7,7 +7,7 @@ old-location: dshow\iamtimecodegenerator_gettcgmode.htm
 old-project: DirectShow
 ms.assetid: 76a754e3-4071-437a-bd98-99a94e2594a3
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetTCGMode, GetTCGMode method [DirectShow], GetTCGMode method [DirectShow],IAMTimecodeGenerator interface, IAMTimecodeGenerator interface [DirectShow],GetTCGMode method, IAMTimecodeGenerator.GetTCGMode, IAMTimecodeGenerator::GetTCGMode, IAMTimecodeGeneratorGetTCGMode, dshow.iamtimecodegenerator_gettcgmode, strmif/IAMTimecodeGenerator::GetTCGMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Timecode generator mode. Specify one of the following modes you want to get sett
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -104,11 +102,9 @@ If you specify ED_TCG_FRAMERATE in <i>Param</i>, this parameter retrieves one of
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -134,11 +130,9 @@ If you specify ED_TCG_REFERENCE_SOURCE in <i>Param</i>, this parameter retrieves
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -156,11 +150,9 @@ If you specify ED_TCG_SYNC_SOURCE in <i>Param</i>, this parameter retrieves one 
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -182,11 +174,9 @@ If you specify ED_TCG_TIMECODE_TYPE in <i>Param</i>, this parameter retrieves on
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

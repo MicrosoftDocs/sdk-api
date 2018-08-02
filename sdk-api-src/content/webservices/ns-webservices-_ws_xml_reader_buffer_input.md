@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_reader_buffer_input.htm
 old-project: wsw
 ms.assetid: 86277c29-d42f-4b6a-ba33-b836bef284e7
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_READER_BUFFER_INPUT, WS_XML_READER_BUFFER_INPUT structure [Web Services for Windows], _WS_XML_READER_BUFFER_INPUT, webservices/WS_XML_READER_BUFFER_INPUT, wsw.ws_xml_reader_buffer_input
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Specifies that the source of the xml input is a buffer.
+Specifies that the source of the xml input is a buffer.
       
 
 
@@ -63,21 +62,18 @@ req.product: Windows Address Book 5.0
 
 ### -field input
 
-
-          The base type for all types that derive from <a href="https://msdn.microsoft.com/1e7a708d-5dcf-44ec-b781-a34946cb2844">WS_XML_READER_INPUT</a>.
+The base type for all types that derive from <a href="https://msdn.microsoft.com/1e7a708d-5dcf-44ec-b781-a34946cb2844">WS_XML_READER_INPUT</a>.
         
 
 
 ### -field encodedData
 
-
-          A pointer to the bytes of data that comprise the encoded form of the xml.  The reader will not modify any of these bytes.
+A pointer to the bytes of data that comprise the encoded form of the xml.  The reader will not modify any of these bytes.
         
 
 
 ### -field encodedDataSize
 
-
-          The length of the encodedData.
+The length of the encodedData.
         
 

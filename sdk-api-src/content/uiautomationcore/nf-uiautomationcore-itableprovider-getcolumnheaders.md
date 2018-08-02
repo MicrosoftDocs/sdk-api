@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITableProvider_GetColumnHeaders.htm
 old-project: WinAuto
 ms.assetid: ee7a4e40-58eb-4400-96c2-0d2196837a24
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetColumnHeaders, GetColumnHeaders method [Windows Accessibility], GetColumnHeaders method [Windows Accessibility],ITableProvider interface, ITableProvider interface [Windows Accessibility],GetColumnHeaders method, ITableProvider.GetColumnHeaders, ITableProvider::GetColumnHeaders, uiauto.uiauto_ITableProvider_GetColumnHeaders, uiauto_ITableProvider_GetColumnHeaders, uiautomationcore/ITableProvider::GetColumnHeaders, winauto.uiauto_ITableProvider_GetColumnHeaders
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        Gets a collection of Microsoft UI Automation providers 
+Gets a collection of Microsoft UI Automation providers 
         that represents all the column headers in a table.        
         
 

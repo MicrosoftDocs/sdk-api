@@ -4,10 +4,10 @@ title: ITextFont2::GetUnderlinePositionMode
 author: windows-sdk-content
 description: Gets the underline position mode.
 old-location: controls\itextfont2_getunderlinepositionmode.htm
-old-project: controls
+old-project: Controls
 ms.assetid: cd7a45be-05b0-4a43-90c8-0fd8393794c0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetUnderlinePositionMode, GetUnderlinePositionMode method [Windows Controls], GetUnderlinePositionMode method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetUnderlinePositionMode method, ITextFont2.GetUnderlinePositionMode, ITextFont2::GetUnderlinePositionMode, controls.itextfont2_getunderlinepositionmode, tom/ITextFont2::GetUnderlinePositionMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,9 @@ Type: <b>long*</b>
 
 The underline position mode. It can be one of the following values.
 
-<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomUnderlinePositionAuto</a>
-<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomUnderlinePositionBelow</a>
-<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomUnderlinePositionAbove</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomUnderlinePositionAuto</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomUnderlinePositionBelow</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomUnderlinePositionAbove</a>
 
 ## -returns
 

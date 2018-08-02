@@ -4,10 +4,10 @@ title: TSPI_lineUnhold function
 author: windows-sdk-content
 description: The TSPI_lineUnhold function retrieves the specified held call.
 old-location: tspi\tspi_lineunhold.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 4719c399-0dce-4aa2-9b6e-a84ad13f9228
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: TSPI_lineUnhold, TSPI_lineUnhold function [TAPI 2.2], _tspi_tspi_lineunhold, tspi.tspi_lineunhold, tspi/TSPI_lineUnhold
 ms.prod: windows
 ms.technology: windows-sdk

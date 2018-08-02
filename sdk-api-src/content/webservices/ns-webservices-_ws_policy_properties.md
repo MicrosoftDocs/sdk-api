@@ -7,7 +7,7 @@ old-location: wsw\ws_policy_properties.htm
 old-project: wsw
 ms.assetid: e03f94d9-aeeb-40df-a367-c80e831125e8
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_POLICY_PROPERTIES, WS_POLICY_PROPERTIES structure [Web Services for Windows], _WS_POLICY_PROPERTIES, webservices/WS_POLICY_PROPERTIES, wsw.ws_policy_properties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies a set of <a href="https://msdn.microsoft.com/a897eb6c-d527-46ec-a710-252679001185">WS_POLICY_PROPERTY</a> structures.
+Specifies a set of <a href="https://msdn.microsoft.com/a897eb6c-d527-46ec-a710-252679001185">WS_POLICY_PROPERTY</a> structures.
             
 
 
@@ -63,8 +62,7 @@ req.product: Windows Address Book 5.0
 
 ### -field properties
 
-
-                    An array of properties.  The number of elements in the array is specified
+An array of properties.  The number of elements in the array is specified
                     using the propertyCount parameter.  This field may be <b>NULL</b> if the propertyCount
                     is 0.
                 
@@ -72,7 +70,6 @@ req.product: Windows Address Book 5.0
 
 ### -field propertyCount
 
-
-                    The number of elements in the properties array.
+The number of elements in the properties array.
                 
 

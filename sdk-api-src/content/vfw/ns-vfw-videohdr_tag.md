@@ -7,7 +7,7 @@ old-location: multimedia\videohdr.htm
 old-project: Multimedia
 ms.assetid: 81e4dded-7ba1-40cf-bc16-20524b70a28d
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPVIDEOHDR, *PVIDEOHDR, LPVIDEOHDR, LPVIDEOHDR structure pointer [Windows Multimedia], PVIDEOHDR, PVIDEOHDR structure pointer [Windows Multimedia], VIDEOHDR, VIDEOHDR structure [Windows Multimedia], _win32_VIDEOHDR_str, multimedia.videohdr, vfw/LPVIDEOHDR, vfw/PVIDEOHDR, vfw/VIDEOHDR, videohdr_tag"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,36 +64,31 @@ The <b>VIDEOHDR</b> structure is used by the <a href="https://msdn.microsoft.com
 
 ### -field lpData
 
-
-            Pointer to locked data buffer.
+Pointer to locked data buffer.
           
 
 
 ### -field dwBufferLength
 
-
-            Length of data buffer.
+Length of data buffer.
           
 
 
 ### -field dwBytesUsed
 
-
-            Bytes actually used.
+Bytes actually used.
           
 
 
 ### -field dwTimeCaptured
 
-
-            Milliseconds from start of stream.
+Milliseconds from start of stream.
           
 
 
 ### -field dwUser
 
-
-            User-defined data.
+User-defined data.
           
 
 
@@ -128,8 +123,7 @@ The flags are defined as follows.
 
 ### -field dwReserved
 
-
-            Reserved for driver.
+Reserved for driver.
           
 
 

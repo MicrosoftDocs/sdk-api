@@ -7,7 +7,7 @@ old-location: mstv\ieslicenserenewalresultevent_isrenewalsuccessful.htm
 old-project: mstv
 ms.assetid: 0c57e4e4-ee93-4e86-b1f8-eed5dd5aa931
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IESLicenseRenewalResultEvent interface [DirectShow],IsRenewalSuccessful method, IESLicenseRenewalResultEvent.IsRenewalSuccessful, IESLicenseRenewalResultEvent::IsRenewalSuccessful, IsRenewalSuccessful, IsRenewalSuccessful method [DirectShow], IsRenewalSuccessful method [DirectShow],IESLicenseRenewalResultEvent interface, mstv.ieslicenserenewalresultevent_isrenewalsuccessful, tuner/IESLicenseRenewalResultEvent::IsRenewalSuccessful
 ms.prod: windows
 ms.technology: windows-sdk

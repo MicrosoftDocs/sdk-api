@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanagereventhandler2.htm
 old-project: UIAnimation
 ms.assetid: 3D3DAC6C-6904-4962-BB17-18FA97678834
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationManagerEventHandler2, IUIAnimationManagerEventHandler2 interface [Windows Animation], IUIAnimationManagerEventHandler2 interface [Windows Animation],described, uianimation.iuianimationmanagereventhandler2, uianimation/IUIAnimationManagerEventHandler2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Defines a method for handling updates to an <a href="https://msdn.microsoft.com/BD7DAD23-2A7D-4EE7-9BCF-8380F928674D">animation manager</a>.
+Defines a method for handling updates to an <a href="https://msdn.microsoft.com/BD7DAD23-2A7D-4EE7-9BCF-8380F928674D">animation manager</a>.
 
 
 ## -inheritance
@@ -75,8 +74,7 @@ The <b>IUIAnimationManagerEventHandler2</b> interface has these methods.
 <a href="https://msdn.microsoft.com/398A52B3-E7FA-466E-BCED-0A6E91633CF7">IUIAnimationManager2::OnManagerStatusChanged</a>
 </td>
 <td align="left" width="63%">
-
-      Handles status changes to an <a href="https://msdn.microsoft.com/BD7DAD23-2A7D-4EE7-9BCF-8380F928674D">animation manager</a>.
+Handles status changes to an <a href="https://msdn.microsoft.com/BD7DAD23-2A7D-4EE7-9BCF-8380F928674D">animation manager</a>.
 
 </td>
 </tr>

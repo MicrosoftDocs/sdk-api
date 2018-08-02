@@ -7,7 +7,7 @@ old-location: wsw\ws_abort_listener_callback.htm
 old-project: wsw
 ms.assetid: 6105641e-72de-4826-a54d-23e877f0e6d9
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ABORT_LISTENER_CALLBACK, WS_ABORT_LISTENER_CALLBACK callback, WS_ABORT_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_ABORT_LISTENER_CALLBACK, wsw.ws_abort_listener_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,16 +63,14 @@ Handles the <a href="https://msdn.microsoft.com/894a325b-53ac-4f45-ac24-87ed3a40
 
 ### -param *listenerInstance [in]
 
-
-                    The pointer to the state specific to this listener instance,
+The pointer to the state specific to this listener instance,
                     as created by the <a href="https://msdn.microsoft.com/2d8e476d-dc68-44b4-b53b-be440a32efda">WS_CREATE_LISTENER_CALLBACK</a>.
                 
 
 
 ### -param *error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -92,8 +90,7 @@ Handles the <a href="https://msdn.microsoft.com/894a325b-53ac-4f45-ac24-87ed3a40
 </dl>
 </td>
 <td width="60%">
-
-                    The listener was in an inappropriate state.
+The listener was in an inappropriate state.
                 
 
 </td>
@@ -108,8 +105,7 @@ Handles the <a href="https://msdn.microsoft.com/894a325b-53ac-4f45-ac24-87ed3a40
 
 
 
-
-                See <a href="https://msdn.microsoft.com/894a325b-53ac-4f45-ac24-87ed3a40b03d">WsAbortListener</a> for information about the contract
+See <a href="https://msdn.microsoft.com/894a325b-53ac-4f45-ac24-87ed3a40b03d">WsAbortListener</a> for information about the contract
                 of this API.
             
 

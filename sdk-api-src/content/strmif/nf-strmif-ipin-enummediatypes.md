@@ -7,7 +7,7 @@ old-location: dshow\ipin_enummediatypes.htm
 old-project: DirectShow
 ms.assetid: 288be4db-5236-40e5-bd92-d95b1bfb86fa
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: EnumMediaTypes, EnumMediaTypes method [DirectShow], EnumMediaTypes method [DirectShow],IPin interface, IPin interface [DirectShow],EnumMediaTypes method, IPin.EnumMediaTypes, IPin::EnumMediaTypes, IPinEnumMediaTypes, dshow.ipin_enummediatypes, strmif/IPin::EnumMediaTypes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ The <b>EnumMediaTypes</b> method enumerates the pin's preferred media types.
 
 ### -param ppEnum [out]
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/e0021e27-0e08-4d07-9610-08a9b945ae34">IEnumMediaTypes</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/e0021e27-0e08-4d07-9610-08a9b945ae34">IEnumMediaTypes</a> interface. The caller must release the interface.
           
 
 

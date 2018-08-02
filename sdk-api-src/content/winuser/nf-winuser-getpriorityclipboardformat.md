@@ -7,7 +7,7 @@ old-location: dataxchg\getpriorityclipboardformat.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getpriorityclipboardformat.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/29/2018
 ms.keywords: GetPriorityClipboardFormat, GetPriorityClipboardFormat function [Data Exchange], _win32_GetPriorityClipboardFormat, _win32_getpriorityclipboardformat_cpp, dataxchg.getpriorityclipboardformat, winui._win32_getpriorityclipboardformat, winuser/GetPriorityClipboardFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ If the function succeeds, the return value is the first clipboard format in the 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
 
 
 
@@ -99,19 +99,19 @@ If the function succeeds, the return value is the first clipboard format in the 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649036(v=VS.85).aspx">CountClipboardFormats</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649036(v=VS.85).aspx">CountClipboardFormats</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649038(v=VS.85).aspx">EnumClipboardFormats</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649038(v=VS.85).aspx">EnumClipboardFormats</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649040(v=VS.85).aspx">GetClipboardFormatName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649040(v=VS.85).aspx">GetClipboardFormatName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649047(v=VS.85).aspx">IsClipboardFormatAvailable</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649047(v=VS.85).aspx">IsClipboardFormatAvailable</a>
 
 
 
@@ -119,7 +119,7 @@ If the function succeeds, the return value is the first clipboard format in the 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649049(v=VS.85).aspx">RegisterClipboardFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649049(v=VS.85).aspx">RegisterClipboardFormat</a>
  
 
  

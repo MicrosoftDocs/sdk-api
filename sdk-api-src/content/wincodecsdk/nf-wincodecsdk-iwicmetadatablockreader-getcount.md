@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatablockreader_getcount.htm
 old-project: wic
 ms.assetid: 212e2376-9fad-4bfc-8883-ce89d05c35e6
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetCount, GetCount method [Windows Imaging Component], GetCount method [Windows Imaging Component],IWICMetadataBlockReader interface, IWICMetadataBlockReader interface [Windows Imaging Component],GetCount method, IWICMetadataBlockReader.GetCount, IWICMetadataBlockReader::GetCount, _wic_codec_iwicmetadatablockreader_getcount, wic._wic_codec_iwicmetadatablockreader_getcount, wincodecsdk/IWICMetadataBlockReader::GetCount
 ms.prod: windows
 ms.technology: windows-sdk

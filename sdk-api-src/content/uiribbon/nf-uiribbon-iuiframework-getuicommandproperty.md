@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiframework_getuicommandproperty.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\getuicommandproperty.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: GetUICommandProperty, GetUICommandProperty method [Windows Ribbon], GetUICommandProperty method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],GetUICommandProperty method, IUIFramework.GetUICommandProperty, IUIFramework::GetUICommandProperty, scenicintent_IUIFramework_GetUICommandProperty, uiribbon/IUIFramework::GetUICommandProperty, windowsribbon.windowsribbon_iuiframework_getuicommandproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-
-			Retrieves a command property, value, or state.
+Retrieves a command property, value, or state.
 		
 
 
@@ -65,8 +64,7 @@ req.product: Windows UI
 
 Type: <b>UINT32</b>
 
-
-					The ID for the Command, which is specified in the Markup resource file.
+The ID for the Command, which is specified in the Markup resource file.
 				
 
 
@@ -74,8 +72,7 @@ Type: <b>UINT32</b>
 
 Type: <b>REFPROPERTYKEY</b>
 
-
-					The property key of the command property, value, or state.
+The property key of the command property, value, or state.
 				
 
 
@@ -83,8 +80,7 @@ Type: <b>REFPROPERTYKEY</b>
 
 Type: <b>PROPVARIANT*</b>
 
-
-					When this method returns, contains the property, value, or state.
+When this method returns, contains the property, value, or state.
 				
 
 
@@ -104,8 +100,7 @@ Returns S_OK if successful; otherwise, an error value from the following list.
 </tr>
 <tr>
 <td>HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)</td>
-<td>
-					The property, value, or state does not support <b>IUIFramework::GetUICommandProperty</b>. 
+<td>The property, value, or state does not support <b>IUIFramework::GetUICommandProperty</b>. 
 					
 				</td>
 </tr>
@@ -124,11 +119,11 @@ Returns S_OK if successful; otherwise, an error value from the following list.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371467(v=VS.85).aspx">IUIFramework</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371467(v=VS.85).aspx">IUIFramework</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
  
 
  

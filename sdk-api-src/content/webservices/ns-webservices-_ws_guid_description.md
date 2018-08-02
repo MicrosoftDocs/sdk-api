@@ -7,7 +7,7 @@ old-location: wsw\ws_guid_description.htm
 old-project: wsw
 ms.assetid: e0a98163-66c3-4b6d-a91c-f143b3aad864
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_GUID_DESCRIPTION, WS_GUID_DESCRIPTION structure [Web Services for Windows], _WS_GUID_DESCRIPTION, webservices/WS_GUID_DESCRIPTION, wsw.ws_guid_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                An optional type description used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_GUID_TYPE</a> to specify constraints on the set of values
+An optional type description used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_GUID_TYPE</a> to specify constraints on the set of values
                 which can be deserialized.
             
 
@@ -64,7 +63,6 @@ req.product: Windows Address Book 5.0
 
 ### -field value
 
-
-                    The required value.
+The required value.
                 
 

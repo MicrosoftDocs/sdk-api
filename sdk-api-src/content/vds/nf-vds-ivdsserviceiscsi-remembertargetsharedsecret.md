@@ -4,10 +4,10 @@ title: IVdsServiceIscsi::RememberTargetSharedSecret
 author: windows-sdk-content
 description: Communicates the CHAP shared secret of a target to the initiator service. This shared secret is used during target login when the target authenticates the initiator.
 old-location: base\ivdsserviceiscsi_remembertargetsharedsecret.htm
-old-project: vds
+old-project: VDS
 ms.assetid: fefe37aa-48c8-4ff4-b302-c6e95c1ffa5e
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],RememberTargetSharedSecret method, IVdsServiceIscsi.RememberTargetSharedSecret, IVdsServiceIscsi::RememberTargetSharedSecret, RememberTargetSharedSecret, RememberTargetSharedSecret method [VDS], RememberTargetSharedSecret method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_remembertargetsharedsecret, vds/IVdsServiceIscsi::RememberTargetSharedSecret
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ The <b>VDS_OBJECT_ID</b> of the target that has the specified shared secret. Thi
 
 ### -param pTargetSharedSecret [in]
 
-
-      The address of a <a href="https://msdn.microsoft.com/eab1e2f4-b14e-4336-9b83-5dd7089da2d8">VDS_ISCSI_SHARED_SECRET</a> structure 
+The address of a <a href="https://msdn.microsoft.com/eab1e2f4-b14e-4336-9b83-5dd7089da2d8">VDS_ISCSI_SHARED_SECRET</a> structure 
       that contains the CHAP shared secret.
 
 
@@ -79,7 +78,7 @@ The <b>VDS_OBJECT_ID</b> of the target that has the specified shared secret. Thi
 
 
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/en-us/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -105,8 +104,7 @@ The shared secret  was remembered successfully.
 </dl>
 </td>
 <td width="60%">
-
-        VDS failed to initialize. If an application calls this method before the service finishes initializing, the 
+VDS failed to initialize. If an application calls this method before the service finishes initializing, the 
         method is blocked until the initialization completes. If the initialization fails, this error is returned.
 
 </td>

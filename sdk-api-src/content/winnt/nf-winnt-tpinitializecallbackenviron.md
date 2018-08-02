@@ -4,10 +4,10 @@ title: TpInitializeCallbackEnviron function
 author: windows-sdk-content
 description: Initializes a callback environment for the thread pool.
 old-location: base\tpinitializecallbackenviron.htm
-old-project: procthread
+old-project: ProcThread
 ms.assetid: 4602CB19-D8C0-460E-A853-8DDECE643A76
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: TpInitializeCallbackEnviron, TpInitializeCallbackEnviron function, base.tpinitializecallbackenviron, winnt/TpInitializeCallbackEnviron
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,8 +109,7 @@ The thread pool callback environment is subject to default behaviors that can be
 </li>
 </ul>
 Call
-<b>TpInitializeCallbackEnviron</b>
-to create a callback environment that can be modified. Call <a href="https://msdn.microsoft.com/B0925491-73FE-4342-9E66-E5F6344353FB">TpDestroyCallbackEnviron</a> to destroy the callback environment.
+<b>TpInitializeCallbackEnviron</b>to create a callback environment that can be modified. Call <a href="https://msdn.microsoft.com/B0925491-73FE-4342-9E66-E5F6344353FB">TpDestroyCallbackEnviron</a> to destroy the callback environment.
 
 This function is implemented as an inline function.
 

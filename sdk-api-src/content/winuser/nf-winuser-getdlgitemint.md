@@ -7,7 +7,7 @@ old-location: dlgbox\getdlgitemint.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getdlgitemint.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/29/2018
 ms.keywords: GetDlgItemInt, GetDlgItemInt function [Dialog Boxes], _win32_GetDlgItemInt, _win32_getdlgitemint_cpp, dlgbox.getdlgitemint, winui._win32_getdlgitemint, winuser/GetDlgItemInt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,16 +113,14 @@ To get extended error information, call <a href="https://msdn.microsoft.com/d852
 
 
 
-The <b>GetDlgItemInt</b> function retrieves the text of the specified control by sending the control a <a href="https://msdn.microsoft.com/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a> message. The function translates the retrieved text by stripping any extra spaces at the beginning of the text and then converting the decimal digits. The function stops translating when it reaches the end of the text or encounters a nonnumeric character. 
+The <b>GetDlgItemInt</b> function retrieves the text of the specified control by sending the control a <a href="https://msdn.microsoft.com/en-us/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a> message. The function translates the retrieved text by stripping any extra spaces at the beginning of the text and then converting the decimal digits. The function stops translating when it reaches the end of the text or encounters a nonnumeric character. 
 
 The <b>GetDlgItemInt</b> function returns zero if the translated value is greater than <b>INT_MAX</b> (for signed numbers) or <b>UINT_MAX</b> (for unsigned numbers). 
 
 
 #### Examples
 
-
-			
-			For an example, see <a href="https://msdn.microsoft.com/library/ms644996(v=VS.85).aspx">Creating a Modeless Dialog Box</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v=VS.85).aspx">Creating a Modeless Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -137,19 +135,19 @@ The <b>GetDlgItemInt</b> function returns zero if the translated value is greate
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645478(v=VS.85).aspx">GetDlgCtrlID</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645478(v=VS.85).aspx">GetDlgCtrlID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645481(v=VS.85).aspx">GetDlgItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645481(v=VS.85).aspx">GetDlgItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645489(v=VS.85).aspx">GetDlgItemText</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645489(v=VS.85).aspx">GetDlgItemText</a>
 
 
 
@@ -157,7 +155,7 @@ The <b>GetDlgItemInt</b> function returns zero if the translated value is greate
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645518(v=VS.85).aspx">SetDlgItemInt</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645518(v=VS.85).aspx">SetDlgItemInt</a>
  
 
  

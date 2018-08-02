@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_setproxysettings.htm
 old-project: WMP
 ms.assetid: 3ce07bf8-8521-4240-9859-3bf790ccbf48
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],setProxySettings method, IWMPNetwork.setProxySettings, IWMPNetwork::setProxySettings, IWMPNetworksetProxySettings, setProxySettings, setProxySettings method [Windows Media Player], setProxySettings method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_setproxysettings, wmp/IWMPNetwork::setProxySettings
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,11 +73,9 @@ The <b>setProxySettings</b> method specifies the proxy setting for a given proto
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

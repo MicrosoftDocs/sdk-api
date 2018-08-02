@@ -97,7 +97,7 @@ This function does not flush encrypted files. If <i>hFile</i> is a handle to an 
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
 
 
 

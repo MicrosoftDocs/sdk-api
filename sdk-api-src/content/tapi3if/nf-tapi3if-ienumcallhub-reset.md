@@ -4,10 +4,10 @@ title: IEnumCallHub::Reset
 author: windows-sdk-content
 description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumcallhub_reset.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 7e1c671b-ba2c-4ac2-ba3e-7a344d0834a4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: IEnumCallHub interface [TAPI 2.2],Reset method, IEnumCallHub.Reset, IEnumCallHub::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumCallHub interface, _tapi3_ienumcallhub_reset, tapi3.ienumcallhub_reset, tapi3if/IEnumCallHub::Reset
 ms.prod: windows
 ms.technology: windows-sdk

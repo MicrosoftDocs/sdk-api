@@ -4,10 +4,10 @@ title: WINTRUST_CATALOG_INFO_
 author: windows-sdk-content
 description: The WINTRUST_CATALOG_INFO structure is used when calling WinVerifyTrust to verify a member of a Microsoft catalog.
 old-location: security\wintrust_catalog_info.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 5d095e0f-c8c9-4717-b23a-985737b78431
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PWINTRUST_CATALOG_INFO, PWINTRUST_CATALOG_INFO, PWINTRUST_CATALOG_INFO structure pointer [Security], WINTRUST_CATALOG_INFO, WINTRUST_CATALOG_INFO structure [Security], WINTRUST_CATALOG_INFO_, _win32_wintrust_catalog_info, security.wintrust_catalog_info, wintrust/PWINTRUST_CATALOG_INFO, wintrust/WINTRUST_CATALOG_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The <b>WINTRUST_CATALOG_INFO</b> structure is used when calling 
+The <b>WINTRUST_CATALOG_INFO</b> structure is used when calling 
 <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> to verify a member of a Microsoft catalog.
 
 

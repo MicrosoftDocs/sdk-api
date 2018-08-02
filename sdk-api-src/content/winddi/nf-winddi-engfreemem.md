@@ -7,7 +7,7 @@ old-location: display\engfreemem.htm
 old-project: display
 ms.assetid: 04428d7e-4150-4e68-a660-0a9e246c82ae
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: EngFreeMem, EngFreeMem function [Display Devices], display.engfreemem, gdifncs_4479237b-46a6-40a1-a9ad-dd1cd0a4c4bb.xml, winddi/EngFreeMem
 ms.prod: windows
 ms.technology: windows-sdk

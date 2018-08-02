@@ -7,7 +7,7 @@ old-location: wsw\ws_operation_cancel_callback.htm
 old-project: wsw
 ms.assetid: 177f9abb-861d-42a9-8044-25076b026f1d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_OPERATION_CANCEL_CALLBACK, WS_OPERATION_CANCEL_CALLBACK callback, WS_OPERATION_CANCEL_CALLBACK callback function [Web Services for Windows], webservices/WS_OPERATION_CANCEL_CALLBACK, wsw.ws_operation_cancel_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,15 +63,13 @@ Gives notification of the cancellation of an
 
 ### -param reason [in]
 
-
-                    Specifies the reason for which the call back is called.
+Specifies the reason for which the call back is called.
                 
 
 
 ### -param *state [in]
 
-
-                    A reference to the application defined state registered with the callback. 
+A reference to the application defined state registered with the callback. 
                 
 
 
@@ -88,8 +86,7 @@ This callback function does not return a value.
 
 
 
-
-                See <a href="https://msdn.microsoft.com/3e456814-f70f-47ab-b866-f0b73d5cd35e">WsRegisterOperationForCancel</a> for details.
+See <a href="https://msdn.microsoft.com/3e456814-f70f-47ab-b866-f0b73d5cd35e">WsRegisterOperationForCancel</a> for details.
             
 
 

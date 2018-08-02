@@ -4,10 +4,10 @@ title: ITextSelection::EndKey
 author: windows-sdk-content
 description: Mimics the functionality of the End key.
 old-location: controls\ITextSelection_EndKey.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\endkey.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: EndKey, EndKey method [Windows Controls], EndKey method [Windows Controls],ITextSelection interface, ITextSelection interface [Windows Controls],EndKey method, ITextSelection.EndKey, ITextSelection::EndKey, _win32_ITextSelection_EndKey, _win32_ITextSelection_EndKey_cpp, controls.ITextSelection_EndKey, controls._win32_ITextSelection_EndKey, tom/ITextSelection::EndKey, tomColumn, tomLine, tomRow, tomStory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -181,11 +181,10 @@ Failure for some other reason.
 
 
 
-
-			Setting <i>Extend</i> to <b>tomExtend</b> (or nonzero) corresponds to the Shift key being pressed. Setting <i>Unit</i> to <b>tomLine</b> corresponds to the Ctrl key not being pressed.  Setting <i>Unit</i> to <b>tomStory</b> to Ctrl being pressed. The <i>pDelta</i> parameters receives the number of characters that the insertion point or active end is moved.
+Setting <i>Extend</i> to <b>tomExtend</b> (or nonzero) corresponds to the Shift key being pressed. Setting <i>Unit</i> to <b>tomLine</b> corresponds to the Ctrl key not being pressed.  Setting <i>Unit</i> to <b>tomStory</b> to Ctrl being pressed. The <i>pDelta</i> parameters receives the number of characters that the insertion point or active end is moved.
 			
 
-The <a href="https://msdn.microsoft.com/library/Bb774044(v=VS.85).aspx">ITextSelection::HomeKey</a> and <b>ITextSelection::EndKey</b> methods are used to mimic the standard Home/End key behavior.
+The <a href="https://msdn.microsoft.com/en-us/library/Bb774044(v=VS.85).aspx">ITextSelection::HomeKey</a> and <b>ITextSelection::EndKey</b> methods are used to mimic the standard Home/End key behavior.
 
 The <b>tomLine</b> value mimics the Home or End key behavior 
 				<i>without</i> the Ctrl key pressed, while <b>tomStory</b> mimics the behavior 
@@ -196,11 +195,11 @@ The <b>tomLine</b> value mimics the Home or End key behavior
 				<code>EndKey(tomStory)</code> converts the selection into an insertion point at the end of the associated story, while <code>EndKey(tomStory, tomExtend)</code> moves the active end of the selection to the end of the story and leaves the other end where it was.
 
 The 
-				<a href="https://msdn.microsoft.com/library/Bb774044(v=VS.85).aspx">HomeKey</a> and <b>EndKey</b> methods are logical methods like the <b>Move*</b> methods, rather than directional methods. Thus, they depend on the language that is involved. For example, in Arabic text, 
+				<a href="https://msdn.microsoft.com/en-us/library/Bb774044(v=VS.85).aspx">HomeKey</a> and <b>EndKey</b> methods are logical methods like the <b>Move*</b> methods, rather than directional methods. Thus, they depend on the language that is involved. For example, in Arabic text, 
 				<b>HomeKey</b> moves to the right end of a line, whereas in English text, it moves to the left. Thus, 
-				<b>HomeKey</b> and <b>EndKey</b> are different than the <a href="https://msdn.microsoft.com/library/Bb774074(v=VS.85).aspx">MoveLeft</a> and <a href="https://msdn.microsoft.com/library/Bb774076(v=VS.85).aspx">MoveRight</a> methods. Also, note that the <b>EndKey</b> method is quite different from the 
+				<b>HomeKey</b> and <b>EndKey</b> are different than the <a href="https://msdn.microsoft.com/en-us/library/Bb774074(v=VS.85).aspx">MoveLeft</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774076(v=VS.85).aspx">MoveRight</a> methods. Also, note that the <b>EndKey</b> method is quite different from the 
 				<b>End</b> property, which is the <code>cp</code> at the end of the selection. 
-				<b>HomeKey</b> and <b>EndKey</b> also differ from the <a href="https://msdn.microsoft.com/library/Bb787835(v=VS.85).aspx">StartOf</a> and <a href="https://msdn.microsoft.com/library/Bb787769(v=VS.85).aspx">EndOf</a> methods in that they extend from the active end, whereas 
+				<b>HomeKey</b> and <b>EndKey</b> also differ from the <a href="https://msdn.microsoft.com/en-us/library/Bb787835(v=VS.85).aspx">StartOf</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb787769(v=VS.85).aspx">EndOf</a> methods in that they extend from the active end, whereas 
 				<b>StartOf</b> extends from Start and 
 				<b>EndOf</b> extends from End.
 
@@ -216,27 +215,27 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787769(v=VS.85).aspx">EndOf</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787769(v=VS.85).aspx">EndOf</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774044(v=VS.85).aspx">HomeKey</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774044(v=VS.85).aspx">HomeKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774060(v=VS.85).aspx">ITextSelection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774060(v=VS.85).aspx">ITextSelection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774064(v=VS.85).aspx">Move</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774064(v=VS.85).aspx">Move</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774074(v=VS.85).aspx">MoveLeft</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774074(v=VS.85).aspx">MoveLeft</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774076(v=VS.85).aspx">MoveRight</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774076(v=VS.85).aspx">MoveRight</a>
 
 
 
@@ -244,11 +243,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787835(v=VS.85).aspx">StartOf</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787835(v=VS.85).aspx">StartOf</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wsw\ws_service_endpoint.htm
 old-project: wsw
 ms.assetid: 6b15fc3f-5e4b-4eb3-b337-0170b0ca746f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SERVICE_ENDPOINT, WS_SERVICE_ENDPOINT structure [Web Services for Windows], _WS_SERVICE_ENDPOINT, webservices/WS_SERVICE_ENDPOINT, wsw.ws_service_endpoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Represents an individual endpoint on a service host. The properties on the endpoint
+Represents an individual endpoint on a service host. The properties on the endpoint
                 are used to specify the address, binding and contract. 
             
 
@@ -64,57 +63,49 @@ req.product: Windows Address Book 5.0
 
 ### -field address
 
-
-                    The URL address on which the endpoint is going to listen. 
+The URL address on which the endpoint is going to listen. 
                 
 
 
 ### -field channelBinding
 
-
-                    The binding for the channel/listener.
+The binding for the channel/listener.
                 
 
 
 ### -field channelType
 
-
-                    The <a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">type of channel</a> being hosted by the endpoint.
+The <a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">type of channel</a> being hosted by the endpoint.
                 
 
 
 ### -field securityDescription
 
-
-                    A description of the security required for this channel. This can be <b>NULL</b> if no security is required.
+A description of the security required for this channel. This can be <b>NULL</b> if no security is required.
                 
 
 
 ### -field contract
 
-
-                    The contract of the endpoint.
+The contract of the endpoint.
                 
 
 
 ### -field authorizationCallback
 
-
-                    Authorization callback for the service endpoint.
+Authorization callback for the service endpoint.
                 
 
 
 ### -field properties
 
-
-                    An array of properties to configure the service endpoint.
+An array of properties to configure the service endpoint.
                 
 
 
 ### -field propertyCount
 
-
-                    Number of elements in the WS_SERVICE_ENDPOINT_PROPERTY array.
+Number of elements in the WS_SERVICE_ENDPOINT_PROPERTY array.
                 
 
 

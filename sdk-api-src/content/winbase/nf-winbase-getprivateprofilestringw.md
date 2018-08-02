@@ -4,10 +4,10 @@ title: GetPrivateProfileStringW function
 author: windows-sdk-content
 description: Retrieves a string from the specified section in an initialization file.
 old-location: base\getprivateprofilestring.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 684bae93-3cd8-49a4-8f16-9316df41d6f2
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: GetPrivateProfileString, GetPrivateProfileString function, GetPrivateProfileStringA, GetPrivateProfileStringW, _win32_getprivateprofilestring, base.getprivateprofilestring, winbase/GetPrivateProfileString, winbase/GetPrivateProfileStringA, winbase/GetPrivateProfileStringW
 ms.prod: windows
 ms.technology: windows-sdk

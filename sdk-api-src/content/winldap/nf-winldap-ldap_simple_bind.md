@@ -2,12 +2,12 @@
 UID: NF:winldap.ldap_simple_bind
 title: ldap_simple_bind function
 author: windows-sdk-content
-description: asynchronously authenticates a client to a server, using a plaintext password.
+description: Asynchronously authenticates a client to a server, using a plaintext password.
 old-location: ldap\ldap_simple_bind.htm
-old-project: ldap
+old-project: LDAP
 ms.assetid: 13fc47c5-094b-4a91-8e5f-bfff8c72b431
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "_ldap_ldap_simple_bind, ldap.ldap__simple__bind, ldap.ldap_simple_bind, ldap_simple_bind, ldap_simple_bind function [LDAP], ldap_simple_bindA, ldap_simple_bindW, winldap/ldap_simple_bind, winldap/ldap_simple_bindA, winldap/ldap_simple_bindW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>ldap_simple_bind</b> function
-    asynchronously authenticates a client to a server, using a plaintext password.
+The <b>ldap_simple_bind</b> functionasynchronously authenticates a client to a server, using a plaintext password.
 <div class="alert"><b>Caution</b>  This function sends the name and password without encrypting them, and therefore someone eavesdropping on the network could read the password. Unless a TLS (SSL) encrypted session has been established, do not use this function. For more information about how to set up an encrypted session, see <a href="https://msdn.microsoft.com/218b4cf2-e582-4052-8206-35c2ba2fe302">Initializing a Session</a>.</div><div> </div>
 
 ## -parameters

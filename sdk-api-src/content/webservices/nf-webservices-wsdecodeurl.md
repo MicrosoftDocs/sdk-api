@@ -7,7 +7,7 @@ old-location: wsw\wsdecodeurl.htm
 old-project: wsw
 ms.assetid: 67147b71-ca3a-4a17-a4f1-6ba608eca742
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: DWsDecodeUrl, WsDecodeUrl, WsDecodeUrl function [Web Services for Windows], webservices/WsDecodeUrl, wsw.wsdecodeurl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,8 +82,7 @@ A pointer to a <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298
 
 ### -param outUrl
 
-
-                    Reference to the <a href="https://msdn.microsoft.com/efc67b64-cedf-4cd9-83b3-047f6c38c6ea">WS_URL</a> structure that encapsulates the <a href="https://msdn.microsoft.com/e8763719-6ba0-4e5e-bb71-625d36a45eaf">WS_URL_SCHEME_TYPE</a> value.
+Reference to the <a href="https://msdn.microsoft.com/efc67b64-cedf-4cd9-83b3-047f6c38c6ea">WS_URL</a> structure that encapsulates the <a href="https://msdn.microsoft.com/e8763719-6ba0-4e5e-bb71-625d36a45eaf">WS_URL_SCHEME_TYPE</a> value.
                 
 
 
@@ -111,7 +110,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -123,7 +121,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -135,8 +132,7 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
-                    The input URL was not in the correct format, or the scheme was not recognized.
+The input URL was not in the correct format, or the scheme was not recognized.
                 
 
 </td>
@@ -162,8 +158,7 @@ This function may return other errors not listed above.
 
 
 
-
-                The grammar parsed for the schemes "http", "https", "net.tcp" and "soap.udp" can be found at http://www.ietf.org/rfc/rfc3986.txt.  For these schemes:
+The grammar parsed for the schemes "http", "https", "net.tcp" and "soap.udp" can be found at http://www.ietf.org/rfc/rfc3986.txt.  For these schemes:
                     <ul>
 <li>A non-empty hostname is required.
                       </li>
@@ -174,8 +169,7 @@ This function may return other errors not listed above.
 </ul>
 
 
-
-                If no port is specified the default port for that scheme is returned.
+If no port is specified the default port for that scheme is returned.
             
 
 If no port is specified for the soap.udp scheme 0xFFFFFFFF is returned as the default.

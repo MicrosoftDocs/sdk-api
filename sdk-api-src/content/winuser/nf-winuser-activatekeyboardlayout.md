@@ -7,7 +7,7 @@ old-location: inputdev\activatekeyboardlayout.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\activatekeyboardlayout.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: ActivateKeyboardLayout, ActivateKeyboardLayout function [Keyboard and Mouse Input], HKL_NEXT, HKL_PREV, KLF_REORDER, KLF_RESET, KLF_SETFORPROCESS, KLF_SHIFTLOCK, KLF_UNLOADPREVIOUS, _win32_ActivateKeyboardLayout, _win32_activatekeyboardlayout_cpp, inputdev.activatekeyboardlayout, winui._win32_activatekeyboardlayout, winuser/ActivateKeyboardLayout
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ Type: <b>HKL</b>
 
 Input locale identifier to be activated.
 
-The input locale identifier must have been loaded by a previous call to the <a href="https://msdn.microsoft.com/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a> function. This parameter must be either the handle to a keyboard layout or one of the following values.
+The input locale identifier must have been loaded by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a> function. This parameter must be either the handle to a keyboard layout or one of the following values.
 
 <table>
 <tr>
@@ -151,7 +151,7 @@ These two methods are mutually exclusive, and the setting persists as part of th
 </td>
 <td width="60%">
 Activates the specified locale identifier for the entire process and sends the 
-      <a href="https://msdn.microsoft.com/library/ms632629(v=VS.85).aspx">WM_INPUTLANGCHANGE</a> message to the current thread's focus or active window.
+      <a href="https://msdn.microsoft.com/en-us/library/ms632629(v=VS.85).aspx">WM_INPUTLANGCHANGE</a> message to the current thread's focus or active window.
 
 </td>
 </tr>
@@ -172,7 +172,7 @@ This is used with <b>KLF_RESET</b>. See <b>KLF_RESET</b> for an explanation.
 </dl>
 </td>
 <td width="60%">
-This flag is unsupported. Use the <a href="https://msdn.microsoft.com/library/ms646324(v=VS.85).aspx">UnloadKeyboardLayout</a> function instead.
+This flag is unsupported. Use the <a href="https://msdn.microsoft.com/en-us/library/ms646324(v=VS.85).aspx">UnloadKeyboardLayout</a> function instead.
 
 </td>
 </tr>
@@ -219,15 +219,15 @@ The <b>KLF_RESET</b> and <b>KLF_SHIFTLOCK</b> flags alter the method by which th
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646298(v=VS.85).aspx">GetKeyboardLayoutName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646298(v=VS.85).aspx">GetKeyboardLayoutName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>
 
 
 
@@ -235,7 +235,7 @@ The <b>KLF_RESET</b> and <b>KLF_SHIFTLOCK</b> flags alter the method by which th
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646324(v=VS.85).aspx">UnloadKeyboardLayout</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646324(v=VS.85).aspx">UnloadKeyboardLayout</a>
  
 
  

@@ -4,10 +4,10 @@ title: ITextPara::SetAlignment
 author: windows-sdk-content
 description: Sets the paragraph alignment.
 old-location: controls\ITextPara_SetAlignment.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setalignment.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextPara interface [Windows Controls],SetAlignment method, ITextPara.SetAlignment, ITextPara::SetAlignment, SetAlignment, SetAlignment method [Windows Controls], SetAlignment method [Windows Controls],ITextPara interface, _win32_ITextPara_SetAlignment, _win32_ITextPara_SetAlignment_cpp, controls.ITextPara_SetAlignment, controls._win32_ITextPara_SetAlignment, tom/ITextPara::SetAlignment
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Sets the paragraph alignment.
 
 Type: <b>long</b>
 
-New paragraph alignment. For a list of possible values, see the <a href="https://msdn.microsoft.com/library/Bb773927(v=VS.85).aspx">ITextPara::GetAlignment</a> method. 
+New paragraph alignment. For a list of possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Bb773927(v=VS.85).aspx">ITextPara::GetAlignment</a> method. 
 
 
 ## -returns
@@ -149,11 +149,11 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773927(v=VS.85).aspx">GetAlignment</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773927(v=VS.85).aspx">GetAlignment</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
 
 
 
@@ -161,7 +161,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

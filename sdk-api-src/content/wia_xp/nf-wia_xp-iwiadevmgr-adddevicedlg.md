@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaDevMgr_AddDeviceDlg.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\adddevicedlg.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: AddDeviceDlg, AddDeviceDlg method [WIA], AddDeviceDlg method [WIA],IWiaDevMgr interface, IWiaDevMgr interface [WIA],AddDeviceDlg method, IWiaDevMgr.AddDeviceDlg, IWiaDevMgr::AddDeviceDlg, _wia_IWiaDevMgr_AddDeviceDlg, wia._wia_IWiaDevMgr_AddDeviceDlg, wia_xp/IWiaDevMgr::AddDeviceDlg
 ms.prod: windows
 ms.technology: windows-sdk

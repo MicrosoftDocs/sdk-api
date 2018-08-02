@@ -7,7 +7,7 @@ old-location: dlgbox\messagebox.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\messagebox.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/29/2018
 ms.keywords: MB_ABORTRETRYIGNORE, MB_APPLMODAL, MB_CANCELTRYCONTINUE, MB_DEFAULT_DESKTOP_ONLY, MB_DEFBUTTON1, MB_DEFBUTTON2, MB_DEFBUTTON3, MB_DEFBUTTON4, MB_HELP, MB_ICONASTERISK, MB_ICONERROR, MB_ICONEXCLAMATION, MB_ICONHAND, MB_ICONINFORMATION, MB_ICONQUESTION, MB_ICONSTOP, MB_ICONWARNING, MB_OK, MB_OKCANCEL, MB_RETRYCANCEL, MB_RIGHT, MB_RTLREADING, MB_SERVICE_NOTIFICATION, MB_SETFOREGROUND, MB_SYSTEMMODAL, MB_TASKMODAL, MB_TOPMOST, MB_YESNO, MB_YESNOCANCEL, MessageBox, MessageBox function [Dialog Boxes], MessageBoxA, MessageBoxW, _win32_MessageBox, _win32_messagebox_cpp, dlgbox.messagebox, winui._win32_messagebox, winuser/MessageBox, winuser/MessageBoxA, winuser/MessageBoxW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,7 +130,7 @@ The message box contains three push buttons: <b>Abort</b>, <b>Retry</b>, and <b>
 </dl>
 </td>
 <td width="60%">
- Adds a <b>Help</b> button to the message box. When the user clicks the <b>Help</b> button or presses F1, the system sends a <a href="https://msdn.microsoft.com/library/Bb774305(v=VS.85).aspx">WM_HELP</a> message to the owner.
+ Adds a <b>Help</b> button to the message box. When the user clicks the <b>Help</b> button or presses F1, the system sends a <a href="_win32_WM_HELP">WM_HELP</a> message to the owner.
 
 </td>
 </tr>
@@ -421,7 +421,7 @@ To specify other options, use one or more of the following values.
 </dl>
 </td>
 <td width="60%">
- Same as desktop of the interactive window station. For more information, see <a href="https://msdn.microsoft.com/library/ms687096(v=VS.85).aspx">Window Stations</a>.
+ Same as desktop of the interactive window station. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms687096(v=VS.85).aspx">Window Stations</a>.
 					
                     		
 					
@@ -460,7 +460,7 @@ Displays message and caption text using right-to-left reading order on Hebrew an
 </dl>
 </td>
 <td width="60%">
-The message box becomes the foreground window. Internally, the system calls the <a href="https://msdn.microsoft.com/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a> function for the message box.
+The message box becomes the foreground window. Internally, the system calls the <a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a> function for the message box.
 
 </td>
 </tr>
@@ -488,7 +488,7 @@ The caller is a service notifying the user of an event. The function displays a 
 
 If this flag is set, the <i>hWnd</i> parameter must be <b>NULL</b>. This is so that the message box can appear on a desktop other than the desktop corresponding to the <i>hWnd</i>.
 
-For information on security considerations in regard to using this flag, see <a href="https://msdn.microsoft.com/library/ms683502(v=VS.85).aspx">Interactive Services</a>. In particular, be aware that this flag can produce interactive content on a locked desktop and should therefore be used for only a very limited set of scenarios, such as resource exhaustion.
+For information on security considerations in regard to using this flag, see <a href="https://msdn.microsoft.com/en-us/library/ms683502(v=VS.85).aspx">Interactive Services</a>. In particular, be aware that this flag can produce interactive content on a locked desktop and should therefore be used for only a very limited set of scenarios, such as resource exhaustion.
 
 </td>
 </tr>
@@ -705,7 +705,7 @@ The following image shows the output from the preceding code example:
 
 <img alt="Message box" src="./images/MessageBox_02.png"/>
 
-For another message box example, see <a href="https://msdn.microsoft.com/library/ms644996(v=VS.85).aspx">Displaying a Message Box</a>.
+For another message box example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v=VS.85).aspx">Displaying a Message Box</a>.
 
 
 
@@ -719,7 +719,7 @@ For another message box example, see <a href="https://msdn.microsoft.com/library
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
 
 
 
@@ -731,11 +731,11 @@ For another message box example, see <a href="https://msdn.microsoft.com/library
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645507(v=VS.85).aspx">MessageBoxEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645507(v=VS.85).aspx">MessageBoxEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645511(v=VS.85).aspx">MessageBoxIndirect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645511(v=VS.85).aspx">MessageBoxIndirect</a>
 
 
 
@@ -747,7 +747,7 @@ For another message box example, see <a href="https://msdn.microsoft.com/library
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>
  
 
  

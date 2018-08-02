@@ -74,7 +74,7 @@ The <b>IFaxAccountIncomingArchive</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f9e253ef-1f61-48d5-9f71-7e14ebf538fa">GetMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a>
 </td>
 <td align="left" width="63%">
 Returns a fax message from the archive of inbound faxes, for a particular fax account, by using the fax message ID.
@@ -83,7 +83,7 @@ Returns a fax message from the archive of inbound faxes, for a particular fax ac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b3469e29-3d98-432b-84bb-2e5a105bf0b0">GetMessages</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359048(v=VS.85).aspx">GetMessages</a>
 </td>
 <td align="left" width="63%">
 Returns a new iterator (archive cursor) for the archive of inbound fax messages for a particular fax account.
@@ -92,7 +92,7 @@ Returns a new iterator (archive cursor) for the archive of inbound fax messages 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae09646e-70d3-440d-83a0-a38e691b5037">Refresh</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359049(v=VS.85).aspx">Refresh</a>
 </td>
 <td align="left" width="63%">
 Refreshes <a href="https://msdn.microsoft.com/library/Aa358957(v=VS.85).aspx">FaxAccountIncomingArchive</a> object information for a particular fax account from the fax server. 
@@ -110,7 +110,7 @@ Refreshes <a href="https://msdn.microsoft.com/library/Aa358957(v=VS.85).aspx">Fa
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d88b8ae9-88ce-4ea6-a34d-6d4da4b92b97">SizeHigh</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359050(v=VS.85).aspx">SizeHigh</a>
 
 
 </td>
@@ -126,7 +126,7 @@ Specifies the high 32-bit value (in bytes) for the size of the archive of inboun
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/947c6fb4-4a67-4c8d-a70c-f23e9ce8e301">SizeLow</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359051(v=VS.85).aspx">SizeLow</a>
 
 
 </td>

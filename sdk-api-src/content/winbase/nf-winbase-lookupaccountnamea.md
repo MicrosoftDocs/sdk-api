@@ -4,10 +4,10 @@ title: LookupAccountNameA function
 author: windows-sdk-content
 description: Accepts the name of a system and an account as input. It retrieves a security identifier (SID) for the account and the name of the domain on which the account was found.
 old-location: security\lookupaccountname.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 72855539-469a-4289-99cc-eae2ed89901f
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: LookupAccountName, LookupAccountName function [Security], LookupAccountNameA, LookupAccountNameW, _win32_lookupaccountname, security.lookupaccountname, winbase/LookupAccountName, winbase/LookupAccountNameA, winbase/LookupAccountNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,8 +59,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>LookupAccountName</b> function accepts the name of a system and an account as input. It retrieves a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) for the account and the name of the domain on which the account was found.
+The <b>LookupAccountName</b> function accepts the name of a system and an account as input. It retrieves a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) for the account and the name of the domain on which the account was found.
 
 The <a href="https://msdn.microsoft.com/867604aa-7a39-4da7-b189-a9183461e9a0">LsaLookupNames</a> function can also retrieve computer accounts. 
 
@@ -113,8 +112,7 @@ A pointer to a
 
 
 
-
-						If the function succeeds, the function returns nonzero.
+If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
@@ -144,7 +142,7 @@ In addition to looking up local accounts, local domain accounts, and explicitly 
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
 
 
 

@@ -4,10 +4,10 @@ title: HttpEndRequestA function
 author: windows-sdk-content
 description: Ends an HTTP request that was initiated by HttpSendRequestEx.
 old-location: wininet\httpendrequest.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: 6ea91da6-0bc2-49b6-a56b-c4224ad73b81
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: HttpEndRequest, HttpEndRequest function [WinINet], HttpEndRequestA, HttpEndRequestW, _win32_httpendrequest, wininet.httpendrequest, wininet/HttpEndRequest, wininet/HttpEndRequestA, wininet/HttpEndRequestW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ Ends an HTTP request that was initiated by
 
 ### -param hRequest [in]
 
-
-						Handle returned by 
+Handle returned by 
 <a href="https://msdn.microsoft.com/caaff8e8-7db9-4d6d-8ba2-d8d19475173a">HttpOpenRequest</a> and sent by 
 <a href="https://msdn.microsoft.com/3362fcd2-e8df-4886-9525-bf60589b2c1f">HttpSendRequestEx</a>.
 

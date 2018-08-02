@@ -4,10 +4,10 @@ title: PrepareTape function
 author: windows-sdk-content
 description: Prepares the tape to be accessed or removed.
 old-location: backup\preparetape.htm
-old-project: backup
+old-project: Backup
 ms.assetid: 13aacf38-b0ae-4f4d-ada9-42c61490be7e
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: PrepareTape, PrepareTape function [Backup], TAPE_FORMAT, TAPE_LOAD, TAPE_LOCK, TAPE_TENSION, TAPE_UNLOAD, TAPE_UNLOCK, _win32_preparetape, backup.preparetape, base.preparetape, winbase/PrepareTape
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device preparing the tape. This handle is created by using the 
-<a href="base.createfile">CreateFile</a> function.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.
 
 
 ### -param dwOperation [in]
@@ -366,7 +366,7 @@ Some tape devices do not support certain tape operations. See your tape device d
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
 
 
 

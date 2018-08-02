@@ -7,7 +7,7 @@ old-location: inputdev\tounicode.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\tounicode.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: ToUnicode, ToUnicode function [Keyboard and Mouse Input], _win32_ToUnicode, _win32_tounicode_cpp, inputdev.tounicode, winui._win32_tounicode, winuser/ToUnicode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Translates the specified virtual-key code and keyboard state to the corresponding Unicode character or characters.
 
-To specify a handle to the keyboard layout to use to translate the specified code, use the <a href="https://msdn.microsoft.com/library/ms646322(v=VS.85).aspx">ToUnicodeEx</a> function.
+To specify a handle to the keyboard layout to use to translate the specified code, use the <a href="https://msdn.microsoft.com/en-us/library/ms646322(v=VS.85).aspx">ToUnicodeEx</a> function.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ To specify a handle to the keyboard layout to use to translate the specified cod
 
 Type: <b>UINT</b>
 
-The virtual-key code to be translated. See <a href="https://msdn.microsoft.com/library/Dd375731(v=VS.85).aspx">Virtual-Key Codes</a>.
+The virtual-key code to be translated. See <a href="https://msdn.microsoft.com/en-us/library/Dd375731(v=VS.85).aspx">Virtual-Key Codes</a>.
 
 
 ### -param wScanCode [in]
@@ -195,7 +195,7 @@ Typically, <b>ToUnicode</b> performs the translation based on the virtual-key co
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
 
 
 
@@ -203,15 +203,15 @@ Typically, <b>ToUnicode</b> performs the translation based on the virtual-key co
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646316(v=VS.85).aspx">ToAscii</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646316(v=VS.85).aspx">ToAscii</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646322(v=VS.85).aspx">ToUnicodeEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646322(v=VS.85).aspx">ToUnicodeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646329(v=VS.85).aspx">VkKeyScan</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646329(v=VS.85).aspx">VkKeyScan</a>
  
 
  

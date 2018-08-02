@@ -7,7 +7,7 @@ old-location: dshow\iamtimecodegenerator_get_vitcline.htm
 old-project: DirectShow
 ms.assetid: 0a1595a6-30ae-46ab-bfda-102b4dbc67ef
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMTimecodeGenerator interface [DirectShow],get_VITCLine method, IAMTimecodeGenerator.get_VITCLine, IAMTimecodeGenerator::get_VITCLine, IAMTimecodeGeneratorget_VITCLine, dshow.iamtimecodegenerator_get_vitcline, get_VITCLine, get_VITCLine method [DirectShow], get_VITCLine method [DirectShow],IAMTimecodeGenerator interface, strmif/IAMTimecodeGenerator::get_VITCLine
 ms.prod: windows
 ms.technology: windows-sdk

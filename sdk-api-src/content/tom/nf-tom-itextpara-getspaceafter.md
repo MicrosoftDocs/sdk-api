@@ -4,10 +4,10 @@ title: ITextPara::GetSpaceAfter
 author: windows-sdk-content
 description: Retrieves the amount of vertical space below a paragraph.
 old-location: controls\ITextPara_GetSpaceAfter.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getspaceafter.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetSpaceAfter, GetSpaceAfter method [Windows Controls], GetSpaceAfter method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetSpaceAfter method, ITextPara.GetSpaceAfter, ITextPara::GetSpaceAfter, _win32_ITextPara_GetSpaceAfter, _win32_ITextPara_GetSpaceAfter_cpp, controls.ITextPara_GetSpaceAfter, controls._win32_ITextPara_GetSpaceAfter, tom/ITextPara::GetSpaceAfter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,11 +127,11 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774023(v=VS.85).aspx">GetSpaceBefore</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774023(v=VS.85).aspx">GetSpaceBefore</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
 
 
 
@@ -139,15 +139,15 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787817(v=VS.85).aspx">SetSpaceAfter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787817(v=VS.85).aspx">SetSpaceAfter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787820(v=VS.85).aspx">SetSpaceBefore</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787820(v=VS.85).aspx">SetSpaceBefore</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

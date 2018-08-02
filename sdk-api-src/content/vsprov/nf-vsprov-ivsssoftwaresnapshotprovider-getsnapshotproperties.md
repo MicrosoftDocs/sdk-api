@@ -4,10 +4,10 @@ title: IVssSoftwareSnapshotProvider::GetSnapshotProperties
 author: windows-sdk-content
 description: Gets the properties of the specified shadow copy.
 old-location: base\ivsssoftwaresnapshotprovider_getsnapshotproperties.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 59886344-d594-4eb8-9718-ab11a6627e8e
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetSnapshotProperties, GetSnapshotProperties method, GetSnapshotProperties method,IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,GetSnapshotProperties method, IVssSoftwareSnapshotProvider.GetSnapshotProperties, IVssSoftwareSnapshotProvider::GetSnapshotProperties, base.ivsssoftwaresnapshotprovider_getsnapshotproperties, vsprov/IVssSoftwareSnapshotProvider::GetSnapshotProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -143,8 +143,7 @@ The specified volume was not found.
 </dl>
 </td>
 <td width="60%">
-
-        Provider error. The provider logged the error in the event log. For more information, see 
+Provider error. The provider logged the error in the event log. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 </td>
@@ -156,8 +155,7 @@ The specified volume was not found.
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

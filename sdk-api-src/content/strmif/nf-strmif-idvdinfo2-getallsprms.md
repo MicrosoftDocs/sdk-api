@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getallsprms.htm
 old-project: DirectShow
 ms.assetid: 4a5fb447-670d-4f1f-838e-266843185efe
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetAllSPRMs, GetAllSPRMs method [DirectShow], GetAllSPRMs method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAllSPRMs method, IDvdInfo2.GetAllSPRMs, IDvdInfo2::GetAllSPRMs, IDvdInfo2GetAllSPRMs, dshow.idvdinfo2_getallsprms, strmif/IDvdInfo2::GetAllSPRMs
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ The <b>GetAllSPRMs</b> method retrieves the current contents of all system param
 
 ### -param pRegisterArray [out]
 
-
-            Pointer to an array of type <a href="https://msdn.microsoft.com/5c285f6e-2921-4684-bc42-762fc80a5e6b">SPRMARRAY</a> that receives the address of an array of SPRMs.
+Pointer to an array of type <a href="https://msdn.microsoft.com/5c285f6e-2921-4684-bc42-762fc80a5e6b">SPRMARRAY</a> that receives the address of an array of SPRMs.
           
 
 
@@ -119,11 +118,9 @@ The 24 SPRMs are used to hold information on current language, subpicture, and o
 <div> </div>
 <table>
 <tr>
-<th>
-              Register
+<th>Register
             </th>
-<th>
-              Contents
+<th>Contents
             </th>
 </tr>
 <tr>

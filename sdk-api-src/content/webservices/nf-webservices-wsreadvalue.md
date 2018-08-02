@@ -7,7 +7,7 @@ old-location: wsw\wsreadvalue.htm
 old-project: wsw
 ms.assetid: d2dbeaf1-29cb-4848-8188-7922fdc15091
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsReadValue, WsReadValue function [Web Services for Windows], webservices/WsReadValue, wsw.wsreadvalue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Reads text from a Reader and parses it according to the specified value type.
+Reads text from a Reader and parses it according to the specified value type.
       
         The Reader reads from its current position up to the next Start or End element and
         parses them according to the specified value type.  If the Reader is already positioned on a Start or End element
@@ -81,16 +80,14 @@ The text interpretation type.
 
 ### -param value
 
-
-          A pointer to the parsed data if parsing was successful according to the specified value type.  The
+A pointer to the parsed data if parsing was successful according to the specified value type.  The
           size required is determined by value type.  See <a href="https://msdn.microsoft.com/6075ed1c-ceb5-421a-8a76-3a64b9e6dbe3">WS_VALUE_TYPE</a> for more information.
         
 
 
 ### -param valueSize [in]
 
-
-          The byte size of the retrieved value.
+The byte size of the retrieved value.
         
 
 
@@ -118,7 +115,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -130,7 +126,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -145,8 +140,7 @@ A quota was exceeded.
 
 
 
-
-        An example that reads an element containing an integer value.
+An example that reads an element containing an integer value.
 
 <pre class="syntax" xml:space="preserve"><code>// Advance the reader to the element
 HRESULT hr = WsReadToStartElement(reader, localName, ns, NULL, error);
@@ -173,8 +167,7 @@ if (FAILED(hr))
 {
     return hr;
 }</code></pre>
-
-        The grammar for the values types.
+The grammar for the values types.
 
 <pre class="syntax" xml:space="preserve"><code>
 WS_BOOL_VALUE_TYPE     = "true"

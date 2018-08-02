@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_writer_encoding.htm
 old-project: wsw
 ms.assetid: 5ca43d39-e714-4070-b343-6c8ab9484817
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_WRITER_ENCODING, WS_XML_WRITER_ENCODING structure [Web Services for Windows], _WS_XML_WRITER_ENCODING, webservices/WS_XML_WRITER_ENCODING, wsw.ws_xml_writer_encoding
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        This structure is the base type for all the different kinds of writer encodings.
+This structure is the base type for all the different kinds of writer encodings.
       
 
 
@@ -63,7 +62,6 @@ req.product: Windows Address Book 5.0
 
 ### -field encodingType
 
-
-          Indicates the type of encoding this structure refers to.
+Indicates the type of encoding this structure refers to.
         
 

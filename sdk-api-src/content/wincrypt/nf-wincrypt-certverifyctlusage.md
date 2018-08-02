@@ -4,10 +4,10 @@ title: CertVerifyCTLUsage function
 author: windows-sdk-content
 description: Verifies that a subject is trusted for a specified usage by finding a signed and time-valid certificate trust list (CTL) with the usage identifiers that contain the subject.
 old-location: security\certverifyctlusage.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: d87d8157-8e52-4198-bfd4-46d83d72eb13
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertVerifyCTLUsage, CertVerifyCTLUsage function [Security], _crypto2_certverifyctlusage, security.certverifyctlusage, wincrypt/CertVerifyCTLUsage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-         The <b>CertVerifyCTLUsage</b> function verifies that a subject is trusted for a specified usage by finding a signed and time-valid <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL) with the usage identifiers that contain the subject. A certificate's subject can be identified by either its <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate context</a> or any unique identifier such as the SHA1 <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> of the subject's certificate.
+The <b>CertVerifyCTLUsage</b> function verifies that a subject is trusted for a specified usage by finding a signed and time-valid <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL) with the usage identifiers that contain the subject. A certificate's subject can be identified by either its <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate context</a> or any unique identifier such as the SHA1 <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> of the subject's certificate.
 
 
 ## -parameters
@@ -120,8 +119,7 @@ A pointer to a
 
 
 
-
-                  If the subject is trusted for the specified usage, <b>TRUE</b> is returned. Otherwise, <b>FALSE</b> is returned. <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> can return one of the following error codes.
+If the subject is trusted for the specified usage, <b>TRUE</b> is returned. Otherwise, <b>FALSE</b> is returned. <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> can return one of the following error codes.
 
 <table>
 <tr>
@@ -229,7 +227,7 @@ The <b>CertDllVerifyCTLUsage</b> function in Cryptnet.dll can be installed by us
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Verification Functions Using CTLs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Verification Functions Using CTLs</a>
  
 
  

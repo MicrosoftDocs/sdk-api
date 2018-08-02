@@ -7,7 +7,7 @@ old-location: wmp\iwmpplaylistcollection_getall.htm
 old-project: WMP
 ms.assetid: 5ebd966f-5fee-4a8a-909e-5adcbdebab54
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],getAll method, IWMPPlaylistCollection.getAll, IWMPPlaylistCollection::getAll, IWMPPlaylistCollectiongetAll, getAll, getAll method [Windows Media Player], getAll method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_getall, wmp/IWMPPlaylistCollection::getAll
 ms.prod: windows
 ms.technology: windows-sdk

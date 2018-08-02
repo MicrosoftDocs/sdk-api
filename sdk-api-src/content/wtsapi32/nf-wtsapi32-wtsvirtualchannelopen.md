@@ -4,10 +4,10 @@ title: WTSVirtualChannelOpen function
 author: windows-sdk-content
 description: Opens a handle to the server end of a specified virtual channel.
 old-location: termserv\wtsvirtualchannelopen.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 0daaf06f-ba05-469c-b888-3df5d9495364
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: WTSVirtualChannelOpen, WTSVirtualChannelOpen function [Remote Desktop Services], _win32_wtsvirtualchannelopen, termserv.wtsvirtualchannelopen, wtsapi32/WTSVirtualChannelOpen
 ms.prod: windows
 ms.technology: windows-sdk

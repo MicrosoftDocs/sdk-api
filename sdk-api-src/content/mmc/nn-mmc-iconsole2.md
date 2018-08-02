@@ -72,7 +72,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsole2</b> interface inherits from <a href="https://msdn.microsoft.com/edd98f5e-e251-40ff-8136-02bf1b9ea670">IConsole</a>. <b>IConsole2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsole2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Mt300830(v=VS.85).aspx">IConsole</a>. <b>IConsole2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

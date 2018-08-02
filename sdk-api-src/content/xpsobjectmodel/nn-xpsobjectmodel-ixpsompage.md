@@ -7,7 +7,7 @@ old-location: xps\ixpsompage.htm
 old-project: printdocs
 ms.assetid: 741deebd-9dce-4cd9-883e-4586c10a4609
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMPage, IXpsOMPage interface [XPS Documents and Packaging], IXpsOMPage interface [XPS Documents and Packaging],described, xps.ixpsompage, xpsobjectmodel/IXpsOMPage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,8 +112,7 @@ Gets the dimensions of the page's content box.
 <a href="https://msdn.microsoft.com/e842c828-6e8c-4190-b845-8c8a26af1579">GetDictionary</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the resolved <a href="https://msdn.microsoft.com/f887e3d3-973c-4267-a785-6bc190c13082">IXpsOMDictionary</a> interface that is associated with this page.
+Gets a pointer to the resolved <a href="https://msdn.microsoft.com/f887e3d3-973c-4267-a785-6bc190c13082">IXpsOMDictionary</a> interface that is associated with this page.
             
 
 </td>
@@ -123,8 +122,7 @@ Gets the dimensions of the page's content box.
 <a href="https://msdn.microsoft.com/1eece7d5-2f2d-4fae-a2f4-8e52236f57c4">GetDictionaryLocal</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/f887e3d3-973c-4267-a785-6bc190c13082">IXpsOMDictionary</a> interface of the local, unshared dictionary that is associated with this page.
+Gets a pointer to the <a href="https://msdn.microsoft.com/f887e3d3-973c-4267-a785-6bc190c13082">IXpsOMDictionary</a> interface of the local, unshared dictionary that is associated with this page.
             
 
 </td>
@@ -134,8 +132,7 @@ Gets the dimensions of the page's content box.
 <a href="https://msdn.microsoft.com/12313d19-e6f1-4ec3-9702-2a403087763a">GetDictionaryResource</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface of the shared dictionary resource that is used by this page.
+Gets a pointer to the <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface of the shared dictionary resource that is used by this page.
             
 
 </td>
@@ -154,8 +151,7 @@ Gets a Boolean value that indicates whether the page is the target of a hyperlin
 <a href="https://msdn.microsoft.com/d16378cc-dd1c-49f9-9c1b-1eb0d78067f7">GetLanguage</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <b>Language</b> property of the page.
+Gets the <b>Language</b> property of the page.
             
 
 </td>
@@ -165,8 +161,7 @@ Gets a Boolean value that indicates whether the page is the target of a hyperlin
 <a href="https://msdn.microsoft.com/0c133dce-3a5a-4d7f-af83-2e185450c207">GetName</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <b>Name</b> property of the page.
+Gets the <b>Name</b> property of the page.
             
 
 </td>
@@ -176,8 +171,7 @@ Gets a Boolean value that indicates whether the page is the target of a hyperlin
 <a href="https://msdn.microsoft.com/fd29eaa7-8f9c-4468-ad3b-a159bf5f516c">GetOwner</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/cdebab24-f918-4235-b4d5-5ee1007ade87">IXpsOMPageReference</a> interface that contains the page.
+Gets a pointer to the <a href="https://msdn.microsoft.com/cdebab24-f918-4235-b4d5-5ee1007ade87">IXpsOMPageReference</a> interface that contains the page.
             
 
 </td>
@@ -196,8 +190,7 @@ Gets the page dimensions.
 <a href="https://msdn.microsoft.com/8181513f-2a5d-4b43-aa40-7f886a8af7f7">GetVisuals</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to an <a href="https://msdn.microsoft.com/f373b437-3973-40aa-9cac-a6b196a3e5d1">IXpsOMVisualCollection</a> interface that contains a collection  of the page's visual objects.
+Gets a pointer to an <a href="https://msdn.microsoft.com/f373b437-3973-40aa-9cac-a6b196a3e5d1">IXpsOMVisualCollection</a> interface that contains a collection  of the page's visual objects.
             
 
 </td>
@@ -225,8 +218,7 @@ Sets the dimensions of the page's content box.
 <a href="https://msdn.microsoft.com/d950a21a-0afe-410a-9f2c-32847c35471e">SetDictionaryLocal</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <a href="https://msdn.microsoft.com/f887e3d3-973c-4267-a785-6bc190c13082">IXpsOMDictionary</a> interface pointer of the page's local dictionary resource.
+Sets the <a href="https://msdn.microsoft.com/f887e3d3-973c-4267-a785-6bc190c13082">IXpsOMDictionary</a> interface pointer of the page's local dictionary resource.
             
 
 </td>
@@ -236,8 +228,7 @@ Sets the dimensions of the page's content box.
 <a href="https://msdn.microsoft.com/e424c70e-289c-4519-8b20-5fb98d46bf34">SetDictionaryResource</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface pointer of the page's remote dictionary resource.
+Sets the <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface pointer of the page's remote dictionary resource.
             
 
 </td>
@@ -256,8 +247,7 @@ Specifies whether the page is the target of a hyperlink.
 <a href="https://msdn.microsoft.com/3bf0c7ed-84fc-45c0-8058-b833c3913f09">SetLanguage</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <b>Language</b> property of the page.
+Sets the <b>Language</b> property of the page.
             
 
 </td>
@@ -267,8 +257,7 @@ Specifies whether the page is the target of a hyperlink.
 <a href="https://msdn.microsoft.com/675e4fd2-e8b9-400f-9042-df5b0bb0b89a">SetName</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <b>Name</b> property of this page.
+Sets the <b>Name</b> property of this page.
             
 
 </td>

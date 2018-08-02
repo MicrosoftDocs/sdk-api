@@ -4,10 +4,10 @@ title: ITCallHubEvent::get_CallHub
 author: windows-sdk-content
 description: The get_CallHub method returns a pointer to the ITCallHub interface on which the event occurred.
 old-location: tapi3\itcallhubevent_get_callhub.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 4016f253-2a2d-4406-a1fc-7595d25c1c06
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITCallHubEvent interface [TAPI 2.2],get_CallHub method, ITCallHubEvent.get_CallHub, ITCallHubEvent::get_CallHub, _tapi3_itcallhubevent_get_callhub, get_CallHub, get_CallHub method [TAPI 2.2], get_CallHub method [TAPI 2.2],ITCallHubEvent interface, tapi3.itcallhubevent_get_callhub, tapi3if/ITCallHubEvent::get_CallHub
 ms.prod: windows
 ms.technology: windows-sdk

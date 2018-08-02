@@ -4,10 +4,10 @@ title: SCardConnectW function
 author: windows-sdk-content
 description: Establishes a connection (using a specific resource manager context) between the calling application and a smart card contained by a specific reader. If no card exists in the specified reader, an error is returned.
 old-location: security\scardconnect.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 389ada98-383f-4b37-bf5d-c40577ef25fd
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: 0, SCARD_PROTOCOL_T0, SCARD_PROTOCOL_T1, SCARD_PROTOCOL_UNDEFINED, SCARD_SHARE_DIRECT, SCARD_SHARE_EXCLUSIVE, SCARD_SHARE_SHARED, SCardConnect, SCardConnect function [Security], SCardConnectA, SCardConnectW, _smart_scardconnect, security.scardconnect, winscard/SCardConnect, winscard/SCardConnectA, winscard/SCardConnectW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,8 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The <b>SCardConnect</b> function establishes a connection (using a specific <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">resource manager context</a>) between the calling application and a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a> contained by a specific reader. If no card exists in the specified reader, an error is returned.
+The <b>SCardConnect</b> function establishes a connection (using a specific <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">resource manager context</a>) between the calling application and a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a> contained by a specific reader. If no card exists in the specified reader, an error is returned.
 
 
 ## -parameters
@@ -213,8 +212,7 @@ SCARD_SHARE_DIRECT has been specified, so that no protocol negotiation has occur
 
 
 
-
-						This function returns different values depending on whether it succeeds or fails.
+This function returns different values depending on whether it succeeds or fails.
 
 <table>
 <tr>
@@ -240,7 +238,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
 
 </td>
 </tr>

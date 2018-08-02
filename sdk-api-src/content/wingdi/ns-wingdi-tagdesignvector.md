@@ -7,7 +7,7 @@ old-location: gdi\designvector.htm
 old-project: gdi
 ms.assetid: aeff9901-2405-44aa-ba46-8d784afd6b76
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPDESIGNVECTOR, *PDESIGNVECTOR, DESIGNVECTOR, DESIGNVECTOR structure [Windows GDI], PDESIGNVECTOR, PDESIGNVECTOR structure pointer [Windows GDI], _win32_DESIGNVECTOR_str, gdi.designvector, tagDESIGNVECTOR, wingdi/DESIGNVECTOR, wingdi/PDESIGNVECTOR"
 ms.prod: windows
 ms.technology: windows-sdk

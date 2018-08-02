@@ -4,10 +4,10 @@ title: IVssComponent::GetAlternateLocationMapping
 author: windows-sdk-content
 description: The GetAlternateLocationMapping is used to return a file set's alternate location for file restoration. This method can be called by either a writer or a requester.
 old-location: base\ivsscomponent_getalternatelocationmapping.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 8c6537eb-67ba-4d6a-ac86-44da176ef5c5
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetAlternateLocationMapping, GetAlternateLocationMapping method [VSS], GetAlternateLocationMapping method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetAlternateLocationMapping method, IVssComponent.GetAlternateLocationMapping, IVssComponent::GetAlternateLocationMapping, _win32_ivsscomponent_getalternatelocationmapping, base.ivsscomponent_getalternatelocationmapping, vswriter/IVssComponent::GetAlternateLocationMapping
 ms.prod: windows
 ms.technology: windows-sdk
@@ -192,7 +192,7 @@ Alternate location mappings are added to an
 <a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a> object by 
 <a href="https://msdn.microsoft.com/349ec124-f3f5-4142-8600-8d9f508c9bb2">IVssBackupComponents::AddAlternativeLocationMapping</a>.
 
-The caller must call <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the system resources held by the <i>ppMapping</i> parameter when it is done with the 
+The caller must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the system resources held by the <i>ppMapping</i> parameter when it is done with the 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object that it points to.
 
 For more information on backup and restore file locations under VSS, see 

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary2_createinstantaneousvect
 old-project: UIAnimation
 ms.assetid: C4E97F25-85BD-4548-950D-06BD5E6C4831
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateInstantaneousVectorTransition, CreateInstantaneousVectorTransition method [Windows Animation], CreateInstantaneousVectorTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateInstantaneousVectorTransition method, IUIAnimationTransitionLibrary2.CreateInstantaneousVectorTransition, IUIAnimationTransitionLibrary2::CreateInstantaneousVectorTransition, uianimation.iuianimationtransitionlibrary2_createinstantaneousvectortransition, uianimation/IUIAnimationTransitionLibrary2::CreateInstantaneousVectorTransition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates an instantaneous vector transition for each specified dimension.
+Creates an instantaneous vector transition for each specified dimension.
 
 
 ## -parameters
@@ -72,8 +71,7 @@ The number of dimensions to apply the transition. This parameter specifies the n
 
 ### -param transition [out, retval]
 
-
-               The new instantaneous transition.
+The new instantaneous transition.
 
 
 ## -returns

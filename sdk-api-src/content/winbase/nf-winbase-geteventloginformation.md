@@ -4,10 +4,10 @@ title: GetEventLogInformation function
 author: windows-sdk-content
 description: Retrieves information about the specified event log.
 old-location: base\geteventloginformation.htm
-old-project: eventlog
+old-project: EventLog
 ms.assetid: 627e0af2-3ce6-47fe-89c6-d7c0483cb94b
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: EVENTLOG_FULL_INFO, GetEventLogInformation, GetEventLogInformation function, _win32_geteventloginformation, base.geteventloginformation, winbase/GetEventLogInformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,8 +117,7 @@ The function sets this parameter to the required buffer size for the requested i
 
 
 
-
-						If the function succeeds, the return value is nonzero.
+If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 

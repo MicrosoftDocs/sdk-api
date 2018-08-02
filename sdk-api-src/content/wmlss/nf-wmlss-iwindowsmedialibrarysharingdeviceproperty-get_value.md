@@ -4,10 +4,10 @@ title: IWindowsMediaLibrarySharingDeviceProperty::get_Value
 author: windows-sdk-content
 description: The get_Value method retrieves the value of an individual property of a media device.
 old-location: wmlss\IWMLSDevicePropertyget_Value.htm
-old-project: wmlss
+old-project: WMLSS
 ms.assetid: b51b794c-eda6-4afe-8bb2-14896f7b8b81
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: IWindowsMediaLibrarySharingDeviceProperty interface [Windows Media Library Sharing Services],get_Value method, IWindowsMediaLibrarySharingDeviceProperty.get_Value, IWindowsMediaLibrarySharingDeviceProperty::get_Value, get_Value, get_Value method [Windows Media Library Sharing Services], get_Value method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDeviceProperty interface, wmlss.IWMLSDevicePropertyget_Value, wmlss/IWindowsMediaLibrarySharingDeviceProperty::get_Value
 ms.prod: windows
 ms.technology: windows-sdk

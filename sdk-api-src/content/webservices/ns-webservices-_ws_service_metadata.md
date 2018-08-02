@@ -7,7 +7,7 @@ old-location: wsw\ws_service_metadata.htm
 old-project: wsw
 ms.assetid: f695867d-989d-41a9-ab6e-612a6ef4fb14
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SERVICE_METADATA, WS_SERVICE_METADATA structure [Web Services for Windows], _WS_SERVICE_METADATA, webservices/WS_SERVICE_METADATA, wsw.ws_service_metadata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies the service metadata documents array. This can be a collection of 
+Specifies the service metadata documents array. This can be a collection of 
                 WSDL/XSD documents represented as an array of WS_STRING.
             
 
@@ -64,31 +63,27 @@ req.product: Windows Address Book 5.0
 
 ### -field documentCount
 
-
-                    The count of metadata documents being specified.
+The count of metadata documents being specified.
                 
 
 
 ### -field documents
 
-
-                A <a href="https://msdn.microsoft.com/d15fb735-9f82-4dd2-8586-f67999ab9727">WS_SERVICE_METADATA_DOCUMENT</a>* array where element represents a WS_SERVICE_METADATA_DOCUMENT for each individual XML Schema, WSDL or a Policy document. 
+A <a href="https://msdn.microsoft.com/d15fb735-9f82-4dd2-8586-f67999ab9727">WS_SERVICE_METADATA_DOCUMENT</a>* array where element represents a WS_SERVICE_METADATA_DOCUMENT for each individual XML Schema, WSDL or a Policy document. 
                 The service model expects this to be valid for the lifetime of the <a href="https://msdn.microsoft.com/1186e3ae-87d0-4d0b-a7cc-cce63dc091e2">WS_SERVICE_HOST</a>. 
             
 
 
 ### -field serviceName
 
-
-                Reference to WS_XML_STRING representing the name of the service in the WSDL document. Note that this field must be specified along with the serviceNs field. The service model expects this to be valid for the lifetime 
+Reference to WS_XML_STRING representing the name of the service in the WSDL document. Note that this field must be specified along with the serviceNs field. The service model expects this to be valid for the lifetime 
                     of the <a href="https://msdn.microsoft.com/1186e3ae-87d0-4d0b-a7cc-cce63dc091e2">WS_SERVICE_HOST</a>.
                 
 
 
 ### -field serviceNs
 
-
-                Reference to WS_XML_STRING representing the namespace of the service in the WSDL document. Note that this field must be specified along with the serviceName field.
+Reference to WS_XML_STRING representing the namespace of the service in the WSDL document. Note that this field must be specified along with the serviceName field.
                 The service model expects this to be valid for the lifetime of the <a href="https://msdn.microsoft.com/1186e3ae-87d0-4d0b-a7cc-cce63dc091e2">WS_SERVICE_HOST</a>.
             
 

@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaDataTransfer_idtEnumWIA_FORMAT_INFO.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtenumwia_format_info.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtEnumWIA_FORMAT_INFO method, IWiaDataTransfer.idtEnumWIA_FORMAT_INFO, IWiaDataTransfer::idtEnumWIA_FORMAT_INFO, _wia_IWiaDataTransfer_idtEnumWIA_FORMAT_INFO, idtEnumWIA_FORMAT_INFO, idtEnumWIA_FORMAT_INFO method [WIA], idtEnumWIA_FORMAT_INFO method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtEnumWIA_FORMAT_INFO, wia_xp/IWiaDataTransfer::idtEnumWIA_FORMAT_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>IWiaDataTransfer::idtEnumWIA_FORMAT_INFO</b> method creates a banded transfer implementation of the <a href="https://msdn.microsoft.com/library/ms630158(v=VS.85).aspx">IEnumWIA_FORMAT_INFO</a> interface.
+The <b>IWiaDataTransfer::idtEnumWIA_FORMAT_INFO</b> method creates a banded transfer implementation of the <a href="https://msdn.microsoft.com/en-us/library/ms630158(v=VS.85).aspx">IEnumWIA_FORMAT_INFO</a> interface.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ The <b>IWiaDataTransfer::idtEnumWIA_FORMAT_INFO</b> method creates a banded tran
 
 ### -param ppEnum [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms630158(v=VS.85).aspx">IEnumWIA_FORMAT_INFO</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms630158(v=VS.85).aspx">IEnumWIA_FORMAT_INFO</a>**</b>
 
-Receives the address of a pointer to the <a href="https://msdn.microsoft.com/library/ms630158(v=VS.85).aspx">IEnumWIA_FORMAT_INFO</a> interface.
+Receives the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms630158(v=VS.85).aspx">IEnumWIA_FORMAT_INFO</a> interface.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If it fails for any reason other than those specified in the following table, th
 </tr>
 <tr>
 <td>E_INVALIDARG</td>
-<td>The <i>ppEnum</i> parameter is not the address of a pointer to the <a href="https://msdn.microsoft.com/library/ms630158(v=VS.85).aspx">IEnumWIA_FORMAT_INFO</a> interface.</td>
+<td>The <i>ppEnum</i> parameter is not the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms630158(v=VS.85).aspx">IEnumWIA_FORMAT_INFO</a> interface.</td>
 </tr>
 <tr>
 <td>E_OUTOFMEMORY</td>
@@ -101,7 +101,7 @@ If it fails for any reason other than those specified in the following table, th
 
 
 
-This method creates the <a href="https://msdn.microsoft.com/library/ms630158(v=VS.85).aspx">IEnumWIA_FORMAT_INFO</a> interface that applications use to enumerate an array of <a href="https://msdn.microsoft.com/library/ms629878(v=VS.85).aspx">WIA_FORMAT_INFO</a> structures. This provides applications with the ability to determine the formats and media types of incoming data when transferring banded data.
+This method creates the <a href="https://msdn.microsoft.com/en-us/library/ms630158(v=VS.85).aspx">IEnumWIA_FORMAT_INFO</a> interface that applications use to enumerate an array of <a href="https://msdn.microsoft.com/en-us/library/ms629878(v=VS.85).aspx">WIA_FORMAT_INFO</a> structures. This provides applications with the ability to determine the formats and media types of incoming data when transferring banded data.
 
 Note that applications must call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppEnum</i> parameter.
 

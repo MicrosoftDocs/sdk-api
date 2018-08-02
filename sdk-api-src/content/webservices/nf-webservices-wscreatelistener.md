@@ -7,7 +7,7 @@ old-location: wsw\wscreatelistener.htm
 old-project: wsw
 ms.assetid: 2e592fd2-cf88-4f87-a71b-1c3416917fa7
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCreateListener, WsCreateListener function [Web Services for Windows], webservices/WsCreateListener, wsw.wscreatelistener
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                Creates a <a href="https://msdn.microsoft.com/fffda587-23f5-4c7a-93c5-f03d9d3fafb2">listener</a> with the specified properties.
+Creates a <a href="https://msdn.microsoft.com/fffda587-23f5-4c7a-93c5-f03d9d3fafb2">listener</a> with the specified properties.
             
 
 
@@ -66,14 +65,12 @@ req.product: Windows Address Book 5.0
 
 ### -param channelType [in]
 
-
-                    The type of channel the listener listens for. For channel types, see the <a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">WS_CHANNEL_TYPE</a> enumeration.
+The type of channel the listener listens for. For channel types, see the <a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">WS_CHANNEL_TYPE</a> enumeration.
 
 
 ### -param channelBinding [in]
 
-
-                    The channel protocol for the listener.
+The channel protocol for the listener.
                 For possible bindings, see the <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CHANNEL_BINDING</a> enumeration.
 
 
@@ -89,8 +86,7 @@ For information on creating a custom listener, see the Remarks section.
 
 ### -param propertyCount [in]
 
-
-                    The number of properties in the <i>properties</i> array.
+The number of properties in the <i>properties</i> array.
                 
 
 
@@ -103,8 +99,7 @@ If you are creating a custom channel (using the WS_CUSTOM_CHANNEL_BINDING value 
 
 ### -param listener
 
-
-                    On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_LISTENER</a> structure representing the new listener.
+On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_LISTENER</a> structure representing the new listener.
                 
 
 
@@ -132,7 +127,6 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -144,7 +138,6 @@ A quota was exceeded.
 </dl>
 </td>
 <td width="60%">
-
 Insufficient memory to complete the operation.
 
 </td>
@@ -156,7 +149,6 @@ Insufficient memory to complete the operation.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>

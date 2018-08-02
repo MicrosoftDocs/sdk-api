@@ -7,7 +7,7 @@ old-location: wmi\swbemobjectset_count.htm
 old-project: WmiSdk
 ms.assetid: ad3d1265-a11e-4962-b1f3-60092d2f79ef
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: Count property [Windows Management Instrumentation], Count property [Windows Management Instrumentation],ISWbemObjectSet interface, Count property [Windows Management Instrumentation],SWbemObjectSet object, ISWbemObjectSet interface [Windows Management Instrumentation],Count property, ISWbemObjectSet.get_Count, ISWbemObjectSet::get_Count, SWbemObjectSet object [Windows Management Instrumentation],Count property, SWbemObjectSet.Count, _hmm_swbemobjectset.count, get_Count, wmi.swbemobjectset_count
 ms.prod: windows
 ms.technology: windows-sdk

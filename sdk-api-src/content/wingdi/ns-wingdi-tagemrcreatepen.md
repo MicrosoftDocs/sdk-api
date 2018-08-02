@@ -7,7 +7,7 @@ old-location: gdi\emrcreatepen.htm
 old-project: gdi
 ms.assetid: bd338c56-00b4-4eae-9e4f-57ac49809f32
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: "*PEMRCREATEPEN, EMRCREATEPEN, EMRCREATEPEN structure [Windows GDI], PEMRCREATEPEN, PEMRCREATEPEN structure pointer [Windows GDI], _win32_EMRCREATEPEN_str, gdi.emrcreatepen, tagEMRCREATEPEN, wingdi/EMRCREATEPEN, wingdi/PEMRCREATEPEN"
 ms.prod: windows
 ms.technology: windows-sdk

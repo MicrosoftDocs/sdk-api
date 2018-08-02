@@ -4,10 +4,10 @@ title: IUpdateInstaller3::get_AttemptCloseAppsIfNecessary
 author: windows-sdk-content
 description: Gets a value indicating whether the update installer will attempt to close applications, blocking immediate installation of updates.
 old-location: wua\iupdateinstaller3_get_attemptcloseappsifnecessary.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: ACC9EBDD-E050-41B7-82EF-186094750DCA
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IUpdateInstaller3 interface [Windows Update Agent],get_AttemptCloseAppsIfNecessary method, IUpdateInstaller3.get_AttemptCloseAppsIfNecessary, IUpdateInstaller3::get_AttemptCloseAppsIfNecessary, get_AttemptCloseAppsIfNecessary, get_AttemptCloseAppsIfNecessary method [Windows Update Agent], get_AttemptCloseAppsIfNecessary method [Windows Update Agent],IUpdateInstaller3 interface, wua.iupdateinstaller3_get_attemptcloseappsifnecessary, wuapi/IUpdateInstaller3::get_AttemptCloseAppsIfNecessary
 ms.prod: windows
 ms.technology: windows-sdk

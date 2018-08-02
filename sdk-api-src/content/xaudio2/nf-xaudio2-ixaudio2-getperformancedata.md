@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2_interface_getperformancedata.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.GetPerformanceData(XAUDIO2_PERFORMANCE_DATA@)
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: GetPerformanceData, GetPerformanceData method [XAudio2 Audio Mixing APIs], GetPerformanceData method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],GetPerformanceData method, IXAudio2.GetPerformanceData, IXAudio2::GetPerformanceData, xaudio2.ixaudio2_interface_getperformancedata, xaudio2/IXAudio2::GetPerformanceData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Returns current resource usage details, such as available memory or CPU usage.
 
 ### -param pPerfData [out]
 
-On success, pointer to an <a href="https://msdn.microsoft.com/library/Ee419239(v=VS.85).aspx">XAUDIO2_PERFORMANCE_DATA</a> structure that is returned. 
+On success, pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419239(v=VS.85).aspx">XAUDIO2_PERFORMANCE_DATA</a> structure that is returned. 
 
 
 
@@ -78,7 +78,7 @@ This method does not return a value.
 
 
 
-For specific information on the statistics returned by <b>GetPerformanceData</b>, see the <a href="https://msdn.microsoft.com/library/Ee419239(v=VS.85).aspx">XAUDIO2_PERFORMANCE_DATA</a> structure reference.
+For specific information on the statistics returned by <b>GetPerformanceData</b>, see the <a href="https://msdn.microsoft.com/en-us/library/Ee419239(v=VS.85).aspx">XAUDIO2_PERFORMANCE_DATA</a> structure reference.
 
 
 
@@ -93,7 +93,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee415908(v=VS.85).aspx">IXAudio2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415908(v=VS.85).aspx">IXAudio2</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimerupdatehandler_cleartimerclienteventha
 old-project: UIAnimation
 ms.assetid: c7383df5-dbd4-4cae-a682-47f84c2e8106
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: ClearTimerClientEventHandler, ClearTimerClientEventHandler method [Windows Animation], ClearTimerClientEventHandler method [Windows Animation],IUIAnimationTimerUpdateHandler interface, IUIAnimationTimerUpdateHandler interface [Windows Animation],ClearTimerClientEventHandler method, IUIAnimationTimerUpdateHandler.ClearTimerClientEventHandler, IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler, uianimation.iuianimationtimerupdatehandler_cleartimerclienteventhandler, uianimation/IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Clears the handler for timer client status change events.
+Clears the handler for timer client status change events.
 
 
 ## -parameters
@@ -80,8 +79,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://msdn.microsoft.com/ce213fc5-1329-413f-abf1-a4ab7c78818e">
-      IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler</a>
+<a href="https://msdn.microsoft.com/ce213fc5-1329-413f-abf1-a4ab7c78818e">IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler</a>
  
 
  

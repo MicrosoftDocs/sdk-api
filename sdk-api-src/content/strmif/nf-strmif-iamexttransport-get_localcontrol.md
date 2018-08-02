@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_get_localcontrol.htm
 old-project: DirectShow
 ms.assetid: 793078a2-bddd-469b-9043-f07830499353
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMExtTransport interface [DirectShow],get_LocalControl method, IAMExtTransport.get_LocalControl, IAMExtTransport::get_LocalControl, IAMExtTransportget_LocalControl, dshow.iamexttransport_get_localcontrol, get_LocalControl, get_LocalControl method [DirectShow], get_LocalControl method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_LocalControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,11 +71,9 @@ Pointer to a <b>long</b> integer that receives one of the following values:
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

@@ -7,7 +7,7 @@ old-location: mstv\idvbslocator2.htm
 old-project: mstv
 ms.assetid: 2f17c9a3-6ae8-4102-aee6-b2cb206d4952
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IDVBSLocator2, IDVBSLocator2 interface [Microsoft TV Technologies], IDVBSLocator2 interface [Microsoft TV Technologies],described, mstv.idvbslocator2, tuner/IDVBSLocator2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Provides information to enable a tuner to acquire a Digital Video Broadcasting-Satellite  (DVB-S) transmission. This interface extends the capabilities in the <a href="https://msdn.microsoft.com/a9f02e78-3800-4b14-81df-acab01ea072b">IDVBSLocator</a> interface to support the DVB-S, Second Generation (DVB-S2) specification, the Digital Satellite Equipment Control (DiSEqC) protocol, and low-noise block converters (LNBs).
+Provides information to enable a tuner to acquire a Digital Video Broadcasting-Satellite  (DVB-S) transmission. This interface extends the capabilities in the <a href="https://msdn.microsoft.com/a9f02e78-3800-4b14-81df-acab01ea072b">IDVBSLocator</a> interface to support the DVB-S, Second Generation (DVB-S2) specification, the Digital Satellite Equipment Control (DiSEqC) protocol, and low-noise block converters (LNBs).
 
 
 ## -remarks

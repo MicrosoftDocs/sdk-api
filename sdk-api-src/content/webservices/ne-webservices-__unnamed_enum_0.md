@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_buffer_property_id.htm
 old-project: wsw
 ms.assetid: 580a72d3-6800-48b3-9345-4e3b20bb4066
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_BUFFER_PROPERTY_ID, WS_XML_BUFFER_PROPERTY_ID enumeration [Web Services for Windows], webservices/WS_XML_BUFFER_PROPERTY_ID, wsw.ws_xml_buffer_property_id
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Each XML buffer property is identified by an ID and has an associated
+Each XML buffer property is identified by an ID and has an associated
         value.
       
 

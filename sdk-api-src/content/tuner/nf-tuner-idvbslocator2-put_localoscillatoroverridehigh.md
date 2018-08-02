@@ -7,7 +7,7 @@ old-location: mstv\idvbslocator2_localoscillatoroverridehigh.htm
 old-project: mstv
 ms.assetid: 72cc7ca2-f021-4f86-b5d5-443db88298b8
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IDVBSLocator2 interface [Microsoft TV Technologies],LocalOscillatorOverrideHigh property, IDVBSLocator2.LocalOscillatorOverrideHigh, IDVBSLocator2.put_LocalOscillatorOverrideHigh, IDVBSLocator2::LocalOscillatorOverrideHigh, IDVBSLocator2::get_LocalOscillatorOverrideHigh, IDVBSLocator2::put_LocalOscillatorOverrideHigh, LocalOscillatorOverrideHigh property [Microsoft TV Technologies], LocalOscillatorOverrideHigh property [Microsoft TV Technologies],IDVBSLocator2 interface, mstv.idvbslocator2_localoscillatoroverridehigh, put_LocalOscillatorOverrideHigh, tuner/IDVBSLocator2::LocalOscillatorOverrideHigh, tuner/IDVBSLocator2::get_LocalOscillatorOverrideHigh, tuner/IDVBSLocator2::put_LocalOscillatorOverrideHigh
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Specifies the high oscillator frequency of a Digital Video Broadcasting (DVB) system, in kHz.
+Specifies the high oscillator frequency of a Digital Video Broadcasting (DVB) system, in kHz.
     
 
 This property is read/write.

@@ -7,7 +7,7 @@ old-location: wsw\ws_unknown_endpoint_identity.htm
 old-project: wsw
 ms.assetid: 93a51fe5-7195-4286-97f3-92c20b0d3e54
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_UNKNOWN_ENDPOINT_IDENTITY, WS_UNKNOWN_ENDPOINT_IDENTITY structure [Web Services for Windows], _WS_UNKNOWN_ENDPOINT_IDENTITY, webservices/WS_UNKNOWN_ENDPOINT_IDENTITY, wsw.ws_unknown_endpoint_identity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Type for unknown endpoint identity.  This type is only used to represent
+Type for unknown endpoint identity.  This type is only used to represent
                 an endpoint identity type that was deserialized but was not understood.
             
 
@@ -64,15 +63,13 @@ req.product: Windows Address Book 5.0
 
 ### -field identity
 
-
-                    The base type from which this type and all other endpoint identity types derive.
+The base type from which this type and all other endpoint identity types derive.
                 
 
 
 ### -field element
 
-
-                    An XML buffer containing a single XML Element which corresponds to the
+An XML buffer containing a single XML Element which corresponds to the
                     identity element that was not understood.  This field may not be <b>NULL</b>.
                 
 

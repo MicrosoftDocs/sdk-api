@@ -4,10 +4,10 @@ title: VDS_REPARSE_POINT_PROP
 author: windows-sdk-content
 description: Defines the reparse-point properties of a volume object.
 old-location: base\vds_reparse_point_prop.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 7e224f49-c51f-447e-bc0b-6af3843e01ae
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: "*PVDS_REPARSE_POINT_PROP, PVDS_REPARSE_POINT_PROP, PVDS_REPARSE_POINT_PROP structure pointer [VDS], VDS_REPARSE_POINT_PROP, VDS_REPARSE_POINT_PROP structure [VDS], base.vds_reparse_point_prop, vds/PVDS_REPARSE_POINT_PROP, vds/VDS_REPARSE_POINT_PROP"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ A string for a path without a drive letter. For example, "\mount".
 
 
 
-The <a href="https://msdn.microsoft.com/ae79355d-2012-42bf-930d-2915c4ca502c">IVdsVolumeMF::QueryReparsePoints</a>
-      method returns this structure to report the reparse-point properties of a <a href="https://msdn.microsoft.com/92013015-b0f5-4b92-937b-c2637f65810c">volume object</a>.
+The <a href="https://msdn.microsoft.com/ae79355d-2012-42bf-930d-2915c4ca502c">IVdsVolumeMF::QueryReparsePoints</a>method returns this structure to report the reparse-point properties of a <a href="https://msdn.microsoft.com/92013015-b0f5-4b92-937b-c2637f65810c">volume object</a>.
 
 
 

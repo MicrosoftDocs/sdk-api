@@ -7,7 +7,7 @@ old-location: mstv\ibdacomparable_hashexact.htm
 old-project: mstv
 ms.assetid: 41495662-835b-47bc-a8d6-b0b689ec4d51
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: HashExact, HashExact method [Microsoft TV Technologies], HashExact method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],HashExact method, IBDAComparable.HashExact, IBDAComparable::HashExact, IBDAComparableHashExact, mstv.ibdacomparable_hashexact, tuner/IBDAComparable::HashExact
 ms.prod: windows
 ms.technology: windows-sdk

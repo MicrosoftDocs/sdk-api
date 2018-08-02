@@ -7,7 +7,7 @@ old-location: wintouch\registertouchwindow.htm
 old-project: wintouch
 ms.assetid: a70a7418-f79d-40c8-9219-3ce38a74da9f
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: RegisterTouchWindow, RegisterTouchWindow function [Windows Touch], TWF_FINETOUCH, TWF_WANTPALM, wintouch.registertouchwindow, winuser/RegisterTouchWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,8 +91,7 @@ Specifies that <i>hWnd</i> prefers noncoalesced touch input.
 </dl>
 </td>
 <td width="60%">
-
-                       Setting this flag disables palm rejection which reduces delays for getting <a href="https://msdn.microsoft.com/5dee8bab-34fa-4dd9-a65b-35883757ec80">WM_TOUCH</a> messages. 
+Setting this flag disables palm rejection which reduces delays for getting <a href="https://msdn.microsoft.com/5dee8bab-34fa-4dd9-a65b-35883757ec80">WM_TOUCH</a> messages. 
 						     This is useful if you want as quick of a response as possible when a user touches your application.
 						  
 

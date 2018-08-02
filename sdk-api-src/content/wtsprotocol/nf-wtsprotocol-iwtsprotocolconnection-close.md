@@ -4,10 +4,10 @@ title: IWTSProtocolConnection::Close
 author: windows-sdk-content
 description: IWTSProtocolConnection::Close is no longer available. Instead, use IWRdsProtocolConnection::Close.
 old-location: termserv\iwtsprotocolconnection_close.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 746f5f06-7068-461b-8adf-b35d0c318942
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: Close, Close method [Remote Desktop Services], Close method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],Close method, IWTSProtocolConnection.Close, IWTSProtocolConnection::Close, termserv.iwtsprotocolconnection_close, wtsprotocol/IWTSProtocolConnection::Close
 ms.prod: windows
 ms.technology: windows-sdk

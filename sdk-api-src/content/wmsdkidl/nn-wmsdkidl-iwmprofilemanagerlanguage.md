@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofilemanagerlanguage.htm
 old-project: wmformat
 ms.assetid: 54875162-65fe-4959-b567-38c17ba2894d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMProfileManagerLanguage, IWMProfileManagerLanguage interface [windows Media Format], IWMProfileManagerLanguage interface [windows Media Format],described, IWMProfileManagerLanguageInterface, wmformat.iwmprofilemanagerlanguage, wmsdkidl/IWMProfileManagerLanguage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,8 +94,7 @@ Specifies which set of system profiles to load based upon language.
 </tr>
 </table> 
 
-
-    The following interfaces can be obtained by using the QueryInterface method of this interface.<table>
+The following interfaces can be obtained by using the QueryInterface method of this interface.<table>
 <tr>
 <th>Interface</th>
 <th>IID</th>

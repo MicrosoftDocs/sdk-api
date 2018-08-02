@@ -4,10 +4,10 @@ title: ITextRange::GetDuplicate
 author: windows-sdk-content
 description: Gets a duplicate of this range object.
 old-location: controls\ITextRange_GetDuplicate.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextrange\itextrangegetduplicate.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetDuplicate, GetDuplicate method [Windows Controls], GetDuplicate method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetDuplicate method, ITextRange.GetDuplicate, ITextRange::GetDuplicate, _win32_ITextRange_GetDuplicate, _win32_ITextRange_GetDuplicate_cpp, controls.ITextRange_GetDuplicate, controls._win32_ITextRange_GetDuplicate, tom/ITextRange::GetDuplicate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Gets a duplicate of this range object.
 
 ### -param ppRange
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>**</b>
 
 The duplicate of the range. 
 
@@ -113,7 +113,7 @@ Failure for some other reason.
 
 To create an insertion point in order to traverse a range, first duplicate the range and then collapse the duplicate at its start character position. Note, a range is characterized by start and end character positions, and the story it belongs to.
 
-Even if the range is actually an <a href="https://msdn.microsoft.com/library/Bb774060(v=VS.85).aspx">ITextSelection</a>, the duplicate returned is an <a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>. For an example, see the <a href="https://msdn.microsoft.com/library/Bb787783(v=VS.85).aspx">ITextRange::FindText</a> method. 
+Even if the range is actually an <a href="https://msdn.microsoft.com/en-us/library/Bb774060(v=VS.85).aspx">ITextSelection</a>, the duplicate returned is an <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>. For an example, see the <a href="https://msdn.microsoft.com/en-us/library/Bb787783(v=VS.85).aspx">ITextRange::FindText</a> method. 
 
 
 
@@ -127,11 +127,11 @@ Even if the range is actually an <a href="https://msdn.microsoft.com/library/Bb7
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787783(v=VS.85).aspx">FindText</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787783(v=VS.85).aspx">FindText</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
 
 
 
@@ -139,7 +139,7 @@ Even if the range is actually an <a href="https://msdn.microsoft.com/library/Bb7
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

@@ -4,10 +4,10 @@ title: Edit_SetPasswordChar macro
 author: windows-sdk-content
 description: Sets or removes the password character for an edit or rich edit control. When a password character is set, that character is displayed in place of the characters typed by the user. You can use this macro or send the EM_SETPASSWORDCHAR message explicitly.
 old-location: controls\Edit_SetPasswordChar.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setpasswordchar.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: Edit_SetPasswordChar, Edit_SetPasswordChar macro [Windows Controls], _win32_Edit_SetPasswordChar, _win32_Edit_SetPasswordChar_cpp, controls.Edit_SetPasswordChar, controls._win32_Edit_SetPasswordChar, windowsx/Edit_SetPasswordChar
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets or removes the password character for an edit or rich edit control. When a password character is set, that character is displayed in place of the characters typed by the user. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761653(v=VS.85).aspx">EM_SETPASSWORDCHAR</a> message explicitly.
+Sets or removes the password character for an edit or rich edit control. When a password character is set, that character is displayed in place of the characters typed by the user. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761653(v=VS.85).aspx">EM_SETPASSWORDCHAR</a> message explicitly.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ The character to be displayed in place of the characters typed by the user. If t
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb761653(v=VS.85).aspx">EM_SETPASSWORDCHAR</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761653(v=VS.85).aspx">EM_SETPASSWORDCHAR</a>.
 
 
 

@@ -7,7 +7,7 @@ old-location: wmi\iwbemeventprovidersecurity.htm
 old-project: WmiSdk
 ms.assetid: 892a7a9d-f058-4c4d-870d-c0eb5773949f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWbemEventProviderSecurity, IWbemEventProviderSecurity interface [Windows Management Instrumentation], IWbemEventProviderSecurity interface [Windows Management Instrumentation],described, _hmm_iwbemeventprovidersecurity, wbemprov/IWbemEventProviderSecurity, wmi.iwbemeventprovidersecurity
 ms.prod: windows
 ms.technology: windows-sdk

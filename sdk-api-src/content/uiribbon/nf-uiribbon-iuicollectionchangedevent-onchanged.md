@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuicollectionchangedevent_onchanged.ht
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollectionchangedevent\onchanged.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: IUICollectionChangedEvent interface [Windows Ribbon],OnChanged method, IUICollectionChangedEvent.OnChanged, IUICollectionChangedEvent::OnChanged, OnChanged, OnChanged method [Windows Ribbon], OnChanged method [Windows Ribbon],IUICollectionChangedEvent interface, scenicintent_IUICollectionChangedEvent_OnChanged, uiribbon/IUICollectionChangedEvent::OnChanged, windowsribbon.windowsribbon_iuicollectionchangedevent_onchanged
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-Called when an <a href="https://msdn.microsoft.com/library/Dd371519(v=VS.85).aspx">IUICollection</a> changes.
+Called when an <a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a> changes.
 
 
 ## -parameters
@@ -61,11 +61,10 @@ Called when an <a href="https://msdn.microsoft.com/library/Dd371519(v=VS.85).asp
 
 ### -param action [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Dd371548(v=VS.85).aspx">UI_COLLECTIONCHANGE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371548(v=VS.85).aspx">UI_COLLECTIONCHANGE</a></b>
 
-
-					The <a href="https://msdn.microsoft.com/library/windows/hardware/mt270124">action</a> performed on the 
-					<a href="https://msdn.microsoft.com/library/Dd371519(v=VS.85).aspx">IUICollection</a>.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/mt270124">action</a> performed on the 
+					<a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a>.
 				
 
 
@@ -73,17 +72,15 @@ Type: <b><a href="https://msdn.microsoft.com/library/Dd371548(v=VS.85).aspx">UI_
 
 Type: <b>UINT32</b>
 
-
-					Index of the old item on remove or replace; otherwise <a href="https://msdn.microsoft.com/library/Dd371551(v=VS.85).aspx">UI_COLLECTION_INVALIDINDEX</a>.
+Index of the old item on remove or replace; otherwise <a href="https://msdn.microsoft.com/en-us/library/Dd371551(v=VS.85).aspx">UI_COLLECTION_INVALIDINDEX</a>.
 				
 
 
 ### -param oldItem [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
 
-
-					Pointer to the old item on remove or replace; otherwise <b>NULL</b>.
+Pointer to the old item on remove or replace; otherwise <b>NULL</b>.
 				
 
 
@@ -91,17 +88,15 @@ Type: <b><a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUn
 
 Type: <b>UINT32</b>
 
-
-					Index of the new item on insert, add, or replace; otherwise <a href="https://msdn.microsoft.com/library/Dd371551(v=VS.85).aspx">UI_COLLECTION_INVALIDINDEX</a>.
+Index of the new item on insert, add, or replace; otherwise <a href="https://msdn.microsoft.com/en-us/library/Dd371551(v=VS.85).aspx">UI_COLLECTION_INVALIDINDEX</a>.
 				
 
 
 ### -param newItem [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
 
-
-					Pointer to the new item on insert, add, or replace; otherwise <b>NULL</b>.
+Pointer to the new item on insert, add, or replace; otherwise <b>NULL</b>.
 				
 
 
@@ -120,8 +115,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-				The <b>IUICollectionChangedEvent::OnChanged</b> interface is implemented by the Ribbon host application 
+The <b>IUICollectionChangedEvent::OnChanged</b> interface is implemented by the Ribbon host application 
 				(the client connection sink) as a listener for collection changed 
 				events that are fired by the Ribbon (the connectable object).
 			
@@ -138,15 +132,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd742704(v=VS.85).aspx">Gallery Sample</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742704(v=VS.85).aspx">Gallery Sample</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371519(v=VS.85).aspx">IUICollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371499(v=VS.85).aspx">IUICollectionChangedEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371499(v=VS.85).aspx">IUICollectionChangedEvent</a>
  
 
  

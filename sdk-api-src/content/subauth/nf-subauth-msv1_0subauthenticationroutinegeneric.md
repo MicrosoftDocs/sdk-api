@@ -4,10 +4,10 @@ title: Msv1_0SubAuthenticationRoutineGeneric function
 author: windows-sdk-content
 description: Performs Remote Access Service authentication when subauthentication is requested by calling the LsaCallAuthenticationPackage function.
 old-location: security\msv1_0subauthenticationroutinegeneric.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 78F51B69-DCFA-47D0-84C5-B44C79D50DAF
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: Msv1_0SubAuthenticationRoutineGeneric, Msv1_0SubAuthenticationRoutineGeneric function [Security], security.msv1_0subauthenticationroutinegeneric, subauth/Msv1_0SubAuthenticationRoutineGeneric
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,8 +90,7 @@ A pointer to a buffer that contains a <a href="https://msdn.microsoft.com/62808f
 
 
 
-
-						If the function succeeds, the return value is <b>STATUS_SUCCESS</b>.
+If the function succeeds, the return value is <b>STATUS_SUCCESS</b>.
 
 If the function fails, the return value is an NTSTATUS code.
 

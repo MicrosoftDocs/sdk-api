@@ -7,7 +7,7 @@ old-location: inputdev\lastinputinfo.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputstructures\lastinputinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: "*PLASTINPUTINFO, LASTINPUTINFO, LASTINPUTINFO structure [Keyboard and Mouse Input], PLASTINPUTINFO, PLASTINPUTINFO structure pointer [Keyboard and Mouse Input], _win32_LASTINPUTINFO_str, _win32_lastinputinfo_str_cpp, inputdev.lastinputinfo, tagLASTINPUTINFO, winui._win32_lastinputinfo_str, winuser/LASTINPUTINFO, winuser/PLASTINPUTINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ This function is useful for input idle detection. For more information on tick c
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646302(v=VS.85).aspx">GetLastInputInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646302(v=VS.85).aspx">GetLastInputInfo</a>
 
 
 
@@ -99,7 +99,7 @@ This function is useful for input idle detection. For more information on tick c
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
 
 
 

@@ -4,10 +4,10 @@ title: IVssBackupComponents::GetWriterMetadata
 author: windows-sdk-content
 description: The GetWriterMetadata method returns the metadata for a specific writer running on the system.
 old-location: base\ivssbackupcomponents_getwritermetadata.htm
-old-project: vss
+old-project: VSS
 ms.assetid: a577d06a-4c9d-4ebe-b4d4-685f96ec9c83
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetWriterMetadata, GetWriterMetadata method [VSS], GetWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterMetadata method, IVssBackupComponents.GetWriterMetadata, IVssBackupComponents::GetWriterMetadata, _win32_ivssbackupcomponents_getwritermetadata, base.ivssbackupcomponents_getwritermetadata, vsbackup/IVssBackupComponents::GetWriterMetadata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -170,8 +170,7 @@ The specified shadow copy does not exist.
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
@@ -204,7 +203,7 @@ This is in contrast to the information returned by
 <a href="https://msdn.microsoft.com/b99e7e41-1c88-462c-b6d8-734f7a6e24d4">GetWriterComponents</a> (during restore operations), which was stored in the Backup Components Document by calls to 
 <a href="https://msdn.microsoft.com/50cb0b16-9ed3-4496-962a-9c845c10986c">AddComponent</a>.
 
-When the caller of this method is finished accessing the metadata, it must call <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a>.
+When the caller of this method is finished accessing the metadata, it must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a>.
 
 
 

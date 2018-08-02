@@ -4,10 +4,10 @@ title: IVssProviderCreateSnapshotSet::PreCommitSnapshots
 author: windows-sdk-content
 description: Ensures the provider is ready to quickly commit the prepared LUNs.
 old-location: base\ivssprovidercreatesnapshotset_precommitsnapshots.htm
-old-project: vss
+old-project: VSS
 ms.assetid: af1caf80-751d-4b0d-8b35-970800d1dee6
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: IVssProviderCreateSnapshotSet interface [VSS],PreCommitSnapshots method, IVssProviderCreateSnapshotSet.PreCommitSnapshots, IVssProviderCreateSnapshotSet::PreCommitSnapshots, PreCommitSnapshots, PreCommitSnapshots method [VSS], PreCommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, base.ivssprovidercreatesnapshotset_precommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PreCommitSnapshots
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-
-   The <b>PreCommitSnapshots</b> 
+The <b>PreCommitSnapshots</b> 
    method ensures the provider is ready to quickly commit the prepared LUNs. This happens 
    immediately before the flush-and-hold writes, but while applications are in a frozen state. During this call the 
    provider should prepare all shadow copies in the shadow copy set indicated by <i>SnapshotSetId</i> 

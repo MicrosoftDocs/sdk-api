@@ -7,7 +7,7 @@ old-location: gdi\ttloadinfo.htm
 old-project: gdi
 ms.assetid: 7a4beae7-cd30-47e3-b310-d0a79c3c8c36
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: TTLOADINFO, TTLOADINFO structure [Windows GDI], _win32_TTLOADINFO, gdi.ttloadinfo, t2embapi/TTLOADINFO
 ms.prod: windows
 ms.technology: windows-sdk

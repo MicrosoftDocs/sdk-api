@@ -4,10 +4,10 @@ title: "_SERVICE_LAUNCH_PROTECTED_INFO"
 author: windows-sdk-content
 description: Indicates a service protection type.
 old-location: base\service_launch_protected_info.htm
-old-project: services
+old-project: Services
 ms.assetid: ECD44E9F-BE48-4038-94B4-37C8CA5C89F7
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PSERVICE_LAUNCH_PROTECTED_INFO, PSERVICE_LAUNCH_PROTECTED_INFO, PSERVICE_LAUNCH_PROTECTED_INFO structure pointer, SERVICE_LAUNCH_PROTECTED_ANTIMALWARE_LIGHT, SERVICE_LAUNCH_PROTECTED_INFO, SERVICE_LAUNCH_PROTECTED_INFO structure, SERVICE_LAUNCH_PROTECTED_NONE, SERVICE_LAUNCH_PROTECTED_WINDOWS, SERVICE_LAUNCH_PROTECTED_WINDOWS_LIGHT, _SERVICE_LAUNCH_PROTECTED_INFO, base.service_launch_protected_info, winsvc/PSERVICE_LAUNCH_PROTECTED_INFO, winsvc/SERVICE_LAUNCH_PROTECTED_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/6e5b79ed-52e1-
 
 The <b>SERVICE_LAUNCH_PROTECTED_WINDOWS</b> and <b>SERVICE_LAUNCH_PROTECTED_WINDOWS_LIGHT</b> protection types are reserved for internal Windows use only.
 
-The <b>SERVICE_LAUNCH_PROTECTED_ANTIMALWARE_LIGHT</b> protection type can be used by the anti-malware vendors to launch their anti-malware service as protected. See <a href="https://msdn.microsoft.com/library/Dn313124(v=VS.85).aspx">Protecting Anti-Malware Services</a> for more info.
+The <b>SERVICE_LAUNCH_PROTECTED_ANTIMALWARE_LIGHT</b> protection type can be used by the anti-malware vendors to launch their anti-malware service as protected. See <a href="https://msdn.microsoft.com/en-us/library/Dn313124(v=VS.85).aspx">Protecting Anti-Malware Services</a> for more info.
 
 Once the service is launched as protected, other unprotected processes will not be able to call the following APIs on the protected service.
 

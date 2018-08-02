@@ -4,10 +4,10 @@ title: LogonUserExA function
 author: windows-sdk-content
 description: The LogonUserEx function attempts to log a user on to the local computer.
 old-location: security\logonuserex.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 4aba1cad-f234-4329-8599-7438cb9bee98
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: LOGON32_LOGON_BATCH, LOGON32_LOGON_INTERACTIVE, LOGON32_LOGON_NETWORK, LOGON32_LOGON_NETWORK_CLEARTEXT, LOGON32_LOGON_NEW_CREDENTIALS, LOGON32_LOGON_SERVICE, LOGON32_LOGON_UNLOCK, LOGON32_PROVIDER_DEFAULT, LOGON32_PROVIDER_WINNT40, LOGON32_PROVIDER_WINNT50, LogonUserEx, LogonUserEx function [Security], LogonUserExA, LogonUserExW, _win32_logonuserex, security.logonuserex, winbase/LogonUserEx, winbase/LogonUserExA, winbase/LogonUserExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -249,8 +249,7 @@ A pointer to a <a href="https://msdn.microsoft.com/7514ec77-34b1-490d-ba21-3b694
 
 
 
-
-						If the function succeeds, the function returns  nonzero.
+If the function succeeds, the function returns  nonzero.
 
 If the function fails, it returns  zero. To get extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.

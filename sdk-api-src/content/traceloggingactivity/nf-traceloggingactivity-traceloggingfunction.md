@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingfunction.htm
 old-project: tracelogging
 ms.assetid: 70382367-E0A0-4E5B-A14F-863BEC0615C5
 ms.author: windowssdkdev
-ms.date: 04/27/2018
+ms.date: 07/29/2018
 ms.keywords: TraceLoggingFunction, TraceLoggingFunction macro, tracelogging.traceloggingfunction, traceloggingactivity/TraceLoggingFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,12 +78,10 @@ A provider registration handle.
 
 
 
-
-         Invoke this macro at the beginning of a function to define an activity. This macro will then automatically create a <a href="https://msdn.microsoft.com/7666A28B-42B2-473F-852F-BD3F6CAA6AC7">TraceLoggingThreadActivity</a> object based on the name of the function, and start logging for the activity. It will also automatically generate and log a stop event when the function completes.
+Invoke this macro at the beginning of a function to define an activity. This macro will then automatically create a <a href="https://msdn.microsoft.com/7666A28B-42B2-473F-852F-BD3F6CAA6AC7">TraceLoggingThreadActivity</a> object based on the name of the function, and start logging for the activity. It will also automatically generate and log a stop event when the function completes.
        
 
-<div class="alert"><b>Caution</b>  <p class="note">
-          Since this macro creates a <a href="https://msdn.microsoft.com/7666A28B-42B2-473F-852F-BD3F6CAA6AC7">TraceLoggingThreadActivity</a> object, you must ensure that no child activity will outlast the associated function, even in error cases or edge cases.
+<div class="alert"><b>Caution</b>  <p class="note">Since this macro creates a <a href="https://msdn.microsoft.com/7666A28B-42B2-473F-852F-BD3F6CAA6AC7">TraceLoggingThreadActivity</a> object, you must ensure that no child activity will outlast the associated function, even in error cases or edge cases.
         
 
 </div>

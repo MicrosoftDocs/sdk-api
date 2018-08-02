@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_pantiltrelative.htm
 old-project: DirectShow
 ms.assetid: 5d96dcfb-c0c4-4521-bf1f-30947577d305
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ICameraControl interface [DirectShow],get_PanTiltRelative method, ICameraControl.get_PanTiltRelative, ICameraControl::get_PanTiltRelative, ICameraControlget_PanTiltRelative, dshow.icameracontrol_get_pantiltrelative, get_PanTiltRelative, get_PanTiltRelative method [DirectShow], get_PanTiltRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_PanTiltRelative
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,22 +62,19 @@ The <code>get_PanTiltRelative</code> method returns the camera's relative pan an
 
 ### -param pPanValue [out]
 
-
-            Receives the relative pan. See <a href="https://msdn.microsoft.com/a7237e0a-82b3-4e2a-a6c7-97fbb03b5917">ICameraControl::get_PanRelative</a>.
+Receives the relative pan. See <a href="https://msdn.microsoft.com/a7237e0a-82b3-4e2a-a6c7-97fbb03b5917">ICameraControl::get_PanRelative</a>.
           
 
 
 ### -param pTiltValue [out]
 
-
-            Receives the relative tilt. See <a href="https://msdn.microsoft.com/e8730043-a506-4c74-a9ca-94d6e003a4b1">ICameraControl::get_TiltRelative</a>.
+Receives the relative tilt. See <a href="https://msdn.microsoft.com/e8730043-a506-4c74-a9ca-94d6e003a4b1">ICameraControl::get_TiltRelative</a>.
           
 
 
 ### -param pFlags [out]
 
-
-            Receives one or more flags. See <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a>.
+Receives one or more flags. See <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a>.
           
 
 

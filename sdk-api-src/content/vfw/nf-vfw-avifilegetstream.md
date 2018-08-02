@@ -7,7 +7,7 @@ old-location: multimedia\avifilegetstream.htm
 old-project: Multimedia
 ms.assetid: b51a823c-6904-4942-883f-bda347541757
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: AVIFileGetStream, AVIFileGetStream function [Windows Multimedia], _win32_AVIFileGetStream, multimedia.avifilegetstream, vfw/AVIFileGetStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,11 +79,9 @@ Four-character code indicating the type of stream to open. Zero indicates any st
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

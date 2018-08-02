@@ -4,10 +4,10 @@ title: "_WSDXML_NAME"
 author: windows-sdk-content
 description: Specifies an XML qualified name.
 old-location: ncd\wsdxml_name_struct.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 9dce71d2-700c-4f86-9308-dee6a69010bb
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: WSDXML_NAME, WSDXML_NAME structure, _WSDXML_NAME, ncd.wsdxml_name_struct, wsdxmldom/WSDXML_NAME
 ms.prod: windows
 ms.technology: windows-sdk

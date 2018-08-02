@@ -7,7 +7,7 @@ old-location: menurc\geticoninfoex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\geticoninfoex.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: GetIconInfoEx, GetIconInfoEx function [Menus and Other Resources], GetIconInfoExA, GetIconInfoExW, IDC_APPSTARTING, IDC_ARROW, IDC_CROSS, IDC_HAND, IDC_HELP, IDC_IBEAM, IDC_NO, IDC_SIZEALL, IDC_SIZENESW, IDC_SIZENS, IDC_SIZENWSE, IDC_SIZEWE, IDC_UPARROW, IDC_WAIT, IDI_APPLICATION, IDI_ASTERISK, IDI_EXCLAMATION, IDI_HAND, IDI_QUESTION, IDI_WINLOGO, _win32_GetIconInfoEx, _win32_geticoninfoex_cpp, menurc.geticoninfoex, winui._win32_geticoninfoex, winuser/GetIconInfoEx, winuser/GetIconInfoExA, winuser/GetIconInfoExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Retrieves information about the specified icon or cursor. <b>GetIconInfoEx</b> extends <a href="https://msdn.microsoft.com/library/ms648070(v=VS.85).aspx">GetIconInfo</a> by using the newer <a href="https://msdn.microsoft.com/library/ms648053(v=VS.85).aspx">ICONINFOEX</a> structure.
+Retrieves information about the specified icon or cursor. <b>GetIconInfoEx</b> extends <a href="https://msdn.microsoft.com/en-us/library/ms648070(v=VS.85).aspx">GetIconInfo</a> by using the newer <a href="https://msdn.microsoft.com/en-us/library/ms648053(v=VS.85).aspx">ICONINFOEX</a> structure.
 
 
 ## -parameters
@@ -314,7 +314,7 @@ Question-mark icon.
 
 Type: <b>PICONINFOEX</b>
 
-When this method returns, contains a pointer to an <a href="https://msdn.microsoft.com/library/ms648053(v=VS.85).aspx">ICONINFOEX</a> structure. The function fills in the structure's members.
+When this method returns, contains a pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms648053(v=VS.85).aspx">ICONINFOEX</a> structure. The function fills in the structure's members.
 
 
 ## -returns
@@ -332,7 +332,7 @@ Type: <b>BOOL</b>
 
 
 
-<b>GetIconInfoEx</b> creates bitmaps for the <b>hbmMask</b> and <b>hbmCol</b> or members of <a href="https://msdn.microsoft.com/library/ms648053(v=VS.85).aspx">ICONINFOEX</a>. The calling application must manage these bitmaps and delete them when they are no longer necessary.
+<b>GetIconInfoEx</b> creates bitmaps for the <b>hbmMask</b> and <b>hbmCol</b> or members of <a href="https://msdn.microsoft.com/en-us/library/ms648053(v=VS.85).aspx">ICONINFOEX</a>. The calling application must manage these bitmaps and delete them when they are no longer necessary.
 
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
 This API does not participate in DPI virtualization. The output returned is not affected by the DPI of the calling thread.
@@ -349,43 +349,43 @@ This API does not participate in DPI virtualization. The output returned is not 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648059(v=VS.85).aspx">CreateIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648059(v=VS.85).aspx">CreateIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648060(v=VS.85).aspx">CreateIconFromResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648060(v=VS.85).aspx">CreateIconFromResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648062(v=VS.85).aspx">CreateIconIndirect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648062(v=VS.85).aspx">CreateIconIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648064(v=VS.85).aspx">DrawIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648064(v=VS.85).aspx">DrawIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648065(v=VS.85).aspx">DrawIconEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648065(v=VS.85).aspx">DrawIconEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648052(v=VS.85).aspx">ICONINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648052(v=VS.85).aspx">ICONINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646973(v=VS.85).aspx">Icons</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646973(v=VS.85).aspx">Icons</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648072(v=VS.85).aspx">LoadIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648073(v=VS.85).aspx">LookupIconIdFromDirectory</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648073(v=VS.85).aspx">LookupIconIdFromDirectory</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: menurc\hidecaret.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\hidecaret.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: HideCaret, HideCaret function [Menus and Other Resources], _win32_HideCaret, _win32_hidecaret_cpp, menurc.hidecaret, winui._win32_hidecaret, winuser/HideCaret
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,9 +88,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 <b>HideCaret</b> hides the caret only if the specified window owns the caret. If the specified window does not own the caret, <b>HideCaret</b> does nothing and returns <b>FALSE</b>. 
 
-Hiding is cumulative. If your application calls <b>HideCaret</b> five times in a row, it must also call <a href="https://msdn.microsoft.com/library/ms648406(v=VS.85).aspx">ShowCaret</a> five times before the caret is displayed. 
+Hiding is cumulative. If your application calls <b>HideCaret</b> five times in a row, it must also call <a href="https://msdn.microsoft.com/en-us/library/ms648406(v=VS.85).aspx">ShowCaret</a> five times before the caret is displayed. 
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms648398(v=VS.85).aspx">Hiding a Caret</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648398(v=VS.85).aspx">Hiding a Caret</a>.
 
 
 
@@ -100,7 +100,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648398(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646968(v=VS.85).aspx">Carets</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646968(v=VS.85).aspx">Carets</a>
 
 
 
@@ -108,15 +108,15 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648398(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648399(v=VS.85).aspx">CreateCaret</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648399(v=VS.85).aspx">CreateCaret</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648400(v=VS.85).aspx">DestroyCaret</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648400(v=VS.85).aspx">DestroyCaret</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648402(v=VS.85).aspx">GetCaretPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648402(v=VS.85).aspx">GetCaretPos</a>
 
 
 
@@ -124,11 +124,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648398(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648405(v=VS.85).aspx">SetCaretPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648405(v=VS.85).aspx">SetCaretPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648406(v=VS.85).aspx">ShowCaret</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648406(v=VS.85).aspx">ShowCaret</a>
  
 
  

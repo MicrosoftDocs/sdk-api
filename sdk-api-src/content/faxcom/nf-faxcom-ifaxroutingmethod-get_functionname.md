@@ -92,7 +92,7 @@ A fax client application can use the <a href="https://msdn.microsoft.com/library
 
 
 
-<a href="https://msdn.microsoft.com/9fdcc223-f919-4e55-af89-4734888fdbf7">FriendlyName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692373(v=VS.85).aspx">FriendlyName</a>
 
 
 

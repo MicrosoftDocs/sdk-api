@@ -7,7 +7,7 @@ old-location: uianimation\ui_animation_manager_status.htm
 old-project: UIAnimation
 ms.assetid: 499c74c0-d1e7-4ab4-9c3a-19c2e1abeda8
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: UI_ANIMATION_MANAGER_BUSY, UI_ANIMATION_MANAGER_IDLE, UI_ANIMATION_MANAGER_STATUS, UI_ANIMATION_MANAGER_STATUS enumeration [Windows Animation], __MIDL___MIDL_itf_UIAnimation_0000_0000_0002, uianimation.ui_animation_manager_status, uianimation/UI_ANIMATION_MANAGER_BUSY, uianimation/UI_ANIMATION_MANAGER_IDLE, uianimation/UI_ANIMATION_MANAGER_STATUS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        		Defines the activity status of an animation manager.
+Defines the activity status of an animation manager.
 
 
 ## -enum-fields
@@ -62,14 +61,12 @@ req.product: Windows XP with SP1 and later
 
 ### -field UI_ANIMATION_MANAGER_IDLE
 
-
-            The animation manager is idle; no animations are currently playing.
+The animation manager is idle; no animations are currently playing.
 
 
 ### -field UI_ANIMATION_MANAGER_BUSY
 
-
-            The animation manager is busy; at least one animation is currently playing or scheduled.
+The animation manager is busy; at least one animation is currently playing or scheduled.
 
 
 ## -see-also
@@ -77,13 +74,11 @@ req.product: Windows XP with SP1 and later
 
 
 
-<a href="https://msdn.microsoft.com/838140c3-12ca-4909-a0f8-713b5472e5a9">
-               IUIAnimationManager::GetStatus</a>
+<a href="https://msdn.microsoft.com/838140c3-12ca-4909-a0f8-713b5472e5a9">IUIAnimationManager::GetStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/17f98ff5-f18e-44be-a8bd-bc5a6467fa83">
-               IUIAnimationManagerEventHandler::OnManagerStatusChanged</a>
+<a href="https://msdn.microsoft.com/17f98ff5-f18e-44be-a8bd-bc5a6467fa83">IUIAnimationManagerEventHandler::OnManagerStatusChanged</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterfilesink_open.htm
 old-project: wmformat
 ms.assetid: 14a36fe9-8293-4079-8189-8a8e0720c100
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMWriterFileSink interface [windows Media Format],Open method, IWMWriterFileSink.Open, IWMWriterFileSink::Open, IWMWriterFileSinkOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMWriterFileSink interface, wmformat.iwmwriterfilesink_open, wmsdkidl/IWMWriterFileSink::Open
 ms.prod: windows
 ms.technology: windows-sdk

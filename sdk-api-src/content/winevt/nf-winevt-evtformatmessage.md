@@ -7,7 +7,7 @@ old-location: wes\evtformatmessage.htm
 old-project: WES
 ms.assetid: 744fe166-b12c-49d4-ab13-b2ef6a6f9625
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtFormatMessage, EvtFormatMessage function [EventLog], wes.evtformatmessage, winevt/EvtFormatMessage
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IWTSProtocolManager::NotifyServiceStateChange
 author: windows-sdk-content
 description: IWTSProtocolManager::NotifyServiceStateChange is no longer available. Instead, use IWRdsProtocolManager::NotifyServiceStateChange.
 old-location: termserv\iwtsprotocolmanager_notifyservicestatechange.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 303a53b3-b297-486c-9422-706ec60441f2
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWTSProtocolManager interface [Remote Desktop Services],NotifyServiceStateChange method, IWTSProtocolManager.NotifyServiceStateChange, IWTSProtocolManager::NotifyServiceStateChange, NotifyServiceStateChange, NotifyServiceStateChange method [Remote Desktop Services], NotifyServiceStateChange method [Remote Desktop Services],IWTSProtocolManager interface, termserv.iwtsprotocolmanager_notifyservicestatechange, wtsprotocol/IWTSProtocolManager::NotifyServiceStateChange
 ms.prod: windows
 ms.technology: windows-sdk

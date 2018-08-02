@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_attribute.htm
 old-project: wsw
 ms.assetid: 338c31ac-d5eb-4d2d-8ee1-953963c1a8b0
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_ATTRIBUTE, WS_XML_ATTRIBUTE structure [Web Services for Windows], _WS_XML_ATTRIBUTE, webservices/WS_XML_ATTRIBUTE, wsw.ws_xml_attribute
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Represents an attribute (for example, &lt;a:purchaseOrder xmlns:a="http://tempuri.org" id="5"&gt;)
+Represents an attribute (for example, &lt;a:purchaseOrder xmlns:a="http://tempuri.org" id="5"&gt;)
       
 
 
@@ -63,47 +62,40 @@ req.product: Windows Address Book 5.0
 
 ### -field singleQuote
 
-
-          Whether to use a single quote or double quote to surround an attribute value.  In the example, the value of singleQuote for attribute "id" would be <b>FALSE</b>.
+Whether to use a single quote or double quote to surround an attribute value.  In the example, the value of singleQuote for attribute "id" would be <b>FALSE</b>.
         
 
 
 ### -field isXmlNs
 
-
-          Whether or not the attribute is an xmlns attribute.  In the example above, this would be <b>TRUE</b> for the attribute "xmlns:a", but <b>FALSE</b> for the attribute "id".
+Whether or not the attribute is an xmlns attribute.  In the example above, this would be <b>TRUE</b> for the attribute "xmlns:a", but <b>FALSE</b> for the attribute "id".
         
 
 
 ### -field prefix
 
-
-          The prefix of the attribute.  In the example above, the prefix for attribute "xmlns:a" is "a", while the prefix for "id" is a zero length string.
+The prefix of the attribute.  In the example above, the prefix for attribute "xmlns:a" is "a", while the prefix for "id" is a zero length string.
         
 
-
-          The prefix for the attribute "xmlns" is a zero length string.
+The prefix for the attribute "xmlns" is a zero length string.
         
 
 
 ### -field localName
 
-
-          The localName of the attribute.  In the example above, the localName for attribute "xmlns:a" is not used so it is <b>NULL</b>.  The localName for attribute "id" is "id".
+The localName of the attribute.  In the example above, the localName for attribute "xmlns:a" is not used so it is <b>NULL</b>.  The localName for attribute "id" is "id".
         
 
 
 ### -field ns
 
-
-          The namespace of the attribute.  In the example above, the namespace for the attribute "xmlns:a" is "http://tempuri.org".  The namespace for attribute "id" is the
+The namespace of the attribute.  In the example above, the namespace for the attribute "xmlns:a" is "http://tempuri.org".  The namespace for attribute "id" is the
           empty namespace which is represented by a zero length string.
         
 
 
 ### -field value
 
-
-          The value of the attribute.  In the example above the value for attribute "xmlns:a" is not used so it is <b>NULL</b>.  The value for the attribute "id" is a <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a> that refers to the value "5".
+The value of the attribute.  In the example above the value for attribute "xmlns:a" is not used so it is <b>NULL</b>.  The value for the attribute "id" is a <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a> that refers to the value "5".
         
 

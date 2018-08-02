@@ -7,7 +7,7 @@ old-location: wsw\ws_kerberos_apreq_message_security_binding_constraint.htm
 old-project: wsw
 ms.assetid: fd422ee4-64cd-464f-905f-b46b69e1a440
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT, WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], _WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT, webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT, wsw.ws_kerberos_apreq_message_security_binding_constraint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                A security binding constraint that corresponds to the
+A security binding constraint that corresponds to the
                 <a href="https://msdn.microsoft.com/03127248-f5cc-44da-9c3d-abf016dd6bb2">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>.
             
 
@@ -64,20 +63,17 @@ req.product: Windows Address Book 5.0
 
 ### -field bindingConstraint
 
-
-                    The base binding constraint that this binding constraint derives from.
+The base binding constraint that this binding constraint derives from.
                 
 
-
-                    There are no binding-specific properties are defined for this binding constraint
+There are no binding-specific properties are defined for this binding constraint
                     at this time.
                 
 
 
 ### -field bindingUsage
 
-
-                    This specifies how the security token corresponding to this security 
+This specifies how the security token corresponding to this security 
                     binding should be attached to a message.
                 
 

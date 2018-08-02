@@ -7,7 +7,7 @@ old-location: wsw\ws_ncrypt_asymmetric_security_key_handle.htm
 old-project: wsw
 ms.assetid: 843e8d93-3191-42e6-aa7b-d78b3b3370ec
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE, WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE structure [Web Services for Windows], _WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE, webservices/WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE, wsw.ws_ncrypt_asymmetric_security_key_handle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,11 +51,9 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 The type for specifying asymmetric cryptographic keys as a CryptoNG
 NCRYPT_KEY_HANDLE.
             
-
 
 When this structure is used in an API (such as with
  <a href="https://msdn.microsoft.com/1d82c6c3-2bcf-4883-aed7-1a163bbb2228">XML token creation</a>) and subsequent
@@ -65,7 +63,6 @@ sure that the NCRYPT_KEY_HANDLE remains valid as long as the key is in
 use.  The application is also responsible for freeing the handle when
 it is no longer in use.
             
-
 
 This type is supported only on Windows Vista and later platforms.
             
@@ -78,13 +75,11 @@ This type is supported only on Windows Vista and later platforms.
 
 ### -field keyHandle
 
-
 The base type from which this type and all other key handle types derive.
                 
 
 
 ### -field asymmetricKey
-
 
 The CryptoNG asymmetric cryptographic key.
                 

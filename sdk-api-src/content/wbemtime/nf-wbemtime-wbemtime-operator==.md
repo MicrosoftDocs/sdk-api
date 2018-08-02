@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_comparison_operators_equal.htm
 old-project: WmiSdk
 ms.assetid: 9060553a-db93-44c3-ae64-1e14c5087485
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: WBEMTime interface [Windows Management Instrumentation],operator== method, WBEMTime.operator==, WBEMTime::operator==, _hmm_wbemtime_comparison_operators, operator==, operator== method [Windows Management Instrumentation], operator== method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator==, wmi.wbemtime_comparison_operators, wmi.wbemtime_comparison_operators_equal
 ms.prod: windows
 ms.technology: windows-sdk

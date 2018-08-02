@@ -7,7 +7,7 @@ old-location: xps\ixpsomdocument_getprintticketresource.htm
 old-project: printdocs
 ms.assetid: 381bfbb3-1dfd-4761-acdc-cfe64a3aeeb5
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetPrintTicketResource, GetPrintTicketResource method [XPS Documents and Packaging], GetPrintTicketResource method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],GetPrintTicketResource method, IXpsOMDocument.GetPrintTicketResource, IXpsOMDocument::GetPrintTicketResource, xps.ixpsomdocument_getprintticketresource, xpsobjectmodel/IXpsOMDocument::GetPrintTicketResource
 ms.prod: windows
 ms.technology: windows-sdk

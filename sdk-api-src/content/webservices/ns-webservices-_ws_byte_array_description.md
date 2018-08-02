@@ -7,7 +7,7 @@ old-location: wsw\ws_byte_array_description.htm
 old-project: wsw
 ms.assetid: 4bdc2956-387e-4cf6-93e1-3a3879c74ccf
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_BYTE_ARRAY_DESCRIPTION, WS_BYTE_ARRAY_DESCRIPTION structure [Web Services for Windows], _WS_BYTE_ARRAY_DESCRIPTION, webservices/WS_BYTE_ARRAY_DESCRIPTION, wsw.ws_byte_array_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 Specifies constraints on the set of values
-                which can be deserialized.
-            This type description is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_BYTE_ARRAY_TYPE</a> and is optional.
+                which can be deserialized.This type description is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_BYTE_ARRAY_TYPE</a> and is optional.
                 
 
 
@@ -64,14 +63,12 @@ Specifies constraints on the set of values
 
 ### -field minByteCount
 
-
-                    Specifies the minimum number of bytes.
+Specifies the minimum number of bytes.
                 
 
 
 ### -field maxByteCount
 
-
-                    Specifies the maximum number of bytes.
+Specifies the maximum number of bytes.
                 
 

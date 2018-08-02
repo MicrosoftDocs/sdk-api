@@ -4,10 +4,10 @@ title: ITCustomTone::put_CadenceOn
 author: windows-sdk-content
 description: The put_CadenceOn method sets the &#0034;on&#0034; duration of the cadence of the custom tone to generate.
 old-location: tapi3\itcustomtone_put_cadenceon.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: c4403c3a-7dd8-4707-ac23-5a478fffce17
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITCustomTone interface [TAPI 2.2],put_CadenceOn method, ITCustomTone.put_CadenceOn, ITCustomTone::put_CadenceOn, _tapi3_itcustomtone_put_cadenceon, put_CadenceOn, put_CadenceOn method [TAPI 2.2], put_CadenceOn method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_put_cadenceon, tapi3if/ITCustomTone::put_CadenceOn
 ms.prod: windows
 ms.technology: windows-sdk

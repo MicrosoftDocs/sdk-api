@@ -4,10 +4,10 @@ title: IWTSProtocolLicenseConnection::SendClientLicense
 author: windows-sdk-content
 description: IWTSProtocolLicenseConnection::SendClientLicense is no longer available. Instead, use IWRdsProtocolLicenseConnection::SendClientLicense.
 old-location: termserv\iwtsprotocollicenseconnection_sendclientlicense.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: cafd23ed-2085-4d58-a9b1-1918995fa09c
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],SendClientLicense method, IWTSProtocolLicenseConnection.SendClientLicense, IWTSProtocolLicenseConnection::SendClientLicense, SendClientLicense, SendClientLicense method [Remote Desktop Services], SendClientLicense method [Remote Desktop Services],IWTSProtocolLicenseConnection interface, termserv.iwtsprotocollicenseconnection_sendclientlicense, wtsprotocol/IWTSProtocolLicenseConnection::SendClientLicense
 ms.prod: windows
 ms.technology: windows-sdk

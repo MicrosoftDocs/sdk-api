@@ -7,7 +7,7 @@ old-location: dshow\vmr9mixerprefs.htm
 old-project: DirectShow
 ms.assetid: 59d3af89-248e-43cd-b6dc-e6c0a4d5f5fb
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: MixerPref9_ARAdjustXorY, MixerPref9_AnisotropicFiltering, MixerPref9_BiLinearFiltering, MixerPref9_DecimateMask, MixerPref9_DecimateOutput, MixerPref9_DynamicDecimateBy2, MixerPref9_DynamicMask, MixerPref9_DynamicReserved, MixerPref9_DynamicSwitchToBOB, MixerPref9_FilteringMask, MixerPref9_FilteringReserved, MixerPref9_GaussianQuadFiltering, MixerPref9_NoDecimation, MixerPref9_NonSquareMixing, MixerPref9_PointFiltering, MixerPref9_PyramidalQuadFiltering, MixerPref9_RenderTargetMask, MixerPref9_RenderTargetRGB, MixerPref9_RenderTargetReserved, MixerPref9_RenderTargetYUV, VMR9MixerPrefs, VMR9MixerPrefs , VMR9MixerPrefs enumeration [DirectShow], VMR9MixerPrefsEnumeration, __MIDL___MIDL_itf_vmr9_0000_0005_0001, dshow.vmr9mixerprefs, vmr9/MixerPref9_ARAdjustXorY, vmr9/MixerPref9_AnisotropicFiltering, vmr9/MixerPref9_BiLinearFiltering, vmr9/MixerPref9_DecimateMask, vmr9/MixerPref9_DecimateOutput, vmr9/MixerPref9_DynamicDecimateBy2, vmr9/MixerPref9_DynamicMask, vmr9/MixerPref9_DynamicReserved, vmr9/MixerPref9_DynamicSwitchToBOB, vmr9/MixerPref9_FilteringMask, vmr9/MixerPref9_FilteringReserved, vmr9/MixerPref9_GaussianQuadFiltering, vmr9/MixerPref9_NoDecimation, vmr9/MixerPref9_NonSquareMixing, vmr9/MixerPref9_PointFiltering, vmr9/MixerPref9_PyramidalQuadFiltering, vmr9/MixerPref9_RenderTargetMask, vmr9/MixerPref9_RenderTargetRGB, vmr9/MixerPref9_RenderTargetReserved, vmr9/MixerPref9_RenderTargetYUV, vmr9/VMR9MixerPrefs
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,29 +84,25 @@ Do not perform aspect ratio correction on the composited stream if the input vid
 
 ### -field MixerPref9_DecimateMask
 
-
-            Bitmask to isolate the flags that control decimation. (This value is not a valid flag.)
+Bitmask to isolate the flags that control decimation. (This value is not a valid flag.)
           
 
 
 ### -field MixerPref9_BiLinearFiltering
 
-
-            Bilinear interpolation filtering. A weighted average of a 2 x 2 area of neighboring pixels is used.
+Bilinear interpolation filtering. A weighted average of a 2 x 2 area of neighboring pixels is used.
           
 
 
 ### -field MixerPref9_PointFiltering
 
-
-            Point filtering. The value of the nearest is pixel is used.
+Point filtering. The value of the nearest is pixel is used.
           
 
 
 ### -field MixerPref9_AnisotropicFiltering
 
-
-            Anisotropic filtering.
+Anisotropic filtering.
           
 
 
@@ -124,22 +120,19 @@ Four-sample Gaussian filtering.
 
 ### -field MixerPref9_FilteringReserved
 
-
-            Reserved for future use.
+Reserved for future use.
           
 
 
 ### -field MixerPref9_FilteringMask
 
-
-            Bitmask to isolate flags that control filtering. (This value is not a valid flag.)
+Bitmask to isolate flags that control filtering. (This value is not a valid flag.)
           
 
 
 ### -field MixerPref9_RenderTargetRGB
 
-
-            Use an RGB render target.
+Use an RGB render target.
           
 
 

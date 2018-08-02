@@ -7,7 +7,7 @@ old-location: smi\isettingsitem_removelistelement.htm
 old-project: SMI
 ms.assetid: 4dca22b5-b4e3-4bb6-9eb4-5507472b63b2
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: ISettingsItem interface [SMI],RemoveListElement method, ISettingsItem.RemoveListElement, ISettingsItem::RemoveListElement, RemoveListElement, RemoveListElement method [SMI], RemoveListElement method [SMI],ISettingsItem interface, smi.isettingsitem_removelistelement, wcmconfig/ISettingsItem::RemoveListElement
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Removes an existing list element of the supplied name.
-  There cannot be multiples with same name because the name must be unique. If an item of the specified name is not present, the method returns <b>WCM_E_STATENOTNOTFOUND</b>.
+Removes an existing list element of the supplied name.There cannot be multiples with same name because the name must be unique. If an item of the specified name is not present, the method returns <b>WCM_E_STATENOTNOTFOUND</b>.
 
 
 ## -parameters

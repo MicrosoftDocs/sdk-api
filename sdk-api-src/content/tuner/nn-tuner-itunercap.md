@@ -7,7 +7,7 @@ old-location: mstv\itunercap.htm
 old-project: mstv
 ms.assetid: d7027ff4-4fb9-48c1-b527-92e65009b089
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: ITunerCap, ITunerCap interface [Microsoft TV Technologies], ITunerCap interface [Microsoft TV Technologies],described, ITunerCapInterface, mstv.itunercap, tuner/ITunerCap
 ms.prod: windows
 ms.technology: windows-sdk

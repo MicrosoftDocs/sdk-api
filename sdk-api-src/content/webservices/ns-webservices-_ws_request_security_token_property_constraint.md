@@ -7,7 +7,7 @@ old-location: wsw\ws_request_security_token_property_constraint.htm
 old-project: wsw
 ms.assetid: 96bd488f-ef28-402a-ae55-a30416f4e103
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_REQUEST_SECURITY_TOKEN_PROPERTY_CONSTRAINT, WS_REQUEST_SECURITY_TOKEN_PROPERTY_CONSTRAINT structure [Web Services for Windows], _WS_REQUEST_SECURITY_TOKEN_PROPERTY_CONSTRAINT, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_CONSTRAINT, wsw.ws_request_security_token_property_constraint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                This structure is used to specify a set of constraints
+This structure is used to specify a set of constraints
                 for a particular request security token property.
                 Any property constraints that are not specified will use
                 the default constraints.
@@ -66,26 +65,21 @@ req.product: Windows Address Book 5.0
 
 ### -field id
 
-
-                    The id of the request security token property.  The following security
+The id of the request security token property.  The following security
                     property constraint may be specified:
                 
 
 <ul>
 <li>
 <a href="https://msdn.microsoft.com/7a2063eb-ab60-43d5-bd8c-41ef132abf50">WS_REQUEST_SECURITY_TOKEN_PROPERTY_TRUST_VERSION</a>
-
-                        This property indicates which WS-Trust versions are acceptable.
+This property indicates which WS-Trust versions are acceptable.
                     
 
-
-                        If this property is not specified, then the default constraint value
+If this property is not specified, then the default constraint value
                         of <a href="https://msdn.microsoft.com/02a080f5-3d0d-4483-8215-bcb5b9f27b9c">WS_TRUST_VERSION_FEBRUARY_2005</a> will be used.
                     
 
-
-                        Currently only <a href="https://msdn.microsoft.com/02a080f5-3d0d-4483-8215-bcb5b9f27b9c">WS_TRUST_VERSION_FEBRUARY_2005</a>
-                        is supported in policy, so a property constraint containing the
+Currently only <a href="https://msdn.microsoft.com/02a080f5-3d0d-4483-8215-bcb5b9f27b9c">WS_TRUST_VERSION_FEBRUARY_2005</a>is supported in policy, so a property constraint containing the
                         value <b>WS_TRUST_VERSION_FEBRUARY_2005</b> must be specified in
                         order for the policy to match.
                     
@@ -95,8 +89,7 @@ req.product: Windows Address Book 5.0
 
 ### -field allowedValues
 
-
-                    An array of values which are acceptable.  The type of
+An array of values which are acceptable.  The type of
                     the values in the array correspond to the type of the values
                     of the request security token property.  See the documentation for
                     a particular request security token property to determine the type of the
@@ -106,8 +99,7 @@ req.product: Windows Address Book 5.0
 
 ### -field allowedValuesSize
 
-
-                    The total size of the allowedValues array, in bytes.  This
+The total size of the allowedValues array, in bytes.  This
                     size must be a multiple of the size of the type of the value
                     of the property.
                 
@@ -115,8 +107,7 @@ req.product: Windows Address Book 5.0
 
 ### -field out
 
-
-                    When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a> returns NOERROR, the
+When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a> returns NOERROR, the
                     entire contents of this structure will be filled out.
                 
 

@@ -7,7 +7,7 @@ old-location: wsw\ws_security_algorithm_id.htm
 old-project: wsw
 ms.assetid: e1af7178-0671-45d9-9e25-0931b895ad40
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_1_5, WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_OAEP, WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_DSA_SHA1, WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1, WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA_256, WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA_384, WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA_512, WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE, WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE_WITH_COMMENTS, WS_SECURITY_ALGORITHM_DEFAULT, WS_SECURITY_ALGORITHM_DIGEST_SHA1, WS_SECURITY_ALGORITHM_DIGEST_SHA_256, WS_SECURITY_ALGORITHM_DIGEST_SHA_384, WS_SECURITY_ALGORITHM_DIGEST_SHA_512, WS_SECURITY_ALGORITHM_ID, WS_SECURITY_ALGORITHM_ID enumeration [Web Services for Windows], WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1, WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1, WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA_256, WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA_384, WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA_512, webservices/WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_1_5, webservices/WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_OAEP, webservices/WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_DSA_SHA1, webservices/WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1, webservices/WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA_256, webservices/WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA_384, webservices/WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA_512, webservices/WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE, webservices/WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE_WITH_COMMENTS, webservices/WS_SECURITY_ALGORITHM_DEFAULT, webservices/WS_SECURITY_ALGORITHM_DIGEST_SHA1, webservices/WS_SECURITY_ALGORITHM_DIGEST_SHA_256, webservices/WS_SECURITY_ALGORITHM_DIGEST_SHA_384, webservices/WS_SECURITY_ALGORITHM_DIGEST_SHA_512, webservices/WS_SECURITY_ALGORITHM_ID, webservices/WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1, webservices/WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1, webservices/WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA_256, webservices/WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA_384, webservices/WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA_512, wsw.ws_security_algorithm_id
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Defines the security algorithms to be used with WS-Security. 
+Defines the security algorithms to be used with WS-Security. 
                 These values are relevant to message security bindings 
                 and mixed-mode security bindings.
             
@@ -65,8 +64,7 @@ req.product: Windows Address Book 5.0
 
 ### -field WS_SECURITY_ALGORITHM_DEFAULT
 
-
-                    Default security algorithm for the particular algorithm type. See 
+Default security algorithm for the particular algorithm type. See 
                     <a href="https://msdn.microsoft.com/aa2bb951-47ba-4241-b29a-2f54b92da4cb">WS_SECURITY_ALGORITHM_SUITE</a> for a description of the 
                     specific algorithm used when this value is set.
                 
@@ -74,13 +72,11 @@ req.product: Windows Address Book 5.0
 
 ### -field WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE
 
-
 http://www.w3.org/2001/10/xml-exc-c14n#. 
                 
 
 
 ### -field WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE_WITH_COMMENTS
-
 
 http://www.w3.org/2001/10/xml-exc-c14n#WithComments. 
                 
@@ -88,13 +84,11 @@ http://www.w3.org/2001/10/xml-exc-c14n#WithComments.
 
 ### -field WS_SECURITY_ALGORITHM_DIGEST_SHA1
 
-
 http://www.w3.org/2000/09/xmldsig#sha1. 
                 
 
 
 ### -field WS_SECURITY_ALGORITHM_DIGEST_SHA_256
-
 
 http://www.w3.org/2001/04/xmlenc#sha256. 
 Requires Windows 2003 Server SP1 or above.
@@ -103,14 +97,12 @@ Requires Windows 2003 Server SP1 or above.
 
 ### -field WS_SECURITY_ALGORITHM_DIGEST_SHA_384
 
-
 http://www.w3.org/2001/04/xmlenc#sha384. 
 Requires Windows 2003 Server SP1 or above.
                 
 
 
 ### -field WS_SECURITY_ALGORITHM_DIGEST_SHA_512
-
 
 http://www.w3.org/2001/04/xmlenc#sha512. 
 Requires Windows 2003 Server SP1 or above.
@@ -119,13 +111,11 @@ Requires Windows 2003 Server SP1 or above.
 
 ### -field WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1
 
-
 http://www.w3.org/2000/09/xmldsig#hmac-sha1.
                 
 
 
 ### -field WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA_256
-
 
 http://www.w3.org/2001/04/xmldsig-more#hmac-sha256. 
 Requires Windows 2003 Server SP1 or above.
@@ -134,14 +124,12 @@ Requires Windows 2003 Server SP1 or above.
 
 ### -field WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA_384
 
-
 http://www.w3.org/2001/04/xmldsig-more#hmac-sha384. 
 Requires Windows 2003 Server SP1 or above.
                 
 
 
 ### -field WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA_512
-
 
 http://www.w3.org/2001/04/xmldsig-more#hmac-sha512. 
 Requires Windows 2003 Server SP1 or above.
@@ -150,13 +138,11 @@ Requires Windows 2003 Server SP1 or above.
 
 ### -field WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1
 
-
 http://www.w3.org/2000/09/xmldsig#rsa-sha1.
                 
 
 
 ### -field WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_DSA_SHA1
-
 
 http://www.w3.org/2000/09/xmldsig#dsa-sha1.
                 
@@ -164,10 +150,8 @@ http://www.w3.org/2000/09/xmldsig#dsa-sha1.
 
 ### -field WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA_256
 
-
 http://www.w3.org/2001/04/xmldsig-more#rsa-sha256
                 
-
 
 Requires Windows 2003 Server SP1 or above.
                 
@@ -175,10 +159,8 @@ Requires Windows 2003 Server SP1 or above.
 
 ### -field WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA_384
 
-
 http://www.w3.org/2001/04/xmldsig-more#rsa-sha384
                 
-
 
 Requires Windows 2003 Server SP1 or above.
                 
@@ -186,10 +168,8 @@ Requires Windows 2003 Server SP1 or above.
 
 ### -field WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA_512
 
-
 http://www.w3.org/2001/04/xmldsig-more#rsa-sha512
                 
-
 
 Requires Windows 2003 Server SP1 or above.
                 
@@ -197,20 +177,17 @@ Requires Windows 2003 Server SP1 or above.
 
 ### -field WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_1_5
 
-
 http://www.w3.org/2001/04/xmlenc#rsa-1_5.
                 
 
 
 ### -field WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_OAEP
 
-
 http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p.
                 
 
 
 ### -field WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1
-
 
 http://schemas.xmlsoap.org/ws/2005/02/sc/dk/p_sha1.
                 

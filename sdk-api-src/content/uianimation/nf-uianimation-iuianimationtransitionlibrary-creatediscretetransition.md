@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary_creatediscretetransition
 old-project: UIAnimation
 ms.assetid: 7c3f6ccb-7a42-4a48-90ad-dba99c67aa6f
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateDiscreteTransition, CreateDiscreteTransition method [Windows Animation], CreateDiscreteTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateDiscreteTransition method, IUIAnimationTransitionLibrary.CreateDiscreteTransition, IUIAnimationTransitionLibrary::CreateDiscreteTransition, uianimation.iuianimationtransitionlibrary_creatediscretetransition, uianimation/IUIAnimationTransitionLibrary::CreateDiscreteTransition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates a discrete transition.
+Creates a discrete transition.
 
 
 ## -parameters
@@ -67,9 +66,7 @@ The amount of time by which to delay the instantaneous switch to the final value
 
 ### -param finalValue [in]
 
-
-                
-             The value of the animation variable at the end of the transition.
+The value of the animation variable at the end of the transition.
 
 
 ### -param hold [in]
@@ -79,8 +76,7 @@ The amount of time by which to hold the variable at its final value.
 
 ### -param transition [out]
 
-
-               The new discrete transition.
+The new discrete transition.
 
 
 ## -returns

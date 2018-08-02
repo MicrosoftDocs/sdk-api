@@ -69,7 +69,7 @@ GUID for the attribute type.
 
 ### -field dwOverlapId
 
-A unique identifier of this attribute when overlapped with other attributes. This is a feature in <a href="https://msdn.microsoft.com/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a>. In TSF, this parameter value is zero (0). Any nonzero value is ignored.
+A unique identifier of this attribute when overlapped with other attributes. This is a feature in <a href="https://msdn.microsoft.com/en-us/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a>. In TSF, this parameter value is zero (0). Any nonzero value is ignored.
 
 
 ### -field varValue
@@ -138,7 +138,7 @@ An application uses attributes to expose its data to TSF, whereas text services 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a>
 
 
 

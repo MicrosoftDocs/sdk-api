@@ -7,7 +7,7 @@ old-location: inputmsg\getpointerframepeninfohistory.htm
 old-project: InputMsg
 ms.assetid: a4f6a9f3-dfbd-4413-aae7-f58e1521ef1d
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetPointerFramePenInfoHistory, GetPointerFramePenInfoHistory function [Input Messages and Notifications], inputmsg.getpointerframepeninfohistory, winuser/GetPointerFramePenInfoHistory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,7 @@ Gets the entire frame of pen-based information (including coalesced input frames
 
 ### -param pointerId [in]
 
-
-            
-          The identifier of the pointer for which to retrieve frame information.
+The identifier of the pointer for which to retrieve frame information.
 
 
 ### -param entriesCount [in, out]
@@ -73,9 +71,7 @@ A pointer to a variable that specifies the count of rows in the two-dimensional 
 
 ### -param pointerCount [in, out]
 
-
-            
-          A pointer to a variaable that specifies the count of columns in the two-dimensional array to which penInfo points. If <b>GetPointerFramePenInfoHistory</b> succeeds, <i>pointerCount</i> is updated with  the total count of pointers in each frame. 
+A pointer to a variaable that specifies the count of columns in the two-dimensional array to which penInfo points. If <b>GetPointerFramePenInfoHistory</b> succeeds, <i>pointerCount</i> is updated with  the total count of pointers in each frame. 
 
 
 ### -param penInfo [out, optional]

@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_execmethodasync_.htm
 old-project: WmiSdk
 ms.assetid: b848b38b-c0c3-49cd-b1e2-b0a440b82d61
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ExecMethodAsync_, ExecMethodAsync_ method [Windows Management Instrumentation], ExecMethodAsync_ method [Windows Management Instrumentation],ISWbemObject interface, ExecMethodAsync_ method [Windows Management Instrumentation],SWbemObject object, ISWbemObject interface [Windows Management Instrumentation],ExecMethodAsync_ method, ISWbemObject.ExecMethodAsync_, ISWbemObject::ExecMethodAsync_, SWbemObject object [Windows Management Instrumentation],ExecMethodAsync_ method, SWbemObject.ExecMethodAsync_, _hmm_swbemobject.execmethodasync_, wbemFlagDontSendStatus, wbemFlagSendStatus, wmi.swbemobject_execmethodasync_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -143,7 +143,7 @@ This method has no return values. If the call is successful, an
 
 
 
-Use the <b>SWbemObject.ExecMethodAsync_</b> method as an alternative to direct access for executing a <a href="https://msdn.microsoft.com/library/JJ819822(v=VS.85).aspx">provider method</a> when you cannot execute  a method directly. For example, if your method has out parameters, use the <b>SWbemObject.ExecMethodAsync_</b> method with a scripting language that does not support output parameters. Otherwise, it is recommended that you invoke a method using direct access. For more information, see 
+Use the <b>SWbemObject.ExecMethodAsync_</b> method as an alternative to direct access for executing a <a href="https://msdn.microsoft.com/en-us/library/Aa390825(v=VS.85).aspx">provider method</a> when you cannot execute  a method directly. For example, if your method has out parameters, use the <b>SWbemObject.ExecMethodAsync_</b> method with a scripting language that does not support output parameters. Otherwise, it is recommended that you invoke a method using direct access. For more information, see 
 <a href="https://msdn.microsoft.com/682cbe12-1487-4681-8d2f-4caf21cb068a">Manipulating Class and Instance Information</a>.
 
 This call returns immediately.  The requested objects and status are returned to the caller through callbacks delivered to the sink that is specified in <i>objWbemSink</i>. To process each object when it arrives, create an <i>objWbemSink</i>.<a href="https://msdn.microsoft.com/14110ee7-a808-4786-b695-2ce54189d826">OnObjectReady</a> event subroutine. After all the objects are returned, you can perform final processing in your implementation of the  <i>objWbemSink</i>.<a href="https://msdn.microsoft.com/2723185d-5b8b-4cc7-ada3-51c3275272a9">OnCompleted</a> event.

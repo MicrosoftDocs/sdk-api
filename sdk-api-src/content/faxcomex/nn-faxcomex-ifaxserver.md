@@ -82,10 +82,10 @@ The <a href="https://msdn.microsoft.com/library/ms687537(v=VS.85).aspx">IFaxServ
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b1246897-a2a9-4750-8900-248c214d4f70">Disconnect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689589(v=VS.85).aspx">Disconnect</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/b1246897-a2a9-4750-8900-248c214d4f70">IFaxServer::Disconnect</a> method terminates a fax client application's connection to a fax server. The method fails if the client is not connected to an active fax server.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689589(v=VS.85).aspx">IFaxServer::Disconnect</a> method terminates a fax client application's connection to a fax server. The method fails if the client is not connected to an active fax server.
 
 </td>
 </tr>
@@ -109,64 +109,64 @@ The <a href="https://msdn.microsoft.com/library/ms689596(v=VS.85).aspx">IFaxServ
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a1e78db9-f59d-43de-a480-b449befc8ffc">GetExtensionProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688241(v=VS.85).aspx">GetExtensionProperty</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/a1e78db9-f59d-43de-a480-b449befc8ffc">IFaxServer::GetExtensionProperty</a> method retrieves an extension configuration property stored at the server level.
+The <a href="https://msdn.microsoft.com/en-us/library/ms688241(v=VS.85).aspx">IFaxServer::GetExtensionProperty</a> method retrieves an extension configuration property stored at the server level.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9850a677-6ae0-4780-8655-90a8d81fe765">ListenToServerEvents</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690121(v=VS.85).aspx">ListenToServerEvents</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/9850a677-6ae0-4780-8655-90a8d81fe765">IFaxServer::ListenToServerEvents</a> method registers the <a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a> object to receive notifications about one or more types of server events, or to stop these notifications. 
+The <a href="https://msdn.microsoft.com/en-us/library/ms690121(v=VS.85).aspx">IFaxServer::ListenToServerEvents</a> method registers the <a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a> object to receive notifications about one or more types of server events, or to stop these notifications. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/124b66b0-325c-46af-ac1f-1c75914bb6bc">RegisterDeviceProvider</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689149(v=VS.85).aspx">RegisterDeviceProvider</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/124b66b0-325c-46af-ac1f-1c75914bb6bc">IFaxServer::RegisterDeviceProvider</a> method registers a FSP with the fax service. Registration takes place after the fax service restarts.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689149(v=VS.85).aspx">IFaxServer::RegisterDeviceProvider</a> method registers a FSP with the fax service. Registration takes place after the fax service restarts.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e29d3ab2-facf-40a9-b1fa-05e1c0f3a5f1">RegisterInboundRoutingExtension</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690226(v=VS.85).aspx">RegisterInboundRoutingExtension</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/e29d3ab2-facf-40a9-b1fa-05e1c0f3a5f1">IFaxServer::RegisterInboundRoutingExtension</a> method registers a fax inbound routing extension with the fax service. Registration takes place after the fax service restarts.
+The <a href="https://msdn.microsoft.com/en-us/library/ms690226(v=VS.85).aspx">IFaxServer::RegisterInboundRoutingExtension</a> method registers a fax inbound routing extension with the fax service. Registration takes place after the fax service restarts.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/12461f0b-0c1a-4630-a881-419d829b4d42">SetExtensionProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690102(v=VS.85).aspx">SetExtensionProperty</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/12461f0b-0c1a-4630-a881-419d829b4d42">IFaxServer::SetExtensionProperty</a> method stores an extension configuration property at the server level.
+The <a href="https://msdn.microsoft.com/en-us/library/ms690102(v=VS.85).aspx">IFaxServer::SetExtensionProperty</a> method stores an extension configuration property at the server level.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/00347649-d383-4b10-8158-6b65dd299643">UnregisterDeviceProvider</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690106(v=VS.85).aspx">UnregisterDeviceProvider</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/00347649-d383-4b10-8158-6b65dd299643">IFaxServer::UnregisterDeviceProvider</a> method unregisters (removes the registration of) an existing device provider. Unregistration will take place only after the fax server is restarted.
+The <a href="https://msdn.microsoft.com/en-us/library/ms690106(v=VS.85).aspx">IFaxServer::UnregisterDeviceProvider</a> method unregisters (removes the registration of) an existing device provider. Unregistration will take place only after the fax server is restarted.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/984f0edd-23a9-481e-8377-3267b1396853">UnregisterInboundRoutingExtension</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688431(v=VS.85).aspx">UnregisterInboundRoutingExtension</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/984f0edd-23a9-481e-8377-3267b1396853">IFaxServer::UnregisterInboundRoutingExtension</a> method unregisters an existing inbound routing extension. Unregistration will take place only after the fax server is restarted.
+The <a href="https://msdn.microsoft.com/en-us/library/ms688431(v=VS.85).aspx">IFaxServer::UnregisterInboundRoutingExtension</a> method unregisters an existing inbound routing extension. Unregistration will take place only after the fax server is restarted.
 
 </td>
 </tr>
@@ -215,7 +215,7 @@ The <a href="https://msdn.microsoft.com/library/ms689096(v=VS.85).aspx">IFaxServ
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8fc810f1-9953-4406-82c6-dda3ebfa9213">Debug</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690164(v=VS.85).aspx">Debug</a>
 
 
 </td>
@@ -224,7 +224,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/8fc810f1-9953-4406-82c6-dda3ebfa9213">IFaxServer::get_Debug</a> property is a Boolean value that indicates whether the fax server was created in a debug environment.
+The <a href="https://msdn.microsoft.com/en-us/library/ms690164(v=VS.85).aspx">IFaxServer::get_Debug</a> property is a Boolean value that indicates whether the fax server was created in a debug environment.
 
 </td>
 </tr>
@@ -279,7 +279,7 @@ The <a href="https://msdn.microsoft.com/library/ms690045(v=VS.85).aspx">IFaxServ
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/2e34c393-bbdc-47ce-97d7-7ae172938c05">MajorBuild</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689550(v=VS.85).aspx">MajorBuild</a>
 
 
 </td>
@@ -288,14 +288,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/2e34c393-bbdc-47ce-97d7-7ae172938c05">IFaxServer::get_MajorBuild</a> property is a value that specifies the major part of the build number for the fax service.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689550(v=VS.85).aspx">IFaxServer::get_MajorBuild</a> property is a value that specifies the major part of the build number for the fax service.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/83e0d41b-df37-4f9d-bec3-9e1b49f048b9">MajorVersion</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689612(v=VS.85).aspx">MajorVersion</a>
 
 
 </td>
@@ -304,14 +304,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/83e0d41b-df37-4f9d-bec3-9e1b49f048b9">IFaxServer::get_MajorVersion</a> property is a value that specifies the major part of the version number for the fax service.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689612(v=VS.85).aspx">IFaxServer::get_MajorVersion</a> property is a value that specifies the major part of the version number for the fax service.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0de00fbe-ab32-4fc9-8a82-93f3abadfe2e">MinorBuild</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688530(v=VS.85).aspx">MinorBuild</a>
 
 
 </td>
@@ -320,14 +320,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/0de00fbe-ab32-4fc9-8a82-93f3abadfe2e">IFaxServer::get_MinorBuild</a> property is a value that specifies the minor part of the build number for the fax service.
+The <a href="https://msdn.microsoft.com/en-us/library/ms688530(v=VS.85).aspx">IFaxServer::get_MinorBuild</a> property is a value that specifies the minor part of the build number for the fax service.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f56f001b-5ea6-4ace-8731-34da78484658">MinorVersion</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688486(v=VS.85).aspx">MinorVersion</a>
 
 
 </td>
@@ -336,7 +336,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/f56f001b-5ea6-4ace-8731-34da78484658">IFaxServer::get_MinorVersion</a> property is a value that specifies the minor part of the version number for the fax service.
+The <a href="https://msdn.microsoft.com/en-us/library/ms688486(v=VS.85).aspx">IFaxServer::get_MinorVersion</a> property is a value that specifies the minor part of the version number for the fax service.
 
 </td>
 </tr>
@@ -375,7 +375,7 @@ The <a href="https://msdn.microsoft.com/library/ms690215(v=VS.85).aspx">IFaxServ
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9ad7caf3-1866-4c1a-88fb-1f6f6e057a26">RegisteredEvents</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688512(v=VS.85).aspx">RegisteredEvents</a>
 
 
 </td>
@@ -384,7 +384,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/9ad7caf3-1866-4c1a-88fb-1f6f6e057a26">IFaxServer::get_RegisteredEvents</a> property is a value from an enumeration that indicates the types of fax service events a client application is listening for.
+The <a href="https://msdn.microsoft.com/en-us/library/ms688512(v=VS.85).aspx">IFaxServer::get_RegisteredEvents</a> property is a value from an enumeration that indicates the types of fax service events a client application is listening for.
 
 </td>
 </tr>
@@ -416,7 +416,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/18efaadb-0d26-46be-b8e3-73f539a8d42b">IFaxServer::get_ServerName</a> property retrieves the name of the active fax server to which the fax client is connected.
+The <a href="https://msdn.microsoft.com/en-us/library/ms687524(v=VS.85).aspx">IFaxServer::get_ServerName</a> property retrieves the name of the active fax server to which the fax client is connected.
 
 </td>
 </tr>

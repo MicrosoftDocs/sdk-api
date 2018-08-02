@@ -7,7 +7,7 @@ old-location: wsw\ws_tcp_sspi_kerberos_apreq_security_context_policy_description
 old-project: wsw
 ms.assetid: 8bf8ffe4-f812-4d72-80d2-f15339e4b6b5
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_POLICY_DESCRIPTION, WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_POLICY_DESCRIPTION, webservices/WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_POLICY_DESCRIPTION, wsw.ws_tcp_sspi_kerberos_apreq_security_context_policy_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Describes the policy specifying security context message binding using TCP channel binding 
+Describes the policy specifying security context message binding using TCP channel binding 
         with windows SSPI transport security. The bootstrap channel uses TCP channel binding with 
         windows SSPI transport security and kerberos message security.
       
@@ -65,35 +64,30 @@ req.product: Windows Address Book 5.0
 
 ### -field channelProperties
 
-
-          Template description for the channel properties specified in policy.
+Template description for the channel properties specified in policy.
         
 
 
 ### -field securityProperties
 
-
-          Template description for the security properties specified in policy.
+Template description for the security properties specified in policy.
         
 
 
 ### -field sspiTransportSecurityBinding
 
-
-          Windows SSPI security binding description.
+Windows SSPI security binding description.
         
 
 
 ### -field kerberosApreqMessageSecurityBinding
 
-
-          kerberos message security binding description.
+kerberos message security binding description.
         
 
 
 ### -field securityContextSecurityBinding
 
-
-          Security context security binding description.
+Security context security binding description.
         
 

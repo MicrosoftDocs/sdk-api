@@ -4,10 +4,10 @@ title: ListBox_AddItemData macro
 author: windows-sdk-content
 description: Adds item data to the list box at the specified location. You can use this macro or send the LB_ADDSTRING message explicitly.
 old-location: controls\ListBox_AddItemData.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_additemdata.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ListBox_AddItemData, ListBox_AddItemData macro [Windows Controls], _win32_ListBox_AddItemData, _win32_ListBox_AddItemData_cpp, controls.ListBox_AddItemData, controls._win32_ListBox_AddItemData, windowsx/ListBox_AddItemData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Adds item data to the list box at the specified location. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775181(v=VS.85).aspx">LB_ADDSTRING</a> message explicitly.
+Adds item data to the list box at the specified location. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775181(v=VS.85).aspx">LB_ADDSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A pointer to the item data to add.
 
 
 
-Use this macro for a list box with an owner-drawn style but without the <a href="https://msdn.microsoft.com/library/Bb775149(v=VS.85).aspx">LBS_HASSTRINGS</a> style. For more information, see <a href="https://msdn.microsoft.com/library/Bb775181(v=VS.85).aspx">LB_ADDSTRING</a>.
+Use this macro for a list box with an owner-drawn style but without the <a href="List_Box_Styles.htm">LBS_HASSTRINGS</a> style. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775181(v=VS.85).aspx">LB_ADDSTRING</a>.
 	
 
 

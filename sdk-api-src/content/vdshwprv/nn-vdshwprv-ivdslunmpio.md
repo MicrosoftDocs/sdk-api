@@ -4,10 +4,10 @@ title: IVdsLunMpio
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a LUN with MPIO extensions.
 old-location: base\ivdslunmpio.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 0c7ab50a-306e-44f8-976d-0e65e36b0fea
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: IVdsLunMpio, IVdsLunMpio interface [VDS], IVdsLunMpio interface [VDS],described, base.ivdslunmpio, vds/IVdsLunMpio, vdshwprv/IVdsLunMpio
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ Returns the current load balance policy on the LUN.</p> (Inherited from <b>IVdsL
 <a href="https://msdn.microsoft.com/c7cc1abf-c7f2-4260-b9d2-f70128276e1e">GetPathInfo</a>
 </td>
 <td align="left" width="63%">
-
-     Returns an array of <a href="https://msdn.microsoft.com/14444252-11ca-4614-81d1-9a15e76d0186">VDS_PATH_INFO</a> structures, 
+Returns an array of <a href="https://msdn.microsoft.com/14444252-11ca-4614-81d1-9a15e76d0186">VDS_PATH_INFO</a> structures, 
      one for each path to the LUN.</p> (Inherited from <b>IVdsLunMpio</b>)</td>
 </tr>
 <tr data="inherited;">

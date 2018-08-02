@@ -4,10 +4,10 @@ title: GetSystemRegistryQuota function
 author: windows-sdk-content
 description: Retrieves the current size of the registry and the maximum size that the registry is allowed to attain on the system.
 old-location: base\getsystemregistryquota.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 06687b2a-2dab-4102-8022-4b70677064b2
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: GetSystemRegistryQuota, GetSystemRegistryQuota function, base.getsystemregistryquota, winbase/GetSystemRegistryQuota
 ms.prod: windows
 ms.technology: windows-sdk

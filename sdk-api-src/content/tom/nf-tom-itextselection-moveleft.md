@@ -4,10 +4,10 @@ title: ITextSelection::MoveLeft
 author: windows-sdk-content
 description: Generalizes the functionality of the Left Arrow key.
 old-location: controls\ITextSelection_MoveLeft.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveleft.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextSelection interface [Windows Controls],MoveLeft method, ITextSelection.MoveLeft, ITextSelection::MoveLeft, MoveLeft, MoveLeft method [Windows Controls], MoveLeft method [Windows Controls],ITextSelection interface, _win32_ITextSelection_MoveLeft, _win32_ITextSelection_MoveLeft_cpp, controls.ITextSelection_MoveLeft, controls._win32_ITextSelection_MoveLeft, tom/ITextSelection::MoveLeft
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ Unit to use. It can be one of the following.
 </table>
  
 
-
-					Note: If 
+Note: If 
 					<i>Count</i> is less than zero, movement is to the right. 
 
 
@@ -178,7 +177,7 @@ The WordBasic move methods like
 The 
 				<i>Extend</i> argument of 
 				<b>MoveLeft</b> and
-				 <a href="https://msdn.microsoft.com/library/Bb774076(v=VS.85).aspx">MoveRight</a> enables you to be consistent with the first three items above, and the 
+				 <a href="https://msdn.microsoft.com/en-us/library/Bb774076(v=VS.85).aspx">MoveRight</a> enables you to be consistent with the first three items above, and the 
 				<i>pDelta</i> is a generalization of the fourth. For example, given a selection consisting of a single range, you have the following correspondences (for left-to-right characters).
 
 <table class="clsStd">
@@ -218,7 +217,7 @@ When
 				<i>Count</i> has the default value of 1 and 
 				<i>Extend</i> has the default value of zero. This example corresponds to pressing the Left Arrow key. 
 				<b>MoveLeft</b> and 
-				<a href="https://msdn.microsoft.com/library/Bb774076(v=VS.85).aspx">MoveRight</a> are related to the <a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a> move methods, but differ in that they explicitly use the active end (the end moved by pressing the Shift key).
+				<a href="https://msdn.microsoft.com/en-us/library/Bb774076(v=VS.85).aspx">MoveRight</a> are related to the <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a> move methods, but differ in that they explicitly use the active end (the end moved by pressing the Shift key).
 
 
 
@@ -232,15 +231,15 @@ When
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774060(v=VS.85).aspx">ITextSelection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774060(v=VS.85).aspx">ITextSelection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774076(v=VS.85).aspx">MoveRight</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774076(v=VS.85).aspx">MoveRight</a>
 
 
 
@@ -248,7 +247,7 @@ When
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

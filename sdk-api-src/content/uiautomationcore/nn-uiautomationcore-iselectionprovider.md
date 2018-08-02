@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISelectionProvider.htm
 old-project: WinAuto
 ms.assetid: e02731f8-e58d-4c66-95bf-005cf954471c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: ISelectionProvider, ISelectionProvider interface [Windows Accessibility], ISelectionProvider interface [Windows Accessibility],described, uiauto.uiauto_ISelectionProvider, uiauto_ISelectionProvider, uiautomationcore/ISelectionProvider, winauto.uiauto_ISelectionProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        Provides access 
+Provides access 
         to controls that act as containers for a collection of individual, selectable child items. 
         The children of this control must implement <a href="https://msdn.microsoft.com/464b05e3-06da-44b9-b4a6-c64452fcdb6d">ISelectionItemProvider</a>.
         
@@ -79,8 +78,7 @@ The <b>ISelectionProvider</b> interface has these methods.
 <a href="https://msdn.microsoft.com/f97481b9-f227-47fb-9163-a65a259c9d78">GetSelection</a>
 </td>
 <td align="left" width="63%">
-
-        Retrieves a UI Automation provider for each child element that is selected.
+Retrieves a UI Automation provider for each child element that is selected.
         
 
 </td>
@@ -105,8 +103,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-
-        Indicates whether the UI Automation provider 
+Indicates whether the UI Automation provider 
         allows more than one child element to be selected concurrently.
 
 </td>
@@ -123,8 +120,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-
-        Indicates whether the UI Automation provider requires at least one child element to be selected.
+Indicates whether the UI Automation provider requires at least one child element to be selected.
         
 
 </td>
@@ -138,7 +134,7 @@ Read-only
 
 This interface is implemented by a UI Automation provider.
 
-Providers should raise an event of type <a href="https://msdn.microsoft.com/library/Ee671223(v=VS.85).aspx">UIA_Selection_InvalidatedEventId</a> when a selection in a container has changed significantly.
+Providers should raise an event of type <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_Selection_InvalidatedEventId</a> when a selection in a container has changed significantly.
 
 
 

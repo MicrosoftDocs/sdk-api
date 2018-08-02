@@ -2,7 +2,7 @@
 UID: NA:ip2string
 ms.assetid: 088fc977-01e3-3461-bf91-f82277f2c13e
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: search\_search_IQuerySolution_GetLexicalData.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\getlexicaldata.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: GetLexicalData, GetLexicalData method [search], GetLexicalData method [search],IQuerySolution interface, IQuerySolution interface [search],GetLexicalData method, IQuerySolution.GetLexicalData, IQuerySolution::GetLexicalData, _search_IQuerySolution_GetLexicalData, search._search_IQuerySolution_GetLexicalData, structuredquery/IQuerySolution::GetLexicalData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-          Reports the query string, how it was tokenized, and what language code identifier (LCID) and word breaker were used to parse it.
+Reports the query string, how it was tokenized, and what language code identifier (LCID) and word breaker were used to parse it.
         
 
 
@@ -65,17 +64,15 @@ req.product: Windows XP with SP1 and later
 
 Type: <b>LPWSTR*</b>
 
-
-              Receives the query string. This parameter can be <b>NULL</b>.
+Receives the query string. This parameter can be <b>NULL</b>.
             
 
 
 ### -param ppTokens [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb231300(v=VS.85).aspx">ITokenCollection</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231300(v=VS.85).aspx">ITokenCollection</a>**</b>
 
-
-              Receives a pointer to an <a href="https://msdn.microsoft.com/library/Bb231300(v=VS.85).aspx">ITokenCollection</a> object that describes how the query was tokenized. This parameter can be <b>NULL</b>.
+Receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb231300(v=VS.85).aspx">ITokenCollection</a> object that describes how the query was tokenized. This parameter can be <b>NULL</b>.
             
 
 
@@ -83,17 +80,15 @@ Type: <b><a href="https://msdn.microsoft.com/library/Bb231300(v=VS.85).aspx">ITo
 
 Type: <b>LCID*</b>
 
-
-              Receives a LCID for the word breaker used for this query. This parameter can be <b>NULL</b>.
+Receives a LCID for the word breaker used for this query. This parameter can be <b>NULL</b>.
             
 
 
 ### -param ppWordBreaker [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>**</b>
 
-
-              Receives a pointer to the word breaker used for this query. This parameter can be <b>NULL</b>.
+Receives a pointer to the word breaker used for this query. This parameter can be <b>NULL</b>.
             
 
 

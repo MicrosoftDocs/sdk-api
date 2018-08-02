@@ -7,7 +7,7 @@ old-location: winsync\icorefragment_getrangecount.htm
 old-project: winsync
 ms.assetid: 8eb33224-f017-4f3b-bbf9-14d388d0868f
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetRangeCount, GetRangeCount method [Windows Sync], GetRangeCount method [Windows Sync],ICoreFragment interface, ICoreFragment interface [Windows Sync],GetRangeCount method, ICoreFragment.GetRangeCount, ICoreFragment::GetRangeCount, winsync.icorefragment_getrangecount, winsync/ICoreFragment::GetRangeCount
 ms.prod: windows
 ms.technology: windows-sdk

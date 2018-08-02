@@ -4,10 +4,10 @@ title: IOCTL_DISK_SET_DRIVE_LAYOUT_EX
 author: windows-sdk-content
 description: Partitions a disk according to the specified drive layout and partition information data.
 old-location: fs\ioctl_disk_set_drive_layout_ex.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: a600e841-c692-4aa4-bea2-a33931d9b007
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_DISK_SET_DRIVE_LAYOUT_EX, IOCTL_DISK_SET_DRIVE_LAYOUT_EX control, IOCTL_DISK_SET_DRIVE_LAYOUT_EX control code [Files], _win32_ioctl_disk_set_drive_layout_ex, base.ioctl_disk_set_drive_layout_ex, fs.ioctl_disk_set_drive_layout_ex, winioctl/IOCTL_DISK_SET_DRIVE_LAYOUT_EX
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,11 @@ To perform this operation, call the
 </tr>
 <tr>
 <td>
-<pre>
-BOOL DeviceIoControl(
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,               // handle to device
-  IOCTL_DISK_SET_DRIVE_LAYOUT_EX, // dwIoControlCode
-  (LPVOID) lpInBuffer,            // input buffer
+  IOCTL_DISK_SET_DRIVE_LAYOUT_EX, // dwIoControlCode(LPVOID) lpInBuffer,            // input buffer
   (DWORD) nInBufferSize,          // size of the input buffer
-  NULL,                           // lpOutBuffer
-  0,                              // nOutBufferSize 
+  NULL,                           // lpOutBuffer0,                              // nOutBufferSize 
   (LPDWORD) lpBytesReturned,      // number of bytes returned
   (LPOVERLAPPED) lpOverlapped     // OVERLAPPED structure
 );</pre>

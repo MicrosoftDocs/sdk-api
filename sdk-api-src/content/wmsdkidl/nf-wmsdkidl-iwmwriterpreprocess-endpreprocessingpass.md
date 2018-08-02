@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterpreprocess_endpreprocessingpass.htm
 old-project: wmformat
 ms.assetid: 04ec12fb-946b-46cc-aa3f-515a86b9a217
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: EndPreprocessingPass, EndPreprocessingPass method [windows Media Format], EndPreprocessingPass method [windows Media Format],IWMWriterPreprocess interface, IWMWriterPreprocess interface [windows Media Format],EndPreprocessingPass method, IWMWriterPreprocess.EndPreprocessingPass, IWMWriterPreprocess::EndPreprocessingPass, IWMWriterPreprocessEndPreprocessingPass, wmformat.iwmwriterpreprocess_endpreprocessingpass, wmsdkidl/IWMWriterPreprocess::EndPreprocessingPass
 ms.prod: windows
 ms.technology: windows-sdk

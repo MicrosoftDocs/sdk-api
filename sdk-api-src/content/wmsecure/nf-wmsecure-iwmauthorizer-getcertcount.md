@@ -7,7 +7,7 @@ old-location: wmformat\iwmauthorizer_getcertcount.htm
 old-project: wmformat
 ms.assetid: afe8a924-3d2b-42e6-9700-a6075f51ff10
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetCertCount, GetCertCount method [windows Media Format], GetCertCount method [windows Media Format],IWMAuthorizer interface, IWMAuthorizer interface [windows Media Format],GetCertCount method, IWMAuthorizer.GetCertCount, IWMAuthorizer::GetCertCount, wmformat.iwmauthorizer_getcertcount, wmsecure/IWMAuthorizer::GetCertCount
 ms.prod: windows
 ms.technology: windows-sdk

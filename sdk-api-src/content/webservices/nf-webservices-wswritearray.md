@@ -7,7 +7,7 @@ old-location: wsw\wswritearray.htm
 old-project: wsw
 ms.assetid: c172dc3c-0c0a-4c92-8103-465b636d0c61
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsWriteArray, WsWriteArray function [Web Services for Windows], webservices/WsWriteArray, wsw.wswritearray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ This operation sends a series of elements to an XML Writer.
 
 ### -param writer [in]
 
-
-          A pointer to the Writer where the elements are written.
+A pointer to the Writer where the elements are written.
         
 
 
@@ -84,8 +83,7 @@ The value type for the elements
 
 ### -param array
 
-
-          A void pointer to the values written to <i>writer</i>.  The size of the items is determined by  value type.
+A void pointer to the values written to <i>writer</i>.  The size of the items is determined by  value type.
           <div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/6075ed1c-ceb5-421a-8a76-3a64b9e6dbe3">WS_VALUE_TYPE</a> for more information.
         </div>
 <div> </div>
@@ -94,8 +92,7 @@ The value type for the elements
 
 ### -param arraySize [in]
 
-
-          The total byte length of the array.
+The total byte length of the array.
         
 
 
@@ -130,8 +127,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-
-        This function is semantically equivalent to using <a href="https://msdn.microsoft.com/da23f5e6-504c-4e93-9190-7d8c41efc0da">WsWriteStartElement</a>,
+This function is semantically equivalent to using <a href="https://msdn.microsoft.com/da23f5e6-504c-4e93-9190-7d8c41efc0da">WsWriteStartElement</a>,
         <a href="https://msdn.microsoft.com/c7b9d014-89b5-4959-b49e-ee2cdeb41f7c">WsWriteValue</a> and <a href="https://msdn.microsoft.com/cfb23857-bc51-4467-9aeb-6ce8810ae1b0">WsWriteEndElement</a> in a loop, but is more efficient.
       
 

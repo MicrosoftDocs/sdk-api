@@ -7,7 +7,7 @@ old-location: mstv\iencoderapi.htm
 old-project: mstv
 ms.assetid: 823b79a1-1bf5-4aab-80dd-0e77ba950127
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IEncoderAPI, IEncoderAPI interface [Microsoft TV Technologies], IEncoderAPI interface [Microsoft TV Technologies],described, IEncoderAPIInterface, mstv.iencoderapi, strmif/IEncoderAPI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -146,11 +146,9 @@ In the various interface methods, the following GUIDs, defined in uuids.h, are u
 
 <table>
 <tr>
-<th>
-              Parameter
+<th>Parameter
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>
@@ -172,14 +170,11 @@ The following table describes the expected behavior of an encoder under extremel
 
 <table>
 <tr>
-<th>
-              Condition
+<th>Condition
             </th>
-<th>
-              Mode
+<th>Mode
             </th>
-<th>
-              Behavior
+<th>Behavior
             </th>
 </tr>
 <tr>
@@ -206,8 +201,7 @@ The following table describes the expected behavior of an encoder under extremel
  
 
 <h3><a id="OCUR_Devices"></a><a id="ocur_devices"></a><a id="OCUR_DEVICES"></a>OCUR Devices</h3>
-
-           This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="https://msdn.microsoft.com/7b641b94-9854-4ca8-8362-a9e1e49bbdd2">OCUR Devices</a>.
+This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="https://msdn.microsoft.com/7b641b94-9854-4ca8-8362-a9e1e49bbdd2">OCUR Devices</a>.
 
 
 
@@ -217,7 +211,7 @@ The following table describes the expected behavior of an encoder under extremel
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd375602(v=VS.85).aspx">Encoder API</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375602(v=VS.85).aspx">Encoder API</a>
  
 
  

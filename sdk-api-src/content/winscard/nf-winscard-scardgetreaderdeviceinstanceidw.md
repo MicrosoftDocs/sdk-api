@@ -4,10 +4,10 @@ title: SCardGetReaderDeviceInstanceIdW function
 author: windows-sdk-content
 description: Gets the device instance identifier of the card reader for the given reader name. This function does not affect the state of the reader.
 old-location: security\scardgetreaderdeviceinstanceid.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 306F1EAF-35A7-4449-802F-709667764737
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: SCardGetReaderDeviceInstanceId, SCardGetReaderDeviceInstanceId function [Security], SCardGetReaderDeviceInstanceIdA, SCardGetReaderDeviceInstanceIdW, security.scardgetreaderdeviceinstanceid, winscard/SCardGetReaderDeviceInstanceId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,7 +116,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="authentication_return_values.htm">Smart Card Return Values</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
 
 </td>
 </tr>

@@ -4,10 +4,10 @@ title: FindVolumeMountPointClose function
 author: windows-sdk-content
 description: Closes the specified mounted folder search handle.
 old-location: fs\findvolumemountpointclose.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: f0f09a9d-e463-4457-9078-3d324fa8d4d6
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: FindVolumeMountPointClose, FindVolumeMountPointClose function [Files], _win32_findvolumemountpointclose, base.findvolumemountpointclose, fs.findvolumemountpointclose, winbase/FindVolumeMountPointClose
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,8 +59,7 @@ req.product: Windows Address Book 5.0
 
 Closes the specified mounted folder search handle. The 
     <a href="https://msdn.microsoft.com/2ac3c22d-b8dd-43d8-a7af-877b54e42d9d">FindFirstVolumeMountPoint</a> and 
-<a href="https://msdn.microsoft.com/299e2fed-74d8-4008-b593-981c52016532">FindNextVolumeMountPoint</a>
-    functions use this search handle to locate mounted folders on a specified volume.
+<a href="https://msdn.microsoft.com/299e2fed-74d8-4008-b593-981c52016532">FindNextVolumeMountPoint</a>functions use this search handle to locate mounted folders on a specified volume.
 
 
 ## -parameters

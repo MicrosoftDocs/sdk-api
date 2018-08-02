@@ -7,7 +7,7 @@ old-location: wsw\wsresetmessage.htm
 old-project: wsw
 ms.assetid: 90a62cc8-a7e0-4451-8490-f6384bf3e7b6
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsResetMessage, WsResetMessage function [Web Services for Windows], webservices/WsResetMessage, wsw.wsresetmessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -105,12 +104,10 @@ One or more arguments are invalid.
 
 
 
-
-                When a message is reset, its underlying heap is reset.
+When a message is reset, its underlying heap is reset.
             
 
-
-                Reusing a message object to receive or send multiple messages is is generally
+Reusing a message object to receive or send multiple messages is is generally
                 more efficient than creating and free'ing the message object for each message.
             
 

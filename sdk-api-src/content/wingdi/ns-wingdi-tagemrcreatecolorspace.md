@@ -7,7 +7,7 @@ old-location: gdi\emrcreatecolorspace.htm
 old-project: gdi
 ms.assetid: ee2e02bb-5bd2-460c-aefe-78a143c72ff6
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: "*PEMRCREATECOLORSPACE, EMRCREATECOLORSPACE, EMRCREATECOLORSPACE structure [Windows GDI], PEMRCREATECOLORSPACE, PEMRCREATECOLORSPACE structure pointer [Windows GDI], _win32_EMRCREATECOLORSPACE_str, gdi.emrcreatecolorspace, tagEMRCREATECOLORSPACE, wingdi/EMRCREATECOLORSPACE, wingdi/PEMRCREATECOLORSPACE"
 ms.prod: windows
 ms.technology: windows-sdk

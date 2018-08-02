@@ -7,7 +7,7 @@ old-location: dshow\icapturegraphbuilder2_controlstream.htm
 old-project: DirectShow
 ms.assetid: f5c91444-6ddb-403c-bff5-33d9ce91fae3
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ControlStream, ControlStream method [DirectShow], ControlStream method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],ControlStream method, ICaptureGraphBuilder2.ControlStream, ICaptureGraphBuilder2::ControlStream, ICaptureGraphBuilder2ControlStream, dshow.icapturegraphbuilder2_controlstream, strmif/ICaptureGraphBuilder2::ControlStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ The <code>ControlStream</code> method sets the start and stop times for one or m
 
 ### -param pCategory [in]
 
-
-            A pointer to a GUID that specifies one of the pin categories listed in <a href="https://msdn.microsoft.com/0c01bd51-353d-4f48-b33c-796f740915e2">Pin Property Set</a>. The value of this parameter cannot be <b>NULL</b>.
+A pointer to a GUID that specifies one of the pin categories listed in <a href="https://msdn.microsoft.com/0c01bd51-353d-4f48-b33c-796f740915e2">Pin Property Set</a>. The value of this parameter cannot be <b>NULL</b>.
           
 
 

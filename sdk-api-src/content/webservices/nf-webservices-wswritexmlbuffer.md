@@ -7,7 +7,7 @@ old-location: wsw\wswritexmlbuffer.htm
 old-project: wsw
 ms.assetid: a0845072-95dc-4d81-8322-514b8acff32a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsWriteXmlBuffer, WsWriteXmlBuffer function [Web Services for Windows], webservices/WsWriteXmlBuffer, wsw.wswritexmlbuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Writes a <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> to a writer.
+Writes a <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> to a writer.
       
 
 
@@ -63,22 +62,19 @@ req.product: Windows Address Book 5.0
 
 ### -param writer [in]
 
-
-          The writer to which the XML buffer will be written.
+The writer to which the XML buffer will be written.
         
 
 
 ### -param xmlBuffer [in]
 
-
-          The XML buffer to write.
+The XML buffer to write.
         
 
 
 ### -param error [in, optional]
 
-
-          Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
         
 
 
@@ -100,7 +96,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -112,7 +107,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>
@@ -124,7 +118,6 @@ The operation is not allowed due to the current state of the object.
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -139,8 +132,7 @@ A quota was exceeded.
 
 
 
-
-        The function will copy the entire contents of the <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> to the writer at the current position.
+The function will copy the entire contents of the <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> to the writer at the current position.
       
 
 

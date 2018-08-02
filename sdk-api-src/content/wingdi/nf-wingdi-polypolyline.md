@@ -7,7 +7,7 @@ old-location: gdi\polypolyline.htm
 old-project: gdi
 ms.assetid: 71a9273f-321b-4efb-ac73-5979f8151d05
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: PolyPolyline, PolyPolyline function [Windows GDI], _win32_PolyPolyline, gdi.polypolyline, wingdi/PolyPolyline
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\wscreatexmlbuffer.htm
 old-project: wsw
 ms.assetid: 4e122283-f285-4fff-b240-22e4a7476639
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCreateXmlBuffer, WsCreateXmlBuffer function [Web Services for Windows], webservices/WsCreateXmlBuffer, wsw.wscreatexmlbuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,13 +82,10 @@ The number of properties in the <i>properties</i> array.
 
 ### -param buffer
 
-
-
-        On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> structure representing the created XML buffer. The memory for this buffer is released when its heap is reset or released.
+On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> structure representing the created XML buffer. The memory for this buffer is released when its heap is reset or released.
         
 
-
-          The XML buffer is initially  empty.  
+The XML buffer is initially  empty.  
 
 
 ### -param error [in, optional]
@@ -127,7 +124,6 @@ Insufficient memory to complete the operation.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>

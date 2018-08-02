@@ -4,10 +4,10 @@ title: ITextDocument::Save
 author: windows-sdk-content
 description: Saves the document.
 old-location: controls\ITextDocument_Save.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\save.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextDocument interface [Windows Controls],Save method, ITextDocument.Save, ITextDocument::Save, Save, Save method [Windows Controls], Save method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Save, _win32_ITextDocument_Save_cpp, controls.ITextDocument_Save, controls._win32_ITextDocument_Save, tom/ITextDocument::Save
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The save target. This parameter is a <b>VARIANT</b>, which can be a file name, o
 
 Type: <b>long</b>
 
-File creation, open, share, and conversion flags. For a list of possible values, see <a href="https://msdn.microsoft.com/library/Bb774093(v=VS.85).aspx">ITextDocument::Open</a>. 
+File creation, open, share, and conversion flags. For a list of possible values, see <a href="https://msdn.microsoft.com/en-us/library/Bb774093(v=VS.85).aspx">ITextDocument::Open</a>. 
 
 
 ### -param CodePage [in]
@@ -157,8 +157,8 @@ If
 				<i>pVar</i> specifies a file name, that name should replace the current Name property. Similarly, the 
 				<i>Flags</i> and 
 				<i>CodePage</i> arguments can overrule those supplied in the 
-				<a href="https://msdn.microsoft.com/library/Bb774093(v=VS.85).aspx">ITextDocument::Open</a> method and define the values to use for files created with the 
-				<a href="https://msdn.microsoft.com/library/Bb774091(v=VS.85).aspx">ITextDocument::New</a> method.
+				<a href="https://msdn.microsoft.com/en-us/library/Bb774093(v=VS.85).aspx">ITextDocument::Open</a> method and define the values to use for files created with the 
+				<a href="https://msdn.microsoft.com/en-us/library/Bb774091(v=VS.85).aspx">ITextDocument::New</a> method.
 
 Unicode plain-text files should be saved with the Unicode byte-order mark (0xFEFF) as the first character. This character should be removed when the file is read in; that is, it is only used for import/export to identify the plain text as Unicode and to identify the byte order of that text. Microsoft Notepad adopted this convention, which is now recommended by the Unicode standard.
 
@@ -174,11 +174,11 @@ Unicode plain-text files should be saved with the Unicode byte-order mark (0xFEF
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774091(v=VS.85).aspx">New</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774091(v=VS.85).aspx">New</a>
 
 
 
@@ -190,7 +190,7 @@ Unicode plain-text files should be saved with the Unicode byte-order mark (0xFEF
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

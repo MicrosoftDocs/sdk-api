@@ -4,10 +4,10 @@ title: ITAgent::get_User
 author: windows-sdk-content
 description: The get_User method gets the agent user name, which is the same as the operating system user login or e-mail name.
 old-location: tapi3\itagent_get_user.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 6949fdb0-5841-4473-bb50-2ea598a71576
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_User method, ITAgent.get_User, ITAgent::get_User, _tapi3_itagent_get_user, get_User, get_User method [TAPI 2.2], get_User method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_user, tapi3cc/ITAgent::get_User
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must free the memory allocated for the <i>ppUser</i> parameter through 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> when the variable is no longer needed.
+<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when the variable is no longer needed.
 
 
 

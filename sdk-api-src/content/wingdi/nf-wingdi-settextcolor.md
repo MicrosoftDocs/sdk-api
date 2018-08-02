@@ -7,7 +7,7 @@ old-location: gdi\settextcolor.htm
 old-project: gdi
 ms.assetid: 3875a247-7c32-4917-bf6d-50b2a49848a6
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: SetTextColor, SetTextColor function [Windows GDI], _win32_SetTextColor, gdi.settextcolor, wingdi/SetTextColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,7 +101,7 @@ The text color is used to draw the face of each character written by the <a href
 
 #### Examples
 
-For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85).aspx">Using Menus</a>.
+For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Using Menus</a>.
 
 <div class="code"></div>
 

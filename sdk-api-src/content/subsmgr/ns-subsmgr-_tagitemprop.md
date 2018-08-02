@@ -7,7 +7,7 @@ old-location: search\itemprop.htm
 old-project: search
 ms.assetid: 480C84CB-60CE-42F4-ADE6-4FCF1EAF15AF
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPITEMPROP, ITEMPROP, ITEMPROP structure [search], PITEMPROP, PITEMPROP structure pointer [search], _tagITEMPROP, search.itemprop, subsmgr/ITEMPROP, subsmgr/PITEMPROP"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,7 +107,7 @@ The type of the property value. For example, the type of the string property <a 
 
 
 
-To preview attachments with a third-party protocol handler on computers running Windows XP or Windows Server 2003, it may be necessary to use the <a href="https://msdn.microsoft.com/0fef34c5-f20f-475a-9223-5cb73079c842">IItemPropertyBag</a> interface and the following APIs: the <a href="https://msdn.microsoft.com/library/Dd756719(v=VS.85).aspx">ISearchProtocolUI</a>, <a href="https://msdn.microsoft.com/library/Dd561904(v=VS.85).aspx">IItemPreviewerExt</a> and <a href="https://msdn.microsoft.com/library/Dd756722(v=VS.85).aspx">ISearchItem</a> interfaces, the <a href="https://msdn.microsoft.com/library/Dd561894(v=VS.85).aspx">LINKINFO</a> and <b>ITEMPROP</b> structures, and the <a href="https://msdn.microsoft.com/library/Dd561982(v=VS.85).aspx">LINKTYPE</a> enumeration.
+To preview attachments with a third-party protocol handler on computers running Windows XP or Windows Server 2003, it may be necessary to use the <a href="https://msdn.microsoft.com/0fef34c5-f20f-475a-9223-5cb73079c842">IItemPropertyBag</a> interface and the following APIs: the <a href="https://msdn.microsoft.com/en-us/library/Dd756719(v=VS.85).aspx">ISearchProtocolUI</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd561904(v=VS.85).aspx">IItemPreviewerExt</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd756722(v=VS.85).aspx">ISearchItem</a> interfaces, the <a href="https://msdn.microsoft.com/en-us/library/Dd561894(v=VS.85).aspx">LINKINFO</a> and <b>ITEMPROP</b> structures, and the <a href="https://msdn.microsoft.com/en-us/library/Dd561982(v=VS.85).aspx">LINKTYPE</a> enumeration.
 
 
 

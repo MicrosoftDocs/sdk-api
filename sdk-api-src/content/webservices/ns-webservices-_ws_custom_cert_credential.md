@@ -7,7 +7,7 @@ old-location: wsw\ws_custom_cert_credential.htm
 old-project: wsw
 ms.assetid: 822dd067-803c-4e72-bfd0-fd9f9f36d390
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_CUSTOM_CERT_CREDENTIAL, WS_CUSTOM_CERT_CREDENTIAL structure [Web Services for Windows], _WS_CUSTOM_CERT_CREDENTIAL, webservices/WS_CUSTOM_CERT_CREDENTIAL, wsw.ws_custom_cert_credential
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,20 +66,17 @@ always invoked <a href="https://msdn.microsoft.com/6a8e4c0b-3c0a-4bd3-bbac-40e6f
 
 ### -field credential
 
-
 The base type from which this type and all other certificate credential types derive.
                 
 
 
 ### -field getCertCallback
 
-
 The Callback to get the certificate.
                 
 
 
 ### -field getCertCallbackState
-
 
 The state to be passed when invoking the callback.
                 

@@ -7,7 +7,7 @@ old-location: winmsg\replymessage.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\replymessage.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: ReplyMessage, ReplyMessage function [Windows and Messages], _win32_ReplyMessage, _win32_replymessage_cpp, winmsg.replymessage, winui._win32_replymessage, winuser/ReplyMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,7 +93,7 @@ If the message was not sent through <a href="https://msdn.microsoft.com/library/
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms644928(v=VS.85).aspx">Sending a Message</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644928(v=VS.85).aspx">Sending a Message</a>.
 
 <div class="code"></div>
 
@@ -108,11 +108,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms644928(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644941(v=VS.85).aspx">InSendMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644941(v=VS.85).aspx">InSendMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
 
 
 

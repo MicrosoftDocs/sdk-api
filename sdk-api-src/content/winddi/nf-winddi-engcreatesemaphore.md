@@ -7,7 +7,7 @@ old-location: display\engcreatesemaphore.htm
 old-project: display
 ms.assetid: 02b68914-5007-4bfb-ac8a-0269447ab26b
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: EngCreateSemaphore, EngCreateSemaphore function [Display Devices], display.engcreatesemaphore, gdifncs_d0ae1b52-59e6-49a9-ab03-7ff1008dc5c6.xml, winddi/EngCreateSemaphore
 ms.prod: windows
 ms.technology: windows-sdk

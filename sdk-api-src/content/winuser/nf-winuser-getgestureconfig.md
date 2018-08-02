@@ -7,7 +7,7 @@ old-location: wintouch\getgestureconfig.htm
 old-project: wintouch
 ms.assetid: 8b7a594c-e9e4-4215-8946-da170c957a2b
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: GetGestureConfig, GetGestureConfig function [Windows Touch], wintouch.getgestureconfig, winuser/GetGestureConfig
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,8 +57,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-  Retrieves the configuration for which Windows  Touch gesture messages are sent from a window.
+Retrieves the configuration for which Windows  Touch gesture messages are sent from a window.
   
 
 
@@ -115,15 +114,13 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-
-      Passing a value other than <code>sizeof(GESTURECONFIG)</code> for the 
+Passing a value other than <code>sizeof(GESTURECONFIG)</code> for the 
       <i>cbSize</i> parameter will cause calls to this function to fail and 
       <a href="http://msdn.microsoft.com/en-us/library/ms679360.aspx">GetLastError</a> will 
       return <b>ERROR_INVALID_PARAMETER</b> (87 in decimal).    
       
 
-
-  The following table lists the gesture configuration values:
+The following table lists the gesture configuration values:
   
 
 <table>

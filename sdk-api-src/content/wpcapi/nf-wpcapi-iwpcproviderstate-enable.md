@@ -7,7 +7,7 @@ old-location: parcon\iwpcproviderstate_enable.htm
 old-project: parcon
 ms.assetid: 6714702d-e623-43f8-9a4e-dd1b3939d011
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 07/29/2018
 ms.keywords: Enable, Enable method, Enable method,IWPCProviderState interface, IWPCProviderState interface,Enable method, IWPCProviderState.Enable, IWPCProviderState::Enable, parcon.iwpcproviderstate_enable, wpcapi/IWPCProviderState::Enable
 ms.prod: windows
 ms.technology: windows-sdk

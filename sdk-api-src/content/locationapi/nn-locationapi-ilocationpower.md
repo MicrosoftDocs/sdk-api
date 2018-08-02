@@ -77,7 +77,7 @@ The <b>ILocationPower</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="winlocation.ilocationpower_connect">Connect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687537(v=VS.85).aspx">Connect</a>
 </td>
 <td align="left" width="63%">
 Notify the location platform that an app has connected.

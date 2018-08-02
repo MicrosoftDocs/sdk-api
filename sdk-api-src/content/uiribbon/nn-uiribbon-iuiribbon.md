@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiribbon.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiribbon\iuiribbon.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: IUIRibbon, IUIRibbon interface [Windows Ribbon], IUIRibbon interface [Windows Ribbon],described, scenicintent_IUIRibbon, uiribbon/IUIRibbon, windowsribbon.windowsribbon_iuiribbon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-
-			
-				The <b>IUIRibbon</b> interface is implemented by the Windows Ribbon 
+The <b>IUIRibbon</b> interface is implemented by the Windows Ribbon 
 				framework and provides the ability to specify settings and properties for a ribbon. 
 			
 		
@@ -76,29 +74,27 @@ The <b>IUIRibbon</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd742708(v=VS.85).aspx">GetHeight</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742708(v=VS.85).aspx">GetHeight</a>
 </td>
 <td align="left" width="63%">
-
-			Retrieves the height of the ribbon.		
+Retrieves the height of the ribbon.		
 		
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371361(v=VS.85).aspx">LoadSettingsFromStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371361(v=VS.85).aspx">LoadSettingsFromStream</a>
 </td>
 <td align="left" width="63%">
-
-			Reads ribbon settings from a binary stream.
+Reads ribbon settings from a binary stream.
 		
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371362(v=VS.85).aspx">SaveSettingsToStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371362(v=VS.85).aspx">SaveSettingsToStream</a>
 </td>
 <td align="left" width="63%">
 Writes ribbon settings to a binary stream.
@@ -113,9 +109,8 @@ Writes ribbon settings to a binary stream.
 
 
 
-
-				A Ribbon is composed of several components that can include an <a href="https://msdn.microsoft.com/library/Dd940489(v=VS.85).aspx">Application Menu</a>, the <a href="https://msdn.microsoft.com/library/Dd940502(v=VS.85).aspx">Quick Access Toolbar (QAT)</a>, 
-				<a href="https://msdn.microsoft.com/library/Dd940507(v=VS.85).aspx">Tabs</a> (core and contextual), <a href="https://msdn.microsoft.com/library/Dd940499(v=VS.85).aspx">Groups</a> (containers for controls), and a rich context menu  system (<a href="https://msdn.microsoft.com/library/Dd940493(v=VS.85).aspx">Context Popup</a>).
+A Ribbon is composed of several components that can include an <a href="https://msdn.microsoft.com/en-us/library/Dd940489(v=VS.85).aspx">Application Menu</a>, the <a href="https://msdn.microsoft.com/en-us/library/Dd940502(v=VS.85).aspx">Quick Access Toolbar (QAT)</a>, 
+				<a href="https://msdn.microsoft.com/en-us/library/Dd940507(v=VS.85).aspx">Tabs</a> (core and contextual), <a href="https://msdn.microsoft.com/en-us/library/Dd940499(v=VS.85).aspx">Groups</a> (containers for controls), and a rich context menu  system (<a href="https://msdn.microsoft.com/en-us/library/Dd940493(v=VS.85).aspx">Context Popup</a>).
 			
 
 
@@ -126,7 +121,7 @@ Writes ribbon settings to a binary stream.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
  
 
  

@@ -4,10 +4,10 @@ title: ITextFont::GetAnimation
 author: windows-sdk-content
 description: Gets the animation type.
 old-location: controls\ITextFont_GetAnimation.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getanimation.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetAnimation, GetAnimation method [Windows Controls], GetAnimation method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetAnimation method, ITextFont.GetAnimation, ITextFont::GetAnimation, _win32_ITextFont_GetAnimation, _win32_ITextFont_GetAnimation_cpp, controls.ITextFont_GetAnimation, controls._win32_ITextFont_GetAnimation, tom/ITextFont::GetAnimation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,15 +66,15 @@ Type: <b>long*</b>
 One of the following animation types. 
 					
 
-<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomNoAnimation</a>
-<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomLasVegasLights</a>
-<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomBlinkingBackground</a>
-<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomSparkleText</a>
-<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMarchingBlackAnts</a>
-<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMarchingRedAnts</a>
-<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomShimmer</a>
-<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomWipeDown</a>
-<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomWipeRight</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomNoAnimation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomLasVegasLights</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomBlinkingBackground</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomSparkleText</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMarchingBlackAnts</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMarchingRedAnts</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomShimmer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomWipeDown</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomWipeRight</a>
 
 ## -returns
 
@@ -126,7 +126,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
 
 
 
@@ -134,11 +134,11 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774127(v=VS.85).aspx">SetAnimation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774127(v=VS.85).aspx">SetAnimation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

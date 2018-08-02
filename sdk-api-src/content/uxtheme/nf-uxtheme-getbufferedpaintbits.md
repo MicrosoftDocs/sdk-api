@@ -4,10 +4,10 @@ title: GetBufferedPaintBits function
 author: windows-sdk-content
 description: Retrieves a pointer to the buffer bitmap if the buffer is a device-independent bitmap (DIB).
 old-location: controls\GetBufferedPaintBits.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getbufferedpaintbits.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetBufferedPaintBits, GetBufferedPaintBits function [Windows Controls], _shell_GetBufferedPaintBits, _shell_GetBufferedPaintBits_cpp, controls.GetBufferedPaintBits, controls._shell_GetBufferedPaintBits, uxtheme/GetBufferedPaintBits
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ Retrieves a pointer to the buffer bitmap if the buffer is a device-independent b
 
 Type: <b>HPAINTBUFFER</b>
 
-The handle of the buffered paint context, obtained through <a href="https://msdn.microsoft.com/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
+The handle of the buffered paint context, obtained through <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
 
 
 ### -param ppbBuffer [out]
@@ -97,7 +97,7 @@ Returns S_OK if successful, or an error value otherwise. If an error occurs, <i>
 
 
 
-The number of bits per pixel depends on the pixel format passed to <a href="https://msdn.microsoft.com/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
+The number of bits per pixel depends on the pixel format passed to <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
 
 
 
@@ -107,7 +107,7 @@ The number of bits per pixel depends on the pixel format passed to <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb759835(v=VS.85).aspx">BP_BUFFERFORMAT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb759835(v=VS.85).aspx">BP_BUFFERFORMAT</a>
 
 
 

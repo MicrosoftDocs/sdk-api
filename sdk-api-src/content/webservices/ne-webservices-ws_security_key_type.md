@@ -7,7 +7,7 @@ old-location: wsw\ws_security_key_type.htm
 old-project: wsw
 ms.assetid: 95915a10-ba8f-41ca-89eb-777c85d2a411
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SECURITY_KEY_TYPE, WS_SECURITY_KEY_TYPE enumeration [Web Services for Windows], WS_SECURITY_KEY_TYPE_ASYMMETRIC, WS_SECURITY_KEY_TYPE_NONE, WS_SECURITY_KEY_TYPE_SYMMETRIC, webservices/WS_SECURITY_KEY_TYPE, webservices/WS_SECURITY_KEY_TYPE_ASYMMETRIC, webservices/WS_SECURITY_KEY_TYPE_NONE, webservices/WS_SECURITY_KEY_TYPE_SYMMETRIC, wsw.ws_security_key_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,6 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 The key type of a security token.  It is used as the return type when
 a security token is queried about its key.  It is also used to specify
 the required key type when requesting a security token from a security
@@ -66,7 +65,6 @@ token service.
 
 ### -field WS_SECURITY_KEY_TYPE_NONE
 
-
 Has no key -- it may be a bearer token such as a username/password
 pair.
                 
@@ -74,13 +72,11 @@ pair.
 
 ### -field WS_SECURITY_KEY_TYPE_SYMMETRIC
 
-
 Has a symmetric key.
                 
 
 
 ### -field WS_SECURITY_KEY_TYPE_ASYMMETRIC
-
 
 Has an asymmetric key.
                 

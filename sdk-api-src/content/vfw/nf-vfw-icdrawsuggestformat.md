@@ -7,7 +7,7 @@ old-location: multimedia\icdrawsuggestformat.htm
 old-project: Multimedia
 ms.assetid: 748d09a6-52db-4bd0-9006-6ee96f07a74b
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: ICDrawSuggestFormat, ICDrawSuggestFormat function [Windows Multimedia], _win32_ICDrawSuggestFormat, multimedia.icdrawsuggestformat, vfw/ICDrawSuggestFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,8 +113,7 @@ Decompressor that can use the format of data in <i>lpbiIn</i>.
 
 
 
-
-            Returns <b>ICERR_OK</b> if successful or an error otherwise.
+Returns <b>ICERR_OK</b> if successful or an error otherwise.
           
 
 

@@ -7,7 +7,7 @@ old-location: hidpi\openthemedatafordpi.htm
 old-project: hidpi
 ms.assetid: 40044856-82F2-47E2-AD4B-5E4F3868E7B8
 ms.author: windowssdkdev
-ms.date: 03/30/2018
+ms.date: 07/29/2018
 ms.keywords: OpenThemeDataForDpi, OpenThemeDataForDpi function [High DPI], hidpi.openthemedatafordpi, uxtheme/OpenThemeDataForDpi
 ms.prod: windows
 ms.technology: windows-sdk

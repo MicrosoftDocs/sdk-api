@@ -7,7 +7,7 @@ old-location: xps\ixpsomshareable.htm
 old-project: printdocs
 ms.assetid: 2071292f-b898-4ec8-99f7-294c8d820965
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMShareable, IXpsOMShareable interface [XPS Documents and Packaging], IXpsOMShareable interface [XPS Documents and Packaging],described, xps.ixpsomshareable, xpsobjectmodel/IXpsOMShareable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IXpsOMShareable</b> interface has these methods.
 <a href="https://msdn.microsoft.com/da871b31-2787-44cc-8678-43d529472f61">GetOwner</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <b>IUnknown</b> interface of the parent.
+Gets the <b>IUnknown</b> interface of the parent.
             
 
 </td>

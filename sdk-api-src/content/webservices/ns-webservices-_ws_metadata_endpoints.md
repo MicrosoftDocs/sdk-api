@@ -7,7 +7,7 @@ old-location: wsw\ws_metadata_endpoints.htm
 old-project: wsw
 ms.assetid: 96d4b938-80df-412a-9d0e-153d42ec73cb
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_METADATA_ENDPOINTS, WS_METADATA_ENDPOINTS structure [Web Services for Windows], _WS_METADATA_ENDPOINTS, webservices/WS_METADATA_ENDPOINTS, wsw.ws_metadata_endpoints
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Information about all endpoints that were 
+Information about all endpoints that were 
                 read from metadata documents.
             
 
@@ -64,14 +63,12 @@ req.product: Windows Address Book 5.0
 
 ### -field endpoints
 
-
-                    An array of endpoints.
+An array of endpoints.
                 
 
 
 ### -field endpointCount
 
-
-                    The number of elements in the endpoints array.
+The number of elements in the endpoints array.
                 
 

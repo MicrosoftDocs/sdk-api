@@ -7,7 +7,7 @@ old-location: wsw\ws_http_header_auth_security_binding_template.htm
 old-project: wsw
 ms.assetid: 4eabe380-de6d-48e3-bdad-dbf593a9850a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE, WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], _WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE, webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE, wsw.ws_http_header_auth_security_binding_template
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        The security binding template for specifying the use of HTP header authentication 
+The security binding template for specifying the use of HTP header authentication 
         protocol based security.
       
 
@@ -67,15 +66,13 @@ See also <a href="https://msdn.microsoft.com/c6ca6760-a927-470f-9785-7500d171190
 
 ### -field securityBindingProperties
 
-
-          Application provided security binding properties that cannot be represented in policy.
+Application provided security binding properties that cannot be represented in policy.
         
 
 
 ### -field clientCredential
 
-
-          The Windows credential to be used to obtain this security token.  This
+The Windows credential to be used to obtain this security token.  This
           is required on the client side and must be <b>NULL</b> on the server side.
         
 

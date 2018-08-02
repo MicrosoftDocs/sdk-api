@@ -4,10 +4,10 @@ title: "_DECODING_SOURCE"
 author: windows-sdk-content
 description: Defines the source of the event data.
 old-location: etw\decoding_source_enum.htm
-old-project: etw
+old-project: ETW
 ms.assetid: d6cd09da-9a67-4df2-9d82-370c559d3bfc
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/29/2018
 ms.keywords: DECODING_SOURCE, DECODING_SOURCE enumeration [ETW], DecodingSourceTlg, DecodingSourceWPP, DecodingSourceWbem, DecodingSourceXMLFile, _DECODING_SOURCE, etw.decoding_source_enum, tdh.decoding_source_enum, tdh/DECODING_SOURCE, tdh/DecodingSourceTlg, tdh/DecodingSourceWPP, tdh/DecodingSourceWbem, tdh/DecodingSourceXMLFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-		Defines the source of the event data.
+Defines the source of the event data.
 
 
 ## -enum-fields

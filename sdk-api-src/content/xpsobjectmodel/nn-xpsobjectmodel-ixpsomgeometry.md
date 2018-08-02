@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometry.htm
 old-project: printdocs
 ms.assetid: d3f74c1e-49ef-40ee-a2f4-b6d198b57624
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMGeometry, IXpsOMGeometry interface [XPS Documents and Packaging], IXpsOMGeometry interface [XPS Documents and Packaging],described, xps.ixpsomgeometry, xpsobjectmodel/IXpsOMGeometry
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,8 +83,7 @@ Makes a deep copy of the interface.
 <a href="https://msdn.microsoft.com/c49566d6-8a37-4ad6-9b3a-52ef39b925be">GetFigures</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the geometry's <a href="https://msdn.microsoft.com/24ed79ff-9160-4e9b-b322-c538b30f113b">IXpsOMGeometryFigureCollection</a> interface, which  contains the collection of  figures that make up this geometry.
+Gets a pointer to the geometry's <a href="https://msdn.microsoft.com/24ed79ff-9160-4e9b-b322-c538b30f113b">IXpsOMGeometryFigureCollection</a> interface, which  contains the collection of  figures that make up this geometry.
             
 
 </td>
@@ -94,8 +93,7 @@ Makes a deep copy of the interface.
 <a href="https://msdn.microsoft.com/5ec2cfdd-f05d-4e05-b290-fad175fe1cae">GetFillRule</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the  <a href="https://msdn.microsoft.com/353a4dc3-0c4d-46df-ae31-cc94c4116ca3">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+Gets the  <a href="https://msdn.microsoft.com/353a4dc3-0c4d-46df-ae31-cc94c4116ca3">XPS_FILL_RULE</a> value that describes the fill rule to be used.
             
 
 </td>
@@ -105,8 +103,7 @@ Makes a deep copy of the interface.
 <a href="https://msdn.microsoft.com/2247aa7b-28b3-459e-b565-d52a6cff7323">GetTransform</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the geometry's <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface, which contains the resolved matrix transform for the geometry.
+Gets a pointer to the geometry's <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface, which contains the resolved matrix transform for the geometry.
             
 
 </td>
@@ -116,8 +113,7 @@ Makes a deep copy of the interface.
 <a href="https://msdn.microsoft.com/1ae895a1-7b63-460c-b066-d8e9c7cd03c2">GetTransformLocal</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface that contains the local, unshared matrix transform for the geometry.
+Gets a pointer to the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface that contains the local, unshared matrix transform for the geometry.
             
 
 </td>
@@ -127,8 +123,7 @@ Makes a deep copy of the interface.
 <a href="https://msdn.microsoft.com/21a9a2c5-c9f2-42a4-84c4-8f702950d7ba">GetTransformLookup</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the lookup key for the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface that contains the resolved matrix transform for the geometry.
+Gets the lookup key for the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface that contains the resolved matrix transform for the geometry.
             
 
 </td>
@@ -138,8 +133,7 @@ Makes a deep copy of the interface.
 <a href="https://msdn.microsoft.com/e219a505-48e0-46b0-a739-d46fb898bc58">SetFillRule</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the  <a href="https://msdn.microsoft.com/353a4dc3-0c4d-46df-ae31-cc94c4116ca3">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+Sets the  <a href="https://msdn.microsoft.com/353a4dc3-0c4d-46df-ae31-cc94c4116ca3">XPS_FILL_RULE</a> value that describes the fill rule to be used.
             
 
 </td>

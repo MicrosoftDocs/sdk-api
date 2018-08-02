@@ -7,7 +7,7 @@ old-location: gdi\gdigetbatchlimit.htm
 old-project: gdi
 ms.assetid: aafe7635-1a71-42a9-90b7-11179e245af4
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GdiGetBatchLimit, GdiGetBatchLimit function [Windows GDI], _win32_GdiGetBatchLimit, gdi.gdigetbatchlimit, wingdi/GdiGetBatchLimit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,14 +94,12 @@ When the system batches a function call, the function returns <b>TRUE</b>. The a
 
 
 
-<a href="https://msdn.microsoft.com/6d2f398d-7a30-4b14-81de-23ab10e1749c">
-        GdiFlush
+<a href="https://msdn.microsoft.com/6d2f398d-7a30-4b14-81de-23ab10e1749c">GdiFlush
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/53bf0dfe-e93c-401d-ac5d-6717bad2625e">
-        GdiSetBatchLimit
+<a href="https://msdn.microsoft.com/53bf0dfe-e93c-401d-ac5d-6717bad2625e">GdiSetBatchLimit
       </a>
 
 

@@ -7,7 +7,7 @@ old-location: wmi\swbemdatetime_getfiletime.htm
 old-project: WmiSdk
 ms.assetid: 08e0761d-e735-454a-8429-2bd1eb331123
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: GetFileTime, GetFileTime method [Windows Management Instrumentation], GetFileTime method [Windows Management Instrumentation],ISWbemDateTime interface, GetFileTime method [Windows Management Instrumentation],SWbemDateTime object, ISWbemDateTime interface [Windows Management Instrumentation],GetFileTime method, ISWbemDateTime.GetFileTime, ISWbemDateTime::GetFileTime, SWbemDateTime object [Windows Management Instrumentation],GetFileTime method, SWbemDateTime.GetFileTime, _hmm_swbemdatetime.getfiletime, wmi.swbemdatetime_getfiletime
 ms.prod: windows
 ms.technology: windows-sdk

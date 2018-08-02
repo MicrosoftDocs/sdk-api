@@ -7,7 +7,7 @@ old-location: wsw\wsgetserviceproxyproperty.htm
 old-project: wsw
 ms.assetid: 4fb4124f-5beb-426a-890f-3a8fe236411f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetServiceProxyProperty, WsGetServiceProxyProperty function [Web Services for Windows], webservices/WsGetServiceProxyProperty, wsw.wsgetserviceproxyproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ This function retrieves a specified Service Proxy property.  The property to ret
 
 ### -param serviceProxy [in]
 
-
-                    This parameter is a pointer to the WS_SERVICE_PROXY object containing the property to retrieve.  
+This parameter is a pointer to the WS_SERVICE_PROXY object containing the property to retrieve.  
 
 
 ### -param id [in]

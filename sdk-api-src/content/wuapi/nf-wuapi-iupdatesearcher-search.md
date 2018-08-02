@@ -4,10 +4,10 @@ title: IUpdateSearcher::Search
 author: windows-sdk-content
 description: Performs a synchronous search for updates. The search uses the search options that are currently configured.
 old-location: wua\iupdatesearchersearch.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 0511cfd0-f4de-41ab-af35-32d757217386
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],Search method, IUpdateSearcher.Search, IUpdateSearcher::Search, Search, Search method [Windows Update Agent], Search method [Windows Update Agent],IUpdateSearcher interface, wua.iupdatesearchersearch, wuapi/IUpdateSearcher::Search
 ms.prod: windows
 ms.technology: windows-sdk
@@ -222,8 +222,7 @@ For example, "UpdateID!='12345678-9abc-def0-1234-56789abcdef0'" finds updates fo
 
 
 
-<div class="alert"><b>Note</b>  
-A RevisionNumber clause can be combined with an UpdateID clause that contains an <b>=</b> (equal)  operator. However, the RevisionNumber clause cannot  be combined with an UpdateID clause that contains the <b>!=</b> (not-equal) operator.</div>
+<div class="alert"><b>Note</b>  A RevisionNumber clause can be combined with an UpdateID clause that contains an <b>=</b> (equal)  operator. However, the RevisionNumber clause cannot  be combined with an UpdateID clause that contains the <b>!=</b> (not-equal) operator.</div>
 <div> </div>
 
 

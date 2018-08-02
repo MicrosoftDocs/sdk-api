@@ -7,7 +7,7 @@ old-location: gdi\getglyphindices.htm
 old-project: gdi
 ms.assetid: 7abfee7a-dd5d-4f33-96f1-b38364ba5afd
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GGI_MARK_NONEXISTING_GLYPHS, GetGlyphIndices, GetGlyphIndices function [Windows GDI], GetGlyphIndicesA, GetGlyphIndicesW, _win32_GetGlyphIndices, gdi.getglyphindices, wingdi/GetGlyphIndices, wingdi/GetGlyphIndicesA, wingdi/GetGlyphIndicesW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_SYSTEM_AUDIT_ACE"
 author: windows-sdk-content
 description: Defines an access control entry (ACE) for the system access control list (SACL) that specifies what types of access cause system-level notifications.
 old-location: security\system_audit_ace.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: c26b5856-5447-4606-8110-f24a4d235c64
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: "*PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE structure pointer [Security], SYSTEM_AUDIT_ACE, SYSTEM_AUDIT_ACE structure [Security], _SYSTEM_AUDIT_ACE, _win32_system_audit_ace_str, security.system_audit_ace, winnt/PSYSTEM_AUDIT_ACE, winnt/SYSTEM_AUDIT_ACE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The <b>SYSTEM_AUDIT_ACE</b> structure defines an  <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE) for the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL) that specifies what types of access cause system-level notifications. A system-audit ACE causes an audit message to be logged when a specified <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">trustee</a> attempts to gain access to an object. The trustee is identified by a  <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID).
+The <b>SYSTEM_AUDIT_ACE</b> structure defines an  <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE) for the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL) that specifies what types of access cause system-level notifications. A system-audit ACE causes an audit message to be logged when a specified <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">trustee</a> attempts to gain access to an object. The trustee is identified by a  <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID).
 
 
 ## -struct-fields

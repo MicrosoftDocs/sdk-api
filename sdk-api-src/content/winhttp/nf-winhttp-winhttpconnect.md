@@ -4,10 +4,10 @@ title: WinHttpConnect function
 author: windows-sdk-content
 description: The WinHttpConnect function specifies the initial target server of an HTTP request and returns an HINTERNET connection handle to an HTTP session for that initial target.
 old-location: http\winhttpconnect.htm
-old-project: winhttp
+old-project: WinHttp
 ms.assetid: afcdad8d-687e-4a1f-99d8-5d8be13825fa
 ms.author: windowssdkdev
-ms.date: 03/09/2018
+ms.date: 07/29/2018
 ms.keywords: INTERNET_DEFAULT_HTTPS_PORT, INTERNET_DEFAULT_HTTP_PORT, INTERNET_DEFAULT_PORT, WinHttpConnect, WinHttpConnect function [WinHTTP], http.winhttpconnect, winhttp.winhttpconnect, winhttp/WinHttpConnect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ Uses the default port for HTTP servers (port 80).
 </td>
 <td width="60%">
 Uses the default port for HTTPS servers (port 443).  Selecting this port does not automatically establish a secure connection.  You must still specify the use of secure transaction semantics by using the 
-<a href="https://msdn.microsoft.com/library/Aa384099(v=VS.85).aspx">WINHTTP_FLAG_SECURE</a> flag with 
+<a href="https://msdn.microsoft.com/en-us/library/Aa384099(v=VS.85).aspx">WINHTTP_FLAG_SECURE</a> flag with 
 <a href="https://msdn.microsoft.com/9ecd035d-1abf-48ca-baf2-d9754f912c60">WinHttpOpenRequest</a>.
 
 </td>

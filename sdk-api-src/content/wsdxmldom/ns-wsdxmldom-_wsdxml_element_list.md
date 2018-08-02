@@ -4,10 +4,10 @@ title: "_WSDXML_ELEMENT_LIST"
 author: windows-sdk-content
 description: Represents a node in a linked list of XML elements.
 old-location: ncd\wsdxml_element_list_struct.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 498fe365-e9a1-490c-a361-2312ea698977
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: WSDXML_ELEMENT_LIST, WSDXML_ELEMENT_LIST structure, _WSDXML_ELEMENT_LIST, ncd.wsdxml_element_list_struct, wsdxmldom/WSDXML_ELEMENT_LIST
 ms.prod: windows
 ms.technology: windows-sdk

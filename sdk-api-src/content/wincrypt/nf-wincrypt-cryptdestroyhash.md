@@ -4,10 +4,10 @@ title: CryptDestroyHash function
 author: windows-sdk-content
 description: Destroys the hash object referenced by the hHash parameter.
 old-location: security\cryptdestroyhash.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 0a4d6086-5c4c-4e1e-9ab9-b35ee49ffcae
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptDestroyHash, CryptDestroyHash function [Security], _crypto2_cryptdestroyhash, security.cryptdestroyhash, wincrypt/CryptDestroyHash
 ms.prod: windows
 ms.technology: windows-sdk
@@ -193,7 +193,7 @@ For an example that uses the <b>CryptDestroyHash</b> function, see <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
  
 
  

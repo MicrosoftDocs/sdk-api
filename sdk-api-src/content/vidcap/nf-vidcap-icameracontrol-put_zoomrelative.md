@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_zoomrelative.htm
 old-project: DirectShow
 ms.assetid: 815f92c3-bfab-47d5-86dd-f9b2321d20eb
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ICameraControl interface [DirectShow],put_ZoomRelative method, ICameraControl.put_ZoomRelative, ICameraControl::put_ZoomRelative, ICameraControlput_ZoomRelative, dshow.icameracontrol_put_zoomrelative, put_ZoomRelative, put_ZoomRelative method [DirectShow], put_ZoomRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_ZoomRelative
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,11 +66,9 @@ Specifies the relative zoom. The size of the value represents the desired zoom s
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

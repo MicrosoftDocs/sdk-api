@@ -4,10 +4,10 @@ title: "_TXFS_QUERY_RM_INFORMATION"
 author: windows-sdk-content
 description: Contains information about the resource manager (RM).
 old-location: fs\txfs_query_rm_information.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: a8dc6b69-306a-4843-b7b5-ea6a1e5068cb
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "*PTXFS_QUERY_RM_INFORMATION, PTXFS_QUERY_RM_INFORMATION, PTXFS_QUERY_RM_INFORMATION structure pointer [Files], TXFS_LOGGING_MODE_FULL, TXFS_LOGGING_MODE_SIMPLE, TXFS_QUERY_RM_INFORMATION, TXFS_QUERY_RM_INFORMATION structure [Files], TXFS_RM_FLAG_DO_NOT_RESET_RM_AT_NEXT_START, TXFS_RM_FLAG_LOG_CONTAINER_COUNT_MIN, TXFS_RM_FLAG_LOG_GROWTH_INCREMENT_NUM_CONTAINERS, TXFS_RM_FLAG_LOG_GROWTH_INCREMENT_PERCENT, TXFS_RM_FLAG_LOG_NO_CONTAINER_COUNT_MAX, TXFS_RM_FLAG_PREFER_AVAILABILITY, TXFS_RM_FLAG_PREFER_CONSISTENCY, TXFS_RM_FLAG_RESET_RM_AT_NEXT_START, TXFS_RM_STATE_ACTIVE, TXFS_RM_STATE_NOT_STARTED, TXFS_RM_STATE_SHUTTING_DOWN, TXFS_RM_STATE_STARTING, _TXFS_QUERY_RM_INFORMATION, base.txfs_query_rm_information, fs.txfs_query_rm_information, winioctl/PTXFS_QUERY_RM_INFORMATION, winioctl/TXFS_QUERY_RM_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -218,8 +218,8 @@ Indicates the current state of the RM reset flag. If this is set, the RM will no
 </td>
 <td width="60%">
 Indicates that the RM is to prefer transaction 
-        <a href="glossary.htm">consistency</a> over system 
-        <a href="glossary.htm">availability</a>. This flag is mutually 
+        <a href="https://msdn.microsoft.com/en-us/library/Aa365003(v=VS.85).aspx">consistency</a> over system 
+        <a href="https://msdn.microsoft.com/en-us/library/Aa365003(v=VS.85).aspx">availability</a>. This flag is mutually 
         exclusive with <b>TXFS_RM_FLAG_PREFER_AVAILABILITY</b> and is not supported by the default 
         RM on the system volume.
 
@@ -233,8 +233,8 @@ Indicates that the RM is to prefer transaction
 </td>
 <td width="60%">
 Indicates that the RM is to prefer system 
-        <a href="glossary.htm">availability</a> over transaction 
-        <a href="glossary.htm">consistency</a>. This flag is mutually 
+        <a href="https://msdn.microsoft.com/en-us/library/Aa365003(v=VS.85).aspx">availability</a> over transaction 
+        <a href="https://msdn.microsoft.com/en-us/library/Aa365003(v=VS.85).aspx">consistency</a>. This flag is mutually 
         exclusive with <b>TXFS_RM_FLAG_PREFER_CONSISTENCY</b> and is forced by the default RM on 
         the system volume.
 

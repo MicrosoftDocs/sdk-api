@@ -7,7 +7,7 @@ old-location: gdi\drawedge.htm
 old-project: gdi
 ms.assetid: 07d5216e-b577-4ff3-9e3f-eefb486b1ebd
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: BDR_RAISEDINNER, BDR_RAISEDOUTER, BDR_SUNKENINNER, BDR_SUNKENOUTER, BF_ADJUST, BF_BOTTOM, BF_BOTTOMLEFT, BF_BOTTOMRIGHT, BF_DIAGONAL, BF_DIAGONAL_ENDBOTTOMLEFT, BF_DIAGONAL_ENDBOTTOMRIGHT, BF_DIAGONAL_ENDTOPLEFT, BF_DIAGONAL_ENDTOPRIGHT, BF_FLAT, BF_LEFT, BF_MIDDLE, BF_MONO, BF_RECT, BF_RIGHT, BF_SOFT, BF_TOP, BF_TOPLEFT, BF_TOPRIGHT, DrawEdge, DrawEdge function [Windows GDI], EDGE_BUMP, EDGE_ETCHED, EDGE_RAISED, EDGE_SUNKEN, _win32_DrawEdge, gdi.drawedge, winuser/DrawEdge
 ms.prod: windows
 ms.technology: windows-sdk
@@ -412,8 +412,7 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">
-        RECT
+<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT
       </a>
  
 

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxgetjob.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6jz6.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: FaxGetJob, FaxGetJob function [Fax Service], FaxGetJobA, FaxGetJobW, _mfax_faxgetjob, fax._mfax_faxgetjob, winfax/FaxGetJob, winfax/FaxGetJobA, winfax/FaxGetJobW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-A fax client application calls the <b>FaxGetJob</b> function to retrieve detailed information for the specified queued or active fax job. The function returns the information in a <a href="https://msdn.microsoft.com/library/ms690762(v=VS.85).aspx">FAX_JOB_ENTRY</a> structure.
+A fax client application calls the <b>FaxGetJob</b> function to retrieve detailed information for the specified queued or active fax job. The function returns the information in a <a href="https://msdn.microsoft.com/en-us/library/ms690762(v=VS.85).aspx">FAX_JOB_ENTRY</a> structure.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ A fax client application calls the <b>FaxGetJob</b> function to retrieve detaile
 
 Type: <b>HANDLE</b>
 
-Specifies a fax server handle returned by a call to the <a href="https://msdn.microsoft.com/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a> function.
+Specifies a fax server handle returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a> function.
 
 
 ### -param JobId [in]
@@ -80,7 +80,7 @@ Specifies a unique number that identifies a queued or active fax job. The job ca
 
 Type: <b>PFAX_JOB_ENTRY*</b>
 
-Pointer to the address of a buffer to receive a <a href="https://msdn.microsoft.com/library/ms690762(v=VS.85).aspx">FAX_JOB_ENTRY</a> structure. The data includes the job type and status, recipient and sender identification, scheduling and delivery settings, and the page count. For information about memory allocation, see the following Remarks section.
+Pointer to the address of a buffer to receive a <a href="https://msdn.microsoft.com/en-us/library/ms690762(v=VS.85).aspx">FAX_JOB_ENTRY</a> structure. The data includes the job type and status, recipient and sender identification, scheduling and delivery settings, and the page count. For information about memory allocation, see the following Remarks section.
 
 
 ## -returns
@@ -105,7 +105,7 @@ If the function fails, the return value is zero. To get extended error informati
 </dl>
 </td>
 <td width="60%">
-Access is denied. <a href="https://msdn.microsoft.com/library/ms692302(v=VS.85).aspx">FAX_JOB_QUERY</a> access is required.
+Access is denied. <a href="https://msdn.microsoft.com/en-us/library/ms692302(v=VS.85).aspx">FAX_JOB_QUERY</a> access is required.
 
 </td>
 </tr>
@@ -141,11 +141,11 @@ An error occurred during memory allocation.
 
 
 
-The <b>FaxGetJob</b> function retrieves information about an individual fax job. To retrieve information about all queued and active jobs on the fax server of interest, call the <a href="https://msdn.microsoft.com/library/ms691958(v=VS.85).aspx">FaxEnumJobs</a> function.
+The <b>FaxGetJob</b> function retrieves information about an individual fax job. To retrieve information about all queued and active jobs on the fax server of interest, call the <a href="https://msdn.microsoft.com/en-us/library/ms691958(v=VS.85).aspx">FaxEnumJobs</a> function.
 
-The <b>FaxGetJob</b> function allocates the memory required for the buffer pointed to by the <i>JobEntry</i> parameter. An application must call the <a href="https://msdn.microsoft.com/library/ms692846(v=VS.85).aspx">FaxFreeBuffer</a> function to deallocate the resources associated with this parameter.
+The <b>FaxGetJob</b> function allocates the memory required for the buffer pointed to by the <i>JobEntry</i> parameter. An application must call the <a href="https://msdn.microsoft.com/en-us/library/ms692846(v=VS.85).aspx">FaxFreeBuffer</a> function to deallocate the resources associated with this parameter.
 
-For more information, see <a href="https://msdn.microsoft.com/library/ms691821(v=VS.85).aspx">Managing Fax Jobs</a> and <a href="https://msdn.microsoft.com/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691821(v=VS.85).aspx">Managing Fax Jobs</a> and <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
 
 
@@ -155,31 +155,31 @@ For more information, see <a href="https://msdn.microsoft.com/library/ms691821(v
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690762(v=VS.85).aspx">FAX_JOB_ENTRY</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690762(v=VS.85).aspx">FAX_JOB_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691958(v=VS.85).aspx">FaxEnumJobs</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691958(v=VS.85).aspx">FaxEnumJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692846(v=VS.85).aspx">FaxFreeBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692846(v=VS.85).aspx">FaxFreeBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691844(v=VS.85).aspx">FaxSetJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691844(v=VS.85).aspx">FaxSetJob</a>
  
 
  

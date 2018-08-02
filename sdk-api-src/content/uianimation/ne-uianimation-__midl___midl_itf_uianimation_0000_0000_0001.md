@@ -7,7 +7,7 @@ old-location: uianimation\ui_animation_update_result.htm
 old-project: UIAnimation
 ms.assetid: 19b1d80f-39b3-4046-aa6a-5312e004b4b0
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: UI_ANIMATION_UPDATE_NO_CHANGE, UI_ANIMATION_UPDATE_RESULT, UI_ANIMATION_UPDATE_RESULT enumeration [Windows Animation], UI_ANIMATION_UPDATE_VARIABLES_CHANGED, __MIDL___MIDL_itf_UIAnimation_0000_0000_0001, uianimation.ui_animation_update_result, uianimation/UI_ANIMATION_UPDATE_NO_CHANGE, uianimation/UI_ANIMATION_UPDATE_RESULT, uianimation/UI_ANIMATION_UPDATE_VARIABLES_CHANGED
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-         Defines results for animation updates.
+Defines results for animation updates.
 
 
 ## -enum-fields
@@ -62,14 +61,12 @@ req.product: Windows XP with SP1 and later
 
 ### -field UI_ANIMATION_UPDATE_NO_CHANGE
 
-
-               No animation variables have changed.
+No animation variables have changed.
 
 
 ### -field UI_ANIMATION_UPDATE_VARIABLES_CHANGED
 
-
-               One or more animation variables has changed.
+One or more animation variables has changed.
 
 
 ## -see-also
@@ -77,13 +74,11 @@ req.product: Windows XP with SP1 and later
 
 
 
-<a href="https://msdn.microsoft.com/6008fe44-8d86-4a56-a1e2-7bc144b224b2">
-               IUIAnimationManager::Update</a>
+<a href="https://msdn.microsoft.com/6008fe44-8d86-4a56-a1e2-7bc144b224b2">IUIAnimationManager::Update</a>
 
 
 
-<a href="https://msdn.microsoft.com/06daa961-5f92-451f-958a-cf68f8ae2b0a">
-               IUIAnimationTimerUpdateHandler::OnUpdate</a>
+<a href="https://msdn.microsoft.com/06daa961-5f92-451f-958a-cf68f8ae2b0a">IUIAnimationTimerUpdateHandler::OnUpdate</a>
  
 
  

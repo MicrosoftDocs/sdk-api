@@ -4,10 +4,10 @@ title: ITextServices::TxGetText
 author: windows-sdk-content
 description: Returns all of the Unicode plain text in the control as a BSTR.
 old-location: controls\ITextServices_TxGetText.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgettext.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextServices interface [Windows Controls],TxGetText method, ITextServices.TxGetText, ITextServices::TxGetText, TxGetText, TxGetText method [Windows Controls], TxGetText method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetText, _win32_ITextServices_TxGetText_cpp, controls.ITextServices_TxGetText, controls._win32_ITextServices_TxGetText, textserv/ITextServices::TxGetText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Returns all of the Unicode plain text in the control as a <b>BSTR</b>.
 
 ### -param pbstrText
 
-Type: <b>
-            BSTR
+Type: <b>BSTR
           *</b>
 
 The Unicode plain text. 
@@ -117,7 +116,7 @@ Could not allocate memory for copy of the text.
 
 The host (caller) takes ownership of the returned <b>BSTR</b>.
 
-Other ways to retrieve plain text data are to use <a href="https://msdn.microsoft.com/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a> or the Text Object Model (TOM) <a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a> method.
+Other ways to retrieve plain text data are to use <a href="https://msdn.microsoft.com/en-us/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a> or the Text Object Model (TOM) <a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a> method.
 
 If there is no text in the control, the <b>BSTR</b> is allocated and 0x000D is returned in it.
 
@@ -139,7 +138,7 @@ The returned text will <i>not</i> necessarily be null-terminated.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787617(v=VS.85).aspx">ITextServices</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a>
 
 
 
@@ -151,11 +150,11 @@ The returned text will <i>not</i> necessarily be null-terminated.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
  
 
  

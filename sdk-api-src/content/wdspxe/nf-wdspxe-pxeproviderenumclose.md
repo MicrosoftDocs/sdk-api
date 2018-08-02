@@ -4,10 +4,10 @@ title: PxeProviderEnumClose function
 author: windows-sdk-content
 description: Closes the enumeration of providers opened by the PxeProviderEnumFirst function.
 old-location: wds\pxeproviderenumclose.htm
-old-project: wds
+old-project: Wds
 ms.assetid: 6b71c2cf-a156-4ccb-be7c-2955b4db26a2
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: PxeProviderEnumClose, PxeProviderEnumClose function [Windows Deployment Services], wds.pxeproviderenumclose, wdspxe/PxeProviderEnumClose
 ms.prod: windows
 ms.technology: windows-sdk

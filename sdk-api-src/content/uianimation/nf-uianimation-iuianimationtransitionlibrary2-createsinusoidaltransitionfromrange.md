@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary2_createsinusoidaltransit
 old-project: UIAnimation
 ms.assetid: E4222165-4726-4C79-94A8-3CC2C72CCE42
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateSinusoidalTransitionFromRange, CreateSinusoidalTransitionFromRange method [Windows Animation], CreateSinusoidalTransitionFromRange method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateSinusoidalTransitionFromRange method, IUIAnimationTransitionLibrary2.CreateSinusoidalTransitionFromRange, IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromRange, uianimation.iuianimationtransitionlibrary2_createsinusoidaltransitionfromrange, uianimation/IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromRange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates a sinusoidal-range scalar  transition with a specified range of oscillation.
+Creates a sinusoidal-range scalar  transition with a specified range of oscillation.
 
 
 ## -parameters
@@ -87,8 +86,7 @@ The slope at the start of the transition.
 
 ### -param transition [out]
 
-
-               The new sinusoidal-range transition.
+The new sinusoidal-range transition.
 
 
 ## -returns

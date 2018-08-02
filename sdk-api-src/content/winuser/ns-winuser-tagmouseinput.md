@@ -7,7 +7,7 @@ old-location: inputdev\mouseinput.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputstructures\mouseinput.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPMOUSEINPUT, *PMOUSEINPUT, MOUSEEVENTF_ABSOLUTE, MOUSEEVENTF_HWHEEL, MOUSEEVENTF_LEFTDOWN, MOUSEEVENTF_LEFTUP, MOUSEEVENTF_MIDDLEDOWN, MOUSEEVENTF_MIDDLEUP, MOUSEEVENTF_MOVE, MOUSEEVENTF_MOVE_NOCOALESCE, MOUSEEVENTF_RIGHTDOWN, MOUSEEVENTF_RIGHTUP, MOUSEEVENTF_VIRTUALDESK, MOUSEEVENTF_WHEEL, MOUSEEVENTF_XDOWN, MOUSEEVENTF_XUP, MOUSEINPUT, MOUSEINPUT structure [Keyboard and Mouse Input], PMOUSEINPUT, PMOUSEINPUT structure pointer [Keyboard and Mouse Input], XBUTTON1, XBUTTON2, _win32_MOUSEINPUT_str, _win32_mouseinput_str_cpp, inputdev.mouseinput, tagMOUSEINPUT, winui._win32_mouseinput_str, winuser/MOUSEINPUT, winuser/PMOUSEINPUT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -175,7 +175,7 @@ Movement occurred.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> messages will not be coalesced. The default behavior is to coalesce <b>WM_MOUSEMOVE</b> messages.
+The <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> messages will not be coalesced. The default behavior is to coalesce <b>WM_MOUSEMOVE</b> messages.
 					
 
 <b>Windows XP/2000:  </b>This value is not supported.
@@ -308,7 +308,7 @@ The time stamp for the event, in milliseconds. If this parameter is 0, the syste
 
 Type: <b>ULONG_PTR</b>
 
-An additional value associated with the mouse event. An application calls <a href="https://msdn.microsoft.com/library/ms644937(v=VS.85).aspx">GetMessageExtraInfo</a> to obtain this extra information. 
+An additional value associated with the mouse event. An application calls <a href="https://msdn.microsoft.com/en-us/library/ms644937(v=VS.85).aspx">GetMessageExtraInfo</a> to obtain this extra information. 
 
 
 ## -remarks
@@ -339,7 +339,7 @@ The system applies two tests to the specified relative mouse movement. If the sp
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644937(v=VS.85).aspx">GetMessageExtraInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644937(v=VS.85).aspx">GetMessageExtraInfo</a>
 
 
 
@@ -347,7 +347,7 @@ The system applies two tests to the specified relative mouse movement. If the sp
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
 
 
 
@@ -355,7 +355,7 @@ The system applies two tests to the specified relative mouse movement. If the sp
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646310(v=VS.85).aspx">SendInput</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx">SendInput</a>
  
 
  

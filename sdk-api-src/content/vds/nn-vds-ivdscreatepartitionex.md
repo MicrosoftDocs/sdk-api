@@ -4,10 +4,10 @@ title: IVdsCreatePartitionEx
 author: windows-sdk-content
 description: Creates a partition on a basic disk.
 old-location: base\ivdscreatepartitionex.htm
-old-project: vds
+old-project: VDS
 ms.assetid: aae89a86-35b2-45ab-83f5-9461960876c4
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: IVdsCreatePartitionEx, IVdsCreatePartitionEx interface [VDS], IVdsCreatePartitionEx interface [VDS],described, base.ivdscreatepartitionex, vds/IVdsCreatePartitionEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,7 @@ req.product: Windows UI
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
 
-
-   Creates a partition on a basic disk.
+Creates a partition on a basic disk.
 
 
 ## -inheritance
@@ -78,12 +77,10 @@ The <b>IVdsCreatePartitionEx</b> interface has these methods.
 <a href="https://msdn.microsoft.com/c9ab5a24-b0b3-41cc-a4bf-3619f156008c">CreatePartitionEx</a>
 </td>
 <td align="left" width="63%">
-
-     Creates a partition on a basic disk.
+Creates a partition on a basic disk.
      
 
-
-      This method supersedes the 
+This method supersedes the 
       <a href="https://msdn.microsoft.com/94f80a9f-459f-4f3d-8d85-e5ec7d5734c4">IVdsAdvancedDisk::CreatePartition</a> 
       method.
 

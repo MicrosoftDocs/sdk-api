@@ -4,10 +4,10 @@ title: PulseEvent function
 author: windows-sdk-content
 description: Sets the specified event object to the signaled state and then resets it to the nonsignaled state after releasing the appropriate number of waiting threads.
 old-location: base\pulseevent.htm
-old-project: sync
+old-project: Sync
 ms.assetid: b3cfe15a-1a0e-4c29-8840-032e56404400
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/29/2018
 ms.keywords: PulseEvent, PulseEvent function, _win32_pulseevent, base.pulseevent, winbase/PulseEvent
 ms.prod: windows
 ms.technology: windows-sdk

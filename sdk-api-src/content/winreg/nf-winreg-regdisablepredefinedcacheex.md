@@ -4,10 +4,10 @@ title: RegDisablePredefinedCacheEx function
 author: windows-sdk-content
 description: Disables handle caching for all predefined registry handles for the current process.
 old-location: base\regdisablepredefinedcacheex.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: a56cf7d9-0ac4-4719-af41-3c0cdcef6faf
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: RegDisablePredefinedCacheEx, RegDisablePredefinedCacheEx function, base.regdisablepredefinedcacheex, winreg/RegDisablePredefinedCacheEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ This function does not work on a remote computer.
 Services that change impersonation should call this function before using any of the predefined handles.
 
 For example, any access of <b>HKEY_CURRENT_USER</b> after this function is called results in open and close operations being performed on <b>HKEY_USERS</b>\<b>SID_of_current_user</b>, or on <b>HKEY_USERS\.DEFAULT</b> if the current user's hive is not loaded. For more information on SIDs, see 
-<a href="security.security_identifiers_sids_">Security Identifiers</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa379571(v=VS.85).aspx">Security Identifiers</a>.
 
 
 

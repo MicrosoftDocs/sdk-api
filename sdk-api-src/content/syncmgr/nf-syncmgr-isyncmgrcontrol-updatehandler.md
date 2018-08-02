@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_UpdateHandler.htm
 old-project: shell
 ms.assetid: d961aef7-c559-4caa-894e-e86836b142c0
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateHandler method, ISyncMgrControl.UpdateHandler, ISyncMgrControl::UpdateHandler, UpdateHandler, UpdateHandler method [Windows Shell], UpdateHandler method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateHandler, shell.ISyncMgrControl_UpdateHandler, syncmgr/ISyncMgrControl::UpdateHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,8 +95,7 @@ If SYNCMGR_CF_WAIT is set in the <i>nControlFlags</i> parameter, <b>UpdateHandle
 
 
 
-
-        	The following example shows the usage of <b>ISyncMgrControl::UpdateHandler</b> by a handler's procedure.
+The following example shows the usage of <b>ISyncMgrControl::UpdateHandler</b> by a handler's procedure.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

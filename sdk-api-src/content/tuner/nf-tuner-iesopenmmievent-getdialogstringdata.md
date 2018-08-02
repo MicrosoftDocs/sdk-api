@@ -7,7 +7,7 @@ old-location: mstv\iesopenmmievent_getdialogstringdata.htm
 old-project: mstv
 ms.assetid: 5652ff59-e0ce-4acd-b62a-807d7a307e5b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetDialogStringData, GetDialogStringData method [Microsoft TV Technologies], GetDialogStringData method [Microsoft TV Technologies],IESOpenMmiEvent interface, IESOpenMmiEvent interface [Microsoft TV Technologies],GetDialogStringData method, IESOpenMmiEvent.GetDialogStringData, IESOpenMmiEvent::GetDialogStringData, mstv.iesopenmmievent_getdialogstringdata, tuner/IESOpenMmiEvent::GetDialogStringData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Gets the data associated with an <b>OpenMMI </b> event, in Unicode string format. This data can be the contents of the dialog that is opened or the Uniform Resource Locator (URL) that contains the dialog.
+Gets the data associated with an <b>OpenMMI </b> event, in Unicode string format. This data can be the contents of the dialog that is opened or the Uniform Resource Locator (URL) that contains the dialog.
 
 
 ## -parameters
@@ -69,8 +68,7 @@ Pointer to a string that receives the URL containing the dialog.
 
 ### -param pbstrData [out, retval]
 
-
-            Pointer to the string that receives the dialog contents.
+Pointer to the string that receives the dialog contents.
           The caller is responsible for freeing the memory.
           
           

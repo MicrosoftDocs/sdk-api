@@ -7,7 +7,7 @@ old-location: wsw\ws_charset.htm
 old-project: wsw
 ms.assetid: 47dadf5d-1bc7-4f93-936c-21c936bc3fc3
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_CHARSET, WS_CHARSET enumeration [Web Services for Windows], WS_CHARSET_AUTO, WS_CHARSET_UTF16BE, WS_CHARSET_UTF16LE, WS_CHARSET_UTF8, webservices/WS_CHARSET, webservices/WS_CHARSET_AUTO, webservices/WS_CHARSET_UTF16BE, webservices/WS_CHARSET_UTF16LE, webservices/WS_CHARSET_UTF8, wsw.ws_charset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,29 +61,25 @@ Identifies the character set of a document.
 
 ### -field WS_CHARSET_AUTO
 
-
-          Specifies that the charset of a document should be determined automatically by inspecting
+Specifies that the charset of a document should be determined automatically by inspecting
           the BOM (Byte Order Marks) of the document and the xml declaration if present.
         
 
 
 ### -field WS_CHARSET_UTF8
 
-
-          Specifies that the charset of a document is UTF-8.
+Specifies that the charset of a document is UTF-8.
         
 
 
 ### -field WS_CHARSET_UTF16LE
 
-
-          Specifies that the charset of a document is UTF-16LE.
+Specifies that the charset of a document is UTF-16LE.
         
 
 
 ### -field WS_CHARSET_UTF16BE
 
-
-          Specifies that the charset of a document is UTF-16BE.
+Specifies that the charset of a document is UTF-16BE.
         
 

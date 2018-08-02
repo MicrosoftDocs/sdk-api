@@ -7,7 +7,7 @@ old-location: buses\winusb_setcurrentalternatesetting.htm
 old-project: usbref
 ms.assetid: 8826f440-c031-4af2-968d-bf13f515f020
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 07/29/2018
 ms.keywords: WinUsb_SetCurrentAlternateSetting, WinUsb_SetCurrentAlternateSetting function [Buses], buses.winusb_setcurrentalternatesetting, winusb/WinUsb_SetCurrentAlternateSetting, winusbfunc_54d8b9ed-9a45-4fed-a61e-2ad2bb573028.xml
 ms.prod: windows
 ms.technology: windows-sdk

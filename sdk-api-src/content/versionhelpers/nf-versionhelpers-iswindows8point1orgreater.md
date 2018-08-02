@@ -4,10 +4,10 @@ title: IsWindows8Point1OrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows 8.1 version.
 old-location: base\iswindows8_1orgreater.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: E391B568-5E43-42C7-B186-8CA524331FFE
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: IsWindows8Point1OrGreater, IsWindows8Point1OrGreater function, base.iswindows8_1orgreater, versionhelpers/IsWindows8Point1OrGreater
 ms.prod: windows
 ms.technology: windows-sdk

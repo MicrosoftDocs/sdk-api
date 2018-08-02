@@ -4,10 +4,10 @@ title: "_TDH_CONTEXT"
 author: windows-sdk-content
 description: Defines the additional information required to parse an event.
 old-location: etw\tdh_context_struct.htm
-old-project: etw
+old-project: ETW
 ms.assetid: 184df0af-3ac5-406f-a298-4f23826ad85e
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/29/2018
 ms.keywords: "*PTDH_CONTEXT, TDH_CONTEXT, TDH_CONTEXT structure [ETW], _TDH_CONTEXT, etw.tdh_context_struct, tdh.tdh_context_struct, tdh/TDH_CONTEXT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-		Defines the additional information required to parse an event.
+Defines the additional information required to parse an event.
 	
 	
 

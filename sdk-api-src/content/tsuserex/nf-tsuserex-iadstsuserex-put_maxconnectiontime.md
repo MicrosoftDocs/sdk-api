@@ -4,10 +4,10 @@ title: IADsTSUserEx::put_MaxConnectionTime
 author: windows-sdk-content
 description: The maximum duration of the Remote Desktop Services session. After the specified number of minutes have elapsed, the session can be disconnected or terminated.
 old-location: termserv\iadstsuserex_maxconnectiontime.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: c1ba5610-b144-4dbe-9a66-605636a81e9c
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],MaxConnectionTime property, IADsTSUserEx.MaxConnectionTime, IADsTSUserEx.put_MaxConnectionTime, IADsTSUserEx::MaxConnectionTime, IADsTSUserEx::get_MaxConnectionTime, IADsTSUserEx::put_MaxConnectionTime, MaxConnectionTime property [Remote Desktop Services], MaxConnectionTime property [Remote Desktop Services],IADsTSUserEx interface, put_MaxConnectionTime, termserv.iadstsuserex_maxconnectiontime, tsuserex/IADsTSUserEx::MaxConnectionTime, tsuserex/IADsTSUserEx::get_MaxConnectionTime, tsuserex/IADsTSUserEx::put_MaxConnectionTime
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmformat\iwmcodecinfo_getcodecinfocount.htm
 old-project: wmformat
 ms.assetid: 873f8d03-5d7b-424c-91f3-e7c8156565be
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetCodecInfoCount, GetCodecInfoCount method [windows Media Format], GetCodecInfoCount method [windows Media Format],IWMCodecInfo interface, IWMCodecInfo interface [windows Media Format],GetCodecInfoCount method, IWMCodecInfo.GetCodecInfoCount, IWMCodecInfo::GetCodecInfoCount, IWMCodecInfoGetCodecInfoCount, wmformat.iwmcodecinfo_getcodecinfocount, wmsdkidl/IWMCodecInfo::GetCodecInfoCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,11 +71,9 @@ The <b>GetCodecInfoCount</b> method retrieves the number of supported codecs for
 
 <table>
 <tr>
-<th>
-                  Constant
+<th>Constant
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

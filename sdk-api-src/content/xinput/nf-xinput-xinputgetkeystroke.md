@@ -7,7 +7,7 @@ old-location: xinput\xinputgetkeystroke.htm
 old-project: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetKeystroke(DWORD,DWORD,PXINPUT_KEYSTROKE@)
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: XInputGetKeystroke, XInputGetKeystroke function [XInput Game Controller APIs], xinput.xinputgetkeystroke, xinput/XInputGetKeystroke
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ Retrieves a gamepad input event.
 
 ### -param pKeystroke
 
-[out] Pointer to an <a href="https://msdn.microsoft.com/library/Ee419271(v=VS.85).aspx">XINPUT_KEYSTROKE</a> structure that receives an input event.
+[out] Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419271(v=VS.85).aspx">XINPUT_KEYSTROKE</a> structure that receives an input event.
 
 
 ## -returns
@@ -111,7 +111,7 @@ Windows 8 (XInput 1.4), DirectX SDK (XInput 1.3)
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419271(v=VS.85).aspx">XINPUT_KEYSTROKE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419271(v=VS.85).aspx">XINPUT_KEYSTROKE</a>
 
 
 

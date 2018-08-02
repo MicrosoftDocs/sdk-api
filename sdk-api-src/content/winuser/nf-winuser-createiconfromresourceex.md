@@ -7,7 +7,7 @@ old-location: menurc\createiconfromresourceex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\createiconfromresourceex.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: CreateIconFromResourceEx, CreateIconFromResourceEx function [Menus and Other Resources], LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_MONOCHROME, LR_SHARED, _win32_CreateIconFromResourceEx, _win32_createiconfromresourceex_cpp, menurc.createiconfromresourceex, winui._win32_createiconfromresourceex, winuser/CreateIconFromResourceEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ The version number of the icon or cursor format for the resource bits pointed to
 
 Type: <b>PBYTE</b>
 
-The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="https://msdn.microsoft.com/library/ms648074(v=VS.85).aspx">LookupIconIdFromDirectoryEx</a> and <a href="https://msdn.microsoft.com/library/ms648046(v=VS.85).aspx">LoadResource</a> functions. 
+The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="https://msdn.microsoft.com/en-us/library/ms648074(v=VS.85).aspx">LookupIconIdFromDirectoryEx</a> and <a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a> functions. 
 
 
 #### - uFlags [in]
@@ -205,14 +205,14 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-The <a href="https://msdn.microsoft.com/library/ms648060(v=VS.85).aspx">CreateIconFromResource</a>, <b>CreateIconFromResourceEx</b>, <a href="https://msdn.microsoft.com/library/ms648062(v=VS.85).aspx">CreateIconIndirect</a>, <a href="https://msdn.microsoft.com/library/ms648070(v=VS.85).aspx">GetIconInfo</a>, and <a href="https://msdn.microsoft.com/library/ms648074(v=VS.85).aspx">LookupIconIdFromDirectoryEx</a> functions allow shell applications and icon browsers to examine and use resources throughout the system. 
+The <a href="https://msdn.microsoft.com/en-us/library/ms648060(v=VS.85).aspx">CreateIconFromResource</a>, <b>CreateIconFromResourceEx</b>, <a href="https://msdn.microsoft.com/en-us/library/ms648062(v=VS.85).aspx">CreateIconIndirect</a>, <a href="https://msdn.microsoft.com/en-us/library/ms648070(v=VS.85).aspx">GetIconInfo</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms648074(v=VS.85).aspx">LookupIconIdFromDirectoryEx</a> functions allow shell applications and icon browsers to examine and use resources throughout the system. 
 
-You should call <a href="https://msdn.microsoft.com/library/ms648063(v=VS.85).aspx">DestroyIcon</a> for icons created with <b>CreateIconFromResourceEx</b>.
+You should call <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> for icons created with <b>CreateIconFromResourceEx</b>.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms648051(v=VS.85).aspx">Sharing Icon Resources</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648051(v=VS.85).aspx">Sharing Icon Resources</a>.
 
 <div class="code"></div>
 
@@ -231,31 +231,31 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648051(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648060(v=VS.85).aspx">CreateIconFromResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648060(v=VS.85).aspx">CreateIconFromResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648062(v=VS.85).aspx">CreateIconIndirect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648062(v=VS.85).aspx">CreateIconIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648070(v=VS.85).aspx">GetIconInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648070(v=VS.85).aspx">GetIconInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646973(v=VS.85).aspx">Icons</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646973(v=VS.85).aspx">Icons</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648046(v=VS.85).aspx">LoadResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648074(v=VS.85).aspx">LookupIconIdFromDirectoryEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648074(v=VS.85).aspx">LookupIconIdFromDirectoryEx</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapcodecinfo_getfileextensions.htm
 old-project: wic
 ms.assetid: 7b171c48-3fad-44ea-a9a5-8318e4cc3eba
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetFileExtensions, GetFileExtensions method [Windows Imaging Component], GetFileExtensions method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetFileExtensions method, IWICBitmapCodecInfo.GetFileExtensions, IWICBitmapCodecInfo::GetFileExtensions, _wic_codec_iwicbitmapcodecinfo_getfileextensions, wic._wic_codec_iwicbitmapcodecinfo_getfileextensions, wincodec/IWICBitmapCodecInfo::GetFileExtensions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,8 +98,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The default extension for an image encoder is the first item in the list of returned extensions.
 
-
-               The usage pattern for this method is a two call process.
+The usage pattern for this method is a two call process.
                The first call retrieves the buffer size needed to retrieve the full color management version number by calling it with <i>cchFileExtensions</i> set to <code>0</code> and <i>wzFileExtensions</i> set to <code>NULL</code>.
                This call sets <i>pcchActual</i> to the buffer size needed.
                Once the needed buffer size is determined, a second <b>GetFileExtensions</b> call with <i>cchFileExtensions</i> set to the buffer size and <i>wzFileExtensions</i> set to a buffer of the appropriate size will retrieve the pixel formats.

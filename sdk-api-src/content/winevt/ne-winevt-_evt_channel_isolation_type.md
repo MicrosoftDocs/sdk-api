@@ -7,7 +7,7 @@ old-location: wes\evt_channel_isolation_type.htm
 old-project: WES
 ms.assetid: 63b01c20-f413-451d-b34d-b2496ebf8181
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EVT_CHANNEL_ISOLATION_TYPE, EVT_CHANNEL_ISOLATION_TYPE enumeration [EventLog], EvtChannelIsolationTypeApplication, EvtChannelIsolationTypeCustom, EvtChannelIsolationTypeSystem, _EVT_CHANNEL_ISOLATION_TYPE, wes.evt_channel_isolation_type, winevt/EVT_CHANNEL_ISOLATION_TYPE, winevt/EvtChannelIsolationTypeApplication, winevt/EvtChannelIsolationTypeCustom, winevt/EvtChannelIsolationTypeSystem
 ms.prod: windows
 ms.technology: windows-sdk

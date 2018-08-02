@@ -7,7 +7,7 @@ old-location: wsw\wssetheader.htm
 old-project: wsw
 ms.assetid: 34671c47-d21e-47c4-9fb0-10b036fb4f70
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsSetHeader, WsSetHeader function [Web Services for Windows], webservices/WsSetHeader, wsw.wssetheader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Adds or replaces the specified standard header in the message.
+Adds or replaces the specified standard header in the message.
             
 
 
@@ -63,34 +62,29 @@ req.product: Windows Address Book 5.0
 
 ### -param message [in]
 
-
-                    The message to set the header in.
+The message to set the header in.
                 
 
-
-                    The message can be in any state but <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+The message can be in any state but <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 
 ### -param headerType [in]
 
-
-                    The type of header to serialize.
+The type of header to serialize.
                 
 
 
 ### -param valueType [in]
 
-
-                    The type of the value to serialize.  See <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_HEADER_TYPE</a> for
+The type of the value to serialize.  See <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_HEADER_TYPE</a> for
                     the set of types supported for each type of header.
                 
 
 
 ### -param writeOption [in]
 
-
-                    Whether the header element is required, and how the value is allocated.
+Whether the header element is required, and how the value is allocated.
                     <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_NILLABLE_VALUE</a> and <b>WS_WRITE_NILLABLE_POINTER</b> 
                     write options cannot be specified since the header types in <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_HEADER_TYPE</a> 
                     are not allowed to be nillable in the respective standards specifications.
@@ -100,23 +94,20 @@ req.product: Windows Address Book 5.0
 
 ### -param value
 
-
-                    The header value to serialize.  See <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> for
+The header value to serialize.  See <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> for
                     more information.
                 
 
 
 ### -param valueSize [in]
 
-
-                    The size of the value being serialized, in bytes.
+The size of the value being serialized, in bytes.
                 
 
 
 ### -param error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -138,8 +129,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    There are multiple instances of the type of header present in the message.
+There are multiple instances of the type of header present in the message.
                 
 
 </td>
@@ -151,8 +141,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    There was not enough memory available to serialize the header.
+There was not enough memory available to serialize the header.
                 
 
 </td>
@@ -164,8 +153,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    One or more of the parameters are incorrect.
+One or more of the parameters are incorrect.
                 
 
 </td>
@@ -191,19 +179,16 @@ This function may return other errors not listed above.
 
 
 
-
-                This API allows setting of standard header types (see <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_HEADER_TYPE</a>).
+This API allows setting of standard header types (see <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_HEADER_TYPE</a>).
                 For application defined header types, use <a href="https://msdn.microsoft.com/4b95085a-e522-4ab2-b7c9-d332599c5598">WsAddCustomHeader</a>.
             
 
-
-                This API is designed handle types of headers that appear once in the
+This API is designed handle types of headers that appear once in the
                 message and are targeted at the ultimate receiver.  Headers targeted
                 with a role/actor other than ultimate receiver are ignored by this API.
             
 
-
-                If a header of the given type (targeted at the ultimate receiver) already
+If a header of the given type (targeted at the ultimate receiver) already
                 exists in the message, it is replaced.
             
 

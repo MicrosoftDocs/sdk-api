@@ -7,7 +7,7 @@ old-location: intl\isvalidlanguagegroup.htm
 old-project: Intl
 ms.assetid: 68cf09f8-fe97-4035-94b6-886ca26bbf3e
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: IsValidLanguageGroup, IsValidLanguageGroup function [Internationalization for Windows Applications], LGRPID_INSTALLED, LGRPID_SUPPORTED, _win32_IsValidLanguageGroup, intl.isvalidlanguagegroup, winnls/IsValidLanguageGroup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,33 +72,24 @@ Identifier of language group to validate. This parameter can have one of the fol
 
 <ul>
 <li>LGRPID_ARABIC</li>
-<li>
-LGRPID_ARMENIAN
+<li>LGRPID_ARMENIAN
 </li>
 <li>LGRPID_BALTIC</li>
 <li>LGRPID_CENTRAL_EUROPE</li>
-<li>
-LGRPID_CYRILLIC</li>
-<li>
-LGRPID_GEORGIAN
+<li>LGRPID_CYRILLIC</li>
+<li>LGRPID_GEORGIAN
 </li>
 <li>LGRPID_GREEK</li>
-<li>
-LGRPID_HEBREW</li>
-<li>
-LGRPID_INDIC</li>
+<li>LGRPID_HEBREW</li>
+<li>LGRPID_INDIC</li>
 <li>LGRPID_JAPANESE</li>
-<li>
-LGRPID_KOREAN
+<li>LGRPID_KOREAN
 </li>
 <li>LGRPID_SIMPLIFIED_CHINESE</li>
-<li>
-LGRPID_TRADITIONAL_CHINESE</li>
-<li>
-LGRPID_THAI</li>
+<li>LGRPID_TRADITIONAL_CHINESE</li>
+<li>LGRPID_THAI</li>
 <li>LGRPID_TURKIC</li>
-<li>
-LGRPID_TURKISH
+<li>LGRPID_TURKISH
 </li>
 <li>LGRPID_VIETNAMESE</li>
 <li>LGRPID_WESTERN_EUROPE</li>

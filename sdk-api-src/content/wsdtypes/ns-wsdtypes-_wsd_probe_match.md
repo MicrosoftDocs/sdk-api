@@ -4,10 +4,10 @@ title: "_WSD_PROBE_MATCH"
 author: windows-sdk-content
 description: Represents a ProbeMatch message.
 old-location: ncd\wsd_probe_match_struct.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: a30b11c8-df26-495d-87c3-aa67e400ec28
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: WSD_PROBE_MATCH, WSD_PROBE_MATCH structure, _WSD_PROBE_MATCH, ncd.wsd_probe_match_struct, wsdtypes/WSD_PROBE_MATCH
 ms.prod: windows
 ms.technology: windows-sdk

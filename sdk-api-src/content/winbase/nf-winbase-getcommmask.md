@@ -4,10 +4,10 @@ title: GetCommMask function
 author: windows-sdk-content
 description: Retrieves the value of the event mask for a specified communications device.
 old-location: base\getcommmask.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 502aa563-c783-4a98-8596-74514a5b261e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: EV_BREAK, EV_CTS, EV_DSR, EV_ERR, EV_EVENT1, EV_EVENT2, EV_PERR, EV_RING, EV_RLSD, EV_RX80FULL, EV_RXCHAR, EV_RXFLAG, EV_TXEMPTY, GetCommMask, GetCommMask function, _win32_getcommmask, base.getcommmask, winbase/GetCommMask
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Retrieves the value of the event mask for a specified communications device.
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="base.createfile">CreateFile</a> function returns this handle.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function returns this handle.
 
 
 ### -param lpEvtMask [out]
@@ -266,7 +266,7 @@ The
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: wsw\ws_policy_state.htm
 old-project: wsw
 ms.assetid: 0f6252f4-ab99-4244-be77-92144eed4e3a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_POLICY_STATE, WS_POLICY_STATE enumeration [Web Services for Windows], WS_POLICY_STATE_CREATED, WS_POLICY_STATE_FAULTED, webservices/WS_POLICY_STATE, webservices/WS_POLICY_STATE_CREATED, webservices/WS_POLICY_STATE_FAULTED, wsw.ws_policy_state
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                The state of the policy object.
+The state of the policy object.
             
 
 
@@ -63,15 +62,13 @@ req.product: Windows Address Book 5.0
 
 ### -field WS_POLICY_STATE_CREATED
 
-
-                    The initial state of the policy object.
+The initial state of the policy object.
                 
 
 
 ### -field WS_POLICY_STATE_FAULTED
 
-
-                    The policy object is no longer usable due to a previous error.
+The policy object is no longer usable due to a previous error.
                 
 
 
@@ -79,8 +76,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                The following diagram illustrates the functions that
+The following diagram illustrates the functions that
                 cause state transitions in the policy object.
             
 

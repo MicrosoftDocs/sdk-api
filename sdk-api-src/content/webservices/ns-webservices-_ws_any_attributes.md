@@ -7,7 +7,7 @@ old-location: wsw\ws_any_attributes.htm
 old-project: wsw
 ms.assetid: 6c428c99-755f-40ab-bc9e-e1a7a3d70c1d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ANY_ATTRIBUTES, WS_ANY_ATTRIBUTES structure [Web Services for Windows], _WS_ANY_ATTRIBUTES, webservices/WS_ANY_ATTRIBUTES, wsw.ws_any_attributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                This type is used to store a set of attributes
+This type is used to store a set of attributes
                 that have not been directly mapped to field of 
                 a structure.
             
@@ -65,16 +64,14 @@ req.product: Windows Address Book 5.0
 
 ### -field attributes
 
-
-                    An array of attributes.  This field may
+An array of attributes.  This field may
                     be <b>NULL</b> if attributeCount is zero.
                 
 
 
 ### -field attributeCount
 
-
-                    The number of attributes in the array.
+The number of attributes in the array.
                 
 
 
@@ -82,11 +79,9 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                This structure is typically used to preserve unknown attributes
+This structure is typically used to preserve unknown attributes
                 when deserializing a structure.
-                See <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ANY_ATTRIBUTES_FIELD_MAPPING</a>
-                and <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_ANY_ATTRIBUTES_TYPE</a> for more
+                See <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ANY_ATTRIBUTES_FIELD_MAPPING</a>and <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_ANY_ATTRIBUTES_TYPE</a> for more
                 information.
             
 

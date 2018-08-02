@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiapplication_onviewchanged.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\onviewchanged.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: IUIApplication interface [Windows Ribbon],OnViewChanged method, IUIApplication.OnViewChanged, IUIApplication::OnViewChanged, OnViewChanged, OnViewChanged method [Windows Ribbon], OnViewChanged method [Windows Ribbon],IUIApplication interface, scenicintent_IUIApplication_OnViewChanged, uiribbon/IUIApplication::OnViewChanged, windowsribbon.windowsribbon_iuiapplication_onviewchanged
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,35 +63,31 @@ Called when the state of a  <a href="https://msdn.microsoft.com/library/windows/
 
 Type: <b>UINT32</b>
 
-
-					The ID for the View. 
+The ID for the View. 
 				Only a value of 0 is valid. 
 
 
 ### -param typeID [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Dd371586(v=VS.85).aspx">UI_VIEWTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371586(v=VS.85).aspx">UI_VIEWTYPE</a></b>
 
-
-					The <a href="https://msdn.microsoft.com/library/Dd371586(v=VS.85).aspx">UI_VIEWTYPE</a> hosted by the application.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd371586(v=VS.85).aspx">UI_VIEWTYPE</a> hosted by the application.
 				
 
 
 ### -param view [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
 
-
-					A pointer to the View interface.
+A pointer to the View interface.
 				
 
 
 ### -param verb [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Dd371588(v=VS.85).aspx">UI_VIEWVERB</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371588(v=VS.85).aspx">UI_VIEWVERB</a></b>
 
-
-					The <a href="https://msdn.microsoft.com/library/Dd371588(v=VS.85).aspx">UI_VIEWVERB</a> (or action) performed by the View.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd371588(v=VS.85).aspx">UI_VIEWVERB</a> (or action) performed by the View.
 				
 
 
@@ -99,8 +95,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Dd371588(v=VS.85).aspx">UI_
 
 Type: <b>INT32</b>
 
-
-					Not defined.
+Not defined.
 				
 
 
@@ -122,7 +117,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This callback notification is sent by the framework to the host application on each View state change.
 			
 
-<div class="alert"><b>Important</b>  This callback only occurs for the <a href="https://msdn.microsoft.com/library/Dd316811(v=VS.85).aspx">Ribbon View</a> with a <i>viewId</i> of 0.</div>
+<div class="alert"><b>Important</b>  This callback only occurs for the <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon View</a> with a <i>viewId</i> of 0.</div>
 <div> </div>
 <b>IUIApplication::OnViewChanged</b> is useful for initializing Ribbon properties when the host application starts, modifying Ribbon properties based on user actions, such as resizing the application window, and querying Ribbon properties when the application closes. 
 
@@ -222,11 +217,11 @@ STDMETHODIMP CApplication::OnViewChanged(
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371528(v=VS.85).aspx">IUIApplication</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371528(v=VS.85).aspx">IUIApplication</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
  
 
  

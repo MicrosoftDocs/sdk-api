@@ -7,7 +7,7 @@ old-location: wsw\ws_string_username_credential.htm
 old-project: wsw
 ms.assetid: 3dea7172-56ac-4209-9016-dc48be5b02e9
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_STRING_USERNAME_CREDENTIAL, WS_STRING_USERNAME_CREDENTIAL structure [Web Services for Windows], _WS_STRING_USERNAME_CREDENTIAL, webservices/WS_STRING_USERNAME_CREDENTIAL, wsw.ws_string_username_credential
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,6 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 The type for supplying a username/password pair as strings.
             
 
@@ -63,20 +62,17 @@ The type for supplying a username/password pair as strings.
 
 ### -field credential
 
-
 The base type from which this type and all other username credential types derive.
                 
 
 
 ### -field username
 
-
 The username.
                 
 
 
 ### -field password
-
 
 The password.
                 

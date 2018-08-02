@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_put_editstart.htm
 old-project: DirectShow
 ms.assetid: 1fd9c788-2ccb-47e5-bed8-fece9cfdf2a6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMExtTransport interface [DirectShow],put_EditStart method, IAMExtTransport.put_EditStart, IAMExtTransport::put_EditStart, IAMExtTransportput_EditStart, dshow.iamexttransport_put_editstart, put_EditStart, put_EditStart method [DirectShow], put_EditStart method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_EditStart
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,11 +71,9 @@ Specifies whether to active the edit control.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

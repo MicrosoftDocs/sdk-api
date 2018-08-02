@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols3.htm
 old-project: WMP
 ms.assetid: ee902912-4f09-4f61-9b81-f4bd50ace892
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPControls3, IWMPControls3 interface [Windows Media Player], IWMPControls3 interface [Windows Media Player],described, IWMPControls3Interface, wmp.iwmpcontrols3, wmp/IWMPControls3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -163,7 +163,6 @@ Specifies the current position in the current media using SMPTE time code format
 </td>
 </tr>
 </table> 
-
 
 Retrieve a pointer to an <b>IWMPControls3</b> interface by calling the <b>QueryInterface</b> method of an <a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls</a> interface.
 	

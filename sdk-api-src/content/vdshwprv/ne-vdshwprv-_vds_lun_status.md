@@ -4,10 +4,10 @@ title: "_VDS_LUN_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a LUN.
 old-location: base\vds_lun_status.htm
-old-project: vds
+old-project: VDS
 ms.assetid: dac82973-d8c0-430b-aeea-163af7d94d24
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: "*PVDS_LUN_STATUS, VDS_LS_FAILED, VDS_LS_NOT_READY, VDS_LS_OFFLINE, VDS_LS_ONLINE, VDS_LS_UNKNOWN, VDS_LUN_STATUS, VDS_LUN_STATUS enumeration [VDS], _VDS_LUN_STATUS, base.vds_lun_status, vds/VDS_LS_FAILED, vds/VDS_LS_NOT_READY, vds/VDS_LS_OFFLINE, vds/VDS_LS_ONLINE, vds/VDS_LS_UNKNOWN, vds/VDS_LUN_STATUS, vdshwprv/VDS_LS_FAILED, vdshwprv/VDS_LS_NOT_READY, vdshwprv/VDS_LS_OFFLINE, vdshwprv/VDS_LS_ONLINE, vdshwprv/VDS_LS_UNKNOWN, vdshwprv/VDS_LUN_STATUS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,8 +91,7 @@ The LUN has failed.
 
 
 
-The  <a href="https://msdn.microsoft.com/a293f129-5238-405a-ba56-bf53ac4ab1d8">IVdsLun::SetStatus</a>
-      method passes a <b>VDS_LUN_STATUS</b> value as an argument to set the status of a LUN, and the <a href="https://msdn.microsoft.com/4ef0f4d8-7c63-4d8e-bf46-e6958661bd6a">VDS_LUN_PROP</a> structure includes a <b>VDS_LUN_STATUS</b> value as a member to indicate the current status.
+The  <a href="https://msdn.microsoft.com/a293f129-5238-405a-ba56-bf53ac4ab1d8">IVdsLun::SetStatus</a>method passes a <b>VDS_LUN_STATUS</b> value as an argument to set the status of a LUN, and the <a href="https://msdn.microsoft.com/4ef0f4d8-7c63-4d8e-bf46-e6958661bd6a">VDS_LUN_PROP</a> structure includes a <b>VDS_LUN_STATUS</b> value as a member to indicate the current status.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_LUN_STATUS</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_LUN_STATUS</b> enumeration constant.</div>
 <div> </div>
@@ -104,8 +103,7 @@ The  <a href="https://msdn.microsoft.com/a293f129-5238-405a-ba56-bf53ac4ab1d8">I
 
 
 
-<a href="https://msdn.microsoft.com/a293f129-5238-405a-ba56-bf53ac4ab1d8">
-        IVdsLun::SetStatus</a>
+<a href="https://msdn.microsoft.com/a293f129-5238-405a-ba56-bf53ac4ab1d8">IVdsLun::SetStatus</a>
 
 
 
@@ -113,8 +111,7 @@ The  <a href="https://msdn.microsoft.com/a293f129-5238-405a-ba56-bf53ac4ab1d8">I
 
 
 
-<a href="https://msdn.microsoft.com/4ef0f4d8-7c63-4d8e-bf46-e6958661bd6a">
-        VDS_LUN_PROP</a>
+<a href="https://msdn.microsoft.com/4ef0f4d8-7c63-4d8e-bf46-e6958661bd6a">VDS_LUN_PROP</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: gdi\getenhmetafileheader.htm
 old-project: gdi
 ms.assetid: c42bcbe2-2e8f-42bd-a8e3-2827c6563300
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetEnhMetaFileHeader, GetEnhMetaFileHeader function [Windows GDI], _win32_GetEnhMetaFileHeader, gdi.getenhmetafileheader, wingdi/GetEnhMetaFileHeader
 ms.prod: windows
 ms.technology: windows-sdk

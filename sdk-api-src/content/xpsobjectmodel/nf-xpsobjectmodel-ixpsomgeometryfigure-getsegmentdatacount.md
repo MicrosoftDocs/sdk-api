@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometryfigure_getsegmentdatacount.htm
 old-project: printdocs
 ms.assetid: 42b68a76-e7fe-49d2-9190-4a4d5e763052
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetSegmentDataCount, GetSegmentDataCount method [XPS Documents and Packaging], GetSegmentDataCount method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentDataCount method, IXpsOMGeometryFigure.GetSegmentDataCount, IXpsOMGeometryFigure::GetSegmentDataCount, xps.ixpsomgeometryfigure_getsegmentdatacount, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentDataCount
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\dvd_domain.htm
 old-project: DirectShow
 ms.assetid: 2763a159-d4de-44c2-905b-5828f328cbd2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: DVD_DOMAIN, DVD_DOMAIN , DVD_DOMAIN enumeration [DirectShow], DVD_DOMAINEnumeration, DVD_DOMAIN_FirstPlay, DVD_DOMAIN_Stop, DVD_DOMAIN_Title, DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, dshow.dvd_domain, strmif/DVD_DOMAIN, strmif/DVD_DOMAIN_FirstPlay, strmif/DVD_DOMAIN_Stop, strmif/DVD_DOMAIN_Title, strmif/DVD_DOMAIN_VideoManagerMenu, strmif/DVD_DOMAIN_VideoTitleSetMenu, tagDVD_DOMAIN
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # tagDVD_DOMAIN enumeration
@@ -64,36 +63,31 @@ Defines the DVD domains.
 
 ### -field DVD_DOMAIN_FirstPlay
 
-
-            Performing default initialization of a DVD disc.
+Performing default initialization of a DVD disc.
           
 
 
 ### -field DVD_DOMAIN_VideoManagerMenu
 
-
-            Displaying menus for whole disc.
+Displaying menus for whole disc.
           
 
 
 ### -field DVD_DOMAIN_VideoTitleSetMenu
 
-
-            Displaying menus for current title set.
+Displaying menus for current title set.
           
 
 
 ### -field DVD_DOMAIN_Title
 
-
-            Displaying the current title.
+Displaying the current title.
           
 
 
 ### -field DVD_DOMAIN_Stop
 
-
-            The DVD Navigator is in the DVD Stop domain.
+The DVD Navigator is in the DVD Stop domain.
           
 
 

@@ -7,7 +7,7 @@ old-location: wmformat\iwmwatermarkinfo.htm
 old-project: wmformat
 ms.assetid: 4bdad433-31d1-442c-9701-f3748245070d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMWatermarkInfo, IWMWatermarkInfo interface [windows Media Format], IWMWatermarkInfo interface [windows Media Format],described, IWMWatermarkInfoInterface, wmformat.iwmwatermarkinfo, wmsdkidl/IWMWatermarkInfo
 ms.prod: windows
 ms.technology: windows-sdk

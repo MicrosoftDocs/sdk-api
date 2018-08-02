@@ -4,10 +4,10 @@ title: IEnroll4::SetSignerCertificate
 author: windows-sdk-content
 description: The SetSignerCertificate method specifies the signer's certificate. This method was first defined in the IEnroll4 interface.
 old-location: security\ienroll4_setsignercertificate.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 1c970f6b-6b8f-4396-b59b-d6b58d52172b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IEnroll4 interface [Security],SetSignerCertificate method, IEnroll4.SetSignerCertificate, IEnroll4::SetSignerCertificate, SetSignerCertificate, SetSignerCertificate method [Security], SetSignerCertificate method [Security],IEnroll4 interface, security.ienroll4_setsignercertificate, xenroll/IEnroll4::SetSignerCertificate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ A pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a3
 
 
 
-
-						 The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
+The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 
 

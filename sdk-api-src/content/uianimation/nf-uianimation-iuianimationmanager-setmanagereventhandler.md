@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager_setmanagereventhandler.htm
 old-project: UIAnimation
 ms.assetid: 89c4df40-6faa-4b7c-a255-289d1f8a6254
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],SetManagerEventHandler method, IUIAnimationManager.SetManagerEventHandler, IUIAnimationManager::SetManagerEventHandler, SetManagerEventHandler, SetManagerEventHandler method [Windows Animation], SetManagerEventHandler method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_setmanagereventhandler, uianimation/IUIAnimationManager::SetManagerEventHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      
-         Specifies a handler for animation manager status updates.
+Specifies a handler for animation manager status updates.
 
 
 ## -parameters

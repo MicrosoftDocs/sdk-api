@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextEditProvider_GetActiveComposition.htm
 old-project: WinAuto
 ms.assetid: E0A4E340-8F23-8EE0-31E4-90DB8D8E68FF
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetActiveComposition, GetActiveComposition method [Windows Accessibility], GetActiveComposition method [Windows Accessibility],ITextEditProvider interface, ITextEditProvider interface [Windows Accessibility],GetActiveComposition method, ITextEditProvider.GetActiveComposition, ITextEditProvider::GetActiveComposition, uiautomationcore/ITextEditProvider::GetActiveComposition, winauto.uiauto_ITextEditProvider_GetActiveComposition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        Returns the active composition.
+Returns the active composition.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: xps\ixpssigningoptions_getsigningtimeformat.htm
 old-project: printdocs
 ms.assetid: 79af4463-1651-44d2-9143-b1f922ba5cfb
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetSigningTimeFormat, GetSigningTimeFormat method [XPS Documents and Packaging], GetSigningTimeFormat method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetSigningTimeFormat method, IXpsSigningOptions.GetSigningTimeFormat, IXpsSigningOptions::GetSigningTimeFormat, xps.ixpssigningoptions_getsigningtimeformat, xpsdigitalsignature/IXpsSigningOptions::GetSigningTimeFormat
 ms.prod: windows
 ms.technology: windows-sdk

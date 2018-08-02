@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_interface.htm
 old-project: WMP
 ms.assetid: 396545d5-8844-4dd2-9ed5-e4ed77f352ac
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], IWMPEvents interface [Windows Media Player],described, IWMPEventsInterface, wmp.iwmpevents_interface, wmp/IWMPEvents
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,11 +59,9 @@ The <b>IWMPEvents</b> interface provides events that originate from the Windows 
 In addition to the methods inherited from <b>IUnknown</b>, the <b>IWMPEvents</b> interface exposes the following methods.
 <table>
 <tr>
-<th>
-            Method
+<th>Method
           </th>
-<th>
-            Description
+<th>Description
           </th>
 </tr>
 <tr>

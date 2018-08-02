@@ -7,7 +7,7 @@ old-location: wintouch\getgestureinfo.htm
 old-project: wintouch
 ms.assetid: 407ed585-09aa-4174-8907-8bb9590f1795
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: GetGestureInfo, GetGestureInfo function [Windows Touch], wintouch.getgestureinfo, winuser/GetGestureInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,8 +57,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-  Retrieves a <a href="https://msdn.microsoft.com/f5b8b530-ff1e-4d78-a12f-86990fe9ac88">GESTUREINFO</a>  structure given a handle to 
+Retrieves a <a href="https://msdn.microsoft.com/f5b8b530-ff1e-4d78-a12f-86990fe9ac88">GESTUREINFO</a>  structure given a handle to 
   the gesture information.
   
 
@@ -96,16 +95,14 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-
-    The <b>cbSize</b> member of the <a href="https://msdn.microsoft.com/f5b8b530-ff1e-4d78-a12f-86990fe9ac88">GESTUREINFO</a> structure passed in to the function must be set
+The <b>cbSize</b> member of the <a href="https://msdn.microsoft.com/f5b8b530-ff1e-4d78-a12f-86990fe9ac88">GESTUREINFO</a> structure passed in to the function must be set
     before the function is called.  Otherwise, calls to <a href="http://msdn.microsoft.com/en-us/library/ms679360.aspx">GetLastError</a> will return <b>ERROR_INVALID_PARAMETER</b> (87 in decimal).
    If an application processes a <a href="https://msdn.microsoft.com/4167aeb0-2c31-4b7b-ad1b-e6d37da09ef8">WM_GESTURE</a> message, it is responsible for
    closing the handle using <a href="https://msdn.microsoft.com/f2bf98b2-a4f7-4b63-b9ae-b2534415cb4b">CloseGestureInfoHandle</a>. Failure to do so may result in
    process memory leaks.
   
 
-
-   If the message is passed to <a href="http://go.microsoft.com/fwlink/p/?linkid=136637">DefWindowProc</a>, or is forwarded using
+If the message is passed to <a href="http://go.microsoft.com/fwlink/p/?linkid=136637">DefWindowProc</a>, or is forwarded using
    one of the PostMessage or SendMessage classes of API functions, the handle
    is transferred with the message and need not be closed by the application.
   

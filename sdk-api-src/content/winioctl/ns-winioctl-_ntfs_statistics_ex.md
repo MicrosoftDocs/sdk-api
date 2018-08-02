@@ -4,10 +4,10 @@ title: "_NTFS_STATISTICS_EX"
 author: windows-sdk-content
 description: Contains statistical information from the NTFS file system.Support for this structure started with Windows 10.
 old-location: fs\ntfs_statistics_ex.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: D1A6995C-A4BA-4ECC-892A-196581FA41CE
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "*PNTFS_STATISTICS_EX, NTFS_STATISTICS_EX, NTFS_STATISTICS_EX structure [Files], PNTFS_STATISTICS_EX, PNTFS_STATISTICS_EX structure pointer [Files], _NTFS_STATISTICS_EX, fs.ntfs_statistics_ex, winioctl/NTFS_STATISTICS_EX, winioctl/PNTFS_STATISTICS_EX"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -420,7 +420,7 @@ The number of volume level trim operations issued.
 
 ### -field VolumeTrimTime
 
-The total time elapsed during all volume level trim operations.  This value, divided by the frequency value from <a href="https://msdn.microsoft.com/library/ms644905(v=VS.85).aspx">QueryPerformanceFrequency</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553053">KeQueryPerformanceCounter</a>,  will give the time in seconds.
+The total time elapsed during all volume level trim operations.  This value, divided by the frequency value from <a href="https://msdn.microsoft.com/en-us/library/ms644905(v=VS.85).aspx">QueryPerformanceFrequency</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553053">KeQueryPerformanceCounter</a>,  will give the time in seconds.
 
 
 ### -field VolumeTrimByteCount
@@ -435,7 +435,7 @@ The number of file level trim operations issued.
 
 ### -field FileLevelTrimTime
 
-The total time elapsed during all file level trim operations. This value, divided by the frequency value from <a href="https://msdn.microsoft.com/library/ms644905(v=VS.85).aspx">QueryPerformanceFrequency</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553053">KeQueryPerformanceCounter</a>, will give the time in seconds.
+The total time elapsed during all file level trim operations. This value, divided by the frequency value from <a href="https://msdn.microsoft.com/en-us/library/ms644905(v=VS.85).aspx">QueryPerformanceFrequency</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553053">KeQueryPerformanceCounter</a>, will give the time in seconds.
 
 
 ### -field FileLevelTrimByteCount
@@ -495,7 +495,7 @@ The number of read and write operations measured is the number of paging operati
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644905(v=VS.85).aspx">QueryPerformanceFrequency</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644905(v=VS.85).aspx">QueryPerformanceFrequency</a>
  
 
  

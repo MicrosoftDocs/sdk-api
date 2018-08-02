@@ -7,7 +7,7 @@ old-location: dshow\ifilesinkfilter.htm
 old-project: DirectShow
 ms.assetid: aa1d3f8e-9790-4442-ba7e-896981bf1b96
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IFileSinkFilter, IFileSinkFilter interface [DirectShow], IFileSinkFilter interface [DirectShow],described, IFileSinkFilterInterface, dshow.ifilesinkfilter, strmif/IFileSinkFilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,8 +102,7 @@ Sets the name of the file into which media samples will be written.
 
 
 
-
-          The <a href="https://msdn.microsoft.com/1339c441-2b10-461f-87f3-4835c1692740">IFileSinkFilter2</a> interface extends <b>IFileSinkFilter</b>.
+The <a href="https://msdn.microsoft.com/1339c441-2b10-461f-87f3-4835c1692740">IFileSinkFilter2</a> interface extends <b>IFileSinkFilter</b>.
 
 
 

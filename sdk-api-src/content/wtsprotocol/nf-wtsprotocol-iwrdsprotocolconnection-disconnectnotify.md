@@ -4,10 +4,10 @@ title: IWRdsProtocolConnection::DisconnectNotify
 author: windows-sdk-content
 description: Notifies the protocol that the session has been disconnected.
 old-location: termserv\iwrdsprotocolconnection_disconnectnotify.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 2399677b-0859-4e43-9dbc-0b08fa0647b0
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: DisconnectNotify, DisconnectNotify method [Remote Desktop Services], DisconnectNotify method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],DisconnectNotify method, IWRdsProtocolConnection.DisconnectNotify, IWRdsProtocolConnection::DisconnectNotify, termserv.iwrdsprotocolconnection_disconnectnotify, wtsprotocol/IWRdsProtocolConnection::DisconnectNotify
 ms.prod: windows
 ms.technology: windows-sdk

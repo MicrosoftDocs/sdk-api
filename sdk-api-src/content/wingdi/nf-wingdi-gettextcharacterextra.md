@@ -7,7 +7,7 @@ old-location: gdi\gettextcharacterextra.htm
 old-project: gdi
 ms.assetid: 44d5145d-1c42-429e-89c4-dc31d275bc73
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetTextCharacterExtra, GetTextCharacterExtra function [Windows GDI], _win32_GetTextCharacterExtra, gdi.gettextcharacterextra, wingdi/GetTextCharacterExtra
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CertVerifyRevocation function
 author: windows-sdk-content
 description: Checks the revocation status of the certificates contained in the rgpvContext array. If a certificate in the list is found to be revoked, no further checking is done.
 old-location: security\certverifyrevocation.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 2d6fb244-5273-4530-bec4-e5451fe26f2e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CERT_VERIFY_CACHE_ONLY_BASED_REVOCATION, CERT_VERIFY_REV_ACCUMULATIVE_TIMEOUT_FLAG, CERT_VERIFY_REV_CHAIN_FLAG, CERT_VERIFY_REV_SERVER_OCSP_FLAG, CertVerifyRevocation, CertVerifyRevocation function [Security], _crypto2_certverifyrevocation, security.certverifyrevocation, wincrypt/CertVerifyRevocation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-         The <b>CertVerifyRevocation</b> function checks the revocation status of the certificates contained in the <i>rgpvContext</i> array. If a certificate in the list is found to be revoked, no further checking is done. This array can be a chain of certificates propagating upward from an end entity to the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">root authority</a>, but this nature of the list of certificates is not required or assumed.
+The <b>CertVerifyRevocation</b> function checks the revocation status of the certificates contained in the <i>rgpvContext</i> array. If a certificate in the list is found to be revoked, no further checking is done. This array can be a chain of certificates propagating upward from an end entity to the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">root authority</a>, but this nature of the list of certificates is not required or assumed.
 
 
 ## -parameters
@@ -158,8 +157,7 @@ If the function returns <b>FALSE</b>, this structure's members will contain erro
 
 
 
-
-                  If the function successfully checks all of the contexts and none were revoked, the function returns <b>TRUE</b>. If the function fails, it returns <b>FALSE</b> and updates the <a href="https://msdn.microsoft.com/087ea37a-907a-4652-a5df-dd8e86755490">CERT_REVOCATION_STATUS</a> structure pointed to by <i>pRevStatus</i> as described in 
+If the function successfully checks all of the contexts and none were revoked, the function returns <b>TRUE</b>. If the function fails, it returns <b>FALSE</b> and updates the <a href="https://msdn.microsoft.com/087ea37a-907a-4652-a5df-dd8e86755490">CERT_REVOCATION_STATUS</a> structure pointed to by <i>pRevStatus</i> as described in 
 <b>CERT_REVOCATION_STATUS</b>.
 
 When the revocation handler for any of the contexts returns <b>FALSE</b> due to an error, the <b>dwError</b> member in the structure pointed to by <i>pRevStatus</i> will be set by the handler to specify which error was encountered. 
@@ -299,7 +297,7 @@ If <i>rgpvContext</i>[2] is found to be revoked, the <b>dwIndex</b> member of <i
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
  
 
  

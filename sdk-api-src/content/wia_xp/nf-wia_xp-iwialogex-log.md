@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaLogEx_Log.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialogex\log.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: IWiaLogEx interface [WIA],Log method, IWiaLogEx.Log, IWiaLogEx::Log, Log, Log method [WIA], Log method [WIA],IWiaLogEx interface, _wia_IWiaLogEx_Log, wia._wia_IWiaLogEx_Log, wia_xp/IWiaLogEx::Log
 ms.prod: windows
 ms.technology: windows-sdk

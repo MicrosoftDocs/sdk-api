@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaDevMgr.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\iwiadevmgr.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: IWiaDevMgr, IWiaDevMgr interface [WIA], IWiaDevMgr interface [WIA],described, _wia_IWiaDevMgr, wia._wia_IWiaDevMgr, wia_xp/IWiaDevMgr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 Applications use the <b>IWiaDevMgr</b> interface to create and manage image acquisition devices. They also use it to register to receive device events.
-<div class="alert"><b>Note</b>  For Windows Vista applications, use <a href="https://msdn.microsoft.com/library/ms630133(v=VS.85).aspx">IWiaDevMgr2</a> instead of <b>IWiaDevMgr</b>.</div><div> </div>
+<div class="alert"><b>Note</b>  For Windows Vista applications, use <a href="https://msdn.microsoft.com/en-us/library/ms630133(v=VS.85).aspx">IWiaDevMgr2</a> instead of <b>IWiaDevMgr</b>.</div><div> </div>
 
 ## -inheritance
 
@@ -71,7 +71,7 @@ The <b>IWiaDevMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms630140(v=VS.85).aspx">AddDeviceDlg</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms630140(v=VS.85).aspx">AddDeviceDlg</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -80,73 +80,73 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms630141(v=VS.85).aspx">CreateDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms630141(v=VS.85).aspx">CreateDevice</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms630141(v=VS.85).aspx">IWiaDevMgr::CreateDevice</a> creates a hierarchical tree of <a href="https://msdn.microsoft.com/library/ms630113(v=VS.85).aspx">IWiaItem</a> objects for a WIA device.
+The <a href="https://msdn.microsoft.com/en-us/library/ms630141(v=VS.85).aspx">IWiaDevMgr::CreateDevice</a> creates a hierarchical tree of <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> objects for a WIA device.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms630142(v=VS.85).aspx">EnumDeviceInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms630142(v=VS.85).aspx">EnumDeviceInfo</a>
 </td>
 <td align="left" width="63%">
-Applications use the <a href="https://msdn.microsoft.com/library/ms630142(v=VS.85).aspx">IWiaDevMgr::EnumDeviceInfo</a> method to enumerate property information for each available WIA device.
+Applications use the <a href="https://msdn.microsoft.com/en-us/library/ms630142(v=VS.85).aspx">IWiaDevMgr::EnumDeviceInfo</a> method to enumerate property information for each available WIA device.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms630143(v=VS.85).aspx">GetImageDlg</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms630143(v=VS.85).aspx">GetImageDlg</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms630143(v=VS.85).aspx">IWiaDevMgr::GetImageDlg</a> method displays one or more dialog boxes that enable a user to acquire an image from a WIA device and write the image to a specified file. This method combines the functionality of <a href="https://msdn.microsoft.com/library/ms630148(v=VS.85).aspx">IWiaDevMgr::SelectDeviceDlg</a> to completely encapsulate image acquisition within a single API call.
+The <a href="https://msdn.microsoft.com/en-us/library/ms630143(v=VS.85).aspx">IWiaDevMgr::GetImageDlg</a> method displays one or more dialog boxes that enable a user to acquire an image from a WIA device and write the image to a specified file. This method combines the functionality of <a href="https://msdn.microsoft.com/en-us/library/ms630148(v=VS.85).aspx">IWiaDevMgr::SelectDeviceDlg</a> to completely encapsulate image acquisition within a single API call.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms630145(v=VS.85).aspx">RegisterEventCallbackCLSID</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms630145(v=VS.85).aspx">RegisterEventCallbackCLSID</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms630145(v=VS.85).aspx">IWiaDevMgr::RegisterEventCallbackCLSID</a> method registers an application to receive events even if the application may not be running.
+The <a href="https://msdn.microsoft.com/en-us/library/ms630145(v=VS.85).aspx">IWiaDevMgr::RegisterEventCallbackCLSID</a> method registers an application to receive events even if the application may not be running.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms630146(v=VS.85).aspx">RegisterEventCallbackInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms630146(v=VS.85).aspx">RegisterEventCallbackInterface</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms630146(v=VS.85).aspx">IWiaDevMgr::RegisterEventCallbackInterface</a> method registers a running application WIA event notification.
+The <a href="https://msdn.microsoft.com/en-us/library/ms630146(v=VS.85).aspx">IWiaDevMgr::RegisterEventCallbackInterface</a> method registers a running application WIA event notification.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms630147(v=VS.85).aspx">RegisterEventCallbackProgram</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms630147(v=VS.85).aspx">RegisterEventCallbackProgram</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms630147(v=VS.85).aspx">IWiaDevMgr::RegisterEventCallbackProgram</a> method registers an application to receive device events. It is primarily provided for backward compatibility with applications that were not written for WIA.
+The <a href="https://msdn.microsoft.com/en-us/library/ms630147(v=VS.85).aspx">IWiaDevMgr::RegisterEventCallbackProgram</a> method registers an application to receive device events. It is primarily provided for backward compatibility with applications that were not written for WIA.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms630148(v=VS.85).aspx">SelectDeviceDlg</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms630148(v=VS.85).aspx">SelectDeviceDlg</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms630148(v=VS.85).aspx">IWiaDevMgr::SelectDeviceDlg</a> displays a dialog box that enables the user to select a hardware device for image acquisition.
+The <a href="https://msdn.microsoft.com/en-us/library/ms630148(v=VS.85).aspx">IWiaDevMgr::SelectDeviceDlg</a> displays a dialog box that enables the user to select a hardware device for image acquisition.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms630149(v=VS.85).aspx">SelectDeviceDlgID</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms630149(v=VS.85).aspx">SelectDeviceDlgID</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms630149(v=VS.85).aspx">IWiaDevMgr::SelectDeviceDlgID</a> method displays a dialog box that enables the user to select a hardware device for image acquisition.
+The <a href="https://msdn.microsoft.com/en-us/library/ms630149(v=VS.85).aspx">IWiaDevMgr::SelectDeviceDlgID</a> method displays a dialog box that enables the user to select a hardware device for image acquisition.
 
 </td>
 </tr>

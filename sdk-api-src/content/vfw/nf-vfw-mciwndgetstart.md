@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetstart.htm
 old-project: Multimedia
 ms.assetid: fe9346b8-e917-4bbc-9df5-3b0b5c2de306
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: MCIWndGetStart, MCIWndGetStart macro [Windows Multimedia], _win32_MCIWndGetStart, multimedia.mciwndgetstart, vfw/MCIWndGetStart
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_log_category_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1fn6.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: "*PFAX_LOG_CATEGORYW, FAXLOG_CATEGORY_INBOUND, FAXLOG_CATEGORY_INIT, FAXLOG_CATEGORY_OUTBOUND, FAXLOG_CATEGORY_UNKNOWN, FAXLOG_LEVEL_MAX, FAXLOG_LEVEL_MED, FAXLOG_LEVEL_MIN, FAXLOG_LEVEL_NONE, FAX_LOG_CATEGORY, FAX_LOG_CATEGORY structure [Fax Service], FAX_LOG_CATEGORYA, FAX_LOG_CATEGORYW, PFAX_LOG_CATEGORY, PFAX_LOG_CATEGORY structure pointer [Fax Service], _FAX_LOG_CATEGORYW, _mfax_fax_log_category_str, fax._mfax_fax_log_category_str, winfax/FAX_LOG_CATEGORY, winfax/FAX_LOG_CATEGORYA, winfax/FAX_LOG_CATEGORYW, winfax/PFAX_LOG_CATEGORY"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -174,7 +174,7 @@ The fax server does not log events.
 
 
 
-The fax client application passes the <b>FAX_LOG_CATEGORY</b> structure in a call to the <a href="https://msdn.microsoft.com/library/ms691374(v=VS.85).aspx">FaxSetLoggingCategories</a> function to modify the current logging categories for the fax server of interest. If the application calls the <a href="https://msdn.microsoft.com/library/ms691956(v=VS.85).aspx">FaxGetLoggingCategories</a> function, it returns the current settings in a <b>FAX_LOG_CATEGORY</b> structure. For more information, see <a href="https://msdn.microsoft.com/library/ms690748(v=VS.85).aspx">Managing Logging Categories</a>.
+The fax client application passes the <b>FAX_LOG_CATEGORY</b> structure in a call to the <a href="https://msdn.microsoft.com/en-us/library/ms691374(v=VS.85).aspx">FaxSetLoggingCategories</a> function to modify the current logging categories for the fax server of interest. If the application calls the <a href="https://msdn.microsoft.com/en-us/library/ms691956(v=VS.85).aspx">FaxGetLoggingCategories</a> function, it returns the current settings in a <b>FAX_LOG_CATEGORY</b> structure. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690748(v=VS.85).aspx">Managing Logging Categories</a>.
 
 
 
@@ -184,19 +184,19 @@ The fax client application passes the <b>FAX_LOG_CATEGORY</b> structure in a cal
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691952(v=VS.85).aspx">Fax Service Client API Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691952(v=VS.85).aspx">Fax Service Client API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691956(v=VS.85).aspx">FaxGetLoggingCategories</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691956(v=VS.85).aspx">FaxGetLoggingCategories</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691374(v=VS.85).aspx">FaxSetLoggingCategories</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691374(v=VS.85).aspx">FaxSetLoggingCategories</a>
  
 
  

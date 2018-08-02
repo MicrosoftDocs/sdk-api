@@ -7,7 +7,7 @@ old-location: mstv\ituner_triggersignalevents.htm
 old-project: mstv
 ms.assetid: 9cff8ee2-d474-4ea5-a284-608eb0288c9f
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],TriggerSignalEvents method, ITuner.TriggerSignalEvents, ITuner::TriggerSignalEvents, ITunerTriggerSignalEvents, TriggerSignalEvents, TriggerSignalEvents method [Microsoft TV Technologies], TriggerSignalEvents method [Microsoft TV Technologies],ITuner interface, mstv.ituner_triggersignalevents, tuner/ITuner::TriggerSignalEvents
 ms.prod: windows
 ms.technology: windows-sdk

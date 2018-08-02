@@ -7,7 +7,7 @@ old-location: multimedia\icdrawbegin_struct.htm
 old-project: Multimedia
 ms.assetid: 1ec2309c-7ea8-423e-aee3-5e0c650f0b3d
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: ICDRAWBEGIN, ICDRAWBEGIN structure [Windows Multimedia], ICDRAW_ANIMATE, ICDRAW_BUFFER, ICDRAW_CONTINUE, ICDRAW_FULLSCREEN, ICDRAW_HDC, ICDRAW_MEMORYDC, ICDRAW_QUERY, ICDRAW_RENDER, ICDRAW_UPDATING, multimedia.icdrawbegin_COLLISION9, multimedia.icdrawbegin_struct, vfw/ICDRAWBEGIN
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ Applicable flags. The following values are defined:
 </dl>
 </td>
 <td width="60%">
-
-                Application can animate the palette.
+Application can animate the palette.
               
 
 </td>
@@ -89,8 +88,7 @@ Applicable flags. The following values are defined:
 </dl>
 </td>
 <td width="60%">
-
-                Buffers this data off-screen; it will need to be updated.
+Buffers this data off-screen; it will need to be updated.
               
 
 </td>
@@ -101,8 +99,7 @@ Applicable flags. The following values are defined:
 </dl>
 </td>
 <td width="60%">
-
-                Drawing is a continuation of the previous frame.
+Drawing is a continuation of the previous frame.
               
 
 </td>
@@ -113,8 +110,7 @@ Applicable flags. The following values are defined:
 </dl>
 </td>
 <td width="60%">
-
-                Draws the decompressed data on the full screen.
+Draws the decompressed data on the full screen.
               
 
 </td>
@@ -125,8 +121,7 @@ Applicable flags. The following values are defined:
 </dl>
 </td>
 <td width="60%">
-
-                Draws the decompressed data to a window or a DC.
+Draws the decompressed data to a window or a DC.
               
 
 </td>
@@ -137,8 +132,7 @@ Applicable flags. The following values are defined:
 </dl>
 </td>
 <td width="60%">
-
-                DC is off-screen.
+DC is off-screen.
               
 
 </td>
@@ -149,8 +143,7 @@ Applicable flags. The following values are defined:
 </dl>
 </td>
 <td width="60%">
-
-                Determines if the decompressor can handle the decompression. The driver does not actually decompress the data.
+Determines if the decompressor can handle the decompression. The driver does not actually decompress the data.
               
 
 </td>
@@ -161,8 +154,7 @@ Applicable flags. The following values are defined:
 </dl>
 </td>
 <td width="60%">
-
-                Renders but does not draw the data.
+Renders but does not draw the data.
               
 
 </td>
@@ -173,8 +165,7 @@ Applicable flags. The following values are defined:
 </dl>
 </td>
 <td width="60%">
-
-                Current frame is being updated rather than played.
+Current frame is being updated rather than played.
               
 
 </td>
@@ -185,50 +176,43 @@ Applicable flags. The following values are defined:
 
 ### -field hpal
 
-
-            Handle to the palette used for drawing.
+Handle to the palette used for drawing.
           
 
 
 ### -field hwnd
 
-
-            Handle to the window used for drawing.
+Handle to the window used for drawing.
           
 
 
 ### -field hdc
 
-
-            Handle to the DC used for drawing. Specify <b>NULL</b> to use a DC associated with the specified window.
+Handle to the DC used for drawing. Specify <b>NULL</b> to use a DC associated with the specified window.
           
 
 
 ### -field xDst
 
-
-            The x-coordinate of the destination rectangle.
+The x-coordinate of the destination rectangle.
           
 
 
 ### -field yDst
 
-
-            The y-coordinate of the destination rectangle.
+The y-coordinate of the destination rectangle.
           
 
 
 ### -field dxDst
 
-
-            Width of the destination rectangle.
+Width of the destination rectangle.
           
 
 
 ### -field dyDst
 
-
-            Height of the destination rectangle.
+Height of the destination rectangle.
           
 
 
@@ -239,22 +223,19 @@ Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb1
 
 ### -field xSrc
 
-
-            The x-coordinate of the source rectangle.
+The x-coordinate of the source rectangle.
           
 
 
 ### -field ySrc
 
-
-            The y-coordinate of the source rectangle.
+The y-coordinate of the source rectangle.
           
 
 
 ### -field dxSrc
 
-
-            Width of the source rectangle.
+Width of the source rectangle.
           
 
 

@@ -7,7 +7,7 @@ old-location: winsync\irecoverableerror_getstage.htm
 old-project: winsync
 ms.assetid: 4ddfb151-37f1-4df2-827a-11bc6f23ace6
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetStage, GetStage method [Windows Sync], GetStage method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetStage method, IRecoverableError.GetStage, IRecoverableError::GetStage, winsync.irecoverableerror_getstage, winsync/IRecoverableError::GetStage
 ms.prod: windows
 ms.technology: windows-sdk

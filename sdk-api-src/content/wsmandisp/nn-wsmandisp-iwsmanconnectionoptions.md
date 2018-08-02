@@ -4,10 +4,10 @@ title: IWSManConnectionOptions
 author: windows-sdk-content
 description: The ConnectionOptions object is passed to the CreateSession method to provide the user name and password associated with the local account on the remote computer.
 old-location: winrm\connectionoptions.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 7a87a5f7-78ed-452c-9b9f-ad48811a3339
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: ConnectionOptions, ConnectionOptions object [Windows Remote Management], ConnectionOptions object [Windows Remote Management],described, IWSManConnectionOptions, winrm.connectionoptions, wsman.connectionoptions, wsmandisp/ConnectionOptions
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2_interface_addref.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.AddRef
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: AddRef, AddRef method [XAudio2 Audio Mixing APIs], AddRef method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],AddRef method, IXAudio2.AddRef, IXAudio2::AddRef, xaudio2.ixaudio2_interface_addref, xaudio2/IXAudio2::AddRef
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee415908(v=VS.85).aspx">IXAudio2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415908(v=VS.85).aspx">IXAudio2</a>
  
 
  

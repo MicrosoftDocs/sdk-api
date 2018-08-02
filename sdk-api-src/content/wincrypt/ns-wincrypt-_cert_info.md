@@ -4,10 +4,10 @@ title: "_CERT_INFO"
 author: windows-sdk-content
 description: Contains the information of a certificate.
 old-location: security\cert_info.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 8d0a3053-52d4-437a-bf55-6724b5825cdc
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCERT_INFO, CERT_INFO, CERT_INFO structure [Security], CERT_V1, CERT_V2, CERT_V3, PCERT_INFO, PCERT_INFO structure pointer [Security], _CERT_INFO, _crypto2_cert_info, security.cert_info, wincrypt/CERT_INFO, wincrypt/PCERT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,8 +109,7 @@ A <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB
 
 ### -field SignatureAlgorithm
 
-
-						A <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the signature algorithm type and encoded additional encryption parameters.
+A <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the signature algorithm type and encoded additional encryption parameters.
 
 
 ### -field Issuer

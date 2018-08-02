@@ -4,10 +4,10 @@ title: "_VDS_DRIVE_PROP"
 author: windows-sdk-content
 description: Defines the properties of a drive object.
 old-location: base\vds_drive_prop.htm
-old-project: vds
+old-project: VDS
 ms.assetid: c17f13f6-ccea-4370-84d1-b422efb63e73
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: "*PVDS_DRIVE_PROP, VDS_DRIVE_PROP, VDS_DRIVE_PROP structure [VDS], VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_PENDING_FAILURE, VDS_H_REPLACED, VDS_H_UNKNOWN, _VDS_DRIVE_PROP, base.vds_drive_prop, vds/_VDS_DRIVE_PROP, vdshwprv/_VDS_DRIVE_PROP"
 ms.prod: windows
 ms.technology: windows-sdk

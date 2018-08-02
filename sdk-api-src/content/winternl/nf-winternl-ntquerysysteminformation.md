@@ -4,10 +4,10 @@ title: NtQuerySystemInformation function
 author: windows-sdk-content
 description: Retrieves the specified system information.
 old-location: base\ntquerysysteminformation.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 553ec7b9-c5eb-4955-8dc0-f1c06f59fe31
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: NtQuerySystemInformation, NtQuerySystemInformation function, SYSTEM_BASIC_INFORMATION, SYSTEM_CODEINTEGRITY_INFORMATION, SYSTEM_EXCEPTION_INFORMATION, SYSTEM_INFORMATION_CLASS, SYSTEM_INTERRUPT_INFORMATION, SYSTEM_KERNEL_VA_SHADOW_INFORMATION, SYSTEM_LOOKASIDE_INFORMATION, SYSTEM_PERFORMANCE_INFORMATION, SYSTEM_POLICY_INFORMATION, SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION, SYSTEM_PROCESS_INFORMATION, SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION, SYSTEM_REGISTRY_QUOTA_INFORMATION, SYSTEM_SPECULATION_CONTROL_INFORMATION, SYSTEM_THREAD_INFORMATION, SYSTEM_TIMEOFDAY_INFORMATION, SYSTEM_VHD_BOOT_INFORMATION, SystemBasicInformation, SystemCodeIntegrityInformation, SystemExceptionInformation, SystemInterruptInformation, SystemKernelVaShadowInformation, SystemLookasideInformation, SystemPerformanceInformation, SystemPolicyInformation, SystemProcessInformation, SystemProcessorPerformanceInformation, SystemQueryPerformanceCounterInformation, SystemRegistryQuotaInformation, SystemSpeculationControlInformation, SystemTimeOfDayInformation, base.ntquerysysteminformation, winternl/NtQuerySystemInformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,8 +115,7 @@ instead.
 
 Returns an opaque <b>SYSTEM_PERFORMANCE_INFORMATION</b> structure that can be
 used to generate an unpredictable seed for a random number generator. Use the
-<a href="https://msdn.microsoft.com/3e5a437f-7439-43c9-a191-2908d2df0eb6">CryptGenRandom</a>
-function instead.
+<a href="https://msdn.microsoft.com/3e5a437f-7439-43c9-a191-2908d2df0eb6">CryptGenRandom</a>function instead.
 
 
 
@@ -147,7 +146,7 @@ one for each processor installed in the system.
 
 #### SystemQueryPerformanceCounterInformation
 
-Returns a <b>SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION</b> structure that can be used to determine whether the system requires a kernel transition to retrieve the high-resolution performance counter information through a <a href="https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx">QueryPerformanceCounter</a> function call.  
+Returns a <b>SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION</b> structure that can be used to determine whether the system requires a kernel transition to retrieve the high-resolution performance counter information through a <a href="https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx">QueryPerformanceCounter</a> function call.  
 
 
 
@@ -192,7 +191,6 @@ having the following layout:
     PVOID Reserved2[4];
     CCHAR NumberOfProcessors;
 } SYSTEM_BASIC_INFORMATION;</code></pre>
-
 The <b>NumberOfProcessors</b> member contains the number of
 processors present in the system. Use <a href="https://msdn.microsoft.com/f6d745af-729a-494e-90b4-19fe7d97c7af">GetSystemInfo</a> instead to retrieve this
 information.
@@ -605,8 +603,7 @@ operating system.
 When the <i>SystemInformationClass</i>  parameter is
 <b>SystemProcessorPerformanceInformation</b>,  the buffer
 pointed to by the <i>SystemInformation</i> parameter should
-be large enough to hold an array that contains as many <b>SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION</b>
-structures as there are processors (CPUs) installed in the system. Each
+be large enough to hold an array that contains as many <b>SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION</b>structures as there are processors (CPUs) installed in the system. Each
 structure has the following layout: 
 
 <pre class="syntax" xml:space="preserve"><code>typedef struct
@@ -628,8 +625,7 @@ The <b>UserTime</b> member contains the amount of time
 that the system has spent executing in User mode (including all threads in all
 processes, on all processors), in 100-nanosecond intervals.
 
-Use <a href="https://msdn.microsoft.com/84f674e7-536b-4ae0-b523-6a17cb0a1c17">GetSystemTimes</a>
-instead to retrieve this information.
+Use <a href="https://msdn.microsoft.com/84f674e7-536b-4ae0-b523-6a17cb0a1c17">GetSystemTimes</a>instead to retrieve this information.
 
 
 
@@ -751,8 +747,7 @@ function instead to generate cryptographically random data.
 
 ### -param SystemInformationLength [in]
 
-The size of the buffer pointed to by the <i>SystemInformation</i>
-parameter, in bytes.
+The size of the buffer pointed to by the <i>SystemInformation</i>parameter, in bytes.
 
 
 ### -param OPTIONAL

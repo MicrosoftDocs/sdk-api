@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservice3_removedictionaryitem.htm
 old-project: xaml_diagnostics
 ms.assetid: 6239D855-7408-47ED-9090-E7726E7E403E
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: IVisualTreeService3 interface,RemoveDictionaryItem method, IVisualTreeService3.RemoveDictionaryItem, IVisualTreeService3::RemoveDictionaryItem, RemoveDictionaryItem, RemoveDictionaryItem method, RemoveDictionaryItem method,IVisualTreeService3 interface, xaml_diagnostics.ivisualtreeservice3_removedictionaryitem, xamlom/IVisualTreeService3::RemoveDictionaryItem
 ms.prod: windows
 ms.technology: windows-sdk

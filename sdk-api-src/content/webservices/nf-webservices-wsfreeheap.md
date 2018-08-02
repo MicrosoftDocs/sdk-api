@@ -7,7 +7,7 @@ old-location: wsw\wsfreeheap.htm
 old-project: wsw
 ms.assetid: ec643915-8c4b-4916-b390-d6ca043350db
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsFreeHeap, WsFreeHeap function [Web Services for Windows], webservices/WsFreeHeap, wsw.wsfreeheap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                This frees the heap object, and the memory associated with any allocations 
+This frees the heap object, and the memory associated with any allocations 
                 made on it using <a href="https://msdn.microsoft.com/633b6a11-09ba-48a7-a1ad-940846c65d79">WsAlloc</a>.
             
 
@@ -64,8 +63,7 @@ req.product: Windows Address Book 5.0
 
 ### -param heap [in]
 
-
-                    The heap to free.  This must be a valid heap object that was returned
+The heap to free.  This must be a valid heap object that was returned
                     from <a href="https://msdn.microsoft.com/459b7146-3b32-4df8-87e1-4ac7ad33ed0e">WsCreateHeap</a>.  This parameter may not be <b>NULL</b>.
                 
 

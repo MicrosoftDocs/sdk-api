@@ -7,7 +7,7 @@ old-location: wsw\wssendmessage.htm
 old-project: wsw
 ms.assetid: 143864db-0a09-4d8d-8b07-369a0555aa46
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsSendMessage, WsSendMessage function [Web Services for Windows], webservices/WsSendMessage, wsw.wssendmessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Send a message on a channel using serialization to write the body element.
+Send a message on a channel using serialization to write the body element.
             
 
 
@@ -63,34 +62,28 @@ req.product: Windows Address Book 5.0
 
 ### -param channel [in]
 
-
-                    The channel to send the message on.
+The channel to send the message on.
                 
 
 
 ### -param message [in]
 
-
-                    The message object to use for sending.
+The message object to use for sending.
                 
 
-
-                  The message object must be in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a> or
+The message object must be in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a> or
                   <b>WS_MESSAGE_STATE_INITIALIZED</b>.
                 
 
 
 ### -param messageDescription [in]
 
-
-                    The action field of the <a href="https://msdn.microsoft.com/399b3363-004b-499a-9726-0b2513826f43">WS_MESSAGE_DESCRIPTION</a> is used as the
+The action field of the <a href="https://msdn.microsoft.com/399b3363-004b-499a-9726-0b2513826f43">WS_MESSAGE_DESCRIPTION</a> is used as the
                     action header for the message.  This field may be <b>NULL</b> if no action
                     is required.
                 
 
-
-                    The bodyElementDescription field of the <a href="https://msdn.microsoft.com/399b3363-004b-499a-9726-0b2513826f43">WS_MESSAGE_DESCRIPTION</a>
-                    is used to serialize the body of the message.  This field may be 
+The bodyElementDescription field of the <a href="https://msdn.microsoft.com/399b3363-004b-499a-9726-0b2513826f43">WS_MESSAGE_DESCRIPTION</a>is used to serialize the body of the message.  This field may be 
                     <b>NULL</b> if no body element is desired.  See <a href="https://msdn.microsoft.com/70ff43f5-6f1a-4bbb-aa39-6fb9476e6a37">WsWriteBody</a> for
                     information about how the bodyElementDescription is used to serialize
                     the value.
@@ -108,29 +101,25 @@ req.product: Windows Address Book 5.0
 
 ### -param bodyValue
 
-
-                    The value to serialize in the body of the message.
+The value to serialize in the body of the message.
                 
 
 
 ### -param bodyValueSize [in]
 
-
-                    The size of the value being serialized, in bytes.
+The size of the value being serialized, in bytes.
                 
 
 
 ### -param asyncContext [in, optional]
 
-
-                    Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
+Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
                 
 
 
 ### -param error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -152,8 +141,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    The asynchronous operation is still pending.
+The asynchronous operation is still pending.
                 
 
 </td>
@@ -165,7 +153,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The operation was aborted.
 
 </td>
@@ -177,7 +164,6 @@ The operation was aborted.
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>
@@ -189,7 +175,6 @@ The operation is not allowed due to the current state of the object.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint does not exist or could not be located.
 
 </td>
@@ -201,7 +186,6 @@ The remote endpoint does not exist or could not be located.
 </dl>
 </td>
 <td width="60%">
-
 Access was denied by the remote endpoint.
 
 </td>
@@ -213,7 +197,6 @@ Access was denied by the remote endpoint.
 </dl>
 </td>
 <td width="60%">
-
 The connection with the remote endpoint was terminated.
 
 </td>
@@ -225,7 +208,6 @@ The connection with the remote endpoint was terminated.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint could not process the request.
 
 </td>
@@ -237,7 +219,6 @@ The remote endpoint could not process the request.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint is not currently in service at this location.
 
 </td>
@@ -249,7 +230,6 @@ The remote endpoint is not currently in service at this location.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint is unable to process the request due to being overloaded.
 
 </td>
@@ -261,7 +241,6 @@ The remote endpoint is unable to process the request due to being overloaded.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint was not reachable.
 
 </td>
@@ -273,7 +252,6 @@ The remote endpoint was not reachable.
 </dl>
 </td>
 <td width="60%">
-
 The endpoint address URL is invalid.
 
 </td>
@@ -285,7 +263,6 @@ The endpoint address URL is invalid.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -297,7 +274,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 The operation did not complete within the time allotted.
 
 </td>
@@ -309,7 +285,6 @@ The operation did not complete within the time allotted.
 </dl>
 </td>
 <td width="60%">
-
 Access was denied by the HTTP proxy server.
 
 </td>
@@ -321,7 +296,6 @@ Access was denied by the HTTP proxy server.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server could not process the request.
 
 </td>
@@ -333,7 +307,6 @@ The HTTP proxy server could not process the request.
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -345,7 +318,6 @@ A quota was exceeded.
 </dl>
 </td>
 <td width="60%">
-
 Security verification was not successful for the received data.
 
 </td>
@@ -357,7 +329,6 @@ Security verification was not successful for the received data.
 </dl>
 </td>
 <td width="60%">
-
 A security operation failed in the Windows Web Services framework.
 
 </td>
@@ -369,7 +340,6 @@ A security operation failed in the Windows Web Services framework.
 </dl>
 </td>
 <td width="60%">
-
 A security token was rejected by the server because it has expired.
 
 </td>
@@ -381,7 +351,6 @@ A security token was rejected by the server because it has expired.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'basic'.
 
 </td>
@@ -393,7 +362,6 @@ The HTTP proxy server requires HTTP authentication scheme 'basic'.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'digest'.
 
 </td>
@@ -405,7 +373,6 @@ The HTTP proxy server requires HTTP authentication scheme 'digest'.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'negotiate'.
 
 </td>
@@ -417,7 +384,6 @@ The HTTP proxy server requires HTTP authentication scheme 'negotiate'.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'NTLM'.
 
 </td>
@@ -429,7 +395,6 @@ The HTTP proxy server requires HTTP authentication scheme 'NTLM'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'basic'.
 
 </td>
@@ -441,7 +406,6 @@ The remote endpoint requires HTTP authentication scheme 'basic'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'digest'.
 
 </td>
@@ -453,7 +417,6 @@ The remote endpoint requires HTTP authentication scheme 'digest'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'negotiate'.
 
 </td>
@@ -465,7 +428,6 @@ The remote endpoint requires HTTP authentication scheme 'negotiate'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'NTLM'.
 
 </td>
@@ -477,7 +439,6 @@ The remote endpoint requires HTTP authentication scheme 'NTLM'.
 </dl>
 </td>
 <td width="60%">
-
 A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.
 
 </td>
@@ -489,7 +450,6 @@ A required certificate is not within its validity period when verifying against 
 </dl>
 </td>
 <td width="60%">
-
 The certificates CN name does not match the passed value.
 
 </td>
@@ -501,7 +461,6 @@ The certificates CN name does not match the passed value.
 </dl>
 </td>
 <td width="60%">
-
 A certificate chain processed, but terminated in a root certificate which is not trusted by the trust provider.
 
 </td>
@@ -513,7 +472,6 @@ A certificate chain processed, but terminated in a root certificate which is not
 </dl>
 </td>
 <td width="60%">
-
 The certificate is not valid for the requested usage.
 
 </td>
@@ -525,7 +483,6 @@ The certificate is not valid for the requested usage.
 </dl>
 </td>
 <td width="60%">
-
 The revocation function was unable to check revocation because the revocation server was offline.
 
 </td>
@@ -537,7 +494,6 @@ The revocation function was unable to check revocation because the revocation se
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -549,7 +505,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -575,9 +530,7 @@ This function may return other errors not listed above.
 
 
 
-
-                To include custom headers with the message, initialize the message <a href="https://msdn.microsoft.com/26eafc5f-6636-4f96-a037-7935cdac5900">WsInitializeMessage</a>
-                with <a href="https://msdn.microsoft.com/f4a674c1-4017-49c8-aa9a-68f1d2b84378">WS_BLANK_MESSAGE</a> and then add the headers using <a href="https://msdn.microsoft.com/4b95085a-e522-4ab2-b7c9-d332599c5598">WsAddCustomHeader</a> 
+To include custom headers with the message, initialize the message <a href="https://msdn.microsoft.com/26eafc5f-6636-4f96-a037-7935cdac5900">WsInitializeMessage</a>with <a href="https://msdn.microsoft.com/f4a674c1-4017-49c8-aa9a-68f1d2b84378">WS_BLANK_MESSAGE</a> and then add the headers using <a href="https://msdn.microsoft.com/4b95085a-e522-4ab2-b7c9-d332599c5598">WsAddCustomHeader</a> 
                 before calling this function.
             
 

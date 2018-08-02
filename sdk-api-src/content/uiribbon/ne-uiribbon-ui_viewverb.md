@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_ui_viewverb.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_view_verb.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: UI_VIEWVERB, UI_VIEWVERB enumeration [Windows Ribbon], UI_VIEWVERB_CREATE, UI_VIEWVERB_DESTROY, UI_VIEWVERB_ERROR, UI_VIEWVERB_SIZE, scenicintent_UI_VIEWVERB, uiribbon/UI_VIEWVERB, uiribbon/UI_VIEWVERB_CREATE, uiribbon/UI_VIEWVERB_DESTROY, uiribbon/UI_VIEWVERB_ERROR, uiribbon/UI_VIEWVERB_SIZE, windowsribbon.windowsribbon_ui_viewverb
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,15 +84,15 @@ Unable to complete the action.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371654(v=VS.85).aspx">ContextPopup</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371654(v=VS.85).aspx">ContextPopup</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd316811(v=VS.85).aspx">Ribbon</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a>
  
 
  

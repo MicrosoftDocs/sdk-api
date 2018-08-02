@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaFindAutoMeth.htm
 old-project: WinAuto
 ms.assetid: fe86b393-9c8d-46f1-85dc-5ac37f423ce0
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: UiaFind, UiaFind function [Windows Accessibility], uiauto.uiauto_UiaFindAutoMeth, uiauto_UiaFindAutoMeth, uiautomationcoreapi/UiaFind, winauto.uiauto_UiaFindAutoMeth
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,15 +116,12 @@ Returns S_OK if successful or an error value otherwise.
 
 
 
-
-			The tree structure is described by a string where every character is either "p" or ")". 
+The tree structure is described by a string where every character is either "p" or ")". 
 			The first character in the string always represents the root node. 
-
-			The string is <b>NULL</b> if no elements are returned by the function.
+The string is <b>NULL</b> if no elements are returned by the function.
 			
 
-
-			A "p" represents a node 
+A "p" represents a node 
 			(UI Automation element). When one "p" directly follows another, the second node is a child of the first.
 			A ")" represents a step back up the tree. For example, "pp)p" represents a node followed
 			by two child nodes that are siblings of one another. In "pp))p", the last node is a sibling of the first one.

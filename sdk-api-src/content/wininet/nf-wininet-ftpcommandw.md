@@ -4,10 +4,10 @@ title: FtpCommandW function
 author: windows-sdk-content
 description: Sends commands directly to an FTP server.
 old-location: wininet\ftpcommand.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: cd12f52c-80d6-4aee-96c8-cb3cafcf0a6a
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: FTP_TRANSFER_TYPE_ASCII, FTP_TRANSFER_TYPE_BINARY, FtpCommand, FtpCommand function [WinINet], FtpCommandA, FtpCommandW, _inet_ftpcommand_function, wininet.ftpcommand, wininet/FtpCommand, wininet/FtpCommandA, wininet/FtpCommandW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ The <b>FtpCommand</b> function sends commands directly to an FTP server.
 
 ### -param hConnect [in]
 
-
-						A handle returned from a call to 
+A handle returned from a call to 
 <a href="https://msdn.microsoft.com/42b5d733-dccd-4c9d-8820-e358e033077c">InternetConnect</a>.
 
 

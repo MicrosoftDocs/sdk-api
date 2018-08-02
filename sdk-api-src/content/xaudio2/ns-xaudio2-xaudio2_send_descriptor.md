@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2_send_descriptor.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_SEND_DESCRIPTOR
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: XAUDIO2_SEND_DESCRIPTOR, XAUDIO2_SEND_DESCRIPTOR structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_send_descriptor, xaudio2/XAUDIO2_SEND_DESCRIPTOR
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Indicates whether a filter should be used on data sent to the voice pointed to b
 
 ### -field pOutputVoice
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a> that will be the target of the send. The <b>pOutputVoice</b> member cannot be NULL.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a> that will be the target of the send. The <b>pOutputVoice</b> member cannot be NULL.
 
 
 ## -remarks
@@ -92,15 +92,15 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee418607(v=VS.85).aspx">IXAudio2::CreateSourceVoice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418607(v=VS.85).aspx">IXAudio2::CreateSourceVoice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee418608(v=VS.85).aspx">IXAudio2::CreateSubmixVoice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418608(v=VS.85).aspx">IXAudio2::CreateSubmixVoice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee418599(v=VS.85).aspx">IXAudio2Voice::SetOutputVoices</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418599(v=VS.85).aspx">IXAudio2Voice::SetOutputVoices</a>
 
 
 

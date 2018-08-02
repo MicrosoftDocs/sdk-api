@@ -2,12 +2,12 @@
 UID: NF:webservices.WsGetPolicyAlternativeCount
 title: WsGetPolicyAlternativeCount function
 author: windows-sdk-content
-description: Retrieves the number of alternatives available in the policy object.
+description: Retrieves the number of alternatives available in the policy object. The alternative count can be used to loop through each alternative using WsMatchPolicyAlternative.
 old-location: wsw\wsgetpolicyalternativecount.htm
 old-project: wsw
 ms.assetid: 2d3ac397-07a0-45c4-84b4-0f4806a324bc
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetPolicyAlternativeCount, WsGetPolicyAlternativeCount function [Web Services for Windows], webservices/WsGetPolicyAlternativeCount, wsw.wsgetpolicyalternativecount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ A pointer to the <a href="https://msdn.microsoft.com/04623686-5065-4e97-8685-c72
 
 ### -param count [out]
 
-
-                    A pointer to the number value of alternatives.  This may be 0.
+A pointer to the number value of alternatives.  This may be 0.
                 
 
 
@@ -116,7 +115,6 @@ The property id was not supported for this object or the specified buffer was no
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -142,8 +140,7 @@ This function may return other errors not listed above.
 
 
 
-
-                Note that each alternative is not guaranteed to be unique within the policy
+Note that each alternative is not guaranteed to be unique within the policy
                 (there may be duplicates).
             
 

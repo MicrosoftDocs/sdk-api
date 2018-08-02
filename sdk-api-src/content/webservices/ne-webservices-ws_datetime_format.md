@@ -7,7 +7,7 @@ old-location: wsw\ws_datetime_format.htm
 old-project: wsw
 ms.assetid: e5859797-90dd-4509-ae41-f8d8c83cfd9c
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_DATETIME_FORMAT, WS_DATETIME_FORMAT enumeration [Web Services for Windows], WS_DATETIME_FORMAT_LOCAL, WS_DATETIME_FORMAT_NONE, WS_DATETIME_FORMAT_UTC, webservices/WS_DATETIME_FORMAT, webservices/WS_DATETIME_FORMAT_LOCAL, webservices/WS_DATETIME_FORMAT_NONE, webservices/WS_DATETIME_FORMAT_UTC, wsw.ws_datetime_format
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Specifies the textual format of a <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a>.
+Specifies the textual format of a <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a>.
       
 
 
@@ -63,31 +62,27 @@ req.product: Windows Address Book 5.0
 
 ### -field WS_DATETIME_FORMAT_UTC
 
-
-          This format displays a time in the GMT timezone.  It is formatted with a "Z" following the time.
+This format displays a time in the GMT timezone.  It is formatted with a "Z" following the time.
           For example, September 25, 2007 at 1:30AM in the GMT timezone would be represented as "2007-09-25T01:30:00Z".
         
 
 
 ### -field WS_DATETIME_FORMAT_LOCAL
 
-
-          This format displays a time with a specific timezone.  The time is followed by "[+|-]hh:mm" indicating the
+This format displays a time with a specific timezone.  The time is followed by "[+|-]hh:mm" indicating the
           relative difference between the local time and UTC in hours and minutes.
           For example, September 27, 2007 at 10:30AM in the Pacific timezone would be represented as
           "2007-09-27T10:30:00-07:00".
         
 
-
-          If the system is unable to convert the time to a local format because timezone information for the time
+If the system is unable to convert the time to a local format because timezone information for the time
           specified it not available, then it will format the time as <a href="https://msdn.microsoft.com/e5859797-90dd-4509-ae41-f8d8c83cfd9c">WS_DATETIME_FORMAT_UTC</a>.
         
 
 
 ### -field WS_DATETIME_FORMAT_NONE
 
-
-          This format displays a time with no timezone.  The time is formatted with no additional information and no
+This format displays a time with no timezone.  The time is formatted with no additional information and no
           timezone is implied.  For example, September 27, 2007 at 10:30AM would be represented as "2007-09-27T10:30:00".
         
 

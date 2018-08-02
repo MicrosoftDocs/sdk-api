@@ -7,7 +7,7 @@ old-location: gdi\ellipse.htm
 old-project: gdi
 ms.assetid: 9bec59dd-6bcb-498e-9ed2-ac641ecd7fa5
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: Ellipse, Ellipse function [Windows GDI], _win32_Ellipse, gdi.ellipse, wingdi/Ellipse
 ms.prod: windows
 ms.technology: windows-sdk
@@ -139,14 +139,12 @@ For an example, see <a href="https://msdn.microsoft.com/c5fc3346-e5d7-49c0-979b-
 
 
 
-<a href="https://msdn.microsoft.com/c15a2173-0fad-4a8a-b0f9-cd39fe4e7bac">
-        Arc
+<a href="https://msdn.microsoft.com/c15a2173-0fad-4a8a-b0f9-cd39fe4e7bac">Arc
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/5e358a14-9f39-4267-9a44-c8bf05b5dfbb">
-        ArcTo
+<a href="https://msdn.microsoft.com/5e358a14-9f39-4267-9a44-c8bf05b5dfbb">ArcTo
       </a>
 
 

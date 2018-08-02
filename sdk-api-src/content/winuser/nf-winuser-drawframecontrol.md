@@ -7,7 +7,7 @@ old-location: gdi\drawframecontrol.htm
 old-project: gdi
 ms.assetid: 3102007e-e9f7-46d8-ae10-cf156d2131f6
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: DFCS_ADJUSTRECT, DFCS_BUTTON3STATE, DFCS_BUTTONCHECK, DFCS_BUTTONPUSH, DFCS_BUTTONRADIO, DFCS_BUTTONRADIOIMAGE, DFCS_BUTTONRADIOMASK, DFCS_CAPTIONCLOSE, DFCS_CAPTIONHELP, DFCS_CAPTIONMAX, DFCS_CAPTIONMIN, DFCS_CAPTIONRESTORE, DFCS_CHECKED, DFCS_FLAT, DFCS_HOT, DFCS_INACTIVE, DFCS_MENUARROW, DFCS_MENUARROWRIGHT, DFCS_MENUBULLET, DFCS_MENUCHECK, DFCS_MONO, DFCS_PUSHED, DFCS_SCROLLCOMBOBOX, DFCS_SCROLLDOWN, DFCS_SCROLLLEFT, DFCS_SCROLLRIGHT, DFCS_SCROLLSIZEGRIP, DFCS_SCROLLSIZEGRIPRIGHT, DFCS_SCROLLUP, DFCS_TRANSPARENT, DFC_BUTTON, DFC_CAPTION, DFC_MENU, DFC_POPUPMENU, DFC_SCROLL, DrawFrameControl, DrawFrameControl function [Windows GDI], _win32_DrawFrameControl, gdi.drawframecontrol, winuser/DrawFrameControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -392,8 +392,7 @@ Button has a flat border.
 </dl>
 </td>
 <td width="60%">
-
-                 Button is hot-tracked.
+Button is hot-tracked.
 
 </td>
 </tr>
@@ -433,8 +432,7 @@ Button is pushed.
 </dl>
 </td>
 <td width="60%">
-
-                 The background remains untouched. This flag can only be combined with DFCS_MENUARROWUP or DFCS_MENUARROWDOWN.
+The background remains untouched. This flag can only be combined with DFCS_MENUARROWUP or DFCS_MENUARROWDOWN.
 
 </td>
 </tr>
@@ -487,8 +485,7 @@ Menu bar
 </dl>
 </td>
 <td width="60%">
-
-                 Popup menu item.
+Popup menu item.
 
 </td>
 </tr>
@@ -542,8 +539,7 @@ This API does not participate in DPI virtualization. The input given is always i
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">
-        RECT
+<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT
       </a>
  
 

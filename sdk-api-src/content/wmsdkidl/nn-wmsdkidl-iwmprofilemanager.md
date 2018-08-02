@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofilemanager.htm
 old-project: wmformat
 ms.assetid: e5ec945c-4513-48ad-8bef-e0fb54826991
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMProfileManager, IWMProfileManager interface [windows Media Format], IWMProfileManager interface [windows Media Format],described, IWMProfileManagerInterface, wmformat.iwmprofilemanager, wmsdkidl/IWMProfileManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,8 +132,7 @@ Saves a custom profile into a string. You can save the profile to disk by copyin
 </tr>
 </table> 
 
-
-    The following interfaces can be obtained by using the QueryInterface method of this interface.<table>
+The following interfaces can be obtained by using the QueryInterface method of this interface.<table>
 <tr>
 <th>Interface</th>
 <th>IID</th>

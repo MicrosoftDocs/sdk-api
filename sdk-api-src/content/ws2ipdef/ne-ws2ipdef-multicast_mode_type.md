@@ -4,10 +4,10 @@ title: MULTICAST_MODE_TYPE
 author: windows-sdk-content
 description: Specifies the filter mode for multicast group addresses.
 old-location: winsock\multicast_mode_type.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 7ca9cb9b-618a-4e73-9e2a-18e55e5c00c0
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: MCAST_EXCLUDE, MCAST_INCLUDE, MULTICAST_MODE_TYPE, MULTICAST_MODE_TYPE enumeration [Winsock], winsock.multicast_mode_type, ws2ipdef/MCAST_EXCLUDE, ws2ipdef/MCAST_INCLUDE, ws2ipdef/MULTICAST_MODE_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,8 +73,7 @@ The filter contains a list of IP addresses to exclude.
 
 
 
-This enumeration is supported on Windows Vista
-  and later.
+This enumeration is supported on Windows Vistaand later.
 
 The <b>MULTICAST_MODE_TYPE</b> enumeration is used in the <b>gf_fmode</b> member of the <a href="https://msdn.microsoft.com/c8f442e0-e7c3-4421-a664-3f4e31a68eb9">GROUP_SOURCE_REQ</a> structure to determine if a list of IP addresses should included or excluded. The values from this enumeration can also be used in the <b>imsf_fmode</b> member of the <a href="https://msdn.microsoft.com/8d9d515e-9369-4d71-9614-6cbeb5557a5d">ip_msfilter</a> structure.
 

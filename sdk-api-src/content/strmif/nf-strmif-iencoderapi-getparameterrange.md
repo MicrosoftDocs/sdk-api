@@ -7,7 +7,7 @@ old-location: mstv\iencoderapi_getparameterrange.htm
 old-project: mstv
 ms.assetid: fb48a460-c891-4fbe-8fe2-f900f8b405b7
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetParameterRange, GetParameterRange method [Microsoft TV Technologies], GetParameterRange method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetParameterRange method, IEncoderAPI.GetParameterRange, IEncoderAPI::GetParameterRange, IEncoderAPIGetParameterRange, mstv.iencoderapi_getparameterrange, strmif/IEncoderAPI::GetParameterRange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,29 +64,25 @@ The <b>GetParameterRange</b> method retrieves the valid range of values that the
 
 ### -param Api [in]
 
-
-            Pointer to a GUID that specifies the parameter.
+Pointer to a GUID that specifies the parameter.
           
 
 
 ### -param ValueMin [out]
 
-
-            Pointer to a <b>VARIANT</b> type that receives the minimum value of the parameter.
+Pointer to a <b>VARIANT</b> type that receives the minimum value of the parameter.
           
 
 
 ### -param ValueMax [out]
 
-
-            Pointer to a <b>VARIANT</b> type that receives the maximum value of the parameter.
+Pointer to a <b>VARIANT</b> type that receives the maximum value of the parameter.
           
 
 
 ### -param SteppingDelta [out]
 
-
-            Pointer to a <b>VARIANT</b> type that receives the stepping delta, which defines the valid increments from <i>ValueMin</i> to <i>ValueMax</i>.
+Pointer to a <b>VARIANT</b> type that receives the stepping delta, which defines the valid increments from <i>ValueMin</i> to <i>ValueMax</i>.
           
 
 
@@ -140,16 +136,13 @@ The valid range for the parameter is [<i>ValueMax</i>...<i>ValueMax</i>], with i
 <li>Signed types : <b>VT_I8</b>, <b>VT_I4</b>, <b>VT_I2</b></li>
 <li>Float types : <b>VT_R8</b>, <b>VT_R4</b></li>
 </ul>
-
-        By definition, the parameter will return a specific type.
+By definition, the parameter will return a specific type.
       
 
-
-        Any stepping value is valid. If the range has no stepping delta (that is, you can increment by any value), the encoder should return an empty value (<b>VT_EMPTY</b>) for <i>SteppingDelta</i>.
+Any stepping value is valid. If the range has no stepping delta (that is, you can increment by any value), the encoder should return an empty value (<b>VT_EMPTY</b>) for <i>SteppingDelta</i>.
       
 
-
-        If <i>Api</i> equals <b>ENCAPIPARAM_BITRATE_MODE</b>, the method returns <b>E_NOTIMPL</b>, because the bitrate mode constants are a list of specific values.
+If <i>Api</i> equals <b>ENCAPIPARAM_BITRATE_MODE</b>, the method returns <b>E_NOTIMPL</b>, because the bitrate mode constants are a list of specific values.
       
 
 

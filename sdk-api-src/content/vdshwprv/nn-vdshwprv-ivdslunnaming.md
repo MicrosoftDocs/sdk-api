@@ -4,10 +4,10 @@ title: IVdsLunNaming
 author: windows-sdk-content
 description: Provides a method to name LUNs for a class implementing the IVdsLun interface.
 old-location: base\ivdslunnaming.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 1cc5fbb2-6a40-4b7c-9b5f-8f5fb53e6173
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: IVdsLunNaming, IVdsLunNaming interface [VDS], IVdsLunNaming interface [VDS],described, base.ivdslunnaming, vds/IVdsLunNaming, vdshwprv/IVdsLunNaming
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,7 @@ req.product: Windows UI
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
 
-
-   Provides a method to name 
+Provides a method to name 
    LUNs for a class implementing the <a href="https://msdn.microsoft.com/e2fbebc0-593e-437c-a401-80e35a43da94">IVdsLun</a> interface.
 
 

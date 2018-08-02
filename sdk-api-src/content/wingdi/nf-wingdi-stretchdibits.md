@@ -7,7 +7,7 @@ old-location: gdi\stretchdibits.htm
 old-project: gdi
 ms.assetid: 3d57a79a-338d-48ab-8161-3ce17739bf20
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, StretchDIBits, StretchDIBits function [Windows GDI], _win32_StretchDIBits, gdi.stretchdibits, wingdi/StretchDIBits
 ms.prod: windows
 ms.technology: windows-sdk
@@ -234,8 +234,7 @@ The origin of a bottom-up DIB is the lower-left corner; the origin of a top-down
 
 <b>StretchDIBits</b> creates a top-down image if the sign of the <b>biHeight</b> member of the <a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFOHEADER</a> structure for the DIB is negative. For a code example, see <a href="https://msdn.microsoft.com/d4e3f631-3852-4cee-8e97-2244c39b200e">Sizing a JPEG or PNG Image</a>.
 
-
-         This function allows a JPEG or PNG image to be passed as the source image. How each parameter is used remains the same, except:
+This function allows a JPEG or PNG image to be passed as the source image. How each parameter is used remains the same, except:
 
 <ul>
 <li>If the <b>biCompression</b> member of <a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFOHEADER</a> is BI_JPEG or BI_PNG, <i>lpBits</i> points to a buffer containing a JPEG or PNG image, respectively. The <b>biSizeImage</b> member of the <b>BITMAPINFOHEADER</b> structure specifies the size of the buffer. The <i>iUsage</i> parameter must be set to DIB_RGB_COLORS. The <i>dwRop</i> parameter must be set to SRCCOPY.</li>
@@ -257,8 +256,7 @@ For an example, see <a href="https://msdn.microsoft.com/d4e3f631-3852-4cee-8e97-
 
 
 
-<a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">
-        BITMAPINFO
+<a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO
       </a>
 
 
@@ -271,14 +269,12 @@ For an example, see <a href="https://msdn.microsoft.com/d4e3f631-3852-4cee-8e97-
 
 
 
-<a href="https://msdn.microsoft.com/a4d6a63a-6d2d-4bd9-9e71-4cd1b5f145a4">
-        SetMapMode
+<a href="https://msdn.microsoft.com/a4d6a63a-6d2d-4bd9-9e71-4cd1b5f145a4">SetMapMode
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/3e5a48dc-ccd5-41ea-a24b-5c40213abf38">
-        SetStretchBltMode
+<a href="https://msdn.microsoft.com/3e5a48dc-ccd5-41ea-a24b-5c40213abf38">SetStretchBltMode
       </a>
  
 

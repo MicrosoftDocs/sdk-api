@@ -7,7 +7,7 @@ old-location: mstv\icomponenttype_put_mediatype.htm
 old-project: mstv
 ms.assetid: 6f77a391-232f-46ef-a028-763ebc706784
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],put_MediaType method, IComponentType.put_MediaType, IComponentType::put_MediaType, IComponentTypeput_MediaType, mstv.icomponenttype_put_mediatype, put_MediaType, put_MediaType method [Microsoft TV Technologies], put_MediaType method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put_MediaType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ The <b>put_MediaType</b> method sets the DirectShow <b>AM_MEDIA_TYPE</b> structu
 
 ### -param MediaType [in]
 
-
-              An <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure that specifies the major type, subtype, format, and so on.
+An <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure that specifies the major type, subtype, format, and so on.
 
 
 ## -returns

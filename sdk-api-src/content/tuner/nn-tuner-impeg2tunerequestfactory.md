@@ -7,7 +7,7 @@ old-location: mstv\impeg2tunerequestfactory.htm
 old-project: mstv
 ms.assetid: 0fbeab7d-0c54-45e3-a73c-755df28a16d5
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMPEG2TuneRequestFactory, IMPEG2TuneRequestFactory interface [Microsoft TV Technologies], IMPEG2TuneRequestFactory interface [Microsoft TV Technologies],described, IMPEG2TuneRequestFactoryInterface, mstv.impeg2tunerequestfactory, tuner/IMPEG2TuneRequestFactory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ The <b>IMPEG2TuneRequestFactory</b> interface creates a tune request for a basic
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2TuneRequestFactory</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMPEG2TuneRequestFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2TuneRequestFactory</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMPEG2TuneRequestFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -88,8 +88,7 @@ Creates the minimal MPEG-2 tune request for a specified tuning space
 
 
 
-
-        To create a full tune request, use the <a href="https://msdn.microsoft.com/b22ccd86-b8d7-4dd7-af4b-b99c9fea0de5">CreateTuneRequest</a> method provided by one of the tuning space objects.
+To create a full tune request, use the <a href="https://msdn.microsoft.com/b22ccd86-b8d7-4dd7-af4b-b99c9fea0de5">CreateTuneRequest</a> method provided by one of the tuning space objects.
       
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMPEG2TuneRequestFactory)</code>.
@@ -102,7 +101,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

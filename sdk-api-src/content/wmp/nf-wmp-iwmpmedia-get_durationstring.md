@@ -7,7 +7,7 @@ old-location: wmp\iwmpmedia_get_durationstring.htm
 old-project: WMP
 ms.assetid: 540f4780-850f-41ec-940c-e8f7d3c96e6b
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],get_durationString method, IWMPMedia.get_durationString, IWMPMedia2 interface [Windows Media Player],get_durationString method, IWMPMedia2::get_durationString, IWMPMedia3 interface [Windows Media Player],get_durationString method, IWMPMedia3::get_durationString, IWMPMedia::get_durationString, IWMPMediaget_durationString, get_durationString, get_durationString method [Windows Media Player], get_durationString method [Windows Media Player],IWMPMedia interface, get_durationString method [Windows Media Player],IWMPMedia2 interface, get_durationString method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_durationstring, wmp/IWMPMedia2::get_durationString, wmp/IWMPMedia3::get_durationString, wmp/IWMPMedia::get_durationString
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimer_enable.htm
 old-project: UIAnimation
 ms.assetid: b2efd694-67ff-4e6e-9a47-d0ce70dbd85a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: Enable, Enable method [Windows Animation], Enable method [Windows Animation],IUIAnimationTimer interface, IUIAnimationTimer interface [Windows Animation],Enable method, IUIAnimationTimer.Enable, IUIAnimationTimer::Enable, uianimation.iuianimationtimer_enable, uianimation/IUIAnimationTimer::Enable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Enables the animation timer.
+Enables the animation timer.
 
 
 ## -parameters
@@ -80,13 +79,11 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://msdn.microsoft.com/981f2086-3588-4150-aa0a-c427b93ef8bb">
-      IUIAnimationTimer::Disable</a>
+<a href="https://msdn.microsoft.com/981f2086-3588-4150-aa0a-c427b93ef8bb">IUIAnimationTimer::Disable</a>
 
 
 
-<a href="https://msdn.microsoft.com/42a7e690-40bb-4795-9076-5e4bed62562d">
-      IUIAnimationTimer::IsEnabled</a>
+<a href="https://msdn.microsoft.com/42a7e690-40bb-4795-9076-5e4bed62562d">IUIAnimationTimer::IsEnabled</a>
  
 
  

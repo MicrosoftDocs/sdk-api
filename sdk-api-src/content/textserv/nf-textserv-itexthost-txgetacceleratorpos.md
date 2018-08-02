@@ -4,10 +4,10 @@ title: ITextHost::TxGetAcceleratorPos
 author: windows-sdk-content
 description: Requests the special character to use for the underlining accelerator character.
 old-location: controls\ITextHost_TxGetAcceleratorPos.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetacceleratorpos.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetAcceleratorPos method, ITextHost.TxGetAcceleratorPos, ITextHost::TxGetAcceleratorPos, TxGetAcceleratorPos, TxGetAcceleratorPos method [Windows Controls], TxGetAcceleratorPos method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetAcceleratorPos, _win32_ITextHost_TxGetAcceleratorPos_cpp, controls.ITextHost_TxGetAcceleratorPos, controls._win32_ITextHost_TxGetAcceleratorPos, textserv/ITextHost::TxGetAcceleratorPos
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ Accelerators allow keyboard shortcuts, or accelerator keys, to various UI elemen
 This method tells the text services object which character is the accelerator and thus should be underlined. Note that the text services object does 
 				<i>not</i> process accelerators; that is the responsibility of the host.
 
-This method is typically only called if the TXTBIT_SHOWACCELERATOR bit is set in the text services object. See <a href="https://msdn.microsoft.com/library/Bb787627(v=VS.85).aspx">OnTxPropertyBitsChange</a>.
+This method is typically only called if the TXTBIT_SHOWACCELERATOR bit is set in the text services object. See <a href="https://msdn.microsoft.com/en-us/library/Bb787627(v=VS.85).aspx">OnTxPropertyBitsChange</a>.
 
 <div class="alert"><b>Note</b>  <i>Any</i> change to the text in the text services object results in the invalidation of the accelerator underlining. In this case, it is the host's responsibility to recalculate the appropriate character position and inform the text services object that a new accelerator is available.</div>
 <div> </div>
@@ -103,11 +103,11 @@ This method is typically only called if the TXTBIT_SHOWACCELERATOR bit is set in
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787627(v=VS.85).aspx">OnTxPropertyBitsChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787627(v=VS.85).aspx">OnTxPropertyBitsChange</a>
 
 
 
@@ -115,7 +115,7 @@ This method is typically only called if the TXTBIT_SHOWACCELERATOR bit is set in
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
  
 
  

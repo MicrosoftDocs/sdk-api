@@ -7,7 +7,7 @@ old-location: wsw\wswritetext.htm
 old-project: wsw
 ms.assetid: a4ffc05e-d04a-4cc3-bdb6-71b2090bc32f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsWriteText, WsWriteText function [Web Services for Windows], webservices/WsWriteText, wsw.wswritetext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,7 +105,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -117,7 +116,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>

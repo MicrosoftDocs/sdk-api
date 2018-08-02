@@ -4,10 +4,10 @@ title: WSManCloseCommand function
 author: windows-sdk-content
 description: Deletes a command and frees the resources that are associated with it.
 old-location: winrm\wsmanclosecommand.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 41ef2a6d-af1a-4a51-b01d-262380f01187
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: WSManCloseCommand, WSManCloseCommand function [Windows Remote Management], winrm.wsmanclosecommand, wsman/WSManCloseCommand
 ms.prod: windows
 ms.technology: windows-sdk

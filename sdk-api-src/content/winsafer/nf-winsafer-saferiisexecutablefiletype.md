@@ -4,10 +4,10 @@ title: SaferiIsExecutableFileType function
 author: windows-sdk-content
 description: Determines whether a specified file is an executable file.
 old-location: security\saferiisexecutablefiletype.htm
-old-project: secmgmt
+old-project: SecMgmt
 ms.assetid: f122ceaa-65bb-4cfe-a760-adf4f910c487
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: SaferiIsExecutableFileType, SaferiIsExecutableFileType function [Security], security.saferiisexecutablefiletype, winsafer/SaferiIsExecutableFileType
 ms.prod: windows
 ms.technology: windows-sdk

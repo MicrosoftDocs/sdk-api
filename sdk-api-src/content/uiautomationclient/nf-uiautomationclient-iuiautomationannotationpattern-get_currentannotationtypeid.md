@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CurrentAnnotationTyp
 old-project: WinAuto
 ms.assetid: BFE58005-31DC-40A5-836C-9E2750DC03BD
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CurrentAnnotationTypeId property [Windows Accessibility], CurrentAnnotationTypeId property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CurrentAnnotationTypeId property, IUIAutomationAnnotationPattern.CurrentAnnotationTypeId, IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeId, IUIAutomationAnnotationPattern::CurrentAnnotationTypeId, IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId, get_CurrentAnnotationTypeId, uiautomationclient/IUIAutomationAnnotationPattern::CurrentAnnotationTypeId, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentAnnotationTypeId
 ms.prod: windows
 ms.technology: windows-sdk

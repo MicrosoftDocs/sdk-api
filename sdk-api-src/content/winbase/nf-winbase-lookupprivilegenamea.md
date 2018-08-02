@@ -4,10 +4,10 @@ title: LookupPrivilegeNameA function
 author: windows-sdk-content
 description: Retrieves the name that corresponds to the privilege represented on a specific system by a specified locally unique identifier (LUID).
 old-location: security\lookupprivilegename.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 580fb58f-1470-4389-9f07-8f37403e2bdf
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: LookupPrivilegeName, LookupPrivilegeName function [Security], LookupPrivilegeNameA, LookupPrivilegeNameW, _win32_lookupprivilegename, security.lookupprivilegename, winbase/LookupPrivilegeName, winbase/LookupPrivilegeNameA, winbase/LookupPrivilegeNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,8 +91,7 @@ A pointer to a variable that specifies the size, in a <b>TCHAR</b> value, of the
 
 
 
-
-						If the function succeeds, the function returns nonzero.
+If the function succeeds, the function returns nonzero.
 						
 
 If the function fails, it returns zero. To get extended error information, call 
@@ -119,7 +118,7 @@ The <b>LookupPrivilegeName</b> function supports only the privileges specified i
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
 
 
 

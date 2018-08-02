@@ -7,7 +7,7 @@ old-location: dataxchg\getclipboardowner.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getclipboardowner.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/29/2018
 ms.keywords: GetClipboardOwner, GetClipboardOwner function [Data Exchange], _win32_GetClipboardOwner, _win32_getclipboardowner_cpp, dataxchg.getclipboardowner, winui._win32_getclipboardowner, winuser/GetClipboardOwner
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,12 +86,12 @@ If the clipboard is not owned, the return value is <b>NULL</b>. To get extended 
 
 The clipboard can still contain data even if the clipboard is not currently owned. 
 
-In general, the clipboard owner is the window that last placed data in clipboard. The <a href="https://msdn.microsoft.com/library/ms649037(v=VS.85).aspx">EmptyClipboard</a> function assigns clipboard ownership. 
+In general, the clipboard owner is the window that last placed data in clipboard. The <a href="https://msdn.microsoft.com/en-us/library/ms649037(v=VS.85).aspx">EmptyClipboard</a> function assigns clipboard ownership. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms649016(v=VS.85).aspx">Example of a Clipboard Viewer</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v=VS.85).aspx">Example of a Clipboard Viewer</a>.
 
 <div class="code"></div>
 
@@ -102,7 +102,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms649016(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
 
 
 
@@ -110,11 +110,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms649016(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649037(v=VS.85).aspx">EmptyClipboard</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649037(v=VS.85).aspx">EmptyClipboard</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649043(v=VS.85).aspx">GetClipboardViewer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649043(v=VS.85).aspx">GetClipboardViewer</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: wintouch\touch_coord_to_pixel.htm
 old-project: wintouch
 ms.assetid: 719b6800-aeda-424a-86ea-d8c307bd6ad2
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: TOUCH_COORD_TO_PIXEL, TOUCH_COORD_TO_PIXEL macro [Windows Touch], wintouch.touch_coord_to_pixel, winuser/TOUCH_COORD_TO_PIXEL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,8 +68,7 @@ The value to be converted from touch coordinates to pixels.
 
 
 
-
-  The <b>TOUCH_COORD_TO_PIXEL</b> macro is used to convert from touch coordinates (currently centipixels) to pixels. 
+The <b>TOUCH_COORD_TO_PIXEL</b> macro is used to convert from touch coordinates (currently centipixels) to pixels. 
   Touch coordinates are finer grained than pixels so that application developers can use subpixel granularity
   for specialized applications such as graphic design.
   

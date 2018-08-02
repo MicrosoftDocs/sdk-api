@@ -2,12 +2,12 @@
 UID: NS:webservices._WS_ENDPOINT_ADDRESS_DESCRIPTION
 title: "_WS_ENDPOINT_ADDRESS_DESCRIPTION"
 author: windows-sdk-content
-description: Information about a mapping between an WS_ENDPOINT_ADDRESS and an XML element.
+description: Information about a mapping between an WS_ENDPOINT_ADDRESSand an XML element.
 old-location: wsw\ws_endpoint_address_description.htm
 old-project: wsw
 ms.assetid: 2d79d917-5ebc-4be4-b7ce-685ce9fefc3a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ENDPOINT_ADDRESS_DESCRIPTION, WS_ENDPOINT_ADDRESS_DESCRIPTION structure [Web Services for Windows], _WS_ENDPOINT_ADDRESS_DESCRIPTION, webservices/WS_ENDPOINT_ADDRESS_DESCRIPTION, wsw.ws_endpoint_address_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Information about a mapping between an <a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-3cd6ae16275f">WS_ENDPOINT_ADDRESS</a>
-                and an XML element.
+Information about a mapping between an <a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-3cd6ae16275f">WS_ENDPOINT_ADDRESS</a>and an XML element.
             
 
 
@@ -64,7 +62,6 @@ req.product: Windows Address Book 5.0
 
 ### -field addressingVersion
 
-
-                    The WS-Addressing version to use when serializing the endpoint address.
+The WS-Addressing version to use when serializing the endpoint address.
                 
 

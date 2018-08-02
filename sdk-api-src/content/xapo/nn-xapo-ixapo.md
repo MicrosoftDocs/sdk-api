@@ -7,7 +7,7 @@ old-location: xaudio2\ixapo.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixapo.IXAPO
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IXAPO, IXAPO interface [XAudio2 Audio Mixing APIs], IXAPO interface [XAudio2 Audio Mixing APIs],described, xapo/IXAPO, xaudio2.ixapo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IXAPO</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418449(v=VS.85).aspx">CalcInputFrames</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418449(v=VS.85).aspx">CalcInputFrames</a>
 </td>
 <td align="left" width="63%">
 Returns the number of input frames required to generate the given number of output frames.
@@ -80,7 +80,7 @@ Returns the number of input frames required to generate the given number of outp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418450(v=VS.85).aspx">CalcOutputFrames</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418450(v=VS.85).aspx">CalcOutputFrames</a>
 </td>
 <td align="left" width="63%">
 Returns the number of output frames that will be generated from a given number of input frames.
@@ -107,7 +107,7 @@ Performs any effect-specific initialization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418453(v=VS.85).aspx">IsInputFormatSupported</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418453(v=VS.85).aspx">IsInputFormatSupported</a>
 </td>
 <td align="left" width="63%">
 Queries if a specific input format is supported for a given output format.
@@ -116,7 +116,7 @@ Queries if a specific input format is supported for a given output format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418454(v=VS.85).aspx">IsOutputFormatSupported</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418454(v=VS.85).aspx">IsOutputFormatSupported</a>
 </td>
 <td align="left" width="63%">
 Queries if a specific output format is supported for a given input format.
@@ -125,7 +125,7 @@ Queries if a specific output format is supported for a given input format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418455(v=VS.85).aspx">LockForProcess</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418455(v=VS.85).aspx">LockForProcess</a>
 </td>
 <td align="left" width="63%">
 Called by XAudio2 to lock the input and output configurations of an XAPO allowing it to do any final initialization before <a href="https://msdn.microsoft.com/library/windows/hardware/dn756307">Process</a> is called on the realtime thread.
@@ -152,10 +152,10 @@ Resets variables dependent on frame history.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418460(v=VS.85).aspx">UnlockForProcess</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418460(v=VS.85).aspx">UnlockForProcess</a>
 </td>
 <td align="left" width="63%">
-Deallocates variables that were allocated with the <a href="https://msdn.microsoft.com/library/Ee418455(v=VS.85).aspx">LockForProcess</a> method.
+Deallocates variables that were allocated with the <a href="https://msdn.microsoft.com/en-us/library/Ee418455(v=VS.85).aspx">LockForProcess</a> method.
 
 </td>
 </tr>

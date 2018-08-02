@@ -7,7 +7,7 @@ old-location: wes\evtsubscribe.htm
 old-project: WES
 ms.assetid: e7c4c5f9-2a5a-4004-8f19-13eb61c4346b
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtSubscribe, EvtSubscribe function [EventLog], wes.evtsubscribe, winevt/EvtSubscribe
 ms.prod: windows
 ms.technology: windows-sdk

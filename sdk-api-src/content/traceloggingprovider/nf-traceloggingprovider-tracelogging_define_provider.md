@@ -7,7 +7,7 @@ old-location: tracelogging\TRACELOGGING_DEFINE_PROVIDER.htm
 old-project: tracelogging
 ms.assetid: 4515652D-86B0-4274-8523-27292F5F6815
 ms.author: windowssdkdev
-ms.date: 04/27/2018
+ms.date: 07/29/2018
 ms.keywords: TRACELOGGING_DEFINE_PROVIDER, TRACELOGGING_DEFINE_PROVIDER macro, tracelogging.TRACELOGGING_DEFINE_PROVIDER, tracelogging.traceloggingprovider, traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER
 ms.prod: windows
 ms.technology: windows-sdk

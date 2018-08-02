@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2_settag.htm
 old-project: UIAnimation
 ms.assetid: 21BAFF23-8866-432F-BB9A-0328CE0E6021
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariable2 interface [Windows Animation],SetTag method, IUIAnimationVariable2.SetTag, IUIAnimationVariable2::SetTag, SetTag, SetTag method [Windows Animation], SetTag method [Windows Animation],IUIAnimationVariable2 interface, uianimation.iuianimationvariable2_settag, uianimation/IUIAnimationVariable2::SetTag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,8 +88,7 @@ Returns <b>S_OK</b> if successful; otherwise an <b>HRESULT</b> error code. See <
 
 
 
-
-         A tag is a pairing of an integer identifier (<i>id</i>) with a COM object (<i>object</i>), and it can be used by an application to identify an animation variable.          
+A tag is a pairing of an integer identifier (<i>id</i>) with a COM object (<i>object</i>), and it can be used by an application to identify an animation variable.          
          Because <b>NULL</b> is a valid object component of a tag, the <i>object</i> parameter can be <b>NULL</b>.
 
 
@@ -100,8 +99,7 @@ Returns <b>S_OK</b> if successful; otherwise an <b>HRESULT</b> error code. See <
 
 
 
-<a href="https://msdn.microsoft.com/ED367DB7-91D6-4D2E-BDAB-27FA4340F091">
-      IUIAnimationManager2::GetVariableFromTag</a>
+<a href="https://msdn.microsoft.com/ED367DB7-91D6-4D2E-BDAB-27FA4340F091">IUIAnimationManager2::GetVariableFromTag</a>
 
 
 

@@ -4,10 +4,10 @@ title: TAPI_CUSTOMTONE
 author: windows-sdk-content
 description: The TAPI_CUSTOMTONE structure contains the parameters that define a custom tone.
 old-location: tapi3\tapi_customtone_str.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 1d3c7b25-92a8-41f5-8186-f6425cc6be74
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPTAPI_CUSTOMTONE, TAPI_CUSTOMTONE, TAPI_CUSTOMTONE structure [TAPI 2.2], _tapi3_tapi_customtone_str, tapi3.tapi_customtone_str, tapi3if/TAPI_CUSTOMTONE"
 ms.prod: windows
 ms.technology: windows-sdk

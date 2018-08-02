@@ -7,7 +7,7 @@ old-location: mf\imfasfcontentinfo.htm
 old-project: medfound
 ms.assetid: 9f490e6a-f378-45c1-a69d-985c6e884358
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: 9f490e6a-f378-45c1-a69d-985c6e884358, IMFASFContentInfo, IMFASFContentInfo interface [Media Foundation], IMFASFContentInfo interface [Media Foundation],described, mf.imfasfcontentinfo, wmcontainer/IMFASFContentInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-          Provides methods to work with the header section of files conforming to the Advanced Systems Format (ASF) specification. 
+Provides methods to work with the header section of files conforming to the Advanced Systems Format (ASF) specification. 
 
 The <a href="https://msdn.microsoft.com/6b7f8b68-fe98-4aeb-9842-a80ac6235999">ASF ContentInfo Object</a> exposes this interface. To create the get a pointer to the <b>IMFASFContentInfo</b> interface, call <a href="https://msdn.microsoft.com/00460f79-7033-4893-88c0-b1c939441f70">MFCreateASFContentInfo</a>.
         

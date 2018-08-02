@@ -7,7 +7,7 @@ old-location: wmp\iwmpmedia2.htm
 old-project: WMP
 ms.assetid: e5d1e4f8-4a31-427e-ac2e-e7d4c3194a21
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPMedia2, IWMPMedia2 interface [Windows Media Player], IWMPMedia2 interface [Windows Media Player],described, IWMPMedia2Interface, wmp.iwmpmedia2, wmp/IWMPMedia2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_rollrelative.htm
 old-project: DirectShow
 ms.assetid: b0dbfd1c-493f-4f35-88ab-cd3868a56370
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ICameraControl interface [DirectShow],put_RollRelative method, ICameraControl.put_RollRelative, ICameraControl::put_RollRelative, ICameraControlput_RollRelative, dshow.icameracontrol_put_rollrelative, put_RollRelative, put_RollRelative method [DirectShow], put_RollRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_RollRelative
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,11 +66,9 @@ Specifies the relative roll. The size of the value represents the desired rotati
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

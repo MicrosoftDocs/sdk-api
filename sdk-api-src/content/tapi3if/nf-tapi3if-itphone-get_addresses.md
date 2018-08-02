@@ -4,10 +4,10 @@ title: ITPhone::get_Addresses
 author: windows-sdk-content
 description: The get_Addresses method returns a collection of addresses that the phone can be used on. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_get_addresses.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 823db8d1-e4e3-4cfb-a864-5ad57a44ebc6
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_Addresses method, ITPhone.get_Addresses, ITPhone::get_Addresses, _tapi3_itphone_get_addresses, get_Addresses, get_Addresses method [TAPI 2.2], get_Addresses method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_addresses, tapi3if/ITPhone::get_Addresses
 ms.prod: windows
 ms.technology: windows-sdk

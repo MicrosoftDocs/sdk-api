@@ -4,10 +4,10 @@ title: WaitOnAddress function
 author: windows-sdk-content
 description: Waits for the value at the specified address to change.
 old-location: base\waitonaddress.htm
-old-project: sync
+old-project: Sync
 ms.assetid: d40de436-f71e-47f6-a8c3-549c2699eb4c
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/29/2018
 ms.keywords: WaitOnAddress, WaitOnAddress function, base.waitonaddress, synchapi/WaitOnAddress
 ms.prod: windows
 ms.technology: windows-sdk

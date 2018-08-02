@@ -7,7 +7,7 @@ old-location: display\pathdata.htm
 old-project: display
 ms.assetid: ba86d245-1ec2-42aa-9502-256981109700
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: "*PPATHDATA, PATHDATA, PATHDATA structure [Display Devices], PPATHDATA, PPATHDATA structure pointer [Display Devices], _PATHDATA, display.pathdata, grstrcts_43da3a1c-2330-4cdf-81d6-aefa9d61eda3.xml, winddi/PATHDATA, winddi/PPATHDATA"
 ms.prod: windows
 ms.technology: windows-sdk

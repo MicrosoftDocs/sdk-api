@@ -7,7 +7,7 @@ old-location: input_touchhittest\touch_hit_testing_input.htm
 old-project: Input_TouchHitTest
 ms.assetid: d2103f6e-6aa9-4260-bef9-cfcbec35e675
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 07/29/2018
 ms.keywords: "*PTOUCH_HIT_TESTING_INPUT, PTOUCH_HIT_TESTING_INPUT, PTOUCH_HIT_TESTING_INPUT structure pointer, TOUCH_HIT_TESTING_INPUT, TOUCH_HIT_TESTING_INPUT structure, input_touchhittest.touch_hit_testing_input, tagTOUCH_HIT_TESTING_INPUT, touch_hittest.touch_hit_testing_input, winuser/PTOUCH_HIT_TESTING_INPUT, winuser/TOUCH_HIT_TESTING_INPUT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,7 +49,6 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 ## -description
-
 
 
 Contains information about the touch contact area reported by the touch digitizer.

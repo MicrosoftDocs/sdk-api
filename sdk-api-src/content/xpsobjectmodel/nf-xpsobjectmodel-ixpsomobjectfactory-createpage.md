@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createpage.htm
 old-project: printdocs
 ms.assetid: 9212ccd8-0793-40cc-bab5-609ea74715f7
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CreatePage, CreatePage method [XPS Documents and Packaging], CreatePage method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePage method, IXpsOMObjectFactory.CreatePage, IXpsOMObjectFactory::CreatePage, xps.ixpsomobjectfactory_createpage, xpsobjectmodel/IXpsOMObjectFactory::CreatePage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,8 +69,7 @@ Size is described in XPS units. There are 96 XPS units per inch.  For example, t
 
 ### -param language [in]
 
-
-            The string that indicates the default language of the created page.
+The string that indicates the default language of the created page.
 
 <div class="alert"><b>Important</b>  The language string must follow the RFC 3066 syntax.</div>
 <div> </div>
@@ -82,8 +81,7 @@ The <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IO
 
 ### -param page [out, retval]
 
-
-            A pointer to the new  <a href="https://msdn.microsoft.com/741deebd-9dce-4cd9-883e-4586c10a4609">IXpsOMPage</a> interface.
+A pointer to the new  <a href="https://msdn.microsoft.com/741deebd-9dce-4cd9-883e-4586c10a4609">IXpsOMPage</a> interface.
           
 
 

@@ -4,10 +4,10 @@ title: IDownloadJob
 author: windows-sdk-content
 description: Contains properties and methods that are available to a download operation.
 old-location: wua\idownloadjob.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 0157acab-53b6-43f9-a358-81cd5108c531
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IDownloadJob, IDownloadJob interface [Windows Update Agent], IDownloadJob interface [Windows Update Agent],described, wua.idownloadjob, wuapi/IDownloadJob
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Contains properties and methods that are available to a download operation.  Thi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDownloadJob</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IDownloadJob</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDownloadJob</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IDownloadJob</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

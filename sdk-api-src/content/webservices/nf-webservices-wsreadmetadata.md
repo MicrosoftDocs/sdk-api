@@ -7,7 +7,7 @@ old-location: wsw\wsreadmetadata.htm
 old-project: wsw
 ms.assetid: 0b824948-e06d-482d-8d53-c4e27d1ecf0f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsReadMetadata, WsReadMetadata function [Web Services for Windows], webservices/WsReadMetadata, wsw.wsreadmetadata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,10 +78,7 @@ A pointer to the <b>Metadata</b> object for storing the metadata read.  The poin
 
 ### -param reader [in]
 
-
-          
-                    
-                    A pointer to the <b>XML Reader</b> object used to read the metadata.  The pointer must reference a valid <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acbbc13cfcfd">WS_XML_READER</a> object and the reader must be positioned
+A pointer to the <b>XML Reader</b> object used to read the metadata.  The pointer must reference a valid <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acbbc13cfcfd">WS_XML_READER</a> object and the reader must be positioned
                     on the element containing the desired metadata.
                 
 
@@ -92,14 +89,12 @@ A pointer to
                     a <a href="https://msdn.microsoft.com/eb6c7397-6b15-4e79-89ec-585861113edf">WS_STRING</a> object referencing the retrieved metadata URL.  The URL is
                     used to track the metadata documents for resolving URL-based
                     links between documents.
-                <div class="alert"><b>Note</b>  
-                    The URL MUST be fully qualified.  The URL can have a fragment identifier.
+                <div class="alert"><b>Note</b>  The URL MUST be fully qualified.  The URL can have a fragment identifier.
                 </div>
 <div> </div>
 
 
-
-                    The following URL schemes are supported:
+The following URL schemes are supported:
                 
 
 <ul>
@@ -107,8 +102,7 @@ A pointer to
 <li><b>WS_URL_HTTPS_SCHEME_TYPE</b></li>
 <li><b>WS_URL_NETTCP_SCHEME_TYPE</b></li>
 </ul>
-
-                    Each URL specified using this function must have a 
+Each URL specified using this function must have a 
                     unique base URL.  The base URL is computed by
                     removing any fragment identifier from the URL specified.
                     For example if the following URLs were specified:
@@ -118,8 +112,7 @@ A pointer to
 http://example.com/document1#fragment
 http://example.com/document2
 </code></pre>
-
-                    The two base URLs would be:
+The two base URLs would be:
                 
 
 <pre class="syntax" xml:space="preserve"><code>
@@ -151,7 +144,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -163,7 +155,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>
@@ -175,7 +166,6 @@ The operation is not allowed due to the current state of the object.
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -187,7 +177,6 @@ A quota was exceeded.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -199,7 +188,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -211,8 +199,7 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
-                    The element was not consumed.
+The element was not consumed.
                 
 
 </td>
@@ -238,8 +225,7 @@ This function may return other errors not listed above.
 
 
 
-
-                This function recognizes the following types of metadata:
+This function recognizes the following types of metadata:
             
 
 <ul>

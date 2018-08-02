@@ -7,7 +7,7 @@ old-location: websock\websocketgetaction.htm
 old-project: WebSock
 ms.assetid: 566cff2d-15dd-45c6-bc41-550be1f45cfd
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: WebSocketGetAction, WebSocketGetAction function [Websocket Protocol Component API], websock.websocketgetaction, websocket/WebSocketGetAction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -176,9 +176,7 @@ If the <i>ulBytesTransferred</i> parameter of <a href="https://msdn.microsoft.co
 <li>
 <a href="https://msdn.microsoft.com/46d22fb5-adc3-4d1c-81b8-480f1c6de327">WEB_SOCKET_INDICATE_RECEIVE_COMPLETE_ACTION</a> once an operation queued by <a href="https://msdn.microsoft.com/6285c6fc-1f7a-45f3-ba28-94992e73693e">WebSocketReceive</a> is completed.</li>
 </ul>
-
-
-    There may be only one outstanding send and receive operation at a time, so the next action will be returned once the previous one has been completed using <a href="https://msdn.microsoft.com/e9b90176-c76f-42c2-b378-834a690bfe72">WebSocketCompleteAction</a>.
+There may be only one outstanding send and receive operation at a time, so the next action will be returned once the previous one has been completed using <a href="https://msdn.microsoft.com/e9b90176-c76f-42c2-b378-834a690bfe72">WebSocketCompleteAction</a>.
 
 
 

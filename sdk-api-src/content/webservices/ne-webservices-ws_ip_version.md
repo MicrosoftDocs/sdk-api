@@ -7,7 +7,7 @@ old-location: wsw\ws_ip_version.htm
 old-project: wsw
 ms.assetid: 40e6d76a-4ac5-4759-ae82-6bbb482adae2
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_IP_VERSION, WS_IP_VERSION enumeration [Web Services for Windows], WS_IP_VERSION_4, WS_IP_VERSION_6, webservices/WS_IP_VERSION, webservices/WS_IP_VERSION_4, webservices/WS_IP_VERSION_6, wsw.ws_ip_version
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies an IP version.
+Specifies an IP version.
             
 
 
@@ -63,15 +62,13 @@ req.product: Windows Address Book 5.0
 
 ### -field WS_IP_VERSION_4
 
-
-                    Use IPv4.
+Use IPv4.
                 
 
 
 ### -field WS_IP_VERSION_6
 
-
-                    Use IPv6.
+Use IPv6.
                 
 
 

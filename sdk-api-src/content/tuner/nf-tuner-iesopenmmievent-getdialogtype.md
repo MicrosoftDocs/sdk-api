@@ -7,7 +7,7 @@ old-location: mstv\iesopenmmievent_getdialogtype.htm
 old-project: mstv
 ms.assetid: 93f3cd5e-7d8e-42b9-a688-3df22855e7fb
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetDialogType, GetDialogType method [Microsoft TV Technologies], GetDialogType method [Microsoft TV Technologies],IESOpenMmiEvent interface, IESOpenMmiEvent interface [Microsoft TV Technologies],GetDialogType method, IESOpenMmiEvent.GetDialogType, IESOpenMmiEvent::GetDialogType, mstv.iesopenmmievent_getdialogtype, tuner/IESOpenMmiEvent::GetDialogType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      The <b>GetDialogType</b> method gets the GUID representing the experience type of the dialog that is being opened. 
+The <b>GetDialogType</b> method gets the GUID representing the experience type of the dialog that is being opened. 
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param guidDialogType [out, retval]
 
-
-            Gets the GUID identifying the experience type of the dialog. If the application does not recognize the experience type, it should set the event as complete  by returning an ERROR_ INVALID_TYPE result.
+Gets the GUID identifying the experience type of the dialog. If the application does not recognize the experience type, it should set the event as complete  by returning an ERROR_ INVALID_TYPE result.
           
 
 

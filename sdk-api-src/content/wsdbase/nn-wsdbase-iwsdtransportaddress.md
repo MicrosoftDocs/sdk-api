@@ -4,10 +4,10 @@ title: IWSDTransportAddress
 author: windows-sdk-content
 description: Represents an IP-based transport address.
 old-location: ncd\iwsdtransportaddress.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 84dfee11-8092-4018-8840-e766a94c60a4
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: IWSDTransportAddress, IWSDTransportAddress interface, IWSDTransportAddress interface,described, ncd.iwsdtransportaddress, wsdbase/IWSDTransportAddress
 ms.prod: windows
 ms.technology: windows-sdk

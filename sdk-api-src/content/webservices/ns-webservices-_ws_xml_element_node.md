@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_element_node.htm
 old-project: wsw
 ms.assetid: 32157ddf-ace2-49dc-85d7-b04e25e85693
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_ELEMENT_NODE, WS_XML_ELEMENT_NODE structure [Web Services for Windows], _WS_XML_ELEMENT_NODE, webservices/WS_XML_ELEMENT_NODE, wsw.ws_xml_element_node
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Represents a start element in xml (e.g. 
+Represents a start element in xml (e.g. 
         &lt;a:purchaseOrder xmlns:a="http://tempuri.org" id="5"&gt;)
       
 
@@ -64,49 +63,42 @@ req.product: Windows Address Book 5.0
 
 ### -field node
 
-
-          The base type for all types that derive from <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">WS_XML_NODE</a>.
+The base type for all types that derive from <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">WS_XML_NODE</a>.
         
 
 
 ### -field prefix
 
-
-          The prefix of the element.  In the example, it refers to "a".  Empty prefixes are represented by a zero length <a href="https://msdn.microsoft.com/3daa656f-7f97-4e29-a556-7ff72206f01c">WS_XML_STRING</a>.
+The prefix of the element.  In the example, it refers to "a".  Empty prefixes are represented by a zero length <a href="https://msdn.microsoft.com/3daa656f-7f97-4e29-a556-7ff72206f01c">WS_XML_STRING</a>.
         
 
 
 ### -field localName
 
-
-          The localName of the element.  In the example, it refers to "purchaseOrder".
+The localName of the element.  In the example, it refers to "purchaseOrder".
         
 
 
 ### -field ns
 
-
-          The resolved namespace of the prefix.  In the example, it refers to "http://tempuri.org".
+The resolved namespace of the prefix.  In the example, it refers to "http://tempuri.org".
         
 
 
 ### -field attributeCount
 
-
-          The number of attributes on the element.  In the example, it would be 2.
+The number of attributes on the element.  In the example, it would be 2.
         
 
 
 ### -field attributes
 
-
-          The array of attributes for the element.
+The array of attributes for the element.
         
 
 
 ### -field isEmpty
 
-
-          Whether the element is an empty element or not.  In the example, it would be <b>FALSE</b>.
+Whether the element is an empty element or not.  In the example, it would be <b>FALSE</b>.
         
 

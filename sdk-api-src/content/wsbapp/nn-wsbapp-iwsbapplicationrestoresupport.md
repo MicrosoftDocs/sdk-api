@@ -7,7 +7,7 @@ old-location: wsb\iwsbapplicationrestoresupport.htm
 old-project: wsb
 ms.assetid: 694f9b4d-0ca8-4dbe-829c-6ac18c9aa140
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IWsbApplicationRestoreSupport, IWsbApplicationRestoreSupport interface [Windows Server Backup], IWsbApplicationRestoreSupport interface [Windows Server Backup],described, wsb.iwsbapplicationrestoresupport, wsbapp/IWsbApplicationRestoreSupport
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: GetCommTimeouts function
 author: windows-sdk-content
 description: Retrieves the time-out parameters for all read and write operations on a specified communications device.
 old-location: base\getcommtimeouts.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: a5375b2e-0992-4e47-a20f-8a793addeef6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetCommTimeouts, GetCommTimeouts function, _win32_getcommtimeouts, base.getcommtimeouts, winbase/GetCommTimeouts
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Retrieves the time-out parameters for all read and write operations on a specifi
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="base.createfile">CreateFile</a> function returns this handle.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function returns this handle.
 
 
 ### -param lpCommTimeouts [out]
@@ -92,8 +92,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 For more information about time-out values for communications devices, see the 
-<a href="https://msdn.microsoft.com/71aa6ab3-d56c-43bc-9932-5b4e61fc4b30">SetCommTimeouts</a>
-		function.
+<a href="https://msdn.microsoft.com/71aa6ab3-d56c-43bc-9932-5b4e61fc4b30">SetCommTimeouts</a>function.
 
 
 
@@ -115,7 +114,7 @@ For more information about time-out values for communications devices, see the
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: smi\isettingsitem_getkeyvalue.htm
 old-project: SMI
 ms.assetid: a627d0aa-05ef-43b6-a8e8-bb0770dd8873
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetKeyValue, GetKeyValue method [SMI], GetKeyValue method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetKeyValue method, ISettingsItem.GetKeyValue, ISettingsItem::GetKeyValue, smi.isettingsitem_getkeyvalue, wcmconfig/ISettingsItem::GetKeyValue
 ms.prod: windows
 ms.technology: windows-sdk

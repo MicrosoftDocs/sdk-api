@@ -4,10 +4,10 @@ title: IVssWMFiledesc::GetAlternateLocation
 author: windows-sdk-content
 description: The GetAlternateLocation method obtains an alternate location for a file set.
 old-location: base\ivsswmfiledesc_getalternatelocation.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 3bb787eb-ac15-40d0-9901-b869442399c5
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetAlternateLocation, GetAlternateLocation method [VSS], GetAlternateLocation method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetAlternateLocation method, IVssWMFiledesc.GetAlternateLocation, IVssWMFiledesc::GetAlternateLocation, _win32_ivsswmfiledesc_getalternatelocation, base.ivsswmfiledesc_getalternatelocation, vswriter/IVssWMFiledesc::GetAlternateLocation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -140,8 +140,7 @@ The XML document is not valid. Check the event log for details. For more informa
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
@@ -160,7 +159,7 @@ The XML document is not valid. Check the event log for details. For more informa
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012.
 
-The caller must call <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory held by the <i>pbstrAlternateLocation</i> parameter.
+The caller must call <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory held by the <i>pbstrAlternateLocation</i> parameter.
 
 The interpretation of the alternate location returned by 
 <b>GetAlternateLocation</b> differs depending on the method used to retrieve the 

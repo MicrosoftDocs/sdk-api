@@ -4,10 +4,10 @@ title: "_WLAN_PROFILE_INFO"
 author: windows-sdk-content
 description: Basic information about a profile.
 old-location: nwifi\wlan_profile_info.htm
-old-project: nativewifi
+old-project: NativeWiFi
 ms.assetid: ca45278c-2e1e-4080-825a-d6a05e463858
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PWLAN_PROFILE_INFO, PWLAN_PROFILE_INFO, PWLAN_PROFILE_INFO structure pointer [NativeWIFI], WLAN_PROFILE_GROUP_POLICY, WLAN_PROFILE_INFO, WLAN_PROFILE_INFO structure [NativeWIFI], WLAN_PROFILE_USER, _WLAN_PROFILE_INFO, nwifi.wlan_profile_info, wlanapi/PWLAN_PROFILE_INFO, wlanapi/WLAN_PROFILE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

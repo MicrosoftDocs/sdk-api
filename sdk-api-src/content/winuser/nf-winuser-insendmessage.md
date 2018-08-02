@@ -7,7 +7,7 @@ old-location: winmsg\insendmessage.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\insendmessage.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: InSendMessage, InSendMessage function [Windows and Messages], _win32_InSendMessage, _win32_insendmessage_cpp, winmsg.insendmessage, winui._win32_insendmessage, winuser/InSendMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Determines whether the current window procedure is processing a message that was sent from another thread (in the same process or a different process) by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function.
 
-To obtain additional information about how the message was sent, use the <a href="https://msdn.microsoft.com/library/ms644942(v=VS.85).aspx">InSendMessageEx</a> function.
+To obtain additional information about how the message was sent, use the <a href="https://msdn.microsoft.com/en-us/library/ms644942(v=VS.85).aspx">InSendMessageEx</a> function.
 
 
 ## -parameters
@@ -95,11 +95,11 @@ If the window procedure is not processing a message sent to it from another thre
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644942(v=VS.85).aspx">InSendMessageEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644942(v=VS.85).aspx">InSendMessageEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
 
 
 

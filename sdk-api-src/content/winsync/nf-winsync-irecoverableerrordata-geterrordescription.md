@@ -7,7 +7,7 @@ old-location: winsync\irecoverableerrordata_geterrordescription.htm
 old-project: winsync
 ms.assetid: 9bd268aa-683d-4a77-966c-7cba0348d034
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetErrorDescription, GetErrorDescription method [Windows Sync], GetErrorDescription method [Windows Sync],IRecoverableErrorData interface, IRecoverableErrorData interface [Windows Sync],GetErrorDescription method, IRecoverableErrorData.GetErrorDescription, IRecoverableErrorData::GetErrorDescription, winsync.irecoverableerrordata_geterrordescription, winsync/IRecoverableErrorData::GetErrorDescription
 ms.prod: windows
 ms.technology: windows-sdk

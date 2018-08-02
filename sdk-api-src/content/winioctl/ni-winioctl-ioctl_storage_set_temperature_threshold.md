@@ -4,10 +4,10 @@ title: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
 author: windows-sdk-content
 description: Windows applications can use this control code to set the temperature threshold of a device (when it's supported by the device).
 old-location: fs\ioctl_storage_set_temperature_threshold.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 6B4BF202-6CC9-4571-9078-019984805F00
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD control, IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD control code [Files], fs.ioctl_storage_set_temperature_threshold, winioctl/IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087
 <pre>BOOL 
    WINAPI 
    DeviceIoControl( (HANDLE)       hDevice,         // handle to device
-                    (DWORD)        IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, // dwIoControlCode
-                    (LPDWORD)      lpInBuffer,      // input buffer
+                    (DWORD)        IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, // dwIoControlCode(LPDWORD)      lpInBuffer,      // input buffer
                     (DWORD)        nInBufferSize,   // size of input buffer
                     (LPDWORD)      lpOutBuffer,     // output buffer
                     (DWORD)        nOutBufferSize,  // size of output buffer

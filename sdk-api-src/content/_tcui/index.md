@@ -2,7 +2,7 @@
 UID: TP:tcui
 ms.assetid: 34909415-541e-336f-9e6f-e6238becda31
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\ipersisttunexmlutility_deserialize.htm
 old-project: mstv
 ms.assetid: a42a001b-210c-4e89-823e-ec1e1fa58f67
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: Deserialize, Deserialize method [Microsoft TV Technologies], Deserialize method [Microsoft TV Technologies],IPersistTuneXmlUtility interface, IPersistTuneXmlUtility interface [Microsoft TV Technologies],Deserialize method, IPersistTuneXmlUtility.Deserialize, IPersistTuneXmlUtility::Deserialize, mstv.ipersisttunexmlutility_deserialize, tuner/IPersistTuneXmlUtility::Deserialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Constructs and returns an object that initializes itself by using the XML node passed as a <b>VARIANT</b> parameter to the method. The returned object exposes its <b>IUnknown</b> interface so that other objects can query it.
+Constructs and returns an object that initializes itself by using the XML node passed as a <b>VARIANT</b> parameter to the method. The returned object exposes its <b>IUnknown</b> interface so that other objects can query it.
 
 
 ## -parameters
@@ -62,15 +61,13 @@ req.product: Windows XP with SP1 and later
 
 ### -param varValue [in]
 
-
-            XML node used to construct and initialize the object. This parameter can be either a <b>BSTR</b> object or an <b>IXMLDOMNode</b> object.
+XML node used to construct and initialize the object. This parameter can be either a <b>BSTR</b> object or an <b>IXMLDOMNode</b> object.
           
 
 
 ### -param ppObject [out, retval]
 
-
-            Pointer to the <b>IUnknown</b> interface of the object being deserialized.
+Pointer to the <b>IUnknown</b> interface of the object being deserialized.
           This method allocates memory to hold the deserialized object and returns the pointer in this parameter. The caller is responsible for freeing this memory.
 
 

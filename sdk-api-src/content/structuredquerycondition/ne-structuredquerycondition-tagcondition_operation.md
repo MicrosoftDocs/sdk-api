@@ -7,7 +7,7 @@ old-location: search\_search_CONDITION_OPERATION.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\condition_operation.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: CONDITION_OPERATION, CONDITION_OPERATION enumeration [search], COP_APPLICATION_SPECIFIC, COP_DOSWILDCARDS, COP_EQUAL, COP_GREATERTHAN, COP_GREATERTHANOREQUAL, COP_IMPLICIT, COP_LESSTHAN, COP_LESSTHANOREQUAL, COP_NOTEQUAL, COP_VALUE_CONTAINS, COP_VALUE_ENDSWITH, COP_VALUE_NOTCONTAINS, COP_VALUE_STARTSWITH, COP_WORD_EQUAL, COP_WORD_STARTSWITH, _search_CONDITION_OPERATION, search._search_CONDITION_OPERATION, structuredquerycondition/CONDITION_OPERATION, structuredquerycondition/COP_APPLICATION_SPECIFIC, structuredquerycondition/COP_DOSWILDCARDS, structuredquerycondition/COP_EQUAL, structuredquerycondition/COP_GREATERTHAN, structuredquerycondition/COP_GREATERTHANOREQUAL, structuredquerycondition/COP_IMPLICIT, structuredquerycondition/COP_LESSTHAN, structuredquerycondition/COP_LESSTHANOREQUAL, structuredquerycondition/COP_NOTEQUAL, structuredquerycondition/COP_VALUE_CONTAINS, structuredquerycondition/COP_VALUE_ENDSWITH, structuredquerycondition/COP_VALUE_NOTCONTAINS, structuredquerycondition/COP_VALUE_STARTSWITH, structuredquerycondition/COP_WORD_EQUAL, structuredquerycondition/COP_WORD_STARTSWITH, tagCONDITION_OPERATION
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,14 +52,14 @@ req.product: Windows XP with SP1 and later
 
 
 Provides a set of flags to be used with following methods to indicate the operation in 
-    <a href="https://msdn.microsoft.com/library/Bb231389(v=VS.85).aspx">ICondition::GetComparisonInfo</a>, 
-    <a href="https://msdn.microsoft.com/library/Dd742807(v=VS.85).aspx">ICondition2::GetLeafConditionInfo</a>, 
-    <a href="https://msdn.microsoft.com/library/Bb231385(v=VS.85).aspx">IConditionFactory::MakeLeaf</a>, 
-    <a href="https://msdn.microsoft.com/library/Dd742794(v=VS.85).aspx">IConditionFactory2::CreateBooleanLeaf</a>, 
-    <a href="https://msdn.microsoft.com/library/Dd742795(v=VS.85).aspx">IConditionFactory2::CreateIntegerLeaf</a>, 
-    <a href="https://msdn.microsoft.com/library/Dd742802(v=VS.85).aspx">IConditionFactory2::MakeLeaf</a>, 
-    <a href="https://msdn.microsoft.com/library/Dd742797(v=VS.85).aspx">IConditionFactory2::CreateStringLeaf</a>, and 
-    <a href="https://msdn.microsoft.com/library/Bb231379(v=VS.85).aspx">IConditionGenerator::GenerateForLeaf</a>.        
+    <a href="https://msdn.microsoft.com/en-us/library/Bb231389(v=VS.85).aspx">ICondition::GetComparisonInfo</a>, 
+    <a href="https://msdn.microsoft.com/en-us/library/Dd742807(v=VS.85).aspx">ICondition2::GetLeafConditionInfo</a>, 
+    <a href="https://msdn.microsoft.com/en-us/library/Bb231385(v=VS.85).aspx">IConditionFactory::MakeLeaf</a>, 
+    <a href="https://msdn.microsoft.com/en-us/library/Dd742794(v=VS.85).aspx">IConditionFactory2::CreateBooleanLeaf</a>, 
+    <a href="https://msdn.microsoft.com/en-us/library/Dd742795(v=VS.85).aspx">IConditionFactory2::CreateIntegerLeaf</a>, 
+    <a href="https://msdn.microsoft.com/en-us/library/Dd742802(v=VS.85).aspx">IConditionFactory2::MakeLeaf</a>, 
+    <a href="https://msdn.microsoft.com/en-us/library/Dd742797(v=VS.85).aspx">IConditionFactory2::CreateStringLeaf</a>, and 
+    <a href="https://msdn.microsoft.com/en-us/library/Bb231379(v=VS.85).aspx">IConditionGenerator::GenerateForLeaf</a>.        
          
 
 
@@ -70,7 +70,7 @@ Provides a set of flags to be used with following methods to indicate the operat
 
 ### -field COP_IMPLICIT
 
-An implicit comparison between the value of the property and the value of the constant. For an unresolved condition, <a href="https://msdn.microsoft.com/library/Aa965691(v=VS.85).aspx">COP_IMPLICIT</a> means that a user did not type an operation. In contrast, a resolved condition will always have a condition other than the <b>COP_IMPLICIT</b> operation.
+An implicit comparison between the value of the property and the value of the constant. For an unresolved condition, <a href="https://msdn.microsoft.com/en-us/library/Aa965691(v=VS.85).aspx">COP_IMPLICIT</a> means that a user did not type an operation. In contrast, a resolved condition will always have a condition other than the <b>COP_IMPLICIT</b> operation.
 
 
 ### -field COP_EQUAL
@@ -147,7 +147,7 @@ The application is free to interpret this in any suitable way.
 
 
 
-Because a resolved condition never has a <b>COP_IMPLICIT</b> operation, applications that evaluate condition trees should not encounter it. However, <b>COP_IMPLICIT</b> could be used in comparing the output of either <a href="https://msdn.microsoft.com/library/Bb231389(v=VS.85).aspx">ICondition::GetComparisonInfo</a> or <a href="https://msdn.microsoft.com/library/Dd742807(v=VS.85).aspx">ICondition2::GetLeafConditionInfo</a> for a parsed unresolved condition to the output for a resolved condition.
+Because a resolved condition never has a <b>COP_IMPLICIT</b> operation, applications that evaluate condition trees should not encounter it. However, <b>COP_IMPLICIT</b> could be used in comparing the output of either <a href="https://msdn.microsoft.com/en-us/library/Bb231389(v=VS.85).aspx">ICondition::GetComparisonInfo</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd742807(v=VS.85).aspx">ICondition2::GetLeafConditionInfo</a> for a parsed unresolved condition to the output for a resolved condition.
 
 In Windows 7, this enumeration is defined in structuredquerycondition.idl and structuredquerycondition.h. Prior to Windows 7 this enumeration was declared in structuredquery.h and structuredquery.idl.
 
@@ -159,31 +159,31 @@ In Windows 7, this enumeration is defined in structuredquerycondition.idl and s
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd797838(v=VS.85).aspx">CONDITION_CREATION_OPTIONS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd797838(v=VS.85).aspx">CONDITION_CREATION_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965692(v=VS.85).aspx">CONDITION_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965692(v=VS.85).aspx">CONDITION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd742811(v=VS.85).aspx">ICondition2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742811(v=VS.85).aspx">ICondition2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231383(v=VS.85).aspx">IConditionFactory</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231383(v=VS.85).aspx">IConditionFactory</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd742799(v=VS.85).aspx">IConditionFactory2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742799(v=VS.85).aspx">IConditionFactory2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231380(v=VS.85).aspx">IConditionGenerator</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231380(v=VS.85).aspx">IConditionGenerator</a>
 
 
 

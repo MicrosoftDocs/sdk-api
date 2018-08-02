@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimerupdatehandler_onupdate.htm
 old-project: UIAnimation
 ms.assetid: 06daa961-5f92-451f-958a-cf68f8ae2b0a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationTimerUpdateHandler interface [Windows Animation],OnUpdate method, IUIAnimationTimerUpdateHandler.OnUpdate, IUIAnimationTimerUpdateHandler::OnUpdate, OnUpdate, OnUpdate method [Windows Animation], OnUpdate method [Windows Animation],IUIAnimationTimerUpdateHandler interface, uianimation.iuianimationtimerupdatehandler_onupdate, uianimation/IUIAnimationTimerUpdateHandler::OnUpdate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Handles update events from the timer.
+Handles update events from the timer.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param timeNow [in]
 
-
-            The current timer time, in seconds.
+The current timer time, in seconds.
 
 
 ### -param result [out]
@@ -94,14 +92,11 @@ This method is used by the <a href="https://msdn.microsoft.com/89e8f1be-fc4e-45e
 
 
 
-<a href="https://msdn.microsoft.com/3a09537a-6cf7-4824-90c6-265dafa07a1b">
-      
-      IUIAnimationTimerEventHandler::OnPostUpdate</a>
+<a href="https://msdn.microsoft.com/3a09537a-6cf7-4824-90c6-265dafa07a1b">IUIAnimationTimerEventHandler::OnPostUpdate</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f3dcac0-c800-48e5-82d6-b6bc3fb0409b">
-      IUIAnimationTimerEventHandler::OnPreUpdate</a>
+<a href="https://msdn.microsoft.com/4f3dcac0-c800-48e5-82d6-b6bc3fb0409b">IUIAnimationTimerEventHandler::OnPreUpdate</a>
 
 
 

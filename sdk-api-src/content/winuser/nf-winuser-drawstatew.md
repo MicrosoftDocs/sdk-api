@@ -7,7 +7,7 @@ old-location: gdi\drawstate.htm
 old-project: gdi
 ms.assetid: b92150be-8264-4ea8-a2ea-d70b7fba6361
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: DSS_DISABLED, DSS_HIDEPREFIX, DSS_MONO, DSS_NORMAL, DSS_PREFIXONLY, DSS_RIGHT, DSS_UNION, DST_BITMAP, DST_COMPLEX, DST_ICON, DST_PREFIXTEXT, DST_TEXT, DrawState, DrawState function [Windows GDI], DrawStateA, DrawStateW, _win32_DrawState, gdi.drawstate, winuser/DrawState, winuser/DrawStateA, winuser/DrawStateW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -198,8 +198,7 @@ Embosses the image.
 </dl>
 </td>
 <td width="60%">
-
-                 Ignores the ampersand (&amp;) prefix character in the text, thus the letter that follows will not be underlined. This must be used with DST_PREFIXTEXT.
+Ignores the ampersand (&amp;) prefix character in the text, thus the letter that follows will not be underlined. This must be used with DST_PREFIXTEXT.
 
 </td>
 </tr>
@@ -229,8 +228,7 @@ Draws the image without any modification.
 </dl>
 </td>
 <td width="60%">
-
-                 Draws only the underline at the position of the letter after the ampersand (&amp;) prefix character. No text in the string is drawn. This must be used with DST_PREFIXTEXT.
+Draws only the underline at the position of the letter after the ampersand (&amp;) prefix character. No text in the string is drawn. This must be used with DST_PREFIXTEXT.
 
 </td>
 </tr>

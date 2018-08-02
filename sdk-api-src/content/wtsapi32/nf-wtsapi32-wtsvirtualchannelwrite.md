@@ -4,10 +4,10 @@ title: WTSVirtualChannelWrite function
 author: windows-sdk-content
 description: Writes data to the server end of a virtual channel.
 old-location: termserv\wtsvirtualchannelwrite.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: cb999de8-74a1-4491-bffb-dc4d74a1fea3
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: WTSVirtualChannelWrite, WTSVirtualChannelWrite function [Remote Desktop Services], _win32_wtsvirtualchannelwrite, termserv.wtsvirtualchannelwrite, wtsapi32/WTSVirtualChannelWrite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,8 +87,7 @@ Pointer to a variable that receives the number of bytes written.
 
 If the function succeeds, the return value is a nonzero value.
 
-
-       If the function fails, the return value is zero. To get extended error information, call 
+If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
       
 

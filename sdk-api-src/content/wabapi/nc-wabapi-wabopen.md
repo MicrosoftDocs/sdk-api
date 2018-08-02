@@ -7,7 +7,7 @@ old-location: wab\_wab_WABOpen.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\functions\wabopen.htm
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: WABOpen, WABOpen callback, WABOpen callback function [Windows Address Book], _wab_WABOpen, wab._wab_WABOpen, wabapi/WABOpen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5.5
 ## -description
 
 
-Do not use. Provides access to the address book through a number of object interfaces. The root interface is <a href="https://msdn.microsoft.com/library/ms629649(v=VS.85).aspx">IAddrBook</a>, which is a subset of the MAPI implementation of <a href="https://msdn.microsoft.com/library/ms629649(v=VS.85).aspx">IAddrBook</a>.
+Do not use. Provides access to the address book through a number of object interfaces. The root interface is <a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a>, which is a subset of the MAPI implementation of <a href="2681e3cf-a251-4c9d-9474-fc320fedede8">IAddrBook</a>.
 
 
 ## -parameters
@@ -63,14 +63,14 @@ Do not use. Provides access to the address book through a number of object inter
 
 Type: <b>LPADRBOOK*</b>
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/library/ms629649(v=VS.85).aspx">IAddrBook</a> interface returned by the function.
+Address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a> interface returned by the function.
 
 
 ### -param lppWABObject
 
 Type: <b>LPWABOBJECT*</b>
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/library/ms629467(v=VS.85).aspx">IWABObject</a> interface returned by the function.
+Address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms629467(v=VS.85).aspx">IWABObject</a> interface returned by the function.
 
 
 ### -param lpWP
@@ -87,7 +87,7 @@ Reserved. Must be set to 0.
 
 Type: <b>LPWAB_PARAM</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms629458(v=VS.85).aspx">WAB_PARAM</a> structure. Supported by Internet Explorer 4.0 or later.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms629458(v=VS.85).aspx">WAB_PARAM</a> structure. Supported by Internet Explorer 4.0 or later.
 
 
 ## -returns
@@ -106,7 +106,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/ms629718(v=VS.85).aspx">WABOpenEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629718(v=VS.85).aspx">WABOpenEx</a>
  
 
  

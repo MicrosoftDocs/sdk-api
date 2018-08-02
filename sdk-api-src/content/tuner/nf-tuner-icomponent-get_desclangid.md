@@ -7,7 +7,7 @@ old-location: mstv\icomponent_get_desclangid.htm
 old-project: mstv
 ms.assetid: 1c041173-0c78-486e-93b5-a46c9dc0afb1
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],get_DescLangID method, IComponent.get_DescLangID, IComponent::get_DescLangID, IComponentget_DescLangID, get_DescLangID, get_DescLangID method [Microsoft TV Technologies], get_DescLangID method [Microsoft TV Technologies],IComponent interface, mstv.icomponent_get_desclangid, tuner/IComponent::get_DescLangID
 ms.prod: windows
 ms.technology: windows-sdk

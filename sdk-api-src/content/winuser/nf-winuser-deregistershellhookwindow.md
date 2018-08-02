@@ -7,7 +7,7 @@ old-location: winmsg\deregistershellhookwindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\deregistershellhookwindow.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: DeregisterShellHookWindow, DeregisterShellHookWindow function [Windows and Messages], _win32_DeregisterShellHookWindow, _win32_deregistershellhookwindow_cpp, winmsg.deregistershellhookwindow, winui._win32_deregistershellhookwindow, winuser/DeregisterShellHookWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ TBD
 Type: <b>HWND</b>
 
 A handle to the window to be unregistered. The window was registered with a call to the
-		<a href="https://msdn.microsoft.com/library/ms644989(v=VS.85).aspx">RegisterShellHookWindow</a> function.
+		<a href="https://msdn.microsoft.com/en-us/library/ms644989(v=VS.85).aspx">RegisterShellHookWindow</a> function.
 
 
 ## -returns
@@ -118,7 +118,7 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644989(v=VS.85).aspx">RegisterShellHookWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644989(v=VS.85).aspx">RegisterShellHookWindow</a>
 
 
 

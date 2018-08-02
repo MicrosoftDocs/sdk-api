@@ -7,7 +7,7 @@ old-location: xps\ixpsompagereference_setpage.htm
 old-project: printdocs
 ms.assetid: 7d1381ad-6ac8-4ea4-99a2-8bc5d95773c7
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetPage method, IXpsOMPageReference.SetPage, IXpsOMPageReference::SetPage, SetPage, SetPage method [XPS Documents and Packaging], SetPage method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setpage, xpsobjectmodel/IXpsOMPageReference::SetPage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Sets the <a href="https://msdn.microsoft.com/741deebd-9dce-4cd9-883e-4586c10a460
 
 ### -param page [in]
 
-
-            The <a href="https://msdn.microsoft.com/741deebd-9dce-4cd9-883e-4586c10a4609">IXpsOMPage</a> interface pointer of the page.
+The <a href="https://msdn.microsoft.com/741deebd-9dce-4cd9-883e-4586c10a4609">IXpsOMPage</a> interface pointer of the page.
 
 
 ## -returns

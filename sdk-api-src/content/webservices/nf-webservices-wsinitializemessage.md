@@ -7,7 +7,7 @@ old-location: wsw\wsinitializemessage.htm
 old-project: wsw
 ms.assetid: 26eafc5f-6636-4f96-a037-7935cdac5900
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsInitializeMessage, WsInitializeMessage function [Web Services for Windows], webservices/WsInitializeMessage, wsw.wsinitializemessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                This function initializes the headers for the message in preparation for
+This function initializes the headers for the message in preparation for
                 processing.
             After a message has been initialized an application can
                 add additional headers.
@@ -75,8 +74,7 @@ A pointer to the Message object to initialize.  The Message must be a valid <a h
 
 ### -param initialization [in]
 
-
-                    Defines the Message initialization. 
+Defines the Message initialization. 
                 
 
 <div class="alert"><b>Note</b>  If the  <i>initialization</i> value is set to <b>WS_REPLY_MESSAGE</b> or
@@ -86,8 +84,7 @@ A pointer to the Message object to initialize.  The Message must be a valid <a h
 
 ### -param sourceMessage [in, optional]
 
-
-                    A pointer to a message object that is used to initialize the <i>message</i> parameter.
+A pointer to a message object that is used to initialize the <i>message</i> parameter.
                     This value should be NULL unless the initialization parameter
                     has the value of <b>WS_DUPLICATE_MESSAGE</b>,
                     <b>WS_REPLY_MESSAGE</b>, or <b>WS_FAULT_MESSAGE</b>.
@@ -118,7 +115,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -130,7 +126,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -156,13 +151,11 @@ This function may return other errors not listed above.
 
 
 
-
-                The initial sender of a message should add an action header
+The initial sender of a message should add an action header
                 to the message using <a href="https://msdn.microsoft.com/34671c47-d21e-47c4-9fb0-10b036fb4f70">WsSetHeader</a>.
             
 
-
-                This API must be called before <a href="https://msdn.microsoft.com/213fe780-82f2-4140-92f2-2665317a5cb6">WsWriteEnvelopeStart</a> or
+This API must be called before <a href="https://msdn.microsoft.com/213fe780-82f2-4140-92f2-2665317a5cb6">WsWriteEnvelopeStart</a> or
                 <a href="https://msdn.microsoft.com/43cc43a5-7853-4170-911d-e514ac722da5">WsWriteMessageStart</a> is called for the message.
             
 

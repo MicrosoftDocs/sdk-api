@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayerservices2.htm
 old-project: WMP
 ms.assetid: abbce425-9185-4235-8d8e-28be591be8e5
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPPlayerServices2, IWMPPlayerServices2 interface [Windows Media Player], IWMPPlayerServices2 interface [Windows Media Player],described, IWMPPlayerServices2Interface, wmp.iwmpplayerservices2, wmp/IWMPPlayerServices2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,6 @@ Specifies a priority level for general background processing tasks.
 </td>
 </tr>
 </table> 
-
 
 Retrieve a pointer to an <b>IWMPPlayerServices2</b> interface by calling the COM <b>CoCreateInstance</b> method.
 	

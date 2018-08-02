@@ -4,10 +4,10 @@ title: ITAddressCapabilities::get_CompletionMessages
 author: windows-sdk-content
 description: The get_CompletionMessages gets completion messages. This method is provided for Automation client applications, such as those written in Visual Basic and scripting languages.
 old-location: tapi3\itaddresscapabilities_get_completionmessages.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 0b2d9065-e519-4e76-b6a0-b62e19ecaf70
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITAddressCapabilities interface [TAPI 2.2],get_CompletionMessages method, ITAddressCapabilities.get_CompletionMessages, ITAddressCapabilities::get_CompletionMessages, _tapi3_itaddresscapabilities_get_completionmessages, get_CompletionMessages, get_CompletionMessages method [TAPI 2.2], get_CompletionMessages method [TAPI 2.2],ITAddressCapabilities interface, tapi3.itaddresscapabilities_get_completionmessages, tapi3if/ITAddressCapabilities::get_CompletionMessages
 ms.prod: windows
 ms.technology: windows-sdk

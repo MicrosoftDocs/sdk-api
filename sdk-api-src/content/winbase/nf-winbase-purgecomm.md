@@ -4,10 +4,10 @@ title: PurgeComm function
 author: windows-sdk-content
 description: Discards all characters from the output or input buffer of a specified communications resource. It can also terminate pending read or write operations on the resource.
 old-location: base\purgecomm.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: bfbd6530-447e-46e2-89e6-683b3c8c32ea
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: PURGE_RXABORT, PURGE_RXCLEAR, PURGE_TXABORT, PURGE_TXCLEAR, PurgeComm, PurgeComm function, _win32_purgecomm, base.purgecomm, winbase/PurgeComm
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Discards all characters from the output or input buffer of a specified communica
 ### -param hFile [in]
 
 A handle to the communications resource. The 
-<a href="base.createfile">CreateFile</a> function returns this handle.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function returns this handle.
 
 
 ### -param dwFlags [in]
@@ -162,7 +162,7 @@ If a thread uses
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
  
 
  

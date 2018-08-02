@@ -7,7 +7,7 @@ old-location: wsw\wsfreelistener.htm
 old-project: wsw
 ms.assetid: 3a8a4cd3-d98e-467b-bbed-5cbd66f892ed
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsFreeListener, WsFreeListener function [Web Services for Windows], webservices/WsFreeListener, wsw.wsfreelistener
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ Releases the memory resource associated with a Listener object.
 
 ### -param listener [in]
 
-
-                    A pointer to the <b>Listener</b> object to release.  The pointer must reference a valid <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_LISTENER</a> returned
+A pointer to the <b>Listener</b> object to release.  The pointer must reference a valid <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_LISTENER</a> returned
                     by <a href="https://msdn.microsoft.com/2e592fd2-cf88-4f87-a71b-1c3416917fa7">WsCreateListener</a>.  The referenced value may not be <b>NULL</b>.
                 
 

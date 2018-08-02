@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IScrollItemProvider.htm
 old-project: WinAuto
 ms.assetid: d8a8384e-d57b-4614-a643-b5ba3a63224d
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IScrollItemProvider, IScrollItemProvider interface [Windows Accessibility], IScrollItemProvider interface [Windows Accessibility],described, uiauto.uiauto_IScrollItemProvider, uiauto_IScrollItemProvider, uiautomationcore/IScrollItemProvider, winauto.uiauto_IScrollItemProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        Provides access 
+Provides access 
         to individual child controls of containers that implement <a href="https://msdn.microsoft.com/55e1b899-aa9f-45eb-9cfa-d645ea659988">IScrollProvider</a>.
         
 
@@ -77,8 +76,7 @@ The <b>IScrollItemProvider</b> interface has these methods.
 <a href="https://msdn.microsoft.com/2d1ce9f2-b3ba-40c5-a750-bd739b1abc07">ScrollIntoView</a>
 </td>
 <td align="left" width="63%">
-
-        Scrolls the content area of a container object in order to display the control within the visible region (viewport) of the container.
+Scrolls the content area of a container object in order to display the control within the visible region (viewport) of the container.
         
 
 </td>

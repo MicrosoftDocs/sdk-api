@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncCallback_ReportEvent.htm
 old-project: shell
 ms.assetid: 4c7d6627-1652-4920-9dce-a61673e6e656
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],ReportEvent method, ISyncMgrSyncCallback.ReportEvent, ISyncMgrSyncCallback::ReportEvent, ReportEvent, ReportEvent method [Windows Shell], ReportEvent method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_ReportEvent, shell.ISyncMgrSyncCallback_ReportEvent, syncmgr/ISyncMgrSyncCallback::ReportEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -148,8 +148,7 @@ The event is stored only in memory, so all events are cleared when the user logs
 
 
 
-
-        	The following example shows the usage of <a href="https://msdn.microsoft.com/fd7ed6f4-49c6-44c7-86f9-0b2c04d19de8">ISyncMgrSyncCallback::ReportProgress</a> by the <a href="https://msdn.microsoft.com/6742f6a8-eda8-4ef0-8a11-dc70baefcc83">Synchronize</a> method.
+The following example shows the usage of <a href="https://msdn.microsoft.com/fd7ed6f4-49c6-44c7-86f9-0b2c04d19de8">ISyncMgrSyncCallback::ReportProgress</a> by the <a href="https://msdn.microsoft.com/6742f6a8-eda8-4ef0-8a11-dc70baefcc83">Synchronize</a> method.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

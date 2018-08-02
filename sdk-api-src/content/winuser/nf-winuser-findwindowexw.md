@@ -7,7 +7,7 @@ old-location: winmsg\findwindowex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\findwindowex.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: FindWindowEx, FindWindowEx function [Windows and Messages], FindWindowExA, FindWindowExW, _win32_FindWindowEx, _win32_findwindowex_cpp, winmsg.findwindowex, winui._win32_findwindowex, winuser/FindWindowEx, winuser/FindWindowExA, winuser/FindWindowExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,9 +84,9 @@ TBD
 
 Type: <b>LPCTSTR</b>
 
-The class name or a class atom created by a previous call to the <a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a> or <a href="https://msdn.microsoft.com/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function. The atom must be placed in the low-order word of <i>lpszClass</i>; the high-order word must be zero.
+The class name or a class atom created by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a> or <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function. The atom must be placed in the low-order word of <i>lpszClass</i>; the high-order word must be zero.
 
- If <i>lpszClass</i> is a string, it specifies the window class name. The class name can be any name registered with <a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a> or <a href="https://msdn.microsoft.com/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>, or any of the predefined control-class names, or it can be <code>MAKEINTATOM(0x8000)</code>. In this latter case, 0x8000 is the atom for a menu class. For more information, see the Remarks section of this topic.
+ If <i>lpszClass</i> is a string, it specifies the window class name. The class name can be any name registered with <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a> or <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>, or any of the predefined control-class names, or it can be <code>MAKEINTATOM(0x8000)</code>. In this latter case, 0x8000 is the atom for a menu class. For more information, see the Remarks section of this topic.
 
 
 ### -param lpszWindow [in, optional]
@@ -115,7 +115,7 @@ A handle to the parent window whose child windows are to be searched.
 
 If <i>hwndParent</i> is <b>NULL</b>, the function uses the desktop window as the parent window. The function searches among windows that are child windows of the desktop. 
 
-If <i>hwndParent</i> is <b>HWND_MESSAGE</b>, the function searches all <a href="https://msdn.microsoft.com/library/ms632599(v=VS.85).aspx">message-only windows</a>. 
+If <i>hwndParent</i> is <b>HWND_MESSAGE</b>, the function searches all <a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">message-only windows</a>. 
 
 
 ## -returns
@@ -136,7 +136,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-If the <i>lpszWindow</i> parameter is not <b>NULL</b>, <b>FindWindowEx</b> calls the <a href="https://msdn.microsoft.com/library/ms633520(v=VS.85).aspx">GetWindowText</a> function to retrieve the window name for comparison. For a description of a potential problem that can arise, see the Remarks section of <b>GetWindowText</b>.
+If the <i>lpszWindow</i> parameter is not <b>NULL</b>, <b>FindWindowEx</b> calls the <a href="https://msdn.microsoft.com/en-us/library/ms633520(v=VS.85).aspx">GetWindowText</a> function to retrieve the window name for comparison. For a description of a potential problem that can arise, see the Remarks section of <b>GetWindowText</b>.
 
 An application can call this function in the following way.
 
@@ -156,19 +156,19 @@ Note that 0x8000 is the atom for a menu class. When an application calls this fu
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633497(v=VS.85).aspx">EnumWindows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633497(v=VS.85).aspx">EnumWindows</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633499(v=VS.85).aspx">FindWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633499(v=VS.85).aspx">FindWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633582(v=VS.85).aspx">GetClassName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633582(v=VS.85).aspx">GetClassName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633520(v=VS.85).aspx">GetWindowText</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633520(v=VS.85).aspx">GetWindowText</a>
 
 
 
@@ -176,11 +176,11 @@ Note that 0x8000 is the atom for a menu class. When an application calls this fu
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>
 
 
 

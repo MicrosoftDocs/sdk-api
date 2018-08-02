@@ -4,10 +4,10 @@ title: ICEnroll4::createFileRequest
 author: windows-sdk-content
 description: Creates a PKCS #10 certificate request, a PKCS #7 request, or a full Certificate Management over CMS (CMC) request and stores it in a file.
 old-location: security\icenroll4_createfilerequest.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 8902eb8e-c597-42a6-8836-6a24181da4d4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CEnroll object [Security],createFileRequest method, ICEnroll4 interface [Security],createFileRequest method, ICEnroll4.createFileRequest, ICEnroll4::createFileRequest, XECR_CMC, XECR_PKCS10_V1_5, XECR_PKCS10_V2_0, XECR_PKCS7, _xen_icenroll4_createfilerequest, createFileRequest, createFileRequest method [Security], createFileRequest method [Security],CEnroll object, createFileRequest method [Security],ICEnroll4 interface, security.icenroll4_createfilerequest, xenroll/ICEnroll4::createFileRequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -136,8 +136,7 @@ The name of the file that will receive the request.
 
 
 <h3>VB</h3>
-
-						 If the method succeeds, the method returns <b>S_OK</b>.
+If the method succeeds, the method returns <b>S_OK</b>.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
 <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.

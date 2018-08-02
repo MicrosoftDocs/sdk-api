@@ -7,7 +7,7 @@ old-location: xps\ixpssignatureblockcollection_getat.htm
 old-project: printdocs
 ms.assetid: 4d3f89be-f9f3-46db-802f-ffb4867786c2
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsSignatureBlockCollection interface, IXpsSignatureBlockCollection interface [XPS Documents and Packaging],GetAt method, IXpsSignatureBlockCollection.GetAt, IXpsSignatureBlockCollection::GetAt, xps.ixpssignatureblockcollection_getat, xpsdigitalsignature/IXpsSignatureBlockCollection::GetAt
 ms.prod: windows
 ms.technology: windows-sdk

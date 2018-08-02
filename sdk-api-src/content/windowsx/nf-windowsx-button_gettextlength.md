@@ -4,10 +4,10 @@ title: Button_GetTextLength macro
 author: windows-sdk-content
 description: Gets the number of characters in the text of a button.
 old-location: controls\Button_GetTextLength.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_gettextlength.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: Button_GetTextLength, Button_GetTextLength macro [Windows Controls], _win32_Button_GetTextLength, _win32_Button_GetTextLength_cpp, controls.Button_GetTextLength, controls._win32_Button_GetTextLength, windowsx/Button_GetTextLength
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ A handle to the button control.
 
 
 
-The macro expands to a call to <a href="https://msdn.microsoft.com/library/ms633521(v=VS.85).aspx">GetWindowTextLength</a>.
+The macro expands to a call to <a href="https://msdn.microsoft.com/en-us/library/ms633521(v=VS.85).aspx">GetWindowTextLength</a>.
 	
 
 

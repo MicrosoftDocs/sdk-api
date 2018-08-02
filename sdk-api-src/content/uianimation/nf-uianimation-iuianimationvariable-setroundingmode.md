@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable_setroundingmode.htm
 old-project: UIAnimation
 ms.assetid: e8c86195-14a1-4535-9fc2-4992c8090e79
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetRoundingMode method, IUIAnimationVariable.SetRoundingMode, IUIAnimationVariable::SetRoundingMode, SetRoundingMode, SetRoundingMode method [Windows Animation], SetRoundingMode method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setroundingmode, uianimation/IUIAnimationVariable::SetRoundingMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Specifies the rounding mode for the animation variable.
+Specifies the rounding mode for the animation variable.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param mode [in]
 
-
-            The rounding mode for the animation variable.
+The rounding mode for the animation variable.
 
 
 ## -returns
@@ -79,8 +77,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 
-
-      An animation variable's rounding mode determines how a floating-point value is converted to an integer.
+An animation variable's rounding mode determines how a floating-point value is converted to an integer.
       The default mode for each variable is <b>UI_ANIMATION_ROUNDING_NEAREST</b>.
 
 
@@ -105,18 +102,15 @@ For an example, see <a href="https://msdn.microsoft.com/360aa157-cb50-400a-b373-
 
 
 
-<a href="https://msdn.microsoft.com/044fd6a3-6e40-4f4f-8777-1a1a66c91989">
-      IUIAnimationVariable::GetIntegerValue</a>
+<a href="https://msdn.microsoft.com/044fd6a3-6e40-4f4f-8777-1a1a66c91989">IUIAnimationVariable::GetIntegerValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/ccf4c575-aa98-40cd-b2de-cf8db95ec57d">
-      IUIAnimationVariable::GetPreviousIntegerValue</a>
+<a href="https://msdn.microsoft.com/ccf4c575-aa98-40cd-b2de-cf8db95ec57d">IUIAnimationVariable::GetPreviousIntegerValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/0221207b-4583-44b8-85aa-dc6cd4cd9d25">
-      UI_ANIMATION_ROUNDING_MODE</a>
+<a href="https://msdn.microsoft.com/0221207b-4583-44b8-85aa-dc6cd4cd9d25">UI_ANIMATION_ROUNDING_MODE</a>
  
 
  

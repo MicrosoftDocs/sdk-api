@@ -4,10 +4,10 @@ title: ImpersonateSecurityContext function
 author: windows-sdk-content
 description: Allows a server to impersonate a client by using a token previously obtained by a call to AcceptSecurityContext (General) or QuerySecurityContextToken.
 old-location: security\impersonatesecuritycontext.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 167eaf3b-b794-4587-946d-fa596f1f9411
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: ImpersonateSecurityContext, ImpersonateSecurityContext function [Security], _ssp_impersonatesecuritycontext, security.impersonatesecuritycontext, sspi/ImpersonateSecurityContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # ImpersonateSecurityContext function
@@ -51,8 +50,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-			The <b>ImpersonateSecurityContext</b> function allows a server to impersonate a client by using a token previously obtained by a call to <a href="https://msdn.microsoft.com/eaa15fed-4438-4e43-9be3-aa100ca453c7">AcceptSecurityContext (General)</a> or <a href="https://msdn.microsoft.com/5dc23608-9ce3-4fee-8161-2e409cef4063">QuerySecurityContextToken</a>. This function allows the application server to act as the client, and thus all necessary access controls are enforced.
+The <b>ImpersonateSecurityContext</b> function allows a server to impersonate a client by using a token previously obtained by a call to <a href="https://msdn.microsoft.com/eaa15fed-4438-4e43-9be3-aa100ca453c7">AcceptSecurityContext (General)</a> or <a href="https://msdn.microsoft.com/5dc23608-9ce3-4fee-8161-2e409cef4063">QuerySecurityContextToken</a>. This function allows the application server to act as the client, and thus all necessary access controls are enforced.
 
 
 ## -parameters
@@ -70,8 +68,7 @@ The handle of the context to impersonate. This handle must have been obtained by
 
 
 
-
-						If the function succeeds, the function returns SEC_E_OK.
+If the function succeeds, the function returns SEC_E_OK.
 
 If the function fails, it returns the following error code.
 
@@ -170,7 +167,7 @@ All impersonate functions, including <b>ImpersonateSecurityContext</b> allow the
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wsw\wsresetserviceproxy.htm
 old-project: wsw
 ms.assetid: 6a99c958-92f9-4487-8768-3265dab7f0ea
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsResetServiceProxy, WsResetServiceProxy function [Web Services for Windows], webservices/WsResetServiceProxy, wsw.wsresetserviceproxy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,14 +53,12 @@ req.product: Windows Address Book 5.0
 
 Resets service proxy.
 
-
-                WsResetServiceProxy provides a convenient way to reuse the service proxy. 
+WsResetServiceProxy provides a convenient way to reuse the service proxy. 
                 Once the proxy is <a href="https://msdn.microsoft.com/82156e64-ae95-4a4a-aaad-e3dd69832c97">closed</a>,
                 the application can call WsResetServiceProxy to reuse it.
             
 
-
-                Reusing the service proxy is helpful in scenarios where an application connects 
+Reusing the service proxy is helpful in scenarios where an application connects 
                 to the same service time and time again. The cost of initialization is only paid 
                 once during the initial creation of the service proxy.
             
@@ -78,8 +76,7 @@ The service proxy.
 
 ### -param error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -112,7 +109,6 @@ The serviceProxy was in an inappropriate state.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>

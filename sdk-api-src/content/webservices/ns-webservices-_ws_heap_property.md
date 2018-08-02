@@ -7,7 +7,7 @@ old-location: wsw\ws_heap_property.htm
 old-project: wsw
 ms.assetid: e55122e4-fc18-4e1a-b34e-c661b555a062
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_HEAP_PROPERTY, WS_HEAP_PROPERTY structure [Web Services for Windows], _WS_HEAP_PROPERTY, webservices/WS_HEAP_PROPERTY, wsw.ws_heap_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies a heap specific setting.
+Specifies a heap specific setting.
             
 
 
@@ -63,15 +62,13 @@ req.product: Windows Address Book 5.0
 
 ### -field id
 
-
-                Identifies the <a href="https://msdn.microsoft.com/c047a3b9-27a1-464c-b9f9-0b0c6cf8eb97">WS_HEAP_PROPERTY_ID</a>.
+Identifies the <a href="https://msdn.microsoft.com/c047a3b9-27a1-464c-b9f9-0b0c6cf8eb97">WS_HEAP_PROPERTY_ID</a>.
             
 
 
 ### -field value
 
-
-                A pointer to the value to set.
+A pointer to the value to set.
                 The pointer must have an alignment compatible with the type
                 of the property.
             
@@ -79,7 +76,6 @@ req.product: Windows Address Book 5.0
 
 ### -field valueSize
 
-
-                The size in bytes of the memory pointed to by value.
+The size in bytes of the memory pointed to by value.
             
 

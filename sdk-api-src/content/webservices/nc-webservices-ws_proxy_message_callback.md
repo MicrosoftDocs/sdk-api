@@ -7,7 +7,7 @@ old-location: wsw\ws_proxy_message_callback.htm
 old-project: wsw
 ms.assetid: 5590ef4f-38a5-4aeb-9e77-803abb7ef6a7
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_PROXY_MESSAGE_CALLBACK, WS_PROXY_MESSAGE_CALLBACK callback, WS_PROXY_MESSAGE_CALLBACK callback function [Web Services for Windows], webservices/WS_PROXY_MESSAGE_CALLBACK, wsw.ws_proxy_message_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,30 +63,26 @@ Invoked when the headers of the input message are
 
 ### -param *message [in]
 
-
-                    The input or output message.
+The input or output message.
                 
 
 
 ### -param *heap [in]
 
-
-                    The heap associated with the call. This is the heap which is passed to call for which this 
+The heap associated with the call. This is the heap which is passed to call for which this 
                     callback is being called.
                 
 
 
 ### -param *state [in]
 
-
-                    The 'state' as specified as part of <a href="https://msdn.microsoft.com/1dfde962-7475-430a-b586-1684a173908f">WS_PROXY_MESSAGE_CALLBACK_CONTEXT</a> 'state' field.
+The 'state' as specified as part of <a href="https://msdn.microsoft.com/1dfde962-7475-430a-b586-1684a173908f">WS_PROXY_MESSAGE_CALLBACK_CONTEXT</a> 'state' field.
                 
 
 
 ### -param *error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -103,8 +99,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 
 
-
-                See also, <a href="https://msdn.microsoft.com/1dfde962-7475-430a-b586-1684a173908f">WS_PROXY_MESSAGE_CALLBACK_CONTEXT</a>.
+See also, <a href="https://msdn.microsoft.com/1dfde962-7475-430a-b586-1684a173908f">WS_PROXY_MESSAGE_CALLBACK_CONTEXT</a>.
             
 
 

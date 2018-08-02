@@ -7,7 +7,7 @@ old-location: dshow\dvd_titleattributes.htm
 old-project: DirectShow
 ms.assetid: e80baf09-93b7-4285-ac9a-af72cae137de
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: DVD_TitleAttributes, DVD_TitleAttributes structure [DirectShow], DVD_TitleAttributesStructure, dshow.dvd_titleattributes, strmif/DVD_TitleAttributes, tagDVD_TitleMainAttributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1
 ## -description
 
 
-
-          The <b>DVD_TitleAttributes</b> structure contains information about a DVD title.
+The <b>DVD_TitleAttributes</b> structure contains information about a DVD title.
 
 
 ## -struct-fields
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1
 
 ### -field AppMode
 
-
-            A variable of type <a href="https://msdn.microsoft.com/f0a12b00-89a5-4b70-9a78-519ae36d1bac">DVD_TITLE_APPMODE</a> indicating whether the Navigator is in karaoke mode.
+A variable of type <a href="https://msdn.microsoft.com/f0a12b00-89a5-4b70-9a78-519ae36d1bac">DVD_TITLE_APPMODE</a> indicating whether the Navigator is in karaoke mode.
           
 
 
@@ -74,8 +72,7 @@ A <a href="https://msdn.microsoft.com/8f2990f6-a8f5-4b16-ae30-d51ea55496ea">DVD_
 
 ### -field VideoAttributes
 
-
-            A <a href="https://msdn.microsoft.com/b395a322-d63e-41a0-b97a-88f99aeba0e5">DVD_VideoAttributes</a> structure containing information about the "main" video of the current menu or title.
+A <a href="https://msdn.microsoft.com/b395a322-d63e-41a0-b97a-88f99aeba0e5">DVD_VideoAttributes</a> structure containing information about the "main" video of the current menu or title.
           
 
 
@@ -87,29 +84,25 @@ The number of audio streams available in the title.
 
 ### -field AudioAttributes
 
-
-            An array of <a href="https://msdn.microsoft.com/a4365c05-718e-4d48-bb2c-a13a609df82f">DVD_AudioAttributes</a> structures containing information about each available audio stream in the current title.
+An array of <a href="https://msdn.microsoft.com/a4365c05-718e-4d48-bb2c-a13a609df82f">DVD_AudioAttributes</a> structures containing information about each available audio stream in the current title.
           
 
 
 ### -field MultichannelAudioAttributes
 
-
-            An array of <a href="https://msdn.microsoft.com/8aba7e5a-62ec-4ef5-821f-cfef8cf7d93d">DVD_MultichannelAudioAttributes</a> structures containing additional information about any available audio stream that is in a multichannel format. This structure will be filled in for the corresponding audio stream if the multichannel bit is set in that stream's <a href="https://msdn.microsoft.com/a4365c05-718e-4d48-bb2c-a13a609df82f">DVD_AudioAttributes</a> structure.
+An array of <a href="https://msdn.microsoft.com/8aba7e5a-62ec-4ef5-821f-cfef8cf7d93d">DVD_MultichannelAudioAttributes</a> structures containing additional information about any available audio stream that is in a multichannel format. This structure will be filled in for the corresponding audio stream if the multichannel bit is set in that stream's <a href="https://msdn.microsoft.com/a4365c05-718e-4d48-bb2c-a13a609df82f">DVD_AudioAttributes</a> structure.
           
 
 
 ### -field ulNumberOfSubpictureStreams
 
-
-            The number of subpicture streams available in the title.
+The number of subpicture streams available in the title.
           
 
 
 ### -field SubpictureAttributes
 
-
-            An array of <a href="https://msdn.microsoft.com/55ddfa21-5600-4aa9-b554-7ff7f3c05b91">DVD_SubpictureAttributes</a> structures that contain information about each available subpicture stream in the title.
+An array of <a href="https://msdn.microsoft.com/55ddfa21-5600-4aa9-b554-7ff7f3c05b91">DVD_SubpictureAttributes</a> structures that contain information about each available subpicture stream in the title.
           
 
 
@@ -119,8 +112,7 @@ The number of audio streams available in the title.
 
 By default, the <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator</a> uses the <b>AppMode</b> member of the anonymous union to report  the title mode.
 
-If the application sets the <b>DVD_EnableTitleLength</b> option to <b>TRUE</b>, the <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator</a> uses the <b>TitleLength</b> member of the union to report the title length. To set this option, call the <a href="https://msdn.microsoft.com/b3b28da8-b0cb-4d76-8184-93572e4b6d06">IDvdControl2::SetOption</a>
-     method.
+If the application sets the <b>DVD_EnableTitleLength</b> option to <b>TRUE</b>, the <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator</a> uses the <b>TitleLength</b> member of the union to report the title length. To set this option, call the <a href="https://msdn.microsoft.com/b3b28da8-b0cb-4d76-8184-93572e4b6d06">IDvdControl2::SetOption</a>method.
 
 
 

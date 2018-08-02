@@ -7,7 +7,7 @@ old-location: wsw\wsgetlistenerproperty.htm
 old-project: wsw
 ms.assetid: cc4fb48a-8282-471a-aed0-1ca3134f9bd0
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetListenerProperty, WsGetListenerProperty function [Web Services for Windows], webservices/WsGetListenerProperty, wsw.wsgetlistenerproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Retrieves a specified Listener object  property.  The property to retrieve is id
 
 ### -param listener [in]
 
-
-                    A pointer to the Listener object containing the desired property.  This must be a valid <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_LISTENER</a> that was returned
+A pointer to the Listener object containing the desired property.  This must be a valid <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_LISTENER</a> that was returned
                     from <a href="https://msdn.microsoft.com/2e592fd2-cf88-4f87-a71b-1c3416917fa7">WsCreateListener</a>.  
 
 

@@ -7,7 +7,7 @@ old-location: menurc\lstrcmp.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcmp.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: "_win32_lstrcmp, _win32_lstrcmp_cpp, lstrcmp, lstrcmp function [Menus and Other Resources], lstrcmpA, lstrcmpW, menurc.lstrcmp, winbase/lstrcmp, winbase/lstrcmpA, winbase/lstrcmpW, winui._win32_lstrcmp"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ req.product: Windows Address Book 5.0
 
 Compares two character strings. The comparison is case-sensitive.
 
-To perform a comparison that is not case-sensitive, use the <a href="https://msdn.microsoft.com/library/ms647489(v=VS.85).aspx">lstrcmpi</a> function.
+To perform a comparison that is not case-sensitive, use the <a href="https://msdn.microsoft.com/en-us/library/ms647489(v=VS.85).aspx">lstrcmpi</a> function.
 
 
 ## -parameters
@@ -128,11 +128,11 @@ choice of comparison functions.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd317759(v=VS.85).aspx">CompareString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd317759(v=VS.85).aspx">CompareString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd317761(v=VS.85).aspx">CompareStringEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd317761(v=VS.85).aspx">CompareStringEx</a>
 
 
 
@@ -156,19 +156,19 @@ choice of comparison functions.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647487(v=VS.85).aspx">lstrcat</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647487(v=VS.85).aspx">lstrcat</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647489(v=VS.85).aspx">lstrcmpi</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647489(v=VS.85).aspx">lstrcmpi</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647490(v=VS.85).aspx">lstrcpy</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647490(v=VS.85).aspx">lstrcpy</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647492(v=VS.85).aspx">lstrlen</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647492(v=VS.85).aspx">lstrlen</a>
  
 
  

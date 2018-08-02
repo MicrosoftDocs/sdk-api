@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiribbon_savesettingstostream.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiribbon\savesettingstostream.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: IUIRibbon interface [Windows Ribbon],SaveSettingsToStream method, IUIRibbon.SaveSettingsToStream, IUIRibbon::SaveSettingsToStream, SaveSettingsToStream, SaveSettingsToStream method [Windows Ribbon], SaveSettingsToStream method [Windows Ribbon],IUIRibbon interface, scenicintent_IUIRibbon_SaveSettingsToStream, uiribbon/IUIRibbon::SaveSettingsToStream, windowsribbon.windowsribbon_iuiribbon_savesettingstostream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ Writes ribbon settings to a binary stream.
 
 Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
 
-
-					Pointer to an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> object. 
+Pointer to an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> object. 
 				
 
 
@@ -84,12 +83,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-				The stream is handed off to the host application for storage as appropriate.
+The stream is handed off to the host application for storage as appropriate.
 			
 
-
-				The <b>SaveSettingsToStream</b> method is useful for persisting ribbon state, such as Quick Access Toolbar (QAT) items, across application instances.
+The <b>SaveSettingsToStream</b> method is useful for persisting ribbon state, such as Quick Access Toolbar (QAT) items, across application instances.
 			
 
 
@@ -100,19 +97,19 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371360(v=VS.85).aspx">IUIRibbon</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371360(v=VS.85).aspx">IUIRibbon</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371361(v=VS.85).aspx">IUIRibbon::LoadSettingsFromStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371361(v=VS.85).aspx">IUIRibbon::LoadSettingsFromStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee264330(v=VS.85).aspx">Persisting Ribbon State</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee264330(v=VS.85).aspx">Persisting Ribbon State</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wsw\ws_value_type.htm
 old-project: wsw
 ms.assetid: 6075ed1c-ceb5-421a-8a76-3a64b9e6dbe3
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_BOOL_VALUE_TYPE, WS_DATETIME_VALUE_TYPE, WS_DECIMAL_VALUE_TYPE, WS_DOUBLE_VALUE_TYPE, WS_DURATION_VALUE_TYPE, WS_FLOAT_VALUE_TYPE, WS_GUID_VALUE_TYPE, WS_INT16_VALUE_TYPE, WS_INT32_VALUE_TYPE, WS_INT64_VALUE_TYPE, WS_INT8_VALUE_TYPE, WS_TIMESPAN_VALUE_TYPE, WS_UINT16_VALUE_TYPE, WS_UINT32_VALUE_TYPE, WS_UINT64_VALUE_TYPE, WS_UINT8_VALUE_TYPE, WS_VALUE_TYPE, WS_VALUE_TYPE enumeration [Web Services for Windows], webservices/WS_BOOL_VALUE_TYPE, webservices/WS_DATETIME_VALUE_TYPE, webservices/WS_DECIMAL_VALUE_TYPE, webservices/WS_DOUBLE_VALUE_TYPE, webservices/WS_DURATION_VALUE_TYPE, webservices/WS_FLOAT_VALUE_TYPE, webservices/WS_GUID_VALUE_TYPE, webservices/WS_INT16_VALUE_TYPE, webservices/WS_INT32_VALUE_TYPE, webservices/WS_INT64_VALUE_TYPE, webservices/WS_INT8_VALUE_TYPE, webservices/WS_TIMESPAN_VALUE_TYPE, webservices/WS_UINT16_VALUE_TYPE, webservices/WS_UINT32_VALUE_TYPE, webservices/WS_UINT64_VALUE_TYPE, webservices/WS_UINT8_VALUE_TYPE, webservices/WS_VALUE_TYPE, wsw.ws_value_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,112 +62,96 @@ The types of fixed-size primitives.
 
 ### -field WS_BOOL_VALUE_TYPE
 
-
-          Used to indicate a BOOL value.
+Used to indicate a BOOL value.
         
 
 
 ### -field WS_INT8_VALUE_TYPE
 
-
-          Used to indicate a signed 8-bit integer.
+Used to indicate a signed 8-bit integer.
         
 
 
 ### -field WS_INT16_VALUE_TYPE
 
-
-          Used to indicate a signed 16-bit integer.
+Used to indicate a signed 16-bit integer.
         
 
 
 ### -field WS_INT32_VALUE_TYPE
 
-
-          Used to indicate a signed 32-bit integer.
+Used to indicate a signed 32-bit integer.
         
 
 
 ### -field WS_INT64_VALUE_TYPE
 
-
-          Used to indicate a signed 64-bit integer.
+Used to indicate a signed 64-bit integer.
         
 
 
 ### -field WS_UINT8_VALUE_TYPE
 
-
-          Used to indicate an unsigned 8-bit integer.
+Used to indicate an unsigned 8-bit integer.
         
 
 
 ### -field WS_UINT16_VALUE_TYPE
 
-
-          Used to indicate an unsigned 16-bit integer.
+Used to indicate an unsigned 16-bit integer.
         
 
 
 ### -field WS_UINT32_VALUE_TYPE
 
-
-          Used to indicate an unsigned 32-bit integer.
+Used to indicate an unsigned 32-bit integer.
         
 
 
 ### -field WS_UINT64_VALUE_TYPE
 
-
-          Used to indicate an unsigned 64-bit integer.
+Used to indicate an unsigned 64-bit integer.
         
 
 
 ### -field WS_FLOAT_VALUE_TYPE
 
-
-          Used to indicate a 32-bit floating point value.
+Used to indicate a 32-bit floating point value.
         
 
 
 ### -field WS_DOUBLE_VALUE_TYPE
 
-
-          Used to indicate a 64-bit floating point value.
+Used to indicate a 64-bit floating point value.
         
 
 
 ### -field WS_DECIMAL_VALUE_TYPE
 
-
-          Used to indicate a 96-bit fixed point value.
+Used to indicate a 96-bit fixed point value.
         
 
 
 ### -field WS_DATETIME_VALUE_TYPE
 
-
-          Used to indicate a date and time.
+Used to indicate a date and time.
         
 
 
 ### -field WS_TIMESPAN_VALUE_TYPE
 
-
-          Used to indicate a signed 64-bit time period in 100 nanosecond units.
+Used to indicate a signed 64-bit time period in 100 nanosecond units.
         
 
 
 ### -field WS_GUID_VALUE_TYPE
 
-
-          Used to indicate a GUID.
+Used to indicate a GUID.
         
 
 
 ### -field WS_DURATION_VALUE_TYPE
 
-
-          Used to indicate a <a href="https://msdn.microsoft.com/ccb08c23-8c6f-4ea7-a43b-c30a0df75805">WS_DURATION</a>.
+Used to indicate a <a href="https://msdn.microsoft.com/ccb08c23-8c6f-4ea7-a43b-c30a0df75805">WS_DURATION</a>.
         
 

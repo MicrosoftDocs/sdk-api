@@ -7,7 +7,7 @@ old-location: dshow\videoprocampflags.htm
 old-project: DirectShow
 ms.assetid: 42876f3b-d2b9-4ddb-85c0-80f5177eef6b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: VideoProcAmpFlags, VideoProcAmpFlags enumeration [DirectShow], VideoProcAmpFlagsEnumeration, VideoProcAmp_Flags_Auto, VideoProcAmp_Flags_Manual, dshow.videoprocampflags, strmif/VideoProcAmpFlags, strmif/VideoProcAmp_Flags_Auto, strmif/VideoProcAmp_Flags_Manual, tagVideoProcAmpFlags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # tagVideoProcAmpFlags enumeration
@@ -64,15 +63,13 @@ The <b>VideoProcAmpFlags</b> enumeration indicates whether a particular video pr
 
 ### -field VideoProcAmp_Flags_Auto
 
-
-            The setting is controlled automatically.
+The setting is controlled automatically.
           
 
 
 ### -field VideoProcAmp_Flags_Manual
 
-
-            The setting is controlled manually.
+The setting is controlled manually.
           
 
 

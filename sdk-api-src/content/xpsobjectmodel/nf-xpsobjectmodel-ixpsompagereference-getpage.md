@@ -7,7 +7,7 @@ old-location: xps\ixpsompagereference_getpage.htm
 old-project: printdocs
 ms.assetid: 0004217f-f379-4175-bbce-eea93d96f37f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetPage, GetPage method [XPS Documents and Packaging], GetPage method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],GetPage method, IXpsOMPageReference.GetPage, IXpsOMPageReference::GetPage, xps.ixpsompagereference_getpage, xpsobjectmodel/IXpsOMPageReference::GetPage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Gets a pointer to the <a href="https://msdn.microsoft.com/741deebd-9dce-4cd9-883
 
 ### -param page [out, retval]
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/741deebd-9dce-4cd9-883e-4586c10a4609">IXpsOMPage</a> interface of the page. If a page has not been set, a <b>NULL</b> pointer is returned.
+A pointer to the <a href="https://msdn.microsoft.com/741deebd-9dce-4cd9-883e-4586c10a4609">IXpsOMPage</a> interface of the page. If a page has not been set, a <b>NULL</b> pointer is returned.
 
 
 ## -returns

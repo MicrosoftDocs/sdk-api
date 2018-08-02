@@ -7,7 +7,7 @@ old-location: display\drvenabledata.htm
 old-project: display
 ms.assetid: dbeaecf8-dea1-4412-babb-6e40bf5dc7b0
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: "*PDRVENABLEDATA, DRVENABLEDATA, DRVENABLEDATA structure [Display Devices], PDRVENABLEDATA, PDRVENABLEDATA structure pointer [Display Devices], display.drvenabledata, grstrcts_d39f1feb-36e3-4fc6-b580-5b428dbeebd0.xml, tagDRVENABLEDATA, winddi/DRVENABLEDATA, winddi/PDRVENABLEDATA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -200,8 +200,7 @@ DDI_DRIVER_VERSION_NT4 &lt;= <b>iDriverVersion</b> &lt;= DDI_DRIVER_VERSION_NT5_
 
 As the table shows, a driver can run on any of these operating system versions if <b>iDriverVersion</b> is set to DDI_DRIVER_VERSION_NT4, but a driver can run only on Windows XP and later versions of the operating system if <b>iDriverVersion</b> is set to DDI_DRIVER_VERSION_NT5_01.
 
-<div class="alert"><b>Note</b>  
-     If a driver implements a <i>DrvXxx</i> graphics DDI that is not supported in all versions of Windows, the driver cannot specify a DRVFN entry for that graphics DDI when running on versions of Windows that do not support it. If the driver does specify a DRVFN entry for such a graphics DDI, Windows will reject the driver. The <i>permedia2</i> sample demonstrates how to specify different DRVFN structures for different versions of Windows.</div>
+<div class="alert"><b>Note</b>  If a driver implements a <i>DrvXxx</i> graphics DDI that is not supported in all versions of Windows, the driver cannot specify a DRVFN entry for that graphics DDI when running on versions of Windows that do not support it. If the driver does specify a DRVFN entry for such a graphics DDI, Windows will reject the driver. The <i>permedia2</i> sample demonstrates how to specify different DRVFN structures for different versions of Windows.</div>
 <div> </div>
 
 

@@ -7,7 +7,7 @@ old-location: wmp\iwmplibrarysharingservices.htm
 old-project: WMP
 ms.assetid: 24cac18c-a3aa-4cd0-b5f7-025db2eed0b8
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPLibrarySharingServices, IWMPLibrarySharingServices interface [Windows Media Player], IWMPLibrarySharingServices interface [Windows Media Player],described, IWMPLibrarySharingServicesInterface, wmp.iwmplibrarysharingservices, wmp/IWMPLibrarySharingServices
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,7 +102,6 @@ Displays the Windows Media Player <b>Library Sharing</b> dialog box.
 </td>
 </tr>
 </table> 
-
 
 Retrieve a pointer to an <b>IWMPLibrarySharingServices</b> interface by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer</a> interface.
 	

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaPatternReleaseMemManMeth.htm
 old-project: WinAuto
 ms.assetid: caa7231b-5b31-499e-b548-479501ddf016
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: UiaPatternRelease, UiaPatternRelease function [Windows Accessibility], uiauto.uiauto_UiaPatternReleaseMemManMeth, uiauto_UiaPatternReleaseMemManMeth, uiautomationcoreapi/UiaPatternRelease, winauto.uiauto_UiaPatternReleaseMemManMeth
 ms.prod: windows
 ms.technology: windows-sdk

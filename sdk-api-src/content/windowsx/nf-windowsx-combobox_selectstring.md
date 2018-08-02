@@ -4,10 +4,10 @@ title: ComboBox_SelectString macro
 author: windows-sdk-content
 description: Searches a list in a combo box for an item that begins with the characters in a specified string. If a matching item is found, the item is selected. You can use this macro or send the CB_SELECTSTRING message explicitly.
 old-location: controls\ComboBox_SelectString.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_selectstring.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ComboBox_SelectString, ComboBox_SelectString macro [Windows Controls], _win32_ComboBox_SelectString, _win32_ComboBox_SelectString_cpp, controls.ComboBox_SelectString, controls._win32_ComboBox_SelectString, windowsx/ComboBox_SelectString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Searches a list in a combo box for an item that begins with the characters in a specified string. If a matching item is found, the item is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775895(v=VS.85).aspx">CB_SELECTSTRING</a> message explicitly.
+Searches a list in a combo box for an item that begins with the characters in a specified string. If a matching item is found, the item is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775895(v=VS.85).aspx">CB_SELECTSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -93,7 +93,7 @@ The string to find.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb775895(v=VS.85).aspx">CB_SELECTSTRING</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775895(v=VS.85).aspx">CB_SELECTSTRING</a>.
 	
 
 

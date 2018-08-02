@@ -99,7 +99,7 @@ The <b>IFaxStatus::get_SenderName</b> method allocates the memory required for t
 
 
 
-<a href="https://msdn.microsoft.com/e7759c8a-a6f3-4e42-9d56-bf93d11d7ad1">Send</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691890(v=VS.85).aspx">Send</a>
 
 
 

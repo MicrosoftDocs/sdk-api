@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaItemExtras_GetExtendedErrorInfo.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitemextras\getextendederrorinfo.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: GetExtendedErrorInfo, GetExtendedErrorInfo method [WIA], GetExtendedErrorInfo method [WIA],IWiaItemExtras interface, IWiaItemExtras interface [WIA],GetExtendedErrorInfo method, IWiaItemExtras.GetExtendedErrorInfo, IWiaItemExtras::GetExtendedErrorInfo, _wia_IWiaItemExtras_GetExtendedErrorInfo, wia._wia_IWiaItemExtras_GetExtendedErrorInfo, wia_xp/IWiaItemExtras::GetExtendedErrorInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-Applications must call the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to free the string to which <i>bstrErrorText</i> points.
+Applications must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to free the string to which <i>bstrErrorText</i> points.
 
 
 
@@ -93,7 +92,7 @@ Applications must call the <a href="https://msdn.microsoft.com/library/ms221481(
 
 
 
-<a href="https://msdn.microsoft.com/library/ms629975(v=VS.85).aspx">IWiaItemExtras</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629975(v=VS.85).aspx">IWiaItemExtras</a>
  
 
  

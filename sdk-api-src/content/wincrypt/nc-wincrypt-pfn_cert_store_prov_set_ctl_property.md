@@ -4,10 +4,10 @@ title: PFN_CERT_STORE_PROV_SET_CTL_PROPERTY
 author: windows-sdk-content
 description: The CertStoreProvSetCTLProperty callback function determines whether a property can be set on a CTL.
 old-location: security\certstoreprovsetctlproperty.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: d062c875-b8c1-454f-8a0d-2ada74e5028d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertStoreProvSetCTLProperty, CertStoreProvSetCTLProperty callback, CertStoreProvSetCTLProperty callback function [Security], PFN_CERT_STORE_PROV_SET_CTL_PROPERTY, PFN_CERT_STORE_PROV_SET_CTL_PROPERTY callback function [Security], _crypto2_certstoreprovsetctlproperty, security.certstoreprovsetctlproperty, wincrypt/CertStoreProvSetCTLProperty, wincrypt/PFN_CERT_STORE_PROV_SET_CTL_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertStoreProvSetCTLProperty</b> callback function determines whether a property can be set on a CTL. It is called by 
+The <b>CertStoreProvSetCTLProperty</b> callback function determines whether a property can be set on a CTL. It is called by 
 <a href="https://msdn.microsoft.com/3af01ca6-6fa1-4510-872a-b5e13e07f49f">CertSetCTLContextProperty</a> before setting a CTL's property. It can also be called by 
 <a href="https://msdn.microsoft.com/16e45fe1-2710-4fa1-82da-c298645d7379">CertGetCTLContextProperty</a>, when getting a hash property that needs to be created and then persisted. This callback function does not set the 
 <a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">CTL_CONTEXT</a>'s property.
@@ -93,8 +92,7 @@ A pointer to a buffer containing the property value to be set.
 
 
 
-
-						Returns <b>TRUE</b> if the property can be set. Returns <b>FALSE</b> if the property cannot be set.
+Returns <b>TRUE</b> if the property can be set. Returns <b>FALSE</b> if the property cannot be set.
 
 
 

@@ -7,7 +7,7 @@ old-location: gdi\monitorfrompoint.htm
 old-project: gdi
 ms.assetid: c46281bf-7e45-4628-be92-736850225a9e
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: MONITOR_DEFAULTTONEAREST, MONITOR_DEFAULTTONULL, MONITOR_DEFAULTTOPRIMARY, MonitorFromPoint, MonitorFromPoint function [Windows GDI], _win32_MonitorFromPoint, gdi.monitorfrompoint, winuser/MonitorFromPoint
 ms.prod: windows
 ms.technology: windows-sdk

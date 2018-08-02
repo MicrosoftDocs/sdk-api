@@ -7,7 +7,7 @@ old-location: search\_search_IMetaData.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\imetadata\imetadata.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: IMetaData, IMetaData interface [search], IMetaData interface [search],described, _search_IMetaData, search._search_IMetaData, structuredquery/IMetaData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Provides a method for retrieving a key/value pair of strings from an <a href="https://msdn.microsoft.com/library/Bb231373(v=VS.85).aspx">IEntity</a>, <a href="https://msdn.microsoft.com/library/Bb231339(v=VS.85).aspx">IRelationship</a> or <a href="https://msdn.microsoft.com/library/Bb231326(v=VS.85).aspx">ISchemaProvider</a> object.
+Provides a method for retrieving a key/value pair of strings from an <a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb231339(v=VS.85).aspx">IRelationship</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb231326(v=VS.85).aspx">ISchemaProvider</a> object.
 
 
 ## -inheritance
@@ -75,7 +74,7 @@ The <b>IMetaData</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn949631">GetData</a>
 </td>
 <td align="left" width="63%">
-Retrieves one key/value pair from the metadata of an <a href="https://msdn.microsoft.com/library/Bb231373(v=VS.85).aspx">IEntity</a>, <a href="https://msdn.microsoft.com/library/Bb231339(v=VS.85).aspx">IRelationship</a>, or <a href="https://msdn.microsoft.com/library/Bb231326(v=VS.85).aspx">ISchemaProvider</a> object.
+Retrieves one key/value pair from the metadata of an <a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb231339(v=VS.85).aspx">IRelationship</a>, or <a href="https://msdn.microsoft.com/en-us/library/Bb231326(v=VS.85).aspx">ISchemaProvider</a> object.
 
         
 

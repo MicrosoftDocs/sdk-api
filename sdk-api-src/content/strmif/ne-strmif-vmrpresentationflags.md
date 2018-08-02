@@ -7,7 +7,7 @@ old-location: dshow\vmrpresentationflags.htm
 old-project: DirectShow
 ms.assetid: 27aab657-802e-4967-a5bd-3907637e1cfe
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: VMRPresentationFlags, VMRPresentationFlags enumeration [DirectShow], VMRPresentationFlagsEnumeration, VMRSample_Discontinuity, VMRSample_Preroll, VMRSample_SyncPoint, VMRSample_TimeValid, dshow.vmrpresentationflags, strmif/VMRPresentationFlags, strmif/VMRSample_Discontinuity, strmif/VMRSample_Preroll, strmif/VMRSample_SyncPoint, strmif/VMRSample_TimeValid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,29 +64,25 @@ The <b>VMRPresentationFlags</b> enumeration type is a member of the <a href="htt
 
 ### -field VMRSample_SyncPoint
 
-
-            Indicates that the sample is a sync point.
+Indicates that the sample is a sync point.
           
 
 
 ### -field VMRSample_Preroll
 
-
-            Indicates that the sample is part of the preroll.
+Indicates that the sample is part of the preroll.
           
 
 
 ### -field VMRSample_Discontinuity
 
-
-            Indicates that the sample is a discontinuity.
+Indicates that the sample is a discontinuity.
           
 
 
 ### -field VMRSample_TimeValid
 
-
-            Indicates that the time stamp on the sample is valid.
+Indicates that the time stamp on the sample is valid.
           
 
 

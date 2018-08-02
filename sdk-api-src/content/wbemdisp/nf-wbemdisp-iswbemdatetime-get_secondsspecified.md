@@ -7,7 +7,7 @@ old-location: wmi\swbemdatetime_secondsspecified.htm
 old-project: WmiSdk
 ms.assetid: 9f9b75c3-ae08-49a6-b747-294831601a62
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemDateTime interface [Windows Management Instrumentation],SecondsSpecified property, ISWbemDateTime.get_SecondsSpecified, ISWbemDateTime.put_SecondsSpecified, ISWbemDateTime::get_SecondsSpecified, SWbemDateTime object [Windows Management Instrumentation],SecondsSpecified property, SWbemDateTime.SecondsSpecified, SecondsSpecified property [Windows Management Instrumentation], SecondsSpecified property [Windows Management Instrumentation],ISWbemDateTime interface, SecondsSpecified property [Windows Management Instrumentation],SWbemDateTime object, _hmm_swbemdatetime.secondsspecified, get_SecondsSpecified, wmi.swbemdatetime_secondsspecified
 ms.prod: windows
 ms.technology: windows-sdk

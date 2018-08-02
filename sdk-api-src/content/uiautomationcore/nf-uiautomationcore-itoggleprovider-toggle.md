@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IToggleProvider_Toggle.htm
 old-project: WinAuto
 ms.assetid: afadbcaf-156f-496e-a0f3-900e7f8d44da
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IToggleProvider interface [Windows Accessibility],Toggle method, IToggleProvider.Toggle, IToggleProvider::Toggle, Toggle, Toggle method [Windows Accessibility], Toggle method [Windows Accessibility],IToggleProvider interface, uiauto.uiauto_IToggleProvider_Toggle, uiauto_IToggleProvider_Toggle, uiautomationcore/IToggleProvider::Toggle, winauto.uiauto_IToggleProvider_Toggle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        Cycles through the toggle states of a control.
+Cycles through the toggle states of a control.
         
 
 
@@ -75,7 +74,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 ## -remarks
-
 
 
 

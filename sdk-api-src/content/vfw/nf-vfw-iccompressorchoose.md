@@ -7,7 +7,7 @@ old-location: multimedia\iccompressorchoose.htm
 old-project: Multimedia
 ms.assetid: 4a58df6a-9ac4-44bb-8c49-338bb60193fc
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: ICCompressorChoose, ICCompressorChoose function [Windows Multimedia], _win32_ICCompressorChoose, multimedia.iccompressorchoose, vfw/ICCompressorChoose
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,11 +73,9 @@ Applicable flags. The following values are defined.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Meaning
+<th>Meaning
                 </th>
 </tr>
 <tr>

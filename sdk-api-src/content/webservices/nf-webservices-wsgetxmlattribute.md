@@ -7,7 +7,7 @@ old-location: wsw\wsgetxmlattribute.htm
 old-project: wsw
 ms.assetid: dca29f9b-a218-4764-bf7e-98a027c4336d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetXmlAttribute, WsGetXmlAttribute function [Web Services for Windows], webservices/WsGetXmlAttribute, wsw.wsgetxmlattribute
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Finds the nearest xml attribute in scope with the specified localName and returns its value.  
+Finds the nearest xml attribute in scope with the specified localName and returns its value.  
         The returned value is placed on the specified heap.
       
 
@@ -64,43 +63,37 @@ req.product: Windows Address Book 5.0
 
 ### -param reader [in]
 
-
-          The reader for which the xml attribute will be searched.
+The reader for which the xml attribute will be searched.
         
 
 
 ### -param localName [in]
 
-
-          The localName of the xml attribute for which to search.
+The localName of the xml attribute for which to search.
         
 
 
 ### -param heap [in]
 
-
-          The heap on which the resulting value should be allocated.
+The heap on which the resulting value should be allocated.
         
 
 
 ### -param valueChars
 
-
-          The value of the attribute is stored here.
+The value of the attribute is stored here.
         
 
 
 ### -param valueCharCount [out]
 
-
-          The length of the valueChars.
+The length of the valueChars.
         
 
 
 ### -param error [in, optional]
 
-
-          Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
         
 
 
@@ -122,7 +115,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -134,9 +126,7 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
-
-        The xml attribute was not found.
+The xml attribute was not found.
       
 
 </td>
@@ -151,17 +141,14 @@ One or more arguments are invalid.
 
 
 
-
-        This function may only be used to obtain the values of attributes in scope that use the prefix "xml".
+This function may only be used to obtain the values of attributes in scope that use the prefix "xml".
       
 
-
-        If no matching xml attribute is found, a zero length string will be returned for the value, and the
+If no matching xml attribute is found, a zero length string will be returned for the value, and the
         function returns S_FALSE.
       
 
-
-        The reader does not do anything with xml attributes other than to surface them for inspection.
+The reader does not do anything with xml attributes other than to surface them for inspection.
       
 
 

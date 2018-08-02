@@ -7,7 +7,7 @@ old-location: smi\isettingsengine_loadstore.htm
 old-project: SMI
 ms.assetid: dd255730-1c42-41a3-b274-e2abe53f210e
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: ISettingsEngine interface [SMI],LoadStore method, ISettingsEngine.LoadStore, ISettingsEngine::LoadStore, LoadStore, LoadStore method [SMI], LoadStore method [SMI],ISettingsEngine interface, smi.isettingsengine_loadstore, wcmconfig/ISettingsEngine::LoadStore
 ms.prod: windows
 ms.technology: windows-sdk

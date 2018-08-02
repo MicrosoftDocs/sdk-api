@@ -7,7 +7,7 @@ old-location: winauto\uiauto_FillTypeEnum.htm
 old-project: WinAuto
 ms.assetid: 6D05705E-B249-4C6F-9F13-C3A1F52EBF7F
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: FillType, FillType enumeration [Windows Accessibility], FillType_Color, FillType_Gradient, FillType_None, FillType_Pattern, FillType_Picture, uiautomationcore/FillType, uiautomationcore/FillType_Color, uiautomationcore/FillType_Gradient, uiautomationcore/FillType_None, uiautomationcore/FillType_Pattern, uiautomationcore/FillType_Picture, winauto.uiauto_FillTypeEnum
 ms.prod: windows
 ms.technology: windows-sdk

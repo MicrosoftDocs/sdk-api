@@ -7,7 +7,7 @@ old-location: menurc\chartooembuff.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\chartooembuff.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: CharToOemBuff, CharToOemBuff function [Menus and Other Resources], CharToOemBuffA, CharToOemBuffW, _win32_CharToOemBuff, _win32_chartooembuff_cpp, menurc.chartooembuff, winui._win32_chartooembuff, winuser/CharToOemBuff, winuser/CharToOemBuffA, winuser/CharToOemBuffW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ The return value is always nonzero except when you pass the same address to <i>l
 
 
 
-Unlike the <a href="https://msdn.microsoft.com/library/ms647473(v=VS.85).aspx">CharToOem</a> function, the <b>CharToOemBuff</b> function does not stop converting characters when it encounters a null character in the buffer pointed to by <i>lpszSrc</i>. The <b>CharToOemBuff</b> function converts all <i>cchDstLength</i> characters.
+Unlike the <a href="https://msdn.microsoft.com/en-us/library/ms647473(v=VS.85).aspx">CharToOem</a> function, the <b>CharToOemBuff</b> function does not stop converting characters when it encounters a null character in the buffer pointed to by <i>lpszSrc</i>. The <b>CharToOemBuff</b> function converts all <i>cchDstLength</i> characters.
 
 
 
@@ -108,7 +108,7 @@ Unlike the <a href="https://msdn.microsoft.com/library/ms647473(v=VS.85).aspx">C
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647473(v=VS.85).aspx">CharToOem</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647473(v=VS.85).aspx">CharToOem</a>
 
 
 
@@ -116,11 +116,11 @@ Unlike the <a href="https://msdn.microsoft.com/library/ms647473(v=VS.85).aspx">C
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647493(v=VS.85).aspx">OemToChar</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647493(v=VS.85).aspx">OemToChar</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647494(v=VS.85).aspx">OemToCharBuff</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647494(v=VS.85).aspx">OemToCharBuff</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: wes\evtgetpublishermetadataproperty.htm
 old-project: WES
 ms.assetid: f85a46ef-873c-4dd9-8b5c-3763fd67fc06
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtGetPublisherMetadataProperty, EvtGetPublisherMetadataProperty function [EventLog], wes.evtgetpublishermetadataproperty, winevt/EvtGetPublisherMetadataProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,6 @@ The size of the <i>PublisherMetadataPropertyBuffer</i> buffer, in bytes.
 
 
 ### -param PublisherMetadataPropertyBuffer [in]
-
 
 A caller-allocated buffer that will receive the metadata property. The buffer contains an <a href="https://msdn.microsoft.com/4b0f338b-0b66-4ba5-9e29-b15afe15a2d3">EVT_VARIANT</a> object. You can set this parameter to <b>NULL</b> to determine the required buffer size.
 

@@ -7,7 +7,7 @@ old-location: wmformat\iwmdeviceregistration.htm
 old-project: wmformat
 ms.assetid: fb08ddae-2abf-4a86-a5d8-ea745ae35aa8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMDeviceRegistration, IWMDeviceRegistration interface [windows Media Format], IWMDeviceRegistration interface [windows Media Format],described, IWMDeviceRegistrationInterface, wmformat.iwmdeviceregistration, wmsdkidl/IWMDeviceRegistration
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\idvbslocator2_diseqlnbsource.htm
 old-project: mstv
 ms.assetid: 665ea57d-6cb7-43d6-8bf3-993d0075b3cc
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: DiseqLNBSource property [Microsoft TV Technologies], DiseqLNBSource property [Microsoft TV Technologies],IDVBSLocator2 interface, IDVBSLocator2 interface [Microsoft TV Technologies],DiseqLNBSource property, IDVBSLocator2.DiseqLNBSource, IDVBSLocator2.get_DiseqLNBSource, IDVBSLocator2::DiseqLNBSource, IDVBSLocator2::get_DiseqLNBSource, IDVBSLocator2::put_DiseqLNBSource, get_DiseqLNBSource, mstv.idvbslocator2_diseqlnbsource, tuner/IDVBSLocator2::DiseqLNBSource, tuner/IDVBSLocator2::get_DiseqLNBSource, tuner/IDVBSLocator2::put_DiseqLNBSource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Specifies the input for a Digital Satellite Equipment Control (DiSEqC) low-noise block converter (LNB).
+Specifies the input for a Digital Satellite Equipment Control (DiSEqC) low-noise block converter (LNB).
     
 
 This property is read/write.

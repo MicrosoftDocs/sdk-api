@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_setalldefaultswithnotify.htm
 old-project: DirectShow
 ms.assetid: 5f35845f-db62-466a-86cd-5788cdaa9809
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetAllDefaultsWithNotify method, ICodecAPI.SetAllDefaultsWithNotify, ICodecAPI::SetAllDefaultsWithNotify, ICodecAPISetAllDefaultsWithNotify, SetAllDefaultsWithNotify, SetAllDefaultsWithNotify method [DirectShow], SetAllDefaultsWithNotify method [DirectShow],ICodecAPI interface, dshow.icodecapi_setalldefaultswithnotify, strmif/ICodecAPI::SetAllDefaultsWithNotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows XP with SP1
 ## -description
 
 
-
-        The <b>SetAllDefaultsWithNotify</b> method resets all codec properties to their default values, and returns a list of the properties that changed.
+The <b>SetAllDefaultsWithNotify</b> method resets all codec properties to their default values, and returns a list of the properties that changed.
       
 
 
@@ -64,15 +63,13 @@ req.product: Windows XP with SP1
 
 ### -param ChangedParam [out]
 
-
-            Receives a pointer to an array of GUIDs. The array contains the GUIDs of any properties that changed as a result of this method call. The caller must free the array by calling <b>CoTaskMemFree</b>.
+Receives a pointer to an array of GUIDs. The array contains the GUIDs of any properties that changed as a result of this method call. The caller must free the array by calling <b>CoTaskMemFree</b>.
           
 
 
 ### -param ChangedParamCount [out]
 
-
-            Receives the number of elements in the <i>ChangedParam</i> array.
+Receives the number of elements in the <i>ChangedParam</i> array.
           
 
 

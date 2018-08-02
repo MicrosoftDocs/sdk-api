@@ -4,10 +4,10 @@ title: SnmpSetTimeout function
 author: windows-sdk-content
 description: The WinSNMP SnmpSetTimeout function enables a WinSNMP application to change the time-out value for the transmission of SNMP message requests.
 old-location: snmp\snmpsettimeout.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: ae72f775-9f2a-4c16-b866-14ab17fd3a6a
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: SnmpSetTimeout, SnmpSetTimeout function [SNMP], _snmp_snmpsettimeout, snmp.snmpsettimeout, winsnmp/SnmpSetTimeout
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: parcon\iwpcsettings.htm
 old-project: parcon
 ms.assetid: 92ae8611-fbb4-470e-8a48-395defaef904
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 07/29/2018
 ms.keywords: IWPCSettings, IWPCSettings interface, IWPCSettings interface,described, parcon.iwpcsettings, wpcapi/IWPCSettings
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_UpdateConflicts.htm
 old-project: shell
 ms.assetid: 606df5fb-0c4b-49c7-82ed-28f22927953a
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateConflicts method, ISyncMgrControl.UpdateConflicts, ISyncMgrControl::UpdateConflicts, UpdateConflicts, UpdateConflicts method [Windows Shell], UpdateConflicts method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateConflicts, shell.ISyncMgrControl_UpdateConflicts, syncmgr/ISyncMgrControl::UpdateConflicts
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,8 +102,7 @@ If SYNCMGR_CF_WAIT is set in the <i>nControlFlags</i> parameter, <b>UpdateConfli
 
 
 
-
-        	The following example shows the usage of <a href="https://msdn.microsoft.com/72848e6a-eec3-45fc-b599-a5a8da2e1070">ISyncMgrControl::UpdateEvents</a> by a handler's procedure.
+The following example shows the usage of <a href="https://msdn.microsoft.com/72848e6a-eec3-45fc-b599-a5a8da2e1070">ISyncMgrControl::UpdateEvents</a> by a handler's procedure.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

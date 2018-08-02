@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransition.htm
 old-project: UIAnimation
 ms.assetid: 99804a2f-82c9-494c-b75d-69e66f1e49ef
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationTransition, IUIAnimationTransition interface [Windows Animation], IUIAnimationTransition interface [Windows Animation],described, uianimation.iuianimationtransition, uianimation/IUIAnimationTransition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Defines a transition, which determines how an animation variable changes over time.
+Defines a transition, which determines how an animation variable changes over time.
 
 
 ## -inheritance
@@ -72,8 +71,7 @@ The <b>IUIAnimationTransition</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cc46ca31-3146-4d93-b859-79fe5e1fea08">
-         GetDuration</a>
+<a href="https://msdn.microsoft.com/cc46ca31-3146-4d93-b859-79fe5e1fea08">GetDuration</a>
 </td>
 <td align="left" width="63%">
 Gets the duration of the transition.
@@ -82,35 +80,28 @@ Gets the duration of the transition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5cb22573-a318-4682-bc82-0a81c9dbdcbe">
-         IsDurationKnown</a>
+<a href="https://msdn.microsoft.com/5cb22573-a318-4682-bc82-0a81c9dbdcbe">IsDurationKnown</a>
 </td>
 <td align="left" width="63%">
-
-         
-         Determines whether the transition's duration is currently known.
+Determines whether the transition's duration is currently known.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5e931eee-8b28-4be2-a760-8f62b5ce89ed">
-         SetInitialValue</a>
+<a href="https://msdn.microsoft.com/5e931eee-8b28-4be2-a760-8f62b5ce89ed">SetInitialValue</a>
 </td>
 <td align="left" width="63%">
-
-         Sets the initial value for the transition.
+Sets the initial value for the transition.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/adb5a173-6efa-4b1b-8e2f-1d69288653ae">
-         SetInitialVelocity</a>
+<a href="https://msdn.microsoft.com/adb5a173-6efa-4b1b-8e2f-1d69288653ae">SetInitialVelocity</a>
 </td>
 <td align="left" width="63%">
-
-         Sets the initial velocity for the transition.
+Sets the initial velocity for the transition.
 
 </td>
 </tr>

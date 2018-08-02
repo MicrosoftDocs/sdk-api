@@ -4,10 +4,10 @@ title: "_WSMAN_SENDER_DETAILS"
 author: windows-sdk-content
 description: Specifies the client details for every inbound request.
 old-location: winrm\wsman_sender_details.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: f68a9f75-6808-4dfa-b40f-061da88ead3c
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: WSMAN_SENDER_DETAILS, WSMAN_SENDER_DETAILS structure [Windows Remote Management], _WSMAN_SENDER_DETAILS, winrm.wsman_sender_details, wsman/WSMAN_SENDER_DETAILS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,8 +125,7 @@ All other types are queried directly from the security package.  For Internet In
 
 ### -field certificateDetails
 
-A pointer to a <a href="https://msdn.microsoft.com/82b723fd-c9bb-4ddd-bd2a-4b6d1186846b">WSMAN_CERTIFICATE_DETAILS</a> structure that specifies the details of the client's certificate. This parameter is valid only if the <i>authenticationMechanism</i>
- is set to ClientCertificate.
+A pointer to a <a href="https://msdn.microsoft.com/82b723fd-c9bb-4ddd-bd2a-4b6d1186846b">WSMAN_CERTIFICATE_DETAILS</a> structure that specifies the details of the client's certificate. This parameter is valid only if the <i>authenticationMechanism</i>is set to ClientCertificate.
 
 
 ### -field clientToken

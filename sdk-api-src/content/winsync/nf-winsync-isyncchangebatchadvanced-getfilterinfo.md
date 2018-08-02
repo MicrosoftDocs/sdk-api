@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatchadvanced_getfilterinfo.htm
 old-project: winsync
 ms.assetid: f630f806-cc5a-408e-bd84-49555ebb41c1
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetFilterInfo, GetFilterInfo method [Windows Sync], GetFilterInfo method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],GetFilterInfo method, ISyncChangeBatchAdvanced.GetFilterInfo, ISyncChangeBatchAdvanced::GetFilterInfo, winsync.isyncchangebatchadvanced_getfilterinfo, winsync/ISyncChangeBatchAdvanced::GetFilterInfo
 ms.prod: windows
 ms.technology: windows-sdk

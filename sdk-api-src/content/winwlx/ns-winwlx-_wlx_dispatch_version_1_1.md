@@ -4,10 +4,10 @@ title: "_WLX_DISPATCH_VERSION_1_1"
 author: windows-sdk-content
 description: Defines the format of the Winlogon version 1.1 function dispatch passed to your GINA DLL in the WlxInitialize call.
 old-location: security\wlx_dispatch_version_1_1.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: b76f4417-4414-4912-924f-3afef7156f08
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PWLX_DISPATCH_VERSION_1_1, PWLX_DISPATCH_VERSION_1_1, PWLX_DISPATCH_VERSION_1_1 structure pointer [Security], WLX_DISPATCH_VERSION_1_1, WLX_DISPATCH_VERSION_1_1 structure [Security], _WLX_DISPATCH_VERSION_1_1, _gina_wlx_dispatch_version_1_1, security.wlx_dispatch_version_1_1, winwlx/PWLX_DISPATCH_VERSION_1_1, winwlx/WLX_DISPATCH_VERSION_1_1"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 <p class="CCE_Message">[The WLX_DISPATCH_VERSION_1_1 structure is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-
-			The <b>WLX_DISPATCH_VERSION_1_1</b> structure defines the format of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a> version 1.1 function dispatch passed to your <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL in the 
+The <b>WLX_DISPATCH_VERSION_1_1</b> structure defines the format of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a> version 1.1 function dispatch passed to your <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL in the 
 <a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a> call.
 
 This dispatch table is used if your GINA DLL specifies version 1.1 in its implementation of 
@@ -73,8 +72,7 @@ Pointer to a <a href="https://msdn.microsoft.com/827bc495-eb7d-4a83-a325-903de05
 
 ### -field WlxSetContextPointer
 
-
-					Pointer to a <a href="https://msdn.microsoft.com/592d05f4-be7c-4606-91ad-77e3fb4f6b7a">WlxSetContextPointer</a> function.
+Pointer to a <a href="https://msdn.microsoft.com/592d05f4-be7c-4606-91ad-77e3fb4f6b7a">WlxSetContextPointer</a> function.
 
 
 ### -field WlxSasNotify

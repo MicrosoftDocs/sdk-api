@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaVideo.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\iwiavideo.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: IWiaVideo, IWiaVideo interface [WIA], IWiaVideo interface [WIA],described, _wia_IWiaVideo, wia._wia_IWiaVideo, wiavideo/IWiaVideo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,46 +74,46 @@ The <b>IWiaVideo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629884(v=VS.85).aspx">CreateVideoByDevNum</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629884(v=VS.85).aspx">CreateVideoByDevNum</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629884(v=VS.85).aspx">IWiaVideo::CreateVideoByDevNum</a> method creates a connection to a streaming video device with the device number obtained from a Directshow enumeration.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629884(v=VS.85).aspx">IWiaVideo::CreateVideoByDevNum</a> method creates a connection to a streaming video device with the device number obtained from a Directshow enumeration.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629886(v=VS.85).aspx">CreateVideoByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629886(v=VS.85).aspx">CreateVideoByName</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629886(v=VS.85).aspx">IWiaVideo::CreateVideoByName</a> method creates a connection to a streaming video device with the friendly device name obtained from a Directshow enumeration.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629886(v=VS.85).aspx">IWiaVideo::CreateVideoByName</a> method creates a connection to a streaming video device with the friendly device name obtained from a Directshow enumeration.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629889(v=VS.85).aspx">CreateVideoByWiaDevID</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629889(v=VS.85).aspx">CreateVideoByWiaDevID</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629889(v=VS.85).aspx">IWiaVideo::CreateVideoByWiaDevID</a> method creates a connection to a streaming video device from its WIA_DIP_DEV_ID property.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629889(v=VS.85).aspx">IWiaVideo::CreateVideoByWiaDevID</a> method creates a connection to a streaming video device from its WIA_DIP_DEV_ID property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629890(v=VS.85).aspx">DestroyVideo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629890(v=VS.85).aspx">DestroyVideo</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629890(v=VS.85).aspx">IWiaVideo::DestroyVideo</a> method shuts down the streaming video. To restart video playback, the application must call one of the <b>IWiaVideo</b> CreateVideo methods again.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629890(v=VS.85).aspx">IWiaVideo::DestroyVideo</a> method shuts down the streaming video. To restart video playback, the application must call one of the <b>IWiaVideo</b> CreateVideo methods again.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629893(v=VS.85).aspx">GetCurrentState</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629893(v=VS.85).aspx">GetCurrentState</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629893(v=VS.85).aspx">IWiaVideo::GetCurrentState</a> method specifies the state of the video stream as a member of the <a href="https://msdn.microsoft.com/library/ms630181(v=VS.85).aspx">WIAVIDEO_STATE</a> enumeration.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629893(v=VS.85).aspx">IWiaVideo::GetCurrentState</a> method specifies the state of the video stream as a member of the <a href="https://msdn.microsoft.com/en-us/library/ms630181(v=VS.85).aspx">WIAVIDEO_STATE</a> enumeration.
 
 </td>
 </tr>
@@ -122,13 +122,13 @@ The <a href="https://msdn.microsoft.com/library/ms629893(v=VS.85).aspx">IWiaVide
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629898(v=VS.85).aspx">IWiaVideo::Pause</a> method pauses video playback.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629898(v=VS.85).aspx">IWiaVideo::Pause</a> method pauses video playback.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629900(v=VS.85).aspx">Play</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629900(v=VS.85).aspx">Play</a>
 </td>
 <td align="left" width="63%">
 Begins playback of streaming video.
@@ -137,19 +137,19 @@ Begins playback of streaming video.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629903(v=VS.85).aspx">ResizeVideo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629903(v=VS.85).aspx">ResizeVideo</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629903(v=VS.85).aspx">IWiaVideo::ResizeVideo</a> method resizes the video playback to the largest supported resolution that fits inside the parent window. Call this method whenever the parent window is moved or resized.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629903(v=VS.85).aspx">IWiaVideo::ResizeVideo</a> method resizes the video playback to the largest supported resolution that fits inside the parent window. Call this method whenever the parent window is moved or resized.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629905(v=VS.85).aspx">TakePicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629905(v=VS.85).aspx">TakePicture</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629905(v=VS.85).aspx">IWiaVideo::TakePicture</a> method extracts a still image from the video stream, and saves the image as a JPEG file.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629905(v=VS.85).aspx">IWiaVideo::TakePicture</a> method extracts a still image from the video stream, and saves the image as a JPEG file.
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ The <a href="https://msdn.microsoft.com/library/ms629905(v=VS.85).aspx">IWiaVide
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms629895(v=VS.85).aspx">ImagesDirectory</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629895(v=VS.85).aspx">ImagesDirectory</a>
 
 
 </td>
@@ -173,14 +173,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629895(v=VS.85).aspx">IWiaVideo::ImagesDirectory</a> property specifies the full path and directory where images are stored when calling the <a href="https://msdn.microsoft.com/library/ms629905(v=VS.85).aspx">IWiaVideo::TakePicture</a> method.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629895(v=VS.85).aspx">IWiaVideo::ImagesDirectory</a> property specifies the full path and directory where images are stored when calling the <a href="https://msdn.microsoft.com/en-us/library/ms629905(v=VS.85).aspx">IWiaVideo::TakePicture</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms629902(v=VS.85).aspx">PreviewVisible</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629902(v=VS.85).aspx">PreviewVisible</a>
 
 
 </td>
@@ -189,7 +189,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629902(v=VS.85).aspx">IWiaVideo::PreviewVisible</a> property specifies whether the video playback is visible in its parent window. This does not affect the <a href="https://msdn.microsoft.com/library/ms630181(v=VS.85).aspx">WIAVIDEO_STATE</a> of the video.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629902(v=VS.85).aspx">IWiaVideo::PreviewVisible</a> property specifies whether the video playback is visible in its parent window. This does not affect the <a href="https://msdn.microsoft.com/en-us/library/ms630181(v=VS.85).aspx">WIAVIDEO_STATE</a> of the video.
 
 </td>
 </tr>

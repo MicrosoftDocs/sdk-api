@@ -430,7 +430,7 @@ fsetINCOMING_CALL
 
 
 
-<a href="https://msdn.microsoft.com/9850a677-6ae0-4780-8655-90a8d81fe765">IFaxServer::ListenToServerEvents</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690121(v=VS.85).aspx">IFaxServer::ListenToServerEvents</a>
 
 
 

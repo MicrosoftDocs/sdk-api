@@ -74,28 +74,28 @@ The <b>IFaxIncomingQueue</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6b545785-f237-4a36-9b9c-1eca4e4daaa4">GetJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686687(v=VS.85).aspx">GetJob</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/6b545785-f237-4a36-9b9c-1eca4e4daaa4">GetJob</a> method returns an incoming fax job in the job queue according to its ID.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686687(v=VS.85).aspx">GetJob</a> method returns an incoming fax job in the job queue according to its ID.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c739a92b-4b3e-4ab5-8b17-4bc4db19ed0b">GetJobs</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686761(v=VS.85).aspx">GetJobs</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/c739a92b-4b3e-4ab5-8b17-4bc4db19ed0b">GetJobs</a> method returns the collection of inbound fax jobs in the queue.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686761(v=VS.85).aspx">GetJobs</a> method returns the collection of inbound fax jobs in the queue.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23626ea8-e2e8-4592-a930-f4be7b8f88d0">Refresh</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684944(v=VS.85).aspx">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/23626ea8-e2e8-4592-a930-f4be7b8f88d0">Refresh</a> method refreshes <a href="https://msdn.microsoft.com/library/ms686164(v=VS.85).aspx">FaxIncomingQueue</a> object information from the fax server. When the <b>Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method call are lost.
+The <a href="https://msdn.microsoft.com/en-us/library/ms684944(v=VS.85).aspx">Refresh</a> method refreshes <a href="https://msdn.microsoft.com/library/ms686164(v=VS.85).aspx">FaxIncomingQueue</a> object information from the fax server. When the <b>Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method call are lost.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ The <a href="https://msdn.microsoft.com/library/ms685101(v=VS.85).aspx">Blocked<
 
 
 
-To create a <b>FaxIncomingQueue</b> object in C++, call the <a href="https://msdn.microsoft.com/3e29e5dd-bbb0-4ea3-9f1d-44df674febd8">IFaxFolders::get_IncomingQueue</a> method.
+To create a <b>FaxIncomingQueue</b> object in C++, call the <a href="https://msdn.microsoft.com/en-us/library/ms686008(v=VS.85).aspx">IFaxFolders::get_IncomingQueue</a> method.
 
 
 
@@ -161,7 +161,7 @@ To create a <b>FaxIncomingQueue</b> object in C++, call the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/cf58022f-6f59-4194-a358-1871f032f3f0">IFaxIncomingQueue::Save</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685088(v=VS.85).aspx">IFaxIncomingQueue::Save</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: display\brushobj_hgetcolortransform.htm
 old-project: display
 ms.assetid: a62544e5-f4b6-4544-8ec1-5a03f8bd3306
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: BRUSHOBJ_hGetColorTransform, BRUSHOBJ_hGetColorTransform function [Display Devices], display.brushobj_hgetcolortransform, gdifncs_eeb575c7-44b8-4af6-ab2d-6bb1afc3af32.xml, winddi/BRUSHOBJ_hGetColorTransform
 ms.prod: windows
 ms.technology: windows-sdk

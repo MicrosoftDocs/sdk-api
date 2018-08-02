@@ -7,7 +7,7 @@ old-location: wsw\wsreadendattribute.htm
 old-project: wsw
 ms.assetid: 1181ca68-f67b-47e1-b9de-1bc57ecf36f6
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsReadEndAttribute, WsReadEndAttribute function [Web Services for Windows], webservices/WsReadEndAttribute, wsw.wsreadendattribute
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Moves the reader back to the element node containing the attribute that was read.
+Moves the reader back to the element node containing the attribute that was read.
       
 
 
@@ -92,7 +91,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>

@@ -7,7 +7,7 @@ old-location: dshow\igetcapabilitieskey_getcapabilitieskey.htm
 old-project: DirectShow
 ms.assetid: 02c3edfe-9ce1-4d9f-bdd1-79e818b43800
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetCapabilitiesKey, GetCapabilitiesKey method [DirectShow], GetCapabilitiesKey method [DirectShow],IGetCapabilitiesKey interface, IGetCapabilitiesKey interface [DirectShow],GetCapabilitiesKey method, IGetCapabilitiesKey.GetCapabilitiesKey, IGetCapabilitiesKey::GetCapabilitiesKey, IGetCapabilitiesKeyGetCapabiltitiesKey, dshow.igetcapabilitieskey_getcapabilitieskey, strmif/IGetCapabilitiesKey::GetCapabilitiesKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,8 +72,7 @@ The <b>GetCapabilitiesKey</b> method gets a registry key that contains capabilit
 
 #### - pKey [out]
 
-
-            Receives a handle to the registry key. The caller must close the handle by calling <b>RegCloseKey</b>.
+Receives a handle to the registry key. The caller must close the handle by calling <b>RegCloseKey</b>.
           
 
 

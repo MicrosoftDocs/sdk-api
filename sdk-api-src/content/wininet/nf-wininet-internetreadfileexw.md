@@ -4,10 +4,10 @@ title: InternetReadFileExW function
 author: windows-sdk-content
 description: Reads data from a handle opened by the InternetOpenUrl or HttpOpenRequest function.
 old-location: wininet\internetreadfileex.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: 04e7bb7e-d925-41fd-8333-3cb443a04c5b
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: InternetReadFileEx, InternetReadFileEx function [WinINet], InternetReadFileExA, InternetReadFileExW, _inet_internetreadfileex_function, wininet.internetreadfileex, wininet/InternetReadFileEx, wininet/InternetReadFileExA, wininet/InternetReadFileExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ Reads data from a handle opened by the
 
 ### -param hFile [in]
 
-
-						Handle returned by the 
+Handle returned by the 
 <a href="https://msdn.microsoft.com/73f969c3-3fa7-43f5-88c5-ba78e59a8d1c">InternetOpenUrl</a> or 
 <a href="https://msdn.microsoft.com/caaff8e8-7db9-4d6d-8ba2-d8d19475173a">HttpOpenRequest</a> function.
 
@@ -93,7 +92,7 @@ This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Identical to  <a href="https://msdn.microsoft.com/library/Aa383661(v=VS.85).aspx">WININET_API_FLAG_ASYNC</a>.
+Identical to  <a href="https://msdn.microsoft.com/en-us/library/Aa383661(v=VS.85).aspx">WININET_API_FLAG_ASYNC</a>.
 
 </td>
 </tr>
@@ -104,7 +103,7 @@ Identical to  <a href="https://msdn.microsoft.com/library/Aa383661(v=VS.85).aspx
 </dl>
 </td>
 <td width="60%">
-Identical to <a href="https://msdn.microsoft.com/library/Aa383661(v=VS.85).aspx">WININET_API_FLAG_SYNC</a>.
+Identical to <a href="https://msdn.microsoft.com/en-us/library/Aa383661(v=VS.85).aspx">WININET_API_FLAG_SYNC</a>.
 
 </td>
 </tr>
@@ -115,7 +114,7 @@ Identical to <a href="https://msdn.microsoft.com/library/Aa383661(v=VS.85).aspx"
 </dl>
 </td>
 <td width="60%">
-Identical to <a href="https://msdn.microsoft.com/library/Aa383661(v=VS.85).aspx">WININET_API_FLAG_USE_CONTEXT</a>.
+Identical to <a href="https://msdn.microsoft.com/en-us/library/Aa383661(v=VS.85).aspx">WININET_API_FLAG_USE_CONTEXT</a>.
 
 </td>
 </tr>

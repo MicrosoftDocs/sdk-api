@@ -7,7 +7,7 @@ old-location: wsw\wsresetlistener.htm
 old-project: wsw
 ms.assetid: c23c8ad4-a193-42f2-9e4a-3e814b7bbdb2
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsResetListener, WsResetListener function [Web Services for Windows], webservices/WsResetListener, wsw.wsresetlistener
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,8 +93,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    The listener was in an inappropriate state.
+The listener was in an inappropriate state.
                 
 
 </td>
@@ -109,8 +108,7 @@ This function can return one of these values.
 
 
 
-
-                Before reusing a listener, this function should be called.  
+Before reusing a listener, this function should be called.  
             
 
 

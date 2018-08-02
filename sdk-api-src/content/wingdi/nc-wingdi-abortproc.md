@@ -7,7 +7,7 @@ old-location: gdi\abortproc.htm
 old-project: printdocs
 ms.assetid: 3728a491-28ff-49ec-9131-ed6238b2be3d
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: AbortProc, AbortProc callback, AbortProc callback function [Windows GDI], _win32_AbortProc, gdi.abortproc, wingdi/AbortProc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ The callback function should return <b>TRUE</b> to continue the print job or <b>
 
 <div class="alert"><b>Note</b>  This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation—factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</div>
 <div> </div>
-If the <i>iError</i> parameter is SP_OUTOFDISK, the application need not cancel the print job. If it does not cancel the job, it must yield to Print Manager by calling the <a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a> or <a href="https://msdn.microsoft.com/library/Aa359047(v=VS.85).aspx">GetMessage</a> function.
+If the <i>iError</i> parameter is SP_OUTOFDISK, the application need not cancel the print job. If it does not cancel the job, it must yield to Print Manager by calling the <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> function.
 
 
 
@@ -106,11 +106,11 @@ If the <i>iError</i> parameter is SP_OUTOFDISK, the application need not cancel 
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa359047(v=VS.85).aspx">GetMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>
 
 
 

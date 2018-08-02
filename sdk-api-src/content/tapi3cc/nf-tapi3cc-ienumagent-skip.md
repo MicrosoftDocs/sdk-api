@@ -4,10 +4,10 @@ title: IEnumAgent::Skip
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumagent_skip.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 972e02f5-2aaf-4c9f-ab66-61d500b6f8ae
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: IEnumAgent interface [TAPI 2.2],Skip method, IEnumAgent.Skip, IEnumAgent::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumAgent interface, _tapi3_ienumagent_skip, tapi3.ienumagent_skip, tapi3cc/IEnumAgent::Skip
 ms.prod: windows
 ms.technology: windows-sdk

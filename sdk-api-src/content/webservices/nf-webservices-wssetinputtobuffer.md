@@ -7,7 +7,7 @@ old-location: wsw\wssetinputtobuffer.htm
 old-project: wsw
 ms.assetid: 0b3ac6ab-8c16-4189-950d-84bdcdabcde0
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsSetInputToBuffer, WsSetInputToBuffer function [Web Services for Windows], webservices/WsSetInputToBuffer, wsw.wssetinputtobuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,10 +55,8 @@ Sets Reader input to a specified XML buffer.
       Reader properties
         specified to <b>WsSetInputToBuffer</b>  override properties set by <a href="https://msdn.microsoft.com/0d4449aa-ffcc-41d9-99b1-7352edaf3700">WsCreateReader</a>.
 
-
-        The reader does not modify <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> input data.
-      <div class="alert"><b>Note</b>  
-        It is permissible for more than one reader to read from the same <b>WS_XML_BUFFER</b>.</div>
+The reader does not modify <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> input data.
+      <div class="alert"><b>Note</b>  It is permissible for more than one reader to read from the same <b>WS_XML_BUFFER</b>.</div>
 <div> </div>
 
 
@@ -110,8 +108,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-
-        When an XML Reader has an XML Buffer as an input source, the Reader can be used in a random access fashion, and
+When an XML Reader has an XML Buffer as an input source, the Reader can be used in a random access fashion, and
         the functions <a href="https://msdn.microsoft.com/91e543f3-7325-4a90-9b99-c98918478853">WsGetReaderPosition</a>, <a href="https://msdn.microsoft.com/cc879cc0-c8ca-457e-9ff1-ae220e31cb04">WsSetReaderPosition</a>, and <a href="https://msdn.microsoft.com/63d18407-f82b-4884-a162-2c8163e883e1">WsMoveReader</a> are available for use.
       
 

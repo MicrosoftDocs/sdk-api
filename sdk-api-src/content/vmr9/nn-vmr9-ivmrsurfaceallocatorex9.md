@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocatorex9.htm
 old-project: DirectShow
 ms.assetid: 4c43867f-6c4b-4ed7-af83-0133c997efcb
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IVMRSurfaceAllocatorEx9, IVMRSurfaceAllocatorEx9 interface [DirectShow], IVMRSurfaceAllocatorEx9 interface [DirectShow],described, IVMRSurfaceAllocatorEx9Interface, dshow.ivmrsurfaceallocatorex9, vmr9/IVMRSurfaceAllocatorEx9
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,8 +91,7 @@ Gets a Direct3D surface and a destination rectangle.
 
 
 
-
-        Include DShow.h and D3d9.h before Vmr9.h.
+Include DShow.h and D3d9.h before Vmr9.h.
       
 
 

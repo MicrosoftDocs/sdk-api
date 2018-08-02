@@ -4,10 +4,10 @@ title: IWSDMessageParameters::SetLocalAddress
 author: windows-sdk-content
 description: Sets a generic address object representing the source address that should send the message.
 old-location: ncd\iwsdmessageparameters_setlocaladdress.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 8266f091-9c88-44eb-a32b-1ff3da5fa10e
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: IWSDMessageParameters interface,SetLocalAddress method, IWSDMessageParameters.SetLocalAddress, IWSDMessageParameters::SetLocalAddress, SetLocalAddress, SetLocalAddress method, SetLocalAddress method,IWSDMessageParameters interface, ncd.iwsdmessageparameters_setlocaladdress, wsdbase/IWSDMessageParameters::SetLocalAddress
 ms.prod: windows
 ms.technology: windows-sdk

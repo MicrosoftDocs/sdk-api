@@ -7,7 +7,7 @@ old-location: xps\ixpsomremotedictionaryresource.htm
 old-project: printdocs
 ms.assetid: dd757856-f16e-46ad-b865-8203c3428372
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMRemoteDictionaryResource, IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging], IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging],described, xps.ixpsomremotedictionaryresource, xpsobjectmodel/IXpsOMRemoteDictionaryResource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IXpsOMRemoteDictionaryResource</b> interface has these methods.
 <a href="https://msdn.microsoft.com/8363aa97-b7ca-458e-84d9-d9316070a3d0">GetDictionary</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the  <a href="https://msdn.microsoft.com/f887e3d3-973c-4267-a785-6bc190c13082">IXpsOMDictionary</a> interface  of the remote dictionary that is associated with this resource.
+Gets a pointer to the  <a href="https://msdn.microsoft.com/f887e3d3-973c-4267-a785-6bc190c13082">IXpsOMDictionary</a> interface  of the remote dictionary that is associated with this resource.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IXpsOMRemoteDictionaryResource</b> interface has these methods.
 <a href="https://msdn.microsoft.com/68aba55b-d755-4ed3-8ede-6f3a4e6f7b3a">SetDictionary</a>
 </td>
 <td align="left" width="63%">
-
-              Sets a   pointer to the <a href="https://msdn.microsoft.com/f887e3d3-973c-4267-a785-6bc190c13082">IXpsOMDictionary</a> interface of the remote dictionary that is to be associated with this resource.
+Sets a   pointer to the <a href="https://msdn.microsoft.com/f887e3d3-973c-4267-a785-6bc190c13082">IXpsOMDictionary</a> interface of the remote dictionary that is to be associated with this resource.
             
 
 </td>

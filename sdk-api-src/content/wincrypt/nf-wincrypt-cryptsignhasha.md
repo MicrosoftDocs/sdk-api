@@ -4,10 +4,10 @@ title: CryptSignHashA function
 author: windows-sdk-content
 description: Signs data.
 old-location: security\cryptsignhash.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 9cf0de04-fdad-457d-8137-16d98f915cd5
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptSignHash, CryptSignHash function [Security], CryptSignHashA, CryptSignHashW, _crypto2_cryptsignhash, security.cryptsignhash, wincrypt/CryptSignHash, wincrypt/CryptSignHashA, wincrypt/CryptSignHashW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,8 +55,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>
-			The <b>CryptSignHash</b> function signs data. Because all signature algorithms are asymmetric and thus slow, CryptoAPI does not allow data to be signed directly. Instead, data is first <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hashed</a>, and <b>CryptSignHash</b> is used to sign the hash.
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptSignHash</b> function signs data. Because all signature algorithms are asymmetric and thus slow, CryptoAPI does not allow data to be signed directly. Instead, data is first <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hashed</a>, and <b>CryptSignHash</b> is used to sign the hash.
 
 
 ## -parameters
@@ -171,8 +170,7 @@ This parameter is no longer used and must be set to <b>NULL</b> to prevent secur
 
 
 
-
-						If the function succeeds, the function returns <b>TRUE</b>.
+If the function succeeds, the function returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
@@ -448,7 +446,7 @@ For a complete example including the  context for this code, see
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
  
 
  

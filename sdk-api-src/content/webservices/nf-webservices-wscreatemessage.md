@@ -7,7 +7,7 @@ old-location: wsw\wscreatemessage.htm
 old-project: wsw
 ms.assetid: 1c48647e-9e77-4b7a-add3-e035c7f9f27e
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCreateMessage, WsCreateMessage function [Web Services for Windows], webservices/WsCreateMessage, wsw.wscreatemessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,16 +86,13 @@ The value of this parameter may be <b>NULL</b>, in which case, the <i>propertyCo
 
 ### -param propertyCount [in]
 
-
-                    The number of properties in the <i>properties</i> array.
+The number of properties in the <i>properties</i> array.
                 
 
 
 ### -param message
 
-
-                    
-                    On   success, a pointer that receives the address of a  <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> structure representing the new message.
+On   success, a pointer that receives the address of a  <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> structure representing the new message.
                 
 
 When you no longer need this structure, you must free it by calling <a href="https://msdn.microsoft.com/50e08300-9445-4741-9298-bd80fc777041">WsFreeMessage</a>.
@@ -126,7 +123,6 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
 Insufficient memory to complete the operation.
 
 </td>
@@ -138,7 +134,6 @@ Insufficient memory to complete the operation.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -168,8 +163,7 @@ A message object is the delivery vehicle for Windows Web Services. A single mess
             When you no longer need the message, you must free the memory by calling <a href="https://msdn.microsoft.com/50e08300-9445-4741-9298-bd80fc777041">WsFreeMessage</a>. (For more information on reusing message objects, see <a href="https://msdn.microsoft.com/90a62cc8-a7e0-4451-8490-f6384bf3e7b6">WsResetMessage</a> .)
             
 
-
-                If you are creating a message for use with a particular channel,  use the <a href="https://msdn.microsoft.com/0a4f076b-6725-45a9-8817-5dec3b647c4f">WsCreateMessageForChannel</a> function, which will ensure the correct message version for the channel. 
+If you are creating a message for use with a particular channel,  use the <a href="https://msdn.microsoft.com/0a4f076b-6725-45a9-8817-5dec3b647c4f">WsCreateMessageForChannel</a> function, which will ensure the correct message version for the channel. 
 
 
 

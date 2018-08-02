@@ -7,7 +7,7 @@ old-location: xps\ixpsomgradientbrush.htm
 old-project: printdocs
 ms.assetid: d381b813-5368-4ffe-a9a1-0f5027ae9d80
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMGradientBrush, IXpsOMGradientBrush interface [XPS Documents and Packaging], IXpsOMGradientBrush interface [XPS Documents and Packaging],described, xps.ixpsomgradientbrush, xpsobjectmodel/IXpsOMGradientBrush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ Gets the gamma function to be used for color interpolation.
 <a href="https://msdn.microsoft.com/1b308323-12d4-427c-a3d8-fcf5488e1dde">GetGradientStops</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to an <a href="https://msdn.microsoft.com/1f51f818-e9bb-4d88-9795-4e6890d24b8c">IXpsOMGradientStopCollection</a> interface that contains the collection of <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interfaces that define the gradient.
+Gets a pointer to an <a href="https://msdn.microsoft.com/1f51f818-e9bb-4d88-9795-4e6890d24b8c">IXpsOMGradientStopCollection</a> interface that contains the collection of <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interfaces that define the gradient.
             
 
 </td>
@@ -96,8 +95,7 @@ Gets the gamma function to be used for color interpolation.
 <a href="https://msdn.microsoft.com/c4c62817-735b-4ef1-84cf-1c9fa63f55ee">GetSpreadMethod</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <a href="https://msdn.microsoft.com/9c9cadaf-6f38-4a56-942e-78617017a905">XPS_SPREAD_METHOD</a> value, which describes how the area outside of the gradient region will be rendered.
+Gets the <a href="https://msdn.microsoft.com/9c9cadaf-6f38-4a56-942e-78617017a905">XPS_SPREAD_METHOD</a> value, which describes how the area outside of the gradient region will be rendered.
 
 </td>
 </tr>
@@ -106,8 +104,7 @@ Gets the gamma function to be used for color interpolation.
 <a href="https://msdn.microsoft.com/6b5474d2-a97e-4446-b4a9-7efb51c31ad3">GetTransform</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface that contains the resolved matrix transform for the brush.
+Gets a pointer to the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface that contains the resolved matrix transform for the brush.
             
 
 </td>
@@ -117,8 +114,7 @@ Gets the gamma function to be used for color interpolation.
 <a href="https://msdn.microsoft.com/dfdd6797-b7e6-46fa-92b1-d9c418e8a510">GetTransformLocal</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface that contains the local, unshared, resolved matrix transform for the brush.
+Gets a pointer to the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface that contains the local, unshared, resolved matrix transform for the brush.
             
 
 </td>
@@ -137,8 +133,7 @@ Gets the name of the lookup key  of the shared matrix transform interface that i
 <a href="https://msdn.microsoft.com/f9fa44e7-336a-4758-ac53-b2d527336b7d">SetColorInterpolationMode</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <a href="https://msdn.microsoft.com/ad203082-d5a3-4414-88e1-8fd4dded6ea9">XPS_COLOR_INTERPOLATION</a> value, which describes the gamma function to be used for color interpolation.
+Sets the <a href="https://msdn.microsoft.com/ad203082-d5a3-4414-88e1-8fd4dded6ea9">XPS_COLOR_INTERPOLATION</a> value, which describes the gamma function to be used for color interpolation.
             
 
 </td>
@@ -148,8 +143,7 @@ Gets the name of the lookup key  of the shared matrix transform interface that i
 <a href="https://msdn.microsoft.com/2114ba2e-95df-466e-983f-a56491bf891c">SetSpreadMethod</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <a href="https://msdn.microsoft.com/9c9cadaf-6f38-4a56-942e-78617017a905">XPS_SPREAD_METHOD</a> value, which describes how the area outside of the gradient region is to be rendered.
+Sets the <a href="https://msdn.microsoft.com/9c9cadaf-6f38-4a56-942e-78617017a905">XPS_SPREAD_METHOD</a> value, which describes how the area outside of the gradient region is to be rendered.
             
 
 </td>
@@ -159,8 +153,7 @@ Gets the name of the lookup key  of the shared matrix transform interface that i
 <a href="https://msdn.microsoft.com/aabb0410-bdff-4b6b-8d8a-de1cc6fca68b">SetTransformLocal</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface pointer to a local, unshared matrix transform that is to be used for the brush.
+Sets the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface pointer to a local, unshared matrix transform that is to be used for the brush.
             
 
 </td>

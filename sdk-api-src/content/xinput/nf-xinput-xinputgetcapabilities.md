@@ -7,7 +7,7 @@ old-location: xinput\xinputgetcapabilities.htm
 old-project: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetCapabilities(DWORD,DWORD,XINPUT_CAPABILITIES*@)
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: XInputGetCapabilities, XInputGetCapabilities function [XInput Game Controller APIs], xinput.xinputgetcapabilities, xinput/XInputGetCapabilities
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ Retrieves the capabilities and features of a connected controller.
 
 ### -param dwUserIndex [in]
 
-Index of the user's controller. Can be a value in the range 0–3. For information about how this value is determined and how the value maps to indicators on the controller, see <a href="https://msdn.microsoft.com/library/Ee417001(v=VS.85).aspx">Multiple Controllers</a>. 
+Index of the user's controller. Can be a value in the range 0–3. For information about how this value is determined and how the value maps to indicators on the controller, see <a href="https://msdn.microsoft.com/en-us/library/Ee417001(v=VS.85).aspx">Multiple Controllers</a>. 
 
 
 ### -param dwFlags [in]
@@ -88,7 +88,7 @@ Any value of <i>dwflags</i> other than the above or 0 is illegal and will result
 
 ### -param pCapabilities [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/Ee419269(v=VS.85).aspx">XINPUT_CAPABILITIES</a> structure that receives the controller capabilities.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419269(v=VS.85).aspx">XINPUT_CAPABILITIES</a> structure that receives the controller capabilities.
 
 
 ## -returns
@@ -127,11 +127,11 @@ Windows 8 (XInput 1.4), DirectX SDK (XInput 1.3), Windows Vista (XInput 9.1.0)
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419267(v=VS.85).aspx">XInputGetState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419267(v=VS.85).aspx">XInputGetState</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419268(v=VS.85).aspx">XInputSetState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419268(v=VS.85).aspx">XInputSetState</a>
  
 
  

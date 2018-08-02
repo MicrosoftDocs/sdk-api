@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IValueProvider.htm
 old-project: WinAuto
 ms.assetid: e6adbc23-dbfe-4dd2-82d9-66ce16de3338
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IValueProvider, IValueProvider interface [Windows Accessibility], IValueProvider interface [Windows Accessibility],described, uiauto.uiauto_IValueProvider, uiauto_IValueProvider, uiautomationcore/IValueProvider, winauto.uiauto_IValueProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -128,12 +128,10 @@ The value of the control.
 
 
 
-
-        The value of the control may or may not be editable depending on the control and its settings.
+The value of the control may or may not be editable depending on the control and its settings.
         
 
-
-            Implemented on a Microsoft UI Automation provider that must support the <a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a> control pattern.
+Implemented on a Microsoft UI Automation provider that must support the <a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a> control pattern.
             
 
 

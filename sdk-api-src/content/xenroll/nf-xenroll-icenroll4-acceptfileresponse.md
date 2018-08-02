@@ -4,10 +4,10 @@ title: ICEnroll4::acceptFileResponse
 author: windows-sdk-content
 description: Accepts delivery of the credentials issued in response to an earlier call to createFileRequest, and it places the credentials in the appropriate store.
 old-location: security\icenroll4_acceptfileresponse.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 127863ca-843b-46c5-b375-fb0400e8b49b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CEnroll object [Security],acceptFileResponse method, ICEnroll4 interface [Security],acceptFileResponse method, ICEnroll4.acceptFileResponse, ICEnroll4::acceptFileResponse, _xen_icenroll4_acceptfileresponse, acceptFileResponse, acceptFileResponse method [Security], acceptFileResponse method [Security],CEnroll object, acceptFileResponse method [Security],ICEnroll4 interface, security.icenroll4_acceptfileresponse, xenroll/ICEnroll4::acceptFileResponse
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ Specifies the name of the file that contains the base64-encoded response.
 
 
 <h3>VB</h3>
-
-						If the method succeeds, the method returns <b>S_OK</b>.
+If the method succeeds, the method returns <b>S_OK</b>.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
 <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.

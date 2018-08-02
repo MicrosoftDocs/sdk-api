@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-You can call the <a href="https://msdn.microsoft.com/0293b40b-b1ea-45bb-aa0e-6f22d535e7cc">IFaxStatus::get_Receive</a> method to determine if a specified port is currently receiving a fax.
+You can call the <a href="https://msdn.microsoft.com/en-us/library/ms691932(v=VS.85).aspx">IFaxStatus::get_Receive</a> method to determine if a specified port is currently receiving a fax.
 
 
 
@@ -97,7 +97,7 @@ You can call the <a href="https://msdn.microsoft.com/0293b40b-b1ea-45bb-aa0e-6f2
 
 
 
-<a href="https://msdn.microsoft.com/0293b40b-b1ea-45bb-aa0e-6f22d535e7cc">Receive</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691932(v=VS.85).aspx">Receive</a>
  
 
  

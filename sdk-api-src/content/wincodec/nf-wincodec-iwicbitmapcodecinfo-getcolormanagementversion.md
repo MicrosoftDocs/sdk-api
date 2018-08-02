@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapcodecinfo_getcolormanagementversion.htm
 old-project: wic
 ms.assetid: 3d115306-615a-403b-95f8-3e2850928928
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetColorManagementVersion, GetColorManagementVersion method [Windows Imaging Component], GetColorManagementVersion method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetColorManagementVersion method, IWICBitmapCodecInfo.GetColorManagementVersion, IWICBitmapCodecInfo::GetColorManagementVersion, _wic_codec_iwicbitmapcodecinfo_getcolormanagementversion, wic._wic_codec_iwicbitmapcodecinfo_getcolormanagementversion, wincodec/IWICBitmapCodecInfo::GetColorManagementVersion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,8 +95,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-            The usage pattern for this method is a two call process.
+The usage pattern for this method is a two call process.
             The first call retrieves the buffer size needed to retrieve the full color management version number by calling it with <i>cchColorManagementVersion</i> set to <code>0</code> and <i>wzColorManagementVersion</i> set to <code>NULL</code>.
             This call sets <i>pcchActual</i> to the buffer size needed.
             Once the needed buffer size is determined, a second <b>GetColorManagementVersion</b> call with <i>cchColorManagementVersion</i> set to the buffer size and <i>wzColorManagementVersion</i> set to a buffer of the appropriate size will retrieve the pixel formats.

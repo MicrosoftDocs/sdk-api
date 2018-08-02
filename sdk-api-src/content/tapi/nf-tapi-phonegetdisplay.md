@@ -4,10 +4,10 @@ title: phoneGetDisplay function
 author: windows-sdk-content
 description: The phoneGetDisplay function returns the current contents of the specified phone display.
 old-location: tapi2\phonegetdisplay.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: f9176550-f48a-451d-be98-ad4bd593276b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "_tapi2_phonegetdisplay, phoneGetDisplay, phoneGetDisplay function [TAPI 2.2], tapi/phoneGetDisplay, tapi2.phonegetdisplay"
 ms.prod: windows
 ms.technology: windows-sdk

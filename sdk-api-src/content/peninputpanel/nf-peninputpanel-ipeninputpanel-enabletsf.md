@@ -168,7 +168,7 @@ If successful, text is sent to the attached control through TSF. Furthermore, if
 
 
 
-<a href="tablet.ipeninputpanel">IPenInputPanel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846809(v=VS.85).aspx">IPenInputPanel</a>
 
 
 

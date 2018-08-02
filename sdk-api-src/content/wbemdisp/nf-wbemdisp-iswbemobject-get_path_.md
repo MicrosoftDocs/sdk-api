@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_path_.htm
 old-project: WmiSdk
 ms.assetid: 85a55159-5f10-49b5-bc37-39d7b4dfccd7
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemObject interface [Windows Management Instrumentation],Path_ property, ISWbemObject.get_Path_, ISWbemObject::get_Path_, Path_ property [Windows Management Instrumentation], Path_ property [Windows Management Instrumentation],ISWbemObject interface, Path_ property [Windows Management Instrumentation],SWbemObject object, SWbemObject object [Windows Management Instrumentation],Path_ property, SWbemObject.Path_, _hmm_swbemobject.path_, get_Path_, wmi.swbemobject_path_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,8 +89,7 @@ Because of this, you cannot modify the
 
 However, if you call 
 <a href="https://msdn.microsoft.com/d0773c94-30b5-4217-8a9a-0bceb9e75f02">SWbemObject.Clone_</a> to create a copy, the 
-<a href="https://msdn.microsoft.com/cc0d2c56-bb69-4008-8688-0166714ea5fd">SWbemObjectPath.Path</a>
-     property of the copy is fully modifiable.
+<a href="https://msdn.microsoft.com/cc0d2c56-bb69-4008-8688-0166714ea5fd">SWbemObjectPath.Path</a>property of the copy is fully modifiable.
 
 
 #### Examples

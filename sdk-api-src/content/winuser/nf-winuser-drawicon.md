@@ -7,7 +7,7 @@ old-location: menurc\drawicon.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\drawicon.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: DrawIcon, DrawIcon function [Menus and Other Resources], _win32_DrawIcon, _win32_drawicon_cpp, menurc.drawicon, winui._win32_drawicon, winuser/DrawIcon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Draws an icon or cursor into the specified device context.
 
-To specify additional drawing options, use the <a href="https://msdn.microsoft.com/library/ms648065(v=VS.85).aspx">DrawIconEx</a> function.
+To specify additional drawing options, use the <a href="https://msdn.microsoft.com/en-us/library/ms648065(v=VS.85).aspx">DrawIconEx</a> function.
 
 
 ## -parameters
@@ -113,7 +113,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms648051(v=VS.85).aspx">Displaying an Icon</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648051(v=VS.85).aspx">Displaying an Icon</a>.
 
 <div class="code"></div>
 
@@ -128,19 +128,19 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648051(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648059(v=VS.85).aspx">CreateIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648059(v=VS.85).aspx">CreateIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648065(v=VS.85).aspx">DrawIconEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648065(v=VS.85).aspx">DrawIconEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646973(v=VS.85).aspx">Icons</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646973(v=VS.85).aspx">Icons</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648072(v=VS.85).aspx">LoadIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>
 
 
 

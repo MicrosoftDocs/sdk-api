@@ -7,7 +7,7 @@ old-location: wmp\iwmpsubscriptionservice_allowpdatransfer.htm
 old-project: WMP
 ms.assetid: a824c6c0-0887-41cb-892a-832635ade222
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPSubscriptionService interface [Windows Media Player],allowPDATransfer method, IWMPSubscriptionService.allowPDATransfer, IWMPSubscriptionService::allowPDATransfer, IWMPSubscriptionServiceallowPDATransfer, allowPDATransfer, allowPDATransfer method [Windows Media Player], allowPDATransfer method [Windows Media Player],IWMPSubscriptionService interface, subscriptionservices/IWMPSubscriptionService::allowPDATransfer, wmp.iwmpsubscriptionservice_allowpdatransfer
 ms.prod: windows
 ms.technology: windows-sdk

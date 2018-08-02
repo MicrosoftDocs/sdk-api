@@ -4,10 +4,10 @@ title: tagCOMPAREITEMSTRUCT
 author: windows-sdk-content
 description: Supplies the identifiers and application-supplied data for two items in a sorted, owner-drawn list box or combo box.
 old-location: controls\COMPAREITEMSTRUCT.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\compareitemstruct.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPCOMPAREITEMSTRUCT, *PCOMPAREITEMSTRUCT, COMPAREITEMSTRUCT, COMPAREITEMSTRUCT structure [Windows Controls], _win32_COMPAREITEMSTRUCT_str, _win32_COMPAREITEMSTRUCT_str_cpp, controls.COMPAREITEMSTRUCT, controls._win32_COMPAREITEMSTRUCT_str, tagCOMPAREITEMSTRUCT, winuser/COMPAREITEMSTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Supplies the identifiers and application-supplied data for two items in a sorted, owner-drawn list box or combo box.
 
-Whenever an application adds a new item to an owner-drawn list box or combo box created with the <a href="https://msdn.microsoft.com/library/Bb775796(v=VS.85).aspx">CBS_SORT</a> or <a href="https://msdn.microsoft.com/library/Bb775149(v=VS.85).aspx">LBS_SORT</a> style, the system sends the owner a <a href="https://msdn.microsoft.com/library/Bb775921(v=VS.85).aspx">WM_COMPAREITEM</a> message. The <i>lParam</i> parameter of the message contains a long pointer to a <b>COMPAREITEMSTRUCT</b> structure. Upon receiving the message, the owner compares the two items and returns a value indicating which item sorts before the other. 
+Whenever an application adds a new item to an owner-drawn list box or combo box created with the <a href="Combo_Box_Styles.htm">CBS_SORT</a> or <a href="List_Box_Styles.htm">LBS_SORT</a> style, the system sends the owner a <a href="https://msdn.microsoft.com/en-us/library/Bb775921(v=VS.85).aspx">WM_COMPAREITEM</a> message. The <i>lParam</i> parameter of the message contains a long pointer to a <b>COMPAREITEMSTRUCT</b> structure. Upon receiving the message, the owner compares the two items and returns a value indicating which item sorts before the other. 
 
 
 ## -struct-fields
@@ -124,7 +124,7 @@ The locale identifier. To create a locale identifier, use the <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775792(v=VS.85).aspx">Combo Boxes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775792(v=VS.85).aspx">Combo Boxes</a>
 
 
 
@@ -144,7 +144,7 @@ The locale identifier. To create a locale identifier, use the <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775921(v=VS.85).aspx">WM_COMPAREITEM</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775921(v=VS.85).aspx">WM_COMPAREITEM</a>
  
 
  

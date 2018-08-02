@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationStylesPattern_CurrentStyleName.htm
 old-project: WinAuto
 ms.assetid: 008044D6-9B7B-4E1B-B22D-7518C830E4D2
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CurrentStyleName property [Windows Accessibility], CurrentStyleName property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CurrentStyleName property, IUIAutomationStylesPattern.CurrentStyleName, IUIAutomationStylesPattern.get_CurrentStyleName, IUIAutomationStylesPattern::CurrentStyleName, IUIAutomationStylesPattern::get_CurrentStyleName, get_CurrentStyleName, uiautomationclient/IUIAutomationStylesPattern::CurrentStyleName, uiautomationclient/IUIAutomationStylesPattern::get_CurrentStyleName, winauto.uiauto_IUIAutomationStylesPattern_CurrentStyleName
 ms.prod: windows
 ms.technology: windows-sdk

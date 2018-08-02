@@ -7,7 +7,7 @@ old-location: winmsg\peekmessage.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\peekmessage.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: PM_NOREMOVE, PM_NOYIELD, PM_QS_INPUT, PM_QS_PAINT, PM_QS_POSTMESSAGE, PM_QS_SENDMESSAGE, PM_REMOVE, PeekMessage, PeekMessage function [Windows and Messages], PeekMessageA, PeekMessageW, _win32_PeekMessage, _win32_peekmessage_cpp, winmsg.peekmessage, winui._win32_peekmessage, winuser/PeekMessage, winuser/PeekMessageA, winuser/PeekMessageW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ Dispatches incoming sent messages, checks the thread message queue for a posted 
 
 Type: <b>LPMSG</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a> structure that receives message information.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure that receives message information.
 
 
 ### -param hWnd [in, optional]
@@ -85,9 +85,9 @@ A handle to the window whose messages are to be retrieved. The window must belon
 
 
 
-If <i>hWnd</i> is <b>NULL</b>, <b>PeekMessage</b> retrieves messages for any window that belongs to the current thread, and any messages on the current thread's message queue whose <b>hwnd</b> value is <b>NULL</b> (see the <a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a> structure). Therefore if hWnd is <b>NULL</b>, both window messages and thread messages are processed.
+If <i>hWnd</i> is <b>NULL</b>, <b>PeekMessage</b> retrieves messages for any window that belongs to the current thread, and any messages on the current thread's message queue whose <b>hwnd</b> value is <b>NULL</b> (see the <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure). Therefore if hWnd is <b>NULL</b>, both window messages and thread messages are processed.
 
- If <i>hWnd</i> is -1, <b>PeekMessage</b> retrieves only messages on the current thread's message queue whose <b>hwnd</b> value is <b>NULL</b>, that is, thread messages as posted by  <a href="https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx">PostMessage</a> (when the <i>hWnd</i> parameter is <b>NULL</b>) or <a href="https://msdn.microsoft.com/library/ms644946(v=VS.85).aspx">PostThreadMessage</a>.
+ If <i>hWnd</i> is -1, <b>PeekMessage</b> retrieves only messages on the current thread's message queue whose <b>hwnd</b> value is <b>NULL</b>, that is, thread messages as posted by  <a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a> (when the <i>hWnd</i> parameter is <b>NULL</b>) or <a href="https://msdn.microsoft.com/en-us/library/ms644946(v=VS.85).aspx">PostThreadMessage</a>.
 
 
 ### -param wMsgFilterMin [in]
@@ -233,11 +233,11 @@ If no messages are available, the return value is zero.
 
 
 
-<b>PeekMessage</b> retrieves messages associated with the window identified by the <i>hWnd</i> parameter or any of its children as specified by the <a href="https://msdn.microsoft.com/library/ms633524(v=VS.85).aspx">IsChild</a> function, and within the range of message values given by the <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> parameters. Note that an application can only use the low word in the <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> parameters; the high word is reserved for the system.
+<b>PeekMessage</b> retrieves messages associated with the window identified by the <i>hWnd</i> parameter or any of its children as specified by the <a href="https://msdn.microsoft.com/en-us/library/ms633524(v=VS.85).aspx">IsChild</a> function, and within the range of message values given by the <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> parameters. Note that an application can only use the low word in the <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> parameters; the high word is reserved for the system.
 
-Note that <b>PeekMessage</b> always retrieves <a href="https://msdn.microsoft.com/library/ms632641(v=VS.85).aspx">WM_QUIT</a> messages, no matter which values you specify for <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i>.
+Note that <b>PeekMessage</b> always retrieves <a href="https://msdn.microsoft.com/en-us/library/ms632641(v=VS.85).aspx">WM_QUIT</a> messages, no matter which values you specify for <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i>.
 
-During this call, the system delivers pending,  nonqueued messages, that is, messages sent to windows owned by the calling thread using the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a>, <a href="https://msdn.microsoft.com/library/ms644951(v=VS.85).aspx">SendMessageCallback</a>, <a href="https://msdn.microsoft.com/library/ms644952(v=VS.85).aspx">SendMessageTimeout</a>, or <a href="https://msdn.microsoft.com/library/ms644953(v=VS.85).aspx">SendNotifyMessage</a> function. Then the first queued message that matches the specified filter is retrieved. The system may also process internal events. If no filter is specified, messages are processed in the following order:
+During this call, the system delivers pending,  nonqueued messages, that is, messages sent to windows owned by the calling thread using the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a>, <a href="https://msdn.microsoft.com/en-us/library/ms644951(v=VS.85).aspx">SendMessageCallback</a>, <a href="https://msdn.microsoft.com/en-us/library/ms644952(v=VS.85).aspx">SendMessageTimeout</a>, or <a href="https://msdn.microsoft.com/en-us/library/ms644953(v=VS.85).aspx">SendNotifyMessage</a> function. Then the first queued message that matches the specified filter is retrieved. The system may also process internal events. If no filter is specified, messages are processed in the following order:
 
 <ul>
 <li>Sent messages </li>
@@ -247,7 +247,7 @@ During this call, the system delivers pending,  nonqueued messages, that is, mes
 <li>
 <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> messages </li>
 <li>
-<a href="https://msdn.microsoft.com/library/ms644902(v=VS.85).aspx">WM_TIMER</a> messages </li>
+<a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> messages </li>
 </ul>
 To retrieve input messages before posted messages, use the <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> parameters. 
 
@@ -261,7 +261,7 @@ This API does not participate in DPI virtualization. The output is in the mode o
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms644928(v=VS.85).aspx">Examining a Message Queue</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644928(v=VS.85).aspx">Examining a Message Queue</a>.
 
 <div class="code"></div>
 
@@ -276,19 +276,19 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms644928(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx">GetMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633524(v=VS.85).aspx">IsChild</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633524(v=VS.85).aspx">IsChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
 
 
 
@@ -304,7 +304,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms644928(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644956(v=VS.85).aspx">WaitMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644956(v=VS.85).aspx">WaitMessage</a>
  
 
  

@@ -4,10 +4,10 @@ title: CryptGetMessageSignerCount function
 author: windows-sdk-content
 description: The CryptGetMessageSignerCount function returns the number of signers of a signed message.
 old-location: security\cryptgetmessagesignercount.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: d18bda8b-b333-4b1e-8ed5-f8eff04b3168
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptGetMessageSignerCount, CryptGetMessageSignerCount function [Security], _crypto2_cryptgetmessagesignercount, security.cryptgetmessagesignercount, wincrypt/CryptGetMessageSignerCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CryptGetMessageSignerCount</b> function returns the number of signers of a signed message.
+The <b>CryptGetMessageSignerCount</b> function returns the number of signers of a signed message.
 
 
 ## -parameters
@@ -87,8 +86,7 @@ The size, in bytes, of the signed message.
 
 
 
-
-						Returns the number of signers of a signed message, zero when there are no signers, and minus one (–1) for an error.
+Returns the number of signers of a signed message, zero when there are no signers, and minus one (–1) for an error.
 
 For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. The following  error code is most commonly returned.
@@ -127,7 +125,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
  
 
  

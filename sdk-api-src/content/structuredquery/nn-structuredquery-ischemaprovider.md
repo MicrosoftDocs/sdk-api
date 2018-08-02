@@ -7,7 +7,7 @@ old-location: search\_search_ISchemaProvider.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\ischemaprovider.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: ISchemaProvider, ISchemaProvider interface [search], ISchemaProvider interface [search],described, _search_ISchemaProvider, search._search_ISchemaProvider, structuredquery/ISchemaProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-    	  Provides a schema repository that can be browsed.
+Provides a schema repository that can be browsed.
     	
 
 
@@ -73,28 +72,26 @@ The <b>ISchemaProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231324(v=VS.85).aspx">Entities</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231324(v=VS.85).aspx">Entities</a>
 </td>
 <td align="left" width="63%">
-
-        Retrieves an enumeration of <a href="https://msdn.microsoft.com/library/Bb231373(v=VS.85).aspx">IEntity</a> objects with one entry for each entity in the loaded schema.
+Retrieves an enumeration of <a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a> objects with one entry for each entity in the loaded schema.
       
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231325(v=VS.85).aspx">GetEntity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231325(v=VS.85).aspx">GetEntity</a>
 </td>
 <td align="left" width="63%">
-
-      Retrieves an entity by name from the loaded schema. 
+Retrieves an entity by name from the loaded schema. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231327(v=VS.85).aspx">Localize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231327(v=VS.85).aspx">Localize</a>
 </td>
 <td align="left" width="63%">
 Localizes the currently loaded schema for a specified locale.
@@ -103,7 +100,7 @@ Localizes the currently loaded schema for a specified locale.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231328(v=VS.85).aspx">LookupAuthoredNamedEntity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231328(v=VS.85).aspx">LookupAuthoredNamedEntity</a>
 </td>
 <td align="left" width="63%">
 Finds named entities of a specified type in a tokenized string, and returns the value of the entity and the number of tokens the entity value occupies. 
@@ -115,26 +112,24 @@ Finds named entities of a specified type in a tokenized string, and returns the 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn915567">MetaData</a>
 </td>
 <td align="left" width="63%">
-
-        Retrieves an enumeration of global <a href="https://msdn.microsoft.com/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects for the loaded schema.
+Retrieves an enumeration of global <a href="https://msdn.microsoft.com/en-us/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects for the loaded schema.
       
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231330(v=VS.85).aspx">RootEntity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231330(v=VS.85).aspx">RootEntity</a>
 </td>
 <td align="left" width="63%">
-
-        Retrieves the root entity of the loaded schema.
+Retrieves the root entity of the loaded schema.
       
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231331(v=VS.85).aspx">SaveBinary</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231331(v=VS.85).aspx">SaveBinary</a>
 </td>
 <td align="left" width="63%">
 Saves the loaded schema as a schema binary at a specified path.

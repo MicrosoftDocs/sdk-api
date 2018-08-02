@@ -7,7 +7,7 @@ old-location: smi\isettingsengine_getnamespaces.htm
 old-project: SMI
 ms.assetid: 0beb20a5-3dbf-48c8-9b0c-aa3dd094b59d
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetNamespaces, GetNamespaces method [SMI], GetNamespaces method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetNamespaces method, ISettingsEngine.GetNamespaces, ISettingsEngine::GetNamespaces, smi.isettingsengine_getnamespaces, wcmconfig/ISettingsEngine::GetNamespaces
 ms.prod: windows
 ms.technology: windows-sdk

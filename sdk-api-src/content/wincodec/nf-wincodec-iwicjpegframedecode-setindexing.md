@@ -7,7 +7,7 @@ old-location: wic\iwicjpegframedecode_setindexing.htm
 old-project: wic
 ms.assetid: D97A48E5-0398-460C-AFA9-2E1B8744926B
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWICJpegFrameDecode interface [Windows Imaging Component],SetIndexing method, IWICJpegFrameDecode.SetIndexing, IWICJpegFrameDecode::SetIndexing, SetIndexing, SetIndexing method [Windows Imaging Component], SetIndexing method [Windows Imaging Component],IWICJpegFrameDecode interface, wic.iwicjpegframedecode_setindexing, wincodec/IWICJpegFrameDecode::SetIndexing
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ The granularity of the indexing, in pixels.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns S_OK upon successful completion.
 
@@ -95,7 +95,6 @@ This method will fail if indexing is unsupported on the file.  <a href="https://
 
 
 The provided interval size controls horizontal spacing of index entries.  This value is internally rounded up according to the JPEG’s MCU (minimum coded unit) size, which is typically either 8 or 16 unscaled pixels.  The vertical size of the index interval is always equal to one MCU size.
-
 
 Indexes can be generated immediately, or during future calls to <a href="https://msdn.microsoft.com/d4908a75-e7de-4b8f-bdc8-d86cf6b49f8c">IWICBitmapSource::CopyPixels</a> to reduce redundant decompression work. 
 

@@ -7,7 +7,7 @@ old-location: buses\winusb_stoptrackingfortimesync.htm
 old-project: usbref
 ms.assetid: F38DBE34-A6D0-4492-A829-EFE53D361A71
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 07/29/2018
 ms.keywords: WinUsb_StopTrackingForTimeSync, WinUsb_StopTrackingForTimeSync function [Buses], buses.winusb_stoptrackingfortimesync, winusb/WinUsb_StopTrackingForTimeSync
 ms.prod: windows
 ms.technology: windows-sdk

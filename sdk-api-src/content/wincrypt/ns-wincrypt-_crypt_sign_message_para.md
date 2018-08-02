@@ -4,10 +4,10 @@ title: "_CRYPT_SIGN_MESSAGE_PARA"
 author: windows-sdk-content
 description: The CRYPT_SIGN_MESSAGE_PARA structure contains information for signing messages using a specified signing certificate context.
 old-location: security\crypt_sign_message_para.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 1601d860-6054-4650-a033-ea088655b7e4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCRYPT_SIGN_MESSAGE_PARA, CRYPT_SIGN_MESSAGE_PARA, CRYPT_SIGN_MESSAGE_PARA structure [Security], PCRYPT_SIGN_MESSAGE_PARA, PCRYPT_SIGN_MESSAGE_PARA structure pointer [Security], _CRYPT_SIGN_MESSAGE_PARA, _crypto2_crypt_sign_message_para, security.crypt_sign_message_para, wincrypt/CRYPT_SIGN_MESSAGE_PARA, wincrypt/PCRYPT_SIGN_MESSAGE_PARA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CRYPT_SIGN_MESSAGE_PARA</b> structure contains information for signing messages using a specified signing <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate context</a>.
+The <b>CRYPT_SIGN_MESSAGE_PARA</b> structure contains information for signing messages using a specified signing <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate context</a>.
 
 
 ## -struct-fields

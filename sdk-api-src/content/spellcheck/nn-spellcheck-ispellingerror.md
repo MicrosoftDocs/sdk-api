@@ -7,7 +7,7 @@ old-location: intl\ispellingerror.htm
 old-project: Intl
 ms.assetid: 90a233a4-44a4-4f8f-92bb-ea65fa213616
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: ISpellingError, ISpellingError interface [Internationalization for Windows Applications], ISpellingError interface [Internationalization for Windows Applications],described, intl.ispellingerror, spellcheck/ISpellingError
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # ISpellingError interface

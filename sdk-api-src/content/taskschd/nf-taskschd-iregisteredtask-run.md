@@ -4,10 +4,10 @@ title: IRegisteredTask::Run
 author: windows-sdk-content
 description: Runs the registered task immediately.
 old-location: taskschd\iregisteredtask_run.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 6b237ddd-e4e8-47f7-97e7-360e79841acc
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],Run method, IRegisteredTask.Run, IRegisteredTask::Run, Run, Run method [Task Scheduler], Run method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_run, taskschd/IRegisteredTask::Run
 ms.prod: windows
 ms.technology: windows-sdk

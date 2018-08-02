@@ -4,10 +4,10 @@ title: ITAddress::get_DialableAddress
 author: windows-sdk-content
 description: The get_DialableAddress method gets the BSTR which can be used to connect to this address. The BSTR corresponds to the destination address string that another application would use to connect to this address, such as a phone number or an e-mail name.
 old-location: tapi3\itaddress_get_dialableaddress.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 8d6dcbbe-3372-4346-8f5e-fb34b7aca88d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_DialableAddress method, ITAddress.get_DialableAddress, ITAddress::get_DialableAddress, _tapi3_itaddress_get_dialableaddress, get_DialableAddress, get_DialableAddress method [TAPI 2.2], get_DialableAddress method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_dialableaddress, tapi3if/ITAddress::get_DialableAddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,7 +121,7 @@ The <i>pDialableAddress</i> parameter is not a valid pointer.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>pDialableAddress</i> parameter.
+<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>pDialableAddress</i> parameter.
 			
 
 The availability of this value depends on the service provider. For example, on an address exposed by the Unimodem service provider, this method will return an empty string instead of a phone number.
@@ -138,7 +138,7 @@ The availability of this value depends on the service provider. For example, on 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms726017(v=VS.85).aspx">Dialable Addresses</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726017(v=VS.85).aspx">Dialable Addresses</a>
 
 
 

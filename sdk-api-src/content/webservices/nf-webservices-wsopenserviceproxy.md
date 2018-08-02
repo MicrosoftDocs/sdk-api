@@ -2,12 +2,12 @@
 UID: NF:webservices.WsOpenServiceProxy
 title: WsOpenServiceProxy function
 author: windows-sdk-content
-description: Opens a Service Proxy to a Service endpoint. On success client applications can make calls using the Service Proxy. The behavior of WsOpenServiceProxy is governed by the channel binding used.
+description: Opens a Service Proxy to a Service endpoint.
 old-location: wsw\wsopenserviceproxy.htm
 old-project: wsw
 ms.assetid: b8a0afc7-2004-419d-8ab2-ce197c7e396d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsOpenServiceProxy, WsOpenServiceProxy function [Web Services for Windows], webservices/WsOpenServiceProxy, wsw.wsopenserviceproxy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,7 @@ req.product: Windows Address Book 5.0
 Opens a Service Proxy to a Service endpoint.
             
 
-
-                On success client applications can make calls using the Service Proxy. 
+On success client applications can make calls using the Service Proxy. 
             The behavior of WsOpenServiceProxy is governed by the  <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">channel binding</a> used. 
 
 
@@ -73,8 +72,7 @@ A pointer to the <b>Service Proxy</b> to open.  The pointer must reference a val
 
 ### -param address [in]
 
-
-          A pointer to the address of the endpoint.
+A pointer to the address of the endpoint.
 
 
 ### -param asyncContext [in, optional]
@@ -106,8 +104,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    The asynchronous operation is still pending.
+The asynchronous operation is still pending.
                 
 
 </td>
@@ -119,9 +116,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-
-                The operation was aborted.
+The operation was aborted.
 
             
 
@@ -134,9 +129,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-
-                The operation is not allowed due to the current state of the object.
+The operation is not allowed due to the current state of the object.
 
             
 
@@ -149,7 +142,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint does not exist or could not be located.
 
 </td>
@@ -161,7 +153,6 @@ The remote endpoint does not exist or could not be located.
 </dl>
 </td>
 <td width="60%">
-
 Access was denied by the remote endpoint.
 
 </td>
@@ -173,7 +164,6 @@ Access was denied by the remote endpoint.
 </dl>
 </td>
 <td width="60%">
-
 The connection with the remote endpoint was terminated.
 
 </td>
@@ -185,7 +175,6 @@ The connection with the remote endpoint was terminated.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint could not process the request.
 
 </td>
@@ -197,7 +186,6 @@ The remote endpoint could not process the request.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint is not currently in service at this location.
 
 </td>
@@ -209,7 +197,6 @@ The remote endpoint is not currently in service at this location.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint is unable to process the request due to being overloaded.
 
 </td>
@@ -221,7 +208,6 @@ The remote endpoint is unable to process the request due to being overloaded.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint was not reachable.
 
 </td>
@@ -233,7 +219,6 @@ The remote endpoint was not reachable.
 </dl>
 </td>
 <td width="60%">
-
 The endpoint address URL is invalid.
 
 </td>
@@ -245,7 +230,6 @@ The endpoint address URL is invalid.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -257,7 +241,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 The operation did not complete within the time allotted.
 
 </td>
@@ -269,7 +252,6 @@ The operation did not complete within the time allotted.
 </dl>
 </td>
 <td width="60%">
-
 Access was denied by the HTTP proxy server.
 
 </td>
@@ -281,7 +263,6 @@ Access was denied by the HTTP proxy server.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server could not process the request.
 
 </td>
@@ -293,7 +274,6 @@ The HTTP proxy server could not process the request.
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -305,7 +285,6 @@ A quota was exceeded.
 </dl>
 </td>
 <td width="60%">
-
 Security verification was not successful for the received data.
 
 </td>
@@ -317,7 +296,6 @@ Security verification was not successful for the received data.
 </dl>
 </td>
 <td width="60%">
-
 A security operation failed in the Windows Web Services framework.
 
 </td>
@@ -329,7 +307,6 @@ A security operation failed in the Windows Web Services framework.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'basic'.
 
 </td>
@@ -341,7 +318,6 @@ The HTTP proxy server requires HTTP authentication scheme 'basic'.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'digest'.
 
 </td>
@@ -353,7 +329,6 @@ The HTTP proxy server requires HTTP authentication scheme 'digest'.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'negotiate'.
 
 </td>
@@ -365,7 +340,6 @@ The HTTP proxy server requires HTTP authentication scheme 'negotiate'.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'NTLM'.
 
 </td>
@@ -377,7 +351,6 @@ The HTTP proxy server requires HTTP authentication scheme 'NTLM'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'basic'.
 
 </td>
@@ -389,7 +362,6 @@ The remote endpoint requires HTTP authentication scheme 'basic'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'digest'.
 
 </td>
@@ -401,7 +373,6 @@ The remote endpoint requires HTTP authentication scheme 'digest'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'negotiate'.
 
 </td>
@@ -413,7 +384,6 @@ The remote endpoint requires HTTP authentication scheme 'negotiate'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'NTLM'.
 
 </td>
@@ -425,7 +395,6 @@ The remote endpoint requires HTTP authentication scheme 'NTLM'.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -437,7 +406,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>

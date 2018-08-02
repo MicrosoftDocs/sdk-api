@@ -7,7 +7,7 @@ old-location: menurc\drawiconex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\drawiconex.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: DI_COMPAT, DI_DEFAULTSIZE, DI_IMAGE, DI_MASK, DI_NOMIRROR, DI_NORMAL, DrawIconEx, DrawIconEx function [Menus and Other Resources], _win32_DrawIconEx, _win32_drawiconex_cpp, menurc.drawiconex, winui._win32_drawiconex, winuser/DrawIconEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -184,8 +184,7 @@ Draws the icon or cursor using the mask.
 </dl>
 </td>
 <td width="60%">
-
-						 Draws the icon as an unmirrored icon. By default, the icon is drawn as a mirrored icon if <i>hdc</i> is mirrored.
+Draws the icon as an unmirrored icon. By default, the icon is drawn as a mirrored icon if <i>hdc</i> is mirrored.
 
 </td>
 </tr>
@@ -238,19 +237,19 @@ To duplicate <code>DrawIcon (hDC, X, Y, hIcon)</code>, call <b>DrawIconEx</b> as
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648031(v=VS.85).aspx">CopyImage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648031(v=VS.85).aspx">CopyImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648064(v=VS.85).aspx">DrawIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648064(v=VS.85).aspx">DrawIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646973(v=VS.85).aspx">Icons</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646973(v=VS.85).aspx">Icons</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648045(v=VS.85).aspx">LoadImage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a>
 
 
 

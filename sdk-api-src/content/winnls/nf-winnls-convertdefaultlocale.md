@@ -7,7 +7,7 @@ old-location: intl\convertdefaultlocale.htm
 old-project: Intl
 ms.assetid: e227bb9f-f072-4e44-bd55-24c98b990a36
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: ConvertDefaultLocale, ConvertDefaultLocale function [Internationalization for Windows Applications], _win32_ConvertDefaultLocale, intl.convertdefaultlocale, winnls/ConvertDefaultLocale
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,8 +59,7 @@ req.product: Windows Address Book 5.0
 
 
 Converts a default locale value to an actual <a href="https://msdn.microsoft.com/ea45b0e5-7df7-47fb-8dad-fccfbe53fec0">locale identifier</a>.
-<div class="alert"><b>Note</b>  
-         This function is only provided for converting partial locale identifiers. Your applications should use locale names instead of identifiers. The <a href="https://msdn.microsoft.com/63233e3e-5b7c-43cb-9c62-88b0791c2647">LCIDToLocaleName</a> function can be used to convert a locale identifier to a valid locale name. Your application can also use <a href="https://msdn.microsoft.com/81b896de-1f06-4315-aa64-90806c0fed75">GetUserDefaultLocaleName</a> to retrieve the current user locale name; <a href="https://msdn.microsoft.com/1e925e41-64db-44aa-ab73-05d0f2036c8f">GetSystemDefaultLocaleName</a> to retrieve the current system locale name; and <a href="https://msdn.microsoft.com/20294ff2-b783-41a2-92a8-41cd974a2ccb">GetLocaleInfoEx</a> with <a href="https://msdn.microsoft.com/9823f675-8dc8-42c1-938f-22910434694e">LOCALE_SNAME</a> to retrieve the locale name for any input locale, including the default constants.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is only provided for converting partial locale identifiers. Your applications should use locale names instead of identifiers. The <a href="https://msdn.microsoft.com/63233e3e-5b7c-43cb-9c62-88b0791c2647">LCIDToLocaleName</a> function can be used to convert a locale identifier to a valid locale name. Your application can also use <a href="https://msdn.microsoft.com/81b896de-1f06-4315-aa64-90806c0fed75">GetUserDefaultLocaleName</a> to retrieve the current user locale name; <a href="https://msdn.microsoft.com/1e925e41-64db-44aa-ab73-05d0f2036c8f">GetSystemDefaultLocaleName</a> to retrieve the current system locale name; and <a href="https://msdn.microsoft.com/20294ff2-b783-41a2-92a8-41cd974a2ccb">GetLocaleInfoEx</a> with <a href="https://msdn.microsoft.com/9823f675-8dc8-42c1-938f-22910434694e">LOCALE_SNAME</a> to retrieve the locale name for any input locale, including the default constants.</div><div> </div>
 
 ## -parameters
 

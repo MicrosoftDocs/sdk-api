@@ -7,7 +7,7 @@ old-location: dshow\iamvideoacceleratornotify_setuncompsurfacesinfo.htm
 old-project: DirectShow
 ms.assetid: e82c73e6-d32e-4875-9f9d-124a1c6ce504
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMVideoAcceleratorNotify interface [DirectShow],SetUncompSurfacesInfo method, IAMVideoAcceleratorNotify.SetUncompSurfacesInfo, IAMVideoAcceleratorNotify::SetUncompSurfacesInfo, IAMVideoAcceleratorNotifySetUncompSurfacesInfo, SetUncompSurfacesInfo, SetUncompSurfacesInfo method [DirectShow], SetUncompSurfacesInfo method [DirectShow],IAMVideoAcceleratorNotify interface, dshow.iamvideoacceleratornotify_setuncompsurfacesinfo, videoacc/IAMVideoAcceleratorNotify::SetUncompSurfacesInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ The <b>SetUncompSurfacesInfo</b> method notifies the decoder of how many uncompr
 
 ### -param dwActualUncompSurfacesAllocated [in]
 
-
-            The number of surfaces allocated.
+The number of surfaces allocated.
           
 
 
@@ -143,8 +142,7 @@ Success.
 
 
 
-
-        The video renderer calls this method after it allocates uncompressed surfaces for video decoding.
+The video renderer calls this method after it allocates uncompressed surfaces for video decoding.
 
 
 

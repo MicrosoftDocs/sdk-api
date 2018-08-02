@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncservices.htm
 old-project: WMP
 ms.assetid: 57db3646-2f79-4087-98b2-2bc9d2f3c866
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPSyncServices, IWMPSyncServices interface [Windows Media Player], IWMPSyncServices interface [Windows Media Player],described, IWMPSyncServicesInterface, wmp.iwmpsyncservices, wmp/IWMPSyncServices
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,7 +93,6 @@ Retrieves a pointer to a device interface.
 </td>
 </tr>
 </table> 
-
 
 Retrieve a pointer to <b>IWMPSyncServices</b> by calling <b>QueryInterface</b> through <a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer</a>.
 

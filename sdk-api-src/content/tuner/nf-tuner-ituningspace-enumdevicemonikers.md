@@ -7,7 +7,7 @@ old-location: mstv\ituningspace_enumdevicemonikers.htm
 old-project: mstv
 ms.assetid: 4d1f9bcd-de94-4ea5-89a0-84042a514484
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: EnumDeviceMonikers, EnumDeviceMonikers method [Microsoft TV Technologies], EnumDeviceMonikers method [Microsoft TV Technologies],ITuningSpace interface, ITuningSpace interface [Microsoft TV Technologies],EnumDeviceMonikers method, ITuningSpace.EnumDeviceMonikers, ITuningSpace::EnumDeviceMonikers, ITuningSpaceEnumDeviceMonikers, mstv.ituningspace_enumdevicemonikers, tuner/ITuningSpace::EnumDeviceMonikers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ Address of an <b>IEnumMoniker</b> interface pointer that receives the returned e
 
 
 
-
-            Returns E_NOTIMPL.
+Returns E_NOTIMPL.
           
 
 
