@@ -86,9 +86,6 @@ The display remains on even if there is no user input for an extended period of 
 
 The system continues to run instead of entering sleep after a period of user inactivity. 
                                 
-                                
-
-This request type is not honored on systems capable of connected standby. Applications should use <b>PowerRequestExecutionRequired</b> requests instead.
 
 
 
