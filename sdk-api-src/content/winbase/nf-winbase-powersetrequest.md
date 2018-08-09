@@ -86,7 +86,6 @@ The display remains on even if there is no user input for an extended period of 
 
 The system continues to run instead of entering sleep after a period of user inactivity. 
                                 
-                                
 
 
 
