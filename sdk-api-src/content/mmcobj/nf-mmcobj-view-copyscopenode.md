@@ -7,7 +7,7 @@ old-location: mmc\view_copyscopenode.htm
 old-project: MMC
 ms.assetid: 997f48fb-5b8f-43e3-8451-c1c1f80ba3b3
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: CopyScopeNode, CopyScopeNode method [MMC], CopyScopeNode method [MMC],View interface, CopyScopeNode method [MMC],View object, View interface [MMC],CopyScopeNode method, View object [MMC],CopyScopeNode method, View.CopyScopeNode, View::CopyScopeNode, _slate_view.copyscopenode_method, mmc.view_copyscopenode
 ms.prod: windows
 ms.technology: windows-sdk

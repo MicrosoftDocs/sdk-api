@@ -7,7 +7,7 @@ old-location: shell\ICDBurn_GetRecorderDriveLetter.htm
 old-project: shell
 ms.assetid: 5ee10152-6823-49bb-836d-3e0cf6c2bb0b
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetRecorderDriveLetter, GetRecorderDriveLetter method [Windows Shell], GetRecorderDriveLetter method [Windows Shell],ICDBurn interface, ICDBurn interface [Windows Shell],GetRecorderDriveLetter method, ICDBurn.GetRecorderDriveLetter, ICDBurn::GetRecorderDriveLetter, _shell_ICDBurn_GetRecorderDriveLetter, shell.ICDBurn_GetRecorderDriveLetter, shobjidl/ICDBurn::GetRecorderDriveLetter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,12 +88,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-			The drive whose letter designation is returned by this method is the drive that has the <b>Enable cd writing on this drive</b> option selected. This option is found on the drive's property sheet. Only one drive on a system can have this option selected.
+The drive whose letter designation is returned by this method is the drive that has the <b>Enable cd writing on this drive</b> option selected. This option is found on the drive's property sheet. Only one drive on a system can have this option selected.
 			
 
-
-			If a recordable CD drive is present but that option has been deselected, the method will return an error code.
+If a recordable CD drive is present but that option has been deselected, the method will return an error code.
 			
 
 

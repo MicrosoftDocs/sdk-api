@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRangeValueProvider_SetValue.htm
 old-project: WinAuto
 ms.assetid: 3ce214a0-e7ff-440a-a308-fea5608e13f0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],SetValue method, IRangeValueProvider.SetValue, IRangeValueProvider::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],IRangeValueProvider interface, uiauto.uiauto_IRangeValueProvider_SetValue, uiauto_IRangeValueProvider_SetValue, uiautomationcore/IRangeValueProvider::SetValue, winauto.uiauto_IRangeValueProvider_SetValue
 ms.prod: windows
 ms.technology: windows-sdk

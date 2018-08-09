@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccolorcontext_getprofilebytes.htm
 old-project: wic
 ms.assetid: 59427a49-ef68-4680-b6d8-4ffa2a1913b8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetProfileBytes, GetProfileBytes method [Windows Imaging Component], GetProfileBytes method [Windows Imaging Component],IWICColorContext interface, IWICColorContext interface [Windows Imaging Component],GetProfileBytes method, IWICColorContext.GetProfileBytes, IWICColorContext::GetProfileBytes, _wic_codec_iwiccolorcontext_getprofilebytes, wic._wic_codec_iwiccolorcontext_getprofilebytes, wincodec/IWICColorContext::GetProfileBytes
 ms.prod: windows
 ms.technology: windows-sdk

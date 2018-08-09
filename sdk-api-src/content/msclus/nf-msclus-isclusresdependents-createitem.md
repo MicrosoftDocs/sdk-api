@@ -7,7 +7,7 @@ old-location: mscs\clusresdependents_createitem.htm
 old-project: mscs
 ms.assetid: e696bee0-7ca4-47ec-a29a-b13e445a72de
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: CLUSTER_RESOURCE_DEFAULT_MONITOR, CLUSTER_RESOURCE_SEPARATE_MONITOR, ClusResDependents class [Failover Cluster],CreateItem method, ClusResDependents.CreateItem, CreateItem, CreateItem method [Failover Cluster], CreateItem method [Failover Cluster],ClusResDependents class, ISClusResDependents.CreateItem, ISClusResDependents::CreateItem, _wolf_clusresdependents.createitem, mscs.clusresdependents_createitem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,12 +106,6 @@ Causes the Cluster service to create a separate Resource Monitor dedicated exclu
 
 
 
-#### - GroupName
-
-<b>String</b> containing the name of the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> to which the new resource will belong.
-
-
 #### - ResourceName
 
 <b>String</b> containing the name of the resource to create.
@@ -120,6 +114,12 @@ Causes the Cluster service to create a separate Resource Monitor dedicated exclu
 #### - ResourceType
 
 <b>String</b> specifying the type of the resource to create.
+
+
+#### - GroupName
+
+<b>String</b> containing the name of the 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> to which the new resource will belong.
 
 
 ## -returns

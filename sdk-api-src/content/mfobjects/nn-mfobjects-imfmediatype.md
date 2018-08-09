@@ -7,7 +7,7 @@ old-location: mf\imfmediatype.htm
 old-project: medfound
 ms.assetid: f1d60bec-71e4-4fcc-a020-92754b6f3c02
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFMediaType, IMFMediaType interface [Media Foundation], IMFMediaType interface [Media Foundation],described, f1d60bec-71e4-4fcc-a020-92754b6f3c02, mf.imfmediatype, mfobjects/IMFMediaType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Represents a description of a media format.
+Represents a description of a media format.
         
 
 
@@ -124,12 +123,10 @@ Compares two media types and determines whether they are identical.
 
 
 
-
-        To create a new media type, call <a href="https://msdn.microsoft.com/05b0941e-03ce-4ced-9022-22b65d1c4b4c">MFCreateMediaType</a>.
+To create a new media type, call <a href="https://msdn.microsoft.com/05b0941e-03ce-4ced-9022-22b65d1c4b4c">MFCreateMediaType</a>.
       
 
-
-        All of the information in a media type is stored as attributes. To clone a media type, call <a href="https://msdn.microsoft.com/111b55bc-fb8e-45b5-a709-703acd23c4be">IMFAttributes::CopyAllItems</a>.
+All of the information in a media type is stored as attributes. To clone a media type, call <a href="https://msdn.microsoft.com/111b55bc-fb8e-45b5-a709-703acd23c4be">IMFAttributes::CopyAllItems</a>.
       
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:

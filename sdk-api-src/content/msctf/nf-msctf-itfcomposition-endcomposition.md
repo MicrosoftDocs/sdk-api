@@ -7,7 +7,7 @@ old-location: tsf\itfcomposition_endcomposition.htm
 old-project: TSF
 ms.assetid: b5717c03-2611-4199-b07d-b6f3b6f65d3a
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: EndComposition, EndComposition method [Text Services Framework], EndComposition method [Text Services Framework],ITfComposition interface, ITfComposition interface [Text Services Framework],EndComposition method, ITfComposition.EndComposition, ITfComposition::EndComposition, _tsf_itfcomposition_endcomposition_ref, msctf/ITfComposition::EndComposition, tsf.itfcomposition_endcomposition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -136,14 +136,12 @@ This method causes the GUID_PROP_COMPOSING property to be removed from the text 
 
 
 
-<a href="https://msdn.microsoft.com/950ba2b3-cb12-4697-a4b2-1c87373b9a23">
-        ITFContextOwnerCompositionServices::TerminateComposition
+<a href="https://msdn.microsoft.com/950ba2b3-cb12-4697-a4b2-1c87373b9a23">ITFContextOwnerCompositionServices::TerminateComposition
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b1eb5782-13e3-4cbb-8c37-ce7219d1e838">
-        ITfComposition
+<a href="https://msdn.microsoft.com/b1eb5782-13e3-4cbb-8c37-ce7219d1e838">ITfComposition
       </a>
 
 

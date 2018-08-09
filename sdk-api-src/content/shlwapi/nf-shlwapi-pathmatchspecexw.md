@@ -7,7 +7,7 @@ old-location: shell\PathMatchSpecEx.htm
 old-project: shell
 ms.assetid: bd9bf950-e349-4b67-8608-7acad84c0907
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PMSF_DONT_STRIP_SPACES, PMSF_MULTIPLE, PMSF_NORMAL, PathMatchSpecEx, PathMatchSpecEx function [Windows Shell], PathMatchSpecExA, PathMatchSpecExW, _win32_PathMatchSpecEx, shell.PathMatchSpecEx, shlwapi/PathMatchSpecEx, shlwapi/PathMatchSpecExA, shlwapi/PathMatchSpecExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,9 +103,9 @@ The <i>pszSpec</i> parameter points to a semicolon-delimited list of file name p
 If <b>PMSF_NORMAL</b> is used, ignore leading spaces in the string pointed to by <i>pszSpec</i>. If <b>PMSF_MULTIPLE</b> is used, ignore leading spaces in each file type contained in the string pointed to by <i>pszSpec</i>. This flag can be combined with <b>PMSF_NORMAL</b> and <b>PMSF_MULTIPLE</b>.
 
 
-##### - dwFlags.PMSF_DONT_STRIP_SPACES (0x00010000)
+##### - dwFlags.PMSF_NORMAL (0x00000000)
 
-If <b>PMSF_NORMAL</b> is used, ignore leading spaces in the string pointed to by <i>pszSpec</i>. If <b>PMSF_MULTIPLE</b> is used, ignore leading spaces in each file type contained in the string pointed to by <i>pszSpec</i>. This flag can be combined with <b>PMSF_NORMAL</b> and <b>PMSF_MULTIPLE</b>.
+The <i>pszSpec</i> parameter points to a single file name pattern to be matched.
 
 
 ##### - dwFlags.PMSF_MULTIPLE (0x00000001)
@@ -113,9 +113,9 @@ If <b>PMSF_NORMAL</b> is used, ignore leading spaces in the string pointed to by
 The <i>pszSpec</i> parameter points to a semicolon-delimited list of file name patterns to be matched.
 
 
-##### - dwFlags.PMSF_NORMAL (0x00000000)
+##### - dwFlags.PMSF_DONT_STRIP_SPACES (0x00010000)
 
-The <i>pszSpec</i> parameter points to a single file name pattern to be matched.
+If <b>PMSF_NORMAL</b> is used, ignore leading spaces in the string pointed to by <i>pszSpec</i>. If <b>PMSF_MULTIPLE</b> is used, ignore leading spaces in each file type contained in the string pointed to by <i>pszSpec</i>. This flag can be combined with <b>PMSF_NORMAL</b> and <b>PMSF_MULTIPLE</b>.
 
 
 ## -returns

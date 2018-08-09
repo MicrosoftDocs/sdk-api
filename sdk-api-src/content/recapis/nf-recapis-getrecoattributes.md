@@ -7,7 +7,7 @@ old-location: tablet\getrecoattributes.htm
 old-project: tablet
 ms.assetid: 45683203-1886-4542-8b66-84861862cb6a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 45683203-1886-4542-8b66-84861862cb6a, GetRecoAttributes, GetRecoAttributes function [Tablet PC], recapis/GetRecoAttributes, tablet.getrecoattributes
 ms.prod: windows
 ms.technology: windows-sdk

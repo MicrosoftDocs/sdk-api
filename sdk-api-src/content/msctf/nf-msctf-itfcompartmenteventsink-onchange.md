@@ -7,7 +7,7 @@ old-location: tsf\itfcompartmenteventsink_onchange.htm
 old-project: TSF
 ms.assetid: 1756754c-6353-4296-bdb5-1cbef1d29ec5
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfCompartmentEventSink interface [Text Services Framework],OnChange method, ITfCompartmentEventSink.OnChange, ITfCompartmentEventSink::OnChange, OnChange, OnChange method [Text Services Framework], OnChange method [Text Services Framework],ITfCompartmentEventSink interface, _tsf_itfcompartmenteventsink_onchange_ref, msctf/ITfCompartmentEventSink::OnChange, tsf.itfcompartmenteventsink_onchange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,8 +95,7 @@ When this method is called, the data has changed. The new data can be obtained a
 
 
 
-<a href="https://msdn.microsoft.com/1a1a175f-a24e-4f83-92d3-ac6a24f5f486">
-        ITfCompartment::SetValue
+<a href="https://msdn.microsoft.com/1a1a175f-a24e-4f83-92d3-ac6a24f5f486">ITfCompartment::SetValue
       </a>
 
 

@@ -7,7 +7,7 @@ old-location: dwm\dwmgetgraphicsstreamclient.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetgraphicsstreamclient.htm
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 08/06/2018
 ms.keywords: DwmGetGraphicsStreamClient, DwmGetGraphicsStreamClient function [Desktop Window Manager], _udwm_dwmgetgraphicsstreamclient, _udwm_dwmgetgraphicsstreamclient_cpp, dwm.dwmgetgraphicsstreamclient, dwmapi/DwmGetGraphicsStreamClient, winui._udwm_dwmgetgraphicsstreamclient
 ms.prod: windows
 ms.technology: windows-sdk

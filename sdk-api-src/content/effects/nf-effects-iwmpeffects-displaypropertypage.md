@@ -7,7 +7,7 @@ old-location: wmp\iwmpeffects_displaypropertypage.htm
 old-project: WMP
 ms.assetid: dadde782-577d-4dcb-b8ae-2f6ddca77a40
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/30/2018
 ms.keywords: DisplayPropertyPage, DisplayPropertyPage method [Windows Media Player], DisplayPropertyPage method [Windows Media Player],IWMPEffects interface, EffectsDisplayPropertyPage, IWMPEffects interface [Windows Media Player],DisplayPropertyPage method, IWMPEffects.DisplayPropertyPage, IWMPEffects::DisplayPropertyPage, effects/IWMPEffects::DisplayPropertyPage, wmp.iwmpeffects_displaypropertypage
 ms.prod: windows
 ms.technology: windows-sdk

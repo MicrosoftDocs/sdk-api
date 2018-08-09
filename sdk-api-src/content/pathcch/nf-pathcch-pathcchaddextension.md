@@ -7,7 +7,7 @@ old-location: shell\PathCchAddExtension.htm
 old-project: shell
 ms.assetid: c37b438b-39e7-4f24-b076-2401900dab71
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PathCchAddExtension, PathCchAddExtension function [Windows Shell], pathcch/PathCchAddExtension, shell.PathCchAddExtension
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: automat\varor.htm
 old-project: automat
 ms.assetid: 8c161755-4fdd-48bd-9dc4-6510cc9ce8ab
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarOr, VarOr function [Automation], _oa96_VarOr, automat.varor, oleauto/VarOr
 ms.prod: windows
 ms.technology: windows-sdk

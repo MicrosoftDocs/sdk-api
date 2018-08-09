@@ -7,7 +7,7 @@ old-location: eaphost\eapmethodauthenticatorbeginsession.htm
 old-project: eaphost
 ms.assetid: 02364783-71e4-4af0-95a2-a4ade7e17521
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapMethodAuthenticatorBeginSession, EapMethodAuthenticatorBeginSession function [EAPHost], eaphost.eapmethodauthenticatorbeginsession, eapmethodauthenticatorapis/EapMethodAuthenticatorBeginSession
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,14 @@ Creates a new EAP authentication session on the server EAPHost.
 A combination of <a href="https://msdn.microsoft.com/b6305349-3418-475e-8a37-2c06b399556e">EAP flags</a> that describe the  EAP authentication session behavior.
 
 
-### -param bInitialId
-
-TBD
-
-
-### -param pwszIdentity [in]
+### -param bInitialId [in]
 
 A zero-terminated Unicode string that contains the identity of the user to authenticate.
+
+
+### -param pwszIdentity
+
+TBD
 
 
 ### -param pAttributeArray [in]
@@ -81,14 +81,14 @@ A zero-terminated Unicode string that contains the identity of the user to authe
 A pointer to an <a href="https://msdn.microsoft.com/2f88b475-a4ae-4c40-b0f8-2dd05c676619">EapAttributes</a> array structure that specifies the EAP attributes of the entity to authenticate.
 
 
-### -param dwSizeofConnectionData
-
-TBD
-
-
-### -param pConnectionData [in]
+### -param dwSizeofConnectionData [in]
 
 A pointer to a buffer that contains the opaque configuration data BLOB.
+
+
+### -param pConnectionData
+
+TBD
 
 
 ### -param dwMaxSendPacketSize [in]

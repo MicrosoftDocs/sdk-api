@@ -7,7 +7,7 @@ old-location: nps\SDO_isdoservicecontrol_stopservice.htm
 old-project: nps
 ms.assetid: a90e4d12-589b-4d28-89e6-6c0ec6900b0a
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: ISdoServiceControl interface [Network Policy Server],StopService method, ISdoServiceControl.StopService, ISdoServiceControl::StopService, StopService, StopService method [Network Policy Server], StopService method [Network Policy Server],ISdoServiceControl interface, _sdo_isdoservicecontrol_stopservice, nps.SDO_isdoservicecontrol_stopservice, sdo.isdoservicecontrol_stopservice, sdoias/ISdoServiceControl::StopService
 ms.prod: windows
 ms.technology: windows-sdk

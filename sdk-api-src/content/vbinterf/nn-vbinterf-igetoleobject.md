@@ -7,7 +7,7 @@ old-location: com\igetoleobject.htm
 old-project: com
 ms.assetid: 2cdc35e7-ab0b-4b12-920c-9eac0d9b5a0c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IGetOleObject, IGetOleObject interface [COM], IGetOleObject interface [COM],described, _com_IGetOleObject, com.igetoleobject, vbinterf/IGetOleObject
 ms.prod: windows
 ms.technology: windows-sdk

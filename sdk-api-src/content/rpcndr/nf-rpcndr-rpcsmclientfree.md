@@ -7,7 +7,7 @@ old-location: rpc\rpcsmclientfree.htm
 old-project: rpc
 ms.assetid: b3e9a526-7b78-49a6-9550-e3f682cecfb8
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcSmClientFree, RpcSmClientFree function [RPC], _rpc_rpcsmclientfree, rpc.rpcsmclientfree, rpcndr/RpcSmClientFree
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,13 +61,6 @@ The
 
 
 ### -param pNodeToFree
-
-TBD
-
-
-
-
-#### - NodeToFree
 
 Pointer to memory returned from a client stub.
 

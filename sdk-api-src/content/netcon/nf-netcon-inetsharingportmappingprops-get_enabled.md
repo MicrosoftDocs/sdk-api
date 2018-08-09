@@ -7,7 +7,7 @@ old-location: ics\inetsharingportmappingprops_get_enabled.htm
 old-project: ics
 ms.assetid: ad8c20d5-e9af-4c9d-af05-69decd24dae2
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_Enabled method, INetSharingPortMappingProps.get_Enabled, INetSharingPortMappingProps::get_Enabled, get_Enabled, get_Enabled method [ICS/ICF], get_Enabled method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_enabled, netcon/INetSharingPortMappingProps::get_Enabled
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ The
 ### -param pbool [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">VARIANT_BOOL</a> variable that receives the status of the port mapping.
+<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">VARIANT_BOOL</a> variable that receives the status of the port mapping.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: gdi\playenhmetafile.htm
 old-project: gdi
 ms.assetid: 51e8937b-0c42-49fe-8930-7af303fce788
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PlayEnhMetaFile, PlayEnhMetaFile function [Windows GDI], _win32_PlayEnhMetaFile, gdi.playenhmetafile, wingdi/PlayEnhMetaFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,24 +66,12 @@ The <b>PlayEnhMetaFile</b> function displays the picture stored in the specified
 A handle to the device context for the output device on which the picture will appear.
 
 
-### -param hmf
-
-TBD
-
-
-### -param lprect
-
-TBD
-
-
-
-
-#### - hemf [in]
+### -param hmf [in]
 
 A handle to the enhanced metafile.
 
 
-#### - lpRect [in]
+### -param lprect [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that contains the coordinates of the bounding rectangle used to display the picture. The coordinates are specified in logical units.
 

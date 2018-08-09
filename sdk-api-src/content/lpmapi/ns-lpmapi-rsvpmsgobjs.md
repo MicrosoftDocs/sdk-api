@@ -7,7 +7,7 @@ old-location: qos\rsvp_msg_objs.htm
 old-project: qos
 ms.assetid: 4ca0bfbc-7c1b-4395-b0fb-487e5c36b5d8
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: RSVP_MSG_OBJS, RSVP_MSG_OBJS structure [QOS], lpmapi/RSVP_MSG_OBJS, qos.rsvp_msg_objs, rsvpmsgobjs
 ms.prod: windows
 ms.technology: windows-sdk

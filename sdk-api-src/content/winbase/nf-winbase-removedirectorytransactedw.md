@@ -4,10 +4,10 @@ title: RemoveDirectoryTransactedW function
 author: windows-sdk-content
 description: Deletes an existing empty directory as a transacted operation.
 old-location: fs\removedirectorytransacted.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: e8600166-62dc-4398-9e16-43b07f7f0b89
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: RemoveDirectoryTransacted, RemoveDirectoryTransacted function [Files], RemoveDirectoryTransactedA, RemoveDirectoryTransactedW, fs.removedirectorytransacted, winbase/RemoveDirectoryTransacted, winbase/RemoveDirectoryTransactedA, winbase/RemoveDirectoryTransactedW
 ms.prod: windows
 ms.technology: windows-sdk

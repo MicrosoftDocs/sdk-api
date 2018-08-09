@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_CompareElements.htm
 old-project: WinAuto
 ms.assetid: e4daa3c3-24fb-41df-a1b1-bd6545a47e51
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CompareElements, CompareElements method [Windows Accessibility], CompareElements method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CompareElements method, IUIAutomation.CompareElements, IUIAutomation::CompareElements, uiauto.uiauto_IUIAutomation_CompareElements, uiauto_IUIAutomation_CompareElements, uiautomationclient/IUIAutomation::CompareElements, winauto.uiauto_IUIAutomation_CompareElements
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

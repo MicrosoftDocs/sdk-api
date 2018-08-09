@@ -4,10 +4,10 @@ title: IWRdsProtocolConnection::PreDisconnect
 author: windows-sdk-content
 description: Notifies the protocol that the session is about to be disconnected.
 old-location: termserv\iwrdsprotocolconnection_predisconnect.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 988032B5-94AA-40ED-B571-E7C2E652D023
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],PreDisconnect method, IWRdsProtocolConnection.PreDisconnect, IWRdsProtocolConnection::PreDisconnect, PreDisconnect, PreDisconnect method [Remote Desktop Services], PreDisconnect method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_predisconnect, wtsprotocol/IWRdsProtocolConnection::PreDisconnect
 ms.prod: windows
 ms.technology: windows-sdk

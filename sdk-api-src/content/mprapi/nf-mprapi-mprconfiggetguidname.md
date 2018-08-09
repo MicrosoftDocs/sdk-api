@@ -7,7 +7,7 @@ old-location: rras\mprconfiggetguidname.htm
 old-project: rras
 ms.assetid: 017662f7-7974-4598-a729-19181ccdfbe0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprConfigGetGuidName, MprConfigGetGuidName function [RAS], _mpr_mprconfiggetguidname, mprapi/MprConfigGetGuidName, rras.mprconfiggetguidname
 ms.prod: windows
 ms.technology: windows-sdk

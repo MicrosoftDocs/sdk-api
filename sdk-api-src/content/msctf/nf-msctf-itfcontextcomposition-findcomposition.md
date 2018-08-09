@@ -7,7 +7,7 @@ old-location: tsf\itfcontextcomposition_findcomposition.htm
 old-project: TSF
 ms.assetid: f5a7bd54-3b8f-44fd-ae6e-1415cc69c49e
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: FindComposition, FindComposition method [Text Services Framework], FindComposition method [Text Services Framework],ITfContextComposition interface, ITfContextComposition interface [Text Services Framework],FindComposition method, ITfContextComposition.FindComposition, ITfContextComposition::FindComposition, _tsf_itfcontextcomposition_findcomposition_ref, msctf/ITfContextComposition::FindComposition, tsf.itfcontextcomposition_findcomposition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -150,8 +150,7 @@ The edit context identified by <i>ecRead</i> does not have a read-only lock.
 
 
 
-<a href="https://msdn.microsoft.com/d842b367-a605-4ed0-887d-89dfcf6893a6">
-        IEnumITfCompositionView
+<a href="https://msdn.microsoft.com/d842b367-a605-4ed0-887d-89dfcf6893a6">IEnumITfCompositionView
       </a>
 
 
@@ -165,8 +164,7 @@ The edit context identified by <i>ecRead</i> does not have a read-only lock.
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">
-        ITfRange
+<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
       </a>
  
 

@@ -4,10 +4,10 @@ title: EnclaveVerifyAttestationReport function
 author: windows-sdk-content
 description: Verifies an attestation report that was generated on the current system.
 old-location: base\enclaveverifyattestationreport.htm
-old-project: Memory
+old-project: memory
 ms.assetid: D74F89FB-9F06-4AA1-9E2E-C9265B3C5B44
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EnclaveVerifyAttestationReport, EnclaveVerifyAttestationReport function, base.enclaveverifyattestationreport, winenclaveapi/EnclaveVerifyAttestationReport
 ms.prod: windows
 ms.technology: windows-sdk

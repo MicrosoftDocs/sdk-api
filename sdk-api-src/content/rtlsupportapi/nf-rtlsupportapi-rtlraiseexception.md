@@ -7,7 +7,7 @@ old-location: winprog\rtlraiseexception.htm
 old-project: devnotes
 ms.assetid: 0d43418a-1c80-4f5e-a0fe-5bc3adac847c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: RtlRaiseException, RtlRaiseException function [Windows API], rtlsupportapi/RtlRaiseException, winprog.rtlraiseexception
 ms.prod: windows
 ms.technology: windows-sdk

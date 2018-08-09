@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_getavailablevidmem.htm
 old-project: directdraw
 ms.assetid: f7bfa81c-8e21-44ec-bed4-9b92aa099f00
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetAvailableVidMem, GetAvailableVidMem method [DirectDraw], GetAvailableVidMem method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetAvailableVidMem method, IDirectDraw7.GetAvailableVidMem, IDirectDraw7::GetAvailableVidMem, ddraw/IDirectDraw7::GetAvailableVidMem, directdraw.idirectdraw7_getavailablevidmem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,14 +70,14 @@ Retrieves the total amount of display memory available and the amount of display
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550292">DDSCAPS2</a> structure that indicates the hardware capabilities of the proposed surface.
 
 
-#### - lpdwFree [out]
-
-A pointer to a variable that receives the amount of display memory currently free that can be allocated for a surface that matches the capabilities specified by the structure at <i>lpDDSCaps2</i>.
-
-
 #### - lpdwTotal [out]
 
 A pointer to a variable that receives the total amount of display memory available, in bytes. The value received reflects the total video memory, minus the video memory required for the primary surface and any private caches that the display driver reserves.
+
+
+#### - lpdwFree [out]
+
+A pointer to a variable that receives the amount of display memory currently free that can be allocated for a surface that matches the capabilities specified by the structure at <i>lpDDSCaps2</i>.
 
 
 ## -returns

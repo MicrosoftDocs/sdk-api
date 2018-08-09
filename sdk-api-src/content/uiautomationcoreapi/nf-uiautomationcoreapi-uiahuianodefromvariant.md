@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaHUiaNodeFromVariantFunction.htm
 old-project: WinAuto
 ms.assetid: 9927a058-a470-4b0e-86ae-494a8ab0ec2c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: UiaHUiaNodeFromVariant, UiaHUiaNodeFromVariant function [Windows Accessibility], uiauto.uiauto_UiaHUiaNodeFromVariantFunction, uiauto_UiaHUiaNodeFromVariantFunction, uiautomationcoreapi/UiaHUiaNodeFromVariant, winauto.uiauto_UiaHUiaNodeFromVariantFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,11 @@ req.product: Windows XP with SP1 and later
 
 
 
-### -param pvar
+### -param pvar [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>*</b>
+
+The node.
 
 
 ### -param phnode [out]
@@ -70,13 +72,6 @@ Type: <b>HUIANODE*</b>
 
 The address of a variable that receives the HUIANODE.
 				This parameter is passed uninitialized.
-
-
-#### - par [in]
-
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>*</b>
-
-The node.
 
 
 ## -returns

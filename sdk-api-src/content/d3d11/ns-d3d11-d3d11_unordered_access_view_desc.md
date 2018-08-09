@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_unordered_access_view_desc.htm
 old-project: direct3d11
 ms.assetid: 884b5498-7f10-4a44-a947-bc7d93fa0cbf
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 66d569bb-5ee1-ef49-184c-1e392e6a777a, D3D11_UNORDERED_ACCESS_VIEW_DESC, D3D11_UNORDERED_ACCESS_VIEW_DESC structure [Direct3D 11], d3d11/D3D11_UNORDERED_ACCESS_VIEW_DESC, direct3d11.d3d11_unordered_access_view_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,9 @@ Specifies the subresources from a resource that are accessible using an unordere
 
 ### -field Format
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
 
-The data format (see <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>).
+The data format (see <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>).
 
 
 ### -field ViewDimension

@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice_createauthenticatedchannel.htm
 old-project: medfound
 ms.assetid: 4325E83F-23BF-4104-B30E-27DBE7D23D88
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: CreateAuthenticatedChannel, CreateAuthenticatedChannel method [Media Foundation], CreateAuthenticatedChannel method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateAuthenticatedChannel method, ID3D11VideoDevice.CreateAuthenticatedChannel, ID3D11VideoDevice::CreateAuthenticatedChannel, d3d11/ID3D11VideoDevice::CreateAuthenticatedChannel, mf.id3d11videodevice_createauthenticatedchannel
 ms.prod: windows
 ms.technology: windows-sdk

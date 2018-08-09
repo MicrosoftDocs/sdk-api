@@ -7,7 +7,7 @@ old-location: dhcp\dhcpservergetconfig.htm
 old-project: dhcp
 ms.assetid: 79fa7f78-35ae-4f40-bf3d-3c8f6f323776
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpServerGetConfig, DhcpServerGetConfig function [DHCP], dhcp.dhcpservergetconfig, dhcpsapi/DhcpServerGetConfig
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpServerGetConfig</b> function returns the specific configuration settings of a DHCP server. Configuration information includes information on the JET database used to store subnet and client lease information, and the supported protocols.
+The <b>DhcpServerGetConfig</b> function returns the specific configuration settings of a DHCP server. Configuration information includes information on the JET database used to store subnet and client lease information, and the supported protocols.
 
 
 ## -parameters
@@ -87,8 +86,7 @@ This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it
 
 
 
-<a href="https://msdn.microsoft.com/3c7226fd-703c-4981-b82b-180b4070d671">
-        DHCP_SERVER_CONFIG_INFO</a>
+<a href="https://msdn.microsoft.com/3c7226fd-703c-4981-b82b-180b4070d671">DHCP_SERVER_CONFIG_INFO</a>
 
 
 

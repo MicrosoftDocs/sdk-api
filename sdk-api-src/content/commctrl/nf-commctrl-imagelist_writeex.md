@@ -7,7 +7,7 @@ old-location: controls\ImageList_WriteEx.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_writeex.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ILP_DOWNLEVEL, ILP_NORMAL, ImageList_WriteEx, ImageList_WriteEx function [Windows Controls], _win32_ImageList_WriteEx, _win32_ImageList_WriteEx_cpp, commctrl/ImageList_WriteEx, controls.ImageList_WriteEx, controls._win32_ImageList_WriteEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,6 @@ req.irql:
 ## -description
 
 
-
 Writes an image list to a stream.
 
 
@@ -64,8 +63,7 @@ Writes an image list to a stream.
 
 Type: <b>HIMAGELIST</b>
 
-
-		A handle to the image list. 
+A handle to the image list. 
 		
 
 
@@ -73,8 +71,7 @@ Type: <b>HIMAGELIST</b>
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-
-		A flag that specifies how the stream is written.
+A flag that specifies how the stream is written.
 
 
 
@@ -89,8 +86,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 </dl>
 </td>
 <td width="60%">
-
-			Writes to the stream using the file format for <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Common Controls 6.0</a>, which includes information about image list attributes new to this version.  
+Writes to the stream using the file format for <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Common Controls 6.0</a>, which includes information about image list attributes new to this version.  
 			
 
 </td>
@@ -101,8 +97,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 </dl>
 </td>
 <td width="60%">
-
-			Writes to the stream using a file format previous to version 6.0.  Specify this flag if you need to save image lists loaded under Common Controls versions earlier than version 6.0.
+Writes to the stream using a file format previous to version 6.0.  Specify this flag if you need to save image lists loaded under Common Controls versions earlier than version 6.0.
 			
 
 </td>
@@ -115,8 +110,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b>LPSTREAM</b>
 
-
-		The address of the stream. 
+The address of the stream. 
 		
 
 
@@ -135,11 +129,10 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-
-	You should not create an image list that is written with the ILP_DOWNLEVEL flag with <a href="https://msdn.microsoft.com/library/Bb761522(v=VS.85).aspx">ILC_COLOR32</a>.  
+You should not create an image list that is written with the ILP_DOWNLEVEL flag with <a href="https://msdn.microsoft.com/en-us/library/Bb761522(v=VS.85).aspx">ILC_COLOR32</a>.  
 	
 
-To use <b>ImageList_WriteEx</b>, the application must specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ImageList_WriteEx</b>, the application must specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 
@@ -149,15 +142,15 @@ To use <b>ImageList_WriteEx</b>, the application must specify Comctl32.dll versi
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761560(v=VS.85).aspx">ImageList_Read</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761560(v=VS.85).aspx">ImageList_Read</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761562(v=VS.85).aspx">ImageList_ReadEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761562(v=VS.85).aspx">ImageList_ReadEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775228(v=VS.85).aspx">ImageList_Write</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775228(v=VS.85).aspx">ImageList_Write</a>
 
 
 

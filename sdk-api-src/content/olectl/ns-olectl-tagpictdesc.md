@@ -7,7 +7,7 @@ old-location: com\pictdesc.htm
 old-project: com
 ms.assetid: eb1f1de7-dcfe-4c1c-8737-f5ab4d7977d6
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPPICTDESC, LPPICTDESC, LPPICTDESC structure pointer [COM], PICTDESC, PICTDESC structure [COM], _ctrl_PICTDESC, com.pictdesc, olectl/LPPICTDESC, olectl/PICTDESC, tagPICTDESC"
 ms.prod: windows
 ms.technology: windows-sdk

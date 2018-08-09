@@ -7,7 +7,7 @@ old-location: fwp\fwpmconnectionenum0.htm
 old-project: fwp
 ms.assetid: ad4c8759-f1f8-460f-b1e1-78149ce3b386
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmConnectionEnum0, FwpmConnectionEnum0 function [Filtering], fwp.fwpmconnectionenum0, fwpmu/FwpmConnectionEnum0
 ms.prod: windows
 ms.technology: windows-sdk

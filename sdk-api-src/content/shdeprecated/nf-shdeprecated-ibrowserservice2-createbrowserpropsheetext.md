@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_CreateBrowserPropSheetExt.htm
 old-project: shell
 ms.assetid: 2738e62b-5577-416b-952e-18a189fc717f
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: CreateBrowserPropSheetExt, CreateBrowserPropSheetExt method [Windows Shell], CreateBrowserPropSheetExt method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],CreateBrowserPropSheetExt method, IBrowserService2.CreateBrowserPropSheetExt, IBrowserService2::CreateBrowserPropSheetExt, shdeprecated/IBrowserService2::CreateBrowserPropSheetExt, shell.IBrowserService2_CreateBrowserPropSheetExt, zone_IBrowserService2_CreateBrowserPropSheetExt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ The IID of the interface pointer that should be returned in the <i>ppv</i> param
 
 Type: <b>void**</b>
 
-
-          The address of a pointer to the interface pointer requested in the <i>riid</i> parameter.
+The address of a pointer to the interface pointer requested in the <i>riid</i> parameter.
         
 
 

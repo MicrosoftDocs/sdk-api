@@ -7,7 +7,7 @@ old-location: gdi\getpixel.htm
 old-project: gdi
 ms.assetid: 46d17e95-93ce-4a43-b86c-489d6e3afe12
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetPixel, GetPixel function [Windows GDI], _win32_GetPixel, gdi.getpixel, wingdi/GetPixel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,24 +68,12 @@ The <b>GetPixel</b> function retrieves the red, green, blue (RGB) color value of
 A handle to the device context.
 
 
-### -param x
-
-TBD
-
-
-### -param y
-
-TBD
-
-
-
-
-#### - nXPos [in]
+### -param x [in]
 
 The x-coordinate, in logical units, of the pixel to be examined.
 
 
-#### - nYPos [in]
+### -param y [in]
 
 The y-coordinate, in logical units, of the pixel to be examined.
 

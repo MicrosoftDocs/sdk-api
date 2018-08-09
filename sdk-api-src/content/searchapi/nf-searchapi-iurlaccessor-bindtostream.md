@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_BindToStream.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\bindtostream.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: BindToStream, BindToStream method [search], BindToStream method [search],IUrlAccessor interface, IUrlAccessor interface [search],BindToStream method, IUrlAccessor.BindToStream, IUrlAccessor::BindToStream, _search_IUrlAccessor_BindToStream, search._search_IUrlAccessor_BindToStream, searchapi/IUrlAccessor::BindToStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-        Binds the item being processed to an <a href="https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a> data stream and retrieves a pointer to that stream.
+Binds the item being processed to an <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a> data stream and retrieves a pointer to that stream.
         
 
 
@@ -65,8 +64,7 @@ req.product: ADAM
 
 Type: <b>IStream**</b>
 
-
-                Receives the address of a pointer to the <a href="https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx">IStream</a> that contains the item represented by the URL.
+Receives the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> that contains the item represented by the URL.
                 
 
 
@@ -85,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
- Using the information returned by the <a href="https://msdn.microsoft.com/library/Bb231418(v=VS.85).aspx">IUrlAccessor::GetFileName</a>, <a href="https://msdn.microsoft.com/library/Bb231416(v=VS.85).aspx">IUrlAccessor::GetCLSID</a>, and <a href="https://msdn.microsoft.com/library/Bb231417(v=VS.85).aspx">IUrlAccessor::GetDocFormat</a> methods, the appropriate content <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a>object is created and passed to this stream by the IPersistStream interface.
+ Using the information returned by the <a href="https://msdn.microsoft.com/en-us/library/Bb231418(v=VS.85).aspx">IUrlAccessor::GetFileName</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb231416(v=VS.85).aspx">IUrlAccessor::GetCLSID</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb231417(v=VS.85).aspx">IUrlAccessor::GetDocFormat</a> methods, the appropriate content <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>object is created and passed to this stream by the IPersistStream interface.
             
 
 

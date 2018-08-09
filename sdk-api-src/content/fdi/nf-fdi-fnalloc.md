@@ -7,7 +7,7 @@ old-location: winprog\fnalloc.htm
 old-project: devnotes
 ms.assetid: 3104267d-3efd-40da-a8b6-af2acf379ff8
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FNALLOC, FNALLOC macro [Windows API], fdi/FNALLOC, winprog.fnalloc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,15 +60,6 @@ The <b>FNALLOC</b> provides the declaration for the application-defined callback
 
 
 ### -param fn
-
-TBD
-
-
-
-
-
-
-#### - cb
 
 The number of bytes to allocate.
 

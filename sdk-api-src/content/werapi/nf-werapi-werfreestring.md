@@ -7,7 +7,7 @@ old-location: wer\werfreestring.htm
 old-project: wer
 ms.assetid: 748AEFD4-3310-4BC1-A3DA-CFACBA31F2FC
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 08/06/2018
 ms.keywords: WerFreeString, WerFreeString function [Windows Error Reporting], wer.werfreestring, werapi/WerFreeString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,13 +62,6 @@ Frees up the memory used to store a report key string. This should be called aft
 
 
 ### -param pwszStr
-
-TBD
-
-
-
-
-#### - reportKey
 
 The string to be freed (value set to <b>NULL</b>).
 

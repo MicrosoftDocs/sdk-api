@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice_getmanufacturer.htm
 old-project: WMDM
 ms.assetid: 42e862e4-bfbc-4fca-b5df-001416173d6e
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: GetManufacturer, GetManufacturer method [windows Media Device Manager], GetManufacturer method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetManufacturer method, IWMDMDevice.GetManufacturer, IWMDMDevice::GetManufacturer, IWMDMDeviceGetManufacturer, mswmdm/IWMDMDevice::GetManufacturer, wmdm.iwmdmdevice_getmanufacturer
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager_EnumerateRoots.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\enumerateroots.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: EnumerateRoots, EnumerateRoots method [search], EnumerateRoots method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],EnumerateRoots method, ISearchCrawlScopeManager.EnumerateRoots, ISearchCrawlScopeManager::EnumerateRoots, _search_ISearchCrawlScopeManager_EnumerateRoots, search._search_ISearchCrawlScopeManager_EnumerateRoots, searchapi/ISearchCrawlScopeManager::EnumerateRoots
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-            Returns an enumeration of all the roots of which this instance of the <a href="https://msdn.microsoft.com/library/Bb266492(v=VS.85).aspx">ISearchCrawlScopeManager</a> is aware.
+Returns an enumeration of all the roots of which this instance of the <a href="https://msdn.microsoft.com/en-us/library/Bb266492(v=VS.85).aspx">ISearchCrawlScopeManager</a> is aware.
         
 
 
@@ -63,10 +62,9 @@ req.product: ADAM
 
 ### -param ppSearchRoots [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a>**</b>
 
-
-                    Returns a pointer to an <a href="https://msdn.microsoft.com/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a> interface.
+Returns a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a> interface.
                 
 
 
@@ -76,8 +74,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Bb266504(v=VS.85).aspx">IEn
 
 Type: <b>HRESULT</b>
 
-
-                    Returns S_OK if successful, S_FALSE if there are no roots to enumerate, or an error value otherwise.
+Returns S_OK if successful, S_FALSE if there are no roots to enumerate, or an error value otherwise.
                 
 
 

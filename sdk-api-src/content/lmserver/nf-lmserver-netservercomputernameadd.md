@@ -7,7 +7,7 @@ old-location: netmgmt\netservercomputernameadd.htm
 old-project: netmgmt
 ms.assetid: 0789fbfe-be91-4849-a31c-1e1a6ae1e70d
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: NetServerComputerNameAdd, NetServerComputerNameAdd function [Network Management], _win32_netservercomputernameadd, lmserver/NetServerComputerNameAdd, netmgmt.netservercomputernameadd
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\insertat_method_in_class_chstringarray.htm
 old-project: WmiSdk
 ms.assetid: 1d6355bc-7df2-4aa3-8e47-0239d726ed7d
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/03/2018
 ms.keywords: CHStringArray.InsertAt, CHStringArray::InsertAt, CHStringArray::InsertAt methods [Windows Management Instrumentation], InsertAt, chstrarr/CHStringArray::InsertAt, wmi.insertat_method_in_class_chstringarray
 ms.prod: windows
 ms.technology: windows-sdk

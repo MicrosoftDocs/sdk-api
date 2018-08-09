@@ -7,7 +7,7 @@ old-location: tsf\tf_selection.htm
 old-project: TSF
 ms.assetid: c844a6d1-b3b9-49cf-83a6-1ee8b3bd2d54
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: TF_SELECTION, TF_SELECTION structure [Text Services Framework], _tsf_tf_selection_ref, msctf/TF_SELECTION, tsf.tf_selection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,20 +82,17 @@ A <a href="https://msdn.microsoft.com/3a38172b-611b-445f-be24-ea2a19178255">TF_S
 
 
 
-<a href="https://msdn.microsoft.com/1cf50b5e-6ec2-4649-9acc-743a2e3d8096">
-        ITfContext::SetSelection
+<a href="https://msdn.microsoft.com/1cf50b5e-6ec2-4649-9acc-743a2e3d8096">ITfContext::SetSelection
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">
-        ITfRange
+<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/3a38172b-611b-445f-be24-ea2a19178255">
-        TF_SELECTIONSTYLE
+<a href="https://msdn.microsoft.com/3a38172b-611b-445f-be24-ea2a19178255">TF_SELECTIONSTYLE
       </a>
  
 

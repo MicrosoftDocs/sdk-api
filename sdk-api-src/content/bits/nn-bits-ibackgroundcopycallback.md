@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopycallback.htm
 old-project: bits
 ms.assetid: e1aa6775-d1e5-4463-ae0f-32c0498881e1
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyCallback, IBackgroundCopyCallback interface [BITS], IBackgroundCopyCallback interface [BITS],described, _drz_ibackgroundcopycallback, bits.ibackgroundcopycallback, bits/IBackgroundCopyCallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-			Implement the 
+Implement the 
 <b>IBackgroundCopyCallback</b> interface to 
 <a href="https://msdn.microsoft.com/29350ea4-f7a9-4a42-a531-2cf623fe247b">receive notification</a> that a job is complete, has been modified, or is in error. Clients use this interface instead of  <a href="https://msdn.microsoft.com/b12ee1e0-d3d9-4d31-b2af-7491480968f0">polling for the status of the job</a>.
 			

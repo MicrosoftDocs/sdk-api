@@ -7,7 +7,7 @@ old-location: gdi\getenhmetafileheader.htm
 old-project: gdi
 ms.assetid: c42bcbe2-2e8f-42bd-a8e3-2827c6563300
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetEnhMetaFileHeader, GetEnhMetaFileHeader function [Windows GDI], _win32_GetEnhMetaFileHeader, gdi.getenhmetafileheader, wingdi/GetEnhMetaFileHeader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,24 +67,12 @@ The <b>GetEnhMetaFileHeader</b> function retrieves the record containing the hea
 A handle to the enhanced metafile for which the header is to be retrieved.
 
 
-### -param nSize
-
-TBD
-
-
-### -param lpEnhMetaHeader
-
-TBD
-
-
-
-
-#### - cbBuffer [in]
+### -param nSize [in]
 
 The size, in bytes, of the buffer to receive the data. Only this many bytes will be copied.
 
 
-#### - lpemh [out]
+### -param lpEnhMetaHeader [out]
 
 A pointer to an <a href="https://msdn.microsoft.com/8e5f9a51-a995-48be-b936-1766fccb603a">ENHMETAHEADER</a> structure that receives the header record. If this parameter is <b>NULL</b>, the function returns the size of the header record.
 

@@ -7,7 +7,7 @@ old-location: shell\SIZETToInt64_1.htm
 old-project: shell
 ms.assetid: fee8914c-8acb-41e9-b239-3844a4ef1289
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SIZETToInt64, SIZETToInt64 function [Windows Shell], ULongPtrToLongLong, _shell_SIZETToInt64, intsafe/SIZETToInt64, shell.SIZETToInt64, shell.SIZETToInt64_1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,26 +59,14 @@ Converts a value of type <b>SIZE_T</b> to a value of type <b>INT64</b>.
 
 
 
-### -param ulOperand
-
-TBD
-
-
-### -param pllResult
-
-TBD
-
-
-
-
-#### - cbOperand [in]
+### -param ulOperand [in]
 
 Type: <b>SIZE_T</b>
 
 The value to be converted.
 
 
-#### - pi64Result [out]
+### -param pllResult [out]
 
 Type: <b>INT64*</b>
 

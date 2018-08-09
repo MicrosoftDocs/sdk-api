@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectinputconnector.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinputconnector\imilbitmapeffectinputconnector.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IMILBitmapEffectInputConnector, IMILBitmapEffectInputConnector interface [WPF Bitmap Effects], IMILBitmapEffectInputConnector interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectinputconnector, mileffects/IMILBitmapEffectInputConnector, wibe._wibe_imilbitmapeffectinputconnector
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IMILBitmapEffectInputConnector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735272(v=VS.85).aspx">ConnectTo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735272(v=VS.85).aspx">ConnectTo</a>
 </td>
 <td align="left" width="63%">
 Connects the input connector to the given output connector.
@@ -80,10 +80,10 @@ Connects the input connector to the given output connector.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735273(v=VS.85).aspx">GetConnection</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735273(v=VS.85).aspx">GetConnection</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/library/ms735267(v=VS.85).aspx">IMILBitmapEffectOutputConnector</a> the input connector is connected to.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/ms735267(v=VS.85).aspx">IMILBitmapEffectOutputConnector</a> the input connector is connected to.
 
 </td>
 </tr>

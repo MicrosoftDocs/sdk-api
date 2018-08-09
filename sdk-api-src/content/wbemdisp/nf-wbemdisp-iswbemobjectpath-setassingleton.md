@@ -7,7 +7,7 @@ old-location: wmi\swbemobjectpath_setassingleton.htm
 old-project: WmiSdk
 ms.assetid: 7ec53954-2aac-494c-87c7-6a14592d8bd5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemObjectPath interface [Windows Management Instrumentation],SetAsSingleton method, ISWbemObjectPath.SetAsSingleton, ISWbemObjectPath::SetAsSingleton, SWbemObjectPath object [Windows Management Instrumentation],SetAsSingleton method, SWbemObjectPath.SetAsSingleton, SetAsSingleton, SetAsSingleton method [Windows Management Instrumentation], SetAsSingleton method [Windows Management Instrumentation],ISWbemObjectPath interface, SetAsSingleton method [Windows Management Instrumentation],SWbemObjectPath object, _hmm_swbemobjectpath.setassingleton, wmi.swbemobjectpath_setassingleton
 ms.prod: windows
 ms.technology: windows-sdk

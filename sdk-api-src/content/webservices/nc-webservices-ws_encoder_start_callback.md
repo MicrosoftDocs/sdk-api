@@ -7,7 +7,7 @@ old-location: wsw\ws_encoder_start_callback.htm
 old-project: wsw
 ms.assetid: 308e3d24-e3df-4dc8-a727-d3d8ebe8d5d4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_ENCODER_START_CALLBACK, WS_ENCODER_START_CALLBACK callback, WS_ENCODER_START_CALLBACK callback function [Web Services for Windows], webservices/WS_ENCODER_START_CALLBACK, wsw.ws_encoder_start_callback
 ms.prod: windows
 ms.technology: windows-sdk

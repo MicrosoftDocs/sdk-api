@@ -7,7 +7,7 @@ old-location: controls\PropSheetProc.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propsheetproc.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: PFNPROPSHEETCALLBACK, PSCB_BUTTONPRESSED, PSCB_INITIALIZED, PSCB_PRECREATE, PropSheetProc, PropSheetProc callback, PropSheetProc callback function [Windows Controls], _win32_PropSheetProc, _win32_PropSheetProc_cpp, controls.PropSheetProc, controls._win32_PropSheetProc, prsht/PFNPROPSHEETCALLBACK, prsht/PropSheetProc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,6 +82,78 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Handle to the property sheet dialog box.
 
 
+#### - uMsg
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+Message being received. This parameter is one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="PSCB_BUTTONPRESSED"></a><a id="pscb_buttonpressed"></a><dl>
+<dt><b>PSCB_BUTTONPRESSED</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0</a> and later. Indicates the user pressed a button in the property sheet dialog box. To enable this, specify PSH_USECALLBACK in <a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PROPSHEETHEADER.dwFlags</a> and specify the name of this callback function in <b>PROPSHEETHEADER.pfnCallback</b>. The <i>lParam</i> value is one of the following. Note that only PSBTN_CANCEL is valid when you are using the Aero wizard style (<b>PSH_AEROWIZARD</b>).
+
+<table class="clsStd">
+<tr>
+<th>Button pressed</th>
+<th>lParam value</th>
+</tr>
+<tr>
+<td>OK</td>
+<td>PSBTN_OK</td>
+</tr>
+<tr>
+<td>Cancel</td>
+<td>PSBTN_CANCEL</td>
+</tr>
+<tr>
+<td>Apply</td>
+<td>PSBTN_APPLYNOW</td>
+</tr>
+<tr>
+<td>Close</td>
+<td>PSBTN_FINISH</td>
+</tr>
+</table>
+ 
+
+Note that Comctl32.dll versions 6 and later are not redistributable. To use these versions of Comctl32.dll, specify the particular version in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PSCB_INITIALIZED"></a><a id="pscb_initialized"></a><dl>
+<dt><b>PSCB_INITIALIZED</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that the property sheet is being initialized. The <i>lParam</i> value is zero for this message.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PSCB_PRECREATE"></a><a id="pscb_precreate"></a><dl>
+<dt><b>PSCB_PRECREATE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that the property sheet is about to be created. The <i>hwndDlg</i> parameter is <b>NULL</b>, and the <i>lParam</i> parameter is the address of a dialog template in memory. This template is in the form of a <a href="https://msdn.microsoft.com/en-us/library/ms645394(v=VS.85).aspx">DLGTEMPLATE</a> or <a href="https://msdn.microsoft.com/en-us/library/ms645398(v=VS.85).aspx">DLGTEMPLATEEX</a> structure followed by one or more <a href="https://msdn.microsoft.com/en-us/library/ms644997(v=VS.85).aspx">DLGITEMTEMPLATE</a> structures. This message is not applicable if you are using the Aero wizard style (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).
+
+</td>
+</tr>
+</table>
+ 
+
+
 #### - lParam
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
@@ -90,7 +162,7 @@ Additional information about the message. The meaning of this value depends on t
 
 If <i>uMsg</i> is  PSCB_INITIALIZED or PSCB_BUTTONPRESSED, the value of <i>lParam</i> is zero.
 
-If <i>uMsg</i> is PSCB_PRECREATE, then <i>lParam</i> will be a pointer to either a  <a href="https://msdn.microsoft.com/library/ms645394(v=VS.85).aspx">DLGTEMPLATE</a> or <a href="https://msdn.microsoft.com/library/ms645398(v=VS.85).aspx">DLGTEMPLATEEX</a> structure describing the property sheet dialog box. Test the signature of the structure to determine the type. If signature is equal to 0xFFFF then the structure is an extended dialog template, otherwise the structure is a standard dialog template.
+If <i>uMsg</i> is PSCB_PRECREATE, then <i>lParam</i> will be a pointer to either a  <a href="https://msdn.microsoft.com/en-us/library/ms645394(v=VS.85).aspx">DLGTEMPLATE</a> or <a href="https://msdn.microsoft.com/en-us/library/ms645398(v=VS.85).aspx">DLGTEMPLATEEX</a> structure describing the property sheet dialog box. Test the signature of the structure to determine the type. If signature is equal to 0xFFFF then the structure is an extended dialog template, otherwise the structure is a standard dialog template.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -124,78 +196,6 @@ If <i>uMsg</i> is PSCB_PRECREATE, then <i>lParam</i> will be a pointer to either
 </tr>
 </table></span></div>
 
-#### - uMsg
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
-
-Message being received. This parameter is one of the following values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="PSCB_BUTTONPRESSED"></a><a id="pscb_buttonpressed"></a><dl>
-<dt><b>PSCB_BUTTONPRESSED</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0</a> and later. Indicates the user pressed a button in the property sheet dialog box. To enable this, specify PSH_USECALLBACK in <a href="https://msdn.microsoft.com/library/Bb774546(v=VS.85).aspx">PROPSHEETHEADER.dwFlags</a> and specify the name of this callback function in <b>PROPSHEETHEADER.pfnCallback</b>. The <i>lParam</i> value is one of the following. Note that only PSBTN_CANCEL is valid when you are using the Aero wizard style (<b>PSH_AEROWIZARD</b>).
-
-<table class="clsStd">
-<tr>
-<th>Button pressed</th>
-<th>lParam value</th>
-</tr>
-<tr>
-<td>OK</td>
-<td>PSBTN_OK</td>
-</tr>
-<tr>
-<td>Cancel</td>
-<td>PSBTN_CANCEL</td>
-</tr>
-<tr>
-<td>Apply</td>
-<td>PSBTN_APPLYNOW</td>
-</tr>
-<tr>
-<td>Close</td>
-<td>PSBTN_FINISH</td>
-</tr>
-</table>
- 
-
-Note that Comctl32.dll versions 6 and later are not redistributable. To use these versions of Comctl32.dll, specify the particular version in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PSCB_INITIALIZED"></a><a id="pscb_initialized"></a><dl>
-<dt><b>PSCB_INITIALIZED</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that the property sheet is being initialized. The <i>lParam</i> value is zero for this message.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PSCB_PRECREATE"></a><a id="pscb_precreate"></a><dl>
-<dt><b>PSCB_PRECREATE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that the property sheet is about to be created. The <i>hwndDlg</i> parameter is <b>NULL</b>, and the <i>lParam</i> parameter is the address of a dialog template in memory. This template is in the form of a <a href="https://msdn.microsoft.com/library/ms645394(v=VS.85).aspx">DLGTEMPLATE</a> or <a href="https://msdn.microsoft.com/library/ms645398(v=VS.85).aspx">DLGTEMPLATEEX</a> structure followed by one or more <a href="https://msdn.microsoft.com/library/ms644997(v=VS.85).aspx">DLGITEMTEMPLATE</a> structures. This message is not applicable if you are using the Aero wizard style (<a href="https://msdn.microsoft.com/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).
-
-</td>
-</tr>
-</table>
- 
-
-
 ## -returns
 
 
@@ -211,7 +211,7 @@ Returns zero.
 
 
 
-To enable a <i>PropSheetProc</i> callback function, use the <a href="https://msdn.microsoft.com/library/Bb774546(v=VS.85).aspx">PROPSHEETHEADER</a> structure when you call the <a href="https://msdn.microsoft.com/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function to create the property sheet. Use the <b>pfnCallback</b> member to specify an address of the callback function, and set the <b>PSP_USECALLBACK</b> flag in the <b>dwFlags</b> member.
+To enable a <i>PropSheetProc</i> callback function, use the <a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PROPSHEETHEADER</a> structure when you call the <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function to create the property sheet. Use the <b>pfnCallback</b> member to specify an address of the callback function, and set the <b>PSP_USECALLBACK</b> flag in the <b>dwFlags</b> member.
 
 <i>PropSheetProc</i> is a placeholder for the application-defined function name. The <b>PFNPROPSHEETCALLBACK</b> type is the address of a <i>PropSheetProc</i> callback function.
 

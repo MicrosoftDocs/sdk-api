@@ -7,7 +7,7 @@ old-location: mf\idirectxvideodecoder.htm
 old-project: medfound
 ms.assetid: 116c19a3-39be-4f96-969f-f3d62ed33a70
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 116c19a3-39be-4f96-969f-f3d62ed33a70, IDirectXVideoDecoder, IDirectXVideoDecoder interface [Media Foundation], IDirectXVideoDecoder interface [Media Foundation],described, dxva2api/IDirectXVideoDecoder, mf.idirectxvideodecoder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          Represents a DirectX Video Acceleration (DXVA) video decoder device.
+Represents a DirectX Video Acceleration (DXVA) video decoder device.
 
  To get a pointer to this interface, call <a href="https://msdn.microsoft.com/2a799411-e8d5-4ab8-b52f-7198af9a4f2b">IDirectXVideoDecoderService::CreateVideoDecoder</a>.
         
@@ -78,8 +77,7 @@ The <b>IDirectXVideoDecoder</b> interface has these methods.
 <a href="https://msdn.microsoft.com/17759e7b-e6d4-4270-abd3-0f73c1df7ccb">BeginFrame</a>
 </td>
 <td align="left" width="63%">
-
-          Starts the decoding operation.
+Starts the decoding operation.
         
 
 </td>
@@ -89,8 +87,7 @@ The <b>IDirectXVideoDecoder</b> interface has these methods.
 <a href="https://msdn.microsoft.com/4b8d391e-b679-4adb-8b01-2899996ede46">EndFrame</a>
 </td>
 <td align="left" width="63%">
-
-          Signals the end of the decoding operation.
+Signals the end of the decoding operation.
         
 
 </td>
@@ -100,8 +97,7 @@ The <b>IDirectXVideoDecoder</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>
 </td>
 <td align="left" width="63%">
-
-          Executes a decoding operation on the current frame.
+Executes a decoding operation on the current frame.
         
 
 </td>
@@ -111,8 +107,7 @@ The <b>IDirectXVideoDecoder</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
 </td>
 <td align="left" width="63%">
-
-          Gets a pointer to a DXVA decoder buffer.
+Gets a pointer to a DXVA decoder buffer.
         
 
 </td>
@@ -122,8 +117,7 @@ The <b>IDirectXVideoDecoder</b> interface has these methods.
 <a href="https://msdn.microsoft.com/5e1a4f6b-22f3-40ae-8990-88ecb5b16d44">GetCreationParameters</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the parameters that were used to create this device.
+Gets the parameters that were used to create this device.
         
 
 </td>
@@ -133,8 +127,7 @@ The <b>IDirectXVideoDecoder</b> interface has these methods.
 <a href="https://msdn.microsoft.com/092c49cd-6bfc-4ed0-9378-5751ad19296c">GetVideoDecoderService</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the DXVA decoder service that created this decoder device.
+Gets the DXVA decoder service that created this decoder device.
         
 
 </td>
@@ -144,8 +137,7 @@ The <b>IDirectXVideoDecoder</b> interface has these methods.
 <a href="https://msdn.microsoft.com/e828a8e0-b9ec-4b86-abea-cbd8e0fd3a90">ReleaseBuffer</a>
 </td>
 <td align="left" width="63%">
-
-          Releases a buffer that was obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>.
+Releases a buffer that was obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>.
         
 
 </td>

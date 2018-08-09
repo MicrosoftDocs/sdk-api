@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidercontextadd1_func.htm
 old-project: fwp
 ms.assetid: 2a840f23-96e4-4b3d-b92e-53b3d10ab2bb
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmProviderContextAdd1, FwpmProviderContextAdd1 function [Filtering], fwp.fwpmprovidercontextadd1_func, fwpmu/FwpmProviderContextAdd1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,8 +120,7 @@ The provider context was successfully added.
 </dl>
 </td>
 <td width="60%">
-The <b>type</b> member of the <i>providerContext</i> parameter is  <a href="https://msdn.microsoft.com/e8eae5e7-9240-47a5-851b-1ec51cb07b63">FWPM_IPSEC_IKE_MM_CONTEXT</a>
-      and     the <b>ikeMmPolicy</b> member of the <i>providerContext</i> parameter contains an <a href="https://msdn.microsoft.com/582ec1ea-9390-4f86-9a3c-25d4e805a218">IKEEXT_IPV6_CGA</a> authentication method in the <b>authenticationMethods</b> array, but cryptographically generated address (CGA) is not enabled in
+The <b>type</b> member of the <i>providerContext</i> parameter is  <a href="https://msdn.microsoft.com/e8eae5e7-9240-47a5-851b-1ec51cb07b63">FWPM_IPSEC_IKE_MM_CONTEXT</a>and     the <b>ikeMmPolicy</b> member of the <i>providerContext</i> parameter contains an <a href="https://msdn.microsoft.com/582ec1ea-9390-4f86-9a3c-25d4e805a218">IKEEXT_IPV6_CGA</a> authentication method in the <b>authenticationMethods</b> array, but cryptographically generated address (CGA) is not enabled in
       the registry.
 
 </td>

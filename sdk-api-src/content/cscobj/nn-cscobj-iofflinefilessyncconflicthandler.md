@@ -7,7 +7,7 @@ old-location: of\iofflinefilessyncconflicthandler.htm
 old-project: offlinefiles
 ms.assetid: f3d5ed0e-727d-43e1-9d29-2a0a71bb8a64
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesSyncConflictHandler, IOfflineFilesSyncConflictHandler interface [Offline Files], IOfflineFilesSyncConflictHandler interface [Offline Files],described, cscobj/IOfflineFilesSyncConflictHandler, of.iofflinefilessyncconflicthandler
 ms.prod: windows
 ms.technology: windows-sdk

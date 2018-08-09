@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetTabStops_firstTabOffset_cou
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\settabstops.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: SetTabStops, SetTabStops method [GDI+], SetTabStops method [GDI+],StringFormat class, StringFormat class [GDI+],SetTabStops method, StringFormat.SetTabStops, StringFormat::SetTabStops, _gdiplus_CLASS_StringFormat_SetTabStops_firstTabOffset_count_tabStops_, gdiplus._gdiplus_CLASS_StringFormat_SetTabStops_firstTabOffset_count_tabStops_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>StringFormat::SetTabStops</b> method sets the offsets for tab stops in this 
-			<a href="https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx">StringFormat</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object.
 
 
 ## -parameters
@@ -112,7 +112,7 @@ Each tab-stop offset in the
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx">StringFormat</a> object, sets tab stops, and uses the 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object, sets tab stops, and uses the 
 						<b>StringFormat</b> object to draw a string that contains tab characters (\t). The code also draws the string's layout rectangle.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -155,15 +155,15 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533823(v=VS.85).aspx">Formatting Text</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533823(v=VS.85).aspx">Formatting Text</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx">StringFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534722(v=VS.85).aspx">StringFormat::GetTabStops</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534722(v=VS.85).aspx">StringFormat::GetTabStops</a>
  
 
  

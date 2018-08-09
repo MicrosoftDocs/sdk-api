@@ -4,10 +4,10 @@ title: IGPMGPO
 author: windows-sdk-content
 description: The IGPMGPO interface supports methods that enable you to manage Group Policy Objects (GPOs) in the directory service.
 old-location: gpmc\igpmgpo.htm
-old-project: gpmc
+old-project: GPMC
 ms.assetid: 2857c8b7-019d-4ec2-9a00-574fc8541cae
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: GPMGPO, IGPMGPO, IGPMGPO interface [GPMC], IGPMGPO interface [GPMC],described, _win32_igpmgpo, gpmc.igpmgpo, gpmgmt/ IGPMGPO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ You can instantiate a <b>GPMGPO</b> object by creating a new one with a call to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n"> IGPMGPO</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b> IGPMGPO</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n"> IGPMGPO</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b> IGPMGPO</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -380,7 +380,7 @@ Version number of the system volume folder (SYSVOL) component of the user config
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

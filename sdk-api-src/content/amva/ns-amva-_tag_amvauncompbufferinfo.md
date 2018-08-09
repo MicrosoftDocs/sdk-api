@@ -7,7 +7,7 @@ old-location: dshow\amvauncompbufferinfo.htm
 old-project: DirectShow
 ms.assetid: 113cc7ba-d05e-48a7-88cb-13645beb16d1
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: "*LPAMVAUncompBufferInfo, AMVAUncompBufferInfo, AMVAUncompBufferInfo structure [DirectShow], AMVAUncompBufferInfoStructure, LPAMVAUncompBufferInfo, LPAMVAUncompBufferInfo structure pointer [DirectShow], _tag_AMVAUncompBufferInfo, amva/AMVAUncompBufferInfo, amva/LPAMVAUncompBufferInfo, dshow.amvauncompbufferinfo"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          The <b>AMVAUncompBufferInfo</b> structure describes the uncompressed surfaces to be allocated by the video renderer.
+The <b>AMVAUncompBufferInfo</b> structure describes the uncompressed surfaces to be allocated by the video renderer.
           
         
 
@@ -63,15 +62,13 @@ req.irql:
 
 ### -field dwMinNumSurfaces
 
-
-            Minimum number of surfaces to allocate.
+Minimum number of surfaces to allocate.
           
 
 
 ### -field dwMaxNumSurfaces
 
-
-            Maximum number of surfaces to allocate.
+Maximum number of surfaces to allocate.
           
 
 

@@ -7,7 +7,7 @@ old-location: controls\LVFOOTERINFO.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvfooterinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPLVFOOTERINFO, LPLVFOOTERINFO, LPLVFOOTERINFO structure pointer [Windows Controls], LVFOOTERINFO, LVFOOTERINFO structure [Windows Controls], _shell_LVFOOTERINFO, _shell_LVFOOTERINFO_cpp, commctrl/LPLVFOOTERINFO, commctrl/LVFOOTERINFO, controls.LVFOOTERINFO, controls._shell_LVFOOTERINFO, tagLVFOOTERINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ The number of items in the footer. When this structure is used to get informatio
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/library/Bb761268(v=VS.85).aspx">ListView_GetFooterInfo</a> macro and the <a href="https://msdn.microsoft.com/library/Bb774927(v=VS.85).aspx">LVM_GETFOOTERINFO</a> message.
+This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb761268(v=VS.85).aspx">ListView_GetFooterInfo</a> macro and the <a href="https://msdn.microsoft.com/en-us/library/Bb774927(v=VS.85).aspx">LVM_GETFOOTERINFO</a> message.
 
 The creation of footers in list-view controls is currently not supported.
 

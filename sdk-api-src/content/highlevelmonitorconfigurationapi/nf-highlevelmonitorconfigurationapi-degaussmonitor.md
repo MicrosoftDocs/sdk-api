@@ -7,7 +7,7 @@ old-location: monitor\degaussmonitor.htm
 old-project: Monitor
 ms.assetid: 8f476ba3-24d2-456a-9335-873368993d71
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: DegaussMonitor, DegaussMonitor function [Monitor Configuration], highlevelmonitorconfigurationapi/DegaussMonitor, monitor.degaussmonitor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Degausses a monitor. Degaussing improves a monitor's image quality and color fid
 
 ### -param hMonitor [in]
 
-
-            Handle to a physical monitor. To get the monitor handle, call <a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
+Handle to a physical monitor. To get the monitor handle, call <a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
           
 
 
@@ -70,8 +69,7 @@ Degausses a monitor. Degaussing improves a monitor's image quality and color fid
 
 
 
-
-            If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
           
 
 
@@ -81,16 +79,13 @@ Degausses a monitor. Degaussing improves a monitor's image quality and color fid
 
 
 
-
-        If this function is supported, the <a href="https://msdn.microsoft.com/57cf0004-58cf-46d9-b5be-22edda2ce5a9">GetMonitorCapabilities</a> function returns the MC_CAPS_DEGAUSS flag. Degaussing is supported only by cathode ray tube (CRT) monitors.
+If this function is supported, the <a href="https://msdn.microsoft.com/57cf0004-58cf-46d9-b5be-22edda2ce5a9">GetMonitorCapabilities</a> function returns the MC_CAPS_DEGAUSS flag. Degaussing is supported only by cathode ray tube (CRT) monitors.
       
 
-
-        This function takes about 50 milliseconds to return.
+This function takes about 50 milliseconds to return.
       
 
-
-        This function should not be called frequently, because calling it frequently will not noticeably improve the monitor's image quality or color fidelity.
+This function should not be called frequently, because calling it frequently will not noticeably improve the monitor's image quality or color fidelity.
       
 
 

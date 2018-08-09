@@ -7,7 +7,7 @@ old-location: wsw\ws_is_default_value_callback.htm
 old-project: wsw
 ms.assetid: 1bfbd405-860e-4888-8363-bbc678d1256a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_IS_DEFAULT_VALUE_CALLBACK, WS_IS_DEFAULT_VALUE_CALLBACK callback, WS_IS_DEFAULT_VALUE_CALLBACK callback function [Web Services for Windows], webservices/WS_IS_DEFAULT_VALUE_CALLBACK, wsw.ws_is_default_value_callback
 ms.prod: windows
 ms.technology: windows-sdk

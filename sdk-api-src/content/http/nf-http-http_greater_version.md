@@ -7,7 +7,7 @@ old-location: http\http_greater_version.htm
 old-project: http
 ms.assetid: 741b6f26-4c87-459e-a672-daf098f0c9e6
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HTTP_GREATER_VERSION, HTTP_GREATER_VERSION macro [HTTP], _http_http_greater_version, http.http_greater_version, http/HTTP_GREATER_VERSION
 ms.prod: windows
 ms.technology: windows-sdk

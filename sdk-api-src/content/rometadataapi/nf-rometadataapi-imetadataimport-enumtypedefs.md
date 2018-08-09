@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_enumtypedefs.htm
 old-project: WinRT
 ms.assetid: 64dc7018-721f-4747-b798-fbf70bac18d5
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: EnumTypeDefs, EnumTypeDefs method [Windows Runtime], EnumTypeDefs method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumTypeDefs method, IMetaDataImport.EnumTypeDefs, IMetaDataImport::EnumTypeDefs, rometadataapi/IMetaDataImport::EnumTypeDefs, winrt.imetadataimport_enumtypedefs
 ms.prod: windows
 ms.technology: windows-sdk

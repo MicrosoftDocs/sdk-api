@@ -7,7 +7,7 @@ old-location: menurc\loadimage.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\loadimage.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IMAGE_BITMAP, IMAGE_CURSOR, IMAGE_ICON, LR_CREATEDIBSECTION, LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_LOADFROMFILE, LR_LOADMAP3DCOLORS, LR_LOADTRANSPARENT, LR_MONOCHROME, LR_SHARED, LR_VGACOLOR, LoadImage, LoadImage function [Menus and Other Resources], LoadImageA, LoadImageW, _win32_LoadImage, _win32_loadimage_cpp, menurc.loadimage, winui._win32_loadimage, winuser/LoadImage, winuser/LoadImageA, winuser/LoadImageW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,29 +68,114 @@ Loads an icon, cursor, animated cursor, or bitmap.
 
 
 
-### -param hInst
+### -param hInst [in, optional]
 
-TBD
+Type: <b>HINSTANCE</b>
 
-
-### -param name
-
-TBD
+A handle to the module of either a DLL or executable (.exe) that contains the image to be loaded. For more information, see <a href="https://msdn.microsoft.com/29514410-89fe-4888-8b34-0c30d5af237f">GetModuleHandle</a>. Note that as of  32-bit Windows, an instance handle (<b>HINSTANCE</b>), such as the application instance handle exposed by system function call of <a href="https://msdn.microsoft.com/en-us/library/ms633559(v=VS.85).aspx">WinMain</a>, and a module handle (<b>HMODULE</b>) are the same thing.
 
 
-### -param type
+To load an OEM image, set this parameter to <b>NULL</b>.
 
-TBD
-
-
-### -param cx
-
-TBD
+To load a stand-alone resource (icon, cursor, or bitmap file)—for example, c:\myimage.bmp—set this parameter to <b>NULL</b>.
 
 
-### -param cy
+### -param name [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+The image to be loaded. If the <i>hinst</i> parameter is non-<b>NULL</b> and the <i>fuLoad</i> parameter omits <b>LR_LOADFROMFILE</b>, <i>lpszName</i> specifies the image resource in the <i>hinst</i> module. If the image resource is to be loaded by name from the module, the <i>lpszName</i> parameter is a pointer to a null-terminated string that contains the name of the image resource. If the image resource is to be loaded by ordinal from the module, use the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro to convert the image ordinal into a form that can be passed to the <b>LoadImage</b> function.
+
+					For more information, see the Remarks section below.
+
+If the <i>hinst</i> parameter is <b>NULL</b> and the <i>fuLoad</i> parameter omits the <b>LR_LOADFROMFILE</b> value, the <i>lpszName</i> specifies the OEM image to load. The OEM image identifiers are defined in Winuser.h and have the following prefixes.
+
+<table class="clsStd">
+<tr>
+<th>Prefix</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td><b>OBM_</b></td>
+<td>OEM bitmaps</td>
+</tr>
+<tr>
+<td><b>OIC_</b></td>
+<td>OEM icons</td>
+</tr>
+<tr>
+<td><b>OCR_</b></td>
+<td>OEM cursors</td>
+</tr>
+</table>
+ 
+
+To pass these constants to the <b>LoadImage</b> function, use the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. For example, to load the <b>OCR_NORMAL</b> cursor, pass <code>MAKEINTRESOURCE(OCR_NORMAL)</code> as the <i>lpszName</i> parameter, <b>NULL</b> as the <i>hinst</i> parameter, and <b>LR_SHARED</b> as one of the flags to the <i>fuLoad</i> parameter.
+
+If the <i>fuLoad</i> parameter includes the <b>LR_LOADFROMFILE</b> value, <i>lpszName</i> is the name of the file that contains the  stand-alone resource (icon, cursor, or bitmap file). Therefore, set <i>hinst</i> to <b>NULL</b>.
+
+
+
+### -param type [in]
+
+Type: <b>UINT</b>
+
+The type of image to be loaded. This parameter can be one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_BITMAP"></a><a id="image_bitmap"></a><dl>
+<dt><b>IMAGE_BITMAP</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+Loads a bitmap.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_CURSOR"></a><a id="image_cursor"></a><dl>
+<dt><b>IMAGE_CURSOR</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+Loads a cursor.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_ICON"></a><a id="image_icon"></a><dl>
+<dt><b>IMAGE_ICON</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+Loads an icon.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param cx [in]
+
+Type: <b>int</b>
+
+The width, in pixels, of the icon or cursor. If this parameter is zero and the <i>fuLoad</i> parameter is <b>LR_DEFAULTSIZE</b>, the function uses the <b>SM_CXICON</b> or <b>SM_CXCURSOR</b> system metric value to set the width. If this parameter is zero and <b>LR_DEFAULTSIZE</b> is not used, the function uses the actual resource width.
+
+
+### -param cy [in]
+
+Type: <b>int</b>
+
+The height, in pixels, of the icon or cursor. If this parameter is zero and the <i>fuLoad</i> parameter is <b>LR_DEFAULTSIZE</b>, the function uses the <b>SM_CYICON</b> or <b>SM_CYCURSOR</b> system metric value to set the height. If this parameter is zero and <b>LR_DEFAULTSIZE</b> is not used, the function uses the actual resource height.
 
 
 ### -param fuLoad [in]
@@ -221,116 +306,6 @@ This function finds the first image in the cache with the requested resource nam
 </td>
 <td width="60%">
 Uses true VGA colors.
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - cxDesired [in]
-
-Type: <b>int</b>
-
-The width, in pixels, of the icon or cursor. If this parameter is zero and the <i>fuLoad</i> parameter is <b>LR_DEFAULTSIZE</b>, the function uses the <b>SM_CXICON</b> or <b>SM_CXCURSOR</b> system metric value to set the width. If this parameter is zero and <b>LR_DEFAULTSIZE</b> is not used, the function uses the actual resource width.
-
-
-#### - cyDesired [in]
-
-Type: <b>int</b>
-
-The height, in pixels, of the icon or cursor. If this parameter is zero and the <i>fuLoad</i> parameter is <b>LR_DEFAULTSIZE</b>, the function uses the <b>SM_CYICON</b> or <b>SM_CYCURSOR</b> system metric value to set the height. If this parameter is zero and <b>LR_DEFAULTSIZE</b> is not used, the function uses the actual resource height.
-
-
-#### - hinst [in, optional]
-
-Type: <b>HINSTANCE</b>
-
-A handle to the module of either a DLL or executable (.exe) that contains the image to be loaded. For more information, see <a href="https://msdn.microsoft.com/29514410-89fe-4888-8b34-0c30d5af237f">GetModuleHandle</a>. Note that as of  32-bit Windows, an instance handle (<b>HINSTANCE</b>), such as the application instance handle exposed by system function call of <a href="https://msdn.microsoft.com/en-us/library/ms633559(v=VS.85).aspx">WinMain</a>, and a module handle (<b>HMODULE</b>) are the same thing.
-
-
-To load an OEM image, set this parameter to <b>NULL</b>.
-
-To load a stand-alone resource (icon, cursor, or bitmap file)—for example, c:\myimage.bmp—set this parameter to <b>NULL</b>.
-
-
-#### - lpszName [in]
-
-Type: <b>LPCTSTR</b>
-
-The image to be loaded. If the <i>hinst</i> parameter is non-<b>NULL</b> and the <i>fuLoad</i> parameter omits <b>LR_LOADFROMFILE</b>, <i>lpszName</i> specifies the image resource in the <i>hinst</i> module. If the image resource is to be loaded by name from the module, the <i>lpszName</i> parameter is a pointer to a null-terminated string that contains the name of the image resource. If the image resource is to be loaded by ordinal from the module, use the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro to convert the image ordinal into a form that can be passed to the <b>LoadImage</b> function.
-
-					For more information, see the Remarks section below.
-
-If the <i>hinst</i> parameter is <b>NULL</b> and the <i>fuLoad</i> parameter omits the <b>LR_LOADFROMFILE</b> value, the <i>lpszName</i> specifies the OEM image to load. The OEM image identifiers are defined in Winuser.h and have the following prefixes.
-
-<table class="clsStd">
-<tr>
-<th>Prefix</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td><b>OBM_</b></td>
-<td>OEM bitmaps</td>
-</tr>
-<tr>
-<td><b>OIC_</b></td>
-<td>OEM icons</td>
-</tr>
-<tr>
-<td><b>OCR_</b></td>
-<td>OEM cursors</td>
-</tr>
-</table>
- 
-
-To pass these constants to the <b>LoadImage</b> function, use the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. For example, to load the <b>OCR_NORMAL</b> cursor, pass <code>MAKEINTRESOURCE(OCR_NORMAL)</code> as the <i>lpszName</i> parameter, <b>NULL</b> as the <i>hinst</i> parameter, and <b>LR_SHARED</b> as one of the flags to the <i>fuLoad</i> parameter.
-
-If the <i>fuLoad</i> parameter includes the <b>LR_LOADFROMFILE</b> value, <i>lpszName</i> is the name of the file that contains the  stand-alone resource (icon, cursor, or bitmap file). Therefore, set <i>hinst</i> to <b>NULL</b>.
-
-
-
-#### - uType [in]
-
-Type: <b>UINT</b>
-
-The type of image to be loaded. This parameter can be one of the following values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="IMAGE_BITMAP"></a><a id="image_bitmap"></a><dl>
-<dt><b>IMAGE_BITMAP</b></dt>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-Loads a bitmap.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="IMAGE_CURSOR"></a><a id="image_cursor"></a><dl>
-<dt><b>IMAGE_CURSOR</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-Loads a cursor.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="IMAGE_ICON"></a><a id="image_icon"></a><dl>
-<dt><b>IMAGE_ICON</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Loads an icon.
 
 </td>
 </tr>

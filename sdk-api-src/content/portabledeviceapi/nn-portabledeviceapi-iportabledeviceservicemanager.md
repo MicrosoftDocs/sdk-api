@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservicemanager.htm
 old-project: wpd_sdk
 ms.assetid: 8df23343-26f0-4fb0-90b9-e8b75bcadffa
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: IPortableDeviceServiceManager, IPortableDeviceServiceManager interface [Windows Portable Devices SDK], IPortableDeviceServiceManager interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceServiceManager, wpdsdk.iportabledeviceservicemanager
 ms.prod: windows
 ms.technology: windows-sdk

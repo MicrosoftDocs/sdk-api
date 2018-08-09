@@ -7,7 +7,7 @@ old-location: wer\werregisterexcludedmemoryblock.htm
 old-project: wer
 ms.assetid: 6CDA8EDD-C8A5-471D-9716-3AB29E571133
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 08/06/2018
 ms.keywords: WerRegisterExcludedMemoryBlock, WerRegisterExcludedMemoryBlock function [Windows Error Reporting], wer.werregisterexcludedmemoryblock, werapi/WerRegisterExcludedMemoryBlock
 ms.prod: windows
 ms.technology: windows-sdk

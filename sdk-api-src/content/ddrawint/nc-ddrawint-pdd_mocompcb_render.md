@@ -7,7 +7,7 @@ old-location: display\ddmocomprender.htm
 old-project: display
 ms.assetid: d88f2c7e-e3e5-4444-836c-a45d52c86e54
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: DdMoCompRender, DdMoCompRender callback function [Display Devices], PDD_MOCOMPCB_RENDER, PDD_MOCOMPCB_RENDER callback, ddfncs_60970586-34af-4e35-a963-98220fc7ef43.xml, ddrawint/DdMoCompRender, display.ddmocomprender
 ms.prod: windows
 ms.technology: windows-sdk

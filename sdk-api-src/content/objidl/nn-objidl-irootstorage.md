@@ -7,7 +7,7 @@ old-location: stg\irootstorage.htm
 old-project: stg
 ms.assetid: cf92c62f-ef65-46b1-8f41-f2b31ff52044
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: IRootStorage, IRootStorage interface [Structured Storage], IRootStorage interface [Structured Storage],described, _stg_irootstorage, objidl/IRootStorage, stg.irootstorage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>IRootStorage</b> interface contains a single method that switches a storage object to a different underlying file and saves the storage object to that file. The save operation occurs even with low-memory conditions and uncommitted changes to the storage object. A subsequent call to 
 <a href="https://msdn.microsoft.com/72831f2c-1e07-429b-af4c-2aaced3f3888">IStorage::Commit</a> is guaranteed to not consume additional memory.
 

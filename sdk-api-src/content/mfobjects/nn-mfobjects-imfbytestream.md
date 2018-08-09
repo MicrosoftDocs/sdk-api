@@ -7,7 +7,7 @@ old-location: mf\imfbytestream.htm
 old-project: medfound
 ms.assetid: 690035b7-2855-4714-938f-f8250ec70d24
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 690035b7-2855-4714-938f-f8250ec70d24, IMFByteStream, IMFByteStream interface [Media Foundation], IMFByteStream interface [Media Foundation],described, mf.imfbytestream, mfobjects/IMFByteStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ The <b>IMFByteStream</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ed4aaf2a-270c-4518-b04d-cdac966bf9a5">BeginRead</a>
 </td>
 <td align="left" width="63%">
-
-          Begins an asynchronous read operation from the stream.
+Begins an asynchronous read operation from the stream.
         
 
 </td>
@@ -88,8 +87,7 @@ The <b>IMFByteStream</b> interface has these methods.
 <a href="https://msdn.microsoft.com/078a8ffe-7b4f-487e-8655-fe5ea14ba306">BeginWrite</a>
 </td>
 <td align="left" width="63%">
-
-          Begins an asynchronous write operation to the stream.
+Begins an asynchronous write operation to the stream.
         
 
 </td>
@@ -99,8 +97,7 @@ The <b>IMFByteStream</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
 </td>
 <td align="left" width="63%">
-
-          Closes the stream and releases any resources associated with the stream.
+Closes the stream and releases any resources associated with the stream.
         
 
 </td>
@@ -110,8 +107,7 @@ The <b>IMFByteStream</b> interface has these methods.
 <a href="https://msdn.microsoft.com/dd62f644-fb97-474b-8303-3086a7b51c4d">EndRead</a>
 </td>
 <td align="left" width="63%">
-
-          Completes an asynchronous read operation.
+Completes an asynchronous read operation.
         
 
 </td>
@@ -121,8 +117,7 @@ The <b>IMFByteStream</b> interface has these methods.
 <a href="https://msdn.microsoft.com/d3e10e89-ef5d-41c5-b549-4bd632d9370d">EndWrite</a>
 </td>
 <td align="left" width="63%">
-
-          Completes an asynchronous write operation.
+Completes an asynchronous write operation.
         
 
 </td>
@@ -132,8 +127,7 @@ The <b>IMFByteStream</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a>
 </td>
 <td align="left" width="63%">
-
-          Clears any internal buffers used by the stream.
+Clears any internal buffers used by the stream.
         
 
 </td>
@@ -143,8 +137,7 @@ The <b>IMFByteStream</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the characteristics of the byte stream.
+Retrieves the characteristics of the byte stream.
         
 
 </td>
@@ -154,8 +147,7 @@ The <b>IMFByteStream</b> interface has these methods.
 <a href="https://msdn.microsoft.com/de36742a-a8a5-4f40-9fea-af89d9a6bf2e">GetCurrentPosition</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the current read or write position in the stream.
+Retrieves the current read or write position in the stream.
         
 
 </td>
@@ -165,8 +157,7 @@ The <b>IMFByteStream</b> interface has these methods.
 <a href="https://msdn.microsoft.com/6fb817a6-5b43-4716-a997-bbd8a0b9305d">GetLength</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the length of the stream.
+Retrieves the length of the stream.
         
 
 </td>
@@ -176,8 +167,7 @@ The <b>IMFByteStream</b> interface has these methods.
 <a href="https://msdn.microsoft.com/5e5c02ea-d3fc-4d8d-aa8b-87aa033a3644">IsEndOfStream</a>
 </td>
 <td align="left" width="63%">
-
-          Queries whether the current position has reached the end of the stream.
+Queries whether the current position has reached the end of the stream.
         
 
 </td>
@@ -187,8 +177,7 @@ The <b>IMFByteStream</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439702">Read</a>
 </td>
 <td align="left" width="63%">
-
-          Reads data from the stream.
+Reads data from the stream.
         
 
 </td>
@@ -198,8 +187,7 @@ The <b>IMFByteStream</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439723">Seek</a>
 </td>
 <td align="left" width="63%">
-
-          Moves the current position in the stream by a specified offset.
+Moves the current position in the stream by a specified offset.
         
 
 </td>
@@ -209,8 +197,7 @@ The <b>IMFByteStream</b> interface has these methods.
 <a href="https://msdn.microsoft.com/20518fed-4083-413b-b9b1-e54c4c5630d4">SetCurrentPosition</a>
 </td>
 <td align="left" width="63%">
-
-          Sets the current read or write position.
+Sets the current read or write position.
         
 
 </td>
@@ -220,8 +207,7 @@ The <b>IMFByteStream</b> interface has these methods.
 <a href="https://msdn.microsoft.com/55bee595-0a32-4b9e-8b22-48fdb2913dfc">SetLength</a>
 </td>
 <td align="left" width="63%">
-
-          Sets the length of the stream.
+Sets the length of the stream.
         
 
 </td>
@@ -231,8 +217,7 @@ The <b>IMFByteStream</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a>
 </td>
 <td align="left" width="63%">
-
-          Writes data to the stream.
+Writes data to the stream.
         
 
 </td>
@@ -244,8 +229,7 @@ The <b>IMFByteStream</b> interface has these methods.
 
 
 
-
-        The following functions return <b>IMFByteStream</b> pointers for local files:
+The following functions return <b>IMFByteStream</b> pointers for local files:
         
 
 <ul>
@@ -259,8 +243,7 @@ The <b>IMFByteStream</b> interface has these methods.
 <a href="https://msdn.microsoft.com/1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678">MFCreateTempFile</a>
 </li>
 </ul>
-
-        A byte stream for a media souce can be opened with read access. A byte stream for an archive media sink should be opened with both read and write access. (Read access may be required, because the archive sink might need to read portions of the file as it writes.)
+A byte stream for a media souce can be opened with read access. A byte stream for an archive media sink should be opened with both read and write access. (Read access may be required, because the archive sink might need to read portions of the file as it writes.)
       
 
 Some implementations of this interface also expose one or more of the following interfaces:

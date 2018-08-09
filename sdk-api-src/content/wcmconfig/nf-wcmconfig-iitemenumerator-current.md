@@ -4,10 +4,10 @@ title: IItemEnumerator::Current
 author: windows-sdk-content
 description: Retrieves an item from the current position of the enumerator.
 old-location: smi\iitemenumerator_current.htm
-old-project: SMI
+old-project: smi
 ms.assetid: 0f117274-672f-40da-a4c6-88dd6aa01cf7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: Current, Current method [SMI], Current method [SMI],IItemEnumerator interface, IItemEnumerator interface [SMI],Current method, IItemEnumerator.Current, IItemEnumerator::Current, smi.iitemenumerator_current, wcmconfig/IItemEnumerator::Current
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\mfllmuldiv.htm
 old-project: medfound
 ms.assetid: ee369c2e-99a1-4ee4-ac67-02f14e11e269
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFllMulDiv, MFllMulDiv function [Media Foundation], mf.mfllmuldiv, mfapi/MFllMulDiv
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\DPA_GetSize.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_getsize.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DPA_GetSize, DPA_GetSize function [Windows Controls], _shell_DPA_GetSize, _shell_DPA_GetSize_cpp, controls.DPA_GetSize, controls._shell_DPA_GetSize, dpa_dsa/DPA_GetSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,14 +58,7 @@ Gets the size of a dynamic pointer array (DPA).
 
 
 
-### -param hdpa
-
-TBD
-
-
-
-
-#### - pdpa [in]
+### -param hdpa [in]
 
 Type: <b>HDPA</b>
 

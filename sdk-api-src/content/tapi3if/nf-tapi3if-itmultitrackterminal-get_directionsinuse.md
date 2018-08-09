@@ -4,10 +4,10 @@ title: ITMultiTrackTerminal::get_DirectionsInUse
 author: windows-sdk-content
 description: The get_DirectionsInUse method returns the direction of all tracks managed currently by the multitrack terminal.
 old-location: tapi3\itmultitrackterminal_get_directionsinuse.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: d9f739ea-3df5-4275-868a-3e0d611254c0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITMultiTrackTerminal interface [TAPI 2.2],get_DirectionsInUse method, ITMultiTrackTerminal.get_DirectionsInUse, ITMultiTrackTerminal::get_DirectionsInUse, _tapi3_itmultitrackterminal_get_directionsinuse, get_DirectionsInUse, get_DirectionsInUse method [TAPI 2.2], get_DirectionsInUse method [TAPI 2.2],ITMultiTrackTerminal interface, tapi3.itmultitrackterminal_get_directionsinuse, tapi3if/ITMultiTrackTerminal::get_DirectionsInUse
 ms.prod: windows
 ms.technology: windows-sdk

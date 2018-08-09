@@ -7,7 +7,7 @@ old-location: hid\idirectinputeffectdriver_deviceid.htm
 old-project: hid
 ms.assetid: 80abcfef-edd9-48df-8e47-96731ae41f8a
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/30/2018
 ms.keywords: DeviceID, DeviceID method [Human Input Devices], DeviceID method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],DeviceID method, IDirectInputEffectDriver.DeviceID, IDirectInputEffectDriver::DeviceID, di_ref_80f2cc7f-de04-4497-a245-b6abaf0a98d1.xml, dinputd/IDirectInputEffectDriver::DeviceID, hid.idirectinputeffectdriver_deviceid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,14 +75,14 @@ Specifies the version number of DirectInput that loaded the effect driver. For e
 Specifies the joystick ID number. The Microsoft Windows joystick subsystem allocates external IDs. 
 
 
-#### - dwInternalId
-
-Specifies the ID of the internal joystick. The device driver manages internal IDs. 
-
-
 #### - fBegin
 
 Specifies the availability of the device. This value is nonzero if access to the device is beginning, and zero if access to the device is ending. 
+
+
+#### - dwInternalId
+
+Specifies the ID of the internal joystick. The device driver manages internal IDs. 
 
 
 #### - lpDIHIDInitInfo

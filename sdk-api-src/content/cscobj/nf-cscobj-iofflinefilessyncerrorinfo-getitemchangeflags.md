@@ -7,7 +7,7 @@ old-location: of\iofflinefilessyncerrorinfo_getitemchangeflags.htm
 old-project: offlinefiles
 ms.assetid: 1014e42f-83af-493e-b264-a46055f646a5
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetItemChangeFlags, GetItemChangeFlags method [Offline Files], GetItemChangeFlags method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetItemChangeFlags method, IOfflineFilesSyncErrorInfo.GetItemChangeFlags, IOfflineFilesSyncErrorInfo::GetItemChangeFlags, OFFLINEFILES_SYNC_ITEM_CHANGE_ATTRIBUTES, OFFLINEFILES_SYNC_ITEM_CHANGE_CHANGETIME, OFFLINEFILES_SYNC_ITEM_CHANGE_FILESIZE, OFFLINEFILES_SYNC_ITEM_CHANGE_NONE, OFFLINEFILES_SYNC_ITEM_CHANGE_WRITETIME, cscobj/IOfflineFilesSyncErrorInfo::GetItemChangeFlags, of.iofflinefilessyncerrorinfo_getitemchangeflags
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: adsi\iadsuser_groups.htm
 old-project: ADSI
 ms.assetid: 0d250815-a7d8-4e61-b125-a66f1c2fde43
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: Groups, Groups method [ADSI], Groups method [ADSI],IADsUser interface, IADsUser interface [ADSI],Groups method, IADsUser.Groups, IADsUser::Groups, _ds_iadsuser_groups, adsi.iadsuser__groups, adsi.iadsuser_groups, iads/IADsUser::Groups
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ The <b>IADsUser::Groups</b> method obtains a collection of the ADSI group object
 
 ### -param ppGroups [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/889e8fc1-61a6-4a3a-82ac-85d41f664149">IADsMembers</a> interface on a members object that can be enumerated using  <a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> to determine the groups to which this end-user belongs.
+Pointer to a pointer to the <a href="https://msdn.microsoft.com/889e8fc1-61a6-4a3a-82ac-85d41f664149">IADsMembers</a> interface on a members object that can be enumerated using  <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> to determine the groups to which this end-user belongs.
 
 
 ## -returns
@@ -95,7 +95,7 @@ This method supports the standard return values, including S_OK. For other retur
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffects.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffects\imilbitmapeffects.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IMILBitmapEffects, IMILBitmapEffects interface [WPF Bitmap Effects], IMILBitmapEffects interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffects, mileffects/IMILBitmapEffects, wibe._wibe_imilbitmapeffects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ Retrieves the effect at the given index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735234(v=VS.85).aspx">Parent</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735234(v=VS.85).aspx">Parent</a>
 </td>
 <td align="left" width="63%">
 Retrieves the parent effect group of enumeration.

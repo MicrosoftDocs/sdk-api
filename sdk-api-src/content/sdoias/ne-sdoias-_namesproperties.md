@@ -7,7 +7,7 @@ old-location: nps\SDO_namesproperties.htm
 old-project: nps
 ms.assetid: c7bf7a92-9945-4f54-bf01-31abcd97dd83
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: NAMESPROPERTIES, NAMESPROPERTIES enumeration [Network Policy Server], PROPERTY_NAMES_REALMS, _NAMESPROPERTIES, _sdo_namesproperties, nps.SDO_namesproperties, sdo.namesproperties, sdoias/NAMESPROPERTIES, sdoias/PROPERTY_NAMES_REALMS
 ms.prod: windows
 ms.technology: windows-sdk

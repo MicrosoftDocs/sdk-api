@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_instancesof.htm
 old-project: WmiSdk
 ms.assetid: 6465a981-f98e-4ece-a9b6-9da8ae618bc6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemServices interface [Windows Management Instrumentation],InstancesOf method, ISWbemServices.InstancesOf, ISWbemServices::InstancesOf, InstancesOf, InstancesOf method [Windows Management Instrumentation], InstancesOf method [Windows Management Instrumentation],ISWbemServices interface, InstancesOf method [Windows Management Instrumentation],SWbemServices object, SWbemServices object [Windows Management Instrumentation],InstancesOf method, SWbemServices.InstancesOf, _hmm_swbemservices.instancesof, wbemFlagBidirectional, wbemFlagForwardOnly, wbemFlagReturnImmediately, wbemFlagReturnWhenComplete, wbemFlagUseAmendedQualifiers, wbemQueryFlagDeep, wbemQueryFlagShallow, wmi.swbemservices_instancesof
 ms.prod: windows
 ms.technology: windows-sdk

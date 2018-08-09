@@ -7,7 +7,7 @@ old-location: winrt\windowspreallocatestringbuffer.htm
 old-project: WinRT
 ms.assetid: 83ebde70-458c-4617-a7fd-a281915f6206
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WindowsPreallocateStringBuffer, WindowsPreallocateStringBuffer function [Windows Runtime], winrt.windowspreallocatestringbuffer, winstring/WindowsPreallocateStringBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,11 @@ Type: <b>UINT32</b>
 The size of the buffer to allocate. A value of zero corresponds to the empty string.
 
 
-### -param charBuffer
+### -param charBuffer [out]
 
-TBD
+Type: <b>WCHAR**</b>
+
+The mutable buffer that holds the characters. Note that the buffer already contains a terminating <b>NULL</b> character.
 
 
 ### -param bufferHandle [out]
@@ -78,13 +80,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/D173CE70-ABF3-4703-A229-0753F2AF6F70">HSTRING_BUFFER</a>*</b>
 
 The preallocated string buffer, or <b>NULL</b> if  <i>length</i> is 0.
-
-
-#### - mutableBuffer [out]
-
-Type: <b>WCHAR**</b>
-
-The mutable buffer that holds the characters. Note that the buffer already contains a terminating <b>NULL</b> character.
 
 
 ## -returns

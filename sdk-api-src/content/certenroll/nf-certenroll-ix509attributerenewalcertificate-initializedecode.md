@@ -7,7 +7,7 @@ old-location: security\ix509attributerenewalcertificate_initializedecode_method.
 old-project: seccertenroll
 ms.assetid: dd5a43c3-5244-43da-a6d5-87b109baea09
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509AttributeRenewalCertificate interface [Security],InitializeDecode method, IX509AttributeRenewalCertificate.InitializeDecode, IX509AttributeRenewalCertificate::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509AttributeRenewalCertificate interface, certenroll/IX509AttributeRenewalCertificate::InitializeDecode, security.ix509attributerenewalcertificate_initializedecode_method
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\SHChangeNotification_Lock.htm
 old-project: shell
 ms.assetid: 8e22d5d0-64be-403c-982d-c23705d85223
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHChangeNotification_Lock, SHChangeNotification_Lock function [Windows Shell], _win32_SHChangeNotification_Lock, shell.SHChangeNotification_Lock, shlobj_core/SHChangeNotification_Lock
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelclient_encryptparam.htm
 old-project: WMDM
 ms.assetid: 7c71c2d4-b337-487f-a04a-87536f84f03e
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: CSecureChannelClient interface [windows Media Device Manager],EncryptParam method, CSecureChannelClient.EncryptParam, CSecureChannelClient::EncryptParam, CSecureChannelClientEncryptParam, EncryptParam, EncryptParam method [windows Media Device Manager], EncryptParam method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::EncryptParam, wmdm.csecurechannelclient_encryptparam
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\clipboardformat.htm
 old-project: controls
 ms.assetid: 5AD870B6-C4F1-446C-A516-171B24355EFA
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CLIPBOARDFORMAT, CLIPBOARDFORMAT structure [Windows Controls], _clipboardformat, controls.clipboardformat, richedit/CLIPBOARDFORMAT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Specifies the clipboard format. This structure included with the <a href="https:
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 Structure that contains information about this notification message.
 
@@ -71,7 +71,7 @@ Structure that contains information about this notification message.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-A clipboard format registered by a call to the <a href="https://msdn.microsoft.com/library/ms649049(v=VS.85).aspx">RegisterClipboardFormat</a> function. 
+A clipboard format registered by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms649049(v=VS.85).aspx">RegisterClipboardFormat</a> function. 
 
 
 

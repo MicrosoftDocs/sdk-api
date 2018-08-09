@@ -7,7 +7,7 @@ old-location: shell\PathBuildRoot.htm
 old-project: shell
 ms.assetid: 0a6895bd-54cf-499c-9057-f2d721bce5d9
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PathBuildRoot, PathBuildRoot function [Windows Shell], PathBuildRootA, PathBuildRootW, _win32_PathBuildRoot, shell.PathBuildRoot, shlwapi/PathBuildRoot, shlwapi/PathBuildRootA, shlwapi/PathBuildRootW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,11 @@ Creates a root path from a given drive number.
 
 
 
-### -param pszRoot
+### -param pszRoot [out]
 
-TBD
+Type: <b>LPTSTR</b>
+
+A pointer to the string that receives the constructed root path. This buffer must be at least four characters in size.
 
 
 ### -param iDrive [in]
@@ -71,13 +73,6 @@ TBD
 Type: <b>int</b>
 
 A variable of type <b>int</b> that indicates the desired drive number. It should be between 0 and 25.
-
-
-#### - szRoot [out]
-
-Type: <b>LPTSTR</b>
-
-A pointer to the string that receives the constructed root path. This buffer must be at least four characters in size.
 
 
 ## -returns

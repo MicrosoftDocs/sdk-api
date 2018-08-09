@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_GetExtendedStyle.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getextendedstyle.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TabCtrl_GetExtendedStyle, TabCtrl_GetExtendedStyle macro [Windows Controls], _win32_TabCtrl_GetExtendedStyle, _win32_TabCtrl_GetExtendedStyle_cpp, commctrl/TabCtrl_GetExtendedStyle, controls.TabCtrl_GetExtendedStyle, controls._win32_TabCtrl_GetExtendedStyle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the extended styles that are currently in use for the tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760585(v=VS.85).aspx">TCM_GETEXTENDEDSTYLE</a> message explicitly. 
+Retrieves the extended styles that are currently in use for the tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760585(v=VS.85).aspx">TCM_GETEXTENDEDSTYLE</a> message explicitly. 
 
 
 ## -parameters
@@ -59,15 +59,6 @@ Retrieves the extended styles that are currently in use for the tab control. You
 
 
 ### -param hwnd
-
-TBD
-
-
-
-
-
-
-#### - hwndTab
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 

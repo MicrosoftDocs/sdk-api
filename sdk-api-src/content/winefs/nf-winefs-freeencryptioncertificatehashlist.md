@@ -4,10 +4,10 @@ title: FreeEncryptionCertificateHashList function
 author: windows-sdk-content
 description: Frees a certificate hash list.
 old-location: fs\freeencryptioncertificatehashlist.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 63d5811f-a135-45b0-8f23-fd8851f7bcca
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: FreeEncryptionCertificateHashList, FreeEncryptionCertificateHashList function [Files], _win32_freeencryptioncertificatehashlist, base.freeencryptioncertificatehashlist, fs.freeencryptioncertificatehashlist, winefs/FreeEncryptionCertificateHashList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ Frees a certificate hash list.
 
 
 
-### -param pUsers
-
-TBD
-
-
-
-
-#### - pHashes [in]
+### -param pUsers [in]
 
 A pointer to a certificate hash list structure, 
 <a href="https://msdn.microsoft.com/988159b3-3cb9-4a4d-9c68-ebfb309cff25">ENCRYPTION_CERTIFICATE_HASH_LIST</a>, which was returned by the 

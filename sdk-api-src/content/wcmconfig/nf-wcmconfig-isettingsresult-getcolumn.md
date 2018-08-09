@@ -4,10 +4,10 @@ title: ISettingsResult::GetColumn
 author: windows-sdk-content
 description: Returns the column number where the error occurred.
 old-location: smi\isettingsresult_getcolumn.htm
-old-project: SMI
+old-project: smi
 ms.assetid: 09e1c5ae-f5ba-4f5a-b35d-a1c2e8dbdfe9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetColumn, GetColumn method [SMI], GetColumn method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetColumn method, ISettingsResult.GetColumn, ISettingsResult::GetColumn, smi.isettingsresult_getcolumn, wcmconfig/ISettingsResult::GetColumn
 ms.prod: windows
 ms.technology: windows-sdk

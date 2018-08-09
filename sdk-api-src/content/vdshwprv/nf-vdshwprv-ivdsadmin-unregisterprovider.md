@@ -4,10 +4,10 @@ title: IVdsAdmin::UnregisterProvider
 author: windows-sdk-content
 description: Removes VDS provider registration data. Hardware providers call this method.
 old-location: base\ivdsadmin_unregisterprovider.htm
-old-project: VDS
+old-project: vds
 ms.assetid: da78b4ed-17e3-4953-9e5e-310e55349058
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IVdsAdmin interface [VDS],UnregisterProvider method, IVdsAdmin.UnregisterProvider, IVdsAdmin::UnregisterProvider, UnregisterProvider, UnregisterProvider method [VDS], UnregisterProvider method [VDS],IVdsAdmin interface, base.ivdsadmin_unregisterprovider, vdshwprv/IVdsAdmin::UnregisterProvider
 ms.prod: windows
 ms.technology: windows-sdk

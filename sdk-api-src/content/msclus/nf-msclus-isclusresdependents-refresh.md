@@ -7,7 +7,7 @@ old-location: mscs\clusresdependents_refresh.htm
 old-project: mscs
 ms.assetid: 6335e861-26f4-4fa5-89f9-650bbd6d7047
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusResDependents class [Failover Cluster],Refresh method, ClusResDependents.Refresh, ISClusResDependents.Refresh, ISClusResDependents::Refresh, Refresh, Refresh method [Failover Cluster], Refresh method [Failover Cluster],ClusResDependents class, _wolf_clusresdependents.refresh, mscs.clusresdependents_refresh
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaProviderFromIAccessibleFunction.htm
 old-project: WinAuto
 ms.assetid: 9858B3B2-CE93-4209-BAFE-BFC911042800
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: UIA_PFIA_DEFAULT, UIA_PFIA_UNWRAP_BRIDGE, UiaProviderFromIAccessible, UiaProviderFromIAccessible function [Windows Accessibility], uiautomationcoreapi/UiaProviderFromIAccessible, winauto.uiauto_UiaProviderFromIAccessibleFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,14 +95,7 @@ One of the following values:
 #### UIA_PFIA_UNWRAP_BRIDGE
 
 
-### -param ppProvider
-
-TBD
-
-
-
-
-#### - pProvider [out]
+### -param ppProvider [out]
 
 Type: <b><a href="https://msdn.microsoft.com/f0ec6185-acd0-4df7-88f4-fd00747f98bf">IRawElementProviderSimple</a>**</b>
 

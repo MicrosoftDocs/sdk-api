@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapframeencode_writepixels.htm
 old-project: wic
 ms.assetid: 6b430fe0-5230-47dc-95c0-aeabd138cefe
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],WritePixels method, IWICBitmapFrameEncode.WritePixels, IWICBitmapFrameEncode::WritePixels, WritePixels, WritePixels method [Windows Imaging Component], WritePixels method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_writepixels, wic._wic_codec_iwicbitmapframeencode_writepixels, wincodec/IWICBitmapFrameEncode::WritePixels
 ms.prod: windows
 ms.technology: windows-sdk

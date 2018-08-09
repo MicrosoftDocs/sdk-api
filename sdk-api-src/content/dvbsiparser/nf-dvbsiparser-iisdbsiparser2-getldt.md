@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparser2_getldt.htm
 old-project: mstv
 ms.assetid: b4b91e95-cf0f-488b-9941-4d1d81dc7661
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetLDT, GetLDT method [Microsoft TV Technologies], GetLDT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetLDT method, IIsdbSiParser2.GetLDT, IIsdbSiParser2::GetLDT, dvbsiparser/IIsdbSiParser2::GetLDT, mstv.iisdbsiparser2_getldt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,8 +73,7 @@ Pointer to the original_service_id field for the LDT. This field contains an ide
 
 ### -param ppLDT [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/4fdf82f2-e931-406b-a8cb-7b24c1d0b8d3">IISDB_LDT</a>
-interface. Use this interface to retrieve the information in the table. 
+Receives a pointer to the <a href="https://msdn.microsoft.com/4fdf82f2-e931-406b-a8cb-7b24c1d0b8d3">IISDB_LDT</a>interface. Use this interface to retrieve the information in the table. 
 The caller must release the interface.
 
 

@@ -4,10 +4,10 @@ title: IVdsService::QueryUnallocatedDisks
 author: windows-sdk-content
 description: Returns an enumeration object containing a list of the unallocated disks managed by VDS.
 old-location: base\ivdsservice_queryunallocateddisks.htm
-old-project: VDS
+old-project: vds
 ms.assetid: d519c3d0-7c5a-4c0c-bad9-2429490f2212
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IVdsService interface [VDS],QueryUnallocatedDisks method, IVdsService.QueryUnallocatedDisks, IVdsService::QueryUnallocatedDisks, QueryUnallocatedDisks, QueryUnallocatedDisks method [VDS], QueryUnallocatedDisks method [VDS],IVdsService interface, base.ivdsservice_queryunallocateddisks, vds/IVdsService::QueryUnallocatedDisks
 ms.prod: windows
 ms.technology: windows-sdk

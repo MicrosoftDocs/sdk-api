@@ -7,7 +7,7 @@ old-location: intl\immconfigureime.htm
 old-project: Intl
 ms.assetid: acefb3a0-82c7-4af6-8ef0-aba561f570c1
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: IME_CONFIG_GENERAL, IME_CONFIG_REGISTERWORD, IME_CONFIG_SELECTDICTIONARY, ImmConfigureIME, ImmConfigureIME function [Internationalization for Windows Applications], ImmConfigureIMEA, ImmConfigureIMEW, _win32_ImmConfigureIME, imm/ImmConfigureIME, imm/ImmConfigureIMEA, imm/ImmConfigureIMEW, intl.immconfigureime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,29 +61,17 @@ Displays the configuration dialog box for the IME of the specified input locale 
 
 
 
-### -param HKL
+### -param HKL [in]
 
-TBD
-
-
-### -param HWND
-
-TBD
+Input locale identifier of an IME.
 
 
-### -param DWORD
+### -param HWND [in]
 
-TBD
-
-
-### -param LPVOID
-
-TBD
+Handle to the parent window for the dialog box.
 
 
-
-
-#### - dwMode [in]
+### -param DWORD [in]
 
 Flags specifying the type of dialog box to display. This parameter can have one of the following values.
 
@@ -126,17 +114,7 @@ Display dictionary selection dialog box.
  
 
 
-#### - hKL [in]
-
-Input locale identifier of an IME.
-
-
-#### - hWnd [in]
-
-Handle to the parent window for the dialog box.
-
-
-#### - lpData [in]
+### -param LPVOID [in]
 
 Pointer to supplemental data. If <i>dwMode</i> is set to IME_CONFIG_REGISTERWORD, this parameter must indicate a <a href="https://msdn.microsoft.com/70a11a96-a0e3-4741-be91-b85eb38cd767">REGISTERWORD</a> structure. If <i>dwMode</i> is not IME_CONFIG_REGISTERWORD, this parameter is ignored.
 

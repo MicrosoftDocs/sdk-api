@@ -4,10 +4,10 @@ title: ITextDocument2::GetCaretType
 author: windows-sdk-content
 description: Gets the caret type.
 old-location: controls\itextdocument2_getcarettype.htm
-old-project: Controls
+old-project: controls
 ms.assetid: 4ab170d2-50a3-4fbf-8e02-92b031bc1e4f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetCaretType, GetCaretType method [Windows Controls], GetCaretType method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetCaretType method, ITextDocument2.GetCaretType, ITextDocument2::GetCaretType, controls.itextdocument2_getcarettype, tom/ITextDocument2::GetCaretType, tomKoreanBlockCaret, tomNormalCaret, tomNullCaret
 ms.prod: windows
 ms.technology: windows-sdk

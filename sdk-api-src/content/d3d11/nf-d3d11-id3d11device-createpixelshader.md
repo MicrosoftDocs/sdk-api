@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_createpixelshader.htm
 old-project: direct3d11
 ms.assetid: f013a648-fd11-417b-8f87-36a4be901715
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 60e28609-f849-5247-ceff-56bd9925d775, CreatePixelShader, CreatePixelShader method [Direct3D 11], CreatePixelShader method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreatePixelShader method, ID3D11Device.CreatePixelShader, ID3D11Device::CreatePixelShader, d3d11/ID3D11Device::CreatePixelShader, direct3d11.id3d11device_createpixelshader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ Address of a pointer to a <a href="https://msdn.microsoft.com/d16e00a9-02f9-413f
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

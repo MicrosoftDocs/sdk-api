@@ -4,10 +4,10 @@ title: IVdsSubSystemImportTarget::GetImportTarget
 author: windows-sdk-content
 description: Returns the Volume Shadow Copy service (VSS) import target for the computer for this subsystem.
 old-location: base\ivdssubsystemimporttarget_getimporttarget.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 1fff1400-61d9-494f-857d-53626b80c2d2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetImportTarget, GetImportTarget method [VDS], GetImportTarget method [VDS],IVdsSubSystemImportTarget interface, IVdsSubSystemImportTarget interface [VDS],GetImportTarget method, IVdsSubSystemImportTarget.GetImportTarget, IVdsSubSystemImportTarget::GetImportTarget, base.ivdssubsystemimporttarget_getimporttarget, vds/IVdsSubSystemImportTarget::GetImportTarget
 ms.prod: windows
 ms.technology: windows-sdk

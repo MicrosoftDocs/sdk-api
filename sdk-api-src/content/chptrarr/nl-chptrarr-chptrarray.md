@@ -7,7 +7,7 @@ old-location: wmi\chptrarray.htm
 old-project: WmiSdk
 ms.assetid: 507c8262-c5e8-470e-be89-566ae732946d
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/03/2018
 ms.keywords: "??1CHPtrArray@@QAE@XZ, CHPtrArray, CHPtrArray class [Windows Management Instrumentation], CHPtrArray class [Windows Management Instrumentation],described, chptrarr/CHPtrArray, wmi.chptrarray"
 ms.prod: windows
 ms.technology: windows-sdk

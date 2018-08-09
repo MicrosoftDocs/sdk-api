@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4failovergetscoperelationship.htm
 old-project: dhcp
 ms.assetid: 795eb9ff-cc44-4567-b496-1bff559290b2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpV4FailoverGetScopeRelationship, DhcpV4FailoverGetScopeRelationship function [DHCP], dhcp.dhcpv4failovergetscoperelationship, dhcpsapi/DhcpV4FailoverGetScopeRelationship
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,9 +63,9 @@ The <b>DhcpV4FailoverGetScopeRelationship</b> function retrieves the failover re
 Pointer to a null-terminated Unicode string that represents the IP address or hostname of the DHCP server.
 
 
-### -param ScopeId
+### -param ScopeId [in]
 
-TBD
+A <b>DHCP_IP_ADDRESS</b> field that contains the IPv4 scope address for which the relationship details are to be retrieved.
 
 
 ### -param pRelationship [out]
@@ -76,11 +76,6 @@ Pointer to a <a href="https://msdn.microsoft.com/b409b0ff-2fdc-416c-a7ce-2cba9cf
 
 </div>
 <div> </div>
-
-#### - scopeId [in]
-
-A <b>DHCP_IP_ADDRESS</b> field that contains the IPv4 scope address for which the relationship details are to be retrieved.
-
 
 ## -returns
 

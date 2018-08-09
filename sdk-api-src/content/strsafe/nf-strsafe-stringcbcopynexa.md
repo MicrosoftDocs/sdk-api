@@ -7,7 +7,7 @@ old-location: menurc\stringcbcopynex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopynex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbCopyNEx, StringCbCopyNEx function [Menus and Other Resources], StringCbCopyNExA, StringCbCopyNExW, _shell_StringCbCopyNEx, _shell_stringcbcopynex_cpp, menurc.stringcbcopynex, strsafe/StringCbCopyNEx, strsafe/StringCbCopyNExA, strsafe/StringCbCopyNExW, winui._shell_stringcbcopynex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,9 +88,11 @@ Type: <b>LPCTSTR</b>
 The source string. This string must be null-terminated.
 
 
-### -param cbToCopy
+### -param cbToCopy [in]
 
-TBD
+Type: <b>size_t</b>
+
+The maximum number of bytes to be copied from <i>pszSrc</i> to <i>pszDest</i>.
 
 
 ### -param ppszDestEnd [out, optional]
@@ -175,13 +177,6 @@ As in the case of <b>STRSAFE_NULL_ON_FAILURE</b>, if the function fails, <i>pszD
 </tr>
 </table>
  
-
-
-#### - cbSrc [in]
-
-Type: <b>size_t</b>
-
-The maximum number of bytes to be copied from <i>pszSrc</i> to <i>pszDest</i>.
 
 
 ## -returns

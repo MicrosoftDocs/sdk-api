@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundrouting_getextensions.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_80oj.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxInboundRouting object [Fax Service],GetExtensions method, FaxInboundRouting.GetExtensions, GetExtensions, GetExtensions method [Fax Service], GetExtensions method [Fax Service],FaxInboundRouting object, IFaxInboundRouting.GetExtensions, IFaxInboundRouting::GetExtensions, _mfax_faxinboundrouting.getextensions, fax._mfax_faxinboundrouting_getextensions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,9 +71,9 @@ The <b>GetExtensions</b> method retrieves the collection of inbound routing exte
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms684899(v=VS.85).aspx">FaxInboundRoutingExtensions</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms684899(v=VS.85).aspx">FaxInboundRoutingExtensions</a>**</b>
 
-A <a href="https://msdn.microsoft.com/library/ms684899(v=VS.85).aspx">FaxInboundRoutingExtensions</a> object.
+A <a href="https://msdn.microsoft.com/en-us/library/ms684899(v=VS.85).aspx">FaxInboundRoutingExtensions</a> object.
 
 
 
@@ -82,7 +82,7 @@ A <a href="https://msdn.microsoft.com/library/ms684899(v=VS.85).aspx">FaxInbound
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -92,11 +92,11 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684595(v=VS.85).aspx">FaxInboundRouting</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684595(v=VS.85).aspx">FaxInboundRouting</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

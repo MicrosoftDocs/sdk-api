@@ -7,7 +7,7 @@ old-location: controls\LVTILEVIEWINFO.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvtileviewinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*PLVTILEVIEWINFO, LVTILEVIEWINFO, LVTILEVIEWINFO structure [Windows Controls], LVTVIF_EXTENDED, PLVTILEVIEWINFO, PLVTILEVIEWINFO structure pointer [Windows Controls], commctrl/LVTILEVIEWINFO, commctrl/PLVTILEVIEWINFO, controls.LVTILEVIEWINFO, controls.inet_LVTILEVIEWINFO, inet_LVTILEVIEWINFO, inet_LVTILEVIEWINFO_cpp, tagLVTILEVIEWINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -224,11 +224,11 @@ By default, the dimensions of tiles are determined automatically. To apply a fix
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775012(v=VS.85).aspx">ListView_GetTileViewInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775012(v=VS.85).aspx">ListView_GetTileViewInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775120(v=VS.85).aspx">ListView_SetTileViewInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775120(v=VS.85).aspx">ListView_SetTileViewInfo</a>
 
 
 
@@ -236,7 +236,7 @@ By default, the dimensions of tiles are determined automatically. To apply a fix
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774736(v=VS.85).aspx">Using List-View Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774736(v=VS.85).aspx">Using List-View Controls</a>
  
 
  

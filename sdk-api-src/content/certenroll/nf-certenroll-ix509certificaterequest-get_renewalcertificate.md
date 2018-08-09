@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequest_renewalcertificate_property.htm
 old-project: seccertenroll
 ms.assetid: ab046b65-a059-4b48-a6cd-7e2f0b18bc65
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509CertificateRequest interface [Security],RenewalCertificate property, IX509CertificateRequest.RenewalCertificate, IX509CertificateRequest.get_RenewalCertificate, IX509CertificateRequest::RenewalCertificate, IX509CertificateRequest::get_RenewalCertificate, IX509CertificateRequest::put_RenewalCertificate, RenewalCertificate property [Security], RenewalCertificate property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::RenewalCertificate, certenroll/IX509CertificateRequest::get_RenewalCertificate, certenroll/IX509CertificateRequest::put_RenewalCertificate, get_RenewalCertificate, security.ix509certificaterequest_renewalcertificate_property
 ms.prod: windows
 ms.technology: windows-sdk

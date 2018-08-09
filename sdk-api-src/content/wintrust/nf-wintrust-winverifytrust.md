@@ -4,10 +4,10 @@ title: WinVerifyTrust function
 author: windows-sdk-content
 description: Performs a trust verification action on a specified object.
 old-location: security\winverifytrust.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: b7efac6a-ac9f-477a-aada-63fe32208e6f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: A valid window handle, DRIVER_ACTION_VERIFY, HTTPSPROV_ACTION, INVALID_HANDLE_VALUE, OFFICESIGN_ACTION_VERIFY, WINTRUST_ACTION_GENERIC_CHAIN_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WINTRUST_ACTION_TRUSTPROVIDER_TEST, WinVerifyTrust, WinVerifyTrust function [Security], Zero, _win32_winverifytrust, security.winverifytrust, wintrust/WinVerifyTrust
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,49 @@ For certificate verification, use the <a href="https://msdn.microsoft.com/8c9303
 
 
 
-### -param hwnd
+### -param hwnd [in]
 
-TBD
+Optional handle to a caller window. A trust provider can use this value to determine whether it can interact with the user. However, trust providers typically perform verification actions without input from the user.
+
+This parameter can be one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="INVALID_HANDLE_VALUE"></a><a id="invalid_handle_value"></a><dl>
+<dt><b>INVALID_HANDLE_VALUE</b></dt>
+</dl>
+</td>
+<td width="60%">
+There is no interactive user. The trust provider performs the verification action without the user's assistance.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="Zero"></a><a id="zero"></a><a id="ZERO"></a><dl>
+<dt><b>Zero</b></dt>
+</dl>
+</td>
+<td width="60%">
+The trust provider can use the interactive desktop to display its user interface.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="A_valid_window_handle"></a><a id="a_valid_window_handle"></a><a id="A_VALID_WINDOW_HANDLE"></a><dl>
+<dt><b>A valid window handle</b></dt>
+</dl>
+</td>
+<td width="60%">
+A trust provider can treat any value other than INVALID_HANDLE_VALUE or zero as a valid window handle that it can use to interact with the user.
+
+</td>
+</tr>
+</table>
+ 
 
 
 ### -param pgActionID [in]
@@ -160,51 +200,6 @@ A pointer that, when cast as a
 <a href="https://msdn.microsoft.com/8fb68f44-6f69-4eac-90de-02689e3e86cf">WINTRUST_DATA</a> structure, contains information that the <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">trust provider</a> needs to process the specified action identifier. Typically, the structure includes information that identifies the object that the trust provider must evaluate.
 
 The format of the structure depends on the action identifier. For information about the data required for a specific action identifier, see the documentation for the trust provider that supports that action.
-
-
-#### - hWnd [in]
-
-Optional handle to a caller window. A trust provider can use this value to determine whether it can interact with the user. However, trust providers typically perform verification actions without input from the user.
-
-This parameter can be one of the following values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="INVALID_HANDLE_VALUE"></a><a id="invalid_handle_value"></a><dl>
-<dt><b>INVALID_HANDLE_VALUE</b></dt>
-</dl>
-</td>
-<td width="60%">
-There is no interactive user. The trust provider performs the verification action without the user's assistance.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="Zero"></a><a id="zero"></a><a id="ZERO"></a><dl>
-<dt><b>Zero</b></dt>
-</dl>
-</td>
-<td width="60%">
-The trust provider can use the interactive desktop to display its user interface.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="A_valid_window_handle"></a><a id="a_valid_window_handle"></a><a id="A_VALID_WINDOW_HANDLE"></a><dl>
-<dt><b>A valid window handle</b></dt>
-</dl>
-</td>
-<td width="60%">
-A trust provider can treat any value other than INVALID_HANDLE_VALUE or zero as a valid window handle that it can use to interact with the user.
-
-</td>
-</tr>
-</table>
- 
 
 
 ## -returns

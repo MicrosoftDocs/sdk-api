@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_DeselectAll.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_deselectall.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TabCtrl_DeselectAll, TabCtrl_DeselectAll macro [Windows Controls], _win32_TabCtrl_DeselectAll, _win32_TabCtrl_DeselectAll_cpp, commctrl/TabCtrl_DeselectAll, controls.TabCtrl_DeselectAll, controls._win32_TabCtrl_DeselectAll
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Resets items in a tab control, clearing any that were set to the <a href="https://msdn.microsoft.com/library/Bb760547(v=VS.85).aspx">TCIS_BUTTONPRESSED</a> state. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760579(v=VS.85).aspx">TCM_DESELECTALL</a> message explicitly. 
+Resets items in a tab control, clearing any that were set to the <a href="Tab_Control_Item_States.htm">TCIS_BUTTONPRESSED</a> state. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760579(v=VS.85).aspx">TCM_DESELECTALL</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Resets items in a tab control, clearing any that were set to the <a href="https:
 
 ### -param hwnd
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to the tab control. 
 
 
 ### -param fExcludeFocus
@@ -70,18 +72,11 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Flag value that specifies the scope of the item deselection. If this parameter is set to <b>FALSE</b>, all tab items will be reset. If it is set to <b>TRUE</b>, all but the currently selected tab item will be reset. 
 
 
-#### - hwndTab
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to the tab control. 
-
-
 ## -remarks
 
 
 
-This message is only meaningful if the <a href="https://msdn.microsoft.com/library/Bb760549(v=VS.85).aspx">TCS_BUTTONS</a> style flag has been set. 
+This message is only meaningful if the <a href="Tab_Control_Styles.htm">TCS_BUTTONS</a> style flag has been set. 
 
 
 

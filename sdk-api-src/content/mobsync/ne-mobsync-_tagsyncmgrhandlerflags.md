@@ -7,7 +7,7 @@ old-location: shell\syncmgr_syncmgrhandlerflags.htm
 old-project: shell
 ms.assetid: 9e5f7f49-f2f0-4fa3-8822-8e6074cd4f47
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SYNCMGRHANDLERFLAGS, SYNCMGRHANDLERFLAGS enumeration [Windows Shell], SYNCMGRHANDLER_ALWAYSLISTHANDLER, SYNCMGRHANDLER_HASPROPERTIES, SYNCMGRHANDLER_HIDDEN, SYNCMGRHANDLER_MAYESTABLISHCONNECTION, _tagSYNCMGRHANDLERFLAGS, mobsync/SYNCMGRHANDLERFLAGS, mobsync/SYNCMGRHANDLER_ALWAYSLISTHANDLER, mobsync/SYNCMGRHANDLER_HASPROPERTIES, mobsync/SYNCMGRHANDLER_HIDDEN, mobsync/SYNCMGRHANDLER_MAYESTABLISHCONNECTION, shell.syncmgr_syncmgrhandlerflags, syncmgr.syncmgrhandlerflags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,15 +66,13 @@ The current handler provides a property sheet dialog.
 
 ### -field SYNCMGRHANDLER_MAYESTABLISHCONNECTION
 
-
-        May call back the <a href="https://msdn.microsoft.com/f7d1aff8-a77e-4067-9fc9-4adc69bfc0d1">ISyncMgrSynchronizeCallback::EstablishConnection</a> method. This value is ignored in <b>Windows Vista and later</b>.
+May call back the <a href="https://msdn.microsoft.com/f7d1aff8-a77e-4067-9fc9-4adc69bfc0d1">ISyncMgrSynchronizeCallback::EstablishConnection</a> method. This value is ignored in <b>Windows Vista and later</b>.
       
 
 
 ### -field SYNCMGRHANDLER_ALWAYSLISTHANDLER
 
-
-        Indicates Show Handler in Choice even if items are not shown. This value is ignored in <b>Windows Vista and later</b>.
+Indicates Show Handler in Choice even if items are not shown. This value is ignored in <b>Windows Vista and later</b>.
       
 
 
@@ -88,11 +86,9 @@ The current handler provides a property sheet dialog.
 
 
 
+Only the <b><b>SYNCMGRHANDLER_HASPROPERTIES</b></b> and <b><b>SYNCMGRHANDLER_HIDDEN</b></b> flags are recognized by Windows Vista. Although Windows Vista recognizes the <b><b>SYNCMGRHANDLER_HIDDEN</b></b> flag, it does not currently use it.  
 
-        Only the <b><b>SYNCMGRHANDLER_HASPROPERTIES</b></b> and <b><b>SYNCMGRHANDLER_HIDDEN</b></b> flags are recognized by Windows Vista. Although Windows Vista recognizes the <b><b>SYNCMGRHANDLER_HIDDEN</b></b> flag, it does not currently use it.  
-
-
-          All flags are still valid for previous versions of Windows.
+All flags are still valid for previous versions of Windows.
         
 
 

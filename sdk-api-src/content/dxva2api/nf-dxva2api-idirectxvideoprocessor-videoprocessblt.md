@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoprocessor_videoprocessblt.htm
 old-project: medfound
 ms.assetid: 4a199ad3-621e-4594-a9f8-ad6cfd560cec
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 4a199ad3-621e-4594-a9f8-ad6cfd560cec, IDirectXVideoProcessor interface [Media Foundation],VideoProcessBlt method, IDirectXVideoProcessor.VideoProcessBlt, IDirectXVideoProcessor::VideoProcessBlt, VideoProcessBlt, VideoProcessBlt method [Media Foundation], VideoProcessBlt method [Media Foundation],IDirectXVideoProcessor interface, dxva2api/IDirectXVideoProcessor::VideoProcessBlt, mf.idirectxvideoprocessor_videoprocessblt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,19 +92,15 @@ Reserved; set to <b>NULL</b>.
 
 #### - pRT [in]
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface of a Direct3D surface. The output of the video processing operation will be written to this surface. The surface may be any of the following types:
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface of a Direct3D surface. The output of the video processing operation will be written to this surface. The surface may be any of the following types:
           
 
 <ul>
-<li>
-                A surface created by calling <a href="https://msdn.microsoft.com/34ed2029-7c79-45ce-962d-df4970babb23">IDirectXVideoAccelerationService::CreateSurface</a> with the <b>DXVA2_VideoProcessRenderTarget</b> flag. You can also use the <b>DXVA2_VideoSoftwareRenderTarget</b> flag, but only when the device GUID is <b>DXVA2_VideoProcSoftwareDevice</b> (software video processing device).
+<li>A surface created by calling <a href="https://msdn.microsoft.com/34ed2029-7c79-45ce-962d-df4970babb23">IDirectXVideoAccelerationService::CreateSurface</a> with the <b>DXVA2_VideoProcessRenderTarget</b> flag. You can also use the <b>DXVA2_VideoSoftwareRenderTarget</b> flag, but only when the device GUID is <b>DXVA2_VideoProcSoftwareDevice</b> (software video processing device).
               </li>
-<li>
-                A surface created from a Direct3D device with the <b>D3DUSAGE_RENDERTARGET</b> usage flag.
+<li>A surface created from a Direct3D device with the <b>D3DUSAGE_RENDERTARGET</b> usage flag.
               </li>
-<li>
-                A Direct3D swap chain.
+<li>A Direct3D swap chain.
               </li>
 </ul>
 
@@ -126,8 +122,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -150,8 +145,7 @@ Internal driver error.
 </dl>
 </td>
 <td width="60%">
-
-                Invalid arguments.
+Invalid arguments.
 
 </td>
 </tr>
@@ -165,8 +159,7 @@ Internal driver error.
 
 
 
-
-        When the method returns, the operation might not be complete.
+When the method returns, the operation might not be complete.
       
 
 If the method returns <b>E_INVALIDARG</b>, check for the following:
@@ -174,7 +167,7 @@ If the method returns <b>E_INVALIDARG</b>, check for the following:
 <ul>
 <li>The number of input samples (<i>NumSamples</i>) must be less than or equal to <b>MAX_DEINTERLACE_SURFACES</b>. </li>
 <li>The Direct3D surface must be a valid target for <b>VideoProcessBlt</b>. See the description of the <i>pRT</i> parameter for details.</li>
-<li>The presentation time (<b>TargetFrame</b>) given in <i>pBltParams</i> must match the start and end times for the current picture from the primary stream. Specifically, it must be less than the end time and greater than or equal to the start time. Note that the first sample in <i>pSamples</i> might not be the current picture, if the <i>pSamples</i> array contains backward reference pictures. For more information, see <a href="https://msdn.microsoft.com/library/Cc307964(v=VS.85).aspx">Input Sample Order</a>.</li>
+<li>The presentation time (<b>TargetFrame</b>) given in <i>pBltParams</i> must match the start and end times for the current picture from the primary stream. Specifically, it must be less than the end time and greater than or equal to the start time. Note that the first sample in <i>pSamples</i> might not be the current picture, if the <i>pSamples</i> array contains backward reference pictures. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Cc307964(v=VS.85).aspx">Input Sample Order</a>.</li>
 <li>The target rectangle (<b>TargetRect</b>) given in <i>pBltParams</i> cannot be larger than the destination surface (<i>pRT</i>).</li>
 <li>The  constriction size (<b>ConstrictionSize</b>) given in <i>pBltParams</i> cannot be less than zero or larger than the target rectangle.</li>
 <li>The alpha component of the background color must be opqaue.</li>
@@ -183,7 +176,7 @@ If the method returns <b>E_INVALIDARG</b>, check for the following:
 <li>The alpha value given in <i>pBltParams</i> must be in the range [0...1] inclusive.</li>
 <li>For each input sample given in <i>pSamples</i>:<ul>
 <li>The start time cannot be greater than the end time.</li>
-<li>A valid <a href="https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> pointer must be provided.</li>
+<li>A valid <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> pointer must be provided.</li>
 <li>The source rectangle cannot be larger than the input surface.</li>
 <li>The destination rectangle cannot be larger than than the destination surface.</li>
 <li>The planar alpha must be in the range [0...1] inclusive.</li>

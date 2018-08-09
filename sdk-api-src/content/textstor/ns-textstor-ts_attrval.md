@@ -7,7 +7,7 @@ old-location: tsf\ts_attrval.htm
 old-project: TSF
 ms.assetid: 9209ef60-6a1d-4aad-9f9f-775534116f37
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: TS_ATTRVAL, TS_ATTRVAL structure [Text Services Framework], _tsf_ts_attrval_ref, textstor/TS_ATTRVAL, tsf.ts_attrval
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,8 +91,7 @@ An application uses attributes to expose its data to TSF, whereas text services 
 
 
 
-<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">
-        ITextStoreACP
+<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP
       </a>
 
 
@@ -102,38 +101,32 @@ An application uses attributes to expose its data to TSF, whereas text services 
 
 
 
-<a href="https://msdn.microsoft.com/243cd002-c882-4ce9-b528-1a2229c46f4a">
-        ITextStoreACP::RequestSupportedAttrs
+<a href="https://msdn.microsoft.com/243cd002-c882-4ce9-b528-1a2229c46f4a">ITextStoreACP::RequestSupportedAttrs
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/6cd34ca5-6561-4161-beac-98248f0415f6">
-        ITextStoreACP::RetrieveRequestedAttrs
+<a href="https://msdn.microsoft.com/6cd34ca5-6561-4161-beac-98248f0415f6">ITextStoreACP::RetrieveRequestedAttrs
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/62730a6d-4dc8-4207-9818-ab95e6537854">
-        ITextStoreAnchor
+<a href="https://msdn.microsoft.com/62730a6d-4dc8-4207-9818-ab95e6537854">ITextStoreAnchor
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f0f43237-8c26-4e0c-8717-908884229b7b">
-        ITextStoreAnchor::RequestAttrsTransitioningAtPosition
+<a href="https://msdn.microsoft.com/f0f43237-8c26-4e0c-8717-908884229b7b">ITextStoreAnchor::RequestAttrsTransitioningAtPosition
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/ab81d79d-e991-4c2d-9fb7-95393e002828">
-        ITextStoreAnchor::RequestSupportedAttrs
+<a href="https://msdn.microsoft.com/ab81d79d-e991-4c2d-9fb7-95393e002828">ITextStoreAnchor::RequestSupportedAttrs
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/36847680-bcf2-4db5-a587-90518f60cf5b">
-        ITextStoreAnchor::RetrieveRequestedAttrs
+<a href="https://msdn.microsoft.com/36847680-bcf2-4db5-a587-90518f60cf5b">ITextStoreAnchor::RetrieveRequestedAttrs
       </a>
 
 
@@ -142,14 +135,12 @@ An application uses attributes to expose its data to TSF, whereas text services 
 
 
 
-<a href="https://msdn.microsoft.com/50a5930c-ba17-4441-99a7-efc6c4bfc2ab">
-        TF_PROPERTYVAL
+<a href="https://msdn.microsoft.com/50a5930c-ba17-4441-99a7-efc6c4bfc2ab">TF_PROPERTYVAL
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/5e375609-3d3c-4c12-ae05-dcaa70779162">
-        TS_ATTRID
+<a href="https://msdn.microsoft.com/5e375609-3d3c-4c12-ae05-dcaa70779162">TS_ATTRID
       </a>
  
 

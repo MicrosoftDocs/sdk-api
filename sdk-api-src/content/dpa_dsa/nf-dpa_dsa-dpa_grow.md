@@ -7,7 +7,7 @@ old-location: controls\DPA_Grow.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_grow.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DPA_Grow, DPA_Grow function [Windows Controls], _shell_DPA_Grow, _shell_DPA_Grow_cpp, controls.DPA_Grow, controls._shell_DPA_Grow, dpa_dsa/DPA_Grow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,9 +58,11 @@ Changes the number of pointers in a dynamic pointer array (DPA).
 
 
 
-### -param pdpa
+### -param pdpa [in]
 
-TBD
+Type: <b>HDPA</b>
+
+A handle to an existing DPA.
 
 
 ### -param cp [in]
@@ -68,13 +70,6 @@ TBD
 Type: <b>int</b>
 
 The number of pointers desired in the DPA.
-
-
-#### - hdpa [in]
-
-Type: <b>HDPA</b>
-
-A handle to an existing DPA.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_route_callbackroutines_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_6ctu.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: "*PFAX_ROUTE_CALLBACKROUTINES, FAX_ROUTE_CALLBACKROUTINES, FAX_ROUTE_CALLBACKROUTINES structure [Fax Service], PFAX_ROUTE_CALLBACKROUTINES, PFAX_ROUTE_CALLBACKROUTINES structure pointer [Fax Service], _FAX_ROUTE_CALLBACKROUTINES, _mfax_fax_route_callbackroutines_str, fax._mfax_fax_route_callbackroutines_str, faxroute/FAX_ROUTE_CALLBACKROUTINES, faxroute/PFAX_ROUTE_CALLBACKROUTINES"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,35 +70,35 @@ Specifies the size, in bytes, of the <b>FAX_ROUTE_CALLBACKROUTINES</b> structure
 
 Type: <b>PFAXROUTEADDFILE</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms692874(v=VS.85).aspx">FaxRouteAddFile</a> callback function that a fax routing method uses to add a file to the fax file list associated with a received fax document.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms692874(v=VS.85).aspx">FaxRouteAddFile</a> callback function that a fax routing method uses to add a file to the fax file list associated with a received fax document.
 
 
 ### -field FaxRouteDeleteFile
 
 Type: <b>PFAXROUTEDELETEFILE</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms692858(v=VS.85).aspx">FaxRouteDeleteFile</a> callback function that a fax routing method uses to delete a file from the fax file list associated with a received fax document.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms692858(v=VS.85).aspx">FaxRouteDeleteFile</a> callback function that a fax routing method uses to delete a file from the fax file list associated with a received fax document.
 
 
 ### -field FaxRouteGetFile
 
 Type: <b>PFAXROUTEGETFILE</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms692862(v=VS.85).aspx">FaxRouteGetFile</a> callback function that a fax routing method uses to retrieve a specific file name from the fax file list associated with a received fax document.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms692862(v=VS.85).aspx">FaxRouteGetFile</a> callback function that a fax routing method uses to retrieve a specific file name from the fax file list associated with a received fax document.
 
 
 ### -field FaxRouteEnumFiles
 
 Type: <b>PFAXROUTEENUMFILES</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms692864(v=VS.85).aspx">FaxRouteEnumFiles</a> callback function that a fax routing method uses to enumerate the files in the fax file list associated with a received fax document.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms692864(v=VS.85).aspx">FaxRouteEnumFiles</a> callback function that a fax routing method uses to enumerate the files in the fax file list associated with a received fax document.
 
 
 ### -field FaxRouteModifyRoutingData
 
 Type: <b>PFAXROUTEMODIFYROUTINGDATA</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms692909(v=VS.85).aspx">FaxRouteModifyRoutingData</a> callback function that a fax routing method uses to modify the routing data associated with a subsequent fax routing method.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms692909(v=VS.85).aspx">FaxRouteModifyRoutingData</a> callback function that a fax routing method uses to modify the routing data associated with a subsequent fax routing method.
 
 
 ## -remarks
@@ -109,7 +109,7 @@ The fax routing extension DLL must store the pointers to these callback function
 
 If the <b>SizeOfStruct</b> member is greater than sizeof(FAX_ROUTE_CALLBACKROUTINES), this indicates that the <b>FAX_ROUTE_CALLBACKROUTINES</b> structure has been updated by Microsoft, and your application is using an earlier version. To maintain backward compatibility, changes will be appended to the original prototype of the <b>FAX_ROUTE_CALLBACKROUTINES</b> structure. For example, new members for additional callback functions will be added sequentially after the <b>FaxRouteModifyRoutingData</b> member.
 
-For more information, see <a href="https://msdn.microsoft.com/library/ms693451(v=VS.85).aspx">Fax Routing Extension Registration</a> and <a href="https://msdn.microsoft.com/library/ms684521(v=VS.85).aspx">Fax File Lists</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms693451(v=VS.85).aspx">Fax Routing Extension Registration</a> and <a href="https://msdn.microsoft.com/en-us/library/ms684521(v=VS.85).aspx">Fax File Lists</a>.
 
 
 
@@ -119,31 +119,31 @@ For more information, see <a href="https://msdn.microsoft.com/library/ms693451(v
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684519(v=VS.85).aspx">Fax Routing Extension Application Programming Interface Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684519(v=VS.85).aspx">Fax Routing Extension Application Programming Interface Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692900(v=VS.85).aspx">Fax Routing Extension Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692900(v=VS.85).aspx">Fax Routing Extension Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692874(v=VS.85).aspx">FaxRouteAddFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692874(v=VS.85).aspx">FaxRouteAddFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692858(v=VS.85).aspx">FaxRouteDeleteFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692858(v=VS.85).aspx">FaxRouteDeleteFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692864(v=VS.85).aspx">FaxRouteEnumFiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692864(v=VS.85).aspx">FaxRouteEnumFiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692862(v=VS.85).aspx">FaxRouteGetFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692862(v=VS.85).aspx">FaxRouteGetFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692909(v=VS.85).aspx">FaxRouteModifyRoutingData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692909(v=VS.85).aspx">FaxRouteModifyRoutingData</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mstv\iccsubstreamfiltering.htm
 old-project: mstv
 ms.assetid: 2de6796d-beb3-4611-a559-449fe21193a6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: ICCSubStreamFiltering, ICCSubStreamFiltering interface [Microsoft TV Technologies], ICCSubStreamFiltering interface [Microsoft TV Technologies],described, ICCSubStreamFilteringInterface, bdaiface/ICCSubStreamFiltering, mstv.iccsubstreamfiltering
 ms.prod: windows
 ms.technology: windows-sdk

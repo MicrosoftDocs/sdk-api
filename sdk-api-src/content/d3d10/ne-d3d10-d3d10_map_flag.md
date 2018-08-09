@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_map_flag.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_map_flag.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D3D10_MAP_FLAG, D3D10_MAP_FLAG enumeration [Direct3D 10], D3D10_MAP_FLAG_DO_NOT_WAIT, b065a6b9-984f-67e0-f7d5-c91d03926340, d3d10/D3D10_MAP_FLAG, d3d10/D3D10_MAP_FLAG_DO_NOT_WAIT, direct3d10.d3d10_map_flag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,11 +67,11 @@ Specifies that Map should return <b>DXGI_ERROR_WAS_STILL_DRAWING</b> when the GP
 
 
 
-This enumeration is used by <a href="https://msdn.microsoft.com/library/Bb173512(v=VS.85).aspx">ID3D10Buffer::Map</a>, <a href="https://msdn.microsoft.com/library/Bb173865(v=VS.85).aspx">ID3D10Texture1D::Map</a>, <a href="https://msdn.microsoft.com/library/Bb173869(v=VS.85).aspx">ID3D10Texture2D::Map</a>, and <a href="https://msdn.microsoft.com/library/Bb173873(v=VS.85).aspx">ID3D10Texture3D::Map</a>.
+This enumeration is used by <a href="https://msdn.microsoft.com/en-us/library/Bb173512(v=VS.85).aspx">ID3D10Buffer::Map</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb173865(v=VS.85).aspx">ID3D10Texture1D::Map</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb173869(v=VS.85).aspx">ID3D10Texture2D::Map</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb173873(v=VS.85).aspx">ID3D10Texture3D::Map</a>.
 
-D3D10_MAP_FLAG_DO_NOT_WAIT cannot be used with <a href="https://msdn.microsoft.com/library/Bb205318(v=VS.85).aspx">D3D10_MAP_WRITE_DISCARD</a> or <a href="https://msdn.microsoft.com/library/Bb205318(v=VS.85).aspx">D3D10_MAP_WRITE_NOOVERWRITE</a>.
+D3D10_MAP_FLAG_DO_NOT_WAIT cannot be used with <a href="https://msdn.microsoft.com/en-us/library/Bb205318(v=VS.85).aspx">D3D10_MAP_WRITE_DISCARD</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb205318(v=VS.85).aspx">D3D10_MAP_WRITE_NOOVERWRITE</a>.
 
-For more information about potential conflicts between the GPU and CPU during resource mapping, see <a href="https://msdn.microsoft.com/library/Bb205132(v=VS.85).aspx">Copying and Accessing Resource Data (Direct3D 10)</a>.
+For more information about potential conflicts between the GPU and CPU during resource mapping, see <a href="https://msdn.microsoft.com/en-us/library/Bb205132(v=VS.85).aspx">Copying and Accessing Resource Data (Direct3D 10)</a>.
 
 
 
@@ -81,7 +81,7 @@ For more information about potential conflicts between the GPU and CPU during re
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205275(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205275(v=VS.85).aspx">Resource Enumerations</a>
  
 
  

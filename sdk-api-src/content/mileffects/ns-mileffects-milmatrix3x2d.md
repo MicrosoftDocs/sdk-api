@@ -7,7 +7,7 @@ old-location: wibe\_wibe_mil_matrix3x2d.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\structs\mil_matrix3x2d.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: MIL_MATRIX3X2D, MilMatrix3x2D, MilMatrix3x2D structure [WPF Bitmap Effects], _wibe_mil_matrix3x2d, mileffects/MilMatrix3x2D, wibe._wibe_mil_matrix3x2d
 ms.prod: windows
 ms.technology: windows-sdk

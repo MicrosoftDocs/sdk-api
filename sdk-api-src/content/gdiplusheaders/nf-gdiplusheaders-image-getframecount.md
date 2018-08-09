@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetFrameCount_dimensionID_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getframecount.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetFrameCount, GetFrameCount method [GDI+], GetFrameCount method [GDI+],Image class, Image class [GDI+],GetFrameCount method, Image.GetFrameCount, Image::GetFrameCount, _gdiplus_CLASS_Image_GetFrameCount_dimensionID_, gdiplus._gdiplus_CLASS_Image_GetFrameCount_dimensionID_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Image::GetFrameCount</b> method gets the number of frames in a specified dimension of this 
-			<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Type: <strong>Type: <b>UINT</b>
 </strong>
 
 This method returns the number of frames in the specified dimension of this 
-						<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a> object.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object.
 
 
 
@@ -87,31 +87,31 @@ This method returns the number of frames in the specified dimension of this
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533838(v=VS.85).aspx">Copying Individual Frames from a Multiple-Frame Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533838(v=VS.85).aspx">Copying Individual Frames from a Multiple-Frame Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533839(v=VS.85).aspx">Creating and Saving a Multiple-Frame Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533839(v=VS.85).aspx">Creating and Saving a Multiple-Frame Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534434(v=VS.85).aspx">EncoderParameter</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx">EncoderParameter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535378(v=VS.85).aspx">Image::GetFrameDimensionsCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535378(v=VS.85).aspx">Image::GetFrameDimensionsCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535379(v=VS.85).aspx">Image::GetFrameDimensionsList</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535379(v=VS.85).aspx">Image::GetFrameDimensionsList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535398(v=VS.85).aspx">Image::SaveAdd Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535398(v=VS.85).aspx">Image::SaveAdd Methods</a>
  
 
  

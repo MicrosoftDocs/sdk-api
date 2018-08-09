@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2trackatonce_addaudiotrack.htm
 old-project: imapi
 ms.assetid: 3ac74b91-b0c7-471f-b6a9-1393d677e0c1
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: AddAudioTrack, AddAudioTrack method [IMAPI], AddAudioTrack method [IMAPI],IDiscFormat2TrackAtOnce interface, IDiscFormat2TrackAtOnce interface [IMAPI],AddAudioTrack method, IDiscFormat2TrackAtOnce.AddAudioTrack, IDiscFormat2TrackAtOnce::AddAudioTrack, imapi.idiscformat2trackatonce_addaudiotrack, imapi2/IDiscFormat2TrackAtOnce::AddAudioTrack
 ms.prod: windows
 ms.technology: windows-sdk

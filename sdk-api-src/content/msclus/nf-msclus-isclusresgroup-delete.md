@@ -7,7 +7,7 @@ old-location: mscs\clusresgroup_delete.htm
 old-project: mscs
 ms.assetid: b1831340-67b9-458c-8669-c8e5e4973c28
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusResGroup class [Failover Cluster],Delete method, ClusResGroup.Delete, Delete, Delete method [Failover Cluster], Delete method [Failover Cluster],ClusResGroup class, ISClusResGroup.Delete, ISClusResGroup::Delete, _wolf_clusresgroup.delete, mscs.clusresgroup_delete
 ms.prod: windows
 ms.technology: windows-sdk

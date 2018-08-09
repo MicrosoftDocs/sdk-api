@@ -4,10 +4,10 @@ title: ITPluggableTerminalEventSink::FireEvent
 author: windows-sdk-content
 description: The FireEvent method results in a message that notifies the client application of a change in the pluggable terminal.
 old-location: tapi3\itpluggableterminaleventsink_fireevent.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 67386c32-5714-4b01-b860-25192349aa6c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: FireEvent, FireEvent method [TAPI 2.2], FireEvent method [TAPI 2.2],ITPluggableTerminalEventSink interface, ITPluggableTerminalEventSink interface [TAPI 2.2],FireEvent method, ITPluggableTerminalEventSink.FireEvent, ITPluggableTerminalEventSink::FireEvent, _tapi3_itpluggableterminaleventsink_fireevent, msp/ITPluggableTerminalEventSink::FireEvent, tapi3.itpluggableterminaleventsink_fireevent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: webdav\davgethttpfromuncpath.htm
 old-project: webdav
 ms.assetid: caa83e54-a029-45aa-9681-26b2be54fea3
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 08/06/2018
 ms.keywords: DavGetHTTPFromUNCPath, DavGetHTTPFromUNCPath function [WebDAV], davclnt/DavGetHTTPFromUNCPath, webdav.davgethttpfromuncpath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,19 +75,14 @@ where<ul>
 
 
 
-### -param Url
+### -param Url [out]
 
-TBD
+A pointer to a caller-allocated buffer  that receives the HTTP path as a <b>null</b>-terminated Unicode string.
 
 
 ### -param lpSize [in, out]
 
 A pointer to a variable that on input specifies the maximum size, in Unicode characters, of the buffer that the <i>HttpPath</i> parameter points to. If the function succeeds, on output the variable receives the number of characters that were copied into the buffer. If the function fails with ERROR_INSUFFICIENT_BUFFER, on output the variable receives the number of characters needed to store the HTTP path, including the "http://" or "https://" prefix and the terminating <b>NULL</b> character.
-
-
-#### - HttpPath [out]
-
-A pointer to a caller-allocated buffer  that receives the HTTP path as a <b>null</b>-terminated Unicode string.
 
 
 ## -returns

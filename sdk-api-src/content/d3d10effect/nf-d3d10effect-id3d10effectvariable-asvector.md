@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_asvector.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asvector.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: AsVector, AsVector method [Direct3D 10], AsVector method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsVector method, ID3D10EffectVariable.AsVector, ID3D10EffectVariable::AsVector, a5136c3d-204c-bce5-0022-ead9b334e840, d3d10effect/ID3D10EffectVariable::AsVector, direct3d10.id3d10effectvariable_asvector
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ Get a vector variable.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173748(v=VS.85).aspx">ID3D10EffectVectorVariable</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173748(v=VS.85).aspx">ID3D10EffectVectorVariable</a>*</b>
 
-A pointer to a vector variable. See <a href="https://msdn.microsoft.com/library/Bb173748(v=VS.85).aspx">ID3D10EffectVectorVariable</a>.
+A pointer to a vector variable. See <a href="https://msdn.microsoft.com/en-us/library/Bb173748(v=VS.85).aspx">ID3D10EffectVectorVariable</a>.
 
 
 
@@ -77,7 +77,7 @@ A pointer to a vector variable. See <a href="https://msdn.microsoft.com/library/
 
 AsVector returns a version of the effect variable that has been specialized to a vector variable. Similar to a cast, this specialization will return an invalid object if the effect variable does not contain vector data.
 
-Applications can test the returned object for validity by calling <a href="https://msdn.microsoft.com/library/Bb173746(v=VS.85).aspx">IsValid</a>.
+Applications can test the returned object for validity by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173746(v=VS.85).aspx">IsValid</a>.
 
 
 
@@ -87,7 +87,7 @@ Applications can test the returned object for validity by calling <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>
  
 
  

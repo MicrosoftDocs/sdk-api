@@ -4,10 +4,10 @@ title: EvtNext function
 author: windows-sdk-content
 description: Gets the next event from the query or subscription results.
 old-location: wes\evtnext.htm
-old-project: WES
+old-project: wes
 ms.assetid: 46d40734-f022-4775-aa4f-13f4069c43c8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EvtNext, EvtNext function [EventLog], wes.evtnext, winevt/EvtNext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,14 @@ Gets the next event from the query or subscription results.
 The handle to a query or subscription result set that the <a href="https://msdn.microsoft.com/06b67ec4-74ab-47d7-b7b9-1180e7dee725">EvtQuery</a> function or the <a href="https://msdn.microsoft.com/e7c4c5f9-2a5a-4004-8f19-13eb61c4346b">EvtSubscribe</a> function returns.
 
 
-### -param EventsSize
+### -param EventsSize [in]
 
-TBD
+The number of elements in the <i>EventArray</i> array. The function will try to retrieve this number of elements from the result set.
 
 
-### -param Events
+### -param Events [in]
 
-TBD
+A pointer to an array of handles that will be set to the handles to the events from the result set.
 
 
 ### -param Timeout [in]
@@ -88,16 +88,6 @@ Reserved. Must be zero.
 ### -param Returned [out]
 
 The number of handles in the array that are set.
-
-
-#### - EventArray [in]
-
-A pointer to an array of handles that will be set to the handles to the events from the result set.
-
-
-#### - EventArraySize [in]
-
-The number of elements in the <i>EventArray</i> array. The function will try to retrieve this number of elements from the result set.
 
 
 ## -returns

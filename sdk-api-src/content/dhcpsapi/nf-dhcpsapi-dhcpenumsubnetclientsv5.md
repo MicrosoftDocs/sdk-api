@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumsubnetclientsv5.htm
 old-project: dhcp
 ms.assetid: 34be1d6d-10d5-4025-abc6-29857417e081
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpEnumSubnetClientsV5, DhcpEnumSubnetClientsV5 function [DHCP], dhcp.dhcpenumsubnetclientsv5, dhcpsapi/DhcpEnumSubnetClientsV5
 ms.prod: windows
 ms.technology: windows-sdk
@@ -159,8 +159,7 @@ The caller of this function must release the memory used by the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/2188f187-d8d3-4579-bb04-4c4712903a91">
-		  DHCP_CLIENT_INFO_ARRAY_V5</a>
+<a href="https://msdn.microsoft.com/2188f187-d8d3-4579-bb04-4c4712903a91">DHCP_CLIENT_INFO_ARRAY_V5</a>
 
 
 

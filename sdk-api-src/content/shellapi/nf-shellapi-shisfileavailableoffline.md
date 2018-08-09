@@ -7,7 +7,7 @@ old-location: shell\SHIsFileAvailableOffline.htm
 old-project: shell
 ms.assetid: 9acf212d-9309-42b0-ba96-faa0ecf0b865
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: OFFLINE_STATUS_INCOMPLETE, OFFLINE_STATUS_LOCAL, OFFLINE_STATUS_REMOTE, SHIsFileAvailableOffline, SHIsFileAvailableOffline function [Windows Shell], shell.SHIsFileAvailableOffline, shell_shisfileavailableoffline, shellapi/SHIsFileAvailableOffline
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,11 @@ Determines whether a file or folder is available for offline use. This function 
 
 
 
-### -param pwszPath
+### -param pwszPath [in]
 
-TBD
+Type: <b>PCWSTR</b>
+
+A pointer to a string value that specifies the full path to a network file or directory. This path does not need to be in UNC form. If <i>pszPath</i> is not a network path, the function returns E_INVALIDARG.
 
 
 ### -param pdwStatus [out, optional]
@@ -87,13 +89,6 @@ If the file is open, it is open on the server.
 #### OFFLINE_STATUS_INCOMPLETE (0x04)
 
 The local copy is currently incomplete. The file cannot be opened in offline mode until it has been synchronized.
-
-
-#### - pszPath [in]
-
-Type: <b>PCWSTR</b>
-
-A pointer to a string value that specifies the full path to a network file or directory. This path does not need to be in UNC form. If <i>pszPath</i> is not a network path, the function returns E_INVALIDARG.
 
 
 ## -returns

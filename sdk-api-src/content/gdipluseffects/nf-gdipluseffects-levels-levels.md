@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Levels_Levels_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\levelsclass\levelsconstructors\levels.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Levels, Levels class [GDI+],Levels constructor, Levels constructor [GDI+], Levels constructor [GDI+],Levels class, Levels.Levels, Levels::Levels, _gdiplus_CLASS_Levels_Levels_, gdiplus._gdiplus_CLASS_Levels_Levels_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/library/ms534471(v=VS.85).aspx">Levels</a> object. 
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534471(v=VS.85).aspx">Levels</a> object. 
 
 
 ## -parameters
@@ -66,15 +66,15 @@ Creates a <a href="https://msdn.microsoft.com/library/ms534471(v=VS.85).aspx">Le
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534471(v=VS.85).aspx">Levels</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534471(v=VS.85).aspx">Levels</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535361(v=VS.85).aspx">Levels::SetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535361(v=VS.85).aspx">Levels::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534070(v=VS.85).aspx">LevelsParams</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534070(v=VS.85).aspx">LevelsParams</a>
  
 
  

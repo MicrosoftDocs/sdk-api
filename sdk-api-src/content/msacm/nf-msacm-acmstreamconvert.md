@@ -7,7 +7,7 @@ old-location: multimedia\acmstreamconvert.htm
 old-project: Multimedia
 ms.assetid: 97537dcc-acf4-4fea-b17f-2301a72a6a78
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: "_win32_acmStreamConvert, acmStreamConvert, acmStreamConvert function [Windows Multimedia], msacm/acmStreamConvert, multimedia.acmstreamconvert"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,11 +79,9 @@ Flags for doing the conversion. The following values are defined.
 
 <table>
 <tr>
-<th>
-Value
+<th>Value
 </th>
-<th>
-Meaning
+<th>Meaning
 </th>
 </tr>
 <tr>

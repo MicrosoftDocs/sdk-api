@@ -7,7 +7,7 @@ old-location: iphlp\deleteipnetentry.htm
 old-project: iphlp
 ms.assetid: 0d338676-b66f-410c-8022-5576096954b4
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: DeleteIpNetEntry, DeleteIpNetEntry function [IP Helper], _iphlp_deleteipnetentry, iphlp.deleteipnetentry, iphlpapi/DeleteIpNetEntry
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IDeskBar_GetClient.htm
 old-project: shell
 ms.assetid: 003b400c-03a4-47c0-a6b8-04aa65ac573c
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetClient, GetClient method [Windows Shell], GetClient method [Windows Shell],IDeskBar interface, IDeskBar interface [Windows Shell],GetClient method, IDeskBar.GetClient, IDeskBar::GetClient, _win32_IDeskBar_GetClient, shell.IDeskBar_GetClient, shobjidl_core/IDeskBar::GetClient
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Gets the client object.
 
 Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>**</b>
 
-
-          The address of a pointer to a variable of type <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> that receives the client used by the desk bar.
+The address of a pointer to a variable of type <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> that receives the client used by the desk bar.
         
 
 

@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersource_maxratingslevel.htm
 old-project: mstv
 ms.assetid: 74dbb008-21c9-4651-8386-761626b7bf19
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],MaxRatingsLevel method, IMSVidStreamBufferSource.MaxRatingsLevel, IMSVidStreamBufferSource::MaxRatingsLevel, IMSVidStreamBufferSourceMaxRatingsLevel, MaxRatingsLevel, MaxRatingsLevel method [Microsoft TV Technologies], MaxRatingsLevel method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_maxratingslevel, segment/IMSVidStreamBufferSource::MaxRatingsLevel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,9 +76,9 @@ The <b>MaxRatingsLevel</b> method specifies the maximum ratings level the object
 
 
 
-#### - pBfEnAttr [in]
+#### - pEnSystem [in]
 
-Specifies zero or more ratings attributes, as a bitwise combination of flags from the <a href="https://msdn.microsoft.com/eb7f56c4-1d48-43f9-a691-c08aee3cd537">BfEnTvRat_GenericAttributes</a> enumeration.
+Specifies the rating system, as an <a href="https://msdn.microsoft.com/646927ad-569a-4484-a3ce-6d121210b6be">EnTvRat_System</a> enumeration value.
 
 
 #### - pEnRating [in]
@@ -86,9 +86,9 @@ Specifies zero or more ratings attributes, as a bitwise combination of flags fro
 Specifies the maximum rating level, as an <a href="https://msdn.microsoft.com/f96a8f1a-d8e2-4976-92e3-719f0039d2a8">EnTvRat_GenericLevel</a> enumeration value.
 
 
-#### - pEnSystem [in]
+#### - pBfEnAttr [in]
 
-Specifies the rating system, as an <a href="https://msdn.microsoft.com/646927ad-569a-4484-a3ce-6d121210b6be">EnTvRat_System</a> enumeration value.
+Specifies zero or more ratings attributes, as a bitwise combination of flags from the <a href="https://msdn.microsoft.com/eb7f56c4-1d48-43f9-a691-c08aee3cd537">BfEnTvRat_GenericAttributes</a> enumeration.
 
 
 ## -returns

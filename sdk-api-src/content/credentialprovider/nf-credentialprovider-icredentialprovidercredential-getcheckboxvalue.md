@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredential_GetCheckboxValue.htm
 old-project: shell
 ms.assetid: f7fcf44c-bc5e-4d15-bbd8-7f7e9df9240b
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetCheckboxValue, GetCheckboxValue method [Windows Shell], GetCheckboxValue method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetCheckboxValue method, ICredentialProviderCredential.GetCheckboxValue, ICredentialProviderCredential::GetCheckboxValue, _shell_ICredentialProviderCredential_GetCheckboxValue, credentialprovider/ICredentialProviderCredential::GetCheckboxValue, shell.ICredentialProviderCredential_GetCheckboxValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,8 +69,7 @@ The identifier for the field.
 
 Type: <b>BOOL*</b>
 
-
-          Indicates the state of the checkbox. <b>TRUE</b> indicates the checkbox is checked, otherwise <b>FALSE</b>.
+Indicates the state of the checkbox. <b>TRUE</b> indicates the checkbox is checked, otherwise <b>FALSE</b>.
         
 
 
@@ -78,8 +77,7 @@ Type: <b>BOOL*</b>
 
 Type: <b>LPWSTR*</b>
 
-
-          Points to the label on the checkbox.
+Points to the label on the checkbox.
         
 
 

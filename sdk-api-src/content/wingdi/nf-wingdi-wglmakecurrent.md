@@ -7,7 +7,7 @@ old-location: opengl\wglmakecurrent.htm
 old-project: OpenGL
 ms.assetid: a1d3cbc9-2587-4f49-9d7d-749cf9a3ecfe
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: "_ogl_wglMakeCurrent, opengl.wglmakecurrent, wglMakeCurrent, wglMakeCurrent function [OpenGL], wingdi/wglMakeCurrent"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,6 @@ TBD
 
 
 
-#### - hdc
-
-Handle to a device context. Subsequent OpenGL calls made by the calling thread are drawn on the device identified by <i>hdc</i>.
 
 
 #### - hglrc

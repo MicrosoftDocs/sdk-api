@@ -7,7 +7,7 @@ old-location: multimedia\mixerline.htm
 old-project: Multimedia
 ms.assetid: a314cdcd-dd52-49f1-92b4-c8e3775dcbe2
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPMIXERLINE, *PMIXERLINE, MIXERLINE, MIXERLINE structure [Windows Multimedia], MIXERLINE_COMPONENTTYPE_DST_DIGITAL, MIXERLINE_COMPONENTTYPE_DST_HEADPHONES, MIXERLINE_COMPONENTTYPE_DST_LINE, MIXERLINE_COMPONENTTYPE_DST_MONITOR, MIXERLINE_COMPONENTTYPE_DST_SPEAKERS, MIXERLINE_COMPONENTTYPE_DST_TELEPHONE, MIXERLINE_COMPONENTTYPE_DST_UNDEFINED, MIXERLINE_COMPONENTTYPE_DST_VOICEIN, MIXERLINE_COMPONENTTYPE_DST_WAVEIN, MIXERLINE_COMPONENTTYPE_SRC_ANALOG, MIXERLINE_COMPONENTTYPE_SRC_AUXILIARY, MIXERLINE_COMPONENTTYPE_SRC_COMPACTDISC, MIXERLINE_COMPONENTTYPE_SRC_DIGITAL, MIXERLINE_COMPONENTTYPE_SRC_LINE, MIXERLINE_COMPONENTTYPE_SRC_MICROPHONE, MIXERLINE_COMPONENTTYPE_SRC_PCSPEAKER, MIXERLINE_COMPONENTTYPE_SRC_SYNTHESIZER, MIXERLINE_COMPONENTTYPE_SRC_TELEPHONE, MIXERLINE_COMPONENTTYPE_SRC_UNDEFINED, MIXERLINE_COMPONENTTYPE_SRC_WAVEOUT, MIXERLINE_LINEF_ACTIVE, MIXERLINE_LINEF_DISCONNECTED, MIXERLINE_LINEF_SOURCE, MIXERLINE_TARGETTYPE_AUX, MIXERLINE_TARGETTYPE_MIDIIN, MIXERLINE_TARGETTYPE_MIDIOUT, MIXERLINE_TARGETTYPE_UNDEFINED, MIXERLINE_TARGETTYPE_WAVEIN, MIXERLINE_TARGETTYPE_WAVEOUT, _win32_MIXERLINE_str, mmeapi/MIXERLINE, multimedia.mixerline, tMIXERLINE, tagMIXERLINE, tagMIXERLINEA, tagMIXERLINEW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,8 +69,7 @@ Size, in bytes, of the <b>MIXERLINE</b> structure. This member must be initializ
 
 ### -field dwDestination
 
-
-            Destination line index. This member ranges from zero to one less than the value specified in the <b>cDestinations</b> member of the <a href="https://msdn.microsoft.com/4a4220cb-fdb1-4afe-821f-27f5adb51530">MIXERCAPS</a> structure retrieved by the <a href="https://msdn.microsoft.com/e3403be8-f3a8-4aab-8498-0556585bc4dd">mixerGetDevCaps</a> function. When the <a href="https://msdn.microsoft.com/125f09a6-df7f-4aa0-9180-410025b617e2">mixerGetLineInfo</a> function is called with the MIXER_GETLINEINFOF_DESTINATION flag, properties for the destination line are returned. (The <b>dwSource</b> member must be set to zero in this case.) When called with the MIXER_GETLINEINFOF_SOURCE flag, the properties for the source given by the <b>dwSource</b> member that is associated with the <b>dwDestination</b> member are returned.
+Destination line index. This member ranges from zero to one less than the value specified in the <b>cDestinations</b> member of the <a href="https://msdn.microsoft.com/4a4220cb-fdb1-4afe-821f-27f5adb51530">MIXERCAPS</a> structure retrieved by the <a href="https://msdn.microsoft.com/e3403be8-f3a8-4aab-8498-0556585bc4dd">mixerGetDevCaps</a> function. When the <a href="https://msdn.microsoft.com/125f09a6-df7f-4aa0-9180-410025b617e2">mixerGetLineInfo</a> function is called with the MIXER_GETLINEINFOF_DESTINATION flag, properties for the destination line are returned. (The <b>dwSource</b> member must be set to zero in this case.) When called with the MIXER_GETLINEINFOF_SOURCE flag, the properties for the source given by the <b>dwSource</b> member that is associated with the <b>dwDestination</b> member are returned.
           
 
 
@@ -81,8 +80,7 @@ Index for the audio source line associated with the <b>dwDestination</b> member.
 
 ### -field dwLineID
 
-
-            An identifier defined by the mixer device that uniquely refers to the audio line described by the <b>MIXERLINE</b> structure. This identifier is unique for each mixer device and can be in any format. An application should use this identifier only as an abstract handle.
+An identifier defined by the mixer device that uniquely refers to the audio line described by the <b>MIXERLINE</b> structure. This identifier is unique for each mixer device and can be in any format. An application should use this identifier only as an abstract handle.
           
 
 
@@ -140,8 +138,7 @@ If a line cannot be strictly defined as active, the mixer device will always set
 
 ### -field dwUser
 
-
-            Instance data defined by the audio device for the line. This member is intended for custom mixer applications designed specifically for the mixer device returning this information. Other applications should ignore this data.
+Instance data defined by the audio device for the line. This member is intended for custom mixer applications designed specifically for the mixer device returning this information. Other applications should ignore this data.
           
 
 
@@ -160,8 +157,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is a digital destination (for example, digital input to a DAT or CD audio device).
+Audio line is a digital destination (for example, digital input to a DAT or CD audio device).
               
 
 </td>
@@ -172,8 +168,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is an adjustable (gain and/or attenuation) destination intended to drive headphones. Most audio cards use the same audio destination line for speakers and headphones, in which case the mixer device simply uses the MIXERLINE_COMPONENTTYPE_DST_SPEAKERS type.
+Audio line is an adjustable (gain and/or attenuation) destination intended to drive headphones. Most audio cards use the same audio destination line for speakers and headphones, in which case the mixer device simply uses the MIXERLINE_COMPONENTTYPE_DST_SPEAKERS type.
               
 
 </td>
@@ -184,8 +179,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is a line level destination (for example, line level input from a CD audio device) that will be the final recording source for the analog-to-digital converter (ADC). Because most audio cards for personal computers provide some sort of gain for the recording audio source line, the mixer device will use the MIXERLINE_COMPONENTTYPE_DST_WAVEIN type.
+Audio line is a line level destination (for example, line level input from a CD audio device) that will be the final recording source for the analog-to-digital converter (ADC). Because most audio cards for personal computers provide some sort of gain for the recording audio source line, the mixer device will use the MIXERLINE_COMPONENTTYPE_DST_WAVEIN type.
               
 
 </td>
@@ -196,8 +190,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is a destination used for a monitor.
+Audio line is a destination used for a monitor.
               
 
 </td>
@@ -208,8 +201,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is an adjustable (gain and/or attenuation) destination intended to drive speakers. This is the typical component type for the audio output of audio cards for personal computers.
+Audio line is an adjustable (gain and/or attenuation) destination intended to drive speakers. This is the typical component type for the audio output of audio cards for personal computers.
               
 
 </td>
@@ -220,8 +212,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is a destination that will be routed to a telephone line.
+Audio line is a destination that will be routed to a telephone line.
               
 
 </td>
@@ -232,8 +223,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is a destination that cannot be defined by one of the standard component types. A mixer device is required to use this component type for line component types that have not been defined by Microsoft Corporation.
+Audio line is a destination that cannot be defined by one of the standard component types. A mixer device is required to use this component type for line component types that have not been defined by Microsoft Corporation.
               
 
 </td>
@@ -244,8 +234,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is a destination that will be the final recording source for voice input. This component type is exactly like MIXERLINE_COMPONENTTYPE_DST_WAVEIN but is intended specifically for settings used during voice recording/recognition. Support for this line is optional for a mixer device. Many mixer devices provide only MIXERLINE_COMPONENTTYPE_DST_WAVEIN.
+Audio line is a destination that will be the final recording source for voice input. This component type is exactly like MIXERLINE_COMPONENTTYPE_DST_WAVEIN but is intended specifically for settings used during voice recording/recognition. Support for this line is optional for a mixer device. Many mixer devices provide only MIXERLINE_COMPONENTTYPE_DST_WAVEIN.
               
 
 </td>
@@ -256,8 +245,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is a destination that will be the final recording source for the waveform-audio input (ADC). This line typically provides some sort of gain or attenuation. This is the typical component type for the recording line of most audio cards for personal computers.
+Audio line is a destination that will be the final recording source for the waveform-audio input (ADC). This line typically provides some sort of gain or attenuation. This is the typical component type for the recording line of most audio cards for personal computers.
               
 
 </td>
@@ -268,8 +256,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is an analog source (for example, analog output from a video-cassette tape).
+Audio line is an analog source (for example, analog output from a video-cassette tape).
               
 
 </td>
@@ -280,8 +267,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is a source originating from the auxiliary audio line. This line type is intended as a source with gain or attenuation that can be routed to the MIXERLINE_COMPONENTTYPE_DST_SPEAKERS destination and/or recorded from the MIXERLINE_COMPONENTTYPE_DST_WAVEIN destination.
+Audio line is a source originating from the auxiliary audio line. This line type is intended as a source with gain or attenuation that can be routed to the MIXERLINE_COMPONENTTYPE_DST_SPEAKERS destination and/or recorded from the MIXERLINE_COMPONENTTYPE_DST_WAVEIN destination.
               
 
 </td>
@@ -292,8 +278,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is a source originating from the output of an internal audio CD. This component type is provided for audio cards that provide an audio source line intended to be connected to an audio CD (or CD-ROM playing an audio CD).
+Audio line is a source originating from the output of an internal audio CD. This component type is provided for audio cards that provide an audio source line intended to be connected to an audio CD (or CD-ROM playing an audio CD).
               
 
 </td>
@@ -304,8 +289,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is a digital source (for example, digital output from a DAT or audio CD).
+Audio line is a digital source (for example, digital output from a DAT or audio CD).
               
 
 </td>
@@ -316,8 +300,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is a line-level source (for example, line-level input from an external stereo) that can be used as an optional recording source. Because most audio cards for personal computers provide some sort of gain for the recording source line, the mixer device will use the MIXERLINE_COMPONENTTYPE_SRC_AUXILIARY type.
+Audio line is a line-level source (for example, line-level input from an external stereo) that can be used as an optional recording source. Because most audio cards for personal computers provide some sort of gain for the recording source line, the mixer device will use the MIXERLINE_COMPONENTTYPE_SRC_AUXILIARY type.
               
 
 </td>
@@ -328,8 +311,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is a microphone recording source. Most audio cards for personal computers provide at least two types of recording sources: an auxiliary audio line and microphone input. A microphone audio line typically provides some sort of gain. Audio cards that use a single input for use with a microphone or auxiliary audio line should use the MIXERLINE_COMPONENTTYPE_SRC_MICROPHONE component type.
+Audio line is a microphone recording source. Most audio cards for personal computers provide at least two types of recording sources: an auxiliary audio line and microphone input. A microphone audio line typically provides some sort of gain. Audio cards that use a single input for use with a microphone or auxiliary audio line should use the MIXERLINE_COMPONENTTYPE_SRC_MICROPHONE component type.
               
 
 </td>
@@ -340,8 +322,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is a source originating from personal computer speaker. Several audio cards for personal computers provide the ability to mix what would typically be played on the internal speaker with the output of an audio card. Some audio cards support the ability to use this output as a recording source.
+Audio line is a source originating from personal computer speaker. Several audio cards for personal computers provide the ability to mix what would typically be played on the internal speaker with the output of an audio card. Some audio cards support the ability to use this output as a recording source.
               
 
 </td>
@@ -352,8 +333,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is a source originating from the output of an internal synthesizer. Most audio cards for personal computers provide some sort of MIDI synthesizer.
+Audio line is a source originating from the output of an internal synthesizer. Most audio cards for personal computers provide some sort of MIDI synthesizer.
               
 
 </td>
@@ -364,8 +344,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is a source originating from an incoming telephone line.
+Audio line is a source originating from an incoming telephone line.
               
 
 </td>
@@ -376,8 +355,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is a source that cannot be defined by one of the standard component types. A mixer device is required to use this component type for line component types that have not been defined by Microsoft Corporation.
+Audio line is a source that cannot be defined by one of the standard component types. A mixer device is required to use this component type for line component types that have not been defined by Microsoft Corporation.
               
 
 </td>
@@ -388,8 +366,7 @@ Component type for this audio line. An application can use this information to d
 </dl>
 </td>
 <td width="60%">
-
-                Audio line is a source originating from the waveform-audio output digital-to-analog converter (DAC). Most audio cards for personal computers provide this component type as a source to the MIXERLINE_COMPONENTTYPE_DST_SPEAKERS destination. Some cards also allow this source to be routed to the MIXERLINE_COMPONENTTYPE_DST_WAVEIN destination.
+Audio line is a source originating from the waveform-audio output digital-to-analog converter (DAC). Most audio cards for personal computers provide this component type as a source to the MIXERLINE_COMPONENTTYPE_DST_SPEAKERS destination. Some cards also allow this source to be routed to the MIXERLINE_COMPONENTTYPE_DST_WAVEIN destination.
               
 
 </td>
@@ -411,36 +388,31 @@ A multichannel line might have one or more uniform controls (controls that affec
 
 ### -field cConnections
 
-
-            Number of connections that are associated with the audio line. This member is used only for audio destination lines and specifies the number of audio source lines that are associated with it. This member is always zero for source lines and for destination lines that do not have any audio source lines associated with them.
+Number of connections that are associated with the audio line. This member is used only for audio destination lines and specifies the number of audio source lines that are associated with it. This member is always zero for source lines and for destination lines that do not have any audio source lines associated with them.
           
 
 
 ### -field cControls
 
-
-            Number of controls associated with the audio line. This value can be zero. If no controls are associated with the line, the line is likely to be a source that might be selected in a MIXERCONTROL_CONTROLTYPE_MUX or MIXERCONTROL_CONTROLTYPE_MIXER but allows no manipulation of the signal.
+Number of controls associated with the audio line. This value can be zero. If no controls are associated with the line, the line is likely to be a source that might be selected in a MIXERCONTROL_CONTROLTYPE_MUX or MIXERCONTROL_CONTROLTYPE_MIXER but allows no manipulation of the signal.
           
 
 
 ### -field szShortName
 
-
-            Short string that describes the audio mixer line specified in the <b>dwLineID</b> member. This description should be appropriate as a concise label for the line.
+Short string that describes the audio mixer line specified in the <b>dwLineID</b> member. This description should be appropriate as a concise label for the line.
           
 
 
 ### -field szName
 
-
-            String that describes the audio mixer line specified in the <b>dwLineID</b> member. This description should be appropriate as a complete description for the line.
+String that describes the audio mixer line specified in the <b>dwLineID</b> member. This description should be appropriate as a complete description for the line.
           
 
 
 ### -field Target
 
-
-            Target media information.
+Target media information.
           
 
 
@@ -459,8 +431,7 @@ Target media device type associated with the audio line described in the <b>MIXE
 </dl>
 </td>
 <td width="60%">
-
-                  The audio line described by the <b>MIXERLINE</b> structure is strictly bound to the auxiliary device detailed in the remaining members of the <b>Target</b> structure member of the <b>MIXERLINE</b> structure.
+The audio line described by the <b>MIXERLINE</b> structure is strictly bound to the auxiliary device detailed in the remaining members of the <b>Target</b> structure member of the <b>MIXERLINE</b> structure.
                 
 
 </td>
@@ -471,8 +442,7 @@ Target media device type associated with the audio line described in the <b>MIXE
 </dl>
 </td>
 <td width="60%">
-
-                  The audio line described by the <b>MIXERLINE</b> structure is strictly bound to the MIDI input device detailed in the remaining members of the <b>Target</b> structure member of the <b>MIXERLINE</b> structure.
+The audio line described by the <b>MIXERLINE</b> structure is strictly bound to the MIDI input device detailed in the remaining members of the <b>Target</b> structure member of the <b>MIXERLINE</b> structure.
                 
 
 </td>
@@ -483,8 +453,7 @@ Target media device type associated with the audio line described in the <b>MIXE
 </dl>
 </td>
 <td width="60%">
-
-                  The audio line described by the <b>MIXERLINE</b> structure is strictly bound to the MIDI output device detailed in the remaining members of the <b>Target</b> structure member of the <b>MIXERLINE</b> structure.
+The audio line described by the <b>MIXERLINE</b> structure is strictly bound to the MIDI output device detailed in the remaining members of the <b>Target</b> structure member of the <b>MIXERLINE</b> structure.
                 
 
 </td>
@@ -495,8 +464,7 @@ Target media device type associated with the audio line described in the <b>MIXE
 </dl>
 </td>
 <td width="60%">
-
-                  The audio line described by the <b>MIXERLINE</b> structure is not strictly bound to a defined media type. All remaining <b>Target</b> structure members of the <b>MIXERLINE</b> structure should be ignored. An application cannot use the MIXERLINE_TARGETTYPE_UNDEFINED target type when calling the <a href="https://msdn.microsoft.com/125f09a6-df7f-4aa0-9180-410025b617e2">mixerGetLineInfo</a> function with the MIXER_GETLINEINFOF_TARGETTYPE flag.
+The audio line described by the <b>MIXERLINE</b> structure is not strictly bound to a defined media type. All remaining <b>Target</b> structure members of the <b>MIXERLINE</b> structure should be ignored. An application cannot use the MIXERLINE_TARGETTYPE_UNDEFINED target type when calling the <a href="https://msdn.microsoft.com/125f09a6-df7f-4aa0-9180-410025b617e2">mixerGetLineInfo</a> function with the MIXER_GETLINEINFOF_TARGETTYPE flag.
                 
 
 </td>
@@ -507,8 +475,7 @@ Target media device type associated with the audio line described in the <b>MIXE
 </dl>
 </td>
 <td width="60%">
-
-                  The audio line described by the <b>MIXERLINE</b> structure is strictly bound to the waveform-audio input device detailed in the remaining members of the <b>Target</b> structure member of the <b>MIXERLINE</b> structure.
+The audio line described by the <b>MIXERLINE</b> structure is strictly bound to the waveform-audio input device detailed in the remaining members of the <b>Target</b> structure member of the <b>MIXERLINE</b> structure.
                 
 
 </td>
@@ -519,8 +486,7 @@ Target media device type associated with the audio line described in the <b>MIXE
 </dl>
 </td>
 <td width="60%">
-
-                  The audio line described by the <b>MIXERLINE</b> structure is strictly bound to the waveform-audio output device detailed in the remaining members of the <b>Target</b> structure member of the <b>MIXERLINE</b> structure.
+The audio line described by the <b>MIXERLINE</b> structure is strictly bound to the waveform-audio output device detailed in the remaining members of the <b>Target</b> structure member of the <b>MIXERLINE</b> structure.
                 
 
 </td>
@@ -531,36 +497,31 @@ Target media device type associated with the audio line described in the <b>MIXE
 
 ### -field Target.dwDeviceID
 
-
-              Current device identifier of the target media device when the <b>dwType</b> member is a target type other than MIXERLINE_TARGETTYPE_UNDEFINED. This identifier is identical to the current media device index of the associated media device. When calling the <a href="https://msdn.microsoft.com/125f09a6-df7f-4aa0-9180-410025b617e2">mixerGetLineInfo</a> function with the MIXER_GETLINEINFOF_TARGETTYPE flag, this member is ignored on input and will be returned to the caller by the audio mixer manager.
+Current device identifier of the target media device when the <b>dwType</b> member is a target type other than MIXERLINE_TARGETTYPE_UNDEFINED. This identifier is identical to the current media device index of the associated media device. When calling the <a href="https://msdn.microsoft.com/125f09a6-df7f-4aa0-9180-410025b617e2">mixerGetLineInfo</a> function with the MIXER_GETLINEINFOF_TARGETTYPE flag, this member is ignored on input and will be returned to the caller by the audio mixer manager.
             
 
 
 ### -field Target.wMid
 
-
-              Manufacturer identifier of the target media device when the <b>dwType</b> member is a target type other than MIXERLINE_TARGETTYPE_UNDEFINED. This identifier is identical to the <b>wMid</b> member of the device-capabilities structure for the associated media. Manufacturer identifiers are defined in <a href="https://msdn.microsoft.com/ab68ffd2-208f-445b-9f5c-37159edb4d4b">Manufacturer and Product Identifiers</a>.
+Manufacturer identifier of the target media device when the <b>dwType</b> member is a target type other than MIXERLINE_TARGETTYPE_UNDEFINED. This identifier is identical to the <b>wMid</b> member of the device-capabilities structure for the associated media. Manufacturer identifiers are defined in <a href="https://msdn.microsoft.com/ab68ffd2-208f-445b-9f5c-37159edb4d4b">Manufacturer and Product Identifiers</a>.
             
 
 
 ### -field Target.wPid
 
-
-              Product identifier of the target media device when the <b>dwType</b> member is a target type other than MIXERLINE_TARGETTYPE_UNDEFINED. This identifier is identical to the <b>wPid</b> member of the device-capabilities structure for the associated media. Product identifiers are defined in <a href="https://msdn.microsoft.com/ab68ffd2-208f-445b-9f5c-37159edb4d4b">Manufacturer and Product Identifiers</a>.
+Product identifier of the target media device when the <b>dwType</b> member is a target type other than MIXERLINE_TARGETTYPE_UNDEFINED. This identifier is identical to the <b>wPid</b> member of the device-capabilities structure for the associated media. Product identifiers are defined in <a href="https://msdn.microsoft.com/ab68ffd2-208f-445b-9f5c-37159edb4d4b">Manufacturer and Product Identifiers</a>.
             
 
 
 ### -field Target.vDriverVersion
 
-
-              Driver version of the target media device when the <b>dwType</b> member is a target type other than MIXERLINE_TARGETTYPE_UNDEFINED. This version is identical to the <b>vDriverVersion</b> member of the device-capabilities structure for the associated media.
+Driver version of the target media device when the <b>dwType</b> member is a target type other than MIXERLINE_TARGETTYPE_UNDEFINED. This version is identical to the <b>vDriverVersion</b> member of the device-capabilities structure for the associated media.
             
 
 
 ### -field Target.szPname
 
-
-              Product name of the target media device when the <b>dwType</b> member is a target type other than MIXERLINE_TARGETTYPE_UNDEFINED. This name is identical to the <b>szPname</b> member of the device-capabilities structure for the associated media.
+Product name of the target media device when the <b>dwType</b> member is a target type other than MIXERLINE_TARGETTYPE_UNDEFINED. This name is identical to the <b>szPname</b> member of the device-capabilities structure for the associated media.
             
 
 

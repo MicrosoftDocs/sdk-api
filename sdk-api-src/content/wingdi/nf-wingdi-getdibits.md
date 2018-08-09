@@ -7,7 +7,7 @@ old-location: gdi\getdibits.htm
 old-project: gdi
 ms.assetid: be3ffa3f-b343-4e38-8b1e-aeccf35d92b8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, GetDIBits, GetDIBits function [Windows GDI], _win32_GetDIBits, gdi.getdibits, wingdi/GetDIBits
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,19 +69,19 @@ The <b>GetDIBits</b> function retrieves the bits of the specified compatible bit
 A handle to the device context.
 
 
-### -param hbm
+### -param hbm [in]
 
-TBD
-
-
-### -param start
-
-TBD
+A handle to the bitmap. This must be a compatible bitmap (DDB).
 
 
-### -param cLines
+### -param start [in]
 
-TBD
+The first scan line to retrieve.
+
+
+### -param cLines [in]
+
+The number of scan lines to retrieve.
 
 
 ### -param lpvBits [out]
@@ -89,39 +89,12 @@ TBD
 A pointer to a buffer to receive the bitmap data. If this parameter is <b>NULL</b>, the function passes the dimensions and format of the bitmap to the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure pointed to by the <i>lpbi</i> parameter.
 
 
-### -param lpbmi
-
-TBD
-
-
-### -param usage
-
-TBD
-
-
-
-
-#### - cScanLines [in]
-
-The number of scan lines to retrieve.
-
-
-#### - hbmp [in]
-
-A handle to the bitmap. This must be a compatible bitmap (DDB).
-
-
-#### - lpbi [in, out]
+### -param lpbmi [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure that specifies the desired format for the DIB data.
 
 
-#### - uStartScan [in]
-
-The first scan line to retrieve.
-
-
-#### - uUsage [in]
+### -param usage [in]
 
 The format of the <b>bmiColors</b> member of the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure. It must be one of the following values.
 

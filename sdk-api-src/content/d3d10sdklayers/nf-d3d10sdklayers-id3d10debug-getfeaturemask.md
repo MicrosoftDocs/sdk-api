@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10debug_getfeaturemask.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug_getfeaturemask.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 93e580f1-8c61-62ef-6cc4-d08f50c59438, GetFeatureMask, GetFeatureMask method [Direct3D 10], GetFeatureMask method [Direct3D 10],ID3D10Debug interface, ID3D10Debug interface [Direct3D 10],GetFeatureMask method, ID3D10Debug.GetFeatureMask, ID3D10Debug::GetFeatureMask, d3d10sdklayers/ID3D10Debug::GetFeatureMask, direct3d10.id3d10debug_getfeaturemask
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Get a bitfield of flags that indicates which debug features are on or off.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Mask of feature-mask flags bitwise ORed together. If a flag is present, then that feature will be set to on, otherwise the feature will be set to off. See <a href="https://msdn.microsoft.com/library/Bb173520(v=VS.85).aspx">ID3D10Debug::SetFeatureMask</a> for a list of possible feature-mask flags.
+Mask of feature-mask flags bitwise ORed together. If a flag is present, then that feature will be set to on, otherwise the feature will be set to off. See <a href="https://msdn.microsoft.com/en-us/library/Bb173520(v=VS.85).aspx">ID3D10Debug::SetFeatureMask</a> for a list of possible feature-mask flags.
 
 
 
@@ -76,7 +76,7 @@ Mask of feature-mask flags bitwise ORed together. If a flag is present, then tha
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173516(v=VS.85).aspx">ID3D10Debug Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173516(v=VS.85).aspx">ID3D10Debug Interface</a>
  
 
  

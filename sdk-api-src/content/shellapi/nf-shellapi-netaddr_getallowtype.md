@@ -7,7 +7,7 @@ old-location: shell\NetAddr_GetAllowType.htm
 old-project: shell
 ms.assetid: 21533513-86c2-418b-ab62-3c1b2db9bc2f
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: NetAddr_GetAllowType, NetAddr_GetAllowType macro [Windows Shell], _shell_NetAddr_GetAllowType, shell.NetAddr_GetAllowType, shellapi/NetAddr_GetAllowType
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: http\httpseturlgroupproperty.htm
 old-project: http
 ms.assetid: e0826a25-1c50-4757-9355-69eb4946e8dd
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpServerAuthenticationProperty, HttpServerBindingProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, HttpSetUrlGroupProperty, HttpSetUrlGroupProperty function [HTTP], http.httpseturlgroupproperty, http/HttpSetUrlGroupProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -157,17 +157,7 @@ Enables server side authentication that uses a channel binding token (CBT).
  
 
 
-### -param PropertyInformation
-
-TBD
-
-
-### -param PropertyInformationLength [in]
-
-The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i> parameter.
-
-
-#### - pPropertyInformation [in]
+### -param PropertyInformation [in]
 
 A pointer to the buffer that contains the property information.
 
@@ -228,6 +218,11 @@ A pointer to the buffer that contains the property information.
  
 
 
+
+
+### -param PropertyInformationLength [in]
+
+The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i> parameter.
 
 
 ## -returns

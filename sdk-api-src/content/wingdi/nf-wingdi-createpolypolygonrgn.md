@@ -7,7 +7,7 @@ old-location: gdi\createpolypolygonrgn.htm
 old-project: gdi
 ms.assetid: 1113d3dc-8e3f-436c-a5a8-191785bc7fcc
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ALTERNATE, CreatePolyPolygonRgn, CreatePolyPolygonRgn function [Windows GDI], WINDING, _win32_CreatePolyPolygonRgn, gdi.createpolypolygonrgn, wingdi/CreatePolyPolygonRgn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,29 +61,22 @@ The <b>CreatePolyPolygonRgn</b> function creates a region consisting of a series
 
 
 
-### -param pptl
+### -param pptl [in]
 
-TBD
-
-
-### -param pc
-
-TBD
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures that define the vertices of the polygons in logical units. The polygons are specified consecutively. Each polygon is presumed closed and each vertex is specified only once.
 
 
-### -param cPoly
+### -param pc [in]
 
-TBD
-
-
-### -param iMode
-
-TBD
+A pointer to an array of integers, each of which specifies the number of points in one of the polygons in the array pointed to by <i>lppt</i>.
 
 
+### -param cPoly [in]
+
+The total number of integers in the array pointed to by <i>lpPolyCounts</i>.
 
 
-#### - fnPolyFillMode [in]
+### -param iMode [in]
 
 The fill mode used to determine which pixels are in the region. This parameter can be one of the following values.
 
@@ -116,21 +109,6 @@ Selects winding mode (fills any region with a nonzero winding value).
  
 
 For more information about these modes, see the <a href="https://msdn.microsoft.com/233926c4-2658-405d-89b6-05ece844623d">SetPolyFillMode</a> function.
-
-
-#### - lpPolyCounts [in]
-
-A pointer to an array of integers, each of which specifies the number of points in one of the polygons in the array pointed to by <i>lppt</i>.
-
-
-#### - lppt [in]
-
-A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures that define the vertices of the polygons in logical units. The polygons are specified consecutively. Each polygon is presumed closed and each vertex is specified only once.
-
-
-#### - nCount [in]
-
-The total number of integers in the array pointed to by <i>lpPolyCounts</i>.
 
 
 ## -returns

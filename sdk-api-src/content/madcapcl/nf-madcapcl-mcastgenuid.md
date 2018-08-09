@@ -4,10 +4,10 @@ title: McastGenUID function
 author: windows-sdk-content
 description: The McastGenUID function generates a unique identifier, subsequently used by clients to request and renew addresses.
 old-location: madcap\mcastgenuid.htm
-old-project: Madcap
+old-project: madcap
 ms.assetid: 67d5f149-d9b3-4903-a859-1ad33e310997
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: McastGenUID, McastGenUID function [MADCAP], _mdhcp_mcastgenuid, madcap.mcastgenuid, madcapcl/McastGenUID
 ms.prod: windows
 ms.technology: windows-sdk

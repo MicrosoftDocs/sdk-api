@@ -4,10 +4,10 @@ title: WlanSetProfilePosition function
 author: windows-sdk-content
 description: Sets the position of a single, specified profile in the preference list.
 old-location: nwifi\wlansetprofileposition.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: 06ef9f55-b425-4f61-9b9e-3c27cc3796f6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WlanSetProfilePosition, WlanSetProfilePosition function [NativeWIFI], nwifi.wlansetprofileposition, wlanapi/WlanSetProfilePosition
 ms.prod: windows
 ms.technology: windows-sdk

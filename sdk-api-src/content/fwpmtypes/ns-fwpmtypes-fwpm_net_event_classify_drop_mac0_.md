@@ -7,7 +7,7 @@ old-location: fwp\fwpm_net_event_classify_drop_mac0.htm
 old-project: fwp
 ms.assetid: 750c2cfa-6799-492d-9e10-b4260541ada7
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FWPM_NET_EVENT_CLASSIFY_DROP_MAC0, FWPM_NET_EVENT_CLASSIFY_DROP_MAC0 structure [Filtering], FWPM_NET_EVENT_CLASSIFY_DROP_MAC0_, FWP_DIRECTION_FORWARD, FWP_DIRECTION_IN, FWP_DIRECTION_OUT, fwp.fwpm_net_event_classify_drop_mac0, fwpmtypes/FWPM_NET_EVENT_CLASSIFY_DROP_MAC0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-
-    The <b>FWPM_NET_EVENT_CLASSIFY_DROP_MAC0</b> structure contains information that describes a MAC layer drop  failure.
+The <b>FWPM_NET_EVENT_CLASSIFY_DROP_MAC0</b> structure contains information that describes a MAC layer drop  failure.
 
 
 ## -struct-fields

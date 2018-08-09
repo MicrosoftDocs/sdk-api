@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager_RemoveRoot.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\removeroot.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchCrawlScopeManager interface [search],RemoveRoot method, ISearchCrawlScopeManager.RemoveRoot, ISearchCrawlScopeManager::RemoveRoot, RemoveRoot, RemoveRoot method [search], RemoveRoot method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_RemoveRoot, search._search_ISearchCrawlScopeManager_RemoveRoot, searchapi/ISearchCrawlScopeManager::RemoveRoot
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-          Removes a search root from the search engine.
+Removes a search root from the search engine.
         
 
 
@@ -65,8 +64,7 @@ req.product: ADAM
 
 Type: <b>LPCWSTR</b>
 
-
-          The URL of a search root to be removed.
+The URL of a search root to be removed.
         
 
 

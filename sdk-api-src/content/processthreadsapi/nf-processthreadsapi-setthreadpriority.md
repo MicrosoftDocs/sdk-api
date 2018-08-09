@@ -7,7 +7,7 @@ old-location: base\setthreadpriority.htm
 old-project: procthread
 ms.assetid: e3992e19-b546-4b0b-aa6a-dd9a7e330bf3
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: SetThreadPriority, SetThreadPriority function, THREAD_MODE_BACKGROUND_BEGIN, THREAD_MODE_BACKGROUND_END, THREAD_PRIORITY_ABOVE_NORMAL, THREAD_PRIORITY_BELOW_NORMAL, THREAD_PRIORITY_HIGHEST, THREAD_PRIORITY_IDLE, THREAD_PRIORITY_LOWEST, THREAD_PRIORITY_NORMAL, THREAD_PRIORITY_TIME_CRITICAL, _win32_setthreadpriority, base.setthreadpriority, processthreadsapi/SetThreadPriority, winbase/SetThreadPriority
 ms.prod: windows
 ms.technology: windows-sdk
@@ -195,8 +195,7 @@ Base priority of 15 for <b>IDLE_PRIORITY_CLASS</b>, <b>BELOW_NORMAL_PRIORITY_CLA
 </table>
  
 
-
-      If the thread has the <b>REALTIME_PRIORITY_CLASS</b> base class, this parameter can also be -7, -6, -5, -4, -3, 3, 4, 5, or 6. For more information, see 
+If the thread has the <b>REALTIME_PRIORITY_CLASS</b> base class, this parameter can also be -7, -6, -5, -4, -3, 3, 4, 5, or 6. For more information, see 
 <a href="https://msdn.microsoft.com/8710cd56-6bf3-4317-a1f6-1a159394ce2a">Scheduling Priorities</a>.
 
 

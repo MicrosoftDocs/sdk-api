@@ -7,7 +7,7 @@ old-location: rpc\rpcasynccompletecall.htm
 old-project: rpc
 ms.assetid: 76b6bc3a-f5d1-4780-8071-9b221a6fd7d8
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcAsyncCompleteCall, RpcAsyncCompleteCall function [RPC], _rpc_rpcasynccompletecall, rpc.rpcasynccompletecall, rpcasync/RpcAsyncCompleteCall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The client and the server call the 
+The client and the server call the 
 <b>RpcAsyncCompleteCall</b> function to complete an asynchronous remote procedure call.
 
 
@@ -145,18 +144,18 @@ Completes the asynchronous RPC call. Both client and server call this function.
 
 Client: <i>Reply</i> points to a buffer that will receive the reply. If the client calls this function before the reply has arrived, the call returns RPC_S_ASYNC_CALL_PENDING. The buffer must be valid and it must be big enough to receive the return value. If this call is successful, the 
 				<a href="https://msdn.microsoft.com/f92ef78a-321b-460e-a18a-b63a5e199ad0">[out]</a> and the 
-				<a href="https://msdn.microsoft.com/">[in,</a> <b>out]</b> parameters are valid. If the call does not return RPC_S_ASYNC_CALL_PENDING, this 
+				<a href="https://msdn.microsoft.com/85d5617e-8b73-449a-9627-2c8d5ab2b629">[in,</a> <b>out]</b> parameters are valid. If the call does not return RPC_S_ASYNC_CALL_PENDING, this 
 <b>RpcAsyncCompleteCall</b> invocation is final for the RPC call. After this function call, regardless of success or failure, all resources allocated by the RPC runtime are freed. Subsequent calls to the 
 <b>RpcAsyncCompleteCall</b> or 
 <a href="https://msdn.microsoft.com/e55d586f-969b-4e9a-97d9-b6c74b2a8b6d">RpcAsyncCancelCall</a> functions have undefined results until a new call on the RPC_ASYNC_STATE structure is initiated.
 
 Server: <i>Reply</i> points to a buffer that contains the return value that needs to be sent to the client. You only need to set a valid buffer for <i>Reply</i> if your function is declared with a return type.  Before a call to 
 <b>RpcAsyncCompleteCall</b> is made, the <a href="https://msdn.microsoft.com/f92ef78a-321b-460e-a18a-b63a5e199ad0">[out]</a> and 
-				<a href="https://msdn.microsoft.com/">[in,</a> <b>out]</b> parameters must be updated. These parameters, and the asynchronous handle, should not be touched after the call to 
+				<a href="https://msdn.microsoft.com/85d5617e-8b73-449a-9627-2c8d5ab2b629">[in,</a> <b>out]</b> parameters must be updated. These parameters, and the asynchronous handle, should not be touched after the call to 
 <b>RpcAsyncCompleteCall</b> returns. The invocation of <b>RpcAsyncCompleteCall</b> on the server is final. If the  <b>RpcAsyncCompleteCall</b> function call fails, the RPC runtime frees the parameters.
 
 Any <a href="https://msdn.microsoft.com/f92ef78a-321b-460e-a18a-b63a5e199ad0">[out]</a> parameters, including 
-				<a href="https://msdn.microsoft.com/">[comm_status]</a> and 
+				<a href="https://msdn.microsoft.com/3ea9ce62-8bd4-40fe-b838-bfebd52b5a15">[comm_status]</a> and 
 				<a href="https://msdn.microsoft.com/">[fault_status]</a> parameters, are only valid if the return value of 
 <b>RpcAsyncCompleteCall</b> is RPC_S_OK.
 

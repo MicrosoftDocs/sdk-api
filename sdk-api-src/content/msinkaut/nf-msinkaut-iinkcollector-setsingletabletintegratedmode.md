@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_setsingletabletintegratedmode.htm
 old-project: tablet
 ms.assetid: 96787996-c0fd-455f-952e-90ddc8640253
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 96787996-c0fd-455f-952e-90ddc8640253, IInkCollector interface [Tablet PC],SetSingleTabletIntegratedMode method, IInkCollector.SetSingleTabletIntegratedMode, IInkCollector::SetSingleTabletIntegratedMode, SetSingleTabletIntegratedMode, SetSingleTabletIntegratedMode method [Tablet PC], SetSingleTabletIntegratedMode method [Tablet PC],IInkCollector interface, msinkaut/IInkCollector::SetSingleTabletIntegratedMode, tablet.inkcollector_setsingletabletintegratedmode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,8 +130,7 @@ An exception occurred while processing.
 </dl>
 </td>
 <td width="60%">
-
-                  The tablet does not point to a compatible Ink object.
+The tablet does not point to a compatible Ink object.
 
 </td>
 </tr>

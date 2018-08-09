@@ -7,7 +7,7 @@ old-location: rm\drmgetissuancelicenseinfo.htm
 old-project: adrms_sdk
 ms.assetid: 67213b97-3831-4284-b807-f6bc69d4b610
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMGetIssuanceLicenseInfo, DRMGetIssuanceLicenseInfo function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetIssuanceLicenseInfo, rm.drmgetissuancelicenseinfo
 ms.prod: windows
 ms.technology: windows-sdk

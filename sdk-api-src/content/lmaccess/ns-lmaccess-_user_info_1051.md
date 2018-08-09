@@ -7,7 +7,7 @@ old-location: netmgmt\user_info_1051_str.htm
 old-project: netmgmt
 ms.assetid: dbd7c63b-c383-48dd-98f2-087f2b41fc52
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPUSER_INFO_1051, *PUSER_INFO_1051, LPUSER_INFO_1051, LPUSER_INFO_1051 structure pointer [Network Management], PUSER_INFO_1051, PUSER_INFO_1051 structure pointer [Network Management], USER_INFO_1051, USER_INFO_1051 structure [Network Management], _USER_INFO_1051, _win32_user_info_1051_str, lmaccess/LPUSER_INFO_1051, lmaccess/PUSER_INFO_1051, lmaccess/USER_INFO_1051, netmgmt.user_info_1051_str"
 ms.prod: windows
 ms.technology: windows-sdk

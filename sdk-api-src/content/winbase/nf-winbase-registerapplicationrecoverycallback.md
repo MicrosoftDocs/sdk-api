@@ -4,10 +4,10 @@ title: RegisterApplicationRecoveryCallback function
 author: windows-sdk-content
 description: Registers the active instance of an application for recovery.
 old-location: recovery\registerapplicationrecoverycallback.htm
-old-project: Recovery
+old-project: recovery
 ms.assetid: 4ff73c2c-a941-4626-ae40-cafbe6e50644
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: RegisterApplicationRecoveryCallback, RegisterApplicationRecoveryCallback function [Recovery], base.registerapplicationrecoverycallback, recovery.registerapplicationrecoverycallback, winbase/RegisterApplicationRecoveryCallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,9 @@ Registers the active instance of an application for recovery.
 
 
 
-### -param pRecoveyCallback
+### -param pRecoveyCallback [in]
 
-TBD
+A pointer to the recovery callback function. For more information, see <a href="https://msdn.microsoft.com/573b1adb-9d9e-4a58-8d02-2addb93626da">ApplicationRecoveryCallback</a>.
 
 
 ### -param pvParameter [in, optional]
@@ -79,11 +79,6 @@ You must call the <a href="https://msdn.microsoft.com/9c765f72-10ad-4d16-a9e5-d7
 ### -param dwFlags [in]
 
 Reserved for future use. Set to zero.
-
-
-#### - pRecoveryCallback [in]
-
-A pointer to the recovery callback function. For more information, see <a href="https://msdn.microsoft.com/573b1adb-9d9e-4a58-8d02-2addb93626da">ApplicationRecoveryCallback</a>.
 
 
 ## -returns

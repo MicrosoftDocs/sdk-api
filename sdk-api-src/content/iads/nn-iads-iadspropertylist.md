@@ -7,7 +7,7 @@ old-location: adsi\iadspropertylist.htm
 old-project: ADSI
 ms.assetid: 70e9ce0e-ae83-43b7-8b84-99d5e1f8a8d2
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IADsPropertyList, IADsPropertyList interface [ADSI], IADsPropertyList interface [ADSI],described, _ds_iadspropertylist, adsi.iadspropertylist, iads/IADsPropertyList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-   The <b>IADsPropertyList</b> interface is used to modify, read, and update a list of property entries in the property cache of an object. It serves to enumerate, modify, and purge the contained property entries. Use the enumeration method of this interface to identify initialized properties. This is different from using the schema to determine all possible attributes that an ADSI object can have and which properties have been set.
+The <b>IADsPropertyList</b> interface is used to modify, read, and update a list of property entries in the property cache of an object. It serves to enumerate, modify, and purge the contained property entries. Use the enumeration method of this interface to identify initialized properties. This is different from using the schema to determine all possible attributes that an ADSI object can have and which properties have been set.
    
 
 Call the methods of the <b>IADsPropertyList</b> interface to examine and manipulate the property list on the client. Before calling the methods of this interface, you must call  <a href="https://msdn.microsoft.com/73ceaeb1-9a6b-449a-9851-3756736dbad7">IADs::GetInfo</a> or  <a href="https://msdn.microsoft.com/306ab953-890a-4ec9-8ec2-bea73888ea20">IADs::GetInfoEx</a> explicitly to load the assigned property values of the object into the cache. After calling the methods of this interface, you must call  <a href="https://msdn.microsoft.com/e7ff6acd-b7c4-463d-a34f-fd793067c63a">IADs::SetInfo</a> to save the changes in the persistent store of the underlying directory.
@@ -62,7 +61,7 @@ To obtain the property list of an ADSI object, bind to its <b>IADsPropertyList</
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPropertyList</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsPropertyList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPropertyList</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsPropertyList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -196,7 +195,7 @@ Gets the number of properties in the property list.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

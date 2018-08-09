@@ -4,10 +4,10 @@ title: OpenCommPort function
 author: windows-sdk-content
 description: Attempts to open a communication device.
 old-location: base\opencommport.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: D96D3F6D-2158-4E6A-84A8-DC3BAE9624FA
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: FILE_FLAG_OVERLAPPED, OpenCommPort, OpenCommPort function, base.opencommport, winbase/OpenCommPort
 ms.prod: windows
 ms.technology: windows-sdk
@@ -34,17 +34,16 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-comm-l1-1-0.dll
  - KernelBase.dll
+ - API-MS-Win-Core-comm-l1-1-0.dll
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
  - OpenCommPort
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
+req.lib: OneCore.lib
+req.dll: KernelBase.dll
 req.irql: 
 req.product: Windows Address Book 5.0
 ---

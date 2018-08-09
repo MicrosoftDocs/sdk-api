@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_releasevardesc.htm
 old-project: automat
 ms.assetid: a0f734d8-9b14-474a-b701-df8ba7641501
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: ITypeInfo interface [Automation],ReleaseVarDesc method, ITypeInfo.ReleaseVarDesc, ITypeInfo::ReleaseVarDesc, ReleaseVarDesc, ReleaseVarDesc method [Automation], ReleaseVarDesc method [Automation],ITypeInfo interface, _oa96_ITypeInfo_ReleaseVarDesc, automat.itypeinfo_releasevardesc, oaidl/ITypeInfo::ReleaseVarDesc
 ms.prod: windows
 ms.technology: windows-sdk

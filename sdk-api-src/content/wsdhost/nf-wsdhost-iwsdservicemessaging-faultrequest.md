@@ -4,10 +4,10 @@ title: IWSDServiceMessaging::FaultRequest
 author: windows-sdk-content
 description: Sends a fault matching a given request context.
 old-location: ncd\iwsdservicemessaging_faultrequest.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 478cf63e-7cfe-4f6f-af7f-d288588d9c8d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: FaultRequest, FaultRequest method, FaultRequest method,IWSDServiceMessaging interface, IWSDServiceMessaging interface,FaultRequest method, IWSDServiceMessaging.FaultRequest, IWSDServiceMessaging::FaultRequest, ncd.iwsdservicemessaging_faultrequest, wsdhost/IWSDServiceMessaging::FaultRequest
 ms.prod: windows
 ms.technology: windows-sdk

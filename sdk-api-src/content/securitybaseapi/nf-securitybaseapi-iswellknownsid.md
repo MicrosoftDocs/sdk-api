@@ -7,7 +7,7 @@ old-location: security\iswellknownsid.htm
 old-project: secauthz
 ms.assetid: 1a08c70c-00fa-4c62-883d-4f17f9d7c04b
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: IsWellKnownSid, IsWellKnownSid function [Security], _win32_iswellknownsid, security.iswellknownsid, securitybaseapi/IsWellKnownSid
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\cluster_quorumresource.htm
 old-project: mscs
 ms.assetid: e9c1f32a-2008-470e-b451-312cce49c93a
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: Cluster object [Failover Cluster],QuorumResource property, Cluster.QuorumResource, ISCluster.get_QuorumResource, ISCluster.put_QuorumResource, ISCluster::get_QuorumResource, QuorumResource property [Failover Cluster], QuorumResource property [Failover Cluster],Cluster object, _wolf_cluster.quorumresource, get_QuorumResource, mscs.cluster_quorumresource
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_updatesubresource.htm
 old-project: direct3d11
 ms.assetid: 2d8ef5a2-204a-434d-918a-104419050233
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],UpdateSubresource method, ID3D11DeviceContext.UpdateSubresource, ID3D11DeviceContext::UpdateSubresource, UpdateSubresource, UpdateSubresource method [Direct3D 11], UpdateSubresource method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::UpdateSubresource, direct3d11.id3d11devicecontext_updatesubresource, f9813ce8-3ca5-fd5e-fac2-bd93631ecbc8
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,9 +121,9 @@ For a shader-constant buffer; set <i>pDstBox</i> to <b>NULL</b>. It is not possi
 A resource cannot be used as a destination if:
 
 <ul>
-<li>the resource is created with <a href="https://msdn.microsoft.com/library/Ff476259(v=VS.85).aspx">immutable</a> or <a href="https://msdn.microsoft.com/library/Ff476259(v=VS.85).aspx">dynamic</a> usage.</li>
+<li>the resource is created with <a href="https://msdn.microsoft.com/en-us/library/Ff476259(v=VS.85).aspx">immutable</a> or <a href="https://msdn.microsoft.com/en-us/library/Ff476259(v=VS.85).aspx">dynamic</a> usage.</li>
 <li>the resource is created as a depth-stencil resource.</li>
-<li>the resource is created with multisampling capability (see <a href="https://msdn.microsoft.com/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a>).</li>
+<li>the resource is created with multisampling capability (see <a href="https://msdn.microsoft.com/en-us/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a>).</li>
 </ul>
 When <b>UpdateSubresource</b> returns, the application is free to change or even free the data pointed to by <i>pSrcData</i> because the method has already copied/snapped away the original contents.
 

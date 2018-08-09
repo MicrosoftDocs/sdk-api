@@ -7,7 +7,7 @@ old-location: rpc\rpcbindingsetoption.htm
 old-project: rpc
 ms.assetid: bc721fb0-2271-4658-995b-a41e8eefc5d5
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcBindingSetOption, RpcBindingSetOption function [RPC], _rpc_rpcbindingsetoption, rpc.rpcbindingsetoption, rpcdce/RpcBindingSetOption
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>RpcBindingSetOption</b> function enables client applications to specify message-queuing options on a binding handle.
 
 
@@ -68,23 +67,11 @@ Server binding to modify.
 
 ### -param option
 
-TBD
-
-
-### -param optionValue
-
-TBD
-
-
-
-
-#### - Option
-
 Binding property to modify. For a list of binding options and their possible values, see 
 <a href="https://msdn.microsoft.com/ff88e05d-b9f3-42ef-a44f-fee9261832c8">Binding Option Constants</a>. See Remarks for information on the RPC Call time-out feature.
 
 
-#### - OptionValue
+### -param optionValue
 
 New value for the binding property. See Remarks.
 

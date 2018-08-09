@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactProperties_SetBinary.htm
 old-project: wincontacts
 ms.assetid: 432c2417-e762-47ff-b2ce-a244120f0545
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 07/29/2018
 ms.keywords: IContactProperties interface [Windows Contacts],SetBinary method, IContactProperties.SetBinary, IContactProperties::SetBinary, SetBinary, SetBinary method [Windows Contacts], SetBinary method [Windows Contacts],IContactProperties interface, _wincontacts_IContactProperties_SetBinary, icontact/IContactProperties::SetBinary, wincontacts._wincontacts_IContactProperties_SetBinary
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Sets the binary data at a specified property to the contents of a specified <a href="https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a>, 
+Sets the binary data at a specified property to the contents of a specified <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a>, 
 		which contains a null-terminated string (as MIME type) data. 
 
 
@@ -85,7 +85,7 @@ Specifies null-terminated string representing MIME type to store when CGD_DEFAUL
 
 Type: <b>IStream*</b>
 
-Pointer to <a href="https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a> object containing data to place at this node. 
+Pointer to <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a> object containing data to place at this node. 
 				NOTE: IStream::Read is called for the data until it succeeds with a zero-length read. 
 				Any other return value results in a failure and no change. 
 

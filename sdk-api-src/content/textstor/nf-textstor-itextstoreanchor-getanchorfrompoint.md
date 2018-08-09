@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_getanchorfrompoint.htm
 old-project: TSF
 ms.assetid: 5567b53e-540e-41ce-b890-f2e4c5b06c57
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetAnchorFromPoint, GetAnchorFromPoint method [Text Services Framework], GetAnchorFromPoint method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetAnchorFromPoint method, ITextStoreAnchor.GetAnchorFromPoint, ITextStoreAnchor::GetAnchorFromPoint, textstor/ITextStoreAnchor::GetAnchorFromPoint, tsf.itextstoreanchor_getanchorfrompoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -232,20 +232,17 @@ For the point 2 screen coordinates, the method returns <b>TF_E_INVALIDPOINT</b> 
 
 
 
-<a href="https://msdn.microsoft.com/543761fe-420e-4821-a69f-abc6c853677e">
-        ITfContextView::GetRangeFromPoint
+<a href="https://msdn.microsoft.com/543761fe-420e-4821-a69f-abc6c853677e">ITfContextView::GetRangeFromPoint
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/12178252-c246-4fa4-bf7b-2445b859ec01">
-        Manager Return Values
+<a href="https://msdn.microsoft.com/12178252-c246-4fa4-bf7b-2445b859ec01">Manager Return Values
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">
-        TsViewCookie
+<a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">TsViewCookie
       </a>
  
 

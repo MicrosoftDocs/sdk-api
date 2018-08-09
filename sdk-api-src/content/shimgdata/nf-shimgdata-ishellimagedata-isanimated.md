@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_IsAnimated.htm
 old-project: shell
 ms.assetid: b5b36862-5beb-4702-a5b3-feb70dc5e1ef
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsAnimated method, IShellImageData.IsAnimated, IShellImageData::IsAnimated, IsAnimated, IsAnimated method [Windows Shell], IsAnimated method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsAnimated, shell.IShellImageData_IsAnimated, shimgdata/IShellImageData::IsAnimated
 ms.prod: windows
 ms.technology: windows-sdk

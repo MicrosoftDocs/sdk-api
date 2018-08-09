@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_stroke
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecap_29fillpath_strokepath_basecap_baseinset.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: CustomLineCap, CustomLineCap class [GDI+],CustomLineCap constructor, CustomLineCap constructor [GDI+], CustomLineCap constructor [GDI+],CustomLineCap class, CustomLineCap.CustomLineCap, CustomLineCap.CustomLineCap~r2, CustomLineCap::CustomLineCap, CustomLineCap::CustomLineCap~r2, _gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_strokePath_baseCap_baseInset_, gdiplus._gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_strokePath_baseCap_baseInset_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,12 +61,26 @@ Creates a <b>CustomLineCap::CustomLineCap</b> object.
 
 
 
+#### - fillPath [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>*</b>
+
+Pointer to a path. 
+
+
+#### - strokePath [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>*</b>
+
+Pointer to a path. 
+
+
 #### - baseCap [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534146(v=VS.85).aspx">LineCap</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534146(v=VS.85).aspx">LineCap</a></b>
 
 Optional. Element of the 
-					<a href="https://msdn.microsoft.com/library/ms534146(v=VS.85).aspx">LineCap</a> enumeration that specifies the line cap that will be used. The default value is LineCapFlat. 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534146(v=VS.85).aspx">LineCap</a> enumeration that specifies the line cap that will be used. The default value is LineCapFlat. 
 
 
 #### - baseInset [in]
@@ -74,20 +88,6 @@ Optional. Element of the
 Type: <b>REAL</b>
 
 Optional. The default value is 0. 
-
-
-#### - fillPath [in]
-
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>*</b>
-
-Pointer to a path. 
-
-
-#### - strokePath [in]
-
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>*</b>
-
-Pointer to a path. 
 
 
 ## -remarks

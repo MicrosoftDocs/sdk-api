@@ -7,7 +7,7 @@ old-location: cos\ipoolmanager.htm
 old-project: cossdk
 ms.assetid: 7811ad0c-e7b6-423b-8c52-ab8b1b97d6f4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IPoolManager, IPoolManager interface [COM+], IPoolManager interface [COM+],described, _cos_IPoolManager, comsvcs/IPoolManager, cos.ipoolmanager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Enables the caller to control an object pool.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPoolManager</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IPoolManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPoolManager</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IPoolManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

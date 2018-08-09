@@ -7,7 +7,7 @@ old-location: wmdm\iwmdevicemanager2_reinitialize.htm
 old-project: WMDM
 ms.assetid: 9eabf5ff-96e1-426f-ae31-197a2165a743
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: IWMDeviceManager2 interface [windows Media Device Manager],Reinitialize method, IWMDeviceManager2.Reinitialize, IWMDeviceManager2::Reinitialize, IWMDeviceManager2Reinitialize, Reinitialize, Reinitialize method [windows Media Device Manager], Reinitialize method [windows Media Device Manager],IWMDeviceManager2 interface, mswmdm/IWMDeviceManager2::Reinitialize, wmdm.iwmdevicemanager2_reinitialize
 ms.prod: windows
 ms.technology: windows-sdk

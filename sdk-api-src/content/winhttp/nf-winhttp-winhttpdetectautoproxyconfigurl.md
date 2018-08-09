@@ -4,10 +4,10 @@ title: WinHttpDetectAutoProxyConfigUrl function
 author: windows-sdk-content
 description: Finds the URL for the Proxy Auto-Configuration (PAC) file.
 old-location: http\winhttpdetectautoproxyconfigurl.htm
-old-project: WinHttp
+old-project: winhttp
 ms.assetid: a433ed3c-3f31-4c37-9c09-3f8344e9550d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WINHTTP_AUTO_DETECT_TYPE_DHCP, WINHTTP_AUTO_DETECT_TYPE_DNS_A, WinHttpDetectAutoProxyConfigUrl, WinHttpDetectAutoProxyConfigUrl function [WinHTTP], http.winhttpdetectautoproxyconfigurl, winhttp/WinHttpDetectAutoProxyConfigUrl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,14 +92,7 @@ Use DNS to attempt to locate the proxy auto-configuration file at a well-known l
  
 
 
-### -param ppwstrAutoConfigUrl
-
-TBD
-
-
-
-
-#### - ppwszAutoConfigUrl [out]
+### -param ppwstrAutoConfigUrl [out]
 
  A data type that returns a pointer to a null-terminated Unicode string that contains the configuration URL that receives the proxy data. You must free the string pointed to by <i>ppwszAutoConfigUrl</i> using the <a href="https://msdn.microsoft.com/5fe910ac-f857-45ca-9c0f-4f9ba3c5e61b">GlobalFree</a> function.
 

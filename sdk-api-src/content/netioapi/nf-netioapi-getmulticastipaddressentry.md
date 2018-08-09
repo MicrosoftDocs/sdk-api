@@ -7,7 +7,7 @@ old-location: iphlp\getmulticastipaddressentry.htm
 old-project: iphlp
 ms.assetid: dc6401b6-7692-44a5-b2f0-4e729b996765
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: GetMulticastIpAddressEntry, GetMulticastIpAddressEntry function [IP Helper], iphlp.getmulticastipaddressentry, netioapi/GetMulticastIpAddressEntry
 ms.prod: windows
 ms.technology: windows-sdk

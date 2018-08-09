@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_failover_server.htm
 old-project: dhcp
 ms.assetid: a75a1132-3c49-44f1-a1f6-c98991ebb8c4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDHCP_FAILOVER_SERVER, DHCP_FAILOVER_SERVER, DHCP_FAILOVER_SERVER enumeration [DHCP], LPDHCP_FAILOVER_SERVER, LPDHCP_FAILOVER_SERVER enumeration pointer [DHCP], PrimaryServer, SecondaryServer, _DHCP_FAILOVER_SERVER, dhcp.dhcp_failover_server, dhcpsapi/DHCP_FAILOVER_SERVER, dhcpsapi/LPDHCP_FAILOVER_SERVER, dhcpsapi/PrimaryServer, dhcpsapi/SecondaryServer"
 ms.prod: windows
 ms.technology: windows-sdk

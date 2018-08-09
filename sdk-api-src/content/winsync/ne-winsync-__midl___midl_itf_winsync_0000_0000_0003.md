@@ -7,7 +7,7 @@ old-location: winsync\sync_progress_stage.htm
 old-project: winsync
 ms.assetid: 06f8542a-d742-4cbb-bb44-c107b59ad38f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: SPS_CHANGE_APPLICATION, SPS_CHANGE_DETECTION, SPS_CHANGE_ENUMERATION, SYNC_PROGRESS_STAGE, SYNC_PROGRESS_STAGE enumeration [Windows Sync], __MIDL___MIDL_itf_winsync_0000_0000_0003, winsync.sync_progress_stage, winsync/SPS_CHANGE_APPLICATION, winsync/SPS_CHANGE_DETECTION, winsync/SPS_CHANGE_ENUMERATION, winsync/SYNC_PROGRESS_STAGE
 ms.prod: windows
 ms.technology: windows-sdk

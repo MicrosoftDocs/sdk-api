@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_GetAlignment_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getalignment.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetAlignment, GetAlignment method [GDI+], GetAlignment method [GDI+],Pen class, Pen class [GDI+],GetAlignment method, Pen.GetAlignment, Pen::GetAlignment, _gdiplus_CLASS_Pen_GetAlignment_, gdiplus._gdiplus_CLASS_Pen_GetAlignment_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Pen::GetAlignment</b> method gets the alignment currently set for this 
-			<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object.
 
 
 ## -parameters
@@ -66,10 +66,10 @@ The <b>Pen::GetAlignment</b> method gets the alignment currently set for this
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534164(v=VS.85).aspx">PenAlignment</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534164(v=VS.85).aspx">PenAlignment</a></b>
 </strong>
 
-This method returns an element of the <a href="https://msdn.microsoft.com/library/ms534164(v=VS.85).aspx">PenAlignment</a> enumeration that indicates the current alignment setting for this <a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object.
+This method returns an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534164(v=VS.85).aspx">PenAlignment</a> enumeration that indicates the current alignment setting for this <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object.
 
 
 
@@ -78,7 +78,7 @@ This method returns an element of the <a href="https://msdn.microsoft.com/librar
 
 
 
-The default value of <a href="https://msdn.microsoft.com/library/ms534164(v=VS.85).aspx">PenAlignment</a> is PenAlignmentCenter. 
+The default value of <a href="https://msdn.microsoft.com/en-us/library/ms534164(v=VS.85).aspx">PenAlignment</a> is PenAlignmentCenter. 
 
 
 #### Examples
@@ -86,7 +86,7 @@ The default value of <a href="https://msdn.microsoft.com/library/ms534164(v=VS.8
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object, sets the alignment, draws a line, and then gets the pen alignment settings.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object, sets the alignment, draws a line, and then gets the pen alignment settings.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -125,23 +125,23 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535041(v=VS.85).aspx">Pen::SetAlignment</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535041(v=VS.85).aspx">Pen::SetAlignment</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534164(v=VS.85).aspx">PenAlignment</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534164(v=VS.85).aspx">PenAlignment</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533854(v=VS.85).aspx">Setting Pen Width and Alignment</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533854(v=VS.85).aspx">Setting Pen Width and Alignment</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_FontFamily_GetLastStatus_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\getlaststatus_12.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: FontFamily class [GDI+],GetLastStatus method, FontFamily.GetLastStatus, FontFamily::GetLastStatus, GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GetLastStatus_, gdiplus._gdiplus_CLASS_FontFamily_GetLastStatus_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>FontFamily::GetLastStatus</b> method returns a value that indicates the nature of this <a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a> object's most recent method failure.
+The <b>FontFamily::GetLastStatus</b> method returns a value that indicates the nature of this <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> object's most recent method failure.
 
 
 ## -parameters
@@ -70,9 +70,9 @@ Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/windows/hardw
 
 The <b>FontFamily::GetLastStatus</b> method returns an element of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> enumeration.
 
-If no methods invoked on this <a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a> object have failed since the previous call to <b>FontFamily::GetLastStatus</b>, then <b>FontFamily::GetLastStatus</b> returns Ok.
+If no methods invoked on this <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> object have failed since the previous call to <b>FontFamily::GetLastStatus</b>, then <b>FontFamily::GetLastStatus</b> returns Ok.
 
-If at least one method invoked on this <a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a> object has failed since the previous call to <b>FontFamily::GetLastStatus</b>, then <b>FontFamily::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
+If at least one method invoked on this <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> object has failed since the previous call to <b>FontFamily::GetLastStatus</b>, then <b>FontFamily::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
 
 
 
@@ -81,17 +81,17 @@ If at least one method invoked on this <a href="https://msdn.microsoft.com/libra
 
 
 
-You can call <b>FontFamily::GetLastStatus</b> immediately after constructing a <a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a> object to determine whether the constructor succeeded.
+You can call <b>FontFamily::GetLastStatus</b> immediately after constructing a <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> object to determine whether the constructor succeeded.
 
 The first time you call the <b>FontFamily::GetLastStatus</b> method of a 
-<a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a> object, it returns Ok if the constructor succeeded and all methods invoked so far on the <b>FontFamily</b> object succeeded. Otherwise, it returns a value that indicates the nature of the most recent failure.
+<a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> object, it returns Ok if the constructor succeeded and all methods invoked so far on the <b>FontFamily</b> object succeeded. Otherwise, it returns a value that indicates the nature of the most recent failure.
 
 
 #### Examples
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a> object and then checks the status of the call to create the object. If the call was successful, the example draws text.
+The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> object and then checks the status of the call to create the object. If the call was successful, the example draws text.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -129,11 +129,11 @@ The following example creates a <a href="https://msdn.microsoft.com/library/ms53
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533819(v=VS.85).aspx">Constructing Font Families and Fonts</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533819(v=VS.85).aspx">Constructing Font Families and Fonts</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>
 
 
 

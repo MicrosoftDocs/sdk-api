@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: SrClient.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SRRemoveRestorePoint function

@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_getidsofnames.htm
 old-project: automat
 ms.assetid: fb66ee55-e491-40e9-a795-58beb4acee25
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: GetIDsOfNames, GetIDsOfNames method [Automation], GetIDsOfNames method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetIDsOfNames method, ITypeInfo.GetIDsOfNames, ITypeInfo2.GetIDsOfNames, ITypeInfo::GetIDsOfNames, _oa96_ITypeInfo_GetIDsOfNames, automat.itypeinfo_getidsofnames, oaidl/ITypeInfo::GetIDsOfNames
 ms.prod: windows
 ms.technology: windows-sdk

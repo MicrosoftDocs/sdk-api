@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgr_getfocus.htm
 old-project: TSF
 ms.assetid: bd6b4566-de23-49f5-9ef1-f82626b1f140
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetFocus, GetFocus method [Text Services Framework], GetFocus method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],GetFocus method, ITfThreadMgr.GetFocus, ITfThreadMgr::GetFocus, _tsf_itfthreadmgr_getfocus_ref, msctf/ITfThreadMgr::GetFocus, tsf.itfthreadmgr_getfocus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,14 +127,12 @@ No document manager has focus. <i>ppdimFocus</i> be set to <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/e2e0ef4e-5254-42c3-aebf-9d46cdee7e67">
-        ITfThreadMgr::AssociateFocus
+<a href="https://msdn.microsoft.com/e2e0ef4e-5254-42c3-aebf-9d46cdee7e67">ITfThreadMgr::AssociateFocus
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b437c646-2a15-4ad6-8e7e-3553e7106249">
-        ITfThreadMgr::SetFocus
+<a href="https://msdn.microsoft.com/b437c646-2a15-4ad6-8e7e-3553e7106249">ITfThreadMgr::SetFocus
       </a>
  
 

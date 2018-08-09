@@ -7,7 +7,7 @@ old-location: mf\imftopology_clear.htm
 old-project: medfound
 ms.assetid: 919a712f-3f1b-4681-9eeb-958ac349d8f6
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 919a712f-3f1b-4681-9eeb-958ac349d8f6, Clear, Clear method [Media Foundation], Clear method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],Clear method, IMFTopology.Clear, IMFTopology::Clear, mf.imftopology_clear, mfidl/IMFTopology::Clear
 ms.prod: windows
 ms.technology: windows-sdk

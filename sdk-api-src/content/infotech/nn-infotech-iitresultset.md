@@ -71,7 +71,7 @@ The <b>IITResultSet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms670048(v=VS.85).aspx">Add(LPVOID)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670048(v=VS.85).aspx">Add(LPVOID)</a>
 </td>
 <td align="left" width="63%">
 Adds columns to result set, given a header containing pairs of property ID followed by property type.
@@ -82,7 +82,7 @@ Adds columns to result set, given a header containing pairs of property ID follo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms670050(v=VS.85).aspx">Add(PROPID,DWORD,PRIORITY)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670050(v=VS.85).aspx">Add(PROPID,DWORD,PRIORITY)</a>
 </td>
 <td align="left" width="63%">
 Adds a column to the result set. 
@@ -91,7 +91,7 @@ Adds a column to the result set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms670051(v=VS.85).aspx">Add(PROPID,LPCWSTR,PRIORITY)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670051(v=VS.85).aspx">Add(PROPID,LPCWSTR,PRIORITY)</a>
 </td>
 <td align="left" width="63%">
 Adds a column to the result set.
@@ -102,7 +102,7 @@ Adds a column to the result set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms670049(v=VS.85).aspx">Add(PROPID,LPVOID,DWORD,PRIORITY)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670049(v=VS.85).aspx">Add(PROPID,LPVOID,DWORD,PRIORITY)</a>
 </td>
 <td align="left" width="63%">
 Adds a column to the result set.
@@ -124,7 +124,7 @@ Gets the property in the specified row and column and fills the given property o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms670053(v=VS.85).aspx">GetRowCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670053(v=VS.85).aspx">GetRowCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of rows in a result set.

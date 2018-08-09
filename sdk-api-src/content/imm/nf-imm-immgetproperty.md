@@ -7,7 +7,7 @@ old-location: intl\immgetproperty.htm
 old-project: Intl
 ms.assetid: b8552c4e-1841-4202-a71e-4b4eae99c528
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: IGP_CONVERSION, IGP_GETIMEVERSION, IGP_PROPERTY, IGP_SELECT, IGP_SENTENCE, IGP_SETCOMPSTR, IGP_UI, ImmGetProperty, ImmGetProperty function [Internationalization for Windows Applications], _win32_ImmGetProperty, imm/ImmGetProperty, intl.immgetproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,19 +61,12 @@ Retrieves the property and capabilities of the IME associated with the specified
 
 
 
-### -param HKL
+### -param HKL [in]
 
-TBD
-
-
-### -param DWORD
-
-TBD
+Input locale identifier.
 
 
-
-
-#### - fdwIndex [in]
+### -param DWORD [in]
 
 Type of property information to retrieve. This parameter can have one of the following values.
 
@@ -156,11 +149,6 @@ User interface capabilities.
  
 
 
-#### - hKL [in]
-
-Input locale identifier.
-
-
 ## -returns
 
 
@@ -190,13 +178,11 @@ Returns the property or capability value, depending on the value of the <i>dwInd
 </tr>
 <tr>
 <td>IME_PROP_COMPLETE_ON_UNSELECT</td>
-<td>
-                  If set, the IME completes the composition string when the IME is deactivated. If clear, the IME cancels the composition string when the IME is deactivated, for example, from a keyboard layout change.</td>
+<td>If set, the IME completes the composition string when the IME is deactivated. If clear, the IME cancels the composition string when the IME is deactivated, for example, from a keyboard layout change.</td>
 </tr>
 <tr>
 <td>IME_PROP_ACCEPT_WIDE_VKEY</td>
-<td>
-                  If set, the IME processes the injected Unicode that came from the <a href="https://msdn.microsoft.com/library/ms646310(v=VS.85).aspx">SendInput</a> function by using VK_PACKET. If clear, the IME might not process the injected Unicode, and might send the injected Unicode to the application directly.</td>
+<td>If set, the IME processes the injected Unicode that came from the <a href="https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx">SendInput</a> function by using VK_PACKET. If clear, the IME might not process the injected Unicode, and might send the injected Unicode to the application directly.</td>
 </tr>
 </table>
  

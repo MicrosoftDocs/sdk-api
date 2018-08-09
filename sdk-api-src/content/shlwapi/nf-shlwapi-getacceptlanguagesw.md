@@ -7,7 +7,7 @@ old-location: shell\GetAcceptLanguages.htm
 old-project: shell
 ms.assetid: a680a7fd-f980-485d-b52a-eb4d482ebc17
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetAcceptLanguages, GetAcceptLanguages function [Windows Shell], GetAcceptLanguagesA, GetAcceptLanguagesW, _shell_GetAcceptLanguages, shell.GetAcceptLanguages, shlwapi/GetAcceptLanguages, shlwapi/GetAcceptLanguagesA, shlwapi/GetAcceptLanguagesW
 ms.prod: windows
 ms.technology: windows-sdk

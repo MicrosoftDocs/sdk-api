@@ -7,7 +7,7 @@ old-location: tsf\itflangbarmgr_getthreadlangbaritemmgr.htm
 old-project: TSF
 ms.assetid: 3ca37268-eb27-4d8b-9a16-306f77369e8f
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetThreadLangBarItemMgr, GetThreadLangBarItemMgr method [Text Services Framework], GetThreadLangBarItemMgr method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],GetThreadLangBarItemMgr method, ITfLangBarMgr.GetThreadLangBarItemMgr, ITfLangBarMgr::GetThreadLangBarItemMgr, _tsf_itflangbarmgr_getthreadlangbaritemmgr_ref, ctfutb/ITfLangBarMgr::GetThreadLangBarItemMgr, tsf.itflangbarmgr_getthreadlangbaritemmgr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
 
 
 

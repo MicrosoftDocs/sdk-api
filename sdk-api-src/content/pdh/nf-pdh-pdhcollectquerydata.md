@@ -4,10 +4,10 @@ title: PdhCollectQueryData function
 author: windows-sdk-content
 description: Collects the current raw data value for all counters in the specified query and updates the status code of each counter.
 old-location: perf\pdhcollectquerydata.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 1d83325b-8deb-4731-9df4-6201da292cdc
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhCollectQueryData, PdhCollectQueryData function [Perf], _win32_pdhcollectquerydata, base.pdhcollectquerydata, pdh/PdhCollectQueryData, perf.pdhcollectquerydata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,8 +69,7 @@ Handle of the query for which you want to collect data. The <a href="https://msd
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS. Otherwise, the function returns a 
+If the function succeeds, it returns ERROR_SUCCESS. Otherwise, the function returns a 
 <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
 <a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>.
 						

@@ -7,7 +7,7 @@ old-location: security\ialternativename_type_property.htm
 old-project: seccertenroll
 ms.assetid: fdb1a7db-20f6-4732-bb59-fc078387375d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IAlternativeName interface [Security],Type property, IAlternativeName.Type, IAlternativeName.get_Type, IAlternativeName::Type, IAlternativeName::get_Type, Type property [Security], Type property [Security],IAlternativeName interface, certenroll/IAlternativeName::Type, certenroll/IAlternativeName::get_Type, get_Type, security.ialternativename_type_property
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fs\terminatelogarchive.htm
 old-project: Clfs
 ms.assetid: 885356e1-f7c4-4f3f-98c3-fb9b1d339e22
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/03/2018
 ms.keywords: TerminateLogArchive, TerminateLogArchive function [Files], clfsw32/TerminateLogArchive, fs.terminatelogarchive
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,8 +80,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-
-        Failure to call this function after archiving  completes  results in a resource leak.
+Failure to call this function after archiving  completes  results in a resource leak.
 
 
 

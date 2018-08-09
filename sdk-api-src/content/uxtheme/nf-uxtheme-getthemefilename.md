@@ -4,10 +4,10 @@ title: GetThemeFilename function
 author: windows-sdk-content
 description: Retrieves the value of a filename property.
 old-location: controls\GetThemeFilename.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemefilename.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetThemeFilename, GetThemeFilename function [Windows Controls], controls.GetThemeFilename, controls.inet_GetThemeFilename, inet_GetThemeFilename, inet_GetThemeFilename_cpp, uxtheme/GetThemeFilename
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,9 +87,11 @@ Type: <b>int</b>
 Value of type <b>int</b> that specifies the property to retrieve. For a list of possible values, see <a href="https://msdn.microsoft.com/en-us/library/Bb773213(v=VS.85).aspx">Property Identifiers</a>.
 
 
-### -param pszThemeFileName
+### -param pszThemeFileName [out]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPWSTR</a></b>
+
+Pointer to a buffer that receives the retrieved file name.
 
 
 ### -param cchMaxBuffChars [in]
@@ -97,13 +99,6 @@ TBD
 Type: <b>int</b>
 
 Value of type <b>int</b> that receives the maximum number of characters in the file name
-
-
-#### - pszThemeFilename [out]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPWSTR</a></b>
-
-Pointer to a buffer that receives the retrieved file name.
 
 
 ## -returns

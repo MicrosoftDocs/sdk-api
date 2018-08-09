@@ -7,7 +7,7 @@ old-location: netmgmt\setnetscheduleaccountinformation.htm
 old-project: netmgmt
 ms.assetid: e45cc3d6-f0dd-4c24-967e-4db08078d15e
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: SetNetScheduleAccountInformation, SetNetScheduleAccountInformation function [Network Management], atacct/SetNetScheduleAccountInformation, netmgmt.setnetscheduleaccountinformation
 ms.prod: windows
 ms.technology: windows-sdk

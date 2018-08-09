@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effect_optimize.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_optimize.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D10Effect interface [Direct3D 10],Optimize method, ID3D10Effect.Optimize, ID3D10Effect::Optimize, Optimize, Optimize method [Direct3D 10], Optimize method [Direct3D 10],ID3D10Effect interface, d3d10effect/ID3D10Effect::Optimize, direct3d10.id3d10effect_optimize, fbbf4573-f405-bce6-e72a-a861f2d82e60
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ Minimize the amount of memory required for an effect.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -84,31 +84,31 @@ The following methods will fail after Optimize has been called on an effect.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173761(v=VS.85).aspx">ID3D10Effect::GetConstantBufferByIndex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173761(v=VS.85).aspx">ID3D10Effect::GetConstantBufferByIndex</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173762(v=VS.85).aspx">ID3D10Effect::GetConstantBufferByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173762(v=VS.85).aspx">ID3D10Effect::GetConstantBufferByName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173763(v=VS.85).aspx">ID3D10Effect::GetDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173763(v=VS.85).aspx">ID3D10Effect::GetDesc</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173764(v=VS.85).aspx">ID3D10Effect::GetDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173764(v=VS.85).aspx">ID3D10Effect::GetDevice</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173765(v=VS.85).aspx">ID3D10Effect::GetTechniqueByIndex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173765(v=VS.85).aspx">ID3D10Effect::GetTechniqueByIndex</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173766(v=VS.85).aspx">ID3D10Effect::GetTechniqueByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173766(v=VS.85).aspx">ID3D10Effect::GetTechniqueByName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173767(v=VS.85).aspx">ID3D10Effect::GetVariableByIndex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173767(v=VS.85).aspx">ID3D10Effect::GetVariableByIndex</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173768(v=VS.85).aspx">ID3D10Effect::GetVariableByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173768(v=VS.85).aspx">ID3D10Effect::GetVariableByName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173769(v=VS.85).aspx">ID3D10Effect::GetVariableBySemantic</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173769(v=VS.85).aspx">ID3D10Effect::GetVariableBySemantic</a>
 </li>
 </ul>
 Note that references retrieved with these methods before calling <b>ID3D10Effect::Optimize</b> are still valid 
@@ -123,7 +123,7 @@ Note that references retrieved with these methods before calling <b>ID3D10Effect
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a>
  
 
  

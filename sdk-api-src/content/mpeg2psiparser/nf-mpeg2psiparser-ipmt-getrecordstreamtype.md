@@ -7,7 +7,7 @@ old-location: mstv\ipmt_getrecordstreamtype.htm
 old-project: mstv
 ms.assetid: c3e17c0c-88ea-4143-aa9b-da2c5bf2069f
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordStreamType, GetRecordStreamType method [Microsoft TV Technologies], GetRecordStreamType method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordStreamType method, IPMT.GetRecordStreamType, IPMT::GetRecordStreamType, IPMTGetRecordStreamType, mpeg2psiparser/IPMT::GetRecordStreamType, mstv.ipmt_getrecordstreamtype
 ms.prod: windows
 ms.technology: windows-sdk

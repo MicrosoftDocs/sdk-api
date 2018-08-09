@@ -7,7 +7,7 @@ old-location: tsf\itfinsertatselection_insertembeddedatselection.htm
 old-project: TSF
 ms.assetid: 13fa9955-0087-4dd9-8a1d-814ab801e956
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfInsertAtSelection interface [Text Services Framework],InsertEmbeddedAtSelection method, ITfInsertAtSelection.InsertEmbeddedAtSelection, ITfInsertAtSelection::InsertEmbeddedAtSelection, InsertEmbeddedAtSelection, InsertEmbeddedAtSelection method [Text Services Framework], InsertEmbeddedAtSelection method [Text Services Framework],ITfInsertAtSelection interface, _tsf_itfinsertatselection_insertembeddedatselection_ref, msctf/ITfInsertAtSelection::InsertEmbeddedAtSelection, tsf.itfinsertatselection_insertembeddedatselection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>ITfInsertAtSelection::InsertEmbeddedAtSelection</b> method inserts an <a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a> object at the selection or insertion point.
+The <b>ITfInsertAtSelection::InsertEmbeddedAtSelection</b> method inserts an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> object at the selection or insertion point.
 
 
 ## -parameters
@@ -190,18 +190,16 @@ To insert text instead of an <b>IDataObject</b> object, use the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">
-        ITfDocumentMgr::CreateContext
+<a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
       </a>
 
 
@@ -211,14 +209,12 @@ To insert text instead of an <b>IDataObject</b> object, use the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/1373fe9b-6c51-4514-a7da-c1f872d9b1ce">
-        ITfInsertAtSelection::InsertTextAtSelection
+<a href="https://msdn.microsoft.com/1373fe9b-6c51-4514-a7da-c1f872d9b1ce">ITfInsertAtSelection::InsertTextAtSelection
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/52f9465f-725e-493b-89ee-1b3db3cef696">
-        ITfQueryEmbedded::QueryInsertEmbedded
+<a href="https://msdn.microsoft.com/52f9465f-725e-493b-89ee-1b3db3cef696">ITfQueryEmbedded::QueryInsertEmbedded
       </a>
  
 

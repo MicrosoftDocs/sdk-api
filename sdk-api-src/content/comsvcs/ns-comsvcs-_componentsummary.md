@@ -7,7 +7,7 @@ old-location: cos\componentsummary.htm
 old-project: cossdk
 ms.assetid: df752c4a-6a8d-4eac-b3dc-1647bf8a8e5a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ComponentSummary, ComponentSummary structure [COM+], _ComponentSummary, comsvcs/ComponentSummary, cos.componentsummary
 ms.prod: windows
 ms.technology: windows-sdk

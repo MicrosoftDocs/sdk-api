@@ -7,7 +7,7 @@ old-location: directmanipulation\directmanipulation_snappoint_type.htm
 old-project: directmanipulation
 ms.assetid: 4ba8c216-a5bb-409d-bce8-fc85023b63d9
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: DIRECTMANIPULATION_SNAPPOINT_MANDATORY, DIRECTMANIPULATION_SNAPPOINT_MANDATORY_SINGLE, DIRECTMANIPULATION_SNAPPOINT_OPTIONAL, DIRECTMANIPULATION_SNAPPOINT_OPTIONAL_SINGLE, DIRECTMANIPULATION_SNAPPOINT_TYPE, DIRECTMANIPULATION_SNAPPOINT_TYPE enumeration [Direct Manipulation], directmanipulation.directmanipulation_snappoint_type, directmanipulation/DIRECTMANIPULATION_SNAPPOINT_MANDATORY, directmanipulation/DIRECTMANIPULATION_SNAPPOINT_MANDATORY_SINGLE, directmanipulation/DIRECTMANIPULATION_SNAPPOINT_OPTIONAL, directmanipulation/DIRECTMANIPULATION_SNAPPOINT_OPTIONAL_SINGLE, directmanipulation/DIRECTMANIPULATION_SNAPPOINT_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IFileDialog_SetClientGuid.htm
 old-project: shell
 ms.assetid: 2ab7d8bb-068d-4c5b-b273-68c7fc4f9956
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetClientGuid method, IFileDialog.SetClientGuid, IFileDialog::SetClientGuid, SetClientGuid, SetClientGuid method [Windows Shell], SetClientGuid method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetClientGuid, shell_IFileDialog_SetClientGuid, shobjidl_core/IFileDialog::SetClientGuid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,8 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 A dialog's state can include factors such as the last visited folder and the position and size of the dialog.
 
-
-              Typically, this state is persisted based on the name of the executable file. By specifying a GUID, an application can have different persisted states for different versions of the dialog within the same application (for example, an import dialog and an open dialog).
+Typically, this state is persisted based on the name of the executable file. By specifying a GUID, an application can have different persisted states for different versions of the dialog within the same application (for example, an import dialog and an open dialog).
             
 
 <b>IFileDialog::SetClientGuid</b> should be called immediately after creation of the dialog object.

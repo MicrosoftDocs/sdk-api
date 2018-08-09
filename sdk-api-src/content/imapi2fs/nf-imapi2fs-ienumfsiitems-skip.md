@@ -7,7 +7,7 @@ old-location: imapi\ienumfsiitems_skip.htm
 old-project: imapi
 ms.assetid: f1bf8542-12b9-4228-9e0e-1defbb57cac3
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IEnumFsiItems interface [IMAPI],Skip method, IEnumFsiItems.Skip, IEnumFsiItems::Skip, Skip, Skip method [IMAPI], Skip method [IMAPI],IEnumFsiItems interface, imapi.ienumfsiitems_skip, imapi2fs/IEnumFsiItems::Skip
 ms.prod: windows
 ms.technology: windows-sdk

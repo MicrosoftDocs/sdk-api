@@ -7,7 +7,7 @@ old-location: mstv\iisdb_bit_gettabledescriptorbytag.htm
 old-project: mstv
 ms.assetid: ef54b6bc-7150-4246-8058-4e57f25c2ad3
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IISDB_BIT.GetTableDescriptorByTag, IISDB_BIT::GetTableDescriptorByTag, dvbsiparser/IISDB_BIT::GetTableDescriptorByTag, mstv.iisdb_bit_gettabledescriptorbytag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Searches a subtable in
+Searches a subtable in
   for an Integrated Services Digital Broadcasting (ISDB) broadcaster
   information table
   (BIT). 
@@ -70,13 +69,11 @@ Specifies the descriptor tag for which to search.
 
 ### -param pdwCookie [in, out]
 
-
-  Pointer to a variable that specifies the start position
+Pointer to a variable that specifies the start position
   in the descriptor list. This parameter is optional.
   If the value of <i>pdwCookie</i> is <b>NULL</b>, the search starts from the
   first descriptor in the list. Otherwise, the search starts from
-  the position given in <i>pdwCookie</i>. When the method returns, the <i>pdwCookie</i>
-  parameter contains the position of the next matching descriptor,
+  the position given in <i>pdwCookie</i>. When the method returns, the <i>pdwCookie</i>parameter contains the position of the next matching descriptor,
   if any. You can use this parameter to iterate through the descriptor list,
   looking for every instance of a particular descriptor tag.
 
@@ -84,10 +81,8 @@ Specifies the descriptor tag for which to search.
 
 ### -param ppDescriptor [out]
 
-
-  Address of a variable that receives an <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor
-  </a>
-  interface pointer. Use this interface to retrieve the information
+Address of a variable that receives an <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor
+  </a>interface pointer. Use this interface to retrieve the information
   in the descriptor. The caller must release the interface.
 
 

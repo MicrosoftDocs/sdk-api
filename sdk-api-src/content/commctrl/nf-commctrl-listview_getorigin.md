@@ -7,7 +7,7 @@ old-location: controls\ListView_GetOrigin.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getorigin.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_GetOrigin, ListView_GetOrigin macro [Windows Controls], _win32_ListView_GetOrigin, _win32_ListView_GetOrigin_cpp, commctrl/ListView_GetOrigin, controls.ListView_GetOrigin, controls._win32_ListView_GetOrigin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the current view origin for a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761063(v=VS.85).aspx">LVM_GETORIGIN</a> message explicitly. 
+Gets the current view origin for a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761063(v=VS.85).aspx">LVM_GETORIGIN</a> message explicitly. 
 
 
 ## -parameters
@@ -60,26 +60,12 @@ Gets the current view origin for a list-view control. You can use this macro or 
 
 ### -param hwndLV
 
-TBD
-
-
-### -param ppt
-
-TBD
-
-
-
-
-
-
-#### - hwnd
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 
 
-#### - lpptOrg
+### -param ppt
 
 Type: <b>LPPOINT</b>
 

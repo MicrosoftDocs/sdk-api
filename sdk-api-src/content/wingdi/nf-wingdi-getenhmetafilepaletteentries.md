@@ -7,7 +7,7 @@ old-location: gdi\getenhmetafilepaletteentries.htm
 old-project: gdi
 ms.assetid: 2d61fd6a-cebd-457e-ad00-d3e8bd15584a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetEnhMetaFilePaletteEntries, GetEnhMetaFilePaletteEntries function [Windows GDI], _win32_GetEnhMetaFilePaletteEntries, gdi.getenhmetafilepaletteentries, wingdi/GetEnhMetaFilePaletteEntries
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,24 +66,12 @@ The <b>GetEnhMetaFilePaletteEntries</b> function retrieves optional palette entr
 A handle to the enhanced metafile.
 
 
-### -param nNumEntries
-
-TBD
-
-
-### -param lpPaletteEntries
-
-TBD
-
-
-
-
-#### - cEntries [in]
+### -param nNumEntries [in]
 
 The number of entries to be retrieved from the optional palette.
 
 
-#### - lppe [out]
+### -param lpPaletteEntries [out]
 
 A pointer to an array of <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structures that receives the palette colors. The array must contain at least as many structures as there are entries specified by the <i>cEntries</i> parameter.
 

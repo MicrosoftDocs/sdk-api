@@ -7,7 +7,7 @@ old-location: rras\rassetsubentryproperties.htm
 old-project: rras
 ms.assetid: 6bbc826b-e296-42d0-89d0-a13d0ce94929
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RasSetSubEntryProperties, RasSetSubEntryProperties function [RAS], RasSetSubEntryPropertiesA, RasSetSubEntryPropertiesW, _ras_rassetsubentryproperties, ras/RasSetSubEntryProperties, ras/RasSetSubEntryPropertiesA, ras/RasSetSubEntryPropertiesW, rras.rassetsubentryproperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,19 +69,24 @@ TBD
 
 
 
+#### - [in]
+
+Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
+
+
+
+
+<b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
+
+
+#### - lpszEntry [in]
+
+Pointer to a <b>null</b>-terminated string that specifies the name of an existing entry in the phone book.
+
+
 #### - dwSubEntry [in]
 
 Specifies the one-based index of the subentry. If the index matches an existing subentry index, the function changes the properties of that subentry. If the index does not match an existing index, the function creates a new subentry.
-
-
-#### - dwcbDeviceConfig [in]
-
-Specifies the size of the TAPI device configuration block. This parameter is currently unused. The caller should pass zero for this parameter.
-
-
-#### - dwcbRasSubEntry [in]
-
-Specifies the size, in bytes, of the <i>lpRasSubEntry</i> buffer.
 
 
 #### - lpRasSubEntry [in]
@@ -96,25 +101,20 @@ The structure might be followed by an array of <b>null</b>-terminated alternate 
 <a href="https://msdn.microsoft.com/48c1b100-e490-41a0-8324-6be2297bd814">RASSUBENTRY</a> structure contains the offset to the first string.
 
 
+#### - dwcbRasSubEntry [in]
+
+Specifies the size, in bytes, of the <i>lpRasSubEntry</i> buffer.
+
+
 #### - lpbDeviceConfig [in]
 
 Pointer to a TAPI device configuration block. This parameter is currently unused. The caller should pass <b>NULL</b> for this parameter. For more information about TAPI device configuration blocks, see the function 
-<a href="https://msdn.microsoft.com/library/ms735739(v=VS.85).aspx">lineGetDevConfig</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms735739(v=VS.85).aspx">lineGetDevConfig</a>.
 
 
-#### - lpszEntry [in]
+#### - dwcbDeviceConfig [in]
 
-Pointer to a <b>null</b>-terminated string that specifies the name of an existing entry in the phone book.
-
-
-#### - lpszPhonebook [in]
-
-Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
-
-
-
-
-<b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
+Specifies the size of the TAPI device configuration block. This parameter is currently unused. The caller should pass zero for this parameter.
 
 
 ## -returns

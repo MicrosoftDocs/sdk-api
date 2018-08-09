@@ -7,7 +7,7 @@ old-location: menurc\getfileversioninfoex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\getfileversioninfoex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: FILE_VER_GET_LOCALISED, FILE_VER_GET_NEUTRAL, FILE_VER_GET_PREFETCHED, GetFileVersionInfoEx, GetFileVersionInfoEx function [Menus and Other Resources], GetFileVersionInfoExA, GetFileVersionInfoExW, _win32_GetFileVersionInfoEx, _win32_getfileversioninfoex_cpp, menurc.getfileversioninfoex, winui._win32_getfileversioninfoex, winver/GetFileVersionInfoEx, winver/GetFileVersionInfoExA, winver/GetFileVersionInfoExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,9 +116,11 @@ Indicates a preference for version.dll to attempt to preload the image outside o
  
 
 
-### -param lpwstrFilename
+### -param lpwstrFilename [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+The name of the file. If a full path is not specified, the function uses the search sequence specified by the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> function.
 
 
 ### -param dwHandle
@@ -149,13 +151,6 @@ When this function returns, contains a pointer to a buffer that contains the fil
 
 You can use this value in a subsequent call to the <a href="https://msdn.microsoft.com/en-us/library/ms647464(v=VS.85).aspx">VerQueryValue</a> function to retrieve data from the buffer.
           
-
-
-#### - lptstrFilename [in]
-
-Type: <b>LPCTSTR</b>
-
-The name of the file. If a full path is not specified, the function uses the search sequence specified by the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> function.
 
 
 ## -returns

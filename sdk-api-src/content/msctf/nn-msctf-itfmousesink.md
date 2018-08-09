@@ -7,7 +7,7 @@ old-location: tsf\itfmousesink.htm
 old-project: TSF
 ms.assetid: d6e5549e-768d-47af-a553-84430641cda4
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfMouseSink, ITfMouseSink interface [Text Services Framework], ITfMouseSink interface [Text Services Framework],described, _tsf_itfmousesink_ref, msctf/ITfMouseSink, tsf.itfmousesink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,13 +91,12 @@ Called when a mouse event occurs over a range of text.
 
 
 
-<a href="https://msdn.microsoft.com/365538cd-0f18-45ce-91c2-ee3255b7fa93">
-        ITfMouseTrackerACP::AdviseMouseSink
+<a href="https://msdn.microsoft.com/365538cd-0f18-45ce-91c2-ee3255b7fa93">ITfMouseTrackerACP::AdviseMouseSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

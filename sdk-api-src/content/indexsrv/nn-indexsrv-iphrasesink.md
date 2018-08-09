@@ -7,7 +7,7 @@ old-location: indexsrv\iphrasesink.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefobj_3asr.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 08/03/2018
 ms.keywords: IPhraseSink, IPhraseSink interface [Indexing Service], IPhraseSink interface [Indexing Service],described, _idxs_PhraseSink, indexsrv.iphrasesink, indexsrv/IPhraseSink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Handles phrases that word breakers parse from query text during query time.
 
@@ -100,7 +100,7 @@ Indexing Service creates and initializes instances of the PhraseSink object. The
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb266433(v=VS.85).aspx">IWordBreaker</a> implementations receive a pointer to the PhraseSink object in the <a href="https://msdn.microsoft.com/library/Bb266429(v=VS.85).aspx">BreakText</a> method.
+<a href="https://msdn.microsoft.com/994befe1-e258-4c0a-b3a9-b5968e13456c">IWordBreaker</a> implementations receive a pointer to the PhraseSink object in the <a href="https://msdn.microsoft.com/25d84f9a-502d-4187-9dbf-6aca7cb74562">BreakText</a> method.
 
 
 
@@ -110,7 +110,7 @@ Indexing Service creates and initializes instances of the PhraseSink object. The
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb266433(v=VS.85).aspx">IWordBreaker</a>
+<a href="https://msdn.microsoft.com/994befe1-e258-4c0a-b3a9-b5968e13456c">IWordBreaker</a>
  
 
  

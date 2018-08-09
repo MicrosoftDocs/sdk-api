@@ -7,7 +7,7 @@ old-location: shell\AUTO_SCROLL_DATA_str.htm
 old-project: shell
 ms.assetid: 4229dd3b-1fc7-4cc7-bcc9-4e25bdc17c11
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: AUTO_SCROLL_DATA, AUTO_SCROLL_DATA structure [Windows Shell], _win32_AUTO_SCROLL_DATA_str, shell.AUTO_SCROLL_DATA_str, shlobj_core/AUTO_SCROLL_DATA
 ms.prod: windows
 ms.technology: windows-sdk

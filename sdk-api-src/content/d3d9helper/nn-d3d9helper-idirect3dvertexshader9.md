@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvertexshader9.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexshader9.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 09169d01-44dc-55c7-a6bd-28349bbc3b06, IDirect3DVertexShader9, IDirect3DVertexShader9 interface [Direct3D 9], IDirect3DVertexShader9 interface [Direct3D 9],described, d3d9helper/IDirect3DVertexShader9, direct3d9.idirect3dvertexshader9
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ Gets the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205924(v=VS.85).aspx">GetFunction</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205924(v=VS.85).aspx">GetFunction</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the shader data.

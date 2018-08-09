@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10debug_getswapchain.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug_getswapchain.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 0701d3b1-1d64-2987-0b96-e4018a8313df, GetSwapChain, GetSwapChain method [Direct3D 10], GetSwapChain method [Direct3D 10],ID3D10Debug interface, ID3D10Debug interface [Direct3D 10],GetSwapChain method, ID3D10Debug.GetSwapChain, ID3D10Debug::GetSwapChain, d3d10sdklayers/ID3D10Debug::GetSwapChain, direct3d10.id3d10debug_getswapchain
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Get the swap chain that the runtime will use for automatically calling <a href="https://msdn.microsoft.com/library/Bb174576(v=VS.85).aspx">Present</a>.
+Get the swap chain that the runtime will use for automatically calling <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">Present</a>.
 
 
 ## -parameters
@@ -60,18 +60,18 @@ Get the swap chain that the runtime will use for automatically calling <a href="
 
 ### -param ppSwapChain [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb174569(v=VS.85).aspx">IDXGISwapChain</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174569(v=VS.85).aspx">IDXGISwapChain</a>**</b>
 
-Swap chain that the runtime will use for automatically calling <a href="https://msdn.microsoft.com/library/Bb174576(v=VS.85).aspx">Present</a>.
+Swap chain that the runtime will use for automatically calling <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">Present</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -80,7 +80,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/lib
 
 
 
-The swap chain retrieved by this method will only be used if D3D10_DEBUG_FEATURE_PRESENT_PER_RENDER_OP is set in the <a href="https://msdn.microsoft.com/library/Bb173520(v=VS.85).aspx">feature mask</a>.
+The swap chain retrieved by this method will only be used if D3D10_DEBUG_FEATURE_PRESENT_PER_RENDER_OP is set in the <a href="https://msdn.microsoft.com/en-us/library/Bb173520(v=VS.85).aspx">feature mask</a>.
 
 
 
@@ -90,7 +90,7 @@ The swap chain retrieved by this method will only be used if D3D10_DEBUG_FEATURE
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173516(v=VS.85).aspx">ID3D10Debug Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173516(v=VS.85).aspx">ID3D10Debug Interface</a>
  
 
  

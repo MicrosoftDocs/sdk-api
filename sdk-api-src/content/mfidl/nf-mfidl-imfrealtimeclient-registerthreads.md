@@ -7,7 +7,7 @@ old-location: mf\imfrealtimeclient_registerthreads.htm
 old-project: medfound
 ms.assetid: 0ed3a8f6-1ea1-44af-ac6e-8712fd59ae31
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 0ed3a8f6-1ea1-44af-ac6e-8712fd59ae31, IMFRealTimeClient interface [Media Foundation],RegisterThreads method, IMFRealTimeClient.RegisterThreads, IMFRealTimeClient::RegisterThreads, RegisterThreads, RegisterThreads method [Media Foundation], RegisterThreads method [Media Foundation],IMFRealTimeClient interface, mf.imfrealtimeclient_registerthreads, mfidl/IMFRealTimeClient::RegisterThreads
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Notifies the object to register its worker threads with the Multimedia Class Sch
 
 ### -param dwTaskIndex [in]
 
-
-            The MMCSS task identifier.
+The MMCSS task identifier.
           
 
 
@@ -86,8 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        The object's worker threads should register themselves with MMCSS by calling <a href="https://msdn.microsoft.com/881d3f97-e68e-40cb-b799-76784185dd37">AvSetMmThreadCharacteristics</a>, using the task name and identifier specified in this method.
+The object's worker threads should register themselves with MMCSS by calling <a href="https://msdn.microsoft.com/881d3f97-e68e-40cb-b799-76784185dd37">AvSetMmThreadCharacteristics</a>, using the task name and identifier specified in this method.
 
 
 

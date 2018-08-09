@@ -7,7 +7,7 @@ old-location: controls\InitCommonControlsEx.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\initcommoncontrolsex.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: InitCommonControlsEx, InitCommonControlsEx function [Windows Controls], _win32_InitCommonControlsEx, _win32_InitCommonControlsEx_cpp, commctrl/InitCommonControlsEx, controls.InitCommonControlsEx, controls._win32_InitCommonControlsEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,18 +60,11 @@ Ensures that the common control DLL (Comctl32.dll) is loaded, and registers spec
 
 
 
-### -param picce
-
-TBD
-
-
-
-
-#### - lpInitCtrls [in]
+### -param picce [in]
 
 Type: <b>const LPINITCOMMONCONTROLSEX</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Bb775507(v=VS.85).aspx">INITCOMMONCONTROLSEX</a> structure that contains information specifying which control classes will be registered. 
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb775507(v=VS.85).aspx">INITCOMMONCONTROLSEX</a> structure that contains information specifying which control classes will be registered. 
 
 
 ## -returns
@@ -89,8 +82,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 
-
-				The effect of each call to <b>InitCommonControlsEx</b> is cumulative. For example, if <b>InitCommonControlsEx</b> is called with the <a href="https://msdn.microsoft.com/library/Bb775507(v=VS.85).aspx">ICC_UPDOWN_CLASS</a> flag, then is later called with the <a href="https://msdn.microsoft.com/library/Bb775507(v=VS.85).aspx">ICC_HOTKEY_CLASS</a> flag, the result is that both the up-down and hot key common control classes are registered and available to the application.
+The effect of each call to <b>InitCommonControlsEx</b> is cumulative. For example, if <b>InitCommonControlsEx</b> is called with the <a href="https://msdn.microsoft.com/en-us/library/Bb775507(v=VS.85).aspx">ICC_UPDOWN_CLASS</a> flag, then is later called with the <a href="https://msdn.microsoft.com/en-us/library/Bb775507(v=VS.85).aspx">ICC_HOTKEY_CLASS</a> flag, the result is that both the up-down and hot key common control classes are registered and available to the application.
 			
 
 

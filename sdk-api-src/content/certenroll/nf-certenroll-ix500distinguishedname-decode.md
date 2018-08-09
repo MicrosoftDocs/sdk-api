@@ -7,7 +7,7 @@ old-location: security\ix500distinguishedname_decode_method.htm
 old-project: seccertenroll
 ms.assetid: 52cc0595-b825-4bf3-805c-21afc468b91e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: Decode, Decode method [Security], Decode method [Security],IX500DistinguishedName interface, IX500DistinguishedName interface [Security],Decode method, IX500DistinguishedName.Decode, IX500DistinguishedName::Decode, certenroll/IX500DistinguishedName::Decode, security.ix500distinguishedname_decode_method
 ms.prod: windows
 ms.technology: windows-sdk

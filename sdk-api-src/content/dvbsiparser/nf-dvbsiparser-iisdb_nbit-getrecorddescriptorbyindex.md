@@ -7,7 +7,7 @@ old-location: mstv\iisdb_nbit_getrecorddescriptorbyindex.htm
 old-project: mstv
 ms.assetid: 0f7da95d-ba3f-4cdc-aea0-38abae260159
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IISDB_NBIT.GetRecordDescriptorByIndex, IISDB_NBIT::GetRecordDescriptorByIndex, dvbsiparser/IISDB_NBIT::GetRecordDescriptorByIndex, mstv.iisdb_nbit_getrecorddescriptorbyindex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Retrieves a descriptor for a specified record in 
+Retrieves a descriptor for a specified record in 
   an Integrated Services Digital Broadcasting (ISDB) 
   network broadcaster information table (NBIT)
   based on the descriptor index.

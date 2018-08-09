@@ -7,7 +7,7 @@ old-location: tsf\tf_languageprofile.htm
 old-project: TSF
 ms.assetid: f9dbd701-d893-409b-b033-3e37d12ccaa7
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: TF_LANGUAGEPROFILE, TF_LANGUAGEPROFILE structure [Text Services Framework], _tsf_tf_languageprofile_ref, msctf/TF_LANGUAGEPROFILE, tsf.tf_languageprofile
 ms.prod: windows
 ms.technology: windows-sdk

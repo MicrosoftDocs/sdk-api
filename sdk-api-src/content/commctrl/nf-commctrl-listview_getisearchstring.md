@@ -7,7 +7,7 @@ old-location: controls\ListView_GetISearchString.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getisearchstring.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_GetISearchString, ListView_GetISearchString macro [Windows Controls], _win32_ListView_GetISearchString, _win32_ListView_GetISearchString_cpp, commctrl/ListView_GetISearchString, controls.ListView_GetISearchString, controls._win32_ListView_GetISearchString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the incremental search string of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774951(v=VS.85).aspx">LVM_GETISEARCHSTRING</a> message explicitly. 
+Gets the incremental search string of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774951(v=VS.85).aspx">LVM_GETISEARCHSTRING</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Gets the incremental search string of a list-view control. You can use this macr
 
 ### -param hwndLV
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the list-view control. 
 
 
 ### -param lpsz
@@ -68,13 +70,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPSTR</a></b>
 
 A pointer to a buffer that receives the incremental search string. To just retrieve the length of the string, set <i>lpsz</i> to <b>NULL</b>. 
-
-
-#### - hwnd
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to the list-view control. 
 
 
 ## -remarks

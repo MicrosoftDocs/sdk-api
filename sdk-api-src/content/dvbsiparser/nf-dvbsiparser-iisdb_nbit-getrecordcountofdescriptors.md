@@ -7,7 +7,7 @@ old-location: mstv\iisdb_nbit_getrecordcountofdescriptors.htm
 old-project: mstv
 ms.assetid: 2f4f5b5a-f03a-4b90-aa7c-2552841ba165
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IISDB_NBIT.GetRecordCountOfDescriptors, IISDB_NBIT::GetRecordCountOfDescriptors, dvbsiparser/IISDB_NBIT::GetRecordCountOfDescriptors, mstv.iisdb_nbit_getrecordcountofdescriptors
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Returns the number of descriptors for a record in
+Returns the number of descriptors for a record in
   an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
   
 
@@ -71,8 +70,7 @@ method to get the number of records in the NBIT.
 
 ### -param pdwVal [out]
 
-
-  Receives the number of descriptors.
+Receives the number of descriptors.
 
 
 

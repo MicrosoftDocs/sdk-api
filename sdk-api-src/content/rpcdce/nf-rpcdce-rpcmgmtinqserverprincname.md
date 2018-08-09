@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtinqserverprincname.htm
 old-project: rpc
 ms.assetid: 2666adb4-8a89-480e-8855-9179a7128e35
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcMgmtInqServerPrincName, RpcMgmtInqServerPrincName function [RPC], RpcMgmtInqServerPrincNameA, RpcMgmtInqServerPrincNameW, _rpc_rpcmgmtinqserverprincname, rpc.rpcmgmtinqserverprincname, rpcdce/RpcMgmtInqServerPrincName, rpcdce/RpcMgmtInqServerPrincNameA, rpcdce/RpcMgmtInqServerPrincNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>RpcMgmtInqServerPrincName</b> function returns a server's principal name.
 
 

@@ -7,7 +7,7 @@ old-location: intl\getuilanguagefallbacklist.htm
 old-project: Intl
 ms.assetid: 18581fa1-f498-46ff-af83-dfbca80252e2
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: GetUILanguageFallbackList, GetUILanguageFallbackList function [Internationalization for Windows Applications], intl.getuilanguagefallbacklist, muiload/GetUILanguageFallbackList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,14 +70,7 @@ Pointer to a double null-terminated buffer in which the function retrieves an or
 Size, in characters, of the language buffer indicated by pFallbackList. Alternatively, the application can set this parameter to 0. In this case, the function retrieves the required size of the language buffer in <i>pcchFallbackListOut</i>.
 
 
-### -param pcchFallbackOut
-
-TBD
-
-
-
-
-#### - pcchFallbackListOut [out, optional]
+### -param pcchFallbackOut [out, optional]
 
 Pointer to a buffer in which the function retrieves the size of the retrieved language list. Alternatively, if <i>cchFallbackList</i> specifies 0, the function retrieves the required size of the language buffer.
 

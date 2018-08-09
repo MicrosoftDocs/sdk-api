@@ -7,7 +7,7 @@ old-location: controls\ListView_GetBkColor.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getbkcolor.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_GetBkColor, ListView_GetBkColor macro [Windows Controls], _win32_ListView_GetBkColor, _win32_ListView_GetBkColor_cpp, commctrl/ListView_GetBkColor, controls.ListView_GetBkColor, controls._win32_ListView_GetBkColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the background color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774905(v=VS.85).aspx">LVM_GETBKCOLOR</a> message explicitly. 
+Gets the background color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774905(v=VS.85).aspx">LVM_GETBKCOLOR</a> message explicitly. 
 
 
 ## -parameters

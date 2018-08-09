@@ -4,10 +4,10 @@ title: GetCommTimeouts function
 author: windows-sdk-content
 description: Retrieves the time-out parameters for all read and write operations on a specified communications device.
 old-location: base\getcommtimeouts.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: a5375b2e-0992-4e47-a20f-8a793addeef6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: GetCommTimeouts, GetCommTimeouts function, _win32_getcommtimeouts, base.getcommtimeouts, winbase/GetCommTimeouts
 ms.prod: windows
 ms.technology: windows-sdk

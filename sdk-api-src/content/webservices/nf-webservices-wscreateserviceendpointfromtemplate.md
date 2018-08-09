@@ -7,7 +7,7 @@ old-location: wsw\wscreateserviceendpointfromtemplate.htm
 old-project: wsw
 ms.assetid: 433194eb-ac42-4b6a-a1c0-7260a7aabeeb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsCreateServiceEndpointFromTemplate, WsCreateServiceEndpointFromTemplate function [Web Services for Windows], webservices/WsCreateServiceEndpointFromTemplate, wsw.wscreateserviceendpointfromtemplate
 ms.prod: windows
 ms.technology: windows-sdk

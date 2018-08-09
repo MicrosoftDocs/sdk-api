@@ -7,7 +7,7 @@ old-location: wcs\seticmmode.htm
 old-project: WCS
 ms.assetid: 40d70c1f-c580-43c4-b44b-6c9388e138fb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ICM_DONE_OUTSIDEDC, ICM_OFF, ICM_ON, ICM_QUERY, SetICMMode, SetICMMode function [Windows Color System], _color_SetICMMode, wcs.seticmmode, wingdi/SetICMMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,22 +62,10 @@ The <b>SetICMMode</b> function causes Image Color Management to be enabled, disa
 
 ### -param hdc
 
-TBD
-
-
-### -param mode
-
-TBD
-
-
-
-
-#### - hDC
-
 Identifies handle to the device context.
 
 
-#### - iEnableICM
+### -param mode
 
 Turns on and off image color management. This parameter can take one of the following constant values.<div> </div>
 

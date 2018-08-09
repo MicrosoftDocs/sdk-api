@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessorcontrol_setsourcerectangle.htm
 old-project: medfound
 ms.assetid: 0A4E74BB-6F98-4610-9F47-5BD1E58B8589
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetSourceRectangle method, IMFVideoProcessorControl.SetSourceRectangle, IMFVideoProcessorControl::SetSourceRectangle, SetSourceRectangle, SetSourceRectangle method [Media Foundation], SetSourceRectangle method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setsourcerectangle, mfidl/IMFVideoProcessorControl::SetSourceRectangle
 ms.prod: windows
 ms.technology: windows-sdk

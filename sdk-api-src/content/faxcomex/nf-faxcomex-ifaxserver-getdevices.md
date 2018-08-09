@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_getdevices.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7hrn.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxServer object [Fax Service],GetDevices method, FaxServer.GetDevices, GetDevices, GetDevices method [Fax Service], GetDevices method [Fax Service],FaxServer object, IFaxServer.GetDevices, IFaxServer::GetDevices, _mfax_faxserver.getdevices, fax._mfax_faxserver_getdevices
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>GetDevices</b> method creates a <a href="https://msdn.microsoft.com/library/ms684819(v=VS.85).aspx">FaxDevices</a> object, a collection of all the fax devices exposed by all the fax service providers (FSPs) currently registered with the fax service.
+The <b>GetDevices</b> method creates a <a href="https://msdn.microsoft.com/en-us/library/ms684819(v=VS.85).aspx">FaxDevices</a> object, a collection of all the fax devices exposed by all the fax service providers (FSPs) currently registered with the fax service.
 
 
 ## -parameters
@@ -71,9 +71,9 @@ The <b>GetDevices</b> method creates a <a href="https://msdn.microsoft.com/libra
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms684819(v=VS.85).aspx">FaxDevices</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms684819(v=VS.85).aspx">FaxDevices</a>**</b>
 
-A <a href="https://msdn.microsoft.com/library/ms684819(v=VS.85).aspx">FaxDevices</a> object.
+A <a href="https://msdn.microsoft.com/en-us/library/ms684819(v=VS.85).aspx">FaxDevices</a> object.
 
 
 
@@ -82,9 +82,9 @@ A <a href="https://msdn.microsoft.com/library/ms684819(v=VS.85).aspx">FaxDevices
 
 
 
-You can use the <a href="https://msdn.microsoft.com/library/ms684819(v=VS.85).aspx">FaxDevices</a> object to enumerate the fax devices associated with a connected fax server and to create <a href="https://msdn.microsoft.com/library/ms686192(v=VS.85).aspx">FaxDevice</a> objects for them.
+You can use the <a href="https://msdn.microsoft.com/en-us/library/ms684819(v=VS.85).aspx">FaxDevices</a> object to enumerate the fax devices associated with a connected fax server and to create <a href="https://msdn.microsoft.com/en-us/library/ms686192(v=VS.85).aspx">FaxDevice</a> objects for them.
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -94,15 +94,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689110(v=VS.85).aspx">IFaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693400(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693400(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

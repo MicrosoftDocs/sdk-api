@@ -4,10 +4,10 @@ title: IWSDServiceMessaging
 author: windows-sdk-content
 description: Is used by generated stub code to send faults or responses to incoming messages.
 old-location: ncd\iwsdservicemessaging.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 06584474-1c55-43db-9c7a-fefea8d16eed
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWSDServiceMessaging, IWSDServiceMessaging interface, IWSDServiceMessaging interface,described, ncd.iwsdservicemessaging, wsdhost/IWSDServiceMessaging
 ms.prod: windows
 ms.technology: windows-sdk

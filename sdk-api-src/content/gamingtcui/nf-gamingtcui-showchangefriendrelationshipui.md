@@ -7,7 +7,7 @@ old-location: tcui\showchangefriendrelationshipui.htm
 old-project: tcui
 ms.assetid: 1066CEA3-DCF1-4B68-8C77-E23B1903C847
 ms.author: windowssdkdev
-ms.date: 03/20/2018
+ms.date: 08/06/2018
 ms.keywords: ShowChangeFriendRelationshipUI, ShowChangeFriendRelationshipUI function, gamingtcui/ShowChangeFriendRelationshipUI, tcui.showchangefriendrelationshipui
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ Do not use. This API is only supported for Xbox developers.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Do not use. This API is only supported for Xbox developers.
 

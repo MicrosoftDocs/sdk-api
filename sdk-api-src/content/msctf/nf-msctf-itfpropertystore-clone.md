@@ -7,7 +7,7 @@ old-location: tsf\itfpropertystore_clone.htm
 old-project: TSF
 ms.assetid: 0f51a37f-e340-441e-a1f1-e67791b9c008
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],ITfPropertyStore interface, ITfPropertyStore interface [Text Services Framework],Clone method, ITfPropertyStore.Clone, ITfPropertyStore::Clone, _tsf_itfpropertystore_clone_ref, msctf/ITfPropertyStore::Clone, tsf.itfpropertystore_clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,8 +116,7 @@ This method creates a new property store object and initializes the new object s
 
 
 
-<a href="https://msdn.microsoft.com/0678e622-3733-499b-b289-c8c181d4638c">
-        ITfPropertyStore
+<a href="https://msdn.microsoft.com/0678e622-3733-499b-b289-c8c181d4638c">ITfPropertyStore
       </a>
  
 

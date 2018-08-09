@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandlerCollection_BindToHandler.htm
 old-project: shell
 ms.assetid: a3ae2427-7c7d-45b6-82ea-a8f5607f9623
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: BindToHandler, BindToHandler method [Windows Shell], BindToHandler method [Windows Shell],ISyncMgrHandlerCollection interface, ISyncMgrHandlerCollection interface [Windows Shell],BindToHandler method, ISyncMgrHandlerCollection.BindToHandler, ISyncMgrHandlerCollection::BindToHandler, _shell_ISyncMgrHandlerCollection_BindToHandler, shell.ISyncMgrHandlerCollection_BindToHandler, syncmgr/ISyncMgrHandlerCollection::BindToHandler
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_LockBits_rect_flags_format_lockedBit
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\lockbits.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Bitmap class [GDI+],LockBits method, Bitmap.LockBits, Bitmap::LockBits, LockBits, LockBits method [GDI+], LockBits method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_LockBits_rect_flags_format_lockedBitmapData_, gdiplus._gdiplus_CLASS_Bitmap_LockBits_rect_flags_format_lockedBitmapData_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Bitmap::LockBits</b> method locks a rectangular portion of this bitmap and provides a temporary buffer that you can use to read or write pixel data in a specified format. Any pixel data that you write to the buffer is copied to the 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> object when you call <a href="https://msdn.microsoft.com/library/ms536301(v=VS.85).aspx">Bitmap::UnlockBits</a>.
+			<a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> object when you call <a href="https://msdn.microsoft.com/en-us/library/ms536301(v=VS.85).aspx">Bitmap::UnlockBits</a>.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Pointer to a rectangle that specifies the portion of the bitmap to be locked.
 
 Type: <b>UINT</b>
 
-Set of flags that specify whether the locked portion of the bitmap is available for reading or for writing and whether the caller has already allocated a buffer. Individual flags are defined in the <a href="https://msdn.microsoft.com/library/ms534137(v=VS.85).aspx">ImageLockMode</a> enumeration. 
+Set of flags that specify whether the locked portion of the bitmap is available for reading or for writing and whether the caller has already allocated a buffer. Individual flags are defined in the <a href="https://msdn.microsoft.com/en-us/library/ms534137(v=VS.85).aspx">ImageLockMode</a> enumeration. 
 
 
 ### -param format [in]
@@ -80,14 +80,14 @@ Type: <b>PixelFormat</b>
 
 Integer that specifies the format of the pixel data in the temporary buffer. The pixel format of the temporary buffer does not have to be the same as the pixel format of this 
 					<a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> object. The 
-					<b>PixelFormat</b> data type and constants that represent various pixel formats are defined in Gdipluspixelformats.h. For more information about pixel format constants, see <a href="https://msdn.microsoft.com/library/ms534412(v=VS.85).aspx">Image Pixel Format Constants</a>. GDI+ version 1.0 does not support processing of 16-bits-per-channel images, so you should not set this parameter equal to PixelFormat48bppRGB, PixelFormat64bppARGB, or PixelFormat64bppPARGB. 
+					<b>PixelFormat</b> data type and constants that represent various pixel formats are defined in Gdipluspixelformats.h. For more information about pixel format constants, see <a href="https://msdn.microsoft.com/en-us/library/ms534412(v=VS.85).aspx">Image Pixel Format Constants</a>. GDI+ version 1.0 does not support processing of 16-bits-per-channel images, so you should not set this parameter equal to PixelFormat48bppRGB, PixelFormat64bppARGB, or PixelFormat64bppPARGB. 
 
 
 ### -param lockedBitmapData [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534421(v=VS.85).aspx">BitmapData</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534421(v=VS.85).aspx">BitmapData</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534421(v=VS.85).aspx">BitmapData</a> object. If the ImageLockModeUserInputBuf flag of the 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534421(v=VS.85).aspx">BitmapData</a> object. If the ImageLockModeUserInputBuf flag of the 
 					<i>flags</i> parameter is cleared, then 
 					<i>lockedBitmapData</i> serves only as an output parameter. In that case, the 
 					<b>Scan0</b> data member of the <b>BitmapData</b> object receives a pointer to a temporary buffer, which is filled with the values of the requested pixels. The other data members of the <b>BitmapData</b> object receive attributes (width, height, format, and stride) of the pixel data in the temporary buffer. If the pixel data is stored bottom-up, the 
@@ -105,7 +105,7 @@ Pointer to a <a href="https://msdn.microsoft.com/library/ms534421(v=VS.85).aspx"
 Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a></b>
 </strong>
 
-If the method succeeds, it returns <a href="https://msdn.microsoft.com/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the 
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the 
 						<b>Status</b> enumeration.
 
 If the method fails, it returns one of the other elements of the 
@@ -123,31 +123,31 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536301(v=VS.85).aspx">Bitmap::UnlockBits</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536301(v=VS.85).aspx">Bitmap::UnlockBits</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534421(v=VS.85).aspx">BitmapData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534421(v=VS.85).aspx">BitmapData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534412(v=VS.85).aspx">Image Pixel Format Constants</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534412(v=VS.85).aspx">Image Pixel Format Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534137(v=VS.85).aspx">ImageLockMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534137(v=VS.85).aspx">ImageLockMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536335(v=VS.85).aspx">Images, Bitmaps, and Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536335(v=VS.85).aspx">Images, Bitmaps, and Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533815(v=VS.85).aspx">Using Images, Bitmaps, and Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533815(v=VS.85).aspx">Using Images, Bitmaps, and Metafiles</a>
  
 
  

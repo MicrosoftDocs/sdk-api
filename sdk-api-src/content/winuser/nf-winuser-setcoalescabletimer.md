@@ -7,7 +7,7 @@ old-location: winmsg\setcoalescabletimer.htm
 old-project: winmsg
 ms.assetid: 39303811-972f-4131-deea-cebf84c50867
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Any other value, SetCoalescableTimer, SetCoalescableTimer function [Windows and Messages], TIMERV_DEFAULT_COALESCING, TIMERV_NO_COALESCING, winmsg.setcoalescabletimer, winuser/SetCoalescableTimer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,11 @@ Creates a timer with the specified time-out value and coalescing tolerance delay
 
 
 
-### -param hWnd
+### -param hWnd [in, optional]
 
-TBD
+Type: <b>HWND</b>
+
+A handle to the window to be associated with the timer. This window must be owned by the calling thread. If a <b>NULL</b> value for <i>hWnd</i> is passed in along with an <i>nIDEvent</i> of an existing timer, that timer will be replaced in the same way that an existing non-NULL <i>hWnd</i> timer will be.
 
 
 ### -param nIDEvent [in]
@@ -162,13 +164,6 @@ An invalid value. If <i>uToleranceDelay</i> is set to an invalid value, the func
 </tr>
 </table>
  
-
-
-#### - hwnd [in, optional]
-
-Type: <b>HWND</b>
-
-A handle to the window to be associated with the timer. This window must be owned by the calling thread. If a <b>NULL</b> value for <i>hWnd</i> is passed in along with an <i>nIDEvent</i> of an existing timer, that timer will be replaced in the same way that an existing non-NULL <i>hWnd</i> timer will be.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: qos\rsvp_session.htm
 old-project: qos
 ms.assetid: d6674de9-7d79-40f2-ae45-4410408ba047
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: RSVP_SESSION, RSVP_SESSION structure [QOS], lpmapi/RSVP_SESSION, qos.rsvp_session
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: SLREFERRALTYPE
 author: windows-sdk-content
 description: Represents the types of information that can be queried with the SLGetReferralInformation function.
 old-location: security\slreferraltype.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: 350a28bd-cbdf-46f2-a404-aa16550a4711
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLREFERRALTYPE, SLREFERRALTYPE enumeration [Security], SL_REFERRALTYPE_APPID, SL_REFERRALTYPE_BEST_MATCH, SL_REFERRALTYPE_OVERRIDE_APPID, SL_REFERRALTYPE_OVERRIDE_SKUID, SL_REFERRALTYPE_SKUID, security.slreferraltype, slpublic/SLREFERRALTYPE, slpublic/SL_REFERRALTYPE_APPID, slpublic/SL_REFERRALTYPE_BEST_MATCH, slpublic/SL_REFERRALTYPE_OVERRIDE_APPID, slpublic/SL_REFERRALTYPE_OVERRIDE_SKUID, slpublic/SL_REFERRALTYPE_SKUID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -41,6 +41,8 @@ product: Windows
 targetos: Windows
 req.lib: 
 req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLREFERRALTYPE enumeration

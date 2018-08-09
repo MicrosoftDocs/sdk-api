@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_BrightnessContrast_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brightnesscontrast.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: BrightnessContrast, BrightnessContrast class [GDI+], BrightnessContrast class [GDI+],described, _gdiplus_CLASS_BrightnessContrast_Class, gdiplus._gdiplus_CLASS_BrightnessContrast_Class, gdipluseffects/BrightnessContrast
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,5 +51,5 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>BrightnessContrast</b> class enables you to change the brightness and contrast of a bitmap. Pass the address of a <b>BrightnessContrast</b> object to the <a href="https://msdn.microsoft.com/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method. To specify the brightness and contrast levels, pass a <a href="https://msdn.microsoft.com/library/ms534058(v=VS.85).aspx">BrightnessContrastParams</a> structure to the <a href="https://msdn.microsoft.com/library/ms536278(v=VS.85).aspx">BrightnessContrast::SetParameters</a> method of a <b>BrightnessContrast</b> object.
+The <b>BrightnessContrast</b> class enables you to change the brightness and contrast of a bitmap. Pass the address of a <b>BrightnessContrast</b> object to the <a href="https://msdn.microsoft.com/en-us/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/en-us/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method. To specify the brightness and contrast levels, pass a <a href="https://msdn.microsoft.com/en-us/library/ms534058(v=VS.85).aspx">BrightnessContrastParams</a> structure to the <a href="https://msdn.microsoft.com/en-us/library/ms536278(v=VS.85).aspx">BrightnessContrast::SetParameters</a> method of a <b>BrightnessContrast</b> object.
 

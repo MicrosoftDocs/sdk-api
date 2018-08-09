@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingfunction.htm
 old-project: tracelogging
 ms.assetid: 70382367-E0A0-4E5B-A14F-863BEC0615C5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TraceLoggingFunction, TraceLoggingFunction macro, tracelogging.traceloggingfunction, traceloggingactivity/TraceLoggingFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,19 +59,14 @@ Creates a <a href="https://msdn.microsoft.com/7666A28B-42B2-473F-852F-BD3F6CAA6A
 
 
 
-### -param providerHandle
+### -param providerHandle [in]
 
-TBD
+A provider registration handle.
 
 
 #### - args [in, optional]
 
 Additional parameters that will be used to configure the activity’s Start event. Use <a href="https://msdn.microsoft.com/806F43F3-D376-4DBD-A4C5-B5F01E5D009D">TraceLogging Wrapper Macros</a> to add values to the activity’s Start event or to configure the level/keyword of the activity’s Start and Stop events. The maximum number of optional parameters is 99. All parameters must be wrapper macros as defined in <b>TraceLogging Wrapper Macros</b>.
-
-
-#### - hProvider [in]
-
-A provider registration handle.
 
 
 ## -remarks

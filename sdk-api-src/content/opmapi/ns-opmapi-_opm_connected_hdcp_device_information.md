@@ -7,7 +7,7 @@ old-location: mf\opm_connected_hdcp_device_information.htm
 old-project: medfound
 ms.assetid: 1fb59959-782b-44e8-81b1-eca3c32a0783
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: OPM_CONNECTED_HDCP_DEVICE_INFORMATION, OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure [Media Foundation], OPM_HDCP_FLAG_NONE, OPM_HDCP_FLAG_REPEATER, _OPM_CONNECTED_HDCP_DEVICE_INFORMATION, mf.opm_connected_hdcp_device_information, opmapi/OPM_CONNECTED_HDCP_DEVICE_INFORMATION
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,8 +106,7 @@ The device is an HDCP repeater.
 
 ### -field ksvB
 
-
-            An <a href="https://msdn.microsoft.com/79c0e5e5-62ef-4b8a-9e3b-3a9482731b16">OPM_HDCP_KEY_SELECTION_VECTOR</a> structure that contains the device's key selection vector (KSV). This is the value named <i>Bksv</i> in the HDCP specification.
+An <a href="https://msdn.microsoft.com/79c0e5e5-62ef-4b8a-9e3b-3a9482731b16">OPM_HDCP_KEY_SELECTION_VECTOR</a> structure that contains the device's key selection vector (KSV). This is the value named <i>Bksv</i> in the HDCP specification.
 
 
 ### -field Reserved

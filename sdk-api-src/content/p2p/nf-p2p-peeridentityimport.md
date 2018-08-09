@@ -7,7 +7,7 @@ old-location: p2p\peeridentityimport.htm
 old-project: p2psdk
 ms.assetid: 273aa395-905a-41bd-a027-23f4b3f549b6
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerIdentityImport, PeerIdentityImport function [Peer Networking], p2p.peeridentityimport, p2p/PeerIdentityImport
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerIdentityImport</b> function imports  one peer  identity. If the peer identity exists on a computer, <b>PEER_E_ALREADY_EXISTS</b> is returned. 
+The <b>PeerIdentityImport</b> function imports  one peer  identity. If the peer identity exists on a computer, <b>PEER_E_ALREADY_EXISTS</b> is returned. 
 
 
 ## -parameters
@@ -160,8 +159,7 @@ The XML fragment used by <b>PeerIdentityImport</b> is as follows:
 
 
 
-<a href="https://msdn.microsoft.com/d8a8b9e3-c455-4813-b812-263efe7f5e3e">
-        PEER_DATA</a>
+<a href="https://msdn.microsoft.com/d8a8b9e3-c455-4813-b812-263efe7f5e3e">PEER_DATA</a>
 
 
 

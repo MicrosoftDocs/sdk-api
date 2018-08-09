@@ -4,10 +4,10 @@ title: ISettingsEngine::CreateTargetInfo
 author: windows-sdk-content
 description: Creates an empty target.
 old-location: smi\isettingsengine_createtargetinfo.htm
-old-project: SMI
+old-project: smi
 ms.assetid: f3d31643-c606-4fc1-96a8-cf5cb26bcf3f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: CreateTargetInfo, CreateTargetInfo method [SMI], CreateTargetInfo method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],CreateTargetInfo method, ISettingsEngine.CreateTargetInfo, ISettingsEngine::CreateTargetInfo, smi.isettingsengine_createtargetinfo, wcmconfig/ISettingsEngine::CreateTargetInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\polydraw.htm
 old-project: gdi
 ms.assetid: 5fd3f285-dcf3-4cd0-915a-236ba7902353
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PT_BEZIERTO, PT_CLOSEFIGURE, PT_LINETO, PT_MOVETO, PolyDraw, PolyDraw function [Windows GDI], _win32_PolyDraw, gdi.polydraw, wingdi/PolyDraw
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,29 +65,12 @@ The <b>PolyDraw</b> function draws a set of line segments and Bézier curves.
 A handle to a device context.
 
 
-### -param apt
+### -param apt [in]
 
-TBD
-
-
-### -param aj
-
-TBD
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures that contains the endpoints for each line segment and the endpoints and control points for each Bézier curve, in logical units.
 
 
-### -param cpt
-
-TBD
-
-
-
-
-#### - cCount [in]
-
-The total number of points in the <i>lppt</i> array, the same as the number of bytes in the <i>lpbTypes</i> array.
-
-
-#### - lpbTypes [in]
+### -param aj [in]
 
 A pointer to an array that specifies how each point in the <i>lppt</i> array is used. This parameter can be one of the following values.
 
@@ -156,9 +139,9 @@ The current position is set to the ending point of the closing line.
  
 
 
-#### - lppt [in]
+### -param cpt [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures that contains the endpoints for each line segment and the endpoints and control points for each Bézier curve, in logical units.
+The total number of points in the <i>lppt</i> array, the same as the number of bytes in the <i>lpbTypes</i> array.
 
 
 ## -returns

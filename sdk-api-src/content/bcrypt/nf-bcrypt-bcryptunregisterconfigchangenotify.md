@@ -7,7 +7,7 @@ old-location: security\bcryptunregisterconfigchangenotify_handle.htm
 old-project: seccng
 ms.assetid: 204d289d-46c0-4815-a628-758310014790
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: BCryptUnregisterConfigChangeNotify, BCryptUnregisterConfigChangeNotify function [Security], BCryptUnregisterConfigChangeNotify(HANDLE), bcrypt/BCryptUnregisterConfigChangeNotify, security.bcryptunregisterconfigchangenotify_handle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,14 +58,7 @@ The <b>BCryptUnregisterConfigChangeNotify(HANDLE)</b> function removes a user mo
 
 
 
-### -param pEvent
-
-TBD
-
-
-
-
-#### - hEvent [in]
+### -param pEvent [in]
 
 The handle of the event to remove. This is the handle that was obtained by using the <a href="https://msdn.microsoft.com/e0d60ea1-3b0b-4afe-bbfc-52f0d48b7399">BCryptRegisterConfigChangeNotify(HANDLE*)</a> function.
 

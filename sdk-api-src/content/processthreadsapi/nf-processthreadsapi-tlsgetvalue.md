@@ -7,7 +7,7 @@ old-location: base\tlsgetvalue.htm
 old-project: procthread
 ms.assetid: 82bd5ff6-ff0b-42b7-9ece-e9e8531eb5fb
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: TlsGetValue, TlsGetValue function, _win32_tlsgetvalue, base.tlsgetvalue, processthreadsapi/TlsGetValue, winbase/TlsGetValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,12 +83,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 The data stored in a TLS slot can have a value of 0 because it still has its initial value or because the thread called the <a href="https://msdn.microsoft.com/531b4a4a-a251-4ab4-b00a-754783a51283">TlsSetValue</a> function with 0. Therefore, if the return value is 0, you must check whether <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns <b>ERROR_SUCCESS</b> before determining that the function has failed. If <b>GetLastError</b> returns <b>ERROR_SUCCESS</b>, then the function has succeeded and the data stored in the TLS slot is 0. Otherwise, the function has failed.
 
-Functions that return indications of failure call <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a>
-    when they fail. They generally do not call <b>SetLastError</b>
-    when they succeed. The 
+Functions that return indications of failure call <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a>when they fail. They generally do not call <b>SetLastError</b>when they succeed. The 
 <b>TlsGetValue</b> function is an exception to this general rule. The 
-<b>TlsGetValue</b> function calls <b>SetLastError</b>
-   to clear a thread's last error when it succeeds. That allows checking for the error-free retrieval of zero values.
+<b>TlsGetValue</b> function calls <b>SetLastError</b>to clear a thread's last error when it succeeds. That allows checking for the error-free retrieval of zero values.
 
 
 

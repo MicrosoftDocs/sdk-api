@@ -7,7 +7,7 @@ old-location: rm\drm_status_msg.htm
 old-project: adrms_sdk
 ms.assetid: 9420c415-09ef-43a0-b458-bfaae9857314
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRM_MSG_ACQUIRE_ADVISORY, DRM_MSG_ACQUIRE_CLIENTLICENSOR, DRM_MSG_ACQUIRE_ISSUANCE_LICENSE_TEMPLATE, DRM_MSG_ACQUIRE_LICENSE, DRM_MSG_ACTIVATE_GROUPIDENTITY, DRM_MSG_ACTIVATE_MACHINE, DRM_MSG_SIGN_ISSUANCE_LICENSE, DRM_STATUS_MSG, DRM_STATUS_MSG enumeration [Active Directory Rights Management Services SDK 1.0], _DRM_STATUS_MSG, msdrmdefs/DRM_MSG_ACQUIRE_ADVISORY, msdrmdefs/DRM_MSG_ACQUIRE_CLIENTLICENSOR, msdrmdefs/DRM_MSG_ACQUIRE_ISSUANCE_LICENSE_TEMPLATE, msdrmdefs/DRM_MSG_ACQUIRE_LICENSE, msdrmdefs/DRM_MSG_ACTIVATE_GROUPIDENTITY, msdrmdefs/DRM_MSG_ACTIVATE_MACHINE, msdrmdefs/DRM_MSG_SIGN_ISSUANCE_LICENSE, msdrmdefs/DRM_STATUS_MSG, rm.drm_status_msg
 ms.prod: windows
 ms.technology: windows-sdk

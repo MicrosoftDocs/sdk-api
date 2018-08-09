@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4isy_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxServer, IFaxServer interface [Fax Service], IFaxServer interface [Fax Service],described, _mfax_faxserver_cpp, fax._mfax_faxserver_cpp, faxcomex/IFaxServer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The <b>IFaxServer</b> interface describes a messaging collection that is used by
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxServer</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxServer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxServer</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxServer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,10 +72,10 @@ The <b>IFaxServer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms687537(v=VS.85).aspx">Connect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687537(v=VS.85).aspx">Connect</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms687537(v=VS.85).aspx">IFaxServer::Connect</a> method connects a fax client application to the specified fax server.
+The <a href="https://msdn.microsoft.com/en-us/library/ms687537(v=VS.85).aspx">IFaxServer::Connect</a> method connects a fax client application to the specified fax server.
 
 
 </td>
@@ -91,19 +91,19 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms689589(v=VS.85).aspx">IF
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms689565(v=VS.85).aspx">GetDeviceProviders</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689565(v=VS.85).aspx">GetDeviceProviders</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms689565(v=VS.85).aspx">IFaxServer::GetDeviceProviders</a> method creates a <a href="https://msdn.microsoft.com/library/ms687081(v=VS.85).aspx">IFaxDeviceProviders</a> interface, a collection of FSPs that are currently registered with the fax service. You can use the <b>IFaxDeviceProviders</b> interface to enumerate the FSPs associated with a fax server and to create and access <a href="https://msdn.microsoft.com/library/ms684893(v=VS.85).aspx">IFaxDeviceProvider</a> interfaces for them.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689565(v=VS.85).aspx">IFaxServer::GetDeviceProviders</a> method creates a <a href="https://msdn.microsoft.com/en-us/library/ms687081(v=VS.85).aspx">IFaxDeviceProviders</a> interface, a collection of FSPs that are currently registered with the fax service. You can use the <b>IFaxDeviceProviders</b> interface to enumerate the FSPs associated with a fax server and to create and access <a href="https://msdn.microsoft.com/en-us/library/ms684893(v=VS.85).aspx">IFaxDeviceProvider</a> interfaces for them.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms689596(v=VS.85).aspx">GetDevices</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689596(v=VS.85).aspx">GetDevices</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms689596(v=VS.85).aspx">IFaxServer::GetDevices</a> method creates a <a href="https://msdn.microsoft.com/library/ms684821(v=VS.85).aspx">IFaxDevices</a> interface, a collection of all the fax devices exposed by all the FSPs currently registered with the fax service.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689596(v=VS.85).aspx">IFaxServer::GetDevices</a> method creates a <a href="https://msdn.microsoft.com/en-us/library/ms684821(v=VS.85).aspx">IFaxDevices</a> interface, a collection of all the fax devices exposed by all the FSPs currently registered with the fax service.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms688241(v=VS.85).aspx">IF
 <a href="https://msdn.microsoft.com/en-us/library/ms690121(v=VS.85).aspx">ListenToServerEvents</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms690121(v=VS.85).aspx">IFaxServer::ListenToServerEvents</a> method registers the <a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a> object to receive notifications about one or more types of server events, or to stop these notifications. 
+The <a href="https://msdn.microsoft.com/en-us/library/ms690121(v=VS.85).aspx">IFaxServer::ListenToServerEvents</a> method registers the <a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a> object to receive notifications about one or more types of server events, or to stop these notifications. 
 
 </td>
 </tr>
@@ -181,7 +181,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms688431(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms688482(v=VS.85).aspx">Activity</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688482(v=VS.85).aspx">Activity</a>
 
 
 </td>
@@ -190,14 +190,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms688482(v=VS.85).aspx">IFaxServer::get_Activity</a> property creates a <a href="https://msdn.microsoft.com/library/ms686149(v=VS.85).aspx">IFaxActivity</a> interface object. The interface permits a fax client application to access information about the activity on a connected fax server, and the fax server status.
+The <a href="https://msdn.microsoft.com/en-us/library/ms688482(v=VS.85).aspx">IFaxServer::get_Activity</a> property creates a <a href="https://msdn.microsoft.com/en-us/library/ms686149(v=VS.85).aspx">IFaxActivity</a> interface object. The interface permits a fax client application to access information about the activity on a connected fax server, and the fax server status.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms689096(v=VS.85).aspx">APIVersion</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689096(v=VS.85).aspx">APIVersion</a>
 
 
 </td>
@@ -206,7 +206,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms689096(v=VS.85).aspx">IFaxServer::get_APIVersion</a> property is a value that indicates the version of the fax server API.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689096(v=VS.85).aspx">IFaxServer::get_APIVersion</a> property is a value that indicates the version of the fax server API.
 
 
 
@@ -231,7 +231,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690164(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms689198(v=VS.85).aspx">Folders</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689198(v=VS.85).aspx">Folders</a>
 
 
 </td>
@@ -240,14 +240,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms689198(v=VS.85).aspx">IFaxServer::get_Folders</a> property accesses a <a href="https://msdn.microsoft.com/library/ms684838(v=VS.85).aspx">IFaxFolders</a> configuration interface. You can use the interface to access the folders, jobs, and messages on a connected fax server.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689198(v=VS.85).aspx">IFaxServer::get_Folders</a> property accesses a <a href="https://msdn.microsoft.com/en-us/library/ms684838(v=VS.85).aspx">IFaxFolders</a> configuration interface. You can use the interface to access the folders, jobs, and messages on a connected fax server.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms688280(v=VS.85).aspx">InboundRouting</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688280(v=VS.85).aspx">InboundRouting</a>
 
 
 </td>
@@ -256,14 +256,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms688280(v=VS.85).aspx">IFaxServer::get_InboundRouting</a> property creates a <a href="https://msdn.microsoft.com/library/ms684596(v=VS.85).aspx">IFaxInboundRouting</a> configuration interface. The interface permits access to an inbound fax routing extension and its methods.
+The <a href="https://msdn.microsoft.com/en-us/library/ms688280(v=VS.85).aspx">IFaxServer::get_InboundRouting</a> property creates a <a href="https://msdn.microsoft.com/en-us/library/ms684596(v=VS.85).aspx">IFaxInboundRouting</a> configuration interface. The interface permits access to an inbound fax routing extension and its methods.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms690045(v=VS.85).aspx">LoggingOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690045(v=VS.85).aspx">LoggingOptions</a>
 
 
 </td>
@@ -272,7 +272,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms690045(v=VS.85).aspx">IFaxServer::get_LoggingOptions</a> property creates a <a href="https://msdn.microsoft.com/library/ms686873(v=VS.85).aspx">IFaxLoggingOptions</a> configuration interface. The interface permits configuration of both the activity logging options and the event logging categories that the fax service uses.
+The <a href="https://msdn.microsoft.com/en-us/library/ms690045(v=VS.85).aspx">IFaxServer::get_LoggingOptions</a> property creates a <a href="https://msdn.microsoft.com/en-us/library/ms686873(v=VS.85).aspx">IFaxLoggingOptions</a> configuration interface. The interface permits configuration of both the activity logging options and the event logging categories that the fax service uses.
 
 </td>
 </tr>
@@ -343,7 +343,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms688486(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms689567(v=VS.85).aspx">OutboundRouting</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689567(v=VS.85).aspx">OutboundRouting</a>
 
 
 </td>
@@ -352,14 +352,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms689567(v=VS.85).aspx">IFaxServer::get_OutboundRouting</a> property creates a <a href="https://msdn.microsoft.com/library/ms690138(v=VS.85).aspx">IFaxOutboundRouting</a> configuration interface. The interface permits users to configure outbound routing groups and rules.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689567(v=VS.85).aspx">IFaxServer::get_OutboundRouting</a> property creates a <a href="https://msdn.microsoft.com/en-us/library/ms690138(v=VS.85).aspx">IFaxOutboundRouting</a> configuration interface. The interface permits users to configure outbound routing groups and rules.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms690215(v=VS.85).aspx">ReceiptOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690215(v=VS.85).aspx">ReceiptOptions</a>
 
 
 </td>
@@ -368,7 +368,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms690215(v=VS.85).aspx">IFaxServer::get_ReceiptOptions</a> property creates a <a href="https://msdn.microsoft.com/library/ms690119(v=VS.85).aspx">IFaxReceiptOptions</a> configuration interface. The object permits a fax client application to set and retrieve the receipt configuration that the fax service uses to send fax receipts.
+The <a href="https://msdn.microsoft.com/en-us/library/ms690215(v=VS.85).aspx">IFaxServer::get_ReceiptOptions</a> property creates a <a href="https://msdn.microsoft.com/en-us/library/ms690119(v=VS.85).aspx">IFaxReceiptOptions</a> configuration interface. The object permits a fax client application to set and retrieve the receipt configuration that the fax service uses to send fax receipts.
 
 </td>
 </tr>
@@ -391,7 +391,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms688512(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms689081(v=VS.85).aspx">Security</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689081(v=VS.85).aspx">Security</a>
 
 
 </td>
@@ -400,7 +400,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms689081(v=VS.85).aspx">IFaxServer::get_Security</a> property creates a <a href="https://msdn.microsoft.com/library/ms689510(v=VS.85).aspx">IFaxSecurity</a> configuration interface. The interface permits the calling application to set and retrieve a security descriptor for the fax server.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689081(v=VS.85).aspx">IFaxServer::get_Security</a> property creates a <a href="https://msdn.microsoft.com/en-us/library/ms689510(v=VS.85).aspx">IFaxSecurity</a> configuration interface. The interface permits the calling application to set and retrieve a security descriptor for the fax server.
 
 </td>
 </tr>
@@ -427,7 +427,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687524(v=VS.85).aspx">IF
 
 
 
-A default implementation of <b>IFaxServer</b> is provided as the <a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a> object.
+A default implementation of <b>IFaxServer</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a> object.
 
 
 

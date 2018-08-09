@@ -7,7 +7,7 @@ old-location: ics\inetfwpolicy2_enablerulegroup.htm
 old-project: ics
 ms.assetid: fceb9562-b8de-4ccd-9d3e-4a4a4784a35f
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: EnableRuleGroup, EnableRuleGroup method [ICS/ICF], EnableRuleGroup method [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],EnableRuleGroup method, INetFwPolicy2.EnableRuleGroup, INetFwPolicy2::EnableRuleGroup, ics.inetfwpolicy2_enablerulegroup, netfw/INetFwPolicy2::EnableRuleGroup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ If this value is set to true (<b>VARIANT_TRUE</b>), the group of rules will be e
 
 
 <h3>C++</h3>
-
-						If the method succeeds the return value is S_OK.
+If the method succeeds the return value is S_OK.
 
 If the method fails, the return value is one of the following error codes.
 
@@ -128,8 +127,7 @@ The requested group does not exist.
  
 
 <h3>VB</h3>
-
-						If the method succeeds the return value is S_OK.
+If the method succeeds the return value is S_OK.
 
 If the method fails, the return value is one of the following error codes.
 

@@ -7,7 +7,7 @@ old-location: search\_search_IEnumSearchRoots_Next.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\next.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: IEnumSearchRoots interface [search],Next method, IEnumSearchRoots.Next, IEnumSearchRoots::Next, Next, Next method [search], Next method [search],IEnumSearchRoots interface, _search_IEnumSearchRoots_Next, search._search_IEnumSearchRoots_Next, searchapi/IEnumSearchRoots::Next
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Retrieves the specified number of <a href="https://msdn.microsoft.com/library/Bb266469(v=VS.85).aspx">ISearchRoot</a> elements.
+Retrieves the specified number of <a href="https://msdn.microsoft.com/en-us/library/Bb266469(v=VS.85).aspx">ISearchRoot</a> elements.
         
 
 
@@ -69,9 +69,9 @@ The number of elements to retrieve.
 
 ### -param rgelt [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb266469(v=VS.85).aspx">ISearchRoot</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb266469(v=VS.85).aspx">ISearchRoot</a>**</b>
 
-Retrieves a pointer to an array of <a href="https://msdn.microsoft.com/library/Bb266469(v=VS.85).aspx">ISearchRoot</a> elements.
+Retrieves a pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Bb266469(v=VS.85).aspx">ISearchRoot</a> elements.
 
 
 ### -param pceltFetched [in, out]

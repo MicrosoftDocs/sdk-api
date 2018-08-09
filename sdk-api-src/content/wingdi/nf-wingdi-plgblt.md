@@ -7,7 +7,7 @@ old-location: gdi\plgblt.htm
 old-project: gdi
 ms.assetid: 2a56c71b-2e96-418b-8625-a808d76e0c85
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PlgBlt, PlgBlt function [Windows GDI], _win32_PlgBlt, gdi.plgblt, wingdi/PlgBlt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,24 +77,24 @@ A pointer to an array of three points in logical space that identify three corne
 A handle to the source device context.
 
 
-### -param xSrc
+### -param xSrc [in]
 
-TBD
-
-
-### -param ySrc
-
-TBD
+The x-coordinate, in logical units, of the upper-left corner of the source rectangle.
 
 
-### -param width
+### -param ySrc [in]
 
-TBD
+The y-coordinate, in logical units, of the upper-left corner of the source rectangle.
 
 
-### -param height
+### -param width [in]
 
-TBD
+The width, in logical units, of the source rectangle.
+
+
+### -param height [in]
+
+The height, in logical units, of the source rectangle.
 
 
 ### -param hbmMask [in]
@@ -110,26 +110,6 @@ The x-coordinate, in logical units, of the upper-left corner of the monochrome b
 ### -param yMask [in]
 
 The y-coordinate, in logical units, of the upper-left corner of the monochrome bitmap.
-
-
-#### - nHeight [in]
-
-The height, in logical units, of the source rectangle.
-
-
-#### - nWidth [in]
-
-The width, in logical units, of the source rectangle.
-
-
-#### - nXSrc [in]
-
-The x-coordinate, in logical units, of the upper-left corner of the source rectangle.
-
-
-#### - nYSrc [in]
-
-The y-coordinate, in logical units, of the upper-left corner of the source rectangle.
 
 
 ## -returns

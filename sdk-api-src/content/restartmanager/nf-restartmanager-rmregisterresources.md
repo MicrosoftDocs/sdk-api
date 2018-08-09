@@ -4,10 +4,10 @@ title: RmRegisterResources function
 author: windows-sdk-content
 description: Registers resources to a Restart Manager session.
 old-location: rstmgr\rmregisterresources.htm
-old-project: RstMgr
+old-project: rstmgr
 ms.assetid: 9ac94461-bf75-4517-b47e-23d82474efe8
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: RmRegisterResources, RmRegisterResources function [Restart Mgr], restartmanager/RmRegisterResources, rstmgr.rmregisterresources
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,9 +69,9 @@ A handle to an existing Restart Manager session.
 The number of files being registered.
 
 
-### -param rgsFileNames
+### -param rgsFileNames [in, optional]
 
-TBD
+An array of <b>null</b>-terminated strings of full filename paths. This parameter can be <b>NULL</b> if <i>nFiles</i> is 0.
 
 
 ### -param nApplications [in]
@@ -92,11 +92,6 @@ The number of services to be registered.
 ### -param rgsServiceNames [in, optional]
 
 An array of <b>null</b>-terminated strings of service short names. This parameter can be <b>NULL</b> if <i>nServices</i> is 0.
-
-
-#### - rgsFilenames [in, optional]
-
-An array of <b>null</b>-terminated strings of full filename paths. This parameter can be <b>NULL</b> if <i>nFiles</i> is 0.
 
 
 ## -returns

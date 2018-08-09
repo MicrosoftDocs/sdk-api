@@ -7,7 +7,7 @@ old-location: stg\stgcreatepropsetstg.htm
 old-project: stg
 ms.assetid: 0113b29d-23aa-4590-b8ac-33789a7a2ed4
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: StgCreatePropSetStg, StgCreatePropSetStg function [Structured Storage], _stg_stgcreatepropsetstg, coml2api/StgCreatePropSetStg, stg.stgcreatepropsetstg
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>StgCreatePropSetStg</b> function creates a property set storage object from a specified storage object. The property set storage object supplies the system-provided, stand-alone implementation of the 
+The <b>StgCreatePropSetStg</b> function creates a property set storage object from a specified storage object. The property set storage object supplies the system-provided, stand-alone implementation of the 
 <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface.
 
 
@@ -98,7 +97,7 @@ The
 <b>IStorage</b> by itself, although subsequent calls to the 
 <b>IPropertySetStorage</b> interface might.
 
-<b>StgCreatePropSetStg</b> calls <a href="https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx">IUnknown::AddRef</a> on the storage object specified by <i>pStorage</i>. The caller must release the object when it is no longer required by calling <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">Release</a>.
+<b>StgCreatePropSetStg</b> calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">IUnknown::AddRef</a> on the storage object specified by <i>pStorage</i>. The caller must release the object when it is no longer required by calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a>.
 
 
 #### Examples

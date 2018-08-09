@@ -7,7 +7,7 @@ old-location: winmsg\makelresult.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\makelresult.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MAKELRESULT, MAKELRESULT macro [Windows and Messages], _win32_MAKELRESULT, _win32_makelresult_cpp, winmsg.makelresult, winui._win32_makelresult, winuser/MAKELRESULT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,26 +61,12 @@ Creates a value for use as a return value from a window procedure. The macro con
 
 ### -param l
 
-TBD
+The low-order word of the new value. 
 
 
 ### -param h
 
-TBD
-
-
-
-
-
-
-#### - wHigh
-
 The high-order word of the new value. 
-
-
-#### - wLow
-
-The low-order word of the new value. 
 
 
 ## -see-also

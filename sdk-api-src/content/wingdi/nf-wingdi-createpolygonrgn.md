@@ -7,7 +7,7 @@ old-location: gdi\createpolygonrgn.htm
 old-project: gdi
 ms.assetid: dd7ad6de-c5f2-46e4-8d28-24caaa48ba3a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ALTERNATE, CreatePolygonRgn, CreatePolygonRgn function [Windows GDI], WINDING, _win32_CreatePolygonRgn, gdi.createpolygonrgn, wingdi/CreatePolygonRgn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,29 +61,17 @@ The <b>CreatePolygonRgn</b> function creates a polygonal region.
 
 
 
-### -param pptl
+### -param pptl [in]
 
-TBD
-
-
-### -param cPoint
-
-TBD
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures that define the vertices of the polygon in logical units. The polygon is presumed closed. Each vertex can be specified only once.
 
 
-### -param iMode
-
-TBD
-
-
-
-
-#### - cPoints [in]
+### -param cPoint [in]
 
 The number of points in the array.
 
 
-#### - fnPolyFillMode [in]
+### -param iMode [in]
 
 The fill mode used to determine which pixels are in the region. This parameter can be one of the following values.
 
@@ -116,11 +104,6 @@ Selects winding mode (fills any region with a nonzero winding value).
  
 
 For more information about these modes, see the <a href="https://msdn.microsoft.com/233926c4-2658-405d-89b6-05ece844623d">SetPolyFillMode</a> function.
-
-
-#### - lppt [in]
-
-A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures that define the vertices of the polygon in logical units. The polygon is presumed closed. Each vertex can be specified only once.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: tagSoHAttribute
 author: windows-sdk-content
 description: Defines the SoH protocol between the SHA/SHV and the NAP system.
 old-location: nap\sohattribute_struct.htm
-old-project: NAP
+old-project: nap
 ms.assetid: cd954277-27e0-47f4-b4c3-f5335925b8fd
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: SoHAttribute, SoHAttribute structure [NAP], nap.sohattribute_struct, naptypes/SoHAttribute, tagSoHAttribute
 ms.prod: windows
 ms.technology: windows-sdk

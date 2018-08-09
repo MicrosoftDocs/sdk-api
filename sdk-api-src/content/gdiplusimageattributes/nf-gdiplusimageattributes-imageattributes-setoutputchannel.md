@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetOutputChannel_channelFla
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setoutputchannel.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: ImageAttributes class [GDI+],SetOutputChannel method, ImageAttributes.SetOutputChannel, ImageAttributes::SetOutputChannel, SetOutputChannel, SetOutputChannel method [GDI+], SetOutputChannel method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_SetOutputChannel_channelFlags_type_, gdiplus._gdiplus_CLASS_ImageAttributes_SetOutputChannel_channelFlags_type_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,16 +61,16 @@ The <b>ImageAttributes::SetOutputChannel</b> method sets the CMYK output channel
 
 ### -param channelFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534090(v=VS.85).aspx">ColorChannelFlags</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534090(v=VS.85).aspx">ColorChannelFlags</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/library/ms534090(v=VS.85).aspx">ColorChannelFlags</a> enumeration that specifies the output channel. 
+Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534090(v=VS.85).aspx">ColorChannelFlags</a> enumeration that specifies the output channel. 
 
 
 ### -param type [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534089(v=VS.85).aspx">ColorAdjustType</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534089(v=VS.85).aspx">ColorAdjustType</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/library/ms534089(v=VS.85).aspx">ColorAdjustType</a> enumeration that specifies the category for which the output channel is set. The default value is <a href="https://msdn.microsoft.com/library/ms534089(v=VS.85).aspx">ColorAdjustTypeDefault</a>. 
+Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534089(v=VS.85).aspx">ColorAdjustType</a> enumeration that specifies the category for which the output channel is set. The default value is <a href="https://msdn.microsoft.com/en-us/library/ms534089(v=VS.85).aspx">ColorAdjustTypeDefault</a>. 
 
 
 ## -returns
@@ -80,7 +80,7 @@ Element of the <a href="https://msdn.microsoft.com/library/ms534089(v=VS.85).asp
 Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a></b>
 </strong>
 
-If the method succeeds, it returns <a href="https://msdn.microsoft.com/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the <b>Status</b> enumeration.
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the <b>Status</b> enumeration.
 
 If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> enumeration.
 
@@ -91,20 +91,20 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-You can use the <b>ImageAttributes::SetOutputChannel</b> method to convert an image to a cyan-magenta-yellow-black (CMYK) color space and examine the intensities of one of the CMYK color channels. For example, suppose you create an <a href="https://msdn.microsoft.com/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object and set its bitmap output channel to <a href="https://msdn.microsoft.com/library/ms534090(v=VS.85).aspx">ColorChannelFlagsC</a>. If you pass the address of that <b>ImageAttributes</b> object to the <a href="https://msdn.microsoft.com/library/ms536037(v=VS.85).aspx">DrawImage</a> method, the cyan component of each pixel is calculated, and each pixel in the rendered image is a shade of gray that indicates the intensity of its cyan channel. Similarly, you can render images that indicate the intensities of the magenta, yellow, and black channels.
+You can use the <b>ImageAttributes::SetOutputChannel</b> method to convert an image to a cyan-magenta-yellow-black (CMYK) color space and examine the intensities of one of the CMYK color channels. For example, suppose you create an <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object and set its bitmap output channel to <a href="https://msdn.microsoft.com/en-us/library/ms534090(v=VS.85).aspx">ColorChannelFlagsC</a>. If you pass the address of that <b>ImageAttributes</b> object to the <a href="https://msdn.microsoft.com/en-us/library/ms536037(v=VS.85).aspx">DrawImage</a> method, the cyan component of each pixel is calculated, and each pixel in the rendered image is a shade of gray that indicates the intensity of its cyan channel. Similarly, you can render images that indicate the intensities of the magenta, yellow, and black channels.
 
-An <a href="https://msdn.microsoft.com/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object maintains color and grayscale settings for five adjustment categories: default, bitmap, brush, pen, and text. For example, you can specify an output channel for the default category and a different output channel for the bitmap category.
+An <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object maintains color and grayscale settings for five adjustment categories: default, bitmap, brush, pen, and text. For example, you can specify an output channel for the default category and a different output channel for the bitmap category.
 
 The default color- and grayscale-adjustment settings apply to all categories that don't have adjustment settings of their own. For example, if you never specify any adjustment settings for the bitmap category, then the default settings apply to the bitmap category.
 
-As soon as you specify a color- or grayscale-adjustment setting for a certain category, the default adjustment settings no longer apply to that category. For example, suppose you specify a collection of adjustment settings for the default category. If you set the output channel for the bitmap category by passing <a href="https://msdn.microsoft.com/library/ms534089(v=VS.85).aspx">ColorAdjustTypeBitmap</a> to the <b>ImageAttributes::SetOutputChannel</b> method, then none of the default adjustment settings will apply to bitmaps.
+As soon as you specify a color- or grayscale-adjustment setting for a certain category, the default adjustment settings no longer apply to that category. For example, suppose you specify a collection of adjustment settings for the default category. If you set the output channel for the bitmap category by passing <a href="https://msdn.microsoft.com/en-us/library/ms534089(v=VS.85).aspx">ColorAdjustTypeBitmap</a> to the <b>ImageAttributes::SetOutputChannel</b> method, then none of the default adjustment settings will apply to bitmaps.
 
 
 #### Examples
 
 
 
-The following example creates an <a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a> object and calls the <a href="https://msdn.microsoft.com/library/ms536037(v=VS.85).aspx">DrawImage</a> method to draw the image. Then the code creates an <a href="https://msdn.microsoft.com/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object and sets its bitmap output channel to cyan (<a href="https://msdn.microsoft.com/library/ms534090(v=VS.85).aspx">ColorChannelFlagsC</a>). The code calls <a href="https://msdn.microsoft.com/library/ms536030(v=VS.85).aspx">DrawImage</a> a second time, passing the address of the <b>Image</b> object and the address of the <b>ImageAttributes</b> object. The cyan channel of each pixel is calculated, and the rendered image shows the intensities of the cyan channel as shades of gray. The code calls <b>DrawImage</b> three more times to show the intensities of the magenta, yellow, and black channels.
+The following example creates an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object and calls the <a href="https://msdn.microsoft.com/en-us/library/ms536037(v=VS.85).aspx">DrawImage</a> method to draw the image. Then the code creates an <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object and sets its bitmap output channel to cyan (<a href="https://msdn.microsoft.com/en-us/library/ms534090(v=VS.85).aspx">ColorChannelFlagsC</a>). The code calls <a href="https://msdn.microsoft.com/en-us/library/ms536030(v=VS.85).aspx">DrawImage</a> a second time, passing the address of the <b>Image</b> object and the address of the <b>ImageAttributes</b> object. The cyan channel of each pixel is calculated, and the rendered image shows the intensities of the cyan channel as shades of gray. The code calls <b>DrawImage</b> three more times to show the intensities of the magenta, yellow, and black channels.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -180,27 +180,27 @@ The following illustration shows the output of the preceding code.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534089(v=VS.85).aspx">ColorAdjustType</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534089(v=VS.85).aspx">ColorAdjustType</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534090(v=VS.85).aspx">ColorChannelFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534090(v=VS.85).aspx">ColorChannelFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534464(v=VS.85).aspx">ImageAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535420(v=VS.85).aspx">ImageAttributes::ClearOutputChannel</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535420(v=VS.85).aspx">ImageAttributes::ClearOutputChannel</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535421(v=VS.85).aspx">ImageAttributes::ClearOutputChannelColorProfile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535421(v=VS.85).aspx">ImageAttributes::ClearOutputChannelColorProfile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535435(v=VS.85).aspx">ImageAttributes::SetOutputChannelColorProfile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535435(v=VS.85).aspx">ImageAttributes::SetOutputChannelColorProfile</a>
  
 
  

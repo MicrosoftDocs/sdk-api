@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore.htm
 old-project: WMP
 ms.assetid: 24fbb34d-4a5e-4a00-85fc-9659a31dc650
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], IWMPCore interface [Windows Media Player],described, IWMPCoreInterface, wmp.iwmpcore, wmp/IWMPCore
 ms.prod: windows
 ms.technology: windows-sdk

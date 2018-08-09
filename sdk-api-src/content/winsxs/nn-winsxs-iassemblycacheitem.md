@@ -4,10 +4,10 @@ title: IAssemblyCacheItem
 author: windows-sdk-content
 description: The IAssemblyCacheItem interface can be used to install side-by-side assemblies into the side-by-side store using a stream-based installation.
 old-location: setup\iassemblycacheitem.htm
-old-project: SbsCs
+old-project: sbscs
 ms.assetid: 9df9ee58-0354-49f0-af9c-5b92179cfaea
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IAssemblyCacheItem, IAssemblyCacheItem interface [Side-by-side Assemblies], IAssemblyCacheItem interface [Side-by-side Assemblies],described, setup.iassemblycacheitem, winsxs/IAssemblyCacheItem
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: iphlp\getipstatisticsex.htm
 old-project: iphlp
 ms.assetid: da9143cd-ccc9-4229-aa1e-d9949bbcb736
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: AF_INET, AF_INET6, GetIpStatisticsEx, GetIpStatisticsEx function [IP Helper], _iphlp_getipstatisticsex, iphlp.getipstatisticsex, iphlpapi/GetIpStatisticsEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,19 +63,13 @@ The
 
 
 
-### -param Statistics
+### -param Statistics [out]
 
-TBD
-
-
-### -param Family
-
-TBD
+A pointer to a 
+<a href="https://msdn.microsoft.com/920e71b6-247c-4442-9f66-704a6c878feb">MIB_IPSTATS</a> structure that receives the IP statistics for the local computer.
 
 
-
-
-#### - dwFamily [in]
+### -param Family [in]
 
 The protocol family for which to retrieve statistics. This parameter must be one of the following values: 
 
@@ -108,12 +102,6 @@ Internet Protocol version 6 (IPv6).
 </tr>
 </table>
  
-
-
-#### - pStats [out]
-
-A pointer to a 
-<a href="https://msdn.microsoft.com/920e71b6-247c-4442-9f66-704a6c878feb">MIB_IPSTATS</a> structure that receives the IP statistics for the local computer.
 
 
 ## -returns

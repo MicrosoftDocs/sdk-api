@@ -7,7 +7,7 @@ old-location: http\httpsetrequestqueueproperty.htm
 old-project: http
 ms.assetid: 56111cc0-94c8-47dc-a3bb-ffc5dae772fe
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpServer503VerbosityProperty, HttpServerQueueLengthProperty, HttpServerStateProperty, HttpSetRequestQueueProperty, HttpSetRequestQueueProperty function [HTTP], http.httpsetrequestqueueproperty, http/HttpSetRequestQueueProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,10 @@ The <b>HttpSetRequestQueueProperty</b> function sets a new property or modifies 
 
 
 
-### -param RequestQueueHandle
+### -param RequestQueueHandle [in]
 
-TBD
+The handle to the request queue on which the property is set. A request queue is created and its handle returned by a call to the 
+<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
 
 
 ### -param Property [in]
@@ -108,40 +109,7 @@ Modifies or sets the  state of the request queue. The state must be either activ
  
 
 
-### -param PropertyInformation
-
-TBD
-
-
-### -param PropertyInformationLength [in]
-
-The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i> parameter.
-
-
-### -param Reserved1
-
-TBD
-
-
-### -param Reserved2
-
-TBD
-
-
-
-
-#### - Handle [in]
-
-The handle to the request queue on which the property is set. A request queue is created and its handle returned by a call to the 
-<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
-
-
-#### - Reserved [in]
-
-Reserved. Must be zero.
-
-
-#### - pPropertyInformation [in]
+### -param PropertyInformation [in]
 
 A pointer to the buffer that contains the property information.
 
@@ -170,7 +138,17 @@ A pointer to the buffer that contains the property information.
 
 
 
-#### - pReserved [in]
+### -param PropertyInformationLength [in]
+
+The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i> parameter.
+
+
+### -param Reserved1 [in]
+
+Reserved. Must be zero.
+
+
+### -param Reserved2 [in]
 
 Reserved. Must be <b>NULL</b>.
 

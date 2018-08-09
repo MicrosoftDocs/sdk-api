@@ -7,7 +7,7 @@ old-location: opc\iopccertificateenumerator.htm
 old-project: OPC
 ms.assetid: a66ad728-9d20-44d9-a363-1d2a7927d810
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcCertificateEnumerator, IOpcCertificateEnumerator interface [Open Packaging Conventions], IOpcCertificateEnumerator interface [Open Packaging Conventions],described, msopc/IOpcCertificateEnumerator, opc.iopccertificateenumerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,8 +113,7 @@ Moves the current position of the enumerator to the previous <a href="http://msd
 
 
 
-When an enumerator is created, the current position precedes the first pointer of the enumerator. To set the current position to the first pointer, call the  <a href="https://msdn.microsoft.com/81918b97-0d10-4d7c-aaad-fc886d55e664">MoveNext</a>
-          method after the enumerator is created.
+When an enumerator is created, the current position precedes the first pointer of the enumerator. To set the current position to the first pointer, call the  <a href="https://msdn.microsoft.com/81918b97-0d10-4d7c-aaad-fc886d55e664">MoveNext</a>method after the enumerator is created.
 
 Changes to the set will invalidate the enumerator and all subsequent calls to it will fail.
 

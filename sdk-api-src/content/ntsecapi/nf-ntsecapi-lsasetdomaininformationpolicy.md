@@ -2,12 +2,12 @@
 UID: NF:ntsecapi.LsaSetDomainInformationPolicy
 title: LsaSetDomainInformationPolicy function
 author: windows-sdk-content
-description: Sets domain information to the Policy object.
+description: Sets domain information to the Policyobject.
 old-location: security\lsasetdomaininformationpolicy.htm
 old-project: secauthn
 ms.assetid: 77af6fdc-a52e-476c-9de2-36ee48133a87
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: LsaSetDomainInformationPolicy, LsaSetDomainInformationPolicy function [Security], PolicyDomainEfsInformation, PolicyDomainKerberosTicketInformation, ntsecapi/LsaSetDomainInformationPolicy, security.lsasetdomaininformationpolicy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>LsaSetDomainInformationPolicy</b> function sets domain information to the  <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a>
-    object.
+The <b>LsaSetDomainInformationPolicy</b> function sets domain information to the  <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a>object.
 
 
 ## -parameters
@@ -68,8 +67,7 @@ A handle to the <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e
 ### -param InformationClass [in]
 
 
-<a href="https://msdn.microsoft.com/b208c479-a262-4120-824f-677ead1ef61a">POLICY_DOMAIN_INFORMATION_CLASS</a> enumeration that specifies the information to be set to the  <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a>
-    object. The following table shows the possible values.
+<a href="https://msdn.microsoft.com/b208c479-a262-4120-824f-677ead1ef61a">POLICY_DOMAIN_INFORMATION_CLASS</a> enumeration that specifies the information to be set to the  <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a>object. The following table shows the possible values.
 
 <table>
 <tr>
@@ -102,8 +100,7 @@ The information is for a Kerberos ticket.
 
 ### -param Buffer [in]
 
-Pointer to a buffer that contains  the  information to set to the  <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a>
-    object.
+Pointer to a buffer that contains  the  information to set to the  <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a>object.
 
 
 ## -returns
@@ -143,8 +140,7 @@ The policy database is
 
 
 
-The POLICY_TRUST_ADMIN access type is required to set domain information to the  <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a>
-    object. For more information, see <a href="https://msdn.microsoft.com/592dea65-9da1-4e49-82e4-8e08c451e026">Policy Object Access Rights</a>.
+The POLICY_TRUST_ADMIN access type is required to set domain information to the  <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a>object. For more information, see <a href="https://msdn.microsoft.com/592dea65-9da1-4e49-82e4-8e08c451e026">Policy Object Access Rights</a>.
 
 
 

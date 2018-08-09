@@ -7,7 +7,7 @@ old-location: wmp\iwmpclosedcaption2_getsamilangid.htm
 old-project: WMP
 ms.assetid: c17418ce-d653-43b3-9702-62c049eecdfc
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPClosedCaption2 interface [Windows Media Player],getSAMILangID method, IWMPClosedCaption2.getSAMILangID, IWMPClosedCaption2::getSAMILangID, IWMPClosedCaption2getSAMILangID, getSAMILangID, getSAMILangID method [Windows Media Player], getSAMILangID method [Windows Media Player],IWMPClosedCaption2 interface, wmp.iwmpclosedcaption2_getsamilangid, wmp/IWMPClosedCaption2::getSAMILangID
 ms.prod: windows
 ms.technology: windows-sdk

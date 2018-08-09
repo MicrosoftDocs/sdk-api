@@ -7,7 +7,7 @@ old-location: mscs\clusversion_majorversion.htm
 old-project: mscs
 ms.assetid: f4d81e0a-4f65-470b-9215-f1b91e582646
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusVersion object [Failover Cluster],MajorVersion property, ClusVersion.MajorVersion, ISClusVersion.get_MajorVersion, ISClusVersion::get_MajorVersion, MajorVersion property [Failover Cluster], MajorVersion property [Failover Cluster],ClusVersion object, _wolf_clusversion.majorversion, get_MajorVersion, mscs.clusversion_majorversion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ This property is read-only.
 
 The <b>MajorVersion</b> and 
     <a href="https://msdn.microsoft.com/c335922c-ac62-4b37-bafb-b29d58545c85">ClusVersion.MinorVersion</a> properties together 
-    form a complete Windows <a href="https://msdn.microsoft.com/library/ms691788(v=VS.85).aspx">version number</a>.
+    form a complete Windows <a href="https://msdn.microsoft.com/en-us/library/Aa373122(v=VS.85).aspx">version number</a>.
 
 <div class="code"><span codelanguage="VisualBasic"><table>
 <tr>

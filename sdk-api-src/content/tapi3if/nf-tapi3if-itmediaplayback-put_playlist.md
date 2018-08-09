@@ -4,10 +4,10 @@ title: ITMediaPlayback::put_PlayList
 author: windows-sdk-content
 description: The put_PlayList method provides the file playback terminal with the list of files to play.
 old-location: tapi3\itmediaplayback_put_playlist.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 685712ef-100f-4f8d-9b1f-c43170c0f197
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITMediaPlayback interface [TAPI 2.2],put_PlayList method, ITMediaPlayback.put_PlayList, ITMediaPlayback::put_PlayList, _tapi3_itmediaplayback_put_playlist, put_PlayList, put_PlayList method [TAPI 2.2], put_PlayList method [TAPI 2.2],ITMediaPlayback interface, tapi3.itmediaplayback_put_playlist, tapi3if/ITMediaPlayback::put_PlayList
 ms.prod: windows
 ms.technology: windows-sdk

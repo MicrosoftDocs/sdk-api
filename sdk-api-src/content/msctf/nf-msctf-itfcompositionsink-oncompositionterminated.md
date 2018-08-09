@@ -7,7 +7,7 @@ old-location: tsf\itfcompositionsink_oncompositionterminated.htm
 old-project: TSF
 ms.assetid: 4b7c3993-6d01-492f-9bb5-241a1cbd4b63
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfCompositionSink interface [Text Services Framework],OnCompositionTerminated method, ITfCompositionSink.OnCompositionTerminated, ITfCompositionSink::OnCompositionTerminated, OnCompositionTerminated, OnCompositionTerminated method [Text Services Framework], OnCompositionTerminated method [Text Services Framework],ITfCompositionSink interface, _tsf_itfcompositionsink_oncompositionterminated_ref, msctf/ITfCompositionSink::OnCompositionTerminated, tsf.itfcompositionsink_oncompositionterminated
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,8 +91,7 @@ There is no required action for the TSF text service when this method is called.
 
 
 
-<a href="https://msdn.microsoft.com/b1eb5782-13e3-4cbb-8c37-ce7219d1e838">
-        ITfComposition
+<a href="https://msdn.microsoft.com/b1eb5782-13e3-4cbb-8c37-ce7219d1e838">ITfComposition
       </a>
 
 
@@ -106,8 +105,7 @@ There is no required action for the TSF text service when this method is called.
 
 
 
-<a href="https://msdn.microsoft.com/1de17286-5d56-4302-a144-5fe6ca7d5557">
-        TfEditCookie
+<a href="https://msdn.microsoft.com/1de17286-5d56-4302-a144-5fe6ca7d5557">TfEditCookie
       </a>
  
 

@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritembitmapbutton_initmenu.htm
 old-project: TSF
 ms.assetid: 0f34f488-729b-42d3-9a24-85b3f95607ec
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfLangBarItemBitmapButton interface [Text Services Framework],InitMenu method, ITfLangBarItemBitmapButton.InitMenu, ITfLangBarItemBitmapButton::InitMenu, InitMenu, InitMenu method [Text Services Framework], InitMenu method [Text Services Framework],ITfLangBarItemBitmapButton interface, _tsf_itflangbaritembitmapbutton_initmenu_ref, ctfutb/ITfLangBarItemBitmapButton::InitMenu, tsf.itflangbaritembitmapbutton_initmenu
 ms.prod: windows
 ms.technology: windows-sdk

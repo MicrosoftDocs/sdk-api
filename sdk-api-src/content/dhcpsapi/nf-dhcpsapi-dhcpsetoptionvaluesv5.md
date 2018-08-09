@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetoptionvaluesv5.htm
 old-project: dhcp
 ms.assetid: 53549094-d642-4635-9dd6-5ce16d6be08a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpSetOptionValuesV5, DhcpSetOptionValuesV5 function [DHCP], dhcp.dhcpsetoptionvaluesv5, dhcpsapi/DhcpSetOptionValuesV5
 ms.prod: windows
 ms.technology: windows-sdk
@@ -174,13 +174,11 @@ The caller of this function must release the memory pointed to by <i>OptionValue
 
 
 
-<a href="https://msdn.microsoft.com/91d4d678-f0c5-4081-9302-0d08c8994692">
-        DHCP_OPTION_SCOPE_INFO</a>
+<a href="https://msdn.microsoft.com/91d4d678-f0c5-4081-9302-0d08c8994692">DHCP_OPTION_SCOPE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/c68b9543-0d7a-46ab-babd-3868c1338d67">
-        DHCP_OPTION_VALUE_ARRAY</a>
+<a href="https://msdn.microsoft.com/c68b9543-0d7a-46ab-babd-3868c1338d67">DHCP_OPTION_VALUE_ARRAY</a>
 
 
 

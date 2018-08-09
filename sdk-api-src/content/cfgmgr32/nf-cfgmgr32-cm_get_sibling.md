@@ -7,7 +7,7 @@ old-location: devinst\cm_get_sibling.htm
 old-project: devinst
 ms.assetid: ac3b7bca-1504-465a-8dcf-dcde9da686a9
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: CM_Get_Sibling, CM_Get_Sibling function [Device and Driver Installation], cfgmgr32/CM_Get_Sibling, cfgmgrfn_cc0cd494-9629-4915-a0b3-e634516eb62f.xml, devinst.cm_get_sibling
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,19 +65,14 @@ The <b>CM_Get_Sibling</b> function obtains a device instance handle to the next 
 Caller-supplied pointer to the device instance handle to the sibling node that this function retrieves. The retrieved handle is bound to the local machine.
 
 
-### -param dnDevInst
+### -param dnDevInst [in]
 
-TBD
+Caller-supplied device instance handle that is bound to the local machine.
 
 
 ### -param ulFlags [in]
 
 Not used, must be zero.
-
-
-#### - DevInst [in]
-
-Caller-supplied device instance handle that is bound to the local machine.
 
 
 ## -returns

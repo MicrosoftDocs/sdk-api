@@ -7,7 +7,7 @@ old-location: fwp\ipsec_auth_transform_id0_struct.htm
 old-project: fwp
 ms.assetid: b8474e98-451d-4347-9369-367f16f83cf6
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPSEC_AUTH_CONFIG_GCM_AES_128, IPSEC_AUTH_CONFIG_GCM_AES_192, IPSEC_AUTH_CONFIG_GCM_AES_256, IPSEC_AUTH_CONFIG_HMAC_MD5_96, IPSEC_AUTH_CONFIG_HMAC_SHA_1_96, IPSEC_AUTH_CONFIG_HMAC_SHA_256_128, IPSEC_AUTH_TRANSFORM_ID0, IPSEC_AUTH_TRANSFORM_ID0 structure [Filtering], IPSEC_AUTH_TRANSFORM_ID0_, fwp.ipsec_auth_transform_id0_struct, ipsectypes/IPSEC_AUTH_TRANSFORM_ID0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-		The <b>IPSEC_AUTH_TRANSFORM_ID0</b> structure is used to uniquely identify the hash algorithm used in an IPsec security association (SA).
+The <b>IPSEC_AUTH_TRANSFORM_ID0</b> structure is used to uniquely identify the hash algorithm used in an IPsec security association (SA).
 
 
 ## -struct-fields

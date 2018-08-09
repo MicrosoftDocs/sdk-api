@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservice_getserviceobjectid.htm
 old-project: wpd_sdk
 ms.assetid: f86907c4-5d8a-4659-ab57-3c235face8cf
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: GetServiceObjectID, GetServiceObjectID method [Windows Portable Devices SDK], GetServiceObjectID method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],GetServiceObjectID method, IPortableDeviceService.GetServiceObjectID, IPortableDeviceService::GetServiceObjectID, portabledeviceapi/IPortableDeviceService::GetServiceObjectID, wpdsdk.iportabledeviceservice_getserviceobjectid
 ms.prod: windows
 ms.technology: windows-sdk

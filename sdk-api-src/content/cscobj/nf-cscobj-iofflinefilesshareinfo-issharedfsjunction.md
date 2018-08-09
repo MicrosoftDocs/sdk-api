@@ -7,7 +7,7 @@ old-location: of\iofflinefilesshareinfo_issharedfsjunction.htm
 old-project: offlinefiles
 ms.assetid: fdb29270-2fe5-4313-afd9-c21b82b1949a
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesShareInfo interface [Offline Files],IsShareDfsJunction method, IOfflineFilesShareInfo.IsShareDfsJunction, IOfflineFilesShareInfo::IsShareDfsJunction, IsShareDfsJunction, IsShareDfsJunction method [Offline Files], IsShareDfsJunction method [Offline Files],IOfflineFilesShareInfo interface, cscobj/IOfflineFilesShareInfo::IsShareDfsJunction, of.iofflinefilesshareinfo_issharedfsjunction
 ms.prod: windows
 ms.technology: windows-sdk

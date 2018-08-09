@@ -137,7 +137,7 @@ This method is used to add a column for string properties.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms670054(v=VS.85).aspx">IITResultSet</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670054(v=VS.85).aspx">IITResultSet</a>
  
 
  

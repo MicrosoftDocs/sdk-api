@@ -7,7 +7,7 @@ old-location: fs\setntmsobjectattribute.htm
 old-project: Rsm
 ms.assetid: ce572b2a-f4c3-4cf3-8bb3-074ba3d1ec30
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: SetNtmsObjectAttribute, SetNtmsObjectAttribute function [Files], SetNtmsObjectAttributeA, SetNtmsObjectAttributeW, _zaw_setntmsobjectattribute, base.setntmsobjectattribute, fs.setntmsobjectattribute, ntmsapi/SetNtmsObjectAttribute, ntmsapi/SetNtmsObjectAttributeA, ntmsapi/SetNtmsObjectAttributeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,14 @@ Name of the extended attribute to be created.
 User-defined data.
 
 
-### -param dwAttributeSize [in]
+### -param dwAttributeSize
+
+TBD
+
+
+
+
+#### - AttributeSize [in]
 
 Size of the <i>lpAttributeData</i> buffer, in bytes.
 
@@ -316,7 +323,7 @@ The following is the list of objects that require special access rights.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Object Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Object Management Functions</a>
  
 
  

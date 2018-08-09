@@ -7,7 +7,7 @@ old-location: eaphost\eap_type.htm
 old-project: eaphost
 ms.assetid: 383f1e11-2e40-45e6-8c55-a23d1b8eb71f
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EAP_TYPE, EAP_TYPE structure [EAPHost], _EAP_TYPE, eaphost.eap_type, eaptypes/EAP_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

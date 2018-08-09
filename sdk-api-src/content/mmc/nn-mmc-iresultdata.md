@@ -7,7 +7,7 @@ old-location: mmc\iresultdata.htm
 old-project: MMC
 ms.assetid: 58f8bcdb-b062-4048-92fc-eb652ce62c5b
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: IResultData, IResultData interface [MMC], IResultData interface [MMC],described, _slate_iresultdata, mmc.iresultdata, mmc/IResultData
 ms.prod: windows
 ms.technology: windows-sdk

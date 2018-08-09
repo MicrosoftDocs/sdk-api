@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_FontFamily_IsAvailable_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\isavailable_5.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: FontFamily class [GDI+],IsAvailable method, FontFamily.IsAvailable, FontFamily::IsAvailable, IsAvailable, IsAvailable method [GDI+], IsAvailable method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_IsAvailable_, gdiplus._gdiplus_CLASS_FontFamily_IsAvailable_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>FontFamily::IsAvailable</b> method determines whether this <a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a> object was created successfully.
+The <b>FontFamily::IsAvailable</b> method determines whether this <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> object was created successfully.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ The <b>FontFamily::IsAvailable</b> method determines whether this <a href="https
 Type: <strong>Type: <b>BOOL</b>
 </strong>
 
-If this <a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a> object was created successfully, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+If this <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> object was created successfully, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
 
 
@@ -78,15 +78,15 @@ If this <a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">Font
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533819(v=VS.85).aspx">Constructing Font Families and Fonts</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533819(v=VS.85).aspx">Constructing Font Families and Fonts</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536178(v=VS.85).aspx">FontFamily::GetLastStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536178(v=VS.85).aspx">FontFamily::GetLastStatus</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_initialoriginy.htm
 old-project: wintouch
 ms.assetid: 4b817f8b-79e9-4409-a6b2-2096759bab59
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/06/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialOriginY property, IInertiaProcessor.InitialOriginY, IInertiaProcessor.get_InitialOriginY, IInertiaProcessor::InitialOriginY, IInertiaProcessor::get_InitialOriginY, IInertiaProcessor::put_InitialOriginY, InitialOriginY property [Windows Touch], InitialOriginY property [Windows Touch],IInertiaProcessor interface, get_InitialOriginY, manipulations/IInertiaProcessor::InitialOriginY, manipulations/IInertiaProcessor::get_InitialOriginY, manipulations/IInertiaProcessor::put_InitialOriginY, wintouch.iinertiaprocessor_initialoriginy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,16 +65,14 @@ This property is read/write.
 
 
 
-
-	 A user can manipulate an object to set the <b>InitialOriginY</b> to be outside of the elastic bounds.
+A user can manipulate an object to set the <b>InitialOriginY</b> to be outside of the elastic bounds.
 	 Setting <b>InitialOriginY</b> to a value outside of the elastic bounds will cause an exception to be thrown.
 	 To prevent  users from setting the origin out of bounds, check that <b>InitialOriginY</b> is valid before setting it 
 	 on an <a href="https://msdn.microsoft.com/8dc171eb-0c6e-41dd-b506-5f91ea703a53">IInertiaProcessor</a> interface.	 If Inertia processing has already started, calling put_InitialOriginY() 
 	 will reset the inertia state to initial time stamp.
 	 
 
-
-        All locations used for the inertia and manipulation processor are relative. If you want to use screen coordinates, 
+All locations used for the inertia and manipulation processor are relative. If you want to use screen coordinates, 
 		  you pass screen coordinates to the manipulation (or inertia) processor; if you want to use absolute coordinates, you 
 		  pass those into the processor you are using. 	 
 	 

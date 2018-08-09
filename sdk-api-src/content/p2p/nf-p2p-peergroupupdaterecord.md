@@ -7,7 +7,7 @@ old-location: p2p\peergroupupdaterecord.htm
 old-project: p2psdk
 ms.assetid: bfff0422-452c-4780-8df7-d3e8d5ad385c
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGroupUpdateRecord, PeerGroupUpdateRecord function [Peer Networking], p2p.peergroupupdaterecord, p2p/PeerGroupUpdateRecord
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGroupUpdateRecord</b> function updates a record within a specific peer group.
+The <b>PeerGroupUpdateRecord</b> function updates a record within a specific peer group.
 
 
 ## -parameters

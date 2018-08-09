@@ -4,10 +4,10 @@ title: PERF_MEM_ALLOC
 author: windows-sdk-content
 description: Providers implement this function to provide custom memory management for PERFLIB.
 old-location: perf\allocatememory.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 09af7e56-2174-4a82-b45b-59f4180e4aab
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: AllocateMemory, AllocateMemory callback function [Perf], PERF_MEM_ALLOC, PERF_MEM_ALLOC callback, perf.allocatememory, perflib/AllocateMemory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Providers implement this function to provide custom memory management for PERFLIB. PERFLIB calls this callback when it needs to allocate memory. By default, PERFLIB uses the process heap to allocate memory.
+Providers implement this function to provide custom memory management for PERFLIB. PERFLIB calls this callback when it needs to allocate memory. By default, PERFLIB uses the process heap to allocate memory.
 
 The <b>PERF_MEM_ALLOC</b> type defines a pointer to this callback function. The <b>AllocateMemory</b> function is a placeholder for the application-defined function name.
 

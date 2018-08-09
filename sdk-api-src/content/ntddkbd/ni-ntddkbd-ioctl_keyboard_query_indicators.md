@@ -7,7 +7,7 @@ old-location: hid\ioctl_keyboard_query_indicators.htm
 old-project: hid
 ms.assetid: 3d70b34c-e201-40fc-99dd-cd05bdeec5f8
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/30/2018
 ms.keywords: IOCTL_KEYBOARD_QUERY_INDICATORS, IOCTL_KEYBOARD_QUERY_INDICATORS control, IOCTL_KEYBOARD_QUERY_INDICATORS control code [Human Input Devices], hid.ioctl_keyboard_query_indicators, kref_41aef51b-c9f1-4549-b67a-cb7a3a9424c4.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_INDICATORS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-     The IOCTL_KEYBOARD_QUERY_INDICATORS request returns information about the keyboard indicators.
+The IOCTL_KEYBOARD_QUERY_INDICATORS request returns information about the keyboard indicators.
      
     
 
@@ -115,9 +114,9 @@ The <b>Status</b> member is set to one the following values:
 
 
 
-#### -STATUS_BUFFER_TOO_SMALL
+#### -STATUS_SUCCESS
 
-The output buffer cannot hold the KEYBOARD_INDICATOR_PARAMETERS structure.
+The request completed successfully.
 
 
 #### -STATUS_INVALID_PARAMETER
@@ -125,9 +124,9 @@ The output buffer cannot hold the KEYBOARD_INDICATOR_PARAMETERS structure.
 The <b>UnitId</b> value is not valid.
 
 
-#### -STATUS_SUCCESS
+#### -STATUS_BUFFER_TOO_SMALL
 
-The request completed successfully.
+The output buffer cannot hold the KEYBOARD_INDICATOR_PARAMETERS structure.
 
 
 ## -see-also

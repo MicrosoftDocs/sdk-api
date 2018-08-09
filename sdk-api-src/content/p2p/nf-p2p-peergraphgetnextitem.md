@@ -7,7 +7,7 @@ old-location: p2p\peergraphgetnextitem.htm
 old-project: p2psdk
 ms.assetid: f595e66d-570f-4642-bef8-ff5cf070649c
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphGetNextItem, PeerGraphGetNextItem function [Peer Networking], p2p.peergraphgetnextitem, p2p/PeerGraphGetNextItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphGetNextItem</b> function obtains the next item or items in an enumeration created by a call to the following functions, which return a peer enumeration handle:  <ul>
+The <b>PeerGraphGetNextItem</b> function obtains the next item or items in an enumeration created by a call to the following functions, which return a peer enumeration handle:  <ul>
 <li>
 <a href="https://msdn.microsoft.com/ef4ea3e2-fd71-48d8-a9a8-db38ef06df20">PeerGraphEnumConnections</a>
 </li>
@@ -86,14 +85,7 @@ Output receives the actual number of items obtained.
 <div class="alert"><b>Note</b>  If <i>pCount</i> is a zero (0) output, the end of the enumeration is reached.</div>
 <div> </div>
 
-### -param pppvItems
-
-TBD
-
-
-
-
-#### - ppvItems [out]
+### -param pppvItems [out]
 
 Receives an array of pointers to  the requested items.  The number  of pointers contained in an array is specified by the output value of  <i>pCount</i>.  The actual data returned depends on the type of enumeration. The  types of structures that are returned are the following:  <a href="https://msdn.microsoft.com/039fa00e-c193-46fd-b7e6-41eb7baeab3e">PEER_CONNECTION_INFO</a>, <a href="https://msdn.microsoft.com/51cc6c27-91ca-4d02-95d6-207827450fd5">PEER_NODE_INFO</a>, and <a href="https://msdn.microsoft.com/4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1">PEER_RECORD</a>
 

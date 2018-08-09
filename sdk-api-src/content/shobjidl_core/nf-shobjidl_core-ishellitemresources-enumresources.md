@@ -7,7 +7,7 @@ old-location: shell\IShellItemResources_EnumResources.htm
 old-project: shell
 ms.assetid: 29ac8ac9-4bd1-470c-885a-56f860d50a70
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: EnumResources, EnumResources method [Windows Shell], EnumResources method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],EnumResources method, IShellItemResources.EnumResources, IShellItemResources::EnumResources, _shell_IShellItemResources_EnumResources, shell.IShellItemResources_EnumResources, shobjidl_core/IShellItemResources::EnumResources
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Gets a resource enumerator object.
 
 Type: <b><a href="https://msdn.microsoft.com/28c645cf-8c69-49d7-a95f-ced6467ad682">IEnumResources</a>**</b>
 
-
-          The address of an <a href="https://msdn.microsoft.com/28c645cf-8c69-49d7-a95f-ced6467ad682">IEnumResources</a> interface pointer.
+The address of an <a href="https://msdn.microsoft.com/28c645cf-8c69-49d7-a95f-ced6467ad682">IEnumResources</a> interface pointer.
         
 
 

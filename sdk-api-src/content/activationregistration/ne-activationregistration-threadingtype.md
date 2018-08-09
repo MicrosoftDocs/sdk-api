@@ -7,7 +7,7 @@ old-location: winrt\threadingtype.htm
 old-project: WinRT
 ms.assetid: D7D3A6D3-52DF-4634-A6FC-F5081E2E13B0
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: BOTH, MTA, STA, ThreadingType, ThreadingType enumeration [Windows Runtime], activationregistration/BOTH, activationregistration/MTA, activationregistration/STA, activationregistration/ThreadingType, winrt.threadingtype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,14 +77,14 @@ Represents the apartment threading model to use for activating an in-process ser
 Apartment threading model is MTA and STA.
 
 
-#### - MTA
-
-Apartment threading model is MTA.
-
-
 #### - STA
 
 Apartment threading model is STA.
+
+
+#### - MTA
+
+Apartment threading model is MTA.
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader_getnextsample.htm
 old-project: wmformat
 ms.assetid: 948047b3-3b87-4381-9320-c9602716ade2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetNextSample, GetNextSample method [windows Media Format], GetNextSample method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetNextSample method, IWMSyncReader.GetNextSample, IWMSyncReader::GetNextSample, IWMSyncReaderGetNextSample, wmformat.iwmsyncreader_getnextsample, wmsdkidl/IWMSyncReader::GetNextSample
 ms.prod: windows
 ms.technology: windows-sdk

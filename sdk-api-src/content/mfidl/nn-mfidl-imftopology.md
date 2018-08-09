@@ -7,7 +7,7 @@ old-location: mf\imftopology.htm
 old-project: medfound
 ms.assetid: f293e9ee-9bd2-4b3e-a4ff-53457ee910f6
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFTopology, IMFTopology interface [Media Foundation], IMFTopology interface [Media Foundation],described, f293e9ee-9bd2-4b3e-a4ff-53457ee910f6, mf.imftopology, mfidl/IMFTopology
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ The <b>IMFTopology</b> interface has these methods.
 <a href="https://msdn.microsoft.com/5e519524-f5c5-4d4d-922f-166f9e616631">AddNode</a>
 </td>
 <td align="left" width="63%">
-
-          Adds a node to the topology.
+Adds a node to the topology.
         
 
 </td>
@@ -88,8 +87,7 @@ The <b>IMFTopology</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
 </td>
 <td align="left" width="63%">
-
-          Removes all nodes from the topology.
+Removes all nodes from the topology.
         
 
 </td>
@@ -99,8 +97,7 @@ The <b>IMFTopology</b> interface has these methods.
 <a href="https://msdn.microsoft.com/b455aa57-9785-4741-bc3b-1f99cbf4e3d9">CloneFrom</a>
 </td>
 <td align="left" width="63%">
-
-          Converts this topology into a copy of another topology.
+Converts this topology into a copy of another topology.
         
 
 </td>
@@ -110,8 +107,7 @@ The <b>IMFTopology</b> interface has these methods.
 <a href="https://msdn.microsoft.com/97053d10-5ac7-40c0-b46b-77d401284d58">GetNode</a>
 </td>
 <td align="left" width="63%">
-
-          Gets a node in the topology, specified by index.
+Gets a node in the topology, specified by index.
         
 
 </td>
@@ -121,8 +117,7 @@ The <b>IMFTopology</b> interface has these methods.
 <a href="https://msdn.microsoft.com/34c8326f-bd34-4bf6-9171-a1ed3191b85e">GetNodeByID</a>
 </td>
 <td align="left" width="63%">
-
-          Gets a node in the topology, specified by node identifier.
+Gets a node in the topology, specified by node identifier.
         
 
 </td>
@@ -132,8 +127,7 @@ The <b>IMFTopology</b> interface has these methods.
 <a href="https://msdn.microsoft.com/87378088-1d7a-4ad7-942f-69b6cfc4e573">GetNodeCount</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the number of nodes in the topology.
+Gets the number of nodes in the topology.
         
 
 </td>
@@ -143,8 +137,7 @@ The <b>IMFTopology</b> interface has these methods.
 <a href="https://msdn.microsoft.com/0862cd4a-4d22-4d8d-a754-0cd376d44b22">GetOutputNodeCollection</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the output nodes in the topology.
+Gets the output nodes in the topology.
         
 
 </td>
@@ -154,8 +147,7 @@ The <b>IMFTopology</b> interface has these methods.
 <a href="https://msdn.microsoft.com/9da7d4cd-ad83-4d64-9773-699f39625056">GetSourceNodeCollection</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the source nodes in the topology.
+Gets the source nodes in the topology.
         
 
 </td>
@@ -165,8 +157,7 @@ The <b>IMFTopology</b> interface has these methods.
 <a href="https://msdn.microsoft.com/f7d33d20-1b58-4b88-9a98-1004a5c42dfa">GetTopologyID</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the identifier of the topology.
+Gets the identifier of the topology.
         
 
 </td>
@@ -176,8 +167,7 @@ The <b>IMFTopology</b> interface has these methods.
 <a href="https://msdn.microsoft.com/0dbafd3f-315b-4135-aecd-ad46f2c19886">RemoveNode</a>
 </td>
 <td align="left" width="63%">
-
-          Removes a node from the topology.
+Removes a node from the topology.
         
 
 </td>

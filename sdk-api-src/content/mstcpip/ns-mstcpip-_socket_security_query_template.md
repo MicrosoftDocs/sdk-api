@@ -7,7 +7,7 @@ old-location: winsock\socket_security_query_template.htm
 old-project: winsock
 ms.assetid: cd222287-c4f2-4c4b-8b5f-81b6fcbe87d4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: SOCKET_SECURITY_QUERY_TEMPLATE, SOCKET_SECURITY_QUERY_TEMPLATE structure [Winsock], _SOCKET_SECURITY_QUERY_TEMPLATE, mstcpip/SOCKET_SECURITY_QUERY_TEMPLATE, winsock.socket_security_query_template
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,8 +78,7 @@ The access mask used for opening the peer user application and computer token ha
 
 
 
-The <b>SOCKET_SECURITY_QUERY_TEMPLATE</b> structure  is supported on Windows Vista
-  and later.
+The <b>SOCKET_SECURITY_QUERY_TEMPLATE</b> structure  is supported on Windows Vistaand later.
 
 The <b>SOCKET_SECURITY_QUERY_TEMPLATE</b> structure  is used by the <a href="https://msdn.microsoft.com/fda7738f-b7fc-49c3-aa40-9beea31d1009">WSAQuerySocketSecurity</a> function to specify the type of query information to return for a socket. The <b>SOCKET_SECURITY_QUERY_TEMPLATE</b> structure passed to the <b>WSAQuerySocketSecurity</b> function may contain zeros for all members to request default security information. 
 

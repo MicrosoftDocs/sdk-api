@@ -7,7 +7,7 @@ old-location: base\heapwalk.htm
 old-project: memory
 ms.assetid: ba4b7372-973b-4dea-9a93-faf847a047e5
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: HeapWalk, HeapWalk function, _win32_heapwalk, base.heapwalk, heapapi/HeapWalk, winbase/HeapWalk
 ms.prod: windows
 ms.technology: windows-sdk

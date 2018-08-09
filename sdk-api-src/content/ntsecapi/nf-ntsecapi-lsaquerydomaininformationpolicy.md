@@ -2,12 +2,12 @@
 UID: NF:ntsecapi.LsaQueryDomainInformationPolicy
 title: LsaQueryDomainInformationPolicy function
 author: windows-sdk-content
-description: Retrieves domain information from the Policy object.
+description: Retrieves domain information from the Policyobject.
 old-location: security\lsaquerydomaininformationpolicy.htm
 old-project: secauthn
 ms.assetid: 39a511d7-46fc-4d12-ba43-771f6db2a33b
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: LsaQueryDomainInformationPolicy, LsaQueryDomainInformationPolicy function [Security], PolicyDomainEfsInformation, PolicyDomainKerberosTicketInformation, ntsecapi/LsaQueryDomainInformationPolicy, security.lsaquerydomaininformationpolicy, security.lsaquerydomaininformationpolicy_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>LsaQueryDomainInformationPolicy</b> function retrieves domain information from the  <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a>
-    object.
+The <b>LsaQueryDomainInformationPolicy</b> function retrieves domain information from the  <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a>object.
 
 
 ## -parameters
@@ -68,8 +67,7 @@ A handle to the <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e
 ### -param InformationClass [in]
 
 
-<a href="https://msdn.microsoft.com/b208c479-a262-4120-824f-677ead1ef61a">POLICY_DOMAIN_INFORMATION_CLASS</a> enumeration that specifies the information to be returned from the  <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a>
-    object. The following table shows the possible values.
+<a href="https://msdn.microsoft.com/b208c479-a262-4120-824f-677ead1ef61a">POLICY_DOMAIN_INFORMATION_CLASS</a> enumeration that specifies the information to be returned from the  <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a>object. The following table shows the possible values.
 
 <table>
 <tr>
@@ -142,8 +140,7 @@ The policy database is
 
 
 
-The POLICY_VIEW_LOCAL_INFORMATION access type is required to retrieve domain information from the  <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a>
-    object. For more information, see <a href="https://msdn.microsoft.com/592dea65-9da1-4e49-82e4-8e08c451e026">Policy Object Access Rights</a>.
+The POLICY_VIEW_LOCAL_INFORMATION access type is required to retrieve domain information from the  <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a>object. For more information, see <a href="https://msdn.microsoft.com/592dea65-9da1-4e49-82e4-8e08c451e026">Policy Object Access Rights</a>.
 
 
 

@@ -7,7 +7,7 @@ old-location: fwp\ikeext_qm_sa_state.htm
 old-project: fwp
 ms.assetid: e1124447-dd56-4ab6-affc-59e351407261
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IKEEXT_QM_SA_STATE, IKEEXT_QM_SA_STATE enumeration [Filtering], IKEEXT_QM_SA_STATE_, IKEEXT_QM_SA_STATE_COMPLETE, IKEEXT_QM_SA_STATE_FINAL, IKEEXT_QM_SA_STATE_INITIAL, IKEEXT_QM_SA_STATE_MAX, IKEEXT_QM_SA_STATE_NONE, fwp.ikeext_qm_sa_state, iketypes/IKEEXT_QM_SA_STATE, iketypes/IKEEXT_QM_SA_STATE_COMPLETE, iketypes/IKEEXT_QM_SA_STATE_FINAL, iketypes/IKEEXT_QM_SA_STATE_INITIAL, iketypes/IKEEXT_QM_SA_STATE_MAX, iketypes/IKEEXT_QM_SA_STATE_NONE
 ms.prod: windows
 ms.technology: windows-sdk

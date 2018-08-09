@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_NumberOfItems.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\numberofitems.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchCatalogManager interface [search],NumberOfItems method, ISearchCatalogManager.NumberOfItems, ISearchCatalogManager::NumberOfItems, NumberOfItems, NumberOfItems method [search], NumberOfItems method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_NumberOfItems, search._search_ISearchCatalogManager_NumberOfItems, searchapi/ISearchCatalogManager::NumberOfItems
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-        Gets the number of items in the catalog.
+Gets the number of items in the catalog.
       
 
 
@@ -65,8 +64,7 @@ req.product: ADAM
 
 Type: <b>LONG*</b>
 
-
-          Receives a pointer to the number of items in the catalog.
+Receives a pointer to the number of items in the catalog.
         
 
 

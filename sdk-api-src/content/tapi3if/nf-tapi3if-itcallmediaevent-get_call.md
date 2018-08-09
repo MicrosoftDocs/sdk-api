@@ -4,10 +4,10 @@ title: ITCallMediaEvent::get_Call
 author: windows-sdk-content
 description: The get_Call method gets an ITCallInfo interface pointer for the call object associated with this event.
 old-location: tapi3\itcallmediaevent_get_call.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: f343c0d2-78bd-415d-9bab-f21a32343119
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Call method, ITCallMediaEvent.get_Call, ITCallMediaEvent::get_Call, _tapi3_itcallmediaevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_call, tapi3if/ITCallMediaEvent::get_Call
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpremoveoptionvaluev5.htm
 old-project: dhcp
 ms.assetid: 3fe45007-0de2-4905-96d7-fe351c81ae30
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpRemoveOptionValueV5, DhcpRemoveOptionValueV5 function [DHCP], dhcp.dhcpremoveoptionvaluev5, dhcpsapi/DhcpRemoveOptionValueV5
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpRemoveOptionValueV5</b> function removes an option value from a scope defined on the DHCP server.
+The <b>DhcpRemoveOptionValueV5</b> function removes an option value from a scope defined on the DHCP server.
 
 
 ## -parameters
@@ -123,8 +122,7 @@ This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it
 
 
 
-<a href="https://msdn.microsoft.com/91d4d678-f0c5-4081-9302-0d08c8994692">
-        DHCP_OPTION_SCOPE_INFO</a>
+<a href="https://msdn.microsoft.com/91d4d678-f0c5-4081-9302-0d08c8994692">DHCP_OPTION_SCOPE_INFO</a>
 
 
 

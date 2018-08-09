@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10devicechild_setprivatedata.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10devicechild_setprivatedata.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D10DeviceChild interface [Direct3D 10],SetPrivateData method, ID3D10DeviceChild.SetPrivateData, ID3D10DeviceChild::SetPrivateData, SetPrivateData, SetPrivateData method [Direct3D 10], SetPrivateData method [Direct3D 10],ID3D10DeviceChild interface, b8fdde8d-dc47-4ec2-997e-b42841dc5441, d3d10/ID3D10DeviceChild::SetPrivateData, direct3d10.id3d10devicechild_setprivatedata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,9 +84,9 @@ Pointer to the data to be stored with this device child. If pData is <b>NULL</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -95,7 +95,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/lib
 
 
 
-The data stored in the device child with this method can be retrieved with <a href="https://msdn.microsoft.com/library/Bb173531(v=VS.85).aspx">ID3D10DeviceChild::GetPrivateData</a>.
+The data stored in the device child with this method can be retrieved with <a href="https://msdn.microsoft.com/en-us/library/Bb173531(v=VS.85).aspx">ID3D10DeviceChild::GetPrivateData</a>.
 
 
 
@@ -105,7 +105,7 @@ The data stored in the device child with this method can be retrieved with <a hr
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild Interface</a>
  
 
  

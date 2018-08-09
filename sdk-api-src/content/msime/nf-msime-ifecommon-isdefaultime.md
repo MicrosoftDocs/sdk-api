@@ -7,7 +7,7 @@ old-location: intl\ifecommon_isdefaultime.htm
 old-project: Intl
 ms.assetid: FFC3E200-54D4-4C47-A4A3-87AA2A4A2232
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: IFECommon interface [Internationalization for Windows Applications],IsDefaultIME method, IFECommon.IsDefaultIME, IFECommon::IsDefaultIME, IsDefaultIME, IsDefaultIME method [Internationalization for Windows Applications], IsDefaultIME method [Internationalization for Windows Applications],IFECommon interface, intl.ifecommon_isdefaultime, msime/IFECommon::IsDefaultIME
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ The size of <i>szName</i> in bytes.
 
 <ul>
 <li><b>S_OK</b> if this Microsoft IME is already the default IME.</li>
-<li><b>
-S_FALSE</b> if this Microsoft IME is not the default IME.</li>
+<li><b>S_FALSE</b> if this Microsoft IME is not the default IME.</li>
 <li>Otherwise <b>E_FAIL</b>.</li>
 </ul>
 

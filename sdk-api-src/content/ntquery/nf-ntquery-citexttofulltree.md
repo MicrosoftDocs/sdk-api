@@ -7,7 +7,7 @@ old-location: indexsrv\citexttofulltree.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_1mw5.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 08/03/2018
 ms.keywords: CITextToFullTree, CITextToFullTree function [Indexing Service], _idxs_CITextToFullTree, indexsrv.citexttofulltree, ntquery/CITextToFullTree
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Creates a full command tree using Query Language 1.
 
@@ -91,7 +91,7 @@ Column names separated by a plus sign (+) are grouped in individual categories, 
 
 ### -param ppTree
 
-A pointer to an output variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure for the command tree built by the function. 
+A pointer to an output variable that receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure for the command tree built by the function. 
 
 
 ### -param cProperties
@@ -101,7 +101,7 @@ The number of properties in the <i>pProperties</i> array, or <b>NULL</b> if <i>p
 
 ### -param pProperties
 
-A pointer to an array of properties that can be referred to by friendly names in the <i>pwszColumns</i>, <i>pwszSortColumns</i>, <i>pwszGroupings</i>, and <i>pwszRestriction</i> parameters. Column names in the <b>wcsFriendlyName</b> member of each <a href="https://msdn.microsoft.com/library/ms690848(v=VS.85).aspx">CIPROPERTYDEF</a> structure must be specified in uppercase. This parameter can be <b>NULL</b> if no properties are being defined and <i>cProperties</i> is zero. Indexing Service's built-in properties do not need to be defined to be used. It is an error to define a property with the same friendly name as that of a built-in property.
+A pointer to an array of properties that can be referred to by friendly names in the <i>pwszColumns</i>, <i>pwszSortColumns</i>, <i>pwszGroupings</i>, and <i>pwszRestriction</i> parameters. Column names in the <b>wcsFriendlyName</b> member of each <a href="https://msdn.microsoft.com/en-us/library/ms690848(v=VS.85).aspx">CIPROPERTYDEF</a> structure must be specified in uppercase. This parameter can be <b>NULL</b> if no properties are being defined and <i>cProperties</i> is zero. Indexing Service's built-in properties do not need to be defined to be used. It is an error to define a property with the same friendly name as that of a built-in property.
 
 
 ### -param LocaleID
@@ -186,7 +186,7 @@ An unknown error has occurred.
 
 
 
-The query tree allocated by the <b>CITextToFullTree</b> function must be freed either with the <a href="https://msdn.microsoft.com/library/ms689884(v=VS.85).aspx">ICommandTree::FreeCommandTree</a> method or passed to the <a href="https://msdn.microsoft.com/library/ms690251(v=VS.85).aspx">ICommandTree::SetCommandTree</a> method with the <i>fCopy</i> parameter set to <b>FALSE</b>.
+The query tree allocated by the <b>CITextToFullTree</b> function must be freed either with the <a href="https://msdn.microsoft.com/en-us/library/ms689884(v=VS.85).aspx">ICommandTree::FreeCommandTree</a> method or passed to the <a href="https://msdn.microsoft.com/en-us/library/ms690251(v=VS.85).aspx">ICommandTree::SetCommandTree</a> method with the <i>fCopy</i> parameter set to <b>FALSE</b>.
 
 
 
@@ -241,7 +241,7 @@ if ( SUCCEEDED( hr ) )
 </td>
 </tr>
 </table></span></div>
-The following diagram shows the <i>pTree</i> parameter, created by the example code, of the <a href="https://msdn.microsoft.com/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure.
+The following diagram shows the <i>pTree</i> parameter, created by the example code, of the <a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure.
 
 <img alt="" src="./images/dbcmdtr2.png"/>
 <div class="code"></div>
@@ -253,15 +253,15 @@ The following diagram shows the <i>pTree</i> parameter, created by the example c
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690848(v=VS.85).aspx">CIPROPERTYDEF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690848(v=VS.85).aspx">CIPROPERTYDEF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689746(v=VS.85).aspx">ICommandTree</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689746(v=VS.85).aspx">ICommandTree</a>
  
 
  

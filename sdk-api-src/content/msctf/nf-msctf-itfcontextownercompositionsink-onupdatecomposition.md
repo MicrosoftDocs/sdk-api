@@ -7,7 +7,7 @@ old-location: tsf\itfcontextownercompositionsink_onupdatecomposition.htm
 old-project: TSF
 ms.assetid: 18c13a32-918b-4178-a72d-0f7d10c2a68d
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfContextOwnerCompositionSink interface [Text Services Framework],OnUpdateComposition method, ITfContextOwnerCompositionSink.OnUpdateComposition, ITfContextOwnerCompositionSink::OnUpdateComposition, OnUpdateComposition, OnUpdateComposition method [Text Services Framework], OnUpdateComposition method [Text Services Framework],ITfContextOwnerCompositionSink interface, _tsf_itfcontextownercompositionsink_onupdatecomposition_ref, msctf/ITfContextOwnerCompositionSink::OnUpdateComposition, tsf.itfcontextownercompositionsink_onupdatecomposition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,8 +96,7 @@ To determine what has changed within the composition, compare <i>pRangeNew</i> w
 
 
 
-<a href="https://msdn.microsoft.com/31372688-be81-4883-9fc7-ed3f7b2f7934">
-        ITfCompositionView::GetRange
+<a href="https://msdn.microsoft.com/31372688-be81-4883-9fc7-ed3f7b2f7934">ITfCompositionView::GetRange
       </a>
 
 
@@ -106,8 +105,7 @@ To determine what has changed within the composition, compare <i>pRangeNew</i> w
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">
-        ITfRange
+<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
       </a>
  
 

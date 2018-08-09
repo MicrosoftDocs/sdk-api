@@ -7,7 +7,7 @@ old-location: base\bindimageex.htm
 old-project: debug
 ms.assetid: 97edbe29-94e5-4d3c-b640-c92b7f01a159
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: BIND_ALL_IMAGES, BIND_CACHE_IMPORT_DLLS, BIND_NO_BOUND_IMPORTS, BIND_NO_UPDATE, BindImageEx, BindImageEx function, _win32_bindimageex, base.bindimageex, imagehlp/BindImageEx
 ms.prod: windows
 ms.technology: windows-sdk

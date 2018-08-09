@@ -4,10 +4,10 @@ title: ILocationReport::GetValue
 author: windows-sdk-content
 description: Retrieves a property value from the location report.
 old-location: winlocation_com_ref\ilocationreport_getvalue.htm
-old-project: LocationAPI
+old-project: locationapi
 ms.assetid: a4bc1cc8-e246-4740-8290-afc8cd6def09
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/30/2018
 ms.keywords: GetValue, GetValue method [WinLocation], GetValue method [WinLocation],ILocationReport interface, ILocationReport interface [WinLocation],GetValue method, ILocationReport.GetValue, ILocationReport::GetValue, WinLocation_COM_Ref.ilocationreport_getvalue, locationapi/ILocationReport::GetValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/fd40bf4a-c59a-43a4-ab01-c671a8a41731">Windows.Devices.Geolocation</a>
-API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/fd40bf4a-c59a-43a4-ab01-c671a8a41731">Windows.Devices.Geolocation</a>API.
 ]
 
 Retrieves a property value from the location report.
@@ -101,8 +100,7 @@ The following is a table of some platform-defined properties that are commonly a
 <td>SENSOR_DATA_TYPE_LATITUDE<b>VT_R8</b>
 
 </td>
-<td>
-              Degrees latitude where North is positive.
+<td>Degrees latitude where North is positive.
  
 <div class="alert"><b>Note</b>  A latitude/longitude report object that is passed to <a href="https://msdn.microsoft.com/50355f93-e609-44d5-925a-2de7af1e0564">SetReport</a> must provide this value in its implementation of <b>GetValue</b>.</div>
 <div> </div>
@@ -114,8 +112,7 @@ The following is a table of some platform-defined properties that are commonly a
 <td>SENSOR_DATA_TYPE_LONGITUDE<b>VT_R8</b>
 
 </td>
-<td>
-              Degrees longitude where East is positive.
+<td>Degrees longitude where East is positive.
             
 <div class="alert"><b>Note</b>  A latitude/longitude report object that is passed to <a href="https://msdn.microsoft.com/50355f93-e609-44d5-925a-2de7af1e0564">SetReport</a> must provide this value in its implementation of <b>GetValue</b>.</div>
 <div> </div>
@@ -127,15 +124,13 @@ The following is a table of some platform-defined properties that are commonly a
 <td>SENSOR_DATA_TYPE_ALTITUDE_SEALEVEL_METERS<b>VT_R8</b>
 
 </td>
-<td>
-              Altitude with respect to sea level, in meters.</td>
+<td>Altitude with respect to sea level, in meters.</td>
 </tr>
 <tr>
 <td>SENSOR_DATA_TYPE_ALTITUDE_ELLIPSOID_METERS<b>VT_R8</b>
 
 </td>
-<td>
-              Altitude with respect to the reference ellipsoid, in meters.</td>
+<td>Altitude with respect to the reference ellipsoid, in meters.</td>
 </tr>
 <tr>
 <td>SENSOR_DATA_TYPE_SPEED_KNOTS<b>VT_R8</b>
@@ -147,8 +142,7 @@ The following is a table of some platform-defined properties that are commonly a
 <td>SENSOR_DATA_TYPE_TRUE_HEADING_DEGREES<b>VT_R8</b>
 
 </td>
-<td>
-              Heading relative to true north in degrees.
+<td>Heading relative to true north in degrees.
             </td>
 </tr>
 <tr>
@@ -205,8 +199,7 @@ The following is a table of some platform-defined properties that are commonly a
 <td>SENSOR_DATA_TYPE_STATE_PROVINCE<b>VT_LPWSTR</b>
 
 </td>
-<td>
-              State/province field in a civic address report.<div class="alert"><b>Note</b>  If a civic address report object that is passed to <a href="https://msdn.microsoft.com/50355f93-e609-44d5-925a-2de7af1e0564">SetReport</a> contains this data, it should provide this value in its implementation of <b>GetValue</b>.</div>
+<td>State/province field in a civic address report.<div class="alert"><b>Note</b>  If a civic address report object that is passed to <a href="https://msdn.microsoft.com/50355f93-e609-44d5-925a-2de7af1e0564">SetReport</a> contains this data, it should provide this value in its implementation of <b>GetValue</b>.</div>
 <div> </div>
 </td>
 </tr>
@@ -214,8 +207,7 @@ The following is a table of some platform-defined properties that are commonly a
 <td>SENSOR_DATA_TYPE_POSTALCODE<b>VT_LPWSTR</b>
 
 </td>
-<td>
-              Postal code field in a civic address report.<div class="alert"><b>Note</b>  If a civic address report object that is passed to <a href="https://msdn.microsoft.com/50355f93-e609-44d5-925a-2de7af1e0564">SetReport</a> contains this data, it should provide this value in its implementation of <b>GetValue</b>.</div>
+<td>Postal code field in a civic address report.<div class="alert"><b>Note</b>  If a civic address report object that is passed to <a href="https://msdn.microsoft.com/50355f93-e609-44d5-925a-2de7af1e0564">SetReport</a> contains this data, it should provide this value in its implementation of <b>GetValue</b>.</div>
 <div> </div>
 </td>
 </tr>
@@ -223,8 +215,7 @@ The following is a table of some platform-defined properties that are commonly a
 <td>SENSOR_DATA_TYPE_COUNTRY_REGION<b>VT_LPWSTR</b>
 
 </td>
-<td>
-              Country/region code in a civic address report. The value must be a two-letter or three-letter ISO 3166 country code.
+<td>Country/region code in a civic address report. The value must be a two-letter or three-letter ISO 3166 country code.
 
 
 <div class="alert"><b>Note</b>  A civic address report object that is passed to <a href="https://msdn.microsoft.com/50355f93-e609-44d5-925a-2de7af1e0564">SetReport</a> must provide this value in its implementation of <b>GetValue</b>.</div>
@@ -243,8 +234,7 @@ The following is a table of some platform-defined properties that are commonly a
 <td>SENSOR_DATA_TYPE_ALTITUDE_SEALEVEL_ERROR_METERS<b>VT_R8</b>
 
 </td>
-<td>
-              Altitude error with respect to sea level, in meters.</td>
+<td>Altitude error with respect to sea level, in meters.</td>
 </tr>
 </table>
  
@@ -260,8 +250,7 @@ The following is a table of other platform-defined properties that may occur in 
 <td>SENSOR_PROPERTY_ACCURACY<b>VT_UNKNOWN</b>
 
 </td>
-<td>
-              IPortableDeviceValues object that contains sensor data type names and their associated accuracies. Accuracy values represent possible variation from true values.
+<td>IPortableDeviceValues object that contains sensor data type names and their associated accuracies. Accuracy values represent possible variation from true values.
 
 Accuracy values are expressed by using the same units as the data field, except when otherwise documented.
  </td>

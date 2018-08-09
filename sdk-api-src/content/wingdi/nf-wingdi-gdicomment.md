@@ -7,7 +7,7 @@ old-location: gdi\gdicomment.htm
 old-project: gdi
 ms.assetid: 80ed11fc-89f8-47ab-8b3b-c817733bd385
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GdiComment, GdiComment function [Windows GDI], _win32_GdiComment, gdi.gdicomment, wingdi/GdiComment
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,19 +66,14 @@ The <b>GdiComment</b> function copies a comment from a buffer into a specified e
 A handle to an enhanced-metafile device context.
 
 
-### -param nSize
+### -param nSize [in]
 
-TBD
+The length of the comment buffer, in bytes.
 
 
 ### -param lpData [in]
 
 A pointer to the buffer that contains the comment.
-
-
-#### - cbSize [in]
-
-The length of the comment buffer, in bytes.
 
 
 ## -returns

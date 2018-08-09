@@ -7,7 +7,7 @@ old-location: netmgmt\netalertraise.htm
 old-project: netmgmt
 ms.assetid: 11367a72-c21d-4044-98cf-a7a30cc43a8b
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT_PRINT_EVENT, ALERT_USER_EVENT, NetAlertRaise, NetAlertRaise function [Network Management], _win32_netalertraise, lmalert/NetAlertRaise, netmgmt.netalertraise
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,33 +67,7 @@ To simplify sending an alert message, you can call the extended function
 
 
 
-### -param AlertType
-
-TBD
-
-
-### -param Buffer [in]
-
-A pointer to the data to send to the clients listening for the interrupting message. The data should begin with a fixed-length 
-<a href="https://msdn.microsoft.com/daa4594f-e59e-4f05-8183-677bee4ea446">STD_ALERT</a> structure followed by additional message data in one 
-<a href="https://msdn.microsoft.com/43119dcf-7d04-4e3b-b1dc-20e814fbdc2f">ADMIN_OTHER_INFO</a>, 
-<a href="https://msdn.microsoft.com/832ebe88-e1c4-4ce3-8057-922419b577f7">ERRLOG_OTHER_INFO</a>, 
-<a href="https://msdn.microsoft.com/f2fd87bc-abde-43c0-b29d-d43cc5f038b8">PRINT_OTHER_INFO</a>, or 
-<a href="https://msdn.microsoft.com/2f6bd906-fdab-410a-8856-4482e047371f">USER_OTHER_INFO</a> structure. Finally, the buffer should include any required variable-length information. For more information, see the code sample in the following Remarks section. 
-
-
-
-
-The calling application must allocate and free the memory for all structures and variable data. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>.
-
-
-### -param BufferSize [in]
-
-The size, in bytes, of the message buffer.
-
-
-#### - AlertEventName [in]
+### -param AlertType [in]
 
 A pointer to a constant string that specifies the alert class (type of alert) to raise. This parameter can be one of the following predefined values, or a user-defined alert class for network applications. The event name for an alert can be any text string. 
 
@@ -156,6 +130,27 @@ An application or resource was used.
 </tr>
 </table>
  
+
+
+### -param Buffer [in]
+
+A pointer to the data to send to the clients listening for the interrupting message. The data should begin with a fixed-length 
+<a href="https://msdn.microsoft.com/daa4594f-e59e-4f05-8183-677bee4ea446">STD_ALERT</a> structure followed by additional message data in one 
+<a href="https://msdn.microsoft.com/43119dcf-7d04-4e3b-b1dc-20e814fbdc2f">ADMIN_OTHER_INFO</a>, 
+<a href="https://msdn.microsoft.com/832ebe88-e1c4-4ce3-8057-922419b577f7">ERRLOG_OTHER_INFO</a>, 
+<a href="https://msdn.microsoft.com/f2fd87bc-abde-43c0-b29d-d43cc5f038b8">PRINT_OTHER_INFO</a>, or 
+<a href="https://msdn.microsoft.com/2f6bd906-fdab-410a-8856-4482e047371f">USER_OTHER_INFO</a> structure. Finally, the buffer should include any required variable-length information. For more information, see the code sample in the following Remarks section. 
+
+
+
+
+The calling application must allocate and free the memory for all structures and variable data. For more information, see 
+<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>.
+
+
+### -param BufferSize [in]
+
+The size, in bytes, of the message buffer.
 
 
 ## -returns

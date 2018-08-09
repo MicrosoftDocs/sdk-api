@@ -7,7 +7,7 @@ old-location: p2p\peeridentitydelete.htm
 old-project: p2psdk
 ms.assetid: 9738f6b1-cd88-4950-bab1-f97613a49e03
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerIdentityDelete, PeerIdentityDelete function [Peer Networking], p2p.peeridentitydelete, p2p/PeerIdentityDelete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerIdentityDelete</b> function permanently deletes a peer identity. This includes removing all certificates, private keys, and all group information associated with a specified peer identity.
+The <b>PeerIdentityDelete</b> function permanently deletes a peer identity. This includes removing all certificates, private keys, and all group information associated with a specified peer identity.
 
 
 ## -parameters

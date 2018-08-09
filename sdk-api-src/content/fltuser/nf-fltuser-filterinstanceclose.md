@@ -7,7 +7,7 @@ old-location: ifsk\filterinstanceclose.htm
 old-project: ifsk
 ms.assetid: a0605b02-a5eb-4e7f-9659-0f0f538ea153
 ms.author: windowssdkdev
-ms.date: 04/17/2018
+ms.date: 08/06/2018
 ms.keywords: FilterInstanceClose, FilterInstanceClose function [Installable File System Drivers], FltWin32ApiRef_aed3c694-a4bb-4804-9171-4d89cabd666d.xml, fltuser/FilterInstanceClose, ifsk.filterinstanceclose
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,7 @@ The <b>FilterInstanceClose</b> function closes a minifilter instance handle open
 
 
 
-### -param hInstance
-
-TBD
-
-
-
-
-#### - hFilterInstanceFind [in]
+### -param hInstance [in]
 
 Minifilter instance handle returned by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff540528">FilterInstanceCreate</a>. 
 

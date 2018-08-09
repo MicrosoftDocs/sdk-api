@@ -7,7 +7,7 @@ old-location: dataxchg\ddereconnect.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddereconnect.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: DdeReconnect, DdeReconnect function [Data Exchange], _win32_DdeReconnect, _win32_ddereconnect_cpp, dataxchg.ddereconnect, ddeml/DdeReconnect, winui._win32_ddereconnect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Enables a client <a href="https://msdn.microsoft.com/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a> (DDEML) application to attempt to reestablish a conversation with a service that has terminated a conversation with the client. When the conversation is reestablished, the Dynamic Data Exchange Management Library (DDEML) attempts to reestablish any preexisting advise loops. 
+Enables a client <a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a> (DDEML) application to attempt to reestablish a conversation with a service that has terminated a conversation with the client. When the conversation is reestablished, the Dynamic Data Exchange Management Library (DDEML) attempts to reestablish any preexisting advise loops. 
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Enables a client <a href="https://msdn.microsoft.com/library/ms648712(v=VS.85).a
 
 Type: <b>HCONV</b>
 
-A handle to the conversation to be reestablished. A client must have obtained the conversation handle by a previous call to the <a href="https://msdn.microsoft.com/library/ms648745(v=VS.85).aspx">DdeConnect</a> function or from an <a href="https://msdn.microsoft.com/library/ms648720(v=VS.85).aspx">XTYP_DISCONNECT</a> transaction. 
+A handle to the conversation to be reestablished. A client must have obtained the conversation handle by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms648745(v=VS.85).aspx">DdeConnect</a> function or from an <a href="https://msdn.microsoft.com/en-us/library/ms648720(v=VS.85).aspx">XTYP_DISCONNECT</a> transaction. 
 
 
 ## -returns
@@ -75,7 +75,7 @@ If the function succeeds, the return value is the handle to the reestablished co
 
 If the function fails, the return value is 0L. 
 
-The <a href="https://msdn.microsoft.com/library/ms648755(v=VS.85).aspx">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
+The <a href="https://msdn.microsoft.com/en-us/library/ms648755(v=VS.85).aspx">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
 
 
 
@@ -89,15 +89,15 @@ The <a href="https://msdn.microsoft.com/library/ms648755(v=VS.85).aspx">DdeGetLa
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648745(v=VS.85).aspx">DdeConnect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648745(v=VS.85).aspx">DdeConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648749(v=VS.85).aspx">DdeDisconnect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648749(v=VS.85).aspx">DdeDisconnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
 
 
 

@@ -4,10 +4,10 @@ title: IUPnPServiceCallback::StateVariableChanged
 author: windows-sdk-content
 description: The StateVariableChanged method is invoked when a state variable has changed.
 old-location: upnp\iupnpservicecallback_statevariablechanged.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: 68dac38e-535b-491e-a9a5-0f6bccb7fcc1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IUPnPServiceCallback interface [UPnP APIs],StateVariableChanged method, IUPnPServiceCallback.StateVariableChanged, IUPnPServiceCallback::StateVariableChanged, StateVariableChanged, StateVariableChanged method [UPnP APIs], StateVariableChanged method [UPnP APIs],IUPnPServiceCallback interface, _upnp_iupnpservicecallback_statevariablechanged, upnp.iupnpservicecallback_statevariablechanged, upnp/IUPnPServiceCallback::StateVariableChanged
 ms.prod: windows
 ms.technology: windows-sdk

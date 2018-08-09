@@ -7,7 +7,7 @@ old-location: base\powerreplacedefaultpowerschemes.htm
 old-project: power
 ms.assetid: 0d028ed9-3505-4f08-b064-14cbc8172ce0
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: PowerReplaceDefaultPowerSchemes, PowerReplaceDefaultPowerSchemes function, base.powerreplacedefaultpowerschemes, powrprof/PowerReplaceDefaultPowerSchemes
 ms.prod: windows
 ms.technology: windows-sdk

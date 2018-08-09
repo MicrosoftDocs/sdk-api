@@ -7,7 +7,7 @@ old-location: mf\imfpresentationclock_gettime.htm
 old-project: medfound
 ms.assetid: 31037b75-9fa5-48e0-a58c-a451b445147f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 31037b75-9fa5-48e0-a58c-a451b445147f, GetTime, GetTime method [Media Foundation], GetTime method [Media Foundation],IMFPresentationClock interface, IMFPresentationClock interface [Media Foundation],GetTime method, IMFPresentationClock.GetTime, IMFPresentationClock::GetTime, mf.imfpresentationclock_gettime, mfidl/IMFPresentationClock::GetTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Retrieves the latest clock time.
+Retrieves the latest clock time.
         
 
 
@@ -64,8 +63,7 @@ req.product: GDI+ 1.1
 
 ### -param phnsClockTime [out]
 
-
-            Receives the latest clock time, in 100-nanosecond units. The time is relative to when the clock was last started.
+Receives the latest clock time, in 100-nanosecond units. The time is relative to when the clock was last started.
           
 
 
@@ -87,8 +85,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -100,8 +97,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The clock does not have a presentation time source. Call <a href="https://msdn.microsoft.com/170b7c8e-9d1a-4168-964a-5fd057d1e8f9">IMFPresentationClock::SetTimeSource</a>.
+The clock does not have a presentation time source. Call <a href="https://msdn.microsoft.com/170b7c8e-9d1a-4168-964a-5fd057d1e8f9">IMFPresentationClock::SetTimeSource</a>.
               
 
 </td>

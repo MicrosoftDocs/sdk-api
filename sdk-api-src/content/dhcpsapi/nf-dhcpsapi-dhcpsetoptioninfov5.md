@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetoptioninfov5.htm
 old-project: dhcp
 ms.assetid: 2a58706e-dfae-418e-867a-328830d47d5b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpSetOptionInfoV5, DhcpSetOptionInfoV5 function [DHCP], dhcp.dhcpsetoptioninfov5, dhcpsapi/DhcpSetOptionInfoV5
 ms.prod: windows
 ms.technology: windows-sdk
@@ -162,8 +162,7 @@ The provided class name is either incorrect or does not exist on the DHCP server
 
 
 
-<a href="https://msdn.microsoft.com/1be34eb4-a226-4f07-b763-173a4f8a0671">
-        DHCP_OPTION</a>
+<a href="https://msdn.microsoft.com/1be34eb4-a226-4f07-b763-173a4f8a0671">DHCP_OPTION</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: directcomp\idcompositioneffectgroup_setopacity_overloaded.htm
 old-project: directcomp
 ms.assetid: 785DE91D-718B-4704-88E4-B8FB12586E5F
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IDCompositionEffectGroup::SetOpacity, SetOpacity, SetOpacity methods [DirectComposition], dcomp/SetOpacity, directcomp.idcompositioneffectgroup_setopacity_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\cocopyproxy.htm
 old-project: com
 ms.assetid: 26de7bac-8745-40c0-be0a-dcec88a3ecaf
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: CoCopyProxy, CoCopyProxy function [COM], _com_CoCopyProxy, com.cocopyproxy, combaseapi/CoCopyProxy
 ms.prod: windows
 ms.technology: windows-sdk

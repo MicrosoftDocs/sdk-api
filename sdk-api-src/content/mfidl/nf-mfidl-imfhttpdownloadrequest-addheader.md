@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_addheader.htm
 old-project: medfound
 ms.assetid: 37A2C9D8-EFF6-49D5-B495-EDBEEABD59CE
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: AddHeader, AddHeader method [Media Foundation], AddHeader method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],AddHeader method, IMFHttpDownloadRequest.AddHeader, IMFHttpDownloadRequest::AddHeader, mf.imfhttpdownloadrequest_addheader, mfidl/IMFHttpDownloadRequest::AddHeader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ Contains a single HTTP request header, for example, “Accept: */*”. The strin
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ Contains a single HTTP request header, for example, “Accept: */*”. The strin
 </dl>
 </td>
 <td width="60%">
-
-                Successfully added the header to the list of headers to be sent with the request.
+Successfully added the header to the list of headers to be sent with the request.
 
 </td>
 </tr>
@@ -99,8 +97,7 @@ Contains a single HTTP request header, for example, “Accept: */*”. The strin
 </dl>
 </td>
 <td width="60%">
-
-                There is insufficient memory to complete the operation.
+There is insufficient memory to complete the operation.
 
 </td>
 </tr>

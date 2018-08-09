@@ -4,10 +4,10 @@ title: operator* function
 author: windows-sdk-content
 description: Multiplies two matrices and returns the result.
 old-location: direct2d\operator__const__amp_d2d1_matrix_3x2_f_const__amp_d2d1_matrix_3x2_f_.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: ba810ab8-53fe-4c7d-8e47-043ae57e4323
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: direct2d.operator__const__amp_d2d1_matrix_3x2_f_const__amp_d2d1_matrix_3x2_f_, operator*, operator* function [Direct2D], operator*(const D2D1_MATRIX_3X2_F&,const D2D1_MATRIX_3X2_F&), windowsnumerics/operator*
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,26 +58,14 @@ Multiplies two matrices and returns the result.
 
 
 
-### -param point
-
-TBD
-
-
-### -param matrix
-
-TBD
-
-
-
-
-#### - matrix1 [ref]
+### -param point [ref]
 
 Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
 
 The first matrix to multiply.
 
 
-#### - matrix2 [ref]
+### -param matrix [ref]
 
 Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
 

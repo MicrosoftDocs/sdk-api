@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs10v3_challengepassword.htm
 old-project: seccertenroll
 ms.assetid: 6eea0993-d5ba-4cc3-9757-4e57e088cdc7
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: ChallengePassword property [Security], ChallengePassword property [Security],IX509CertificateRequestPkcs10V3 interface, IX509CertificateRequestPkcs10V3 interface [Security],ChallengePassword property, IX509CertificateRequestPkcs10V3.ChallengePassword, IX509CertificateRequestPkcs10V3.get_ChallengePassword, IX509CertificateRequestPkcs10V3::ChallengePassword, IX509CertificateRequestPkcs10V3::get_ChallengePassword, IX509CertificateRequestPkcs10V3::put_ChallengePassword, certenroll/IX509CertificateRequestPkcs10V3::ChallengePassword, certenroll/IX509CertificateRequestPkcs10V3::get_ChallengePassword, certenroll/IX509CertificateRequestPkcs10V3::put_ChallengePassword, get_ChallengePassword, security.ix509certificaterequestpkcs10v3_challengepassword
 ms.prod: windows
 ms.technology: windows-sdk

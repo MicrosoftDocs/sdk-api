@@ -7,7 +7,7 @@ old-location: wcs\gamutboundarydescription.htm
 old-project: WCS
 ms.assetid: b7551967-ff2f-48ed-9346-a75e19fe2c31
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: GamutBoundaryDescription, GamutBoundaryDescription structure [Windows Color System], _GamutBoundaryDescription, _color_GamutBoundaryDescription_str, wcs.gamutboundarydescription, wcsplugin/GamutBoundaryDescription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,9 +94,19 @@ The number of neutral samples.
 
 
 
+#### - primaries
+
+The primary colors.
+
+
 #### - *pNeutralSamples
 
 A pointer to the neutral samples.
+
+
+#### - *pReferenceShell
+
+A pointer to the reference shell.
 
 
 #### - *pPlausibleShell
@@ -107,16 +117,6 @@ A pointer to the plausible shell.
 #### - *pPossibleShell
 
 A pointer to the possible shell.
-
-
-#### - *pReferenceShell
-
-A pointer to the reference shell.
-
-
-#### - primaries
-
-The primary colors.
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: gdi\createscalablefontresource.htm
 old-project: gdi
 ms.assetid: 9a43a254-4cf4-46de-80b2-a83838871fd7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: 0, 1, CreateScalableFontResource, CreateScalableFontResource function [Windows GDI], CreateScalableFontResourceA, CreateScalableFontResourceW, _win32_CreateScalableFontResource, gdi.createscalablefontresource, wingdi/CreateScalableFontResource, wingdi/CreateScalableFontResourceA, wingdi/CreateScalableFontResourceW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,36 +100,19 @@ The font has read-only permission and should be hidden from other applications i
  
 
 
-### -param lpszFont
+### -param lpszFont [in]
 
-TBD
-
-
-### -param lpszFile
-
-TBD
+A pointer to a null-terminated string specifying the name of the font resource file to create. If this parameter specifies an existing font resource file, the function fails.
 
 
-### -param lpszPath
-
-TBD
-
-
-
-
-#### - lpszCurrentPath [in]
-
-A pointer to a null-terminated string specifying the path to the scalable font file.
-
-
-#### - lpszFontFile [in]
+### -param lpszFile [in]
 
 A pointer to a null-terminated string specifying the name of the scalable font file that this function uses to create the font resource file.
 
 
-#### - lpszFontRes [in]
+### -param lpszPath [in]
 
-A pointer to a null-terminated string specifying the name of the font resource file to create. If this parameter specifies an existing font resource file, the function fails.
+A pointer to a null-terminated string specifying the path to the scalable font file.
 
 
 ## -returns

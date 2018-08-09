@@ -7,7 +7,7 @@ old-location: mscs\clusresource_delete.htm
 old-project: mscs
 ms.assetid: 051ea164-4d6e-49a7-a414-abf1c5cb3af5
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusResource class [Failover Cluster],Delete method, ClusResource.Delete, Delete, Delete method [Failover Cluster], Delete method [Failover Cluster],ClusResource class, ISClusResource.Delete, ISClusResource::Delete, _wolf_clusresource.delete, mscs.clusresource_delete
 ms.prod: windows
 ms.technology: windows-sdk

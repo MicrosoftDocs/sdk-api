@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrenumitems.htm
 old-project: shell
 ms.assetid: d90e3a19-0ea8-4396-a6e7-dafe1dc9b2ec
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ISyncMgrEnumItems, ISyncMgrEnumItems interface [Windows Shell], ISyncMgrEnumItems interface [Windows Shell],described, mobsync/ISyncMgrEnumItems, shell.syncmgr_isyncmgrenumitems, syncmgr.isyncmgrenumitems
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: rm\drmacquirelicense.htm
 old-project: adrms_sdk
 ms.assetid: 0d4ce794-8384-4f1c-bc8c-1e67fbb5f987
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMAcquireLicense, DRMAcquireLicense function [Active Directory Rights Management Services SDK 1.0], DRM_AL_CANCEL, DRM_AL_FETCHNOADVISORY, DRM_AL_NONSILENT, DRM_AL_NOPERSIST, DRM_AL_NOUI, msdrm/DRMAcquireLicense, rm.drmacquirelicense
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,7 +118,7 @@ If <i>hSession</i> is a client session handle, this flag is ignored.
 
 ### -param wszGroupIdentityCredential [in]
 
-An optional <a href="https://msdn.microsoft.com/library/ms682864(v=VS.85).aspx">rights account certificate</a> (RAC). If this is not used, this function will check the license store for a RAC that matches the license used to create <i>hSession</i>. If none is found, this function will fail.
+An optional <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">rights account certificate</a> (RAC). If this is not used, this function will check the license store for a RAC that matches the license used to create <i>hSession</i>. If none is found, this function will fail.
 
 
 ### -param wszRequestedRights [in]

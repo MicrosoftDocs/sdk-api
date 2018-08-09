@@ -4,10 +4,10 @@ title: gethostbyaddr function
 author: windows-sdk-content
 description: gethostbyaddr is no longer recommended for use as of Windows Sockets 2.
 old-location: winsock\gethostbyaddr_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 303023e1-a486-4457-80f6-8aa80f6b2c79
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AF_INET, AF_INET6, AF_NETBIOS, _win32_gethostbyaddr_2, gethostbyaddr, gethostbyaddr function [Winsock], winsock.gethostbyaddr_2, wsipv6ok/gethostbyaddr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,17 +62,34 @@ The
 
 
 
-### -param addr [in]
+### -param addr
+
+TBD
+
+
+### -param len
+
+TBD
+
+
+### -param type
+
+TBD
+
+
+
+
+#### - a [in]
 
 A pointer to an address in network byte order.
 
 
-### -param len [in]
+#### - b [in]
 
 The length, in bytes, of the address.
 
 
-### -param type [in]
+#### - c [in]
 
 The type of the address, such as the AF_INET address family type (used with TCP, UDP, and other associated Internet protocols). Possible values for the address family are defined in the Winsock2.h header file. 
 

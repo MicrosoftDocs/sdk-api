@@ -7,7 +7,7 @@ old-location: shell\StrCmpIC.htm
 old-project: shell
 ms.assetid: 3f6d1ca1-fbd2-4ce2-b6d4-c3dfb37f1f87
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: StrCmpIC, StrCmpIC function [Windows Shell], StrCmpICA, StrCmpICW, _shell_StrCmpIC, shell.StrCmpIC, shlwapi/StrCmpIC, shlwapi/StrCmpICA, shlwapi/StrCmpICW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,26 +66,14 @@ Compares two strings using C run-time (ASCII) collation rules. The comparison is
 
 
 
-### -param pszStr1
-
-TBD
-
-
-### -param pszStr2
-
-TBD
-
-
-
-
-#### - lpStr1 [in]
+### -param pszStr1 [in]
 
 Type: <b>LPCTSTR</b>
 
 A pointer to the first null-terminated string to be compared.
 
 
-#### - lpStr2 [in]
+### -param pszStr2 [in]
 
 Type: <b>LPCTSTR</b>
 

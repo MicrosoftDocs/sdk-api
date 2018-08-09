@@ -7,7 +7,7 @@ old-location: mscs\clusresource_offline.htm
 old-project: mscs
 ms.assetid: 5c3f0129-a859-4823-bd73-0c7e004507e5
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusResource class [Failover Cluster],Offline method, ClusResource.Offline, ISClusResource.Offline, ISClusResource::Offline, Offline, Offline method [Failover Cluster], Offline method [Failover Cluster],ClusResource class, _wolf_clusresource.offline, mscs.clusresource_offline
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,8 +56,7 @@ req.product: GDI+ 1.1
     available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in 
     subsequent versions.]
 
-
-    Takes the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>
+Takes the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">offline</a>.
 
 
@@ -78,17 +77,17 @@ req.product: GDI+ 1.1
 
 
 
-#### - varPending
-
-A <b>Variant</b> set to <b>TRUE</b> if the request is still 
-      pending.
-
-
 #### - varTimeout
 
 A <b>Variant</b> that specifies how long (in seconds) the method should wait for the 
       resource to come offline before setting <i>varPending</i> to <b>TRUE</b> 
       and returning.
+
+
+#### - varPending
+
+A <b>Variant</b> set to <b>TRUE</b> if the request is still 
+      pending.
 
 
 ## -returns

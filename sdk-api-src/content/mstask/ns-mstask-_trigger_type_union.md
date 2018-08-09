@@ -7,7 +7,7 @@ old-location: taskschd\trigger_type_union.htm
 old-project: taskschd
 ms.assetid: de50fe74-8091-4a9e-a5b9-9a8c2c684895
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 08/06/2018
 ms.keywords: TRIGGER_TYPE_UNION, TRIGGER_TYPE_UNION union [Task Scheduler], _TRIGGER_TYPE_UNION, _msb_trigger_type_union, mstask/TRIGGER_TYPE_UNION, taskschd.trigger_type_union
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,10 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-			
-			
-		Defines the invocation schedule of the trigger within the <b>Type</b> member of a 
+Defines the invocation schedule of the trigger within the <b>Type</b> member of a 
 <a href="https://msdn.microsoft.com/b4716e32-7c7a-40ab-baa1-4c7ebafc3d71">TASK_TRIGGER</a> structure.
 
 

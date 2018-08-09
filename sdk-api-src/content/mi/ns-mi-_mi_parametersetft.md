@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_parametersetft.htm
 old-project: wmi_v2
 ms.assetid: 48e10e9c-8e50-4811-bd2a-1934d27373f0
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_ParameterSetFT, MI_ParameterSetFT structure [Windows Management Infrastructure (MI)], _MI_ParameterSetFT, mi/MI_ParameterSetFT, wmi_v2.mi_parametersetft
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,9 @@ A support structure used in the <a href="https://msdn.microsoft.com/14b5773c-474
 Gets the method return type and qualifier set for a specified parameter set. See <a href="https://msdn.microsoft.com/8d2e881a-72a8-4819-a407-b7381ab7a94a">MI_ParameterSet_GetMethodReturnType</a>.
 
 
-#### - GetParameter
+#### - GetParameterCount
 
-Gets a method's parameter information based on a parameter name. See <a href="https://msdn.microsoft.com/ff895beb-8354-488d-9c97-2d0448da954a">MI_ParameterSet_GetParameter</a>.
+Gets the number of parameters in a parameter set. See <a href="https://msdn.microsoft.com/4b1ca06f-426c-483f-a571-b49eb06991e1">MI_ParameterSet_GetParameterCount</a>.
 
 
 #### - GetParameterAt
@@ -76,7 +76,7 @@ Gets a method's parameter information based on a parameter name. See <a href="ht
 Gets a method's parameter information at the specified index. See <a href="https://msdn.microsoft.com/fcfd7104-dd63-4a48-9a20-dcec0dc33242">MI_ParameterSet_GetParameterAt</a>.
 
 
-#### - GetParameterCount
+#### - GetParameter
 
-Gets the number of parameters in a parameter set. See <a href="https://msdn.microsoft.com/4b1ca06f-426c-483f-a571-b49eb06991e1">MI_ParameterSet_GetParameterCount</a>.
+Gets a method's parameter information based on a parameter name. See <a href="https://msdn.microsoft.com/ff895beb-8354-488d-9c97-2d0448da954a">MI_ParameterSet_GetParameter</a>.
 

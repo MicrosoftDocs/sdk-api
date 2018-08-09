@@ -7,7 +7,7 @@ old-location: mstv\iisdb_emm_gettableidextension.htm
 old-project: mstv
 ms.assetid: aa0aba5d-181b-4466-8ad1-5db541d36261
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetTableIdExtension, GetTableIdExtension method [Microsoft TV Technologies], GetTableIdExtension method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetTableIdExtension method, IISDB_EMM.GetTableIdExtension, IISDB_EMM::GetTableIdExtension, dvbsiparser/IISDB_EMM::GetTableIdExtension, mstv.iisdb_emm_gettableidextension
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Gets a table_id_extension field identifying a subtable within an Integrated Services
+Gets a table_id_extension field identifying a subtable within an Integrated Services
   Digital Broadcasting (ISDB) entitlement management message (EMM) table.
 
 

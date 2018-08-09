@@ -7,7 +7,7 @@ old-location: gdi\createroundrectrgn.htm
 old-project: gdi
 ms.assetid: 16f387e1-b00c-4755-8b21-1ee0f25bc46b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateRoundRectRgn, CreateRoundRectRgn function [Windows GDI], _win32_CreateRoundRectRgn, gdi.createroundrectrgn, wingdi/CreateRoundRectRgn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,66 +63,34 @@ The <b>CreateRoundRectRgn</b> function creates a rectangular region with rounded
 
 
 
-### -param x1
-
-TBD
-
-
-### -param y1
-
-TBD
-
-
-### -param x2
-
-TBD
-
-
-### -param y2
-
-TBD
-
-
-### -param w
-
-TBD
-
-
-### -param h
-
-TBD
-
-
-
-
-#### - nBottomRect [in]
-
-Specifies the y-coordinate of the lower-right corner of the region in device units.
-
-
-#### - nHeightEllipse [in]
-
-Specifies the height of the ellipse used to create the rounded corners in device units.
-
-
-#### - nLeftRect [in]
+### -param x1 [in]
 
 Specifies the x-coordinate of the upper-left corner of the region in device units.
 
 
-#### - nRightRect [in]
-
-Specifies the x-coordinate of the lower-right corner of the region in device units.
-
-
-#### - nTopRect [in]
+### -param y1 [in]
 
 Specifies the y-coordinate of the upper-left corner of the region in device units.
 
 
-#### - nWidthEllipse [in]
+### -param x2 [in]
+
+Specifies the x-coordinate of the lower-right corner of the region in device units.
+
+
+### -param y2 [in]
+
+Specifies the y-coordinate of the lower-right corner of the region in device units.
+
+
+### -param w [in]
 
 Specifies the width of the ellipse used to create the rounded corners in device units.
+
+
+### -param h [in]
+
+Specifies the height of the ellipse used to create the rounded corners in device units.
 
 
 ## -returns

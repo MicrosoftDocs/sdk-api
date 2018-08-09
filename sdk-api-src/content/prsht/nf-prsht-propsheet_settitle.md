@@ -7,7 +7,7 @@ old-location: controls\PropSheet_SetTitle.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_settitle.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: PropSheet_SetTitle, PropSheet_SetTitle macro [Windows Controls], _win32_PropSheet_SetTitle, _win32_PropSheet_SetTitle_cpp, controls.PropSheet_SetTitle, controls._win32_PropSheet_SetTitle, prsht/PropSheet_SetTitle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Sets the title of a property sheet. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774627(v=VS.85).aspx">PSM_SETTITLE</a> message explicitly.
+Sets the title of a property sheet. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774627(v=VS.85).aspx">PSM_SETTITLE</a> message explicitly.
 
 
 ## -parameters
@@ -61,40 +61,30 @@ Sets the title of a property sheet. You can use this macro or send the <a href="
 
 ### -param hDlg
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to the property sheet.
 
 
 ### -param wStyle
-
-TBD
-
-
-### -param lpszText
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
-
-Pointer to a buffer that contains the title string. If the <a href="https://msdn.microsoft.com/library/ms632657(v=VS.85).aspx">HIWORD</a> of this parameter is <b>NULL</b>, the property sheet loads the string resource specified in the <a href="https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx">LOWORD</a>.
-
-
-#### - dwStyle
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 Flag that indicates whether to include the prefix "Properties for" with the specified title string. If <i>dwStyle</i> is the PSH_PROPTITLE value, the prefix is included. Otherwise, the prefix is not used.
 
 
-#### - hPropSheetDlg
+### -param lpszText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
 
-Handle to the property sheet.
+Pointer to a buffer that contains the title string. If the <a href="https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx">HIWORD</a> of this parameter is <b>NULL</b>, the property sheet loads the string resource specified in the <a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a>.
 
 
 ## -remarks
 
 
 
-In an Aero Wizard, this macro can be used to change the title of an interior page dynamically; for example, when handling the <a href="https://msdn.microsoft.com/library/Bb774568(v=VS.85).aspx">PSN_SETACTIVE</a> notification.
+In an Aero Wizard, this macro can be used to change the title of an interior page dynamically; for example, when handling the <a href="https://msdn.microsoft.com/en-us/library/Bb774568(v=VS.85).aspx">PSN_SETACTIVE</a> notification.
 
 
 

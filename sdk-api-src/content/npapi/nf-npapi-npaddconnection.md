@@ -7,7 +7,7 @@ old-location: security\npaddconnection.htm
 old-project: secauthn
 ms.assetid: 37a3988c-18ee-400a-85c3-cc3cbdf015ea
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: NPAddConnection, NPAddConnection function [Security], _mnp_npaddconnection, dwType, lpLocalName, lpRemoteName, npapi/NPAddConnection, security.npaddconnection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-			The <b>NPAddConnection</b> function connects a local device to a network resource.
+The <b>NPAddConnection</b> function connects a local device to a network resource.
 
 
 ## -parameters
@@ -120,8 +119,7 @@ For example, if you were logged using the user name "MyAccount" and wanted to co
 
 
 
-
-						If the function succeeds, it should return WN_SUCCESS. Otherwise, it should return an error code, which can be one of the following.
+If the function succeeds, it should return WN_SUCCESS. Otherwise, it should return an error code, which can be one of the following.
 
 <table>
 <tr>

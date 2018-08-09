@@ -7,7 +7,7 @@ old-location: tsf\ienumtfuielements.htm
 old-project: TSF
 ms.assetid: 5ee3d89c-0761-4d4b-9fd9-6b9de7ceb077
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumTfUIElements, IEnumTfUIElements interface [Text Services Framework], IEnumTfUIElements interface [Text Services Framework],described, _tsf_ienumtfuielements_ref, msctf/IEnumTfUIElements, tsf.ienumtfuielements
 ms.prod: windows
 ms.technology: windows-sdk

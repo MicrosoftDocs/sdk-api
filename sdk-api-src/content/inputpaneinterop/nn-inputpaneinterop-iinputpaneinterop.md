@@ -7,7 +7,7 @@ old-location: winrt\iinputpaneinterop.htm
 old-project: WinRT
 ms.assetid: DAE4705C-B786-44D4-8B03-1523EFC4C190
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IInputPaneInterop, IInputPaneInterop interface [Windows Runtime], IInputPaneInterop interface [Windows Runtime],described, inputpaneinterop/IInputPaneInterop, winrt.iinputpaneinterop
 ms.prod: windows
 ms.technology: windows-sdk

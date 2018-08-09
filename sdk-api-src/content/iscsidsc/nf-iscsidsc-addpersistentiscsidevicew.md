@@ -7,7 +7,7 @@ old-location: iscsidisc\addpersistentiscsidevice.htm
 old-project: iSCSIDisc
 ms.assetid: 184b256b-0cb0-45c1-8f73-5ff28fb388fb
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: AddPersistentIScsiDeviceW, AddPersistentIscsiDevice, AddPersistentIscsiDevice function [iSCSI Discovery Library API], AddPersistentIscsiDeviceA, AddPersistentIscsiDeviceW, AddPersistentiScsiDevice, iscsidisc.addpersistentiscsidevice, iscsidsc/AddPersistentIscsiDevice, iscsidsc/AddPersistentIscsiDeviceA, iscsidsc/AddPersistentIscsiDeviceW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,14 +63,7 @@ The <b>AddPersistentIscsiDevice</b> function adds a volume device name, drive le
 
 
 
-### -param DevicePath
-
-TBD
-
-
-
-
-#### - VolumePath [in]
+### -param DevicePath [in]
 
 A drive letter or symbolic link for a mount point of the volume.
 

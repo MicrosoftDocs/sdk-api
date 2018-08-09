@@ -7,7 +7,7 @@ old-location: stg\ilockbytes_lockregion.htm
 old-project: stg
 ms.assetid: cea59e2a-99d8-472d-8e4f-2e2474789c20
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: ILockBytes interface [Structured Storage],LockRegion method, ILockBytes.LockRegion, ILockBytes::LockRegion, LockRegion, LockRegion method [Structured Storage], LockRegion method [Structured Storage],ILockBytes interface, _stg_ilockbytes_lockregion, objidl/ILockBytes::LockRegion, stg.ilockbytes_lockregion
 ms.prod: windows
 ms.technology: windows-sdk

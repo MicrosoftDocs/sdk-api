@@ -2,13 +2,13 @@
 UID: NA:winber
 ms.assetid: 7c6aa3f9-11ea-3c75-87c8-8c3cf028f197
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: ldap
+archived: true
 ---
 
 # Winber.h header

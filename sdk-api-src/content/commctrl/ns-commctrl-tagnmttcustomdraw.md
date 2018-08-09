@@ -7,7 +7,7 @@ old-location: controls\NMTTCUSTOMDRAW.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\nmttcustomdraw.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPNMTTCUSTOMDRAW, LPNMTTCUSTOMDRAW, LPNMTTCUSTOMDRAW structure pointer [Windows Controls], NMTTCUSTOMDRAW, NMTTCUSTOMDRAW structure [Windows Controls], _win32_NMTTCUSTOMDRAW, _win32_NMTTCUSTOMDRAW_cpp, commctrl/LPNMTTCUSTOMDRAW, commctrl/NMTTCUSTOMDRAW, controls.NMTTCUSTOMDRAW, controls._win32_NMTTCUSTOMDRAW, tagNMTTCUSTOMDRAW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information specific to an <a href="https://msdn.microsoft.com/library/Bb760264(v=VS.85).aspx">NM_CUSTOMDRAW</a> notification code sent by a tooltip control. 
+Contains information specific to an <a href="https://msdn.microsoft.com/en-us/library/Bb760264(v=VS.85).aspx">NM_CUSTOMDRAW</a> notification code sent by a tooltip control. 
 
 
 ## -struct-fields
@@ -60,17 +60,15 @@ Contains information specific to an <a href="https://msdn.microsoft.com/library/
 
 ### -field nmcd
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775483(v=VS.85).aspx">NMCUSTOMDRAW</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775483(v=VS.85).aspx">NMCUSTOMDRAW</a></b>
 
-
-            Contains general custom draw information. 
+Contains general custom draw information. 
 
 
 ### -field uDrawFlags
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            Specifies how tooltip text will be formatted when it is displayed. An application may change this field to alter the way text is drawn. This value is passed to the <a href="https://msdn.microsoft.com/fe412280-d797-4abd-8a29-107a9cd96145">DrawText</a> function internally. All values for the 
+Specifies how tooltip text will be formatted when it is displayed. An application may change this field to alter the way text is drawn. This value is passed to the <a href="https://msdn.microsoft.com/fe412280-d797-4abd-8a29-107a9cd96145">DrawText</a> function internally. All values for the 
 					<i>uFormat</i> parameter of <b>DrawText</b> are valid. 
 

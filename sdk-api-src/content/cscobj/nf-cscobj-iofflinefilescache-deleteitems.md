@@ -7,7 +7,7 @@ old-location: of\iofflinefilescache_deleteitems.htm
 old-project: offlinefiles
 ms.assetid: e6326364-fbd0-4446-97c3-6a3940856efb
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: DeleteItems, DeleteItems method [Offline Files], DeleteItems method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],DeleteItems method, IOfflineFilesCache.DeleteItems, IOfflineFilesCache::DeleteItems, OFFLINEFILES_DELETE_FLAG_ADMIN, OFFLINEFILES_DELETE_FLAG_DELMODIFIED, OFFLINEFILES_DELETE_FLAG_NOAUTOCACHED, OFFLINEFILES_DELETE_FLAG_NOPINNED, cscobj/IOfflineFilesCache::DeleteItems, of.iofflinefilescache_deleteitems
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-    Deletes files and directories from the local cache.  Deleting a container item implies deletion of all its contained items, recursively.
+Deletes files and directories from the local cache.  Deleting a container item implies deletion of all its contained items, recursively.
 
 
 ## -parameters

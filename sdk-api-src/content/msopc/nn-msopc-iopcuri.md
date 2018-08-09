@@ -7,7 +7,7 @@ old-location: opc\iopcuri.htm
 old-project: OPC
 ms.assetid: 35ce7946-f7e7-4ac3-852f-e3fcca23d6d4
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcUri, IOpcUri interface [Open Packaging Conventions], IOpcUri interface [Open Packaging Conventions],described, msopc/IOpcUri, opc.iopcuri
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IOpcUri</b> interface has these methods.
 <a href="https://msdn.microsoft.com/9bb4c351-12ef-4e26-bcb1-59f81a413588">CombinePartUri</a>
 </td>
 <td align="left" width="63%">
-
-              Forms the part name of the part that is referenced by the specified relative URI.
+Forms the part name of the part that is referenced by the specified relative URI.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IOpcUri</b> interface has these methods.
 <a href="https://msdn.microsoft.com/1b953b4c-6e8d-4097-a6bf-618b49cdd603">GetRelationshipsPartUri</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the part name of the Relationships part that stores relationships that have the source URI represented by the  current OPC URI object.
+Gets the part name of the Relationships part that stores relationships that have the source URI represented by the  current OPC URI object.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IOpcUri</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ce98b0a6-f4b3-4f49-897a-f144af7dfc49">GetRelativeUri</a>
 </td>
 <td align="left" width="63%">
-
-              Forms a relative URI for a specified part, relative to the URI represented by the current OPC URI object.
+Forms a relative URI for a specified part, relative to the URI represented by the current OPC URI object.
             
 
 </td>

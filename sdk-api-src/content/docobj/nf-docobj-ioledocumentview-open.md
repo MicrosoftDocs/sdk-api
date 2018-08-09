@@ -7,7 +7,7 @@ old-location: com\ioledocumentview_open.htm
 old-project: com
 ms.assetid: 46f801ae-ae03-4567-9442-cf3fbb6d06d7
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IOleDocumentView interface [COM],Open method, IOleDocumentView.Open, IOleDocumentView::Open, Open, Open method [COM], Open method [COM],IOleDocumentView interface, _ole_ioledocumentview_open, com.ioledocumentview_open, docobj/IOleDocumentView::Open
 ms.prod: windows
 ms.technology: windows-sdk

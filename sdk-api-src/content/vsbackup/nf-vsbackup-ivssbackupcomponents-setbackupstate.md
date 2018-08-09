@@ -4,10 +4,10 @@ title: IVssBackupComponents::SetBackupState
 author: windows-sdk-content
 description: The SetBackupState method defines an overall configuration for a backup operation.
 old-location: base\ivssbackupcomponents_setbackupstate.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 18a1295d-b763-477b-bda2-baf8a878bf46
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetBackupState method, IVssBackupComponents.SetBackupState, IVssBackupComponents::SetBackupState, SetBackupState, SetBackupState method [VSS], SetBackupState method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setbackupstate, base.ivssbackupcomponents_setbackupstate, vsbackup/IVssBackupComponents::SetBackupState
 ms.prod: windows
 ms.technology: windows-sdk

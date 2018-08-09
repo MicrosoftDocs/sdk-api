@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevice_close.htm
 old-project: wpd_sdk
 ms.assetid: aa60a439-7589-465e-98e5-56b93d594f96
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: Close, Close method [Windows Portable Devices SDK], Close method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Close method, IPortableDevice.Close, IPortableDevice::Close, IPortableDeviceClose, portabledeviceapi/IPortableDevice::Close, wpdsdk.iportabledevice_close
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-        The <b>Close</b> method closes the connection with the device.
+The <b>Close</b> method closes the connection with the device.
       
 
 
@@ -68,8 +67,7 @@ req.product: ADAM
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -98,8 +96,7 @@ The method succeeded.
 
 
 
-
-        You should not usually need to call this method yourself. When the last reference to the <a href="https://msdn.microsoft.com/98c48e56-56b8-4800-b52b-ac08f2abf27e">IPortableDevice</a> interface  is released, Windows Portable Devices calls <b>Close</b> for you. Calling this method manually forces the connection to the device to close, and any Windows Portable Devices objects hosted on this device will cease to function. You can call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> to reopen the connection.
+You should not usually need to call this method yourself. When the last reference to the <a href="https://msdn.microsoft.com/98c48e56-56b8-4800-b52b-ac08f2abf27e">IPortableDevice</a> interface  is released, Windows Portable Devices calls <b>Close</b> for you. Calling this method manually forces the connection to the device to close, and any Windows Portable Devices objects hosted on this device will cease to function. You can call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> to reopen the connection.
       
 
 

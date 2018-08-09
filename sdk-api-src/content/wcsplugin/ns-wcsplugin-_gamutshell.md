@@ -7,7 +7,7 @@ old-location: wcs\gamutshell.htm
 old-project: WCS
 ms.assetid: 1cec9fa3-4395-4047-a866-47c3bae9d875
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: GamutShell, GamutShell structure [Windows Color System], _GamutShell, _color_GamutShell_str, wcs.gamutshell, wcsplugin/GamutShell
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,14 +94,14 @@ The number of triangles in the shell.
 
 
 
-#### - *pTriangles
-
-A pointer to the indexed triangles.
-
-
 #### - *pVertices
 
 A pointer to the vertices data.
+
+
+#### - *pTriangles
+
+A pointer to the indexed triangles.
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: mf\imfpmphost_createobjectbyclsid.htm
 old-project: medfound
 ms.assetid: 787fc392-1858-41f4-a1ce-2da02a5e789f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 787fc392-1858-41f4-a1ce-2da02a5e789f, CreateObjectByCLSID, CreateObjectByCLSID method [Media Foundation], CreateObjectByCLSID method [Media Foundation],IMFPMPHost interface, IMFPMPHost interface [Media Foundation],CreateObjectByCLSID method, IMFPMPHost.CreateObjectByCLSID, IMFPMPHost::CreateObjectByCLSID, mf.imfpmphost_createobjectbyclsid, mfidl/IMFPMPHost::CreateObjectByCLSID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Creates an object in the protect media path (PMP) process, from a CLSID.
+Creates an object in the protect media path (PMP) process, from a CLSID.
         
 
 
@@ -64,8 +63,7 @@ req.product: GDI+ 1.1
 
 ### -param clsid [in]
 
-
-            The CLSID of the object to create.
+The CLSID of the object to create.
           
 
 
@@ -77,15 +75,13 @@ A pointer to the <b>IStream</b> interface. This parameter can be <b>NULL</b>. If
 
 ### -param riid [in]
 
-
-            The interface identifier (IID) of the interface to retrieve.
+The interface identifier (IID) of the interface to retrieve.
           
 
 
 ### -param ppv [out]
 
-
-            Receives a pointer to the requested interface. The caller must release the interface.
+Receives a pointer to the requested interface. The caller must release the interface.
           
 
 
@@ -102,8 +98,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        You can use the <i>pStream</i> parameter to initialize the object after it is created.
+You can use the <i>pStream</i> parameter to initialize the object after it is created.
       
 
 

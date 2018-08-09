@@ -7,7 +7,7 @@ old-location: opc\iopccertificateset_add.htm
 old-project: OPC
 ms.assetid: d14e9a1e-dda3-4b57-9882-0fd473a19e8c
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: Add, Add method [Open Packaging Conventions], Add method [Open Packaging Conventions],IOpcCertificateSet interface, IOpcCertificateSet interface [Open Packaging Conventions],Add method, IOpcCertificateSet.Add, IOpcCertificateSet::Add, msopc/IOpcCertificateSet::Add, opc.iopccertificateset_add
 ms.prod: windows
 ms.technology: windows-sdk

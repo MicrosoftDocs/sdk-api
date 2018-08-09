@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeergetidentity.htm
 old-project: eaphost
 ms.assetid: 25d1b360-694d-4ab8-9be4-a79354367068
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapHostPeerGetIdentity, EapHostPeerGetIdentity function [EAPHost], eaphost.eaphostpeergetidentity, eappapis/EapHostPeerGetIdentity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,9 +104,9 @@ Impersonation token for a logged-on user to collect user-related information.
 Returns <b>TRUE</b> if the user identity and user data blob aren't returned successfully, and the method seeks to collect the information from the user through the user interface dialog.
 
 
-### -param pdwSizeOfUserDataOut
+### -param pdwSizeOfUserDataOut [in, out]
 
-TBD
+Size of the buffer indicated by the <i>ppUserDataOut</i> parameter, in bytes.
 
 
 ### -param ppUserDataOut [out]
@@ -127,11 +127,6 @@ A pointer to a pointer to an <a href="https://msdn.microsoft.com/6af8cb67-da77-4
 ### -param ppvReserved [in, out]
 
 Reserved for future use
-
-
-#### - pdwSizeofUserDataOut [in, out]
-
-Size of the buffer indicated by the <i>ppUserDataOut</i> parameter, in bytes.
 
 
 ## -see-also

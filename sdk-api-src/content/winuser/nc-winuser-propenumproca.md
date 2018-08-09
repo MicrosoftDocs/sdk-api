@@ -7,7 +7,7 @@ old-location: winmsg\propenumproc.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\propenumproc.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PropEnumProc, PropEnumProc callback, PropEnumProc callback function [Windows and Messages], PropEnumProcA, PropEnumProcW, _win32_PropEnumProc, _win32_propenumproc_cpp, winmsg.propenumproc, winui._win32_propenumproc, winuser/PropEnumProc, winuser/PropEnumProcA, winuser/PropEnumProcW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,13 +76,6 @@ An application-defined callback function used with the <a href="https://msdn.mic
 
 
 
-#### - hData [in]
-
-Type: <b>HANDLE</b>
-
-A handle to the data. This handle is the data component of a property list entry. 
-
-
 #### - hwnd [in]
 
 Type: <b>HWND</b>
@@ -95,6 +88,13 @@ A handle to the window whose property list is being enumerated.
 Type: <b>LPCTSTR</b>
 
 The string component of a property list entry. This is the string that was specified, along with a data handle, when the property was added to the window's property list via a call to the <a href="https://msdn.microsoft.com/en-us/library/ms633568(v=VS.85).aspx">SetProp</a> function. 
+
+
+#### - hData [in]
+
+Type: <b>HANDLE</b>
+
+A handle to the data. This handle is the data component of a property list entry. 
 
 
 ## -returns

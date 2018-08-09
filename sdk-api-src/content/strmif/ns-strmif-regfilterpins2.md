@@ -7,7 +7,7 @@ old-location: dshow\regfilterpins2.htm
 old-project: DirectShow
 ms.assetid: a78327f1-a0aa-4e25-b6f8-cf45b92191fa
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: REGFILTERPINS2, REGFILTERPINS2 structure [DirectShow], REGFILTERPINS2Structure, dshow.regfilterpins2, strmif/REGFILTERPINS2
 ms.prod: windows
 ms.technology: windows-sdk

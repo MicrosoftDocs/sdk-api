@@ -4,10 +4,10 @@ title: GlobalDiscard macro
 author: windows-sdk-content
 description: Discards the specified global memory block.
 old-location: base\globaldiscard.htm
-old-project: Memory
+old-project: memory
 ms.assetid: af6160ce-ab7a-4198-bca3-dd5d51cacfa5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GlobalDiscard, GlobalDiscard macro, _win32_globaldiscard, base.globaldiscard, winbase/GlobalDiscard
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,16 +60,7 @@ Discards the specified global memory block. The lock count of the memory object 
 
 
 
-### -param h
-
-TBD
-
-
-
-
-
-
-#### - hMem [in]
+### -param h [in]
 
 A handle to the global memory object. This handle is returned by either the 
 <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GlobalAlloc</a> or 

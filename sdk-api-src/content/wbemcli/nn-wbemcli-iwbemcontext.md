@@ -7,7 +7,7 @@ old-location: wmi\iwbemcontext.htm
 old-project: WmiSdk
 ms.assetid: 458bd455-6984-414b-a0b7-62887d9dad7c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: IWbemContext, IWbemContext interface [Windows Management Instrumentation], IWbemContext interface [Windows Management Instrumentation],described, WbemContext, _hmm_iwbemcontext, wbemcli/IWbemContext, wmi.iwbemcontext
 ms.prod: windows
 ms.technology: windows-sdk

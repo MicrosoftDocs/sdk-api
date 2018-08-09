@@ -7,7 +7,7 @@ old-location: mstv\iisdbcadescriptor_getcapid.htm
 old-project: mstv
 ms.assetid: 9d4815f2-7f58-4952-a64b-067c99ae8d43
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetCAPID, GetCAPID method [Microsoft TV Technologies], GetCAPID method [Microsoft TV Technologies],IIsdbCADescriptor interface, IIsdbCADescriptor interface [Microsoft TV Technologies],GetCAPID method, IIsdbCADescriptor.GetCAPID, IIsdbCADescriptor::GetCAPID, dvbsiparser/IIsdbCADescriptor::GetCAPID, mstv.iisdbcadescriptor_getcapid
 ms.prod: windows
 ms.technology: windows-sdk

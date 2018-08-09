@@ -7,7 +7,7 @@ old-location: mscs\resutilfindmultiszproperty.htm
 old-project: mscs
 ms.assetid: 65209ca8-e293-40cc-ac8a-9643933e049f
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: PRESUTIL_FIND_MULTI_SZ_PROPERTY, PRESUTIL_FIND_MULTI_SZ_PROPERTY function [Failover Cluster], ResUtilFindMultiSzProperty, ResUtilFindMultiSzProperty function [Failover Cluster], _wolf_resutilfindmultiszproperty, mscs.resutilfindmultiszproperty, resapi/PRESUTIL_FIND_MULTI_SZ_PROPERTY, resapi/ResUtilFindMultiSzProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,19 +74,14 @@ Size in bytes of the data included in <i>pPropertyList</i>.
 Pointer to a null-terminated Unicode string containing the name of the value to locate.
 
 
-### -param pszPropertyValue
+### -param pszPropertyValue [out]
 
-TBD
+Pointer to a <b>WCHAR</b> pointer to a buffer (allocated by the function) containing a copy of the property value. You must call <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> (on *<i>pbPropertyValue</i>) to free the allocated memory. If no value is required, pass <b>NULL</b> for this parameter.
 
 
 ### -param pcbPropertyValueSize [out]
 
 Pointer to the size, in bytes, of the value returned. If no size is required, pass <b>NULL</b> for this parameter.
-
-
-#### - pbPropertyValue [out]
-
-Pointer to a <b>WCHAR</b> pointer to a buffer (allocated by the function) containing a copy of the property value. You must call <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> (on *<i>pbPropertyValue</i>) to free the allocated memory. If no value is required, pass <b>NULL</b> for this parameter.
 
 
 ## -returns

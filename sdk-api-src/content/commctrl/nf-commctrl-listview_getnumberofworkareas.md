@@ -7,7 +7,7 @@ old-location: controls\ListView_GetNumberOfWorkAreas.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getnumberofworkareas.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_GetNumberOfWorkAreas, ListView_GetNumberOfWorkAreas macro [Windows Controls], _win32_ListView_GetNumberOfWorkAreas, _win32_ListView_GetNumberOfWorkAreas_cpp, commctrl/ListView_GetNumberOfWorkAreas, controls.ListView_GetNumberOfWorkAreas, controls._win32_ListView_GetNumberOfWorkAreas
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the number of working areas in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761061(v=VS.85).aspx">LVM_GETNUMBEROFWORKAREAS</a> message explicitly. 
+Gets the number of working areas in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761061(v=VS.85).aspx">LVM_GETNUMBEROFWORKAREAS</a> message explicitly. 
 
 
 ## -parameters
@@ -60,26 +60,12 @@ Gets the number of working areas in a list-view control. You can use this macro 
 
 ### -param hwnd
 
-TBD
-
-
-### -param pnWorkAreas
-
-TBD
-
-
-
-
-
-
-#### - hwndLV
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 
 
-#### - lpuWorkAreas
+### -param pnWorkAreas
 
 Type: <b>LPUINT</b>
 
@@ -91,7 +77,7 @@ A pointer to a UINT value that receives the number of working areas in the list-
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774736(v=VS.85).aspx">Using List-View Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774736(v=VS.85).aspx">Using List-View Controls</a>
  
 
  

@@ -4,10 +4,10 @@ title: IVdsAdvancedDisk::Clean
 author: windows-sdk-content
 description: Removes partition information and uninitializes basic or dynamic disks.Windows Server 2003:  The Clean method is not supported for removable devices.
 old-location: base\ivdsadvanceddisk_clean.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 4052f294-d911-44c6-a57f-0a0a6f24df70
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: Clean, Clean method [VDS], Clean method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],Clean method, IVdsAdvancedDisk.Clean, IVdsAdvancedDisk::Clean, base.ivdsadvanceddisk_clean, vds/IVdsAdvancedDisk::Clean
 ms.prod: windows
 ms.technology: windows-sdk

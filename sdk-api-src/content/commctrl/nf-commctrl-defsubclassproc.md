@@ -7,7 +7,7 @@ old-location: shell\DefSubclassProc.htm
 old-project: shell
 ms.assetid: 43b1efa5-11da-4a95-8d81-b0d8ae64733a
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DefSubclassProc, DefSubclassProc function [Windows Shell], commctrl/DefSubclassProc, inet_DefSubclassProc, shell.DefSubclassProc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,30 +72,18 @@ Type: <b>UINT</b>
 A value of type unsigned <b>int</b> that specifies a window message.
 
 
-### -param wParam
-
-TBD
-
-
-### -param lParam
-
-TBD
-
-
-
-
-#### - LPARAM [in]
-
-Type: <b>LPARAM</b>
-
-Specifies additional message information. The contents of this parameter depend on the value of the window message. Note: On 64-bit versions of Windows LPARAM is a 64-bit value.
-
-
-#### - WPARAM [in]
+### -param wParam [in]
 
 Type: <b>WPARAM</b>
 
 Specifies additional message information. The contents of this parameter depend on the value of the window message.
+
+
+### -param lParam [in]
+
+Type: <b>LPARAM</b>
+
+Specifies additional message information. The contents of this parameter depend on the value of the window message. Note: On 64-bit versions of Windows LPARAM is a 64-bit value.
 
 
 ## -returns

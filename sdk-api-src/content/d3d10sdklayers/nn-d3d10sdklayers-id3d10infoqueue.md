@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 1ef0bd38-23d3-fa53-cf27-ff502bb674f2, ID3D10InfoQueue, ID3D10InfoQueue interface [Direct3D 10], ID3D10InfoQueue interface [Direct3D 10],described, d3d10sdklayers/ID3D10InfoQueue, direct3d10.id3d10infoqueue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>ID3D10InfoQueue</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173780(v=VS.85).aspx">AddApplicationMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173780(v=VS.85).aspx">AddApplicationMessage</a>
 </td>
 <td align="left" width="63%">
 Add a user-defined message to the message queue and send that message to debug output.
@@ -80,7 +80,7 @@ Add a user-defined message to the message queue and send that message to debug o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173781(v=VS.85).aspx">AddMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173781(v=VS.85).aspx">AddMessage</a>
 </td>
 <td align="left" width="63%">
 Add a Direct3D 10 debug message to the message queue and send that message to debug output.
@@ -89,7 +89,7 @@ Add a Direct3D 10 debug message to the message queue and send that message to de
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173782(v=VS.85).aspx">AddRetrievalFilterEntries</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173782(v=VS.85).aspx">AddRetrievalFilterEntries</a>
 </td>
 <td align="left" width="63%">
 Add storage filters to the top of the retrieval-filter stack.
@@ -98,7 +98,7 @@ Add storage filters to the top of the retrieval-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173783(v=VS.85).aspx">AddStorageFilterEntries</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173783(v=VS.85).aspx">AddStorageFilterEntries</a>
 </td>
 <td align="left" width="63%">
 Add storage filters to the top of the storage-filter stack.
@@ -107,7 +107,7 @@ Add storage filters to the top of the storage-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173784(v=VS.85).aspx">ClearRetrievalFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173784(v=VS.85).aspx">ClearRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Remove a retrieval filter from the top of the retrieval-filter stack.
@@ -116,7 +116,7 @@ Remove a retrieval filter from the top of the retrieval-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173785(v=VS.85).aspx">ClearStorageFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173785(v=VS.85).aspx">ClearStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Remove a storage filter from the top of the storage-filter stack.
@@ -125,7 +125,7 @@ Remove a storage filter from the top of the storage-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173786(v=VS.85).aspx">ClearStoredMessages</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173786(v=VS.85).aspx">ClearStoredMessages</a>
 </td>
 <td align="left" width="63%">
 Clear all messages from the message queue.
@@ -134,7 +134,7 @@ Clear all messages from the message queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173787(v=VS.85).aspx">GetBreakOnCategory</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173787(v=VS.85).aspx">GetBreakOnCategory</a>
 </td>
 <td align="left" width="63%">
 Get a message category to break on when a message with that category passes through the storage filter.
@@ -143,7 +143,7 @@ Get a message category to break on when a message with that category passes thro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173788(v=VS.85).aspx">GetBreakOnID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173788(v=VS.85).aspx">GetBreakOnID</a>
 </td>
 <td align="left" width="63%">
 Get a message identifier to break on when a message with that identifier passes through the storage filter.
@@ -152,7 +152,7 @@ Get a message identifier to break on when a message with that identifier passes 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173789(v=VS.85).aspx">GetBreakOnSeverity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173789(v=VS.85).aspx">GetBreakOnSeverity</a>
 </td>
 <td align="left" width="63%">
 Get a message severity level to break on when a message with that severity level passes through the storage filter.
@@ -161,7 +161,7 @@ Get a message severity level to break on when a message with that severity level
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173790(v=VS.85).aspx">GetMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173790(v=VS.85).aspx">GetMessage</a>
 </td>
 <td align="left" width="63%">
 Get a message from the message queue.
@@ -170,7 +170,7 @@ Get a message from the message queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173791(v=VS.85).aspx">GetMessageCountLimit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173791(v=VS.85).aspx">GetMessageCountLimit</a>
 </td>
 <td align="left" width="63%">
 Get the maximum number of messages that can be added to the message queue.
@@ -179,7 +179,7 @@ Get the maximum number of messages that can be added to the message queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173792(v=VS.85).aspx">GetMuteDebugOutput</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173792(v=VS.85).aspx">GetMuteDebugOutput</a>
 </td>
 <td align="left" width="63%">
 Get a boolean that turns the debug output on or off.
@@ -188,7 +188,7 @@ Get a boolean that turns the debug output on or off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173793(v=VS.85).aspx">GetNumMessagesAllowedByStorageFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173793(v=VS.85).aspx">GetNumMessagesAllowedByStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Get the number of messages that were allowed to pass through a storage filter.
@@ -197,7 +197,7 @@ Get the number of messages that were allowed to pass through a storage filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173794(v=VS.85).aspx">GetNumMessagesDeniedByStorageFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173794(v=VS.85).aspx">GetNumMessagesDeniedByStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Get the number of messages that were denied passage through a storage filter.
@@ -206,7 +206,7 @@ Get the number of messages that were denied passage through a storage filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173795(v=VS.85).aspx">GetNumMessagesDiscardedByMessageCountLimit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173795(v=VS.85).aspx">GetNumMessagesDiscardedByMessageCountLimit</a>
 </td>
 <td align="left" width="63%">
 Get the number of messages that were discarded due to the message count limit.
@@ -215,7 +215,7 @@ Get the number of messages that were discarded due to the message count limit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173796(v=VS.85).aspx">GetNumStoredMessages</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173796(v=VS.85).aspx">GetNumStoredMessages</a>
 </td>
 <td align="left" width="63%">
 Get the number of messages currently stored in the message queue.
@@ -224,7 +224,7 @@ Get the number of messages currently stored in the message queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173797(v=VS.85).aspx">GetNumStoredMessagesAllowedByRetrievalFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173797(v=VS.85).aspx">GetNumStoredMessagesAllowedByRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Get the number of messages that are able to pass through a retrieval filter.
@@ -233,7 +233,7 @@ Get the number of messages that are able to pass through a retrieval filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173798(v=VS.85).aspx">GetRetrievalFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173798(v=VS.85).aspx">GetRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Get the retrieval filter at the top of the retrieval-filter stack.
@@ -242,7 +242,7 @@ Get the retrieval filter at the top of the retrieval-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173799(v=VS.85).aspx">GetRetrievalFilterStackSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173799(v=VS.85).aspx">GetRetrievalFilterStackSize</a>
 </td>
 <td align="left" width="63%">
 Get the size of the retrieval-filter stack in bytes.
@@ -251,7 +251,7 @@ Get the size of the retrieval-filter stack in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173800(v=VS.85).aspx">GetStorageFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173800(v=VS.85).aspx">GetStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Get the storage filter at the top of the storage-filter stack.
@@ -260,7 +260,7 @@ Get the storage filter at the top of the storage-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173801(v=VS.85).aspx">GetStorageFilterStackSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173801(v=VS.85).aspx">GetStorageFilterStackSize</a>
 </td>
 <td align="left" width="63%">
 Get the size of the storage-filter stack in bytes.
@@ -269,7 +269,7 @@ Get the size of the storage-filter stack in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173802(v=VS.85).aspx">PopRetrievalFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173802(v=VS.85).aspx">PopRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Pop a retrieval filter from the top of the retrieval-filter stack.
@@ -278,7 +278,7 @@ Pop a retrieval filter from the top of the retrieval-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173803(v=VS.85).aspx">PopStorageFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173803(v=VS.85).aspx">PopStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Pop a storage filter from the top of the storage-filter stack.
@@ -287,7 +287,7 @@ Pop a storage filter from the top of the storage-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173804(v=VS.85).aspx">PushCopyOfRetrievalFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173804(v=VS.85).aspx">PushCopyOfRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Push a copy of retrieval filter currently on the top of the retrieval-filter stack onto the retrieval-filter stack.
@@ -296,7 +296,7 @@ Push a copy of retrieval filter currently on the top of the retrieval-filter sta
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173805(v=VS.85).aspx">PushCopyOfStorageFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173805(v=VS.85).aspx">PushCopyOfStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Push a copy of storage filter currently on the top of the storage-filter stack onto the storage-filter stack.
@@ -305,7 +305,7 @@ Push a copy of storage filter currently on the top of the storage-filter stack o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173806(v=VS.85).aspx">PushEmptyRetrievalFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173806(v=VS.85).aspx">PushEmptyRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Push an empty retrieval filter onto the retrieval-filter stack.
@@ -314,7 +314,7 @@ Push an empty retrieval filter onto the retrieval-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173807(v=VS.85).aspx">PushEmptyStorageFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173807(v=VS.85).aspx">PushEmptyStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Push an empty storage filter onto the storage-filter stack.
@@ -323,7 +323,7 @@ Push an empty storage filter onto the storage-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173808(v=VS.85).aspx">PushRetrievalFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173808(v=VS.85).aspx">PushRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Push a retrieval filter onto the retrieval-filter stack.
@@ -332,7 +332,7 @@ Push a retrieval filter onto the retrieval-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173809(v=VS.85).aspx">PushStorageFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173809(v=VS.85).aspx">PushStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Push a storage filter onto the storage-filter stack.
@@ -341,7 +341,7 @@ Push a storage filter onto the storage-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173810(v=VS.85).aspx">SetBreakOnCategory</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173810(v=VS.85).aspx">SetBreakOnCategory</a>
 </td>
 <td align="left" width="63%">
 Set a message category to break on when a message with that category passes through the storage filter.
@@ -350,7 +350,7 @@ Set a message category to break on when a message with that category passes thro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173811(v=VS.85).aspx">SetBreakOnID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173811(v=VS.85).aspx">SetBreakOnID</a>
 </td>
 <td align="left" width="63%">
 Set a message identifier to break on when a message with that identifier passes through the storage filter.
@@ -359,7 +359,7 @@ Set a message identifier to break on when a message with that identifier passes 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173812(v=VS.85).aspx">SetBreakOnSeverity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173812(v=VS.85).aspx">SetBreakOnSeverity</a>
 </td>
 <td align="left" width="63%">
 Set a message severity level to break on when a message with that severity level passes through the storage filter.
@@ -368,7 +368,7 @@ Set a message severity level to break on when a message with that severity level
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173813(v=VS.85).aspx">SetMessageCountLimit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173813(v=VS.85).aspx">SetMessageCountLimit</a>
 </td>
 <td align="left" width="63%">
 Set the maximum number of messages that can be added to the message queue.
@@ -377,7 +377,7 @@ Set the maximum number of messages that can be added to the message queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173814(v=VS.85).aspx">SetMuteDebugOutput</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173814(v=VS.85).aspx">SetMuteDebugOutput</a>
 </td>
 <td align="left" width="63%">
 Set a boolean that turns the debug output on or off.
@@ -391,7 +391,7 @@ Set a boolean that turns the debug output on or off.
 
 
 
-This interface is obtained by turning on the <a href="https://msdn.microsoft.com/library/Bb205068(v=VS.85).aspx">debug layer</a> and querying it from the <a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a> using <a href="http://msdn.microsoft.com/en-us/library/ms682521(VS.85).aspx">IUnknown::QueryInterface</a>.
+This interface is obtained by turning on the <a href="https://msdn.microsoft.com/en-us/library/Bb205068(v=VS.85).aspx">debug layer</a> and querying it from the <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a> using <a href="http://msdn.microsoft.com/en-us/library/ms682521(VS.85).aspx">IUnknown::QueryInterface</a>.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -415,7 +415,7 @@ g_pd3dDevice-&gt;QueryInterface(__uuidof(ID3D10InfoQueue),  (void **)&amp;infoQu
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
  
 
  

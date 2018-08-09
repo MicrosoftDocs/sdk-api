@@ -7,7 +7,7 @@ old-location: security\cancelconnectnotify.htm
 old-project: secauthn
 ms.assetid: 94bd969d-f94d-449c-971d-d17fff2c07e1
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: CancelConnectNotify, CancelConnectNotify function [Security], _mnp_cancelconnectnotify, npapi/CancelConnectNotify, security.cancelconnectnotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ A pointer to a
 
 
 
-
-						If the function succeeds, the function should return WN_SUCCESS.
+If the function succeeds, the function should return WN_SUCCESS.
 
 If the function fails, it should return an error code. This can be any of the error codes specified in 
 <a href="https://msdn.microsoft.com/f8e6692f-4824-40fe-a5b3-9843689ea02e">Network Security Return Values</a>.

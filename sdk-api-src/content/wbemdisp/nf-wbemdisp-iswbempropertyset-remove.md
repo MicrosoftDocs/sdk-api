@@ -7,7 +7,7 @@ old-location: wmi\swbempropertyset_remove.htm
 old-project: WmiSdk
 ms.assetid: 2a1005db-033c-48f9-8ea0-0bd43b8c989f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemPropertySet interface [Windows Management Instrumentation],Remove method, ISWbemPropertySet.Remove, ISWbemPropertySet::Remove, Remove, Remove method [Windows Management Instrumentation], Remove method [Windows Management Instrumentation],ISWbemPropertySet interface, Remove method [Windows Management Instrumentation],SWbemPropertySet object, SWbemPropertySet object [Windows Management Instrumentation],Remove method, SWbemPropertySet.Remove, _hmm_swbempropertyset.remove, wmi.swbempropertyset_remove
 ms.prod: windows
 ms.technology: windows-sdk

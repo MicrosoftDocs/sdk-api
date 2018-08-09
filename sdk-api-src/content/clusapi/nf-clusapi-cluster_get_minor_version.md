@@ -7,7 +7,7 @@ old-location: mscs\cluster_get_minor_version.htm
 old-project: mscs
 ms.assetid: 90caa255-9b04-4b83-a846-78590bfce3a7
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: CLUSTER_GET_MINOR_VERSION, CLUSTER_GET_MINOR_VERSION macro [Failover Cluster], _wolf_cluster_get_minor_version, clusapi/CLUSTER_GET_MINOR_VERSION, mscs.cluster_get_minor_version
 ms.prod: windows
 ms.technology: windows-sdk

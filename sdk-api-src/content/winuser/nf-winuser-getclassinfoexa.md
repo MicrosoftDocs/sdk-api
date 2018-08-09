@@ -7,7 +7,7 @@ old-location: winmsg\getclassinfoex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclassinfoex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetClassInfoEx, GetClassInfoEx function [Windows and Messages], GetClassInfoExA, GetClassInfoExW, _win32_GetClassInfoEx, _win32_getclassinfoex_cpp, winmsg.getclassinfoex, winui._win32_getclassinfoex, winuser/GetClassInfoEx, winuser/GetClassInfoExA, winuser/GetClassInfoExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,9 +69,11 @@ Retrieves information about a window class, including a handle to the small icon
 
 
 
-### -param hInstance
+### -param hInstance [in, optional]
 
-TBD
+Type: <b>HINSTANCE</b>
+
+A handle to the instance of the application that created the class. To retrieve information about classes defined by the system (such as buttons or list boxes), set this parameter to <b>NULL</b>. 
 
 
 ### -param lpszClass [in]
@@ -87,13 +89,6 @@ The class name. The name must be that of a preregistered class or a class regist
 Type: <b>LPWNDCLASSEX</b>
 
 A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx">WNDCLASSEX</a> structure that receives the information about the class. 
-
-
-#### - hinst [in, optional]
-
-Type: <b>HINSTANCE</b>
-
-A handle to the instance of the application that created the class. To retrieve information about classes defined by the system (such as buttons or list boxes), set this parameter to <b>NULL</b>. 
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CurrentIsEnabled.htm
 old-project: WinAuto
 ms.assetid: 65b1311d-479a-4be4-a9fb-7dfe885420b8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CurrentIsEnabled property [Windows Accessibility], CurrentIsEnabled property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentIsEnabled property, IUIAutomationElement.CurrentIsEnabled, IUIAutomationElement.get_CurrentIsEnabled, IUIAutomationElement::CurrentIsEnabled, IUIAutomationElement::get_CurrentIsEnabled, get_CurrentIsEnabled, uiauto.uiauto_IUIAutomationElement_CurrentIsEnabled, uiauto_IUIAutomationElement_CurrentIsEnabled, uiautomationclient/IUIAutomationElement::CurrentIsEnabled, uiautomationclient/IUIAutomationElement::get_CurrentIsEnabled, winauto.uiauto_IUIAutomationElement_CurrentIsEnabled
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

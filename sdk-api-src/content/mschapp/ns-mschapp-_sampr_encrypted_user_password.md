@@ -7,7 +7,7 @@ old-location: mschap\sampr_encrypted_user_password.htm
 old-project: mschap
 ms.assetid: 10137c59-db99-4d70-9716-6f05369084a0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/30/2018
 ms.keywords: "*PSAMPR_ENCRYPTED_USER_PASSWORD, *PSAMPR_ENCRYPTED_USER_PASSWORD structure [MS-CHAP], SAMPR_ENCRYPTED_USER_PASSWORD, SAMPR_ENCRYPTED_USER_PASSWORD structure [MS-CHAP], _SAMPR_ENCRYPTED_USER_PASSWORD, mschap.sampr_encrypted_user_password, mschapp/*PSAMPR_ENCRYPTED_USER_PASSWORD, mschapp/SAMPR_ENCRYPTED_USER_PASSWORD"
 ms.prod: windows
 ms.technology: windows-sdk

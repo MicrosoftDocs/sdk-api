@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_createtexture1d.htm
 old-project: direct3d11
 ms.assetid: 34cdf984-8b2e-4ed3-a77b-b373752539f6
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 26bbf961-5a2a-c5ce-e1d3-3723caf1e453, CreateTexture1D, CreateTexture1D method [Direct3D 11], CreateTexture1D method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateTexture1D method, ID3D11Device.CreateTexture1D, ID3D11Device::CreateTexture1D, d3d11/ID3D11Device::CreateTexture1D, direct3d11.id3d11device_createtexture1d
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ A pointer to a buffer that receives a pointer to a <a href="https://msdn.microso
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return code is S_OK. See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> for failing error codes.
 

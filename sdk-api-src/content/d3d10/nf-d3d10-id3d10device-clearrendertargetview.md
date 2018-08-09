@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_clearrendertargetview.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_clearrendertargetview.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 3433c2e0-695b-85b1-b1ed-77a71348bc1f, ClearRenderTargetView, ClearRenderTargetView method [Direct3D 10], ClearRenderTargetView method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],ClearRenderTargetView method, ID3D10Device.ClearRenderTargetView, ID3D10Device::ClearRenderTargetView, d3d10/ID3D10Device::ClearRenderTargetView, direct3d10.id3d10device_clearrendertargetview
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Set all the elements in a render target to one value.
 
 ### -param pRenderTargetView [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173827(v=VS.85).aspx">ID3D10RenderTargetView</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173827(v=VS.85).aspx">ID3D10RenderTargetView</a>*</b>
 
 Pointer to the render target.
 
@@ -117,7 +117,7 @@ When using <a href="https://msdn.microsoft.com/9e51bda1-84f8-4144-b678-73c821c5b
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

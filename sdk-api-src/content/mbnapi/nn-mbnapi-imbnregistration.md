@@ -7,7 +7,7 @@ old-location: mbn\imbnregistration.htm
 old-project: mbn
 ms.assetid: da5413b7-adf4-4a3d-893f-f51441460541
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: IMbnRegistration, IMbnRegistration interface [Microsoft Broadband Networks], IMbnRegistration interface [Microsoft Broadband Networks],described, mbn.imbnregistration, mbnapi/IMbnRegistration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -166,7 +166,7 @@ Sets the registration mode for the device.
 
 
 
-An application can acquire this interface by calling the <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> method of <a href="https://msdn.microsoft.com/958bce42-4772-4706-8900-1f83c5d3d52b">IMbnInterface</a>.
+An application can acquire this interface by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method of <a href="https://msdn.microsoft.com/958bce42-4772-4706-8900-1f83c5d3d52b">IMbnInterface</a>.
 
 
 

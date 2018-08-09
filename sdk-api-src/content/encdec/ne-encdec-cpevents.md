@@ -7,7 +7,7 @@ old-location: mstv\cpevents.htm
 old-project: mstv
 ms.assetid: 7a8ef55f-0546-4642-960d-6bd6093ab5d2
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: CPEVENT_COPP, CPEVENT_DOWNRES, CPEVENT_LICENSE, CPEVENT_NONE, CPEVENT_RATINGS, CPEVENT_ROLLBACK, CPEVENT_SAC, CPEVENT_STUBLIB, CPEVENT_UNTRUSTEDGRAPH, CPEvents, CPEvents enumeration [Microsoft TV Technologies], encdec/CPEVENT_COPP, encdec/CPEVENT_DOWNRES, encdec/CPEVENT_LICENSE, encdec/CPEVENT_NONE, encdec/CPEVENT_RATINGS, encdec/CPEVENT_ROLLBACK, encdec/CPEVENT_SAC, encdec/CPEVENT_STUBLIB, encdec/CPEVENT_UNTRUSTEDGRAPH, encdec/CPEvents, mstv.cpevents
 ms.prod: windows
 ms.technology: windows-sdk

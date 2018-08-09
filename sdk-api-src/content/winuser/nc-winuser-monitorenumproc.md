@@ -7,7 +7,7 @@ old-location: gdi\monitorenumproc.htm
 old-project: gdi
 ms.assetid: 2d69e363-2b2c-450f-9069-488b80991217
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MonitorEnumProc, MonitorEnumProc callback, MonitorEnumProc callback function [Windows GDI], _win32_MonitorEnumProc, gdi.monitorenumproc, winuser/MonitorEnumProc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,11 +79,6 @@ A value of type <b>MONITORENUMPROC</b> is a pointer to a <b>MonitorEnumProc</b> 
 
 
 
-#### - dwData [in]
-
-Application-defined data that <a href="https://msdn.microsoft.com/a7668c28-77c9-4373-ae1a-eab3cb98f866">EnumDisplayMonitors</a> passes directly to the enumeration function.
-
-
 #### - hMonitor [in]
 
 A handle to the display monitor. This value will always be non-<b>NULL</b>.
@@ -105,6 +100,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 If <i>hdcMonitor</i> is non-<b>NULL</b>, this rectangle is the intersection of the clipping area of the device context identified by <i>hdcMonitor</i> and the display monitor rectangle. The rectangle coordinates are device-context coordinates.
 
 If <i>hdcMonitor</i> is <b>NULL</b>, this rectangle is the display monitor rectangle. The rectangle coordinates are virtual-screen coordinates.
+
+
+#### - dwData [in]
+
+Application-defined data that <a href="https://msdn.microsoft.com/a7668c28-77c9-4373-ae1a-eab3cb98f866">EnumDisplayMonitors</a> passes directly to the enumeration function.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: security\passwordchangenotify.htm
 old-project: secmgmt
 ms.assetid: 81d34dff-3842-407b-8fd8-3b0a5a5f38f1
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 08/06/2018
 ms.keywords: PSAM_PASSWORD_NOTIFICATION_ROUTINE, PSAM_PASSWORD_NOTIFICATION_ROUTINE callback, PasswordChangeNotify, PasswordChangeNotify callback function [Security], _pswd_passwordchangenotify, ntsecapi/PasswordChangeNotify, security.passwordchangenotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The <b>PasswordChangeNotify</b> function is implemented by a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">password filter</a> DLL. It notifies the DLL that a password was changed.
+The <b>PasswordChangeNotify</b> function is implemented by a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">password filter</a> DLL. It notifies the DLL that a password was changed.
 
 
 ## -parameters

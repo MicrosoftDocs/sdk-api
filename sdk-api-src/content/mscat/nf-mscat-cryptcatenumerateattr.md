@@ -7,7 +7,7 @@ old-location: security\cryptcatenumerateattr.htm
 old-project: seccrypto
 ms.assetid: 064e87db-4330-4b8b-9865-ba8b9714f6e4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CryptCATEnumerateAttr, CryptCATEnumerateAttr function [Security], mscat/CryptCATEnumerateAttr, security.cryptcatenumerateattr
 ms.prod: windows
 ms.technology: windows-sdk

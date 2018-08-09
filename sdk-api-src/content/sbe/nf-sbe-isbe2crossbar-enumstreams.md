@@ -7,7 +7,7 @@ old-location: mstv\isbe2crossbar_enumstreams.htm
 old-project: mstv
 ms.assetid: 891dc676-8930-41bc-a0ae-4a080c6d4cd6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: EnumStreams, EnumStreams method [Microsoft TV Technologies], EnumStreams method [Microsoft TV Technologies],ISBE2Crossbar interface, ISBE2Crossbar interface [Microsoft TV Technologies],EnumStreams method, ISBE2Crossbar.EnumStreams, ISBE2Crossbar::EnumStreams, mstv.isbe2crossbar_enumstreams, sbe/ISBE2Crossbar::EnumStreams
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ The WTV file format supports dynamic creation and deletion of streams within the
 
 ### -param ppStreams [out]
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/77a918f8-d305-4d4d-9a5c-523ddb796b26">ISBE2EnumStream</a> interface that the crossbar implements.
+Receives a pointer to the <a href="https://msdn.microsoft.com/77a918f8-d305-4d4d-9a5c-523ddb796b26">ISBE2EnumStream</a> interface that the crossbar implements.
           You can use the methods that are defined by the <b>ISBE2EnumStream</b>  interface to enumerate the streams that can be mapped to output pins in the current profile. The caller is responsible for releasing the interface.
 
 

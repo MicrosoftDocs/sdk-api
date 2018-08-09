@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetTransform_matrix_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\settransform_69matrix.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: PathGradientBrush class [GDI+],SetTransform method, PathGradientBrush.SetTransform, PathGradientBrush::SetTransform, SetTransform, SetTransform method [GDI+], SetTransform method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetTransform_matrix_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetTransform_matrix_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ The <b>PathGradientBrush::SetTransform</b> method sets the transformation matrix
 
 ### -param matrix [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>*</b>
 
 Pointer to a 
 					<b>Matrix</b> object that specifies the transformation matrix. 
@@ -88,12 +88,10 @@ If the method fails, it returns one of the other elements of the
 
 
 A 
-				<a href="https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
- object has a <a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object that serves as the boundary path for the brush. When you paint with a path gradient brush, only the area inside the boundary path is filled. If the brush's transformation matrix is set to represent any transformation other than the identity, then the boundary path is transformed according to that matrix during rendering, and only the area inside the transformed path is filled.
+				<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>object has a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object that serves as the boundary path for the brush. When you paint with a path gradient brush, only the area inside the boundary path is filled. If the brush's transformation matrix is set to represent any transformation other than the identity, then the boundary path is transformed according to that matrix during rendering, and only the area inside the transformed path is filled.
 
 The transformation applies only during rendering. The boundary path stored by the 
-				<a href="https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
- object is not altered by the <b>PathGradientBrush::SetTransform</b> method.
+				<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>object is not altered by the <b>PathGradientBrush::SetTransform</b> method.
 
 
 #### Examples
@@ -101,14 +99,12 @@ The transformation applies only during rendering. The boundary path stored by th
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
- object based on a triangular path. The 
-						<a href="https://msdn.microsoft.com/library/ms535773(v=VS.85).aspx">Graphics::FillRectangle</a> method uses the path gradient brush to paint a rectangle that contains the triangular path. Next, the code creates a 
-						<a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a> object that represents a composite transformation (rotate, then translate) and passes the address of that 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>object based on a triangular path. The 
+						<a href="https://msdn.microsoft.com/en-us/library/ms535773(v=VS.85).aspx">Graphics::FillRectangle</a> method uses the path gradient brush to paint a rectangle that contains the triangular path. Next, the code creates a 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a> object that represents a composite transformation (rotate, then translate) and passes the address of that 
 						<b>Matrix</b> object to the <b>PathGradientBrush::SetTransform</b> method of the 
-						<b>PathGradientBrush</b>
- object. The code calls 
-						<a href="https://msdn.microsoft.com/library/ms535957(v=VS.85).aspx">FillRectangle</a> a second time to paint the same rectangle using the transformed path gradient brush.
+						<b>PathGradientBrush</b>object. The code calls 
+						<a href="https://msdn.microsoft.com/en-us/library/ms535957(v=VS.85).aspx">FillRectangle</a> a second time to paint the same rectangle using the transformed path gradient brush.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -155,47 +151,47 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533856(v=VS.85).aspx">Filling a Shape with a Color Gradient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533856(v=VS.85).aspx">Filling a Shape with a Color Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535073(v=VS.85).aspx">PathGradientBrush::GetTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535073(v=VS.85).aspx">PathGradientBrush::GetTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535075(v=VS.85).aspx">PathGradientBrush::MultiplyTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535075(v=VS.85).aspx">PathGradientBrush::MultiplyTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535079(v=VS.85).aspx">PathGradientBrush::ResetTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535079(v=VS.85).aspx">PathGradientBrush::ResetTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535080(v=VS.85).aspx">PathGradientBrush::RotateTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535080(v=VS.85).aspx">PathGradientBrush::RotateTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535081(v=VS.85).aspx">PathGradientBrush::ScaleTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535081(v=VS.85).aspx">PathGradientBrush::ScaleTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535093(v=VS.85).aspx">PathGradientBrush::TranslateTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535093(v=VS.85).aspx">PathGradientBrush::TranslateTransform</a>
  
 
  

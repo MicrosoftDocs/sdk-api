@@ -7,7 +7,7 @@ old-location: mf\imftopologynode_getobject.htm
 old-project: medfound
 ms.assetid: 039d8009-5e5a-4503-9908-7317bc2bf412
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 039d8009-5e5a-4503-9908-7317bc2bf412, GetObject, GetObject method [Media Foundation], GetObject method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetObject method, IMFTopologyNode.GetObject, IMFTopologyNode::GetObject, mf.imftopologynode_getobject, mfidl/IMFTopologyNode::GetObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets the object associated with this node.
+Gets the object associated with this node.
         
 
 
@@ -64,8 +63,7 @@ req.product: GDI+ 1.1
 
 ### -param ppObject [out]
 
-
-            Receives a pointer to the object's <b>IUnknown</b> interface. The caller must release the interface.
+Receives a pointer to the object's <b>IUnknown</b> interface. The caller must release the interface.
           
 
 
@@ -87,8 +85,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -100,8 +97,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                There is no object associated with this node.
+There is no object associated with this node.
               
 
 </td>

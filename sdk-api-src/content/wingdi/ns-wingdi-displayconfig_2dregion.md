@@ -7,7 +7,7 @@ old-location: display\displayconfig_2dregion.htm
 old-project: display
 ms.assetid: ea306268-53fc-488b-afae-b8e9e5d09f2b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: CCD_Structures_3e3c709d-4dda-4a28-9aaa-2e0c54247601.xml, DISPLAYCONFIG_2DREGION, DISPLAYCONFIG_2DREGION structure [Display Devices], display.displayconfig_2dregion, wingdi/DISPLAYCONFIG_2DREGION
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_getmediaplayer.htm
 old-project: medfound
 ms.assetid: 6d6f822a-d599-437e-a73a-2242d4d3fe3a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetMediaPlayer, GetMediaPlayer method [Media Foundation], GetMediaPlayer method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetMediaPlayer method, IMFPMediaItem.GetMediaPlayer, IMFPMediaItem::GetMediaPlayer, mf.imfpmediaitem_getmediaplayer, mfplay/IMFPMediaItem::GetMediaPlayer
 ms.prod: windows
 ms.technology: windows-sdk

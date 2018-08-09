@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapisharingsession_getdesktopsharedrect.htm
 old-project: rdp
 ms.assetid: 2b224fa2-928d-4222-80a6-91f654b97ae1
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: GetDesktopSharedRect, GetDesktopSharedRect method [RDP], GetDesktopSharedRect method [RDP],IRDPSRAPISharingSession interface, GetDesktopSharedRect method [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession interface [RDP],GetDesktopSharedRect method, IRDPSRAPISharingSession.GetDesktopSharedRect, IRDPSRAPISharingSession2 interface [RDP],GetDesktopSharedRect method, IRDPSRAPISharingSession2::GetDesktopSharedRect, IRDPSRAPISharingSession::GetDesktopSharedRect, rdp.irdpsrapisharingsession_getdesktopsharedrect, rdpencomapi/IRDPSRAPISharingSession2::GetDesktopSharedRect, rdpencomapi/IRDPSRAPISharingSession::GetDesktopSharedRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,18 +82,18 @@ Retrieves the current desktop region being shared.
 
 
 
-#### - bottom [out]
-
-Type: <b>long*</b>
-
-Y-coordinate of the lower-right corner of the shared rectangle.
-
-
 #### - left [out]
 
 Type: <b>long*</b>
 
 X-coordinate of the upper-left corner of the shared rectangle.
+
+
+#### - top [out]
+
+Type: <b>long*</b>
+
+Y-coordinate of the upper-left corner of the shared rectangle.
 
 
 #### - right [out]
@@ -103,11 +103,11 @@ Type: <b>long*</b>
 X-coordinate of the lower-right corner of the shared rectangle.
 
 
-#### - top [out]
+#### - bottom [out]
 
 Type: <b>long*</b>
 
-Y-coordinate of the upper-left corner of the shared rectangle.
+Y-coordinate of the lower-right corner of the shared rectangle.
 
 
 ## -returns

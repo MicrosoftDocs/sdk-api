@@ -7,7 +7,7 @@ old-location: etw\provider_filter_info.htm
 old-project: ETW
 ms.assetid: 0541b24a-8531-4828-8c3b-d889e58b0b38
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: "*PPROVIDER_FILTER_INFO, PPROVIDER_FILTER_INFO, PPROVIDER_FILTER_INFO structure pointer [ETW], PROVIDER_FILTER_INFO, PROVIDER_FILTER_INFO structure [ETW], _PROVIDER_FILTER_INFO, etw.provider_filter_info, tdh/PPROVIDER_FILTER_INFO, tdh/PROVIDER_FILTER_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

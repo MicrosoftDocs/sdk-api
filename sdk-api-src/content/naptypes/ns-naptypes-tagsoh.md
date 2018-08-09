@@ -4,10 +4,10 @@ title: tagSoH
 author: windows-sdk-content
 description: Contains the Statement of Health (SoH) data.
 old-location: nap\soh_struct.htm
-old-project: NAP
+old-project: nap
 ms.assetid: 6db0303d-ab33-4fb9-90a2-b909b2781ba5
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: SoH, SoH structure [NAP], SoHRequest, SoHRequest structure [NAP], SoHResponse, SoHResponse structure [NAP], nap.soh_struct, naptypes/SoH, naptypes/SoHRequest, naptypes/SoHResponse, tagSoH
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,6 @@ SoH packets are collections of attributes, stored as type-length-value objects (
 such that certain TLVs (such as the <b>sohAttributeTypeSystemHealthId</b> TLV or the 
 <b>sohAttributeTypeHealthClass</b> TLV) separate groups or 
 sub-groups of TLVs.
-
 
 The <a href="https://msdn.microsoft.com/ba725bf1-1d0a-4489-b912-3e761557d772">sohAttributeTypeSystemHealthId</a> TLV must be the first TLV in both <b>SoHRequest</b> and <b>SoHResponse</b> packets.
 A <b>SoHResponse</b> packet can have at most one <b>sohAttributeTypeIpv4FixupServers</b> or <b>sohAttributeTypeIpv6FixupServers</b> TLV.

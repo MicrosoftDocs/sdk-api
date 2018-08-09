@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxroutesetroutinginfo.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_89nz.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxRouteSetRoutingInfo, FaxRouteSetRoutingInfo function [Fax Service], _mfax_faxroutesetroutinginfo, fax._mfax_faxroutesetroutinginfo, faxroute/FaxRouteSetRoutingInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,15 +114,15 @@ The fax service calls the <b>FaxRouteSetRoutingInfo</b> function to modify routi
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684519(v=VS.85).aspx">Fax Routing Extension Application Programming Interface Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684519(v=VS.85).aspx">Fax Routing Extension Application Programming Interface Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692865(v=VS.85).aspx">Fax Routing Extension Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692865(v=VS.85).aspx">Fax Routing Extension Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692861(v=VS.85).aspx">FaxRouteGetRoutingInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692861(v=VS.85).aspx">FaxRouteGetRoutingInfo</a>
  
 
  

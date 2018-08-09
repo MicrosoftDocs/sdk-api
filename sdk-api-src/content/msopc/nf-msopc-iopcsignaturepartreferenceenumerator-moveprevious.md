@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturepartreferenceenumerator_moveprevious.htm
 old-project: OPC
 ms.assetid: 508c447e-dbbb-4e10-b9f7-c1d58ccf1895
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcSignaturePartReferenceEnumerator.MovePrevious, IOpcSignaturePartReferenceEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcSignaturePartReferenceEnumerator interface, msopc/IOpcSignaturePartReferenceEnumerator::MovePrevious, opc.iopcsignaturepartreferenceenumerator_moveprevious
 ms.prod: windows
 ms.technology: windows-sdk

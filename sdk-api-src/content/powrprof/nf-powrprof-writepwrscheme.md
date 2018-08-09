@@ -7,7 +7,7 @@ old-location: base\writepwrscheme.htm
 old-project: power
 ms.assetid: b9233601-6848-41c4-bb58-27decad60ba5
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: WritePwrScheme, WritePwrScheme function, _win32_writepwrscheme, base.writepwrscheme, powrprof/WritePwrScheme
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,9 @@ Writes policy settings that are unique to the specified power scheme.
 The index of the power scheme to be written. If a power scheme with the same index already exists, it is replaced. Otherwise, a new power scheme is created.
 
 
-### -param lpszSchemeName
+### -param lpszSchemeName [in]
 
-TBD
+The name of the power scheme.
 
 
 ### -param lpszDescription [in, optional]
@@ -76,19 +76,7 @@ TBD
 The description of the power scheme.
 
 
-### -param lpScheme
-
-TBD
-
-
-
-
-#### - lpszName [in]
-
-The name of the power scheme.
-
-
-#### - pPowerPolicy [in]
+### -param lpScheme [in]
 
 A pointer to a 
 <a href="https://msdn.microsoft.com/ba49fca6-04b6-4627-a653-07c3fc0dab22">POWER_POLICY</a> structure that contains the power policy settings to be written.

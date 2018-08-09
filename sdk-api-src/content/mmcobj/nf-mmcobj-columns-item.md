@@ -7,7 +7,7 @@ old-location: mmc\columns_item.htm
 old-project: MMC
 ms.assetid: d5e69022-dad6-426d-8d98-5b6039088687
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: Columns interface [MMC],Item method, Columns object [MMC],Item method, Columns.Item, Columns::Item, Item, Item method [MMC], Item method [MMC],Columns interface, Item method [MMC],Columns object, _slate_columns.item_method, mmc.columns_item
 ms.prod: windows
 ms.technology: windows-sdk

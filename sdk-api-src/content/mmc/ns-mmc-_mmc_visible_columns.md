@@ -7,7 +7,7 @@ old-location: mmc\mmc_visible_columns.htm
 old-project: MMC
 ms.assetid: b2f54c36-a446-4c16-8595-ab7e3411eb88
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: MMC_VISIBLE_COLUMNS, MMC_VISIBLE_COLUMNS structure [MMC], _MMC_VISIBLE_COLUMNS, _slate_mmc_visible_columns, mmc.mmc_visible_columns, mmc/MMC_VISIBLE_COLUMNS
 ms.prod: windows
 ms.technology: windows-sdk

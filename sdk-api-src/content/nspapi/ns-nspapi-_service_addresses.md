@@ -7,7 +7,7 @@ old-location: winsock\service_addresses_2.htm
 old-project: winsock
 ms.assetid: 1ed0c634-4f09-49c1-8fbf-9182d6a4bd51
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPSERVICE_ADDRESSES, *PSERVICE_ADDRESSES, SERVICE_ADDRESSES, SERVICE_ADDRESSES structure [Winsock], _SERVICE_ADDRESSES, _win32_service_addresses_2, nspapi/SERVICE_ADDRESSES, winsock.service_addresses_2"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-			The 
+The 
 <b>SERVICE_ADDRESSES</b> structure contains an array of 
 <a href="https://msdn.microsoft.com/5fc99e3a-7316-4950-9249-968bbc4168c2">SERVICE_ADDRESS</a> data structures.
 

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_uint8field.htm
 old-project: wmi_v2
 ms.assetid: ba2dd5fe-4a1d-4a96-aab4-c823554f70dd
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Uint8Field, MI_Uint8Field structure [Windows Management Infrastructure (MI)], _MI_Uint8Field, mi/MI_Uint8Field, wmi._mi_uint8field, wmi_v2.mi_uint8field
 ms.prod: windows
 ms.technology: windows-sdk

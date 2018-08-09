@@ -7,7 +7,7 @@ old-location: security\ix509signatureinformation_getsignaturealgorithm_method.ht
 old-project: seccertenroll
 ms.assetid: e5b43e74-d802-43ff-bdf2-96ab475c31e7
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: GetSignatureAlgorithm, GetSignatureAlgorithm method [Security], GetSignatureAlgorithm method [Security],IX509SignatureInformation interface, IX509SignatureInformation interface [Security],GetSignatureAlgorithm method, IX509SignatureInformation.GetSignatureAlgorithm, IX509SignatureInformation::GetSignatureAlgorithm, certenroll/IX509SignatureInformation::GetSignatureAlgorithm, security.ix509signatureinformation_getsignaturealgorithm_method
 ms.prod: windows
 ms.technology: windows-sdk

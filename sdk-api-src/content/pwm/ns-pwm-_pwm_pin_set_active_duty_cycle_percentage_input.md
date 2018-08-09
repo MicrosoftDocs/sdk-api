@@ -7,7 +7,7 @@ old-location: base\pwm_pin_set_active_duty_cycle_percentage_input.htm
 old-project: devio
 ms.assetid: CA699703-2D9B-4841-99AD-9C27FF428394
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/07/2018
 ms.keywords: PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT, PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT structure, _PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT, base.pwm_pin_set_active_duty_cycle_percentage_input, pwm/PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The desired PWM signal duty cycle, as a PWM_PERCENTAGE, which is a ULONGLONG val
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt843918(v=VS.85).aspx">IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt843918(v=VS.85).aspx">IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE</a>
  
 
  

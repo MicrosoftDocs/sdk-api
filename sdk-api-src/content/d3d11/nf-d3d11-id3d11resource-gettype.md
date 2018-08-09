@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11resource_gettype.htm
 old-project: direct3d11
 ms.assetid: 8358ab9b-acf3-41cd-8812-cc15862928da
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 62bac8ef-4d59-ca5c-1bf7-3993d5ecf42e, GetType, GetType method [Direct3D 11], GetType method [Direct3D 11],ID3D11Resource interface, ID3D11Resource interface [Direct3D 11],GetType method, ID3D11Resource.GetType, ID3D11Resource::GetType, d3d11/ID3D11Resource::GetType, direct3d11.id3d11resource_gettype
 ms.prod: windows
 ms.technology: windows-sdk

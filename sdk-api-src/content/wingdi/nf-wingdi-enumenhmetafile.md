@@ -7,7 +7,7 @@ old-location: gdi\enumenhmetafile.htm
 old-project: gdi
 ms.assetid: bef5f43e-219a-4f8a-986d-290e29e17c4e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EnumEnhMetaFile, EnumEnhMetaFile function [Windows GDI], _win32_EnumEnhMetaFile, gdi.enumenhmetafile, wingdi/EnumEnhMetaFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,39 +66,24 @@ The <b>EnumEnhMetaFile</b> function enumerates the records within an enhanced-fo
 A handle to a device context. This handle is passed to the callback function.
 
 
-### -param hmf
+### -param hmf [in]
 
-TBD
-
-
-### -param proc
-
-TBD
+A handle to an enhanced metafile.
 
 
-### -param param
+### -param proc [in]
 
-TBD
+A pointer to the application-supplied callback function. For more information, see the <a href="https://msdn.microsoft.com/c9f04b38-18bc-4b52-8c56-d9475bc30202">EnhMetaFileProc</a> function.
+
+
+### -param param [in]
+
+A pointer to optional callback-function data.
 
 
 ### -param lpRect [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the coordinates, in logical units, of the picture's upper-left and lower-right corners.
-
-
-#### - hemf [in]
-
-A handle to an enhanced metafile.
-
-
-#### - lpData [in]
-
-A pointer to optional callback-function data.
-
-
-#### - lpEnhMetaFunc [in]
-
-A pointer to the application-supplied callback function. For more information, see the <a href="https://msdn.microsoft.com/c9f04b38-18bc-4b52-8c56-d9475bc30202">EnhMetaFileProc</a> function.
 
 
 ## -returns

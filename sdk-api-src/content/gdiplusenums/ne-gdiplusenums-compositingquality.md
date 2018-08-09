@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_CompositingQuality.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\compositingquality.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: CompositingQuality, CompositingQuality enumeration [GDI+], CompositingQualityAssumeLinear, CompositingQualityDefault, CompositingQualityGammaCorrected, CompositingQualityHighQuality, CompositingQualityHighSpeed, _gdiplus_ENUM_CompositingQuality, gdiplus._gdiplus_ENUM_CompositingQuality, gdiplusenums/CompositingQuality, gdiplusenums/CompositingQualityAssumeLinear, gdiplusenums/CompositingQualityDefault, gdiplusenums/CompositingQualityGammaCorrected, gdiplusenums/CompositingQualityHighQuality, gdiplusenums/CompositingQualityHighSpeed
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>CompositingQuality</b> enumeration specifies whether gamma correction is applied when colors are blended with background colors. This enumeration is used by the <a href="https://msdn.microsoft.com/library/ms535701(v=VS.85).aspx">Graphics::GetCompositingQuality</a> and <a href="https://msdn.microsoft.com/library/ms535809(v=VS.85).aspx">Graphics::SetCompositingQuality</a> methods of the 
+The <b>CompositingQuality</b> enumeration specifies whether gamma correction is applied when colors are blended with background colors. This enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/ms535701(v=VS.85).aspx">Graphics::GetCompositingQuality</a> and <a href="https://msdn.microsoft.com/en-us/library/ms535809(v=VS.85).aspx">Graphics::SetCompositingQuality</a> methods of the 
 			<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> class.
 
 
@@ -104,11 +104,11 @@ When you specify that gamma correction should be applied, the image data to be r
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535701(v=VS.85).aspx">Graphics::GetCompositingQuality</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535701(v=VS.85).aspx">Graphics::GetCompositingQuality</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535809(v=VS.85).aspx">Graphics::SetCompositingQuality</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535809(v=VS.85).aspx">Graphics::SetCompositingQuality</a>
  
 
  

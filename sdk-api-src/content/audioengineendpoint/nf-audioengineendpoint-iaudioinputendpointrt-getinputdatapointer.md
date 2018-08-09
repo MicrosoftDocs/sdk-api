@@ -7,7 +7,7 @@ old-location: termserv\iaudioinputendpointrt_getinputdatapointer.htm
 old-project: termserv
 ms.assetid: 1da81a49-d421-4643-9be6-b13d45d678f0
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: GetInputDataPointer, GetInputDataPointer method [Remote Desktop Services], GetInputDataPointer method [Remote Desktop Services],IAudioInputEndpointRT interface, IAudioInputEndpointRT interface [Remote Desktop Services],GetInputDataPointer method, IAudioInputEndpointRT.GetInputDataPointer, IAudioInputEndpointRT::GetInputDataPointer, audioengineendpoint/IAudioInputEndpointRT::GetInputDataPointer, termserv.iaudioinputendpointrt_getinputdatapointer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-        The <b>GetInputDataPointer</b> method gets a pointer to the buffer from which data will be read by the audio engine.
+The <b>GetInputDataPointer</b> method gets a pointer to the buffer from which data will be read by the audio engine.
 
 
 ## -parameters
@@ -61,8 +60,7 @@ req.irql:
 
 ### -param pConnectionProperty [in, out]
 
- A pointer to an <a href="https://msdn.microsoft.com/dbf7ed62-445e-4f15-bc21-46117e694dc0">APO_CONNECTION_PROPERTY</a>
-    structure.
+ A pointer to an <a href="https://msdn.microsoft.com/dbf7ed62-445e-4f15-bc21-46117e694dc0">APO_CONNECTION_PROPERTY</a>structure.
 
 The caller sets the member values as follows:
 
@@ -115,8 +113,7 @@ This method returns a pointer from the endpoint to the buffer <i>pConnectionProp
     passed in the <i>pConnectionProperty</i> parameter.
 
 Passing zero in the <b>u32ValidFrameCount</b> member is a valid request. In this case,
-    the input pointer must be valid but the endpoint does not read from it. The <i>pConnectionProperty</i>-&gt;<b>u32ValidFrameCount</b>
-    value must be less than or equal to the maximum  frame count supported by the endpoint. To get the supported number of frames, call the <a href="https://msdn.microsoft.com/b9e47262-9e6f-4ddf-a74a-b7fa63983a5a">IAudioEndpoint::GetFramesPerPacket</a> method.
+    the input pointer must be valid but the endpoint does not read from it. The <i>pConnectionProperty</i>-&gt;<b>u32ValidFrameCount</b>value must be less than or equal to the maximum  frame count supported by the endpoint. To get the supported number of frames, call the <a href="https://msdn.microsoft.com/b9e47262-9e6f-4ddf-a74a-b7fa63983a5a">IAudioEndpoint::GetFramesPerPacket</a> method.
 
 This method can be called from a real-time processing thread. The
     implementation of this method must not block, access

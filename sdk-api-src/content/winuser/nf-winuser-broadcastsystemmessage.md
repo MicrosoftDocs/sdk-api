@@ -7,7 +7,7 @@ old-location: winmsg\broadcastsystemmessage.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\broadcastsystemmessage.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: BSF_ALLOWSFW, BSF_FLUSHDISK, BSF_FORCEIFHUNG, BSF_IGNORECURRENTTASK, BSF_NOHANG, BSF_NOTIMEOUTIFNOTHUNG, BSF_POSTMESSAGE, BSF_QUERY, BSF_SENDNOTIFYMESSAGE, BSM_ALLCOMPONENTS, BSM_ALLDESKTOPS, BSM_APPLICATIONS, BroadcastSystemMessage, BroadcastSystemMessage function [Windows and Messages], BroadcastSystemMessageW, _win32_BroadcastSystemMessage, _win32_broadcastsystemmessage_cpp, winmsg.broadcastsystemmessage, winui._win32_broadcastsystemmessage, winuser/BroadcastSystemMessage, winuser/BroadcastSystemMessageW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,36 +64,7 @@ To receive additional information if the request is defined, use the <a href="ht
 
 
 
-### -param flags
-
-TBD
-
-
-### -param lpInfo
-
-TBD
-
-
-### -param Msg
-
-TBD
-
-
-### -param wParam [in]
-
-Type: <b>WPARAM</b>
-
-Additional message-specific information. 
-
-
-### -param lParam [in]
-
-Type: <b>LPARAM</b>
-
-Additional message-specific information. 
-
-
-#### - dwFlags [in]
+### -param flags [in]
 
 Type: <b>DWORD</b>
 
@@ -207,7 +178,7 @@ Sends the message to one recipient at a time, sending to a subsequent recipient 
  
 
 
-#### - lpdwRecipients [in, out, optional]
+### -param lpInfo [in, out, optional]
 
 Type: <b>LPDWORD</b>
 
@@ -262,13 +233,27 @@ Broadcast to applications.
  
 
 
-#### - uiMessage [in]
+### -param Msg [in]
 
 Type: <b>UINT</b>
 
 The message to be sent. 
 
 For lists of the system-provided messages, see <a href="https://msdn.microsoft.com/en-us/library/ms644927(v=VS.85).aspx">System-Defined Messages</a>.
+
+
+### -param wParam [in]
+
+Type: <b>WPARAM</b>
+
+Additional message-specific information. 
+
+
+### -param lParam [in]
+
+Type: <b>LPARAM</b>
+
+Additional message-specific information. 
 
 
 ## -returns

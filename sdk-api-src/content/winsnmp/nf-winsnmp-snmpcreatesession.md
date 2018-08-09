@@ -4,10 +4,10 @@ title: SnmpCreateSession function
 author: windows-sdk-content
 description: The SnmpCreateSession function requests the Microsoft WinSNMP implementation to open a session for the WinSNMP application.
 old-location: snmp\snmpcreatesession.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 8d982eb5-a7b5-418e-94ad-3e5dc43d225c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SnmpCreateSession, SnmpCreateSession function [SNMP], _snmp_snmpcreatesession, snmp.snmpcreatesession, winsnmp/SnmpCreateSession
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,17 +78,7 @@ Handle to a window of the WinSNMP application to notify when an asynchronous req
 Specifies an unsigned integer that identifies the notification message to send to the WinSNMP application window. This parameter is required for window notification messages for the session.
 
 
-### -param fCallBack
-
-TBD
-
-
-### -param lpClientData [in]
-
-Pointer to application-defined data to pass to the callback function specified by the <i>fCallback</i> parameter. This parameter is optional and can be <b>NULL</b>. If the <i>fCallback</i> parameter is <b>NULL</b>, the implementation ignores this parameter.
-
-
-#### - fCallback [in]
+### -param fCallBack [in]
 
 Specifies the address of an application-defined, session-specific 
 <a href="https://msdn.microsoft.com/9871b4a8-c96c-48a7-9e7e-7fe1c259545e">SNMPAPI_CALLBACK</a> function. The implementation will call this function to inform the WinSNMP session when notifications are available. 
@@ -97,6 +87,11 @@ Specifies the address of an application-defined, session-specific
 
 
 This parameter is required to specify callback notifications for the session. This parameter must be <b>NULL</b> to specify window notification messages for the session. For additional information, see the following Remarks section.
+
+
+### -param lpClientData [in]
+
+Pointer to application-defined data to pass to the callback function specified by the <i>fCallback</i> parameter. This parameter is optional and can be <b>NULL</b>. If the <i>fCallback</i> parameter is <b>NULL</b>, the implementation ignores this parameter.
 
 
 ## -returns

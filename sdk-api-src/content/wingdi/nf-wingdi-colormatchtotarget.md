@@ -7,7 +7,7 @@ old-location: wcs\colormatchtotarget.htm
 old-project: WCS
 ms.assetid: eb922411-0808-4404-bdaf-bf29d0cad379
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: CS_DELETE_TRANSFORM, CS_DISABLE, CS_ENABLE, ColorMatchToTarget, ColorMatchToTarget function [Windows Color System], _color_ColorMatchToTarget, wcs.colormatchtotarget, wingdi/ColorMatchToTarget
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The <b>ColorMatchToTarget</b> function enables you to preview colors as they wou
 
 ### -param hdc
 
-TBD
+Specifies the device context for previewing, generally the screen.
 
 
 ### -param hdcTarget
@@ -72,18 +72,6 @@ Specifies the target device context, generally a printer.
 
 
 ### -param action
-
-TBD
-
-
-
-
-#### - hDC
-
-Specifies the device context for previewing, generally the screen.
-
-
-#### - uiAction
 
 A constant that can have one of the following values.<div> </div>
 

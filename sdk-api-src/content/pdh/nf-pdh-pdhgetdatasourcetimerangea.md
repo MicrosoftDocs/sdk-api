@@ -4,10 +4,10 @@ title: PdhGetDataSourceTimeRangeA function
 author: windows-sdk-content
 description: Determines the time range, number of entries and, if applicable, the size of the buffer containing the performance data from the specified input source. To use handles to data sources, use the PdhGetDataSourceTimeRangeH function.
 old-location: perf\pdhgetdatasourcetimerange.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 142ee829-7f1c-4b97-859c-670f7058dfa1
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhGetDataSourceTimeRange, PdhGetDataSourceTimeRange function [Perf], PdhGetDataSourceTimeRangeA, PdhGetDataSourceTimeRangeW, _win32_pdhgetdatasourcetimerange, base.pdhgetdatasourcetimerange, pdh/PdhGetDataSourceTimeRange, pdh/PdhGetDataSourceTimeRangeA, pdh/PdhGetDataSourceTimeRangeW, perf.pdhgetdatasourcetimerange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Determines the time range, number of entries and, if applicable, the size of the buffer containing the performance data from the specified input source.
+Determines the time range, number of entries and, if applicable, the size of the buffer containing the performance data from the specified input source.
 			
 
 To use handles to data sources, use the 
@@ -91,8 +90,7 @@ Size of the <a href="https://msdn.microsoft.com/a747f288-8d6c-401c-a927-a61ffea3
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

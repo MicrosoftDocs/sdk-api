@@ -7,7 +7,7 @@ old-location: mf\mfallocateserialworkqueue.htm
 old-project: medfound
 ms.assetid: 45198662-C861-49A5-8962-DC256A671350
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFAllocateSerialWorkQueue, MFAllocateSerialWorkQueue function [Media Foundation], mf.mfallocateserialworkqueue, mfapi/MFAllocateSerialWorkQueue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Creates a work queue that is guaranteed to serialize work items. The serial work
 
 ### -param dwWorkQueue [in]
 
-
-            The identifier of an existing work queue. This must be either a multithreaded queue or another serial work queue. Any of the following can be used:
+The identifier of an existing work queue. This must be either a multithreaded queue or another serial work queue. Any of the following can be used:
 
 <ul>
 <li>The default work queue (<b>MFASYNC_CALLBACK_QUEUE_STANDARD</b>)</li>
@@ -94,8 +93,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                The function succeeded.
+The function succeeded.
               
 
 </td>
@@ -107,8 +105,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                The application exceeded the maximum number of work queues.
+The application exceeded the maximum number of work queues.
               
 
 </td>
@@ -120,8 +117,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                The application did not call <a href="https://msdn.microsoft.com/b4472e40-3681-4b26-9385-4df7bf19c2d8">MFStartup</a>, or the application has already called <a href="https://msdn.microsoft.com/10be2361-b5b4-4c10-92a1-527ca22c74e4">MFShutdown</a>.
+The application did not call <a href="https://msdn.microsoft.com/b4472e40-3681-4b26-9385-4df7bf19c2d8">MFStartup</a>, or the application has already called <a href="https://msdn.microsoft.com/10be2361-b5b4-4c10-92a1-527ca22c74e4">MFShutdown</a>.
               
 
 </td>

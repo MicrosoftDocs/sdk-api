@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8_setconfig.htm
 old-project: hid
 ms.assetid: 58f413c4-7b4c-47bd-8991-ffe681e96f48
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/30/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetConfig method, IDirectInputJoyConfig8.SetConfig, IDirectInputJoyConfig8::SetConfig, SetConfig, SetConfig method [Human Input Devices], SetConfig method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_e9168f2d-cee8-4cac-8299-65360fd784f1.xml, dinputd/IDirectInputJoyConfig8::SetConfig, hid.idirectinputjoyconfig8_setconfig
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,6 +65,16 @@ The <b>IDirectInputJoyConfig8::SetConfig </b>method creates or redefines configu
 
 
 
+#### - idJoy
+
+Indicates a zero-based joystick identification number. 
+
+
+#### - pcfg
+
+Contains information about the joystick. 
+
+
 #### - dwFlags
 
 Specifies the parts of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538504">DIJOYCONFIG</a> structure pointed to by <i>pcfg</i> that contain information to be set. There may be zero, one, or more of the following: 
@@ -88,16 +98,6 @@ Indicates that the force-feedback gain for the joystick is valid.
 #### DIJC_CALLOUT
 
 Indicates that the joystick polling callout is valid. 
-
-
-#### - idJoy
-
-Indicates a zero-based joystick identification number. 
-
-
-#### - pcfg
-
-Contains information about the joystick. 
 
 
 ## -returns

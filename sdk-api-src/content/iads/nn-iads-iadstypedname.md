@@ -7,7 +7,7 @@ old-location: adsi\iadstypedname.htm
 old-project: ADSI
 ms.assetid: ed57fad7-6cc6-4127-b8d2-da295bc0c5fe
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IADsTypedName, IADsTypedName interface [ADSI], IADsTypedName interface [ADSI],described, TypedName, _ds_iadstypedname, adsi.iadstypedname, iads/IADsTypedName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ You can call the property methods of this interface to obtain and modify the att
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

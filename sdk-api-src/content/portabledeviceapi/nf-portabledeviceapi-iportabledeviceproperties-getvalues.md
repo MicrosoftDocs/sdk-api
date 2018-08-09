@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceproperties_getvalues.htm
 old-project: wpd_sdk
 ms.assetid: 5f4ec65c-dd26-40d5-a9f8-a2175c3aa54c
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: GetValues, GetValues method [Windows Portable Devices SDK], GetValues method [Windows Portable Devices SDK],IPortableDeviceProperties interface, IPortableDeviceProperties interface [Windows Portable Devices SDK],GetValues method, IPortableDeviceProperties.GetValues, IPortableDeviceProperties::GetValues, IPortableDevicePropertiesGetValues, portabledeviceapi/IPortableDeviceProperties::GetValues, wpdsdk.iportabledeviceproperties_getvalues
 ms.prod: windows
 ms.technology: windows-sdk

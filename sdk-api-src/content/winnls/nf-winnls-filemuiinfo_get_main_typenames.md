@@ -7,7 +7,7 @@ old-location: intl\filemuiinfo_get_main_typenames.htm
 old-project: Intl
 ms.assetid: 93fe7be8-693f-493c-94d4-7b7b2405880a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: FILEMUIINFO_GET_MAIN_TYPENAMES, FILEMUIINFO_GET_MAIN_TYPENAMES macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_MAIN_TYPENAMES, intl.filemuiinfo_get_main_typenames, winnls/FILEMUIINFO_GET_MAIN_TYPENAMES
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetChild.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getchild.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TreeView_GetChild, TreeView_GetChild macro [Windows Controls], _win32_TreeView_GetChild, _win32_TreeView_GetChild_cpp, commctrl/TreeView_GetChild, controls.TreeView_GetChild, controls._win32_TreeView_GetChild
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the first child item of the specified tree-view item. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/library/Bb773622(v=VS.85).aspx">TVM_GETNEXTITEM</a> message with the TVGN_CHILD flag. 
+Retrieves the first child item of the specified tree-view item. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/en-us/library/Bb773622(v=VS.85).aspx">TVM_GETNEXTITEM</a> message with the TVGN_CHILD flag. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Retrieves the first child item of the specified tree-view item. You can use this
 
 ### -param hwnd
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to the tree-view control. 
 
 
 ### -param hitem
@@ -68,13 +70,6 @@ TBD
 Type: <b>HTREEITEM</b>
 
 Handle to a tree-view item. 
-
-
-#### - hwndTV
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to the tree-view control. 
 
 
 ## -see-also
@@ -86,19 +81,19 @@ Handle to the tree-view control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773861(v=VS.85).aspx">TreeView_GetNextItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773861(v=VS.85).aspx">TreeView_GetNextItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773867(v=VS.85).aspx">TreeView_GetNextSibling</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773867(v=VS.85).aspx">TreeView_GetNextSibling</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773872(v=VS.85).aspx">TreeView_GetParent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773872(v=VS.85).aspx">TreeView_GetParent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773875(v=VS.85).aspx">TreeView_GetPrevSibling</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773875(v=VS.85).aspx">TreeView_GetPrevSibling</a>
  
 
  

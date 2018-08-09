@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_lock.htm
 old-project: directdraw
 ms.assetid: 0267ad70-e7cc-41e8-8325-7ede4a662d13
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: DDLOCK_DISCARDCONTENTS, DDLOCK_DONOTWAIT, DDLOCK_EVENT, DDLOCK_NOOVERWRITE, DDLOCK_NOSYSLOCK, DDLOCK_OKTOSWAP, DDLOCK_READONLY, DDLOCK_SURFACEMEMORYPTR, DDLOCK_WAIT, DDLOCK_WRITEONLY, IDirectDrawSurface7 interface [DirectDraw],Lock method, IDirectDrawSurface7.Lock, IDirectDrawSurface7::Lock, Lock, Lock method [DirectDraw], Lock method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::Lock, directdraw.idirectdrawsurface7_lock
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,6 +63,16 @@ Obtains a pointer to the surface memory.
 
 
 
+
+
+#### - lpDestRect [in]
+
+A pointer to a <b>RECT</b> structure that identifies the region of the surface that is being locked. If this parameter is NULL, the entire surface is locked.
+
+
+#### - lpDDSurfaceDesc [in, out]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550340">DDSURFACEDESC2</a> structure that describes relevant details about the surface and that receives information about the surface.
 
 
 #### - dwFlags [in]
@@ -133,16 +143,6 @@ Indicates that the surface being locked is write-enabled.
 #### - hEvent [in]
 
 Handle of the event. This parameter is not currently used and must be set to NULL.
-
-
-#### - lpDDSurfaceDesc [in, out]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550340">DDSURFACEDESC2</a> structure that describes relevant details about the surface and that receives information about the surface.
-
-
-#### - lpDestRect [in]
-
-A pointer to a <b>RECT</b> structure that identifies the region of the surface that is being locked. If this parameter is NULL, the entire surface is locked.
 
 
 ## -returns

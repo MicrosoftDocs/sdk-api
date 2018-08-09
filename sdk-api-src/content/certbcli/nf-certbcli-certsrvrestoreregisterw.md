@@ -7,7 +7,7 @@ old-location: security\certsrvrestoreregister.htm
 old-project: seccrypto
 ms.assetid: 4549ba26-d52c-4779-b27d-126cef6ef15d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CertSrvRestoreRegister, CertSrvRestoreRegister function [Security], CertSrvRestoreRegisterW, FNCERTSRVRESTOREREGISTERW, FNCERTSRVRESTOREREGISTERW function [Security], _certsrv_certsrvrestoreregister, certbcli/CertSrvRestoreRegister, certbcli/CertSrvRestoreRegisterW, certbcli/FNCERTSRVRESTOREREGISTERW, security.certsrvrestoreregister
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>CertSrvRestoreRegister</b> function registers a Certificate Services restore.
+The <b>CertSrvRestoreRegister</b> function registers a Certificate Services restore.
 
 
 ## -parameters
@@ -108,8 +107,7 @@ The highest log number that was restored in this restore session.
 
 
 
-
-						The return value is an <b>HRESULT</b>. A value of <b>S_OK</b> indicates success.
+The return value is an <b>HRESULT</b>. A value of <b>S_OK</b> indicates success.
 
 
 

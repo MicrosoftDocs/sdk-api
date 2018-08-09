@@ -7,7 +7,7 @@ old-location: mf\mfsetattributesize.htm
 old-project: medfound
 ms.assetid: cf7b3cfe-fdce-417d-8c0b-198d026b8768
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFSetAttributeSize, MFSetAttributeSize function [Media Foundation], cf7b3cfe-fdce-417d-8c0b-198d026b8768, mf.mfsetattributesize, mfapi/MFSetAttributeSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,15 +62,13 @@ Sets width and height as a single 64-bit attribute value.
 
 ### -param pAttributes [in]
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface of the attribute store.
+A pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface of the attribute store.
           
 
 
 ### -param guidKey [in]
 
-
-              A <b>GUID</b> that identifies the value to set. If this key already exists, the function overwrites the old value.
+A <b>GUID</b> that identifies the value to set. If this key already exists, the function overwrites the old value.
           
 
 

@@ -4,10 +4,10 @@ title: IUPnPDeviceFinder::CreateAsyncFind
 author: windows-sdk-content
 description: The CreateAsyncFind method creates an asynchronous search operation.
 old-location: upnp\iupnpdevicefinder_createasyncfind.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: 4461b53f-b630-4b4a-bc68-0cc48ef70594
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: CreateAsyncFind, CreateAsyncFind method [UPnP APIs], CreateAsyncFind method [UPnP APIs],IUPnPDeviceFinder interface, IUPnPDeviceFinder interface [UPnP APIs],CreateAsyncFind method, IUPnPDeviceFinder.CreateAsyncFind, IUPnPDeviceFinder::CreateAsyncFind, _upnp_iupnpdevicefinder_createasyncfind, upnp.iupnpdevicefinder_createasyncfind, upnp/IUPnPDeviceFinder::CreateAsyncFind
 ms.prod: windows
 ms.technology: windows-sdk

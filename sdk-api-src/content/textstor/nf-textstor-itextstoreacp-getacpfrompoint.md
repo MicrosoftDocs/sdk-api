@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_getacpfrompoint.htm
 old-project: TSF
 ms.assetid: b6489391-a19e-405a-a129-f68054088860
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetACPFromPoint, GetACPFromPoint method [Text Services Framework], GetACPFromPoint method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetACPFromPoint method, ITextStoreACP.GetACPFromPoint, ITextStoreACP::GetACPFromPoint, _tsf_itextstoreacp_getacpfrompoint_ref, textstor/ITextStoreACP::GetACPFromPoint, tsf.itextstoreacp_getacpfrompoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -200,26 +200,22 @@ For the point 2 screen coordinates, the method returns <b>TF_E_INVALIDPOINT</b> 
 
 
 
-<a href="https://msdn.microsoft.com/f8091e79-33af-49d5-b3c8-d30952c62010">
-        ITfContextOwner::GetACPFromPoint
+<a href="https://msdn.microsoft.com/f8091e79-33af-49d5-b3c8-d30952c62010">ITfContextOwner::GetACPFromPoint
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/543761fe-420e-4821-a69f-abc6c853677e">
-        ITfContextView::GetRangeFromPoint
+<a href="https://msdn.microsoft.com/543761fe-420e-4821-a69f-abc6c853677e">ITfContextView::GetRangeFromPoint
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/12178252-c246-4fa4-bf7b-2445b859ec01">
-        Manager Return Values
+<a href="https://msdn.microsoft.com/12178252-c246-4fa4-bf7b-2445b859ec01">Manager Return Values
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">
-        TsViewCookie
+<a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">TsViewCookie
       </a>
  
 

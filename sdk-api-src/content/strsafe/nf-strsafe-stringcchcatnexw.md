@@ -7,7 +7,7 @@ old-location: menurc\stringcchcatnex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcatnex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchCatNEx, StringCchCatNEx function [Menus and Other Resources], StringCchCatNExA, StringCchCatNExW, _shell_StringCchCatNEx, _shell_stringcchcatnex_cpp, menurc.stringcchcatnex, strsafe/StringCchCatNEx, strsafe/StringCchCatNExA, strsafe/StringCchCatNExW, winui._shell_stringcchcatnex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,9 +91,11 @@ Type: <b>LPCTSTR</b>
 The source string that is concatenated to the end of <i>pszDest</i>. This string must be null-terminated.
 
 
-### -param cchToAppend
+### -param cchToAppend [in]
 
-TBD
+Type: <b>size_t</b>
+
+The maximum number of characters to be appended to <i>pszDest</i>.
 
 
 ### -param ppszDestEnd [out, optional]
@@ -178,13 +180,6 @@ If the function fails, <i>pszDest</i> is untouched. Nothing is added to the orig
 </tr>
 </table>
  
-
-
-#### - cchMaxAppend [in]
-
-Type: <b>size_t</b>
-
-The maximum number of characters to be appended to <i>pszDest</i>.
 
 
 ## -returns

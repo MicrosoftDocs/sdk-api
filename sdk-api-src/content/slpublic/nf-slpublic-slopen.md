@@ -4,10 +4,10 @@ title: SLOpen function
 author: windows-sdk-content
 description: Initializes the Software Licensing Client (SLC) and connects SLC to the Software Licensing Service (SLS).
 old-location: security\slopen.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: 79a09cf3-cf6f-479a-89c7-27f5fcee3186
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLOpen, SLOpen function [Security], security.slopen, slpublic/SLOpen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLOpen function

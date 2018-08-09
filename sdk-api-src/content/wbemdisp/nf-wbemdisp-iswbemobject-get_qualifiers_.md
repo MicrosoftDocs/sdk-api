@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_qualifiers_.htm
 old-project: WmiSdk
 ms.assetid: 5ecae751-0d83-4ad6-9840-ef47f76b1ff6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemObject interface [Windows Management Instrumentation],Qualifiers_ property, ISWbemObject.get_Qualifiers_, ISWbemObject::get_Qualifiers_, Qualifiers_ property [Windows Management Instrumentation], Qualifiers_ property [Windows Management Instrumentation],ISWbemObject interface, Qualifiers_ property [Windows Management Instrumentation],SWbemObject object, SWbemObject object [Windows Management Instrumentation],Qualifiers_ property, SWbemObject.Qualifiers_, _hmm_swbemobject.qualifiers_, get_Qualifiers_, wmi.swbemobject_qualifiers_
 ms.prod: windows
 ms.technology: windows-sdk

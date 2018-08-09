@@ -7,7 +7,7 @@ old-location: menurc\loadstring.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\loadstring.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: LoadString, LoadString function [Menus and Other Resources], LoadStringA, LoadStringW, _win32_LoadString, _win32_loadstring_cpp, menurc.loadstring, winui._win32_loadstring, winuser/LoadString, winuser/LoadStringA, winuser/LoadStringW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,14 +93,7 @@ Type: <b>LPTSTR</b>
 The buffer is to receive the string. Must be of sufficient length to hold a pointer (8 bytes).
 
 
-### -param cchBufferMax
-
-TBD
-
-
-
-
-#### - nBufferMax [in]
+### -param cchBufferMax [in]
 
 Type: <b>int</b>
 

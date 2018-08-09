@@ -7,7 +7,7 @@ old-location: http\httpqueryserversessionproperty.htm
 old-project: http
 ms.assetid: 653b286b-dc86-4896-8f03-1628b7178680
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpQueryServerSessionProperty, HttpQueryServerSessionProperty function [HTTP], HttpServerAuthenticationProperty, HttpServerChannelBindProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, http.httpqueryserversessionproperty, http/HttpQueryServerSessionProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,24 +127,7 @@ Queries the channel binding token (CBT) properties.
  
 
 
-### -param PropertyInformation
-
-TBD
-
-
-### -param PropertyInformationLength [in]
-
-The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i> parameter.
-
-
-### -param ReturnLength
-
-TBD
-
-
-
-
-#### - pPropertyInformation [out]
+### -param PropertyInformation [out]
 
 A pointer to the buffer that receives the property data.
 
@@ -189,7 +172,12 @@ A pointer to the buffer that receives the property data.
 
 
 
-#### - pReturnLength [out, optional]
+### -param PropertyInformationLength [in]
+
+The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i> parameter.
+
+
+### -param ReturnLength [out, optional]
 
 The number, in  bytes, returned in the  <i>pPropertyInformation</i> buffer.
 

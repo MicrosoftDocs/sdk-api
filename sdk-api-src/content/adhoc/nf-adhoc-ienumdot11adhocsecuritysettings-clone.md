@@ -7,7 +7,7 @@ old-location: nwifi\ienumdot11adhocsecuritysettings_clone.htm
 old-project: nativewifi
 ms.assetid: 27ef4cab-9aa5-4aa2-9e2e-fb16aae99045
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: Clone, Clone method [NativeWIFI], Clone method [NativeWIFI],IEnumDot11AdHocSecuritySettings interface, IEnumDot11AdHocSecuritySettings interface [NativeWIFI],Clone method, IEnumDot11AdHocSecuritySettings.Clone, IEnumDot11AdHocSecuritySettings::Clone, adhoc/IEnumDot11AdHocSecuritySettings::Clone, nwifi.ienumdot11adhocsecuritysettings_clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,8 +60,7 @@ Creates a new enumeration interface.
 
 ### -param ppEnum [out]
 
-A pointer that, on successful return, points to an <a href="https://msdn.microsoft.com/137abd1b-997d-4003-9fef-8db56b273149">IEnumDot11AdHocSecuritySettings</a>
-  interface.
+A pointer that, on successful return, points to an <a href="https://msdn.microsoft.com/137abd1b-997d-4003-9fef-8db56b273149">IEnumDot11AdHocSecuritySettings</a>interface.
 
 
 ## -returns

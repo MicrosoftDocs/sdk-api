@@ -7,7 +7,7 @@ old-location: display\enghangnotification.htm
 old-project: display
 ms.assetid: 9013bf34-64bd-4621-af40-f979065c8cbd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: EngHangNotification, EngHangNotification function [Display Devices], display.enghangnotification, gdifncs_ca454eea-7e11-4af6-a717-818f52f9fc59.xml, winddi/EngHangNotification
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,17 +61,12 @@ The <b>EngHangNotification</b> function notifies the system that a specified dev
 
 ### -param hdev
 
-TBD
+Handle to the physical device that has stopped. This parameter is the GDI handle received by the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556181">DrvCompletePDEV</a> entry point.
 
 
 ### -param Reserved
 
 Is reserved and must be set to <b>NULL</b>.
-
-
-#### - hDev
-
-Handle to the physical device that has stopped. This parameter is the GDI handle received by the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556181">DrvCompletePDEV</a> entry point.
 
 
 ## -returns

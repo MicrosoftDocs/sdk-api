@@ -7,7 +7,7 @@ old-location: com\iolecommandtarget.htm
 old-project: com
 ms.assetid: 5c8b455e-7740-4f71-aef6-27390a11a1a3
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IOleCommandTarget, IOleCommandTarget interface [COM], IOleCommandTarget interface [COM],described, _ole_iolecommandtarget, com.iolecommandtarget, docobj/IOleCommandTarget
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ Available commands are defined by integer identifiers in a group. The group itse
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleCommandTarget</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleCommandTarget</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleCommandTarget</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleCommandTarget</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

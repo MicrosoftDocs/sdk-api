@@ -7,7 +7,7 @@ old-location: termserv\itssbprovider_createloadbalanceresultobject.htm
 old-project: termserv
 ms.assetid: aaa13ec1-d79c-4458-9340-3cc42bbcd948
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: CreateLoadBalanceResultObject, CreateLoadBalanceResultObject method [Remote Desktop Services], CreateLoadBalanceResultObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateLoadBalanceResultObject method, ITsSbProvider.CreateLoadBalanceResultObject, ITsSbProvider::CreateLoadBalanceResultObject, sbtsv/ITsSbProvider::CreateLoadBalanceResultObject, termserv.itssbprovider_createloadbalanceresultobject
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IVdsAdvancedDisk::ChangeAttributes
 author: windows-sdk-content
 description: Modifies the attributes of the partition.
 old-location: base\ivdsadvanceddisk_changeattributes.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 0345a4b1-bbe1-4e59-9a04-bb40ff6db954
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: ChangeAttributes, ChangeAttributes method [VDS], ChangeAttributes method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],ChangeAttributes method, IVdsAdvancedDisk.ChangeAttributes, IVdsAdvancedDisk::ChangeAttributes, base.ivdsadvanceddisk_changeattributes, vds/IVdsAdvancedDisk::ChangeAttributes
 ms.prod: windows
 ms.technology: windows-sdk

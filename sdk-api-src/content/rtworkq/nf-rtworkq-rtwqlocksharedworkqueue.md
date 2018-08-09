@@ -7,7 +7,7 @@ old-location: base\rtwqlocksharedworkqueue.htm
 old-project: procthread
 ms.assetid: ccebdbd8-fd3e-4e99-b1dd-1ec8e57cbff6
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: RtwqLockSharedWorkQueue, RtwqLockSharedWorkQueue function, base.rtwqlocksharedworkqueue, rtworkq/RtwqLockSharedWorkQueue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,14 +74,7 @@ The base priority of the work-queue threads. If the regular-priority queue is be
 The MMCSS task identifier. On input, specify an existing MCCSS task group ID, or use the value zero to create a new task group. If the regular priority queue is being used (<code>usageClass=""</code>), then <b>NULL</b> must be passed in. On output, receives the actual task group ID.
 
 
-### -param id
-
-TBD
-
-
-
-
-#### - pID [out]
+### -param id [out]
 
 Receives an identifier for the new work queue. Use this identifier when queuing work items.
 

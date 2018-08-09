@@ -7,7 +7,7 @@ old-location: ixhr2\ixmlhttprequest2callback_onresponsereceived.htm
 old-project: ixhr2
 ms.assetid: 5D1D4D4B-CC49-4A63-A0D5-B29D618E80DE
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnResponseReceived method, IXMLHTTPRequest2Callback.OnResponseReceived, IXMLHTTPRequest2Callback::OnResponseReceived, OnResponseReceived, OnResponseReceived method [XMLHttpRequest2], OnResponseReceived method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onresponsereceived, msxml6/IXMLHTTPRequest2Callback::OnResponseReceived
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,6 @@ Returns <b>S_OK</b> on success.
 
 
 When this event fires the application can begin processing data from the HTTP response. Processing may begin before this event fires if an earlier <a href="https://msdn.microsoft.com/068C3288-A872-43FA-BF1F-D7A3CD2E2203">OnDataAvailable</a> event has occurred.
-
-
 
 Unless <a href="https://msdn.microsoft.com/532C97A7-B952-47BE-A9C7-5B1E5AB4C3D3">OnError</a> is called, the call to <b>OnResponseReceived</b> is the final callback. The client should perform any required cleanup including releasing references to the <a href="https://msdn.microsoft.com/BBC11C4A-AECF-4D6D-8275-3E852E309908">IXMLHTTPRequest2</a> object.
 

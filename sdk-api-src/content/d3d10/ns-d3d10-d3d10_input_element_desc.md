@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_input_element_desc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_input_element_desc.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 0181f051-1b3b-7933-88f6-5ddfa2b8cf74, D3D10_INPUT_ELEMENT_DESC, D3D10_INPUT_ELEMENT_DESC structure [Direct3D 10], d3d10/D3D10_INPUT_ELEMENT_DESC, direct3d10.d3d10_input_element_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-A description of a single element for the <a href="https://msdn.microsoft.com/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>.
+A description of a single element for the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>.
 
 
 ## -struct-fields
@@ -62,7 +62,7 @@ A description of a single element for the <a href="https://msdn.microsoft.com/li
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
 
-The <a href="https://msdn.microsoft.com/library/Bb509647(v=VS.85).aspx">HLSL semantic</a> associated with this element in a <a href="https://msdn.microsoft.com/library/Bb509650(v=VS.85).aspx">shader input-signature</a>.
+The <a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">HLSL semantic</a> associated with this element in a <a href="https://msdn.microsoft.com/en-us/library/Bb509650(v=VS.85).aspx">shader input-signature</a>.
 
 
 ### -field SemanticIndex
@@ -74,16 +74,16 @@ The semantic index for the element. A semantic index modifies a semantic, with a
 
 ### -field Format
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
 
-The data type of the element data. See <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>.
+The data type of the element data. See <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>.
 
 
 ### -field InputSlot
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-An integer value that identifies the input-assembler (see <a href="https://msdn.microsoft.com/library/Bb205117(v=VS.85).aspx">input slot</a>). Valid values are between 0 and 15, defined in D3D10.h.
+An integer value that identifies the input-assembler (see <a href="https://msdn.microsoft.com/en-us/library/Bb205117(v=VS.85).aspx">input slot</a>). Valid values are between 0 and 15, defined in D3D10.h.
 
 
 ### -field AlignedByteOffset
@@ -95,9 +95,9 @@ Optional. Offset (in bytes) between each element. Use D3D10_APPEND_ALIGNED_ELEME
 
 ### -field InputSlotClass
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb205315(v=VS.85).aspx">D3D10_INPUT_CLASSIFICATION</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205315(v=VS.85).aspx">D3D10_INPUT_CLASSIFICATION</a></b>
 
-Identifies the input data class for a single input slot (see <a href="https://msdn.microsoft.com/library/Bb205315(v=VS.85).aspx">D3D10_INPUT_CLASSIFICATION</a>).
+Identifies the input data class for a single input slot (see <a href="https://msdn.microsoft.com/en-us/library/Bb205315(v=VS.85).aspx">D3D10_INPUT_CLASSIFICATION</a>).
 
 
 ### -field InstanceDataStepRate
@@ -111,7 +111,7 @@ The number of instances to draw before stepping one unit forward in a vertex buf
 
 
 
-An input-layout object contains an array of structures, each structure defines one element being read from an input slot. Create an input-layout object by calling <a href="https://msdn.microsoft.com/library/Bb173550(v=VS.85).aspx">ID3D10Device::CreateInputLayout</a>. For an example, see <a href="https://msdn.microsoft.com/library/Bb205117(v=VS.85).aspx">Create an input-layout object</a>.
+An input-layout object contains an array of structures, each structure defines one element being read from an input slot. Create an input-layout object by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173550(v=VS.85).aspx">ID3D10Device::CreateInputLayout</a>. For an example, see <a href="https://msdn.microsoft.com/en-us/library/Bb205117(v=VS.85).aspx">Create an input-layout object</a>.
 
 
 
@@ -121,7 +121,7 @@ An input-layout object contains an array of structures, each structure defines o
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205153(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205153(v=VS.85).aspx">Core Structures</a>
  
 
  

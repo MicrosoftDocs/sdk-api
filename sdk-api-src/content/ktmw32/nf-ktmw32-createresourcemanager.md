@@ -4,10 +4,10 @@ title: CreateResourceManager function
 author: windows-sdk-content
 description: Creates a new resource manager (RM) object, and associates the RM with a transaction manager (TM).
 old-location: fs\createresourcemanager.htm
-old-project: Ktm
+old-project: ktm
 ms.assetid: ad88e478-1dff-4f35-a0e3-6bda8bb45711
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: CreateResourceManager, CreateResourceManager function [Files], RESOURCE_MANAGER_VOLATILE, fs.createresourcemanager, ktmw32/CreateResourceManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ Creates a new resource manager (RM) object, and associates the RM with a transac
 TBD
 
 
-### -param ResourceManagerId
+### -param ResourceManagerId [in]
 
-TBD
+A pointer the resource manager GUID. This parameter is required and must not be <b>NULL</b>.
 
 
 ### -param TmHandle [in]
@@ -77,6 +77,11 @@ A handle to the TM that will manage the transactions for this RM.
 ### -param Description [in, optional]
 
 A description for this RM.
+
+
+#### - lpResourceManagerAttributes [in, optional]
+
+A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that contains the security attributes for the resource manager.  Specify <b>NULL</b> to obtain the default attributes.
 
 
 #### - CreateOptions [in, optional]
@@ -100,16 +105,6 @@ Indicates that the RM is volatile, and does not perform recovery.
 </tr>
 </table>
  
-
-
-#### - ResourceManagerID [in]
-
-A pointer the resource manager GUID. This parameter is required and must not be <b>NULL</b>.
-
-
-#### - lpResourceManagerAttributes [in, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that contains the security attributes for the resource manager.  Specify <b>NULL</b> to obtain the default attributes.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsetjob.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4pwi.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: FaxSetJob, FaxSetJob function [Fax Service], FaxSetJobA, FaxSetJobW, JC_DELETE, JC_PAUSE, JC_RESTART, JC_RESUME, _mfax_faxsetjob, fax._mfax_faxsetjob, winfax/FaxSetJob, winfax/FaxSetJobA, winfax/FaxSetJobW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -124,14 +124,14 @@ Cancel the specified fax job. The job can be active or queued.
 Pause the specified queued fax job. If the fax job is active, the fax service pauses the job when it returns to the queued state.
 
 
-##### - Command.JC_RESTART
-
-Restart the specified fax job.
-
-
 ##### - Command.JC_RESUME
 
 Resume the paused fax job.
+
+
+##### - Command.JC_RESTART
+
+Restart the specified fax job.
 
 
 ## -returns

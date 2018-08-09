@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxreceiptoptions_authenticationtype_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7g11.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: AuthenticationType property [Fax Service], AuthenticationType property [Fax Service],FaxReceiptOptions object, FaxReceiptOptions object [Fax Service],AuthenticationType property, FaxReceiptOptions.AuthenticationType, IFaxReceiptOptions.put_AuthenticationType, IFaxReceiptOptions::put_AuthenticationType, _mfax_faxreceiptoptions.authenticationtype, fax._mfax_faxreceiptoptions_authenticationtype, fax._mfax_faxreceiptoptions_authenticationtype_vb, put_AuthenticationType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
+To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -73,15 +73,15 @@ To read or to write to this property, a user must have the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690118(v=VS.85).aspx">FaxReceiptOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690118(v=VS.85).aspx">FaxReceiptOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690119(v=VS.85).aspx">IFaxReceiptOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690119(v=VS.85).aspx">IFaxReceiptOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693387(v=VS.85).aspx">Setting Receipt Options</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693387(v=VS.85).aspx">Setting Receipt Options</a>
  
 
  

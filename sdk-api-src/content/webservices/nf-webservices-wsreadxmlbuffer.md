@@ -7,7 +7,7 @@ old-location: wsw\wsreadxmlbuffer.htm
 old-project: wsw
 ms.assetid: d8d849b7-6acf-4007-a904-144200c934f6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsReadXmlBuffer, WsReadXmlBuffer function [Web Services for Windows], webservices/WsReadXmlBuffer, wsw.wsreadxmlbuffer
 ms.prod: windows
 ms.technology: windows-sdk

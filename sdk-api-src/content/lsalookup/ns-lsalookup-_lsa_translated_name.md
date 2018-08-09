@@ -7,7 +7,7 @@ old-location: security\lsa_translated_name.htm
 old-project: secmgmt
 ms.assetid: edea8317-5cdf-4d1e-9e6d-fcf17b91adb7
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 08/06/2018
 ms.keywords: "*PLSA_TRANSLATED_NAME, LSA_TRANSLATED_NAME, LSA_TRANSLATED_NAME structure [Security], PLSA_TRANSLATED_NAME, PLSA_TRANSLATED_NAME structure pointer [Security], SidTypeDomain, SidTypeInvalid, SidTypeUnknown, SidTypeWellKnownGroup, _LSA_TRANSLATED_NAME, _lsa_lsa_translated_name, lsalookup/LSA_TRANSLATED_NAME, lsalookup/PLSA_TRANSLATED_NAME, security.lsa_translated_name"
 ms.prod: windows
 ms.technology: windows-sdk

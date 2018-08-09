@@ -7,7 +7,7 @@ old-location: shell\PathFindFileName.htm
 old-project: shell
 ms.assetid: f3824dee-1169-4f89-9844-35aa8a1830c4
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PathFindFileName, PathFindFileName function [Windows Shell], PathFindFileNameA, PathFindFileNameW, _win32_PathFindFileName, shell.PathFindFileName, shlwapi/PathFindFileName, shlwapi/PathFindFileNameA, shlwapi/PathFindFileNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,7 @@ Searches a path for a file name.
 
 
 
-### -param pszPath
-
-TBD
-
-
-
-
-#### - pPath [in]
+### -param pszPath [in]
 
 Type: <b>PTSTR</b>
 

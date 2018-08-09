@@ -7,7 +7,7 @@ old-location: mf\imftrustedoutput.htm
 old-project: medfound
 ms.assetid: 14342d8b-3c76-4c13-8cbe-a60bb66084c8
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 14342d8b-3c76-4c13-8cbe-a60bb66084c8, IMFTrustedOutput, IMFTrustedOutput interface [Media Foundation], IMFTrustedOutput interface [Media Foundation],described, mf.imftrustedoutput, mfidl/IMFTrustedOutput
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ The <b>IMFTrustedOutput</b> interface has these methods.
 <a href="https://msdn.microsoft.com/4dd570e7-c6fb-4ffb-8ef5-b88a6638dbbf">GetOutputTrustAuthorityByIndex</a>
 </td>
 <td align="left" width="63%">
-
-          Gets an OTA, specified by index.
+Gets an OTA, specified by index.
         
 
 </td>
@@ -88,8 +87,7 @@ The <b>IMFTrustedOutput</b> interface has these methods.
 <a href="https://msdn.microsoft.com/3aae6859-0b32-4705-9045-b98d0bbf43a6">GetOutputTrustAuthorityCount</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the number of OTAs provided by this trusted output.
+Gets the number of OTAs provided by this trusted output.
         
 
 </td>
@@ -99,8 +97,7 @@ The <b>IMFTrustedOutput</b> interface has these methods.
 <a href="https://msdn.microsoft.com/085cac9c-f8c1-45b9-a8fe-c2c5cc941439">IsFinal</a>
 </td>
 <td align="left" width="63%">
-
-          Queries whether this output is a policy sink, meaning it handles the rights and restrictions required by the input trust authority (ITA).
+Queries whether this output is a policy sink, meaning it handles the rights and restrictions required by the input trust authority (ITA).
         
 
 </td>

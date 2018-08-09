@@ -7,7 +7,7 @@ old-location: p2p\peergraphsearchrecords.htm
 old-project: p2psdk
 ms.assetid: 0f20c738-ae56-4352-a1fb-5aa469a58bc8
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphSearchRecords, PeerGraphSearchRecords function [Peer Networking], p2p.peergraphsearchrecords, p2p/PeerGraphSearchRecords
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphSearchRecords</b> function searches the peer graph for specific records.
+The <b>PeerGraphSearchRecords</b> function searches the peer graph for specific records.
 
 
 ## -parameters

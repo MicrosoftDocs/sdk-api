@@ -4,10 +4,10 @@ title: IWSDServiceProxyEventing::EndGetStatusForMultipleOperations
 author: windows-sdk-content
 description: Completes an asynchronous operation that retrieves the current status.
 old-location: ncd\iwsdserviceproxyeventing_endgetstatusformultipleoperations.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 0918ef4f-29ae-4c74-9b7d-0e7adb514c7b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EndGetStatusForMultipleOperations, EndGetStatusForMultipleOperations method, EndGetStatusForMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,EndGetStatusForMultipleOperations method, IWSDServiceProxyEventing.EndGetStatusForMultipleOperations, IWSDServiceProxyEventing::EndGetStatusForMultipleOperations, ncd.iwsdserviceproxyeventing_endgetstatusformultipleoperations, wsdclient/IWSDServiceProxyEventing::EndGetStatusForMultipleOperations
 ms.prod: windows
 ms.technology: windows-sdk

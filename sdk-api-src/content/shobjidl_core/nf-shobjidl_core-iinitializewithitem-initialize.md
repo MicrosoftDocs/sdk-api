@@ -7,7 +7,7 @@ old-location: shell\IInitializeWithItem_Initialize.htm
 old-project: shell
 ms.assetid: 61abf5c8-2847-4788-9d99-65f3b1c821d6
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IInitializeWithItem interface [Windows Shell],Initialize method, IInitializeWithItem.Initialize, IInitializeWithItem::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithItem interface, STGM_READ, STGM_READWRITE, shell.IInitializeWithItem_Initialize, shell_IInitializeWithItem_Initialize, shobjidl_core/IInitializeWithItem::Initialize
 ms.prod: windows
 ms.technology: windows-sdk

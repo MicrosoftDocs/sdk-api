@@ -7,7 +7,7 @@ old-location: stg\ilayoutstorage_endmonitor.htm
 old-project: stg
 ms.assetid: 83b9486b-78b6-473c-9a9a-33f470a4d70f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: EndMonitor, EndMonitor method [Structured Storage], EndMonitor method [Structured Storage],ILayoutStorage interface, ILayoutStorage interface [Structured Storage],EndMonitor method, ILayoutStorage.EndMonitor, ILayoutStorage::EndMonitor, _stg_ilayoutstorage_endmonitor, objidl/ILayoutStorage::EndMonitor, stg.ilayoutstorage_endmonitor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			
-			The <b>EndMonitor</b> method ends monitoring of a compound file. Must be preceded by a call to 
+The <b>EndMonitor</b> method ends monitoring of a compound file. Must be preceded by a call to 
 <a href="https://msdn.microsoft.com/16371d6c-adb9-43c2-80a4-377e94854bbb">ILayoutStorage::BeginMonitor</a>.
 
 
@@ -68,8 +66,7 @@ req.product: ADAM
 
 
 
-
-						This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL, as well as all return values for <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a>.
+This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL, as well as all return values for <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a>.
 
 
 

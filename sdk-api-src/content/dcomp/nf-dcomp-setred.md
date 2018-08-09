@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionshadoweffect_setred_overloaded.htm
 old-project: directcomp
 ms.assetid: c1a74aca-6026-1307-7300-ca2941246000
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IDCompositionShadowEffect::SetRed, SetRed, SetRed methods [DirectComposition], dcomp/SetRed, directcomp.idcompositionshadoweffect_setred_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

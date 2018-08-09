@@ -7,7 +7,7 @@ old-location: tablet\peninputpanel_commitpendinginput.htm
 old-project: tablet
 ms.assetid: 4dd0f334-174a-495c-b363-149960ae2253
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 4dd0f334-174a-495c-b363-149960ae2253, CommitPendingInput, CommitPendingInput method [Tablet PC], CommitPendingInput method [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],CommitPendingInput method, IPenInputPanel.CommitPendingInput, IPenInputPanel::CommitPendingInput, peninputpanel/IPenInputPanel::CommitPendingInput, tablet.peninputpanel_commitpendinginput
 ms.prod: windows
 ms.technology: windows-sdk

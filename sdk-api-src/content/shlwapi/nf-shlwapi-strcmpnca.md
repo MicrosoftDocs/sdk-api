@@ -7,7 +7,7 @@ old-location: shell\StrCmpNC.htm
 old-project: shell
 ms.assetid: 4b4f18d3-9325-4bd9-ac65-af7f3012fdaa
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: StrCmpNC, StrCmpNC function [Windows Shell], StrCmpNCA, StrCmpNCW, _shell_StrCmpNC, shell.StrCmpNC, shlwapi/StrCmpNC, shlwapi/StrCmpNCA, shlwapi/StrCmpNCW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_mapped_texture3d.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_mapped_texture3d.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D3D10_MAPPED_TEXTURE3D, D3D10_MAPPED_TEXTURE3D structure [Direct3D 10], d3d10/D3D10_MAPPED_TEXTURE3D, d6a9ab51-df0f-5e41-8e19-a9049f06d5ed, direct3d10.d3d10_mapped_texture3d
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Provides access to <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">subresource</a> data in a <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">3D texture</a>.
+Provides access to <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource</a> data in a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">3D texture</a>.
 
 
 ## -struct-fields
@@ -69,7 +69,7 @@ Pointer to the data.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The pitch, or width, or physical size (in bytes) of one row of an uncompressed texture. Since a block-compressed texture is encoded in 4x4 blocks, the <b>RowPitch</b> for a compressed texture is the number of bytes in a block of 4x4 texels. See <a href="https://msdn.microsoft.com/library/Bb694531(v=VS.85).aspx">virtual size vs physical size</a> for more information on block compression.
+The pitch, or width, or physical size (in bytes) of one row of an uncompressed texture. Since a block-compressed texture is encoded in 4x4 blocks, the <b>RowPitch</b> for a compressed texture is the number of bytes in a block of 4x4 texels. See <a href="https://msdn.microsoft.com/en-us/library/Bb694531(v=VS.85).aspx">virtual size vs physical size</a> for more information on block compression.
 
 
 ### -field DepthPitch
@@ -83,7 +83,7 @@ The pitch or number of bytes in all rows for a single depth.
 
 
 
-This structure is used to access subresource data when calling <a href="https://msdn.microsoft.com/library/Bb173873(v=VS.85).aspx">ID3D10Texture3D::Map</a>. To access data, you must cast the <b>pData</b> pointer; see <a href="https://msdn.microsoft.com/library/Bb205319(v=VS.85).aspx">D3D10_MAPPED_TEXTURE2D</a> for an example.
+This structure is used to access subresource data when calling <a href="https://msdn.microsoft.com/en-us/library/Bb173873(v=VS.85).aspx">ID3D10Texture3D::Map</a>. To access data, you must cast the <b>pData</b> pointer; see <a href="https://msdn.microsoft.com/en-us/library/Bb205319(v=VS.85).aspx">D3D10_MAPPED_TEXTURE2D</a> for an example.
 
 To illustrate pitch for an uncompressed texture, assume a 3D texture with mipmap levels, as shown in the following illustration.
 
@@ -111,7 +111,7 @@ Use row pitch to advance a pointer between rows within a single 2D texture plane
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
  
 
  

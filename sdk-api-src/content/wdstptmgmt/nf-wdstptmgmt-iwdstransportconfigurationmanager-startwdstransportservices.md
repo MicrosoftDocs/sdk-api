@@ -4,10 +4,10 @@ title: IWdsTransportConfigurationManager::StartWdsTransportServices
 author: windows-sdk-content
 description: Starts all WDS transport services. This method provides the means to change the running state of WDS transport services without changing their configuration.
 old-location: wds\iwdstransportconfigurationmanager_startwdstransportservices.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 7612335a-4d81-4ec5-a348-93adefb0cced
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],StartWdsTransportServices method, IWdsTransportConfigurationManager.StartWdsTransportServices, IWdsTransportConfigurationManager::StartWdsTransportServices, StartWdsTransportServices, StartWdsTransportServices method [Windows Deployment Services], StartWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, wds.iwdstransportconfigurationmanager_startwdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::StartWdsTransportServices
 ms.prod: windows
 ms.technology: windows-sdk

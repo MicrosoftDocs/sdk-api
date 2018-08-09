@@ -7,7 +7,7 @@ old-location: wmp\iwmpplaylistcollection_isdeleted.htm
 old-project: WMP
 ms.assetid: ac3e3401-ac7e-44d2-9680-5abe69678fc7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],isDeleted method, IWMPPlaylistCollection.isDeleted, IWMPPlaylistCollection::isDeleted, IWMPPlaylistCollectionisDeleted, isDeleted, isDeleted method [Windows Media Player], isDeleted method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_isdeleted, wmp/IWMPPlaylistCollection::isDeleted
 ms.prod: windows
 ms.technology: windows-sdk

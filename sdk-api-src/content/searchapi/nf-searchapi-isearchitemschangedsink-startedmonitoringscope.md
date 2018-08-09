@@ -7,7 +7,7 @@ old-location: search\_search_ISearchItemsChangedSink_StartedMonitoringScope.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchitemschangedsink\startedmonitoringscope.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchItemsChangedSink interface [search],StartedMonitoringScope method, ISearchItemsChangedSink.StartedMonitoringScope, ISearchItemsChangedSink::StartedMonitoringScope, StartedMonitoringScope, StartedMonitoringScope method [search], StartedMonitoringScope method [search],ISearchItemsChangedSink interface, _search_ISearchItemsChangedSink_StartedMonitoringScope, search._search_ISearchItemsChangedSink_StartedMonitoringScope, searchapi/ISearchItemsChangedSink::StartedMonitoringScope
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When a notification agent comes online it calls <a href="https://msdn.microsoft.com/library/Bb231456(v=VS.85).aspx">StartedMonitoringScope</a> which adds the scope to the list of sources. If the source is new (removed previously by <a href="https://msdn.microsoft.com/library/Bb231457(v=VS.85).aspx">StoppedMonitoringScope</a>, or never created in the first place) the indexer starts an incremental crawl of the corresponding document store. This is designed to pick up any changes in the store that occurred while the notification agent was offline. 
+When a notification agent comes online it calls <a href="https://msdn.microsoft.com/en-us/library/Bb231456(v=VS.85).aspx">StartedMonitoringScope</a> which adds the scope to the list of sources. If the source is new (removed previously by <a href="https://msdn.microsoft.com/en-us/library/Bb231457(v=VS.85).aspx">StoppedMonitoringScope</a>, or never created in the first place) the indexer starts an incremental crawl of the corresponding document store. This is designed to pick up any changes in the store that occurred while the notification agent was offline. 
 
 
 
@@ -95,19 +95,19 @@ When a notification agent comes online it calls <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb266492(v=VS.85).aspx">ISearchCrawlScopeManager</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266492(v=VS.85).aspx">ISearchCrawlScopeManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231461(v=VS.85).aspx">ISearchItemsChangedSink</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231461(v=VS.85).aspx">ISearchItemsChangedSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb266457(v=VS.85).aspx">ISearchScopeRule</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266457(v=VS.85).aspx">ISearchScopeRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb266528(v=VS.85).aspx">Notifying the Index of Changes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266528(v=VS.85).aspx">Notifying the Index of Changes</a>
 
 
 
@@ -115,7 +115,7 @@ When a notification agent comes online it calls <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231464(v=VS.85).aspx">StoppedMonitoringScope</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231464(v=VS.85).aspx">StoppedMonitoringScope</a>
  
 
  

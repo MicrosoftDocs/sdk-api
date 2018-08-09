@@ -7,7 +7,7 @@ old-location: mscs\resutilgetbinaryproperty.htm
 old-project: mscs
 ms.assetid: fe69ba4c-d69a-4f5a-a620-0e2152e7be61
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: PRESUTIL_GET_BINARY_PROPERTY, PRESUTIL_GET_BINARY_PROPERTY function [Failover Cluster], ResUtilGetBinaryProperty, ResUtilGetBinaryProperty function [Failover Cluster], _wolf_resutilgetbinaryproperty, mscs.resutilgetbinaryproperty, resapi/PRESUTIL_GET_BINARY_PROPERTY, resapi/ResUtilGetBinaryProperty
 ms.prod: windows
 ms.technology: windows-sdk

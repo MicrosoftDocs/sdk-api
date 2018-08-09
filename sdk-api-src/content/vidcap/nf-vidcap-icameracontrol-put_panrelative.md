@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_panrelative.htm
 old-project: DirectShow
 ms.assetid: a4ac28f4-8570-4307-80c1-2960d7c87544
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: ICameraControl interface [DirectShow],put_PanRelative method, ICameraControl.put_PanRelative, ICameraControl::put_PanRelative, ICameraControlput_PanRelative, dshow.icameracontrol_put_panrelative, put_PanRelative, put_PanRelative method [DirectShow], put_PanRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_PanRelative
 ms.prod: windows
 ms.technology: windows-sdk

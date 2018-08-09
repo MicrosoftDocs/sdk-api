@@ -7,7 +7,7 @@ old-location: controls\TOOLINFO.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\toolinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPTTTOOLINFOA, *PTOOLINFOA, LPTOOLINFO, LPTOOLINFO structure pointer [Windows Controls], PTOOLINFO, PTOOLINFO structure pointer [Windows Controls], TOOLINFO, TOOLINFO structure [Windows Controls], TOOLINFOA, TOOLINFOW, TTF_ABSOLUTE, TTF_CENTERTIP, TTF_IDISHWND, TTF_PARSELINKS, TTF_RTLREADING, TTF_SUBCLASS, TTF_TRACK, TTF_TRANSPARENT, TTTOOLINFO, TTTOOLINFOA, TTTOOLINFOW, _win32_TOOLINFO, _win32_TOOLINFO_cpp, commctrl/LPTOOLINFO, commctrl/PTOOLINFO, commctrl/TOOLINFO, commctrl/TOOLINFOA, commctrl/TOOLINFOW, controls.TOOLINFO, controls._win32_TOOLINFO, tagTOOLINFOA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,8 +84,7 @@ Flags that control the tooltip display. This member can be a combination of the 
 </dl>
 </td>
 <td width="60%">
-
-                Positions the tooltip window at the same coordinates provided by <a href="https://msdn.microsoft.com/library/Bb760422(v=VS.85).aspx">TTM_TRACKPOSITION</a>. This flag must be used with the TTF_TRACK flag. 
+Positions the tooltip window at the same coordinates provided by <a href="https://msdn.microsoft.com/en-us/library/Bb760422(v=VS.85).aspx">TTM_TRACKPOSITION</a>. This flag must be used with the TTF_TRACK flag. 
 
 </td>
 </tr>
@@ -120,7 +119,7 @@ Indicates that the <b>uId</b> member is the window handle to the tool. If this f
                         
                         
 
-Note that Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.
+Note that Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.
 
 </td>
 </tr>
@@ -140,7 +139,7 @@ Indicates that the tooltip text will be displayed in the opposite direction to t
 </dl>
 </td>
 <td width="60%">
-Indicates that the tooltip control should subclass the tool's window to intercept messages, such as <a href="https://msdn.microsoft.com/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a>. If this flag is not set, you must use the <a href="https://msdn.microsoft.com/library/Bb760403(v=VS.85).aspx">TTM_RELAYEVENT</a> message to forward messages to the tooltip control. For a list of messages that a tooltip control processes, see TTM_RELAYEVENT. 
+Indicates that the tooltip control should subclass the tool's window to intercept messages, such as <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a>. If this flag is not set, you must use the <a href="https://msdn.microsoft.com/en-us/library/Bb760403(v=VS.85).aspx">TTM_RELAYEVENT</a> message to forward messages to the tooltip control. For a list of messages that a tooltip control processes, see TTM_RELAYEVENT. 
 
 </td>
 </tr>
@@ -150,8 +149,7 @@ Indicates that the tooltip control should subclass the tool's window to intercep
 </dl>
 </td>
 <td width="60%">
-
-                Positions the tooltip window next to the tool to which it corresponds and moves the window according to coordinates supplied by the <a href="https://msdn.microsoft.com/library/Bb760422(v=VS.85).aspx">TTM_TRACKPOSITION</a> messages. You must activate this type of tool using the <a href="https://msdn.microsoft.com/library/Bb760421(v=VS.85).aspx">TTM_TRACKACTIVATE</a> message. 
+Positions the tooltip window next to the tool to which it corresponds and moves the window according to coordinates supplied by the <a href="https://msdn.microsoft.com/en-us/library/Bb760422(v=VS.85).aspx">TTM_TRACKPOSITION</a> messages. You must activate this type of tool using the <a href="https://msdn.microsoft.com/en-us/library/Bb760421(v=VS.85).aspx">TTM_TRACKACTIVATE</a> message. 
 
 </td>
 </tr>
@@ -161,8 +159,7 @@ Indicates that the tooltip control should subclass the tool's window to intercep
 </dl>
 </td>
 <td width="60%">
-
-                Causes the tooltip control to forward mouse event messages to the parent window. This is limited to mouse events that occur within the bounds of the tooltip window. 
+Causes the tooltip control to forward mouse event messages to the parent window. This is limited to mouse events that occur within the bounds of the tooltip window. 
 
 </td>
 </tr>
@@ -174,7 +171,7 @@ Indicates that the tooltip control should subclass the tool's window to intercep
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
-Handle to the window that contains the tool. If <b>lpszText</b> includes the LPSTR_TEXTCALLBACK value, this member identifies the window that receives the <a href="https://msdn.microsoft.com/library/Bb760269(v=VS.85).aspx">TTN_GETDISPINFO</a> notification codes.
+Handle to the window that contains the tool. If <b>lpszText</b> includes the LPSTR_TEXTCALLBACK value, this member identifies the window that receives the <a href="https://msdn.microsoft.com/en-us/library/Bb760269(v=VS.85).aspx">TTN_GETDISPINFO</a> notification codes.
 
 
 ### -field uId
@@ -203,7 +200,7 @@ Handle to the instance that contains the string resource for the tool. If <b>lps
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
 
 Pointer to the buffer that contains the text for the tool, or identifier of the string resource that contains the text. This member is sometimes used to return values. If you need to examine the returned value,  must point to a valid buffer of sufficient size. Otherwise, it can be set to <b>NULL</b>. If <b>lpszText</b> is set to LPSTR_TEXTCALLBACK, the control sends
-the <a href="https://msdn.microsoft.com/library/Bb760269(v=VS.85).aspx">TTN_GETDISPINFO</a> notification code to the owner window to retrieve the text.
+the <a href="https://msdn.microsoft.com/en-us/library/Bb760269(v=VS.85).aspx">TTN_GETDISPINFO</a> notification code to the owner window to retrieve the text.
 
 
 ### -field lParam
@@ -217,8 +214,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b>void*</b>
 
-
-            Reserved. Must be set to <b>NULL</b>.
+Reserved. Must be set to <b>NULL</b>.
 
 
 ## -remarks

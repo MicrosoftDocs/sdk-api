@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_stylusdown.htm
 old-project: tablet
 ms.assetid: 13fb831c-e3e8-4e04-81ce-d4658be105a0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 13fb831c-e3e8-4e04-81ce-d4658be105a0, IStylusPlugin interface [Tablet PC],StylusDown method, IStylusPlugin.StylusDown, IStylusPlugin::StylusDown, StylusDown, StylusDown method [Tablet PC], StylusDown method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::StylusDown, tablet.istylusplugin_stylusdown
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-          Notifies the implementing plug-in that the tablet pen has touched the digitizer surface.
+Notifies the implementing plug-in that the tablet pen has touched the digitizer surface.
         
 
 
@@ -78,9 +77,7 @@ Number of properties per packet. Valid values are 0 through 32, inclusive.
 
 ### -param pPacket [in]
 
-
-            
-            The start of the packet data.
+The start of the packet data.
           
 
 

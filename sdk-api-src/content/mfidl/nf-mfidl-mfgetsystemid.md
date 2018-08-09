@@ -7,7 +7,7 @@ old-location: mf\mfgetsystemid.htm
 old-project: medfound
 ms.assetid: E68B4DFF-EBB1-410E-9B6F-C9933A171E27
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFGetSystemId, MFGetSystemId function [Media Foundation], mf.mfgetsystemid, mfidl/MFGetSystemId
 ms.prod: windows
 ms.technology: windows-sdk

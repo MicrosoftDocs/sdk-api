@@ -7,7 +7,7 @@ old-location: security\icryptattributes_addrange_method.htm
 old-project: seccertenroll
 ms.assetid: 8dc0a2c5-3734-47c7-a716-f53322fee39d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],ICryptAttributes interface, ICryptAttributes interface [Security],AddRange method, ICryptAttributes.AddRange, ICryptAttributes::AddRange, certenroll/ICryptAttributes::AddRange, security.icryptattributes_addrange_method
 ms.prod: windows
 ms.technology: windows-sdk

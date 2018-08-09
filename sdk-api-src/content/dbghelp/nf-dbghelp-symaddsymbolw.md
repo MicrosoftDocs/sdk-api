@@ -7,7 +7,7 @@ old-location: base\symaddsymbol.htm
 old-project: debug
 ms.assetid: 28405993-035f-4946-91c3-0e3e34fd8824
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymAddSymbol, SymAddSymbol function, SymAddSymbolW, _win32_symaddsymbol, base.symaddsymbol, dbghelp/SymAddSymbol, dbghelp/SymAddSymbolW
 ms.prod: windows
 ms.technology: windows-sdk

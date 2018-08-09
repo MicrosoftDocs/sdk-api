@@ -7,7 +7,7 @@ old-location: mscs\clusprop_resource_class.htm
 old-project: mscs
 ms.assetid: 9ec01908-3765-4e95-a9d3-fdf6daa5f64d
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: "*PCLUSPROP_RESOURCE_CLASS, CLUSPROP_RESOURCE_CLASS, CLUSPROP_RESOURCE_CLASS structure [Failover Cluster], CLUS_RESCLASS_NETWORK, CLUS_RESCLASS_STORAGE, CLUS_RESCLASS_UNKNOWN, CLUS_RESCLASS_USER, PCLUSPROP_RESOURCE_CLASS, PCLUSPROP_RESOURCE_CLASS structure pointer [Failover Cluster], _wolf_clusprop_resource_class, clusapi/CLUSPROP_RESOURCE_CLASS, clusapi/PCLUSPROP_RESOURCE_CLASS, mscs.clusprop_resource_class"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ Resource class is unknown.
 
 
 <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">Resource</a> is a 
-         <a href="https://msdn.microsoft.com/library/ms721596(v=VS.85).aspx">network</a> device.
+         <a href="https://msdn.microsoft.com/en-us/library/Aa371763(v=VS.85).aspx">network</a> device.
 
 
 

@@ -7,7 +7,7 @@ old-location: shell\IFileSystemBindData.htm
 old-project: shell
 ms.assetid: f5099bb3-21a7-4708-ac48-d32a14646614
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IFileSystemBindData, IFileSystemBindData interface [Windows Shell], IFileSystemBindData interface [Windows Shell],described, _shell_ifilesystembinddata, shell.IFileSystemBindData, shobjidl_core/IFileSystemBindData
 ms.prod: windows
 ms.technology: windows-sdk

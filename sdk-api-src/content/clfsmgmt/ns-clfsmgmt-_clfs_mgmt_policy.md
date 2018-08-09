@@ -7,7 +7,7 @@ old-location: fs\clfs_mgmt_policy.htm
 old-project: Clfs
 ms.assetid: 3f5d9c38-b299-4102-9786-115ece5b0928
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/03/2018
 ms.keywords: "*PCLFS_MGMT_POLICY, CLFS_MGMT_POLICY, CLFS_MGMT_POLICY structure [Files], PCLFS_MGMT_POLICY, PCLFS_MGMT_POLICY structure pointer [Files], _CLFS_MGMT_POLICY, clfsmgmt/CLFS_MGMT_POLICY, clfsmgmt/PCLFS_MGMT_POLICY, fs.clfs_mgmt_policy"
 ms.prod: windows
 ms.technology: windows-sdk

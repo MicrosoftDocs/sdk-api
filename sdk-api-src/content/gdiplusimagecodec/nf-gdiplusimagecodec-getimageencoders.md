@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_FUNC_GetImageEncoders_numEncoders_size_encoders_.
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\getimageencoders.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetImageEncoders, GetImageEncoders function [GDI+], _gdiplus_FUNC_GetImageEncoders_numEncoders_size_encoders_, gdiplus._gdiplus_FUNC_GetImageEncoders_numEncoders_size_encoders_, gdiplusimagecodec/GetImageEncoders
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>GetImageEncoders</b> function gets an array of 
-			<a href="https://msdn.microsoft.com/library/ms534466(v=VS.85).aspx">ImageCodecInfo</a> objects that contain information about the available image encoders.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534466(v=VS.85).aspx">ImageCodecInfo</a> objects that contain information about the available image encoders.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ The <b>GetImageEncoders</b> function gets an array of
 
 Type: <b>UINT</b>
 
-Integer that specifies the number of available image encoders. Call <a href="https://msdn.microsoft.com/library/ms534081(v=VS.85).aspx">GetImageEncodersSize</a> to determine this number. 
+Integer that specifies the number of available image encoders. Call <a href="https://msdn.microsoft.com/en-us/library/ms534081(v=VS.85).aspx">GetImageEncodersSize</a> to determine this number. 
 
 
 ### -param size [in]
@@ -73,15 +73,15 @@ Integer that specifies the number of available image encoders. Call <a href="htt
 Type: <b>UINT</b>
 
 Integer that specifies the size, in bytes, of the array of 
-					<a href="https://msdn.microsoft.com/library/ms534466(v=VS.85).aspx">ImageCodecInfo</a> objects. Call <a href="https://msdn.microsoft.com/library/ms534081(v=VS.85).aspx">GetImageEncodersSize</a> to determine this number. 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534466(v=VS.85).aspx">ImageCodecInfo</a> objects. Call <a href="https://msdn.microsoft.com/en-us/library/ms534081(v=VS.85).aspx">GetImageEncodersSize</a> to determine this number. 
 
 
 ### -param encoders [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534466(v=VS.85).aspx">ImageCodecInfo</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534466(v=VS.85).aspx">ImageCodecInfo</a>*</b>
 
 Pointer to a buffer that receives the array of 
-					<a href="https://msdn.microsoft.com/library/ms534466(v=VS.85).aspx">ImageCodecInfo</a> objects. You must allocate memory for this buffer. Call <a href="https://msdn.microsoft.com/library/ms534081(v=VS.85).aspx">GetImageEncodersSize</a> to determine the size of the required buffer. 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534466(v=VS.85).aspx">ImageCodecInfo</a> objects. You must allocate memory for this buffer. Call <a href="https://msdn.microsoft.com/en-us/library/ms534081(v=VS.85).aspx">GetImageEncodersSize</a> to determine the size of the required buffer. 
 
 
 ## -returns
@@ -109,27 +109,27 @@ If the function fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534078(v=VS.85).aspx">GetImageDecoders</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534078(v=VS.85).aspx">GetImageDecoders</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534079(v=VS.85).aspx">GetImageDecodersSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534079(v=VS.85).aspx">GetImageDecodersSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534081(v=VS.85).aspx">GetImageEncodersSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534081(v=VS.85).aspx">GetImageEncodersSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534477(v=VS.85).aspx">Metafile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533814(v=VS.85).aspx">Using Image Encoders and Decoders</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533814(v=VS.85).aspx">Using Image Encoders and Decoders</a>
  
 
  

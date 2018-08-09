@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugdevice_setfeaturemask.htm
 old-project: direct3d12
 ms.assetid: 12232AB8-BBEA-4663-BEB2-7E296851FE5E
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: ID3D12DebugDevice interface,SetFeatureMask method, ID3D12DebugDevice.SetFeatureMask, ID3D12DebugDevice::SetFeatureMask, SetFeatureMask, SetFeatureMask method, SetFeatureMask method,ID3D12DebugDevice interface, d3d12sdklayers/ID3D12DebugDevice::SetFeatureMask, direct3d12.id3d12debugdevice_setfeaturemask
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,10 +72,10 @@ Feature-mask flags, as a bitwise-OR'd combination of <a href="https://msdn.micro
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
-            <a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a>
+            <a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a>
 
 
 

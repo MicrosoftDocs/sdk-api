@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgr.htm
 old-project: TSF
 ms.assetid: 3a2ba59c-3565-4f54-ac10-923dcb4882cb
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfThreadMgr, ITfThreadMgr interface [Text Services Framework], ITfThreadMgr interface [Text Services Framework],described, _tsf_itfthreadmgr_ref, msctf/ITfThreadMgr, tsf.itfthreadmgr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -175,7 +175,7 @@ Sets the input focus to the specified document manager.
 
 
 
-An application obtains a pointer to this interface by calling <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with CLSID_TF_ThreadMgr as demonstrated below.
+An application obtains a pointer to this interface by calling <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with CLSID_TF_ThreadMgr as demonstrated below.
 
 A text service receives a pointer to this interface in its <a href="https://msdn.microsoft.com/c5fd6b5c-0a78-4b5b-aad5-0c398798cf30">ITfTextInputProcessor::Activate</a> method.
 
@@ -209,7 +209,7 @@ hr = CoCreateInstance(  CLSID_TF_ThreadMgr,
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
 
 
 
@@ -218,7 +218,7 @@ hr = CoCreateInstance(  CLSID_TF_ThreadMgr,
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

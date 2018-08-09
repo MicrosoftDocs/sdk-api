@@ -7,7 +7,7 @@ old-location: mf\mfcreatestreamonmfbytestream.htm
 old-project: medfound
 ms.assetid: 97C72B89-2E57-494E-AEB8-41125B3D740E
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFCreateStreamOnMFByteStream, MFCreateStreamOnMFByteStream function [Media Foundation], mf.mfcreatestreamonmfbytestream, mfidl/MFCreateStreamOnMFByteStream
 ms.prod: windows
 ms.technology: windows-sdk

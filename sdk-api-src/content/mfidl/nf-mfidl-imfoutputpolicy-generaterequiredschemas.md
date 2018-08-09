@@ -7,7 +7,7 @@ old-location: mf\imfoutputpolicy_generaterequiredschemas.htm
 old-project: medfound
 ms.assetid: 23f5f0df-e2cc-4593-8c3e-dca3638161e2
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 23f5f0df-e2cc-4593-8c3e-dca3638161e2, GenerateRequiredSchemas, GenerateRequiredSchemas method [Media Foundation], GenerateRequiredSchemas method [Media Foundation],IMFOutputPolicy interface, IMFOutputPolicy interface [Media Foundation],GenerateRequiredSchemas method, IMFOutputPolicy.GenerateRequiredSchemas, IMFOutputPolicy::GenerateRequiredSchemas, MFCONNECTOR_AGP, MFCONNECTOR_COMPONENT, MFCONNECTOR_COMPOSITE, MFCONNECTOR_DISPLAYPORT_EMBEDDED, MFCONNECTOR_DISPLAYPORT_EXTERNAL, MFCONNECTOR_DVI, MFCONNECTOR_D_JPN, MFCONNECTOR_HDMI, MFCONNECTOR_LVDS, MFCONNECTOR_MIRACAST, MFCONNECTOR_PCI, MFCONNECTOR_PCIX, MFCONNECTOR_PCI_Express, MFCONNECTOR_SDI, MFCONNECTOR_SPDIF, MFCONNECTOR_SVIDEO, MFCONNECTOR_UDI_EMBEDDED, MFCONNECTOR_UDI_EXTERNAL, MFCONNECTOR_UNKNOWN, MFCONNECTOR_VGA, MFOUTPUTATTRIBUTE_BUS, MFOUTPUTATTRIBUTE_BUSIMPLEMENTATION, MFOUTPUTATTRIBUTE_COMPRESSED, MFOUTPUTATTRIBUTE_DIGITAL, MFOUTPUTATTRIBUTE_NONSTANDARDIMPLEMENTATION, MFOUTPUTATTRIBUTE_SOFTWARE, MFOUTPUTATTRIBUTE_VIDEO, mf.imfoutputpolicy_generaterequiredschemas, mfidl/IMFOutputPolicy::GenerateRequiredSchemas
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Retrieves a list of the output protection systems that the output trust authority (OTA) must enforce, along with configuration data for each protection system.
+Retrieves a list of the output protection systems that the output trust authority (OTA) must enforce, along with configuration data for each protection system.
         
 
 
@@ -64,8 +63,7 @@ req.product: GDI+ 1.1
 
 ### -param dwAttributes [in]
 
-
-            Describes the output that is represented by the OTA calling this method. This value is a bitwise OR of zero or more of the following flags.
+Describes the output that is represented by the OTA calling this method. This value is a bitwise OR of zero or more of the following flags.
           
 
 <table>
@@ -79,8 +77,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                Hardware bus.
+Hardware bus.
               
 
 </td>
@@ -91,8 +88,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The output sends compressed data. If this flag is absent, the output sends uncompressed data.
+The output sends compressed data. If this flag is absent, the output sends uncompressed data.
               
 
 </td>
@@ -103,8 +99,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                Reserved. Do not use.
+Reserved. Do not use.
               
 
 </td>
@@ -115,8 +110,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The output sends a digital signal. If this flag is absent, the output sends an analog signal.
+The output sends a digital signal. If this flag is absent, the output sends an analog signal.
               
 
 </td>
@@ -127,8 +121,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                Reserved. Do not use.
+Reserved. Do not use.
               
 
 </td>
@@ -139,8 +132,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                Reserved. Do not use.
+Reserved. Do not use.
               
 
 </td>
@@ -151,8 +143,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The output sends video data. If this flag is absent, the output sends audio data.
+The output sends video data. If this flag is absent, the output sends audio data.
               
 
 </td>
@@ -163,8 +154,7 @@ req.product: GDI+ 1.1
 
 ### -param guidOutputSubType [in]
 
-
-            Indicates a specific family of output connectors that is represented by the OTA calling this method. Possible values include the following.
+Indicates a specific family of output connectors that is represented by the OTA calling this method. Possible values include the following.
           
 
 <table>
@@ -178,8 +168,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                AGP bus.
+AGP bus.
               
 
 </td>
@@ -190,8 +179,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                Component video.
+Component video.
               
 
 </td>
@@ -202,8 +190,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                Composite video.
+Composite video.
               
 
 </td>
@@ -214,8 +201,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                Japanese D connector. (Connector conforming to the EIAJ RC-5237 standard.)
+Japanese D connector. (Connector conforming to the EIAJ RC-5237 standard.)
               
 
 </td>
@@ -226,8 +212,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                Embedded DisplayPort connector.
+Embedded DisplayPort connector.
               
 
 </td>
@@ -238,8 +223,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                External DisplayPort connector.
+External DisplayPort connector.
               
 
 </td>
@@ -250,8 +234,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                Digital video interface (DVI) connector.
+Digital video interface (DVI) connector.
               
 
 </td>
@@ -262,8 +245,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                High-definition multimedia interface (HDMI) connector.
+High-definition multimedia interface (HDMI) connector.
               
 
 </td>
@@ -274,8 +256,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                Low voltage differential signaling (LVDS) connector.
+Low voltage differential signaling (LVDS) connector.
 
 A connector using the LVDS interface to connect internally to a display device. The connection between the graphics adapter and the display device is permanent and not accessible to the user. Applications should not enable High-Bandwidth Digital Content Protection (HDCP) for this connector.
 
@@ -287,8 +268,7 @@ A connector using the LVDS interface to connect internally to a display device. 
 </dl>
 </td>
 <td width="60%">
-
-                PCI bus.
+PCI bus.
               
 
 </td>
@@ -299,8 +279,7 @@ A connector using the LVDS interface to connect internally to a display device. 
 </dl>
 </td>
 <td width="60%">
-
-                PCI Express bus.
+PCI Express bus.
               
 
 </td>
@@ -311,8 +290,7 @@ A connector using the LVDS interface to connect internally to a display device. 
 </dl>
 </td>
 <td width="60%">
-
-                PCI-X bus.
+PCI-X bus.
               
 
 </td>
@@ -323,8 +301,7 @@ A connector using the LVDS interface to connect internally to a display device. 
 </dl>
 </td>
 <td width="60%">
-
-                Audio data sent over a connector via S/PDIF.
+Audio data sent over a connector via S/PDIF.
               
 
 </td>
@@ -335,8 +312,7 @@ A connector using the LVDS interface to connect internally to a display device. 
 </dl>
 </td>
 <td width="60%">
-
-                Serial digital interface connector.
+Serial digital interface connector.
               
 
 </td>
@@ -347,8 +323,7 @@ A connector using the LVDS interface to connect internally to a display device. 
 </dl>
 </td>
 <td width="60%">
-
-                S-Video connector.
+S-Video connector.
               
 
 </td>
@@ -359,8 +334,7 @@ A connector using the LVDS interface to connect internally to a display device. 
 </dl>
 </td>
 <td width="60%">
-
-                Embedded Unified Display Interface (UDI).
+Embedded Unified Display Interface (UDI).
               
 
 </td>
@@ -371,8 +345,7 @@ A connector using the LVDS interface to connect internally to a display device. 
 </dl>
 </td>
 <td width="60%">
-
-                External UDI.
+External UDI.
               
 
 </td>
@@ -383,8 +356,7 @@ A connector using the LVDS interface to connect internally to a display device. 
 </dl>
 </td>
 <td width="60%">
-
-                Unknown connector type. See Remarks.
+Unknown connector type. See Remarks.
               
 
 </td>
@@ -395,8 +367,7 @@ A connector using the LVDS interface to connect internally to a display device. 
 </dl>
 </td>
 <td width="60%">
-
-                VGA connector.
+VGA connector.
               
 
 </td>
@@ -420,22 +391,19 @@ Supported in Windows 8.1 and later.
 
 ### -param rgGuidProtectionSchemasSupported [in]
 
-
-            Pointer to an array of GUID values that specify which output protection systems are supported by the OTA that is calling this method.
+Pointer to an array of GUID values that specify which output protection systems are supported by the OTA that is calling this method.
           
 
 
 ### -param cProtectionSchemasSupported [in]
 
-
-            Number of elements in the <i>rgGuidProtectionSchemasSupported</i> array.
+Number of elements in the <i>rgGuidProtectionSchemasSupported</i> array.
           
 
 
 ### -param ppRequiredProtectionSchemas [out]
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/fec6aa17-2770-4f53-b36d-b94236093d23">IMFCollection</a> interface of a collection object. The caller must release the interface. Each object in the collection is an <a href="https://msdn.microsoft.com/d0786628-dde9-43a9-8e81-0b0c396ad426">IMFOutputSchema</a> pointer. Each <b>IMFOutputSchema</b> pointer defines an output protection system that the OTA must enforce.
+Receives a pointer to the <a href="https://msdn.microsoft.com/fec6aa17-2770-4f53-b36d-b94236093d23">IMFCollection</a> interface of a collection object. The caller must release the interface. Each object in the collection is an <a href="https://msdn.microsoft.com/d0786628-dde9-43a9-8e81-0b0c396ad426">IMFOutputSchema</a> pointer. Each <b>IMFOutputSchema</b> pointer defines an output protection system that the OTA must enforce.
           
 
 

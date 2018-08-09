@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromBooleanVector.htm
 old-project: properties
 ms.assetid: d2e34efb-d5d9-4adf-b582-d3f82d04597f
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: InitPropVariantFromBooleanVector, InitPropVariantFromBooleanVector function [Windows Properties], _shell_InitPropVariantFromBooleanVector, properties.InitPropVariantFromBooleanVector, propvarutil/InitPropVariantFromBooleanVector, shell.InitPropVariantFromBooleanVector
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ This creates a <b>VT_BOOL</b> | <b>VT_VECTOR</b> propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762288(v=VS.85).aspx">InitPropVariantFromBooleanVector</a>
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromBooleanVector">InitPropVariantFromBooleanVector</a>
 
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -131,15 +131,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762287(v=VS.85).aspx">InitPropVariantFromBoolean</a>
+<a href="shell.InitPropVariantFromBoolean">InitPropVariantFromBoolean</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762316(v=VS.85).aspx">InitVariantFromBoolean</a>
+<a href="shell.InitVariantFromBoolean">InitVariantFromBoolean</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776532(v=VS.85).aspx">PropVariantToBooleanVector</a>
+<a href="shell.PropVariantToBooleanVector">PropVariantToBooleanVector</a>
  
 
  

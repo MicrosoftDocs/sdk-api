@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeersetresponseattributes.htm
 old-project: eaphost
 ms.assetid: b8ce5510-f5ba-403c-8709-940ae58cd10d
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapHostPeerSetResponseAttributes, EapHostPeerSetResponseAttributes function [EAPHost], eaphost.eaphostpeersetresponseattributes, eappapis/EapHostPeerSetResponseAttributes
 ms.prod: windows
 ms.technology: windows-sdk

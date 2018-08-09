@@ -7,7 +7,7 @@ old-location: fwp\ipsecsaenum0_func.htm
 old-project: fwp
 ms.assetid: dea82534-4b73-4c74-9cea-d17ba8aff2e7
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPsecSaEnum0, IPsecSaEnum0 function [Filtering], fwp.ipsecsaenum0_func, fwpmu/IPsecSaEnum0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-
-		The <b>IPsecSaEnum0</b> function returns the next page of results from the IPsec security association (SA) enumerator.
+The <b>IPsecSaEnum0</b> function returns the next page of results from the IPsec security association (SA) enumerator.
 <div class="alert"><b>Note</b>  <b>IPsecSaEnum0</b> is the specific implementation of IPsecSaEnum used in Windows Vista. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://msdn.microsoft.com/93db625d-9b7f-4038-8c36-dec2762927be">IPsecSaEnum1</a> is available.</div><div> </div>
 
 ## -parameters

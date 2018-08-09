@@ -7,7 +7,7 @@ old-location: security\icryptattributes_indexbyobjectid_property.htm
 old-project: seccertenroll
 ms.assetid: e294e205-791f-444e-92d8-78da347616a7
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: ICryptAttributes interface [Security],IndexByObjectId property, ICryptAttributes.IndexByObjectId, ICryptAttributes.get_IndexByObjectId, ICryptAttributes::IndexByObjectId, ICryptAttributes::get_IndexByObjectId, IndexByObjectId property [Security], IndexByObjectId property [Security],ICryptAttributes interface, certenroll/ICryptAttributes::IndexByObjectId, certenroll/ICryptAttributes::get_IndexByObjectId, get_IndexByObjectId, security.icryptattributes_indexbyobjectid_property
 ms.prod: windows
 ms.technology: windows-sdk

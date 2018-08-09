@@ -7,7 +7,7 @@ old-location: tsf\itflangbareventsink.htm
 old-project: TSF
 ms.assetid: 2ef8b8ff-6549-41f8-baf3-3c5b8e2411a3
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfLangBarEventSink, ITfLangBarEventSink interface [Text Services Framework], ITfLangBarEventSink interface [Text Services Framework],described, _tsf_itflangbareventsink_ref, ctfutb/ITfLangBarEventSink, tsf.itflangbareventsink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,19 +130,17 @@ Called when ITfLangBarMgr::ShowFloating is called.
 
 
 
-<a href="https://msdn.microsoft.com/8ac607fd-b2c4-4441-8738-c64c25b6c586">
-        ITfLangBarMgr::AdviseEventSink
+<a href="https://msdn.microsoft.com/8ac607fd-b2c4-4441-8738-c64c25b6c586">ITfLangBarMgr::AdviseEventSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f49987c7-476d-4add-9d43-83de78693420">
-        ITfLangBarMgr::ShowFloating
+<a href="https://msdn.microsoft.com/f49987c7-476d-4add-9d43-83de78693420">ITfLangBarMgr::ShowFloating
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

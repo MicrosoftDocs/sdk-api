@@ -4,10 +4,10 @@ title: IUPnPRemoteEndpointInfo::GetStringValue
 author: windows-sdk-content
 description: The GetStringValue method gets a string that provides information about either a request or requester.
 old-location: upnp\iupnpremoteendpointinfo_getstringvalue.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: c3b0dcd2-2195-4e09-aac4-073a3d848fa9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: GetStringValue, GetStringValue method [UPnP APIs], GetStringValue method [UPnP APIs],IUPnPRemoteEndpointInfo interface, IUPnPRemoteEndpointInfo interface [UPnP APIs],GetStringValue method, IUPnPRemoteEndpointInfo.GetStringValue, IUPnPRemoteEndpointInfo::GetStringValue, upnp.iupnpremoteendpointinfo_getstringvalue, upnphost/IUPnPRemoteEndpointInfo::GetStringValue
 ms.prod: windows
 ms.technology: windows-sdk

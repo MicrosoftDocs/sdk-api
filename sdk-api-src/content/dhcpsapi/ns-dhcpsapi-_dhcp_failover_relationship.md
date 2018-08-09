@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_failover_relationship.htm
 old-project: dhcp
 ms.assetid: b409b0ff-2fdc-416c-a7ce-2cba9cf75122
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDHCP_FAILOVER_RELATIONSHIP, DHCP_FAILOVER_RELATIONSHIP, DHCP_FAILOVER_RELATIONSHIP structure [DHCP], LPDHCP_FAILOVER_RELATIONSHIP, LPDHCP_FAILOVER_RELATIONSHIP structure pointer [DHCP], _DHCP_FAILOVER_RELATIONSHIP, dhcp.dhcp_failover_relationship, dhcpsapi/DHCP_FAILOVER_RELATIONSHIP, dhcpsapi/LPDHCP_FAILOVER_RELATIONSHIP"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,47 +130,10 @@ A pointer to an <a href="https://msdn.microsoft.com/84f42e55-8364-4119-83e4-c036
 
 
 
-#### - mclt
-
-A value that specifies the Maximum Client Lead Time (MCLT) in seconds. The MCLT is the maximum time that one server can extend a lease for a client beyond the lease time known by the partner server.
-
-
-#### - mode
-
-
-<a href="https://msdn.microsoft.com/333f70a5-63bd-47f0-bb56-c5f6060e2a72">DHCP_FAILOVER_MODE</a> enumeration that specifies the failover relationship mode.
-
-
-#### - percentage
-
-Value that specifies the ratio of the client load shared by the primary server in the failover relationship.
-
-
-#### - prevState
-
-
-<a href="https://msdn.microsoft.com/a8d0a455-77b3-494c-886e-90136569aada">FSM_STATE</a> enumeration that specifies the previous state of the failover relationship.
-
-
 #### - primaryServer
 
 
 <a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> structure that contains the primary server IP address.
-
-
-#### - primaryServerName
-
-Pointer to a null-terminated Unicode string that represents the primary server hostname.
-
-
-#### - relationshipName
-
-Pointer to a null-terminated Unicode string that represents the unique failover relationship name.
-
-
-#### - safePeriod
-
-The time, in seconds, a server will wait before transitioning from the <a href="https://msdn.microsoft.com/a8d0a455-77b3-494c-886e-90136569aada">COMMUNICATION-INT</a> state to a <b>PARTNER-DOWN</b> state. The timer begins when the server enters the <b>COMMUNICATION-INT</b> state.
 
 
 #### - secondaryServer
@@ -179,9 +142,10 @@ The time, in seconds, a server will wait before transitioning from the <a href="
 <a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> structure that contains the secondary server IP address.
 
 
-#### - secondaryServerName
+#### - mode
 
-Pointer to a null-terminated Unicode string that represents the secondary server hostname.
+
+<a href="https://msdn.microsoft.com/333f70a5-63bd-47f0-bb56-c5f6060e2a72">DHCP_FAILOVER_MODE</a> enumeration that specifies the failover relationship mode.
 
 
 #### - serverType
@@ -190,15 +154,51 @@ Pointer to a null-terminated Unicode string that represents the secondary server
 <a href="https://msdn.microsoft.com/a75a1132-3c49-44f1-a1f6-c98991ebb8c4">DHCP_FAILOVER_SERVER</a> enumeration that specifies if the server is the primary or secondary server in the failover relationship
 
 
-#### - sharedSecret
-
-A pointer to a null-terminated Unicode string that represents the shared secret key associated with the failover relationship.
-
-
 #### - state
 
 
 <a href="https://msdn.microsoft.com/a8d0a455-77b3-494c-886e-90136569aada">FSM_STATE</a> enumeration that specifies the state of the failover relationship.
+
+
+#### - prevState
+
+
+<a href="https://msdn.microsoft.com/a8d0a455-77b3-494c-886e-90136569aada">FSM_STATE</a> enumeration that specifies the previous state of the failover relationship.
+
+
+#### - mclt
+
+A value that specifies the Maximum Client Lead Time (MCLT) in seconds. The MCLT is the maximum time that one server can extend a lease for a client beyond the lease time known by the partner server.
+
+
+#### - safePeriod
+
+The time, in seconds, a server will wait before transitioning from the <a href="https://msdn.microsoft.com/a8d0a455-77b3-494c-886e-90136569aada">COMMUNICATION-INT</a> state to a <b>PARTNER-DOWN</b> state. The timer begins when the server enters the <b>COMMUNICATION-INT</b> state.
+
+
+#### - relationshipName
+
+Pointer to a null-terminated Unicode string that represents the unique failover relationship name.
+
+
+#### - primaryServerName
+
+Pointer to a null-terminated Unicode string that represents the primary server hostname.
+
+
+#### - secondaryServerName
+
+Pointer to a null-terminated Unicode string that represents the secondary server hostname.
+
+
+#### - percentage
+
+Value that specifies the ratio of the client load shared by the primary server in the failover relationship.
+
+
+#### - sharedSecret
+
+A pointer to a null-terminated Unicode string that represents the shared secret key associated with the failover relationship.
 
 
 ## -see-also

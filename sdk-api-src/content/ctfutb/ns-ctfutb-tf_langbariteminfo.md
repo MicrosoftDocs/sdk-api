@@ -7,7 +7,7 @@ old-location: tsf\tf_langbariteminfo.htm
 old-project: TSF
 ms.assetid: 4a826a2c-4cae-4cbf-8a25-38337dcd498d
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: TF_LANGBARITEMINFO, TF_LANGBARITEMINFO structure [Text Services Framework], _tsf_tf_langbariteminfo_ref, ctfutb/TF_LANGBARITEMINFO, tsf.tf_langbariteminfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,8 +98,7 @@ Contains the description string for the item in Unicode format. The description 
 
 
 
-<a href="https://msdn.microsoft.com/9180a666-774f-401b-bea3-68d5396fab30">
-        TF_LBI_STYLE_*
+<a href="https://msdn.microsoft.com/9180a666-774f-401b-bea3-68d5396fab30">TF_LBI_STYLE_*
       </a>
  
 

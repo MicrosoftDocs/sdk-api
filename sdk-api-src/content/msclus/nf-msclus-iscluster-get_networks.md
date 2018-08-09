@@ -7,7 +7,7 @@ old-location: mscs\cluster_networks.htm
 old-project: mscs
 ms.assetid: 352f186d-bf42-480a-9554-c764345dafe6
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: Cluster object [Failover Cluster],Networks property, ISCluster interface [Failover Cluster],Networks property, ISCluster.get_Networks, ISCluster::Networks, ISCluster::get_Networks, Networks property [Failover Cluster], Networks property [Failover Cluster],Cluster object, Networks property [Failover Cluster],ISCluster interface, _wolf_cluster.networks, get_Networks, mscs.cluster_networks
 ms.prod: windows
 ms.technology: windows-sdk

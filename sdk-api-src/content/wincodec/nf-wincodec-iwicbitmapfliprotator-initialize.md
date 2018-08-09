@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapfliprotator_initialize.htm
 old-project: wic
 ms.assetid: 8c70d25d-b591-4ef4-91b5-b8350da99df1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWICBitmapFlipRotator interface [Windows Imaging Component],Initialize method, IWICBitmapFlipRotator.Initialize, IWICBitmapFlipRotator::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapFlipRotator interface, _wic_codec_iwicbitmapfliprotator_initialize, wic._wic_codec_iwicbitmapfliprotator_initialize, wincodec/IWICBitmapFlipRotator::Initialize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_getdeviceidentifier.htm
 old-project: directdraw
 ms.assetid: 1524dae8-e383-47f4-8e18-c8ef235b3176
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: DDGDI_GETHOSTIDENTIFIER, GetDeviceIdentifier, GetDeviceIdentifier method [DirectDraw], GetDeviceIdentifier method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetDeviceIdentifier method, IDirectDraw7.GetDeviceIdentifier, IDirectDraw7::GetDeviceIdentifier, ddraw/IDirectDraw7::GetDeviceIdentifier, directdraw.idirectdraw7_getdeviceidentifier
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,6 +66,11 @@ Obtains information about the device driver. This method can be used, with cauti
 
 
 
+#### - lpdddi [out]
+
+A pointer to a <a href="https://msdn.microsoft.com/3fdec953-72d4-48f8-b540-e2e6ca770b3c">DDDEVICEIDENTIFIER2</a> structure that receives information about the driver.
+
+
 #### - dwFlags [in]
 
 This value consists of flags that specify options. The following flag is the only defined flag:
@@ -75,11 +80,6 @@ This value consists of flags that specify options. The following flag is the onl
 #### DDGDI_GETHOSTIDENTIFIER
 
 Causes <b>GetDeviceIdentifier</b> to return information about the host (typically 2-D) adapter in a system equipped with a stacked secondary 3-D adapter. Such an adapter appears to the application as if it were part of the host adapter, but is typically located on a separate card. When the <i>dwFlags</i> parameter is 0, information on the stacked secondary is returned because this most accurately reflects the qualities of the DirectDraw object involved.
-
-
-#### - lpdddi [out]
-
-A pointer to a <a href="https://msdn.microsoft.com/3fdec953-72d4-48f8-b540-e2e6ca770b3c">DDDEVICEIDENTIFIER2</a> structure that receives information about the driver.
 
 
 ## -returns

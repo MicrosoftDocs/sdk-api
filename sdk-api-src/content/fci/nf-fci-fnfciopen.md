@@ -7,7 +7,7 @@ old-location: winprog\fnfciopen.htm
 old-project: devnotes
 ms.assetid: 72cf50cb-c895-4953-9c4d-f8ddaa294f2a
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FNFCIOPEN, FNFCIOPEN macro [Windows API], fci/FNFCIOPEN, winprog.fnfciopen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,20 +59,9 @@ The <b>FNFCIOPEN</b> macro provides the declaration for the application-defined 
 
 
 
-### -param fn
+### -param fn [in]
 
-TBD
-
-
-
-
-
-
-#### - err
-
-Pointer to the error code value. 
-
-This value will be used to provide extended error information in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
+The name of the file.
 
 
 #### - oflag
@@ -85,9 +74,11 @@ Specifies the type of operations allowed.
 Specifies the permission mode.
 
 
-#### - pszFile [in]
+#### - err
 
-The name of the file.
+Pointer to the error code value. 
+
+This value will be used to provide extended error information in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
 
 
 #### - pv

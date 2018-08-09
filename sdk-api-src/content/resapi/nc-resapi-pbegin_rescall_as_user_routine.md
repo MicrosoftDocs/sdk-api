@@ -7,7 +7,7 @@ old-location: mscs\beginresourcecontrolasuser.htm
 old-project: mscs
 ms.assetid: 58F065C6-0AE1-481D-ADA0-CF2907CB45DC
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: BeginResourceControlAsUser, BeginResourceControlAsUser callback, BeginResourceControlAsUser callback function [Failover Cluster], PBEGIN_RESCALL_AS_USER_ROUTINE, PBEGIN_RESCALL_AS_USER_ROUTINE callback function [Failover Cluster], mscs.beginresourcecontrolasuser, resapi/BeginResourceControlAsUser, resapi/PBEGIN_RESCALL_AS_USER_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,52 +58,52 @@ The <b>PBEGIN_RESCALL_AS_USER_ROUTINE</b> type defines a pointer to this callbac
 
 
 
-### -param Resource [in]
+### -param Resource [in] [in]
 
 TBD
 
 
-### -param TokenHandle [in]
+### -param TokenHandle [in] [in]
 
 TBD
 
 
-### -param ControlCode [in]
+### -param ControlCode [in] [in]
 
 TBD
 
 
-### -param InBuffer [in]
+### -param InBuffer [in] [in]
 
 TBD
 
 
-### -param InBufferSize [in]
+### -param InBufferSize [in] [in]
 
 TBD
 
 
-### -param OutBuffer [out]
+### -param OutBuffer [out] [out]
 
 TBD
 
 
-### -param OutBufferSize [in]
+### -param OutBufferSize [in] [in]
 
 TBD
 
 
-### -param BytesReturned [out]
+### -param BytesReturned [out] [out]
 
 TBD
 
 
-### -param context [in]
+### -param context [in] [in]
 
 TBD
 
 
-### -param ReturnedAsynchronously [in, out]
+### -param ReturnedAsynchronously [in, out] [in, out]
 
 TBD
 

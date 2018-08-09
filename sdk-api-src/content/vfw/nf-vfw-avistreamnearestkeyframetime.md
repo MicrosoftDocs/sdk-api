@@ -7,7 +7,7 @@ old-location: multimedia\avistreamnearestkeyframetime.htm
 old-project: Multimedia
 ms.assetid: 7409e8e3-d151-4970-9c0e-84ecdf9846a0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AVIStreamNearestKeyFrameTime, AVIStreamNearestKeyFrameTime macro [Windows Multimedia], _win32_AVIStreamNearestKeyFrameTime, multimedia.avistreamnearestkeyframetime, vfw/AVIStreamNearestKeyFrameTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,15 +68,6 @@ Handle to an open stream.
 
 
 ### -param t
-
-TBD
-
-
-
-
-
-
-#### - lTime
 
 Starting time, in milliseconds, to search in the stream. 
 

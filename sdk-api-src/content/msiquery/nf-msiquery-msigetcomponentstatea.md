@@ -4,10 +4,10 @@ title: MsiGetComponentStateA function
 author: windows-sdk-content
 description: The MsiGetComponentState function obtains the state of a component.
 old-location: setup\msigetcomponentstate.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 343f5cbc-e026-4a51-9c54-da5d10b7caa8
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_REMOVED, INSTALLSTATE_SOURCE, INSTALLSTATE_UNKNOWN, MsiGetComponentState, MsiGetComponentState function, MsiGetComponentStateA, MsiGetComponentStateW, _msi_msigetcomponentstate, msiquery/MsiGetComponentState, msiquery/MsiGetComponentStateA, msiquery/MsiGetComponentStateW, setup.msigetcomponentstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -156,8 +156,7 @@ Receives the action taken during the installation. This parameter must not be nu
 
 
 
-
-					The 
+The 
 <b>MsiGetComponentState</b> function returns the following values:
 
 
@@ -180,7 +179,7 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Installer Selection Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Selection Functions</a>
 
 
 

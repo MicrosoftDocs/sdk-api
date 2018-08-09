@@ -7,7 +7,7 @@ old-location: tsf\itfcategorymgr_getguid.htm
 old-project: TSF
 ms.assetid: a5f5a67c-3152-4933-8a35-0a0cd555a0bf
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetGUID, GetGUID method [Text Services Framework], GetGUID method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],GetGUID method, ITfCategoryMgr.GetGUID, ITfCategoryMgr::GetGUID, _tsf_itfcategorymgr_getguid_ref, msctf/ITfCategoryMgr::GetGUID, tsf.itfcategorymgr_getguid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,14 +123,12 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/26139c8c-e1d9-4d7a-a0c0-ef73e572fbe4">
-        ITfCategoryMgr
+<a href="https://msdn.microsoft.com/26139c8c-e1d9-4d7a-a0c0-ef73e572fbe4">ITfCategoryMgr
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/d0de17d9-be3a-4f68-a77d-880047775952">
-        ITfCategoryMgr::RegisterGUID
+<a href="https://msdn.microsoft.com/d0de17d9-be3a-4f68-a77d-880047775952">ITfCategoryMgr::RegisterGUID
       </a>
 
 

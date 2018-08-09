@@ -7,7 +7,7 @@ old-location: rpc\rpcerrorclearinformation.htm
 old-project: rpc
 ms.assetid: ff96904c-285d-4d39-af3b-bf295c29e62f
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcErrorClearInformation, RpcErrorClearInformation function [RPC], _rpc_rpcerrorclearinformation, rpc.rpcerrorclearinformation, rpcasync/RpcErrorClearInformation
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\closeenhmetafile.htm
 old-project: gdi
 ms.assetid: 3c4a0d8b-75a5-4729-8c64-476c36d01a90
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CloseEnhMetaFile, CloseEnhMetaFile function [Windows GDI], _win32_CloseEnhMetaFile, gdi.closeenhmetafile, wingdi/CloseEnhMetaFile
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\ListView_SetItemState.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemstate.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_SELECTED, ListView_SetItemState, ListView_SetItemState macro [Windows Controls], _win32_ListView_SetItemState, _win32_ListView_SetItemState_cpp, commctrl/ListView_SetItemState, controls.ListView_SetItemState, controls._win32_ListView_SetItemState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Changes the state of an item in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761196(v=VS.85).aspx">LVM_SETITEMSTATE</a> message explicitly. 
+Changes the state of an item in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761196(v=VS.85).aspx">LVM_SETITEMSTATE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Changes the state of an item in a list-view control. You can use this macro or s
 
 ### -param hwndLV
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the list-view control. 
 
 
 ### -param i
@@ -71,26 +73,6 @@ The index of the list-view item. If this parameter is -1, then the state change 
 
 
 ### -param data
-
-TBD
-
-
-### -param mask
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
-
-Bits of the 
-					<i>state</i> parameter that you want to set or clear. You can use <b>ListView_SetItemState</b> both to set and to clear bits. To set an item's overlay image index, set the <a href="https://msdn.microsoft.com/library/Bb774733(v=VS.85).aspx">LVIS_OVERLAYMASK</a> bits. To set an item's state image index, set the <a href="https://msdn.microsoft.com/library/Bb774733(v=VS.85).aspx">LVIS_STATEIMAGEMASK</a> bits. 
-
-
-#### - hwnd
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to the list-view control. 
-
-
-#### - state
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
@@ -137,12 +119,20 @@ The item has the focus, so it is surrounded by a standard focus rectangle. Altho
 </dl>
 </td>
 <td width="60%">
-The item is selected. The appearance of a selected item depends on whether it has the focus and also on the system colors used for selection. Items will only show as selected if the list-view control has focus or the <a href="https://msdn.microsoft.com/library/Bb774739(v=VS.85).aspx">LVS_SHOWSELALWAYS</a> style is used.
+The item is selected. The appearance of a selected item depends on whether it has the focus and also on the system colors used for selection. Items will only show as selected if the list-view control has focus or the <a href="List_view_window_styles.htm">LVS_SHOWSELALWAYS</a> style is used.
 
 </td>
 </tr>
 </table>
  
+
+
+### -param mask
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+Bits of the 
+					<i>state</i> parameter that you want to set or clear. You can use <b>ListView_SetItemState</b> both to set and to clear bits. To set an item's overlay image index, set the <a href="List_view_item_states.htm">LVIS_OVERLAYMASK</a> bits. To set an item's state image index, set the <a href="List_view_item_states.htm">LVIS_STATEIMAGEMASK</a> bits. 
 
 
 ## -remarks
@@ -154,12 +144,10 @@ An item's state value includes a set of bit flags that indicate the item's state
 The 
 				<i>mask</i> parameter specifies the state bits you want to modify, and the <i>state</i> parameter specifies the new value for those bits. To set a bit in the item's internal state, set it in both the <i>mask</i> and <i>state</i> parameters. To clear a bit in the item's internal state, set it in the <i>mask</i> parameter and clear it in the <i>state</i> parameter. To leave a bit unchanged in the item's internal state, clear it in the <i>mask</i> parameter. 
 
-
-Bits 8 through 11 of the <i>state</i> parameter specify the one-based index of an overlay image in the control's image lists. Both the full-sized icon image list and the small icon image list can have overlay images. The overlay image is superimposed over the item's icon image. If these bits are zero, the item has no overlay image. To isolate these bits, use the <a href="https://msdn.microsoft.com/library/Bb774733(v=VS.85).aspx">LVIS_OVERLAYMASK</a> mask. To specify an overlay index, use the <a href="https://msdn.microsoft.com/library/Bb761408(v=VS.85).aspx">INDEXTOOVERLAYMASK</a> macro. 
+Bits 8 through 11 of the <i>state</i> parameter specify the one-based index of an overlay image in the control's image lists. Both the full-sized icon image list and the small icon image list can have overlay images. The overlay image is superimposed over the item's icon image. If these bits are zero, the item has no overlay image. To isolate these bits, use the <a href="List_view_item_states.htm">LVIS_OVERLAYMASK</a> mask. To specify an overlay index, use the <a href="https://msdn.microsoft.com/en-us/library/Bb761408(v=VS.85).aspx">INDEXTOOVERLAYMASK</a> macro. 
 		
 
-
-Bits 12 through 15 of the <i>state</i> parameter specify the one-based index of an image in the control's state image list. The state image is displayed next to an item's icon to indicate an application-defined state. If these bits are zero, the item has no state image. To isolate these bits, use the <a href="https://msdn.microsoft.com/library/Bb774733(v=VS.85).aspx">LVIS_STATEIMAGEMASK</a> mask. To specify a state image index, use the <a href="https://msdn.microsoft.com/library/Bb775597(v=VS.85).aspx">INDEXTOSTATEIMAGEMASK</a> macro.
+Bits 12 through 15 of the <i>state</i> parameter specify the one-based index of an image in the control's state image list. The state image is displayed next to an item's icon to indicate an application-defined state. If these bits are zero, the item has no state image. To isolate these bits, use the <a href="List_view_item_states.htm">LVIS_STATEIMAGEMASK</a> mask. To specify a state image index, use the <a href="https://msdn.microsoft.com/en-us/library/Bb775597(v=VS.85).aspx">INDEXTOSTATEIMAGEMASK</a> macro.
 
 
 
@@ -170,7 +158,7 @@ Bits 12 through 15 of the <i>state</i> parameter specify the one-based index of 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774980(v=VS.85).aspx">ListView_GetItemState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774980(v=VS.85).aspx">ListView_GetItemState</a>
  
 
  

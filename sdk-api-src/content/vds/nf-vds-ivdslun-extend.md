@@ -4,10 +4,10 @@ title: IVdsLun::Extend
 author: windows-sdk-content
 description: Extends a LUN by a specified number of bytes.
 old-location: base\ivdslun_extend.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 65520b6a-206a-4b90-b8cc-b7964d0cf102
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: Extend, Extend method [VDS], Extend method [VDS],IVdsLun interface, IVdsLun interface [VDS],Extend method, IVdsLun.Extend, IVdsLun::Extend, base.ivdslun_extend, vds/IVdsLun::Extend, vdshwprv/IVdsLun::Extend
 ms.prod: windows
 ms.technology: windows-sdk

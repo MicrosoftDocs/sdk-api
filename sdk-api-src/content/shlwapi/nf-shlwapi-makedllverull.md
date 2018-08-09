@@ -7,7 +7,7 @@ old-location: shell\MAKEDLLVERULL.htm
 old-project: shell
 ms.assetid: 10c75c91-9642-4877-845e-8c6343721b4f
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: MAKEDLLVERULL, MAKEDLLVERULL macro [Windows Shell], _win32_MAKEDLLVERULL, shell.MAKEDLLVERULL, shlwapi/MAKEDLLVERULL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,44 +61,20 @@ Used to pack DLL version information into a ULONGLONG value.
 
 ### -param major
 
-TBD
+The major version number.
 
 
 ### -param minor
 
-TBD
+The minor version number.
 
 
 ### -param build
 
-TBD
-
-
-### -param qfe
-
-TBD
-
-
-
-
-
-
-#### - wBuild
-
 The build number.
 
 
-#### - wMajorVersion
-
-The major version number.
-
-
-#### - wMinorVersion
-
-The minor version number.
-
-
-#### - wSP
+### -param qfe
 
 The hotfix number that identifies the service pack.
 

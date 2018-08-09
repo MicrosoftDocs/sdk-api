@@ -7,7 +7,7 @@ old-location: mf\imftopology_getnodecount.htm
 old-project: medfound
 ms.assetid: 87378088-1d7a-4ad7-942f-69b6cfc4e573
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 87378088-1d7a-4ad7-942f-69b6cfc4e573, GetNodeCount, GetNodeCount method [Media Foundation], GetNodeCount method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetNodeCount method, IMFTopology.GetNodeCount, IMFTopology::GetNodeCount, mf.imftopology_getnodecount, mfidl/IMFTopology::GetNodeCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets the number of nodes in the topology.
+Gets the number of nodes in the topology.
         
 
 
@@ -64,8 +63,7 @@ req.product: GDI+ 1.1
 
 ### -param pwNodes [out]
 
-
-            Receives the number of nodes.
+Receives the number of nodes.
           
 
 

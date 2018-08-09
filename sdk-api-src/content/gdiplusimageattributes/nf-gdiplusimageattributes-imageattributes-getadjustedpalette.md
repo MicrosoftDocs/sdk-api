@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_GetAdjustedPalette_colorPal
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\getadjustedpalette.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetAdjustedPalette, GetAdjustedPalette method [GDI+], GetAdjustedPalette method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],GetAdjustedPalette method, ImageAttributes.GetAdjustedPalette, ImageAttributes::GetAdjustedPalette, _gdiplus_CLASS_ImageAttributes_GetAdjustedPalette_colorPalette_colorAdjustType_, gdiplus._gdiplus_CLASS_ImageAttributes_GetAdjustedPalette_colorPalette_colorAdjustType_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,16 +61,16 @@ The <b>ImageAttributes::GetAdjustedPalette</b> method adjusts the colors in a pa
 
 ### -param colorPalette [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534064(v=VS.85).aspx">ColorPalette</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534064(v=VS.85).aspx">ColorPalette</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534064(v=VS.85).aspx">ColorPalette</a> structure that on input, contains the palette to be adjusted and, on output, receives the adjusted palette. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534064(v=VS.85).aspx">ColorPalette</a> structure that on input, contains the palette to be adjusted and, on output, receives the adjusted palette. 
 
 
 ### -param colorAdjustType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534064(v=VS.85).aspx">ColorPalette</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534064(v=VS.85).aspx">ColorPalette</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/library/ms534089(v=VS.85).aspx">ColorAdjustType</a> enumeration that specifies the category whose adjustment settings will be applied to the palette. 
+Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534089(v=VS.85).aspx">ColorAdjustType</a> enumeration that specifies the category whose adjustment settings will be applied to the palette. 
 
 
 ## -returns
@@ -80,7 +80,7 @@ Element of the <a href="https://msdn.microsoft.com/library/ms534089(v=VS.85).asp
 Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a></b>
 </strong>
 
-If the method succeeds, it returns <a href="https://msdn.microsoft.com/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the <b>Status</b> enumeration.
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the <b>Status</b> enumeration.
 
 If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> enumeration.
 
@@ -91,16 +91,16 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-An <a href="https://msdn.microsoft.com/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object maintains color and grayscale settings for five adjustment categories: default, bitmap, brush, pen, and text. For example, you can specify a color-remap table for the default category, a different color-remap table for the bitmap category, and still a different color-remap table for the pen category.
+An <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object maintains color and grayscale settings for five adjustment categories: default, bitmap, brush, pen, and text. For example, you can specify a color-remap table for the default category, a different color-remap table for the bitmap category, and still a different color-remap table for the pen category.
 
-When you call <b>ImageAttributes::GetAdjustedPalette</b>, you can specify the adjustment category that is used to adjust the palette colors. For example, if you pass <a href="https://msdn.microsoft.com/library/ms534089(v=VS.85).aspx">ColorAdjustTypeBitmap</a> to the <b>ImageAttributes::GetAdjustedPalette</b> method, then the adjustment settings of the bitmap category are used to adjust the palette colors.
+When you call <b>ImageAttributes::GetAdjustedPalette</b>, you can specify the adjustment category that is used to adjust the palette colors. For example, if you pass <a href="https://msdn.microsoft.com/en-us/library/ms534089(v=VS.85).aspx">ColorAdjustTypeBitmap</a> to the <b>ImageAttributes::GetAdjustedPalette</b> method, then the adjustment settings of the bitmap category are used to adjust the palette colors.
 
 
 #### Examples
 
 
 
-The following example initializes a <a href="https://msdn.microsoft.com/library/ms534064(v=VS.85).aspx">ColorPalette</a> structure with four colors: aqua, black, red, and green. The code also creates an <a href="https://msdn.microsoft.com/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object and sets its bitmap remap table so that green will be converted to blue. Then the code adjusts the palette colors by passing the address of the palette to the <b>ImageAttributes::GetAdjustedPalette</b> method of the <b>ImageAttributes</b> object. The code displays the four palette colors twice: once before the adjustment and once after the adjustment.
+The following example initializes a <a href="https://msdn.microsoft.com/en-us/library/ms534064(v=VS.85).aspx">ColorPalette</a> structure with four colors: aqua, black, red, and green. The code also creates an <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object and sets its bitmap remap table so that green will be converted to blue. Then the code adjusts the palette colors by passing the address of the palette to the <b>ImageAttributes::GetAdjustedPalette</b> method of the <b>ImageAttributes</b> object. The code displays the four palette colors twice: once before the adjustment and once after the adjustment.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -177,35 +177,35 @@ The following illustration shows the output of the preceding code. Note that the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534089(v=VS.85).aspx">ColorAdjustType</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534089(v=VS.85).aspx">ColorAdjustType</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534062(v=VS.85).aspx">ColorMap</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534062(v=VS.85).aspx">ColorMap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534064(v=VS.85).aspx">ColorPalette</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534064(v=VS.85).aspx">ColorPalette</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534464(v=VS.85).aspx">ImageAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534477(v=VS.85).aspx">Metafile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534158(v=VS.85).aspx">PaletteFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534158(v=VS.85).aspx">PaletteFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533809(v=VS.85).aspx">Recoloring</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533809(v=VS.85).aspx">Recoloring</a>
  
 
  

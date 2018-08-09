@@ -7,7 +7,7 @@ old-location: windowsribbon\ui_eventparams.htm
 old-project: windowsribbon
 ms.assetid: 438ACF91-3C83-4E2D-B919-4CCAE65BCD3E
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: PUI_EVENTPARAMS, PUI_EVENTPARAMS structure pointer [Windows Ribbon], UI_EVENTPARAMS, UI_EVENTPARAMS structure [Windows Ribbon], _UI_EVENTPARAMS, uiribbon/PUI_EVENTPARAMS, uiribbon/UI_EVENTPARAMS, windowsribbon.ui_eventparams
 ms.prod: windows
 ms.technology: windows-sdk

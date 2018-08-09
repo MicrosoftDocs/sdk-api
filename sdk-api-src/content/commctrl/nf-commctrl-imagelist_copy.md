@@ -7,7 +7,7 @@ old-location: controls\ImageList_Copy.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_copy.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ILCF_MOVE, ILCF_SWAP, ImageList_Copy, ImageList_Copy function [Windows Controls], _win32_ImageList_Copy, _win32_ImageList_Copy_cpp, commctrl/ImageList_Copy, controls.ImageList_Copy, controls._win32_ImageList_Copy
 ms.prod: windows
 ms.technology: windows-sdk

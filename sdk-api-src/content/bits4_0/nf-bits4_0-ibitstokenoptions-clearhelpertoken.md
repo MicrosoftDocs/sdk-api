@@ -7,7 +7,7 @@ old-location: bits\ibitstokenoptions_clearhelpertoken.htm
 old-project: bits
 ms.assetid: 5af3496e-0792-46cc-bfc3-8ac6193724d1
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: ClearHelperToken, ClearHelperToken method [BITS], ClearHelperToken method [BITS],IBitsTokenOptions interface, IBitsTokenOptions interface [BITS],ClearHelperToken method, IBitsTokenOptions.ClearHelperToken, IBitsTokenOptions::ClearHelperToken, bits.ibitstokenoptions_clearhelpertoken, bits4_0/IBitsTokenOptions::ClearHelperToken
 ms.prod: windows
 ms.technology: windows-sdk

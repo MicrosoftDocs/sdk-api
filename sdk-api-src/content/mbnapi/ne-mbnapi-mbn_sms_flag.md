@@ -7,7 +7,7 @@ old-location: mbn\mbn_sms_flag.htm
 old-project: mbn
 ms.assetid: caabe2b2-86f0-40e7-b5ee-aeda8b64651a
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: MBN_SMS_FLAG, MBN_SMS_FLAG enumeration [Microsoft Broadband Networks], MBN_SMS_FLAG_ALL, MBN_SMS_FLAG_DRAFT, MBN_SMS_FLAG_INDEX, MBN_SMS_FLAG_NEW, MBN_SMS_FLAG_OLD, MBN_SMS_FLAG_SENT, mbn.mbn_sms_flag, mbnapi/MBN_SMS_FLAG, mbnapi/MBN_SMS_FLAG_ALL, mbnapi/MBN_SMS_FLAG_DRAFT, mbnapi/MBN_SMS_FLAG_INDEX, mbnapi/MBN_SMS_FLAG_NEW, mbnapi/MBN_SMS_FLAG_OLD, mbnapi/MBN_SMS_FLAG_SENT
 ms.prod: windows
 ms.technology: windows-sdk

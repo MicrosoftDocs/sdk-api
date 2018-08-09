@@ -7,7 +7,7 @@ old-location: dshow\iamtimecodereader_gettimecode.htm
 old-project: DirectShow
 ms.assetid: c4ed646f-677e-4703-8197-036636f20561
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: GetTimecode, GetTimecode method [DirectShow], GetTimecode method [DirectShow],IAMTimecodeReader interface, IAMTimecodeReader interface [DirectShow],GetTimecode method, IAMTimecodeReader.GetTimecode, IAMTimecodeReader::GetTimecode, IAMTimecodeReaderGetTimecode, dshow.iamtimecodereader_gettimecode, strmif/IAMTimecodeReader::GetTimecode
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfclockstatesink_onclocksetrate.htm
 old-project: medfound
 ms.assetid: ba8afdf9-13eb-4e3d-b8a7-c74e0b40e998
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFClockStateSink interface [Media Foundation],OnClockSetRate method, IMFClockStateSink.OnClockSetRate, IMFClockStateSink::OnClockSetRate, OnClockSetRate, OnClockSetRate method [Media Foundation], OnClockSetRate method [Media Foundation],IMFClockStateSink interface, ba8afdf9-13eb-4e3d-b8a7-c74e0b40e998, mf.imfclockstatesink_onclocksetrate, mfidl/IMFClockStateSink::OnClockSetRate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,15 +63,13 @@ Called when the rate changes on the presentation clock.
 
 ### -param hnsSystemTime [in]
 
-
-            The system time when the rate was set, in 100-nanosecond units.
+The system time when the rate was set, in 100-nanosecond units.
           
 
 
 ### -param flRate [in]
 
-
-            The new rate, as a multiplier of the normal playback rate.
+The new rate, as a multiplier of the normal playback rate.
           
 
 
@@ -88,12 +86,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        When the presentation clock's <a href="https://msdn.microsoft.com/428d73fa-f284-4861-a41e-04ea7709db0f">IMFRateControl::SetRate</a> method is called, the clock notifies the presentation time source by calling the time source's <b>OnClockSetRate</b> method. This call occurs synchronously within the <b>SetRate</b> method. If the time source returns an error from <b>OnClockSetRate</b>, the presentation clock's <b>SetRate</b> method returns an error and the state change does not take place.
+When the presentation clock's <a href="https://msdn.microsoft.com/428d73fa-f284-4861-a41e-04ea7709db0f">IMFRateControl::SetRate</a> method is called, the clock notifies the presentation time source by calling the time source's <b>OnClockSetRate</b> method. This call occurs synchronously within the <b>SetRate</b> method. If the time source returns an error from <b>OnClockSetRate</b>, the presentation clock's <b>SetRate</b> method returns an error and the state change does not take place.
       
 
-
-        For any object that is not the presentation time source, the <b>OnClockSetRate</b> method is called asynchronously, after the state change is completed. In that case, the return value from this method is ignored.
+For any object that is not the presentation time source, the <b>OnClockSetRate</b> method is called asynchronously, after the state change is completed. In that case, the return value from this method is ignored.
       
 
 

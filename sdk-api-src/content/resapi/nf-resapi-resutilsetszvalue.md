@@ -7,7 +7,7 @@ old-location: mscs\resutilsetszvalue.htm
 old-project: mscs
 ms.assetid: b9227df3-0693-4b0f-99de-d10fa3d7acf5
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: PRESUTIL_SET_SZ_VALUE, PRESUTIL_SET_SZ_VALUE function [Failover Cluster], ResUtilSetSzValue, ResUtilSetSzValue function [Failover Cluster], _wolf_resutilsetszvalue, mscs.resutilsetszvalue, resapi/PRESUTIL_SET_SZ_VALUE, resapi/ResUtilSetSzValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,14 +74,7 @@ Null-terminated Unicode string containing the name of the value to update.
 Pointer to the new string value.
 
 
-### -param ppszOutString
-
-TBD
-
-
-
-
-#### - ppszOutValue [in, out, optional]
+### -param ppszOutString [in, out, optional]
 
 Pointer to a string pointer that receives a copy of the updated value. If used, callers must call <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> on *<i>ppszOutValue</i>.
 

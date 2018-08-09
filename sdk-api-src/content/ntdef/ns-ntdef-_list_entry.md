@@ -7,7 +7,7 @@ old-location: kernel\list_entry.htm
 old-project: kernel
 ms.assetid: f3c1867b-4d7e-4935-a902-b7cf54534655
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 08/06/2018
 ms.keywords: "*PLIST_ENTRY, LIST_ENTRY, LIST_ENTRY structure [Kernel-Mode Driver Architecture], PLIST_ENTRY, PLIST_ENTRY structure pointer [Kernel-Mode Driver Architecture], PRLIST_ENTRY, _LIST_ENTRY, kernel.list_entry, kstruct_c_1bef4e3c-4fcc-47e3-8e95-b5a697b720a2.xml, ntdef/LIST_ENTRY, ntdef/PLIST_ENTRY"
 ms.prod: windows
 ms.technology: windows-sdk

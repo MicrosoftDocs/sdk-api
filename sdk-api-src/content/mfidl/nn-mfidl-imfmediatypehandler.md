@@ -7,7 +7,7 @@ old-location: mf\imfmediatypehandler.htm
 old-project: medfound
 ms.assetid: 5b937bf7-4f86-4dc1-a4d5-7e724dcf5b36
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 5b937bf7-4f86-4dc1-a4d5-7e724dcf5b36, IMFMediaTypeHandler, IMFMediaTypeHandler interface [Media Foundation], IMFMediaTypeHandler interface [Media Foundation],described, mf.imfmediatypehandler, mfidl/IMFMediaTypeHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets and sets media types on an object, such as a media source or media sink.
+Gets and sets media types on an object, such as a media source or media sink.
         
 
 
@@ -77,8 +76,7 @@ The <b>IMFMediaTypeHandler</b> interface has these methods.
 <a href="https://msdn.microsoft.com/b1676e40-81a2-4311-bba6-528bfa45a708">GetCurrentMediaType</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the current media type of the object.
+Retrieves the current media type of the object.
         
 
 </td>
@@ -88,8 +86,7 @@ The <b>IMFMediaTypeHandler</b> interface has these methods.
 <a href="https://msdn.microsoft.com/1560d113-80a9-48bb-9f3d-6e3a288db962">GetMajorType</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the major media type of the object.
+Retrieves the major media type of the object.
         
 
 </td>
@@ -99,8 +96,7 @@ The <b>IMFMediaTypeHandler</b> interface has these methods.
 <a href="https://msdn.microsoft.com/a1827675-bbc4-45d8-8c6e-644b0d2addd4">GetMediaTypeByIndex</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves a media type from the object's list of supported media types.
+Retrieves a media type from the object's list of supported media types.
         
 
 </td>
@@ -110,8 +106,7 @@ The <b>IMFMediaTypeHandler</b> interface has these methods.
 <a href="https://msdn.microsoft.com/c5ee41bc-ee8b-4990-ae9d-92ef54597f31">GetMediaTypeCount</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the number of media types in the object's list of supported media types.
+Retrieves the number of media types in the object's list of supported media types.
         
 
 </td>
@@ -121,8 +116,7 @@ The <b>IMFMediaTypeHandler</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ea52defa-8b78-4f40-97ae-ed6a5ee4849e">IsMediaTypeSupported</a>
 </td>
 <td align="left" width="63%">
-
-          Queries whether the object supports a specified media type.
+Queries whether the object supports a specified media type.
         
 
 </td>
@@ -132,8 +126,7 @@ The <b>IMFMediaTypeHandler</b> interface has these methods.
 <a href="https://msdn.microsoft.com/f7f69adb-2a4a-47a9-bb92-ad9d005b962f">RemoteGetCurrentMediaType</a>
 </td>
 <td align="left" width="63%">
-
-          Remotable version of <a href="https://msdn.microsoft.com/b1676e40-81a2-4311-bba6-528bfa45a708">GetCurrentMediaType</a>. (Not used by applications.)
+Remotable version of <a href="https://msdn.microsoft.com/b1676e40-81a2-4311-bba6-528bfa45a708">GetCurrentMediaType</a>. (Not used by applications.)
         
 
 </td>
@@ -143,8 +136,7 @@ The <b>IMFMediaTypeHandler</b> interface has these methods.
 <a href="https://msdn.microsoft.com/77ff397e-4fa8-4849-98b8-6bdd035c0e89">SetCurrentMediaType</a>
 </td>
 <td align="left" width="63%">
-
-          Sets the object media type.
+Sets the object media type.
         
 
 </td>

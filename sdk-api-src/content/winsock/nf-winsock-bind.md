@@ -4,10 +4,10 @@ title: bind function
 author: windows-sdk-content
 description: The bind function associates a local address with a socket.
 old-location: winsock\bind_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 3a651daa-7404-4ef7-8cff-0d3dff41a8e8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_win32_bind_2, bind, bind function [Winsock], winsock.bind_2, winsock/bind"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,19 +65,14 @@ The
 A descriptor identifying an unbound socket.
 
 
-### -param addr
+### -param addr [in]
 
-TBD
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure of the local address to assign to the bound socket .
 
 
 ### -param namelen [in]
 
 The length, in bytes, of the value pointed to by the <i>name</i> parameter.
-
-
-#### - name [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure of the local address to assign to the bound socket .
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: automat\irecordinfo_recordcreatecopy.htm
 old-project: automat
 ms.assetid: 9cc2a46a-ec92-46a7-8b75-8c36598cc441
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: IRecordInfo interface [Automation],RecordCreateCopy method, IRecordInfo.RecordCreateCopy, IRecordInfo::RecordCreateCopy, RecordCreateCopy, RecordCreateCopy method [Automation], RecordCreateCopy method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordCreateCopy, automat.irecordinfo_recordcreatecopy, oaidl/IRecordInfo::RecordCreateCopy
 ms.prod: windows
 ms.technology: windows-sdk

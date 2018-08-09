@@ -7,7 +7,7 @@ old-location: dxmath\xmconverttoradians.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.conversion.XMConvertToRadians(float)
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/30/2018
 ms.keywords: Use DirectX..XMConvertToRadians, XMConvertToRadians, XMConvertToRadians method [DirectX Math Support APIs], dxmath.xmconverttoradians
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419425(v=VS.85).aspx">XMConvertToDegrees</a>
+<a href="https://msdn.microsoft.com/5d14f50e-cab6-49e9-9b7b-be5519d7bd63">XMConvertToDegrees</a>
  
 
  

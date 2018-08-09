@@ -7,7 +7,7 @@ old-location: intl\immnotifyime.htm
 old-project: Intl
 ms.assetid: 3ac1a32d-89a2-45e4-9dcb-b2aea5195489
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: CPS_CANCEL, CPS_COMPLETE, CPS_CONVERT, CPS_REVERT, ImmNotifyIME, ImmNotifyIME function [Internationalization for Windows Applications], NI_CHANGECANDIDATELIST, NI_CLOSECANDIDATE, NI_COMPOSITIONSTR, NI_IMEMENUSELECTED, NI_OPENCANDIDATE, NI_SELECTCANDIDATESTR, NI_SETCANDIDATE_PAGESIZE, NI_SETCANDIDATE_PAGESTART, _win32_ImmNotifyIME, imm/ImmNotifyIME, intl.immnotifyime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Notifies the IME about changes to the status of the input context.
 
 
 
-### -param HIMC
+### -param HIMC [in]
 
-TBD
+Handle to the input context.
 
 
 ### -param dwAction [in]
@@ -215,11 +215,6 @@ Cancel the current composition string and set the composition string to be the u
 ### -param dwValue [in]
 
 Index of a candidate string. The application can set this parameter or ignore it, depending on the value of the <i>dwAction</i> parameter.
-
-
-#### - hIMC [in]
-
-Handle to the input context.
 
 
 ## -returns

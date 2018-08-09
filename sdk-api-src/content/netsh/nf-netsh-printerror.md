@@ -7,7 +7,7 @@ old-location: netshell\printerror.htm
 old-project: netshell
 ms.assetid: de48b797-9cb5-4bc0-89d4-86dd7f56a610
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: PrintError, PrintError function [NetShell], _netsh_printerror, netsh/PrintError, netshell.printerror
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,26 +65,14 @@ The
 A handle to the module from which the string should be loaded, or null for system error messages.
 
 
-### -param dwErrId
+### -param dwErrId [in]
 
-TBD
+The identifier of the message to print.
 
 
 ### -param param
 
-TBD
-
-
-
-
-####### - ...
-
 The arguments used to fill into the message.
-
-
-#### - dwMsgId [in]
-
-The identifier of the message to print.
 
 
 ## -returns

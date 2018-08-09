@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_Invert_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\invert.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Invert, Invert method [GDI+], Invert method [GDI+],Matrix class, Matrix class [GDI+],Invert method, Matrix.Invert, Matrix::Invert, _gdiplus_CLASS_Matrix_Invert_, gdiplus._gdiplus_CLASS_Matrix_Invert_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,8 +89,8 @@ If this matrix is not invertible, the method fails and returns InvalidParameter.
 
 
 The following example passes the address of a 
-						<a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a> object to the 
-						<a href="https://msdn.microsoft.com/library/ms535818(v=VS.85).aspx">SetTransform</a> method of a 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a> object to the 
+						<a href="https://msdn.microsoft.com/en-us/library/ms535818(v=VS.85).aspx">SetTransform</a> method of a 
 						<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object and then draws a rectangle. The rectangle is translated 30 units right and 20 units down by the world transformation of the 
 						<b>Graphics</b> object. The code calls the <b>Matrix::Invert</b> method of the 
 						<b>Matrix</b> object and sets the world transformation of the 
@@ -126,23 +126,23 @@ The following example passes the address of a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536395(v=VS.85).aspx">Global and Local Transformations</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536395(v=VS.85).aspx">Global and Local Transformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536397(v=VS.85).aspx">Matrix Representation of Transformations</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536397(v=VS.85).aspx">Matrix Representation of Transformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535305(v=VS.85).aspx">Matrix::IsInvertible</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535305(v=VS.85).aspx">Matrix::IsInvertible</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533810(v=VS.85).aspx">Transformations</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533810(v=VS.85).aspx">Transformations</a>
  
 
  

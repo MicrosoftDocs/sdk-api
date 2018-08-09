@@ -7,7 +7,7 @@ old-location: intl\getuserdefaultgeoname.htm
 old-project: Intl
 ms.assetid: 7938A5A1-E18E-4643-A07C-3354B4E94B5D
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetUserDefaultGeoName, GetUserDefaultGeoName function [Internationalization for Windows Applications], intl.getuserdefaultgeoname, winnls/GetUserDefaultGeoName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,14 +64,7 @@ Retrieves the two-letter International Organization for Standardization (ISO) 31
 Pointer to a buffer in which this function should write the null-terminated two-letter ISO 3166-1 or numeric UN M.49 code for the default geographic location of the user.
 
 
-### -param geoNameCount
-
-TBD
-
-
-
-
-#### - int [in]
+### -param geoNameCount [in]
 
 The size of the buffer that the <i>geoName</i> parameter specifies. If this value is zero, the function only returns the number of characters that function would copy to the output buffer, but does not write the name of the default geographic location of the user to the buffer.
 

@@ -7,7 +7,7 @@ old-location: devinst\cm_request_device_eject.htm
 old-project: devinst
 ms.assetid: a73317c8-52e4-4f2c-855c-94259dc77846
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: CM_Request_Device_Eject, CM_Request_Device_Eject function [Device and Driver Installation], CM_Request_Device_EjectW, cfgmgr32/CM_Request_Device_Eject, cfgmgr32/CM_Request_Device_EjectW, cfgmgrfn_2c8cc2aa-56fe-4ab3-8063-0db0dcbc3098.xml, devinst.cm_request_device_eject
 ms.prod: windows
 ms.technology: windows-sdk

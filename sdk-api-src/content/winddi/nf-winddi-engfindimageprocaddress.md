@@ -7,7 +7,7 @@ old-location: display\engfindimageprocaddress.htm
 old-project: display
 ms.assetid: a81c0814-3210-40dd-969f-20593353e54c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: EngFindImageProcAddress, EngFindImageProcAddress function [Display Devices], display.engfindimageprocaddress, gdifncs_7680e4bd-d5d2-4365-84a0-131ea7a38b22.xml, winddi/EngFindImageProcAddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,24 +61,10 @@ The <b>EngFindImageProcAddress</b> function returns the address of a function wi
 
 ### -param h
 
-TBD
-
-
-### -param procname
-
-TBD
-
-
-
-
-
-
-#### - hModule
-
 Handle to the image in which the function can be found. This handle was obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff564963">EngLoadImage</a>. This parameter can be <b>NULL</b> on Windows NT 4.0 SP3 and later versions, which includes Windows 2000 and later operating system versions.
 
 
-#### - lpProcName [in]
+### -param procname [in]
 
 Pointer to the string that specifies the name of the function to be located. 
 

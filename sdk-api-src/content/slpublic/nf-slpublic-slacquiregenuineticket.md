@@ -4,10 +4,10 @@ title: SLAcquireGenuineTicket function
 author: windows-sdk-content
 description: Gets a XrML genuine ticket acquired from the Software Licensing Server (SLS).
 old-location: security\slacquiregenuineticket.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: 028099c8-9116-4212-bc29-1065b22be593
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLAcquireGenuineTicket, SLAcquireGenuineTicket function [Security], security.slacquiregenuineticket, slpublic/SLAcquireGenuineTicket
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slcext.lib
 req.dll: Slcext.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLAcquireGenuineTicket function

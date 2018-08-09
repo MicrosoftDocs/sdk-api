@@ -7,7 +7,7 @@ old-location: fax\_mfax_sendtofaxrecipient.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\shellextension\f\faxshell_sendtofaxrecipient.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: SendToFaxRecipient, SendToFaxRecipient function [Fax Service], _mfax_sendtofaxrecipient, fax._mfax_sendtofaxrecipient, fxsutility/SendToFaxRecipient
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Called by an application to fax a file.
 
 ### -param sndMode
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa358866(v=VS.85).aspx">SendToMode</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa358866(v=VS.85).aspx">SendToMode</a></b>
 
-A value specifying how to send the fax. For Windows Vista, this must be <a href="https://msdn.microsoft.com/library/Aa358866(v=VS.85).aspx">SEND_TO_FAX_RECIPIENT_ATTACHMENT</a>.
+A value specifying how to send the fax. For Windows Vista, this must be <a href="https://msdn.microsoft.com/en-us/library/Aa358866(v=VS.85).aspx">SEND_TO_FAX_RECIPIENT_ATTACHMENT</a>.
 
 
 ### -param lpFileName
@@ -88,8 +88,7 @@ Zero, if the operation is successful.
 
 
 
-
-        Call <a href="https://msdn.microsoft.com/library/Aa358862(v=VS.85).aspx">CanSendToFaxRecipient</a> first to determine if faxing from within an application is possible on the computer.  
+Call <a href="https://msdn.microsoft.com/en-us/library/Aa358862(v=VS.85).aspx">CanSendToFaxRecipient</a> first to determine if faxing from within an application is possible on the computer.  
         
 
 
@@ -100,15 +99,15 @@ Zero, if the operation is successful.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa358862(v=VS.85).aspx">CanSendToFaxRecipient</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358862(v=VS.85).aspx">CanSendToFaxRecipient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa358866(v=VS.85).aspx">SendToMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358866(v=VS.85).aspx">SendToMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa358863(v=VS.85).aspx">Shell Fax Extension Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358863(v=VS.85).aspx">Shell Fax Extension Functions</a>
  
 
  

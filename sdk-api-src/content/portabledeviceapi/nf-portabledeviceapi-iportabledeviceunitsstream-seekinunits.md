@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceunitsstream_seekinunits.htm
 old-project: wpd_sdk
 ms.assetid: F94D30C7-57A8-4CBB-B416-ABB8BEC26A6E
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: IPortableDeviceUnitsStream interface [Windows Portable Devices SDK],SeekInUnits method, IPortableDeviceUnitsStream.SeekInUnits, IPortableDeviceUnitsStream::SeekInUnits, SeekInUnits, SeekInUnits method [Windows Portable Devices SDK], SeekInUnits method [Windows Portable Devices SDK],IPortableDeviceUnitsStream interface, portabledeviceapi/IPortableDeviceUnitsStream::SeekInUnits, wpdsdk.iportabledeviceunitsstream_seekinunits
 ms.prod: windows
 ms.technology: windows-sdk

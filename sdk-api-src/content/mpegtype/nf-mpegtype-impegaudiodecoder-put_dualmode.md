@@ -7,7 +7,7 @@ old-location: dshow\impegaudiodecoder_put_dualmode.htm
 old-project: DirectShow
 ms.assetid: b183f669-14bf-44d4-a17d-09cbc593309d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_DualMode method, IMpegAudioDecoder.put_DualMode, IMpegAudioDecoder::put_DualMode, IMpegAudioDecoderputDualMode, dshow.impegaudiodecoder_put_dualmode, mpegtype/IMpegAudioDecoder::put_DualMode, put_DualMode, put_DualMode method [DirectShow], put_DualMode method [DirectShow],IMpegAudioDecoder interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,28 +104,23 @@ The following table lists the valid values for the <i>pIntDecode</i> parameter.
 
 <table>
 <tr>
-<th>
-              Constant
+<th>Constant
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>
-<td><b>
-              AM_MPEG_AUDIO_DUAL_MERGE
+<td><b>AM_MPEG_AUDIO_DUAL_MERGE
             </b></td>
 <td>Specifies that both channels will be decoded.</td>
 </tr>
 <tr>
-<td><b>
-              AM_MPEG_AUDIO_DUAL_LEFT
+<td><b>AM_MPEG_AUDIO_DUAL_LEFT
             </b></td>
 <td>Specifies that the left channel will be decoded.</td>
 </tr>
 <tr>
-<td><b>
-              AM_MPEG_AUDIO_DUAL_RIGHT
+<td><b>AM_MPEG_AUDIO_DUAL_RIGHT
             </b></td>
 <td>Specifies that the right channel will be decoded.</td>
 </tr>

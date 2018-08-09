@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromDouble.htm
 old-project: properties
 ms.assetid: a0a13843-e943-4fca-b4d4-5af1d2ff02e9
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: InitVariantFromDouble, InitVariantFromDouble function [Windows Properties], _shell_InitVariantFromDouble, properties.InitVariantFromDouble, propvarutil/InitVariantFromDouble, shell.InitVariantFromDouble
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762321(v=VS.85).aspx">InitVariantFromDouble</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromDouble">InitVariantFromDouble</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -123,15 +123,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762291(v=VS.85).aspx">InitPropVariantFromDouble</a>
+<a href="shell.InitPropVariantFromDouble">InitPropVariantFromDouble</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776598(v=VS.85).aspx">VariantToDouble</a>
+<a href="shell.VariantToDouble">VariantToDouble</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776601(v=VS.85).aspx">VariantToDoubleWithDefault</a>
+<a href="shell.VariantToDoubleWithDefault">VariantToDoubleWithDefault</a>
  
 
  

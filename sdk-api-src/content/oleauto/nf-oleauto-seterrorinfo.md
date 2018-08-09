@@ -7,7 +7,7 @@ old-location: automat\seterrorinfo.htm
 old-project: automat
 ms.assetid: 8eaacfac-fc37-4eaa-870b-10b99d598d66
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: SetErrorInfo, SetErrorInfo function [Automation], _oa96_SetErrorInfo, automat.seterrorinfo, oleauto/SetErrorInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: WSCWriteNameSpaceOrder function
 author: windows-sdk-content
 description: Changes the order of available Windows Sockets (Winsock) 2 namespace providers. The order of the namespace providers determines the priority of the namespace when enumerated or queried for name resolution.
 old-location: winsock\wscwritenamespaceorder.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 00a06104-570f-4cd5-9520-bc73516ac7a5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSCWriteNameSpaceOrder, WSCWriteNameSpaceOrder function [Winsock], sporder/WSCWriteNameSpaceOrder, winsock.wscwritenamespaceorder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Sporder.lib
 req.dll: Ws2_32.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # WSCWriteNameSpaceOrder function

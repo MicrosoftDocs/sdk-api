@@ -7,7 +7,7 @@ old-location: mf\mfnetcredentialrequirements.htm
 old-project: medfound
 ms.assetid: 9257d1d7-7ccb-4172-82f0-3694ebb9d487
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 9257d1d7-7ccb-4172-82f0-3694ebb9d487, MFNetCredentialRequirements, MFNetCredentialRequirements enumeration [Media Foundation], REQUIRE_PROMPT, REQUIRE_SAVE_SELECTED, _MFNetCredentialRequirements, mf.mfnetcredentialrequirements, mfidl/MFNetCredentialRequirements, mfidl/REQUIRE_PROMPT, mfidl/REQUIRE_SAVE_SELECTED
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Specifies how the credential manager should obtain user credentials.
+Specifies how the credential manager should obtain user credentials.
         
 
 
@@ -63,8 +62,7 @@ req.product: GDI+ 1.1
 
 ### -field REQUIRE_PROMPT
 
-
-            The credential manager should prompt the user to provide the credentials.
+The credential manager should prompt the user to provide the credentials.
           
 
 

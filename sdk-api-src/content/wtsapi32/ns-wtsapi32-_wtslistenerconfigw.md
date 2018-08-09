@@ -4,10 +4,10 @@ title: "_WTSLISTENERCONFIGW"
 author: windows-sdk-content
 description: Contains information about a Remote Desktop Services listener.
 old-location: termserv\wtslistenerconfig.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 051cab0b-701c-4bb9-8728-6b383cdb8e6a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PWTSLISTENERCONFIGW, 1, 2, 3, 4, 5, PWTSLISTENERCONFIG, PWTSLISTENERCONFIG structure pointer [Remote Desktop Services], WTSLISTENERCONFIG, WTSLISTENERCONFIG structure [Remote Desktop Services], WTSLISTENERCONFIGA, WTSLISTENERCONFIGW, _WTSLISTENERCONFIGW, termserv.wtslistenerconfig, wtsapi32/PWTSLISTENERCONFIG, wtsapi32/WTSLISTENERCONFIG, wtsapi32/WTSLISTENERCONFIGA, wtsapi32/WTSLISTENERCONFIGW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -499,14 +499,34 @@ A null-terminated string that contains the path of the working directory of  the
 A null-terminated string that contains the name of  the program to start immediately after the user logs on to the server.
 
 
-##### - BrokenTimeoutSettings.0
+##### - fEnableListener.0
 
-When a connection or idle timer expires, or when a connection is lost due to a connection error, the user is disconnected but the session remains on the server.
+The listener is disabled.
 
 
-##### - BrokenTimeoutSettings.1
+##### - fEnableListener.1
 
-When a connection or idle timer expires, or when a connection is lost due to a connection error, the session is terminated.
+The listener is enabled.
+
+
+##### - fPromptForPassword.0
+
+Prompt the user for a password only when specified by the server.
+
+
+##### - fPromptForPassword.1
+
+Always prompt the user for a password.
+
+
+##### - fInheritColorDepth.0
+
+Use the color depth specified by the server.
+
+
+##### - fInheritColorDepth.1
+
+Use the color depth specified by the user.
 
 
 ##### - ColorDepth.1
@@ -534,39 +554,114 @@ When a connection or idle timer expires, or when a connection is lost due to a c
 32 bit
 
 
-##### - MinEncryptionLevel.1
+##### - fInheritBrokenTimeoutSettings.0
 
-Data sent from  the client to  the server is encrypted by using 56-bit encryption. Data sent from  the server to the client is not encrypted.
-
-
-##### - MinEncryptionLevel.2
-
-All data sent from the client to the server and from the server to the client is encrypted by using the maximum key strength supported by the client.
+Use the <b>BrokenTimeoutSettings</b> value specified by server.
 
 
-##### - MinEncryptionLevel.3
+##### - fInheritBrokenTimeoutSettings.1
 
-All data sent from the client to the server and from the server to the client is encrypted by using 128-bit encryption. Clients that do not support this level of encryption cannot connect.
-
-
-##### - MinEncryptionLevel.4
-
-All data sent from the client to the server and from the server to the client is encrypted and decrypted by using the Federal Information Processing Standards (FIPS) encryption algorithms and Microsoft cryptographic modules.
+Use the <b>BrokenTimeoutSettings</b> value specified by the user.
 
 
-##### - SecurityLayer.0
+##### - BrokenTimeoutSettings.0
 
-Remote Desktop Protocol (RDP) is used by the server and the client for authentication before a connection is established.
-
-
-##### - SecurityLayer.1
-
-The server and the client negotiate the method for authentication before a connection is established.
+When a connection or idle timer expires, or when a connection is lost due to a connection error, the user is disconnected but the session remains on the server.
 
 
-##### - SecurityLayer.2
+##### - BrokenTimeoutSettings.1
 
-Transport Layer Security (TLS) protocol is used by the server and the client for authentication before a connection is established.
+When a connection or idle timer expires, or when a connection is lost due to a connection error, the session is terminated.
+
+
+##### - fDisablePrinterRedirection.0
+
+The user can enable printer redirection.
+
+
+##### - fDisablePrinterRedirection.1
+
+Printer redirection is disabled.
+
+
+##### - fDisableDriveRedirection.0
+
+The user can enable drive redirection.
+
+
+##### - fDisableDriveRedirection.1
+
+Drive redirection is disabled.
+
+
+##### - fDisableComPortRedirection.0
+
+The user can enable COM port redirection.
+
+
+##### - fDisableComPortRedirection.1
+
+COM port redirection is disabled.
+
+
+##### - fDisableLPTPortRedirection.0
+
+The user can enable LPT port redirection.
+
+
+##### - fDisableLPTPortRedirection.1
+
+LPT port redirection is disabled.
+
+
+##### - fDisableClipboardRedirection.0
+
+The user can enable clipboard redirection.
+
+
+##### - fDisableClipboardRedirection.1
+
+Clipboard redirection is disabled.
+
+
+##### - fDisableAudioRedirection.0
+
+The user can enable audio redirection.
+
+
+##### - fDisableAudioRedirection.1
+
+Audio redirection is disabled.
+
+
+##### - fDisablePNPRedirection.0
+
+The user can enable Plug and Play redirection.
+
+
+##### - fDisablePNPRedirection.1
+
+Plug and Play redirection is disabled.
+
+
+##### - fDisableDefaultMainClientPrinter.0
+
+The client printer is not the default printer.
+
+
+##### - fDisableDefaultMainClientPrinter.1
+
+The client printer is the default printer.
+
+
+##### - fInheritShadowSettings.0
+
+Use the setting specified by the server.
+
+
+##### - fInheritShadowSettings.1
+
+Use the setting specified by the user.
 
 
 ##### - ShadowSettings.0
@@ -594,6 +689,41 @@ The user of remote control can view the session remotely, with the user's permis
 The user of remote control can view the session remotely but not actively control the session; the user's permission is not required.
 
 
+##### - SecurityLayer.0
+
+Remote Desktop Protocol (RDP) is used by the server and the client for authentication before a connection is established.
+
+
+##### - SecurityLayer.1
+
+The server and the client negotiate the method for authentication before a connection is established.
+
+
+##### - SecurityLayer.2
+
+Transport Layer Security (TLS) protocol is used by the server and the client for authentication before a connection is established.
+
+
+##### - MinEncryptionLevel.1
+
+Data sent from  the client to  the server is encrypted by using 56-bit encryption. Data sent from  the server to the client is not encrypted.
+
+
+##### - MinEncryptionLevel.2
+
+All data sent from the client to the server and from the server to the client is encrypted by using the maximum key strength supported by the client.
+
+
+##### - MinEncryptionLevel.3
+
+All data sent from the client to the server and from the server to the client is encrypted by using 128-bit encryption. Clients that do not support this level of encryption cannot connect.
+
+
+##### - MinEncryptionLevel.4
+
+All data sent from the client to the server and from the server to the client is encrypted and decrypted by using the Federal Information Processing Standards (FIPS) encryption algorithms and Microsoft cryptographic modules.
+
+
 ##### - UserAuthentication.0
 
 Network-level user authentication is not required.
@@ -602,136 +732,6 @@ Network-level user authentication is not required.
 ##### - UserAuthentication.1
 
 Network-level user authentication is required.
-
-
-##### - fDisableAudioRedirection.0
-
-The user can enable audio redirection.
-
-
-##### - fDisableAudioRedirection.1
-
-Audio redirection is disabled.
-
-
-##### - fDisableClipboardRedirection.0
-
-The user can enable clipboard redirection.
-
-
-##### - fDisableClipboardRedirection.1
-
-Clipboard redirection is disabled.
-
-
-##### - fDisableComPortRedirection.0
-
-The user can enable COM port redirection.
-
-
-##### - fDisableComPortRedirection.1
-
-COM port redirection is disabled.
-
-
-##### - fDisableDefaultMainClientPrinter.0
-
-The client printer is not the default printer.
-
-
-##### - fDisableDefaultMainClientPrinter.1
-
-The client printer is the default printer.
-
-
-##### - fDisableDriveRedirection.0
-
-The user can enable drive redirection.
-
-
-##### - fDisableDriveRedirection.1
-
-Drive redirection is disabled.
-
-
-##### - fDisableLPTPortRedirection.0
-
-The user can enable LPT port redirection.
-
-
-##### - fDisableLPTPortRedirection.1
-
-LPT port redirection is disabled.
-
-
-##### - fDisablePNPRedirection.0
-
-The user can enable Plug and Play redirection.
-
-
-##### - fDisablePNPRedirection.1
-
-Plug and Play redirection is disabled.
-
-
-##### - fDisablePrinterRedirection.0
-
-The user can enable printer redirection.
-
-
-##### - fDisablePrinterRedirection.1
-
-Printer redirection is disabled.
-
-
-##### - fEnableListener.0
-
-The listener is disabled.
-
-
-##### - fEnableListener.1
-
-The listener is enabled.
-
-
-##### - fInheritBrokenTimeoutSettings.0
-
-Use the <b>BrokenTimeoutSettings</b> value specified by server.
-
-
-##### - fInheritBrokenTimeoutSettings.1
-
-Use the <b>BrokenTimeoutSettings</b> value specified by the user.
-
-
-##### - fInheritColorDepth.0
-
-Use the color depth specified by the server.
-
-
-##### - fInheritColorDepth.1
-
-Use the color depth specified by the user.
-
-
-##### - fInheritShadowSettings.0
-
-Use the setting specified by the server.
-
-
-##### - fInheritShadowSettings.1
-
-Use the setting specified by the user.
-
-
-##### - fPromptForPassword.0
-
-Prompt the user for a password only when specified by the server.
-
-
-##### - fPromptForPassword.1
-
-Always prompt the user for a password.
 
 
 ## -see-also

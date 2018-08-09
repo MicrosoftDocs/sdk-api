@@ -4,10 +4,10 @@ title: SLUninstallLicense function
 author: windows-sdk-content
 description: Uninstalls the license specified by the license file ID and target user option.
 old-location: security\sluninstalllicense.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: 1f79a26e-7605-46ad-9854-e90e73320184
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLUninstallLicense, SLUninstallLicense function [Security], security.sluninstalllicense, slpublic/SLUninstallLicense
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLUninstallLicense function

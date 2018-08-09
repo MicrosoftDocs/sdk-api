@@ -7,7 +7,7 @@ old-location: search\_search_IRowsetEvents_OnDeletedItem.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\ondeleteditem.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: IRowsetEvents interface [search],OnDeletedItem method, IRowsetEvents.OnDeletedItem, IRowsetEvents::OnDeletedItem, OnDeletedItem, OnDeletedItem method [search], OnDeletedItem method [search],IRowsetEvents interface, _search_IRowsetEvents_OnDeletedItem, search._search_IRowsetEvents_OnDeletedItem, searchapi/IRowsetEvents::OnDeletedItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,17 +64,15 @@ Called by the indexer to notify clients that an item has been deleted. This item
 
 Type: <b>REFPROPVARIANT</b>
 
-
-            Specifies the item in the rowset that has been deleted.
+Specifies the item in the rowset that has been deleted.
         
 
 
 ### -param deletedItemState [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Dd368861(v=VS.85).aspx">ROWSETEVENT_ITEMSTATE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368861(v=VS.85).aspx">ROWSETEVENT_ITEMSTATE</a></b>
 
-
-            Specifies whether the deleted item is currently in the rowset, as a <a href="https://msdn.microsoft.com/library/Dd368861(v=VS.85).aspx">ROWSETEVENT_ITEMSTATE</a> enumeration.
+Specifies whether the deleted item is currently in the rowset, as a <a href="https://msdn.microsoft.com/en-us/library/Dd368861(v=VS.85).aspx">ROWSETEVENT_ITEMSTATE</a> enumeration.
         
 
 
@@ -93,13 +91,13 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <a href="https://msdn.microsoft.com/library/Dd368861(v=VS.85).aspx">ROWSETEVENT_ITEMSTATE</a> indicates whether or not the item was contained in the original rowset:
+The <a href="https://msdn.microsoft.com/en-us/library/Dd368861(v=VS.85).aspx">ROWSETEVENT_ITEMSTATE</a> indicates whether or not the item was contained in the original rowset:
         
 
 <ul>
 <li><i>ROWSETEVENT_ITEMSTATE_INROWSET</i> indicates that the deleted item is definitely in your rowset.</li>
 <li><i>ROWSETEVENT_ITEMSTATE_UNKNOWN</i> indicates that the deleted item may be in your rowset.  The containment status is not known because your rowset is not fully evaluated.</li>
-<li><i>ROWSETEVENT_ITEMSTATE_NOTINROWSET</i> indicates the deleted item was definitely not in your original rowset (but may have already been given via an  <a href="https://msdn.microsoft.com/library/Dd318752(v=VS.85).aspx">OnNewItem</a> or <a href="https://msdn.microsoft.com/library/Dd318752(v=VS.85).aspx">OnChangedItem</a> event).</li>
+<li><i>ROWSETEVENT_ITEMSTATE_NOTINROWSET</i> indicates the deleted item was definitely not in your original rowset (but may have already been given via an  <a href="https://msdn.microsoft.com/en-us/library/Dd318752(v=VS.85).aspx">OnNewItem</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd318752(v=VS.85).aspx">OnChangedItem</a> event).</li>
 </ul>
 
 
@@ -113,11 +111,11 @@ The <a href="https://msdn.microsoft.com/library/Dd368861(v=VS.85).aspx">ROWSETEV
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd318749(v=VS.85).aspx">IRowsetEvents</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd318749(v=VS.85).aspx">IRowsetEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd318747(v=VS.85).aspx">IRowsetPrioritization</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd318747(v=VS.85).aspx">IRowsetPrioritization</a>
 
 
 
@@ -125,19 +123,19 @@ The <a href="https://msdn.microsoft.com/library/Dd368861(v=VS.85).aspx">ROWSETEV
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc142933(v=VS.85).aspx">PRIORITIZE_FLAGS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Cc142933(v=VS.85).aspx">PRIORITIZE_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd797839(v=VS.85).aspx">PRIORITY_LEVEL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd797839(v=VS.85).aspx">PRIORITY_LEVEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd368861(v=VS.85).aspx">ROWSETEVENT_ITEMSTATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd368861(v=VS.85).aspx">ROWSETEVENT_ITEMSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd368862(v=VS.85).aspx">ROWSETEVENT_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd368862(v=VS.85).aspx">ROWSETEVENT_TYPE</a>
 
 
 
@@ -145,7 +143,7 @@ The <a href="https://msdn.microsoft.com/library/Dd368861(v=VS.85).aspx">ROWSETEV
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc465173(v=VS.85).aspx">Rowset Properties</a>
+<a href="https://msdn.microsoft.com/en-us/library/Cc465173(v=VS.85).aspx">Rowset Properties</a>
  
 
  

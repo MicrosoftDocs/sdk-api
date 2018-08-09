@@ -7,7 +7,7 @@ old-location: gdi\getcharabcwidthsfloat.htm
 old-project: gdi
 ms.assetid: 552942c9-e2a6-43f9-901f-3aba1e2523e5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetCharABCWidthsFloat, GetCharABCWidthsFloat function [Windows GDI], GetCharABCWidthsFloatA, GetCharABCWidthsFloatW, _win32_GetCharABCWidthsFloat, gdi.getcharabcwidthsfloat, wingdi/GetCharABCWidthsFloat, wingdi/GetCharABCWidthsFloatA, wingdi/GetCharABCWidthsFloatW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,34 +68,17 @@ The <b>GetCharABCWidthsFloat</b> function retrieves the widths, in logical units
 Handle to the device context.
 
 
-### -param iFirst
-
-TBD
-
-
-### -param iLast
-
-TBD
-
-
-### -param lpABC
-
-TBD
-
-
-
-
-#### - iFirstChar [in]
+### -param iFirst [in]
 
 Specifies the code point of the first character in the group of consecutive characters where the ABC widths are seeked.
 
 
-#### - iLastChar [in]
+### -param iLast [in]
 
 Specifies the code point of the last character in the group of consecutive characters where the ABC widths are seeked. This range is inclusive. An error is returned if the specified last character precedes the specified first character.
 
 
-#### - lpABCF [out]
+### -param lpABC [out]
 
 Pointer to an array of <a href="https://msdn.microsoft.com/540bb00c-f0e2-4ddd-98d1-cf3ed86b6ce0">ABCFLOAT</a> structures that receives the character widths, in logical units.
 

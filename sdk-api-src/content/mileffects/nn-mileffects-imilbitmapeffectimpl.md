@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectimpl.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\imilbitmapeffectimpl.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IMILBitmapEffectImpl, IMILBitmapEffectImpl interface [WPF Bitmap Effects], IMILBitmapEffectImpl interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectimpl, mileffects/IMILBitmapEffectImpl, wibe._wibe_imilbitmapeffectimpl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Exposes methods that define an an out <a href="https://msdn.microsoft.com/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> object.
+Exposes methods that define an an out <a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> object.
 
 
 ## -inheritance
@@ -71,7 +71,7 @@ The <b>IMILBitmapEffectImpl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735275(v=VS.85).aspx">GetInputBitmapSource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735275(v=VS.85).aspx">GetInputBitmapSource</a>
 </td>
 <td align="left" width="63%">
 Gets the input bitmap source of the effect of the given render context.
@@ -80,16 +80,16 @@ Gets the input bitmap source of the effect of the given render context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735276(v=VS.85).aspx">GetInputSource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735276(v=VS.85).aspx">GetInputSource</a>
 </td>
 <td align="left" width="63%">
-Retrieves the input <a href="https://msdn.microsoft.com/library/Ee690171(v=VS.85).aspx">IWICBitmapSource Interface</a>.
+Retrieves the input <a href="https://msdn.microsoft.com/en-us/library/Ee690171(v=VS.85).aspx">IWICBitmapSource Interface</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735277(v=VS.85).aspx">GetInputSourceBounds</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735277(v=VS.85).aspx">GetInputSourceBounds</a>
 </td>
 <td align="left" width="63%">
 Gets the bounds of the input source.
@@ -98,7 +98,7 @@ Gets the bounds of the input source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735278(v=VS.85).aspx">GetOutputBitmapSource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735278(v=VS.85).aspx">GetOutputBitmapSource</a>
 </td>
 <td align="left" width="63%">
 Gets the output bitmap source of the effect of the given render context.
@@ -116,7 +116,7 @@ Initializes the effect with the given object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735282(v=VS.85).aspx">IsInPlaceModificationAllowed</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735282(v=VS.85).aspx">IsInPlaceModificationAllowed</a>
 </td>
 <td align="left" width="63%">
 Determines whether the effect allows in-place modifications.
@@ -125,7 +125,7 @@ Determines whether the effect allows in-place modifications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735283(v=VS.85).aspx">SetParentEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735283(v=VS.85).aspx">SetParentEffect</a>
 </td>
 <td align="left" width="63%">
 Sets the parent of the effect.
@@ -139,7 +139,7 @@ Sets the parent of the effect.
 
 
 
-This interface must be implemented if a custom effect also exposes <a href="https://msdn.microsoft.com/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a>.
+This interface must be implemented if a custom effect also exposes <a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a>.
 
 
 

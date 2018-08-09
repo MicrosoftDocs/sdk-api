@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_copystructurecount.htm
 old-project: direct3d11
 ms.assetid: d4f8576f-8d23-4b45-a5ea-099c71e8567e
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: CopyStructureCount, CopyStructureCount method [Direct3D 11], CopyStructureCount method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CopyStructureCount method, ID3D11DeviceContext.CopyStructureCount, ID3D11DeviceContext::CopyStructureCount, d3d11/ID3D11DeviceContext::CopyStructureCount, d927d44d-491d-b350-cc6e-49cfd29f1793, direct3d11.id3d11devicecontext_copystructurecount
 ms.prod: windows
 ms.technology: windows-sdk

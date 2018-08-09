@@ -7,7 +7,7 @@ old-location: mf\idirect3dcryptosession9_encryptionblt.htm
 old-project: medfound
 ms.assetid: 42aa21d3-7c38-4058-b766-454be8b1ae80
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: EncryptionBlt, EncryptionBlt method [Media Foundation], EncryptionBlt method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],EncryptionBlt method, IDirect3DCryptoSession9.EncryptionBlt, IDirect3DCryptoSession9::EncryptionBlt, d3d9/IDirect3DCryptoSession9::EncryptionBlt, mf.idirect3dcryptosession9_encryptionblt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,8 +95,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-If the driver supports this method, it sets the <b>D3DCPCAPS_ENCRYPTEDREADBACK</b>
- flag in the capabilities structure returned by the <a href="https://msdn.microsoft.com/4093e64c-340d-4f66-97ed-45bae3b259eb">IDirect3DDevice9Video::GetContentProtectionCaps</a> method.
+If the driver supports this method, it sets the <b>D3DCPCAPS_ENCRYPTEDREADBACK</b>flag in the capabilities structure returned by the <a href="https://msdn.microsoft.com/4093e64c-340d-4f66-97ed-45bae3b259eb">IDirect3DDevice9Video::GetContentProtectionCaps</a> method.
 
 If the driver sets the <b>D3DCPCAPS_ENCRYPTEDREADBACKKEY</b> capabilities flag, it means the driver uses a separate key to encrypt the data. To get this key, call the <a href="https://msdn.microsoft.com/c06b42b7-dc8a-4004-b2c5-37accc76db40">IDirect3DCryptoSession9::GetEncryptionBltKey</a> method. Otherwise, the driver uses the session key to encrypt the data.
 
@@ -109,7 +108,7 @@ Allocate the destination surface (<i>pDstSurface</i>) as follows:
 <li>Add padding to accommodate the values of <b>BufferAlignmentStart</b>  and <b>BlockAlignmentSize</b>.</li>
 <li>Allocate a buffer in system memory, with size equal to <i>SysMemSize</i> (including padding). </li>
 <li>If the address of the system memory buffer is not aligned to the value of <b>BufferAlignmentStart</b>, calculate a memory-aligned pointer that is an offset from the start of the buffer.</li>
-<li>Call <a href="https://msdn.microsoft.com/library/Bb509712(v=VS.85).aspx">IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx</a> to create the destination surface. Pass the memory-aligned pointer as the shared-resource handle (<i>pSharedHandle</i>).</li>
+<li>Call <a href="https://msdn.microsoft.com/en-us/library/Bb509712(v=VS.85).aspx">IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx</a> to create the destination surface. Pass the memory-aligned pointer as the shared-resource handle (<i>pSharedHandle</i>).</li>
 </ol>
 This method has the following limitations:
 
@@ -120,7 +119,7 @@ This method has the following limitations:
 <li>The protected surface cannot be multisampled.</li>
 <li>The method does not support stretching or colorspace conversion.</li>
 </ul>
-If you lock the destination surface, the stride reported in the <a href="https://msdn.microsoft.com/library/Bb172570(v=VS.85).aspx">D3DLOCKED_RECT</a> structure might not match the stride of the protected surface. When you interpret the data, however, always use the stride of the protected surface.
+If you lock the destination surface, the stride reported in the <a href="https://msdn.microsoft.com/en-us/library/Bb172570(v=VS.85).aspx">D3DLOCKED_RECT</a> structure might not match the stride of the protected surface. When you interpret the data, however, always use the stride of the protected surface.
 
 
 

@@ -7,7 +7,7 @@ old-location: multimedia\acmfiltertagenumcallback.htm
 old-project: Multimedia
 ms.assetid: 63469be1-d657-4e95-9978-d31140ccd46f
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: ACMFILTERTAGENUMCB, ACMFILTERTAGENUMCB callback, ACMFILTERTAGENUMCBA, ACMFILTERTAGENUMCBW, _win32_acmFilterTagEnumCallback, acmFilterTagEnumCallback, acmFilterTagEnumCallback callback function [Windows Multimedia], msacm/ACMFILTERTAGENUMCBA, msacm/ACMFILTERTAGENUMCBW, msacm/acmFilterTagEnumCallback, multimedia.acmfiltertagenumcallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,11 +85,9 @@ Driver-support flags specific to the driver identifier <i>hadid</i>. These flags
 
 <table>
 <tr>
-<th>
-Value
+<th>Value
 </th>
-<th>
-Meaning
+<th>Meaning
 </th>
 </tr>
 <tr>

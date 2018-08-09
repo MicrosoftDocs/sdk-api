@@ -7,7 +7,7 @@ old-location: shell\SizeTAdd.htm
 old-project: shell
 ms.assetid: 1cabc944-0819-4a24-ab61-6d5375ba1573
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SizeTAdd, SizeTAdd function [Windows Shell], _shell_SizeTAdd, intsafe/SizeTAdd, shell.SizeTAdd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,38 +59,21 @@ Adds two values of type <b>size_t</b>.
 
 
 
-### -param Augend
-
-TBD
-
-
-### -param Addend
-
-TBD
-
-
-### -param pResult
-
-TBD
-
-
-
-
-#### - cbAddend [in]
-
-Type: <b>size_t</b>
-
-The value to add to <i>cbAugend</i>.
-
-
-#### - cbAugend [in]
+### -param Augend [in]
 
 Type: <b>size_t</b>
 
 The first value in the equation.
 
 
-#### - pcbResult [out]
+### -param Addend [in]
+
+Type: <b>size_t</b>
+
+The value to add to <i>cbAugend</i>.
+
+
+### -param pResult [out]
 
 Type: <b>size_t*</b>
 

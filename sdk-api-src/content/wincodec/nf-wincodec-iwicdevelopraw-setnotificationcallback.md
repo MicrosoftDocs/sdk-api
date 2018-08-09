@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_setnotificationcallback.htm
 old-project: wic
 ms.assetid: f6c44dee-8dbd-49c2-9773-899b3f01b968
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetNotificationCallback method, IWICDevelopRaw.SetNotificationCallback, IWICDevelopRaw::SetNotificationCallback, SetNotificationCallback, SetNotificationCallback method [Windows Imaging Component], SetNotificationCallback method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setnotificationcallback, wic._wic_codec_iwicdevelopraw_setnotificationcallback, wincodec/IWICDevelopRaw::SetNotificationCallback
 ms.prod: windows
 ms.technology: windows-sdk

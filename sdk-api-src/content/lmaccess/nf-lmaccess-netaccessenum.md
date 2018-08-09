@@ -7,7 +7,7 @@ old-location: netmgmt\netaccessenum.htm
 old-project: netmgmt
 ms.assetid: 34ffea84-ff41-43c3-864c-957178e9d22a
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: 0, 1, NetAccessEnum, NetAccessEnum function [Network Management], _win32_netaccessenum, lmaccess/NetAccessEnum, netmgmt.netaccessenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,45 +72,10 @@ TBD
 
 ### -param BasePath
 
-TBD
+Pointer to a string that contains a base pathname for the resource. A <b>NULL</b> pointer or <b>NULL</b> string means no base path is to be used. The path can be specified as a universal naming convention (UNC) pathname.
 
 
 ### -param Recursive
-
-TBD
-
-
-### -param level
-
-TBD
-
-
-### -param bufptr
-
-TBD
-
-
-### -param prefmaxlen
-
-TBD
-
-
-### -param entriesread
-
-TBD
-
-
-### -param totalentries
-
-TBD
-
-
-#### - cbBuffer
-
-Specifies the size, in bytes, of the buffer pointed to by the <i>pbBuffer</i> parameter.
-
-
-#### - fsRecursive
 
 Specifies a flag that enables or disables recursive searching.
       
@@ -120,34 +85,7 @@ If this parameter is equal to zero, the <b>NetAccessEnum</b> function returns en
 If this parameter is nonzero, the function returns entries for all access control lists (ACLs) that have <i>pszBasePath</i> at the beginning of the resource name.
 
 
-#### - pbBuffer
-
-Pointer to the buffer that receives the access information structure. The format of this data depends on the value of the <i>sLevel</i> parameter.
-
-
-#### - pcEntriesRead
-
-Pointer to an unsigned short integer that receives the count of elements actually enumerated. The count is valid only if the 
-<b>NetAccessEnum</b> function returns <b>NERR_Success</b> or <b>ERROR_MORE_DATA</b>.
-
-
-#### - pcTotalAvail
-
-Pointer to an unsigned short integer that receives the total number of entries that could have been enumerated. The count is valid only if the 
-<b>NetAccessEnum</b> function returns <b>NERR_Success</b> or <b>ERROR_MORE_DATA</b>.
-
-
-#### - pszBasePath
-
-Pointer to a string that contains a base pathname for the resource. A <b>NULL</b> pointer or <b>NULL</b> string means no base path is to be used. The path can be specified as a universal naming convention (UNC) pathname.
-
-
-#### - pszServer
-
-Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
-
-
-#### - sLevel
+### -param level
 
 Specifies the information level of the data. This parameter can be one of the following values.
 
@@ -180,6 +118,33 @@ The <i>pbBuffer</i> parameter points to an
 </tr>
 </table>
  
+
+
+### -param bufptr
+
+Pointer to the buffer that receives the access information structure. The format of this data depends on the value of the <i>sLevel</i> parameter.
+
+
+### -param prefmaxlen
+
+Specifies the size, in bytes, of the buffer pointed to by the <i>pbBuffer</i> parameter.
+
+
+### -param entriesread
+
+Pointer to an unsigned short integer that receives the count of elements actually enumerated. The count is valid only if the 
+<b>NetAccessEnum</b> function returns <b>NERR_Success</b> or <b>ERROR_MORE_DATA</b>.
+
+
+### -param totalentries
+
+Pointer to an unsigned short integer that receives the total number of entries that could have been enumerated. The count is valid only if the 
+<b>NetAccessEnum</b> function returns <b>NERR_Success</b> or <b>ERROR_MORE_DATA</b>.
+
+
+#### - pszServer
+
+Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 
 ## -returns

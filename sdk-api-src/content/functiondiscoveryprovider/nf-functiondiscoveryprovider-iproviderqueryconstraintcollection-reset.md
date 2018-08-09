@@ -7,7 +7,7 @@ old-location: ncd\iproviderqueryconstraintcollection_reset.htm
 old-project: fundisc
 ms.assetid: 56bd143b-b3eb-4273-854b-4d6876ad5e4d
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/30/2018
 ms.keywords: IProviderQueryConstraintCollection interface,Reset method, IProviderQueryConstraintCollection.Reset, IProviderQueryConstraintCollection::Reset, Reset, Reset method, Reset method,IProviderQueryConstraintCollection interface, functiondiscoveryprovider/IProviderQueryConstraintCollection::Reset, ncd.iproviderqueryconstraintcollection_reset
 ms.prod: windows
 ms.technology: windows-sdk

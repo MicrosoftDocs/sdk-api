@@ -4,10 +4,10 @@ title: McastApiStartup function
 author: windows-sdk-content
 description: The McastApiStartup function facilitates MADCAP-version negotiation between requesting clients and the version of MADCAP implemented on the system.
 old-location: madcap\mcastapistartup.htm
-old-project: Madcap
+old-project: madcap
 ms.assetid: edb7d666-cbd0-46f7-b63e-2a09ffc9e9e2
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: McastApiStartup, McastApiStartup function [MADCAP], _mdhcp_mcastapistartup, madcap.mcastapistartup, madcapcl/McastApiStartup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ The
 
 
 
-### -param Version
-
-TBD
-
-
-
-
-#### - pVersion [in]
+### -param Version [in]
 
 Pointer to the version of multicast (MCAST) that the client wishes to use. 
 

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue.htm
 old-project: direct3ddxgi
 ms.assetid: F1BC6752-F334-4E8C-BE42-B731635A799D
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/30/2018
 ms.keywords: IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], IDXGIInfoQueue interface [DXGI],described, direct3ddxgi.idxgiinfoqueue, dxgidebug/IDXGIInfoQueue
 ms.prod: windows
 ms.technology: windows-sdk

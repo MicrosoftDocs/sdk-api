@@ -7,7 +7,7 @@ old-location: iphlp\ip_unidirectional_adapter_address.htm
 old-project: iphlp
 ms.assetid: 225b93ae-e34f-4e5b-a699-1fdd342265c6
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: "*PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS, IP_UNIDIRECTIONAL_ADAPTER_ADDRESS, IP_UNIDIRECTIONAL_ADAPTER_ADDRESS structure [IP Helper], PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS, PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS structure pointer [IP Helper], _IP_UNIDIRECTIONAL_ADAPTER_ADDRESS, _iphlp_ip_unidirectional_adapter_address, ipexport/IP_UNIDIRECTIONAL_ADAPTER_ADDRESS, ipexport/PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS, iphlp.ip_unidirectional_adapter_address"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-			The 
+The 
 <b>IP_UNIDIRECTIONAL_ADAPTER_ADDRESS</b> structure stores the IPv4 addresses associated with a unidirectional adapter.
 
 
@@ -75,8 +74,7 @@ An array of variables of type <a href="https://msdn.microsoft.com/00d4823d-114d-
 
 
 
-The <b>IP_UNIDIRECTIONAL_ADAPTER_ADDRESS</b> structure is retrieved by the <a href="https://msdn.microsoft.com/32aa3a8e-ae74-4da9-bc8d-b28e270d9702">GetUnidirectionalAdapterInfo</a>
-		 function. A unidirectional adapter is an adapter that can receive
+The <b>IP_UNIDIRECTIONAL_ADAPTER_ADDRESS</b> structure is retrieved by the <a href="https://msdn.microsoft.com/32aa3a8e-ae74-4da9-bc8d-b28e270d9702">GetUnidirectionalAdapterInfo</a>function. A unidirectional adapter is an adapter that can receive
     IPv4 datagrams, but can't transmit them.
 
 

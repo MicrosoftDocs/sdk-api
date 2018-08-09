@@ -7,7 +7,7 @@ old-location: dshow\igraphbuilder_render.htm
 old-project: DirectShow
 ms.assetid: de3adac7-ff99-4415-9afc-e25ad420df59
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IGraphBuilder interface [DirectShow],Render method, IGraphBuilder.Render, IGraphBuilder::Render, IGraphBuilderRender, Render, Render method [DirectShow], Render method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_render, strmif/IGraphBuilder::Render
 ms.prod: windows
 ms.technology: windows-sdk

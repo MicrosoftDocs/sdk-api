@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_CoordinateSpace.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\coordinatespace.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: CoordinateSpace, CoordinateSpace enumeration [GDI+], CoordinateSpaceDevice, CoordinateSpacePage, CoordinateSpaceWorld, _gdiplus_ENUM_CoordinateSpace, gdiplus._gdiplus_ENUM_CoordinateSpace, gdiplusenums/CoordinateSpace, gdiplusenums/CoordinateSpaceDevice, gdiplusenums/CoordinateSpacePage, gdiplusenums/CoordinateSpaceWorld
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>CoordinateSpace</b> enumeration specifies coordinate spaces. This enumeration is used by the 
-			<a href="https://msdn.microsoft.com/library/ms535819(v=VS.85).aspx">Graphics::TransformPoints</a> method, which converts points from one coordinate space to another. For more information about coordinate spaces, see <a href="https://msdn.microsoft.com/library/ms536399(v=VS.85).aspx">Types of Coordinate Systems</a>. 
+			<a href="https://msdn.microsoft.com/en-us/library/ms535819(v=VS.85).aspx">Graphics::TransformPoints</a> method, which converts points from one coordinate space to another. For more information about coordinate spaces, see <a href="https://msdn.microsoft.com/en-us/library/ms536399(v=VS.85).aspx">Types of Coordinate Systems</a>. 
 
 
 ## -enum-fields
@@ -80,7 +80,7 @@ Specifies the device coordinate space.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535819(v=VS.85).aspx">Graphics::TransformPoints</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535819(v=VS.85).aspx">Graphics::TransformPoints</a>
  
 
  

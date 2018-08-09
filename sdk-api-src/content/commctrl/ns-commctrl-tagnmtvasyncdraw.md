@@ -7,7 +7,7 @@ old-location: controls\NMTVASYNCDRAW.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvasyncdraw.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ADRF_DRAWIMAGE, ADRF_DRAWNOTHING, ADRF_DRAWSYNC, NMTVASYNCDRAW, NMTVASYNCDRAW structure [Windows Controls], _shell_NMTVASYNCDRAW, _shell_NMTVASYNCDRAW_cpp, commctrl/NMTVASYNCDRAW, controls.NMTVASYNCDRAW, controls._shell_NMTVASYNCDRAW, tagNMTVASYNCDRAW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains an explanation of why the draw of an icon or overlay tree item failed. This structure is sent on a <a href="https://msdn.microsoft.com/library/Bb773500(v=VS.85).aspx">TVN_ASYNCDRAW</a> notification. Set the <b>dwRetFlags</b> member to indicate what action the control should take. Note that a draw can fail if there is no image; in other words, when the icon image has not been extracted.
+Contains an explanation of why the draw of an icon or overlay tree item failed. This structure is sent on a <a href="https://msdn.microsoft.com/en-us/library/Bb773500(v=VS.85).aspx">TVN_ASYNCDRAW</a> notification. Set the <b>dwRetFlags</b> member to indicate what action the control should take. Note that a draw can fail if there is no image; in other words, when the icon image has not been extracted.
 
 
 ## -struct-fields
@@ -60,18 +60,18 @@ Contains an explanation of why the draw of an icon or overlay tree item failed. 
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure.
 
 
 ### -field pimldp
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb761395(v=VS.85).aspx">IMAGELISTDRAWPARAMS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761395(v=VS.85).aspx">IMAGELISTDRAWPARAMS</a>*</b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb761395(v=VS.85).aspx">IMAGELISTDRAWPARAMS</a> structure describing the image that failed to draw.
+<a href="https://msdn.microsoft.com/en-us/library/Bb761395(v=VS.85).aspx">IMAGELISTDRAWPARAMS</a> structure describing the image that failed to draw.
 
 
 ### -field hr
@@ -92,7 +92,7 @@ Handle of the tree item that failed to draw.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
 
-Data for <b>hItem</b>. This is the same data for the item that is retrieved with the message <a href="https://msdn.microsoft.com/library/Bb773596(v=VS.85).aspx">TVM_GETITEM</a> using the appropriate <b>mask</b> in structure <a href="https://msdn.microsoft.com/library/Bb773456(v=VS.85).aspx">TVITEM</a>. This data is parent specific; the parent can store information that helps it identify the tree item or other information. Data is provided in <b>lParam</b> for convenience, so that the parent does not need to send message <b>TVM_GETITEM</b>.
+Data for <b>hItem</b>. This is the same data for the item that is retrieved with the message <a href="https://msdn.microsoft.com/en-us/library/Bb773596(v=VS.85).aspx">TVM_GETITEM</a> using the appropriate <b>mask</b> in structure <a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a>. This data is parent specific; the parent can store information that helps it identify the tree item or other information. Data is provided in <b>lParam</b> for convenience, so that the parent does not need to send message <b>TVM_GETITEM</b>.
 
 
 

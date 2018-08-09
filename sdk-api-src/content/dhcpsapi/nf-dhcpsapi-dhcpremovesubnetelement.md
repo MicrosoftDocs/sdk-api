@@ -7,7 +7,7 @@ old-location: dhcp\dhcpremovesubnetelement.htm
 old-project: dhcp
 ms.assetid: b27de25f-c96d-4881-9788-495ffe220d61
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpRemoveSubnetElement, DhcpRemoveSubnetElement function [DHCP], dhcp.dhcpremovesubnetelement, dhcpsapi/DhcpRemoveSubnetElement
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpRemoveSubnetElement</b> function removes an IPv4 subnet element from an IPv4 subnet defined on the DHCPv4 server.
+The <b>DhcpRemoveSubnetElement</b> function removes an IPv4 subnet element from an IPv4 subnet defined on the DHCPv4 server.
 
 
 ## -parameters
@@ -161,8 +160,7 @@ At least one multicast IPv4 address has been leased out to a MADCAP client.
 
 
 
-<a href="https://msdn.microsoft.com/2ec45a99-432d-4218-9048-81714ceff36b">
-        DHCP_FORCE_FLAG</a>
+<a href="https://msdn.microsoft.com/2ec45a99-432d-4218-9048-81714ceff36b">DHCP_FORCE_FLAG</a>
 
 
 

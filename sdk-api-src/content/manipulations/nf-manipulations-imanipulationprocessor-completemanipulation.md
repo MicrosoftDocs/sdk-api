@@ -7,7 +7,7 @@ old-location: wintouch\imanipulationprocessor_completemanipulation.htm
 old-project: wintouch
 ms.assetid: 01779628-1f46-4cea-90fa-1093e26e0285
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/06/2018
 ms.keywords: CompleteManipulation, CompleteManipulation method [Windows Touch], CompleteManipulation method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],CompleteManipulation method, IManipulationProcessor.CompleteManipulation, IManipulationProcessor::CompleteManipulation, manipulations/IManipulationProcessor::CompleteManipulation, wintouch.imanipulationprocessor_completemanipulation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,12 +74,10 @@ Returns <b>S_OK</b> on success, otherwise returns an error code such as <b>E_FAI
 
 
 
-
-    This method raises the ManipulationCompleted() event in response.
+This method raises the ManipulationCompleted() event in response.
   
 
-
-  During a Windows Touch gesture, manipulation gets started as soon as first touch input is sent for processing. 
+During a Windows Touch gesture, manipulation gets started as soon as first touch input is sent for processing. 
   If <b>CompleteManipulation</b> is called before the second touch input gets a chance to be processed, 
   the second touch input will start a new manipulation.  
   

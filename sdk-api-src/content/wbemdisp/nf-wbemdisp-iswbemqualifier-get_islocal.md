@@ -7,7 +7,7 @@ old-location: wmi\swbemqualifier_islocal.htm
 old-project: WmiSdk
 ms.assetid: ee403bcb-894f-47b7-88cc-d354e20b4e36
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemQualifier interface [Windows Management Instrumentation],IsLocal property, ISWbemQualifier.get_IsLocal, ISWbemQualifier::get_IsLocal, IsLocal property [Windows Management Instrumentation], IsLocal property [Windows Management Instrumentation],ISWbemQualifier interface, IsLocal property [Windows Management Instrumentation],SWbemQualifier object, SWbemQualifier object [Windows Management Instrumentation],IsLocal property, SWbemQualifier.IsLocal, _hmm_swbemqualifier.islocal, get_IsLocal, wmi.swbemqualifier_islocal
 ms.prod: windows
 ms.technology: windows-sdk

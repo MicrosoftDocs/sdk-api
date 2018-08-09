@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_cssetsamplers.htm
 old-project: direct3d11
 ms.assetid: 8b7f5c6d-0d9d-4b8b-a812-1e2b3b7386e9
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: CSSetSamplers, CSSetSamplers method [Direct3D 11], CSSetSamplers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSSetSamplers method, ID3D11DeviceContext.CSSetSamplers, ID3D11DeviceContext::CSSetSamplers, aa74392c-a8c7-cf2c-b761-f00d5b5b4fb9, d3d11/ID3D11DeviceContext::CSSetSamplers, direct3d11.id3d11devicecontext_cssetsamplers
 ms.prod: windows
 ms.technology: windows-sdk

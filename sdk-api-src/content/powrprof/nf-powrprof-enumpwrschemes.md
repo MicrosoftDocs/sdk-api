@@ -7,7 +7,7 @@ old-location: base\enumpwrschemes.htm
 old-project: power
 ms.assetid: 5e9e10b4-84c3-40ec-8de9-220d13795403
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: EnumPwrSchemes, EnumPwrSchemes function, _win32_enumpwrschemes, base.enumpwrschemes, powrprof/EnumPwrSchemes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,19 +61,14 @@ Enumerates all power schemes. For each power scheme enumerated, the function cal
 
 
 
-### -param lpfn
+### -param lpfn [in]
 
-TBD
+A pointer to a callback function to be called for each power scheme enumerated. For more information, see Remarks.
 
 
 ### -param lParam [in]
 
 A user-defined value to be passed to the callback function.
-
-
-#### - lpfnPwrSchemesEnumProc [in]
-
-A pointer to a callback function to be called for each power scheme enumerated. For more information, see Remarks.
 
 
 ## -returns

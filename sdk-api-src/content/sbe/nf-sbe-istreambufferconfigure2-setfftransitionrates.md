@@ -7,7 +7,7 @@ old-location: mstv\istreambufferconfigure2_setfftransitionrates.htm
 old-project: mstv
 ms.assetid: c6e7b27a-b217-4430-adf7-c7ebc7e17bf6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IStreamBufferConfigure2 interface [Microsoft TV Technologies],SetFFTransitionRates method, IStreamBufferConfigure2.SetFFTransitionRates, IStreamBufferConfigure2::SetFFTransitionRates, IStreamBufferConfigure2SetFFTransitionRates, SetFFTransitionRates, SetFFTransitionRates method [Microsoft TV Technologies], SetFFTransitionRates method [Microsoft TV Technologies],IStreamBufferConfigure2 interface, mstv.istreambufferconfigure2_setfftransitionrates, sbe/IStreamBufferConfigure2::SetFFTransitionRates
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,11 +105,9 @@ At higher playback rates, the Stream Buffer Engine drops frames in order to main
 
 <table>
 <tr>
-<th>
-              Playback rate
+<th>Playback rate
             </th>
-<th>
-              Behavior
+<th>Behavior
             </th>
 </tr>
 <tr>

@@ -7,7 +7,7 @@ old-location: security\isignercertificate_signatureinformation_property.htm
 old-project: seccertenroll
 ms.assetid: e870e17f-42e4-4548-b876-f5e0556bff0e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: ISignerCertificate interface [Security],SignatureInformation property, ISignerCertificate.SignatureInformation, ISignerCertificate.get_SignatureInformation, ISignerCertificate::SignatureInformation, ISignerCertificate::get_SignatureInformation, SignatureInformation property [Security], SignatureInformation property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::SignatureInformation, certenroll/ISignerCertificate::get_SignatureInformation, get_SignatureInformation, security.isignercertificate_signatureinformation_property
 ms.prod: windows
 ms.technology: windows-sdk

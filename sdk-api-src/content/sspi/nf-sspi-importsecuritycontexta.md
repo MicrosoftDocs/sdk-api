@@ -4,10 +4,10 @@ title: ImportSecurityContextA function
 author: windows-sdk-content
 description: Imports a security context. The security context must have been exported to the process calling ImportSecurityContext by a previous call to ExportSecurityContext.
 old-location: security\importsecuritycontext.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 0f8e65d0-69cf-42ba-a903-1922d731e5ec
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ImportSecurityContext, ImportSecurityContext function [Security], ImportSecurityContextA, ImportSecurityContextW, _ssp_importsecuritycontext, security.importsecuritycontext, sspi/ImportSecurityContext, sspi/ImportSecurityContextA, sspi/ImportSecurityContextW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -45,6 +45,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ImportSecurityContextA function
@@ -71,19 +72,14 @@ A string that contains the name of the <a href="https://msdn.microsoft.com/3e9d7
 A pointer to a buffer that contains the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">serialized</a> security context created by <a href="https://msdn.microsoft.com/4ebc7f37-b948-4c78-973f-0a74e55c7ee2">ExportSecurityContext</a>.
 
 
-### -param Token
+### -param Token [in, optional]
 
-TBD
+A handle to the context's token.
 
 
 ### -param phContext [out]
 
 A handle of the new security context created from <i>pPackedContext</i>. When you have finished using the context, delete it by calling the  <a href="https://msdn.microsoft.com/2a4dd697-ef90-4c37-ab74-0e5ab92794cd">DeleteSecurityContext</a> function.
-
-
-#### - pToken [in, optional]
-
-A handle to the context's token.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgr_associatefocus.htm
 old-project: TSF
 ms.assetid: e2e0ef4e-5254-42c3-aebf-9d46cdee7e67
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: AssociateFocus, AssociateFocus method [Text Services Framework], AssociateFocus method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],AssociateFocus method, ITfThreadMgr.AssociateFocus, ITfThreadMgr::AssociateFocus, _tsf_itfthreadmgr_associatefocus_ref, msctf/ITfThreadMgr::AssociateFocus, tsf.itfthreadmgr_associatefocus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -160,8 +160,7 @@ if(m_pPrevDocMgr)
 
 
 
-<a href="https://msdn.microsoft.com/e99e9bdb-6a3a-438d-8fac-92ef96c8dfdd">
-        ITfDocumentMgr
+<a href="https://msdn.microsoft.com/e99e9bdb-6a3a-438d-8fac-92ef96c8dfdd">ITfDocumentMgr
       </a>
 
 

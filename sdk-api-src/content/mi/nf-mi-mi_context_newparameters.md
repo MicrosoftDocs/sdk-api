@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_context_newparameters.htm
 old-project: wmi_v2
 ms.assetid: 8fb80e6f-627c-4897-9776-7454c0258809
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_Context_NewParameters, MI_Context_NewParameters function [Windows Management Infrastructure (MI)], mi/MI_Context_NewParameters, wmi.mi_newparameters, wmi_v2.mi_context_newparameters
 ms.prod: windows
 ms.technology: windows-sdk

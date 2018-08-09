@@ -7,7 +7,7 @@ old-location: shell\IFileDialogCustomize_StartVisualGroup.htm
 old-project: shell
 ms.assetid: 2626c820-3731-474d-9ddb-d2a8966c3d35
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],StartVisualGroup method, IFileDialogCustomize.StartVisualGroup, IFileDialogCustomize::StartVisualGroup, StartVisualGroup, StartVisualGroup method [Windows Shell], StartVisualGroup method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_StartVisualGroup, shell_IFileDialogCustomize_StartVisualGroup, shobjidl_core/IFileDialogCustomize::StartVisualGroup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Declares a visual group in the dialog. Subsequent calls to any "add" method add 
 
 Type: <b>DWORD</b>
 
-
-                  The ID of the visual group.
+The ID of the visual group.
                 
 
 
@@ -72,8 +71,7 @@ Type: <b>DWORD</b>
 
 Type: <b>LPCWSTR</b>
 
-
-                  A pointer to a buffer that contains text, as a null-terminated Unicode string, that appears next to the visual group.
+A pointer to a buffer that contains text, as a null-terminated Unicode string, that appears next to the visual group.
                 
 
 
@@ -92,8 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-                Controls will continue to be added to this visual group until you call <a href="https://msdn.microsoft.com/84aef9e1-2b70-4e8b-b261-cc49f8e65ead">IFileDialogCustomize::EndVisualGroup</a>.
+Controls will continue to be added to this visual group until you call <a href="https://msdn.microsoft.com/84aef9e1-2b70-4e8b-b261-cc49f8e65ead">IFileDialogCustomize::EndVisualGroup</a>.
               
 
 A visual group can be hidden and disabled like any other control, except that doing so affects all of the controls within it. Individual members of the visual group can also be hidden and disabled singly.

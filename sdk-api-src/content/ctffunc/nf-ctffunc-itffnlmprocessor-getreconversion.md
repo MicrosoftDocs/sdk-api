@@ -7,7 +7,7 @@ old-location: tsf\itffnlmprocessor_getreconversion.htm
 old-project: TSF
 ms.assetid: 21fcef3f-252c-4f67-a789-4527b8ee1b94
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetReconversion, GetReconversion method [Text Services Framework], GetReconversion method [Text Services Framework],ITfFnLMProcessor interface, ITfFnLMProcessor interface [Text Services Framework],GetReconversion method, ITfFnLMProcessor.GetReconversion, ITfFnLMProcessor::GetReconversion, _tsf_itffnlmprocessor_getreconversion_ref, ctffunc/ITfFnLMProcessor::GetReconversion, tsf.itffnlmprocessor_getreconversion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -142,8 +142,7 @@ This method is identical to <a href="https://msdn.microsoft.com/ed696088-c599-4c
 
 
 
-<a href="https://msdn.microsoft.com/e41ba461-6337-4feb-ba16-3942920ebb9f">
-        ITfCandidateList
+<a href="https://msdn.microsoft.com/e41ba461-6337-4feb-ba16-3942920ebb9f">ITfCandidateList
       </a>
 
 
@@ -152,8 +151,7 @@ This method is identical to <a href="https://msdn.microsoft.com/ed696088-c599-4c
 
 
 
-<a href="https://msdn.microsoft.com/ed696088-c599-4c83-968e-d09d9ae81c10">
-        ITfFnReconversion::GetReconversion
+<a href="https://msdn.microsoft.com/ed696088-c599-4c83-968e-d09d9ae81c10">ITfFnReconversion::GetReconversion
       </a>
 
 

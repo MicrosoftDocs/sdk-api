@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchorsink_onlayoutchange.htm
 old-project: TSF
 ms.assetid: 22629ca6-5701-4f6f-b797-bb71c8d31da6
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnLayoutChange method, ITextStoreAnchorSink.OnLayoutChange, ITextStoreAnchorSink::OnLayoutChange, OnLayoutChange, OnLayoutChange method [Text Services Framework], OnLayoutChange method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onlayoutchange_ref, textstor/ITextStoreAnchorSink::OnLayoutChange, tsf.itextstoreanchorsink_onlayoutchange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,20 +113,17 @@ If a call to <a href="https://msdn.microsoft.com/b8e21544-e5d2-4048-93aa-82a8756
 
 
 
-<a href="https://msdn.microsoft.com/b1940cac-7295-41c5-bd26-8be1d1fa4da9">
-        ITextStoreAnchor::GetActiveView
+<a href="https://msdn.microsoft.com/b1940cac-7295-41c5-bd26-8be1d1fa4da9">ITextStoreAnchor::GetActiveView
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/5567b53e-540e-41ce-b890-f2e4c5b06c57">
-        ITextStoreAnchor::GetAnchorFromPoint
+<a href="https://msdn.microsoft.com/5567b53e-540e-41ce-b890-f2e4c5b06c57">ITextStoreAnchor::GetAnchorFromPoint
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b8e21544-e5d2-4048-93aa-82a87562a70a">
-        ITextStoreAnchor::GetTextExt
+<a href="https://msdn.microsoft.com/b8e21544-e5d2-4048-93aa-82a87562a70a">ITextStoreAnchor::GetTextExt
       </a>
 
 

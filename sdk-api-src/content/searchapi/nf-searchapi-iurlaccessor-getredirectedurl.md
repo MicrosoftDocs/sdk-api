@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_GetRedirectedURL.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getredirectedurl.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: GetRedirectedURL, GetRedirectedURL method [search], GetRedirectedURL method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetRedirectedURL method, IUrlAccessor.GetRedirectedURL, IUrlAccessor::GetRedirectedURL, _search_IUrlAccessor_GetRedirectedURL, search._search_IUrlAccessor_GetRedirectedURL, searchapi/IUrlAccessor::GetRedirectedURL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-        Gets the redirected URL for the current item.
+Gets the redirected URL for the current item.
         
 
 
@@ -65,8 +64,7 @@ req.product: ADAM
 
 Type: <b>WCHAR[]</b>
 
-
-                Receives the redirected URL as a Unicode string, not including the terminating <b>NULL</b>.
+Receives the redirected URL as a Unicode string, not including the terminating <b>NULL</b>.
                 
 
 
@@ -74,9 +72,7 @@ Type: <b>WCHAR[]</b>
 
 Type: <b>DWORD</b>
 
-
-                Size in <b>TCHAR</b><b>s</b>
-                of <i>wszRedirectedURL</i>, not including the terminating <b>NULL</b>.
+Size in <b>TCHAR</b><b>s</b>of <i>wszRedirectedURL</i>, not including the terminating <b>NULL</b>.
                 
 
 
@@ -84,8 +80,7 @@ Type: <b>DWORD</b>
 
 Type: <b>DWORD*</b>
 
-
-                Receives a pointer to the number of
+Receives a pointer to the number of
                 <b>TCHAR</b><b>s</b> 
                 written to <i>wszRedirectedURL</i>,
                 not including the terminating <b>NULL</b>.
@@ -107,12 +102,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-             File URLs are not redirected. This method applies only to a content source of HTTP.
+File URLs are not redirected. This method applies only to a content source of HTTP.
             
 
-
-            If this method is implemented, the URL that is passed to <a href="https://msdn.microsoft.com/library/Bb231438(v=VS.85).aspx">ISearchProtocol::CreateAccessor</a> will be redirected to the value returned by this method. All subsequent relative URL links will be processed based on the redirected URL.
+If this method is implemented, the URL that is passed to <a href="https://msdn.microsoft.com/en-us/library/Bb231438(v=VS.85).aspx">ISearchProtocol::CreateAccessor</a> will be redirected to the value returned by this method. All subsequent relative URL links will be processed based on the redirected URL.
             
 
 

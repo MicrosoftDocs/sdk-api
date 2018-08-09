@@ -7,7 +7,7 @@ old-location: cos\imtscall.htm
 old-project: cossdk
 ms.assetid: dccf53c3-19d9-435b-91b7-98e41bd48e29
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IMTSCall, IMTSCall interface [COM+], IMTSCall interface [COM+],described, _cos_IMTSCall, comsvcs/IMTSCall, cos.imtscall
 ms.prod: windows
 ms.technology: windows-sdk

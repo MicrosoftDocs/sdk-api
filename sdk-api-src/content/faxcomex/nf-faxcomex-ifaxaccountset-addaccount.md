@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccountset_addaccount_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountset\addaccount.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: AddAccount, AddAccount method [Fax Service], AddAccount method [Fax Service],FaxAccountSet object, FaxAccountSet object [Fax Service],AddAccount method, FaxAccountSet.AddAccount, IFaxAccountSet.AddAccount, IFaxAccountSet::AddAccount, _mfax_faxaccountset.addaccount, fax._mfax_faxaccountset_addaccount, fax._mfax_faxaccountset_addaccount_vb
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-Adds a fax account to the fax server and returns the new <a href="https://msdn.microsoft.com/library/Aa359058(v=VS.85).aspx">IFaxAccount</a> object.
+Adds a fax account to the fax server and returns the new <a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a> object.
 
 
 ## -parameters
@@ -77,9 +77,9 @@ Specifies a null-terminated string that contains a name for the new account.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa359058(v=VS.85).aspx">IFaxAccount</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a>**</b>
 
-The address of a pointer to an <a href="https://msdn.microsoft.com/library/Aa359058(v=VS.85).aspx">IFaxAccount</a> object.
+The address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a> object.
 
 
 
@@ -100,11 +100,11 @@ When the new account is returned, all its values except the name are set to defa
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa358935(v=VS.85).aspx">FaxAccountSet</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358935(v=VS.85).aspx">FaxAccountSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa359014(v=VS.85).aspx">IFaxAccountSet</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359014(v=VS.85).aspx">IFaxAccountSet</a>
  
 
  

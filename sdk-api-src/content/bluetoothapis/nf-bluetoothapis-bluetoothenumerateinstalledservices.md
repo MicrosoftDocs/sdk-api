@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothenumerateinstalledservices.htm
 old-project: bluetooth
 ms.assetid: 6f32c776-3c4d-4b0f-ab81-1e880d979d3b
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: BluetoothEnumerateInstalledServices, BluetoothEnumerateInstalledServices function [Bluetooth], bluetooth.bluetoothenumerateinstalledservices, bluetoothapis/BluetoothEnumerateInstalledServices
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,17 +72,12 @@ Pointer to a <a href="https://msdn.microsoft.com/41b14980-8217-4948-b084-1f44051
 
 ### -param pcServiceInout
 
-TBD
+On input, the number of records pointed to by the <i>pGuidServices</i> parameter. On output, the number of valid records returned in the <i>pGuidServices</i> parameter. If pGuidServices is <b>NULL</b>, on output <i>pcServices</i> contains the number of services enabled.
 
 
 ### -param pGuidServices
 
 Pointer to a buffer in memory to receive GUIDs for installed services. The buffer must be at least *<i>pcServices</i> *<b>sizeof</b>(GUID) bytes.
-
-
-#### - pcServices
-
-On input, the number of records pointed to by the <i>pGuidServices</i> parameter. On output, the number of valid records returned in the <i>pGuidServices</i> parameter. If pGuidServices is <b>NULL</b>, on output <i>pcServices</i> contains the number of services enabled.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactProperties_SetString.htm
 old-project: wincontacts
 ms.assetid: 6e8379cc-a5dd-4ffd-b478-a14e649f5f0b
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 07/29/2018
 ms.keywords: IContactProperties interface [Windows Contacts],SetString method, IContactProperties.SetString, IContactProperties::SetString, SetString, SetString method [Windows Contacts], SetString method [Windows Contacts],IContactProperties interface, _wincontacts_IContactProperties_SetString, icontact/IContactProperties::SetString, wincontacts._wincontacts_IContactProperties_SetString
 ms.prod: windows
 ms.technology: windows-sdk

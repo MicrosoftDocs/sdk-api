@@ -7,7 +7,7 @@ old-location: controls\LVITEMINDEX.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvitemindex.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*PLVITEMINDEX, LVITEMINDEX, LVITEMINDEX structure [Windows Controls], PLVITEMINDEX, PLVITEMINDEX structure pointer [Windows Controls], _shell_LVITEMINDEX, _shell_LVITEMINDEX_cpp, commctrl/LVITEMINDEX, commctrl/PLVITEMINDEX, controls.LVITEMINDEX, controls._shell_LVITEMINDEX, tagLVITEMINDEX"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ The index of the group the item belongs to.
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/library/Bb774959(v=VS.85).aspx">ListView_GetItemIndexRect</a>, <a href="https://msdn.microsoft.com/library/Bb774986(v=VS.85).aspx">ListView_GetNextItemIndex</a>, and <a href="https://msdn.microsoft.com/library/Bb775097(v=VS.85).aspx">ListView_SetItemIndexState</a> macros. It is also used with the <a href="https://msdn.microsoft.com/library/Bb761046(v=VS.85).aspx">LVM_GETITEMINDEXRECT</a>, <a href="https://msdn.microsoft.com/library/Bb761059(v=VS.85).aspx">LVM_GETNEXTITEMINDEX</a>, and <a href="https://msdn.microsoft.com/library/Bb761190(v=VS.85).aspx">LVM_SETITEMINDEXSTATE</a> messages.
+This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774959(v=VS.85).aspx">ListView_GetItemIndexRect</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb774986(v=VS.85).aspx">ListView_GetNextItemIndex</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb775097(v=VS.85).aspx">ListView_SetItemIndexState</a> macros. It is also used with the <a href="https://msdn.microsoft.com/en-us/library/Bb761046(v=VS.85).aspx">LVM_GETITEMINDEXRECT</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb761059(v=VS.85).aspx">LVM_GETNEXTITEMINDEX</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb761190(v=VS.85).aspx">LVM_SETITEMINDEXSTATE</a> messages.
 
 
 

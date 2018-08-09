@@ -7,7 +7,7 @@ old-location: netmgmt\netuseadd.htm
 old-project: netmgmt
 ms.assetid: 22550c17-003a-4f59-80f0-58fa3e286844
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: 1, 2, NetUseAdd, NetUseAdd function [Network Management], _win32_netuseadd, lmuse/NetUseAdd, netmgmt.netuseadd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,35 +60,14 @@ The
 
 
 
-### -param servername
+### -param servername [in]
 
-TBD
+The UNC name of the computer on which to execute this function. If this parameter is <b>NULL</b>, then the local computer is used. If the <i>UncServerName</i> parameter specified is a remote computer, then the remote computer must support remote RPC calls using the legacy Remote Access Protocol mechanism. 
 
-
-### -param LevelFlags
-
-TBD
+This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
 
-### -param buf
-
-TBD
-
-
-### -param parm_err
-
-TBD
-
-
-
-
-#### - Buf [in]
-
-A pointer to the buffer that specifies the data. The format of this data depends on the value of the <i>Level</i> parameter. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>.
-
-
-#### - Level [in]
+### -param LevelFlags [in]
 
 A value that specifies the information level of the data. This parameter can be one of the following values. 
 
@@ -125,16 +104,15 @@ Specifies information about the connection between a local device and a shared r
  
 
 
-#### - ParmError [out]
+### -param buf [in]
+
+A pointer to the buffer that specifies the data. The format of this data depends on the value of the <i>Level</i> parameter. For more information, see 
+<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>.
+
+
+### -param parm_err [out]
 
 A pointer to a value that receives the index of the first member of the information structure in error when the ERROR_INVALID_PARAMETER error is returned. If this parameter is <b>NULL</b>, the index is not returned on error. For more information, see the following Remarks section.
-
-
-#### - UncServerName [in]
-
-The UNC name of the computer on which to execute this function. If this parameter is <b>NULL</b>, then the local computer is used. If the <i>UncServerName</i> parameter specified is a remote computer, then the remote computer must support remote RPC calls using the legacy Remote Access Protocol mechanism. 
-
-This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: MsiGetProductInfoA function
 author: windows-sdk-content
 description: The MsiGetProductInfo function returns product information for published and installed products.
 old-location: setup\msigetproductinfo.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 336a68d6-5239-4313-b6c7-8091907a0e35
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: INSTALLPROPERTY_HELPLINK, INSTALLPROPERTY_HELPTELEPHONE, INSTALLPROPERTY_INSTALLDATE, INSTALLPROPERTY_INSTALLEDLANGUAGE, INSTALLPROPERTY_INSTALLEDPRODUCTNAME, INSTALLPROPERTY_INSTALLLOCATION, INSTALLPROPERTY_INSTALLSOURCE, INSTALLPROPERTY_LOCALPACKAGE, INSTALLPROPERTY_PUBLISHER, INSTALLPROPERTY_URLINFOABOUT, INSTALLPROPERTY_URLUPDATEINFO, INSTALLPROPERTY_VERSIONMAJOR, INSTALLPROPERTY_VERSIONMINOR, INSTALLPROPERTY_VERSIONSTRING, MsiGetProductInfo, MsiGetProductInfo function, MsiGetProductInfoA, MsiGetProductInfoW, _msi_msigetproductinfo, msi/MsiGetProductInfo, msi/MsiGetProductInfoA, msi/MsiGetProductInfoW, setup.msigetproductinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-			The 
+The 
 <b>MsiGetProductInfo</b> function returns product information for published and installed products.
 
 
@@ -69,27 +68,7 @@ req.product: Rights Management Services client 1.0 or later
 Specifies the product code for the product.
 
 
-### -param szAttribute
-
-TBD
-
-
-### -param lpValueBuf [out]
-
-Pointer to a buffer that receives the property value. This parameter can be null.
-
-
-### -param pcchValueBuf [in, out]
-
- Pointer to a variable that specifies the size, in characters, of the buffer pointed to by the <i>lpValueBuf</i> parameter. On input, this is the full size of the buffer, including a space for a terminating null character. If the buffer passed in is too small, the count returned does not include the terminating null character. 
-
-
-
-
-If <i>lpValueBuf</i> is null, <i>pcchValueBuf</i> can be null. In this case, the function checks that the property is registered correctly with the product.
-
-
-#### - szProperty [in]
+### -param szAttribute [in]
 
 Specifies the property to be retrieved.  
 
@@ -352,6 +331,21 @@ the <a href="https://msdn.microsoft.com/4f495029-232c-4aa2-aecf-b400de2e8c4c">AR
 </tr>
 </table>
  
+
+
+### -param lpValueBuf [out]
+
+Pointer to a buffer that receives the property value. This parameter can be null.
+
+
+### -param pcchValueBuf [in, out]
+
+ Pointer to a variable that specifies the size, in characters, of the buffer pointed to by the <i>lpValueBuf</i> parameter. On input, this is the full size of the buffer, including a space for a terminating null character. If the buffer passed in is too small, the count returned does not include the terminating null character. 
+
+
+
+
+If <i>lpValueBuf</i> is null, <i>pcchValueBuf</i> can be null. In this case, the function checks that the property is registered correctly with the product.
 
 
 ## -returns

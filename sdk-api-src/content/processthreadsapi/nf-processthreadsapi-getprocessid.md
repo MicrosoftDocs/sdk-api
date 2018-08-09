@@ -7,7 +7,7 @@ old-location: base\getprocessid.htm
 old-project: procthread
 ms.assetid: 9a024147-8bfe-427a-af12-a63f23328e38
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: GetProcessId, GetProcessId function, base.getprocessid, processthreadsapi/GetProcessId, winbase/GetProcessId
 ms.prod: windows
 ms.technology: windows-sdk

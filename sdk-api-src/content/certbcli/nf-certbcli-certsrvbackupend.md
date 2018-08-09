@@ -7,7 +7,7 @@ old-location: security\certsrvbackupend.htm
 old-project: seccrypto
 ms.assetid: ebf87af3-df45-4440-9881-e2926b0c4f08
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CertSrvBackupEnd, CertSrvBackupEnd function [Security], _certsrv_certsrvbackupend, certbcli/CertSrvBackupEnd, security.certsrvbackupend
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>CertSrvBackupEnd</b> function ends a Certificate Services backup session.
+The <b>CertSrvBackupEnd</b> function ends a Certificate Services backup session.
 
 
 ## -parameters
@@ -68,8 +67,7 @@ A handle to a Certificate Services backup context.
 
 
 
-
-						The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
+The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 
 

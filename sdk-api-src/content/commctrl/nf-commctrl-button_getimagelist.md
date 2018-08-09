@@ -7,7 +7,7 @@ old-location: controls\Button_GetImageList.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getimagelist.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Button_GetImageList, Button_GetImageList macro [Windows Controls], _win32_Button_GetImageList, _win32_Button_GetImageList_cpp, commctrl/Button_GetImageList, controls.Button_GetImageList, controls._win32_Button_GetImageList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/library/Bb775953(v=VS.85).aspx">BUTTON_IMAGELIST</a> structure that describes the image list that is set for a button control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775963(v=VS.85).aspx">BCM_GETIMAGELIST</a> message explicitly. 
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Bb775953(v=VS.85).aspx">BUTTON_IMAGELIST</a> structure that describes the image list that is set for a button control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775963(v=VS.85).aspx">BCM_GETIMAGELIST</a> message explicitly. 
 
 
 ## -parameters
@@ -67,25 +67,16 @@ A handle to the button control.
 
 ### -param pbuttonImagelist
 
-TBD
-
-
-
-
-
-
-#### - pbuttonImageList
-
 Type: <b>PBUTTON_IMAGELIST</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Bb775953(v=VS.85).aspx">BUTTON_IMAGELIST</a> structure that contains image list information. 
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb775953(v=VS.85).aspx">BUTTON_IMAGELIST</a> structure that contains image list information. 
 
 
 ## -remarks
 
 
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 
@@ -95,11 +86,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/Bb775953(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775963(v=VS.85).aspx">BCM_GETIMAGELIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775963(v=VS.85).aspx">BCM_GETIMAGELIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775953(v=VS.85).aspx">BUTTON_IMAGELIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775953(v=VS.85).aspx">BUTTON_IMAGELIST</a>
 
 
 

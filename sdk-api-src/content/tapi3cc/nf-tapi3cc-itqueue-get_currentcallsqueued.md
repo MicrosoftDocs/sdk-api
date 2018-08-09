@@ -4,10 +4,10 @@ title: ITQueue::get_CurrentCallsQueued
 author: windows-sdk-content
 description: The get_CurrentCallsQueued method gets the number of incoming calls currently waiting.
 old-location: tapi3\itqueue_get_currentcallsqueued.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: cbc6e38c-c4e9-45ea-8c9a-9bb8116c1e2f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_CurrentCallsQueued method, ITQueue.get_CurrentCallsQueued, ITQueue::get_CurrentCallsQueued, _tapi3_itqueue_get_currentcallsqueued, get_CurrentCallsQueued, get_CurrentCallsQueued method [TAPI 2.2], get_CurrentCallsQueued method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_currentcallsqueued, tapi3cc/ITQueue::get_CurrentCallsQueued
 ms.prod: windows
 ms.technology: windows-sdk

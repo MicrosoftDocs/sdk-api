@@ -7,7 +7,7 @@ old-location: ncd\iproviderpropertyconstraintcollection_get.htm
 old-project: fundisc
 ms.assetid: 0388d895-07bb-490c-9fce-0821a51d765a
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/30/2018
 ms.keywords: Get, Get method, Get method,IProviderPropertyConstraintCollection interface, IProviderPropertyConstraintCollection interface,Get method, IProviderPropertyConstraintCollection.Get, IProviderPropertyConstraintCollection::Get, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Get, ncd.iproviderpropertyconstraintcollection_get
 ms.prod: windows
 ms.technology: windows-sdk

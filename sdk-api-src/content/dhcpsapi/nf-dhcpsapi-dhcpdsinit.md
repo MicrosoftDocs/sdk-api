@@ -7,7 +7,7 @@ old-location: dhcp\dhcpdsinit.htm
 old-project: dhcp
 ms.assetid: c622d492-91a8-4fd3-87ed-3545e7b83a0a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpDsInit, DhcpDsInit function [DHCP], dhcp.dhcpdsinit, dhcpsapi/DhcpDsInit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpDsInit</b> function initializes memory within the directory service for a new DHCP server process. 
+The <b>DhcpDsInit</b> function initializes memory within the directory service for a new DHCP server process. 
 
 
 ## -parameters

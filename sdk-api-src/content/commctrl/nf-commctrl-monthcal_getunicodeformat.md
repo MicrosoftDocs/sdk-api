@@ -7,7 +7,7 @@ old-location: controls\MonthCal_GetUnicodeFormat.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getunicodeformat.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: MonthCal_GetUnicodeFormat, MonthCal_GetUnicodeFormat macro [Windows Controls], _win32_MonthCal_GetUnicodeFormat, _win32_MonthCal_GetUnicodeFormat_cpp, commctrl/MonthCal_GetUnicodeFormat, controls.MonthCal_GetUnicodeFormat, controls._win32_MonthCal_GetUnicodeFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the Unicode character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760989(v=VS.85).aspx">MCM_GETUNICODEFORMAT</a> message explicitly. 
+Retrieves the Unicode character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760989(v=VS.85).aspx">MCM_GETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Handle to the control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774730(v=VS.85).aspx">MonthCal_SetUnicodeFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774730(v=VS.85).aspx">MonthCal_SetUnicodeFormat</a>
  
 
  

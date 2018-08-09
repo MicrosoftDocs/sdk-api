@@ -7,7 +7,7 @@ old-location: winprog\installperfdll.htm
 old-project: devnotes
 ms.assetid: d674f023-27e5-4ca2-926d-4fa02292ffbb
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: InstallPerfDll, InstallPerfDll function [Windows API], InstallPerfDllA, InstallPerfDllW, loadperf/InstallPerfDll, winprog.installperfdll
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 
 
 Installs performance counter strings, as defined in an input .ini file, into the system registry.
-<div class="alert"><b>Note</b>  Microsoft recommends that developers use <a href="https://msdn.microsoft.com/library/Aa372187(v=VS.85).aspx">LoadPerfCounterTextStrings</a> instead of <b>InstallPerfDll</b>. <b>LoadPerfCounterTextStrings</b> calls <b>InstallPerfDll</b> internally. </div><div> </div>
+<div class="alert"><b>Note</b>  Microsoft recommends that developers use <a href="https://msdn.microsoft.com/en-us/library/Aa372187(v=VS.85).aspx">LoadPerfCounterTextStrings</a> instead of <b>InstallPerfDll</b>. <b>LoadPerfCounterTextStrings</b> calls <b>InstallPerfDll</b> internally. </div><div> </div>
 
 ## -parameters
 
@@ -64,19 +64,14 @@ Installs performance counter strings, as defined in an input .ini file, into the
 The name of the system. This should be <b>NULL</b> because this function cannot be used to install remotely.
 
 
-### -param lpIniFile
+### -param lpIniFile [in]
 
-TBD
+The name of the initialization file that contains definitions to  add to the registry.
 
 
 ### -param dwFlags [in]
 
 This parameter can be <b>LOADPERF_FLAGS_DISPLAY_USER_MSGS</b> (<code>(ULONG_PTR) 8</code>).
-
-
-#### - szIniFile [in]
-
-The name of the initialization file that contains definitions to  add to the registry.
 
 
 ## -returns
@@ -102,7 +97,7 @@ This function has no associated import library; you must call it using the <a hr
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa372187(v=VS.85).aspx">LoadPerfCounterTextStrings</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa372187(v=VS.85).aspx">LoadPerfCounterTextStrings</a>
  
 
  

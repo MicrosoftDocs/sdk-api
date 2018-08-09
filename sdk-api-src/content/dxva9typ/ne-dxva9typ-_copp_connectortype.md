@@ -7,7 +7,7 @@ old-location: dshow\copp_connectortype.htm
 old-project: DirectShow
 ms.assetid: 318603fa-a220-4c96-bd80-610d88e22bbd
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: COPP_ConnectorType, COPP_ConnectorType , COPP_ConnectorType enumeration [DirectShow], COPP_ConnectorTypeEnumeration, COPP_ConnectorType_ComponentVideo, COPP_ConnectorType_CompositeVideo, COPP_ConnectorType_DVI, COPP_ConnectorType_D_JPN, COPP_ConnectorType_DisplayPortEmbedded, COPP_ConnectorType_DisplayPortExternal, COPP_ConnectorType_ForceDWORD, COPP_ConnectorType_HDMI, COPP_ConnectorType_Internal, COPP_ConnectorType_LVDS, COPP_ConnectorType_SDI, COPP_ConnectorType_SVideo, COPP_ConnectorType_TMDS, COPP_ConnectorType_UDIEmbedded, COPP_ConnectorType_UDIExternal, COPP_ConnectorType_Unknown, COPP_ConnectorType_VGA, _COPP_ConnectorType, dshow.copp_connectortype, dxva9typ/COPP_ConnectorType, dxva9typ/COPP_ConnectorType_ComponentVideo, dxva9typ/COPP_ConnectorType_CompositeVideo, dxva9typ/COPP_ConnectorType_DVI, dxva9typ/COPP_ConnectorType_D_JPN, dxva9typ/COPP_ConnectorType_DisplayPortEmbedded, dxva9typ/COPP_ConnectorType_DisplayPortExternal, dxva9typ/COPP_ConnectorType_ForceDWORD, dxva9typ/COPP_ConnectorType_HDMI, dxva9typ/COPP_ConnectorType_Internal, dxva9typ/COPP_ConnectorType_LVDS, dxva9typ/COPP_ConnectorType_SDI, dxva9typ/COPP_ConnectorType_SVideo, dxva9typ/COPP_ConnectorType_TMDS, dxva9typ/COPP_ConnectorType_UDIEmbedded, dxva9typ/COPP_ConnectorType_UDIExternal, dxva9typ/COPP_ConnectorType_Unknown, dxva9typ/COPP_ConnectorType_VGA
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,84 +64,84 @@ Specifies the type of physical connector.
 
 ### -field COPP_ConnectorType_Unknown
 
-
-            Unknown connector type.
+Unknown connector type.
           
 
 
 ### -field COPP_ConnectorType_VGA
 
-
-            VGA (Video Graphics Array) connector.
+VGA (Video Graphics Array) connector.
           
 
 
 ### -field COPP_ConnectorType_SVideo
 
-
-            S-Video connector.
+S-Video connector.
           
 
 
 ### -field COPP_ConnectorType_CompositeVideo
 
-
-            Composite video connector.
+Composite video connector.
           
 
 
 ### -field COPP_ConnectorType_ComponentVideo
 
-
-            Component video connector.
+Component video connector.
           
 
 
 ### -field COPP_ConnectorType_DVI
 
-
-            DVI (digital video interface) connector.
+DVI (digital video interface) connector.
           
 
 
 ### -field COPP_ConnectorType_HDMI
 
-
-            HDMI (high-definition multimedia interface) connector.
+HDMI (high-definition multimedia interface) connector.
           
 
 
 ### -field COPP_ConnectorType_LVDS
 
-
-            LVDS (Low voltage differential signaling) connector.
+LVDS (Low voltage differential signaling) connector.
           
 
 
 ### -field COPP_ConnectorType_TMDS
 
-
-            Reserved.
+Reserved.
           
 
 
 ### -field COPP_ConnectorType_D_JPN
 
-
-            Japanese D connector. (Connector conforming to the EIAJ RC-5237 standard.)
+Japanese D connector. (Connector conforming to the EIAJ RC-5237 standard.)
           
 
 
 ### -field COPP_ConnectorType_Internal
 
-
-            Internal connector. This flag can be combined with the other flags. This flag indicates that the connection between the graphics adapter and the display device is permanent and not accessible to the user.
+Internal connector. This flag can be combined with the other flags. This flag indicates that the connection between the graphics adapter and the display device is permanent and not accessible to the user.
           
 
 
 ### -field COPP_ConnectorType_ForceDWORD
 
 Reserved. Do not use.
+
+
+#### - COPP_ConnectorType_SDI
+
+Serial digital image connector.
+          
+
+
+#### - COPP_ConnectorType_DisplayPortExternal
+
+A display port that connects externally to a display device
 
 
 #### - COPP_ConnectorType_DisplayPortEmbedded
@@ -151,26 +151,14 @@ An embedded display port that connects internally to a display device. Also know
 Applications should not enable High-Bandwidth Digital Content Protection (HDCP)  for embedded display ports.
 
 
-#### - COPP_ConnectorType_DisplayPortExternal
+#### - COPP_ConnectorType_UDIExternal
 
-A display port that connects externally to a display device
-
-
-#### - COPP_ConnectorType_SDI
-
-
-            Serial digital image connector.
-          
+A Unified Display Interface (UDI) that connects externally to a display device.
 
 
 #### - COPP_ConnectorType_UDIEmbedded
 
 An embedded UDI that connects internally to a display device. Also known as an <i>integrated</i> UDI.
-
-
-#### - COPP_ConnectorType_UDIExternal
-
-A Unified Display Interface (UDI) that connects externally to a display device.
 
 
 ## -remarks

@@ -7,7 +7,7 @@ old-location: shell\IShellApp.htm
 old-project: shell
 ms.assetid: 2f56744c-a10e-423f-8b8f-c3257e560310
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IShellApp, IShellApp interface [Windows Shell], IShellApp interface [Windows Shell],described, inet_IShellApp, shappmgr/IShellApp, shell.IShellApp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ The <b>IShellApp</b> interface has these methods.
 <a href="https://msdn.microsoft.com/8842c12e-2b59-49d6-8140-5a402509a0dd">GetAppInfo</a>
 </td>
 <td align="left" width="63%">
-
-		Gets general information about an application.
+Gets general information about an application.
 		
 
 </td>
@@ -113,8 +112,7 @@ Returns information to the application that originates from a slow source. This 
 <a href="https://msdn.microsoft.com/338ba632-5749-4850-b982-2247f0d0dcc5">IsInstalled</a>
 </td>
 <td align="left" width="63%">
-
-		Gets a value indicating whether a specified application is currently installed.
+Gets a value indicating whether a specified application is currently installed.
 		
 
 </td>

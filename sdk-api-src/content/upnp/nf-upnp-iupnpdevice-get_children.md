@@ -1,0 +1,110 @@
+---
+UID: NF:upnp.IUPnPDevice.get_Children
+title: IUPnPDevice::get_Children
+author: windows-sdk-content
+description: The Children property specifies all the child devices of the device. The devices are stored in an IUPnPDevices collection.
+old-location: upnp\iupnpdevice_children.htm
+old-project: upnp
+ms.assetid: a8cdc66f-c5c0-4328-a8f2-f40d55a20a4f
+ms.author: windowssdkdev
+ms.date: 08/02/2018
+ms.keywords: IUPnPDevice interface [UPnP APIs],get_Children method, IUPnPDevice.get_Children, IUPnPDevice::get_Children, _upnp_iupnpdevice_children, get_Children, get_Children method [UPnP APIs], get_Children method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_children, upnp/IUPnPDevice::get_Children
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: upnp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: UI_EVENTPARAMS_COMMAND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPDevice.get_Children
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
+req.product: Windows UI
+---
+
+# IUPnPDevice::get_Children
+
+
+## -description
+
+
+The 
+<b>Children</b> property specifies all the child devices of the device. The devices are stored in an 
+<a href="https://msdn.microsoft.com/237715dc-2b5a-45b4-b006-d31c0b4e89e3">IUPnPDevices</a> collection.
+
+
+## -parameters
+
+
+
+
+### -param ppudChildren [out]
+
+Receives a reference to an 
+<a href="https://msdn.microsoft.com/237715dc-2b5a-45b4-b006-d31c0b4e89e3">IUPnPDevices</a> collection that enumerates the child devices of the device. This reference must be released when it is no longer required. 
+
+
+
+
+If the device has no child devices, the collection object has a length of zero.
+
+
+## -returns
+
+
+
+For C++: If this property's "get" method succeeds, the return value is S_OK. Otherwise, the method returns one of the COM error codes defined in WinError.h.
+
+
+
+
+## -remarks
+
+
+
+To determine if a device has any children (but not the actual number of children), use <a href="https://msdn.microsoft.com/18a7c7e0-389d-4fc4-b98c-4eb1afea4a7e">IUPnPDevice::HasChildren</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/18a7c7e0-389d-4fc4-b98c-4eb1afea4a7e">IUPnPDevice::HasChildren</a>
+
+
+
+<a href="https://msdn.microsoft.com/237715dc-2b5a-45b4-b006-d31c0b4e89e3">IUPnPDevices</a>
+ 
+
+ 
+

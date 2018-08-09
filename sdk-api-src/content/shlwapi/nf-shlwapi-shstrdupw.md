@@ -7,7 +7,7 @@ old-location: shell\SHStrDup.htm
 old-project: shell
 ms.assetid: 6f014fb4-7637-48a8-9bec-d3278c46a6d8
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHStrDup, SHStrDup function [Windows Shell], SHStrDupA, SHStrDupW, _win32_SHStrDup, shell.SHStrDup, shlwapi/SHStrDup, shlwapi/SHStrDupA, shlwapi/SHStrDupW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,11 @@ Makes a copy of a string in newly allocated memory.
 
 
 
-### -param psz
+### -param psz [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+A pointer to the null-terminated string to be copied.
 
 
 ### -param ppwsz [out]
@@ -80,13 +82,6 @@ A pointer to an allocated Unicode string that contains the result. <b>SHStrDup</
                     
 
 In the case of failure, this value is NULL.
-
-
-#### - pszSource [in]
-
-Type: <b>LPCTSTR</b>
-
-A pointer to the null-terminated string to be copied.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: fwp\ikeext_sa_enum_template0.htm
 old-project: fwp
 ms.assetid: 69bb80de-e512-4fbd-a62f-40bb211e6b26
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IKEEXT_SA_ENUM_TEMPLATE0, IKEEXT_SA_ENUM_TEMPLATE0 structure [Filtering], IKEEXT_SA_ENUM_TEMPLATE0_, fwp.ikeext_sa_enum_template0, iketypes/IKEEXT_SA_ENUM_TEMPLATE0
 ms.prod: windows
 ms.technology: windows-sdk

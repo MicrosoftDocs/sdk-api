@@ -4,10 +4,10 @@ title: SetTransactionInformation function
 author: windows-sdk-content
 description: Sets the transaction information for the specified transaction.
 old-location: fs\settransactioninformation.htm
-old-project: Ktm
+old-project: ktm
 ms.assetid: e33d221b-cd06-4f20-a4b5-407a04362ba0
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SetTransactionInformation, SetTransactionInformation function [Files], fs.settransactioninformation, ktmw32/SetTransactionInformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,14 +74,14 @@ TBD
 The user-defined description of this transaction.
 
 
-#### - IsolationFlags [in, optional]
-
-Reserved.
-
-
 #### - IsolationLevel [in, optional]
 
 Reserved; specify zero.
+
+
+#### - IsolationFlags [in, optional]
+
+Reserved.
 
 
 #### - Timeout [in, optional]

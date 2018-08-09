@@ -7,7 +7,7 @@ old-location: mscs\resutilinitializeresourcestatus.htm
 old-project: mscs
 ms.assetid: e4a887b0-619d-42e0-a828-6a8c8d8c6f47
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ResUtilInitializeResourceStatus, ResUtilInitializeResourceStatus macro [Failover Cluster], _wolf_resutilinitializeresourcestatus, mscs.resutilinitializeresourcestatus, resapi/ResUtilInitializeResourceStatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,16 +59,7 @@ Initializes a  <a href="https://msdn.microsoft.com/a5acd51f-714f-481b-85e2-ac82b
 
 
 
-### -param _resource_status_
-
-TBD
-
-
-
-
-
-
-#### - ResourceStatus [in]
+### -param _resource_status_ [in]
 
 Pointer to the  <a href="https://msdn.microsoft.com/a5acd51f-714f-481b-85e2-ac82b76d21bb">RESOURCE_STATUS</a> structure to initialize.
 

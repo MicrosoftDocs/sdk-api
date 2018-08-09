@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstoragecontrol_move.htm
 old-project: WMDM
 ms.assetid: 6a2cfca0-66e6-4358-99c1-161f7baccdd5
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Move method, IWMDMStorageControl.Move, IWMDMStorageControl::Move, IWMDMStorageControlMove, Move, Move method [windows Media Device Manager], Move method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Move, wmdm.iwmdmstoragecontrol_move
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Processing mode by which to invoke the <b>Move</b> operation and the type of mov
 
 <table>
 <tr>
-<th>
-                  Mode
+<th>Mode
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -91,11 +89,9 @@ The following table lists flags that indicate where the object is moved to. One 
 
 <table>
 <tr>
-<th>
-                  Flag
+<th>Flag
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

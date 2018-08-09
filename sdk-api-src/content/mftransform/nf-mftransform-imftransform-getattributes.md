@@ -7,7 +7,7 @@ old-location: mf\imftransform_getattributes.htm
 old-project: medfound
 ms.assetid: cb3ba2bc-550c-43b4-a69c-b546f2b92acc
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetAttributes, GetAttributes method [Media Foundation], GetAttributes method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetAttributes method, IMFTransform.GetAttributes, IMFTransform::GetAttributes, cb3ba2bc-550c-43b4-a69c-b546f2b92acc, mf.imftransform_getattributes, mftransform/IMFTransform::GetAttributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets the global attribute store for this Media Foundation transform (MFT).
+Gets the global attribute store for this Media Foundation transform (MFT).
         
 
 
@@ -64,8 +63,7 @@ req.product: GDI+ 1.1
 
 ### -param pAttributes [out]
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface. The caller must release the interface.
           
 
 
@@ -73,8 +71,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -89,8 +86,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -102,8 +98,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The MFT does not support attributes.
+The MFT does not support attributes.
               
 
 </td>
@@ -118,12 +113,10 @@ req.product: GDI+ 1.1
 
 
 
-
-        Use the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> pointer retrieved by this method to get or set attributes that apply to the entire MFT. To get the attribute store for an input stream, call <a href="https://msdn.microsoft.com/2698da30-6913-41a9-9d98-f124cf31e591">IMFTransform::GetInputStreamAttributes</a>. To get the attribute store for an output stream, call <a href="https://msdn.microsoft.com/d54ce20c-8ef9-4480-9ddd-908751fc0a7e">IMFTransform::GetOutputStreamAttributes</a>.
+Use the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> pointer retrieved by this method to get or set attributes that apply to the entire MFT. To get the attribute store for an input stream, call <a href="https://msdn.microsoft.com/2698da30-6913-41a9-9d98-f124cf31e591">IMFTransform::GetInputStreamAttributes</a>. To get the attribute store for an output stream, call <a href="https://msdn.microsoft.com/d54ce20c-8ef9-4480-9ddd-908751fc0a7e">IMFTransform::GetOutputStreamAttributes</a>.
       
 
-
-        Implementation of this method is optional unless the MFT needs to support a particular set of attributes. Exception: Hardware-based MFTs must implement this method. See <a href="https://msdn.microsoft.com/9922d403-5d0d-433f-ad9f-c86142ac0f46">Hardware MFTs</a>.
+Implementation of this method is optional unless the MFT needs to support a particular set of attributes. Exception: Hardware-based MFTs must implement this method. See <a href="https://msdn.microsoft.com/9922d403-5d0d-433f-ad9f-c86142ac0f46">Hardware MFTs</a>.
 
 
 

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_StringTrimming.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\stringtrimming.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: StringTrimming, StringTrimming enumeration [GDI+], StringTrimmingCharacter, StringTrimmingEllipsisCharacter, StringTrimmingEllipsisPath, StringTrimmingEllipsisWord, StringTrimmingNone, StringTrimmingWord, _gdiplus_ENUM_StringTrimming, gdiplus._gdiplus_ENUM_StringTrimming, gdiplusenums/StringTrimming, gdiplusenums/StringTrimmingCharacter, gdiplusenums/StringTrimmingEllipsisCharacter, gdiplusenums/StringTrimmingEllipsisPath, gdiplusenums/StringTrimmingEllipsisWord, gdiplusenums/StringTrimmingNone, gdiplusenums/StringTrimmingWord
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,31 +103,31 @@ Trimming affects only the last visible or partly visible (due to clipping) line 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535759(v=VS.85).aspx">DrawString Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535759(v=VS.85).aspx">DrawString Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533823(v=VS.85).aspx">Formatting Text</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533823(v=VS.85).aspx">Formatting Text</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535787(v=VS.85).aspx">MeasureString Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535787(v=VS.85).aspx">MeasureString Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534177(v=VS.85).aspx">StringAlignment</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534177(v=VS.85).aspx">StringAlignment</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534179(v=VS.85).aspx">StringDigitSubstitute</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534179(v=VS.85).aspx">StringDigitSubstitute</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534731(v=VS.85).aspx">StringFormat::SetTrimming</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534731(v=VS.85).aspx">StringFormat::SetTrimming</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534181(v=VS.85).aspx">StringFormatFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534181(v=VS.85).aspx">StringFormatFlags</a>
  
 
  

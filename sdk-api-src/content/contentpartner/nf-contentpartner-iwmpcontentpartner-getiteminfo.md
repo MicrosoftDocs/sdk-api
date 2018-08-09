@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_getiteminfo.htm
 old-project: WMP
 ms.assetid: b7355c45-fb58-45f4-b7e4-3dd2c3f8c918
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/30/2018
 ms.keywords: GetItemInfo, GetItemInfo method [Windows Media Player], GetItemInfo method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetItemInfo method, IWMPContentPartner.GetItemInfo, IWMPContentPartner::GetItemInfo, IWMPContentPartnerGetItemInfo, contentpartner/IWMPContentPartner::GetItemInfo, wmp.iwmpcontentpartner_getiteminfo
 ms.prod: windows
 ms.technology: windows-sdk

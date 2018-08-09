@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestresourcesenumerator_movenext.htm
 old-project: appxpkg
 ms.assetid: CD5A7FF9-A28E-4857-AE7B-92F8EEBA0235
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: IAppxManifestResourcesEnumerator interface [App packaging and management],MoveNext method, IAppxManifestResourcesEnumerator.MoveNext, IAppxManifestResourcesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxManifestResourcesEnumerator interface, appxpackaging/IAppxManifestResourcesEnumerator::MoveNext, appxpkg.iappxmanifestresourcesenumerator_movenext
 ms.prod: windows
 ms.technology: windows-sdk

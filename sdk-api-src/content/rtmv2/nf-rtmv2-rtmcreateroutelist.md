@@ -7,7 +7,7 @@ old-location: rras\rtmcreateroutelist.htm
 old-project: rras
 ms.assetid: 6fa732a8-6c2f-4034-ab13-d64845fab14c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RtmCreateRouteList, RtmCreateRouteList function [RAS], _rtmv2ref_rtmcreateroutelist, rras.rtmcreateroutelist, rtmv2/RtmCreateRouteList
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturerelationshipreferenceenumerator.htm
 old-project: OPC
 ms.assetid: aa4c6e8b-1a1f-464b-885e-bee0976afafc
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcSignatureRelationshipReferenceEnumerator, IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions], IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions],described, msopc/IOpcSignatureRelationshipReferenceEnumerator, opc.iopcsignaturerelationshipreferenceenumerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-	   A read-only enumerator of <a href="https://msdn.microsoft.com/24aebfff-6b4f-49cb-988f-670ffed7d815">IOpcSignatureRelationshipReference</a> interface pointers.
+A read-only enumerator of <a href="https://msdn.microsoft.com/24aebfff-6b4f-49cb-988f-670ffed7d815">IOpcSignatureRelationshipReference</a> interface pointers.
 
 
 ## -inheritance
@@ -113,9 +112,7 @@ Moves the current position of the enumerator to the previous <a href="https://ms
 
 
 
-
-  		When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the  <a href="https://msdn.microsoft.com/6f004339-0cbf-4125-a09e-3b94ee22a0df">MoveNext</a>
-          method after creating the enumerator.
+When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the  <a href="https://msdn.microsoft.com/6f004339-0cbf-4125-a09e-3b94ee22a0df">MoveNext</a>method after creating the enumerator.
 
 Changes to the set will invalidate the enumerator and all subsequent calls to it will fail.
 

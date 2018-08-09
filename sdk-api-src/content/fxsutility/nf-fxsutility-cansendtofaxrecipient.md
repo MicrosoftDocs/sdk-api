@@ -7,7 +7,7 @@ old-location: fax\_mfax_cansendtofaxrecipient.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\shellextension\f\faxshell_cansendtofaxrecipient.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: CanSendToFaxRecipient, CanSendToFaxRecipient function [Fax Service], _mfax_cansendtofaxrecipient, fax._mfax_cansendtofaxrecipient, fxsutility/CanSendToFaxRecipient
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-Called by an application to determine whether to make a menu item or other UI available that calls the Windows Vista function <a href="https://msdn.microsoft.com/library/Aa358864(v=VS.85).aspx">SendToFaxRecipient</a>. 
+Called by an application to determine whether to make a menu item or other UI available that calls the Windows Vista function <a href="https://msdn.microsoft.com/en-us/library/Aa358864(v=VS.85).aspx">SendToFaxRecipient</a>. 
 
 
 ## -parameters
@@ -82,8 +82,7 @@ Type: <b>BOOL</b>
 
 
 
-
-        Typically, this function is called when the application launches.  
+Typically, this function is called when the application launches.  
         
 
 
@@ -94,11 +93,11 @@ Type: <b>BOOL</b>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa358864(v=VS.85).aspx">SendToFaxRecipient</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358864(v=VS.85).aspx">SendToFaxRecipient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa358863(v=VS.85).aspx">Shell Fax Extension Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358863(v=VS.85).aspx">Shell Fax Extension Functions</a>
  
 
  

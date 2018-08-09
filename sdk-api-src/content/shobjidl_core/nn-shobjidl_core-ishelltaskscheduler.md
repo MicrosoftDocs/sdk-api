@@ -7,7 +7,7 @@ old-location: shell\IShellTaskScheduler.htm
 old-project: shell
 ms.assetid: 4898da7b-3d63-481f-a63a-d4f2554cfc8e
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IShellTaskScheduler, IShellTaskScheduler interface [Windows Shell], IShellTaskScheduler interface [Windows Shell],described, _win32_IShellTaskScheduler, shell.IShellTaskScheduler, shobjidl_core/IShellTaskScheduler
 ms.prod: windows
 ms.technology: windows-sdk

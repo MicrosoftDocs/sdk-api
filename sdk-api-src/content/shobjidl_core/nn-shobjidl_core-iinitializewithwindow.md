@@ -7,7 +7,7 @@ old-location: shell\IInitializeWithWindow.htm
 old-project: shell
 ms.assetid: 8421BFA0-0655-447c-99BB-3D4F049C572D
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IInitializeWithWindow, IInitializeWithWindow interface [Windows Shell], IInitializeWithWindow interface [Windows Shell],described, shell.IInitializeWithWindow, shobjidl_core/IInitializeWithWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,7 +101,7 @@ This interface is implemented by the following objects. Note that this is necess
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=267494">Windows.Storage.Pickers.FileOpenPicker</a></li>
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=267495">Windows.Storage.Pickers.FileSavePicker</a></li>
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=267496">Windows.Storage.Pickers.FolderPicker</a></li>
-<li><a href="https://msdn.microsoft.com/library/Bb776903(v=VS.85).aspx">CLSID_DragDropHelper</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Bb776903(v=VS.85).aspx">CLSID_DragDropHelper</a></li>
 </ul>
 
 

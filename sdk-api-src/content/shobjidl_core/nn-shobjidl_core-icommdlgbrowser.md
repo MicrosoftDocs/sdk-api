@@ -7,7 +7,7 @@ old-location: shell\ICommDlgBrowser.htm
 old-project: shell
 ms.assetid: bf89ac6e-6c2e-4944-885c-9ab62f58fe71
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ICommDlgBrowser, ICommDlgBrowser interface [Windows Shell], ICommDlgBrowser interface [Windows Shell],described, _win32_ICommDlgBrowser, shell.ICommDlgBrowser, shobjidl_core/ICommDlgBrowser
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,14 +103,12 @@ Called after a state, identified by the <i>uChange</i> parameter, has changed in
 
 
 
-<div class="alert"><b>Note</b>  
-        In Windows XP and earlier, this interface was defined in Shlobj.h.
+<div class="alert"><b>Note</b>  In Windows XP and earlier, this interface was defined in Shlobj.h.
       </div>
 <div> </div>
 This interface is implemented only by the common file dialog boxes.
 
-
-        Use <b>ICommDlgBrowser</b> when you need to provide special behavior while hosted inside the common dialog boxes.
+Use <b>ICommDlgBrowser</b> when you need to provide special behavior while hosted inside the common dialog boxes.
       
 
 

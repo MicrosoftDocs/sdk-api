@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_Constructors.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsconstructors.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Graphics, Graphics constructors [GDI+], Graphics.Graphics, Graphics.Graphics(const Graphics &), Graphics::Graphics, Graphics::Graphics(const Graphics &), _gdiplus_CLASS_Graphics_Constructors, gdiplus._gdiplus_CLASS_Graphics_Constructors, gdiplusgraphics/Graphics
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,37 +60,37 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536160(v=VS.85).aspx">Graphics(HDC)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536160(v=VS.85).aspx">Graphics(HDC)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms536160(v=VS.85).aspx">Graphics::Graphics</a> object that is associated with a specified device context.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536160(v=VS.85).aspx">Graphics::Graphics</a> object that is associated with a specified device context.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536159(v=VS.85).aspx">Graphics(Image*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536159(v=VS.85).aspx">Graphics(Image*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms536159(v=VS.85).aspx">Graphics::Graphics</a> object that is associated with an <a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a> object.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536159(v=VS.85).aspx">Graphics::Graphics</a> object that is associated with an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536162(v=VS.85).aspx">Graphics(HWND,BOOL)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536162(v=VS.85).aspx">Graphics(HWND,BOOL)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms536162(v=VS.85).aspx">Graphics::Graphics</a> object that is associated with a specified window.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536162(v=VS.85).aspx">Graphics::Graphics</a> object that is associated with a specified window.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536161(v=VS.85).aspx">Graphics(HDC,HANDLE)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536161(v=VS.85).aspx">Graphics(HDC,HANDLE)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms536161(v=VS.85).aspx">Graphics::Graphics</a> object that is associated with a specified device context and a specified device.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536161(v=VS.85).aspx">Graphics::Graphics</a> object that is associated with a specified device context and a specified device.
 
 </td>
 </tr>

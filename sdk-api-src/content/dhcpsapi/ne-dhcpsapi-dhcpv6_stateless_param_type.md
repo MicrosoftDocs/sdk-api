@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6_stateless_param_type.htm
 old-project: dhcp
 ms.assetid: 8670c69b-1fc0-4b60-b5cc-a616d56c9319
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DHCPV6_STATELESS_PARAM_TYPE, DHCPV6_STATELESS_PARAM_TYPE enumeration [DHCP], DhcpStatelessPurgeInterval, DhcpStatelessStatus, dhcp.dhcpv6_stateless_param_type, dhcpsapi/DHCPV6_STATELESS_PARAM_TYPE, dhcpsapi/DhcpStatelessPurgeInterval, dhcpsapi/DhcpStatelessStatus
 ms.prod: windows
 ms.technology: windows-sdk

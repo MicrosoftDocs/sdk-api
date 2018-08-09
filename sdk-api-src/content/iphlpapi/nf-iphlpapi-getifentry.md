@@ -7,7 +7,7 @@ old-location: iphlp\getifentry.htm
 old-project: iphlp
 ms.assetid: bf16588d-3756-469e-afa2-e2e3dd537047
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: GetIfEntry, GetIfEntry function [IP Helper], _iphlp_getifentry, iphlp.getifentry, iphlpapi/GetIfEntry
 ms.prod: windows
 ms.technology: windows-sdk

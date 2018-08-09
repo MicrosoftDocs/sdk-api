@@ -4,10 +4,10 @@ title: Matrix4x4F::Determinant
 author: windows-sdk-content
 description: Calculates the determinant of the matrix.
 old-location: direct2d\matrix4x4f_determinant.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 900531EB-F3D4-4971-984E-A355E79D6577
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: Determinant, Determinant method [Direct2D], Determinant method [Direct2D],Matrix4x4F interface, Matrix4x4F interface [Direct2D],Determinant method, Matrix4x4F.Determinant, Matrix4x4F::Determinant, d2d1_1helper/Matrix4x4F::Determinant, direct2d.matrix4x4f_determinant
 ms.prod: windows
 ms.technology: windows-sdk

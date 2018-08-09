@@ -7,7 +7,7 @@ old-location: ics\inetconnectionprops_get_devicename.htm
 old-project: ics
 ms.assetid: 4c24c5a6-d856-4c62-a98e-33e4fc216f83
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_DeviceName method, INetConnectionProps.get_DeviceName, INetConnectionProps::get_DeviceName, _ics_inetconnectionprops_get_devicename, get_DeviceName, get_DeviceName method [ICS/ICF], get_DeviceName method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_devicename, netcon/INetConnectionProps::get_DeviceName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ The
 ### -param pbstrDeviceName [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a> variable that, on successful return, receives the name of the device associated with the connection.
+<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a> variable that, on successful return, receives the name of the device associated with the connection.
 
 
 ## -returns

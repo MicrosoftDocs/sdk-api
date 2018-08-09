@@ -4,10 +4,10 @@ title: "_OFSTRUCT"
 author: windows-sdk-content
 description: Contains information about a file that the OpenFile function opened or attempted to open.
 old-location: fs\ofstruct_str.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 195581e5-e962-4756-a33c-b1e898b5b0e7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPOFSTRUCT, *POFSTRUCT, OFSTRUCT, OFSTRUCT structure [Files], POFSTRUCT, POFSTRUCT structure pointer [Files], _OFSTRUCT, _win32_ofstruct_str, base.ofstruct_str, fs.ofstruct_str, winbase/OFSTRUCT, winbase/POFSTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk

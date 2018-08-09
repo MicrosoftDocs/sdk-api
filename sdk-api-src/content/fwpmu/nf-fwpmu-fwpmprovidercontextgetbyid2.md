@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidercontextgetbyid2.htm
 old-project: fwp
 ms.assetid: 50578a7a-d869-4fad-a159-f69a234069e6
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmProviderContextGetById2, FwpmProviderContextGetById2 function [Filtering], fwp.fwpmprovidercontextgetbyid2, fwpmu/FwpmProviderContextGetById2
 ms.prod: windows
 ms.technology: windows-sdk

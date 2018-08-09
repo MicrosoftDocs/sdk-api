@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiontabletransfereffect_setgreentablevalue_ove
 old-project: directcomp
 ms.assetid: feccfc61-31e6-362a-1e81-0650736b962a
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IDCompositionTableTransferEffect::SetGreenTableValue, SetGreenTableValue, SetGreenTableValue methods [DirectComposition], dcomp/SetGreenTableValue, directcomp.idcompositiontabletransfereffect_setgreentablevalue_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

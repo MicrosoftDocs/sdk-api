@@ -7,7 +7,7 @@ old-location: mf\imfsourceresolver_createobjectfromurl.htm
 old-project: medfound
 ms.assetid: b8f751b1-6456-4d67-839d-ecfa388e8d71
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: CreateObjectFromURL, CreateObjectFromURL method [Media Foundation], CreateObjectFromURL method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],CreateObjectFromURL method, IMFSourceResolver.CreateObjectFromURL, IMFSourceResolver::CreateObjectFromURL, b8f751b1-6456-4d67-839d-ecfa388e8d71, mf.imfsourceresolver_createobjectfromurl, mfidl/IMFSourceResolver::CreateObjectFromURL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Creates a media source or a byte stream from a URL. This method is synchronous.
+Creates a media source or a byte stream from a URL. This method is synchronous.
         
 
 
@@ -64,36 +63,31 @@ req.product: GDI+ 1.1
 
 ### -param pwszURL [in]
 
-
-            Null-terminated string that contains the URL to resolve.
+Null-terminated string that contains the URL to resolve.
           
 
 
 ### -param dwFlags [in]
 
-
-            Bitwise OR of one or more flags. See <a href="https://msdn.microsoft.com/fe0b9090-5d2a-41a4-a806-57c874d3b3a2">Source Resolver Flags</a>.
+Bitwise OR of one or more flags. See <a href="https://msdn.microsoft.com/fe0b9090-5d2a-41a4-a806-57c874d3b3a2">Source Resolver Flags</a>.
           See remarks below.
 
 
 ### -param pProps [in]
 
-
-            Pointer to the <b>IPropertyStore</b> interface of a property store. The method passes the property store to the scheme handler or byte-stream handler that creates the object. The handler can use the property store to configure the object. This parameter can be <b>NULL</b>. For more information, see <a href="https://msdn.microsoft.com/1378bbe6-be94-4be1-b428-5ec58dabd1fa">Configuring a Media Source</a>.
+Pointer to the <b>IPropertyStore</b> interface of a property store. The method passes the property store to the scheme handler or byte-stream handler that creates the object. The handler can use the property store to configure the object. This parameter can be <b>NULL</b>. For more information, see <a href="https://msdn.microsoft.com/1378bbe6-be94-4be1-b428-5ec58dabd1fa">Configuring a Media Source</a>.
           
 
 
 ### -param pObjectType [out]
 
-
-            Receives a member of the <a href="https://msdn.microsoft.com/e919ae78-e3a5-42c5-b4e0-186e7e4fe54a">MF_OBJECT_TYPE</a> enumeration, specifying the type of object that was created.
+Receives a member of the <a href="https://msdn.microsoft.com/e919ae78-e3a5-42c5-b4e0-186e7e4fe54a">MF_OBJECT_TYPE</a> enumeration, specifying the type of object that was created.
           
 
 
 ### -param ppObject [out]
 
-
-            Receives a pointer to the object's <b>IUnknown</b> interface. The caller must release the interface.
+Receives a pointer to the object's <b>IUnknown</b> interface. The caller must release the interface.
           
 
 
@@ -115,8 +109,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -128,8 +121,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The <i>dwFlags</i> parameter contains mutually exclusive flags.
+The <i>dwFlags</i> parameter contains mutually exclusive flags.
               
 
 </td>
@@ -141,8 +133,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The URL scheme is not supported.
+The URL scheme is not supported.
               
 
 </td>

@@ -4,10 +4,10 @@ title: IFsrmPropertyBag::get_RelativePath
 author: windows-sdk-content
 description: The relative path to the file.
 old-location: fsrm\ifsrmpropertybag_relativepath.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 4304228a-5e8e-4e2d-9fc9-48777cb23251
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/01/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],RelativePath property, IFsrmPropertyBag.RelativePath, IFsrmPropertyBag.get_RelativePath, IFsrmPropertyBag::RelativePath, IFsrmPropertyBag::get_RelativePath, RelativePath property [File Server Resource Manager], RelativePath property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_relativepath, fsrm.ifsrmpropertybag_relativepath, fsrmpipeline/IFsrmPropertyBag::RelativePath, fsrmpipeline/IFsrmPropertyBag::get_RelativePath, get_RelativePath
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: p2p\peergraphdeleterecord.htm
 old-project: p2psdk
 ms.assetid: d6ecc762-8702-4366-81fc-c2b168dc8cb3
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphDeleteRecord, PeerGraphDeleteRecord function [Peer Networking], p2p.peergraphdeleterecord, p2p/PeerGraphDeleteRecord
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphDeleteRecord</b> function marks a record as deleted within a peer graph.  The record is not  available on a local node to function calls, for example, calls   to <a href="https://msdn.microsoft.com/5e777c02-980c-42f9-add7-9568c86c2efe">PeerGraphGetRecord</a> and  <a href="https://msdn.microsoft.com/528c7172-56ed-4e14-991a-69e9fde7b227">PeerGraphEnumRecords</a>.
+The <b>PeerGraphDeleteRecord</b> function marks a record as deleted within a peer graph.  The record is not  available on a local node to function calls, for example, calls   to <a href="https://msdn.microsoft.com/5e777c02-980c-42f9-add7-9568c86c2efe">PeerGraphGetRecord</a> and  <a href="https://msdn.microsoft.com/528c7172-56ed-4e14-991a-69e9fde7b227">PeerGraphEnumRecords</a>.
 
 
 ## -parameters

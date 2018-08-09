@@ -7,7 +7,7 @@ old-location: ad\ds_repsyncall_errinfo.htm
 old-project: ad
 ms.assetid: 70af4e3e-1f0e-49c5-b8c6-5e89114ed4ea
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: "*PDS_REPSYNCALL_ERRINFOA, DS_REPSYNCALL_ERRINFO, DS_REPSYNCALL_ERRINFO structure [Active Directory], DS_REPSYNCALL_ERRINFOA, DS_REPSYNCALL_ERRINFOW, PDS_REPSYNCALL_ERRINFO, PDS_REPSYNCALL_ERRINFO structure pointer [Active Directory], _glines_ds_repsyncall_errinfo, ad.ds__repsyncall__errinfo, ad.ds_repsyncall_errinfo, ntdsapi/DS_REPSYNCALL_ERRINFO, ntdsapi/DS_REPSYNCALL_ERRINFOA, ntdsapi/DS_REPSYNCALL_ERRINFOW, ntdsapi/PDS_REPSYNCALL_ERRINFO"
 ms.prod: windows
 ms.technology: windows-sdk

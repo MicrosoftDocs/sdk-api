@@ -7,7 +7,7 @@ old-location: ad\dsgetdcname.htm
 old-project: ad
 ms.assetid: da8b2983-5e45-40b0-b552-c9b3a1d8ae94
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DS_AVOID_SELF, DS_BACKGROUND_ONLY, DS_DIRECTORY_SERVICE_6_REQUIRED, DS_DIRECTORY_SERVICE_8_REQUIRED, DS_DIRECTORY_SERVICE_PREFERRED, DS_DIRECTORY_SERVICE_REQUIRED, DS_FORCE_REDISCOVERY, DS_GC_SERVER_REQUIRED, DS_GOOD_TIMESERV_PREFERRED, DS_IP_REQUIRED, DS_IS_DNS_NAME, DS_IS_FLAT_NAME, DS_KDC_REQUIRED, DS_ONLY_LDAP_NEEDED, DS_PDC_REQUIRED, DS_RETURN_DNS_NAME, DS_RETURN_FLAT_NAME, DS_TIMESERV_REQUIRED, DS_TRY_NEXTCLOSEST_SITE, DS_WEB_SERVICE_REQUIRED, DS_WRITABLE_REQUIRED, DsGetDcName, DsGetDcName function [Active Directory], DsGetDcNameA, DsGetDcNameW, _glines_dsgetdcname, ad.dsgetdcname, dsgetdc/DsGetDcName, dsgetdc/DsGetDcNameA, dsgetdc/DsGetDcNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -306,16 +306,6 @@ Pointer to a null-terminated string that specifies the name of the server to pro
       used.
 
 
-#### - DomainGuid [in]
-
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> structure that specifies the 
-    <b>GUID</b> of the domain queried. If <i>DomainGuid</i> is not 
-  <b>NULL</b> and the domain specified by <i>DomainName</i> or 
-  <i>ComputerName</i> cannot be found, 
-  <b>DsGetDcName</b> attempts to locate a domain controller in the 
-      domain having the GUID specified by <i>DomainGuid</i>.
-
-
 #### - DomainName [in]
 
 Pointer to a null-terminated string that specifies the name of the domain or application partition to 
@@ -339,6 +329,25 @@ If <i>DomainName</i> is <b>NULL</b> and the
        computer identified by <i>ComputerName</i>.
 
 
+#### - DomainGuid [in]
+
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> structure that specifies the 
+    <b>GUID</b> of the domain queried. If <i>DomainGuid</i> is not 
+  <b>NULL</b> and the domain specified by <i>DomainName</i> or 
+  <i>ComputerName</i> cannot be found, 
+  <b>DsGetDcName</b> attempts to locate a domain controller in the 
+      domain having the GUID specified by <i>DomainGuid</i>.
+
+
+#### - SiteName [in]
+
+Pointer to a null-terminated string that specifies the name of the site where the returned domain 
+      controller should physically exist. If this parameter is <b>NULL</b>, 
+      <b>DsGetDcName</b> attempts to return a domain controller in the 
+      site closest to the site of the computer specified by <i>ComputerName</i>. This parameter 
+      should be <b>NULL</b>, by default.
+
+
 ##### - Flags.DS_AVOID_SELF
 
 When called from a domain controller, specifies that the returned domain controller name should not be 
@@ -355,16 +364,6 @@ If the <b>DS_FORCE_REDISCOVERY</b> flag is not specified,  this function uses ca
         called periodically.
 
 
-##### - Flags.DS_DIRECTORY_SERVICE_6_REQUIRED
-
-Requires that the returned domain controller be running Windows Server 2008 or later.
-
-
-##### - Flags.DS_DIRECTORY_SERVICE_8_REQUIRED
-
-Requires that the returned domain controller be running Windows Server 2012 or later.
-
-
 ##### - Flags.DS_DIRECTORY_SERVICE_PREFERRED
 
 <b>DsGetDcName</b> attempts to find a  domain controller that 
@@ -378,6 +377,16 @@ Requires that the returned domain controller be running Windows Server 2012 or 
 ##### - Flags.DS_DIRECTORY_SERVICE_REQUIRED
 
 Requires that the returned domain controller support  directory services.
+
+
+##### - Flags.DS_DIRECTORY_SERVICE_6_REQUIRED
+
+Requires that the returned domain controller be running Windows Server 2008 or later.
+
+
+##### - Flags.DS_DIRECTORY_SERVICE_8_REQUIRED
+
+Requires that the returned domain controller be running Windows Server 2012 or later.
 
 
 ##### - Flags.DS_FORCE_REDISCOVERY
@@ -523,24 +532,15 @@ Also, the kind of search employed with <b>DS_TRY_NEXT_CLOSEST_SITE</b> is site-s
          will be used.</div>
 <div> </div>
 
-##### - Flags.DS_WEB_SERVICE_REQUIRED
-
-Requires that the returned domain controller be currently running the Active Directory web service.
-
-
 ##### - Flags.DS_WRITABLE_REQUIRED
 
 Requires that the returned domain controller be writable; that is, host a writable copy of the directory 
         service.
 
 
-#### - SiteName [in]
+##### - Flags.DS_WEB_SERVICE_REQUIRED
 
-Pointer to a null-terminated string that specifies the name of the site where the returned domain 
-      controller should physically exist. If this parameter is <b>NULL</b>, 
-      <b>DsGetDcName</b> attempts to return a domain controller in the 
-      site closest to the site of the computer specified by <i>ComputerName</i>. This parameter 
-      should be <b>NULL</b>, by default.
+Requires that the returned domain controller be currently running the Active Directory web service.
 
 
 ## -returns

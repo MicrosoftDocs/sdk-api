@@ -4,10 +4,10 @@ title: PdhUpdateLogW function
 author: windows-sdk-content
 description: Collects counter data for the current query and writes the data to the log file.
 old-location: perf\pdhupdatelog.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: b2052275-6944-41f4-92ac-38967ed270f3
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhUpdateLog, PdhUpdateLog function [Perf], PdhUpdateLogA, PdhUpdateLogW, _win32_pdhupdatelog, base.pdhupdatelog, pdh/PdhUpdateLog, pdh/PdhUpdateLogA, pdh/PdhUpdateLogW, perf.pdhupdatelog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Collects counter data for the current query and writes the data to the log file.
+Collects counter data for the current query and writes the data to the log file.
 		
 
 
@@ -78,8 +77,7 @@ Null-terminated string that contains a user-defined comment to add to the data r
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_deleteasync.htm
 old-project: WmiSdk
 ms.assetid: f5ed170e-d002-4dd9-b8b6-b764a7a41a27
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: DeleteAsync, DeleteAsync method [Windows Management Instrumentation], DeleteAsync method [Windows Management Instrumentation],ISWbemServices interface, DeleteAsync method [Windows Management Instrumentation],SWbemServices object, ISWbemServices interface [Windows Management Instrumentation],DeleteAsync method, ISWbemServices.DeleteAsync, ISWbemServices::DeleteAsync, SWbemServices object [Windows Management Instrumentation],DeleteAsync method, SWbemServices.DeleteAsync, _hmm_swbemservices.deleteasync, wbemFlagDontSendStatus, wbemFlagSendStatus, wmi.swbemservices_deleteasync
 ms.prod: windows
 ms.technology: windows-sdk

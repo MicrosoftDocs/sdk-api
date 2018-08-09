@@ -7,7 +7,7 @@ old-location: mbn\imbnsmsconfiguration_cdmashortmsgsize.htm
 old-project: mbn
 ms.assetid: 2aac8cad-565e-45e4-a7a4-88ebfab420ea
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: CdmaShortMsgSize property [Microsoft Broadband Networks], CdmaShortMsgSize property [Microsoft Broadband Networks],IMbnSmsConfiguration interface, IMbnSmsConfiguration interface [Microsoft Broadband Networks],CdmaShortMsgSize property, IMbnSmsConfiguration.CdmaShortMsgSize, IMbnSmsConfiguration.get_CdmaShortMsgSize, IMbnSmsConfiguration::CdmaShortMsgSize, IMbnSmsConfiguration::get_CdmaShortMsgSize, get_CdmaShortMsgSize, mbn.imbnsmsconfiguration_cdmashortmsgsize, mbnapi/IMbnSmsConfiguration::CdmaShortMsgSize, mbnapi/IMbnSmsConfiguration::get_CdmaShortMsgSize
 ms.prod: windows
 ms.technology: windows-sdk

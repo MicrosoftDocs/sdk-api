@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicsectionaccesslevel.htm
 old-project: wic
 ms.assetid: 4b08bc8c-d67c-4bc4-a701-2903a971a478
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WICSectionAccessLevel, WICSectionAccessLevel enumeration [Windows Imaging Component], WICSectionAccessLevelRead, WICSectionAccessLevelReadWrite, _wic_codec_wicsectionaccesslevel, wic._wic_codec_wicsectionaccesslevel, wincodec/WICSectionAccessLevel, wincodec/WICSectionAccessLevelRead, wincodec/WICSectionAccessLevelReadWrite
 ms.prod: windows
 ms.technology: windows-sdk

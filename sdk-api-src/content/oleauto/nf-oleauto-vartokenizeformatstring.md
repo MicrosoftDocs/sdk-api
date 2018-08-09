@@ -7,7 +7,7 @@ old-location: automat\vartokenizeformatstring.htm
 old-project: automat
 ms.assetid: 7cec1bc5-39ea-4b47-880b-62584ff23536
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarTokenizeFormatString, VarTokenizeFormatString function [Automation], _oa96_VarTokenizeFormatString, automat.vartokenizeformatstring, oleauto/VarTokenizeFormatString
 ms.prod: windows
 ms.technology: windows-sdk

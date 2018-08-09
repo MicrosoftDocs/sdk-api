@@ -4,10 +4,10 @@ title: IWdsTransportContentProvider::get_Name
 author: windows-sdk-content
 description: Retrieves the name of the content provider.
 old-location: wds\iwdstransportcontentprovider_name.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 2A897617-F7AA-4EF7-AE44-78EBC98C3B5F
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWdsTransportContentProvider interface [Windows Deployment Services],Name property, IWdsTransportContentProvider.Name, IWdsTransportContentProvider.get_Name, IWdsTransportContentProvider::Name, IWdsTransportContentProvider::get_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services],IWdsTransportContentProvider interface, get_Name, wds.iwdstransportcontentprovider_name, wdstptmgmt/IWdsTransportContentProvider::Name, wdstptmgmt/IWdsTransportContentProvider::get_Name
 ms.prod: windows
 ms.technology: windows-sdk

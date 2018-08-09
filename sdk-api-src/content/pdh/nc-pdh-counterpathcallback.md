@@ -4,10 +4,10 @@ title: CounterPathCallBack
 author: windows-sdk-content
 description: Applications implement the CounterPathCallBack function to process the counter path strings returned by the Browse dialog box.
 old-location: perf\counterpathcallback.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: b7a2112e-9f50-4a36-b022-f9609b2827bc
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: CounterPathCallBack, CounterPathCallBack callback, CounterPathCallBack callback function [Perf], _win32_counterpathcallback, base.counterpathcallback, pdh/CounterPathCallBack, perf.counterpathcallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Applications implement the <b>CounterPathCallBack</b> function to process the counter path strings returned by the  <b>Browse</b> dialog box.
+Applications implement the <b>CounterPathCallBack</b> function to process the counter path strings returned by the  <b>Browse</b> dialog box.
 		
 
 

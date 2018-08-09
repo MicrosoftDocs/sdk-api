@@ -7,7 +7,7 @@ old-location: controls\IImageList_BeginDrag.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\begindrag.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: BeginDrag, BeginDrag method [Windows Controls], BeginDrag method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],BeginDrag method, IImageList.BeginDrag, IImageList::BeginDrag, comctl_IImageList_BeginDrag, comctl_IImageList_BeginDrag_cpp, commoncontrols/IImageList::BeginDrag, controls.IImageList_BeginDrag, controls.comctl_IImageList_BeginDrag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-		Begins dragging an image.
+Begins dragging an image.
 		
 
 
@@ -96,10 +95,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<b>IImageList::BeginDrag</b> creates a temporary image list that is used for dragging. In response to subsequent <a href="https://msdn.microsoft.com/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> messages, you can move the drag image by using <a href="https://msdn.microsoft.com/library/Bb761451(v=VS.85).aspx">IImageList::DragMove</a>. To end the drag operation, you can use <a href="https://msdn.microsoft.com/library/Bb761457(v=VS.85).aspx">IImageList::EndDrag</a>. 
+<b>IImageList::BeginDrag</b> creates a temporary image list that is used for dragging. In response to subsequent <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> messages, you can move the drag image by using <a href="https://msdn.microsoft.com/en-us/library/Bb761451(v=VS.85).aspx">IImageList::DragMove</a>. To end the drag operation, you can use <a href="https://msdn.microsoft.com/en-us/library/Bb761457(v=VS.85).aspx">IImageList::EndDrag</a>. 
 		
 
-To use <b>IImageList::BeginDrag</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>IImageList::BeginDrag</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

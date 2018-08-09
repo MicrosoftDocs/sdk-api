@@ -7,7 +7,7 @@ old-location: cos\iservicecall.htm
 old-project: cossdk
 ms.assetid: 97532e29-3d1a-4a7c-8103-dd7ae2866a70
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IServiceCall, IServiceCall interface [COM+], IServiceCall interface [COM+],described, _cos_IServiceCall, comsvcs/IServiceCall, cos.iservicecall
 ms.prod: windows
 ms.technology: windows-sdk

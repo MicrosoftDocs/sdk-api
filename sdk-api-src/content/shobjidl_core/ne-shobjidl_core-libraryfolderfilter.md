@@ -7,7 +7,7 @@ old-location: shell\LIBRARYFOLDERFILTER.htm
 old-project: shell
 ms.assetid: 8bcb8ee7-14a9-411e-978d-ddeed83d8392
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: LFF_ALLITEMS, LFF_FORCEFILESYSTEM, LFF_STORAGEITEMS, LIBRARYFOLDERFILTER, LIBRARYFOLDERFILTER enumeration [Windows Shell], _shell_LIBRARYFOLDERFILTER, shell.LIBRARYFOLDERFILTER, shobjidl_core/LFF_ALLITEMS, shobjidl_core/LFF_FORCEFILESYSTEM, shobjidl_core/LFF_STORAGEITEMS, shobjidl_core/LIBRARYFOLDERFILTER
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Internet Explorer 6.01
 ## -description
 
 
-
-         Defines options for filtering folder items.
+Defines options for filtering folder items.
       
 
 
@@ -63,22 +62,19 @@ req.product: Internet Explorer 6.01
 
 ### -field LFF_FORCEFILESYSTEM
 
-
-            Return only file system items.
+Return only file system items.
          
 
 
 ### -field LFF_STORAGEITEMS
 
-
-            Return items that can be bound to an IStorage object.
+Return items that can be bound to an IStorage object.
          
 
 
 ### -field LFF_ALLITEMS
 
-
-            Return all items.
+Return all items.
          
 
 
@@ -87,8 +83,7 @@ req.product: Internet Explorer 6.01
 
 
 <h3><a id="Used_By"></a><a id="used_by"></a><a id="USED_BY"></a>Used By</h3>
-
-         The <b>LIBRARYFOLDERFILTER</b> enumeration is used by the following methods and functions.
+The <b>LIBRARYFOLDERFILTER</b> enumeration is used by the following methods and functions.
          
 
 <ul>

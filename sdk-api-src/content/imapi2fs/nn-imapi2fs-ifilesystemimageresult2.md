@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimageresult2.htm
 old-project: imapi
 ms.assetid: 83834da1-fa5a-42ef-8e59-7ba133d3e6cb
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IFileSystemImageResult2, IFileSystemImageResult2 interface [IMAPI], IFileSystemImageResult2 interface [IMAPI],described, imapi.ifilesystemimageresult2, imapi2fs/IFileSystemImageResult2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,7 +49,6 @@ req.product: GDI+ 1.1
 
 
 ## -description
-
 
 
 The <b>IFileSystemImageResult2</b> interface allows the data recorder object to retrieve information about modified blocks in images created for rewritable discs. Alternatively, <b>IUnknown::QueryInterface</b> can be called on the object returned by <a href="https://msdn.microsoft.com/87e4bde6-c8c3-43b6-b096-514fdef5e262">IFileSystemImageResult::get_ImageStream</a> to get the <a href="https://msdn.microsoft.com/f2a3bd54-4f40-4bf0-9cbf-b507819d669f">IBlockRangeList</a> interface providing this information.

@@ -7,7 +7,7 @@ old-location: gdi\pie.htm
 old-project: gdi
 ms.assetid: 86daa936-b483-4432-aa32-0b9328ff76f9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Pie, Pie function [Windows GDI], _win32_Pie, gdi.pie, wingdi/Pie
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,84 +66,42 @@ The <b>Pie</b> function draws a pie-shaped wedge bounded by the intersection of 
 A handle to the device context.
 
 
-### -param left
-
-TBD
-
-
-### -param top
-
-TBD
-
-
-### -param right
-
-TBD
-
-
-### -param bottom
-
-TBD
-
-
-### -param xr1
-
-TBD
-
-
-### -param yr1
-
-TBD
-
-
-### -param xr2
-
-TBD
-
-
-### -param yr2
-
-TBD
-
-
-
-
-#### - nBottomRect [in]
-
-The y-coordinate, in logical coordinates, of the lower-right corner of the bounding rectangle.
-
-
-#### - nLeftRect [in]
+### -param left [in]
 
 The x-coordinate, in logical coordinates, of the upper-left corner of the bounding rectangle.
 
 
-#### - nRightRect [in]
-
-The x-coordinate, in logical coordinates, of the lower-right corner of the bounding rectangle.
-
-
-#### - nTopRect [in]
+### -param top [in]
 
 The y-coordinate, in logical coordinates, of the upper-left corner of the bounding rectangle.
 
 
-#### - nXRadial1 [in]
+### -param right [in]
+
+The x-coordinate, in logical coordinates, of the lower-right corner of the bounding rectangle.
+
+
+### -param bottom [in]
+
+The y-coordinate, in logical coordinates, of the lower-right corner of the bounding rectangle.
+
+
+### -param xr1 [in]
 
 The x-coordinate, in logical coordinates, of the endpoint of the first radial.
 
 
-#### - nXRadial2 [in]
-
-The x-coordinate, in logical coordinates, of the endpoint of the second radial.
-
-
-#### - nYRadial1 [in]
+### -param yr1 [in]
 
 The y-coordinate, in logical coordinates, of the endpoint of the first radial.
 
 
-#### - nYRadial2 [in]
+### -param xr2 [in]
+
+The x-coordinate, in logical coordinates, of the endpoint of the second radial.
+
+
+### -param yr2 [in]
 
 The y-coordinate, in logical coordinates, of the endpoint of the second radial.
 

@@ -7,7 +7,7 @@ old-location: mf\mfbegincreatefile.htm
 old-project: medfound
 ms.assetid: aca304f6-cf7c-43ea-8ebe-d3bb46f8a2fd
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFBeginCreateFile, MFBeginCreateFile function [Media Foundation], aca304f6-cf7c-43ea-8ebe-d3bb46f8a2fd, mf.mfbegincreatefile, mfapi/MFBeginCreateFile
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\NMTBHOTITEM.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbhotitem.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPNMTBHOTITEM, HICF_ACCELERATOR, HICF_ARROWKEYS, HICF_DUPACCEL, HICF_ENTERING, HICF_LEAVING, HICF_LMOUSE, HICF_MOUSE, HICF_OTHER, HICF_RESELECT, HICF_TOGGLEDROPDOWN, LPNMTBHOTITEM, LPNMTBHOTITEM structure pointer [Windows Controls], NMTBHOTITEM, NMTBHOTITEM structure [Windows Controls], _win32_NMTBHOTITEM, _win32_NMTBHOTITEM_cpp, commctrl/LPNMTBHOTITEM, commctrl/NMTBHOTITEM, controls.NMTBHOTITEM, controls._win32_NMTBHOTITEM, tagNMTBHOTITEM"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information used with the <a href="https://msdn.microsoft.com/library/Bb787274(v=VS.85).aspx">TBN_HOTITEMCHANGE</a> notification code. 
+Contains information used with the <a href="https://msdn.microsoft.com/en-us/library/Bb787274(v=VS.85).aspx">TBN_HOTITEMCHANGE</a> notification code. 
 
 
 ## -struct-fields
@@ -60,10 +60,10 @@ Contains information used with the <a href="https://msdn.microsoft.com/library/B
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field idOld
@@ -169,7 +169,7 @@ The change in the hot item resulted from a mouse event.
 </dl>
 </td>
 <td width="60%">
-The change in the hot item resulted from an event that could not be determined. This will most often be due to a change in focus or the <a href="https://msdn.microsoft.com/library/Bb787431(v=VS.85).aspx">TB_SETHOTITEM</a> message. 
+The change in the hot item resulted from an event that could not be determined. This will most often be due to a change in focus or the <a href="https://msdn.microsoft.com/en-us/library/Bb787431(v=VS.85).aspx">TB_SETHOTITEM</a> message. 
 
 </td>
 </tr>

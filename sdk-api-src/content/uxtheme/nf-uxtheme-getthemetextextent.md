@@ -4,10 +4,10 @@ title: GetThemeTextExtent function
 author: windows-sdk-content
 description: Calculates the size and location of the specified text when rendered in the visual style font.
 old-location: controls\GetThemeTextExtent.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemetextextent.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetThemeTextExtent, GetThemeTextExtent function [Windows Controls], controls.GetThemeTextExtent, controls.inet_GetThemeTextExtent, inet_GetThemeTextExtent, inet_GetThemeTextExtent_cpp, uxtheme/GetThemeTextExtent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,9 +94,11 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Pointer to a string that contains the text to draw.
 
 
-### -param cchCharCount
+### -param cchCharCount [in]
 
-TBD
+Type: <b>int</b>
+
+Value of type<b>int</b> that contains the number of characters to draw. If the parameter is set to -1, all the characters in the string are drawn.
 
 
 ### -param dwTextFlags [in]
@@ -119,13 +121,6 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5692
 Type: <b>LPRECT</b>
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that contains, in logical coordinates, the rectangle required to fit the rendered text.
-
-
-#### - iCharCount [in]
-
-Type: <b>int</b>
-
-Value of type<b>int</b> that contains the number of characters to draw. If the parameter is set to -1, all the characters in the string are drawn.
 
 
 ## -returns

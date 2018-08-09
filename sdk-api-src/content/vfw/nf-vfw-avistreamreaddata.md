@@ -7,7 +7,7 @@ old-location: multimedia\avistreamreaddata.htm
 old-project: Multimedia
 ms.assetid: 87a787e8-547a-4c35-ba65-a592bd037063
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AVIStreamReadData, AVIStreamReadData function [Windows Multimedia], _win32_AVIStreamReadData, multimedia.avistreamreaddata, vfw/AVIStreamReadData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,32 +69,15 @@ Handle to an open stream.
 
 ### -param fcc
 
-TBD
+Four-character code identifying the data.
 
 
 ### -param lp
 
-TBD
-
-
-### -param lpcb
-
-TBD
-
-
-
-
-#### - ckid
-
-Four-character code identifying the data.
-
-
-#### - lpData
-
 Pointer to the buffer to contain the optional header data.
 
 
-#### - lpcbData
+### -param lpcb
 
 Pointer to the location that specifies the buffer size used for <i>lpData</i>. If the read is successful, AVIFile changes this value to indicate the amount of data written into the buffer for <i>lpData</i>.
 

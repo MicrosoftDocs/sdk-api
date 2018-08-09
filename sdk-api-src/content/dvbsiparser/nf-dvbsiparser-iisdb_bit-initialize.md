@@ -7,7 +7,7 @@ old-location: mstv\iisdb_bit_initialize.htm
 old-project: mstv
 ms.assetid: 1c38cbc0-4e47-4f15-9a9b-548e74af6462
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IISDB_BIT interface [Microsoft TV Technologies],Initialize method, IISDB_BIT.Initialize, IISDB_BIT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_BIT interface, dvbsiparser/IISDB_BIT::Initialize, mstv.iisdb_bit_initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Initializes the object by using captured table section data
+Initializes the object by using captured table section data
   for an Integrated Services Digital Broadcasting (ISDB) broadcaster
   information table
   (BIT). 
@@ -66,8 +65,7 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param pSectionList [in]
 
-
-  Pointer to the <a href="https://msdn.microsoft.com/eb6d31b4-ee4a-468f-9e58-115159095858">ISectionList</a> interface
+Pointer to the <a href="https://msdn.microsoft.com/eb6d31b4-ee4a-468f-9e58-115159095858">ISectionList</a> interface
   of the <b>SectionList</b> object that contains the section data.
 
 

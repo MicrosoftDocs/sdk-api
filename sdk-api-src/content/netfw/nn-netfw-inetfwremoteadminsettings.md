@@ -7,7 +7,7 @@ old-location: ics\inetfwremoteadminsettings.htm
 old-project: ics
 ms.assetid: 35f34a53-e73b-48be-ac79-9b7ab825c6ad
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INetFwRemoteAdminSettings, INetFwRemoteAdminSettings interface [ICS/ICF], INetFwRemoteAdminSettings interface [ICS/ICF],described, ics.inetfwremoteadminsettings, netfw/INetFwRemoteAdminSettings
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ The <b>INetFwRemoteAdminSettings</b> interface provides access to the settings t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwRemoteAdminSettings</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetFwRemoteAdminSettings</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwRemoteAdminSettings</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetFwRemoteAdminSettings</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -208,8 +208,7 @@ Accesses the contents of the Scope property.
 
 
 An
-instance of this interface is retrieved through the <a href="https://msdn.microsoft.com/1e05e464-093d-4c25-850a-60e9fad64876">RemoteAdminSettings</a>
- property of the INetFwProfile interface. 
+instance of this interface is retrieved through the <a href="https://msdn.microsoft.com/1e05e464-093d-4c25-850a-60e9fad64876">RemoteAdminSettings</a>property of the INetFwProfile interface. 
 
 All configuration changes take
  effect immediately.
@@ -222,7 +221,7 @@ All configuration changes take
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 
@@ -230,7 +229,7 @@ All configuration changes take
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

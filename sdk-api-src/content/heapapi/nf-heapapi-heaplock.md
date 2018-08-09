@@ -7,7 +7,7 @@ old-location: base\heaplock.htm
 old-project: memory
 ms.assetid: bc01b82d-ef10-40d7-af82-e599ba825944
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: HeapLock, HeapLock function, _win32_heaplock, base.heaplock, heapapi/HeapLock, winbase/HeapLock
 ms.prod: windows
 ms.technology: windows-sdk

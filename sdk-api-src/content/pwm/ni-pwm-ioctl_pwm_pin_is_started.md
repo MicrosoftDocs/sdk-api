@@ -7,7 +7,7 @@ old-location: base\ioctl_pwm_pin_is_started.htm
 old-project: devio
 ms.assetid: 3C03AF3B-B40D-4909-89B1-BDF783154C28
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/07/2018
 ms.keywords: IOCTL_PWM_PIN_IS_STARTED, IOCTL_PWM_PIN_IS_STARTED control, IOCTL_PWM_PIN_IS_STARTED control code, base.ioctl_pwm_pin_is_started, pwm/IOCTL_PWM_PIN_IS_STARTED
 ms.prod: windows
 ms.technology: windows-sdk
@@ -124,8 +124,7 @@ To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087
 <pre class="syntax">BOOL 
    WINAPI 
    DeviceIoControl( (HANDLE)       hDevice,         // handle to device
-                    (DWORD)        IOCTL_PWM_PIN_IS_STARTED, // dwIoControlCode
-                    (LPDWORD)      NULL,      // input buffer
+                    (DWORD)        IOCTL_PWM_PIN_IS_STARTED, // dwIoControlCode(LPDWORD)      NULL,      // input buffer
                     (DWORD)        0,   // size of input buffer
                     (LPDWORD)      lpOutBuffer,     // output buffer
                     (DWORD)        nOutBufferSize,  // size of output buffer

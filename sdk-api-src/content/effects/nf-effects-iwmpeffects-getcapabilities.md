@@ -7,7 +7,7 @@ old-location: wmp\iwmpeffects_getcapabilities.htm
 old-project: WMP
 ms.assetid: e2efb0cd-417f-4b96-a4d7-c02c41a6244d
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/30/2018
 ms.keywords: EffectsGetCapabilities, GetCapabilities, GetCapabilities method [Windows Media Player], GetCapabilities method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetCapabilities method, IWMPEffects.GetCapabilities, IWMPEffects::GetCapabilities, effects/IWMPEffects::GetCapabilities, wmp.iwmpeffects_getcapabilities
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,11 +70,9 @@ The current values are as follows.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

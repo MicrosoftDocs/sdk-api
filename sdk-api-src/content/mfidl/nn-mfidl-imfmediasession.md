@@ -7,7 +7,7 @@ old-location: mf\imfmediasession.htm
 old-project: medfound
 ms.assetid: feebf891-73fa-4fe6-94ca-3594986fc92d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFMediaSession, IMFMediaSession interface [Media Foundation], IMFMediaSession interface [Media Foundation],described, feebf891-73fa-4fe6-94ca-3594986fc92d, mf.imfmediasession, mfidl/IMFMediaSession
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ The <b>IMFMediaSession</b> interface has these methods.
 <a href="https://msdn.microsoft.com/fcb7e5f1-1095-4766-afed-43ad2279abb4">ClearTopologies</a>
 </td>
 <td align="left" width="63%">
-
-          Clears all of the presentations that are queued for playback in the Media Session.
+Clears all of the presentations that are queued for playback in the Media Session.
         
 
 </td>
@@ -88,8 +87,7 @@ The <b>IMFMediaSession</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
 </td>
 <td align="left" width="63%">
-
-          Closes the Media Session and releases all of the resources it is using.
+Closes the Media Session and releases all of the resources it is using.
         
 
 </td>
@@ -99,8 +97,7 @@ The <b>IMFMediaSession</b> interface has these methods.
 <a href="https://msdn.microsoft.com/16444da2-68f2-4d94-8c6f-9e512d51e5e9">GetClock</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the Media Session's presentation clock.
+Retrieves the Media Session's presentation clock.
         
 
 </td>
@@ -110,8 +107,7 @@ The <b>IMFMediaSession</b> interface has these methods.
 <a href="https://msdn.microsoft.com/6899dbe2-a684-487f-ab56-8631b3d5a033">GetFullTopology</a>
 </td>
 <td align="left" width="63%">
-
-          Gets a topology from the Media Session.
+Gets a topology from the Media Session.
         
 
 </td>
@@ -121,8 +117,7 @@ The <b>IMFMediaSession</b> interface has these methods.
 <a href="https://msdn.microsoft.com/3534cfb9-23ff-42a6-a3db-b5032d427cf2">GetSessionCapabilities</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the capabilities of the Media Session, based on the current presentation.
+Gets the capabilities of the Media Session, based on the current presentation.
         
 
 </td>
@@ -132,8 +127,7 @@ The <b>IMFMediaSession</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
 </td>
 <td align="left" width="63%">
-
-          Pauses the Media Session.
+Pauses the Media Session.
         
 
 </td>
@@ -143,8 +137,7 @@ The <b>IMFMediaSession</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ea5313f0-b0fd-4945-97a2-b3f17937294f">SetTopology</a>
 </td>
 <td align="left" width="63%">
-
-          Sets a topology on the Media Session.
+Sets a topology on the Media Session.
         
 
 </td>
@@ -154,8 +147,7 @@ The <b>IMFMediaSession</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a>
 </td>
 <td align="left" width="63%">
-
-          Shuts down the Media Session and releases all the resources used by the Media Session.
+Shuts down the Media Session and releases all the resources used by the Media Session.
         
 
 </td>
@@ -165,8 +157,7 @@ The <b>IMFMediaSession</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
 </td>
 <td align="left" width="63%">
-
-          Starts the Media Session.
+Starts the Media Session.
         
 
 </td>
@@ -176,8 +167,7 @@ The <b>IMFMediaSession</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
 </td>
 <td align="left" width="63%">
-
-          Stops the Media Session.
+Stops the Media Session.
         
 
 </td>

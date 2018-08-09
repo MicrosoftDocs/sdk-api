@@ -7,7 +7,7 @@ old-location: multimedia\icgetstatesize.htm
 old-project: Multimedia
 ms.assetid: 386761e8-9234-4541-b593-ce8e323714bf
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ICGetStateSize, ICGetStateSize macro [Windows Multimedia], _win32_ICGetStateSize, multimedia.icgetstatesize, vfw/ICGetStateSize
 ms.prod: windows
 ms.technology: windows-sdk

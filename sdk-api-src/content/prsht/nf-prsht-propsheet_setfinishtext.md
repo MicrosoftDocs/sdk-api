@@ -7,7 +7,7 @@ old-location: controls\PropSheet_SetFinishText.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setfinishtext.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: PropSheet_SetFinishText, PropSheet_SetFinishText macro [Windows Controls], _win32_PropSheet_SetFinishText, _win32_PropSheet_SetFinishText_cpp, controls.PropSheet_SetFinishText, controls._win32_PropSheet_SetFinishText, prsht/PropSheet_SetFinishText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Sets the text of the Finish button in a wizard, shows and enables the button, and hides the Next and Back buttons. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774615(v=VS.85).aspx">PSM_SETFINISHTEXT</a> message explicitly.
+Sets the text of the Finish button in a wizard, shows and enables the button, and hides the Next and Back buttons. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774615(v=VS.85).aspx">PSM_SETFINISHTEXT</a> message explicitly.
 
 
 ## -parameters
@@ -61,7 +61,9 @@ Sets the text of the Finish button in a wizard, shows and enables the button, an
 
 ### -param hDlg
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Window handle (HWND) of the wizard property sheet.
 
 
 ### -param lpszText
@@ -69,13 +71,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
 
 Pointer to the new text for the Finish button.
-
-
-#### - hPropSheetDlg
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Window handle (HWND) of the wizard property sheet.
 
 
 ## -remarks

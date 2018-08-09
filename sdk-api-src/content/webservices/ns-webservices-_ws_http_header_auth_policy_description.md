@@ -7,7 +7,7 @@ old-location: wsw\ws_http_header_auth_policy_description.htm
 old-project: wsw
 ms.assetid: 2d5d90d5-498e-48a3-af21-f15349a391bf
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION, WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION, webservices/WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION, wsw.ws_http_header_auth_policy_description
 ms.prod: windows
 ms.technology: windows-sdk

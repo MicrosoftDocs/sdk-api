@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclock2.htm
 old-project: CoreAudio
 ms.assetid: 4820c93a-a5d8-4ab9-aefc-9377fc76e745
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: IAudioClock2, IAudioClock2 interface [Core Audio], IAudioClock2 interface [Core Audio],described, audioclient/IAudioClock2, coreaudio.iaudioclock2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,20 +50,16 @@ req.irql:
 ## -description
 
 
-
-		  	The <b>IAudioClock2</b> interface is used to get the current device position.
+The <b>IAudioClock2</b> interface is used to get the current device position.
 		
 
-
-		To get a reference to the <b>IAudioClock2</b> interface, the application must call <b>IAudioClock::QueryInterface</b> to request the interface pointer from the stream object's  <a href="https://msdn.microsoft.com/dbec9468-b555-42a0-a988-dec3a66c9f96">IAudioClock</a> interface.
+To get a reference to the <b>IAudioClock2</b> interface, the application must call <b>IAudioClock::QueryInterface</b> to request the interface pointer from the stream object's  <a href="https://msdn.microsoft.com/dbec9468-b555-42a0-a988-dec3a66c9f96">IAudioClock</a> interface.
 	
 
-
-		The client obtains a reference to the <b>IAudioClock</b> interface of a stream object by calling the <a href="https://msdn.microsoft.com/233d4471-037f-4df9-bef6-57f2544dedb5">IAudioClient::GetService</a> method with parameter <i>riid</i> set to REFIID IID_IAudioClock.
+The client obtains a reference to the <b>IAudioClock</b> interface of a stream object by calling the <a href="https://msdn.microsoft.com/233d4471-037f-4df9-bef6-57f2544dedb5">IAudioClient::GetService</a> method with parameter <i>riid</i> set to REFIID IID_IAudioClock.
 	
 
-
-		When releasing an <b>IAudioClock2</b> interface instance, the client must call the interface's <b>Release</b> method from the same thread as the call to <a href="https://msdn.microsoft.com/233d4471-037f-4df9-bef6-57f2544dedb5">IAudioClient::GetService</a> that created the object.
+When releasing an <b>IAudioClock2</b> interface instance, the client must call the interface's <b>Release</b> method from the same thread as the call to <a href="https://msdn.microsoft.com/233d4471-037f-4df9-bef6-57f2544dedb5">IAudioClient::GetService</a> that created the object.
 	
 
 

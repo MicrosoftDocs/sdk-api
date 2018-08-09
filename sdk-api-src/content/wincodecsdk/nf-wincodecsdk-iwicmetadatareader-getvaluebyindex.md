@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatareader_getvaluebyindex.htm
 old-project: wic
 ms.assetid: dd22e0e6-d607-48ae-a51c-b49003004f1f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetValueByIndex, GetValueByIndex method [Windows Imaging Component], GetValueByIndex method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetValueByIndex method, IWICMetadataReader.GetValueByIndex, IWICMetadataReader::GetValueByIndex, _wic_codec_iwicmetadatareader_getvaluebyindex, wic._wic_codec_iwicmetadatareader_getvaluebyindex, wincodecsdk/IWICMetadataReader::GetValueByIndex
 ms.prod: windows
 ms.technology: windows-sdk

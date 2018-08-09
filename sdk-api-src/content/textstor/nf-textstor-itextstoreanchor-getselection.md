@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_getselection.htm
 old-project: TSF
 ms.assetid: df1b21b7-b539-4546-96be-243a8e7ea75a
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetSelection method, ITextStoreAnchor.GetSelection, ITextStoreAnchor::GetSelection, textstor/ITextStoreAnchor::GetSelection, tsf.itextstoreanchor_getselection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -164,8 +164,7 @@ The document has no selection.
 
 
 
-<a href="https://msdn.microsoft.com/ce301fa4-d1dd-4470-b8b5-fc944afdc621">
-        ITextStoreAnchor::SetSelection
+<a href="https://msdn.microsoft.com/ce301fa4-d1dd-4470-b8b5-fc944afdc621">ITextStoreAnchor::SetSelection
       </a>
 
 

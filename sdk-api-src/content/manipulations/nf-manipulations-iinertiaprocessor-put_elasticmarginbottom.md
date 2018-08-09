@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_elasticmarginbottom.htm
 old-project: wintouch
 ms.assetid: 8a043ef6-3251-4179-b42f-f59c07287b49
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/06/2018
 ms.keywords: ElasticMarginBottom property [Windows Touch], ElasticMarginBottom property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],ElasticMarginBottom property, IInertiaProcessor.ElasticMarginBottom, IInertiaProcessor.put_ElasticMarginBottom, IInertiaProcessor::ElasticMarginBottom, IInertiaProcessor::get_ElasticMarginBottom, IInertiaProcessor::put_ElasticMarginBottom, manipulations/IInertiaProcessor::ElasticMarginBottom, manipulations/IInertiaProcessor::get_ElasticMarginBottom, manipulations/IInertiaProcessor::put_ElasticMarginBottom, put_ElasticMarginBottom, wintouch.iinertiaprocessor_elasticmarginbottom
 ms.prod: windows
 ms.technology: windows-sdk

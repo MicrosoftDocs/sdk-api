@@ -7,7 +7,7 @@ old-location: gdi\enumfontfamilies.htm
 old-project: gdi
 ms.assetid: 4960afbb-eeba-4030-ac89-d1ff077bb2f3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EnumFontFamilies, EnumFontFamilies function [Windows GDI], EnumFontFamiliesA, EnumFontFamiliesW, _win32_EnumFontFamilies, gdi.enumfontfamilies, wingdi/EnumFontFamilies, wingdi/EnumFontFamiliesA, wingdi/EnumFontFamiliesW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,29 +72,19 @@ The <b>EnumFontFamilies</b> function enumerates the fonts in a specified font fa
 A handle to the device context from which to enumerate the fonts.
 
 
-### -param lpLogfont
+### -param lpLogfont [in]
 
-TBD
+A pointer to a null-terminated string that specifies the family name of the desired fonts. If <i>lpszFamily</i> is <b>NULL</b>, <b>EnumFontFamilies</b> selects and enumerates one font of each available type family.
 
 
-### -param lpProc
+### -param lpProc [in]
 
-TBD
+A pointer to the application defined callback function. For information, see <a href="https://msdn.microsoft.com/9957885a-abf7-4d7c-ae8d-40f5d1150591">EnumFontFamProc</a>.
 
 
 ### -param lParam [in]
 
 A pointer to application-supplied data. The data is passed to the callback function along with the font information.
-
-
-#### - lpEnumFontFamProc [in]
-
-A pointer to the application defined callback function. For information, see <a href="https://msdn.microsoft.com/9957885a-abf7-4d7c-ae8d-40f5d1150591">EnumFontFamProc</a>.
-
-
-#### - lpszFamily [in]
-
-A pointer to a null-terminated string that specifies the family name of the desired fonts. If <i>lpszFamily</i> is <b>NULL</b>, <b>EnumFontFamilies</b> selects and enumerates one font of each available type family.
 
 
 ## -returns

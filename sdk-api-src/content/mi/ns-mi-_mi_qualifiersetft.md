@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_qualifiersetft.htm
 old-project: wmi_v2
 ms.assetid: 3868c336-e3c1-4977-8c5d-3964c93b6074
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_QualifierSetFT, MI_QualifierSetFT structure [Windows Management Infrastructure (MI)], _MI_QualifierSetFT, mi/MI_QualifierSetFT, wmi_v2.mi_qualifiersetft
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,10 +63,10 @@ A support structure used in the
 
 
 
-#### - GetQualifier
+#### - GetQualifierCount
 
-Gets a named qualifier. See 
-       <a href="https://msdn.microsoft.com/16dde421-3746-4722-9f08-56835b7603fb">MI_QualifierSet_GetQualifier</a>.
+Gets the number of qualifiers in a qualifier set. See 
+       <a href="https://msdn.microsoft.com/0027b8fc-0528-4aa8-85bc-088429e1e045">MI_QualifierSet_GetQualifierCount</a>.
 
 
 #### - GetQualifierAt
@@ -75,8 +75,8 @@ Gets a qualifier at the specified index. See
        <a href="https://msdn.microsoft.com/5dfcdd7a-7740-4d40-b412-89f6f090561c">MI_QualifierSet_GetQualifierAt</a>.
 
 
-#### - GetQualifierCount
+#### - GetQualifier
 
-Gets the number of qualifiers in a qualifier set. See 
-       <a href="https://msdn.microsoft.com/0027b8fc-0528-4aa8-85bc-088429e1e045">MI_QualifierSet_GetQualifierCount</a>.
+Gets a named qualifier. See 
+       <a href="https://msdn.microsoft.com/16dde421-3746-4722-9f08-56835b7603fb">MI_QualifierSet_GetQualifier</a>.
 

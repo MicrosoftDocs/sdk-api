@@ -7,7 +7,7 @@ old-location: rm\drmclosesession.htm
 old-project: adrms_sdk
 ms.assetid: e948b31f-382c-4a32-8cc3-98df8c4a6db0
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMCloseSession, DRMCloseSession function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCloseSession, rm.drmclosesession
 ms.prod: windows
 ms.technology: windows-sdk

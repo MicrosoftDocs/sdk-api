@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice1_getvideodecodercaps.htm
 old-project: medfound
 ms.assetid: 9F978BE5-568E-440C-B9B2-0972893FD970
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetVideoDecoderCaps, GetVideoDecoderCaps method [Media Foundation], GetVideoDecoderCaps method [Media Foundation],ID3D11VideoDevice1 interface, ID3D11VideoDevice1 interface [Media Foundation],GetVideoDecoderCaps method, ID3D11VideoDevice1.GetVideoDecoderCaps, ID3D11VideoDevice1::GetVideoDecoderCaps, d3d11_1/ID3D11VideoDevice1::GetVideoDecoderCaps, mf.id3d11videodevice1_getvideodecodercaps
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ The video height for which the capabilities are queried.
 
 ### -param pFrameRate [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a>*</b>
 
 The frame rate of the video content. This information is used by the driver to determine whether the video can be decoded in real-time.
 
@@ -113,7 +113,7 @@ A pointer to a bitwise OR combination of <a href="https://msdn.microsoft.com/8E3
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns one of the following error codes.
 

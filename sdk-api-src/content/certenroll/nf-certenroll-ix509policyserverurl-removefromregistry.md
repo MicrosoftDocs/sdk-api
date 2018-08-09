@@ -7,7 +7,7 @@ old-location: security\ix509policyserverurl_removefromregistry.htm
 old-project: seccertenroll
 ms.assetid: 18f9a445-99db-43b1-bee0-35bfbd1de0a5
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],RemoveFromRegistry method, IX509PolicyServerUrl.RemoveFromRegistry, IX509PolicyServerUrl::RemoveFromRegistry, RemoveFromRegistry, RemoveFromRegistry method [Security], RemoveFromRegistry method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::RemoveFromRegistry, security.ix509policyserverurl_removefromregistry
 ms.prod: windows
 ms.technology: windows-sdk

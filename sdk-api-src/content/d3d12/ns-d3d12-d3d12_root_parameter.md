@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_root_parameter.htm
 old-project: direct3d12
 ms.assetid: CC1DFE85-7F83-4551-86C6-1AFDF746FC92
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: D3D12_ROOT_PARAMETER, D3D12_ROOT_PARAMETER structure, d3d12/D3D12_ROOT_PARAMETER, direct3d12.d3d12_root_parameter
 ms.prod: windows
 ms.technology: windows-sdk

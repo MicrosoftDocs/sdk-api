@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device2_checkmultisamplequalitylevels1.htm
 old-project: direct3d11
 ms.assetid: 1248F56D-C9A3-415E-85BB-E4FFC8283497
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: CheckMultisampleQualityLevels1, CheckMultisampleQualityLevels1 method [Direct3D 11], CheckMultisampleQualityLevels1 method [Direct3D 11],ID3D11Device2 interface, ID3D11Device2 interface [Direct3D 11],CheckMultisampleQualityLevels1 method, ID3D11Device2.CheckMultisampleQualityLevels1, ID3D11Device2::CheckMultisampleQualityLevels1, d3d11_2/ID3D11Device2::CheckMultisampleQualityLevels1, direct3d11.id3d11device2_checkmultisamplequalitylevels1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Get the number of quality levels available during multisampling.
 
 ### -param Format [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
 
 The texture format during multisampling. 
 
@@ -77,7 +77,7 @@ The number of samples during multisampling.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A combination of <a href="https://msdn.microsoft.com/756AD5B2-3B6A-4F28-B034-93F59C41D02B">D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAGS</a> values that are combined by using a bitwise OR operation. Currently, only <a href="https://msdn.microsoft.com/library/Dn280374(v=VS.85).aspx">D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_TILED_RESOURCE</a> is supported. 
+A combination of <a href="https://msdn.microsoft.com/756AD5B2-3B6A-4F28-B034-93F59C41D02B">D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAGS</a> values that are combined by using a bitwise OR operation. Currently, only <a href="https://msdn.microsoft.com/en-us/library/Dn280374(v=VS.85).aspx">D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_TILED_RESOURCE</a> is supported. 
 
 
 ### -param pNumQualityLevels [out]
@@ -91,7 +91,7 @@ A pointer to a variable the receives the number of quality levels supported by t
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

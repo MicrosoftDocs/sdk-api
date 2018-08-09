@@ -7,7 +7,7 @@ old-location: ics\inetfwservices_count.htm
 old-project: ics
 ms.assetid: 543d54d9-1dc8-4348-ab8d-369857a213ef
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF],INetFwServices interface, INetFwServices interface [ICS/ICF],Count property, INetFwServices.Count, INetFwServices.get_Count, INetFwServices::Count, INetFwServices::get_Count, get_Count, ics.inetfwservices_count, netfw/INetFwServices::Count, netfw/INetFwServices::get_Count
 ms.prod: windows
 ms.technology: windows-sdk

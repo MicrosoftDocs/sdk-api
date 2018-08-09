@@ -7,7 +7,7 @@ old-location: search\_search_ISearchRoot_put_HostDepth.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_hostdepth.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchRoot interface [search],put_HostDepth method, ISearchRoot.put_HostDepth, ISearchRoot::put_HostDepth, _search_ISearchRoot_put_HostDepth, put_HostDepth, put_HostDepth method [search], put_HostDepth method [search],ISearchRoot interface, search._search_ISearchRoot_put_HostDepth, searchapi/ISearchRoot::put_HostDepth
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: ADAM
 
 <p class="CCE_Message">[<b>put_HostDepth</b> may be altered or unavailable in subsequent versions of the operating system or product.]
 
-
-		Sets a value that indicates how far into a host tree to crawl when indexing.
+Sets a value that indicates how far into a host tree to crawl when indexing.
 
 
 ## -parameters

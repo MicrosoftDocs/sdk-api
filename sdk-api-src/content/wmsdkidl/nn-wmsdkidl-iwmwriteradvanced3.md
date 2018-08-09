@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriteradvanced3.htm
 old-project: wmformat
 ms.assetid: 99f7e4f7-0080-498d-b4f1-960c4955b4db
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWMWriterAdvanced3, IWMWriterAdvanced3 interface [windows Media Format], IWMWriterAdvanced3 interface [windows Media Format],described, IWMWriterAdvanced3Interface, wmformat.iwmwriteradvanced3, wmsdkidl/IWMWriterAdvanced3
 ms.prod: windows
 ms.technology: windows-sdk

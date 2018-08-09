@@ -7,7 +7,7 @@ old-location: menurc\createiconfromresourceex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\createiconfromresourceex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateIconFromResourceEx, CreateIconFromResourceEx function [Menus and Other Resources], LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_MONOCHROME, LR_SHARED, _win32_CreateIconFromResourceEx, _win32_createiconfromresourceex_cpp, menurc.createiconfromresourceex, winui._win32_createiconfromresourceex, winuser/CreateIconFromResourceEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,18 @@ Creates an icon or cursor from resource bits describing the icon.
 
 
 
-### -param presbits
+### -param presbits [in]
 
-TBD
+Type: <b>PBYTE</b>
+
+The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="https://msdn.microsoft.com/en-us/library/ms648074(v=VS.85).aspx">LookupIconIdFromDirectoryEx</a> and <a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a> functions. 
 
 
-### -param dwResSize
+### -param dwResSize [in]
 
-TBD
+Type: <b>DWORD</b>
+
+The size, in bytes, of the set of bits pointed to by the <i>pbIconBits</i> parameter. 
 
 
 ### -param fIcon [in]
@@ -76,9 +80,11 @@ Type: <b>BOOL</b>
 Indicates whether an icon or a cursor is to be created. If this parameter is <b>TRUE</b>, an icon is to be created. If it is <b>FALSE</b>, a cursor is to be created. 
 
 
-### -param dwVer
+### -param dwVer [in]
 
-TBD
+Type: <b>DWORD</b>
+
+The version number of the icon or cursor format for the resource bits pointed to by the <i>pbIconBits</i> parameter. The value must be greater than or equal to 0x00020000 and less than or equal to 0x00030000. This parameter is generally set to 0x00030000. 
 
 
 ### -param cxDesired [in]
@@ -95,35 +101,7 @@ Type: <b>int</b>
 The desired height, in pixels, of the icon or cursor. If this parameter is zero, the function uses the <b>SM_CYICON</b> or <b>SM_CYCURSOR</b> system metric value to set the height. 
 
 
-### -param Flags
-
-TBD
-
-
-
-
-#### - cbIconBits [in]
-
-Type: <b>DWORD</b>
-
-The size, in bytes, of the set of bits pointed to by the <i>pbIconBits</i> parameter. 
-
-
-#### - dwVersion [in]
-
-Type: <b>DWORD</b>
-
-The version number of the icon or cursor format for the resource bits pointed to by the <i>pbIconBits</i> parameter. The value must be greater than or equal to 0x00020000 and less than or equal to 0x00030000. This parameter is generally set to 0x00030000. 
-
-
-#### - pbIconBits [in]
-
-Type: <b>PBYTE</b>
-
-The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="https://msdn.microsoft.com/en-us/library/ms648074(v=VS.85).aspx">LookupIconIdFromDirectoryEx</a> and <a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a> functions. 
-
-
-#### - uFlags [in]
+### -param Flags [in]
 
 Type: <b>UINT</b>
 

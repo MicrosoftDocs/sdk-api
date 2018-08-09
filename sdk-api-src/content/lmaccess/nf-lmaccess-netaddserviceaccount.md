@@ -7,7 +7,7 @@ old-location: security\netaddserviceaccount.htm
 old-project: secmgmt
 ms.assetid: 004bd392-8837-4d98-905a-cd19ed02817d
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 08/06/2018
 ms.keywords: NetAddServiceAccount, NetAddServiceAccount function [Security], SERVICE_ACCOUNT_FLAG_LINK_TO_HOST_ONLY, lmaccess/NetAddServiceAccount, security.netaddserviceaccount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,9 +73,9 @@ The value of this parameter must be <b>NULL</b>.
 The name of the account to be created.
 
 
-### -param Password
+### -param Password [in]
 
-TBD
+This parameter is reserved. Do not use it.
 
 
 ### -param Flags [in]
@@ -100,11 +100,6 @@ No standalone managed service account is created. If a service account with the 
 </tr>
 </table>
  
-
-
-#### - Reserved [in]
-
-This parameter is reserved. Do not use it.
 
 
 ## -returns

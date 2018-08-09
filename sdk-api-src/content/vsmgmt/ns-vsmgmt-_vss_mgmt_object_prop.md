@@ -4,10 +4,10 @@ title: "_VSS_MGMT_OBJECT_PROP"
 author: windows-sdk-content
 description: Defines the properties of a volume, shadow copy storage volume, or a shadow copy storage area.
 old-location: base\vss_mgmt_object_prop.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 86681207-969e-4b33-aff8-79454ab04829
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PVSS_MGMT_OBJECT_PROP, PVSS_MGMT_OBJECT_PROP, PVSS_MGMT_OBJECT_PROP structure pointer [VSS], VSS_MGMT_OBJECT_PROP, VSS_MGMT_OBJECT_PROP structure [VSS], _VSS_MGMT_OBJECT_PROP, base.vss_mgmt_object_prop, vsmgmt/PVSS_MGMT_OBJECT_PROP, vsmgmt/VSS_MGMT_OBJECT_PROP"
 ms.prod: windows
 ms.technology: windows-sdk

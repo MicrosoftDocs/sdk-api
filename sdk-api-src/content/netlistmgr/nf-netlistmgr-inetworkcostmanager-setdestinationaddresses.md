@@ -7,7 +7,7 @@ old-location: nla\inetworkcostmanager_setdestinationaddresses.htm
 old-project: nla
 ms.assetid: D4CA45C5-0AF1-443A-9134-BB82268ABFD5
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: INetworkCostManager interface [Network Awareness],SetDestinationAddresses method, INetworkCostManager.SetDestinationAddresses, INetworkCostManager::SetDestinationAddresses, SetDestinationAddresses, SetDestinationAddresses method [Network Awareness], SetDestinationAddresses method [Network Awareness],INetworkCostManager interface, netlistmgr/INetworkCostManager::SetDestinationAddresses, nla.inetworkcostmanager_setdestinationaddresses
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor4.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor4\iurlaccessor4.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: IUrlAccessor4, IUrlAccessor4 interface [search], IUrlAccessor4 interface [search],described, _search_IUrlAccessor4, search._search_IUrlAccessor4, searchapi/IUrlAccessor4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,12 +51,12 @@ req.product: ADAM
 ## -description
 
 
-Extends the functionality of the <a href="https://msdn.microsoft.com/library/Cc142931(v=VS.85).aspx">IUrlAccessor3</a> interface with the <a href="https://msdn.microsoft.com/library/Dd183432(v=VS.85).aspx">IUrlAccessor4::ShouldIndexItemContent</a> method that identifies whether the content of the item should be indexed. 
+Extends the functionality of the <a href="https://msdn.microsoft.com/en-us/library/Cc142931(v=VS.85).aspx">IUrlAccessor3</a> interface with the <a href="https://msdn.microsoft.com/en-us/library/Dd183432(v=VS.85).aspx">IUrlAccessor4::ShouldIndexItemContent</a> method that identifies whether the content of the item should be indexed. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUrlAccessor4</b> interface inherits from <a href="https://msdn.microsoft.com/library/Cc142931(v=VS.85).aspx">IUrlAccessor3</a>. <b>IUrlAccessor4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUrlAccessor4</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Cc142931(v=VS.85).aspx">IUrlAccessor3</a>. <b>IUrlAccessor4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,40 +71,37 @@ The <b>IUrlAccessor4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231400(v=VS.85).aspx">GetCodePage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231400(v=VS.85).aspx">GetCodePage</a>
 </td>
 <td align="left" width="63%">
-
-            Gets the code page for properties of the URL item.
+Gets the code page for properties of the URL item.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231401(v=VS.85).aspx">GetDisplayUrl</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231401(v=VS.85).aspx">GetDisplayUrl</a>
 </td>
 <td align="left" width="63%">
-
-            Gets the user-friendly path for the URL item.
+Gets the user-friendly path for the URL item.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Cc288228(v=VS.85).aspx">GetImpersonationSidBlobs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Cc288228(v=VS.85).aspx">GetImpersonationSidBlobs</a>
 </td>
 <td align="left" width="63%">
-
-            Retrieves an array of user SIDs for a specified URL. This method enables protocol handlers to specify which users can access the file and the search protocol host to impersonate a user in order to index the file.
+Retrieves an array of user SIDs for a specified URL. This method enables protocol handlers to specify which users can access the file and the search protocol host to impersonate a user in order to index the file.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231411(v=VS.85).aspx">IsDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231411(v=VS.85).aspx">IsDocument</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether an item URL is a document or directory.
@@ -113,11 +110,10 @@ Ascertains whether an item URL is a document or directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd183432(v=VS.85).aspx">ShouldIndexItemContent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd183432(v=VS.85).aspx">ShouldIndexItemContent</a>
 </td>
 <td align="left" width="63%">
-
-            Identifies whether the item's content should be indexed. 
+Identifies whether the item's content should be indexed. 
         
 
 </td>
@@ -143,15 +139,15 @@ Identifies whether a property should be indexed.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231412(v=VS.85).aspx">IUrlAccessor2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231412(v=VS.85).aspx">IUrlAccessor2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc142931(v=VS.85).aspx">IUrlAccessor3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Cc142931(v=VS.85).aspx">IUrlAccessor3</a>
 
 
 
@@ -159,7 +155,7 @@ Identifies whether a property should be indexed.
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
+<a href="https://msdn.microsoft.com/en-us/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
  
 
  

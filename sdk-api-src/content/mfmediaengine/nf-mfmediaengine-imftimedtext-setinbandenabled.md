@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_setinbandenabled.htm
 old-project: medfound
 ms.assetid: 4AF63D30-4A91-4DFF-96B9-0A26102B93FE
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFTimedText interface [Media Foundation],SetInBandEnabled method, IMFTimedText.SetInBandEnabled, IMFTimedText::SetInBandEnabled, SetInBandEnabled, SetInBandEnabled method [Media Foundation], SetInBandEnabled method [Media Foundation],IMFTimedText interface, mf.imftimedtext_setinbandenabled, mfmediaengine/IMFTimedText::SetInBandEnabled
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ Enables or disables inband mode.
 
 Type: <b>BOOL</b>
 
-
-            Specifies whether inband mode is enabled. If <b>TRUE</b>, inband mode is enabled. If <b>FALSE</b>, inband mode is disabled.
+Specifies whether inband mode is enabled. If <b>TRUE</b>, inband mode is enabled. If <b>FALSE</b>, inband mode is disabled.
           
 
 

@@ -7,7 +7,7 @@ old-location: controls\TreeView_SetItemHeight.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setitemheight.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TreeView_SetItemHeight, TreeView_SetItemHeight macro [Windows Controls], _win32_TreeView_SetItemHeight, _win32_TreeView_SetItemHeight_cpp, commctrl/TreeView_SetItemHeight, controls.TreeView_SetItemHeight, controls._win32_TreeView_SetItemHeight
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the height of the tree-view items. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773761(v=VS.85).aspx">TVM_SETITEMHEIGHT</a> message explicitly. 
+Sets the height of the tree-view items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773761(v=VS.85).aspx">TVM_SETITEMHEIGHT</a> message explicitly. 
 
 
 ## -parameters
@@ -60,37 +60,23 @@ Sets the height of the tree-view items. You can use this macro or send the <a hr
 
 ### -param hwnd
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to a tree-view control. 
 
 
 ### -param iHeight
-
-TBD
-
-
-
-
-
-
-#### - cyItem
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SHORT</a></b>
 
 New height of every item in the tree view, in pixels. Heights less than 1 will be set to 1. If this argument is not even, it will be rounded down to the nearest even value. If this argument is -1, the control will revert to using its default item height. 
 
 
-#### - hwndTV
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to a tree-view control. 
-
-
 ## -remarks
 
 
 
-The tree-view control uses this value for the height of all items. To modify the height of individual items, see the description of the <b>iIntegral</b> member of the <a href="https://msdn.microsoft.com/library/Bb773459(v=VS.85).aspx">TVITEMEX</a> structure. 
+The tree-view control uses this value for the height of all items. To modify the height of individual items, see the description of the <b>iIntegral</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb773459(v=VS.85).aspx">TVITEMEX</a> structure. 
 
 
 
@@ -100,7 +86,7 @@ The tree-view control uses this value for the height of all items. To modify the
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773844(v=VS.85).aspx">TreeView_GetItemHeight</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773844(v=VS.85).aspx">TreeView_GetItemHeight</a>
  
 
  

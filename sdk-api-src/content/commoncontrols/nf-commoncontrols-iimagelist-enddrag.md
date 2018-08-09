@@ -7,7 +7,7 @@ old-location: controls\IImageList_EndDrag.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\enddrag.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: EndDrag, EndDrag method [Windows Controls], EndDrag method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],EndDrag method, IImageList.EndDrag, IImageList::EndDrag, comctl_IImageList_EndDrag, comctl_IImageList_EndDrag_cpp, commoncontrols/IImageList::EndDrag, controls.IImageList_EndDrag, controls.comctl_IImageList_EndDrag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-		Ends a drag operation. 
+Ends a drag operation. 
 		
 
 
@@ -77,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To use <b>IImageList::EndDrag</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>IImageList::EndDrag</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

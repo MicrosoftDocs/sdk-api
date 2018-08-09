@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor2_GetDisplayUrl.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor2\getdisplayurl.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: GetDisplayUrl, GetDisplayUrl method [search], GetDisplayUrl method [search],IUrlAccessor2 interface, GetDisplayUrl method [search],IUrlAccessor4 interface, IUrlAccessor2 interface [search],GetDisplayUrl method, IUrlAccessor2.GetDisplayUrl, IUrlAccessor2::GetDisplayUrl, IUrlAccessor4 interface [search],GetDisplayUrl method, IUrlAccessor4::GetDisplayUrl, _search_IUrlAccessor2_GetDisplayUrl, search._search_IUrlAccessor2_GetDisplayUrl, searchapi/IUrlAccessor2::GetDisplayUrl, searchapi/IUrlAccessor4::GetDisplayUrl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-            Gets the user-friendly path for the URL item.
+Gets the user-friendly path for the URL item.
         
 
 
@@ -74,9 +73,7 @@ Receives the display URL as a null-terminated Unicode string.
 
 Type: <b>DWORD</b>
 
-
-                Size in <b>TCHAR</b><b>s</b>
-                of <i>wszDocUrl</i>.
+Size in <b>TCHAR</b><b>s</b>of <i>wszDocUrl</i>.
                 
 
 
@@ -84,8 +81,7 @@ Type: <b>DWORD</b>
 
 Type: <b>DWORD*</b>
 
-
-                Receives a pointer to the number of
+Receives a pointer to the number of
                 <b>TCHAR</b><b>s</b> written
                 to <i>wszDocUrl</i>, not including the terminating <b>NULL</b>. 
                 

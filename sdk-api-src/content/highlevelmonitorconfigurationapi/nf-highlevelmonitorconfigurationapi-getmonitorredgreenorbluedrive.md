@@ -7,7 +7,7 @@ old-location: monitor\getmonitorredgreenorbluedrive.htm
 old-project: Monitor
 ms.assetid: 4c590d1c-be28-401a-a0e9-dacf6b86a569
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetMonitorRedGreenOrBlueDrive, GetMonitorRedGreenOrBlueDrive function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorRedGreenOrBlueDrive, monitor.getmonitorredgreenorbluedrive
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-        Retrieves a monitor's red, green, or blue drive value.
+Retrieves a monitor's red, green, or blue drive value.
 
 
 ## -parameters
@@ -62,36 +61,31 @@ req.product: GDI+ 1.1
 
 ### -param hMonitor [in]
 
-
-            Handle to a physical monitor. To get the monitor handle, call <a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
+Handle to a physical monitor. To get the monitor handle, call <a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
           
 
 
 ### -param dtDriveType [in]
 
-
-            A member of the <a href="https://msdn.microsoft.com/bc81d258-277d-4f69-be6c-724efcdeee56">MC_DRIVE_TYPE</a> enumeration, specifying whether to retrieve the red, green, or blue drive value.
+A member of the <a href="https://msdn.microsoft.com/bc81d258-277d-4f69-be6c-724efcdeee56">MC_DRIVE_TYPE</a> enumeration, specifying whether to retrieve the red, green, or blue drive value.
           
 
 
 ### -param pdwMinimumDrive [out]
 
-
-            Receives the minimum red, green, or blue drive value.
+Receives the minimum red, green, or blue drive value.
           
 
 
 ### -param pdwCurrentDrive [out]
 
-
-            Receives the current red, green, or blue drive value.
+Receives the current red, green, or blue drive value.
           
 
 
 ### -param pdwMaximumDrive [out]
 
-
-            Receives the maximum red, green, or blue drive value.
+Receives the maximum red, green, or blue drive value.
           
 
 
@@ -99,8 +93,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
           
 
 
@@ -110,16 +103,13 @@ req.product: GDI+ 1.1
 
 
 
-
-        Drive settings are generally used to adjust the monitor's white point. <i>Drive</i> and <i>black level</i> are different names for the same monitor setting. If this function is supported, the <a href="https://msdn.microsoft.com/57cf0004-58cf-46d9-b5be-22edda2ce5a9">GetMonitorCapabilities</a> function returns the MC_CAPS_RED_GREEN_BLUE_DRIVE flag.
+Drive settings are generally used to adjust the monitor's white point. <i>Drive</i> and <i>black level</i> are different names for the same monitor setting. If this function is supported, the <a href="https://msdn.microsoft.com/57cf0004-58cf-46d9-b5be-22edda2ce5a9">GetMonitorCapabilities</a> function returns the MC_CAPS_RED_GREEN_BLUE_DRIVE flag.
       
 
-
-        This function takes about 40 milliseconds to return.
+This function takes about 40 milliseconds to return.
       
 
-
-        The drive settings are continuous monitor settings. For more information, see <a href="https://msdn.microsoft.com/23e5d45d-a924-4119-b21d-b24764b53a94">Using the High-Level Monitor Configuration Functions</a>.
+The drive settings are continuous monitor settings. For more information, see <a href="https://msdn.microsoft.com/23e5d45d-a924-4119-b21d-b24764b53a94">Using the High-Level Monitor Configuration Functions</a>.
       
 
 

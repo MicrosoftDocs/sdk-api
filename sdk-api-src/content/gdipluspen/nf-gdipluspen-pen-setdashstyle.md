@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_SetDashStyle_dashStyle_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setdashstyle.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Pen class [GDI+],SetDashStyle method, Pen.SetDashStyle, Pen::SetDashStyle, SetDashStyle, SetDashStyle method [GDI+], SetDashStyle method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetDashStyle_dashStyle_, gdiplus._gdiplus_CLASS_Pen_SetDashStyle_dashStyle_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Pen::SetDashStyle</b> method sets the dash style for this 
-			<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object.
 
 
 ## -parameters
@@ -62,11 +62,11 @@ The <b>Pen::SetDashStyle</b> method sets the dash style for this
 
 ### -param dashStyle [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534104(v=VS.85).aspx">DashStyle</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534104(v=VS.85).aspx">DashStyle</a></b>
 
 Element of the 
-					<a href="https://msdn.microsoft.com/library/ms534104(v=VS.85).aspx">DashStyle</a> enumeration that specifies the dash style for this 
-					<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object. 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534104(v=VS.85).aspx">DashStyle</a> enumeration that specifies the dash style for this 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object. 
 
 
 ## -returns
@@ -90,7 +90,7 @@ If the method fails, it returns one of the other elements of the
 
 
 The length of the dashes in a dashed line is dependent on the dash style and the width of the 
-				<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object. The length of the space that separates two dashes in a dashed line is equal to the width of the 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object. The length of the space that separates two dashes in a dashed line is equal to the width of the 
 				<b>Pen</b> object. 
 
 
@@ -99,7 +99,7 @@ The length of the dashes in a dashed line is dependent on the dash style and the
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object, sets the dash style, and draws a line. The code then resets the dash style, draws a second line, resets dash style again, and draws a third line.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object, sets the dash style, and draws a line. The code then resets the dash style, draws a second line, resets dash style again, and draws a third line.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -137,47 +137,47 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533850(v=VS.85).aspx">Drawing a Custom Dashed Line</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533850(v=VS.85).aspx">Drawing a Custom Dashed Line</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535024(v=VS.85).aspx">Pen::GetDashCap</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535024(v=VS.85).aspx">Pen::GetDashCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535025(v=VS.85).aspx">Pen::GetDashOffset</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535025(v=VS.85).aspx">Pen::GetDashOffset</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535026(v=VS.85).aspx">Pen::GetDashPattern</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535026(v=VS.85).aspx">Pen::GetDashPattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535027(v=VS.85).aspx">Pen::GetDashPatternCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535027(v=VS.85).aspx">Pen::GetDashPatternCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535028(v=VS.85).aspx">Pen::GetDashStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535028(v=VS.85).aspx">Pen::GetDashStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535047(v=VS.85).aspx">Pen::SetDashCap</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535047(v=VS.85).aspx">Pen::SetDashCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535048(v=VS.85).aspx">Pen::SetDashOffset</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535048(v=VS.85).aspx">Pen::SetDashOffset</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535049(v=VS.85).aspx">Pen::SetDashPattern</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535049(v=VS.85).aspx">Pen::SetDashPattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
  
 
  

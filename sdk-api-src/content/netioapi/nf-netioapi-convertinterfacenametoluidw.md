@@ -7,7 +7,7 @@ old-location: iphlp\convertinterfacenametoluidw.htm
 old-project: iphlp
 ms.assetid: 473be9f0-7fac-46f0-b33c-839906411fdc
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: ConvertInterfaceNameToLuidW, ConvertInterfaceNameToLuidW function [IP Helper], iphlp.convertinterfacenametoluidw, netioapi/ConvertInterfaceNameToLuidW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ On success,
 <tr>
 <td width="40%">
 <dl>
-<dt><b>
-								ERROR_INVALID_NAME</b></dt>
+<dt><b>ERROR_INVALID_NAME</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -115,9 +114,7 @@ One of the parameters was invalid. This error is returned if the <i>InterfaceLui
 
 
 
-The <b>ConvertInterfaceNameToLuidW</b> function is available on Windows Vista
-  
-   and later.
+The <b>ConvertInterfaceNameToLuidW</b> function is available on Windows Vistaand later.
 
 The <b>ConvertInterfaceNameToLuidW</b> function is protocol independent and works with network interfaces for both the IPv6 and IPv4 protocol. The <b>ConvertInterfaceNameToLuidW</b> converts a Unicode interface name to a LUID. 
 

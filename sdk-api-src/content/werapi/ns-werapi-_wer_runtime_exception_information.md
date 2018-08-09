@@ -7,7 +7,7 @@ old-location: wer\wer_runtime_exception_information.htm
 old-project: wer
 ms.assetid: fcf956ac-6015-439c-aec6-8f6a826ff269
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 08/06/2018
 ms.keywords: "*PWER_RUNTIME_EXCEPTION_INFORMATION, PWER_RUNTIME_EXCEPTION_INFORMATION, PWER_RUNTIME_EXCEPTION_INFORMATION structure pointer [Windows Error Reporting], WER_RUNTIME_EXCEPTION_INFORMATION, WER_RUNTIME_EXCEPTION_INFORMATION structure [Windows Error Reporting], _WER_RUNTIME_EXCEPTION_INFORMATION, wer.wer_runtime_exception_information, werapi/PWER_RUNTIME_EXCEPTION_INFORMATION, werapi/WER_RUNTIME_EXCEPTION_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

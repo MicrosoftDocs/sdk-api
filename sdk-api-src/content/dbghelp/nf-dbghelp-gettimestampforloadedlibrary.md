@@ -7,7 +7,7 @@ old-location: base\gettimestampforloadedlibrary.htm
 old-project: debug
 ms.assetid: 9ce7b211-5447-4624-b197-85730c4a7a10
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: GetTimestampForLoadedLibrary, GetTimestampForLoadedLibrary function, _win32_gettimestampforloadedlibrary, base.gettimestampforloadedlibrary, dbghelp/GetTimestampForLoadedLibrary
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,14 +58,7 @@ Retrieves the time stamp of a loaded image.
 
 
 
-### -param Module
-
-TBD
-
-
-
-
-#### - ImageBase [in]
+### -param Module [in]
 
 The base address of an image that is mapped into memory by a call to the 
 <a href="https://msdn.microsoft.com/df9f54cd-b2de-4107-a1c5-d5a07045851e">MapViewOfFile</a> function.

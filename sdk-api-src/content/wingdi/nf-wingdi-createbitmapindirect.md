@@ -7,7 +7,7 @@ old-location: gdi\createbitmapindirect.htm
 old-project: gdi
 ms.assetid: 79f73e28-4ee3-472d-9a20-3ffe7cf2a6b5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateBitmapIndirect, CreateBitmapIndirect function [Windows GDI], _win32_CreateBitmapIndirect, gdi.createbitmapindirect, wingdi/CreateBitmapIndirect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,14 +63,7 @@ The <b>CreateBitmapIndirect</b> function creates a bitmap with the specified wid
 
 
 
-### -param pbm
-
-TBD
-
-
-
-
-#### - lpbm [in]
+### -param pbm [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">BITMAP</a> structure that contains information about the bitmap. If an application sets the <b>bmWidth</b> or <b>bmHeight</b> members to zero, <b>CreateBitmapIndirect</b> returns the handle to a 1-by-1 pixel, monochrome bitmap.
 

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLine_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddlinemethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: AddLine, AddLine methods [GDI+], GraphicsPath.AddLine, GraphicsPath::AddLine, _gdiplus_CLASS_GraphicsPath_AddLine_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddLine_Methods, gdipluspath/AddLine
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,9 +53,9 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 AddLine methods of the 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
 <b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -65,37 +65,37 @@ AddLine methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535601(v=VS.85).aspx">AddLine(Point&,Point&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535601(v=VS.85).aspx">AddLine(Point&,Point&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535601(v=VS.85).aspx">GraphicsPath::AddLine</a> method adds a line to the current figure of this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535601(v=VS.85).aspx">GraphicsPath::AddLine</a> method adds a line to the current figure of this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535604(v=VS.85).aspx">AddLine(INT,INT,INT,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535604(v=VS.85).aspx">AddLine(INT,INT,INT,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535604(v=VS.85).aspx">GraphicsPath::AddLine</a> method adds a line to the current figure of this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535604(v=VS.85).aspx">GraphicsPath::AddLine</a> method adds a line to the current figure of this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535602(v=VS.85).aspx">AddLine(PointF&,PointF&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535602(v=VS.85).aspx">AddLine(PointF&,PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535602(v=VS.85).aspx">GraphicsPath::AddLine</a> method adds a line to the current figure of this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535602(v=VS.85).aspx">GraphicsPath::AddLine</a> method adds a line to the current figure of this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535603(v=VS.85).aspx">AddLine(REAL,REAL,REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535603(v=VS.85).aspx">AddLine(REAL,REAL,REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535603(v=VS.85).aspx">GraphicsPath::AddLine</a> method adds a line to the current figure of this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535603(v=VS.85).aspx">GraphicsPath::AddLine</a> method adds a line to the current figure of this path.
 
 </td>
 </tr>

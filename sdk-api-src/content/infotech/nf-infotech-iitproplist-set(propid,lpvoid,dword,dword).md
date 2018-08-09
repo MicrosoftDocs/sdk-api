@@ -223,7 +223,7 @@ Use this method to set properties stored in a buffer.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms670040(v=VS.85).aspx">IITPropList</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670040(v=VS.85).aspx">IITPropList</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10stateblockmaskenableall.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10stateblockmaskenableall.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 616dd4e2-841d-9b31-8251-b729947c2c0f, D3D10StateBlockMaskEnableAll, D3D10StateBlockMaskEnableAll function [Direct3D 10], d3d10effect/D3D10StateBlockMaskEnableAll, direct3d10.d3d10stateblockmaskenableall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ Enable a state-block mask to capture and apply all state variables.
 
 ### -param pMask [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172453(v=VS.85).aspx">D3D10_STATE_BLOCK_MASK</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172453(v=VS.85).aspx">D3D10_STATE_BLOCK_MASK</a>*</b>
 
 A mask with everything turned on.
 
@@ -69,9 +69,9 @@ A mask with everything turned on.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -81,11 +81,11 @@ This method returns one of the following <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205151(v=VS.85).aspx">Core Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205151(v=VS.85).aspx">Core Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205177(v=VS.85).aspx">Effect Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205177(v=VS.85).aspx">Effect Functions</a>
  
 
  

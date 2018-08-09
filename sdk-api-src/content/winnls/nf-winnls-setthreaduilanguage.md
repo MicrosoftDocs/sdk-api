@@ -7,7 +7,7 @@ old-location: intl\setthreaduilanguage.htm
 old-project: Intl
 ms.assetid: 30a0cecf-0ed1-4c03-bd5e-da07b1828c75
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetThreadUILanguage, SetThreadUILanguage function [Internationalization for Windows Applications], _win32_SetThreadUILanguage, intl.setthreaduilanguage, winnls/SetThreadUILanguage
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_pushemptystoragefilter.htm
 old-project: direct3d12
 ms.assetid: 27D7B243-934E-440F-8571-914D7EAF355E
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: ID3D12InfoQueue interface,PushEmptyStorageFilter method, ID3D12InfoQueue.PushEmptyStorageFilter, ID3D12InfoQueue::PushEmptyStorageFilter, PushEmptyStorageFilter, PushEmptyStorageFilter method, PushEmptyStorageFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PushEmptyStorageFilter, direct3d12.id3d12infoqueue_pushemptystoragefilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Push an empty storage filter onto the storage-filter stack.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>. 
           

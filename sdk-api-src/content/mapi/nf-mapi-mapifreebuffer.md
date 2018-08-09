@@ -7,8 +7,8 @@ old-location: mapi\mapifreebuffer.htm
 old-project: windowsmapi
 ms.assetid: b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed
 ms.author: windowssdkdev
-ms.date: 05/14/2018
-ms.keywords: MAPIFreeBuffer, MAPIFreeBuffer function, mapi.mapifreebuffer, wabmem/MAPIFreeBuffer
+ms.date: 08/07/2018
+ms.keywords: MAPIFreeBuffer, MAPIFreeBuffer callback, MAPIFreeBuffer callback function, mapi.mapifreebuffer, wabmem/MAPIFreeBuffer
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
@@ -32,15 +32,15 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - DllExport
+ - UserDefined
 api_location:
- - Mapi32.dll
+ - wabmem.h
 api_name:
  - MAPIFreeBuffer
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: Mapi32.dll
+req.dll: 
 req.irql: 
 req.product: GDI+ 1.1
 ---

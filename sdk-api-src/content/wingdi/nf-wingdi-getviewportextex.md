@@ -7,7 +7,7 @@ old-location: gdi\getviewportextex.htm
 old-project: gdi
 ms.assetid: e3fc188a-3796-497d-9d86-f116e9e48e30
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetViewportExtEx, GetViewportExtEx function [Windows GDI], _win32_GetViewportExtEx, gdi.getviewportextex, wingdi/GetViewportExtEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,7 @@ The <b>GetViewportExtEx</b> function retrieves the x-extent and y-extent of the 
 A handle to the device context.
 
 
-### -param lpsize
-
-TBD
-
-
-
-
-#### - lpSize [out]
+### -param lpsize [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that receives the x- and y-extents, in device units.
 

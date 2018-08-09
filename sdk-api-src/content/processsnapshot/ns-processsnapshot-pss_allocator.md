@@ -7,7 +7,7 @@ old-location: proc_snap\pss_allocator.htm
 old-project: proc_snap
 ms.assetid: 54225F76-9A2E-4CB3-A3B5-9F9DB5551D53
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: PSS_ALLOCATOR, PSS_ALLOCATOR structure, proc_snap.pss_allocator, processsnapshot/PSS_ALLOCATOR
 ms.prod: windows
 ms.technology: windows-sdk

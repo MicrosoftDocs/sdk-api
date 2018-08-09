@@ -7,7 +7,7 @@ old-location: hidpi\openthemedatafordpi.htm
 old-project: hidpi
 ms.assetid: 40044856-82F2-47E2-AD4B-5E4F3868E7B8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: OpenThemeDataForDpi, OpenThemeDataForDpi function [High DPI], hidpi.openthemedatafordpi, uxtheme/OpenThemeDataForDpi
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,17 +66,12 @@ The handle of the window for which theme data is required.
 
 ### -param pszClassList
 
-TBD
+A pointer to a string that contains a semicolon-separated list of classes.
 
 
 ### -param dpi
 
 The specified DPI value with which to associate the theme handle. The function will return an error if this value is outside of those that correspond to the set of connected monitors.
-
-
-#### - pszClassIdList
-
-A pointer to a string that contains a semicolon-separated list of classes.
 
 
 ## -returns

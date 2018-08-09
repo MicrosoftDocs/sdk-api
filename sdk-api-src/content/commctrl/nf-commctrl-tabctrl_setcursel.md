@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_SetCurSel.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setcursel.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TabCtrl_SetCurSel, TabCtrl_SetCurSel macro [Windows Controls], _win32_TabCtrl_SetCurSel, _win32_TabCtrl_SetCurSel_cpp, commctrl/TabCtrl_SetCurSel, controls.TabCtrl_SetCurSel, controls._win32_TabCtrl_SetCurSel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Selects a tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760612(v=VS.85).aspx">TCM_SETCURSEL</a> message explicitly. 
+Selects a tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760612(v=VS.85).aspx">TCM_SETCURSEL</a> message explicitly. 
 
 
 ## -parameters
@@ -67,15 +67,6 @@ Handle to the tab control.
 
 ### -param i
 
-TBD
-
-
-
-
-
-
-#### - iItem
-
 Type: <b>int</b>
 
 Index of the tab to select. 
@@ -85,7 +76,7 @@ Index of the tab to select.
 
 
 
-A tab control does not send a <a href="https://msdn.microsoft.com/library/Bb760571(v=VS.85).aspx">TCN_SELCHANGING</a> or <a href="https://msdn.microsoft.com/library/Bb760569(v=VS.85).aspx">TCN_SELCHANGE</a> notification code when a tab is selected using the <a href="https://msdn.microsoft.com/library/Bb760612(v=VS.85).aspx">TCM_SETCURSEL</a> message. 
+A tab control does not send a <a href="https://msdn.microsoft.com/en-us/library/Bb760571(v=VS.85).aspx">TCN_SELCHANGING</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb760569(v=VS.85).aspx">TCN_SELCHANGE</a> notification code when a tab is selected using the <a href="https://msdn.microsoft.com/en-us/library/Bb760612(v=VS.85).aspx">TCM_SETCURSEL</a> message. 
 
 
 

@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice_put_friendlyname.htm
 old-project: WMP
 ms.assetid: caea8f34-8d0c-49ce-ae86-fda6c6b0b68b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],put_friendlyName method, IWMPSyncDevice.put_friendlyName, IWMPSyncDevice::put_friendlyName, IWMPSyncDeviceput_friendlyName, put_friendlyName, put_friendlyName method [Windows Media Player], put_friendlyName method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_put_friendlyname, wmp/IWMPSyncDevice::put_friendlyName
 ms.prod: windows
 ms.technology: windows-sdk

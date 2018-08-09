@@ -7,7 +7,7 @@ old-location: http\httpcreateserversession.htm
 old-project: http
 ms.assetid: 42c8be3a-eb1b-49ff-ade0-16e4500b0c44
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpCreateServerSession, HttpCreateServerSession function [HTTP], http.httpcreateserversession, http/HttpCreateServerSession
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,19 +66,14 @@ An HTTPAPI_VERSION structure that indicates the version of the server session. F
 The version must be 2.0; <b>HttpCreateServerSession</b> does not support  version 1.0 request queues.
 
 
-### -param ServerSessionId
+### -param ServerSessionId [out]
 
-TBD
+A pointer to the variable that receives the ID of the server session.
 
 
 ### -param Reserved [in]
 
 Reserved. Must be zero.
-
-
-#### - pServerSessionId [out]
-
-A pointer to the variable that receives the ID of the server session.
 
 
 ## -returns

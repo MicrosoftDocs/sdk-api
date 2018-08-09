@@ -7,7 +7,7 @@ old-location: of\iofflinefilessuspend_suspendroot.htm
 old-project: offlinefiles
 ms.assetid: 5307bc8c-e6e9-4ae7-b2da-036fc9c5c08d
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesSuspend interface [Offline Files],SuspendRoot method, IOfflineFilesSuspend.SuspendRoot, IOfflineFilesSuspend::SuspendRoot, SuspendRoot, SuspendRoot method [Offline Files], SuspendRoot method [Offline Files],IOfflineFilesSuspend interface, cscobj/IOfflineFilesSuspend::SuspendRoot, of.iofflinefilessuspend_suspendroot
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-    Suspend or release a share root or directory tree.  A suspended item  is always in the offline state and is excluded from automatic synchronization by Offline Files.
+Suspend or release a share root or directory tree.  A suspended item  is always in the offline state and is excluded from automatic synchronization by Offline Files.
 
 
 ## -parameters

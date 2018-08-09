@@ -7,7 +7,7 @@ old-location: appxpkg\getpackageinfo.htm
 old-project: appxpkg
 ms.assetid: 28F45B3B-A61F-44D3-B606-6966AD5866FA
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: GetPackageInfo, GetPackageInfo function [App packaging and management], appmodel/GetPackageInfo, appxpkg.getpackageinfo
 ms.prod: windows
 ms.technology: windows-sdk

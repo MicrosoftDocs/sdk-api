@@ -7,7 +7,7 @@ old-location: mscs\clusterregopenkey.htm
 old-project: mscs
 ms.assetid: f2cf204e-d02d-40b9-86d7-0262b8cc4db1
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusterRegOpenKey, ClusterRegOpenKey function [Failover Cluster], _wolf_clusterregopenkey, clusapi/ClusterRegOpenKey, mscs.clusterregopenkey
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_getdllentry.htm
 old-project: automat
 ms.assetid: 1b947de4-4a3e-40f3-837b-c60b0ab67ef1
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: GetDllEntry, GetDllEntry method [Automation], GetDllEntry method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetDllEntry method, ITypeInfo.GetDllEntry, ITypeInfo::GetDllEntry, _oa96_ITypeInfo_GetDllEntry, automat.itypeinfo_getdllentry, oaidl/ITypeInfo::GetDllEntry
 ms.prod: windows
 ms.technology: windows-sdk

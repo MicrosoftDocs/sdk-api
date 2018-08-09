@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel.htm
 old-project: tablet
 ms.assetid: 1e719900-db58-430d-9059-efb3f884f6f0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 1e719900-db58-430d-9059-efb3f884f6f0, ITextInputPanel, ITextInputPanel interface [Tablet PC], ITextInputPanel interface [Tablet PC],described, peninputpanel/ITextInputPanel, tablet.itextinputpanel
 ms.prod: windows
 ms.technology: windows-sdk

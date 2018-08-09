@@ -7,7 +7,7 @@ old-location: search\itemprop.htm
 old-project: search
 ms.assetid: 480C84CB-60CE-42F4-ADE6-4FCF1EAF15AF
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: "*LPITEMPROP, ITEMPROP, ITEMPROP structure [search], PITEMPROP, PITEMPROP structure pointer [search], _tagITEMPROP, search.itemprop, subsmgr/ITEMPROP, subsmgr/PITEMPROP"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,24 +73,14 @@ Stores information about properties in the <a href="https://msdn.microsoft.com/c
 
 
 
-#### - bstrIndexProp
-
-The name of a property in the <a href="https://msdn.microsoft.com/c2094bbe-a4ca-4f30-b16e-14dced2912bc">Windows Property System</a>. For example, the <a href="https://msdn.microsoft.com/d592f12b-f8c2-406f-a031-eeb8212e64f7">System.ItemUrl</a> property.
-
-
 #### - bstrName
 
 For internal use only.
 
 
-#### - ds
+#### - bstrIndexProp
 
-For internal use only.
-
-
-#### - dwHint
-
-For internal use only.
+The name of a property in the <a href="https://msdn.microsoft.com/c2094bbe-a4ca-4f30-b16e-14dced2912bc">Windows Property System</a>. For example, the <a href="https://msdn.microsoft.com/d592f12b-f8c2-406f-a031-eeb8212e64f7">System.ItemUrl</a> property.
 
 
 #### - dwUID
@@ -101,6 +91,16 @@ For internal use only.
 #### - vt
 
 The type of the property value. For example, the type of the string property <a href="https://msdn.microsoft.com/d592f12b-f8c2-406f-a031-eeb8212e64f7">System.ItemUrl</a> is <b>VT_BSTR</b>. 
+
+
+#### - ds
+
+For internal use only.
+
+
+#### - dwHint
+
+For internal use only.
 
 
 ## -remarks

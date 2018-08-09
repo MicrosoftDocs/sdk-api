@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dcompile.htm
 old-project: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dcompile.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: D3DCompile, D3DCompile function [HLSL], a18240ba-8d29-6dcc-da59-7c146428c2b8, d3dcompiler/D3DCompile, direct3dhlsl.d3dcompile
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: rpc\rpcnsprofileeltremove.htm
 old-project: rpc
 ms.assetid: 303df924-73ad-4e2f-aa30-e600bb5594c2
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcNsProfileEltRemove, RpcNsProfileEltRemove function [RPC], RpcNsProfileEltRemoveA, RpcNsProfileEltRemoveW, _rpc_rpcnsprofileeltremove, rpc.rpcnsprofileeltremove, rpcnsi/RpcNsProfileEltRemove, rpcnsi/RpcNsProfileEltRemoveA, rpcnsi/RpcNsProfileEltRemoveW
 ms.prod: windows
 ms.technology: windows-sdk

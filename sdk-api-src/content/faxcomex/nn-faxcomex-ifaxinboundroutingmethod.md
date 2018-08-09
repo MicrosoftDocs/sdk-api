@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingmethod_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_95t0_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxInboundRoutingMethod, IFaxInboundRoutingMethod interface [Fax Service], IFaxInboundRoutingMethod interface [Fax Service],described, _mfax_faxinboundroutingmethod_cpp, fax._mfax_faxinboundroutingmethod_cpp, faxcomex/IFaxInboundRoutingMethod
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The <b>IFaxInboundRoutingMethod</b> interface defines a configuration object use
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRoutingMethod</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxInboundRoutingMethod</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRoutingMethod</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxInboundRoutingMethod</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -179,7 +179,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms685341(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms686151(v=VS.85).aspx">Priority</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686151(v=VS.85).aspx">Priority</a>
 
 
 </td>
@@ -188,7 +188,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms686150(v=VS.85).aspx">Priority</a> property is a value associated with the order in which the fax service calls the routing method when the service receives a fax job.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686150(v=VS.85).aspx">Priority</a> property is a value associated with the order in which the fax service calls the routing method when the service receives a fax job.
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ The <a href="https://msdn.microsoft.com/library/ms686150(v=VS.85).aspx">Priority
 
 
 
-A default implementation of <b>IFaxInboundRoutingMethod</b> is provided as the <a href="https://msdn.microsoft.com/library/ms687469(v=VS.85).aspx">FaxInboundRoutingMethod</a> object.
+A default implementation of <b>IFaxInboundRoutingMethod</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms687469(v=VS.85).aspx">FaxInboundRoutingMethod</a> object.
 
 
 

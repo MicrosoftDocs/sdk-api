@@ -7,7 +7,7 @@ old-location: gdi\getviewportorgex.htm
 old-project: gdi
 ms.assetid: 6e6c7090-edf4-46a3-8bcd-10a00c0cf847
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetViewportOrgEx, GetViewportOrgEx function [Windows GDI], _win32_GetViewportOrgEx, gdi.getviewportorgex, wingdi/GetViewportOrgEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,7 @@ The <b>GetViewportOrgEx</b> function retrieves the x-coordinates and y-coordinat
 A handle to the device context.
 
 
-### -param lppoint
-
-TBD
-
-
-
-
-#### - lpPoint [out]
+### -param lppoint [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that receives the coordinates of the origin, in device units.
 

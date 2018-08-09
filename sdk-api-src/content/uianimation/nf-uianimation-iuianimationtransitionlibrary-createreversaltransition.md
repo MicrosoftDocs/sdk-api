@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary_createreversaltransition
 old-project: UIAnimation
 ms.assetid: ca1d0551-333f-4fe1-b288-5ccce846d697
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: CreateReversalTransition, CreateReversalTransition method [Windows Animation], CreateReversalTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateReversalTransition method, IUIAnimationTransitionLibrary.CreateReversalTransition, IUIAnimationTransitionLibrary::CreateReversalTransition, uianimation.iuianimationtransitionlibrary_createreversaltransition, uianimation/IUIAnimationTransitionLibrary::CreateReversalTransition
 ms.prod: windows
 ms.technology: windows-sdk

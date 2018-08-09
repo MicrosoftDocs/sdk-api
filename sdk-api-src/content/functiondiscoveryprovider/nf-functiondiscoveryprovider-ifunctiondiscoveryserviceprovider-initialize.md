@@ -7,7 +7,7 @@ old-location: ncd\ifunctiondiscoveryserviceprovider_initialize_method.htm
 old-project: fundisc
 ms.assetid: 339f6d42-20ea-4fd3-b03c-0cf34330baa0
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/30/2018
 ms.keywords: IFunctionDiscoveryServiceProvider interface,Initialize method, IFunctionDiscoveryServiceProvider.Initialize, IFunctionDiscoveryServiceProvider::Initialize, Initialize, Initialize method, Initialize method,IFunctionDiscoveryServiceProvider interface, functiondiscoveryprovider/IFunctionDiscoveryServiceProvider::Initialize, ncd.ifunctiondiscoveryserviceprovider_initialize_method
 ms.prod: windows
 ms.technology: windows-sdk

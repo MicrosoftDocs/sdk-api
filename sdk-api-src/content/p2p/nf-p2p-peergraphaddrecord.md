@@ -7,7 +7,7 @@ old-location: p2p\peergraphaddrecord.htm
 old-project: p2psdk
 ms.assetid: 8256e379-e5d5-4aef-ab05-e220602edf12
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphAddRecord, PeerGraphAddRecord function [Peer Networking], p2p.peergraphaddrecord, p2p/PeerGraphAddRecord
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphAddRecord</b> function adds a new record to a peer graph.  A record added with this function is  sent to each node in a peer graph.
+The <b>PeerGraphAddRecord</b> function adds a new record to a peer graph.  A record added with this function is  sent to each node in a peer graph.
 
 
 ## -parameters
@@ -203,8 +202,7 @@ The following members of the <a href="https://msdn.microsoft.com/4e0a1c44-e5a4-4
 <li><b>type</b>.</li>
 <li><b>ftExpiration</b> - Must be later than the current graph time, and must be specified in peer time by using <a href="https://msdn.microsoft.com/4d2c8943-cef5-4df3-96fe-447bd5bf37e8">PeerGraphUniversalTimeToPeerTime</a>.</li>
 </ul>
-
-				The following members of the <b>PEER_RECORD</b> structure are optional. Set them to <b>NULL</b> if they are not used by your application:
+The following members of the <b>PEER_RECORD</b> structure are optional. Set them to <b>NULL</b> if they are not used by your application:
 
 <ul>
 <li><b>data</b></li>
@@ -233,8 +231,7 @@ The following members cannot be specified; any value used is overwritten by the 
 
 
 
-<a href="https://msdn.microsoft.com/4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1">
-        PEER_RECORD</a>
+<a href="https://msdn.microsoft.com/4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1">PEER_RECORD</a>
 
 
 

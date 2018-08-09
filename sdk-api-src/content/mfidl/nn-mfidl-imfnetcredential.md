@@ -7,7 +7,7 @@ old-location: mf\imfnetcredential.htm
 old-project: medfound
 ms.assetid: d202e7bc-9ce0-4861-8552-5a4d599b1661
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFNetCredential, IMFNetCredential interface [Media Foundation], IMFNetCredential interface [Media Foundation],described, d202e7bc-9ce0-4861-8552-5a4d599b1661, mf.imfnetcredential, mfidl/IMFNetCredential
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Sets and retrieves user-name and password information for authentication purposes.
+Sets and retrieves user-name and password information for authentication purposes.
         
 
 

@@ -7,7 +7,7 @@ old-location: mstv\ibda_conditionalaccess_addprogram.htm
 old-project: mstv
 ms.assetid: 7e0e2905-fb7c-4532-be3e-198ca620f894
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: AddProgram, AddProgram method [Microsoft TV Technologies], AddProgram method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, IBDA_ConditionalAccess interface [Microsoft TV Technologies],AddProgram method, IBDA_ConditionalAccess.AddProgram, IBDA_ConditionalAccess::AddProgram, IBDA_ConditionalAccessAddProgram, bdaiface/IBDA_ConditionalAccess::AddProgram, mstv.ibda_conditionalaccess_addprogram
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,8 +60,7 @@ Currently not implemented.
 
 ### -param usProgramNumber [in]
 
-
-            Reserved.
+Reserved.
           
 
 
@@ -69,8 +68,7 @@ Currently not implemented.
 
 
 
-
-            Returns E_NOTIMPL.
+Returns E_NOTIMPL.
           
 
 

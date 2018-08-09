@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_getfillbrushlookup.htm
 old-project: printdocs
 ms.assetid: 89433357-fa39-41e9-bd21-ff3c076261db
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetFillBrushLookup, GetFillBrushLookup method [XPS Documents and Packaging], GetFillBrushLookup method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetFillBrushLookup method, IXpsOMPath.GetFillBrushLookup, IXpsOMPath::GetFillBrushLookup, xps.ixpsompath_getfillbrushlookup, xpsobjectmodel/IXpsOMPath::GetFillBrushLookup
 ms.prod: windows
 ms.technology: windows-sdk

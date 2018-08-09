@@ -7,7 +7,7 @@ old-location: mf\imfsavejob_getprogress.htm
 old-project: medfound
 ms.assetid: 8782333c-796c-4401-9575-c78e95887015
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 8782333c-796c-4401-9575-c78e95887015, GetProgress, GetProgress method [Media Foundation], GetProgress method [Media Foundation],IMFSaveJob interface, IMFSaveJob interface [Media Foundation],GetProgress method, IMFSaveJob.GetProgress, IMFSaveJob::GetProgress, mf.imfsavejob_getprogress, mfidl/IMFSaveJob::GetProgress
 ms.prod: windows
 ms.technology: windows-sdk

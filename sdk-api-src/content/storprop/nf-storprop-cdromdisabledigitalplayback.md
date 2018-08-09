@@ -4,10 +4,10 @@ title: CdromDisableDigitalPlayback function
 author: windows-sdk-content
 description: Disables digital playback for the specified CD-ROM or DVD drive.
 old-location: base\cdromdisabledigitalplayback.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 289812ac-cec1-4ccc-b4ef-146b19a26ebd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: CdromDisableDigitalPlayback, CdromDisableDigitalPlayback function, base.cdromdisabledigitalplayback, storprop/CdromDisableDigitalPlayback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: StorProp.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # CdromDisableDigitalPlayback function

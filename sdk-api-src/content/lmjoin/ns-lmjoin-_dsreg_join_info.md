@@ -7,7 +7,7 @@ old-location: netmgmt\dsreg_join_info.htm
 old-project: netmgmt
 ms.assetid: 9B0F7BE3-BDCD-437E-9157-9A646A2A20E2
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: "*PDSREG_JOIN_INFO, DSREG_JOIN_INFO, DSREG_JOIN_INFO structure [Network Management], PDSREG_JOIN_INFO, PDSREG_JOIN_INFO structure pointer [Network Management], _DSREG_JOIN_INFO, lmjoin/DSREG_JOIN_INFO, lmjoin/PDSREG_JOIN_INFO, netmgmt.dsreg_join_info"
 ms.prod: windows
 ms.technology: windows-sdk

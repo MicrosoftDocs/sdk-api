@@ -7,7 +7,7 @@ old-location: mstv\ipbda_eit.htm
 old-project: mstv
 ms.assetid: cb8cd2cc-e498-43c2-ae1e-3543b4ea3b56
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IPBDA_EIT, IPBDA_EIT interface [Microsoft TV Technologies], IPBDA_EIT interface [Microsoft TV Technologies],described, dvbsiparser/IPBDA_EIT, mstv.ipbda_eit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,10 +55,8 @@ Implements methods that enable the client to get information from an event infor
 
 An EIT provides information about events in each service, such as the event name, the start time, and the duration. An EIT can hold information about the transport stream that carries it, or it can hold information about other transport streams. There are two types of EITs:
 <ul>
-<li>
-          Present/Following EITs contain information about the current event and the next chronological event. This type of EIT can be used to create a simple UI at the receiver.</li>
-<li>
-          Schedule EITs contain a list of events that occur after the next event. This type of event can be used to create an electronic program guide.</li>
+<li>Present/Following EITs contain information about the current event and the next chronological event. This type of EIT can be used to create a simple UI at the receiver.</li>
+<li>Schedule EITs contain a list of events that occur after the next event. This type of event can be used to create an electronic program guide.</li>
 </ul>EIT sections are given the following table identifiers.
 <table>
 <tr>

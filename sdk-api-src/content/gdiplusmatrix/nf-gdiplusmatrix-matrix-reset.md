@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_Reset_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\reset_41.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Matrix class [GDI+],Reset method, Matrix.Reset, Matrix::Reset, Reset, Reset method [GDI+], Reset method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_Reset_, gdiplus._gdiplus_CLASS_Matrix_Reset_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,8 +89,8 @@ The elements on the main diagonal of the identity matrix are 1. All other elemen
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a> object that represents a horizontal scaling by a factor of 5 and a vertical scaling by a factor of 3. The code calls the <b>Matrix::Reset</b> method to replace the elements of that matrix with the elements of the identity matrix. Then the code calls the 
-						<a href="https://msdn.microsoft.com/library/ms535317(v=VS.85).aspx">Matrix::Translate</a> method to update the matrix with the product of itself (the identity) and a translation matrix. The result is that the matrix represents only the translation, not the scaling. The code uses the matrix to set the world transformation of a 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a> object that represents a horizontal scaling by a factor of 5 and a vertical scaling by a factor of 3. The code calls the <b>Matrix::Reset</b> method to replace the elements of that matrix with the elements of the identity matrix. Then the code calls the 
+						<a href="https://msdn.microsoft.com/en-us/library/ms535317(v=VS.85).aspx">Matrix::Translate</a> method to update the matrix with the product of itself (the identity) and a translation matrix. The result is that the matrix represents only the translation, not the scaling. The code uses the matrix to set the world transformation of a 
 						<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object and then draws a rectangle that is transformed according to that world transformation.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -122,23 +122,23 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536395(v=VS.85).aspx">Global and Local Transformations</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536395(v=VS.85).aspx">Global and Local Transformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536397(v=VS.85).aspx">Matrix Representation of Transformations</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536397(v=VS.85).aspx">Matrix Representation of Transformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535304(v=VS.85).aspx">Matrix::IsIdentity</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535304(v=VS.85).aspx">Matrix::IsIdentity</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533810(v=VS.85).aspx">Transformations</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533810(v=VS.85).aspx">Transformations</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mbn\imbnconnectioncontext.htm
 old-project: mbn
 ms.assetid: a9bc52dc-47f9-4b20-b98d-0287464a89e5
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: IMbnConnectionContext, IMbnConnectionContext interface [Microsoft Broadband Networks], IMbnConnectionContext interface [Microsoft Broadband Networks],described, mbn.imbnconnectioncontext, mbnapi/IMbnConnectionContext
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: D2D1CreateDevice function
 author: windows-sdk-content
 description: Creates a new Direct2D device associated with the provided DXGI device.
 old-location: direct2d\d2d1createdevice.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 5ed3ec21-b609-41b6-9568-6ede460bc395
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D2D1CreateDevice, D2D1CreateDevice function [Direct2D], d2d1_1/D2D1CreateDevice, direct2d.d2d1createdevice
 ms.prod: windows
 ms.technology: windows-sdk

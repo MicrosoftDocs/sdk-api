@@ -7,7 +7,7 @@ old-location: fwp\ipsec_key_manager_dictate_key0.htm
 old-project: fwp
 ms.assetid: A69E44FF-A58D-426B-BD59-8EB4B5A63B66
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPSEC_KEY_MANAGER_DICTATE_KEY0, IPSEC_KEY_MANAGER_DICTATE_KEY0 function, IPSEC_KEY_MANAGER_DICTATE_KEY0 function pointer [Filtering], fwp.ipsec_key_dictate_key0, fwp.ipsec_key_manager_dictate_key0, fwpmu/IPSEC_KEY_MANAGER_DICTATE_KEY0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,13 +74,6 @@ The <b>IPSEC_KEY_MANAGER_DICTATE_KEY0</b> function is used by the Trusted Interm
 
 
 
-#### - generateRandomKey [out]
-
-Type: <b>BOOL*</b>
-
-True if the keying module should randomly generate keys in the event that the TIA is unable to supply keys; otherwise, false.
-
-
 #### - inboundSa [in, out]
 
 Type: <b><a href="https://msdn.microsoft.com/257e7ac0-9cb4-45aa-b7e5-107bb3483ab9">IPSEC_SA_DETAILS1</a>*</b>
@@ -93,6 +86,13 @@ Information about the inbound SA.
 Type: <b><a href="https://msdn.microsoft.com/257e7ac0-9cb4-45aa-b7e5-107bb3483ab9">IPSEC_SA_DETAILS1</a>*</b>
 
 Information about the outbound SA.
+
+
+#### - generateRandomKey [out]
+
+Type: <b>BOOL*</b>
+
+True if the keying module should randomly generate keys in the event that the TIA is unable to supply keys; otherwise, false.
 
 
 ## -returns

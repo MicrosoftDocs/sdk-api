@@ -7,7 +7,7 @@ old-location: iphlp\getipforwardentry2.htm
 old-project: iphlp
 ms.assetid: 53d5009a-d205-40ce-88e5-fe37e72b5a50
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: GetIpForwardEntry2, GetIpForwardEntry2 function [IP Helper], iphlp.getipforwardentry2, netioapi/GetIpForwardEntry2
 ms.prod: windows
 ms.technology: windows-sdk

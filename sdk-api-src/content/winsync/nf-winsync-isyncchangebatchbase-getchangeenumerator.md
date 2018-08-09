@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatchbase_getchangeenumerator.htm
 old-project: winsync
 ms.assetid: af979d71-1eb4-463d-8e90-27a985ea289d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetChangeEnumerator, GetChangeEnumerator method [Windows Sync], GetChangeEnumerator method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetChangeEnumerator method, ISyncChangeBatchBase.GetChangeEnumerator, ISyncChangeBatchBase::GetChangeEnumerator, winsync.isyncchangebatchbase_getchangeenumerator, winsync/ISyncChangeBatchBase::GetChangeEnumerator
 ms.prod: windows
 ms.technology: windows-sdk

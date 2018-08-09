@@ -4,10 +4,10 @@ title: IGPM::GetMigrationTable
 author: windows-sdk-content
 description: Loads the migration table at a specified path.
 old-location: gpmc\igpm_getmigrationtable.htm
-old-project: gpmc
+old-project: GPMC
 ms.assetid: 4a39d4f8-777d-4cf8-8dd5-053f73bdfdfa
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: GPM object [GPMC],GetMigrationTable method, GetMigrationTable, GetMigrationTable method [GPMC], GetMigrationTable method [GPMC],GPM object, GetMigrationTable method [GPMC],IGPM interface, IGPM interface [GPMC],GetMigrationTable method, IGPM.GetMigrationTable, IGPM::GetMigrationTable, gpmc.igpm_getmigrationtable, gpmgmt/IGPM::GetMigrationTable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,14 +72,14 @@ The path of the migration table to be loaded. Use a null-terminated string.
 
 
 
-#### - bstrFilePath [in]
-
-The path of the migration table to be loaded.
-
-
 #### - ppTable [out]
 
 The migration table interface that contains the entries from the migration table.
+
+
+#### - bstrFilePath [in]
+
+The path of the migration table to be loaded.
 
 
 ## -returns

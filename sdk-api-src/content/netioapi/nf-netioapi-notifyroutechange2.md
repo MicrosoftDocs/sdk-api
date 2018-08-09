@@ -7,7 +7,7 @@ old-location: iphlp\notifyroutechange2.htm
 old-project: iphlp
 ms.assetid: f104dc0c-b3e0-4f22-ac5f-5dbf967be31b
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyRouteChange2, NotifyRouteChange2 function [IP Helper], iphlp.notifyroutechange2, netioapi/NotifyRouteChange2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,35 +60,7 @@ The
 
 
 
-### -param AddressFamily
-
-TBD
-
-
-### -param Callback [in]
-
-A pointer to the function to call when a change occurs. This function will be invoked
-        when an IP route notification is received.
-
-
-### -param CallerContext [in]
-
-A user context passed to the callback function specified in the <i>Callback</i> parameter when an interface notification is received.
-
-
-### -param InitialNotification [in]
-
-A value that indicates whether the callback should be invoked
-        immediately after registration for change notification completes. This initial notification does not indicate a change occurred to an IP route entry. The purpose of this parameter to provide confirmation that the callback is registered.
-
-
-### -param NotificationHandle [in, out]
-
-A pointer used to return a handle that can be later used to
-        deregister the change notification. On success, a notification handle is returned in this parameter. If an error occurs, <b>NULL</b> is returned.
-
-
-#### - Family [in]
+### -param AddressFamily [in]
 
 The address family on which to register for change notifications. 
 
@@ -135,6 +107,29 @@ The values currently supported are <b>AF_INET</b>, <b>AF_INET6</b>, and <b>AF_UN
 </tr>
 </table>
  
+
+
+### -param Callback [in]
+
+A pointer to the function to call when a change occurs. This function will be invoked
+        when an IP route notification is received.
+
+
+### -param CallerContext [in]
+
+A user context passed to the callback function specified in the <i>Callback</i> parameter when an interface notification is received.
+
+
+### -param InitialNotification [in]
+
+A value that indicates whether the callback should be invoked
+        immediately after registration for change notification completes. This initial notification does not indicate a change occurred to an IP route entry. The purpose of this parameter to provide confirmation that the callback is registered.
+
+
+### -param NotificationHandle [in, out]
+
+A pointer used to return a handle that can be later used to
+        deregister the change notification. On success, a notification handle is returned in this parameter. If an error occurs, <b>NULL</b> is returned.
 
 
 ## -returns

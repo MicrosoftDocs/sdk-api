@@ -7,7 +7,7 @@ old-location: mscs\clusscsiaddress_lun.htm
 old-project: mscs
 ms.assetid: 47ac3714-fe5c-4b3b-9271-57980981785d
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusScsiAddress object [Failover Cluster],Lun property, ClusScsiAddress.Lun, ISClusScsiAddress.get_Lun, ISClusScsiAddress::get_Lun, Lun property [Failover Cluster], Lun property [Failover Cluster],ClusScsiAddress object, _wolf_clusscsiaddress.lun, get_Lun, mscs.clusscsiaddress_lun
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Returns the 
-    <a href="https://msdn.microsoft.com/library/ms682866(v=VS.85).aspx">SCSI</a> Lun of the 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">SCSI</a> Lun of the 
     <a href="https://msdn.microsoft.com/d42e9bca-3717-44f7-a1b9-dfad1dbddd23">Physical Disk</a>.
 
 This property is read-only.

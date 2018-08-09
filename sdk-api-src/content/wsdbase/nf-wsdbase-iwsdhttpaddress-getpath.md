@@ -4,10 +4,10 @@ title: IWSDHttpAddress::GetPath
 author: windows-sdk-content
 description: Gets the URI path for this address.
 old-location: ncd\iwsdhttpaddress_getpath.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 5bf666d3-6f13-4607-a83a-ec71f40f00e6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetPath, GetPath method, GetPath method,IWSDHttpAddress interface, IWSDHttpAddress interface,GetPath method, IWSDHttpAddress.GetPath, IWSDHttpAddress::GetPath, ncd.iwsdhttpaddress_getpath, wsdbase/IWSDHttpAddress::GetPath
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadPropertyKey.htm
 old-project: properties
 ms.assetid: 910D1356-DC61-470b-90BB-0DCF1B861E05
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: PSPropertyBag_ReadPropertyKey, PSPropertyBag_ReadPropertyKey function [Windows Properties], properties.PSPropertyBag_ReadPropertyKey, propsys/PSPropertyBag_ReadPropertyKey, shell.PSPropertyBag_ReadPropertyKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ A null-terminated property name string.
 
 ### -param value [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>*</b>
+Type: <b><a href="shell.PROPERTYKEY">PROPERTYKEY</a>*</b>
 
 When this function returns, contains a pointer to a property key value.
 
@@ -105,7 +105,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee845075(v=VS.85).aspx">PSPropertyBag_WritePropertyKey</a>
+<a href="shell.PSPropertyBag_WritePropertyKey">PSPropertyBag_WritePropertyKey</a>
  
 
  

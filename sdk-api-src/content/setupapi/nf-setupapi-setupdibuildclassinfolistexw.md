@@ -7,7 +7,7 @@ old-location: devinst\setupdibuildclassinfolistex.htm
 old-project: devinst
 ms.assetid: 32c6c548-79f8-41be-ad9a-5456972a16eb
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: SetupDiBuildClassInfoListEx, SetupDiBuildClassInfoListEx function [Device and Driver Installation], SetupDiBuildClassInfoListExA, SetupDiBuildClassInfoListExW, devinst.setupdibuildclassinfolistex, di-rtns_beaf3abb-65f5-4b7a-b0a1-5b8eab484eff.xml, setupapi/SetupDiBuildClassInfoListEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,14 +104,14 @@ A pointer to a NULL-terminated string that contains the name of a remote compute
 Must be <b>NULL</b>.
 
 
-##### - Flags.DIBCI_NODISPLAYCLASS
-
-Exclude a class if it has the <b>NoDisplayClass</b> value entry in its registry key.
-
-
 ##### - Flags.DIBCI_NOINSTALLCLASS
 
 Exclude a class if it has the <b>NoInstallClass</b> value entry in its registry key.
+
+
+##### - Flags.DIBCI_NODISPLAYCLASS
+
+Exclude a class if it has the <b>NoDisplayClass</b> value entry in its registry key.
 
 
 ## -returns

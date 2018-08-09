@@ -7,7 +7,7 @@ old-location: gdi\setmetafilebitsex.htm
 old-project: gdi
 ms.assetid: 232eeba9-f579-4b5f-a31a-416aeb56a909
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetMetaFileBitsEx, SetMetaFileBitsEx function [Windows GDI], _win32_SetMetaFileBitsEx, gdi.setmetafilebitsex, wingdi/SetMetaFileBitsEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,19 +63,14 @@ The <b>SetMetaFileBitsEx</b> function creates a memory-based Windows-format meta
 
 
 
-### -param cbBuffer
+### -param cbBuffer [in]
 
-TBD
+Specifies the size, in bytes, of the Windows-format metafile.
 
 
 ### -param lpData [in]
 
 Pointer to a buffer that contains the Windows-format metafile. (It is assumed that the data was obtained by using the <a href="https://msdn.microsoft.com/6ca6de2e-79cb-4503-a0d7-f616b8e383eb">GetMetaFileBitsEx</a> function.)
-
-
-#### - nSize [in]
-
-Specifies the size, in bytes, of the Windows-format metafile.
 
 
 ## -returns

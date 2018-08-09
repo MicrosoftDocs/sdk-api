@@ -4,10 +4,10 @@ title: PdhGetFormattedCounterValue function
 author: windows-sdk-content
 description: Computes a displayable value for the specified counter.
 old-location: perf\pdhgetformattedcountervalue.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: cd104b26-1498-4f95-a411-97d868b43836
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhGetFormattedCounterValue, PdhGetFormattedCounterValue function [Perf], _win32_pdhgetformattedcountervalue, base.pdhgetformattedcountervalue, pdh/PdhGetFormattedCounterValue, perf.pdhgetformattedcountervalue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Computes a displayable value for the specified counter.
+Computes a displayable value for the specified counter.
 		
 
 
@@ -111,9 +110,7 @@ Return data as a long integer.
 </table>
  
 
-
-						
-						You can use the bitwise inclusive OR operator (|) to combine the data type with one of the following scaling factors.
+You can use the bitwise inclusive OR operator (|) to combine the data type with one of the following scaling factors.
 
 <table>
 <tr>
@@ -169,8 +166,7 @@ A
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

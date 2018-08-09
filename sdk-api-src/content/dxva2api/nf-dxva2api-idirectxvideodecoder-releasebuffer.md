@@ -7,7 +7,7 @@ old-location: mf\idirectxvideodecoder_releasebuffer.htm
 old-project: medfound
 ms.assetid: e828a8e0-b9ec-4b86-abea-cbd8e0fd3a90
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IDirectXVideoDecoder interface [Media Foundation],ReleaseBuffer method, IDirectXVideoDecoder.ReleaseBuffer, IDirectXVideoDecoder::ReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [Media Foundation], ReleaseBuffer method [Media Foundation],IDirectXVideoDecoder interface, dxva2api/IDirectXVideoDecoder::ReleaseBuffer, e828a8e0-b9ec-4b86-abea-cbd8e0fd3a90, mf.idirectxvideodecoder_releasebuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          Releases a buffer that was obtained by calling <a href="https://msdn.microsoft.com/db2d4818-8a96-461e-88c4-f25d3200d815">IDirectXVideoDecoder::GetBuffer</a>.
+Releases a buffer that was obtained by calling <a href="https://msdn.microsoft.com/db2d4818-8a96-461e-88c4-f25d3200d815">IDirectXVideoDecoder::GetBuffer</a>.
         
 
 

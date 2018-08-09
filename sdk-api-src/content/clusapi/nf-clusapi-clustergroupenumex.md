@@ -7,7 +7,7 @@ old-location: mscs\clustergroupenumex.htm
 old-project: mscs
 ms.assetid: 139FE5AB-9465-46F8-B360-F27F19D82A88
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusterGroupEnumEx, ClusterGroupEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_ENUM_EX, PCLUSAPI_CLUSTER_GROUP_ENUM_EX function [Failover Cluster], clusapi/ClusterGroupEnumEx, clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM_EX, mscs.clustergroupenumex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.irql:
 ## -description
 
 
-Retrieves an item in the enumeration.
-   The <b>PCLUSAPI_CLUSTER_GROUP_ENUM_EX</b> type defines a pointer to this function.
+Retrieves an item in the enumeration.The <b>PCLUSAPI_CLUSTER_GROUP_ENUM_EX</b> type defines a pointer to this function.
 
 
 ## -parameters

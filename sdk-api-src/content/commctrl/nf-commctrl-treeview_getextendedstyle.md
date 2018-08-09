@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetExtendedStyle.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getextendedstyle.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TreeView_GetExtendedStyle, TreeView_GetExtendedStyle macro [Windows Controls], _shell_TreeView_GetExtendedStyle, _shell_TreeView_GetExtendedStyle_cpp, commctrl/TreeView_GetExtendedStyle, controls.TreeView_GetExtendedStyle, controls._shell_TreeView_GetExtendedStyle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      Retrieves the extended style for a specified tree-view control. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773580(v=VS.85).aspx">TVM_GETEXTENDEDSTYLE</a> message explicitly.
+Retrieves the extended style for a specified tree-view control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773580(v=VS.85).aspx">TVM_GETEXTENDEDSTYLE</a> message explicitly.
 
 
 ## -parameters
@@ -70,8 +69,7 @@ Handle to the tree-view control.
 
 
 
-
-        The extended styles for a tree-view control have nothing to do with the extended styles used with function <a href="https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> or function <a href="https://msdn.microsoft.com/library/ms633591(v=VS.85).aspx">SetWindowLong</a>.
+The extended styles for a tree-view control have nothing to do with the extended styles used with function <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> or function <a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">SetWindowLong</a>.
       
 
 

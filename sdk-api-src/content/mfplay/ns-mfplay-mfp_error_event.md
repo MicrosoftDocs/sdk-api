@@ -7,7 +7,7 @@ old-location: mf\mfp_error_event.htm
 old-project: medfound
 ms.assetid: 0ccfdefa-4913-4a02-bb91-14df1c185ddf
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFP_ERROR_EVENT, MFP_ERROR_EVENT structure [Media Foundation], mf.mfp_error_event, mfplay/MFP_ERROR_EVENT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ Event structure for the <b>MFP_EVENT_TYPE_ERROR</b> event. This event is sent if
 
 
 
-To get a pointer to this structure, cast the <i>pEventHeader</i>
-parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  method.  You can use the <a href="https://msdn.microsoft.com/a8a86e1d-f009-4352-a388-822c2577ebe3">MFP_GET_ERROR_EVENT</a> macro for this purpose.
+To get a pointer to this structure, cast the <i>pEventHeader</i>parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  method.  You can use the <a href="https://msdn.microsoft.com/a8a86e1d-f009-4352-a388-822c2577ebe3">MFP_GET_ERROR_EVENT</a> macro for this purpose.
 
 This event is not used to signal the failure of an asynchronous <a href="https://msdn.microsoft.com/fa57d465-1ee9-4f7a-9be8-66a6d73f65e8">IMFPMediaPlayer</a> method. If an asynchronous method fails, the error is reported in the standard event listed for that method. The <b>MFP_EVENT_TYPE_ERROR</b> event is used for errors that happen outside the context of an asynchronous method call.
 

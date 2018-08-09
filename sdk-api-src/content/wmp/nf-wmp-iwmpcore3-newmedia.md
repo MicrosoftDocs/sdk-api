@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore3_newmedia.htm
 old-project: WMP
 ms.assetid: d0ae488f-cdc8-4688-bfc5-b7821216da37
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPCore3 interface [Windows Media Player],newMedia method, IWMPCore3.newMedia, IWMPCore3::newMedia, IWMPCore3newMedia, newMedia, newMedia method [Windows Media Player], newMedia method [Windows Media Player],IWMPCore3 interface, wmp.iwmpcore3_newmedia, wmp/IWMPCore3::newMedia
 ms.prod: windows
 ms.technology: windows-sdk

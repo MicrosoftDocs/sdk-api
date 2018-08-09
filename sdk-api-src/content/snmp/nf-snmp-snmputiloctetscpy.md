@@ -4,10 +4,10 @@ title: SnmpUtilOctetsCpy function
 author: windows-sdk-content
 description: The SnmpUtilOctetsCpy function copies the variable pointed to by the pOctetsSrc parameter to the variable pointed to by the pOctetsDst parameter.
 old-location: snmp\snmputiloctetscpy.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 5ea92551-f6af-431d-8bf8-5b6c576f3392
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SnmpUtilOctetsCpy, SnmpUtilOctetsCpy function [SNMP], _snmp_snmputiloctetscpy, snmp.snmputiloctetscpy, snmp/SnmpUtilOctetsCpy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SnmpUtilOctetsCpy function

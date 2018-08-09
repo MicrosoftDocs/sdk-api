@@ -4,10 +4,10 @@ title: "_NSP_ROUTINE"
 author: windows-sdk-content
 description: Contains information regarding the functions implemented by a namespace service provider version 1 (NSPv1) provider.
 old-location: winsock\nsp_routine.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 8f7736d5-ea77-472a-a94f-e422398fae3f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPNSP_ROUTINE, NSP_ROUTINE, NSP_ROUTINE structure [Winsock], NSP_ROUTINE,FAR * LPNSP_ROUTINE, NSP_ROUTINE,FAR * LPNSP_ROUTINE structure [Winsock], _NSP_ROUTINE, winsock.nsp_routine, ws2spi/NSP_ROUTINE"
 ms.prod: windows
 ms.technology: windows-sdk

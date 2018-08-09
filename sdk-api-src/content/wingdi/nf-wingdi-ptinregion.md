@@ -7,7 +7,7 @@ old-location: gdi\ptinregion.htm
 old-project: gdi
 ms.assetid: 6fab6126-4672-49d6-825b-66a7927a7e99
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PtInRegion, PtInRegion function [Windows GDI], _win32_PtInRegion, gdi.ptinregion, wingdi/PtInRegion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,24 +68,12 @@ The <b>PtInRegion</b> function determines whether the specified point is inside 
 Handle to the region to be examined.
 
 
-### -param x
-
-TBD
-
-
-### -param y
-
-TBD
-
-
-
-
-#### - X [in]
+### -param x [in]
 
 Specifies the x-coordinate of the point in logical units.
 
 
-#### - Y [in]
+### -param y [in]
 
 Specifies the y-coordinate of the point in logical units.
 

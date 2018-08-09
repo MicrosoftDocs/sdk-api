@@ -4,10 +4,10 @@ title: GetCurrentThemeName function
 author: windows-sdk-content
 description: Retrieves the name of the current visual style, and optionally retrieves the color scheme name and size name.
 old-location: controls\GetCurrentThemeName.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getcurrentthemename.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetCurrentThemeName, GetCurrentThemeName function [Windows Controls], controls.GetCurrentThemeName, controls.inet_GetCurrentThemeName, inet_GetCurrentThemeName, inet_GetCurrentThemeName_cpp, uxtheme/GetCurrentThemeName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,11 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Pointer to a string that receives the theme path and file name.
 
 
-### -param cchMaxNameChars
+### -param cchMaxNameChars [in]
 
-TBD
+Type: <b>int</b>
+
+Value of type <b>int</b> that contains the maximum number of characters allowed in the theme file name.
 
 
 ### -param pszColorBuff [out]
@@ -97,13 +99,6 @@ Pointer to a string that receives the size name. This parameter may be set to <b
 Type: <b>int</b>
 
 Value of type <b>int</b> that contains the maximum number of characters allowed in the size name.
-
-
-#### - dwMaxNameChars [in]
-
-Type: <b>int</b>
-
-Value of type <b>int</b> that contains the maximum number of characters allowed in the theme file name.
 
 
 ## -returns

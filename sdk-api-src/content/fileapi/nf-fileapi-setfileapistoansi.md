@@ -7,7 +7,7 @@ old-location: fs\setfileapistoansi.htm
 old-project: fileio
 ms.assetid: 72b19773-9663-4cf8-90d3-656ee2785601
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/06/2018
 ms.keywords: SetFileApisToANSI, SetFileApisToANSI function [Files], _win32_setfileapistoansi, base.setfileapistoansi, fileapi/SetFileApisToANSI, fs.setfileapistoansi
 ms.prod: windows
 ms.technology: windows-sdk

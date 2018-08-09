@@ -7,7 +7,7 @@ old-location: controls\IImageList2_SetOriginalSize.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\setoriginalsize.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IImageList2 interface [Windows Controls],SetOriginalSize method, IImageList2.SetOriginalSize, IImageList2::SetOriginalSize, SetOriginalSize, SetOriginalSize method [Windows Controls], SetOriginalSize method [Windows Controls],IImageList2 interface, _shell_IImageList2_SetOriginalSize, _shell_IImageList2_SetOriginalSize_cpp, commoncontrols/IImageList2::SetOriginalSize, controls.IImageList2_SetOriginalSize, controls._shell_IImageList2_SetOriginalSize
 ms.prod: windows
 ms.technology: windows-sdk

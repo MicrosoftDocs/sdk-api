@@ -7,7 +7,7 @@ old-location: mbn\imbnpin_pintype.htm
 old-project: mbn
 ms.assetid: b80d552f-1900-4590-baa5-2fcdb9b32950
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: IMbnPin interface [Microsoft Broadband Networks],PinType property, IMbnPin.PinType, IMbnPin.get_PinType, IMbnPin::PinType, IMbnPin::get_PinType, PinType property [Microsoft Broadband Networks], PinType property [Microsoft Broadband Networks],IMbnPin interface, get_PinType, mbn.imbnpin_pintype, mbnapi/IMbnPin::PinType, mbnapi/IMbnPin::get_PinType
 ms.prod: windows
 ms.technology: windows-sdk

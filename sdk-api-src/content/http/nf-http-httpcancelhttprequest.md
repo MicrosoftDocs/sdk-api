@@ -7,7 +7,7 @@ old-location: http\httpcancelhttprequest.htm
 old-project: http
 ms.assetid: 9ece13ab-7b13-49b7-8d29-bbbb2755db52
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpCancelHttpRequest, HttpCancelHttpRequest function [HTTP], http.httpcancelhttprequest, http/HttpCancelHttpRequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,9 @@ The <b>HttpCancelHttpRequest</b> function cancels a specified reqest.
 
 
 
-### -param RequestQueueHandle
+### -param RequestQueueHandle [in]
 
-TBD
+A handle to the request queue from which the request came.
 
 
 ### -param RequestId [in]
@@ -74,11 +74,6 @@ The ID of the request to be canceled.
 TBD
 
 
-
-
-#### - ReqQueueHandle [in]
-
-A handle to the request queue from which the request came.
 
 
 #### - pOverlapped [in, optional]

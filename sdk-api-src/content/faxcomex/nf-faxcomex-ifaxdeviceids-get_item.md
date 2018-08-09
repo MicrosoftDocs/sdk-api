@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdeviceids_item.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0xt9.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxDeviceIds object [Fax Service],Item property, FaxDeviceIds.Item, IFaxDeviceIds.get_Item, IFaxDeviceIds.put_Item, IFaxDeviceIds::get_Item, Item property [Fax Service], Item property [Fax Service],FaxDeviceIds object, _mfax_faxdeviceids.item, fax._mfax_faxdeviceids_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Item</b> property represents a device ID from the <a href="https://msdn.microsoft.com/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection.
+The <b>Item</b> property represents a device ID from the <a href="https://msdn.microsoft.com/en-us/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection.
 
 This property is read/write.
 
@@ -66,15 +66,15 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686503(v=VS.85).aspx">IFaxDeviceIds</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686503(v=VS.85).aspx">IFaxDeviceIds</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

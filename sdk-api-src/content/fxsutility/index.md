@@ -2,13 +2,13 @@
 UID: NA:fxsutility
 ms.assetid: d49c47fb-9a4d-31ea-9397-3cc9357b111d
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: fax
+archived: true
 ---
 
 # Fxsutility.h header

@@ -4,10 +4,10 @@ title: IQueryAllWinSATAssessments
 author: windows-sdk-content
 description: Retrieves details about all formal WinSAT assessments.
 old-location: winsat\iqueryallwinsatassessments.htm
-old-project: WinSAT
+old-project: winsat
 ms.assetid: b78cfaf1-0fce-449c-96f5-76d318f30384
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IQueryAllWinSATAssessments, IQueryAllWinSATAssessments interface [WinSAT], IQueryAllWinSATAssessments interface [WinSAT],described, winsat.iqueryallwinsatassessments, winsatcominterfacei/IQueryAllWinSATAssessments
 ms.prod: windows
 ms.technology: windows-sdk

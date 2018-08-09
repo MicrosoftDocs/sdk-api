@@ -7,7 +7,7 @@ old-location: security\settokeninformation.htm
 old-project: secauthz
 ms.assetid: cdb8af74-540d-4059-ac64-6243f6aabaa6
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: SetTokenInformation, SetTokenInformation function [Security], _win32_settokeninformation, security.settokeninformation, securitybaseapi/SetTokenInformation
 ms.prod: windows
 ms.technology: windows-sdk

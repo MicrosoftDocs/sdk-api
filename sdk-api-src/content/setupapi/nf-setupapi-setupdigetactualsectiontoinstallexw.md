@@ -7,7 +7,7 @@ old-location: devinst\setupdigetactualsectiontoinstallex.htm
 old-project: devinst
 ms.assetid: 0f05e3ec-09ea-4d9a-99c9-ddbc16753481
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: SetupDiGetActualSectionToInstallEx, SetupDiGetActualSectionToInstallEx function [Device and Driver Installation], SetupDiGetActualSectionToInstallExA, SetupDiGetActualSectionToInstallExW, devinst.setupdigetactualsectiontoinstallex, di-rtns_d8baadc3-b6eb-49cb-a8ca-e3f877c2e8e7.xml, setupapi/SetupDiGetActualSectionToInstallEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -176,6 +176,16 @@ A pointer to a variable that receives a pointer to the '.' character that marks 
 Reserved for internal use only. Must be set to <b>NULL</b>.
 
 
+##### - AlternatePlatformInfo.cbSize
+
+Set to the size, in bytes, of an SP_ALTPLATFORM_INFO structure.
+
+
+##### - AlternatePlatformInfo.Platform
+
+Set to VER_PLATFORM_WIN32_NT for Windows XP and later versions of Windows.
+
+
 ##### - AlternatePlatformInfo.MajorVersion
 
 Not used.
@@ -184,11 +194,6 @@ Not used.
 ##### - AlternatePlatformInfo.MinorVersion
 
 Not Used.
-
-
-##### - AlternatePlatformInfo.Platform
-
-Set to VER_PLATFORM_WIN32_NT for Windows XP and later versions of Windows.
 
 
 ##### - AlternatePlatformInfo.ProcessorArchitecture
@@ -237,11 +242,6 @@ The alternative platform is an x64-based processor architecture.
 ##### - AlternatePlatformInfo.Reserved
 
 Set to zero.
-
-
-##### - AlternatePlatformInfo.cbSize
-
-Set to the size, in bytes, of an SP_ALTPLATFORM_INFO structure.
 
 
 ## -returns

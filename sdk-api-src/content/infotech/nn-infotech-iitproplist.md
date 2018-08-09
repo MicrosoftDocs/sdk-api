@@ -102,7 +102,7 @@ Returns the number of bytes needed to save the property data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms670038(v=VS.85).aspx">GetFirst</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670038(v=VS.85).aspx">GetFirst</a>
 </td>
 <td align="left" width="63%">
 Returns the first property object in a property list.
@@ -122,7 +122,7 @@ Returns the number of bytes needed to save the header.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms670041(v=VS.85).aspx">SaveData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670041(v=VS.85).aspx">SaveData</a>
 </td>
 <td align="left" width="63%">
 Saves the data size and data from the property list to a buffer.
@@ -133,7 +133,7 @@ Saves the data size and data from the property list to a buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms670042(v=VS.85).aspx">SaveHeader</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670042(v=VS.85).aspx">SaveHeader</a>
 </td>
 <td align="left" width="63%">
 Saves the property ID and data type from the property list to a buffer. Only saves properties marked with a persistence state of TRUE.
@@ -142,7 +142,7 @@ Saves the property ID and data type from the property list to a buffer. Only sav
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms670043(v=VS.85).aspx">Set(PROPID,DWORD,DWORD)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670043(v=VS.85).aspx">Set(PROPID,DWORD,DWORD)</a>
 </td>
 <td align="left" width="63%">
 Sets a property to a given value or deletes a property from the list.
@@ -153,7 +153,7 @@ Sets a property to a given value or deletes a property from the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms670047(v=VS.85).aspx">Set(PROPID,LPCWSTR,DWORD)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670047(v=VS.85).aspx">Set(PROPID,LPCWSTR,DWORD)</a>
 </td>
 <td align="left" width="63%">
 Sets a property to a given value or deletes a property from the list.
@@ -164,7 +164,7 @@ Sets a property to a given value or deletes a property from the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms670046(v=VS.85).aspx">Set(PROPID,LPVOID,DWORD,DWORD)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670046(v=VS.85).aspx">Set(PROPID,LPVOID,DWORD,DWORD)</a>
 </td>
 <td align="left" width="63%">
 Sets a property to a given value or deletes a property from the list.
@@ -175,7 +175,7 @@ Sets a property to a given value or deletes a property from the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms670044(v=VS.85).aspx">SetPersist(BOOL)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670044(v=VS.85).aspx">SetPersist(BOOL)</a>
 </td>
 <td align="left" width="63%">
 Sets the persistence state on or off for all properties.
@@ -186,7 +186,7 @@ Sets the persistence state on or off for all properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms670045(v=VS.85).aspx">SetPersist(PROPID,BOOL)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670045(v=VS.85).aspx">SetPersist(PROPID,BOOL)</a>
 </td>
 <td align="left" width="63%">
 Sets the persistence state on or off for a given property.

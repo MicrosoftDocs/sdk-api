@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_getinputstreamstate.htm
 old-project: stream
 ms.assetid: B5319512-EC6C-4940-881E-3DB1CA7BF0E3
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 07/30/2018
 ms.keywords: GetInputStreamState, GetInputStreamState method [Streaming Media Devices], GetInputStreamState method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetInputStreamState method, IMFDeviceTransform.GetInputStreamState, IMFDeviceTransform::GetInputStreamState, mftransform/IMFDeviceTransform::GetInputStreamState, stream.imfdevicetransform_getinputstreamstate
 ms.prod: windows
 ms.technology: windows-sdk

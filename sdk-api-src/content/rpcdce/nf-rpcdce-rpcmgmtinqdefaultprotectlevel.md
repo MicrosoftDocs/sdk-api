@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtinqdefaultprotectlevel.htm
 old-project: rpc
 ms.assetid: 54a960dd-7dfc-4364-8ae8-e18fa30a51a3
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcMgmtInqDefaultProtectLevel, RpcMgmtInqDefaultProtectLevel function [RPC], _rpc_rpcmgmtinqdefaultprotectlevel, rpc.rpcmgmtinqdefaultprotectlevel, rpcdce/RpcMgmtInqDefaultProtectLevel
 ms.prod: windows
 ms.technology: windows-sdk

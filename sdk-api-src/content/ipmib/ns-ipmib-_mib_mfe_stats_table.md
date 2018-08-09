@@ -7,7 +7,7 @@ old-location: mib\mib_mfe_stats_table.htm
 old-project: mib
 ms.assetid: d6660e11-7490-4dee-a1d6-980f8a78ac1b
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/30/2018
 ms.keywords: "*PMIB_MFE_STATS_TABLE, MIB_MFE_STATS_TABLE, MIB_MFE_STATS_TABLE structure [MIB], PMIB_MFE_STATS_TABLE, PMIB_MFE_STATS_TABLE structure pointer [MIB], _MIB_MFE_STATS_TABLE, _mpr_mib_mfe_stats_table, ipmib/MIB_MFE_STATS_TABLE, ipmib/PMIB_MFE_STATS_TABLE, iprtrmib/MIB_MFE_STATS_TABLE, iprtrmib/PMIB_MFE_STATS_TABLE, mib.mib_mfe_stats_table, rras.mib_mfe_stats_table"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ A pointer to a table of MFEs that are implemented as an array of
 
 
 
-On the Microsoft Windows Software Development Kit (SDK) released for Windows Server 2008
-   and later, the organization of header files has changed. This  structure is defined in the <i>Ipmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ipmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ipmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
+On the Microsoft Windows Software Development Kit (SDK) released for Windows Server 2008and later, the organization of header files has changed. This  structure is defined in the <i>Ipmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ipmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ipmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
 
 

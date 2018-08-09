@@ -4,10 +4,10 @@ title: OpenMutexW function
 author: windows-sdk-content
 description: Opens an existing named mutex object.
 old-location: base\openmutex.htm
-old-project: Sync
+old-project: sync
 ms.assetid: 0ea363c2-1ff7-4bf5-9e94-f1f17b8c8a11
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: OpenMutex, OpenMutex function, OpenMutexA, OpenMutexW, _win32_openmutex, base.openmutex, synchapi/OpenMutex, synchapi/OpenMutexA, synchapi/OpenMutexW
 ms.prod: windows
 ms.technology: windows-sdk

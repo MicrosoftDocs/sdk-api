@@ -7,7 +7,7 @@ old-location: fs\createntmsmedia.htm
 old-project: Rsm
 ms.assetid: a44c51c3-13d7-490e-9b6f-4d4c82d5a8f8
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: CreateNtmsMedia, CreateNtmsMedia function [Files], CreateNtmsMediaA, CreateNtmsMediaW, NTMS_ERROR_ON_DUPLICATE, _zaw_createntmsmedia, base.createntmsmedia, fs.createntmsmedia, ntmsapi/CreateNtmsMedia, ntmsapi/CreateNtmsMediaA, ntmsapi/CreateNtmsMediaW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -528,7 +528,7 @@ RSM updates this member when it mounts the newly-imported medium for the first t
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
  
 
  

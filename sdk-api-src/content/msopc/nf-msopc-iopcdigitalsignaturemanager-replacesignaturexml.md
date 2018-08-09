@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignaturemanager_replacesignaturexml.htm
 old-project: OPC
 ms.assetid: cacd0ccf-0cb9-41dc-a944-74db8254fd95
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],ReplaceSignatureXml method, IOpcDigitalSignatureManager.ReplaceSignatureXml, IOpcDigitalSignatureManager::ReplaceSignatureXml, ReplaceSignatureXml, ReplaceSignatureXml method [Open Packaging Conventions], ReplaceSignatureXml method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::ReplaceSignatureXml, opc.iopcdigitalsignaturemanager_replacesignaturexml
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-          Replaces the existing signature markup that is stored in a specified signature part.
+Replaces the existing signature markup that is stored in a specified signature part.
         
 
 
@@ -63,29 +62,25 @@ req.product: Rights Management Services client 1.0 or later
 
 ### -param signaturePartName [in]
 
-
-              An <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a> interface pointer that represents the part name of the signature part that stores the existing signature markup.
+An <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a> interface pointer that represents the part name of the signature part that stores the existing signature markup.
             
 
 
 ### -param newSignatureXml [in]
 
-
-              A buffer that contains the signature markup that will replace the existing markup.
+A buffer that contains the signature markup that will replace the existing markup.
             
 
 
 ### -param count [in]
 
-
-              The size of the <i>newSignatureXml</i> buffer.
+The size of the <i>newSignatureXml</i> buffer.
             
 
 
 ### -param digitalSignature [out, retval]
 
-
-              A pointer to a new <a href="https://msdn.microsoft.com/cfa38ef6-9d96-4577-a3bf-518784d19ad8">IOpcDigitalSignature</a> interface that represents the signature derived from the signature markup that is passed in <i>newSignatureXml</i>.
+A pointer to a new <a href="https://msdn.microsoft.com/cfa38ef6-9d96-4577-a3bf-518784d19ad8">IOpcDigitalSignature</a> interface that represents the signature derived from the signature markup that is passed in <i>newSignatureXml</i>.
             
 
 
@@ -93,8 +88,7 @@ req.product: Rights Management Services client 1.0 or later
 
 
 
-
-              The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
             
 
 <table>
@@ -120,8 +114,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-
-                At least one of the <i>signaturePartName</i>, <i>newSignatureXml</i>, and <i>digitalSignature</i> parameters is <b>NULL</b>.
+At least one of the <i>signaturePartName</i>, <i>newSignatureXml</i>, and <i>digitalSignature</i> parameters is <b>NULL</b>.
               
 
 </td>
@@ -364,16 +357,14 @@ The specified part does not exist.
 
 
 
-
-        This method does not validate the signature that is derived from the  new signature markup that is in the <i>newSignatureXml</i> parameter.
+This method does not validate the signature that is derived from the  new signature markup that is in the <i>newSignatureXml</i> parameter.
       
         
 
 The caller must confirm that the new signature markup, which replaces the existing signature markup in the specified signature part, will not break the signature.
       
 
-
-        This method changes the existing signature markup; certificates and relationships that have the specified signature part as their source are preserved.
+This method changes the existing signature markup; certificates and relationships that have the specified signature part as their source are preserved.
       
 
 

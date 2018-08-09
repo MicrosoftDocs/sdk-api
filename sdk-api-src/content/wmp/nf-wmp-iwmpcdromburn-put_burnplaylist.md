@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromburn_put_burnplaylist.htm
 old-project: WMP
 ms.assetid: 26fad65c-d371-4e7c-a86e-1ddb24175909
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],put_burnPlaylist method, IWMPCdromBurn.put_burnPlaylist, IWMPCdromBurn::put_burnPlaylist, IWMPCdromBurnput_burnPlaylist, put_burnPlaylist, put_burnPlaylist method [Windows Media Player], put_burnPlaylist method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_put_burnplaylist, wmp/IWMPCdromBurn::put_burnPlaylist
 ms.prod: windows
 ms.technology: windows-sdk

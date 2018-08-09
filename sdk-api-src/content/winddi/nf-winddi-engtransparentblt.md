@@ -7,7 +7,7 @@ old-location: display\engtransparentblt.htm
 old-project: display
 ms.assetid: db98b15f-6b4b-4efc-aa24-20c728b09358
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: EngTransparentBlt, EngTransparentBlt function [Display Devices], display.engtransparentblt, gdifncs_1f33c0a3-6062-494c-aef0-2fa368d278ac.xml, winddi/EngTransparentBlt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,24 +95,12 @@ The source rectangle will never exceed the bounds of the source surface, and so 
 This rectangle is mapped to the destination rectangle defined by <i>prclDst</i>. The driver must never call <b>EngTransparentBlt</b> with an empty source rectangle.
 
 
-### -param TransColor
-
-TBD
-
-
-### -param bCalledFromBitBlt
-
-TBD
-
-
-
-
-#### - iTransColor [in]
+### -param TransColor [in]
 
 Specifies the physical transparent color, in the source surface's format. This is a color index value that has been translated to the source surface's palette. For more information, see the <b>Remarks</b> section.
 
 
-#### - ulReserved [in]
+### -param bCalledFromBitBlt [in]
 
 Reserved. This parameter must be set to zero.
 

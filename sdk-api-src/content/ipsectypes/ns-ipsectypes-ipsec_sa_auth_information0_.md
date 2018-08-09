@@ -7,7 +7,7 @@ old-location: fwp\ipsec_sa_auth_information0_struct.htm
 old-project: fwp
 ms.assetid: 54a03edd-94cb-478a-a647-473872408701
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPSEC_SA_AUTH_INFORMATION0, IPSEC_SA_AUTH_INFORMATION0 structure [Filtering], IPSEC_SA_AUTH_INFORMATION0_, fwp.ipsec_sa_auth_information0_struct, ipsectypes/IPSEC_SA_AUTH_INFORMATION0
 ms.prod: windows
 ms.technology: windows-sdk

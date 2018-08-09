@@ -7,7 +7,7 @@ old-location: picacq\iuserinputstring_getsubmitbuttontext.htm
 old-project: acquisition
 ms.assetid: 00cb081a-9077-4ecc-9a1f-002072e6ddda
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetSubmitButtonText, GetSubmitButtonText method [Picture Acquisition], GetSubmitButtonText method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetSubmitButtonText method, IUserInputString.GetSubmitButtonText, IUserInputString::GetSubmitButtonText, IUserInputStringGetSubmitButtonText, photoacquire/IUserInputString::GetSubmitButtonText, picacq.iuserinputstring_getsubmitbuttontext
 ms.prod: windows
 ms.technology: windows-sdk

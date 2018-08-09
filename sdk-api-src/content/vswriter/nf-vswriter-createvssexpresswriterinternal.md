@@ -4,10 +4,10 @@ title: CreateVssExpressWriterInternal function
 author: windows-sdk-content
 description: Creates an IVssExpressWriter interface object and returns a pointer to it.
 old-location: base\createvssexpresswriter.htm
-old-project: VSS
+old-project: vss
 ms.assetid: c24a1046-50b0-4fec-88f9-3bbd6970982a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateVssExpressWriter, CreateVssExpressWriter function, CreateVssExpressWriterInternal, base.createvssexpresswriter, vswriter/CreateVssExpressWriter, vswriter/CreateVssExpressWriterInternal
 ms.prod: windows
 ms.technology: windows-sdk

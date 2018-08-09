@@ -7,7 +7,7 @@ old-location: dwm\dwmupdatethumbnailproperties.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmupdatethumbnailproperties.htm
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 08/06/2018
 ms.keywords: DwmUpdateThumbnailProperties, DwmUpdateThumbnailProperties function [Desktop Window Manager], _udwm_dwmupdatethumbnailproperties, _udwm_dwmupdatethumbnailproperties_cpp, dwm.dwmupdatethumbnailproperties, dwmapi/DwmUpdateThumbnailProperties, winui._udwm_dwmupdatethumbnailproperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ The handle to the DWM thumbnail to be updated. Null or invalid thumbnails, as we
 
 ### -param ptnProperties [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Aa969502(v=VS.85).aspx">DWM_THUMBNAIL_PROPERTIES</a> structure that contains the new thumbnail properties.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa969502(v=VS.85).aspx">DWM_THUMBNAIL_PROPERTIES</a> structure that contains the new thumbnail properties.
 
 
 ## -returns
@@ -82,7 +82,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-Thumbnail relationships created by the <a href="https://msdn.microsoft.com/library/Aa969521(v=VS.85).aspx">DwmRegisterThumbnail</a> function will not be rendered to the destination window until this function is called. Subsequent calls will update the thumbnail according to the provided properties.
+Thumbnail relationships created by the <a href="https://msdn.microsoft.com/en-us/library/Aa969521(v=VS.85).aspx">DwmRegisterThumbnail</a> function will not be rendered to the destination window until this function is called. Subsequent calls will update the thumbnail according to the provided properties.
 
 
 #### Examples
@@ -140,19 +140,19 @@ HRESULT UpdateDesktop(HWND hwnd)
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa969541(v=VS.85).aspx">DWM Thumbnail Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa969541(v=VS.85).aspx">DWM Thumbnail Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa969540(v=VS.85).aspx">Desktop Window Manager Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa969540(v=VS.85).aspx">Desktop Window Manager Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa969520(v=VS.85).aspx">DwmQueryThumbnailSourceSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa969520(v=VS.85).aspx">DwmQueryThumbnailSourceSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa969525(v=VS.85).aspx">DwmUnregisterThumbnail</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa969525(v=VS.85).aspx">DwmUnregisterThumbnail</a>
  
 
  

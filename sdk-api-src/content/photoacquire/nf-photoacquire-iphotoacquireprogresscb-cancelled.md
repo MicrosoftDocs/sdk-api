@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquireprogresscb_cancelled.htm
 old-project: acquisition
 ms.assetid: 7a37934c-dc0b-433e-99cf-6c26341e582c
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: Cancelled, Cancelled method [Picture Acquisition], Cancelled method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],Cancelled method, IPhotoAcquireProgressCB.Cancelled, IPhotoAcquireProgressCB::Cancelled, IPhotoAcquireProgressCBCancelled, photoacquire/IPhotoAcquireProgressCB::Cancelled, picacq.iphotoacquireprogresscb_cancelled
 ms.prod: windows
 ms.technology: windows-sdk

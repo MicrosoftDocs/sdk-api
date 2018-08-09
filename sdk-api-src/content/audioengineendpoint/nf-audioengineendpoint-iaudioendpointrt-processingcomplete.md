@@ -7,7 +7,7 @@ old-location: termserv\iaudioendpointrt_processingcomplete.htm
 old-project: termserv
 ms.assetid: 1a9c52fa-27ff-4e63-ae87-f5a3cd8d4f9b
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: IAudioEndpointRT interface [Remote Desktop Services],ProcessingComplete method, IAudioEndpointRT.ProcessingComplete, IAudioEndpointRT::ProcessingComplete, ProcessingComplete, ProcessingComplete method [Remote Desktop Services], ProcessingComplete method [Remote Desktop Services],IAudioEndpointRT interface, audioengineendpoint/IAudioEndpointRT::ProcessingComplete, termserv.iaudioendpointrt_processingcomplete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-        The <b>ProcessingComplete</b> method notifies the endpoint that a processing pass has been completed.
+The <b>ProcessingComplete</b> method notifies the endpoint that a processing pass has been completed.
 
 
 ## -parameters

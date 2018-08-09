@@ -7,7 +7,7 @@ old-location: ad\dsmapschemaguids.htm
 old-project: ad
 ms.assetid: 439fff20-51eb-490d-a330-61d07f79c436
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DsMapSchemaGuids, DsMapSchemaGuids function [Active Directory], DsMapSchemaGuidsA, DsMapSchemaGuidsW, _glines_dsmapschemaguids, ad.dsmapschemaguids, ntdsapi/DsMapSchemaGuids, ntdsapi/DsMapSchemaGuidsA, ntdsapi/DsMapSchemaGuidsW
 ms.prod: windows
 ms.technology: windows-sdk

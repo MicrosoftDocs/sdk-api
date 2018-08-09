@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_MeasureDriverString_text_length_fo
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\measuredriverstring.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Graphics class [GDI+],MeasureDriverString method, Graphics.MeasureDriverString, Graphics::MeasureDriverString, MeasureDriverString, MeasureDriverString method [GDI+], MeasureDriverString method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_MeasureDriverString_text_length_font_positions_flags_matrix_boundingBox_, gdiplus._gdiplus_CLASS_Graphics_MeasureDriverString_text_length_font_positions_flags_matrix_boundingBox_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,37 +75,37 @@ Integer that specifies the number of values in the <i>text</i> array. The <i>len
 
 ### -param font [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a> object that specifies the family name, size, and style of the font to be applied to the string. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a> object that specifies the family name, size, and style of the font to be applied to the string. 
 
 
 ### -param positions [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms534488(v=VS.85).aspx">PointF</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>*</b>
 
-If the DriverStringOptionsRealizedAdvance flag is set, <i>positions</i> is a pointer to a <a href="https://msdn.microsoft.com/library/ms534488(v=VS.85).aspx">PointF</a> object that specifies the position of the first glyph. Otherwise, <i>positions</i> is an array of <b>PointF</b> objects, each of which specifies the origin of an individual glyph. 
+If the DriverStringOptionsRealizedAdvance flag is set, <i>positions</i> is a pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object that specifies the position of the first glyph. Otherwise, <i>positions</i> is an array of <b>PointF</b> objects, each of which specifies the origin of an individual glyph. 
 
 
 ### -param flags [in]
 
 Type: <b>INT</b>
 
-Integer that specifies the options for the appearance of the string. This value must be an element of the <a href="https://msdn.microsoft.com/library/ms534108(v=VS.85).aspx">DriverStringOptions</a> enumeration or the result of a bitwise <b>OR</b> applied to two or more of these elements. 
+Integer that specifies the options for the appearance of the string. This value must be an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534108(v=VS.85).aspx">DriverStringOptions</a> enumeration or the result of a bitwise <b>OR</b> applied to two or more of these elements. 
 
 
 ### -param matrix [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a> object that specifies the transformation matrix to apply to each value in the <i>text</i> array. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a> object that specifies the transformation matrix to apply to each value in the <i>text</i> array. 
 
 
 ### -param boundingBox [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx">RectF</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx">RectF</a> object that receives the rectangle that bounds the string. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a> object that receives the rectangle that bounds the string. 
 
 
 ## -returns
@@ -127,11 +127,11 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534108(v=VS.85).aspx">DriverStringOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534108(v=VS.85).aspx">DriverStringOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
 
 
 
@@ -139,19 +139,19 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535683(v=VS.85).aspx">Graphics::DrawDriverString</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535683(v=VS.85).aspx">Graphics::DrawDriverString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534508(v=VS.85).aspx">SolidBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534508(v=VS.85).aspx">SolidBrush</a>
  
 
  

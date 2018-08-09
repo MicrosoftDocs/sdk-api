@@ -7,7 +7,7 @@ old-location: ics\inetsharingmanager_get_netconnectionprops.htm
 old-project: ics
 ms.assetid: bf2db553-f324-4f23-b96e-f8ae703aa3ea
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_NetConnectionProps method, INetSharingManager.get_NetConnectionProps, INetSharingManager::get_NetConnectionProps, _ics_inetsharingmanager_get_netconnectionprops, get_NetConnectionProps, get_NetConnectionProps method [ICS/ICF], get_NetConnectionProps method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_netconnectionprops, netcon/INetSharingManager::get_NetConnectionProps
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: display\engsetlasterror.htm
 old-project: display
 ms.assetid: 8887eed8-c60d-4217-92bf-f770be071c49
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: EngSetLastError, EngSetLastError function [Display Devices], display.engsetlasterror, gdifncs_696ff78e-c48b-4727-b2dd-d1b2e06ea90f.xml, winddi/EngSetLastError
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,7 @@ The <b>EngSetLastError</b> function causes GDI to report an error code, which ca
 
 
 
-### -param Arg1
-
-TBD
-
-
-
-
-#### - iError [in]
+### -param Arg1 [in]
 
 Specifies the 32-bit error code to set.
 

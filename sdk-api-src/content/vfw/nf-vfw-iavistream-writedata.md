@@ -7,7 +7,7 @@ old-location: multimedia\iavistream_writedata.htm
 old-project: Multimedia
 ms.assetid: b6fb8e25-b6f9-4134-bb63-0a96fea88db8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],WriteData method, IAVIStream.WriteData, IAVIStream::WriteData, WriteData, WriteData method [Windows Multimedia], WriteData method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_WriteData, multimedia.iavistream_writedata, vfw/IAVIStream::WriteData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,9 +80,9 @@ Four-character code of the stream header to write.
 
 
 
-#### - cbBuffer
+#### - ps
 
-Size, in bytes, of the buffer specified by <i>lpBuffer</i>.
+Pointer to the interface to a stream.
 
 
 #### - lpBuffer
@@ -90,9 +90,9 @@ Size, in bytes, of the buffer specified by <i>lpBuffer</i>.
 Pointer to the buffer that contains the header data to write.
 
 
-#### - ps
+#### - cbBuffer
 
-Pointer to the interface to a stream.
+Size, in bytes, of the buffer specified by <i>lpBuffer</i>.
 
 
 ## -returns

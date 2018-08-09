@@ -7,7 +7,7 @@ old-location: winprog\icamerauicontrol_show.htm
 old-project: devnotes
 ms.assetid: 0426a6ce-9d3e-4ce1-8be8-5d216edc9f2f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ICameraUIControl interface [Windows API],Show method, ICameraUIControl.Show, ICameraUIControl::Show, Show, Show method [Windows API], Show method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::Show, winprog.icamerauicontrol_show
 ms.prod: windows
 ms.technology: windows-sdk

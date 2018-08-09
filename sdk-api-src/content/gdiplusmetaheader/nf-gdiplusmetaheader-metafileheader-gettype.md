@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetType_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\gettype_36.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetType, GetType method [GDI+], GetType method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetType method, MetafileHeader.GetType, MetafileHeader::GetType, _gdiplus_CLASS_MetafileHeader_GetType_, gdiplus._gdiplus_CLASS_MetafileHeader_GetType_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,10 +65,10 @@ The <b>MetafileHeader::GetType</b> method gets the type of the associated metafi
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534154(v=VS.85).aspx">MetafileType</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534154(v=VS.85).aspx">MetafileType</a></b>
 </strong>
 
-This method returns an element of the <a href="https://msdn.microsoft.com/library/ms534154(v=VS.85).aspx">MetafileType</a> enumeration that indicates the type of the associated metafile.
+This method returns an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534154(v=VS.85).aspx">MetafileType</a> enumeration that indicates the type of the associated metafile.
 
 
 
@@ -78,27 +78,27 @@ This method returns an element of the <a href="https://msdn.microsoft.com/librar
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535280(v=VS.85).aspx">GetMetafileHeader</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535280(v=VS.85).aspx">GetMetafileHeader</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533831(v=VS.85).aspx">Loading and Displaying Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533831(v=VS.85).aspx">Loading and Displaying Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534477(v=VS.85).aspx">Metafile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534480(v=VS.85).aspx">MetafileHeader</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534480(v=VS.85).aspx">MetafileHeader</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534154(v=VS.85).aspx">MetafileType</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534154(v=VS.85).aspx">MetafileType</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536391(v=VS.85).aspx">Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536391(v=VS.85).aspx">Metafiles</a>
  
 
  

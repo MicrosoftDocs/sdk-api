@@ -7,7 +7,7 @@ old-location: dhcp\dhcpscandatabase.htm
 old-project: dhcp
 ms.assetid: 6324c197-7237-449f-ae23-4f04b1b7498e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpScanDatabase, DhcpScanDatabase function [DHCP], dhcp.dhcpscandatabase, dhcpsapi/DhcpScanDatabase
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpScanDatabase</b> function enumerates the leased DHCPv4 client IPv4 addresses that are not synchronized between the in-memory cache and the server database.
+The <b>DhcpScanDatabase</b> function enumerates the leased DHCPv4 client IPv4 addresses that are not synchronized between the in-memory cache and the server database.
 
 
 ## -parameters
@@ -147,8 +146,7 @@ This process is necessary as the DHCPv4 server maintains an in-memory cache of f
 
 
 
-<a href="https://msdn.microsoft.com/9dc20612-1c08-4493-aab3-b524d8d88251">
-        DHCP_SCAN_LIST</a>
+<a href="https://msdn.microsoft.com/9dc20612-1c08-4493-aab3-b524d8d88251">DHCP_SCAN_LIST</a>
  
 
  

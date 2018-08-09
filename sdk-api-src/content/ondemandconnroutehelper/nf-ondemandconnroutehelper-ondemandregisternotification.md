@@ -7,7 +7,7 @@ old-location: nla\ondemandregisternotification.htm
 old-project: nla
 ms.assetid: 1C9BB656-B1A7-49A6-97B9-414946BF9BE0
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: OnDemandRegisterNotification, OnDemandRegisterNotification function [Network Awareness], nla.ondemandregisternotification, ondemandconnroutehelper/OnDemandRegisterNotification
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,34 +59,17 @@ The <b>OnDemandRegisterNotification</b> function allows an application to regist
 
 
 
-### -param callback
-
-TBD
-
-
-### -param callbackContext
-
-TBD
-
-
-### -param registrationHandle
-
-TBD
-
-
-
-
-#### - funcCallback [in]
+### -param callback [in]
 
 A pointer to a function of type O<b>ONDEMAND_NOTIFICATION_CALLBACK</b> to receive the notifications.
 
 
-#### - pCallbackContext [in, optional]
+### -param callbackContext [in, optional]
 
 A pointer to a memory location containing optional context to be passed to the callback.
 
 
-#### - pRegistrationHandle [out]
+### -param registrationHandle [out]
 
 A pointer to a HANDLE to receive a handle to the registration in case of success.
 

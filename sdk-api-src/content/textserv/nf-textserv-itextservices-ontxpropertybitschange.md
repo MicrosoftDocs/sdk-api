@@ -4,10 +4,10 @@ title: ITextServices::OnTxPropertyBitsChange
 author: windows-sdk-content
 description: Sets properties (represented by bits) for the control.
 old-location: controls\ITextServices_OnTxPropertyBitsChange.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxpropertybitschange.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ITextServices interface [Windows Controls],OnTxPropertyBitsChange method, ITextServices.OnTxPropertyBitsChange, ITextServices::OnTxPropertyBitsChange, OnTxPropertyBitsChange, OnTxPropertyBitsChange method [Windows Controls], OnTxPropertyBitsChange method [Windows Controls],ITextServices interface, TXTBIT_ALLOWBEEP, TXTBIT_AUTOWORDSEL, TXTBIT_BACKSTYLECHANGE, TXTBIT_CHARFORMATCHANGE, TXTBIT_CLIENTRECTCHANGE, TXTBIT_D2DDWRITE, TXTBIT_D2DPIXELSNAPPED, TXTBIT_D2DSIMPLETYPOGRAPHY, TXTBIT_D2DSUBPIXELLINES, TXTBIT_DISABLEDRAG, TXTBIT_EXTENTCHANGE, TXTBIT_HIDESELECTION, TXTBIT_MAXLENGTHCHANGE, TXTBIT_MULTILINE, TXTBIT_NOTHREADREFCOUNT, TXTBIT_PARAFORMATCHANGE, TXTBIT_READONLY, TXTBIT_RICHTEXT, TXTBIT_SAVESELECTION, TXTBIT_SCROLLBARCHANGE, TXTBIT_SELBARCHANGE, TXTBIT_SHOWACCELERATOR, TXTBIT_SHOWPASSWORD, TXTBIT_USECURRENTBKG, TXTBIT_USEPASSWORD, TXTBIT_VERTICAL, TXTBIT_VIEWINSETCHANGE, TXTBIT_WORDWRAP, _win32_ITextServices_OnTxPropertyBitsChange, _win32_ITextServices_OnTxPropertyBitsChange_cpp, controls.ITextServices_OnTxPropertyBitsChange, controls._win32_ITextServices_OnTxPropertyBitsChange, textserv/ITextServices::OnTxPropertyBitsChange
 ms.prod: windows
 ms.technology: windows-sdk

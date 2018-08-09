@@ -4,10 +4,10 @@ title: IRunningTaskCollection
 author: windows-sdk-content
 description: Provides a collection that is used to control running tasks.
 old-location: taskschd\irunningtaskcollection.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: f95efba5-563d-49c0-81d3-143aa158ad8f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IRunningTaskCollection, IRunningTaskCollection interface [Task Scheduler], IRunningTaskCollection interface [Task Scheduler],described, taskschd.irunningtaskcollection, taskschd/IRunningTaskCollection
 ms.prod: windows
 ms.technology: windows-sdk

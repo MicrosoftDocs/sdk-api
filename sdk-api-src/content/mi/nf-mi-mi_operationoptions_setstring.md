@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_setstring.htm
 old-project: wmi_v2
 ms.assetid: 1bfc3af0-cc43-4a80-acbe-010520acf8b5
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_OperationOptions_SetString, MI_OperationOptions_SetString function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetString, wmi_v2.mi_operationoptions_setstring
 ms.prod: windows
 ms.technology: windows-sdk

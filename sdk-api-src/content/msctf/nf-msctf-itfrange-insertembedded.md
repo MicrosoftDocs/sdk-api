@@ -7,7 +7,7 @@ old-location: tsf\itfrange_insertembedded.htm
 old-project: TSF
 ms.assetid: 95b8622d-c934-4293-abb4-9eface451be5
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfRange interface [Text Services Framework],InsertEmbedded method, ITfRange.InsertEmbedded, ITfRange::InsertEmbedded, InsertEmbedded, InsertEmbedded method [Text Services Framework], InsertEmbedded method [Text Services Framework],ITfRange interface, _tsf_itfrange_insertembedded_ref, msctf/ITfRange::InsertEmbedded, tsf.itfrange_insertembedded
 ms.prod: windows
 ms.technology: windows-sdk
@@ -172,7 +172,7 @@ The document or the location of the range cannot be modified.
 
 
 
-Use this method to insert objects into the text stream, because the <a href="https://msdn.microsoft.com/fa53c1f1-50eb-45eb-b2ea-f236a376d41a">TF_CHAR_EMBEDDED</a> object placeholder character cannot be passed into <a href="https://msdn.microsoft.com/797d96a1-0250-4e8d-a4bd-31152fd6eca7">ITfRange::SetText</a>. This method is modeled after the OLE clipboard API, with applications using <i>pDataObject</i> as they would an <a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a> returned from OleGetClipboard.
+Use this method to insert objects into the text stream, because the <a href="https://msdn.microsoft.com/fa53c1f1-50eb-45eb-b2ea-f236a376d41a">TF_CHAR_EMBEDDED</a> object placeholder character cannot be passed into <a href="https://msdn.microsoft.com/797d96a1-0250-4e8d-a4bd-31152fd6eca7">ITfRange::SetText</a>. This method is modeled after the OLE clipboard API, with applications using <i>pDataObject</i> as they would an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> returned from OleGetClipboard.
 
 When a range covers multiple regions, the method should be called on each region separately. Otherwise, the method might fail.
 
@@ -188,7 +188,7 @@ To determine in advance whether a context owner supports insertion of a particul
 
 
 
-<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
 
 
 
@@ -197,8 +197,7 @@ To determine in advance whether a context owner supports insertion of a particul
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
       </a>
 
 
@@ -207,8 +206,7 @@ To determine in advance whether a context owner supports insertion of a particul
 
 
 
-<a href="https://msdn.microsoft.com/ff8c4f60-76d5-422d-9d23-584e8eb5f1a1">
-        ITfRange::GetEmbedded
+<a href="https://msdn.microsoft.com/ff8c4f60-76d5-422d-9d23-584e8eb5f1a1">ITfRange::GetEmbedded
       </a>
 
 

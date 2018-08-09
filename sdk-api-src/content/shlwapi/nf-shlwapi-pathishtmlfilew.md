@@ -7,7 +7,7 @@ old-location: shell\PathIsHTMLFile.htm
 old-project: shell
 ms.assetid: f24f82c8-ce32-4fbd-be49-06817cc57e5b
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PathIsHTMLFile, PathIsHTMLFile function [Windows Shell], PathIsHTMLFileA, PathIsHTMLFileW, _win32_PathIsHTMLFile, shell.PathIsHTMLFile, shlwapi/PathIsHTMLFile, shlwapi/PathIsHTMLFileA, shlwapi/PathIsHTMLFileW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,16 +61,7 @@ Determines if a file is an HTML file. The determination is made based on the con
 
 
 
-### -param pszPath
-
-TBD
-
-
-
-
-
-
-#### - pszFile [in]
+### -param pszPath [in]
 
 Type: <b>LPCTSTR</b>
 

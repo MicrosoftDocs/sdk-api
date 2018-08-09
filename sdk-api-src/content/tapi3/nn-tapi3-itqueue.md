@@ -4,10 +4,10 @@ title: ITQueue
 author: windows-sdk-content
 description: Gets and sets information concerning a queue. The IEnumQueue::Next and ITACDGroup::get_Queues methods create the ITQueue interface.
 old-location: tapi3\itqueue.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: dd1bc6c7-4d4e-4f66-ac5a-7004b85ec023
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITQueue, ITQueue interface [TAPI 2.2], ITQueue interface [TAPI 2.2],described, _tapi3_itqueue, tapi3.itqueue, tapi3cc/ITQueue
 ms.prod: windows
 ms.technology: windows-sdk

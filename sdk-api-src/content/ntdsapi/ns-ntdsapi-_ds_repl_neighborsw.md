@@ -7,7 +7,7 @@ old-location: ad\ds_repl_neighbors.htm
 old-project: ad
 ms.assetid: 1307399b-de29-43ec-97b4-05cd70c1a92d
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DS_REPL_NEIGHBORS, DS_REPL_NEIGHBORS structure [Active Directory], DS_REPL_NEIGHBORSW, _DS_REPL_NEIGHBORSW, _glines_ds_repl_neighbors, ad.ds__repl__neighbors, ad.ds_repl_neighbors, ntdsapi/DS_REPL_NEIGHBORS
 ms.prod: windows
 ms.technology: windows-sdk

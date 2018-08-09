@@ -7,7 +7,7 @@ old-location: imapi\iblockrangelist.htm
 old-project: imapi
 ms.assetid: f2a3bd54-4f40-4bf0-9cbf-b507819d669f
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IBlockRangeList, IBlockRangeList interface [IMAPI], IBlockRangeList interface [IMAPI],described, imapi.iblockrangelist, imapi2/IBlockRangeList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ Use this interface to retrieve a list of continuous sector ranges on the media. 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBlockRangeList</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IBlockRangeList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBlockRangeList</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IBlockRangeList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

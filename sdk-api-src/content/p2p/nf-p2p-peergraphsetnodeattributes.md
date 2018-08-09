@@ -7,7 +7,7 @@ old-location: p2p\peergraphsetnodeattributes.htm
 old-project: p2psdk
 ms.assetid: 334b6c88-4d5d-4e73-843f-2be07b9de9c9
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphSetNodeAttributes, PeerGraphSetNodeAttributes function [Peer Networking], p2p.peergraphsetnodeattributes, p2p/PeerGraphSetNodeAttributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphSetNodeAttributes</b> function sets the attributes of the <a href="https://msdn.microsoft.com/51cc6c27-91ca-4d02-95d6-207827450fd5">PEER_NODE_INFO</a> structure for the local node.
+The <b>PeerGraphSetNodeAttributes</b> function sets the attributes of the <a href="https://msdn.microsoft.com/51cc6c27-91ca-4d02-95d6-207827450fd5">PEER_NODE_INFO</a> structure for the local node.
 
 
 ## -parameters

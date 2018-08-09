@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservice_isdatasessionopen.htm
 old-project: mbn
 ms.assetid: 97F58FC5-D960-4EBA-8441-12472F2771DE
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],IsDataSessionOpen property, IMbnDeviceService.IsDataSessionOpen, IMbnDeviceService.get_IsDataSessionOpen, IMbnDeviceService::IsDataSessionOpen, IMbnDeviceService::get_IsDataSessionOpen, IsDataSessionOpen property [Microsoft Broadband Networks], IsDataSessionOpen property [Microsoft Broadband Networks],IMbnDeviceService interface, get_IsDataSessionOpen, mbn.imbndeviceservice_isdatasessionopen, mbnapi/IMbnDeviceService::IsDataSessionOpen, mbnapi/IMbnDeviceService::get_IsDataSessionOpen
 ms.prod: windows
 ms.technology: windows-sdk

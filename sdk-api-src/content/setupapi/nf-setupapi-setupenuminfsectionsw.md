@@ -7,7 +7,7 @@ old-location: setup\setupenuminfsections.htm
 old-project: SetupApi
 ms.assetid: 9b19ced6-728a-48e7-9e87-03fc53f7fb72
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupEnumInfSections, SetupEnumInfSections function [Setup API], SetupEnumInfSectionsA, SetupEnumInfSectionsW, setup.setupenuminfsections, setupapi/SetupEnumInfSections, setupapi/SetupEnumInfSectionsA, setupapi/SetupEnumInfSectionsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,46 +69,24 @@ The <b>SetupEnumInfSections</b> function retrieves section names from an INF fil
 Handle to the INF file that is to be queried.
 
 
-### -param Index
-
-TBD
-
-
-### -param Buffer
-
-TBD
-
-
-### -param Size
-
-TBD
-
-
-### -param SizeNeeded
-
-TBD
-
-
-
-
-#### - EnumerationIndex [in]
+### -param Index [in]
 
 The zero-based index of the section name to retrieve. This index may not correspond to the order of sections as they appear in the INF file.
 
 
-#### - RequiredSize [out, optional]
-
-Pointer to a location that receives the required size of the buffer pointed to by <i>ReturnBuffer</i>. The size is specified as the number of characters required to store the section name, including the terminating <b>NULL</b> character.
-
-
-#### - ReturnBuffer [out, optional]
+### -param Buffer [out, optional]
 
 Pointer to a buffer that receives the section name. You can call the function once to get the required buffer size, allocate the necessary memory, and then call the function a second time to retrieve the name. Using this technique, you can avoid errors caused by an insufficient buffer size. This parameter is optional. For more information, see the Remarks section.
 
 
-#### - ReturnBufferSize [in]
+### -param Size [in]
 
 Size of the buffer pointed to by <i>ReturnBuffer</i> in characters. This number includes the terminating <b>NULL</b> character.
+
+
+### -param SizeNeeded [out, optional]
+
+Pointer to a location that receives the required size of the buffer pointed to by <i>ReturnBuffer</i>. The size is specified as the number of characters required to store the section name, including the terminating <b>NULL</b> character.
 
 
 ## -returns

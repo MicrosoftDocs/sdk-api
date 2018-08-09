@@ -4,10 +4,10 @@ title: WSAAsyncGetHostByName macro
 author: windows-sdk-content
 description: The WSAAsyncGetHostByName function asynchronously retrieves host information that corresponds to a host name.Note  The WSAAsyncGetHostByName function is not designed to provide parallel resolution of several names.
 old-location: winsock\wsaasyncgethostbyname_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 1a2b9c76-6e84-4ac2-b5c1-a2268edd0c49
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSAAsyncGetHostByName, WSAAsyncGetHostByName function [Winsock], _win32_wsaasyncgethostbyname_2, winsock.wsaasyncgethostbyname_2, wsipv6ok/WSAAsyncGetHostByName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,36 +63,22 @@ The
 
 
 
-### -param a
+#### - a [in]
 
-TBD
-
-
-### -param b
-
-TBD
+Handle of the window that will receive a message when the asynchronous request completes.
 
 
-### -param c
+#### - b [in]
 
-TBD
-
-
-### -param d
-
-TBD
+Message to be received when the asynchronous request completes.
 
 
-### -param e
+#### - c [in]
 
-TBD
-
-
+Pointer to the null-terminated name of the host.
 
 
-
-
-#### - buf [out]
+#### - d [out]
 
 Pointer to the data area to receive the 
 <a href="https://msdn.microsoft.com/f194b9d5-dfaf-4a02-95c6-6d06015aad1d">hostent</a> data. The data area must be larger than the size of a 
@@ -101,24 +87,9 @@ Pointer to the data area to receive the
 <b>hostent</b> structure. A buffer of MAXGETHOSTSTRUCT bytes is recommended.
 
 
-#### - buflen [in]
+#### - e [in]
 
 Size of data area for the <i>buf</i> parameter, in bytes.
-
-
-#### - hWnd [in]
-
-Handle of the window that will receive a message when the asynchronous request completes.
-
-
-#### - name [in]
-
-Pointer to the null-terminated name of the host.
-
-
-#### - wMsg [in]
-
-Message to be received when the asynchronous request completes.
 
 
 ## -remarks

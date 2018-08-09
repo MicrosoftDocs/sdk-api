@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopycallback_jobmodification.htm
 old-project: bits
 ms.assetid: 7614756d-92d1-4b71-a589-c0e39728a51c
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyCallback interface [BITS],JobModification method, IBackgroundCopyCallback.JobModification, IBackgroundCopyCallback::JobModification, JobModification, JobModification method [BITS], JobModification method [BITS],IBackgroundCopyCallback interface, _drz_ibackgroundcopycallback_jobmodification, bits.ibackgroundcopycallback_jobmodification, bits/IBackgroundCopyCallback::JobModification
 ms.prod: windows
 ms.technology: windows-sdk

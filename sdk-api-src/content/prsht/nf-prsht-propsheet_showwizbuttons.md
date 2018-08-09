@@ -7,7 +7,7 @@ old-location: controls\PropSheet_ShowWizButtons.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_showwizbuttons.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: PSWIZB_BACK, PSWIZB_CANCEL, PSWIZB_FINISH, PSWIZB_NEXT, PSWIZB_RESTORE, PSWIZB_SHOW, PropSheet_ShowWizButtons, PropSheet_ShowWizButtons macro [Windows Controls], _shell_PropSheet_ShowWizButtons, _shell_PropSheet_ShowWizButtons_cpp, controls.PropSheet_ShowWizButtons, controls._shell_PropSheet_ShowWizButtons, prsht/PropSheet_ShowWizButtons
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Show or hide buttons in a wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774630(v=VS.85).aspx">PSM_SHOWWIZBUTTONS</a> message explicitly.
+Show or hide buttons in a wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774630(v=VS.85).aspx">PSM_SHOWWIZBUTTONS</a> message explicitly.
 
 
 ## -parameters

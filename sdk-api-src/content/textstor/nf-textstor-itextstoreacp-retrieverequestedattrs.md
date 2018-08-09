@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_retrieverequestedattrs.htm
 old-project: TSF
 ms.assetid: 6cd34ca5-6561-4161-beac-98248f0415f6
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],RetrieveRequestedAttrs method, ITextStoreACP.RetrieveRequestedAttrs, ITextStoreACP::RetrieveRequestedAttrs, RetrieveRequestedAttrs, RetrieveRequestedAttrs method [Text Services Framework], RetrieveRequestedAttrs method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_retrieverequestedattrs_ref, textstor/ITextStoreACP::RetrieveRequestedAttrs, tsf.itextstoreacp_retrieverequestedattrs
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,20 +116,17 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/243cd002-c882-4ce9-b528-1a2229c46f4a">
-        ITextStoreACP::RequestSupportedAttrs
+<a href="https://msdn.microsoft.com/243cd002-c882-4ce9-b528-1a2229c46f4a">ITextStoreACP::RequestSupportedAttrs
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/9209ef60-6a1d-4aad-9f9f-775534116f37">
-        TS_ATTRVAL
+<a href="https://msdn.microsoft.com/9209ef60-6a1d-4aad-9f9f-775534116f37">TS_ATTRVAL
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/ffd27e9b-3281-45a9-84f2-d09103689ced">
-        TextStoreACP::RequestAttrsTransitioningAtPosition
+<a href="https://msdn.microsoft.com/ffd27e9b-3281-45a9-84f2-d09103689ced">TextStoreACP::RequestAttrsTransitioningAtPosition
       </a>
  
 

@@ -7,7 +7,7 @@ old-location: rras\rassetautodialaddress.htm
 old-project: rras
 ms.assetid: 267d4f8e-0e0b-4636-8f30-3c39bbb8d4e9
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RasSetAutodialAddress, RasSetAutodialAddress function [RAS], RasSetAutodialAddressA, RasSetAutodialAddressW, _ras_rassetautodialaddress, ras/RasSetAutodialAddress, ras/RasSetAutodialAddressA, ras/RasSetAutodialAddressW, rras.rassetautodialaddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,24 +71,19 @@ TBD
 
 
 
+#### - [in]
+
+Pointer to a <b>null</b>-terminated string that specifies the address to add, delete, or modify. This address can be an IP address, Internet host name ("www.microsoft.com"), or NetBIOS name ("products1"). 
+
+
+
+
+If this parameter is <b>NULL</b>, the function sets the default Internet connection (see Remarks). If this parameter points to a zero-length string, the function deletes the default Internet connection.
+
+
 #### - dwReserved [in]
 
 Reserved; must be zero.
-
-
-#### - dwcAutoDialEntries [in]
-
-Specifies the number of 
-<a href="https://msdn.microsoft.com/a62a1e86-a433-44dd-8068-cb4d60b124c3">RASAUTODIALENTRY</a> structures in the <i>lpAutoDialEntries</i> buffer. 
-
-
-
-					
-
-
-#### - dwcbAutoDialEntries [in]
-
-Specifies the size, in bytes, of the <i>lpAutoDialEntries</i> buffer.
 
 
 #### - lpAutoDialEntries [in]
@@ -102,14 +97,19 @@ Pointer to an array of one or more
 					
 
 
-#### - lpszAddress [in]
+#### - dwcbAutoDialEntries [in]
 
-Pointer to a <b>null</b>-terminated string that specifies the address to add, delete, or modify. This address can be an IP address, Internet host name ("www.microsoft.com"), or NetBIOS name ("products1"). 
-
-
+Specifies the size, in bytes, of the <i>lpAutoDialEntries</i> buffer.
 
 
-If this parameter is <b>NULL</b>, the function sets the default Internet connection (see Remarks). If this parameter points to a zero-length string, the function deletes the default Internet connection.
+#### - dwcAutoDialEntries [in]
+
+Specifies the number of 
+<a href="https://msdn.microsoft.com/a62a1e86-a433-44dd-8068-cb4d60b124c3">RASAUTODIALENTRY</a> structures in the <i>lpAutoDialEntries</i> buffer. 
+
+
+
+					
 
 
 ## -returns

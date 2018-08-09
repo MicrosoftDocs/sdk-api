@@ -7,7 +7,7 @@ old-location: magapi\magapi_maggetinputtransform.htm
 old-project: magapi
 ms.assetid: 3825B5DB-BD25-4073-8EB3-65A57709A804
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: MagGetInputTransform, MagGetInputTransform function [Magnification API], magapi.magapi_maggetinputtransform, magnification/MagGetInputTransform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,30 +66,18 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 TRUE  if input translation is enabled, or FALSE if not.
 
 
-### -param pRectSource
-
-TBD
-
-
-### -param pRectDest
-
-TBD
-
-
-
-
-#### - prcDest [out]
-
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">LPRECT</a></b>
-
-The destination rectangle, in screen coordinates, that defines the area of the screen where the magnified screen content is displayed. Pen and touch input in this rectangle is mapped to the source rectangle.
-
-
-#### - prcSource [out]
+### -param pRectSource [out]
 
 Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">LPRECT</a></b>
 
 The source rectangle, in unmagnified screen coordinates,  that defines the area of the screen that is magnified. 
+
+
+### -param pRectDest [out]
+
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">LPRECT</a></b>
+
+The destination rectangle, in screen coordinates, that defines the area of the screen where the magnified screen content is displayed. Pen and touch input in this rectangle is mapped to the source rectangle.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: fwp\fwpmsublayersetsecurityinfobykey0_func.htm
 old-project: fwp
 ms.assetid: 47f1aa71-017d-4de2-8428-d666afa67b71
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmSubLayerSetSecurityInfoByKey0, FwpmSubLayerSetSecurityInfoByKey0 function [Filtering], fwp.fwpmsublayersetsecurityinfobykey0_func, fwpmu/FwpmSubLayerSetSecurityInfoByKey0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-
-		The <b>FwpmSubLayerSetSecurityInfoByKey0</b> function sets specified security information in the security descriptor of a sublayer.
+The <b>FwpmSubLayerSetSecurityInfoByKey0</b> function sets specified security information in the security descriptor of a sublayer.
 
 
 ## -parameters

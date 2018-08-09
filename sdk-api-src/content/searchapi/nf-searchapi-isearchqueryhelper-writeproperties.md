@@ -7,7 +7,7 @@ old-location: search\_search_ISearchQueryHelper_WriteProperties.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\writeproperties.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchQueryHelper interface [search],WriteProperties method, ISearchQueryHelper.WriteProperties, ISearchQueryHelper::WriteProperties, WriteProperties, WriteProperties method [search], WriteProperties method [search],ISearchQueryHelper interface, _search_ISearchQueryHelper_WriteProperties, search._search_ISearchQueryHelper_WriteProperties, searchapi/ISearchQueryHelper::WriteProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,22 +75,22 @@ The number of properties being written.
 
 ### -param pColumns [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>*</b>
+Type: <b><a href="_shell_PROPERTYKEY">PROPERTYKEY</a>*</b>
 
  
-                Pointer to an array of <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structures that represent the properties.
+                Pointer to an array of <a href="_shell_PROPERTYKEY">PROPERTYKEY</a> structures that represent the properties.
 
 
 ### -param pValues [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa965370(v=VS.85).aspx">SEARCH_COLUMN_PROPERTIES</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965370(v=VS.85).aspx">SEARCH_COLUMN_PROPERTIES</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/library/Aa965370(v=VS.85).aspx">SEARCH_COLUMN_PROPERTIES</a> structures that hold the property values.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Aa965370(v=VS.85).aspx">SEARCH_COLUMN_PROPERTIES</a> structures that hold the property values.
 
 
 ### -param pftGatherModifiedTime [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx">FILETIME</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a>*</b>
 
 A pointer to the last modified time for the item being written. This time stamp is used later to see if an item has been changed and requires updating.
 
@@ -111,19 +111,19 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231315(v=VS.85).aspx">ISearchQueryHelper::put_QueryContentProperties</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231315(v=VS.85).aspx">ISearchQueryHelper::put_QueryContentProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb266517(v=VS.85).aspx">Querying the Index Programmatically</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266517(v=VS.85).aspx">Querying the Index Programmatically</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231256(v=VS.85).aspx">Querying the Index with Windows Search SQL Syntax</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231256(v=VS.85).aspx">Querying the Index with Windows Search SQL Syntax</a>
 
 
 

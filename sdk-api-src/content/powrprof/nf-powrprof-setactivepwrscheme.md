@@ -7,7 +7,7 @@ old-location: base\setactivepwrscheme.htm
 old-project: power
 ms.assetid: f449ff0d-5c22-4c6d-8c88-dc18258a8c6d
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: SetActivePwrScheme, SetActivePwrScheme function, _win32_setactivepwrscheme, base.setactivepwrscheme, powrprof/SetActivePwrScheme
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,25 +67,13 @@ Sets the active power scheme.
 The index of the power scheme to be activated.
 
 
-### -param pGlobalPowerPolicy
-
-TBD
-
-
-### -param pPowerPolicy
-
-TBD
-
-
-
-
-#### - lpGlobalPowerPolicy [in, optional]
+### -param pGlobalPowerPolicy [in, optional]
 
 A pointer to an optional 
 <a href="https://msdn.microsoft.com/5c177093-0c16-4a84-9212-f2376de6965b">GLOBAL_POWER_POLICY</a> structure, which provides global power policy settings to be merged with the power scheme when it becomes active.
 
 
-#### - lpPowerPolicy [in, optional]
+### -param pPowerPolicy [in, optional]
 
 A pointer to an optional 
 <a href="https://msdn.microsoft.com/ba49fca6-04b6-4627-a653-07c3fc0dab22">POWER_POLICY</a> structure, which provides power policy settings to be merged with the power scheme when it becomes active.

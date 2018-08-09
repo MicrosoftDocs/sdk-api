@@ -7,7 +7,7 @@ old-location: opengl\wglusefontoutlines.htm
 old-project: OpenGL
 ms.assetid: 08a86563-c6ca-4efb-9096-bc487fc5037c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: "_ogl_wglUseFontOutlines, opengl.wglusefontoutlines, wglUseFontOutlines, wglUseFontOutlines function [OpenGL], wglUseFontOutlinesA, wglUseFontOutlinesW, wingdi/wglUseFontOutlines, wingdi/wglUseFontOutlinesA, wingdi/wglUseFontOutlinesW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,9 +72,21 @@ TBD
 
 
 
+
+
+#### - first
+
+Specifies the first of the set of glyphs that form the font outline display lists.
+
+
 #### - count
 
 Specifies the number of glyphs in the set of glyphs used to form the font outline display lists. The <b>wglUseFontOutlines</b> function creates <i>count</i> display lists, one display list for each glyph in a set of glyphs.
+
+
+#### - listBase
+
+Specifies a starting display list.
 
 
 #### - deviation
@@ -87,24 +99,9 @@ Specifies the maximum chordal deviation from the original outlines. When deviati
 Specifies how much a font is extruded in the negative <i>z</i> direction. The value must be equal to or greater than 0. When <i>extrusion</i> is 0, the display lists are not extruded.
 
 
-#### - first
-
-Specifies the first of the set of glyphs that form the font outline display lists.
-
-
 #### - format
 
 Specifies the format, either WGL_FONT_LINES or WGL_FONT_POLYGONS, to use in the display lists. When <i>format</i> is WGL_FONT_LINES, the <b>wglUseFontOutlines</b> function creates fonts with line segments. When <i>format</i> is WGL_FONT_POLYGONS, <b>wglUseFontOutlines</b> creates fonts with polygons.
-
-
-#### - hdc
-
-Specifies the device context with the desired outline font. The outline font of <i>hdc</i> is used to create the display lists in the current rendering context.
-
-
-#### - listBase
-
-Specifies a starting display list.
 
 
 #### - lpgmf

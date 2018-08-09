@@ -7,7 +7,7 @@ old-location: stg\oleconvertolestreamtoistorageex.htm
 old-project: stg
 ms.assetid: 2e77fa0e-1d98-4c59-8d3c-65bd7235ec8f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: OleConvertOLESTREAMToIStorageEx, OleConvertOLESTREAMToIStorageEx function [Structured Storage], _stg_oleconvertolestreamtoistorageex, ole2/OleConvertOLESTREAMToIStorageEx, stg.oleconvertolestreamtoistorageex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>OleConvertOLESTREAMToIStorageEx</b> function converts the specified object from the OLE 1 storage model to an OLE 2 structured storage object including presentation data. This is one of several compatibility functions.
 
 
@@ -61,9 +60,9 @@ req.product: ADAM
 
 
 
-### -param polestm
+### -param polestm [in]
 
-TBD
+Pointer to the stream that contains the persistent representation of the object in the OLE 1 storage format.
 
 
 ### -param pstg [out]
@@ -76,9 +75,9 @@ Pointer to the OLE 2 structured storage object.
 Pointer to where the format of the presentation data is returned. May be <b>NULL</b>, indicating the absence of presentation data.
 
 
-### -param plwWidth
+### -param plwWidth [out]
 
-TBD
+Pointer to where the width value (in HIMETRIC) of the presentation data is returned.
 
 
 ### -param plHeight [out]
@@ -94,17 +93,7 @@ Pointer to where the size in bytes of the converted data is returned.
 ### -param pmedium [out]
 
 Pointer to where the 
-<a href="https://msdn.microsoft.com/library/ms683812(v=VS.85).aspx">STGMEDIUM</a> structure for the converted serialized data is returned.
-
-
-#### - lpolestm [in]
-
-Pointer to the stream that contains the persistent representation of the object in the OLE 1 storage format.
-
-
-#### - plWidth [out]
-
-Pointer to where the width value (in HIMETRIC) of the presentation data is returned.
+<a href="https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx">STGMEDIUM</a> structure for the converted serialized data is returned.
 
 
 ## -returns
@@ -128,7 +117,7 @@ This function differs from the
 Since this function can specify which presentation data to convert, it can be used by applications that do not use OLE's default caching resources but do use the conversion resources.
 
 The <b>tymed</b> member of 
-<a href="https://msdn.microsoft.com/library/ms683812(v=VS.85).aspx">STGMEDIUM</a> can only be TYMED_NULL or TYMED_ISTREAM. If it is TYMED_NULL, the data will be returned in a global handle through the <b>hGlobal</b> member of <b>STGMEDIUM</b>, otherwise data will be written into the <b>pstm</b> member of this structure.
+<a href="https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx">STGMEDIUM</a> can only be TYMED_NULL or TYMED_ISTREAM. If it is TYMED_NULL, the data will be returned in a global handle through the <b>hGlobal</b> member of <b>STGMEDIUM</b>, otherwise data will be written into the <b>pstm</b> member of this structure.
 
 
 
@@ -138,7 +127,7 @@ The <b>tymed</b> member of
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680738(v=VS.85).aspx">CoIsOle1Class</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680738(v=VS.85).aspx">CoIsOle1Class</a>
 
 
 
@@ -154,11 +143,11 @@ The <b>tymed</b> member of
 
 
 
-<a href="https://msdn.microsoft.com/library/ms683812(v=VS.85).aspx">STGMEDIUM</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx">STGMEDIUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691227(v=VS.85).aspx">TYMED</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691227(v=VS.85).aspx">TYMED</a>
  
 
  

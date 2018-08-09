@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CachedValue.htm
 old-project: WinAuto
 ms.assetid: 2a5ca86d-75d1-416e-9801-52d855c90c08
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CachedValue property [Windows Accessibility], CachedValue property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedValue property, IUIAutomationRangeValuePattern.CachedValue, IUIAutomationRangeValuePattern.get_CachedValue, IUIAutomationRangeValuePattern::CachedValue, IUIAutomationRangeValuePattern::get_CachedValue, get_CachedValue, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedValue, uiauto_IUIAutomationRangeValuePattern_CachedValue, uiautomationclient/IUIAutomationRangeValuePattern::CachedValue, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedValue, winauto.uiauto_IUIAutomationRangeValuePattern_CachedValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

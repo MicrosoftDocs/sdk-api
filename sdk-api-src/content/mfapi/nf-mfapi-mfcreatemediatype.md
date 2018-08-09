@@ -7,7 +7,7 @@ old-location: mf\mfcreatemediatype.htm
 old-project: medfound
 ms.assetid: 05b0941e-03ce-4ced-9022-22b65d1c4b4c
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 05b0941e-03ce-4ced-9022-22b65d1c4b4c, MFCreateMediaType, MFCreateMediaType function [Media Foundation], mf.mfcreatemediatype, mfapi/MFCreateMediaType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ Creates an empty media type.
 
 ### -param ppMFType
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface. The caller must release the interface.
           
 
 
@@ -82,8 +81,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-
-        The media type is created without any attributes.
+The media type is created without any attributes.
       
 
 

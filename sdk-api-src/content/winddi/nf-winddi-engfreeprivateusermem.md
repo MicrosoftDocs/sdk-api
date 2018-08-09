@@ -7,7 +7,7 @@ old-location: display\engfreeprivateusermem.htm
 old-project: display
 ms.assetid: 098bba48-849e-4a35-801c-9573bc5c33f5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: EngFreePrivateUserMem, EngFreePrivateUserMem function [Display Devices], display.engfreeprivateusermem, gdifncs_debf1b76-d783-4b91-832e-c95c2c41af76.xml, winddi/EngFreePrivateUserMem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,16 +64,7 @@ The <b>EngFreePrivateUserMem</b> function deallocates a block of private user me
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a> structure representing the DirectDraw surface with which the memory is associated.
 
 
-### -param p
-
-TBD
-
-
-
-
-
-
-#### - pv [in]
+### -param p [in]
 
 Pointer to the block of user memory being deallocated.
 

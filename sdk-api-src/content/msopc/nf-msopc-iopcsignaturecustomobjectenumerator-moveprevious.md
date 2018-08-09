@@ -2,12 +2,12 @@
 UID: NF:msopc.IOpcSignatureCustomObjectEnumerator.MovePrevious
 title: IOpcSignatureCustomObjectEnumerator::MovePrevious
 author: windows-sdk-content
-description: Moves the current position of the enumerator to the previous IOpcSignatureCustomObject interface pointer.
+description: Moves the current position of the enumerator to the previous IOpcSignatureCustomObjectinterface pointer.
 old-location: opc\iopcsignaturecustomobjectenumerator_moveprevious.htm
 old-project: OPC
 ms.assetid: 1143280b-4c92-44cf-8e2d-acd26527f264
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcSignatureCustomObjectEnumerator.MovePrevious, IOpcSignatureCustomObjectEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcSignatureCustomObjectEnumerator interface, msopc/IOpcSignatureCustomObjectEnumerator::MovePrevious, opc.iopcsignaturecustomobjectenumerator_moveprevious
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Moves the current position of the enumerator to the previous <a href="https://msdn.microsoft.com/4ebb4fbe-66cc-46d9-b548-31177d9f6da9">IOpcSignatureCustomObject</a>
-    interface pointer.
+Moves the current position of the enumerator to the previous <a href="https://msdn.microsoft.com/4ebb4fbe-66cc-46d9-b548-31177d9f6da9">IOpcSignatureCustomObject</a>interface pointer.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ Moves the current position of the enumerator to the previous <a href="https://ms
 
 ### -param hasPrevious [out, retval]
 
-A Boolean value that indicates the status of the <a href="https://msdn.microsoft.com/4ebb4fbe-66cc-46d9-b548-31177d9f6da9">IOpcSignatureCustomObject</a>
-    interface pointer at the current position.
+A Boolean value that indicates the status of the <a href="https://msdn.microsoft.com/4ebb4fbe-66cc-46d9-b548-31177d9f6da9">IOpcSignatureCustomObject</a>interface pointer at the current position.
 
 The value of <i>hasPrevious</i> is only valid when the method succeeds.
 

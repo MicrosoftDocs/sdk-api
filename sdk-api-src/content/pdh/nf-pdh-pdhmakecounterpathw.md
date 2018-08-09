@@ -4,10 +4,10 @@ title: PdhMakeCounterPathW function
 author: windows-sdk-content
 description: Creates a full counter path using the members specified in the PDH_COUNTER_PATH_ELEMENTS structure.
 old-location: perf\pdhmakecounterpath.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: f2dc5f77-9f9e-4290-95fa-ce2f1e81fc69
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 0, PDH_PATH_WBEM_INPUT, PDH_PATH_WBEM_RESULT, PdhMakeCounterPath, PdhMakeCounterPath function [Perf], PdhMakeCounterPathA, PdhMakeCounterPathW, _win32_pdhmakecounterpath, base.pdhmakecounterpath, pdh/PdhMakeCounterPath, pdh/PdhMakeCounterPathA, pdh/PdhMakeCounterPathW, perf.pdhmakecounterpath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,8 +131,7 @@ Returns the path in the PDH format, for example, \\computer\object(parent/instan
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

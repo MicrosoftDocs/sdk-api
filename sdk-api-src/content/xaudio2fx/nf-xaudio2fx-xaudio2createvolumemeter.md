@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2createvolumemeter.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CreateVolumeMeter(IUnknown@,UINT32)
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: XAudio2CreateVolumeMeter, XAudio2CreateVolumeMeter function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2createvolumemeter, xaudio2fx/XAudio2CreateVolumeMeter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,7 @@ Creates a new volume meter audio processing object (APO) and returns a pointer t
 Contains the created volume meter APO.
 
 
-### -param DEFAULT
-
-TBD
-
-
-
-
-#### - Flags [in]
+### -param DEFAULT [in]
 
 Flags that specify the behavior of the APO. The value of this parameter must be 0.
 

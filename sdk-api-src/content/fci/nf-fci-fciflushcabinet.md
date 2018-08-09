@@ -7,7 +7,7 @@ old-location: winprog\fciflushcabinet.htm
 old-project: devnotes
 ms.assetid: dc586260-180e-4a6b-accf-2ddd62ac1335
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FCIFlushCabinet, FCIFlushCabinet function [Windows API], fci/FCIFlushCabinet, winprog.fciflushcabinet
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,24 +69,12 @@ A valid FCI context handle returned by the<a href="https://msdn.microsoft.com/bf
 Specifies whether the function pointed to by the supplied <i>GetNextCab</i> parameter will be called.
 
 
-### -param pfnfcignc
-
-TBD
-
-
-### -param pfnfcis
-
-TBD
-
-
-
-
-#### - GetNextCab [in]
+### -param pfnfcignc [in]
 
 Pointer to an application-defined callback function to obtain specifications on the next cabinet to create. The function should be declared using the <a href="https://msdn.microsoft.com/d56fb63e-91bf-4991-a954-176211697a2e">FNFCIGETNEXTCABINET</a> macro.
 
 
-#### - pfnProgress [in]
+### -param pfnfcis [in]
 
 Pointer to an application-defined callback function to update the user. The function should be declared using the <a href="https://msdn.microsoft.com/529fd3c8-9783-4dbe-9268-a9137935cf9b">FNFCISTATUS</a> macro.
 

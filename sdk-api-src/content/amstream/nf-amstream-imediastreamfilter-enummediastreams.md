@@ -7,7 +7,7 @@ old-location: dshow\imediastreamfilter_enummediastreams.htm
 old-project: DirectShow
 ms.assetid: 5f62abda-6192-4adb-985d-9bffe310b407
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: EnumMediaStreams, EnumMediaStreams method [DirectShow], EnumMediaStreams method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],EnumMediaStreams method, IMediaStreamFilter.EnumMediaStreams, IMediaStreamFilter::EnumMediaStreams, IMediaStreamFilterEnumMediaStreams, amstream/IMediaStreamFilter::EnumMediaStreams, dshow.imediastreamfilter_enummediastreams
 ms.prod: windows
 ms.technology: windows-sdk

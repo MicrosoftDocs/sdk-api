@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9ex_getadaptermodecountex.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9ex_getadaptermodecountex.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetAdapterModeCountEx, GetAdapterModeCountEx method [Direct3D 9], GetAdapterModeCountEx method [Direct3D 9],IDirect3D9Ex interface, IDirect3D9Ex interface [Direct3D 9],GetAdapterModeCountEx method, IDirect3D9Ex.GetAdapterModeCountEx, IDirect3D9Ex::GetAdapterModeCountEx, b588ce9d-6d83-1841-d193-8ee55c13af53, d3d9/IDirect3D9Ex::GetAdapterModeCountEx, direct3d9.idirect3d9ex_getadaptermodecountex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,9 @@ Ordinal number denoting the display adapter from which to retrieve the display m
 
 ### -param pFilter [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb172550(v=VS.85).aspx">D3DDISPLAYMODEFILTER</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172550(v=VS.85).aspx">D3DDISPLAYMODEFILTER</a>*</b>
 
-Specifies the characteristics of the desired display mode. See <a href="https://msdn.microsoft.com/library/Bb172550(v=VS.85).aspx">D3DDISPLAYMODEFILTER</a>.
+Specifies the characteristics of the desired display mode. See <a href="https://msdn.microsoft.com/en-us/library/Bb172550(v=VS.85).aspx">D3DDISPLAYMODEFILTER</a>.
 
 
 ## -returns
@@ -90,7 +90,7 @@ The number of display modes available. A return of value zero from this method i
 
 Events such as display mode changes on other heads of the same hardware, monitor change or its connection status change, and desktop extension/unextension could all affect the number of display mode available.
 
-To fullscreen applications, S_PRESENT_MODE_CHANGED returned from <a href="https://msdn.microsoft.com/library/Bb174343(v=VS.85).aspx">PresentEx</a> or <a href="https://msdn.microsoft.com/library/Bb174338(v=VS.85).aspx">CheckDeviceState</a> is the indication of display mode setting failure due to those events.
+To fullscreen applications, S_PRESENT_MODE_CHANGED returned from <a href="https://msdn.microsoft.com/en-us/library/Bb174343(v=VS.85).aspx">PresentEx</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb174338(v=VS.85).aspx">CheckDeviceState</a> is the indication of display mode setting failure due to those events.
 
 To increase the chance of setting a currently available display mode successfully, fullscreen applications should try to requery the available display mode list upon receiving S_PRESENT_MODE_CHANGED.
 
@@ -102,7 +102,7 @@ To increase the chance of setting a currently available display mode successfull
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174301(v=VS.85).aspx">IDirect3D9Ex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174301(v=VS.85).aspx">IDirect3D9Ex</a>
  
 
  

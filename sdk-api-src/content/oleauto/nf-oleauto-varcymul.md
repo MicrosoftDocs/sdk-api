@@ -7,7 +7,7 @@ old-location: automat\varcymul.htm
 old-project: automat
 ms.assetid: a7cc06b2-5a19-4ffe-b055-4756a0d305ef
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarCyMul, VarCyMul function [Automation], _oa96_VarCyMul, automat.varcymul, oleauto/VarCyMul
 ms.prod: windows
 ms.technology: windows-sdk

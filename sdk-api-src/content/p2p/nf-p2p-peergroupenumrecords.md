@@ -7,7 +7,7 @@ old-location: p2p\peergroupenumrecords.htm
 old-project: p2psdk
 ms.assetid: d9a0654a-850a-40bb-9112-03ec9bf47370
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGroupEnumRecords, PeerGroupEnumRecords function [Peer Networking], p2p.peergroupenumrecords, p2p/PeerGroupEnumRecords
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGroupEnumRecords</b> function creates an enumeration of peer group records.
+The <b>PeerGroupEnumRecords</b> function creates an enumeration of peer group records.
 
 
 ## -parameters

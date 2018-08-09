@@ -7,7 +7,7 @@ old-location: buses\winusb_queryinterfacesettings.htm
 old-project: usbref
 ms.assetid: fe36e441-60eb-4df3-8100-6c441c599a60
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WinUsb_QueryInterfaceSettings, WinUsb_QueryInterfaceSettings function [Buses], buses.winusb_queryinterfacesettings, winusb/WinUsb_QueryInterfaceSettings, winusbfunc_e69535c0-faad-4708-823c-f343e8ae2e9d.xml
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,19 +66,14 @@ An opaque handle to an interface in the selected configuration.
 To retrieve the settings of the first interface, use the handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/ff540245">WinUsb_GetAssociatedInterface</a>.
 
 
-### -param AlternateInterfaceNumber
+### -param AlternateInterfaceNumber [in]
 
-TBD
+A value that indicates which alternate settings to return. A value of 0 indicates the first alternate setting, a value of 1 indicates the second alternate setting, and so on.
 
 
 ### -param UsbAltInterfaceDescriptor [out]
 
 A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff540065">USB_INTERFACE_DESCRIPTOR</a> structure that contains information about the interface that <i>AlternateSettingNumber</i> specified.
-
-
-#### - AlternateSettingNumber [in]
-
-A value that indicates which alternate settings to return. A value of 0 indicates the first alternate setting, a value of 1 indicates the second alternate setting, and so on.
 
 
 ## -returns

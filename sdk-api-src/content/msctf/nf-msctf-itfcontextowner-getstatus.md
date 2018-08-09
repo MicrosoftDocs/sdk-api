@@ -7,7 +7,7 @@ old-location: tsf\itfcontextowner_getstatus.htm
 old-project: TSF
 ms.assetid: ce30ec8a-48fe-4ec7-a7e1-2a0cf084097d
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetStatus method, ITfContextOwner.GetStatus, ITfContextOwner::GetStatus, _tsf_itfcontextowner_getstatus_ref, msctf/ITfContextOwner::GetStatus, tsf.itfcontextowner_getstatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,8 +106,7 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/d27d81f2-8599-4b65-866b-4e8fd2f589f5">
-        TS_STATUS
+<a href="https://msdn.microsoft.com/d27d81f2-8599-4b65-866b-4e8fd2f589f5">TS_STATUS
       </a>
  
 

@@ -7,7 +7,7 @@ old-location: mf\mfcreatesamplegrabbersinkactivate.htm
 old-project: medfound
 ms.assetid: ac8e415e-5df8-4fdb-adf6-c3c717c3d625
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFCreateSampleGrabberSinkActivate, MFCreateSampleGrabberSinkActivate function [Media Foundation], ac8e415e-5df8-4fdb-adf6-c3c717c3d625, mf.mfcreatesamplegrabbersinkactivate, mfidl/MFCreateSampleGrabberSinkActivate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,22 +64,19 @@ Creates an activation object for the sample grabber media sink.
 
 ### -param pIMFMediaType
 
-
-            Pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface, defining the media type for the sample grabber's input stream.
+Pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface, defining the media type for the sample grabber's input stream.
           
 
 
 ### -param pIMFSampleGrabberSinkCallback
 
-
-            Pointer to the <a href="https://msdn.microsoft.com/6635823c-f532-4012-ad3c-382491b61671">IMFSampleGrabberSinkCallback</a> interface of a callback object. The caller must implement this interface.
+Pointer to the <a href="https://msdn.microsoft.com/6635823c-f532-4012-ad3c-382491b61671">IMFSampleGrabberSinkCallback</a> interface of a callback object. The caller must implement this interface.
           
 
 
 ### -param ppIActivate
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface. Use this interface to complete the creation of the sample grabber. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface. Use this interface to complete the creation of the sample grabber. The caller must release the interface.
           
 
 

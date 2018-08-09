@@ -7,7 +7,7 @@ old-location: ad\dsbrowseinfo.htm
 old-project: ad
 ms.assetid: eaa2da41-1ddf-42d3-b721-6649ad49acf1
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: "*PDSBROWSEINFOW, DSBI_CHECKBOXES, DSBI_DONTSIGNSEAL, DSBI_ENTIREDIRECTORY, DSBI_EXPANDONOPEN, DSBI_HASCREDENTIALS, DSBI_IGNORETREATASLEAF, DSBI_INCLUDEHIDDEN, DSBI_NOBUTTONS, DSBI_NOLINES, DSBI_NOLINESATROOT, DSBI_NOROOT, DSBI_RETURNOBJECTCLASS, DSBI_RETURN_FORMAT, DSBI_SIMPLEAUTHENTICATE, DSBROWSEINFO, DSBROWSEINFO structure [Active Directory], DSBROWSEINFOA, DSBROWSEINFOW, DSBROWSEINFOW structure [Active Directory], PDSBROWSEINFOW, PDSBROWSEINFOW structure pointer [Active Directory], _glines_dsbrowseinfo, ad.dsbrowseinfo, dsclient/DSBROWSEINFO, dsclient/DSBROWSEINFOA, dsclient/DSBROWSEINFOW, dsclient/PDSBROWSEINFOW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -220,41 +220,6 @@ Pointer to a Unicode string buffer that receives the class string of the selecte
 Contains the size, in <b>WCHAR</b> characters, of the <b>pszObjectClass</b> buffer.
 
 
-##### - dwFlags.DSBI_CHECKBOXES (256 (0x100))
-
-Causes a check box to be placed next to each item in the tree. The user can use the mouse to select and clear this check box. This currently has limited usage because there is no way to set or get the check state of an item.
-
-
-##### - dwFlags.DSBI_DONTSIGNSEAL (33554432 (0x2000000))
-
-Indicates that signing and sealing will not be used when communicating with the directory service.
-
-
-##### - dwFlags.DSBI_ENTIREDIRECTORY (589824 (0x90000))
-
-Includes all the trusted domains to the server specified in <b>pszRoot</b> or, by default, the domain that the user is logged in to.
-
-
-##### - dwFlags.DSBI_EXPANDONOPEN (262144 (0x40000))
-
-When  the dialog box opens, the container specified in <b>pszPath</b> will be visible and selected.
-
-
-##### - dwFlags.DSBI_HASCREDENTIALS (2097152 (0x200000))
-
-<b>pUserName</b> and <b>pPassword</b> are used for the access credentials. Otherwise, if this member does not contain <b>DSBI_SIMPLEAUTHENTICATE</b>, the dialog uses the security context of the calling thread.
-
-
-##### - dwFlags.DSBI_IGNORETREATASLEAF (4194304 (0x400000))
-
-When determining if the object is displayed in the dialog box, the <b>treatAsLeaf</b> display specifier is ignored.
-
-
-##### - dwFlags.DSBI_INCLUDEHIDDEN (131072 (0x20000))
-
-Include hidden objects in the dialog box.
-
-
 ##### - dwFlags.DSBI_NOBUTTONS (1 (0x1))
 
 The <b>+</b> and <b>-</b> buttons are not displayed in the dialog box.
@@ -270,14 +235,29 @@ The lines that connect the objects in the dialog box are not displayed.
 The lines and buttons above the root objects are not displayed.
 
 
+##### - dwFlags.DSBI_CHECKBOXES (256 (0x100))
+
+Causes a check box to be placed next to each item in the tree. The user can use the mouse to select and clear this check box. This currently has limited usage because there is no way to set or get the check state of an item.
+
+
 ##### - dwFlags.DSBI_NOROOT (65536 (0x10000))
 
 The root object, specified by <b>pszRoot</b>, is not displayed and the immediate child objects of the root are displayed at the root of the tree. This flag has no effect if <b>pszRoot</b> is <b>NULL</b> or if this member contains <b>DSBI_ENTIREDIRECTORY</b>.
 
 
-##### - dwFlags.DSBI_RETURNOBJECTCLASS (16777216 (0x1000000))
+##### - dwFlags.DSBI_INCLUDEHIDDEN (131072 (0x20000))
 
-Indicates that the <b>pszObjectClass</b> and <b>cchObjectClass</b> are valid and should be filled.
+Include hidden objects in the dialog box.
+
+
+##### - dwFlags.DSBI_EXPANDONOPEN (262144 (0x40000))
+
+When  the dialog box opens, the container specified in <b>pszPath</b> will be visible and selected.
+
+
+##### - dwFlags.DSBI_ENTIREDIRECTORY (589824 (0x90000))
+
+Includes all the trusted domains to the server specified in <b>pszRoot</b> or, by default, the domain that the user is logged in to.
 
 
 ##### - dwFlags.DSBI_RETURN_FORMAT (1048576 (0x100000))
@@ -285,9 +265,29 @@ Indicates that the <b>pszObjectClass</b> and <b>cchObjectClass</b> are valid and
 Indicates that the <b>dwReturnFormat</b> member is valid. If this flag is not set, the path format defaults to X.500.
 
 
+##### - dwFlags.DSBI_HASCREDENTIALS (2097152 (0x200000))
+
+<b>pUserName</b> and <b>pPassword</b> are used for the access credentials. Otherwise, if this member does not contain <b>DSBI_SIMPLEAUTHENTICATE</b>, the dialog uses the security context of the calling thread.
+
+
+##### - dwFlags.DSBI_IGNORETREATASLEAF (4194304 (0x400000))
+
+When determining if the object is displayed in the dialog box, the <b>treatAsLeaf</b> display specifier is ignored.
+
+
 ##### - dwFlags.DSBI_SIMPLEAUTHENTICATE (8388608 (0x800000))
 
 Indicates that secure authentication is not required when calling <a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a>.
+
+
+##### - dwFlags.DSBI_RETURNOBJECTCLASS (16777216 (0x1000000))
+
+Indicates that the <b>pszObjectClass</b> and <b>cchObjectClass</b> are valid and should be filled.
+
+
+##### - dwFlags.DSBI_DONTSIGNSEAL (33554432 (0x2000000))
+
+Indicates that signing and sealing will not be used when communicating with the directory service.
 
 
 ## -see-also

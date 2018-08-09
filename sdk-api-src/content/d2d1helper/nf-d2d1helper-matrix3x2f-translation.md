@@ -4,10 +4,10 @@ title: Matrix3x2F::Translation
 author: windows-sdk-content
 description: Creates a translation transformation that has the specified x and y displacements.
 old-location: direct2d\matrix3x2f_translation.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: eb289287-4f33-42cf-a306-120adda70371
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D2D1.Matrix3x2F.Translation, D2D1::Matrix3x2F::Translation, Matrix3x2F class [Direct2D],Translation method, Matrix3x2F.Translation, Matrix3x2F::Translation, Matrix3x2F::Translation(D2D1_SIZE_F), Translation, Translation method [Direct2D], Translation method [Direct2D],Matrix3x2F class, d2d1helper/Matrix3x2F::Translation, direct2d.matrix3x2f_translation
 ms.prod: windows
 ms.technology: windows-sdk

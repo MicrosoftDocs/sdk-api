@@ -7,7 +7,7 @@ old-location: controls\LVGROUPMETRICS.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvgroupmetrics.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*PLVGROUPMETRICS, LVGROUPMETRICS, LVGROUPMETRICS structure [Windows Controls], PLVGROUPMETRICS, PLVGROUPMETRICS structure pointer [Windows Controls], commctrl/LVGROUPMETRICS, commctrl/PLVGROUPMETRICS, controls.LVGROUPMETRICS, controls.inet_LVGROUPMETRICS, inet_LVGROUPMETRICS, inet_LVGROUPMETRICS_cpp, tagLVGROUPMETRICS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -209,19 +209,19 @@ The width of a border determines the margins of the area within which items are 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774934(v=VS.85).aspx">LVM_GETGROUPMETRICS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774934(v=VS.85).aspx">LVM_GETGROUPMETRICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761168(v=VS.85).aspx">LVM_SETGROUPMETRICS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761168(v=VS.85).aspx">LVM_SETGROUPMETRICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761284(v=VS.85).aspx">ListView_GetGroupMetrics</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761284(v=VS.85).aspx">ListView_GetGroupMetrics</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775080(v=VS.85).aspx">ListView_SetGroupMetrics</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775080(v=VS.85).aspx">ListView_SetGroupMetrics</a>
 
 
 

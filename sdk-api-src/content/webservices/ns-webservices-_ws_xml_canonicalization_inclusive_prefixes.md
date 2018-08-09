@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_canonicalization_inclusive_prefixes.htm
 old-project: wsw
 ms.assetid: 792ab726-6309-4f77-b40c-95dad2d991d9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES, WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES structure [Web Services for Windows], _WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES, webservices/WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES, wsw.ws_xml_canonicalization_inclusive_prefixes
 ms.prod: windows
 ms.technology: windows-sdk

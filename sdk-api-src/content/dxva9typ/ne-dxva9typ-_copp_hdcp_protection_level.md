@@ -7,7 +7,7 @@ old-location: dshow\copp_hdcp_protection_level.htm
 old-project: DirectShow
 ms.assetid: 902ea4c6-8eba-4bfd-b986-5e7a5a2a5971
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: COPP_HDCP_ForceDWORD, COPP_HDCP_Level0, COPP_HDCP_Level1, COPP_HDCP_LevelMax, COPP_HDCP_LevelMin, COPP_HDCP_Protection_Level, COPP_HDCP_Protection_Level , COPP_HDCP_Protection_Level enumeration [DirectShow], COPP_HDCP_Protection_LevelEnumeration, _COPP_HDCP_Protection_Level, dshow.copp_hdcp_protection_level, dxva9typ/COPP_HDCP_ForceDWORD, dxva9typ/COPP_HDCP_Level0, dxva9typ/COPP_HDCP_Level1, dxva9typ/COPP_HDCP_LevelMax, dxva9typ/COPP_HDCP_LevelMin, dxva9typ/COPP_HDCP_Protection_Level
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,36 +64,31 @@ Specifies the HDCP protection level.
 
 ### -field COPP_HDCP_Level0
 
-
-            HDCP protection is not enabled. See Remarks.
+HDCP protection is not enabled. See Remarks.
           
 
 
 ### -field COPP_HDCP_LevelMin
 
-
-            Minimum HDCP level. Equivalent to <b>COPP_HDCP_Level0</b>.
+Minimum HDCP level. Equivalent to <b>COPP_HDCP_Level0</b>.
           
 
 
 ### -field COPP_HDCP_Level1
 
-
-            HDCP is enabled.
+HDCP is enabled.
           
 
 
 ### -field COPP_HDCP_LevelMax
 
-
-            Maximum HDCP level. Equivalent to <b>COPP_HDCP_Level1</b>.
+Maximum HDCP level. Equivalent to <b>COPP_HDCP_Level1</b>.
           
 
 
 ### -field COPP_HDCP_ForceDWORD
 
-
-            Reserved.
+Reserved.
           
 
 

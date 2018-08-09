@@ -4,10 +4,10 @@ title: WinHttpSendRequest function
 author: windows-sdk-content
 description: Sends the specified request to the HTTP server.
 old-location: http\winhttpsendrequest.htm
-old-project: WinHttp
+old-project: winhttp
 ms.assetid: 991bf531-2e6b-4581-8069-f75789915522
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WinHttpSendRequest, WinHttpSendRequest function [WinHTTP], http.winhttpsendrequest, winhttp.winhttpsendrequest_function, winhttp/WinHttpSendRequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,9 @@ An <a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HIN
 <a href="https://msdn.microsoft.com/9ecd035d-1abf-48ca-baf2-d9754f912c60">WinHttpOpenRequest</a>.
 
 
-### -param lpszHeaders
+### -param lpszHeaders [in, optional]
 
-TBD
+A pointer to a string  that contains the additional headers to append to the request. This parameter can be <b>WINHTTP_NO_ADDITIONAL_HEADERS</b> if there are no additional headers to append.
 
 
 ### -param dwHeadersLength [in]
@@ -105,11 +105,6 @@ An unsigned long integer value that contains the length, in bytes, of the total 
 ### -param dwContext [in]
 
 A pointer to a pointer-sized variable that contains an application-defined value that is passed, with the request handle, to any callback functions.
-
-
-#### - pwszHeaders [in, optional]
-
-A pointer to a string  that contains the additional headers to append to the request. This parameter can be <b>WINHTTP_NO_ADDITIONAL_HEADERS</b> if there are no additional headers to append.
 
 
 ## -returns

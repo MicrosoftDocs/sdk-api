@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgisurface_getdesc.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgisurface_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/30/2018
 ms.keywords: 92b3b49a-8f1d-7cd5-e484-3b5621c5acf5, GetDesc, GetDesc method [DXGI], GetDesc method [DXGI],IDXGISurface interface, IDXGISurface interface [DXGI],GetDesc method, IDXGISurface.GetDesc, IDXGISurface::GetDesc, direct3ddxgi.idxgisurface_getdesc, dxgi/IDXGISurface::GetDesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,18 +62,18 @@ Get a description of the surface.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173074(v=VS.85).aspx">DXGI_SURFACE_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173074(v=VS.85).aspx">DXGI_SURFACE_DESC</a>*</b>
 
-A pointer to the surface description (see <a href="https://msdn.microsoft.com/library/Bb173074(v=VS.85).aspx">DXGI_SURFACE_DESC</a>).
+A pointer to the surface description (see <a href="https://msdn.microsoft.com/en-us/library/Bb173074(v=VS.85).aspx">DXGI_SURFACE_DESC</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns S_OK if successful; otherwise, returns one of the error codes that are described in the <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.
+Returns S_OK if successful; otherwise, returns one of the error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.
 
 
 
@@ -83,7 +83,7 @@ Returns S_OK if successful; otherwise, returns one of the error codes that are d
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174565(v=VS.85).aspx">IDXGISurface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174565(v=VS.85).aspx">IDXGISurface</a>
  
 
  

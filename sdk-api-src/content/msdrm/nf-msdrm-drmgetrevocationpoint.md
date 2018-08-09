@@ -7,7 +7,7 @@ old-location: rm\drmgetrevocationpoint.htm
 old-project: adrms_sdk
 ms.assetid: 11197e77-0b7f-4972-83a1-a82aa5cef0dd
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMGetRevocationPoint, DRMGetRevocationPoint function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetRevocationPoint, rm.drmgetrevocationpoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,9 +107,11 @@ A pointer to a <b>UINT</b> value that, on entry, contains the length, in charact
 After the function returns, this value contains the number of characters, including the terminating null character, that were copied to the <i>wszURL</i> buffer.
 
 
-### -param wszRL
+### -param wszRL [out]
 
-TBD
+A pointer to a null-terminated Unicode string that receives the URL where a revocation list can be obtained. The size of this buffer is specified by the <i>puURLLength</i> parameter.
+
+To determine the required size of this buffer, pass <b>NULL</b> for this parameter. The function will place the size, in characters, including the terminating null character, in the <i>puURLLength</i> value.
 
 
 ### -param pstFrequency [out]
@@ -143,13 +145,6 @@ After the function returns, this value contains the number of characters, includ
 A pointer to a null-terminated Unicode string that receives the optional public key to identify a revocation list outside the content's chain of trust. The size of this buffer is specified by the <i>puPublicKeyLength</i> parameter.
 
 To determine the required size of this buffer, pass <b>NULL</b> for this parameter. The function will place the size, in characters, including the terminating null character, in the <i>puPublicKeyLength</i> value.
-
-
-#### - wszURL [out]
-
-A pointer to a null-terminated Unicode string that receives the URL where a revocation list can be obtained. The size of this buffer is specified by the <i>puURLLength</i> parameter.
-
-To determine the required size of this buffer, pass <b>NULL</b> for this parameter. The function will place the size, in characters, including the terminating null character, in the <i>puURLLength</i> value.
 
 
 ## -returns

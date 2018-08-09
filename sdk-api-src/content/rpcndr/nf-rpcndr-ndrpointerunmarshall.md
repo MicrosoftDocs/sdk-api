@@ -7,7 +7,7 @@ old-location: rpc\ndrpointerunmarshall.htm
 old-project: rpc
 ms.assetid: 6e4b0085-34bd-4f63-beea-a944ff0f853e
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: NdrPointerUnmarshall, NdrPointerUnmarshall function [RPC], rpc.ndrpointerunmarshall, rpcndr/NdrPointerUnmarshall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,9 @@ The <b>NdrPointerUnmarshall</b> function unmarshalls a top level pointer to anyt
 Pointer to a <a href="https://msdn.microsoft.com/9bd021f6-10c9-4e77-be75-9a89a3a016e0">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. Structure is for internal use only; do not modify.
 
 
-### -param ppMemory
+### -param ppMemory [in]
 
-TBD
+Pointer to memory where pointer will be unmarshalled. Please see MCCP Buffer Protection for information on buffer overrun protections in RPC: <a href="http://msdn.microsoft.com/en-us/library/ff621497(VS.85).aspx ">http://msdn.microsoft.com/en-us/library/ff621497(VS.85).aspx</a>
 
 
 ### -param pFormat [in]
@@ -76,21 +76,9 @@ TBD
 Pointer to the format string description.
 
 
-### -param fMustAlloc
-
-TBD
-
-
-
-
-#### - fSkipRefCheck [in]
+### -param fMustAlloc [in]
 
 Unused.
-
-
-#### - pMemory [in]
-
-Pointer to memory where pointer will be unmarshalled. Please see MCCP Buffer Protection for information on buffer overrun protections in RPC: <a href="http://msdn.microsoft.com/en-us/library/ff621497(VS.85).aspx ">http://msdn.microsoft.com/en-us/library/ff621497(VS.85).aspx</a>
 
 
 ## -returns

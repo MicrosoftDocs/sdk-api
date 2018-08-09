@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_IsAvailable_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\isavailable.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Font class [GDI+],IsAvailable method, Font.IsAvailable, Font::IsAvailable, IsAvailable, IsAvailable method [GDI+], IsAvailable method [GDI+],Font class, _gdiplus_CLASS_Font_IsAvailable_, gdiplus._gdiplus_CLASS_Font_IsAvailable_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Font::IsAvailable</b> method determines whether this 
-			<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a> object was created successfully.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a> object was created successfully.
 
 
 ## -parameters
@@ -79,15 +79,15 @@ If the font was constructed successfully, this method returns <b>TRUE</b>; other
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536194(v=VS.85).aspx">Font::GetLastStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536194(v=VS.85).aspx">Font::GetLastStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
  
 
  

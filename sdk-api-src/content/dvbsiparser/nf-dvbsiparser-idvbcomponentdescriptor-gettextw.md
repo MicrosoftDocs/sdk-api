@@ -7,7 +7,7 @@ old-location: mstv\idvbcomponentdescriptor_gettextw.htm
 old-project: mstv
 ms.assetid: 1b4ff757-24d0-4dca-8def-c8079724e571
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetTextW, GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies],IDvbComponentDescriptor interface, IDvbComponentDescriptor interface [Microsoft TV Technologies],GetTextW method, IDvbComponentDescriptor.GetTextW, IDvbComponentDescriptor::GetTextW, dvbsiparser/IDvbComponentDescriptor::GetTextW, mstv.idvbcomponentdescriptor_gettextw
 ms.prod: windows
 ms.technology: windows-sdk

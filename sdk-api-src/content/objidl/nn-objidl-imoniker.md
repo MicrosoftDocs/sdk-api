@@ -7,7 +7,7 @@ old-location: com\imoniker.htm
 old-project: com
 ms.assetid: 17f4c1df-7a9c-42ef-a888-70cd8d85f070
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IMoniker, IMoniker interface [COM], IMoniker interface [COM],described, _com_imoniker, com.imoniker, objidl/IMoniker
 ms.prod: windows
 ms.technology: windows-sdk

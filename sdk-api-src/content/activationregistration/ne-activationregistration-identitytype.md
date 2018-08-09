@@ -7,7 +7,7 @@ old-location: winrt\identitytype.htm
 old-project: WinRT
 ms.assetid: 17EBFEE2-903A-4B64-A59F-D94E96E4457E
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ActivateAsActivator, ActivateAsPackage, IdentityType, IdentityType enumeration [Windows Runtime], RunAs, activationregistration/ActivateAsActivator, activationregistration/ActivateAsPackage, activationregistration/IdentityType, activationregistration/RunAs, winrt.identitytype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,14 +86,14 @@ Represents the kind of activation for an out-of-process server.
 Activate the out-of-process server as an activator.
 
 
-#### - ActivateAsPackage
-
-Activate the out-of-process server as a Windows Store app package.
-
-
 #### - RunAs
 
 Activate the out-of-process server as an executable.
+
+
+#### - ActivateAsPackage
+
+Activate the out-of-process server as a Windows Store app package.
 
 
 ## -see-also

@@ -4,10 +4,10 @@ title: CreateTransactionManager function
 author: windows-sdk-content
 description: Creates a new transaction manager (TM) object and returns a handle with the specified access.
 old-location: fs\createtransactionmanager.htm
-old-project: Ktm
+old-project: ktm
 ms.assetid: f5b7d0c1-9cd0-48fc-8125-d4da040951c4
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: CreateTransactionManager, CreateTransactionManager function [Files], TRANSACTION_MANAGER_VOLATILE, fs.createtransactionmanager, ktmw32/CreateTransactionManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,9 +71,9 @@ TBD
 The log file stream name.  If the stream does not exist in the log, it is created. To create a volatile TM, this parameter must be <b>NULL</b> and <i>CreateOptions</i> must specify TRANSACTION_MANAGER_VOLATILE, this transaction manager is considered volatile.
 
 
-#### - CommitStrength [in, optional]
+#### - lpTransactionAttributes [in, optional]
 
-Reserved; specify zero.
+The transaction <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> (ACLs) for the TM object. 
 
 
 #### - CreateOptions [in, optional]
@@ -99,9 +99,9 @@ Indicates that the TM is volatile, and does not perform recovery.
  
 
 
-#### - lpTransactionAttributes [in, optional]
+#### - CommitStrength [in, optional]
 
-The transaction <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> (ACLs) for the TM object. 
+Reserved; specify zero.
 
 
 ## -returns

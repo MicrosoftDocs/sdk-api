@@ -4,10 +4,10 @@ title: IVssExamineWriterMetadataEx
 author: windows-sdk-content
 description: Provides a method to retrieve the writer instance name and other basic information for a specific writer instance.
 old-location: base\ivssexaminewritermetadataex.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 363c987c-7d6c-4efe-988a-1b288f9b4d3c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IVssExamineWriterMetadataEx, IVssExamineWriterMetadataEx interface [VSS], IVssExamineWriterMetadataEx interface [VSS],described, base.ivssexaminewritermetadataex, vsbackup/IVssExamineWriterMetadataEx
 ms.prod: windows
 ms.technology: windows-sdk

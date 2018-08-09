@@ -7,7 +7,7 @@ old-location: directdraw\ddenumcallback.htm
 old-project: directdraw
 ms.assetid: 7F86FA67-C13B-49EE-8D17-9F54E5060A85
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: DDEnumCallback, DDEnumCallback callback function [DirectDraw], LPDDENUMCALLBACK, LPDDENUMCALLBACK callback, LPDDENUMCALLBACKA, LPDDENUMCALLBACKW, ddraw/DDEnumCallback, directdraw.ddenumcallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,9 +78,9 @@ The <i>DDEnumCallback</i> function is an application-defined callback function f
 
 
 
-#### - lpContext [in]
+#### - lpGUID [in]
 
-A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
+A pointer to the unique identifier of the DirectDraw object.
 
 
 #### - lpDriverDescription [in]
@@ -93,9 +93,9 @@ Address of a string that contains the driver description.
 Address of a string that contains the driver name.
 
 
-#### - lpGUID [in]
+#### - lpContext [in]
 
-A pointer to the unique identifier of the DirectDraw object.
+A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
 
 
 ## -returns

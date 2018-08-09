@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_getcapabilities.htm
 old-project: medfound
 ms.assetid: 715e802b-4707-4c6d-9ae9-a4ddfa90f05e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 715e802b-4707-4c6d-9ae9-a4ddfa90f05e, GetCapabilities, GetCapabilities method [Media Foundation], GetCapabilities method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],GetCapabilities method, IMFByteStream.GetCapabilities, IMFByteStream::GetCapabilities, MFBYTESTREAM_DOES_NOT_USE_NETWORK, MFBYTESTREAM_HAS_SLOW_SEEK, MFBYTESTREAM_IS_DIRECTORY, MFBYTESTREAM_IS_PARTIALLY_DOWNLOADED, MFBYTESTREAM_IS_READABLE, MFBYTESTREAM_IS_REMOTE, MFBYTESTREAM_IS_SEEKABLE, MFBYTESTREAM_IS_WRITABLE, MFBYTESTREAM_SHARE_WRITE, mf.imfbytestream_getcapabilities, mfobjects/IMFByteStream::GetCapabilities
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Retrieves the characteristics of the byte stream.
+Retrieves the characteristics of the byte stream.
         
 
 
@@ -78,8 +77,7 @@ Receives a bitwise <b>OR</b> of zero or more flags. The following flags are defi
 </dl>
 </td>
 <td width="60%">
-
-                The byte stream can be read.
+The byte stream can be read.
               
 
 </td>
@@ -91,8 +89,7 @@ Receives a bitwise <b>OR</b> of zero or more flags. The following flags are defi
 </dl>
 </td>
 <td width="60%">
-
-                The byte stream can be written to.
+The byte stream can be written to.
               
 
 </td>
@@ -104,8 +101,7 @@ Receives a bitwise <b>OR</b> of zero or more flags. The following flags are defi
 </dl>
 </td>
 <td width="60%">
-
-                The byte stream can be seeked.
+The byte stream can be seeked.
               
 
 </td>
@@ -117,8 +113,7 @@ Receives a bitwise <b>OR</b> of zero or more flags. The following flags are defi
 </dl>
 </td>
 <td width="60%">
-
-                The byte stream is from a remote source, such as a network.
+The byte stream is from a remote source, such as a network.
               
 
 </td>
@@ -130,8 +125,7 @@ Receives a bitwise <b>OR</b> of zero or more flags. The following flags are defi
 </dl>
 </td>
 <td width="60%">
-
-                The byte stream represents a file directory.
+The byte stream represents a file directory.
               
 
 </td>
@@ -143,8 +137,7 @@ Receives a bitwise <b>OR</b> of zero or more flags. The following flags are defi
 </dl>
 </td>
 <td width="60%">
-
-                Seeking within this stream might be slow. For example, the byte stream might download from a network.
+Seeking within this stream might be slow. For example, the byte stream might download from a network.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: winrt\iactivationfactory.htm
 old-project: WinRT
 ms.assetid: C6A2ED6E-9C45-4CF3-A301-72A5DAEB4DFC
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IActivationFactory, IActivationFactory interface [Windows Runtime], IActivationFactory interface [Windows Runtime],described, activation/IActivationFactory, winrt.iactivationfactory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,8 +84,7 @@ Creates a new instance of the Windows Runtime class that is associated with the 
 
 
 
-Implement the <b>IActivationFactory</b> interface when you create a class that you want Windows Runtime  applications to use. Clients call the <a href="https://msdn.microsoft.com/AE3E2D87-3AE7-42C3-AA1D-510E717D2E51">ActivateInstance</a>
-    method to use an instance of your class. 
+Implement the <b>IActivationFactory</b> interface when you create a class that you want Windows Runtime  applications to use. Clients call the <a href="https://msdn.microsoft.com/AE3E2D87-3AE7-42C3-AA1D-510E717D2E51">ActivateInstance</a>method to use an instance of your class. 
 
 You can get an <b>IActivationFactory</b> pointer by calling the <a href="https://msdn.microsoft.com/291ed35d-a459-4509-a265-89c49f8aa13a">RoGetActivationFactory</a> function.  
 

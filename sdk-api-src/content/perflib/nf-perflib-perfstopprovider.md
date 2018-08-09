@@ -4,10 +4,10 @@ title: PerfStopProvider function
 author: windows-sdk-content
 description: Removes the provider's registration from the list of registered providers and frees all resources associated with the provider.
 old-location: perf\perfstopprovider.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 4b31f88b-cadc-4bee-bdea-9079cc14c140
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PerfStopProvider, PerfStopProvider function [Perf], base.perfstopprovider, perf.perfstopprovider, perflib/PerfStopProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ Removes the provider's registration from the list of registered providers and fr
 
 
 
-### -param ProviderHandle
-
-TBD
-
-
-
-
-#### - hProvider [in]
+### -param ProviderHandle [in]
 
 Handle to the provider. 
 
@@ -77,8 +70,7 @@ Handle to the provider.
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

@@ -7,7 +7,7 @@ old-location: picacq\iuserinputstring_getdefault.htm
 old-project: acquisition
 ms.assetid: d9e967f9-47ed-4b55-a728-fe6432b44efd
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetDefault, GetDefault method [Picture Acquisition], GetDefault method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetDefault method, IUserInputString.GetDefault, IUserInputString::GetDefault, IUserInputStringGetDefault, photoacquire/IUserInputString::GetDefault, picacq.iuserinputstring_getdefault
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: netvista\net_if_connection_type.htm
 old-project: netvista
 ms.assetid: af1ffcf2-65cf-4d80-b702-a843b6d19fdc
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 07/30/2018
 ms.keywords: "*PNET_IF_CONNECTION_TYPE, NET_IF_CONNECTION_DEDICATED, NET_IF_CONNECTION_DEMAND, NET_IF_CONNECTION_MAXIMUM, NET_IF_CONNECTION_PASSIVE, NET_IF_CONNECTION_TYPE, NET_IF_CONNECTION_TYPE enumeration [Network Drivers Starting with Windows Vista], PNET_IF_CONNECTION_TYPE, PNET_IF_CONNECTION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NET_IF_CONNECTION_TYPE, ifdef/NET_IF_CONNECTION_DEDICATED, ifdef/NET_IF_CONNECTION_DEMAND, ifdef/NET_IF_CONNECTION_MAXIMUM, ifdef/NET_IF_CONNECTION_PASSIVE, ifdef/NET_IF_CONNECTION_TYPE, ifdef/PNET_IF_CONNECTION_TYPE, net_if_enums_ref_b37dfff6-f81c-4633-a409-82535736247b.xml, netvista.net_if_connection_type"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fs\getfilesizeex.htm
 old-project: fileio
 ms.assetid: 782457bc-8f37-4eec-8ff3-b148fd0a7345
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/06/2018
 ms.keywords: GetFileSizeEx, GetFileSizeEx function [Files], _win32_getfilesizeex, base.getfilesizeex, fileapi/GetFileSizeEx, fs.getfilesizeex, winbase/GetFileSizeEx
 ms.prod: windows
 ms.technology: windows-sdk

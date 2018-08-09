@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_map.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_map.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 851d7498-d47c-94c7-f2ce-7635689c4642, D3D10_MAP, D3D10_MAP enumeration [Direct3D 10], D3D10_MAP_READ, D3D10_MAP_READ_WRITE, D3D10_MAP_WRITE, D3D10_MAP_WRITE_DISCARD, D3D10_MAP_WRITE_NO_OVERWRITE, d3d10/D3D10_MAP, d3d10/D3D10_MAP_READ, d3d10/D3D10_MAP_READ_WRITE, d3d10/D3D10_MAP_WRITE, d3d10/D3D10_MAP_WRITE_DISCARD, d3d10/D3D10_MAP_WRITE_NO_OVERWRITE, direct3d10.d3d10_map
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,34 +60,34 @@ Identifies a resource to be accessed for reading and writing by the CPU. Applica
 
 ### -field D3D10_MAP_READ
 
-Resource is mapped for reading. The resource must have been created with read access (see <a href="https://msdn.microsoft.com/library/Bb204908(v=VS.85).aspx">D3D10_CPU_ACCESS_READ</a>).
+Resource is mapped for reading. The resource must have been created with read access (see <a href="https://msdn.microsoft.com/en-us/library/Bb204908(v=VS.85).aspx">D3D10_CPU_ACCESS_READ</a>).
 
 
 ### -field D3D10_MAP_WRITE
 
-Resource is mapped for writing. The resource must have been created with write access (see <a href="https://msdn.microsoft.com/library/Bb204908(v=VS.85).aspx">D3D10_CPU_ACCESS_WRITE</a>).
+Resource is mapped for writing. The resource must have been created with write access (see <a href="https://msdn.microsoft.com/en-us/library/Bb204908(v=VS.85).aspx">D3D10_CPU_ACCESS_WRITE</a>).
 
 
 ### -field D3D10_MAP_READ_WRITE
 
-Resource is mapped for reading and writing. The resource must have been created with read and write access (see <a href="https://msdn.microsoft.com/library/Bb204908(v=VS.85).aspx">D3D10_CPU_ACCESS_READ and D3D10_CPU_ACCESS_WRITE</a>).
+Resource is mapped for reading and writing. The resource must have been created with read and write access (see <a href="https://msdn.microsoft.com/en-us/library/Bb204908(v=VS.85).aspx">D3D10_CPU_ACCESS_READ and D3D10_CPU_ACCESS_WRITE</a>).
 
 
 ### -field D3D10_MAP_WRITE_DISCARD
 
-Resource is mapped for writing; the previous contents of the resource will be undefined. The resource must have been created with write access (see <a href="https://msdn.microsoft.com/library/Bb204908(v=VS.85).aspx">D3D10_CPU_ACCESS_WRITE</a>).
+Resource is mapped for writing; the previous contents of the resource will be undefined. The resource must have been created with write access (see <a href="https://msdn.microsoft.com/en-us/library/Bb204908(v=VS.85).aspx">D3D10_CPU_ACCESS_WRITE</a>).
 
 
 ### -field D3D10_MAP_WRITE_NO_OVERWRITE
 
-Resource is mapped for writing; the existing contents of the resource cannot be overwritten (see Remarks). This flag is only valid on vertex and index buffers. The resource must have been created with write access (see <a href="https://msdn.microsoft.com/library/Bb204908(v=VS.85).aspx">D3D10_CPU_ACCESS_WRITE</a>). Cannot be used on a resource created with the <a href="https://msdn.microsoft.com/library/Bb204891(v=VS.85).aspx">D3D10_BIND_CONSTANT_BUFFER</a> flag.
+Resource is mapped for writing; the existing contents of the resource cannot be overwritten (see Remarks). This flag is only valid on vertex and index buffers. The resource must have been created with write access (see <a href="https://msdn.microsoft.com/en-us/library/Bb204908(v=VS.85).aspx">D3D10_CPU_ACCESS_WRITE</a>). Cannot be used on a resource created with the <a href="https://msdn.microsoft.com/en-us/library/Bb204891(v=VS.85).aspx">D3D10_BIND_CONSTANT_BUFFER</a> flag.
 
 
 ## -remarks
 
 
 
-This enumeration is used in <a href="https://msdn.microsoft.com/library/Bb173512(v=VS.85).aspx">ID3D10Buffer::Map</a>, <a href="https://msdn.microsoft.com/library/Bb173865(v=VS.85).aspx">ID3D10Texture1D::Map</a>, <a href="https://msdn.microsoft.com/library/Bb173869(v=VS.85).aspx">ID3D10Texture2D::Map</a>, and <a href="https://msdn.microsoft.com/library/Bb173873(v=VS.85).aspx">ID3D10Texture3D::Map</a>.
+This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Bb173512(v=VS.85).aspx">ID3D10Buffer::Map</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb173865(v=VS.85).aspx">ID3D10Texture1D::Map</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb173869(v=VS.85).aspx">ID3D10Texture2D::Map</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb173873(v=VS.85).aspx">ID3D10Texture3D::Map</a>.
 
 These remarks are divided into the following topics:
 
@@ -99,7 +99,7 @@ These remarks are divided into the following topics:
 
 
 <h3><a id="NO_OVERWRITE_DETAILS"></a><a id="no_overwrite_details"></a>Meaning of D3D10_MAP_WRITE_NO_OVERWRITE</h3>
-D3D10_MAP_WRITE_NO_OVERWRITE signifies that the application promises not to write to data that the <a href="https://msdn.microsoft.com/library/Bb205116(v=VS.85).aspx">Input Assembler</a> (IA) stage is using. In exchange, the GPU allows the application to write to other parts of the same buffer.  The application must ensure that it does not write over any data in use by the IA stage.
+D3D10_MAP_WRITE_NO_OVERWRITE signifies that the application promises not to write to data that the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">Input Assembler</a> (IA) stage is using. In exchange, the GPU allows the application to write to other parts of the same buffer.  The application must ensure that it does not write over any data in use by the IA stage.
 
 For example, consider the buffer illustrated in the following diagram. If a Draw call has been issued that uses vertices 4-6, an application that calls Map on this buffer must ensure that it does not write to the vertices that the Draw call will access during rendering.
 
@@ -121,7 +121,7 @@ Subsequent writes to the buffer within the same frame should use D3D10_MAP_WRITE
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205275(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205275(v=VS.85).aspx">Resource Enumerations</a>
  
 
  

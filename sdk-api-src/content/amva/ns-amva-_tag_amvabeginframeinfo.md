@@ -7,7 +7,7 @@ old-location: dshow\amvabeginframeinfo.htm
 old-project: DirectShow
 ms.assetid: 49af9094-86d5-4c11-b871-41f9984e0faf
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: "*LPAMVABeginFrameInfo, AMVABeginFrameInfo, AMVABeginFrameInfo structure [DirectShow], AMVABeginFrameInfoStructure, LPAMVABeginFrameInfo, LPAMVABeginFrameInfo structure pointer [DirectShow], _tag_AMVABeginFrameInfo, amva/AMVABeginFrameInfo, amva/LPAMVABeginFrameInfo, dshow.amvabeginframeinfo"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          The <b>AMVABeginFrameInfo</b> structure contains information for the <a href="https://msdn.microsoft.com/00077ffe-4acb-4648-9e95-652184e4449b">IAMVideoAccelerator::BeginFrame</a> method.
+The <b>AMVABeginFrameInfo</b> structure contains information for the <a href="https://msdn.microsoft.com/00077ffe-4acb-4648-9e95-652184e4449b">IAMVideoAccelerator::BeginFrame</a> method.
 
 
 ## -struct-fields
@@ -66,42 +65,36 @@ The zero-based index of the uncompressed destination surface. The number of unco
 
 ### -field pInputData
 
-
-            Pointer to a buffer that contains data for the video accelerator.
+Pointer to a buffer that contains data for the video accelerator.
 
 This buffer must contain a <b>WORD</b> value that is equal to the value of <b>dwDestSurfaceIndex</b>.
 
 
 ### -field dwSizeInputData
 
-
-            Size, in bytes, of the buffer that <b>pInputData</b> points to. The value must be 2.
+Size, in bytes, of the buffer that <b>pInputData</b> points to. The value must be 2.
 
 
 ### -field pOutputData
 
-
-            Pointer to a buffer that the video accelerator can write to.
+Pointer to a buffer that the video accelerator can write to.
 
 This member must be <b>NULL</b>.
 
 
 ### -field dwSizeOutputData
 
-
-            Size, in bytes, of the buffer that <b>pOutputData</b> points to. The value must be zero.
+Size, in bytes, of the buffer that <b>pOutputData</b> points to. The value must be zero.
 
 
 ## -remarks
 
 
 
-
-        The buffer pointed to by <b>pInputData</b> cannot contain pointer values, because their addresses will not be valid in kernel mode, where frame processing occurs.
+The buffer pointed to by <b>pInputData</b> cannot contain pointer values, because their addresses will not be valid in kernel mode, where frame processing occurs.
       
 
-
-        The video accelerator might not use the same surface memory in two consecutive calls with the same frame index.
+The video accelerator might not use the same surface memory in two consecutive calls with the same frame index.
       Therefore, the decoder should not make any assumption about the initial contents of the frame.
 
 

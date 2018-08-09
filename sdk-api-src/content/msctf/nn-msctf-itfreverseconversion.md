@@ -7,7 +7,7 @@ old-location: tsf\itfreverseconversion_.htm
 old-project: TSF
 ms.assetid: ca2e036a-d0f8-4372-872a-388217050d15
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfReverseConversion, ITfReverseConversion interface [Text Services Framework], ITfReverseConversion interface [Text Services Framework],described, msctf/ITfReverseConversion, tsf.itfreverseconversion_
 ms.prod: windows
 ms.technology: windows-sdk

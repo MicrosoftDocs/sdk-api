@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter3_queryvideomemoryinfo.htm
 old-project: direct3ddxgi
 ms.assetid: A2F95FE5-CF8D-4F17-8CC8-62AAA40B71FC
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/30/2018
 ms.keywords: IDXGIAdapter3 interface [DXGI],QueryVideoMemoryInfo method, IDXGIAdapter3.QueryVideoMemoryInfo, IDXGIAdapter3::QueryVideoMemoryInfo, QueryVideoMemoryInfo, QueryVideoMemoryInfo method [DXGI], QueryVideoMemoryInfo method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_queryvideomemoryinfo, dxgi1_4/IDXGIAdapter3::QueryVideoMemoryInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,10 +91,10 @@ Fills in a DXGI_QUERY_VIDEO_MEMORY_INFO structure with the current values.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns S_OK if successful; an error code otherwise.
-            For a list of error codes, see <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+            For a list of error codes, see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
           
 
 

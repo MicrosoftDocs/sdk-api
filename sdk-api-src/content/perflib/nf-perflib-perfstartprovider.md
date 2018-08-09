@@ -4,10 +4,10 @@ title: PerfStartProvider function
 author: windows-sdk-content
 description: Registers the provider.
 old-location: perf\perfstartprovider.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: b417b19b-adbc-40e3-aca1-c2cd94a79232
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PerfStartProvider, PerfStartProvider function [Perf], base.perfstartprovider, perf.perfstartprovider, perflib/PerfStartProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ Handle to the provider. You must call <a href="https://msdn.microsoft.com/4b31f8
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

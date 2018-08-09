@@ -7,7 +7,7 @@ old-location: gdi\transparentblt.htm
 old-project: gdi
 ms.assetid: 900b2ca3-398d-4128-a1ae-8b4940574327
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TransparentBlt, TransparentBlt function [Windows GDI], _win32_TransparentBlt, gdi.transparentblt, wingdi/TransparentBlt
 ms.prod: windows
 ms.technology: windows-sdk

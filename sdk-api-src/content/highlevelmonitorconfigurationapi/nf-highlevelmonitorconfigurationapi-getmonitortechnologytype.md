@@ -7,7 +7,7 @@ old-location: monitor\getmonitortechnologytype.htm
 old-project: Monitor
 ms.assetid: da3a5f64-2638-464b-973b-33cbe4cc64e7
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetMonitorTechnologyType, GetMonitorTechnologyType function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorTechnologyType, monitor.getmonitortechnologytype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-        Retrieves the type of technology used by a monitor.
+Retrieves the type of technology used by a monitor.
 
 
 ## -parameters
@@ -62,15 +61,13 @@ req.product: GDI+ 1.1
 
 ### -param hMonitor [in]
 
-
-            Handle to a physical monitor. To get the monitor handle, call <a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
+Handle to a physical monitor. To get the monitor handle, call <a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
           
 
 
 ### -param pdtyDisplayTechnologyType [out]
 
-
-            Receives the technology type, specified as a member of the <a href="https://msdn.microsoft.com/22cb7b73-931c-4cab-a359-f957ec457148">MC_DISPLAY_TECHNOLOGY_TYPE</a> enumeration.
+Receives the technology type, specified as a member of the <a href="https://msdn.microsoft.com/22cb7b73-931c-4cab-a359-f957ec457148">MC_DISPLAY_TECHNOLOGY_TYPE</a> enumeration.
           
 
 
@@ -78,8 +75,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
           
 
 
@@ -89,12 +85,10 @@ req.product: GDI+ 1.1
 
 
 
-
-        This function does not support every display technology. If a monitor uses a display technology that is supported by this function, the <a href="https://msdn.microsoft.com/57cf0004-58cf-46d9-b5be-22edda2ce5a9">GetMonitorCapabilities</a> function returns the MC_CAPS_DISPLAY_TECHNOLOGY_TYPE flag. If that flag is absent, the <b>GetMonitorTechnologyType</b> function fails.
+This function does not support every display technology. If a monitor uses a display technology that is supported by this function, the <a href="https://msdn.microsoft.com/57cf0004-58cf-46d9-b5be-22edda2ce5a9">GetMonitorCapabilities</a> function returns the MC_CAPS_DISPLAY_TECHNOLOGY_TYPE flag. If that flag is absent, the <b>GetMonitorTechnologyType</b> function fails.
       
 
-
-        Some monitor technologies do not support certain monitor configuration functions. For example, the <a href="https://msdn.microsoft.com/8f476ba3-24d2-456a-9335-873368993d71">DegaussMonitor</a> function is supported only for cathode ray tube (CRT) monitors. To find out whether a specific function is supported, call <a href="https://msdn.microsoft.com/57cf0004-58cf-46d9-b5be-22edda2ce5a9">GetMonitorCapabilities</a>.
+Some monitor technologies do not support certain monitor configuration functions. For example, the <a href="https://msdn.microsoft.com/8f476ba3-24d2-456a-9335-873368993d71">DegaussMonitor</a> function is supported only for cathode ray tube (CRT) monitors. To find out whether a specific function is supported, call <a href="https://msdn.microsoft.com/57cf0004-58cf-46d9-b5be-22edda2ce5a9">GetMonitorCapabilities</a>.
       
 
 

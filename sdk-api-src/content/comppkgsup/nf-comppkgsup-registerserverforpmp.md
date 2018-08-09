@@ -7,7 +7,7 @@ old-location: winprog\registerserverforpmp.htm
 old-project: devnotes
 ms.assetid: F18A5596-F21E-427B-8281-544DD7CA9E0B
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: RegisterServerForPMP, RegisterServerForPMP function [Windows API], comppkgsup/RegisterServerForPMP, winprog.registerserverforpmp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,14 +70,7 @@ The CLSID of the COM server to be registered.
 The class factory to be registered.
 
 
-### -param token
-
-TBD
-
-
-
-
-#### - [out]
+### -param token [out]
 
 Receives a pointer to a registration token that can be used to unregister the server with <a href="https://msdn.microsoft.com/FF89301E-FE17-4B14-872E-271BDB85A784">UnregisterServerForPMP</a>.
 

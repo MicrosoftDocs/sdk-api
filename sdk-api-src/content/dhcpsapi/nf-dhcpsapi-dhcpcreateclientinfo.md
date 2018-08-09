@@ -7,7 +7,7 @@ old-location: dhcp\dhcpcreateclientinfo.htm
 old-project: dhcp
 ms.assetid: 121718db-a7d8-42b7-b1a1-5c2dbe7d3d6b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpCreateClientInfo, DhcpCreateClientInfo function [DHCP], dhcp.dhcpcreateclientinfo, dhcpsapi/DhcpCreateClientInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpCreateClientInfo</b> function creates a client information record on the DHCP server.
+The <b>DhcpCreateClientInfo</b> function creates a client information record on the DHCP server.
 
 
 ## -parameters

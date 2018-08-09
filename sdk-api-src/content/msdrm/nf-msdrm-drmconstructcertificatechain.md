@@ -7,7 +7,7 @@ old-location: rm\drmconstructcertificatechain.htm
 old-project: adrms_sdk
 ms.assetid: 27c2bf2e-54b1-4ed4-a754-e8b3b3bd58cb
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMConstructCertificateChain, DRMConstructCertificateChain function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMConstructCertificateChain, rm.drmconstructcertificatechain
 ms.prod: windows
 ms.technology: windows-sdk

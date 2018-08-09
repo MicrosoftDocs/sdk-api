@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflectiontype_getmembertypebyname.htm
 old-project: direct3d11
 ms.assetid: bee5a833-7399-4c1d-8bad-4e9279dc36cc
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 4c4b8d42-c920-9eea-2d7b-128e1fe98533, GetMemberTypeByName, GetMemberTypeByName method [Direct3D 11], GetMemberTypeByName method [Direct3D 11],ID3D11ShaderReflectionType interface, ID3D11ShaderReflectionType interface [Direct3D 11],GetMemberTypeByName method, ID3D11ShaderReflectionType.GetMemberTypeByName, ID3D11ShaderReflectionType::GetMemberTypeByName, d3d11shader/ID3D11ShaderReflectionType::GetMemberTypeByName, direct3d11.id3d11shaderreflectiontype_getmembertypebyname
 ms.prod: windows
 ms.technology: windows-sdk

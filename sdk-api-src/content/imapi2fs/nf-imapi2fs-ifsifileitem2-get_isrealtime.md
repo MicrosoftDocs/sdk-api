@@ -7,7 +7,7 @@ old-location: imapi\ifsifileitem2_get_isrealtime.htm
 old-project: imapi
 ms.assetid: a8b8fca4-f24c-4698-b84d-7b79ad81d467
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],get_IsRealTime method, IFsiFileItem2.get_IsRealTime, IFsiFileItem2::get_IsRealTime, get_IsRealTime, get_IsRealTime method [IMAPI], get_IsRealTime method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_get_isrealtime, imapi2fs/IFsiFileItem2::get_IsRealTime
 ms.prod: windows
 ms.technology: windows-sdk

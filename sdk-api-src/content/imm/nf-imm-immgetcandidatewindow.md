@@ -7,7 +7,7 @@ old-location: intl\immgetcandidatewindow.htm
 old-project: Intl
 ms.assetid: 39800693-0eb5-4807-94b2-d11e6f98ba2c
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmGetCandidateWindow, ImmGetCandidateWindow function [Internationalization for Windows Applications], _win32_ImmGetCandidateWindow, imm/ImmGetCandidateWindow, intl.immgetcandidatewindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,29 +61,19 @@ Retrieves information about the candidates window.
 
 
 
-### -param HIMC
+### -param HIMC [in]
 
-TBD
+Handle to the input context.
 
 
-### -param DWORD
+### -param DWORD [in]
 
-TBD
+Index of the candidates window.
 
 
 ### -param lpCandidate [out]
 
 Pointer to a <a href="https://msdn.microsoft.com/86edcfe0-07f7-4bd7-9444-3a884aeb7926">CANDIDATEFORM</a> structure in which this function retrieves information about the candidates window.
-
-
-#### - dwIndex [in]
-
-Index of the candidates window.
-
-
-#### - hIMC [in]
-
-Handle to the input context.
 
 
 ## -returns

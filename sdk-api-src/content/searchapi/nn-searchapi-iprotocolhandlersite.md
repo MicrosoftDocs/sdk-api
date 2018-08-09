@@ -7,7 +7,7 @@ old-location: search\_search_IProtocolHandlerSite.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iprotocolhandlersite\iprotocolhandlersite.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: IProtocolHandlerSite, IProtocolHandlerSite interface [search], IProtocolHandlerSite interface [search],described, _search_IProtocolHandlerSite, search._search_IProtocolHandlerSite, searchapi/IProtocolHandlerSite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Provides methods for a protocol handler's <a href="https://msdn.microsoft.com/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object to query the Filter Daemon for the appropriate filter for the URL item.
+Provides methods for a protocol handler's <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object to query the Filter Daemon for the appropriate filter for the URL item.
         
 
 
@@ -72,11 +72,10 @@ The <b>IProtocolHandlerSite</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231442(v=VS.85).aspx">GetFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231442(v=VS.85).aspx">GetFilter</a>
 </td>
 <td align="left" width="63%">
-
-        Retrieves the appropriate <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a>according to the supplied parameters.     
+Retrieves the appropriate <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>according to the supplied parameters.     
         
 
 </td>
@@ -98,7 +97,7 @@ When a protocol handler encounters items with embedded documents, the protocol h
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
+<a href="https://msdn.microsoft.com/en-us/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
  
 
  

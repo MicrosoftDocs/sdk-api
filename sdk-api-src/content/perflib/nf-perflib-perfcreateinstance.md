@@ -4,10 +4,10 @@ title: PerfCreateInstance function
 author: windows-sdk-content
 description: Creates an instance of the specified counter set.
 old-location: perf\perfcreateinstance.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 73be8588-2c87-4c27-933d-62b8605ed9a3
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PerfCreateInstance, PerfCreateInstance function [Perf], base.perfcreateinstance, perf.perfcreateinstance, perflib/PerfCreateInstance
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,11 @@ Creates an instance of the specified counter set. Providers use this function.
 
 
 
-### -param ProviderHandle
+### -param ProviderHandle [in]
 
-TBD
+The handle of the provider. Use the handle variable that the <a href="https://msdn.microsoft.com/3939f6a1-0a94-429d-a71e-b37f045fea13">CTRPP</a> tool generated for you. For the name of the variable, see the <b>symbol</b> attribute of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406455">provider</a> element.
+
+<b>Windows Vista:  </b>The <a href="https://msdn.microsoft.com/b417b19b-adbc-40e3-aca1-c2cd94a79232">PerfStartProvider</a> function returns the handle.
 
 
 ### -param CounterSetGuid [in]
@@ -73,33 +75,14 @@ GUID that uniquely identifies the counter set that you want to create an instanc
 <b>Windows Vista:  </b>The GUID variable is not available.
 
 
-### -param Name
-
-TBD
-
-
-### -param Id
-
-TBD
-
-
-
-
-#### - dwInstance [in]
-
-Unique identifier for this instance of the counter set. The identifier can be a serial number that you increment for each new instance.
-
-
-#### - hProvider [in]
-
-The handle of the provider. Use the handle variable that the <a href="https://msdn.microsoft.com/3939f6a1-0a94-429d-a71e-b37f045fea13">CTRPP</a> tool generated for you. For the name of the variable, see the <b>symbol</b> attribute of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406455">provider</a> element.
-
-<b>Windows Vista:  </b>The <a href="https://msdn.microsoft.com/b417b19b-adbc-40e3-aca1-c2cd94a79232">PerfStartProvider</a> function returns the handle.
-
-
-#### - szInstanceName [in]
+### -param Name [in]
 
 <b>Null</b>-terminated Unicode string that contains a unique name for this instance. 
+
+
+### -param Id [in]
+
+Unique identifier for this instance of the counter set. The identifier can be a serial number that you increment for each new instance.
 
 
 ## -returns

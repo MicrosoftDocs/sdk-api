@@ -7,7 +7,7 @@ old-location: mf\dxvahd_stream_state_luma_key_data.htm
 old-project: medfound
 ms.assetid: d94b04d9-9d94-4392-a0bf-a33210aeef1f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: DXVAHD_STREAM_STATE_LUMA_KEY_DATA, DXVAHD_STREAM_STATE_LUMA_KEY_DATA structure [Media Foundation], _DXVAHD_STREAM_STATE_LUMA_KEY_DATA, dxvahd/DXVAHD_STREAM_STATE_LUMA_KEY_DATA, mf.dxvahd_stream_state_luma_key_data
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Specifies the luma key for an input stream, when using Microsoft DirectX Video A
 
 ### -field Enable
 
-
-            If <b>TRUE</b>, luma keying is enabled. Otherwise, luma keying is disabled. The default value is <b>FALSE</b>.
+If <b>TRUE</b>, luma keying is enabled. Otherwise, luma keying is disabled. The default value is <b>FALSE</b>.
 
 
 

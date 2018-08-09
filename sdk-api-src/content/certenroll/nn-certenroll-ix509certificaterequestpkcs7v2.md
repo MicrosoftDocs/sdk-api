@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs7v2.htm
 old-project: seccertenroll
 ms.assetid: e58e1122-2ef0-4902-a9e9-23934cc544ec
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509CertificateRequestPkcs7V2, IX509CertificateRequestPkcs7V2 interface [Security], IX509CertificateRequestPkcs7V2 interface [Security],described, certenroll/IX509CertificateRequestPkcs7V2, security.ix509certificaterequestpkcs7v2
 ms.prod: windows
 ms.technology: windows-sdk

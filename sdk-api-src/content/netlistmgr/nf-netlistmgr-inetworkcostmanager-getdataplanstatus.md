@@ -7,7 +7,7 @@ old-location: nla\inetworkcostmanager_getdataplanstatus.htm
 old-project: nla
 ms.assetid: 82B4FF65-5D45-4D79-8F11-EA4CF4760EE2
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: GetDataPlanStatus, GetDataPlanStatus method [Network Awareness], GetDataPlanStatus method [Network Awareness],INetworkCostManager interface, INetworkCostManager interface [Network Awareness],GetDataPlanStatus method, INetworkCostManager.GetDataPlanStatus, INetworkCostManager::GetDataPlanStatus, netlistmgr/INetworkCostManager::GetDataPlanStatus, nla.inetworkcostmanager_getdataplanstatus
 ms.prod: windows
 ms.technology: windows-sdk

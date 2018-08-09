@@ -7,7 +7,7 @@ old-location: mf\imfvideomediatype_getvideorepresentation.htm
 old-project: medfound
 ms.assetid: 2f8fddef-b9b8-4473-a8d0-d6e44ad32648
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 2f8fddef-b9b8-4473-a8d0-d6e44ad32648, GetVideoRepresentation, GetVideoRepresentation method [Media Foundation], GetVideoRepresentation method [Media Foundation],IMFVideoMediaType interface, IMFVideoMediaType interface [Media Foundation],GetVideoRepresentation method, IMFVideoMediaType.GetVideoRepresentation, IMFVideoMediaType::GetVideoRepresentation, mf.imfvideomediatype_getvideorepresentation, mfobjects/IMFVideoMediaType::GetVideoRepresentation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,7 @@ req.product: GDI+ 1.1
 
 <p class="CCE_Message">[This API is not supported and may be altered or unavailable in the future. Instead, applications should set the <a href="https://msdn.microsoft.com/71fda231-3497-49db-b82e-2fd79f6ade66">MF_MT_DEFAULT_STRIDE</a> attribute on the media type to specify the surface stride and then call <a href="https://msdn.microsoft.com/2135ff86-a3b6-4e1c-a9de-867f4828f008">IMFMediaType::GetRepresentation</a>.]
 
-
-          Retrieves an alternative representation of the media type.
+Retrieves an alternative representation of the media type.
 
 
 ## -parameters

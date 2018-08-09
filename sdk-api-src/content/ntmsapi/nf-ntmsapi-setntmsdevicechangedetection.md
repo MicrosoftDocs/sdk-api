@@ -7,7 +7,7 @@ old-location: fs\setntmsdevicechangedetection.htm
 old-project: Rsm
 ms.assetid: 803bd7d6-f098-42f1-83da-fe9f71f960b0
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: SetNtmsDeviceChangeDetection, SetNtmsDeviceChangeDetection function [Files], _zaw_setntmsdevicechangedetection, base.setntmsdevicechangedetection, fs.setntmsdevicechangedetection, ntmsapi/SetNtmsDeviceChangeDetection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,15 @@ Handle to the session returned by the
 <a href="https://msdn.microsoft.com/5a323911-e99c-4f81-9580-0feac2f0a54e">OpenNtmsSession</a> function.
 
 
-### -param DetectHandle
+### -param DetectHandle [in]
 
-TBD
+Device change detection handle from 
+<a href="https://msdn.microsoft.com/d325a10a-5bf9-4431-8a6a-a50c4cf46728">BeginNtmsDeviceChangeDetection</a>, or <b>NULL</b> for a single poll.
 
 
-### -param lpRequestId
+### -param lpRequestId [in]
 
-TBD
+Object identifier for the target device. This parameter can be one or more library, media type, or physical media GUIDs. All GUIDs must be the same type.
 
 
 ### -param dwType [in]
@@ -87,17 +88,6 @@ Type of object identifiers specified in the <i>lpObjectId</i> parameter. This pa
 ### -param dwCount [in]
 
 Number of object identifiers in <i>lpObjectId</i>.
-
-
-#### - hDetectHandle [in]
-
-Device change detection handle from 
-<a href="https://msdn.microsoft.com/d325a10a-5bf9-4431-8a6a-a50c4cf46728">BeginNtmsDeviceChangeDetection</a>, or <b>NULL</b> for a single poll.
-
-
-#### - lpObjectId [in]
-
-Object identifier for the target device. This parameter can be one or more library, media type, or physical media GUIDs. All GUIDs must be the same type.
 
 
 ## -returns
@@ -193,7 +183,7 @@ This function can also be used to poll for changed media in the specified device
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Change Detection Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Change Detection Functions</a>
 
 
 

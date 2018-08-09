@@ -7,7 +7,7 @@ old-location: mstv\idvbteletextdescriptor_getrecordpagenumber.htm
 old-project: mstv
 ms.assetid: 323af443-8ef3-443e-9d6c-7af17419655a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordPageNumber, GetRecordPageNumber method [Microsoft TV Technologies], GetRecordPageNumber method [Microsoft TV Technologies],IDvbTeletextDescriptor interface, IDvbTeletextDescriptor interface [Microsoft TV Technologies],GetRecordPageNumber method, IDvbTeletextDescriptor.GetRecordPageNumber, IDvbTeletextDescriptor::GetRecordPageNumber, dvbsiparser/IDvbTeletextDescriptor::GetRecordPageNumber, mstv.idvbteletextdescriptor_getrecordpagenumber
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Gets the page number a Digital Video Broadcast (DVB) teletext descriptor.  The page number identifies the page of teletext that is broadcast.
+Gets the page number a Digital Video Broadcast (DVB) teletext descriptor.  The page number identifies the page of teletext that is broadcast.
 
 
 
@@ -63,8 +62,7 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param bRecordIndex [in]
 
-
-  Zero-based index of the descriptor to return. To get the number of descriptors, 
+Zero-based index of the descriptor to return. To get the number of descriptors, 
   call <a href="https://msdn.microsoft.com/a802c685-9d7a-446a-a29c-4fc3e9ad3dc4">IDvbTeletextDescriptor::GetCountOfRecords</a>
 
 

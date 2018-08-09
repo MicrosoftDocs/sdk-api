@@ -2,12 +2,12 @@
 UID: NN:mfobjects.IMFDXGIBuffer
 title: IMFDXGIBuffer
 author: windows-sdk-content
-description: Represents a buffer that contains a Microsoft DirectX Graphics Infrastructure (DXGI) surface.
+description: Represents a buffer that contains a Microsoft DirectX Graphics Infrastructure (DXGI)surface.
 old-location: mf\imfdxgibuffer.htm
 old-project: medfound
 ms.assetid: 796D7755-275D-4A0B-A34F-5D34DCEC8AC7
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFDXGIBuffer, IMFDXGIBuffer interface [Media Foundation], IMFDXGIBuffer interface [Media Foundation],described, mf.imfdxgibuffer, mfobjects/IMFDXGIBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Represents a buffer that contains a Microsoft DirectX Graphics Infrastructure (DXGI)
- surface.
+Represents a buffer that contains a Microsoft DirectX Graphics Infrastructure (DXGI)surface.
 
 
 ## -inheritance
@@ -75,8 +74,7 @@ The <b>IMFDXGIBuffer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/E8FF3346-D60A-4FF9-AF3E-673397EA6E6A">GetResource</a>
 </td>
 <td align="left" width="63%">
-Queries the DXGI
- surface for an interface.
+Queries the DXGIsurface for an interface.
 
 </td>
 </tr>
@@ -114,9 +112,7 @@ Stores an arbitrary <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-
 
 
 
-To create a DXGI
- media buffer, first create the DXGI
- surface. Then call <a href="https://msdn.microsoft.com/5D859F36-A82B-488B-A2F6-C697A1AA86BC">MFCreateDXGISurfaceBuffer</a>. 
+To create a DXGImedia buffer, first create the DXGIsurface. Then call <a href="https://msdn.microsoft.com/5D859F36-A82B-488B-A2F6-C697A1AA86BC">MFCreateDXGISurfaceBuffer</a>. 
 
 
 

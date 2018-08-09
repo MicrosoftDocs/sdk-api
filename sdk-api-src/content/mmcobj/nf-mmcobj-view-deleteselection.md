@@ -7,7 +7,7 @@ old-location: mmc\view_deleteselection.htm
 old-project: MMC
 ms.assetid: 850516ae-4450-4773-8662-1e1bda805a30
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: DeleteSelection, DeleteSelection method [MMC], DeleteSelection method [MMC],View interface, DeleteSelection method [MMC],View object, View interface [MMC],DeleteSelection method, View object [MMC],DeleteSelection method, View.DeleteSelection, View::DeleteSelection, _slate_view.deleteselection_method, mmc.view_deleteselection
 ms.prod: windows
 ms.technology: windows-sdk

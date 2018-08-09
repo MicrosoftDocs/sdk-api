@@ -7,7 +7,7 @@ old-location: netmgmt\user_info_1005_str.htm
 old-project: netmgmt
 ms.assetid: a953b48f-bda0-4dce-a153-d4db912de533
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPUSER_INFO_1005, *PUSER_INFO_1005, LPUSER_INFO_1005, LPUSER_INFO_1005 structure pointer [Network Management], PUSER_INFO_1005, PUSER_INFO_1005 structure pointer [Network Management], USER_INFO_1005, USER_INFO_1005 structure [Network Management], USER_PRIV_ADMIN, USER_PRIV_GUEST, USER_PRIV_USER, _USER_INFO_1005, _win32_user_info_1005_str, lmaccess/LPUSER_INFO_1005, lmaccess/PUSER_INFO_1005, lmaccess/USER_INFO_1005, netmgmt.user_info_1005_str"
 ms.prod: windows
 ms.technology: windows-sdk

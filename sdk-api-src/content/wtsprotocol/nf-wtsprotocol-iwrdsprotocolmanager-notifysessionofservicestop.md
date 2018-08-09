@@ -4,10 +4,10 @@ title: IWRdsProtocolManager::NotifySessionOfServiceStop
 author: windows-sdk-content
 description: Notifies the protocol provider that the Remote Desktop Services service has stopped for a given session.
 old-location: termserv\iwrdsprotocolmanager_notifysessionofservicestop.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: acf52eb0-d8f8-4257-9c2c-e9345c0f1b7f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifySessionOfServiceStop method, IWRdsProtocolManager.NotifySessionOfServiceStop, IWRdsProtocolManager::NotifySessionOfServiceStop, NotifySessionOfServiceStop, NotifySessionOfServiceStop method [Remote Desktop Services], NotifySessionOfServiceStop method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_notifysessionofservicestop, wtsprotocol/IWRdsProtocolManager::NotifySessionOfServiceStop
 ms.prod: windows
 ms.technology: windows-sdk

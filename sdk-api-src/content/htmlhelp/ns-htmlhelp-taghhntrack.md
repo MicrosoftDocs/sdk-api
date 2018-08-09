@@ -71,12 +71,12 @@ A multi-byte, zero-terminated string that specifies the current topic (before th
 
 ### -field idAction
 
-Specifies the action the user is about to take. This is an <a href="https://msdn.microsoft.com/library/ms524361(v=VS.85).aspx">HHACT_</a> constant. 
+Specifies the action the user is about to take. This is an <a href="https://msdn.microsoft.com/en-us/library/ms524361(v=VS.85).aspx">HHACT_</a> constant. 
 
 
 ### -field phhWinType
 
-A pointer to the current <a href="https://msdn.microsoft.com/library/ms524363(v=VS.85).aspx">HH_WINTYPE</a> structure. 
+A pointer to the current <a href="https://msdn.microsoft.com/en-us/library/ms524363(v=VS.85).aspx">HH_WINTYPE</a> structure. 
 
 
 ## -see-also
@@ -84,7 +84,7 @@ A pointer to the current <a href="https://msdn.microsoft.com/library/ms524363(v=
 
 
 
-<a href="https://msdn.microsoft.com/library/ms524235(v=VS.85).aspx">About structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms524235(v=VS.85).aspx">About structures</a>
  
 
  

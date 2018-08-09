@@ -7,7 +7,7 @@ old-location: fs\allocatentmsmedia.htm
 old-project: Rsm
 ms.assetid: a0afe0ca-61ad-4ac8-8e3e-4a7e9ddd6600
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: AllocateNtmsMedia, AllocateNtmsMedia function [Files], NTMS_ALLOCATE_ERROR_IF_UNAVAILABLE, NTMS_ALLOCATE_NEW, NTMS_ALLOCATE_NEXT, _zaw_allocatentmsmedia, base.allocatentmsmedia, fs.allocatentmsmedia, ntmsapi/AllocateNtmsMedia
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,9 +73,9 @@ Handle to the session returned by the
 Unique identifier of the media pool from which the media is to be allocated. Only application pools may be specified for allocation.
 
 
-### -param lpPartition
+### -param lpPartition [in]
 
-TBD
+Part identifier of a side to use as a logical media identifier (LMID). The side must be in the Available or Import state. This feature can be used to allocate a particular side or to import media. This parameter is optional.
 
 
 ### -param lpMediaId [out]
@@ -142,11 +142,6 @@ Maximum time allowed to allocate the specified media, in milliseconds. If this p
 
 Pointer to an 
 <a href="https://msdn.microsoft.com/6861dcea-7f50-4175-85f1-b59478d6c119">NTMS_ALLOCATION_INFORMATION</a> structure that receives the source media pool from which the medium was taken. This parameter can be <b>NULL</b>.
-
-
-#### - lpPartId [in]
-
-Part identifier of a side to use as a logical media identifier (LMID). The side must be in the Available or Import state. This feature can be used to allocate a particular side or to import media. This parameter is optional.
 
 
 ## -returns
@@ -369,7 +364,7 @@ When an application requires new media containing data, a user or administrator 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
 
 
 

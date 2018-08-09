@@ -7,7 +7,7 @@ old-location: hidpi\getdpiformonitor.htm
 old-project: hidpi
 ms.assetid: AB741D14-0BA1-4C33-91D8-1331BE96DE95
 ms.author: windowssdkdev
-ms.date: 03/30/2018
+ms.date: 08/06/2018
 ms.keywords: GetDpiForMonitor, GetDpiForMonitor function [High DPI], hidpi.getdpiformonitor, shellscalingapi/GetDpiForMonitor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,24 +71,12 @@ Handle of the monitor being queried.
 The type of DPI being queried. Possible values are from the <a href="https://msdn.microsoft.com/9022A1E1-CB99-4278-A3BD-171E26708DBD">MONITOR_DPI_TYPE</a> enumeration. 
 
 
-### -param dpiX
-
-TBD
-
-
-### -param dpiY
-
-TBD
-
-
-
-
-#### - *dpiX [out]
+### -param dpiX [out]
 
 The value of the DPI along the X axis. This value always refers to the horizontal edge, even when the screen is rotated.
 
 
-#### - *dpiY [out]
+### -param dpiY [out]
 
 The value of the DPI along the Y axis. This value always refers to the vertical edge, even when the screen is rotated.
 

@@ -7,7 +7,7 @@ old-location: ad\ds_domain_trusts.htm
 old-project: ad
 ms.assetid: cd260fd1-dc38-4405-95ba-097a23faf668
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: "*PDS_DOMAIN_TRUSTSW, DS_DOMAIN_DIRECT_INBOUND, DS_DOMAIN_DIRECT_OUTBOUND, DS_DOMAIN_IN_FOREST, DS_DOMAIN_NATIVE_MODE, DS_DOMAIN_PRIMARY, DS_DOMAIN_TREE_ROOT, DS_DOMAIN_TRUSTS, DS_DOMAIN_TRUSTS structure [Active Directory], DS_DOMAIN_TRUSTSA, DS_DOMAIN_TRUSTSW, PDS_DOMAIN_TRUSTS, PDS_DOMAIN_TRUSTS structure pointer [Active Directory], _DS_DOMAIN_TRUSTSW, _glines_ds_domain_trusts, ad.ds__domain__trusts, ad.ds_domain_trusts, dsgetdc/DS_DOMAIN_TRUSTS, dsgetdc/DS_DOMAIN_TRUSTSA, dsgetdc/DS_DOMAIN_TRUSTSW, dsgetdc/PDS_DOMAIN_TRUSTS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -150,9 +150,9 @@ Contains the security identifier of the domain represented by this structure.
 Contains the GUID of the domain represented by this structure.
 
 
-##### - Flags.DS_DOMAIN_DIRECT_INBOUND (32 (0x20))
+##### - Flags.DS_DOMAIN_IN_FOREST (1 (0x1))
 
-The domain represented by this structure directly trusts the domain that the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function is a member of.
+The domain represented by this structure is a member of the same forest as the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function.
 
 
 ##### - Flags.DS_DOMAIN_DIRECT_OUTBOUND (2 (0x2))
@@ -160,14 +160,9 @@ The domain represented by this structure directly trusts the domain that the ser
 The domain represented by this structure is directly trusted by the domain that the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function is a member of.
 
 
-##### - Flags.DS_DOMAIN_IN_FOREST (1 (0x1))
+##### - Flags.DS_DOMAIN_TREE_ROOT (4 (0x4))
 
-The domain represented by this structure is a member of the same forest as the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function.
-
-
-##### - Flags.DS_DOMAIN_NATIVE_MODE (16 (0x10))
-
-The domain represented by this structure is running in the Windows 2000 native mode.
+The domain represented by this structure is the root of a tree and a member of the same forest as the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function.
 
 
 ##### - Flags.DS_DOMAIN_PRIMARY (8 (0x8))
@@ -175,9 +170,14 @@ The domain represented by this structure is running in the Windows 2000 native m
 The domain represented by this structure is the primary domain of the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function.
 
 
-##### - Flags.DS_DOMAIN_TREE_ROOT (4 (0x4))
+##### - Flags.DS_DOMAIN_NATIVE_MODE (16 (0x10))
 
-The domain represented by this structure is the root of a tree and a member of the same forest as the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function.
+The domain represented by this structure is running in the Windows 2000 native mode.
+
+
+##### - Flags.DS_DOMAIN_DIRECT_INBOUND (32 (0x20))
+
+The domain represented by this structure directly trusts the domain that the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function is a member of.
 
 
 ## -see-also

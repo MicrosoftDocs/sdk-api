@@ -7,7 +7,7 @@ old-location: base\regoverridepredefkey.htm
 old-project: SysInfo
 ms.assetid: ad58b7ff-cd61-4719-9028-b470ae7e9bb0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: RegOverridePredefKey, RegOverridePredefKey function, _win32_regoverridepredefkey, base.regoverridepredefkey, winreg/RegOverridePredefKey
 ms.prod: windows
 ms.technology: windows-sdk

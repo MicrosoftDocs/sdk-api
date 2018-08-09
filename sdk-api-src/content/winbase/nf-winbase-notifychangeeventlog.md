@@ -4,10 +4,10 @@ title: NotifyChangeEventLog function
 author: windows-sdk-content
 description: Enables an application to receive notification when an event is written to the specified event log.
 old-location: base\notifychangeeventlog.htm
-old-project: EventLog
+old-project: eventlog
 ms.assetid: 12b9a7bf-2aad-48b7-8cfd-a72b353ba2b2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: NotifyChangeEventLog, NotifyChangeEventLog function, _win32_notifychangeeventlog, base.notifychangeeventlog, winbase/NotifyChangeEventLog
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: Matrix4x4F::SkewY
 author: windows-sdk-content
 description: Skews the matrix in the Y direction.
 old-location: direct2d\matrix4x4f_skewy.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 481D428F-C070-4112-83BB-3B4E8E0C7319
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: Matrix4x4F interface [Direct2D],SkewY method, Matrix4x4F.SkewY, Matrix4x4F::SkewY, SkewY, SkewY method [Direct2D], SkewY method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::SkewY, direct2d.matrix4x4f_skewy
 ms.prod: windows
 ms.technology: windows-sdk

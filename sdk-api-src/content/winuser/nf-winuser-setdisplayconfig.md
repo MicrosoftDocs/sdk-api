@@ -7,7 +7,7 @@ old-location: display\setdisplayconfig.htm
 old-project: display
 ms.assetid: 9f649fa0-ffb2-44c6-9a66-049f888e3b04
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: CCD_Functions_fceeecb0-8c34-4ff0-b201-fc5b7f39f2df.xml, SetDisplayConfig, SetDisplayConfig function [Display Devices], display.setdisplayconfig, winuser/SetDisplayConfig
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,14 +81,7 @@ Number of elements in <i>modeInfoArray</i>.
 Array of display source and target mode information (<a href="https://msdn.microsoft.com/library/windows/hardware/ff553933">DISPLAYCONFIG_MODE_INFO</a>) that is referenced by the <b>modeInfoIdx</b> member of DISPLAYCONFIG_PATH_SOURCE_INFO and DISPLAYCONFIG_PATH_TARGET_INFO element of path information from <i>pathArray</i>. This parameter can be <b>NULL</b>. 
 
 
-### -param flags
-
-TBD
-
-
-
-
-#### - Flags [in]
+### -param flags [in]
 
 A bitwise OR of flag values that indicates the behavior of this function. This parameter can be one the following values, or a combination of the following values; 0 is not valid.
 

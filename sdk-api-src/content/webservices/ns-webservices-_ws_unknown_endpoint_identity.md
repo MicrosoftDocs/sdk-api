@@ -7,7 +7,7 @@ old-location: wsw\ws_unknown_endpoint_identity.htm
 old-project: wsw
 ms.assetid: 93a51fe5-7195-4286-97f3-92c20b0d3e54
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_UNKNOWN_ENDPOINT_IDENTITY, WS_UNKNOWN_ENDPOINT_IDENTITY structure [Web Services for Windows], _WS_UNKNOWN_ENDPOINT_IDENTITY, webservices/WS_UNKNOWN_ENDPOINT_IDENTITY, wsw.ws_unknown_endpoint_identity
 ms.prod: windows
 ms.technology: windows-sdk

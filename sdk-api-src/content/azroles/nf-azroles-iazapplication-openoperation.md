@@ -7,7 +7,7 @@ old-location: security\iazapplication_openoperation.htm
 old-project: secauthz
 ms.assetid: 37dddf38-a79b-419f-891b-8da7dc2bdf42
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AzApplication object [Security],OpenOperation method, IAzApplication interface [Security],OpenOperation method, IAzApplication.OpenOperation, IAzApplication::OpenOperation, OpenOperation, OpenOperation method [Security], OpenOperation method [Security],AzApplication object, OpenOperation method [Security],IAzApplication interface, azroles/IAzApplication::OpenOperation, security.iazapplication_openoperation
 ms.prod: windows
 ms.technology: windows-sdk

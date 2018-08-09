@@ -7,7 +7,7 @@ old-location: dhcp\dhcpaddsubnetelementv6.htm
 old-project: dhcp
 ms.assetid: 9f009140-5301-4aee-a6e5-12f7cd56f906
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpAddSubnetElementV6, DhcpAddSubnetElementV6 function [DHCP], dhcp.dhcpaddsubnetelementv6, dhcpsapi/DhcpAddSubnetElementV6
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpAddSubnetElementV6</b> function  adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database. 
+The <b>DhcpAddSubnetElementV6</b> function  adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database. 
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: mscs\clusterregclosebatchnotifyport.htm
 old-project: mscs
 ms.assetid: 7ae10343-c97e-4036-9fe6-b894394bb605
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusterRegCloseBatchNotifyPort, ClusterRegCloseBatchNotifyPort function [Failover Cluster], PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT, clusapi/ClusterRegCloseBatchNotifyPort, mscs.clusterregclosebatchnotifyport
 ms.prod: windows
 ms.technology: windows-sdk

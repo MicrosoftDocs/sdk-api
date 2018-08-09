@@ -74,7 +74,7 @@ A multi-byte, zero-terminated string that specifies the topic navigated to, or t
 
 
 
-<a href="https://msdn.microsoft.com/library/ms524235(v=VS.85).aspx">About Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms524235(v=VS.85).aspx">About Structures</a>
  
 
  

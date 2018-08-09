@@ -7,7 +7,7 @@ old-location: setup\setupuninstallnewlycopiedinfs.htm
 old-project: SetupApi
 ms.assetid: 7bc10d12-0a0e-48b6-9fb4-1bf1c99cc3be
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupUninstallNewlyCopiedInfs, SetupUninstallNewlyCopiedInfs function [Setup API], _setupapi_setupuninstallnewlycopiedinfs, setup.setupuninstallnewlycopiedinfs, setupapi/SetupUninstallNewlyCopiedInfs
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,10 @@ A caller of this function must have administrative privileges; otherwise, the fu
 
 
 
-### -param FileQueue
+### -param FileQueue [in]
 
-TBD
+Handle to an open and committed file queue. This queue contains the newly installed INF, PNF, or CAT files that 
+<b>SetupUninstallNewlyCopiedInfs</b> uninstalls.
 
 
 ### -param Flags [in]
@@ -78,12 +79,6 @@ Flags to use with
 ### -param Reserved [in]
 
 Reserved. This parameter must be <b>NULL</b>.
-
-
-#### - QueueHandle [in]
-
-Handle to an open and committed file queue. This queue contains the newly installed INF, PNF, or CAT files that 
-<b>SetupUninstallNewlyCopiedInfs</b> uninstalls.
 
 
 ## -returns

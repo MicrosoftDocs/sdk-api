@@ -7,7 +7,7 @@ old-location: controls\ListView_GetUnicodeFormat.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getunicodeformat.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_GetUnicodeFormat, ListView_GetUnicodeFormat macro [Windows Controls], _win32_ListView_GetUnicodeFormat, _win32_ListView_GetUnicodeFormat_cpp, commctrl/ListView_GetUnicodeFormat, controls.ListView_GetUnicodeFormat, controls._win32_ListView_GetUnicodeFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the Unicode character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761089(v=VS.85).aspx">LVM_GETUNICODEFORMAT</a> message explicitly. 
+Gets the Unicode character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761089(v=VS.85).aspx">LVM_GETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to the control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775124(v=VS.85).aspx">ListView_SetUnicodeFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775124(v=VS.85).aspx">ListView_SetUnicodeFormat</a>
  
 
  

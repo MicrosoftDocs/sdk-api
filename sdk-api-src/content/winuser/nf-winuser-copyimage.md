@@ -7,7 +7,7 @@ old-location: menurc\copyimage.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\copyimage.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CopyImage, CopyImage function [Menus and Other Resources], IMAGE_BITMAP, IMAGE_CURSOR, IMAGE_ICON, LR_COPYDELETEORG, LR_COPYFROMRESOURCE, LR_COPYRETURNORG, LR_CREATEDIBSECTION, LR_DEFAULTSIZE, LR_MONOCHROME, _win32_CopyImage, _win32_copyimage_cpp, menurc.copyimage, winui._win32_copyimage, winuser/CopyImage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,48 +61,76 @@ Creates a new image (icon, cursor, or bitmap) and copies the attributes of the s
 
 
 
-### -param h
+### -param h [in]
 
-TBD
+Type: <b>HANDLE</b>
 
-
-### -param type
-
-TBD
+A handle to the image to be copied. 
 
 
-### -param cx
+### -param type [in]
 
-TBD
+Type: <b>UINT</b>
+
+The type of image to be copied. This parameter can be one of the following values. 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_BITMAP"></a><a id="image_bitmap"></a><dl>
+<dt><b>IMAGE_BITMAP</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+Copies a bitmap.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_CURSOR"></a><a id="image_cursor"></a><dl>
+<dt><b>IMAGE_CURSOR</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+Copies a cursor.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_ICON"></a><a id="image_icon"></a><dl>
+<dt><b>IMAGE_ICON</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+Copies an icon.
+
+</td>
+</tr>
+</table>
+ 
 
 
-### -param cy
-
-TBD
-
-
-### -param flags
-
-TBD
-
-
-
-
-#### - cxDesired [in]
+### -param cx [in]
 
 Type: <b>int</b>
 
 The desired width, in pixels, of the image. If this is zero, then the returned image will have the same width as the original <i>hImage</i>. 
 
 
-#### - cyDesired [in]
+### -param cy [in]
 
 Type: <b>int</b>
 
 The desired height, in pixels, of the image. If this is zero, then the returned image will have the same height as the original <i>hImage</i>. 
 
 
-#### - fuFlags [in]
+### -param flags [in]
 
 Type: <b>UINT</b>
 
@@ -176,61 +204,6 @@ Uses the width or height specified by the system metric values for cursors or ic
 </td>
 <td width="60%">
 Creates a new monochrome image. 
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - hImage [in]
-
-Type: <b>HANDLE</b>
-
-A handle to the image to be copied. 
-
-
-#### - uType [in]
-
-Type: <b>UINT</b>
-
-The type of image to be copied. This parameter can be one of the following values. 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="IMAGE_BITMAP"></a><a id="image_bitmap"></a><dl>
-<dt><b>IMAGE_BITMAP</b></dt>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-Copies a bitmap.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="IMAGE_CURSOR"></a><a id="image_cursor"></a><dl>
-<dt><b>IMAGE_CURSOR</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-Copies a cursor.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="IMAGE_ICON"></a><a id="image_icon"></a><dl>
-<dt><b>IMAGE_ICON</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Copies an icon.
 
 </td>
 </tr>

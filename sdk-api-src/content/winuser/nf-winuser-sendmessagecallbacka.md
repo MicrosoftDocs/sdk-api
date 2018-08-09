@@ -7,7 +7,7 @@ old-location: winmsg\sendmessagecallback.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendmessagecallback.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SendMessageCallback, SendMessageCallback function [Windows and Messages], SendMessageCallbackA, SendMessageCallbackW, _win32_SendMessageCallback, _win32_sendmessagecallback_cpp, winmsg.sendmessagecallback, winui._win32_sendmessagecallback, winuser/SendMessageCallback, winuser/SendMessageCallbackA, winuser/SendMessageCallbackW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,19 +94,7 @@ Type: <b>LPARAM</b>
 Additional message-specific information.
 
 
-### -param lpResultCallBack
-
-TBD
-
-
-### -param dwData [in]
-
-Type: <b>ULONG_PTR</b>
-
-An application-defined value to be sent to the callback function pointed to by the <i>lpCallBack</i> parameter.
-
-
-#### - lpCallBack [in]
+### -param lpResultCallBack [in]
 
 Type: <b>SENDASYNCPROC</b>
 
@@ -115,6 +103,13 @@ A pointer to a callback function that the system calls after the window procedur
                     
 
 If <i>hWnd</i> is <b>HWND_BROADCAST</b> ((HWND)0xffff), the system calls the <a href="https://msdn.microsoft.com/en-us/library/ms644949(v=VS.85).aspx">SendAsyncProc</a> callback function once for each top-level window.
+
+
+### -param dwData [in]
+
+Type: <b>ULONG_PTR</b>
+
+An application-defined value to be sent to the callback function pointed to by the <i>lpCallBack</i> parameter.
 
 
 ## -returns

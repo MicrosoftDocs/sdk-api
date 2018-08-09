@@ -7,7 +7,7 @@ old-location: search\_search_ISearchProtocolThreadContext_ThreadInit.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocolthreadcontext\threadinit.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchProtocolThreadContext interface [search],ThreadInit method, ISearchProtocolThreadContext.ThreadInit, ISearchProtocolThreadContext::ThreadInit, ThreadInit, ThreadInit method [search], ThreadInit method [search],ISearchProtocolThreadContext interface, _search_ISearchProtocolThreadContext_ThreadInit, search._search_ISearchProtocolThreadContext_ThreadInit, searchapi/ISearchProtocolThreadContext::ThreadInit
 ms.prod: windows
 ms.technology: windows-sdk

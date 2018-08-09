@@ -7,7 +7,7 @@ old-location: menurc\enumresourcenames.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcenames.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EnumResourceNames, EnumResourceNames function [Menus and Other Resources], EnumResourceNamesA, EnumResourceNamesW, _win32_EnumResourceNames, _win32_enumresourcenames_cpp, menurc.enumresourcenames, winbase/EnumResourceNames, winbase/EnumResourceNamesA, winbase/EnumResourceNamesW, winui._win32_enumresourcenames
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,9 +72,13 @@ A handle to a module to be searched. Starting with Windows Vista, if this is an
 If this parameter is <b>NULL</b>, that is equivalent to passing in a handle to the module used to create the current process.
 
 
-### -param lpType
+### -param lpType [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+The type of the resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">Resource Types</a>. For more information, see 
+
+the Remarks section below.
 
 
 ### -param lpEnumFunc [in]
@@ -89,15 +93,6 @@ A pointer to the callback function to be called for each enumerated resource nam
 Type: <b>LONG_PTR</b>
 
 An application-defined value passed to the callback function. This parameter can be used in error checking.
-
-
-#### - lpszType [in]
-
-Type: <b>LPCTSTR</b>
-
-The type of the resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">Resource Types</a>. For more information, see 
-
-the Remarks section below.
 
 
 ## -returns

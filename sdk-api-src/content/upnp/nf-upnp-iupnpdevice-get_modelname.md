@@ -1,0 +1,94 @@
+---
+UID: NF:upnp.IUPnPDevice.get_ModelName
+title: IUPnPDevice::get_ModelName
+author: windows-sdk-content
+description: The ModelName property specifies a human-readable form of the model name of the device.
+old-location: upnp\iupnpdevice_modelname.htm
+old-project: upnp
+ms.assetid: c71868ab-e05d-4e6a-b157-4474afc8f61f
+ms.author: windowssdkdev
+ms.date: 08/02/2018
+ms.keywords: IUPnPDevice interface [UPnP APIs],get_ModelName method, IUPnPDevice.get_ModelName, IUPnPDevice::get_ModelName, _upnp_iupnpdevice_modelname, get_ModelName, get_ModelName method [UPnP APIs], get_ModelName method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_modelname, upnp/IUPnPDevice::get_ModelName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: upnp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: UI_EVENTPARAMS_COMMAND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPDevice.get_ModelName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
+req.product: Windows UI
+---
+
+# IUPnPDevice::get_ModelName
+
+
+## -description
+
+
+The 
+<b>ModelName</b> property specifies a human-readable form of the model name of the device.
+
+
+## -parameters
+
+
+
+
+### -param pbstr [out]
+
+Receives a reference to a string that contains the model name. Release this string with <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required.
+
+
+## -returns
+
+
+
+For C++: If this property's "get" method succeeds, the return value is S_OK. Otherwise, the method returns one of the COM error codes defined in WinError.h.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/7e9b92a6-efad-41f0-b083-a2fed0f70c8b">IUPnPDevice::ModelNumber</a>
+
+
+
+<a href="https://msdn.microsoft.com/e9f3231a-5836-4629-9df5-6ed9184fb753">IUPnPDevice::ModelURL</a>
+ 
+
+ 
+

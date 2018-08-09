@@ -7,7 +7,7 @@ old-location: security\accesscheckbytype.htm
 old-project: secauthz
 ms.assetid: 50acfc17-459d-464c-9927-88b32dd424c7
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AccessCheckByType, AccessCheckByType function [Security], _win32_accesscheckbytype, security.accesscheckbytype, securitybaseapi/AccessCheckByType
 ms.prod: windows
 ms.technology: windows-sdk

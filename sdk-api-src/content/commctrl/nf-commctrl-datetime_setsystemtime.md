@@ -7,7 +7,7 @@ old-location: controls\DateTime_SetSystemtime.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setsystemtime.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DateTime_SetSystemtime, DateTime_SetSystemtime macro [Windows Controls], GDT_NONE, GDT_VALID, _win32_DateTime_SetSystemtime, _win32_DateTime_SetSystemtime_cpp, commctrl/DateTime_SetSystemtime, controls.DateTime_SetSystemtime, controls._win32_DateTime_SetSystemtime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets a date and time picker (DTP) control to a given date and time. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761782(v=VS.85).aspx">DTM_SETSYSTEMTIME</a> message explicitly. 
+Sets a date and time picker (DTP) control to a given date and time. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761782(v=VS.85).aspx">DTM_SETSYSTEMTIME</a> message explicitly. 
 
 
 ## -parameters
@@ -60,24 +60,12 @@ Sets a date and time picker (DTP) control to a given date and time. You can use 
 
 ### -param hdp
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to a DTP control. 
 
 
 ### -param gd
-
-TBD
-
-
-### -param pst
-
-TBD
-
-
-
-
-
-
-#### - flag
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
@@ -105,7 +93,7 @@ Set the DTP control according to the data within the <a href="https://msdn.micro
 </td>
 <td width="60%">
 Set the DTP control to "no date" and clear its check box. When this flag is specified, 
-						<i>lpSysTime</i> is ignored. This flag applies only to DTP controls that are set to the <a href="https://msdn.microsoft.com/library/Bb761728(v=VS.85).aspx">DTS_SHOWNONE</a> style. 
+						<i>lpSysTime</i> is ignored. This flag applies only to DTP controls that are set to the <a href="Date_and_Time_Picker_Control_Styles.htm">DTS_SHOWNONE</a> style. 
 
 </td>
 </tr>
@@ -113,14 +101,7 @@ Set the DTP control to "no date" and clear its check box. When this flag is spec
  
 
 
-#### - hwndDT
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to a DTP control. 
-
-
-#### - lpSysTime
+### -param pst
 
 Type: <b>LPSYSTEMTIME</b>
 

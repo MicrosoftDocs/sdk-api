@@ -7,7 +7,7 @@ old-location: mf\mfcreatetempfile.htm
 old-project: medfound
 ms.assetid: 1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678, MFCreateTempFile, MFCreateTempFile function [Media Foundation], mf.mfcreatetempfile, mfapi/MFCreateTempFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Creates a byte stream that is backed by a temporary local file.
+Creates a byte stream that is backed by a temporary local file.
         
 
 
@@ -63,29 +62,25 @@ req.product: GDI+ 1.1
 
 ### -param AccessMode
 
-
-            The requested access mode, specified as a member of the <a href="https://msdn.microsoft.com/38108686-5378-4844-8d5a-a433e89f62bb">MF_FILE_ACCESSMODE</a> enumeration.
+The requested access mode, specified as a member of the <a href="https://msdn.microsoft.com/38108686-5378-4844-8d5a-a433e89f62bb">MF_FILE_ACCESSMODE</a> enumeration.
           
 
 
 ### -param OpenMode
 
-
-            The behavior of the function if the file already exists or does not exist, specified as a member of the <a href="https://msdn.microsoft.com/0c0e94fa-cbcc-4abc-9020-af6d36a4d3b6">MF_FILE_OPENMODE</a> enumeration.
+The behavior of the function if the file already exists or does not exist, specified as a member of the <a href="https://msdn.microsoft.com/0c0e94fa-cbcc-4abc-9020-af6d36a4d3b6">MF_FILE_OPENMODE</a> enumeration.
           
 
 
 ### -param fFlags
 
-
-            Bitwise <b>OR</b> of values from the <a href="https://msdn.microsoft.com/1e1c906e-c832-4df1-96f5-86e690c3c34e">MF_FILE_FLAGS</a> enumeration.
+Bitwise <b>OR</b> of values from the <a href="https://msdn.microsoft.com/1e1c906e-c832-4df1-96f5-86e690c3c34e">MF_FILE_FLAGS</a> enumeration.
           
 
 
 ### -param ppIByteStream
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/690035b7-2855-4714-938f-f8250ec70d24">IMFByteStream</a> interface of the byte stream. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/690035b7-2855-4714-938f-f8250ec70d24">IMFByteStream</a> interface of the byte stream. The caller must release the interface.
           
 
 
@@ -102,8 +97,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-
-        This function creates a file in the system temporary folder, and then returns a byte stream object for that file.
+This function creates a file in the system temporary folder, and then returns a byte stream object for that file.
       The full path name of the file is storted in the <a href="https://msdn.microsoft.com/31d7de71-5bbb-4c29-8ce0-df3684c56916">MF_BYTESTREAM_ORIGIN_NAME</a> attribute. The file is created with the <b>FILE_FLAG_DELETE_ON_CLOSE</b> flag, and is deleted after the byte stream is released.
 
 This function is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:

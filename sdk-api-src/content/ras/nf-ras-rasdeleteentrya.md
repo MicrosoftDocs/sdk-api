@@ -7,7 +7,7 @@ old-location: rras\rasdeleteentry.htm
 old-project: rras
 ms.assetid: 80a6c2d3-917b-4d13-867f-a1399d434105
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RasDeleteEntry, RasDeleteEntry function [RAS], RasDeleteEntryA, RasDeleteEntryW, _ras_rasdeleteentry, ras/RasDeleteEntry, ras/RasDeleteEntryA, ras/RasDeleteEntryW, rras.rasdeleteentry
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,12 +69,7 @@ TBD
 
 
 
-#### - lpszEntry [in]
-
-Pointer to a null-terminated string that specifies the name of an existing entry to be deleted.
-
-
-#### - lpszPhonebook [in]
+#### - [in]
 
  Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
 
@@ -82,6 +77,11 @@ Pointer to a null-terminated string that specifies the name of an existing entry
 
 
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
+
+
+#### - lpszEntry [in]
+
+Pointer to a null-terminated string that specifies the name of an existing entry to be deleted.
 
 
 ## -returns

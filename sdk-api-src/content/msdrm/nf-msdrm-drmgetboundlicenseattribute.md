@@ -7,7 +7,7 @@ old-location: rm\drmgetboundlicenseattribute.htm
 old-project: adrms_sdk
 ms.assetid: 715fb3e6-6b1e-4136-9c25-efcde2015d6f
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMGetBoundLicenseAttribute, DRMGetBoundLicenseAttribute function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetBoundLicenseAttribute, rm.drmgetboundlicenseattribute
 ms.prod: windows
 ms.technology: windows-sdk

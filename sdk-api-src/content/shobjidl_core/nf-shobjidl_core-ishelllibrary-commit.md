@@ -7,7 +7,7 @@ old-location: shell\IShellLibrary_Commit.htm
 old-project: shell
 ms.assetid: a340964d-ea20-4a3b-be8b-f4f4dbf624ed
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: Commit, Commit method [Windows Shell], Commit method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],Commit method, IShellLibrary.Commit, IShellLibrary::Commit, _shell_IShellLibrary_Commit, shell.IShellLibrary_Commit, shobjidl_core/IShellLibrary::Commit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-         Commits library updates to an existing Library Description file.
+Commits library updates to an existing Library Description file.
       
 
 
@@ -84,8 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
             To create and save a new file, call  <a href="https://msdn.microsoft.com/2a7de829-f0bc-4ace-aed4-83d0611ae292">IShellLibrary::Save</a> or <a href="https://msdn.microsoft.com/953b209b-fd18-49d0-84d3-ad9b815f2a3a">SHSaveLibraryInFolderPath</a>.
          
 
-
-            If the library is saved in the Libraries known folder (FOLDERID_Libraries), the folders in the library are automatically added to the search index.
+If the library is saved in the Libraries known folder (FOLDERID_Libraries), the folders in the library are automatically added to the search index.
 
 
 

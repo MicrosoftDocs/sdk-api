@@ -7,7 +7,7 @@ old-location: shell\ExtractAssociatedIconEx.htm
 old-project: shell
 ms.assetid: f32260b0-917b-4406-aeee-34f71a7c7309
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ExtractAssociatedIconEx, ExtractAssociatedIconEx function [Windows Shell], ExtractAssociatedIconExA, ExtractAssociatedIconExW, _win32_ExtractAssociatedIconEx, shell.ExtractAssociatedIconEx, shellapi/ExtractAssociatedIconEx, shellapi/ExtractAssociatedIconExA, shellapi/ExtractAssociatedIconExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,24 +70,7 @@ Type: <b>HINSTANCE</b>
 The handle of the module from which to extract the icon.
 
 
-### -param pszIconPath
-
-TBD
-
-
-### -param piIconIndex
-
-TBD
-
-
-### -param piIconId
-
-TBD
-
-
-
-
-#### - lpIconPath [in, out]
+### -param pszIconPath [in, out]
 
 Type: <b>LPTSTR</b>
 
@@ -98,18 +81,7 @@ Pointer to a string that, on entry, specifies the full path and file name of the
 When this function returns, if the icon handle was obtained from an executable file (either an executable file directly pointed to by this parameter or an associated executable file) the function stores the full path and file name of that executable in the buffer pointed to by this parameter.
 
 
-#### - lpiIconId [in, out]
-
-Type: <b>LPWORD</b>
-
-Pointer to a <b>WORD</b> value that, on entry, specifies the ID of the icon whose handle is to be obtained.
-
-                    
-
-When the function returns, if the icon handle was obtained from an executable file (either an executable file pointed to by <i>lpIconPath</i> or an associated executable file), this value points to the icon's ID within that file.
-
-
-#### - lpiIconIndex [in, out]
+### -param piIconIndex [in, out]
 
 Type: <b>LPWORD</b>
 
@@ -118,6 +90,17 @@ Pointer to a <b>WORD</b> value that, on entry, specifies the index of the icon w
                     
 
 When the function returns, if the icon handle was obtained from an executable file (either an executable file pointed to by <i>lpIconPath</i> or an associated executable file), this value points to the icon's index in that file.
+
+
+### -param piIconId [in, out]
+
+Type: <b>LPWORD</b>
+
+Pointer to a <b>WORD</b> value that, on entry, specifies the ID of the icon whose handle is to be obtained.
+
+                    
+
+When the function returns, if the icon handle was obtained from an executable file (either an executable file pointed to by <i>lpIconPath</i> or an associated executable file), this value points to the icon's ID within that file.
 
 
 ## -returns
@@ -135,7 +118,7 @@ Returns the icon's handle if successful, otherwise <b>NULL</b>.
 
 
 
-The icon handle returned by this function must be released by calling <a href="https://msdn.microsoft.com/library/ms648063(v=VS.85).aspx">DestroyIcon</a> when it is no longer needed.
+The icon handle returned by this function must be released by calling <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> when it is no longer needed.
 
 
 

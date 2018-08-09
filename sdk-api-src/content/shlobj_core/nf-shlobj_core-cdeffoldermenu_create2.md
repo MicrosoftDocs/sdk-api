@@ -7,7 +7,7 @@ old-location: shell\CDefFolderMenu_Create2.htm
 old-project: shell
 ms.assetid: 7b5e012d-1c8b-42c5-8181-9923fd389fc5
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: CDefFolderMenu_Create2, CDefFolderMenu_Create2 function [Windows Shell], _win32_CDefFolderMenu_Create2, shell.CDefFolderMenu_Create2, shlobj_core/CDefFolderMenu_Create2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,9 +94,11 @@ Type: <b><a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a9
 A pointer to the parent folder's <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> interface. This <b>IShellFolder</b> must support the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> interface. If it does not, <b>CDefFolderMenu_Create2</b> fails and returns E_NOINTERFACE. This value can be <b>NULL</b>.
 
 
-### -param pfn
+### -param pfn [in, optional]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/a5635196-80de-4db9-9c3a-65f2b241b4a0">LPFNDFMCALLBACK</a></b>
+
+The <a href="https://msdn.microsoft.com/a5635196-80de-4db9-9c3a-65f2b241b4a0">LPFNDFMCALLBACK</a> callback object. This value can be <b>NULL</b> if the callback object is not needed.
 
 
 ### -param nKeys
@@ -122,13 +124,6 @@ A pointer to an array of registry keys that specify the context menu handlers us
 Type: <b><a href="https://msdn.microsoft.com/6ea0b8f9-4a05-4a4b-adc5-d540eb3287ee">IContextMenu</a>**</b>
 
 The address of an <a href="https://msdn.microsoft.com/6ea0b8f9-4a05-4a4b-adc5-d540eb3287ee">IContextMenu</a> interface pointer that, when this function returns successfully, points to the <b>IContextMenu</b> object that represents the context menu.
-
-
-#### - lpfn [in, optional]
-
-Type: <b><a href="https://msdn.microsoft.com/a5635196-80de-4db9-9c3a-65f2b241b4a0">LPFNDFMCALLBACK</a></b>
-
-The <a href="https://msdn.microsoft.com/a5635196-80de-4db9-9c3a-65f2b241b4a0">LPFNDFMCALLBACK</a> callback object. This value can be <b>NULL</b> if the callback object is not needed.
 
 
 ## -returns

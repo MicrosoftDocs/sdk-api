@@ -4,10 +4,10 @@ title: PdhConnectMachineA function
 author: windows-sdk-content
 description: Connects to the specified computer.
 old-location: perf\pdhconnectmachine.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 8f8b4651-b550-4b34-bb2f-d2497c56b572
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhConnectMachine, PdhConnectMachine function [Perf], PdhConnectMachineA, PdhConnectMachineW, _win32_pdhconnectmachine, base.pdhconnectmachine, pdh/PdhConnectMachine, pdh/PdhConnectMachineA, pdh/PdhConnectMachineW, perf.pdhconnectmachine
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Connects to the specified computer.
+Connects to the specified computer.
 		
 
 
@@ -74,8 +73,7 @@ req.product: ADAM
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

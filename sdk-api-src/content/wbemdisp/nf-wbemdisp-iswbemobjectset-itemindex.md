@@ -7,7 +7,7 @@ old-location: wmi\swbemobjectset_itemindex.htm
 old-project: WmiSdk
 ms.assetid: 75830f78-0489-4fae-bf9c-2eee8526232e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemObjectSet interface [Windows Management Instrumentation],ItemIndex method, ISWbemObjectSet.ItemIndex, ISWbemObjectSet::ItemIndex, ItemIndex, ItemIndex method [Windows Management Instrumentation], ItemIndex method [Windows Management Instrumentation],ISWbemObjectSet interface, ItemIndex method [Windows Management Instrumentation],SWbemObjectSet object, SWbemObjectSet object [Windows Management Instrumentation],ItemIndex method, SWbemObjectSet.ItemIndex, collections [Windows Management Instrumentation],indexing, wmi.swbemobjectset_itemindex
 ms.prod: windows
 ms.technology: windows-sdk

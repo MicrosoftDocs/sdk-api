@@ -4,10 +4,10 @@ title: IWSDUdpAddress::GetSockaddr
 author: windows-sdk-content
 description: Gets the socket address information.
 old-location: ncd\iwsdudpaddress_getsockaddr.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 4a29722f-a3b7-4285-9ade-06de125f8b91
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetSockaddr, GetSockaddr method, GetSockaddr method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetSockaddr method, IWSDUdpAddress.GetSockaddr, IWSDUdpAddress::GetSockaddr, ncd.iwsdudpaddress_getsockaddr, wsdbase/IWSDUdpAddress::GetSockaddr
 ms.prod: windows
 ms.technology: windows-sdk

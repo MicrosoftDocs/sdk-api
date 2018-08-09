@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_GetPixel_x_y_color_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\getpixel.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Bitmap class [GDI+],GetPixel method, Bitmap.GetPixel, Bitmap::GetPixel, GetPixel, GetPixel method [GDI+], GetPixel method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_GetPixel_x_y_color_, gdiplus._gdiplus_CLASS_Bitmap_GetPixel_x_y_color_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-Depending on the format of the bitmap, <b>Bitmap::GetPixel</b> might not return the same value as was set by <a href="https://msdn.microsoft.com/library/ms536299(v=VS.85).aspx">Bitmap::SetPixel</a>. For example, if you call <b>Bitmap::SetPixel</b> on a 
+Depending on the format of the bitmap, <b>Bitmap::GetPixel</b> might not return the same value as was set by <a href="https://msdn.microsoft.com/en-us/library/ms536299(v=VS.85).aspx">Bitmap::SetPixel</a>. For example, if you call <b>Bitmap::SetPixel</b> on a 
 				<a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> object whose pixel format is 32bppPARGB, the pixel's RGB components are premultiplied. A subsequent call to <b>Bitmap::GetPixel</b> might return a different value because of rounding. Also, if you call <b>Bitmap::SetPixel</b> on a 
 				<b>Bitmap</b> object whose color depth is 16 bits per pixel, information could be lost during the conversion from 32 to 16 bits, and a subsequent call to <b>Bitmap::GetPixel</b> might return a different value.
 
@@ -150,11 +150,11 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536298(v=VS.85).aspx">Bitmap::LockBits</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536298(v=VS.85).aspx">Bitmap::LockBits</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536299(v=VS.85).aspx">Bitmap::SetPixel</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536299(v=VS.85).aspx">Bitmap::SetPixel</a>
 
 
 
@@ -162,15 +162,15 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536335(v=VS.85).aspx">Images, Bitmaps, and Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536335(v=VS.85).aspx">Images, Bitmaps, and Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533815(v=VS.85).aspx">Using Images, Bitmaps, and Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533815(v=VS.85).aspx">Using Images, Bitmaps, and Metafiles</a>
  
 
  

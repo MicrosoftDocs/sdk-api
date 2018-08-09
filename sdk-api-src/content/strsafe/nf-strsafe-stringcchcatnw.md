@@ -7,7 +7,7 @@ old-location: menurc\stringcchcatn.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcatn.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: StringCchCatN, StringCchCatN function [Menus and Other Resources], StringCchCatNA, StringCchCatNW, _shell_StringCchCatN, _shell_stringcchcatn_cpp, menurc.stringcchcatn, strsafe/StringCchCatN, strsafe/StringCchCatNA, strsafe/StringCchCatNW, winui._shell_stringcchcatn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,14 +89,7 @@ Type: <b>LPCTSTR</b>
 The source string that is concatenated to the end of <i>pszDest</i>. This string must be null-terminated.
 
 
-### -param cchToAppend
-
-TBD
-
-
-
-
-#### - cchMaxAppend [in]
+### -param cchToAppend [in]
 
 Type: <b>size_t</b>
 

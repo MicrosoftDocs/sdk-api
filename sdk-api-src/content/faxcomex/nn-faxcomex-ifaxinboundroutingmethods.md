@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingmethods_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6bn7_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxInboundRoutingMethods, IFaxInboundRoutingMethods interface [Fax Service], IFaxInboundRoutingMethods interface [Fax Service],described, _mfax_faxinboundroutingmethods_cpp, fax._mfax_faxinboundroutingmethods_cpp, faxcomex/IFaxInboundRoutingMethods
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The <b>IFaxInboundRoutingMethods</b> interface defines a configuration collectio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRoutingMethods</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxInboundRoutingMethods</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRoutingMethods</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxInboundRoutingMethods</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,19 +72,19 @@ The <b>IFaxInboundRoutingMethods</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms685132(v=VS.85).aspx">get__NewEnum</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685132(v=VS.85).aspx">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms685132(v=VS.85).aspx">IFaxInboundRoutingMethods::get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <b>IFaxInboundRoutingMethods</b> collection.
+The <a href="https://msdn.microsoft.com/en-us/library/ms685132(v=VS.85).aspx">IFaxInboundRoutingMethods::get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <b>IFaxInboundRoutingMethods</b> collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms686742(v=VS.85).aspx">get_Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686742(v=VS.85).aspx">get_Item</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms686742(v=VS.85).aspx">IFaxInboundRoutingMethods::get_Item</a> method returns a <a href="https://msdn.microsoft.com/library/ms687470(v=VS.85).aspx">IFaxInboundRoutingMethod</a> object from the <b>IFaxInboundRoutingMethods</b> collection.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686742(v=VS.85).aspx">IFaxInboundRoutingMethods::get_Item</a> method returns a <a href="https://msdn.microsoft.com/en-us/library/ms687470(v=VS.85).aspx">IFaxInboundRoutingMethod</a> object from the <b>IFaxInboundRoutingMethods</b> collection.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms687467(v=VS.85).aspx">IFaxInboundRoutingMethods::get_Count</a> property represents the number of objects in the <b>IFaxInboundRoutingMethods</b> collection. This is the total number of inbound routing methods associated with the fax server.
+The <a href="https://msdn.microsoft.com/en-us/library/ms687467(v=VS.85).aspx">IFaxInboundRoutingMethods::get_Count</a> property represents the number of objects in the <b>IFaxInboundRoutingMethods</b> collection. This is the total number of inbound routing methods associated with the fax server.
 
 </td>
 </tr>
@@ -119,9 +119,9 @@ The <a href="https://msdn.microsoft.com/library/ms687467(v=VS.85).aspx">IFaxInbo
 
 
 
-Each inbound routing method is represented by a <a href="https://msdn.microsoft.com/library/ms687470(v=VS.85).aspx">IFaxInboundRoutingMethod</a> interface. The order of the routing methods in the collection determines the relative order in which the methods execute when an inbound fax requires routing.
+Each inbound routing method is represented by a <a href="https://msdn.microsoft.com/en-us/library/ms687470(v=VS.85).aspx">IFaxInboundRoutingMethod</a> interface. The order of the routing methods in the collection determines the relative order in which the methods execute when an inbound fax requires routing.
 
-A default implementation of <b>IFaxInboundRoutingMethods</b> is provided as the <a href="https://msdn.microsoft.com/library/ms686674(v=VS.85).aspx">FaxInboundRoutingMethods</a> object.
+A default implementation of <b>IFaxInboundRoutingMethods</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms686674(v=VS.85).aspx">FaxInboundRoutingMethods</a> object.
 
 
 

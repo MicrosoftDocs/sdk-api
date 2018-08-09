@@ -7,7 +7,7 @@ old-location: ics\istaticportmapping_get_protocol.htm
 old-project: ics
 ms.assetid: b9fc5ccc-43af-4dce-ba69-d11cdb4e3154
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_Protocol method, IStaticPortMapping.get_Protocol, IStaticPortMapping::get_Protocol, _ics_istaticportmapping_get_protocol, get_Protocol, get_Protocol method [ICS/ICF], get_Protocol method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_protocol, natupnp/IStaticPortMapping::get_Protocol
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The
 ### -param pVal [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a> variable that, receives the protocol for this port mapping. The protocol is either "UDP" or "TCP".
+<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a> variable that, receives the protocol for this port mapping. The protocol is either "UDP" or "TCP".
 
 
 ## -returns

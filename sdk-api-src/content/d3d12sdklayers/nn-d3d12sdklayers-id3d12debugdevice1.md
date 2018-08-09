@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugdevice1.htm
 old-project: direct3d12
 ms.assetid: DDB71272-195A-4E05-BA52-9EF858ACD6CB
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: ID3D12DebugDevice1, ID3D12DebugDevice1 interface, ID3D12DebugDevice1 interface,described, d3d12sdklayers/ID3D12DebugDevice1, direct3d12.id3d12debugdevice1
 ms.prod: windows
 ms.technology: windows-sdk

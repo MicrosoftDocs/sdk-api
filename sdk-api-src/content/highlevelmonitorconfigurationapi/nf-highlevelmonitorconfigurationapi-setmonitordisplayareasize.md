@@ -7,7 +7,7 @@ old-location: monitor\setmonitordisplayareasize.htm
 old-project: Monitor
 ms.assetid: 0c3acb13-c5db-44ce-937d-b0b001a08062
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: SetMonitorDisplayAreaSize, SetMonitorDisplayAreaSize function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorDisplayAreaSize, monitor.setmonitordisplayareasize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-        Sets the width or height of a monitor's display area.
+Sets the width or height of a monitor's display area.
 
 
 ## -parameters
@@ -62,22 +61,19 @@ req.product: GDI+ 1.1
 
 ### -param hMonitor [in]
 
-
-            Handle to a physical monitor. To get the monitor handle, call <a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
+Handle to a physical monitor. To get the monitor handle, call <a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
           
 
 
 ### -param stSizeType [in]
 
-
-            A member of the <a href="https://msdn.microsoft.com/6a917b7d-b91d-478a-b84e-7586d743522a">MC_SIZE_TYPE</a> enumeration, specifying whether to set the width or the height.
+A member of the <a href="https://msdn.microsoft.com/6a917b7d-b91d-478a-b84e-7586d743522a">MC_SIZE_TYPE</a> enumeration, specifying whether to set the width or the height.
           
 
 
 ### -param dwNewDisplayAreaWidthOrHeight [in]
 
-
-            Display area width or height. To get the minimum and maximum width and height, call <a href="https://msdn.microsoft.com/c27cbcf8-bb89-47c4-9f37-8b7a3d61c99f">GetMonitorDisplayAreaSize</a>.
+Display area width or height. To get the minimum and maximum width and height, call <a href="https://msdn.microsoft.com/c27cbcf8-bb89-47c4-9f37-8b7a3d61c99f">GetMonitorDisplayAreaSize</a>.
           
 
 
@@ -85,8 +81,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
           
 
 
@@ -96,16 +91,13 @@ req.product: GDI+ 1.1
 
 
 
-
-        If this function is supported, the <a href="https://msdn.microsoft.com/57cf0004-58cf-46d9-b5be-22edda2ce5a9">GetMonitorCapabilities</a> function returns the MC_CAPS_DISPLAY_AREA_SIZE flag.
+If this function is supported, the <a href="https://msdn.microsoft.com/57cf0004-58cf-46d9-b5be-22edda2ce5a9">GetMonitorCapabilities</a> function returns the MC_CAPS_DISPLAY_AREA_SIZE flag.
       
 
-
-        This function takes about 50 milliseconds to return.
+This function takes about 50 milliseconds to return.
       
 
-
-        The width and height settings are continuous monitor settings. For more information, see <a href="https://msdn.microsoft.com/23e5d45d-a924-4119-b21d-b24764b53a94">Using the High-Level Monitor Configuration Functions</a>.
+The width and height settings are continuous monitor settings. For more information, see <a href="https://msdn.microsoft.com/23e5d45d-a924-4119-b21d-b24764b53a94">Using the High-Level Monitor Configuration Functions</a>.
       
 
 

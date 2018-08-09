@@ -7,7 +7,7 @@ old-location: base\ioctl_pwm_controller_get_info.htm
 old-project: devio
 ms.assetid: C198FCCA-E1C5-4B03-8F42-7EE1952DC055
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/07/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_GET_INFO, IOCTL_PWM_CONTROLLER_GET_INFO control, IOCTL_PWM_CONTROLLER_GET_INFO control code, base.ioctl_pwm_controller_get_info, pwm/IOCTL_PWM_CONTROLLER_GET_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -124,8 +124,7 @@ To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087
 <pre class="syntax">BOOL 
    WINAPI 
    DeviceIoControl( (HANDLE)       hDevice,         // handle to device
-                    (DWORD)        IOCTL_PWM_CONTROLLER_GET_INFO, // dwIoControlCode
-                    (LPDWORD)      NULL,      // input buffer
+                    (DWORD)        IOCTL_PWM_CONTROLLER_GET_INFO, // dwIoControlCode(LPDWORD)      NULL,      // input buffer
                     (DWORD)        0,   // size of input buffer
                     (LPDWORD)      lpOutBuffer,     // output buffer
                     (DWORD)        nOutBufferSize,  // size of output buffer

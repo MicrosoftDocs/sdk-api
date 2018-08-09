@@ -2,12 +2,12 @@
 UID: NN:iads.IADsNameTranslate
 title: IADsNameTranslate
 author: windows-sdk-content
-description: The IADsNameTranslate interface translates distinguished names (DNs) among various formats as defined in the ADS_NAME_TYPE_ENUM enumeration. The feature is available to objects in Active Directory.
+description: The IADsNameTranslateinterface translates distinguished names (DNs) among various formats as defined in the ADS_NAME_TYPE_ENUM enumeration. The feature is available to objects in Active Directory.
 old-location: adsi\iadsnametranslate.htm
 old-project: ADSI
 ms.assetid: 3d8baeb1-0edc-4648-8691-6ea4dcfd8f62
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IADsNameTranslate, IADsNameTranslate interface [ADSI], IADsNameTranslate interface [ADSI],described, NameTranslate, _ds_iadsnametranslate, adsi.iadsnametranslate, iads/IADsNameTranslate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>IADsNameTranslate</b>
-  interface translates distinguished names (DNs) among various
+The <b>IADsNameTranslate</b>interface translates distinguished names (DNs) among various
   formats as defined in the 
    <a href="https://msdn.microsoft.com/8c5e8f2a-e805-463e-9583-96732d70b209">ADS_NAME_TYPE_ENUM</a> enumeration.
   The feature is available to objects in Active Directory.
@@ -65,16 +64,13 @@ Name
 
 First, create an instance of the <b>IADsNameTranslate</b> object.
 
-Second, initialize the <b>IADsNameTranslate</b>
-    object by specifying the directory server using the  
-     <a href="https://msdn.microsoft.com/dad31301-b18b-44ec-b32f-93d0bb5b6189">IADsNameTranslate::Init</a>
-    or 
+Second, initialize the <b>IADsNameTranslate</b>object by specifying the directory server using the  
+     <a href="https://msdn.microsoft.com/dad31301-b18b-44ec-b32f-93d0bb5b6189">IADsNameTranslate::Init</a>or 
      <a href="https://msdn.microsoft.com/169e1e0d-26c0-484d-b461-8817d37d17b8">IADsNameTranslate::InitEx</a> methods.
 
 Third, set the directory object on the server by specifying the name with the <a href="https://msdn.microsoft.com/1c126333-3d5c-4ba3-8c66-de778e26488f">IADsNameTranslate::Set</a> method and the format with the <a href="https://msdn.microsoft.com/e8a5014e-d848-46b7-a336-7801ff1f6b08">IADsNameTranslate::SetEx</a> method.
 
-Fourth, retrieve the object name in the specified format with the <a href="https://msdn.microsoft.com/6c8246a9-657e-4db1-ae8f-d9c0a2d41397">IADsNameTranslate::Get</a>
-    or 
+Fourth, retrieve the object name in the specified format with the <a href="https://msdn.microsoft.com/6c8246a9-657e-4db1-ae8f-d9c0a2d41397">IADsNameTranslate::Get</a>or 
      <a href="https://msdn.microsoft.com/01c4fc79-ed5b-4a24-9b97-25b4095a9c8f">IADsNameTranslate::GetEx</a> method.
 
 The following code example shows how to create an <b>IADsNameTranslate</b> object in Visual C++, Visual Basic, and
@@ -87,7 +83,7 @@ The following code example shows how to create an <b>IADsNameTranslate</b> objec
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsNameTranslate</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsNameTranslate</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsNameTranslate</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsNameTranslate</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -124,8 +120,7 @@ Gets the names of the objects, set by <a href="https://msdn.microsoft.com/e8a501
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a>
 </td>
 <td align="left" width="63%">
-Initializes the <b>IADsNameTranslate</b>
-    object with default credentials.
+Initializes the <b>IADsNameTranslate</b>object with default credentials.
 
 </td>
 </tr>
@@ -134,8 +129,7 @@ Initializes the <b>IADsNameTranslate</b>
 <a href="https://msdn.microsoft.com/169e1e0d-26c0-484d-b461-8817d37d17b8">InitEx</a>
 </td>
 <td align="left" width="63%">
-Initializes the <b>IADsNameTranslate</b>
-    object with specified credentials.
+Initializes the <b>IADsNameTranslate</b>object with specified credentials.
 
 </td>
 </tr>
@@ -193,7 +187,7 @@ Toggles referral chasing ON or OFF.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
 
 
 
@@ -230,7 +224,7 @@ Toggles referral chasing ON or OFF.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

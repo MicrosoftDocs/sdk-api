@@ -7,7 +7,7 @@ old-location: gdi\offsetwindoworgex.htm
 old-project: gdi
 ms.assetid: 085f40ac-d91f-4853-8ad1-1fc5da08b981
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: OffsetWindowOrgEx, OffsetWindowOrgEx function [Windows GDI], _win32_OffsetWindowOrgEx, gdi.offsetwindoworgex, wingdi/OffsetWindowOrgEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,36 +67,19 @@ The <b>OffsetWindowOrgEx</b> function modifies the window origin for a device co
 A handle to the device context.
 
 
-### -param x
-
-TBD
-
-
-### -param y
-
-TBD
-
-
-### -param lppt
-
-TBD
-
-
-
-
-#### - lpPoint [out]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure. The logical coordinates of the previous window origin are placed in this structure. If <i>lpPoint</i> is <b>NULL</b>, the previous origin is not returned.
-
-
-#### - nXOffset [in]
+### -param x [in]
 
 The horizontal offset, in logical units.
 
 
-#### - nYOffset [in]
+### -param y [in]
 
 The vertical offset, in logical units.
+
+
+### -param lppt [out]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure. The logical coordinates of the previous window origin are placed in this structure. If <i>lpPoint</i> is <b>NULL</b>, the previous origin is not returned.
 
 
 ## -returns

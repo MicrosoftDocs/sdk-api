@@ -7,7 +7,7 @@ old-location: shell\IShellMenu.htm
 old-project: shell
 ms.assetid: 46793ae9-936e-4a58-bc34-84396151b4a3
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IShellMenu, IShellMenu interface [Windows Shell], IShellMenu interface [Windows Shell],described, _shell_IShellMenu, shell.IShellMenu, shobjidl_core/IShellMenu
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\syncmgr_syncmgrlogerrorinfo.htm
 old-project: shell
 ms.assetid: 0220792c-90e7-4802-9ba3-3fc6ce01e4de
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPSYNCMGRLOGERRORINFO, LPSYNCMGRLOGERRORINFO, LPSYNCMGRLOGERRORINFO structure pointer [Windows Shell], SYNCMGRERRORFLAG_ENABLEJUMPTEXT, SYNCMGRLOGERRORINFO, SYNCMGRLOGERRORINFO structure [Windows Shell], SYNCMGRLOGERROR_ERRORFLAGS, SYNCMGRLOGERROR_ERRORID, SYNCMGRLOGERROR_ITEMID, _tagSYNCMGRLOGERRORINFO, mobsync/LPSYNCMGRLOGERRORINFO, mobsync/SYNCMGRLOGERRORINFO, shell.syncmgr_syncmgrlogerrorinfo, syncmgr.syncmgrlogerrorinfo"
 ms.prod: windows
 ms.technology: windows-sdk

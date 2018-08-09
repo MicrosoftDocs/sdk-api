@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfaceupdateroutes.htm
 old-project: rras
 ms.assetid: b06ce009-c52f-4d3b-a452-785c75638c89
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminInterfaceUpdateRoutes, MprAdminInterfaceUpdateRoutes function [RAS], _mpr_mpradmininterfaceupdateroutes, mprapi/MprAdminInterfaceUpdateRoutes, rras.mpradmininterfaceupdateroutes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,17 +72,7 @@ Handle to the interface being updated. Obtain this handle by calling
 <a href="https://msdn.microsoft.com/c9590ebe-7e49-4ad1-bd9b-0d9c51938bc4">MprAdminInterfaceCreate</a>.
 
 
-### -param dwProtocolId
-
-TBD
-
-
-### -param hEvent [in]
-
-Handle to an event that is signaled when the attempt to update routing information for the specified interface has completed. If <b>NULL</b>, then the function is synchronous. The calling application must specify <b>NULL</b> for this parameter, if <i>hMprServer</i> specifies a remote router.
-
-
-#### - dwTransportId [in]
+### -param dwProtocolId [in]
 
 A <b>DWORD</b> value that specifies which router manager is updating its routing information. The router uses a different router manager for each transport protocol. Acceptable values for <i>dwTransportId</i> are listed in the following table.
 
@@ -113,6 +103,11 @@ A <b>DWORD</b> value that specifies which router manager is updating its routing
 </tr>
 </table>
  
+
+
+### -param hEvent [in]
+
+Handle to an event that is signaled when the attempt to update routing information for the specified interface has completed. If <b>NULL</b>, then the function is synchronous. The calling application must specify <b>NULL</b> for this parameter, if <i>hMprServer</i> specifies a remote router.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: search\_search_IWordBreaker_ComposePhrase.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\composephrase.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ComposePhrase, ComposePhrase method [search], ComposePhrase method [search],IWordBreaker interface, IWordBreaker interface [search],ComposePhrase method, IWordBreaker.ComposePhrase, IWordBreaker::ComposePhrase, _search_IWordBreaker_ComposePhrase, indexsrv/IWordBreaker::ComposePhrase, search._search_IWordBreaker_ComposePhrase
 ms.prod: windows
 ms.technology: windows-sdk

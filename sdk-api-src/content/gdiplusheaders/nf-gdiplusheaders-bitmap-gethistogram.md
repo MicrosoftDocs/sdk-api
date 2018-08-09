@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_GetHistogram_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapgethistogrammethods\gethistogram.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Bitmap class [GDI+],GetHistogram method, Bitmap.GetHistogram, Bitmap::GetHistogram, GetHistogram, GetHistogram method [GDI+], GetHistogram method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_GetHistogram_, gdiplus._gdiplus_CLASS_Bitmap_GetHistogram_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,16 +61,16 @@ The <b>Bitmap::GetHistogram</b> method returns one or more histograms for specif
 
 ### -param format [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534129(v=VS.85).aspx">HistogramFormat</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534129(v=VS.85).aspx">HistogramFormat</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/library/ms534129(v=VS.85).aspx">HistogramFormat</a> enumeration that specifies the channels for which histograms will be created.
+Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534129(v=VS.85).aspx">HistogramFormat</a> enumeration that specifies the channels for which histograms will be created.
 
 
 ### -param NumberOfEntries [in]
 
 Type: <b>UINT</b>
 
-Integer that specifies the number of elements (of type <b>UINT</b>) in each of the arrays pointed to by <i>channel0</i>, <i>channel1</i>, <i>channel2</i>, and <i>channel3</i>. You must allocate memory for those arrays before you call <b>Bitmap::GetHistogram</b>. To determine the required number of elements, call <a href="https://msdn.microsoft.com/library/ms536308(v=VS.85).aspx">Bitmap::GetHistogramSize</a>.
+Integer that specifies the number of elements (of type <b>UINT</b>) in each of the arrays pointed to by <i>channel0</i>, <i>channel1</i>, <i>channel2</i>, and <i>channel3</i>. You must allocate memory for those arrays before you call <b>Bitmap::GetHistogram</b>. To determine the required number of elements, call <a href="https://msdn.microsoft.com/en-us/library/ms536308(v=VS.85).aspx">Bitmap::GetHistogramSize</a>.
 
 
 ### -param channel0 [out]
@@ -121,15 +121,14 @@ If the method fails, it returns one of the other elements of the
 
 
 
-The number of histograms returned depends on the <a href="https://msdn.microsoft.com/library/ms534129(v=VS.85).aspx">HistogramFormat</a> enumeration element passed to the <i>format</i> parameter. For example, if <i>format</i> is equal to <b>HistogramFormatRGB</b>, then three histograms are returned: one each for the red, green, and blue channels. In that case, <i>channel0</i> points to the array that receives the red-channel histogram, <i>channel1</i> points to the array that receives the green-channel histogram, and <i>channel2</i> points to the array that receives the blue-channel histogram. For <b>HistogramFormatRGB</b>, <i>channel3</i> must be set to <b>NULL</b> because there is no fourth histogram. For more details, see the <b>HistogramFormat</b> enumeration.
+The number of histograms returned depends on the <a href="https://msdn.microsoft.com/en-us/library/ms534129(v=VS.85).aspx">HistogramFormat</a> enumeration element passed to the <i>format</i> parameter. For example, if <i>format</i> is equal to <b>HistogramFormatRGB</b>, then three histograms are returned: one each for the red, green, and blue channels. In that case, <i>channel0</i> points to the array that receives the red-channel histogram, <i>channel1</i> points to the array that receives the green-channel histogram, and <i>channel2</i> points to the array that receives the blue-channel histogram. For <b>HistogramFormatRGB</b>, <i>channel3</i> must be set to <b>NULL</b> because there is no fourth histogram. For more details, see the <b>HistogramFormat</b> enumeration.
 
 
 #### Examples
 
 
 
-
-			The following example constructs a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> object from a BMP file. The code retrieves three histograms from the bitmap: one each for the red, green, and blue channels. Note the order of RGB in the name of the enumeration element <b>HistogramFormatRGB</b>. R is first, so it corresponds with <b>ch0</b>. Green is second, so it corresponds with <b>ch1</b>. Blue is third, so it corresponds with <b>ch2</b>. The final parameter passed to <b>Bitmap::GetHistogram</b> is <b>NULL</b> because there is no fourth histogram.
+The following example constructs a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> object from a BMP file. The code retrieves three histograms from the bitmap: one each for the red, green, and blue channels. Note the order of RGB in the name of the enumeration element <b>HistogramFormatRGB</b>. R is first, so it corresponds with <b>ch0</b>. Green is second, so it corresponds with <b>ch1</b>. Blue is third, so it corresponds with <b>ch2</b>. The final parameter passed to <b>Bitmap::GetHistogram</b> is <b>NULL</b> because there is no fourth histogram.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

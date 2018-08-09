@@ -7,7 +7,7 @@ old-location: shell\SHFormatDateTime.htm
 old-project: shell
 ms.assetid: 2208ed29-6029-4051-bdcc-885c42fe5c1b
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: FDTF_DEFAULT, FDTF_LONGDATE, FDTF_LONGTIME, FDTF_LTRDATE, FDTF_NOAUTOREADINGORDER, FDTF_RELATIVE, FDTF_RTLDATE, FDTF_SHORTDATE, FDTF_SHORTTIME, SHFormatDateTime, SHFormatDateTime function [Windows Shell], SHFormatDateTimeA, SHFormatDateTimeW, _win32_SHFormatDateTime, shell.SHFormatDateTime, shlwapi/SHFormatDateTime, shlwapi/SHFormatDateTimeA, shlwapi/SHFormatDateTimeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -223,16 +223,16 @@ Equivalent to FDTF_SHORTDATE | FDTF_SHORTTIME.
 0x00000100. Adds marks for left-to-right reading layout. This flag cannot be combined with FDTF_RTLDATE.
 
 
+##### - pdwFlags.FDTF_RTLDATE (0x00000200)
+
+0x00000200. Adds marks for right-to-left reading layout. This flag cannot be combined with FDTF_LTRDATE.
+
+
 ##### - pdwFlags.FDTF_NOAUTOREADINGORDER (0x00000400)
 
 0x00000400. No reading order marks are inserted. Normally, in the absence of the FDTF_LTRDATE or FDTF_RTLDATE flag, <b>SHFormatDateTime</b> determines the reading order from the user's default locale, inserts reading order marks, and updates the <i>pdwFlags</i> output value appropriately. This flag prevents that process from occurring. It is used most commonly by legacy callers of <b>SHFormatDateTime</b>. This flag cannot be combined with FDTF_RTLDATE or FDTF_LTRDATE.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not available.
-
-
-##### - pdwFlags.FDTF_RTLDATE (0x00000200)
-
-0x00000200. Adds marks for right-to-left reading layout. This flag cannot be combined with FDTF_LTRDATE.
 
 
 ## -returns

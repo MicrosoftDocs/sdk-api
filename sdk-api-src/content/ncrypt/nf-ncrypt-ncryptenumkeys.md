@@ -7,7 +7,7 @@ old-location: security\ncryptenumkeys_func.htm
 old-project: seccng
 ms.assetid: ca8c5b70-ea5e-4fb9-82d3-1de839f0d244
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: NCRYPT_MACHINE_KEY_FLAG, NCRYPT_SILENT_FLAG, NCryptEnumKeys, NCryptEnumKeys function [Security], ncrypt/NCryptEnumKeys, security.ncryptenumkeys_func
 ms.prod: windows
 ms.technology: windows-sdk

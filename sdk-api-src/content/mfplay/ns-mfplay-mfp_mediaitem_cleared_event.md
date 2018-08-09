@@ -7,7 +7,7 @@ old-location: mf\mfp_mediaitem_cleared_event.htm
 old-project: medfound
 ms.assetid: 74218ab7-75a7-49e6-bfaa-5f57b1788a19
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFP_MEDIAITEM_CLEARED_EVENT, MFP_MEDIAITEM_CLEARED_EVENT structure [Media Foundation], mf.mfp_mediaitem_cleared_event, mfplay/MFP_MEDIAITEM_CLEARED_EVENT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,8 +79,7 @@ Pointer to the <a href="https://msdn.microsoft.com/2839d256-bdaf-40cf-9f9d-46f9e
 
 
 
-To get a pointer to this structure, cast the <i>pEventHeader</i>
-parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  method.  You can use the <a href="https://msdn.microsoft.com/1e3c0882-2a8a-4fe9-9f05-5a343acea456">MFP_GET_MEDIAITEM_CLEARED_EVENT</a> macro for this purpose.
+To get a pointer to this structure, cast the <i>pEventHeader</i>parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  method.  You can use the <a href="https://msdn.microsoft.com/1e3c0882-2a8a-4fe9-9f05-5a343acea456">MFP_GET_MEDIAITEM_CLEARED_EVENT</a> macro for this purpose.
 
 
 

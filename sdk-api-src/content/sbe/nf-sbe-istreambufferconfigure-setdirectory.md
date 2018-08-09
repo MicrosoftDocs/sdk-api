@@ -7,7 +7,7 @@ old-location: mstv\istreambufferconfigure_setdirectory.htm
 old-project: mstv
 ms.assetid: ff0604d4-bbcd-409e-8e3d-a132218dc3a9
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IStreamBufferConfigure interface [Microsoft TV Technologies],SetDirectory method, IStreamBufferConfigure.SetDirectory, IStreamBufferConfigure::SetDirectory, IStreamBufferConfigureSetDirectory, SetDirectory, SetDirectory method [Microsoft TV Technologies], SetDirectory method [Microsoft TV Technologies],IStreamBufferConfigure interface, mstv.istreambufferconfigure_setdirectory, sbe/IStreamBufferConfigure::SetDirectory
 ms.prod: windows
 ms.technology: windows-sdk

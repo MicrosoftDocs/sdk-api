@@ -4,10 +4,10 @@ title: IGPMBackupDirEx::SearchBackups
 author: windows-sdk-content
 description: Executes a search for a GPMBackup object or an IGPMStarterGPOBackup interface according to the specified criteria, and returns a GPMBackupCollection or GPMStarterGPOBackupCollection object.
 old-location: gpmc\igpmbackupdirex_searchbackups.htm
-old-project: gpmc
+old-project: GPMC
 ms.assetid: e45f012e-ce88-4baf-88a2-bd61e365b291
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: GPMBackupDirEx object [GPMC],SearchBackups method, IGPMBackupDirEx interface [GPMC],SearchBackups method, IGPMBackupDirEx.SearchBackups, IGPMBackupDirEx::SearchBackups, SearchBackups, SearchBackups method [GPMC], SearchBackups method [GPMC],GPMBackupDirEx object, SearchBackups method [GPMC],IGPMBackupDirEx interface, backupMostRecent, gpmc.igpmbackupdirex_searchbackups, gpmgmt/IGPMBackupDirEx::SearchBackups, gpoDisplayName, gpoDomain, gpoID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,8 +69,7 @@ Pointer to the criteria to be applied to the search.
 
 #### gpoDomain
 
-Pointer to   the criteria for a search for a domain name.  The search property value is the domain name.  The <b>opEquals</b>
-or <b>opNotEquals</b> operators are valid search criteria.
+Pointer to   the criteria for a search for a domain name.  The search property value is the domain name.  The <b>opEquals</b>or <b>opNotEquals</b> operators are valid search criteria.
 
 
 
@@ -126,9 +125,7 @@ Returns a reference to a <b>GPMBackupCollection</b> or <b>GPMStarterGPOBackupCol
 
 
 An empty  <a href="https://msdn.microsoft.com/6d24ffd1-987c-468f-a8cc-08992b7deb9d">IGPMSearchCriteria</a> interface or <b>GPMSearchCriteria</b> object has had no criteria added to it. Passing in an empty <b>IGPMSearchCriteria</b> interface or <b>GPMSearchCriteria</b> object will return all  
-information in the <a href="https://msdn.microsoft.com/a593740a-9541-465a-9a2d-64ddf29793bf">IGPMBackup</a>
-   or <b>IGPMStarterGPOBackup</b>
-    interface.
+information in the <a href="https://msdn.microsoft.com/a593740a-9541-465a-9a2d-64ddf29793bf">IGPMBackup</a>or <b>IGPMStarterGPOBackup</b>interface.
 
 
 

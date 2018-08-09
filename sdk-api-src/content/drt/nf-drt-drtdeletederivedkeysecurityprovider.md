@@ -7,7 +7,7 @@ old-location: p2p\drtdeletederivedkeysecurityprovider.htm
 old-project: p2psdk
 ms.assetid: 89b2bbe6-51a3-48fc-85c9-13e1b0cfd880
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: DrtDeleteDerivedKeySecurityProvider, DrtDeleteDerivedKeySecurityProvider function [Peer Networking], drt/DrtDeleteDerivedKeySecurityProvider, p2p.drtdeletederivedkeysecurityprovider
 ms.prod: windows
 ms.technology: windows-sdk

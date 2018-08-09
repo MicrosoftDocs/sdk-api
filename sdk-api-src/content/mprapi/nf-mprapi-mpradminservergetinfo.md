@@ -7,7 +7,7 @@ old-location: rras\mpradminservergetinfo.htm
 old-project: rras
 ms.assetid: d15dfb60-1239-4552-985f-d3c98f2981f4
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminServerGetInfo, MprAdminServerGetInfo function [RAS], _mpr_mpradminservergetinfo, mprapi/MprAdminServerGetInfo, rras.mpradminservergetinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,14 +93,7 @@ A DWORD value that describes the format in which the information is returned in 
  
 
 
-### -param lplpbBuffer
-
-TBD
-
-
-
-
-#### - lplpBuffer [out]
+### -param lplpbBuffer [out]
 
 On successful completion, a pointer to a 
 <a href="https://msdn.microsoft.com/cffda25b-28f8-4d76-987c-eadcea9c032b">MPR_SERVER_0</a>, 

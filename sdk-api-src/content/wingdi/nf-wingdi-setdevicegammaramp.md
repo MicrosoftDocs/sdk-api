@@ -7,7 +7,7 @@ old-location: wcs\setdevicegammaramp.htm
 old-project: WCS
 ms.assetid: 8e4cc9a4-f292-47a1-a12a-43a479326ca7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: SetDeviceGammaRamp, SetDeviceGammaRamp function [Windows Color System], _color_SetDeviceGammaRamp, wcs.setdevicegammaramp, wingdi/SetDeviceGammaRamp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,17 +64,12 @@ The <b>SetDeviceGammaRamp</b> function sets the <a href="https://msdn.microsoft.
 
 ### -param hdc
 
-TBD
+Specifies the device context of the direct color display board in question.
 
 
 ### -param lpRamp
 
 Pointer to a buffer containing the gamma ramp to be set. The gamma ramp is specified in three arrays of 256 <b>WORD</b> elements each, which contain the mapping between RGB values in the frame buffer and digital-analog-converter (<i>DAC</i> ) values. The sequence of the arrays is red, green, blue. The RGB values must be stored in the most significant bits of each WORD to increase DAC independence.
-
-
-#### - hDC
-
-Specifies the device context of the direct color display board in question.
 
 
 ## -returns

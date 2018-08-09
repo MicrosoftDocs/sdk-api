@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_advisesink.htm
 old-project: TSF
 ms.assetid: aadf54e4-25ba-4280-a184-e1d2a2594c3c
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: AdviseSink, AdviseSink method [Text Services Framework], AdviseSink method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],AdviseSink method, ITextStoreACP.AdviseSink, ITextStoreACP::AdviseSink, _tsf_itextstoreacp_advisesink_ref, textstor/ITextStoreACP::AdviseSink, tsf.itextstoreacp_advisesink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,8 +149,7 @@ Use this method to get the <a href="https://msdn.microsoft.com/8c84429c-3f99-4ab
 #### Examples
 
 CMyTextEditor
-          <a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">
-            ITextStoreACP
+          <a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP
           </a>
 
 
@@ -227,20 +226,17 @@ STDMETHODIMP CMyTextEditor::AdviseSink(REFIID riid, IUnknown *punk, DWORD dwMask
 
 
 
-<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">
-        ITextStoreACP
+<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/11445652-e349-46a4-8887-1d1127e16275">
-        ITextStoreACP::UnadviseSink
+<a href="https://msdn.microsoft.com/11445652-e349-46a4-8887-1d1127e16275">ITextStoreACP::UnadviseSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/8c84429c-3f99-4ab1-b994-e4e93cd9c86d">
-        ITextStoreACPServices
+<a href="https://msdn.microsoft.com/8c84429c-3f99-4ab1-b994-e4e93cd9c86d">ITextStoreACPServices
       </a>
 
 

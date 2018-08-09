@@ -7,7 +7,7 @@ old-location: opengl\wglcopycontext.htm
 old-project: OpenGL
 ms.assetid: dc350848-7921-41b8-96f1-c0eabad3d157
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: "_ogl_wglCopyContext, opengl.wglcopycontext, wglCopyContext, wglCopyContext function [OpenGL], wingdi/wglCopyContext"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,11 @@ TBD
 
 
 
+
+
 #### - hglrcDst
 
 Specifies the destination OpenGL rendering context to which state information is to be copied.
-
-
-#### - hglrcSrc
-
-Specifies the source OpenGL rendering context whose state information is to be copied.
 
 
 #### - mask

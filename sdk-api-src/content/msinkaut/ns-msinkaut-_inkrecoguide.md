@@ -7,7 +7,7 @@ old-location: tablet\inkrecoguide.htm
 old-project: tablet
 ms.assetid: c35fcb28-f21f-427c-8d5f-6e6a73945956
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DISPID_InkRecognizerGuide, DISPID_InkRecognizerGuide structure [Tablet PC], InkRecoGuide, InkRecoGuide structure [Tablet PC], _InkRecoGuide, c35fcb28-f21f-427c-8d5f-6e6a73945956, msinkaut/InkRecoGuide, tablet.inkrecoguide
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,22 +89,22 @@ Deprecated. Represents information about the <b>recognition guide</b>. Use the <
 
 
 
-#### - DISPID_IRGColumns
+#### - DISPID_IRGWritingBox
 
 
 #### - DISPID_IRGDrawnBox
 
 
-#### - DISPID_IRGGuideData
+#### - DISPID_IRGRows
+
+
+#### - DISPID_IRGColumns
 
 
 #### - DISPID_IRGMidline
 
 
-#### - DISPID_IRGRows
-
-
-#### - DISPID_IRGWritingBox
+#### - DISPID_IRGGuideData
 
 
 ## -see-also

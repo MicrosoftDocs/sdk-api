@@ -7,7 +7,7 @@ old-location: ndf\helper_attribute.htm
 old-project: ndf
 ms.assetid: bff9303e-7fab-49af-b213-aa0a9c83676e
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: "*PHELPER_ATTRIBUTE, HELPER_ATTRIBUTE, HELPER_ATTRIBUTE structure [NDF], ndattrib/HELPER_ATTRIBUTE, ndf.helper_attribute, tagHELPER_ATTRIBUTE"
 ms.prod: windows
 ms.technology: windows-sdk

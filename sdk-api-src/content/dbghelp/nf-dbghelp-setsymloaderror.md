@@ -7,7 +7,7 @@ old-location: base\setsymloaderror.htm
 old-project: debug
 ms.assetid: E3225AEB-AFF9-432F-B4FA-D9125210258A
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SetSymLoadError, SetSymLoadError function, base.setsymloaderror, dbghelp/SetSymLoadError
 ms.prod: windows
 ms.technology: windows-sdk

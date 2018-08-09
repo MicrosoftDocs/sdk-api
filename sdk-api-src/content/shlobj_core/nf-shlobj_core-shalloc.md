@@ -7,7 +7,7 @@ old-location: shell\SHAlloc.htm
 old-project: shell
 ms.assetid: 621e4335-1484-4111-9cfe-7ae5c6d5c609
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHAlloc, SHAlloc function [Windows Shell], _win32_SHAlloc, shell.SHAlloc, shlobj_core/SHAlloc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Internet Explorer 5.0
 
 <p class="CCE_Message">[This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> instead.]
 
-
-		Allocates memory from the Shell's heap.
+Allocates memory from the Shell's heap.
 
 
 ## -parameters

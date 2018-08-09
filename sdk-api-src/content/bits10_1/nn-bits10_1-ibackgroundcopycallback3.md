@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopycallback3.htm
 old-project: bits
 ms.assetid: 74712770-BB14-4B8A-8DA4-096CEB58D820
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyCallback3, IBackgroundCopyCallback3 interface [BITS], IBackgroundCopyCallback3 interface [BITS],described, bits.ibackgroundcopycallback3, bits10_1/IBackgroundCopyCallback3
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imf2dbuffer_iscontiguousformat.htm
 old-project: medfound
 ms.assetid: a2042d1f-4d80-4dfd-b57e-33f6a6d07d6e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMF2DBuffer interface [Media Foundation],IsContiguousFormat method, IMF2DBuffer.IsContiguousFormat, IMF2DBuffer::IsContiguousFormat, IsContiguousFormat, IsContiguousFormat method [Media Foundation], IsContiguousFormat method [Media Foundation],IMF2DBuffer interface, a2042d1f-4d80-4dfd-b57e-33f6a6d07d6e, mf.imf2dbuffer_iscontiguousformat, mfobjects/IMF2DBuffer::IsContiguousFormat
 ms.prod: windows
 ms.technology: windows-sdk

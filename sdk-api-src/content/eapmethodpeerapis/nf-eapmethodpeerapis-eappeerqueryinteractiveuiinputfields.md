@@ -7,7 +7,7 @@ old-location: eaphost\eappeerqueryinteractiveuiinputfields.htm
 old-project: eaphost
 ms.assetid: 7019e13f-d5ad-40ba-8e70-8ded4b136d6c
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapPeerQueryInteractiveUIInputFields, EapPeerQueryInteractiveUIInputFields function [EAPHost], eaphost.eappeerqueryinteractiveuiinputfields, eapmethodpeerapis/EapPeerQueryInteractiveUIInputFields
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,14 +89,7 @@ Pointer that receives an <a href="https://msdn.microsoft.com/68141611-4a1c-409e-
  A pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
 
 
-### -param ppvReserved
-
-TBD
-
-
-
-
-#### - pvReserved [in, out]
+### -param ppvReserved [in, out]
 
 Reserved for future usage. Must be set to <b>NULL</b>
 

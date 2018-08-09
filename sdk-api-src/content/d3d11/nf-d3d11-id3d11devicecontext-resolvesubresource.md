@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_resolvesubresource.htm
 old-project: direct3d11
 ms.assetid: 7b4d6180-e3bf-475a-9865-592cda6e9f4a
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 9790b3fd-189f-fe3d-b1be-96c2ba68f3f3, ID3D11DeviceContext interface [Direct3D 11],ResolveSubresource method, ID3D11DeviceContext.ResolveSubresource, ID3D11DeviceContext::ResolveSubresource, ResolveSubresource, ResolveSubresource method [Direct3D 11], ResolveSubresource method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::ResolveSubresource, direct3d11.id3d11devicecontext_resolvesubresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,9 +89,9 @@ The source subresource of the source resource.
 
 ### -param Format [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
 
-A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> that indicates how the multisampled resource will be resolved to a single-sampled resource. 
+A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> that indicates how the multisampled resource will be resolved to a single-sampled resource. 
       See remarks.
 
 

@@ -7,7 +7,7 @@ old-location: winsync\irecoverableerror_getrecoverableerrordataforchange.htm
 old-project: winsync
 ms.assetid: e6fbc99f-ae01-4f5e-b22c-bd802520ae39
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetRecoverableErrorDataForChange, GetRecoverableErrorDataForChange method [Windows Sync], GetRecoverableErrorDataForChange method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetRecoverableErrorDataForChange method, IRecoverableError.GetRecoverableErrorDataForChange, IRecoverableError::GetRecoverableErrorDataForChange, winsync.irecoverableerror_getrecoverableerrordataforchange, winsync/IRecoverableError::GetRecoverableErrorDataForChange
 ms.prod: windows
 ms.technology: windows-sdk

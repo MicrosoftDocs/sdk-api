@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothenableincomingconnections.htm
 old-project: bluetooth
 ms.assetid: 8f9c133e-e647-45c8-b2c6-372b18345637
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: BluetoothEnableIncomingConnections, BluetoothEnableIncomingConnections function [Bluetooth], bluetooth.bluetoothenableincomingconnections, bluetoothapis/BluetoothEnableIncomingConnections
 ms.prod: windows
 ms.technology: windows-sdk

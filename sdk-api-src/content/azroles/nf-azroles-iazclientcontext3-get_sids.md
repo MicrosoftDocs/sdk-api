@@ -7,7 +7,7 @@ old-location: security\iazclientcontext3_sids.htm
 old-project: secauthz
 ms.assetid: 79caf62e-3f20-4a58-953f-c9d302208bf9
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: IAzClientContext3 interface [Security],Sids property, IAzClientContext3.Sids, IAzClientContext3.get_Sids, IAzClientContext3::Sids, IAzClientContext3::get_Sids, Sids property [Security], Sids property [Security],IAzClientContext3 interface, azroles/IAzClientContext3::Sids, azroles/IAzClientContext3::get_Sids, get_Sids, security.iazclientcontext3_sids
 ms.prod: windows
 ms.technology: windows-sdk

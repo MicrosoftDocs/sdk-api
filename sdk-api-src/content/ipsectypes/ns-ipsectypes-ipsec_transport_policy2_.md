@@ -7,7 +7,7 @@ old-location: fwp\ipsec_transport_policy2.htm
 old-project: fwp
 ms.assetid: fce0ce7e-770c-4cc6-94ea-21af0464f740
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME, IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME, IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_DICTATE_KEY, IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_NOTIFY_KEY, IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_GENERAL_NAT_TRAVERSAL, IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_PEER_BEHIND_NAT, IPSEC_POLICY_FLAG_ND_BOUNDARY, IPSEC_POLICY_FLAG_ND_SECURE, IPSEC_TRANSPORT_POLICY2, IPSEC_TRANSPORT_POLICY2 structure [Filtering], IPSEC_TRANSPORT_POLICY2_, fwp.ipsec_transport_policy2, ipsectypes/IPSEC_TRANSPORT_POLICY2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-		The <b>IPSEC_TRANSPORT_POLICY2</b> structure  stores the quick mode negotiation policy for transport mode IPsec.
+The <b>IPSEC_TRANSPORT_POLICY2</b> structure  stores the quick mode negotiation policy for transport mode IPsec.
 <div class="alert"><b>Note</b>  <b>IPSEC_TRANSPORT_POLICY2</b> is the specific implementation of IPSEC_TRANSPORT_POLICY used in Windows 8. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://msdn.microsoft.com/4ee39f30-f7fc-40a9-92b0-e059cb9b84a2">IPSEC_TRANSPORT_POLICY1</a> is available. For Windows Vista, <a href="https://msdn.microsoft.com/c17ebe74-41e3-467c-875a-db43978a5234">IPSEC_TRANSPORT_POLICY0</a> is available. </div><div> </div>
 
 ## -struct-fields

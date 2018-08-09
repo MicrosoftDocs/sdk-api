@@ -2,12 +2,12 @@
 UID: NF:chstring.CHString.AllocSysString
 title: CHString::AllocSysString
 author: windows-sdk-content
-description: The AllocSysString method allocates a new BSTR string that is Automation compatible. It then copies the contents of the CHString string into it, including the terminating NULL character.
+description: The AllocSysString method allocates a new BSTR string that is Automation compatible. It then copies the contents of the CHStringstring into it, including the terminating NULL character.
 old-location: wmi\chstring_allocsysstring.htm
 old-project: WmiSdk
 ms.assetid: 21eb9990-a07f-4d6c-b674-dc35f395e603
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/03/2018
 ms.keywords: AllocSysString, AllocSysString method [Windows Management Instrumentation], AllocSysString method [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],AllocSysString method, CHString.AllocSysString, CHString::AllocSysString, _hmm_chstring_allocsysstring, chstring/CHString::AllocSysString, wmi.chstring_allocsysstring
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,8 +57,7 @@ req.irql:
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
 
-The <b>AllocSysString</b> method allocates a new <b>BSTR</b> string that is Automation compatible. It then copies the contents of the <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a>
-    string into it, including the terminating <b>NULL</b> character.
+The <b>AllocSysString</b> method allocates a new <b>BSTR</b> string that is Automation compatible. It then copies the contents of the <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a>string into it, including the terminating <b>NULL</b> character.
 
 
 ## -parameters

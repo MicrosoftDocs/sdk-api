@@ -7,7 +7,7 @@ old-location: mstv\imsvidvmr9_put_suppresseffects.htm
 old-project: mstv
 ms.assetid: 6e51ed2a-7516-4621-9ecb-0e645c6d416c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],put_SuppressEffects method, IMSVidVMR9.put_SuppressEffects, IMSVidVMR9::put_SuppressEffects, IMSVidVMR9put_SuppressEffects, mstv.imsvidvmr9_put_suppresseffects, put_SuppressEffects, put_SuppressEffects method [Microsoft TV Technologies], put_SuppressEffects method [Microsoft TV Technologies],IMSVidVMR9 interface, segment/IMSVidVMR9::put_SuppressEffects
 ms.prod: windows
 ms.technology: windows-sdk

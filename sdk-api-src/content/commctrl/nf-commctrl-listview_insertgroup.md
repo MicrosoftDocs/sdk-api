@@ -7,7 +7,7 @@ old-location: controls\ListView_InsertGroup.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertgroup.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_InsertGroup, ListView_InsertGroup macro [Windows Controls], _win32_ListView_InsertGroup, _win32_ListView_InsertGroup_cpp, commctrl/ListView_InsertGroup, controls.ListView_InsertGroup, controls._win32_ListView_InsertGroup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Inserts a group into a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761103(v=VS.85).aspx">LVM_INSERTGROUP</a> message explicitly. 
+Inserts a group into a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761103(v=VS.85).aspx">LVM_INSERTGROUP</a> message explicitly. 
 
 
 ## -parameters
@@ -74,16 +74,16 @@ Type: <b>int</b>
 
 Type: <b>PLVGROUP</b>
 
-<a href="https://msdn.microsoft.com/library/Bb774769(v=VS.85).aspx">LVGROUP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774769(v=VS.85).aspx">LVGROUP</a>
 
 ## -remarks
 
 
 
-To turn on group mode, call <a href="https://msdn.microsoft.com/library/Bb774900(v=VS.85).aspx">LVM_ENABLEGROUPVIEW</a> or <a href="https://msdn.microsoft.com/library/Bb761239(v=VS.85).aspx">ListView_EnableGroupView</a>.
+To turn on group mode, call <a href="https://msdn.microsoft.com/en-us/library/Bb774900(v=VS.85).aspx">LVM_ENABLEGROUPVIEW</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb761239(v=VS.85).aspx">ListView_EnableGroupView</a>.
 
 
-To use <b>ListView_InsertGroup</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_InsertGroup</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

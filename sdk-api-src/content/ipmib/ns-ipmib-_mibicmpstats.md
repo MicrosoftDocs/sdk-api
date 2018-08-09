@@ -7,7 +7,7 @@ old-location: mib\mibicmpstats.htm
 old-project: mib
 ms.assetid: 080cdd28-3e2d-4cd0-8e5a-9ec9dcb9df48
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/30/2018
 ms.keywords: "*PMIBICMPSTATS, MIBICMPSTATS, MIBICMPSTATS structure [MIB], _MIBICMPSTATS, _mpr_mibicmpstats, ipmib/MIBICMPSTATS, iprtrmib/MIBICMPSTATS, mib.mibicmpstats, rras.mibicmpstats"
 ms.prod: windows
 ms.technology: windows-sdk

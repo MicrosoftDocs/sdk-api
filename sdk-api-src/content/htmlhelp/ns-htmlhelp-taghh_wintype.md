@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Use this structure to specify or modify the attributes of a <a href="https://msdn.microsoft.com/library/ms644703(v=VS.85).aspx">window type</a>. 
+Use this structure to specify or modify the attributes of a <a href="https://msdn.microsoft.com/en-us/library/ms644703(v=VS.85).aspx">window type</a>. 
 
 
 ## -struct-fields
@@ -119,7 +119,7 @@ Specifies the handle of the window if the window has been created.
 
 ### -field hwndCaller
 
-Specifies the window that will receive HTML Help notification messages. <a href="https://msdn.microsoft.com/library/ms524237(v=VS.85).aspx">Notification messages</a> are sent via Windows <b>WM_NOTIFY</b> messages. 
+Specifies the window that will receive HTML Help notification messages. <a href="https://msdn.microsoft.com/en-us/library/ms524237(v=VS.85).aspx">Notification messages</a> are sent via Windows <b>WM_NOTIFY</b> messages. 
 
 
 ### -field paInfoTypes
@@ -258,10 +258,10 @@ When a <b>HH_WINTYPE</b> structure is passed to <b>HtmlHelp()</b> using the <b>H
 <h3><a id="Used_by"></a><a id="used_by"></a><a id="USED_BY"></a>Used by</h3>
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/ms670093(v=VS.85).aspx">HH_SET_WIN_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670093(v=VS.85).aspx">HH_SET_WIN_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/ms670087(v=VS.85).aspx">HH_GET_WIN_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670087(v=VS.85).aspx">HH_GET_WIN_TYPE</a>
 </li>
 </ul>
 
@@ -272,7 +272,7 @@ When a <b>HH_WINTYPE</b> structure is passed to <b>HtmlHelp()</b> using the <b>H
 
 
 
-<a href="https://msdn.microsoft.com/library/ms524235(v=VS.85).aspx">About Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms524235(v=VS.85).aspx">About Structures</a>
  
 
  

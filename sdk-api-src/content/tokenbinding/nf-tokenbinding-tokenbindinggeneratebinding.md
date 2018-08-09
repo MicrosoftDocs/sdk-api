@@ -4,10 +4,10 @@ title: TokenBindingGenerateBinding function
 author: windows-sdk-content
 description: Constructs one token binding that contains the exported public key and signature by using the specified key type for the token binding, a target identifier string for creating and retrieving the token binding key, and the unique data.
 old-location: security\tokenbindinggeneratebinding.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 4289E3F0-17AC-485B-A326-2C8BECD5CABB
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TokenBindingGenerateBinding, TokenBindingGenerateBinding function [Security], security.tokenbindinggeneratebinding, tokenbinding/TokenBindingGenerateBinding
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,14 +74,14 @@ The target string to use in conjunction with the key type  to generate or retrie
 The type of token binding that <b>TokenBindingGenerateBinding</b> should generate.
 
 
-### -param tlsEKM
+### -param tlsEKM [in]
 
-TBD
+A pointer to the buffer that contains unique data.
 
 
-### -param tlsEKMSize
+### -param tlsEKMSize [in]
 
-TBD
+The size of the buffer that the <i>tlsUnique</i> parameter points to, in bytes.
 
 
 ### -param extensionFormat [in]
@@ -107,16 +107,6 @@ Pointer to a variable that receives the size of the buffer allocated for the <i>
 ### -param resultData [out, optional]
 
 A pointer that receives the address of the buffer that contains result data that includes the token binding identifier of the token binding that  <b>TokenBindingGenerateBinding</b> generates. Use the <a href="https://msdn.microsoft.com/9a176312-0312-4cc1-baf5-949b346d983e">HeapAlloc</a> function to allocate the memory for this buffer, and the <a href="https://msdn.microsoft.com/6139e55f-9dda-42b5-bc9b-8d9bbfeaa619">HeapFree</a> function to free that memory. Specify NULL is you do not need this information.
-
-
-#### - tlsUnique [in]
-
-A pointer to the buffer that contains unique data.
-
-
-#### - tlsUniqueSize [in]
-
-The size of the buffer that the <i>tlsUnique</i> parameter points to, in bytes.
 
 
 ## -returns

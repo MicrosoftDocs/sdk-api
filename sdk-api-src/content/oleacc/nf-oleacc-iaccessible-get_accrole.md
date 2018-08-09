@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accrole.htm
 old-project: WinAuto
 ms.assetid: 38800c5e-12a5-4825-a4c4-825a159c67f1
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accRole method, IAccessible.get_accRole, IAccessible::get_accRole, _msaa_IAccessible_get_accRole, get_accRole, get_accRole method [Windows Accessibility], get_accRole method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accrole, oleacc/IAccessible::get_accRole, winauto.iaccessible_iaccessible__get_accrole
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,8 +116,7 @@ An argument is not valid.
 
 Clients call <a href="https://msdn.microsoft.com/58436001-92d7-4afa-af07-169c8bbda9ba">GetRoleText</a> to retrieve a localized string that describes the object's role.
 
-<b>Note to server developers:  </b>
-              You must use the predefined role constants.
+<b>Note to server developers:  </b>You must use the predefined role constants.
             
 
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>

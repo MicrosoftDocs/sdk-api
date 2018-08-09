@@ -7,7 +7,7 @@ old-location: multimedia\acmformatenumcallback.htm
 old-project: Multimedia
 ms.assetid: 58775258-c42c-4d59-8922-c478b5bdf0d7
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: ACMFORMATENUMCB, ACMFORMATENUMCB callback, ACMFORMATENUMCB callback function [Windows Multimedia], ACMFORMATENUMCBA, ACMFORMATENUMCBW, _win32_acmFormatEnumCallback, acmFormatEnumCallback, msacm/ACMFORMATENUMCB, msacm/ACMFORMATENUMCBA, msacm/ACMFORMATENUMCBW, multimedia.acmformatenumcallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,11 +85,9 @@ Driver support flags specific to the driver identified by <i>hadid</i> for the s
 
 <table>
 <tr>
-<th>
-Value
+<th>Value
 </th>
-<th>
-Meaning
+<th>Meaning
 </th>
 </tr>
 <tr>

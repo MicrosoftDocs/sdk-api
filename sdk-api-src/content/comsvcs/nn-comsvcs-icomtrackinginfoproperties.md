@@ -7,7 +7,7 @@ old-location: cos\icomtrackinginfoproperties.htm
 old-project: cossdk
 ms.assetid: 1964b04e-7146-4d08-a08f-a85393d07592
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IComTrackingInfoProperties, IComTrackingInfoProperties interface [COM+], IComTrackingInfoProperties interface [COM+],described, _dtc_IComTrackingInfoProperties, comsvcs/IComTrackingInfoProperties, cos.icomtrackinginfoproperties
 ms.prod: windows
 ms.technology: windows-sdk

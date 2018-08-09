@@ -7,7 +7,7 @@ old-location: properties\PSCreatePropertyStoreFromObject.htm
 old-project: properties
 ms.assetid: 010572d5-0357-4101-803e-0a27fc60ca5e
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: PSCreatePropertyStoreFromObject, PSCreatePropertyStoreFromObject function [Windows Properties], STGM_READ, STGM_READWRITE, _shell_PSCreatePropertyStoreFromObject, properties.PSCreatePropertyStoreFromObject, propsys/PSCreatePropertyStoreFromObject, shell.PSCreatePropertyStoreFromObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -124,7 +124,7 @@ If the object pointed to by <i>punk</i> already supports <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776493(v=VS.85).aspx">PSCreatePropertyStoreFromPropertySetStorage</a>
+<a href="shell.PSCreatePropertyStoreFromPropertySetStorage">PSCreatePropertyStoreFromPropertySetStorage</a>
  
 
  

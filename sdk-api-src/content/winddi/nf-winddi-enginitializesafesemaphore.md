@@ -7,7 +7,7 @@ old-location: display\enginitializesafesemaphore.htm
 old-project: display
 ms.assetid: 17b614b0-1c41-442c-b787-978eac3ade45
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: EngInitializeSafeSemaphore, EngInitializeSafeSemaphore function [Display Devices], display.enginitializesafesemaphore, gdifncs_92f07217-a6d2-4996-99a9-eb289a713e19.xml, winddi/EngInitializeSafeSemaphore
 ms.prod: windows
 ms.technology: windows-sdk

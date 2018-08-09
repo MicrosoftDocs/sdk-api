@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapisessionproperties_property.htm
 old-project: rdp
 ms.assetid: 01aee262-95c0-4065-8f8c-e21db66f2a8c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IRDPSRAPISessionProperties interface [RDP],Property property, IRDPSRAPISessionProperties.Property, IRDPSRAPISessionProperties.put_Property, IRDPSRAPISessionProperties::Property, IRDPSRAPISessionProperties::get_Property, IRDPSRAPISessionProperties::put_Property, Property property [RDP], Property property [RDP],IRDPSRAPISessionProperties interface, Property property [RDP],RDPSRAPISessionProperties object, RDPSRAPISessionProperties object [RDP],Property property, put_Property, rdp.irdpsrapisessionproperties_property, rdpencomapi/IRDPSRAPISessionProperties::Property, rdpencomapi/IRDPSRAPISessionProperties::get_Property, rdpencomapi/IRDPSRAPISessionProperties::put_Property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -277,9 +277,7 @@ This property is available starting with Windows 10, version 1511.
 
 </td>
 <td>
-
-        
-       Specifies the transports to enable. A value of 3 supports both TCP and UDP. The default is 1, which is TCP only.
+Specifies the transports to enable. A value of 3 supports both TCP and UDP. The default is 1, which is TCP only.
 
 This property becomes read-only after the <a href="https://msdn.microsoft.com/2c97a37d-5862-4ad3-9029-481ea0a789e0">IRDPSRAPISharingSession::Open</a> method is called. You can set this property only before calling that method. 
 

@@ -7,7 +7,7 @@ old-location: eaphost\eappeerbeginsession.htm
 old-project: eaphost
 ms.assetid: 770a548c-c227-4708-bc40-08bf2681c90f
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapPeerBeginSession, EapPeerBeginSession function [EAPHost], eaphost.eappeerbeginsession, eapmethodpeerapis/EapPeerBeginSession
 ms.prod: windows
 ms.technology: windows-sdk

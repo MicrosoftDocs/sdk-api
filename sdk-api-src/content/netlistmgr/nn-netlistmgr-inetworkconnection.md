@@ -7,7 +7,7 @@ old-location: nla\inetworkconnection.htm
 old-project: nla
 ms.assetid: 666761b5-0146-438d-9986-ecce3b45b5ff
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: INetworkConnection, INetworkConnection interface [Network Awareness], INetworkConnection interface [Network Awareness],described, netlistmgr/INetworkConnection, nla.inetworkconnection
 ms.prod: windows
 ms.technology: windows-sdk

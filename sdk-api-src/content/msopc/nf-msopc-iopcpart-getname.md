@@ -7,7 +7,7 @@ old-location: opc\iopcpart_getname.htm
 old-project: OPC
 ms.assetid: 83fed005-c061-4f1d-8b2b-73397e0b7a92
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: GetName, GetName method [Open Packaging Conventions], GetName method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetName method, IOpcPart.GetName, IOpcPart::GetName, msopc/IOpcPart::GetName, opc.iopcpart_getname
 ms.prod: windows
 ms.technology: windows-sdk

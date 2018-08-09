@@ -7,7 +7,7 @@ old-location: shell\IShellBrowser_RemoveMenusSB.htm
 old-project: shell
 ms.assetid: aa96ac59-62cd-4010-8a0f-b743527f61da
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IShellBrowser interface [Windows Shell],RemoveMenusSB method, IShellBrowser.RemoveMenusSB, IShellBrowser::RemoveMenusSB, RemoveMenusSB, RemoveMenusSB method [Windows Shell], RemoveMenusSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_RemoveMenusSB, shell.IShellBrowser_RemoveMenusSB, shobjidl_core/IShellBrowser::RemoveMenusSB
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Permits the container to remove any of its menu elements from the in-place compo
 
 Type: <b>HMENU</b>
 
-A handle to the in-place composite menu that was constructed by calls to <a href="https://msdn.microsoft.com/62cbb593-7459-4a4f-96a2-3ec2287e6a26">IShellBrowser::InsertMenusSB</a> and the  <a href="https://msdn.microsoft.com/library/ms647987(v=VS.85).aspx">InsertMenu</a> function.
+A handle to the in-place composite menu that was constructed by calls to <a href="https://msdn.microsoft.com/62cbb593-7459-4a4f-96a2-3ec2287e6a26">IShellBrowser::InsertMenusSB</a> and the  <a href="https://msdn.microsoft.com/en-us/library/ms647987(v=VS.85).aspx">InsertMenu</a> function.
 
 
 ## -returns

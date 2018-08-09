@@ -4,10 +4,10 @@ title: SCardUIDlgSelectCardA function
 author: windows-sdk-content
 description: Displays the smart card Select Card dialog box.
 old-location: security\scarduidlgselectcard.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 68014e9e-0ea3-4032-8db5-c1887a1cc9ad
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SCardUIDlgSelectCard, SCardUIDlgSelectCard function [Security], SCardUIDlgSelectCardA, SCardUIDlgSelectCardW, _smart_scarduidlgselectcard, security.scarduidlgselectcard, winscard/SCardUIDlgSelectCard, winscard/SCardUIDlgSelectCardA, winscard/SCardUIDlgSelectCardW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ The <b>SCardUIDlgSelectCard</b> function displays the <a href="https://msdn.micr
 
 
 
-### -param Arg1
-
-TBD
-
-
-
-
-#### - pDlgStruc [in]
+### -param Arg1 [in]
 
 Pointer to the 
 <a href="https://msdn.microsoft.com/fb9e64a9-441a-4c7b-b404-79682778c694">OPENCARDNAME_EX</a> structure for the <b>Select Card</b> dialog box.

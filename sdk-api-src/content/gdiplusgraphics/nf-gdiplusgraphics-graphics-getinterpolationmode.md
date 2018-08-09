@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetInterpolationMode_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getinterpolationmode.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetInterpolationMode, GetInterpolationMode method [GDI+], GetInterpolationMode method [GDI+],Graphics class, Graphics class [GDI+],GetInterpolationMode method, Graphics.GetInterpolationMode, Graphics::GetInterpolationMode, _gdiplus_CLASS_Graphics_GetInterpolationMode_, gdiplus._gdiplus_CLASS_Graphics_GetInterpolationMode_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,10 +66,10 @@ The <b>Graphics::GetInterpolationMode</b> method gets the interpolation mode cur
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534141(v=VS.85).aspx">InterpolationMode</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534141(v=VS.85).aspx">InterpolationMode</a></b>
 </strong>
 
-This method returns an element of the <a href="https://msdn.microsoft.com/library/ms534141(v=VS.85).aspx">InterpolationMode</a> enumeration that indicates the interpolation mode currently set for this 
+This method returns an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534141(v=VS.85).aspx">InterpolationMode</a> enumeration that indicates the interpolation mode currently set for this 
 						<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object.
 
 
@@ -84,15 +84,15 @@ This method returns an element of the <a href="https://msdn.microsoft.com/librar
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535810(v=VS.85).aspx">Graphics::SetInterpolationMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535810(v=VS.85).aspx">Graphics::SetInterpolationMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534141(v=VS.85).aspx">InterpolationMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534141(v=VS.85).aspx">InterpolationMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533836(v=VS.85).aspx">Using Interpolation Mode to Control Image Quality During Scaling</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533836(v=VS.85).aspx">Using Interpolation Mode to Control Image Quality During Scaling</a>
  
 
  

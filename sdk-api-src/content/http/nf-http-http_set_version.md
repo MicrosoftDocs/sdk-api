@@ -7,7 +7,7 @@ old-location: http\http_set_version.htm
 old-project: http
 ms.assetid: e621ef1c-aa12-400e-ba57-754b8320c419
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HTTP_SET_VERSION, HTTP_SET_VERSION macro [HTTP], _http_http_set_version, http.http_set_version, http/HTTP_SET_VERSION
 ms.prod: windows
 ms.technology: windows-sdk

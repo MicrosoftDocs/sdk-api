@@ -7,7 +7,7 @@ old-location: wmi\swbempropertyset_add.htm
 old-project: WmiSdk
 ms.assetid: 52a5f964-3d53-441b-9a58-650afdc5b1b9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],ISWbemPropertySet interface, Add method [Windows Management Instrumentation],SWbemPropertySet object, ISWbemPropertySet interface [Windows Management Instrumentation],Add method, ISWbemPropertySet.Add, ISWbemPropertySet::Add, SWbemPropertySet object [Windows Management Instrumentation],Add method, SWbemPropertySet.Add, _hmm_swbempropertyset.add, wmi.swbempropertyset_add
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\powerregistersuspendresumenotification.htm
 old-project: power
 ms.assetid: 3b39ec3a-417c-4ce4-a581-ed967f1baec9
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: PowerRegisterSuspendResumeNotification, PowerRegisterSuspendResumeNotification function, base.powerregistersuspendresumenotification, powerbase/PowerRegisterSuspendResumeNotification
 ms.prod: windows
 ms.technology: windows-sdk

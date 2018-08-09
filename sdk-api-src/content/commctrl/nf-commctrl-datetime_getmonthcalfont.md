@@ -7,7 +7,7 @@ old-location: controls\DateTime_GetMonthCalFont.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcalfont.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DateTime_GetMonthCalFont, DateTime_GetMonthCalFont macro [Windows Controls], _win32_DateTime_GetMonthCalFont, _win32_DateTime_GetMonthCalFont_cpp, commctrl/DateTime_GetMonthCalFont, controls.DateTime_GetMonthCalFont, controls._win32_DateTime_GetMonthCalFont
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the font that the date and time picker (DTP) control's child month calendar control is currently using. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761761(v=VS.85).aspx">DTM_GETMCFONT</a> message explicitly. 
+Gets the font that the date and time picker (DTP) control's child month calendar control is currently using. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761761(v=VS.85).aspx">DTM_GETMCFONT</a> message explicitly. 
 
 
 ## -parameters
@@ -59,15 +59,6 @@ Gets the font that the date and time picker (DTP) control's child month calendar
 
 
 ### -param hdp
-
-TBD
-
-
-
-
-
-
-#### - hwndDP
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 

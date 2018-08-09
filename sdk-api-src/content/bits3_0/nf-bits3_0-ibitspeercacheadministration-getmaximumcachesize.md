@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacheadministration_getmaximumcachesize.htm
 old-project: bits
 ms.assetid: 6ea0e6f7-c674-4088-9085-5f6246681009
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: GetMaximumCacheSize, GetMaximumCacheSize method [BITS], GetMaximumCacheSize method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],GetMaximumCacheSize method, IBitsPeerCacheAdministration.GetMaximumCacheSize, IBitsPeerCacheAdministration::GetMaximumCacheSize, bits.ibitspeercacheadministration_getmaximumcachesize, bits3_0/IBitsPeerCacheAdministration::GetMaximumCacheSize
 ms.prod: windows
 ms.technology: windows-sdk

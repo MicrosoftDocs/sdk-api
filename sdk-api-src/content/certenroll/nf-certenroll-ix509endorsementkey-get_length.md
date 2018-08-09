@@ -7,7 +7,7 @@ old-location: security\ix509endorsementkey_length.htm
 old-project: seccertenroll
 ms.assetid: 31a94a37-ab56-4cb5-b4e0-ab3c74b748a0
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509EndorsementKey interface [Security],Length property, IX509EndorsementKey.Length, IX509EndorsementKey.get_Length, IX509EndorsementKey::Length, IX509EndorsementKey::get_Length, Length property [Security], Length property [Security],IX509EndorsementKey interface, certenroll/IX509EndorsementKey::Length, certenroll/IX509EndorsementKey::get_Length, get_Length, security.ix509endorsementkey_length
 ms.prod: windows
 ms.technology: windows-sdk

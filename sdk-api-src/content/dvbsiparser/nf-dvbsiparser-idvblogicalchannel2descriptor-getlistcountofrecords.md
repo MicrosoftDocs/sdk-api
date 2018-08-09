@@ -7,7 +7,7 @@ old-location: mstv\idvblogicalchannel2descriptor_getlistcountofrecords.htm
 old-project: mstv
 ms.assetid: ca9cac1c-1e4a-4ea2-b44f-d037e9e8197e
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetListCountOfRecords, GetListCountOfRecords method [Microsoft TV Technologies], GetListCountOfRecords method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListCountOfRecords method, IDvbLogicalChannel2Descriptor.GetListCountOfRecords, IDvbLogicalChannel2Descriptor::GetListCountOfRecords, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListCountOfRecords, mstv.idvblogicalchannel2descriptor_getlistcountofrecords
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Gets an indexed count of records for a channel list in a Digital Video Broadcast
 ### -param bChannelListIndex [in]
 
 Specifies the channel list number,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/97cadf6c-2549-4a7f-9ecb-c16298769a21">IDvbLogicalChannel2Descriptor::GetCountOfLists</a>
-  method to get the number of channel lists in the logical channel descriptor.
+  indexed from zero. Call the <a href="https://msdn.microsoft.com/97cadf6c-2549-4a7f-9ecb-c16298769a21">IDvbLogicalChannel2Descriptor::GetCountOfLists</a>method to get the number of channel lists in the logical channel descriptor.
 
 
 ### -param pbVal [out]

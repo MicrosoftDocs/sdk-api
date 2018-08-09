@@ -7,7 +7,7 @@ old-location: intl\getthreadlocale.htm
 old-project: Intl
 ms.assetid: 4d77f78b-f059-40f3-b4ed-c3ffd09d9e9f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetThreadLocale, GetThreadLocale function [Internationalization for Windows Applications], _win32_GetThreadLocale, intl.getthreadlocale, winnls/GetThreadLocale
 ms.prod: windows
 ms.technology: windows-sdk

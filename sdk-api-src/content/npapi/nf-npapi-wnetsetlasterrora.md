@@ -7,7 +7,7 @@ old-location: security\wnetsetlasterror.htm
 old-project: secauthn
 ms.assetid: ee472f01-de44-4c47-9ae5-8bbac74de78b
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: WNetSetLastError, WNetSetLastError function [Security], WNetSetLastErrorA, _mnp_wnetsetlasterror, npapi/WNetSetLastError, npapi/WNetSetLastErrorA, security.wnetsetlasterror
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,14 +74,7 @@ The error that occurred. This is a network-specific error code.
 String that describes the network-specific error.
 
 
-### -param lpProviders
-
-TBD
-
-
-
-
-#### - lpProvider [in]
+### -param lpProviders [in]
 
 String that names the network provider that raised the error.
 

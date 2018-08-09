@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8.htm
 old-project: hid
 ms.assetid: baae99bf-a826-45d0-bab2-76a5736bd378
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/30/2018
 ms.keywords: IDirectInputJoyConfig8, IDirectInputJoyConfig8 interface [Human Input Devices], IDirectInputJoyConfig8 interface [Human Input Devices],described, di_ref_75413607-c6c1-4341-892a-7f313a0ed9d5.xml, dinputd/IDirectInputJoyConfig8, hid.idirectinputjoyconfig8
 ms.prod: windows
 ms.technology: windows-sdk

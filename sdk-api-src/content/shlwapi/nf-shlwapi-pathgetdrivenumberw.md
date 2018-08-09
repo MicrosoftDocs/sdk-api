@@ -7,7 +7,7 @@ old-location: shell\PathGetDriveNumber.htm
 old-project: shell
 ms.assetid: 38914866-fdd4-47f2-b0e7-d09d1cfb0eee
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PathGetDriveNumber, PathGetDriveNumber function [Windows Shell], PathGetDriveNumberA, PathGetDriveNumberW, _win32_PathGetDriveNumber, shell.PathGetDriveNumber, shlwapi/PathGetDriveNumber, shlwapi/PathGetDriveNumberA, shlwapi/PathGetDriveNumberW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,7 @@ Searches a path for a drive letter within the range of 'A' to 'Z' and returns th
 
 
 
-### -param pszPath
-
-TBD
-
-
-
-
-#### - lpsz [in]
+### -param pszPath [in]
 
 Type: <b>LPCTSTR</b>
 

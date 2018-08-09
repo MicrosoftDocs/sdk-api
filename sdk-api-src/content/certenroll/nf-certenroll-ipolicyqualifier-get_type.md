@@ -7,7 +7,7 @@ old-location: security\ipolicyqualifier_type_property.htm
 old-project: seccertenroll
 ms.assetid: eb48d2a0-c689-45b1-9f06-83df71987b4b
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IPolicyQualifier interface [Security],Type property, IPolicyQualifier.Type, IPolicyQualifier.get_Type, IPolicyQualifier::Type, IPolicyQualifier::get_Type, Type property [Security], Type property [Security],IPolicyQualifier interface, certenroll/IPolicyQualifier::Type, certenroll/IPolicyQualifier::get_Type, get_Type, security.ipolicyqualifier_type_property
 ms.prod: windows
 ms.technology: windows-sdk

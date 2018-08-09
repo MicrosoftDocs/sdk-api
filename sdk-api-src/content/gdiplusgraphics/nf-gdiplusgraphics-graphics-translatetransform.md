@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_TranslateTransform_dx_dy_order_.ht
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\translatetransform.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Graphics class [GDI+],TranslateTransform method, Graphics.TranslateTransform, Graphics::TranslateTransform, TranslateTransform, TranslateTransform method [GDI+], TranslateTransform method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_TranslateTransform_dx_dy_order_, gdiplus._gdiplus_CLASS_Graphics_TranslateTransform_dx_dy_order_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,9 +75,9 @@ Real number that specifies the vertical component of the translation.
 
 ### -param order [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534149(v=VS.85).aspx">MatrixOrder</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534149(v=VS.85).aspx">MatrixOrder</a></b>
 
-Optional. Element of the <a href="https://msdn.microsoft.com/library/ms534149(v=VS.85).aspx">MatrixOrder</a> enumeration that specifies the order of multiplication. <a href="https://msdn.microsoft.com/library/ms534149(v=VS.85).aspx">MatrixOrderPrepend</a> specifies that the translation matrix is on the left, and <a href="https://msdn.microsoft.com/library/ms534149(v=VS.85).aspx">MatrixOrderAppend</a> specifies that the translation matrix is on the right. The default value is <a href="https://msdn.microsoft.com/library/ms534149(v=VS.85).aspx">MatrixOrderPrepend</a>. 
+Optional. Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534149(v=VS.85).aspx">MatrixOrder</a> enumeration that specifies the order of multiplication. <a href="https://msdn.microsoft.com/en-us/library/ms534149(v=VS.85).aspx">MatrixOrderPrepend</a> specifies that the translation matrix is on the left, and <a href="https://msdn.microsoft.com/en-us/library/ms534149(v=VS.85).aspx">MatrixOrderAppend</a> specifies that the translation matrix is on the right. The default value is <a href="https://msdn.microsoft.com/en-us/library/ms534149(v=VS.85).aspx">MatrixOrderPrepend</a>. 
 
 
 ## -returns
@@ -133,7 +133,7 @@ The following example sets the world transformation of a <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536332(v=VS.85).aspx">Coordinate Systems and Transformations</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536332(v=VS.85).aspx">Coordinate Systems and Transformations</a>
 
 
 
@@ -141,35 +141,35 @@ The following example sets the world transformation of a <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535729(v=VS.85).aspx">Graphics::GetTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535729(v=VS.85).aspx">Graphics::GetTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535803(v=VS.85).aspx">Graphics::ResetTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535803(v=VS.85).aspx">Graphics::ResetTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535807(v=VS.85).aspx">Graphics::ScaleTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535807(v=VS.85).aspx">Graphics::ScaleTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535818(v=VS.85).aspx">Graphics::SetTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535818(v=VS.85).aspx">Graphics::SetTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535819(v=VS.85).aspx">Graphics::TransformPoints</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535819(v=VS.85).aspx">Graphics::TransformPoints</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534149(v=VS.85).aspx">MatrixOrder</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534149(v=VS.85).aspx">MatrixOrder</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533810(v=VS.85).aspx">Transformations</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533810(v=VS.85).aspx">Transformations</a>
  
 
  

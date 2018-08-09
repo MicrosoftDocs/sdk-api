@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12object_setprivatedata.htm
 old-project: direct3d12
 ms.assetid: 1B3E8202-7CB3-4D9F-A1AE-70E66652773C
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: ID3D12Object interface,SetPrivateData method, ID3D12Object.SetPrivateData, ID3D12Object::SetPrivateData, SetPrivateData, SetPrivateData method, SetPrivateData method,ID3D12Object interface, d3d12/ID3D12Object::SetPrivateData, direct3d12.id3d12object_setprivatedata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ A pointer to a memory block that contains the data to be stored with this device
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           

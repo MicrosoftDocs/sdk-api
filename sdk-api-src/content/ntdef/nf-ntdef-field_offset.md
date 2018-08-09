@@ -7,13 +7,13 @@ old-location: kernel\field_offset.htm
 old-project: kernel
 ms.assetid: c792d021-3c64-4341-878c-08a7e163447c
 ms.author: windowssdkdev
-ms.date: 05/01/2018
-ms.keywords: FIELD_OFFSET, FIELD_OFFSET function [Kernel-Mode Driver Architecture], k106_d6f0b450-e99c-4dd7-94c5-f428e4b1d642.xml, kernel.field_offset, ntdef/FIELD_OFFSET
+ms.date: 08/06/2018
+ms.keywords: FIELD_OFFSET, FIELD_OFFSET function [Kernel-Mode Driver Architecture], k106_d6f0b450-e99c-4dd7-94c5-f428e4b1d642.xml, kernel.field_offset, winnt/FIELD_OFFSET
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: macro
 req.header: ntdef.h
-req.include-header: Wdm.h, Ntddk.h, Miniport.h, Minitape.h, Scsi.h, Storport.h
+req.include-header: Ntdef.h, Wdm.h, Ntddk.h, Miniport.h, Minitape.h, Scsi.h, Storport.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
@@ -27,14 +27,14 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: COMPARTMENT_ID, *PCOMPARTMENT_ID
+req.typenames: PS_SHAPER_STATS, *PPS_SHAPER_STATS
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
  - HeaderDef
 api_location:
- - ntdef.h
+ - winnt.h
 api_name:
  - FIELD_OFFSET
 product: Windows
@@ -59,28 +59,14 @@ The <b>FIELD_OFFSET</b> macro returns the byte offset of a named field in a know
 
 
 
-### -param type
-
-TBD
-
-
-### -param field
-
-TBD
-
-
-
-
-
-
-#### - Field [in]
-
-Specifies the name of a field in a structure of type <i>Type</i>. 
-
-
-#### - Type [in]
+### -param type [in]
 
 Specifies the name of a known structure type containing <i>Field</i>. 
+
+
+### -param field [in]
+
+Specifies the name of a field in a structure of type <i>Type</i>. 
 
 
 ## -remarks

@@ -7,7 +7,7 @@ old-location: gdi\startxpsprintjob1.htm
 old-project: printdocs
 ms.assetid: 91D0BA4D-60A6-43F8-8BD3-9183DC6CD50D
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: StartXpsPrintJob1, StartXpsPrintJob1 function [Windows GDI], gdi.startxpsprintjob1, xpsprint/StartXpsPrintJob1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,14 +110,7 @@ Set this parameter to <b>NULL</b> if do not want to be notified about completion
 A pointer to the <a href="https://msdn.microsoft.com/aa17e059-6208-4348-87f3-556a3818f2b9">IXpsPrintJob</a> interface that represents the print job that  <b>StartXpsPrintJob1</b> created.  To get the status of the print job or to cancel it, use the <b>IXpsPrintJob</b> interface. Set this parameter to <b>NULL</b> if you do not need it.
 
 
-### -param printContentReceiver
-
-TBD
-
-
-
-
-#### - xpsOMPackageTarget [out]
+### -param printContentReceiver [out]
 
 A pointer to the <a href="https://msdn.microsoft.com/980D2A37-933F-41B1-A975-6BC797E8E770">IXpsOMPackageTarget</a> interface that this function created. This parameter is required and you cannot set it to <b>NULL</b>.
 

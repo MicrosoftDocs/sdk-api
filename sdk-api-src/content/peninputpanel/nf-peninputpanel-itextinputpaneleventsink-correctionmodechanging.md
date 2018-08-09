@@ -7,7 +7,7 @@ old-location: tablet\itextinputpaneleventsink_correctionmodechanging.htm
 old-project: tablet
 ms.assetid: f20b77dc-a04f-4bd3-9aa0-3a0c3d98e4a8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CorrectionModeChanging, CorrectionModeChanging method [Tablet PC], CorrectionModeChanging method [Tablet PC],ITextInputPanelEventSink interface, ITextInputPanelEventSink interface [Tablet PC],CorrectionModeChanging method, ITextInputPanelEventSink.CorrectionModeChanging, ITextInputPanelEventSink::CorrectionModeChanging, f20b77dc-a04f-4bd3-9aa0-3a0c3d98e4a8, peninputpanel/ITextInputPanelEventSink::CorrectionModeChanging, tablet.itextinputpaneleventsink_correctionmodechanging
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,8 +115,7 @@ An unspecified error occurred.
 
 
 
-<div class="alert"><b>Note</b>  
-		In Windows 7, this event no longer is raised.		
+<div class="alert"><b>Note</b>  In Windows 7, this event no longer is raised.		
 		</div>
 <div> </div>
 

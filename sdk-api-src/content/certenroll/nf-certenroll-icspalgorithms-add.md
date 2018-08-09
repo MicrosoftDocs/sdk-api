@@ -7,7 +7,7 @@ old-location: security\icspalgorithms_add_method.htm
 old-project: seccertenroll
 ms.assetid: 53cd408e-752c-4256-839c-e09055487c39
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICspAlgorithms interface, ICspAlgorithms interface [Security],Add method, ICspAlgorithms.Add, ICspAlgorithms::Add, certenroll/ICspAlgorithms::Add, security.icspalgorithms_add_method
 ms.prod: windows
 ms.technology: windows-sdk

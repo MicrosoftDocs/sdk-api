@@ -7,7 +7,7 @@ old-location: controls\NMREBARAUTOBREAK.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebarautobreak.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPNMREBARAUTOBREAK, LPNMREBARAUTOBREAK, LPNMREBARAUTOBREAK structure pointer [Windows Controls], NMREBARAUTOBREAK, NMREBARAUTOBREAK structure [Windows Controls], commctrl/LPNMREBARAUTOBREAK, commctrl/NMREBARAUTOBREAK, controls.NMREBARAUTOBREAK, controls.inet_NMREBARAUTOBREAK, inet_NMREBARAUTOBREAK, inet_NMREBARAUTOBREAK_cpp, tagNMREBARAUTOBREAK"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information used with the <a href="https://msdn.microsoft.com/library/Bb774403(v=VS.85).aspx">RBN_AUTOBREAK</a> notification code.
+Contains information used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774403(v=VS.85).aspx">RBN_AUTOBREAK</a> notification code.
 
 
 ## -struct-fields
@@ -60,10 +60,10 @@ Contains information used with the <a href="https://msdn.microsoft.com/library/B
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that provides additional information about this notification code.
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that provides additional information about this notification code.
 
 
 ### -field uBand
@@ -84,7 +84,7 @@ Application-defined ID of the band.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
 
-Application-defined value from the <b>lParam</b> member of the <a href="https://msdn.microsoft.com/library/Bb774393(v=VS.85).aspx">REBARBANDINFO</a> structure that defines the rebar band.
+Application-defined value from the <b>lParam</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb774393(v=VS.85).aspx">REBARBANDINFO</a> structure that defines the rebar band.
 
 
 ### -field uMsg

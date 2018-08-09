@@ -7,7 +7,7 @@ old-location: com\coauthidentity.htm
 old-project: com
 ms.assetid: ce14f8a6-0495-491a-a5c7-de7c1d3efd95
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: COAUTHIDENTITY, COAUTHIDENTITY structure [COM], SEC_WINNT_AUTH_IDENTITY_ANSI, SEC_WINNT_AUTH_IDENTITY_UNICODE, _COAUTHIDENTITY, _com_COAUTHIDENTITY, com.coauthidentity, wtypesbase/COAUTHIDENTITY
 ms.prod: windows
 ms.technology: windows-sdk

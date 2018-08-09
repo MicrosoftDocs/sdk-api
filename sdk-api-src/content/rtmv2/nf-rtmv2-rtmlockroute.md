@@ -7,7 +7,7 @@ old-location: rras\rtmlockroute.htm
 old-project: rras
 ms.assetid: 8de3e4e3-f3bc-4a98-8a11-cc5b4db9027f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RtmLockRoute, RtmLockRoute function [RAS], _rtmv2ref_rtmlockroute, rras.rtmlockroute, rtmv2/RtmLockRoute
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: netbios\netbios.htm
 old-project: NetBIOS
 ms.assetid: 3eadbfa7-53de-4c62-b61b-da84b9da58f7
 ms.author: windowssdkdev
-ms.date: 05/02/2018
+ms.date: 08/03/2018
 ms.keywords: Netbios, Netbios function [NetBIOS], nb30/Netbios, netbios.netbios
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,13 +64,6 @@ The <b>Netbios</b> function is provided primarily for applications that were wri
 
 
 ### -param pncb
-
-TBD
-
-
-
-
-#### - pcnb
 
 A  pointer to an <a href="https://msdn.microsoft.com/e3fcca1c-8057-41c4-80a5-d1e67920d88c">NCB</a> structure that describes the network control block. 
 

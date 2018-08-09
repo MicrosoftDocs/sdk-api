@@ -7,7 +7,7 @@ old-location: multimedia\mciwndopen.htm
 old-project: Multimedia
 ms.assetid: 88620085-8cba-489c-bfb8-d28b0a5e6013
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MCIWndOpen, MCIWndOpen macro [Windows Multimedia], _win32_MCIWndOpen, multimedia.mciwndopen, vfw/MCIWndOpen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,24 +69,10 @@ Handle of the MCIWnd window.
 
 ### -param sz
 
-TBD
-
-
-### -param f
-
-TBD
-
-
-
-
-
-
-#### - szFile
-
 Pointer to a null-terminated string identifying the filename or MCI Device Names to open. Specify â€“1 for this parameter to display the Open dialog box. 
 
 
-#### - wFlags
+### -param f
 
 Flags associated with the device or file to open. The MCIWNDOPENF_NEW flag specifies a new file is to be created with the name specified in szFile. 
 

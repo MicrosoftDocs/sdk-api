@@ -7,7 +7,7 @@ old-location: intl\immisuimessage.htm
 old-project: Intl
 ms.assetid: 9c07c7b8-87cb-4bcb-a837-20f582ff7712
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmIsUIMessage, ImmIsUIMessage function [Internationalization for Windows Applications], ImmIsUIMessageA, ImmIsUIMessageW, _win32_ImmIsUIMessage, imm/ImmIsUIMessage, imm/ImmIsUIMessageA, imm/ImmIsUIMessageW, intl.immisuimessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,44 +61,22 @@ Checks for messages intended for the IME window and sends those messages to the 
 
 
 
-### -param HWND
-
-TBD
-
-
-### -param UINT
-
-TBD
-
-
-### -param WPARAM
-
-TBD
-
-
-### -param LPARAM
-
-TBD
-
-
-
-
-#### - hWndIME [in]
+### -param HWND [in]
 
 Handle to a window belonging to the IME window class.
 
 
-#### - lParam [in]
-
-Message-specific parameter.
-
-
-#### - msg [in]
+### -param UINT [in]
 
 Message to check.
 
 
-#### - wParam [in]
+### -param WPARAM [in]
+
+Message-specific parameter.
+
+
+### -param LPARAM [in]
 
 Message-specific parameter.
 

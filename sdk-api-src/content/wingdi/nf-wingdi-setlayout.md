@@ -7,7 +7,7 @@ old-location: gdi\setlayout.htm
 old-project: gdi
 ms.assetid: 81c6dccd-cfb1-486f-8c25-f46ba7c3ff8d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: LAYOUT_BITMAPORIENTATIONPRESERVED, LAYOUT_RTL, SetLayout, SetLayout function [Windows GDI], _win32_SetLayout, gdi.setlayout, wingdi/SetLayout
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,7 @@ The <b>SetLayout</b> function changes the layout of a device context (DC).
 A handle to the DC.
 
 
-### -param l
-
-TBD
-
-
-
-
-#### - dwLayout [in]
+### -param l [in]
 
 The DC layout. This parameter can be one or more of the following values.
 

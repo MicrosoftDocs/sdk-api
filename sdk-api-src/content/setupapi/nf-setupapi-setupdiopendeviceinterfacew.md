@@ -7,7 +7,7 @@ old-location: devinst\setupdiopendeviceinterface.htm
 old-project: devinst
 ms.assetid: 31ce43e5-08b4-4c1d-b31f-77ee4e278927
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: SetupDiOpenDeviceInterface, SetupDiOpenDeviceInterface function [Device and Driver Installation], SetupDiOpenDeviceInterfaceA, SetupDiOpenDeviceInterfaceW, devinst.setupdiopendeviceinterface, di-rtns_4505f6a3-e634-4070-a9b3-1487c2808838.xml, setupapi/SetupDiOpenDeviceInterface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,8 +117,7 @@ If the DIODI_NO_ADD flag is specified for the <i>OpenFlags</i> parameter, and a 
 When the application has finished using the information that <b>SetupDiOpenDeviceInterface</b> retrieved<b>,</b> the application must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550984">SetupDiDeleteDeviceInterfaceData</a>.
 
 
-<a href="https://msdn.microsoft.com/3d256dec-ec8c-4c62-883b-e2c292fd90eb">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK</a>
-attribute can be passed in as the value of the <i>DevicePath</i> argument of the <b>SetupDiOpenDeviceInterface</b> function.
+<a href="https://msdn.microsoft.com/3d256dec-ec8c-4c62-883b-e2c292fd90eb">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK</a>attribute can be passed in as the value of the <i>DevicePath</i> argument of the <b>SetupDiOpenDeviceInterface</b> function.
 
 
 

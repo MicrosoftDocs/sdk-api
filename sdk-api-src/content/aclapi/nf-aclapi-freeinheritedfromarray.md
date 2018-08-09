@@ -7,7 +7,7 @@ old-location: security\freeinheritedfromarray.htm
 old-project: secauthz
 ms.assetid: c9c58b9a-1b65-40e2-b518-30e247f9718e
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: FreeInheritedFromArray, FreeInheritedFromArray function [Security], _win32_freeinheritedfromarray, aclapi/FreeInheritedFromArray, security.freeinheritedfromarray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>FreeInheritedFromArray</b> function frees memory allocated by the 
+The <b>FreeInheritedFromArray</b> function frees memory allocated by the 
 <a href="https://msdn.microsoft.com/ccc1702b-e414-4831-ae8b-fd92499bec94">GetInheritanceSource</a> function.
 
 
@@ -86,8 +85,7 @@ Unused. Set to <b>NULL</b>.
 
 
 
-
-						If the function succeeds, the function returns ERROR_SUCCESS.
+If the function succeeds, the function returns ERROR_SUCCESS.
 
 If the function fails, it returns a nonzero error code defined in WinError.h.
 

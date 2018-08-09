@@ -4,10 +4,10 @@ title: WdsCliGetImageGroup function
 author: windows-sdk-content
 description: Returns the name of the image group for the current image.
 old-location: wds\wdscligetimagegroup.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 1588e19e-b215-4c26-ae00-6b6608b0c252
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WdsCliGetImageGroup, WdsCliGetImageGroup function [Windows Deployment Services], wds.wdscligetimagegroup, wdsclientapi/WdsCliGetImageGroup
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\imsvidaudiorendererevent2_avdecaudiodualmono.htm
 old-project: mstv
 ms.assetid: e5a3984a-a925-4e21-9b2d-50968365bb2b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: AVDecAudioDualMono, AVDecAudioDualMono method [Microsoft TV Technologies], AVDecAudioDualMono method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDecAudioDualMono method, IMSVidAudioRendererEvent2.AVDecAudioDualMono, IMSVidAudioRendererEvent2::AVDecAudioDualMono, mstv.imsvidaudiorendererevent2_avdecaudiodualmono, segment/IMSVidAudioRendererEvent2::AVDecAudioDualMono
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      Indicates a change in the <a href="https://msdn.microsoft.com/96cb9e17-588c-4a1a-a7ba-7f8439d5b79a">AVDecAudioDualMono</a> codec property.
+Indicates a change in the <a href="https://msdn.microsoft.com/96cb9e17-588c-4a1a-a7ba-7f8439d5b79a">AVDecAudioDualMono</a> codec property.
 
 
 ## -parameters

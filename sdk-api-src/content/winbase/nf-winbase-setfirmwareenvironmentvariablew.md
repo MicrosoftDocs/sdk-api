@@ -7,7 +7,7 @@ old-location: base\setfirmwareenvironmentvariable.htm
 old-project: SysInfo
 ms.assetid: 42117632-61aa-4f83-abe1-c08f40cf3f0a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: SetFirmwareEnvironmentVariable, SetFirmwareEnvironmentVariable function, SetFirmwareEnvironmentVariableA, SetFirmwareEnvironmentVariableW, base.setfirmwareenvironmentvariable, winbase/SetFirmwareEnvironmentVariable, winbase/SetFirmwareEnvironmentVariableA, winbase/SetFirmwareEnvironmentVariableW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,19 +74,14 @@ The name of the firmware environment variable. The pointer must not be <b>NULL</
 The GUID that represents the namespace of the firmware environment variable. The GUID must be a string in the format  "{<i>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</i>}". If the system does not support GUID-based namespaces, this parameter is ignored.
 
 
-### -param pValue
+### -param pValue [in]
 
-TBD
+A pointer to the new value for the  firmware environment variable.
 
 
 ### -param nSize [in]
 
 The size of the <i>pBuffer</i> buffer, in bytes. If this parameter is zero, the firmware environment variable is deleted.
-
-
-#### - pBuffer [in]
-
-A pointer to the new value for the  firmware environment variable.
 
 
 ## -returns

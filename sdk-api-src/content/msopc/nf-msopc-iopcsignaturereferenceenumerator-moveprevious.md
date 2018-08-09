@@ -2,12 +2,12 @@
 UID: NF:msopc.IOpcSignatureReferenceEnumerator.MovePrevious
 title: IOpcSignatureReferenceEnumerator::MovePrevious
 author: windows-sdk-content
-description: Moves the current position of the enumerator to the previous IOpcSignatureReference interface pointer.
+description: Moves the current position of the enumerator to the previous IOpcSignatureReferenceinterface pointer.
 old-location: opc\iopcsignaturereferenceenumerator_moveprevious.htm
 old-project: OPC
 ms.assetid: 7ff697a4-45fe-46cd-8d36-96bafcb32aa1
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcSignatureReferenceEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcSignatureReferenceEnumerator.MovePrevious, IOpcSignatureReferenceEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcSignatureReferenceEnumerator interface, msopc/IOpcSignatureReferenceEnumerator::MovePrevious, opc.iopcsignaturereferenceenumerator_moveprevious
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Moves the current position of the enumerator to the previous <a href="https://msdn.microsoft.com/2ce40bc7-754a-4f69-9348-75603e2257a4">IOpcSignatureReference</a>
-    interface pointer.
+Moves the current position of the enumerator to the previous <a href="https://msdn.microsoft.com/2ce40bc7-754a-4f69-9348-75603e2257a4">IOpcSignatureReference</a>interface pointer.
 
 
 ## -parameters

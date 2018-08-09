@@ -7,7 +7,7 @@ old-location: nla\inetworkevents_networkadded.htm
 old-project: nla
 ms.assetid: 2fda364e-ad6a-447a-ba0c-25e5d52ef5c5
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkAdded method, INetworkEvents.NetworkAdded, INetworkEvents::NetworkAdded, NetworkAdded, NetworkAdded method [Network Awareness], NetworkAdded method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkAdded, nla.inetworkevents_networkadded
 ms.prod: windows
 ms.technology: windows-sdk

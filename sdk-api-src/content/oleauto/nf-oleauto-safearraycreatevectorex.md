@@ -7,7 +7,7 @@ old-location: automat\safearraycreatevectorex.htm
 old-project: automat
 ms.assetid: 45f2ba42-4189-42eb-9f6c-772198296906
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: SafeArrayCreateVectorEx, SafeArrayCreateVectorEx function [Automation], _oa96_SafeArrayCreateVectorEx, automat.safearraycreatevectorex, oleauto/SafeArrayCreateVectorEx
 ms.prod: windows
 ms.technology: windows-sdk

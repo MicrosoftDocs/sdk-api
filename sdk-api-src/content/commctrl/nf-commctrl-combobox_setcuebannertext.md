@@ -7,7 +7,7 @@ old-location: controls\ComboBox_SetCueBannerText.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setcuebannertext.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ComboBox_SetCueBannerText, ComboBox_SetCueBannerText macro [Windows Controls], _shell_ComboBox_SetCueBannerText, _shell_ComboBox_SetCueBannerText_cpp, commctrl/ComboBox_SetCueBannerText, controls.ComboBox_SetCueBannerText, controls._shell_ComboBox_SetCueBannerText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ The cue banner is text that is displayed in the edit control of a combo box when
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775793(v=VS.85).aspx">Combo Box Features</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775793(v=VS.85).aspx">Combo Box Features</a>
  
 
  

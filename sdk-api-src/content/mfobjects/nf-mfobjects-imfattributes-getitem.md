@@ -7,7 +7,7 @@ old-location: mf\imfattributes_getitem.htm
 old-project: medfound
 ms.assetid: 8cc4e529-d5a0-4342-82ac-ae5b28bfd61d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 8cc4e529-d5a0-4342-82ac-ae5b28bfd61d, GetItem, GetItem method [Media Foundation], GetItem method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetItem method, IMFAttributes.GetItem, IMFAttributes::GetItem, mf.imfattributes_getitem, mfobjects/IMFAttributes::GetItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ Retrieves the value associated with a key.
 
 ### -param guidKey [in]
 
-
-            A GUID that identifies which value to retrieve.
+A GUID that identifies which value to retrieve.
           
 
 
@@ -93,8 +92,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -106,8 +104,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The specified key was not found.
+The specified key was not found.
               
 
 </td>

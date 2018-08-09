@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_getdeviceremovedreason.htm
 old-project: direct3d12
 ms.assetid: DA723656-BE64-474E-833B-D97576DE0449
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: GetDeviceRemovedReason, GetDeviceRemovedReason method, GetDeviceRemovedReason method,ID3D12Device interface, ID3D12Device interface,GetDeviceRemovedReason method, ID3D12Device.GetDeviceRemovedReason, ID3D12Device::GetDeviceRemovedReason, d3d12/ID3D12Device::GetDeviceRemovedReason, direct3d12.id3d12device_getdeviceremovedreason
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ Gets the reason that the device was removed.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns the reason that the device was removed.
 

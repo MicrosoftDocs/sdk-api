@@ -7,7 +7,7 @@ old-location: security\icspinformations_itembyname_property.htm
 old-project: seccertenroll
 ms.assetid: cf90f136-0318-40b5-9378-5c6f386e996f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: ICspInformations interface [Security],ItemByName property, ICspInformations.ItemByName, ICspInformations.get_ItemByName, ICspInformations::ItemByName, ICspInformations::get_ItemByName, ItemByName property [Security], ItemByName property [Security],ICspInformations interface, certenroll/ICspInformations::ItemByName, certenroll/ICspInformations::get_ItemByName, get_ItemByName, security.icspinformations_itembyname_property
 ms.prod: windows
 ms.technology: windows-sdk

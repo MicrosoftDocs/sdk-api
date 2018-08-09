@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_GetLeft_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\getleft_55.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetLeft, GetLeft method [GDI+], GetLeft method [GDI+],RectF class, RectF class [GDI+],GetLeft method, RectF.GetLeft, RectF::GetLeft, _gdiplus_CLASS_RectF_GetLeft_, gdiplus._gdiplus_CLASS_RectF_GetLeft_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,19 +78,19 @@ This method returns the x-coordinate of the left edge of the rectangle.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534964(v=VS.85).aspx">GetBottom</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534964(v=VS.85).aspx">GetBottom</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534968(v=VS.85).aspx">GetRight</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534968(v=VS.85).aspx">GetRight</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534970(v=VS.85).aspx">GetTop</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534970(v=VS.85).aspx">GetTop</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
 
 
 
@@ -98,11 +98,11 @@ This method returns the x-coordinate of the left edge of the rectangle.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
  
 
  

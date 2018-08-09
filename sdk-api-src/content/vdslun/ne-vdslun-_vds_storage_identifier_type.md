@@ -4,10 +4,10 @@ title: "_VDS_STORAGE_IDENTIFIER_TYPE"
 author: windows-sdk-content
 description: Defines the set of valid types for a storage identifier.
 old-location: base\vds_storage_identifier_type.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 396ca6c1-fae3-4584-97c9-2c4dfbc170d5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: VDSStorageIdTypeEUI64, VDSStorageIdTypeFCPHName, VDSStorageIdTypePortRelative, VDSStorageIdTypeSCSINameString, VDSStorageIdTypeVendorId, VDSStorageIdTypeVendorSpecific, VDS_STORAGE_IDENTIFIER_TYPE, VDS_STORAGE_IDENTIFIER_TYPE enumeration [VDS], _VDS_STORAGE_IDENTIFIER_TYPE, base.vds_storage_identifier_type, vdslun/VDSStorageIdTypeEUI64, vdslun/VDSStorageIdTypeFCPHName, vdslun/VDSStorageIdTypePortRelative, vdslun/VDSStorageIdTypeSCSINameString, vdslun/VDSStorageIdTypeVendorId, vdslun/VDSStorageIdTypeVendorSpecific, vdslun/VDS_STORAGE_IDENTIFIER_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

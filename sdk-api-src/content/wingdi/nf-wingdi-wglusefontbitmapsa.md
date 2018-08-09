@@ -7,7 +7,7 @@ old-location: opengl\wglusefontbitmaps.htm
 old-project: OpenGL
 ms.assetid: c671965c-9b9d-4206-b467-4884ffd351eb
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: "_ogl_wglUseFontBitmaps, opengl.wglusefontbitmaps, wglUseFontBitmaps, wglUseFontBitmaps function [OpenGL], wglUseFontBitmapsA, wglUseFontBitmapsW, wingdi/wglUseFontBitmaps, wingdi/wglUseFontBitmapsA, wingdi/wglUseFontBitmapsW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,9 +70,6 @@ TBD
 
 
 
-#### - count
-
-Specifies the number of glyphs in the run of glyphs that will be used to form glyph bitmap display lists. The function creates <i>count</i> display lists, one for each glyph in the run.
 
 
 #### - first
@@ -80,9 +77,9 @@ Specifies the number of glyphs in the run of glyphs that will be used to form gl
 Specifies the first glyph in the run of glyphs that will be used to form glyph bitmap display lists.
 
 
-#### - hdc
+#### - count
 
-Specifies the device context whose currently selected font will be used to form the glyph bitmap display lists in the current OpenGL rendering context.
+Specifies the number of glyphs in the run of glyphs that will be used to form glyph bitmap display lists. The function creates <i>count</i> display lists, one for each glyph in the run.
 
 
 #### - listBase

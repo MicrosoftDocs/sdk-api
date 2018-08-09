@@ -7,7 +7,7 @@ old-location: stg\writeclassstm.htm
 old-project: stg
 ms.assetid: c08bfbc8-f7ac-4534-8c98-c732c6daa2f7
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: WriteClassStm, WriteClassStm function [Structured Storage], _stg_writeclassstm, coml2api/WriteClassStm, stg.writeclassstm
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ The
 <b>WriteClassStm</b> function writes a CLSID to the specified stream object so it can be read by the 
 <a href="https://msdn.microsoft.com/bcf11c5b-e164-4a0f-b30f-ee9e76c4356d">ReadClassStm</a> function. Most applications do not call 
 <b>WriteClassStm</b> directly. OLE calls it before making a call to an object's 
-<a href="https://msdn.microsoft.com/library/ms691473(v=VS.85).aspx">IPersistStream::Save</a> method.
+<a href="https://msdn.microsoft.com/en-us/library/ms691473(v=VS.85).aspx">IPersistStream::Save</a> method.
 
 
 

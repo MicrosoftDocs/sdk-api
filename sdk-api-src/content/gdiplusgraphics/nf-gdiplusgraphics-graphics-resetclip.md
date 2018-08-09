@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_ResetClip_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\resetclip.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Graphics class [GDI+],ResetClip method, Graphics.ResetClip, Graphics::ResetClip, ResetClip, ResetClip method [GDI+], ResetClip method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_ResetClip_, gdiplus._gdiplus_CLASS_Graphics_ResetClip_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,11 +125,11 @@ The following example creates a <a href="https://msdn.microsoft.com/library/wind
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536360(v=VS.85).aspx">Clipping</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536360(v=VS.85).aspx">Clipping</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
 
 
 
@@ -137,19 +137,19 @@ The following example creates a <a href="https://msdn.microsoft.com/library/wind
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535698(v=VS.85).aspx">Graphics::GetClip</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535698(v=VS.85).aspx">Graphics::GetClip</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535792(v=VS.85).aspx">Graphics::IsClipEmpty</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535792(v=VS.85).aspx">Graphics::IsClipEmpty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535783(v=VS.85).aspx">IntersectClip Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535783(v=VS.85).aspx">IntersectClip Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534770(v=VS.85).aspx">IsEmpty</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534770(v=VS.85).aspx">IsEmpty</a>
  
 
  

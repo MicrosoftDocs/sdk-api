@@ -7,7 +7,7 @@ old-location: mf\imftransform_getoutputstreamattributes.htm
 old-project: medfound
 ms.assetid: d54ce20c-8ef9-4480-9ddd-908751fc0a7e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetOutputStreamAttributes, GetOutputStreamAttributes method [Media Foundation], GetOutputStreamAttributes method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputStreamAttributes method, IMFTransform.GetOutputStreamAttributes, IMFTransform::GetOutputStreamAttributes, d54ce20c-8ef9-4480-9ddd-908751fc0a7e, mf.imftransform_getoutputstreamattributes, mftransform/IMFTransform::GetOutputStreamAttributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets the attribute store for an output stream on this Media Foundation transform (MFT).
+Gets the attribute store for an output stream on this Media Foundation transform (MFT).
         
 
 
@@ -64,8 +63,7 @@ req.product: GDI+ 1.1
 
 ### -param dwOutputStreamID [in]
 
-
-            Output stream identifier. To get the list of stream identifiers, call <a href="https://msdn.microsoft.com/0715c78e-de92-439d-a4f3-078e19f78a8e">IMFTransform::GetStreamIDs</a>.
+Output stream identifier. To get the list of stream identifiers, call <a href="https://msdn.microsoft.com/0715c78e-de92-439d-a4f3-078e19f78a8e">IMFTransform::GetStreamIDs</a>.
           
 
 
@@ -78,8 +76,7 @@ req.product: GDI+ 1.1
 
 #### - ppAttributes [out]
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface. The caller must release the interface.
           
 
 
@@ -87,8 +84,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -103,8 +99,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -116,8 +111,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The MFT does not support output stream attributes.
+The MFT does not support output stream attributes.
               
 
 </td>
@@ -129,8 +123,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                Invalid stream identifier.
+Invalid stream identifier.
               
 
 </td>
@@ -145,11 +138,9 @@ req.product: GDI+ 1.1
 
 
 
+Implementation of this method is optional unless the MFT needs to support a particular set of attributes. 
 
-        Implementation of this method is optional unless the MFT needs to support a particular set of attributes. 
-
-
-        To get the attribute store for the entire MFT, call <a href="https://msdn.microsoft.com/cb3ba2bc-550c-43b4-a69c-b546f2b92acc">IMFTransform::GetAttributes</a>.
+To get the attribute store for the entire MFT, call <a href="https://msdn.microsoft.com/cb3ba2bc-550c-43b4-a69c-b546f2b92acc">IMFTransform::GetAttributes</a>.
       
 
 

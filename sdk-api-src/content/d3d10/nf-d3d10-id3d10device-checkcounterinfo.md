@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_checkcounterinfo.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_checkcounterinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 10aa0166-3a37-c674-790b-e34167e1b454, CheckCounterInfo, CheckCounterInfo method [Direct3D 10], CheckCounterInfo method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CheckCounterInfo method, ID3D10Device.CheckCounterInfo, ID3D10Device::CheckCounterInfo, d3d10/ID3D10Device::CheckCounterInfo, direct3d10.id3d10device_checkcounterinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Get a counter's information.
 
 ### -param pCounterInfo [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb204906(v=VS.85).aspx">D3D10_COUNTER_INFO</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb204906(v=VS.85).aspx">D3D10_COUNTER_INFO</a>*</b>
 
-Pointer to counter information (see <a href="https://msdn.microsoft.com/library/Bb204906(v=VS.85).aspx">D3D10_COUNTER_INFO</a>).
+Pointer to counter information (see <a href="https://msdn.microsoft.com/en-us/library/Bb204906(v=VS.85).aspx">D3D10_COUNTER_INFO</a>).
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: gdi\getdcorgex.htm
 old-project: gdi
 ms.assetid: 795c6a69-7146-4d1a-abf9-ce1d740ca946
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetDCOrgEx, GetDCOrgEx function [Windows GDI], _win32_GetDCOrgEx, gdi.getdcorgex, wingdi/GetDCOrgEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,7 @@ The <b>GetDCOrgEx</b> function retrieves the final translation origin for a spec
 A handle to the DC whose final translation origin is to be retrieved.
 
 
-### -param lppt
-
-TBD
-
-
-
-
-#### - lpPoint [out]
+### -param lppt [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that receives the final translation origin, in device coordinates.
 

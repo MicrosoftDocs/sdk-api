@@ -7,7 +7,7 @@ old-location: mf\mfcreatelegacymediabufferonmfmediabuffer.htm
 old-project: medfound
 ms.assetid: 35d749d8-2bca-4fe8-b145-175e178ae529
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 35d749d8-2bca-4fe8-b145-175e178ae529, MFCreateLegacyMediaBufferOnMFMediaBuffer, MFCreateLegacyMediaBufferOnMFMediaBuffer function [Media Foundation], mf.mfcreatelegacymediabufferonmfmediabuffer, mfapi/MFCreateLegacyMediaBufferOnMFMediaBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,12 +64,12 @@ Converts a Media Foundation media buffer into a buffer that is compatible with D
 
 ### -param pSample
 
-TBD
+Pointer to the <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> interface of the sample that contains the Media Foundation buffer. This parameter can be <b>NULL</b>.
 
 
 ### -param pMFMediaBuffer
 
-TBD
+Pointer to the <a href="https://msdn.microsoft.com/3ccc7089-d0d0-4eb1-b763-0d4e348af685">IMFMediaBuffer</a> interface of the Media Foundation buffer.
 
 
 ### -param cbOffset
@@ -78,23 +78,6 @@ Offset in bytes from the start of the Media Foundation buffer. This offset defin
 
 
 ### -param ppMediaBuffer
-
-TBD
-
-
-
-
-#### - pIMFMediaBuffer
-
-Pointer to the <a href="https://msdn.microsoft.com/3ccc7089-d0d0-4eb1-b763-0d4e348af685">IMFMediaBuffer</a> interface of the Media Foundation buffer.
-
-
-#### - pIMFSample
-
-Pointer to the <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> interface of the sample that contains the Media Foundation buffer. This parameter can be <b>NULL</b>.
-
-
-#### - ppIMediaBuffer
 
 Receives a pointer to the <b>IMediaBuffer</b> interface. This interface is documented in the DirectShow SDK documentation. The caller must release the interface.
 

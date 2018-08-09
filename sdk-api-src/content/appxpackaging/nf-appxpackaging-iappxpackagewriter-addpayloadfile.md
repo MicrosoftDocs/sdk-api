@@ -7,7 +7,7 @@ old-location: appxpkg\iappxpackagewriter_addpayloadfile.htm
 old-project: appxpkg
 ms.assetid: 2BFC725A-CD56-46CA-983A-FD1BFB6CB474
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: AddPayloadFile, AddPayloadFile method [App packaging and management], AddPayloadFile method [App packaging and management],IAppxPackageWriter interface, IAppxPackageWriter interface [App packaging and management],AddPayloadFile method, IAppxPackageWriter.AddPayloadFile, IAppxPackageWriter::AddPayloadFile, appxpackaging/IAppxPackageWriter::AddPayloadFile, appxpkg.iappxpackagewriter_addpayloadfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,8 +69,7 @@ The name of the payload file. The file name path must be relative to the root of
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
 
-
-            The string specifying the <a href="http://go.microsoft.com/fwlink/p/?linkid=143979">content type</a> of  <i>fileName</i>.
+The string specifying the <a href="http://go.microsoft.com/fwlink/p/?linkid=143979">content type</a> of  <i>fileName</i>.
           
 
 
@@ -78,16 +77,14 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/C4FEE4DA-1097-4870-BB43-A910E20BCBD6">APPX_COMPRESSION_OPTION</a></b>
 
-
-            The type of compression to use  to store <i>fileName</i> in the package. 
+The type of compression to use  to store <i>fileName</i> in the package. 
 
 
 ### -param inputStream [in]
 
 Type: <b>IStream*</b>
 
-
-            An <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> providing the contents of <i>fileName</i>.
+An <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> providing the contents of <i>fileName</i>.
           The stream must support <a href="https://msdn.microsoft.com/library/windows/hardware/hh439702">Read</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439723">Seek</a>, and <a href="https://msdn.microsoft.com/c22ab396-dbc5-43a0-8448-35a2c094464f">Stat</a>.
 
 
@@ -165,13 +162,11 @@ When the <b>AddPayloadFile</b> method succeeds the contents of the specified <i>
 
     <b>\AppxManifest.xml</b>, 
     <b>\AppxBlockMap.xml</b>, <b>\AppxStreamMap.xml
-    </b>, and <b>
-    \AppxSignature.p7x
+    </b>, and <b>\AppxSignature.p7x
 
 </b>.  Also, files with the following reserved folder prefixes cannnot be added to the package using the <b>AddPayloadFile</b> method:
 
-    <b>\AppxMetadata\</b>
-     and <b>\Microsoft.System.Package.Metadata\</b>. 
+    <b>\AppxMetadata\</b>and <b>\Microsoft.System.Package.Metadata\</b>. 
 
 </div>
 <div> </div>

@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_writer_output_type.htm
 old-project: wsw
 ms.assetid: f3109ca7-66c8-4796-91c4-3b7c6fe23f1f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_XML_WRITER_OUTPUT_TYPE, WS_XML_WRITER_OUTPUT_TYPE enumeration [Web Services for Windows], WS_XML_WRITER_OUTPUT_TYPE_BUFFER, WS_XML_WRITER_OUTPUT_TYPE_STREAM, webservices/WS_XML_WRITER_OUTPUT_TYPE, webservices/WS_XML_WRITER_OUTPUT_TYPE_BUFFER, webservices/WS_XML_WRITER_OUTPUT_TYPE_STREAM, wsw.ws_xml_writer_output_type
 ms.prod: windows
 ms.technology: windows-sdk

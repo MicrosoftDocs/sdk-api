@@ -7,7 +7,7 @@ old-location: rpc\rpcbindingsetauthinfoex.htm
 old-project: rpc
 ms.assetid: 2438816c-995e-4398-999d-48a3538eec18
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcBindingSetAuthInfoEx, RpcBindingSetAuthInfoEx function [RPC], RpcBindingSetAuthInfoExA, RpcBindingSetAuthInfoExW, _rpc_rpcbindingsetauthinfoex, rpc.rpcbindingsetauthinfoex, rpcdce/RpcBindingSetAuthInfoEx, rpcdce/RpcBindingSetAuthInfoExA, rpcdce/RpcBindingSetAuthInfoExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>RpcBindingSetAuthInfoEx</b> function sets a binding handle's authentication, authorization, and security quality-of-service information.
 
 
@@ -109,7 +108,14 @@ Specify a null value to use the security login context for the current address s
 Authorization service implemented by the server for the interface of interest. The validity and trustworthiness of authorization data, like any application data, depends on the authentication service and authentication level selected. This parameter is ignored when using the RPC_C_AUTHN_WINNT authentication service. See Note.
 
 
-#### - SecurityQOS
+### -param SecurityQOS
+
+TBD
+
+
+
+
+#### - SecurityQos
 
 Pointer to the 
 <a href="https://msdn.microsoft.com/f7733b9d-ae32-44ff-b1ca-dd0292dd0ff6">RPC_SECURITY_QOS</a> structure, which defines the security quality-of-service. 

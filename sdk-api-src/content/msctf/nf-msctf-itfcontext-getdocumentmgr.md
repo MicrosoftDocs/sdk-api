@@ -7,7 +7,7 @@ old-location: tsf\itfcontext_getdocumentmgr.htm
 old-project: TSF
 ms.assetid: 21fa683d-c386-4aa2-8bc5-d5170443c5cd
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetDocumentMgr, GetDocumentMgr method [Text Services Framework], GetDocumentMgr method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetDocumentMgr method, ITfContext.GetDocumentMgr, ITfContext::GetDocumentMgr, _tsf_itfcontext_getdocumentmgr_ref, msctf/ITfContext::GetDocumentMgr, tsf.itfcontext_getdocumentmgr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -136,8 +136,7 @@ If the context is not contained within a document manager, this method returns S
 
 
 
-<a href="https://msdn.microsoft.com/bbf65d8d-5a59-4c4b-a132-fa28babcd70b">
-        ITfDocumentMgr::Pop
+<a href="https://msdn.microsoft.com/bbf65d8d-5a59-4c4b-a132-fa28babcd70b">ITfDocumentMgr::Pop
       </a>
  
 

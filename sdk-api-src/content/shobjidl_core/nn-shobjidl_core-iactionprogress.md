@@ -7,7 +7,7 @@ old-location: shell\IActionProgress.htm
 old-project: shell
 ms.assetid: e742e381-0fd2-482a-81a0-7b43d11b073b
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IActionProgress, IActionProgress interface [Windows Shell], IActionProgress interface [Windows Shell],described, shell.IActionProgress, shell_IActionProgress, shobjidl_core/IActionProgress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,8 +110,7 @@ Resets progress dialog after a cancellation has been completed.
 <a href="https://msdn.microsoft.com/d9c6fd82-96a2-4021-a6c4-ab61e20eb0d0">UpdateProgress</a>
 </td>
 <td align="left" width="63%">
-
-      Updates the progress of an action to the UI.
+Updates the progress of an action to the UI.
 
 </td>
 </tr>

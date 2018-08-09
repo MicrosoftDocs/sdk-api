@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_AddRequestParameter.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\addrequestparameter.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: AddRequestParameter, AddRequestParameter method [search], AddRequestParameter method [search],IUrlAccessor interface, IUrlAccessor interface [search],AddRequestParameter method, IUrlAccessor.AddRequestParameter, IUrlAccessor::AddRequestParameter, _search_IUrlAccessor_AddRequestParameter, search._search_IUrlAccessor_AddRequestParameter, searchapi/IUrlAccessor::AddRequestParameter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-            Requests a property-value set. 
+Requests a property-value set. 
         
 
 
@@ -63,19 +62,17 @@ req.product: ADAM
 
 ### -param pSpec [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa380070(v=VS.85).aspx">PROPSPEC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380070(v=VS.85).aspx">PROPSPEC</a>*</b>
 
-
-                Pointer to a <a href="https://msdn.microsoft.com/library/Aa380070(v=VS.85).aspx">PROPSPEC</a> structure containing the requested property.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa380070(v=VS.85).aspx">PROPSPEC</a> structure containing the requested property.
                 
 
 
 ### -param pVar [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
 
-
-                Pointer to a <a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> structure containing the value for the property specified by <i>pSpec</i>.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> structure containing the value for the property specified by <i>pSpec</i>.
                 
 
 

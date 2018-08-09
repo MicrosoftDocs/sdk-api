@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_get_stagefiles.htm
 old-project: imapi
 ms.assetid: 7146ad88-071a-4df9-80f9-46e24b49286b
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_StageFiles method, IFileSystemImage.get_StageFiles, IFileSystemImage::get_StageFiles, get_StageFiles, get_StageFiles method [IMAPI], get_StageFiles method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_stagefiles, imapi2fs/IFileSystemImage::get_StageFiles
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,8 +102,6 @@ Value: 0x80004003
 
 Setting this this property to <b>VARIANT_TRUE</b> via <a href="https://msdn.microsoft.com/1040831b-0bda-40b7-ab6d-c914515f4e69">IFileSystemImage::put_StageFiles</a> will only affect files that are added after the property is set: those files will always be staged. Files that were not staged prior  to a specified property value of   <b>VARIANT_TRUE</b>, will not be staged.
 
-
- 
 By specifying <b>VARIANT_FALSE</b>, the file system image creation process is optimized in two ways:
 
 <ul>

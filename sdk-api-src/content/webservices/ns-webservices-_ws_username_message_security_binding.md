@@ -7,7 +7,7 @@ old-location: wsw\ws_username_message_security_binding.htm
 old-project: wsw
 ms.assetid: be6d4787-fa50-4260-8236-39dd992adcae
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_USERNAME_MESSAGE_SECURITY_BINDING, WS_USERNAME_MESSAGE_SECURITY_BINDING structure [Web Services for Windows], _WS_USERNAME_MESSAGE_SECURITY_BINDING, webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING, wsw.ws_username_message_security_binding
 ms.prod: windows
 ms.technology: windows-sdk

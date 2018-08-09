@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparameterdescriptor_gettableid.htm
 old-project: mstv
 ms.assetid: 43b19e3d-20b0-4356-9c84-f47006635e2c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetTableId, GetTableId method [Microsoft TV Technologies], GetTableId method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetTableId method, IIsdbSIParameterDescriptor.GetTableId, IIsdbSIParameterDescriptor::GetTableId, dvbsiparser/IIsdbSIParameterDescriptor::GetTableId, mstv.iisdbsiparameterdescriptor_gettableid
 ms.prod: windows
 ms.technology: windows-sdk

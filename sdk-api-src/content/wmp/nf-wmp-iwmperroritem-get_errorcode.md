@@ -7,7 +7,7 @@ old-location: wmp\iwmperroritem_get_errorcode.htm
 old-project: WMP
 ms.assetid: e809a1bf-1c7e-4006-9d27-e9921f2f14b2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPErrorItem interface [Windows Media Player],get_errorCode method, IWMPErrorItem.get_errorCode, IWMPErrorItem::get_errorCode, IWMPErrorItemget_errorCode, get_errorCode, get_errorCode method [Windows Media Player], get_errorCode method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_errorcode, wmp/IWMPErrorItem::get_errorCode
 ms.prod: windows
 ms.technology: windows-sdk

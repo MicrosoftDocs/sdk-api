@@ -7,7 +7,7 @@ old-location: display\fontobj_cgetglyphs.htm
 old-project: display
 ms.assetid: 0174fc88-e665-427e-b22f-468ddbea5b47
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: FONTOBJ_cGetGlyphs, FONTOBJ_cGetGlyphs function [Display Devices], display.fontobj_cgetglyphs, gdifncs_8e402f9d-4ce3-4907-921c-9c0335a3966b.xml, winddi/FONTOBJ_cGetGlyphs
 ms.prod: windows
 ms.technology: windows-sdk

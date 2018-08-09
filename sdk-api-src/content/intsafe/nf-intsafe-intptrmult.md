@@ -7,7 +7,7 @@ old-location: shell\IntPtrMult.htm
 old-project: shell
 ms.assetid: c93c088e-bef2-4999-bd6d-68d4dd493f0b
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IntPtrMult, IntPtrMult function [Windows Shell], intsafe/IntPtrMult, shell.IntPtrMult
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\StrRetToStr.htm
 old-project: shell
 ms.assetid: 03b0dffb-8ef7-41da-9773-81ed55275802
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: StrRetToStr, StrRetToStr function [Windows Shell], StrRetToStrA, StrRetToStrW, _win32_StrRetToStr, shell.StrRetToStr, shlwapi/StrRetToStr, shlwapi/StrRetToStrA, shlwapi/StrRetToStrW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,14 +76,7 @@ Type: <b>PCUITEMID_CHILD</b>
 A pointer to the item's <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure. This value can be <b>NULL</b>.
 
 
-### -param ppsz
-
-TBD
-
-
-
-
-#### - ppszName [out]
+### -param ppsz [out]
 
 Type: <b>LPTSTR*</b>
 

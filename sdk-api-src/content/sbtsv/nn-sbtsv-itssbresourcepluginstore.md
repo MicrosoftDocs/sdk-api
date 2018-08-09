@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore.htm
 old-project: termserv
 ms.assetid: b8b54827-6c6b-4531-8ae3-73baed6125cd
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], ITsSbResourcePluginStore interface [Remote Desktop Services],described, sbtsv/ITsSbResourcePluginStore, termserv.itssbresourcepluginstore
 ms.prod: windows
 ms.technology: windows-sdk

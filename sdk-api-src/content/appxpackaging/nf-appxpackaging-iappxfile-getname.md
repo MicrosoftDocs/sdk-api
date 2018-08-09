@@ -7,7 +7,7 @@ old-location: appxpkg\iappxfile_getname.htm
 old-project: appxpkg
 ms.assetid: B56F7A31-686A-4A8B-9388-E30718632AE9
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetName method, IAppxFile.GetName, IAppxFile::GetName, appxpackaging/IAppxFile::GetName, appxpkg.iappxfile_getname
 ms.prod: windows
 ms.technology: windows-sdk

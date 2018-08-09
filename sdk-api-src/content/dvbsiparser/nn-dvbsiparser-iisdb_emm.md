@@ -7,7 +7,7 @@ old-location: mstv\iisdb_emm.htm
 old-project: mstv
 ms.assetid: a1389e7c-a3f1-4782-b811-5e09615b3e47
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IISDB_EMM, IISDB_EMM interface [Microsoft TV Technologies], IISDB_EMM interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_EMM, mstv.iisdb_emm
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,12 +51,10 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Gets data from an Integrated Services Digital Broadcasting (ISDB)
+Gets data from an Integrated Services Digital Broadcasting (ISDB)
   entitlement management message (EMM) table. An EMM table contains conditional access data, including contract
   information for subscribers, keys to decrypt common information, and the
   authorization levels or services of specific decoders.
-
 
 
 To obtain a pointer to this interface, first make sure that the media graph is in a running state and that the stream you are tuned to contains an EMM. Then:

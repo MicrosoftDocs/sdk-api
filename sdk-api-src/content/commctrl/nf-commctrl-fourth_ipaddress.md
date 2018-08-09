@@ -7,7 +7,7 @@ old-location: controls\FOURTH_IPADDRESS.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\fourth_ipaddress.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: FOURTH_IPADDRESS, FOURTH_IPADDRESS macro [Windows Controls], _win32_FOURTH_IPADDRESS, _win32_FOURTH_IPADDRESS_cpp, commctrl/FOURTH_IPADDRESS, controls.FOURTH_IPADDRESS, controls._win32_FOURTH_IPADDRESS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Extracts the field 3 value from a packed IP address retrieved with the <a href="https://msdn.microsoft.com/library/Bb761378(v=VS.85).aspx">IPM_GETADDRESS</a> message. 
+Extracts the field 3 value from a packed IP address retrieved with the <a href="https://msdn.microsoft.com/en-us/library/Bb761378(v=VS.85).aspx">IPM_GETADDRESS</a> message. 
 
 
 ## -parameters
@@ -59,15 +59,6 @@ Extracts the field 3 value from a packed IP address retrieved with the <a href="
 
 
 ### -param x
-
-TBD
-
-
-
-
-
-
-#### - lParam
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
 

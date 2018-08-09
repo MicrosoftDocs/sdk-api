@@ -7,7 +7,7 @@ old-location: magapi\magapi_MagGetImageScalingCallback.htm
 old-project: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maggetimagescalingcallback.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: MagGetImageScalingCallback, MagGetImageScalingCallback function [Magnification API], magapi.magapi_MagGetImageScalingCallback, magapi_MagGetImageScalingCallback, magnification/MagGetImageScalingCallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,9 +75,9 @@ The magnification window.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms692392(v=VS.85).aspx">MagImageScalingCallback</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms692392(v=VS.85).aspx">MagImageScalingCallback</a></b>
 
-Returns the registered <a href="https://msdn.microsoft.com/library/ms692392(v=VS.85).aspx">MagImageScalingCallback</a> callback function, or <b>NULL</b> if no callback is registered.
+Returns the registered <a href="https://msdn.microsoft.com/en-us/library/ms692392(v=VS.85).aspx">MagImageScalingCallback</a> callback function, or <b>NULL</b> if no callback is registered.
 
 
 
@@ -88,7 +88,7 @@ Returns the registered <a href="https://msdn.microsoft.com/library/ms692392(v=VS
 
 This function returns <b>NULL</b> if Windows Display Driver Model (WDDM) is not supported.
 
-This function works only when <a href="https://msdn.microsoft.com/library/Aa969540(v=VS.85).aspx">Desktop Window Manager</a> (DWM) is off.
+This function works only when <a href="https://msdn.microsoft.com/en-us/library/Aa969540(v=VS.85).aspx">Desktop Window Manager</a> (DWM) is off.
 
 
 
@@ -98,11 +98,11 @@ This function works only when <a href="https://msdn.microsoft.com/library/Aa9695
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692392(v=VS.85).aspx">MagImageScalingCallback</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692392(v=VS.85).aspx">MagImageScalingCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692395(v=VS.85).aspx">MagSetImageScalingCallback</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692395(v=VS.85).aspx">MagSetImageScalingCallback</a>
  
 
  

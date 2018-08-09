@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_RedEyeCorrectionParams.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\redeyecorrectionparams.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: RedEyeCorrectionParams, RedEyeCorrectionParams structure [GDI+], _gdiplus_STRUC_RedEyeCorrectionParams, gdiplus._gdiplus_STRUC_RedEyeCorrectionParams, gdipluseffects/RedEyeCorrectionParams
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,8 +56,8 @@ A <b>RedEyeCorrectionParams</b> structure contains members that specify the area
 You can can correct red eyes in a bitmap by following these steps.
 <ol>
 <li>Create and initialize a <b>RedEyeCorrectionParams</b> structure.</li>
-<li>Pass the address of the <b>RedEyeCorrectionParams</b> structure to the <a href="https://msdn.microsoft.com/library/ms534928(v=VS.85).aspx">RedEyeCorrection::SetParameters</a> method of a <a href="https://msdn.microsoft.com/library/ms534499(v=VS.85).aspx">RedEyeCorrection</a> object.</li>
-<li>Pass the address of the <a href="https://msdn.microsoft.com/library/ms534499(v=VS.85).aspx">RedEyeCorrection</a> object to the <a href="https://msdn.microsoft.com/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method.</li>
+<li>Pass the address of the <b>RedEyeCorrectionParams</b> structure to the <a href="https://msdn.microsoft.com/en-us/library/ms534928(v=VS.85).aspx">RedEyeCorrection::SetParameters</a> method of a <a href="https://msdn.microsoft.com/en-us/library/ms534499(v=VS.85).aspx">RedEyeCorrection</a> object.</li>
+<li>Pass the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534499(v=VS.85).aspx">RedEyeCorrection</a> object to the <a href="https://msdn.microsoft.com/en-us/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/en-us/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method.</li>
 </ol>
 
 ## -struct-fields

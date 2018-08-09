@@ -7,7 +7,7 @@ old-location: inputdev\sendinput.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\sendinput.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SendInput, SendInput function [Keyboard and Mouse Input], _win32_SendInput, _win32_sendinput_cpp, inputdev.sendinput, winui._win32_sendinput, winuser/SendInput
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,11 @@ Synthesizes keystrokes, mouse motions, and button clicks.
 
 
 
-### -param cInputs
+### -param cInputs [in]
 
-TBD
+Type: <b>UINT</b>
+
+The number of structures in the <i>pInputs</i> array.
 
 
 ### -param pInputs [in]
@@ -82,13 +84,6 @@ An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff55096
 Type: <b>int</b>
 
 The size, in bytes, of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550962">INPUT</a> structure. If <i>cbSize</i> is not the size of an <b>INPUT</b> structure, the function fails.
-
-
-#### - nInputs [in]
-
-Type: <b>UINT</b>
-
-The number of structures in the <i>pInputs</i> array.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: rras\rasgetnapstatus.htm
 old-project: rras
 ms.assetid: 7f36f93f-7e07-4ad8-923f-59146bda4687
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RasGetNapStatus, ras/rasgetnapstatus, rasgetnapstatus, rasgetnapstatus function [RAS], rras.rasgetnapstatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,25 +59,13 @@ The <b>RasGetNapStatus</b> function retrieves the <a href="https://msdn.microsof
 
 
 
-### -param hRasconn
-
-TBD
-
-
-### -param pRasNapState
-
-TBD
-
-
-
-
-#### - hRasConn [in]
+### -param hRasconn [in]
 
 A handle to the connection. Use <a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> or <a href="https://msdn.microsoft.com/b581cfbf-a55e-4f56-89cd-168aa23af550">RasEnumConnections</a> to obtain this handle. 
 					
 
 
-#### - pNapState [in, out]
+### -param pRasNapState [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/1cba931c-041a-4ec6-8c30-db3a02b59ec3">RASNAPSTATE</a> structure. On input, the <b>dwSize</b> member of the structure must be set to <b>sizeof(RASNAPSTATE)</b>. On output, <i>pNapState</i> returns the NAP state of the RAS connection.
  

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4failoversetrelationship.htm
 old-project: dhcp
 ms.assetid: 04012953-dca3-426f-99de-798870d1eb97
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CHANGESTATE, DhcpV4FailoverSetRelationship, DhcpV4FailoverSetRelationship function [DHCP], MCLT, MODE, PERCENTAGE, PREVSTATE, SAFEPERIOD, dhcp.dhcpv4failoversetrelationship, dhcpsapi/DhcpV4FailoverSetRelationship
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,17 +63,7 @@ The <b>DhcpV4FailoverSetRelationship</b> function sets or modifies the parameter
 Pointer to a null-terminated Unicode string that represents the IP address or hostname of the DHCP server.
 
 
-### -param Flags
-
-TBD
-
-
-### -param pRelationship [in]
-
-Pointer to a <a href="https://msdn.microsoft.com/b409b0ff-2fdc-416c-a7ce-2cba9cf75122">DHCP_FAILOVER_RELATIONSHIP</a> structure that  contains  update information about the fields in the DHCPv4 failover relationship.
-
-
-#### - flags [in]
+### -param Flags [in]
 
 A bitmask that specifies the fields to update in <i>pRelationship</i>. Each value specifies a member of the <a href="https://msdn.microsoft.com/b409b0ff-2fdc-416c-a7ce-2cba9cf75122">DHCP_FAILOVER_RELATIONSHIP</a> structure to be modified. 
 
@@ -150,6 +140,11 @@ The <b>prevState</b> member in <i>pRelationship</i> parameter structure is popul
 </tr>
 </table>
  
+
+
+### -param pRelationship [in]
+
+Pointer to a <a href="https://msdn.microsoft.com/b409b0ff-2fdc-416c-a7ce-2cba9cf75122">DHCP_FAILOVER_RELATIONSHIP</a> structure that  contains  update information about the fields in the DHCPv4 failover relationship.
 
 
 ## -returns

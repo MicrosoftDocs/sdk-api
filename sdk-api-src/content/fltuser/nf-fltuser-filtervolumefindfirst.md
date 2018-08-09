@@ -7,7 +7,7 @@ old-location: ifsk\filtervolumefindfirst.htm
 old-project: ifsk
 ms.assetid: c74ea261-bc9c-4fb0-a886-6947986566b2
 ms.author: windowssdkdev
-ms.date: 04/17/2018
+ms.date: 08/06/2018
 ms.keywords: FilterVolumeFindFirst, FilterVolumeFindFirst function [Installable File System Drivers], FltWin32ApiRef_eb46c1c6-3137-4082-8272-8caccaeabf64.xml, fltuser/FilterVolumeFindFirst, ifsk.filtervolumefindfirst
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,14 +107,7 @@ Size, in bytes, of the buffer that the <i>lpBuffer</i> parameter points to. The 
 Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>lpBuffer</i> points to if the call to <b>FilterVolumeFindFirst</b> succeeds. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param lpVolumeFind
-
-TBD
-
-
-
-
-#### - lpFilterFind [out]
+### -param lpVolumeFind [out]
 
 Pointer to a caller-allocated variable that receives a search handle for the minifilter if the call to <b>FilterVolumeFindFirst</b> succeeds; otherwise, it receives INVALID_HANDLE_VALUE. This search handle can be used in subsequent calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541530">FilterVolumeFindNext</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff541522">FilterVolumeFindClose</a>. 
 

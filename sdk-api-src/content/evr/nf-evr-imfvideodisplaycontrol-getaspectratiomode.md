@@ -7,7 +7,7 @@ old-location: mf\imfvideodisplaycontrol_getaspectratiomode.htm
 old-project: medfound
 ms.assetid: b5e81f80-e5c9-4ecf-8f10-d52a0533f086
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [Media Foundation], GetAspectRatioMode method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetAspectRatioMode method, IMFVideoDisplayControl.GetAspectRatioMode, IMFVideoDisplayControl::GetAspectRatioMode, b5e81f80-e5c9-4ecf-8f10-d52a0533f086, evr/IMFVideoDisplayControl::GetAspectRatioMode, mf.imfvideodisplaycontrol_getaspectratiomode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          Queries how the enhanced video renderer (EVR) handles the aspect ratio of the source video.
+Queries how the enhanced video renderer (EVR) handles the aspect ratio of the source video.
         
 
 

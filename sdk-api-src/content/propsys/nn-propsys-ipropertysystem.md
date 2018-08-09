@@ -7,7 +7,7 @@ old-location: properties\IPropertySystem.htm
 old-project: properties
 ms.assetid: 9ead94d9-4d4e-44c6-8c53-11c4c4ee2fb2
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: IPropertySystem, IPropertySystem interface [Windows Properties], IPropertySystem interface [Windows Properties],described, properties.IPropertySystem, propsys/IPropertySystem, shell.IPropertySystem, shell_IPropertySystem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,16 +71,16 @@ The <b>IPropertySystem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb761426(v=VS.85).aspx">EnumeratePropertyDescriptions</a>
+<a href="shell.IPropertySystem_EnumeratePropertyDescriptions">EnumeratePropertyDescriptions</a>
 </td>
 <td align="left" width="63%">
-Gets an instance of the subsystem object that implements <a href="https://msdn.microsoft.com/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a>, to obtain either the entire or a partial list of property descriptions in the system.
+Gets an instance of the subsystem object that implements <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a>, to obtain either the entire or a partial list of property descriptions in the system.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb761521(v=VS.85).aspx">FormatForDisplay</a>
+<a href="shell.IPropertySystem_FormatForDisplay">FormatForDisplay</a>
 </td>
 <td align="left" width="63%">
 Gets a formatted, Unicode string representation of a property value.
@@ -89,7 +89,7 @@ Gets a formatted, Unicode string representation of a property value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb761430(v=VS.85).aspx">FormatForDisplayAlloc</a>
+<a href="shell.IPropertySystem_FormatForDisplayAlloc">FormatForDisplayAlloc</a>
 </td>
 <td align="left" width="63%">
 Gets a string representation of a property value to an allocated memory buffer.
@@ -98,19 +98,19 @@ Gets a string representation of a property value to an allocated memory buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb761432(v=VS.85).aspx">GetPropertyDescription</a>
+<a href="shell.IPropertySystem_GetPropertyDescription">GetPropertyDescription</a>
 </td>
 <td align="left" width="63%">
-Gets an instance of the subsystem object that implements <a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>, to obtain the property description for a given <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>.
+Gets an instance of the subsystem object that implements <a href="shell.IPropertyDescription">IPropertyDescription</a>, to obtain the property description for a given <a href="shell.PROPERTYKEY">PROPERTYKEY</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb761434(v=VS.85).aspx">GetPropertyDescriptionByName</a>
+<a href="shell.IPropertySystem_GetPropertyDescriptionByName">GetPropertyDescriptionByName</a>
 </td>
 <td align="left" width="63%">
-Gets an instance of the subsystem object that implements <a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>, to obtain the property description for a given canonical name.
+Gets an instance of the subsystem object that implements <a href="shell.IPropertyDescription">IPropertyDescription</a>, to obtain the property description for a given canonical name.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ Gets an instance of the subsystem object that implements <a href="https://msdn.m
 <a href="shell.IPropertySystem_GetPropertyDescriptionListFromString">GetPropertyDescriptionListFromString</a>
 </td>
 <td align="left" width="63%">
-Gets an instance of the subsystem object that implements <a href="https://msdn.microsoft.com/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a>, to obtain an ordered collection of property descriptions, based on the provided string.
+Gets an instance of the subsystem object that implements <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a>, to obtain an ordered collection of property descriptions, based on the provided string.
 
 </td>
 </tr>
@@ -157,7 +157,7 @@ Informs the schema subsystem of the removal of a property description schema (.p
 
 
 
-Many of the exported APIs (such as <a href="https://msdn.microsoft.com/library/Bb776503(v=VS.85).aspx">PSGetPropertyDescription</a>) are simply wrappers around the <a href="https://msdn.microsoft.com/library/Bb761437(v=VS.85).aspx">IPropertySystem</a> methods. If your code calls a lot of these helper APIs in sequence, it may be worthwhile to instantiate a single <b>IPropertySystem</b> object, and call the methods directly, rather than calling the helper APIs. (To improve the performance, the helper APIs do obtain a cached instance of the <b>IPropertySystem</b> object.)
+Many of the exported APIs (such as <a href="shell.PSGetPropertyDescription">PSGetPropertyDescription</a>) are simply wrappers around the <a href="shell.IPropertySystem">IPropertySystem</a> methods. If your code calls a lot of these helper APIs in sequence, it may be worthwhile to instantiate a single <b>IPropertySystem</b> object, and call the methods directly, rather than calling the helper APIs. (To improve the performance, the helper APIs do obtain a cached instance of the <b>IPropertySystem</b> object.)
 
 
 

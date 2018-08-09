@@ -4,10 +4,10 @@ title: CredWriteA function
 author: windows-sdk-content
 description: Creates a new credential or modifies an existing credential in the user's credential set.
 old-location: security\credwrite.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 9a590347-d610-4916-bf63-60fbec173ac2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CRED_PRESERVE_CREDENTIAL_BLOB, CredWrite, CredWrite function [Security], CredWriteA, CredWriteW, _cred_credwrite, security.credwrite, wincred/CredWrite, wincred/CredWriteA, wincred/CredWriteW
 ms.prod: windows
 ms.technology: windows-sdk

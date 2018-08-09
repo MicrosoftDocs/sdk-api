@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_setnoprogresstimeout.htm
 old-project: bits
 ms.assetid: 3fcf46ed-197f-46ad-ac62-2c4a2e8b27ef
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetNoProgressTimeout method, IBackgroundCopyJob.SetNoProgressTimeout, IBackgroundCopyJob::SetNoProgressTimeout, SetNoProgressTimeout, SetNoProgressTimeout method [BITS], SetNoProgressTimeout method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setnoprogresstimeout, bits.ibackgroundcopyjob_setnoprogresstimeout, bits/IBackgroundCopyJob::SetNoProgressTimeout
 ms.prod: windows
 ms.technology: windows-sdk

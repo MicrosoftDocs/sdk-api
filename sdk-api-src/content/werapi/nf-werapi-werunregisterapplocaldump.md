@@ -7,7 +7,7 @@ old-location: wer\werunregisterapplocaldump.htm
 old-project: wer
 ms.assetid: A3AD976A-9C44-494C-ABF0-90D151001E30
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 08/06/2018
 ms.keywords: WerUnregisterAppLocalDump, WerUnregisterAppLocalDump function [Windows Error Reporting], wer.werunregisterapplocaldump, werapi/WerUnregisterAppLocalDump
 ms.prod: windows
 ms.technology: windows-sdk

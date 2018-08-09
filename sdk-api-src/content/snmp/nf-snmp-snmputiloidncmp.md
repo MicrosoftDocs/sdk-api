@@ -4,10 +4,10 @@ title: SnmpUtilOidNCmp function
 author: windows-sdk-content
 description: The SnmpUtilOidNCmp function compares two object identifiers.
 old-location: snmp\snmputiloidncmp.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: a23df516-9559-4209-bf2d-8268737d1dfb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SnmpUtilOidNCmp, SnmpUtilOidNCmp function [SNMP], _snmp_snmputiloidncmp, snmp.snmputiloidncmp, snmp/SnmpUtilOidNCmp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SnmpUtilOidNCmp function

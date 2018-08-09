@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrush.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: PathGradientBrush, PathGradientBrush class [GDI+], PathGradientBrush class [GDI+],described, _gdiplus_CLASS_PathGradientBrush_Class, gdiplus._gdiplus_CLASS_PathGradientBrush_Class, gdipluspath/PathGradientBrush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,12 +59,12 @@ A <b>PathGradientBrush</b> object stores the attributes of a color gradient that
 
 
 By default, the center point of a path gradient brush is the centroid of the boundary path, but you can set the center point to any location, inside or outside the path, by calling 
-				<a href="https://msdn.microsoft.com/library/ms535078(v=VS.85).aspx">PathGradientBrush::SetCenterPoint Methods</a>.
+				<a href="https://msdn.microsoft.com/en-us/library/ms535078(v=VS.85).aspx">PathGradientBrush::SetCenterPoint Methods</a>.
 
 The boundary path can be a polygon specified by an array of points, and each of those points along the boundary can have a different color.
 
 By default, the color is linearly related to the distance as you move from a point on the boundary to the center point. You can customize the relationship between color and distance by calling 
-				<a href="https://msdn.microsoft.com/library/ms535084(v=VS.85).aspx">PathGradientBrush::SetBlend</a>.
+				<a href="https://msdn.microsoft.com/en-us/library/ms535084(v=VS.85).aspx">PathGradientBrush::SetBlend</a>.
 
 
 

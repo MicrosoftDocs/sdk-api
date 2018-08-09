@@ -7,7 +7,7 @@ old-location: fs\cancelntmsoperatorrequest.htm
 old-project: Rsm
 ms.assetid: d0ba65fe-0355-4bd6-b9ad-98e8f7992827
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: CancelNtmsOperatorRequest, CancelNtmsOperatorRequest function [Files], _zaw_cancelntmsoperatorrequest, base.cancelntmsoperatorrequest, fs.cancelntmsoperatorrequest, ntmsapi/CancelNtmsOperatorRequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -168,7 +168,7 @@ The operator request has been canceled.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Operator Request Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Operator Request Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: shell\SHRegSetPath.htm
 old-project: shell
 ms.assetid: 3ee6ec69-5d16-4bdd-a591-651af05bf944
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHRegSetPath, SHRegSetPath function [Windows Shell], SHRegSetPathA, SHRegSetPathW, _win32_SHRegSetPath, shell.SHRegSetPath, shlwapi/SHRegSetPath, shlwapi/SHRegSetPathA, shlwapi/SHRegSetPathW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,24 +66,32 @@ Takes a file path, replaces folder names with environment strings, and places th
 
 
 
-### -param hKey
+### -param hKey [in]
 
-TBD
+Type: <b>HKEY</b>
 
-
-### -param pcszSubKey
-
-TBD
+A handle to a key that is currently open, or a registry root key.
 
 
-### -param pcszValue
+### -param pcszSubKey [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string containing the name of an existing subkey. If the subkey does not exist, <b>SHRegSetPath</b> will fail.
 
 
-### -param pcszPath
+### -param pcszValue [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string with the name of the value to hold the path string.
+
+
+### -param pcszPath [in]
+
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string with a fully qualified file path.
 
 
 ### -param dwFlags
@@ -91,34 +99,6 @@ TBD
 Type: <b>DWORD</b>
 
 Reserved.
-
-
-#### - hkey [in]
-
-Type: <b>HKEY</b>
-
-A handle to a key that is currently open, or a registry root key.
-
-
-#### - pszPath [in]
-
-Type: <b>LPCTSTR</b>
-
-A pointer to a null-terminated string with a fully qualified file path.
-
-
-#### - pszSubkey [in]
-
-Type: <b>LPCTSTR</b>
-
-A pointer to a null-terminated string containing the name of an existing subkey. If the subkey does not exist, <b>SHRegSetPath</b> will fail.
-
-
-#### - pszValue [in]
-
-Type: <b>LPCTSTR</b>
-
-A pointer to a null-terminated string with the name of the value to hold the path string.
 
 
 ## -returns
@@ -147,32 +127,27 @@ The following folder paths will be replaced by their equivalent environment stri
 </tr>
 <tr>
 <td>The current user's profile folder</td>
-<td>
-							%USERPROFILE%
+<td>%USERPROFILE%
 						</td>
 </tr>
 <tr>
 <td>The All Users profile folder</td>
-<td>
-							%ALLUSERSPROFILE%
+<td>%ALLUSERSPROFILE%
 						</td>
 </tr>
 <tr>
 <td>The Program Files folder</td>
-<td>
-							%ProgramFiles%
+<td>%ProgramFiles%
 						</td>
 </tr>
 <tr>
 <td>The system root folder</td>
-<td>
-							%SystemRoot%
+<td>%SystemRoot%
 						</td>
 </tr>
 <tr>
 <td>The system drive letter</td>
-<td>
-							%SystemDrive%
+<td>%SystemDrive%
 						</td>
 </tr>
 </table>

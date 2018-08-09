@@ -7,7 +7,7 @@ old-location: wia\_wia_IEnumWIA_DEV_CAPS_Clone.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwia_dev_caps\clone.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: Clone, Clone method [WIA], Clone method [WIA],IEnumWIA_DEV_CAPS interface, IEnumWIA_DEV_CAPS interface [WIA],Clone method, IEnumWIA_DEV_CAPS.Clone, IEnumWIA_DEV_CAPS::Clone, _wia_IEnumWIA_DEV_CAPS_Clone, wia._wia_IEnumWIA_DEV_CAPS_Clone, wia_xp/IEnumWIA_DEV_CAPS::Clone
 ms.prod: windows
 ms.technology: windows-sdk

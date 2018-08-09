@@ -7,7 +7,7 @@ old-location: security\secpkg_user_function_table.htm
 old-project: secauthn
 ms.assetid: 2b3fc6d1-2f55-4053-9271-f5cb5c318555
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: "*PSECPKG_USER_FUNCTION_TABLE, PSECPKG_USER_FUNCTION_TABLE, PSECPKG_USER_FUNCTION_TABLE structure pointer [Security], SECPKG_USER_FUNCTION_TABLE, SECPKG_USER_FUNCTION_TABLE structure [Security], _SECPKG_USER_FUNCTION_TABLE, _ssp_secpkg_user_function_table, ntsecpkg/PSECPKG_USER_FUNCTION_TABLE, ntsecpkg/SECPKG_USER_FUNCTION_TABLE, security.secpkg_user_function_table"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The <b>SECPKG_USER_FUNCTION_TABLE</b> structure contains pointers to the functions that a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> implements to support executing in process with client/server applications. This structure is provided by the 
+The <b>SECPKG_USER_FUNCTION_TABLE</b> structure contains pointers to the functions that a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> implements to support executing in process with client/server applications. This structure is provided by the 
 <a href="https://msdn.microsoft.com/e260db29-995b-4f32-b389-4ef62b3b29bc">SpUserModeInitialize</a> function.
 
 

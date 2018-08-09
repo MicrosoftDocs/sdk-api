@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_discountsend_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2usk.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: DiscountSend property [Fax Service], DiscountSend property [Fax Service],FaxDoc object, FaxDoc object [Fax Service],DiscountSend property, FaxDoc.DiscountSend, IFaxDoc.get_DiscountSend, IFaxDoc::get_DiscountSend, _mfax_ifaxdoc_get_discountsend, fax._mfax_ifaxdoc_get_discountsend, fax._mfax_ifaxdoc_get_discountsend_vb, get_DiscountSend
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-Sets or retrieves the <b>DiscountSend</b> property for a <a href="https://msdn.microsoft.com/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The <b>DiscountSend</b> property is a Boolean value that indicates whether the fax server transmits faxes during the discount period.
+Sets or retrieves the <b>DiscountSend</b> property for a <a href="https://msdn.microsoft.com/en-us/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The <b>DiscountSend</b> property is a Boolean value that indicates whether the fax server transmits faxes during the discount period.
 
 This property is read/write.
 
@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-To determine the period during which the discount rate applies, you can call the following <a href="https://msdn.microsoft.com/library/ms692375(v=VS.85).aspx">IFaxServer</a> methods: <a href="https://msdn.microsoft.com/library/ms691308(v=VS.85).aspx">DiscountRateStartMinute</a>, <a href="https://msdn.microsoft.com/library/ms690899(v=VS.85).aspx">DiscountRateEndMinute</a>, <a href="https://msdn.microsoft.com/library/ms690858(v=VS.85).aspx">DiscountRateStartHour</a>, and <a href="https://msdn.microsoft.com/library/ms691317(v=VS.85).aspx">DiscountRateEndHour</a>.
+To determine the period during which the discount rate applies, you can call the following <a href="https://msdn.microsoft.com/en-us/library/ms692375(v=VS.85).aspx">IFaxServer</a> methods: <a href="https://msdn.microsoft.com/en-us/library/ms691308(v=VS.85).aspx">DiscountRateStartMinute</a>, <a href="https://msdn.microsoft.com/en-us/library/ms690899(v=VS.85).aspx">DiscountRateEndMinute</a>, <a href="https://msdn.microsoft.com/en-us/library/ms690858(v=VS.85).aspx">DiscountRateStartHour</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms691317(v=VS.85).aspx">DiscountRateEndHour</a>.
 
 
 
@@ -73,35 +73,35 @@ To determine the period during which the discount rate applies, you can call the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691317(v=VS.85).aspx">DiscountRateEndHour</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691317(v=VS.85).aspx">DiscountRateEndHour</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690899(v=VS.85).aspx">DiscountRateEndMinute</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690899(v=VS.85).aspx">DiscountRateEndMinute</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690858(v=VS.85).aspx">DiscountRateStartHour</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690858(v=VS.85).aspx">DiscountRateStartHour</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691308(v=VS.85).aspx">DiscountRateStartMinute</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691308(v=VS.85).aspx">DiscountRateStartMinute</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690707(v=VS.85).aspx">FaxDoc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690707(v=VS.85).aspx">FaxDoc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692281(v=VS.85).aspx">IFaxDoc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692281(v=VS.85).aspx">IFaxDoc</a>
  
 
  

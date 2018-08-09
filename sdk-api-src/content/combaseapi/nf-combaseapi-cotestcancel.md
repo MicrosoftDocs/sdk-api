@@ -7,7 +7,7 @@ old-location: com\cotestcancel.htm
 old-project: com
 ms.assetid: 9432621a-be31-4b8b-83b6-069539ba06b4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: CoTestCancel, CoTestCancel function [COM], _com_CoTestCancel, com.cotestcancel, combaseapi/CoTestCancel
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetoptionvalues.htm
 old-project: dhcp
 ms.assetid: 10a5513d-dfa2-416c-843e-422154db82ee
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpSetOptionValues, DhcpSetOptionValues function [DHCP], dhcp.dhcpsetoptionvalues, dhcpsapi/DhcpSetOptionValues
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\selectclippath.htm
 old-project: gdi
 ms.assetid: c5102e1b-ba33-4cce-a4e5-93cf10c1c0bb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: RGN_AND, RGN_COPY, RGN_DIFF, RGN_OR, RGN_XOR, SelectClipPath, SelectClipPath function [Windows GDI], _win32_SelectClipPath, gdi.selectclippath, wingdi/SelectClipPath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,14 +67,7 @@ The <b>SelectClipPath</b> function selects the current path as a clipping region
 A handle to the device context of the path.
 
 
-### -param mode
-
-TBD
-
-
-
-
-#### - iMode [in]
+### -param mode [in]
 
 The way to use the path. This parameter can be one of the following values.
 

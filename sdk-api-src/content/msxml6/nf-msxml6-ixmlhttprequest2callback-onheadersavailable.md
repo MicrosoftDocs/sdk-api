@@ -7,7 +7,7 @@ old-location: ixhr2\ixmlhttprequest2callback_onheadersavailable.htm
 old-project: ixhr2
 ms.assetid: EB6580C5-B200-4281-BF1F-FA5C3220689E
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnHeadersAvailable method, IXMLHTTPRequest2Callback.OnHeadersAvailable, IXMLHTTPRequest2Callback::OnHeadersAvailable, OnHeadersAvailable, OnHeadersAvailable method [XMLHttpRequest2], OnHeadersAvailable method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onheadersavailable, msxml6/IXMLHTTPRequest2Callback::OnHeadersAvailable
 ms.prod: windows
 ms.technology: windows-sdk

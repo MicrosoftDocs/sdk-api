@@ -4,10 +4,10 @@ title: IProvideWinSATAssessmentInfo::get_Title
 author: windows-sdk-content
 description: Retrieves the title of the subcomponent.
 old-location: winsat\iprovidewinsatassessmentinfo_title.htm
-old-project: WinSAT
+old-project: winsat
 ms.assetid: 11c9c59f-97d6-41d1-ab0e-7901e126b07c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IProvideWinSATAssessmentInfo interface [WinSAT],Title property, IProvideWinSATAssessmentInfo.Title, IProvideWinSATAssessmentInfo.get_Title, IProvideWinSATAssessmentInfo::Title, IProvideWinSATAssessmentInfo::get_Title, Title property [WinSAT], Title property [WinSAT],IProvideWinSATAssessmentInfo interface, get_Title, winsat.iprovidewinsatassessmentinfo_title, winsatcominterfacei/IProvideWinSATAssessmentInfo::Title, winsatcominterfacei/IProvideWinSATAssessmentInfo::get_Title
 ms.prod: windows
 ms.technology: windows-sdk

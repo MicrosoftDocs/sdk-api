@@ -7,7 +7,7 @@ old-location: tsf\itfinputprocessorprofileactivationsink.htm
 old-project: TSF
 ms.assetid: 97a6a820-8e0e-46b0-a359-da0a17fb4cae
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfInputProcessorProfileActivationSink, ITfInputProcessorProfileActivationSink interface [Text Services Framework], ITfInputProcessorProfileActivationSink interface [Text Services Framework],described, _tsf_itfinputprocessorprofileactivationsink_ref, msctf/ITfInputProcessorProfileActivationSink, tsf.itfinputprocessorprofileactivationsink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>ITfInputProcessorProfileActivationSink</b> interface has these methods.
 <a href="https://msdn.microsoft.com/d171cf73-b409-4501-a956-06867c20f214">OnActivated</a>
 </td>
 <td align="left" width="63%">
-
-        Callback method that is called when an input processor profile is activated or deactivated.
+Callback method that is called when an input processor profile is activated or deactivated.
 
 </td>
 </tr>

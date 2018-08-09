@@ -7,7 +7,7 @@ old-location: gdi\setviewportorgex.htm
 old-project: gdi
 ms.assetid: d3b6326e-9fec-42a1-8d2e-d1ad4fcc79a4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetViewportOrgEx, SetViewportOrgEx function [Windows GDI], _win32_SetViewportOrgEx, gdi.setviewportorgex, wingdi/SetViewportOrgEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,34 +67,17 @@ The <b>SetViewportOrgEx</b> function specifies which device point maps to the wi
 A handle to the device context.
 
 
-### -param x
-
-TBD
-
-
-### -param y
-
-TBD
-
-
-### -param lppt
-
-TBD
-
-
-
-
-#### - X [in]
+### -param x [in]
 
 The x-coordinate, in device units, of the new viewport origin.
 
 
-#### - Y [in]
+### -param y [in]
 
 The y-coordinate, in device units, of the new viewport origin.
 
 
-#### - lpPoint [out]
+### -param lppt [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that receives the previous viewport origin, in device coordinates. If <i>lpPoint</i> is <b>NULL</b>, this parameter is not used.
 

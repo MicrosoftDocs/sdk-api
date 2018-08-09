@@ -7,7 +7,7 @@ old-location: controls\TreeView_SetCheckState.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setcheckstate.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TreeView_SetCheckState, TreeView_SetCheckState macro [Windows Controls], _win32_TreeView_SetCheckState, _win32_TreeView_SetCheckState_cpp, commctrl/TreeView_SetCheckState, controls.TreeView_SetCheckState, controls._win32_TreeView_SetCheckState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the item's state image to "checked" or "unchecked." You can also use the <a href="https://msdn.microsoft.com/library/Bb773758(v=VS.85).aspx">TVM_SETITEM</a> message directly.
+Sets the item's state image to "checked" or "unchecked." You can also use the <a href="https://msdn.microsoft.com/en-us/library/Bb773758(v=VS.85).aspx">TVM_SETITEM</a> message directly.
 
 
 ## -parameters
@@ -67,7 +67,9 @@ Handle to the tree-view control.
 
 ### -param hti
 
-TBD
+Type: <b>HTREEITEM</b>
+
+Handle to the item. 
 
 
 ### -param fCheck
@@ -78,18 +80,11 @@ Value that indicates which state image is displayed. Set
 					<i>fCheck</i> to <b>TRUE</b> to display the checked state image or <b>FALSE</b> to display the unchecked image. 
 
 
-#### - hItem
-
-Type: <b>HTREEITEM</b>
-
-Handle to the item. 
-
-
 ## -remarks
 
 
 
-A tree-view control can have two image lists. The normal image list stores the selected, nonselected, and overlay images. Check boxes are stored in the state image list and displayed to the left of the corresponding normal image. State images are specified by a one-based index. An index of zero indicates that there is no state image. See <a href="https://msdn.microsoft.com/library/Bb760017(v=VS.85).aspx">Tree-View Image Lists</a> for a discussion of how to handle tree-view images.
+A tree-view control can have two image lists. The normal image list stores the selected, nonselected, and overlay images. Check boxes are stored in the state image list and displayed to the left of the corresponding normal image. State images are specified by a one-based index. An index of zero indicates that there is no state image. See <a href="Tree_View_Controls.htm">Tree-View Image Lists</a> for a discussion of how to handle tree-view images.
 
 If you want to define your own state images, this macro assumes that the checked and unchecked images have the same indexes as the standard image list: 1 for unchecked and 2 for checked.
 

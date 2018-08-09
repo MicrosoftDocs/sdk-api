@@ -4,10 +4,10 @@ title: IAutomaticUpdates2::get_Results
 author: windows-sdk-content
 description: Returns a pointer to an IAutomaticUpdatesResults interface.
 old-location: wua\iautomaticupdates2_results.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: b83f6833-5318-42ca-a1d6-30b6590873bb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IAutomaticUpdates2 interface [Windows Update Agent],get_Results method, IAutomaticUpdates2.get_Results, IAutomaticUpdates2::get_Results, get_Results, get_Results method [Windows Update Agent], get_Results method [Windows Update Agent],IAutomaticUpdates2 interface, wua.iautomaticupdates2_results, wuapi/IAutomaticUpdates2::get_Results
 ms.prod: windows
 ms.technology: windows-sdk

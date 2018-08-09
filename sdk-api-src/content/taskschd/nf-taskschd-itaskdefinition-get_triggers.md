@@ -4,10 +4,10 @@ title: ITaskDefinition::get_Triggers
 author: windows-sdk-content
 description: Gets or sets a collection of triggers used to start a task.
 old-location: taskschd\itaskdefinition_triggers.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 53093027-a371-49e1-a2c7-f7ca95f97a3d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ITaskDefinition interface [Task Scheduler],Triggers property, ITaskDefinition.Triggers, ITaskDefinition.get_Triggers, ITaskDefinition::Triggers, ITaskDefinition::get_Triggers, ITaskDefinition::put_Triggers, Triggers property [Task Scheduler], Triggers property [Task Scheduler],ITaskDefinition interface, get_Triggers, taskschd.itaskdefinition_triggers, taskschd/ITaskDefinition::Triggers, taskschd/ITaskDefinition::get_Triggers, taskschd/ITaskDefinition::put_Triggers
 ms.prod: windows
 ms.technology: windows-sdk

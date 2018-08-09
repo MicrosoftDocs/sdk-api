@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_vsgetconstantbuffers.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_vsgetconstantbuffers.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 2359bc62-0205-acb7-f462-1ceafd1f8b80, ID3D10Device interface [Direct3D 10],VSGetConstantBuffers method, ID3D10Device.VSGetConstantBuffers, ID3D10Device::VSGetConstantBuffers, VSGetConstantBuffers, VSGetConstantBuffers method [Direct3D 10], VSGetConstantBuffers method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::VSGetConstantBuffers, direct3d10.id3d10device_vsgetconstantbuffers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Get the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">vertex shader</a> pipeline stage.
+Get the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">vertex shader</a> pipeline stage.
 
 
 ## -parameters
@@ -75,9 +75,9 @@ Number of buffers to retrieve.
 
 ### -param ppConstantBuffers [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173510(v=VS.85).aspx">ID3D10Buffer</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173510(v=VS.85).aspx">ID3D10Buffer</a>**</b>
 
-Array of constant buffer interface pointers (see <a href="https://msdn.microsoft.com/library/Bb173510(v=VS.85).aspx">ID3D10Buffer</a>) to be returned by the method.
+Array of constant buffer interface pointers (see <a href="https://msdn.microsoft.com/en-us/library/Bb173510(v=VS.85).aspx">ID3D10Buffer</a>) to be returned by the method.
 
 
 ## -returns
@@ -103,7 +103,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

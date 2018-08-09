@@ -7,7 +7,7 @@ old-location: netmgmt\at_info_str.htm
 old-project: netmgmt
 ms.assetid: eb0bf696-53ca-432a-b04c-5e0b6a61a0fd
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPAT_INFO, *PAT_INFO, AT_INFO, AT_INFO structure [Network Management], JOB_ADD_CURRENT_DATE, JOB_EXEC_ERROR, JOB_NONINTERACTIVE, JOB_RUNS_TODAY, JOB_RUN_PERIODICALLY, LPAT_INFO, LPAT_INFO structure pointer [Network Management], PAT_INFO, PAT_INFO structure pointer [Network Management], _AT_INFO, _win32_at_info_str, lmat/AT_INFO, lmat/LPAT_INFO, lmat/PAT_INFO, netmgmt.at_info_str"
 ms.prod: windows
 ms.technology: windows-sdk

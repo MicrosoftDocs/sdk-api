@@ -7,7 +7,7 @@ old-location: cos\icreatewithlocaltransaction_createinstancewithsystx.htm
 old-project: cossdk
 ms.assetid: e56a1810-77e7-47fa-b8b1-bb1ebc5662fd
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CreateInstanceWithSysTx, CreateInstanceWithSysTx method [COM+], CreateInstanceWithSysTx method [COM+],ICreateWithLocalTransaction interface, ICreateWithLocalTransaction interface [COM+],CreateInstanceWithSysTx method, ICreateWithLocalTransaction.CreateInstanceWithSysTx, ICreateWithLocalTransaction::CreateInstanceWithSysTx, comsvcs/ICreateWithLocalTransaction::CreateInstanceWithSysTx, cos.icreatewithlocaltransaction_createinstancewithsystx
 ms.prod: windows
 ms.technology: windows-sdk

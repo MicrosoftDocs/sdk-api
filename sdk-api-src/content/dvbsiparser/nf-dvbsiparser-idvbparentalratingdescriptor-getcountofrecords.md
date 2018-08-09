@@ -7,7 +7,7 @@ old-location: mstv\idvbparentalratingdescriptor_getcountofrecords.htm
 old-project: mstv
 ms.assetid: 72dcfb91-4137-4149-b30d-2551cb209688
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbParentalRatingDescriptor interface, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbParentalRatingDescriptor.GetCountOfRecords, IDvbParentalRatingDescriptor::GetCountOfRecords, dvbsiparser/IDvbParentalRatingDescriptor::GetCountOfRecords, mstv.idvbparentalratingdescriptor_getcountofrecords
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ISettingsItem::GetValueRaw
 author: windows-sdk-content
 description: Gets the value from the current item as a byte array.
 old-location: smi\isettingsitem_getvalueraw.htm
-old-project: SMI
+old-project: smi
 ms.assetid: 2b4b96df-1286-49be-869a-404adaead27a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetValueRaw, GetValueRaw method [SMI], GetValueRaw method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetValueRaw method, ISettingsItem.GetValueRaw, ISettingsItem::GetValueRaw, smi.isettingsitem_getvalueraw, wcmconfig/ISettingsItem::GetValueRaw
 ms.prod: windows
 ms.technology: windows-sdk

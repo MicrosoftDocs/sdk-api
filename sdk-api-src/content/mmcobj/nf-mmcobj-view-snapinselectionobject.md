@@ -7,7 +7,7 @@ old-location: mmc\view_snapinselectionobject.htm
 old-project: MMC
 ms.assetid: f29347ab-9339-4e77-95a7-c9fb7992e676
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: SnapinSelectionObject, SnapinSelectionObject method [MMC], SnapinSelectionObject method [MMC],View interface, SnapinSelectionObject method [MMC],View object, View interface [MMC],SnapinSelectionObject method, View object [MMC],SnapinSelectionObject method, View.SnapinSelectionObject, View::SnapinSelectionObject, _slate_view.snapinselectionobject_method, mmc.view_snapinselectionobject
 ms.prod: windows
 ms.technology: windows-sdk

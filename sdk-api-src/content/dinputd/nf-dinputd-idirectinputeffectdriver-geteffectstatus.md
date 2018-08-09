@@ -7,7 +7,7 @@ old-location: hid\idirectinputeffectdriver_geteffectstatus.htm
 old-project: hid
 ms.assetid: 1332b89a-59ab-4baf-a729-2183b24ce70d
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/30/2018
 ms.keywords: GetEffectStatus, GetEffectStatus method [Human Input Devices], GetEffectStatus method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],GetEffectStatus method, IDirectInputEffectDriver.GetEffectStatus, IDirectInputEffectDriver::GetEffectStatus, di_ref_983ce615-4a09-4d28-af9d-968cd6c7054f.xml, dinputd/IDirectInputEffectDriver::GetEffectStatus, hid.idirectinputeffectdriver_geteffectstatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,14 @@ The <b>IDirectInputEffectDriver::GetEffectStatus </b>method obtains information 
 
 
 
-#### - dwEffect
-
-Specifies the effect to be queried. 
-
-
 #### - dwID
 
 Indicates the external joystick number being addressed. 
+
+
+#### - dwEffect
+
+Specifies the effect to be queried. 
 
 
 #### - pdwStatus

@@ -7,7 +7,7 @@ old-location: properties\VariantToStringWithDefault.htm
 old-project: properties
 ms.assetid: f8ca7844-057f-4e95-a4a9-f03f1d2ad492
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: VariantToStringWithDefault, VariantToStringWithDefault function [Windows Properties], _shell_VariantToStringWithDefault, properties.VariantToStringWithDefault, propvarutil/VariantToStringWithDefault, shell.VariantToStringWithDefault
 ms.prod: windows
 ms.technology: windows-sdk

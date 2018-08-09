@@ -7,7 +7,7 @@ old-location: intl\mappingfreeservices.htm
 old-project: Intl
 ms.assetid: 3b90c1c5-3007-4c5d-a51b-e77b1f9c2dd0
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: MappingFreeServices, MappingFreeServices function [Internationalization for Windows Applications], elscore/MappingFreeServices, intl.mappingfreeservices
 ms.prod: windows
 ms.technology: windows-sdk

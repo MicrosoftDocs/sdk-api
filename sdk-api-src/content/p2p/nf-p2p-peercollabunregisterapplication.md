@@ -7,7 +7,7 @@ old-location: p2p\peercollabunregisterapplication.htm
 old-project: p2psdk
 ms.assetid: 2479b726-20f1-4370-9fcf-f29cec44c3ec
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerCollabUnregisterApplication, PeerCollabUnregisterApplication function [Peer Networking], p2p.peercollabunregisterapplication, p2p/PeerCollabUnregisterApplication
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,19 +59,14 @@ The <b>PeerCollabUnregisterApplication</b> function unregisters the specific app
 
 
 
-### -param pApplicationId
+### -param pApplicationId [in]
 
-TBD
+Pointer to the GUID value that represents a particular peer's application.
 
 
 ### -param registrationType [in]
 
 A <a href="https://msdn.microsoft.com/58f14e46-377e-494b-93ef-fc19e8d87fcc">PEER_APPLICATION_REGISTRATION_TYPE</a> value that describes whether the peer's application is deregistered for the current user or all users of the peer's machine.
-
-
-#### - pApplicationID [in]
-
-Pointer to the GUID value that represents a particular peer's application.
 
 
 ## -returns
@@ -152,7 +147,7 @@ To unregister the application for all users, the caller of this API must be elev
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa371076(v=VS.85).aspx">PeerCollabRegisterApplication</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa371076(v=VS.85).aspx">PeerCollabRegisterApplication</a>
  
 
  

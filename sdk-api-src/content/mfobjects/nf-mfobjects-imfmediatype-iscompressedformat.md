@@ -7,7 +7,7 @@ old-location: mf\imfmediatype_iscompressedformat.htm
 old-project: medfound
 ms.assetid: d15d683b-f2ce-40ac-9724-a0785f5d335c
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFMediaType interface [Media Foundation],IsCompressedFormat method, IMFMediaType.IsCompressedFormat, IMFMediaType::IsCompressedFormat, IsCompressedFormat, IsCompressedFormat method [Media Foundation], IsCompressedFormat method [Media Foundation],IMFMediaType interface, d15d683b-f2ce-40ac-9724-a0785f5d335c, mf.imfmediatype_iscompressedformat, mfobjects/IMFMediaType::IsCompressedFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,9 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Queries whether the media type is a temporally compressed format.
-       Temporal compression uses information from previously decoded samples when decompressing the current sample.
+Queries whether the media type is a temporally compressed format.Temporal compression uses information from previously decoded samples when decompressing the current sample.
 
 
 ## -parameters
@@ -80,12 +78,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        This method returns <b>FALSE</b> in <i>pfCompressed</i> if the media type's <a href="https://msdn.microsoft.com/40434f63-e191-45e1-b788-5f80fe7f49ae">MF_MT_ALL_SAMPLES_INDEPENDENT</a> attribute is <b>TRUE</b>. If the <b>MF_MT_ALL_SAMPLES_INDEPENDENT</b> attribute is <b>FALSE</b> or not set, the method returns <b>TRUE</b>.
+This method returns <b>FALSE</b> in <i>pfCompressed</i> if the media type's <a href="https://msdn.microsoft.com/40434f63-e191-45e1-b788-5f80fe7f49ae">MF_MT_ALL_SAMPLES_INDEPENDENT</a> attribute is <b>TRUE</b>. If the <b>MF_MT_ALL_SAMPLES_INDEPENDENT</b> attribute is <b>FALSE</b> or not set, the method returns <b>TRUE</b>.
       
 
-
-        If the method returns <b>TRUE</b> in <i>pfCompressed</i>, it is a hint that the format has temporal compression applied to it. If the method returns <b>FALSE</b>, the format does not use temporal compression, although it might use intra-frame compression.
+If the method returns <b>TRUE</b> in <i>pfCompressed</i>, it is a hint that the format has temporal compression applied to it. If the method returns <b>FALSE</b>, the format does not use temporal compression, although it might use intra-frame compression.
       
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:

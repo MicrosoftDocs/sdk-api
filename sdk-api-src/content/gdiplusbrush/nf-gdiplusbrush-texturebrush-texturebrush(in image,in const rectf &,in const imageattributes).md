@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_TextureBrush_Constructors.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushconstructors.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: TextureBrush, TextureBrush constructors [GDI+], TextureBrush.TextureBrush, TextureBrush.TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes), TextureBrush::TextureBrush, TextureBrush::TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes), _gdiplus_CLASS_TextureBrush_Constructors, gdiplus._gdiplus_CLASS_TextureBrush_Constructors, gdiplusbrush/TextureBrush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 <span>This topic lists the constructors of the 
-			<a href="https://msdn.microsoft.com/library/ms534512(v=VS.85).aspx">TextureBrush</a> class. For a complete class listing, see <b>TextureBrush Class</b>. 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534512(v=VS.85).aspx">TextureBrush</a> class. For a complete class listing, see <b>TextureBrush Class</b>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Constructor</th>
@@ -60,64 +60,64 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534554(v=VS.85).aspx">TextureBrush(Image*,WrapMode)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534554(v=VS.85).aspx">TextureBrush(Image*,WrapMode)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms534512(v=VS.85).aspx">TextureBrush</a> object based on an image and a wrap mode. The size of the brush defaults to the size of the image, so the entire image is used by the brush.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534512(v=VS.85).aspx">TextureBrush</a> object based on an image and a wrap mode. The size of the brush defaults to the size of the image, so the entire image is used by the brush.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534558(v=VS.85).aspx">TextureBrush(Image*,WrapMode,Rect&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534558(v=VS.85).aspx">TextureBrush(Image*,WrapMode,Rect&)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms534512(v=VS.85).aspx">TextureBrush</a> object based on an image, a wrap mode, and a defining rectangle.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534512(v=VS.85).aspx">TextureBrush</a> object based on an image, a wrap mode, and a defining rectangle.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534544(v=VS.85).aspx">TextureBrush(Image*,wrapMode,RectF&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534544(v=VS.85).aspx">TextureBrush(Image*,wrapMode,RectF&)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms534512(v=VS.85).aspx">TextureBrush</a> object based on an image, a wrap mode, and a defining rectangle.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534512(v=VS.85).aspx">TextureBrush</a> object based on an image, a wrap mode, and a defining rectangle.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534546(v=VS.85).aspx">TextureBrush(Image*,Rect&,ImageAttributes*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534546(v=VS.85).aspx">TextureBrush(Image*,Rect&,ImageAttributes*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms534512(v=VS.85).aspx">TextureBrush</a> object based on an image, a defining rectangle, and a set of image properties.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534512(v=VS.85).aspx">TextureBrush</a> object based on an image, a defining rectangle, and a set of image properties.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534552(v=VS.85).aspx">TextureBrush(Image*,RectF&,ImageAttributes*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534552(v=VS.85).aspx">TextureBrush(Image*,RectF&,ImageAttributes*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms534512(v=VS.85).aspx">TextureBrush</a> object based on an image, a defining rectangle, and a set of image properties.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534512(v=VS.85).aspx">TextureBrush</a> object based on an image, a defining rectangle, and a set of image properties.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534548(v=VS.85).aspx">TextureBrush(Image*,WrapMode,INT,INT,INT,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534548(v=VS.85).aspx">TextureBrush(Image*,WrapMode,INT,INT,INT,INT)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms534512(v=VS.85).aspx">TextureBrush</a> object based on an image, a wrap mode, and a defining set of coordinates.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534512(v=VS.85).aspx">TextureBrush</a> object based on an image, a wrap mode, and a defining set of coordinates.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534550(v=VS.85).aspx">TextureBrush(Image*,WrapMode,REAL,REAL,REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534550(v=VS.85).aspx">TextureBrush(Image*,WrapMode,REAL,REAL,REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms534512(v=VS.85).aspx">TextureBrush</a> object based on an image, a wrap mode, and a defining set of coordinates.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534512(v=VS.85).aspx">TextureBrush</a> object based on an image, a wrap mode, and a defining set of coordinates.
 
 </td>
 </tr>

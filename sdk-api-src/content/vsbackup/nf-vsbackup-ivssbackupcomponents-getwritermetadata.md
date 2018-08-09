@@ -4,10 +4,10 @@ title: IVssBackupComponents::GetWriterMetadata
 author: windows-sdk-content
 description: The GetWriterMetadata method returns the metadata for a specific writer running on the system.
 old-location: base\ivssbackupcomponents_getwritermetadata.htm
-old-project: VSS
+old-project: vss
 ms.assetid: a577d06a-4c9d-4ebe-b4d4-685f96ec9c83
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetWriterMetadata, GetWriterMetadata method [VSS], GetWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterMetadata method, IVssBackupComponents.GetWriterMetadata, IVssBackupComponents::GetWriterMetadata, _win32_ivssbackupcomponents_getwritermetadata, base.ivssbackupcomponents_getwritermetadata, vsbackup/IVssBackupComponents::GetWriterMetadata
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\DateTime_GetMonthCal.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcal.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DateTime_GetMonthCal, DateTime_GetMonthCal macro [Windows Controls], _win32_DateTime_GetMonthCal, _win32_DateTime_GetMonthCal_cpp, commctrl/DateTime_GetMonthCal, controls.DateTime_GetMonthCal, controls._win32_DateTime_GetMonthCal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the handle to a date and time picker's (DTP) child month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761765(v=VS.85).aspx">DTM_GETMONTHCAL</a> message explicitly. 
+Gets the handle to a date and time picker's (DTP) child month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761765(v=VS.85).aspx">DTM_GETMONTHCAL</a> message explicitly. 
 
 
 ## -parameters
@@ -59,15 +59,6 @@ Gets the handle to a date and time picker's (DTP) child month calendar control. 
 
 
 ### -param hdp
-
-TBD
-
-
-
-
-
-
-#### - hwndDP
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
@@ -78,7 +69,7 @@ A handle to a DTP control.
 
 
 
-DTP controls create a child month calendar control when the user clicks the drop-down arrow (<a href="https://msdn.microsoft.com/library/Bb761739(v=VS.85).aspx">DTN_DROPDOWN</a> notification). When the month calendar is no longer needed, it is destroyed (a <a href="https://msdn.microsoft.com/library/Bb761735(v=VS.85).aspx">DTN_CLOSEUP</a> notification is sent on destruction). So your application must not rely on a static handle to the DTP's child month calendar. 
+DTP controls create a child month calendar control when the user clicks the drop-down arrow (<a href="https://msdn.microsoft.com/en-us/library/Bb761739(v=VS.85).aspx">DTN_DROPDOWN</a> notification). When the month calendar is no longer needed, it is destroyed (a <a href="https://msdn.microsoft.com/en-us/library/Bb761735(v=VS.85).aspx">DTN_CLOSEUP</a> notification is sent on destruction). So your application must not rely on a static handle to the DTP's child month calendar. 
 
 
 
@@ -88,11 +79,11 @@ DTP controls create a child month calendar control when the user clicks the drop
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761735(v=VS.85).aspx">DTN_CLOSEUP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761735(v=VS.85).aspx">DTN_CLOSEUP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761739(v=VS.85).aspx">DTN_DROPDOWN</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761739(v=VS.85).aspx">DTN_DROPDOWN</a>
 
 
 

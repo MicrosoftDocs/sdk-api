@@ -7,7 +7,7 @@ old-location: rras\raspbdlgfunc.htm
 old-project: rras
 ms.assetid: 70bb60a1-6a56-43fd-9352-8ced34ddd174
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RASPBDEVENT_AddEntry, RASPBDEVENT_DialEntry, RASPBDEVENT_EditEntry, RASPBDEVENT_EditGlobals, RASPBDEVENT_NoUser, RASPBDEVENT_NoUserEdit, RASPBDEVENT_RemoveEntry, RasPBDlgFunc, RasPBDlgFunc callback, RasPBDlgFunc callback function [RAS], RasPBDlgFuncA, RasPBDlgFuncW, _ras_raspbdlgfunc, rasdlg/RasPBDlgFunc, rasdlg/RasPBDlgFuncA, rasdlg/RasPBDlgFuncW, rras.raspbdlgfunc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -182,14 +182,14 @@ Received if the RASPBDFLAG_NoUser flag is set and the user changes the credentia
  
 
 
-#### - pData [in]
-
-Pointer to an additional buffer argument whose meaning depends on the event indicated in the <i>dwEvent</i> parameter.
-
-
 #### - pszText [in]
 
 Pointer to an additional string argument whose meaning depends on the event indicated in the <i>dwEvent</i> parameter.
+
+
+#### - pData [in]
+
+Pointer to an additional buffer argument whose meaning depends on the event indicated in the <i>dwEvent</i> parameter.
 
 
 ## -returns

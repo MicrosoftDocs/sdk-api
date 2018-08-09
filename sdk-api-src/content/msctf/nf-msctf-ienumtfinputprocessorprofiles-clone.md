@@ -7,7 +7,7 @@ old-location: tsf\ienumtfinputprocessorprofiles_clone.htm
 old-project: TSF
 ms.assetid: 485c27ac-20da-4974-832c-8305d18b2c4b
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfInputProcessorProfiles interface, IEnumTfInputProcessorProfiles interface [Text Services Framework],Clone method, IEnumTfInputProcessorProfiles.Clone, IEnumTfInputProcessorProfiles::Clone, msctf/IEnumTfInputProcessorProfiles::Clone, tsf.ienumtfinputprocessorprofiles_clone
 ms.prod: windows
 ms.technology: windows-sdk

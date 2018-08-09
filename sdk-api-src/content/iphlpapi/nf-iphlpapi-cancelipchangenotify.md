@@ -7,7 +7,7 @@ old-location: iphlp\cancelipchangenotify.htm
 old-project: iphlp
 ms.assetid: 10795401-003f-45ce-80f1-ccc31659298a
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: CancelIPChangeNotify, CancelIPChangeNotify function [IP Helper], iphlp.cancelipchangenotify, iphlpapi/CancelIPChangeNotify
 ms.prod: windows
 ms.technology: windows-sdk

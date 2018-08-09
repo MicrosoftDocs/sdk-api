@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservicecallback_onvisualtreechange.htm
 old-project: xaml_diagnostics
 ms.assetid: 91D128E7-ECCA-426D-A6D6-773672302C6C
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IVisualTreeServiceCallback interface,OnVisualTreeChange method, IVisualTreeServiceCallback.OnVisualTreeChange, IVisualTreeServiceCallback::OnVisualTreeChange, OnVisualTreeChange, OnVisualTreeChange method, OnVisualTreeChange method,IVisualTreeServiceCallback interface, xaml_diagnostics.ivisualtreeservicecallback_onvisualtreechange, xamlom/IVisualTreeServiceCallback::OnVisualTreeChange
 ms.prod: windows
 ms.technology: windows-sdk

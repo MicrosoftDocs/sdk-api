@@ -7,7 +7,7 @@ old-location: wmp\iwmpeffects2_onwindowmessage.htm
 old-project: WMP
 ms.assetid: c4efdac9-b50f-4448-98f2-efe015527a4e
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPEffects2 interface [Windows Media Player],OnWindowMessage method, IWMPEffects2.OnWindowMessage, IWMPEffects2::OnWindowMessage, IWMPEffectsOnWindowMessage, OnWindowMessage, OnWindowMessage method [Windows Media Player], OnWindowMessage method [Windows Media Player],IWMPEffects2 interface, effects/IWMPEffects2::OnWindowMessage, wmp.iwmpeffects2_onwindowmessage
 ms.prod: windows
 ms.technology: windows-sdk

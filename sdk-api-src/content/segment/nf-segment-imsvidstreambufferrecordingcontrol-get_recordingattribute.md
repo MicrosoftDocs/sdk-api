@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambufferrecordingcontrol_get_recordingattribute.htm
 old-project: mstv
 ms.assetid: 259d0ca0-0566-443c-aa73-a28c304b9d1d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],get_RecordingAttribute method, IMSVidStreamBufferRecordingControl.get_RecordingAttribute, IMSVidStreamBufferRecordingControl::get_RecordingAttribute, IMSVidStreamBufferRecordingControlget_RecordingAttribute, get_RecordingAttribute, get_RecordingAttribute method [Microsoft TV Technologies], get_RecordingAttribute method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, mstv.imsvidstreambufferrecordingcontrol_get_recordingattribute, segment/IMSVidStreamBufferRecordingControl::get_RecordingAttribute
 ms.prod: windows
 ms.technology: windows-sdk

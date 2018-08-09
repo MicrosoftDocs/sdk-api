@@ -4,10 +4,10 @@ title: lineGetMessage function
 author: windows-sdk-content
 description: The lineGetMessage function returns the next TAPI message that is queued for delivery to an application that is using the Event Handle notification mechanism (see lineInitializeEx for further details).
 old-location: tapi2\linegetmessage.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: ed6df53e-b01d-40bc-8676-b0f7e0eacfd1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: "_tapi2_linegetmessage, lineGetMessage, lineGetMessage function [TAPI 2.2], tapi/lineGetMessage, tapi2.linegetmessage"
 ms.prod: windows
 ms.technology: windows-sdk

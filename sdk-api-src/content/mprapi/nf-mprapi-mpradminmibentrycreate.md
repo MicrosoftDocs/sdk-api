@@ -7,7 +7,7 @@ old-location: rras\mpradminmibentrycreate.htm
 old-project: rras
 ms.assetid: b634ed78-ca01-4128-aeeb-fd8585e64f75
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminMIBEntryCreate, MprAdminMIBEntryCreate function [RAS], _mpr_mpradminmibentrycreate, mprapi/MprAdminMIBEntryCreate, rras.mpradminmibentrycreate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,9 @@ Handle to the router on which to execute this call. Obtain this handle by callin
 <a href="https://msdn.microsoft.com/8d8cba34-e5d3-42ae-9724-361802f21410">MprAdminMIBServerConnect</a>.
 
 
-### -param dwPid
+### -param dwPid [out]
 
-TBD
+Receives the router manager that exported the variable.
 
 
 ### -param dwRoutingPid [in]
@@ -85,11 +85,6 @@ Pointer to an opaque data
 ### -param dwEntrySize [in]
 
 Specifies the size, in bytes, of the data pointed to by the <i>lpEntry</i> parameter.
-
-
-#### - dwTransportId [out]
-
-Receives the router manager that exported the variable.
 
 
 ## -returns

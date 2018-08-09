@@ -7,7 +7,7 @@ old-location: rras\mpradminreleaseipv6addressforuser.htm
 old-project: rras
 ms.assetid: c06433b3-d1b0-42d0-993d-5c1cde4cbc0f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminReleaseIpv6AddressForUser, MprAdminReleaseIpv6AddressForUser callback, MprAdminReleaseIpv6AddressForUser callback function [RAS], mprapi/MprAdminReleaseIpv6AddressForUser, rras.mpradminreleaseipv6addressforuser
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,29 +60,19 @@ The
 
 
 
-### -param lpszUserName
+### -param lpszUserName [in]
 
-TBD
+Pointer to a Unicode string that specifies the name of the user that disconnected.
 
 
-### -param lpszPortName
+### -param lpszPortName [in]
 
-TBD
+Pointer to a Unicode string that specifies the name of the port on which the user disconnected.
 
 
 ### -param lpdwIpv6Address [in]
 
 Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">IN6_ADDR</a> structure. This variable specifies the IPv6 address to be released.
-
-
-#### - lpwszPortName [in]
-
-Pointer to a Unicode string that specifies the name of the port on which the user disconnected.
-
-
-#### - lpwszUserName [in]
-
-Pointer to a Unicode string that specifies the name of the user that disconnected.
 
 
 ## -returns

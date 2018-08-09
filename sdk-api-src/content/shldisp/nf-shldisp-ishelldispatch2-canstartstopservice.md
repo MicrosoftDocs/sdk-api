@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_CanStartStopService.htm
 old-project: shell
 ms.assetid: cbb54ae9-02e6-4243-a782-e9f125c21c0d
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: CanStartStopService, CanStartStopService method [Windows Shell], CanStartStopService method [Windows Shell],IShellDispatch2 object, IShellDispatch2 object [Windows Shell],CanStartStopService method, IShellDispatch2.CanStartStopService, IShellDispatch2::CanStartStopService, _win32_IShellDispatch2_CanStartStopService, shell.IShellDispatch2_CanStartStopService
 ms.prod: windows
 ms.technology: windows-sdk

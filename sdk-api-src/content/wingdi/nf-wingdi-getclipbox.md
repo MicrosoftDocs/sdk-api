@@ -7,7 +7,7 @@ old-location: gdi\getclipbox.htm
 old-project: gdi
 ms.assetid: b4ee68ab-b99e-48b6-90ce-6d6c0ae144e2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetClipBox, GetClipBox function [Windows GDI], _win32_GetClipBox, gdi.getclipbox, wingdi/GetClipBox
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,7 @@ The <b>GetClipBox</b> function retrieves the dimensions of the tightest bounding
 A handle to the device context.
 
 
-### -param lprect
-
-TBD
-
-
-
-
-#### - lprc [out]
+### -param lprect [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that is to receive the rectangle dimensions, in logical units.
 

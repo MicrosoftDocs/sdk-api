@@ -7,7 +7,7 @@ old-location: controls\getcontextmenuex.htm
 old-project: controls
 ms.assetid: 6354921F-3C9F-4CBD-AC48-1EB67D1FDEB7
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: GCMF_GRIPPER, GCMF_MOUSEMENU, GCMF_SPELLING, GCMF_TOUCHMENU, GETCONTEXTMENUEX, GETCONTEXTMENUEX structure [Windows Controls], _getcontextmenuex, controls.getcontextmenuex, richedit/GETCONTEXTMENUEX
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Contains context menu information that is passed to the <a href="https://msdn.microsoft.com/library/Bb774317(v=VS.85).aspx">IRichEditOleCallback::GetContextMenu</a> method.
+Contains context menu information that is passed to the <a href="https://msdn.microsoft.com/en-us/library/Bb774317(v=VS.85).aspx">IRichEditOleCallback::GetContextMenu</a> method.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Contains context menu information that is passed to the <a href="https://msdn.mi
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb787885(v=VS.85).aspx">CHARRANGE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a></b>
 
 The character-position range in the active display. 
 
@@ -144,7 +144,7 @@ Not used; must be zero.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774317(v=VS.85).aspx">IRichEditOleCallback::GetContextMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774317(v=VS.85).aspx">IRichEditOleCallback::GetContextMenu</a>
  
 
  

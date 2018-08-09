@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturemanager_addsignatureblock.htm
 old-project: printdocs
 ms.assetid: a299882f-b9f4-4297-8438-e92d148a4014
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AddSignatureBlock, AddSignatureBlock method [XPS Documents and Packaging], AddSignatureBlock method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],AddSignatureBlock method, IXpsSignatureManager.AddSignatureBlock, IXpsSignatureManager::AddSignatureBlock, xps.ixpssignaturemanager_addsignatureblock, xpsdigitalsignature/IXpsSignatureManager::AddSignatureBlock
 ms.prod: windows
 ms.technology: windows-sdk

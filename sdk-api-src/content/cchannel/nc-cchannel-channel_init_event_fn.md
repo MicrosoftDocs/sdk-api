@@ -7,7 +7,7 @@ old-location: termserv\virtualchannelinitevent.htm
 old-project: termserv
 ms.assetid: 8a074b6c-7fc1-411f-a50c-64f40c0c4dd6
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: CHANNEL_EVENT_CONNECTED, CHANNEL_EVENT_DISCONNECTED, CHANNEL_EVENT_INITIALIZED, CHANNEL_EVENT_REMOTE_CONTROL_START, CHANNEL_EVENT_REMOTE_CONTROL_STOP, CHANNEL_EVENT_TERMINATED, CHANNEL_EVENT_V1_CONNECTED, CHANNEL_INIT_EVENT_FN, CHANNEL_INIT_EVENT_FN callback function [Remote Desktop Services], VirtualChannelInitEvent callback, _win32_virtualchannelinitevent, cchannel/CHANNEL_INIT_EVENT_FN, termserv.virtualchannelinitevent
 ms.prod: windows
 ms.technology: windows-sdk

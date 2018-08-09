@@ -7,7 +7,7 @@ old-location: mf\imfsensordevice_getdeviceattributes.htm
 old-project: medfound
 ms.assetid: 4F509D34-23C3-4034-8D89-0A2E0651F235
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetDeviceAttributes, GetDeviceAttributes method [Media Foundation], GetDeviceAttributes method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceAttributes method, IMFSensorDevice.GetDeviceAttributes, IMFSensorDevice::GetDeviceAttributes, mf.imfsensordevice_getdeviceattributes, mfidl/IMFSensorDevice::GetDeviceAttributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ The <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IM
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ The <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IM
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -100,8 +98,7 @@ The <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IM
 </dl>
 </td>
 <td width="60%">
-
-                The <i>ppAttributes</i> parameter is null.
+The <i>ppAttributes</i> parameter is null.
 
 </td>
 </tr>
@@ -112,8 +109,7 @@ The <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IM
 </dl>
 </td>
 <td width="60%">
-
-                The sensor device has not been initialized.
+The sensor device has not been initialized.
 
 </td>
 </tr>

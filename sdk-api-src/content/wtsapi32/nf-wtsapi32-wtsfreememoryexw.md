@@ -4,10 +4,10 @@ title: WTSFreeMemoryExW function
 author: windows-sdk-content
 description: Frees memory that contains WTS_PROCESS_INFO_EX or WTS_SESSION_INFO_1 structures allocated by a Remote Desktop Services function.
 old-location: termserv\wtsfreememoryex.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: d84a4fe3-a829-4cf3-b217-157391d0c495
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WTSFreeMemoryEx, WTSFreeMemoryEx function [Remote Desktop Services], WTSFreeMemoryExA, WTSFreeMemoryExW, termserv.wtsfreememoryex, wtsapi32/WTSFreeMemoryEx, wtsapi32/WTSFreeMemoryExA, wtsapi32/WTSFreeMemoryExW
 ms.prod: windows
 ms.technology: windows-sdk

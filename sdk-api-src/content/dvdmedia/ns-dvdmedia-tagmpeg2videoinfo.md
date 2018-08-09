@@ -7,7 +7,7 @@ old-location: dshow\mpeg2videoinfo.htm
 old-project: DirectShow
 ms.assetid: 1a6ab686-99a1-40c2-addf-7fa215e2311a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: AMMPEG2_27MhzTimebase, AMMPEG2_DSS_UserData, AMMPEG2_DVB_UserData, AMMPEG2_DVDLine21Field1, AMMPEG2_DVDLine21Field2, AMMPEG2_DoPanScan, AMMPEG2_FilmCameraMode, AMMPEG2_LetterboxAnalogOut, AMMPEG2_SourceIsLetterboxed, AMMPEG2_WidescreenAnalogOut, MPEG2VIDEOINFO, MPEG2VIDEOINFO structure [DirectShow], MPEG2VIDEOINFOStructure, dshow.mpeg2videoinfo, dvdmedia/MPEG2VIDEOINFO, tagMPEG2VIDEOINFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          The <b>MPEG2VIDEOINFO</b> structure describes an MPEG-2 video stream.
+The <b>MPEG2VIDEOINFO</b> structure describes an MPEG-2 video stream.
         
 
 
@@ -70,36 +69,31 @@ req.product: Windows Media Format 9 Series or later
 
 ### -field dwStartTimeCode
 
-
-            25-bit group-of-pictures (GOP) time code at start of data. This field is not used for DVD.
+25-bit group-of-pictures (GOP) time code at start of data. This field is not used for DVD.
           
 
 
 ### -field cbSequenceHeader
 
-
-            Length of the sequence header, in bytes. For DVD, set this field to zero. The sequence header is given in the <b>dwSequenceHeader</b> field.
+Length of the sequence header, in bytes. For DVD, set this field to zero. The sequence header is given in the <b>dwSequenceHeader</b> field.
           
 
 
 ### -field dwProfile
 
-
-            Specifies the MPEG-2 profile as an <a href="https://msdn.microsoft.com/1f03a556-feb7-40c7-a3df-818de6873049">AM_MPEG2Profile</a> enumeration type.
+Specifies the MPEG-2 profile as an <a href="https://msdn.microsoft.com/1f03a556-feb7-40c7-a3df-818de6873049">AM_MPEG2Profile</a> enumeration type.
           
 
 
 ### -field dwLevel
 
-
-            Specifies the MPEG-2 level as an <a href="https://msdn.microsoft.com/78446b44-7b83-4266-a591-5f70a0542c20">AM_MPEG2Level</a> enumeration type.
+Specifies the MPEG-2 level as an <a href="https://msdn.microsoft.com/78446b44-7b83-4266-a591-5f70a0542c20">AM_MPEG2Level</a> enumeration type.
           
 
 
 ### -field dwFlags
 
-
-            Flag indicating preferences. Set one or a combination of the following values.
+Flag indicating preferences. Set one or a combination of the following values.
           
 
 <table>
@@ -226,8 +220,7 @@ Set undefined flags to zero or connection will be rejected. For more information
 
 ### -field dwSequenceHeader
 
-
-            Start of an array that contains the sequence header, including quantization matrices and the sequence extension, if required. This field is typed as <b>DWORD</b> array to enforce 32-bit alignment. The size of the array, in bytes, is given in the <b>cbSequenceHeader</b> member.
+Start of an array that contains the sequence header, including quantization matrices and the sequence extension, if required. This field is typed as <b>DWORD</b> array to enforce 32-bit alignment. The size of the array, in bytes, is given in the <b>cbSequenceHeader</b> member.
           
 
 

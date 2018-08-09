@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersourceevent3_coppblocked.htm
 old-project: mstv
 ms.assetid: a3da78ea-4694-45a4-9284-d40c08f12fe5
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: COPPBlocked, COPPBlocked method [Microsoft TV Technologies], COPPBlocked method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent3 interface, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies],COPPBlocked method, IMSVidStreamBufferSourceEvent3.COPPBlocked, IMSVidStreamBufferSourceEvent3::COPPBlocked, IMSVidStreamBufferSourceEvent3COPPBlocked, mstv.imsvidstreambuffersourceevent3_coppblocked, segment/IMSVidStreamBufferSourceEvent3::COPPBlocked
 ms.prod: windows
 ms.technology: windows-sdk

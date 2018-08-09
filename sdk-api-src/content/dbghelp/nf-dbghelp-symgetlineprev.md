@@ -7,7 +7,7 @@ old-location: base\symgetlineprev64.htm
 old-project: debug
 ms.assetid: 7f6d0f20-5dfa-4d6c-8551-1dbc3cc54176
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymGetLinePrev, SymGetLinePrev function, SymGetLinePrev64, SymGetLinePrev64 function, SymGetLinePrevW64, _win32_symgetlineprev64, base.symgetlineprev64, dbghelp/SymGetLinePrev, dbghelp/SymGetLinePrev64, dbghelp/SymGetLinePrevW64
 ms.prod: windows
 ms.technology: windows-sdk

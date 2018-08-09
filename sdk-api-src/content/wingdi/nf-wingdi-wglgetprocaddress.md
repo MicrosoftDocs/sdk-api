@@ -7,7 +7,7 @@ old-location: opengl\wglgetprocaddress.htm
 old-project: OpenGL
 ms.assetid: 7c419b64-1bc6-492e-9853-98b08f38a5ba
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: "_ogl_wglGetProcAddress, opengl.wglgetprocaddress, wglGetProcAddress, wglGetProcAddress function [OpenGL], wingdi/wglGetProcAddress"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,13 +60,6 @@ The <b>wglGetProcAddress</b> function returns the address of an OpenGL extension
 
 
 ### -param Arg1
-
-TBD
-
-
-
-
-#### - lpszProc
 
 Points to a <b>null</b>-terminated string that is the name of the extension function. The name of the extension function must be identical to a corresponding function implemented by OpenGL.
 

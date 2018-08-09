@@ -4,10 +4,10 @@ title: LPWSPACCEPT
 author: windows-sdk-content
 description: The WSPAccept function conditionally accepts a connection based on the return value of a condition function.
 old-location: winsock\wspaccept_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: d73aa3a8-cef5-485d-b2ba-b2fe42ab6200
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: LPWSPACCEPT, WSPAccept, WSPAccept function [Winsock], _win32_wspaccept_2, winsock.wspaccept_2, ws2spi/WSPAccept
 ms.prod: windows
 ms.technology: windows-sdk

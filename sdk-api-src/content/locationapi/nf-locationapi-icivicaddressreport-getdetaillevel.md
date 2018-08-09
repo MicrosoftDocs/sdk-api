@@ -4,10 +4,10 @@ title: ICivicAddressReport::GetDetailLevel
 author: windows-sdk-content
 description: Reserved.
 old-location: winlocation_com_ref\icivicaddressreport_getdetaillevel.htm
-old-project: LocationAPI
+old-project: locationapi
 ms.assetid: ec32dee1-e9ce-40a0-bca0-6f5f767b7604
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/30/2018
 ms.keywords: GetDetailLevel, GetDetailLevel method [WinLocation], GetDetailLevel method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetDetailLevel method, ICivicAddressReport.GetDetailLevel, ICivicAddressReport::GetDetailLevel, WinLocation_COM_Ref.icivicaddressreport_getdetaillevel, locationapi/ICivicAddressReport::GetDetailLevel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,13 +51,10 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/fd40bf4a-c59a-43a4-ab01-c671a8a41731">Windows.Devices.Geolocation</a>
-API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/fd40bf4a-c59a-43a4-ab01-c671a8a41731">Windows.Devices.Geolocation</a>API.
 ]
 
-
-          
-          Reserved.
+Reserved.
 
 
 ## -parameters
@@ -67,9 +64,7 @@ API.
 
 ### -param pDetailLevel [out]
 
-
-            
-            Reserved.
+Reserved.
 
 
 ## -returns

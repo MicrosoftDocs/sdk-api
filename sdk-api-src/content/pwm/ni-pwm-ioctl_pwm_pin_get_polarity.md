@@ -7,7 +7,7 @@ old-location: base\ioctl_pwm_pin_get_polarity.htm
 old-project: devio
 ms.assetid: 834C7CBA-179E-4C1E-9664-A70EB38D74BE
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/07/2018
 ms.keywords: IOCTL_PWM_PIN_GET_POLARITY, IOCTL_PWM_PIN_GET_POLARITY control, IOCTL_PWM_PIN_GET_POLARITY control code, base.ioctl_pwm_pin_get_polarity, pwm/IOCTL_PWM_PIN_GET_POLARITY
 ms.prod: windows
 ms.technology: windows-sdk
@@ -124,8 +124,7 @@ To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087
 <pre class="syntax">BOOL 
    WINAPI 
    DeviceIoControl( (HANDLE)       hDevice,         // handle to device
-                    (DWORD)        IOCTL_PWM_PIN_GET_POLARITY, // dwIoControlCode
-                    (LPDWORD)      NULL,      // input buffer
+                    (DWORD)        IOCTL_PWM_PIN_GET_POLARITY, // dwIoControlCode(LPDWORD)      NULL,      // input buffer
                     (DWORD)        0,   // size of input buffer
                     (LPDWORD)      lpOutBuffer,     // output buffer
                     (DWORD)        nOutBufferSize,  // size of output buffer

@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder_querymediainfo.htm
 old-project: imapi
 ms.assetid: 5e97d5e5-1a10-4ef2-b083-427d4070283f
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IDiscRecorder interface [IMAPI],QueryMediaInfo method, IDiscRecorder.QueryMediaInfo, IDiscRecorder::QueryMediaInfo, QueryMediaInfo, QueryMediaInfo method [IMAPI], QueryMediaInfo method [IMAPI],IDiscRecorder interface, _win32_idiscrecorder_querymediainfo, base.idiscrecorder_querymediainfo, imapi.idiscrecorder_querymediainfo, imapi/IDiscRecorder::QueryMediaInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,19 +86,19 @@ Retrieves information about the currently mounted media, such as the total numbe
 
 
 
-#### - pblasttrack [out]
-
-Track number of the last track of the previous session.
-
-
 #### - pbsessions [out]
 
 Number of sessions on the disc.
 
 
-#### - ulfreeblocks [out]
+#### - pblasttrack [out]
 
-Number of blocks available for writing.
+Track number of the last track of the previous session.
+
+
+#### - ulstartaddress [out]
+
+Start address of the last track of the previous session.
 
 
 #### - ulnextwritable [out]
@@ -106,9 +106,9 @@ Number of blocks available for writing.
 Address at which writing is to begin.
 
 
-#### - ulstartaddress [out]
+#### - ulfreeblocks [out]
 
-Start address of the last track of the previous session.
+Number of blocks available for writing.
 
 
 ## -returns

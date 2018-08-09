@@ -7,7 +7,7 @@ old-location: gdi\gettextface.htm
 old-project: gdi
 ms.assetid: c4c8c8f5-3651-481b-a55f-da7f49d92f3a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetTextFace, GetTextFace function [Windows GDI], GetTextFaceA, GetTextFaceW, _win32_GetTextFace, gdi.gettextface, wingdi/GetTextFace, wingdi/GetTextFaceA, wingdi/GetTextFaceW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,26 +71,14 @@ The <b>GetTextFace</b> function retrieves the typeface name of the font that is 
 A handle to the device context.
 
 
-### -param c
-
-TBD
-
-
-### -param lpName
-
-TBD
-
-
-
-
-#### - lpFaceName [out]
-
-A pointer to the buffer that receives the typeface name. If this parameter is <b>NULL</b>, the function returns the number of characters in the name, including the terminating null character.
-
-
-#### - nCount [in]
+### -param c [in]
 
 The length of the buffer pointed to by <i>lpFaceName</i>. For the ANSI function it is a BYTE count and for the Unicode function it is a WORD count. Note that for the ANSI function, characters in SBCS code pages take one byte each, while most characters in DBCS code pages take two bytes; for the Unicode function, most currently defined Unicode characters (those in the Basic Multilingual Plane (BMP)) are one WORD while Unicode surrogates are two WORDs.
+
+
+### -param lpName [out]
+
+A pointer to the buffer that receives the typeface name. If this parameter is <b>NULL</b>, the function returns the number of characters in the name, including the terminating null character.
 
 
 ## -returns

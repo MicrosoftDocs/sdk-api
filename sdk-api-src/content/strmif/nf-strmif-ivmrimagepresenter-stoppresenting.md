@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagepresenter_stoppresenting.htm
 old-project: DirectShow
 ms.assetid: b6887c66-56ba-4ee6-a740-73213ac088d5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IVMRImagePresenter interface [DirectShow],StopPresenting method, IVMRImagePresenter.StopPresenting, IVMRImagePresenter::StopPresenting, IVMRImagePresenterStopPresenting, StopPresenting, StopPresenting method [DirectShow], StopPresenting method [DirectShow],IVMRImagePresenter interface, dshow.ivmrimagepresenter_stoppresenting, strmif/IVMRImagePresenter::StopPresenting
 ms.prod: windows
 ms.technology: windows-sdk

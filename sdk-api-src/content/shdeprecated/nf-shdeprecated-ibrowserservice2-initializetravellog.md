@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_InitializeTravelLog.htm
 old-project: shell
 ms.assetid: ff2165da-e195-4cc1-ba89-c11eb37ac4c3
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],InitializeTravelLog method, IBrowserService2.InitializeTravelLog, IBrowserService2::InitializeTravelLog, InitializeTravelLog, InitializeTravelLog method [Windows Shell], InitializeTravelLog method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::InitializeTravelLog, shell.IBrowserService2_InitializeTravelLog, zone_IBrowserService2_InitializeTravelLog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Deprecated. Allows the derived class to specify a navigation record to be used i
 
 Type: <b><a href="https://msdn.microsoft.com/820869aa-ca93-4bb5-831a-3afb52da5389">ITravelLog</a>*</b>
 
-
-          A pointer to an existing <a href="https://msdn.microsoft.com/820869aa-ca93-4bb5-831a-3afb52da5389">ITravelLog</a> object to be used for the new window.
+A pointer to an existing <a href="https://msdn.microsoft.com/820869aa-ca93-4bb5-831a-3afb52da5389">ITravelLog</a> object to be used for the new window.
         
 
 
@@ -72,8 +71,7 @@ Type: <b><a href="https://msdn.microsoft.com/820869aa-ca93-4bb5-831a-3afb52da538
 
 Type: <b>DWORD</b>
 
-
-          The new browser window's ID.
+The new browser window's ID.
         
 
 

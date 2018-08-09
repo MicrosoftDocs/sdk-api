@@ -4,10 +4,10 @@ title: SLGetLicenseInformation function
 author: windows-sdk-content
 description: Gets the specified license information.
 old-location: security\slgetlicenseinformation.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: d573bf38-590c-4f8e-a465-9322cbe2b7c4
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLGetLicenseInformation, SLGetLicenseInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, SL_INFO_KEY_DESCRIPTION, SL_INFO_KEY_LICENSE_TYPE, SL_INFO_KEY_VERSION, security.slgetlicenseinformation, slpublic/SLGetLicenseInformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLGetLicenseInformation function

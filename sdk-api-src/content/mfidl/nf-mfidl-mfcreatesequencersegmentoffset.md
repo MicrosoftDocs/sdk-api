@@ -7,7 +7,7 @@ old-location: mf\mfcreatesequencersegmentoffset.htm
 old-project: medfound
 ms.assetid: 5999af23-03a6-4fd9-8a56-23179164ff32
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 5999af23-03a6-4fd9-8a56-23179164ff32, MFCreateSequencerSegmentOffset, MFCreateSequencerSegmentOffset function [Media Foundation], mf.mfcreatesequencersegmentoffset, mfidl/MFCreateSequencerSegmentOffset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Creates a <b>PROPVARIANT</b> that can be used to seek within a sequencer source presentation.
+Creates a <b>PROPVARIANT</b> that can be used to seek within a sequencer source presentation.
         
 
 
@@ -63,22 +62,19 @@ req.product: GDI+ 1.1
 
 ### -param dwId [in]
 
-
-            Sequencer element identifier. This value specifies the segment in which to begin playback. The element identifier is returned in the <a href="https://msdn.microsoft.com/4ff20d56-6095-495d-89ee-9086c61da8ac">IMFSequencerSource::AppendTopology</a> method.
+Sequencer element identifier. This value specifies the segment in which to begin playback. The element identifier is returned in the <a href="https://msdn.microsoft.com/4ff20d56-6095-495d-89ee-9086c61da8ac">IMFSequencerSource::AppendTopology</a> method.
           
 
 
 ### -param hnsOffset [in]
 
-
-            Starting position within the segment, in 100-nanosecond units.
+Starting position within the segment, in 100-nanosecond units.
           
 
 
 ### -param pvarSegmentOffset [out]
 
-
-            Pointer to a <b>PROPVARIANT</b>. The method fills in the <b>PROPVARIANT</b> with the information needed for performing a seek operation. The caller must free the <b>PROPVARIANT</b> by calling <b>PropVariantClear</b>.
+Pointer to a <b>PROPVARIANT</b>. The method fills in the <b>PROPVARIANT</b> with the information needed for performing a seek operation. The caller must free the <b>PROPVARIANT</b> by calling <b>PropVariantClear</b>.
           
 
 
@@ -95,8 +91,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-
-        The <b>PROPVARIANT</b> returned in <i>pvarSegmentOffset</i> can be used for the <i>pvarStartPosition</i> parameter in the <a href="https://msdn.microsoft.com/1bdec0c0-b042-4e5e-a72b-b15942750ced">IMFMediaSession::Start</a> method. Use the time format <b>GUID MF_TIME_FORMAT_SEGMENT_OFFSET</b>.
+The <b>PROPVARIANT</b> returned in <i>pvarSegmentOffset</i> can be used for the <i>pvarStartPosition</i> parameter in the <a href="https://msdn.microsoft.com/1bdec0c0-b042-4e5e-a72b-b15942750ced">IMFMediaSession::Start</a> method. Use the time format <b>GUID MF_TIME_FORMAT_SEGMENT_OFFSET</b>.
       
 
 

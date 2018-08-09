@@ -7,7 +7,7 @@ old-location: gdi\gettextextentpoint32.htm
 old-project: gdi
 ms.assetid: 530280ee-dfd8-4905-9b72-6c19efcff133
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetTextExtentPoint32, GetTextExtentPoint32 function [Windows GDI], GetTextExtentPoint32A, GetTextExtentPoint32W, _win32_GetTextExtentPoint32, gdi.gettextextentpoint32, wingdi/GetTextExtentPoint32, wingdi/GetTextExtentPoint32A, wingdi/GetTextExtentPoint32W
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,14 +81,7 @@ A pointer to a buffer that specifies the text string. The string does not need t
 The <a href="https://msdn.microsoft.com/695fd0f9-abd4-4666-acad-2c409624ddc6">length of the string</a> pointed to by <i>lpString</i>.
 
 
-### -param psizl
-
-TBD
-
-
-
-
-#### - lpSize [out]
+### -param psizl [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that receives the dimensions of the string, in logical units.
 

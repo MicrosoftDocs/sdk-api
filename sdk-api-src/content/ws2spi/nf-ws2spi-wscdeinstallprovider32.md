@@ -4,10 +4,10 @@ title: WSCDeinstallProvider32 function
 author: windows-sdk-content
 description: Removes the specified 32-bit transport provider from the system configuration database.
 old-location: winsock\wscdeinstallprovider32.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 3de74059-dbfb-49b9-830b-7b2f81f8b68c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSCDeinstallProvider32, WSCDeinstallProvider32 function [Winsock], winsock.wscdeinstallprovider32, ws2spi/WSCDeinstallProvider32
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\idvb_eit_getnexttable.htm
 old-project: mstv
 ms.assetid: ead94980-0f02-4b21-a569-bcdf0f4b9449
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetNextTable method, IDVB_EIT.GetNextTable, IDVB_EIT::GetNextTable, IDVB_EITGetNextTable, dvbsiparser/IDVB_EIT::GetNextTable, mstv.idvb_eit_getnexttable
 ms.prod: windows
 ms.technology: windows-sdk

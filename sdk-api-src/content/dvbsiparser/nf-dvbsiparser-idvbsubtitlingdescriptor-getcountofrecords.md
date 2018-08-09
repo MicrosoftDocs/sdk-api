@@ -7,7 +7,7 @@ old-location: mstv\idvbsubtitlingdescriptor_getcountofrecords.htm
 old-project: mstv
 ms.assetid: 8cc25b63-de43-4f8d-af19-c3bb8c389a55
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbSubtitlingDescriptor.GetCountOfRecords, IDvbSubtitlingDescriptor::GetCountOfRecords, dvbsiparser/IDvbSubtitlingDescriptor::GetCountOfRecords, mstv.idvbsubtitlingdescriptor_getcountofrecords
 ms.prod: windows
 ms.technology: windows-sdk

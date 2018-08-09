@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrEventStore.htm
 old-project: shell
 ms.assetid: 218875bf-be6b-4ca5-8904-81c81c7fbf70
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ISyncMgrEventStore, ISyncMgrEventStore interface [Windows Shell], ISyncMgrEventStore interface [Windows Shell],described, _shell_ISyncMgrEventStore, shell.ISyncMgrEventStore, syncmgr/ISyncMgrEventStore
 ms.prod: windows
 ms.technology: windows-sdk

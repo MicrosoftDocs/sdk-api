@@ -7,7 +7,7 @@ old-location: winmsg\animatewindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\animatewindow.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AW_ACTIVATE, AW_BLEND, AW_CENTER, AW_HIDE, AW_HOR_NEGATIVE, AW_HOR_POSITIVE, AW_SLIDE, AW_VER_NEGATIVE, AW_VER_POSITIVE, AnimateWindow, AnimateWindow function [Windows and Messages], _win32_AnimateWindow, _win32_animatewindow_cpp, winmsg.animatewindow, winui._win32_animatewindow, winuser/AnimateWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,11 @@ Enables you to produce special effects when showing or hiding windows. There are
 
 
 
-### -param hWnd
+### -param hWnd [in]
 
-TBD
+Type: <b>HWND</b>
+
+A handle to the window to animate. The calling thread must own this window. 
 
 
 ### -param dwTime [in]
@@ -188,13 +190,6 @@ Animates the window from bottom to top. This flag can be used with roll or slide
 </tr>
 </table>
  
-
-
-#### - hwnd [in]
-
-Type: <b>HWND</b>
-
-A handle to the window to animate. The calling thread must own this window. 
 
 
 ## -returns

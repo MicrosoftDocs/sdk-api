@@ -7,7 +7,7 @@ old-location: snmp\snmpmgrstrtooid.htm
 old-project: snmp
 ms.assetid: d245b43c-3893-4081-874c-93619a8c461c
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: SnmpMgrStrToOid, SnmpMgrStrToOid function [SNMP], _snmp_snmpmgrstrtooid, mgmtapi/SnmpMgrStrToOid, snmp.snmpmgrstrtooid
 ms.prod: windows
 ms.technology: windows-sdk

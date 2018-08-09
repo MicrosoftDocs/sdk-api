@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjob_get_discountsend_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8h9g.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: DiscountSend property [Fax Service], DiscountSend property [Fax Service],FaxJob object, FaxJob object [Fax Service],DiscountSend property, FaxJob.DiscountSend, IFaxJob.get_DiscountSend, IFaxJob::get_DiscountSend, _mfax_ifaxjob_get_discountsend, fax._mfax_ifaxjob_get_discountsend, fax._mfax_ifaxjob_get_discountsend_vb, get_DiscountSend
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,16 +67,16 @@ To determine the period during which the discount rate applies, you can use the 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/ms691308(v=VS.85).aspx">DiscountRateStartMinute</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691308(v=VS.85).aspx">DiscountRateStartMinute</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/ms690899(v=VS.85).aspx">DiscountRateEndMinute</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690899(v=VS.85).aspx">DiscountRateEndMinute</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/ms690858(v=VS.85).aspx">DiscountRateStartHour</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690858(v=VS.85).aspx">DiscountRateStartHour</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/ms691317(v=VS.85).aspx">DiscountRateEndHour</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691317(v=VS.85).aspx">DiscountRateEndHour</a>
 </li>
 </ul>
 
@@ -87,27 +87,27 @@ To determine the period during which the discount rate applies, you can use the 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690298(v=VS.85).aspx">FaxJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690298(v=VS.85).aspx">FaxJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692310(v=VS.85).aspx">IFaxJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692310(v=VS.85).aspx">IFaxJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692372(v=VS.85).aspx">IFaxJobs</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692372(v=VS.85).aspx">IFaxJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691821(v=VS.85).aspx">Managing Fax Jobs</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691821(v=VS.85).aspx">Managing Fax Jobs</a>
  
 
  

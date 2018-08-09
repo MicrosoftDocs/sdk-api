@@ -7,7 +7,7 @@ old-location: gdi\setmapperflags.htm
 old-project: gdi
 ms.assetid: 74cfe0d3-0d20-4382-8e76-55a6e2323308
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetMapperFlags, SetMapperFlags function [Windows GDI], _win32_SetMapperFlags, gdi.setmapperflags, wingdi/SetMapperFlags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,7 @@ The <b>SetMapperFlags</b> function alters the algorithm the font mapper uses whe
 A handle to the device context that contains the font-mapper flag.
 
 
-### -param flags
-
-TBD
-
-
-
-
-#### - dwFlag [in]
+### -param flags [in]
 
 Specifies whether the font mapper should attempt to match a font's aspect ratio to the current device's aspect ratio. If bit zero is set, the mapper selects only matching fonts.
 

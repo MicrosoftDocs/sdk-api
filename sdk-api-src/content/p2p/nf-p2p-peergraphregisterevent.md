@@ -7,7 +7,7 @@ old-location: p2p\peergraphregisterevent.htm
 old-project: p2psdk
 ms.assetid: 3ed963ba-0b9d-4de8-a610-b07cf49ed27f
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphRegisterEvent, PeerGraphRegisterEvent function [Peer Networking], p2p.peergraphregisterevent, p2p/PeerGraphRegisterEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphRegisterEvent</b> function registers a peer's request to be  notified of changes associated with a peer graph and event type.
+The <b>PeerGraphRegisterEvent</b> function registers a peer's request to be  notified of changes associated with a peer graph and event type.
 
 
 ## -parameters
@@ -72,14 +71,12 @@ Handle created by <a href="https://msdn.microsoft.com/2d72b1bc-4687-4672-9644-85
 
 ### -param cEventRegistrations [in]
 
-Specifies the number of <a href="https://msdn.microsoft.com/6725eba9-af61-4088-96e0-d0bf943902ea">
-        PEER_GRAPH_EVENT_REGISTRATION</a> structures in <i>pEventRegistrations</i>.
+Specifies the number of <a href="https://msdn.microsoft.com/6725eba9-af61-4088-96e0-d0bf943902ea">PEER_GRAPH_EVENT_REGISTRATION</a> structures in <i>pEventRegistrations</i>.
 
 
 ### -param pEventRegistrations [in]
 
-Points to an array of <a href="https://msdn.microsoft.com/6725eba9-af61-4088-96e0-d0bf943902ea">
-        PEER_GRAPH_EVENT_REGISTRATION</a> structures that specify what events the application requests notifications for.
+Points to an array of <a href="https://msdn.microsoft.com/6725eba9-af61-4088-96e0-d0bf943902ea">PEER_GRAPH_EVENT_REGISTRATION</a> structures that specify what events the application requests notifications for.
 
 
 ### -param phPeerEvent [out]
@@ -153,8 +150,7 @@ The peer graph must be  initialized with a call to <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/6725eba9-af61-4088-96e0-d0bf943902ea">
-        PEER_GRAPH_EVENT_REGISTRATION</a>
+<a href="https://msdn.microsoft.com/6725eba9-af61-4088-96e0-d0bf943902ea">PEER_GRAPH_EVENT_REGISTRATION</a>
 
 
 

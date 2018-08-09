@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetPhysicalDimension_size_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getphysicaldimension.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetPhysicalDimension, GetPhysicalDimension method [GDI+], GetPhysicalDimension method [GDI+],Image class, Image class [GDI+],GetPhysicalDimension method, Image.GetPhysicalDimension, Image::GetPhysicalDimension, _gdiplus_CLASS_Image_GetPhysicalDimension_size_, gdiplus._gdiplus_CLASS_Image_GetPhysicalDimension_size_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,10 +61,10 @@ The <b>Image::GetPhysicalDimension</b> method gets the width and height of this 
 
 ### -param size [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534506(v=VS.85).aspx">SizeF</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a>*</b>
 
 Pointer to a 
-					<a href="https://msdn.microsoft.com/library/ms534506(v=VS.85).aspx">SizeF</a> object that receives the width and height of this image. 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> object that receives the width and height of this image. 
 
 
 ## -returns
@@ -88,35 +88,35 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536386(v=VS.85).aspx">Cropping and Scaling Images</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536386(v=VS.85).aspx">Cropping and Scaling Images</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535373(v=VS.85).aspx">Image::GetBounds</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535373(v=VS.85).aspx">Image::GetBounds</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535380(v=VS.85).aspx">Image::GetHeight</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535380(v=VS.85).aspx">Image::GetHeight</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535381(v=VS.85).aspx">Image::GetHorizontalResolution</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535381(v=VS.85).aspx">Image::GetHorizontalResolution</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535396(v=VS.85).aspx">Image::GetVerticalResolution</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535396(v=VS.85).aspx">Image::GetVerticalResolution</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535397(v=VS.85).aspx">Image::GetWidth</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535397(v=VS.85).aspx">Image::GetWidth</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533829(v=VS.85).aspx">Improving Performance by Avoiding Automatic Scaling</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533829(v=VS.85).aspx">Improving Performance by Avoiding Automatic Scaling</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mf\imfrealtimeclient_setworkqueue.htm
 old-project: medfound
 ms.assetid: 2744ddaf-a1ad-415a-b387-1a3d3b4821bf
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 2744ddaf-a1ad-415a-b387-1a3d3b4821bf, IMFRealTimeClient interface [Media Foundation],SetWorkQueue method, IMFRealTimeClient.SetWorkQueue, IMFRealTimeClient::SetWorkQueue, SetWorkQueue, SetWorkQueue method [Media Foundation], SetWorkQueue method [Media Foundation],IMFRealTimeClient interface, mf.imfrealtimeclient_setworkqueue, mfidl/IMFRealTimeClient::SetWorkQueue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,8 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        An application can register a branch of the topology to use a private work queue. The Media Session notifies any pipeline object that supports <a href="https://msdn.microsoft.com/b1d1901e-dd49-421f-9212-61e32cff411e">IMFRealTimeClient</a> by calling <b>SetWorkQueue</b> with the application's work queue identifier.
+An application can register a branch of the topology to use a private work queue. The Media Session notifies any pipeline object that supports <a href="https://msdn.microsoft.com/b1d1901e-dd49-421f-9212-61e32cff411e">IMFRealTimeClient</a> by calling <b>SetWorkQueue</b> with the application's work queue identifier.
       
 
 When the application unregisters the topology branch, the Media Session calls <b>SetWorkQueue</b> again with the value <b>MFASYNC_CALLBACK_QUEUE_UNDEFINED</b>.

@@ -4,10 +4,10 @@ title: PerfAddCounters function
 author: windows-sdk-content
 description: Adds performance counter specifications to the specified query.
 old-location: perf\perfaddcounters.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: FC66E794-EF13-47BB-A704-735924363310
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PerfAddCounters, PerfAddCounters function [Perf], perf.perfaddcounters, perflib/PerfAddCounters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,8 +79,7 @@ The size of the buffer that the <i>pCounters</i> parameter specifies, in bytes.
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
@@ -93,8 +92,7 @@ If the function fails, the return value is a
 
 
 
-The <i>pCounters</i> parameter should point to a sequence of <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a>
-blocks. Each <b>PERF_COUNTER_IDENTIFIER</b> block consists of a
+The <i>pCounters</i> parameter should point to a sequence of <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a>blocks. Each <b>PERF_COUNTER_IDENTIFIER</b> block consists of a
 <b>PERF_COUNTER_IDENTIFIER</b> structure, optionally followed by a null-terminated
 UTF-16LE instance  name string, followed by padding that makes the size of the block a multiple of 8 bytes.
 
@@ -115,8 +113,7 @@ For each <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B
 <li>Set the <b>Index</b> member of the <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a> structure to 0.</li>
 <li>Set the <b>Reserved</b> member of the <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a> structure to 0.
 </li>
-<li>Include the instance name immediately after the <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a>
-  structure. <ul>
+<li>Include the instance name immediately after the <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a>structure. <ul>
 <li>If the counter set is single-instance, do not set the instance name. In this case, the value of the Size member of the <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a> structure must be  the size of the <b>PERF_COUNTER_IDENTIFIER</b> structure. </li>
 <li>If the
   counter set is multiple-instance, you must set the instance name. If you do not want to filter the performance counter specifications based on instance name, use <b>PERF_WILDCARD_INSTANCE</b> as the

@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoaccelerationservice_createsurface.htm
 old-project: medfound
 ms.assetid: 34ed2029-7c79-45ce-962d-df4970babb23
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 34ed2029-7c79-45ce-962d-df4970babb23, CreateSurface, CreateSurface method [Media Foundation], CreateSurface method [Media Foundation],IDirectXVideoAccelerationService interface, DXVA2_VideoDecoderRenderTarget, DXVA2_VideoProcessorRenderTarget, DXVA2_VideoSoftwareRenderTarget, IDirectXVideoAccelerationService interface [Media Foundation],CreateSurface method, IDirectXVideoAccelerationService.CreateSurface, IDirectXVideoAccelerationService::CreateSurface, dxva2api/IDirectXVideoAccelerationService::CreateSurface, mf.idirectxvideoaccelerationservice_createsurface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          Creates a DirectX Video Acceleration (DXVA) video processor or DXVA decoder render target.
+Creates a DirectX Video Acceleration (DXVA) video processor or DXVA decoder render target.
         
 
 
@@ -174,8 +173,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -187,8 +185,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                Invalid parameter
+Invalid parameter
               
 
 </td>
@@ -200,8 +197,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The DirectX Video Acceleration Manager is not initialized.
+The DirectX Video Acceleration Manager is not initialized.
               
 
 </td>

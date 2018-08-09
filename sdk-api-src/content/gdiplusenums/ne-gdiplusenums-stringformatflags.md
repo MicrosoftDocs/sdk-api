@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_StringFormatFlags.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\stringformatflags.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: StringFormatFlags, StringFormatFlags enumeration [GDI+], StringFormatFlagsDirectionRightToLeft, StringFormatFlagsDirectionVertical, StringFormatFlagsDisplayFormatControl, StringFormatFlagsLineLimit, StringFormatFlagsMeasureTrailingSpaces, StringFormatFlagsNoClip, StringFormatFlagsNoFitBlackBox, StringFormatFlagsNoFontFallback, StringFormatFlagsNoWrap, _gdiplus_ENUM_StringFormatFlags, gdiplus._gdiplus_ENUM_StringFormatFlags, gdiplusenums/StringFormatFlags, gdiplusenums/StringFormatFlagsDirectionRightToLeft, gdiplusenums/StringFormatFlagsDirectionVertical, gdiplusenums/StringFormatFlagsDisplayFormatControl, gdiplusenums/StringFormatFlagsLineLimit, gdiplusenums/StringFormatFlagsMeasureTrailingSpaces, gdiplusenums/StringFormatFlagsNoClip, gdiplusenums/StringFormatFlagsNoFitBlackBox, gdiplusenums/StringFormatFlagsNoFontFallback, gdiplusenums/StringFormatFlagsNoWrap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ Specifies that an alternate font is used for characters that are not supported i
 ### -field StringFormatFlagsMeasureTrailingSpaces
 
 Specifies that the space at the end of each line is included in a string measurement. By default, the boundary rectangle returned by the 
-				<a href="https://msdn.microsoft.com/library/ms535787(v=VS.85).aspx">Graphics::MeasureString</a> method excludes the space at the end of each line. Set this flag to include that space in the measurement. 
+				<a href="https://msdn.microsoft.com/en-us/library/ms535787(v=VS.85).aspx">Graphics::MeasureString</a> method excludes the space at the end of each line. Set this flag to include that space in the measurement. 
 
 
 ### -field StringFormatFlagsNoWrap
@@ -132,31 +132,31 @@ The <b><b>StringFormatFlagsDirectionVertical</b></b> and <b><b>StringFormatFlags
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535759(v=VS.85).aspx">DrawString Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535759(v=VS.85).aspx">DrawString Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533823(v=VS.85).aspx">Formatting Text</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533823(v=VS.85).aspx">Formatting Text</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535787(v=VS.85).aspx">MeasureString Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535787(v=VS.85).aspx">MeasureString Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534177(v=VS.85).aspx">StringAlignment</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534177(v=VS.85).aspx">StringAlignment</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534179(v=VS.85).aspx">StringDigitSubstitute</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534179(v=VS.85).aspx">StringDigitSubstitute</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534726(v=VS.85).aspx">StringFormat::SetFormatFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534726(v=VS.85).aspx">StringFormat::SetFormatFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534403(v=VS.85).aspx">StringTrimming</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534403(v=VS.85).aspx">StringTrimming</a>
  
 
  

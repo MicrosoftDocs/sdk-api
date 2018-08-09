@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2_setlowerboundvector.htm
 old-project: UIAnimation
 ms.assetid: CB7D30BF-D22C-40EB-A530-035CED1BDAF0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IUIAnimationVariable2 interface [Windows Animation],SetLowerBoundVector method, IUIAnimationVariable2.SetLowerBoundVector, IUIAnimationVariable2::SetLowerBoundVector, SetLowerBoundVector, SetLowerBoundVector method [Windows Animation], SetLowerBoundVector method [Windows Animation],IUIAnimationVariable2 interface, uianimation.iuianimationvariable2_setlowerboundvector, uianimation/IUIAnimationVariable2::SetLowerBoundVector
 ms.prod: windows
 ms.technology: windows-sdk

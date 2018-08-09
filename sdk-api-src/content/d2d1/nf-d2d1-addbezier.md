@@ -4,10 +4,10 @@ title: AddBezier function
 author: windows-sdk-content
 description: Creates a cubic Bezier curve between the current point and the specified end point and adds it to the geometry sink.
 old-location: direct2d\id2d1geometrysink_addbezier.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: d1e228eb-dac6-485d-b3c9-69b2bd45e531
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: AddBezier, AddBezier methods [Direct2D], ID2D1GeometrySink::AddBezier, d2d1/AddBezier, direct2d.id2d1geometrysink_addbezier
 ms.prod: windows
 ms.technology: windows-sdk

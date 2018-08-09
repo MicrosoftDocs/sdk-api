@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain_resizebuffers.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_resizebuffers.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/30/2018
 ms.keywords: 615c7678-59c9-07b2-5960-4a5b881f779d, IDXGISwapChain interface [DXGI],ResizeBuffers method, IDXGISwapChain.ResizeBuffers, IDXGISwapChain::ResizeBuffers, ResizeBuffers, ResizeBuffers method [DXGI], ResizeBuffers method [DXGI],IDXGISwapChain interface, direct3ddxgi.idxgiswapchain_resizebuffers, dxgi/IDXGISwapChain::ResizeBuffers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,10 +95,10 @@ The new height of the back buffer.
 
 ### -param NewFormat
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
 
-A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value for the new format of the back buffer. 
-            Set this value to <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_UNKNOWN</a> to preserve the existing format of the back buffer. 
+A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value for the new format of the back buffer. 
+            Set this value to <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_UNKNOWN</a> to preserve the existing format of the back buffer. 
             The flip presentation model supports a more restricted set of formats than the bit-block transfer (bitblt) model.
           
 
@@ -107,7 +107,7 @@ A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMA
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A combination of <a href="https://msdn.microsoft.com/library/Bb173076(v=VS.85).aspx">DXGI_SWAP_CHAIN_FLAG</a>-typed values that are combined by using a bitwise OR operation. 
+A combination of <a href="https://msdn.microsoft.com/en-us/library/Bb173076(v=VS.85).aspx">DXGI_SWAP_CHAIN_FLAG</a>-typed values that are combined by using a bitwise OR operation. 
             The resulting value specifies options for swap-chain behavior.
           
 
@@ -116,10 +116,10 @@ A combination of <a href="https://msdn.microsoft.com/library/Bb173076(v=VS.85).a
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns S_OK if successful; an error code otherwise. 
-            For a list of error codes, see <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+            For a list of error codes, see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
           
 
 
@@ -149,10 +149,10 @@ Before you call <b>ResizeBuffers</b>, ensure that the application releases all r
           <b>ID3D11DeviceContext::ClearState</b>, then
           <a href="https://msdn.microsoft.com/31e9d8b6-4173-4999-8772-75134d60d269">ID3D11DeviceContext::FinishCommandList</a>, then 
           <b>Release</b> on the command list).
-          After you call <b>ResizeBuffers</b>, you can re-query interfaces via <a href="https://msdn.microsoft.com/library/Bb174570(v=VS.85).aspx">IDXGISwapChain::GetBuffer</a>.
+          After you call <b>ResizeBuffers</b>, you can re-query interfaces via <a href="https://msdn.microsoft.com/en-us/library/Bb174570(v=VS.85).aspx">IDXGISwapChain::GetBuffer</a>.
         
 
-For swap chains that you created with <a href="https://msdn.microsoft.com/library/Bb173076(v=VS.85).aspx">DXGI_SWAP_CHAIN_FLAG_GDI_COMPATIBLE</a>, 
+For swap chains that you created with <a href="https://msdn.microsoft.com/en-us/library/Bb173076(v=VS.85).aspx">DXGI_SWAP_CHAIN_FLAG_GDI_COMPATIBLE</a>, 
           before you call <b>ResizeBuffers</b>, also call <a href="https://msdn.microsoft.com/2c3a0cf3-c970-4908-a960-ba261756bd5f">IDXGISurface1::ReleaseDC</a> on the swap chain's back-buffer surface 
           to ensure that you have no outstanding GDI device contexts (DCs) open.
         
@@ -161,9 +161,9 @@ We recommend that you call <b>ResizeBuffers</b> when a client window is resized 
         
 
 The only difference between <b>IDXGISwapChain::ResizeBuffers</b> in Windows 8 versus Windows 7 is with 
-          flip presentation model swap chains that you create with the <a href="https://msdn.microsoft.com/library/Bb173077(v=VS.85).aspx">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> or DXGI_SWAP_EFFECT_FLIP_DISCARD value set.
+          flip presentation model swap chains that you create with the <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> or DXGI_SWAP_EFFECT_FLIP_DISCARD value set.
           In Windows 8, you must call <b>ResizeBuffers</b> to realize a transition between full-screen mode and windowed mode; 
-          otherwise, your next call to the <a href="https://msdn.microsoft.com/library/Bb174576(v=VS.85).aspx">IDXGISwapChain::Present</a> method fails.
+          otherwise, your next call to the <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">IDXGISwapChain::Present</a> method fails.
         
 
 
@@ -174,7 +174,7 @@ The only difference between <b>IDXGISwapChain::ResizeBuffers</b> in Windows 8 v
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174569(v=VS.85).aspx">IDXGISwapChain</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174569(v=VS.85).aspx">IDXGISwapChain</a>
  
 
  

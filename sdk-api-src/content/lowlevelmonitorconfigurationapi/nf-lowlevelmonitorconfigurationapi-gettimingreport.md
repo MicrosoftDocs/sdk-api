@@ -7,7 +7,7 @@ old-location: monitor\gettimingreport.htm
 old-project: Monitor
 ms.assetid: 17b5a7e4-936f-451f-b586-032f94a99be5
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetTimingReport, GetTimingReport function [Monitor Configuration], lowlevelmonitorconfigurationapi/GetTimingReport, monitor.gettimingreport
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-        Retrieves a monitor's horizontal and vertical synchronization frequencies.
+Retrieves a monitor's horizontal and vertical synchronization frequencies.
 
 
 ## -parameters
@@ -62,15 +61,13 @@ req.product: GDI+ 1.1
 
 ### -param hMonitor [in]
 
-
-            Handle to a physical monitor. To get the monitor handle, call <a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
+Handle to a physical monitor. To get the monitor handle, call <a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
           
 
 
 ### -param pmtrMonitorTimingReport [out]
 
-
-            Pointer to an <a href="https://msdn.microsoft.com/dfad2277-4f0d-4a92-a332-2c6c2bbac138">MC_TIMING_REPORT</a> structure that receives the timing information.
+Pointer to an <a href="https://msdn.microsoft.com/dfad2277-4f0d-4a92-a332-2c6c2bbac138">MC_TIMING_REPORT</a> structure that receives the timing information.
           
 
 
@@ -78,8 +75,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
           
 
 
@@ -89,12 +85,10 @@ req.product: GDI+ 1.1
 
 
 
-
-        This function corresponds to the "Get Timing Report &amp; Timing Message" command from the Display Data Channel Command Interface (DDC/CI) standard. For more information about the timing information, refer to the DDC/CI standard.
+This function corresponds to the "Get Timing Report &amp; Timing Message" command from the Display Data Channel Command Interface (DDC/CI) standard. For more information about the timing information, refer to the DDC/CI standard.
       
 
-
-        This function takes about 50 milliseconds to return.
+This function takes about 50 milliseconds to return.
       
 
 

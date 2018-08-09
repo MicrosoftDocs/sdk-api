@@ -7,7 +7,7 @@ old-location: magapi\magapi_magcoloreffect.htm
 old-project: magapi
 ms.assetid: VS|magapi|~\magapi\reference\structures\magcoloreffectstruct.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: "*PMAGCOLOREFFECT, MAGCOLOREFFECT, MAGCOLOREFFECT structure [Magnification API], PMAGCOLOREFFECT, PMAGCOLOREFFECT structure pointer [Magnification API], magapi.magapi_magcoloreffect, magapi_magcoloreffect, magnification/MAGCOLOREFFECT, magnification/PMAGCOLOREFFECT, tagMAGCOLOREFFECT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,9 +77,8 @@ The color transformation matrix.
 
 
 
-
 The values in the matrix are for red, blue, green, alpha, and color translation. For more information, see 
-<a href="https://msdn.microsoft.com/library/ms533875(v=VS.85).aspx">Using a Color Matrix to Transform a Single Color</a> in the Windows GDI+ documentation.
+<a href="https://msdn.microsoft.com/en-us/library/ms533875(v=VS.85).aspx">Using a Color Matrix to Transform a Single Color</a> in the Windows GDI+ documentation.
  
 
 
@@ -91,11 +90,11 @@ The values in the matrix are for red, blue, green, alpha, and color translation.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692387(v=VS.85).aspx">MagGetColorEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692387(v=VS.85).aspx">MagGetColorEffect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692394(v=VS.85).aspx">MagSetColorEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692394(v=VS.85).aspx">MagSetColorEffect</a>
 
 
 

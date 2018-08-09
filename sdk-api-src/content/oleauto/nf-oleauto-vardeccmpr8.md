@@ -7,7 +7,7 @@ old-location: automat\vardeccmpr8.htm
 old-project: automat
 ms.assetid: b078ead4-3df6-42b0-8844-143969e7e71e
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarDecCmpR8, VarDecCmpR8 function [Automation], _oa96_VarDecCmpR8, automat.vardeccmpr8, oleauto/VarDecCmpR8
 ms.prod: windows
 ms.technology: windows-sdk

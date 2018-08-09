@@ -7,7 +7,7 @@ old-location: rpc\ndrdllregisterproxy.htm
 old-project: rpc
 ms.assetid: 555a9e8b-c720-4bd5-872c-1af317511858
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: NdrDllRegisterProxy, NdrDllRegisterProxy function [RPC], rpc.ndrdllregisterproxy, rpcproxy/NdrDllRegisterProxy
 ms.prod: windows
 ms.technology: windows-sdk

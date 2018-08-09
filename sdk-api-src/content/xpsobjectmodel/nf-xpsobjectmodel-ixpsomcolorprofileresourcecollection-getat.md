@@ -7,7 +7,7 @@ old-location: xps\ixpsomcolorprofileresourcecollection_getat.htm
 old-project: printdocs
 ms.assetid: ecb8b3e7-182f-446a-bc12-28762da1f930
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMColorProfileResourceCollection.GetAt, IXpsOMColorProfileResourceCollection::GetAt, xps.ixpsomcolorprofileresourcecollection_getat, xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetAt
 ms.prod: windows
 ms.technology: windows-sdk

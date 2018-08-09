@@ -7,7 +7,7 @@ old-location: automat\varr4fromui4.htm
 old-project: automat
 ms.assetid: 1271b7b0-702e-44ac-ac3a-78137dc49f4e
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarR4FromUI4, VarR4FromUI4 function [Automation], _oa96_VarR4FromUI4, automat.varr4fromui4, oleauto/VarR4FromUI4
 ms.prod: windows
 ms.technology: windows-sdk

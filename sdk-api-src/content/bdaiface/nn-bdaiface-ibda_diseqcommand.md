@@ -7,7 +7,7 @@ old-location: mstv\ibda_diseqcommand.htm
 old-project: mstv
 ms.assetid: 0148a32d-b131-46ba-bbf0-82e2cf9c7d86
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IBDA_DiseqCommand, IBDA_DiseqCommand interface [Microsoft TV Technologies], IBDA_DiseqCommand interface [Microsoft TV Technologies],described, bdaiface/IBDA_DiseqCommand, mstv.ibda_diseqcommand
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,8 +73,7 @@ The <b>IBDA_DiseqCommand</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ed481bfb-dd80-44fa-bf64-a0f8e903ae35">get_DiseqResponse</a>
 </td>
 <td align="left" width="63%">
-
-            Gets the driver's response to a DiSEqC command.
+Gets the driver's response to a DiSEqC command.
           
 
 </td>
@@ -84,8 +83,7 @@ The <b>IBDA_DiseqCommand</b> interface has these methods.
 <a href="https://msdn.microsoft.com/09ed3d1d-026a-43b3-863b-a77260e082d8">put_DiseqLNBSource</a>
 </td>
 <td align="left" width="63%">
-
-            Sets the low-noise block (LNB) converter source.
+Sets the low-noise block (LNB) converter source.
           
 
 </td>
@@ -95,8 +93,7 @@ The <b>IBDA_DiseqCommand</b> interface has these methods.
 <a href="https://msdn.microsoft.com/de5cbfa9-1509-47cf-b994-24b5dac76d8e">put_DiseqRepeats</a>
 </td>
 <td align="left" width="63%">
-
-            Enables or disables repeated DiSEqC commands.
+Enables or disables repeated DiSEqC commands.
           
 
 </td>
@@ -106,8 +103,7 @@ The <b>IBDA_DiseqCommand</b> interface has these methods.
 <a href="https://msdn.microsoft.com/5ee77311-0b1d-43b1-af8e-bb886170701d">put_DiseqSendCommand</a>
 </td>
 <td align="left" width="63%">
-
-            Sends a DiSEqC command.
+Sends a DiSEqC command.
           
 
 </td>
@@ -117,8 +113,7 @@ The <b>IBDA_DiseqCommand</b> interface has these methods.
 <a href="https://msdn.microsoft.com/23523ac9-19e0-4247-a697-24d6f1c07285">put_DiseqUseToneBurst</a>
 </td>
 <td align="left" width="63%">
-
-            Enables or disables Tone-Burst commands.
+Enables or disables Tone-Burst commands.
 
 </td>
 </tr>
@@ -127,8 +122,7 @@ The <b>IBDA_DiseqCommand</b> interface has these methods.
 <a href="https://msdn.microsoft.com/d70f5e3c-bd5d-48cf-b4fd-e1ae2ba66f69">put_EnableDiseqCommands</a>
 </td>
 <td align="left" width="63%">
-
-            Enables or disables the use of DiSEqC commands.
+Enables or disables the use of DiSEqC commands.
           
 
 </td>
@@ -140,8 +134,7 @@ The <b>IBDA_DiseqCommand</b> interface has these methods.
 
 
 
-
-        Depending on the cable television equipment in use, this interface can be used to select the LNB converter source, move a motor dish, or control radio frequency (RF) switching equipment.
+Depending on the cable television equipment in use, this interface can be used to select the LNB converter source, move a motor dish, or control radio frequency (RF) switching equipment.
       
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_DiseqCommand)</code>.

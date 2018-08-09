@@ -7,7 +7,7 @@ old-location: base\createenclave.htm
 old-project: memory
 ms.assetid: 2193AE42-D9CC-4A9C-8676-7DE432ED58C3
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: CreateEnclave, CreateEnclave function, ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, base.createenclave, enclaveapi/CreateEnclave
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,9 +77,15 @@ The preferred base address of the enclave. Specify <b>NULL</b> to have the opera
 The size of the enclave that you want to create, including the size of the code that you will load into the enclave, in bytes.
 
 
-### -param dwInitialCommitment
+### -param dwInitialCommitment [in]
 
-TBD
+The amount of memory to commit for the enclave, in bytes.
+
+If the amount of enclave memory available is not sufficient to commit this number of bytes, enclave creation fails. Any memory that remains unused when you initialize the enclave by calling <a href="https://msdn.microsoft.com/6A711135-A522-40AE-965F-E1AF97D0076A">InitializeEnclave</a> is returned to the list of free pages.
+
+The value of the <i>dwInitialCommittment</i> parameter must not exceed the value of the <i>dwSize</i> parameter.
+
+This parameter is not used for virtualization-based security (VBS) enclaves.
 
 
 ### -param flEnclaveType [in]
@@ -134,17 +140,6 @@ The length of the structure that the <i>lpEnclaveInformation</i> parameter point
 ### -param lpEnclaveError [out, optional]
 
 An optional pointer to  a variable that receives an enclave error code that is architecture-specific. For the <b>ENCLAVE_TYPE_SGX</b> and <b>ENCLAVE_TYPE_VBS</b>  enclave types, the <i>lpEnclaveError</i> parameter is not used.
-
-
-#### - dwInitialCommittment [in]
-
-The amount of memory to commit for the enclave, in bytes.
-
-If the amount of enclave memory available is not sufficient to commit this number of bytes, enclave creation fails. Any memory that remains unused when you initialize the enclave by calling <a href="https://msdn.microsoft.com/6A711135-A522-40AE-965F-E1AF97D0076A">InitializeEnclave</a> is returned to the list of free pages.
-
-The value of the <i>dwInitialCommittment</i> parameter must not exceed the value of the <i>dwSize</i> parameter.
-
-This parameter is not used for virtualization-based security (VBS) enclaves.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: dshow\avimainheader.htm
 old-project: DirectShow
 ms.assetid: 3b8a326c-ebb2-4fb7-a167-7382d2e78ec2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: AVIF_COPYRIGHTED, AVIF_HASINDEX, AVIF_ISINTERLEAVED, AVIF_MUSTUSEINDEX, AVIF_WASCAPTUREFILE, AVIMAINHEADER, AVIMAINHEADER structure [DirectShow], AVIMAINHEADERStructure, _avimainheader, aviriff/AVIMAINHEADER, dshow.avimainheader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          The <b>AVIMAINHEADER</b> structure defines global information in an AVI file.
+The <b>AVIMAINHEADER</b> structure defines global information in an AVI file.
         
 
 
@@ -62,43 +61,37 @@ req.irql:
 
 ### -field fcc
 
-
-            Specifies a FOURCC code. The value must be 'avih'.
+Specifies a FOURCC code. The value must be 'avih'.
           
 
 
 ### -field cb
 
-
-            Specifies the size of the structure, not including the initial 8 bytes.
+Specifies the size of the structure, not including the initial 8 bytes.
           
 
 
 ### -field dwMicroSecPerFrame
 
-
-            Specifies the number of microseconds between frames. This value indicates the overall timing for the file.
+Specifies the number of microseconds between frames. This value indicates the overall timing for the file.
           
 
 
 ### -field dwMaxBytesPerSec
 
-
-            Specifies the approximate maximum data rate of the file. This value indicates the number of bytes per second the system must handle to present an AVI sequence as specified by the other parameters contained in the main header and stream header chunks.
+Specifies the approximate maximum data rate of the file. This value indicates the number of bytes per second the system must handle to present an AVI sequence as specified by the other parameters contained in the main header and stream header chunks.
           
 
 
 ### -field dwPaddingGranularity
 
-
-            Specifies the alignment for data, in bytes. Pad the data to multiples of this value.
+Specifies the alignment for data, in bytes. Pad the data to multiples of this value.
           
 
 
 ### -field dwFlags
 
-
-            Contains a bitwise combination of zero or more of the following flags:
+Contains a bitwise combination of zero or more of the following flags:
           
 
 <table>
@@ -162,8 +155,7 @@ Indicates the AVI file is a specially allocated file used for capturing real-tim
 
 ### -field dwTotalFrames
 
-
-            Specifies the total number of frames of data in the file.
+Specifies the total number of frames of data in the file.
           
 
 
@@ -171,43 +163,37 @@ Indicates the AVI file is a specially allocated file used for capturing real-tim
 
 Specifies the initial frame for interleaved files. Noninterleaved files should specify zero. If you are creating interleaved files, specify the number of frames in the file prior to the initial frame of the AVI sequence in this member.
 
-
-            To give the audio driver enough audio to work with, the audio data in an interleaved file must be skewed from the video data. Typically, the audio data should be moved forward enough frames to allow approximately 0.75 seconds of audio data to be preloaded. The <b>dwInitialRecords</b> member should be set to the number of frames the audio is skewed. Also set the same value for the <b>dwInitialFrames</b> member of the <a href="https://msdn.microsoft.com/f07c28ac-2dd0-428a-a94a-32aec2bb0854">AVISTREAMHEADER</a> structure in the audio stream header.
+To give the audio driver enough audio to work with, the audio data in an interleaved file must be skewed from the video data. Typically, the audio data should be moved forward enough frames to allow approximately 0.75 seconds of audio data to be preloaded. The <b>dwInitialRecords</b> member should be set to the number of frames the audio is skewed. Also set the same value for the <b>dwInitialFrames</b> member of the <a href="https://msdn.microsoft.com/f07c28ac-2dd0-428a-a94a-32aec2bb0854">AVISTREAMHEADER</a> structure in the audio stream header.
           
 
 
 ### -field dwStreams
 
-
-            Specifies the number of streams in the file. For example, a file with audio and video has two streams.
+Specifies the number of streams in the file. For example, a file with audio and video has two streams.
           
 
 
 ### -field dwSuggestedBufferSize
 
-
-            Specifies the suggested buffer size for reading the file. Generally, this size should be large enough to contain the largest chunk in the file. If set to zero, or if it is too small, the playback software will have to reallocate memory during playback, which will reduce performance. For an interleaved file, the buffer size should be large enough to read an entire record, and not just a chunk.
+Specifies the suggested buffer size for reading the file. Generally, this size should be large enough to contain the largest chunk in the file. If set to zero, or if it is too small, the playback software will have to reallocate memory during playback, which will reduce performance. For an interleaved file, the buffer size should be large enough to read an entire record, and not just a chunk.
           
 
 
 ### -field dwWidth
 
-
-            Specifies the width of the AVI file in pixels.
+Specifies the width of the AVI file in pixels.
           
 
 
 ### -field dwHeight
 
-
-            Specifies the height of the AVI file in pixels.
+Specifies the height of the AVI file in pixels.
           
 
 
 ### -field dwReserved
 
-
-            Reserved. Set this array to zero.
+Reserved. Set this array to zero.
           
 
 

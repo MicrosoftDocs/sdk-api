@@ -7,7 +7,7 @@ old-location: tsf\itfedittransactionsink_onstartedittransaction.htm
 old-project: TSF
 ms.assetid: cf10e7aa-c2a1-4d7f-828a-434c9852f4d6
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfEditTransactionSink interface [Text Services Framework],OnStartEditTransaction method, ITfEditTransactionSink.OnStartEditTransaction, ITfEditTransactionSink::OnStartEditTransaction, OnStartEditTransaction, OnStartEditTransaction method [Text Services Framework], OnStartEditTransaction method [Text Services Framework],ITfEditTransactionSink interface, _tsf_itfedittransactionsink_onstartedittransaction_ref, msctf/ITfEditTransactionSink::OnStartEditTransaction, tsf.itfedittransactionsink_onstartedittransaction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,20 +91,17 @@ The TSF manager calls this method at the start of an edit transaction. A text se
 
 
 
-<a href="https://msdn.microsoft.com/d5393459-8bd6-4daf-830a-aa08d76c6347">
-        ITfEditTransactionSink
+<a href="https://msdn.microsoft.com/d5393459-8bd6-4daf-830a-aa08d76c6347">ITfEditTransactionSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/9ca9eac8-f30b-4a52-b851-3ad7a5c4dfb7">
-        ITfEditTransactionSink::OnEndEditTransaction
+<a href="https://msdn.microsoft.com/9ca9eac8-f30b-4a52-b851-3ad7a5c4dfb7">ITfEditTransactionSink::OnEndEditTransaction
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/7763a879-a558-463d-837b-e38e6f84b9f7">
-        ITfTextEditSink::OnEndEdit
+<a href="https://msdn.microsoft.com/7763a879-a558-463d-837b-e38e6f84b9f7">ITfTextEditSink::OnEndEdit
       </a>
  
 

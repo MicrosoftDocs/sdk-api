@@ -7,7 +7,7 @@ old-location: wsw\wsgetwriterproperty.htm
 old-project: wsw
 ms.assetid: 1167662f-0383-44bb-a7e1-1ec12539903e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsGetWriterProperty, WsGetWriterProperty function [Web Services for Windows], webservices/WsGetWriterProperty, wsw.wsgetwriterproperty
 ms.prod: windows
 ms.technology: windows-sdk

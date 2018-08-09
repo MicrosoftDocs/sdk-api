@@ -7,7 +7,7 @@ old-location: wsw\ws_cert_issuer_list_notification_callback.htm
 old-project: wsw
 ms.assetid: a8417d3f-5932-4993-b206-b43b6a93ef8f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK, WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK callback, WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK callback function [Web Services for Windows], webservices/WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK, wsw.ws_cert_issuer_list_notification_callback
 ms.prod: windows
 ms.technology: windows-sdk

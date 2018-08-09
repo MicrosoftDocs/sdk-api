@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeeruninitialize.htm
 old-project: eaphost
 ms.assetid: 5d3a101a-4de3-4da2-8c03-e672e206ffb0
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapHostPeerUninitialize, EapHostPeerUninitialize function [EAPHost], eaphost.eaphostpeeruninitialize, eappapis/EapHostPeerUninitialize
 ms.prod: windows
 ms.technology: windows-sdk

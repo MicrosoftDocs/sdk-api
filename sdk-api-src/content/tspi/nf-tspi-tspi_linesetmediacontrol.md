@@ -4,10 +4,10 @@ title: TSPI_lineSetMediaControl function
 author: windows-sdk-content
 description: The TSPI_lineSetMediaControl function enables and disables control actions on the media stream associated with the specified line, address, or call.
 old-location: tspi\tspi_linesetmediacontrol.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: e9273bd6-8dc3-4b45-bf0e-a1a10d78a604
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: TSPI_lineSetMediaControl, TSPI_lineSetMediaControl function [TAPI 2.2], _tspi_tspi_linesetmediacontrol, tspi.tspi_linesetmediacontrol, tspi/TSPI_lineSetMediaControl
 ms.prod: windows
 ms.technology: windows-sdk

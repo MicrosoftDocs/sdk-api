@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement4_CachedAnnotationObjects.htm
 old-project: WinAuto
 ms.assetid: 1119D5A9-A317-4ADD-B9A2-8B1AC0CA20F2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CachedAnnotationObjects property [Windows Accessibility], CachedAnnotationObjects property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CachedAnnotationObjects property, IUIAutomationElement4.CachedAnnotationObjects, IUIAutomationElement4.get_CachedAnnotationObjects, IUIAutomationElement4::CachedAnnotationObjects, IUIAutomationElement4::get_CachedAnnotationObjects, get_CachedAnnotationObjects, uiautomationclient/IUIAutomationElement4::CachedAnnotationObjects, uiautomationclient/IUIAutomationElement4::get_CachedAnnotationObjects, winauto.uiauto_IUIAutomationElement4_CachedAnnotationObjects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

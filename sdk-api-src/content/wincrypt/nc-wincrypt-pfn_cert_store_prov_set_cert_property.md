@@ -4,10 +4,10 @@ title: PFN_CERT_STORE_PROV_SET_CERT_PROPERTY
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertSetCertificateContextProperty before setting the certificate's property.
 old-location: security\certstoreprovsetcertpropertycallback.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 03d7e1f6-030f-4eae-b76d-5465748d9583
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CertStoreProvSetCertPropertyCallback, CertStoreProvSetCertPropertyCallback callback, CertStoreProvSetCertPropertyCallback callback function [Security], PFN_CERT_STORE_PROV_SET_CERT_PROPERTY, PFN_CERT_STORE_PROV_SET_CERT_PROPERTY callback function [Security], _crypto2_certstoreprovsetcertpropertycallback, security.certstoreprovsetcertpropertycallback, wincrypt/CertStoreProvSetCertPropertyCallback, wincrypt/PFN_CERT_STORE_PROV_SET_CERT_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\isequaliid.htm
 old-project: com
 ms.assetid: 4753a5f2-78a0-4622-bf4c-fd19731fa9e4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IsEqualIID, IsEqualIID function [COM], _com_IsEqualIID, com.isequaliid, guiddef/IsEqualIID
 ms.prod: windows
 ms.technology: windows-sdk

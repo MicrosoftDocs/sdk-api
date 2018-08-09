@@ -4,10 +4,10 @@ title: IProvideWinSATVisuals
 author: windows-sdk-content
 description: Retrieves elements that can be used in a user interface to graphically represent the WinSAT assessment.
 old-location: winsat\iprovidewinsatvisuals.htm
-old-project: WinSAT
+old-project: winsat
 ms.assetid: 9e8d2490-9d48-4512-b5f0-5c2f9cdeb287
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IProvideWinSATVisuals, IProvideWinSATVisuals interface [WinSAT], IProvideWinSATVisuals interface [WinSAT],described, winsat.iprovidewinsatvisuals, winsatcominterfacei/IProvideWinSATVisuals
 ms.prod: windows
 ms.technology: windows-sdk

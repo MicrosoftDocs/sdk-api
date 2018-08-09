@@ -4,10 +4,10 @@ title: CreateProcessWithTokenW function
 author: windows-sdk-content
 description: Creates a new process and its primary thread. The new process runs in the security context of the specified token. It can optionally load the user profile for the specified user.
 old-location: base\createprocesswithtokenw.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: b329866a-0c0d-4cb3-838c-36aac17c87ed
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CREATE_DEFAULT_ERROR_MODE, CREATE_NEW_CONSOLE, CREATE_NEW_PROCESS_GROUP, CREATE_SEPARATE_WOW_VDM, CREATE_SUSPENDED, CREATE_UNICODE_ENVIRONMENT, CreateProcessWithTokenW, CreateProcessWithTokenW function, EXTENDED_STARTUPINFO_PRESENT, LOGON_NETCREDENTIALS_ONLY, LOGON_WITH_PROFILE, base.createprocesswithtokenw, winbase/CreateProcessWithTokenW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -337,14 +337,7 @@ Handles in
 <div class="alert"><b>Important</b>  If the <b>dwFlags</b> member of the  <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure specifies <b>STARTF_USESTDHANDLES</b>, the standard handle fields are copied unchanged to the child process without validation. The caller is responsible for ensuring that these fields contain valid handle values.  Incorrect values can cause the child process to misbehave or crash. Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=234779">Application Verifier</a> runtime verification tool to detect invalid handles. </div>
 <div> </div>
 
-### -param lpProcessInformation
-
-TBD
-
-
-
-
-#### - lpProcessInfo [out]
+### -param lpProcessInformation [out]
 
 A pointer to a 
 <a href="https://msdn.microsoft.com/78d84499-7e56-4ff7-a8cd-1cf1b275597a">PROCESS_INFORMATION</a> structure that receives identification information for the new process, including a handle to the process. 

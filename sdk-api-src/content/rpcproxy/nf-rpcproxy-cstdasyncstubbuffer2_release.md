@@ -7,7 +7,7 @@ old-location: rpc\cstdasyncstubbuffer2_release.htm
 old-project: rpc
 ms.assetid: EFA170DE-1EE2-453D-BB0D-EEEEB7E1837B
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: CStdAsyncStubBuffer2_Release, CStdAsyncStubBuffer2_Release function [RPC], rpc.cstdasyncstubbuffer2_release, rpcproxy/CStdAsyncStubBuffer2_Release
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: ADAM
 
 <p class="CCE_Message">[CStdAsyncStubBuffer2_Release is not supported and may be altered or unavailable in the future.]
 
-Implements the <a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).aspx">IRpcStubBuffer::Release</a> method.
+Implements the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer::Release</a> method.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Implements the <a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).asp
 
 ### -param pthis [in]
 
-Pointer to  the <a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
 
 
 ## -returns

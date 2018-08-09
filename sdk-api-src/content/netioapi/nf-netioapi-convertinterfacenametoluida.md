@@ -7,7 +7,7 @@ old-location: iphlp\convertinterfacenametoluida.htm
 old-project: iphlp
 ms.assetid: daceabf9-ff43-4206-9f8f-f3924de9c5a5
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: ConvertInterfaceNameToLuidA, ConvertInterfaceNameToLuidA function [IP Helper], iphlp.convertinterfacenametoluida, netioapi/ConvertInterfaceNameToLuidA
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ On success,
 <tr>
 <td width="40%">
 <dl>
-<dt><b>
-								ERROR_BUFFER_OVERFLOW</b></dt>
+<dt><b>ERROR_BUFFER_OVERFLOW</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -126,9 +125,7 @@ One of the parameters was invalid. This error is returned if the <i>InterfaceLui
 
 
 
-The <b>ConvertInterfaceNameToLuidA</b> function is available on Windows Vista
-  
-   and later.
+The <b>ConvertInterfaceNameToLuidA</b> function is available on Windows Vistaand later.
 
 The <b>ConvertInterfaceNameToLuidA</b> function is protocol independent and works with network interfaces for both the IPv6 and IPv4 protocol. The <b>ConvertInterfaceNameToLuidA</b> converts an ANSI interface name to a LUID. 
 

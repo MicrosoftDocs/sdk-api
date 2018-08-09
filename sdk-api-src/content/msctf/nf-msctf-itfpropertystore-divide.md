@@ -7,7 +7,7 @@ old-location: tsf\itfpropertystore_divide.htm
 old-project: TSF
 ms.assetid: 5b982cb1-e1b6-440b-9ac6-9b34bb86731d
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: Divide, Divide method [Text Services Framework], Divide method [Text Services Framework],ITfPropertyStore interface, ITfPropertyStore interface [Text Services Framework],Divide method, ITfPropertyStore.Divide, ITfPropertyStore::Divide, _tsf_itfpropertystore_divide_ref, msctf/ITfPropertyStore::Divide, tsf.itfpropertystore_divide
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,8 +117,7 @@ If this method returns any value other than S_OK, the original property store is
 
 
 
-<a href="https://msdn.microsoft.com/0678e622-3733-499b-b289-c8c181d4638c">
-        ITfPropertyStore
+<a href="https://msdn.microsoft.com/0678e622-3733-499b-b289-c8c181d4638c">ITfPropertyStore
       </a>
 
 

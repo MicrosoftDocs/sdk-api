@@ -7,7 +7,7 @@ old-location: security\bcrypt_rsakey_blob.htm
 old-project: seccng
 ms.assetid: bbf3f4b9-5c69-4212-bb23-34bb2c84185c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: BCRYPT_RSAFULLPRIVATE_MAGIC, BCRYPT_RSAKEY_BLOB, BCRYPT_RSAKEY_BLOB structure [Security], BCRYPT_RSAPRIVATE_MAGIC, BCRYPT_RSAPUBLIC_MAGIC, _BCRYPT_RSAKEY_BLOB, bcrypt/BCRYPT_RSAKEY_BLOB, security.bcrypt_rsakey_blob
 ms.prod: windows
 ms.technology: windows-sdk

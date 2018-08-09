@@ -4,10 +4,10 @@ title: UpdateDashes function
 author: windows-sdk-content
 description: Updates the array.
 old-location: direct2d\id2d1svgstrokedasharray_updatedashes_overload.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: b9be98f2-d215-d009-ec9e-732163539053
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID2D1SvgStrokeDashArray::UpdateDashes, UpdateDashes, UpdateDashes methods [Direct2D], d2d1svg/UpdateDashes, direct2d.id2d1svgstrokedasharray_updatedashes_overload
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: hidpi\setthreaddpihostingbehavior.htm
 old-project: hidpi
 ms.assetid: CF31D96A-EC84-4911-81A2-82EC90D417B9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetThreadDpiHostingBehavior, SetThreadDpiHostingBehavior function [High DPI], hidpi.setthreaddpihostingbehavior, winuser/SetThreadDpiHostingBehavior
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,13 +60,6 @@ Sets the thread's <a href="https://msdn.microsoft.com/4BFBF485-1AD2-4460-A4EE-CB
 
 
 ### -param value
-
-TBD
-
-
-
-
-#### - behavior
 
 The new <a href="https://msdn.microsoft.com/4BFBF485-1AD2-4460-A4EE-CB76EF62B8C4">DPI_HOSTING_BEHAVIOR</a> value for the current thread.
 

@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyMod
 old-project: wincontacts
 ms.assetid: 7ad95916-4e21-4607-b27d-584a931f9201
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 07/29/2018
 ms.keywords: GetPropertyModificationDate, GetPropertyModificationDate method [Windows Contacts], GetPropertyModificationDate method [Windows Contacts],IContactPropertyCollection interface, IContactPropertyCollection interface [Windows Contacts],GetPropertyModificationDate method, IContactPropertyCollection.GetPropertyModificationDate, IContactPropertyCollection::GetPropertyModificationDate, _wincontacts_IContactPropertyCollection_GetPropertyModificationDate, icontact/IContactPropertyCollection::GetPropertyModificationDate, wincontacts._wincontacts_IContactPropertyCollection_GetPropertyModificationDate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Retrieves the last modification date for the current property in the enumeration
 
 ### -param pftModificationDate [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx">FILETIME</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a>*</b>
 
 Specifies the last modified date as a UTC FILETIME. 
 

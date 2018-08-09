@@ -7,7 +7,7 @@ old-location: shell\SHRunControlPanel.htm
 old-project: shell
 ms.assetid: 393a1f63-071e-4655-b6fb-7b0abca7818c
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHRunControlPanel, SHRunControlPanel function [Windows Shell], _shell_SHRunControlPanel, shell.SHRunControlPanel, shlobj/SHRunControlPanel
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fs\removelogcontainer.htm
 old-project: Clfs
 ms.assetid: e6571cb0-8453-4db0-9a33-17339c4ea223
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/03/2018
 ms.keywords: RemoveLogContainer, RemoveLogContainer function [Files], clfsw32/RemoveLogContainer, fs.removelogcontainer
 ms.prod: windows
 ms.technology: windows-sdk

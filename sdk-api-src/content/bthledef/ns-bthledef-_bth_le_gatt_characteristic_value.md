@@ -7,7 +7,7 @@ old-location: bltooth\bth_le_gatt_characteristic_value.htm
 old-project: bltooth
 ms.assetid: AF36BC9A-5EB7-4495-870A-40BF5E0A57A3
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/30/2018
 ms.keywords: "*PBTH_LE_GATT_CHARACTERISTIC_VALUE, BTH_LE_GATT_CHARACTERISTIC_VALUE, BTH_LE_GATT_CHARACTERISTIC_VALUE structure [Bluetooth Devices], PBTH_LE_GATT_CHARACTERISTIC_VALUE, PBTH_LE_GATT_CHARACTERISTIC_VALUE structure pointer [Bluetooth Devices], _BTH_LE_GATT_CHARACTERISTIC_VALUE, bltooth.bth_le_gatt_characteristic_value, bthledef/BTH_LE_GATT_CHARACTERISTIC_VALUE, bthledef/PBTH_LE_GATT_CHARACTERISTIC_VALUE"
 ms.prod: windows
 ms.technology: windows-sdk

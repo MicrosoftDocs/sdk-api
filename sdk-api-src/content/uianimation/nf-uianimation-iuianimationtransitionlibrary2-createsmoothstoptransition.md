@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary2_createsmoothstoptransit
 old-project: UIAnimation
 ms.assetid: 011FFBF8-31A9-4253-B034-5836B7B74409
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: CreateSmoothStopTransition, CreateSmoothStopTransition method [Windows Animation], CreateSmoothStopTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateSmoothStopTransition method, IUIAnimationTransitionLibrary2.CreateSmoothStopTransition, IUIAnimationTransitionLibrary2::CreateSmoothStopTransition, uianimation.iuianimationtransitionlibrary2_createsmoothstoptransition, uianimation/IUIAnimationTransitionLibrary2::CreateSmoothStopTransition
 ms.prod: windows
 ms.technology: windows-sdk

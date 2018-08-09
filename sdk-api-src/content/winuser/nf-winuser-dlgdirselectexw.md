@@ -4,10 +4,10 @@ title: DlgDirSelectExW function
 author: windows-sdk-content
 description: Retrieves the current selection from a single-selection list box. It assumes that the list box has been filled by the DlgDirList function and that the selection is a drive letter, filename, or directory name.
 old-location: controls\DlgDirSelectEx.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\dlgdirselectex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DlgDirSelectEx, DlgDirSelectEx function [Windows Controls], DlgDirSelectExA, DlgDirSelectExW, _win32_DlgDirSelectEx, _win32_DlgDirSelectEx_cpp, controls.DlgDirSelectEx, controls._win32_DlgDirSelectEx, winuser/DlgDirSelectEx, winuser/DlgDirSelectExA, winuser/DlgDirSelectExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,11 @@ Retrieves the current selection from a single-selection list box. It assumes tha
 
 
 
-### -param hwndDlg
+### -param hwndDlg [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the dialog box that contains the list box. 
 
 
 ### -param lpString [out]
@@ -73,26 +75,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 A pointer to a buffer that receives the selected path. 
 
 
-### -param chCount
-
-TBD
-
-
-### -param idListBox
-
-TBD
-
-
-
-
-#### - hDlg [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to the dialog box that contains the list box. 
-
-
-#### - nCount [in]
+### -param chCount [in]
 
 Type: <b>int</b>
 
@@ -101,7 +84,7 @@ The length, in
 					<i>lpString</i>. 
 
 
-#### - nIDListBox [in]
+### -param idListBox [in]
 
 Type: <b>int</b>
 

@@ -4,10 +4,10 @@ title: StartServiceCtrlDispatcherW function
 author: windows-sdk-content
 description: Connects the main thread of a service process to the service control manager, which causes the thread to be the service control dispatcher thread for the calling process.
 old-location: base\startservicectrldispatcher.htm
-old-project: Services
+old-project: services
 ms.assetid: 8e275eb7-a8af-4bd7-bb39-0eac4f3735ad
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: StartServiceCtrlDispatcher, StartServiceCtrlDispatcher function, StartServiceCtrlDispatcherA, StartServiceCtrlDispatcherW, _win32_startservicectrldispatcher, base.startservicectrldispatcher, winsvc/StartServiceCtrlDispatcher, winsvc/StartServiceCtrlDispatcherA, winsvc/StartServiceCtrlDispatcherW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,7 @@ Connects the main thread of a service process to the service control manager, wh
 
 
 
-### -param lpServiceStartTable
-
-TBD
-
-
-
-
-#### - lpServiceTable [in]
+### -param lpServiceStartTable [in]
 
 A pointer to an array of 
 <a href="https://msdn.microsoft.com/dd40c4f0-cbbe-429f-91c0-3ba141dab702">SERVICE_TABLE_ENTRY</a> structures containing one entry for each service that can execute in the calling process. The members of the last entry in the table must have NULL values to designate the end of the table.

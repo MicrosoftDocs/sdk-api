@@ -7,7 +7,7 @@ old-location: controls\Header_ClearFilter.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_clearfilter.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Header_ClearFilter, Header_ClearFilter macro [Windows Controls], _win32_Header_ClearFilter, _win32_Header_ClearFilter_cpp, commctrl/Header_ClearFilter, controls.Header_ClearFilter, controls._win32_Header_ClearFilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Clears the filter for a given header control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775306(v=VS.85).aspx">HDM_CLEARFILTER</a> message explicitly. 
+Clears the filter for a given header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775306(v=VS.85).aspx">HDM_CLEARFILTER</a> message explicitly. 
 
 
 ## -parameters
@@ -76,7 +76,7 @@ A value specifying the column of the filter to be cleared. Specifying -1 will cl
 
 
 
-If the column value is specified as -1, all the filters will be cleared and the <a href="https://msdn.microsoft.com/library/Bb775277(v=VS.85).aspx">HDN_FILTERCHANGE</a> notification will be sent only once. 
+If the column value is specified as -1, all the filters will be cleared and the <a href="https://msdn.microsoft.com/en-us/library/Bb775277(v=VS.85).aspx">HDN_FILTERCHANGE</a> notification will be sent only once. 
 
 
 
@@ -86,7 +86,7 @@ If the column value is specified as -1, all the filters will be cleared and the 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775375(v=VS.85).aspx">Header_ClearAllFilters</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775375(v=VS.85).aspx">Header_ClearAllFilters</a>
  
 
  

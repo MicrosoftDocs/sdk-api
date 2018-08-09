@@ -7,7 +7,7 @@ old-location: tsf\itfrange_adjustforinsert.htm
 old-project: TSF
 ms.assetid: b286266c-d6cf-4291-b4b2-24d5a3d4e1ad
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: AdjustForInsert, AdjustForInsert method [Text Services Framework], AdjustForInsert method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],AdjustForInsert method, ITfRange.AdjustForInsert, ITfRange::AdjustForInsert, _tsf_itfrange_adjustforinsert_ref, msctf/ITfRange::AdjustForInsert, tsf.itfrange_adjustforinsert
 ms.prod: windows
 ms.technology: windows-sdk
@@ -166,8 +166,7 @@ On exit, if <i>*pfInsertOk</i> is set to <b>FALSE</b>, a future call to <b>ITfRa
 
 
 
-<a href="https://msdn.microsoft.com/1373fe9b-6c51-4514-a7da-c1f872d9b1ce">
-        ITFInsertAtSelection:InsertTextAtSelection
+<a href="https://msdn.microsoft.com/1373fe9b-6c51-4514-a7da-c1f872d9b1ce">ITFInsertAtSelection:InsertTextAtSelection
       </a>
 
 
@@ -177,14 +176,12 @@ On exit, if <i>*pfInsertOk</i> is set to <b>FALSE</b>, a future call to <b>ITfRa
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/13fa9955-0087-4dd9-8a1d-814ab801e956">
-        ITfInsertAtSelection::InsertEmbeddedAtSelection
+<a href="https://msdn.microsoft.com/13fa9955-0087-4dd9-8a1d-814ab801e956">ITfInsertAtSelection::InsertEmbeddedAtSelection
       </a>
 
 
@@ -193,14 +190,12 @@ On exit, if <i>*pfInsertOk</i> is set to <b>FALSE</b>, a future call to <b>ITfRa
 
 
 
-<a href="https://msdn.microsoft.com/95b8622d-c934-4293-abb4-9eface451be5">
-        ITfRange::InsertEmbedded
+<a href="https://msdn.microsoft.com/95b8622d-c934-4293-abb4-9eface451be5">ITfRange::InsertEmbedded
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/797d96a1-0250-4e8d-a4bd-31152fd6eca7">
-        ITfRange::SetText
+<a href="https://msdn.microsoft.com/797d96a1-0250-4e8d-a4bd-31152fd6eca7">ITfRange::SetText
       </a>
 
 

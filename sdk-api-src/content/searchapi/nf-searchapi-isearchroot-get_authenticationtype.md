@@ -7,7 +7,7 @@ old-location: search\_search_ISearchRoot_get_AuthenticationType.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_authenticationtype.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchRoot interface [search],get_AuthenticationType method, ISearchRoot.get_AuthenticationType, ISearchRoot::get_AuthenticationType, _search_ISearchRoot_get_AuthenticationType, get_AuthenticationType, get_AuthenticationType method [search], get_AuthenticationType method [search],ISearchRoot interface, search._search_ISearchRoot_get_AuthenticationType, searchapi/ISearchRoot::get_AuthenticationType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Retrieves the type of authentication needed to access the URLs under this this s
 
 ### -param pAuthType [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a>*</b>
 
-A pointer to a value from the <a href="https://msdn.microsoft.com/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a> enumeration that indicates the authentication type required to access URLs under this search root.
+A pointer to a value from the <a href="https://msdn.microsoft.com/en-us/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a> enumeration that indicates the authentication type required to access URLs under this search root.
 
 
 ## -returns

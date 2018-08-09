@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactCollection_Reset.htm
 old-project: wincontacts
 ms.assetid: 31922d03-079e-4a6f-8516-d4cf540d812e
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 07/29/2018
 ms.keywords: IContactCollection interface [Windows Contacts],Reset method, IContactCollection.Reset, IContactCollection::Reset, Reset, Reset method [Windows Contacts], Reset method [Windows Contacts],IContactCollection interface, _wincontacts_IContactCollection_Reset, icontact/IContactCollection::Reset, wincontacts._wincontacts_IContactCollection_Reset
 ms.prod: windows
 ms.technology: windows-sdk

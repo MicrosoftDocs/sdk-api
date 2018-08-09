@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext.htm
 old-project: medfound
 ms.assetid: 6EF09C31-56C7-46B5-87AE-B1FE43EC66FC
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], ID3D11VideoContext interface [Media Foundation],described, d3d11/ID3D11VideoContext, mf.id3d11videocontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,9 +50,7 @@ req.irql:
 ## -description
 
 
-
-        Provides the video functionality of a Microsoft Direct3D 11 device. 
-      
+Provides the video functionality of a Microsoft Direct3D 11 device. 
 
 
 ## -inheritance
@@ -629,8 +627,7 @@ Enables or disables stereo 3D video for an input stream on the video processor.
 
 To get a pointer to this interface, call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> with an <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> interface pointer.
 
-This interface provides access to several areas of Microsoft Direct3D
- video functionality:
+This interface provides access to several areas of Microsoft Direct3Dvideo functionality:
 
 <ul>
 <li>Hardware-accelerated video decoding</li>

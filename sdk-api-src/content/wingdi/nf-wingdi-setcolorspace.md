@@ -7,7 +7,7 @@ old-location: wcs\setcolorspace.htm
 old-project: WCS
 ms.assetid: 037c864f-f8ec-4467-9236-74ea4493d743
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: SetColorSpace, SetColorSpace function [Windows Color System], _color_SetColorSpace, wcs.setcolorspace, wingdi/SetColorSpace
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,24 +63,12 @@ The <b>SetColorSpace</b> function defines the input <a href="https://msdn.micros
 
 ### -param hdc
 
-TBD
+Specifies the handle to a device context.
 
 
 ### -param hcs
 
-TBD
-
-
-
-
-#### - hColorSpace
-
 Identifies handle to the color space to set.
-
-
-#### - hDC
-
-Specifies the handle to a device context.
 
 
 ## -returns

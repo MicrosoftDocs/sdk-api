@@ -7,7 +7,7 @@ old-location: tablet\inkrectangle_setrectangle.htm
 old-project: tablet
 ms.assetid: 689ef8ea-3fa6-4fea-a4d8-2c59d23db9cf
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 689ef8ea-3fa6-4fea-a4d8-2c59d23db9cf, IInkRectangle interface [Tablet PC],SetRectangle method, IInkRectangle.SetRectangle, IInkRectangle::SetRectangle, SetRectangle, SetRectangle method [Tablet PC], SetRectangle method [Tablet PC],IInkRectangle interface, msinkaut/IInkRectangle::SetRectangle, tablet.inkrectangle_setrectangle
 ms.prod: windows
 ms.technology: windows-sdk

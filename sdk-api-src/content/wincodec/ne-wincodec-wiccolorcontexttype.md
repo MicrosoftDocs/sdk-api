@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wiccolorcontexttype.htm
 old-project: wic
 ms.assetid: 30fab53b-8edf-488c-a6f2-5224b94e0500
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WICColorContextExifColorSpace, WICColorContextProfile, WICColorContextType, WICColorContextType enumeration [Windows Imaging Component], WICColorContextUninitialized, _wic_codec_wiccolorcontexttype, wic._wic_codec_wiccolorcontexttype, wincodec/WICColorContextExifColorSpace, wincodec/WICColorContextProfile, wincodec/WICColorContextType, wincodec/WICColorContextUninitialized
 ms.prod: windows
 ms.technology: windows-sdk

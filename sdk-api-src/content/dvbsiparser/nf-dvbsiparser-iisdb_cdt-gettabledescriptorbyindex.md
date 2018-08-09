@@ -7,7 +7,7 @@ old-location: mstv\iisdb_cdt_gettabledescriptorbyindex.htm
 old-project: mstv
 ms.assetid: e345e860-247a-4c30-876b-c0e6c82767b8
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IISDB_CDT.GetTableDescriptorByIndex, IISDB_CDT::GetTableDescriptorByIndex, dvbsiparser/IISDB_CDT::GetTableDescriptorByIndex, mstv.iisdb_cdt_gettabledescriptorbyindex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Returns a specified logo transmission descriptor
+Returns a specified logo transmission descriptor
   from an Integrated Services Digital Broadcasting (ISDB) 
   common data table (CDT). 
 
@@ -64,8 +63,7 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param dwIndex [in]
 
-
-  Specifies which descriptor to retrieve, indexed from zero. Call the <a href="https://msdn.microsoft.com/ea01a53f-8d0b-4594-87b4-d293901fca19">IISDB_CDT::GetCountOfTableDescriptors</a> method to get the number of table descriptors.
+Specifies which descriptor to retrieve, indexed from zero. Call the <a href="https://msdn.microsoft.com/ea01a53f-8d0b-4594-87b4-d293901fca19">IISDB_CDT::GetCountOfTableDescriptors</a> method to get the number of table descriptors.
 
 
 ### -param ppDescriptor [out]

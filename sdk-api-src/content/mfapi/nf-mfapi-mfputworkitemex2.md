@@ -7,7 +7,7 @@ old-location: mf\mfputworkitemex2.htm
 old-project: medfound
 ms.assetid: A29DC852-AF0F-4269-97FB-DA1F725E7C09
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFPutWorkItemEx2, MFPutWorkItemEx2 function [Media Foundation], mf.mfputworkitemex2, mfapi/MFPutWorkItemEx2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Puts an asynchronous operation on a work queue, with a specified priority.
 
 ### -param dwQueue [in]
 
-
-            The identifier for the work queue. This value can specify one of the standard Media Foundation work queues, or a work queue created by the application. For list of standard Media Foundation work queues, see <a href="https://msdn.microsoft.com/c769f876-83ca-4b04-a054-22fa7146310e">Work Queue Identifiers</a>. To create a new work queue, call <a href="https://msdn.microsoft.com/8def4375-919c-4619-9484-9ce2708a3886">MFAllocateWorkQueue</a> or  <a href="https://msdn.microsoft.com/422b8bc2-0616-4f7f-9908-775940f8c1ab">MFAllocateWorkQueueEx</a>.
+The identifier for the work queue. This value can specify one of the standard Media Foundation work queues, or a work queue created by the application. For list of standard Media Foundation work queues, see <a href="https://msdn.microsoft.com/c769f876-83ca-4b04-a054-22fa7146310e">Work Queue Identifiers</a>. To create a new work queue, call <a href="https://msdn.microsoft.com/8def4375-919c-4619-9484-9ce2708a3886">MFAllocateWorkQueue</a> or  <a href="https://msdn.microsoft.com/422b8bc2-0616-4f7f-9908-775940f8c1ab">MFAllocateWorkQueueEx</a>.
 
 
 ### -param Priority [in]
@@ -79,8 +78,7 @@ A pointer to the <a href="https://msdn.microsoft.com/8c95b1de-8974-445c-8070-415
 
 
 
-
-            Returns an <b>HRESULT</b> value. Possible values include the following.
+Returns an <b>HRESULT</b> value. Possible values include the following.
 
 <table>
 <tr>
@@ -94,8 +92,7 @@ A pointer to the <a href="https://msdn.microsoft.com/8c95b1de-8974-445c-8070-415
 </dl>
 </td>
 <td width="60%">
-
-                Success.
+Success.
 
 </td>
 </tr>
@@ -131,8 +128,7 @@ The <a href="https://msdn.microsoft.com/b4472e40-3681-4b26-9385-4df7bf19c2d8">MF
 
 
 
-
-        To invoke the work item, this function passes <i>pResult</i> to the <a href="https://msdn.microsoft.com/28832d50-9b15-4eb0-96f9-2032d4edcaf4">MFInvokeCallback</a> function. The callback is specified when you create the result object specified by <i>pResult</i>.
+To invoke the work item, this function passes <i>pResult</i> to the <a href="https://msdn.microsoft.com/28832d50-9b15-4eb0-96f9-2032d4edcaf4">MFInvokeCallback</a> function. The callback is specified when you create the result object specified by <i>pResult</i>.
       
 
 

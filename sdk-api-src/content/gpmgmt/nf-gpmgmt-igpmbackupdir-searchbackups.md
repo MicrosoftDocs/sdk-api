@@ -4,10 +4,10 @@ title: IGPMBackupDir::SearchBackups
 author: windows-sdk-content
 description: Executes a search for the GPMBackup object according to the specified criteria, and returns an GPMBackupCollection object.
 old-location: gpmc\igpmbackupdir_searchbackups.htm
-old-project: gpmc
+old-project: GPMC
 ms.assetid: 71e1991f-c24f-43fe-8f3e-83f5b02cec6b
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: GPMBackupDir object [GPMC],SearchBackups method, IGPMBackupDir interface [GPMC],SearchBackups method, IGPMBackupDir.SearchBackups, IGPMBackupDir::SearchBackups, SearchBackups, SearchBackups method [GPMC], SearchBackups method [GPMC],GPMBackupDir object, SearchBackups method [GPMC],IGPMBackupDir interface, _win32_igpmbackupdir_searchbackups, backupMostRecent, gpmc.igpmbackupdir_searchbackups, gpmgmt/IGPMBackupDir::SearchBackups, gpoDisplayName, gpoDomain, gpoID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,15 +70,13 @@ Pointer to the criteria to apply to the search.
 
 #### gpoDomain
 
-Pointer to   the criteria for a search for a domain name.  The search property value is the domain name.  The <b>opEquals</b>
-or <b>opNotEquals</b> operators are valid search criteria.
+Pointer to   the criteria for a search for a domain name.  The search property value is the domain name.  The <b>opEquals</b>or <b>opNotEquals</b> operators are valid search criteria.
 
 
 
 #### gpoID
 
-Pointer to criteria for a search for a Group Policy object (GPO) ID. The search property value is the GPO ID.  The <b>opEquals</b>
-or <b>opNotEquals</b> operators are valid search criteria.
+Pointer to criteria for a search for a Group Policy object (GPO) ID. The search property value is the GPO ID.  The <b>opEquals</b>or <b>opNotEquals</b> operators are valid search criteria.
 
 
 

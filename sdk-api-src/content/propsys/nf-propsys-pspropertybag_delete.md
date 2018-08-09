@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_Delete.htm
 old-project: properties
 ms.assetid: 53ED1C87-5141-4925-B70E-C0304817A871
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: PSPropertyBag_Delete, PSPropertyBag_Delete function [Windows Properties], properties.PSPropertyBag_Delete, propsys/PSPropertyBag_Delete, shell.PSPropertyBag_Delete, shell_PSPropertyBag_Delete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee845064(v=VS.85).aspx">PSPropertyBag_ReadType</a>
+<a href="shell.PSPropertyBag_ReadType">PSPropertyBag_ReadType</a>
  
 
  

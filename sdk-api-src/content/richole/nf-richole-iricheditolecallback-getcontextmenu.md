@@ -7,7 +7,7 @@ old-location: controls\IRichEditOleCallback_GetContextMenu.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetcontextmenu.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: GCM_RIGHTMOUSEDROP, GetContextMenu, GetContextMenu method [Windows Controls], GetContextMenu method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],GetContextMenu method, IRichEditOleCallback.GetContextMenu, IRichEditOleCallback::GetContextMenu, SEL_EMPTY, SEL_MULTICHAR, SEL_MULTIOBJECT, SEL_OBJECT, SEL_TEXT, _win32_IRichEditOleCallback_GetContextMenu, _win32_IRichEditOleCallback_GetContextMenu_cpp, controls.IRichEditOleCallback_GetContextMenu, controls._win32_IRichEditOleCallback_GetContextMenu, richole/IRichEditOleCallback::GetContextMenu
 ms.prod: windows
 ms.technology: windows-sdk
@@ -150,9 +150,9 @@ Pointer to an interface. If the
 
 ### -param lpchrg
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb787885(v=VS.85).aspx">CHARRANGE</a> structure containing the current selection. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a> structure containing the current selection. 
 
 
 ### -param lphmenu
@@ -196,7 +196,7 @@ There was an invalid argument.
 
 
 
-When the user selects an item from the context window, a <a href="https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> message is sent to the parent window of the rich edit control.
+When the user selects an item from the context window, a <a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> message is sent to the parent window of the rich edit control.
 
 
 
@@ -206,7 +206,7 @@ When the user selects an item from the context window, a <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>
 
 
 
@@ -214,7 +214,7 @@ When the user selects an item from the context window, a <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774308(v=VS.85).aspx">IRichEditOleCallback</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774308(v=VS.85).aspx">IRichEditOleCallback</a>
 
 
 

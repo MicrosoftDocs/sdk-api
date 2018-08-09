@@ -7,7 +7,7 @@ old-location: qos\is_flowspec.htm
 old-project: qos
 ms.assetid: 1e0cd196-f53c-4d68-a287-7a98b7215d6d
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: IS_FLOWSPEC, IS_FLOWSPEC structure [QOS], lpmapi/IS_FLOWSPEC, qos.is_flowspec
 ms.prod: windows
 ms.technology: windows-sdk

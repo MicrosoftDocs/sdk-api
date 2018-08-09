@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetserverbindinginfo.htm
 old-project: dhcp
 ms.assetid: 6291e266-e9d5-4899-8b34-53695f49a1b8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DHCP_ENDPOINT_FLAG_CANT_MODIFY, DhcpSetServerBindingInfo, DhcpSetServerBindingInfo function [DHCP], dhcp.dhcpsetserverbindinginfo, dhcpsapi/DhcpSetServerBindingInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpSetServerBindingInfo</b> function sets endpoint bindings for the DHCP server.
+The <b>DhcpSetServerBindingInfo</b> function sets endpoint bindings for the DHCP server.
 
 
 ## -parameters
@@ -117,8 +116,7 @@ This function requires network byte ordering for all <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/9e43b2ab-f69d-4024-b6b1-8a36a3577767">
-        DHCP_BIND_ELEMENT_ARRAY</a>
+<a href="https://msdn.microsoft.com/9e43b2ab-f69d-4024-b6b1-8a36a3577767">DHCP_BIND_ELEMENT_ARRAY</a>
 
 
 

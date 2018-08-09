@@ -7,7 +7,7 @@ old-location: shell\ShortMult.htm
 old-project: shell
 ms.assetid: ca602be6-a066-4192-a240-96192e5dbdf8
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ShortMult, ShortMult function [Windows Shell], intsafe/ShortMult, shell.ShortMult
 ms.prod: windows
 ms.technology: windows-sdk

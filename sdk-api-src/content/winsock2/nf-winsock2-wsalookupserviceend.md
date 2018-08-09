@@ -4,10 +4,10 @@ title: WSALookupServiceEnd function
 author: windows-sdk-content
 description: The WSALookupServiceEnd function is called to free the handle after previous calls to WSALookupServiceBegin and WSALookupServiceNext.
 old-location: winsock\wsalookupserviceend_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: f9d2ac54-a818-464d-918e-80ebb5b1b106
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSALookupServiceEnd, WSALookupServiceEnd function [Winsock], _win32_wsalookupserviceend_2, winsock.wsalookupserviceend_2, winsock2/WSALookupServiceEnd
 ms.prod: windows
 ms.technology: windows-sdk

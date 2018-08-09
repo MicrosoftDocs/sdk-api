@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device3_createquery1.htm
 old-project: direct3d11
 ms.assetid: 8D170F97-DA95-48FE-84F6-2BBB3E388BB4
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: CreateQuery1, CreateQuery1 method [Direct3D 11], CreateQuery1 method [Direct3D 11],ID3D11Device3 interface, ID3D11Device3 interface [Direct3D 11],CreateQuery1 method, ID3D11Device3.CreateQuery1, ID3D11Device3::CreateQuery1, d3d11_3/ID3D11Device3::CreateQuery1, direct3d11.id3d11device3_createquery1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ A pointer to a memory block that receives a pointer to a <a href="https://msdn.m
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns E_OUTOFMEMORY if there is insufficient memory to create the query object.  
         See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> for other possible return values.

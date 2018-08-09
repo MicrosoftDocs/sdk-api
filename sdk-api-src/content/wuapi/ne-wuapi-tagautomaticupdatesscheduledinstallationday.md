@@ -4,10 +4,10 @@ title: tagAutomaticUpdatesScheduledInstallationDay
 author: windows-sdk-content
 description: Defines the days of the week when Automatic Updates installs or uninstalls updates.
 old-location: wua\automaticupdatesscheduledinstallationday.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 8c7525bf-e15f-4c30-8e16-4b945d73f3cb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: AutomaticUpdatesScheduledInstallationDay, AutomaticUpdatesScheduledInstallationDay enumeration [Windows Update Agent], ausidEveryDay, ausidEveryFriday, ausidEveryMonday, ausidEverySaturday, ausidEverySunday, ausidEveryThursday, ausidEveryTuesday, ausidEveryWednesday, tagAutomaticUpdatesScheduledInstallationDay, wua.automaticupdatesscheduledinstallationday, wuapi/AutomaticUpdatesScheduledInstallationDay, wuapi/ausidEveryDay, wuapi/ausidEveryFriday, wuapi/ausidEveryMonday, wuapi/ausidEverySaturday, wuapi/ausidEverySunday, wuapi/ausidEveryThursday, wuapi/ausidEveryTuesday, wuapi/ausidEveryWednesday
 ms.prod: windows
 ms.technology: windows-sdk

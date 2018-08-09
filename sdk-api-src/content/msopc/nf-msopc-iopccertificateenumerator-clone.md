@@ -7,7 +7,7 @@ old-location: opc\iopccertificateenumerator_clone.htm
 old-project: OPC
 ms.assetid: 4cf4bed8-4a6f-48f4-b72f-a13efc127b2a
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcCertificateEnumerator interface, IOpcCertificateEnumerator interface [Open Packaging Conventions],Clone method, IOpcCertificateEnumerator.Clone, IOpcCertificateEnumerator::Clone, msopc/IOpcCertificateEnumerator::Clone, opc.iopccertificateenumerator_clone
 ms.prod: windows
 ms.technology: windows-sdk

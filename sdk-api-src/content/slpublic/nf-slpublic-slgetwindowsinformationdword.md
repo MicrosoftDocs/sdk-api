@@ -4,10 +4,10 @@ title: SLGetWindowsInformationDWORD function
 author: windows-sdk-content
 description: Retrieves the DWORD value portion of a name-value pair from the licensing policy of a software component.
 old-location: security\slgetwindowsinformationdword.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: 27f59d01-93d5-4bf8-aab2-77243431cc0c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLGetWindowsInformationDWORD, SLGetWindowsInformationDWORD function [Security], security.slgetwindowsinformationdword, slpublic/SLGetWindowsInformationDWORD
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLGetWindowsInformationDWORD function

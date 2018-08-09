@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_render_target_view_desc.htm
 old-project: direct3d12
 ms.assetid: D8602EB9-70EB-4A4E-8D8D-A2016335AAC6
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: D3D12_RENDER_TARGET_VIEW_DESC, D3D12_RENDER_TARGET_VIEW_DESC structure, d3d12/D3D12_RENDER_TARGET_VIEW_DESC, direct3d12.d3d12_render_target_view_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ Describes the subresources from a resource that are accessible by using a render
 
 ### -field Format
 
-A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that specifies the viewing format.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that specifies the viewing format.
 
 
 ### -field ViewDimension

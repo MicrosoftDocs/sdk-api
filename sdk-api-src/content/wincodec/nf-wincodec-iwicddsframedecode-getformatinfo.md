@@ -7,7 +7,7 @@ old-location: wic\iwicddsframedecode_getformatinfo.htm
 old-project: wic
 ms.assetid: 0D5B9E45-E1EA-4D16-B793-63FEAB2BAF65
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetFormatInfo, GetFormatInfo method [Windows Imaging Component], GetFormatInfo method [Windows Imaging Component],IWICDdsFrameDecode interface, IWICDdsFrameDecode interface [Windows Imaging Component],GetFormatInfo method, IWICDdsFrameDecode.GetFormatInfo, IWICDdsFrameDecode::GetFormatInfo, wic.iwicddsframedecode_getformatinfo, wincodec/IWICDdsFrameDecode::GetFormatInfo
 ms.prod: windows
 ms.technology: windows-sdk

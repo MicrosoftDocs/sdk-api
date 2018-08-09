@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLines_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddlinesmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: AddLines, AddLines methods [GDI+], GraphicsPath.AddLines, GraphicsPath.AddLines(IN const Point,IN INT), GraphicsPath::AddLines, GraphicsPath::AddLines(IN const Point,IN INT), _gdiplus_CLASS_GraphicsPath_AddLines_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddLines_Methods, gdipluspath/AddLines
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,9 +53,9 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 AddLines methods of the 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
 <b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -65,19 +65,19 @@ AddLines methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535599(v=VS.85).aspx">AddLines(Point*,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535599(v=VS.85).aspx">AddLines(Point*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535599(v=VS.85).aspx">GraphicsPath::AddLines</a> method adds a sequence of connected lines to the current figure of this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535599(v=VS.85).aspx">GraphicsPath::AddLines</a> method adds a sequence of connected lines to the current figure of this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535600(v=VS.85).aspx">AddLines(PointF*,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535600(v=VS.85).aspx">AddLines(PointF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535600(v=VS.85).aspx">GraphicsPath::AddLines</a> method adds a sequence of connected lines to the current figure of this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535600(v=VS.85).aspx">GraphicsPath::AddLines</a> method adds a sequence of connected lines to the current figure of this path.
 
 </td>
 </tr>

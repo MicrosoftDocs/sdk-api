@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice2_getformatsupport2.htm
 old-project: WMDM
 ms.assetid: 9ace6192-5b50-40f0-98b4-5cab26a48798
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: GetFormatSupport2, GetFormatSupport2 method [windows Media Device Manager], GetFormatSupport2 method [windows Media Device Manager],IWMDMDevice2 interface, IWMDMDevice2 interface [windows Media Device Manager],GetFormatSupport2 method, IWMDMDevice2.GetFormatSupport2, IWMDMDevice2::GetFormatSupport2, IWMDMDevice2GetFormatSupport2, mswmdm/IWMDMDevice2::GetFormatSupport2, wmdm.iwmdmdevice2_getformatsupport2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ The <b>GetFormatSupport2</b> method retrieves the formats supported by the devic
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

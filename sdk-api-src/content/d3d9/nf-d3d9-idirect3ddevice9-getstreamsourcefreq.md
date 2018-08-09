@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__getstreamsourcefreq.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getstreamsourcefreq.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 5a7d1b69-c1ef-f38d-2536-b01c718bd9b6, GetStreamSourceFreq, GetStreamSourceFreq method [Direct3D 9], GetStreamSourceFreq method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetStreamSourceFreq method, IDirect3DDevice9.GetStreamSourceFreq, IDirect3DDevice9::GetStreamSourceFreq, d3d9helper/IDirect3DDevice9::GetStreamSourceFreq, direct3d9.idirect3ddevice9__getstreamsourcefreq
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ Returns the frequency divider value.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -95,7 +95,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-Vertex shaders can now be invoked more than once per vertex. See <a href="https://msdn.microsoft.com/library/Bb173349(v=VS.85).aspx">Drawing Non-Indexed Geometry</a>.
+Vertex shaders can now be invoked more than once per vertex. See <a href="https://msdn.microsoft.com/en-us/library/Bb173349(v=VS.85).aspx">Drawing Non-Indexed Geometry</a>.
 
 
 
@@ -105,11 +105,11 @@ Vertex shaders can now be invoked more than once per vertex. See <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174460(v=VS.85).aspx">IDirect3DDevice9::SetStreamSourceFreq</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174460(v=VS.85).aspx">IDirect3DDevice9::SetStreamSourceFreq</a>
  
 
  

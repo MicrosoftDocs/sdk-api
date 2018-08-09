@@ -7,7 +7,7 @@ old-location: winmsg\propenumprocex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\propenumprocex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PropEnumProcEx, PropEnumProcEx callback, PropEnumProcEx callback function [Windows and Messages], PropEnumProcExA, PropEnumProcExW, _win32_PropEnumProcEx, _win32_propenumprocex_cpp, winmsg.propenumprocex, winui._win32_propenumprocex, winuser/PropEnumProcEx, winuser/PropEnumProcExA, winuser/PropEnumProcExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,20 +79,6 @@ Application-defined callback function used with the <a href="https://msdn.micros
 
 
 
-#### - dwData [in]
-
-Type: <b>ULONG_PTR</b>
-
-Application-defined data. This is the value that was specified as the <i>lParam</i> parameter of the call to <a href="https://msdn.microsoft.com/en-us/library/ms633563(v=VS.85).aspx">EnumPropsEx</a> that initiated the enumeration. 
-
-
-#### - hData [in]
-
-Type: <b>HANDLE</b>
-
-A  handle to the data. This handle is the data component of a property list entry. 
-
-
 #### - hwnd [in]
 
 Type: <b>HWND</b>
@@ -105,6 +91,20 @@ A handle to the window whose property list is being enumerated.
 Type: <b>LPTSTR</b>
 
 The string component of a property list entry. This is the string that was specified, along with a data handle, when the property was added to the window's property list via a call to the <a href="https://msdn.microsoft.com/en-us/library/ms633568(v=VS.85).aspx">SetProp</a> function. 
+
+
+#### - hData [in]
+
+Type: <b>HANDLE</b>
+
+A  handle to the data. This handle is the data component of a property list entry. 
+
+
+#### - dwData [in]
+
+Type: <b>ULONG_PTR</b>
+
+Application-defined data. This is the value that was specified as the <i>lParam</i> parameter of the call to <a href="https://msdn.microsoft.com/en-us/library/ms633563(v=VS.85).aspx">EnumPropsEx</a> that initiated the enumeration. 
 
 
 ## -returns

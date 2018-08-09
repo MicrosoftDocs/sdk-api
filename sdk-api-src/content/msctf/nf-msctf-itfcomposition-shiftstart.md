@@ -7,7 +7,7 @@ old-location: tsf\itfcomposition_shiftstart.htm
 old-project: TSF
 ms.assetid: 85a5121a-7be0-4703-a1d4-4de21dd98697
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfComposition interface [Text Services Framework],ShiftStart method, ITfComposition.ShiftStart, ITfComposition::ShiftStart, ShiftStart, ShiftStart method [Text Services Framework], ShiftStart method [Text Services Framework],ITfComposition interface, _tsf_itfcomposition_shiftstart_ref, msctf/ITfComposition::ShiftStart, tsf.itfcomposition_shiftstart
 ms.prod: windows
 ms.technology: windows-sdk
@@ -158,8 +158,7 @@ This method causes the GUID_PROP_COMPOSING property to be removed from any text 
 
 
 
-<a href="https://msdn.microsoft.com/40472318-85de-4cff-ac60-adfcbacc1537">
-        ITfComposition::ShiftEnd
+<a href="https://msdn.microsoft.com/40472318-85de-4cff-ac60-adfcbacc1537">ITfComposition::ShiftEnd
       </a>
 
 
@@ -169,8 +168,7 @@ This method causes the GUID_PROP_COMPOSING property to be removed from any text 
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">
-        ITfRange
+<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
       </a>
  
 

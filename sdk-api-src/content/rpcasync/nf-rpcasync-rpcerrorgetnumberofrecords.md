@@ -7,7 +7,7 @@ old-location: rpc\rpcerrorgetnumberofrecords.htm
 old-project: rpc
 ms.assetid: 1b498cc8-9ee5-47bd-a484-33bf1c89413c
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcErrorGetNumberOfRecords, RpcErrorGetNumberOfRecords function [RPC], _rpc_rpcerrorgetnumberofrecords, rpc.rpcerrorgetnumberofrecords, rpcasync/RpcErrorGetNumberOfRecords
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: bits\ienumbitspeers_reset.htm
 old-project: bits
 ms.assetid: 87eb8e34-046e-46a5-9d9b-efeb6fa03485
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IEnumBitsPeers interface [BITS],Reset method, IEnumBitsPeers.Reset, IEnumBitsPeers::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBitsPeers interface, bits.ienumbitspeers_reset, bits3_0/IEnumBitsPeers::Reset
 ms.prod: windows
 ms.technology: windows-sdk

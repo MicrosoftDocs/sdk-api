@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolumeex_getvolumerangechannel.htm
 old-project: CoreAudio
 ms.assetid: 869fe1cc-aa32-45e5-899f-3ae0d0f1b256
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: GetVolumeRangeChannel, GetVolumeRangeChannel method [Core Audio], GetVolumeRangeChannel method [Core Audio],IAudioEndpointVolumeEx interface, IAudioEndpointVolumeEx interface [Core Audio],GetVolumeRangeChannel method, IAudioEndpointVolumeEx.GetVolumeRangeChannel, IAudioEndpointVolumeEx::GetVolumeRangeChannel, coreaudio.iaudioendpointvolumeex_getvolumerangechannel, endpointvolume/IAudioEndpointVolumeEx::GetVolumeRangeChannel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,9 +81,9 @@ The channel number for which to get the volume range. If the audio stream has <i
 
 
 
-#### - pflVolumeIncrementDB [out]
+#### - pflVolumeMinDB [out]
 
-Receives the volume increment for the channel, in decibels.
+Receives  the minimum volume level for the channel, in decibels.
 
 
 #### - pflVolumeMaxDB [out]
@@ -91,9 +91,9 @@ Receives the volume increment for the channel, in decibels.
 Receives  the maximum volume level for the channel, in decibels.
 
 
-#### - pflVolumeMinDB [out]
+#### - pflVolumeIncrementDB [out]
 
-Receives  the minimum volume level for the channel, in decibels.
+Receives the volume increment for the channel, in decibels.
 
 
 ## -returns

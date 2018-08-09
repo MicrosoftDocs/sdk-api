@@ -7,7 +7,7 @@ old-location: tsf\itflmlattice.htm
 old-project: TSF
 ms.assetid: 25ad6ef2-1d42-498a-852f-163a0efbc26a
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfLMLattice, ITfLMLattice interface [Text Services Framework], ITfLMLattice interface [Text Services Framework],described, _tsf_itflmlattice_ref, ctffunc/ITfLMLattice, tsf.itflmlattice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,12 +99,11 @@ Determines if a specific lattice element type is supported by the lattice proper
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/d88f2eba-4c98-4b32-96e1-cd019fe0f7ad">
-        Predefined Properties
+<a href="https://msdn.microsoft.com/d88f2eba-4c98-4b32-96e1-cd019fe0f7ad">Predefined Properties
       </a>
  
 

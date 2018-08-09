@@ -7,7 +7,7 @@ old-location: controls\DPA_LoadStream.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_loadstream.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DPA_LoadStream, DPA_LoadStream function [Windows Controls], _win32_DPA_LoadStream, _win32_DPA_LoadStream_cpp, controls.DPA_LoadStream, controls._win32_DPA_LoadStream, dpa_dsa/DPA_LoadStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,21 +60,25 @@ Loads the dynamic pointer array (DPA) from a stream by calling the specified cal
 
 
 
-### -param phdpa
+### -param phdpa [out]
 
-TBD
+Type: <b>HDPA*</b>
+
+A handle to a DPA.
 
 
 ### -param pfn [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775725(v=VS.85).aspx">PFNDPASTREAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775725(v=VS.85).aspx">PFNDPASTREAM</a></b>
 
-The callback function. See <a href="https://msdn.microsoft.com/library/Bb775725(v=VS.85).aspx">PFNDPASTREAM</a> for the callback function prototype. 
+The callback function. See <a href="https://msdn.microsoft.com/en-us/library/Bb775725(v=VS.85).aspx">PFNDPASTREAM</a> for the callback function prototype. 
 
 
-### -param pstream
+### -param pstream [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
+
+An <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> object. 
 
 
 ### -param pvInstData [in]
@@ -82,20 +86,6 @@ TBD
 Type: <b>void*</b>
 
 A pointer to callback data. <i>pvInstData</i> is passed as a parameter to <i>pfn</i>. 
-
-
-#### - ppdpa [out]
-
-Type: <b>HDPA*</b>
-
-A handle to a DPA.
-
-
-#### - pstm [in]
-
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
-
-An <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> object. 
 
 
 ## -returns

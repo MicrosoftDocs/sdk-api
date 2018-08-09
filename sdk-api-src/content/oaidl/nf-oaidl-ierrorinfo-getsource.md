@@ -7,7 +7,7 @@ old-location: automat\ierrorinfo_getsource.htm
 old-project: automat
 ms.assetid: b7bbf4ac-7c02-4abe-83fb-bc9fcd52129e
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: GetSource, GetSource method [Automation], GetSource method [Automation],IErrorInfo interface, IErrorInfo interface [Automation],GetSource method, IErrorInfo.GetSource, IErrorInfo::GetSource, _oa96_IErrorInfo_GetSource, automat.ierrorinfo_getsource, oaidl/IErrorInfo::GetSource
 ms.prod: windows
 ms.technology: windows-sdk

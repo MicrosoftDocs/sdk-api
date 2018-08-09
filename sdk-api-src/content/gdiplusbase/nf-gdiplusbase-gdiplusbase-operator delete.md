@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GdiplusBase_operator_delete_in_pVoid_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\gdiplusbaseclass\gdiplusbasemethods\operatordelete.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GdiplusBase class [GDI+],operator delete method, GdiplusBase.operator delete, GdiplusBase::operator delete, _gdiplus_CLASS_GdiplusBase_operator_delete_in_pVoid_, gdiplus._gdiplus_CLASS_GdiplusBase_operator_delete_in_pVoid_, operator delete, operator delete method [GDI+], operator delete method [GDI+],GdiplusBase class
 ms.prod: windows
 ms.technology: windows-sdk

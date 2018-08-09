@@ -7,7 +7,7 @@ old-location: gdi\outputproc.htm
 old-project: gdi
 ms.assetid: 4d9145d2-5be4-4da3-9d03-01ebd74e0d06
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GRAYSTRINGPROC, GRAYSTRINGPROC callback, GRAYSTRINGPROC callback function [Windows GDI], _win32_OutputProc, gdi.outputproc, winuser/GRAYSTRINGPROC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,11 +74,6 @@ The <b>OutputProc</b> function is an application-defined callback function used 
 
 
 
-#### - cchData [in]
-
-The length, in characters, of the string.
-
-
 #### - hdc [in]
 
 A handle to a device context with a bitmap of at least the width and height specified by the <i>nWidth</i> and <i>nHeight</i> parameters passed to <a href="https://msdn.microsoft.com/b14b8c40-f97f-4e41-8d8d-687692acfda9">GrayString</a>.
@@ -87,6 +82,11 @@ A handle to a device context with a bitmap of at least the width and height spec
 #### - lpData [in]
 
 A pointer to the string to be drawn.
+
+
+#### - cchData [in]
+
+The length, in characters, of the string.
 
 
 ## -returns

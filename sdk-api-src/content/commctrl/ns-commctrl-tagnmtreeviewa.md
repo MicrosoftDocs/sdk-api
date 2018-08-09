@@ -7,7 +7,7 @@ old-location: controls\NMTREEVIEW.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtreeview.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPNMTREEVIEWA, LPNMTREEVIEW, LPNMTREEVIEW structure pointer [Windows Controls], NMTREEVIEW, NMTREEVIEW structure [Windows Controls], NMTREEVIEWA, NMTREEVIEWW, _win32_NMTREEVIEW, _win32_NMTREEVIEW_cpp, commctrl/LPNMTREEVIEW, commctrl/NMTREEVIEW, commctrl/NMTREEVIEWA, commctrl/NMTREEVIEWW, controls.NMTREEVIEW, controls._win32_NMTREEVIEW, tagNMTREEVIEWA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,10 +63,10 @@ Contains information about a tree-view notification message. This structure is i
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification message. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification message. 
 
 
 ### -field action
@@ -77,35 +77,35 @@ Notification-specific action flag. This member is used with the following notifi
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb773537(v=VS.85).aspx">TVN_ITEMEXPANDING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773537(v=VS.85).aspx">TVN_ITEMEXPANDING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb773533(v=VS.85).aspx">TVN_ITEMEXPANDED</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773533(v=VS.85).aspx">TVN_ITEMEXPANDED</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb773547(v=VS.85).aspx">TVN_SELCHANGING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773547(v=VS.85).aspx">TVN_SELCHANGING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb773544(v=VS.85).aspx">TVN_SELCHANGED</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773544(v=VS.85).aspx">TVN_SELCHANGED</a>
 </li>
 </ul>
-For the possible action flag values, see <a href="https://msdn.microsoft.com/library/Bb773568(v=VS.85).aspx">TVM_EXPAND</a> and <a href="https://msdn.microsoft.com/library/Bb773544(v=VS.85).aspx">TVN_SELCHANGED</a>. 
+For the possible action flag values, see <a href="https://msdn.microsoft.com/en-us/library/Bb773568(v=VS.85).aspx">TVM_EXPAND</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb773544(v=VS.85).aspx">TVN_SELCHANGED</a>. 
 
 
 ### -field itemOld
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb773456(v=VS.85).aspx">TVITEM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb773456(v=VS.85).aspx">TVITEM</a> structure that contains information about the old item state. This member is zero for notification messages that do not use it. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a> structure that contains information about the old item state. This member is zero for notification messages that do not use it. 
 
 
 ### -field itemNew
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb773456(v=VS.85).aspx">TVITEM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb773456(v=VS.85).aspx">TVITEM</a> structure that contains information about the new item state. This member is zero for notification messages that do not use it. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a> structure that contains information about the new item state. This member is zero for notification messages that do not use it. 
 
 
 ### -field ptDrag
@@ -121,7 +121,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a>
  
 
  

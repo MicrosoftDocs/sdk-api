@@ -7,7 +7,7 @@ old-location: devinst\cm_get_devnode_property.htm
 old-project: devinst
 ms.assetid: A2EE0C78-13CB-4D9D-B68C-F527CCA2DF26
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: CM_Get_DevNode_Property, CM_Get_DevNode_Property function [Device and Driver Installation], CM_Get_DevNode_PropertyW, cfgmgr32/CM_Get_DevNode_Property, cfgmgr32/CM_Get_DevNode_PropertyW, devinst.cm_get_devnode_property
 ms.prod: windows
 ms.technology: windows-sdk

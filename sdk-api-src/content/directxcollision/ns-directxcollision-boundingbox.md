@@ -7,7 +7,7 @@ old-location: dxmath\boundingbox.htm
 old-project: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxcollision.BoundingBox
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/30/2018
 ms.keywords: BoundingBox, BoundingBox structure [DirectX Math Support APIs], directxcollision/BoundingBox, dxmath.boundingbox
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,14 +113,14 @@ Retrieves the corners of the BoundingBox.
 Tests the BoundingBox for intersection with another object.
 
 
-#### - Transform
-
-Transforms the BoundingBox.
-
-
 #### - op_Assignment
 
 Copies values from another BoundingBox.
+
+
+#### - Transform
+
+Transforms the BoundingBox.
 
 
 ## -remarks

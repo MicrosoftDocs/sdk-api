@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_job_param_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_21yq.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: "*PFAX_JOB_PARAMW, DRT_EMAIL, DRT_INBOX, DRT_NONE, FAX_JOB_PARAM, FAX_JOB_PARAM structure [Fax Service], FAX_JOB_PARAMA, FAX_JOB_PARAMW, JSA_DISCOUNT_PERIOD, JSA_NOW, JSA_SPECIFIC_TIME, PFAX_JOB_PARAM, PFAX_JOB_PARAM structure pointer [Fax Service], _FAX_JOB_PARAMW, _mfax_fax_job_param_str, fax._mfax_fax_job_param_str, winfax/FAX_JOB_PARAM, winfax/FAX_JOB_PARAMA, winfax/FAX_JOB_PARAMW, winfax/PFAX_JOB_PARAM"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -204,26 +204,6 @@ Type: <b>DWORD_PTR[3]</b>
 This member is reserved for future use by Microsoft. It must be set to zero. 
 
 
-##### - DeliveryReportType.DRT_EMAIL
-
-Send the DR or NDR in an email message to the sender of the fax transmission (supported in Windows Server 2003 and later). 
-
-
-##### - DeliveryReportType.DRT_INBOX
-
-Send the DR or NDR in email to the sender's local personal information store. 
-
-
-##### - DeliveryReportType.DRT_NONE
-
-Do not send a DR or an NDR to the sender of the fax transmission. 
-
-
-##### - ScheduleAction.JSA_DISCOUNT_PERIOD
-
-Send the fax during the discount rate period. Call the <a href="https://msdn.microsoft.com/en-us/library/ms692282(v=VS.85).aspx">FaxGetConfiguration</a> function to retrieve the discount period for the fax server. 
-
-
 ##### - ScheduleAction.JSA_NOW
 
 Send the fax as soon as a device is available. 
@@ -232,6 +212,26 @@ Send the fax as soon as a device is available.
 ##### - ScheduleAction.JSA_SPECIFIC_TIME
 
 Send the fax at the time specified by the <b>ScheduleTime</b> member. 
+
+
+##### - ScheduleAction.JSA_DISCOUNT_PERIOD
+
+Send the fax during the discount rate period. Call the <a href="https://msdn.microsoft.com/en-us/library/ms692282(v=VS.85).aspx">FaxGetConfiguration</a> function to retrieve the discount period for the fax server. 
+
+
+##### - DeliveryReportType.DRT_NONE
+
+Do not send a DR or an NDR to the sender of the fax transmission. 
+
+
+##### - DeliveryReportType.DRT_EMAIL
+
+Send the DR or NDR in an email message to the sender of the fax transmission (supported in Windows Server 2003 and later). 
+
+
+##### - DeliveryReportType.DRT_INBOX
+
+Send the DR or NDR in email to the sender's local personal information store. 
 
 
 ## -remarks

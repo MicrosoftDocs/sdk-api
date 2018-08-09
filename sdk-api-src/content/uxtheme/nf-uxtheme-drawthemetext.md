@@ -4,10 +4,10 @@ title: DrawThemeText function
 author: windows-sdk-content
 description: Draws text using the color and font defined by the visual style.
 old-location: controls\DrawThemeText.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemetext.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DrawThemeText, DrawThemeText function [Windows Controls], controls.DrawThemeText, controls.inet_DrawThemeText, inet_DrawThemeText, inet_DrawThemeText_cpp, uxtheme/DrawThemeText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,9 +94,11 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Pointer to a string that contains the text to draw.
 
 
-### -param cchText
+### -param cchText [in]
 
-TBD
+Type: <b>int</b>
+
+Value of type <b>int</b> that contains the number of characters to draw. If the parameter is set to -1, all the characters in the string are drawn.
 
 
 ### -param dwTextFlags [in]
@@ -120,13 +122,6 @@ Not used. Set to zero.
 Type: <b>LPCRECT</b>
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that contains the rectangle, in logical coordinates, in which the text is to be drawn.  It is recommended to use <b>pExtentRect</b> from <a href="https://msdn.microsoft.com/en-us/library/Bb759798(v=VS.85).aspx">GetThemeTextExtent</a> to retrieve the correct coordinates.
-
-
-#### - iCharCount [in]
-
-Type: <b>int</b>
-
-Value of type <b>int</b> that contains the number of characters to draw. If the parameter is set to -1, all the characters in the string are drawn.
 
 
 ## -returns

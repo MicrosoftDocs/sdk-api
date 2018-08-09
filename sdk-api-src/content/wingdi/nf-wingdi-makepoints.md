@@ -7,7 +7,7 @@ old-location: gdi\makepoints.htm
 old-project: gdi
 ms.assetid: 1f84cfd0-2836-4c20-9408-17e0d57742be
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MAKEPOINTS, MAKEPOINTS macro [Windows GDI], _win32_MAKEPOINTS, gdi.makepoints, wingdi/MAKEPOINTS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,15 +63,6 @@ The <b>MAKEPOINTS</b> macro converts a value that contains the x- and y-coordina
 
 
 ### -param l
-
-TBD
-
-
-
-
-
-
-#### - dwValue
 
 The coordinates of a point. The x-coordinate is in the low-order word, and the y-coordinate is in the high-order word.
 

@@ -7,7 +7,7 @@ old-location: setup\setupqueuecopy.htm
 old-project: SetupApi
 ms.assetid: c8683438-7a28-4713-8781-45f9bd75b72c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupQueueCopy, SetupQueueCopy function [Setup API], SetupQueueCopyA, SetupQueueCopyW, _setupapi_setupqueuecopy, setup.setupqueuecopy, setupapi/SetupQueueCopy, setupapi/SetupQueueCopyA, setupapi/SetupQueueCopyW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,9 +80,9 @@ Pointer to a <b>null</b>-terminated string that specifies the root of the source
 Pointer to a <b>null</b>-terminated string that specifies the path relative to <i>SourceRootPath</i> where the file can be found. This parameter may be <b>NULL</b>.
 
 
-### -param SourceFilename
+### -param SourceFilename [in]
 
-TBD
+Pointer to a <b>null</b>-terminated string that specifies the file name part of the file to be copied.
 
 
 ### -param SourceDescription [in]
@@ -90,9 +90,9 @@ TBD
 Pointer to a <b>null</b>-terminated string that specifies  a description of the source media to be used during disk prompts. This parameter can be <b>NULL</b>.
 
 
-### -param SourceTagfile
+### -param SourceTagfile [in]
 
-TBD
+Pointer to a <b>null</b>-terminated string that specifies  a tag file whose presence at <i>SourceRootPath</i> indicates the presence of the source media. This parameter may be <b>NULL</b>. If not specified, the file itself will be used as the tag file if required.
 
 
 ### -param TargetDirectory [in]
@@ -100,9 +100,9 @@ TBD
 Pointer to a <b>null</b>-terminated string that specifies the directory where the file is to be copied.
 
 
-### -param TargetFilename
+### -param TargetFilename [in]
 
-TBD
+Pointer to a <b>null</b>-terminated string that specifies  the name of the target file. This parameter may be <b>NULL</b>. If not specified, the target file will have the same name as the source file.
 
 
 ### -param CopyStyle [in]
@@ -135,7 +135,7 @@ Examine each file being copied to see if its version resources indicate that it 
 
 
 The file version information used during version checks is that specified in the <b>dwFileVersionMS</b> and <b>dwFileVersionLS</b> members of a 
-<a href="https://msdn.microsoft.com/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure, as filled in by the  version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
+<a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure, as filled in by the  version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
 
 If the source file is not equal in version or newer, and <i>CopyMsgHandler</i> is specified, the caller is notified and may cancel the copy. If <i>CopyMsgHandler</i> is not specified, the file is not copied.
 
@@ -210,21 +210,6 @@ Examine each file being copied to see if its version resources (or time stamps f
 #### SP_COPY_WARNIFSKIP
 
 If the user tries to skip a file, warn them that skipping a file may affect the installation. (Used for system-critical files.)
-
-
-#### - SourceFileName [in]
-
-Pointer to a <b>null</b>-terminated string that specifies the file name part of the file to be copied.
-
-
-#### - SourceTagFile [in]
-
-Pointer to a <b>null</b>-terminated string that specifies  a tag file whose presence at <i>SourceRootPath</i> indicates the presence of the source media. This parameter may be <b>NULL</b>. If not specified, the file itself will be used as the tag file if required.
-
-
-#### - TargetFileName [in]
-
-Pointer to a <b>null</b>-terminated string that specifies  the name of the target file. This parameter may be <b>NULL</b>. If not specified, the target file will have the same name as the source file.
 
 
 ## -returns

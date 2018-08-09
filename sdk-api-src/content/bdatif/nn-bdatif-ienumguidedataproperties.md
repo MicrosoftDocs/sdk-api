@@ -7,7 +7,7 @@ old-location: mstv\ienumguidedataproperties.htm
 old-project: mstv
 ms.assetid: ae4db426-7e90-4cb6-b53a-2cb7074308fc
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IEnumGuideDataProperties, IEnumGuideDataProperties interface [Microsoft TV Technologies], IEnumGuideDataProperties interface [Microsoft TV Technologies],described, IEnumGuideDataPropertiesInterface, bdatif/IEnumGuideDataProperties, mstv.ienumguidedataproperties
 ms.prod: windows
 ms.technology: windows-sdk

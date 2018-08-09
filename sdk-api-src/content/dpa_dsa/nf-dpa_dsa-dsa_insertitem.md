@@ -7,7 +7,7 @@ old-location: controls\DSA_InsertItem.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_insertitem.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DSA_InsertItem, DSA_InsertItem function [Windows Controls], _win32_DSA_InsertItem, _win32_DSA_InsertItem_cpp, controls.DSA_InsertItem, controls._win32_DSA_InsertItem, dpa_dsa/DSA_InsertItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,42 +64,25 @@ Inserts a new item into a dynamic structure array (DSA). If necessary, the DSA e
 
 
 
-### -param hdsa
+### -param hdsa [in]
 
-TBD
+Type: <b>HDSA</b>
 
-
-### -param i
-
-TBD
+A handle to the DSA in which to insert the item.
 
 
-### -param pitem
-
-TBD
-
-
-
-
-#### - index [in]
+### -param i [in]
 
 Type: <b>int</b>
 
 The position in the DSA where new item is to be inserted, or DSA_APPEND to insert the item at the end of the array.
 
 
-#### - pItem [in]
+### -param pitem [in]
 
 Type: <b>void*</b>
 
 A pointer to the item that is to be inserted.
-
-
-#### - pdsa [in]
-
-Type: <b>HDSA</b>
-
-A handle to the DSA in which to insert the item.
 
 
 ## -returns

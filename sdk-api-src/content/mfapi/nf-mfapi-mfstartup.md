@@ -7,7 +7,7 @@ old-location: mf\mfstartup.htm
 old-project: medfound
 ms.assetid: b4472e40-3681-4b26-9385-4df7bf19c2d8
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFStartup, MFStartup function [Media Foundation], b4472e40-3681-4b26-9385-4df7bf19c2d8, mf.mfstartup, mfapi/MFStartup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ This parameter is optional when using C++ but required in C. The value must be o
 </dl>
 </td>
 <td width="60%">
-
-                Do not initialize the sockets library.
+Do not initialize the sockets library.
               
 
 </td>
@@ -94,8 +93,7 @@ This parameter is optional when using C++ but required in C. The value must be o
 </dl>
 </td>
 <td width="60%">
-
-                Equivalent to MFSTARTUP_NOSOCKET.
+Equivalent to MFSTARTUP_NOSOCKET.
               
 
 </td>
@@ -107,8 +105,7 @@ This parameter is optional when using C++ but required in C. The value must be o
 </dl>
 </td>
 <td width="60%">
-
-                Initialize the entire Media Foundation platform. This is the default value when <i>dwFlags</i> is not specified.
+Initialize the entire Media Foundation platform. This is the default value when <i>dwFlags</i> is not specified.
               
 
 </td>
@@ -135,8 +132,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
 
 </td>
 </tr>
@@ -147,8 +143,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The <i>Version</i> parameter requires a newer version of Media Foundation than the version that is running.
+The <i>Version</i> parameter requires a newer version of Media Foundation than the version that is running.
 
 </td>
 </tr>
@@ -159,8 +154,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The Media Foundation platform is disabled because the system was started in "Safe Mode" (fail-safe boot).
+The Media Foundation platform is disabled because the system was started in "Safe Mode" (fail-safe boot).
               
 
 </td>
@@ -186,12 +180,10 @@ Media Foundation is not implemented on the system.  This error can occur if the 
 
 
 
-
-        An application must call this function before using Media Foundation. Before your application quits, call <a href="https://msdn.microsoft.com/10be2361-b5b4-4c10-92a1-527ca22c74e4">MFShutdown</a> once for every previous call to <b>MFStartup</b>.
+An application must call this function before using Media Foundation. Before your application quits, call <a href="https://msdn.microsoft.com/10be2361-b5b4-4c10-92a1-527ca22c74e4">MFShutdown</a> once for every previous call to <b>MFStartup</b>.
       
 
-
-        Do not call <b>MFStartup</b> or <a href="https://msdn.microsoft.com/10be2361-b5b4-4c10-92a1-527ca22c74e4">MFShutdown</a> from work queue threads. For more information about work queues, see <a href="https://msdn.microsoft.com/f886d096-b1f5-42e4-8888-501b58bffd50">Work Queues</a>.
+Do not call <b>MFStartup</b> or <a href="https://msdn.microsoft.com/10be2361-b5b4-4c10-92a1-527ca22c74e4">MFShutdown</a> from work queue threads. For more information about work queues, see <a href="https://msdn.microsoft.com/f886d096-b1f5-42e4-8888-501b58bffd50">Work Queues</a>.
       
 
 This function is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:

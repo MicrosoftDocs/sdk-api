@@ -4,10 +4,10 @@ title: Tbsi_GetDeviceInfo function
 author: windows-sdk-content
 description: Obtains the version of the TPM on the computer.
 old-location: tbs\tbsi_getdeviceinfo.htm
-old-project: TBS
+old-project: tbs
 ms.assetid: 49C36A54-0D21-461C-A240-8D12ADF2AFA1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Tbsi_GetDeviceInfo, Tbsi_GetDeviceInfo function [TBS], tbs.tbsi_getdeviceinfo, tbs/Tbsi_GetDeviceInfo
 ms.prod: windows
 ms.technology: windows-sdk

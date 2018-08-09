@@ -7,7 +7,7 @@ old-location: rras\rasgetconnectstatus.htm
 old-project: rras
 ms.assetid: 3b2a2f8d-b1ff-44d2-ba49-60877ca6c104
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RasGetConnectStatus, RasGetConnectStatus function [RAS], RasGetConnectStatusA, RasGetConnectStatusW, _ras_rasgetconnectstatus, ras/RasGetConnectStatus, ras/RasGetConnectStatusA, ras/RasGetConnectStatusW, rras.rasgetconnectstatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ TBD
 
 
 
-#### - hrasconn [in]
+#### - [in]
 
 Specifies the remote access connection for which to retrieve the status. This handle must have been obtained from 
 <a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> or 

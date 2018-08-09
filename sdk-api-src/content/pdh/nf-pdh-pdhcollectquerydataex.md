@@ -4,10 +4,10 @@ title: PdhCollectQueryDataEx function
 author: windows-sdk-content
 description: Uses a separate thread to collect the current raw data value for all counters in the specified query. The function then signals the application-defined event and waits the specified time interval before returning.
 old-location: perf\pdhcollectquerydataex.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 3fa1d193-03d0-44d8-a32b-b7754594d0ca
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhCollectQueryDataEx, PdhCollectQueryDataEx function [Perf], _win32_pdhcollectquerydataex, base.pdhcollectquerydataex, pdh/PdhCollectQueryDataEx, perf.pdhcollectquerydataex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ Handle to the event that you want PDH to signal after the time interval expires.
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

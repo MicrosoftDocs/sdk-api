@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccounts_count_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccounts\count.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxAccounts object, FaxAccounts object [Fax Service],Count property, FaxAccounts.Count, IFaxAccounts.get_Count, IFaxAccounts::get_Count, _mfax_faxaccounts.count, fax._mfax_faxaccounts_count, fax._mfax_faxaccounts_count_vb, get_Count
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-Holds the number of items in the <a href="https://msdn.microsoft.com/library/Aa359019(v=VS.85).aspx">IFaxAccounts</a> collection. 
+Holds the number of items in the <a href="https://msdn.microsoft.com/en-us/library/Aa359019(v=VS.85).aspx">IFaxAccounts</a> collection. 
 
 This property is read-only.
 
@@ -64,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa358940(v=VS.85).aspx">FaxAccounts</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358940(v=VS.85).aspx">FaxAccounts</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa359019(v=VS.85).aspx">IFaxAccounts</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359019(v=VS.85).aspx">IFaxAccounts</a>
  
 
  

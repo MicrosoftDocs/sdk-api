@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumoptions.htm
 old-project: dhcp
 ms.assetid: b7a3afb2-cc5b-4181-997c-0cf3a049d091
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpEnumOptions, DhcpEnumOptions function [DHCP], dhcp.dhcpenumoptions, dhcpsapi/DhcpEnumOptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -156,8 +156,7 @@ The caller of this function must free the memory pointed to by <i>Options</i> af
 
 
 
-<a href="https://msdn.microsoft.com/15b9bab5-8211-47c8-bc93-96c922c1aec1">
-		  DHCP_OPTION_ARRAY</a>
+<a href="https://msdn.microsoft.com/15b9bab5-8211-47c8-bc93-96c922c1aec1">DHCP_OPTION_ARRAY</a>
 
 
 

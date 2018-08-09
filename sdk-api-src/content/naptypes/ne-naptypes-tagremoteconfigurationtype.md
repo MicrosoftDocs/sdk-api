@@ -4,10 +4,10 @@ title: tagRemoteConfigurationType
 author: windows-sdk-content
 description: Describes the type of remote configuration possible for a component.
 old-location: nap\remoteconfigurationtype.htm
-old-project: NAP
+old-project: nap
 ms.assetid: 951fbae2-48cb-4e3f-a03f-bf55bf017ec5
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: RemoteConfigurationType, RemoteConfigurationType enumeration [NAP], nap.remoteconfigurationtype, naptypes/RemoteConfigurationType, naptypes/remoteConfigTypeConfigBlob, naptypes/remoteConfigTypeMachine, remoteConfigTypeConfigBlob, remoteConfigTypeMachine, tagRemoteConfigurationType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-<div class="alert"><b>Note</b>  The Network Access Protection platform is not available starting with Windows 10</div><div> </div>
-		The <b>RemoteConfigurationType</b> enumeration describes the type of remote configuration possible for a component.
+<div class="alert"><b>Note</b>  The Network Access Protection platform is not available starting with Windows 10</div><div> </div>The <b>RemoteConfigurationType</b> enumeration describes the type of remote configuration possible for a component.
 
 
 ## -enum-fields

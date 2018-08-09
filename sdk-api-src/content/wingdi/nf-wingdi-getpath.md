@@ -7,7 +7,7 @@ old-location: gdi\getpath.htm
 old-project: gdi
 ms.assetid: 2dc7736a-03fc-4623-a566-6c3e368da174
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetPath, GetPath function [Windows GDI], PT_BEZIERTO, PT_CLOSEFIGURE, PT_LINETO, PT_MOVETO, _win32_GetPath, gdi.getpath, wingdi/GetPath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,29 +66,12 @@ The <b>GetPath</b> function retrieves the coordinates defining the endpoints of 
 A handle to a device context that contains a closed path.
 
 
-### -param apt
-
-TBD
-
-
-### -param aj
-
-TBD
-
-
-### -param cpt
-
-TBD
-
-
-
-
-#### - lpPoints [out]
+### -param apt [out]
 
 A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures that receives the line endpoints and curve control points, in logical coordinates.
 
 
-#### - lpTypes [out]
+### -param aj [out]
 
 A pointer to an array of bytes that receives the vertex types. This parameter can be one of the following values.
 
@@ -153,7 +136,7 @@ Specifies that the figure is automatically closed after the corresponding line o
  
 
 
-#### - nSize [in]
+### -param cpt [in]
 
 The total number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures that can be stored in the array pointed to by <i>lpPoints</i>. This value must be the same as the number of bytes that can be placed in the array pointed to by <i>lpTypes</i>.
 

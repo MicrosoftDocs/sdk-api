@@ -7,7 +7,7 @@ old-location: gdi\tabbedtextout.htm
 old-project: gdi
 ms.assetid: 1cb78a75-752d-4e06-afdf-cd797f209114
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TabbedTextOut, TabbedTextOut function [Windows GDI], TabbedTextOutA, TabbedTextOutW, _win32_TabbedTextOut, gdi.tabbedtextout, winuser/TabbedTextOut, winuser/TabbedTextOutA, winuser/TabbedTextOutW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,19 +68,19 @@ The <b>TabbedTextOut</b> function writes a character string at a specified locat
 
 
 
-### -param hdc
+### -param hdc [in]
 
-TBD
-
-
-### -param x
-
-TBD
+A handle to the device context.
 
 
-### -param y
+### -param x [in]
 
-TBD
+The x-coordinate of the starting point of the string, in logical units.
+
+
+### -param y [in]
+
+The y-coordinate of the starting point of the string, in logical units.
 
 
 ### -param lpString [in]
@@ -88,9 +88,9 @@ TBD
 A pointer to the character string to draw. The string does not need to be zero-terminated, since <i>nCount</i> specifies the length of the string.
 
 
-### -param chCount
+### -param chCount [in]
 
-TBD
+The <a href="https://msdn.microsoft.com/695fd0f9-abd4-4666-acad-2c409624ddc6">length of the string</a> pointed to by <i>lpString</i>.
 
 
 ### -param nTabPositions [in]
@@ -106,26 +106,6 @@ A pointer to an array containing the tab-stop positions, in logical units. The t
 ### -param nTabOrigin [in]
 
 The x-coordinate of the starting position from which tabs are expanded, in logical units.
-
-
-#### - X [in]
-
-The x-coordinate of the starting point of the string, in logical units.
-
-
-#### - Y [in]
-
-The y-coordinate of the starting point of the string, in logical units.
-
-
-#### - hDC [in]
-
-A handle to the device context.
-
-
-#### - nCount [in]
-
-The <a href="https://msdn.microsoft.com/695fd0f9-abd4-4666-acad-2c409624ddc6">length of the string</a> pointed to by <i>lpString</i>.
 
 
 ## -returns

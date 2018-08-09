@@ -7,7 +7,7 @@ old-location: mf\imfclockconsumer_setpresentationclock.htm
 old-project: medfound
 ms.assetid: 7F4CC427-1DBE-4586-BA67-7AB472A55408
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFClockConsumer interface [Media Foundation],SetPresentationClock method, IMFClockConsumer.SetPresentationClock, IMFClockConsumer::SetPresentationClock, SetPresentationClock, SetPresentationClock method [Media Foundation], SetPresentationClock method [Media Foundation],IMFClockConsumer interface, mf.imfclockconsumer_setpresentationclock, mfidl/IMFClockConsumer::SetPresentationClock
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ An instance of <a href="https://msdn.microsoft.com/979c4f77-cbee-468c-8f6b-e6844
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ An instance of <a href="https://msdn.microsoft.com/979c4f77-cbee-468c-8f6b-e6844
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>

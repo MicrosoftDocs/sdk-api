@@ -7,7 +7,7 @@ old-location: p2p\peerpnrpresolve.htm
 old-project: p2psdk
 ms.assetid: dd66ab38-bb3e-46f5-943a-bcdae90acae0
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerPnrpResolve, PeerPnrpResolve function [Peer Networking], p2p.peerpnrpresolve, p2p/PeerPnrpResolve
 ms.prod: windows
 ms.technology: windows-sdk

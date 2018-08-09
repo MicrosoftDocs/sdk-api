@@ -7,7 +7,7 @@ old-location: gdi\playmetafile.htm
 old-project: gdi
 ms.assetid: 044894df-dc8a-41b2-8810-e0a1b8bc19d8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PlayMetaFile, PlayMetaFile function [Windows GDI], _win32_PlayMetaFile, gdi.playmetafile, wingdi/PlayMetaFile
 ms.prod: windows
 ms.technology: windows-sdk

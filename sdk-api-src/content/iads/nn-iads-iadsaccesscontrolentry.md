@@ -7,7 +7,7 @@ old-location: adsi\iadsaccesscontrolentry.htm
 old-project: ADSI
 ms.assetid: 6d2cd45b-0dc6-4bb3-9c41-014bec71f258
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: AccessControlEntry, IADsAccessControlEntry, IADsAccessControlEntry interface [ADSI], IADsAccessControlEntry interface [ADSI],described, _ds_iadsaccesscontrolentry, adsi.iadsaccesscontrolentry, iads/IADsAccessControlEntry
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,7 +103,7 @@ Some of the <b>IADsAccessControlEntry</b> property
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

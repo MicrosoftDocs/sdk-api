@@ -4,10 +4,10 @@ title: CryptSignHashA function
 author: windows-sdk-content
 description: Signs data.
 old-location: security\cryptsignhash.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 9cf0de04-fdad-457d-8137-16d98f915cd5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptSignHash, CryptSignHash function [Security], CryptSignHashA, CryptSignHashW, _crypto2_cryptsignhash, security.cryptsignhash, wincrypt/CryptSignHash, wincrypt/CryptSignHashA, wincrypt/CryptSignHashW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,9 +80,9 @@ The signature algorithm used is specified when the key pair is originally create
 The only signature algorithm that the Microsoft Base Cryptographic Provider supports is the RSA Public Key algorithm.
 
 
-### -param szDescription
+### -param szDescription [in]
 
-TBD
+This parameter is no longer used and must be set to <b>NULL</b> to prevent security vulnerabilities. However, it is still supported for backward compatibility in the Microsoft Base Cryptographic Provider.
 
 
 ### -param dwFlags [in]
@@ -160,11 +160,6 @@ A pointer to a <b>DWORD</b> value that specifies the size, in bytes, of the <i>p
 
 <div class="alert"><b>Note</b>  When processing the data returned in the buffer, applications must use the actual size of the data returned. The actual size can be slightly smaller than the size of the buffer specified on input. (On input, buffer sizes are usually specified large enough to ensure that the largest possible output data fits in the buffer.) On output, the variable pointed to by this parameter is updated to reflect the actual size of the data copied to the buffer.</div>
 <div> </div>
-
-#### - sDescription [in]
-
-This parameter is no longer used and must be set to <b>NULL</b> to prevent security vulnerabilities. However, it is still supported for backward compatibility in the Microsoft Base Cryptographic Provider.
-
 
 ## -returns
 

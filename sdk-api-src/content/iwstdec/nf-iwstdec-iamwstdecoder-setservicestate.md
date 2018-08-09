@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder_setservicestate.htm
 old-project: DirectShow
 ms.assetid: c65d056e-0f39-4372-9060-37859798cade
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetServiceState method, IAMWstDecoder.SetServiceState, IAMWstDecoder::SetServiceState, IAMWstDecoderSetServiceState, SetServiceState, SetServiceState method [DirectShow], SetServiceState method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setservicestate, iwstdec/IAMWstDecoder::SetServiceState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Specifies a member of an <a href="https://msdn.microsoft.com/b6548144-7e18-4d5d-
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

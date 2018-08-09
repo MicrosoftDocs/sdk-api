@@ -7,7 +7,7 @@ old-location: setup\source_media_str.htm
 old-project: SetupApi
 ms.assetid: 93a72ec8-b979-4e61-bb06-eed1a6432f16
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: "*PSOURCE_MEDIA_W, PSOURCE_MEDIA, PSOURCE_MEDIA structure pointer [Setup API], SOURCE_MEDIA, SOURCE_MEDIA structure [Setup API], SOURCE_MEDIA_W, _SOURCE_MEDIA_W, _setupapi_source_media_str, setup.source_media_str, setupapi/PSOURCE_MEDIA, setupapi/SOURCE_MEDIA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,9 +119,9 @@ The current source file is continued in another cabinet file.
 Do not offer the user the option to browse.
 
 
-##### - Flags.SP_COPY_NOBROWSE
+##### - Flags.SP_COPY_WARNIFSKIP
 
-Do not offer the user the option to browse.
+Inform the user that skipping the file may affect the installation.
 
 
 ##### - Flags.SP_COPY_NOSKIP
@@ -129,14 +129,14 @@ Do not offer the user the option to browse.
 Do not offer the user the option to skip the file.
 
 
-##### - Flags.SP_COPY_WARNIFSKIP
-
-Inform the user that skipping the file may affect the installation.
-
-
 ##### - Flags.SP_FLAG_CABINETCONTINUATION
 
 The current source file is continued in another cabinet file.
+
+
+##### - Flags.SP_COPY_NOBROWSE
+
+Do not offer the user the option to browse.
 
 
 ## -see-also

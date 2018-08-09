@@ -7,7 +7,7 @@ old-location: netshell\ns_context_attributes.htm
 old-project: netshell
 ms.assetid: 5041801d-384d-4faf-b0df-2a76b083facd
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: "*PNS_CONTEXT_ATTRIBUTES, CMD_FLAG_INTERACTIVE, CMD_FLAG_LOCAL, CMD_FLAG_ONLINE, CMD_FLAG_PRIORITY, NS_CONTEXT_ATTRIBUTES, NS_CONTEXT_ATTRIBUTES structure [NetShell], PNS_CONTEXT_ATTRIBUTES, PNS_CONTEXT_ATTRIBUTES structure pointer [NetShell], _NS_CONTEXT_ATTRIBUTES, _netsh_ns_context_attributes, netsh/NS_CONTEXT_ATTRIBUTES, netsh/PNS_CONTEXT_ATTRIBUTES, netshell.ns_context_attributes"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -206,15 +206,15 @@ Reserved. Must be null.
 
 
 
-#### - (pCmdGroups)
-
-An array of <a href="https://msdn.microsoft.com/dc0d6449-f635-417c-8363-51e61c417051">CMD_GROUP_ENTRY</a> structures that contain helper command groups.
-					
-
-
 #### - (pTopCmds)
 
 An array of <a href="https://msdn.microsoft.com/299962c8-8f93-4b22-a232-8230eb64cc12">CMD_ENTRY</a> structures that contain helper commands.
+					
+
+
+#### - (pCmdGroups)
+
+An array of <a href="https://msdn.microsoft.com/dc0d6449-f635-417c-8363-51e61c417051">CMD_GROUP_ENTRY</a> structures that contain helper command groups.
 					
 
 

@@ -4,10 +4,10 @@ title: SLGetInstalledProductKeyIds function
 author: windows-sdk-content
 description: This function returns a list of product key IDs associated with the specified Product SKU ID.
 old-location: security\slgetinstalledproductkeyids.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: 6d678ffa-ef67-41e6-bafa-bdca418c5f9f
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLGetInstalledProductKeyIds, SLGetInstalledProductKeyIds function [Security], security.slgetinstalledproductkeyids, slpublic/SLGetInstalledProductKeyIds
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLGetInstalledProductKeyIds function

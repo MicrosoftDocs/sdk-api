@@ -7,7 +7,7 @@ old-location: bltooth\bluetoothgattgetincludedservices.htm
 old-project: bltooth
 ms.assetid: 72F0E995-88B6-42E0-9B69-429566B5605C
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/30/2018
 ms.keywords: BluetoothGATTGetIncludedServices, BluetoothGATTGetIncludedServices function [Bluetooth Devices], bltooth.bluetoothgattgetincludedservices, bluetoothleapis/BluetoothGATTGetIncludedServices
 ms.prod: windows
 ms.technology: windows-sdk

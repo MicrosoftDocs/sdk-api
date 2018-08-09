@@ -4,10 +4,10 @@ title: ITPhoneEvent
 author: windows-sdk-content
 description: The ITPhoneEvent interface contains methods that retrieve the description of phone events that have occurred.
 old-location: tapi3\itphoneevent.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: cc3ca533-d523-4889-b3c7-bb306e49b85b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITPhoneEvent, ITPhoneEvent interface [TAPI 2.2], ITPhoneEvent interface [TAPI 2.2],described, _tapi3_itphoneevent, tapi3.itphoneevent, tapi3if/ITPhoneEvent
 ms.prod: windows
 ms.technology: windows-sdk

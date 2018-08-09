@@ -4,10 +4,10 @@ title: IUpdateHistoryEntry::get_HResult
 author: windows-sdk-content
 description: Gets the HRESULT value that is returned from the operation on an update.
 old-location: wua\iupdatehistoryentry_hresult.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 7e1968f9-548c-4002-848b-9443d12ea0a7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent],IUpdateHistoryEntry interface, IUpdateHistoryEntry interface [Windows Update Agent],HResult property, IUpdateHistoryEntry.HResult, IUpdateHistoryEntry.get_HResult, IUpdateHistoryEntry::HResult, IUpdateHistoryEntry::get_HResult, get_HResult, wua.iupdatehistoryentry_hresult, wuapi/IUpdateHistoryEntry::HResult, wuapi/IUpdateHistoryEntry::get_HResult
 ms.prod: windows
 ms.technology: windows-sdk

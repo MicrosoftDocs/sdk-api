@@ -7,7 +7,7 @@ old-location: base\devicepowersetdevicestate.htm
 old-project: power
 ms.assetid: 300842ae-d7d4-42c2-959c-e1713f466d32
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: DEVICEPOWER_CLEAR_WAKEENABLED, DEVICEPOWER_SET_WAKEENABLED, DevicePowerSetDeviceState, DevicePowerSetDeviceState function, base.devicepowersetdevicestate, powrprof/DevicePowerSetDeviceState
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_cleardepthstencilview.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_cleardepthstencilview.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 35b5c5f1-9875-7367-51bd-ef0f9a3ea798, ClearDepthStencilView, ClearDepthStencilView method [Direct3D 10], ClearDepthStencilView method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],ClearDepthStencilView method, ID3D10Device.ClearDepthStencilView, ID3D10Device::ClearDepthStencilView, d3d10/ID3D10Device::ClearDepthStencilView, direct3d10.id3d10device_cleardepthstencilview
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Clears the depth-stencil resource.
 
 ### -param pDepthStencilView [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173526(v=VS.85).aspx">ID3D10DepthStencilView</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173526(v=VS.85).aspx">ID3D10DepthStencilView</a>*</b>
 
 Pointer to the depth stencil to be cleared.
 
@@ -70,7 +70,7 @@ Pointer to the depth stencil to be cleared.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Which parts of the buffer to clear. See <a href="https://msdn.microsoft.com/library/Bb204900(v=VS.85).aspx">D3D10_CLEAR_FLAG</a>.
+Which parts of the buffer to clear. See <a href="https://msdn.microsoft.com/en-us/library/Bb204900(v=VS.85).aspx">D3D10_CLEAR_FLAG</a>.
 
 
 ### -param Depth [in]
@@ -120,7 +120,7 @@ Unlike Direct3D 9, the full extent of the resource view is always cleared. Viewp
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectprimitive.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\imilbitmapeffectprimitive.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IMILBitmapEffectPrimitive, IMILBitmapEffectPrimitive interface [WPF Bitmap Effects], IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectprimitive, mileffects/IMILBitmapEffectPrimitive, wibe._wibe_imilbitmapeffectprimitive
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IMILBitmapEffectPrimitive</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735254(v=VS.85).aspx">GetAffineMatrix</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735254(v=VS.85).aspx">GetAffineMatrix</a>
 </td>
 <td align="left" width="63%">
 Retrieves the affine transormation matrix for the effect.
@@ -80,7 +80,7 @@ Retrieves the affine transormation matrix for the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735255(v=VS.85).aspx">GetOutput</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735255(v=VS.85).aspx">GetOutput</a>
 </td>
 <td align="left" width="63%">
 Performs pixel processing for the bitmap effect.
@@ -89,7 +89,7 @@ Performs pixel processing for the bitmap effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735256(v=VS.85).aspx">HasAffineTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735256(v=VS.85).aspx">HasAffineTransform</a>
 </td>
 <td align="left" width="63%">
 Determines whether the effect has an affine transform.
@@ -98,7 +98,7 @@ Determines whether the effect has an affine transform.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735257(v=VS.85).aspx">HasInverseTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735257(v=VS.85).aspx">HasInverseTransform</a>
 </td>
 <td align="left" width="63%">
 Determines whether the effect has an inverse transform.
@@ -107,7 +107,7 @@ Determines whether the effect has an inverse transform.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735259(v=VS.85).aspx">TransformPoint</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735259(v=VS.85).aspx">TransformPoint</a>
 </td>
 <td align="left" width="63%">
 Transforms the given point.
@@ -116,7 +116,7 @@ Transforms the given point.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735260(v=VS.85).aspx">TransformRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735260(v=VS.85).aspx">TransformRect</a>
 </td>
 <td align="left" width="63%">
 Transforms the output of the given rectangle.
@@ -130,9 +130,8 @@ Transforms the output of the given rectangle.
 
 
 
-
-            Effect clients, in general, should interact with the outer <a href="https://msdn.microsoft.com/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> object rather than the <b>IMILBitmapEffectPrimitive</b> object.
-            If the client needs to interact with the <b>IMILBitmapEffectPrimitive</b> directly the client will need to implement <a href="https://msdn.microsoft.com/library/ms735314(v=VS.85).aspx">IMILBitmapEffectConnections</a>, <a href="https://msdn.microsoft.com/library/ms735311(v=VS.85).aspx">IMILBitmapEffectConnectionsInfo</a>, and <a href="https://msdn.microsoft.com/library/ms735303(v=VS.85).aspx">IMILBitmapEffectConnectorInfo</a>.
+Effect clients, in general, should interact with the outer <a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> object rather than the <b>IMILBitmapEffectPrimitive</b> object.
+            If the client needs to interact with the <b>IMILBitmapEffectPrimitive</b> directly the client will need to implement <a href="https://msdn.microsoft.com/en-us/library/ms735314(v=VS.85).aspx">IMILBitmapEffectConnections</a>, <a href="https://msdn.microsoft.com/en-us/library/ms735311(v=VS.85).aspx">IMILBitmapEffectConnectionsInfo</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms735303(v=VS.85).aspx">IMILBitmapEffectConnectorInfo</a>.
          
 
 

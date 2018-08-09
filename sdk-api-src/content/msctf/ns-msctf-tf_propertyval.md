@@ -7,7 +7,7 @@ old-location: tsf\tf_propertyval.htm
 old-project: TSF
 ms.assetid: 50a5930c-ba17-4441-99a7-efc6c4bfc2ab
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: TF_PROPERTYVAL, TF_PROPERTYVAL structure [Text Services Framework], _tsf_tf_propertyval_ref, msctf/TF_PROPERTYVAL, tsf.tf_propertyval
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,8 +82,7 @@ A <b>VARIANT</b> that contains the value of the property specified by <b>guidId<
 
 
 
-<a href="https://msdn.microsoft.com/d88f2eba-4c98-4b32-96e1-cd019fe0f7ad">
-        Predefined Properties
+<a href="https://msdn.microsoft.com/d88f2eba-4c98-4b32-96e1-cd019fe0f7ad">Predefined Properties
       </a>
  
 

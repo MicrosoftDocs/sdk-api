@@ -7,7 +7,7 @@ old-location: mf\mfinitmediatypefromwaveformatex.htm
 old-project: medfound
 ms.assetid: 91a201a6-06cf-4445-ad62-fdabb3848d51
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 91a201a6-06cf-4445-ad62-fdabb3848d51, MFInitMediaTypeFromWaveFormatEx, MFInitMediaTypeFromWaveFormatEx function [Media Foundation], mf.mfinitmediatypefromwaveformatex, mfapi/MFInitMediaTypeFromWaveFormatEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Initializes a media type from a <b>WAVEFORMATEX</b> structure.
+Initializes a media type from a <b>WAVEFORMATEX</b> structure.
         
 
 

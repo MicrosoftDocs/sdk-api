@@ -7,7 +7,7 @@ old-location: controls\PropertySheet.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propertysheet.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: PropertySheet, PropertySheet function [Windows Controls], PropertySheetA, PropertySheetW, _win32_PropertySheet, _win32_PropertySheet_cpp, controls.PropertySheet, controls._win32_PropertySheet, prsht/PropertySheet, prsht/PropertySheetA, prsht/PropertySheetW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,16 +63,9 @@ Creates a property sheet and adds the pages defined in the specified property sh
 
 ### -param Arg1
 
-TBD
-
-
-
-
-#### - lppsph
-
 Type: <b>LPCPROPSHEETHEADER</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb774546(v=VS.85).aspx">PROPSHEETHEADER</a> structure that defines the frame and pages of a property sheet.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PROPSHEETHEADER</a> structure that defines the frame and pages of a property sheet.
 
 
 ## -returns
@@ -117,7 +110,7 @@ The following return values have a special meaning.
 </dl>
 </td>
 <td width="60%">
-A page sent the <a href="https://msdn.microsoft.com/library/Bb774601(v=VS.85).aspx">PSM_REBOOTSYSTEM</a> message to the property sheet. The computer must be restarted for the user's changes to take effect.
+A page sent the <a href="https://msdn.microsoft.com/en-us/library/Bb774601(v=VS.85).aspx">PSM_REBOOTSYSTEM</a> message to the property sheet. The computer must be restarted for the user's changes to take effect.
 
 </td>
 </tr>
@@ -128,7 +121,7 @@ A page sent the <a href="https://msdn.microsoft.com/library/Bb774601(v=VS.85).as
 </dl>
 </td>
 <td width="60%">
-A page sent the <a href="https://msdn.microsoft.com/library/Bb774607(v=VS.85).aspx">PSM_RESTARTWINDOWS</a> message to the property sheet. Windows must be restarted for the user's changes to take effect.
+A page sent the <a href="https://msdn.microsoft.com/en-us/library/Bb774607(v=VS.85).aspx">PSM_RESTARTWINDOWS</a> message to the property sheet. Windows must be restarted for the user's changes to take effect.
 
 </td>
 </tr>
@@ -146,14 +139,14 @@ To retrieve extended error information, call <a href="https://msdn.microsoft.com
 
 If you attempt to add more than 99 pages to a property sheet, this function will fail, but with no indication of the cause of the error: <b>PropertySheet</b> returns a value of -1, but <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns 0.
 
-<div class="alert"><b>Note</b>  The following remarks refer only to wizards that do not use the Aero wizard style (<a href="https://msdn.microsoft.com/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>) or non-wizard property sheets.</div>
+<div class="alert"><b>Note</b>  The following remarks refer only to wizards that do not use the Aero wizard style (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>) or non-wizard property sheets.</div>
 <div> </div>
-By default, the <b>PropertySheet</b> function creates a modal dialog box. If the <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/library/Bb774546(v=VS.85).aspx">PROPSHEETHEADER</a> structure specifies the PSH_MODELESS flag, <b>PropertySheet</b> creates a modeless dialog box and returns immediately after it is created. In this case, the <b>PropertySheet</b> return value is the window handle to the modeless dialog box.
+By default, the <b>PropertySheet</b> function creates a modal dialog box. If the <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PROPSHEETHEADER</a> structure specifies the PSH_MODELESS flag, <b>PropertySheet</b> creates a modeless dialog box and returns immediately after it is created. In this case, the <b>PropertySheet</b> return value is the window handle to the modeless dialog box.
 
-For a modeless property sheet, your message loop should use <a href="https://msdn.microsoft.com/library/Bb774593(v=VS.85).aspx">PSM_ISDIALOGMESSAGE</a> to pass messages to the property sheet dialog box. Your message loop should use <a href="https://msdn.microsoft.com/library/Bb774578(v=VS.85).aspx">PSM_GETCURRENTPAGEHWND</a> to determine when to destroy the dialog box. When the user clicks the <b>OK</b> or <b>Cancel</b> button, <b>PSM_GETCURRENTPAGEHWND</b> returns <b>NULL</b>. You can then use the <a href="https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx">DestroyWindow</a> function to destroy the dialog box.
+For a modeless property sheet, your message loop should use <a href="https://msdn.microsoft.com/en-us/library/Bb774593(v=VS.85).aspx">PSM_ISDIALOGMESSAGE</a> to pass messages to the property sheet dialog box. Your message loop should use <a href="https://msdn.microsoft.com/en-us/library/Bb774578(v=VS.85).aspx">PSM_GETCURRENTPAGEHWND</a> to determine when to destroy the dialog box. When the user clicks the <b>OK</b> or <b>Cancel</b> button, <b>PSM_GETCURRENTPAGEHWND</b> returns <b>NULL</b>. You can then use the <a href="https://msdn.microsoft.com/en-us/library/ms632682(v=VS.85).aspx">DestroyWindow</a> function to destroy the dialog box.
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80.</a> The <b>PropertySheet</b> return value carries different information for modal and modeless property sheets. In some cases, modeless property sheets might need the information they would have received from <b>PropertySheet</b> if they had been modal. In particular, they may need to know whether ID_PSREBOOTSYSTEM or ID_PSRESTARTWINDOWS would have been returned. A modeless property sheet can retrieve the value that a modal property sheet would have received from <b>PropertySheet</b> by waiting until <a href="https://msdn.microsoft.com/library/Bb774578(v=VS.85).aspx">PSM_GETCURRENTPAGEHWND</a> returns <b>NULL</b> and then sending a <a href="https://msdn.microsoft.com/library/Bb774579(v=VS.85).aspx">PSM_GETRESULT</a> message.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80.</a> The <b>PropertySheet</b> return value carries different information for modal and modeless property sheets. In some cases, modeless property sheets might need the information they would have received from <b>PropertySheet</b> if they had been modal. In particular, they may need to know whether ID_PSREBOOTSYSTEM or ID_PSRESTARTWINDOWS would have been returned. A modeless property sheet can retrieve the value that a modal property sheet would have received from <b>PropertySheet</b> by waiting until <a href="https://msdn.microsoft.com/en-us/library/Bb774578(v=VS.85).aspx">PSM_GETCURRENTPAGEHWND</a> returns <b>NULL</b> and then sending a <a href="https://msdn.microsoft.com/en-us/library/Bb774579(v=VS.85).aspx">PSM_GETRESULT</a> message.
 
 
 

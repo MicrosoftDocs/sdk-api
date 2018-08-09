@@ -7,7 +7,7 @@ old-location: base\getprivateprofileint.htm
 old-project: SysInfo
 ms.assetid: dcb48ec3-7172-4bcc-a833-23e34a73d70b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: GetPrivateProfileInt, GetPrivateProfileInt function, GetPrivateProfileIntA, GetPrivateProfileIntW, _win32_getprivateprofileint, base.getprivateprofileint, winbase/GetPrivateProfileInt, winbase/GetPrivateProfileIntA, winbase/GetPrivateProfileIntW
 ms.prod: windows
 ms.technology: windows-sdk

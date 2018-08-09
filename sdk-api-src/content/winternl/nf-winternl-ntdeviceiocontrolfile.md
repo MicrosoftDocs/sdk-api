@@ -4,10 +4,10 @@ title: NtDeviceIoControlFile function
 author: windows-sdk-content
 description: Deprecated. Builds descriptors for the supplied buffer(s) and passes the untyped data to the device driver associated with the file handle. NtDeviceIoControlFile is superseded by DeviceIoControl.
 old-location: winprog\ntdeviceiocontrolfile.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\ntdeviceiocontrolfile.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: NtDeviceIoControlFile, NtDeviceIoControlFile function [Windows API], winprog.ntdeviceiocontrolfile, winternl/NtDeviceIoControlFile, winui.ntdeviceiocontrolfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,9 +91,9 @@ Length of the <i>InputBuffer</i> in bytes. If the buffer is not supplied, then t
 Length of the <i>OutputBuffer</i> in bytes. If the buffer is not supplied, then this value is ignored.
 
 
-#### - ApcContext [in]
+#### - Event [in]
 
-A pointer to pass to <i>ApcRoutine</i> when the operation completes. This parameter is required if an <i>ApcRoutine</i> is specified.
+A handle to an event to be set to the <code>signaled</code> state when the operation completes. This parameter can be <b>NULL</b>.
 
 
 #### - ApcRoutine [in]
@@ -101,9 +101,9 @@ A pointer to pass to <i>ApcRoutine</i> when the operation completes. This parame
 Procedure to be invoked once the operation completes. This parameter can be <b>NULL</b>. For more information on Asynchronous Procedure Calls (APCs), see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540625">Asynchronous Procedure Calls</a>. 
 
 
-#### - Event [in]
+#### - ApcContext [in]
 
-A handle to an event to be set to the <code>signaled</code> state when the operation completes. This parameter can be <b>NULL</b>.
+A pointer to pass to <i>ApcRoutine</i> when the operation completes. This parameter is required if an <i>ApcRoutine</i> is specified.
 
 
 #### - InputBuffer [in]

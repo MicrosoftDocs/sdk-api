@@ -4,10 +4,10 @@ title: IActionCollection::Clear
 author: windows-sdk-content
 description: Clears all the actions from the collection.
 old-location: taskschd\iactioncollection_clear.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 59a1c49d-01e0-4331-997a-deb5d45d5766
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Clear, Clear method [Task Scheduler], Clear method [Task Scheduler],IActionCollection interface, IActionCollection interface [Task Scheduler],Clear method, IActionCollection.Clear, IActionCollection::Clear, actions [Task Scheduler],clearing, taskschd.iactioncollection_clear, taskschd/IActionCollection::Clear
 ms.prod: windows
 ms.technology: windows-sdk

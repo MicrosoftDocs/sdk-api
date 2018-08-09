@@ -7,7 +7,7 @@ old-location: mstv\isbe2crossbar_getinitialprofile.htm
 old-project: mstv
 ms.assetid: 6a4bec40-2c6d-49fb-8977-3c3db2b2b4df
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetInitialProfile, GetInitialProfile method [Microsoft TV Technologies], GetInitialProfile method [Microsoft TV Technologies],ISBE2Crossbar interface, ISBE2Crossbar interface [Microsoft TV Technologies],GetInitialProfile method, ISBE2Crossbar.GetInitialProfile, ISBE2Crossbar::GetInitialProfile, mstv.isbe2crossbar_getinitialprofile, sbe/ISBE2Crossbar::GetInitialProfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      Gets the initial profile that lists the media types that are present in the currently loaded WTV file. The media types in the profile correspond to the active pins on a <a href="https://msdn.microsoft.com/435081e9-8a3f-42ab-9091-30c7c3dd59c6">Stream Buffer Source</a> filter at the time the currently loaded  WTV file is created. The profile is fixed per loaded WTV file and does not change while the filter has a WTV file loaded . However, if the crossbar  is not in default profile mode, you can call the <a href="https://msdn.microsoft.com/34067ca5-ead0-44ac-b274-dc9e3f2fb2fd">SetOutputProfile</a> method to set a new profile for the crossbar. To disable default profile mode, call the <a href="https://msdn.microsoft.com/5038050b-319d-488a-9cea-a2fc59b90cc8">EnableDefaultMode</a> method without the DEF_MODE_PROFILE flag. 
+Gets the initial profile that lists the media types that are present in the currently loaded WTV file. The media types in the profile correspond to the active pins on a <a href="https://msdn.microsoft.com/435081e9-8a3f-42ab-9091-30c7c3dd59c6">Stream Buffer Source</a> filter at the time the currently loaded  WTV file is created. The profile is fixed per loaded WTV file and does not change while the filter has a WTV file loaded . However, if the crossbar  is not in default profile mode, you can call the <a href="https://msdn.microsoft.com/34067ca5-ead0-44ac-b274-dc9e3f2fb2fd">SetOutputProfile</a> method to set a new profile for the crossbar. To disable default profile mode, call the <a href="https://msdn.microsoft.com/5038050b-319d-488a-9cea-a2fc59b90cc8">EnableDefaultMode</a> method without the DEF_MODE_PROFILE flag. 
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: ADAM
 
 ### -param ppProfile [out]
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/b2fb3d08-cbef-4dbf-a60b-8363ccee4fbf">ISBE2MediaTypeProfile</a> interface that implements the profile.
+Receives a pointer to the <a href="https://msdn.microsoft.com/b2fb3d08-cbef-4dbf-a60b-8363ccee4fbf">ISBE2MediaTypeProfile</a> interface that implements the profile.
           
           The caller is responsible for releasing this interface. You can use this pointer to create a custom profile that you pass to the <a href="https://msdn.microsoft.com/34067ca5-ead0-44ac-b274-dc9e3f2fb2fd">SetOutputProfile</a> method.
 

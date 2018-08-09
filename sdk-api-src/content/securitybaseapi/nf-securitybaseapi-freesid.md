@@ -7,7 +7,7 @@ old-location: security\freesid.htm
 old-project: secauthz
 ms.assetid: 1e2098d8-4d1f-4353-97c1-549021a5b3fd
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: FreeSid, FreeSid function [Security], _win32_freesid, security.freesid, securitybaseapi/FreeSid
 ms.prod: windows
 ms.technology: windows-sdk

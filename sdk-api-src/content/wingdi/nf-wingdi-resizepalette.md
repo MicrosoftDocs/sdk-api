@@ -7,7 +7,7 @@ old-location: gdi\resizepalette.htm
 old-project: gdi
 ms.assetid: 77178869-cbfb-4b91-a5b0-7d0404e7534f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ResizePalette, ResizePalette function [Windows GDI], _win32_ResizePalette, gdi.resizepalette, wingdi/ResizePalette
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,7 @@ The <b>ResizePalette</b> function increases or decreases the size of a logical p
 A handle to the palette to be changed.
 
 
-### -param n
-
-TBD
-
-
-
-
-#### - nEntries [in]
+### -param n [in]
 
 The number of entries in the palette after it has been resized.
 

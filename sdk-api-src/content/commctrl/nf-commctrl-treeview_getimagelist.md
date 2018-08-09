@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetImageList.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getimagelist.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TVSIL_NORMAL, TVSIL_STATE, TreeView_GetImageList, TreeView_GetImageList macro [Windows Controls], _win32_TreeView_GetImageList, _win32_TreeView_GetImageList_cpp, commctrl/TreeView_GetImageList, controls.TreeView_GetImageList, controls._win32_TreeView_GetImageList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the handle to the normal or state image list associated with a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773585(v=VS.85).aspx">TVM_GETIMAGELIST</a> message explicitly. 
+Retrieves the handle to the normal or state image list associated with a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773585(v=VS.85).aspx">TVM_GETIMAGELIST</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Retrieves the handle to the normal or state image list associated with a tree-vi
 
 ### -param hwnd
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to the tree-view control. 
 
 
 ### -param iImage
@@ -98,19 +100,12 @@ Indicates the state image list. You can use state images to indicate application
  
 
 
-#### - hwndTV
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to the tree-view control. 
-
-
 ## -see-also
 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb760056(v=VS.85).aspx">TreeView_SetImageList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb760056(v=VS.85).aspx">TreeView_SetImageList</a>
  
 
  

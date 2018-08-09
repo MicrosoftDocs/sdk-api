@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_GetSecurityDescriptor.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsecuritydescriptor.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: GetSecurityDescriptor, GetSecurityDescriptor method [search], GetSecurityDescriptor method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetSecurityDescriptor method, IUrlAccessor.GetSecurityDescriptor, IUrlAccessor::GetSecurityDescriptor, _search_IUrlAccessor_GetSecurityDescriptor, search._search_IUrlAccessor_GetSecurityDescriptor, searchapi/IUrlAccessor::GetSecurityDescriptor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-            Gets the security descriptor for the URL item. Security is applied at query time, so this descriptor identifies security for read access.
+Gets the security descriptor for the URL item. Security is applied at query time, so this descriptor identifies security for read access.
         
 
 
@@ -65,8 +64,7 @@ req.product: ADAM
 
 Type: <b>BYTE*</b>
 
-
-                    Receives a pointer to the security descriptor.
+Receives a pointer to the security descriptor.
                 
 
 
@@ -74,9 +72,7 @@ Type: <b>BYTE*</b>
 
 Type: <b>DWORD</b>
 
-
-                    Size in <b>TCHAR</b><b>s</b>
-                of the <i>pSD</i> array.
+Size in <b>TCHAR</b><b>s</b>of the <i>pSD</i> array.
                 
 
 
@@ -84,8 +80,7 @@ Type: <b>DWORD</b>
 
 Type: <b>DWORD*</b>
 
-
-                    Receives a pointer to the number of <b>TCHAR</b><b>s</b> written to <i>pSD</i>, not including the terminating <b>NULL</b>.
+Receives a pointer to the number of <b>TCHAR</b><b>s</b> written to <i>pSD</i>, not including the terminating <b>NULL</b>.
                 
 
 
@@ -104,16 +99,13 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-                This method allows custom mappings between users registered to a content source and those users registered on the domain, if they are different. Security descriptors created in this method must be self-relative.
+This method allows custom mappings between users registered to a content source and those users registered on the domain, if they are different. Security descriptors created in this method must be self-relative.
             
 
-
-                If the URL contains a user security identifier (SID), then the protocol handler is invoked in the security context of that user, and this method must return E_NOTIMPL. 
+If the URL contains a user security identifier (SID), then the protocol handler is invoked in the security context of that user, and this method must return E_NOTIMPL. 
             
 
-
-                If the URL does not contain a user SID, then the protocol handler is invoked in the security context of the system service. In that case, this method can return either an access control list (ACL) to restrict read access, or <a href="https://msdn.microsoft.com/library/Aa965709(v=VS.85).aspx">PRTH_S_ACL_IS_READ_EVERYONE</a> to allow anyone read access during querying.
+If the URL does not contain a user SID, then the protocol handler is invoked in the security context of the system service. In that case, this method can return either an access control list (ACL) to restrict read access, or <a href="https://msdn.microsoft.com/en-us/library/Aa965709(v=VS.85).aspx">PRTH_S_ACL_IS_READ_EVERYONE</a> to allow anyone read access during querying.
             
 
 <div class="alert"><b>Note</b>  If this method returns E_NOTIMPL and the URL does NOT contain a user SID, then the item is retrievable by all user queries.</div>
@@ -126,11 +118,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965709(v=VS.85).aspx">Search Protocol Handler Error Messages</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965709(v=VS.85).aspx">Search Protocol Handler Error Messages</a>
  
 
  

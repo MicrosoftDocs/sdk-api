@@ -7,7 +7,7 @@ old-location: gdi\setdibitstodevice.htm
 old-project: gdi
 ms.assetid: 41225400-12e3-47ba-8b88-ac1d5b0fa90f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, SetDIBitsToDevice, SetDIBitsToDevice function [Windows GDI], _win32_SetDIBitsToDevice, gdi.setdibitstodevice, wingdi/SetDIBitsToDevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,44 +68,44 @@ The <b>SetDIBitsToDevice</b> function sets the pixels in the specified rectangle
 A handle to the device context.
 
 
-### -param xDest
+### -param xDest [in]
 
-TBD
-
-
-### -param yDest
-
-TBD
+The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.
 
 
-### -param w
+### -param yDest [in]
 
-TBD
-
-
-### -param h
-
-TBD
+The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.
 
 
-### -param xSrc
+### -param w [in]
 
-TBD
-
-
-### -param ySrc
-
-TBD
+The width, in logical units, of the image.
 
 
-### -param StartScan
+### -param h [in]
 
-TBD
+The height, in logical units, of the image.
 
 
-### -param cLines
+### -param xSrc [in]
 
-TBD
+The x-coordinate, in logical units, of the lower-left corner of the image.
+
+
+### -param ySrc [in]
+
+The y-coordinate, in logical units, of the lower-left corner of the image.
+
+
+### -param StartScan [in]
+
+The starting scan line in the image.
+
+
+### -param cLines [in]
+
+The number of DIB scan lines contained in the array pointed to by the <i>lpvBits</i> parameter.
 
 
 ### -param lpvBits [in]
@@ -118,49 +118,7 @@ A pointer to the color data stored as an array of bytes. For more information, s
 A pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure that contains information about the DIB.
 
 
-### -param ColorUse
-
-TBD
-
-
-
-
-#### - XDest [in]
-
-The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.
-
-
-#### - XSrc [in]
-
-The x-coordinate, in logical units, of the lower-left corner of the image.
-
-
-#### - YDest [in]
-
-The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.
-
-
-#### - YSrc [in]
-
-The y-coordinate, in logical units, of the lower-left corner of the image.
-
-
-#### - cScanLines [in]
-
-The number of DIB scan lines contained in the array pointed to by the <i>lpvBits</i> parameter.
-
-
-#### - dwHeight [in]
-
-The height, in logical units, of the image.
-
-
-#### - dwWidth [in]
-
-The width, in logical units, of the image.
-
-
-#### - fuColorUse [in]
+### -param ColorUse [in]
 
 Indicates whether the <b>bmiColors</b> member of the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure contains explicit red, green, blue (RGB) values or indexes into a palette. For more information, see the following Remarks section.
 
@@ -193,11 +151,6 @@ The color table contains literal RGB values.
 </tr>
 </table>
  
-
-
-#### - uStartScan [in]
-
-The starting scan line in the image.
 
 
 ## -returns

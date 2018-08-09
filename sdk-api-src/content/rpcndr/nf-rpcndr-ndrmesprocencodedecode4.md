@@ -7,7 +7,7 @@ old-location: rpc\ndrmesprocencodedecode4.htm
 old-project: rpc
 ms.assetid: 53A24D77-0C23-4C06-AAB8-521528297E4F
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: NdrMesProcEncodeDecode4, NdrMesProcEncodeDecode4 function [RPC], rpc.ndrmesprocencodedecode4, rpcndr/NdrMesProcEncodeDecode4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,14 +76,7 @@ Reserved.
 Reserved.
 
 
-### -param param
-
-TBD
-
-
-
-
-####### - ... [in, out]
+### -param param [in, out]
 
 Reserved.
 

@@ -7,7 +7,7 @@ old-location: security\icertpropertyenrollment_caname_property.htm
 old-project: seccertenroll
 ms.assetid: ea490e37-e1b9-4887-8051-c3447136875c
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: CAName property [Security], CAName property [Security],ICertPropertyEnrollment interface, ICertPropertyEnrollment interface [Security],CAName property, ICertPropertyEnrollment.CAName, ICertPropertyEnrollment.get_CAName, ICertPropertyEnrollment::CAName, ICertPropertyEnrollment::get_CAName, certenroll/ICertPropertyEnrollment::CAName, certenroll/ICertPropertyEnrollment::get_CAName, get_CAName, security.icertpropertyenrollment_caname_property
 ms.prod: windows
 ms.technology: windows-sdk

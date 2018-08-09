@@ -7,7 +7,7 @@ old-location: controls\ListView_SetTileInfo.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settileinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_SetTileInfo, ListView_SetTileInfo macro [Windows Controls], _win32_ListView_SetTileInfo, _win32_ListView_SetTileInfo_cpp, commctrl/ListView_SetTileInfo, controls.ListView_SetTileInfo, controls._win32_ListView_SetTileInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets information for an existing tile of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761210(v=VS.85).aspx">LVM_SETTILEINFO</a> message explicitly. 
+Sets information for an existing tile of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761210(v=VS.85).aspx">LVM_SETTILEINFO</a> message explicitly. 
 
 
 ## -parameters
@@ -67,24 +67,15 @@ A handle to the list-view control.
 
 ### -param pti
 
-TBD
-
-
-
-
-
-
-#### - plvtinfo
-
 Type: <b>PLVTILEINFO</b>
 
-<a href="https://msdn.microsoft.com/library/Bb774766(v=VS.85).aspx">LVTILEINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774766(v=VS.85).aspx">LVTILEINFO</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_SetTileInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_SetTileInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

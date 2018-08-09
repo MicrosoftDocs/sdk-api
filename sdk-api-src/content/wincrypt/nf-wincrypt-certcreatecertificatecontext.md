@@ -4,10 +4,10 @@ title: CertCreateCertificateContext function
 author: windows-sdk-content
 description: Creates a certificate context from an encoded certificate. The created context is not persisted to a certificate store. The function makes a copy of the encoded certificate within the created context.
 old-location: security\certcreatecertificatecontext.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: a32714c4-ee88-48a8-a40a-bbbfec0613ac
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CertCreateCertificateContext, CertCreateCertificateContext function [Security], _crypto2_certcreatecertificatecontext, security.certcreatecertificatecontext, wincrypt/CertCreateCertificateContext
 ms.prod: windows
 ms.technology: windows-sdk

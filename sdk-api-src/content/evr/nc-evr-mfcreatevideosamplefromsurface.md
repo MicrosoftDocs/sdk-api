@@ -7,7 +7,7 @@ old-location: mf\mfcreatevideosamplefromsurface.htm
 old-project: medfound
 ms.assetid: d34d423b-4510-44ce-ab46-51560b01f205
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFCreateVideoSampleFromSurface, MFCreateVideoSampleFromSurface callback, MFCreateVideoSampleFromSurface callback function [Media Foundation], d34d423b-4510-44ce-ab46-51560b01f205, evr/MFCreateVideoSampleFromSurface, mf.mfcreatevideosamplefromsurface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          Creates a media sample that manages a Direct3D surface.
+Creates a media sample that manages a Direct3D surface.
         
 
 
@@ -63,15 +62,13 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param pUnkSurface [in]
 
-
-            A pointer to the <b>IUnknown</b> interface of the Direct3D surface. This parameter can be <b>NULL</b>.
+A pointer to the <b>IUnknown</b> interface of the Direct3D surface. This parameter can be <b>NULL</b>.
           
 
 
 ### -param ppSample [out]
 
-
-            Receives a pointer to the sample's <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> interface.
+Receives a pointer to the sample's <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> interface.
           The caller must release the interface.
 
 

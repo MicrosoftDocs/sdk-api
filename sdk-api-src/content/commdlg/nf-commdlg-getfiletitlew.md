@@ -7,7 +7,7 @@ old-location: dlgbox\getfiletitle.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\getfiletitle.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 08/06/2018
 ms.keywords: GetFileTitle, GetFileTitle function [Dialog Boxes], GetFileTitleA, GetFileTitleW, _win32_GetFileTitle, _win32_getfiletitle_cpp, commdlg/GetFileTitle, commdlg/GetFileTitleA, commdlg/GetFileTitleW, dlgbox.getfiletitle, winui._win32_getfiletitle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,14 +60,18 @@ Retrieves the name of the specified file.
 
 
 
-### -param param
+### -param param [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+The name and location of a file.
 
 
-### -param Buf
+### -param Buf [out]
 
-TBD
+Type: <b>LPTSTR</b>
+
+The buffer that receives the name of the file.
 
 
 ### -param cchSize [in]
@@ -76,20 +80,6 @@ Type: <b>WORD</b>
 
 The length, in 
 					characters, of the buffer pointed to by the <i>lpszTitle</i> parameter.
-
-
-#### - lpszFile [in]
-
-Type: <b>LPCTSTR</b>
-
-The name and location of a file.
-
-
-#### - lpszTitle [out]
-
-Type: <b>LPTSTR</b>
-
-The buffer that receives the name of the file.
 
 
 ## -returns
@@ -127,7 +117,7 @@ If the  <i>lpszTitle</i> buffer is too small, <b>GetFileTitle</b> returns the si
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645524(v=VS.85).aspx">Common Dialog Box Library</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645524(v=VS.85).aspx">Common Dialog Box Library</a>
 
 
 
@@ -135,11 +125,11 @@ If the  <i>lpszTitle</i> buffer is too small, <b>GetFileTitle</b> returns the si
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646927(v=VS.85).aspx">GetOpenFileName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646927(v=VS.85).aspx">GetOpenFileName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646928(v=VS.85).aspx">GetSaveFileName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646928(v=VS.85).aspx">GetSaveFileName</a>
 
 
 

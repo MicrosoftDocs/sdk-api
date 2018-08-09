@@ -7,7 +7,7 @@ old-location: ndf\inetdiaghelperinfo_getattributeinfo.htm
 old-project: ndf
 ms.assetid: 0c1a12f3-357f-4d96-b0ef-99d788b6e020
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: GetAttributeInfo, GetAttributeInfo method [NDF], GetAttributeInfo method [NDF],INetDiagHelperInfo interface, INetDiagHelperInfo interface [NDF],GetAttributeInfo method, INetDiagHelperInfo.GetAttributeInfo, INetDiagHelperInfo::GetAttributeInfo, ndf.inetdiaghelperinfo_getattributeinfo, ndhelper/INetDiagHelperInfo::GetAttributeInfo
 ms.prod: windows
 ms.technology: windows-sdk

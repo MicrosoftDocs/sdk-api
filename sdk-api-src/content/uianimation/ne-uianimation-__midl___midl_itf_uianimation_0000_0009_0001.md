@@ -7,7 +7,7 @@ old-location: uianimation\ui_animation_slope.htm
 old-project: UIAnimation
 ms.assetid: 17076489-4b66-44ae-87ac-39b02da0b542
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: UI_ANIMATION_SLOPE, UI_ANIMATION_SLOPE enumeration [Windows Animation], UI_ANIMATION_SLOPE_DECREASING, UI_ANIMATION_SLOPE_INCREASING, __MIDL___MIDL_itf_UIAnimation_0000_0009_0001, uianimation.ui_animation_slope, uianimation/UI_ANIMATION_SLOPE, uianimation/UI_ANIMATION_SLOPE_DECREASING, uianimation/UI_ANIMATION_SLOPE_INCREASING
 ms.prod: windows
 ms.technology: windows-sdk

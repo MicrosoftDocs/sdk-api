@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerinitialize.htm
 old-project: eaphost
 ms.assetid: 4af7103e-85c8-472e-96fe-407f07a1f447
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapHostPeerInitialize, EapHostPeerInitialize function [EAPHost], eaphost.eaphostpeerinitialize, eappapis/EapHostPeerInitialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ The following call occurs within the <b>EapHostPeerInitialize</b> function:
 <code>CoInitializeEx(NULL, COINIT_MULTITHREADED);</code>
 
 The client should not initialize a conflicting COM environment.
-If different COM environment (such as a single-threaded apartment) is required, the client should call  <a href="https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx">CoInitializeEx</a> directly, and not call <b>EapHostPeerInitialize</b>. If <b>CoInitializeEx</b> is called directly, then the client must call <a href="https://msdn.microsoft.com/library/ms688715(v=VS.85).aspx">CoUninitialize</a> to uninitialize the session. In addition, the client must use COM functions (and not EAPHost supplicant functions) to allocate and free memory.
+If different COM environment (such as a single-threaded apartment) is required, the client should call  <a href="https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx">CoInitializeEx</a> directly, and not call <b>EapHostPeerInitialize</b>. If <b>CoInitializeEx</b> is called directly, then the client must call <a href="https://msdn.microsoft.com/en-us/library/ms688715(v=VS.85).aspx">CoUninitialize</a> to uninitialize the session. In addition, the client must use COM functions (and not EAPHost supplicant functions) to allocate and free memory.
 
 
 

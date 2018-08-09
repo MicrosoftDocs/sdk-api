@@ -7,7 +7,7 @@ old-location: nla\ondemandunregisternotification.htm
 old-project: nla
 ms.assetid: A7FA6035-D089-4A65-8F4E-F8722C147B0F
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: OnDemandUnRegisterNotification, OnDemandUnregisterNotification, OnDemandUnregisterNotification function [Network Awareness], nla.ondemandunregisternotification, ondemandconnroutehelper/OnDemandUnregisterNotification
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,7 @@ The <b>OnDemandUnregisterNotification</b> function allows an application to unre
 
 
 
-### -param registrationHandle
-
-TBD
-
-
-
-
-#### - RegistrationHandle [in]
+### -param registrationHandle [in]
 
 A HANDLE obtained from a successful <a href="https://msdn.microsoft.com/1C9BB656-B1A7-49A6-97B9-414946BF9BE0">OnDemandRegisterNotification</a>  call.
 

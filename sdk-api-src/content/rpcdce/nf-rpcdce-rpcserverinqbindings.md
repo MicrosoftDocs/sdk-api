@@ -7,7 +7,7 @@ old-location: rpc\rpcserverinqbindings.htm
 old-project: rpc
 ms.assetid: 96f081ab-6210-4ca0-a913-182477463981
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcServerInqBindings, RpcServerInqBindings function [RPC], _rpc_rpcserverinqbindings, rpc.rpcserverinqbindings, rpcdce/RpcServerInqBindings
 ms.prod: windows
 ms.technology: windows-sdk

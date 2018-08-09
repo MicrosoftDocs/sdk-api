@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionscaletransform3d_setscaley_overloaded.htm
 old-project: directcomp
 ms.assetid: 90E48F55-B9A3-464D-9FB2-03AA27AA5A08
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IDCompositionScaleTransform3D::SetScaleY, SetScaleY, SetScaleY methods [DirectComposition], dcomp/SetScaleY, directcomp.idcompositionscaletransform3d_setscaley_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp2.htm
 old-project: TSF
 ms.assetid: c256f1c2-6b67-4417-8707-3490a2c5cb55
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreACP2, ITextStoreACP2 interface [Text Services Framework], ITextStoreACP2 interface [Text Services Framework],described, textstor/ITextStoreACP2, tsf.itextstoreacp2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -265,8 +265,7 @@ Get the attributes that are supported in the document.
 <a href="https://msdn.microsoft.com/fff22304-626e-4ae6-ac8c-f4a62ee823c2">RetrieveRequestedAttrs</a>
 </td>
 <td align="left" width="63%">
-
-      Gets the attributes returned by a call to an attribute request method.
+Gets the attributes returned by a call to an attribute request method.
 
 </td>
 </tr>

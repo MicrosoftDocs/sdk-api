@@ -7,7 +7,7 @@ old-location: rpc\rpcasyncabortcall.htm
 old-project: rpc
 ms.assetid: 651c53f3-8bb5-4162-a8a8-2da5a0d05d21
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcAsyncAbortCall, RpcAsyncAbortCall function [RPC], _rpc_rpcasyncabortcall, rpc.rpcasyncabortcall, rpcasync/RpcAsyncAbortCall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The server calls 
+The server calls 
 <b>RpcAsyncAbortCall</b> to abort an asynchronous call.
 
 

@@ -7,7 +7,7 @@ old-location: wsw\wsgetheaderattributes.htm
 old-project: wsw
 ms.assetid: 323178d4-6bc9-4b5e-bd3d-b36972720cd7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsGetHeaderAttributes, WsGetHeaderAttributes function [Web Services for Windows], webservices/WsGetHeaderAttributes, wsw.wsgetheaderattributes
 ms.prod: windows
 ms.technology: windows-sdk

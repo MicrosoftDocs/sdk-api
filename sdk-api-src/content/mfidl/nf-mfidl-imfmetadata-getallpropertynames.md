@@ -7,7 +7,7 @@ old-location: mf\imfmetadata_getallpropertynames.htm
 old-project: medfound
 ms.assetid: e0944d42-d6e6-420d-9980-ca6c62736b3d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetAllPropertyNames, GetAllPropertyNames method [Media Foundation], GetAllPropertyNames method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],GetAllPropertyNames method, IMFMetadata.GetAllPropertyNames, IMFMetadata::GetAllPropertyNames, e0944d42-d6e6-420d-9980-ca6c62736b3d, mf.imfmetadata_getallpropertynames, mfidl/IMFMetadata::GetAllPropertyNames
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets a list of all the metadata property names on this object.
+Gets a list of all the metadata property names on this object.
 
 
 ## -parameters

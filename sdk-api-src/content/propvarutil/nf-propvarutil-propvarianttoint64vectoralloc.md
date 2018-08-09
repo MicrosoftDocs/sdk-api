@@ -7,7 +7,7 @@ old-location: properties\PropVariantToInt64VectorAlloc.htm
 old-project: properties
 ms.assetid: 06f82bf5-5009-4c8b-9f99-4325328bc2e2
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: PropVariantToInt64VectorAlloc, PropVariantToInt64VectorAlloc function [Windows Properties], _shell_PropVariantToInt64VectorAlloc, properties.PropVariantToInt64VectorAlloc, propvarutil/PropVariantToInt64VectorAlloc, shell.PropVariantToInt64VectorAlloc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,7 +132,7 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776557(v=VS.85).aspx">PropVariantToInt64VectorAlloc</a> to access a <b>LONGLONG</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToInt64VectorAlloc">PropVariantToInt64VectorAlloc</a> to access a <b>LONGLONG</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -161,23 +161,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762302(v=VS.85).aspx">InitPropVariantFromInt64Vector</a>
+<a href="shell.InitPropVariantFromInt64Vector">InitPropVariantFromInt64Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776526(v=VS.85).aspx">PropVariantGetInt64Elem</a>
+<a href="shell.PropVariantGetInt64Elem">PropVariantGetInt64Elem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776554(v=VS.85).aspx">PropVariantToInt64</a>
+<a href="shell.PropVariantToInt64">PropVariantToInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776556(v=VS.85).aspx">PropVariantToInt64Vector</a>
+<a href="shell.PropVariantToInt64Vector">PropVariantToInt64Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776613(v=VS.85).aspx">VariantToInt64Array</a>
+<a href="shell.VariantToInt64Array">VariantToInt64Array</a>
  
 
  

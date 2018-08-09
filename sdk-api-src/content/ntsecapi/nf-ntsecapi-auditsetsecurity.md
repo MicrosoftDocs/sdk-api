@@ -7,7 +7,7 @@ old-location: security\auditsetsecurity.htm
 old-project: secauthz
 ms.assetid: 2f4d6198-775a-40e4-9158-a69e71bfe050
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AuditSetSecurity, AuditSetSecurity function [Security], ntsecapi/AuditSetSecurity, security.auditsetsecurity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ A pointer to a well-formed <a href="https://msdn.microsoft.com/library/windows/h
 
 
 
-
-						If the function succeeds, it returns <b>TRUE</b>.
+If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes defined in WinError.h.

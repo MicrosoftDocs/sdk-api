@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced2_setoutputsetting.htm
 old-project: wmformat
 ms.assetid: 035a74d2-288d-4754-8cb2-4508b7fe4649
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],SetOutputSetting method, IWMReaderAdvanced2.SetOutputSetting, IWMReaderAdvanced2::SetOutputSetting, IWMReaderAdvanced2SetOutputSetting, SetOutputSetting, SetOutputSetting method [windows Media Format], SetOutputSetting method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_setoutputsetting, wmsdkidl/IWMReaderAdvanced2::SetOutputSetting
 ms.prod: windows
 ms.technology: windows-sdk

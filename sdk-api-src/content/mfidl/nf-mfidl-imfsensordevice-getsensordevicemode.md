@@ -7,7 +7,7 @@ old-location: mf\imfsensordevice_getsensordevicemode.htm
 old-project: medfound
 ms.assetid: 21594884-DAA5-450C-855D-E800FE164C5E
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetSensorDeviceMode, GetSensorDeviceMode method [Media Foundation], GetSensorDeviceMode method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetSensorDeviceMode method, IMFSensorDevice.GetSensorDeviceMode, IMFSensorDevice::GetSensorDeviceMode, mf.imfsensordevice_getsensordevicemode, mfidl/IMFSensorDevice::GetSensorDeviceMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ If the call succeeds, receives a member of the <a href="https://msdn.microsoft.c
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ If the call succeeds, receives a member of the <a href="https://msdn.microsoft.c
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -100,8 +98,7 @@ If the call succeeds, receives a member of the <a href="https://msdn.microsoft.c
 </dl>
 </td>
 <td width="60%">
-
-                The <i>pDeviceId</i> parameter is null.
+The <i>pDeviceId</i> parameter is null.
 
 </td>
 </tr>
@@ -112,8 +109,7 @@ If the call succeeds, receives a member of the <a href="https://msdn.microsoft.c
 </dl>
 </td>
 <td width="60%">
-
-                The sensor group has not been initialized.
+The sensor group has not been initialized.
 
 </td>
 </tr>

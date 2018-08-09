@@ -7,7 +7,7 @@ old-location: security\buildtrusteewithname.htm
 old-project: secauthz
 ms.assetid: a66c23ac-8211-40fd-bfe8-ef9089bf3745
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: BuildTrusteeWithName, BuildTrusteeWithName function [Security], BuildTrusteeWithNameA, BuildTrusteeWithNameW, MultipleTrusteeOperation, TrusteeForm, TrusteeType, _win32_buildtrusteewithname, aclapi/BuildTrusteeWithName, aclapi/BuildTrusteeWithNameA, aclapi/BuildTrusteeWithNameW, pMultipleTrustee, security.buildtrusteewithname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>BuildTrusteeWithName</b> function initializes a 
+The <b>BuildTrusteeWithName</b> function initializes a 
 <a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure. The caller specifies the trustee name. The function sets other members of the structure to default values.
 
 
@@ -145,7 +144,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
 
 
 

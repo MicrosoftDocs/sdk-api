@@ -4,10 +4,10 @@ title: IGPM2
 author: windows-sdk-content
 description: The IGPM2 interface extends the GPMBackupDir and InitializeReporting methods of the IGPM interface of the Group Policy Management Console (GPMC).
 old-location: gpmc\igpm2.htm
-old-project: gpmc
+old-project: GPMC
 ms.assetid: f9cd432a-3974-4fc4-9e32-1d8e2df1601c
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: IGPM2, IGPM2 interface [GPMC], IGPM2 interface [GPMC],described, gpmc.igpm2, gpmgmt/IGPM2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ The
 <b>IGPM2</b> interface extends the <a href="https://msdn.microsoft.com/2d44cf6d-a3fa-43db-b28e-3d48f6d13625">GPMBackupDir</a> and <a href="https://msdn.microsoft.com/6e9f6ac5-d6d7-4360-b722-0b22e2391d20">InitializeReporting</a> methods of the <a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM</a> interface of the Group Policy Management Console (GPMC).
 
 The <b>GPM</b> object is the only object used with 
-the <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function.
+the <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function.
 
 
 ## -inheritance

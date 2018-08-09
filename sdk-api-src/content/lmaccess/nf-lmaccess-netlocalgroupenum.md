@@ -7,7 +7,7 @@ old-location: netmgmt\netlocalgroupenum.htm
 old-project: netmgmt
 ms.assetid: fc27d7f1-bfbe-46d7-a154-f04eb9249248
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: 0, 1, NetLocalGroupEnum, NetLocalGroupEnum function [Network Management], _win32_netlocalgroupenum, lmaccess/NetLocalGroupEnum, netmgmt.netlocalgroupenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,14 +127,14 @@ Pointer to a value that receives the count of elements actually enumerated.
 Pointer to a value that receives the approximate total number of entries that could have been enumerated from the current resume position. The total number of entries is only a hint. For more information about determining the exact number of entries, see the following Remarks section.
 
 
-#### - resumehandle [in, out]
-
-Pointer to a value that contains a resume handle that is used to continue an existing local group search. The handle should be zero on the first call and left unchanged for subsequent calls. If this parameter is <b>NULL</b>, then no resume handle is stored. For more information, see the following Remarks section.
-
-
 #### - servername [in]
 
 Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
+
+
+#### - resumehandle [in, out]
+
+Pointer to a value that contains a resume handle that is used to continue an existing local group search. The handle should be zero on the first call and left unchanged for subsequent calls. If this parameter is <b>NULL</b>, then no resume handle is stored. For more information, see the following Remarks section.
 
 
 ## -returns

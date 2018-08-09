@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents2_backgroundsyncbegin.htm
 old-project: offlinefiles
 ms.assetid: 84b71228-904a-4042-8d13-422ae77f7ba5
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: BackgroundSyncBegin, BackgroundSyncBegin method [Offline Files], BackgroundSyncBegin method [Offline Files],IOfflineFilesEvents2 interface, IOfflineFilesEvents2 interface [Offline Files],BackgroundSyncBegin method, IOfflineFilesEvents2.BackgroundSyncBegin, IOfflineFilesEvents2::BackgroundSyncBegin, cscobj/IOfflineFilesEvents2::BackgroundSyncBegin, of.iofflinefilesevents2_backgroundsyncbegin
 ms.prod: windows
 ms.technology: windows-sdk

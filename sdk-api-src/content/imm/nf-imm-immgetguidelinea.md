@@ -7,7 +7,7 @@ old-location: intl\immgetguideline.htm
 old-project: Intl
 ms.assetid: f6639061-0ad9-4f42-b5d4-66ad3f6298aa
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: GGL_INDEX, GGL_LEVEL, GGL_PRIVATE, GGL_STRING, ImmGetGuideLine, ImmGetGuideLine function [Internationalization for Windows Applications], ImmGetGuideLineA, ImmGetGuideLineW, _win32_ImmGetGuideLine, imm/ImmGetGuideLine, imm/ImmGetGuideLineA, imm/ImmGetGuideLineW, intl.immgetguideline
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Retrieves information about errors. Applications use the information for user no
 
 
 
-### -param param
+### -param param [in]
 
-TBD
+Handle to the input context.
 
 
 ### -param dwIndex [in]
@@ -127,11 +127,6 @@ Pointer to a buffer in which the function retrieves the error message string. Th
 ### -param dwBufLen [in]
 
 Size, in bytes, of the output buffer. The application sets this parameter to 0 if the function is to return the buffer size needed to receive the error message string, not including the terminating null character.
-
-
-#### - hIMC [in]
-
-Handle to the input context.
 
 
 ## -returns

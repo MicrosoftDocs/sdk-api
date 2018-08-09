@@ -7,7 +7,7 @@ old-location: fwp\fwpm_statistics0.htm
 old-project: fwp
 ms.assetid: c3ac6871-79b1-4378-8f3c-a56e85fd2a3b
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FWPM_STATISTICS0, FWPM_STATISTICS0 structure [Filtering], FWPM_STATISTICS0_, fwp.fwpm_statistics0, fwpmtypes/FWPM_STATISTICS0
 ms.prod: windows
 ms.technology: windows-sdk

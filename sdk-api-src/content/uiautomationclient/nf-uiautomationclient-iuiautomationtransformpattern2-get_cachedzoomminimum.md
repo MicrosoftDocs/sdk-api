@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationtransformpattern2_cachedzoomminimum.ht
 old-project: WinAuto
 ms.assetid: 26C56849-204A-47B3-8734-7A16F5577357
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CachedZoomMinimum property [Windows Accessibility], CachedZoomMinimum property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CachedZoomMinimum property, IUIAutomationTransformPattern2.CachedZoomMinimum, IUIAutomationTransformPattern2.get_CachedZoomMinimum, IUIAutomationTransformPattern2::CachedZoomMinimum, IUIAutomationTransformPattern2::get_CachedZoomMinimum, get_CachedZoomMinimum, uiautomationclient/IUIAutomationTransformPattern2::CachedZoomMinimum, uiautomationclient/IUIAutomationTransformPattern2::get_CachedZoomMinimum, winauto.uiauto_iuiautomationtransformpattern2_cachedzoomminimum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

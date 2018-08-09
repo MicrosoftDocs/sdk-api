@@ -7,7 +7,7 @@ old-location: security\ialternativenames_add_method.htm
 old-project: seccertenroll
 ms.assetid: 02085a1c-0821-4b11-95ad-e1c3a69f4e80
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IAlternativeNames interface, IAlternativeNames interface [Security],Add method, IAlternativeNames.Add, IAlternativeNames::Add, certenroll/IAlternativeNames::Add, security.ialternativenames_add_method
 ms.prod: windows
 ms.technology: windows-sdk

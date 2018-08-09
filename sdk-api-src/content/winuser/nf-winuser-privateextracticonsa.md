@@ -7,7 +7,7 @@ old-location: menurc\privateextracticons.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\privateextracticons.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PrivateExtractIcons, PrivateExtractIcons function [Menus and Other Resources], PrivateExtractIconsA, PrivateExtractIconsW, _win32_PrivateExtractIcons, _win32_privateextracticons_cpp, menurc.privateextracticons, winui._win32_privateextracticons, winuser/PrivateExtractIcons, winuser/PrivateExtractIconsA, winuser/PrivateExtractIconsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,12 @@ Creates an array of handles to icons that are extracted from a specified file.
 
 
 
-### -param szFileName
+### -param szFileName [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+The path and name of the file
+				from which the icon(s) are to be extracted.
 
 
 ### -param nIconIndex [in]
@@ -125,14 +128,6 @@ Type: <b>UINT</b>
 
 Specifies flags that control this function.  These flags are the LR_*
 				flags used by the <a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a> function.
-
-
-#### - lpszFile [in]
-
-Type: <b>LPCTSTR</b>
-
-The path and name of the file
-				from which the icon(s) are to be extracted.
 
 
 ## -returns

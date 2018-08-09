@@ -7,7 +7,7 @@ old-location: menurc\is_intresource.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcemacros\is_intresource.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IS_INTRESOURCE, IS_INTRESOURCE macro [Menus and Other Resources], _win32_IS_INTRESOURCE, _win32_is_intresource_cpp, menurc.is_intresource, winui._win32_is_intresource, winuser/IS_INTRESOURCE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,15 +60,6 @@ Determines whether a value is an integer identifier for a resource.
 
 
 ### -param _r
-
-TBD
-
-
-
-
-
-
-#### - p
 
 The pointer to be tested whether it contains an integer resource identifier. 
 

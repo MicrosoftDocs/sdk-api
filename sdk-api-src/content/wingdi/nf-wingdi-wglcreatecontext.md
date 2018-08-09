@@ -7,7 +7,7 @@ old-location: opengl\wglcreatecontext.htm
 old-project: OpenGL
 ms.assetid: fa9ed944-f917-4fdf-a52a-10a7ade8f2ca
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: "_ogl_wglCreateContext, opengl.wglcreatecontext, wglCreateContext, wglCreateContext function [OpenGL], wingdi/wglCreateContext"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,13 +60,6 @@ The <b>wglCreateContext</b> function creates a new OpenGL rendering context, whi
 
 
 ### -param Arg1
-
-TBD
-
-
-
-
-#### - hdc
 
 Handle to a device context for which the function creates a suitable OpenGL rendering context.
 

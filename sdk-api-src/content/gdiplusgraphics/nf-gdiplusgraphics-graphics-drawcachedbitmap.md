@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawCachedBitmap_cb_x_y_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\drawcachedbitmap.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: DrawCachedBitmap, DrawCachedBitmap method [GDI+], DrawCachedBitmap method [GDI+],Graphics class, Graphics class [GDI+],DrawCachedBitmap method, Graphics.DrawCachedBitmap, Graphics::DrawCachedBitmap, _gdiplus_CLASS_Graphics_DrawCachedBitmap_cb_x_y_, gdiplus._gdiplus_CLASS_Graphics_DrawCachedBitmap_cb_x_y_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::DrawCachedBitmap</b> method draws the image stored in a 
-			<a href="https://msdn.microsoft.com/library/ms534425(v=VS.85).aspx">CachedBitmap</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534425(v=VS.85).aspx">CachedBitmap</a> object.
 
 
 ## -parameters
@@ -62,10 +62,10 @@ The <b>Graphics::DrawCachedBitmap</b> method draws the image stored in a
 
 ### -param cb [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534425(v=VS.85).aspx">CachedBitmap</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534425(v=VS.85).aspx">CachedBitmap</a>*</b>
 
 Pointer to a 
-					<a href="https://msdn.microsoft.com/library/ms534425(v=VS.85).aspx">CachedBitmap</a> object that contains the image to be drawn. 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534425(v=VS.85).aspx">CachedBitmap</a> object that contains the image to be drawn. 
 
 
 ### -param x [in]
@@ -103,16 +103,14 @@ If the method fails, it returns one of the other elements of the
 
 
 A 
-				<a href="https://msdn.microsoft.com/library/ms534425(v=VS.85).aspx">CachedBitmap</a> object stores an image in a format that is optimized for a particular display screen. You cannot draw a cached bitmap to a printer or to a metafile. 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534425(v=VS.85).aspx">CachedBitmap</a> object stores an image in a format that is optimized for a particular display screen. You cannot draw a cached bitmap to a printer or to a metafile. 
 
 Cached bitmaps will not work with any transformations other than translation.
 
 When you construct a 
-				<a href="https://msdn.microsoft.com/library/ms534425(v=VS.85).aspx">CachedBitmap</a> object, you must pass the address of a 
-				<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>
- object to the constructor. If the screen associated with that 
-				<b>Graphics</b>
- object has its bit depth changed after the cached bitmap is constructed, then the <b>Graphics::DrawCachedBitmap</b> method will fail, and you should reconstruct the cached bitmap. Alternatively, you can hook the display change notification message and reconstruct the cached bitmap at that time.
+				<a href="https://msdn.microsoft.com/en-us/library/ms534425(v=VS.85).aspx">CachedBitmap</a> object, you must pass the address of a 
+				<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>object to the constructor. If the screen associated with that 
+				<b>Graphics</b>object has its bit depth changed after the cached bitmap is constructed, then the <b>Graphics::DrawCachedBitmap</b> method will fail, and you should reconstruct the cached bitmap. Alternatively, you can hook the display change notification message and reconstruct the cached bitmap at that time.
 
 
 #### Examples
@@ -120,7 +118,7 @@ When you construct a
 
 
 The following example calls <b>Graphics::DrawCachedBitmap</b> to draw the image stored in a 
-						<a href="https://msdn.microsoft.com/library/ms534425(v=VS.85).aspx">CachedBitmap</a> object.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534425(v=VS.85).aspx">CachedBitmap</a> object.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -156,7 +154,7 @@ The following example calls <b>Graphics::DrawCachedBitmap</b> to draw the image 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536388(v=VS.85).aspx">Drawing, Positioning, and Cloning Images</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536388(v=VS.85).aspx">Drawing, Positioning, and Cloning Images</a>
 
 
 
@@ -164,7 +162,7 @@ The following example calls <b>Graphics::DrawCachedBitmap</b> to draw the image 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533835(v=VS.85).aspx">Using a Cached Bitmap to Improve Performance</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533835(v=VS.85).aspx">Using a Cached Bitmap to Improve Performance</a>
  
 
  

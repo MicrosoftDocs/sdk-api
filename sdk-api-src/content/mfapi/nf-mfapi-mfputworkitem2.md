@@ -7,7 +7,7 @@ old-location: mf\mfputworkitem2.htm
 old-project: medfound
 ms.assetid: C49818B3-83FF-40CE-B68A-F60F3277F7B8
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFPutWorkItem2, MFPutWorkItem2 function [Media Foundation], mf.mfputworkitem2, mfapi/MFPutWorkItem2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Puts an asynchronous operation on a work queue, with a specified priority.
+Puts an asynchronous operation on a work queue, with a specified priority.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: GDI+ 1.1
 
 ### -param dwQueue [in]
 
-
-            The identifier for the work queue. This value can specify one of the standard Media Foundation work queues, or a work queue created by the application. For list of standard Media Foundation work queues, see <a href="https://msdn.microsoft.com/c769f876-83ca-4b04-a054-22fa7146310e">Work Queue Identifiers</a>. To create a new work queue, call <a href="https://msdn.microsoft.com/8def4375-919c-4619-9484-9ce2708a3886">MFAllocateWorkQueue</a> or  MFAllocateWorkQueueEx.
+The identifier for the work queue. This value can specify one of the standard Media Foundation work queues, or a work queue created by the application. For list of standard Media Foundation work queues, see <a href="https://msdn.microsoft.com/c769f876-83ca-4b04-a054-22fa7146310e">Work Queue Identifiers</a>. To create a new work queue, call <a href="https://msdn.microsoft.com/8def4375-919c-4619-9484-9ce2708a3886">MFAllocateWorkQueue</a> or  MFAllocateWorkQueueEx.
           
 
 
@@ -74,8 +72,7 @@ The priority of the work item. Work items are performed in order of priority.
 
 ### -param pCallback [in]
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/7edff985-da59-4cc0-96de-1a92e03a7d41">IMFAsyncCallback</a> interface. The caller must implement this interface.
+A pointer to the <a href="https://msdn.microsoft.com/7edff985-da59-4cc0-96de-1a92e03a7d41">IMFAsyncCallback</a> interface. The caller must implement this interface.
           
 
 

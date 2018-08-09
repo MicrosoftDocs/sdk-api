@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_draw.htm
 old-project: direct3d11
 ms.assetid: 9c63067b-c7ac-412c-ad49-c35d4fba1d68
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 531461d1-7b41-e75e-d7e7-78e6386f31f4, Draw, Draw method [Direct3D 11], Draw method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],Draw method, ID3D11DeviceContext.Draw, ID3D11DeviceContext::Draw, d3d11/ID3D11DeviceContext::Draw, direct3d11.id3d11devicecontext_draw
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ Returns nothing.
 
 The vertex data for a draw call normally comes from a vertex buffer that is bound to the pipeline.
 
-Even without any vertex buffer bound to the pipeline, you can generate your own vertex data in your vertex shader by using the <a href="https://msdn.microsoft.com/library/Bb509647(v=VS.85).aspx">SV_VertexID</a> system-value semantic to determine the current vertex that the runtime is processing.
+Even without any vertex buffer bound to the pipeline, you can generate your own vertex data in your vertex shader by using the <a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">SV_VertexID</a> system-value semantic to determine the current vertex that the runtime is processing.
 
 
 

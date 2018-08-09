@@ -7,7 +7,7 @@ old-location: mmc\icontrolbar.htm
 old-project: MMC
 ms.assetid: 8ba12331-34e8-46ff-ab66-a6ada3d731f6
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: IControlbar, IControlbar interface [MMC], IControlbar interface [MMC],described, _slate_icontrolbar, mmc.icontrolbar, mmc/IControlbar
 ms.prod: windows
 ms.technology: windows-sdk

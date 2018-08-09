@@ -7,7 +7,7 @@ old-location: gdi\polypolyline.htm
 old-project: gdi
 ms.assetid: 71a9273f-321b-4efb-ac73-5979f8151d05
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PolyPolyline, PolyPolyline function [Windows GDI], _win32_PolyPolyline, gdi.polypolyline, wingdi/PolyPolyline
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,36 +66,19 @@ The <b>PolyPolyline</b> function draws multiple series of connected line segment
 A handle to the device context.
 
 
-### -param apt
+### -param apt [in]
 
-TBD
-
-
-### -param asz
-
-TBD
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures that contains the vertices of the polylines, in logical units. The polylines are specified consecutively.
 
 
-### -param csz
-
-TBD
-
-
-
-
-#### - cCount [in]
-
-The total number of entries in the <i>lpdwPolyPoints</i> array.
-
-
-#### - lpdwPolyPoints [in]
+### -param asz [in]
 
 A pointer to an array of variables specifying the number of points in the <i>lppt</i> array for the corresponding polyline. Each entry must be greater than or equal to two.
 
 
-#### - lppt [in]
+### -param csz [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures that contains the vertices of the polylines, in logical units. The polylines are specified consecutively.
+The total number of entries in the <i>lpdwPolyPoints</i> array.
 
 
 ## -returns

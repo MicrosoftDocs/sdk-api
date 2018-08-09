@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderEvents.htm
 old-project: shell
 ms.assetid: bf303b9d-2d6c-4de5-9bca-fc71d4f18903
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ICredentialProviderEvents, ICredentialProviderEvents interface [Windows Shell], ICredentialProviderEvents interface [Windows Shell],described, credentialprovider/ICredentialProviderEvents, shell.ICredentialProviderEvents, shell_ICredentialProviderEvents
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,8 +88,7 @@ Signals the Logon UI or Credential UI  that the enumerated list of credentials h
 An implementation of <b>ICredentialProviderEvents</b> is provided for use by outside parties implementing a credential provider.
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
-
-              Outside parties do not need to implement <b>ICredentialProviderEvents</b> themselves.
+Outside parties do not need to implement <b>ICredentialProviderEvents</b> themselves.
             
 
 

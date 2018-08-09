@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_getnumstoredmessages.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getnumstoredmessages.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 744aee05-989c-454a-b7a8-709c0723a885, GetNumStoredMessages, GetNumStoredMessages method [Direct3D 10], GetNumStoredMessages method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetNumStoredMessages method, ID3D10InfoQueue.GetNumStoredMessages, ID3D10InfoQueue::GetNumStoredMessages, d3d10sdklayers/ID3D10InfoQueue::GetNumStoredMessages, direct3d10.id3d10infoqueue_getnumstoredmessages
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ Number of messages currently stored in the message queue.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
  
 
  

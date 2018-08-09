@@ -7,7 +7,7 @@ old-location: shell\ShortToULong.htm
 old-project: shell
 ms.assetid: 3a959f88-cca2-4fa6-802c-35411e7c5a4d
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ShortToULong, ShortToULong function [Windows Shell], intsafe/ShortToULong, shell.ShortToULong
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: search\_search_PROXY_INFO.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\proxy_info.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: PROXY_INFO, PROXY_INFO structure [search], _PROXY_INFO, _search_PROXY_INFO, search._search_PROXY_INFO, searchapi/PROXY_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Stores information about a proxy. Used by <a href="https://msdn.microsoft.com/library/Bb231440(v=VS.85).aspx">ISearchProtocol</a>.
+Stores information about a proxy. Used by <a href="https://msdn.microsoft.com/en-us/library/Bb231440(v=VS.85).aspx">ISearchProtocol</a>.
 
 
 ## -struct-fields
@@ -75,7 +75,7 @@ A pointer to a Unicode string buffer containing the user agent string.
 
 ### -field paUseProxy
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa965699(v=VS.85).aspx">PROXY_ACCESS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965699(v=VS.85).aspx">PROXY_ACCESS</a></b>
 
 The proxy type to use.
 

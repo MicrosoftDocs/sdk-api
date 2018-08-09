@@ -7,7 +7,7 @@ old-location: security\authzaccesscheck.htm
 old-project: secauthz
 ms.assetid: 633c2a73-169c-4e0c-abb6-96c360bd63cf
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AUTHZ_ACCESS_CHECK_NO_DEEP_COPY_SD, AuthzAccessCheck, AuthzAccessCheck function [Security], _win32_authzaccesscheck, authz/AuthzAccessCheck, security.authzaccesscheck
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,73 +58,7 @@ The <b>AuthzAccessCheck</b> function determines which access bits can be granted
 
 
 
-### -param Flags
-
-TBD
-
-
-### -param hAuthzClientContext [in]
-
-A handle to a structure that represents the client.
-					
-
-Starting with Windows 8 and Windows Server 2012,  the client context can be local or remote.
-
-
-### -param pRequest [in]
-
-A pointer to an <a href="https://msdn.microsoft.com/3748075c-b31a-4669-b8a6-1a540449d8fa">AUTHZ_ACCESS_REQUEST</a> structure that specifies the desired access mask, principal self <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID), and the object type list structure, if it exists.
-
-
-### -param hAuditEvent
-
-TBD
-
-
-### -param pSecurityDescriptor [in]
-
-A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure to be used for access checks. The owner SID for the object is picked from this security descriptor. A <b>NULL </b><a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">discretionary access control list</a> (DACL) in this security descriptor represents a <b>NULL</b> DACL for the entire object. Make sure the security descriptor contains OWNER and DACL information, or an error code 87 or "invalid parameter" message will be generated.
-
-<div class="alert"><b>Important</b>  <b>NULL</b> DACLs permit all types of access to all users; therefore, do not use <b>NULL</b> DACLs. For information about creating a DACL, see <a href="https://msdn.microsoft.com/f8ec202f-4f34-4123-8f3c-cfc5960b4dc2">Creating a DACL</a>.</div>
-<div> </div>
- A <b>NULL </b><a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL) in this security descriptor is treated the same way as an empty SACL.
-					
-
-
-### -param OptionalSecurityDescriptorArray [in, optional]
-
-An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structures. <b>NULL </b><a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control lists</a> (ACLs) in these security descriptors are treated as empty ACLs. The ACL for the entire object is the logical concatenation of all of the ACLs.
-					
-
-
-### -param OptionalSecurityDescriptorCount [in, optional]
-
-The number of security descriptors not including the primary security descriptor.
-					
-
-
-### -param pReply [in, out]
-
-A pointer to an 
-<a href="https://msdn.microsoft.com/7162bf80-3730-46d7-a603-2a55b969c9ba">AUTHZ_ACCESS_REPLY</a> structure that contains the results of the access check. Before calling the <b>AuthzAccessCheck</b> function, an application must allocate memory for the <b>GrantedAccessMask</b> and <b>SaclEvaluationResults</b> members of the <b>AUTHZ_ACCESS_REPLY</b> structure referenced by <i>pReply</i>.
-
-
-### -param phAccessCheckResults [out, optional]
-
-A pointer to return a handle to the cached results of the access check. When this parameter value is not <b>null</b>, the results of this access check call will be cached. This results in a MAXIMUM_ALLOWED check. 
-
-Starting with Windows 8 and Windows Server 2012,  when you use this function with a remote context handle, the value of the parameter must be <b>NULL</b>.
-
-
-#### - AuditEvent [in, optional]
-
-A structure that contains object-specific audit information. When the value of this parameter is not <b>null</b>, an audit is automatically requested. Static audit information is read from the resource manager structure. 
-
-Starting with Windows 8 and Windows Server 2012,  when you use this function with a remote context handle, the value of the parameter must be <b>NULL</b>.
-
-
-#### - flags [in]
+### -param Flags [in]
 
 A <b>DWORD</b> value that specifies how the security descriptor is copied. This parameter can be one of the following values. 
 
@@ -161,6 +95,62 @@ A deep copy of the security descriptor is not performed. The calling application
 </tr>
 </table>
  
+
+
+### -param hAuthzClientContext [in]
+
+A handle to a structure that represents the client.
+					
+
+Starting with Windows 8 and Windows Server 2012,  the client context can be local or remote.
+
+
+### -param pRequest [in]
+
+A pointer to an <a href="https://msdn.microsoft.com/3748075c-b31a-4669-b8a6-1a540449d8fa">AUTHZ_ACCESS_REQUEST</a> structure that specifies the desired access mask, principal self <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID), and the object type list structure, if it exists.
+
+
+### -param hAuditEvent [in, optional]
+
+A structure that contains object-specific audit information. When the value of this parameter is not <b>null</b>, an audit is automatically requested. Static audit information is read from the resource manager structure. 
+
+Starting with Windows 8 and Windows Server 2012,  when you use this function with a remote context handle, the value of the parameter must be <b>NULL</b>.
+
+
+### -param pSecurityDescriptor [in]
+
+A pointer to a 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure to be used for access checks. The owner SID for the object is picked from this security descriptor. A <b>NULL </b><a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">discretionary access control list</a> (DACL) in this security descriptor represents a <b>NULL</b> DACL for the entire object. Make sure the security descriptor contains OWNER and DACL information, or an error code 87 or "invalid parameter" message will be generated.
+
+<div class="alert"><b>Important</b>  <b>NULL</b> DACLs permit all types of access to all users; therefore, do not use <b>NULL</b> DACLs. For information about creating a DACL, see <a href="https://msdn.microsoft.com/f8ec202f-4f34-4123-8f3c-cfc5960b4dc2">Creating a DACL</a>.</div>
+<div> </div>
+ A <b>NULL </b><a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL) in this security descriptor is treated the same way as an empty SACL.
+					
+
+
+### -param OptionalSecurityDescriptorArray [in, optional]
+
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structures. <b>NULL </b><a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control lists</a> (ACLs) in these security descriptors are treated as empty ACLs. The ACL for the entire object is the logical concatenation of all of the ACLs.
+					
+
+
+### -param OptionalSecurityDescriptorCount [in, optional]
+
+The number of security descriptors not including the primary security descriptor.
+					
+
+
+### -param pReply [in, out]
+
+A pointer to an 
+<a href="https://msdn.microsoft.com/7162bf80-3730-46d7-a603-2a55b969c9ba">AUTHZ_ACCESS_REPLY</a> structure that contains the results of the access check. Before calling the <b>AuthzAccessCheck</b> function, an application must allocate memory for the <b>GrantedAccessMask</b> and <b>SaclEvaluationResults</b> members of the <b>AUTHZ_ACCESS_REPLY</b> structure referenced by <i>pReply</i>.
+
+
+### -param phAccessCheckResults [out, optional]
+
+A pointer to return a handle to the cached results of the access check. When this parameter value is not <b>null</b>, the results of this access check call will be cached. This results in a MAXIMUM_ALLOWED check. 
+
+Starting with Windows 8 and Windows Server 2012,  when you use this function with a remote context handle, the value of the parameter must be <b>NULL</b>.
 
 
 ## -returns
@@ -205,7 +195,7 @@ For more information, see the <a href="https://msdn.microsoft.com/dc98b23e-ce42-
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
 
 
 

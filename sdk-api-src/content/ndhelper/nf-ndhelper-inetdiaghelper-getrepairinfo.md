@@ -7,7 +7,7 @@ old-location: ndf\inetdiaghelpe_getrepairinfo.htm
 old-project: ndf
 ms.assetid: a14b1f61-1ac7-4ee7-ad82-e0821f43a17d
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: GetRepairInfo, GetRepairInfo method [NDF], GetRepairInfo method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetRepairInfo method, INetDiagHelper.GetRepairInfo, INetDiagHelper::GetRepairInfo, ndf.inetdiaghelpe_getrepairinfo, ndhelper/INetDiagHelper::GetRepairInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mmc\application_show.htm
 old-project: MMC
 ms.assetid: 17875b21-e102-4755-a1d3-cde141ffe57d
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: Application object [MMC],Show method, Show, Show method [MMC], Show method [MMC],Application object, Show method [MMC],_Application interface, _Application interface [MMC],Show method, _Application.Show, _Application::Show, _slate_application.show_method, mmc.application_show
 ms.prod: windows
 ms.technology: windows-sdk

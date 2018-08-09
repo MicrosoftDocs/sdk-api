@@ -7,7 +7,7 @@ old-location: base\devicepowerclose.htm
 old-project: power
 ms.assetid: 60f871bc-08b7-41d1-ba37-688ab68fb9b3
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: DevicePowerClose, DevicePowerClose function, base.devicepowerclose, powrprof/DevicePowerClose
 ms.prod: windows
 ms.technology: windows-sdk

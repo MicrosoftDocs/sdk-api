@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccountfolders_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountfolders\faxint_ifaxaccountfolders.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxAccountFolders, IFaxAccountFolders interface [Fax Service], IFaxAccountFolders interface [Fax Service],described, _mfax_faxaccountfolders_cpp, fax._mfax_faxaccountfolders_cpp, faxcomex/IFaxAccountFolders
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ Provides access to the incoming and outgoing fax queues and fax archives.
 
 
 
-A default implementation is provided by <a href="https://msdn.microsoft.com/library/Aa358961(v=VS.85).aspx">FaxAccountFolders</a>.
+A default implementation is provided by <a href="https://msdn.microsoft.com/en-us/library/Aa358961(v=VS.85).aspx">FaxAccountFolders</a>.
 
 
 

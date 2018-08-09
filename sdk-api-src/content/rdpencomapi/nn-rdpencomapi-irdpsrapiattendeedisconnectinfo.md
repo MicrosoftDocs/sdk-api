@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiattendeedisconnectinfo.htm
 old-project: rdp
 ms.assetid: 849c4fbe-b9c4-4601-b93f-13efd1014a50
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IRDPSRAPIAttendeeDisconnectInfo, IRDPSRAPIAttendeeDisconnectInfo interface [RDP], IRDPSRAPIAttendeeDisconnectInfo interface [RDP],described, rdp.irdpsrapiattendeedisconnectinfo, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Applications obtain access to this object through <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

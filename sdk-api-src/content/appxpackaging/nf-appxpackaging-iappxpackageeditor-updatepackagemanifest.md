@@ -7,7 +7,7 @@ old-location: appxpkg\iappxpackageeditor_updatepackagemanifest.htm
 old-project: appxpkg
 ms.assetid: A30B3A7E-28FA-4780-9ED3-4F19887189E8
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: IAppxPackageEditor interface [App packaging and management],UpdatePackageManifest method, IAppxPackageEditor.UpdatePackageManifest, IAppxPackageEditor::UpdatePackageManifest, UpdatePackageManifest, UpdatePackageManifest method [App packaging and management], UpdatePackageManifest method [App packaging and management],IAppxPackageEditor interface, appxpackaging/IAppxPackageEditor::UpdatePackageManifest, appxpkg.iappxpackageeditor_updatepackagemanifest
 ms.prod: windows
 ms.technology: windows-sdk

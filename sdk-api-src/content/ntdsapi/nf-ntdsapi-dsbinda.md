@@ -7,7 +7,7 @@ old-location: ad\dsbind.htm
 old-project: ad
 ms.assetid: c73cd16d-ccfd-4f61-b1c5-50130bef64d7
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DsBind, DsBind function [Active Directory], DsBindA, DsBindW, _glines_dsbind, ad.dsbind, ntdsapi/DsBind, ntdsapi/DsBindA, ntdsapi/DsBindW
 ms.prod: windows
 ms.technology: windows-sdk

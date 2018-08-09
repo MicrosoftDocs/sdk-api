@@ -7,7 +7,7 @@ old-location: qos\qosnotifyflow.htm
 old-project: qos
 ms.assetid: e6d541fe-2aeb-4969-b138-869754dbdaa3
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: QOSNotifyFlow, QOSNotifyFlow function [QOS], qos.qosnotifyflow, qos2/QOSNotifyFlow
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\symenumprocessesproc.htm
 old-project: debug
 ms.assetid: 4748b2a3-0b7b-4d9c-96ed-c4b3ba927107
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: PSYM_ENUMPROCESSES_CALLBACK, SymEnumProcessesProc, SymEnumProcessesProc callback, SymEnumProcessesProc callback function, base.symenumprocessesproc, dbghelp/SymEnumProcessesProc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ The user-defined value passed from the
 
 
 
-
-						If the function returns <b>TRUE</b>, the enumeration will continue.
+If the function returns <b>TRUE</b>, the enumeration will continue.
 						
 
 If the function returns <b>FALSE</b>, the enumeration will stop.

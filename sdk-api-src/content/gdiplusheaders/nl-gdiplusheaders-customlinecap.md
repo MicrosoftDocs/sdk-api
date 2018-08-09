@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecap.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: CustomLineCap, CustomLineCap class [GDI+], CustomLineCap class [GDI+],described, _gdiplus_CLASS_CustomLineCap_Class, gdiplus._gdiplus_CLASS_CustomLineCap_Class, gdiplusheaders/CustomLineCap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/library/ms536216(v=VS.85).aspx">CustomLineCap</a> class encapsulates a custom line cap. A line cap defines the style of graphic used to draw the ends of a line. It can be various shapes, such as a square, circle, or diamond. A custom line cap is defined by the path that draws it. The path is drawn by using a 
-			<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a>
- object to draw the outline of a shape or by using a 
-			<a href="https://msdn.microsoft.com/library/ms534424(v=VS.85).aspx">Brush</a>
- object to fill the interior. The cap can be used on either or both ends of the line. Spacing can be adjusted between the end caps and the line.
+The <a href="https://msdn.microsoft.com/en-us/library/ms536216(v=VS.85).aspx">CustomLineCap</a> class encapsulates a custom line cap. A line cap defines the style of graphic used to draw the ends of a line. It can be various shapes, such as a square, circle, or diamond. A custom line cap is defined by the path that draws it. The path is drawn by using a 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>object to draw the outline of a shape or by using a 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534424(v=VS.85).aspx">Brush</a>object to fill the interior. The cap can be used on either or both ends of the line. Spacing can be adjusted between the end caps and the line.
 

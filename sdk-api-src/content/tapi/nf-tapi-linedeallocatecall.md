@@ -4,10 +4,10 @@ title: lineDeallocateCall function
 author: windows-sdk-content
 description: Deallocates the specified call handle.
 old-location: tapi2\linedeallocatecall.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: a695ee19-e371-4126-b438-62bf52179cba
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: "_tapi2_linedeallocatecall, lineDeallocateCall, lineDeallocateCall function [TAPI 2.2], tapi/lineDeallocateCall, tapi2.linedeallocatecall"
 ms.prod: windows
 ms.technology: windows-sdk

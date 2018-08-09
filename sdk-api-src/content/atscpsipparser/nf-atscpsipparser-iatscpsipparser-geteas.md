@@ -7,7 +7,7 @@ old-location: mstv\iatscpsipparser_geteas.htm
 old-project: mstv
 ms.assetid: e53b93e3-7269-45aa-8b19-75f78fb44c41
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetEAS, GetEAS method [Microsoft TV Technologies], GetEAS method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetEAS method, IAtscPsipParser.GetEAS, IAtscPsipParser::GetEAS, IAtscPsipParserGetEAS, atscpsipparser/IAtscPsipParser::GetEAS, mstv.iatscpsipparser_geteas
 ms.prod: windows
 ms.technology: windows-sdk

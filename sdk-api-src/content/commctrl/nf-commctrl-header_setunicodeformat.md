@@ -7,7 +7,7 @@ old-location: controls\Header_SetUnicodeFormat.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setunicodeformat.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Header_SetUnicodeFormat, Header_SetUnicodeFormat macro [Windows Controls], _win32_Header_SetUnicodeFormat, _win32_Header_SetUnicodeFormat_cpp, commctrl/Header_SetUnicodeFormat, controls.Header_SetUnicodeFormat, controls._win32_Header_SetUnicodeFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the UNICODE character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775371(v=VS.85).aspx">HDM_SETUNICODEFORMAT</a> message explicitly. 
+Sets the UNICODE character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775371(v=VS.85).aspx">HDM_SETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Determines the character set that is used by the control. If this value is nonze
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775405(v=VS.85).aspx">Header_GetUnicodeFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775405(v=VS.85).aspx">Header_GetUnicodeFormat</a>
  
 
  

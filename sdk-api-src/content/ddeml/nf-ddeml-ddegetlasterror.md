@@ -7,7 +7,7 @@ old-location: dataxchg\ddegetlasterror.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddegetlasterror.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: DdeGetLastError, DdeGetLastError function [Data Exchange], _win32_DdeGetLastError, _win32_ddegetlasterror_cpp, dataxchg.ddegetlasterror, ddeml/DdeGetLastError, winui._win32_ddegetlasterror
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Retrieves the most recent error code set by the failure of a Dynamic Data Exchan
 
 Type: <b>DWORD</b>
 
-The application instance identifier obtained by a previous call to the <a href="https://msdn.microsoft.com/library/ms648757(v=VS.85).aspx">DdeInitialize</a> function. 
+The application instance identifier obtained by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a> function. 
 
 
 ## -returns
@@ -122,7 +122,7 @@ A request for a synchronous data transaction has timed out.
 </dl>
 </td>
 <td width="60%">
-A DDEML function was called without first calling the <a href="https://msdn.microsoft.com/library/ms648757(v=VS.85).aspx">DdeInitialize</a> function, or an invalid instance identifier was passed to a DDEML function.
+A DDEML function was called without first calling the <a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a> function, or an invalid instance identifier was passed to a DDEML function.
 
 </td>
 </tr>
@@ -240,7 +240,7 @@ A request for a synchronous poke transaction has timed out.
 </dl>
 </td>
 <td width="60%">
-An internal call to the <a href="https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx">PostMessage</a> function has failed.
+An internal call to the <a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a> function has failed.
 
 </td>
 </tr>
@@ -252,7 +252,7 @@ An internal call to the <a href="https://msdn.microsoft.com/library/ms644944(v=V
 </dl>
 </td>
 <td width="60%">
-An application instance with a synchronous transaction already in progress attempted to initiate another synchronous transaction, or the <a href="https://msdn.microsoft.com/library/ms648751(v=VS.85).aspx">DdeEnableCallback</a> function was called from within a DDEML callback function.
+An application instance with a synchronous transaction already in progress attempted to initiate another synchronous transaction, or the <a href="https://msdn.microsoft.com/en-us/library/ms648751(v=VS.85).aspx">DdeEnableCallback</a> function was called from within a DDEML callback function.
 
 </td>
 </tr>
@@ -300,7 +300,7 @@ A request to end an advise transaction has timed out.
 </dl>
 </td>
 <td width="60%">
-An invalid transaction identifier was passed to a DDEML function. Once the application has returned from an <a href="https://msdn.microsoft.com/library/ms648729(v=VS.85).aspx">XTYP_XACT_COMPLETE</a> callback, the transaction identifier for that callback function is no longer valid.
+An invalid transaction identifier was passed to a DDEML function. Once the application has returned from an <a href="https://msdn.microsoft.com/en-us/library/ms648729(v=VS.85).aspx">XTYP_XACT_COMPLETE</a> callback, the transaction identifier for that callback function is no longer valid.
 
 </td>
 </tr>
@@ -319,19 +319,19 @@ An invalid transaction identifier was passed to a DDEML function. Once the appli
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648751(v=VS.85).aspx">DdeEnableCallback</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648751(v=VS.85).aspx">DdeEnableCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648757(v=VS.85).aspx">DdeInitialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx">PostMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: dhcp\dhcphlprisv4policysingleuc.htm
 old-project: dhcp
 ms.assetid: 46c20727-0e7a-42cf-a571-c1198b124ed0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpHlprIsV4PolicySingleUC, DhcpHlprIsV4PolicySingleUC function [DHCP], dhcp.dhcphlprisv4policysingleuc, dhcpsapi/DhcpHlprIsV4PolicySingleUC
 ms.prod: windows
 ms.technology: windows-sdk

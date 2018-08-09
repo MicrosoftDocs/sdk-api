@@ -4,10 +4,10 @@ title: WTSEnumerateSessionsExW function
 author: windows-sdk-content
 description: Retrieves a list of sessions on a specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
 old-location: termserv\wtsenumeratesessionsex.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: b903cf07-d3bd-4b65-9e57-88d9e1f74e0b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WTSEnumerateSessionsEx, WTSEnumerateSessionsEx function [Remote Desktop Services], WTSEnumerateSessionsExA, WTSEnumerateSessionsExW, termserv.wtsenumeratesessionsex, wtsapi32/WTSEnumerateSessionsEx, wtsapi32/WTSEnumerateSessionsExA, wtsapi32/WTSEnumerateSessionsExW
 ms.prod: windows
 ms.technology: windows-sdk

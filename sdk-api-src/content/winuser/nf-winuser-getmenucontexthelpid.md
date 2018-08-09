@@ -7,7 +7,7 @@ old-location: shell\GetMenuContextHelpId.htm
 old-project: shell
 ms.assetid: 2b8d3e94-6860-4a75-8373-38afb641eb3b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetMenuContextHelpId, GetMenuContextHelpId function [Windows Shell], _win32_GetMenuContextHelpId, shell.GetMenuContextHelpId, winuser/GetMenuContextHelpId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,13 +60,6 @@ Retrieves the Help context identifier associated with the specified menu.
 
 
 ### -param Arg1
-
-TBD
-
-
-
-
-#### - hmenu
 
 Type: <b>HMENU</b>
 

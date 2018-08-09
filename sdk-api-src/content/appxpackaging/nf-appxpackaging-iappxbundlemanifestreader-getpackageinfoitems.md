@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlemanifestreader_getpackageinfoitems.htm
 old-project: appxpkg
 ms.assetid: D216C27E-5B73-49B5-90A8-11187C129264
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: GetPackageInfoItems, GetPackageInfoItems method [App packaging and management], GetPackageInfoItems method [App packaging and management],IAppxBundleManifestReader interface, IAppxBundleManifestReader interface [App packaging and management],GetPackageInfoItems method, IAppxBundleManifestReader.GetPackageInfoItems, IAppxBundleManifestReader::GetPackageInfoItems, appxpackaging/IAppxBundleManifestReader::GetPackageInfoItems, appxpkg.iappxbundlemanifestreader_getpackageinfoitems
 ms.prod: windows
 ms.technology: windows-sdk

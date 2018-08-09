@@ -7,7 +7,7 @@ old-location: automat\vari8fromr4.htm
 old-project: automat
 ms.assetid: 5cc6c28b-8fa5-4452-8932-fcbe28536618
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarI8FromR4, VarI8FromR4 function [Automation], _oa96_VarI8FromR4, automat.vari8fromr4, oleauto/VarI8FromR4
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IUpdateDownloader::get_Priority
 author: windows-sdk-content
 description: Gets and sets the priority level of the download.
 old-location: wua\iupdatedownloader_priority.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: d9dbaabe-7769-4a1b-8540-401b1caba372
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IUpdateDownloader interface [Windows Update Agent],Priority property, IUpdateDownloader.Priority, IUpdateDownloader.get_Priority, IUpdateDownloader::Priority, IUpdateDownloader::get_Priority, IUpdateDownloader::put_Priority, Priority property [Windows Update Agent], Priority property [Windows Update Agent],IUpdateDownloader interface, get_Priority, wua.iupdatedownloader_priority, wuapi/IUpdateDownloader::Priority, wuapi/IUpdateDownloader::get_Priority, wuapi/IUpdateDownloader::put_Priority
 ms.prod: windows
 ms.technology: windows-sdk

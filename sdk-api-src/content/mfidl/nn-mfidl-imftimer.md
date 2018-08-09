@@ -7,7 +7,7 @@ old-location: mf\imftimer.htm
 old-project: medfound
 ms.assetid: 152594df-de3d-4f6f-9277-dba95ab3533a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 152594df-de3d-4f6f-9277-dba95ab3533a, IMFTimer, IMFTimer interface [Media Foundation], IMFTimer interface [Media Foundation],described, mf.imftimer, mfidl/IMFTimer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ The <b>IMFTimer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/3fa65809-1652-4903-92ad-1034bcdf0743">CancelTimer</a>
 </td>
 <td align="left" width="63%">
-
-          Cancels a timer.
+Cancels a timer.
         
 
 </td>
@@ -86,8 +85,7 @@ The <b>IMFTimer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/3b583541-6480-490d-883f-376ea95f7a98">SetTimer</a>
 </td>
 <td align="left" width="63%">
-
-          Sets a timer that invokes a callback.
+Sets a timer that invokes a callback.
         
 
 </td>

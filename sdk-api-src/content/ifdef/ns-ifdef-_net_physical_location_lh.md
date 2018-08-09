@@ -7,7 +7,7 @@ old-location: netvista\net_physical_location.htm
 old-project: netvista
 ms.assetid: e5661e05-a83f-4632-af98-2a021eeb7d80
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 07/30/2018
 ms.keywords: "*PNET_PHYSICAL_LOCATION, *PNET_PHYSICAL_LOCATION_LH, NET_PHYSICAL_LOCATION, NET_PHYSICAL_LOCATION structure [Network Drivers Starting with Windows Vista], NET_PHYSICAL_LOCATION_LH, _NET_PHYSICAL_LOCATION_LH, ifdef/NET_PHYSICAL_LOCATION, net_if_struct_ref_838a8166-a43e-4b5a-ab96-15286d981684.xml, netvista.net_physical_location"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,8 +91,7 @@ A network interface provider initializes a
 NET_PHYSICAL_LOCATION contains information that remains constant during the lifetime of the interface.
     To register an interface, a provider passes a pointer to a provider-initialized NET_IF_INFORMATION
     structure to the 
-    <a href="https://msdn.microsoft.com/d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19">
-    NdisIfRegisterInterface</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562715">NdisIfRegisterInterface</a> function.
 
 
 

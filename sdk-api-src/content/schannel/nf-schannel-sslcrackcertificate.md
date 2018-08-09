@@ -7,7 +7,7 @@ old-location: security\sslcrackcertificate.htm
 old-project: secauthn
 ms.assetid: e5ffeebb-0b09-4f0a-b2dc-75fb2a3af7ed
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: SslCrackCertificate, SslCrackCertificate function [Security], schannel/SslCrackCertificate, security.sslcrackcertificate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,9 @@ This function has no associated import library. You must use the <a href="https:
 The certificate BLOB from which to create the new <a href="https://msdn.microsoft.com/5a337f78-e5de-4ea2-9c15-1056d9e9e38c">X509Certificate</a> structure.
 
 
-### -param cbCertificate
+### -param cbCertificate [in]
 
-TBD
+The length, in bytes, of the BLOB contained in the <i>pbCertificate</i> parameter.
 
 
 ### -param dwFlags [in]
@@ -83,11 +83,6 @@ Set this value to <b>CF_CERT_FROM_FILE</b> to specify that the certificate BLOB 
 On return, receives the address of a pointer to the <a href="https://msdn.microsoft.com/5a337f78-e5de-4ea2-9c15-1056d9e9e38c">X509Certificate</a> structure that this function creates.
 
 When you have finished using the <a href="https://msdn.microsoft.com/5a337f78-e5de-4ea2-9c15-1056d9e9e38c">X509Certificate</a> structure, free it by calling <a href="https://msdn.microsoft.com/bf643ece-fe79-4f6e-a216-108fce6757a4">SslFreeCertificate</a>.
-
-
-#### - dwCertificate [in]
-
-The length, in bytes, of the BLOB contained in the <i>pbCertificate</i> parameter.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: fwp\fwpm_filter_change0_struct.htm
 old-project: fwp
 ms.assetid: 01c58002-5506-4e2a-ae85-30b16aad2dd6
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FWPM_FILTER_CHANGE0, FWPM_FILTER_CHANGE0 structure [Filtering], FWPM_FILTER_CHANGE0_, fwp.fwpm_filter_change0_struct, fwpmtypes/FWPM_FILTER_CHANGE0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-
-		The <b>FWPM_FILTER_CHANGE0</b> structure stores change notification dispatched to subscribers.
+The <b>FWPM_FILTER_CHANGE0</b> structure stores change notification dispatched to subscribers.
 
 
 ## -struct-fields

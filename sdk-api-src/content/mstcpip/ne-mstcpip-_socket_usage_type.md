@@ -7,7 +7,7 @@ old-location: winsock\socket_usage_type.htm
 old-project: winsock
 ms.assetid: 27142160-7381-47d0-8664-4064be801a06
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: SOCKET_USAGE_TYPE, SOCKET_USAGE_TYPE enumeration [Winsock], SYSTEM_CRITICAL_SOCKET, _SOCKET_USAGE_TYPE, mstcpip/SOCKET_USAGE_TYPE, mstcpip/SYSTEM_CRITICAL_SOCKET, winsock.socket_usage_type
 ms.prod: windows
 ms.technology: windows-sdk

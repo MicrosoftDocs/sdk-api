@@ -7,7 +7,7 @@ old-location: iphlp\if_indextoname.htm
 old-project: iphlp
 ms.assetid: 0da31819-3ee7-4474-9e68-f5a18d4a135a
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: if_indextoname, if_indextoname function [IP Helper], iphlp.if_indextoname, netioapi/if_indextoname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,9 +85,7 @@ On success,
 
 
 
-The <b>if_indextoname</b> function is available on Windows Vista
-  
-   and later.
+The <b>if_indextoname</b> function is available on Windows Vistaand later.
 
 The <b>if_indextoname</b> function maps an interface index into its corresponding
    name. This function is designed as part of basic socket extensions for IPv6 as described by the IETF in RFC 2553. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=86448">http://www.ietf.org/rfc/rfc2553.txt</a>. 

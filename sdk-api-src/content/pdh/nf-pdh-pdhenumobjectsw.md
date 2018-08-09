@@ -4,10 +4,10 @@ title: PdhEnumObjectsW function
 author: windows-sdk-content
 description: Returns a list of objects available on the specified computer or in the specified log file. To use handles to data sources, use the PdhEnumObjectsH function.
 old-location: perf\pdhenumobjects.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: dfa4b10f-5134-4620-a6b0-0fa2c13a33ec
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: FALSE, PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PdhEnumObjects, PdhEnumObjects function [Perf], PdhEnumObjectsA, PdhEnumObjectsW, TRUE, _win32_pdhenumobjects, base.pdhenumobjects, pdh/PdhEnumObjects, pdh/PdhEnumObjectsA, pdh/PdhEnumObjectsW, perf.pdhenumobjects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,9 +90,11 @@ If the <i>szDataSource</i> parameter is <b>NULL</b>, you can set <i>szMachineNam
 Caller-allocated buffer that receives the list of object names. Each object name in this list is terminated by a <b>null</b> character. The list is terminated with two <b>null</b>-terminator characters. Set to <b>NULL</b> if the <i>pcchBufferLength</i> parameter is zero.
 
 
-### -param pcchBufferSize
+### -param pcchBufferSize [in, out]
 
-TBD
+Size of the <i>mszObjectList</i> buffer, in <b>TCHARs</b>. If zero on input, the function returns PDH_MORE_DATA and sets this parameter to the required buffer size. If the buffer is larger than the required size, the function sets this parameter to the actual size of the buffer that was used. If the specified size on input is greater than zero but less than the required size, you should not rely on the returned size to reallocate the buffer.
+
+<b>Windows XP:  </b>Add one to the required buffer size.
 
 
 ### -param dwDetailLevel [in]
@@ -185,19 +187,11 @@ Do not automatically refresh the cache.
  
 
 
-#### - pcchBufferLength [in, out]
-
-Size of the <i>mszObjectList</i> buffer, in <b>TCHARs</b>. If zero on input, the function returns PDH_MORE_DATA and sets this parameter to the required buffer size. If the buffer is larger than the required size, the function sets this parameter to the actual size of the buffer that was used. If the specified size on input is greater than zero but less than the required size, you should not rely on the returned size to reallocate the buffer.
-
-<b>Windows XP:  </b>Add one to the required buffer size.
-
-
 ## -returns
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

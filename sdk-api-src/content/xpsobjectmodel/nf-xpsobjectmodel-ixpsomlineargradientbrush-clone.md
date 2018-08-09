@@ -7,7 +7,7 @@ old-location: xps\ixpsomlineargradientbrush_clone.htm
 old-project: printdocs
 ms.assetid: b0c44a37-e7fb-4079-a299-cb09635f61ca
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],Clone method, IXpsOMLinearGradientBrush.Clone, IXpsOMLinearGradientBrush::Clone, xps.ixpsomlineargradientbrush_clone, xpsobjectmodel/IXpsOMLinearGradientBrush::Clone
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\regopenkeytransacted.htm
 old-project: SysInfo
 ms.assetid: 11663ed2-d17c-4f08-be7b-9b591271fbcd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: RegOpenKeyTransacted, RegOpenKeyTransacted function, RegOpenKeyTransactedA, RegOpenKeyTransactedW, base.regopenkeytransacted, winreg/RegOpenKeyTransacted, winreg/RegOpenKeyTransactedA, winreg/RegOpenKeyTransactedW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,13 +111,6 @@ A handle to an active transaction. This handle is returned by the <a href="https
 
 
 ### -param pExtendedParemeter
-
-TBD
-
-
-
-
-#### - pExtendedParameter
 
 This parameter is reserved and must be <b>NULL</b>.
 

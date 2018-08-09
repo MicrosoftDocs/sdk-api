@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp2_queryinsert.htm
 old-project: TSF
 ms.assetid: 3a1cf233-5185-414a-99c6-2cfdbe07b8c9
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],QueryInsert method, ITextStoreACP2.QueryInsert, ITextStoreACP2::QueryInsert, QueryInsert, QueryInsert method [Text Services Framework], QueryInsert method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::QueryInsert, tsf.itextstoreacp2_queryinsert
 ms.prod: windows
 ms.technology: windows-sdk

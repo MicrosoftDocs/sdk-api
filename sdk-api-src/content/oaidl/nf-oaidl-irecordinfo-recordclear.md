@@ -7,7 +7,7 @@ old-location: automat\irecordinfo_recordclear.htm
 old-project: automat
 ms.assetid: 979b0702-3342-4036-8113-c84728436ab6
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: IRecordInfo interface [Automation],RecordClear method, IRecordInfo.RecordClear, IRecordInfo::RecordClear, RecordClear, RecordClear method [Automation], RecordClear method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordClear, automat.irecordinfo_recordclear, oaidl/IRecordInfo::RecordClear
 ms.prod: windows
 ms.technology: windows-sdk

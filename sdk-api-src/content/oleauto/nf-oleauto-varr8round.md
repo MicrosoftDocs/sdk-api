@@ -7,7 +7,7 @@ old-location: automat\varr8round.htm
 old-project: automat
 ms.assetid: bdf52cd6-a32d-4814-ac2f-51256dcc47cb
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarR8Round, VarR8Round function [Automation], _oa96_VarR8Round, automat.varr8round, oleauto/VarR8Round
 ms.prod: windows
 ms.technology: windows-sdk

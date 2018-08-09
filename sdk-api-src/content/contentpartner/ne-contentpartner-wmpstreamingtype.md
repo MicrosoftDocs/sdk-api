@@ -7,7 +7,7 @@ old-location: wmp\wmpstreamingtype.htm
 old-project: WMP
 ms.assetid: 3ac7e8cb-39c7-4437-a2da-6de5cb1efed9
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/30/2018
 ms.keywords: WMPStreamingType, WMPStreamingType enumeration [Windows Media Player], contentpartner/WMPStreamingType, contentpartner/wmpstMusic, contentpartner/wmpstRadio, contentpartner/wmpstUnknown, contentpartner/wmpstVideo, enumeration [Windows Media Player], wmp.wmpstreamingtype, wmpstMusic, wmpstRadio, wmpstUnknown, wmpstVideo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\treeresetnamedsecurityinfo.htm
 old-project: secauthz
 ms.assetid: adae7d07-a452-409e-b1a1-e9f86f873e39
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: TreeResetNamedSecurityInfo, TreeResetNamedSecurityInfo function [Security], TreeResetNamedSecurityInfoA, TreeResetNamedSecurityInfoW, aclapi/TreeResetNamedSecurityInfo, aclapi/TreeResetNamedSecurityInfoA, aclapi/TreeResetNamedSecurityInfoW, security.treeresetnamedsecurityinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -148,8 +148,7 @@ A pointer to a <b>VOID</b> for progress function arguments specified by the call
 
 
 
-
-						If the function succeeds, the function returns ERROR_SUCCESS.
+If the function succeeds, the function returns ERROR_SUCCESS.
 
 If the function fails, it returns an error code defined in WinError.h.
 

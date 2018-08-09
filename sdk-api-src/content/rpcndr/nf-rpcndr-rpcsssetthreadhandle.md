@@ -7,7 +7,7 @@ old-location: rpc\rpcsssetthreadhandle.htm
 old-project: rpc
 ms.assetid: 8984e253-ea78-4ca2-bf24-83100a0ac79d
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcSsSetThreadHandle, RpcSsSetThreadHandle function [RPC], _rpc_rpcsssetthreadhandle, rpc.rpcsssetthreadhandle, rpcndr/RpcSsSetThreadHandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,13 +61,6 @@ The
 
 
 ### -param Id
-
-TBD
-
-
-
-
-#### - Handle
 
 Thread handle returned by a call to 
 <a href="https://msdn.microsoft.com/f3b10f9c-7383-4665-96e3-1518f554f23e">RpcSsGetThreadHandle</a>.

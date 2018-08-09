@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpservices_forceloadproperty.htm
 old-project: TSF
 ms.assetid: 6792ccc0-7bbd-479c-9f24-a283ce03c7fe
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ForceLoadProperty, ForceLoadProperty method [Text Services Framework], ForceLoadProperty method [Text Services Framework],ITextStoreACPServices interface, ITextStoreACPServices interface [Text Services Framework],ForceLoadProperty method, ITextStoreACPServices.ForceLoadProperty, ITextStoreACPServices::ForceLoadProperty, _tsf_itextstoreacpservices_forceloadproperty_ref, msctf/ITextStoreACPServices::ForceLoadProperty, tsf.itextstoreacpservices_forceloadproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -136,14 +136,12 @@ When calling this method, the application must be able to grant a synchronous re
 
 
 
-<a href="https://msdn.microsoft.com/7d7af737-6241-43a9-946e-6a03a423b20f">
-        ITfPersistentPropertyLoaderACP
+<a href="https://msdn.microsoft.com/7d7af737-6241-43a9-946e-6a03a423b20f">ITfPersistentPropertyLoaderACP
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/72bd92f9-d82e-4994-82ad-0989e987903b">
-        ITfProperty
+<a href="https://msdn.microsoft.com/72bd92f9-d82e-4994-82ad-0989e987903b">ITfProperty
       </a>
  
 

@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturepartreferenceenumerator_getcurrent.htm
 old-project: OPC
 ms.assetid: ce5e90dd-9bf3-4632-a957-f468bf91415d
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcSignaturePartReferenceEnumerator interface, IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcSignaturePartReferenceEnumerator.GetCurrent, IOpcSignaturePartReferenceEnumerator::GetCurrent, msopc/IOpcSignaturePartReferenceEnumerator::GetCurrent, opc.iopcsignaturepartreferenceenumerator_getcurrent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,9 +131,7 @@ The enumerator cannot perform this operation from its current position.
 
 
 
-
-  		When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the  <a href="https://msdn.microsoft.com/2bf3c448-b09a-4102-bc3a-c65515d2a0a8">MoveNext</a>
-          method after creating the enumerator.
+When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the  <a href="https://msdn.microsoft.com/2bf3c448-b09a-4102-bc3a-c65515d2a0a8">MoveNext</a>method after creating the enumerator.
 
 
 #### Thread Safety

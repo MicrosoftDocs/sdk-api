@@ -7,7 +7,7 @@ old-location: mf\dxva2_videoprocessbltparams.htm
 old-project: medfound
 ms.assetid: 6929fa8b-3cab-4d4e-ab2a-a3059b00905f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 6929fa8b-3cab-4d4e-ab2a-a3059b00905f, DXVA2_DestData_RFF, DXVA2_DestData_RFF_TFF_Present, DXVA2_DestData_TFF, DXVA2_VideoProcessBltParams, DXVA2_VideoProcessBltParams structure [Media Foundation], _DXVA2_VideoProcessBltParams, dxva2api/DXVA2_VideoProcessBltParams, mf.dxva2_videoprocessbltparams
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,8 +69,7 @@ Presentation time for the target frame, in 100-nanosecond units. If the video is
 
 ### -field TargetRect
 
-
-            Specifies the target rectangle, which is the rectangle within the destination surface where the output video frame is drawn.
+Specifies the target rectangle, which is the rectangle within the destination surface where the output video frame is drawn.
           
 
 The target rectangle cannot be larger than the destination surface.
@@ -78,8 +77,7 @@ The target rectangle cannot be larger than the destination surface.
 
 ### -field ConstrictionSize
 
-
-            Size to which the output video should be downsampled. 
+Size to which the output video should be downsampled. 
           If this feature is supported, the driver sets the <b>DXVA2_VideoProcess_Constriction</b> flag in the <a href="https://msdn.microsoft.com/cff01719-e653-4ea1-a177-9a6948b0da56">DXVA2_VideoProcessorCaps</a> structure.
 
 The downsampling size cannot be less than zero, or larger than the size of the target rectangle (<b>TargetRect</b>).  
@@ -87,8 +85,7 @@ The downsampling size cannot be less than zero, or larger than the size of the t
 
 ### -field StreamingFlags
 
-
-            Reserved. Set to zero.
+Reserved. Set to zero.
           
 
 
@@ -113,8 +110,7 @@ A <a href="https://msdn.microsoft.com/c84acd34-e922-46bb-9913-0f94c7c47155">DXVA
 
 ### -field Alpha
 
-
-            Alpha value that is applied to the composited image when it is copied to the destination surface. The alpha value is fixed-point value, specified as a <a href="https://msdn.microsoft.com/5f8f4515-1cf4-4060-813b-c746649c5c40">DXVA2_Fixed32</a> structure. To specify 100% opacity, use the <a href="https://msdn.microsoft.com/de2f8aa8-0e06-4f47-9d69-dfff07bc4c0f">DXVA2_Fixed32OpaqueAlpha</a> function.
+Alpha value that is applied to the composited image when it is copied to the destination surface. The alpha value is fixed-point value, specified as a <a href="https://msdn.microsoft.com/5f8f4515-1cf4-4060-813b-c746649c5c40">DXVA2_Fixed32</a> structure. To specify 100% opacity, use the <a href="https://msdn.microsoft.com/de2f8aa8-0e06-4f47-9d69-dfff07bc4c0f">DXVA2_Fixed32OpaqueAlpha</a> function.
           
 
 
@@ -153,8 +149,7 @@ Contains additional flags. The following flags are defined.
 </dl>
 </td>
 <td width="60%">
-
-                Repeat first field (RFF) bit.
+Repeat first field (RFF) bit.
               
 
 </td>
@@ -165,8 +160,7 @@ Contains additional flags. The following flags are defined.
 </dl>
 </td>
 <td width="60%">
-
-                Top field first (TFF) bit.
+Top field first (TFF) bit.
               
 
 </td>
@@ -177,8 +171,7 @@ Contains additional flags. The following flags are defined.
 </dl>
 </td>
 <td width="60%">
-
-                If set, the RFF and TFF flags are used.
+If set, the RFF and TFF flags are used.
               
 
 </td>

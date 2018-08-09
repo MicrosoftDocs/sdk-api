@@ -4,10 +4,10 @@ title: Matrix4x4F
 author: windows-sdk-content
 description: The Matrix4x4F class represents a 4-by-4 matrix and provides convenience methods for creating matrices.
 old-location: direct2d\matrix4x4f.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 113861DF-2E6D-4930-82DC-AA592882E21C
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: Matrix4x4F, Matrix4x4F class [Direct2D], Matrix4x4F class [Direct2D],described, d2d1_1helper/Matrix4x4F, direct2d.matrix4x4f
 ms.prod: windows
 ms.technology: windows-sdk

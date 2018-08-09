@@ -7,7 +7,7 @@ old-location: mf\mfnet_proxysettings.htm
 old-project: medfound
 ms.assetid: b9ec76bc-d8d1-4ba1-b6c4-02bcac9b53a0
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFNET_PROXYSETTINGS, MFNET_PROXYSETTINGS enumeration [Media Foundation], MFNET_PROXYSETTING_AUTO, MFNET_PROXYSETTING_BROWSER, MFNET_PROXYSETTING_MANUAL, MFNET_PROXYSETTING_NONE, _MFNET_PROXYSETTINGS, b9ec76bc-d8d1-4ba1-b6c4-02bcac9b53a0, mf.mfnet_proxysettings, mfidl/MFNET_PROXYSETTINGS, mfidl/MFNET_PROXYSETTING_AUTO, mfidl/MFNET_PROXYSETTING_BROWSER, mfidl/MFNET_PROXYSETTING_MANUAL, mfidl/MFNET_PROXYSETTING_NONE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Specifies how the default proxy locator will specify the connection settings to 
 
 ### -field MFNET_PROXYSETTING_NONE
 
-
-            The proxy locator bypasses all addresses.
+The proxy locator bypasses all addresses.
           
 
 
@@ -87,15 +86,13 @@ The proxy locator uses manual settings. The application must set the following p
 
 ### -field MFNET_PROXYSETTING_AUTO
 
-
-            The proxy locator automatically discovers proxy servers by using the WinInet auto-proxy detection mechanism.
+The proxy locator automatically discovers proxy servers by using the WinInet auto-proxy detection mechanism.
           
 
 
 ### -field MFNET_PROXYSETTING_BROWSER
 
-
-            The proxy locator uses the proxy settings of the browser. By default, the proxy locator sets this value for HTTP.
+The proxy locator uses the proxy settings of the browser. By default, the proxy locator sets this value for HTTP.
           
 
 

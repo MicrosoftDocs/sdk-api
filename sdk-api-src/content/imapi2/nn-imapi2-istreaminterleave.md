@@ -7,7 +7,7 @@ old-location: imapi\istreaminterleave.htm
 old-project: imapi
 ms.assetid: 2d0f03e5-a47d-4b46-a177-f462bbafe153
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IStreamInterleave, IStreamInterleave interface [IMAPI], IStreamInterleave interface [IMAPI],described, imapi.istreaminterleave, imapi2/IStreamInterleave
 ms.prod: windows
 ms.technology: windows-sdk

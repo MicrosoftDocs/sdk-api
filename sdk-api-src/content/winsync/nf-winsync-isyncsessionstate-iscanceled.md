@@ -7,7 +7,7 @@ old-location: winsync\isyncsessionstate_iscanceled.htm
 old-project: winsync
 ms.assetid: 25ce0e21-99ce-4790-8f53-39466da9226f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: ISyncSessionState interface [Windows Sync],IsCanceled method, ISyncSessionState.IsCanceled, ISyncSessionState::IsCanceled, IsCanceled, IsCanceled method [Windows Sync], IsCanceled method [Windows Sync],ISyncSessionState interface, winsync.isyncsessionstate_iscanceled, winsync/ISyncSessionState::IsCanceled
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PerfQueryCounterInfo function
 author: windows-sdk-content
 description: Gets the counter specifications in the specified query.
 old-location: perf\perfquerycounterinfo.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 42CAB98C-4525-499D-BA11-731A666E112D
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PerfQueryCounterInfo, PerfQueryCounterInfo function [Perf], perf.perfquerycounterinfo, perflib/PerfQueryCounterInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -148,9 +148,7 @@ The function successfully stored all of the information about the counter specif
 </table>
  
 
-
-						
-						For other types of failures, the return value is a 
+For other types of failures, the return value is a 
 <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. 
 					
 

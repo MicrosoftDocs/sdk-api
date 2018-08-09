@@ -7,7 +7,7 @@ old-location: properties\VariantToBooleanArray.htm
 old-project: properties
 ms.assetid: 80a1e7d4-ec11-4b16-ba05-b97f3bbf02d0
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: VariantToBooleanArray, VariantToBooleanArray function [Windows Properties], _shell_VariantToBooleanArray, properties.VariantToBooleanArray, propvarutil/VariantToBooleanArray, shell.VariantToBooleanArray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -139,7 +139,7 @@ If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776593(v=VS.85).aspx">VariantToBooleanArray</a> to access an array of <b>BOOL</b> values stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToBooleanArray">VariantToBooleanArray</a> to access an array of <b>BOOL</b> values stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -177,23 +177,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762317(v=VS.85).aspx">InitVariantFromBooleanArray</a>
+<a href="shell.InitVariantFromBooleanArray">InitVariantFromBooleanArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776532(v=VS.85).aspx">PropVariantToBooleanVector</a>
+<a href="shell.PropVariantToBooleanVector">PropVariantToBooleanVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776581(v=VS.85).aspx">VariantGetBooleanElem</a>
+<a href="shell.VariantGetBooleanElem">VariantGetBooleanElem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776592(v=VS.85).aspx">VariantToBoolean</a>
+<a href="shell.VariantToBoolean">VariantToBoolean</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776594(v=VS.85).aspx">VariantToBooleanArrayAlloc</a>
+<a href="shell.VariantToBooleanArrayAlloc">VariantToBooleanArrayAlloc</a>
  
 
  

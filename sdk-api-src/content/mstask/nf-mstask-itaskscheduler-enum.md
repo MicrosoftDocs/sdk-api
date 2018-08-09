@@ -7,7 +7,7 @@ old-location: taskschd\itaskscheduler_enum.htm
 old-project: taskschd
 ms.assetid: aca750e3-89b0-47f2-a9b9-49fe5db7f234
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 08/06/2018
 ms.keywords: Enum, Enum method [Task Scheduler], Enum method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],Enum method, ITaskScheduler.Enum, ITaskScheduler::Enum, _msb_itaskscheduler_enum, mstask/ITaskScheduler::Enum, taskschd.itaskscheduler_enum
 ms.prod: windows
 ms.technology: windows-sdk

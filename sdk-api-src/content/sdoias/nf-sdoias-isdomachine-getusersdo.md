@@ -7,7 +7,7 @@ old-location: nps\SDO_isdomachine_getusersdo.htm
 old-project: nps
 ms.assetid: c416c0db-836a-4056-bcd7-819f10923446
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: GetUserSDO, GetUserSDO method [Network Policy Server], GetUserSDO method [Network Policy Server],ISdoMachine interface, GetUserSDO method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetUserSDO method, ISdoMachine.GetUserSDO, ISdoMachine::GetUserSDO, SdoMachine object [Network Policy Server],GetUserSDO method, _sdo_isdomachine_getusersdo, nps.SDO_isdomachine_getusersdo, sdo.isdomachine_getusersdo, sdoias/ISdoMachine::GetUserSDO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,17 +69,17 @@ Specifies a value from the <a href="https://msdn.microsoft.com/1eec69f9-b82e-48e
 
 ### -param bstrUserName [in]
 
-Specifies a <a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a> that contains 
+Specifies a <a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a> that contains 
       the name of the user. The name can be in Lightweight Directory Access Protocol (LDAP) format, or in Security 
       Accounts Manager (SAM) format.
 
 
 ### -param ppUserSDO [out]
 
-Pointer to a pointer that points to an <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface 
-      pointer. Use the <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> method of this 
+Pointer to a pointer that points to an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface 
+      pointer. Use the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method of this 
       <b>IUnknown</b> interface to obtain an 
-      <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface to an 
+      <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface to an 
       <a href="https://msdn.microsoft.com/f8f49bf2-d8cc-40ad-ac52-05d74bcd931c">ISdo</a> object for the specified user.
 
 

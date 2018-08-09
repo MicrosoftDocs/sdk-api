@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice3_getproperty.htm
 old-project: WMDM
 ms.assetid: f1c8406f-f0cb-4def-bc26-399908ecbf83
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: GetProperty, GetProperty method [windows Media Device Manager], GetProperty method [windows Media Device Manager],IWMDMDevice3 interface, IWMDMDevice3 interface [windows Media Device Manager],GetProperty method, IWMDMDevice3.GetProperty, IWMDMDevice3::GetProperty, IWMDMDevice3GetProperty, mswmdm/IWMDMDevice3::GetProperty, wmdm.iwmdmdevice3_getproperty
 ms.prod: windows
 ms.technology: windows-sdk

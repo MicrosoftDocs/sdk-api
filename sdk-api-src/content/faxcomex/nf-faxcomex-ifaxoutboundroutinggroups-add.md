@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutinggroups_add.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_35r8.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],FaxOutboundRoutingGroups object, FaxOutboundRoutingGroups object [Fax Service],Add method, FaxOutboundRoutingGroups.Add, IFaxOutboundRoutingGroups.Add, IFaxOutboundRoutingGroups::Add, _mfax_faxoutboundroutinggroups.add, fax._mfax_faxoutboundroutinggroups_add
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Add</b> method adds an outbound routing group to the <a href="https://msdn.microsoft.com/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a> collection.
+The <b>Add</b> method adds an outbound routing group to the <a href="https://msdn.microsoft.com/en-us/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a> collection.
 
 
 ## -parameters
@@ -76,16 +76,16 @@ Null-terminated string that indicates the name of the group to add. Note that yo
 
 #### - FaxOutboundRoutingGroup
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms689098(v=VS.85).aspx">FaxOutboundRoutingGroup</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms689098(v=VS.85).aspx">FaxOutboundRoutingGroup</a>**</b>
 
-A <a href="https://msdn.microsoft.com/library/ms689098(v=VS.85).aspx">FaxOutboundRoutingGroup</a> object.
+A <a href="https://msdn.microsoft.com/en-us/library/ms689098(v=VS.85).aspx">FaxOutboundRoutingGroup</a> object.
 
 
 ## -remarks
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farMANAGE_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farMANAGE_CONFIG</a> access right.
 
 
 
@@ -95,15 +95,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689212(v=VS.85).aspx">IFaxOutboundRoutingGroups</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689212(v=VS.85).aspx">IFaxOutboundRoutingGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

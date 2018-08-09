@@ -7,7 +7,7 @@ old-location: shell\SHPathPrepareForWrite.htm
 old-project: shell
 ms.assetid: 1b65e34f-2c31-421b-9d27-ed263dfb372b
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHPPFW_ASKDIRCREATE, SHPPFW_DEFAULT, SHPPFW_DIRCREATE, SHPPFW_IGNOREFILENAME, SHPPFW_MEDIACHECKONLY, SHPPFW_NONE, SHPPFW_NOWRITECHECK, SHPathPrepareForWrite, SHPathPrepareForWrite function [Windows Shell], SHPathPrepareForWriteA, SHPathPrepareForWriteW, _shell_shpathprepareforwrite, shell.SHPathPrepareForWrite, shlobj_core/SHPathPrepareForWrite, shlobj_core/SHPathPrepareForWriteA, shlobj_core/SHPathPrepareForWriteW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,9 +70,9 @@ A handle to a window that specifies the parent window to be used for any user in
 
 ### -param punkEnableModless [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface that specifies the <a href="https://msdn.microsoft.com/library/ms691299(v=VS.85).aspx">IOleInPlaceActiveObject</a> object that implements the <a href="https://msdn.microsoft.com/library/Bb774829(v=VS.85).aspx">EnableModeless</a> method.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface that specifies the <a href="https://msdn.microsoft.com/en-us/library/ms691299(v=VS.85).aspx">IOleInPlaceActiveObject</a> object that implements the <a href="_ole_ioleinplaceactiveobject_enablemodeless">EnableModeless</a> method.
 
 
 ### -param pszPath [in]
@@ -131,9 +131,9 @@ Not currently implemented.
 <b>Windows XP or later.</b> Suppresses the "not accessible" error message box, which displays when a failure other than a user cancellation occurs, and <i>hwnd</i> is not <b>NULL</b>.
 
 
-##### - dwFlags.SHPPFW_ASKDIRCREATE
+##### - dwFlags.SHPPFW_NONE
 
-Prompt the user before creating directories. Do not pass with <b>SHPPFW_DIRCREATE</b>.
+Do not create new directories.
 
 
 ##### - dwFlags.SHPPFW_DEFAULT
@@ -146,24 +146,24 @@ Default. Do not prompt the user if a directory needs to be created. This is iden
 Create directories without prompting the user. Do not pass with <b>SHPPFW_ASKDIRCREATE</b>.
 
 
+##### - dwFlags.SHPPFW_ASKDIRCREATE
+
+Prompt the user before creating directories. Do not pass with <b>SHPPFW_DIRCREATE</b>.
+
+
 ##### - dwFlags.SHPPFW_IGNOREFILENAME
 
 Last item in <i>pszPath</i> is a file name, so ignore. For example, if <i>pszPath</i>="C:\MyDir\MyFile.doc", only use "C:\MyDir". If <i>pszPath</i>="C:\MyFirDir\MySecDir", only use "C:\MyFirDir".
 
 
-##### - dwFlags.SHPPFW_MEDIACHECKONLY
-
-<b>Windows XP or later.</b> Suppresses the "not accessible" error message box, which displays when a failure other than a user cancellation occurs, and <i>hwnd</i> is not <b>NULL</b>.
-
-
-##### - dwFlags.SHPPFW_NONE
-
-Do not create new directories.
-
-
 ##### - dwFlags.SHPPFW_NOWRITECHECK
 
 Not currently implemented.
+
+
+##### - dwFlags.SHPPFW_MEDIACHECKONLY
+
+<b>Windows XP or later.</b> Suppresses the "not accessible" error message box, which displays when a failure other than a user cancellation occurs, and <i>hwnd</i> is not <b>NULL</b>.
 
 
 ## -returns

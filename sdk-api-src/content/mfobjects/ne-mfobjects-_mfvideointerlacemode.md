@@ -7,7 +7,7 @@ old-location: mf\mfvideointerlacemode.htm
 old-project: medfound
 ms.assetid: 10a3d7b1-74ed-46cd-b10e-59a8f01726d5
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 10a3d7b1-74ed-46cd-b10e-59a8f01726d5, MFVideoInterlaceMode, MFVideoInterlaceMode enumeration [Media Foundation], MFVideoInterlace_FieldInterleavedLowerFirst, MFVideoInterlace_FieldInterleavedUpperFirst, MFVideoInterlace_FieldSingleLower, MFVideoInterlace_FieldSingleUpper, MFVideoInterlace_ForceDWORD, MFVideoInterlace_Last, MFVideoInterlace_MixedInterlaceOrProgressive, MFVideoInterlace_Progressive, MFVideoInterlace_Unknown, _MFVideoInterlaceMode, mf.mfvideointerlacemode, mfobjects/MFVideoInterlaceMode, mfobjects/MFVideoInterlace_FieldInterleavedLowerFirst, mfobjects/MFVideoInterlace_FieldInterleavedUpperFirst, mfobjects/MFVideoInterlace_FieldSingleLower, mfobjects/MFVideoInterlace_FieldSingleUpper, mfobjects/MFVideoInterlace_ForceDWORD, mfobjects/MFVideoInterlace_Last, mfobjects/MFVideoInterlace_MixedInterlaceOrProgressive, mfobjects/MFVideoInterlace_Progressive, mfobjects/MFVideoInterlace_Unknown
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,64 +63,55 @@ In the descriptions that follow, upper field refers to the field that contains t
 
 ### -field MFVideoInterlace_Unknown
 
-
-            The type of interlacing is not known.
+The type of interlacing is not known.
           
 
 
 ### -field MFVideoInterlace_Progressive
 
-
-            Progressive frames.
+Progressive frames.
           
 
 
 ### -field MFVideoInterlace_FieldInterleavedUpperFirst
 
-
-            Interlaced frames. Each frame contains two fields. The field lines are interleaved, with the upper field appearing on the first line.
+Interlaced frames. Each frame contains two fields. The field lines are interleaved, with the upper field appearing on the first line.
           
 
 
 ### -field MFVideoInterlace_FieldInterleavedLowerFirst
 
-
-            Interlaced frames. Each frame contains two fields. The field lines are interleaved, with the lower field appearing on the first line.
+Interlaced frames. Each frame contains two fields. The field lines are interleaved, with the lower field appearing on the first line.
           
 
 
 ### -field MFVideoInterlace_FieldSingleUpper
 
-
-            Interlaced frames. Each frame contains one field, with the upper field appearing first.
+Interlaced frames. Each frame contains one field, with the upper field appearing first.
           
 
 
 ### -field MFVideoInterlace_FieldSingleLower
 
-
-            Interlaced frames. Each frame contains one field, with the lower field appearing first.
+Interlaced frames. Each frame contains one field, with the lower field appearing first.
           
 
 
 ### -field MFVideoInterlace_MixedInterlaceOrProgressive
 
-
-            The stream contains a mix of interlaced and progressive modes.
+The stream contains a mix of interlaced and progressive modes.
           
 
 
 ### -field MFVideoInterlace_Last
 
-
-            Reserved.
+Reserved.
           
 
 
 ### -field MFVideoInterlace_ForceDWORD
 
-
-            Reserved. This member forces the enumeration type to compile as a <b>DWORD</b> value.
+Reserved. This member forces the enumeration type to compile as a <b>DWORD</b> value.
           
 
 

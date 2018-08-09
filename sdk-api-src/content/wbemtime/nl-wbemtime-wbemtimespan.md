@@ -7,7 +7,7 @@ old-location: wmi\wbemtimespan.htm
 old-project: WmiSdk
 ms.assetid: bcec87c1-32ba-451b-92bb-80c8a5007adb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: WBEMTimeSpan, WBEMTimeSpan class [Windows Management Instrumentation], WBEMTimeSpan class [Windows Management Instrumentation],described, _hmm_wbemtimespan, wbemtime/WBEMTimeSpan, wmi.wbemtimespan
 ms.prod: windows
 ms.technology: windows-sdk

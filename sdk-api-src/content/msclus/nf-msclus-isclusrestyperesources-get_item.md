@@ -7,7 +7,7 @@ old-location: mscs\clusrestyperesources_item.htm
 old-project: mscs
 ms.assetid: 701b9974-934b-401d-a7e0-13246b5d5606
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusResTypeResources class [Failover Cluster],Item property, ClusResTypeResources.Item, ISClusResTypeResources.get_Item, ISClusResTypeResources::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ClusResTypeResources class, _wolf_clusrestyperesources.item, get_Item, mscs.clusrestyperesources_item
 ms.prod: windows
 ms.technology: windows-sdk

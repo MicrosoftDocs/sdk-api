@@ -7,7 +7,7 @@ old-location: shell\PathAddExtension.htm
 old-project: shell
 ms.assetid: 2c113d11-11d5-4362-bad5-c859d65aca2a
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PathAddExtension, PathAddExtension function [Windows Shell], PathAddExtensionA, PathAddExtensionW, _win32_PathAddExtension, shell.PathAddExtension, shlwapi/PathAddExtension, shlwapi/PathAddExtensionA, shlwapi/PathAddExtensionW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,14 +72,7 @@ Type: <b>LPTSTR</b>
 A pointer to a buffer with the null-terminated string to which the file name extension will be appended. You must set the size of this buffer to MAX_PATH to ensure that it is large enough to hold the returned string.
 
 
-### -param pszExt
-
-TBD
-
-
-
-
-#### - pszExtension [in, optional]
+### -param pszExt [in, optional]
 
 Type: <b>LPCTSTR</b>
 

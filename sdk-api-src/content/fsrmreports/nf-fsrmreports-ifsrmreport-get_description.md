@@ -4,10 +4,10 @@ title: IFsrmReport::get_Description
 author: windows-sdk-content
 description: Retrieves or sets the description of the report.
 old-location: fsrm\ifsrmreport_description.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: b91a770d-8118-4a7e-adb5-36f6d59ea484
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/01/2018
 ms.keywords: Description property [File Server Resource Manager], Description property [File Server Resource Manager],IFsrmReport interface, IFsrmReport interface [File Server Resource Manager],Description property, IFsrmReport.Description, IFsrmReport.get_Description, IFsrmReport::Description, IFsrmReport::get_Description, IFsrmReport::put_Description, fs.ifsrmreport_description, fsrm.ifsrmreport_description, fsrmreports/IFsrmReport::Description, fsrmreports/IFsrmReport::get_Description, fsrmreports/IFsrmReport::put_Description, get_Description
 ms.prod: windows
 ms.technology: windows-sdk

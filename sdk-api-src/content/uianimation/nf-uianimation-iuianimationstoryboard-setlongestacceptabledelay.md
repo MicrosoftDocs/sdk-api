@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard_setlongestacceptabledelay.htm
 old-project: UIAnimation
 ms.assetid: 5f87a4b1-8db9-42ba-963f-664db588c520
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IUIAnimationStoryboard interface [Windows Animation],SetLongestAcceptableDelay method, IUIAnimationStoryboard.SetLongestAcceptableDelay, IUIAnimationStoryboard::SetLongestAcceptableDelay, SetLongestAcceptableDelay, SetLongestAcceptableDelay method [Windows Animation], SetLongestAcceptableDelay method [Windows Animation],IUIAnimationStoryboard interface, uianimation.iuianimationstoryboard_setlongestacceptabledelay, uianimation/IUIAnimationStoryboard::SetLongestAcceptableDelay
 ms.prod: windows
 ms.technology: windows-sdk

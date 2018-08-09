@@ -4,10 +4,10 @@ title: IGPMSearchCriteria::Add
 author: windows-sdk-content
 description: Adds a criterion for search operations.
 old-location: gpmc\igpmsearchcriteria_add.htm
-old-project: gpmc
+old-project: GPMC
 ms.assetid: 8d3f62df-6de1-4871-903f-05ac234db17f
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: Add, Add method [GPMC], Add method [GPMC],IGPMSearchCriteria interface, IGPMSearchCriteria interface [GPMC],Add method, IGPMSearchCriteria.Add, IGPMSearchCriteria::Add, _win32_igpmsearchcriteria_add, gpmc.igpmsearchcriteria_add, gpmgmt/IGPMSearchCriteria::Add
 ms.prod: windows
 ms.technology: windows-sdk

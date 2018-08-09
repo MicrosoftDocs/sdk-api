@@ -4,10 +4,10 @@ title: CVssWriter::OnPostRestore
 author: windows-sdk-content
 description: The OnPostRestore method is called by a writer following a PostRestore event. It is used to perform operations considered necessary after files are restored to disk by a requester. These operations cannot, however, modify the Backup Components Document.
 old-location: base\cvsswriter_onpostrestore.htm
-old-project: VSS
+old-project: vss
 ms.assetid: ad07753c-1592-4fc8-9899-a73e798c158c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CVssWriter interface [VSS],OnPostRestore method, CVssWriter.OnPostRestore, CVssWriter::OnPostRestore, OnPostRestore, OnPostRestore method [VSS], OnPostRestore method [VSS],CVssWriter interface, _win32_cvsswriter_onpostrestore, base.cvsswriter_onpostrestore, vswriter/CVssWriter::OnPostRestore
 ms.prod: windows
 ms.technology: windows-sdk

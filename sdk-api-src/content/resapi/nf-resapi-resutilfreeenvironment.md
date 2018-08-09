@@ -7,7 +7,7 @@ old-location: mscs\resutilfreeenvironment.htm
 old-project: mscs
 ms.assetid: 196f347e-2b2f-4bb1-a86c-b2a73881ed65
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: PRESUTIL_FREE_ENVIRONMENT, PRESUTIL_FREE_ENVIRONMENT function [Failover Cluster], ResUtilFreeEnvironment, ResUtilFreeEnvironment function [Failover Cluster], _wolf_resutilfreeenvironment, mscs.resutilfreeenvironment, resapi/PRESUTIL_FREE_ENVIRONMENT, resapi/ResUtilFreeEnvironment
 ms.prod: windows
 ms.technology: windows-sdk

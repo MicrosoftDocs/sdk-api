@@ -4,10 +4,10 @@ title: CVssWriterEx::InitializeEx
 author: windows-sdk-content
 description: Initializes a CVssWriterEx object and allows a writer application to interact with VSS. Unlike the Initialize method, the InitializeEx method allows the caller to specify writer version information.
 old-location: base\cvsswriterex_initializeex.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 08516a5e-b1ad-4256-9eee-261393b031e2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CVssWriterEx interface,InitializeEx method, CVssWriterEx.InitializeEx, CVssWriterEx::InitializeEx, InitializeEx, InitializeEx method, InitializeEx method,CVssWriterEx interface, base.cvsswriterex_initializeex, vswriter/CVssWriterEx::InitializeEx
 ms.prod: windows
 ms.technology: windows-sdk

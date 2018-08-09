@@ -7,7 +7,7 @@ old-location: rpc\rpcobjectinqtype.htm
 old-project: rpc
 ms.assetid: 9146d4be-4a8a-4655-bd5b-e12f81fd4d23
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcObjectInqType, RpcObjectInqType function [RPC], _rpc_rpcobjectinqtype, rpc.rpcobjectinqtype, rpcdce/RpcObjectInqType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,12 +131,9 @@ The
 
 <table>
 <tr>
-<th>Object UUID<div> </div>
-registered</th>
-<th>Inquiry function<div> </div>
-registered</th>
-<th>Return<div> </div>
-value</th>
+<th>Object UUID<div> </div>registered</th>
+<th>Inquiry function<div> </div>registered</th>
+<th>Return<div> </div>value</th>
 </tr>
 <tr>
 <td>Yes (

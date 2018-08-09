@@ -7,7 +7,7 @@ old-location: nps\SDO_isdocollection_item.htm
 old-project: nps
 ms.assetid: 1c830e23-dc6f-49dd-83fe-8ddd39ac1bf6
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],Item method, ISdoCollection.Item, ISdoCollection::Item, Item, Item method [Network Policy Server], Item method [Network Policy Server],ISdoCollection interface, _sdo_isdocollection_item, nps.SDO_isdocollection_item, sdo.isdocollection_item, sdoias/ISdoCollection::Item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,13 +64,13 @@ The
 
 Pointer to a 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>. Store the name of the object in a 
-<a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a> in this <b>VARIANT</b>.
+<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a> in this <b>VARIANT</b>.
 
 
 ### -param pItem [out]
 
 Pointer to an interface pointer that receives the address of an 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface for the object.
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface for the object.
 
 
 ## -returns
@@ -100,7 +100,7 @@ Neither of the parameters can be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a>
 
 
 

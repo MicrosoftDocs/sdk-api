@@ -4,10 +4,10 @@ title: WSAGetServiceClassInfoA function
 author: windows-sdk-content
 description: The WSAGetServiceClassInfo function retrieves the class information (schema) pertaining to a specified service class from a specified namespace provider.
 old-location: winsock\wsagetserviceclassinfo_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: e177bb7d-c7d3-43a4-a809-ab8212feea2e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSAGetServiceClassInfo, WSAGetServiceClassInfo function [Winsock], WSAGetServiceClassInfoA, WSAGetServiceClassInfoW, _win32_wsagetserviceclassinfo_2, winsock.wsagetserviceclassinfo_2, winsock2/WSAGetServiceClassInfo, winsock2/WSAGetServiceClassInfoA, winsock2/WSAGetServiceClassInfoW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,22 +72,17 @@ A pointer to a GUID that identifies a specific namespace provider.
 A pointer to a GUID identifying the service class.
 
 
-### -param lpdwBufSize
-
-TBD
-
-
-### -param lpServiceClassInfo [out]
-
-A pointer to a <a href="https://msdn.microsoft.com/02422c24-34a6-4e34-a795-66b0b687ac44">WSASERVICECLASSINFO</a> structure that contains the service class information from the indicated namespace provider for the specified service class.
-
-
-#### - lpdwBufferLength [in, out]
+### -param lpdwBufSize [in, out]
 
 On input, the number of bytes contained in the buffer pointed to by the <i>lpServiceClassInfo</i> parameter. 
 
 On output, if the function fails and the error is 
 <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a>, this parameter specifies the minimum size, in bytes, of the buffer pointed to <i>lpServiceClassInfo</i> needed to retrieve the record.
+
+
+### -param lpServiceClassInfo [out]
+
+A pointer to a <a href="https://msdn.microsoft.com/02422c24-34a6-4e34-a795-66b0b687ac44">WSASERVICECLASSINFO</a> structure that contains the service class information from the indicated namespace provider for the specified service class.
 
 
 ## -returns

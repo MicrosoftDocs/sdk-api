@@ -4,10 +4,10 @@ title: "_CRYPT_TRUST_REG_ENTRY"
 author: windows-sdk-content
 description: Identifies a provider function by DLL name and function name.
 old-location: security\crypt_trust_reg_entry.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 1a531219-f254-4057-934b-af95bfe0bb83
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PCRYPT_TRUST_REG_ENTRY, CRYPT_TRUST_REG_ENTRY, CRYPT_TRUST_REG_ENTRY structure [Security], PCRYPT_TRUST_REG_ENTRY, PCRYPT_TRUST_REG_ENTRY structure pointer [Security], _CRYPT_TRUST_REG_ENTRY, security.crypt_trust_reg_entry, wintrust/CRYPT_TRUST_REG_ENTRY, wintrust/PCRYPT_TRUST_REG_ENTRY"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingjob_jobtype.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_965h.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxIncomingJob object [Fax Service],JobType property, FaxIncomingJob.JobType, IFaxIncomingJob.get_JobType, IFaxIncomingJob::get_JobType, JobType property [Fax Service], JobType property [Fax Service],FaxIncomingJob object, _mfax_faxincomingjob.jobtype, fax._mfax_faxincomingjob_jobtype, get_JobType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,15 +65,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692952(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692952(v=VS.85).aspx">Visual Basic Example</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms687472(v=VS.85).aspx">get_JobType</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687472(v=VS.85).aspx">get_JobType</a>
  
 
  

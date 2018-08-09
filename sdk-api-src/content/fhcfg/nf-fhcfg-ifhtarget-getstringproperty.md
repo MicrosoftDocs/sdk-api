@@ -7,7 +7,7 @@ old-location: winprog\ifhtarget_getstringproperty.htm
 old-project: devnotes
 ms.assetid: DC5FE023-FA6E-4B97-AD9D-830975A17159
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetStringProperty, GetStringProperty method [Windows API], GetStringProperty method [Windows API],IFhTarget interface, IFhTarget interface [Windows API],GetStringProperty method, IFhTarget.GetStringProperty, IFhTarget::GetStringProperty, fhcfg/IFhTarget::GetStringProperty, winprog.ifhtarget_getstringproperty
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\resutilgetproperty.htm
 old-project: mscs
 ms.assetid: f1c6f69c-fc64-4e64-9543-449fc8780eef
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: PRESUTIL_GET_PROPERTY, PRESUTIL_GET_PROPERTY function [Failover Cluster], ResUtilGetProperty, ResUtilGetProperty function [Failover Cluster], _wolf_resutilgetproperty, mscs.resutilgetproperty, resapi/PRESUTIL_GET_PROPERTY, resapi/ResUtilGetProperty
 ms.prod: windows
 ms.technology: windows-sdk

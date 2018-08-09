@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_resource_misc_flag.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_resource_misc_flag.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 933479cf-687a-018f-fa4e-e44396ff5c4b, D3D10_RESOURCE_MISC_FLAG, D3D10_RESOURCE_MISC_FLAG enumeration [Direct3D 10], D3D10_RESOURCE_MISC_GDI_COMPATIBLE, D3D10_RESOURCE_MISC_GENERATE_MIPS, D3D10_RESOURCE_MISC_SHARED, D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX, D3D10_RESOURCE_MISC_TEXTURECUBE, d3d10/D3D10_RESOURCE_MISC_FLAG, d3d10/D3D10_RESOURCE_MISC_GDI_COMPATIBLE, d3d10/D3D10_RESOURCE_MISC_GENERATE_MIPS, d3d10/D3D10_RESOURCE_MISC_SHARED, d3d10/D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX, d3d10/D3D10_RESOURCE_MISC_TEXTURECUBE, direct3d10.d3d10_resource_misc_flag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,9 @@ Identifies other, less common options for resources.
 
 ### -field D3D10_RESOURCE_MISC_GENERATE_MIPS
 
-Enables an application to call <a href="https://msdn.microsoft.com/library/Bb173569(v=VS.85).aspx">ID3D10Device::GenerateMips</a> on 
-        a <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">texture resource</a>. The resource must be created 
-        with the <a href="https://msdn.microsoft.com/library/Bb204891(v=VS.85).aspx">bind flags</a> that specify that the resource is a render target and a shader resource.
+Enables an application to call <a href="https://msdn.microsoft.com/en-us/library/Bb173569(v=VS.85).aspx">ID3D10Device::GenerateMips</a> on 
+        a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">texture resource</a>. The resource must be created 
+        with the <a href="https://msdn.microsoft.com/en-us/library/Bb204891(v=VS.85).aspx">bind flags</a> that specify that the resource is a render target and a shader resource.
 
 
 ### -field D3D10_RESOURCE_MISC_SHARED
@@ -76,7 +76,7 @@ WARP and REF devices do not support shared resources. Attempting to create a res
 ### -field D3D10_RESOURCE_MISC_TEXTURECUBE
 
 Enables an application to create a cube texture from a 
-        <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">Texture2DArray</a> that contains 6 textures.
+        <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">Texture2DArray</a> that contains 6 textures.
 
 
 ### -field D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX
@@ -109,8 +109,8 @@ Enables a surface to be used for GDI interoperability.  Setting this flag enable
 
 
 
-This enumeration is used in <a href="https://msdn.microsoft.com/library/Bb204896(v=VS.85).aspx">D3D10_BUFFER_DESC</a>, <a href="https://msdn.microsoft.com/library/Bb172479(v=VS.85).aspx">D3D10_TEXTURE1D_DESC</a>, <a href="https://msdn.microsoft.com/library/Bb172480(v=VS.85).aspx">D3D10_TEXTURE2D_DESC</a>, 
-      <a href="https://msdn.microsoft.com/library/Bb172481(v=VS.85).aspx">D3D10_TEXTURE3D_DESC</a>, <a href="https://msdn.microsoft.com/library/Bb172695(v=VS.85).aspx">D3DX10_IMAGE_INFO</a>, and <a href="https://msdn.microsoft.com/library/Bb172696(v=VS.85).aspx">D3DX10_IMAGE_LOAD_INFO</a>.
+This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Bb204896(v=VS.85).aspx">D3D10_BUFFER_DESC</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172479(v=VS.85).aspx">D3D10_TEXTURE1D_DESC</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172480(v=VS.85).aspx">D3D10_TEXTURE2D_DESC</a>, 
+      <a href="https://msdn.microsoft.com/en-us/library/Bb172481(v=VS.85).aspx">D3D10_TEXTURE3D_DESC</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172695(v=VS.85).aspx">D3DX10_IMAGE_INFO</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb172696(v=VS.85).aspx">D3DX10_IMAGE_LOAD_INFO</a>.
 
 These flags can be combined by bitwise OR.
 
@@ -125,7 +125,7 @@ D3D10_RESOURCE_MISC_SHARED and D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX are mutuall
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205275(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205275(v=VS.85).aspx">Resource Enumerations</a>
  
 
  

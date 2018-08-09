@@ -7,7 +7,7 @@ old-location: setup\setupconfigurewmifrominfsection.htm
 old-project: SetupApi
 ms.assetid: 1fcf9086-fde1-414c-9073-22452c3ffc6d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SCWMI_CLOBBER_SECURITY, SetupConfigureWmiFromInfSection, SetupConfigureWmiFromInfSection function [Setup API], SetupConfigureWmiFromInfSectionA, SetupConfigureWmiFromInfSectionW, _setupapi_setupuninstalloeminf, setup.setupconfigurewmifrominfsection, setupapi/SetupConfigureWmiFromInfSection, setupapi/SetupConfigureWmiFromInfSectionA, setupapi/SetupConfigureWmiFromInfSectionW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,8 +92,7 @@ This parameter can be set as follows.
 </dl>
 </td>
 <td width="60%">
-
-								If and only if this flag is set does the security information passed to this function override any security information set elsewhere in the INF file. If this flag does not exist and no security information exists in the INF file, the security is set. 
+If and only if this flag is set does the security information passed to this function override any security information set elsewhere in the INF file. If this flag does not exist and no security information exists in the INF file, the security is set. 
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecontent_copy.htm
 old-project: wpd_sdk
 ms.assetid: 46d6abad-457c-47d7-a83a-b5ba2b84b064
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: Copy, Copy method [Windows Portable Devices SDK], Copy method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],Copy method, IPortableDeviceContent.Copy, IPortableDeviceContent::Copy, IPortableDeviceContentCopy, portabledeviceapi/IPortableDeviceContent::Copy, wpdsdk.iportabledevicecontent_copy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-        The <b>Copy</b> method copies objects from one location on a device to another.
+The <b>Copy</b> method copies objects from one location on a device to another.
       
 
 
@@ -64,22 +63,19 @@ req.product: ADAM
 
 ### -param pObjectIDs
 
-
-            A collection of object identifiers for the objects that this method will copy.
+A collection of object identifiers for the objects that this method will copy.
           
 
 
 ### -param pszDestinationFolderObjectID
 
-
-            An object identifier for the destination folder (or functional storage) into which this method will copy the specified objects.
+An object identifier for the destination folder (or functional storage) into which this method will copy the specified objects.
           
 
 
 ### -param ppResults [out]
 
-
-            A collection of VT_ERROR values indicating the success or failure of copying a particular element. The first error value corresponds to the first object in the collection of object identifiers, the second to the second element, and so on. This argument can be <b>NULL</b>.
+A collection of VT_ERROR values indicating the success or failure of copying a particular element. The first error value corresponds to the first object in the collection of object identifiers, the second to the second element, and so on. This argument can be <b>NULL</b>.
           
 
 
@@ -87,8 +83,7 @@ req.product: ADAM
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -139,8 +134,7 @@ The application does not have the rights to copy one of the specified objects.
 
 
 
-
-        If the specified device supports copy operations to a functional storage, the <i>pszDestinationFolderObjectID</i> parameter may specify the identifier for a functional storage.
+If the specified device supports copy operations to a functional storage, the <i>pszDestinationFolderObjectID</i> parameter may specify the identifier for a functional storage.
       
 
 
@@ -151,7 +145,7 @@ The application does not have the rights to copy one of the specified objects.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
  
 
  

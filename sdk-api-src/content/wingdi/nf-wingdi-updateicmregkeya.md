@@ -7,7 +7,7 @@ old-location: wcs\updateicmregkey.htm
 old-project: WCS
 ms.assetid: 705b9671-7bf2-4a47-a3a5-42dd0f334338
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ICM_ADDPROFILE, ICM_DELETEPROFILE, ICM_QUERYMATCH, ICM_QUERYPROFILE, ICM_REGISTERICMATCHER, ICM_SETDEFAULTPROFILE, ICM_UNREGISTERICMATCHER, UpdateICMRegKey, UpdateICMRegKey function [Windows Color System], UpdateICMRegKeyA, UpdateICMRegKeyW, _color_UpdateICMRegKey, wcs.updateicmregkey, wingdi/UpdateICMRegKey, wingdi/UpdateICMRegKeyA, wingdi/UpdateICMRegKeyW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ The <b>UpdateICMRegKey</b> function manages color profiles and Color Management 
 
 ### -param reserved
 
-TBD
+Reserved, must be set to zero.
 
 
 ### -param lpszCMID
@@ -81,18 +81,6 @@ Points to a fully qualified ICC color profile file name or to a <b>DEVMODE</b> s
 
 
 ### -param command
-
-TBD
-
-
-
-
-#### - dwReserved
-
-Reserved, must be set to zero.
-
-
-#### - nCommand
 
 Specifies a function to execute. It can have one of the following values.<div> </div>
 

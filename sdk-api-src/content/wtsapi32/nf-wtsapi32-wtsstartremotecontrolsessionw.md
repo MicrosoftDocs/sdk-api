@@ -4,10 +4,10 @@ title: WTSStartRemoteControlSessionW function
 author: windows-sdk-content
 description: Starts the remote control of another Remote Desktop Services session. You must call this function from a remote session.
 old-location: termserv\wtsstartremotecontrolsession.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 8ccab62b-228b-4449-82c1-970de891cbdb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: REMOTECONTROL_KBDALT_HOTKEY, REMOTECONTROL_KBDCTRL_HOTKEY, REMOTECONTROL_KBDSHIFT_HOTKEY, WTSStartRemoteControlSession, WTSStartRemoteControlSession function [Remote Desktop Services], WTSStartRemoteControlSessionA, WTSStartRemoteControlSessionW, termserv.wtsstartremotecontrolsession, wtsapi32/WTSStartRemoteControlSession, wtsapi32/WTSStartRemoteControlSessionA, wtsapi32/WTSStartRemoteControlSessionW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,9 +101,9 @@ The CTRL key
 The ALT key
 
 
-##### - HotkeyModifiers.REMOTECONTROL_KBDALT_HOTKEY
+##### - HotkeyModifiers.REMOTECONTROL_KBDSHIFT_HOTKEY
 
-The ALT key
+The SHIFT key
 
 
 ##### - HotkeyModifiers.REMOTECONTROL_KBDCTRL_HOTKEY
@@ -111,9 +111,9 @@ The ALT key
 The CTRL key
 
 
-##### - HotkeyModifiers.REMOTECONTROL_KBDSHIFT_HOTKEY
+##### - HotkeyModifiers.REMOTECONTROL_KBDALT_HOTKEY
 
-The SHIFT key
+The ALT key
 
 
 ## -returns

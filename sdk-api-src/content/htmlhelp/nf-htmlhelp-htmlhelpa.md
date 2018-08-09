@@ -55,7 +55,7 @@ req.product: GDI+ 1.1
 
 Displays a help window.
 
-Using the API commands, you can specify which topic to display in the help window, whether the help window is a three-pane Help Viewer or a pop-up window, and whether the HTML topic file should be accessed via a context ID, an <a href="https://msdn.microsoft.com/library/ms524236(v=VS.85).aspx">HTML Help URL</a>, or a Keyword link (KLink) lookup. 
+Using the API commands, you can specify which topic to display in the help window, whether the help window is a three-pane Help Viewer or a pop-up window, and whether the HTML topic file should be accessed via a context ID, an <a href="https://msdn.microsoft.com/en-us/library/ms524236(v=VS.85).aspx">HTML Help URL</a>, or a Keyword link (KLink) lookup. 
 
 
 ## -parameters
@@ -71,23 +71,23 @@ Specifies the handle (<i>hwnd</i>) of the window calling <b>HtmlHelp</b>. The he
 
 When the help window is closed, <b>HtmlHelp</b> will return focus to the owner unless the owner is the desktop. If <i>hwndCaller</i> is the desktop, then the operating system determines where focus is returned.
 
-In addition, if <b>HtmlHelp</b> sends any notification messages from the help window, they are sent to <i>hwndCaller</i> as long as you have enabled <a href="https://msdn.microsoft.com/library/ms524237(v=VS.85).aspx">notification message</a> tracking in the help window definition.
+In addition, if <b>HtmlHelp</b> sends any notification messages from the help window, they are sent to <i>hwndCaller</i> as long as you have enabled <a href="https://msdn.microsoft.com/en-us/library/ms524237(v=VS.85).aspx">notification message</a> tracking in the help window definition.
 
 
 ### -param pszFile [in]
 
-Depending on the <i>uCommand</i> value, specifies the <a href="https://msdn.microsoft.com/library/ms524236(v=VS.85).aspx">file path</a> to either a compiled help (.chm) file, or a topic file within a specified help file. 
+Depending on the <i>uCommand</i> value, specifies the <a href="https://msdn.microsoft.com/en-us/library/ms524236(v=VS.85).aspx">file path</a> to either a compiled help (.chm) file, or a topic file within a specified help file. 
 
 
 
-A <a href="https://msdn.microsoft.com/library/ms644703(v=VS.85).aspx">window type</a> name can also be specified, preceded with a greater-than (&gt;) character.
+A <a href="https://msdn.microsoft.com/en-us/library/ms644703(v=VS.85).aspx">window type</a> name can also be specified, preceded with a greater-than (&gt;) character.
 
 If the specified command does not require a file, this value may be NULL.
 
 
 ### -param uCommand [in]
 
-Specifies the <a href="https://msdn.microsoft.com/library/ms644704(v=VS.85).aspx">command</a> to complete.
+Specifies the <a href="https://msdn.microsoft.com/en-us/library/ms644704(v=VS.85).aspx">command</a> to complete.
 
 
 ### -param dwData [in]
@@ -119,7 +119,7 @@ When using the HTML Help API, set the stack size of the hosting executable to at
 
 #### Examples
 
-The following example calls the <a href="https://msdn.microsoft.com/library/ms670084(v=VS.85).aspx">HH_DISPLAY_TOPIC</a> command to open the help file named Help.chm and display its default topic in the help window named Mainwin. Generally, the help window specified in this command is a standard <a href="https://msdn.microsoft.com/library/ms524435(v=VS.85).aspx">HTML Help Viewer</a>. 
+The following example calls the <a href="https://msdn.microsoft.com/en-us/library/ms670084(v=VS.85).aspx">HH_DISPLAY_TOPIC</a> command to open the help file named Help.chm and display its default topic in the help window named Mainwin. Generally, the help window specified in this command is a standard <a href="https://msdn.microsoft.com/en-us/library/ms524435(v=VS.85).aspx">HTML Help Viewer</a>. 
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -144,7 +144,7 @@ The following example calls the <a href="https://msdn.microsoft.com/library/ms67
 
 
 
-<a href="https://msdn.microsoft.com/library/ms524255(v=VS.85).aspx">About the HTML Help API</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms524255(v=VS.85).aspx">About the HTML Help API</a>
  
 
  

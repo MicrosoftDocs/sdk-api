@@ -7,7 +7,7 @@ old-location: rpc\rpc_http_transport_credentials.htm
 old-project: rpc
 ms.assetid: fdb7f42a-e545-4965-a44a-70d4631f1723
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: "*PRPC_HTTP_TRANSPORT_CREDENTIALS, *PRPC_HTTP_TRANSPORT_CREDENTIALS structure [RPC], *PRPC_HTTP_TRANSPORT_CREDENTIALS_W, RPC_C_HTTP_AUTHN_SCHEME_BASIC, RPC_C_HTTP_AUTHN_SCHEME_DIGEST, RPC_C_HTTP_AUTHN_SCHEME_NEGOTIATE, RPC_C_HTTP_AUTHN_SCHEME_NTLM, RPC_C_HTTP_AUTHN_SCHEME_PASSPORT, RPC_C_HTTP_AUTHN_TARGET_PROXY, RPC_C_HTTP_AUTHN_TARGET_SERVER, RPC_C_HTTP_FLAG_USE_FIRST_AUTH_SCHEME, RPC_C_HTTP_FLAG_USE_SSL, RPC_HTTP_TRANSPORT_CREDENTIALS, RPC_HTTP_TRANSPORT_CREDENTIALS structure [RPC], RPC_HTTP_TRANSPORT_CREDENTIALS_W, _RPC_HTTP_TRANSPORT_CREDENTIALS_A, _RPC_HTTP_TRANSPORT_CREDENTIALS_W, rpc.rpc_http_transport_credentials, rpcdce/*PRPC_HTTP_TRANSPORT_CREDENTIALS, rpcdce/RPC_HTTP_TRANSPORT_CREDENTIALS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -195,14 +195,6 @@ The algorithm for choosing the actual authentication scheme is as follows:
 <a id="RPC_C_HTTP_AUTHN_SCHEME_NTLM"></a>
 <a id="rpc_c_http_authn_scheme_ntlm"></a>
 
-##### - AuthnScheme.RPC_C_HTTP_AUTHN_SCHEME_DIGEST
-
-<a id="RPC_C_HTTP_AUTHN_SCHEME_NEGOTIATE"></a>
-<a id="rpc_c_http_authn_scheme_negotiate"></a>
-
-##### - AuthnScheme.RPC_C_HTTP_AUTHN_SCHEME_NEGOTIATE
-
-
 ##### - AuthnScheme.RPC_C_HTTP_AUTHN_SCHEME_NTLM
 
 <a id="RPC_C_HTTP_AUTHN_SCHEME_PASSPORT"></a>
@@ -212,6 +204,14 @@ The algorithm for choosing the actual authentication scheme is as follows:
 
 <a id="RPC_C_HTTP_AUTHN_SCHEME_DIGEST"></a>
 <a id="rpc_c_http_authn_scheme_digest"></a>
+
+##### - AuthnScheme.RPC_C_HTTP_AUTHN_SCHEME_DIGEST
+
+<a id="RPC_C_HTTP_AUTHN_SCHEME_NEGOTIATE"></a>
+<a id="rpc_c_http_authn_scheme_negotiate"></a>
+
+##### - AuthnScheme.RPC_C_HTTP_AUTHN_SCHEME_NEGOTIATE
+
 
 ## -remarks
 
@@ -223,7 +223,6 @@ If the <b>TransportCredentials</b> member is <b>NULL</b> and the authentication 
 <li>Caller requested use of SSL and used the <b>ServerCertificateSubject</b> member. This scenario guarantees credentials are protected both in transit and at the final destination, even if a weak hash is used.</li>
 <li>The lncompatibilitylevel key is set to 2 or higher. This  causes the NTLM security provider to emit or respond to only the strong NT hash, not the weak LM hash. In addition, customers are encouraged to use level 3 or higher, which will attempt NTLMv2.</li>
 </ul>
-
 If the Unicode version of the <a href="https://msdn.microsoft.com/2438816c-995e-4398-999d-48a3538eec18">RpcBindingSetAuthInfoEx</a> function is used,  Unicode versions of the <b>RPC_HTTP_TRANSPORT_CREDENTIALS</b> and <a href="https://msdn.microsoft.com/829dee24-aeeb-4191-b5fc-85970725f064">SEC_WINNT_AUTH_IDENTITY</a> structures must also be provided, and the <b>Flags</b> member in <b>TransportCredentials</b> must be set to SEC_WINNT_AUTH_IDENTITY_UNICODE. 
 If the ANSI version of the <b>RpcBindingSetAuthInfoEx</b> function is used,  ANSI versions of <b>RPC_HTTP_TRANSPORT_CREDENTIALS</b> and <b>SEC_WINNT_AUTH_IDENTITY</b> structures must be provided, and the <b>Flags</b> member in <b>TransportCredentials</b> must be set to SEC_WINNT_AUTH_IDENTITY_ANSI.
 

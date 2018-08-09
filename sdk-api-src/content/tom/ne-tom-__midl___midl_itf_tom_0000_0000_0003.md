@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_tom_0000_0000_0003"
 author: windows-sdk-content
 description: Represents mathematical alphanumeric codes.
 old-location: controls\mancode.htm
-old-project: Controls
+old-project: controls
 ms.assetid: 2d5ad40c-8c34-4365-a699-508ea918df2f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MANCODE, MANCODE enumeration [Windows Controls], MBOLD, MFRAK, MGREEK, MINIT, MISOL, MITAL, MLOOP, MMATH, MMONO, MOPEN, MOPENA, MROMN, MSANS, MSCRP, MSTRCH, MTAIL, __MIDL___MIDL_itf_tom_0000_0000_0003, controls.mancode, tom/MANCODE, tom/MBOLD, tom/MFRAK, tom/MGREEK, tom/MINIT, tom/MISOL, tom/MITAL, tom/MLOOP, tom/MMATH, tom/MMONO, tom/MOPEN, tom/MOPENA, tom/MROMN, tom/MSANS, tom/MSCRP, tom/MSTRCH, tom/MTAIL
 ms.prod: windows
 ms.technology: windows-sdk

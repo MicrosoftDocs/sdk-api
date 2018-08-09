@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_Suspend.htm
 old-project: shell
 ms.assetid: EC67DE5B-3A3B-486f-BDF2-D49195CFAFB3
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IShellDispatch object [Windows Shell],Suspend method, IShellDispatch.Suspend, IShellDispatch::Suspend, Suspend, Suspend method [Windows Shell], Suspend method [Windows Shell],IShellDispatch object, shell.IShellDispatch_Suspend
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: iphlp\restoremediasense.htm
 old-project: iphlp
 ms.assetid: 1a959da7-5fdb-4749-a4be-5d44e80ca2ea
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: RestoreMediaSense, RestoreMediaSense function [IP Helper], iphlp.restoremediasense, iphlpapi/RestoreMediaSense
 ms.prod: windows
 ms.technology: windows-sdk
@@ -164,8 +164,7 @@ To call <b>RestoreMediaSense</b> asynchronously, an application needs to allocat
 
 If <a href="https://msdn.microsoft.com/ec845db8-d544-4291-8221-0fde82c2de27">DisableMediaSense</a> was not called prior to calling <b>RestoreMediaSense</b>, then <b>RestoreMediaSense</b> returns ERROR_INVALID_PARAMETER.
 
-On Windows Server 2003
-   and Windows XP, the TCP/IP stack implements a policy of deleting all IP addresses on an interface in response to a media sense disconnect event from an underlying network interface. If a network switch or hub that the local computer is connected to is powered off, or a network cable is disconnected, the network interface will deliver disconnection events. IP configuration information associated with the network interface is lost. As a result, the TCP/IP stack implements a policy of hiding disconnected interfaces so these interfaces and their associated IP addresses do not show up in configuration information retrieved through IP helper. This policy prevents some applications from easily detecting that a network interface is merely disconnected, rather than removed from the system.
+On Windows Server 2003and Windows XP, the TCP/IP stack implements a policy of deleting all IP addresses on an interface in response to a media sense disconnect event from an underlying network interface. If a network switch or hub that the local computer is connected to is powered off, or a network cable is disconnected, the network interface will deliver disconnection events. IP configuration information associated with the network interface is lost. As a result, the TCP/IP stack implements a policy of hiding disconnected interfaces so these interfaces and their associated IP addresses do not show up in configuration information retrieved through IP helper. This policy prevents some applications from easily detecting that a network interface is merely disconnected, rather than removed from the system.
 
 This behavior does not normally impact a local client computer if it is using DHCP requests to a DHCP server for IP configuration information. But this can have a serious impact on server computers, particularly computers used as part of clusters. The <a href="https://msdn.microsoft.com/ec845db8-d544-4291-8221-0fde82c2de27">DisableMediaSense</a> function can be used to temporarily disable the media sense capability for these cases. At some later time, the <b>RestoreMediaSense</b> function would be called to restore the media sensing capability.
 
@@ -184,8 +183,7 @@ The TCP/IP stack on Windows Vista and later was changed to not hide disconnecte
 
 #### Examples
 
-The following example shows how to call the <a href="https://msdn.microsoft.com/ec845db8-d544-4291-8221-0fde82c2de27">DisableMediaSense</a> and <b>RestoreMediaSense</b> functions synchronously. This sample is only useful on Windows Server 2003
-   and Windows XP where the <b>DisableMediaSense</b> and <b>RestoreMediaSense</b> functions do something useful.
+The following example shows how to call the <a href="https://msdn.microsoft.com/ec845db8-d544-4291-8221-0fde82c2de27">DisableMediaSense</a> and <b>RestoreMediaSense</b> functions synchronously. This sample is only useful on Windows Server 2003and Windows XP where the <b>DisableMediaSense</b> and <b>RestoreMediaSense</b> functions do something useful.
 
 The sample first creates a separate thread that calls the <a href="https://msdn.microsoft.com/ec845db8-d544-4291-8221-0fde82c2de27">DisableMediaSense</a> function synchronously, the main thread sleeps for 60 seconds to allow the user to disconnect a network cable, retrieves the IP address table and prints some members of the IP address entries in the table, calls the <b>RestoreMediaSense</b> function synchronously, retrieves the IP address table again, and prints some members of the IP address entries in the table.  The impact of disabling the media sensing capability can be seen in the difference in the IP address table entries. 
 

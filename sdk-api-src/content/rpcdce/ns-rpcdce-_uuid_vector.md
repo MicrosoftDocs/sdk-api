@@ -7,7 +7,7 @@ old-location: rpc\uuid_vector.htm
 old-project: rpc
 ms.assetid: 6fc7216b-023b-4aca-a572-35cc22202522
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: UUID_VECTOR, UUID_VECTOR structure [RPC], _UUID_VECTOR, _rpc_uuid_vector, rpc.uuid_vector, rpcdce/UUID_VECTOR
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>UUID_VECTOR</b> structure contains a list of <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>s.
 
 

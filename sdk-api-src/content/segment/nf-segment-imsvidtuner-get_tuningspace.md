@@ -7,7 +7,7 @@ old-location: mstv\imsvidtuner_get_tuningspace.htm
 old-project: mstv
 ms.assetid: d46e7d8a-5111-4737-897b-9e1357e3249a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidTuner interface [Microsoft TV Technologies],get_TuningSpace method, IMSVidTuner.get_TuningSpace, IMSVidTuner::get_TuningSpace, IMSVidTunerget_TuningSpace, get_TuningSpace, get_TuningSpace method [Microsoft TV Technologies], get_TuningSpace method [Microsoft TV Technologies],IMSVidTuner interface, mstv.imsvidtuner_get_tuningspace, segment/IMSVidTuner::get_TuningSpace
 ms.prod: windows
 ms.technology: windows-sdk

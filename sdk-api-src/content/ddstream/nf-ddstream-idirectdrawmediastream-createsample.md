@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawmediastream_createsample.htm
 old-project: DirectShow
 ms.assetid: 85041c71-f9fc-48fc-8fe2-fec21efb831b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: CreateSample, CreateSample method [DirectShow], CreateSample method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],CreateSample method, IDirectDrawMediaStream.CreateSample, IDirectDrawMediaStream::CreateSample, IDirectDrawMediaStreamCreateSample, ddstream/IDirectDrawMediaStream::CreateSample, dshow.idirectdrawmediastream_createsample
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,11 +79,9 @@ Specifies miscellaneous flags. The following flag is defined:
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

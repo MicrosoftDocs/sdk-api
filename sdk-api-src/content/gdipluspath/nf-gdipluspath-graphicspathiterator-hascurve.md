@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_HasCurve_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\hascurve.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GraphicsPathIterator class [GDI+],HasCurve method, GraphicsPathIterator.HasCurve, GraphicsPathIterator::HasCurve, HasCurve, HasCurve method [GDI+], HasCurve method [GDI+],GraphicsPathIterator class, _gdiplus_CLASS_GraphicsPathIterator_HasCurve_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_HasCurve_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ All curves in a path are stored as sequences of Bézier splines. For example, wh
 
 A path stores an array of data points, each of which belongs to a line or a Bézier spline. If some of the points in the array belong to Bézier splines, then <b>GraphicsPathIterator::HasCurve</b> returns <b>TRUE</b>. If all points in the array belong to lines, then <b>GraphicsPathIterator::HasCurve</b> returns <b>FALSE</b>.
 
-Certain methods flatten a path, which means that all the curves in the path are converted to sequences of lines. After a path has been flattened, <b>GraphicsPathIterator::HasCurve</b> will always return <b>FALSE</b>. Flattening happens when you call the <a href="https://msdn.microsoft.com/library/ms535530(v=VS.85).aspx">Flatten</a>, <a href="https://msdn.microsoft.com/library/ms535572(v=VS.85).aspx">Widen</a>, or <a href="https://msdn.microsoft.com/library/ms535571(v=VS.85).aspx">Warp</a> method of the <a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class.
+Certain methods flatten a path, which means that all the curves in the path are converted to sequences of lines. After a path has been flattened, <b>GraphicsPathIterator::HasCurve</b> will always return <b>FALSE</b>. Flattening happens when you call the <a href="https://msdn.microsoft.com/en-us/library/ms535530(v=VS.85).aspx">Flatten</a>, <a href="https://msdn.microsoft.com/en-us/library/ms535572(v=VS.85).aspx">Widen</a>, or <a href="https://msdn.microsoft.com/en-us/library/ms535571(v=VS.85).aspx">Warp</a> method of the <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class.
 
 
 
@@ -91,35 +91,35 @@ Certain methods flatten a path, which means that all the curves in the path are 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535530(v=VS.85).aspx">Flatten</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535530(v=VS.85).aspx">Flatten</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535452(v=VS.85).aspx">GraphicsPathIterator::CopyData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535452(v=VS.85).aspx">GraphicsPathIterator::CopyData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536370(v=VS.85).aspx">Paths</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535571(v=VS.85).aspx">Warp</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535571(v=VS.85).aspx">Warp</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535572(v=VS.85).aspx">Widen</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535572(v=VS.85).aspx">Widen</a>
  
 
  

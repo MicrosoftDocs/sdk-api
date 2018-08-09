@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_createblendstate.htm
 old-project: direct3d11
 ms.assetid: 05b27d72-6ae5-4bab-8906-2d1373ea8d4c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 3e6800b8-cd67-743c-c74d-b23a9a29daea, CreateBlendState, CreateBlendState method [Direct3D 11], CreateBlendState method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateBlendState method, ID3D11Device.CreateBlendState, ID3D11Device::CreateBlendState, d3d11/ID3D11Device::CreateBlendState, direct3d11.id3d11device_createblendstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ Address of a pointer to the blend-state object created (see <a href="https://msd
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns E_OUTOFMEMORY if there is insufficient memory to create the blend-state object.
               See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> for other possible return values.

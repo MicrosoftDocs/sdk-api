@@ -7,7 +7,7 @@ old-location: mmc\iheaderctrl_setcolumntext.htm
 old-project: MMC
 ms.assetid: B760D7E1-DE2D-4E1A-898C-5EC1E99E9B91
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: IHeaderCtrl interface [MMC],SetColumnText method, IHeaderCtrl.SetColumnText, IHeaderCtrl::SetColumnText, SetColumnText, SetColumnText method [MMC], SetColumnText method [MMC],IHeaderCtrl interface, mmc.iheaderctrl_setcolumntext, mmc/IHeaderCtrl::SetColumnText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt300857(v=VS.85).aspx">IHeaderCtrl</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt300857(v=VS.85).aspx">IHeaderCtrl</a>
  
 
  

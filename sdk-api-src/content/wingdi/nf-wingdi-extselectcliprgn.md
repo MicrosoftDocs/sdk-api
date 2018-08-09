@@ -7,7 +7,7 @@ old-location: gdi\extselectcliprgn.htm
 old-project: gdi
 ms.assetid: d222defe-2ef9-4622-b2e1-462a91cb1b0a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ExtSelectClipRgn, ExtSelectClipRgn function [Windows GDI], RGN_AND, RGN_COPY, RGN_DIFF, RGN_OR, RGN_XOR, _win32_ExtSelectClipRgn, gdi.extselectcliprgn, wingdi/ExtSelectClipRgn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,14 +70,7 @@ A handle to the device context.
 A handle to the region to be selected. This handle must not be <b>NULL</b> unless the RGN_COPY mode is specified.
 
 
-### -param mode
-
-TBD
-
-
-
-
-#### - fnMode [in]
+### -param mode [in]
 
 The operation to be performed. It must be one of the following values.
 

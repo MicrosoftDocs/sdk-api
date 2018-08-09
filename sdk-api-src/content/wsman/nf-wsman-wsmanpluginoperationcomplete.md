@@ -4,10 +4,10 @@ title: WSManPluginOperationComplete function
 author: windows-sdk-content
 description: Reports the completion of an operation by all operation entry points except for the WSManPluginStartup and WSManPluginShutdown methods.
 old-location: winrm\wsmanpluginoperationcomplete.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: 6cb47762-edfc-48d7-88ec-d62056ea1751
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSManPluginOperationComplete, WSManPluginOperationComplete function [Windows Remote Management], winrm.wsmanpluginoperationcomplete, wsman/WSManPluginOperationComplete
 ms.prod: windows
 ms.technology: windows-sdk

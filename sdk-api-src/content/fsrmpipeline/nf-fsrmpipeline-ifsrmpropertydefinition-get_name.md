@@ -4,10 +4,10 @@ title: IFsrmPropertyDefinition::get_Name
 author: windows-sdk-content
 description: The name of the property.
 old-location: fsrm\ifsrmpropertydefinition_name.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: b6c72b75-ef12-4f66-91dc-460d2de8072d
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/01/2018
 ms.keywords: IFsrmPropertyDefinition interface [File Server Resource Manager],Name property, IFsrmPropertyDefinition.Name, IFsrmPropertyDefinition.get_Name, IFsrmPropertyDefinition::Name, IFsrmPropertyDefinition::get_Name, IFsrmPropertyDefinition::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_name, fsrm.ifsrmpropertydefinition_name, fsrmpipeline/IFsrmPropertyDefinition::Name, fsrmpipeline/IFsrmPropertyDefinition::get_Name, fsrmpipeline/IFsrmPropertyDefinition::put_Name, get_Name
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\swbemobjectpath_issingleton.htm
 old-project: WmiSdk
 ms.assetid: 0d0533be-89fe-4ab6-bafa-2da6195ff02c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemObjectPath interface [Windows Management Instrumentation],IsSingleton property, ISWbemObjectPath.get_IsSingleton, ISWbemObjectPath::get_IsSingleton, IsSingleton property [Windows Management Instrumentation], IsSingleton property [Windows Management Instrumentation],ISWbemObjectPath interface, IsSingleton property [Windows Management Instrumentation],SWbemObjectPath object, SWbemObjectPath object [Windows Management Instrumentation],IsSingleton property, SWbemObjectPath.IsSingleton, _hmm_swbemobjectpath.issingleton, get_IsSingleton, wmi.swbemobjectpath_issingleton
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\itfcompartmentmgr.htm
 old-project: TSF
 ms.assetid: 7cdc5c82-4aac-4ec9-b791-93cea33ba8d2
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfCompartmentMgr, ITfCompartmentMgr interface [Text Services Framework], ITfCompartmentMgr interface [Text Services Framework],described, _tsf_itfcompartmentmgr_ref, msctf/ITfCompartmentMgr, tsf.itfcompartmentmgr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,8 +107,7 @@ The set of compartments that this interface is responsible for depends upon how 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/801e2c3a-0445-4630-83ba-55f51ef2704e">
-              ITfThreadMgr::GetGlobalCompartment
+<a href="https://msdn.microsoft.com/801e2c3a-0445-4630-83ba-55f51ef2704e">ITfThreadMgr::GetGlobalCompartment
             </a> - Obtains the global compartment manager.</li>
 <li><b>ITfThreadMgr::QueryInterface</b> with IID_ITfCompartmentMgr - Obtains the compartment manager for this specific thread manager.</li>
 <li><b>ITfDocumentMgr::QueryInterface</b> with IID_ITfCompartmentMgr - Obtains the compartment manager for this specific document manager.</li>
@@ -131,7 +130,7 @@ The set of compartments that this interface is responsible for depends upon how 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

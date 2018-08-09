@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operation_cancel.htm
 old-project: wmi_v2
 ms.assetid: 11a9f9f6-9dfa-4f7c-9562-f4793c007f04
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_Operation_Cancel, MI_Operation_Cancel function [Windows Management Infrastructure (MI)], mi/MI_Operation_Cancel, wmi_v2.mi_operation_cancel
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_silent_property.htm
 old-project: seccertenroll
 ms.assetid: 4f61a513-620c-48c4-b9dd-032b13a9f654
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509PrivateKey interface [Security],Silent property, IX509PrivateKey.Silent, IX509PrivateKey.put_Silent, IX509PrivateKey::Silent, IX509PrivateKey::get_Silent, IX509PrivateKey::put_Silent, Silent property [Security], Silent property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Silent, certenroll/IX509PrivateKey::get_Silent, certenroll/IX509PrivateKey::put_Silent, put_Silent, security.ix509privatekey_silent_property
 ms.prod: windows
 ms.technology: windows-sdk

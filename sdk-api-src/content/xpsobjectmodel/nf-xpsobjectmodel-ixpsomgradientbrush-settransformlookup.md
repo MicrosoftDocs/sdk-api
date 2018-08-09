@@ -7,7 +7,7 @@ old-location: xps\ixpsomgradientbrush_settransformlookup.htm
 old-project: printdocs
 ms.assetid: 342434ff-9fdc-43ea-8beb-9d518f7a9454
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IXpsOMGradientBrush interface [XPS Documents and Packaging],SetTransformLookup method, IXpsOMGradientBrush.SetTransformLookup, IXpsOMGradientBrush::SetTransformLookup, SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging],IXpsOMGradientBrush interface, xps.ixpsomgradientbrush_settransformlookup, xpsobjectmodel/IXpsOMGradientBrush::SetTransformLookup
 ms.prod: windows
 ms.technology: windows-sdk

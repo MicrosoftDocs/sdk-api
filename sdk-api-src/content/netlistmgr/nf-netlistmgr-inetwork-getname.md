@@ -7,7 +7,7 @@ old-location: nla\inetwork_getname.htm
 old-project: nla
 ms.assetid: e0dd843e-5bba-4504-b0af-26c0c1ee73a9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: GetName, GetName method [Network Awareness], GetName method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetName method, INetwork.GetName, INetwork::GetName, netlistmgr/INetwork::GetName, nla.inetwork_getname
 ms.prod: windows
 ms.technology: windows-sdk

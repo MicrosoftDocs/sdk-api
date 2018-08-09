@@ -4,10 +4,10 @@ title: CredEnumerateA function
 author: windows-sdk-content
 description: Enumerates the credentials from the user's credential set.
 old-location: security\credenumerate.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: ef0b7620-7b00-45f1-af16-141d2e940783
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CRED_ENUMERATE_ALL_CREDENTIALS, CredEnumerate, CredEnumerate function [Security], CredEnumerateA, CredEnumerateW, _cred_credenumerate, security.credenumerate, wincred/CredEnumerate, wincred/CredEnumerateA, wincred/CredEnumerateW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,14 +104,7 @@ This function enumerates all of the credentials in the user's credential set. Th
 Count of the credentials returned in the <i>Credentials</i> array.
 
 
-### -param Credential
-
-TBD
-
-
-
-
-#### - Credentials [out]
+### -param Credential [out]
 
 Pointer to an array of pointers to credentials.
 The returned credential is a single allocated block. Any pointers contained within the buffer are pointers to locations within this single allocated block. The single returned buffer must be freed by calling <a href="https://msdn.microsoft.com/bc33ab1b-dd3f-4e1b-96d2-e32ceff89ada">CredFree</a>.

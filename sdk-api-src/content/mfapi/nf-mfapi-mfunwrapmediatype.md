@@ -7,7 +7,7 @@ old-location: mf\mfunwrapmediatype.htm
 old-project: medfound
 ms.assetid: 2cb6a5ae-315f-4de2-8817-da9d41db14b8
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 2cb6a5ae-315f-4de2-8817-da9d41db14b8, MFUnwrapMediaType, MFUnwrapMediaType function [Media Foundation], mf.mfunwrapmediatype, mfapi/MFUnwrapMediaType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Retrieves a media type that was wrapped in another media type by the <a href="https://msdn.microsoft.com/a3dd74bc-1f1c-40b9-a43e-d45ff621248f">MFWrapMediaType</a> function.
+Retrieves a media type that was wrapped in another media type by the <a href="https://msdn.microsoft.com/a3dd74bc-1f1c-40b9-a43e-d45ff621248f">MFWrapMediaType</a> function.
         
 
 
@@ -63,15 +62,13 @@ req.product: GDI+ 1.1
 
 ### -param pWrap
 
-
-            Pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface of the media type that was retrieved by <a href="https://msdn.microsoft.com/a3dd74bc-1f1c-40b9-a43e-d45ff621248f">MFWrapMediaType</a>.
+Pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface of the media type that was retrieved by <a href="https://msdn.microsoft.com/a3dd74bc-1f1c-40b9-a43e-d45ff621248f">MFWrapMediaType</a>.
           
 
 
 ### -param ppOrig
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface of the original media type. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface of the original media type. The caller must release the interface.
           
 
 

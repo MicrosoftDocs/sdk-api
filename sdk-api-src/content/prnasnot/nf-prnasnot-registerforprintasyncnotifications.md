@@ -7,7 +7,7 @@ old-location: gdi\registerforprintasyncnotifications.htm
 old-project: printdocs
 ms.assetid: f5a01819-75d0-42a0-b66f-5a25a48b091c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: RegisterForPrintAsyncNotifications, RegisterForPrintAsyncNotifications function [Windows GDI], _win32_RegisterForPrintAsyncNotifications, gdi.registerforprintasyncnotifications, prnasnot/RegisterForPrintAsyncNotifications
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,44 +59,17 @@ Enables an application to register for notifications from Print Spooler-hosted p
 
 
 
-### -param pszName
+### -param pszName [in]
 
-TBD
-
-
-### -param pNotificationType
-
-TBD
+A pointer to the name of a print server or print queue.
 
 
-### -param eUserFilter
+### -param pNotificationType [in]
 
-TBD
-
-
-### -param eConversationStyle
-
-TBD
+A pointer to the GUID of the data schema for the type of notifications that the application must receive.
 
 
-### -param pCallback [in]
-
-A pointer to an object that the Print Spooler-hosted component will use to call back the application. This should never be <b>NULL</b>.
-
-
-### -param phNotify
-
-TBD
-
-
-
-
-#### - directionality [in]
-
-A value specifying whether communication is bidirectional or unidirectional.
-
-
-#### - filter [in]
+### -param eUserFilter [in]
 
 A value specifying whether notifications will be sent to:
 
@@ -105,19 +78,19 @@ A value specifying whether notifications will be sent to:
 <li>A broader set of listening applications.</li>
 </ul>
 
-#### - pName [in]
+### -param eConversationStyle [in]
 
-A pointer to the name of a print server or print queue.
+A value specifying whether communication is bidirectional or unidirectional.
 
 
-#### - pRegistrationHandler [out]
+### -param pCallback [in]
+
+A pointer to an object that the Print Spooler-hosted component will use to call back the application. This should never be <b>NULL</b>.
+
+
+### -param phNotify [out]
 
 A pointer to a structure that represents the registration.
-
-
-#### - pSchema [in]
-
-A pointer to the GUID of the data schema for the type of notifications that the application must receive.
 
 
 ## -returns
@@ -217,10 +190,9 @@ See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">Pr
 <div> </div>
 To stop notifications through a unidirectional channel, the listening application passes the <i>pRegistrationHandler</i> value returned by <b>RegisterForPrintAsyncNotifications</b> to <a href="https://msdn.microsoft.com/2b039018-71c0-4110-8c0b-702927f58df4">UnRegisterForPrintAsyncNotifications</a>. For a bidirectional channel, call <b>UnRegisterForPrintAsyncNotifications</b> to block notifications in any new channels that were created after that call. To block notifications on existing bidirectional channels, the listening application must close the channel with <a href="https://msdn.microsoft.com/d5878cf1-c2c3-4f33-bc08-e4f868c8a5e7">IPrintAsyncNotifyChannel::CloseChannel</a>.
 
-As a result of a <b>RegisterForPrintAsyncNotifications</b> call, the <a href="https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx">IUnknown::AddRef</a> method is called for the <i>pCallback</i> object. Calling <a href="https://msdn.microsoft.com/2b039018-71c0-4110-8c0b-702927f58df4">UnRegisterForPrintAsyncNotifications</a> will release the <i>pCallback</i> object. The reference count of <i>pCallback</i> object will be also incremented when a channel is created and decremented when the channel is closed.
+As a result of a <b>RegisterForPrintAsyncNotifications</b> call, the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">IUnknown::AddRef</a> method is called for the <i>pCallback</i> object. Calling <a href="https://msdn.microsoft.com/2b039018-71c0-4110-8c0b-702927f58df4">UnRegisterForPrintAsyncNotifications</a> will release the <i>pCallback</i> object. The reference count of <i>pCallback</i> object will be also incremented when a channel is created and decremented when the channel is closed.
 
-
-        The <i>pSchema</i> parameter is a GUID pointer that the spooler accepts and uses to filter the listener clients. Any client of the spooler asynchronous notification mechanism can define its own notification type. Even though the spooler is unaware of the notification type that is sent, it still filters the listener clients based on the notification type. The notification schema that <i>pSchema</i> references is the schema that is used by the notification object that exposes <a href="https://msdn.microsoft.com/fd0e1f30-c54e-418c-8081-664edebaad61">IPrintAsyncNotifyDataObject</a>. Clients of the spooler notification pipe can define their own data schema and can send any data type back and forth and the GUID referenced by <i>pSchema</i> is unique to that data schema.
+The <i>pSchema</i> parameter is a GUID pointer that the spooler accepts and uses to filter the listener clients. Any client of the spooler asynchronous notification mechanism can define its own notification type. Even though the spooler is unaware of the notification type that is sent, it still filters the listener clients based on the notification type. The notification schema that <i>pSchema</i> references is the schema that is used by the notification object that exposes <a href="https://msdn.microsoft.com/fd0e1f30-c54e-418c-8081-664edebaad61">IPrintAsyncNotifyDataObject</a>. Clients of the spooler notification pipe can define their own data schema and can send any data type back and forth and the GUID referenced by <i>pSchema</i> is unique to that data schema.
 
 
 

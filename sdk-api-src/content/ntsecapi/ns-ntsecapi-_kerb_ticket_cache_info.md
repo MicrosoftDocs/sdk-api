@@ -7,7 +7,7 @@ old-location: security\kerb_ticket_cache_info.htm
 old-project: secauthn
 ms.assetid: e9ac70f0-65dc-4c5a-b41f-7c4659680333
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: "*PKERB_TICKET_CACHE_INFO, KERB_TICKET_CACHE_INFO, KERB_TICKET_CACHE_INFO structure [Security], KERB_TICKET_FLAGS_forwardable, KERB_TICKET_FLAGS_forwarded, KERB_TICKET_FLAGS_hw_authent, KERB_TICKET_FLAGS_initial, KERB_TICKET_FLAGS_invalid, KERB_TICKET_FLAGS_may_postdate, KERB_TICKET_FLAGS_ok_as_delegate, KERB_TICKET_FLAGS_postdated, KERB_TICKET_FLAGS_pre_authent, KERB_TICKET_FLAGS_proxiable, KERB_TICKET_FLAGS_proxy, KERB_TICKET_FLAGS_renewable, KERB_TICKET_FLAGS_reserved, KERB_TICKET_FLAGS_reserved1, PKERB_TICKET_CACHE_INFO, PKERB_TICKET_CACHE_INFO structure pointer [Security], _KERB_TICKET_CACHE_INFO, _lsa_kerb_ticket_cache_info, ntsecapi/KERB_TICKET_CACHE_INFO, ntsecapi/PKERB_TICKET_CACHE_INFO, security.kerb_ticket_cache_info"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE
 
 ### -field StartTime
 
-
-						A <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the time at which the ticket becomes valid. If the <b>starttime</b> member of the ticket is not set, this value defaults to the time when the ticket was initially authenticated, <b>authtime</b>. The <b>starttime</b> member of a ticket is optional.
+A <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the time at which the ticket becomes valid. If the <b>starttime</b> member of the ticket is not set, this value defaults to the time when the ticket was initially authenticated, <b>authtime</b>. The <b>starttime</b> member of a ticket is optional.
 
 
 ### -field EndTime

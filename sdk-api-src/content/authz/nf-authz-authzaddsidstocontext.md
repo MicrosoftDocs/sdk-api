@@ -7,7 +7,7 @@ old-location: security\authzaddsidstocontext.htm
 old-project: secauthz
 ms.assetid: 4744013b-7f2e-4ebb-8944-10ffcc6006d0
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AuthzAddSidsToContext, AuthzAddSidsToContext function [Security], _win32_authzaddsidstocontext, authz/AuthzAddSidsToContext, security.authzaddsidstocontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,9 +58,9 @@ The <b>AuthzAddSidsToContext</b> function creates a copy of an existing context 
 
 
 
-### -param hAuthzClientContext
+### -param hAuthzClientContext [in]
 
-TBD
+An <b>AUTHZ_CLIENT_CONTEXT_HANDLE</b> structure to be copied as the basis for <i>NewClientContext</i>.
 
 
 ### -param Sids [in]
@@ -84,19 +84,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 Number of restricted SIDs to be added.
 
 
-### -param phNewAuthzClientContext
-
-TBD
-
-
-
-
-#### - OrigClientContext [in]
-
-An <b>AUTHZ_CLIENT_CONTEXT_HANDLE</b> structure to be copied as the basis for <i>NewClientContext</i>.
-
-
-#### - pNewClientContext [out]
+### -param phNewAuthzClientContext [out]
 
 A pointer to the created <b>AUTHZ_CLIENT_CONTEXT_HANDLE</b> structure containing input values for expiration time, identifier, flags, additional SIDs and restricted SIDs.
 
@@ -118,7 +106,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
 
 
 

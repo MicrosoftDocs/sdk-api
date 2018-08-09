@@ -7,7 +7,7 @@ old-location: wmi\swbemlocator_security_.htm
 old-project: WmiSdk
 ms.assetid: 75987bef-21ae-4420-b069-afab90499218
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemLocator interface [Windows Management Instrumentation],Security_ property, ISWbemLocator.get_Security_, ISWbemLocator::get_Security_, SWbemLocator object [Windows Management Instrumentation],Security_ property, SWbemLocator.Security_, Security_ property [Windows Management Instrumentation], Security_ property [Windows Management Instrumentation],ISWbemLocator interface, Security_ property [Windows Management Instrumentation],SWbemLocator object, _hmm_swbemlocator.security_, get_Security_, wmi.swbemlocator_security_
 ms.prod: windows
 ms.technology: windows-sdk

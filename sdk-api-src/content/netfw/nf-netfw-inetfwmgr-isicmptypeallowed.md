@@ -7,7 +7,7 @@ old-location: ics\inetfwmgr_isicmptypeallowed.htm
 old-project: ics
 ms.assetid: 9ff5ef3b-581e-4ce5-9424-dafb08cfe067
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INetFwMgr interface [ICS/ICF],IsIcmpTypeAllowed method, INetFwMgr.IsIcmpTypeAllowed, INetFwMgr::IsIcmpTypeAllowed, IsIcmpTypeAllowed, IsIcmpTypeAllowed method [ICS/ICF], IsIcmpTypeAllowed method [ICS/ICF],INetFwMgr interface, ics.inetfwmgr_isicmptypeallowed, netfw/INetFwMgr::IsIcmpTypeAllowed
 ms.prod: windows
 ms.technology: windows-sdk
@@ -168,8 +168,7 @@ The method failed because a pointer was not valid.
  
 
 <h3>VB</h3>
-
-						If the method succeeds the return value is <b>S_OK</b>.
+If the method succeeds the return value is <b>S_OK</b>.
 
 If the method fails, the return value is one of the following error codes.
 

@@ -4,10 +4,10 @@ title: Matrix3x2F::Determinant
 author: windows-sdk-content
 description: Calculates the determinant of the matrix.
 old-location: direct2d\matrix3x2f_determinant.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 0b403b67-11a7-48cf-9e29-ce29f8511749
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D2D1.Matrix3x2F.Determinant, D2D1::Matrix3x2F::Determinant, Determinant, Determinant method [Direct2D], Determinant method [Direct2D],Matrix3x2F interface, Matrix3x2F interface [Direct2D],Determinant method, Matrix3x2F.Determinant, Matrix3x2F::Determinant, d2d1helper/Matrix3x2F::Determinant, direct2d.matrix3x2f_determinant
 ms.prod: windows
 ms.technology: windows-sdk

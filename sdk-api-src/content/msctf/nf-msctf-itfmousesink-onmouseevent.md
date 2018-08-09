@@ -7,7 +7,7 @@ old-location: tsf\itfmousesink_onmouseevent.htm
 old-project: TSF
 ms.assetid: 1aa4fdb7-b16d-4e58-934a-8323450f6749
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfMouseSink interface [Text Services Framework],OnMouseEvent method, ITfMouseSink.OnMouseEvent, ITfMouseSink::OnMouseEvent, OnMouseEvent, OnMouseEvent method [Text Services Framework], OnMouseEvent method [Text Services Framework],ITfMouseSink interface, _tsf_itfmousesink_onmouseevent_ref, msctf/ITfMouseSink::OnMouseEvent, tsf.itfmousesink_onmouseevent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Contains the zero-based quadrant index, relative to the edge, that the mouse pos
 
 ### -param dwBtnStatus [in]
 
-Indicates the mouse button state at the time of the event. See the <i>wParam</i> parameter of the <a href="https://msdn.microsoft.com/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> message for possible values.
+Indicates the mouse button state at the time of the event. See the <i>wParam</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> message for possible values.
 
 
 ### -param pfEaten [out]
@@ -132,13 +132,12 @@ The caller should translate double-click events into multiple mouse button down 
 
 
 
-<a href="https://msdn.microsoft.com/365538cd-0f18-45ce-91c2-ee3255b7fa93">
-        ITfMouseTrackerACP::AdviseMouseSink
+<a href="https://msdn.microsoft.com/365538cd-0f18-45ce-91c2-ee3255b7fa93">ITfMouseTrackerACP::AdviseMouseSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a>
  
 
  

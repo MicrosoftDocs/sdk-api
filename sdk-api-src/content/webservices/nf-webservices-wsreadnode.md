@@ -7,7 +7,7 @@ old-location: wsw\wsreadnode.htm
 old-project: wsw
 ms.assetid: 60dacf3e-ebde-4247-be58-835565874ab6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsReadNode, WsReadNode function [Web Services for Windows], webservices/WsReadNode, wsw.wsreadnode
 ms.prod: windows
 ms.technology: windows-sdk

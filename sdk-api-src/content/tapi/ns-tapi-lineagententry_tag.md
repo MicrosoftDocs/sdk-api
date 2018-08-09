@@ -4,10 +4,10 @@ title: lineagententry_tag
 author: windows-sdk-content
 description: The LINEAGENTENTRY structure describes an individual ACD agent. The LINEAGENTLIST structure can contain an array of LINEAGENTENTRY structures.
 old-location: tapi2\lineagententry_str.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 89feff58-3396-4999-be24-4d14839378e1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: "*LPLINEAGENTENTRY, LINEAGENTENTRY, LINEAGENTENTRY structure [TAPI 2.2], LPLINEAGENTENTRY, LPLINEAGENTENTRY structure pointer [TAPI 2.2], _tapi2_lineagententry_str, lineagententry_tag, tapi/LINEAGENTENTRY, tapi/LPLINEAGENTENTRY, tapi2.lineagententry_str"
 ms.prod: windows
 ms.technology: windows-sdk

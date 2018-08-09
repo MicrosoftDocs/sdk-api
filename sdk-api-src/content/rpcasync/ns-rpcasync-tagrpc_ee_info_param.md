@@ -7,7 +7,7 @@ old-location: rpc\rpc_ee_info_param.htm
 old-project: rpc
 ms.assetid: a201f8f3-6e74-4550-9738-d5415340994b
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RPC_EE_INFO_PARAM, RPC_EE_INFO_PARAM structure [RPC], _rpc_rpc_ee_info_param, rpc.rpc_ee_info_param, rpcasync/RPC_EE_INFO_PARAM, tagRPC_EE_INFO_PARAM
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\gdigradientfill.htm
 old-project: gdi
 ms.assetid: c88c1137-5690-4139-9d10-90d036e8f31c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GRADIENT_FILL_RECT_H, GRADIENT_FILL_RECT_V, GRADIENT_FILL_TRIANGLE, GdiGradientFill, GdiGradientFill function [Windows GDI], gdi.gdigradientfill, wingdi/GdiGradientFill
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,9 +72,9 @@ A handle to the destination device context.
 A pointer to an array of <a href="https://msdn.microsoft.com/47b700aa-3410-4610-ba06-dab2b2662f5e">TRIVERTEX</a> structures that each define a triangle vertex.
 
 
-### -param nVertex
+### -param nVertex [in]
 
-TBD
+The number of vertices in <i>pVertex</i>.
 
 
 ### -param pMesh [in]
@@ -82,19 +82,12 @@ TBD
 An array of <a href="https://msdn.microsoft.com/71f3a4bd-5823-47ae-aa7a-f3058f18c591">GRADIENT_TRIANGLE</a> structures in triangle mode, or an array of <a href="https://msdn.microsoft.com/8660114a-423f-40a8-b113-e0304bb0f383">GRADIENT_RECT</a> structures in rectangle mode.
 
 
-### -param nCount
+### -param nCount [in]
 
-TBD
-
-
-### -param ulMode
-
-TBD
+The number of elements (triangles or rectangles) in <i>pMesh</i>.
 
 
-
-
-#### - dwMode [in]
+### -param ulMode [in]
 
 The gradient fill mode. This parameter can be one of the following values.
 
@@ -135,16 +128,6 @@ In this mode, an array of <a href="https://msdn.microsoft.com/47b700aa-3410-4610
 </tr>
 </table>
  
-
-
-#### - dwNumMesh [in]
-
-The number of elements (triangles or rectangles) in <i>pMesh</i>.
-
-
-#### - dwNumVertex [in]
-
-The number of vertices in <i>pVertex</i>.
 
 
 ## -returns

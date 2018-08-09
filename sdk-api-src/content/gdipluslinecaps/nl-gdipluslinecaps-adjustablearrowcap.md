@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcap.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: AdjustableArrowCap, AdjustableArrowCap class [GDI+], AdjustableArrowCap class [GDI+],described, _gdiplus_CLASS_AdjustableArrowCap_Class, gdiplus._gdiplus_CLASS_AdjustableArrowCap_Class, gdipluslinecaps/AdjustableArrowCap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>AdjustableArrowCap</b> class is a subclass of the <a href="https://msdn.microsoft.com/library/ms534432(v=VS.85).aspx">CustomLineCap</a>. This class builds a line cap that looks like an arrow.
+The <b>AdjustableArrowCap</b> class is a subclass of the <a href="https://msdn.microsoft.com/en-us/library/ms534432(v=VS.85).aspx">CustomLineCap</a>. This class builds a line cap that looks like an arrow.
 
 
 ## -remarks
@@ -59,10 +59,9 @@ The <b>AdjustableArrowCap</b> class is a subclass of the <a href="https://msdn.m
 
 
 A line cap is the shape on the end of a line. Use the 
-				<a href="https://msdn.microsoft.com/library/ms535046(v=VS.85).aspx">Pen::SetCustomStartCap</a> and 
-				<a href="https://msdn.microsoft.com/library/ms535045(v=VS.85).aspx">Pen::SetCustomEndCap</a> methods to associate an <b>AdjustableArrowCap</b> object with a 
-				<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a>
- object.
+				<a href="https://msdn.microsoft.com/en-us/library/ms535046(v=VS.85).aspx">Pen::SetCustomStartCap</a> and 
+				<a href="https://msdn.microsoft.com/en-us/library/ms535045(v=VS.85).aspx">Pen::SetCustomEndCap</a> methods to associate an <b>AdjustableArrowCap</b> object with a 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>object.
 
 
 

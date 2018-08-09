@@ -4,10 +4,10 @@ title: IValidate::OpenDatabase
 author: windows-sdk-content
 description: The OpenDatabase method opens a Windows Installer installation package or merge module for validation.
 old-location: setup\ivalidate_opendatabase.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 3f295eea-5f6b-4afa-b0ac-55606086b2b2
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: IValidate interface,OpenDatabase method, IValidate.OpenDatabase, IValidate::OpenDatabase, OpenDatabase, OpenDatabase method, OpenDatabase method,IValidate interface, evalcom2/IValidate::OpenDatabase, setup.ivalidate_opendatabase
 ms.prod: windows
 ms.technology: windows-sdk

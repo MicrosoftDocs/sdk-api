@@ -4,10 +4,10 @@ title: CertOpenSystemStoreA function
 author: windows-sdk-content
 description: Opens the most common system certificate store. To open certificate stores with more complex requirements, such as file-based or memory-based stores, use CertOpenStore.
 old-location: security\certopensystemstore.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 23699439-1a6c-4907-93fa-651024856be7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CA, CertOpenSystemStore, CertOpenSystemStore function [Security], CertOpenSystemStoreA, CertOpenSystemStoreW, MY, ROOT, SPC, _crypto2_certopensystemstore, security.certopensystemstore, wincrypt/CertOpenSystemStore, wincrypt/CertOpenSystemStoreA, wincrypt/CertOpenSystemStoreW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,13 @@ The <b>CertOpenSystemStore</b> function is a simplified function that opens the 
 
 
 
-### -param hProv
+### -param hProv [in]
 
-TBD
+This parameter is not used and should be set to <b>NULL</b>.
+
+<b>Windows Server 2003 and Windows XP:  </b>A handle of a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP). Set <i>hProv</i> to <b>NULL</b> to use the default CSP. If <i>hProv</i> is not <b>NULL</b>, it must be a CSP handle created by using the <a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a> function.This parameter's data type is <b>HCRYPTPROV</b>.
+
+
 
 
 ### -param szSubsystemProtocol [in]
@@ -117,15 +121,6 @@ A certificate store that holds certificates with associated private keys.
 </tr>
 </table>
  
-
-
-#### - hprov [in]
-
-This parameter is not used and should be set to <b>NULL</b>.
-
-<b>Windows Server 2003 and Windows XP:  </b>A handle of a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP). Set <i>hProv</i> to <b>NULL</b> to use the default CSP. If <i>hProv</i> is not <b>NULL</b>, it must be a CSP handle created by using the <a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a> function.This parameter's data type is <b>HCRYPTPROV</b>.
-
-
 
 
 ## -returns

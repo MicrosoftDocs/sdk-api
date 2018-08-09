@@ -7,7 +7,7 @@ old-location: battery\batteryminiquerystatus.htm
 old-project: battery
 ms.assetid: 04811f63-8a57-4b39-84c5-c9b7f803c057
 ms.author: windowssdkdev
-ms.date: 02/16/2018
+ms.date: 07/30/2018
 ms.keywords: BCLASS_QUERY_STATUS_CALLBACK, BCLASS_QUERY_STATUS_CALLBACK callback, BatteryMiniQueryStatus, BatteryMiniQueryStatus callback function [Battery Devices], bat-mini_49ffd352-4020-4dd0-92ab-7af4c0dd9074.xml, batclass/BatteryMiniQueryStatus, battery.batteryminiquerystatus
 ms.prod: windows
 ms.technology: windows-sdk

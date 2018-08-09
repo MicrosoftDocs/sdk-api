@@ -7,7 +7,7 @@ old-location: wmi\iwbempathkeylist_removekey.htm
 old-project: WmiSdk
 ms.assetid: 07166023-2945-49d5-9d2d-8cac12053ed9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: IWbemPathKeyList interface [Windows Management Instrumentation],RemoveKey method, IWbemPathKeyList.RemoveKey, IWbemPathKeyList::RemoveKey, RemoveKey, RemoveKey method [Windows Management Instrumentation], RemoveKey method [Windows Management Instrumentation],IWbemPathKeyList interface, _hmm_iwbempathkeylist_removekey, wmi.iwbempathkeylist_removekey, wmiutils/IWbemPathKeyList::RemoveKey
 ms.prod: windows
 ms.technology: windows-sdk

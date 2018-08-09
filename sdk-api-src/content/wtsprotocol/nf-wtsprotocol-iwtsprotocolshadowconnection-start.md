@@ -4,10 +4,10 @@ title: IWTSProtocolShadowConnection::Start
 author: windows-sdk-content
 description: IWTSProtocolShadowConnection::Start is no longer available. Instead, use IWRdsProtocolShadowConnection::Start.
 old-location: termserv\iwtsprotocolshadowconnection_start.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 7bfe0c45-551f-47bb-a855-6965fed224dc
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWTSProtocolShadowConnection interface [Remote Desktop Services],Start method, IWTSProtocolShadowConnection.Start, IWTSProtocolShadowConnection::Start, Start, Start method [Remote Desktop Services], Start method [Remote Desktop Services],IWTSProtocolShadowConnection interface, termserv.iwtsprotocolshadowconnection_start, wtsprotocol/IWTSProtocolShadowConnection::Start
 ms.prod: windows
 ms.technology: windows-sdk

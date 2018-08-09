@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetSmoothingMode_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getsmoothingmode.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetSmoothingMode, GetSmoothingMode method [GDI+], GetSmoothingMode method [GDI+],Graphics class, Graphics class [GDI+],GetSmoothingMode method, Graphics.GetSmoothingMode, Graphics::GetSmoothingMode, _gdiplus_CLASS_Graphics_GetSmoothingMode_, gdiplus._gdiplus_CLASS_Graphics_GetSmoothingMode_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,13 +66,13 @@ The <b>Graphics::GetSmoothingMode</b> method determines whether smoothing (antia
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534173(v=VS.85).aspx">SmoothingMode</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534173(v=VS.85).aspx">SmoothingMode</a></b>
 </strong>
 
 If smoothing (antialiasing) is applied to this 
 						<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object, this method returns SmoothingModeAntiAlias. If smoothing (antialiasing) is not applied to this 
 						<b>Graphics</b> object, this method returns SmoothingModeNone. SmoothingModeAntiAlias and SmoothingModeNone are elements of the 
-						<a href="https://msdn.microsoft.com/library/ms534173(v=VS.85).aspx">SmoothingMode</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534173(v=VS.85).aspx">SmoothingMode</a> enumeration.
 
 
 
@@ -82,7 +82,7 @@ If smoothing (antialiasing) is applied to this
 
 
 To get the rendering quality level for text, use the 
-				<a href="https://msdn.microsoft.com/library/ms535728(v=VS.85).aspx">Graphics::GetTextRenderingHint</a> method.
+				<a href="https://msdn.microsoft.com/en-us/library/ms535728(v=VS.85).aspx">Graphics::GetTextRenderingHint</a> method.
 
 
 #### Examples
@@ -131,7 +131,7 @@ The following example sets the smoothing mode to high speed and draws an ellipse
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536351(v=VS.85).aspx">Antialiasing with Lines and Curves</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536351(v=VS.85).aspx">Antialiasing with Lines and Curves</a>
 
 
 
@@ -139,11 +139,11 @@ The following example sets the smoothing mode to high speed and draws an ellipse
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533830(v=VS.85).aspx">Loading and Displaying Bitmaps</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533830(v=VS.85).aspx">Loading and Displaying Bitmaps</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mstv\iisdb_emm_getdatabytes.htm
 old-project: mstv
 ms.assetid: 71d92f83-f802-4b5c-a3de-4a2ad675318a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetDataBytes, GetDataBytes method [Microsoft TV Technologies], GetDataBytes method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetDataBytes method, IISDB_EMM.GetDataBytes, IISDB_EMM::GetDataBytes, dvbsiparser/IISDB_EMM::GetDataBytes, mstv.iisdb_emm_getdatabytes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Gets the data 
+Gets the data 
   from an Integrated Services
   Digital Broadcasting (ISDB) entitlement management message (EMM) table.
   

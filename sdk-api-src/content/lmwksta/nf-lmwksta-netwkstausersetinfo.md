@@ -7,7 +7,7 @@ old-location: netmgmt\netwkstausersetinfo.htm
 old-project: netmgmt
 ms.assetid: d48667a3-5ae9-4a7d-9af6-14f08835940d
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: 1, 1101, NetWkstaUserSetInfo, NetWkstaUserSetInfo function [Network Management], _win32_netwkstausersetinfo, lmwksta/NetWkstaUserSetInfo, netmgmt.netwkstausersetinfo
 ms.prod: windows
 ms.technology: windows-sdk

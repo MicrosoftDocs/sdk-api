@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_createapplicationgroup.htm
 old-project: secauthz
 ms.assetid: d9a78aaa-189b-4878-a5ba-fb6fb8927c5e
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AzAuthorizationStore object [Security],CreateApplicationGroup method, CreateApplicationGroup, CreateApplicationGroup method [Security], CreateApplicationGroup method [Security],AzAuthorizationStore object, CreateApplicationGroup method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],CreateApplicationGroup method, IAzAuthorizationStore.CreateApplicationGroup, IAzAuthorizationStore::CreateApplicationGroup, azroles/IAzAuthorizationStore::CreateApplicationGroup, security.azauthorizationstore_createapplicationgroup
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\itfcomposition.htm
 old-project: TSF
 ms.assetid: b1eb5782-13e3-4cbb-8c37-ce7219d1e838
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfComposition, ITfComposition interface [Text Services Framework], ITfComposition interface [Text Services Framework],described, _tsf_itfcomposition_ref, msctf/ITfComposition, tsf.itfcomposition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,7 +122,7 @@ Moves the start anchor of a composition.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

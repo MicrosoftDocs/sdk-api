@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptionfactory3_encryptbundle.htm
 old-project: appxpkg
 ms.assetid: 4ECF7227-08A1-4AEB-8545-420090131FB8
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: EncryptBundle, EncryptBundle method [App packaging and management], EncryptBundle method [App packaging and management],IAppxEncryptionFactory3 interface, IAppxEncryptionFactory3 interface [App packaging and management],EncryptBundle method, IAppxEncryptionFactory3.EncryptBundle, IAppxEncryptionFactory3::EncryptBundle, appxpackaging/IAppxEncryptionFactory3::EncryptBundle, appxpkg.iappxencryptionfactory3_encryptbundle
 ms.prod: windows
 ms.technology: windows-sdk

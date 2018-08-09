@@ -7,7 +7,7 @@ old-location: multimedia\drawdibupdate.htm
 old-project: Multimedia
 ms.assetid: 049a513a-bae1-4551-8700-cef417ed5373
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DrawDibUpdate, DrawDibUpdate macro [Windows Multimedia], _win32_DrawDibUpdate, multimedia.drawdibupdate, vfw/DrawDibUpdate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,24 +74,10 @@ Handle of the DC.
 
 ### -param x
 
-TBD
-
-
-### -param y
-
-TBD
-
-
-
-
-
-
-#### - xDst
-
 The x-coordinate, in MM_TEXT client coordinates, of the upper left corner of the destination rectangle. 
 
 
-#### - yDst
+### -param y
 
 The y-coordinate, in MM_TEXT client coordinates, of the upper left corner of the destination rectangle. 
 

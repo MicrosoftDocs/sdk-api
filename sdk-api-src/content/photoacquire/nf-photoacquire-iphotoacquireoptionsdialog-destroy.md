@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquireoptionsdialog_destroy.htm
 old-project: acquisition
 ms.assetid: 787e12e9-b134-416a-9191-5a2cc6a922fd
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: Destroy, Destroy method [Picture Acquisition], Destroy method [Picture Acquisition],IPhotoAcquireOptionsDialog interface, IPhotoAcquireOptionsDialog interface [Picture Acquisition],Destroy method, IPhotoAcquireOptionsDialog.Destroy, IPhotoAcquireOptionsDialog::Destroy, IPhotoAcquireOptionsDialogDestroy, photoacquire/IPhotoAcquireOptionsDialog::Destroy, picacq.iphotoacquireoptionsdialog_destroy
 ms.prod: windows
 ms.technology: windows-sdk

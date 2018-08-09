@@ -7,7 +7,7 @@ old-location: rpc\rpcnsgroupmbrinqdone.htm
 old-project: rpc
 ms.assetid: fe40be4d-1468-429a-aa20-694467076bde
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcNsGroupMbrInqDone, RpcNsGroupMbrInqDone function [RPC], _rpc_rpcnsgroupmbrinqdone, rpc.rpcnsgroupmbrinqdone, rpcnsi/RpcNsGroupMbrInqDone
 ms.prod: windows
 ms.technology: windows-sdk

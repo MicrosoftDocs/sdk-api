@@ -7,7 +7,7 @@ old-location: controls\ListView_SetView.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setview.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_SetView, ListView_SetView macro [Windows Controls], _win32_ListView_SetView, _win32_ListView_SetView_cpp, commctrl/ListView_SetView, controls.ListView_SetView, controls._win32_ListView_SetView
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the view of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761220(v=VS.85).aspx">LVM_SETVIEW</a> message explicitly. 
+Sets the view of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761220(v=VS.85).aspx">LVM_SETVIEW</a> message explicitly. 
 
 
 ## -parameters
@@ -70,13 +70,13 @@ A handle to the list-view control.
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 <b>DWORD</b>
-<a href="https://msdn.microsoft.com/library/Bb761220(v=VS.85).aspx">LVM_SETVIEW</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761220(v=VS.85).aspx">LVM_SETVIEW</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_SetView</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_SetView</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

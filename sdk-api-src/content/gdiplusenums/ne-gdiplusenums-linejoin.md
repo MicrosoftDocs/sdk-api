@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_LineJoin.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\linejoin.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: LineJoin, LineJoin enumeration [GDI+], LineJoinBevel, LineJoinMiter, LineJoinMiterClipped, LineJoinRound, _gdiplus_ENUM_LineJoin, gdiplus._gdiplus_ENUM_LineJoin, gdiplusenums/LineJoin, gdiplusenums/LineJoinBevel, gdiplusenums/LineJoinMiter, gdiplusenums/LineJoinMiterClipped, gdiplusenums/LineJoinRound
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,11 +99,11 @@ When using <b><b>LineJoinMiterClipped</b></b> and the miter limit is exceeded, t
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535053(v=VS.85).aspx">Pen::SetLineJoin</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535053(v=VS.85).aspx">Pen::SetLineJoin</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535054(v=VS.85).aspx">Pen::SetMiterLimit</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535054(v=VS.85).aspx">Pen::SetMiterLimit</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: nla\inetworklistmanager_getnetworks.htm
 old-project: nla
 ms.assetid: 547ab687-b323-4fd7-8c08-80a79352a626
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: GetNetworks, GetNetworks method [Network Awareness], GetNetworks method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetNetworks method, INetworkListManager.GetNetworks, INetworkListManager::GetNetworks, netlistmgr/INetworkListManager::GetNetworks, nla.inetworklistmanager_getnetworks
 ms.prod: windows
 ms.technology: windows-sdk

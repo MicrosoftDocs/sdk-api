@@ -4,10 +4,10 @@ title: CreateFileMappingA function
 author: windows-sdk-content
 description: Creates or opens a named or unnamed file mapping object for a specified file.
 old-location: base\createfilemapping.htm
-old-project: Memory
+old-project: memory
 ms.assetid: d3302183-76a0-47ec-874f-1173db353dfe
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateFileMapping, CreateFileMapping function, CreateFileMappingA, CreateFileMappingW, PAGE_EXECUTE_READ, PAGE_EXECUTE_READWRITE, PAGE_EXECUTE_WRITECOPY, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOPY, SEC_COMMIT, SEC_IMAGE, SEC_IMAGE_NO_EXECUTE, SEC_LARGE_PAGES, SEC_NOCACHE, SEC_RESERVE, SEC_WRITECOMBINE, _win32_createfilemapping, base.createfilemapping, fs.createfilemapping, winbase/CreateFileMapping, winbase/CreateFileMappingA, winbase/CreateFileMappingW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,9 +96,19 @@ If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b>, the calling process
        of a specified size  that is backed by the system paging file instead of by a file in the file system.
 
 
-### -param lpFileMappingAttributes
+### -param lpFileMappingAttributes [in, optional]
 
-TBD
+A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> 
+       structure that determines whether a returned handle can be inherited by child processes. The 
+      <b>lpSecurityDescriptor</b> member of the 
+      <b>SECURITY_ATTRIBUTES</b> structure specifies a 
+      security descriptor for a new file mapping object.
+
+If <i>lpAttributes</i> is <b>NULL</b>, the handle cannot be inherited 
+      and the file mapping object gets a default security descriptor. The access control lists (ACL) in the default 
+      security descriptor for a file mapping object come from the primary or impersonation token of the creator. For 
+      more information, see 
+      <a href="https://msdn.microsoft.com/8bbf7c98-ff83-4ed9-8b82-f08dcd31295c">File Mapping Security and Access Rights</a>.
 
 
 ### -param flProtect [in]
@@ -427,21 +437,6 @@ The name can have a "Global\" or "Local\" prefix to explicitly create the
 Fast user switching is implemented by using Terminal Services sessions. The first user to log on uses session 
        0 (zero), the next user to log on uses session 1 (one), and so on. Kernel object names must follow the 
        guidelines that are outlined for Terminal Services so that applications can support multiple users.
-
-
-#### - lpAttributes [in, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> 
-       structure that determines whether a returned handle can be inherited by child processes. The 
-      <b>lpSecurityDescriptor</b> member of the 
-      <b>SECURITY_ATTRIBUTES</b> structure specifies a 
-      security descriptor for a new file mapping object.
-
-If <i>lpAttributes</i> is <b>NULL</b>, the handle cannot be inherited 
-      and the file mapping object gets a default security descriptor. The access control lists (ACL) in the default 
-      security descriptor for a file mapping object come from the primary or impersonation token of the creator. For 
-      more information, see 
-      <a href="https://msdn.microsoft.com/8bbf7c98-ff83-4ed9-8b82-f08dcd31295c">File Mapping Security and Access Rights</a>.
 
 
 ## -returns

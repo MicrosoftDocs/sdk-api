@@ -7,7 +7,7 @@ old-location: eaphost\eapmethodauthenticatorinitialize.htm
 old-project: eaphost
 ms.assetid: 19484962-01fa-4abe-a6b4-c05b8112b0aa
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapMethodAuthenticatorInitialize, EapMethodAuthenticatorInitialize function [EAPHost], eaphost.eapmethodauthenticatorinitialize, eapmethodauthenticatorapis/EapMethodAuthenticatorInitialize
 ms.prod: windows
 ms.technology: windows-sdk

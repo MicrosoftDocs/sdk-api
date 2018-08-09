@@ -7,7 +7,7 @@ old-location: winauto\createstdaccessibleproxy.htm
 old-project: WinAuto
 ms.assetid: 724b2a38-f7ca-4423-acd4-0871623d1201
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: CreateStdAccessibleProxy, CreateStdAccessibleProxy function [Windows Accessibility], CreateStdAccessibleProxyA, CreateStdAccessibleProxyW, _msaa_CreateStdAccessibleProxy, msaa.createstdaccessibleproxy, oleacc/CreateStdAccessibleProxy, oleacc/CreateStdAccessibleProxyA, oleacc/CreateStdAccessibleProxyW, winauto.createstdaccessibleproxy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,21 +68,25 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Window handle of the system-provided user interface element (a control) for which an accessible object is created.
 
 
-### -param pClassName
+### -param pClassName [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
+
+Pointer to a null-terminated string of the class name of a system-provided user interface element for which an accessible object is created. The window class name is one of the common controls (defined in Comctl32.dll), predefined controls (defined in User32.dll), or window elements.
 
 
 ### -param idObject [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
 
-Object ID. This value is usually <a href="https://msdn.microsoft.com/library/Aa377982(v=VS.85).aspx">OBJID_CLIENT</a>, which is one of the object identifier constants, but it may be another object identifier.
+Object ID. This value is usually <a href="https://msdn.microsoft.com/en-us/library/Dd373606(v=VS.85).aspx">OBJID_CLIENT</a>, which is one of the object identifier constants, but it may be another object identifier.
 
 
-### -param riid
+### -param riid [in]
 
-TBD
+Type: <b>REFIID</b>
+
+Reference identifier of the interface requested. This value is one of the following: IID_IAccessible, IID_IDispatch, IID_IEnumVARIANT, or IID_IUnknown.
 
 
 ### -param ppvObject [out]
@@ -90,20 +94,6 @@ TBD
 Type: <b>void**</b>
 
 Address of a pointer variable that receives the address of the specified interface.
-
-
-#### - pszClassName [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
-
-Pointer to a null-terminated string of the class name of a system-provided user interface element for which an accessible object is created. The window class name is one of the common controls (defined in Comctl32.dll), predefined controls (defined in User32.dll), or window elements.
-
-
-#### - riidInterface [in]
-
-Type: <b>REFIID</b>
-
-Reference identifier of the interface requested. This value is one of the following: IID_IAccessible, IID_IDispatch, IID_IEnumVARIANT, or IID_IUnknown.
 
 
 ## -returns

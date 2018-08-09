@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_TintParams.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\tintparams.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: TintParams, TintParams structure [GDI+], _gdiplus_STRUC_TintParams, gdiplus._gdiplus_STRUC_TintParams, gdipluseffects/TintParams
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,8 +56,8 @@ A <b>TintParams</b> structure contains members that specify the nature of a tint
 You can adjust the tint of a bitmap by following these steps.
 <ol>
 <li>Create and initialize a <b>TintParams</b> structure.</li>
-<li>Pass the address of the <b>TintParams</b> structure to the <a href="https://msdn.microsoft.com/library/ms534518(v=VS.85).aspx">Tint::SetParameters</a> method of a <a href="https://msdn.microsoft.com/library/ms534513(v=VS.85).aspx">Tint</a> object.</li>
-<li>Pass the address of the <a href="https://msdn.microsoft.com/library/ms534513(v=VS.85).aspx">Tint</a> object to the <a href="https://msdn.microsoft.com/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method.</li>
+<li>Pass the address of the <b>TintParams</b> structure to the <a href="https://msdn.microsoft.com/en-us/library/ms534518(v=VS.85).aspx">Tint::SetParameters</a> method of a <a href="https://msdn.microsoft.com/en-us/library/ms534513(v=VS.85).aspx">Tint</a> object.</li>
+<li>Pass the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534513(v=VS.85).aspx">Tint</a> object to the <a href="https://msdn.microsoft.com/en-us/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/en-us/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method.</li>
 </ol>
 
 ## -struct-fields

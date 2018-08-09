@@ -7,7 +7,7 @@ old-location: stg\istorage_enumelements.htm
 old-project: stg
 ms.assetid: 29ca157e-40e2-4e9a-95fb-a31bb45570f2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: EnumElements, EnumElements method [Structured Storage], EnumElements method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],EnumElements method, IStorage.EnumElements, IStorage::EnumElements, _stg_istorage_enumelements, objidl/IStorage::EnumElements, stg.istorage_enumelements
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The <b>EnumElements</b> method retrieves a pointer to an enumerator object that can be used to enumerate the storage and stream objects contained within this storage object.
+The <b>EnumElements</b> method retrieves a pointer to an enumerator object that can be used to enumerate the storage and stream objects contained within this storage object.
 
 
 ## -parameters

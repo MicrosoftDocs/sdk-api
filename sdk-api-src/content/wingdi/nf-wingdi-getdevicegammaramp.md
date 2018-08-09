@@ -7,7 +7,7 @@ old-location: wcs\getdevicegammaramp.htm
 old-project: WCS
 ms.assetid: c32600a9-545e-4bbf-a3c1-21878f5106b0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: GetDeviceGammaRamp, GetDeviceGammaRamp function [Windows Color System], _color_GetDeviceGammaRamp, wcs.getdevicegammaramp, wingdi/GetDeviceGammaRamp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,17 +63,12 @@ The <b>GetDeviceGammaRamp</b> function gets the <a href="https://msdn.microsoft.
 
 ### -param hdc
 
-TBD
+Specifies the device context of the direct color display board in question.
 
 
 ### -param lpRamp
 
 Points to a buffer where the function can place the current gamma ramp of the color display board. The gamma ramp is specified in three arrays of 256 <b>WORD</b> elements each, which contain the mapping between RGB values in the frame buffer and digital-analog-converter (DAC) values. The sequence of the arrays is red, green, blue.
-
-
-#### - hDC
-
-Specifies the device context of the direct color display board in question.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: automat\vari8fromui8.htm
 old-project: automat
 ms.assetid: d2ba284c-5bca-4d41-a440-c8e091096434
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarI8FromUI8, VarI8FromUI8 function [Automation], _oa96_VarI8FromUI8, automat.vari8fromui8, oleauto/VarI8FromUI8
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wer\werstoreopen.htm
 old-project: wer
 ms.assetid: FA7E0EC6-00F1-45E2-BE34-D732965FBA15
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 08/06/2018
 ms.keywords: WerStoreOpen, WerStoreOpen function [Windows Error Reporting], wer.werstoreopen, werapi/WerStoreOpen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,24 +63,12 @@ Opens the collection of stored error reports.
 
 ### -param repStoreType
 
-TBD
+The type of report store to open. See Remarks for details.
 
 
 ### -param phReportStore
 
-TBD
-
-
-
-
-#### - store
-
 A pointer to a report store. On a successful call, this will point to the retrieved report store.
-
-
-#### - storeType
-
-The type of report store to open. See Remarks for details.
 
 
 ## -returns

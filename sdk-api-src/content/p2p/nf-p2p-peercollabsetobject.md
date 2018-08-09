@@ -7,7 +7,7 @@ old-location: p2p\peercollabsetobject.htm
 old-project: p2psdk
 ms.assetid: 99a3e206-7d76-4773-956c-bbd101766392
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerCollabSetObject, PeerCollabSetObject function [Peer Networking], p2p.peercollabsetobject, p2p/PeerCollabSetObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -140,7 +140,6 @@ If an object's 'published' status is removed due to sign-out rather than the clo
 Trusted contacts watching this peer object will have a <b>PEER_EVENT_OBJECT_CHANGED</b> event raised locally, signaling this peer object's change in status.
 
 <b>PeerCollabSetObject</b> can be used to publish at most 128 objects.
-
 
 There is one object with a given <i>GUID</i> published at any given time.
 

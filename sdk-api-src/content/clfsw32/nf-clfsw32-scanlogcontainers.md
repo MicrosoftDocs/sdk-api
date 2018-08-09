@@ -7,7 +7,7 @@ old-location: fs\scanlogcontainers.htm
 old-project: Clfs
 ms.assetid: a3a374ab-e5e9-47c0-9a62-d880823035b5
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/03/2018
 ms.keywords: CLFS_SCAN_BACKWARD, CLFS_SCAN_CLOSE, CLFS_SCAN_FORWARD, CLFS_SCAN_INIT, ScanLogContainers, ScanLogContainers function [Files], clfsw32/ScanLogContainers, fs.scanlogcontainers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -155,8 +155,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-
-        The ID of a log container is  returned in: <b>pcxScan-&gt;pinfoContainer-&gt;LogicalContainerId</b>.
+The ID of a log container is  returned in: <b>pcxScan-&gt;pinfoContainer-&gt;LogicalContainerId</b>.
 
 <div class="alert"><b>Note</b>  The Common Log File System (CLFS) scan contexts are not thread-safe. They should not be used by more than one thread at a time, or passed into more than one asynchronous scan at a time.</div>
 <div> </div>

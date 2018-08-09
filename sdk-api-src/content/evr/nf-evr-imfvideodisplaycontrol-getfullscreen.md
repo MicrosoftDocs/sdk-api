@@ -7,7 +7,7 @@ old-location: mf\imfvideodisplaycontrol_getfullscreen.htm
 old-project: medfound
 ms.assetid: ee564655-be8a-46f7-9682-acf3b38d056a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetFullscreen, GetFullscreen method [Media Foundation], GetFullscreen method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetFullscreen method, IMFVideoDisplayControl.GetFullscreen, IMFVideoDisplayControl::GetFullscreen, ee564655-be8a-46f7-9682-acf3b38d056a, evr/IMFVideoDisplayControl::GetFullscreen, mf.imfvideodisplaycontrol_getfullscreen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          Queries whether the enhanced video renderer (EVR) is currently in full-screen mode.
+Queries whether the enhanced video renderer (EVR) is currently in full-screen mode.
         
 
 

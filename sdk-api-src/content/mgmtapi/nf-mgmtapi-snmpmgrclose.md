@@ -7,7 +7,7 @@ old-location: snmp\snmpmgrclose.htm
 old-project: snmp
 ms.assetid: d8e7cc61-e313-4e36-88e7-686b4f9282b5
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: SnmpMgrClose, SnmpMgrClose function [SNMP], _snmp_snmpmgrclose, mgmtapi/SnmpMgrClose, snmp.snmpmgrclose
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imftopologynode.htm
 old-project: medfound
 ms.assetid: 01d7eb7c-a3d3-4924-a8ec-a67e9dc17424
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 01d7eb7c-a3d3-4924-a8ec-a67e9dc17424, IMFTopologyNode, IMFTopologyNode interface [Media Foundation], IMFTopologyNode interface [Media Foundation],described, mf.imftopologynode, mfidl/IMFTopologyNode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,17 +54,13 @@ req.product: GDI+ 1.1
 
 Represents a node in a topology. The following node types are supported:
 <ul>
-<li>
-              Output node. Represents a media sink.
+<li>Output node. Represents a media sink.
             </li>
-<li>
-              Source node. Represents a media stream.
+<li>Source node. Represents a media stream.
             </li>
-<li>
-              Transform node. Represents a Media Foundation Transform (MFT).
+<li>Transform node. Represents a Media Foundation Transform (MFT).
             </li>
-<li>
-              Tee node. Delivers a media stream to two or more nodes.
+<li>Tee node. Delivers a media stream to two or more nodes.
             </li>
 </ul>To create a new node, call the <a href="https://msdn.microsoft.com/67c32232-09cb-4098-b80b-4b93ee121190">MFCreateTopologyNode</a> function.
 

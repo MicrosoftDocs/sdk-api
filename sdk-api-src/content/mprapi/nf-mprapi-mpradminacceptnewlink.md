@@ -7,7 +7,7 @@ old-location: rras\mpradminacceptnewlink.htm
 old-project: rras
 ms.assetid: a4cbca7d-a8b0-4396-9201-648bcca6a8c8
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminAcceptNewLink, MprAdminAcceptNewLink callback, MprAdminAcceptNewLink callback function [RAS], _mpr_mpradminacceptnewlink, mprapi/MprAdminAcceptNewLink, rras.mpradminacceptnewlink
 ms.prod: windows
 ms.technology: windows-sdk

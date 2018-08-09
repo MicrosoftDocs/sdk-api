@@ -4,10 +4,10 @@ title: "_PROCESS_MITIGATION_ASLR_POLICY"
 author: windows-sdk-content
 description: Contains process mitigation policy settings for Address Space Randomization Layout (ASLR).
 old-location: base\process_mitigation_aslr_policy.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 1324d2e7-64a4-45de-856a-30c5c5bf8e7e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PPROCESS_MITIGATION_ASLR_POLICY, PPROCESS_MITIGATION_ASLR_POLICY, PPROCESS_MITIGATION_ASLR_POLICY structure pointer, PROCESS_MITIGATION_ASLR_POLICY, PROCESS_MITIGATION_ASLR_POLICY structure, _PROCESS_MITIGATION_ASLR_POLICY, base.process_mitigation_aslr_policy, winnt/PPROCESS_MITIGATION_ASLR_POLICY, winnt/PROCESS_MITIGATION_ASLR_POLICY"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,11 +101,6 @@ This member is reserved for system use.
 
 
 
-#### - DisallowStrippedImages : 1
-
-Images that have not been built with /DYNAMICBASE and do not have relocation information will fail to load if this flag and <b>EnableForceRelocateImages</b> are set.
-
-
 #### - EnableBottomUpRandomization : 1
 
 Thread stacks and other bottom-up allocations are subject to randomization by ASLR if this flag is set.  This flag is read-only and cannot be modified after a process has been created.
@@ -119,6 +114,11 @@ Images that have not been built with /DYNAMICBASE are forcibly relocated on load
 #### - EnableHighEntropy : 1
 
 Bottom-up allocations are subject to higher degrees of entropy when randomized by ASLR if this flag is set.  This flag only applies to 64-bit processes and is read-only.
+
+
+#### - DisallowStrippedImages : 1
+
+Images that have not been built with /DYNAMICBASE and do not have relocation information will fail to load if this flag and <b>EnableForceRelocateImages</b> are set.
 
 
 #### - ReservedFlags : 28

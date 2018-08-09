@@ -7,7 +7,7 @@ old-location: mf\mftunregister.htm
 old-project: medfound
 ms.assetid: 2e63a098-5b83-4ea9-8149-4972f8ed0944
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 2e63a098-5b83-4ea9-8149-4972f8ed0944, MFTUnregister, MFTUnregister function [Media Foundation], mf.mftunregister, mfapi/MFTUnregister
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Unregisters a Media Foundation transform (MFT).
+Unregisters a Media Foundation transform (MFT).
         
 
 
@@ -63,8 +62,7 @@ req.product: GDI+ 1.1
 
 ### -param clsidMFT [in]
 
-
-            The CLSID of the MFT.
+The CLSID of the MFT.
           
 
 
@@ -81,8 +79,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-
-        This function removes the registry entries created by the <a href="https://msdn.microsoft.com/fb3a2b67-d3e4-4d5f-960a-3979f4780904">MFTRegister</a> function.
+This function removes the registry entries created by the <a href="https://msdn.microsoft.com/fb3a2b67-d3e4-4d5f-960a-3979f4780904">MFTRegister</a> function.
 
 It is safe to call <b>MFTUnregister</b> twice with the same CLSID. If the CLSID is not found in the registry, the function succeeds and does nothing.
 

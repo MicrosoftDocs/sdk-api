@@ -7,7 +7,7 @@ old-location: security\cryptunprotectdata.htm
 old-project: seccrypto
 ms.assetid: 54eab3b0-d341-47c6-9c32-79328d7a7155
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CRYPTPROTECT_UI_FORBIDDEN, CRYPTPROTECT_VERIFY_PROTECTION, CryptUnprotectData, CryptUnprotectData function [Security], _crypto2_cryptunprotectdata, dpapi/CryptUnprotectData, security.cryptunprotectdata, wincrypt/CryptUnprotectData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,8 +130,7 @@ A pointer to a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf071
 
 
 
-
-						If the function succeeds, the function returns  <b>TRUE</b>.
+If the function succeeds, the function returns  <b>TRUE</b>.
 
 If the function fails, it returns  <b>FALSE</b>.
 
@@ -217,7 +216,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Data Encryption and Decryption Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Encryption and Decryption Functions</a>
 
 
 

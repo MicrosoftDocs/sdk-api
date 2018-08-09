@@ -4,10 +4,10 @@ title: InternetTimeFromSystemTimeW function
 author: windows-sdk-content
 description: Formats a date and time according to the HTTP version 1.0 specification.
 old-location: wininet\internettimefromsystemtime.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: b52ba402-bad1-4005-b9d0-7630194272d1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: InternetTimeFromSystemTime, InternetTimeFromSystemTime function [WinINet], InternetTimeFromSystemTimeA, InternetTimeFromSystemTimeW, _inet_internettimefromsystemtime_function, wininet.internettimefromsystemtime, wininet/InternetTimeFromSystemTime, wininet/InternetTimeFromSystemTimeA, wininet/InternetTimeFromSystemTimeW
 ms.prod: windows
 ms.technology: windows-sdk

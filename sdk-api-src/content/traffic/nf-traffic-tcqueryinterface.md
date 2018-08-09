@@ -4,10 +4,10 @@ title: TcQueryInterface function
 author: windows-sdk-content
 description: The TcQueryInterface function queries traffic control for related per-interface parameters.
 old-location: qos\tcqueryinterface.htm
-old-project: QOS
+old-project: qos
 ms.assetid: 7cbee5e9-fecc-4bfc-8b65-f3fc3427c85d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TcQueryInterface, TcQueryInterface function [QOS], _gqos_tcqueryinterface, qos.tcqueryinterface, traffic/TcQueryInterface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,19 +78,14 @@ Used to request notifications from traffic control for the parameter being queri
 <a href="https://msdn.microsoft.com/cacf4c21-d831-462c-b9e8-fd51fcf8e4e4">ClNotifyHandler</a> function, upon changes to the parameter corresponding to the GUID provided in <i>pGuidParam</i>. Notifications are off by default.
 
 
-### -param pBufferSize
+### -param pBufferSize [in, out]
 
-TBD
+Indicates the size of the buffer, in bytes. For input, this value is the size of the buffer allocated by the caller. For output, this value is the actual size of the buffer, in bytes, used by traffic control.
 
 
 ### -param Buffer [out]
 
 Pointer to a client-allocated buffer into which returned data will be written.
-
-
-#### - BufferSize [in, out]
-
-Indicates the size of the buffer, in bytes. For input, this value is the size of the buffer allocated by the caller. For output, this value is the actual size of the buffer, in bytes, used by traffic control.
 
 
 ## -returns

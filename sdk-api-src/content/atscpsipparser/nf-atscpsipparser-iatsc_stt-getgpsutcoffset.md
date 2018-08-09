@@ -7,7 +7,7 @@ old-location: mstv\iatsc_stt_getgpsutcoffset.htm
 old-project: mstv
 ms.assetid: 124c864a-a504-4f3c-836f-bdbe730beda7
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetGpsUtcOffset, GetGpsUtcOffset method [Microsoft TV Technologies], GetGpsUtcOffset method [Microsoft TV Technologies],IATSC_STT interface, IATSC_STT interface [Microsoft TV Technologies],GetGpsUtcOffset method, IATSC_STT.GetGpsUtcOffset, IATSC_STT::GetGpsUtcOffset, IATSC_STTGetGpsUtcOffset, atscpsipparser/IATSC_STT::GetGpsUtcOffset, mstv.iatsc_stt_getgpsutcoffset
 ms.prod: windows
 ms.technology: windows-sdk

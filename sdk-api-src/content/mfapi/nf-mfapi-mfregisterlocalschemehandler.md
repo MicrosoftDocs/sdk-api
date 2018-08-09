@@ -7,7 +7,7 @@ old-location: mf\mfregisterlocalschemehandler.htm
 old-project: medfound
 ms.assetid: B0F14D11-D896-4CFC-8914-087611347BEB
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFRegisterLocalSchemeHandler, MFRegisterLocalSchemeHandler function [Media Foundation], mf.mfregisterlocalschemehandler, mfapi/MFRegisterLocalSchemeHandler
 ms.prod: windows
 ms.technology: windows-sdk

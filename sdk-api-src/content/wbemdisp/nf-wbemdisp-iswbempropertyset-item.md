@@ -7,7 +7,7 @@ old-location: wmi\swbempropertyset_item.htm
 old-project: WmiSdk
 ms.assetid: 72025676-01dd-4fd7-b000-de6b09ecc6dc
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemPropertySet interface [Windows Management Instrumentation],Item method, ISWbemPropertySet.Item, ISWbemPropertySet::Item, Item, Item method [Windows Management Instrumentation], Item method [Windows Management Instrumentation],ISWbemPropertySet interface, Item method [Windows Management Instrumentation],SWbemPropertySet object, SWbemPropertySet object [Windows Management Instrumentation],Item method, SWbemPropertySet.Item, _hmm_swbempropertyset.item, wmi.swbempropertyset_item
 ms.prod: windows
 ms.technology: windows-sdk

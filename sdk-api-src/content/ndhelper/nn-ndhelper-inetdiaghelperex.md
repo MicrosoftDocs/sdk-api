@@ -7,7 +7,7 @@ old-location: ndf\inetdiaghelperex.htm
 old-project: ndf
 ms.assetid: 9c03f24c-073f-40bc-aee7-c462d4e2d781
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: INetDiagHelperEx, INetDiagHelperEx interface [NDF], INetDiagHelperEx interface [NDF],described, ndf.inetdiaghelperex, ndhelper/INetDiagHelperEx
 ms.prod: windows
 ms.technology: windows-sdk

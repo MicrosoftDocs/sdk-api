@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Metafile_EmfToWmfBits_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\emftowmfbits.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: EmfToWmfBits, EmfToWmfBits method [GDI+], EmfToWmfBits method [GDI+],Metafile class, Metafile class [GDI+],EmfToWmfBits method, Metafile.EmfToWmfBits, Metafile::EmfToWmfBits, _gdiplus_CLASS_Metafile_EmfToWmfBits_, gdiplus._gdiplus_CLASS_Metafile_EmfToWmfBits_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,9 +91,9 @@ Optional. Specifies the mapping mode to use in the converted metafile. For a lis
 
 ### -param eFlags [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534113(v=VS.85).aspx">EmfToWmfBitsFlags</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534113(v=VS.85).aspx">EmfToWmfBitsFlags</a></b>
 
-Optional. Element of the <a href="https://msdn.microsoft.com/library/ms534113(v=VS.85).aspx">EmfToWmfBitsFlags</a> enumeration that specifies options for the conversion. The default value is <a href="https://msdn.microsoft.com/library/ms534113(v=VS.85).aspx">EmfToWmfBitsFlagsDefault</a>.
+Optional. Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534113(v=VS.85).aspx">EmfToWmfBitsFlags</a> enumeration that specifies options for the conversion. The default value is <a href="https://msdn.microsoft.com/en-us/library/ms534113(v=VS.85).aspx">EmfToWmfBitsFlagsDefault</a>.
 
 
 ## -returns
@@ -114,7 +114,7 @@ If the method succeeds and the buffer pointer is <b>NULL</b>, the return value i
 
 When you call <b>Metafile::EmfToWmfBits</b> to determine the size of the required buffer, you must pass the same value for <i>eFlags</i> that you pass later when you call <b>Metafile::EmfToWmfBits</b> to perform the conversion. Otherwise, the size returned by the first call to <b>Metafile::EmfToWmfBits</b> will be incorrect.
 
-This method cannot convert metafiles of type <a href="https://msdn.microsoft.com/library/ms534113(v=VS.85).aspx">EmfTypeEmfPlusOnly</a>. If you use this method to convert a metafile of type <a href="https://msdn.microsoft.com/library/ms534113(v=VS.85).aspx">EmfTypeEmfPlusDual</a>, the Enhanced Metafile (EMF) records in that metafile are converted, but the EMF+ records are not converted.
+This method cannot convert metafiles of type <a href="https://msdn.microsoft.com/en-us/library/ms534113(v=VS.85).aspx">EmfTypeEmfPlusOnly</a>. If you use this method to convert a metafile of type <a href="https://msdn.microsoft.com/en-us/library/ms534113(v=VS.85).aspx">EmfTypeEmfPlusDual</a>, the Enhanced Metafile (EMF) records in that metafile are converted, but the EMF+ records are not converted.
 
 This method converts an enhanced metafile into a WMF metafile so that its picture can be displayed in an application that recognizes the older format.
 
@@ -127,8 +127,7 @@ To create a scalable WMF metafile, specify MM_ANISOTROPIC as the <i>iMapMode</i>
 
 
 
-
-			The following example converts an enhanced-format metafile to a WMF metafile. The last parameter passed to <b>Metafile::EmfToWmfBits</b> specifies that the enhanced-format metafile is embedded as a comment in the converted metafile.
+The following example converts an enhanced-format metafile to a WMF metafile. The last parameter passed to <b>Metafile::EmfToWmfBits</b> specifies that the enhanced-format metafile is embedded as a comment in the converted metafile.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -181,7 +180,7 @@ delete[] buffer;</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534115(v=VS.85).aspx">EmfType</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534115(v=VS.85).aspx">EmfType</a>
 
 
 
@@ -189,11 +188,11 @@ delete[] buffer;</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534477(v=VS.85).aspx">Metafile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536391(v=VS.85).aspx">Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536391(v=VS.85).aspx">Metafiles</a>
  
 
  

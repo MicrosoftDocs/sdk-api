@@ -7,7 +7,7 @@ old-location: mstv\iisdbseriesdescriptor.htm
 old-project: mstv
 ms.assetid: 07c4debc-1817-46ac-9f67-9b8637a04662
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IIsdbSeriesDescriptor, IIsdbSeriesDescriptor interface [Microsoft TV Technologies], IIsdbSeriesDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbSeriesDescriptor, mstv.iisdbseriesdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

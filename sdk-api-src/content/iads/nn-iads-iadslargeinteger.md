@@ -7,7 +7,7 @@ old-location: adsi\iadslargeinteger.htm
 old-project: ADSI
 ms.assetid: d49e3339-8488-44c1-9d60-706492e65abc
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IADsLargeInteger, IADsLargeInteger interface [ADSI], IADsLargeInteger interface [ADSI],described, _ds_iadslargeinteger, adsi.iadslargeinteger, iads/IADsLargeInteger
 ms.prod: windows
 ms.technology: windows-sdk
@@ -248,7 +248,7 @@ The following example shows how to convert an <b>IADsLargeInteger</b> to a 64-bi
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

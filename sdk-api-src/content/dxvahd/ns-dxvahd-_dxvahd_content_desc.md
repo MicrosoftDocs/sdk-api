@@ -7,7 +7,7 @@ old-location: mf\dxvahd_content_desc.htm
 old-project: medfound
 ms.assetid: 9319a98d-8f43-4f29-8787-18dec53dff88
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: DXVAHD_CONTENT_DESC, DXVAHD_CONTENT_DESC structure [Media Foundation], _DXVAHD_CONTENT_DESC, dxvahd/DXVAHD_CONTENT_DESC, mf.dxvahd_content_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,8 +100,7 @@ The height of the output frames, in pixels.
 
 
 
-
-        Frame rates are expressed as ratios. For example, 30 frames per second (fps) is expressed as 30:1, and 29.97 fps is expressed as 30000/1001. For interlaced content, a frame consists of two fields, so that the frame rate is half the field rate.
+Frame rates are expressed as ratios. For example, 30 frames per second (fps) is expressed as 30:1, and 29.97 fps is expressed as 30000/1001. For interlaced content, a frame consists of two fields, so that the frame rate is half the field rate.
       
 
  If the application will composite two or more input streams, use the largest stream for the values of <b>InputWidth</b> and <b>InputHeight</b>.

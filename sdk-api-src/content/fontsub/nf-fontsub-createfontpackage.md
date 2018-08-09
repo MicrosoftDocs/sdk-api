@@ -7,7 +7,7 @@ old-location: gdi\createfontpackage.htm
 old-project: gdi
 ms.assetid: aeea47c7-af55-46c4-b701-e00ec7540d24
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: CreateFontPackage, CreateFontPackage function [Windows GDI], TTFCFP_APPLE_PLATFORMID, TTFCFP_DELTA, TTFCFP_DONT_CARE, TTFCFP_FLAGS_COMPRESS, TTFCFP_FLAGS_GLYPHLIST, TTFCFP_FLAGS_SUBSET, TTFCFP_FLAGS_TTC, TTFCFP_ISO_PLATFORMID, TTFCFP_MS_PLATFORMID, TTFCFP_STD_MAC_CHAR_SET, TTFCFP_SUBSET, TTFCFP_SUBSET1, TTFCFP_SYMBOL_CHAR_SET, TTFCFP_UNICODE_CHAR_SET, TTFCFP_UNICODE_PLATFORMID, _win32_CreateFontPackage, fontsub/CreateFontPackage, gdi.createfontpackage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,9 +69,9 @@ Points to a buffer containing source TTF or TTC data, describing the font that i
 Specifies size of *<i>puchSrcBuffer</i>, in bytes.
 
 
-### -param ppuchFontPackageBuffer
+### -param ppuchFontPackageBuffer [out]
 
-TBD
+Points to a variable of type unsigned char*. The <b>CreateFontPackage</b> function will allocate a buffer **<i>puchFontPackageBuffer</i>, using <i>lpfnAllocate</i> and <i>lpfnReAllocate</i>. On successful return, the buffer will contain the subset font or font package. The application is responsible for eventually freeing the buffer.
 
 
 ### -param pulFontPackageBufferSize [out]
@@ -84,9 +84,57 @@ Points to an unsigned long, which on successful return will specify the allocate
 Points to an unsigned long, which on successful return will specify the number of bytes actually used in buffer **<i>puchFontPackageBuffer</i>.
 
 
-### -param usFlag
+### -param usFlag [in]
 
-TBD
+Specifies whether this font should be subsetted, compressed, or both; whether it is a TTF or TTC; and whether*pusSubsetKeepListrepresents character codes or glyph indices. Any combination of the following flags may be specified:
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="TTFCFP_FLAGS_SUBSET"></a><a id="ttfcfp_flags_subset"></a><dl>
+<dt><b>TTFCFP_FLAGS_SUBSET</b></dt>
+</dl>
+</td>
+<td width="60%">
+If set, requests subsetting.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="TTFCFP_FLAGS_COMPRESS"></a><a id="ttfcfp_flags_compress"></a><dl>
+<dt><b>TTFCFP_FLAGS_COMPRESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+If set, requests compression. The currently shipping version of this function does not do compression. This flag allows for future implementation of this capability, but is currently ignored.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="TTFCFP_FLAGS_TTC"></a><a id="ttfcfp_flags_ttc"></a><dl>
+<dt><b>TTFCFP_FLAGS_TTC</b></dt>
+</dl>
+</td>
+<td width="60%">
+If set, specifies that the font in <i>puchSrcBuffer</i> is a TTC; otherwise, it must be a TTF.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="TTFCFP_FLAGS_GLYPHLIST"></a><a id="ttfcfp_flags_glyphlist"></a><dl>
+<dt><b>TTFCFP_FLAGS_GLYPHLIST</b></dt>
+</dl>
+</td>
+<td width="60%">
+If set, specifies that*pusSubsetKeepListis a list of glyph indices; otherwise, it must be a list of character codes.
+
+</td>
+</tr>
+</table>
+ 
 
 
 ### -param usTTCIndex [in]
@@ -244,9 +292,9 @@ Can be used only if <i>usSubsetPlatform</i> == TTFSUB_MS_PLATFORMID.
 Points to an array of integers which comprise a list of character codes or glyph indices that should be retained in the output font or font package. If this list contains character codes (that is, if if TTFCFP_FLAGS_GLYPHLIST is not set in <i>usFlags</i>), this list may be either Unicode or some other type of encoding, depending on the Platform-Encoding CMAP specified by <i>usSubsetPlatform</i> and <i>usSubsetEncoding</i>.
 
 
-### -param usSubsetListCount
+### -param usSubsetListCount [in]
 
-TBD
+The number of elements in the list *<i>pusSubsetKeepList</i>.
 
 
 ### -param lpfnAllocate [in]
@@ -267,69 +315,6 @@ The callback function to free up memory allocated by <i>lpfnAllocate</i> and <i>
 ### -param lpvReserved [in]
 
 Must be set to <b>NULL</b>.
-
-
-#### - puchFontPackageBuffer [out]
-
-Points to a variable of type unsigned char*. The <b>CreateFontPackage</b> function will allocate a buffer **<i>puchFontPackageBuffer</i>, using <i>lpfnAllocate</i> and <i>lpfnReAllocate</i>. On successful return, the buffer will contain the subset font or font package. The application is responsible for eventually freeing the buffer.
-
-
-#### - usFlags [in]
-
-Specifies whether this font should be subsetted, compressed, or both; whether it is a TTF or TTC; and whether*pusSubsetKeepListrepresents character codes or glyph indices. Any combination of the following flags may be specified:
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="TTFCFP_FLAGS_SUBSET"></a><a id="ttfcfp_flags_subset"></a><dl>
-<dt><b>TTFCFP_FLAGS_SUBSET</b></dt>
-</dl>
-</td>
-<td width="60%">
-If set, requests subsetting.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TTFCFP_FLAGS_COMPRESS"></a><a id="ttfcfp_flags_compress"></a><dl>
-<dt><b>TTFCFP_FLAGS_COMPRESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-If set, requests compression. The currently shipping version of this function does not do compression. This flag allows for future implementation of this capability, but is currently ignored.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TTFCFP_FLAGS_TTC"></a><a id="ttfcfp_flags_ttc"></a><dl>
-<dt><b>TTFCFP_FLAGS_TTC</b></dt>
-</dl>
-</td>
-<td width="60%">
-If set, specifies that the font in <i>puchSrcBuffer</i> is a TTC; otherwise, it must be a TTF.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TTFCFP_FLAGS_GLYPHLIST"></a><a id="ttfcfp_flags_glyphlist"></a><dl>
-<dt><b>TTFCFP_FLAGS_GLYPHLIST</b></dt>
-</dl>
-</td>
-<td width="60%">
-If set, specifies that*pusSubsetKeepListis a list of glyph indices; otherwise, it must be a list of character codes.
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - usSubsetKeepListCount [in]
-
-The number of elements in the list *<i>pusSubsetKeepList</i>.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: coreaudio\ksjack_description.htm
 old-project: CoreAudio
 ms.assetid: 4ee9fedf-4241-4678-b621-549a06e8949a
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: "*PKSJACK_DESCRIPTION, KSJACK_DESCRIPTION, KSJACK_DESCRIPTION structure [Core Audio], PKSJACK_DESCRIPTION, PKSJACK_DESCRIPTION structure pointer [Core Audio], __MIDL___MIDL_itf_devicetopology_0000_0000_0009, coreaudio.ksjack_description, devicetopology/KSJACK_DESCRIPTION, devicetopology/PKSJACK_DESCRIPTION"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,8 +104,7 @@ In Windows Vista, the value of this member is one of the <b>EChannelMapping</b>
 </table>
  </p>For a physical connector with one, three, or more channels, the value of this member is ePcxChanMap_Unknown.
 
-In Windows 7, the <b>EChannelMapping</b>
-enumeration has been deprecated. The datatype of this member is a <b>DWORD</b>.  This member stores either 0 or the bitwise-OR combination of one or more of the following values that are defined in Ksmedia.h.
+In Windows 7, the <b>EChannelMapping</b>enumeration has been deprecated. The datatype of this member is a <b>DWORD</b>.  This member stores either 0 or the bitwise-OR combination of one or more of the following values that are defined in Ksmedia.h.
 
 
 <pre class="syntax" xml:space="preserve"><code>#define SPEAKER_FRONT_LEFT              0x1

@@ -7,7 +7,7 @@ old-location: setup\setupcopyerror.htm
 old-project: SetupApi
 ms.assetid: bda8ffef-f1a7-474c-9ec6-f76c2f006d51
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupCopyError, SetupCopyError function [Setup API], SetupCopyErrorA, SetupCopyErrorW, _setupapi_setupcopyerror, setup.setupcopyerror, setupapi/SetupCopyError, setupapi/SetupCopyErrorA, setupapi/SetupCopyErrorW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -191,19 +191,14 @@ The buffer size should be at least MAX_PATH characters, including the <b>null</b
 An optional pointer to a variable in which this function returns the required buffer size, in characters, including the <b>null</b> terminator. 
 
 
-##### - Style.IDF_NOBEEP
-
-Prevents the dialog box from beeping to get the user's attention when it first appears.
-
-
 ##### - Style.IDF_NOBROWSE
 
 Do not display the browse option.
 
 
-##### - Style.IDF_NOCOMPRESSED
+##### - Style.IDF_NOSKIP
 
-Do not check for compressed versions of the source file.
+Do not display the skip file option.
 
 
 ##### - Style.IDF_NODETAILS
@@ -213,19 +208,24 @@ Do not display the details option.
 If this flag is set, the <i>TargetPathFile</i> and <i>Win32ErrorCode</i> parameters can be omitted.
 
 
-##### - Style.IDF_NOFOREGROUND
+##### - Style.IDF_NOCOMPRESSED
 
-Prevents the dialog box from becoming the foreground window.
-
-
-##### - Style.IDF_NOSKIP
-
-Do not display the skip file option.
+Do not check for compressed versions of the source file.
 
 
 ##### - Style.IDF_OEMDISK
 
 The operation source is a disk that a hardware manufacturer provides.
+
+
+##### - Style.IDF_NOBEEP
+
+Prevents the dialog box from beeping to get the user's attention when it first appears.
+
+
+##### - Style.IDF_NOFOREGROUND
+
+Prevents the dialog box from becoming the foreground window.
 
 
 ##### - Style.IDF_WARNIFSKIP

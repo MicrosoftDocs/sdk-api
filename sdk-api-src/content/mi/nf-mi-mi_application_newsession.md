@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_application_newsession.htm
 old-project: wmi_v2
 ms.assetid: 76010766-aa20-4632-940d-48d9769803da
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_Application_NewSession, MI_Application_NewSession function [Windows Management Infrastructure (MI)], mi/MI_Application_NewSession, wmi_v2.mi_application_newsession
 ms.prod: windows
 ms.technology: windows-sdk

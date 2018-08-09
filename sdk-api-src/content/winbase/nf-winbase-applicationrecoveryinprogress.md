@@ -4,10 +4,10 @@ title: ApplicationRecoveryInProgress function
 author: windows-sdk-content
 description: Indicates that the calling application is continuing to recover data.
 old-location: recovery\applicationrecoveryinprogress.htm
-old-project: Recovery
+old-project: recovery
 ms.assetid: 9c765f72-10ad-4d16-a9e5-d73ea5c4f59b
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: ApplicationRecoveryInProgress, ApplicationRecoveryInProgress function [Recovery], recovery.applicationrecoveryinprogress, winbase/ApplicationRecoveryInProgress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,7 @@ Indicates that  the calling application is continuing to recover data.
 
 
 
-### -param pbCancelled
-
-TBD
-
-
-
-
-#### - pbCanceled [out]
+### -param pbCancelled [out]
 
 Indicates whether the user has canceled the recovery process. Set by WER if the user clicks the Cancel button.
 

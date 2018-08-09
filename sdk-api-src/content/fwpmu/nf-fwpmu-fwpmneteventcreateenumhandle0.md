@@ -7,7 +7,7 @@ old-location: fwp\fwpmneteventcreateenumhandle0.htm
 old-project: fwp
 ms.assetid: 82e0f189-f283-43b2-b9d4-29e754c5c95e
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmNetEventCreateEnumHandle0, FwpmNetEventCreateEnumHandle0 function [Filtering], fwp.fwpmneteventcreateenumhandle0, fwpmu/FwpmNetEventCreateEnumHandle0
 ms.prod: windows
 ms.technology: windows-sdk

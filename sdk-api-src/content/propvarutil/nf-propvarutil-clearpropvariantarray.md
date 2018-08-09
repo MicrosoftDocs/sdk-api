@@ -7,7 +7,7 @@ old-location: properties\ClearPropVariantArray.htm
 old-project: properties
 ms.assetid: e8d7f951-8a9e-441b-9fa7-bf21cf08c8ac
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: ClearPropVariantArray, ClearPropVariantArray function [Windows Properties], _shell_ClearPropVariantArray, properties.ClearPropVariantArray, propvarutil/ClearPropVariantArray, shell.ClearPropVariantArray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,12 +88,12 @@ No return value.
 
 This function releases the memory and references held by each structure in the array before setting the structures to zero.
 
-This function performs the same action as <a href="https://msdn.microsoft.com/library/Bb762285(v=VS.85).aspx">FreePropVariantArray</a>, but <b>FreePropVariantArray</b> returns an <b>HRESULT</b>.
+This function performs the same action as <a href="shell.FreePropVariantArray">FreePropVariantArray</a>, but <b>FreePropVariantArray</b> returns an <b>HRESULT</b>.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762283(v=VS.85).aspx">ClearPropVariantArray</a>
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.ClearPropVariantArray">ClearPropVariantArray</a>
 
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -117,7 +117,7 @@ ClearPropVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762284(v=VS.85).aspx">ClearVariantArray</a>
+<a href="shell.ClearVariantArray">ClearVariantArray</a>
  
 
  

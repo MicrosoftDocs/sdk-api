@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10resource_gettype.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10resource_gettype.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetType, GetType method [Direct3D 10], GetType method [Direct3D 10],ID3D10Resource interface, ID3D10Resource interface [Direct3D 10],GetType method, ID3D10Resource.GetType, ID3D10Resource::GetType, bf044bba-84f5-5192-908b-5b26b497c5e7, d3d10/ID3D10Resource::GetType, direct3d10.id3d10resource_gettype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Get the type of the resource.
 
 ### -param rType [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172411(v=VS.85).aspx">D3D10_RESOURCE_DIMENSION</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172411(v=VS.85).aspx">D3D10_RESOURCE_DIMENSION</a>*</b>
 
-Pointer to the resource type (see <a href="https://msdn.microsoft.com/library/Bb172411(v=VS.85).aspx">D3D10_RESOURCE_DIMENSION</a>).
+Pointer to the resource type (see <a href="https://msdn.microsoft.com/en-us/library/Bb172411(v=VS.85).aspx">D3D10_RESOURCE_DIMENSION</a>).
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173829(v=VS.85).aspx">ID3D10Resource Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173829(v=VS.85).aspx">ID3D10Resource Interface</a>
  
 
  

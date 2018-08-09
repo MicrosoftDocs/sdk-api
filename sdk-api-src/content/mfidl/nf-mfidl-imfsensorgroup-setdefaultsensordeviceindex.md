@@ -7,7 +7,7 @@ old-location: mf\imfsensorgroup_setdefaultsensordeviceindex.htm
 old-project: medfound
 ms.assetid: 06E2E2DB-8361-49BB-9369-0D0C33DF0C32
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFSensorGroup interface [Media Foundation],SetDefaultSensorDeviceIndex method, IMFSensorGroup.SetDefaultSensorDeviceIndex, IMFSensorGroup::SetDefaultSensorDeviceIndex, SetDefaultSensorDeviceIndex, SetDefaultSensorDeviceIndex method [Media Foundation], SetDefaultSensorDeviceIndex method [Media Foundation],IMFSensorGroup interface, mf.imfsensorgroup_setdefaultsensordeviceindex, mfidl/IMFSensorGroup::SetDefaultSensorDeviceIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ Configures one of the devices in the sensor group as the default device.
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ Configures one of the devices in the sensor group as the default device.
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -100,8 +98,7 @@ Configures one of the devices in the sensor group as the default device.
 </dl>
 </td>
 <td width="60%">
-
-                the <i>dwIndex</i> parameter is not in the valid range.
+the <i>dwIndex</i> parameter is not in the valid range.
 
 </td>
 </tr>
@@ -112,8 +109,7 @@ Configures one of the devices in the sensor group as the default device.
 </dl>
 </td>
 <td width="60%">
-
-                The sensor group has not been initialized.
+The sensor group has not been initialized.
 
 </td>
 </tr>

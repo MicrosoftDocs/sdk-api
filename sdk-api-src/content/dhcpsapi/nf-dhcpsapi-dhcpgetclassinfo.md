@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetclassinfo.htm
 old-project: dhcp
 ms.assetid: c38a593f-60f0-41c7-83a8-bbec9b79dfac
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpGetClassInfo, DhcpGetClassInfo function [DHCP], dhcp.dhcpgetclassinfo, dhcpsapi/DhcpGetClassInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpGetClassInfo</b> function returns the user or vendor class information configured on a specific DHCP server.
+The <b>DhcpGetClassInfo</b> function returns the user or vendor class information configured on a specific DHCP server.
 
 
 ## -parameters
@@ -121,8 +120,7 @@ This call was performed by a client who is not a member of the "DHCP Administrat
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">
-		  DHCP_CLASS_INFO</a> structure provided in <i>PartialClassInfo</i> has null or zero values for one or more of the required members.
+The <a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">DHCP_CLASS_INFO</a> structure provided in <i>PartialClassInfo</i> has null or zero values for one or more of the required members.
 
 </td>
 </tr>
@@ -157,8 +155,7 @@ A DHCP class is a specific category of client, defined either by the vendor or b
 
 
 
-<a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">
-		  DHCP_CLASS_INFO</a>
+<a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">DHCP_CLASS_INFO</a>
 
 
 

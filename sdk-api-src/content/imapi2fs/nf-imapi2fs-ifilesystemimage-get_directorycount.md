@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_get_directorycount.htm
 old-project: imapi
 ms.assetid: fc8e0606-8662-441f-b244-7d6b0be4c4e7
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_DirectoryCount method, IFileSystemImage.get_DirectoryCount, IFileSystemImage::get_DirectoryCount, get_DirectoryCount, get_DirectoryCount method [IMAPI], get_DirectoryCount method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_directorycount, imapi2fs/IFileSystemImage::get_DirectoryCount
 ms.prod: windows
 ms.technology: windows-sdk

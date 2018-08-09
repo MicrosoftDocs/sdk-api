@@ -7,7 +7,7 @@ old-location: opengl\wglsharelists.htm
 old-project: OpenGL
 ms.assetid: 587ea116-c70b-41ca-bf9b-a0c666f4e948
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: "_ogl_wglShareLists, opengl.wglsharelists, wglShareLists, wglShareLists function [OpenGL], wingdi/wglShareLists"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,6 @@ TBD
 
 
 
-#### - hglrc1
-
-Specifies the OpenGL rendering context with which to share display lists.
 
 
 #### - hglrc2

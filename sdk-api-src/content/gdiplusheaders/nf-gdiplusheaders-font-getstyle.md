@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_GetStyle_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getstyle.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Font class [GDI+],GetStyle method, Font.GetStyle, Font::GetStyle, GetStyle, GetStyle method [GDI+], GetStyle method [GDI+],Font class, _gdiplus_CLASS_Font_GetStyle_, gdiplus._gdiplus_CLASS_Font_GetStyle_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ The <b>Font::GetStyle</b> method gets the style of this font's typeface.
 Type: <strong>Type: <b>INT</b>
 </strong>
 
-This method returns a value that is an element of the <a href="https://msdn.microsoft.com/library/ms534124(v=VS.85).aspx">FontStyle</a> enumeration or the result of a bitwise 
+This method returns a value that is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534124(v=VS.85).aspx">FontStyle</a> enumeration or the result of a bitwise 
 						<b>OR</b> applied to two or more elements of the <b>FontStyle</b> enumeration. 
 
 
@@ -79,31 +79,31 @@ This method returns a value that is an element of the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536193(v=VS.85).aspx">Font::GetFamily</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536193(v=VS.85).aspx">Font::GetFamily</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536202(v=VS.85).aspx">Font::GetHeight</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536202(v=VS.85).aspx">Font::GetHeight</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536197(v=VS.85).aspx">Font::GetSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536197(v=VS.85).aspx">Font::GetSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536199(v=VS.85).aspx">Font::GetUnit</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536199(v=VS.85).aspx">Font::GetUnit</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534124(v=VS.85).aspx">FontStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534124(v=VS.85).aspx">FontStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
  
 
  

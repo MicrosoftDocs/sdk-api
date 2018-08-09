@@ -7,7 +7,7 @@ old-location: mstv\idvb_rst_getrecordrunningstatus.htm
 old-project: mstv
 ms.assetid: ca0a0b3b-14a8-4456-85a0-51df559d04b8
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordRunningStatus, GetRecordRunningStatus method [Microsoft TV Technologies], GetRecordRunningStatus method [Microsoft TV Technologies],IDVB_RST interface, IDVB_RST interface [Microsoft TV Technologies],GetRecordRunningStatus method, IDVB_RST.GetRecordRunningStatus, IDVB_RST::GetRecordRunningStatus, IDVB_RSTGetRecordRunningStatus, dvbsiparser/IDVB_RST::GetRecordRunningStatus, mstv.idvb_rst_getrecordrunningstatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,11 +133,9 @@ ETSI EN 300 468 defines the following values for the running_status field.
 
 <table>
 <tr>
-<th>
-              Value
+<th>Value
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>

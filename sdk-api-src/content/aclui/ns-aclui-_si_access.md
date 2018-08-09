@@ -7,7 +7,7 @@ old-location: security\si_access.htm
 old-project: secauthz
 ms.assetid: 9c9b14da-a030-4f90-b090-d6de10507eb2
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: "*PSI_ACCESS, CONTAINER_INHERIT_ACE, INHERIT_ONLY_ACE, OBJECT_INHERIT_ACE, PSI_ACCESS, PSI_ACCESS structure pointer [Security], SI_ACCESS, SI_ACCESS structure [Security], SI_ACCESS_CONTAINER, SI_ACCESS_GENERAL, SI_ACCESS_PROPERTY, SI_ACCESS_SPECIFIC, _SI_ACCESS, _win32_si_access_str, aclui/PSI_ACCESS, aclui/SI_ACCESS, security.si_access"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ A pointer to a null-terminated <a href="https://msdn.microsoft.com/264f6cb6-36c6
 
 
 Alternatively, <b>pszName</b> can be a string resource identifier returned by the 
-<a href="https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. Use the 
+<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. Use the 
 <a href="https://msdn.microsoft.com/2bc63aa0-dada-4962-a381-6b0f8332e564">ISecurityInformation::GetObjectInformation</a> method to identify the module that contains the string resource.
 
 
@@ -150,8 +150,7 @@ Indicates a property-specific access right. Used with SI_EDIT_PROPERTIES.
  
 
 
-
-						This member can also specify a combination of the following flags to indicate whether other containers or objects can inherit the access right.
+This member can also specify a combination of the following flags to indicate whether other containers or objects can inherit the access right.
 
 
 

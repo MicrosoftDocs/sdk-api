@@ -7,7 +7,7 @@ old-location: dshow\avistreamheader.htm
 old-project: DirectShow
 ms.assetid: f07c28ac-2dd0-428a-a94a-32aec2bb0854
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: "'auds', 'mids', 'txts', 'vids', AVISF_DISABLED, AVISF_VIDEO_PALCHANGES, AVISTREAMHEADER, AVISTREAMHEADER structure [DirectShow], AVISTREAMHEADERStructure, _avistreamheader, avifmt/AVISTREAMHEADER, dshow.avistreamheader"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          The <b>AVISTREAMHEADER</b> structure contains information about one stream in an AVI file.
+The <b>AVISTREAMHEADER</b> structure contains information about one stream in an AVI file.
         
 
 
@@ -62,22 +61,19 @@ req.irql:
 
 #### - fcc
 
-
-            Specifies a FOURCC code. The value must be 'strh'.
+Specifies a FOURCC code. The value must be 'strh'.
           
 
 
 #### - cb
 
-
-            Specifies the size of the structure, not including the initial 8 bytes.
+Specifies the size of the structure, not including the initial 8 bytes.
           
 
 
 ### -field fccType
 
-
-            Contains a FOURCC that specifies the type of the data contained in the stream. The following standard AVI values for video and audio are defined.
+Contains a FOURCC that specifies the type of the data contained in the stream. The following standard AVI values for video and audio are defined.
           
 
 <table>
@@ -131,15 +127,13 @@ Video stream
 
 ### -field fccHandler
 
-
-            Optionally, contains a FOURCC that identifies a specific data handler. The data handler is the preferred handler for the stream. For audio and video streams, this specifies the codec for decoding the stream.
+Optionally, contains a FOURCC that identifies a specific data handler. The data handler is the preferred handler for the stream. For audio and video streams, this specifies the codec for decoding the stream.
           
 
 
 ### -field dwFlags
 
-
-            Contains any flags for the data stream. The bits in the high-order word of these flags are specific to the type of data contained in the stream. The following standard flags are defined.
+Contains any flags for the data stream. The bits in the high-order word of these flags are specific to the type of data contained in the stream. The following standard flags are defined.
           
 
 <table>
@@ -173,15 +167,13 @@ Indicates this video stream contains palette changes. This flag warns the playba
 
 ### -field wPriority
 
-
-            Specifies priority of a stream type. For example, in a file with multiple audio streams, the one with the highest priority might be the default stream.
+Specifies priority of a stream type. For example, in a file with multiple audio streams, the one with the highest priority might be the default stream.
           
 
 
 ### -field wLanguage
 
-
-            Language tag.
+Language tag.
           
 
 
@@ -198,8 +190,7 @@ Used with <b>dwRate</b> to specify the time scale that this stream will use. Div
 
 ### -field dwRate
 
-
-            See <b>dwScale</b>.
+See <b>dwScale</b>.
           
 
 
@@ -215,22 +206,19 @@ Specifies the length of this stream. The units are defined by the <b>dwRate</b> 
 
 ### -field dwSuggestedBufferSize
 
-
-            Specifies how large a buffer should be used to read this stream. Typically, this contains a value corresponding to the largest chunk present in the stream. Using the correct buffer size makes playback more efficient. Use zero if you do not know the correct buffer size.
+Specifies how large a buffer should be used to read this stream. Typically, this contains a value corresponding to the largest chunk present in the stream. Using the correct buffer size makes playback more efficient. Use zero if you do not know the correct buffer size.
           
 
 
 ### -field dwQuality
 
-
-            Specifies an indicator of the quality of the data in the stream. Quality is represented as a number between 0 and 10,000. For compressed data, this typically represents the value of the quality parameter passed to the compression software. If set to –1, drivers use the default quality value.
+Specifies an indicator of the quality of the data in the stream. Quality is represented as a number between 0 and 10,000. For compressed data, this typically represents the value of the quality parameter passed to the compression software. If set to –1, drivers use the default quality value.
           
 
 
 ### -field dwSampleSize
 
-
-            Specifies the size of a single sample of data. This is set to zero if the samples can vary in size. If this number is nonzero, then multiple samples of data can be grouped into a single chunk within the file. If it is zero, each sample of data (such as a video frame) must be in a separate chunk. For video streams, this number is typically zero, although it can be nonzero if all video frames are the same size. For audio streams, this number should be the same as the <b>nBlockAlign</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure describing the audio.
+Specifies the size of a single sample of data. This is set to zero if the samples can vary in size. If this number is nonzero, then multiple samples of data can be grouped into a single chunk within the file. If it is zero, each sample of data (such as a video frame) must be in a separate chunk. For video streams, this number is typically zero, although it can be nonzero if all video frames are the same size. For audio streams, this number should be the same as the <b>nBlockAlign</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure describing the audio.
           
 
 
@@ -266,8 +254,7 @@ Specifies the destination rectangle for a text or video stream within the movie 
 
 
 
-
-        Some of the members of this structure are also present in the <a href="https://msdn.microsoft.com/3b8a326c-ebb2-4fb7-a167-7382d2e78ec2">AVIMAINHEADER</a> structure. The data in the <b>AVIMAINHEADER</b> structure applies to the whole file, while the data in the <b>AVISTREAMHEADER</b> structure applies to one stream.
+Some of the members of this structure are also present in the <a href="https://msdn.microsoft.com/3b8a326c-ebb2-4fb7-a167-7382d2e78ec2">AVIMAINHEADER</a> structure. The data in the <b>AVIMAINHEADER</b> structure applies to the whole file, while the data in the <b>AVISTREAMHEADER</b> structure applies to one stream.
       
 
 The header file Vfw.h defines a <b>AVIStreamHeader</b> structure that is equivalent to this structure, but omits the <b>fcc</b> and <b>cb</b> members.

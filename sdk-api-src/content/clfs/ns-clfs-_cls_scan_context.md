@@ -7,7 +7,7 @@ old-location: fs\clfs_scan_context.htm
 old-project: Clfs
 ms.assetid: 716fa005-c801-4a5d-99f1-0babe64dc4a8
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/03/2018
 ms.keywords: "*PCLFS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, CLFS_SCAN_BACKWARD, CLFS_SCAN_CLOSE, CLFS_SCAN_CONTEXT, CLFS_SCAN_CONTEXT structure [Files], CLFS_SCAN_FORWARD, CLFS_SCAN_INIT, CLS_SCAN_CONTEXT, PCLFS_SCAN_CONTEXT, PCLFS_SCAN_CONTEXT structure pointer [Files], PPCLS_SCAN_CONTEXT, _CLS_SCAN_CONTEXT, clfs/PCLFS_SCAN_CONTEXT, clfs/_CLFS_SCAN_CONTEXT, fs.clfs_scan_context"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,22 +70,19 @@ The ID of the current node. For more information, see <a href="https://msdn.micr
 
 ### -field cIndex
 
-
-					The index of the current container.
+The index of the current container.
 
 
 ### -field cContainers
 
-
-					The number of system-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff541782">CLFS_CONTAINER_INFORMATION</a> structures in an array that is pointed to by <b>pinfoContainer</b>. 
+The number of system-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff541782">CLFS_CONTAINER_INFORMATION</a> structures in an array that is pointed to by <b>pinfoContainer</b>. 
 
 That is, this member is the number of containers to scan with each scan call.   The caller knows the scan is complete when the number of containers returned is less than this value.
 
 
 ### -field cContainersReturned
 
-
-					The number of containers that are returned after a call to <a href="https://msdn.microsoft.com/a3a374ab-e5e9-47c0-9a62-d880823035b5">ScanLogContainers</a>.
+The number of containers that are returned after a call to <a href="https://msdn.microsoft.com/a3a374ab-e5e9-47c0-9a62-d880823035b5">ScanLogContainers</a>.
 
 
 ### -field eScanMode

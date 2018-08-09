@@ -4,10 +4,10 @@ title: IWdsTransportServer
 author: windows-sdk-content
 description: Represents a WDS transport server. A WDS client can use an object of this interface to manage setup, configuration, and namespace tasks on the server.
 old-location: wds\iwdstransportserver.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 0129658d-8725-4020-ae9c-9d0a44075561
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWdsTransportServer, IWdsTransportServer interface [Windows Deployment Services], IWdsTransportServer interface [Windows Deployment Services],described, wds.iwdstransportserver, wdstptmgmt/IWdsTransportServer
 ms.prod: windows
 ms.technology: windows-sdk

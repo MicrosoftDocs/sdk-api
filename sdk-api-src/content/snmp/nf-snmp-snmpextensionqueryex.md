@@ -4,10 +4,10 @@ title: SnmpExtensionQueryEx function
 author: windows-sdk-content
 description: The Microsoft SNMP service calls the SnmpExtensionQueryEx function to process SNMP requests that specify variables in one or more MIB subtrees registered by SNMP extension agents. This function is an element of the SNMP Extension Agent API.
 old-location: snmp\snmpextensionqueryex.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 2479c6ea-93f8-4b23-a0b7-645bf27f252f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SNMP_ERRORSTATUS_AUTHORIZATIONERROR, SNMP_ERRORSTATUS_BADVALUE, SNMP_ERRORSTATUS_COMMITFAILED, SNMP_ERRORSTATUS_GENERR, SNMP_ERRORSTATUS_INCONSISTENTNAME, SNMP_ERRORSTATUS_INCONSISTENTVALUE, SNMP_ERRORSTATUS_NOACCESS, SNMP_ERRORSTATUS_NOCREATION, SNMP_ERRORSTATUS_NOERROR, SNMP_ERRORSTATUS_NOSUCHNAME, SNMP_ERRORSTATUS_NOTWRITABLE, SNMP_ERRORSTATUS_READONLY, SNMP_ERRORSTATUS_RESOURCEUNAVAILABLE, SNMP_ERRORSTATUS_TOOBIG, SNMP_ERRORSTATUS_UNDOFAILED, SNMP_ERRORSTATUS_WRONGENCODING, SNMP_ERRORSTATUS_WRONGLENGTH, SNMP_ERRORSTATUS_WRONGTYPE, SNMP_ERRORSTATUS_WRONGVALUE, SNMP_EXTENSION_GET, SNMP_EXTENSION_GET_NEXT, SNMP_EXTENSION_SET_CLEANUP, SNMP_EXTENSION_SET_COMMIT, SNMP_EXTENSION_SET_TEST, SNMP_EXTENSION_SET_UNDO, SnmpExtensionQueryEx, SnmpExtensionQueryEx callback, SnmpExtensionQueryEx callback function [SNMP], _snmp_snmpextensionqueryex, snmp.snmpextensionqueryex, snmp/SnmpExtensionQueryEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SnmpExtensionQueryEx function
@@ -64,14 +65,87 @@ The Microsoft SNMP service calls the
 
 
 
-### -param nRequestType
+### -param nRequestType [in]
 
-TBD
+Specifies the type of operation that the SNMP service is requesting the extension agent to perform. This parameter can be one of the following values. 
 
 
-### -param nTransactionId
 
-TBD
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="SNMP_EXTENSION_GET"></a><a id="snmp_extension_get"></a><dl>
+<dt><b>SNMP_EXTENSION_GET</b></dt>
+</dl>
+</td>
+<td width="60%">
+Retrieve the value or values of the specified variables.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SNMP_EXTENSION_GET_NEXT"></a><a id="snmp_extension_get_next"></a><dl>
+<dt><b>SNMP_EXTENSION_GET_NEXT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Retrieve the value or values of the lexicographic successor of the specified variables.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SNMP_EXTENSION_SET_TEST"></a><a id="snmp_extension_set_test"></a><dl>
+<dt><b>SNMP_EXTENSION_SET_TEST</b></dt>
+</dl>
+</td>
+<td width="60%">
+Validate the values of the specified variables. This operation maximizes the probability of a successful write during the 
+<a href="https://docs.microsoft.com/">COMMIT request</a>.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SNMP_EXTENSION_SET_COMMIT"></a><a id="snmp_extension_set_commit"></a><dl>
+<dt><b>SNMP_EXTENSION_SET_COMMIT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Write the new values to the specified variables.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SNMP_EXTENSION_SET_UNDO"></a><a id="snmp_extension_set_undo"></a><dl>
+<dt><b>SNMP_EXTENSION_SET_UNDO</b></dt>
+</dl>
+</td>
+<td width="60%">
+Reset the values of the specified variables to their values before the COMMIT request.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SNMP_EXTENSION_SET_CLEANUP"></a><a id="snmp_extension_set_cleanup"></a><dl>
+<dt><b>SNMP_EXTENSION_SET_CLEANUP</b></dt>
+</dl>
+</td>
+<td width="60%">
+Release the resources allocated in previous requests and operations.
+
+</td>
+</tr>
+</table>
+ 
+
+For additional information about the SET request types, that is, those that begin with SNMP_EXTENSION_SET_, see the following Remarks section.
+
+
+### -param nTransactionId [in]
+
+Specifies a <b>DWORD</b> variable that is the unique identifier of the incoming SNMP request PDU. The extension agent can use this value to correlate multiple calls by the SNMP service that involve the same PDU.
 
 
 ### -param pVarBindList [in, out]
@@ -298,89 +372,6 @@ The variable does not exist; the agent cannot create it because the named object
 ### -param pErrorIndex [out]
 
 Pointer to a variable to receive the error index result.
-
-
-#### - dwRequestType [in]
-
-Specifies the type of operation that the SNMP service is requesting the extension agent to perform. This parameter can be one of the following values. 
-
-
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="SNMP_EXTENSION_GET"></a><a id="snmp_extension_get"></a><dl>
-<dt><b>SNMP_EXTENSION_GET</b></dt>
-</dl>
-</td>
-<td width="60%">
-Retrieve the value or values of the specified variables.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SNMP_EXTENSION_GET_NEXT"></a><a id="snmp_extension_get_next"></a><dl>
-<dt><b>SNMP_EXTENSION_GET_NEXT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Retrieve the value or values of the lexicographic successor of the specified variables.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SNMP_EXTENSION_SET_TEST"></a><a id="snmp_extension_set_test"></a><dl>
-<dt><b>SNMP_EXTENSION_SET_TEST</b></dt>
-</dl>
-</td>
-<td width="60%">
-Validate the values of the specified variables. This operation maximizes the probability of a successful write during the 
-<a href="https://docs.microsoft.com/">COMMIT request</a>.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SNMP_EXTENSION_SET_COMMIT"></a><a id="snmp_extension_set_commit"></a><dl>
-<dt><b>SNMP_EXTENSION_SET_COMMIT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Write the new values to the specified variables.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SNMP_EXTENSION_SET_UNDO"></a><a id="snmp_extension_set_undo"></a><dl>
-<dt><b>SNMP_EXTENSION_SET_UNDO</b></dt>
-</dl>
-</td>
-<td width="60%">
-Reset the values of the specified variables to their values before the COMMIT request.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SNMP_EXTENSION_SET_CLEANUP"></a><a id="snmp_extension_set_cleanup"></a><dl>
-<dt><b>SNMP_EXTENSION_SET_CLEANUP</b></dt>
-</dl>
-</td>
-<td width="60%">
-Release the resources allocated in previous requests and operations.
-
-</td>
-</tr>
-</table>
- 
-
-For additional information about the SET request types, that is, those that begin with SNMP_EXTENSION_SET_, see the following Remarks section.
-
-
-#### - dwTransactionId [in]
-
-Specifies a <b>DWORD</b> variable that is the unique identifier of the incoming SNMP request PDU. The extension agent can use this value to correlate multiple calls by the SNMP service that involve the same PDU.
 
 
 ## -returns

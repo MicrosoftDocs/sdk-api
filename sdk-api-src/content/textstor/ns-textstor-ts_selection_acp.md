@@ -7,7 +7,7 @@ old-location: tsf\ts_selection_acp.htm
 old-project: TSF
 ms.assetid: 739c87c5-3e9c-41f3-ad79-0b417347604b
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: TS_SELECTION_ACP, TS_SELECTION_ACP structure [Text Services Framework], _tsf_ts_selection_acp_ref, textstor/TS_SELECTION_ACP, tsf.ts_selection_acp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,14 +87,12 @@ A <a href="https://msdn.microsoft.com/20d0efc2-604f-4ec6-820d-0f87a6d011b0">TS_S
 
 
 
-<a href="https://msdn.microsoft.com/e9151b63-2ca7-4995-a36b-b919ab2d491a">
-        ITextStoreACP::SetSelection
+<a href="https://msdn.microsoft.com/e9151b63-2ca7-4995-a36b-b919ab2d491a">ITextStoreACP::SetSelection
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/20d0efc2-604f-4ec6-820d-0f87a6d011b0">
-        TS_SELECTIONSTYLE
+<a href="https://msdn.microsoft.com/20d0efc2-604f-4ec6-820d-0f87a6d011b0">TS_SELECTIONSTYLE
       </a>
  
 

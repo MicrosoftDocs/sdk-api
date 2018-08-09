@@ -7,7 +7,7 @@ old-location: mf\imfpmphostapp_unlockprocess.htm
 old-project: medfound
 ms.assetid: 4cb26f53-7d2a-417b-9bb8-0268920cf2a7
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFPMPHostApp interface [Media Foundation],UnlockProcess method, IMFPMPHostApp.UnlockProcess, IMFPMPHostApp::UnlockProcess, UnlockProcess, UnlockProcess method [Media Foundation], UnlockProcess method [Media Foundation],IMFPMPHostApp interface, mf.imfpmphostapp_unlockprocess, mfidl/IMFPMPHostApp::UnlockProcess
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Decrements the lock count on the protected media path (PMP) process. Call this method once for each call to <a href="https://msdn.microsoft.com/ee3da924-a90a-4736-812e-f392631177c2">IMFPMPHostApp::LockProcess</a>.
+Decrements the lock count on the protected media path (PMP) process. Call this method once for each call to <a href="https://msdn.microsoft.com/ee3da924-a90a-4736-812e-f392631177c2">IMFPMPHostApp::LockProcess</a>.
         
 
 

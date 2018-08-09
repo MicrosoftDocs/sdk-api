@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_getstatus.htm
 old-project: TSF
 ms.assetid: 61192268-5a5f-4caa-bdb8-799ee4aea24e
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetStatus method, ITextStoreAnchor.GetStatus, ITextStoreAnchor::GetStatus, textstor/ITextStoreAnchor::GetStatus, tsf.itextstoreanchor_getstatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,14 +108,12 @@ The pointer to the TS_STATUS parameter is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/62730a6d-4dc8-4207-9818-ab95e6537854">
-        ITextStoreAnchor
+<a href="https://msdn.microsoft.com/62730a6d-4dc8-4207-9818-ab95e6537854">ITextStoreAnchor
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/28bdfa93-29c1-4a9f-b85e-20c39a1b429b">
-        ITextStoreAnchorSink::OnStatusChange
+<a href="https://msdn.microsoft.com/28bdfa93-29c1-4a9f-b85e-20c39a1b429b">ITextStoreAnchorSink::OnStatusChange
       </a>
 
 
@@ -125,8 +123,7 @@ The pointer to the TS_STATUS parameter is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/d27d81f2-8599-4b65-866b-4e8fd2f589f5">
-        TS_STATUS
+<a href="https://msdn.microsoft.com/d27d81f2-8599-4b65-866b-4e8fd2f589f5">TS_STATUS
       </a>
  
 

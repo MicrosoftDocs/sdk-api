@@ -4,10 +4,10 @@ title: "_llseek function"
 author: windows-sdk-content
 description: Repositions the file pointer for the specified file.
 old-location: winprog\_llseek.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: 1861bd5a-97e6-463d-9586-22458a1d9210
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_llseek, _llseek function [Windows API], winbase/_llseek, winprog._llseek"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,22 +72,10 @@ A handle to an open file. This handle is created by <a href="https://msdn.micros
 
 ### -param lOffset
 
-TBD
-
-
-### -param iOrigin
-
-TBD
-
-
-
-
-#### - LONG
-
 The number of bytes that the file pointer is to be moved.
 
 
-#### - nOrigin
+### -param iOrigin
 
 The starting point and the direction that the pointer will be moved.
 

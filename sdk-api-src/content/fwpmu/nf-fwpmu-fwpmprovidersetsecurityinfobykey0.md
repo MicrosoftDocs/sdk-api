@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidersetsecurityinfobykey0_func.htm
 old-project: fwp
 ms.assetid: 4451ae03-cdff-4b43-84cd-a80d639ba79f
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmProviderSetSecurityInfoByKey0, FwpmProviderSetSecurityInfoByKey0 function [Filtering], fwp.fwpmprovidersetsecurityinfobykey0_func, fwpmu/FwpmProviderSetSecurityInfoByKey0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-
-		The <b>FwpmProviderSetSecurityInfoByKey0</b> function sets specified security information in the security descriptor of a provider object.
+The <b>FwpmProviderSetSecurityInfoByKey0</b> function sets specified security information in the security descriptor of a provider object.
 
 
 ## -parameters

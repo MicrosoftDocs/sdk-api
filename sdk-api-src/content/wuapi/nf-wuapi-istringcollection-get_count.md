@@ -4,10 +4,10 @@ title: IStringCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of elements in the collection.
 old-location: wua\istringcollection_count.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: f735ee0b-56db-44f4-b8e6-38843098fe77
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IStringCollection interface, IStringCollection interface [Windows Update Agent],Count property, IStringCollection.Count, IStringCollection.get_Count, IStringCollection::Count, IStringCollection::get_Count, get_Count, wua.istringcollection_count, wuapi/IStringCollection::Count, wuapi/IStringCollection::get_Count
 ms.prod: windows
 ms.technology: windows-sdk

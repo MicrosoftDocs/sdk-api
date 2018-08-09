@@ -7,7 +7,7 @@ old-location: iphlp\enablerouter.htm
 old-project: iphlp
 ms.assetid: 779f5840-d58d-4194-baa7-2c6a7aeb7d79
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: EnableRouter, EnableRouter function [IP Helper], _iphlp_enablerouter, iphlp.enablerouter, iphlpapi/EnableRouter
 ms.prod: windows
 ms.technology: windows-sdk

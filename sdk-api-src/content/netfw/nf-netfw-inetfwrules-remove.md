@@ -7,7 +7,7 @@ old-location: ics\inetfwrules_remove.htm
 old-project: ics
 ms.assetid: 70bd45c7-b5ab-43b3-afd4-2abb2a80ff0f
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INetFwRules interface [ICS/ICF],Remove method, INetFwRules.Remove, INetFwRules::Remove, Remove, Remove method [ICS/ICF], Remove method [ICS/ICF],INetFwRules interface, ics.inetfwrules_remove, netfw/INetFwRules::Remove
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,8 +69,7 @@ Name of the rule  to remove from the collection.
 
 
 <h3>C++</h3>
-
-						If the method succeeds the return value is S_OK.
+If the method succeeds the return value is S_OK.
 
 If the method fails, the return value is one of the following error codes.
 
@@ -116,8 +115,7 @@ The method was unable to allocate required memory.
  
 
 <h3>VB</h3>
-
-						If the method succeeds the return value is S_OK.
+If the method succeeds the return value is S_OK.
 
 If the method fails, the return value is one of the following error codes.
 

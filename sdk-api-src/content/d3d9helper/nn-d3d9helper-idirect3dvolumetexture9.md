@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvolumetexture9.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolumetexture9.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IDirect3DVolumeTexture9, IDirect3DVolumeTexture9 interface [Direct3D 9], IDirect3DVolumeTexture9 interface [Direct3D 9],described, ac7e332f-4255-e077-7804-d9a2e2476d37, d3d9helper/IDirect3DVolumeTexture9, direct3d9.idirect3dvolumetexture9
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Applications use the methods of the IDirect3DVolumeTexture9 interface to manipul
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DVolumeTexture9</b> interface inherits from <a href="https://msdn.microsoft.com/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a>. <b>IDirect3DVolumeTexture9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DVolumeTexture9</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a>. <b>IDirect3DVolumeTexture9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDirect3DVolumeTexture9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205942(v=VS.85).aspx">AddDirtyBox</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205942(v=VS.85).aspx">AddDirtyBox</a>
 </td>
 <td align="left" width="63%">
 Adds a dirty region to a volume texture resource.
@@ -80,7 +80,7 @@ Adds a dirty region to a volume texture resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205943(v=VS.85).aspx">GetLevelDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205943(v=VS.85).aspx">GetLevelDesc</a>
 </td>
 <td align="left" width="63%">
 Retrieves a level description of a volume texture resource.
@@ -89,7 +89,7 @@ Retrieves a level description of a volume texture resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205944(v=VS.85).aspx">GetVolumeLevel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205944(v=VS.85).aspx">GetVolumeLevel</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified volume texture level.
@@ -98,7 +98,7 @@ Retrieves the specified volume texture level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205945(v=VS.85).aspx">LockBox</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205945(v=VS.85).aspx">LockBox</a>
 </td>
 <td align="left" width="63%">
 Locks a box on a volume texture resource.
@@ -107,7 +107,7 @@ Locks a box on a volume texture resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205946(v=VS.85).aspx">UnlockBox</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205946(v=VS.85).aspx">UnlockBox</a>
 </td>
 <td align="left" width="63%">
 Unlocks a box on a volume texture resource.
@@ -121,9 +121,9 @@ Unlocks a box on a volume texture resource.
 
 
 
-The <b>IDirect3DVolumeTexture9</b> interface can be obtained by calling the <a href="https://msdn.microsoft.com/library/Bb174367(v=VS.85).aspx">CreateVolumeTexture</a> method or one of the D3DXCreateVolumeTexture<i>xxx</i> functions.
+The <b>IDirect3DVolumeTexture9</b> interface can be obtained by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb174367(v=VS.85).aspx">CreateVolumeTexture</a> method or one of the D3DXCreateVolumeTexture<i>xxx</i> functions.
 
-This interface inherits additional functionality from the <a href="https://msdn.microsoft.com/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a> interface.
+This interface inherits additional functionality from the <a href="https://msdn.microsoft.com/en-us/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a> interface.
 
 This interface, like all COM interfaces, inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface.
 
@@ -152,35 +152,35 @@ typedef struct IDirect3DVolumeTexture9 *LPDIRECT3DVOLUMETEXTURE9, *PDIRECT3DVOLU
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174367(v=VS.85).aspx">CreateVolumeTexture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174367(v=VS.85).aspx">CreateVolumeTexture</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb172810(v=VS.85).aspx">D3DXCreateVolumeTexture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb172810(v=VS.85).aspx">D3DXCreateVolumeTexture</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb172811(v=VS.85).aspx">D3DXCreateVolumeTextureFromFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb172811(v=VS.85).aspx">D3DXCreateVolumeTextureFromFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb172812(v=VS.85).aspx">D3DXCreateVolumeTextureFromFileEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb172812(v=VS.85).aspx">D3DXCreateVolumeTextureFromFileEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb172813(v=VS.85).aspx">D3DXCreateVolumeTextureFromFileInMemory</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb172813(v=VS.85).aspx">D3DXCreateVolumeTextureFromFileInMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb172814(v=VS.85).aspx">D3DXCreateVolumeTextureFromFileInMemoryEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb172814(v=VS.85).aspx">D3DXCreateVolumeTextureFromFileInMemoryEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb172815(v=VS.85).aspx">D3DXCreateVolumeTextureFromResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb172815(v=VS.85).aspx">D3DXCreateVolumeTextureFromResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb172816(v=VS.85).aspx">D3DXCreateVolumeTextureFromResourceEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb172816(v=VS.85).aspx">D3DXCreateVolumeTextureFromResourceEx</a>
 
 
 
@@ -188,7 +188,7 @@ typedef struct IDirect3DVolumeTexture9 *LPDIRECT3DVOLUMETEXTURE9, *PDIRECT3DVOLU
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a>
  
 
  

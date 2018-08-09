@@ -7,7 +7,7 @@ old-location: mf\dxva2_decodebufferdesc.htm
 old-project: medfound
 ms.assetid: eb17005a-035d-41cb-8f54-97b5d0f84736
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: DXVA2_BitStreamDateBufferType, DXVA2_DeblockingControlBufferType, DXVA2_DecodeBufferDesc, DXVA2_DecodeBufferDesc structure [Media Foundation], DXVA2_FilmGrainBuffer, DXVA2_InverseQuantizationMatrixBufferType, DXVA2_MacroBlockControlBufferType, DXVA2_MotionVectorBuffer, DXVA2_PictureParametersBufferType, DXVA2_ResidualDifferenceBufferType, DXVA2_SliceControlBufferType, _DXVA2_DecodeBufferDesc, dxva2api/DXVA2_DecodeBufferDesc, eb17005a-035d-41cb-8f54-97b5d0f84736, mf.dxva2_decodebufferdesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          Describes a buffer sent from a decoder to a DirectX Video Acceleration (DXVA) device.
+Describes a buffer sent from a decoder to a DirectX Video Acceleration (DXVA) device.
         
 
 
@@ -76,8 +75,7 @@ Identifies the type of buffer passed to the accelerator. Must be one of the foll
 </dl>
 </td>
 <td width="60%">
-
-                Picture decoding parameter buffer.
+Picture decoding parameter buffer.
               
 
 </td>
@@ -88,8 +86,7 @@ Identifies the type of buffer passed to the accelerator. Must be one of the foll
 </dl>
 </td>
 <td width="60%">
-
-                Macroblock control command buffer.
+Macroblock control command buffer.
               
 
 </td>
@@ -100,8 +97,7 @@ Identifies the type of buffer passed to the accelerator. Must be one of the foll
 </dl>
 </td>
 <td width="60%">
-
-                Residual difference block data buffer.
+Residual difference block data buffer.
               
 
 </td>
@@ -112,8 +108,7 @@ Identifies the type of buffer passed to the accelerator. Must be one of the foll
 </dl>
 </td>
 <td width="60%">
-
-                Deblocking filter control command buffer.
+Deblocking filter control command buffer.
               
 
 </td>
@@ -124,8 +119,7 @@ Identifies the type of buffer passed to the accelerator. Must be one of the foll
 </dl>
 </td>
 <td width="60%">
-
-                Inverse quantization matrix buffer.
+Inverse quantization matrix buffer.
               
 
 </td>
@@ -136,8 +130,7 @@ Identifies the type of buffer passed to the accelerator. Must be one of the foll
 </dl>
 </td>
 <td width="60%">
-
-                Slice-control buffer.
+Slice-control buffer.
               
 
 </td>
@@ -148,8 +141,7 @@ Identifies the type of buffer passed to the accelerator. Must be one of the foll
 </dl>
 </td>
 <td width="60%">
-
-                Bitstream data buffer.
+Bitstream data buffer.
               
 
 </td>
@@ -160,8 +152,7 @@ Identifies the type of buffer passed to the accelerator. Must be one of the foll
 </dl>
 </td>
 <td width="60%">
-
-                Motion vector buffer.
+Motion vector buffer.
               
 
 </td>
@@ -172,8 +163,7 @@ Identifies the type of buffer passed to the accelerator. Must be one of the foll
 </dl>
 </td>
 <td width="60%">
-
-                Film grain synthesis data buffer.
+Film grain synthesis data buffer.
               
 
 </td>
@@ -184,22 +174,19 @@ Identifies the type of buffer passed to the accelerator. Must be one of the foll
 
 ### -field BufferIndex
 
-
-            Reserved. Set to zero.
+Reserved. Set to zero.
           
 
 
 ### -field DataOffset
 
-
-            Specifies the offset of the relevant data from the beginning of the buffer, in bytes. Currently this value must be zero.
+Specifies the offset of the relevant data from the beginning of the buffer, in bytes. Currently this value must be zero.
           
 
 
 ### -field DataSize
 
-
-            Specifies the amount of relevant data in the buffer, in bytes. The location of the last byte of content in the buffer is <b>DataOffset</b> + <b>DataSize</b> − 1.
+Specifies the amount of relevant data in the buffer, in bytes. The location of the last byte of content in the buffer is <b>DataOffset</b> + <b>DataSize</b> − 1.
           
 
 
@@ -215,36 +202,31 @@ Specifies the number of macroblocks of data in the buffer. This count includes s
 
 ### -field Width
 
-
-            Reserved. Set to zero.
+Reserved. Set to zero.
           
 
 
 ### -field Height
 
-
-            Reserved. Set to zero.
+Reserved. Set to zero.
           
 
 
 ### -field Stride
 
-
-            Reserved. Set to zero.
+Reserved. Set to zero.
           
 
 
 ### -field ReservedBits
 
-
-            Reserved. Set to zero.
+Reserved. Set to zero.
           
 
 
 ### -field pvPVPState
 
-
-            Pointer to a byte array that contains an initialization vector (IV) for encrypted data. If the decode buffer does not contain encrypted data, set this member to <b>NULL</b>.
+Pointer to a byte array that contains an initialization vector (IV) for encrypted data. If the decode buffer does not contain encrypted data, set this member to <b>NULL</b>.
           If the decode buffer contains encrypted data, the contents of <b>pvPVPState</b> depends on the type of encryption. For <b>D3DCRYPTOTYPE_AES128_CTR</b>, the <b>pvPVPState</b> member points to a <a href="https://msdn.microsoft.com/acde4bbb-2a14-4237-b426-a157a9781f40">DXVA2_AES_CTR_IV</a> structure.
 
 

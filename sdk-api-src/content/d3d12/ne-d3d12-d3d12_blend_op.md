@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_blend_op.htm
 old-project: direct3d12
 ms.assetid: 2C36BFCB-2871-446F-8A79-3E963DB50795
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: D3D12_BLEND_OP, D3D12_BLEND_OP enumeration, D3D12_BLEND_OP_ADD, D3D12_BLEND_OP_MAX, D3D12_BLEND_OP_MIN, D3D12_BLEND_OP_REV_SUBTRACT, D3D12_BLEND_OP_SUBTRACT, d3d12/D3D12_BLEND_OP, d3d12/D3D12_BLEND_OP_ADD, d3d12/D3D12_BLEND_OP_MAX, d3d12/D3D12_BLEND_OP_MIN, d3d12/D3D12_BLEND_OP_REV_SUBTRACT, d3d12/D3D12_BLEND_OP_SUBTRACT, direct3d12.d3d12_blend_op
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,9 +87,9 @@ Find the maximum of source 1 and source 2.
 
 
 
-The runtime implements RGB blending and alpha blending separately. Therefore, blend state requires separate blend operations for RGB data and alpha data. These blend operations are specified in a <a href="https://msdn.microsoft.com/911158CF-5F4F-4211-8CC6-F73BDB697BC5">D3D12_RENDER_TARGET_BLEND_DESC</a> structure. The two sources —source 1 and source 2— are shown in the <a href="https://msdn.microsoft.com/library/Bb205120(v=VS.85).aspx">blending block diagram</a>.
+The runtime implements RGB blending and alpha blending separately. Therefore, blend state requires separate blend operations for RGB data and alpha data. These blend operations are specified in a <a href="https://msdn.microsoft.com/911158CF-5F4F-4211-8CC6-F73BDB697BC5">D3D12_RENDER_TARGET_BLEND_DESC</a> structure. The two sources —source 1 and source 2— are shown in the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">blending block diagram</a>.
 
-Blend state is used by the <a href="https://msdn.microsoft.com/library/Bb205120(v=VS.85).aspx">output-merger stage</a> to determine how to blend together two RGB pixel values and two alpha values. The two RGB pixel values and two alpha values are the RGB pixel value and alpha value that the pixel shader outputs and the RGB pixel value and alpha value already in the output render target. The <a href="https://msdn.microsoft.com/BA114E1C-0E0B-4260-ACED-0FF3D426C764">D3D12_BLEND</a> value controls the data source that the blending stage uses to modulate values for the pixel shader, render target, or both. The <b>D3D12_BLEND_OP</b> value controls how the blending stage mathematically combines these modulated values.
+Blend state is used by the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger stage</a> to determine how to blend together two RGB pixel values and two alpha values. The two RGB pixel values and two alpha values are the RGB pixel value and alpha value that the pixel shader outputs and the RGB pixel value and alpha value already in the output render target. The <a href="https://msdn.microsoft.com/BA114E1C-0E0B-4260-ACED-0FF3D426C764">D3D12_BLEND</a> value controls the data source that the blending stage uses to modulate values for the pixel shader, render target, or both. The <b>D3D12_BLEND_OP</b> value controls how the blending stage mathematically combines these modulated values.
 
 
 

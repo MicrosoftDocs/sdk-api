@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_gettotallength.htm
 old-project: medfound
 ms.assetid: E52D44B5-F24F-4234-A67D-0F764A3864DB
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetTotalLength, GetTotalLength method [Media Foundation], GetTotalLength method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetTotalLength method, IMFHttpDownloadRequest.GetTotalLength, IMFHttpDownloadRequest::GetTotalLength, mf.imfhttpdownloadrequest_gettotallength, mfidl/IMFHttpDownloadRequest::GetTotalLength
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ The total length, in bytes, of the resource being downloaded, if known. If not k
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -98,8 +97,7 @@ Successfully completed the operation.
 </dl>
 </td>
 <td width="60%">
-
-                The <i>pqwTotalLength</i> parameter is an invalid pointer.
+The <i>pqwTotalLength</i> parameter is an invalid pointer.
 
 </td>
 </tr>

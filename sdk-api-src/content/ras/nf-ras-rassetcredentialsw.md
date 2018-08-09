@@ -7,7 +7,7 @@ old-location: rras\rassetcredentials.htm
 old-project: rras
 ms.assetid: 5ebfffb7-9158-4414-982c-e187600aa1ab
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RasSetCredentials, RasSetCredentials function [RAS], RasSetCredentialsA, RasSetCredentialsW, _ras_rassetcredentials, ras/RasSetCredentials, ras/RasSetCredentialsA, ras/RasSetCredentialsW, rras.rassetcredentials
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,16 +69,18 @@ TBD
 
 
 
-#### - fClearCredentials [in]
+#### - [in]
 
-A value that specifies whether 
-      <b>RasSetCredentials</b> clears existing credentials by 
-      setting them to the empty string, "". If this flag is <b>TRUE</b>, the 
-      <b>dwMask</b> member of the 
-      <a href="https://msdn.microsoft.com/5283b35a-adcf-4573-8c6b-5996d4e9440c">RASCREDENTIALS</a> structure indicates which 
-      credentials that the function sets to the empty string. If this flag is <b>FALSE</b>, the 
-      function sets the indicated credentials according to the contents of their corresponding 
-      <b>RASCREDENTIALS</b> members.
+A pointer to a null-terminated string that specifies the full path and file name of a phone-book 
+      (PBK) file. If this parameter is <b>NULL</b>, the function uses the current 
+      default phone-book file. The default phone-book file is the one selected by the user in the 
+      <b>User Preferences</b> property sheet of the 
+      <b>Dial-Up Networking</b> dialog box.
+
+
+#### - lpszEntry [in]
+
+A pointer to a null-terminated string that specifies the name of a phone-book entry.
 
 
 #### - lpCredentials [in]
@@ -91,18 +93,16 @@ A pointer to a <a href="https://msdn.microsoft.com/5283b35a-adcf-4573-8c6b-5996d
       member to indicate the credential information to be set.
 
 
-#### - lpszEntry [in]
+#### - fClearCredentials [in]
 
-A pointer to a null-terminated string that specifies the name of a phone-book entry.
-
-
-#### - lpszPhonebook [in]
-
-A pointer to a null-terminated string that specifies the full path and file name of a phone-book 
-      (PBK) file. If this parameter is <b>NULL</b>, the function uses the current 
-      default phone-book file. The default phone-book file is the one selected by the user in the 
-      <b>User Preferences</b> property sheet of the 
-      <b>Dial-Up Networking</b> dialog box.
+A value that specifies whether 
+      <b>RasSetCredentials</b> clears existing credentials by 
+      setting them to the empty string, "". If this flag is <b>TRUE</b>, the 
+      <b>dwMask</b> member of the 
+      <a href="https://msdn.microsoft.com/5283b35a-adcf-4573-8c6b-5996d4e9440c">RASCREDENTIALS</a> structure indicates which 
+      credentials that the function sets to the empty string. If this flag is <b>FALSE</b>, the 
+      function sets the indicated credentials according to the contents of their corresponding 
+      <b>RASCREDENTIALS</b> members.
 
 
 ## -returns
@@ -206,7 +206,7 @@ When setting credentials for an all-users connection, if
     the calling application specifies a non-NULL value for the phone-book parameter, 
     <i>lpszPhonebook</i>, the phone-book file must be located in the phone-book directory beneath 
     the all-users application data path. To obtain the correct location for the phone-book file, first call 
-    <a href="https://msdn.microsoft.com/library/Bb762181(v=VS.85).aspx">SHGetFolderPath</a> with a 
+    <a href="_win32_shgetfolderpath_cpp">SHGetFolderPath</a> with a 
     <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL</a> value of <b>CSIDL_COMMON_APPDATA</b>. 
     <b>SHGetFolderPath</b> returns the all-users 
     application data path. Append the following string to this path:

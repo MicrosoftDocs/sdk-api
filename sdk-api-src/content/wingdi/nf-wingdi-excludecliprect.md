@@ -7,7 +7,7 @@ old-location: gdi\excludecliprect.htm
 old-project: gdi
 ms.assetid: 5b29c44a-3959-498e-8327-c42ef16a8609
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ExcludeClipRect, ExcludeClipRect function [Windows GDI], _win32_ExcludeClipRect, gdi.excludecliprect, wingdi/ExcludeClipRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,46 +66,24 @@ The <b>ExcludeClipRect</b> function creates a new clipping region that consists 
 A handle to the device context.
 
 
-### -param left
-
-TBD
-
-
-### -param top
-
-TBD
-
-
-### -param right
-
-TBD
-
-
-### -param bottom
-
-TBD
-
-
-
-
-#### - nBottomRect [in]
-
-The y-coordinate, in logical units, of the lower-right corner of the rectangle.
-
-
-#### - nLeftRect [in]
+### -param left [in]
 
 The x-coordinate, in logical units, of the upper-left corner of the rectangle.
 
 
-#### - nRightRect [in]
+### -param top [in]
+
+The y-coordinate, in logical units, of the upper-left corner of the rectangle.
+
+
+### -param right [in]
 
 The x-coordinate, in logical units, of the lower-right corner of the rectangle.
 
 
-#### - nTopRect [in]
+### -param bottom [in]
 
-The y-coordinate, in logical units, of the upper-left corner of the rectangle.
+The y-coordinate, in logical units, of the lower-right corner of the rectangle.
 
 
 ## -returns

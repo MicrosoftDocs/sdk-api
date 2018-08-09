@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectgroupimpl_getchildren.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroupimpl\getchildren.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: GetChildren, GetChildren method [WPF Bitmap Effects], GetChildren method [WPF Bitmap Effects],IMILBitmapEffectGroupImpl interface, IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects],GetChildren method, IMILBitmapEffectGroupImpl.GetChildren, IMILBitmapEffectGroupImpl::GetChildren, _wibe_imilbitmapeffectgroupimpl_getchildren, mileffects/IMILBitmapEffectGroupImpl::GetChildren, wibe._wibe_imilbitmapeffectgroupimpl_getchildren
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Gets the children of the effect group.
 
 ### -param pChildren [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735232(v=VS.85).aspx">IMILBitmapEffects</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735232(v=VS.85).aspx">IMILBitmapEffects</a>**</b>
 
-A pointer that receives a pointer to the <a href="https://msdn.microsoft.com/library/ms735232(v=VS.85).aspx">IMILBitmapEffects</a> group.
+A pointer that receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms735232(v=VS.85).aspx">IMILBitmapEffects</a> group.
 
 
 ## -returns

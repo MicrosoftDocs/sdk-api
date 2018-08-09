@@ -7,7 +7,7 @@ old-location: mscs\clusnodes_count.htm
 old-project: mscs
 ms.assetid: 4447f636-f1be-4175-ac26-0c0beb4dac01
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusNodes collection [Failover Cluster],Count property, ClusNodes.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusNodes collection, ISClusNodes.get_Count, ISClusNodes::get_Count, _wolf_clusnodes.count, get_Count, mscs.clusnodes_count
 ms.prod: windows
 ms.technology: windows-sdk

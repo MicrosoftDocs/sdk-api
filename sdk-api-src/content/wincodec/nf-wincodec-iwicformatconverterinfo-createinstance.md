@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicformatconverterinfo_createinstance.htm
 old-project: wic
 ms.assetid: 5b0f2cac-6bd7-46a8-884c-89735f3968a0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateInstance, CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component],IWICFormatConverterInfo interface, IWICFormatConverterInfo interface [Windows Imaging Component],CreateInstance method, IWICFormatConverterInfo.CreateInstance, IWICFormatConverterInfo::CreateInstance, _wic_codec_iwicformatconverterinfo_createinstance, wic._wic_codec_iwicformatconverterinfo_createinstance, wincodec/IWICFormatConverterInfo::CreateInstance
 ms.prod: windows
 ms.technology: windows-sdk

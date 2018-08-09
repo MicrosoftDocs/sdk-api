@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationExpandCollapsePattern_CachedExpandColl
 old-project: WinAuto
 ms.assetid: fa95dcb8-487b-49ef-b04d-8a84eb2334e0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CachedExpandCollapseState property [Windows Accessibility], CachedExpandCollapseState property [Windows Accessibility],IUIAutomationExpandCollapsePattern interface, IUIAutomationExpandCollapsePattern interface [Windows Accessibility],CachedExpandCollapseState property, IUIAutomationExpandCollapsePattern.CachedExpandCollapseState, IUIAutomationExpandCollapsePattern.get_CachedExpandCollapseState, IUIAutomationExpandCollapsePattern::CachedExpandCollapseState, IUIAutomationExpandCollapsePattern::get_CachedExpandCollapseState, get_CachedExpandCollapseState, uiauto.uiauto_IUIAutomationExpandCollapsePattern_CachedExpandCollapseState, uiauto_IUIAutomationExpandCollapsePattern_CachedExpandCollapseState, uiautomationclient/IUIAutomationExpandCollapsePattern::CachedExpandCollapseState, uiautomationclient/IUIAutomationExpandCollapsePattern::get_CachedExpandCollapseState, winauto.uiauto_IUIAutomationExpandCollapsePattern_CachedExpandCollapseState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

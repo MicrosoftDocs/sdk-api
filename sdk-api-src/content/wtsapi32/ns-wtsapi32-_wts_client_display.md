@@ -4,10 +4,10 @@ title: "_WTS_CLIENT_DISPLAY"
 author: windows-sdk-content
 description: Contains information about the display of a Remote Desktop Connection (RDC) client.
 old-location: termserv\wts_client_display_str.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 0d5e0a9d-23b0-4302-ade3-eb9fbd7f787d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PWTS_CLIENT_DISPLAY, 1, 16, 2, 24, 32, 4, 8, PWTS_CLIENT_DISPLAY, PWTS_CLIENT_DISPLAY structure pointer [Remote Desktop Services], WTS_CLIENT_DISPLAY, WTS_CLIENT_DISPLAY structure [Remote Desktop Services], _WTS_CLIENT_DISPLAY, _win32_wts_client_display_str, termserv.wts_client_display_str, wtsapi32/PWTS_CLIENT_DISPLAY, wtsapi32/WTS_CLIENT_DISPLAY"
 ms.prod: windows
 ms.technology: windows-sdk

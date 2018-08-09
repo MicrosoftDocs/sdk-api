@@ -7,7 +7,7 @@ old-location: tablet\addstroke.htm
 old-project: tablet
 ms.assetid: 1db3dbef-41bf-4b00-8e6c-07c7c414e595
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 1db3dbef-41bf-4b00-8e6c-07c7c414e595, AddStroke, AddStroke function [Tablet PC], recapis/AddStroke, tablet.addstroke
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,13 +83,6 @@ Array of packets that contain tablet space coordinates.
 
 
 ### -param pXForm
-
-TBD
-
-
-
-
-#### - pxForm
 
 Describes the transform that can be applied to ink to transform it from tablet space into ink space. A recognizer may choose to ignore this transform and implement their own ink rotation algorithms. These recognizers should still return properties calculated in the lattice data relative to this transform.
 

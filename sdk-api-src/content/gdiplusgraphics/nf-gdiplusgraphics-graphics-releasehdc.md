@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_ReleaseHDC_hdc_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\releasehdc.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Graphics class [GDI+],ReleaseHDC method, Graphics.ReleaseHDC, Graphics::ReleaseHDC, ReleaseHDC, ReleaseHDC method [GDI+], ReleaseHDC method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_ReleaseHDC_hdc_, gdiplus._gdiplus_CLASS_Graphics_ReleaseHDC_hdc_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Graphics::ReleaseHDC</b> method releases a device context handle obtained by a previous call to the <a href="https://msdn.microsoft.com/library/ms535709(v=VS.85).aspx">Graphics::GetHDC</a> method of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object.
+The <b>Graphics::ReleaseHDC</b> method releases a device context handle obtained by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms535709(v=VS.85).aspx">Graphics::GetHDC</a> method of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>Graphics::ReleaseHDC</b> method releases a device context handle obtained
 
 Type: <b>HDC</b>
 
-Handle to a device context obtained by a previous call to the <a href="https://msdn.microsoft.com/library/ms535709(v=VS.85).aspx">Graphics::GetHDC</a> method of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object. 
+Handle to a device context obtained by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms535709(v=VS.85).aspx">Graphics::GetHDC</a> method of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object. 
 
 
 ## -returns
@@ -80,11 +80,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536339(v=VS.85).aspx">Changes in the Programming Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536339(v=VS.85).aspx">Changes in the Programming Model</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535778(v=VS.85).aspx">FromHDC Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535778(v=VS.85).aspx">FromHDC Methods</a>
 
 
 
@@ -92,7 +92,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535709(v=VS.85).aspx">Graphics::GetHDC</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535709(v=VS.85).aspx">Graphics::GetHDC</a>
  
 
  

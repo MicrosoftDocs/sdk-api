@@ -7,7 +7,7 @@ old-location: adsi\idirectoryobject.htm
 old-project: ADSI
 ms.assetid: bc4f8920-2881-4393-bb01-ed837c3db6ad
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IDirectoryObject, IDirectoryObject interface [ADSI], IDirectoryObject interface [ADSI],described, _ds_idirectoryobject_ref, adsi.idirectoryobject, adsi.idirectoryobject__ref, iads/IDirectoryObject
 ms.prod: windows
 ms.technology: windows-sdk

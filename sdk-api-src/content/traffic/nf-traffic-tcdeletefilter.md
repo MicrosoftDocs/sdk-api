@@ -4,10 +4,10 @@ title: TcDeleteFilter function
 author: windows-sdk-content
 description: The TcDeleteFilter function deletes a filter previously added with the TcAddFilter function.
 old-location: qos\tcdeletefilter.htm
-old-project: QOS
+old-project: qos
 ms.assetid: 3a9eaffc-78d8-4473-a2d3-c060b104abd3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TcDeleteFilter, TcDeleteFilter function [QOS], _gqos_tcdeletefilter, qos.tcdeletefilter, traffic/TcDeleteFilter
 ms.prod: windows
 ms.technology: windows-sdk

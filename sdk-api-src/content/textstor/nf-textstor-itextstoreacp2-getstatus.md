@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp2_getstatus.htm
 old-project: TSF
 ms.assetid: 6b767f85-0a92-467c-b358-3629582f0d43
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetStatus method, ITextStoreACP2.GetStatus, ITextStoreACP2::GetStatus, textstor/ITextStoreACP2::GetStatus, tsf.itextstoreacp2_getstatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,8 +108,7 @@ The pointer to the <a href="https://msdn.microsoft.com/d27d81f2-8599-4b65-866b-4
 
 
 
-<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">
-        ITextStoreACP
+<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP
       </a>
 
 

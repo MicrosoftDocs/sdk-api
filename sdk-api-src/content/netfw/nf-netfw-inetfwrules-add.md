@@ -7,7 +7,7 @@ old-location: ics\inetfwrules_add.htm
 old-project: ics
 ms.assetid: c81bdf56-df71-425a-93d2-1fbae5ab536e
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],INetFwRules interface, INetFwRules interface [ICS/ICF],Add method, INetFwRules.Add, INetFwRules::Add, ics.inetfwrules_add, netfw/INetFwRules::Add
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,8 +69,7 @@ Rule to be added to the collection via an <a href="https://msdn.microsoft.com/59
 
 
 <h3>C++</h3>
-
-						If the method succeeds the return value is S_OK.
+If the method succeeds the return value is S_OK.
 
 If the method fails, the return value is one of the following error codes.
 
@@ -116,8 +115,7 @@ The  method failed because the  object is already in the collection.
  
 
 <h3>VB</h3>
-
-						If the method succeeds the return value is S_OK.
+If the method succeeds the return value is S_OK.
 
 If the method fails, the return value is one of the following error codes.
 

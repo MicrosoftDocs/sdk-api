@@ -7,7 +7,7 @@ old-location: dhcp\dhcpregisterparamchange.htm
 old-project: dhcp
 ms.assetid: e0099827-2f88-4309-a5e7-3bc1395de5a2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpRegisterParamChange, DhcpRegisterParamChange function [DHCP], _dhcp_dhcpregisterparamchange, dhcp.dhcpregisterparamchange, dhcpcsdk/DhcpRegisterParamChange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,9 +74,9 @@ Reserved. Must be set to <b>NULL</b>.
 Name of the adapter for which event notification is being requested.  Must be under 256 characters. 
 
 
-### -param ClassId
+### -param ClassId [in]
 
-TBD
+Reserved. Must be set to <b>NULL</b>.
 
 
 ### -param Params [in]
@@ -89,11 +89,6 @@ Parameters for which the client is interested in registering for notification, i
 Attributes of <i>Handle</i> are determined by the value of <i>Flags</i>. In version 2 of the DHCP API, <i>Flags</i> must be set to DHCPCAPI_REGISTER_HANDLE_EVENT, and therefore, <i>Handle</i> must be a pointer to a <b>HANDLE</b> variable that will hold the handle to a Windows event that gets signaled when parameters specified in <i>Params</i> change. Note that this <b>HANDLE</b> variable is used in a subsequent call to the 
 <b>DhcpDeRegisterParamChange</b> function to deregister event notifications associated with this particular call to the 
 <b>DhcpRegisterParamChange</b> function.
-
-
-#### - pClassId [in]
-
-Reserved. Must be set to <b>NULL</b>.
 
 
 ## -returns

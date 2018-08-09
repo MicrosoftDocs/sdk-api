@@ -7,7 +7,7 @@ old-location: mstv\iisdb_emm_initialize.htm
 old-project: mstv
 ms.assetid: 127e7987-6782-4577-9104-86124d948d18
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IISDB_EMM interface [Microsoft TV Technologies],Initialize method, IISDB_EMM.Initialize, IISDB_EMM::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_EMM interface, dvbsiparser/IISDB_EMM::Initialize, mstv.iisdb_emm_initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Initializes the data elements of  an Integrated Services
+Initializes the data elements of  an Integrated Services
   Digital Broadcasting (ISDB) entitlement management message (EMM) table
    by using the
   list of MPEG-2 EMM sections.

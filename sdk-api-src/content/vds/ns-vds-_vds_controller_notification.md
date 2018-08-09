@@ -4,10 +4,10 @@ title: "_VDS_CONTROLLER_NOTIFICATION"
 author: windows-sdk-content
 description: Defines the details of controller events.
 old-location: base\vds_controller_notification.htm
-old-project: VDS
+old-project: vds
 ms.assetid: de2aa5d8-b9b0-4e3d-9846-e886ac1d4241
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: VDS_CONTROLLER_NOTIFICATION, VDS_CONTROLLER_NOTIFICATION structure [VDS], VDS_NF_CONTROLLER_ARRIVE, VDS_NF_CONTROLLER_DEPART, VDS_NF_CONTROLLER_MODIFY, VDS_NF_CONTROLLER_REMOVED, _VDS_CONTROLLER_NOTIFICATION, base.vds_controller_notification, vds/_VDS_CONTROLLER_NOTIFICATION, vdshwprv/_VDS_CONTROLLER_NOTIFICATION
 ms.prod: windows
 ms.technology: windows-sdk

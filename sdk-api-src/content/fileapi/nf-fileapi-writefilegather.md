@@ -7,7 +7,7 @@ old-location: fs\writefilegather.htm
 old-project: fileio
 ms.assetid: 9590eabb-6e85-406e-8101-e67f87e6850b
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/06/2018
 ms.keywords: WriteFileGather, WriteFileGather function [Files], _win32_writefilegather, base.writefilegather, fileapi/WriteFileGather, fs.writefilegather, winbase/WriteFileGather
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,8 +87,7 @@ A pointer to an array of <a href="https://msdn.microsoft.com/dde79dcb-95ec-4a9e-
 Each element contains the address of one page of data. 
        <div class="alert"><b>Note</b>  To determine the size of a system page, use the 
         <a href="https://msdn.microsoft.com/f6d745af-729a-494e-90b4-19fe7d97c7af">GetSystemInfo</a> function.</div>
-<div> </div>
-       The array must contain enough elements to store <i>nNumberOfBytesToWrite</i> bytes of data, 
+<div> </div>The array must contain enough elements to store <i>nNumberOfBytesToWrite</i> bytes of data, 
        and one element for the terminating <b>NULL</b>. For example, if there are 40 KB to be read 
        and the page size is 4 KB, the array must have 11 elements that includes 10 elements for the data and one 
        element for the <b>NULL</b>.

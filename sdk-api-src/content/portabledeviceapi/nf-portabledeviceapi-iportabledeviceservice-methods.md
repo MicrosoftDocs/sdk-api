@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservice_methods.htm
 old-project: wpd_sdk
 ms.assetid: 345102d4-3dac-4878-9196-bb0d97c0df07
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],Methods method, IPortableDeviceService.Methods, IPortableDeviceService::Methods, Methods, Methods method [Windows Portable Devices SDK], Methods method [Windows Portable Devices SDK],IPortableDeviceService interface, portabledeviceapi/IPortableDeviceService::Methods, wpdsdk.iportabledeviceservice_methods
 ms.prod: windows
 ms.technology: windows-sdk

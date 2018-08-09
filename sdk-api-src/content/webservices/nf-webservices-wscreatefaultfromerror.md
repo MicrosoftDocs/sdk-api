@@ -7,7 +7,7 @@ old-location: wsw\wscreatefaultfromerror.htm
 old-project: wsw
 ms.assetid: 193854d7-3b7f-4f2b-b068-33b9c4d91e57
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsCreateFaultFromError, WsCreateFaultFromError function [Web Services for Windows], webservices/WsCreateFaultFromError, wsw.wscreatefaultfromerror
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,22 @@ Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefa
                 
 
 
-### -param faultErrorCode
+### -param faultErrorCode [in]
 
-TBD
+The HRESULT error code returned from the function that failed.
+                    The HRESULT value cannot be a success code.
+                
+
+This error code is never included in the fault directly, but is used as a fallback mechanism for creating a fault string if the error object does not contain any error strings. 
 
 
-### -param faultDisclosure
+### -param faultDisclosure [in]
 
-TBD
+
+<a href="https://msdn.microsoft.com/1dca9074-b329-4293-8a44-d0ced00ae59e">WS_FAULT_DISCLOSURE</a> enumeration that controls
+                    what information is copied from
+                    the error object to the fault object.
+                
 
 
 ### -param heap [in]
@@ -90,24 +98,6 @@ Pointer to a <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a4
 Pointer to a <a href="https://msdn.microsoft.com/7fe0b142-04a1-4a92-99ca-523412f7c94e">WS_FAULT</a> structure representing the returned fault object.  The fields of the fault object are good until
                     <a href="https://msdn.microsoft.com/ec643915-8c4b-4916-b390-d6ca043350db">WsFreeHeap</a> or <a href="https://msdn.microsoft.com/c927ccb9-66c8-4acf-bbb5-12313ea80ee0">WsResetHeap</a>is called to release the specified heap resources.
                 
-
-
-#### - disclosure [in]
-
-
-<a href="https://msdn.microsoft.com/1dca9074-b329-4293-8a44-d0ced00ae59e">WS_FAULT_DISCLOSURE</a> enumeration that controls
-                    what information is copied from
-                    the error object to the fault object.
-                
-
-
-#### - errorCode [in]
-
-The HRESULT error code returned from the function that failed.
-                    The HRESULT value cannot be a success code.
-                
-
-This error code is never included in the fault directly, but is used as a fallback mechanism for creating a fault string if the error object does not contain any error strings. 
 
 
 ## -returns

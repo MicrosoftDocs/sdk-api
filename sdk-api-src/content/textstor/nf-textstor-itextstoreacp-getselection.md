@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_getselection.htm
 old-project: TSF
 ms.assetid: e2052daf-4168-4266-ae8d-a09ecbfeb422
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetSelection method, ITextStoreACP.GetSelection, ITextStoreACP::GetSelection, _tsf_itextstoreacp_getselection_ref, textstor/ITextStoreACP::GetSelection, tsf.itextstoreacp_getselection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -142,8 +142,7 @@ The document has no selection.
 
 
 
-<a href="https://msdn.microsoft.com/e9151b63-2ca7-4995-a36b-b919ab2d491a">
-        ITextStoreACP::SetSelection
+<a href="https://msdn.microsoft.com/e9151b63-2ca7-4995-a36b-b919ab2d491a">ITextStoreACP::SetSelection
       </a>
 
 

@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2_interface_createmasteringvoice.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CreateMasteringVoice(IXAudio2MasteringVoice@,UINT32,UINT32,UINT32,LPCWSTR,const XAUDIO2_EFFECT_CHAIN,AUDIO_STREAM_CATEGORY)
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: CreateMasteringVoice, CreateMasteringVoice method [XAudio2 Audio Mixing APIs], CreateMasteringVoice method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],CreateMasteringVoice method, IXAudio2.CreateMasteringVoice, IXAudio2::CreateMasteringVoice, xaudio2.ixaudio2_interface_createmasteringvoice, xaudio2/IXAudio2::CreateMasteringVoice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,11 +71,6 @@ Creates and configures a mastering voice.
 
 
 
-#### - Flags [in]
-
- Flags that specify the behavior of the mastering voice. Must be 0.
-
-
 #### - InputChannels [in]
 
 Number of channels the mastering voice expects in its input audio. 
@@ -109,9 +104,14 @@ Flags
 
 
 
-#### - StreamCategory [in, optional]
+#### - Flags [in]
 
-The audio stream category to use for this mastering voice.
+ Flags that specify the behavior of the mastering voice. Must be 0.
+
+
+#### - szDeviceId [in]
+
+Identifier of the device to receive the output audio. Specifying the default value of NULL causes XAudio2 to select the global default audio device.
 
 
 #### - pEffectChain [in, optional]
@@ -119,9 +119,9 @@ The audio stream category to use for this mastering voice.
 Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419235(v=VS.85).aspx">XAUDIO2_EFFECT_CHAIN</a> structure that describes an effect chain to use in the mastering voice, or NULL to use no effects.
 
 
-#### - szDeviceId [in]
+#### - StreamCategory [in, optional]
 
-Identifier of the device to receive the output audio. Specifying the default value of NULL causes XAudio2 to select the global default audio device.
+The audio stream category to use for this mastering voice.
 
 
 ## -returns

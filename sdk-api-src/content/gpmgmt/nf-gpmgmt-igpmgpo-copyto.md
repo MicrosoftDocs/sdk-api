@@ -4,10 +4,10 @@ title: IGPMGPO::CopyTo
 author: windows-sdk-content
 description: Copies the current Group Policy object (GPO) to the specified domain and then returns a pointer to the copy of the GPO.
 old-location: gpmc\igpmgpo_copyto.htm
-old-project: gpmc
+old-project: GPMC
 ms.assetid: 17f4c6b2-6c75-4d4c-88c5-6d9ef2cb7a07
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: CopyTo, CopyTo method [GPMC], CopyTo method [GPMC],GPMGPO object, CopyTo method [GPMC],IGPMGPO interface, GPMGPO object [GPMC],CopyTo method, IGPMGPO interface [GPMC],CopyTo method, IGPMGPO.CopyTo, IGPMGPO::CopyTo, _win32_igpmgpo_copyto, gpmc.igpmgpo_copyto, gpmgmt/IGPMGPO::CopyTo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -128,9 +128,10 @@ Address of a pointer to the
 <a href="https://msdn.microsoft.com/774dd1b0-e5ea-4fef-b3bc-743870793db5">IGPMStatusMsgCollection</a> interface.
 
 
-#### - MigrationTable [in, optional]
+#### - gpmDomain [in]
 
-Path of a file that contains the migration table to use for mapping.
+
+<a href="https://msdn.microsoft.com/c3639f07-7c8c-4440-ade4-b58abd2586d6">GPMDomain</a> object of the domain to which the GPO is copied.
 
 
 #### - NewGpoName [in, optional]
@@ -138,10 +139,9 @@ Path of a file that contains the migration table to use for mapping.
 Display name to be put on the copied GPO.
 
 
-#### - gpmDomain [in]
+#### - MigrationTable [in, optional]
 
-
-<a href="https://msdn.microsoft.com/c3639f07-7c8c-4440-ade4-b58abd2586d6">GPMDomain</a> object of the domain to which the GPO is copied.
+Path of a file that contains the migration table to use for mapping.
 
 
 ## -returns

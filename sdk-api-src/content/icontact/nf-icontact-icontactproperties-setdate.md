@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactProperties_SetDate.htm
 old-project: wincontacts
 ms.assetid: bbe0a788-7291-48f7-a36a-88e5b6b971dc
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 07/29/2018
 ms.keywords: IContactProperties interface [Windows Contacts],SetDate method, IContactProperties.SetDate, IContactProperties::SetDate, SetDate, SetDate method [Windows Contacts], SetDate method [Windows Contacts],IContactProperties interface, _wincontacts_IContactProperties_SetDate, icontact/IContactProperties::SetDate, wincontacts._wincontacts_IContactProperties_SetDate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 
 
 Sets the date and time value at a specified property to a given 
-    <a href="https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx">FILETIME</a>. All times are stored and returned as Coordinated Universal Time (UTC).
+    <a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a>. All times are stored and returned as Coordinated Universal Time (UTC).
 
 
 ## -parameters
@@ -76,10 +76,10 @@ CGD_DEFAULT can be used to create or overwrite value at <i>pszPropertyName</i>.
 
 ### -param ftDateTime [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx">FILETIME</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx">FILETIME</a> structure to use for date. 
+<a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a> structure to use for date. 
 
 
 ## -returns

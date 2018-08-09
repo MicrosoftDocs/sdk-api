@@ -7,7 +7,7 @@ old-location: p2p\peergroupopendirectconnection.htm
 old-project: p2psdk
 ms.assetid: a3c52754-91b0-4722-a459-87c70b3ab9ad
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGroupOpenDirectConnection, PeerGroupOpenDirectConnection function [Peer Networking], p2p.peergroupopendirectconnection, p2p/PeerGroupOpenDirectConnection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGroupOpenDirectConnection</b> function establishes a direct connection with another peer in a peer group.
+The <b>PeerGroupOpenDirectConnection</b> function establishes a direct connection with another peer in a peer group.
 
 
 ## -parameters

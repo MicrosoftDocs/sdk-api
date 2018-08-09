@@ -7,7 +7,7 @@ old-location: gdi\emrcreatepalette.htm
 old-project: gdi
 ms.assetid: 5198dc94-49bf-4cc8-8b41-2f29acd3c17d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PEMRCREATEPALETTE, EMRCREATEPALETTE, EMRCREATEPALETTE structure [Windows GDI], PEMRCREATEPALETTE, PEMRCREATEPALETTE structure pointer [Windows GDI], _win32_EMRCREATEPALETTE_str, gdi.emrcreatepalette, tagEMRCREATEPALETTE, wingdi/EMRCREATEPALETTE, wingdi/PEMRCREATEPALETTE"
 ms.prod: windows
 ms.technology: windows-sdk

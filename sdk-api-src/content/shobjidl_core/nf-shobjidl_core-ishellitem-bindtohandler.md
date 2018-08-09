@@ -7,7 +7,7 @@ old-location: shell\IShellItem_BindToHandler.htm
 old-project: shell
 ms.assetid: fadd70cd-5018-4b71-af7b-d9c780ebddc5
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: BHID_AssociationArray, BHID_DataObject, BHID_EnumAssocHandlers, BHID_EnumItems, BHID_FilePlaceholder, BHID_Filter, BHID_LinkTargetItem, BHID_PropertyStore, BHID_RandomAccessStream, BHID_SFObject, BHID_SFUIObject, BHID_SFViewObject, BHID_Storage, BHID_StorageEnum, BHID_Stream, BHID_ThumbnailHandler, BHID_Transfer, BindToHandler, BindToHandler method [Windows Shell], BindToHandler method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],BindToHandler method, IShellItem.BindToHandler, IShellItem::BindToHandler, _win32_IShellItem_BindToHandler, shell.IShellItem_BindToHandler, shobjidl_core/IShellItem::BindToHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,13 +83,6 @@ IID of the object type to retrieve.
 
 
 
-
-
-#### - ppvOut
-
-Type: <b>void**</b>
-
-When this method returns, contains a pointer of type <i>riid</i> that is returned by the handler specified by <i>rbhid</i>.
 
 
 #### - rbhid
@@ -180,7 +173,7 @@ If the item is a folder, gets an <a href="https://msdn.microsoft.com/07aed597-35
 
 #### BHID_Filter
 
-<b>Introduced in Windows Vista</b>: Restricts usage to <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a>.
+<b>Introduced in Windows Vista</b>: Restricts usage to <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>.
 
 
 
@@ -192,13 +185,20 @@ If the item is a folder, gets an <a href="https://msdn.microsoft.com/07aed597-35
 
 #### BHID_RandomAccessStream
 
-<b>Introduced in Windows 8</b>: Gets an <a href="https://msdn.microsoft.com/library/Hh438400(v=VS.85).aspx">IRandomAccessStream</a> object for the item.
+<b>Introduced in Windows 8</b>: Gets an <a href="https://msdn.microsoft.com/en-us/library/Hh438400(v=VS.85).aspx">IRandomAccessStream</a> object for the item.
 
 
 
 #### BHID_FilePlaceholder
 
 <b>Introduced in Windows 8.1</b>: Gets an object used to provide placeholder file functionality.
+
+
+#### - ppvOut
+
+Type: <b>void**</b>
+
+When this method returns, contains a pointer of type <i>riid</i> that is returned by the handler specified by <i>rbhid</i>.
 
 
 ## -returns

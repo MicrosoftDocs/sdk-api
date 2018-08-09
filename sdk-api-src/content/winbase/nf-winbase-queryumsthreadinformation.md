@@ -4,10 +4,10 @@ title: QueryUmsThreadInformation function
 author: windows-sdk-content
 description: Retrieves information about the specified user-mode scheduling (UMS) worker thread.
 old-location: base\queryumsthreadinformation.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 5f694edf-ba5e-45a2-a938-5013edddcae2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: QueryUmsThreadInformation, QueryUmsThreadInformation function, base.queryumsthreadinformation, winbase/QueryUmsThreadInformation
 ms.prod: windows
 ms.technology: windows-sdk

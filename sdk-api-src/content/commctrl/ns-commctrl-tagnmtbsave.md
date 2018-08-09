@@ -7,7 +7,7 @@ old-location: controls\NMTBSAVE.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbsave.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPNMTBSAVE, LPNMTBSAVE, LPNMTBSAVE structure pointer [Windows Controls], NMTBSAVE, NMTBSAVE structure [Windows Controls], _win32_NMTBSAVE, _win32_NMTBSAVE_cpp, commctrl/LPNMTBSAVE, commctrl/NMTBSAVE, controls.NMTBSAVE, controls._win32_NMTBSAVE, tagNMTBSAVE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-This structure is passed to applications when they receive a <a href="https://msdn.microsoft.com/library/Bb787285(v=VS.85).aspx">TBN_SAVE</a> notification code. It contains information about the button currently being saved. Applications can modify the values of the members to save additional information. 
+This structure is passed to applications when they receive a <a href="https://msdn.microsoft.com/en-us/library/Bb787285(v=VS.85).aspx">TBN_SAVE</a> notification code. It contains information about the button currently being saved. Applications can modify the values of the members to save additional information. 
 
 
 ## -struct-fields
@@ -60,9 +60,9 @@ This structure is passed to applications when they receive a <a href="https://ms
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field pData
@@ -108,7 +108,7 @@ An estimate of the number of buttons. Because it is based on the size of the dat
 
 ### -field tbButton
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb760476(v=VS.85).aspx">TBBUTTON</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb760476(v=VS.85).aspx">TBBUTTON</a></b>
 
-A <a href="https://msdn.microsoft.com/library/Bb760476(v=VS.85).aspx">TBBUTTON</a> structure that contains information about the button currently being saved. 
+A <a href="https://msdn.microsoft.com/en-us/library/Bb760476(v=VS.85).aspx">TBBUTTON</a> structure that contains information about the button currently being saved. 
 

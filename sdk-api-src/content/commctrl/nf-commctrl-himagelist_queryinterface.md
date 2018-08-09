@@ -7,7 +7,7 @@ old-location: controls\HIMAGELIST_QueryInterface.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\himagelist_queryinterface.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: HIMAGELIST_QueryInterface, HIMAGELIST_QueryInterface function [Windows Controls], _shell_HIMAGELIST_QueryInterface, _shell_HIMAGELIST_QueryInterface_cpp, commctrl/HIMAGELIST_QueryInterface, controls.HIMAGELIST_QueryInterface, controls._shell_HIMAGELIST_QueryInterface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves a pointer to an <a href="https://msdn.microsoft.com/library/Bb761490(v=VS.85).aspx">IImageList</a> or <a href="https://msdn.microsoft.com/library/Bb761419(v=VS.85).aspx">IImageList2</a> object that corresponds to the image list's HIMAGELIST handle.
+Retrieves a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb761490(v=VS.85).aspx">IImageList</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb761419(v=VS.85).aspx">IImageList2</a> object that corresponds to the image list's HIMAGELIST handle.
 
 
 ## -parameters
@@ -76,8 +76,7 @@ The identifier of the interface being requested. Normally IID_IImageList or IID_
 
 Type: <b>void**</b>
 
-
-          When this method returns, contains the address of the interface pointer requested in <i>riid</i>. If the object does not support the interface specified in <i>riid</i>, <i>ppv</i> is <b>NULL</b>.
+When this method returns, contains the address of the interface pointer requested in <i>riid</i>. If the object does not support the interface specified in <i>riid</i>, <i>ppv</i> is <b>NULL</b>.
         
 
 

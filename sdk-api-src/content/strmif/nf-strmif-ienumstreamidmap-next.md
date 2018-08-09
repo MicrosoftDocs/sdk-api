@@ -7,7 +7,7 @@ old-location: dshow\ienumstreamidmap_next.htm
 old-project: DirectShow
 ms.assetid: 49e7ab23-e57e-4437-a195-88bccb6002de
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IEnumStreamIdMap interface [DirectShow],Next method, IEnumStreamIdMap.Next, IEnumStreamIdMap::Next, IEnumStreamIdMapNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumStreamIdMap interface, dshow.ienumstreamidmap_next, strmif/IEnumStreamIdMap::Next
 ms.prod: windows
 ms.technology: windows-sdk

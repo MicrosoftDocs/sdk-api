@@ -7,7 +7,7 @@ old-location: menurc\updateresource.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\updateresource.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: UpdateResource, UpdateResource function [Menus and Other Resources], UpdateResourceA, UpdateResourceW, _win32_UpdateResource, _win32_updateresource_cpp, menurc.updateresource, winbase/UpdateResource, winbase/UpdateResourceA, winbase/UpdateResourceW, winui._win32_updateresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,14 +104,7 @@ The resource data to be inserted into the file indicated by <i>hUpdate</i>. If t
 If <i>lpData</i> is <b>NULL</b> and <i>cbData</i> is 0, the specified resource is deleted from the file indicated by <i>hUpdate</i>.
 
 
-### -param cb
-
-TBD
-
-
-
-
-#### - cbData [in]
+### -param cb [in]
 
 Type: <b>DWORD</b>
 

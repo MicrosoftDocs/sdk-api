@@ -7,7 +7,7 @@ old-location: iphlp\getudptable.htm
 old-project: iphlp
 ms.assetid: 00e80e90-1a6d-426d-90cd-20b967ebbb8e
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: GetUdpTable, GetUdpTable function [IP Helper], _iphlp_getudptable, iphlp.getudptable, iphlpapi/GetUdpTable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,42 +60,13 @@ The
 
 
 
-### -param UdpTable
-
-TBD
-
-
-### -param SizePointer
-
-TBD
-
-
-### -param Order
-
-TBD
-
-
-
-
-#### - bOrder [in]
-
-A Boolean value that specifies whether the returned UDP listener table should be sorted. If this parameter is <b>TRUE</b>, the table is sorted in the order of: 
-
-
-<ol>
-<li>Local IP address</li>
-<li>Local port</li>
-</ol>
-
-
-
-#### - pUdpTable [out]
+### -param UdpTable [out]
 
 A pointer to a buffer that receives the IPv4 UDP listener table as a 
 <a href="https://msdn.microsoft.com/83608d38-e352-483a-b284-2f9cb444e64f">MIB_UDPTABLE</a> structure.
 
 
-#### - pdwSize [in, out]
+### -param SizePointer [in, out]
 
 On input, specifies the size in bytes of the buffer pointed to by the <i>UdpTable</i> parameter. 
 
@@ -105,6 +76,18 @@ On input, specifies the size in bytes of the buffer pointed to by the <i>UdpTabl
 On output, if the buffer is not large enough to hold the returned listener table, the function sets this parameter equal to the required buffer size in bytes.
 
 On the Windows SDK released for Windows Vista and later, the data type for this parameter is changed to a <b>PULONG</b> which is equivalent to a <b>PDWORD</b>. 
+
+
+### -param Order [in]
+
+A Boolean value that specifies whether the returned UDP listener table should be sorted. If this parameter is <b>TRUE</b>, the table is sorted in the order of: 
+
+
+<ol>
+<li>Local IP address</li>
+<li>Local port</li>
+</ol>
+
 
 
 ## -returns

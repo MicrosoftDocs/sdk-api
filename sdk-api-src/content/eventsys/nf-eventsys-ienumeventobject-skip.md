@@ -7,7 +7,7 @@ old-location: cos\ienumeventobject_skip.htm
 old-project: cossdk
 ms.assetid: 7c830d29-8e66-4139-9445-d83dc7f7004f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumEventObject interface [COM+],Skip method, IEnumEventObject.Skip, IEnumEventObject::Skip, Skip, Skip method [COM+], Skip method [COM+],IEnumEventObject interface, _cos_ienumeventobject_skip, cos.ienumeventobject_skip, eventsys/IEnumEventObject::Skip
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,7 +49,6 @@ req.product: Windows Media Format 9 Series or later
 
 
 ## -description
-
 
 
 Skips over the specified number of items in the enumeration sequence.

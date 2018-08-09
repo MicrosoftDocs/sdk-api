@@ -7,7 +7,7 @@ old-location: multimedia\avimakecompressedstream.htm
 old-project: Multimedia
 ms.assetid: 63279d7e-0e64-4708-a29c-60d5fdf75cb2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AVIMakeCompressedStream, AVIMakeCompressedStream function [Windows Multimedia], _win32_AVIMakeCompressedStream, multimedia.avimakecompressedstream, vfw/AVIMakeCompressedStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ Pointer to a buffer that receives the compressed stream pointer.
 
 ### -param ppsSource
 
-TBD
+Pointer to the stream to be compressed.
 
 
 ### -param lpOptions
@@ -80,11 +80,6 @@ Pointer to a structure that identifies the type of compression to use and the op
 ### -param pclsidHandler
 
 Pointer to a class identifier used to create the stream.
-
-
-#### - psSource
-
-Pointer to the stream to be compressed.
 
 
 ## -returns

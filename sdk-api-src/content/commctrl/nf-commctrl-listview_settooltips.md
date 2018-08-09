@@ -7,7 +7,7 @@ old-location: controls\ListView_SetToolTips.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settooltips.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_SetToolTips, ListView_SetToolTips macro [Windows Controls], _win32_ListView_SetToolTips, _win32_ListView_SetToolTips_cpp, commctrl/ListView_SetToolTips, controls.ListView_SetToolTips, controls._win32_ListView_SetToolTips
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the tooltip control that the list-view control will use to display tooltips. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761216(v=VS.85).aspx">LVM_SETTOOLTIPS</a> message explicitly. 
+Sets the tooltip control that the list-view control will use to display tooltips. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761216(v=VS.85).aspx">LVM_SETTOOLTIPS</a> message explicitly. 
 
 
 ## -parameters
@@ -60,26 +60,12 @@ Sets the tooltip control that the list-view control will use to display tooltips
 
 ### -param hwndLV
 
-TBD
-
-
-### -param hwndNewHwnd
-
-TBD
-
-
-
-
-
-
-#### - hwnd
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 
 
-#### - hwndToolTip
+### -param hwndNewHwnd
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
@@ -91,7 +77,7 @@ A handle to the tooltip control to be set.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775014(v=VS.85).aspx">ListView_GetToolTips</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775014(v=VS.85).aspx">ListView_GetToolTips</a>
  
 
  

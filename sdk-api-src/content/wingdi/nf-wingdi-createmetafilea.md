@@ -7,7 +7,7 @@ old-location: gdi\createmetafile.htm
 old-project: gdi
 ms.assetid: 81b3baae-f0e6-4b71-a6de-953ad3376dbd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateMetaFile, CreateMetaFile function [Windows GDI], CreateMetaFileA, CreateMetaFileW, _win32_CreateMetaFile, gdi.createmetafile, wingdi/CreateMetaFile, wingdi/CreateMetaFileA, wingdi/CreateMetaFileW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,7 @@ The <b>CreateMetaFile</b> function creates a device context for a Windows-format
 
 
 
-### -param pszFile
-
-TBD
-
-
-
-
-#### - lpszFile [in]
+### -param pszFile [in]
 
 A pointer to the file name for the Windows-format metafile to be created. If this parameter is <b>NULL</b>, the Windows-format metafile is memory based and its contents are lost when it is deleted by using the <a href="https://msdn.microsoft.com/51766282-f185-4e29-a36e-1069d9d61f7c">DeleteMetaFile</a> function.
 

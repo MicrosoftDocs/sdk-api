@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdrom_eject.htm
 old-project: WMP
 ms.assetid: 1b17c405-0887-4948-b375-c1ebcf2a72b3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPCdrom interface [Windows Media Player],eject method, IWMPCdrom.eject, IWMPCdrom::eject, IWMPCdromeject, eject, eject method [Windows Media Player], eject method [Windows Media Player],IWMPCdrom interface, wmp.iwmpcdrom_eject, wmp/IWMPCdrom::eject
 ms.prod: windows
 ms.technology: windows-sdk

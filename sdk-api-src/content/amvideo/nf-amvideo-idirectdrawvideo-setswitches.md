@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawvideo_setswitches.htm
 old-project: DirectShow
 ms.assetid: e6839757-2b63-497d-9978-35c8dfabc0ed
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],SetSwitches method, IDirectDrawVideo.SetSwitches, IDirectDrawVideo::SetSwitches, IDirectDrawVideoSetSwitches, SetSwitches, SetSwitches method [DirectShow], SetSwitches method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::SetSwitches, dshow.idirectdrawvideo_setswitches
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,11 +68,9 @@ Bit mask containing one or more of the following DirectShow DirectDraw Surface (
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

@@ -7,7 +7,7 @@ old-location: security\npcancelconnection.htm
 old-project: secauthn
 ms.assetid: e06768b2-760c-48f1-a6a4-896c3ea286f6
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: NPCancelConnection, NPCancelConnection function [Security], _mnp_npcancelconnection, npapi/NPCancelConnection, security.npcancelconnection
 ms.prod: windows
 ms.technology: windows-sdk

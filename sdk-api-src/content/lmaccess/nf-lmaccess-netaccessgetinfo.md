@@ -7,7 +7,7 @@ old-location: netmgmt\netaccessgetinfo.htm
 old-project: netmgmt
 ms.assetid: 76d818db-ce13-4879-9ba5-c26d13fe098a
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: 0, 1, NetAccessGetInfo, NetAccessGetInfo function [Network Management], _win32_netaccessgetinfo, lmaccess/NetAccessGetInfo, netmgmt.netaccessgetinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,44 +70,6 @@ TBD
 
 ### -param resource
 
-TBD
-
-
-### -param level
-
-TBD
-
-
-### -param bufptr
-
-TBD
-
-
-
-
-#### - cbBuffer
-
-Specifies the size, in bytes, of the buffer pointed to by the <i>pbBuffer</i> parameter.
-
-
-#### - pbBuffer
-
-Pointer to the buffer that receives the access information structure. The format of this data depends on the value of the <i>sLevel</i> parameter.
-
-
-#### - pcbTotalAvail
-
-Pointer to an unsigned short integer that receives the total number of entries available. The count is valid only if the 
-<b>NetAccessGetInfo</b> function returns <b>NERR_Success</b>, <b>NERR_BufTooSmall</b>, or <b>ERROR_MORE_DATA</b>.
-
-
-#### - pszServer
-
-Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
-
-
-#### - sLevel
-
 Specifies the information level of the data. This parameter can be one of the following values.
 
 <table>
@@ -139,6 +101,27 @@ The <i>pbBuffer</i> parameter points to an
 </tr>
 </table>
  
+
+
+### -param level
+
+Pointer to the buffer that receives the access information structure. The format of this data depends on the value of the <i>sLevel</i> parameter.
+
+
+### -param bufptr
+
+Specifies the size, in bytes, of the buffer pointed to by the <i>pbBuffer</i> parameter.
+
+
+#### - pszServer
+
+Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
+
+
+#### - pcbTotalAvail
+
+Pointer to an unsigned short integer that receives the total number of entries available. The count is valid only if the 
+<b>NetAccessGetInfo</b> function returns <b>NERR_Success</b>, <b>NERR_BufTooSmall</b>, or <b>ERROR_MORE_DATA</b>.
 
 
 ## -returns

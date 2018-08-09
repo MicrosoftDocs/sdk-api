@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevice_cancel.htm
 old-project: wpd_sdk
 ms.assetid: dcda2e43-ee12-44a4-a7ab-a2a542082d07
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Cancel method, IPortableDevice.Cancel, IPortableDevice::Cancel, IPortableDeviceCancel, portabledeviceapi/IPortableDevice::Cancel, wpdsdk.iportabledevice_cancel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-        The <b>Cancel</b> method cancels a pending operation on this interface.
+The <b>Cancel</b> method cancels a pending operation on this interface.
       
 
 
@@ -68,8 +67,7 @@ req.product: ADAM
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -98,8 +96,7 @@ The operation was canceled successfully.
 
 
 
-
-        If your application invokes the WPD API from multiple threads, each thread should create a new instance of the <a href="https://msdn.microsoft.com/98c48e56-56b8-4800-b52b-ac08f2abf27e">IPortableDevice</a> interface. Doing this ensures that any cancel operation affects only the I/O for the affected thread.
+If your application invokes the WPD API from multiple threads, each thread should create a new instance of the <a href="https://msdn.microsoft.com/98c48e56-56b8-4800-b52b-ac08f2abf27e">IPortableDevice</a> interface. Doing this ensures that any cancel operation affects only the I/O for the affected thread.
       
 
 If an <b>IStream</b> write operation is underway when the <b>Cancel</b> method is invoked, your application should discard all changes by invoking the <b>IStream::Revert</b> method. Once the changes are discarded, the application should also close the stream by invoking the <b>IUnknown::Release</b> method.

@@ -7,7 +7,7 @@ old-location: mscs\restartclusterresource.htm
 old-project: mscs
 ms.assetid: 4DF2EF5A-F9F2-4230-96D8-F4B2CB6E4B92
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: PCLUSAPI_RESTART_CLUSTER_RESOURCE, PCLUSAPI_RESTART_CLUSTER_RESOURCE function [Failover Cluster], RestartClusterResource, RestartClusterResource function [Failover Cluster], clusapi/PCLUSAPI_RESTART_CLUSTER_RESOURCE, clusapi/RestartClusterResource, mscs.restartclusterresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Restarts a cluster resource. The <b>PCLUSAPI_RESTART_CLUSTER_RESOURCE</b> type d
 A handle to  the cluster resource.
 
 
-### -param dwFlags [in]
+### -param dwFlags [in] [in]
 
 TBD
 

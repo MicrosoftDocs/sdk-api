@@ -7,7 +7,7 @@ old-location: base\imagehlp_module64_str.htm
 old-project: debug
 ms.assetid: 3cc7a678-561b-4af8-8cf0-5cf6ebc0cb26
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*PIMAGEHLP_MODULE, IMAGEHLP_MODULE, IMAGEHLP_MODULE structure, IMAGEHLP_MODULE64, IMAGEHLP_MODULE64 structure, IMAGEHLP_MODULEW64, PIMAGEHLP_MODULE64, PIMAGEHLP_MODULE64 structure pointer, SymCoff, SymCv, SymDeferred, SymDia, SymExport, SymNone, SymPdb, SymSym, SymVirtual, _IMAGEHLP_MODULE, _IMAGEHLP_MODULE64, _win32_imagehlp_module64_str, base.imagehlp_module64_str, dbghelp/IMAGEHLP_MODULE64, dbghelp/IMAGEHLP_MODULEW64, dbghelp/PIMAGEHLP_MODULE64"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -211,9 +211,9 @@ The image name. The name may or may not contain a full path.
 The full path and file name of the file from which symbols were loaded.
 
 
-#### - CVData
+#### - LoadedPdbName
 
-The contents of the CV record.
+The full path and file name of the .pdb file.
 
 
 #### - CVSig
@@ -221,29 +221,9 @@ The contents of the CV record.
 The signature of the CV record in the debug directories.
 
 
-#### - DbgUnmatched
+#### - CVData
 
-A value that indicates whether the loaded DBG is unmatched.
-
-
-#### - GlobalSymbols
-
-A value that indicates whether symbol information is available.
-
-
-#### - LineNumbers
-
-A value that indicates whether line number information is available.
-
-
-#### - LoadedPdbName
-
-The full path and file name of the .pdb file.
-
-
-#### - PdbAge
-
-The DBI age of PDB.
+The contents of the CV record.
 
 
 #### - PdbSig
@@ -256,16 +236,34 @@ The PDB signature.
 The PDB signature (Visual C/C++ 7.0 and later)
 
 
+#### - PdbAge
+
+The DBI age of PDB.
+
+
 #### - PdbUnmatched
 
 A value that indicates whether the loaded PDB is unmatched.
 
 
-#### - Publics
+#### - DbgUnmatched
 
-A value that indicates whether the module contains public symbols.
+A value that indicates whether the loaded DBG is unmatched.
 
-<b>DbgHelp 6.1 and earlier:  </b>This member is not supported.
+
+#### - LineNumbers
+
+A value that indicates whether line number information is available.
+
+
+#### - GlobalSymbols
+
+A value that indicates whether symbol information is available.
+
+
+#### - TypeInfo
+
+A value that indicates whether type information is available.
 
 
 #### - SourceIndexed
@@ -275,9 +273,11 @@ A value that indicates whether the .pdb supports the source server.
 <b>DbgHelp 6.1 and earlier:  </b>This member is not supported.
 
 
-#### - TypeInfo
+#### - Publics
 
-A value that indicates whether type information is available.
+A value that indicates whether the module contains public symbols.
+
+<b>DbgHelp 6.1 and earlier:  </b>This member is not supported.
 
 
 ## -remarks

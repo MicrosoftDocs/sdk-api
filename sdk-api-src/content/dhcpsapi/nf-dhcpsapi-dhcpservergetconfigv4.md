@@ -7,7 +7,7 @@ old-location: dhcp\dhcpservergetconfigv4.htm
 old-project: dhcp
 ms.assetid: edbed013-6e17-42f4-b109-9676da80de20
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpServerGetConfigV4, DhcpServerGetConfigV4 function [DHCP], dhcp.dhcpservergetconfigv4, dhcpsapi/DhcpServerGetConfigV4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpServerGetConfigV4</b> function returns the specific configuration settings of a DHCP server. This function extends the functionality of DhcpServerGetConfig by adding configuration parameters for the number of ping retries a server uses to determine connectability, the settings for the boot file table, and the audit log state. Configuration information includes information on the JET database used to store subnet and client lease information, and the supported protocols.  
+The <b>DhcpServerGetConfigV4</b> function returns the specific configuration settings of a DHCP server. This function extends the functionality of DhcpServerGetConfig by adding configuration parameters for the number of ping retries a server uses to determine connectability, the settings for the boot file table, and the audit log state. Configuration information includes information on the JET database used to store subnet and client lease information, and the supported protocols.  
 
 
 ## -parameters
@@ -128,8 +127,7 @@ One of the parameters provides an invalid value.
 
 
 
-<a href="https://msdn.microsoft.com/a2a78c19-3161-431a-b1af-31dac994c3f6">
-        DHCP_SERVER_CONFIG_INFO_V4</a>
+<a href="https://msdn.microsoft.com/a2a78c19-3161-431a-b1af-31dac994c3f6">DHCP_SERVER_CONFIG_INFO_V4</a>
 
 
 

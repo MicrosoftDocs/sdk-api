@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setsoftwarevertexprocessing.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setsoftwarevertexprocessing.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetSoftwareVertexProcessing method, IDirect3DDevice9.SetSoftwareVertexProcessing, IDirect3DDevice9::SetSoftwareVertexProcessing, SetSoftwareVertexProcessing, SetSoftwareVertexProcessing method [Direct3D 9], SetSoftwareVertexProcessing method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetSoftwareVertexProcessing, direct3d9.idirect3ddevice9__setsoftwarevertexprocessing, f140124d-0bf1-92be-8e64-ee7d8f661302
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -81,7 +81,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-The restrictions for changing modes are as follows (also refer to the notes on the <a href="https://msdn.microsoft.com/library/Bb172527(v=VS.85).aspx">D3DCREATE</a> constants):
+The restrictions for changing modes are as follows (also refer to the notes on the <a href="https://msdn.microsoft.com/en-us/library/Bb172527(v=VS.85).aspx">D3DCREATE</a> constants):
 
 <ul>
 <li>If a device is created with D3DCREATE_SOFTWARE_VERTEXPROCESSING, the vertex processing will be done in software and cannot be changed.</li>
@@ -100,11 +100,11 @@ In Direct3D 9, use <b>SetSoftwareVertexProcessing</b> instead. This new API is n
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174408(v=VS.85).aspx">IDirect3DDevice9::GetSoftwareVertexProcessing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174408(v=VS.85).aspx">IDirect3DDevice9::GetSoftwareVertexProcessing</a>
  
 
  

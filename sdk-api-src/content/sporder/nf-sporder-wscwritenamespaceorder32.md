@@ -4,10 +4,10 @@ title: WSCWriteNameSpaceOrder32 function
 author: windows-sdk-content
 description: Changes the order of available Windows Sockets (Winsock) 2 namespace providers in a 32-bit catalog.
 old-location: winsock\wscwritenamespaceorder32.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: a5b15d28-8137-42bf-8f2a-7c6b5a8a63c2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSCWriteNameSpaceOrder32, WSCWriteNameSpaceOrder32 function [Winsock], sporder/WSCWriteNameSpaceOrder32, winsock.wscwritenamespaceorder32
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Sporder.lib
 req.dll: Ws2_32.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # WSCWriteNameSpaceOrder32 function

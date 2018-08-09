@@ -4,10 +4,10 @@ title: WSASetServiceW function
 author: windows-sdk-content
 description: The WSASetService function registers or removes from the registry a service instance within one or more namespaces.
 old-location: winsock\wsasetservice_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 21a8ff26-4c9e-4846-a75a-1a27c746edab
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: RNRSERVICE_DELETE, RNRSERVICE_DEREGISTER, RNRSERVICE_REGISTER, SERVICE_MULTIPLE, WSASetService, WSASetService function [Winsock], WSASetServiceA, WSASetServiceW, _win32_wsasetservice_2, winsock.wsasetservice_2, winsock2/WSASetService, winsock2/WSASetServiceA, winsock2/WSASetServiceW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,35 +67,7 @@ The
 A pointer to the service information for registration or deregistration.
 
 
-### -param essoperation
-
-TBD
-
-
-### -param dwControlFlags [in]
-
-Service install flags value that further controls the operation performed of the <b>WSASetService</b>function. The possible values for this parameter are defined in the <i>Winsock2.h</i> header file.
-
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="SERVICE_MULTIPLE"></a><a id="service_multiple"></a><dl>
-<dt><b>SERVICE_MULTIPLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Controls scope of operation. When this flag is not set, service addresses are managed as a group. A register or removal from the registry invalidates all existing addresses before adding the given address set. When set, the action is only performed on the given address set. A register does not invalidate existing addresses and a removal from the registry only invalidates the given set of addresses.
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - essOperation [in]
+### -param essoperation [in]
 
 A value that determines that operation requested. This parameter can be one of the values from the WSAESETSERVICEOP enumeration type defined in the <i>Winsock2.h</i> header file. 
 
@@ -135,6 +107,29 @@ Remove the service from the registry. For SAP, this means stop sending out the p
 Delete the service from dynamic name and persistent spaces. For services represented by multiple 
 <a href="https://msdn.microsoft.com/9cad3586-e315-4f6f-9045-7c95502bb768">CSADDR_INFO</a> structures (using the SERVICE_MULTIPLE flag), only the specified address will be deleted, and this must match exactly the corresponding 
 <b>CSADDR_INFO</b> structure that was specified when the service was registered.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param dwControlFlags [in]
+
+Service install flags value that further controls the operation performed of the <b>WSASetService</b>function. The possible values for this parameter are defined in the <i>Winsock2.h</i> header file.
+
+<table>
+<tr>
+<th>Flag</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="SERVICE_MULTIPLE"></a><a id="service_multiple"></a><dl>
+<dt><b>SERVICE_MULTIPLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Controls scope of operation. When this flag is not set, service addresses are managed as a group. A register or removal from the registry invalidates all existing addresses before adding the given address set. When set, the action is only performed on the given address set. A register does not invalidate existing addresses and a removal from the registry only invalidates the given set of addresses.
 
 </td>
 </tr>

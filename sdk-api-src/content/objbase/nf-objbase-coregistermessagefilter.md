@@ -7,7 +7,7 @@ old-location: com\coregistermessagefilter.htm
 old-project: com
 ms.assetid: caa5b277-ddbd-4ba9-892d-590d953b8433
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: CoRegisterMessageFilter, CoRegisterMessageFilter function [COM], _com_CoRegisterMessageFilter, com.coregistermessagefilter, objbase/CoRegisterMessageFilter
 ms.prod: windows
 ms.technology: windows-sdk

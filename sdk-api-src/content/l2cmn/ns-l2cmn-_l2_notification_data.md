@@ -7,7 +7,7 @@ old-location: netvista\l2_notification_data.htm
 old-project: netvista
 ms.assetid: 4b67b6c0-2b73-4816-8e85-d6b00227a33c
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 07/30/2018
 ms.keywords: "*PL2_NOTIFICATION_DATA, L2_NOTIFICATION_DATA, L2_NOTIFICATION_DATA structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_56767c07-0bb6-4050-9c44-ed5fd4055ec2.xml, PL2_NOTIFICATION_DATA, PL2_NOTIFICATION_DATA structure pointer [Network Drivers Starting with Windows Vista], _L2_NOTIFICATION_DATA, l2cmn/L2_NOTIFICATION_DATA, l2cmn/PL2_NOTIFICATION_DATA, netvista.l2_notification_data"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,8 +78,7 @@ The globally unique identifier (GUID) for the wireless LAN (WLAN) adapter.
 
 The operating system passes the GUID and other data related to the WLAN adapter through the 
      <i>pDot11Adapter</i> parameter of the 
-     <a href="https://msdn.microsoft.com/96dc1718-ee35-440a-94e8-eba4a41c9559">
-     Dot11ExtIhvInitAdapter</a> function, which the operating system calls when it detects the arrival of
+     <a href="https://msdn.microsoft.com/96dc1718-ee35-440a-94e8-eba4a41c9559">Dot11ExtIhvInitAdapter</a> function, which the operating system calls when it detects the arrival of
      the WLAN adapter. For more information about this operation, see 
      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff557044">802.11 WLAN Adapter
      Arrival</a>.
@@ -126,8 +125,7 @@ The application or service registers to receive notifications by calling the
     function, refer to the Microsoft Windows SDK documentation.
 
 The IHV Extensions DLL sends notifications to registered services or applications by calling the 
-    <a href="https://msdn.microsoft.com/8191b375-537e-44df-920e-077c77ed2354">
-    Dot11ExtSendNotification</a> function. The service or application must register to receive
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff547560">Dot11ExtSendNotification</a> function. The service or application must register to receive
     notifications from a source of L2_NOTIFICATION_SOURCE_WLAN_IHV.
 
 

@@ -7,7 +7,7 @@ old-location: iphlp\getmulticastipaddresstable.htm
 old-project: iphlp
 ms.assetid: 0958e92e-12ed-42e0-aa04-b8c4544f6642
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetMulticastIpAddressTable, GetMulticastIpAddressTable function [IP Helper], iphlp.getmulticastipaddresstable, netioapi/GetMulticastIpAddressTable
 ms.prod: windows
 ms.technology: windows-sdk

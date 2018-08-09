@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_createcounter.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createcounter.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 225224fa-54a2-8903-494c-754ad030e0af, CreateCounter, CreateCounter method [Direct3D 10], CreateCounter method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateCounter method, ID3D10Device.CreateCounter, ID3D10Device::CreateCounter, d3d10/ID3D10Device::CreateCounter, direct3d10.id3d10device_createcounter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,23 +61,23 @@ Create a counter object for measuring GPU performance.
 
 ### -param pCounterDesc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb204905(v=VS.85).aspx">D3D10_COUNTER_DESC</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb204905(v=VS.85).aspx">D3D10_COUNTER_DESC</a>*</b>
 
-Pointer to a counter description (see <a href="https://msdn.microsoft.com/library/Bb204905(v=VS.85).aspx">D3D10_COUNTER_DESC</a>).
+Pointer to a counter description (see <a href="https://msdn.microsoft.com/en-us/library/Bb204905(v=VS.85).aspx">D3D10_COUNTER_DESC</a>).
 
 
 ### -param ppCounter [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173514(v=VS.85).aspx">ID3D10Counter</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173514(v=VS.85).aspx">ID3D10Counter</a>**</b>
 
-Address of a pointer to a counter (see <a href="https://msdn.microsoft.com/library/Bb173514(v=VS.85).aspx">ID3D10Counter Interface</a>).
+Address of a pointer to a counter (see <a href="https://msdn.microsoft.com/en-us/library/Bb173514(v=VS.85).aspx">ID3D10Counter Interface</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this function succeeds, it will return S_OK. If it fails, possible return values are: S_FALSE, E_OUTOFMEMORY, DXGI_ERROR_UNSUPPORTED, DXGI_ERROR_NONEXCLUSIVE, or E_INVALIDARG.
 
@@ -95,7 +95,7 @@ E_INVALIDARG is returned whenever an out-of-range well-known or device-dependent
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

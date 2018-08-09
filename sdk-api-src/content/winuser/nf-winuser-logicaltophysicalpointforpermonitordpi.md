@@ -7,7 +7,7 @@ old-location: hidpi\logicaltophysicalpointforpermonitordpi.htm
 old-project: hidpi
 ms.assetid: C9ABDC73-1E96-42F1-B34D-3A649DDF02A6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: LogicalToPhysicalPointForPerMonitorDPI, LogicalToPhysicalPointForPerMonitorDPI function [High DPI], hidpi.logicaltophysicalpointforpermonitordpi, winuser/LogicalToPhysicalPointForPerMonitorDPI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,19 +60,14 @@ Converts a point in a window from logical coordinates into physical coordinates,
 
 
 
-### -param hWnd
+### -param hWnd [in]
 
-TBD
+A handle to the window whose transform is used for the conversion.
 
 
 ### -param lpPoint [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that specifies the logical coordinates to be converted. The new physical coordinates are copied into this structure if the function succeeds.
-
-
-#### - hwnd [in]
-
-A handle to the window whose transform is used for the conversion.
 
 
 ## -returns

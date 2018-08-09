@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents3_prefetchfileend.htm
 old-project: offlinefiles
 ms.assetid: d5370d39-dd66-49c1-8774-cf335aa88e96
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesEvents3 interface [Offline Files],PrefetchFileEnd method, IOfflineFilesEvents3.PrefetchFileEnd, IOfflineFilesEvents3::PrefetchFileEnd, PrefetchFileEnd, PrefetchFileEnd method [Offline Files], PrefetchFileEnd method [Offline Files],IOfflineFilesEvents3 interface, cscobj/IOfflineFilesEvents3::PrefetchFileEnd, of.iofflinefilesevents3_prefetchfileend
 ms.prod: windows
 ms.technology: windows-sdk

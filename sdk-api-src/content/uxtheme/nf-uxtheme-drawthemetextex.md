@@ -4,10 +4,10 @@ title: DrawThemeTextEx function
 author: windows-sdk-content
 description: Draws text using the color and font defined by the visual style. Extends DrawThemeText by allowing additional text format options.
 old-location: controls\DrawThemeTextEx.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemetextex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DrawThemeTextEx, DrawThemeTextEx function [Windows Controls], controls.DrawThemeTextEx, controls.inet_DrawThemeTextEx, inet_DrawThemeTextEx, inet_DrawThemeTextEx_cpp, uxtheme/DrawThemeTextEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,14 +96,18 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Pointer to a string that contains the text to draw.
 
 
-### -param cchText
+### -param cchText [in]
 
-TBD
+Type: <b>int</b>
+
+Value of type <b>int</b> that contains the number of characters to draw. If the parameter is set to -1, all the characters in the string are drawn.
 
 
-### -param dwTextFlags
+### -param dwTextFlags [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+
+<b>DWORD</b> that contains one or more values that specify the string's formatting. See <a href="https://msdn.microsoft.com/en-us/library/Bb773199(v=VS.85).aspx">Format Values</a> for possible parameter values.
 
 
 ### -param pRect [in, out]
@@ -118,20 +122,6 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5692
 Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb773236(v=VS.85).aspx">DTTOPTS</a>*</b>
 
 A <a href="https://msdn.microsoft.com/en-us/library/Bb773236(v=VS.85).aspx">DTTOPTS</a> structure that defines additional formatting options that will be applied to the text being drawn.
-
-
-#### - dwFlags [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
-
-<b>DWORD</b> that contains one or more values that specify the string's formatting. See <a href="https://msdn.microsoft.com/en-us/library/Bb773199(v=VS.85).aspx">Format Values</a> for possible parameter values.
-
-
-#### - iCharCount [in]
-
-Type: <b>int</b>
-
-Value of type <b>int</b> that contains the number of characters to draw. If the parameter is set to -1, all the characters in the string are drawn.
 
 
 ## -returns

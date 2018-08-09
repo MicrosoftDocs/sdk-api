@@ -4,10 +4,10 @@ title: InternetOpenA function
 author: windows-sdk-content
 description: Initializes an application's use of the WinINet functions.
 old-location: wininet\internetopen.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: 9ec087c9-d484-4763-a527-2ea5c1a0cf28
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: InternetOpen, InternetOpen function [WinINet], InternetOpenA, InternetOpenW, _inet_internetopen_function, wininet.internetopen, wininet/InternetOpen, wininet/InternetOpenA, wininet/InternetOpenW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -124,9 +124,17 @@ Passes requests to the proxy unless a proxy bypass list is supplied and the name
  
 
 
-### -param lpszProxy
+### -param lpszProxy [in]
 
-TBD
+Pointer to a <b>null</b>-terminated string  that specifies the name of the proxy server(s) to use when proxy access is specified by setting 
+<i>dwAccessType</i> to 
+<b>INTERNET_OPEN_TYPE_PROXY</b>. Do not use an empty string, because 
+<b>InternetOpen</b> will use it as the proxy name. The WinINet functions recognize only CERN type proxies (HTTP only) and the TIS FTP gateway (FTP only). If Microsoft Internet Explorer is installed, these functions also support SOCKS proxies. FTP requests can be made through a CERN type proxy either by changing them to an HTTP request or by using 
+<a href="https://msdn.microsoft.com/73f969c3-3fa7-43f5-88c5-ba78e59a8d1c">InternetOpenUrl</a>. If 
+<i>dwAccessType</i> is not set to 
+<b>INTERNET_OPEN_TYPE_PROXY</b>, this parameter is ignored and should be <b>NULL</b>. For more information about listing proxy servers, see the 
+<a href="https://msdn.microsoft.com/80747c0d-5a09-4ffa-a0ca-b051b82acbf8">Listing Proxy Servers</a> section of 
+<a href="https://msdn.microsoft.com/80747c0d-5a09-4ffa-a0ca-b051b82acbf8">Enabling Internet Functionality</a>.
 
 
 ### -param lpszProxyBypass [in]
@@ -190,19 +198,6 @@ Identical to
 </tr>
 </table>
  
-
-
-#### - lpszProxyName [in]
-
-Pointer to a <b>null</b>-terminated string  that specifies the name of the proxy server(s) to use when proxy access is specified by setting 
-<i>dwAccessType</i> to 
-<b>INTERNET_OPEN_TYPE_PROXY</b>. Do not use an empty string, because 
-<b>InternetOpen</b> will use it as the proxy name. The WinINet functions recognize only CERN type proxies (HTTP only) and the TIS FTP gateway (FTP only). If Microsoft Internet Explorer is installed, these functions also support SOCKS proxies. FTP requests can be made through a CERN type proxy either by changing them to an HTTP request or by using 
-<a href="https://msdn.microsoft.com/73f969c3-3fa7-43f5-88c5-ba78e59a8d1c">InternetOpenUrl</a>. If 
-<i>dwAccessType</i> is not set to 
-<b>INTERNET_OPEN_TYPE_PROXY</b>, this parameter is ignored and should be <b>NULL</b>. For more information about listing proxy servers, see the 
-<a href="https://msdn.microsoft.com/80747c0d-5a09-4ffa-a0ca-b051b82acbf8">Listing Proxy Servers</a> section of 
-<a href="https://msdn.microsoft.com/80747c0d-5a09-4ffa-a0ca-b051b82acbf8">Enabling Internet Functionality</a>.
 
 
 ## -returns

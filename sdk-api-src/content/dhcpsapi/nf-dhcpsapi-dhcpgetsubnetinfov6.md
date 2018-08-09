@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetsubnetinfov6.htm
 old-project: dhcp
 ms.assetid: 181015de-c109-4365-a87c-04706f568297
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpGetSubnetInfoV6, DhcpGetSubnetInfoV6 function [DHCP], dhcp.dhcpgetsubnetinfov6, dhcpsapi/DhcpGetSubnetInfoV6
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpGetSubnetInfoV6</b> function returns information on a specific subnet.
+The <b>DhcpGetSubnetInfoV6</b> function returns information on a specific subnet.
 
 
 ## -parameters

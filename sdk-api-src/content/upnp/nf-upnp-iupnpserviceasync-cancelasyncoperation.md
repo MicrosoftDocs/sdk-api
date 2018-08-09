@@ -4,10 +4,10 @@ title: IUPnPServiceAsync::CancelAsyncOperation
 author: windows-sdk-content
 description: CancelAsyncOperation method cancels a pending asynchronous operation initiated by the BeginInvokeAction, BeginQueryStateVariable, BeginSubscribeToEvents, or BeginSCPDDownload methods.
 old-location: upnp\iupnpserviceasync_cancelasyncoperation.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: FBEC2DF3-6D45-49F2-AAA8-6DED697BC5A6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: CancelAsyncOperation, CancelAsyncOperation method [UPnP APIs], CancelAsyncOperation method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],CancelAsyncOperation method, IUPnPServiceAsync.CancelAsyncOperation, IUPnPServiceAsync::CancelAsyncOperation, upnp.iupnpserviceasync_cancelasyncoperation, upnp/IUPnPServiceAsync::CancelAsyncOperation
 ms.prod: windows
 ms.technology: windows-sdk

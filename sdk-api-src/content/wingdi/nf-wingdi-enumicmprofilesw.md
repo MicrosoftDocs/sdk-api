@@ -7,7 +7,7 @@ old-location: wcs\enumicmprofiles.htm
 old-project: WCS
 ms.assetid: a93e6239-b6c7-4e37-9f06-03790a3ed53f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: EnumICMProfiles, EnumICMProfiles function [Windows Color System], EnumICMProfilesA, EnumICMProfilesW, _color_EnumICMProfiles, wcs.enumicmprofiles, wingdi/EnumICMProfiles, wingdi/EnumICMProfilesA, wingdi/EnumICMProfilesW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,34 +65,17 @@ The <b>EnumICMProfiles</b> function enumerates the different output color profil
 
 ### -param hdc
 
-TBD
+Specifies the device context.
 
 
 ### -param proc
 
-TBD
+Specifies the procedure instance address of a callback function defined by the application. (See <a href="https://msdn.microsoft.com/6e8f4ce5-c546-4e6a-8f35-4a22d60b6754">EnumICMProfilesProcCallback</a>.)
 
 
 ### -param param
 
-TBD
-
-
-
-
-#### - hDC
-
-Specifies the device context.
-
-
-#### - lParam
-
 Data supplied by the application that is passed to the callback function along with the color profile information.
-
-
-#### - lpEnumICMProfilesFunc
-
-Specifies the procedure instance address of a callback function defined by the application. (See <a href="https://msdn.microsoft.com/6e8f4ce5-c546-4e6a-8f35-4a22d60b6754">EnumICMProfilesProcCallback</a>.)
 
 
 ## -returns

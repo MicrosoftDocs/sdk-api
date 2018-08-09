@@ -7,7 +7,7 @@ old-location: dshow\eavddsurroundmode.htm
 old-project: DirectShow
 ms.assetid: daebcbdf-3a4d-494a-a403-8b075a6d393b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: codecapi/eAVDDSurroundMode, codecapi/eAVDDSurroundMode_No, codecapi/eAVDDSurroundMode_NotIndicated, codecapi/eAVDDSurroundMode_Yes, dshow.eavddsurroundmode, eAVDDSurroundMode, eAVDDSurroundMode enumeration [DirectShow], eAVDDSurroundModeEnumeration, eAVDDSurroundMode_No, eAVDDSurroundMode_NotIndicated, eAVDDSurroundMode_Yes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,11 +84,9 @@ If the audio stream is Dolby AC-3, this property reflects the value of the dsurm
 
 <table>
 <tr>
-<th>
-              Bit field
+<th>Bit field
             </th>
-<th>
-              Value
+<th>Value
             </th>
 </tr>
 <tr>

@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingvalue.htm
 old-project: tracelogging
 ms.assetid: F4013632-3DC8-413C-B25F-64DE070FA4A8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TraceLoggingValue, TraceLoggingValue macro, tracelogging.traceloggingvalue, traceloggingprovider/TraceLoggingValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,14 +64,14 @@ Wrapper macro for event fields. Automatically deduces value type.
 The event field value.
 
 
-#### - description [in, optional]
-
-The description of the event field's value. If provided, the description parameter must be a string literal, and will be included in the PDB. 
-
-
 #### - name [in, optional]
 
 The name of the event field. If provided, the name parameter must be a string literal (not a variable) and must not  contain any '\0' characters.
+
+
+#### - description [in, optional]
+
+The description of the event field's value. If provided, the description parameter must be a string literal, and will be included in the PDB. 
 
 
 #### - tags [in, optional]

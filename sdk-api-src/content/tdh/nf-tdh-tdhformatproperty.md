@@ -7,7 +7,7 @@ old-location: etw\tdhformatproperty.htm
 old-project: ETW
 ms.assetid: ecc954f8-840e-4963-a0c8-64aac25355e3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: TdhFormatProperty, TdhFormatProperty function [ETW], etw.tdhformatproperty, tdh/TdhFormatProperty
 ms.prod: windows
 ms.technology: windows-sdk

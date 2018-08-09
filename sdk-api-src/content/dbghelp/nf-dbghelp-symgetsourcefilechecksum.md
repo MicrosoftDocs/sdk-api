@@ -7,7 +7,7 @@ old-location: base\symgetsourcefilechecksum.htm
 old-project: debug
 ms.assetid: 6F45FEC4-AFB9-4612-A840-B806034F33E2
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymGetSourceFileChecksum, SymGetSourceFileChecksum function, SymGetSourceFileChecksumW, base.symgetsourcefilechecksum, dbghelp/SymGetSourceFileChecksum, dbghelp/SymGetSourceFileChecksumW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,8 +100,7 @@ Pointer to the actual bytes written in the buffer.
 
 
 
-
-						If the function succeeds, the return value is <b>TRUE</b>.
+If the function succeeds, the return value is <b>TRUE</b>.
 						
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 

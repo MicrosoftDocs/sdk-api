@@ -4,10 +4,10 @@ title: "_WTSINFOW"
 author: windows-sdk-content
 description: Contains information about a Remote Desktop Services session.
 old-location: termserv\wtsinfo.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 14e2d3bb-8c83-45aa-aa63-87afef3008b3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PWTSINFOW, PWTSINFO, PWTSINFO structure pointer [Remote Desktop Services], WTSINFO, WTSINFO structure [Remote Desktop Services], WTSINFOA, WTSINFOW, _WTSINFOW, termserv.wtsinfo, wtsapi32/PWTSINFO, wtsapi32/WTSINFO, wtsapi32/WTSINFOA, wtsapi32/WTSINFOW"
 ms.prod: windows
 ms.technology: windows-sdk

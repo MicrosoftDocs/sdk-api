@@ -7,7 +7,7 @@ old-location: winsock\socket_security_settings.htm
 old-project: winsock
 ms.assetid: 9c47efb4-dd3e-4db9-a659-003292e2c5e9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: SOCKET_SECURITY_SETTINGS, SOCKET_SECURITY_SETTINGS structure [Winsock], SOCKET_SETTINGS_ALLOW_INSECURE, SOCKET_SETTINGS_GUARANTEE_ENCRYPTION, _SOCKET_SECURITY_SETTINGS, mstcpip/SOCKET_SECURITY_SETTINGS, winsock.socket_security_settings
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,8 +105,7 @@ Indicates that clear text connections are allowed.  If this flag is set, some or
 
 
 
-The <b>SOCKET_SECURITY_SETTINGS</b> structure  is supported on Windows Vista
-  and later.
+The <b>SOCKET_SECURITY_SETTINGS</b> structure  is supported on Windows Vistaand later.
 
 The <b>SOCKET_SECURITY_SETTINGS</b> structure  is used by the <a href="https://msdn.microsoft.com/9efee804-9763-4456-97a3-6eb9a8e30f49">WSASetSocketSecurity</a> function to enable and apply security on  a socket.
 

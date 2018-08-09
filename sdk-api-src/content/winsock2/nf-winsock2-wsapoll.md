@@ -4,10 +4,10 @@ title: WSAPoll function
 author: windows-sdk-content
 description: The WSAPoll function determines status of one or more sockets.
 old-location: winsock\wsapoll.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 3f6f872c-5cee-49f3-bf22-2e8a5d147987
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSAPoll, WSAPoll function [Winsock], mswsock/WSAPoll, winsock.wsapoll
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,14 @@ The <b>WSAPoll</b> function determines status of one or more sockets.
 
 
 
-### -param fdArray
+### -param fdArray [in, out]
 
-TBD
+An array of one or more <b>POLLFD</b> structures specifying the set  of sockets for which status is requested. The   array must contain at least one structure with a valid socket. Upon return, this parameter receives the updated sockets with the <b>revents</b> status flags member set on each one that matches the status query criteria.
 
 
-### -param fds
+### -param fds [in]
 
-TBD
+The number of <b>WSAPOLLFD</b> structures in <i>fdarray</i>. This is not necessarily the number of sockets for which status is requested.
 
 
 ### -param timeout [in]
@@ -93,16 +93,6 @@ A value that specifies the wait behavior, based on the following values.
 </tr>
 </table>
  
-
-
-#### - fdarray [in, out]
-
-An array of one or more <b>POLLFD</b> structures specifying the set  of sockets for which status is requested. The   array must contain at least one structure with a valid socket. Upon return, this parameter receives the updated sockets with the <b>revents</b> status flags member set on each one that matches the status query criteria.
-
-
-#### - nfds [in]
-
-The number of <b>WSAPOLLFD</b> structures in <i>fdarray</i>. This is not necessarily the number of sockets for which status is requested.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: shell\SHMessageBoxCheck.htm
 old-project: shell
 ms.assetid: 7e62cde0-2b9f-44d3-afb8-5df71f98453a
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: MB_ICONEXCLAMATION, MB_ICONHAND, MB_ICONINFORMATION, MB_ICONQUESTION, MB_OK, MB_OKCANCEL, MB_YESNO, SHMessageBoxCheck, SHMessageBoxCheck function [Windows Shell], SHMessageBoxCheckA, SHMessageBoxCheckW, _win32_SHMessageBoxCheck, shell.SHMessageBoxCheck, shlwapi/SHMessageBoxCheck, shlwapi/SHMessageBoxCheckA, shlwapi/SHMessageBoxCheckW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ A pointer to a null-terminated string that contains the title of the message box
 
 Type: <b>UINT</b>
 
-The flags that specify the contents and behavior of the message box. This function supports only a subset of the flags supported by <a href="https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx">MessageBox</a>. If you use any flags that are not listed below, the function's behavior is undefined.
+The flags that specify the contents and behavior of the message box. This function supports only a subset of the flags supported by <a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a>. If you use any flags that are not listed below, the function's behavior is undefined.
 
 
 You must specify the buttons to be displayed by setting one and only one of the following flags.
@@ -157,31 +157,6 @@ Type: <b>LPCTSTR</b>
 A pointer to a null-terminated string that contains a unique string value to associate with this message. To avoid collisions with values used by Microsoft, this string should include a GUID. This string must not exceed REGSTR_MAX_VALUE_LENGTH characters in length, including the terminating null character.
 
 
-##### - uType.MB_ICONEXCLAMATION
-
-Display an exclamation-point icon.
-
-
-##### - uType.MB_ICONHAND
-
-Display a stop-sign icon.
-
-
-##### - uType.MB_ICONINFORMATION
-
-Display an icon with a lowercase "i" in a circle.
-
-
-##### - uType.MB_ICONQUESTION
-
-Display a question-mark icon.
-
-
-##### - uType.MB_OK
-
-Display a message box with an <b>OK</b> button.
-
-
 ##### - uType.MB_OKCANCEL
 
 Display a message box with <b>OK</b> and <b>Cancel</b> buttons.
@@ -190,6 +165,31 @@ Display a message box with <b>OK</b> and <b>Cancel</b> buttons.
 ##### - uType.MB_YESNO
 
 Display a message box with <b>Yes</b> and <b>No</b> buttons.
+
+
+##### - uType.MB_OK
+
+Display a message box with an <b>OK</b> button.
+
+
+##### - uType.MB_ICONHAND
+
+Display a stop-sign icon.
+
+
+##### - uType.MB_ICONQUESTION
+
+Display a question-mark icon.
+
+
+##### - uType.MB_ICONEXCLAMATION
+
+Display an exclamation-point icon.
+
+
+##### - uType.MB_ICONINFORMATION
+
+Display an icon with a lowercase "i" in a circle.
 
 
 ## -returns

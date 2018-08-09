@@ -4,10 +4,10 @@ title: RtlVirtualUnwind function
 author: windows-sdk-content
 description: Retrieves the invocation context of the function that precedes the specified function context.
 old-location: base\rtlvirtualunwind.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 78d60f7a-0e16-4856-8aca-c251ab066b83
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: RtlVirtualUnwind, RtlVirtualUnwind function, UNW_FLAG_CHAININFO, UNW_FLAG_EHANDLER, UNW_FLAG_NHANDLER, UNW_FLAG_UHANDLER, base.rtlvirtualunwind, winnt/RtlVirtualUnwind
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,9 +132,9 @@ The <b>FunctionEntry</b> member is the contents of a previous function table ent
 The base address of the module to which the function belongs.
 
 
-### -param ControlPc
+### -param ControlPc [in]
 
-TBD
+The virtual address where control left the specified function.
 
 
 ### -param FunctionEntry [in]
@@ -149,9 +149,12 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh43
       context of the previous frame.
 
 
-### -param HandlerData
+### -param HandlerData [out]
 
-TBD
+The location of the PC. If this parameter is 0, the PC is in the prologue, epilogue, or a null frame region 
+       of the function. If this parameter is 1, the PC is in the body of the function.
+
+This parameter is not present on x64.
 
 
 ### -param EstablisherFrame [out]
@@ -165,19 +168,6 @@ This parameter is of type <b>PULONG64</b> on x64.
 ### -param ContextPointers [in, out, optional]
 
 An optional pointer to a context pointers structure.
-
-
-#### - ControlPC [in]
-
-The virtual address where control left the specified function.
-
-
-#### - InFunction [out]
-
-The location of the PC. If this parameter is 0, the PC is in the prologue, epilogue, or a null frame region 
-       of the function. If this parameter is 1, the PC is in the body of the function.
-
-This parameter is not present on x64.
 
 
 ## -returns

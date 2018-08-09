@@ -7,7 +7,7 @@ old-location: p2p\drtdeleteipv6udptransport.htm
 old-project: p2psdk
 ms.assetid: 9b078f63-36b1-448b-b0c2-d452699157d8
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: DrtDeleteIpv6UdpTransport, DrtDeleteIpv6UdpTransport function [Peer Networking], drt/DrtDeleteIpv6UdpTransport, p2p.drtdeleteipv6udptransport
 ms.prod: windows
 ms.technology: windows-sdk

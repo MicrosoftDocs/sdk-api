@@ -7,7 +7,7 @@ old-location: rras\rasadfunc.htm
 old-project: rras
 ms.assetid: e014624a-1ee1-4de3-ba59-cd090b3fa711
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RASADFunc, RASADFunc callback, RASADFunc callback function [RAS], RASADFuncA, RASADFuncW, _ras_rasadfunc, ras/RASADFunc, ras/RASADFuncA, ras/RASADFuncW, rras.rasadfunc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,6 +80,21 @@ The
 
 
 
+#### - lpszPhonebook [in]
+
+Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
+
+
+
+
+<b>Windows Me/98/95:  </b>This parameter is always <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
+
+
+#### - lpszEntry [in]
+
+Pointer to a <b>null</b>-terminated string that specifies the phone-book entry to use.
+
+
 #### - lpAutoDialParams [in]
 
 Pointer to a 
@@ -89,21 +104,6 @@ Pointer to a
 #### - lpdwRetCode [out]
 
 Pointer to a variable that receives a value if the function performs the dialing operation. If the dialing operation succeeds, set this variable to <b>ERROR_SUCCESS</b>. If the dialing operation fails, set it to a nonzero value.
-
-
-#### - lpszEntry [in]
-
-Pointer to a <b>null</b>-terminated string that specifies the phone-book entry to use.
-
-
-#### - lpszPhonebook [in]
-
-Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
-
-
-
-
-<b>Windows Me/98/95:  </b>This parameter is always <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
 
 ## -returns

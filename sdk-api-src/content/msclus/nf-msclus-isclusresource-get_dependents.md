@@ -7,7 +7,7 @@ old-location: mscs\clusresource_dependents.htm
 old-project: mscs
 ms.assetid: 88206f61-9e90-4335-8a34-fc0e6d1ca208
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusResource class [Failover Cluster],Dependents property, ClusResource.Dependents, Dependents property [Failover Cluster], Dependents property [Failover Cluster],ClusResource class, ISClusResource.get_Dependents, ISClusResource::get_Dependents, get_Dependents, mscs.clusresource_dependents
 ms.prod: windows
 ms.technology: windows-sdk

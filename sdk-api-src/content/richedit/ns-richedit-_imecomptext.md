@@ -7,7 +7,7 @@ old-location: controls\IMECOMPTEXT.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\imecomptext.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ICT_RESULTREADSTR, IMECOMPTEXT, IMECOMPTEXT structure [Windows Controls], _imecomptext, _win32_IMECOMPTEXT_str, _win32_IMECOMPTEXT_str_cpp, controls.IMECOMPTEXT, controls._win32_IMECOMPTEXT_str, richedit/IMECOMPTEXT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ The final composed string.
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/library/Bb788036(v=VS.85).aspx">EM_GETIMECOMPTEXT</a> message.
+This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb788036(v=VS.85).aspx">EM_GETIMECOMPTEXT</a> message.
 
 
 
@@ -106,7 +106,7 @@ This structure is used with the <a href="https://msdn.microsoft.com/library/Bb78
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb788036(v=VS.85).aspx">EM_GETIMECOMPTEXT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb788036(v=VS.85).aspx">EM_GETIMECOMPTEXT</a>
  
 
  

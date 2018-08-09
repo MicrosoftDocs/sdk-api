@@ -4,10 +4,10 @@ title: PerfQueryCounterSetRegistrationInfo function
 author: windows-sdk-content
 description: Gets information about a counter set on the specified system.
 old-location: perf\perfquerycountersetregistrationinfo.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: E8E83E47-2445-42AE-855F-6710FC8F789E
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PerfQueryCounterSetRegistrationInfo, PerfQueryCounterSetRegistrationInfo function [Perf], perf.perfquerycountersetregistrationinfo, perflib/PerfQueryCounterSetRegistrationInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -35,6 +35,7 @@ api_type:
  - DllExport
 api_location:
  - AdvAPI32.dll
+ - api-ms-win-perf-legacy-l1-1-0.dll
 api_name:
  - PerfQueryCounterSetRegistrationInfo
 product: Windows
@@ -175,9 +176,7 @@ The function successfully stored all of the information about the counter set in
 </table>
  
 
-
-						
-						For other types of failures, the return value is a 
+For other types of failures, the return value is a 
 <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. 
 					
 

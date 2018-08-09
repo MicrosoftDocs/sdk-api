@@ -7,7 +7,7 @@ old-location: security\npsearchdialog.htm
 old-project: secauthn
 ms.assetid: df0d7149-4fb3-41b9-8037-d3c89eee0241
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: NPSearchDialog, NPSearchDialog function [Security], _mnp_npsearchdialog, npapi/NPSearchDialog, security.npsearchdialog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,9 @@ Enables network vendors to supply their own form of browsing and search, beyond 
 
 
 
-### -param hwndParent
+### -param hwndParent [in]
 
-TBD
+Handle of the window to be used as the parent window of the dialog box.
 
 
 ### -param lpNetResource [in]
@@ -82,11 +82,6 @@ Pointer to a buffer that will receive the result of the search.
 ### -param lpnFlags [in]
 
 Pointer to a <b>DWORD</b> of flags that the provider can set to force certain actions after the dialog box is dismissed. The only flag supported is WNSRCH_REFRESH_FIRST_LEVEL, which forces MPR to collapse then expand and refresh the first level below this provider after the dialog box is dismissed.
-
-
-#### - hParent [in]
-
-Handle of the window to be used as the parent window of the dialog box.
 
 
 ## -returns

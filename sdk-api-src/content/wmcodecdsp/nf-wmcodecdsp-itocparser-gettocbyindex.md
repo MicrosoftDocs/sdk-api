@@ -7,7 +7,7 @@ old-location: mf\itocparser_gettocbyindex.htm
 old-project: medfound
 ms.assetid: 1386e348-c94f-4343-908c-338352eae494
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: GetTocByIndex, GetTocByIndex method [Media Foundation], GetTocByIndex method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],GetTocByIndex method, ITocParser.GetTocByIndex, ITocParser::GetTocByIndex, codecapi.itocparser_gettocbyindex, mf.itocparser_gettocbyindex, wmcodecdsp/ITocParser::GetTocByIndex
 ms.prod: windows
 ms.technology: windows-sdk

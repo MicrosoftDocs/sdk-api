@@ -7,7 +7,7 @@ old-location: menurc\setmenuiteminfo.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenuiteminfo.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetMenuItemInfo, SetMenuItemInfo function [Menus and Other Resources], SetMenuItemInfoA, SetMenuItemInfoW, _win32_SetMenuItemInfo, _win32_setmenuiteminfo_cpp, menurc.setmenuiteminfo, winui._win32_setmenuiteminfo, winuser/SetMenuItemInfo, winuser/SetMenuItemInfoA, winuser/SetMenuItemInfoW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,19 +65,25 @@ Changes information about a menu item.
 
 
 
-### -param hmenu
+### -param hmenu [in]
 
-TBD
+Type: <b>HMENU</b>
 
-
-### -param item
-
-TBD
+A handle to the menu that contains the menu item. 
 
 
-### -param fByPositon
+### -param item [in]
 
-TBD
+Type: <b>UINT</b>
+
+The identifier or position of the menu item to change. The meaning of this parameter depends on the value of <i>fByPosition</i>. 
+
+
+### -param fByPositon [in]
+
+Type: <b>BOOL</b>
+
+The meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="https://msdn.microsoft.com/en-us/library/ms647553(v=VS.85).aspx">About Menus</a> for more information.
 
 
 ### -param lpmii [in]
@@ -85,27 +91,6 @@ TBD
 Type: <b>LPMENUITEMINFO</b>
 
 A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms647578(v=VS.85).aspx">MENUITEMINFO</a> structure that contains information about the menu item and specifies which menu item attributes to change. 
-
-
-#### - fByPosition [in]
-
-Type: <b>BOOL</b>
-
-The meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="https://msdn.microsoft.com/en-us/library/ms647553(v=VS.85).aspx">About Menus</a> for more information.
-
-
-#### - hMenu [in]
-
-Type: <b>HMENU</b>
-
-A handle to the menu that contains the menu item. 
-
-
-#### - uItem [in]
-
-Type: <b>UINT</b>
-
-The identifier or position of the menu item to change. The meaning of this parameter depends on the value of <i>fByPosition</i>. 
 
 
 ## -returns

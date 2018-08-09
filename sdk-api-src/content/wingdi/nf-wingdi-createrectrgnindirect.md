@@ -7,7 +7,7 @@ old-location: gdi\createrectrgnindirect.htm
 old-project: gdi
 ms.assetid: f32e0b94-ce9c-4098-81fe-b239a9544621
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateRectRgnIndirect, CreateRectRgnIndirect function [Windows GDI], _win32_CreateRectRgnIndirect, gdi.createrectrgnindirect, wingdi/CreateRectRgnIndirect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ The <b>CreateRectRgnIndirect</b> function creates a rectangular region.
 
 
 
-### -param lprect
-
-TBD
-
-
-
-
-#### - lprc [in]
+### -param lprect [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that contains the coordinates of the upper-left and lower-right corners of the rectangle that defines the region in logical units.
 

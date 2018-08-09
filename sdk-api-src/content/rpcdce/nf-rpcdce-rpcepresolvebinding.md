@@ -7,7 +7,7 @@ old-location: rpc\rpcepresolvebinding.htm
 old-project: rpc
 ms.assetid: 839eefea-f06d-412b-9637-4af01b783121
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcEpResolveBinding, RpcEpResolveBinding function [RPC], _rpc_rpcepresolvebinding, rpc.rpcepresolvebinding, rpcdce/RpcEpResolveBinding
 ms.prod: windows
 ms.technology: windows-sdk

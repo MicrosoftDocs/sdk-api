@@ -7,7 +7,7 @@ old-location: base\pwm_pin_get_polarity_output.htm
 old-project: devio
 ms.assetid: 432C10EF-AC08-4781-9BCA-A31E0DF12704
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/07/2018
 ms.keywords: PWM_PIN_GET_POLARITY_OUTPUT, PWM_PIN_GET_POLARITY_OUTPUT structure, _PWM_PIN_GET_POLARITY_OUTPUT, base.pwm_pin_get_polarity_output, pwm/PWM_PIN_GET_POLARITY_OUTPUT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,11 +71,11 @@ Contains a polarity value to return.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt843916(v=VS.85).aspx">IOCTL_PWM_PIN_GET_POLARITY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt843916(v=VS.85).aspx">IOCTL_PWM_PIN_GET_POLARITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt843932(v=VS.85).aspx">PWM_POLARITY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt843932(v=VS.85).aspx">PWM_POLARITY</a>
  
 
  

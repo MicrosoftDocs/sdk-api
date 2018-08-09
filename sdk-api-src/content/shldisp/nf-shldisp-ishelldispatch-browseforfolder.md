@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_BrowseForFolder.htm
 old-project: shell
 ms.assetid: 578C51C1-F59B-4604-A09B-62BA61225ABB
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: BrowseForFolder, BrowseForFolder method [Windows Shell], BrowseForFolder method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],BrowseForFolder method, IShellDispatch.BrowseForFolder, IShellDispatch::BrowseForFolder, shell.IShellDispatch_BrowseForFolder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,18 +88,18 @@ The handle to the parent window of the dialog box. This value can be zero.
 
 
 
+#### - sTitle [in]
+
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+
+A <b>String</b> value that represents the title displayed inside the <b>Browse</b> dialog box.
+
+
 #### - iOptions [in]
 
 Type: <b>Integer</b>
 
 An <b>Integer</b> value that contains the options for the method. This can be zero or a combination of the values listed under the <b>ulFlags</b> member of the <a href="https://msdn.microsoft.com/7c8df03a-93bb-42b2-b4a0-9c2ae917c0d1">BROWSEINFO</a> structure.
-
-
-#### - sTitle [in]
-
-Type: <b><a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a></b>
-
-A <b>String</b> value that represents the title displayed inside the <b>Browse</b> dialog box.
 
 
 #### - vRootFolder [in, optional]

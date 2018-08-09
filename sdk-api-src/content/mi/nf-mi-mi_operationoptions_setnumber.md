@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_setnumber.htm
 old-project: wmi_v2
 ms.assetid: 2f357a9c-7e61-4f78-b4cc-2dd0a8259c3d
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_OperationOptions_SetNumber, MI_OperationOptions_SetNumber function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetNumber, wmi_v2.mi_operationoptions_setnumber
 ms.prod: windows
 ms.technology: windows-sdk

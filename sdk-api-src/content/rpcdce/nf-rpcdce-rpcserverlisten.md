@@ -7,7 +7,7 @@ old-location: rpc\rpcserverlisten.htm
 old-project: rpc
 ms.assetid: 430561b2-c74b-423c-8448-339cc71dbd68
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcServerListen, RpcServerListen function [RPC], _rpc_rpcserverlisten, rpc.rpcserverlisten, rpcdce/RpcServerListen
 ms.prod: windows
 ms.technology: windows-sdk

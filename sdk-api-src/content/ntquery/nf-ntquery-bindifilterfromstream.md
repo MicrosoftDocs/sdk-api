@@ -7,7 +7,7 @@ old-location: indexsrv\bindifilterfromstream.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0f8t.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 08/03/2018
 ms.keywords: BindIFilterFromStream, BindIFilterFromStream function [Indexing Service], _idxs_BindIFilterFromStream, indexsrv.bindifilterfromstream, ntquery/BindIFilterFromStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,9 @@ req.product: ADAM
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is unsupported as of Windows XP. Instead, use <a href="https://msdn.microsoft.com/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is unsupported as of Windows XP. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
-Retrieves the <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a> interface pointer for the specified storage object. This is especially useful when filtering the contents of a document and processing embedded OLE objects accessible through their <b>IStream</b> interfaces.
+Retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a> interface pointer for the specified storage object. This is especially useful when filtering the contents of a document and processing embedded OLE objects accessible through their <b>IStream</b> interfaces.
 
 
 
@@ -74,7 +74,7 @@ A pointer to the controlling <a href="https://msdn.microsoft.com/33f1d79a-33fc-4
 
 ### -param ppIUnk [out]
 
-A pointer to an output variable that receives the <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a> interface pointer. 
+A pointer to an output variable that receives the <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a> interface pointer. 
 
 
 ## -returns
@@ -174,15 +174,15 @@ This function is not a full implementation of a COM persistent handler.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690929(v=VS.85).aspx">BindIFilterFromStorage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690929(v=VS.85).aspx">BindIFilterFromStorage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691002(v=VS.85).aspx">LoadIFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691002(v=VS.85).aspx">LoadIFilter</a>
  
 
  

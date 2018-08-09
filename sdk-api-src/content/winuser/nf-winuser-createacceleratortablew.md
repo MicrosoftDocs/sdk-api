@@ -7,7 +7,7 @@ old-location: menurc\createacceleratortable.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\createacceleratortable.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateAcceleratorTable, CreateAcceleratorTable function [Menus and Other Resources], CreateAcceleratorTableA, CreateAcceleratorTableW, _win32_CreateAcceleratorTable, _win32_createacceleratortable_cpp, menurc.createacceleratortable, winui._win32_createacceleratortable, winuser/CreateAcceleratorTable, winuser/CreateAcceleratorTableA, winuser/CreateAcceleratorTableW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,30 +65,18 @@ Creates an accelerator table.
 
 
 
-### -param paccel
-
-TBD
-
-
-### -param cAccel
-
-TBD
-
-
-
-
-#### - cEntries [in]
-
-Type: <b>int</b>
-
-The number of <a href="https://msdn.microsoft.com/en-us/library/ms646340(v=VS.85).aspx">ACCEL</a> structures in the array. This must be within the range 1 to 32767 or the function will fail.
-
-
-#### - lpaccl [in]
+### -param paccel [in]
 
 Type: <b>LPACCEL</b>
 
 An array of <a href="https://msdn.microsoft.com/en-us/library/ms646340(v=VS.85).aspx">ACCEL</a> structures that describes the accelerator table.
+
+
+### -param cAccel [in]
+
+Type: <b>int</b>
+
+The number of <a href="https://msdn.microsoft.com/en-us/library/ms646340(v=VS.85).aspx">ACCEL</a> structures in the array. This must be within the range 1 to 32767 or the function will fail.
 
 
 ## -returns

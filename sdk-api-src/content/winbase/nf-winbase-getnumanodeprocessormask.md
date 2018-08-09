@@ -4,10 +4,10 @@ title: GetNumaNodeProcessorMask function
 author: windows-sdk-content
 description: Retrieves the processor mask for the specified node.
 old-location: base\getnumanodeprocessormask.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: bdaecb36-9b51-4cc3-88b3-0dbd63bdc9b8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetNumaNodeProcessorMask, GetNumaNodeProcessorMask function, _win32_getnumanodeprocessormask, base.getnumanodeprocessormask, winbase/GetNumaNodeProcessorMask
 ms.prod: windows
 ms.technology: windows-sdk

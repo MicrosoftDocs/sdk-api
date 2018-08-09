@@ -7,7 +7,7 @@ old-location: fs\ntms_changerinformation.htm
 old-project: Rsm
 ms.assetid: 2aa9fccf-dea3-4fa3-9fbf-6d83770c3893
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: NTMS_CHANGERINFORMATION, NTMS_CHANGERINFORMATION structure [Files], NTMS_CHANGERINFORMATIONA, _NTMS_CHANGERINFORMATIONA, _NTMS_CHANGERINFORMATIONW, _zaw_ntms_changerinformation, base.ntms_changerinformation, fs.ntms_changerinformation, ntmsapi/NTMS_CHANGERINFORMATION
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\drawcaption.htm
 old-project: gdi
 ms.assetid: 9348e29f-ce56-4664-8862-f5810c797622
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DC_ACTIVE, DC_BUTTONS, DC_GRADIENT, DC_ICON, DC_INBUTTON, DC_SMALLCAP, DC_TEXT, DrawCaption, DrawCaption function [Windows GDI], _win32_DrawCaption, gdi.drawcaption, winuser/DrawCaption
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,24 +69,12 @@ A handle to a window that supplies text and an icon for the window caption.
 A handle to a device context. The function draws the window caption into this device context.
 
 
-### -param lprect
-
-TBD
-
-
-### -param flags
-
-TBD
-
-
-
-
-#### - lprc [in]
+### -param lprect [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the bounding rectangle for the window caption in logical coordinates.
 
 
-#### - uFlags [in]
+### -param flags [in]
 
 The drawing options. This parameter can be zero or more of the following values.
 

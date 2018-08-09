@@ -4,10 +4,10 @@ title: CertAddEncodedCTLToStore function
 author: windows-sdk-content
 description: Creates a certificate trust list (CTL) context from an encoded CTL and adds it to the certificate store.
 old-location: security\certaddencodedctltostore.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 4239d43e-187d-4f40-99ae-6f914b7577ac
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddEncodedCTLToStore, CertAddEncodedCTLToStore function [Security], _crypto2_certaddencodedctltostore, security.certaddencodedctltostore, wincrypt/CertAddEncodedCTLToStore
 ms.prod: windows
 ms.technology: windows-sdk

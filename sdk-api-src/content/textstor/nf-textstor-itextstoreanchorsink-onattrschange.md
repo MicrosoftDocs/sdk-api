@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchorsink_onattrschange.htm
 old-project: TSF
 ms.assetid: aa7226dd-1d4a-44ed-94b7-b93813bca2f8
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnAttrsChange method, ITextStoreAnchorSink.OnAttrsChange, ITextStoreAnchorSink::OnAttrsChange, OnAttrsChange, OnAttrsChange method [Text Services Framework], OnAttrsChange method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onattrschange_ref, textstor/ITextStoreAnchorSink::OnAttrsChange, tsf.itextstoreanchorsink_onattrschange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -128,20 +128,17 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/d0f20507-005b-409d-90d5-5817b7d95f19">
-        ITextStoreAnchor::RequestAttrsAtPosition
+<a href="https://msdn.microsoft.com/d0f20507-005b-409d-90d5-5817b7d95f19">ITextStoreAnchor::RequestAttrsAtPosition
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f0f43237-8c26-4e0c-8717-908884229b7b">
-        ITextStoreAnchor::RequestAttrsTransitioningAtPosition
+<a href="https://msdn.microsoft.com/f0f43237-8c26-4e0c-8717-908884229b7b">ITextStoreAnchor::RequestAttrsTransitioningAtPosition
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/ab81d79d-e991-4c2d-9fb7-95393e002828">
-        ITextStoreAnchor::RequestSupportedAttrs
+<a href="https://msdn.microsoft.com/ab81d79d-e991-4c2d-9fb7-95393e002828">ITextStoreAnchor::RequestSupportedAttrs
       </a>
 
 

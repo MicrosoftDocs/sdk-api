@@ -7,7 +7,7 @@ old-location: snmp\snmpmgroidtostr.htm
 old-project: snmp
 ms.assetid: 4864b864-3381-4129-8cc3-ecfc6566e530
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: SnmpMgrOidToStr, SnmpMgrOidToStr function [SNMP], _snmp_snmpmgroidtostr, mgmtapi/SnmpMgrOidToStr, snmp.snmpmgroidtostr
 ms.prod: windows
 ms.technology: windows-sdk

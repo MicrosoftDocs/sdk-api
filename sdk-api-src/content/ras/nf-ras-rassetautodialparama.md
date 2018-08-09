@@ -7,7 +7,7 @@ old-location: rras\rassetautodialparam.htm
 old-project: rras
 ms.assetid: 76c52494-e8ad-41df-bee6-33d90f24e448
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RASADP_ConnectionQueryTimeout, RASADP_DisableConnectionQuery, RASADP_FailedConnectionTimeout, RASADP_LoginSessionDisable, RASADP_SavedAddressesLimit, RasSetAutodialParam, RasSetAutodialParam function [RAS], RasSetAutodialParamA, RasSetAutodialParamW, _ras_rassetautodialparam, ras/RasSetAutodialParam, ras/RasSetAutodialParamA, ras/RasSetAutodialParamW, rras.rassetautodialparam
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ TBD
 
 
 
-#### - dwKey [in]
+#### - [in]
 
 Specifies the AutoDial parameter to set. This parameter can be one of the following values. 
 
@@ -135,14 +135,14 @@ The <i>lpvValue</i> parameter points to a <b>DWORD</b> value that indicates a ti
  
 
 
-#### - dwcbValue [in]
-
-Specifies the size, in bytes, of the value in the <i>lpvValue</i> buffer.
-
-
 #### - lpvValue [out]
 
 Pointer to a buffer that contains the new value for the specified parameter.
+
+
+#### - dwcbValue [in]
+
+Specifies the size, in bytes, of the value in the <i>lpvValue</i> buffer.
 
 
 ## -returns

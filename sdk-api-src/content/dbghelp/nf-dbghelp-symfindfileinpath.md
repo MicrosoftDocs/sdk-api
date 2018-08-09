@@ -7,7 +7,7 @@ old-location: base\symfindfileinpath.htm
 old-project: debug
 ms.assetid: f85d8cd9-958a-490a-b155-3a9abdeda922
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SSRVOPT_DWORD, SSRVOPT_DWORDPTR, SSRVOPT_GUIDPTR, SymFindFileInPath, SymFindFileInPath function, SymFindFileInPathW, _win32_symfindfileinpath, base.symfindfileinpath, dbghelp/SymFindFileInPath, dbghelp/SymFindFileInPathW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -35,6 +35,7 @@ api_type:
  - DllExport
 api_location:
  - DbgHelp.dll
+ - imagehlp.dll
 api_name:
  - SymFindFileInPath
  - SymFindFileInPath
@@ -60,9 +61,10 @@ Locates a symbol file or executable image.
 
 
 
-### -param hprocess
+### -param hprocess [in]
 
-TBD
+A handle to the process that was originally passed to the 
+<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
 
 
 ### -param SearchPath [in, optional]
@@ -137,9 +139,9 @@ The <i>id</i> parameter is a pointer to a <b>GUID</b>.
  
 
 
-### -param FoundFile
+### -param FoundFile [out]
 
-TBD
+A pointer to a buffer that receives the fully qualified path to the symbol file. This buffer must be at least MAX_PATH characters.
 
 
 ### -param callback [in, optional]
@@ -150,17 +152,6 @@ A <a href="https://msdn.microsoft.com/e579158e-053d-4c81-a2c3-ac3af3d3a201">SymF
 ### -param context [in, optional]
 
 A user-defined value or <b>NULL</b>. This value is simply passed to the callback function. This parameter is typically used by an application to pass a pointer to a data structure that provides some context for the callback function.
-
-
-#### - FilePath [out]
-
-A pointer to a buffer that receives the fully qualified path to the symbol file. This buffer must be at least MAX_PATH characters.
-
-
-#### - hProcess [in]
-
-A handle to the process that was originally passed to the 
-<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
 
 
 ## -returns

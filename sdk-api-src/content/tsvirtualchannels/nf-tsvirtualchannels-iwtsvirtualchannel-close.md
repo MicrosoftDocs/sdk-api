@@ -4,10 +4,10 @@ title: IWTSVirtualChannel::Close
 author: windows-sdk-content
 description: Closes the channel.
 old-location: termserv\iwtsvirtualchannel_close.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: b900789d-c7da-4974-8c46-72ea8ffd6892
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Close, Close method [Remote Desktop Services], Close method [Remote Desktop Services],IWTSVirtualChannel interface, IWTSVirtualChannel interface [Remote Desktop Services],Close method, IWTSVirtualChannel.Close, IWTSVirtualChannel::Close, termserv.iwtsvirtualchannel_close, tsvirtualchannels/IWTSVirtualChannel::Close
 ms.prod: windows
 ms.technology: windows-sdk

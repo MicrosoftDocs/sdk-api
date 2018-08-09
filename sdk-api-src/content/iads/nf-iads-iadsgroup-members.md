@@ -7,7 +7,7 @@ old-location: adsi\iadsgroup_members.htm
 old-project: ADSI
 ms.assetid: c909f779-ee27-4eb3-aee2-892ccc2a196e
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IADsGroup interface [ADSI],Members method, IADsGroup.Members, IADsGroup::Members, Members, Members method [ADSI], Members method [ADSI],IADsGroup interface, _ds_iadsgroup_members, adsi.iadsgroup__members, adsi.iadsgroup_members, iads/IADsGroup::Members
 ms.prod: windows
 ms.technology: windows-sdk

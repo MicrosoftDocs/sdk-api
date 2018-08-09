@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer2_get_allocator.htm
 old-project: mstv
 ms.assetid: 0ba2c9ba-c3ba-4095-8221-a424776f3fac
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],get_Allocator method, IMSVidVideoRenderer2.get_Allocator, IMSVidVideoRenderer2::get_Allocator, IMSVidVideoRenderer2get_Allocator, get_Allocator, get_Allocator method [Microsoft TV Technologies], get_Allocator method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2_get_allocator, segment/IMSVidVideoRenderer2::get_Allocator
 ms.prod: windows
 ms.technology: windows-sdk

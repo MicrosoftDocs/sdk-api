@@ -4,10 +4,10 @@ title: WdsBpQueryOption function
 author: windows-sdk-content
 description: Returns the value of an option from the parsed packet.
 old-location: wds\wdsbpqueryoption.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 98c0d220-db20-4aba-9df0-e50f3b947da2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WdsBpQueryOption, WdsBpQueryOption function [Windows Deployment Services], wds.wdsbpqueryoption, wdsbp/WdsBpQueryOption
 ms.prod: windows
 ms.technology: windows-sdk

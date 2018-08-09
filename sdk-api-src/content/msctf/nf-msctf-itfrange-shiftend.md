@@ -7,7 +7,7 @@ old-location: tsf\itfrange_shiftend.htm
 old-project: TSF
 ms.assetid: 1debec6d-f98f-45a4-aaa8-99b61f3583ef
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfRange interface [Text Services Framework],ShiftEnd method, ITfRange.ShiftEnd, ITfRange::ShiftEnd, ShiftEnd, ShiftEnd method [Text Services Framework], ShiftEnd method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftend_ref, msctf/ITfRange::ShiftEnd, tsf.itfrange_shiftend
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,8 +149,7 @@ This method cannot move an anchor beyond a region boundary. If the shift reaches
 
 If the shift operation causes the range end anchor to move past the start anchor, the start anchor is moved to the same location as the end anchor.
 
-
-        ITfRange::ShiftEnd can be a lengthy operation. For better performance, use <a href="https://msdn.microsoft.com/8e3e40a0-71ba-4abf-ac99-99d66856746c">ITfRange::ShiftEndToRange</a> when possible.
+ITfRange::ShiftEnd can be a lengthy operation. For better performance, use <a href="https://msdn.microsoft.com/8e3e40a0-71ba-4abf-ac99-99d66856746c">ITfRange::ShiftEndToRange</a> when possible.
 
 
 
@@ -160,14 +159,12 @@ If the shift operation causes the range end anchor to move past the start anchor
 
 
 
-<a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">
-        ITfDocumentMgr::CreateContext
+<a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
       </a>
 
 
@@ -176,20 +173,17 @@ If the shift operation causes the range end anchor to move past the start anchor
 
 
 
-<a href="https://msdn.microsoft.com/cda2282f-3d3c-4763-9892-b889b29963a6">
-        ITfRange::ShiftEndRegion
+<a href="https://msdn.microsoft.com/cda2282f-3d3c-4763-9892-b889b29963a6">ITfRange::ShiftEndRegion
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f9f983b1-a5fa-4857-b73c-b879c566d6f6">
-        ITfRange::ShiftStart
+<a href="https://msdn.microsoft.com/f9f983b1-a5fa-4857-b73c-b879c566d6f6">ITfRange::ShiftStart
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/055f3228-1e3b-4e31-9035-e509a98016a8">
-        TF_HALTCOND
+<a href="https://msdn.microsoft.com/055f3228-1e3b-4e31-9035-e509a98016a8">TF_HALTCOND
       </a>
  
 

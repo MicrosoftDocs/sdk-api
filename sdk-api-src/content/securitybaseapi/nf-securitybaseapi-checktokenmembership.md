@@ -7,7 +7,7 @@ old-location: security\checktokenmembership.htm
 old-project: secauthz
 ms.assetid: c254a167-c4e7-4b84-9be3-6862761309f8
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: CheckTokenMembership, CheckTokenMembership function [Security], _win32_checktokenmembership, security.checktokenmembership, securitybaseapi/CheckTokenMembership
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_pushemptystoragefilter.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_pushemptystoragefilter.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 0cfc6f25-169a-17b2-a049-aacf4f194e68, ID3D10InfoQueue interface [Direct3D 10],PushEmptyStorageFilter method, ID3D10InfoQueue.PushEmptyStorageFilter, ID3D10InfoQueue::PushEmptyStorageFilter, PushEmptyStorageFilter, PushEmptyStorageFilter method [Direct3D 10], PushEmptyStorageFilter method [Direct3D 10],ID3D10InfoQueue interface, d3d10sdklayers/ID3D10InfoQueue::PushEmptyStorageFilter, direct3d10.id3d10infoqueue_pushemptystoragefilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ Push an empty storage filter onto the storage-filter stack.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -85,7 +85,7 @@ An empty storage filter allows all messages to pass through.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
  
 
  

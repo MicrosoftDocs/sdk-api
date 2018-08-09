@@ -7,7 +7,7 @@ old-location: shell\SHRegCreateUSKey.htm
 old-project: shell
 ms.assetid: 10e3e31e-bff6-4260-95fa-2d750de16ab3
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHREGSET_DEFAULT, SHREGSET_FORCE_HKCU, SHREGSET_FORCE_HKLM, SHREGSET_HKCU, SHREGSET_HKLM, SHRegCreateUSKey, SHRegCreateUSKey function [Windows Shell], SHRegCreateUSKeyA, SHRegCreateUSKeyW, _win32_SHRegCreateUSKey, shell.SHRegCreateUSKey, shlwapi/SHRegCreateUSKey, shlwapi/SHRegCreateUSKeyA, shlwapi/SHRegCreateUSKeyW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,9 +63,11 @@ Creates or opens a registry subkey in a user-specific subtree (HKEY_CURRENT_USER
 
 
 
-### -param pwzPath
+#### - pwzPath [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string that contains the subkey to be created or opened. If a value with this name is already present in the subkey, it will be opened.
 
 
 ### -param samDesired [in]
@@ -126,9 +128,9 @@ Create/open the key under <b>HKEY_LOCAL_MACHINE</b>. Creates a key even if it is
 Create/open the key under both <b>HKEY_CURRENT_USER</b> (forced) and <b>HKEY_LOCAL_MACHINE</b> (only if empty). This flag is the equivalent of (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 
 
-##### - dwFlags.SHREGSET_DEFAULT
+##### - dwFlags.SHREGSET_HKCU
 
-Create/open the key under both <b>HKEY_CURRENT_USER</b> (forced) and <b>HKEY_LOCAL_MACHINE</b> (only if empty). This flag is the equivalent of (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
+Create/open the key under <b>HKEY_CURRENT_USER</b>. Only creates a key if it is empty.
 
 
 ##### - dwFlags.SHREGSET_FORCE_HKCU
@@ -136,26 +138,19 @@ Create/open the key under both <b>HKEY_CURRENT_USER</b> (forced) and <b>HKEY_LOC
 Create/open the key under <b>HKEY_CURRENT_USER</b>. Creates a key even if it is not empty.
 
 
-##### - dwFlags.SHREGSET_FORCE_HKLM
-
-Create/open the key under <b>HKEY_LOCAL_MACHINE</b>. Creates a key even if it is not empty.
-
-
-##### - dwFlags.SHREGSET_HKCU
-
-Create/open the key under <b>HKEY_CURRENT_USER</b>. Only creates a key if it is empty.
-
-
 ##### - dwFlags.SHREGSET_HKLM
 
 Create/open the key under <b>HKEY_LOCAL_MACHINE</b>. Only creates a key if it is empty.
 
 
-#### - pszPath [in]
+##### - dwFlags.SHREGSET_FORCE_HKLM
 
-Type: <b>LPCTSTR</b>
+Create/open the key under <b>HKEY_LOCAL_MACHINE</b>. Creates a key even if it is not empty.
 
-A pointer to a null-terminated string that contains the subkey to be created or opened. If a value with this name is already present in the subkey, it will be opened.
+
+##### - dwFlags.SHREGSET_DEFAULT
+
+Create/open the key under both <b>HKEY_CURRENT_USER</b> (forced) and <b>HKEY_LOCAL_MACHINE</b> (only if empty). This flag is the equivalent of (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 
 
 ## -returns

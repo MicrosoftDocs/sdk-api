@@ -7,7 +7,7 @@ old-location: of\iofflinefilesghostinfo_isghosted.htm
 old-project: offlinefiles
 ms.assetid: b2e8ca73-4186-4971-b5be-41ecfc6b5e4a
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesGhostInfo interface [Offline Files],IsGhosted method, IOfflineFilesGhostInfo.IsGhosted, IOfflineFilesGhostInfo::IsGhosted, IsGhosted, IsGhosted method [Offline Files], IsGhosted method [Offline Files],IOfflineFilesGhostInfo interface, cscobj/IOfflineFilesGhostInfo::IsGhosted, of.iofflinefilesghostinfo_isghosted
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_subresource_footprint.htm
 old-project: direct3d12
 ms.assetid: C73B6AB0-F9C5-432E-BA26-3B7772411C95
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: D3D12_SUBRESOURCE_FOOTPRINT, D3D12_SUBRESOURCE_FOOTPRINT structure, d3d12/D3D12_SUBRESOURCE_FOOTPRINT, direct3d12.d3d12_subresource_footprint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Describes the format, width, height, depth, and row-pitch of the subresource int
 
 ### -field Format
 
-A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that  specifies the viewing format.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that  specifies the viewing format.
           
 
 

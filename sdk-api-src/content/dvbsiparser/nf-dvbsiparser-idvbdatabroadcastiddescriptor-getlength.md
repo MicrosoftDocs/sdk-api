@@ -7,7 +7,7 @@ old-location: mstv\idvbdatabroadcastiddescriptor_getlength.htm
 old-project: mstv
 ms.assetid: f9727783-a876-40b4-b4fa-e839ef0f6502
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbDataBroadcastIDDescriptor interface, IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbDataBroadcastIDDescriptor.GetLength, IDvbDataBroadcastIDDescriptor::GetLength, dvbsiparser/IDvbDataBroadcastIDDescriptor::GetLength, mstv.idvbdatabroadcastiddescriptor_getlength
 ms.prod: windows
 ms.technology: windows-sdk

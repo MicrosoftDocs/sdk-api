@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddRectangle_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddrectanglemethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: AddRectangle, AddRectangle methods [GDI+], GraphicsPath.AddRectangle, GraphicsPath::AddRectangle, _gdiplus_CLASS_GraphicsPath_AddRectangle_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddRectangle_Methods, gdipluspath/AddRectangle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,9 +53,9 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 AddRectangle methods of the 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
 <b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -65,19 +65,19 @@ AddRectangle methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535591(v=VS.85).aspx">AddRectangle(Rect&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535591(v=VS.85).aspx">AddRectangle(Rect&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535591(v=VS.85).aspx">GraphicsPath::AddRectangle</a> method adds a rectangle to this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535591(v=VS.85).aspx">GraphicsPath::AddRectangle</a> method adds a rectangle to this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535592(v=VS.85).aspx">AddRectangle(RectF&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535592(v=VS.85).aspx">AddRectangle(RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535592(v=VS.85).aspx">GraphicsPath::AddRectangle</a> method adds a rectangle to this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535592(v=VS.85).aspx">GraphicsPath::AddRectangle</a> method adds a rectangle to this path.
 
 </td>
 </tr>

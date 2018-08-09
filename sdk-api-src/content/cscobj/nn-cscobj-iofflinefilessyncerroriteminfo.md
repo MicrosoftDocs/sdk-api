@@ -7,7 +7,7 @@ old-location: of\iofflinefilessyncerroriteminfo.htm
 old-project: offlinefiles
 ms.assetid: 0af039a6-f0dd-4117-a174-38d32cfc0220
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesSyncErrorItemInfo, IOfflineFilesSyncErrorItemInfo interface [Offline Files], IOfflineFilesSyncErrorItemInfo interface [Offline Files],described, cscobj/IOfflineFilesSyncErrorItemInfo, of.iofflinefilessyncerroriteminfo
 ms.prod: windows
 ms.technology: windows-sdk

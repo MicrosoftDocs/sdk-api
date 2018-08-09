@@ -7,7 +7,7 @@ old-location: iphlp\getudpstatisticsex.htm
 old-project: iphlp
 ms.assetid: 9de7fa95-6bda-4fcc-b563-aed2e61fc1c7
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: AF_INET, AF_INET6, GetUdpStatisticsEx, GetUdpStatisticsEx function [IP Helper], _iphlp_getudpstatisticsex, iphlp.getudpstatisticsex, iphlpapi/GetUdpStatisticsEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-			The 
+The 
 <b>GetUdpStatisticsEx</b> function retrieves the User Datagram Protocol (UDP) statistics for the current computer. The 
 <b>GetUdpStatisticsEx</b> function differs from the 
 <b>GetUdpStatistics</b> function in that 
@@ -65,19 +64,13 @@ req.product: GDI+ 1.1
 
 
 
-### -param Statistics
+### -param Statistics [out]
 
-TBD
-
-
-### -param Family
-
-TBD
+A pointer to a 
+<a href="https://msdn.microsoft.com/128bae44-59a2-4e37-a588-a18805b9e340">MIB_UDPSTATS</a> structure that receives the UDP statistics for the local computer.
 
 
-
-
-#### - dwFamily [in]
+### -param Family [in]
 
 The protocol family for which to retrieve statistics. This parameter must be one of the following values: 
 
@@ -110,12 +103,6 @@ Internet Protocol version 6 (IPv6).
 </tr>
 </table>
  
-
-
-#### - pStats [out]
-
-A pointer to a 
-<a href="https://msdn.microsoft.com/128bae44-59a2-4e37-a588-a18805b9e340">MIB_UDPSTATS</a> structure that receives the UDP statistics for the local computer.
 
 
 ## -returns

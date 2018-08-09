@@ -7,7 +7,7 @@ old-location: p2p\peergraphexportdatabase.htm
 old-project: p2psdk
 ms.assetid: 0f198952-c6d4-4da7-9086-7abd635172cb
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphExportDatabase, PeerGraphExportDatabase function [Peer Networking], p2p.peergraphexportdatabase, p2p/PeerGraphExportDatabase
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphExportDatabase</b> function exports a peer graph database into a file that you can move to a different computer. By using   <a href="https://msdn.microsoft.com/85f7dc2b-c159-48e0-ac58-8a66eb0ec73b">PeerGraphImportDatabase</a>, a peer graph database can  be  imported to a different computer.
+The <b>PeerGraphExportDatabase</b> function exports a peer graph database into a file that you can move to a different computer. By using   <a href="https://msdn.microsoft.com/85f7dc2b-c159-48e0-ac58-8a66eb0ec73b">PeerGraphImportDatabase</a>, a peer graph database can  be  imported to a different computer.
 
 
 ## -parameters

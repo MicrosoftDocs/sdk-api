@@ -7,7 +7,7 @@ old-location: com\iprint.htm
 old-project: com
 ms.assetid: eb0d15c0-8a34-4211-b840-29d5862cf767
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IPrint, IPrint interface [COM], IPrint interface [COM],described, _ctrl_iprint, com.iprint, docobj/IPrint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Enables compound documents in general and active documents in particular to supp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrint</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IPrint</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrint</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IPrint</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

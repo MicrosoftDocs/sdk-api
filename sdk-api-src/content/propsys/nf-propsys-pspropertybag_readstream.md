@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadStream.htm
 old-project: properties
 ms.assetid: 3D1D8B3E-DD16-4b34-918C-C8478EBF0930
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: PSPropertyBag_ReadStream, PSPropertyBag_ReadStream function [Windows Properties], properties.PSPropertyBag_ReadStream, propsys/PSPropertyBag_ReadStream, shell.PSPropertyBag_ReadStream, shell_PSPropertyBag_ReadStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-The caller of the <a href="https://msdn.microsoft.com/library/Ee845063(v=VS.85).aspx">PSPropertyBag_ReadStream</a> function needs to call a <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method on the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> object returned by this function.
+The caller of the <a href="shell.PSPropertyBag_ReadStream">PSPropertyBag_ReadStream</a> function needs to call a <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method on the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> object returned by this function.
 
 
 
@@ -109,7 +109,7 @@ The caller of the <a href="https://msdn.microsoft.com/library/Ee845063(v=VS.85).
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee845079(v=VS.85).aspx">PSPropertyBag_WriteStream</a>
+<a href="shell.PSPropertyBag_WriteStream">PSPropertyBag_WriteStream</a>
  
 
  

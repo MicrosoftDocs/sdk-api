@@ -4,10 +4,10 @@ title: ldap_parse_result function
 author: windows-sdk-content
 description: The ldap_parse_result function parses responses from the server and returns the appropriate fields.
 old-location: ldap\ldap_parse_result.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: 6cadfbe0-0b69-4c43-a2ca-d8b3a12bf0a9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_parse_result, ldap.ldap__parse__result, ldap.ldap_parse_result, ldap_parse_result, ldap_parse_result function [LDAP], ldap_parse_resultA, ldap_parse_resultW, winldap/ldap_parse_result, winldap/ldap_parse_resultA, winldap/ldap_parse_resultW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,9 +83,9 @@ Determines whether the <i>ResultMessage</i> parameter is freed. You can pass any
 <a href="https://msdn.microsoft.com/a4292638-0686-4c2d-8c51-1d5d079d5782">ldap_msgfree</a> to free the result later.
 
 
-#### - ErrorMessage [out, optional]
+#### - ReturnCode [out, optional]
 
-A pointer to a wide, null-terminated string that contains the contents of the error message field from the <i>ResultMessage</i> parameter. Pass <b>NULL</b> to ignore this field.
+Indicates the outcome of the server operation that generated the original result message. Pass <b>NULL</b> to ignore this field.
 
 
 #### - MatchedDNs [out, optional]
@@ -93,14 +93,14 @@ A pointer to a wide, null-terminated string that contains the contents of the er
 A pointer to a wide, null-terminated string. In the case of a return of <b>LDAP_NO_SUCH_OBJECT</b>, this result parameter is filled in with a distinguished name indicating how much of the name in the request was recognized. Pass <b>NULL</b> to ignore this field.
 
 
+#### - ErrorMessage [out, optional]
+
+A pointer to a wide, null-terminated string that contains the contents of the error message field from the <i>ResultMessage</i> parameter. Pass <b>NULL</b> to ignore this field.
+
+
 #### - Referrals [out, optional]
 
 A pointer to a wide, null-terminated string that contains the contents of the referrals field from the <i>ResultMessage</i> parameter, indicating zero or more alternate LDAP servers where the request should be retried. Pass <b>NULL</b> to ignore this field.
-
-
-#### - ReturnCode [out, optional]
-
-Indicates the outcome of the server operation that generated the original result message. Pass <b>NULL</b> to ignore this field.
 
 
 #### - ServerControls [out, optional]

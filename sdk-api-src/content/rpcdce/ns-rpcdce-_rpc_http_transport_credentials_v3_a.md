@@ -7,7 +7,7 @@ old-location: rpc\rpc_http_transport_credentials_v3.htm
 old-project: rpc
 ms.assetid: 1d9d53bc-f1e2-4a8d-a9c1-5b2192ceec56
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: "*PRPC_HTTP_TRANSPORT_CREDENTIALS_V3_A, PRPC_HTTP_TRANSPORT_CREDENTIALS_V3, PRPC_HTTP_TRANSPORT_CREDENTIALS_V3 structure pointer [RPC], RPC_C_HTTP_AUTHN_SCHEME_BASIC, RPC_C_HTTP_AUTHN_SCHEME_DIGEST, RPC_C_HTTP_AUTHN_SCHEME_NEGOTIATE, RPC_C_HTTP_AUTHN_SCHEME_NTLM, RPC_C_HTTP_AUTHN_SCHEME_PASSPORT, RPC_C_HTTP_AUTHN_TARGET_PROXY, RPC_C_HTTP_AUTHN_TARGET_SERVER, RPC_C_HTTP_FLAG_USE_FIRST_AUTH_SCHEME, RPC_C_HTTP_FLAG_USE_SSL, RPC_HTTP_TRANSPORT_CREDENTIALS_V3, RPC_HTTP_TRANSPORT_CREDENTIALS_V3 structure [RPC], RPC_HTTP_TRANSPORT_CREDENTIALS_V3_A, _RPC_HTTP_TRANSPORT_CREDENTIALS_V3_A, _RPC_HTTP_TRANSPORT_CREDENTIALS_V3_W, rpc.rpc_http_transport_credentials_v3, rpcdce/PRPC_HTTP_TRANSPORT_CREDENTIALS_V3, rpcdce/RPC_HTTP_TRANSPORT_CREDENTIALS_V3"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -242,7 +242,6 @@ If the <b>TransportCredentials</b> member is <b>NULL</b> and the authentication 
 <li>Caller requested use of SSL and used the <b>ServerCertificateSubject</b> member. This scenario guarantees credentials are protected both in transit and at the final destination, even if a weak hash is used.</li>
 <li>The lncompatibilitylevel key is set to 2 or higher. This  causes the NTLM security provider to emit or respond to only the strong NT hash, not the weak LM hash. In addition, customers are encouraged to use level 3 or higher, which will attempt NTLMv2.</li>
 </ul>
-
 If the Unicode version of the <a href="https://msdn.microsoft.com/2438816c-995e-4398-999d-48a3538eec18">RpcBindingSetAuthInfoEx</a> function is used,  Unicode versions of the <b>RPC_HTTP_TRANSPORT_CREDENTIALS_V3</b> and <a href="https://msdn.microsoft.com/829dee24-aeeb-4191-b5fc-85970725f064">SEC_WINNT_AUTH_IDENTITY</a> structures must also be provided, and the <b>Flags</b> member in <b>TransportCredentials</b> must be set to SEC_WINNT_AUTH_IDENTITY_UNICODE. 
 If the ANSI version of the <b>RpcBindingSetAuthInfoEx</b> function is used,  ANSI versions of <b>RPC_HTTP_TRANSPORT_CREDENTIALS_V3</b> and <b>SEC_WINNT_AUTH_IDENTITY</b> structures must be provided, and the <b>Flags</b> member in <b>TransportCredentials</b> must be set to SEC_WINNT_AUTH_IDENTITY_ANSI.
 

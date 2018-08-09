@@ -7,7 +7,7 @@ old-location: tablet\iinkdrawingattributes.htm
 old-project: tablet
 ms.assetid: 47106C55-FA03-4996-BCFA-D00A51AF55EE
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IInkDrawingAttributes, IInkDrawingAttributes interface [Tablet PC], IInkDrawingAttributes interface [Tablet PC],described, msinkaut/IInkDrawingAttributes, tablet.iinkdrawingattributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,8 +131,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-
-          Gets the collection of application-defined data that are stored in an object.
+Gets the collection of application-defined data that are stored in an object.
         
 
 </td>

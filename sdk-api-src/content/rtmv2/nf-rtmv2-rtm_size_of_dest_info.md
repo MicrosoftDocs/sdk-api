@@ -7,7 +7,7 @@ old-location: rras\rtm_size_of_dest_info.htm
 old-project: rras
 ms.assetid: faad2b79-dcd0-47e7-95ab-05f6bad36650
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RTM_SIZE_OF_DEST_INFO, RTM_SIZE_OF_DEST_INFO macro [RAS], _rtmv2ref_rtm_size_of_dest_info, rras.rtm_size_of_dest_info, rtmv2/RTM_SIZE_OF_DEST_INFO
 ms.prod: windows
 ms.technology: windows-sdk

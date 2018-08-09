@@ -7,7 +7,7 @@ old-location: display\dxenableirq.htm
 old-project: display
 ms.assetid: 31762a21-e604-4c95-b46c-224b39ab5ac8
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: DxEnableIRQ, DxEnableIRQ callback function [Display Devices], PDX_ENABLEIRQ, PDX_ENABLEIRQ callback, VideoMiniPort_DxApiFunctions_9ef73159-8915-4534-881d-3dcdb9c13369.xml, display.dxenableirq, dxmini/DxEnableIRQ
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: DXGI_FORMAT
+req.typenames: D3DCOLORVALUE
 topic_type:
  - APIRef
  - kbSyntax
@@ -74,14 +74,14 @@ The<i> DxEnableIRQ</i> callback function indicates to the video miniport driver 
 
 
 
-#### - EnableIrqInfo
-
-Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549288">DDENABLEIRQINFO</a> structure that contains the information required to enable interrupts.
-
-
 #### - HwDeviceExtension
 
 Points to the miniport driver's device extension.
+
+
+#### - EnableIrqInfo
+
+Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549288">DDENABLEIRQINFO</a> structure that contains the information required to enable interrupts.
 
 
 #### - lpOutput

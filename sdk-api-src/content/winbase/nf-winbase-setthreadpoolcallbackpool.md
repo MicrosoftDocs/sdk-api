@@ -4,10 +4,10 @@ title: SetThreadpoolCallbackPool function
 author: windows-sdk-content
 description: Sets the thread pool to be used when generating callbacks.
 old-location: base\setthreadpoolcallbackpool.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 022d83de-ff6c-4bc8-8213-42f403a323e8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetThreadpoolCallbackPool, SetThreadpoolCallbackPool function, base.setthreadpoolcallbackpool, winbase/SetThreadpoolCallbackPool
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\tf_haltcond.htm
 old-project: TSF
 ms.assetid: 055f3228-1e3b-4e31-9035-e509a98016a8
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: TF_HALTCOND, TF_HALTCOND structure [Text Services Framework], _tsf_tf_haltcond_ref, msctf/TF_HALTCOND, tsf.tf_haltcond
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,20 +99,17 @@ Contains a set of flags that modify the behavior of the range shift. This can be
 
 
 
-<a href="https://msdn.microsoft.com/1debec6d-f98f-45a4-aaa8-99b61f3583ef">
-        ITfRange::ShiftEnd
+<a href="https://msdn.microsoft.com/1debec6d-f98f-45a4-aaa8-99b61f3583ef">ITfRange::ShiftEnd
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f9f983b1-a5fa-4857-b73c-b879c566d6f6">
-        ITfRange::ShiftStart
+<a href="https://msdn.microsoft.com/f9f983b1-a5fa-4857-b73c-b879c566d6f6">ITfRange::ShiftStart
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/d670666f-2915-4a23-b825-b534a015e37f">
-        TfAnchor
+<a href="https://msdn.microsoft.com/d670666f-2915-4a23-b825-b534a015e37f">TfAnchor
       </a>
  
 

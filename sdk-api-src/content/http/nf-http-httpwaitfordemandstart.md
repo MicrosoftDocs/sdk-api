@@ -7,7 +7,7 @@ old-location: http\httpwaitfordemandstart.htm
 old-project: http
 ms.assetid: e6bc4d24-5495-44cc-81ee-e5213095f3e4
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpWaitForDemandStart, HttpWaitForDemandStart function [HTTP], http.httpwaitfordemandstart, http/HttpWaitForDemandStart
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,10 @@ The <b>HttpWaitForDemandStart</b> function waits for the arrival of a new reques
 
 
 
-### -param RequestQueueHandle
+### -param RequestQueueHandle [in]
 
-TBD
+A handle to the request queue on which demand start is registered. A request queue is created and its handle returned by a call to the 
+<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
 
 
 ### -param OPTIONAL
@@ -69,12 +70,6 @@ TBD
 TBD
 
 
-
-
-#### - ReqQueueHandle [in]
-
-A handle to the request queue on which demand start is registered. A request queue is created and its handle returned by a call to the 
-<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
 
 
 #### - pOverlapped [in, optional]

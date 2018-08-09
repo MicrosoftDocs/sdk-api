@@ -7,7 +7,7 @@ old-location: inputdev\toascii.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\toascii.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ToAscii, ToAscii function [Keyboard and Mouse Input], _win32_ToAscii, _win32_toascii_cpp, inputdev.toascii, winui._win32_toascii, winuser/ToAscii
 ms.prod: windows
 ms.technology: windows-sdk

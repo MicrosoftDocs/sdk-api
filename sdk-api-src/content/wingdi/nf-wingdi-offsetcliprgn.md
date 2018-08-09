@@ -7,7 +7,7 @@ old-location: gdi\offsetcliprgn.htm
 old-project: gdi
 ms.assetid: 332ab3f8-6ad3-4bbc-85a3-b0d2a4b07bc5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: OffsetClipRgn, OffsetClipRgn function [Windows GDI], _win32_OffsetClipRgn, gdi.offsetcliprgn, wingdi/OffsetClipRgn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,24 +66,12 @@ The <b>OffsetClipRgn</b> function moves the clipping region of a device context 
 A handle to the device context.
 
 
-### -param x
-
-TBD
-
-
-### -param y
-
-TBD
-
-
-
-
-#### - nXOffset [in]
+### -param x [in]
 
 The number of logical units to move left or right.
 
 
-#### - nYOffset [in]
+### -param y [in]
 
 The number of logical units to move up or down.
 

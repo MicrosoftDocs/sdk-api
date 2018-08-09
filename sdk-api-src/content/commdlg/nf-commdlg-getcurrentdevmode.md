@@ -7,7 +7,7 @@ old-location: dlgbox\iprintdialogservices_getcurrentdevmode.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogservices\iprintdialogservicesgetcurrentdevmode.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 08/06/2018
 ms.keywords: GetCurrentDevMode, GetCurrentDevMode function, GetCurrentDevMode method [Dialog Boxes], GetCurrentDevMode method [Dialog Boxes],IPrintDialogServices interface, IPrintDialogServices interface [Dialog Boxes],GetCurrentDevMode method, IPrintDialogServices::GetCurrentDevMode, _win32_IPrintDialogServices_GetCurrentDevMode, _win32_iprintdialogservices_getcurrentdevmode_cpp, commdlg/IPrintDialogServices::GetCurrentDevMode, dlgbox.iprintdialogservices_getcurrentdevmode, winui._win32_iprintdialogservices_getcurrentdevmode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Fills a <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure with information about the currently selected printer for use with <a href="https://msdn.microsoft.com/library/ms646942(v=VS.85).aspx">PrintDlgEx</a>.
+Fills a <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure with information about the currently selected printer for use with <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a>.
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Fills a <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b
 
 ### -param pDevMode
 
-TBD
+Type: <b>LPDEVMODE</b>
+
+A pointer to a buffer that receives a <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure containing information about the currently selected printer.
 
 
 ### -param pcbSize
@@ -70,13 +72,6 @@ Type: <b>UINT*</b>
 On input, the variable specifies the size, in bytes, of the buffer pointed to by the <i>lpDevMode</i> parameter. On output, the variable contains the number of bytes written to <i>lpDevMode</i>.
 
 If the size is zero on input, the function returns the required buffer size (in bytes) in <i>pcbSize</i> and does not use the <i>lpDevMode</i> buffer.
-
-
-#### - lpDevMode
-
-Type: <b>LPDEVMODE</b>
-
-A pointer to a buffer that receives a <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure containing information about the currently selected printer.
 
 
 ## -returns
@@ -97,7 +92,7 @@ If an error occurs, the return value is a COM error code. For more information, 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645524(v=VS.85).aspx">Common Dialog Box Library</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645524(v=VS.85).aspx">Common Dialog Box Library</a>
 
 
 
@@ -109,11 +104,11 @@ If an error occurs, the return value is a COM error code. For more information, 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646897(v=VS.85).aspx">IPrintDialogServices</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646897(v=VS.85).aspx">IPrintDialogServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646942(v=VS.85).aspx">PrintDlgEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a>
 
 
 

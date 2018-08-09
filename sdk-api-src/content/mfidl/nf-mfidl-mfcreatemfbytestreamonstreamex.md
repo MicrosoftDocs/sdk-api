@@ -7,7 +7,7 @@ old-location: mf\mfcreatemfbytestreamonstreamex.htm
 old-project: medfound
 ms.assetid: C16C2A5D-7373-4EA9-A02C-3AF97EA47D34
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFCreateMFByteStreamOnStreamEx, MFCreateMFByteStreamOnStreamEx function [Media Foundation], mf.mfcreatemfbytestreamonstreamex, mf.mfcreatemfbytestreamonwinrtstream, mfidl/MFCreateMFByteStreamOnStreamEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates a Microsoft Media Foundation byte stream that wraps an <a href="https://msdn.microsoft.com/library/Hh438400(v=VS.85).aspx">IRandomAccessStream</a> object.
+Creates a Microsoft Media Foundation byte stream that wraps an <a href="https://msdn.microsoft.com/en-us/library/Hh438400(v=VS.85).aspx">IRandomAccessStream</a> object.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Creates a Microsoft Media Foundation byte stream that wraps an <a href="https://
 
 ### -param punkStream [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/Hh438400(v=VS.85).aspx">IRandomAccessStream</a> interface.
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Hh438400(v=VS.85).aspx">IRandomAccessStream</a> interface.
 
 
 ### -param ppByteStream [out]

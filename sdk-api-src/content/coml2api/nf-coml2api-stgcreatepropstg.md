@@ -7,7 +7,7 @@ old-location: stg\stgcreatepropstg.htm
 old-project: stg
 ms.assetid: fc171888-3723-4894-a356-1b234352c4e8
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: StgCreatePropStg, StgCreatePropStg function [Structured Storage], _stg_stgcreatepropstg, coml2api/StgCreatePropStg, stg.stgcreatepropstg
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>StgCreatePropStg</b> function creates and opens a property set in a specified storage or stream object. The property set supplies the system-provided, stand-alone implementation of the 
+The <b>StgCreatePropStg</b> function creates and opens a property set in a specified storage or stream object. The property set supplies the system-provided, stand-alone implementation of the 
 <a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a> interface.
 
 
@@ -97,8 +96,7 @@ The address of an
 
 
 
-
-						This function supports the standard return values E_INVALIDARG and E_UNEXPECTED, in addition to the following:
+This function supports the standard return values E_INVALIDARG and E_UNEXPECTED, in addition to the following:
 
 
 

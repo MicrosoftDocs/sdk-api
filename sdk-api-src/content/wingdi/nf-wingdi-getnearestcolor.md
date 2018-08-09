@@ -7,7 +7,7 @@ old-location: gdi\getnearestcolor.htm
 old-project: gdi
 ms.assetid: 89e4e19b-47be-442e-8eb4-c867bb78f36a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetNearestColor, GetNearestColor function [Windows GDI], _win32_GetNearestColor, gdi.getnearestcolor, wingdi/GetNearestColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,7 @@ The <b>GetNearestColor</b> function retrieves a color value identifying a color 
 A handle to the device context.
 
 
-### -param color
-
-TBD
-
-
-
-
-#### - crColor [in]
+### -param color [in]
 
 A color value that identifies a requested color. To create a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> color value, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
 

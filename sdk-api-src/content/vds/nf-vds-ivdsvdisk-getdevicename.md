@@ -4,10 +4,10 @@ title: IVdsVDisk::GetDeviceName
 author: windows-sdk-content
 description: Returns the device name for the volume where the virtual disk resides.
 old-location: base\ivdsvdisk_getdevicename.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 4ce60f7f-a7f2-4e1e-aae0-bd082b62480f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetDeviceName, GetDeviceName method, GetDeviceName method,IVdsVDisk interface, IVdsVDisk interface,GetDeviceName method, IVdsVDisk.GetDeviceName, IVdsVDisk::GetDeviceName, base.ivdsvdisk_getdevicename, vds/IVdsVDisk::GetDeviceName
 ms.prod: windows
 ms.technology: windows-sdk

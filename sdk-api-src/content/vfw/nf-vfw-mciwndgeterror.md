@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgeterror.htm
 old-project: Multimedia
 ms.assetid: 67cbd522-2409-4eeb-b62b-d78f8caea349
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MCIWndGetError, MCIWndGetError macro [Windows Multimedia], _win32_MCIWndGetError, multimedia.mciwndgeterror, vfw/MCIWndGetError
 ms.prod: windows
 ms.technology: windows-sdk

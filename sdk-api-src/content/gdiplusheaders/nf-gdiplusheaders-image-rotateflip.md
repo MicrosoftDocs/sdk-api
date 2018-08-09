@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_RotateFlip_rotateFlipType_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\rotateflip.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Image class [GDI+],RotateFlip method, Image.RotateFlip, Image::RotateFlip, RotateFlip, RotateFlip method [GDI+], RotateFlip method [GDI+],Image class, _gdiplus_CLASS_Image_RotateFlip_rotateFlipType_, gdiplus._gdiplus_CLASS_Image_RotateFlip_rotateFlipType_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ The <b>Image::RotateFlip</b> method rotates and flips this image.
 
 ### -param rotateFlipType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534171(v=VS.85).aspx">RotateFlipType</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534171(v=VS.85).aspx">RotateFlipType</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/library/ms534171(v=VS.85).aspx">RotateFlipType</a> enumeration that specifies the type of rotation and the type of flip. 
+Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534171(v=VS.85).aspx">RotateFlipType</a> enumeration that specifies the type of rotation and the type of flip. 
 
 
 ## -returns
@@ -91,15 +91,15 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534171(v=VS.85).aspx">RotateFlipType</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534171(v=VS.85).aspx">RotateFlipType</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533834(v=VS.85).aspx">Rotating, Reflecting, and Skewing Images</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533834(v=VS.85).aspx">Rotating, Reflecting, and Skewing Images</a>
  
 
  

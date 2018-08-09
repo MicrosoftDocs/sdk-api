@@ -7,7 +7,7 @@ old-location: opc\iopcsigningoptions_settimeformat.htm
 old-project: OPC
 ms.assetid: 3f8c1dbe-6347-4013-bda6-5e08c9d6921d
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetTimeFormat method, IOpcSigningOptions.SetTimeFormat, IOpcSigningOptions::SetTimeFormat, SetTimeFormat, SetTimeFormat method [Open Packaging Conventions], SetTimeFormat method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetTimeFormat, opc.iopcsigningoptions_settimeformat
 ms.prod: windows
 ms.technology: windows-sdk

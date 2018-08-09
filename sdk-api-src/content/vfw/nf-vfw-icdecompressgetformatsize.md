@@ -7,7 +7,7 @@ old-location: multimedia\icdecompressgetformatsize.htm
 old-project: Multimedia
 ms.assetid: 249a9d02-a51e-46f2-aea4-71460392705f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ICDecompressGetFormatSize, ICDecompressGetFormatSize macro [Windows Multimedia], _win32_ICDecompressGetFormatSize, multimedia.icdecompressgetformatsize, vfw/ICDecompressGetFormatSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,15 +68,6 @@ Handle to a decompressor.
 
 
 ### -param lpbi
-
-TBD
-
-
-
-
-
-
-#### - lpbiInput
 
 Pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure containing the input format. 
 

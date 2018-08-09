@@ -7,7 +7,7 @@ old-location: menurc\checkmenuitem.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\checkmenuitem.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CheckMenuItem, CheckMenuItem function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, MF_CHECKED, MF_UNCHECKED, _win32_CheckMenuItem, _win32_checkmenuitem_cpp, menurc.checkmenuitem, winui._win32_checkmenuitem, winuser/CheckMenuItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,11 @@ Sets the state of the specified menu item's check-mark attribute to either selec
 
 
 
-### -param hMenu
+### -param hMenu [in]
 
-TBD
+Type: <b>HMENU</b>
+
+A handle to the menu of interest. 
 
 
 ### -param uIDCheckItem [in]
@@ -135,13 +137,6 @@ Sets the check-mark attribute to the clear state.
 </tr>
 </table>
  
-
-
-#### - hmenu [in]
-
-Type: <b>HMENU</b>
-
-A handle to the menu of interest. 
 
 
 ## -returns

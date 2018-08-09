@@ -7,7 +7,7 @@ old-location: display\dxgetirqinfo.htm
 old-project: display
 ms.assetid: bc7463ab-1cb1-4ce5-a929-1513507a16ff
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: DxGetIRQInfo, DxGetIRQInfo callback function [Display Devices], PDX_GETIRQINFO, PDX_GETIRQINFO callback, VideoMiniPort_DxApiFunctions_1e787efc-ec94-4fa0-bc13-22142c16cc8d.xml, display.dxgetirqinfo, dxmini/DxGetIRQInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: DXGI_FORMAT
+req.typenames: D3DCOLORVALUE
 topic_type:
  - APIRef
  - kbSyntax
@@ -74,11 +74,6 @@ The<i> DxGetIRQInfo</i> callback function indicates that the driver manages the 
 
 
 
-#### - GetIrqInfo
-
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549436">DDGETIRQINFO</a> structure that contains the interrupt request information.
-
-
 #### - HwDeviceExtension
 
 Points to the miniport driver's device extension.
@@ -87,6 +82,11 @@ Points to the miniport driver's device extension.
 #### - lpInput
 
 Reserved for system use. 
+
+
+#### - GetIrqInfo
+
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549436">DDGETIRQINFO</a> structure that contains the interrupt request information.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: rras\ras_update_connection.htm
 old-project: rras
 ms.assetid: bfa35f1c-e9f5-43f1-ad2d-d54f4675cff8
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: "*PRAS_UPDATE_CONNECTION, PRAS_UPDATE_CONNECTION, PRAS_UPDATE_CONNECTION structure pointer [RAS], RAS_UPDATE_CONNECTION, RAS_UPDATE_CONNECTION structure [RAS], RAS_UPDATE_CONNECTION_, mprapi/PRAS_UPDATE_CONNECTION, mprapi/RAS_UPDATE_CONNECTION, rras.ras_update_connection"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgisurface1_getdc.htm
 old-project: direct3ddxgi
 ms.assetid: b148d2b4-36a2-46b9-8a98-9f3c478549a4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/30/2018
 ms.keywords: GetDC, GetDC method [DXGI], GetDC method [DXGI],IDXGISurface1 interface, IDXGISurface1 interface [DXGI],GetDC method, IDXGISurface1.GetDC, IDXGISurface1::GetDC, aa5d4cb4-dcad-b7fd-560c-12cc222965a0, direct3ddxgi.idxgisurface1_getdc, dxgi/IDXGISurface1::GetDC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ A pointer to an <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, an error code.
 
@@ -98,11 +98,11 @@ After you use the <b>GetDC</b> method to retrieve a DC, you can render to the DX
 Keep the following in mind when using this method:
 
 <ul>
-<li>You must create the surface by using the <a href="https://msdn.microsoft.com/2a324055-21b0-4dad-a8e0-781905329dc2">D3D11_RESOURCE_MISC_GDI_COMPATIBLE</a> flag for a surface or by using the <a href="https://msdn.microsoft.com/library/Bb173076(v=VS.85).aspx">DXGI_SWAP_CHAIN_FLAG_GDI_COMPATIBLE</a> flag for swap chains, 
+<li>You must create the surface by using the <a href="https://msdn.microsoft.com/2a324055-21b0-4dad-a8e0-781905329dc2">D3D11_RESOURCE_MISC_GDI_COMPATIBLE</a> flag for a surface or by using the <a href="https://msdn.microsoft.com/en-us/library/Bb173076(v=VS.85).aspx">DXGI_SWAP_CHAIN_FLAG_GDI_COMPATIBLE</a> flag for swap chains, 
         otherwise this method fails.</li>
 <li>You must release the device and call the <a href="https://msdn.microsoft.com/2c3a0cf3-c970-4908-a960-ba261756bd5f">IDXGISurface1::ReleaseDC</a> method before you issue any new Direct3D commands.</li>
 <li>This method fails if an outstanding DC has already been created by this method.</li>
-<li>The format for the surface or swap chain must be <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_B8G8R8A8_UNORM_SRGB</a> or <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_B8G8R8A8_UNORM</a>.</li>
+<li>The format for the surface or swap chain must be <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_B8G8R8A8_UNORM_SRGB</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_B8G8R8A8_UNORM</a>.</li>
 <li>On <b>GetDC</b>, the render target in the output merger of the Direct3D pipeline is unbound from the surface.  
         You must call the <a href="https://msdn.microsoft.com/65514812-7433-4c13-a6cb-53980dacdf65">ID3D11DeviceContext::OMSetRenderTargets</a> method on the device prior to Direct3D rendering after GDI rendering.</li>
 <li>Prior to resizing buffers you must release all outstanding DCs.</li>

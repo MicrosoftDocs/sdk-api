@@ -7,7 +7,7 @@ old-location: mf\imfattributes_getuint64.htm
 old-project: medfound
 ms.assetid: f3240fff-48d8-4d88-8c75-15f00bfe72ed
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetUINT64, GetUINT64 method [Media Foundation], GetUINT64 method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetUINT64 method, IMFAttributes.GetUINT64, IMFAttributes::GetUINT64, f3240fff-48d8-4d88-8c75-15f00bfe72ed, mf.imfattributes_getuint64, mfobjects/IMFAttributes::GetUINT64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,8 +91,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -104,8 +103,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The specified key was not found.
+The specified key was not found.
               
 
 </td>
@@ -117,8 +115,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The attribute value is not a <b>UINT64</b>.
+The attribute value is not a <b>UINT64</b>.
               
 
 </td>

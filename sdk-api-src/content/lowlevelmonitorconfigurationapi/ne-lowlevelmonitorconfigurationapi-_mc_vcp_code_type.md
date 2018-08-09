@@ -7,7 +7,7 @@ old-location: monitor\mc_vcp_code_type.htm
 old-project: Monitor
 ms.assetid: 2ccfd6d0-7885-45b7-b44f-edefa320b881
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPMC_VCP_CODE_TYPE, LPMC_VCP_CODE_TYPE, LPMC_VCP_CODE_TYPE enumeration pointer [Monitor Configuration], MC_MOMENTARY, MC_SET_PARAMETER, MC_VCP_CODE_TYPE, MC_VCP_CODE_TYPE , MC_VCP_CODE_TYPE enumeration [Monitor Configuration], _MC_VCP_CODE_TYPE, lowlevelmonitorconfigurationapi/LPMC_VCP_CODE_TYPE, lowlevelmonitorconfigurationapi/MC_MOMENTARY, lowlevelmonitorconfigurationapi/MC_SET_PARAMETER, lowlevelmonitorconfigurationapi/MC_VCP_CODE_TYPE, monitor.mc_vcp_code_type"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-        Describes a Virtual Control Panel (VCP) code type.
+Describes a Virtual Control Panel (VCP) code type.
 
 
 ## -enum-fields
@@ -62,15 +61,13 @@ req.product: GDI+ 1.1
 
 ### -field MC_MOMENTARY
 
-
-            Momentary VCP code. Sending a command of this type causes the monitor to initiate a self-timed operation and then revert to its original state. Examples include display tests and degaussing.
+Momentary VCP code. Sending a command of this type causes the monitor to initiate a self-timed operation and then revert to its original state. Examples include display tests and degaussing.
           
 
 
 ### -field MC_SET_PARAMETER
 
-
-            Set Parameter VCP code. Sending a command of this type changes some aspect of the monitor's operation.
+Set Parameter VCP code. Sending a command of this type changes some aspect of the monitor's operation.
           
 
 

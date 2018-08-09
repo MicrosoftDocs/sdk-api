@@ -7,7 +7,7 @@ old-location: gdi\ptconvertdevmodetoprintticket.htm
 old-project: printdocs
 ms.assetid: 22ebb9e7-10c6-4512-b749-d61f74bc82ed
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: PTConvertDevModeToPrintTicket, PTConvertDevModeToPrintTicket function [Windows GDI], _win32_PTConvertDevModeToPrintTicket, gdi.ptconvertdevmodetoprintticket, prntvpt/PTConvertDevModeToPrintTicket
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IFileSaveDialog_SetSaveAsItem.htm
 old-project: shell
 ms.assetid: aa313685-1334-4899-a55a-6549b48e1464
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IFileSaveDialog interface [Windows Shell],SetSaveAsItem method, IFileSaveDialog.SetSaveAsItem, IFileSaveDialog::SetSaveAsItem, SetSaveAsItem, SetSaveAsItem method [Windows Shell], SetSaveAsItem method [Windows Shell],IFileSaveDialog interface, shell.IFileSaveDialog_SetSaveAsItem, shell_IFileSaveDialog_SetSaveAsItem, shobjidl_core/IFileSaveDialog::SetSaveAsItem
 ms.prod: windows
 ms.technology: windows-sdk

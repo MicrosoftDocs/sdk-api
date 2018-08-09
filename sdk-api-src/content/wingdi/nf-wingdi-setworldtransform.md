@@ -7,7 +7,7 @@ old-location: gdi\setworldtransform.htm
 old-project: gdi
 ms.assetid: d103a4dd-949e-4f18-ac90-bb0e51011233
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetWorldTransform, SetWorldTransform function [Windows GDI], _win32_SetWorldTransform, gdi.setworldtransform, wingdi/SetWorldTransform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,7 @@ The <b>SetWorldTransform</b> function sets a two-dimensional linear transformati
 A handle to the device context.
 
 
-### -param lpxf
-
-TBD
-
-
-
-
-#### - lpXform [in]
+### -param lpxf [in]
 
 A pointer to an <a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a> structure that contains the transformation data.
 

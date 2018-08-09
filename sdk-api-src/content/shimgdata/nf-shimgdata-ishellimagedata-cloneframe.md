@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_CloneFrame.htm
 old-project: shell
 ms.assetid: 220d307a-7969-443c-963b-80132509ad8b
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: CloneFrame, CloneFrame method [Windows Shell], CloneFrame method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],CloneFrame method, IShellImageData.CloneFrame, IShellImageData::CloneFrame, _shell_IShellImageData_CloneFrame, shell.IShellImageData_CloneFrame, shimgdata/IShellImageData::CloneFrame
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Retrieves a clone of the current image or frame.
 
 Type: <b>Image**</b>
 
-
-          The address that receives a pointer to the clone image. If this parameter is <b>NULL</b> on entry, an unhandled exception results.
+The address that receives a pointer to the clone image. If this parameter is <b>NULL</b> on entry, an unhandled exception results.
         
 
 
@@ -88,8 +87,7 @@ Returns S_OK if successful or an error value otherwise, including the following:
 </dl>
 </td>
 <td width="60%">
-
-            The <i>ppImg</i> parameter is <b>NULL</b> on entry or the image cannot be cloned. In the latter case, <i>ppImg</i> is set to <b>NULL</b>.
+The <i>ppImg</i> parameter is <b>NULL</b> on entry or the image cannot be cloned. In the latter case, <i>ppImg</i> is set to <b>NULL</b>.
           
 
 </td>

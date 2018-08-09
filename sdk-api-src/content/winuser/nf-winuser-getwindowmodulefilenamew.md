@@ -7,7 +7,7 @@ old-location: winmsg\getwindowmodulefilename.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowmodulefilename.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetWindowModuleFileName, GetWindowModuleFileName function [Windows and Messages], GetWindowModuleFileNameA, GetWindowModuleFileNameW, _win32_GetWindowModuleFileName, _win32_getwindowmodulefilename_cpp, winmsg.getwindowmodulefilename, winui._win32_getwindowmodulefilename, winuser/GetWindowModuleFileName, winuser/GetWindowModuleFileNameA, winuser/GetWindowModuleFileNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,11 @@ Type: <b>HWND</b>
 A handle to the window whose module file name is to be retrieved. 
 
 
-### -param pszFileName
+### -param pszFileName [out]
 
-TBD
+Type: <b>LPTSTR</b>
+
+The path and file name. 
 
 
 ### -param cchFileNameMax [in]
@@ -78,13 +80,6 @@ TBD
 Type: <b>UINT</b>
 
 The maximum number of characters that can be copied into the <i>lpszFileName</i> buffer. 
-
-
-#### - lpszFileName [out]
-
-Type: <b>LPTSTR</b>
-
-The path and file name. 
 
 
 ## -returns

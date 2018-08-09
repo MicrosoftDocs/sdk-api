@@ -7,7 +7,7 @@ old-location: mmc\iheaderctrl_getcolumntext.htm
 old-project: MMC
 ms.assetid: 854FC5F0-8049-4A98-948F-F1BF78788B88
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: GetColumnText, GetColumnText method [MMC], GetColumnText method [MMC],IHeaderCtrl interface, IHeaderCtrl interface [MMC],GetColumnText method, IHeaderCtrl.GetColumnText, IHeaderCtrl::GetColumnText, mmc.iheaderctrl_getcolumntext, mmc/IHeaderCtrl::GetColumnText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt300857(v=VS.85).aspx">IHeaderCtrl</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt300857(v=VS.85).aspx">IHeaderCtrl</a>
  
 
  

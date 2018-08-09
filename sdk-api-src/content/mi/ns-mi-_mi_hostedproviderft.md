@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_hostedproviderft.htm
 old-project: wmi_v2
 ms.assetid: 148c4f5a-277a-41fa-b801-34884fbf3225
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_HostedProviderFT, MI_HostedProviderFT structure [Windows Management Infrastructure (MI)], _MI_HostedProviderFT, mi/MI_HostedProviderFT, wmi_v2.mi_hostedproviderft
 ms.prod: windows
 ms.technology: windows-sdk

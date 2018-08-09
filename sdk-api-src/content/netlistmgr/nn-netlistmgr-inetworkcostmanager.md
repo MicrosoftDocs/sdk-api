@@ -7,7 +7,7 @@ old-location: nla\inetworkcostmanager.htm
 old-project: nla
 ms.assetid: A6316E94-398D-4D87-B631-6BEF416895EE
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: INetworkCostManager, INetworkCostManager interface [Network Awareness], INetworkCostManager interface [Network Awareness],described, netlistmgr/INetworkCostManager, nla.inetworkcostmanager
 ms.prod: windows
 ms.technology: windows-sdk

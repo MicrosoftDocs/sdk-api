@@ -7,7 +7,7 @@ old-location: controls\PropSheet_HwndToIndex.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_hwndtoindex.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: PropSheet_HwndToIndex, PropSheet_HwndToIndex macro [Windows Controls], _win32_PropSheet_HwndToIndex, _win32_PropSheet_HwndToIndex_cpp, controls.PropSheet_HwndToIndex, controls._win32_PropSheet_HwndToIndex, prsht/PropSheet_HwndToIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Takes a window handle of the property sheet page and returns its zero-based index. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774581(v=VS.85).aspx">PSM_HWNDTOINDEX</a> message explicitly.
+Takes a window handle of the property sheet page and returns its zero-based index. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774581(v=VS.85).aspx">PSM_HWNDTOINDEX</a> message explicitly.
 
 
 ## -parameters
@@ -61,30 +61,16 @@ Takes a window handle of the property sheet page and returns its zero-based inde
 
 ### -param hDlg
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to the property sheet's window.
 
 
 ### -param hwnd
 
-TBD
-
-
-
-
-
-
-#### - hPageDlg
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the page's window.
-
-
-#### - hPropSheetDlg
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to the property sheet's window.
 
 
 ## -see-also
@@ -92,7 +78,7 @@ Handle to the property sheet's window.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633510(v=VS.85).aspx">GetParent</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633510(v=VS.85).aspx">GetParent</a>
 
 
 
@@ -100,7 +86,7 @@ Handle to the property sheet's window.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774645(v=VS.85).aspx">PropSheet_GetCurrentPageHwnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774645(v=VS.85).aspx">PropSheet_GetCurrentPageHwnd</a>
 
 
 

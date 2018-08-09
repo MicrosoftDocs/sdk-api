@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_gettext.htm
 old-project: TSF
 ms.assetid: fd3f91df-b107-4284-8435-d859c843555f
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetText method, ITextStoreAnchor.GetText, ITextStoreAnchor::GetText, textstor/ITextStoreAnchor::GetText, tsf.itextstoreanchor_gettext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -190,8 +190,7 @@ The behavior of <b>GetText</b> is not affected by any region boundaries covered 
 
 
 
-<a href="https://msdn.microsoft.com/601cd6b0-0064-4cd3-99cd-850104a861a5">
-        TS_RUNINFO
+<a href="https://msdn.microsoft.com/601cd6b0-0064-4cd3-99cd-850104a861a5">TS_RUNINFO
       </a>
  
 

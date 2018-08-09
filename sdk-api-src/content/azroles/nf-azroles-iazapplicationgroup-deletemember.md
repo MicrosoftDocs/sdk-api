@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_deletemember.htm
 old-project: secauthz
 ms.assetid: 9db3b162-b37d-4a86-a3c0-cb594370238b
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AzApplicationGroup object [Security],DeleteMember method, DeleteMember, DeleteMember method [Security], DeleteMember method [Security],AzApplicationGroup object, DeleteMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteMember method, IAzApplicationGroup.DeleteMember, IAzApplicationGroup::DeleteMember, azroles/IAzApplicationGroup::DeleteMember, security.iazapplicationgroup_deletemember
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: rpc\dceerrorinqtext.htm
 old-project: rpc
 ms.assetid: 0aea211b-48bb-4a2f-a42e-1f35259e7f82
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: DceErrorInqText, DceErrorInqText function [RPC], DceErrorInqTextA, DceErrorInqTextW, RPC_S_INVALID_ARG, RPC_S_OK, _rpc_dceerrorinqtext, rpc.dceerrorinqtext, rpcdce/DceErrorInqText, rpcdce/DceErrorInqTextA, rpcdce/DceErrorInqTextW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ The
 
 ### -param RpcStatus
 
-TBD
+Status code to convert to a text string.
 
 
 ### -param ErrorText
@@ -98,11 +98,6 @@ Unknown error code.
 </tr>
 </table>
  
-
-
-#### - StatusToConvert
-
-Status code to convert to a text string.
 
 
 ## -returns

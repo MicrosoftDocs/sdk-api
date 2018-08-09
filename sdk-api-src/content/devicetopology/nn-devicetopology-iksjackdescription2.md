@@ -7,7 +7,7 @@ old-location: coreaudio\iksjackdescription2.htm
 old-project: CoreAudio
 ms.assetid: 9a3d7631-6892-457a-91ab-484ae867fd9f
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: IKsJackDescription2, IKsJackDescription2 interface [Core Audio], IKsJackDescription2 interface [Core Audio],described, coreaudio.iksjackdescription2, devicetopology/IKsJackDescription2
 ms.prod: windows
 ms.technology: windows-sdk

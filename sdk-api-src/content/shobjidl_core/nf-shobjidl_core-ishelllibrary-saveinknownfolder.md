@@ -7,7 +7,7 @@ old-location: shell\IShellLibrary_SaveInKnownFolder.htm
 old-project: shell
 ms.assetid: 3a6fa57f-808d-4893-a01c-f192355f8989
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SaveInKnownFolder method, IShellLibrary.SaveInKnownFolder, IShellLibrary::SaveInKnownFolder, SaveInKnownFolder, SaveInKnownFolder method [Windows Shell], SaveInKnownFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SaveInKnownFolder, shell.IShellLibrary_SaveInKnownFolder, shobjidl_core/IShellLibrary::SaveInKnownFolder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-         Saves the library to a new file in a specified known folder.
+Saves the library to a new file in a specified known folder.
       
 
 
@@ -65,8 +64,7 @@ req.product: Outlook Express 6.0
 
 Type: <b>REFKNOWNFOLDERID</b>
 
-
-                The ID of the known folder in which to save the <a href="https://msdn.microsoft.com/c1ef3d22-7c88-42b0-93a2-5d1b75c327ba">IShellLibrary</a> object.
+The ID of the known folder in which to save the <a href="https://msdn.microsoft.com/c1ef3d22-7c88-42b0-93a2-5d1b75c327ba">IShellLibrary</a> object.
                
                For more information, see <a href="https://msdn.microsoft.com/f2c08ade-3083-44e4-82b0-dde45f0e3094">KNOWNFOLDERID</a>.
                
@@ -83,16 +81,14 @@ The file name under which to save the library. The file name must not include th
 
 Type: <b><a href="https://msdn.microsoft.com/cae52226-0030-457b-aebf-00aaf860243d">LIBRARYSAVEFLAGS</a></b>
 
-
-                The <a href="https://msdn.microsoft.com/cae52226-0030-457b-aebf-00aaf860243d">LIBRARYSAVEFLAGS</a>  value that specifies how to handle a library name collision.
+The <a href="https://msdn.microsoft.com/cae52226-0030-457b-aebf-00aaf860243d">LIBRARYSAVEFLAGS</a>  value that specifies how to handle a library name collision.
 
 
 ### -param ppsiSavedTo [out]
 
 Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>**</b>
 
-
-                   The <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> object  that represents the library description file into    which the library was saved.
+The <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> object  that represents the library description file into    which the library was saved.
                 
 
 
@@ -118,8 +114,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
             To save changes made to a library that has an existing library file, call  <a href="https://msdn.microsoft.com/a340964d-ea20-4a3b-be8b-f4f4dbf624ed">IShellLibrary::Commit</a>.
          
 
-
-            If the library is saved in the Libraries known folder (FOLDERID_Libraries), the library's location is automatically added to the system index.
+If the library is saved in the Libraries known folder (FOLDERID_Libraries), the library's location is automatically added to the system index.
          
 
 

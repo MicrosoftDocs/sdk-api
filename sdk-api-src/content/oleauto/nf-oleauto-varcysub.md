@@ -7,7 +7,7 @@ old-location: automat\varcysub.htm
 old-project: automat
 ms.assetid: 248640b4-4c53-402b-af53-b76a809f0741
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarCySub, VarCySub function [Automation], _oa96_VarCySub, automat.varcysub, oleauto/VarCySub
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: FindNextUrlCacheEntryExA function
 author: windows-sdk-content
 description: Finds the next cache entry in a cache enumeration started by the FindFirstUrlCacheEntryEx function.
 old-location: wininet\findnexturlcacheentryex.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: 39484e35-cd25-4e48-ace0-16033d3e6954
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: FindNextUrlCacheEntryEx, FindNextUrlCacheEntryEx function [WinINet], FindNextUrlCacheEntryExA, FindNextUrlCacheEntryExW, _inet_findnexturlcacheentryex_function, wininet.findnexturlcacheentryex, wininet/FindNextUrlCacheEntryEx, wininet/FindNextUrlCacheEntryExA, wininet/FindNextUrlCacheEntryExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,9 +74,9 @@ Pointer to the
 <a href="https://msdn.microsoft.com/7bda08e0-5df0-4087-a5cd-3a25c6ae5ade">INTERNET_CACHE_ENTRY_INFO</a> structure that receives the cache entry information.
 
 
-### -param lpcbCacheEntryInfo
+### -param lpcbCacheEntryInfo [in, out]
 
-TBD
+Pointer to a variable that indicates the size of the buffer, in bytes.
 
 
 ### -param lpGroupAttributes
@@ -92,11 +92,6 @@ This parameter is reserved and must be <b>NULL</b>.
 ### -param lpReserved
 
 This parameter is reserved.
-
-
-#### - lpcbEntryInfo [in, out]
-
-Pointer to a variable that indicates the size of the buffer, in bytes.
 
 
 ## -returns

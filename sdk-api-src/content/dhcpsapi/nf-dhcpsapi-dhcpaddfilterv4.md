@@ -7,7 +7,7 @@ old-location: dhcp\dhcpaddfilterv4.htm
 old-project: dhcp
 ms.assetid: 5543ef67-d095-44b8-b511-e6754aeb9881
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpAddFilterV4, DhcpAddFilterV4 function [DHCP], dhcp.dhcpaddfilterv4, dhcpsapi/DhcpAddFilterV4
 ms.prod: windows
 ms.technology: windows-sdk

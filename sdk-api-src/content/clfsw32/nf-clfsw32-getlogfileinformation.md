@@ -7,7 +7,7 @@ old-location: fs\getlogfileinformation.htm
 old-project: Clfs
 ms.assetid: 29bb2f18-760d-4a38-8dce-85099da7f96c
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/03/2018
 ms.keywords: GetLogFileInformation, GetLogFileInformation function [Files], clfsw32/GetLogFileInformation, fs.getlogfileinformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,8 +99,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/06f5919e-b98f-4502-9653-9ef42c1ebe5a">
-        CLFS_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541790">CLFS_INFORMATION</a>
 
 
 

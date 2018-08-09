@@ -7,7 +7,7 @@ old-location: com\isequalguid.htm
 old-project: com
 ms.assetid: 3580a0c4-e1f8-4bb7-ba66-c4702ecd11f1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IsEqualGUID, IsEqualGUID function [COM], _com_IsEqualGUID, com.isequalguid, winddi/IsEqualGUID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,26 +61,12 @@ Determines whether two GUIDs are equal.
 
 
 
-### -param guid1
-
-TBD
-
-
-### -param guid2
-
-TBD
-
-
-
-
-
-
-#### - rguid1 [in]
+#### - guid1 [in]
 
 The first GUID.
 
 
-#### - rguid2 [in]
+#### - guid2 [in]
 
 The second GUID.
 

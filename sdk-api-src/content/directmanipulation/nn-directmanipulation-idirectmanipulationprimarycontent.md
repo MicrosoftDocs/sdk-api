@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationprimarycontent.htm
 old-project: directmanipulation
 ms.assetid: 9910F5F5-950F-4099-9808-B46FA5BBA6FB
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IDirectManipulationPrimaryContent, IDirectManipulationPrimaryContent interface [Direct Manipulation], IDirectManipulationPrimaryContent interface [Direct Manipulation],described, directmanipulation.idirectmanipulationprimarycontent, directmanipulation/IDirectManipulationPrimaryContent
 ms.prod: windows
 ms.technology: windows-sdk

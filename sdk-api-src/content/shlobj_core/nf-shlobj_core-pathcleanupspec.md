@@ -7,7 +7,7 @@ old-location: shell\PathCleanupSpec.htm
 old-project: shell
 ms.assetid: 593fd2b7-44ae-4309-a185-97e42f3cc0fa
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PathCleanupSpec, PathCleanupSpec function [Windows Shell], _win32_PathCleanupSpec, shell.PathCleanupSpec, shlobj_core/PathCleanupSpec
 ms.prod: windows
 ms.technology: windows-sdk

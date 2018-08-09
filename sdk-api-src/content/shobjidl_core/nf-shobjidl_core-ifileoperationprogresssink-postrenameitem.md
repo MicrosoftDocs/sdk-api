@@ -7,7 +7,7 @@ old-location: shell\IFileOperationProgressSink_PostRenameItem.htm
 old-project: shell
 ms.assetid: 3bb55ecf-a975-4e7f-9e41-30e778d4cbac
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PostRenameItem method, IFileOperationProgressSink.PostRenameItem, IFileOperationProgressSink::PostRenameItem, PostRenameItem, PostRenameItem method [Windows Shell], PostRenameItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PostRenameItem, shell.IFileOperationProgressSink_PostRenameItem, shobjidl_core/IFileOperationProgressSink::PostRenameItem
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\itffnreconversion_getreconversion.htm
 old-project: TSF
 ms.assetid: ed696088-c599-4c83-968e-d09d9ae81c10
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetReconversion, GetReconversion method [Text Services Framework], GetReconversion method [Text Services Framework],ITfFnReconversion interface, ITfFnReconversion interface [Text Services Framework],GetReconversion method, ITfFnReconversion.GetReconversion, ITfFnReconversion::GetReconversion, _tsf_itffnreconversion_getreconversion_ref, ctffunc/ITfFnReconversion::GetReconversion, tsf.itffnreconversion_getreconversion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,8 +133,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/e41ba461-6337-4feb-ba16-3942920ebb9f">
-        ITfCandidateList
+<a href="https://msdn.microsoft.com/e41ba461-6337-4feb-ba16-3942920ebb9f">ITfCandidateList
       </a>
 
 
@@ -143,8 +142,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/022d0ad7-5359-48df-b83b-2319eb1a84bf">
-        ITfFnReconversion::QueryRange
+<a href="https://msdn.microsoft.com/022d0ad7-5359-48df-b83b-2319eb1a84bf">ITfFnReconversion::QueryRange
       </a>
 
 

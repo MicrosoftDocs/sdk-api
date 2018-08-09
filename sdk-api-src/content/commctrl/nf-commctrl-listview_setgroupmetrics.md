@@ -7,7 +7,7 @@ old-location: controls\ListView_SetGroupMetrics.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setgroupmetrics.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_SetGroupMetrics, ListView_SetGroupMetrics macro [Windows Controls], _win32_ListView_SetGroupMetrics, _win32_ListView_SetGroupMetrics_cpp, commctrl/ListView_SetGroupMetrics, controls.ListView_SetGroupMetrics, controls._win32_ListView_SetGroupMetrics
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets information about the display of groups. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761168(v=VS.85).aspx">LVM_SETGROUPMETRICS</a> message explicitly. 
+Sets information about the display of groups. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761168(v=VS.85).aspx">LVM_SETGROUPMETRICS</a> message explicitly. 
 
 
 ## -parameters
@@ -69,13 +69,13 @@ A handle to the list-view control.
 
 Type: <b>PLVGROUPMETRICS</b>
 
-<a href="https://msdn.microsoft.com/library/Bb774752(v=VS.85).aspx">LVGROUPMETRICS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774752(v=VS.85).aspx">LVGROUPMETRICS</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_SetGroupMetrics</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_SetGroupMetrics</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

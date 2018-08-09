@@ -7,7 +7,7 @@ old-location: controls\ListView_GetSelectionMark.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getselectionmark.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_GetSelectionMark, ListView_GetSelectionMark macro [Windows Controls], _win32_ListView_GetSelectionMark, _win32_ListView_GetSelectionMark_cpp, commctrl/ListView_GetSelectionMark, controls.ListView_GetSelectionMark, controls._win32_ListView_GetSelectionMark
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the selection mark from a list-view control. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/library/Bb761071(v=VS.85).aspx">LVM_GETSELECTIONMARK</a> message. 
+Gets the selection mark from a list-view control. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/en-us/library/Bb761071(v=VS.85).aspx">LVM_GETSELECTIONMARK</a> message. 
 
 
 ## -parameters
@@ -59,15 +59,6 @@ Gets the selection mark from a list-view control. You can use this macro or expl
 
 
 ### -param hwnd
-
-TBD
-
-
-
-
-
-
-#### - hwndLV
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
@@ -88,7 +79,7 @@ The selection mark is the item index from which a multiple selection starts.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775112(v=VS.85).aspx">ListView_SetSelectionMark</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775112(v=VS.85).aspx">ListView_SetSelectionMark</a>
  
 
  

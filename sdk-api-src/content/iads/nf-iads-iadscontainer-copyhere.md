@@ -7,7 +7,7 @@ old-location: adsi\iadscontainer_copyhere.htm
 old-project: ADSI
 ms.assetid: 8a006253-ccb4-4f13-93b5-297db17f7c2e
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: CopyHere, CopyHere method [ADSI], CopyHere method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],CopyHere method, IADsContainer.CopyHere, IADsContainer::CopyHere, _ds_iadscontainer_copyhere, adsi.iadscontainer__copyhere, adsi.iadscontainer_copyhere, iads/IADsContainer::CopyHere
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,14 +76,14 @@ The <b>IADsContainer::CopyHere</b> method creates a  copy of the specified direc
 
 
 
-#### - bstrNewName [in]
-
-Optional name of the new object within the container. If a new name is not specified  for the object, set to <b>NULL</b>; the new object will have the same name as the source object.
-
-
 #### - bstrSourceObject [in]
 
 The ADsPath of the object to copy.
+
+
+#### - bstrNewName [in]
+
+Optional name of the new object within the container. If a new name is not specified  for the object, set to <b>NULL</b>; the new object will have the same name as the source object.
 
 
 #### - ppNewObject [out]

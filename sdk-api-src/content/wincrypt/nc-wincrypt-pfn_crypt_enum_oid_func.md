@@ -4,10 +4,10 @@ title: PFN_CRYPT_ENUM_OID_FUNC
 author: windows-sdk-content
 description: The CRYPT_ENUM_OID_FUNCTION callback function is used with the CryptEnumOIDFunction function.
 old-location: security\crypt_enum_oid_function.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: f29a3454-fa64-4305-ba4e-027d45014024
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CRYPT_ENUM_OID_FUNC, CRYPT_ENUM_OID_FUNCTION, CRYPT_ENUM_OID_FUNCTION callback function [Security], PFN_CRYPT_ENUM_OID_FUNC, PFN_CRYPT_ENUM_OID_FUNC callback, security.crypt_enum_oid_function, wincrypt/CRYPT_ENUM_OID_FUNCTION
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,15 +113,15 @@ A pointer to arguments passed through to the callback function.
 Name of the OID function.
 
 
-#### - rgcbValueData [in]
-
-Array that specifies the size, in bytes, of corresponding elements of the <i>rgpbValueData</i> array.
-
-
 #### - rgdwValueType [in]
 
 Array of value types. Each entry in the array will be one of the value types 
 listed for <a href="https://msdn.microsoft.com/14eb7f10-f42a-4496-9699-62eeb9878ea2">CryptGetOIDFunctionValue</a> under <i>pdwValueType</i>.
+
+
+#### - rgpwszValueName [in]
+
+Array of null-terminated strings containing the names of the values.
 
 
 #### - rgpbValueData [in]
@@ -129,9 +129,9 @@ listed for <a href="https://msdn.microsoft.com/14eb7f10-f42a-4496-9699-62eeb9878
 Array  containing the values corresponding to the names in the <i>rgpwszValueName</i> array.
 
 
-#### - rgpwszValueName [in]
+#### - rgcbValueData [in]
 
-Array of null-terminated strings containing the names of the values.
+Array that specifies the size, in bytes, of corresponding elements of the <i>rgpbValueData</i> array.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: fwp\ipsec_sa_context_enum_template0.htm
 old-project: fwp
 ms.assetid: 2e099545-4075-4ea0-9035-53ce334decc4
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPSEC_SA_CONTEXT_ENUM_TEMPLATE0, IPSEC_SA_CONTEXT_ENUM_TEMPLATE0 structure [Filtering], IPSEC_SA_CONTEXT_ENUM_TEMPLATE0_, fwp.ipsec_sa_context_enum_template0, ipsectypes/IPSEC_SA_CONTEXT_ENUM_TEMPLATE0
 ms.prod: windows
 ms.technology: windows-sdk

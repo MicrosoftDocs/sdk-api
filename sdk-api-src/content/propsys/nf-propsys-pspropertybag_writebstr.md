@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WriteBSTR.htm
 old-project: properties
 ms.assetid: 9C2DBD1F-6760-4812-A33E-9A71C5A421A9
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: PSPropertyBag_WriteBSTR, PSPropertyBag_WriteBSTR function [Windows Properties], properties.PSPropertyBag_WriteBSTR, propsys/PSPropertyBag_WriteBSTR, shell.PSPropertyBag_WriteBSTR, shell_PSPropertyBag_WriteBSTR
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ A null-terminated property name string.
 
 ### -param value [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
 
 The <b>BSTR</b> value to which the named property should be set.
 
@@ -105,7 +105,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee845051(v=VS.85).aspx">PSPropertyBag_ReadBSTR</a>
+<a href="shell.PSPropertyBag_ReadBSTR">PSPropertyBag_ReadBSTR</a>
  
 
  

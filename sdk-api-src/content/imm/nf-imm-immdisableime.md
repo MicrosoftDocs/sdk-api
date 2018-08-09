@@ -7,7 +7,7 @@ old-location: intl\immdisableime.htm
 old-project: Intl
 ms.assetid: c563fc24-3c56-40ac-8539-8336d5231537
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmDisableIME, ImmDisableIME function [Internationalization for Windows Applications], _win32_ImmDisableIME, imm/ImmDisableIME, intl.immdisableime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ Disables the IME for a thread or for all threads in a process.
 
 
 
-### -param DWORD
-
-TBD
-
-
-
-
-#### - idThread [in]
+### -param DWORD [in]
 
 Identifier of the thread for which to disable the IME. The thread must be in the same process as the application calling this function. The application sets this parameter to 0 to disable the IME for the current thread. The application specifies -1 to disable the IME for all threads in the current process.
 
@@ -86,11 +79,11 @@ Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
 
 
-The application must call this function before the first top-level window in the thread receives the <a href="https://msdn.microsoft.com/library/ms632619(v=VS.85).aspx">WM_CREATE</a> message. Thus, the application must call this function in one of the following places:
+The application must call this function before the first top-level window in the thread receives the <a href="https://msdn.microsoft.com/en-us/library/ms632619(v=VS.85).aspx">WM_CREATE</a> message. Thus, the application must call this function in one of the following places:
 
 <ul>
-<li>Any time before calling <a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a> to create the first top-level window</li>
-<li>In the <a href="https://msdn.microsoft.com/library/ms632635(v=VS.85).aspx">WM_NCCREATE</a> handler for first top-level window</li>
+<li>Any time before calling <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a> to create the first top-level window</li>
+<li>In the <a href="https://msdn.microsoft.com/en-us/library/ms632635(v=VS.85).aspx">WM_NCCREATE</a> handler for first top-level window</li>
 </ul>
 
 

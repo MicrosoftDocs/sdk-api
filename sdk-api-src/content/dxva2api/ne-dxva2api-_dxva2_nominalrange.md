@@ -7,7 +7,7 @@ old-location: mf\dxva2_nominalrange.htm
 old-project: medfound
 ms.assetid: ebc146e4-517f-4413-93dc-66cf4b3a04c3
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: DXVA2_NominalRange, DXVA2_NominalRange enumeration [Media Foundation], DXVA2_NominalRangeMask, DXVA2_NominalRange_0_255, DXVA2_NominalRange_16_235, DXVA2_NominalRange_48_208, DXVA2_NominalRange_Normal, DXVA2_NominalRange_Unknown, DXVA2_NominalRange_Wide, _DXVA2_NominalRange, dxva2api/DXVA2_NominalRange, dxva2api/DXVA2_NominalRangeMask, dxva2api/DXVA2_NominalRange_0_255, dxva2api/DXVA2_NominalRange_16_235, dxva2api/DXVA2_NominalRange_48_208, dxva2api/DXVA2_NominalRange_Normal, dxva2api/DXVA2_NominalRange_Unknown, dxva2api/DXVA2_NominalRange_Wide, ebc146e4-517f-4413-93dc-66cf4b3a04c3, mf.dxva2_nominalrange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,20 +133,17 @@ For samples with <i>n</i> bits of precision, the general equations are:
 
 <ul>
 <li>
-
-                    Y' = (Y' * 219 + 16) * 2 ^ (n-8)
+Y' = (Y' * 219 + 16) * 2 ^ (n-8)
                   
 
 </li>
 <li>
-
-                    Cb = (Pb * 224 + 128) * 2 ^ (n-8)
+Cb = (Pb * 224 + 128) * 2 ^ (n-8)
                   
 
 </li>
 <li>
-
-                    Cr = (Pr * 224 + 128) * 2 ^ (n-8)
+Cr = (Pr * 224 + 128) * 2 ^ (n-8)
                   
 
 </li>
@@ -155,20 +152,17 @@ The inverse equations to convert from Y'CbCr to Y'PbPr are:
 
 <ul>
 <li>
-
-                    Y' = (Y' / 2 ^ (n-8) - 16) / 219
+Y' = (Y' / 2 ^ (n-8) - 16) / 219
                   
 
 </li>
 <li>
-
-                    Pb = (Cb / 2 ^ (n-8) - 128) / 224
+Pb = (Cb / 2 ^ (n-8) - 128) / 224
                   
 
 </li>
 <li>
-
-                    Pr = (Cr / 2 ^ (n-8) - 128) / 224
+Pr = (Cr / 2 ^ (n-8) - 128) / 224
                   
 
 </li>

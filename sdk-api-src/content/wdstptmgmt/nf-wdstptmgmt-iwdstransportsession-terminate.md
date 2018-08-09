@@ -4,10 +4,10 @@ title: IWdsTransportSession::Terminate
 author: windows-sdk-content
 description: Terminates an active session on the WDS transport server and disconnects all WDS clients joined to the session.
 old-location: wds\iwdstransportsession_terminate.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 2b616a69-1387-4c55-a80e-95ead719b911
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],Terminate method, IWdsTransportSession.Terminate, IWdsTransportSession::Terminate, Terminate, Terminate method [Windows Deployment Services], Terminate method [Windows Deployment Services],IWdsTransportSession interface, wds.iwdstransportsession_terminate, wdstptmgmt/IWdsTransportSession::Terminate
 ms.prod: windows
 ms.technology: windows-sdk

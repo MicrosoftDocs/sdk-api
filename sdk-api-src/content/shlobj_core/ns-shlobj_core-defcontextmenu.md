@@ -7,7 +7,7 @@ old-location: shell\DEFCONTEXTMENU.htm
 old-project: shell
 ms.assetid: 007861f6-1e66-4c5f-a459-3cfbe9f8cec2
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DEFCONTEXTMENU, DEFCONTEXTMENU structure [Windows Shell], _shell_DEFCONTEXTMENU, shell.DEFCONTEXTMENU, shlobj_core/DEFCONTEXTMENU
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Contains context menu information used by <a href="https://msdn.microsoft.com/05
 
 Type: <b>HWND</b>
 
-A handle to the context menu. Set this member to the handle returned from <a href="https://msdn.microsoft.com/library/ms647624(v=VS.85).aspx">CreateMenu</a>.
+A handle to the context menu. Set this member to the handle returned from <a href="https://msdn.microsoft.com/en-us/library/ms647624(v=VS.85).aspx">CreateMenu</a>.
 
 
 ### -field pcmcb

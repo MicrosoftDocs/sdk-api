@@ -7,7 +7,7 @@ old-location: winsync\iregisteredsyncprovider_getinstanceid.htm
 old-project: winsync
 ms.assetid: d8206138-92cc-4ed7-937e-baf2ed432b6b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetInstanceId, GetInstanceId method [Windows Sync], GetInstanceId method [Windows Sync],IRegisteredSyncProvider interface, IRegisteredSyncProvider interface [Windows Sync],GetInstanceId method, IRegisteredSyncProvider.GetInstanceId, IRegisteredSyncProvider::GetInstanceId, syncregistration/IRegisteredSyncProvider::GetInstanceId, winsync.iregisteredsyncprovider_getinstanceid
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\itfclientid_getclientid.htm
 old-project: TSF
 ms.assetid: 422cff3c-1be5-4b86-bc64-cded6ab64da4
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetClientId, GetClientId method [Text Services Framework], GetClientId method [Text Services Framework],ITfClientId interface, ITfClientId interface [Text Services Framework],GetClientId method, ITfClientId.GetClientId, ITfClientId::GetClientId, _tsf_itfclientid_getclientid_ref, msctf/ITfClientId::GetClientId, tsf.itfclientid_getclientid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,14 +114,12 @@ An application obtains its client identifier by calling <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/c5fd6b5c-0a78-4b5b-aad5-0c398798cf30">
-        ITfTextInputProcessor::Activate
+<a href="https://msdn.microsoft.com/c5fd6b5c-0a78-4b5b-aad5-0c398798cf30">ITfTextInputProcessor::Activate
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/bd9058c0-55b0-4231-a336-7cea4db75c0f">
-        ITfThreadMgr::Activate
+<a href="https://msdn.microsoft.com/bd9058c0-55b0-4231-a336-7cea4db75c0f">ITfThreadMgr::Activate
       </a>
 
 

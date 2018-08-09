@@ -7,7 +7,7 @@ old-location: eaphost\eappeerqueryuiblobfrominteractiveuiinputfields.htm
 old-project: eaphost
 ms.assetid: bfb8906e-7adb-4c69-bd13-7c5239d392af
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapPeerQueryUIBlobFromInteractiveUIInputFields, EapPeerQueryUIBlobFromInteractiveUIInputFields function [EAPHost], eaphost.eappeerqueryuiblobfrominteractiveuiinputfields, eapmethodpeerapis/EapPeerQueryUIBlobFromInteractiveUIInputFields
 ms.prod: windows
 ms.technology: windows-sdk

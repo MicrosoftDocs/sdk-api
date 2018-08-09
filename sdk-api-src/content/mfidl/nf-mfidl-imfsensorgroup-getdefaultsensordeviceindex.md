@@ -7,7 +7,7 @@ old-location: mf\imfsensorgroup_getdefaultsensordeviceindex.htm
 old-project: medfound
 ms.assetid: E82A83F7-E984-4353-8CED-E3B5EE28EB3D
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetDefaultSensorDeviceIndex, GetDefaultSensorDeviceIndex method [Media Foundation], GetDefaultSensorDeviceIndex method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetDefaultSensorDeviceIndex method, IMFSensorGroup.GetDefaultSensorDeviceIndex, IMFSensorGroup::GetDefaultSensorDeviceIndex, mf.imfsensorgroup_getdefaultsensordeviceindex, mfidl/IMFSensorGroup::GetDefaultSensorDeviceIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ If the call succeeds, <i>pdwIndex</i> receives the index of the default device.
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ If the call succeeds, <i>pdwIndex</i> receives the index of the default device.
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -100,8 +98,7 @@ If the call succeeds, <i>pdwIndex</i> receives the index of the default device.
 </dl>
 </td>
 <td width="60%">
-
-                The <i>pdwIndex</i> parameter is null.
+The <i>pdwIndex</i> parameter is null.
 
 </td>
 </tr>
@@ -112,8 +109,7 @@ If the call succeeds, <i>pdwIndex</i> receives the index of the default device.
 </dl>
 </td>
 <td width="60%">
-
-                The sensor group has not been initialized.
+The sensor group has not been initialized.
 
 </td>
 </tr>

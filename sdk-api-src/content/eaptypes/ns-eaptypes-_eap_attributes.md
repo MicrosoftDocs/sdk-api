@@ -7,7 +7,7 @@ old-location: eaphost\eap_attributes.htm
 old-project: eaphost
 ms.assetid: 2f88b475-a4ae-4c40-b0f8-2dd05c676619
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EAP_ATTRIBUTES, EAP_ATTRIBUTES structure [EAPHost], EapAttributes, EapAttributes structure [EAPHost], _EAP_ATTRIBUTES, eaphost.eap_attributes, eaptypes/EAP_ATTRIBUTES, eaptypes/EapAttributes
 ms.prod: windows
 ms.technology: windows-sdk

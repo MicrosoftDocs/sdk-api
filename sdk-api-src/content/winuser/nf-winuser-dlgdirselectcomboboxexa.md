@@ -4,10 +4,10 @@ title: DlgDirSelectComboBoxExA function
 author: windows-sdk-content
 description: Retrieves the current selection from a combo box filled by using the DlgDirListComboBox function. The selection is interpreted as a drive letter, a file, or a directory name.
 old-location: controls\DlgDirSelectComboBoxEx.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxfunctions\dlgdirselectcomboboxex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DlgDirSelectComboBoxEx, DlgDirSelectComboBoxEx function [Windows Controls], DlgDirSelectComboBoxExA, DlgDirSelectComboBoxExW, _win32_DlgDirSelectComboBoxEx, _win32_DlgDirSelectComboBoxEx_cpp, controls.DlgDirSelectComboBoxEx, controls._win32_DlgDirSelectComboBoxEx, winuser/DlgDirSelectComboBoxEx, winuser/DlgDirSelectComboBoxExA, winuser/DlgDirSelectComboBoxExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,11 @@ Retrieves the current selection from a combo box filled by using the <a href="ht
 
 
 
-### -param hwndDlg
+### -param hwndDlg [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the dialog box that contains the combo box. 
 
 
 ### -param lpString [out]
@@ -73,33 +75,14 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 A pointer to the buffer that receives the selected path. 
 
 
-### -param cchOut
-
-TBD
-
-
-### -param idComboBox
-
-TBD
-
-
-
-
-#### - hDlg [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to the dialog box that contains the combo box. 
-
-
-#### - nCount [in]
+### -param cchOut [in]
 
 Type: <b>int</b>
 
 The length, in characters, of the buffer pointed to by the <i>lpString</i> parameter. 
 
 
-#### - nIDComboBox [in]
+### -param idComboBox [in]
 
 Type: <b>int</b>
 

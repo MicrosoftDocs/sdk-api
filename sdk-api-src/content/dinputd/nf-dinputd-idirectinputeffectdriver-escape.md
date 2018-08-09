@@ -7,7 +7,7 @@ old-location: hid\idirectinputeffectdriver_escape.htm
 old-project: hid
 ms.assetid: 23bef39d-0254-4b8e-9059-32665d35b5cf
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/30/2018
 ms.keywords: Escape, Escape method [Human Input Devices], Escape method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],Escape method, IDirectInputEffectDriver.Escape, IDirectInputEffectDriver::Escape, di_ref_14789995-a66d-4f0b-9ac4-de0852996da6.xml, dinputd/IDirectInputEffectDriver::Escape, hid.idirectinputeffectdriver_escape
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,14 @@ The <b>IDirectInputEffectDriver::Escape </b>method escapes to the driver. This m
 
 
 
-#### - dwEffect
-
-Specifies the effect at which the command is directed, or zero if the command is directed at the device itself and not any particular effect. 
-
-
 #### - dwID
 
 Indicates the joystick ID number being used. 
+
+
+#### - dwEffect
+
+Specifies the effect at which the command is directed, or zero if the command is directed at the device itself and not any particular effect. 
 
 
 #### - pesc

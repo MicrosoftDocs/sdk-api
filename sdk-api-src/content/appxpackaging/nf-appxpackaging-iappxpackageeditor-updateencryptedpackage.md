@@ -7,7 +7,7 @@ old-location: appxpkg\iappxpackageeditor_updateencryptedpackage.htm
 old-project: appxpkg
 ms.assetid: 4D5E2F4B-00CE-4A0A-A514-3B66EC3065ED
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: IAppxPackageEditor interface [App packaging and management],UpdateEncryptedPackage method, IAppxPackageEditor.UpdateEncryptedPackage, IAppxPackageEditor::UpdateEncryptedPackage, UpdateEncryptedPackage, UpdateEncryptedPackage method [App packaging and management], UpdateEncryptedPackage method [App packaging and management],IAppxPackageEditor interface, appxpackaging/IAppxPackageEditor::UpdateEncryptedPackage, appxpkg.iappxpackageeditor_updateencryptedpackage
 ms.prod: windows
 ms.technology: windows-sdk

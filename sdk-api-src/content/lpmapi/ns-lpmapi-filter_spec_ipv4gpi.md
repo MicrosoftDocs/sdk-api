@@ -7,7 +7,7 @@ old-location: qos\filter_spec_ipv4gpi.htm
 old-project: qos
 ms.assetid: c1546673-d1b5-4a7f-82d0-a8cc1c7c8752
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: Filter_Spec_IPv4GPI, Filter_Spec_IPv4GPI structure [QOS], lpmapi/Filter_Spec_IPv4GPI, qos.filter_spec_ipv4gpi
 ms.prod: windows
 ms.technology: windows-sdk

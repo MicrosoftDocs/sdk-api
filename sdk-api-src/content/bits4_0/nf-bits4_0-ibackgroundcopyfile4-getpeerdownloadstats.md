@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyfile4_getpeerdownloadstats.htm
 old-project: bits
 ms.assetid: dff90887-90d5-48a4-a400-31d99de27d39
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: GetPeerDownloadStats, GetPeerDownloadStats method [BITS], GetPeerDownloadStats method [BITS],IBackgroundCopyFile4 interface, IBackgroundCopyFile4 interface [BITS],GetPeerDownloadStats method, IBackgroundCopyFile4.GetPeerDownloadStats, IBackgroundCopyFile4::GetPeerDownloadStats, bits.ibackgroundcopyfile4_getpeerdownloadstats, bits4_0/IBackgroundCopyFile4::GetPeerDownloadStats
 ms.prod: windows
 ms.technology: windows-sdk

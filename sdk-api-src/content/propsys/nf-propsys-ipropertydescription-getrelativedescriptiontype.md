@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetRelativeDescriptionType.htm
 old-project: properties
 ms.assetid: b3778988-63ac-4827-8098-c3c5b6b13e38
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: GetRelativeDescriptionType, GetRelativeDescriptionType method [Windows Properties], GetRelativeDescriptionType method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetRelativeDescriptionType method, IPropertyDescription.GetRelativeDescriptionType, IPropertyDescription::GetRelativeDescriptionType, properties.IPropertyDescription_GetRelativeDescriptionType, propsys/IPropertyDescription::GetRelativeDescriptionType, shell.IPropertyDescription_GetRelativeDescriptionType, shell_IPropertyDescription_GetRelativeDescriptionType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Gets the relative description type for a property description.
 
 ### -param prdt [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb762526(v=VS.85).aspx">PROPDESC_RELATIVEDESCRIPTION_TYPE</a>*</b>
+Type: <b><a href="shell.PROPDESC_RELATIVEDESCRIPTION_TYPE">PROPDESC_RELATIVEDESCRIPTION_TYPE</a>*</b>
 
-When this method returns, contains a pointer to the relative description type value. See <a href="https://msdn.microsoft.com/library/Bb762526(v=VS.85).aspx">PROPDESC_RELATIVEDESCRIPTION_TYPE</a> for valid values.
+When this method returns, contains a pointer to the relative description type value. See <a href="shell.PROPDESC_RELATIVEDESCRIPTION_TYPE">PROPDESC_RELATIVEDESCRIPTION_TYPE</a> for valid values.
 
 
 ## -returns
@@ -81,7 +81,7 @@ Always returns <b>S_OK</b>.
 
 
 
-The information retrieved by this method comes from the <i>relativeDescriptionType</i> attribute of the <a href="https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx">displayInfo</a> element in the property's .propdesc file.
+The information retrieved by this method comes from the <i>relativeDescriptionType</i> attribute of the <a href="shell.propdesc_schema_displayInfo">displayInfo</a> element in the property's .propdesc file.
 
 
 
@@ -91,7 +91,7 @@ The information retrieved by this method comes from the <i>relativeDescriptionTy
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

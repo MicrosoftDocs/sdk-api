@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_StartSessionRedirection.htm
 old-project: shell
 ms.assetid: a9f40c32-afbe-4f1f-9693-72a757d93a05
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],StartSessionRedirection method, IPackageDebugSettings.StartSessionRedirection, IPackageDebugSettings::StartSessionRedirection, StartSessionRedirection, StartSessionRedirection method [Windows Shell], StartSessionRedirection method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_StartSessionRedirection, shobjidl_core/IPackageDebugSettings::StartSessionRedirection
 ms.prod: windows
 ms.technology: windows-sdk

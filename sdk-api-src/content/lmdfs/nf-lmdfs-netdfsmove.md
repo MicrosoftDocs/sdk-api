@@ -7,7 +7,7 @@ old-location: dfs\netdfsmove.htm
 old-project: dfs
 ms.assetid: d9d225ac-26b9-4074-93b6-6294538a3504
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: DFS_MOVE_FLAG_REPLACE_IF_EXISTS, NetDfsMove, NetDfsMove function [Distributed File System], dfs.netdfsmove, fs.netdfsmove, lmdfs/NetDfsMove, netmgmt.netdfsmove
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,16 @@ Renames or moves a DFS link.
 
 
 
-### -param OldDfsEntryPath
+### -param OldDfsEntryPath [in]
 
-TBD
+Pointer to a string that specifies the source path for the move operation. This value must be a DFS link or 
+     the path prefix of any DFS link in the DFS namespace.
 
 
-### -param NewDfsEntryPath
+### -param NewDfsEntryPath [in]
 
-TBD
+Pointer to a string that specifies the destination path for the move operation. This value must be a path or 
+     a DFS link in the same DFS namespace.
 
 
 ### -param Flags [in]
@@ -78,18 +80,6 @@ A set of flags that describe actions to take when moving the link.
 #### DFS_MOVE_FLAG_REPLACE_IF_EXISTS (0x00000001)
 
 If the destination path is already an existing DFS link, replace it as part of the move operation.
-
-
-#### - NewPath [in]
-
-Pointer to a string that specifies the destination path for the move operation. This value must be a path or 
-     a DFS link in the same DFS namespace.
-
-
-#### - Path [in]
-
-Pointer to a string that specifies the source path for the move operation. This value must be a DFS link or 
-     the path prefix of any DFS link in the DFS namespace.
 
 
 ## -returns

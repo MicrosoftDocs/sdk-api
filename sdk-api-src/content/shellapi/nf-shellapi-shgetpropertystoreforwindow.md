@@ -7,7 +7,7 @@ old-location: properties\SHGetPropertyStoreForWindow.htm
 old-project: properties
 ms.assetid: 772aa2c8-6dd1-480c-a008-58f30902cb80
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: SHGetPropertyStoreForWindow, SHGetPropertyStoreForWindow function [Windows Properties], _shell_SHGetPropertyStoreForWindow, properties.SHGetPropertyStoreForWindow, shell.SHGetPropertyStoreForWindow, shellapi/SHGetPropertyStoreForWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-An application can use this function to obtain access to a window's property store so that it can set an explicit Application User Model ID (AppUserModelID) in the <a href="https://msdn.microsoft.com/library/Dd391569(v=VS.85).aspx">System.AppUserModel.ID</a> property.
+An application can use this function to obtain access to a window's property store so that it can set an explicit Application User Model ID (AppUserModelID) in the <a href="https://msdn.microsoft.com/en-us/library/Dd391569(v=VS.85).aspx">System.AppUserModel.ID</a> property.
 
 A window's properties must be removed before the window is closed. If this is not done, the resources used by those properties are not returned to the system. A property is removed by setting it to the <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> type VT_EMPTY.
 
@@ -112,13 +112,13 @@ Applications should also use this property store to set these relaunch propertie
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/Dd391571(v=VS.85).aspx">System.AppUserModel.RelaunchCommand</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd391571(v=VS.85).aspx">System.AppUserModel.RelaunchCommand</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Dd391572(v=VS.85).aspx">System.AppUserModel.RelaunchDisplayNameResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd391572(v=VS.85).aspx">System.AppUserModel.RelaunchDisplayNameResource</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Dd391573(v=VS.85).aspx">System.AppUserModel.RelaunchIconResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd391573(v=VS.85).aspx">System.AppUserModel.RelaunchIconResource</a>
 </li>
 </ul>
 

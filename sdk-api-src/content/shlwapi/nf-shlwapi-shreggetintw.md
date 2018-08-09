@@ -7,7 +7,7 @@ old-location: shell\SHRegGetInt.htm
 old-project: shell
 ms.assetid: 027e3470-46be-4d37-b815-e1fd550d0c60
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHRegGetIntW, SHRegGetIntW function [Windows Shell], _shell_SHRegGetInt, shell.SHRegGetInt, shlwapi/SHRegGetIntW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,30 +71,18 @@ Type: <b>HKEY</b>
 A handle to the registry key that specifies the value to be read.
 
 
-### -param pwzKey
-
-TBD
-
-
-### -param iDefault
-
-TBD
-
-
-
-
-#### - nDefault [in]
-
-Type: <b>int</b>
-
-An <b>int</b> that specifies the value returned if the registry value cannot be retrieved successfully.
-
-
-#### - szKey [in]
+### -param pwzKey [in]
 
 Type: <b>LPCWSTR</b>
 
 A pointer to a string value that specifies the name of the value to be read. The string must be null-terminated.
+
+
+### -param iDefault [in]
+
+Type: <b>int</b>
+
+An <b>int</b> that specifies the value returned if the registry value cannot be retrieved successfully.
 
 
 ## -returns

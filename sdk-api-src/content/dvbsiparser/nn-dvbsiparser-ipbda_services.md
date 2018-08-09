@@ -7,7 +7,7 @@ old-location: mstv\ipbda_services.htm
 old-project: mstv
 ms.assetid: 8d2d62cd-9f62-45d3-8b98-74bb8863c6d6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IPBDA_Services, IPBDA_Services interface [Microsoft TV Technologies], IPBDA_Services interface [Microsoft TV Technologies],described, dvbsiparser/IPBDA_Services, mstv.ipbda_services
 ms.prod: windows
 ms.technology: windows-sdk

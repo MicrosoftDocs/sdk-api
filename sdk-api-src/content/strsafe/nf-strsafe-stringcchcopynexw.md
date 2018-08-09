@@ -7,7 +7,7 @@ old-location: menurc\stringcchcopynex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopynex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchCopyNEx, StringCchCopyNEx function [Menus and Other Resources], StringCchCopyNExA, StringCchCopyNExW, _shell_StringCchCopyNEx, _shell_stringcchcopynex_cpp, menurc.stringcchcopynex, strsafe/StringCchCopyNEx, strsafe/StringCchCopyNExA, strsafe/StringCchCopyNExW, winui._shell_stringcchcopynex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,9 +88,11 @@ Type: <b>LPCTSTR</b>
 The source string. TThis string must be readable up to <i>cchSrc</i> characters or a null terminator, whichever comes first.
 
 
-### -param cchToCopy
+### -param cchToCopy [in]
 
-TBD
+Type: <b>size_t</b>
+
+The maximum number of characters to be copied from <i>pszSrc</i> to <i>pszDest</i>.
 
 
 ### -param ppszDestEnd [out, optional]
@@ -175,13 +177,6 @@ As in the case of <b>STRSAFE_NULL_ON_FAILURE</b>, if the function fails, <i>pszD
 </tr>
 </table>
  
-
-
-#### - cchSrc [in]
-
-Type: <b>size_t</b>
-
-The maximum number of characters to be copied from <i>pszSrc</i> to <i>pszDest</i>.
 
 
 ## -returns

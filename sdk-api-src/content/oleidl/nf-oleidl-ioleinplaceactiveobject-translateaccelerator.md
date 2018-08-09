@@ -7,7 +7,7 @@ old-location: com\ioleinplaceactiveobject_translateaccelerator.htm
 old-project: com
 ms.assetid: ce460c52-c7aa-4ee4-955e-76407af7cf1e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],TranslateAccelerator method, IOleInPlaceActiveObject.TranslateAccelerator, IOleInPlaceActiveObject::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_translateaccelerator, com.ioleinplaceactiveobject_translateaccelerator, oleidl/IOleInPlaceActiveObject::TranslateAccelerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Processes menu accelerator-key messages from the container's message queue. This
 
 ### -param lpmsg [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a> structure for the message that might need to be translated.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure for the message that might need to be translated.
 
 
 ## -returns
@@ -137,7 +137,7 @@ If you call <b>IOleInPlaceActiveObject::TranslateAccelerator</b> for an object t
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 An object created by an EXE object application gets keystrokes from its own message pump, so the container does not get those messages.
 
-If you need to implement this method, you can do so by simply wrapping the call to the <a href="https://msdn.microsoft.com/library/Dd368768(v=VS.85).aspx">TranslateAccelerator</a> function.
+If you need to implement this method, you can do so by simply wrapping the call to the <a href="https://msdn.microsoft.com/en-us/library/Dd368768(v=VS.85).aspx">TranslateAccelerator</a> function.
 
 
 
@@ -155,7 +155,7 @@ If you need to implement this method, you can do so by simply wrapping the call 
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd368768(v=VS.85).aspx">TranslateAccelerator</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd368768(v=VS.85).aspx">TranslateAccelerator</a>
  
 
  

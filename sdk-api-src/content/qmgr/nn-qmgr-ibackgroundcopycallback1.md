@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopycallback1.htm
 old-project: bits
 ms.assetid: d5d22cf6-d9b5-4001-a0ac-f67d59dde779
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyCallback1, IBackgroundCopyCallback1 interface [BITS], IBackgroundCopyCallback1 interface [BITS],described, bits.ibackgroundcopycallback1, qmgr/IBackgroundCopyCallback1
 ms.prod: windows
 ms.technology: windows-sdk

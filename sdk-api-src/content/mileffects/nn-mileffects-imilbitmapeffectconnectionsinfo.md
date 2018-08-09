@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectconnectionsinfo.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectionsinfo\imilbitmapeffectconnectionsinfo.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IMILBitmapEffectConnectionsInfo, IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects], IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectconnectionsinfo, mileffects/IMILBitmapEffectConnectionsInfo, wibe._wibe_imilbitmapeffectconnectionsinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,16 +71,16 @@ The <b>IMILBitmapEffectConnectionsInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735307(v=VS.85).aspx">GetInputConnectorInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735307(v=VS.85).aspx">GetInputConnectorInfo</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/library/ms735303(v=VS.85).aspx">IMILBitmapEffectConnectorInfo</a> associated with the given input pin.
+Retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms735303(v=VS.85).aspx">IMILBitmapEffectConnectorInfo</a> associated with the given input pin.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735308(v=VS.85).aspx">GetNumberInputs</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735308(v=VS.85).aspx">GetNumberInputs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of input pins the bitmap effect implements.
@@ -89,7 +89,7 @@ Retrieves the number of input pins the bitmap effect implements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735309(v=VS.85).aspx">GetNumberOutputs</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735309(v=VS.85).aspx">GetNumberOutputs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of output pins the bitmap effect implements.
@@ -98,10 +98,10 @@ Retrieves the number of output pins the bitmap effect implements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735310(v=VS.85).aspx">GetOutputConnectorInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735310(v=VS.85).aspx">GetOutputConnectorInfo</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/library/ms735303(v=VS.85).aspx">IMILBitmapEffectConnectorInfo</a> associated with the given output pin.
+Retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms735303(v=VS.85).aspx">IMILBitmapEffectConnectorInfo</a> associated with the given output pin.
 
 </td>
 </tr>

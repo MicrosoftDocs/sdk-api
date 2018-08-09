@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetFirstVisible.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getfirstvisible.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TreeView_GetFirstVisible, TreeView_GetFirstVisible macro [Windows Controls], _win32_TreeView_GetFirstVisible, _win32_TreeView_GetFirstVisible_cpp, commctrl/TreeView_GetFirstVisible, controls.TreeView_GetFirstVisible, controls._win32_TreeView_GetFirstVisible
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the first visible item in a tree-view control window. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/library/Bb773622(v=VS.85).aspx">TVM_GETNEXTITEM</a> message with the TVGN_FIRSTVISIBLE flag. 
+Retrieves the first visible item in a tree-view control window. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/en-us/library/Bb773622(v=VS.85).aspx">TVM_GETNEXTITEM</a> message with the TVGN_FIRSTVISIBLE flag. 
 
 
 ## -parameters
@@ -59,15 +59,6 @@ Retrieves the first visible item in a tree-view control window. You can use this
 
 
 ### -param hwnd
-
-TBD
-
-
-
-
-
-
-#### - hwndTV
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
@@ -83,19 +74,19 @@ Handle to the tree-view control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773610(v=VS.85).aspx">TVM_GETITEMRECT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773610(v=VS.85).aspx">TVM_GETITEMRECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773855(v=VS.85).aspx">TreeView_GetLastVisible</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773855(v=VS.85).aspx">TreeView_GetLastVisible</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773870(v=VS.85).aspx">TreeView_GetNextVisible</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773870(v=VS.85).aspx">TreeView_GetNextVisible</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773878(v=VS.85).aspx">TreeView_GetPrevVisible</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773878(v=VS.85).aspx">TreeView_GetPrevVisible</a>
  
 
  

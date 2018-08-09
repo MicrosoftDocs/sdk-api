@@ -7,7 +7,7 @@ old-location: display\dd_bltdata.htm
 old-project: display
 ms.assetid: e39bdfc4-89d0-4440-93d3-1b455cc9a8e5
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: "*PDD_BLTDATA, DD_BLTDATA, DD_BLTDATA structure [Display Devices], _DD_BLTDATA, ddrawint/DD_BLTDATA, ddstrcts_0697bd98-66f4-4f58-b407-c3bcc73eee86.xml, display.dd_bltdata"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -332,8 +332,7 @@ Indicates whether this is a clipped blit. On Windows 2000 and later, this member
 
 ### -field dwRectCnt
 
-<b>Unused for Windows 2000 and later.</b>
-       Specifies the number of destination rectangles to which <b>prDestRects</b> points. This member is valid only if <b>IsClipped</b> is <b>TRUE</b>.
+<b>Unused for Windows 2000 and later.</b>Specifies the number of destination rectangles to which <b>prDestRects</b> points. This member is valid only if <b>IsClipped</b> is <b>TRUE</b>.
 
 
 ### -field prDestRects

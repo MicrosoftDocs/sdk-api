@@ -7,7 +7,7 @@ old-location: mf\imfnetcrossoriginsupport.htm
 old-project: medfound
 ms.assetid: 239E5731-4425-46D4-AFEC-F3E59258B1DF
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFNetCrossOriginSupport, IMFNetCrossOriginSupport interface [Media Foundation], IMFNetCrossOriginSupport interface [Media Foundation],described, mf.imfnetcrossoriginsupport, mfidl/IMFNetCrossOriginSupport
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ The <b>IMFNetCrossOriginSupport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Mt846741(v=VS.85).aspx">GetCrossOriginPolicy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846741(v=VS.85).aspx">GetCrossOriginPolicy</a>
 </td>
 <td align="left" width="63%">
 Returns the client's current cross-origin policy to apply to the download session.
@@ -82,7 +82,7 @@ Returns the client's current cross-origin policy to apply to the download sessio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Mt846742(v=VS.85).aspx">GetSourceOrigin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846742(v=VS.85).aspx">GetSourceOrigin</a>
 </td>
 <td align="left" width="63%">
 Returns the W3C origin of the HTML5 media element.  
@@ -91,7 +91,7 @@ Returns the W3C origin of the HTML5 media element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Mt846743(v=VS.85).aspx">IsSameOrigin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846743(v=VS.85).aspx">IsSameOrigin</a>
 </td>
 <td align="left" width="63%">
 Returns true when the specified URL has the same origin as the HTML5 media element.

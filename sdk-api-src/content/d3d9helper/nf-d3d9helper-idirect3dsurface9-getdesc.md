@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dsurface9__getdesc.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__getdesc.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 068aa9b6-08d4-5e72-dc9f-18e83e42aef2, GetDesc, GetDesc method [Direct3D 9], GetDesc method [Direct3D 9],IDirect3DSurface9 interface, IDirect3DSurface9 interface [Direct3D 9],GetDesc method, IDirect3DSurface9.GetDesc, IDirect3DSurface9::GetDesc, d3d9helper/IDirect3DSurface9::GetDesc, direct3d9.idirect3dsurface9__getdesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,16 +61,16 @@ Retrieves a description of the surface.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172611(v=VS.85).aspx">D3DSURFACE_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172611(v=VS.85).aspx">D3DSURFACE_DESC</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb172611(v=VS.85).aspx">D3DSURFACE_DESC</a> structure, describing the surface. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172611(v=VS.85).aspx">D3DSURFACE_DESC</a> structure, describing the surface. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK.
 
@@ -84,7 +84,7 @@ D3DERR_INVALIDCALL is returned if the argument is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>
  
 
  

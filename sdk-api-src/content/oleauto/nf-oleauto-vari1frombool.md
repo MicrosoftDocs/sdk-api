@@ -7,7 +7,7 @@ old-location: automat\vari1frombool.htm
 old-project: automat
 ms.assetid: 0e8043da-b41f-467a-a0c3-3f4bc3d098cf
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarI1FromBool, VarI1FromBool function [Automation], _oa96_VarI1FromBool, automat.vari1frombool, oleauto/VarI1FromBool
 ms.prod: windows
 ms.technology: windows-sdk

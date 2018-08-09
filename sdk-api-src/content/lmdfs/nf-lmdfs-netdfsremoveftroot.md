@@ -7,7 +7,7 @@ old-location: dfs\netdfsremoveftroot.htm
 old-project: dfs
 ms.assetid: aa5c9991-ca8e-48ba-922d-feadaff45cc2
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: NetDfsRemoveFtRoot, NetDfsRemoveFtRoot function [Distributed File System], _win32_netdfsremoveftroot, dfs.netdfsremoveftroot, fs.netdfsremoveftroot, lmdfs/NetDfsRemoveFtRoot, netmgmt.netdfsremoveftroot
 ms.prod: windows
 ms.technology: windows-sdk

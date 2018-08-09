@@ -4,10 +4,10 @@ title: CredUICmdLinePromptForCredentialsA function
 author: windows-sdk-content
 description: Prompts for and accepts credential information from a user working in a command-line (console) application. The name and password typed by the user are passed back to the calling application for verification.
 old-location: security\creduicmdlinepromptforcredentials.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 5b5bfe87-8f31-4228-931e-50cfc399b66b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CREDUI_FLAGS_ALWAYS_SHOW_UI, CREDUI_FLAGS_DO_NOT_PERSIST, CREDUI_FLAGS_EXCLUDE_CERTIFICATES, CREDUI_FLAGS_EXPECT_CONFIRMATION, CREDUI_FLAGS_GENERIC_CREDENTIALS, CREDUI_FLAGS_INCORRECT_PASSWORD, CREDUI_FLAGS_PERSIST, CREDUI_FLAGS_REQUEST_ADMINISTRATOR, CREDUI_FLAGS_REQUIRE_CERTIFICATE, CREDUI_FLAGS_REQUIRE_SMARTCARD, CREDUI_FLAGS_SERVER_CREDENTIAL, CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX, CREDUI_FLAGS_USERNAME_TARGET_CREDENTIALS, CredUICmdLinePromptForCredentials, CredUICmdLinePromptForCredentials function [Security], CredUICmdLinePromptForCredentialsA, CredUICmdLinePromptForCredentialsW, _cred_creduicmdlinepromptforcredentials, security.creduicmdlinepromptforcredentials, wincred/CredUICmdLinePromptForCredentials, wincred/CredUICmdLinePromptForCredentialsA, wincred/CredUICmdLinePromptForCredentialsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,9 +69,9 @@ The <b>CredUICmdLinePromptForCredentials</b> function prompts for and accepts cr
 A pointer to a <b>null</b>-terminated string that contains the name of the target for the credentials, typically a server name. For DFS connections, this string is of the form <i>ServerName</i><b>\</b><i>ShareName</i>. The <i>pszTargetName</i> parameter is used to identify the target information and is used to store and retrieve the credential.
 
 
-### -param pContext
+### -param pContext [in]
 
-TBD
+Currently reserved and must be <b>NULL</b>.
 
 
 ### -param dwAuthError [in, optional]
@@ -79,15 +79,29 @@ TBD
 Specifies why prompting for credentials is needed. A caller can pass this Windows error parameter, returned by another authentication call, to allow the dialog box to accommodate certain errors. For example, if the password expired status code is passed, the dialog box prompts the user to change the password on the account.
 
 
-### -param UserName
+### -param UserName [in, out]
 
-TBD
+A pointer to a <b>null</b>-terminated string that contains the credential user name. If a nonzero-length string is specified for <i>pszUserName</i>, the user will be prompted only for the password. In the case of credentials other than user name/password, a marshaled format of the credential can be passed in. This string is created by calling 
+<a href="https://msdn.microsoft.com/20a1d54b-04a7-4b0a-88e4-1970d1f71502">CredMarshalCredential</a>. 
 
 
-### -param ulUserBufferSize
 
-TBD
 
+This function writes the user-supplied name to this buffer, copying a maximum of <i>ulUserNameMaxChars</i> characters. The string in this format can be converted to the user name/password format by calling the 
+<a href="https://msdn.microsoft.com/4a7fb207-f940-4610-a740-7bf5d58fb285">CredUIParseUsername</a> function. The string in its marshaled format can be passed directly to a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security support provider</a> (SSP).
+
+If the CREDUI_FLAGS_DO_NOT_PERSIST flag is not specified, the value returned in this parameter is of a form that should not be inspected, printed, or persisted other than passing it to <a href="https://msdn.microsoft.com/4a7fb207-f940-4610-a740-7bf5d58fb285">CredUIParseUsername</a>. The subsequent results of <b>CredUIParseUsername</b> can  be passed only to a client-side authentication API such as <a href="https://msdn.microsoft.com/9f2cf166-eb08-4498-8cda-79808776a452">WNetAddConnection</a> or the SSP API.
+
+
+### -param ulUserBufferSize [in]
+
+The maximum number of characters that can be copied to <i>pszUserName</i> including the terminating <b>null</b> character. 
+
+
+
+
+<div class="alert"><b>Note</b>  CREDUI_MAX_USERNAME_LENGTH does not include the terminating <b>null</b> character.</div>
+<div> </div>
 
 ### -param pszPassword [in, out]
 
@@ -101,10 +115,15 @@ This function writes the user-supplied password to this buffer, copying a maximu
 When you have finished using the password, clear the password from memory by calling the <a href="https://msdn.microsoft.com/2c4090a6-025b-4b7b-8f31-7e744ad51b39">SecureZeroMemory</a> function. For more information about protecting passwords, see <a href="https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf">Handling Passwords</a>.
 
 
-### -param ulPasswordBufferSize
+### -param ulPasswordBufferSize [in]
 
-TBD
+The maximum number of characters that can be copied to <i>pszPassword</i> including the terminating <b>null</b> character. 
 
+
+
+
+<div class="alert"><b>Note</b>  CREDUI_MAX_PASSWORD_LENGTH does not include the terminating <b>null</b> character.</div>
+<div> </div>
 
 ### -param pfSave [in, out]
 
@@ -270,45 +289,6 @@ The credential is a run-as credential. The <i>pszTargetName</i> parameter specif
 </table>
  
 
-
-#### - Reserved [in]
-
-Currently reserved and must be <b>NULL</b>.
-
-
-#### - pszUserName [in, out]
-
-A pointer to a <b>null</b>-terminated string that contains the credential user name. If a nonzero-length string is specified for <i>pszUserName</i>, the user will be prompted only for the password. In the case of credentials other than user name/password, a marshaled format of the credential can be passed in. This string is created by calling 
-<a href="https://msdn.microsoft.com/20a1d54b-04a7-4b0a-88e4-1970d1f71502">CredMarshalCredential</a>. 
-
-
-
-
-This function writes the user-supplied name to this buffer, copying a maximum of <i>ulUserNameMaxChars</i> characters. The string in this format can be converted to the user name/password format by calling the 
-<a href="https://msdn.microsoft.com/4a7fb207-f940-4610-a740-7bf5d58fb285">CredUIParseUsername</a> function. The string in its marshaled format can be passed directly to a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security support provider</a> (SSP).
-
-If the CREDUI_FLAGS_DO_NOT_PERSIST flag is not specified, the value returned in this parameter is of a form that should not be inspected, printed, or persisted other than passing it to <a href="https://msdn.microsoft.com/4a7fb207-f940-4610-a740-7bf5d58fb285">CredUIParseUsername</a>. The subsequent results of <b>CredUIParseUsername</b> can  be passed only to a client-side authentication API such as <a href="https://msdn.microsoft.com/9f2cf166-eb08-4498-8cda-79808776a452">WNetAddConnection</a> or the SSP API.
-
-
-#### - ulPasswordMaxChars [in]
-
-The maximum number of characters that can be copied to <i>pszPassword</i> including the terminating <b>null</b> character. 
-
-
-
-
-<div class="alert"><b>Note</b>  CREDUI_MAX_PASSWORD_LENGTH does not include the terminating <b>null</b> character.</div>
-<div> </div>
-
-#### - ulUserNameMaxChars [in]
-
-The maximum number of characters that can be copied to <i>pszUserName</i> including the terminating <b>null</b> character. 
-
-
-
-
-<div class="alert"><b>Note</b>  CREDUI_MAX_USERNAME_LENGTH does not include the terminating <b>null</b> character.</div>
-<div> </div>
 
 ## -returns
 

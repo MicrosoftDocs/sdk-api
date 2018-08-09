@@ -7,7 +7,7 @@ old-location: mmc\extension_enableallextensions.htm
 old-project: MMC
 ms.assetid: eeb4a400-da1e-47b7-bbbf-a601e92ef55b
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: EnableAllExtensions, EnableAllExtensions method [MMC], EnableAllExtensions method [MMC],Extension interface, EnableAllExtensions method [MMC],Extension object, Extension interface [MMC],EnableAllExtensions method, Extension object [MMC],EnableAllExtensions method, Extension.EnableAllExtensions, Extension::EnableAllExtensions, _slate_extension.enableallextensions_method, mmc.extension_enableallextensions
 ms.prod: windows
 ms.technology: windows-sdk

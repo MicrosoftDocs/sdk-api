@@ -7,7 +7,7 @@ old-location: hid\idirectinputeffectdriver_downloadeffect.htm
 old-project: hid
 ms.assetid: c10ee6f6-ed9e-45f9-b98d-db62d250a420
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/30/2018
 ms.keywords: DownloadEffect, DownloadEffect method [Human Input Devices], DownloadEffect method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],DownloadEffect method, IDirectInputEffectDriver.DownloadEffect, IDirectInputEffectDriver::DownloadEffect, di_ref_6f931ad9-9a30-45a6-aae5-0b10b1e4e4a7.xml, dinputd/IDirectInputEffectDriver::DownloadEffect, hid.idirectinputeffectdriver_downloadeffect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,64 @@ The <b>IDirectInputEffectDriver::DownloadEffect</b> method sends an effect to th
 
 
 
+#### - dwID
+
+Specifies the external joystick number being addressed. 
+
+
 #### - dwEffectID
 
 Specifies the <b>dwEffectId</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538456">DIEFFECTATTRIBUTES</a> structure associated with the effect the application is attempting to create. The DIEFFECTATTRIBUTES structure is stored in the registry under the corresponding effect registry key and can be any 32-bit value. DirectInput passes the 32-bit value to the driver with no interpretation. 
+
+
+#### - pdwEffect
+
+On entry, this parameter is a pointer to the handle of the effect being downloaded. If this parameter points to a zero, then a new effect is downloaded. On exit, this parameter is a pointer to a <b>DWORD </b>that contains the new effect handle. On failure, the <b>DWORD</b> pointed to by this parameter is set to zero if the effect is lost, or left alone if the effect is still valid with its old parameters. Note that zero is never a valid effect handle. 
+
+
+#### - peff
+
+Points to a DIEFFECT structure that describes the new effect. The axis and button values have been converted to object identifiers, which consist of the following: 
+
+
+
+
+
+#### One type specifier:
+
+
+
+##### DIDFT_RELAXIS
+
+
+
+##### DIDFT_ABSAXIS
+
+
+
+##### DIDFT_PSHBUTTON
+
+
+
+##### DIDFT_TGLBUTTON
+
+
+
+##### DIDFT_POV
+
+
+
+#### One instance identifier:
+
+
+
+##### DIDFT_MAKEINSTANCE(n)
+
+Other bits in the object identifier are reserved and should be ignored. 
+
+For example, 0x02000104 = DIDFT_PSHBUTTON | DIDFT_MAKEINSTANCE(1) | other stuff 
+
+This value indicates that the effect uses button 1. 
 
 
 #### - dwFlags
@@ -149,61 +204,6 @@ If this flag is not specified, the effect device driver is permitted to restart 
 #### DIEP_NODOWNLOAD
 
 Suppresses the automatic download that is normally performed after the parameters are updated. If this flag is set, the driver should validate parameters without performing an actual download. 
-
-
-#### - dwID
-
-Specifies the external joystick number being addressed. 
-
-
-#### - pdwEffect
-
-On entry, this parameter is a pointer to the handle of the effect being downloaded. If this parameter points to a zero, then a new effect is downloaded. On exit, this parameter is a pointer to a <b>DWORD </b>that contains the new effect handle. On failure, the <b>DWORD</b> pointed to by this parameter is set to zero if the effect is lost, or left alone if the effect is still valid with its old parameters. Note that zero is never a valid effect handle. 
-
-
-#### - peff
-
-Points to a DIEFFECT structure that describes the new effect. The axis and button values have been converted to object identifiers, which consist of the following: 
-
-
-
-
-
-#### One type specifier:
-
-
-
-##### DIDFT_RELAXIS
-
-
-
-##### DIDFT_ABSAXIS
-
-
-
-##### DIDFT_PSHBUTTON
-
-
-
-##### DIDFT_TGLBUTTON
-
-
-
-##### DIDFT_POV
-
-
-
-#### One instance identifier:
-
-
-
-##### DIDFT_MAKEINSTANCE(n)
-
-Other bits in the object identifier are reserved and should be ignored. 
-
-For example, 0x02000104 = DIDFT_PSHBUTTON | DIDFT_MAKEINSTANCE(1) | other stuff 
-
-This value indicates that the effect uses button 1. 
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: fwp\fwpmsystemportssubscribe0.htm
 old-project: fwp
 ms.assetid: e0eecf0e-e6b2-4df9-8a8e-766ee5c8189f
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmSystemPortsSubscribe0, FwpmSystemPortsSubscribe0 function [Filtering], fwp.fwpmsystemportssubscribe0, fwpmu/FwpmSystemPortsSubscribe0
 ms.prod: windows
 ms.technology: windows-sdk

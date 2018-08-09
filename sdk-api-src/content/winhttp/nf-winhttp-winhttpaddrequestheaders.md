@@ -4,10 +4,10 @@ title: WinHttpAddRequestHeaders function
 author: windows-sdk-content
 description: Adds one or more HTTP request headers to the HTTP request handle.
 old-location: http\winhttpaddrequestheaders.htm
-old-project: WinHttp
+old-project: winhttp
 ms.assetid: 16cab68c-a802-43cc-87cd-60fcecb6a751
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WINHTTP_ADDREQ_FLAG_ADD, WINHTTP_ADDREQ_FLAG_ADD_IF_NEW, WINHTTP_ADDREQ_FLAG_COALESCE, WINHTTP_ADDREQ_FLAG_COALESCE_WITH_COMMA, WINHTTP_ADDREQ_FLAG_COALESCE_WITH_SEMICOLON, WINHTTP_ADDREQ_FLAG_REPLACE, WinHttpAddRequestHeaders, WinHttpAddRequestHeaders function [WinHTTP], http.winhttpaddrequestheaders, winhttp/WinHttpAddRequestHeaders, winhttp_winhttpaddrequestheaders_function
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,9 @@ A <a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINT
 <a href="https://msdn.microsoft.com/9ecd035d-1abf-48ca-baf2-d9754f912c60">WinHttpOpenRequest</a> function. 
 
 
-### -param lpszHeaders
+### -param lpszHeaders [in]
 
-TBD
+A pointer to a string variable that contains the headers to append to the request. Each header except the last must be terminated by a carriage return/line feed (CR/LF).
 
 
 ### -param dwHeadersLength [in]
@@ -149,11 +149,6 @@ Replaces or removes a header. If the header value is empty and the header is fou
 </tr>
 </table>
  
-
-
-#### - pwszHeaders [in]
-
-A pointer to a string variable that contains the headers to append to the request. Each header except the last must be terminated by a carriage return/line feed (CR/LF).
 
 
 ## -returns

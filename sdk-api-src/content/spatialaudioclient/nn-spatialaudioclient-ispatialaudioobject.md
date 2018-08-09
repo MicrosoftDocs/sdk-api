@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobject.htm
 old-project: CoreAudio
 ms.assetid: EE83AF5F-4342-4CF2-81A7-1123F8DAFA6F
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: ISpatialAudioObject, ISpatialAudioObject interface [Core Audio], ISpatialAudioObject interface [Core Audio],described, coreaudio.ispatialaudioobject, spatialaudioclient/ISpatialAudioObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioObject interface
@@ -57,7 +58,7 @@ This interface is a part of  Windows Sonic, Microsoft’s audio platform for mor
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObject</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISpatialAudioObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObject</b> interface inherits from <a href="coreaudio.ispatialaudioobjectbase">ISpatialAudioObjectBase</a>. <b>ISpatialAudioObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,42 +70,6 @@ The <b>ISpatialAudioObject</b> interface has these methods.
 <tr>
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C4FB5E8B-C80A-4B4B-9162-95B463543061">GetAudioObjectType</a>
-</td>
-<td align="left" width="63%">
-Gets a value specifying the type of audio object that is represented by the <b>ISpatialAudioObject</b>. This value indicates if the object is dynamic or static. If the object is static, one and only one of the static audio channel values to which the object is assigned is returned.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
-</td>
-<td align="left" width="63%">
-Gets a buffer that is used to supply the audio data for the <b>ISpatialAudioObject</b>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3339E021-4AC3-43CB-9306-C8D58541CA5F">IsActive</a>
-</td>
-<td align="left" width="63%">
-Gets a boolean value indicating whether the <b>ISpatialAudioObject</b> is valid. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17294E5D-04D7-43B9-AD41-392344309308">SetEndOfStream</a>
-</td>
-<td align="left" width="63%">
-Instructs the system that the final block of audio data has been  submitted for the <b>ISpatialAudioObject</b> so that the object can be deactivated and it's resources reused. 
-
-</td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
@@ -125,4 +90,24 @@ Sets an audio amplitude multiplier that will be applied to the audio data provid
 </td>
 </tr>
 </table> 
+
+
+## -remarks
+
+
+
+<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="coreaudio.ispatialaudioobjectbase">ISpatialAudioObjectBase</a> interface.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="coreaudio.ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
+ 
+
+ 
 

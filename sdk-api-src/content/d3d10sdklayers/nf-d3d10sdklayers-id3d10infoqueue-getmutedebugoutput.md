@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_getmutedebugoutput.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getmutedebugoutput.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 9a2ef90e-dbc8-6d45-56ca-751c465da991, GetMuteDebugOutput, GetMuteDebugOutput method [Direct3D 10], GetMuteDebugOutput method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetMuteDebugOutput method, ID3D10InfoQueue.GetMuteDebugOutput, ID3D10InfoQueue::GetMuteDebugOutput, d3d10sdklayers/ID3D10InfoQueue::GetMuteDebugOutput, direct3d10.id3d10infoqueue_getmutedebugoutput
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ Whether the debug output is on or off (true for on, false for off).
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: shell\SHGetFolderLocation.htm
 old-project: shell
 ms.assetid: 6fcac066-1ab0-443a-9994-b68ead3bbc20
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHGetFolderLocation, SHGetFolderLocation function [Windows Shell], _win32_SHGetFolderLocation, shell.SHGetFolderLocation, shlobj_core/SHGetFolderLocation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,14 +64,18 @@ Deprecated. Retrieves the path of a folder as an <a href="https://msdn.microsoft
 
 
 
-### -param hwnd
+### -param hwnd [in]
 
-TBD
+Type: <b>HWND</b>
+
+Reserved.
 
 
-### -param csidl
+### -param csidl [in]
 
-TBD
+Type: <b>int</b>
+
+A <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL</a> value that identifies the folder to be located. The folders associated with the CSIDLs might not exist on a particular system.
 
 
 ### -param hToken [in]
@@ -85,9 +89,9 @@ An <a href="https://msdn.microsoft.com/350159c9-2399-427a-ba44-c897a9664299">acc
 Assigning the <i>hToken</i> parameter a value of -1 indicates the Default User. This allows clients of <b>SHGetFolderLocation</b> to find folder locations (such as the Desktop folder) for the Default User. The Default User user profile is duplicated when any new user account is created, and includes special folders such as <b>My Documents</b> and <b>Desktop</b>. Any items added to the Default User folder also appear in any new user account.
 
 
-### -param dwFlags
+### -param dwFlags [in]
 
-TBD
+Type: <b>DWORD</b>
 
 
 ### -param ppidl [out]
@@ -95,25 +99,6 @@ TBD
 Type: <b>PIDLIST_ABSOLUTE*</b>
 
 The address of a pointer to an item identifier list structure that specifies the folder's location relative to the root of the namespace (the desktop). The <i>ppidl</i> parameter is set to <b>NULL</b> on failure. The calling application is responsible for freeing this resource by calling <a href="https://msdn.microsoft.com/3457f36e-fdfd-44a4-90ca-a86f00bc9f36">ILFree</a>.
-
-
-#### - dwReserved [in]
-
-Type: <b>DWORD</b>
-
-
-#### - hwndOwner [in]
-
-Type: <b>HWND</b>
-
-Reserved.
-
-
-#### - nFolder [in]
-
-Type: <b>int</b>
-
-A <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL</a> value that identifies the folder to be located. The folders associated with the CSIDLs might not exist on a particular system.
 
 
 ## -returns

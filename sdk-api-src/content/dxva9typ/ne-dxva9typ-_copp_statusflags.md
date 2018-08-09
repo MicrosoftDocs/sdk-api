@@ -7,7 +7,7 @@ old-location: dshow\copp_statusflags.htm
 old-project: DirectShow
 ms.assetid: 9109bb2c-1422-4629-b2df-ac877d3cd86e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: COPP_LinkLost, COPP_RenegotiationRequired, COPP_StatusFlags, COPP_StatusFlags , COPP_StatusFlags enumeration [DirectShow], COPP_StatusFlagsEnumeration, COPP_StatusFlagsReserved, COPP_StatusNormal, _COPP_StatusFlags, dshow.copp_statusflags, dxva9typ/COPP_LinkLost, dxva9typ/COPP_RenegotiationRequired, dxva9typ/COPP_StatusFlags, dxva9typ/COPP_StatusFlagsReserved, dxva9typ/COPP_StatusNormal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ Specifies the status of a Certified Output Protection Protocol (COPP) session.
 
 ### -field COPP_StatusNormal
 
-
-            Normal status.
+Normal status.
           
 
 
@@ -81,15 +80,13 @@ The integrity of the connection has been compromised. Examples of events that ca
 
 ### -field COPP_RenegotiationRequired
 
-
-            The connection configuration has changed. For example, the user has changed the desktop display mode.
+The connection configuration has changed. For example, the user has changed the desktop display mode.
           
 
 
 ### -field COPP_StatusFlagsReserved
 
-
-            Reserved. Must be zero.
+Reserved. Must be zero.
           
 
 

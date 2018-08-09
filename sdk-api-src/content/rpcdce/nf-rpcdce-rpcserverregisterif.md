@@ -7,7 +7,7 @@ old-location: rpc\rpcserverregisterif.htm
 old-project: rpc
 ms.assetid: f7f6a7c3-ce6c-4b8b-9853-596c39a0e76d
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcServerRegisterIf, RpcServerRegisterIf function [RPC], _rpc_rpcserverregisterif, rpc.rpcserverregisterif, rpcdce/RpcServerRegisterIf
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ Manager routines' entry-point vector (EPV). To use the MIDL-generated default EP
 
 
 
-
-						Returns RPC_S_OK upon success.
+Returns RPC_S_OK upon success.
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
 <a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>

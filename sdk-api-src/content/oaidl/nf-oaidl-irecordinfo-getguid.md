@@ -7,7 +7,7 @@ old-location: automat\irecordinfo_getguid.htm
 old-project: automat
 ms.assetid: e28ed38a-5cd6-4edb-871e-e69283e4d47e
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: GetGuid, GetGuid method [Automation], GetGuid method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetGuid method, IRecordInfo.GetGuid, IRecordInfo::GetGuid, _oa96_IRecordInfo_GetGuid, automat.irecordinfo_getguid, oaidl/IRecordInfo::GetGuid
 ms.prod: windows
 ms.technology: windows-sdk

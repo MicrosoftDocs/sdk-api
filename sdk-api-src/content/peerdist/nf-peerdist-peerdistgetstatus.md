@@ -7,7 +7,7 @@ old-location: p2p\peerdistgetstatus.htm
 old-project: p2psdk
 ms.assetid: 1ab188cc-db79-49b2-977f-0b8fccf7f274
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerDistGetStatus, PeerDistGetStatus function [Peer Networking], p2p.peerdistgetstatus, peerdist/PeerDistGetStatus
 ms.prod: windows
 ms.technology: windows-sdk

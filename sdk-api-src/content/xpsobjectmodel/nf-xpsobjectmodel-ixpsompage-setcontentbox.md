@@ -7,7 +7,7 @@ old-location: xps\ixpsompage_setcontentbox.htm
 old-project: printdocs
 ms.assetid: 5262ce99-8112-4f4f-a173-5927341b4a2e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetContentBox method, IXpsOMPage.SetContentBox, IXpsOMPage::SetContentBox, SetContentBox, SetContentBox method [XPS Documents and Packaging], SetContentBox method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setcontentbox, xpsobjectmodel/IXpsOMPage::SetContentBox
 ms.prod: windows
 ms.technology: windows-sdk

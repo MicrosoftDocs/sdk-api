@@ -7,7 +7,7 @@ old-location: stg\oleconvertolestreamtoistorage.htm
 old-project: stg
 ms.assetid: 8fed879c-5f97-4450-8259-da9643dd828c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: OleConvertOLESTREAMToIStorage, OleConvertOLESTREAMToIStorage function [Structured Storage], _stg_oleconvertolestreamtoistorage, ole2/OleConvertOLESTREAMToIStorage, stg.oleconvertolestreamtoistorage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>OleConvertOLESTREAMToIStorage</b> function converts the specified object from the OLE 1 storage model to an OLE 2 structured storage object without specifying presentation data.
 <div class="alert"><b>Note</b>  This is one of several compatibility functions.</div><div> </div>
 
@@ -75,15 +74,14 @@ A pointer to the
 ### -param ptd [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/library/ms686613(v=VS.85).aspx">DVTARGETDEVICE</a> structure that specifies the target device for which the OLE 1 object is rendered.
+<a href="https://msdn.microsoft.com/en-us/library/ms686613(v=VS.85).aspx">DVTARGETDEVICE</a> structure that specifies the target device for which the OLE 1 object is rendered.
 
 
 ## -returns
 
 
 
-
-						This function supports the standard return value <b>E_INVALIDARG</b>, in addition to the following:
+This function supports the standard return value <b>E_INVALIDARG</b>, in addition to the following:
 
 
 
@@ -95,7 +93,7 @@ A pointer to the
 This function converts an OLE 1 object to an OLE 2 structured storage object. Use this function to update OLE 1 objects to OLE 2 objects when a new version of the object application supports OLE 2.
 
 On entry, the <i>lpolestm</i> parameter should be created and positioned just as it would be for an 
-<a href="https://msdn.microsoft.com/library/ms680103(v=VS.85).aspx">OleLoadFromStream</a> function call. On exit, the <i>lpolestm</i> parameter is positioned just as it would be on exit from an <b>OleLoadFromStream</b> function, and the <i>pstg</i> parameter contains the uncommitted persistent representation of the OLE 2 storage object.
+<a href="https://msdn.microsoft.com/en-us/library/ms680103(v=VS.85).aspx">OleLoadFromStream</a> function call. On exit, the <i>lpolestm</i> parameter is positioned just as it would be on exit from an <b>OleLoadFromStream</b> function, and the <i>pstg</i> parameter contains the uncommitted persistent representation of the OLE 2 storage object.
 
 For OLE 1 objects that use native data for their presentation, the 
 <b>OleConvertOLESTREAMToIStorage</b> function returns <b>CONVERT10_S_NO_PRESENTATION</b>. On receiving this return value, callers should call <a href="_ole_ioleobject_update">IOleObject::Update</a> to get the presentation data so it can be written to storage.
@@ -113,7 +111,7 @@ The following procedure describes the conversion process using
 <li>Create a root 
 <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> object by calling the 
 <a href="https://msdn.microsoft.com/3292484b-8eff-438d-b989-b58ae323872b">StgCreateDocfile</a> function (..., &amp;<i>pstg</i>).</li>
-<li>Open the OLE 1 file (using <a href="https://msdn.microsoft.com/library/Mt432779(v=VS.85).aspx">OpenFile</a> or another OLE 1 technique).</li>
+<li>Open the OLE 1 file (using <a href="https://msdn.microsoft.com/en-us/library/Mt432779(v=VS.85).aspx">OpenFile</a> or another OLE 1 technique).</li>
 <li>Read from the file, using the OLE 1 procedure for reading files, until an OLE object is found.</li>
 <li>Allocate an 
 <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> object from the root 
@@ -143,11 +141,11 @@ hRes = OleLoad(pStgChild, &amp;IID_IOleObject, pClientSite, ppvObj);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680738(v=VS.85).aspx">CoIsOle1Class</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680738(v=VS.85).aspx">CoIsOle1Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686613(v=VS.85).aspx">DVTARGETDEVICE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686613(v=VS.85).aspx">DVTARGETDEVICE</a>
 
 
 
@@ -163,11 +161,11 @@ hRes = OleLoad(pStgChild, &amp;IID_IOleObject, pClientSite, ppvObj);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms683812(v=VS.85).aspx">STGMEDIUM</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx">STGMEDIUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691227(v=VS.85).aspx">TYMED</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691227(v=VS.85).aspx">TYMED</a>
  
 
  

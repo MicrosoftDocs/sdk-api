@@ -7,7 +7,7 @@ old-location: tsf\ienumtfcontexts.htm
 old-project: TSF
 ms.assetid: 20b342e6-cac4-4bc5-820b-e397e0ce4648
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumTfContexts, IEnumTfContexts interface [Text Services Framework], IEnumTfContexts interface [Text Services Framework],described, _tsf_ienumtfcontexts_ref, msctf/IEnumTfContexts, tsf.ienumtfcontexts
 ms.prod: windows
 ms.technology: windows-sdk

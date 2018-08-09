@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestproperties_getstringvalue.htm
 old-project: appxpkg
 ms.assetid: 3EF2D8A2-37B2-4E57-9FD3-DA05FA90749C
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: GetStringValue, GetStringValue method [App packaging and management], GetStringValue method [App packaging and management],IAppxManifestProperties interface, IAppxManifestProperties interface [App packaging and management],GetStringValue method, IAppxManifestProperties.GetStringValue, IAppxManifestProperties::GetStringValue, appxpackaging/IAppxManifestProperties::GetStringValue, appxpkg.iappxmanifestproperties_getstringvalue
 ms.prod: windows
 ms.technology: windows-sdk

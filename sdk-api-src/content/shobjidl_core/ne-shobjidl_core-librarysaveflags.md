@@ -7,7 +7,7 @@ old-location: shell\LIBRARYSAVEFLAGS.htm
 old-project: shell
 ms.assetid: cae52226-0030-457b-aebf-00aaf860243d
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: LIBRARYSAVEFLAGS, LIBRARYSAVEFLAGS enumeration [Windows Shell], LSF_FAILIFTHERE, LSF_MAKEUNIQUENAME, LSF_OVERRIDEEXISTING, _shell_LIBRARYSAVEFLAGS, shell.LIBRARYSAVEFLAGS, shobjidl_core/LIBRARYSAVEFLAGS, shobjidl_core/LSF_FAILIFTHERE, shobjidl_core/LSF_MAKEUNIQUENAME, shobjidl_core/LSF_OVERRIDEEXISTING
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Internet Explorer 6.01
 ## -description
 
 
-
-         Specifies the options for handling a name collision when saving a library.
+Specifies the options for handling a name collision when saving a library.
       
 
 
@@ -63,22 +62,19 @@ req.product: Internet Explorer 6.01
 
 ### -field LSF_FAILIFTHERE
 
-
-            If a library with the same name already exists, the save operation fails.
+If a library with the same name already exists, the save operation fails.
          
 
 
 ### -field LSF_OVERRIDEEXISTING
 
-
-            If a library with the same name already exists, the save operation overwrites the existing library.
+If a library with the same name already exists, the save operation overwrites the existing library.
          
 
 
 ### -field LSF_MAKEUNIQUENAME
 
-
-            If a library with the same name already exists, the save operation generates a new, unique name for the library.
+If a library with the same name already exists, the save operation generates a new, unique name for the library.
          
 
 

@@ -7,7 +7,7 @@ old-location: com\ioleundomanager_open.htm
 old-project: com
 ms.assetid: b494d5b9-5def-4249-8b6d-37b26993cc24
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IOleUndoManager interface [COM],Open method, IOleUndoManager.Open, IOleUndoManager::Open, Open, Open method [COM], Open method [COM],IOleUndoManager interface, _ole_ioleundomanager_open, com.ioleundomanager_open, ocidl/IOleUndoManager::Open
 ms.prod: windows
 ms.technology: windows-sdk

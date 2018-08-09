@@ -7,7 +7,7 @@ old-location: shell\SHGetRealIDL.htm
 old-project: shell
 ms.assetid: 0c0b63c9-7ca7-4f73-be74-9c492f8506fc
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHGetRealIDL, SHGetRealIDL function [Windows Shell], _win32_SHGetRealIDL, shell.SHGetRealIDL, shlobj_core/SHGetRealIDL
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\getcurrentclusternodeid.htm
 old-project: mscs
 ms.assetid: 289abaaa-d063-4e99-91e7-441c58f7f75c
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: GetCurrentClusterNodeId, GetCurrentClusterNodeId macro [Failover Cluster], clusapi/GetCurrentClusterNodeId, mscs.getcurrentclusternodeid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,18 +73,18 @@ On input, pointer to the count of characters in the buffer pointed to by the
        terminator.
 
 
+#### - lpszNodeId [out]
+
+This parameter points to a buffer that receives the unique ID of <i>hNode</i>, including 
+       the terminating <b>NULL</b> character.
+
+
 #### - lpcchName [in, out]
 
 On input, pointer to the count of characters in the buffer pointed to by the 
        <i>lpszNodeId</i> parameter, including the <b>NULL</b> terminator. On 
        output, pointer to the count of characters stored in the buffer excluding the <b>NULL</b> 
        terminator.
-
-
-#### - lpszNodeId [out]
-
-This parameter points to a buffer that receives the unique ID of <i>hNode</i>, including 
-       the terminating <b>NULL</b> character.
 
 
 ## -remarks

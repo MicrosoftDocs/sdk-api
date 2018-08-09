@@ -7,7 +7,7 @@ old-location: security\accesscheckbytyperesultlistandauditalarmbyhandle.htm
 old-project: secauthz
 ms.assetid: 7d3ddce4-40a2-483d-8cff-48d89313b383
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 08/06/2018
 ms.keywords: AccessCheckByTypeResultListAndAuditAlarmByHandle, AccessCheckByTypeResultListAndAuditAlarmByHandle function [Security], AccessCheckByTypeResultListAndAuditAlarmByHandleA, AccessCheckByTypeResultListAndAuditAlarmByHandleW, _win32_accesscheckbytyperesultlistandauditalarmbyhandle, security.accesscheckbytyperesultlistandauditalarmbyhandle, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandle, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandleA, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandleW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,8 +60,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-   The <b>AccessCheckByTypeResultListAndAuditAlarmByHandle</b> function determines whether a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> grants a specified set of access rights to the client that the calling thread is impersonating. The difference between this function and 
+The <b>AccessCheckByTypeResultListAndAuditAlarmByHandle</b> function determines whether a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> grants a specified set of access rights to the client that the calling thread is impersonating. The difference between this function and 
 <a href="https://msdn.microsoft.com/4b53a15a-5a6b-40c7-acf8-26b1f4bca4ae">AccessCheckByTypeResultListAndAuditAlarm</a> is that this function allows the calling thread to perform the access check before impersonating the client.
 
 The function can check access to a hierarchy of objects, such as an object, its property sets, and properties. The function reports the access rights granted or denied to each object type in the hierarchy. If the security descriptor has a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL) with <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entries</a> (ACEs) that apply to the client, the function generates any necessary audit messages in the security event log. Alarms are not currently supported.
@@ -97,9 +96,10 @@ A pointer to a null-terminated string that specifies the type of object being cr
 A pointer to a null-terminated string that specifies the name of the object being created or accessed. This string appears in any audit message that the function generates.
 
 
-### -param SecurityDescriptor
+### -param SecurityDescriptor [in]
 
-TBD
+A pointer to a 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure against which access is checked.
 
 
 ### -param PrincipalSelfSid [in, optional]
@@ -153,9 +153,9 @@ A pointer to the
 A flag that determines whether the calling application will create a new object when access is granted. A value of <b>TRUE</b> indicates the application will create a new object. A value of <b>FALSE</b> indicates the application will open an existing object.
 
 
-### -param GrantedAccess [out]
+### -param GrantedAccess
 
-A pointer to an array of access masks. The function sets each access mask to indicate the access rights granted to the corresponding element in the object type list. If the function fails, it does not set the access masks.
+TBD
 
 
 ### -param AccessStatusList [out]
@@ -169,10 +169,9 @@ A pointer to a flag set by the audit-generation routine when the function return
 <a href="https://msdn.microsoft.com/274f3a62-1833-402b-b362-f526b2bee14b">ObjectCloseAuditAlarm</a> function when the object handle is closed.
 
 
-#### - pSecurityDescriptor [in]
+#### - GrantedAccessList [out]
 
-A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure against which access is checked.
+A pointer to an array of access masks. The function sets each access mask to indicate the access rights granted to the corresponding element in the object type list. If the function fails, it does not set the access masks.
 
 
 ## -returns
@@ -247,7 +246,7 @@ If the security descriptor does not contain owner and group SIDs, <b>AccessCheck
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: gdi\cfp_reallocproc.htm
 old-project: gdi
 ms.assetid: 06c45ea3-1776-4f9c-a931-461d0b697535
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: CFP_REALLOCPROC, CFP_REALLOCPROC callback, CFP_REALLOCPROC callback function [Windows GDI], _win32_CFP_REALLOCPROC, fontsub/CFP_REALLOCPROC, gdi.cfp_reallocproc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-
-          
-        Client-provided callback function, used by <a href="https://msdn.microsoft.com/aeea47c7-af55-46c4-b701-e00ec7540d24">CreateFontPackage</a> and <a href="https://msdn.microsoft.com/c51110a0-286c-4d97-9da5-4186ebf8f9b8">MergeFontPackage</a> to reallocate memory when the size of an allocated buffer needs to change.
+Client-provided callback function, used by <a href="https://msdn.microsoft.com/aeea47c7-af55-46c4-b701-e00ec7540d24">CreateFontPackage</a> and <a href="https://msdn.microsoft.com/c51110a0-286c-4d97-9da5-4186ebf8f9b8">MergeFontPackage</a> to reallocate memory when the size of an allocated buffer needs to change.
 
 
 ## -parameters
@@ -97,8 +95,7 @@ Returns a void pointer to the reallocated (and possibly moved) memory block. The
 
 
 
-<a href="2b2239de-810b-4b11-9438-32ab0a244185">realloc</a>
-      conforms to this type; the application can either use <b>realloc</b> or a more specialized function for memory reallocation. Whatever function is chosen, there must also be appropriate functions for initial allocation and to free this memory.
+<a href="2b2239de-810b-4b11-9438-32ab0a244185">realloc</a>conforms to this type; the application can either use <b>realloc</b> or a more specialized function for memory reallocation. Whatever function is chosen, there must also be appropriate functions for initial allocation and to free this memory.
 
 
 

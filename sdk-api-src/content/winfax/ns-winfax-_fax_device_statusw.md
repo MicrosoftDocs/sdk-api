@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_device_status_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6vle.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: "*PFAX_DEVICE_STATUSW, FAX_DEVICE_STATUS, FAX_DEVICE_STATUS structure [Fax Service], FAX_DEVICE_STATUSA, FAX_DEVICE_STATUSW, FPS_ABORTING, FPS_ANSWERED, FPS_AVAILABLE, FPS_BAD_ADDRESS, FPS_BUSY, FPS_CALL_BLACKLISTED, FPS_CALL_DELAYED, FPS_COMPLETED, FPS_DIALING, FPS_DISCONNECTED, FPS_FATAL_ERROR, FPS_HANDLED, FPS_INITIALIZING, FPS_NOT_FAX_CALL, FPS_NO_ANSWER, FPS_NO_DIAL_TONE, FPS_OFFLINE, FPS_RECEIVING, FPS_RINGING, FPS_ROUTING, FPS_SENDING, FPS_UNAVAILABLE, JT_RECEIVE, JT_SEND, JT_UNKNOWN, PFAX_DEVICE_STATUS, PFAX_DEVICE_STATUS structure pointer [Fax Service], _FAX_DEVICE_STATUSW, _mfax_fax_device_status_str, fax._mfax_fax_device_status_str, winfax/FAX_DEVICE_STATUS, winfax/FAX_DEVICE_STATUSA, winfax/FAX_DEVICE_STATUSW, winfax/PFAX_DEVICE_STATUS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -357,14 +357,14 @@ Type: <b>LPCTSTR</b>
 Pointer to a constant null-terminated character string that specifies the name of the user who submitted the active fax job.
 
 
-##### - JobType.JT_RECEIVE
-
-The fax device is receiving a fax document.
-
-
 ##### - JobType.JT_SEND
 
 The fax device is sending a fax document.
+
+
+##### - JobType.JT_RECEIVE
+
+The fax device is receiving a fax document.
 
 
 ##### - JobType.JT_UNKNOWN
@@ -372,39 +372,19 @@ The fax device is sending a fax document.
 The fax device is in an unknown or idle state.
 
 
-##### - Status.FPS_ABORTING
+##### - Status.FPS_DIALING
 
-The device is aborting a fax job.
-
-
-##### - Status.FPS_ANSWERED
-
-The device answered a new call.
+The device is dialing a fax number.
 
 
-##### - Status.FPS_AVAILABLE
+##### - Status.FPS_SENDING
 
-The device is available.
-
-
-##### - Status.FPS_BAD_ADDRESS
-
-The device dialed an invalid fax number.
+The device is sending a fax document.
 
 
-##### - Status.FPS_BUSY
+##### - Status.FPS_RECEIVING
 
-The device has encountered a busy signal.
-
-
-##### - Status.FPS_CALL_BLACKLISTED
-
-The device could not complete a call because the telephone number was blocked or reserved; numbers such as 911 are blocked.
-
-
-##### - Status.FPS_CALL_DELAYED
-
-The device delayed a fax call because the sending device received a busy signal multiple times. The device cannot retry the call because dialing restrictions exist. (Some countries/regions restrict the number of retry attempts when a number is busy.) 
+The device is receiving a fax document.
 
 
 ##### - Status.FPS_COMPLETED
@@ -412,9 +392,29 @@ The device delayed a fax call because the sending device received a busy signal 
 The device has completed sending or receiving a fax transmission.
 
 
-##### - Status.FPS_DIALING
+##### - Status.FPS_UNAVAILABLE
 
-The device is dialing a fax number.
+The device is not available because it is in use by another application.
+
+
+##### - Status.FPS_BUSY
+
+The device has encountered a busy signal.
+
+
+##### - Status.FPS_NO_ANSWER
+
+The receiving device did not answer the call.
+
+
+##### - Status.FPS_BAD_ADDRESS
+
+The device dialed an invalid fax number.
+
+
+##### - Status.FPS_NO_DIAL_TONE
+
+The sending device cannot complete the call because it does not detect a dial tone.
 
 
 ##### - Status.FPS_DISCONNECTED
@@ -427,9 +427,19 @@ The fax call was disconnected by the sender or the caller.
 The device encountered a fatal protocol error.
 
 
-##### - Status.FPS_HANDLED
+##### - Status.FPS_NOT_FAX_CALL
 
-The fax service processed the outbound fax document; the fax service provider will transmit the document.
+The device has received a data call or a voice call.
+
+
+##### - Status.FPS_CALL_DELAYED
+
+The device delayed a fax call because the sending device received a busy signal multiple times. The device cannot retry the call because dialing restrictions exist. (Some countries/regions restrict the number of retry attempts when a number is busy.) 
+
+
+##### - Status.FPS_CALL_BLACKLISTED
+
+The device could not complete a call because the telephone number was blocked or reserved; numbers such as 911 are blocked.
 
 
 ##### - Status.FPS_INITIALIZING
@@ -437,29 +447,9 @@ The fax service processed the outbound fax document; the fax service provider wi
 The device is initializing a call.
 
 
-##### - Status.FPS_NOT_FAX_CALL
-
-The device has received a data call or a voice call.
-
-
-##### - Status.FPS_NO_ANSWER
-
-The receiving device did not answer the call.
-
-
-##### - Status.FPS_NO_DIAL_TONE
-
-The sending device cannot complete the call because it does not detect a dial tone.
-
-
 ##### - Status.FPS_OFFLINE
 
 The device is offline and unavailable.
-
-
-##### - Status.FPS_RECEIVING
-
-The device is receiving a fax document.
 
 
 ##### - Status.FPS_RINGING
@@ -467,19 +457,29 @@ The device is receiving a fax document.
 The device is ringing.
 
 
+##### - Status.FPS_AVAILABLE
+
+The device is available.
+
+
+##### - Status.FPS_ABORTING
+
+The device is aborting a fax job.
+
+
 ##### - Status.FPS_ROUTING
 
 The device is routing a received fax document.
 
 
-##### - Status.FPS_SENDING
+##### - Status.FPS_ANSWERED
 
-The device is sending a fax document.
+The device answered a new call.
 
 
-##### - Status.FPS_UNAVAILABLE
+##### - Status.FPS_HANDLED
 
-The device is not available because it is in use by another application.
+The fax service processed the outbound fax document; the fax service provider will transmit the document.
 
 
 ## -remarks

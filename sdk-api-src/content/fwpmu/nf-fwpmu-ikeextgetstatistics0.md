@@ -7,7 +7,7 @@ old-location: fwp\ikeextgetstatistics0.htm
 old-project: fwp
 ms.assetid: 1fbcd013-b556-41c0-bfbb-25e4ab2f6291
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IkeextGetStatistics0, IkeextGetStatistics0 function [Filtering], fwp.ikeextgetstatistics0, fwpmu/IkeextGetStatistics0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-
-		The <b>IkeextGetStatistics0</b> function retrieves Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) statistics.
+The <b>IkeextGetStatistics0</b> function retrieves Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) statistics.
 <div class="alert"><b>Note</b>  <b>IkeextGetStatistics0</b> is the specific implementation of IkeextGetStatistics used in Windows Vista. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://msdn.microsoft.com/c1742e08-a998-4773-a216-cfbbee8608b7">IkeextGetStatistics1</a> is available.</div><div> </div>
 
 ## -parameters

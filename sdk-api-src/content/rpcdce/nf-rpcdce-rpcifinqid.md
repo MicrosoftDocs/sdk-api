@@ -7,7 +7,7 @@ old-location: rpc\rpcifinqid.htm
 old-project: rpc
 ms.assetid: 1b91e88c-b242-472f-b719-60f96599cb67
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcIfInqId, RpcIfInqId function [RPC], _rpc_rpcifinqid, rpc.rpcifinqid, rpcdce/RpcIfInqId
 ms.prod: windows
 ms.technology: windows-sdk

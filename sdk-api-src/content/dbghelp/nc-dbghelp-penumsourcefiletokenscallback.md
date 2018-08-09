@@ -7,7 +7,7 @@ old-location: base\symenumsourcefiletokensproc.htm
 old-project: debug
 ms.assetid: 20c0eb1e-671b-4d31-88d4-57f2c149fcd9
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: PENUMSOURCEFILETOKENSCALLBACK, PENUMSOURCEFILETOKENSCALLBACK callback, SymEnumSourceFileTokensProc, SymEnumSourceFileTokensProc callback function, base.symenumsourcefiletokensproc, dbghelp/SymEnumSourceFileTokensProc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ The size of the data in the <i>token</i> parameter.
 
 
 
-
-						If the function returns <b>TRUE</b>, the enumeration will continue.
+If the function returns <b>TRUE</b>, the enumeration will continue.
 						
 
 If the function returns <b>FALSE</b>, the enumeration will stop.

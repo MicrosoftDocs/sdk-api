@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shadertrace_psselectstamp.htm
 old-project: direct3d11
 ms.assetid: 83967A6B-E8AC-4812-8D55-62F4C065E723
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D11ShaderTrace interface [Direct3D 11],PSSelectStamp method, ID3D11ShaderTrace.PSSelectStamp, ID3D11ShaderTrace::PSSelectStamp, PSSelectStamp, PSSelectStamp method [Direct3D 11], PSSelectStamp method [Direct3D 11],ID3D11ShaderTrace interface, d3d11shadertracing/ID3D11ShaderTrace::PSSelectStamp, direct3d11.id3d11shadertrace_psselectstamp
 ms.prod: windows
 ms.technology: windows-sdk

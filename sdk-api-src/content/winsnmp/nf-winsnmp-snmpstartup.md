@@ -4,10 +4,10 @@ title: SnmpStartup function
 author: windows-sdk-content
 description: The SnmpStartup function notifies the Microsoft WinSNMP implementation that the WinSNMP application requires the implementation's services.
 old-location: snmp\snmpstartup.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 7b8a4a1e-871f-424b-8bcb-c0b3bfaae9ce
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpStartup, SnmpStartup function [SNMP], _snmp_snmpstartup, snmp.snmpstartup, winsnmp/SnmpStartup
 ms.prod: windows
 ms.technology: windows-sdk

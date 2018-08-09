@@ -7,7 +7,7 @@ old-location: mf\imfasfmutualexclusion_addstreamforrecord.htm
 old-project: medfound
 ms.assetid: cfbfe3be-b0a4-408a-952e-e4f996f94cee
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: AddStreamForRecord, AddStreamForRecord method [Media Foundation], AddStreamForRecord method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],AddStreamForRecord method, IMFASFMutualExclusion.AddStreamForRecord, IMFASFMutualExclusion::AddStreamForRecord, cfbfe3be-b0a4-408a-952e-e4f996f94cee, mf.imfasfmutualexclusion_addstreamforrecord, wmcontainer/IMFASFMutualExclusion::AddStreamForRecord
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MFASF_STREAMSELECTOR_FLAGS
+req.typenames: MFSINK_WMDRMACTION
 topic_type:
  - APIRef
  - kbSyntax

@@ -4,10 +4,10 @@ title: ISettingsItem::RemoveListElement
 author: windows-sdk-content
 description: Removes an existing list element of the supplied name.
 old-location: smi\isettingsitem_removelistelement.htm
-old-project: SMI
+old-project: smi
 ms.assetid: 4dca22b5-b4e3-4bb6-9eb4-5507472b63b2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: ISettingsItem interface [SMI],RemoveListElement method, ISettingsItem.RemoveListElement, ISettingsItem::RemoveListElement, RemoveListElement, RemoveListElement method [SMI], RemoveListElement method [SMI],ISettingsItem interface, smi.isettingsitem_removelistelement, wcmconfig/ISettingsItem::RemoveListElement
 ms.prod: windows
 ms.technology: windows-sdk

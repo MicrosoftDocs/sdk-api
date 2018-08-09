@@ -7,7 +7,7 @@ old-location: controls\Header_SetBitmapMargin.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setbitmapmargin.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Header_SetBitmapMargin, Header_SetBitmapMargin macro [Windows Controls], _win32_Header_SetBitmapMargin, _win32_Header_SetBitmapMargin_cpp, commctrl/Header_SetBitmapMargin, controls.Header_SetBitmapMargin, controls._win32_Header_SetBitmapMargin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the width of the margin for a bitmap in an existing header control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775357(v=VS.85).aspx">HDM_SETBITMAPMARGIN</a> message explicitly. 
+Sets the width of the margin for a bitmap in an existing header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775357(v=VS.85).aspx">HDM_SETBITMAPMARGIN</a> message explicitly. 
 
 
 ## -parameters
@@ -77,7 +77,7 @@ The width, specified in pixels, of the margin that surrounds a bitmap within an 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775385(v=VS.85).aspx">Header_GetBitmapMargin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775385(v=VS.85).aspx">Header_GetBitmapMargin</a>
  
 
  

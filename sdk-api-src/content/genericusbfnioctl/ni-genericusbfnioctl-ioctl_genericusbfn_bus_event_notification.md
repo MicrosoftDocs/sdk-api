@@ -7,7 +7,7 @@ old-location: buses\ioctl_genericusbfn_bus_event_notification.htm
 old-project: usbref
 ms.assetid: 1DFDF22D-D86D-4875-B11D-45C0577B6281
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 08/06/2018
 ms.keywords: IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION, IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION control, IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION control code [Buses], buses.ioctl_genericusbfn_bus_event_notification, genericusbfnioctl/IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-This  I/O control code (IOCTL) is sent by a user-mode  service or application to register for Universal Serial Bus (USB) event. After this request completes, notifications about events  such as a change in the port type or the receipt of a non-standard setup packet can be received. 
-   	The <b>USBFN_NOTIFICATION</b> structure contained in the output buffer specifies which event has occurred and any associated data.
+This  I/O control code (IOCTL) is sent by a user-mode  service or application to register for Universal Serial Bus (USB) event. After this request completes, notifications about events  such as a change in the port type or the receipt of a non-standard setup packet can be received. The <b>USBFN_NOTIFICATION</b> structure contained in the output buffer specifies which event has occurred and any associated data.
 
 
 ## -ioctlparameters

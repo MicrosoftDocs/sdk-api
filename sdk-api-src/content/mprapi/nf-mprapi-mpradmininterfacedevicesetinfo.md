@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfacedevicesetinfo.htm
 old-project: rras
 ms.assetid: ae8b3762-f176-4f91-97fc-33f7a9dcd424
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminInterfaceDeviceSetInfo, MprAdminInterfaceDeviceSetInfo function [RAS], _mpr_mpradmininterfacedevicesetinfo, mprapi/MprAdminInterfaceDeviceSetInfo, rras.mpradmininterfacedevicesetinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,14 +103,7 @@ A DWORD value that describes the format in which the information is structured i
  
 
 
-### -param lpbBuffer
-
-TBD
-
-
-
-
-#### - lplpBuffer [in]
+### -param lpbBuffer [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/1814c428-1a3c-45f3-8b15-182e1eceff7b">MPR_DEVICE_0</a> or <a href="https://msdn.microsoft.com/99245e45-114d-4933-9189-cd45a1c22a96">MPR_DEVICE_1</a> structure. The <i>dwLevel</i> parameter indicates the type of structure.
 					

@@ -4,10 +4,10 @@ title: PdhGetCounterInfoW function
 author: windows-sdk-content
 description: Retrieves information about a counter, such as data size, counter type, path, and user-supplied data values.
 old-location: perf\pdhgetcounterinfo.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 12e1a194-5418-4c2a-9853-ef2d2c666893
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhGetCounterInfo, PdhGetCounterInfo function [Perf], PdhGetCounterInfoA, PdhGetCounterInfoW, _win32_pdhgetcounterinfo, base.pdhgetcounterinfo, pdh/PdhGetCounterInfo, pdh/PdhGetCounterInfoA, pdh/PdhGetCounterInfoW, perf.pdhgetcounterinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,8 +88,7 @@ Caller-allocated buffer that receives a
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

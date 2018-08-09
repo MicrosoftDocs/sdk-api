@@ -7,7 +7,7 @@ old-location: tsf\itfcategorymgr_registercategory.htm
 old-project: TSF
 ms.assetid: 9e9a72a8-ea9b-4438-992c-5a7db64f7d82
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],RegisterCategory method, ITfCategoryMgr.RegisterCategory, ITfCategoryMgr::RegisterCategory, RegisterCategory, RegisterCategory method [Text Services Framework], RegisterCategory method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_registercategory_ref, msctf/ITfCategoryMgr::RegisterCategory, tsf.itfcategorymgr_registercategory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,14 +122,12 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/73013bc1-4623-4e00-b87b-29ea3d728e9f">
-        ITfCategoryMgr::UnregisterCategory
+<a href="https://msdn.microsoft.com/73013bc1-4623-4e00-b87b-29ea3d728e9f">ITfCategoryMgr::UnregisterCategory
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/04c0632d-ac64-4081-ba95-c11feb3f40dd">
-        Predefined Category Values
+<a href="https://msdn.microsoft.com/04c0632d-ac64-4081-ba95-c11feb3f40dd">Predefined Category Values
       </a>
  
 

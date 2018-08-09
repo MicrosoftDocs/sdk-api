@@ -4,10 +4,10 @@ title: SspiDecryptAuthIdentity function
 author: windows-sdk-content
 description: Decrypts the specified encrypted credential.
 old-location: security\sspidecryptauthidentity.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: aef0206c-c376-4877-b1a6-5e86d2e35dea
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SspiDecryptAuthIdentity, SspiDecryptAuthIdentity function [Security], security.sspidecryptauthidentity, sspi/SspiDecryptAuthIdentity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SspiDecryptAuthIdentity function

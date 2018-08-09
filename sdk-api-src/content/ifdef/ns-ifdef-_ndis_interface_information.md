@@ -7,7 +7,7 @@ old-location: netvista\ndis_interface_information_str.htm
 old-project: netvista
 ms.assetid: 9bfcd319-faff-4bae-8653-511154c19863
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 07/30/2018
 ms.keywords: "*PNDIS_INTERFACE_INFORMATION, NDIS_INTERFACE_INFORMATION, NDIS_INTERFACE_INFORMATION structure [Network Drivers Starting with Windows Vista], PNDIS_INTERFACE_INFORMATION, PNDIS_INTERFACE_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_INTERFACE_INFORMATION, ifdef/NDIS_INTERFACE_INFORMATION, ifdef/PNDIS_INTERFACE_INFORMATION, net_if_struct_ref_7b31aa66-635c-4992-b5d6-301c004bdc8a.xml, netvista.ndis_interface_information_str"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ The operational status flags of the interface. This field is reserved for the ND
 ### -field MediaConnectState
 
 The 
-     <a href="https://msdn.microsoft.com/5af5e050-4b2b-45a9-8549-3a3818d7b06f">
-     NET_IF_MEDIA_CONNECT_STATE</a> connection state type.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568744">NET_IF_MEDIA_CONNECT_STATE</a> connection state type.
 
 
 ### -field MediaDuplexState
@@ -215,16 +214,14 @@ The number of directed packets that are transmitted without errors on the interf
 
 The number of multicast/functional packets that are transmitted without errors on the interface.
      This number is the same as the value that an 
-     <a href="netvista.oid_gen_multicast_frames_xmit">
-     OID_GEN_MULTICAST_FRAMES_XMIT</a> OID query returns.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569614">OID_GEN_MULTICAST_FRAMES_XMIT</a> OID query returns.
 
 
 ### -field ifHCOutBroadcastPkts
 
 The number of broadcast packets that are transmitted without errors on the interface. This number
      is the same as the value that an 
-     <a href="netvista.oid_gen_broadcast_frames_xmit">
-     OID_GEN_BROADCAST_FRAMES_XMIT</a> OID query returns.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569442">OID_GEN_BROADCAST_FRAMES_XMIT</a> OID query returns.
 
 
 ### -field ifOutErrors
@@ -246,48 +243,42 @@ The number of packets that the interface discards. This number is the same as th
 
 The number of bytes in directed packets that are received without errors. This count is the same
      value that 
-     <a href="netvista.oid_gen_directed_bytes_rcv">
-     OID_GEN_DIRECTED_BYTES_RCV</a> returns.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569577">OID_GEN_DIRECTED_BYTES_RCV</a> returns.
 
 
 ### -field ifHCInMulticastOctets
 
 The number of bytes in multicast/functional packets that are received without errors. This count
      is the same value that 
-     <a href="netvista.oid_gen_multicast_bytes_rcv">
-     OID_GEN_MULTICAST_BYTES_RCV</a> returns.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569611">OID_GEN_MULTICAST_BYTES_RCV</a> returns.
 
 
 ### -field ifHCInBroadcastOctets
 
 The number of bytes in broadcast packets that are received without errors. This count is the same
      value that 
-     <a href="netvista.oid_gen_broadcast_bytes_rcv">
-     OID_GEN_BROADCAST_BYTES_RCV</a> returns.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569439">OID_GEN_BROADCAST_BYTES_RCV</a> returns.
 
 
 ### -field ifHCOutUcastOctets
 
 The number of bytes in directed packets that are transmitted without errors. This count is the
      same value that 
-     <a href="netvista.oid_gen_directed_bytes_xmit">
-     OID_GEN_DIRECTED_BYTES_XMIT</a> returns.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569578">OID_GEN_DIRECTED_BYTES_XMIT</a> returns.
 
 
 ### -field ifHCOutMulticastOctets
 
 The number of bytes in multicast/functional packets that are transmitted without errors. This
      count is the same value that 
-     <a href="netvista.oid_gen_multicast_bytes_xmit">
-     OID_GEN_MULTICAST_BYTES_XMIT</a> returns.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569612">OID_GEN_MULTICAST_BYTES_XMIT</a> returns.
 
 
 ### -field ifHCOutBroadcastOctets
 
 The number of bytes in broadcast packets that are transmitted without errors. This count is the
      same value that 
-     <a href="netvista.oid_gen_broadcast_bytes_xmit">
-     OID_GEN_BROADCAST_BYTES_XMIT</a> returns.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569440">OID_GEN_BROADCAST_BYTES_XMIT</a> returns.
 
 
 ### -field CompartmentId
@@ -302,8 +293,7 @@ The compartment that the interface belongs to, if the interface provider can pro
 
 The supported statistics. For more information, see the 
      <b>SupportedStatistics</b> member of the 
-     <a href="https://msdn.microsoft.com/5423d073-02a5-468b-b91e-713ac67a5253">
-     NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff565923">NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a> structure.
 
 
 ## -remarks
@@ -316,8 +306,7 @@ NDIS interface providers populate an NDIS_INTERFACE_INFORMATION structure in res
     structure contains information that changes during the lifetime of the interface.
 
 To register as an interface provider, an NDIS driver calls the 
-    <a href="https://msdn.microsoft.com/1624426b-9e67-4aa2-83d8-f1e6fa484858">
-    NdisIfRegisterProvider</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562716">NdisIfRegisterProvider</a> function.
 
 
 
@@ -331,8 +320,7 @@ To register as an interface provider, an NDIS driver calls the
 
 
 
-<a href="https://msdn.microsoft.com/5423d073-02a5-468b-b91e-713ac67a5253">
-   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565923">NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
 
 
 

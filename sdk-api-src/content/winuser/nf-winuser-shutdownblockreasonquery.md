@@ -4,10 +4,10 @@ title: ShutdownBlockReasonQuery function
 author: windows-sdk-content
 description: Retrieves the reason string set by the ShutdownBlockReasonCreate function.
 old-location: base\shutdownblockreasonquery.htm
-old-project: Shutdown
+old-project: shutdown
 ms.assetid: 8c92ebbb-1692-4c14-b32a-17f59b8ab7a3
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: ShutdownBlockReasonQuery, ShutdownBlockReasonQuery function, base.shutdownblockreasonquery, winuser/ShutdownBlockReasonQuery
 ms.prod: windows
 ms.technology: windows-sdk

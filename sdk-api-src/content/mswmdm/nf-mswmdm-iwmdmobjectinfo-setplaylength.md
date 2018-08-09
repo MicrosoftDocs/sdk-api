@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmobjectinfo_setplaylength.htm
 old-project: WMDM
 ms.assetid: 7dfa6443-4eb8-4a88-8af1-c082750e8d22
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: IWMDMObjectInfo interface [windows Media Device Manager],SetPlayLength method, IWMDMObjectInfo.SetPlayLength, IWMDMObjectInfo::SetPlayLength, IWMDMObjectInfoSetPlayLength, SetPlayLength, SetPlayLength method [windows Media Device Manager], SetPlayLength method [windows Media Device Manager],IWMDMObjectInfo interface, mswmdm/IWMDMObjectInfo::SetPlayLength, wmdm.iwmdmobjectinfo_setplaylength
 ms.prod: windows
 ms.technology: windows-sdk

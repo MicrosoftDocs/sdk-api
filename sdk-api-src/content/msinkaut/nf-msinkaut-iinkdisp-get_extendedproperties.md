@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_extendedproperties.htm
 old-project: tablet
 ms.assetid: 0272c1e9-d910-4a9a-9dee-9d875437ca99
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ExtendedProperties property [Tablet PC], ExtendedProperties property [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ExtendedProperties property, IInkDisp.ExtendedProperties, IInkDisp.get_ExtendedProperties, IInkDisp::ExtendedProperties, IInkDisp::get_ExtendedProperties, InkDisp.get_ExtendedProperties, get_ExtendedProperties, msinkaut/IInkDisp::ExtendedProperties, msinkaut/IInkDisp::get_ExtendedProperties, tablet.inkdisp_extendedproperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-          Gets the collection of application-defined data that are stored in an object.
+Gets the collection of application-defined data that are stored in an object.
         
 
 This property is read-only.

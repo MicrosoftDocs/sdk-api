@@ -7,7 +7,7 @@ old-location: mmc\view_back.htm
 old-project: MMC
 ms.assetid: 4b7f5dd6-71cc-4387-852e-0839493a6999
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: Back, Back method [MMC], Back method [MMC],View interface, Back method [MMC],View object, View interface [MMC],Back method, View object [MMC],Back method, View.Back, View::Back, _slate_view.back_method, mmc.view_back
 ms.prod: windows
 ms.technology: windows-sdk

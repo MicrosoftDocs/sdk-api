@@ -7,7 +7,7 @@ old-location: ad\dsreplicamodify.htm
 old-project: ad
 ms.assetid: aad20527-1211-41bc-b0e9-02e4ab28ae2e
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DS_REPL_NBR_COMPRESS_CHANGES, DS_REPL_NBR_DISABLE_SCHEDULED_SYNC, DS_REPL_NBR_DO_SCHEDULED_SYNCS, DS_REPL_NBR_IGNORE_CHANGE_NOTIFICATIONS, DS_REPL_NBR_NO_CHANGE_NOTIFICATIONS, DS_REPL_NBR_SYNC_ON_STARTUP, DS_REPL_NBR_TWO_WAY_SYNC, DS_REPMOD_ASYNCHRONOUS_OPERATION, DS_REPMOD_UPDATE_ADDRESS, DS_REPMOD_UPDATE_FLAGS, DS_REPMOD_UPDATE_RESULT, DS_REPMOD_UPDATE_SCHEDULE, DS_REPMOD_UPDATE_TRANSPORT, DS_REPMOD_WRITEABLE, DsReplicaModify, DsReplicaModify function [Active Directory], DsReplicaModifyA, DsReplicaModifyW, _glines_dsreplicamodify, ad.dsreplicamodify, ntdsapi/DsReplicaModify, ntdsapi/DsReplicaModifyA, ntdsapi/DsReplicaModifyW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -192,6 +192,41 @@ Performs this operation asynchronously.
 Indicates that the replica being modified can be written to.
 
 
+##### - ReplicaFlags.DS_REPL_NBR_SYNC_ON_STARTUP
+
+Replication of this naming context from this source is attempted when the destination server is booted. This normally only applies to intra-site neighbors.
+
+
+##### - ReplicaFlags.DS_REPL_NBR_DO_SCHEDULED_SYNCS
+
+Perform replication on a schedule. This flag is normally set unless the schedule for this naming context and source is "never", that is, the empty schedule.
+
+
+##### - ReplicaFlags.DS_REPL_NBR_TWO_WAY_SYNC
+
+If set, indicates that when inbound replication is complete, the destination server must tell the source server to synchronize in the reverse direction. This feature is used in dial-up scenarios where only one of the two servers can initiate a dial-up connection. For example, this option would be used in a corporate headquarters and branch office, where the branch office connects to the corporate headquarters over the Internet by means of a dial-up ISP connection.
+
+
+##### - ReplicaFlags.DS_REPL_NBR_IGNORE_CHANGE_NOTIFICATIONS
+
+This neighbor is set to disable notification-based synchronization. Within a site, domain controllers synchronize with each other based on notifications when changes occur. This setting prevents this neighbor from performing a synchronization triggered by a notification. The neighbor will still do synchronization based on its schedule or in response to manually requested synchronization.
+
+
+##### - ReplicaFlags.DS_REPL_NBR_DISABLE_SCHEDULED_SYNC
+
+This neighbor is set to not perform synchronization based on its schedule. The only way this neighbor will perform synchronization is in response to change notifications or to manually requested synchronization.
+
+
+##### - ReplicaFlags.DS_REPL_NBR_COMPRESS_CHANGES
+
+Changes received from this source are to be compressed. This is normally set if, and only if, the source server is in a different site.
+
+
+##### - ReplicaFlags.DS_REPL_NBR_NO_CHANGE_NOTIFICATIONS
+
+No change notifications should be received from this source. This is normally set if, and only if, the source server is in a different site.
+
+
 ##### - ModifyFields.DS_REPMOD_UPDATE_ADDRESS
 
 Updates the address associated with the referenced server.
@@ -225,41 +260,6 @@ Performs this operation asynchronously.
 ##### - Options.DS_REPMOD_WRITEABLE
 
 Indicates that the replica being modified can be written to.
-
-
-##### - ReplicaFlags.DS_REPL_NBR_COMPRESS_CHANGES
-
-Changes received from this source are to be compressed. This is normally set if, and only if, the source server is in a different site.
-
-
-##### - ReplicaFlags.DS_REPL_NBR_DISABLE_SCHEDULED_SYNC
-
-This neighbor is set to not perform synchronization based on its schedule. The only way this neighbor will perform synchronization is in response to change notifications or to manually requested synchronization.
-
-
-##### - ReplicaFlags.DS_REPL_NBR_DO_SCHEDULED_SYNCS
-
-Perform replication on a schedule. This flag is normally set unless the schedule for this naming context and source is "never", that is, the empty schedule.
-
-
-##### - ReplicaFlags.DS_REPL_NBR_IGNORE_CHANGE_NOTIFICATIONS
-
-This neighbor is set to disable notification-based synchronization. Within a site, domain controllers synchronize with each other based on notifications when changes occur. This setting prevents this neighbor from performing a synchronization triggered by a notification. The neighbor will still do synchronization based on its schedule or in response to manually requested synchronization.
-
-
-##### - ReplicaFlags.DS_REPL_NBR_NO_CHANGE_NOTIFICATIONS
-
-No change notifications should be received from this source. This is normally set if, and only if, the source server is in a different site.
-
-
-##### - ReplicaFlags.DS_REPL_NBR_SYNC_ON_STARTUP
-
-Replication of this naming context from this source is attempted when the destination server is booted. This normally only applies to intra-site neighbors.
-
-
-##### - ReplicaFlags.DS_REPL_NBR_TWO_WAY_SYNC
-
-If set, indicates that when inbound replication is complete, the destination server must tell the source server to synchronize in the reverse direction. This feature is used in dial-up scenarios where only one of the two servers can initiate a dial-up connection. For example, this option would be used in a corporate headquarters and branch office, where the branch office connects to the corporate headquarters over the Internet by means of a dial-up ISP connection.
 
 
 ## -returns

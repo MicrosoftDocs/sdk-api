@@ -7,7 +7,7 @@ old-location: ics\inetfwservicerestriction_restrictservice.htm
 old-project: ics
 ms.assetid: 5695bcb7-a83a-4581-8f46-00e85273b160
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INetFwServiceRestriction interface [ICS/ICF],RestrictService method, INetFwServiceRestriction.RestrictService, INetFwServiceRestriction::RestrictService, RestrictService, RestrictService method [ICS/ICF], RestrictService method [ICS/ICF],INetFwServiceRestriction interface, ics.inetfwservicerestriction_restrictservice, netfw/INetFwServiceRestriction::RestrictService
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,8 +84,7 @@ Indicates the type of service SID for the specified service.  If this value is t
 
 
 <h3>C++</h3>
-
-						If the method succeeds the return value is S_OK.
+If the method succeeds the return value is S_OK.
 
 If the method fails, the return value is one of the following error codes.
 
@@ -120,8 +119,7 @@ The method failed due to an invalid parameter.
  
 
 <h3>VB</h3>
-
-						If the method succeeds the return value is S_OK.
+If the method succeeds the return value is S_OK.
 
 If the method fails, the return value is one of the following error codes.
 

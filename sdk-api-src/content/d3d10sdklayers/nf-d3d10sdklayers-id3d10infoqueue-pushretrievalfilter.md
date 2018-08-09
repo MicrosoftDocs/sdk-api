@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_pushretrievalfilter.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_pushretrievalfilter.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D10InfoQueue interface [Direct3D 10],PushRetrievalFilter method, ID3D10InfoQueue.PushRetrievalFilter, ID3D10InfoQueue::PushRetrievalFilter, PushRetrievalFilter, PushRetrievalFilter method [Direct3D 10], PushRetrievalFilter method [Direct3D 10],ID3D10InfoQueue interface, ad14b6be-b819-2484-f834-370d1676b87d, d3d10sdklayers/ID3D10InfoQueue::PushRetrievalFilter, direct3d10.id3d10infoqueue_pushretrievalfilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,18 +60,18 @@ Push a retrieval filter onto the retrieval-filter stack.
 
 ### -param pFilter [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb205313(v=VS.85).aspx">D3D10_INFO_QUEUE_FILTER</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205313(v=VS.85).aspx">D3D10_INFO_QUEUE_FILTER</a>*</b>
 
-Pointer to a retrieval filter (see <a href="https://msdn.microsoft.com/library/Bb205313(v=VS.85).aspx">D3D10_INFO_QUEUE_FILTER</a>).
+Pointer to a retrieval filter (see <a href="https://msdn.microsoft.com/en-us/library/Bb205313(v=VS.85).aspx">D3D10_INFO_QUEUE_FILTER</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -81,7 +81,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
  
 
  

@@ -2,7 +2,7 @@
 UID: NA:rtworkq
 ms.assetid: 06c7fdc2-9333-3940-a5bd-7045b727547c
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

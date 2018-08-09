@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgr_enumfunctionproviders.htm
 old-project: TSF
 ms.assetid: 6581cd4d-75ad-4a2c-a919-8e2eed6b3939
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: EnumFunctionProviders, EnumFunctionProviders method [Text Services Framework], EnumFunctionProviders method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],EnumFunctionProviders method, ITfThreadMgr.EnumFunctionProviders, ITfThreadMgr::EnumFunctionProviders, _tsf_itfthreadmgr_enumfunctionproviders_ref, msctf/ITfThreadMgr::EnumFunctionProviders, tsf.itfthreadmgr_enumfunctionproviders
 ms.prod: windows
 ms.technology: windows-sdk
@@ -145,8 +145,7 @@ A function provider registers itself by calling the TSF manager <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/d9231f36-24c4-4d46-97e7-518f5fcc1ce2">
-        ITfSourceSingle::AdviseSingleSink
+<a href="https://msdn.microsoft.com/d9231f36-24c4-4d46-97e7-518f5fcc1ce2">ITfSourceSingle::AdviseSingleSink
       </a>
 
 
@@ -155,8 +154,7 @@ A function provider registers itself by calling the TSF manager <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/b320790a-4b54-4475-97e6-e59f083cfc09">
-        ITfThreadMgr::GetFunctionProvider
+<a href="https://msdn.microsoft.com/b320790a-4b54-4475-97e6-e59f083cfc09">ITfThreadMgr::GetFunctionProvider
       </a>
  
 

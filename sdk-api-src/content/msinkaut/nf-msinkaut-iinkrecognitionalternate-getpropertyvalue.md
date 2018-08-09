@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternate_getpropertyvalue.htm
 old-project: tablet
 ms.assetid: b2ebf45a-b995-4fbc-b86d-b94d1f48f659
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ConfidenceLevel, GetPropertyValue, GetPropertyValue method [Tablet PC], GetPropertyValue method [Tablet PC],IInkRecognitionAlternate interface, HotPoint, IInkRecognitionAlternate interface [Tablet PC],GetPropertyValue method, IInkRecognitionAlternate.GetPropertyValue, IInkRecognitionAlternate::GetPropertyValue, LineMetrics, LineNumber, MaximumStrokeCount, PointsPerInch, S_OK, Segmentation, b2ebf45a-b995-4fbc-b86d-b94d1f48f659, msinkaut/IInkRecognitionAlternate::GetPropertyValue, tablet.iinkrecognitionalternate_getpropertyvalue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,121 +76,103 @@ Upon return, contains the value of the property type as an array of bytes. this 
 
 <table>
 <tr>
-<th>
-                RecognitionProperty Type
+<th>RecognitionProperty Type
               </th>
-<th>
-                Description
+<th>Description
               </th>
 </tr>
 <tr>
-<td width="40%"><a id="_________________ConfidenceLevel_______________"></a><a id="_________________confidencelevel_______________"></a><a id="_________________CONFIDENCELEVEL_______________"></a><dl>
-<dt><b>
-                ConfidenceLevel
+<td width="40%"><a id="ConfidenceLevel_______________"></a><a id="confidencelevel_______________"></a><a id="CONFIDENCELEVEL_______________"></a><dl>
+<dt><b>ConfidenceLevel
               </b></dt>
 </dl>
 </td>
 <td width="60%">
-
-                CONFIDENCE_LEVEL enumeration type.
+CONFIDENCE_LEVEL enumeration type.
               
 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_________________HotPoint_______________"></a><a id="_________________hotpoint_______________"></a><a id="_________________HOTPOINT_______________"></a><dl>
-<dt><b>
-                HotPoint
+<td width="40%"><a id="HotPoint_______________"></a><a id="hotpoint_______________"></a><a id="HOTPOINT_______________"></a><dl>
+<dt><b>HotPoint
               </b></dt>
 </dl>
 </td>
 <td width="60%">
-
-                POINT.
+POINT.
               
 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_________________LineMetrics_______________"></a><a id="_________________linemetrics_______________"></a><a id="_________________LINEMETRICS_______________"></a><dl>
-<dt><b>
-                LineMetrics
+<td width="40%"><a id="LineMetrics_______________"></a><a id="linemetrics_______________"></a><a id="LINEMETRICS_______________"></a><dl>
+<dt><b>LineMetrics
               </b></dt>
 </dl>
 </td>
 <td width="60%">
-
-                LATTICE_METRICS structure.
+LATTICE_METRICS structure.
               
 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_________________LineNumber_______________"></a><a id="_________________linenumber_______________"></a><a id="_________________LINENUMBER_______________"></a><dl>
-<dt><b>
-                LineNumber
+<td width="40%"><a id="LineNumber_______________"></a><a id="linenumber_______________"></a><a id="LINENUMBER_______________"></a><dl>
+<dt><b>LineNumber
               </b></dt>
 </dl>
 </td>
 <td width="60%">
-
-                ULONG.
+ULONG.
               
 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_________________MaximumStrokeCount_______________"></a><a id="_________________maximumstrokecount_______________"></a><a id="_________________MAXIMUMSTROKECOUNT_______________"></a><dl>
-<dt><b>
-                MaximumStrokeCount
+<td width="40%"><a id="MaximumStrokeCount_______________"></a><a id="maximumstrokecount_______________"></a><a id="MAXIMUMSTROKECOUNT_______________"></a><dl>
+<dt><b>MaximumStrokeCount
               </b></dt>
 </dl>
 </td>
 <td width="60%">
-
-                Not used.
+Not used.
               
 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_________________PointsPerInch_______________"></a><a id="_________________pointsperinch_______________"></a><a id="_________________POINTSPERINCH_______________"></a><dl>
-<dt><b>
-                PointsPerInch
+<td width="40%"><a id="PointsPerInch_______________"></a><a id="pointsperinch_______________"></a><a id="POINTSPERINCH_______________"></a><dl>
+<dt><b>PointsPerInch
               </b></dt>
 </dl>
 </td>
 <td width="60%">
-
-                Not used.
+Not used.
               
 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_________________Segmentation_______________"></a><a id="_________________segmentation_______________"></a><a id="_________________SEGMENTATION_______________"></a><dl>
-<dt><b>
-                Segmentation
+<td width="40%"><a id="Segmentation_______________"></a><a id="segmentation_______________"></a><a id="SEGMENTATION_______________"></a><dl>
+<dt><b>Segmentation
               </b></dt>
 </dl>
 </td>
 <td width="60%">
-
-                Not a value, returns TPC_E_INVALID_PROPERTY.
+Not a value, returns TPC_E_INVALID_PROPERTY.
               
 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_________________S_OK_______________"></a><a id="_________________s_ok_______________"></a><dl>
-<dt><b>
-                S_OK
+<td width="40%"><a id="S_OK_______________"></a><a id="s_ok_______________"></a><dl>
+<dt><b>S_OK
               </b></dt>
 </dl>
 </td>
 <td width="60%">
-
-                Success.
+Success.
               
 
 </td>
@@ -198,8 +180,7 @@ Upon return, contains the value of the property type as an array of bytes. this 
 </table>
  
 
-
-              For more information about the VARIANT structure, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
+For more information about the VARIANT structure, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
             
 
 

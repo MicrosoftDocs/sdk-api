@@ -7,7 +7,7 @@ old-location: controls\UninitializeFlatSB.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\uninitializeflatsb.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: UninitializeFlatSB, UninitializeFlatSB function [Windows Controls], _win32_UninitializeFlatSB, _win32_UninitializeFlatSB_cpp, commctrl/UninitializeFlatSB, controls.UninitializeFlatSB, controls._win32_UninitializeFlatSB
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,13 +59,6 @@ Uninitializes flat scroll bars for a particular window. The specified window wil
 
 
 ### -param Arg1
-
-TBD
-
-
-
-
-#### - hwnd
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 

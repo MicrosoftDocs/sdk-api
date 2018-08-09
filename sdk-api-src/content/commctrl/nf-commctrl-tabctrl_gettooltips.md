@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_GetToolTips.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_gettooltips.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TabCtrl_GetToolTips, TabCtrl_GetToolTips macro [Windows Controls], _win32_TabCtrl_GetToolTips, _win32_TabCtrl_GetToolTips_cpp, commctrl/TabCtrl_GetToolTips, controls.TabCtrl_GetToolTips, controls._win32_TabCtrl_GetToolTips
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the handle to the tooltip control associated with a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760598(v=VS.85).aspx">TCM_GETTOOLTIPS</a> message explicitly. 
+Retrieves the handle to the tooltip control associated with a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760598(v=VS.85).aspx">TCM_GETTOOLTIPS</a> message explicitly. 
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Handle to the tab control.
 
 
 
-A tab control creates a tooltip control if it has the <a href="https://msdn.microsoft.com/library/Bb760549(v=VS.85).aspx">TCS_TOOLTIPS</a>. You can also assign a tooltip control to a tab control by using the <a href="https://msdn.microsoft.com/library/Bb760641(v=VS.85).aspx">TCM_SETTOOLTIPS</a> message. 
+A tab control creates a tooltip control if it has the <a href="Tab_Control_Styles.htm">TCS_TOOLTIPS</a>. You can also assign a tooltip control to a tab control by using the <a href="https://msdn.microsoft.com/en-us/library/Bb760641(v=VS.85).aspx">TCM_SETTOOLTIPS</a> message. 
 
 
 

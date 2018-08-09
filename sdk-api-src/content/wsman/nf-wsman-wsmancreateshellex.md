@@ -4,10 +4,10 @@ title: WSManCreateShellEx function
 author: windows-sdk-content
 description: Creates a shell object by using the same functionality as the WSManCreateShell function, with the addition of a client-specified shell ID.
 old-location: winrm\wsmancreateshellex.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: A339FC95-2235-4102-A0FC-7FB01132B7A1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSManCreateShellEx, WSManCreateShellEx function [Windows Remote Management], winrm.wsmancreateshellex, wsman/WSManCreateShellEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,9 +74,9 @@ Reserved for future use. Must be 0.
 Defines the shell type to create. The shell type is defined by a unique URI. The actual shell object returned by the call is dependent on the URI specified. This parameter cannot be <b>NULL</b>. To create a Windows cmd.exe shell, use the <b>WSMAN_CMDSHELL_URI</b> resource URI.
 
 
-### -param shellId
+### -param shellId [in]
 
-TBD
+The client specified <i>shellID</i>.
 
 
 ### -param startupInfo [in, optional]
@@ -102,11 +102,6 @@ Defines an asynchronous structure. The asynchronous structure contains an option
 ### -param shell [out]
 
 Defines a shell handle that uniquely identifies the shell object. The resource handle is used to track the client endpoint for the shell and is used by other WinRM methods to interact with the shell object. The shell object should be deleted by calling the <a href="https://msdn.microsoft.com/1da452ef-5842-4d8d-941b-09fa57393ebb">WSManCloseShell</a> method. This parameter cannot be <b>NULL</b>.
-
-
-#### - ShellID [in]
-
-The client specified <i>shellID</i>.
 
 
 ## -returns

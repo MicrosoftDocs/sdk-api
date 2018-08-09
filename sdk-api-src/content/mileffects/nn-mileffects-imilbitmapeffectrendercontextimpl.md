@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\imilbitmapeffectrendercontextimpl.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IMILBitmapEffectRenderContextImpl, IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects], IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectrendercontextimpl, mileffects/IMILBitmapEffectRenderContextImpl, wibe._wibe_imilbitmapeffectrendercontextimpl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Exposes methods that define a <a href="https://msdn.microsoft.com/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a>.
+Exposes methods that define a <a href="https://msdn.microsoft.com/en-us/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a>.
 
 
 ## -inheritance
@@ -71,7 +71,7 @@ The <b>IMILBitmapEffectRenderContextImpl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735236(v=VS.85).aspx">GetOutputBounds</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735236(v=VS.85).aspx">GetOutputBounds</a>
 </td>
 <td align="left" width="63%">
 Gets the output bounds of the render context.
@@ -80,7 +80,7 @@ Gets the output bounds of the render context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735237(v=VS.85).aspx">GetTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735237(v=VS.85).aspx">GetTransform</a>
 </td>
 <td align="left" width="63%">
 Gets the matrix transform of the render context.
@@ -89,7 +89,7 @@ Gets the matrix transform of the render context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735238(v=VS.85).aspx">GetUseSoftwareRenderer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735238(v=VS.85).aspx">GetUseSoftwareRenderer</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates whether to use software rendering.
@@ -98,7 +98,7 @@ Gets a value that indicates whether to use software rendering.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735240(v=VS.85).aspx">UpdateOutputBounds</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735240(v=VS.85).aspx">UpdateOutputBounds</a>
 </td>
 <td align="left" width="63%">
 Updates the output bounds with the given region.
@@ -107,7 +107,7 @@ Updates the output bounds with the given region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735241(v=VS.85).aspx">UpdateTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735241(v=VS.85).aspx">UpdateTransform</a>
 </td>
 <td align="left" width="63%">
 Updates the output transform with the new matrix.

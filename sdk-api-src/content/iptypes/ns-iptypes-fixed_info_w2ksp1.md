@@ -7,7 +7,7 @@ old-location: iphlp\fixed_info.htm
 old-project: iphlp
 ms.assetid: 6dcf33c6-33dc-4583-9b04-5231948d3d9a
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: "*PFIXED_INFO, *PFIXED_INFO_W2KSP1, BROADCAST_NODETYPE, FIXED_INFO, FIXED_INFO structure [IP Helper], FIXED_INFO_W2KSP1, HYBRID_NODETYPE, MIXED_NODETYPE, PEER_TO_PEER_NODETYPE, PFIXED_INFO, PFIXED_INFO structure pointer [IP Helper], _iphlp_fixed_info, iphlp.fixed_info, iptypes/FIXED_INFO, iptypes/PFIXED_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -190,8 +190,7 @@ A Boolean value that specifies whether DNS is enabled on the local computer.
 
 
 
-
-			The 
+The 
 <b>FIXED_INFO</b> structure is retrieved by the <a href="https://msdn.microsoft.com/5f54a120-5db9-4b8d-a281-1112be0042d6">GetNetworkParams</a> function.
 
 In the Microsoft Windows Software Development Kit (SDK), the <b>FIXED_INFO_WIN2KSP1</b> structure is defined.   When compiling an 
@@ -202,8 +201,7 @@ In the Microsoft Windows Software Development Kit (SDK), the <b>FIXED_INFO_WIN2K
      <b>FIXED_INFO</b> structure is undefined.
 
 The <a href="https://msdn.microsoft.com/5f54a120-5db9-4b8d-a281-1112be0042d6">GetNetworkParams</a> function and the 
-     <b>FIXED_INFO</b> structure are supported on  Windows 98
-  and later. But to build an application for a target platform earlier than Windows 2000 with Service Pack 1 (SP1), an earlier version of the Platform Software Development Kit (SDK)  must be used.
+     <b>FIXED_INFO</b> structure are supported on  Windows 98and later. But to build an application for a target platform earlier than Windows 2000 with Service Pack 1 (SP1), an earlier version of the Platform Software Development Kit (SDK)  must be used.
 
 
 #### Examples

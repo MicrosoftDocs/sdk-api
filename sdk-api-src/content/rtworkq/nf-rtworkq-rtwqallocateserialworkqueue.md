@@ -7,7 +7,7 @@ old-location: base\rtwqallocateserialworkqueue.htm
 old-project: procthread
 ms.assetid: e2021bf3-40d8-4697-b82f-eebee2140a6e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: RtwqAllocateSerialWorkQueue, RtwqAllocateSerialWorkQueue function, base.rtwqallocateserialworkqueue, rtworkq/RtwqAllocateSerialWorkQueue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Creates a virtual  work queue on top of another work queue that is guaranteed to
 
 ### -param workQueueIdIn [in]
 
-
-            The identifier of an existing work queue. This must be either a multithreaded queue or another serial work queue. Any of the following can be used:
+The identifier of an existing work queue. This must be either a multithreaded queue or another serial work queue. Any of the following can be used:
 
 <ul>
 <li>The default work queue  (<b>RTWQ_STANDARD_WORKQUEUE</b>).  See <a href="https://msdn.microsoft.com/4aab85f3-855e-4fbf-9d25-209214bdd73b">RTWQ_WORKQUEUE_TYPE</a>.</li>
@@ -94,8 +93,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                The function succeeded.
+The function succeeded.
               
 
 </td>
@@ -107,8 +105,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                The application exceeded the maximum number of work queues.
+The application exceeded the maximum number of work queues.
               
 
 </td>
@@ -120,8 +117,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                The application did not call <a href="https://msdn.microsoft.com/101e73ec-34ec-49af-999d-5410f46ff319">RtwqStartup</a>, or the application has already called <a href="https://msdn.microsoft.com/806c4142-b628-4ea0-b5e2-d2b4ead73c04">RtwqShutdown</a>.
+The application did not call <a href="https://msdn.microsoft.com/101e73ec-34ec-49af-999d-5410f46ff319">RtwqStartup</a>, or the application has already called <a href="https://msdn.microsoft.com/806c4142-b628-4ea0-b5e2-d2b4ead73c04">RtwqShutdown</a>.
               
 
 </td>

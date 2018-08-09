@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiaudiostream_freebuffer.htm
 old-project: rdp
 ms.assetid: 03926ABF-D5D0-4D13-B081-0085EC698E9F
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: FreeBuffer, FreeBuffer method [RDP], FreeBuffer method [RDP],IRDPSRAPIAudioStream interface, IRDPSRAPIAudioStream interface [RDP],FreeBuffer method, IRDPSRAPIAudioStream.FreeBuffer, IRDPSRAPIAudioStream::FreeBuffer, rdp.irdpsrapiaudiostream_freebuffer, rdpencomapi/IRDPSRAPIAudioStream::FreeBuffer
 ms.prod: windows
 ms.technology: windows-sdk

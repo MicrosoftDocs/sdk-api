@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_ColorBalanceParams.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colorbalanceparams.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: ColorBalanceParams, ColorBalanceParams structure [GDI+], _gdiplus_STRUC_ColorBalanceParams, gdiplus._gdiplus_STRUC_ColorBalanceParams, gdipluseffects/ColorBalanceParams
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,8 +56,8 @@ A <b>ColorBalanceParams</b> structure contains members that specify the nature o
 You can change the color balance of a bitmap by following these steps.
 <ol>
 <li>Create and initialize a <b>ColorBalanceParams</b> structure.</li>
-<li>Pass the address of the <b>ColorBalanceParams</b> structure to the <a href="https://msdn.microsoft.com/library/ms536264(v=VS.85).aspx">ColorBalance::SetParameters</a> method of a <a href="https://msdn.microsoft.com/library/ms534428(v=VS.85).aspx">ColorBalance</a> object.</li>
-<li>Pass the address of the <a href="https://msdn.microsoft.com/library/ms534428(v=VS.85).aspx">ColorBalance</a> object to the <a href="https://msdn.microsoft.com/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method.</li>
+<li>Pass the address of the <b>ColorBalanceParams</b> structure to the <a href="https://msdn.microsoft.com/en-us/library/ms536264(v=VS.85).aspx">ColorBalance::SetParameters</a> method of a <a href="https://msdn.microsoft.com/en-us/library/ms534428(v=VS.85).aspx">ColorBalance</a> object.</li>
+<li>Pass the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534428(v=VS.85).aspx">ColorBalance</a> object to the <a href="https://msdn.microsoft.com/en-us/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/en-us/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method.</li>
 </ol>
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: gdi\getkerningpairs.htm
 old-project: gdi
 ms.assetid: 9aba629f-afab-4ef3-8e1d-d0b90e122e94
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetKerningPairs, GetKerningPairs function [Windows GDI], GetKerningPairsA, GetKerningPairsW, _win32_GetKerningPairs, gdi.getkerningpairs, wingdi/GetKerningPairs, wingdi/GetKerningPairsA, wingdi/GetKerningPairsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,26 +70,14 @@ The <b>GetKerningPairs</b> function retrieves the character-kerning pairs for th
 A handle to the device context.
 
 
-### -param nPairs
-
-TBD
-
-
-### -param lpKernPair
-
-TBD
-
-
-
-
-#### - lpkrnpair [out]
-
-A pointer to an array of <a href="https://msdn.microsoft.com/af7bfcf7-467b-4ea9-87c5-3622303b1d8b">KERNINGPAIR</a> structures that receives the kerning pairs. The array must contain at least as many structures as specified by the <i>nNumPairs</i> parameter. If this parameter is <b>NULL</b>, the function returns the total number of kerning pairs for the font.
-
-
-#### - nNumPairs [in]
+### -param nPairs [in]
 
 The number of pairs in the <i>lpkrnpair</i> array. If the font has more than <i>nNumPairs</i> kerning pairs, the function returns an error.
+
+
+### -param lpKernPair [out]
+
+A pointer to an array of <a href="https://msdn.microsoft.com/af7bfcf7-467b-4ea9-87c5-3622303b1d8b">KERNINGPAIR</a> structures that receives the kerning pairs. The array must contain at least as many structures as specified by the <i>nNumPairs</i> parameter. If this parameter is <b>NULL</b>, the function returns the total number of kerning pairs for the font.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstoragecontrol_rename.htm
 old-project: WMDM
 ms.assetid: 06cd302b-7876-4256-aa75-27127eb45ac9
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Rename method, IWMDMStorageControl.Rename, IWMDMStorageControl::Rename, IWMDMStorageControlRename, Rename, Rename method [windows Media Device Manager], Rename method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Rename, wmdm.iwmdmstoragecontrol_rename
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Processing mode used for the <b>Rename</b> operation. Specify exactly one of the
 
 <table>
 <tr>
-<th>
-                  Mode
+<th>Mode
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

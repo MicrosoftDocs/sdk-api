@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetItemHeight.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getitemheight.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TreeView_GetItemHeight, TreeView_GetItemHeight macro [Windows Controls], _win32_TreeView_GetItemHeight, _win32_TreeView_GetItemHeight_cpp, commctrl/TreeView_GetItemHeight, controls.TreeView_GetItemHeight, controls._win32_TreeView_GetItemHeight
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the current height of the tree-view items. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773599(v=VS.85).aspx">TVM_GETITEMHEIGHT</a> message explicitly. 
+Retrieves the current height of the tree-view items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773599(v=VS.85).aspx">TVM_GETITEMHEIGHT</a> message explicitly. 
 
 
 ## -parameters
@@ -59,15 +59,6 @@ Retrieves the current height of the tree-view items. You can use this macro or s
 
 
 ### -param hwnd
-
-TBD
-
-
-
-
-
-
-#### - hwndTV
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
@@ -79,7 +70,7 @@ Handle to a tree-view control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb760104(v=VS.85).aspx">TreeView_SetItemHeight</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb760104(v=VS.85).aspx">TreeView_SetItemHeight</a>
  
 
  

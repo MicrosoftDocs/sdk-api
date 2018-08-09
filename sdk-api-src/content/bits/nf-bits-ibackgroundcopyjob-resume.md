@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_resume.htm
 old-project: bits
 ms.assetid: a9e6f057-0a51-4f2d-810b-edbb3e019370
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],Resume method, IBackgroundCopyJob.Resume, IBackgroundCopyJob::Resume, Resume, Resume method [BITS], Resume method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_resume, bits.ibackgroundcopyjob_resume, bits/IBackgroundCopyJob::Resume
 ms.prod: windows
 ms.technology: windows-sdk

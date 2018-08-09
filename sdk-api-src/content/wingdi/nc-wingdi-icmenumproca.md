@@ -7,7 +7,7 @@ old-location: wcs\enumicmprofilesproccallback.htm
 old-project: WCS
 ms.assetid: 6e8f4ce5-c546-4e6a-8f35-4a22d60b6754
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ICMENUMPROC, ICMENUMPROC callback, ICMENUMPROC callback function [Windows Color System], ICMENUMPROCA, ICMENUMPROCW, _color_EnumICMProfilesProcCallback, wcs.enumicmprofilesproccallback, wingdi/ICMENUMPROC, wingdi/ICMENUMPROCA, wingdi/ICMENUMPROCW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,14 +73,14 @@ The <b>EnumICMProfilesProcCallback</b> callback is an application-defined callba
 
 
 
-#### - lParam
-
-Data supplied by the application that is passed to the callback function by the <a href="https://msdn.microsoft.com/a93e6239-b6c7-4e37-9f06-03790a3ed53f">EnumICMProfiles</a> function.
-
-
 #### - lpszFilename
 
 Pointer to the file name of the color profile.
+
+
+#### - lParam
+
+Data supplied by the application that is passed to the callback function by the <a href="https://msdn.microsoft.com/a93e6239-b6c7-4e37-9f06-03790a3ed53f">EnumICMProfiles</a> function.
 
 
 ## -returns

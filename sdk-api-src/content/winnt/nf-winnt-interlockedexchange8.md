@@ -4,10 +4,10 @@ title: InterlockedExchange8 function
 author: windows-sdk-content
 description: Sets an 8-bit variable to the specified value as an atomic operation.
 old-location: base\interlockedexchange8.htm
-old-project: Sync
+old-project: sync
 ms.assetid: fe07fac0-b9f2-419e-a086-09bc73125c4e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: InterlockedExchange8, InterlockedExchange8 function, base.interlockedexchange8, winnt/InterlockedExchange8
 ms.prod: windows
 ms.technology: windows-sdk

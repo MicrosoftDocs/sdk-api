@@ -7,7 +7,7 @@ old-location: ad\dsquoterdnvalue.htm
 old-project: ad
 ms.assetid: a1e8a4c0-965a-4061-aab3-3e719ec6374d
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DsQuoteRdnValue, DsQuoteRdnValue function [Active Directory], DsQuoteRdnValueA, DsQuoteRdnValueW, ERROR_BUFFER_OVERFLOW, ERROR_SUCCESS, _glines_dsquoterdnvalue, ad.dsquoterdnvalue, dsparse/DsQuoteRdnValue, dsparse/DsQuoteRdnValueA, dsparse/DsQuoteRdnValueW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,14 +95,14 @@ Indicates that the number of characters in the string do not match <i>psQuotedRd
 The string that receives the converted, and perhaps quoted, RDN value.
 
 
-##### - pcQuotedRdnValueLength.ERROR_BUFFER_OVERFLOW
-
-Indicates that the number of characters in the string do not match <i>psQuotedRdnValue</i>.
-
-
 ##### - pcQuotedRdnValueLength.ERROR_SUCCESS
 
 Indicates that the correct number of characters were found in <i>psQuotedRdnValue</i>.
+
+
+##### - pcQuotedRdnValueLength.ERROR_BUFFER_OVERFLOW
+
+Indicates that the number of characters in the string do not match <i>psQuotedRdnValue</i>.
 
 
 ## -returns

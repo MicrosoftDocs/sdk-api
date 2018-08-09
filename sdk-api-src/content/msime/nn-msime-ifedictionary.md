@@ -7,7 +7,7 @@ old-location: intl\ifedictionary.htm
 old-project: Intl
 ms.assetid: 4C63FF43-0170-4038-AB01-72441E1BB189
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: IFEDictionary, IFEDictionary interface [Internationalization for Windows Applications], IFEDictionary interface [Internationalization for Windows Applications],described, intl.ifedictionary, msime/IFEDictionary
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,8 +56,7 @@ The <b>IFEDictionary</b> interface allows clients to access a Microsoft IME user
 This API enables your apps to access and use the data contained in the Microsoft IME dictionaries (including personal name and geographical name dictionaries), or user dictionary. You can develop and sell such applications, provided that:<ul>
 <li>You do not create an application that accesses a dictionary that is not a Microsoft IME dictionary through this API.</li>
 <li>You do not dump, copy, or distribute the dictionary data contained in the Microsoft IME.</li>
-</ul>
-You must use this API only for the purpose of developing applications for users who already have the Microsoft IME.
+</ul>You must use this API only for the purpose of developing applications for users who already have the Microsoft IME.
 
 
 ## -inheritance

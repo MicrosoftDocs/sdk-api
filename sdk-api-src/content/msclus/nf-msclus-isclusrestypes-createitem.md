@@ -7,7 +7,7 @@ old-location: mscs\clusrestypes_createitem.htm
 old-project: mscs
 ms.assetid: f7fc79b1-1803-4060-bf1f-39a253bccab6
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusResTypes collection [Failover Cluster],CreateItem method, ClusResTypes.CreateItem, CreateItem, CreateItem method [Failover Cluster], CreateItem method [Failover Cluster],ClusResTypes collection, ISClusResTypes.CreateItem, ISClusResTypes::CreateItem, _wolf_clusrestypes.createitem, mscs.clusrestypes_createitem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,16 +99,9 @@ Creates a new
 
 
 
-#### - lIsAlivePollInterval
+#### - strResTypeName
 
-Length of time in milliseconds that should occur between calls to the new resource type's 
-      <a href="https://msdn.microsoft.com/ff7661af-0a24-4a2e-bb31-c967845a4ff4">IsAlive</a> entry point function.
-
-
-#### - lLooksAlivePollInterval
-
-Length of time in milliseconds that should occur between calls to the new resource type's 
-      <a href="https://msdn.microsoft.com/cfc57325-847d-4f59-bee8-6a02b0a2ef32">LooksAlive</a> entry point function.
+String containing the name of the new resource type.
 
 
 #### - strDisplayName
@@ -121,9 +114,16 @@ String containing the display name of the new resource type.
 String containing the file name of the library containing the new resource type.
 
 
-#### - strResTypeName
+#### - lLooksAlivePollInterval
 
-String containing the name of the new resource type.
+Length of time in milliseconds that should occur between calls to the new resource type's 
+      <a href="https://msdn.microsoft.com/cfc57325-847d-4f59-bee8-6a02b0a2ef32">LooksAlive</a> entry point function.
+
+
+#### - lIsAlivePollInterval
+
+Length of time in milliseconds that should occur between calls to the new resource type's 
+      <a href="https://msdn.microsoft.com/ff7661af-0a24-4a2e-bb31-c967845a4ff4">IsAlive</a> entry point function.
 
 
 ## -returns

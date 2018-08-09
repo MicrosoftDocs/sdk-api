@@ -7,7 +7,7 @@ old-location: intl\immgetopenstatus.htm
 old-project: Intl
 ms.assetid: 8011bb84-9bda-49b7-8f44-76af4388ce21
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmGetOpenStatus, ImmGetOpenStatus function [Internationalization for Windows Applications], _win32_ImmGetOpenStatus, imm/ImmGetOpenStatus, intl.immgetopenstatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ Determines whether the IME is open or closed.
 
 
 
-### -param HIMC
-
-TBD
-
-
-
-
-#### - hIMC [in]
+### -param HIMC [in]
 
 Handle to the input context.
 

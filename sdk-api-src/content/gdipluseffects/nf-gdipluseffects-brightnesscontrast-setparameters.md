@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_BrightnessContrast_SetParameters_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brightnesscontrastclass\brightnesscontrastmethods\setparameters.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: BrightnessContrast class [GDI+],SetParameters method, BrightnessContrast.SetParameters, BrightnessContrast::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],BrightnessContrast class, _gdiplus_CLASS_BrightnessContrast_SetParameters_, gdiplus._gdiplus_CLASS_BrightnessContrast_SetParameters_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>BrightnessContrast::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/library/ms534423(v=VS.85).aspx">BrightnessContrast</a> object.
+The <b>BrightnessContrast::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/en-us/library/ms534423(v=VS.85).aspx">BrightnessContrast</a> object.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ The <b>BrightnessContrast::SetParameters</b> method sets the parameters of this 
 
 ### -param parameters [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms534058(v=VS.85).aspx">BrightnessContrastParams</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534058(v=VS.85).aspx">BrightnessContrastParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534058(v=VS.85).aspx">BrightnessContrastParams</a> structure that specifies the parameters.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534058(v=VS.85).aspx">BrightnessContrastParams</a> structure that specifies the parameters.
 
 
 ## -returns
@@ -87,11 +87,11 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534423(v=VS.85).aspx">BrightnessContrast</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534423(v=VS.85).aspx">BrightnessContrast</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536277(v=VS.85).aspx">BrightnessContrast::GetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536277(v=VS.85).aspx">BrightnessContrast::GetParameters</a>
  
 
  

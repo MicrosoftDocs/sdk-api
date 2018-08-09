@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo2_setfunccustdata.htm
 old-project: automat
 ms.assetid: 553e872f-0620-4b36-a01d-86088bd12f80
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetFuncCustData method, ICreateTypeInfo2.SetFuncCustData, ICreateTypeInfo2::SetFuncCustData, SetFuncCustData, SetFuncCustData method [Automation], SetFuncCustData method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetFuncCustData, automat.icreatetypeinfo2_setfunccustdata, oaidl/ICreateTypeInfo2::SetFuncCustData
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\swbemdatetime_hoursspecified.htm
 old-project: WmiSdk
 ms.assetid: 55211da6-cbd5-4e61-ab7d-ee20363e9d81
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: HoursSpecified property [Windows Management Instrumentation], HoursSpecified property [Windows Management Instrumentation],ISWbemDateTime interface, HoursSpecified property [Windows Management Instrumentation],SWbemDateTime object, ISWbemDateTime interface [Windows Management Instrumentation],HoursSpecified property, ISWbemDateTime.get_HoursSpecified, ISWbemDateTime.put_HoursSpecified, ISWbemDateTime::get_HoursSpecified, SWbemDateTime object [Windows Management Instrumentation],HoursSpecified property, SWbemDateTime.HoursSpecified, _hmm_swbemdatetime.hoursspecified, get_HoursSpecified, wmi.swbemdatetime_hoursspecified
 ms.prod: windows
 ms.technology: windows-sdk

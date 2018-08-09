@@ -7,7 +7,7 @@ old-location: ics\inetfwopenport.htm
 old-project: ics
 ms.assetid: 1a9fd676-b1c0-4be5-9571-d14ac5980af5
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INetFwOpenPort, INetFwOpenPort interface [ICS/ICF], INetFwOpenPort interface [ICS/ICF],described, ics.inetfwopenport, netfw/INetFwOpenPort
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ The <b>INetFwOpenPort</b> interface provides access to the properties of a port 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwOpenPort</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetFwOpenPort</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwOpenPort</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetFwOpenPort</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -324,8 +324,7 @@ When creating new ports, this interface is supported by the
 <b>HNetCfg.FWOpenPort</b> COM object. 
 
 For reading or modifying existing ports,
-instances of this interface are retrieved through the <a href="https://msdn.microsoft.com/a3a6e5c1-5818-419c-8df4-966b2fbcd8c0">INetFwOpenPorts</a>
-collection. 
+instances of this interface are retrieved through the <a href="https://msdn.microsoft.com/a3a6e5c1-5818-419c-8df4-966b2fbcd8c0">INetFwOpenPorts</a>collection. 
 
 All configuration changes take effect immediately.
 
@@ -337,7 +336,7 @@ All configuration changes take effect immediately.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 
@@ -345,7 +344,7 @@ All configuration changes take effect immediately.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

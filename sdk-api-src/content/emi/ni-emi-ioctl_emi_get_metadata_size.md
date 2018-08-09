@@ -7,7 +7,7 @@ old-location: powermeter\ioctl_emi_get_metadata_size.htm
 old-project: powermeter
 ms.assetid: 7A3E5BE5-F567-408A-B4AC-347E052957D9
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/30/2018
 ms.keywords: IOCTL_EMI_GET_METADATA_SIZE, IOCTL_EMI_GET_METADATA_SIZE control, IOCTL_EMI_GET_METADATA_SIZE control code [Power Metering and Budgeting Devices], emi/IOCTL_EMI_GET_METADATA_SIZE, powermeter.ioctl_emi_get_metadata_size
 ms.prod: windows
 ms.technology: windows-sdk

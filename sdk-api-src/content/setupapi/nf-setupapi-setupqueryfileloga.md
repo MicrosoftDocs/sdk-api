@@ -7,7 +7,7 @@ old-location: setup\setupqueryfilelog.htm
 old-project: SetupApi
 ms.assetid: c01233ee-4e3a-454b-b2e2-032937c874c9
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupFileLogChecksum, SetupFileLogDiskDescription, SetupFileLogDiskTagfile, SetupFileLogOtherInfo, SetupFileLogSourceFile name, SetupQueryFileLog, SetupQueryFileLog function [Setup API], SetupQueryFileLogA, SetupQueryFileLogW, _setupapi_setupqueryfilelog, setup.setupqueryfilelog, setupapi/SetupQueryFileLog, setupapi/SetupQueryFileLogA, setupapi/SetupQueryFileLogW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,9 +74,9 @@ Handle to the file log as returned by <a href="https://msdn.microsoft.com/fac7ab
 Optional pointer to the section name for the log file in a format that is meaningful to the caller. You should use a <b>null</b>-terminated string. Required for non-system logs. If no <i>LogSectionName</i> is specified for a system log, a default is supplied.
 
 
-### -param TargetFilename
+### -param TargetFilename [in]
 
-TBD
+Name of the file for which log information is desired. You should use a <b>null</b>-terminated string.
 
 
 ### -param DesiredInfo [in]
@@ -162,11 +162,6 @@ Size of the <i>DataOut</i> buffer,  in characters. This includes the <b>null</b>
 ### -param RequiredSize [in, out]
 
 Optional pointer to a variable that receives the required size of <i>DataOut</i>, in characters. This number includes the <b>null</b> terminator. 
-
-
-#### - TargetFileName [in]
-
-Name of the file for which log information is desired. You should use a <b>null</b>-terminated string.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: mstv\imsvidaudiorendererevent2_avaudiochannelcount.htm
 old-project: mstv
 ms.assetid: 5cfb27d0-eda9-4fef-9256-636ef0c6ebe8
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: AVAudioChannelCount, AVAudioChannelCount method [Microsoft TV Technologies], AVAudioChannelCount method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVAudioChannelCount method, IMSVidAudioRendererEvent2.AVAudioChannelCount, IMSVidAudioRendererEvent2::AVAudioChannelCount, mstv.imsvidaudiorendererevent2_avaudiochannelcount, segment/IMSVidAudioRendererEvent2::AVAudioChannelCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      Indicates a change in the <a href="https://msdn.microsoft.com/e395ce9c-3f11-41e9-8c8c-48c17b217ebc">AVAudioChannelCount</a> codec  property.
+Indicates a change in the <a href="https://msdn.microsoft.com/e395ce9c-3f11-41e9-8c8c-48c17b217ebc">AVAudioChannelCount</a> codec  property.
 
 
 ## -parameters

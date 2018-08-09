@@ -7,7 +7,7 @@ old-location: coreaudio\iksjackdescription_getjackdescription.htm
 old-project: CoreAudio
 ms.assetid: 84278805-3b6d-4fae-8770-f9932b0e0fab
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: GetJackDescription, GetJackDescription method [Core Audio], GetJackDescription method [Core Audio],IKsJackDescription interface, IKsJackDescription interface [Core Audio],GetJackDescription method, IKsJackDescription.GetJackDescription, IKsJackDescription::GetJackDescription, IKsJackDescriptionGetJackDescription, coreaudio.iksjackdescription_getjackdescription, devicetopology/IKsJackDescription::GetJackDescription
 ms.prod: windows
 ms.technology: windows-sdk

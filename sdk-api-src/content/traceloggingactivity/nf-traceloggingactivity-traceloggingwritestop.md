@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingwritestop.htm
 old-project: tracelogging
 ms.assetid: 638F08E3-5970-40B3-8025-E3D81ECA1D2A
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TraceLoggingWriteStop, TraceLoggingWriteStop macro, tracelogging.traceloggingwritestop, traceloggingactivity/TraceLoggingWriteStop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,12 +66,7 @@ The activity must not have already been stopped.
 The activity to start.
 
 
-### -param name
-
-TBD
-
-
-#### - EventName [in]
+### -param name [in]
 
 The name of the event. This must be a string literal and not a variable. It cannot have any embedded nul characters.
 

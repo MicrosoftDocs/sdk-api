@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothauthenticatedeviceex.htm
 old-project: bluetooth
 ms.assetid: 948bf14c-9661-4fe9-b082-009afd867baf
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: BluetoothAuthenticateDeviceEx, BluetoothAuthenticateDeviceEx function [Bluetooth], bluetooth.bluetoothauthenticatedeviceex, bluetoothapis/BluetoothAuthenticateDeviceEx
 ms.prod: windows
 ms.technology: windows-sdk

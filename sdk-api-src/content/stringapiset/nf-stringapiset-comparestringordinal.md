@@ -7,7 +7,7 @@ old-location: intl\comparestringordinal.htm
 old-project: Intl
 ms.assetid: 6a457076-7992-4912-8ac5-2258f9651a8c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CompareStringOrdinal, CompareStringOrdinal function [Internationalization for Windows Applications], _win32_CompareStringOrdinal, intl.comparestringordinal, stringapiset/CompareStringOrdinal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -46,6 +46,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # CompareStringOrdinal function

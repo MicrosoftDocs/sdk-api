@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setmaterial.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setmaterial.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetMaterial method, IDirect3DDevice9.SetMaterial, IDirect3DDevice9::SetMaterial, SetMaterial, SetMaterial method [Direct3D 9], SetMaterial method [Direct3D 9],IDirect3DDevice9 interface, a65e098b-14ec-df07-e795-b22f5ac8fcbd, d3d9helper/IDirect3DDevice9::SetMaterial, direct3d9.idirect3ddevice9__setmaterial
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,16 +61,16 @@ Sets the material properties for the device.
 
 ### -param pMaterial [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb172571(v=VS.85).aspx">D3DMATERIAL9</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172571(v=VS.85).aspx">D3DMATERIAL9</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb172571(v=VS.85).aspx">D3DMATERIAL9</a> structure, describing the material properties to set. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172571(v=VS.85).aspx">D3DMATERIAL9</a> structure, describing the material properties to set. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL if the pMaterial parameter is invalid.
 
@@ -82,11 +82,11 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL if the pM
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174394(v=VS.85).aspx">IDirect3DDevice9::GetMaterial</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174394(v=VS.85).aspx">IDirect3DDevice9::GetMaterial</a>
  
 
  

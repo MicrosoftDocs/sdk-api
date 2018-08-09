@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_option_type.htm
 old-project: dhcp
 ms.assetid: 2577c0b6-aa84-4176-87b7-ffd304823d76
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDHCP_OPTION_TYPE, DHCP_OPTION_TYPE, DHCP_OPTION_TYPE enumeration [DHCP], DhcpArrayTypeOption, DhcpUnaryElementTypeOption, LPDHCP_OPTION_TYPE, LPDHCP_OPTION_TYPE enumeration pointer [DHCP], _DHCP_OPTION_TYPE, dhcp.dhcp_option_type, dhcpsapi/DHCP_OPTION_TYPE, dhcpsapi/DhcpArrayTypeOption, dhcpsapi/DhcpUnaryElementTypeOption, dhcpsapi/LPDHCP_OPTION_TYPE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DHCP_OPTION_TYPE</b> enumeration defines the set of possible DHCP option types.
+The <b>DHCP_OPTION_TYPE</b> enumeration defines the set of possible DHCP option types.
 
 
 ## -enum-fields
@@ -74,8 +73,7 @@ The option is an array of data items associated with it.
 
 
 
-<a href="https://msdn.microsoft.com/1be34eb4-a226-4f07-b763-173a4f8a0671">
-        DHCP_OPTION</a>
+<a href="https://msdn.microsoft.com/1be34eb4-a226-4f07-b763-173a4f8a0671">DHCP_OPTION</a>
  
 
  

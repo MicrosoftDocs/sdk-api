@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_gettextoutline.htm
 old-project: medfound
 ms.assetid: 44701080-7E70-4073-85E2-4AF86D4B4FDB
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetTextOutline, GetTextOutline method [Media Foundation], GetTextOutline method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetTextOutline method, IMFTimedTextStyle.GetTextOutline, IMFTimedTextStyle::GetTextOutline, mf.imftimedtextstyle_gettextoutline, mfmediaengine/IMFTimedTextStyle::GetTextOutline
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,13 +81,6 @@ Gets the text outline for the timed-text style.
 
 
 
-#### - pBlurRadius [out]
-
-Type: <b>double*</b>
-
-A pointer to a variable that receives the blur radius.
-
-
 #### - pColor [out]
 
 Type: <b><a href="https://msdn.microsoft.com/ce7ac174-9f00-42a4-9b48-ed86b406d83e">MFARGB</a>*</b>
@@ -100,6 +93,13 @@ A pointer to a variable that receives a <a href="https://msdn.microsoft.com/ce7a
 Type: <b>double*</b>
 
 A pointer to a variable that receives the thickness.
+
+
+#### - pBlurRadius [out]
+
+Type: <b>double*</b>
+
+A pointer to a variable that receives the blur radius.
 
 
 #### - pUnitType [out]

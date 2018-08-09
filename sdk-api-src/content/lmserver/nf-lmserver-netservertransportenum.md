@@ -7,7 +7,7 @@ old-location: netmgmt\netservertransportenum.htm
 old-project: netmgmt
 ms.assetid: db42ac44-d70d-4b89-882a-6ac83fd611fd
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: 0, 1, NetServerTransportEnum, NetServerTransportEnum function [Network Management], _win32_netservertransportenum, lmserver/NetServerTransportEnum, netmgmt.netservertransportenum
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\ENSAVECLIPBOARD.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\ensaveclipboard.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ENSAVECLIPBOARD, ENSAVECLIPBOARD structure [Windows Controls], _ensaveclipboard, _win32_ENSAVECLIPBOARD_str, _win32_ENSAVECLIPBOARD_str_cpp, controls.ENSAVECLIPBOARD, controls._win32_ENSAVECLIPBOARD_str, richedit/ENSAVECLIPBOARD
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,10 +61,10 @@ Contains information about objects and text on the clipboard.
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> notification header. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> notification header. 
 
 
 ### -field cObjectCount
@@ -86,7 +86,7 @@ Number of characters on the clipboard.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787985(v=VS.85).aspx">EN_SAVECLIPBOARD</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787985(v=VS.85).aspx">EN_SAVECLIPBOARD</a>
  
 
  

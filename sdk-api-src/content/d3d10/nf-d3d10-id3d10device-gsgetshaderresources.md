@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_gsgetshaderresources.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gsgetshaderresources.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 1f730e36-30d4-870c-a3ab-3a6e91123778, GSGetShaderResources, GSGetShaderResources method [Direct3D 10], GSGetShaderResources method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSGetShaderResources method, ID3D10Device.GSGetShaderResources, ID3D10Device::GSGetShaderResources, d3d10/ID3D10Device::GSGetShaderResources, direct3d10.id3d10device_gsgetshaderresources
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,9 +75,9 @@ The number of resources to get from the device. Up to a maximum of 128 slots are
 
 ### -param ppShaderResourceViews [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173854(v=VS.85).aspx">ID3D10ShaderResourceView</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173854(v=VS.85).aspx">ID3D10ShaderResourceView</a>**</b>
 
-Array of <a href="https://msdn.microsoft.com/library/Bb173854(v=VS.85).aspx">shader resource view</a> interfaces to be returned by the device.
+Array of <a href="https://msdn.microsoft.com/en-us/library/Bb173854(v=VS.85).aspx">shader resource view</a> interfaces to be returned by the device.
 
 
 ## -returns
@@ -103,7 +103,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

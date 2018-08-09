@@ -7,7 +7,7 @@ old-location: controls\EDITBALLOONTIP.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolstructures\editballoontip.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*PEDITBALLOONTIP, EDITBALLOONTIP, EDITBALLOONTIP structure [Windows Controls], PEDITBALLOONTIP, PEDITBALLOONTIP structure pointer [Windows Controls], TTI_ERROR, TTI_ERROR_LARGE, TTI_INFO, TTI_INFO_LARGE, TTI_NONE, TTI_WARNING, TTI_WARNING_LARGE, _tagEDITBALLOONTIP, _win32_EDITBALLOONTIP_str, _win32_EDITBALLOONTIP_str_cpp, commctrl/EDITBALLOONTIP, commctrl/PEDITBALLOONTIP, controls.EDITBALLOONTIP, controls._win32_EDITBALLOONTIP_str"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -173,15 +173,15 @@ Use the large error icon. This is assumed to be an HICON value.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761668(v=VS.85).aspx">EM_SHOWBALLOONTIP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761668(v=VS.85).aspx">EM_SHOWBALLOONTIP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775458(v=VS.85).aspx">Edit Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775458(v=VS.85).aspx">Edit Controls</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761707(v=VS.85).aspx">Edit_ShowBalloonTip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761707(v=VS.85).aspx">Edit_ShowBalloonTip</a>
 
 
 

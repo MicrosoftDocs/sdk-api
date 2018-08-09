@@ -7,7 +7,7 @@ old-location: coreaudio\icontrolinterface_getiid.htm
 old-project: CoreAudio
 ms.assetid: c6d46f37-6b9a-4d20-8a97-9fb5284dbc42
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: GetIID, GetIID method [Core Audio], GetIID method [Core Audio],IControlInterface interface, IControlInterface interface [Core Audio],GetIID method, IControlInterface.GetIID, IControlInterface::GetIID, IControlInterfaceGetIID, coreaudio.icontrolinterface_getiid, devicetopology/IControlInterface::GetIID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,11 +104,9 @@ The method gets one of the function-specific interface IDs shown in the followin
 
 <table>
 <tr>
-<th>
-              Interface ID
+<th>Interface ID
             </th>
-<th>
-              Interface name
+<th>Interface name
             </th>
 </tr>
 <tr>

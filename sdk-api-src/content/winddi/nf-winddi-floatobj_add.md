@@ -7,7 +7,7 @@ old-location: display\floatobj_add.htm
 old-project: display
 ms.assetid: 6502d863-ab3e-46d2-8da4-c2f1b01fe344
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: FLOATOBJ_Add, FLOATOBJ_Add function [Display Devices], display.floatobj_add, gdifncs_484fa853-6c4e-4bc1-95a3-7f7b40828fcc.xml, winddi/FLOATOBJ_Add
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ TBD
 
 
 
-#### - pf [in, out]
+#### - [in, out]
 
 Pointer to the first FLOATOBJ operand. When the function returns, *<i>pf</i> will be reset to the sum of *<i>pf</i> and *<i>pf1</i>.
 

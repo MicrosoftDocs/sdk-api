@@ -7,7 +7,7 @@ old-location: fwp\ipsecgetstatistics0_func.htm
 old-project: fwp
 ms.assetid: f33aad79-bc42-4f75-bc24-5d9838c02745
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPsecGetStatistics0, IPsecGetStatistics0 function [Filtering], fwp.ipsecgetstatistics0_func, fwpmu/IPsecGetStatistics0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-
-		The <b>IPsecGetStatistics0</b> function retrieves Internet Protocol Security (IPsec) statistics.
+The <b>IPsecGetStatistics0</b> function retrieves Internet Protocol Security (IPsec) statistics.
 <div class="alert"><b>Note</b>  <b>IPsecGetStatistics0</b> is the specific implementation of IPsecGetStatistics used in Windows Vista. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://msdn.microsoft.com/cb95167c-224f-4c78-a0a2-8268f766aa05">IPsecGetStatistics1</a> is available.</div><div> </div>
 
 ## -parameters

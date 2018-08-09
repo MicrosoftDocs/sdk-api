@@ -7,7 +7,7 @@ old-location: mscs\cluspropertyvaluedata_count.htm
 old-project: mscs
 ms.assetid: 53f2da9f-d72d-4e1b-a7c0-d74ebf1c7418
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusPropertyValueData collection [Failover Cluster],Count property, ClusPropertyValueData.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusPropertyValueData collection, ISClusPropertyValueData.get_Count, ISClusPropertyValueData::get_Count, _wolf_cluspropertyvaluedata.count, get_Count, mscs.cluspropertyvaluedata_count
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Returns the 
-    number of <a href="https://msdn.microsoft.com/library/ms691748(v=VS.85).aspx">data values</a> in the 
+    number of <a href="https://msdn.microsoft.com/en-us/library/Aa369367(v=VS.85).aspx">data values</a> in the 
     <a href="https://msdn.microsoft.com/d95a90f6-2a70-428b-aff3-3be9e9e66071">ClusPropertyValueData</a> 
     collection.
 

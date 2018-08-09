@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPolygon_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillpolygonmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: FillPolygon, FillPolygon methods [GDI+], Graphics.FillPolygon, Graphics.FillPolygon(IN const Brush,IN const Point,IN INT,IN FillMode), Graphics::FillPolygon, Graphics::FillPolygon(IN const Brush,IN const Point,IN INT,IN FillMode), _gdiplus_CLASS_Graphics_FillPolygon_Methods, gdiplus._gdiplus_CLASS_Graphics_FillPolygon_Methods, gdiplusgraphics/FillPolygon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,37 +65,37 @@ FillPolygon methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535958(v=VS.85).aspx">FillPolygon(Brush*,Point*,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535958(v=VS.85).aspx">FillPolygon(Brush*,Point*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535958(v=VS.85).aspx">Graphics::FillPolygon</a> method uses a brush to fill the interior of a polygon. 
+The <a href="https://msdn.microsoft.com/en-us/library/ms535958(v=VS.85).aspx">Graphics::FillPolygon</a> method uses a brush to fill the interior of a polygon. 
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535959(v=VS.85).aspx">FillPolygon(Brush*,PointF*,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535959(v=VS.85).aspx">FillPolygon(Brush*,PointF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535959(v=VS.85).aspx">Graphics::FillPolygon</a> method uses a brush to fill the interior of a polygon. 
+The <a href="https://msdn.microsoft.com/en-us/library/ms535959(v=VS.85).aspx">Graphics::FillPolygon</a> method uses a brush to fill the interior of a polygon. 
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535960(v=VS.85).aspx">FillPolygon(Brush*,Point*,INT,FillMode)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535960(v=VS.85).aspx">FillPolygon(Brush*,Point*,INT,FillMode)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535960(v=VS.85).aspx">Graphics::FillPolygon</a> method uses a brush to fill the interior of a polygon. 
+The <a href="https://msdn.microsoft.com/en-us/library/ms535960(v=VS.85).aspx">Graphics::FillPolygon</a> method uses a brush to fill the interior of a polygon. 
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535961(v=VS.85).aspx">FillPolygon(Brush*,PointF*,INT,FillMode)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535961(v=VS.85).aspx">FillPolygon(Brush*,PointF*,INT,FillMode)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535961(v=VS.85).aspx">Graphics::FillPolygon</a> method uses a brush to fill the interior of a polygon. 
+The <a href="https://msdn.microsoft.com/en-us/library/ms535961(v=VS.85).aspx">Graphics::FillPolygon</a> method uses a brush to fill the interior of a polygon. 
 
 </td>
 </tr>

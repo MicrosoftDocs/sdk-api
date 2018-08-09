@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdrom.htm
 old-project: WMP
 ms.assetid: 323a6841-ffbd-4bbb-ac04-1d121cf5bd06
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPCdrom, IWMPCdrom interface [Windows Media Player], IWMPCdrom interface [Windows Media Player],described, IWMPCdromInterface, wmp.iwmpcdrom, wmp/IWMPCdrom
 ms.prod: windows
 ms.technology: windows-sdk

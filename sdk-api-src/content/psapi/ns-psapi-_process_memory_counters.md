@@ -7,7 +7,7 @@ old-location: psapi\process_memory_counters_str.htm
 old-project: psapi
 ms.assetid: 288b5865-28a3-478b-ad32-c710fe4f3a81
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: "*PPROCESS_MEMORY_COUNTERS, PPROCESS_MEMORY_COUNTERS, PPROCESS_MEMORY_COUNTERS structure pointer [PSAPI], PROCESS_MEMORY_COUNTERS, PROCESS_MEMORY_COUNTERS structure [PSAPI], _PROCESS_MEMORY_COUNTERS, _win32_process_memory_counters_str, base.process_memory_counters_str, psapi.process_memory_counters_str, psapi/PPROCESS_MEMORY_COUNTERS, psapi/PROCESS_MEMORY_COUNTERS"
 ms.prod: windows
 ms.technology: windows-sdk

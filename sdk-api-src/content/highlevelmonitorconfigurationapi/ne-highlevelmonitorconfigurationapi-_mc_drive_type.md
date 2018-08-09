@@ -7,7 +7,7 @@ old-location: monitor\mc_drive_type.htm
 old-project: Monitor
 ms.assetid: bc81d258-277d-4f69-be6c-724efcdeee56
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: MC_BLUE_DRIVE, MC_DRIVE_TYPE, MC_DRIVE_TYPE , MC_DRIVE_TYPE enumeration [Monitor Configuration], MC_GREEN_DRIVE, MC_RED_DRIVE, _MC_DRIVE_TYPE, highlevelmonitorconfigurationapi/MC_BLUE_DRIVE, highlevelmonitorconfigurationapi/MC_DRIVE_TYPE, highlevelmonitorconfigurationapi/MC_GREEN_DRIVE, highlevelmonitorconfigurationapi/MC_RED_DRIVE, monitor.mc_drive_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-        Specifies whether to set or get a monitor's red, green, or blue drive.
+Specifies whether to set or get a monitor's red, green, or blue drive.
 
 
 ## -enum-fields
@@ -62,22 +61,19 @@ req.product: GDI+ 1.1
 
 ### -field MC_RED_DRIVE
 
-
-            Red drive.
+Red drive.
           
 
 
 ### -field MC_GREEN_DRIVE
 
-
-            Green drive.
+Green drive.
           
 
 
 ### -field MC_BLUE_DRIVE
 
-
-            Blue drive.
+Blue drive.
           
 
 

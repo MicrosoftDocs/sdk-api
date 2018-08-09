@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquire_enumresults.htm
 old-project: acquisition
 ms.assetid: 2f3bd36c-3daf-4738-8240-ce622d988861
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: EnumResults, EnumResults method [Picture Acquisition], EnumResults method [Picture Acquisition],IPhotoAcquire interface, IPhotoAcquire interface [Picture Acquisition],EnumResults method, IPhotoAcquire.EnumResults, IPhotoAcquire::EnumResults, IPhotoAcquireEnumResults, photoacquire/IPhotoAcquire::EnumResults, picacq.iphotoacquire_enumresults
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\ienumguid_skip.htm
 old-project: com
 ms.assetid: 8c3b955b-ba36-4bab-af89-fc89e08e6e94
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumGUID interface [COM],Skip method, IEnumGUID.Skip, IEnumGUID::Skip, Skip, Skip method [COM], Skip method [COM],IEnumGUID interface, _com_ienumguid_skip, com.ienumguid_skip, comcat/IEnumGUID::Skip
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: setup\setupgetsourceinfo.htm
 old-project: SetupApi
 ms.assetid: 15bedd7f-7079-4623-a797-db308a51093f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupGetSourceInfo, SetupGetSourceInfo function [Setup API], SetupGetSourceInfoA, SetupGetSourceInfoW, _setupapi_setupgetsourceinfo, setup.setupgetsourceinfo, setupapi/SetupGetSourceInfo, setupapi/SetupGetSourceInfoA, setupapi/SetupGetSourceInfoW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,11 +119,6 @@ Optional pointer to a variable that receives the required size for the buffer sp
 
 
 
-##### - InfoDesired.SRCINFO_DESCRIPTION
-
-A description for the media.
-
-
 ##### - InfoDesired.SRCINFO_PATH
 
 The path specified for the source. This is not a full path, but the path relative to the installation root.
@@ -132,6 +127,11 @@ The path specified for the source. This is not a full path, but the path relativ
 ##### - InfoDesired.SRCINFO_TAGFILE
 
 The tag file that identifies the source media, or if cabinets are used, the name of the cabinet file.
+
+
+##### - InfoDesired.SRCINFO_DESCRIPTION
+
+A description for the media.
 
 
 ## -returns

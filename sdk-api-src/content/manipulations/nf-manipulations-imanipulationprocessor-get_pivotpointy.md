@@ -7,7 +7,7 @@ old-location: wintouch\imanipulationprocessor_pivotpointy.htm
 old-project: wintouch
 ms.assetid: 09faaacd-3583-4129-b8e3-068e34e220b7
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/06/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],PivotPointY property, IManipulationProcessor.PivotPointY, IManipulationProcessor.get_PivotPointY, IManipulationProcessor::PivotPointY, IManipulationProcessor::get_PivotPointY, IManipulationProcessor::put_PivotPointY, PivotPointY property [Windows Touch], PivotPointY property [Windows Touch],IManipulationProcessor interface, get_PivotPointY, manipulations/IManipulationProcessor::PivotPointY, manipulations/IManipulationProcessor::get_PivotPointY, manipulations/IManipulationProcessor::put_PivotPointY, wintouch.imanipulationprocessor_pivotpointy
 ms.prod: windows
 ms.technology: windows-sdk

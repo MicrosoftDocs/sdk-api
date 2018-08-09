@@ -7,7 +7,7 @@ old-location: rras\rtmreleasenexthops.htm
 old-project: rras
 ms.assetid: a21de428-7e9d-4596-a7ab-06a29b9852f7
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RtmReleaseNextHops, RtmReleaseNextHops function [RAS], _rtmv2ref_rtmreleasenexthops, rras.rtmreleasenexthops, rtmv2/RtmReleaseNextHops
 ms.prod: windows
 ms.technology: windows-sdk

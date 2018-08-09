@@ -7,7 +7,7 @@ old-location: mstv\itsdt_getnexttable.htm
 old-project: mstv
 ms.assetid: 7b60647a-b668-4884-967d-044ff0d149c2
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],GetNextTable method, ITSDT.GetNextTable, ITSDT::GetNextTable, ITSDTGetNextTable, mpeg2psiparser/ITSDT::GetNextTable, mstv.itsdt_getnexttable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,11 +76,9 @@ Address of a variable that receives an <b>ITSDT</b> interface pointer. The calle
 
 <table>
 <tr>
-<th>
-                  Return code
+<th>Return code
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

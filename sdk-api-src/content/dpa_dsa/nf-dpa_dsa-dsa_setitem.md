@@ -7,7 +7,7 @@ old-location: controls\DSA_SetItem.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_setitem.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DSA_SetItem, DSA_SetItem function [Windows Controls], _shell_DSA_SetItem, _shell_DSA_SetItem_cpp, controls.DSA_SetItem, controls._shell_DSA_SetItem, dpa_dsa/DSA_SetItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,26 +67,14 @@ Type: <b>HDSA</b>
 A handle to an existing DSA that contains the element.
 
 
-### -param i
-
-TBD
-
-
-### -param pitem
-
-TBD
-
-
-
-
-#### - index [in]
+### -param i [in]
 
 Type: <b>int</b>
 
 The zero-based index of the item to set.
 
 
-#### - pItem [in]
+### -param pitem [in]
 
 Type: <b>void*</b>
 

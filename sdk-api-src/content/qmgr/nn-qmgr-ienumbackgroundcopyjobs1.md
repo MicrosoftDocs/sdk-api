@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopyjobs1.htm
 old-project: bits
 ms.assetid: 93feac90-8eb8-49d8-9841-d78a2645fbcb
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IEnumBackgroundCopyJobs1, IEnumBackgroundCopyJobs1 interface [BITS], IEnumBackgroundCopyJobs1 interface [BITS],described, bits.ienumbackgroundcopyjobs1, qmgr/IEnumBackgroundCopyJobs1
 ms.prod: windows
 ms.technology: windows-sdk

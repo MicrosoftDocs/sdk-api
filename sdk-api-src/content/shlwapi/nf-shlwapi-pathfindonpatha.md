@@ -7,7 +7,7 @@ old-location: shell\PathFindOnPath.htm
 old-project: shell
 ms.assetid: d9281eb2-39b7-444f-85b7-1e1e76c38ae2
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PathFindOnPath, PathFindOnPath function [Windows Shell], PathFindOnPathA, PathFindOnPathW, _win32_PathFindOnPath, shell.PathFindOnPath, shlwapi/PathFindOnPath, shlwapi/PathFindOnPathA, shlwapi/PathFindOnPathW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,11 @@ Searches for a file.
 
 
 
-### -param pszPath
+### -param pszPath [in, out]
 
-TBD
+Type: <b>LPTSTR</b>
+
+A pointer to a null-terminated string of length MAX_PATH that contains the file name for which to search. If the search is successful, this parameter is used to return the fully qualified path name.
 
 
 ### -param ppszOtherDirs [in, optional]
@@ -74,13 +76,6 @@ TBD
 Type: <b>LPCTSTR*</b>
 
 An optional, null-terminated array of directories to be searched first. This value can be <b>NULL</b>.
-
-
-#### - pszFile [in, out]
-
-Type: <b>LPTSTR</b>
-
-A pointer to a null-terminated string of length MAX_PATH that contains the file name for which to search. If the search is successful, this parameter is used to return the fully qualified path name.
 
 
 ## -returns

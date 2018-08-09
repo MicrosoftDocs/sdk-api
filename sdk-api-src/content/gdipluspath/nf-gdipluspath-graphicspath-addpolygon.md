@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddPolygon_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddpolygonmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: AddPolygon, AddPolygon methods [GDI+], GraphicsPath.AddPolygon, GraphicsPath::AddPolygon, _gdiplus_CLASS_GraphicsPath_AddPolygon_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddPolygon_Methods, gdipluspath/AddPolygon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,9 +53,9 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 AddPolygon methods of the 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
 <b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
 
 
 
@@ -66,19 +66,19 @@ AddPolygon methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535593(v=VS.85).aspx">AddPolygon(Point*,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535593(v=VS.85).aspx">AddPolygon(Point*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535593(v=VS.85).aspx">GraphicsPath::AddPolygon</a> method adds a polygon to this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535593(v=VS.85).aspx">GraphicsPath::AddPolygon</a> method adds a polygon to this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535594(v=VS.85).aspx">AddPolygon(PointF*,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535594(v=VS.85).aspx">AddPolygon(PointF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535594(v=VS.85).aspx">GraphicsPath::AddPolygon</a> method adds a polygon to this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535594(v=VS.85).aspx">GraphicsPath::AddPolygon</a> method adds a polygon to this path.
 
 </td>
 </tr>

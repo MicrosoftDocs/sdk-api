@@ -7,7 +7,7 @@ old-location: com\ienumunknown_reset.htm
 old-project: com
 ms.assetid: 54c60e75-1b23-4e89-af16-e551ed880a61
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumUnknown interface [COM],Reset method, IEnumUnknown.Reset, IEnumUnknown::Reset, Reset, Reset method [COM], Reset method [COM],IEnumUnknown interface, _com_ienumunknown_reset, com.ienumunknown_reset, objidlbase/IEnumUnknown::Reset
 ms.prod: windows
 ms.technology: windows-sdk

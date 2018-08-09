@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_getnummessagesdiscardedbymessagecountli
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getnummessagesdiscardedbymessagecountlimit.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetNumMessagesDiscardedByMessageCountLimit, GetNumMessagesDiscardedByMessageCountLimit method [Direct3D 10], GetNumMessagesDiscardedByMessageCountLimit method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetNumMessagesDiscardedByMessageCountLimit method, ID3D10InfoQueue.GetNumMessagesDiscardedByMessageCountLimit, ID3D10InfoQueue::GetNumMessagesDiscardedByMessageCountLimit, d12591c5-0fe7-d6c0-52b7-6344cee6e4a7, d3d10sdklayers/ID3D10InfoQueue::GetNumMessagesDiscardedByMessageCountLimit, direct3d10.id3d10infoqueue_getnummessagesdiscardedbymessagecountlimit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ Number of messages discarded.
 
 
 
-Get and set the message count limit with <a href="https://msdn.microsoft.com/library/Bb173791(v=VS.85).aspx">ID3D10InfoQueue::GetMessageCountLimit</a> and <a href="https://msdn.microsoft.com/library/Bb173813(v=VS.85).aspx">ID3D10InfoQueue::SetMessageCountLimit</a>, respectively.
+Get and set the message count limit with <a href="https://msdn.microsoft.com/en-us/library/Bb173791(v=VS.85).aspx">ID3D10InfoQueue::GetMessageCountLimit</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb173813(v=VS.85).aspx">ID3D10InfoQueue::SetMessageCountLimit</a>, respectively.
 
 
 
@@ -85,7 +85,7 @@ Get and set the message count limit with <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
  
 
  

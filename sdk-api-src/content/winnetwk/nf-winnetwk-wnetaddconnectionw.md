@@ -4,10 +4,10 @@ title: WNetAddConnectionW function
 author: windows-sdk-content
 description: The WNetAddConnection function enables the calling application to connect a local device to a network resource. A successful connection is persistent, meaning that the system automatically restores the connection during subsequent logon operations.
 old-location: wnet\wnetaddconnection.htm
-old-project: WNet
+old-project: wnet
 ms.assetid: 9f2cf166-eb08-4498-8cda-79808776a452
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WNetAddConnection, WNetAddConnection function [Windows Networking (WNet)], WNetAddConnectionA, WNetAddConnectionW, _win32_wnetaddconnection, winnetwk/WNetAddConnection, winnetwk/WNetAddConnectionA, winnetwk/WNetAddConnectionW, wnet.wnetaddconnection
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_put_visible.htm
 old-project: DirectShow
 ms.assetid: ae789f07-4d50-488c-b57e-2b003a8cde3e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_Visible method, IVideoWindow.put_Visible, IVideoWindow::put_Visible, IVideoWindowput_Visible, control/IVideoWindow::put_Visible, dshow.ivideowindow_put_visible, put_Visible, put_Visible method [DirectShow], put_Visible method [DirectShow],IVideoWindow interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,22 +69,18 @@ Specifies whether to show or hide the window. Must be one of the following value
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
-<td>
-                  OATRUE
+<td>OATRUE
                 </td>
 <td>Show the window.</td>
 </tr>
 <tr>
-<td>
-                  OAFALSE
+<td>OAFALSE
                 </td>
 <td>Hide the window.</td>
 </tr>

@@ -7,7 +7,7 @@ old-location: controls\NMTCKEYDOWN.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\structures\nmtckeydown.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: NMTCKEYDOWN, NMTCKEYDOWN structure [Windows Controls], _win32_NMTCKEYDOWN, _win32_NMTCKEYDOWN_cpp, commctrl/NMTCKEYDOWN, controls.NMTCKEYDOWN, controls._win32_NMTCKEYDOWN, tagTCKEYDOWN
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information about a key press in a tab control. It is used with the <a href="https://msdn.microsoft.com/library/Bb760567(v=VS.85).aspx">TCN_KEYDOWN</a> notification code. This structure supersedes the
+Contains information about a key press in a tab control. It is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb760567(v=VS.85).aspx">TCN_KEYDOWN</a> notification code. This structure supersedes the
 <b>TC_KEYDOWN</b> structure. 
 
 
@@ -61,10 +61,10 @@ Contains information about a key press in a tab control. It is used with the <a 
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification. 
 
 
 ### -field wVKey
@@ -79,5 +79,5 @@ Virtual key code.
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Value that is identical to the 
-					<i>lParam</i> parameter of the <a href="https://msdn.microsoft.com/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a> message. 
+					<i>lParam</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a> message. 
 

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__multiplytransform.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__multiplytransform.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],MultiplyTransform method, IDirect3DDevice9.MultiplyTransform, IDirect3DDevice9::MultiplyTransform, MultiplyTransform, MultiplyTransform method [Direct3D 9], MultiplyTransform method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::MultiplyTransform, direct3d9.idirect3ddevice9__multiplytransform, fe383422-a888-e230-bf89-3ae4af8e8e7d
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,23 +73,23 @@ Multiplies a device's world, view, or projection matrices by a specified matrix.
 
 #### - State [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172619(v=VS.85).aspx">D3DTRANSFORMSTATETYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172619(v=VS.85).aspx">D3DTRANSFORMSTATETYPE</a></b>
 
-Member of the <a href="https://msdn.microsoft.com/library/Bb172619(v=VS.85).aspx">D3DTRANSFORMSTATETYPE</a> enumerated type, or the <a href="https://msdn.microsoft.com/library/Bb172623(v=VS.85).aspx">D3DTS_WORLDMATRIX</a> macro that identifies which device matrix is to be modified. The most common setting, <b>D3DTS_WORLDMATRIX</b>(0), modifies the world matrix, but you can specify that the method modify the view or projection matrices, if needed. 
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172619(v=VS.85).aspx">D3DTRANSFORMSTATETYPE</a> enumerated type, or the <a href="https://msdn.microsoft.com/en-us/library/Bb172623(v=VS.85).aspx">D3DTS_WORLDMATRIX</a> macro that identifies which device matrix is to be modified. The most common setting, <b>D3DTS_WORLDMATRIX</b>(0), modifies the world matrix, but you can specify that the method modify the view or projection matrices, if needed. 
 
 
 #### - pMatrix [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb172573(v=VS.85).aspx">D3DMATRIX</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172573(v=VS.85).aspx">D3DMATRIX</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb172573(v=VS.85).aspx">D3DMATRIX</a> structure that modifies the current transformation. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172573(v=VS.85).aspx">D3DMATRIX</a> structure that modifies the current transformation. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL if one of the arguments is invalid.
 
@@ -158,27 +158,27 @@ IDirect3DDevice9::DrawPrimitive(hand)</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb172622(v=VS.85).aspx">D3DTS_WORLD</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb172622(v=VS.85).aspx">D3DTS_WORLD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb172623(v=VS.85).aspx">D3DTS_WORLDMATRIX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb172623(v=VS.85).aspx">D3DTS_WORLDMATRIX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb172624(v=VS.85).aspx">D3DTS_WORLDn</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb172624(v=VS.85).aspx">D3DTS_WORLDn</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174371(v=VS.85).aspx">IDirect3DDevice9::DrawPrimitive</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174371(v=VS.85).aspx">IDirect3DDevice9::DrawPrimitive</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174463(v=VS.85).aspx">IDirect3DDevice9::SetTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174463(v=VS.85).aspx">IDirect3DDevice9::SetTransform</a>
  
 
  

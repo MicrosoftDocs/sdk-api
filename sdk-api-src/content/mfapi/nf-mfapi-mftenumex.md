@@ -7,7 +7,7 @@ old-location: mf\mftenumex.htm
 old-project: medfound
 ms.assetid: e065ae51-85dd-48ef-9322-de4ade62c0fe
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFTEnumEx, MFTEnumEx function [Media Foundation], mf.mftenumex, mfapi/MFTEnumEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,14 +88,7 @@ This parameter can be <b>NULL</b>. If <b>NULL</b>, all output types are matched.
 Receives an array of <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface pointers. Each pointer represents an activation object for an MFT that matches the search criteria. The function allocates the memory for the array. The caller must release the pointers and call the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function to free the memory for the array.
 
 
-### -param pnumMFTActivate
-
-TBD
-
-
-
-
-#### - pcMFTActivate [out]
+### -param pnumMFTActivate [out]
 
 Receives the number of elements in the <i>pppMFTActivate</i> array. If no MFTs match the search criteria, this parameter receives the value zero.
 

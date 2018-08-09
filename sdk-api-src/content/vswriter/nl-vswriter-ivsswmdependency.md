@@ -4,10 +4,10 @@ title: IVssWMDependency
 author: windows-sdk-content
 description: The IVssWMDependency is a C++ (not COM) interface returned by the IVssWMComponent interface and used by applications when backing up or restoring a component that has an explicit writer-component dependency on a component managed by another writer.
 old-location: base\ivsswmdependency.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 5ec3d8d2-5138-4887-9741-addaaaee6bee
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IVssWMDependency, IVssWMDependency interface [VSS], IVssWMDependency interface [VSS],described, _win32_ivsswmdependency, base.ivsswmdependency, vswriter/IVssWMDependency
 ms.prod: windows
 ms.technology: windows-sdk

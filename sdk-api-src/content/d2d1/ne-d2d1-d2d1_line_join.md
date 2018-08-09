@@ -4,10 +4,10 @@ title: D2D1_LINE_JOIN
 author: windows-sdk-content
 description: Describes the shape that joins two lines or segments.
 old-location: direct2d\D2D1_LINE_JOIN.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 4368e93e-af69-4555-ac2b-c9c576c81372
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D2D1_LINE_JOIN, D2D1_LINE_JOIN enumeration [Direct2D], D2D1_LINE_JOIN_BEVEL, D2D1_LINE_JOIN_MITER, D2D1_LINE_JOIN_MITER_OR_BEVEL, D2D1_LINE_JOIN_ROUND, d2d1/D2D1_LINE_JOIN, d2d1/D2D1_LINE_JOIN_BEVEL, d2d1/D2D1_LINE_JOIN_MITER, d2d1/D2D1_LINE_JOIN_MITER_OR_BEVEL, d2d1/D2D1_LINE_JOIN_ROUND, direct2d.D2D1_LINE_JOIN
 ms.prod: windows
 ms.technology: windows-sdk

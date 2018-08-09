@@ -4,10 +4,10 @@ title: ITTerminalControl::DisconnectTerminal
 author: windows-sdk-content
 description: The DisconnectTerminal method disconnects internal filters and removes them from the filter graph.
 old-location: tapi3\itterminalcontrol_disconnectterminal.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 5af5d0bf-27e1-4d42-a003-79388d2498cd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: DisconnectTerminal, DisconnectTerminal method [TAPI 2.2], DisconnectTerminal method [TAPI 2.2],ITTerminalControl interface, ITTerminalControl interface [TAPI 2.2],DisconnectTerminal method, ITTerminalControl.DisconnectTerminal, ITTerminalControl::DisconnectTerminal, _tapi3_itterminalcontrol_disconnectterminal, tapi3.itterminalcontrol_disconnectterminal, termmgr/ITTerminalControl::DisconnectTerminal
 ms.prod: windows
 ms.technology: windows-sdk

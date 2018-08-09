@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10blendstate1.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10blendstate1.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 50959f42-4209-b827-553e-862c94c85dfc, ID3D10BlendState1, ID3D10BlendState1 interface [Direct3D 10], ID3D10BlendState1 interface [Direct3D 10],described, d3d10_1/ID3D10BlendState1, direct3d10.id3d10blendstate1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,12 +51,12 @@ req.irql:
 ## -description
 
 
-This blend-state interface accesses blending state for a Direct3D 10.1 device for the <a href="https://msdn.microsoft.com/library/Bb205120(v=VS.85).aspx">output-merger</a> stage.
+This blend-state interface accesses blending state for a Direct3D 10.1 device for the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger</a> stage.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10BlendState1</b> interface inherits from <a href="https://msdn.microsoft.com/library/Bb173505(v=VS.85).aspx">ID3D10BlendState</a>. <b>ID3D10BlendState1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10BlendState1</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173505(v=VS.85).aspx">ID3D10BlendState</a>. <b>ID3D10BlendState1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID3D10BlendState1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb694545(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb694545(v=VS.85).aspx">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get the blend state.
@@ -85,9 +85,9 @@ Get the blend state.
 
 
 
-Blending combines two pixel values. You have control over how the pixels are blended by using a predefined set of blending operations, as well as preblending operations. The <a href="https://msdn.microsoft.com/library/Bb205120(v=VS.85).aspx">Blending Block Diagram</a> shows conceptually how blending works.
+Blending combines two pixel values. You have control over how the pixels are blended by using a predefined set of blending operations, as well as preblending operations. The <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">Blending Block Diagram</a> shows conceptually how blending works.
 
-To create a blend-state interface, call <a href="https://msdn.microsoft.com/library/Bb694547(v=VS.85).aspx">ID3D10Device1::CreateBlendState1</a>. To initialize the blend state, call <a href="https://msdn.microsoft.com/library/Bb173595(v=VS.85).aspx">ID3D10Device::OMSetBlendState</a>.
+To create a blend-state interface, call <a href="https://msdn.microsoft.com/en-us/library/Bb694547(v=VS.85).aspx">ID3D10Device1::CreateBlendState1</a>. To initialize the blend state, call <a href="https://msdn.microsoft.com/en-us/library/Bb173595(v=VS.85).aspx">ID3D10Device::OMSetBlendState</a>.
 
 This method requires Windows Vista Service Pack 1.
 
@@ -99,11 +99,11 @@ This method requires Windows Vista Service Pack 1.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173505(v=VS.85).aspx">ID3D10BlendState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173505(v=VS.85).aspx">ID3D10BlendState</a>
  
 
  

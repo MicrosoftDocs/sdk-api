@@ -7,7 +7,7 @@ old-location: automat\icreateerrorinfo_setsource.htm
 old-project: automat
 ms.assetid: 7f0e6349-9d31-4ab6-9a91-3822e81188e5
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: ICreateErrorInfo interface [Automation],SetSource method, ICreateErrorInfo.SetSource, ICreateErrorInfo::SetSource, SetSource, SetSource method [Automation], SetSource method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetSource, automat.icreateerrorinfo_setsource, oaidl/ICreateErrorInfo::SetSource
 ms.prod: windows
 ms.technology: windows-sdk

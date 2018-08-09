@@ -7,7 +7,7 @@ old-location: iphlp\geticmpstatistics.htm
 old-project: iphlp
 ms.assetid: b10ec58b-54fe-4068-beb9-6909ad7cecf7
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: GetIcmpStatistics, GetIcmpStatistics function [IP Helper], _iphlp_geticmpstatistics, iphlp.geticmpstatistics, iphlpapi/GetIcmpStatistics
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,14 +60,7 @@ The
 
 
 
-### -param Statistics
-
-TBD
-
-
-
-
-#### - pStats [out]
+### -param Statistics [out]
 
 A pointer to a 
 <a href="https://msdn.microsoft.com/45ccaacb-f2cd-4be5-94ef-48d4403d5f60">MIB_ICMP</a> structure that receives the ICMP statistics for the local computer.

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsecurity_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_63cp_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxSecurity, IFaxSecurity interface [Fax Service], IFaxSecurity interface [Fax Service],described, _mfax_faxsecurity_cpp, fax._mfax_faxsecurity_cpp, faxcomex/IFaxSecurity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The <b>IFaxSecurity</b> configuration object is used by a fax client application
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxSecurity</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxSecurity</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxSecurity</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxSecurity</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -75,7 +75,7 @@ The <b>IFaxSecurity</b> interface has these methods.
 <a href="https://msdn.microsoft.com/en-us/library/ms690274(v=VS.85).aspx">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms690274(v=VS.85).aspx">IFaxSecurity::Refresh</a> method refreshes <a href="https://msdn.microsoft.com/library/ms689509(v=VS.85).aspx">FaxSecurity</a> object information from the fax server.
+The <a href="https://msdn.microsoft.com/en-us/library/ms690274(v=VS.85).aspx">IFaxSecurity::Refresh</a> method refreshes <a href="https://msdn.microsoft.com/en-us/library/ms689509(v=VS.85).aspx">FaxSecurity</a> object information from the fax server.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690274(v=VS.85).aspx">IF
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms690247(v=VS.85).aspx">IFaxSecurity::Save</a> method saves the <a href="https://msdn.microsoft.com/library/ms689509(v=VS.85).aspx">FaxSecurity</a> object data.
+The <a href="https://msdn.microsoft.com/en-us/library/ms690247(v=VS.85).aspx">IFaxSecurity::Save</a> method saves the <a href="https://msdn.microsoft.com/en-us/library/ms689509(v=VS.85).aspx">FaxSecurity</a> object data.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690247(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/Aa358834(v=VS.85).aspx">Descriptor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358834(v=VS.85).aspx">Descriptor</a>
 
 
 </td>
@@ -108,14 +108,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/Aa358834(v=VS.85).aspx">Descriptor</a> property  represents the security descriptor for a <a href="https://msdn.microsoft.com/library/ms689110(v=VS.85).aspx">IFaxServer</a> object.
+The <a href="https://msdn.microsoft.com/en-us/library/Aa358834(v=VS.85).aspx">Descriptor</a> property  represents the security descriptor for a <a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms689128(v=VS.85).aspx">get_InformationType</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689128(v=VS.85).aspx">get_InformationType</a>
 
 
 </td>
@@ -124,7 +124,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms689128(v=VS.85).aspx">IFaxSecurity::InformationType</a> property represents the security information type.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689128(v=VS.85).aspx">IFaxSecurity::InformationType</a> property represents the security information type.
 
 </td>
 </tr>
@@ -151,9 +151,9 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms689131(v=VS.85).aspx">IF
 
 
 
-Only an administrator with permissions can configure the security of the fax server. For more information, see <a href="https://msdn.microsoft.com/library/Bb442405(v=VS.85).aspx">Access Control</a>.
+Only an administrator with permissions can configure the security of the fax server. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb442405(v=VS.85).aspx">Access Control</a>.
 
-A default implementation of <b>IFaxSecurity</b> is provided as the <a href="https://msdn.microsoft.com/library/ms689509(v=VS.85).aspx">FaxSecurity</a> object.
+A default implementation of <b>IFaxSecurity</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms689509(v=VS.85).aspx">FaxSecurity</a> object.
 
 
 

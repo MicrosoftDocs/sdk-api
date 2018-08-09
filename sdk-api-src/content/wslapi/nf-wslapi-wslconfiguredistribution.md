@@ -7,7 +7,7 @@ old-location: wsl\wslconfiguredistribution.htm
 old-project: wsl
 ms.assetid: 4E89F367-4E10-4E76-93BC-FD5E2450D430
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WslConfigureDistribution, WslConfigureDistribution function, wsl.wslconfiguredistribution, wslapi/WslConfigureDistribution
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Modifies the behavior of a distribution registered with the Windows Subsystem fo
 
 ### -param distributionName
 
-TBD
+Unique name representing a distribution (for example, "Fabrikam.Distro.10.01").
 
 
 ### -param defaultUID
@@ -70,18 +70,6 @@ The Linux user ID to use when launching new WSL sessions for this distribution.
 
 
 ### -param wslDistributionFlags
-
-TBD
-
-
-
-
-#### - distroName
-
-Unique name representing a distribution (for example, "Fabrikam.Distro.10.01").
-
-
-#### - wslFlags
 
 Flags specifying what behavior to use for this distribution.
 

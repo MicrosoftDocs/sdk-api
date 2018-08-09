@@ -4,10 +4,10 @@ title: ITextServices2
 author: windows-sdk-content
 description: The ITextServices2 interface extends the ITextServices interface.
 old-location: controls\itextservices2.htm
-old-project: Controls
+old-project: controls
 ms.assetid: B5DC90BA-F9A5-45DC-8C8A-784380C38769
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ITextServices2, ITextServices2 interface [Windows Controls], ITextServices2 interface [Windows Controls],described, controls.itextservices2, textserv/ITextServices2
 ms.prod: windows
 ms.technology: windows-sdk

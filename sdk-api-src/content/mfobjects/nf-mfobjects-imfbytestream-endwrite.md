@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_endwrite.htm
 old-project: medfound
 ms.assetid: d3e10e89-ef5d-41c5-b549-4bd632d9370d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: EndWrite, EndWrite method [Media Foundation], EndWrite method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],EndWrite method, IMFByteStream.EndWrite, IMFByteStream::EndWrite, d3e10e89-ef5d-41c5-b549-4bd632d9370d, mf.imfbytestream_endwrite, mfobjects/IMFByteStream::EndWrite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ Pointer to the <a href="https://msdn.microsoft.com/8c95b1de-8974-445c-8070-41552
 
 ### -param pcbWritten [out]
 
-
-            Receives the number of bytes that were written.
+Receives the number of bytes that were written.
           
 
 
@@ -88,8 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        Call this method when the <a href="https://msdn.microsoft.com/078a8ffe-7b4f-487e-8655-fe5ea14ba306">IMFByteStream::BeginWrite</a> method completes asynchronously.
+Call this method when the <a href="https://msdn.microsoft.com/078a8ffe-7b4f-487e-8655-fe5ea14ba306">IMFByteStream::BeginWrite</a> method completes asynchronously.
       
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:

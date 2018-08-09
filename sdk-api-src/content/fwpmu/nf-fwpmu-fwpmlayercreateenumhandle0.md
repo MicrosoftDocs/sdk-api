@@ -7,7 +7,7 @@ old-location: fwp\fwpmlayercreateenumhandle0_func.htm
 old-project: fwp
 ms.assetid: 94738168-9f02-420a-96cd-b7c3f6418c6f
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmLayerCreateEnumHandle0, FwpmLayerCreateEnumHandle0 function [Filtering], fwp.fwpmlayercreateenumhandle0_func, fwpmu/FwpmLayerCreateEnumHandle0
 ms.prod: windows
 ms.technology: windows-sdk

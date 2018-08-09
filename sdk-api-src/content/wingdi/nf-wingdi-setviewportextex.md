@@ -7,7 +7,7 @@ old-location: gdi\setviewportextex.htm
 old-project: gdi
 ms.assetid: 36bf82e0-f3e7-43cf-943f-eed783ad24a4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetViewportExtEx, SetViewportExtEx function [Windows GDI], _win32_SetViewportExtEx, gdi.setviewportextex, wingdi/SetViewportExtEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,36 +67,19 @@ The <b>SetViewportExtEx</b> function sets the horizontal and vertical extents of
 A handle to the device context.
 
 
-### -param x
-
-TBD
-
-
-### -param y
-
-TBD
-
-
-### -param lpsz
-
-TBD
-
-
-
-
-#### - lpSize [out]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that receives the previous viewport extents, in device units. If <i>lpSize</i> is <b>NULL</b>, this parameter is not used.
-
-
-#### - nXExtent [in]
+### -param x [in]
 
 The horizontal extent, in device units, of the viewport.
 
 
-#### - nYExtent [in]
+### -param y [in]
 
 The vertical extent, in device units, of the viewport.
+
+
+### -param lpsz [out]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that receives the previous viewport extents, in device units. If <i>lpSize</i> is <b>NULL</b>, this parameter is not used.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: FindFirstUrlCacheEntryExW function
 author: windows-sdk-content
 description: Starts a filtered enumeration of the Internet cache.
 old-location: wininet\findfirsturlcacheentryex.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: af17c809-2a9e-443a-b64a-93c028e3b71b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: FindFirstUrlCacheEntryEx, FindFirstUrlCacheEntryEx function [WinINet], FindFirstUrlCacheEntryExA, FindFirstUrlCacheEntryExW, _inet_findfirsturlcacheentryex_function, wininet.findfirsturlcacheentryex, wininet/FindFirstUrlCacheEntryEx, wininet/FindFirstUrlCacheEntryExA, wininet/FindFirstUrlCacheEntryExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -185,9 +185,10 @@ Pointer to a
 <a href="https://msdn.microsoft.com/7bda08e0-5df0-4087-a5cd-3a25c6ae5ade">INTERNET_CACHE_ENTRY_INFO</a> structure to receive the cache entry information.
 
 
-### -param lpcbCacheEntryInfo
+### -param lpcbCacheEntryInfo [in, out]
 
-TBD
+Pointer to variable that indicates the size of 
+the structure referenced by the <i>lpFirstCacheEntryInfo</i> parameter, in bytes.
 
 
 ### -param lpGroupAttributes [out]
@@ -203,12 +204,6 @@ This parameter is reserved and must be NULL.
 ### -param lpReserved [in]
 
 This parameter is reserved and must be NULL.
-
-
-#### - lpdwEntryInfo [in, out]
-
-Pointer to variable that indicates the size of 
-the structure referenced by the <i>lpFirstCacheEntryInfo</i> parameter, in bytes.
 
 
 ## -returns

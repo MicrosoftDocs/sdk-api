@@ -4,10 +4,10 @@ title: AbortSystemShutdownA function
 author: windows-sdk-content
 description: Stops a system shutdown that has been initiated.
 old-location: base\abortsystemshutdown.htm
-old-project: Shutdown
+old-project: shutdown
 ms.assetid: 41212640-6a06-4d2f-9b0e-5b2d77d561b0
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: AbortSystemShutdown, AbortSystemShutdown function, AbortSystemShutdownA, AbortSystemShutdownW, _win32_abortsystemshutdown, base.abortsystemshutdown, winreg/AbortSystemShutdown, winreg/AbortSystemShutdownA, winreg/AbortSystemShutdownW
 ms.prod: windows
 ms.technology: windows-sdk

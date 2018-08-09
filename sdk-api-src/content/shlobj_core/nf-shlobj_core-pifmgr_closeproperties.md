@@ -7,7 +7,7 @@ old-location: properties\PifMgr_CloseProperties.htm
 old-project: properties
 ms.assetid: fd50d4f8-87c8-4162-9e88-3c8592b929fa
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: CLOSEPROPS_DISCARD, CLOSEPROPS_NONE, PifMgr_CloseProperties, PifMgr_CloseProperties function [Windows Properties], _win32_PifMgr_CloseProperties, properties.PifMgr_CloseProperties, shell.PifMgr_CloseProperties, shlobj_core/PifMgr_CloseProperties
 ms.prod: windows
 ms.technology: windows-sdk

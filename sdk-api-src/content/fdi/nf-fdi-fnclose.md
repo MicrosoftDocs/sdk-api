@@ -7,7 +7,7 @@ old-location: winprog\fnclose.htm
 old-project: devnotes
 ms.assetid: 89db9c2a-42ab-410d-a427-60d282385c2b
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FNCLOSE, FNCLOSE macro [Windows API], fdi/FNCLOSE, winprog.fnclose
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,16 +59,7 @@ The <b>FNCLOSE</b> macro provides the declaration for the application-defined ca
 
 
 
-### -param fn
-
-TBD
-
-
-
-
-
-
-#### - hf [in]
+### -param fn [in]
 
 An application-defined value used to identify the open file.
 

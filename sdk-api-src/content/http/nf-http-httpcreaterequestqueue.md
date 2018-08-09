@@ -7,7 +7,7 @@ old-location: http\httpcreaterequestqueue.htm
 old-project: http
 ms.assetid: a0f4112e-db81-4eda-afeb-d00117f7240c
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HTTP_CREATE_REQUEST_QUEUE_FLAG_CONTROLLER, HTTP_CREATE_REQUEST_QUEUE_FLAG_OPEN_EXISTING, HttpCreateRequestQueue, HttpCreateRequestQueue function [HTTP], http.httpcreaterequestqueue, http/HttpCreateRequestQueue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,11 +73,18 @@ The version must be 2.0; <b>HttpCreateRequestQueue</b> does not support  version
 TBD
 
 
-### -param RequestQueueHandle
+### -param RequestQueueHandle [in, optional]
 
-TBD
+A pointer to the <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that contains the  access permissions for the request queue.
+
+This parameter must be <b>NULL</b> when opening an existing request queue.
 
 
+#### - pName [in, optional]
+
+The name of the request queue. The length, in bytes, cannot exceed MAX_PATH.
+
+  The optional name parameter allows other processes to access the request queue by name.
 
 
 #### - Flags [in, optional]
@@ -113,23 +120,9 @@ The handle to the request queue created using this flag cannot be used to perfor
  
 
 
-#### - pName [in, optional]
-
-The name of the request queue. The length, in bytes, cannot exceed MAX_PATH.
-
-  The optional name parameter allows other processes to access the request queue by name.
-
-
 #### - pReqQueueHandle [out]
 
 A pointer to a variable that receives a handle to the request queue.  This parameter must contain a valid pointer; it cannot be <b>NULL</b>.
-
-
-#### - pSecurityAttributes [in, optional]
-
-A pointer to the <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that contains the  access permissions for the request queue.
-
-This parameter must be <b>NULL</b> when opening an existing request queue.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambufferv2sourceevent_stalefiledeleted.htm
 old-project: mstv
 ms.assetid: 23cd93d9-3615-4fbf-a6de-61ee69cd51e3
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],StaleFileDeleted method, IMSVidStreamBufferV2SourceEvent.StaleFileDeleted, IMSVidStreamBufferV2SourceEvent::StaleFileDeleted, StaleFileDeleted, StaleFileDeleted method [Microsoft TV Technologies], StaleFileDeleted method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, mstv.imsvidstreambufferv2sourceevent_stalefiledeleted, segment/IMSVidStreamBufferV2SourceEvent::StaleFileDeleted
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      Fired when the SBE2 source filter receives a <b>STREAMBUFFER_EC_STALE_FILE_DELETED</b> event, which indicates that a temporary file has been deleted.
+Fired when the SBE2 source filter receives a <b>STREAMBUFFER_EC_STALE_FILE_DELETED</b> event, which indicates that a temporary file has been deleted.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_TextureBrush_SetWrapMode_wrapMode_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\setwrapmode_88wrapmode.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: SetWrapMode, SetWrapMode method [GDI+], SetWrapMode method [GDI+],TextureBrush class, TextureBrush class [GDI+],SetWrapMode method, TextureBrush.SetWrapMode, TextureBrush::SetWrapMode, _gdiplus_CLASS_TextureBrush_SetWrapMode_wrapMode_, gdiplus._gdiplus_CLASS_TextureBrush_SetWrapMode_wrapMode_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ The <b>TextureBrush::SetWrapMode</b> method sets the wrap mode of this texture b
 
 ### -param wrapMode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534407(v=VS.85).aspx">WrapMode</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534407(v=VS.85).aspx">WrapMode</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/library/ms534407(v=VS.85).aspx">WrapMode</a> enumeration that specifies how repeated copies of an image are used to tile an area when it is painted with this texture brush. 
+Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534407(v=VS.85).aspx">WrapMode</a> enumeration that specifies how repeated copies of an image are used to tile an area when it is painted with this texture brush. 
 
 
 ## -returns
@@ -73,7 +73,7 @@ Element of the <a href="https://msdn.microsoft.com/library/ms534407(v=VS.85).asp
 Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a></b>
 </strong>
 
-If the method succeeds, it returns <a href="https://msdn.microsoft.com/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the 
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the 
 						<b>Status</b> enumeration.
 
 If the method fails, it returns one of the other elements of the 
@@ -86,15 +86,15 @@ If the method fails, it returns one of the other elements of the
 
 
 
-An area that extends beyond the boundaries of the brush is tiled with repeated copies of the brush. A texture brush may have alternate tiles flipped in a certain direction, as specified by the wrap mode. Flipping has the effect of reversing the brush's image. For example, if the wrap mode is specified as <a href="https://msdn.microsoft.com/library/ms534175(v=VS.85).aspx">WrapModeTileFlipX</a>, the brush is flipped about a line that is parallel to the y-axis.
+An area that extends beyond the boundaries of the brush is tiled with repeated copies of the brush. A texture brush may have alternate tiles flipped in a certain direction, as specified by the wrap mode. Flipping has the effect of reversing the brush's image. For example, if the wrap mode is specified as <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">WrapModeTileFlipX</a>, the brush is flipped about a line that is parallel to the y-axis.
 
-The texture brush is always oriented at (0, 0). If the wrap mode is specified as <a href="https://msdn.microsoft.com/library/ms534175(v=VS.85).aspx">WrapModeClamp</a>, no area outside of the brush is tiled. For example, suppose you create a texture brush, specifying <a href="https://msdn.microsoft.com/library/ms534175(v=VS.85).aspx">WrapModeClamp</a> as the wrap mode:
+The texture brush is always oriented at (0, 0). If the wrap mode is specified as <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">WrapModeClamp</a>, no area outside of the brush is tiled. For example, suppose you create a texture brush, specifying <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">WrapModeClamp</a> as the wrap mode:
 
 <code>TextureBrush(&amp;SomeImage, WrapModeClamp)</code>
 
 Then you paint an area with the brush. If the size of the brush has a height of 50 and the painted area is a rectangle with its upper-left corner at (0, 50), you will see no repeated copies of the brush (no tiling).
 
-The default wrap mode for a texture brush is <a href="https://msdn.microsoft.com/library/ms534175(v=VS.85).aspx">WrapModeTile</a>, which specifies no flipping of the tile and no clamping.
+The default wrap mode for a texture brush is <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">WrapModeTile</a>, which specifies no flipping of the tile and no clamping.
 
 
 #### Examples
@@ -127,27 +127,27 @@ The following example creates a texture brush, sets the wrap mode of the brush, 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533858(v=VS.85).aspx">Filling a Shape with an Image Texture</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533858(v=VS.85).aspx">Filling a Shape with an Image Texture</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534512(v=VS.85).aspx">TextureBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534512(v=VS.85).aspx">TextureBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534527(v=VS.85).aspx">TextureBrush::GetWrapMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534527(v=VS.85).aspx">TextureBrush::GetWrapMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533861(v=VS.85).aspx">Tiling a Shape with an Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533861(v=VS.85).aspx">Tiling a Shape with an Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534407(v=VS.85).aspx">WrapMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534407(v=VS.85).aspx">WrapMode</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mmc\icomponentdata2_querydispatch.htm
 old-project: MMC
 ms.assetid: efff70f9-0226-4cf1-a6b3-475d90b379f9
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: CCT_RESULT = 0x8001, CCT_SCOPE = 0x8000, IComponentData2 interface [MMC],QueryDispatch method, IComponentData2.QueryDispatch, IComponentData2::QueryDispatch, QueryDispatch, QueryDispatch method [MMC], QueryDispatch method [MMC],IComponentData2 interface, _slate_icomponentdata2_querydispatch, mmc.icomponentdata2_querydispatch, mmc/IComponentData2::QueryDispatch
 ms.prod: windows
 ms.technology: windows-sdk

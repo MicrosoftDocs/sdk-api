@@ -7,7 +7,7 @@ old-location: security\addaccessdeniedobjectace.htm
 old-project: secauthz
 ms.assetid: 1427c908-92b6-46b2-9189-a2fd93c470b1
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AddAccessDeniedObjectAce, AddAccessDeniedObjectAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, _win32_addaccessdeniedobjectace, security.addaccessdeniedobjectace, securitybaseapi/AddAccessDeniedObjectAce
 ms.prod: windows
 ms.technology: windows-sdk

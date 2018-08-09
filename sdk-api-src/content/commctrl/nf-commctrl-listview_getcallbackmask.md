@@ -7,7 +7,7 @@ old-location: controls\ListView_GetCallbackMask.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcallbackmask.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_GetCallbackMask, ListView_GetCallbackMask macro [Windows Controls], _win32_ListView_GetCallbackMask, _win32_ListView_GetCallbackMask_cpp, commctrl/ListView_GetCallbackMask, controls.ListView_GetCallbackMask, controls._win32_ListView_GetCallbackMask
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the callback mask for a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774909(v=VS.85).aspx">LVM_GETCALLBACKMASK</a> message explicitly. 
+Gets the callback mask for a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774909(v=VS.85).aspx">LVM_GETCALLBACKMASK</a> message explicitly. 
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to the list-view control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761157(v=VS.85).aspx">LVM_SETCALLBACKMASK</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761157(v=VS.85).aspx">LVM_SETCALLBACKMASK</a>
  
 
  

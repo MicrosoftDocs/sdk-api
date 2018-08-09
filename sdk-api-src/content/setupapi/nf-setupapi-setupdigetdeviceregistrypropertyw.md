@@ -7,7 +7,7 @@ old-location: devinst\setupdigetdeviceregistryproperty.htm
 old-project: devinst
 ms.assetid: d42269dc-57b5-4303-94d9-02f6ee16a96f
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: SetupDiGetDeviceRegistryProperty, SetupDiGetDeviceRegistryProperty function [Device and Driver Installation], SetupDiGetDeviceRegistryPropertyA, SetupDiGetDeviceRegistryPropertyW, devinst.setupdigetdeviceregistryproperty, di-rtns_a60fa017-1c15-45bf-a178-37516bc0aea1.xml, setupapi/SetupDiGetDeviceRegistryProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -556,14 +556,14 @@ The function retrieves a REG_MULTI_SZ string that contains the list of compatibl
 The function retrieves a bitwise OR of a device's configuration flags in a DWORD value. The configuration flags are represented by the CONFIGFLAG_<i>Xxx</i> bitmasks that are defined in <i>Regstr.h</i>.
 
 
-##### - Property.SPDRP_DEVICEDESC
-
-The function retrieves a REG_SZ string that contains the description of a device. 
-
-
 ##### - Property.SPDRP_DEVICE_POWER_DATA
 
 (Windows XP and later) The function retrieves a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541989">CM_POWER_DATA</a> structure that contains the device's power management information.
+
+
+##### - Property.SPDRP_DEVICEDESC
+
+The function retrieves a REG_SZ string that contains the description of a device. 
 
 
 ##### - Property.SPDRP_DEVTYPE

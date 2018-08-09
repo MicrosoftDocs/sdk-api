@@ -7,7 +7,7 @@ old-location: mscs\createclustergroupex.htm
 old-project: mscs
 ms.assetid: D24A2622-758D-4344-8872-F0D8E4EE80CC
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: CreateClusterGroupEx, CreateClusterGroupEx function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_GROUPEX, PCLUSAPI_CREATE_CLUSTER_GROUPEX function [Failover Cluster], clusapi/CreateClusterGroupEx, clusapi/PCLUSAPI_CREATE_CLUSTER_GROUPEX, mscs.createclustergroupex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-Creates a new cluster group with the options specified in the <b>CLUSTER_CREATE_GROUP_INFO</b> structure in a single operation.
-   The <b>PCLUSAPI_CREATE_CLUSTER_GROUPEX</b> type defines a pointer to this function.
+Creates a new cluster group with the options specified in the <b>CLUSTER_CREATE_GROUP_INFO</b> structure in a single operation.The <b>PCLUSAPI_CREATE_CLUSTER_GROUPEX</b> type defines a pointer to this function.
 
 
 ## -parameters

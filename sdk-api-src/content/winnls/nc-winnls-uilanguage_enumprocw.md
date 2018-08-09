@@ -7,7 +7,7 @@ old-location: intl\enumuilanguagesproc.htm
 old-project: Intl
 ms.assetid: 5890bde9-7089-4440-a9cf-04b502183770
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EnumUILanguagesA, EnumUILanguagesProc, EnumUILanguagesW, UILANGUAGE_ENUMPROC, UILANGUAGE_ENUMPROC callback, UILANGUAGE_ENUMPROC callback function [Internationalization for Windows Applications], UILANGUAGE_ENUMPROCA, UILANGUAGE_ENUMPROCW, _win32_EnumUILanguagesProc, intl.enumuilanguagesproc, winnls/EnumUILanguagesA, winnls/EnumUILanguagesW, winnls/UILANGUAGE_ENUMPROC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,14 +73,14 @@ An application-defined callback function that processes enumerated user interfac
 
 
 
-#### - lParam [in]
-
-Application-defined value.
-
-
 #### - lpUILanguageString [in]
 
 Pointer to a buffer containing a null-terminated string representing a user interface language identifier or language name, depending on the value for the <i>dwFlags</i> parameter passed in the call to <a href="https://msdn.microsoft.com/f97df853-fc40-4529-b8a5-27069863a9b9">EnumUILanguages</a>.
+
+
+#### - lParam [in]
+
+Application-defined value.
 
 
 ## -returns

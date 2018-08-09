@@ -7,7 +7,7 @@ old-location: mstv\isbe2crossbar_setoutputprofile.htm
 old-project: mstv
 ms.assetid: 34067ca5-ead0-44ac-b274-dc9e3f2fb2fd
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: ISBE2Crossbar interface [Microsoft TV Technologies],SetOutputProfile method, ISBE2Crossbar.SetOutputProfile, ISBE2Crossbar::SetOutputProfile, SetOutputProfile, SetOutputProfile method [Microsoft TV Technologies], SetOutputProfile method [Microsoft TV Technologies],ISBE2Crossbar interface, mstv.isbe2crossbar_setoutputprofile, sbe/ISBE2Crossbar::SetOutputProfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      Replaces the default or current input profile with the profile specified in this method.
+Replaces the default or current input profile with the profile specified in this method.
     
 
 You can discover the current input profile by calling the <a href="https://msdn.microsoft.com/6a4bec40-2c6d-49fb-8977-3c3db2b2b4df">GetInitialProfile</a> method. This profile can be changed over time as media types are updated on input to the <a href="https://msdn.microsoft.com/435081e9-8a3f-42ab-9091-30c7c3dd59c6">Stream Buffer Source</a> filter.
@@ -69,15 +68,13 @@ By default, the filter crossbar  has   profile default mode enabled, which means
 
 ### -param pProfile [in]
 
-
-            Pointer to the <a href="https://msdn.microsoft.com/b2fb3d08-cbef-4dbf-a60b-8363ccee4fbf">ISBE2MediaTypeProfile</a> interface for the profile that replaces the crossbar default profile.
+Pointer to the <a href="https://msdn.microsoft.com/b2fb3d08-cbef-4dbf-a60b-8363ccee4fbf">ISBE2MediaTypeProfile</a> interface for the profile that replaces the crossbar default profile.
           
 
 
 ### -param pcOutputPins [in, out]
 
-
-            On input, specifies the size of an array allocated to receive <a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin</a> pointers for the output pins that correspond to the streams in the new profile. The <i>ppOutputPins</i> parameter points to this array. On output, if the call succeeds, gets the actual number of <b>IPin</b> pointers returned in the <i>ppOutputPins</i> output parameter.
+On input, specifies the size of an array allocated to receive <a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin</a> pointers for the output pins that correspond to the streams in the new profile. The <i>ppOutputPins</i> parameter points to this array. On output, if the call succeeds, gets the actual number of <b>IPin</b> pointers returned in the <i>ppOutputPins</i> output parameter.
           
 
 

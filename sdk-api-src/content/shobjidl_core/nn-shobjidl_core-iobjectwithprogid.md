@@ -7,7 +7,7 @@ old-location: shell\IObjectWithProgID.htm
 old-project: shell
 ms.assetid: 3b66ba49-ed39-464e-b15a-c72fdff7f5e5
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IObjectWithProgID, IObjectWithProgID interface [Windows Shell], IObjectWithProgID interface [Windows Shell],described, _shell_IObjectWithProgID, shell.IObjectWithProgID, shobjidl_core/IObjectWithProgID
 ms.prod: windows
 ms.technology: windows-sdk

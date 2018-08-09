@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_setwindowforeground.htm
 old-project: DirectShow
 ms.assetid: ff4f3707-1f2e-499b-8108-81616fe4ae9b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IVideoWindow interface [DirectShow],SetWindowForeground method, IVideoWindow.SetWindowForeground, IVideoWindow::SetWindowForeground, IVideoWindowSetWindowForeground, SetWindowForeground, SetWindowForeground method [DirectShow], SetWindowForeground method [DirectShow],IVideoWindow interface, control/IVideoWindow::SetWindowForeground, dshow.ivideowindow_setwindowforeground
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,22 +68,18 @@ Specifies whether to give the window focus. Must be one of the following values:
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
-<td>
-                  OATRUE
+<td>OATRUE
                 </td>
 <td>Give the window focus.</td>
 </tr>
 <tr>
-<td>
-                  OAFALSE
+<td>OAFALSE
                 </td>
 <td>Do not give the window focus.</td>
 </tr>

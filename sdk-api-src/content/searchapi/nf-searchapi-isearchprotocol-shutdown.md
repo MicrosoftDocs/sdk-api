@@ -7,7 +7,7 @@ old-location: search\_search_ISearchProtocol_ShutDown.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol\shutdown.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchProtocol interface [search],ShutDown method, ISearchProtocol.ShutDown, ISearchProtocol::ShutDown, ShutDown, ShutDown method [search], ShutDown method [search],ISearchProtocol interface, _search_ISearchProtocol_ShutDown, search._search_ISearchProtocol_ShutDown, searchapi/ISearchProtocol::ShutDown
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-            Shuts down the protocol handler.
+Shuts down the protocol handler.
         
 
 
@@ -78,12 +77,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-            This method is called by the protocol host to enable the protocol handler to clean up and release any associated resources.
+This method is called by the protocol host to enable the protocol handler to clean up and release any associated resources.
           
 
-
-            The protocol host makes one call to this method before it exits. After this method is called, this instance will not be used any more. However, it is also possible for the protocol host process to terminate abruptly without calling this method. Protocol handlers that have persisted global states, such as registry entries and temporary files, should verify that those resources are cleaned up in the <a href="https://msdn.microsoft.com/library/Bb231439(v=VS.85).aspx">ISearchProtocol::Init</a> method before initialization.
+The protocol host makes one call to this method before it exits. After this method is called, this instance will not be used any more. However, it is also possible for the protocol host process to terminate abruptly without calling this method. Protocol handlers that have persisted global states, such as registry entries and temporary files, should verify that those resources are cleaned up in the <a href="https://msdn.microsoft.com/en-us/library/Bb231439(v=VS.85).aspx">ISearchProtocol::Init</a> method before initialization.
           
 
 

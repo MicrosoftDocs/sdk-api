@@ -4,10 +4,10 @@ title: SLGenerateOfflineInstallationId function
 author: windows-sdk-content
 description: Generates the Installation ID (IID).
 old-location: security\slgenerateofflineinstallationid.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: 2bfbedfc-6fac-468b-8314-c856aab856d0
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLGenerateOfflineInstallationId, SLGenerateOfflineInstallationId function [Security], security.slgenerateofflineinstallationid, slpublic/SLGenerateOfflineInstallationId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLGenerateOfflineInstallationId function

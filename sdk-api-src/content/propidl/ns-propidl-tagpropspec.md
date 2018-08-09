@@ -7,7 +7,7 @@ old-location: stg\propspec.htm
 old-project: stg
 ms.assetid: 5bb3b9c6-ab82-498c-94f9-13a9ffa7452b
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: PROPSPEC, PROPSPEC [Strctd Stg], PROPSPEC structure [Structured Storage], PRSPEC_LPWSTR, PRSPEC_PROPID, _stg_propspec, propidlbase/PROPSPEC, stg.propspec, tagPROPSPEC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>PROPSPEC</b> structure is used by many of the methods of 
 <a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a> to specify a property either by its property identifier (ID) or the associated string name.
 

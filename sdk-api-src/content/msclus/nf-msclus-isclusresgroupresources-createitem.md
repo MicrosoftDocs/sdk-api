@@ -7,7 +7,7 @@ old-location: mscs\clusresgroupresources_createitem.htm
 old-project: mscs
 ms.assetid: 609e3016-b14d-4a64-b86b-15796444a9d9
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: CLUSTER_RESOURCE_DEFAULT_MONITOR, CLUSTER_RESOURCE_SEPARATE_MONITOR, ClusResGroupResources class [Failover Cluster],CreateItem method, ClusResGroupResources.CreateItem, CreateItem, CreateItem method [Failover Cluster], CreateItem method [Failover Cluster],ClusResGroupResources class, ISClusResGroupResources.CreateItem, ISClusResGroupResources::CreateItem, _wolf_clusresgroupresources.createitem, mscs.clusresgroupresources_createitem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,6 +90,16 @@ Creates a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f
 
 
 
+#### - ResourceName
+
+<b>String</b> containing the name of the resource to add.
+
+
+#### - ResourceType
+
+<b>String</b> containing the type the resource to add.
+
+
 #### - Flag
 
 <b>Long</b> indicating how to create the resource. <i>Flag</i> can 
@@ -111,16 +121,6 @@ The <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cl
 
 Causes the Cluster service to create a separate Resource Monitor dedicated exclusively to the new 
         resource.
-
-
-#### - ResourceName
-
-<b>String</b> containing the name of the resource to add.
-
-
-#### - ResourceType
-
-<b>String</b> containing the type the resource to add.
 
 
 ## -returns

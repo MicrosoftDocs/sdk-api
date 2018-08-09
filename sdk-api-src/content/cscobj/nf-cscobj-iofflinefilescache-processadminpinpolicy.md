@@ -7,7 +7,7 @@ old-location: of\iofflinefilescache_processadminpinpolicy.htm
 old-project: offlinefiles
 ms.assetid: 25ee4586-3031-4815-9a35-ce57cf9366d7
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],ProcessAdminPinPolicy method, IOfflineFilesCache.ProcessAdminPinPolicy, IOfflineFilesCache::ProcessAdminPinPolicy, ProcessAdminPinPolicy, ProcessAdminPinPolicy method [Offline Files], ProcessAdminPinPolicy method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::ProcessAdminPinPolicy, of.iofflinefilescache_processadminpinpolicy
 ms.prod: windows
 ms.technology: windows-sdk

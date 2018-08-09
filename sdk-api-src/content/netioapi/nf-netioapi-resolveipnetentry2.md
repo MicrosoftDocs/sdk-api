@@ -7,7 +7,7 @@ old-location: iphlp\resolveipnetentry2.htm
 old-project: iphlp
 ms.assetid: 37f9dc58-362d-413e-a593-4dda52fb7d8b
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: ResolveIpNetEntry2, ResolveIpNetEntry2 function [IP Helper], iphlp.resolveipnetentry2, netioapi/ResolveIpNetEntry2
 ms.prod: windows
 ms.technology: windows-sdk

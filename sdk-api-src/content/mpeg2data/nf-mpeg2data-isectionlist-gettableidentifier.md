@@ -7,7 +7,7 @@ old-location: mstv\isectionlist_gettableidentifier.htm
 old-project: mstv
 ms.assetid: e0fd82ec-283e-4d6f-aa74-c65f15df651f
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetTableIdentifier, GetTableIdentifier method [Microsoft TV Technologies], GetTableIdentifier method [Microsoft TV Technologies],ISectionList interface, ISectionList interface [Microsoft TV Technologies],GetTableIdentifier method, ISectionList.GetTableIdentifier, ISectionList::GetTableIdentifier, ISectionListGetTableIdentifier, mpeg2data/ISectionList::GetTableIdentifier, mstv.isectionlist_gettableidentifier
 ms.prod: windows
 ms.technology: windows-sdk

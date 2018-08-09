@@ -7,7 +7,7 @@ old-location: fwp\fwpmfiltersubscribechanges0_func.htm
 old-project: fwp
 ms.assetid: 6dafce5d-239f-44b6-a24b-2b5646bfe4ec
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmFilterSubscribeChanges0, FwpmFilterSubscribeChanges0 function [Filtering], fwp.fwpmfiltersubscribechanges0_func, fwpmu/FwpmFilterSubscribeChanges0
 ms.prod: windows
 ms.technology: windows-sdk

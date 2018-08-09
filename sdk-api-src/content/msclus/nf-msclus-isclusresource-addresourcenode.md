@@ -7,7 +7,7 @@ old-location: mscs\clusresource_addresourcenode.htm
 old-project: mscs
 ms.assetid: 98727cb1-238f-4bd8-b83a-e3838f824a16
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: AddResourceNode, AddResourceNode method [Failover Cluster], AddResourceNode method [Failover Cluster],ClusResource class, ClusResource class [Failover Cluster],AddResourceNode method, ClusResource.AddResourceNode, ISClusResource.AddResourceNode, ISClusResource::AddResourceNode, _wolf_clusresource.addresourcenode, mscs.clusresource_addresourcenode
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevice_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5nad_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxDevice, IFaxDevice interface [Fax Service], IFaxDevice interface [Fax Service],described, _mfax_faxdevice_cpp, fax._mfax_faxdevice_cpp, faxcomex/IFaxDevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The <b>IFaxDevice</b> interface defines a configuration object used by a fax cli
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxDevice</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxDevice</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,10 +72,10 @@ The <b>IFaxDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms686924(v=VS.85).aspx">AnswerCall</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686924(v=VS.85).aspx">AnswerCall</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms686924(v=VS.85).aspx">IFaxDevice::AnswerCall</a> method causes the fax device to answer an incoming call.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686924(v=VS.85).aspx">IFaxDevice::AnswerCall</a> method causes the fax device to answer an incoming call.
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687465(v=VS.85).aspx">IF
 <a href="https://msdn.microsoft.com/en-us/library/ms686727(v=VS.85).aspx">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686727(v=VS.85).aspx">IFaxDevice::Refresh</a> method refreshes <a href="https://msdn.microsoft.com/library/ms686192(v=VS.85).aspx">FaxDevice</a> object information from the fax server. When the <b>IFaxDevice::Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/en-us/library/ms686131(v=VS.85).aspx">IFaxDevice::Save</a> method call are lost.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686727(v=VS.85).aspx">IFaxDevice::Refresh</a> method refreshes <a href="https://msdn.microsoft.com/en-us/library/ms686192(v=VS.85).aspx">FaxDevice</a> object information from the fax server. When the <b>IFaxDevice::Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/en-us/library/ms686131(v=VS.85).aspx">IFaxDevice::Save</a> method call are lost.
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686727(v=VS.85).aspx">IF
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686131(v=VS.85).aspx">IFaxDevice::Save</a> method saves the <a href="https://msdn.microsoft.com/library/ms686192(v=VS.85).aspx">FaxDevice</a> object's data.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686131(v=VS.85).aspx">IFaxDevice::Save</a> method saves the <a href="https://msdn.microsoft.com/en-us/library/ms686192(v=VS.85).aspx">FaxDevice</a> object's data.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686482(v=VS.85).aspx">IF
 <a href="https://msdn.microsoft.com/en-us/library/ms685094(v=VS.85).aspx">UseRoutingMethod</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms685094(v=VS.85).aspx">IFaxDevice::UseRoutingMethod</a> method adds an inbound fax routing method to or removes a fax routing method (<a href="https://msdn.microsoft.com/library/ms687469(v=VS.85).aspx">FaxInboundRoutingMethod</a>) from the list of routing methods associated with the fax device.
+The <a href="https://msdn.microsoft.com/en-us/library/ms685094(v=VS.85).aspx">IFaxDevice::UseRoutingMethod</a> method adds an inbound fax routing method to or removes a fax routing method (<a href="https://msdn.microsoft.com/en-us/library/ms687469(v=VS.85).aspx">FaxInboundRoutingMethod</a>) from the list of routing methods associated with the fax device.
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms684864(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms684559(v=VS.85).aspx">ReceiveMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684559(v=VS.85).aspx">ReceiveMode</a>
 
 
 </td>
@@ -240,7 +240,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms684558(v=VS.85).aspx">ReceiveMode</a> property is a value from the <a href="https://msdn.microsoft.com/library/ms689547(v=VS.85).aspx">FAX_DEVICE_RECEIVE_MODE_ENUM</a> enumeration that defines the way a device answers an incoming call. The value assigned to this property indicates whether the device does not answer the call, the device can answer the call manually, or the device answers the call automatically.
+The <a href="https://msdn.microsoft.com/en-us/library/ms684558(v=VS.85).aspx">ReceiveMode</a> property is a value from the <a href="https://msdn.microsoft.com/en-us/library/ms689547(v=VS.85).aspx">FAX_DEVICE_RECEIVE_MODE_ENUM</a> enumeration that defines the way a device answers an incoming call. The value assigned to this property indicates whether the device does not answer the call, the device can answer the call manually, or the device answers the call automatically.
 
 </td>
 </tr>
@@ -324,7 +324,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686017(v=VS.85).aspx">IF
 
             
 
-<div class="alert"><b>Note</b>  The value of this property is set at the time that the <a href="https://msdn.microsoft.com/library/ms686192(v=VS.85).aspx">FaxDevice</a> object is created and is refreshed when you call the <a href="https://msdn.microsoft.com/en-us/library/ms686727(v=VS.85).aspx">IFaxDevice::Refresh</a> method.</div>
+<div class="alert"><b>Note</b>  The value of this property is set at the time that the <a href="https://msdn.microsoft.com/en-us/library/ms686192(v=VS.85).aspx">FaxDevice</a> object is created and is refreshed when you call the <a href="https://msdn.microsoft.com/en-us/library/ms686727(v=VS.85).aspx">IFaxDevice::Refresh</a> method.</div>
 <div> </div>
 </td>
 </tr>
@@ -356,7 +356,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686520(v=VS.85).aspx">IFaxDevice::get_UsedRoutingMethods</a> property is an array of strings that contains the GUIDs associated with the routing methods that the device uses, where each GUID represents an inbound routing method (<a href="https://msdn.microsoft.com/library/ms687469(v=VS.85).aspx">FaxInboundRoutingMethod</a>).
+The <a href="https://msdn.microsoft.com/en-us/library/ms686520(v=VS.85).aspx">IFaxDevice::get_UsedRoutingMethods</a> property is an array of strings that contains the GUIDs associated with the routing methods that the device uses, where each GUID represents an inbound routing method (<a href="https://msdn.microsoft.com/en-us/library/ms687469(v=VS.85).aspx">FaxInboundRoutingMethod</a>).
 
 </td>
 </tr>
@@ -367,7 +367,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686520(v=VS.85).aspx">IF
 
 
 
-A default implementation of <b>IFaxDevice</b> is provided as the <a href="https://msdn.microsoft.com/library/ms686192(v=VS.85).aspx">FaxDevice</a> object.
+A default implementation of <b>IFaxDevice</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms686192(v=VS.85).aspx">FaxDevice</a> object.
 
 
 

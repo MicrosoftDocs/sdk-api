@@ -7,7 +7,7 @@ old-location: mscs\clusresdependents_item.htm
 old-project: mscs
 ms.assetid: 24deb6b6-1e1e-4878-a8fd-3c8496aa255f
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusResDependents class [Failover Cluster],Item property, ClusResDependents.Item, ISClusResDependents.get_Item, ISClusResDependents::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ClusResDependents class, _wolf_clusresdependents.item, get_Item, mscs.clusresdependents_item
 ms.prod: windows
 ms.technology: windows-sdk

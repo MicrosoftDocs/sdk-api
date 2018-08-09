@@ -7,7 +7,7 @@ old-location: rras\mpradminreleaseipaddress.htm
 old-project: rras
 ms.assetid: 7a1570a9-b43f-4603-a5ed-6d078a5bbb7c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminReleaseIpAddress, MprAdminReleaseIpAddress callback, MprAdminReleaseIpAddress callback function [RAS], _mpr_mpradminreleaseipaddress, mprapi/MprAdminReleaseIpAddress, rras.mpradminreleaseipaddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,29 +60,19 @@ The
 
 
 
-### -param lpszUserName
+### -param lpszUserName [in]
 
-TBD
+Pointer to a Unicode string that specifies the name of the user that requires an IP address.
 
 
-### -param lpszPortName
+### -param lpszPortName [in]
 
-TBD
+Pointer to a Unicode string that specifies the name of the port on which the user is attempting to connect.
 
 
 ### -param lpdwIpAddress [in]
 
 Pointer to a <b>DWORD</b> variable. This variable specifies the IP address to be released.
-
-
-#### - lpwszPortName [in]
-
-Pointer to a Unicode string that specifies the name of the port on which the user is attempting to connect.
-
-
-#### - lpwszUserName [in]
-
-Pointer to a Unicode string that specifies the name of the user that requires an IP address.
 
 
 ## -returns

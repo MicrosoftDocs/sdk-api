@@ -7,7 +7,7 @@ old-location: security\iazapplication_openscope.htm
 old-project: secauthz
 ms.assetid: c2959a6c-5c87-495b-8025-c6b9c330a0bc
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AzApplication object [Security],OpenScope method, IAzApplication interface [Security],OpenScope method, IAzApplication.OpenScope, IAzApplication::OpenScope, OpenScope, OpenScope method [Security], OpenScope method [Security],AzApplication object, OpenScope method [Security],IAzApplication interface, azroles/IAzApplication::OpenScope, security.iazapplication_openscope
 ms.prod: windows
 ms.technology: windows-sdk

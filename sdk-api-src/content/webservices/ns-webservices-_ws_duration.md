@@ -7,7 +7,7 @@ old-location: wsw\ws_duration.htm
 old-project: wsw
 ms.assetid: ccb08c23-8c6f-4ea7-a43b-c30a0df75805
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_DURATION, WS_DURATION structure [Web Services for Windows], _WS_DURATION, webservices/WS_DURATION, wsw.ws_duration
 ms.prod: windows
 ms.technology: windows-sdk

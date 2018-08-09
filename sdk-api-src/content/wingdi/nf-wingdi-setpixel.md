@@ -7,7 +7,7 @@ old-location: gdi\setpixel.htm
 old-project: gdi
 ms.assetid: 652e2e7a-79ae-4668-b269-153ee08a5de9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetPixel, SetPixel function [Windows GDI], _win32_SetPixel, gdi.setpixel, wingdi/SetPixel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,34 +68,17 @@ The <b>SetPixel</b> function sets the pixel at the specified coordinates to the 
 A handle to the device context.
 
 
-### -param x
-
-TBD
-
-
-### -param y
-
-TBD
-
-
-### -param color
-
-TBD
-
-
-
-
-#### - X [in]
+### -param x [in]
 
 The x-coordinate, in logical units, of the point to be set.
 
 
-#### - Y [in]
+### -param y [in]
 
 The y-coordinate, in logical units, of the point to be set.
 
 
-#### - crColor [in]
+### -param color [in]
 
 The color to be used to paint the point. To create a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> color value, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
 

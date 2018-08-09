@@ -7,7 +7,7 @@ old-location: tsf\tf_displayattribute.htm
 old-project: TSF
 ms.assetid: 29faaa22-ea03-4a2e-a035-7979e2a89fc9
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: TF_DISPLAYATTRIBUTE, TF_DISPLAYATTRIBUTE structure [Text Services Framework], _tsf_tf_displayattribute_ref, msctf/TF_DISPLAYATTRIBUTE, tsf.tf_displayattribute
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,14 +102,12 @@ Contains a <a href="https://msdn.microsoft.com/894e6c15-d911-4e0c-96b1-db6ec8e43
 
 
 
-<a href="https://msdn.microsoft.com/0ce8f941-c187-437f-8bad-f882e63b8421">
-        TF_DA_COLOR
+<a href="https://msdn.microsoft.com/0ce8f941-c187-437f-8bad-f882e63b8421">TF_DA_COLOR
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/36ea6359-e25a-4b23-8d9d-961d743268ab">
-        TF_DA_LINESTYLE
+<a href="https://msdn.microsoft.com/36ea6359-e25a-4b23-8d9d-961d743268ab">TF_DA_LINESTYLE
       </a>
  
 

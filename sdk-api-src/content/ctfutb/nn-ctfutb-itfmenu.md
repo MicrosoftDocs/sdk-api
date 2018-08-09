@@ -7,7 +7,7 @@ old-location: tsf\itfmenu.htm
 old-project: TSF
 ms.assetid: 303115e1-8d52-4a0a-b05e-b5c92b8b3e2a
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfMenu, ITfMenu interface [Text Services Framework], ITfMenu interface [Text Services Framework],described, _tsf_itfmenu_ref, ctfutb/ITfMenu, tsf.itfmenu
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ Adds an item to the menu that the language bar will display for the button.
 
 
 
-<a href="https://msdn.microsoft.com/0f34f488-729b-42d3-9a24-85b3f95607ec">
-        ITfLangBarItemBitmapButton::InitMenu
+<a href="https://msdn.microsoft.com/0f34f488-729b-42d3-9a24-85b3f95607ec">ITfLangBarItemBitmapButton::InitMenu
       </a>
 
 
@@ -96,13 +95,12 @@ Adds an item to the menu that the language bar will display for the button.
 
 
 
-<a href="https://msdn.microsoft.com/6e8ba0ef-2f0a-4d67-95c1-06fee763bc14">
-        ITfSystemLangBarItemSink::InitMenu
+<a href="https://msdn.microsoft.com/6e8ba0ef-2f0a-4d67-95c1-06fee763bc14">ITfSystemLangBarItemSink::InitMenu
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

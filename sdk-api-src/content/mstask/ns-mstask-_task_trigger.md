@@ -7,7 +7,7 @@ old-location: taskschd\task_trigger.htm
 old-project: taskschd
 ms.assetid: b4716e32-7c7a-40ab-baa1-4c7ebafc3d71
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 08/06/2018
 ms.keywords: "*PTASK_TRIGGER, PTASK_TRIGGER, PTASK_TRIGGER structure pointer [Task Scheduler], TASK_TRIGGER, TASK_TRIGGER structure [Task Scheduler], _TASK_TRIGGER, _msb_task_trigger, mstask/PTASK_TRIGGER, mstask/TASK_TRIGGER, taskschd.task_trigger, triggers [Task Scheduler],structures,TASK_TRIGGER"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Defines the times to run a scheduled <a href="https://msdn.microsoft.com/library/Aa381060(v=VS.85).aspx">work item</a>.
+Defines the times to run a scheduled <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a>.
 
 
 ## -struct-fields
@@ -215,7 +215,7 @@ These times may include the start time, end time, duration, and modification fla
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa383953(v=VS.85).aspx">Task Scheduler 2.0 Trigger Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383953(v=VS.85).aspx">Task Scheduler 2.0 Trigger Interfaces</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectshaderresourcevariable_setresourcearray.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshaderresourcevariable_setresourcearray.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D10EffectShaderResourceVariable interface [Direct3D 10],SetResourceArray method, ID3D10EffectShaderResourceVariable.SetResourceArray, ID3D10EffectShaderResourceVariable::SetResourceArray, SetResourceArray, SetResourceArray method [Direct3D 10], SetResourceArray method [Direct3D 10],ID3D10EffectShaderResourceVariable interface, d3d10effect/ID3D10EffectShaderResourceVariable::SetResourceArray, direct3d10.id3d10effectshaderresourcevariable_setresourcearray, ffaa0326-c3e6-873d-a783-a06195e76351
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,9 @@ Set an array of shader resources.
 
 ### -param ppResources [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173854(v=VS.85).aspx">ID3D10ShaderResourceView</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173854(v=VS.85).aspx">ID3D10ShaderResourceView</a>**</b>
 
-The address of an array of shader-resource-view interfaces. See <a href="https://msdn.microsoft.com/library/Bb173854(v=VS.85).aspx">ID3D10ShaderResourceView Interface</a>.
+The address of an array of shader-resource-view interfaces. See <a href="https://msdn.microsoft.com/en-us/library/Bb173854(v=VS.85).aspx">ID3D10ShaderResourceView Interface</a>.
 
 
 ### -param Offset [in]
@@ -83,9 +83,9 @@ The number of elements in the array.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -95,7 +95,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/library/Bb20527
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173693(v=VS.85).aspx">ID3D10EffectShaderResourceVariable Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173693(v=VS.85).aspx">ID3D10EffectShaderResourceVariable Interface</a>
  
 
  

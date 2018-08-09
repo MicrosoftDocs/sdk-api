@@ -7,7 +7,7 @@ old-location: wmi\swbemrefresher_addenum.htm
 old-project: WmiSdk
 ms.assetid: 0fa22a47-4050-43ae-aad3-3a8ebbf5e9b2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: AddEnum, AddEnum method [Windows Management Instrumentation], AddEnum method [Windows Management Instrumentation],ISWbemRefresher interface, AddEnum method [Windows Management Instrumentation],SWbemRefresher object, ISWbemRefresher interface [Windows Management Instrumentation],AddEnum method, ISWbemRefresher.AddEnum, ISWbemRefresher::AddEnum, SWbemRefresher object [Windows Management Instrumentation],AddEnum method, SWbemRefresher.AddEnum, _hmm_swbemrefresher.addenum, wmi.swbemrefresher_addenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,12 +92,6 @@ String that contains the object path of the object for which the method is execu
 
 
 
-#### - objWbemNamedvalueSet [optional]
-
-Typically, this is undefined. Otherwise, this is an 
-<a href="https://msdn.microsoft.com/7d1c3a28-d0d3-4108-9628-74ad483e328e">SWbemNamedValueSet</a> object whose elements represent the context information that can be used by the provider that  services the request. A provider that supports or requires such information must document the recognized value names, data type of the value, allowed values, and semantics.
-
-
 #### - objWbemService
 
 Required. An 
@@ -109,6 +103,12 @@ Required. An
 Required. String that contains the class that is being added to the refresher. This class is used as an enumerator of the instances of the class. The 
 <a href="https://msdn.microsoft.com/f076eb01-1e71-487d-a1af-687a052b4d67">Index</a> property of the returned 
 <a href="https://msdn.microsoft.com/6a12c8eb-3ef9-4292-810c-6954294fc8c7">SWbemRefreshableItem</a> represents the index of the enumerator in the refresher collection.
+
+
+#### - objWbemNamedvalueSet [optional]
+
+Typically, this is undefined. Otherwise, this is an 
+<a href="https://msdn.microsoft.com/7d1c3a28-d0d3-4108-9628-74ad483e328e">SWbemNamedValueSet</a> object whose elements represent the context information that can be used by the provider that  services the request. A provider that supports or requires such information must document the recognized value names, data type of the value, allowed values, and semantics.
 
 
 ## -returns

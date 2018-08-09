@@ -7,7 +7,7 @@ old-location: search\_search_ISearchManager_GetCatalog.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\getcatalog.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: GetCatalog, GetCatalog method [search], GetCatalog method [search],ISearchManager interface, ISearchManager interface [search],GetCatalog method, ISearchManager.GetCatalog, ISearchManager::GetCatalog, _search_ISearchManager_GetCatalog, search._search_ISearchManager_GetCatalog, searchapi/ISearchManager::GetCatalog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-            Retrieves a catalog by name and creates a new <a href="https://msdn.microsoft.com/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a> object for that catalog.
+Retrieves a catalog by name and creates a new <a href="https://msdn.microsoft.com/en-us/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a> object for that catalog.
 
 
 ## -parameters
@@ -64,17 +63,15 @@ req.product: ADAM
 
 Type: <b>LPCWSTR</b>
 
-
-                    The name of the catalog to be retrieved.
+The name of the catalog to be retrieved.
                 
 
 
 ### -param ppCatalogManager [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a>**</b>
 
-
-                    Receives the address of a pointer to the <a href="https://msdn.microsoft.com/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a> object that is named in <i>pszCatalog</i>.
+Receives the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a> object that is named in <i>pszCatalog</i>.
                 
 
 

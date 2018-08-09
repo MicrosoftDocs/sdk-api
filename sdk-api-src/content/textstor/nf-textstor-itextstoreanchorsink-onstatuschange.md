@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchorsink_onstatuschange.htm
 old-project: TSF
 ms.assetid: 28bdfa93-29c1-4a9f-b85e-20c39a1b429b
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnStatusChange method, ITextStoreAnchorSink.OnStatusChange, ITextStoreAnchorSink::OnStatusChange, OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onstatuschange_ref, textstor/ITextStoreAnchorSink::OnStatusChange, tsf.itextstoreanchorsink_onstatuschange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,8 +105,7 @@ Applications should call this method whenever <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/61192268-5a5f-4caa-bdb8-799ee4aea24e">
-        ITextStoreAnchor::GetStatus
+<a href="https://msdn.microsoft.com/61192268-5a5f-4caa-bdb8-799ee4aea24e">ITextStoreAnchor::GetStatus
       </a>
 
 

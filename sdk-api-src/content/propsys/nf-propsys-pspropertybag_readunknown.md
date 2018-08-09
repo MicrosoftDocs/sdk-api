@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadUnknown.htm
 old-project: properties
 ms.assetid: 87921F52-308F-4ed7-8390-A3C0217ACEFD
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: PSPropertyBag_ReadUnknown, PSPropertyBag_ReadUnknown function [Windows Properties], properties.PSPropertyBag_ReadUnknown, propsys/PSPropertyBag_ReadUnknown, shell.PSPropertyBag_ReadUnknown, shell_PSPropertyBag_ReadUnknown
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,7 +113,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee845081(v=VS.85).aspx">PSPropertyBag_WriteUnknown</a>
+<a href="shell.PSPropertyBag_WriteUnknown">PSPropertyBag_WriteUnknown</a>
  
 
  

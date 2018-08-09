@@ -7,7 +7,7 @@ old-location: buses\winusb_setcurrentalternatesetting.htm
 old-project: usbref
 ms.assetid: 8826f440-c031-4af2-968d-bf13f515f020
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WinUsb_SetCurrentAlternateSetting, WinUsb_SetCurrentAlternateSetting function [Buses], buses.winusb_setcurrentalternatesetting, winusb/WinUsb_SetCurrentAlternateSetting, winusbfunc_54d8b9ed-9a45-4fed-a61e-2ad2bb573028.xml
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,7 @@ An opaque handle to an interface, which defines the alternate setting to set.
 To set an alternate setting in the first interface on the device, use the interface handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/ff540245">WinUsb_GetAssociatedInterface</a>.
 
 
-### -param SettingNumber
-
-TBD
-
-
-
-
-#### - AlternateSetting [in]
+### -param SettingNumber [in]
 
 The value that is contained in the <b>bAlternateSetting</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540065">USB_INTERFACE_DESCRIPTOR</a> structure. This structure is populated by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540292">WinUsb_QueryInterfaceSettings</a> routine.
 

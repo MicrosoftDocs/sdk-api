@@ -7,7 +7,7 @@ old-location: com\oleuichangeicon.htm
 old-project: com
 ms.assetid: 899aadbe-d3d7-42e2-b9c0-09efeb378bda
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: OleUIChangeIcon, OleUIChangeIcon function [COM], OleUIChangeIconA, OleUIChangeIconW, _ole_OleUIChangeIcon, com.oleuichangeicon, oledlg/OleUIChangeIcon, oledlg/OleUIChangeIconA, oledlg/OleUIChangeIconW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ Invokes the standard <b>Change Icon</b> dialog box, which allows the user to sel
 
 
 
-### -param Arg1
-
-TBD
-
-
-
-
-#### - lpCI [in]
+### -param Arg1 [in]
 
  Pointer to the In/Out <a href="https://msdn.microsoft.com/2c4ba340-541a-405b-889c-bc51d1d20cc9">OLEUICHANGEICON</a> structure for this dialog box.
 

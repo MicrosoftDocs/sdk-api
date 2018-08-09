@@ -7,7 +7,7 @@ old-location: fs\setfilepointerex.htm
 old-project: fileio
 ms.assetid: a6fdfa00-626d-425d-b00e-c174b19ea4b9
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/06/2018
 ms.keywords: FILE_BEGIN, FILE_CURRENT, FILE_END, SetFilePointerEx, SetFilePointerEx function [Files], _win32_setfilepointerex, base.setfilepointerex, fileapi/SetFilePointerEx, fs.setfilepointerex, winbase/SetFilePointerEx
 ms.prod: windows
 ms.technology: windows-sdk

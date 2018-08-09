@@ -7,7 +7,7 @@ old-location: ndf\ndfcreatesharingincident.htm
 old-project: ndf
 ms.assetid: 6a5e3c3b-7c2b-4de3-89e4-ef330b894320
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: NdfCreateSharingIncident, NdfCreateSharingIncident function [NDF], ndf.ndfcreatesharingincident, ndfapi/NdfCreateSharingIncident
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,11 @@ The <b>NdfCreateSharingIncident</b> function diagnoses network problems in acces
 
 
 
-### -param UNCPath
+### -param UNCPath [in]
 
-TBD
+Type: <b>LPCWSTR</b>
+
+The full UNC string (for example, "\\server\folder\file.ext") for the shared asset with which there is a connectivity issue. 
 
 
 ### -param handle [out]
@@ -69,13 +71,6 @@ TBD
 Type: <b>NDFHANDLE*</b>
 
 Handle to the Network Diagnostics Framework incident.
-
-
-#### - sharename [in]
-
-Type: <b>LPCWSTR</b>
-
-The full UNC string (for example, "\\server\folder\file.ext") for the shared asset with which there is a connectivity issue. 
 
 
 ## -returns

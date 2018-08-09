@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10depthstencilview_getdesc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10depthstencilview_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 4ef9f972-a153-a2f3-2286-73f54733c157, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10DepthStencilView interface, ID3D10DepthStencilView interface [Direct3D 10],GetDesc method, ID3D10DepthStencilView.GetDesc, ID3D10DepthStencilView::GetDesc, d3d10/ID3D10DepthStencilView::GetDesc, direct3d10.id3d10depthstencilview_getdesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Get the depth-stencil <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb205037(v=VS.85).aspx">D3D10_DEPTH_STENCIL_VIEW_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205037(v=VS.85).aspx">D3D10_DEPTH_STENCIL_VIEW_DESC</a>*</b>
 
-Pointer to a depth-stencil-view description (see <a href="https://msdn.microsoft.com/library/Bb205037(v=VS.85).aspx">D3D10_DEPTH_STENCIL_VIEW_DESC</a>).
+Pointer to a depth-stencil-view description (see <a href="https://msdn.microsoft.com/en-us/library/Bb205037(v=VS.85).aspx">D3D10_DEPTH_STENCIL_VIEW_DESC</a>).
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns nothing
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173526(v=VS.85).aspx">ID3D10DepthStencilView Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173526(v=VS.85).aspx">ID3D10DepthStencilView Interface</a>
  
 
  

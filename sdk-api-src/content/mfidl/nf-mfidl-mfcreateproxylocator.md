@@ -7,7 +7,7 @@ old-location: mf\mfcreateproxylocator.htm
 old-project: medfound
 ms.assetid: 9ad707df-533a-407b-a611-49bfb019affc
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 9ad707df-533a-407b-a611-49bfb019affc, MFCreateProxyLocator, MFCreateProxyLocator function [Media Foundation], mf.mfcreateproxylocator, mfidl/MFCreateProxyLocator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,8 +97,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The function succeeded.
+The function succeeded.
               
 
 </td>

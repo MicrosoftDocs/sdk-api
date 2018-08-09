@@ -7,7 +7,7 @@ old-location: of\iofflinefilesshareinfo_getshareitem.htm
 old-project: offlinefiles
 ms.assetid: fd4f92fb-1147-4be4-a61d-04f2f371b6c6
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetShareItem, GetShareItem method [Offline Files], GetShareItem method [Offline Files],IOfflineFilesShareInfo interface, IOfflineFilesShareInfo interface [Offline Files],GetShareItem method, IOfflineFilesShareInfo.GetShareItem, IOfflineFilesShareInfo::GetShareItem, cscobj/IOfflineFilesShareInfo::GetShareItem, of.iofflinefilesshareinfo_getshareitem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-    Finds the cache item representing the closest ancestor share to the item. In non-DFS scenarios this can be the \\server\share at the top of the namespace.  In DFS scenarios this might be a cache directory entry that corresponds to a share in the DFS namespace.
+Finds the cache item representing the closest ancestor share to the item. In non-DFS scenarios this can be the \\server\share at the top of the namespace.  In DFS scenarios this might be a cache directory entry that corresponds to a share in the DFS namespace.
 
 
 ## -parameters

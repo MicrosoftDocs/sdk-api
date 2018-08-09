@@ -4,10 +4,10 @@ title: ITTTSTerminalEvent
 author: windows-sdk-content
 description: The ITTTSTerminalEvent interface contains methods that retrieve the description of Text-to-Speech (TTS) terminal events that have occurred.
 old-location: tapi3\itttsterminalevent.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 0375d6e4-cd9f-4245-abf5-1b200af79848
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITTTSTerminalEvent, ITTTSTerminalEvent interface [TAPI 2.2], ITTTSTerminalEvent interface [TAPI 2.2],described, _tapi3_itttsterminalevent, tapi3.itttsterminalevent, tapi3if/ITTTSTerminalEvent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ITargetInfo::SetTargetProcessorArchitecture
 author: windows-sdk-content
 description: Sets the processor architecture associated with the current target.
 old-location: smi\itargetinfo_settargetprocessorarchitecture.htm
-old-project: SMI
+old-project: smi
 ms.assetid: 15056182-4355-48f5-b996-195e3c72235e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: ITargetInfo interface [SMI],SetTargetProcessorArchitecture method, ITargetInfo.SetTargetProcessorArchitecture, ITargetInfo::SetTargetProcessorArchitecture, SetTargetProcessorArchitecture, SetTargetProcessorArchitecture method [SMI], SetTargetProcessorArchitecture method [SMI],ITargetInfo interface, smi.itargetinfo_settargetprocessorarchitecture, wcmconfig/ITargetInfo::SetTargetProcessorArchitecture
 ms.prod: windows
 ms.technology: windows-sdk

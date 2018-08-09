@@ -7,7 +7,7 @@ old-location: http\http_service_config_ssl_ccs_set.htm
 old-project: http
 ms.assetid: BA815FB7-4A9F-4917-89E7-3CD108E1CEE3
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_CCS_SET, HTTP_SERVICE_CONFIG_SSL_CCS_SET, HTTP_SERVICE_CONFIG_SSL_CCS_SET structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_CCS_SET, PHTTP_SERVICE_CONFIG_SSL_CCS_SET structure pointer [HTTP], _HTTP_SERVICE_CONFIG_SSL_CCS_SET, http.http_service_config_ssl_ccs_set, http/HTTP_SERVICE_CONFIG_SSL_CCS_SET, http/PHTTP_SERVICE_CONFIG_SSL_CCS_SET"
 ms.prod: windows
 ms.technology: windows-sdk

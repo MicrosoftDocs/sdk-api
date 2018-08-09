@@ -7,7 +7,7 @@ old-location: winprog\avrf_handle_operation.htm
 old-project: devnotes
 ms.assetid: 9268d24d-5000-4ac5-a3c5-895613ccbb9a
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: "*PAVRF_HANDLE_OPERATION, AVRF_HANDLE_OPERATION, AVRF_HANDLE_OPERATION structure [Windows API], _AVRF_HANDLE_OPERATION, avrfsdk/AVRF_HANDLE_OPERATION, base.avrf_handle_operation, winprog.avrf_handle_operation"
 ms.prod: windows
 ms.technology: windows-sdk

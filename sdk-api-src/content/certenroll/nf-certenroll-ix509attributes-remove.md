@@ -7,7 +7,7 @@ old-location: security\ix509attributes_remove_method.htm
 old-project: seccertenroll
 ms.assetid: 5821f4bd-5165-4ffc-8d1c-5ef89188b307
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509Attributes interface [Security],Remove method, IX509Attributes.Remove, IX509Attributes::Remove, Remove, Remove method [Security], Remove method [Security],IX509Attributes interface, certenroll/IX509Attributes::Remove, security.ix509attributes_remove_method
 ms.prod: windows
 ms.technology: windows-sdk

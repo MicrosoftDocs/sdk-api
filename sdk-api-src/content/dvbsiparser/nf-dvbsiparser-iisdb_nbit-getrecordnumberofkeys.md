@@ -7,7 +7,7 @@ old-location: mstv\iisdb_nbit_getrecordnumberofkeys.htm
 old-project: mstv
 ms.assetid: 0ce49e6c-8a85-4620-a2ca-379c3bb30d64
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordNumberOfKeys, GetRecordNumberOfKeys method [Microsoft TV Technologies], GetRecordNumberOfKeys method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordNumberOfKeys method, IISDB_NBIT.GetRecordNumberOfKeys, IISDB_NBIT::GetRecordNumberOfKeys, dvbsiparser/IISDB_NBIT::GetRecordNumberOfKeys, mstv.iisdb_nbit_getrecordnumberofkeys
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Returns the number_of_keys field value for a section in an
+Returns the number_of_keys field value for a section in an
   for an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
   
 
@@ -64,10 +63,8 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param dwRecordIndex [in]
 
-
-  Specifies the record number,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/c747278a-dea7-4772-b37d-89c1deaaf91f">IISDB_NBIT::GetCountOfRecords</a>
-  method to get the number of records in the NBIT.
+Specifies the record number,
+  indexed from zero. Call the <a href="https://msdn.microsoft.com/c747278a-dea7-4772-b37d-89c1deaaf91f">IISDB_NBIT::GetCountOfRecords</a>method to get the number of records in the NBIT.
 
 
 

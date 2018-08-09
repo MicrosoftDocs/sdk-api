@@ -4,10 +4,10 @@ title: "_DnsAddr"
 author: windows-sdk-content
 description: A DNS_ADDR structure stores an IPv4 or IPv6 address.
 old-location: dns\dns_addr.htm
-old-project: DNS
+old-project: dns
 ms.assetid: c14e6fc0-34b3-40e8-b9b8-61e4aea01677
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PDNS_ADDR, DNS_ADDR, DNS_ADDR structure [DNS], PDNS_ADDR, PDNS_ADDR structure pointer [DNS], _DnsAddr, dns.dns_addr, windns/DNS_ADDR, windns/PDNS_ADDR"
 ms.prod: windows
 ms.technology: windows-sdk

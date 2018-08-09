@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device3_createrendertargetview1.htm
 old-project: direct3d11
 ms.assetid: 9B85B007-F8B0-43C1-999E-75E5243B7B5A
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: CreateRenderTargetView1, CreateRenderTargetView1 method [Direct3D 11], CreateRenderTargetView1 method [Direct3D 11],ID3D11Device3 interface, ID3D11Device3 interface [Direct3D 11],CreateRenderTargetView1 method, ID3D11Device3.CreateRenderTargetView1, ID3D11Device3::CreateRenderTargetView1, d3d11_3/ID3D11Device3::CreateRenderTargetView1, direct3d11.id3d11device3_createrendertargetview1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ A pointer to a memory block that receives a pointer to a <a href="https://msdn.m
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

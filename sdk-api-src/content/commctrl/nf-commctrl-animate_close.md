@@ -7,7 +7,7 @@ old-location: controls\Animate_Close.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_close.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Animate_Close, Animate_Close macro [Windows Controls], _win32_Animate_Close, _win32_Animate_Close_cpp, commctrl/Animate_Close, controls.Animate_Close, controls._win32_Animate_Close
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Closes an AVI clip. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761897(v=VS.85).aspx">ACM_OPEN</a> message explicitly, passing in <b>NULL</b> parameters. 
+Closes an AVI clip. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761897(v=VS.85).aspx">ACM_OPEN</a> message explicitly, passing in <b>NULL</b> parameters. 
 
 
 ## -parameters
@@ -79,7 +79,7 @@ You can use <b>Animate_Close</b> to close an AVI file or AVI resource that was p
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761908(v=VS.85).aspx">Animate_Open</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761908(v=VS.85).aspx">Animate_Open</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wmi\iwbemdecoupledregistrar_register.htm
 old-project: WmiSdk
 ms.assetid: 0592310c-dc1b-45df-bf60-613a58dd69ad
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: IWbemDecoupledRegistrar interface [Windows Management Instrumentation],Register method, IWbemDecoupledRegistrar.Register, IWbemDecoupledRegistrar::Register, Register, Register method [Windows Management Instrumentation], Register method [Windows Management Instrumentation],IWbemDecoupledRegistrar interface, Register method [Windows Management Instrumentation],WbemDecoupledRegistrar object, WbemDecoupledRegistrar object [Windows Management Instrumentation],Register method, _hmm_iwbemdecoupledregistrar_register, wbemprov/IWbemDecoupledRegistrar::Register, wmi.iwbemdecoupledregistrar_register
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,9 +108,9 @@ Reserved for future use.
 Reserved for future use.
 
 
-#### - pUnknown [in]
+#### - strUser [in]
 
-Pointer to an object for particular registration. This interface will be queried to determine the interface support that the object is capable of servicing.
+String identifying the user for this registration.
 
 
 #### - strLocal [in]
@@ -118,19 +118,19 @@ Pointer to an object for particular registration. This interface will be queried
 String identifying the locale for this registration.
 
 
-#### - strRegistration [in]
-
-Name of the provider being registered.
-
-
 #### - strScope [in]
 
 Object path representing the binding to a WMI provider registration object in a specified namespace. The scope object path can be <b>NULL</b>, indicating that the provider will support all namespaces.
 
 
-#### - strUser [in]
+#### - strRegistration [in]
 
-String identifying the user for this registration.
+Name of the provider being registered.
+
+
+#### - pUnknown [in]
+
+Pointer to an object for particular registration. This interface will be queried to determine the interface support that the object is capable of servicing.
 
 
 ## -returns

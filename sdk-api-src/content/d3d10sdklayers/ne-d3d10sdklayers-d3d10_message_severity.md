@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_message_severity.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_message_severity.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D3D10_MESSAGE_SEVERITY, D3D10_MESSAGE_SEVERITY enumeration [Direct3D 10], D3D10_MESSAGE_SEVERITY_CORRUPTION, D3D10_MESSAGE_SEVERITY_ERROR, D3D10_MESSAGE_SEVERITY_INFO, D3D10_MESSAGE_SEVERITY_WARNING, b48ff3e8-3124-4d3c-9284-db459579b3d2, d3d10sdklayers/D3D10_MESSAGE_SEVERITY, d3d10sdklayers/D3D10_MESSAGE_SEVERITY_CORRUPTION, d3d10sdklayers/D3D10_MESSAGE_SEVERITY_ERROR, d3d10sdklayers/D3D10_MESSAGE_SEVERITY_INFO, d3d10sdklayers/D3D10_MESSAGE_SEVERITY_WARNING, direct3d10.d3d10_message_severity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ Defines an information message.
 
 
 
-Use these values to allow or deny message categories to pass through the storage and retrieval filters for an information queue (see <a href="https://msdn.microsoft.com/library/Bb205313(v=VS.85).aspx">D3D10_INFO_QUEUE_FILTER</a>). This API is used by <a href="https://msdn.microsoft.com/library/Bb173780(v=VS.85).aspx">ID3D10InfoQueue::AddApplicationMessage</a>.
+Use these values to allow or deny message categories to pass through the storage and retrieval filters for an information queue (see <a href="https://msdn.microsoft.com/en-us/library/Bb205313(v=VS.85).aspx">D3D10_INFO_QUEUE_FILTER</a>). This API is used by <a href="https://msdn.microsoft.com/en-us/library/Bb173780(v=VS.85).aspx">ID3D10InfoQueue::AddApplicationMessage</a>.
 
 
 
@@ -97,7 +97,7 @@ Use these values to allow or deny message categories to pass through the storage
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
  
 
  

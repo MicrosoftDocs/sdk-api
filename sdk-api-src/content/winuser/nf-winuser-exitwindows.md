@@ -4,10 +4,10 @@ title: ExitWindows macro
 author: windows-sdk-content
 description: Calls the ExitWindowsEx function to log off the interactive user.
 old-location: base\exitwindows.htm
-old-project: Shutdown
+old-project: shutdown
 ms.assetid: 7c76caac-459d-45df-ae00-bc208a9e7b22
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: ExitWindows, ExitWindows macro, _win32_exitwindows, base.exitwindows, winuser/ExitWindows
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,15 +65,6 @@ This parameter must be zero.
 
 
 ### -param Code
-
-TBD
-
-
-
-
-
-
-#### - uReserved
 
 This parameter must be zero.
 

@@ -7,7 +7,7 @@ old-location: wsw\ws_validate_saml_callback.htm
 old-project: wsw
 ms.assetid: 72cc10ae-ba0e-4f3a-a376-c0b1999b074e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_VALIDATE_SAML_CALLBACK, WS_VALIDATE_SAML_CALLBACK callback, WS_VALIDATE_SAML_CALLBACK callback function [Web Services for Windows], webservices/WS_VALIDATE_SAML_CALLBACK, wsw.ws_validate_saml_callback
 ms.prod: windows
 ms.technology: windows-sdk

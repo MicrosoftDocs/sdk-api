@@ -7,7 +7,7 @@ old-location: coreaudio\immdevicecollection.htm
 old-project: CoreAudio
 ms.assetid: 4769b0a6-a319-4605-8742-5e7c285679cf
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: IMMDeviceCollection, IMMDeviceCollection interface [Core Audio], IMMDeviceCollection interface [Core Audio],described, coreaudio.immdevicecollection, mmdeviceapi/IMMDeviceCollection
 ms.prod: windows
 ms.technology: windows-sdk

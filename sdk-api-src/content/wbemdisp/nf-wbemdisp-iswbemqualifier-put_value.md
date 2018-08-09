@@ -7,7 +7,7 @@ old-location: wmi\swbemqualifier_value.htm
 old-project: WmiSdk
 ms.assetid: a2f481fc-8231-4bc0-a9fc-9e622f11c925
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemQualifier interface [Windows Management Instrumentation],Value property, ISWbemQualifier.get_Value, ISWbemQualifier.put_Value, ISWbemQualifier::put_Value, SWbemQualifier object [Windows Management Instrumentation],Value property, SWbemQualifier.Value, Value property [Windows Management Instrumentation], Value property [Windows Management Instrumentation],ISWbemQualifier interface, Value property [Windows Management Instrumentation],SWbemQualifier object, _hmm_swbemqualifier.value, put_Value, wmi.swbemqualifier_value
 ms.prod: windows
 ms.technology: windows-sdk

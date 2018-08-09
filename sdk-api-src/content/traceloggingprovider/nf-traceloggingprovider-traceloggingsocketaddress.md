@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingsocketaddress.htm
 old-project: tracelogging
 ms.assetid: 7965C10A-2C19-4AA3-A9E3-7219EFB2D3A0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TraceLoggingSocketAddress, TraceLoggingSocketAddress macro, tracelogging.traceloggingsocketaddress, traceloggingprovider/TraceLoggingSocketAddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,9 @@ A wrapper macro that provides trace logging for socket addresses.
 
 
 
-### -param pSockAddr
+### -param pSockAddr [in]
 
-TBD
+A pointer to a sockaddr structure.
 
 
 ### -param cbSockAddr [in]
@@ -69,19 +69,14 @@ TBD
 The length, in bytes, of the value pointed to by the pSocketAddr parameter.
 
 
-#### - description [in, optional]
-
-Description of the socket address. This parameter must be a literal string and will be included in the PDB. 
-
-
 #### - name [in, optional]
 
 The name of the socket address. This parameter must be a literal string and cannot contain any escape ('/0') characters. 
 
 
-#### - pSocketAddr [in]
+#### - description [in, optional]
 
-A pointer to a sockaddr structure.
+Description of the socket address. This parameter must be a literal string and will be included in the PDB. 
 
 
 #### - tags [in, optional]

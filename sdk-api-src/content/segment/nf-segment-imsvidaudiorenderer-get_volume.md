@@ -7,7 +7,7 @@ old-location: mstv\imsvidaudiorenderer_get_volume.htm
 old-project: mstv
 ms.assetid: 7dbbdb17-b077-4e36-a5d4-c8e343feb930
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidAudioRenderer interface [Microsoft TV Technologies],get_Volume method, IMSVidAudioRenderer.get_Volume, IMSVidAudioRenderer::get_Volume, IMSVidAudioRendererget_Volume, get_Volume, get_Volume method [Microsoft TV Technologies], get_Volume method [Microsoft TV Technologies],IMSVidAudioRenderer interface, mstv.imsvidaudiorenderer_get_volume, segment/IMSVidAudioRenderer::get_Volume
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,8 +68,7 @@ The <b>get_Volume</b> method retrieves the audio renderer's volume level.
 
 #### - plVol [out]
 
-
-            Pointer to a variable that receives the volume level, in units of .01 decibel (dB).
+Pointer to a variable that receives the volume level, in units of .01 decibel (dB).
           
 
 
@@ -77,8 +76,7 @@ The <b>get_Volume</b> method retrieves the audio renderer's volume level.
 
 
 
-
-            If the method succeeds, it returns S_OK. If it fails, it returns an error code.
+If the method succeeds, it returns S_OK. If it fails, it returns an error code.
           
 
 

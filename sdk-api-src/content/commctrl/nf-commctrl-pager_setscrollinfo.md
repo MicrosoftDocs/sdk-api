@@ -7,7 +7,7 @@ old-location: controls\Pager_SetScrollInfo.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setscrollinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Pager_SetScrollInfo, Pager_SetScrollInfo macro [Windows Controls], _win32_Pager_SetScrollInfo, _win32_Pager_SetScrollInfo_cpp, commctrl/Pager_SetScrollInfo, controls.Pager_SetScrollInfo, controls._win32_Pager_SetScrollInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 
 <p class="CCE_Message">[Intended for internal use; not recommended for use in applications. This macro may not be supported in future versions of Windows.]
 
-Sets the scrolling parameters of the pager control, including the timeout value, the lines per timeout, and the pixels per line. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Ee663599(v=VS.85).aspx">PGM_SETSETSCROLLINFO</a> message explicitly. 
+Sets the scrolling parameters of the pager control, including the timeout value, the lines per timeout, and the pixels per line. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Ee663599(v=VS.85).aspx">PGM_SETSETSCROLLINFO</a> message explicitly. 
 
 
 ## -parameters
@@ -62,7 +62,9 @@ Sets the scrolling parameters of the pager control, including the timeout value,
 
 ### -param hwnd
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to the pager control. 
 
 
 ### -param cTimeOut
@@ -86,18 +88,11 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 The number of pixels per line. 
 
 
-#### - hwndPager
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to the pager control. 
-
-
 ## -remarks
 
 
 
-This <i>cTimeOut</i> parameter controls the rate at which the pager control generates scrolling events when the control has captured the mouse input and the left mouse button is pressed. Smaller values result in faster scrolling; larger values result in slower scrolling. The default value is one-eighth of the double-click time. For more information, see <a href="https://msdn.microsoft.com/library/ms646258(v=VS.85).aspx">GetDoubleClickTime</a>.
+This <i>cTimeOut</i> parameter controls the rate at which the pager control generates scrolling events when the control has captured the mouse input and the left mouse button is pressed. Smaller values result in faster scrolling; larger values result in slower scrolling. The default value is one-eighth of the double-click time. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms646258(v=VS.85).aspx">GetDoubleClickTime</a>.
 
 By default, with each scrolling event the pager control scrolls an amount equal to the entire width or height of the control, depending on whether the pager control has a horizontal or vertical orientation. The <i>cLinesPer</i> and <i>cPixelsPerLine</i> parameters are used to override the default scrolling amount. If nonzero values are provided, the scrolling amount is the product of the two values (<i>cLinesPer</i> * <i>cPixelsPerLine</i>). 
 
@@ -109,7 +104,7 @@ By default, with each scrolling event the pager control scrolls an amount equal 
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee663599(v=VS.85).aspx">PGM_SETSETSCROLLINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee663599(v=VS.85).aspx">PGM_SETSETSCROLLINFO</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: controls\MonthCal_GetColor.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcolor.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: MCSC_BACKGROUND, MCSC_MONTHBK, MCSC_TEXT, MCSC_TITLEBK, MCSC_TITLETEXT, MCSC_TRAILINGTEXT, MonthCal_GetColor, MonthCal_GetColor macro [Windows Controls], _win32_MonthCal_GetColor, _win32_MonthCal_GetColor_cpp, commctrl/MonthCal_GetColor, controls.MonthCal_GetColor, controls._win32_MonthCal_GetColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the color for a given portion of a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760953(v=VS.85).aspx">MCM_GETCOLOR</a> message explicitly. 
+Retrieves the color for a given portion of a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760953(v=VS.85).aspx">MCM_GETCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Retrieves the color for a given portion of a month calendar control. You can use
 
 ### -param hmc
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to a month calendar control. 
 
 
 ### -param iColor
@@ -136,11 +138,4 @@ Retrieve the color used to display header day and trailing day text. Header and 
 </tr>
 </table>
  
-
-
-#### - hwndMC
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to a month calendar control. 
 

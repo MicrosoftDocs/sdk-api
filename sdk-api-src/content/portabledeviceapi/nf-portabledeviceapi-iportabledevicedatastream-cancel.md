@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicedatastream_cancel.htm
 old-project: wpd_sdk
 ms.assetid: 4a86cc78-8ef8-45e1-b63a-dac4c9dcdd9c
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDeviceDataStream interface, IPortableDeviceDataStream interface [Windows Portable Devices SDK],Cancel method, IPortableDeviceDataStream.Cancel, IPortableDeviceDataStream::Cancel, IPortableDeviceDataStreamCancel, portabledeviceapi/IPortableDeviceDataStream::Cancel, wpdsdk.iportabledevicedatastream_cancel
 ms.prod: windows
 ms.technology: windows-sdk

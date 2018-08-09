@@ -7,7 +7,7 @@ old-location: display\ddgetautoflipout.htm
 old-project: display
 ms.assetid: 48a64f86-9816-441d-9e4e-bd3f32d51728
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: "*LPDDGETAUTOFLIPOUT, DDGETAUTOFLIPOUT, DDGETAUTOFLIPOUT structure [Display Devices], LPDDGETAUTOFLIPOUT, LPDDGETAUTOFLIPOUT structure pointer [Display Devices], _DDGETAUTOFLIPOUT, ddkmapi/DDGETAUTOFLIPOUT, ddkmapi/LPDDGETAUTOFLIPOUT, ddstrcts_b11ef13a-2e8d-4676-b270-29b926abee91.xml, display.ddgetautoflipout"
 ms.prod: windows
 ms.technology: windows-sdk

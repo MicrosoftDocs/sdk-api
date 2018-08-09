@@ -7,7 +7,7 @@ old-location: dataxchg\ddedata.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangestructures\ddedata.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: CF_BITMAP, CF_DIB, CF_DIF, CF_ENHMETAFILE, CF_METAFILEPICT, CF_OEMTEXT, CF_PALETTE, CF_PENDATA, CF_RIFF, CF_SYLK, CF_TEXT, CF_TIFF, CF_UNICODETEXT, CF_WAVE, DDEDATA, DDEDATA structure [Data Exchange], _win32_DDEDATA_str, _win32_ddedata_str_cpp, dataxchg.ddedata, dde/DDEDATA, winui._win32_ddedata_str
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains the data, and information about the data, sent as part of a <a href="https://msdn.microsoft.com/library/ms648994(v=VS.85).aspx">WM_DDE_DATA</a> message. 
+Contains the data, and information about the data, sent as part of a <a href="https://msdn.microsoft.com/en-us/library/ms648994(v=VS.85).aspx">WM_DDE_DATA</a> message. 
 
 
 ## -struct-fields
@@ -69,14 +69,14 @@ Unused.
 
 Type: <b>unsigned short</b>
 
-Indicates whether the data was sent in response to a <a href="https://msdn.microsoft.com/library/ms648998(v=VS.85).aspx">WM_DDE_REQUEST</a> message or a <a href="https://msdn.microsoft.com/library/ms648993(v=VS.85).aspx">WM_DDE_ADVISE</a> message. If this value is nonzero, the data was sent in response to a <b>WM_DDE_REQUEST</b> message. 
+Indicates whether the data was sent in response to a <a href="https://msdn.microsoft.com/en-us/library/ms648998(v=VS.85).aspx">WM_DDE_REQUEST</a> message or a <a href="https://msdn.microsoft.com/en-us/library/ms648993(v=VS.85).aspx">WM_DDE_ADVISE</a> message. If this value is nonzero, the data was sent in response to a <b>WM_DDE_REQUEST</b> message. 
 
 
 ### -field fRelease
 
 Type: <b>unsigned short</b>
 
-Indicates whether the application receiving the <a href="https://msdn.microsoft.com/library/ms648997(v=VS.85).aspx">WM_DDE_POKE</a> message should free the data. If this value is nonzero, the application should free the data. 
+Indicates whether the application receiving the <a href="https://msdn.microsoft.com/en-us/library/ms648997(v=VS.85).aspx">WM_DDE_POKE</a> message should free the data. If this value is nonzero, the application should free the data. 
 
 
 ### -field reserved
@@ -90,7 +90,7 @@ Reserved.
 
 Type: <b>BYTE</b>
 
-Indicates whether the application receiving the <a href="https://msdn.microsoft.com/library/ms648994(v=VS.85).aspx">WM_DDE_DATA</a> message should acknowledge receipt of the data by sending a <a href="https://msdn.microsoft.com/library/ms648782(v=VS.85).aspx">WM_DDE_ACK</a> message. If this value is nonzero, the application should send the acknowledgment. 
+Indicates whether the application receiving the <a href="https://msdn.microsoft.com/en-us/library/ms648994(v=VS.85).aspx">WM_DDE_DATA</a> message should acknowledge receipt of the data by sending a <a href="https://msdn.microsoft.com/en-us/library/ms648782(v=VS.85).aspx">WM_DDE_ACK</a> message. If this value is nonzero, the application should send the acknowledgment. 
 
 
 ### -field usFlags
@@ -174,7 +174,7 @@ Contains the data. The length and type of data depend on the <b>cfFormat</b> mem
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
 
 
 
@@ -186,23 +186,23 @@ Contains the data. The length and type of data depend on the <b>cfFormat</b> mem
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648782(v=VS.85).aspx">WM_DDE_ACK</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648782(v=VS.85).aspx">WM_DDE_ACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648993(v=VS.85).aspx">WM_DDE_ADVISE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648993(v=VS.85).aspx">WM_DDE_ADVISE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648994(v=VS.85).aspx">WM_DDE_DATA</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648994(v=VS.85).aspx">WM_DDE_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648997(v=VS.85).aspx">WM_DDE_POKE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648997(v=VS.85).aspx">WM_DDE_POKE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648998(v=VS.85).aspx">WM_DDE_REQUEST</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648998(v=VS.85).aspx">WM_DDE_REQUEST</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mscs\clusrestypes_deleteitem.htm
 old-project: mscs
 ms.assetid: 0a528b4e-8d6d-434b-b005-ca732c72c7a3
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusResTypes collection [Failover Cluster],DeleteItem method, ClusResTypes.DeleteItem, DeleteItem, DeleteItem method [Failover Cluster], DeleteItem method [Failover Cluster],ClusResTypes collection, ISClusResTypes.DeleteItem, ISClusResTypes::DeleteItem, _wolf_clusrestypes.deleteitem, mscs.clusrestypes_deleteitem
 ms.prod: windows
 ms.technology: windows-sdk

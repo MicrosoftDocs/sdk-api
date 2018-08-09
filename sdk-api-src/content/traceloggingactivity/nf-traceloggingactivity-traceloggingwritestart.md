@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingwritestart.htm
 old-project: tracelogging
 ms.assetid: E5B9347E-50A7-49BE-BDD5-DCED39371234
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TraceLoggingWriteStart, TraceLoggingWriteStart macro, tracelogging.traceloggingwritestart, traceloggingactivity/TraceLoggingWriteStart
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,12 +66,7 @@ The activity must not have already been started.
 The activity to start.
 
 
-### -param name
-
-TBD
-
-
-#### - EventName [in]
+### -param name [in]
 
 The name of the event. This must be a string literal and not a variable. It cannot have any embedded nul characters.
 

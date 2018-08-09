@@ -4,10 +4,10 @@ title: ITCallInfo
 author: windows-sdk-content
 description: The ITCallInfo interface gets and sets a variety of information concerning a Call object. The ITAddress::get_Calls and IEnumCall::Next methods create the ITCallInfo interface.
 old-location: tapi3\itcallinfo.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 5209d4a1-e05b-453e-8896-2dc71f0b9af0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITCallInfo, ITCallInfo interface [TAPI 2.2], ITCallInfo interface [TAPI 2.2],described, _tapi3_itcallinfo, tapi3.itcallinfo, tapi3if/ITCallInfo
 ms.prod: windows
 ms.technology: windows-sdk

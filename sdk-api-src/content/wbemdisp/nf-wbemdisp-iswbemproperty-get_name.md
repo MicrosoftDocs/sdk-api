@@ -7,7 +7,7 @@ old-location: wmi\swbemproperty_name.htm
 old-project: WmiSdk
 ms.assetid: d69dfe46-21a7-43d1-abfd-d73b47707e85
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemProperty interface [Windows Management Instrumentation],Name property, ISWbemProperty.get_Name, ISWbemProperty::get_Name, Name property [Windows Management Instrumentation], Name property [Windows Management Instrumentation],ISWbemProperty interface, Name property [Windows Management Instrumentation],SWbemProperty object, SWbemProperty object [Windows Management Instrumentation],Name property, SWbemProperty.Name, _hmm_swbemproperty.name, get_Name, wmi.swbemproperty_name
 ms.prod: windows
 ms.technology: windows-sdk

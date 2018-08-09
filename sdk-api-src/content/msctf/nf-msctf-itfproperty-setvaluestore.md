@@ -7,7 +7,7 @@ old-location: tsf\itfproperty_setvaluestore.htm
 old-project: TSF
 ms.assetid: 146af429-54a8-41b6-b44e-b5d35f933435
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfProperty interface [Text Services Framework],SetValueStore method, ITfProperty.SetValueStore, ITfProperty::SetValueStore, SetValueStore, SetValueStore method [Text Services Framework], SetValueStore method [Text Services Framework],ITfProperty interface, _tsf_itfproperty_setvaluestore_ref, msctf/ITfProperty::SetValueStore, tsf.itfproperty_setvaluestore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -157,8 +157,7 @@ Overlapping property values of the same type are unsupported.
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
       </a>
 
 
@@ -167,20 +166,17 @@ Overlapping property values of the same type are unsupported.
 
 
 
-<a href="https://msdn.microsoft.com/72064f9f-311e-4d7b-9ead-4fe2b7f528a8">
-        ITfProperty::SetValue
+<a href="https://msdn.microsoft.com/72064f9f-311e-4d7b-9ead-4fe2b7f528a8">ITfProperty::SetValue
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/0678e622-3733-499b-b289-c8c181d4638c">
-        ITfPropertyStore
+<a href="https://msdn.microsoft.com/0678e622-3733-499b-b289-c8c181d4638c">ITfPropertyStore
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">
-        ITfRange
+<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
       </a>
  
 

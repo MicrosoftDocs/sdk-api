@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclock2_getdeviceposition.htm
 old-project: CoreAudio
 ms.assetid: 2767056d-59dc-4f6e-b0f7-e37b3fed9581
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: GetDevicePosition, GetDevicePosition method [Core Audio], GetDevicePosition method [Core Audio],IAudioClock2 interface, IAudioClock2 interface [Core Audio],GetDevicePosition method, IAudioClock2.GetDevicePosition, IAudioClock2::GetDevicePosition, audioclient/IAudioClock2::GetDevicePosition, coreaudio.iaudioclock2_getdeviceposition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,8 +60,7 @@ The <b>GetDevicePosition</b> method gets the current device position, in frames,
 
 ### -param DevicePosition [out]
 
-
-			 	Receives the device position, in frames. The received position is an unprocessed value that the method obtains directly from the hardware. For more information, see Remarks.
+Receives the device position, in frames. The received position is an unprocessed value that the method obtains directly from the hardware. For more information, see Remarks.
 			 
 
 
@@ -136,12 +135,10 @@ This method retrieves two correlated stream-position values:
         
 
 <ul>
-<li>
-            Device position. The client retrieves the unprocessed device position in <i>DevicePosition</i>. This is the stream position of the sample that is currently playing through the speakers (for a rendering stream) or being recorded through the microphone (for a capture stream). The sampling rate of the device endpoint may be different from the sampling rate of the mix format used by the client.
+<li>Device position. The client retrieves the unprocessed device position in <i>DevicePosition</i>. This is the stream position of the sample that is currently playing through the speakers (for a rendering stream) or being recorded through the microphone (for a capture stream). The sampling rate of the device endpoint may be different from the sampling rate of the mix format used by the client.
 					To retrieve the device position from the client, call <a href="https://msdn.microsoft.com/2271bd73-8cb6-4048-a16c-f765d0fae6bd">IAudioClock::GetPosition</a>.
 				</li>
-<li>
-            Performance counter. The client retrieves the performance counter in <i>QPCPosition</i>. <b>GetDevicePosition</b> obtains the counter value by calling the <b>QueryPerformanceCounter</b> function at the time that the audio endpoint device stores the stream position in the <i>DevicePosition</i> parameter of the <b>GetDevicePosition</b> method. <b>GetDevicePosition</b> converts the counter value to 100-nanosecond time units. For more information about <b>QueryPerformanceCounter</b> and <b>QueryPerformanceFrequency</b>, see the Windows SDK documentation.</li>
+<li>Performance counter. The client retrieves the performance counter in <i>QPCPosition</i>. <b>GetDevicePosition</b> obtains the counter value by calling the <b>QueryPerformanceCounter</b> function at the time that the audio endpoint device stores the stream position in the <i>DevicePosition</i> parameter of the <b>GetDevicePosition</b> method. <b>GetDevicePosition</b> converts the counter value to 100-nanosecond time units. For more information about <b>QueryPerformanceCounter</b> and <b>QueryPerformanceFrequency</b>, see the Windows SDK documentation.</li>
 </ul>
 Given the device position and the performance counter at the time of the <b>GetDevicePosition</b> call, the client can get a more timely estimate of the device position at a later time by calling <b>QueryPerformanceCounter</b> to obtain the current performance counter, and extrapolating the device position based on how far the counter has advanced since the original device position was recorded. The client can call the <b>QueryPerformanceCounter</b> function to get the frequency of the clock that increments the counter. Before comparing the raw counter value obtained from <b>QueryPerformanceCounter</b> to the value retrieved by <b>GetDevicePosition</b>, convert the raw counter value to 100-nanosecond time units as follows:
 

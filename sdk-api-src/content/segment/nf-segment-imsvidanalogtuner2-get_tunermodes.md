@@ -7,7 +7,7 @@ old-location: mstv\imsvidanalogtuner2_get_tunermodes.htm
 old-project: mstv
 ms.assetid: dc5652d4-aa1d-480e-a5f4-05ed9d9b1887
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidAnalogTuner2 interface [Microsoft TV Technologies],get_TunerModes method, IMSVidAnalogTuner2.get_TunerModes, IMSVidAnalogTuner2::get_TunerModes, IMSVidAnalogTuner2getTunerModes, get_TunerModes, get_TunerModes method [Microsoft TV Technologies], get_TunerModes method [Microsoft TV Technologies],IMSVidAnalogTuner2 interface, mstv.imsvidanalogtuner2_get_tunermodes, segment/IMSVidAnalogTuner2::get_TunerModes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,11 +71,9 @@ Pointer to a variable that receives the modes flag. Possible values are the sum 
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

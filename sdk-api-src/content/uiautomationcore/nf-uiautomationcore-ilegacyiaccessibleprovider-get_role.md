@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ILegacyIAccessibleProvider_Role.htm
 old-project: WinAuto
 ms.assetid: de2c0101-61fd-4a2d-8bef-dc7e30d0d9f4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],Role property, ILegacyIAccessibleProvider.Role, ILegacyIAccessibleProvider.get_Role, ILegacyIAccessibleProvider::Role, ILegacyIAccessibleProvider::get_Role, Role property [Windows Accessibility], Role property [Windows Accessibility],ILegacyIAccessibleProvider interface, get_Role, uiauto.uiauto_ILegacyIAccessibleProvider_Role, uiauto_ILegacyIAccessibleProvider_Role, uiautomationcore/ILegacyIAccessibleProvider::Role, uiautomationcore/ILegacyIAccessibleProvider::get_Role, winauto.uiauto_ILegacyIAccessibleProvider_Role
 ms.prod: windows
 ms.technology: windows-sdk

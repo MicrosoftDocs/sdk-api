@@ -7,7 +7,7 @@ old-location: dhcp\dhcpmodifyclassv6.htm
 old-project: dhcp
 ms.assetid: d98ea14e-d61a-4d1b-bd7f-9d8fdf81d092
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpModifyClassV6, DhcpModifyClassV6 function [DHCP], dhcp.dhcpmodifyclassv6, dhcpsapi/DhcpModifyClassV6
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpModifyClassV6</b> function modifies a DHCPv6 user or vendor class defined on the server.
+The <b>DhcpModifyClassV6</b> function modifies a DHCPv6 user or vendor class defined on the server.
 
 
 ## -parameters
@@ -103,8 +102,7 @@ This call was performed by a client who is not a member of the "DHCP Administrat
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">
-		  DHCP_CLASS_INFO</a> structure provided in <i>ClassInfo</i> has null or invalid values for the <b>ClassName</b> or <b>ClassData</b> member (or both).
+The <a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">DHCP_CLASS_INFO</a> structure provided in <i>ClassInfo</i> has null or invalid values for the <b>ClassName</b> or <b>ClassData</b> member (or both).
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: menurc\geticoninfoex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\geticoninfoex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetIconInfoEx, GetIconInfoEx function [Menus and Other Resources], GetIconInfoExA, GetIconInfoExW, IDC_APPSTARTING, IDC_ARROW, IDC_CROSS, IDC_HAND, IDC_HELP, IDC_IBEAM, IDC_NO, IDC_SIZEALL, IDC_SIZENESW, IDC_SIZENS, IDC_SIZENWSE, IDC_SIZEWE, IDC_UPARROW, IDC_WAIT, IDI_APPLICATION, IDI_ASTERISK, IDI_EXCLAMATION, IDI_HAND, IDI_QUESTION, IDI_WINLOGO, _win32_GetIconInfoEx, _win32_geticoninfoex_cpp, menurc.geticoninfoex, winui._win32_geticoninfoex, winuser/GetIconInfoEx, winuser/GetIconInfoExA, winuser/GetIconInfoExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,19 +61,7 @@ Retrieves information about the specified icon or cursor. <b>GetIconInfoEx</b> e
 
 
 
-### -param hicon
-
-TBD
-
-
-### -param piconinfo
-
-TBD
-
-
-
-
-#### - hIcon [in]
+### -param hicon [in]
 
 Type: <b>HICON</b>
 
@@ -310,7 +298,7 @@ Question-mark icon.
  
 
 
-#### - piconinfoex [in, out]
+### -param piconinfo [in, out]
 
 Type: <b>PICONINFOEX</b>
 

@@ -7,7 +7,7 @@ old-location: winprog\fnfciseek.htm
 old-project: devnotes
 ms.assetid: e5a14c98-4de6-452e-8993-afb7964aeee7
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FNFCISEEK, FNFCISEEK macro [Windows API], fci/FNFCISEEK, winprog.fnfciseek
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,11 +61,7 @@ The <b>FNFCISEEK</b> macro provides the declaration for the application-defined 
 
 ### -param fn
 
-TBD
-
-
-
-
+An application-defined value used to identify the open file.
 
 
 #### - dist
@@ -73,24 +69,19 @@ TBD
 The number of bytes to move the file pointer.
 
 
+#### - seektype
+
+The starting point for the file pointer to move.
+
+
 #### - err
 
 Pointer to the error code value. This value will be used to provide extended error information in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
 
 
-#### - hf
-
-An application-defined value used to identify the open file.
-
-
 #### - pv
 
 Pointer to an application-defined value.
-
-
-#### - seektype
-
-The starting point for the file pointer to move.
 
 
 ## -remarks

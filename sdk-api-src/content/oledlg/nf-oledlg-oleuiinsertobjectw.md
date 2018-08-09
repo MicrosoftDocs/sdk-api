@@ -7,7 +7,7 @@ old-location: com\oleuiinsertobject.htm
 old-project: com
 ms.assetid: f0ca8c0d-2538-4197-a830-d5ffb9f8b635
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: OleUIInsertObject, OleUIInsertObject function [COM], OleUIInsertObjectA, OleUIInsertObjectW, _ole_OleUIInsertObject, com.oleuiinsertobject, oledlg/OleUIInsertObject, oledlg/OleUIInsertObjectA, oledlg/OleUIInsertObjectW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ Invokes the standard <b>Insert Object</b> dialog box, which allows the user to s
 
 
 
-### -param Arg1
-
-TBD
-
-
-
-
-#### - lpIO [in]
+### -param Arg1 [in]
 
  Pointer to the in-out <a href="https://msdn.microsoft.com/b14df159-ed62-4745-8cac-c31364d0de7b">OLEUIINSERTOBJECT</a> structure for this dialog box.
 

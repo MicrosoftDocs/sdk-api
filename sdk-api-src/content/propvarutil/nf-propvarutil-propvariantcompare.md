@@ -7,7 +7,7 @@ old-location: properties\PropVariantCompare.htm
 old-project: properties
 ms.assetid: f296a583-3af2-4165-8b3a-0b47eba8e89d
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: PropVariantCompare, PropVariantCompare function [Windows Properties], _shell_PropVariantCompare, properties.PropVariantCompare, propvarutil/PropVariantCompare, shell.PropVariantCompare
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ Type: <b>INT</b>
 
 
 
-Calling <a href="https://msdn.microsoft.com/library/Bb776516(v=VS.85).aspx">PropVariantCompare</a> is equivalent to calling <a href="https://msdn.microsoft.com/library/Bb776517(v=VS.85).aspx">PropVariantCompareEx</a> with the PVCHF_DEFAULT flag.
+Calling <a href="shell.PropVariantCompare">PropVariantCompare</a> is equivalent to calling <a href="shell.PropVariantCompareEx">PropVariantCompareEx</a> with the PVCHF_DEFAULT flag.
 
 This function compares only selected types, not all types.
 
@@ -109,7 +109,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776517(v=VS.85).aspx">PropVariantCompareEx</a>
+<a href="shell.PropVariantCompareEx">PropVariantCompareEx</a>
  
 
  

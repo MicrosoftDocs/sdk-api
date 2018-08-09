@@ -7,7 +7,7 @@ old-location: rm\drmregisterprotectedwindow.htm
 old-project: adrms_sdk
 ms.assetid: 4801ea8b-4437-4c2b-bec0-60aefaaa1251
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMRegisterProtectedWindow, DRMRegisterProtectedWindow function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMRegisterProtectedWindow, rm.drmregisterprotectedwindow
 ms.prod: windows
 ms.technology: windows-sdk

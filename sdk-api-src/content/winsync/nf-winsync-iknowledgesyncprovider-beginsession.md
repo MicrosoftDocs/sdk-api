@@ -7,7 +7,7 @@ old-location: winsync\iknowledgesyncprovider_beginsession.htm
 old-project: winsync
 ms.assetid: 15aae98e-96c6-45f3-906f-1729fa79ebdb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: BeginSession, BeginSession method [Windows Sync], BeginSession method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],BeginSession method, IKnowledgeSyncProvider.BeginSession, IKnowledgeSyncProvider::BeginSession, winsync.iknowledgesyncprovider_beginsession, winsync/IKnowledgeSyncProvider::BeginSession
 ms.prod: windows
 ms.technology: windows-sdk

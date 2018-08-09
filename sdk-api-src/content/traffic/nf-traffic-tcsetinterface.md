@@ -4,10 +4,10 @@ title: TcSetInterface function
 author: windows-sdk-content
 description: The TcSetInterface function sets individual parameters for a given interface.
 old-location: qos\tcsetinterface.htm
-old-project: QOS
+old-project: qos
 ms.assetid: 7ca28fac-999c-4386-81e7-65003e89d9c5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TcSetInterface, TcSetInterface function [QOS], _gqos_tcsetinterface, qos.tcsetinterface, traffic/TcSetInterface
 ms.prod: windows
 ms.technology: windows-sdk

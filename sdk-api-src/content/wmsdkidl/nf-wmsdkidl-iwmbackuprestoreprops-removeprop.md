@@ -7,7 +7,7 @@ old-location: wmformat\iwmbackuprestoreprops_removeprop.htm
 old-project: wmformat
 ms.assetid: 3befd77c-6962-4320-9456-760e8f41cb24
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWMBackupRestoreProps interface [windows Media Format],RemoveProp method, IWMBackupRestoreProps.RemoveProp, IWMBackupRestoreProps::RemoveProp, IWMBackupRestorePropsRemoveProp, RemoveProp, RemoveProp method [windows Media Format], RemoveProp method [windows Media Format],IWMBackupRestoreProps interface, wmformat.iwmbackuprestoreprops_removeprop, wmsdkidl/IWMBackupRestoreProps::RemoveProp
 ms.prod: windows
 ms.technology: windows-sdk

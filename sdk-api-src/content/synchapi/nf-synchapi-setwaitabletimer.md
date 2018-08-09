@@ -4,10 +4,10 @@ title: SetWaitableTimer function
 author: windows-sdk-content
 description: Activates the specified waitable timer. When the due time arrives, the timer is signaled and the thread that set the timer calls the optional completion routine.
 old-location: base\setwaitabletimer.htm
-old-project: Sync
+old-project: sync
 ms.assetid: 237e22dc-696d-473f-8bb5-c28f7c7c75b2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetWaitableTimer, SetWaitableTimer function, _win32_setwaitabletimer, base.setwaitabletimer, synchapi/SetWaitableTimer, winbase/SetWaitableTimer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,9 +78,11 @@ The handle must have the <b>TIMER_MODIFY_STATE</b> access right. For more inform
 <a href="https://msdn.microsoft.com/92478298-617c-4672-a1cc-9a8e9af40327">Synchronization Object Security and Access Rights</a>.
 
 
-### -param lpDueTime
+### -param lpDueTime [in]
 
-TBD
+The time after which the state of the timer is to be set to signaled, in 100 nanosecond intervals. Use the format described by the 
+<a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure. Positive values indicate absolute time. Be sure to use a UTC-based absolute time, as the system uses UTC-based time internally. Negative values indicate relative time. The actual timer accuracy depends on the capability of your hardware. For more information about UTC-based time, see 
+<a href="https://msdn.microsoft.com/1a1e251e-2375-4134-bbd8-1e4670b9f9d2">System Time</a>.
 
 
 ### -param lPeriod [in]
@@ -104,13 +106,6 @@ A pointer to a structure that is passed to the completion routine.
 ### -param fResume [in]
 
 If this parameter is <b>TRUE</b>, restores a system in suspended power conservation mode when the timer state is set to signaled. Otherwise, the system is not restored. If the system does not support a restore, the call succeeds, but <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns <b>ERROR_NOT_SUPPORTED</b>.
-
-
-#### - pDueTime [in]
-
-The time after which the state of the timer is to be set to signaled, in 100 nanosecond intervals. Use the format described by the 
-<a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure. Positive values indicate absolute time. Be sure to use a UTC-based absolute time, as the system uses UTC-based time internally. Negative values indicate relative time. The actual timer accuracy depends on the capability of your hardware. For more information about UTC-based time, see 
-<a href="https://msdn.microsoft.com/1a1e251e-2375-4134-bbd8-1e4670b9f9d2">System Time</a>.
 
 
 ## -returns

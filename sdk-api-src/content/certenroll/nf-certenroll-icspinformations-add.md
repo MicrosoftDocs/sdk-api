@@ -7,7 +7,7 @@ old-location: security\icspinformations_add_method.htm
 old-project: seccertenroll
 ms.assetid: 882d6b6c-df42-4495-8d03-fa325ccd9899
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICspInformations interface, ICspInformations interface [Security],Add method, ICspInformations.Add, ICspInformations::Add, certenroll/ICspInformations::Add, security.icspinformations_add_method
 ms.prod: windows
 ms.technology: windows-sdk

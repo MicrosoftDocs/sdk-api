@@ -7,7 +7,7 @@ old-location: shell\ExtractIcon.htm
 old-project: shell
 ms.assetid: a0314423-79d6-416e-8be0-be946477da3e
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ExtractIcon, ExtractIcon function [Windows Shell], ExtractIconA, ExtractIconW, _shell_ExtractIcon, shell.ExtractIcon, shellapi/ExtractIcon, shellapi/ExtractIconA, shellapi/ExtractIconW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,9 +74,11 @@ Type: <b>HINSTANCE</b>
 Handle to the instance of the application that calls the function.
 
 
-### -param pszExeFileName
+### -param pszExeFileName [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+Pointer to a null-terminated string that specifies the name of an executable file, DLL, or icon file.
 
 
 ### -param nIconIndex
@@ -90,13 +92,6 @@ Specifies the zero-based index of the icon to retrieve. For example, if this val
 If this value is -1, the function returns the total number of icons in the specified file. If the file is an executable file or DLL, the return value is the number of RT_GROUP_ICON resources. If the file is an .ICO file, the return value is 1.
 
 If this value is a negative number not equal to –1, the function returns a handle to the icon in the specified file whose resource identifier is equal to the absolute value of <i>nIconIndex</i>. For example, you should use –3 to extract the icon whose resource identifier is 3. To extract the icon whose resource identifier is 1, use the <a href="https://msdn.microsoft.com/1c4d760a-79b5-4646-9cf2-6cd32c5d05ee">ExtractIconEx</a> function.
-
-
-#### - lpszExeFileName [in]
-
-Type: <b>LPCTSTR</b>
-
-Pointer to a null-terminated string that specifies the name of an executable file, DLL, or icon file.
 
 
 ## -returns
@@ -114,7 +109,7 @@ The return value is a handle to an icon. If the file specified was not an execut
 
 
 
-When it is no longer needed, you must destroy the icon handle returned by <b>ExtractIcon</b> by calling the <a href="https://msdn.microsoft.com/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function.
+When it is no longer needed, you must destroy the icon handle returned by <b>ExtractIcon</b> by calling the <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function.
 
 
 

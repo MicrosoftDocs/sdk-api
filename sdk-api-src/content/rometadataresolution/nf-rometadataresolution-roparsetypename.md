@@ -7,7 +7,7 @@ old-location: winrt\roparsetypename.htm
 old-project: WinRT
 ms.assetid: AF007D43-7BAC-4753-9D2B-8F397B4A464A
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: RoParseTypeName, RoParseTypeName function [Windows Runtime], rometadataresolution/RoParseTypeName, winrt.roparsetypename
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,11 @@ Parses a type name and existing type parameters, in the case of parameterized ty
 
 
 
-### -param typeName
+### -param typeName [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a></b>
+
+String-encoded typename. The typename can be a non-namespace-qualified type, a non-parameterized namespace-qualified type or a fully instantiated namespace-qualified parameterized type.
 
 
 ### -param partsCount [out]
@@ -78,13 +80,6 @@ Number of elements in the <i>typenameParts</i> array.
 Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>**</b>
 
 The first element of the array is the specified type, and the remaining array elements are the type parameters (if any) in prewalk tree order.
-
-
-#### - typename [in]
-
-Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a></b>
-
-String-encoded typename. The typename can be a non-namespace-qualified type, a non-parameterized namespace-qualified type or a fully instantiated namespace-qualified parameterized type.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: ICEnroll::acceptPKCS7
 author: windows-sdk-content
 description: Accepts and processes a PKCS #7 message that contains a certificate. The PKCS #7 is input as a parameter. This method was first defined in the ICEnroll interface.
 old-location: security\icenroll4_acceptpkcs7.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 5a428d83-c846-4f44-a682-58c3e025c353
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CEnroll object [Security],acceptPKCS7 method, ICEnroll interface [Security],acceptPKCS7 method, ICEnroll.acceptPKCS7, ICEnroll2 interface [Security],acceptPKCS7 method, ICEnroll2::acceptPKCS7, ICEnroll3 interface [Security],acceptPKCS7 method, ICEnroll3::acceptPKCS7, ICEnroll4 interface [Security],acceptPKCS7 method, ICEnroll4::acceptPKCS7, ICEnroll::acceptPKCS7, acceptPKCS7, acceptPKCS7 method [Security], acceptPKCS7 method [Security],CEnroll object, acceptPKCS7 method [Security],ICEnroll interface, acceptPKCS7 method [Security],ICEnroll2 interface, acceptPKCS7 method [Security],ICEnroll3 interface, acceptPKCS7 method [Security],ICEnroll4 interface, security.icenroll4_acceptpkcs7, xenroll/ICEnroll2::acceptPKCS7, xenroll/ICEnroll3::acceptPKCS7, xenroll/ICEnroll4::acceptPKCS7, xenroll/ICEnroll::acceptPKCS7
 ms.prod: windows
 ms.technology: windows-sdk

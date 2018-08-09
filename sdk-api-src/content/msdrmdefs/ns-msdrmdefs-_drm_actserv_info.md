@@ -7,7 +7,7 @@ old-location: rm\drm_actserv_info.htm
 old-project: adrms_sdk
 ms.assetid: 2ea83a08-ab86-4635-8684-519808430ce9
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRM_ACTSERV_INFO, DRM_ACTSERV_INFO structure [Active Directory Rights Management Services SDK 1.0], _DRM_ACTSERV_INFO, msdrmdefs/DRM_ACTSERV_INFO, rm.drm_actserv_info
 ms.prod: windows
 ms.technology: windows-sdk

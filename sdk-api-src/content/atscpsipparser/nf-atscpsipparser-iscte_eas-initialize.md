@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_initialize.htm
 old-project: mstv
 ms.assetid: f40e89f4-6a33-44a9-933c-bf38978f1cb2
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: ISCTE_EAS interface [Microsoft TV Technologies],Initialize method, ISCTE_EAS.Initialize, ISCTE_EAS::Initialize, ISCTE_EASInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],ISCTE_EAS interface, atscpsipparser/ISCTE_EAS::Initialize, mstv.iscte_eas_initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>Initialize</b> method initializes the object using captured table section data. This method is called internally by the <a href="https://msdn.microsoft.com/e53b93e3-7269-45aa-8b19-75f78fb44c41">IAtscPsipParser::GetEAS</a> method, so applications typically should not call it.
+The <b>Initialize</b> method initializes the object using captured table section data. This method is called internally by the <a href="https://msdn.microsoft.com/e53b93e3-7269-45aa-8b19-75f78fb44c41">IAtscPsipParser::GetEAS</a> method, so applications typically should not call it.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: netshell\preprocesscommand.htm
 old-project: netshell
 ms.assetid: 6795512e-4b90-47da-962a-d9e6ecfb7ee0
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: PreprocessCommand, PreprocessCommand function [NetShell], _netsh_preprocesscommand, netsh/PreprocessCommand, netshell.preprocesscommand
 ms.prod: windows
 ms.technology: windows-sdk

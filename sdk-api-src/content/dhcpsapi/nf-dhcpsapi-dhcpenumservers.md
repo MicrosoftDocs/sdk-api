@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumservers.htm
 old-project: dhcp
 ms.assetid: c8b4d241-19d4-4a97-9129-c2954d63b6ac
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpEnumServers, DhcpEnumServers function [DHCP], dhcp.dhcpenumservers, dhcpsapi/DhcpEnumServers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpEnumServers</b> function returns an enumerated list of DHCP servers found in the directory service.  
+The <b>DhcpEnumServers</b> function returns an enumerated list of DHCP servers found in the directory service.  
 
 
 ## -parameters
@@ -71,8 +70,7 @@ Pointer to an address containing the server's ID block. This field should be set
 
 ### -param Servers [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/0f5fe4f3-4eaa-498b-ab48-bfb5ee8f5527">DHCP_SERVER_INFO_ARRAY</a>
-       structure that contains the output list of DHCP servers.
+Pointer to a <a href="https://msdn.microsoft.com/0f5fe4f3-4eaa-498b-ab48-bfb5ee8f5527">DHCP_SERVER_INFO_ARRAY</a>structure that contains the output list of DHCP servers.
 
 
 ### -param CallbackFn [in]

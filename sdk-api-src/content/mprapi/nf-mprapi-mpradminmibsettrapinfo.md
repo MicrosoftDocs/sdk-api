@@ -7,7 +7,7 @@ old-location: rras\mpradminmibsettrapinfo.htm
 old-project: rras
 ms.assetid: fc223682-9dd9-4d3f-8cfb-ec7c438f68e7
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminMIBSetTrapInfo, MprAdminMIBSetTrapInfo function [RAS], _mpr_mpradminmibsettrapinfo, mprapi/MprAdminMIBSetTrapInfo, rras.mpradminmibsettrapinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,9 @@ The
 
 
 
-### -param dwProtocolId
+### -param dwProtocolId [in]
 
-TBD
+Specifies a <b>DWORD</b> variable that contains the protocol family identifier.
 
 
 ### -param dwRoutingPid [in]
@@ -90,19 +90,7 @@ Specifies a <b>DWORD</b> variable that contains the size in bytes of the data po
 Receives the address of a pointer to the output data.
 
 
-### -param lpOutDataSize
-
-TBD
-
-
-
-
-#### - dwTransportId [in]
-
-Specifies a <b>DWORD</b> variable that contains the protocol family identifier.
-
-
-#### - lpdwOutDataSize [in, out]
+### -param lpOutDataSize [in, out]
 
 On input, pointer to a <b>DWORD</b> variable. 
 

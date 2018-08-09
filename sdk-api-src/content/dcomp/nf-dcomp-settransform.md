@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionvisual3_settransform_overloaded.htm
 old-project: directcomp
 ms.assetid: a59498c2-8659-dd35-8dc2-87457f493965
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IDCompositionVisual3::SetTransform, SetTransform, SetTransform methods [DirectComposition], dcomp/SetTransform, directcomp.idcompositionvisual3_settransform_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

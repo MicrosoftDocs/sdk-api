@@ -7,7 +7,7 @@ old-location: rm\drmduplicatehandle.htm
 old-project: adrms_sdk
 ms.assetid: 967519da-0471-4615-aec0-b30717239dd5
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMDuplicateHandle, DRMDuplicateHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDuplicateHandle, rm.drmduplicatehandle
 ms.prod: windows
 ms.technology: windows-sdk

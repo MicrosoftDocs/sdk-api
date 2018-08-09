@@ -7,7 +7,7 @@ old-location: gdi\bitblt.htm
 old-project: gdi
 ms.assetid: d6a181e4-b6cf-44b7-bf47-4900272d6d72
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: BLACKNESS, BitBlt, BitBlt function [Windows GDI], CAPTUREBLT, DSTINVERT, MERGECOPY, MERGEPAINT, NOMIRRORBITMAP, NOTSRCCOPY, NOTSRCERASE, PATCOPY, PATINVERT, PATPAINT, SRCAND, SRCCOPY, SRCERASE, SRCINVERT, SRCPAINT, WHITENESS, _win32_BitBlt, gdi.bitblt, wingdi/BitBlt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,29 +64,29 @@ The <b>BitBlt</b> function performs a bit-block transfer of the color data corre
 
 
 
-### -param hdc
+### -param hdc [in]
 
-TBD
-
-
-### -param x
-
-TBD
+A handle to the destination device context.
 
 
-### -param y
+### -param x [in]
 
-TBD
-
-
-### -param cx
-
-TBD
+The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.
 
 
-### -param cy
+### -param y [in]
 
-TBD
+The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.
+
+
+### -param cx [in]
+
+The width, in logical units, of the source and destination rectangles.
+
+
+### -param cy [in]
+
+The height, in logical units, of the source and the destination rectangles.
 
 
 ### -param hdcSrc [in]
@@ -94,24 +94,17 @@ TBD
 A handle to the source device context.
 
 
-### -param x1
+### -param x1 [in]
 
-TBD
-
-
-### -param y1
-
-TBD
+The x-coordinate, in logical units, of the upper-left corner of the source rectangle.
 
 
-### -param rop
+### -param y1 [in]
 
-TBD
-
-
+The y-coordinate, in logical units, of the upper-left corner of the source rectangle.
 
 
-#### - dwRop [in]
+### -param rop [in]
 
 A raster-operation code. These codes define how the color data for the source rectangle is to be combined with the color data for the destination rectangle to achieve the final color.
 
@@ -294,41 +287,6 @@ Fills the destination rectangle using the color associated with index 1 in the p
 </tr>
 </table>
  
-
-
-#### - hdcDest [in]
-
-A handle to the destination device context.
-
-
-#### - nHeight [in]
-
-The height, in logical units, of the source and the destination rectangles.
-
-
-#### - nWidth [in]
-
-The width, in logical units, of the source and destination rectangles.
-
-
-#### - nXDest [in]
-
-The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.
-
-
-#### - nXSrc [in]
-
-The x-coordinate, in logical units, of the upper-left corner of the source rectangle.
-
-
-#### - nYDest [in]
-
-The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.
-
-
-#### - nYSrc [in]
-
-The y-coordinate, in logical units, of the upper-left corner of the source rectangle.
 
 
 ## -returns

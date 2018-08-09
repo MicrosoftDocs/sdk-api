@@ -7,7 +7,7 @@ old-location: of\ienumofflinefilesitems_next.htm
 old-project: offlinefiles
 ms.assetid: 509bb93a-0ab4-4e4a-935a-c30e6b1f03fd
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumOfflineFilesItems interface [Offline Files],Next method, IEnumOfflineFilesItems.Next, IEnumOfflineFilesItems::Next, Next, Next method [Offline Files], Next method [Offline Files],IEnumOfflineFilesItems interface, cscobj/IEnumOfflineFilesItems::Next, of.ienumofflinefilesitems_next
 ms.prod: windows
 ms.technology: windows-sdk

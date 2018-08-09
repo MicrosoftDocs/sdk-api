@@ -7,7 +7,7 @@ old-location: shell\IExplorerCommandProvider_GetCommands.htm
 old-project: shell
 ms.assetid: df300219-e717-4f79-8996-62726092c3c7
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetCommands, GetCommands method [Windows Shell], GetCommands method [Windows Shell],IExplorerCommandProvider interface, IExplorerCommandProvider interface [Windows Shell],GetCommands method, IExplorerCommandProvider.GetCommands, IExplorerCommandProvider::GetCommands, _shell_IExplorerCommandProvider_GetCommands, shell.IExplorerCommandProvider_GetCommands, shobjidl_core/IExplorerCommandProvider::GetCommands
 ms.prod: windows
 ms.technology: windows-sdk

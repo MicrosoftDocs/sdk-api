@@ -7,7 +7,7 @@ old-location: gdi\getcharwidth.htm
 old-project: gdi
 ms.assetid: be29c195-cf67-45d5-8a46-ac572afb756d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetCharWidth, GetCharWidth function [Windows GDI], GetCharWidthA, GetCharWidthW, _win32_GetCharWidth, gdi.getcharwidth, wingdi/GetCharWidth, wingdi/GetCharWidthA, wingdi/GetCharWidthW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,29 +70,19 @@ The <b>GetCharWidth</b> function retrieves the widths, in logical coordinates, o
 A handle to the device context.
 
 
-### -param iFirst
+### -param iFirst [in]
 
-TBD
+The first character in the group of consecutive characters.
 
 
-### -param iLast
+### -param iLast [in]
 
-TBD
+The last character in the group of consecutive characters, which must not precede the specified first character.
 
 
 ### -param lpBuffer [out]
 
 A pointer to a buffer that receives the character widths, in logical coordinates.
-
-
-#### - iFirstChar [in]
-
-The first character in the group of consecutive characters.
-
-
-#### - iLastChar [in]
-
-The last character in the group of consecutive characters, which must not precede the specified first character.
 
 
 ## -returns

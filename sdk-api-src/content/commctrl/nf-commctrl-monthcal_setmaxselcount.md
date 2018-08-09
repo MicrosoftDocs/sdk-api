@@ -7,7 +7,7 @@ old-location: controls\MonthCal_SetMaxSelCount.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setmaxselcount.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: MonthCal_SetMaxSelCount, MonthCal_SetMaxSelCount macro [Windows Controls], _win32_MonthCal_SetMaxSelCount, _win32_MonthCal_SetMaxSelCount_cpp, commctrl/MonthCal_SetMaxSelCount, controls.MonthCal_SetMaxSelCount, controls._win32_MonthCal_SetMaxSelCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the maximum number of days that can be selected in a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761008(v=VS.85).aspx">MCM_SETMAXSELCOUNT</a> message explicitly. 
+Sets the maximum number of days that can be selected in a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761008(v=VS.85).aspx">MCM_SETMAXSELCOUNT</a> message explicitly. 
 
 
 ## -parameters
@@ -60,26 +60,12 @@ Sets the maximum number of days that can be selected in a month calendar control
 
 ### -param hmc
 
-TBD
-
-
-### -param n
-
-TBD
-
-
-
-
-
-
-#### - hwndMC
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to a month calendar control. 
 
 
-#### - iMax
+### -param n
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 

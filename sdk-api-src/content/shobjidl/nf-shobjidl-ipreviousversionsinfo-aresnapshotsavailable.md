@@ -7,7 +7,7 @@ old-location: shell\IPreviousVersionsInfo_AreSnapshotsAvailable.htm
 old-project: shell
 ms.assetid: 03a0b218-4683-42b2-9080-9b92701dff1e
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: AreSnapshotsAvailable, AreSnapshotsAvailable method [Windows Shell], AreSnapshotsAvailable method [Windows Shell],IPreviousVersionsInfo interface, FALSE, IPreviousVersionsInfo interface [Windows Shell],AreSnapshotsAvailable method, IPreviousVersionsInfo.AreSnapshotsAvailable, IPreviousVersionsInfo::AreSnapshotsAvailable, TRUE, _shell_IPreviousVersionsInfo_AreSnapshotsAvailable, shell.IPreviousVersionsInfo_AreSnapshotsAvailable, shobjidl/IPreviousVersionsInfo::AreSnapshotsAvailable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,8 +68,7 @@ A null-terminated Unicode string containing the fully qualified path to a file o
 
 
 
-<div class="alert"><b>Note</b>  
-            Only paths to files and folders stored on a Windows Server 2003 volume are currently supported.
+<div class="alert"><b>Note</b>  Only paths to files and folders stored on a Windows Server 2003 volume are currently supported.
           </div>
 <div> </div>
 

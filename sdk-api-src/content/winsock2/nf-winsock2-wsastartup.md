@@ -4,10 +4,10 @@ title: WSAStartup function
 author: windows-sdk-content
 description: Initiates use of the Winsock DLL by a process.
 old-location: winsock\wsastartup_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 08299592-867c-491d-9769-d16602133659
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSAStartup, WSAStartup function [Winsock], _win32_wsastartup_2, winsock.wsastartup_2, winsock/WSAStartup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,15 +62,20 @@ The
 
 
 
-#### - wVersionRequested [in]
+### -param wVersionRequested
 
-The highest version of Windows Sockets specification that the caller can use. The high-order byte specifies the minor version number; the low-order byte specifies the major version number.
+TBD
 
 
 ### -param lpWSAData [out]
 
 A pointer to the 
 <a href="https://msdn.microsoft.com/c3c4c0d6-c8b3-4991-bedb-f45816cc8160">WSADATA</a> data structure that is to receive details of the Windows Sockets implementation.
+
+
+#### - wVersionRequired [in]
+
+The highest version of Windows Sockets specification that the caller can use. The high-order byte specifies the minor version number; the low-order byte specifies the major version number.
 
 
 ## -returns

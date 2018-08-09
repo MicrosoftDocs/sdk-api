@@ -7,7 +7,7 @@ old-location: xps\ixpsomstoryfragmentsresource_setcontent.htm
 old-project: printdocs
 ms.assetid: 861d9688-932b-4830-b52b-acd505524608
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging],SetContent method, IXpsOMStoryFragmentsResource.SetContent, IXpsOMStoryFragmentsResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMStoryFragmentsResource interface, xps.ixpsomstoryfragmentsresource_setcontent, xpsobjectmodel/IXpsOMStoryFragmentsResource::SetContent
 ms.prod: windows
 ms.technology: windows-sdk

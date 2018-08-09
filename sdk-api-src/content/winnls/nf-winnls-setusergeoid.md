@@ -7,7 +7,7 @@ old-location: intl\setusergeoid.htm
 old-project: Intl
 ms.assetid: 2e201a7e-6767-4908-b98c-f5b7f0544e60
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetUserGeoID, SetUserGeoID function [Internationalization for Windows Applications], _win32_SetUserGeoID, intl.setusergeoid, winnls/SetUserGeoID
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: eaphost\eappeerqueryuserblobfrominteractiveuiinputfields.htm
 old-project: eaphost
 ms.assetid: decfe3cd-642e-41c8-9bec-d079a0f74504
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapPeerQueryUserBlobFromCredentialInputFields, EapPeerQueryUserBlobFromCredentialInputFields function [EAPHost], eaphost.eappeerqueryuserblobfrominteractiveuiinputfields, eapmethodpeerapis/EapPeerQueryUserBlobFromCredentialInputFields
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,30 +90,20 @@ A pointer to an opaque byte buffer that contains the EAP SSO configuration data 
 A pointer to an <a href="https://msdn.microsoft.com/e8a2e934-1ded-4159-8cd8-7aeb75ce743a">EAP_CONFIG_INPUT_FIELD_ARRAY</a> structure that contains the input fields to display to the supplicant user. The <b>pwszData</b> fields in the individual <a href="https://msdn.microsoft.com/2b321f26-fb40-44e5-b483-52d85cb54c8c">EAP_CONFIG_INPUT_FIELD_DATA</a> elements are initialized to <b>NULL</b>.
 
 
-### -param pdwUserBlobSize
+### -param pdwUserBlobSize [in, out]
 
-TBD
+A pointer to a buffer that contains the size, in bytes, of the opaque user configuration data BLOB in <i>ppUserBlob</i>.
 
 
-### -param ppbUserBlob
+### -param ppbUserBlob [in, out]
 
-TBD
+A pointer that contains the opaque user data BLOB. 
+
 
 
 ### -param ppEapError [out]
 
  A pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
-
-
-#### - pdwUsersBlobSize [in, out]
-
-A pointer to a buffer that contains the size, in bytes, of the opaque user configuration data BLOB in <i>ppUserBlob</i>.
-
-
-#### - ppUserBlob [in, out]
-
-A pointer that contains the opaque user data BLOB. 
-
 
 
 ## -remarks

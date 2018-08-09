@@ -7,7 +7,7 @@ old-location: adsi\ads_path.htm
 old-project: ADSI
 ms.assetid: b8393a81-3e2a-4e59-a6be-def779efbe82
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: "*PADS_PATH, ADS_PATH, ADS_PATH structure [ADSI], PADS_PATH, PADS_PATH structure pointer [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0005, _ds_ads_path, adsi.ads__path, adsi.ads_path, iads/ADS_PATH, iads/PADS_PATH"
 ms.prod: windows
 ms.technology: windows-sdk

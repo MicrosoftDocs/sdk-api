@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccomponentinfo_getsigningstatus.htm
 old-project: wic
 ms.assetid: a6d13240-3750-4450-8069-7e05dd89f2ab
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetSigningStatus, GetSigningStatus method [Windows Imaging Component], GetSigningStatus method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetSigningStatus method, IWICComponentInfo.GetSigningStatus, IWICComponentInfo::GetSigningStatus, _wic_codec_iwiccomponentinfo_getsigningstatus, wic._wic_codec_iwiccomponentinfo_getsigningstatus, wincodec/IWICComponentInfo::GetSigningStatus
 ms.prod: windows
 ms.technology: windows-sdk

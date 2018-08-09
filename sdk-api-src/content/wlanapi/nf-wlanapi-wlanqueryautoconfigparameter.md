@@ -4,10 +4,10 @@ title: WlanQueryAutoConfigParameter function
 author: windows-sdk-content
 description: Queries for the parameters of the auto configuration service.
 old-location: nwifi\wlanqueryautoconfigparameter.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: 30fcfcf1-0784-4f20-b8c7-311227d0cfca
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WlanQueryAutoConfigParameter, WlanQueryAutoConfigParameter function [NativeWIFI], nwifi.wlanqueryautoconfigparameter, wlan_autoconf_opcode_allow_explicit_creds, wlan_autoconf_opcode_allow_virtual_station_extensibility, wlan_autoconf_opcode_block_period, wlan_autoconf_opcode_only_use_gp_profiles_for_allowed_networks, wlan_autoconf_opcode_power_setting, wlan_autoconf_opcode_show_denied_networks, wlanapi/WlanQueryAutoConfigParameter
 ms.prod: windows
 ms.technology: windows-sdk

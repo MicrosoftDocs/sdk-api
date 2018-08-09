@@ -7,7 +7,7 @@ old-location: mmc\mmcfreenotifyhandle.htm
 old-project: MMC
 ms.assetid: 92802835-4324-4678-be9c-51dc9ca27576
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: MMCFreeNotifyHandle, MMCFreeNotifyHandle callback, MMCFreeNotifyHandle callback function [MMC], _slate_mmcfreenotifyhandle, mmc.mmcfreenotifyhandle, mmc/MMCFreeNotifyHandle
 ms.prod: windows
 ms.technology: windows-sdk

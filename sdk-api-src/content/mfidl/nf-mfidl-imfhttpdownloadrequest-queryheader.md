@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_queryheader.htm
 old-project: medfound
 ms.assetid: BFAE5257-0BE8-47F3-B3CD-490885E60065
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFHttpDownloadRequest interface [Media Foundation],QueryHeader method, IMFHttpDownloadRequest.QueryHeader, IMFHttpDownloadRequest::QueryHeader, QueryHeader, QueryHeader method [Media Foundation], QueryHeader method [Media Foundation],IMFHttpDownloadRequest interface, mf.imfhttpdownloadrequest_queryheader, mfidl/IMFHttpDownloadRequest::QueryHeader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ Set to the value of the requested header, not including the carriage return or l
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -97,8 +96,7 @@ Set to the value of the requested header, not including the carriage return or l
 </dl>
 </td>
 <td width="60%">
-
-                Successfully returned the value of the specified header with the specified index.
+Successfully returned the value of the specified header with the specified index.
 
 </td>
 </tr>
@@ -109,8 +107,7 @@ Set to the value of the requested header, not including the carriage return or l
 </dl>
 </td>
 <td width="60%">
-
-                There is insufficient memory to complete the operation.
+There is insufficient memory to complete the operation.
 
 </td>
 </tr>
@@ -121,8 +118,7 @@ Set to the value of the requested header, not including the carriage return or l
 </dl>
 </td>
 <td width="60%">
-
-                The <i>ppszHeaderValue</i> parameter is an invalid pointer.
+The <i>ppszHeaderValue</i> parameter is an invalid pointer.
 
 </td>
 </tr>
@@ -133,8 +129,7 @@ Set to the value of the requested header, not including the carriage return or l
 </dl>
 </td>
 <td width="60%">
-
-                The <i>dwIndex</i> parameter value is out of range.
+The <i>dwIndex</i> parameter value is out of range.
 
 </td>
 </tr>

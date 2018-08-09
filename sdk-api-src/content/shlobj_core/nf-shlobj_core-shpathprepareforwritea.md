@@ -7,7 +7,7 @@ old-location: shell\SHPathPrepareForWrite.htm
 old-project: shell
 ms.assetid: 1b65e34f-2c31-421b-9d27-ed263dfb372b
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHPPFW_ASKDIRCREATE, SHPPFW_DEFAULT, SHPPFW_DIRCREATE, SHPPFW_IGNOREFILENAME, SHPPFW_MEDIACHECKONLY, SHPPFW_NONE, SHPPFW_NOWRITECHECK, SHPathPrepareForWrite, SHPathPrepareForWrite function [Windows Shell], SHPathPrepareForWriteA, SHPathPrepareForWriteW, _shell_shpathprepareforwrite, shell.SHPathPrepareForWrite, shlobj_core/SHPathPrepareForWrite, shlobj_core/SHPathPrepareForWriteA, shlobj_core/SHPathPrepareForWriteW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,9 +70,9 @@ A handle to a window that specifies the parent window to be used for any user in
 
 ### -param punkEnableModless [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface that specifies the <a href="https://msdn.microsoft.com/library/ms691299(v=VS.85).aspx">IOleInPlaceActiveObject</a> object that implements the <a href="https://msdn.microsoft.com/library/Bb774829(v=VS.85).aspx">EnableModeless</a> method.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface that specifies the <a href="https://msdn.microsoft.com/en-us/library/ms691299(v=VS.85).aspx">IOleInPlaceActiveObject</a> object that implements the <a href="_ole_ioleinplaceactiveobject_enablemodeless">EnableModeless</a> method.
 
 
 ### -param pszPath [in]

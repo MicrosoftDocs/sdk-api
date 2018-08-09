@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturerequest_setsigninglocale.htm
 old-project: printdocs
 ms.assetid: 03d93f1a-2d49-4179-b706-20a688e2467d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetSigningLocale method, IXpsSignatureRequest.SetSigningLocale, IXpsSignatureRequest::SetSigningLocale, SetSigningLocale, SetSigningLocale method [XPS Documents and Packaging], SetSigningLocale method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setsigninglocale, xpsdigitalsignature/IXpsSignatureRequest::SetSigningLocale
 ms.prod: windows
 ms.technology: windows-sdk

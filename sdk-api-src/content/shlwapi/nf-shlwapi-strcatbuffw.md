@@ -7,7 +7,7 @@ old-location: shell\StrCatBuff.htm
 old-project: shell
 ms.assetid: ce8c002f-f4f8-4b5f-a9e2-7bcd21f8808c
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: StrCatBuff, StrCatBuff function [Windows Shell], StrCatBuffA, StrCatBuffW, _win32_StrCatBuff, shell.StrCatBuff, shlwapi/StrCatBuff, shlwapi/StrCatBuffA, shlwapi/StrCatBuffW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,7 +103,7 @@ Returns a pointer to the destination string.
 
 
 
-<b>Security Warning:  </b>Using this function incorrectly can compromise the security of your application. The final string is not guaranteed to be null-terminated. Consider using one of the following alternatives: <a href="https://msdn.microsoft.com/library/ms647495(v=VS.85).aspx">StringCbCat</a>, <a href="https://msdn.microsoft.com/library/ms647496(v=VS.85).aspx">StringCbCatEx</a>, <a href="https://msdn.microsoft.com/library/ms647497(v=VS.85).aspx">StringCbCatN</a>, <a href="https://msdn.microsoft.com/library/ms647498(v=VS.85).aspx">StringCbCatNEx</a>, <a href="https://msdn.microsoft.com/library/ms647518(v=VS.85).aspx">StringCchCat</a>, <a href="https://msdn.microsoft.com/library/ms647520(v=VS.85).aspx">StringCchCatEx</a>, <a href="https://msdn.microsoft.com/library/ms647522(v=VS.85).aspx">StringCchCatN</a>, or <a href="https://msdn.microsoft.com/library/ms647524(v=VS.85).aspx">StringCchCatNEx</a>. You should review <a href="https://msdn.microsoft.com/eca31652-2659-456d-b082-c84d6fd39094">Security Considerations: Microsoft Windows Shell</a> before continuing.
+<b>Security Warning:  </b>Using this function incorrectly can compromise the security of your application. The final string is not guaranteed to be null-terminated. Consider using one of the following alternatives: <a href="https://msdn.microsoft.com/en-us/library/ms647495(v=VS.85).aspx">StringCbCat</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647496(v=VS.85).aspx">StringCbCatEx</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647497(v=VS.85).aspx">StringCbCatN</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647498(v=VS.85).aspx">StringCbCatNEx</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647518(v=VS.85).aspx">StringCchCat</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647520(v=VS.85).aspx">StringCchCatEx</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647522(v=VS.85).aspx">StringCchCatN</a>, or <a href="https://msdn.microsoft.com/en-us/library/ms647524(v=VS.85).aspx">StringCchCatNEx</a>. You should review <a href="https://msdn.microsoft.com/eca31652-2659-456d-b082-c84d6fd39094">Security Considerations: Microsoft Windows Shell</a> before continuing.
 
 
 

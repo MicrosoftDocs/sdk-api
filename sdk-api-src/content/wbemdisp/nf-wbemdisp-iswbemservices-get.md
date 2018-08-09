@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_get.htm
 old-project: WmiSdk
 ms.assetid: 3071aeb2-adab-47aa-a10c-9796766bb630
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: Get, Get method [Windows Management Instrumentation], Get method [Windows Management Instrumentation],ISWbemServices interface, Get method [Windows Management Instrumentation],SWbemServices object, ISWbemServices interface [Windows Management Instrumentation],Get method, ISWbemServices.Get, ISWbemServices::Get, SWbemServices object [Windows Management Instrumentation],Get method, SWbemServices.Get, _hmm_swbemservices.get, wbemFlagUseAmendedQualifiers, wmi.swbemservices_get
 ms.prod: windows
 ms.technology: windows-sdk

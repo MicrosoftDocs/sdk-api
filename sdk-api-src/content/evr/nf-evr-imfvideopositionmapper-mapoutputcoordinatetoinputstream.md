@@ -7,7 +7,7 @@ old-location: mf\imfvideopositionmapper_mapoutputcoordinatetoinputstream.htm
 old-project: medfound
 ms.assetid: d57aed5f-90cb-47e7-af80-f3573a3b8256
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFVideoPositionMapper interface [Media Foundation],MapOutputCoordinateToInputStream method, IMFVideoPositionMapper.MapOutputCoordinateToInputStream, IMFVideoPositionMapper::MapOutputCoordinateToInputStream, MapOutputCoordinateToInputStream, MapOutputCoordinateToInputStream method [Media Foundation], MapOutputCoordinateToInputStream method [Media Foundation],IMFVideoPositionMapper interface, d57aed5f-90cb-47e7-af80-f3573a3b8256, evr/IMFVideoPositionMapper::MapOutputCoordinateToInputStream, mf.imfvideopositionmapper_mapoutputcoordinatetoinputstream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,43 +64,37 @@ Maps output image coordinates to input image coordinates. This method provides t
 
 ### -param xOut [in]
 
-
-            X-coordinate of the output image, normalized to the range [0...1].
+X-coordinate of the output image, normalized to the range [0...1].
           
 
 
 ### -param yOut [in]
 
-
-            Y-coordinate of the output image, normalized to the range [0...1].
+Y-coordinate of the output image, normalized to the range [0...1].
           
 
 
 ### -param dwOutputStreamIndex [in]
 
-
-            Output stream index for the coordinate mapping.
+Output stream index for the coordinate mapping.
           
 
 
 ### -param dwInputStreamIndex [in]
 
-
-            Input stream index for the coordinate mapping.
+Input stream index for the coordinate mapping.
           
 
 
 ### -param pxIn [out]
 
-
-            Receives the mapped x-coordinate of the input image, normalized to the range [0...1].
+Receives the mapped x-coordinate of the input image, normalized to the range [0...1].
           
 
 
 ### -param pyIn [out]
 
-
-            Receives the mapped y-coordinate of the input image, normalized to the range [0...1].
+Receives the mapped y-coordinate of the input image, normalized to the range [0...1].
           
 
 
@@ -122,8 +116,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -135,8 +128,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The video renderer has been shut down.
+The video renderer has been shut down.
               
 
 </td>

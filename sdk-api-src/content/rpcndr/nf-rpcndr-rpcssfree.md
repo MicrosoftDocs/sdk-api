@@ -7,7 +7,7 @@ old-location: rpc\rpcssfree.htm
 old-project: rpc
 ms.assetid: f004ea19-3d1c-485f-99be-da59cbe478d2
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcSsFree, RpcSsFree function [RPC], _rpc_rpcssfree, rpc.rpcssfree, rpcndr/RpcSsFree
 ms.prod: windows
 ms.technology: windows-sdk

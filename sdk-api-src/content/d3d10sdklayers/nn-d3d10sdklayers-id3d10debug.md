@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10debug.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 9243084e-1ae3-39f6-3e6b-d8150af7e0cc, ID3D10Debug, ID3D10Debug interface [Direct3D 10], ID3D10Debug interface [Direct3D 10],described, d3d10sdklayers/ID3D10Debug, direct3d10.id3d10debug
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-A debug interface controls debug settings, validates pipeline state and can only be used if the <a href="https://msdn.microsoft.com/library/Bb205068(v=VS.85).aspx">debug layer</a> is turned on.
+A debug interface controls debug settings, validates pipeline state and can only be used if the <a href="https://msdn.microsoft.com/en-us/library/Bb205068(v=VS.85).aspx">debug layer</a> is turned on.
 
 
 ## -inheritance
@@ -71,7 +71,7 @@ The <b>ID3D10Debug</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173517(v=VS.85).aspx">GetFeatureMask</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173517(v=VS.85).aspx">GetFeatureMask</a>
 </td>
 <td align="left" width="63%">
 Get a bitfield of flags that indicates which debug features are on or off.
@@ -80,25 +80,25 @@ Get a bitfield of flags that indicates which debug features are on or off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173518(v=VS.85).aspx">GetPresentPerRenderOpDelay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173518(v=VS.85).aspx">GetPresentPerRenderOpDelay</a>
 </td>
 <td align="left" width="63%">
-Get the number of milliseconds to sleep after <a href="https://msdn.microsoft.com/library/Bb174576(v=VS.85).aspx">Present</a> is called.
+Get the number of milliseconds to sleep after <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">Present</a> is called.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173519(v=VS.85).aspx">GetSwapChain</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173519(v=VS.85).aspx">GetSwapChain</a>
 </td>
 <td align="left" width="63%">
-Get the swap chain that the runtime will use for automatically calling <a href="https://msdn.microsoft.com/library/Bb174576(v=VS.85).aspx">Present</a>.
+Get the swap chain that the runtime will use for automatically calling <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">Present</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173520(v=VS.85).aspx">SetFeatureMask</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173520(v=VS.85).aspx">SetFeatureMask</a>
 </td>
 <td align="left" width="63%">
 Set a bitfield of flags that will turn debug features on and off.
@@ -107,25 +107,25 @@ Set a bitfield of flags that will turn debug features on and off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173521(v=VS.85).aspx">SetPresentPerRenderOpDelay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173521(v=VS.85).aspx">SetPresentPerRenderOpDelay</a>
 </td>
 <td align="left" width="63%">
-Set the number of milliseconds to sleep after <a href="https://msdn.microsoft.com/library/Bb174576(v=VS.85).aspx">Present</a> is called.
+Set the number of milliseconds to sleep after <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">Present</a> is called.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173522(v=VS.85).aspx">SetSwapChain</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173522(v=VS.85).aspx">SetSwapChain</a>
 </td>
 <td align="left" width="63%">
-Set a swap chain that the runtime will use for automatically calling <a href="https://msdn.microsoft.com/library/Bb174576(v=VS.85).aspx">Present</a>.
+Set a swap chain that the runtime will use for automatically calling <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">Present</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173523(v=VS.85).aspx">Validate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173523(v=VS.85).aspx">Validate</a>
 </td>
 <td align="left" width="63%">
 Check the validity of pipeline state.
@@ -139,7 +139,7 @@ Check the validity of pipeline state.
 
 
 
-This interface is obtained by querying it from the <a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a> using <a href="http://msdn.microsoft.com/en-us/library/ms682521(VS.85).aspx">IUnknown::QueryInterface</a>.
+This interface is obtained by querying it from the <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a> using <a href="http://msdn.microsoft.com/en-us/library/ms682521(VS.85).aspx">IUnknown::QueryInterface</a>.
 
 
 
@@ -149,7 +149,7 @@ This interface is obtained by querying it from the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
  
 
  

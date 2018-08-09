@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservice_sendcommand.htm
 old-project: wpd_sdk
 ms.assetid: c6c42347-145c-4be7-bea6-34b13c211cb1
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],SendCommand method, IPortableDeviceService.SendCommand, IPortableDeviceService::SendCommand, SendCommand, SendCommand method [Windows Portable Devices SDK], SendCommand method [Windows Portable Devices SDK],IPortableDeviceService interface, portabledeviceapi/IPortableDeviceService::SendCommand, wpdsdk.iportabledeviceservice_sendcommand
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,14 +93,14 @@ This method should only be used to send standard WPD commands to the service. To
 This method may fail even though it returns <b>S_OK</b> as its <b>HRESULT</b> value. To determine if a command succeeded, an application should always examine the properties referenced by the <i>ppResults</i> parameter:
 
 <ul>
-<li>The <a href="https://msdn.microsoft.com/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_HRESULT</a> property indicates if the command succeeded.</li>
-<li>If the command failed, the <a href="https://msdn.microsoft.com/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_DRIVER_ERROR_CODE</a> property will contain driver-specific error codes.</li>
+<li>The <a href="https://msdn.microsoft.com/en-us/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_HRESULT</a> property indicates if the command succeeded.</li>
+<li>If the command failed, the <a href="https://msdn.microsoft.com/en-us/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_DRIVER_ERROR_CODE</a> property will contain driver-specific error codes.</li>
 </ul>
 The object referenced by the <i>pParameters</i> parameter must specify at least these properties:
 
 <ul>
-<li><a href="https://msdn.microsoft.com/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_COMMAND_CATEGORY</a>, which should contain a command category, such as the <b>fmtid</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff597754">WPD_COMMAND_COMMON_RESET_DEVICE</a> property</li>
-<li><a href="https://msdn.microsoft.com/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_COMMAND_ID</a>, which should contain a command identifier, such as the <b>pid</b> member of the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff597754">WPD_COMMAND_COMMON_RESET_DEVICE</a> property.</li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_COMMAND_CATEGORY</a>, which should contain a command category, such as the <b>fmtid</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff597754">WPD_COMMAND_COMMON_RESET_DEVICE</a> property</li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_COMMAND_ID</a>, which should contain a command identifier, such as the <b>pid</b> member of the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff597754">WPD_COMMAND_COMMON_RESET_DEVICE</a> property.</li>
 </ul>
 
 

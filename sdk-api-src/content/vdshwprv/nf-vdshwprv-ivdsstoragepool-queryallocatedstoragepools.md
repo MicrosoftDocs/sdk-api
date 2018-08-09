@@ -4,10 +4,10 @@ title: IVdsStoragePool::QueryAllocatedStoragePools
 author: windows-sdk-content
 description: Returns an object that enumerates the allocated storage pools that are managed by the provider.
 old-location: base\ivdsstoragepool_queryallocatedstoragepools.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 7b6c447a-35e1-48ff-951c-b13ff5584c76
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IVdsStoragePool interface,QueryAllocatedStoragePools method, IVdsStoragePool.QueryAllocatedStoragePools, IVdsStoragePool::QueryAllocatedStoragePools, QueryAllocatedStoragePools, QueryAllocatedStoragePools method, QueryAllocatedStoragePools method,IVdsStoragePool interface, base.ivdsstoragepool_queryallocatedstoragepools, vds/IVdsStoragePool::QueryAllocatedStoragePools, vdshwprv/IVdsStoragePool::QueryAllocatedStoragePools
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_setfuncdocstring.htm
 old-project: automat
 ms.assetid: e2377502-b26f-401f-82f1-d65f739a684f
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetFuncDocString method, ICreateTypeInfo.SetFuncDocString, ICreateTypeInfo::SetFuncDocString, SetFuncDocString, SetFuncDocString method [Automation], SetFuncDocString method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetFuncDocString, automat.icreatetypeinfo_setfuncdocstring, oaidl/ICreateTypeInfo::SetFuncDocString
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfsensordevice_setsensordevicemode.htm
 old-project: medfound
 ms.assetid: 2B0DC098-EA3B-4061-8191-C67BA54663A3
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFSensorDevice interface [Media Foundation],SetSensorDeviceMode method, IMFSensorDevice.SetSensorDeviceMode, IMFSensorDevice::SetSensorDeviceMode, SetSensorDeviceMode, SetSensorDeviceMode method [Media Foundation], SetSensorDeviceMode method [Media Foundation],IMFSensorDevice interface, mf.imfsensordevice_setsensordevicemode, mfidl/IMFSensorDevice::SetSensorDeviceMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ A member of the <a href="https://msdn.microsoft.com/D405AB48-13EC-4859-91B6-0DB7
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ A member of the <a href="https://msdn.microsoft.com/D405AB48-13EC-4859-91B6-0DB7
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -100,8 +98,7 @@ A member of the <a href="https://msdn.microsoft.com/D405AB48-13EC-4859-91B6-0DB7
 </dl>
 </td>
 <td width="60%">
-
-                The sensor group has not been initialized.
+The sensor group has not been initialized.
 
 </td>
 </tr>

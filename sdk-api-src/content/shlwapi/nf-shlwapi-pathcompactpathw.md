@@ -7,7 +7,7 @@ old-location: shell\PathCompactPath.htm
 old-project: shell
 ms.assetid: b8184c98-1f86-4714-baf8-af4ef3e71cf2
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PathCompactPath, PathCompactPath function [Windows Shell], PathCompactPathA, PathCompactPathW, _win32_PathCompactPath, shell.PathCompactPath, shlwapi/PathCompactPath, shlwapi/PathCompactPathA, shlwapi/PathCompactPathW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,9 +70,11 @@ Type: <b>HDC</b>
 A handle to the device context used for font metrics. This value can be <b>NULL</b>.
 
 
-### -param pszPath
+### -param pszPath [in, out]
 
-TBD
+Type: <b>LPTSTR</b>
+
+A pointer to a null-terminated string of length MAX_PATH that contains the path to be modified. On return, this buffer will contain the modified string.
 
 
 ### -param dx [in]
@@ -80,13 +82,6 @@ TBD
 Type: <b>UINT</b>
 
 The width, in pixels, in which the string must fit.
-
-
-#### - lpszPath [in, out]
-
-Type: <b>LPTSTR</b>
-
-A pointer to a null-terminated string of length MAX_PATH that contains the path to be modified. On return, this buffer will contain the modified string.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: winprog\ndrcomplexstructmarshall.htm
 old-project: devnotes
 ms.assetid: 722c274e-1c66-4b46-b243-02eeaaad1f6b
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: NdrComplexStructMarshall, NdrComplexStructMarshall function [Windows API], rpcndr/NdrComplexStructMarshall, winprog.ndrcomplexstructmarshall
 ms.prod: windows
 ms.technology: windows-sdk

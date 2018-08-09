@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8_settypeinfo.htm
 old-project: hid
 ms.assetid: 5649ff3d-b7af-489b-b6d0-1252ee4ceb76
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/30/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetTypeInfo method, IDirectInputJoyConfig8.SetTypeInfo, IDirectInputJoyConfig8::SetTypeInfo, SetTypeInfo, SetTypeInfo method [Human Input Devices], SetTypeInfo method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_7cfc73ae-57b7-45a0-8466-c52fe481b980.xml, dinputd/IDirectInputJoyConfig8::SetTypeInfo, hid.idirectinputjoyconfig8_settypeinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,6 +65,16 @@ The <b>IDirectInputJoyConfig8::SetTypeInfo </b>method creates a new joystick typ
 
 
 
+#### - pwszTypeName
+
+Points to the name of the type. The name of the type cannot exceed MAX_JOYSTRING characters, including the terminating null character. If the type name does not already exist, then it is created. You cannot change the type information for a predefined type. The name cannot begin with a "#" character. Types beginning with "#" are reserved by DirectInput. 
+
+
+#### - pjti
+
+Points to a structure that receives information about the joystick type. 
+
+
 #### - dwFlags
 
 Specifies the parts of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538513">DIJOYTYPEINFO</a> structure pointed to by <i>pjti</i> that contain values to be set. 
@@ -94,16 +104,6 @@ Indicates that the display name for the joystick type is valid.
 #### DITC_CALLOUT
 
 Indicates that the callout for the joystick type is valid. 
-
-
-#### - pjti
-
-Points to a structure that receives information about the joystick type. 
-
-
-#### - pwszTypeName
-
-Points to the name of the type. The name of the type cannot exceed MAX_JOYSTRING characters, including the terminating null character. If the type name does not already exist, then it is created. You cannot change the type information for a predefined type. The name cannot begin with a "#" character. Types beginning with "#" are reserved by DirectInput. 
 
 
 ## -returns

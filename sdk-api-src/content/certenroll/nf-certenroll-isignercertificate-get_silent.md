@@ -7,7 +7,7 @@ old-location: security\isignercertificate_silent_property.htm
 old-project: seccertenroll
 ms.assetid: b598d4a2-d53a-4091-a059-f9674acf9318
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: ISignerCertificate interface [Security],Silent property, ISignerCertificate.Silent, ISignerCertificate.get_Silent, ISignerCertificate::Silent, ISignerCertificate::get_Silent, ISignerCertificate::put_Silent, Silent property [Security], Silent property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::Silent, certenroll/ISignerCertificate::get_Silent, certenroll/ISignerCertificate::put_Silent, get_Silent, security.isignercertificate_silent_property
 ms.prod: windows
 ms.technology: windows-sdk

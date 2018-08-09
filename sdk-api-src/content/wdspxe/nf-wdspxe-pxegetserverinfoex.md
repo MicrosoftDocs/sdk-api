@@ -4,10 +4,10 @@ title: PxeGetServerInfoEx function
 author: windows-sdk-content
 description: Returns information about the PXE server.
 old-location: wds\pxegetserverinfoex.htm
-old-project: Wds
+old-project: wds
 ms.assetid: E0AD1507-3018-42B5-B4DD-E19CC49FD25F
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PXE_GSI_SERVER_DUID, PXE_GSI_TRACE_ENABLED, PxeGetServerInfoEx, PxeGetServerInfoEx function [Windows Deployment Services], wds.pxegetserverinfoex, wdspxe/PxeGetServerInfoEx
 ms.prod: windows
 ms.technology: windows-sdk

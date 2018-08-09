@@ -7,7 +7,7 @@ old-location: intl\immgetcompositionfont.htm
 old-project: Intl
 ms.assetid: c38f424f-84d4-4181-9ada-bbd178a70373
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmGetCompositionFont, ImmGetCompositionFont function [Internationalization for Windows Applications], ImmGetCompositionFontA, ImmGetCompositionFontW, _win32_ImmGetCompositionFont, imm/ImmGetCompositionFont, imm/ImmGetCompositionFontA, imm/ImmGetCompositionFontW, intl.immgetcompositionfont
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,19 +61,14 @@ Retrieves information about the logical font currently used to display character
 
 
 
-### -param HIMC
+### -param HIMC [in]
 
-TBD
+Handle to the input context.
 
 
 ### -param lplf [out]
 
 Pointer to a <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure in which this function retrieves the font information.
-
-
-#### - hIMC [in]
-
-Handle to the input context.
 
 
 ## -returns

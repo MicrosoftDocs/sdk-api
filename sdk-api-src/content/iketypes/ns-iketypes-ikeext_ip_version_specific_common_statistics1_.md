@@ -7,7 +7,7 @@ old-location: fwp\ikeext_ip_version_specific_common_statistics1.htm
 old-project: fwp
 ms.assetid: 58e109fd-8a32-47bd-bc6a-bbe1bb54bc7e
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1, IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1 structure [Filtering], IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1_, fwp.ikeext_ip_version_specific_common_statistics1, iketypes/IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1
 ms.prod: windows
 ms.technology: windows-sdk

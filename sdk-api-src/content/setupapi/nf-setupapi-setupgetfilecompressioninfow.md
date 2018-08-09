@@ -7,7 +7,7 @@ old-location: setup\setupgetfilecompressioninfo.htm
 old-project: SetupApi
 ms.assetid: 68bcfbb3-f0ba-412b-9ed2-e2139099fcf2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupGetFileCompressionInfo, SetupGetFileCompressionInfo function [Setup API], SetupGetFileCompressionInfoA, SetupGetFileCompressionInfoW, _setupapi_setupgetfilecompressioninfo, setup.setupgetfilecompressioninfo, setupapi/SetupGetFileCompressionInfo, setupapi/SetupGetFileCompressionInfoA, setupapi/SetupGetFileCompressionInfoW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,11 +116,6 @@ The source file is compressed with LZ compression.
 The source file is compressed with MSZIP compression.
 
 
-##### - CompressionType.FILE_COMPRESSION_MSZIP
-
-The source file is compressed with MSZIP compression.
-
-
 ##### - CompressionType.FILE_COMPRESSION_NONE
 
 The source file is not compressed with a recognized compression algorithm.
@@ -129,6 +124,11 @@ The source file is not compressed with a recognized compression algorithm.
 ##### - CompressionType.FILE_COMPRESSION_WINLZA
 
 The source file is compressed with LZ compression.
+
+
+##### - CompressionType.FILE_COMPRESSION_MSZIP
+
+The source file is compressed with MSZIP compression.
 
 
 ## -returns

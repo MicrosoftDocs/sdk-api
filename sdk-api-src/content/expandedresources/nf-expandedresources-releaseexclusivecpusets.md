@@ -7,7 +7,7 @@ old-location: gamemode\releaseexclusivecpusets.htm
 old-project: gamemode
 ms.assetid: C30D28CF-1A35-4849-AEC4-74F971C5F9DF
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: ReleaseExclusiveCpuSets, ReleaseExclusiveCpuSets function, expandedresources/ReleaseExclusiveCpuSets, gamemode.releaseexclusivecpusets
 ms.prod: windows
 ms.technology: windows-sdk

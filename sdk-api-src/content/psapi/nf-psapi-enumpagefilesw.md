@@ -7,7 +7,7 @@ old-location: psapi\enumpagefiles.htm
 old-project: psapi
 ms.assetid: 9289fe3c-a7d9-4acb-aeb6-a50de65db0a2
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: EnumPageFiles, EnumPageFiles function [PSAPI], EnumPageFilesA, EnumPageFilesW, K32EnumPageFiles, K32EnumPageFilesA, K32EnumPageFilesW, _win32_enumpagefiles, base.enumpagefiles, psapi.enumpagefiles, psapi/EnumPageFiles, psapi/EnumPageFilesA, psapi/EnumPageFilesW, psapi/K32EnumPageFiles, psapi/K32EnumPageFilesA, psapi/K32EnumPageFilesW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,27 +69,15 @@ Calls the callback routine for each installed pagefile in the system.
 
 
 
-### -param pCallBackRoutine
-
-TBD
-
-
-### -param pContext
-
-TBD
-
-
-
-
-#### - lpContext [in]
-
-The user-defined data passed to the callback routine.
-
-
-#### - pCallbackRoutine [out]
+### -param pCallBackRoutine [out]
 
 A pointer to the routine called for each pagefile. For more information, see 
       <a href="https://msdn.microsoft.com/eb3610fb-2c95-4f7b-973d-8dc41d2829f1">EnumPageFilesProc</a>.
+
+
+### -param pContext [in]
+
+The user-defined data passed to the callback routine.
 
 
 ## -returns

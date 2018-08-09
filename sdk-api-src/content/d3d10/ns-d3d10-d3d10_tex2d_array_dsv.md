@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_tex2d_array_dsv.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2d_array_dsv.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D3D10_TEX2D_ARRAY_DSV, D3D10_TEX2D_ARRAY_DSV structure [Direct3D 10], b74f90e0-46e3-78ef-850f-dc574308fe4b, d3d10/D3D10_TEX2D_ARRAY_DSV, direct3d10.d3d10_tex2d_array_dsv
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Specifies the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">subresource(s)</a> from an array <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">2D textures</a> that are accessible to a depth-stencil view.
+Specifies the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource(s)</a> from an array <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">2D textures</a> that are accessible to a depth-stencil view.
 
 
 ## -struct-fields
@@ -62,14 +62,14 @@ Specifies the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The index of the first mipmap level to use (see <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">mip slice</a>).
+The index of the first mipmap level to use (see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">mip slice</a>).
 
 
 ### -field FirstArraySlice
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The index of the first texture to use in an array of textures (see <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">array slice</a>)
+The index of the first texture to use in an array of textures (see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">array slice</a>)
 
 
 ### -field ArraySize
@@ -83,7 +83,7 @@ Number of textures to use.
 
 
 
-This structure is one member of a depth-stencil-view description (see <a href="https://msdn.microsoft.com/library/Bb205037(v=VS.85).aspx">D3D10_DEPTH_STENCIL_VIEW_DESC</a>).
+This structure is one member of a depth-stencil-view description (see <a href="https://msdn.microsoft.com/en-us/library/Bb205037(v=VS.85).aspx">D3D10_DEPTH_STENCIL_VIEW_DESC</a>).
 
 
 
@@ -93,7 +93,7 @@ This structure is one member of a depth-stencil-view description (see <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
  
 
  

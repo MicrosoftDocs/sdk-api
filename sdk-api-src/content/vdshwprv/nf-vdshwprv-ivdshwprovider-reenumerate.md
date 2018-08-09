@@ -4,10 +4,10 @@ title: IVdsHwProvider::Reenumerate
 author: windows-sdk-content
 description: Discovers newly connected and disconnected subsystems.
 old-location: base\ivdshwprovider_reenumerate.htm
-old-project: VDS
+old-project: vds
 ms.assetid: aeb06a98-8896-446f-abd5-ea40be0bea40
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IVdsHwProvider interface [VDS],Reenumerate method, IVdsHwProvider.Reenumerate, IVdsHwProvider::Reenumerate, Reenumerate, Reenumerate method [VDS], Reenumerate method [VDS],IVdsHwProvider interface, base.ivdshwprovider_reenumerate, vds/IVdsHwProvider::Reenumerate, vdshwprv/IVdsHwProvider::Reenumerate
 ms.prod: windows
 ms.technology: windows-sdk

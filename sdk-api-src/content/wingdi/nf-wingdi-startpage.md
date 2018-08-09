@@ -7,7 +7,7 @@ old-location: gdi\startpage.htm
 old-project: printdocs
 ms.assetid: b2bc0593-5eaf-40af-aa38-fbdfa1ea5f76
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: StartPage, StartPage function [Windows GDI], _win32_StartPage, gdi.startpage, wingdi/StartPage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ The <b>StartPage</b> function prepares the printer driver to accept data.
 
 
 
-### -param hdc
-
-TBD
-
-
-
-
-#### - hDC [in]
+### -param hdc [in]
 
 A handle to the device context for the print job.
 

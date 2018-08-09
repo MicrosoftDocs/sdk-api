@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingwritetagged.htm
 old-project: tracelogging
 ms.assetid: BBDFC2B1-33C6-4D5F-AA7B-91BB2A757B1E
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TraceLoggingWriteTagged, TraceLoggingWriteTagged macro, tracelogging.traceloggingwritetagged, traceloggingactivity/TraceLoggingWriteTagged
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,12 +66,7 @@ The activity must have been started, and must not have been stopped yet.
 The activity that this method will use to tag the event.
 
 
-### -param name
-
-TBD
-
-
-#### - EventName [in]
+### -param name [in]
 
 The name of the event. This must be a string literal and not a variable. It cannot have any embedded nul characters.
 

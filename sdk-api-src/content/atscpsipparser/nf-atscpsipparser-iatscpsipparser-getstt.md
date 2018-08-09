@@ -7,7 +7,7 @@ old-location: mstv\iatscpsipparser_getstt.htm
 old-project: mstv
 ms.assetid: 8aa6476c-9c75-4139-b5bc-6109ff223d98
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetSTT, GetSTT method [Microsoft TV Technologies], GetSTT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetSTT method, IAtscPsipParser.GetSTT, IAtscPsipParser::GetSTT, IAtscPsipParserGetSTT, atscpsipparser/IAtscPsipParser::GetSTT, mstv.iatscpsipparser_getstt
 ms.prod: windows
 ms.technology: windows-sdk

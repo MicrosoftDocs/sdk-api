@@ -7,7 +7,7 @@ old-location: tablet\setcontextpropertyvalue.htm
 old-project: tablet
 ms.assetid: 42b1857d-92ee-456f-aafc-b8780526a137
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 42b1857d-92ee-456f-aafc-b8780526a137, SetContextPropertyValue, SetContextPropertyValue function [Tablet PC], recapis/SetContextPropertyValue, tablet.setcontextpropertyvalue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The handle to the recognizer context.
 
 ### -param pGuid
 
-TBD
+The property to set. Specify a predefined property globally unique identifier (GUID) or application-defined property GUID. For a list of predefined properties, see the recognition <a href="https://msdn.microsoft.com/dcf6bc5a-1b61-48f7-bc7a-f74ae6e2e57e">Property GUIDs</a>.
 
 
 ### -param cbSize
@@ -82,11 +82,6 @@ The size, in bytes, of the <i>pProperty</i> buffer.
 ### -param pProperty
 
 The buffer that contains the property value.
-
-
-#### - pGUID
-
-The property to set. Specify a predefined property globally unique identifier (GUID) or application-defined property GUID. For a list of predefined properties, see the recognition <a href="https://msdn.microsoft.com/dcf6bc5a-1b61-48f7-bc7a-f74ae6e2e57e">Property GUIDs</a>.
 
 
 ## -returns

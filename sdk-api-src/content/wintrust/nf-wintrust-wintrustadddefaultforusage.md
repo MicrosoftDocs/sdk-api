@@ -4,10 +4,10 @@ title: WintrustAddDefaultForUsage function
 author: windows-sdk-content
 description: Specifies the default usage identifier and callback information for a provider.
 old-location: security\wintrustadddefaultforusage.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 511D05BD-0F8C-45B8-A1B0-D3C7AAFECCFC
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WintrustAddDefaultForUsage, WintrustAddDefaultForUsage function [Security], security.wintrustadddefaultforusage, wintrust/WintrustAddDefaultForUsage
 ms.prod: windows
 ms.technology: windows-sdk

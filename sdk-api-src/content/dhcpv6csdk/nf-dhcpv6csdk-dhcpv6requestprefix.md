@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6requestprefix.htm
 old-project: dhcp
 ms.assetid: 60f18e54-a0a4-4fbe-a416-16b924ce4616
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Dhcpv6RequestPrefix, Dhcpv6RequestPrefix function [DHCP], dhcp.dhcpv6requestprefix, dhcpv6csdk/Dhcpv6RequestPrefix
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,10 +63,12 @@ The <b>Dhcpv6RequestPrefix</b> function requests a specific prefix.
 Name of the adapter on which the prefix request must be sent.
 
 
-### -param pclassId
+### -param pclassId [in]
 
-TBD
+Pointer to a <a href="https://msdn.microsoft.com/90dbc386-02d9-4631-8af3-edd34537fefc">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to  send on the wire.
 
+<div class="alert"><b>Note</b>  DHCPv6 Option Code 15 (0x000F) is not supported by this API. Typically, the User Class option is used by a client to identify the type or category of user or application it represents. A server selects the configuration information for the client based on the classes identified in this option.</div>
+<div> </div>
 
 ### -param prefixleaseInfo [in, out]
 
@@ -105,13 +107,6 @@ The caller must follow these considerations when assigning the values of the <b>
 
 Contains the number of seconds a requesting application needs to wait before calling the <a href="https://msdn.microsoft.com/e4eec40c-0e95-47f7-b102-daa63e5a8da0">Dhcpv6RenewPrefix</a> function to renew its acquired prefixes.  A value of 0xFFFFFFFF indicates that the application does not need to renew its lease.
 
-
-#### - classId [in]
-
-Pointer to a <a href="https://msdn.microsoft.com/90dbc386-02d9-4631-8af3-edd34537fefc">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to  send on the wire.
-
-<div class="alert"><b>Note</b>  DHCPv6 Option Code 15 (0x000F) is not supported by this API. Typically, the User Class option is used by a client to identify the type or category of user or application it represents. A server selects the configuration information for the client based on the classes identified in this option.</div>
-<div> </div>
 
 ## -returns
 

@@ -7,7 +7,7 @@ old-location: display\floatobj_sub.htm
 old-project: display
 ms.assetid: 0ba6edfa-2de6-4eaa-8853-0e20c01cedf8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: FLOATOBJ_Sub, FLOATOBJ_Sub function [Display Devices], display.floatobj_sub, gdifncs_b1e31de5-5ada-4dc0-9946-a758cae47594.xml, winddi/FLOATOBJ_Sub
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ TBD
 
 
 
-#### - pf [in, out]
+#### - [in, out]
 
 Pointer to the first FLOATOBJ operand. When the function returns, *<i>pf</i> will be reset to the value (*<i>pf</i> - *<i>pf1</i>).
 

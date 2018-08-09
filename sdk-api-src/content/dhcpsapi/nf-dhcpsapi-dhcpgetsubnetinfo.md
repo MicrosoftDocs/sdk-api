@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetsubnetinfo.htm
 old-project: dhcp
 ms.assetid: 0e511993-a9c3-445b-bafc-3d66182ee32d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpGetSubnetInfo, DhcpGetSubnetInfo function [DHCP], dhcp.dhcpgetsubnetinfo, dhcpsapi/DhcpGetSubnetInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpGetSubnetInfo</b> function returns information on a specific subnet.
+The <b>DhcpGetSubnetInfo</b> function returns information on a specific subnet.
 
 
 ## -parameters
@@ -103,8 +102,7 @@ This function uses host byte ordering for all <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/030b4743-7558-493c-931c-1ad28a6b435a">
-        DHCP_SUBNET_INFO</a>
+<a href="https://msdn.microsoft.com/030b4743-7558-493c-931c-1ad28a6b435a">DHCP_SUBNET_INFO</a>
  
 
  

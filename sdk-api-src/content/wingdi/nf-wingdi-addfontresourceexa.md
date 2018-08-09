@@ -7,7 +7,7 @@ old-location: gdi\addfontresourceex.htm
 old-project: gdi
 ms.assetid: eaf8ebf0-1b06-4a09-a842-83540245a117
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ".fnt, .fon, .fot, .mmm, .otf, .pfb, .pfm, .ttc, .ttf, AddFontResourceEx, AddFontResourceEx function [Windows GDI], AddFontResourceExA, AddFontResourceExW, FR_NOT_ENUM, FR_PRIVATE, _win32_AddFontResourceEx, gdi.addfontresourceex, wingdi/AddFontResourceEx, wingdi/AddFontResourceExA, wingdi/AddFontResourceExW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,52 +63,7 @@ The <b>AddFontResourceEx</b> function adds the font resource from the specified 
 
 
 
-### -param name
-
-TBD
-
-
-### -param fl [in]
-
-The characteristics of the font to be added to the system. This parameter can be one of the following values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="FR_PRIVATE"></a><a id="fr_private"></a><dl>
-<dt><b>FR_PRIVATE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Specifies that only the process that called the <b>AddFontResourceEx</b> function can use this font. When the font name matches a public font, the private font will be chosen. When the process terminates, the system will remove all fonts installed by the process with the <b>AddFontResourceEx</b> function.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FR_NOT_ENUM"></a><a id="fr_not_enum"></a><dl>
-<dt><b>FR_NOT_ENUM</b></dt>
-</dl>
-</td>
-<td width="60%">
-Specifies that no process, including the process that called the <b>AddFontResourceEx</b> function, can enumerate this font.
-
-</td>
-</tr>
-</table>
- 
-
-
-### -param res
-
-TBD
-
-
-
-
-#### - lpszFilename [in]
+### -param name [in]
 
 A pointer to a null-terminated character string that contains a valid font file name. This parameter can specify any of the following files.
 
@@ -213,7 +168,40 @@ Type 1 font metrics file. It is used with a .pfb file.
 To add a font whose information comes from several resource files, point <i>lpszFileName</i> to a string with the file names separated by a | --for example, abcxxxxx.pfm | abcxxxxx.pfb.
 
 
-#### - pdv [in]
+### -param fl [in]
+
+The characteristics of the font to be added to the system. This parameter can be one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="FR_PRIVATE"></a><a id="fr_private"></a><dl>
+<dt><b>FR_PRIVATE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Specifies that only the process that called the <b>AddFontResourceEx</b> function can use this font. When the font name matches a public font, the private font will be chosen. When the process terminates, the system will remove all fonts installed by the process with the <b>AddFontResourceEx</b> function.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="FR_NOT_ENUM"></a><a id="fr_not_enum"></a><dl>
+<dt><b>FR_NOT_ENUM</b></dt>
+</dl>
+</td>
+<td width="60%">
+Specifies that no process, including the process that called the <b>AddFontResourceEx</b> function, can enumerate this font.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param res [in]
 
 Reserved. Must be zero.
 

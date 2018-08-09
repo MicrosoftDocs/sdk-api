@@ -7,7 +7,7 @@ old-location: controls\Pager_GetBkColor.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getbkcolor.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Pager_GetBkColor, Pager_GetBkColor macro [Windows Controls], _win32_Pager_GetBkColor, _win32_Pager_GetBkColor_cpp, commctrl/Pager_GetBkColor, controls.Pager_GetBkColor, controls._win32_Pager_GetBkColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the current background color for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760868(v=VS.85).aspx">PGM_GETBKCOLOR</a> message explicitly. 
+Retrieves the current background color for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760868(v=VS.85).aspx">PGM_GETBKCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -59,15 +59,6 @@ Retrieves the current background color for the pager control. You can use this m
 
 
 ### -param hwnd
-
-TBD
-
-
-
-
-
-
-#### - hwndPager
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 

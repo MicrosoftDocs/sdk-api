@@ -7,7 +7,7 @@ old-location: winmsg\iswindowvisible.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\iswindowvisible.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IsWindowVisible, IsWindowVisible function [Windows and Messages], _win32_IsWindowVisible, _win32_iswindowvisible_cpp, winmsg.iswindowvisible, winui._win32_iswindowvisible, winuser/IsWindowVisible
 ms.prod: windows
 ms.technology: windows-sdk

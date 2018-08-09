@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_graphics_pipeline_state_desc.htm
 old-project: direct3d12
 ms.assetid: 35D10150-A633-4D38-B684-3E2DF357FFC0
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: D3D12_GRAPHICS_PIPELINE_STATE_DESC, D3D12_GRAPHICS_PIPELINE_STATE_DESC structure, d3d12/D3D12_GRAPHICS_PIPELINE_STATE_DESC, direct3d12.d3d12_graphics_pipeline_state_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -151,19 +151,19 @@ The number of render target formats in the  <b>RTVFormats</b> member.
 
 ### -field RTVFormats
 
-An array of <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed values for the render target formats.
+An array of <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed values for the render target formats.
           
 
 
 ### -field DSVFormat
 
-A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value for the depth-stencil format.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value for the depth-stencil format.
           
 
 
 ### -field SampleDesc
 
-A <a href="https://msdn.microsoft.com/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a> structure that specifies multisampling parameters.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a> structure that specifies multisampling parameters.
           
 
 
@@ -198,7 +198,7 @@ The runtime validates:
 <ul>
 <li>Whether the linkage between the shader stages is correct.
           </li>
-<li>If the <b>HS</b> and <b>DS</b> members are specified, the <b>PrimitiveTopologyType</b> member for topology type must be set to <a href="https://msdn.microsoft.com/library/Dn770385(v=VS.85).aspx">D3D12_PRIMITIVE_TOPOLOGY_TYPE_PATCH</a>.
+<li>If the <b>HS</b> and <b>DS</b> members are specified, the <b>PrimitiveTopologyType</b> member for topology type must be set to <a href="https://msdn.microsoft.com/en-us/library/Dn770385(v=VS.85).aspx">D3D12_PRIMITIVE_TOPOLOGY_TYPE_PATCH</a>.
           </li>
 <li>Whether sample frequency execution isn't allowed with the center multi-sample anti-aliasing (MSAA) pattern.
           </li>

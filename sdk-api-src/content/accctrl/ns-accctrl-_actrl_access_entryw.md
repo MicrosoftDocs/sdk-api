@@ -7,7 +7,7 @@ old-location: com\actrl_access_entry.htm
 old-project: com
 ms.assetid: bcb2ad72-7b00-4582-b05e-e00720a4db77
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*PACTRL_ACCESS_ENTRYW, ACTRL_ACCESS_ALLOWED, ACTRL_ACCESS_DENIED, ACTRL_ACCESS_ENTRY, ACTRL_ACCESS_ENTRY structure [COM], ACTRL_ACCESS_ENTRYA, ACTRL_ACCESS_ENTRYW, ACTRL_AUDIT_FAILURE, ACTRL_AUDIT_SUCCESS, ACTRL_CHANGE_ACCESS, ACTRL_CHANGE_OWNER, ACTRL_DELETE, ACTRL_READ_CONTROL, ACTRL_STD_RIGHTS_ALL, ACTRL_STD_RIGHT_REQUIRED, ACTRL_SYNCHRONIZE, ACTRL_SYSTEM_ACCESS, COM_RIGHTS_ACTIVATE_LOCAL, COM_RIGHTS_ACTIVATE_REMOTE, COM_RIGHTS_EXECUTE, COM_RIGHTS_EXECUTE_LOCAL, COM_RIGHTS_EXECUTE_REMOTE, CONTAINER_INHERIT_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, PACTRL_ACCESS_ENTRY, PACTRL_ACCESS_ENTRY structure pointer [COM], SUB_CONTAINERS_AND_OBJECTS_INHERIT, SUB_CONTAINERS_ONLY_INHERIT, SUB_OBJECTS_ONLY_INHERIT, _ACTRL_ACCESS_ENTRYA, _ACTRL_ACCESS_ENTRYW, accctrl/ACTRL_ACCESS_ENTRY, accctrl/ACTRL_ACCESS_ENTRYA, accctrl/ACTRL_ACCESS_ENTRYW, accctrl/PACTRL_ACCESS_ENTRY, com.actrl_access_entry"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -316,15 +316,10 @@ A pointer to a null-terminated string that identifies the object types that can 
 
 
 
-##### - Access.ACTRL_CHANGE_ACCESS
+##### - Access.ACTRL_SYSTEM_ACCESS
 
-<a id="ACTRL_CHANGE_OWNER"></a>
-<a id="actrl_change_owner"></a>
-
-##### - Access.ACTRL_CHANGE_OWNER
-
-<a id="ACTRL_SYNCHRONIZE"></a>
-<a id="actrl_synchronize"></a>
+<a id="ACTRL_DELETE"></a>
+<a id="actrl_delete"></a>
 
 ##### - Access.ACTRL_DELETE
 
@@ -336,6 +331,21 @@ A pointer to a null-terminated string that identifies the object types that can 
 <a id="ACTRL_CHANGE_ACCESS"></a>
 <a id="actrl_change_access"></a>
 
+##### - Access.ACTRL_CHANGE_ACCESS
+
+<a id="ACTRL_CHANGE_OWNER"></a>
+<a id="actrl_change_owner"></a>
+
+##### - Access.ACTRL_CHANGE_OWNER
+
+<a id="ACTRL_SYNCHRONIZE"></a>
+<a id="actrl_synchronize"></a>
+
+##### - Access.ACTRL_SYNCHRONIZE
+
+<a id="ACTRL_STD_RIGHTS_ALL"></a>
+<a id="actrl_std_rights_all"></a>
+
 ##### - Access.ACTRL_STD_RIGHTS_ALL
 
 <a id="ACTRL_STD_RIGHT_REQUIRED"></a>
@@ -345,24 +355,6 @@ A pointer to a null-terminated string that identifies the object types that can 
 
 <a id="COM_RIGHTS_EXECUTE"></a>
 <a id="com_rights_execute"></a>
-
-##### - Access.ACTRL_SYNCHRONIZE
-
-<a id="ACTRL_STD_RIGHTS_ALL"></a>
-<a id="actrl_std_rights_all"></a>
-
-##### - Access.ACTRL_SYSTEM_ACCESS
-
-<a id="ACTRL_DELETE"></a>
-<a id="actrl_delete"></a>
-
-##### - Access.COM_RIGHTS_ACTIVATE_LOCAL
-
-<a id="COM_RIGHTS_ACTIVATE_REMOTE"></a>
-<a id="com_rights_activate_remote"></a>
-
-##### - Access.COM_RIGHTS_ACTIVATE_REMOTE
-
 
 ##### - Access.COM_RIGHTS_EXECUTE
 
@@ -378,6 +370,14 @@ A pointer to a null-terminated string that identifies the object types that can 
 
 <a id="COM_RIGHTS_ACTIVATE_LOCAL"></a>
 <a id="com_rights_activate_local"></a>
+
+##### - Access.COM_RIGHTS_ACTIVATE_LOCAL
+
+<a id="COM_RIGHTS_ACTIVATE_REMOTE"></a>
+<a id="com_rights_activate_remote"></a>
+
+##### - Access.COM_RIGHTS_ACTIVATE_REMOTE
+
 
 ## -see-also
 

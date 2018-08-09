@@ -7,7 +7,7 @@ old-location: intl\getdateformatex.htm
 old-project: Intl
 ms.assetid: 791fb386-3cc5-410e-bfce-52598fdb10c9
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: DATE_AUTOLAYOUT, DATE_LONGDATE, DATE_LTRREADING, DATE_MONTHDAY, DATE_RTLREADING, DATE_SHORTDATE, DATE_USE_ALT_CALENDAR, DATE_YEARMONTH, GetDateFormatEx, GetDateFormatEx function [Internationalization for Windows Applications], _win32_GetDateFormatEx, datetimeapi/GetDateFormatEx, intl.getdateformatex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,8 +120,7 @@ Use the long date format. This value cannot be used with DATE_MONTHDAY, DATE_SHO
 </dl>
 </td>
 <td width="60%">
-
-                Add marks for left-to-right reading layout. This value cannot be used with DATE_RTLREADING.
+Add marks for left-to-right reading layout. This value cannot be used with DATE_RTLREADING.
 
 </td>
 </tr>
@@ -131,8 +130,7 @@ Use the long date format. This value cannot be used with DATE_MONTHDAY, DATE_SHO
 </dl>
 </td>
 <td width="60%">
-
-                Add marks for right-to-left reading layout. This value cannot be used with DATE_LTRREADING
+Add marks for right-to-left reading layout. This value cannot be used with DATE_LTRREADING
 
 </td>
 </tr>

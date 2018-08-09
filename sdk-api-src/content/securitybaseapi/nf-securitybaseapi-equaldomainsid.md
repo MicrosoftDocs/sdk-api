@@ -7,7 +7,7 @@ old-location: security\equaldomainsid.htm
 old-project: secauthz
 ms.assetid: a7eea3bd-33e0-427c-b023-07851c192eb2
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: EqualDomainSid, EqualDomainSid function [Security], _win32_equaldomainsid, security.equaldomainsid, securitybaseapi/EqualDomainSid
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CertIsValidCRLForCertificate function
 author: windows-sdk-content
 description: The CertIsValidCRLForCertificate function checks a CRL to find out if it is a CRL that would include a specific certificate if that certificate were revoked.
 old-location: security\certisvalidcrlforcertificate.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 06047b7a-4bdd-42f9-bb85-49b6ec6f35a0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CertIsValidCRLForCertificate, CertIsValidCRLForCertificate function [Security], _crypto2_certisvalidcrlforcertificate, security.certisvalidcrlforcertificate, wincrypt/CertIsValidCRLForCertificate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ The <b>CertIsValidCRLForCertificate</b> function checks a <a href="https://msdn.
 A pointer to a certificate <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a>.
 
 
-### -param pCrl
+### -param pCrl [in]
 
-TBD
+A pointer to a CRL. The function checks this CRL to determine whether it could contain the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate context</a> pointed to by <i>pCert</i>. The function does not look for the certificate in the CRL.
 
 
 ### -param dwFlags [in]
@@ -77,11 +77,6 @@ Currently not used and must be set to zero.
 ### -param pvReserved [in]
 
 Currently not used and must be set to <b>NULL</b>.
-
-
-#### - pCRL [in]
-
-A pointer to a CRL. The function checks this CRL to determine whether it could contain the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate context</a> pointed to by <i>pCert</i>. The function does not look for the certificate in the CRL.
 
 
 ## -returns

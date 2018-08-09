@@ -4,10 +4,10 @@ title: IVdsOpenVDisk::Compact
 author: windows-sdk-content
 description: Compacts the virtual disk to reduce the physical size of the backing file.
 old-location: base\ivdsopenvdisk_compact.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 011adaae-3a17-4643-ae8d-400753019c83
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: Compact, Compact method, Compact method,IVdsOpenVDisk interface, IVdsOpenVDisk interface,Compact method, IVdsOpenVDisk.Compact, IVdsOpenVDisk::Compact, base.ivdsopenvdisk_compact, vds/IVdsOpenVDisk::Compact
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CVssWriter::Initialize
 author: windows-sdk-content
 description: Initializes a CVssWriter object and allows a writer application to interact with VSS.
 old-location: base\cvsswriter_initialize.htm
-old-project: VSS
+old-project: vss
 ms.assetid: a427ebbd-b7c4-46ba-ba16-dd601b1f956e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CVssWriter interface [VSS],Initialize method, CVssWriter.Initialize, CVssWriter::Initialize, Initialize, Initialize method [VSS], Initialize method [VSS],CVssWriter interface, _win32_cvsswriter_initialize, base.cvsswriter_initialize, vswriter/CVssWriter::Initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,6 +132,22 @@ The default value for this parameter is <b>NULL</b>. If the writer has multiple 
 <b>Windows Server 2003 and Windows XP:  </b>Before Windows Server 2003 with SP1, this parameter is reserved for system use, and the caller should not override the default value.
 
 
+#### - WriterName [in]
+
+A <b>null</b>-terminated wide character string that contains the name of the writer. This string is not localized.
+
+
+#### - UsageType [in]
+
+A <a href="https://msdn.microsoft.com/31997417-d993-4f28-b108-ce1dd8239650">VSS_USAGE_TYPE</a> enumeration value that indicates how the data managed by the writer is used on the host system.
+
+
+#### - SourceType [in]
+
+A
+      <a href="https://msdn.microsoft.com/cb89c3cc-5a8e-419e-839c-f72a1886eadf">VSS_SOURCE_TYPE</a> enumeration value that indicates the type of data managed by the writer.
+
+
 #### - AppLevel [in]
 
 A
@@ -141,22 +157,6 @@ A
 
 
 The default value for this parameter is VSS_APP_FRONT_END.
-
-
-#### - SourceType [in]
-
-A
-      <a href="https://msdn.microsoft.com/cb89c3cc-5a8e-419e-839c-f72a1886eadf">VSS_SOURCE_TYPE</a> enumeration value that indicates the type of data managed by the writer.
-
-
-#### - UsageType [in]
-
-A <a href="https://msdn.microsoft.com/31997417-d993-4f28-b108-ce1dd8239650">VSS_USAGE_TYPE</a> enumeration value that indicates how the data managed by the writer is used on the host system.
-
-
-#### - WriterName [in]
-
-A <b>null</b>-terminated wide character string that contains the name of the writer. This string is not localized.
 
 
 ## -returns

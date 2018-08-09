@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxaccountnotify.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\faxinto_z_ifaxaccountnotify.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxAccountNotify, IFaxAccountNotify interface [Fax Service], IFaxAccountNotify interface [Fax Service],described, IIFaxAccountNotify, _mfax_ifaxaccountnotify, fax._mfax_ifaxaccountnotify, faxcomex/IFaxAccountNotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ Called by the fax service to send event notifications about particular fax accou
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccountNotify</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxAccountNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccountNotify</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxAccountNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IFaxAccountNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Aa359032(v=VS.85).aspx">OnIncomingJobAdded</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359032(v=VS.85).aspx">OnIncomingJobAdded</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when an incoming fax job is added to the job queue for a particular fax account.
@@ -81,7 +81,7 @@ Called by the fax service when an incoming fax job is added to the job queue for
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Aa359033(v=VS.85).aspx">OnIncomingJobChanged</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359033(v=VS.85).aspx">OnIncomingJobChanged</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when the status of an incoming fax job for a particular fax account changes.
@@ -90,7 +90,7 @@ Called by the fax service when the status of an incoming fax job for a particula
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Aa359034(v=VS.85).aspx">OnIncomingJobRemoved</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359034(v=VS.85).aspx">OnIncomingJobRemoved</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when an incoming fax job is removed from the job queue of a particular fax account.
@@ -99,7 +99,7 @@ Called by the fax service when an incoming fax job is removed from the job queue
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Aa359035(v=VS.85).aspx">OnIncomingMessageAdded</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359035(v=VS.85).aspx">OnIncomingMessageAdded</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when an incoming message is added to the inbound fax archive.
@@ -108,7 +108,7 @@ Called by the fax service when an incoming message is added to the inbound fax a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Aa359036(v=VS.85).aspx">OnIncomingMessageRemoved</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359036(v=VS.85).aspx">OnIncomingMessageRemoved</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when an incoming message is removed from the inbound fax archive.
@@ -117,7 +117,7 @@ Called by the fax service when an incoming message is removed from the inbound f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Aa359037(v=VS.85).aspx">OnOngoingMessageRemoved</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359037(v=VS.85).aspx">OnOngoingMessageRemoved</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when an outgoing message is removed from the outbound fax archive.
@@ -126,7 +126,7 @@ Called by the fax service when an outgoing message is removed from the outbound 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Aa359038(v=VS.85).aspx">OnOutgoingJobAdded</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359038(v=VS.85).aspx">OnOutgoingJobAdded</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when an outgoing fax job is added to the job queue for a particular fax account.
@@ -135,7 +135,7 @@ Called by the fax service when an outgoing fax job is added to the job queue for
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Aa359039(v=VS.85).aspx">OnOutgoingJobChanged</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359039(v=VS.85).aspx">OnOutgoingJobChanged</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when the status of an outgoing fax job for a particular fax account changes.
@@ -144,7 +144,7 @@ Called by the fax service when the status of an outgoing fax job for a particula
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Aa359040(v=VS.85).aspx">OnOutgoingJobRemoved</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359040(v=VS.85).aspx">OnOutgoingJobRemoved</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when an outgoing fax job is removed from the job queue of a particular fax account.
@@ -153,16 +153,16 @@ Called by the fax service when an outgoing fax job is removed from the job queue
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Aa359041(v=VS.85).aspx">OnOutgoingMessageAdded</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359041(v=VS.85).aspx">OnOutgoingMessageAdded</a>
 </td>
 <td align="left" width="63%">
-The fax service calls the <a href="https://msdn.microsoft.com/library/Aa359041(v=VS.85).aspx">IFaxAccountNotify::OnOutgoingMessageAdded</a> method when an outgoing message is added to the outbound fax archive.
+The fax service calls the <a href="https://msdn.microsoft.com/en-us/library/Aa359041(v=VS.85).aspx">IFaxAccountNotify::OnOutgoingMessageAdded</a> method when an outgoing message is added to the outbound fax archive.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Aa359042(v=VS.85).aspx">OnServerShutDown</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359042(v=VS.85).aspx">OnServerShutDown</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when it shuts down. 
@@ -177,7 +177,7 @@ Called by the fax service when it shuts down.
 
 
 <h3><a id="To_Use_Fax_Notification_Events_with_Visual_Basic"></a><a id="to_use_fax_notification_events_with_visual_basic"></a><a id="TO_USE_FAX_NOTIFICATION_EVENTS_WITH_VISUAL_BASIC"></a>To Use Fax Notification Events with Visual Basic</h3>
-Use the following syntax when creating the <a href="https://msdn.microsoft.com/library/Aa359058(v=VS.85).aspx">IFaxAccount</a> object:
+Use the following syntax when creating the <a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a> object:
 
 
 <div class="code"><span codelanguage=""><table>
@@ -193,8 +193,7 @@ Dim WithEvents objFaxAccount As FaxAccount
 </tr>
 </table></span></div>
 <h3><a id="To_Use_Fax_Notification_Events_with_C__"></a><a id="to_use_fax_notification_events_with_c__"></a><a id="TO_USE_FAX_NOTIFICATION_EVENTS_WITH_C__"></a>To Use Fax Notification Events with C++</h3>
-
-			A fax client application must implement <b>IFaxAccountNotify</b> and pass the fax service the pointer to an <b>IFaxAccountNotify</b> interface.
+A fax client application must implement <b>IFaxAccountNotify</b> and pass the fax service the pointer to an <b>IFaxAccountNotify</b> interface.
             
 
 

@@ -7,7 +7,7 @@ old-location: snmp\snmpmgrctl.htm
 old-project: snmp
 ms.assetid: d777c944-a19f-4465-ae56-b60beaa1191c
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: SnmpMgrCtl, SnmpMgrCtl function [SNMP], _snmp_snmpmgrctl, mgmtapi/SnmpMgrCtl, snmp.snmpmgrctl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,29 +97,19 @@ Specifies the size, in bytes, of the buffer pointed to by the <i>lpvInBuffer</i>
 When you specify the MGMCTL_SETAGENTPORT control code, this parameter is equal to sizeof(UINT).
 
 
-### -param lpvOUTBuffer
+### -param lpvOUTBuffer [out]
 
-TBD
+Pointer to the buffer that receives the operation's output data.
 
 
-### -param cbOUTBuffer
+### -param cbOUTBuffer [out]
 
-TBD
+Specifies the size, in bytes, of the buffer pointed to by the <i>lpvOutBuffer</i> parameter.
 
 
 ### -param lpcbBytesReturned [out]
 
 Pointer to a variable that receives the actual size, in bytes, of the data stored in the buffer pointed to by the <i>lpvOutBuffer</i> parameter.
-
-
-#### - cbOutBuffer [out]
-
-Specifies the size, in bytes, of the buffer pointed to by the <i>lpvOutBuffer</i> parameter.
-
-
-#### - lpvOutBuffer [out]
-
-Pointer to the buffer that receives the operation's output data.
 
 
 ## -returns

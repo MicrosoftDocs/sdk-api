@@ -4,10 +4,10 @@ title: IMsmConfigurableItem::get_Context
 author: windows-sdk-content
 description: The Context property returns the value from the Context column of the ModuleConfiguration table.
 old-location: setup\configurableitem_context.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 27b94142-81cb-4ea7-aa73-c359cb50ce71
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: ConfigurableItem object,Context property, ConfigurableItem.Context, Context property, Context property,ConfigurableItem object, IMsmConfigurableItem.get_Context, IMsmConfigurableItem::get_Context, _msi_context_property, get_Context, setup.configurableitem_context
 ms.prod: windows
 ms.technology: windows-sdk

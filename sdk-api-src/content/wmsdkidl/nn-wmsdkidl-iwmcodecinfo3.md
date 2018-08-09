@@ -7,7 +7,7 @@ old-location: wmformat\iwmcodecinfo3.htm
 old-project: wmformat
 ms.assetid: fd882612-1f60-4b51-a180-0d34d78c99dd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWMCodecInfo3, IWMCodecInfo3 interface [windows Media Format], IWMCodecInfo3 interface [windows Media Format],described, IWMCodecInfo3Interface, wmformat.iwmcodecinfo3, wmsdkidl/IWMCodecInfo3
 ms.prod: windows
 ms.technology: windows-sdk

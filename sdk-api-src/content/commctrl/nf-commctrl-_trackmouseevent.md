@@ -7,7 +7,7 @@ old-location: inputdev\_trackmouseevent.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\_trackmouseevent.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: "_TrackMouseEvent, _TrackMouseEvent function [Keyboard and Mouse Input], _win32__TrackMouseEvent, _win32__trackmouseevent_cpp, commctrl/_TrackMouseEvent, inputdev._trackmouseevent, winui._win32__trackmouseevent"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Posts messages when the mouse pointer leaves a window or hovers over a window for a specified amount of time. This function calls <a href="https://msdn.microsoft.com/library/ms646265(v=VS.85).aspx">TrackMouseEvent</a> if it exists, otherwise it emulates it.
+Posts messages when the mouse pointer leaves a window or hovers over a window for a specified amount of time. This function calls <a href="https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx">TrackMouseEvent</a> if it exists, otherwise it emulates it.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Posts messages when the mouse pointer leaves a window or hovers over a window fo
 
 Type: <b>LPTRACKMOUSEEVENT</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/ms645604(v=VS.85).aspx">TRACKMOUSEEVENT</a> structure that contains tracking information. 
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms645604(v=VS.85).aspx">TRACKMOUSEEVENT</a> structure that contains tracking information. 
 
 
 ## -returns
@@ -87,7 +87,7 @@ If the function fails, return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
 
 
 
@@ -103,11 +103,11 @@ If the function fails, return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645604(v=VS.85).aspx">TRACKMOUSEEVENT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645604(v=VS.85).aspx">TRACKMOUSEEVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646265(v=VS.85).aspx">TrackMouseEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx">TrackMouseEvent</a>
  
 
  

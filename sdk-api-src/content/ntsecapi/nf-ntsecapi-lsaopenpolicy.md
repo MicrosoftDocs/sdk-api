@@ -7,7 +7,7 @@ old-location: security\lsaopenpolicy.htm
 old-project: secauthn
 ms.assetid: 361bc962-1e97-4606-a835-cbce37692c55
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: LsaOpenPolicy, LsaOpenPolicy function [Security], _lsa_lsaopenpolicy, ntsecapi/LsaOpenPolicy, security.lsaopenpolicy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The <b>LsaOpenPolicy</b> function opens a handle to the <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a> object on a local or remote system.
+The <b>LsaOpenPolicy</b> function opens a handle to the <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e802ad0f8">Policy</a> object on a local or remote system.
 
 You must run the process "As Administrator" so that the call doesn't fail with ERROR_ACCESS_DENIED.
 

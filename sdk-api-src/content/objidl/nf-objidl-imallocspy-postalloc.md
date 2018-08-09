@@ -7,7 +7,7 @@ old-location: com\imallocspy_postalloc.htm
 old-project: com
 ms.assetid: eaf2cb92-afdb-4f1f-a46a-83b6c72db07f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IMallocSpy interface [COM],PostAlloc method, IMallocSpy.PostAlloc, IMallocSpy::PostAlloc, PostAlloc, PostAlloc method [COM], PostAlloc method [COM],IMallocSpy interface, _com_imallocspy_postalloc, com.imallocspy_postalloc, objidl/IMallocSpy::PostAlloc
 ms.prod: windows
 ms.technology: windows-sdk

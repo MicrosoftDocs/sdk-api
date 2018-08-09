@@ -7,7 +7,7 @@ old-location: setup\setupgetsourceinfo.htm
 old-project: SetupApi
 ms.assetid: 15bedd7f-7079-4623-a797-db308a51093f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupGetSourceInfo, SetupGetSourceInfo function [Setup API], SetupGetSourceInfoA, SetupGetSourceInfoW, _setupapi_setupgetsourceinfo, setup.setupgetsourceinfo, setupapi/SetupGetSourceInfo, setupapi/SetupGetSourceInfoA, setupapi/SetupGetSourceInfoW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentIsModal.htm
 old-project: WinAuto
 ms.assetid: cea34f72-6d89-4992-b119-a298c836a7eb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CurrentIsModal property [Windows Accessibility], CurrentIsModal property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CurrentIsModal property, IUIAutomationWindowPattern.CurrentIsModal, IUIAutomationWindowPattern.get_CurrentIsModal, IUIAutomationWindowPattern::CurrentIsModal, IUIAutomationWindowPattern::get_CurrentIsModal, get_CurrentIsModal, uiauto.uiauto_IUIAutomationWindowPattern_CurrentIsModal, uiauto_IUIAutomationWindowPattern_CurrentIsModal, uiautomationclient/IUIAutomationWindowPattern::CurrentIsModal, uiautomationclient/IUIAutomationWindowPattern::get_CurrentIsModal, winauto.uiauto_IUIAutomationWindowPattern_CurrentIsModal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

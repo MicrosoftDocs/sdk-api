@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiontranslatetransform3d_setoffsety_overloaded
 old-project: directcomp
 ms.assetid: 254DCA74-DB51-442D-9483-F7597643C538
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IDCompositionTranslateTransform3D::SetOffsetY, SetOffsetY, SetOffsetY methods [DirectComposition], dcomp/SetOffsetY, directcomp.idcompositiontranslatetransform3d_setoffsety_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_subresource_data.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_subresource_data.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D3D10_SUBRESOURCE_DATA, D3D10_SUBRESOURCE_DATA structure [Direct3D 10], d3d10/D3D10_SUBRESOURCE_DATA, direct3d10.d3d10_subresource_data, e1c1f9a8-c810-27f6-5e4c-85302c900510
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Specifies data for initializing a <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">subresource</a>.
+Specifies data for initializing a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource</a>.
 
 
 ## -struct-fields
@@ -85,8 +85,8 @@ The distance (in bytes) from the beginning of one depth level to the next.
 
 
 
-This structure is used in calls to create buffers (<a href="https://msdn.microsoft.com/library/Bb173544(v=VS.85).aspx">ID3D10Device::CreateBuffer</a>) and textures (<a href="https://msdn.microsoft.com/library/Bb173559(v=VS.85).aspx">ID3D10Device::CreateTexture1D</a>, 
-      <a href="https://msdn.microsoft.com/library/Bb173560(v=VS.85).aspx">ID3D10Device::CreateTexture2D</a>, and <a href="https://msdn.microsoft.com/library/Bb173561(v=VS.85).aspx">ID3D10Device::CreateTexture3D</a>). 
+This structure is used in calls to create buffers (<a href="https://msdn.microsoft.com/en-us/library/Bb173544(v=VS.85).aspx">ID3D10Device::CreateBuffer</a>) and textures (<a href="https://msdn.microsoft.com/en-us/library/Bb173559(v=VS.85).aspx">ID3D10Device::CreateTexture1D</a>, 
+      <a href="https://msdn.microsoft.com/en-us/library/Bb173560(v=VS.85).aspx">ID3D10Device::CreateTexture2D</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb173561(v=VS.85).aspx">ID3D10Device::CreateTexture3D</a>). 
       If the resource being created does not require a system-memory pitch or a system-memory-pitch slice, then you are free to use those members to 
       pass size information which may help you when debugging a problem creating a resource.
 
@@ -103,7 +103,7 @@ Note that an application should not rely on <b>SysMemPitch</b> being exactly equ
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
  
 
  

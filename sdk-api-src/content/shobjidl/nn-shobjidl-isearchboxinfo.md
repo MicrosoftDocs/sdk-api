@@ -7,7 +7,7 @@ old-location: shell\ISearchBoxInfo.htm
 old-project: shell
 ms.assetid: 7b2082e9-b075-488a-a6c1-f9dc99409474
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ISearchBoxInfo, ISearchBoxInfo interface [Windows Shell], ISearchBoxInfo interface [Windows Shell],described, _shell_ISearchBoxInfo, shell.ISearchBoxInfo, shobjidl/ISearchBoxInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ The <b>ISearchBoxInfo</b> interface has these methods.
 <a href="https://msdn.microsoft.com/9a1159df-78ef-493b-8286-eefb0ac004ef">GetCondition</a>
 </td>
 <td align="left" width="63%">
-Retrieves the contents of the search box as an <a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a> object.
+Retrieves the contents of the search box as an <a href="_search_ICondition">ICondition</a> object.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: shell\SHCLSIDFromString.htm
 old-project: shell
 ms.assetid: b09950fb-0a72-4829-aedd-cf01a3f98074
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHCLSIDFromString, SHCLSIDFromString function [Windows Shell], _win32_SHCLSIDFromString, shell.SHCLSIDFromString, shlobj_core/SHCLSIDFromString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,7 @@ Type: <b>PCWSTR</b>
 A Unicode string that contains the CLSID in the format, <code>{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}</code>.
 
 
-### -param pclsid
-
-TBD
-
-
-
-
-#### - pcClsid [out]
+### -param pclsid [out]
 
 Type: <b>CLSID*</b>
 

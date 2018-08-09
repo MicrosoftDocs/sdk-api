@@ -7,7 +7,7 @@ old-location: base\symenumlines.htm
 old-project: debug
 ms.assetid: d518b320-e4db-4bd1-8221-583eb84c292c
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymEnumLines, SymEnumLines function, SymEnumLinesW, base.symenumlines, dbghelp/SymEnumLines, dbghelp/SymEnumLinesW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: stg\propstgnametofmtid.htm
 old-project: stg
 ms.assetid: bbbaf5a3-df17-42fd-ba2b-ad5b572c8a3f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: PropStgNameToFmtId, PropStgNameToFmtId function [Structured Storage], _stg_propstgnametofmtid, coml2api/PropStgNameToFmtId, stg.propstgnametofmtid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>PropStgNameToFmtId</b> function converts a property set storage or stream name to its format identifier.
+The <b>PropStgNameToFmtId</b> function converts a property set storage or stream name to its format identifier.
 
 
 ## -parameters
@@ -75,8 +74,7 @@ A pointer to a FMTID variable that receives the format identifier of the propert
 
 
 
-
-						This function supports the standard return value E_INVALIDARG as well as the following:
+This function supports the standard return value E_INVALIDARG as well as the following:
 
 
 

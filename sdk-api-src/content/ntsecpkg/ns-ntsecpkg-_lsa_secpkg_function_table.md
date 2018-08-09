@@ -7,7 +7,7 @@ old-location: security\lsa_secpkg_function_table.htm
 old-project: secauthn
 ms.assetid: 85f04072-8634-454a-9038-737d86c5597d
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: "*PLSA_SECPKG_FUNCTION_TABLE, LSA_SECPKG_FUNCTION_TABLE, LSA_SECPKG_FUNCTION_TABLE structure [Security], PLSA_SECPKG_FUNCTION_TABLE, PLSA_SECPKG_FUNCTION_TABLE structure pointer [Security], _LSA_SECPKG_FUNCTION_TABLE, _ssp_lsa_secpkg_function_table, ntsecpkg/LSA_SECPKG_FUNCTION_TABLE, ntsecpkg/PLSA_SECPKG_FUNCTION_TABLE, security.lsa_secpkg_function_table"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ The <b>LSA_SECPKG_FUNCTION_TABLE</b> structure contains pointers to the LSA func
 
 ### -field CreateLogonSession
 
-
-					Pointer to the  <a href="https://msdn.microsoft.com/383c935c-a1f2-4d1b-bb02-e7e37f154771">CreateLogonSession</a> function.
+Pointer to the  <a href="https://msdn.microsoft.com/383c935c-a1f2-4d1b-bb02-e7e37f154771">CreateLogonSession</a> function.
 
 
 ### -field DeleteLogonSession

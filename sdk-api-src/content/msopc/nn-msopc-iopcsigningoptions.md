@@ -7,7 +7,7 @@ old-location: opc\iopcsigningoptions.htm
 old-project: OPC
 ms.assetid: 5fb66c8f-2eb2-48c3-8e6f-04a1c509f6ec
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcSigningOptions, IOpcSigningOptions interface [Open Packaging Conventions], IOpcSigningOptions interface [Open Packaging Conventions],described, msopc/IOpcSigningOptions, opc.iopcsigningoptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IOpcSigningOptions</b> interface has these methods.
 <a href="https://msdn.microsoft.com/86f83829-0507-4918-ae7f-71738f985068">GetCertificateEmbeddingOption</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a value that specifies the storage location in the package of the certificate to be used for the signature.
+Gets a value that specifies the storage location in the package of the certificate to be used for the signature.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IOpcSigningOptions</b> interface has these methods.
 <a href="https://msdn.microsoft.com/df212397-7ec9-4a42-bebb-61799b7ca78e">GetCertificateSet</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an <a href="https://msdn.microsoft.com/0ac56b41-a120-4a9b-9bfa-afba1ba0f3b4">IOpcCertificateSet</a> interface pointer.
+Gets an <a href="https://msdn.microsoft.com/0ac56b41-a120-4a9b-9bfa-afba1ba0f3b4">IOpcCertificateSet</a> interface pointer.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IOpcSigningOptions</b> interface has these methods.
 <a href="https://msdn.microsoft.com/1b4d31cb-f12a-4b51-8b28-470e065e1661">GetCustomObjectSet</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an <a href="https://msdn.microsoft.com/eb2a561d-2723-45dc-98a6-ecf11101016b">IOpcSignatureCustomObjectSet</a> interface.
+Gets an <a href="https://msdn.microsoft.com/eb2a561d-2723-45dc-98a6-ecf11101016b">IOpcSignatureCustomObjectSet</a> interface.
             
 
 </td>
@@ -107,8 +104,7 @@ The <b>IOpcSigningOptions</b> interface has these methods.
 <a href="https://msdn.microsoft.com/2222772a-e396-4d78-a7e4-a12f19ec689b">GetCustomReferenceSet</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an <a href="https://msdn.microsoft.com/7955ac86-de6e-4911-a107-a1617c14e685">IOpcSignatureReferenceSet</a> interface pointer.
+Gets an <a href="https://msdn.microsoft.com/7955ac86-de6e-4911-a107-a1617c14e685">IOpcSignatureReferenceSet</a> interface pointer.
             
 
 </td>
@@ -118,8 +114,7 @@ The <b>IOpcSigningOptions</b> interface has these methods.
 <a href="https://msdn.microsoft.com/c8ec81e6-7807-4a1e-9e0c-f5512bd605fa">GetDefaultDigestMethod</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the default digest method that will be used to compute digest values for objects to be signed.
+Gets the default digest method that will be used to compute digest values for objects to be signed.
             
 
 </td>
@@ -129,8 +124,7 @@ The <b>IOpcSigningOptions</b> interface has these methods.
 <a href="https://msdn.microsoft.com/b81b49de-aaee-4224-9f5c-554b51f10cfa">GetSignatureId</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the value of the <b>Id</b> attribute from the <b>Signature</b> element.
+Gets the value of the <b>Id</b> attribute from the <b>Signature</b> element.
             
 
 </td>
@@ -140,8 +134,7 @@ The <b>IOpcSigningOptions</b> interface has these methods.
 <a href="https://msdn.microsoft.com/d325ed58-9acd-4ebd-9acc-28f8602a53eb">GetSignatureMethod</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the signature method to use to calculate and encrypt the hash value of the <b>SignedInfo</b> element, which will be serialized as the <b>SignatureValue</b> element of the signature.
+Gets the signature method to use to calculate and encrypt the hash value of the <b>SignedInfo</b> element, which will be serialized as the <b>SignatureValue</b> element of the signature.
             
 
 </td>
@@ -151,8 +144,7 @@ The <b>IOpcSigningOptions</b> interface has these methods.
 <a href="https://msdn.microsoft.com/09481639-eea1-4203-932f-e97558408b42">GetSignaturePartName</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the part name of the signature part where the signature markup will be stored.
+Gets the part name of the signature part where the signature markup will be stored.
             
 
 </td>
@@ -162,8 +154,7 @@ The <b>IOpcSigningOptions</b> interface has these methods.
 <a href="https://msdn.microsoft.com/60e657c3-41a3-4a05-a084-111429b1add9">GetSignaturePartReferenceSet</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an <a href="https://msdn.microsoft.com/c6f453e4-e0f5-4ecc-b622-6b30778ff719">IOpcSignaturePartReferenceSet</a> interface.
+Gets an <a href="https://msdn.microsoft.com/c6f453e4-e0f5-4ecc-b622-6b30778ff719">IOpcSignaturePartReferenceSet</a> interface.
             
 
 </td>
@@ -173,8 +164,7 @@ The <b>IOpcSigningOptions</b> interface has these methods.
 <a href="https://msdn.microsoft.com/f89327d2-63ff-4b14-bde0-8fdf65f73e37">GetSignatureRelationshipReferenceSet</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an <a href="https://msdn.microsoft.com/89ea7243-54ee-487b-a58a-0721af9db8c3">IOpcSignatureRelationshipReferenceSet</a> interface pointer.
+Gets an <a href="https://msdn.microsoft.com/89ea7243-54ee-487b-a58a-0721af9db8c3">IOpcSignatureRelationshipReferenceSet</a> interface pointer.
             
 
 </td>
@@ -184,8 +174,7 @@ The <b>IOpcSigningOptions</b> interface has these methods.
 <a href="https://msdn.microsoft.com/69394df9-5382-49eb-9aa2-0785dee10ac4">GetTimeFormat</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the format of the string retrieved by the <a href="https://msdn.microsoft.com/8054eba8-ca53-42e4-9105-ef7cf20637c1">IOpcDigitalSignature::GetSigningTime</a> method.
+Gets the format of the string retrieved by the <a href="https://msdn.microsoft.com/8054eba8-ca53-42e4-9105-ef7cf20637c1">IOpcDigitalSignature::GetSigningTime</a> method.
             
 
 </td>
@@ -204,8 +193,7 @@ Set the storage location of the certificate to be used for the signature.
 <a href="https://msdn.microsoft.com/8de18a0e-cb3a-4232-90cb-718abdc9fb28">SetDefaultDigestMethod</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the default digest method that will be used to compute digest values for objects to be signed.
+Sets the default digest method that will be used to compute digest values for objects to be signed.
             
 
 </td>
@@ -215,8 +203,7 @@ Set the storage location of the certificate to be used for the signature.
 <a href="https://msdn.microsoft.com/c723d6e8-6af3-41a2-b6dd-d26897495965">SetSignatureId</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the value of the <b>Id</b> attribute of the <b>Signature</b> element.
+Sets the value of the <b>Id</b> attribute of the <b>Signature</b> element.
             
 
 </td>
@@ -226,8 +213,7 @@ Set the storage location of the certificate to be used for the signature.
 <a href="https://msdn.microsoft.com/b567b09a-e688-4c02-8c01-983a307fd0e2">SetSignatureMethod</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the signature method to use to calculate and encrypt the hash value of the <b>SignedInfo</b> element, which will be contained in the <b>SignatureValue</b> element of the signature.
+Sets the signature method to use to calculate and encrypt the hash value of the <b>SignedInfo</b> element, which will be contained in the <b>SignatureValue</b> element of the signature.
             
 
 </td>
@@ -237,8 +223,7 @@ Set the storage location of the certificate to be used for the signature.
 <a href="https://msdn.microsoft.com/36d69a11-bfc3-4f0a-a681-4e138751990d">SetSignaturePartName</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the part name of the signature part where the signature markup will be stored.
+Sets the part name of the signature part where the signature markup will be stored.
             
 
 </td>
@@ -248,8 +233,7 @@ Set the storage location of the certificate to be used for the signature.
 <a href="https://msdn.microsoft.com/3f8c1dbe-6347-4013-bda6-5e08c9d6921d">SetTimeFormat</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the format of the string retrieved by the <a href="https://msdn.microsoft.com/8054eba8-ca53-42e4-9105-ef7cf20637c1">IOpcDigitalSignature::GetSigningTime</a> method.
+Sets the format of the string retrieved by the <a href="https://msdn.microsoft.com/8054eba8-ca53-42e4-9105-ef7cf20637c1">IOpcDigitalSignature::GetSigningTime</a> method.
             
 
 </td>
@@ -263,8 +247,7 @@ Set the storage location of the certificate to be used for the signature.
 
 To generate a signature, call the <a href="https://msdn.microsoft.com/5d40cae4-67d5-40a6-bd63-cf6243a703eb">IOpcDigitalSignatureManager::Sign</a> method with the <i>signingOptions</i> parameter value set to an <b>IOpcSigningOptions</b> interface pointer.
 
-
-              To create an <b>IOpcSigningOptions</b> interface pointer, call the <a href="https://msdn.microsoft.com/c58f9730-b2c2-40cd-8aae-03fbd09f8c76">IOpcDigitalSignatureManager::CreateSigningOptions</a> method.
+To create an <b>IOpcSigningOptions</b> interface pointer, call the <a href="https://msdn.microsoft.com/c58f9730-b2c2-40cd-8aae-03fbd09f8c76">IOpcDigitalSignatureManager::CreateSigningOptions</a> method.
 
 The caller must set a default for the digest method and signature method before generating a signature. To set a default digest method, call the <a href="https://msdn.microsoft.com/8de18a0e-cb3a-4232-90cb-718abdc9fb28">SetDefaultDigestMethod</a> method. To set a signature method, call the <a href="https://msdn.microsoft.com/b567b09a-e688-4c02-8c01-983a307fd0e2">SetSignatureMethod</a> method.
 

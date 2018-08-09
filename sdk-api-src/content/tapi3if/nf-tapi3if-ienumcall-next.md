@@ -4,10 +4,10 @@ title: IEnumCall::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumcall_next.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 5cb911fc-59aa-49c1-9df2-594b0dc22414
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: IEnumCall interface [TAPI 2.2],Next method, IEnumCall.Next, IEnumCall::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumCall interface, _tapi3_ienumcall_next, tapi3.ienumcall_next, tapi3if/IEnumCall::Next
 ms.prod: windows
 ms.technology: windows-sdk

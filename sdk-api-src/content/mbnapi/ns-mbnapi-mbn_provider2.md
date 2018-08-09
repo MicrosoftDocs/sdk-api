@@ -7,7 +7,7 @@ old-location: mbn\mbn_provider2.htm
 old-project: mbn
 ms.assetid: 9D681192-1E40-4314-8E7F-8934AA8162D3
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: MBN_PROVIDER2, MBN_PROVIDER2 structure [Microsoft Broadband Networks], mbn.mbn_provider2, mbnapi/MBN_PROVIDER2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,14 +81,14 @@ Contains a <a href="https://msdn.microsoft.com/2d75c20b-1ae4-4824-8918-41c20327a
 
 
 
-#### - SignalError
-
-Contains the signal error rate as defined by <a href="https://msdn.microsoft.com/028adb54-9c81-4a5b-85f7-5c12ce8d84e4">GetSignalError</a>.
-
-
 #### - SignalStrength
 
 Contains the signal quality received by the device as defined by <a href="https://msdn.microsoft.com/9a580232-4cd2-42f4-a6c7-f777d78241b6">GetSignalStrength</a>.
+
+
+#### - SignalError
+
+Contains the signal error rate as defined by <a href="https://msdn.microsoft.com/028adb54-9c81-4a5b-85f7-5c12ce8d84e4">GetSignalError</a>.
 
 
 ## -see-also

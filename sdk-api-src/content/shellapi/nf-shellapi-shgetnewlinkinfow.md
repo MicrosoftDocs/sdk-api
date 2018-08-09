@@ -7,7 +7,7 @@ old-location: shell\SHGetNewLinkInfo.htm
 old-project: shell
 ms.assetid: ca658d5c-af7b-400c-8f4d-7d4b07bf7f2b
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHGNLI_NOLNK, SHGNLI_NOLOCNAME, SHGNLI_NOUNIQUE, SHGNLI_PIDL, SHGNLI_PREFIXNAME, SHGNLI_USEURLEXT, SHGetNewLinkInfo, SHGetNewLinkInfo function [Windows Shell], SHGetNewLinkInfoA, SHGetNewLinkInfoW, _win32_SHGetNewLinkInfo, shell.SHGetNewLinkInfo, shellapi/SHGetNewLinkInfo, shellapi/SHGetNewLinkInfoA, shellapi/SHGetNewLinkInfoW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,6 +132,21 @@ The options for the function. This can be zero or a combination of the following
 0x000000020. <b>Windows 7 and later</b>. Append a .url file name extension (rather than .lnk) to the name pointed to by <i>pszName</i>. If this flag is not set, the shortcut name uses a .lnk extension unless SHGNLI_NOLNK is set.
 
 
+##### - uFlags.SHGNLI_PIDL (0x000000001)
+
+0x000000001. The target pointed to by <i>pszLinkTo</i> is a PIDL that represents the target. If this flag is not included, <i>pszLinkTo</i> is regarded as the address of a string that contains the path and file name of the target.
+
+
+##### - uFlags.SHGNLI_NOUNIQUE (0x000000002)
+
+0x000000002. Skip the normal checks that ensure that the shortcut name is unique within the destination folder. If this flag is not included, the function creates the shortcut name and then determines whether the name is unique in the destination folder. If a file with the same name already exists in the destination folder, the shortcut name will be modified. This process is repeated until a unique name is found.
+
+
+##### - uFlags.SHGNLI_PREFIXNAME (0x000000004)
+
+0x000000004. The created name will be preceded by the string "Shortcut to ".
+
+
 ##### - uFlags.SHGNLI_NOLNK (0x000000008)
 
 0x000000008. <a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5.0</a> Do not add the .lnk file name extension. You must set the <b>_WIN32_IE</b> macro to 5.01 or greater to use this flag. For more information about versioning, see Shell and Common Controls Versions.
@@ -140,21 +155,6 @@ The options for the function. This can be zero or a combination of the following
 ##### - uFlags.SHGNLI_NOLOCNAME (0x000000010)
 
 0x000000010. <b>Windows Vista and later</b>. Use the non-localized parsing name of the target pointed to by <i>pszLinkTo</i> as the name of the shortcut file. If this flag is not set, the localized name is used.
-
-
-##### - uFlags.SHGNLI_NOUNIQUE (0x000000002)
-
-0x000000002. Skip the normal checks that ensure that the shortcut name is unique within the destination folder. If this flag is not included, the function creates the shortcut name and then determines whether the name is unique in the destination folder. If a file with the same name already exists in the destination folder, the shortcut name will be modified. This process is repeated until a unique name is found.
-
-
-##### - uFlags.SHGNLI_PIDL (0x000000001)
-
-0x000000001. The target pointed to by <i>pszLinkTo</i> is a PIDL that represents the target. If this flag is not included, <i>pszLinkTo</i> is regarded as the address of a string that contains the path and file name of the target.
-
-
-##### - uFlags.SHGNLI_PREFIXNAME (0x000000004)
-
-0x000000004. The created name will be preceded by the string "Shortcut to ".
 
 
 ##### - uFlags.SHGNLI_USEURLEXT (0x000000020)

@@ -7,7 +7,7 @@ old-location: rras\mpradminisservicerunning.htm
 old-project: rras
 ms.assetid: 3722e5f2-3cd7-490a-84b7-4a1c9fa11de7
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminIsServiceRunning, MprAdminIsServiceRunning function [RAS], _mpr_mpradminisservicerunning, mprapi/MprAdminIsServiceRunning, rras.mpradminisservicerunning
 ms.prod: windows
 ms.technology: windows-sdk

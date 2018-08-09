@@ -4,10 +4,10 @@ title: SleepEx function
 author: windows-sdk-content
 description: Suspends the current thread until the specified condition is met.
 old-location: base\sleepex.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: a73cff94-ad63-4110-9f01-6469481c3d55
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SleepEx, SleepEx function, _win32_sleepex, base.sleepex, synchapi/SleepEx, winbase/SleepEx
 ms.prod: windows
 ms.technology: windows-sdk

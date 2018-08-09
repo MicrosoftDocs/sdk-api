@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_feature_data_doubles.htm
 old-project: direct3d11
 ms.assetid: 3cd4006b-25bd-46b8-9fa7-6b7d7eb82a75
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D3D11_FEATURE_DATA_DOUBLES, D3D11_FEATURE_DATA_DOUBLES structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_DOUBLES, dde276ab-cd61-a449-9965-674c9221da9c, direct3d11.d3d11_feature_data_doubles
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Describes double data type support in the current graphics driver.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
-Specifies whether <a href="https://msdn.microsoft.com/library/Bb509646(v=VS.85).aspx">double</a> types are allowed. If <b>TRUE</b>, <a href="https://msdn.microsoft.com/library/Bb509646(v=VS.85).aspx">double</a> types are allowed; otherwise <b>FALSE</b>. The runtime must set <b>DoublePrecisionFloatShaderOps</b> to  <b>TRUE</b> in order for you to use any <a href="https://msdn.microsoft.com/library/Bb509561(v=VS.85).aspx">HLSL</a> shader that is compiled with a <a href="https://msdn.microsoft.com/library/Bb509646(v=VS.85).aspx">double</a> type.
+Specifies whether <a href="https://msdn.microsoft.com/en-us/library/Bb509646(v=VS.85).aspx">double</a> types are allowed. If <b>TRUE</b>, <a href="https://msdn.microsoft.com/en-us/library/Bb509646(v=VS.85).aspx">double</a> types are allowed; otherwise <b>FALSE</b>. The runtime must set <b>DoublePrecisionFloatShaderOps</b> to  <b>TRUE</b> in order for you to use any <a href="https://msdn.microsoft.com/en-us/library/Bb509561(v=VS.85).aspx">HLSL</a> shader that is compiled with a <a href="https://msdn.microsoft.com/en-us/library/Bb509646(v=VS.85).aspx">double</a> type.
 
 
 ## -remarks

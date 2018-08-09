@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationcallbacks.htm
 old-project: wmi_v2
 ms.assetid: f56954bf-c1aa-408b-bc45-0faf2a99b381
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_OperationCallbacks, MI_OperationCallbacks structure [Windows Management Infrastructure (MI)], _MI_OperationCallbacks, mi/MI_OperationCallbacks, wmi._mi_operationcallbacks, wmi_v2.mi_operationcallbacks
 ms.prod: windows
 ms.technology: windows-sdk

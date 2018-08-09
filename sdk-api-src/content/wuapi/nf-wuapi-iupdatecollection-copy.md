@@ -4,10 +4,10 @@ title: IUpdateCollection::Copy
 author: windows-sdk-content
 description: Creates a shallow read/write copy of the collection.
 old-location: wua\iupdatecollection_copy.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 78a024a4-7aab-4bcb-bd3f-a79ef5580e1b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: Copy, Copy method [Windows Update Agent], Copy method [Windows Update Agent],IUpdateCollection interface, IUpdateCollection interface [Windows Update Agent],Copy method, IUpdateCollection.Copy, IUpdateCollection::Copy, wua.iupdatecollection_copy, wuapi/IUpdateCollection::Copy
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: monitor\getmonitorcontrast.htm
 old-project: Monitor
 ms.assetid: 996d894d-3939-418f-b7d2-c0e9d667391e
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetMonitorContrast, GetMonitorContrast function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorContrast, monitor.getmonitorcontrast
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-        Retrieves a monitor's minimum, maximum, and current contrast settings.
+Retrieves a monitor's minimum, maximum, and current contrast settings.
 
 
 ## -parameters
@@ -62,29 +61,25 @@ req.product: GDI+ 1.1
 
 ### -param hMonitor [in]
 
-
-            Handle to a physical monitor. To get the monitor handle, call <a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
+Handle to a physical monitor. To get the monitor handle, call <a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
           
 
 
 ### -param pdwMinimumContrast [out]
 
-
-            Receives the monitor's minimum contrast.
+Receives the monitor's minimum contrast.
           
 
 
 ### -param pdwCurrentContrast [out]
 
-
-            Receives the monitor's current contrast.
+Receives the monitor's current contrast.
           
 
 
 ### -param pdwMaximumContrast [out]
 
-
-            Receives the monitor's maximum contrast.
+Receives the monitor's maximum contrast.
           
 
 
@@ -92,8 +87,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
           
 
 
@@ -103,16 +97,13 @@ req.product: GDI+ 1.1
 
 
 
-
-        If this function is supported, the <a href="https://msdn.microsoft.com/57cf0004-58cf-46d9-b5be-22edda2ce5a9">GetMonitorCapabilities</a> function returns the MC_CAPS_CONTRAST flag.
+If this function is supported, the <a href="https://msdn.microsoft.com/57cf0004-58cf-46d9-b5be-22edda2ce5a9">GetMonitorCapabilities</a> function returns the MC_CAPS_CONTRAST flag.
       
 
-
-        This function takes about 40 milliseconds to return.
+This function takes about 40 milliseconds to return.
       
 
-
-        The brightness setting is a continuous monitor setting. For more information, see <a href="https://msdn.microsoft.com/23e5d45d-a924-4119-b21d-b24764b53a94">Using the High-Level Monitor Configuration Functions</a>.
+The brightness setting is a continuous monitor setting. For more information, see <a href="https://msdn.microsoft.com/23e5d45d-a924-4119-b21d-b24764b53a94">Using the High-Level Monitor Configuration Functions</a>.
       
 
 

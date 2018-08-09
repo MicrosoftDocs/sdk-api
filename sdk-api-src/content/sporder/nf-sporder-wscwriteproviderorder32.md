@@ -4,10 +4,10 @@ title: WSCWriteProviderOrder32 function
 author: windows-sdk-content
 description: Used to reorder the available 32-bit transport providers.
 old-location: winsock\wscwriteproviderorder32.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 03ce09b4-d80e-480d-9219-d226df055f18
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSCWriteProviderOrder32, WSCWriteProviderOrder32 function [Winsock], sporder/WSCWriteProviderOrder32, winsock.wscwriteproviderorder32
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Sporder.lib
 req.dll: Ws2_32.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # WSCWriteProviderOrder32 function

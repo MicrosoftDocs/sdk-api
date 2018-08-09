@@ -7,7 +7,7 @@ old-location: winprog\_dxgkernel_dddeletedirectdrawobject.htm
 old-project: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dddeletedirectdrawobject.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: DdDeleteDirectDrawObject, DdDeleteDirectDrawObject function [Windows API], GdiEntry3, _dxgkernel_dddeletedirectdrawobject, ddrawgdi/DdDeleteDirectDrawObject, ddrawgdi/GdiEntry3, winprog._dxgkernel_dddeletedirectdrawobject, winui._dxgkernel_dddeletedirectdrawobject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ req.irql:
 
 <p class="CCE_Message">[This function is subject to change with each operating system revision. Instead, use the DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers.]
 
-Wrapper for the <a href="https://msdn.microsoft.com/library/ms648497(v=VS.85).aspx">NtGdiDdDeleteDirectDrawObject</a> function and deletes a kernel-mode Microsoft DirectDraw object that was previously created using <a href="https://msdn.microsoft.com/library/ms648435(v=VS.85).aspx">DdCreateDirectDrawObject</a>.
+Wrapper for the <a href="https://msdn.microsoft.com/en-us/library/ms648497(v=VS.85).aspx">NtGdiDdDeleteDirectDrawObject</a> function and deletes a kernel-mode Microsoft DirectDraw object that was previously created using <a href="https://msdn.microsoft.com/en-us/library/ms648435(v=VS.85).aspx">DdCreateDirectDrawObject</a>.
 
 
 <b>GdiEntry3</b> is defined as an alias for this function.
@@ -87,9 +87,7 @@ If successful, this function returns <b>TRUE</b>; otherwise it returns <b>FALSE<
 
 Applications are advised to use the 
 DirectDraw and 
-<a href="http://msdn.microsoft.com/en-us/library/bb205147(VS.85).aspx">Direct3D</a>
-     
-    APIs to create and manage graphics device objects. These constructs abstract the device creation process in a simplified and operating-system-independent way.
+<a href="http://msdn.microsoft.com/en-us/library/bb205147(VS.85).aspx">Direct3D</a>APIs to create and manage graphics device objects. These constructs abstract the device creation process in a simplified and operating-system-independent way.
     
         
 
@@ -101,7 +99,7 @@ DirectDraw and
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648408(v=VS.85).aspx">Graphics Low Level Client Support</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648408(v=VS.85).aspx">Graphics Low Level Client Support</a>
  
 
  

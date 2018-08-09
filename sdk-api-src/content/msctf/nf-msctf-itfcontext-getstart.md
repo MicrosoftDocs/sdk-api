@@ -7,7 +7,7 @@ old-location: tsf\itfcontext_getstart.htm
 old-project: TSF
 ms.assetid: 3108da05-c38f-4f0c-a16a-1f7e5f05d475
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetStart, GetStart method [Text Services Framework], GetStart method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetStart method, ITfContext.GetStart, ITfContext::GetStart, _tsf_itfcontext_getstart_ref, msctf/ITfContext::GetStart, tsf.itfcontext_getstart
 ms.prod: windows
 ms.technology: windows-sdk
@@ -176,8 +176,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">
-        ITfRange
+<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
       </a>
  
 

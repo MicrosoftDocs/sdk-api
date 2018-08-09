@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel_currentcorrectionmode.htm
 old-project: tablet
 ms.assetid: 92cd44a0-4dc6-4882-9ebb-45aa5b3fbc69
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 92cd44a0-4dc6-4882-9ebb-45aa5b3fbc69, CurrentCorrectionMode property [Tablet PC], CurrentCorrectionMode property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CurrentCorrectionMode property, ITextInputPanel.CurrentCorrectionMode, ITextInputPanel.get_CurrentCorrectionMode, ITextInputPanel::CurrentCorrectionMode, ITextInputPanel::get_CurrentCorrectionMode, get_CurrentCorrectionMode, peninputpanel/ITextInputPanel::CurrentCorrectionMode, peninputpanel/ITextInputPanel::get_CurrentCorrectionMode, tablet.itextinputpanel_currentcorrectionmode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,8 +72,7 @@ This property is read-only.
 
 
 
-<div class="alert"><b>Note</b>  
-		In Windows 7, the behavior of the ITextInputPanel interface has changed and the <i>Mode</i> parameter will always be set to "no correction" when returned.
+<div class="alert"><b>Note</b>  In Windows 7, the behavior of the ITextInputPanel interface has changed and the <i>Mode</i> parameter will always be set to "no correction" when returned.
 		</div>
 <div> </div>
 When the Tablet PC Input Panel or the correction comb is not visible, the current mode is <a href="https://msdn.microsoft.com/133d2012-e43c-490a-b126-b7670ea7acf8">CorrectionMode_NotVisible</a>.

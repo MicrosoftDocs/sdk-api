@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createimagebrush.htm
 old-project: printdocs
 ms.assetid: f271e152-8120-49c4-804d-069e224c6597
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateImageBrush, CreateImageBrush method [XPS Documents and Packaging], CreateImageBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateImageBrush method, IXpsOMObjectFactory.CreateImageBrush, IXpsOMObjectFactory::CreateImageBrush, xps.ixpsomobjectfactory_createimagebrush, xpsobjectmodel/IXpsOMObjectFactory::CreateImageBrush
 ms.prod: windows
 ms.technology: windows-sdk

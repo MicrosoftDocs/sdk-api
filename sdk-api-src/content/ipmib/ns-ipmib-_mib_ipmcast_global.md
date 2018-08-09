@@ -7,7 +7,7 @@ old-location: mib\mib_ipmcast_global.htm
 old-project: mib
 ms.assetid: b967a064-0c89-47eb-8c7c-eb1b9141e5d7
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/30/2018
 ms.keywords: "*PMIB_IPMCAST_GLOBAL, MIB_IPMCAST_GLOBAL, MIB_IPMCAST_GLOBAL structure [MIB], PMIB_IPMCAST_GLOBAL, PMIB_IPMCAST_GLOBAL structure pointer [MIB], _MIB_IPMCAST_GLOBAL, _mpr_mib_ipmcast_global, ipmib/MIB_IPMCAST_GLOBAL, ipmib/PMIB_IPMCAST_GLOBAL, iprtrmib/MIB_IPMCAST_GLOBAL, iprtrmib/PMIB_IPMCAST_GLOBAL, mib.mib_ipmcast_global, rras.mib_ipmcast_global"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ Specifies whether IP multicast is enabled on the computer.
 
 
 
-On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista
-   and later, the organization of header files has changed. This  structure is defined in the <i>Ipmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ipmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ipmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
+On the Microsoft Windows Software Development Kit (SDK) released for Windows Vistaand later, the organization of header files has changed. This  structure is defined in the <i>Ipmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ipmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ipmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
 
 

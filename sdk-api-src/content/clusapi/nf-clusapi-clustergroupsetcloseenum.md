@@ -7,7 +7,7 @@ old-location: mscs\clustergroupcollectioncloseenum.htm
 old-project: mscs
 ms.assetid: b82e13f0-364c-41cf-9fda-98a95f23ff7d
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusterGroupSetCloseEnum, ClusterGroupSetCloseEnum function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET, PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET function [Failover Cluster], clusapi/ClusterGroupSetCloseEnum, clusapi/PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET, mscs.clustergroupcollectioncloseenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,14 +58,7 @@ Closes an open enumeration for a groupset.
 
 
 
-### -param hGroupSetEnum
-
-TBD
-
-
-
-
-#### - hGroupCollectionEnum [in]
+### -param hGroupSetEnum [in]
 
 The enumeration to be closed.
 

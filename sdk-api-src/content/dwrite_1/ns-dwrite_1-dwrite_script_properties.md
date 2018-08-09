@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_script_properties.htm
 old-project: DirectWrite
 ms.assetid: 5210C04E-618B-4FE9-A6FC-6F0FF17A64D5
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: DWRITE_SCRIPT_PROPERTIES, DWRITE_SCRIPT_PROPERTIES structure [Direct Write], directwrite.dwrite_script_properties, dwrite_1/DWRITE_SCRIPT_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk

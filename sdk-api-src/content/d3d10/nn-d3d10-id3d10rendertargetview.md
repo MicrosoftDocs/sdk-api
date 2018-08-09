@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10rendertargetview.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10rendertargetview.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 76c9084d-ce0f-116d-42dd-eae6aa607d0e, ID3D10RenderTargetView, ID3D10RenderTargetView interface [Direct3D 10], ID3D10RenderTargetView interface [Direct3D 10],described, d3d10/ID3D10RenderTargetView, direct3d10.id3d10rendertargetview
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,12 +51,12 @@ req.irql:
 ## -description
 
 
-A render-target-view interface identifies the render-target <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">subresources</a> that can be accessed during rendering.
+A render-target-view interface identifies the render-target <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresources</a> that can be accessed during rendering.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10RenderTargetView</b> interface inherits from <a href="https://msdn.microsoft.com/library/Bb173876(v=VS.85).aspx">ID3D10View</a>. <b>ID3D10RenderTargetView</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10RenderTargetView</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173876(v=VS.85).aspx">ID3D10View</a>. <b>ID3D10RenderTargetView</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID3D10RenderTargetView</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173828(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173828(v=VS.85).aspx">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get the properties of a render target view.
@@ -85,7 +85,7 @@ Get the properties of a render target view.
 
 
 
-To create a render-target view, call <a href="https://msdn.microsoft.com/library/Bb173556(v=VS.85).aspx">ID3D10Device::CreateRenderTargetView</a>. To bind a render-target view to the pipeline, call <a href="https://msdn.microsoft.com/library/Bb173597(v=VS.85).aspx">ID3D10Device::OMSetRenderTargets</a>.
+To create a render-target view, call <a href="https://msdn.microsoft.com/en-us/library/Bb173556(v=VS.85).aspx">ID3D10Device::CreateRenderTargetView</a>. To bind a render-target view to the pipeline, call <a href="https://msdn.microsoft.com/en-us/library/Bb173597(v=VS.85).aspx">ID3D10Device::OMSetRenderTargets</a>.
 
 A rendertarget is a resource that can be written by the output-merger stage at the end of a render pass. Each render-target should also have a corresponding depth-stencil view.
 
@@ -97,11 +97,11 @@ A rendertarget is a resource that can be written by the output-merger stage at t
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173876(v=VS.85).aspx">ID3D10View</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173876(v=VS.85).aspx">ID3D10View</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205276(v=VS.85).aspx">Resource Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205276(v=VS.85).aspx">Resource Interfaces</a>
  
 
  

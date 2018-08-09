@@ -7,7 +7,7 @@ old-location: security\bcryptregisterconfigchangenotify_handle.htm
 old-project: seccng
 ms.assetid: e0d60ea1-3b0b-4afe-bbfc-52f0d48b7399
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: BCryptRegisterConfigChangeNotify, BCryptRegisterConfigChangeNotify function [Security], BCryptRegisterConfigChangeNotify(HANDLE*), bcrypt/BCryptRegisterConfigChangeNotify, security.bcryptregisterconfigchangenotify_handle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,14 +60,7 @@ The <b>BCryptRegisterConfigChangeNotify(HANDLE*)</b> function creates a user mod
 
 
 
-### -param pEvent
-
-TBD
-
-
-
-
-#### - phEvent [out]
+### -param pEvent [out]
 
 The address of a <b>HANDLE</b> variable that receives the event handle. Use one of the <a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">Wait Functions</a>, such as <a href="https://msdn.microsoft.com/e37ebff7-b44e-469d-81ab-7a6bd1a0c822">WaitForSingleObject</a>, to determine when the event has been signaled. The event is unnamed and must be a manual-reset event. The event is signaled when any CNG configuration data has changed.
 

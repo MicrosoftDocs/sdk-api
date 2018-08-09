@@ -7,7 +7,7 @@ old-location: automat\icreatetypelib_setlibflags.htm
 old-project: automat
 ms.assetid: fc72635c-853f-4a0a-9869-263e4aa39b8b
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetLibFlags method, ICreateTypeLib.SetLibFlags, ICreateTypeLib::SetLibFlags, SetLibFlags, SetLibFlags method [Automation], SetLibFlags method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetLibFlags, automat.icreatetypelib_setlibflags, oaidl/ICreateTypeLib::SetLibFlags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -140,7 +140,7 @@ The state of the type library is not valid for this operation.
 
 
 
-Valid <i>uLibFlags</i> values are listed in <a href="https://msdn.microsoft.com/library/ms221149(v=VS.85).aspx">LIBFLAGS</a>. 
+Valid <i>uLibFlags</i> values are listed in <a href="https://msdn.microsoft.com/en-us/library/ms221149(v=VS.85).aspx">LIBFLAGS</a>. 
 
 
 

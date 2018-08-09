@@ -4,10 +4,10 @@ title: IUpdateService::get_ExpirationDate
 author: windows-sdk-content
 description: Gets the date on which the authorization cabinet file expires.
 old-location: wua\iupdateservice_expirationdate.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: d13444bc-671b-4b3a-a970-0660ef63a4d8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: ExpirationDate property [Windows Update Agent], ExpirationDate property [Windows Update Agent],IUpdateService interface, IUpdateService interface [Windows Update Agent],ExpirationDate property, IUpdateService.ExpirationDate, IUpdateService.get_ExpirationDate, IUpdateService::ExpirationDate, IUpdateService::get_ExpirationDate, get_ExpirationDate, wua.iupdateservice_expirationdate, wua.iupdateservice_expirydate, wuapi/IUpdateService::ExpirationDate, wuapi/IUpdateService::get_ExpirationDate
 ms.prod: windows
 ms.technology: windows-sdk

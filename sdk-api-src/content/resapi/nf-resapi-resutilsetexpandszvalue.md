@@ -7,7 +7,7 @@ old-location: mscs\resutilsetexpandszvalue.htm
 old-project: mscs
 ms.assetid: a2049be4-cebb-45bf-b2f7-40841e379b12
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: PRESUTIL_SET_EXPAND_SZ_VALUE, PRESUTIL_SET_EXPAND_SZ_VALUE function [Failover Cluster], ResUtilSetExpandSzValue, ResUtilSetExpandSzValue function [Failover Cluster], _wolf_resutilsetexpandszvalue, mscs.resutilsetexpandszvalue, resapi/PRESUTIL_SET_EXPAND_SZ_VALUE, resapi/ResUtilSetExpandSzValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,14 +74,7 @@ null-terminated Unicode string containing the name of the value to update.
 Pointer to the new expandable string value.
 
 
-### -param ppszOutString
-
-TBD
-
-
-
-
-#### - ppszOutValue [in, out, optional]
+### -param ppszOutString [in, out, optional]
 
 Pointer to a string pointer that receives a copy of the updated value. If used, callers must call <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> on *<i>ppszOutValue</i>.
 

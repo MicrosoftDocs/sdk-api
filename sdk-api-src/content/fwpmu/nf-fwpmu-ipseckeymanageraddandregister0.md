@@ -7,7 +7,7 @@ old-location: fwp\ipseckeymanageraddandregister0.htm
 old-project: fwp
 ms.assetid: 9606A611-6C55-4548-B9C4-688580338F08
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPsecKeyManagerAddAndRegister0, IPsecKeyManagerAddAndRegister0 function [Filtering], fwp.ipseckeymanageraddandregister0, fwpmu/IPsecKeyManagerAddAndRegister0
 ms.prod: windows
 ms.technology: windows-sdk

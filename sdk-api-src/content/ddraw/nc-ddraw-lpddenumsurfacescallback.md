@@ -7,7 +7,7 @@ old-location: directdraw\enumsurfacescallback.htm
 old-project: directdraw
 ms.assetid: 4195C266-4F1D-4DD6-935E-78D07ACAA765
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: EnumSurfacesCallback, EnumSurfacesCallback callback function [DirectDraw], LPDDENUMSURFACESCALLBACK, LPDDENUMSURFACESCALLBACK callback, ddraw/EnumSurfacesCallback, directdraw.enumsurfacescallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,11 +75,6 @@ Do not use. This callback function is superseded by the <a href="https://msdn.mi
 
 
 
-#### - lpContext [in]
-
-A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
-
-
 #### - lpDDSurface [in]
 
 A pointer to the <b>IDirectDrawSurface</b> interface for the attached surface.
@@ -88,6 +83,11 @@ A pointer to the <b>IDirectDrawSurface</b> interface for the attached surface.
 #### - lpDDSurfaceDesc [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550339">DDSURFACEDESC</a> structure that describes the attached surface.
+
+
+#### - lpContext [in]
+
+A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
 
 
 ## -returns

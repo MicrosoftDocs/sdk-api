@@ -7,7 +7,7 @@ old-location: shell\AssocQueryKey.htm
 old-project: shell
 ms.assetid: 9eaeb885-0428-48c3-82a7-5dc21d5015ce
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: AssocQueryKey, AssocQueryKey function [Windows Shell], AssocQueryKeyA, AssocQueryKeyW, CLSID, Executable name, File name extension, ProgID, _win32_AssocQueryKey, shell.AssocQueryKey, shlwapi/AssocQueryKey, shlwapi/AssocQueryKeyA, shlwapi/AssocQueryKeyW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,24 +121,24 @@ Type: <b>HKEY*</b>
 A pointer to the key's HKEY value.
 
 
-##### - pszAssoc.CLSID
-
-A CLSID GUID in the standard "{GUID}" format.
-
-
-##### - pszAssoc.Executable name
-
-The name of an application's .exe file. The <a href="https://msdn.microsoft.com/e67d0282-9090-43e6-aedf-bb1fc0443221">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
-
-
 ##### - pszAssoc.File name extension
 
 A file name extension, such as .txt.
 
 
+##### - pszAssoc.CLSID
+
+A CLSID GUID in the standard "{GUID}" format.
+
+
 ##### - pszAssoc.ProgID
 
 An application's ProgID, such as <b>Word.Document.8</b>.
+
+
+##### - pszAssoc.Executable name
+
+The name of an application's .exe file. The <a href="https://msdn.microsoft.com/e67d0282-9090-43e6-aedf-bb1fc0443221">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
 
 
 ## -returns

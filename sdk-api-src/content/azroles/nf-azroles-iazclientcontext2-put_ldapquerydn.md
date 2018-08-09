@@ -7,7 +7,7 @@ old-location: security\iazclientcontext2_ldapquerydn.htm
 old-project: secauthz
 ms.assetid: 3d06e240-10d9-4d58-baae-c3d2a38ac556
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: IAzClientContext2 interface [Security],LDAPQueryDN property, IAzClientContext2.LDAPQueryDN, IAzClientContext2.put_LDAPQueryDN, IAzClientContext2::LDAPQueryDN, IAzClientContext2::get_LDAPQueryDN, IAzClientContext2::put_LDAPQueryDN, LDAPQueryDN property [Security], LDAPQueryDN property [Security],IAzClientContext2 interface, azroles/IAzClientContext2::LDAPQueryDN, azroles/IAzClientContext2::get_LDAPQueryDN, azroles/IAzClientContext2::put_LDAPQueryDN, put_LDAPQueryDN, security.iazclientcontext2_ldapquerydn
 ms.prod: windows
 ms.technology: windows-sdk

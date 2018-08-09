@@ -7,7 +7,7 @@ old-location: devinst\cm_get_device_id_list.htm
 old-project: devinst
 ms.assetid: aa0ab004-3813-4339-90bb-afd9acf200c8
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: CM_Get_Device_ID_List, CM_Get_Device_ID_List function [Device and Driver Installation], CM_Get_Device_ID_ListA, CM_Get_Device_ID_ListW, cfgmgr32/CM_Get_Device_ID_List, cfgmgr32/CM_Get_Device_ID_ListA, cfgmgr32/CM_Get_Device_ID_ListW, cfgmgrfn_e9f614d2-9bac-4b30-b9a0-f0764e37950b.xml, devinst.cm_get_device_id_list
 ms.prod: windows
 ms.technology: windows-sdk
@@ -164,11 +164,6 @@ Note that if the device tree does not contain a <a href="https://msdn.microsoft.
 If no search filter flag is specified, the function returns all device instance IDs for all device instances.
 
 
-##### - ulFlags.CM_GETIDLIST_DONOTGENERATE
-
-Used only with CM_GETIDLIST_FILTER_SERVICE. If set, and if the device tree does not contain a devnode for the specified service, this flag prevents the function from creating a devnode for the service. 
-
-
 ##### - ulFlags.CM_GETIDLIST_FILTER_BUSRELATIONS
 
 If this flag is set, <i>pszFilter</i> must specify a device instance identifier. The function returns device instance IDs for the <a href="https://msdn.microsoft.com/32437c5a-ad92-433c-8255-83775751a44d">bus relations</a> of the specified device instance.
@@ -179,6 +174,25 @@ If this flag is set, <i>pszFilter</i> must specify a device instance identifier.
 If this flag is set, <i>pszFilter</i> contains a string that specifies a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a> GUID. The returned list contains device instances for which the property (referenced by the CM_DRP_CLASSGUID constant) matches the specified device setup class GUID. 
 
 The CM_DRP_CLASSGUID constant is defined in <i>Cfgmgr32.h</i>.
+
+
+##### - ulFlags.CM_GETIDLIST_FILTER_PRESENT (Windows 7 and later versions of Windows)
+
+If this flag is set, the returned list contains only device instances that are currently present on the system. This value can be combined with other <i>ulFlags</i> values, such as CM_GETIDLIST_FILTER_CLASS.
+
+
+##### - ulFlags.CM_GETIDLIST_FILTER_TRANSPORTRELATIONS (Windows 7 and later versions of Windows)
+
+If this flag is set, <i>pszFilter</i> must specify the device instance identifier of a composite device node (<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">devnode</a>).
+
+The function returns the device instance identifiers of the devnodes that represent the transport relations of the specified composite devnode. 
+
+For more information about composite devnodes and transport relations, see the following <b>Remarks</b> section.
+
+
+##### - ulFlags.CM_GETIDLIST_DONOTGENERATE
+
+Used only with CM_GETIDLIST_FILTER_SERVICE. If set, and if the device tree does not contain a devnode for the specified service, this flag prevents the function from creating a devnode for the service. 
 
 
 ##### - ulFlags.CM_GETIDLIST_FILTER_EJECTRELATIONS
@@ -205,11 +219,6 @@ If this flag is set, <i>pszFilter</i> is ignored, and a list of all devices on t
 If this flag is set, <i>pszFilter</i> must specify a device instance identifier. The function returns device instance IDs for the power relations of the specified device instance.
 
 
-##### - ulFlags.CM_GETIDLIST_FILTER_PRESENT (Windows 7 and later versions of Windows)
-
-If this flag is set, the returned list contains only device instances that are currently present on the system. This value can be combined with other <i>ulFlags</i> values, such as CM_GETIDLIST_FILTER_CLASS.
-
-
 ##### - ulFlags.CM_GETIDLIST_FILTER_REMOVALRELATIONS
 
 If this flag is set, <i>pszFilter</i> must specify a device instance identifier. The function returns device instance IDs for the <a href="https://msdn.microsoft.com/32437c5a-ad92-433c-8255-83775751a44d">removal relations</a> of the specified device instance.
@@ -220,15 +229,6 @@ If this flag is set, <i>pszFilter</i> must specify a device instance identifier.
 If this flag is set, <i>pszFilter</i> must specify the name of a Microsoft Windows service (typically a driver). The function returns device instance IDs for the device instances controlled by the specified service.
 
 Note that if the device tree does not contain a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">devnode</a> for the specified service, this function creates one by default. To inhibit this behavior, also set CM_GETIDLIST_DONOTGENERATE.
-
-
-##### - ulFlags.CM_GETIDLIST_FILTER_TRANSPORTRELATIONS (Windows 7 and later versions of Windows)
-
-If this flag is set, <i>pszFilter</i> must specify the device instance identifier of a composite device node (<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">devnode</a>).
-
-The function returns the device instance identifiers of the devnodes that represent the transport relations of the specified composite devnode. 
-
-For more information about composite devnodes and transport relations, see the following <b>Remarks</b> section.
 
 
 ## -returns

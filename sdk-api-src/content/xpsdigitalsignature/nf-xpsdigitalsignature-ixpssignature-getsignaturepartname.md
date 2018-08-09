@@ -7,7 +7,7 @@ old-location: xps\ixpssignature_getsignaturepartname.htm
 old-project: printdocs
 ms.assetid: ed0c29e2-225b-4478-a8d7-d9ec28f8b1f4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetSignaturePartName, GetSignaturePartName method [XPS Documents and Packaging], GetSignaturePartName method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSignaturePartName method, IXpsSignature.GetSignaturePartName, IXpsSignature::GetSignaturePartName, xps.ixpssignature_getsignaturepartname, xpsdigitalsignature/IXpsSignature::GetSignaturePartName
 ms.prod: windows
 ms.technology: windows-sdk

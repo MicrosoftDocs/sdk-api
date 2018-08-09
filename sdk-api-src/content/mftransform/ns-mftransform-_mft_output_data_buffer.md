@@ -7,7 +7,7 @@ old-location: mf\mft_output_data_buffer.htm
 old-project: medfound
 ms.assetid: 57623c8f-f7b6-4cb3-8d54-4ee516c706c3
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: "*PMFT_OUTPUT_DATA_BUFFER, 57623c8f-f7b6-4cb3-8d54-4ee516c706c3, MFT_OUTPUT_DATA_BUFFER, MFT_OUTPUT_DATA_BUFFER structure [Media Foundation], _MFT_OUTPUT_DATA_BUFFER, mf.mft_output_data_buffer, mftransform/MFT_OUTPUT_DATA_BUFFER"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,11 +93,9 @@ You must provide an <b>MFT_OUTPUT_DATA_BUFFER</b> structure for each selected ou
 MFTs can support two different allocation models for output samples:
 
 <ul>
-<li>
-            The MFT allocates the output sample.
+<li>The MFT allocates the output sample.
           </li>
-<li>
-            The client allocates the output sample.
+<li>The client allocates the output sample.
           </li>
 </ul>
 To find which model the MFT supports for a given output stream, call <a href="https://msdn.microsoft.com/06cc7f1d-57a3-43b8-ab83-8d2ee8e655b5">IMFTransform::GetOutputStreamInfo</a> and check the value of <b>dwFlags</b>.

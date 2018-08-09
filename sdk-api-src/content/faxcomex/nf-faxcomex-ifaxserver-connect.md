@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_connect_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0ipg.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: Connect, Connect method [Fax Service], Connect method [Fax Service],FaxServer object, FaxServer object [Fax Service],Connect method, FaxServer.Connect, IFaxServer.Connect, IFaxServer::Connect, _mfax_faxserver.connect, fax._mfax_faxserver_connect, fax._mfax_faxserver_connect_vb
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,9 +71,9 @@ A null-terminated string that specifies the name of the target fax server, such 
 
 
 
-Before accessing most of the objects of the fax extended Component Object Model (COM), the application must call this method to initiate a connection with an active fax server. A fax server connection is not required for you to access a <a href="https://msdn.microsoft.com/library/ms685958(v=VS.85).aspx">FaxDocument</a> object. The method fails if the client is not connected to an active fax server. 
+Before accessing most of the objects of the fax extended Component Object Model (COM), the application must call this method to initiate a connection with an active fax server. A fax server connection is not required for you to access a <a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a> object. The method fails if the client is not connected to an active fax server. 
 
-To connect to the local server, set the <i>bstrServerName</i> parameter to <b>Null</b> or an empty string. For usage examples, see <a href="https://msdn.microsoft.com/library/ms692919(v=VS.85).aspx">Connecting to the Fax Server</a>.
+To connect to the local server, set the <i>bstrServerName</i> parameter to <b>Null</b> or an empty string. For usage examples, see <a href="https://msdn.microsoft.com/en-us/library/ms692919(v=VS.85).aspx">Connecting to the Fax Server</a>.
 
 
 
@@ -83,15 +83,15 @@ To connect to the local server, set the <i>bstrServerName</i> parameter to <b>Nu
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689110(v=VS.85).aspx">IFaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692922(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692922(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

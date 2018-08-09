@@ -4,10 +4,10 @@ title: InternetGetCookieExA function
 author: windows-sdk-content
 description: Retrieves data stored in cookies associated with a specified URL.
 old-location: wininet\internetgetcookieex.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: 5006f009-e217-4fdc-9e4e-800ff5fcbf03
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: INTERNET_COOKIE_HTTPONLY, INTERNET_COOKIE_THIRD_PARTY, INTERNET_FLAG_RESTRICTED_ZONE, InternetGetCookieEx, InternetGetCookieEx function [WinINet], InternetGetCookieExA, InternetGetCookieExW, wininet.internetgetcookieex, wininet/InternetGetCookieEx, wininet/InternetGetCookieExA, wininet/InternetGetCookieExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ The <b>InternetGetCookieEx</b> function retrieves data stored in cookies associa
 
 
 
-### -param lpszUrl
+### -param lpszUrl [in]
 
-TBD
+A pointer to a <b>null</b>-terminated string that contains the URL with which the cookie to retrieve is associated. This parameter cannot be <b>NULL</b> or <b>InternetGetCookieEx</b> fails and returns an  <b>ERROR_INVALID_PARAMETER</b> error.
 
 
 ### -param lpszCookieName [in]
@@ -140,11 +140,6 @@ Retrieves only cookies that would be allowed if the specified URL were untrusted
 ### -param lpReserved [in]
 
 Reserved for future use. Set to <b>NULL</b>.
-
-
-#### - lpszURL [in]
-
-A pointer to a <b>null</b>-terminated string that contains the URL with which the cookie to retrieve is associated. This parameter cannot be <b>NULL</b> or <b>InternetGetCookieEx</b> fails and returns an  <b>ERROR_INVALID_PARAMETER</b> error.
 
 
 ## -returns

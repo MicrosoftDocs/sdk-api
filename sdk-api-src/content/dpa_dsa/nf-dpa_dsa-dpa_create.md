@@ -7,7 +7,7 @@ old-location: controls\DPA_Create.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_create.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DPA_Create, DPA_Create function [Windows Controls], _win32_DPA_Create, _win32_DPA_Create_cpp, controls.DPA_Create, controls._win32_DPA_Create, dpa_dsa/DPA_Create
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,13 +62,6 @@ Creates a dynamic pointer array (DPA).
 
 ### -param cItemGrow
 
-TBD
-
-
-
-
-#### - cpGrow
-
 Type: <b>int</b>
 
 The number of elements by which the array should be expanded, if the DPA needs to be enlarged.
@@ -90,7 +83,7 @@ Returns a handle to a DPA if successful, or <b>NULL</b> if the call fails.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775605(v=VS.85).aspx">DPA_CreateEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775605(v=VS.85).aspx">DPA_CreateEx</a>
  
 
  

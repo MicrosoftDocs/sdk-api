@@ -7,7 +7,7 @@ old-location: imapi\iprogressitem_get_firstblock.htm
 old-project: imapi
 ms.assetid: 9c1c5932-0301-4752-871d-609d3c128906
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IProgressItem interface [IMAPI],get_FirstBlock method, IProgressItem.get_FirstBlock, IProgressItem::get_FirstBlock, get_FirstBlock, get_FirstBlock method [IMAPI], get_FirstBlock method [IMAPI],IProgressItem interface, imapi.iprogressitem_get_firstblock, imapi2fs/IProgressItem::get_FirstBlock
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\SHGetDataFromIDList.htm
 old-project: shell
 ms.assetid: 11c041bd-22fd-46a4-b75c-cc86ee771241
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHGDFIL_DESCRIPTIONID, SHGDFIL_FINDDATA, SHGDFIL_NETRESOURCE, SHGetDataFromIDList, SHGetDataFromIDList function [Windows Shell], SHGetDataFromIDListA, SHGetDataFromIDListW, _win32_SHGetDataFromIDList, shell.SHGetDataFromIDList, shlobj_core/SHGetDataFromIDList, shlobj_core/SHGetDataFromIDListA, shlobj_core/SHGetDataFromIDListW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,12 +119,6 @@ Type: <b>int</b>
 Size of the buffer at <i>pv</i>, in bytes.
 
 
-##### - nFormat.SHGDFIL_DESCRIPTIONID
-
-
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 4.71</a>. Format used for network resources. The <i>pv</i> parameter is the address of an <a href="https://msdn.microsoft.com/dca32567-2049-4797-af87-d08a5d5d055d">SHDESCRIPTIONID</a> structure.
-
-
 ##### - nFormat.SHGDFIL_FINDDATA
 
 Format used for file system objects. The <i>pv</i> parameter is the address of a <a href="https://msdn.microsoft.com/eb700d84-0ba5-4af8-a619-2d2544560dbc">WIN32_FIND_DATA</a> structure.
@@ -133,6 +127,12 @@ Format used for file system objects. The <i>pv</i> parameter is the address of a
 ##### - nFormat.SHGDFIL_NETRESOURCE
 
 Format used for network resources. The <i>pv</i> parameter is the address of a <a href="https://msdn.microsoft.com/c53d078e-188a-4371-bdb9-fc023bc0c1ba">NETRESOURCE</a> structure.
+
+
+##### - nFormat.SHGDFIL_DESCRIPTIONID
+
+
+<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 4.71</a>. Format used for network resources. The <i>pv</i> parameter is the address of an <a href="https://msdn.microsoft.com/dca32567-2049-4797-af87-d08a5d5d055d">SHDESCRIPTIONID</a> structure.
 
 
 ## -returns

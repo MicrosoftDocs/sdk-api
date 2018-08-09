@@ -7,7 +7,7 @@ old-location: com\idropsourcenotify_dragentertarget.htm
 old-project: com
 ms.assetid: 2f2ca860-1f63-4cc1-9a9e-4efb6fceb867
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: DragEnterTarget, DragEnterTarget method [COM], DragEnterTarget method [COM],IDropSourceNotify interface, IDropSourceNotify interface [COM],DragEnterTarget method, IDropSourceNotify.DragEnterTarget, IDropSourceNotify::DragEnterTarget, _ole_idropsourcenotify_dragentertarget, com.idropsourcenotify_dragentertarget, oleidl/IDropSourceNotify::DragEnterTarget
 ms.prod: windows
 ms.technology: windows-sdk

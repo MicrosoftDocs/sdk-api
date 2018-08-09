@@ -7,7 +7,7 @@ old-location: mbn\imbnconnectionprofile_delete.htm
 old-project: mbn
 ms.assetid: 4de7da76-c873-4a57-a021-17436d1a64a4
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: Delete, Delete method [Microsoft Broadband Networks], Delete method [Microsoft Broadband Networks],IMbnConnectionProfile interface, IMbnConnectionProfile interface [Microsoft Broadband Networks],Delete method, IMbnConnectionProfile.Delete, IMbnConnectionProfile::Delete, mbn.imbnconnectionprofile_delete, mbnapi/IMbnConnectionProfile::Delete
 ms.prod: windows
 ms.technology: windows-sdk

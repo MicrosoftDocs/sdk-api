@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_debug_inst_info.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_inst_info.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D3D10_SHADER_DEBUG_INST_INFO, D3D10_SHADER_DEBUG_INST_INFO structure [Direct3D 10], _D3D10_SHADER_DEBUG_INST_INFO, be8000a0-f3a0-c087-b23f-aeedd69d29d6, d3d10_1shader/D3D10_SHADER_DEBUG_INST_INFO, direct3d10.d3d10_shader_debug_inst_info
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ Must be 0, 1 or 2.
 
 ### -field pOutputs
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172423(v=VS.85).aspx">D3D10_SHADER_DEBUG_OUTPUTREG_INFO</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172423(v=VS.85).aspx">D3D10_SHADER_DEBUG_OUTPUTREG_INFO</a></b>
 
 Array containing the outputs of the instruction.
 
@@ -130,7 +130,7 @@ Offset to an array of UINT values with <b>Scopes</b> elements.
 
 
 
-The <b>D3D10_SHADER_DEBUG_INST_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/library/Bb172420(v=VS.85).aspx">D3D10_SHADER_DEBUG_INFO</a> structure.
+The <b>D3D10_SHADER_DEBUG_INST_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb172420(v=VS.85).aspx">D3D10_SHADER_DEBUG_INFO</a> structure.
 
 
 
@@ -140,7 +140,7 @@ The <b>D3D10_SHADER_DEBUG_INST_INFO</b> structure is used with the <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
  
 
  

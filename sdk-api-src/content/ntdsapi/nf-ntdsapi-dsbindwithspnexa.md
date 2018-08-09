@@ -7,7 +7,7 @@ old-location: ad\dsbindwithspnex.htm
 old-project: ad
 ms.assetid: 52a5761d-5244-4bc9-8c09-fd08f10a9fff
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DsBindWithSpnEx, DsBindWithSpnEx function [Active Directory], DsBindWithSpnExA, DsBindWithSpnExW, NTDSAPI_BIND_ALLOW_DELEGATION, NTDSAPI_BIND_FIND_BINDING, NTDSAPI_BIND_FORCE_KERBEROS, ad.dsbindwithspnex, ntdsapi/DsBindWithSpnEx, ntdsapi/DsBindWithSpnExA, ntdsapi/DsBindWithSpnExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,8 +80,7 @@ Pointer to a null-terminated string that contains the fully qualified DNS name o
 
 Contains an <a href="https://msdn.microsoft.com/06e45348-a392-45be-9f8a-e77ef887f26c">RPC_AUTH_IDENTITY_HANDLE</a> value that represents the credentials to be used for the bind. The 
     
-<a href="https://msdn.microsoft.com/51aba58b-07c5-4e6d-8568-fa6f1a963d8e">DsMakePasswordCredentials</a>
-    function is used to obtain this value. If this parameter is <b>NULL</b>,
+<a href="https://msdn.microsoft.com/51aba58b-07c5-4e6d-8568-fa6f1a963d8e">DsMakePasswordCredentials</a>function is used to obtain this value. If this parameter is <b>NULL</b>,
     the credentials of the calling thread are used.
 
 
@@ -104,7 +103,7 @@ Contains a set of flags that define the behavior of this function. This paramete
 Causes the bind to use the delegate impersonation level. This allows operations that require delegation, such as
 <a href="https://msdn.microsoft.com/36ef8734-717a-4c3a-a839-6591d85c9734">DsAddSidHistory</a>, to succeed.  Specifying this flag also causes <b>DsBindWithSpnEx</b> to operate like <a href="https://msdn.microsoft.com/9a149654-fd94-4b0c-b712-07fb827bef2f">DsBindWithSpn</a>.
 
-If this flag is not specified, the bind will use the impersonate impersonation level. For more information, see <a href="https://msdn.microsoft.com/library/ms686632(v=VS.85).aspx">Impersonation Levels</a>.
+If this flag is not specified, the bind will use the impersonate impersonation level. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms686632(v=VS.85).aspx">Impersonation Levels</a>.
 
 Most operations do
 not require the delegate impersonation level, so this flag should only be specified 
@@ -163,7 +162,7 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Windows or RPC error code otherw
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686632(v=VS.85).aspx">Impersonation Levels</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686632(v=VS.85).aspx">Impersonation Levels</a>
  
 
  

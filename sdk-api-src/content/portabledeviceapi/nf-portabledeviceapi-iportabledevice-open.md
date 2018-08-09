@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevice_open.htm
 old-project: wpd_sdk
 ms.assetid: d505fc34-9b6d-417a-a53e-e74773dcc8a4
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: IPortableDevice interface [Windows Portable Devices SDK],Open method, IPortableDevice.Open, IPortableDevice::Open, IPortableDeviceOpen, Open, Open method [Windows Portable Devices SDK], Open method [Windows Portable Devices SDK],IPortableDevice interface, portabledeviceapi/IPortableDevice::Open, wpdsdk.iportabledevice_open
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-        The <b>Open</b> method opens a connection between the application and the device.
+The <b>Open</b> method opens a connection between the application and the device.
       
 
 
@@ -64,15 +63,13 @@ req.product: ADAM
 
 ### -param pszPnPDeviceID [in]
 
-
-            A pointer to a null-terminated string that contains the Plug and Play ID string for the device. You can get this string by calling <a href="https://msdn.microsoft.com/5061b3c0-8b93-480d-b1c6-0a6b616a2c8d">IPortableDeviceManager::GetDevices</a>.
+A pointer to a null-terminated string that contains the Plug and Play ID string for the device. You can get this string by calling <a href="https://msdn.microsoft.com/5061b3c0-8b93-480d-b1c6-0a6b616a2c8d">IPortableDeviceManager::GetDevices</a>.
           
 
 
 ### -param pClientInfo [in]
 
-
-            A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface that holds information that identifies the application to the device. This interface holds <b>PROPERTYKEY</b>/value pairs that try to identify an application uniquely. Although the presence of a CoCreated interface is required, the application is not required to send any key/value pairs. However, sending data might improve performance. Typical key/value pairs include the application name, major and minor version, and build number.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface that holds information that identifies the application to the device. This interface holds <b>PROPERTYKEY</b>/value pairs that try to identify an application uniquely. Although the presence of a CoCreated interface is required, the application is not required to send any key/value pairs. However, sending data might improve performance. Typical key/value pairs include the application name, major and minor version, and build number.
 
  See properties beginning with "WPD_CLIENT_" in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">Properties</a> section.
           
@@ -82,8 +79,7 @@ req.product: ADAM
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -136,16 +132,13 @@ At least one of the arguments was a NULL pointer.
 
 A device must be opened before you can call any methods on it. (Note that the <a href="https://msdn.microsoft.com/11cd5b2b-e8f8-4ba1-8527-f7a403f399d5">IPortableDeviceManager</a> methods do not require you to open a device before calling any methods.) However, usually you do not need to call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>.
 
-
-        Administrators can restrict the access of portable devices to computers running on a network. For example, an administrator may restrict all Guest users to read-only access, while Authenticated users are given read/write access.
+Administrators can restrict the access of portable devices to computers running on a network. For example, an administrator may restrict all Guest users to read-only access, while Authenticated users are given read/write access.
       
 
-
-        Due to these security issues, if your application will not perform write operations, it should call the <b>Open</b> method and request read-only access by specifying GENERIC_READ for the WPD_CLIENT_DESIRED_ACCESS property that it supplies in the <i>pClientInfo</i> parameter.
+Due to these security issues, if your application will not perform write operations, it should call the <b>Open</b> method and request read-only access by specifying GENERIC_READ for the WPD_CLIENT_DESIRED_ACCESS property that it supplies in the <i>pClientInfo</i> parameter.
       
 
-
-        If your application requires write operations, it should call the <b>Open</b> method as shown in the following example code. The first time, it should request read/write access by passing the default WPD_CLIENT_DESIRED_ACCESS property in the <i>pClientInfo</i> parameter. If this first call fails and returns E_ACCESSDENIED, your application should call the <b>Open</b> method a second time and request read-only access by specifying GENERIC_READ for the WPD_CLIENT_DESIRED_ACCESS property that it supplies in the <i>pClientInfo</i> parameter.
+If your application requires write operations, it should call the <b>Open</b> method as shown in the following example code. The first time, it should request read/write access by passing the default WPD_CLIENT_DESIRED_ACCESS property in the <i>pClientInfo</i> parameter. If this first call fails and returns E_ACCESSDENIED, your application should call the <b>Open</b> method a second time and request read-only access by specifying GENERIC_READ for the WPD_CLIENT_DESIRED_ACCESS property that it supplies in the <i>pClientInfo</i> parameter.
 
 Applications that live in Single Threaded Apartments should use <b>CLSID_PortableDeviceFTM</b>, as this eliminates the overhead of interface pointer marshaling.  <b>CLSID_PortableDevice</b> is still supported for legacy applications.
 

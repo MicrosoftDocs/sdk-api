@@ -7,7 +7,7 @@ old-location: automat\safearraysetiid.htm
 old-project: automat
 ms.assetid: 851b8a44-9da4-418c-88bc-80c9fc55d25c
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: SafeArraySetIID, SafeArraySetIID function [Automation], _oa96_SafeArraySetIID, automat.safearraysetiid, oleauto/SafeArraySetIID
 ms.prod: windows
 ms.technology: windows-sdk

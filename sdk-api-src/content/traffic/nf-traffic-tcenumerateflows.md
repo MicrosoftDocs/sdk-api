@@ -4,10 +4,10 @@ title: TcEnumerateFlows function
 author: windows-sdk-content
 description: The TcEnumerateFlows function enumerates installed flows and their associated filters on an interface.
 old-location: qos\tcenumerateflows.htm
-old-project: QOS
+old-project: qos
 ms.assetid: eae90fae-a29a-4005-b8c6-a5e2c9a6c07f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TcEnumerateFlows, TcEnumerateFlows function [QOS], _gqos_tcenumerateflows, qos.tcenumerateflows, traffic/TcEnumerateFlows
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,9 +74,19 @@ Handle associated with the interface on which flows are to be enumerated. This h
 <a href="https://msdn.microsoft.com/8c7e658c-862f-4715-9ba5-ac079db924a1">TcOpenInterface</a> function.
 
 
-### -param pEnumHandle
+### -param pEnumHandle [in, out]
 
-TBD
+Pointer to the enumeration token, used internally by traffic control to maintain returned flow information state. 
+
+
+
+
+For input of the initial call to 
+<b>TcEnumerateFlows</b>, <i>pEnumToken</i> should be set to <b>NULL</b>. For input on subsequent calls, <i>pEnumToken</i> must be the value returned as the <i>pEnumToken</i> OUT parameter from the immediately preceding call to 
+<b>TcEnumerateFlows</b>.
+
+For output, <i>pEnumToken</i> is the refreshed enumeration token that must be used in the following call to 
+<b>TcEnumerateFlows</b>.
 
 
 ### -param pFlowCount [in, out]
@@ -93,21 +103,6 @@ Pointer to the size of the client-provided buffer or the number of bytes used by
 
 Pointer to the buffer containing flow enumerations. See 
 <a href="https://msdn.microsoft.com/fd80b8c9-db0c-4e2c-b259-b21b06fc5d56">ENUMERATION_BUFFER</a> for more information about flow enumerations.
-
-
-#### - pEnumToken [in, out]
-
-Pointer to the enumeration token, used internally by traffic control to maintain returned flow information state. 
-
-
-
-
-For input of the initial call to 
-<b>TcEnumerateFlows</b>, <i>pEnumToken</i> should be set to <b>NULL</b>. For input on subsequent calls, <i>pEnumToken</i> must be the value returned as the <i>pEnumToken</i> OUT parameter from the immediately preceding call to 
-<b>TcEnumerateFlows</b>.
-
-For output, <i>pEnumToken</i> is the refreshed enumeration token that must be used in the following call to 
-<b>TcEnumerateFlows</b>.
 
 
 ## -returns

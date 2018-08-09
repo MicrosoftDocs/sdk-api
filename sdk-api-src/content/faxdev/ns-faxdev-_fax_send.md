@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_send_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_8ueq.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: "*PFAX_SEND, FAX_SEND, FAX_SEND structure [Fax Service], PFAX_SEND, PFAX_SEND structure pointer [Fax Service], _FAX_SEND, _mfax_fax_send_str, fax._mfax_fax_send_str, faxdev/FAX_SEND, faxdev/PFAX_SEND"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,14 +63,14 @@ The <b>FAX_SEND</b> structure contains information about an outbound fax documen
 
 Type: <b>DWORD</b>
 
-Specifies, in bytes, the size of the <b>FAX_SEND</b> structure. Before calling the <a href="https://msdn.microsoft.com/library/ms684544(v=VS.85).aspx">FaxDevSend</a> function, the fax service sets this member to <b>sizeof</b>(<b>FAX_SEND</b>). 
+Specifies, in bytes, the size of the <b>FAX_SEND</b> structure. Before calling the <a href="https://msdn.microsoft.com/en-us/library/ms684544(v=VS.85).aspx">FaxDevSend</a> function, the fax service sets this member to <b>sizeof</b>(<b>FAX_SEND</b>). 
 
 
 ### -field FileName
 
 Type: <b>LPWSTR</b>
 
-Pointer to a null-terminated Unicode character string that specifies the full path to the file that contains the data stream for an outbound fax document. The data stream is a TIFF Class F file. For more information, see <a href="https://msdn.microsoft.com/library/ms693440(v=VS.85).aspx">Fax Image Format</a>.
+Pointer to a null-terminated Unicode character string that specifies the full path to the file that contains the data stream for an outbound fax document. The data stream is a TIFF Class F file. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms693440(v=VS.85).aspx">Fax Image Format</a>.
 
 
 ### -field CallerName
@@ -102,8 +102,7 @@ Pointer to a null-terminated Unicode character string that specifies the telepho
 
 
 
-
-                If you specify the <b>CallHandle</b> member, the <b>ReceiverNumber</b> member must be <b>NULL</b>. 
+If you specify the <b>CallHandle</b> member, the <b>ReceiverNumber</b> member must be <b>NULL</b>. 
 
 
 
@@ -139,7 +138,7 @@ This member is reserved  by Microsoft. It must be set to zero.
 
 
 
-The FSP can reformat the <b>CallerName</b> and <b>CallerNumber</b> members. The FSP can then transmit the reformatted data to the remote sending device as the called subscriber identifier (CSI) to comply with the recommendation of the standards body of the International Telecommunication Union (ITU) from Study Group 8 (SG8). For more information, see the <b>RoutingInfo</b> and <b>CSI</b> members of the <a href="https://msdn.microsoft.com/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a> structure.
+The FSP can reformat the <b>CallerName</b> and <b>CallerNumber</b> members. The FSP can then transmit the reformatted data to the remote sending device as the called subscriber identifier (CSI) to comply with the recommendation of the standards body of the International Telecommunication Union (ITU) from Study Group 8 (SG8). For more information, see the <b>RoutingInfo</b> and <b>CSI</b> members of the <a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a> structure.
 
 The FSP can also use the reformatted data to add a brand to the fax transmission.
 
@@ -151,15 +150,15 @@ The FSP can also use the reformatted data to add a brand to the fax transmission
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684540(v=VS.85).aspx">Fax Service Provider Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684540(v=VS.85).aspx">Fax Service Provider Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684544(v=VS.85).aspx">FaxDevSend</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684544(v=VS.85).aspx">FaxDevSend</a>
 
 
 
@@ -167,7 +166,7 @@ The FSP can also use the reformatted data to add a brand to the fax transmission
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
  
 
  

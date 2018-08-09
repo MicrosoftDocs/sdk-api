@@ -7,7 +7,7 @@ old-location: mf\imfattributes_deleteitem.htm
 old-project: medfound
 ms.assetid: ac72e6e4-f930-4de6-92a2-f15e5f9e5d74
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: DeleteItem, DeleteItem method [Media Foundation], DeleteItem method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],DeleteItem method, IMFAttributes.DeleteItem, IMFAttributes::DeleteItem, ac72e6e4-f930-4de6-92a2-f15e5f9e5d74, mf.imfattributes_deleteitem, mfobjects/IMFAttributes::DeleteItem
 ms.prod: windows
 ms.technology: windows-sdk

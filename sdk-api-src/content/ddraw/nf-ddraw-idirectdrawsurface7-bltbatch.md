@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_bltbatch.htm
 old-project: directdraw
 ms.assetid: 50c071a6-2963-474e-994e-c789b1924d92
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: BltBatch, BltBatch method [DirectDraw], BltBatch method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],BltBatch method, IDirectDrawSurface7.BltBatch, IDirectDrawSurface7::BltBatch, ddraw/IDirectDrawSurface7::BltBatch, directdraw.idirectdrawsurface7_bltbatch
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,6 +67,11 @@ The <b>IDirectDrawSurface7::BltBatch</b> method is not currently implemented.
 
 
 
+#### - lpDDBltBatch [in]
+
+A pointer to the first <a href="https://msdn.microsoft.com/d8c302aa-9c57-41f8-ad22-d8fdd1158c3c">DDBLTBATCH</a> structure that defines the parameters for the bitblt operations.
+
+
 #### - dwCount [in]
 
 Number of bitblt operations to be performed.
@@ -75,11 +80,6 @@ Number of bitblt operations to be performed.
 #### - dwFlags [in]
 
 Currently not used and must be set to 0.
-
-
-#### - lpDDBltBatch [in]
-
-A pointer to the first <a href="https://msdn.microsoft.com/d8c302aa-9c57-41f8-ad22-d8fdd1158c3c">DDBLTBATCH</a> structure that defines the parameters for the bitblt operations.
 
 
 ## -returns

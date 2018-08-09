@@ -4,10 +4,10 @@ title: MsiEnumComponentCostsW function
 author: windows-sdk-content
 description: The MsiEnumComponentCosts function enumerates the disk-space per drive required to install a component.
 old-location: setup\msienumcomponentcosts.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 3de3a044-2780-445b-a09f-f08ff82f91f3
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: MsiEnumComponentCosts, MsiEnumComponentCosts function, MsiEnumComponentCostsA, MsiEnumComponentCostsW, _msi_msienumcomponentcosts, msiquery/MsiEnumComponentCosts, msiquery/MsiEnumComponentCostsA, msiquery/MsiEnumComponentCostsW, setup.msienumcomponentcosts
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,9 +89,9 @@ A null-terminated string specifying the component's name as it is listed in the 
 Requested component state to be enumerated. If <i>szComponent</i> is passed as Null or an empty string, the installer ignores the <i>iState</i> parameter.
 
 
-### -param szDriveBuf
+### -param szDriveBuf [out]
 
-TBD
+Buffer that holds the drive name including the null terminator. This is an empty string in case of an error.
 
 
 ### -param pcchDriveBuf [in, out]
@@ -104,19 +104,7 @@ Pointer to a variable that specifies the size, in TCHARs, of the buffer pointed 
 Cost of the component per drive expressed in multiples of 512 bytes. This value is 0 if an error has occurred. The value returned in <i>piCost</i> is final disk-space used by the component after installation. If <i>szComponent</i> is passed as Null or an empty string, the installer sets the value at <i>piCost</i> to 0.
 
 
-### -param piTempCost
-
-TBD
-
-
-
-
-#### - lpDriveBuf [out]
-
-Buffer that holds the drive name including the null terminator. This is an empty string in case of an error.
-
-
-#### - pTempCost [out]
+### -param piTempCost [out]
 
 The component cost per drive for the duration of the installation, or 0 if an error occurred. The value in *<i>piTempCost</i> represents the temporary space requirements for the duration of the installation. This temporary space requirement is space needed only for the duration of the installation. This does not affect the final disk space requirement.
 

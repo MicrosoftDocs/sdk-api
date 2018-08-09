@@ -7,7 +7,7 @@ old-location: intl\scriptplaceopentype.htm
 old-project: Intl
 ms.assetid: dd456988-ec9d-4e62-a93f-753ac08a18d9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ScriptPlaceOpenType, ScriptPlaceOpenType function [Internationalization for Windows Applications], _win32_ScriptPlaceOpenType, intl.scriptplaceopentype, usp10/ScriptPlaceOpenType
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_SizeF_SizeF_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizefclass\sizefconstructors\sizef_24.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: SizeF, SizeF class [GDI+],SizeF constructor, SizeF constructor [GDI+], SizeF constructor [GDI+],SizeF class, SizeF.SizeF, SizeF.SizeF(), SizeF.SizeF(IN REAL,IN REAL), SizeF::SizeF, SizeF::SizeF(IN REAL,IN REAL), _gdiplus_CLASS_SizeF_SizeF_, gdiplus._gdiplus_CLASS_SizeF_SizeF_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/library/ms534506(v=VS.85).aspx">SizeF</a> object and initializes the members to zero. This is the default constructor.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> object and initializes the members to zero. This is the default constructor.
 
 
 ## -parameters
@@ -76,11 +76,11 @@ Creates a <a href="https://msdn.microsoft.com/library/ms534506(v=VS.85).aspx">Si
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534506(v=VS.85).aspx">SizeF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534738(v=VS.85).aspx">SizeF Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534738(v=VS.85).aspx">SizeF Constructors</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: intl\getuilanguageinfo.htm
 old-project: Intl
 ms.assetid: 7eb17073-f79a-4a87-a85b-94007e77888a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetUILanguageInfo, GetUILanguageInfo function [Internationalization for Windows Applications], MUI_FULL_LANGUAGE, MUI_LANGUAGE_ID, MUI_LANGUAGE_INSTALLED, MUI_LANGUAGE_LICENSED, MUI_LANGUAGE_NAME, MUI_LIP_LANGUAGE, MUI_PARTIAL_LANGUAGE, _win32_GetUILanguageInfo, intl.getuilanguageinfo, winnls/GetUILanguageInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -128,14 +128,7 @@ Pointer to the size, in characters, for the language buffer indicated by <i>pwsz
 Alternatively if this parameter is set to 0 and <i>pwszLanguagesBuffer </i>is set to <b>NULL</b>, the function retrieves the required size of the language buffer in <i>pcchLanguagesBuffer</i>.
 
 
-### -param pAttributes
-
-TBD
-
-
-
-
-#### - pdwAttributes [out]
+### -param pAttributes [out]
 
 Pointer to flags indicating attributes of the input language list. The function always retrieves the flag characterizing the last language listed.
 

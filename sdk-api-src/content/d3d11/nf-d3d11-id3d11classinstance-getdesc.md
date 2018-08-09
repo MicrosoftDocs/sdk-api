@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11classinstance_getdesc.htm
 old-project: direct3d11
 ms.assetid: 5062595c-4152-4cfd-afcd-3e51d1087675
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 64584e80-07e5-d72e-198e-074e63a44c16, GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11ClassInstance interface, ID3D11ClassInstance interface [Direct3D 11],GetDesc method, ID3D11ClassInstance.GetDesc, ID3D11ClassInstance::GetDesc, d3d11/ID3D11ClassInstance::GetDesc, direct3d11.id3d11classinstance_getdesc
 ms.prod: windows
 ms.technology: windows-sdk

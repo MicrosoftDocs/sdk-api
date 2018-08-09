@@ -7,7 +7,7 @@ old-location: devinst\cm_notify_filter.htm
 old-project: devinst
 ms.assetid: 8B6CC440-7B41-4382-9917-6833031D5E1B
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: "*PCM_NOTIFY_FILTER, CM_NOTIFY_FILTER, CM_NOTIFY_FILTER structure [Device and Driver Installation], PCM_NOTIFY_FILTER, PCM_NOTIFY_FILTER structure pointer [Device and Driver Installation], _CM_NOTIFY_FILTER, cfgmgr32/CM_NOTIFY_FILTER, cfgmgr32/PCM_NOTIFY_FILTER, devinst.cm_notify_filter"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -151,8 +151,7 @@ The device instance ID for the device for which to receive notifications.
 
 
 
-When the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780224">CM_Register_Notification</a>
- function, it supplies a pointer to a <b>CM_NOTIFY_FILTER</b> structure in the <i>pFilter</i> parameter.
+When the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780224">CM_Register_Notification</a>function, it supplies a pointer to a <b>CM_NOTIFY_FILTER</b> structure in the <i>pFilter</i> parameter.
 
 
 

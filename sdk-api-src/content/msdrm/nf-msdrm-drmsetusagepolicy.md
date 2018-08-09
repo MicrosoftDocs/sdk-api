@@ -7,7 +7,7 @@ old-location: rm\drmsetusagepolicy.htm
 old-project: adrms_sdk
 ms.assetid: 8c270824-ff2a-4b04-b8b0-7cc4a82d042d
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMSetUsagePolicy, DRMSetUsagePolicy function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetUsagePolicy, rm.drmsetusagepolicy
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PerfIncrementULongLongCounterValue function
 author: windows-sdk-content
 description: Increments the value of a counter whose value is an 8-byte unsigned integer. Providers use this function.
 old-location: perf\perfincrementulonglongcountervalue.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 6e701561-4036-4ae4-8d4e-667fa6a20d99
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PerfIncrementULongLongCounterValue, PerfIncrementULongLongCounterValue function [Perf], perf.perfincrementulonglongcountervalue, perflib/PerfIncrementULongLongCounterValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,16 @@ Increments the value of a counter whose value is an 8-byte unsigned integer. Pro
 
 
 
-### -param Provider
+### -param Provider [in]
 
-TBD
+The handle of the provider. Use the handle variable that the <a href="https://msdn.microsoft.com/3939f6a1-0a94-429d-a71e-b37f045fea13">CTRPP</a> tool generated for you. For the name of the variable, see the <b>symbol</b> attribute of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406455">provider</a> element.
+
+<b>Windows Vista:  </b>The <a href="https://msdn.microsoft.com/b417b19b-adbc-40e3-aca1-c2cd94a79232">PerfStartProvider</a> function returns the handle.
 
 
-### -param Instance
+### -param Instance [in]
 
-TBD
+A <a href="https://msdn.microsoft.com/709d5339-cedd-4b03-9d8e-c125eb3bcac0">PERF_COUNTERSET_INSTANCE</a> structure that contains the counter set instance. The <a href="https://msdn.microsoft.com/73be8588-2c87-4c27-933d-62b8605ed9a3">PerfCreateInstance</a> function returns this pointer.
 
 
 ### -param CounterId [in]
@@ -78,36 +80,16 @@ Identifier that uniquely identifies the counter to update in the instance block.
 <b>Windows Vista:  </b>The counter ID constant is not available.
 
 
-### -param Value
-
-TBD
-
-
-
-
-#### - hProvider [in]
-
-The handle of the provider. Use the handle variable that the <a href="https://msdn.microsoft.com/3939f6a1-0a94-429d-a71e-b37f045fea13">CTRPP</a> tool generated for you. For the name of the variable, see the <b>symbol</b> attribute of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406455">provider</a> element.
-
-<b>Windows Vista:  </b>The <a href="https://msdn.microsoft.com/b417b19b-adbc-40e3-aca1-c2cd94a79232">PerfStartProvider</a> function returns the handle.
-
-
-#### - llValue [in]
+### -param Value [in]
 
 Value by which to increment the counter.
-
-
-#### - pInstance [in]
-
-A <a href="https://msdn.microsoft.com/709d5339-cedd-4b03-9d8e-c125eb3bcac0">PERF_COUNTERSET_INSTANCE</a> structure that contains the counter set instance. The <a href="https://msdn.microsoft.com/73be8588-2c87-4c27-933d-62b8605ed9a3">PerfCreateInstance</a> function returns this pointer.
 
 
 ## -returns
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

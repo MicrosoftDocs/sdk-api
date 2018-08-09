@@ -7,7 +7,7 @@ old-location: intl\immgetconversionlist.htm
 old-project: Intl
 ms.assetid: c38547fa-b9d8-41a0-8d73-21056212b775
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: GCL_CONVERSION, GCL_REVERSECONVERSION, GCL_REVERSE_LENGTH, ImmGetConversionList, ImmGetConversionList function [Internationalization for Windows Applications], ImmGetConversionListA, ImmGetConversionListW, _win32_ImmGetConversionList, imm/ImmGetConversionList, imm/ImmGetConversionListA, imm/ImmGetConversionListW, intl.immgetconversionlist
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,14 @@ Retrieves the conversion result list of characters or words without generating a
 
 
 
-### -param HKL
+### -param HKL [in]
 
-TBD
+Input locale identifier.
 
 
-### -param HIMC
+### -param HIMC [in]
 
-TBD
+Handle to the input context.
 
 
 ### -param lpSrc [in]
@@ -127,16 +127,6 @@ Source string is the result string. The function returns the size, in bytes, of 
 </tr>
 </table>
  
-
-
-#### - hIMC [in]
-
-Handle to the input context.
-
-
-#### - hKL [in]
-
-Input locale identifier.
 
 
 ## -returns

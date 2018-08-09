@@ -7,7 +7,7 @@ old-location: automat\varboolfromi4.htm
 old-project: automat
 ms.assetid: 1f59fa17-7e09-4763-816a-44faf89986f1
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarBoolFromI4, VarBoolFromI4 function [Automation], _oa96_VarBoolFromI4, automat.varboolfromi4, oleauto/VarBoolFromI4
 ms.prod: windows
 ms.technology: windows-sdk

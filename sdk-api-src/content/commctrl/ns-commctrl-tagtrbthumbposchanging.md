@@ -7,7 +7,7 @@ old-location: controls\NMTRBTHUMBPOSCHANGING.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\trackbar\structures\nmtrbthumbposchanging.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: NMTRBTHUMBPOSCHANGING, NMTRBTHUMBPOSCHANGING structure [Windows Controls], _shell_NMTRBTHUMBPOSCHANGING, _shell_NMTRBTHUMBPOSCHANGING_cpp, commctrl/NMTRBTHUMBPOSCHANGING, controls.NMTRBTHUMBPOSCHANGING, controls._shell_NMTRBTHUMBPOSCHANGING, tagTRBTHUMBPOSCHANGING
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information about a trackbar change notification. This message is sent with the <a href="https://msdn.microsoft.com/library/Bb760172(v=VS.85).aspx">TRBN_THUMBPOSCHANGING</a> notification.
+Contains information about a trackbar change notification. This message is sent with the <a href="https://msdn.microsoft.com/en-us/library/Bb760172(v=VS.85).aspx">TRBN_THUMBPOSCHANGING</a> notification.
 
 
 ## -struct-fields
@@ -60,9 +60,9 @@ Contains information about a trackbar change notification. This message is sent 
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
-A <a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that describes the notification.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that describes the notification.
 
 
 ### -field dwPos

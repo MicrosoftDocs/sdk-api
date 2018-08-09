@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_getminidealimagesize.htm
 old-project: DirectShow
 ms.assetid: b2d1d267-008d-402a-864a-e801e7581fbd
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: GetMinIdealImageSize, GetMinIdealImageSize method [DirectShow], GetMinIdealImageSize method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetMinIdealImageSize method, IVideoWindow.GetMinIdealImageSize, IVideoWindow::GetMinIdealImageSize, IVideoWindowGetMinIdealImageSize, control/IVideoWindow::GetMinIdealImageSize, dshow.ivideowindow_getminidealimagesize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ The <code>GetMinIdealImageSize</code> method retrieves the minimum ideal size fo
 
 ### -param pWidth [out]
 
-
-            Receives the minimum ideal width, in pixels.
+Receives the minimum ideal width, in pixels.
           
 
 
@@ -146,8 +145,7 @@ This method returns S_FALSE under various circumstances:
 
 <ul>
 <li>The filter is using an <a href="https://msdn.microsoft.com/2d49888a-7046-4779-9634-d181fa582584">IOverlay</a> transport.</li>
-<li>
-            UseWhenFullScreen mode is on. (See <a href="https://msdn.microsoft.com/e50f7f06-6534-4373-a2b8-fa315158729d">IDirectDrawVideo::UseWhenFullScreen</a>.)</li>
+<li>UseWhenFullScreen mode is on. (See <a href="https://msdn.microsoft.com/e50f7f06-6534-4373-a2b8-fa315158729d">IDirectDrawVideo::UseWhenFullScreen</a>.)</li>
 <li>Video playback is using a stretchable offscreen surface. (The <b>dwCaps</b> member of the DDCAPS structure includes the DDCAPS_BLTSTRETCH flag. See <a href="https://msdn.microsoft.com/d63437e3-4e8a-49de-b555-db29d235569d">IDirectDrawVideo::GetCaps</a>.)</li>
 <li>The video surface has no minimum overlay stretch. (The <b>dwMinOverlayStretch</b> member of the DDCAPS structure is zero. See <a href="https://msdn.microsoft.com/d63437e3-4e8a-49de-b555-db29d235569d">IDirectDrawVideo::GetCaps</a>.)</li>
 </ul>

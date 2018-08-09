@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutingrules_count_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0qyc.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxOutboundRoutingRules object, FaxOutboundRoutingRules object [Fax Service],Count property, FaxOutboundRoutingRules.Count, IFaxOutboundRoutingRules.get_Count, IFaxOutboundRoutingRules::get_Count, _mfax_faxoutboundroutingrules.count, fax._mfax_faxoutboundroutingrules_count, fax._mfax_faxoutboundroutingrules_count_vb, get_Count
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a> collection. This is the total number of outbound routing rules associated with the fax server.
+The <b>Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/en-us/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a> collection. This is the total number of outbound routing rules associated with the fax server.
 
 This property is read-only.
 
@@ -64,15 +64,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689527(v=VS.85).aspx">IFaxOutboundRoutingRules</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689527(v=VS.85).aspx">IFaxOutboundRoutingRules</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693486(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693486(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: display\xformobj_igetfloatobjxform.htm
 old-project: display
 ms.assetid: 761c6061-841b-4187-a826-575d2a5086db
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: XFORMOBJ_iGetFloatObjXform, XFORMOBJ_iGetFloatObjXform function [Display Devices], display.xformobj_igetfloatobjxform, gdifncs_26b564b5-f2ca-448a-9ca8-f34e7f8fb57a.xml, winddi/XFORMOBJ_iGetFloatObjXform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,13 +65,6 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff57
 
 
 ### -param pfxo
-
-TBD
-
-
-
-
-#### - pxfo
 
 Pointer to the buffer that is to receive the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565950">FLOATOBJ_XFORM</a> structure. This parameter can be <b>NULL</b>.
 

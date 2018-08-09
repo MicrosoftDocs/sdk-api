@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationScrollItemPattern_ScrollIntoView.htm
 old-project: WinAuto
 ms.assetid: 66991918-dd06-400a-902d-887ff226de16
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IUIAutomationScrollItemPattern interface [Windows Accessibility],ScrollIntoView method, IUIAutomationScrollItemPattern.ScrollIntoView, IUIAutomationScrollItemPattern::ScrollIntoView, ScrollIntoView, ScrollIntoView method [Windows Accessibility], ScrollIntoView method [Windows Accessibility],IUIAutomationScrollItemPattern interface, uiauto.uiauto_IUIAutomationScrollItemPattern_ScrollIntoView, uiauto_IUIAutomationScrollItemPattern_ScrollIntoView, uiautomationclient/IUIAutomationScrollItemPattern::ScrollIntoView, winauto.uiauto_IUIAutomationScrollItemPattern_ScrollIntoView
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

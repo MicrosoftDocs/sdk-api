@@ -4,10 +4,10 @@ title: "_PERF_COUNTER_IDENTIFIER"
 author: windows-sdk-content
 description: Contains information about the PERF_COUNTER_IDENTIFIER block that contains the structure.
 old-location: perf\perf_counter_identifier.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 4BBAB831-9A7F-407E-A7D6-9123192C12B4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: "*PPERF_COUNTER_IDENTIFIER, PERF_COUNTER_IDENTIFIER, PERF_COUNTER_IDENTIFIER structure [Perf], PPERF_COUNTER_IDENTIFIER, PPERF_COUNTER_IDENTIFIER structure pointer [Perf], _PERF_COUNTER_IDENTIFIER, perf.perf_counter_identifier, perflib/PERF_COUNTER_IDENTIFIER, perflib/PPERF_COUNTER_IDENTIFIER"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,11 +52,9 @@ req.product: ADAM
 
 
 Contains information about the <b>PERF_COUNTER_IDENTIFIER</b> block that contains the structure. A <b>PERF_COUNTER_IDENTIFIER</b> block provides information about a performance counter specification, and consists of the following items in order: <ol>
-<li>A <b>PERF_COUNTER_IDENTIFIER</b>
-structure</li>
+<li>A <b>PERF_COUNTER_IDENTIFIER</b>structure</li>
 <li>An optional null-terminated UTF-16LE string that specifies the instance name</li>
-<li>
-Padding as needed to make the size of the block  a multiple of 8 bytes. </li>
+<li>Padding as needed to make the size of the block  a multiple of 8 bytes. </li>
 </ol>
 
 
@@ -117,8 +115,7 @@ The <a href="https://msdn.microsoft.com/FC66E794-EF13-47BB-A704-735924363310">Pe
 <b>PERF_COUNTER_IDENTIFIER</b> blocks to define the counter specifications that you want to be
 add or remove from a query.
 
-The <a href="https://msdn.microsoft.com/42CAB98C-4525-499D-BA11-731A666E112D">PerfQueryCounterInfo</a> function gets a sequence of <b>PERF_COUNTER_IDENTIFIER</b>
-blocks to indicate the counter specifications in a query and to indicate in the <b>Index</b> member the
+The <a href="https://msdn.microsoft.com/42CAB98C-4525-499D-BA11-731A666E112D">PerfQueryCounterInfo</a> function gets a sequence of <b>PERF_COUNTER_IDENTIFIER</b>blocks to indicate the counter specifications in a query and to indicate in the <b>Index</b> member the
 order in which the  query gets the results.
 
 

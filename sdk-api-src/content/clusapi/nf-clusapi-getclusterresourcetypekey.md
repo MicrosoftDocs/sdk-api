@@ -7,7 +7,7 @@ old-location: mscs\getclusterresourcetypekey.htm
 old-project: mscs
 ms.assetid: facc22b2-221d-4d82-85ae-5b9a463c5858
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: GetClusterResourceTypeKey, GetClusterResourceTypeKey function [Failover Cluster], _wolf_getclusterresourcetypekey, clusapi/GetClusterResourceTypeKey, mscs.getclusterresourcetypekey
 ms.prod: windows
 ms.technology: windows-sdk

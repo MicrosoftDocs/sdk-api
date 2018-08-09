@@ -7,7 +7,7 @@ old-location: automat\isupporterrorinfo_interfacesupportserrorinfo.htm
 old-project: automat
 ms.assetid: a54ef18d-ee3f-4483-ac4a-99d758f0960a
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: ISupportErrorInfo interface [Automation],InterfaceSupportsErrorInfo method, ISupportErrorInfo.InterfaceSupportsErrorInfo, ISupportErrorInfo::InterfaceSupportsErrorInfo, InterfaceSupportsErrorInfo, InterfaceSupportsErrorInfo method [Automation], InterfaceSupportsErrorInfo method [Automation],ISupportErrorInfo interface, _oa96_ISupportErrorInfo_InterfaceSupportsErrorInfo, automat.isupporterrorinfo_interfacesupportserrorinfo, oaidl/ISupportErrorInfo::InterfaceSupportsErrorInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,9 +111,7 @@ Objects that support the <a href="https://msdn.microsoft.com/4dda6909-2d9a-4727-
 
 
 
-Programs that receive an error return value should call <b>QueryInterface</b> to get a pointer to the <a href="https://msdn.microsoft.com/42d33066-36b4-4a5b-aa5d-46682e560f32">ISupportErrorInfo</a>
-
-interface, and then call <b>InterfaceSupportsErrorInfo</b> with the <i>riid</i> of the interface that returned the return value. If <b>InterfaceSupportsErrorInfo</b> returns S_FALSE, then the error object does not represent an error returned from the caller, but from somewhere else. In this case, the error object can be considered incorrect and should be discarded.
+Programs that receive an error return value should call <b>QueryInterface</b> to get a pointer to the <a href="https://msdn.microsoft.com/42d33066-36b4-4a5b-aa5d-46682e560f32">ISupportErrorInfo</a>interface, and then call <b>InterfaceSupportsErrorInfo</b> with the <i>riid</i> of the interface that returned the return value. If <b>InterfaceSupportsErrorInfo</b> returns S_FALSE, then the error object does not represent an error returned from the caller, but from somewhere else. In this case, the error object can be considered incorrect and should be discarded.
 
 
 

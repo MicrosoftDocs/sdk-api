@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparser2_getnbit.htm
 old-project: mstv
 ms.assetid: 90c47d88-b364-4b42-b51b-dfa3c9eed4b0
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetNBIT, GetNBIT method [Microsoft TV Technologies], GetNBIT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetNBIT method, IIsdbSiParser2.GetNBIT, IIsdbSiParser2::GetNBIT, dvbsiparser/IIsdbSiParser2::GetNBIT, mstv.iisdbsiparser2_getnbit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ Pointer to the original_network_id field for the NBIT. This field contains an id
 
 ### -param ppNBIT [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/32c15a03-6683-4b22-b374-a15784696368">IISDB_NBIT</a>
-interface. Use this interface to retrieve the information in the table. 
+Receives a pointer to the <a href="https://msdn.microsoft.com/32c15a03-6683-4b22-b374-a15784696368">IISDB_NBIT</a>interface. Use this interface to retrieve the information in the table. 
 The caller must release the interface.
 
 

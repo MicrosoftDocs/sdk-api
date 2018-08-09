@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_hasnullsourceorigin.htm
 old-project: medfound
 ms.assetid: D83F079F-605A-4F62-B037-3C5D0487D778
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: HasNullSourceOrigin, HasNullSourceOrigin method [Media Foundation], HasNullSourceOrigin method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],HasNullSourceOrigin method, IMFHttpDownloadRequest.HasNullSourceOrigin, IMFHttpDownloadRequest::HasNullSourceOrigin, mf.imfhttpdownloadrequest_hasnullsourceorigin, mfidl/IMFHttpDownloadRequest::HasNullSourceOrigin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,8 +78,7 @@ Set to TRUE if the current request has a “null” source origin. The source or
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -94,8 +93,7 @@ Set to TRUE if the current request has a “null” source origin. The source or
 </dl>
 </td>
 <td width="60%">
-
-                Successfully completed the operation.
+Successfully completed the operation.
 
 </td>
 </tr>
@@ -106,8 +104,7 @@ Set to TRUE if the current request has a “null” source origin. The source or
 </dl>
 </td>
 <td width="60%">
-
-                The <i>pfNullSOurceOrigin</i> parameter is an invalid pointer.
+The <i>pfNullSOurceOrigin</i> parameter is an invalid pointer.
 
 </td>
 </tr>

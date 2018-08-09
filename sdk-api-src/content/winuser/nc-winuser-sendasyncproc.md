@@ -7,7 +7,7 @@ old-location: winmsg\sendasyncproc.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendasyncproc.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SendAsyncProc, SendAsyncProc callback, SendAsyncProc callback function [Windows and Messages], _win32_SendAsyncProc, _win32_sendasyncproc_cpp, winmsg.sendasyncproc, winui._win32_sendasyncproc, winuser/SendAsyncProc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,13 +77,6 @@ An application-defined callback function used with the <a href="https://msdn.mic
 
 
 
-#### - dwData [in]
-
-Type: <b>ULONG_PTR</b>
-
-An application-defined value sent from the <a href="https://msdn.microsoft.com/en-us/library/ms644951(v=VS.85).aspx">SendMessageCallback</a> function.
-
-
 #### - hwnd [in]
 
 Type: <b>HWND</b>
@@ -93,18 +86,25 @@ A handle to the window whose window procedure received the message.
 If the <a href="https://msdn.microsoft.com/en-us/library/ms644951(v=VS.85).aspx">SendMessageCallback</a> function was called with its <i>hwnd</i> parameter set to <b>HWND_BROADCAST</b>, the system calls the <i>SendAsyncProc</i> function once for each top-level window.
 
 
-#### - lResult [in]
-
-Type: <b>LRESULT</b>
-
-The result of the message processing. This value depends on the message.
-
-
 #### - uMsg [in]
 
 Type: <b>UINT</b>
 
 The message.
+
+
+#### - dwData [in]
+
+Type: <b>ULONG_PTR</b>
+
+An application-defined value sent from the <a href="https://msdn.microsoft.com/en-us/library/ms644951(v=VS.85).aspx">SendMessageCallback</a> function.
+
+
+#### - lResult [in]
+
+Type: <b>LRESULT</b>
+
+The result of the message processing. This value depends on the message.
 
 
 ## -returns

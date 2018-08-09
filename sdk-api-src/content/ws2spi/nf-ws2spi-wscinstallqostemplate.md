@@ -4,10 +4,10 @@ title: WSCInstallQOSTemplate function
 author: windows-sdk-content
 description: Installs the specified QoS template in the system configuration database.
 old-location: winsock\wscinstallqostemplate.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: b83cfb67-c3be-49aa-930d-d6b056f7bde2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSCInstallQOSTemplate, WSCInstallQOSTemplate function [Winsock], winsock.wscinstallqostemplate, ws2spi/WSCInstallQOSTemplate
 ms.prod: windows
 ms.technology: windows-sdk

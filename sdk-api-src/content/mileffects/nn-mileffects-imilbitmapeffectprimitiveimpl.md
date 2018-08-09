@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectprimitiveimpl.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitiveimpl\imilbitmapeffectprimitiveimpl.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IMILBitmapEffectPrimitiveImpl, IMILBitmapEffectPrimitiveImpl interface [WPF Bitmap Effects], IMILBitmapEffectPrimitiveImpl interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectprimitiveimpl, mileffects/IMILBitmapEffectPrimitiveImpl, wibe._wibe_imilbitmapeffectprimitiveimpl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IMILBitmapEffectPrimitiveImpl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735252(v=VS.85).aspx">IsDirty</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735252(v=VS.85).aspx">IsDirty</a>
 </td>
 <td align="left" width="63%">
 Determines whether the effect needs to be updated.
@@ -80,7 +80,7 @@ Determines whether the effect needs to be updated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735253(v=VS.85).aspx">IsVolatile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735253(v=VS.85).aspx">IsVolatile</a>
 </td>
 <td align="left" width="63%">
 Determines whether the current effect is considered volatile. If an effect is volatile, the effects framework will not attempt to cache the effect's output.

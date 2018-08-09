@@ -7,7 +7,7 @@ old-location: mf\imfaudiomediatype_getaudioformat.htm
 old-project: medfound
 ms.assetid: 6a874e7b-9358-45e1-85be-7207bf46d93e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 6a874e7b-9358-45e1-85be-7207bf46d93e, GetAudioFormat, GetAudioFormat method [Media Foundation], GetAudioFormat method [Media Foundation],IMFAudioMediaType interface, IMFAudioMediaType interface [Media Foundation],GetAudioFormat method, IMFAudioMediaType.GetAudioFormat, IMFAudioMediaType::GetAudioFormat, mf.imfaudiomediatype_getaudioformat, mfobjects/IMFAudioMediaType::GetAudioFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,9 +54,7 @@ req.product: GDI+ 1.1
 
 <p class="CCE_Message">[<b>GetAudioFormat</b> is no longer available for use as of Windows 7. Instead, use the media type attributes to get the properties of the audio format.]
 
-
-        
-          Returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure that describes the audio format.
+Returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure that describes the audio format.
 
 
 ## -parameters
@@ -70,8 +68,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            This method returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure.
+This method returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure.
 
 
 
@@ -82,8 +79,7 @@ req.product: GDI+ 1.1
 
 If you need to convert the media type into a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure, call <a href="https://msdn.microsoft.com/b124bac2-90de-4358-a079-f509a89c3776">MFCreateWaveFormatExFromMFMediaType</a>.
 
-
-        There are no guarantees about how long the returned pointer is valid.
+There are no guarantees about how long the returned pointer is valid.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 

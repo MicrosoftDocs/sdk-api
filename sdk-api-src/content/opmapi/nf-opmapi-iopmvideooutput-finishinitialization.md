@@ -7,7 +7,7 @@ old-location: mf\iopmvideooutput_iopmvideooutput__finishinitialization.htm
 old-project: medfound
 ms.assetid: 7551e374-8745-405b-9879-d35a92d661ea
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: FinishInitialization, FinishInitialization method [Media Foundation], FinishInitialization method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],FinishInitialization method, IOPMVideoOutput.FinishInitialization, IOPMVideoOutput::FinishInitialization, mf.iopmvideooutput_iopmvideooutput__finishinitialization, opmapi/IOPMVideoOutput::FinishInitialization
 ms.prod: windows
 ms.technology: windows-sdk

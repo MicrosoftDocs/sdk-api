@@ -7,7 +7,7 @@ old-location: dhcp\dhcpmodifyclass.htm
 old-project: dhcp
 ms.assetid: 4ee8897f-d49a-4b60-a26e-e7e11c088353
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpModifyClass, DhcpModifyClass function [DHCP], dhcp.dhcpmodifyclass, dhcpsapi/DhcpModifyClass
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpModifyClass</b> function modifies a DHCP class defined on the server.
+The <b>DhcpModifyClass</b> function modifies a DHCP class defined on the server.
 
 
 ## -parameters
@@ -103,8 +102,7 @@ This call was performed by a client who is not a member of the "DHCP Administrat
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">
-		  DHCP_CLASS_INFO</a> structure provided in <i>ClassInfo</i> has null or invalid values for the <b>ClassName</b> or <b>ClassData</b> member (or both).
+The <a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">DHCP_CLASS_INFO</a> structure provided in <i>ClassInfo</i> has null or invalid values for the <b>ClassName</b> or <b>ClassData</b> member (or both).
 
 </td>
 </tr>
@@ -152,8 +150,7 @@ The new class name is currently in use, or the new class information is currentl
 
 
 
-<a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">
-        DHCP_CLASS_INFO</a>
+<a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">DHCP_CLASS_INFO</a>
 
 
 

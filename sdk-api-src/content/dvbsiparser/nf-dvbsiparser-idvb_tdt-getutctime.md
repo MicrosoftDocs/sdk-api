@@ -7,7 +7,7 @@ old-location: mstv\idvb_tdt_getutctime.htm
 old-project: mstv
 ms.assetid: a3c45e91-3e30-4f22-aedb-d81024160e88
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetUTCTime, GetUTCTime method [Microsoft TV Technologies], GetUTCTime method [Microsoft TV Technologies],IDVB_TDT interface, IDVB_TDT interface [Microsoft TV Technologies],GetUTCTime method, IDVB_TDT.GetUTCTime, IDVB_TDT::GetUTCTime, IDVB_TDTGetUTCTime, dvbsiparser/IDVB_TDT::GetUTCTime, mstv.idvb_tdt_getutctime
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: nla\inetworkevents_networkdeleted.htm
 old-project: nla
 ms.assetid: ae54cc29-6da8-405d-92f9-654239150dd0
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkDeleted method, INetworkEvents.NetworkDeleted, INetworkEvents::NetworkDeleted, NetworkDeleted, NetworkDeleted method [Network Awareness], NetworkDeleted method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkDeleted, nla.inetworkevents_networkdeleted
 ms.prod: windows
 ms.technology: windows-sdk

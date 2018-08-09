@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs7_signercertificate_property.h
 old-project: seccertenroll
 ms.assetid: 5d93aad0-6b93-4508-9bf0-82f673585ead
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],SignerCertificate property, IX509CertificateRequestPkcs7.SignerCertificate, IX509CertificateRequestPkcs7.put_SignerCertificate, IX509CertificateRequestPkcs7::SignerCertificate, IX509CertificateRequestPkcs7::get_SignerCertificate, IX509CertificateRequestPkcs7::put_SignerCertificate, SignerCertificate property [Security], SignerCertificate property [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::SignerCertificate, certenroll/IX509CertificateRequestPkcs7::get_SignerCertificate, certenroll/IX509CertificateRequestPkcs7::put_SignerCertificate, put_SignerCertificate, security.ix509certificaterequestpkcs7_signercertificate_property
 ms.prod: windows
 ms.technology: windows-sdk

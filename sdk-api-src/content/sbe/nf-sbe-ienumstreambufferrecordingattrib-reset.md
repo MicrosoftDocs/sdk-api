@@ -7,7 +7,7 @@ old-location: mstv\ienumstreambufferrecordingattrib_reset.htm
 old-project: mstv
 ms.assetid: 6fd3c56a-7804-4d7b-9d1f-6732cdadaf88
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies],Reset method, IEnumStreamBufferRecordingAttrib.Reset, IEnumStreamBufferRecordingAttrib::Reset, IEnumStreamBufferRecordingAttribReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumStreamBufferRecordingAttrib interface, mstv.ienumstreambufferrecordingattrib_reset, sbe/IEnumStreamBufferRecordingAttrib::Reset
 ms.prod: windows
 ms.technology: windows-sdk

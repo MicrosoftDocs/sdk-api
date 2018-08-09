@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromUInt16.htm
 old-project: properties
 ms.assetid: ec919626-6af3-4e33-85a5-134274220c67
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: InitVariantFromUInt16, InitVariantFromUInt16 function [Windows Properties], _shell_InitVariantFromUInt16, properties.InitVariantFromUInt16, propvarutil/InitVariantFromUInt16, shell.InitVariantFromUInt16
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762338(v=VS.85).aspx">InitVariantFromUInt16</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromUInt16">InitVariantFromUInt16</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -123,15 +123,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762309(v=VS.85).aspx">InitPropVariantFromUInt16</a>
+<a href="shell.InitPropVariantFromUInt16">InitPropVariantFromUInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776623(v=VS.85).aspx">VariantToUInt16</a>
+<a href="shell.VariantToUInt16">VariantToUInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776626(v=VS.85).aspx">VariantToUInt16WithDefault</a>
+<a href="shell.VariantToUInt16WithDefault">VariantToUInt16WithDefault</a>
  
 
  

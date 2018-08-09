@@ -7,7 +7,7 @@ old-location: multimedia\avistreamgetframeclose.htm
 old-project: Multimedia
 ms.assetid: cd1fa615-ab09-4d58-9d6d-a1843c0f1d7a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AVIStreamGetFrameClose, AVIStreamGetFrameClose function [Windows Multimedia], _win32_AVIStreamGetFrameClose, multimedia.avistreamgetframeclose, vfw/AVIStreamGetFrameClose
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,13 +64,6 @@ The <b>AVIStreamGetFrameClose</b> function releases resources used to decompress
 
 
 ### -param pg
-
-TBD
-
-
-
-
-#### - pget
 
 Handle returned from the <a href="https://msdn.microsoft.com/467560b2-f79f-49ab-b019-d6315f0c2030">AVIStreamGetFrameOpen</a> function. After calling this function, the handle is invalid.
 

@@ -4,10 +4,10 @@ title: IAction
 author: windows-sdk-content
 description: Provides the common properties inherited by all action objects.
 old-location: taskschd\iaction.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 50d60cf0-642a-43fe-9163-51740e75fa8d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IAction, IAction interface [Task Scheduler], IAction interface [Task Scheduler],described, taskschd.iaction, taskschd/IAction
 ms.prod: windows
 ms.technology: windows-sdk

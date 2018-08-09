@@ -4,10 +4,10 @@ title: BitmapBrushProperties1 function
 author: windows-sdk-content
 description: Creates a D2D1_BITMAP_BRUSH_PROPERTIES1 structure.
 old-location: direct2d\bitmapbrushproperties1.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 83F8641B-9BE4-4BBD-99FD-215EA3BD371A
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: BitmapBrushProperties1, BitmapBrushProperties1 function [Direct2D], d2d1_1helper/BitmapBrushProperties1, direct2d.bitmapbrushproperties1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,33 +60,23 @@ Creates a <a href="https://msdn.microsoft.com/0FECAD03-C35C-4729-9BBE-40DE11B340
 
 ### -param extendModeX
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4">D2D1_EXTEND_MODE</a></b>
+
+A value that specifies how the brush horizontally tiles those areas that extend past its bitmap. The default value is <a href="D2D1_EXTEND_MODE.htm">D2D1_EXTEND_MODE_CLAMP</a>. 
 
 
 ### -param extendModeY
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4">D2D1_EXTEND_MODE</a></b>
+
+A value that specifies how the brush vertically tiles those areas that extend past its bitmap. The default value is <a href="D2D1_EXTEND_MODE.htm">D2D1_EXTEND_MODE_CLAMP</a>.
 
 
 ### -param interpolationMode
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh447004(v=VS.85).aspx">D2D1_INTERPOLATION_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh447004(v=VS.85).aspx">D2D1_INTERPOLATION_MODE</a></b>
 
-A value that specifies the interpolation algorithm that is used when images are scaled or rotated. The default value is <a href="https://msdn.microsoft.com/library/Hh447004(v=VS.85).aspx">D2D1_INTERPOLATION_MODE_LINEAR</a>.
-
-
-#### - extendmodeX
-
-Type: <b><a href="https://msdn.microsoft.com/6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4">D2D1_EXTEND_MODE</a></b>
-
-A value that specifies how the brush horizontally tiles those areas that extend past its bitmap. The default value is <a href="https://msdn.microsoft.com/library/Dd368100(v=VS.85).aspx">D2D1_EXTEND_MODE_CLAMP</a>. 
-
-
-#### - extendmodeY
-
-Type: <b><a href="https://msdn.microsoft.com/6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4">D2D1_EXTEND_MODE</a></b>
-
-A value that specifies how the brush vertically tiles those areas that extend past its bitmap. The default value is <a href="https://msdn.microsoft.com/library/Dd368100(v=VS.85).aspx">D2D1_EXTEND_MODE_CLAMP</a>.
+A value that specifies the interpolation algorithm that is used when images are scaled or rotated. The default value is <a href="https://msdn.microsoft.com/en-us/library/Hh447004(v=VS.85).aspx">D2D1_INTERPOLATION_MODE_LINEAR</a>.
 
 
 ## -returns

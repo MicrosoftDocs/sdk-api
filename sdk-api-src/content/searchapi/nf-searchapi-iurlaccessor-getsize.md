@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_GetSize.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsize.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: GetSize, GetSize method [search], GetSize method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetSize method, IUrlAccessor.GetSize, IUrlAccessor::GetSize, _search_IUrlAccessor_GetSize, search._search_IUrlAccessor_GetSize, searchapi/IUrlAccessor::GetSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-        Gets the size of the content designated by the URL.
+Gets the size of the content designated by the URL.
         
 
 
@@ -65,8 +64,7 @@ req.product: ADAM
 
 Type: <b>ULONGLONG*</b>
 
-
-     Receives a pointer to the 
+Receives a pointer to the 
      number of bytes of data contained in the URL.
                 
 
@@ -86,8 +84,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-            The value calculated in this method is a factor in determining limitations on <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a>output size. This method should return 0 for containers if the protocol implementation is for a hierarchical content source.
+The value calculated in this method is a factor in determining limitations on <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>output size. This method should return 0 for containers if the protocol implementation is for a hierarchical content source.
             
 
 Implement this method for non-files by returning the size of the document to be indexed. For example, to index a database where each row is a document, return the best estimate of the size of the row.

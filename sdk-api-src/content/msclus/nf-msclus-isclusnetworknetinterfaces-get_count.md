@@ -7,7 +7,7 @@ old-location: mscs\clusnetworknetinterfaces_count.htm
 old-project: mscs
 ms.assetid: 041d76b3-1e70-4523-b50f-54da04c5e1ed
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusNetworkNetInterfaces collection [Failover Cluster],Count property, ClusNetworkNetInterfaces.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusNetworkNetInterfaces collection, ISClusNetworkNetInterfaces.get_Count, ISClusNetworkNetInterfaces::get_Count, _wolf_clusnetworknetinterfaces.count, get_Count, mscs.clusnetworknetinterfaces_count
 ms.prod: windows
 ms.technology: windows-sdk

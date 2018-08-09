@@ -4,10 +4,10 @@ title: CreateLayer function
 author: windows-sdk-content
 description: Creates a layer resource that can be used with this render target and its compatible render targets.
 old-location: direct2d\id2d1rendertarget_createlayer.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 074e9ffb-c5f2-4e7b-94c7-d457bf07c0b7
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: CreateLayer, CreateLayer methods [Direct2D], ID2D1RenderTarget::CreateLayer, d2d1/CreateLayer, direct2d.id2d1rendertarget_createlayer
 ms.prod: windows
 ms.technology: windows-sdk

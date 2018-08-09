@@ -7,7 +7,7 @@ old-location: shell\ULongLongToIntPtr.htm
 old-project: shell
 ms.assetid: 48836bf6-b498-4e3c-b6eb-e62f13f27521
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ULongLongToIntPtr, ULongLongToIntPtr function [Windows Shell], ULongLongToLongLong, ULongLongToPtrdiffT, _shell_ULongLongToIntPtr, intsafe/ULongLongToIntPtr, shell.ULongLongToIntPtr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,7 @@ Type: <b>ULONGLONG</b>
 The value to be converted.
 
 
-### -param pllResult
-
-TBD
-
-
-
-
-#### - piResult [out]
+### -param pllResult [out]
 
 Type: <b>INT_PTR*</b>
 

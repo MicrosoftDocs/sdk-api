@@ -4,10 +4,10 @@ title: IVssExamineWriterMetadataEx2
 author: windows-sdk-content
 description: Defines methods to retrieve version information and other basic information for a specific writer instance.
 old-location: base\ivssexaminewritermetadataex2.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 1ef5a83c-8f63-4884-8b70-a8241ba4857b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IVssExamineWriterMetadataEx2, IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,described, base.ivssexaminewritermetadataex2, vsbackup/IVssExamineWriterMetadataEx2
 ms.prod: windows
 ms.technology: windows-sdk

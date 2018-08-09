@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2data_get_currentphysicalmediatype.htm
 old-project: imapi
 ms.assetid: 6b9a80fc-6ef5-4102-9361-313d33f182ab
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_CurrentPhysicalMediaType method, IDiscFormat2Data.get_CurrentPhysicalMediaType, IDiscFormat2Data::get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType method [IMAPI], get_CurrentPhysicalMediaType method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_currentphysicalmediatype, imapi2/IDiscFormat2Data::get_CurrentPhysicalMediaType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Retrieves the type of media in the disc device.
 
 ### -param value [out]
 
-Type of media in the disc device. For possible values, see the <a href="https://msdn.microsoft.com/027c5e09-6cf7-4d7c-8381-07dc92cc43c5">IMAPI_MEDIA_PHYSICAL_TYPE</a>
-    enumeration type.
+Type of media in the disc device. For possible values, see the <a href="https://msdn.microsoft.com/027c5e09-6cf7-4d7c-8381-07dc92cc43c5">IMAPI_MEDIA_PHYSICAL_TYPE</a>enumeration type.
 
 
 ## -returns

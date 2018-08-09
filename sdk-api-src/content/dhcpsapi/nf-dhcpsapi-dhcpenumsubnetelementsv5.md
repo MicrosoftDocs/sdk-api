@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumsubnetelementsv5.htm
 old-project: dhcp
 ms.assetid: d6fd543c-5036-469e-9e48-02573c7dcb9f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpEnumSubnetElementsV5, DhcpEnumSubnetElementsV5 function [DHCP], dhcp.dhcpenumsubnetelementsv5, dhcpsapi/DhcpEnumSubnetElementsV5
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpEnumSubnetElementsV5</b> function returns an enumerated list of elements for a specific DHCP subnet.
+The <b>DhcpEnumSubnetElementsV5</b> function returns an enumerated list of elements for a specific DHCP subnet.
 
 
 ## -parameters
@@ -169,13 +168,11 @@ When no longer needed, the resources consumed for the  enumerated data, and all 
 
 
 
-<a href="https://msdn.microsoft.com/427683d5-e285-49b7-a68b-3c75b8b8ce23">
-		  DHCP_SUBNET_ELEMENT_INFO_ARRAY_V5</a>
+<a href="https://msdn.microsoft.com/427683d5-e285-49b7-a68b-3c75b8b8ce23">DHCP_SUBNET_ELEMENT_INFO_ARRAY_V5</a>
 
 
 
-<a href="https://msdn.microsoft.com/291be329-0588-4b67-835f-4f2b2369772a">
-		  DHCP_SUBNET_ELEMENT_TYPE</a>
+<a href="https://msdn.microsoft.com/291be329-0588-4b67-835f-4f2b2369772a">DHCP_SUBNET_ELEMENT_TYPE</a>
  
 
  

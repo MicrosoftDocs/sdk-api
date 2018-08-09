@@ -7,7 +7,7 @@ old-location: mscs\clusnode_resourcegroups.htm
 old-project: mscs
 ms.assetid: 45eae46b-54d2-4945-aab1-8b471df64881
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusNode object [Failover Cluster],ResourceGroups property, ClusNode.ResourceGroups, ISClusNode.get_ResourceGroups, ISClusNode::get_ResourceGroups, ResourceGroups property [Failover Cluster], ResourceGroups property [Failover Cluster],ClusNode object, _wolf_clusnode.resourcegroups, get_ResourceGroups, mscs.clusnode_resourcegroups
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\isearchcrawlscopemanager.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchCrawlScopeManager, ISearchCrawlScopeManager interface [search], ISearchCrawlScopeManager interface [search],described, _search_ISearchCrawlScopeManager, search._search_ISearchCrawlScopeManager, searchapi/ISearchCrawlScopeManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>ISearchCrawlScopeManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb266481(v=VS.85).aspx">AddDefaultScopeRule</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266481(v=VS.85).aspx">AddDefaultScopeRule</a>
 </td>
 <td align="left" width="63%">
 Adds a URL as the default scope for this rule.
@@ -81,29 +81,27 @@ Adds a URL as the default scope for this rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb266482(v=VS.85).aspx">AddHierarchicalScope</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266482(v=VS.85).aspx">AddHierarchicalScope</a>
 </td>
 <td align="left" width="63%">
-
-            Adds a hierarchical scope to the search engine.
+Adds a hierarchical scope to the search engine.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb266483(v=VS.85).aspx">AddRoot</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266483(v=VS.85).aspx">AddRoot</a>
 </td>
 <td align="left" width="63%">
-
-            Adds a new search root to the search engine.
+Adds a new search root to the search engine.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb266484(v=VS.85).aspx">AddUserScopeRule</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266484(v=VS.85).aspx">AddUserScopeRule</a>
 </td>
 <td align="left" width="63%">
 Adds a new crawl scope rule when the user creates a new rule or adds a URL to be indexed.
@@ -112,29 +110,27 @@ Adds a new crawl scope rule when the user creates a new rule or adds a URL to be
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb266485(v=VS.85).aspx">EnumerateRoots</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266485(v=VS.85).aspx">EnumerateRoots</a>
 </td>
 <td align="left" width="63%">
-
-            Returns an enumeration of all the roots of which this instance of the <b>ISearchCrawlScopeManager</b> is aware.
+Returns an enumeration of all the roots of which this instance of the <b>ISearchCrawlScopeManager</b> is aware.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb266486(v=VS.85).aspx">EnumerateScopeRules</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266486(v=VS.85).aspx">EnumerateScopeRules</a>
 </td>
 <td align="left" width="63%">
-
-          Returns an enumeration of all the scope rules of which this instance of the <b>ISearchCrawlScopeManager</b> interface is aware.
+Returns an enumeration of all the scope rules of which this instance of the <b>ISearchCrawlScopeManager</b> interface is aware.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb266487(v=VS.85).aspx">GetParentScopeVersionId</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266487(v=VS.85).aspx">GetParentScopeVersionId</a>
 </td>
 <td align="left" width="63%">
 Gets the version ID of the parent inclusion URL.
@@ -143,7 +139,7 @@ Gets the version ID of the parent inclusion URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb266488(v=VS.85).aspx">HasChildScopeRule</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266488(v=VS.85).aspx">HasChildScopeRule</a>
 </td>
 <td align="left" width="63%">
 Identifies whether a given URL has a child rule in scope.
@@ -153,7 +149,7 @@ Identifies whether a given URL has a child rule in scope.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb266489(v=VS.85).aspx">HasParentScopeRule</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266489(v=VS.85).aspx">HasParentScopeRule</a>
 </td>
 <td align="left" width="63%">
 Identifies whether a given URL has a parent rule in scope.
@@ -163,18 +159,17 @@ Identifies whether a given URL has a parent rule in scope.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb266490(v=VS.85).aspx">IncludedInCrawlScope</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266490(v=VS.85).aspx">IncludedInCrawlScope</a>
 </td>
 <td align="left" width="63%">
-
-            Retrieves an indicator of whether the specified URL is included in the crawl scope.
+Retrieves an indicator of whether the specified URL is included in the crawl scope.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb266491(v=VS.85).aspx">IncludedInCrawlScopeEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266491(v=VS.85).aspx">IncludedInCrawlScopeEx</a>
 </td>
 <td align="left" width="63%">
 Retrieves an indicator of whether and why the specified URL is included in the crawl scope.
@@ -183,7 +178,7 @@ Retrieves an indicator of whether and why the specified URL is included in the c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb266493(v=VS.85).aspx">RemoveDefaultScopeRule</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266493(v=VS.85).aspx">RemoveDefaultScopeRule</a>
 </td>
 <td align="left" width="63%">
 Removes a default scope rule from the search engine.
@@ -192,18 +187,17 @@ Removes a default scope rule from the search engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb266494(v=VS.85).aspx">RemoveRoot</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266494(v=VS.85).aspx">RemoveRoot</a>
 </td>
 <td align="left" width="63%">
-
-          Removes a search root from the search engine.
+Removes a search root from the search engine.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb266495(v=VS.85).aspx">RemoveScopeRule</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266495(v=VS.85).aspx">RemoveScopeRule</a>
 </td>
 <td align="left" width="63%">
 Removes a scope rule from the search engine.
@@ -212,7 +206,7 @@ Removes a scope rule from the search engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb266496(v=VS.85).aspx">RevertToDefaultScopes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266496(v=VS.85).aspx">RevertToDefaultScopes</a>
 </td>
 <td align="left" width="63%">
 Reverts to the default scopes.
@@ -221,11 +215,10 @@ Reverts to the default scopes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb266497(v=VS.85).aspx">SaveAll</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266497(v=VS.85).aspx">SaveAll</a>
 </td>
 <td align="left" width="63%">
-
-          Commits all changes to the search engine.
+Commits all changes to the search engine.
         
 
 </td>
@@ -252,11 +245,11 @@ Reverts to the default scopes.
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
+<a href="https://msdn.microsoft.com/en-us/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb266541(v=VS.85).aspx">Using the Crawl Scope Manager</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266541(v=VS.85).aspx">Using the Crawl Scope Manager</a>
  
 
  

@@ -4,10 +4,10 @@ title: IVdsLunPlex::ApplyHints
 author: windows-sdk-content
 description: Applies a new set of hints to the LUN plex. Hints applied to a plex affect neither the LUN nor its other plexes.
 old-location: base\ivdslunplex_applyhints.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 66299644-4b70-4cd3-ae99-4d4084c3c3c5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: ApplyHints, ApplyHints method [VDS], ApplyHints method [VDS],IVdsLunPlex interface, IVdsLunPlex interface [VDS],ApplyHints method, IVdsLunPlex.ApplyHints, IVdsLunPlex::ApplyHints, base.ivdslunplex_applyhints, vds/IVdsLunPlex::ApplyHints, vdshwprv/IVdsLunPlex::ApplyHints
 ms.prod: windows
 ms.technology: windows-sdk

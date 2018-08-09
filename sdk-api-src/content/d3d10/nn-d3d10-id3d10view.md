@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10view.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10view.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D10View, ID3D10View interface [Direct3D 10], ID3D10View interface [Direct3D 10],described, d3d10/ID3D10View, direct3d10.id3d10view, f36206a8-55f1-ac58-4818-8c308ce6e81f
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ A view interface specifies the parts of a resource the pipeline can access durin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10View</b> interface inherits from <a href="https://msdn.microsoft.com/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>. <b>ID3D10View</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10View</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>. <b>ID3D10View</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID3D10View</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173877(v=VS.85).aspx">GetResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173877(v=VS.85).aspx">GetResource</a>
 </td>
 <td align="left" width="63%">
 Get the resource that is accessed through this view.
@@ -88,17 +88,17 @@ Get the resource that is accessed through this view.
 A view interface is the base interface for all views. There are three types of views; a depth-stencil view, a render-target view, and a shader-resource view.
 
 <ul>
-<li>To create a render-target view, call <a href="https://msdn.microsoft.com/library/Bb173556(v=VS.85).aspx">ID3D10Device::CreateRenderTargetView</a>.</li>
-<li>To create a depth-stencil view, call <a href="https://msdn.microsoft.com/library/Bb173547(v=VS.85).aspx">ID3D10Device::CreateDepthStencilView</a>.</li>
-<li>To create a shader-resource view, call <a href="https://msdn.microsoft.com/library/Bb173558(v=VS.85).aspx">ID3D10Device::CreateShaderResourceView</a>.</li>
+<li>To create a render-target view, call <a href="https://msdn.microsoft.com/en-us/library/Bb173556(v=VS.85).aspx">ID3D10Device::CreateRenderTargetView</a>.</li>
+<li>To create a depth-stencil view, call <a href="https://msdn.microsoft.com/en-us/library/Bb173547(v=VS.85).aspx">ID3D10Device::CreateDepthStencilView</a>.</li>
+<li>To create a shader-resource view, call <a href="https://msdn.microsoft.com/en-us/library/Bb173558(v=VS.85).aspx">ID3D10Device::CreateShaderResourceView</a>.</li>
 </ul>
 All resources must be bound to the pipeline before they can be accessed.
 
 <ul>
-<li>To bind a render-target view or a depth-stencil view, call <a href="https://msdn.microsoft.com/library/Bb173597(v=VS.85).aspx">ID3D10Device::OMSetRenderTargets</a>.</li>
-<li>To bind a shader-resource view, call <a href="https://msdn.microsoft.com/library/Bb173629(v=VS.85).aspx">ID3D10Device::VSSetShaderResources</a>.</li>
+<li>To bind a render-target view or a depth-stencil view, call <a href="https://msdn.microsoft.com/en-us/library/Bb173597(v=VS.85).aspx">ID3D10Device::OMSetRenderTargets</a>.</li>
+<li>To bind a shader-resource view, call <a href="https://msdn.microsoft.com/en-us/library/Bb173629(v=VS.85).aspx">ID3D10Device::VSSetShaderResources</a>.</li>
 </ul>
-A view can also be used to access a <a href="https://msdn.microsoft.com/library/Bb205128(v=VS.85).aspx">typeless resource</a>.
+A view can also be used to access a <a href="https://msdn.microsoft.com/en-us/library/Bb205128(v=VS.85).aspx">typeless resource</a>.
 
 
 
@@ -108,11 +108,11 @@ A view can also be used to access a <a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205276(v=VS.85).aspx">Resource Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205276(v=VS.85).aspx">Resource Interfaces</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: of\iofflinefilesitem_ismarkedfordeletion.htm
 old-project: offlinefiles
 ms.assetid: 03c0fec4-d320-4c46-a07c-3ebbec61cc54
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesItem interface [Offline Files],IsMarkedForDeletion method, IOfflineFilesItem.IsMarkedForDeletion, IOfflineFilesItem::IsMarkedForDeletion, IsMarkedForDeletion, IsMarkedForDeletion method [Offline Files], IsMarkedForDeletion method [Offline Files],IOfflineFilesItem interface, cscobj/IOfflineFilesItem::IsMarkedForDeletion, of.iofflinefilesitem_ismarkedfordeletion
 ms.prod: windows
 ms.technology: windows-sdk

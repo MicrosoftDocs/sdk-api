@@ -4,10 +4,10 @@ title: IWRdsProtocolConnection::NotifySessionId
 author: windows-sdk-content
 description: Sends the identifier of the new session to the protocol.
 old-location: termserv\iwrdsprotocolconnection_notifysessionid.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 82bf892e-5e6f-4057-ac36-00e046080c93
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],NotifySessionId method, IWRdsProtocolConnection.NotifySessionId, IWRdsProtocolConnection::NotifySessionId, NotifySessionId, NotifySessionId method [Remote Desktop Services], NotifySessionId method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_notifysessionid, wtsprotocol/IWRdsProtocolConnection::NotifySessionId
 ms.prod: windows
 ms.technology: windows-sdk

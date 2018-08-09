@@ -7,7 +7,7 @@ old-location: winprog\multiplyhigh.htm
 old-project: winprog
 ms.assetid: 9072FCB1-89AE-4441-A425-AC3071A47E76
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: MultiplyHigh, MultiplyHigh function [Windows API], winnt/MultiplyHigh, winprog.multiplyhigh
 ms.prod: windows
 ms.technology: windows-sdk

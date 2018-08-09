@@ -7,7 +7,7 @@ old-location: security\accesscheckbytyperesultlistandauditalarm.htm
 old-project: secauthz
 ms.assetid: 4b53a15a-5a6b-40c7-acf8-26b1f4bca4ae
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AccessCheckByTypeResultListAndAuditAlarm, AccessCheckByTypeResultListAndAuditAlarm function [Security], AccessCheckByTypeResultListAndAuditAlarmA, AccessCheckByTypeResultListAndAuditAlarmW, _win32_accesscheckbytyperesultlistandauditalarm, security.accesscheckbytyperesultlistandauditalarm, securitybaseapi/AccessCheckByTypeResultListAndAuditAlarm, securitybaseapi/AccessCheckByTypeResultListAndAuditAlarmA, securitybaseapi/AccessCheckByTypeResultListAndAuditAlarmW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,9 +88,10 @@ A pointer to a null-terminated string that specifies the type of object being cr
 A pointer to a null-terminated string that specifies the name of the object being created or accessed. This string appears in any audit message that the function generates.
 
 
-### -param SecurityDescriptor
+### -param SecurityDescriptor [in]
 
-TBD
+A pointer to a 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure against which access is checked.
 
 
 ### -param PrincipalSelfSid [in, optional]
@@ -144,9 +145,9 @@ A pointer to the
 A flag that determines whether the calling application will create a new object when access is granted. A value of <b>TRUE</b> indicates the application will create a new object. A value of <b>FALSE</b> indicates the application will open an existing object.
 
 
-### -param GrantedAccessList
+### -param GrantedAccessList [out]
 
-TBD
+A pointer to an array of access masks. The function sets each access mask to indicate the access rights granted to the corresponding element in the object type list. If the function fails, it does not set the access masks.
 
 
 ### -param AccessStatusList [out]
@@ -160,23 +161,11 @@ A pointer to a flag set by the audit-generation routine when the function return
 <a href="https://msdn.microsoft.com/274f3a62-1833-402b-b362-f526b2bee14b">ObjectCloseAuditAlarm</a> function when the object handle is closed.
 
 
-#### - GrantedAccess [out]
-
-A pointer to an array of access masks. The function sets each access mask to indicate the access rights granted to the corresponding element in the object type list. If the function fails, it does not set the access masks.
-
-
-#### - pSecurityDescriptor [in]
-
-A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure against which access is checked.
-
-
 ## -returns
 
 
 
-
-      If the function succeeds, the function returns nonzero.
+If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. To get extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.

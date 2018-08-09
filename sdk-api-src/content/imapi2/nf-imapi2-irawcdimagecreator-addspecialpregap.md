@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagecreator_addspecialpregap.htm
 old-project: imapi
 ms.assetid: 953ac9e9-b097-4fe5-8bcf-db4f9f15816e
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: AddSpecialPregap, AddSpecialPregap method [IMAPI], AddSpecialPregap method [IMAPI],IRawCDImageCreator interface, IRawCDImageCreator interface [IMAPI],AddSpecialPregap method, IRawCDImageCreator.AddSpecialPregap, IRawCDImageCreator::AddSpecialPregap, imapi.irawcdimagecreator_addspecialpregap, imapi2/IRawCDImageCreator::AddSpecialPregap
 ms.prod: windows
 ms.technology: windows-sdk

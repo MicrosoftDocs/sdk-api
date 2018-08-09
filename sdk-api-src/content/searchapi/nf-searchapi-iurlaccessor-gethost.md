@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_GetHost.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\gethost.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: GetHost, GetHost method [search], GetHost method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetHost method, IUrlAccessor.GetHost, IUrlAccessor::GetHost, _search_IUrlAccessor_GetHost, search._search_IUrlAccessor_GetHost, searchapi/IUrlAccessor::GetHost
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-         Gets the host name for the content source, if applicable.
+Gets the host name for the content source, if applicable.
         
 
 
@@ -65,8 +64,7 @@ req.product: ADAM
 
 Type: <b>WCHAR[]</b>
 
-
-                Receives the name of the host that the content source file resides on, as a null-terminated Unicode string.
+Receives the name of the host that the content source file resides on, as a null-terminated Unicode string.
                 
 
 
@@ -74,9 +72,7 @@ Type: <b>WCHAR[]</b>
 
 Type: <b>DWORD</b>
 
-
-                Size in <b>TCHAR</b><b>s</b>
-                of <i>wszHost</i>, not including the terminating <b>NULL</b>.
+Size in <b>TCHAR</b><b>s</b>of <i>wszHost</i>, not including the terminating <b>NULL</b>.
                 
 
 
@@ -84,8 +80,7 @@ Type: <b>DWORD</b>
 
 Type: <b>DWORD*</b>
 
-
-                Receives a pointer to the number of <b>TCHAR</b><b>s</b> written to <i>wszHost</i>, not including the terminating <b>NULL</b>. 
+Receives a pointer to the number of <b>TCHAR</b><b>s</b> written to <i>wszHost</i>, not including the terminating <b>NULL</b>. 
                 
 
 

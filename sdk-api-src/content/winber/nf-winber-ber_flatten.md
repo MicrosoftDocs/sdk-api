@@ -4,10 +4,10 @@ title: ber_flatten function
 author: windows-sdk-content
 description: The ber_flatten function allocates a new berval structure containing the data taken from the supplied BerElement structure.
 old-location: ldap\ber_flatten.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: c253100b-092e-4975-8411-31edb7791068
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_ldap_ber_flatten, ber_flatten, ber_flatten function [LDAP], ldap.ber__flatten, ldap.ber_flatten, winber/ber_flatten"
 ms.prod: windows
 ms.technology: windows-sdk

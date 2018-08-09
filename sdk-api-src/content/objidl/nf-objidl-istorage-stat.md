@@ -7,7 +7,7 @@ old-location: stg\istorage_stat.htm
 old-project: stg
 ms.assetid: 87478fa8-1b5f-44ed-bffc-e139c7f44a12
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: IStorage interface [Structured Storage],Stat method, IStorage.Stat, IStorage::Stat, Stat, Stat method [Structured Storage], Stat method [Structured Storage],IStorage interface, _stg_istorage_stat, objidl/IStorage::Stat, stg.istorage_stat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The <b>Stat</b> method retrieves the 
+The <b>Stat</b> method retrieves the 
 <a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structure for this open storage object.
 
 

@@ -4,10 +4,10 @@ title: CreateSemaphoreW function
 author: windows-sdk-content
 description: Creates or opens a named or unnamed semaphore object.
 old-location: base\createsemaphore.htm
-old-project: Sync
+old-project: sync
 ms.assetid: 2e55d67b-99de-4f10-8637-00d9d62e4460
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateSemaphore, CreateSemaphore function, CreateSemaphoreA, CreateSemaphoreW, _win32_createsemaphore, base.createsemaphore, synchapi/CreateSemaphore, synchapi/CreateSemaphoreA, synchapi/CreateSemaphoreW
 ms.prod: windows
 ms.technology: windows-sdk

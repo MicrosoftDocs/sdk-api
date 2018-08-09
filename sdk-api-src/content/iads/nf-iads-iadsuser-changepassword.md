@@ -7,7 +7,7 @@ old-location: adsi\iadsuser_changepassword.htm
 old-project: ADSI
 ms.assetid: 279087b1-450a-4089-a5f6-257849ae583f
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: ChangePassword, ChangePassword method [ADSI], ChangePassword method [ADSI],IADsUser interface, IADsUser interface [ADSI],ChangePassword method, IADsUser.ChangePassword, IADsUser::ChangePassword, _ds_iadsuser_changepassword, adsi.iadsuser__changepassword, adsi.iadsuser_changepassword, iads/IADsUser::ChangePassword
 ms.prod: windows
 ms.technology: windows-sdk

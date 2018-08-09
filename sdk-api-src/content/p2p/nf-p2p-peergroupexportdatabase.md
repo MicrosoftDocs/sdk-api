@@ -7,7 +7,7 @@ old-location: p2p\peergroupexportdatabase.htm
 old-project: p2psdk
 ms.assetid: ce448780-5a9b-4d2d-9dfb-192b4e6c1b22
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGroupExportDatabase, PeerGroupExportDatabase function [Peer Networking], p2p.peergroupexportdatabase, p2p/PeerGroupExportDatabase
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGroupExportDatabase</b> function exports a peer  group database to a specific file, which can be transported to another computer and imported with the <a href="https://msdn.microsoft.com/507b2b51-07d1-4e8d-8ec6-6b7398eadcc0">PeerGroupImportDatabase</a> function.
+The <b>PeerGroupExportDatabase</b> function exports a peer  group database to a specific file, which can be transported to another computer and imported with the <a href="https://msdn.microsoft.com/507b2b51-07d1-4e8d-8ec6-6b7398eadcc0">PeerGroupImportDatabase</a> function.
 
 
 ## -parameters

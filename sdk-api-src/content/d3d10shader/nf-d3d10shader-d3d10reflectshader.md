@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10reflectshader.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10reflectshader.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D3D10ReflectShader, D3D10ReflectShader function [Direct3D 10], abc201df-57cf-fbbd-708b-94ffa50ba7d4, d3d10shader/D3D10ReflectShader, direct3d10.d3d10reflectshader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- has been deprecated. Instead, use <a href="https://msdn.microsoft.com/library/Dd607334(v=VS.85).aspx">D3DReflect</a>.
+This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- has been deprecated. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Dd607334(v=VS.85).aspx">D3DReflect</a>.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ Length of pShaderBytecode.
 
 ### -param ppReflector [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173835(v=VS.85).aspx">ID3D10ShaderReflection</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173835(v=VS.85).aspx">ID3D10ShaderReflection</a>**</b>
 
 Address of a reflection interface.
 
@@ -83,7 +83,7 @@ Address of a reflection interface.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Return value.
 
@@ -95,7 +95,7 @@ Return value.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205157(v=VS.85).aspx">Shader Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205157(v=VS.85).aspx">Shader Functions</a>
  
 
  

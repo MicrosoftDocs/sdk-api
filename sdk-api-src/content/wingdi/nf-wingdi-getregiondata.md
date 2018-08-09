@@ -7,7 +7,7 @@ old-location: gdi\getregiondata.htm
 old-project: gdi
 ms.assetid: e0d4862d-a405-4c00-b7b0-af4dd60407c0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetRegionData, GetRegionData function [Windows GDI], _win32_GetRegionData, gdi.getregiondata, wingdi/GetRegionData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,29 +65,19 @@ The <b>GetRegionData</b> function fills the specified buffer with data describin
 
 
 
-### -param hrgn
+### -param hrgn [in]
 
-TBD
+A handle to the region.
 
 
-### -param nCount
+### -param nCount [in]
 
-TBD
+The size, in bytes, of the <i>lpRgnData</i> buffer.
 
 
 ### -param lpRgnData [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/3eac0b23-3138-4b34-9c16-6cc185e4de22">RGNDATA</a> structure that receives the information. The dimensions of the region are in logical units. If this parameter is <b>NULL</b>, the return value contains the number of bytes needed for the region data.
-
-
-#### - dwCount [in]
-
-The size, in bytes, of the <i>lpRgnData</i> buffer.
-
-
-#### - hRgn [in]
-
-A handle to the region.
 
 
 ## -returns

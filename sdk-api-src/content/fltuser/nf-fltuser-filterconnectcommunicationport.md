@@ -7,7 +7,7 @@ old-location: ifsk\filterconnectcommunicationport.htm
 old-project: ifsk
 ms.assetid: 294783f2-2cbf-4eea-82ae-a396c62f911a
 ms.author: windowssdkdev
-ms.date: 04/17/2018
+ms.date: 08/06/2018
 ms.keywords: FLT_PORT_FLAG_SYNC_HANDLE, FilterConnectCommunicationPort, FilterConnectCommunicationPort function [Installable File System Drivers], FltWin32ApiRef_3459349f-ecfb-47c0-ae70-3f75e1d18435.xml, fltuser/FilterConnectCommunicationPort, ifsk.filterconnectcommunicationport
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,9 +92,9 @@ The handle returned in <i>hPort</i> is for synchronous I/O. This flag is availab
 Pointer to caller-supplied context information to be passed to the kernel-mode minifilter's connect notification routine. (See the <i>ConnectNotifyCallback</i> parameter in the reference page for <a href="https://msdn.microsoft.com/library/windows/hardware/ff541931">FltCreateCommunicationPort</a>.) This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param wSizeOfContext
+### -param wSizeOfContext [in]
 
-TBD
+Size, in bytes, of the structure that the <i>lpContext</i> parameter points to. If the value of <i>lpContext</i> is non-<b>NULL</b>, this parameter must be nonzero. If <i>lpContext</i> is <b>NULL</b>, this parameter must be zero. 
 
 
 ### -param lpSecurityAttributes [in, optional]
@@ -105,11 +105,6 @@ Pointer to a SECURITY_ATTRIBUTES structure that determines whether the returned 
 ### -param hPort [out]
 
 Pointer to a caller-allocated variable that receives a handle for the newly created connection port if the call to <b>FilterConnectCommunicationPort</b> succeeds; otherwise, it receives INVALID_HANDLE_VALUE. 
-
-
-#### - dwSizeOfContext [in]
-
-Size, in bytes, of the structure that the <i>lpContext</i> parameter points to. If the value of <i>lpContext</i> is non-<b>NULL</b>, this parameter must be nonzero. If <i>lpContext</i> is <b>NULL</b>, this parameter must be zero. 
 
 
 ## -returns

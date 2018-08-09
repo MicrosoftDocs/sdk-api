@@ -7,7 +7,7 @@ old-location: base\regcopytree.htm
 old-project: SysInfo
 ms.assetid: d16f2b47-e537-42b0-90b3-9f9a00e61e76
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: RegCopyTree, RegCopyTree function, RegCopyTreeA, RegCopyTreeW, base.regcopytree, winreg/RegCopyTree, winreg/RegCopyTreeA, winreg/RegCopyTreeW
 ms.prod: windows
 ms.technology: windows-sdk

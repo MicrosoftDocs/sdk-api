@@ -7,7 +7,7 @@ old-location: controls\OBJECTPOSITIONS.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\objectpositions.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: OBJECTPOSITIONS, OBJECTPOSITIONS structure [Windows Controls], _objectpositions, _win32_OBJECTPOSITIONS_str, _win32_OBJECTPOSITIONS_str_cpp, controls.OBJECTPOSITIONS, controls._win32_OBJECTPOSITIONS_str, richedit/OBJECTPOSITIONS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Contains object position information.
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 The <b>code</b> member of this structure identifies the notification code being sent. 
 
@@ -84,7 +84,7 @@ The object positions.
 
 
 
-This is used in the <a href="https://msdn.microsoft.com/library/Bb787977(v=VS.85).aspx">EN_OBJECTPOSITIONS</a> notification. 
+This is used in the <a href="https://msdn.microsoft.com/en-us/library/Bb787977(v=VS.85).aspx">EN_OBJECTPOSITIONS</a> notification. 
 
 
 
@@ -94,11 +94,11 @@ This is used in the <a href="https://msdn.microsoft.com/library/Bb787977(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787977(v=VS.85).aspx">EN_OBJECTPOSITIONS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787977(v=VS.85).aspx">EN_OBJECTPOSITIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a>
 
 
 

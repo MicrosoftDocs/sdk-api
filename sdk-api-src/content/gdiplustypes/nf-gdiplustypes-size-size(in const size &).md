@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Size_Size_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizeclass\sizeconstructors\size_20.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Size, Size class [GDI+],Size constructor, Size constructor [GDI+], Size constructor [GDI+],Size class, Size.Size, Size.Size(), Size.Size(IN const Size &), Size::Size, Size::Size(IN const Size &), _gdiplus_CLASS_Size_Size_, gdiplus._gdiplus_CLASS_Size_Size_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ Creates a new <a href="https://msdn.microsoft.com/library/windows/hardware/dn915
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534747(v=VS.85).aspx">Size Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534747(v=VS.85).aspx">Size Constructors</a>
  
 
  

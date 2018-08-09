@@ -7,7 +7,7 @@ old-location: xps\ixpsomdashcollection_removeat.htm
 old-project: printdocs
 ms.assetid: 5ccce0d4-c764-4da4-9d7c-463921a92a6a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IXpsOMDashCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMDashCollection.RemoveAt, IXpsOMDashCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, xps.ixpsomdashcollection_removeat, xpsobjectmodel/IXpsOMDashCollection::RemoveAt
 ms.prod: windows
 ms.technology: windows-sdk

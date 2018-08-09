@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_createsamplerstate.htm
 old-project: direct3d11
 ms.assetid: 66cf7189-2882-43a4-8732-657402c983db
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 845db980-5abf-c948-258d-62903feec271, CreateSamplerState, CreateSamplerState method [Direct3D 11], CreateSamplerState method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateSamplerState method, ID3D11Device.CreateSamplerState, ID3D11Device::CreateSamplerState, d3d11/ID3D11Device::CreateSamplerState, direct3d11.id3d11device_createsamplerstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ Address of a pointer to the sampler state object created (see <a href="https://m
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

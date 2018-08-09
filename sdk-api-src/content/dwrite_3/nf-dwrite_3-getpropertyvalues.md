@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontset_getpropertyvalues_overload.htm
 old-project: DirectWrite
 ms.assetid: 3c3fd5b7-88dd-d434-0b62-f365b407c379
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: GetPropertyValues, GetPropertyValues methods [Direct Write], IDWriteFontSet::GetPropertyValues, directwrite.idwritefontset_getpropertyvalues_overload, dwrite_3/GetPropertyValues
 ms.prod: windows
 ms.technology: windows-sdk

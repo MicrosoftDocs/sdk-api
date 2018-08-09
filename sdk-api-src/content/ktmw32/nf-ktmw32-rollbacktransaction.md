@@ -4,10 +4,10 @@ title: RollbackTransaction function
 author: windows-sdk-content
 description: Requests that the specified transaction be rolled back.
 old-location: fs\rollbacktransaction.htm
-old-project: Ktm
+old-project: ktm
 ms.assetid: 7d3522b8-ddf0-449e-8ab4-09e679ba1f15
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: RollbackTransaction, RollbackTransaction function [Files], fs.rollbacktransaction, ktmw32/RollbackTransaction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,8 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Requests that the specified transaction be rolled back.  This function is synchronous.
+
+        Requests that the specified transaction be rolled back.  This function is synchronous.
 
 
 ## -parameters

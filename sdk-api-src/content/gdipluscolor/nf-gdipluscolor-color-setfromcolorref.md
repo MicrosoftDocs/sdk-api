@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Color_SetFromCOLORREF_rgb_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\setfromcolorref.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Color class [GDI+],SetFromCOLORREF method, Color.SetFromCOLORREF, Color::SetFromCOLORREF, SetFromCOLORREF, SetFromCOLORREF method [GDI+], SetFromCOLORREF method [GDI+],Color class, _gdiplus_CLASS_Color_SetFromCOLORREF_rgb_, gdiplus._gdiplus_CLASS_Color_SetFromCOLORREF_rgb_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -128,11 +128,11 @@ The following example creates a <a href="https://msdn.microsoft.com/library/wind
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536254(v=VS.85).aspx">Color::MakeARGB</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536254(v=VS.85).aspx">Color::MakeARGB</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536257(v=VS.85).aspx">Color::ToCOLORREF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536257(v=VS.85).aspx">Color::ToCOLORREF</a>
  
 
  

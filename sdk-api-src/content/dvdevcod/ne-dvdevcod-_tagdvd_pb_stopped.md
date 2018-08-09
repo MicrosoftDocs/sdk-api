@@ -7,7 +7,7 @@ old-location: dshow\dvd_pb_stopped.htm
 old-project: DirectShow
 ms.assetid: 7f095629-9d44-4666-b14a-932122959f4e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: DVD_PB_STOPPED, DVD_PB_STOPPED , DVD_PB_STOPPED enumeration [DirectShow], DVD_PB_STOPPEDEnumeration, DVD_PB_STOPPED_CopyProtectFailure, DVD_PB_STOPPED_CopyProtectOutputFailure, DVD_PB_STOPPED_CopyProtectOutputNotSupported, DVD_PB_STOPPED_DiscEjected, DVD_PB_STOPPED_DiscReadError, DVD_PB_STOPPED_IllegalNavCommand, DVD_PB_STOPPED_MacrovisionFailure, DVD_PB_STOPPED_NoBranch, DVD_PB_STOPPED_NoFirstPlayDomain, DVD_PB_STOPPED_Other, DVD_PB_STOPPED_ParentalFailure, DVD_PB_STOPPED_PlayChapterAutoStop, DVD_PB_STOPPED_PlayPeriodAutoStop, DVD_PB_STOPPED_RegionFailure, DVD_PB_STOPPED_Reset, DVD_PB_STOPPED_StopCommand, _tagDVD_PB_STOPPED, dshow.dvd_pb_stopped, dvdevcod/DVD_PB_STOPPED, dvdevcod/DVD_PB_STOPPED_CopyProtectFailure, dvdevcod/DVD_PB_STOPPED_CopyProtectOutputFailure, dvdevcod/DVD_PB_STOPPED_CopyProtectOutputNotSupported, dvdevcod/DVD_PB_STOPPED_DiscEjected, dvdevcod/DVD_PB_STOPPED_DiscReadError, dvdevcod/DVD_PB_STOPPED_IllegalNavCommand, dvdevcod/DVD_PB_STOPPED_MacrovisionFailure, dvdevcod/DVD_PB_STOPPED_NoBranch, dvdevcod/DVD_PB_STOPPED_NoFirstPlayDomain, dvdevcod/DVD_PB_STOPPED_Other, dvdevcod/DVD_PB_STOPPED_ParentalFailure, dvdevcod/DVD_PB_STOPPED_PlayChapterAutoStop, dvdevcod/DVD_PB_STOPPED_PlayPeriodAutoStop, dvdevcod/DVD_PB_STOPPED_RegionFailure, dvdevcod/DVD_PB_STOPPED_Reset, dvdevcod/DVD_PB_STOPPED_StopCommand
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,99 +64,85 @@ The DVD_PB_STOPPED enumeration value has flags that indicate why DVD playback st
 
 ### -field DVD_PB_STOPPED_Other
 
-
-            Unspecified reason.
+Unspecified reason.
           
 
 
 ### -field DVD_PB_STOPPED_NoBranch
 
-
-            The current program chain (PGC) completed and the DVD Navigator found no other video or other branching instructions.
+The current program chain (PGC) completed and the DVD Navigator found no other video or other branching instructions.
           
 
 
 ### -field DVD_PB_STOPPED_NoFirstPlayDomain
 
-
-            The disc does not contain an initial startup program.
+The disc does not contain an initial startup program.
           
 
 
 ### -field DVD_PB_STOPPED_StopCommand
 
-
-            The application stopped playback or a DVD Navigator reached a stop command on the disc.
+The application stopped playback or a DVD Navigator reached a stop command on the disc.
           
 
 
 ### -field DVD_PB_STOPPED_Reset
 
-
-            The DVD Navigator was reset to the start of the disc.
+The DVD Navigator was reset to the start of the disc.
           
 
 
 ### -field DVD_PB_STOPPED_DiscEjected
 
-
-            The disc was ejected.
+The disc was ejected.
           
 
 
 ### -field DVD_PB_STOPPED_IllegalNavCommand
 
-
-            An invalid navigation command prevented playback from continuing.
+An invalid navigation command prevented playback from continuing.
           
 
 
 ### -field DVD_PB_STOPPED_PlayPeriodAutoStop
 
-
-            Playback reached the end time that was specified by the application.
+Playback reached the end time that was specified by the application.
           
 
 
 ### -field DVD_PB_STOPPED_PlayChapterAutoStop
 
-
-            Playback reached the end of the chapter.
+Playback reached the end of the chapter.
           
 
 
 ### -field DVD_PB_STOPPED_ParentalFailure
 
-
-            Playback was stopped because of the parental level.
+Playback was stopped because of the parental level.
           
 
 
 ### -field DVD_PB_STOPPED_RegionFailure
 
-
-            Playback was stopped because the region did not match.
+Playback was stopped because the region did not match.
           
 
 
 ### -field DVD_PB_STOPPED_MacrovisionFailure
 
-
-            Playback was stopped because of analog copy protection.
+Playback was stopped because of analog copy protection.
           
 
 
 ### -field DVD_PB_STOPPED_DiscReadError
 
-
-            An error occurred while reading the disc.
+An error occurred while reading the disc.
           
 
 
 ### -field DVD_PB_STOPPED_CopyProtectFailure
 
-
-            Playback was stopped because of copy protection.
+Playback was stopped because of copy protection.
           
 
 
@@ -168,8 +154,7 @@ The disc cannot be played because the video display does not meet the copy prote
 
 ### -field DVD_PB_STOPPED_CopyProtectOutputNotSupported
 
-
-            The disc cannot be played because the driver does not support checking the video display.
+The disc cannot be played because the driver does not support checking the video display.
 
 
 ## -see-also

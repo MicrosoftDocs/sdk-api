@@ -7,7 +7,7 @@ old-location: iphlp\geticmpstatisticsex.htm
 old-project: iphlp
 ms.assetid: b074650a-0f03-448c-8828-c7bcec9d6030
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: AF_INET, AF_INET6, GetIcmpStatisticsEx, GetIcmpStatisticsEx function [IP Helper], iphlp.geticmpstatisticsex, iphlpapi/GetIcmpStatisticsEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,19 +59,13 @@ The <b>GetIcmpStatisticsEx</b> function retrieves  Internet Control Message Prot
 
 
 
-### -param Statistics
+### -param Statistics [out]
 
-TBD
-
-
-### -param Family
-
-TBD
+A pointer to a 
+<a href="https://msdn.microsoft.com/3d2c7edc-c9e6-4db6-b7c8-07f7f01cbe0d">MIB_ICMP_EX</a> structure that contains ICMP statistics for the local computer.
 
 
-
-
-#### - dwFamily [in]
+### -param Family [in]
 
 The protocol family for which to retrieve ICMP statistics. Must be one of the following: 
 
@@ -104,12 +98,6 @@ Internet Protocol version 6 (IPv6).
 </tr>
 </table>
  
-
-
-#### - pStats [out]
-
-A pointer to a 
-<a href="https://msdn.microsoft.com/3d2c7edc-c9e6-4db6-b7c8-07f7f01cbe0d">MIB_ICMP_EX</a> structure that contains ICMP statistics for the local computer.
 
 
 ## -returns

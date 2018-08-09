@@ -7,7 +7,7 @@ old-location: rpc\rpcserverinterfacegroupinqbindings.htm
 old-project: rpc
 ms.assetid: 90535A05-9835-45F2-A62F-718736A80ED3
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcServerInterfaceGroupInqBindings, RpcServerInterfaceGroupInqBindings function [RPC], rpc.rpcserverinterfacegroupinqbindings, rpcdce/RpcServerInterfaceGroupInqBindings
 ms.prod: windows
 ms.technology: windows-sdk

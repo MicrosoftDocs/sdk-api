@@ -7,7 +7,7 @@ old-location: gdi\drawtext.htm
 old-project: gdi
 ms.assetid: fe412280-d797-4abd-8a29-107a9cd96145
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DT_BOTTOM, DT_CALCRECT, DT_CENTER, DT_EDITCONTROL, DT_END_ELLIPSIS, DT_EXPANDTABS, DT_EXTERNALLEADING, DT_HIDEPREFIX, DT_INTERNAL, DT_LEFT, DT_MODIFYSTRING, DT_NOCLIP, DT_NOFULLWIDTHCHARBREAK, DT_NOPREFIX, DT_PATH_ELLIPSIS, DT_PREFIXONLY, DT_RIGHT, DT_RTLREADING, DT_SINGLELINE, DT_TABSTOP, DT_TOP, DT_VCENTER, DT_WORDBREAK, DT_WORD_ELLIPSIS, DrawText, DrawText function [Windows GDI], DrawTextA, DrawTextW, _win32_DrawText, gdi.drawtext, winuser/DrawText, winuser/DrawTextA, winuser/DrawTextW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,9 +70,9 @@ To specify additional formatting options, use the <a href="https://msdn.microsof
 
 
 
-### -param hdc
+### -param hdc [in]
 
-TBD
+A handle to the device context.
 
 
 ### -param lpchText [in, out]
@@ -82,39 +82,17 @@ A pointer to the string that specifies the text to be drawn. If the <i>nCount</i
 If <i>uFormat</i> includes DT_MODIFYSTRING, the function could add up to four additional characters to this string. The buffer containing the string should be large enough to accommodate these extra characters.
 
 
-### -param cchText
-
-TBD
-
-
-### -param lprc
-
-TBD
-
-
-### -param format
-
-TBD
-
-
-
-
-#### - hDC [in]
-
-A handle to the device context.
-
-
-#### - lpRect [in, out]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that contains the rectangle (in logical coordinates) in which the text is to be formatted.
-
-
-#### - nCount [in]
+### -param cchText [in]
 
 The length, in characters, of the string. If <i>nCount</i> is -1, then the <i>lpchText</i> parameter is assumed to be a pointer to a null-terminated string and <b>DrawText</b> computes the character count automatically.
 
 
-#### - uFormat [in]
+### -param lprc [in, out]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that contains the rectangle (in logical coordinates) in which the text is to be formatted.
+
+
+### -param format [in]
 
 The method of formatting the text. This parameter can be one or more of the following values.
 

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_getannotationbyindex.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_getannotationbyindex.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetAnnotationByIndex, GetAnnotationByIndex method [Direct3D 10], GetAnnotationByIndex method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],GetAnnotationByIndex method, ID3D10EffectVariable.GetAnnotationByIndex, ID3D10EffectVariable::GetAnnotationByIndex, c60bf6b1-5d05-ec0d-545c-b26e3e436ab8, d3d10effect/ID3D10EffectVariable::GetAnnotationByIndex, direct3d10.id3d10effectvariable_getannotationbyindex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,9 +69,9 @@ A zero-based index.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>.
 
 
 
@@ -80,7 +80,7 @@ A pointer to an <a href="https://msdn.microsoft.com/library/Bb173724(v=VS.85).as
 
 
 
-Annonations can be attached to a technique, a pass or a gloval variable. For the syntax, see <a href="https://msdn.microsoft.com/library/Bb205046(v=VS.85).aspx">Annotation Syntax (Direct3D 10)</a>.
+Annonations can be attached to a technique, a pass or a gloval variable. For the syntax, see <a href="https://msdn.microsoft.com/en-us/library/Bb205046(v=VS.85).aspx">Annotation Syntax (Direct3D 10)</a>.
 
 
 
@@ -90,7 +90,7 @@ Annonations can be attached to a technique, a pass or a gloval variable. For the
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>
  
 
  

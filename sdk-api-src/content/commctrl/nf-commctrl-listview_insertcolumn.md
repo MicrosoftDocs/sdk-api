@@ -7,7 +7,7 @@ old-location: controls\ListView_InsertColumn.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertcolumn.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_InsertColumn, ListView_InsertColumn macro [Windows Controls], _win32_ListView_InsertColumn, _win32_ListView_InsertColumn_cpp, commctrl/ListView_InsertColumn, controls.ListView_InsertColumn, controls._win32_ListView_InsertColumn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Inserts a new column in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761101(v=VS.85).aspx">LVM_INSERTCOLUMN</a> message explicitly. 
+Inserts a new column in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761101(v=VS.85).aspx">LVM_INSERTCOLUMN</a> message explicitly. 
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The index of the new column.
 
 Type: <b>const LPLVCOLUMN</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Bb774743(v=VS.85).aspx">LVCOLUMN</a> structure that contains the attributes of the new column. 
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb774743(v=VS.85).aspx">LVCOLUMN</a> structure that contains the attributes of the new column. 
 
 
 ## -remarks

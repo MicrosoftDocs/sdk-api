@@ -7,7 +7,7 @@ old-location: wmi\swbemprivilegeset_count.htm
 old-project: WmiSdk
 ms.assetid: a8ec2055-540d-4150-a0bf-9caa17cd5fcd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: Count property [Windows Management Instrumentation], Count property [Windows Management Instrumentation],ISWbemPrivilegeSet interface, Count property [Windows Management Instrumentation],SWbemPrivilegeSet object, ISWbemPrivilegeSet interface [Windows Management Instrumentation],Count property, ISWbemPrivilegeSet.get_Count, ISWbemPrivilegeSet::get_Count, SWbemPrivilegeSet object [Windows Management Instrumentation],Count property, SWbemPrivilegeSet.Count, _hmm_swbemprivilegeset.count, get_Count, wmi.swbemprivilegeset_count
 ms.prod: windows
 ms.technology: windows-sdk

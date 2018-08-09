@@ -4,10 +4,10 @@ title: CommitUrlCacheEntryW function
 author: windows-sdk-content
 description: Stores data in the specified file in the Internet cache and associates it with the specified URL.
 old-location: wininet\commiturlcacheentryw.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: 0124e664-85a3-4637-9d91-7ec23025a87b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CommitUrlCacheEntryW, CommitUrlCacheEntryW function [WinINet], _inet_commiturlcacheentry_function, wininet.commiturlcacheentry, wininet.commiturlcacheentryw, wininet/CommitUrlCacheEntryW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -185,9 +185,11 @@ Visited link cache entry.
  
 
 
-### -param lpszHeaderInfo
+### -param lpszHeaderInfo [in]
 
-TBD
+Pointer to the buffer that contains the header information. If this parameter is not <b>NULL</b>, the header information is treated as extended attributes of the URL that are returned in the 
+<b>lpHeaderInfo</b> 
+member of the <a href="https://msdn.microsoft.com/7bda08e0-5df0-4087-a5cd-3a25c6ae5ade">INTERNET_CACHE_ENTRY_INFO</a> structure.
 
 
 ### -param cchHeaderInfo [in]
@@ -206,13 +208,6 @@ This parameter is reserved and must be <b>NULL</b>.
 ### -param lpszOriginalUrl [in]
 
 Pointer to a string  that contains the original URL, if redirection has occurred.
-
-
-#### - lpHeaderInfo [in]
-
-Pointer to the buffer that contains the header information. If this parameter is not <b>NULL</b>, the header information is treated as extended attributes of the URL that are returned in the 
-<b>lpHeaderInfo</b> 
-member of the <a href="https://msdn.microsoft.com/7bda08e0-5df0-4087-a5cd-3a25c6ae5ade">INTERNET_CACHE_ENTRY_INFO</a> structure.
 
 
 ## -returns

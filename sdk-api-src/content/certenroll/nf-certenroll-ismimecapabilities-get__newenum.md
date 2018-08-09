@@ -7,7 +7,7 @@ old-location: security\ismimecapabilities__newenum_property.htm
 old-project: seccertenroll
 ms.assetid: f43b3aa4-81c5-411c-bd62-77513f9b7f68
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: ISmimeCapabilities interface [Security],_NewEnum property, ISmimeCapabilities._NewEnum, ISmimeCapabilities.get__NewEnum, ISmimeCapabilities::_NewEnum, ISmimeCapabilities::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ISmimeCapabilities interface, certenroll/ISmimeCapabilities::_NewEnum, certenroll/ISmimeCapabilities::get__NewEnum, get__NewEnum, security.ismimecapabilities__newenum_property
 ms.prod: windows
 ms.technology: windows-sdk

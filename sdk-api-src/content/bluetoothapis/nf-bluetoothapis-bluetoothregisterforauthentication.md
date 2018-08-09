@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothregisterforauthentication.htm
 old-project: bluetooth
 ms.assetid: f85dd076-9062-413f-863f-9d3baba322ad
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: BluetoothRegisterForAuthentication, BluetoothRegisterForAuthentication function [Bluetooth], bluetooth.bluetoothregisterforauthentication, bluetoothapis/BluetoothRegisterForAuthentication
 ms.prod: windows
 ms.technology: windows-sdk

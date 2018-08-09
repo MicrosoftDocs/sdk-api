@@ -4,10 +4,10 @@ title: ReadUrlCacheEntryStream function
 author: windows-sdk-content
 description: Reads the cached data from a stream that has been opened using the RetrieveUrlCacheEntryStream function.
 old-location: wininet\readurlcacheentrystream.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: 8cfd0c64-25ca-4f08-b9b3-2743ded18030
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ReadUrlCacheEntryStream, ReadUrlCacheEntryStream function [WinINet], _inet_readurlcacheentrystream_function, wininet.readurlcacheentrystream, wininet/ReadUrlCacheEntryStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,14 +82,7 @@ Pointer to a  variable that specifies the size of the
 <i>lpBuffer</i> buffer, in bytes. When the function returns, the variable contains the number of bytes copied to the buffer, or the required size of the buffer, in bytes.
 
 
-### -param Reserved
-
-TBD
-
-
-
-
-#### - dwReserved [in]
+### -param Reserved [in]
 
 This parameter is reserved and must be 0.
 

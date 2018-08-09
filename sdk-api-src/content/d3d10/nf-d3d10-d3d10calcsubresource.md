@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10calcsubresource.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10calcsubresource.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 91f92116-0ae9-0407-3cba-2a8ff2762095, D3D10CalcSubresource, D3D10CalcSubresource function [Direct3D 10], d3d10/D3D10CalcSubresource, direct3d10.d3d10calcsubresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Calculate a <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">subresource</a> index for a texture.
+Calculate a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource</a> index for a texture.
 
 
 ## -parameters
@@ -104,11 +104,11 @@ A buffer is an unstructured resource and is therefore defined as containing a si
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205151(v=VS.85).aspx">Core Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205151(v=VS.85).aspx">Core Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb694532(v=VS.85).aspx">Resource Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb694532(v=VS.85).aspx">Resource Functions</a>
  
 
  

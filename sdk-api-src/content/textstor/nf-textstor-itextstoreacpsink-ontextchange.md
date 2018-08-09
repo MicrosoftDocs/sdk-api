@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpsink_ontextchange.htm
 old-project: TSF
 ms.assetid: ed11ebb8-312b-40c7-90de-f5aa7591afd2
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: 0, ITextStoreACPSink interface [Text Services Framework],OnTextChange method, ITextStoreACPSink.OnTextChange, ITextStoreACPSink::OnTextChange, OnTextChange, OnTextChange method [Text Services Framework], OnTextChange method [Text Services Framework],ITextStoreACPSink interface, TS_ST_CORRECTION, _tsf_itextstoreacpsink_ontextchange_ref, textstor/ITextStoreACPSink::OnTextChange, tsf.itextstoreacpsink_ontextchange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -177,26 +177,22 @@ When calling this method, the application must be able to grant a <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">
-        ITextStoreACP
+<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b57ad8da-6f79-4d27-96e0-608cbcaae826">
-        ITextStoreACP::InsertTextAtSelection
+<a href="https://msdn.microsoft.com/b57ad8da-6f79-4d27-96e0-608cbcaae826">ITextStoreACP::InsertTextAtSelection
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/ddd2b1f4-47de-4e87-be94-eea694ecd1b8">
-        ITextStoreACP::RequestLock
+<a href="https://msdn.microsoft.com/ddd2b1f4-47de-4e87-be94-eea694ecd1b8">ITextStoreACP::RequestLock
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/aebeb6bc-7791-4c45-8563-eec6a738bd63">
-        ITextStoreACP::SetText
+<a href="https://msdn.microsoft.com/aebeb6bc-7791-4c45-8563-eec6a738bd63">ITextStoreACP::SetText
       </a>
 
 
@@ -205,8 +201,7 @@ When calling this method, the application must be able to grant a <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/6e05ed74-fff3-4bc4-a21e-9af9492af23b">
-        Miscellaneous Text Store Constants
+<a href="https://msdn.microsoft.com/6e05ed74-fff3-4bc4-a21e-9af9492af23b">Miscellaneous Text Store Constants
       </a>
 
 

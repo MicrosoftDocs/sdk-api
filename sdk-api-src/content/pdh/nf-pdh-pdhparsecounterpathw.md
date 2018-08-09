@@ -4,10 +4,10 @@ title: PdhParseCounterPathW function
 author: windows-sdk-content
 description: Parses the elements of the counter path and stores the results in the PDH_COUNTER_PATH_ELEMENTS structure.
 old-location: perf\pdhparsecounterpath.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 760b94e9-88df-4f7d-92e9-333d682779f6
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhParseCounterPath, PdhParseCounterPath function [Perf], PdhParseCounterPathA, PdhParseCounterPathW, _win32_pdhparsecounterpath, base.pdhparsecounterpath, pdh/PdhParseCounterPath, pdh/PdhParseCounterPathA, pdh/PdhParseCounterPathW, perf.pdhparsecounterpath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,8 +87,7 @@ Reserved. Must be zero.
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

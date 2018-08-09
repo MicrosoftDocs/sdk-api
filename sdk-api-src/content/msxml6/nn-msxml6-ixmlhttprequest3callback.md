@@ -7,7 +7,7 @@ old-location: ixhr2\ixmlhttprequest3callback.htm
 old-project: ixhr2
 ms.assetid: f745669a-a594-457d-ae6b-952a55576bae
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: IXMLHTTPRequest3Callback, IXMLHTTPRequest3Callback interface [XMLHttpRequest2], IXMLHTTPRequest3Callback interface [XMLHttpRequest2],described, ixhr2.ixmlhttprequest3callback, msxml6/IXMLHTTPRequest3Callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,13 +100,10 @@ The <a href="https://msdn.microsoft.com/66af3f84-585c-441e-b9be-4ec188d72a19">IX
 
 
 <ul>
-<li>Allows setting a client certificate to use for the HTTPS request with the <a href="https://msdn.microsoft.com/fc3e2645-666c-42af-babd-1f476b6356b8">SetClientCertificate</a>
-method on the <a href="https://msdn.microsoft.com/66af3f84-585c-441e-b9be-4ec188d72a19">IXMLHTTPRequest3</a> interface.</li>
-<li>Allows getting an issuer list to help filter down eligible client certificates to use for the next HTTP request with the <a href="https://msdn.microsoft.com/9c64fbb5-b755-4f1b-90f3-3cc414b3f5a4">OnClientCertificateRequested</a>
-method on the <b>IXMLHTTPRequest3Callback</b> interface.</li>
+<li>Allows setting a client certificate to use for the HTTPS request with the <a href="https://msdn.microsoft.com/fc3e2645-666c-42af-babd-1f476b6356b8">SetClientCertificate</a>method on the <a href="https://msdn.microsoft.com/66af3f84-585c-441e-b9be-4ec188d72a19">IXMLHTTPRequest3</a> interface.</li>
+<li>Allows getting an issuer list to help filter down eligible client certificates to use for the next HTTP request with the <a href="https://msdn.microsoft.com/9c64fbb5-b755-4f1b-90f3-3cc414b3f5a4">OnClientCertificateRequested</a>method on the <b>IXMLHTTPRequest3Callback</b> interface.</li>
 <li>Allows ignoring certain certificate errors which would have otherwise aborted the HTTPS connection. </li>
-<li>Allows getting certificate errors and the server certificate chain from the HTTPS response with the <a href="https://msdn.microsoft.com/5b00ab76-880b-4450-a6b2-fda399cc9e8b">OnServerCertificateReceived</a>
-method on the <b>IXMLHTTPRequest3Callback</b> interface.</li>
+<li>Allows getting certificate errors and the server certificate chain from the HTTPS response with the <a href="https://msdn.microsoft.com/5b00ab76-880b-4450-a6b2-fda399cc9e8b">OnServerCertificateReceived</a>method on the <b>IXMLHTTPRequest3Callback</b> interface.</li>
 </ul>
 
 

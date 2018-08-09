@@ -7,7 +7,7 @@ old-location: rpc\ndrclientcall4.htm
 old-project: rpc
 ms.assetid: AD2B9995-B092-498E-8D54-204B213D555D
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: NdrClientCall4, NdrClientCall4 function [RPC], rpc.ndrclientcall4, rpcndr/NdrClientCall4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,14 +71,7 @@ Reserved.
 Reserved.
 
 
-### -param param
-
-TBD
-
-
-
-
-####### - ... [in, out]
+### -param param [in, out]
 
 Reserved.
 

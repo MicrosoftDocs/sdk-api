@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation3__transferobjectdataonclearchannel.htm
 old-project: WMDM
 ms.assetid: a5cc0151-35c0-4de6-9bb3-f07339c60042
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: IWMDMOperation3 interface [windows Media Device Manager],TransferObjectDataOnClearChannel method, IWMDMOperation3.TransferObjectDataOnClearChannel, IWMDMOperation3::TransferObjectDataOnClearChannel, IWMDMOperation3TransferObjectDataOnClearChannel, TransferObjectDataOnClearChannel, TransferObjectDataOnClearChannel method [windows Media Device Manager], TransferObjectDataOnClearChannel method [windows Media Device Manager],IWMDMOperation3 interface, mswmdm/IWMDMOperation3::TransferObjectDataOnClearChannel, wmdm.iwmdmoperation3__transferobjectdataonclearchannel
 ms.prod: windows
 ms.technology: windows-sdk

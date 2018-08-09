@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2_enablemcn.htm
 old-project: imapi
 ms.assetid: ce848ba1-86b4-44cc-8f41-8b8eaba20521
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: EnableMcn, EnableMcn method [IMAPI], EnableMcn method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],EnableMcn method, IDiscRecorder2.EnableMcn, IDiscRecorder2::EnableMcn, imapi.idiscrecorder2_enablemcn, imapi2/IDiscRecorder2::EnableMcn
 ms.prod: windows
 ms.technology: windows-sdk

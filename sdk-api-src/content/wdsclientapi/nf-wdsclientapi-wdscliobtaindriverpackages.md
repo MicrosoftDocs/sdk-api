@@ -4,10 +4,10 @@ title: WdsCliObtainDriverPackages function
 author: windows-sdk-content
 description: This function obtains from a WDS image, the driver packages (INF files) that can be used on this computer.
 old-location: wds\wdscliobtaindriverpackages.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 2fb6bf5a-a46f-4664-be0a-6b4f2563986c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WdsCliObtainDriverPackages, WdsCliObtainDriverPackages function [Windows Deployment Services], wds.wdscliobtaindriverpackages, wdsclientapi/WdsCliObtainDriverPackages
 ms.prod: windows
 ms.technology: windows-sdk

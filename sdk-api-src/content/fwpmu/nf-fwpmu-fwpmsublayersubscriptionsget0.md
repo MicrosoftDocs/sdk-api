@@ -7,7 +7,7 @@ old-location: fwp\fwpmsublayersubscriptionsget0_func.htm
 old-project: fwp
 ms.assetid: ca00c768-d8fe-4f61-8b23-2f3a79b4116c
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmSubLayerSubscriptionsGet0, FwpmSubLayerSubscriptionsGet0 function [Filtering], fwp.fwpmsublayersubscriptionsget0_func, fwpmu/FwpmSubLayerSubscriptionsGet0
 ms.prod: windows
 ms.technology: windows-sdk

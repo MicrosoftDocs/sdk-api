@@ -7,7 +7,7 @@ old-location: rras\rasrenameentry.htm
 old-project: rras
 ms.assetid: 95c63e58-c96d-43ad-8878-ba9e29f53f6e
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RasRenameEntry, RasRenameEntry function [RAS], RasRenameEntryA, RasRenameEntryW, _ras_rasrenameentry, ras/RasRenameEntry, ras/RasRenameEntryA, ras/RasRenameEntryW, rras.rasrenameentry
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,12 @@ TBD
 
 
 
-#### - lpszNewEntry [in]
+#### - [in]
 
-Pointer to a null-terminated string that specifies the new entry name. Before calling 
-<b>RasRenameEntry</b>, call the 
-<a href="https://msdn.microsoft.com/c70ad0d4-6bc1-4716-9a8e-0fbeb55b7560">RasValidateEntryName</a> function to validate the new entry name.
+Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
+						
+
+<b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
 
 #### - lpszOldEntry [in]
@@ -81,12 +82,11 @@ Pointer to a null-terminated string that specifies the new entry name. Before ca
 Pointer to a null-terminated string that specifies an existing entry name.
 
 
-#### - lpszPhonebook [in]
+#### - lpszNewEntry [in]
 
-Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
-						
-
-<b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
+Pointer to a null-terminated string that specifies the new entry name. Before calling 
+<b>RasRenameEntry</b>, call the 
+<a href="https://msdn.microsoft.com/c70ad0d4-6bc1-4716-9a8e-0fbeb55b7560">RasValidateEntryName</a> function to validate the new entry name.
 
 
 ## -returns

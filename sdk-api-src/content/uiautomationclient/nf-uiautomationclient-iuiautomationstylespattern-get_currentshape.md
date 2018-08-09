@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationStylesPattern_CurrentShape.htm
 old-project: WinAuto
 ms.assetid: 597609F0-D2F1-447D-80EC-426066581380
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CurrentShape property [Windows Accessibility], CurrentShape property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CurrentShape property, IUIAutomationStylesPattern.CurrentShape, IUIAutomationStylesPattern.get_CurrentShape, IUIAutomationStylesPattern::CurrentShape, IUIAutomationStylesPattern::get_CurrentShape, get_CurrentShape, uiautomationclient/IUIAutomationStylesPattern::CurrentShape, uiautomationclient/IUIAutomationStylesPattern::get_CurrentShape, winauto.uiauto_IUIAutomationStylesPattern_CurrentShape
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

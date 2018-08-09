@@ -7,7 +7,7 @@ old-location: mscs\clusversion_flags.htm
 old-project: mscs
 ms.assetid: f671f494-6c46-45e6-9756-fc27dc10783a
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: CLUSTER_VERSION_FLAG_MIXED_MODE, ClusVersion object [Failover Cluster],Flags property, ClusVersion.Flags, Flags property [Failover Cluster], Flags property [Failover Cluster],ClusVersion object, ISClusVersion.get_Flags, ISClusVersion::get_Flags, _wolf_clusversion.flags, get_Flags, mscs.clusversion_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Returns flags associated with 
-    the <a href="https://msdn.microsoft.com/library/ms682005(v=VS.85).aspx">cluster version</a>.
+    the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster version</a>.
 
 This property is read-only.
 

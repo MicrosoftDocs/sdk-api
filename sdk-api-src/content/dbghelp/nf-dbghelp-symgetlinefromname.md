@@ -7,7 +7,7 @@ old-location: base\symgetlinefromname64.htm
 old-project: debug
 ms.assetid: cb8870f6-1bae-40df-842e-ec3ca0167691
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymGetLineFromName, SymGetLineFromName function, SymGetLineFromName64, SymGetLineFromName64 function, SymGetLineFromNameW64, _win32_symgetlinefromname64, base.symgetlinefromname64, dbghelp/SymGetLineFromName, dbghelp/SymGetLineFromName64, dbghelp/SymGetLineFromNameW64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,20 +82,15 @@ The name of the file in which a line is to be located. If the application has mo
 The line number to be located.
 
 
-### -param plDisplacement
+### -param plDisplacement [out]
 
-TBD
+The displacement in bytes from the beginning of the line, or zero.
 
 
 ### -param Line [in, out]
 
 A pointer to an 
 <a href="https://msdn.microsoft.com/62124983-8381-4eb4-94f6-220b844aca45">IMAGEHLP_LINE64</a> structure.
-
-
-#### - lpDisplacement [out]
-
-The displacement in bytes from the beginning of the line, or zero.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: IUpdate::get_UninstallationSteps
 author: windows-sdk-content
 description: Gets an interface that contains the uninstallation steps for the update.
 old-location: wua\iupdate_uninstallationsteps.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: f112ce5b-9f94-4fdc-96d8-1f216e3729d0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IUpdate interface [Windows Update Agent],UninstallationSteps property, IUpdate.UninstallationSteps, IUpdate.get_UninstallationSteps, IUpdate::UninstallationSteps, IUpdate::get_UninstallationSteps, UninstallationSteps property [Windows Update Agent], UninstallationSteps property [Windows Update Agent],IUpdate interface, get_UninstallationSteps, wua.iupdate_uninstallationsteps, wuapi/IUpdate::UninstallationSteps, wuapi/IUpdate::get_UninstallationSteps
 ms.prod: windows
 ms.technology: windows-sdk

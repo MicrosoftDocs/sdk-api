@@ -7,7 +7,7 @@ old-location: http\httpaddurltourlgroup.htm
 old-project: http
 ms.assetid: e6bf68aa-d6a5-4079-b689-49cfc2303ba5
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpAddUrlToUrlGroup, HttpAddUrlToUrlGroup function [HTTP], http.httpaddurltourlgroup, http/HttpAddUrlToUrlGroup
 ms.prod: windows
 ms.technology: windows-sdk

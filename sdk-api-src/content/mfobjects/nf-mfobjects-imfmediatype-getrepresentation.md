@@ -7,7 +7,7 @@ old-location: mf\imfmediatype_getrepresentation.htm
 old-project: medfound
 ms.assetid: 2135ff86-a3b6-4e1c-a9de-867f4828f008
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 2135ff86-a3b6-4e1c-a9de-867f4828f008, AM_MEDIA_TYPE_REPRESENTATION, FORMAT_MFVideoFormat, FORMAT_VideoInfo, FORMAT_VideoInfo2, GetRepresentation, GetRepresentation method [Media Foundation], GetRepresentation method [Media Foundation],IMFMediaType interface, IMFMediaType interface [Media Foundation],GetRepresentation method, IMFMediaType.GetRepresentation, IMFMediaType::GetRepresentation, mf.imfmediatype_getrepresentation, mfobjects/IMFMediaType::GetRepresentation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ Retrieves an alternative representation of the media type. Currently only the Di
 
 ### -param guidRepresentation [in]
 
-
-            GUID that specifies the representation to retrieve. The following values are defined.
+GUID that specifies the representation to retrieve. The following values are defined.
           
 
 <table>
@@ -80,8 +79,7 @@ Retrieves an alternative representation of the media type. Currently only the Di
 </dl>
 </td>
 <td width="60%">
-
-                Convert the media type to a DirectShow <b>AM_MEDIA_TYPE</b> structure. The method selects the most appropriate format structure (<b>pbFormat</b>).
+Convert the media type to a DirectShow <b>AM_MEDIA_TYPE</b> structure. The method selects the most appropriate format structure (<b>pbFormat</b>).
               
 
 </td>
@@ -92,8 +90,7 @@ Retrieves an alternative representation of the media type. Currently only the Di
 </dl>
 </td>
 <td width="60%">
-
-                Convert the media type to a DirectShow <b>AM_MEDIA_TYPE</b> structure with an <a href="https://msdn.microsoft.com/7fbc4a35-117c-4f0c-9e9b-ff44e30a1618">MFVIDEOFORMAT</a> format structure.
+Convert the media type to a DirectShow <b>AM_MEDIA_TYPE</b> structure with an <a href="https://msdn.microsoft.com/7fbc4a35-117c-4f0c-9e9b-ff44e30a1618">MFVIDEOFORMAT</a> format structure.
               
 
 </td>
@@ -104,8 +101,7 @@ Retrieves an alternative representation of the media type. Currently only the Di
 </dl>
 </td>
 <td width="60%">
-
-                Convert the media type to a DirectShow <b>AM_MEDIA_TYPE</b> structure with a <b>VIDEOINFOHEADER</b> format structure.
+Convert the media type to a DirectShow <b>AM_MEDIA_TYPE</b> structure with a <b>VIDEOINFOHEADER</b> format structure.
               
 
 </td>
@@ -116,8 +112,7 @@ Retrieves an alternative representation of the media type. Currently only the Di
 </dl>
 </td>
 <td width="60%">
-
-                Convert the media type to a DirectShow <b>AM_MEDIA_TYPE</b> structure with a <b>VIDEOINFOHEADER2</b> format structure.
+Convert the media type to a DirectShow <b>AM_MEDIA_TYPE</b> structure with a <b>VIDEOINFOHEADER2</b> format structure.
               
 
 </td>
@@ -128,8 +123,7 @@ Retrieves an alternative representation of the media type. Currently only the Di
 
 ### -param ppvRepresentation [out]
 
-
-            Receives a pointer to a structure that contains the representation. The method allocates the memory for the structure. The caller must release the memory by calling <a href="https://msdn.microsoft.com/d2007f16-543f-4f05-a44d-b4b4ae8019fb">IMFMediaType::FreeRepresentation</a>.
+Receives a pointer to a structure that contains the representation. The method allocates the memory for the structure. The caller must release the memory by calling <a href="https://msdn.microsoft.com/d2007f16-543f-4f05-a44d-b4b4ae8019fb">IMFMediaType::FreeRepresentation</a>.
           
 
 
@@ -151,8 +145,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -164,8 +157,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The details of the media type do not match the requested representation.
+The details of the media type do not match the requested representation.
               
 
 </td>
@@ -177,8 +169,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The media type is not valid.
+The media type is not valid.
               
 
 </td>
@@ -190,8 +181,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The media type does not support the requested representation.
+The media type does not support the requested representation.
               
 
 </td>
@@ -206,12 +196,10 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-
-        If you request a specific format structure in the <i>guidRepresentation</i> parameter, such as <b>VIDEOINFOHEADER</b>, you might lose some of the format information.
+If you request a specific format structure in the <i>guidRepresentation</i> parameter, such as <b>VIDEOINFOHEADER</b>, you might lose some of the format information.
       
 
-
-        You can also use the <a href="https://msdn.microsoft.com/dbb69578-2563-476f-92f4-6b4e2bb2c77a">MFInitAMMediaTypeFromMFMediaType</a> function to convert a Media Foundation media type into a DirectShow media type.
+You can also use the <a href="https://msdn.microsoft.com/dbb69578-2563-476f-92f4-6b4e2bb2c77a">MFInitAMMediaTypeFromMFMediaType</a> function to convert a Media Foundation media type into a DirectShow media type.
       
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:

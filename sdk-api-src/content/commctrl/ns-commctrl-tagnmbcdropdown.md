@@ -7,7 +7,7 @@ old-location: controls\NMBCDROPDOWN.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\nmbcdropdown.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPNMBCDROPDOWN, LPNMBCDROPDOWN, LPNMBCDROPDOWN structure pointer [Windows Controls], NMBCDROPDOWN, NMBCDROPDOWN structure [Windows Controls], _shell_NMBCDROPDOWN, _shell_NMBCDROPDOWN_cpp, commctrl/LPNMBCDROPDOWN, commctrl/NMBCDROPDOWN, controls.NMBCDROPDOWN, controls._shell_NMBCDROPDOWN, tagNMBCDROPDOWN"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information about a <a href="https://msdn.microsoft.com/library/Bb775983(v=VS.85).aspx">BCN_DROPDOWN</a> notification.
+Contains information about a <a href="https://msdn.microsoft.com/en-us/library/Bb775983(v=VS.85).aspx">BCN_DROPDOWN</a> notification.
 
 
 ## -struct-fields
@@ -60,9 +60,9 @@ Contains information about a <a href="https://msdn.microsoft.com/library/Bb77598
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure containing information about the notification.
+An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure containing information about the notification.
 
 
 ### -field rcButton

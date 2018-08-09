@@ -7,7 +7,7 @@ old-location: fwp\fwpmproviderdeletebykey0_func.htm
 old-project: fwp
 ms.assetid: fe4e8d34-b0fc-4c93-bbde-83cd38625930
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmProviderDeleteByKey0, FwpmProviderDeleteByKey0 function [Filtering], fwp.fwpmproviderdeletebykey0_func, fwpmu/FwpmProviderDeleteByKey0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-
-		The <b>FwpmProviderDeleteByKey0</b> function removes a provider from the system.
+The <b>FwpmProviderDeleteByKey0</b> function removes a provider from the system.
 
 
 ## -parameters

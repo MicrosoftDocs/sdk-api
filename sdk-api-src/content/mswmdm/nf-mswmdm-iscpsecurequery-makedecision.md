@@ -7,7 +7,7 @@ old-location: wmdm\iscpsecurequery_makedecision.htm
 old-project: WMDM
 ms.assetid: cbcc8999-d7e4-4b67-a5ba-dd850ff7a07a
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: ISCPSecureQuery interface [windows Media Device Manager],MakeDecision method, ISCPSecureQuery.MakeDecision, ISCPSecureQuery::MakeDecision, ISCPSecureQueryMakeDecision, MakeDecision, MakeDecision method [windows Media Device Manager], MakeDecision method [windows Media Device Manager],ISCPSecureQuery interface, mswmdm/ISCPSecureQuery::MakeDecision, wmdm.iscpsecurequery_makedecision
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Flags describing the data offered to the secure content provider for making deci
 
 <table>
 <tr>
-<th>
-                  Flag
+<th>Flag
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

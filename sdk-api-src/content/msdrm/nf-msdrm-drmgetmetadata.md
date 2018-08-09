@@ -7,7 +7,7 @@ old-location: rm\drmgetmetadata.htm
 old-project: adrms_sdk
 ms.assetid: bea3120a-11a2-42e9-bf1b-368cad25ede5
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMGetMetaData, DRMGetMetaData function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetMetaData, rm.drmgetmetadata
 ms.prod: windows
 ms.technology: windows-sdk

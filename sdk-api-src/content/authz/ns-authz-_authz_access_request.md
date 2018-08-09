@@ -7,7 +7,7 @@ old-location: security\authz_access_request.htm
 old-project: secauthz
 ms.assetid: 3748075c-b31a-4669-b8a6-1a540449d8fa
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: "*PAUTHZ_ACCESS_REQUEST, AUTHZ_ACCESS_REQUEST, AUTHZ_ACCESS_REQUEST structure [Security], PAUTHZ_ACCESS_REQUEST, PAUTHZ_ACCESS_REQUEST structure pointer [Security], _AUTHZ_ACCESS_REQUEST, _win32_authz_access_request, authz/AUTHZ_ACCESS_REQUEST, authz/PAUTHZ_ACCESS_REQUEST, security.authz_access_request"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ An array of <a href="https://msdn.microsoft.com/c729ff1a-65f3-4f6f-84dd-5700aead
 
 ### -field ObjectTypeListLength
 
-
-					The number of elements in the <i>ObjectTypeList</i> array. This member is necessary only if the application checks access at the property level.
+The number of elements in the <i>ObjectTypeList</i> array. This member is necessary only if the application checks access at the property level.
 
 
 ### -field OptionalArguments

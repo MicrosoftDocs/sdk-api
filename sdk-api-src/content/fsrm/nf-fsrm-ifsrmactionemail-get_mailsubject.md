@@ -4,10 +4,10 @@ title: IFsrmActionEmail::get_MailSubject
 author: windows-sdk-content
 description: Retrieves or sets the subject of the email that is sent when this action generates email.
 old-location: fsrm\ifsrmactionemail_mailsubject.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 86b606a3-b905-472b-b04a-e5fd74f5afbc
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/01/2018
 ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailSubject property, IFsrmActionEmail.MailSubject, IFsrmActionEmail.get_MailSubject, IFsrmActionEmail2 interface [File Server Resource Manager],MailSubject property, IFsrmActionEmail2.MailSubject, IFsrmActionEmail2::MailSubject, IFsrmActionEmail2::get_MailSubject, IFsrmActionEmail2::put_MailSubject, IFsrmActionEmail::get_MailSubject, IFsrmActionEmail::put_MailSubject, MailSubject property [File Server Resource Manager], MailSubject property [File Server Resource Manager],IFsrmActionEmail interface, MailSubject property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailsubject, fsrm.ifsrmactionemail_mailsubject, fsrm/IFsrmActionEmail2::MailSubject, fsrm/IFsrmActionEmail2::get_MailSubject, fsrm/IFsrmActionEmail2::put_MailSubject, fsrm/IFsrmActionEmail::MailSubject, fsrm/IFsrmActionEmail::get_MailSubject, fsrm/IFsrmActionEmail::put_MailSubject, get_MailSubject
 ms.prod: windows
 ms.technology: windows-sdk

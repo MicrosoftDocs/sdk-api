@@ -4,10 +4,10 @@ title: SaferiIsExecutableFileType function
 author: windows-sdk-content
 description: Determines whether a specified file is an executable file.
 old-location: security\saferiisexecutablefiletype.htm
-old-project: SecMgmt
+old-project: secmgmt
 ms.assetid: f122ceaa-65bb-4cfe-a760-adf4f910c487
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SaferiIsExecutableFileType, SaferiIsExecutableFileType function [Security], security.saferiisexecutablefiletype, winsafer/SaferiIsExecutableFileType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,19 +60,14 @@ The <b>SaferiIsExecutableFileType</b> function determines whether a specified fi
 
 
 
-### -param szFullPathname
+### -param szFullPathname [in]
 
-TBD
+Pointer to a <b>null</b>-terminated <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> character string for the name of the file. The path is optional because only the file name extension is evaluated. The evaluation of the file name extension is not case-sensitive. This parameter cannot be <b>NULL</b> or an empty string, and the specified file must include a file name extension.
 
 
 ### -param bFromShellExecute [in]
 
 Boolean value that determines whether .exe files are treated as executable files for the file type evaluation. Set this value to <b>TRUE</b> to omit .exe files from the evaluation or to <b>FALSE</b> to include them.
-
-
-#### - szFullPath [in]
-
-Pointer to a <b>null</b>-terminated <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> character string for the name of the file. The path is optional because only the file name extension is evaluated. The evaluation of the file name extension is not case-sensitive. This parameter cannot be <b>NULL</b> or an empty string, and the specified file must include a file name extension.
 
 
 ## -returns

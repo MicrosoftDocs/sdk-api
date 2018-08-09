@@ -7,7 +7,7 @@ old-location: tsf\itfcandidatelistuielement_getpageindex.htm
 old-project: TSF
 ms.assetid: d63afb41-0276-4bc9-af4d-319d39de519d
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetPageIndex, GetPageIndex method [Text Services Framework], GetPageIndex method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetPageIndex method, ITfCandidateListUIElement.GetPageIndex, ITfCandidateListUIElement::GetPageIndex, msctf/ITfCandidateListUIElement::GetPageIndex, tsf.itfcandidatelistuielement_getpageindex
 ms.prod: windows
 ms.technology: windows-sdk

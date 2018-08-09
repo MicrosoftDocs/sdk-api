@@ -7,7 +7,7 @@ old-location: devinst\cm_unregister_notification.htm
 old-project: devinst
 ms.assetid: 1634ECC5-96A2-4B1C-8DCA-64682C8C1444
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: CM_Unregister_Notification, CM_Unregister_Notification function [Device and Driver Installation], cfgmgr32/CM_Unregister_Notification, devinst.cm_unregister_notification
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,8 +80,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-
-          Do not call <b>CM_Unregister_Notification</b> from a notification callback. Doing so may cause a deadlock because <b>CM_Unregister_Notification</b> waits for pending callbacks to finish.
+Do not call <b>CM_Unregister_Notification</b> from a notification callback. Doing so may cause a deadlock because <b>CM_Unregister_Notification</b> waits for pending callbacks to finish.
 
 Instead, if you want to unregister from the notification callback, you must do so asynchronously.       The following sequence shows one way to do this:
 

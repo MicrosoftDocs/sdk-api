@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10asynchronous_getdatasize.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10asynchronous_getdatasize.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 18babc8a-b4ee-3a1f-77f3-2020431b0222, GetDataSize, GetDataSize method [Direct3D 10], GetDataSize method [Direct3D 10],ID3D10Asynchronous interface, ID3D10Asynchronous interface [Direct3D 10],GetDataSize method, ID3D10Asynchronous.GetDataSize, ID3D10Asynchronous::GetDataSize, d3d10/ID3D10Asynchronous::GetDataSize, direct3d10.id3d10asynchronous_getdatasize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Get the size of the data (in bytes) that is output when calling <a href="https://msdn.microsoft.com/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a>.
+Get the size of the data (in bytes) that is output when calling <a href="https://msdn.microsoft.com/en-us/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a>.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Size of the data (in bytes) that is output when calling GetData.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous Interface</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mstv\iguidedata_getserviceproperties.htm
 old-project: mstv
 ms.assetid: 28be3bb7-b76a-44a3-892c-2aade5dbe255
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetServiceProperties, GetServiceProperties method [Microsoft TV Technologies], GetServiceProperties method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetServiceProperties method, IGuideData.GetServiceProperties, IGuideData::GetServiceProperties, IGuideDataGetServiceProperties, bdatif/IGuideData::GetServiceProperties, mstv.iguidedata_getserviceproperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,11 +107,9 @@ The returned collection includes the following properties.
 
 <table>
 <tr>
-<th>
-              Property
+<th>Property
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>

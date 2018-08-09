@@ -7,7 +7,7 @@ old-location: mscs\clusresource_coreflag.htm
 old-project: mscs
 ms.assetid: 8e39aa2a-e24c-4d15-9fa9-dec3ecb472ea
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusResource class [Failover Cluster],CoreFlag property, ClusResource.CoreFlag, CoreFlag property [Failover Cluster], CoreFlag property [Failover Cluster],ClusResource class, ISClusResource.get_CoreFlag, ISClusResource::get_CoreFlag, get_CoreFlag, mscs.clusresource_coreflag
 ms.prod: windows
 ms.technology: windows-sdk

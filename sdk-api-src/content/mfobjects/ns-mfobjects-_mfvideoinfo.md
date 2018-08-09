@@ -7,7 +7,7 @@ old-location: mf\mfvideoinfo.htm
 old-project: medfound
 ms.assetid: 746fd84f-58f8-42ab-bcf7-8fd18dcd02af
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 746fd84f-58f8-42ab-bcf7-8fd18dcd02af, MFVideoInfo, MFVideoInfo structure [Media Foundation], _MFVideoInfo, mf.mfvideoinfo, mfobjects/MFVideoInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,106 +66,91 @@ This structure is used in the <a href="https://msdn.microsoft.com/7fbc4a35-117c-
 
 ### -field dwWidth
 
-
-            Width of the decoded image, in pixels.
+Width of the decoded image, in pixels.
           
 
 
 ### -field dwHeight
 
-
-            Height of the decoded image, in pixels.
+Height of the decoded image, in pixels.
           
 
 
 ### -field PixelAspectRatio
 
-
-            Pixel aspect ratio, specified as an <a href="https://msdn.microsoft.com/315d31d6-bf68-4495-9bae-1f624f497c1a">MFRatio</a> structure.
+Pixel aspect ratio, specified as an <a href="https://msdn.microsoft.com/315d31d6-bf68-4495-9bae-1f624f497c1a">MFRatio</a> structure.
           
 
 
 ### -field SourceChromaSubsampling
 
-
-            Chroma sub-sampling of the original image, specified as a member of the <a href="https://msdn.microsoft.com/778d0456-f98e-44ac-afb7-9ce01da06741">MFVideoChromaSubsampling</a> enumeration.
+Chroma sub-sampling of the original image, specified as a member of the <a href="https://msdn.microsoft.com/778d0456-f98e-44ac-afb7-9ce01da06741">MFVideoChromaSubsampling</a> enumeration.
           
 
 
 ### -field InterlaceMode
 
-
-            Image interlacing, specified as a member of the <a href="https://msdn.microsoft.com/10a3d7b1-74ed-46cd-b10e-59a8f01726d5">MFVideoInterlaceMode</a> enumeration.
+Image interlacing, specified as a member of the <a href="https://msdn.microsoft.com/10a3d7b1-74ed-46cd-b10e-59a8f01726d5">MFVideoInterlaceMode</a> enumeration.
           
 
 
 ### -field TransferFunction
 
-
-            R'G'B' gamma curve function, specified as a member of the <a href="https://msdn.microsoft.com/f9aff1d5-e9f7-48fd-9c86-8dc597d37dfa">MFVideoTransferFunction</a> enumeration.
+R'G'B' gamma curve function, specified as a member of the <a href="https://msdn.microsoft.com/f9aff1d5-e9f7-48fd-9c86-8dc597d37dfa">MFVideoTransferFunction</a> enumeration.
           
 
 
 ### -field ColorPrimaries
 
-
-            Color primaries of the video source, specified as a member of the <a href="https://msdn.microsoft.com/a1d6a60c-823c-46c3-a751-18e55fbc52a1">MFVideoPrimaries</a> enumeration. This value provides the conversion from R'G'B' to linear RGB.
+Color primaries of the video source, specified as a member of the <a href="https://msdn.microsoft.com/a1d6a60c-823c-46c3-a751-18e55fbc52a1">MFVideoPrimaries</a> enumeration. This value provides the conversion from R'G'B' to linear RGB.
           
 
 
 ### -field TransferMatrix
 
-
-            Conversion matrix from Y'Cb'Cr' to R'G'B, specified as a member of the <a href="https://msdn.microsoft.com/08a05ee8-b053-4480-b7f9-6d96e541ccd9">MFVideoTransferMatrix</a> enumeration.
+Conversion matrix from Y'Cb'Cr' to R'G'B, specified as a member of the <a href="https://msdn.microsoft.com/08a05ee8-b053-4480-b7f9-6d96e541ccd9">MFVideoTransferMatrix</a> enumeration.
           
 
 
 ### -field SourceLighting
 
-
-            Intended viewing conditions, specified as a member of the <a href="https://msdn.microsoft.com/2eeca357-b7e2-40b1-b19f-2e12a833c1ca">MFVideoLighting</a> enumeration.
+Intended viewing conditions, specified as a member of the <a href="https://msdn.microsoft.com/2eeca357-b7e2-40b1-b19f-2e12a833c1ca">MFVideoLighting</a> enumeration.
           
 
 
 ### -field FramesPerSecond
 
-
-            Frames per second, specified as an <a href="https://msdn.microsoft.com/315d31d6-bf68-4495-9bae-1f624f497c1a">MFRatio</a> structure. If the frame rate is unknown or variable, the numerator and denominator should both be set to zero. It is invalid for only one member of the <b>MFRatio</b> structure to be zero.
+Frames per second, specified as an <a href="https://msdn.microsoft.com/315d31d6-bf68-4495-9bae-1f624f497c1a">MFRatio</a> structure. If the frame rate is unknown or variable, the numerator and denominator should both be set to zero. It is invalid for only one member of the <b>MFRatio</b> structure to be zero.
           
 
 
 ### -field NominalRange
 
-
-            Range of valid RGB values, specified as a member of the <a href="https://msdn.microsoft.com/fe7547f8-84cd-461a-8d33-dbc0b90add37">MFNominalRange</a> enumeration. The value indicates whether color values contain headroom and toeroom.
+Range of valid RGB values, specified as a member of the <a href="https://msdn.microsoft.com/fe7547f8-84cd-461a-8d33-dbc0b90add37">MFNominalRange</a> enumeration. The value indicates whether color values contain headroom and toeroom.
           
 
 
 ### -field GeometricAperture
 
-
-            Geometric aperture, specified as an <a href="https://msdn.microsoft.com/d22b8b9c-399b-4fce-a173-833005b5bf03">MFVideoArea</a> structure. For more information, see <a href="https://msdn.microsoft.com/a2489ba1-f322-4b63-a479-0d9879c30a8c">MF_MT_GEOMETRIC_APERTURE</a>.
+Geometric aperture, specified as an <a href="https://msdn.microsoft.com/d22b8b9c-399b-4fce-a173-833005b5bf03">MFVideoArea</a> structure. For more information, see <a href="https://msdn.microsoft.com/a2489ba1-f322-4b63-a479-0d9879c30a8c">MF_MT_GEOMETRIC_APERTURE</a>.
           
 
 
 ### -field MinimumDisplayAperture
 
-
-            The display aperture, specified as an <a href="https://msdn.microsoft.com/d22b8b9c-399b-4fce-a173-833005b5bf03">MFVideoArea</a> structure. The display aperture is the region of the video image that is intended to be shown. Any data outside of this area is the overscan region. For more information, see <a href="https://msdn.microsoft.com/86a7509b-c690-49c2-bbe4-8b02d64c307c">MF_MT_MINIMUM_DISPLAY_APERTURE</a>.
+The display aperture, specified as an <a href="https://msdn.microsoft.com/d22b8b9c-399b-4fce-a173-833005b5bf03">MFVideoArea</a> structure. The display aperture is the region of the video image that is intended to be shown. Any data outside of this area is the overscan region. For more information, see <a href="https://msdn.microsoft.com/86a7509b-c690-49c2-bbe4-8b02d64c307c">MF_MT_MINIMUM_DISPLAY_APERTURE</a>.
           
 
 
 ### -field PanScanAperture
 
-
-            Pan-scan rectangle, specified as an <a href="https://msdn.microsoft.com/d22b8b9c-399b-4fce-a173-833005b5bf03">MFVideoArea</a> structure. The pan-scan rectangle defines a region of the image that is displayed in pan-and-scan mode. It can be used when wide-screen content is shown on a 4 x 3 display. The value is valid only when the <b>VideoFlags</b> member contains the MFVideoFlag_PanScanEnabled flag.
+Pan-scan rectangle, specified as an <a href="https://msdn.microsoft.com/d22b8b9c-399b-4fce-a173-833005b5bf03">MFVideoArea</a> structure. The pan-scan rectangle defines a region of the image that is displayed in pan-and-scan mode. It can be used when wide-screen content is shown on a 4 x 3 display. The value is valid only when the <b>VideoFlags</b> member contains the MFVideoFlag_PanScanEnabled flag.
           
 
 
 ### -field VideoFlags
 
-
-            Bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/2530bf1d-05b1-4c16-b00b-117c0dadb301">MFVideoFlags</a> enumeration.
+Bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/2530bf1d-05b1-4c16-b00b-117c0dadb301">MFVideoFlags</a> enumeration.
           
 
 

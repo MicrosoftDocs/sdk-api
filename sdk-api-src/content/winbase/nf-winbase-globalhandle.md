@@ -4,10 +4,10 @@ title: GlobalHandle function
 author: windows-sdk-content
 description: Retrieves the handle associated with the specified pointer to a global memory block.
 old-location: base\globalhandle.htm
-old-project: Memory
+old-project: memory
 ms.assetid: 18ed3446-060a-4874-8187-5c54fb936da9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GlobalHandle, GlobalHandle function, _win32_globalhandle, base.globalhandle, winbase/GlobalHandle
 ms.prod: windows
 ms.technology: windows-sdk

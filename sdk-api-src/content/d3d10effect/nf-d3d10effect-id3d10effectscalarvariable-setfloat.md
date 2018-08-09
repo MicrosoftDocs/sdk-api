@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectscalarvariable_setfloat.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_setfloat.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 5ff1fc81-0f45-4ada-0fe1-749772e20ccc, ID3D10EffectScalarVariable interface [Direct3D 10],SetFloat method, ID3D10EffectScalarVariable.SetFloat, ID3D10EffectScalarVariable::SetFloat, SetFloat, SetFloat method [Direct3D 10], SetFloat method [Direct3D 10],ID3D10EffectScalarVariable interface, d3d10effect/ID3D10EffectScalarVariable::SetFloat, direct3d10.id3d10effectscalarvariable_setfloat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,9 +69,9 @@ A pointer to the variable.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -81,7 +81,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/library/Bb20527
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173680(v=VS.85).aspx">ID3D10EffectScalarVariable Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173680(v=VS.85).aspx">ID3D10EffectScalarVariable Interface</a>
  
 
  

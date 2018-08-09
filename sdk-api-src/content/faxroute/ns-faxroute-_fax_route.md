@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_route_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_3gj6.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: "*PFAX_ROUTE, FAX_ROUTE, FAX_ROUTE structure [Fax Service], PFAX_ROUTE, PFAX_ROUTE structure pointer [Fax Service], _FAX_ROUTE, _mfax_fax_route_str, fax._mfax_fax_route_str, faxroute/FAX_ROUTE, faxroute/PFAX_ROUTE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>FAX_ROUTE</b> structure contains information about a received fax document. The fax service passes the structure to a fax routing method in a call to the <a href="https://msdn.microsoft.com/library/ms692857(v=VS.85).aspx">FaxRouteMethod</a> function.
+The <b>FAX_ROUTE</b> structure contains information about a received fax document. The fax service passes the structure to a fax routing method in a call to the <a href="https://msdn.microsoft.com/en-us/library/ms692857(v=VS.85).aspx">FaxRouteMethod</a> function.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ The <b>FAX_ROUTE</b> structure contains information about a received fax documen
 
 Type: <b>DWORD</b>
 
-Specifies, in bytes, the size of the <b>FAX_ROUTE</b> structure. Before calling the <a href="https://msdn.microsoft.com/library/ms692857(v=VS.85).aspx">FaxRouteMethod</a> function, the fax service sets this member to sizeof(FAX_ROUTE).
+Specifies, in bytes, the size of the <b>FAX_ROUTE</b> structure. Before calling the <a href="https://msdn.microsoft.com/en-us/library/ms692857(v=VS.85).aspx">FaxRouteMethod</a> function, the fax service sets this member to sizeof(FAX_ROUTE).
 
 
 ### -field JobId
@@ -174,7 +174,7 @@ Specifies the size, in bytes, of the array pointed to by the <b>RoutingInfoData<
 
 
 
-A fax routing method can call the <a href="https://msdn.microsoft.com/library/ms692909(v=VS.85).aspx">FaxRouteModifyRoutingData</a> callback function to change the routing information for a subsequent routing method. The function does this by modifying the <b>RoutingInfoData</b> member of the <b>FAX_ROUTE</b> structure that applies to the subsequent method. This allows a fax routing extension to retrieve user-defined routing data and to provide additional callback information to a different routing method. When the subsequent routing method executes, it processes the received fax transmission using the modified routing data. For more information, see <b>FaxRouteModifyRoutingData</b>.
+A fax routing method can call the <a href="https://msdn.microsoft.com/en-us/library/ms692909(v=VS.85).aspx">FaxRouteModifyRoutingData</a> callback function to change the routing information for a subsequent routing method. The function does this by modifying the <b>RoutingInfoData</b> member of the <b>FAX_ROUTE</b> structure that applies to the subsequent method. This allows a fax routing extension to retrieve user-defined routing data and to provide additional callback information to a different routing method. When the subsequent routing method executes, it processes the received fax transmission using the modified routing data. For more information, see <b>FaxRouteModifyRoutingData</b>.
 
 The fax routing method can use the <a href="https://msdn.microsoft.com/58dfce16-2d7f-4db5-9f84-5dd651d26745">FileTimeToLocalFileTime</a> function, to convert from UTC to local time, and then use the <a href="https://msdn.microsoft.com/d1d55f1f-4daa-4b9d-9962-873e38b1e0cf">FileTimeToSystemTime</a> function to convert the local time to a <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure. SYSTEMTIME contains individual members for month, day, year, weekday, hour, minute, second, and millisecond. See MSDN for descriptions of these functions and this structure.
 
@@ -186,19 +186,19 @@ The fax routing method can use the <a href="https://msdn.microsoft.com/58dfce16-
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684519(v=VS.85).aspx">Fax Routing Extension Application Programming Interface Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684519(v=VS.85).aspx">Fax Routing Extension Application Programming Interface Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692900(v=VS.85).aspx">Fax Routing Extension Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692900(v=VS.85).aspx">Fax Routing Extension Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692857(v=VS.85).aspx">FaxRouteMethod</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692857(v=VS.85).aspx">FaxRouteMethod</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692909(v=VS.85).aspx">FaxRouteModifyRoutingData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692909(v=VS.85).aspx">FaxRouteModifyRoutingData</a>
  
 
  

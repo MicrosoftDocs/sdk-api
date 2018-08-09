@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaTextRangeReleaseMemManMeth.htm
 old-project: WinAuto
 ms.assetid: 20607071-6300-47f9-8d12-5cf8cc51072a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: UiaTextRangeRelease, UiaTextRangeRelease function [Windows Accessibility], uiauto.uiauto_UiaTextRangeReleaseMemManMeth, uiauto_UiaTextRangeReleaseMemManMeth, uiautomationcoreapi/UiaTextRangeRelease, winauto.uiauto_UiaTextRangeReleaseMemManMeth
 ms.prod: windows
 ms.technology: windows-sdk

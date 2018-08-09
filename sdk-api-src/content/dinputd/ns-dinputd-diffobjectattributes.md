@@ -7,7 +7,7 @@ old-location: hid\diffobjectattributes.htm
 old-project: hid
 ms.assetid: b5006cf1-619d-4521-b902-ab89a3f079a4
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/30/2018
 ms.keywords: "*LPDIFFOBJECTATTRIBUTES, DIFFOBJECTATTRIBUTES, DIFFOBJECTATTRIBUTES structure [Human Input Devices], di_ref_d710ceb3-0885-4f22-a4f3-326f24a1e29f.xml, dinputd/DIFFOBJECTATTRIBUTES, hid.diffobjectattributes"
 ms.prod: windows
 ms.technology: windows-sdk

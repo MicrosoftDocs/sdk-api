@@ -7,7 +7,7 @@ old-location: controls\MonthCal_SetRange.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setrange.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: GDTR_MAX, GDTR_MIN, MonthCal_SetRange, MonthCal_SetRange macro [Windows Controls], _win32_MonthCal_SetRange, _win32_MonthCal_SetRange_cpp, commctrl/MonthCal_SetRange, controls.MonthCal_SetRange, controls._win32_MonthCal_SetRange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the minimum and maximum allowable dates for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761012(v=VS.85).aspx">MCM_SETRANGE</a> message explicitly. 
+Sets the minimum and maximum allowable dates for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761012(v=VS.85).aspx">MCM_SETRANGE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,24 +60,12 @@ Sets the minimum and maximum allowable dates for a month calendar control. You c
 
 ### -param hmc
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to a month calendar control. 
 
 
 ### -param gd
-
-TBD
-
-
-### -param rgst
-
-TBD
-
-
-
-
-
-
-#### - fWhichLimit
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
@@ -112,14 +100,7 @@ The minimum allowable date is being set. The <a href="https://msdn.microsoft.com
  
 
 
-#### - hwndMC
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to a month calendar control. 
-
-
-#### - lprgSysTimeArray
+### -param rgst
 
 Type: <b>LPSYSTEMTIME</b>
 

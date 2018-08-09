@@ -7,7 +7,7 @@ old-location: wsw\wsinitializemessage.htm
 old-project: wsw
 ms.assetid: 26eafc5f-6636-4f96-a037-7935cdac5900
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsInitializeMessage, WsInitializeMessage function [Web Services for Windows], webservices/WsInitializeMessage, wsw.wsinitializemessage
 ms.prod: windows
 ms.technology: windows-sdk

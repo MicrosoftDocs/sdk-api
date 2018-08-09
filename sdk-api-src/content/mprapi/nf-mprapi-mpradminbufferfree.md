@@ -7,7 +7,7 @@ old-location: rras\mpradminbufferfree.htm
 old-project: rras
 ms.assetid: 60cae055-841a-4435-bf0e-4198b1ccdd4e
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminBufferFree, MprAdminBufferFree function [RAS], _mpr_mpradminbufferfree, mprapi/MprAdminBufferFree, rras.mpradminbufferfree
 ms.prod: windows
 ms.technology: windows-sdk

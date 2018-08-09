@@ -7,7 +7,7 @@ old-location: multimedia\avistreamreadformat.htm
 old-project: Multimedia
 ms.assetid: 312b7d20-89b2-4102-acf6-f603610dadd6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AVIStreamReadFormat, AVIStreamReadFormat function [Windows Multimedia], _win32_AVIStreamReadFormat, multimedia.avistreamreadformat, vfw/AVIStreamReadFormat
 ms.prod: windows
 ms.technology: windows-sdk

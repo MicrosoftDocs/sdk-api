@@ -7,7 +7,7 @@ old-location: shell\LongToUIntPtr.htm
 old-project: shell
 ms.assetid: 67cbda8e-94b7-4391-aa87-60a68abe3d3b
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: LongToSizeT, LongToUIntPtr, LongToUIntPtr function [Windows Shell], _shell_LongToUIntPtr, intsafe/LongToUIntPtr, shell.LongToUIntPtr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,7 @@ Type: <b>LONG</b>
 The value to be converted.
 
 
-### -param puResult
-
-TBD
-
-
-
-
-#### - piResult [out]
+### -param puResult [out]
 
 Type: <b>UINT_PTR*</b>
 

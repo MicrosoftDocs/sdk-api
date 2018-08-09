@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_CoerceToCanonicalValue.htm
 old-project: properties
 ms.assetid: bc51ec1b-c1ec-4162-a60d-b67d19d5b591
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: CoerceToCanonicalValue, CoerceToCanonicalValue method [Windows Properties], CoerceToCanonicalValue method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],CoerceToCanonicalValue method, IPropertyDescription.CoerceToCanonicalValue, IPropertyDescription::CoerceToCanonicalValue, properties.IPropertyDescription_CoerceToCanonicalValue, propsys/IPropertyDescription::CoerceToCanonicalValue, shell.IPropertyDescription_CoerceToCanonicalValue, shell_IPropertyDescription_CoerceToCanonicalValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -126,11 +126,11 @@ The <i>ppropvar</i> parameter is invalid. The <a href="https://msdn.microsoft.co
 
 
 
-For more information, see the <i>type</i> attribute of the <a href="https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx">typeInfo</a> element in the property's .propdesc file.
+For more information, see the <i>type</i> attribute of the <a href="shell.propdesc_schema_typeInfo">typeInfo</a> element in the property's .propdesc file.
 
-Most property descriptions specify the type that their values are expected to use.  For example, the property description for <a href="https://msdn.microsoft.com/library/Bb787584(v=VS.85).aspx">System.Title</a> specifies that System.Title values should use <code>VT_LPWSTR</code>. This method coerces values to this type, and coerces the result into a canonical form.
+Most property descriptions specify the type that their values are expected to use.  For example, the property description for <a href="https://msdn.microsoft.com/en-us/library/Bb787584(v=VS.85).aspx">System.Title</a> specifies that System.Title values should use <code>VT_LPWSTR</code>. This method coerces values to this type, and coerces the result into a canonical form.
 
-It is important to note that if this method fails, it will have already called the <a href="https://msdn.microsoft.com/library/ms712573(v=VS.85).aspx">PropVariantClear</a> on the input <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure. Only if this method succeeds is the calling application responsible for calling the <b>PropVariantClear</b> on <i>ppropvar</i> when the structure is no longer needed.
+It is important to note that if this method fails, it will have already called the <a href="shell.PropVariantClear">PropVariantClear</a> on the input <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure. Only if this method succeeds is the calling application responsible for calling the <b>PropVariantClear</b> on <i>ppropvar</i> when the structure is no longer needed.
 
 The coercion performed by this method is also performed by the property system during  <a href="https://msdn.microsoft.com/library/windows/hardware/ff536962">IPropertyStore::GetValue</a>  and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536963">IPropertyStore::SetValue</a> calls. Applications may depend on the property system to perform the coercions, or may use this method to perform the coercion at a time of the application's choosing.
 
@@ -146,10 +146,10 @@ The coercion is performed in four steps, as follows:
 <li>Values of type <code>VT_FILETIME</code> prior to midnight 1601/01/02.</li>
 </ul>
 </li>
-<li>If the value is not of type <code>VT_EMPTY</code> after Step 1, it is converted to the type specified by the property description.  The type of a property description can be obtained using <a href="shell.IPropertyDescription_GetPropertyType">IPropertyDescription::GetPropertyType</a>. See <a href="https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx">typeInfo</a> for information about how the property schema influences the type of a property description. Conversions are performed as follows:
+<li>If the value is not of type <code>VT_EMPTY</code> after Step 1, it is converted to the type specified by the property description.  The type of a property description can be obtained using <a href="shell.IPropertyDescription_GetPropertyType">IPropertyDescription::GetPropertyType</a>. See <a href="shell.propdesc_schema_typeInfo">typeInfo</a> for information about how the property schema influences the type of a property description. Conversions are performed as follows:
                         <ul>
-<li>Values of type <code>VT_LPWSTR, VT_BSTR</code>, or <code>VT_LPSTR</code> are converted to <code>VT_VECTOR | VT_LPWSTR</code> using <a href="https://msdn.microsoft.com/library/Bb762306(v=VS.85).aspx">InitPropVariantFromStringAsVector</a>.</li>
-<li>All other conversions are performed using <a href="https://msdn.microsoft.com/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>
+<li>Values of type <code>VT_LPWSTR, VT_BSTR</code>, or <code>VT_LPSTR</code> are converted to <code>VT_VECTOR | VT_LPWSTR</code> using <a href="shell.InitPropVariantFromStringAsVector">InitPropVariantFromStringAsVector</a>.</li>
+<li>All other conversions are performed using <a href="shell.PropVariantChangeType">PropVariantChangeType</a>
 </li>
 </ul>
 </li>
@@ -254,7 +254,7 @@ The coercion is performed in four steps, as follows:
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

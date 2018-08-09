@@ -7,7 +7,7 @@ old-location: shell\DragQueryPoint.htm
 old-project: shell
 ms.assetid: 87794ab0-a075-4a1f-869f-5998bdc57a1d
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DragQueryPoint, DragQueryPoint function [Windows Shell], _win32_DragQueryPoint, shell.DragQueryPoint, shellapi/DragQueryPoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,7 @@ Type: <b>HDROP</b>
 Handle of the drop structure that describes the dropped file.
 
 
-### -param ppt
-
-TBD
-
-
-
-
-#### - lppt [out]
+### -param ppt [out]
 
 Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>*</b>
 

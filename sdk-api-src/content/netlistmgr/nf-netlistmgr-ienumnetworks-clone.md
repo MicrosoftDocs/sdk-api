@@ -7,7 +7,7 @@ old-location: nla\ienumnetworks_clone.htm
 old-project: nla
 ms.assetid: 196bf9fa-4615-44c3-accf-f70516d5a6a5
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: Clone, Clone method [Network Awareness], Clone method [Network Awareness],IEnumNetworks interface, IEnumNetworks interface [Network Awareness],Clone method, IEnumNetworks.Clone, IEnumNetworks::Clone, netlistmgr/IEnumNetworks::Clone, nla.ienumnetworks_clone
 ms.prod: windows
 ms.technology: windows-sdk
