@@ -94,7 +94,7 @@ This method sends an <a href="https://msdn.microsoft.com/3c76e700-0162-41ec-8f9d
 <a href="https://msdn.microsoft.com/38c3b31f-356c-46cf-904a-98241c0f199f">IComponent::Notify</a> method.
 
 This method should be called from the 
-<a href="https://msdn.microsoft.com/edd98f5e-e251-40ff-8136-02bf1b9ea670">IConsole</a> interface pointer obtained through the snap-in 
+<a href="https://msdn.microsoft.com/en-us/library/Mt300830(v=VS.85).aspx">IConsole</a> interface pointer obtained through the snap-in 
 <a href="https://msdn.microsoft.com/60900b8d-59cc-4c1d-86b7-b902ba89216d">IComponentData</a> implementation.
 
 
@@ -105,7 +105,7 @@ This method should be called from the
 
 
 
-<a href="https://msdn.microsoft.com/edd98f5e-e251-40ff-8136-02bf1b9ea670">IConsole</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt300830(v=VS.85).aspx">IConsole</a>
 
 
 

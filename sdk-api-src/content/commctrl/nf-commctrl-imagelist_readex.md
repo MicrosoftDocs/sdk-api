@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Reads an image list from a stream, and returns an <a href="https://msdn.microsoft.com/02e397a4-22fa-49fb-8103-376aa5ebc77a">IImageList</a> interface to the image list. 
+Reads an image list from a stream, and returns an <a href="https://msdn.microsoft.com/en-us/library/Bb761490(v=VS.85).aspx">IImageList</a> interface to the image list. 
 
 
 
@@ -137,7 +137,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-To use <b>ImageList_ReadEx</b>, the application must specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
+To use <b>ImageList_ReadEx</b>, the application must specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 
@@ -147,15 +147,15 @@ To use <b>ImageList_ReadEx</b>, the application must specify Comctl32.dll versio
 
 
 
-<a href="https://msdn.microsoft.com/d0b6b9ca-18e5-4db5-8995-3db81adaec25">ImageList_Read</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761560(v=VS.85).aspx">ImageList_Read</a>
 
 
 
-<a href="https://msdn.microsoft.com/00078f34-3c8c-45dd-be81-9d62b90222ca">ImageList_Write</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775228(v=VS.85).aspx">ImageList_Write</a>
 
 
 
-<a href="https://msdn.microsoft.com/0cb345a9-4d6f-4218-ab70-26cf2ddeb2b3">ImageList_WriteEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775229(v=VS.85).aspx">ImageList_WriteEx</a>
 
 
 

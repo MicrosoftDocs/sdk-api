@@ -51,7 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-The DXGI_OUTDUPL_DESC structure describes the dimension of the output and the surface that contains the desktop image. The format of the desktop image is always <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_B8G8R8A8_UNORM</a>.
+The DXGI_OUTDUPL_DESC structure describes the dimension of the output and the surface that contains the desktop image. The format of the desktop image is always <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_B8G8R8A8_UNORM</a>.
 
 
 ## -struct-fields
@@ -61,12 +61,12 @@ The DXGI_OUTDUPL_DESC structure describes the dimension of the output and the su
 
 ### -field ModeDesc
 
-A <a href="https://msdn.microsoft.com/ed39012c-0c3b-4c8e-ae83-c252c0fd3cff">DXGI_MODE_DESC</a> structure that describes the display mode of the duplicated output.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb173064(v=VS.85).aspx">DXGI_MODE_DESC</a> structure that describes the display mode of the duplicated output.
 
 
 ### -field Rotation
 
-A member of the <a href="https://msdn.microsoft.com/fcf5bce5-dde1-4d3b-9786-2abf1e18d942">DXGI_MODE_ROTATION</a> enumerated type that describes how the duplicated output rotates an image.
+A member of the <a href="https://msdn.microsoft.com/en-us/library/Bb173065(v=VS.85).aspx">DXGI_MODE_ROTATION</a> enumerated type that describes how the duplicated output rotates an image.
 
 
 ### -field DesktopImageInSystemMemory

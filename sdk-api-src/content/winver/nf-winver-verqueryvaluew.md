@@ -60,7 +60,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Retrieves specified version information from the specified version-information resource. To retrieve the appropriate resource, before you call <b>VerQueryValue</b>, you must first call the <a href="https://msdn.microsoft.com/e2903940-a775-4bbc-bf52-6660f18a4d72">GetFileVersionInfoSize</a> function, and then the <a href="https://msdn.microsoft.com/44679c26-f1ac-409c-8a25-abc5bfd888ac">GetFileVersionInfo</a> function. 
+Retrieves specified version information from the specified version-information resource. To retrieve the appropriate resource, before you call <b>VerQueryValue</b>, you must first call the <a href="https://msdn.microsoft.com/en-us/library/ms647005(v=VS.85).aspx">GetFileVersionInfoSize</a> function, and then the <a href="https://msdn.microsoft.com/en-us/library/ms647003(v=VS.85).aspx">GetFileVersionInfo</a> function. 
 
 
 ## -parameters
@@ -72,7 +72,7 @@ Retrieves specified version information from the specified version-information r
 
 Type: <b>LPCVOID</b>
 
-The version-information resource returned by the <a href="https://msdn.microsoft.com/44679c26-f1ac-409c-8a25-abc5bfd888ac">GetFileVersionInfo</a> function. 
+The version-information resource returned by the <a href="https://msdn.microsoft.com/en-us/library/ms647003(v=VS.85).aspx">GetFileVersionInfo</a> function. 
 
 
 ### -param lpSubBlock [in]
@@ -87,19 +87,19 @@ The version-information value to be retrieved. The string must consist of names 
 
 #### \
 
-The root block. The function retrieves a pointer to the <a href="https://msdn.microsoft.com/821891dd-15b9-404e-a7c7-aace294c7e42">VS_FIXEDFILEINFO</a> structure for the version-information resource.
+The root block. The function retrieves a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure for the version-information resource.
 
 
 
 #### \VarFileInfo\Translation
 
-The translation array in a <a href="https://msdn.microsoft.com/edd2f2e5-100c-49c2-841f-f75e2909460a">Var</a> variable information structure—the <b>Value</b> member of this structure. The function retrieves a pointer to this array of language and code page identifiers. An application can use these identifiers to access a language-specific <a href="https://msdn.microsoft.com/e8e9d654-b515-434c-ac38-79d333a8d7cb">StringTable</a> structure (using the <b>szKey</b> member) in the version-information resource.
+The translation array in a <a href="https://msdn.microsoft.com/en-us/library/ms646994(v=VS.85).aspx">Var</a> variable information structure—the <b>Value</b> member of this structure. The function retrieves a pointer to this array of language and code page identifiers. An application can use these identifiers to access a language-specific <a href="https://msdn.microsoft.com/en-us/library/ms646992(v=VS.85).aspx">StringTable</a> structure (using the <b>szKey</b> member) in the version-information resource.
 
 
 
 #### \StringFileInfo\lang-codepage\string-name
 
-A value in a language-specific <a href="https://msdn.microsoft.com/e8e9d654-b515-434c-ac38-79d333a8d7cb">StringTable</a> structure. The <i>lang-codepage</i> name is a concatenation of a language and code page identifier pair found as a <b>DWORD</b> in the translation array for the resource. Here the <i>lang-codepage</i> name must be specified as a hexadecimal string. The <i>string-name</i> name must be one of the predefined strings described in the following Remarks section. The function retrieves a string value specific to the language and code page indicated. 
+A value in a language-specific <a href="https://msdn.microsoft.com/en-us/library/ms646992(v=VS.85).aspx">StringTable</a> structure. The <i>lang-codepage</i> name is a concatenation of a language and code page identifier pair found as a <b>DWORD</b> in the translation array for the resource. Here the <i>lang-codepage</i> name must be specified as a hexadecimal string. The <i>string-name</i> name must be one of the predefined strings described in the following Remarks section. The function retrieves a string value specific to the language and code page indicated. 
 
 
 ### -param lplpBuffer [out]
@@ -118,17 +118,17 @@ When this method returns, contains a pointer to the size of the requested data p
 
 ##### - lpSubBlock.\
 
-The root block. The function retrieves a pointer to the <a href="https://msdn.microsoft.com/821891dd-15b9-404e-a7c7-aace294c7e42">VS_FIXEDFILEINFO</a> structure for the version-information resource.
+The root block. The function retrieves a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure for the version-information resource.
 
 
 ##### - lpSubBlock.\VarFileInfo\Translation
 
-The translation array in a <a href="https://msdn.microsoft.com/edd2f2e5-100c-49c2-841f-f75e2909460a">Var</a> variable information structure—the <b>Value</b> member of this structure. The function retrieves a pointer to this array of language and code page identifiers. An application can use these identifiers to access a language-specific <a href="https://msdn.microsoft.com/e8e9d654-b515-434c-ac38-79d333a8d7cb">StringTable</a> structure (using the <b>szKey</b> member) in the version-information resource.
+The translation array in a <a href="https://msdn.microsoft.com/en-us/library/ms646994(v=VS.85).aspx">Var</a> variable information structure—the <b>Value</b> member of this structure. The function retrieves a pointer to this array of language and code page identifiers. An application can use these identifiers to access a language-specific <a href="https://msdn.microsoft.com/en-us/library/ms646992(v=VS.85).aspx">StringTable</a> structure (using the <b>szKey</b> member) in the version-information resource.
 
 
 ##### - lpSubBlock.\StringFileInfo\lang-codepage\string-name
 
-A value in a language-specific <a href="https://msdn.microsoft.com/e8e9d654-b515-434c-ac38-79d333a8d7cb">StringTable</a> structure. The <i>lang-codepage</i> name is a concatenation of a language and code page identifier pair found as a <b>DWORD</b> in the translation array for the resource. Here the <i>lang-codepage</i> name must be specified as a hexadecimal string. The <i>string-name</i> name must be one of the predefined strings described in the following Remarks section. The function retrieves a string value specific to the language and code page indicated. 
+A value in a language-specific <a href="https://msdn.microsoft.com/en-us/library/ms646992(v=VS.85).aspx">StringTable</a> structure. The <i>lang-codepage</i> name is a concatenation of a language and code page identifier pair found as a <b>DWORD</b> in the translation array for the resource. Here the <i>lang-codepage</i> name must be specified as a hexadecimal string. The <i>string-name</i> name must be one of the predefined strings described in the following Remarks section. The function retrieves a string value specific to the language and code page indicated. 
 
 
 ## -returns
@@ -181,7 +181,7 @@ The following are predefined version information Unicode strings.
 
 The following example shows how to enumerate the available version languages and retrieve the FileDescription string-value for each language.
 
-Be sure to call the <a href="https://msdn.microsoft.com/e2903940-a775-4bbc-bf52-6660f18a4d72">GetFileVersionInfoSize</a> and <a href="https://msdn.microsoft.com/44679c26-f1ac-409c-8a25-abc5bfd888ac">GetFileVersionInfo</a> functions before calling <b>VerQueryValue</b> to properly initialize the <i>pBlock</i> buffer.
+Be sure to call the <a href="https://msdn.microsoft.com/en-us/library/ms647005(v=VS.85).aspx">GetFileVersionInfoSize</a> and <a href="https://msdn.microsoft.com/en-us/library/ms647003(v=VS.85).aspx">GetFileVersionInfo</a> functions before calling <b>VerQueryValue</b> to properly initialize the <i>pBlock</i> buffer.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -239,11 +239,11 @@ for( i=0; i &lt; (cbTranslate/sizeof(struct LANGANDCODEPAGE)); i++ )
 
 
 
-<a href="https://msdn.microsoft.com/44679c26-f1ac-409c-8a25-abc5bfd888ac">GetFileVersionInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647003(v=VS.85).aspx">GetFileVersionInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2903940-a775-4bbc-bf52-6660f18a4d72">GetFileVersionInfoSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647005(v=VS.85).aspx">GetFileVersionInfoSize</a>
 
 
 
@@ -251,35 +251,35 @@ for( i=0; i &lt; (cbTranslate/sizeof(struct LANGANDCODEPAGE)); i++ )
 
 
 
-<a href="https://msdn.microsoft.com/fcc5ac68-4aec-4a3b-aa92-96fc50cc4ca2">String</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646987(v=VS.85).aspx">String</a>
 
 
 
-<a href="https://msdn.microsoft.com/dda38fee-e8ea-4e58-b5ee-72e4cdb08f42">StringFileInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646989(v=VS.85).aspx">StringFileInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8e9d654-b515-434c-ac38-79d333a8d7cb">StringTable</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646992(v=VS.85).aspx">StringTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/821891dd-15b9-404e-a7c7-aace294c7e42">VS_FIXEDFILEINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/7864510f-1894-4f17-bf7b-fd5bc1ba4aae">VS_VERSIONINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647001(v=VS.85).aspx">VS_VERSIONINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/edd2f2e5-100c-49c2-841f-f75e2909460a">Var</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646994(v=VS.85).aspx">Var</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b667778-fb08-4195-a88e-ac04baf45fee">VarFileInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646995(v=VS.85).aspx">VarFileInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/60de7900-56b9-4481-bef9-b4079eedf926">Version Information</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646981(v=VS.85).aspx">Version Information</a>
  
 
  

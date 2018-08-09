@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Values that indicate how the pipeline interprets vertex data that is bound to the <a href="https://msdn.microsoft.com/71141a5e-2d79-4b02-8370-c0cbc8618908">input-assembler stage</a>. These <a href="https://msdn.microsoft.com/357ad085-fd91-4420-abc3-1c57e8cbb517">primitive topology values</a> determine how the vertex data is rendered on screen.
+Values that indicate how the pipeline interprets vertex data that is bound to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>. These <a href="https://msdn.microsoft.com/en-us/library/Bb205124(v=VS.85).aspx">primitive topology values</a> determine how the vertex data is rendered on screen.
 
 
 ## -enum-fields

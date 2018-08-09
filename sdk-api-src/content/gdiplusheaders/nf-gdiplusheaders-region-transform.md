@@ -61,7 +61,7 @@ The <b>Region::Transform</b> method transforms this region by multiplying each o
 
 ### -param matrix [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>*</b>
 
 Pointer to a matrix that specifies the transformation. 
 
@@ -85,7 +85,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>
 
 
 
@@ -97,7 +97,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/2909bf9a-3ce0-4605-b063-e41cdc9cf317">Region::Translate Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534781(v=VS.85).aspx">Region::Translate Methods</a>
 
 
 

@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the item's state image to "checked" or "unchecked." You can also use the <a href="https://msdn.microsoft.com/28d288bf-a557-4fce-870c-ffa368ece5a9">TVM_SETITEM</a> message directly.
+Sets the item's state image to "checked" or "unchecked." You can also use the <a href="https://msdn.microsoft.com/en-us/library/Bb773758(v=VS.85).aspx">TVM_SETITEM</a> message directly.
 
 
 ## -parameters

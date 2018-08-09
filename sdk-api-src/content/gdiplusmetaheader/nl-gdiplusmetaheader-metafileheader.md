@@ -64,154 +64,154 @@ A <b>MetafileHeader</b> object stores properties of an associated metafile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f8385cb-c9a1-4667-ab0d-22d0b5dda1fd">MetafileHeader::GetBounds</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535105(v=VS.85).aspx">MetafileHeader::GetBounds</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/0f8385cb-c9a1-4667-ab0d-22d0b5dda1fd">MetafileHeader::GetBounds</a> method gets the bounding rectangle for the associated metafile.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535105(v=VS.85).aspx">MetafileHeader::GetBounds</a> method gets the bounding rectangle for the associated metafile.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d2e3620e-53c7-40ee-bcd9-061ad0ad1503">MetafileHeader::GetDpiX</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535106(v=VS.85).aspx">MetafileHeader::GetDpiX</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/d2e3620e-53c7-40ee-bcd9-061ad0ad1503">MetafileHeader::GetDpiX</a> method gets the horizontal dots per inch of the associated metafile.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535106(v=VS.85).aspx">MetafileHeader::GetDpiX</a> method gets the horizontal dots per inch of the associated metafile.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c6c43b4b-d5f9-4d1d-afba-fc59b238a73e">MetafileHeader::GetDpiY</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535107(v=VS.85).aspx">MetafileHeader::GetDpiY</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/c6c43b4b-d5f9-4d1d-afba-fc59b238a73e">MetafileHeader::GetDpiY</a> method gets the vertical dots per inch of the associated metafile.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535107(v=VS.85).aspx">MetafileHeader::GetDpiY</a> method gets the vertical dots per inch of the associated metafile.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/13f70025-46a3-41e8-8cc9-aa01f1b978a3">MetafileHeader::GetEmfHeader</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535108(v=VS.85).aspx">MetafileHeader::GetEmfHeader</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/13f70025-46a3-41e8-8cc9-aa01f1b978a3">MetafileHeader::GetEmfHeader</a> method gets an <a href="https://msdn.microsoft.com/48cacd83-8123-476c-af78-11ad41285c3e">ENHMETAHEADER3</a> structure that contains properties of the associated metafile.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535108(v=VS.85).aspx">MetafileHeader::GetEmfHeader</a> method gets an <a href="https://msdn.microsoft.com/en-us/library/ms534065(v=VS.85).aspx">ENHMETAHEADER3</a> structure that contains properties of the associated metafile.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d04d621c-a84b-4d74-a308-da391425f658">MetafileHeader::GetEmfPlusFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535109(v=VS.85).aspx">MetafileHeader::GetEmfPlusFlags</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/d04d621c-a84b-4d74-a308-da391425f658">MetafileHeader::GetEmfPlusFlags</a> method gets a flag that indicates whether the associated metafile was recorded against a video display device context.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535109(v=VS.85).aspx">MetafileHeader::GetEmfPlusFlags</a> method gets a flag that indicates whether the associated metafile was recorded against a video display device context.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff1a84fe-511b-4744-8076-c74532df29ab">MetafileHeader::GetMetafileSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535110(v=VS.85).aspx">MetafileHeader::GetMetafileSize</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/ff1a84fe-511b-4744-8076-c74532df29ab">MetafileHeader::GetMetafileSize</a> method gets the size, in bytes, of the metafile.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535110(v=VS.85).aspx">MetafileHeader::GetMetafileSize</a> method gets the size, in bytes, of the metafile.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42acdd2c-b87d-455a-83c0-0630bd552c45">MetafileHeader::GetType</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535112(v=VS.85).aspx">MetafileHeader::GetType</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/42acdd2c-b87d-455a-83c0-0630bd552c45">MetafileHeader::GetType</a> method gets the type of the associated metafile.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535112(v=VS.85).aspx">MetafileHeader::GetType</a> method gets the type of the associated metafile.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8a0dac87-d667-4c9a-ae15-8183baf14e91">MetafileHeader::GetVersion</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535113(v=VS.85).aspx">MetafileHeader::GetVersion</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/8a0dac87-d667-4c9a-ae15-8183baf14e91">MetafileHeader::GetVersion</a> method gets the version of the metafile.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535113(v=VS.85).aspx">MetafileHeader::GetVersion</a> method gets the version of the metafile.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/026f0e5c-165f-4115-8320-83b6e1b47377">MetafileHeader::GetWmfHeader</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535114(v=VS.85).aspx">MetafileHeader::GetWmfHeader</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/026f0e5c-165f-4115-8320-83b6e1b47377">MetafileHeader::GetWmfHeader</a> method gets a <a href="https://msdn.microsoft.com/3ad5be24-9558-442e-8c77-dd6a7d33c208">METAHEADER</a> structure that contains properties of the associated metafile.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535114(v=VS.85).aspx">MetafileHeader::GetWmfHeader</a> method gets a <a href="https://msdn.microsoft.com/3ad5be24-9558-442e-8c77-dd6a7d33c208">METAHEADER</a> structure that contains properties of the associated metafile.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c2acf40d-1c8f-418a-8598-4254f3929096">MetafileHeader::IsDisplay</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535115(v=VS.85).aspx">MetafileHeader::IsDisplay</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/c2acf40d-1c8f-418a-8598-4254f3929096">MetafileHeader::IsDisplay</a> method determines whether the associated metafile was recorded against a video display device context.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535115(v=VS.85).aspx">MetafileHeader::IsDisplay</a> method determines whether the associated metafile was recorded against a video display device context.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b2c1470d-1efb-48ef-8046-d710331423e2">MetafileHeader::IsEmf</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535116(v=VS.85).aspx">MetafileHeader::IsEmf</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/b2c1470d-1efb-48ef-8046-d710331423e2">MetafileHeader::IsEmf</a> method determines whether the associated metafile is in the EMF format.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535116(v=VS.85).aspx">MetafileHeader::IsEmf</a> method determines whether the associated metafile is in the EMF format.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/901c2f13-44a1-4432-8e35-b3708615d492">MetafileHeader::IsEmfOrEmfPlus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535117(v=VS.85).aspx">MetafileHeader::IsEmfOrEmfPlus</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/901c2f13-44a1-4432-8e35-b3708615d492">MetafileHeader::IsEmfOrEmfPlus</a> method determines whether the associated metafile is in either the EMF or EMF+ format.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535117(v=VS.85).aspx">MetafileHeader::IsEmfOrEmfPlus</a> method determines whether the associated metafile is in either the EMF or EMF+ format.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1403ea16-d470-49ef-982a-34f747323006">MetafileHeader::IsEmfPlus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535118(v=VS.85).aspx">MetafileHeader::IsEmfPlus</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/1403ea16-d470-49ef-982a-34f747323006">MetafileHeader::IsEmfPlus</a> method determines whether the associated metafile is in the EMF+ format.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535118(v=VS.85).aspx">MetafileHeader::IsEmfPlus</a> method determines whether the associated metafile is in the EMF+ format.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/37e87bcd-fcb7-4f90-9d8e-e74cb61d17b1">MetafileHeader::IsEmfPlusDual</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535119(v=VS.85).aspx">MetafileHeader::IsEmfPlusDual</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/37e87bcd-fcb7-4f90-9d8e-e74cb61d17b1">MetafileHeader::IsEmfPlusDual</a> method determines whether the associated metafile is in the EMF+ Dual format.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535119(v=VS.85).aspx">MetafileHeader::IsEmfPlusDual</a> method determines whether the associated metafile is in the EMF+ Dual format.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4dd24c66-2a72-41bb-9a7e-46f493763be1">MetafileHeader::IsEmfPlusOnly</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535264(v=VS.85).aspx">MetafileHeader::IsEmfPlusOnly</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/4dd24c66-2a72-41bb-9a7e-46f493763be1">MetafileHeader::IsEmfPlusOnly</a> method determines whether the associated metafile is in the EMF+ Only format.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535264(v=VS.85).aspx">MetafileHeader::IsEmfPlusOnly</a> method determines whether the associated metafile is in the EMF+ Only format.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8cd3ae8-25ee-4d40-aeb9-43b7a2de4d62">MetafileHeader::IsWmf</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535265(v=VS.85).aspx">MetafileHeader::IsWmf</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/a8cd3ae8-25ee-4d40-aeb9-43b7a2de4d62">MetafileHeader::IsWmf</a> method determines whether the associated metafile is in the WMF format.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535265(v=VS.85).aspx">MetafileHeader::IsWmf</a> method determines whether the associated metafile is in the WMF format.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8e8fed26-8877-4bfe-a52e-4b365c7f2c2b">MetafileHeader::IsWmfPlaceable</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535266(v=VS.85).aspx">MetafileHeader::IsWmfPlaceable</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/8e8fed26-8877-4bfe-a52e-4b365c7f2c2b">MetafileHeader::IsWmfPlaceable</a> method determines whether the associated metafile is a placeable metafile.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535266(v=VS.85).aspx">MetafileHeader::IsWmfPlaceable</a> method determines whether the associated metafile is a placeable metafile.
 
 </td>
 </tr>

@@ -186,7 +186,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromBuffer">InitPropVariantFromBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762289(v=VS.85).aspx">InitPropVariantFromBuffer</a>
 
 
 

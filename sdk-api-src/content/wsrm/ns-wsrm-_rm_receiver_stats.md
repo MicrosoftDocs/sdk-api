@@ -51,7 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-The <b>RM_RECEIVER_STATS</b> structure provides statistical information for a Reliable Multicast receiver session. This structure is used with the <a href="socket_options.htm">RM_RECEIVER_STATISTICS</a> socket option.
+The <b>RM_RECEIVER_STATS</b> structure provides statistical information for a Reliable Multicast receiver session. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/ms740525(v=VS.85).aspx">RM_RECEIVER_STATISTICS</a> socket option.
 
 
 ## -struct-fields

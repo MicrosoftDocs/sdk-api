@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Add</b> method adds an outbound routing group to the <a href="https://msdn.microsoft.com/799a034c-c807-428c-8536-bc68dce5cd8e">FaxOutboundRoutingGroups</a> collection.
+The <b>Add</b> method adds an outbound routing group to the <a href="https://msdn.microsoft.com/en-us/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a> collection.
 
 
 ## -parameters
@@ -76,16 +76,16 @@ Null-terminated string that indicates the name of the group to add. Note that yo
 
 #### - FaxOutboundRoutingGroup
 
-Type: <b><a href="https://msdn.microsoft.com/894a58b7-3a5f-4723-abcb-764567e49e76">FaxOutboundRoutingGroup</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms689098(v=VS.85).aspx">FaxOutboundRoutingGroup</a>**</b>
 
-A <a href="https://msdn.microsoft.com/894a58b7-3a5f-4723-abcb-764567e49e76">FaxOutboundRoutingGroup</a> object.
+A <a href="https://msdn.microsoft.com/en-us/library/ms689098(v=VS.85).aspx">FaxOutboundRoutingGroup</a> object.
 
 
 ## -remarks
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farMANAGE_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farMANAGE_CONFIG</a> access right.
 
 
 
@@ -95,15 +95,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/70d
 
 
 
-<a href="https://msdn.microsoft.com/799a034c-c807-428c-8536-bc68dce5cd8e">FaxOutboundRoutingGroups</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf36787b-cc8e-48a8-b81d-5406cbc4bcc8">IFaxOutboundRoutingGroups</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689212(v=VS.85).aspx">IFaxOutboundRoutingGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a05df3b-c56b-4dfc-a0ee-7f1c2861e9ae">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

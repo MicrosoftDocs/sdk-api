@@ -106,7 +106,7 @@ The <i>hContext</i> parameter is not valid.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="authentication_return_values.htm">Smart Card Return Values</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
 
 </td>
 </tr>

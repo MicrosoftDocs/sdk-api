@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The depth-stencil-state interface holds a description for depth-stencil state that you can bind to the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger stage</a>.
+The depth-stencil-state interface holds a description for depth-stencil state that you can bind to the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger stage</a>.
 
 
 ## -inheritance
@@ -85,7 +85,7 @@ Gets the description for depth-stencil state that you used to create the depth-s
 
 
 
-To create a depth-stencil-state object, call <a href="https://msdn.microsoft.com/7577604c-922c-408c-8eab-2361ebda17df">ID3D11Device::CreateDepthStencilState</a>. To bind the depth-stencil-state object to the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger stage</a>, call <a href="https://msdn.microsoft.com/cd5642c4-8bbe-4b5d-9f04-87de82ee9601">ID3D11DeviceContext::OMSetDepthStencilState</a>.
+To create a depth-stencil-state object, call <a href="https://msdn.microsoft.com/7577604c-922c-408c-8eab-2361ebda17df">ID3D11Device::CreateDepthStencilState</a>. To bind the depth-stencil-state object to the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger stage</a>, call <a href="https://msdn.microsoft.com/cd5642c4-8bbe-4b5d-9f04-87de82ee9601">ID3D11DeviceContext::OMSetDepthStencilState</a>.
 
 
 

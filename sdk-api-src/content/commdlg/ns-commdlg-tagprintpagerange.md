@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Represents a range of pages in a print job. A print job can have more than one page range. This information is supplied in the <a href="https://msdn.microsoft.com/e843d2fc-d122-4112-bfc9-9bfb26e865da">PRINTDLGEX</a> structure when calling the <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> function.
+Represents a range of pages in a print job. A print job can have more than one page range. This information is supplied in the <a href="https://msdn.microsoft.com/en-us/library/ms646844(v=VS.85).aspx">PRINTDLGEX</a> structure when calling the <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> function.
 
 
 ## -struct-fields
@@ -77,7 +77,7 @@ The last page of the range.
 
 
 
-<a href="https://msdn.microsoft.com/28573019-f0bd-4a8e-a1a1-48559f658a81">Common Dialog Box Library</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645524(v=VS.85).aspx">Common Dialog Box Library</a>
  
 
  

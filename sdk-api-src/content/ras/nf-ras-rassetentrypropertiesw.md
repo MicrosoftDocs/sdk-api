@@ -133,8 +133,8 @@ Specifies the size, in bytes, of the buffer identified by the <i>lpRasEntry</i>
 
 Pointer to a buffer that specifies device-specific configuration information. This is opaque TAPI device 
       configuration information. For more information about TAPI device configuration, see the 
-      <a href="_tapi2_linegetdevconfig">lineGetDevConfig</a> function in 
-      <a href="_tapi3_telephony_application_programming_interfaces">Telephony Application Programming Interfaces (TAPI)</a> 
+      <a href="https://msdn.microsoft.com/en-us/library/ms735739(v=VS.85).aspx">lineGetDevConfig</a> function in 
+      <a href="https://msdn.microsoft.com/en-us/library/ms734273(v=VS.85).aspx">Telephony Application Programming Interfaces (TAPI)</a> 
       in the Platform SDK.
       
 

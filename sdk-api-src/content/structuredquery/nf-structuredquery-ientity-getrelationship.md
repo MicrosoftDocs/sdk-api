@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Retrieves the <a href="https://msdn.microsoft.com/137f8b7c-568e-469f-83de-468cb6e50319">IRelationship</a> object for this entity as requested by name.
+Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Bb231339(v=VS.85).aspx">IRelationship</a> object for this entity as requested by name.
         
 
 
@@ -70,9 +70,9 @@ The name of the relationship to find.
 
 ### -param pRelationship [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/137f8b7c-568e-469f-83de-468cb6e50319">IRelationship</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231339(v=VS.85).aspx">IRelationship</a>**</b>
 
-Receives the address of a pointer to the requested <a href="https://msdn.microsoft.com/137f8b7c-568e-469f-83de-468cb6e50319">IRelationship</a> object, or <b>NULL</b> if this entity has no relationship with the name specified.
+Receives the address of a pointer to the requested <a href="https://msdn.microsoft.com/en-us/library/Bb231339(v=VS.85).aspx">IRelationship</a> object, or <b>NULL</b> if this entity has no relationship with the name specified.
             
 
 

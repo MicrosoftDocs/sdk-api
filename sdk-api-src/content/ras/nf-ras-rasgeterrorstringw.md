@@ -166,11 +166,11 @@ DWORD __cdecl wmain(){
 
 
 
-<a href="_win32_globalalloc">GlobalAlloc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366574(v=VS.85).aspx">GlobalAlloc</a>
 
 
 
-<a href="_win32_loadstring">LoadString</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a>
 
 
 

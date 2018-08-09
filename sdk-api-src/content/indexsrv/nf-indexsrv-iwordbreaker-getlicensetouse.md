@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Gets a pointer to the license information for this implementation of the <a href="https://msdn.microsoft.com/36c46931-5c5c-4ab9-9291-60ad93cebbf0">IWordBreaker</a> interface.
+Gets a pointer to the license information for this implementation of the <a href="https://msdn.microsoft.com/en-us/library/Bb266433(v=VS.85).aspx">IWordBreaker</a> interface.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Gets a pointer to the license information for this implementation of the <a href
 
 Type: <b>WCHAR const**</b>
 
-Pointer to a variable that receives a pointer to the license information for this <a href="https://msdn.microsoft.com/36c46931-5c5c-4ab9-9291-60ad93cebbf0">IWordBreaker</a> implementation.
+Pointer to a variable that receives a pointer to the license information for this <a href="https://msdn.microsoft.com/en-us/library/Bb266433(v=VS.85).aspx">IWordBreaker</a> implementation.
 
 
 ## -returns

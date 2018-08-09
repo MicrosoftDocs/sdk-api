@@ -53,7 +53,7 @@ req.product: Windows Media Format 9 Series or later
 
 Starts the configuration user interface of the specified EAP method.
 
-<b>EapHostPeerInvokeConfigUI</b> must be called on threads that have COM initialized for <a href="Http://go.microsoft.com/fwlink/p/?linkid=83881">Single Threaded Apartment</a> (STA). This can be achieved by calling COM API <a href="_com_CoInitialize">CoInitialize</a>; when the supplicant has finished  with the STA thread <a href="_com_CoUninitialize">CoUninitialize</a> must be called before exiting.
+<b>EapHostPeerInvokeConfigUI</b> must be called on threads that have COM initialized for <a href="Http://go.microsoft.com/fwlink/p/?linkid=83881">Single Threaded Apartment</a> (STA). This can be achieved by calling COM API <a href="https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx">CoInitialize</a>; when the supplicant has finished  with the STA thread <a href="https://msdn.microsoft.com/en-us/library/ms688715(v=VS.85).aspx">CoUninitialize</a> must be called before exiting.
 
 
 ## -parameters

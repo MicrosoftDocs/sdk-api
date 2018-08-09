@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Clears the filter for a given header control. You can use this macro or send the <a href="https://msdn.microsoft.com/74c0265e-68d1-4414-8fd9-20f5f041d4b4">HDM_CLEARFILTER</a> message explicitly. 
+Clears the filter for a given header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775306(v=VS.85).aspx">HDM_CLEARFILTER</a> message explicitly. 
 
 
 ## -parameters
@@ -76,7 +76,7 @@ A value specifying the column of the filter to be cleared. Specifying -1 will cl
 
 
 
-If the column value is specified as -1, all the filters will be cleared and the <a href="https://msdn.microsoft.com/0a46af14-569a-4119-881f-549a130f9b0d">HDN_FILTERCHANGE</a> notification will be sent only once. 
+If the column value is specified as -1, all the filters will be cleared and the <a href="https://msdn.microsoft.com/en-us/library/Bb775277(v=VS.85).aspx">HDN_FILTERCHANGE</a> notification will be sent only once. 
 
 
 
@@ -86,7 +86,7 @@ If the column value is specified as -1, all the filters will be cleared and the 
 
 
 
-<a href="https://msdn.microsoft.com/2b789b52-d083-46ee-b032-fe24771b3193">Header_ClearAllFilters</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775375(v=VS.85).aspx">Header_ClearAllFilters</a>
  
 
  

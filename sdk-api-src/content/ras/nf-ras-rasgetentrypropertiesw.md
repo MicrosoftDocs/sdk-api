@@ -125,7 +125,7 @@ To determine the required buffer size, call
 This parameter is no longer used. The calling function should set this parameter to <b>NULL</b>.
 
 <b>Windows Me/98/95:  </b>Pointer to a buffer that receives device-specific configuration information. Do not directly manipulate this opaque TAPI device information. For more information about TAPI device configuration, see the 
-<a href="_tapi2_linegetdevconfig">lineGetDevConfig</a> function in the TAPI Programmer's Reference in the Platform SDK. 
+<a href="https://msdn.microsoft.com/en-us/library/ms735739(v=VS.85).aspx">lineGetDevConfig</a> function in the TAPI Programmer's Reference in the Platform SDK. 
 
 
 This parameter can be <b>NULL</b>.

@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the working areas from a list-view control. You can use this macro, or send the <a href="https://msdn.microsoft.com/956368d9-bbb4-414a-ba17-0e8e4f0f1a45">LVM_GETWORKAREAS</a> message explicitly. 
+Gets the working areas from a list-view control. You can use this macro, or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761095(v=VS.85).aspx">LVM_GETWORKAREAS</a> message explicitly. 
 
 
 ## -parameters
@@ -84,7 +84,7 @@ A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/har
 
 
 
-<a href="https://msdn.microsoft.com/6953cdfc-8c59-4c6d-8998-f828cea3a315">Using List-View Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774736(v=VS.85).aspx">Using List-View Controls</a>
  
 
  

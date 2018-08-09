@@ -51,7 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-Flags used by the <a href="https://msdn.microsoft.com/51f6544a-edc4-4d0c-b39a-277a8dcbe94f">DwmSetWindowAttribute</a> function to specify the Flip3D window policy.
+Flags used by the <a href="https://msdn.microsoft.com/en-us/library/Aa969524(v=VS.85).aspx">DwmSetWindowAttribute</a> function to specify the Flip3D window policy.
 
 
 ## -enum-fields
@@ -76,14 +76,14 @@ Exclude the window from Flip3D and display it above the Flip3D rendering.
 
 ### -field DWMFLIP3D_LAST
 
-The maximum recognized <a href="https://msdn.microsoft.com/48dae43d-f184-4665-aada-7539559ecfe5">DWMFLIP3DWINDOWPOLICY</a> value, used for validation purposes.
+The maximum recognized <a href="https://msdn.microsoft.com/en-us/library/Aa969528(v=VS.85).aspx">DWMFLIP3DWINDOWPOLICY</a> value, used for validation purposes.
 
 
 ## -remarks
 
 
 
-To use a <b>DWMFLIP3DWINDOWPOLICY</b> value, set the <i>dwAttribute</i> parameter of the <a href="https://msdn.microsoft.com/51f6544a-edc4-4d0c-b39a-277a8dcbe94f">DwmSetWindowAttribute</a> function to <b>DWMWA_FLIP3D_POLICY</b>. Set the <i>pvAttribute</i> parameter to the <b>DWMFLIP3DWINDOWPOLICY</b> value.
+To use a <b>DWMFLIP3DWINDOWPOLICY</b> value, set the <i>dwAttribute</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Aa969524(v=VS.85).aspx">DwmSetWindowAttribute</a> function to <b>DWMWA_FLIP3D_POLICY</b>. Set the <i>pvAttribute</i> parameter to the <b>DWMFLIP3DWINDOWPOLICY</b> value.
 
 
 
@@ -93,7 +93,7 @@ To use a <b>DWMFLIP3DWINDOWPOLICY</b> value, set the <i>dwAttribute</i> paramete
 
 
 
-<a href="https://msdn.microsoft.com/b728db22-db83-4607-8b09-6967697ef1b0">Enable and Control DWM Composition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa969538(v=VS.85).aspx">Enable and Control DWM Composition</a>
  
 
  

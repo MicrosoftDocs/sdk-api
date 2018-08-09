@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the minimum width of items in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/c0be3d4e-774c-4233-820f-01ffbb69ecf0">TCM_SETMINTABWIDTH</a> message explicitly. 
+Sets the minimum width of items in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760637(v=VS.85).aspx">TCM_SETMINTABWIDTH</a> message explicitly. 
 
 
 ## -parameters

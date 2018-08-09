@@ -166,7 +166,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The caller is responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release the resources of the returned 
+The caller is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the resources of the returned 
 <a href="https://msdn.microsoft.com/8567ca7f-dc50-4cf2-b3c1-a2ae8d55dc95">IVssWMComponent</a> object.
 
 

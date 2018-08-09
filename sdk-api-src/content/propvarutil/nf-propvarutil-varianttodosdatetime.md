@@ -101,7 +101,7 @@ If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138
 
 If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> is not of type <b>VT_DATE</b>, the function attempts to convert the value in the <b>VARIANT</b> structure into the right format. If a conversion is not possible, <a href="shell.VariantToDosDateTime">VariantToDosDateTime</a> returns a failure code. See <a href="shell.PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions.
 
-See <a href="61b029cb-8b60-400a-a6bb-a3f6839dc9d2">DosDateTimeToVariantTime</a> for more information about the formats of <i>pwDate</i>, <i>pwTime</i>, and the source datetime value.
+See <a href="https://msdn.microsoft.com/en-us/library/ms221238(v=VS.85).aspx">DosDateTimeToVariantTime</a> for more information about the formats of <i>pwDate</i>, <i>pwTime</i>, and the source datetime value.
 
 
 #### Examples

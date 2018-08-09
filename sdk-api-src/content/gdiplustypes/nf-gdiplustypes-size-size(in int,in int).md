@@ -80,7 +80,7 @@ Creates a new <a href="https://msdn.microsoft.com/library/windows/hardware/dn915
 
 
 
-<a href="https://msdn.microsoft.com/8e3f7ddd-cac4-4e81-9764-40167ef7d9ef">Size Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534747(v=VS.85).aspx">Size Constructors</a>
  
 
  

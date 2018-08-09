@@ -91,7 +91,7 @@ When extending the active directory schema to add <b>ADS_DN_WITH_STRING</b>, you
 
 
 
-<a href="ad.win2k_s_object_dn_string">Object(DN-String)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684430(v=VS.85).aspx">Object(DN-String)</a>
  
 
  

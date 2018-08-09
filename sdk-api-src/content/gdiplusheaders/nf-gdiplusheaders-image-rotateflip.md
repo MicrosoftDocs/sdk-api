@@ -61,9 +61,9 @@ The <b>Image::RotateFlip</b> method rotates and flips this image.
 
 ### -param rotateFlipType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/60fb3966-7313-4421-abd8-f437b521ac08">RotateFlipType</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534171(v=VS.85).aspx">RotateFlipType</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/60fb3966-7313-4421-abd8-f437b521ac08">RotateFlipType</a> enumeration that specifies the type of rotation and the type of flip. 
+Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534171(v=VS.85).aspx">RotateFlipType</a> enumeration that specifies the type of rotation and the type of flip. 
 
 
 ## -returns
@@ -91,15 +91,15 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/60fb3966-7313-4421-abd8-f437b521ac08">RotateFlipType</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534171(v=VS.85).aspx">RotateFlipType</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e982d84-8749-451b-89a8-81440fcee439">Rotating, Reflecting, and Skewing Images</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533834(v=VS.85).aspx">Rotating, Reflecting, and Skewing Images</a>
  
 
  

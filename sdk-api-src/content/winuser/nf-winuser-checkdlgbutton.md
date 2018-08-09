@@ -139,12 +139,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 The <b>CheckDlgButton</b> function sends a 
-				<a href="https://msdn.microsoft.com/8294e6c4-caac-4c60-85ff-38698a1d2ae4">BM_SETCHECK</a> message to the specified button control in the specified dialog box.
+				<a href="https://msdn.microsoft.com/en-us/library/Bb775989(v=VS.85).aspx">BM_SETCHECK</a> message to the specified button control in the specified dialog box.
 
 
 #### Examples
 
-For an example, see <b>Creating a Modeless Dialog Box</b> in <a href="https://msdn.microsoft.com/8a5b6bdd-4429-4f48-b846-6bd617a87abf">Using Dialog Boxes</a>. 
+For an example, see <b>Creating a Modeless Dialog Box</b> in <a href="https://msdn.microsoft.com/en-us/library/ms644996(v=VS.85).aspx">Using Dialog Boxes</a>. 
 
 <div class="code"></div>
 
@@ -155,11 +155,11 @@ For an example, see <b>Creating a Modeless Dialog Box</b> in <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/9b9dc0a7-be73-42ca-bf29-220d05baa6d1">CheckRadioButton</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761877(v=VS.85).aspx">CheckRadioButton</a>
 
 
 
-<a href="https://msdn.microsoft.com/859ff84e-a6d8-466b-9b85-f844a47febdf">IsDlgButtonChecked</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761879(v=VS.85).aspx">IsDlgButtonChecked</a>
 
 
 

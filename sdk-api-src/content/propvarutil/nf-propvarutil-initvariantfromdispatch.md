@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure based on an instance of an <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> object.
+Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure based on an instance of an <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> object.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138
 
 ### -param pdisp [in]
 
-Type: <b><a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>*</b>
 
-Pointer to the source <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>.
+Pointer to the source <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>.
 
 
 ### -param pvar [out]

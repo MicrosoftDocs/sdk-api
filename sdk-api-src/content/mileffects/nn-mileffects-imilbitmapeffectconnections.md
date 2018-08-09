@@ -71,7 +71,7 @@ The <b>IMILBitmapEffectConnections</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/96f8b4e5-2c51-40c6-8081-3703fce98fb9">GetInputConnector</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735312(v=VS.85).aspx">GetInputConnector</a>
 </td>
 <td align="left" width="63%">
 Retrieves the input connector associated with the given pin index.
@@ -80,7 +80,7 @@ Retrieves the input connector associated with the given pin index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2449e385-5c70-426f-80d0-ec24b35a3067">GetOutputConnector</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735313(v=VS.85).aspx">GetOutputConnector</a>
 </td>
 <td align="left" width="63%">
 Retrieves the output connector associated with the given pin index.

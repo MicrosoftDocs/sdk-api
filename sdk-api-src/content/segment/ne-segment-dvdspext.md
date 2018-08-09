@@ -137,7 +137,7 @@ Director's comments for children.
 
 
 
-<a href="mstv.msvidwebdvd_selectdefaultsubpicturelanguage_method">SelectDefaultSubpictureLanguage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376377(v=VS.85).aspx">SelectDefaultSubpictureLanguage</a>
 
 
 

@@ -77,16 +77,16 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 ### -param dwFormat
 
-Type: <b><a href="https://msdn.microsoft.com/9D6666C4-06F0-4DE0-95FA-A18082A04448">BP_BUFFERFORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb759835(v=VS.85).aspx">BP_BUFFERFORMAT</a></b>
 
-A member of the <a href="https://msdn.microsoft.com/9D6666C4-06F0-4DE0-95FA-A18082A04448">BP_BUFFERFORMAT</a> enumeration that specifies the format of the buffer.
+A member of the <a href="https://msdn.microsoft.com/en-us/library/Bb759835(v=VS.85).aspx">BP_BUFFERFORMAT</a> enumeration that specifies the format of the buffer.
 
 
 ### -param pPaintParams [in]
 
-Type: <b><a href="https://msdn.microsoft.com/46ebf529-530f-4ccd-a3f8-7fcc7c71fca7">BP_PAINTPARAMS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773228(v=VS.85).aspx">BP_PAINTPARAMS</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/46ebf529-530f-4ccd-a3f8-7fcc7c71fca7">BP_PAINTPARAMS</a> structure that defines the paint operation parameters. This value can be <b>NULL</b>.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773228(v=VS.85).aspx">BP_PAINTPARAMS</a> structure that defines the paint operation parameters. This value can be <b>NULL</b>.
 
 
 ### -param phdc [out]
@@ -104,9 +104,9 @@ Type: <b>HPAINTBUFFER</b>
 
 A handle to the buffered paint context. If this function fails, the return value is <b>NULL</b>, and <i>phdc</i> is <b>NULL</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
-The returned handle is freed when <a href="https://msdn.microsoft.com/de2de3df-cd52-4095-a87e-d054d016c7cb">EndBufferedPaint</a> is called.
+The returned handle is freed when <a href="https://msdn.microsoft.com/en-us/library/Bb773343(v=VS.85).aspx">EndBufferedPaint</a> is called.
 
-An application should call <a href="https://msdn.microsoft.com/e35fd59a-f493-4ac0-971a-d0746123e255">BufferedPaintInit</a> on the calling thread before calling <b>BeginBufferedPaint</b>, and <a href="https://msdn.microsoft.com/e6d3cae8-2f4a-4436-99c0-0606eccd3048">BufferedPaintUnInit</a> before the thread is terminated.  Failure to call <b>BufferedPaintInit</b> may result in degraded performance due to internal data being initialized and destroyed for each buffered paint operation.
+An application should call <a href="https://msdn.microsoft.com/en-us/library/Bb773266(v=VS.85).aspx">BufferedPaintInit</a> on the calling thread before calling <b>BeginBufferedPaint</b>, and <a href="https://msdn.microsoft.com/en-us/library/Bb773284(v=VS.85).aspx">BufferedPaintUnInit</a> before the thread is terminated.  Failure to call <b>BufferedPaintInit</b> may result in degraded performance due to internal data being initialized and destroyed for each buffered paint operation.
 
 
 

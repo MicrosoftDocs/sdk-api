@@ -63,7 +63,7 @@ The <b>GetAttachedComputer</b> method
 
 ### -param bstrComputerName [out]
 
-Pointer to a <a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> that 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a> that 
       receives the name of the computer that is the currently-attached SDO computer.
 
 
@@ -85,9 +85,9 @@ The method may also return one of the following error codes.
 
 
 The <b>GetAttachedComputer</b> allocates 
-    the memory for the <a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> 
+    the memory for the <a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a> 
     variable. The calling application should free this memory by calling 
-    <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
+    <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
 
 
 

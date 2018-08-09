@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the current line color. You can also use the <a href="https://msdn.microsoft.com/c5fc28af-5603-489f-aa6b-73e153f9aebc">TVM_SETLINECOLOR</a> message directly. 
+Sets the current line color. You can also use the <a href="https://msdn.microsoft.com/en-us/library/Bb773764(v=VS.85).aspx">TVM_SETLINECOLOR</a> message directly. 
 
 
 ## -parameters
@@ -76,7 +76,7 @@ A <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLO
 
 
 
-This message only changes line colors. To change the colors of the plus sign (+) and minus sign (-) inside the buttons, use the <a href="https://msdn.microsoft.com/7aacaf9f-2bec-4f5e-84eb-0d51252f0247">TreeView_SetTextColor</a> macro.
+This message only changes line colors. To change the colors of the plus sign (+) and minus sign (-) inside the buttons, use the <a href="https://msdn.microsoft.com/en-us/library/Bb760131(v=VS.85).aspx">TreeView_SetTextColor</a> macro.
 
 
 
@@ -86,7 +86,7 @@ This message only changes line colors. To change the colors of the plus sign (+)
 
 
 
-<a href="https://msdn.microsoft.com/c5fc28af-5603-489f-aa6b-73e153f9aebc">TVM_SETLINECOLOR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773764(v=VS.85).aspx">TVM_SETLINECOLOR</a>
  
 
  

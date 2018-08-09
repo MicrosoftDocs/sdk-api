@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 The <b>Graphics::FromImage</b> method creates a 
 			<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>object that is associated with a specified 
-			<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object.
 
 
 ## -parameters
@@ -63,10 +63,10 @@ The <b>Graphics::FromImage</b> method creates a
 
 ### -param image [in]
 
-Type: <b><a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>*</b>
 
 Pointer to an 
-					<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object that will be associated with the new 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object that will be associated with the new 
 					<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>object. 
 
 
@@ -88,10 +88,10 @@ This method returns a pointer to the new
 
 
 This method fails if the 
-				<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object is based on a metafile that was opened for reading. The 
-				<a href="https://msdn.microsoft.com/35c4b98b-6fbb-4506-9437-756d0d90ce8a">Image::Image(filename, useEmbeddedColorManagement)</a> and 
-				<a href="https://msdn.microsoft.com/1bccba1d-63e4-469d-a7b8-0f83ff7ebcc0">Metafile::Metafile(filename)</a> constructors open a metafile for reading. To open a metafile for recording, use a 
-				<a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a> constructor that receives a device context handle.
+				<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object is based on a metafile that was opened for reading. The 
+				<a href="https://msdn.microsoft.com/en-us/library/ms535411(v=VS.85).aspx">Image::Image(filename, useEmbeddedColorManagement)</a> and 
+				<a href="https://msdn.microsoft.com/en-us/library/ms535285(v=VS.85).aspx">Metafile::Metafile(filename)</a> constructors open a metafile for reading. To open a metafile for recording, use a 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a> constructor that receives a device context handle.
 
 This method also fails if the image has one of the following pixel formats: 
 
@@ -111,10 +111,10 @@ This method also fails if the image has one of the following pixel formats:
 
 The following example calls the <b>Graphics::FromImage</b> method to create a 
 						<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>object that is associated with an 
-						<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object. The call to 
-						<a href="https://msdn.microsoft.com/580a46f7-c2ad-40fe-b87c-08a6648a9df6">Graphics::FillEllipse</a>	does not paint on the display device; instead, it alters the bitmap of the 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object. The call to 
+						<a href="https://msdn.microsoft.com/en-us/library/ms535969(v=VS.85).aspx">Graphics::FillEllipse</a>	does not paint on the display device; instead, it alters the bitmap of the 
 						<b>Image</b> object. The call to 
-						<a href="https://msdn.microsoft.com/7864f9f6-40c0-428c-8867-2a37abed0505">Graphics::DrawImage</a> displays the altered bitmap.
+						<a href="https://msdn.microsoft.com/en-us/library/ms536030(v=VS.85).aspx">Graphics::DrawImage</a> displays the altered bitmap.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -152,11 +152,11 @@ The following example calls the <b>Graphics::FromImage</b> method to create a
 
 
 
-<a href="https://msdn.microsoft.com/89a154c1-6a49-45d6-a73c-94b0b1567408">Changes in the Programming Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536339(v=VS.85).aspx">Changes in the Programming Model</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1d3fc6e-6b7d-4fcf-9bc4-a2bab36304ed">FromHDC Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535778(v=VS.85).aspx">FromHDC Methods</a>
 
 
 
@@ -164,19 +164,19 @@ The following example calls the <b>Graphics::FromImage</b> method to create a
 
 
 
-<a href="https://msdn.microsoft.com/76c4c444-cd6f-43ff-8ab7-96469d4505b9">Graphics Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535632(v=VS.85).aspx">Graphics Constructors</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7c9c984-01cd-45de-95da-378df13f570b">Graphics::FromHWND</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535694(v=VS.85).aspx">Graphics::FromHWND</a>
 
 
 
-<a href="https://msdn.microsoft.com/b1a81c8b-7968-4ad8-a7b6-ebe6c266fd0b">Graphics::GetHDC</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535709(v=VS.85).aspx">Graphics::GetHDC</a>
 
 
 
-<a href="https://msdn.microsoft.com/57e3bf33-5490-4f4a-addf-356ef8f1aeed">Using Images, Bitmaps, and Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533815(v=VS.85).aspx">Using Images, Bitmaps, and Metafiles</a>
  
 
  

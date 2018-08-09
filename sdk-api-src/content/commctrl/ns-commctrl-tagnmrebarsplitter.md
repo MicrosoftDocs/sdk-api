@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information used to handle an <a href="https://msdn.microsoft.com/7827c971-6a92-452f-b961-1abe6ae66d2a">RBN_SPLITTERDRAG</a> notification code.
+Contains information used to handle an <a href="https://msdn.microsoft.com/en-us/library/Bb774427(v=VS.85).aspx">RBN_SPLITTERDRAG</a> notification code.
 
 
 ## -struct-fields
@@ -60,9 +60,9 @@ Contains information used to handle an <a href="https://msdn.microsoft.com/7827c
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about this notification. 
+An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about this notification. 
 
 
 ### -field rcSizing

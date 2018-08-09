@@ -125,7 +125,7 @@ This interface can be used to access the following notification interfaces.<tabl
 
 
 
-An application can obtain this interface by calling <a href="_com_cocreateinstance">CoCreateInstance</a> with a class id of <b>CLSID_IMbnConnectionProfileManager</b>.
+An application can obtain this interface by calling <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with a class id of <b>CLSID_IMbnConnectionProfileManager</b>.
 
 The following procedure describes how to register for notifications.
 

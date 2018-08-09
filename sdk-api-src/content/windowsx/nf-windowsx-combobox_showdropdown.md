@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Shows or hides the list in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/32b995d7-eed6-4173-8525-0d356dea39b3">CB_SHOWDROPDOWN</a> message explicitly.
+Shows or hides the list in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775919(v=VS.85).aspx">CB_SHOWDROPDOWN</a> message explicitly.
 
 
 ## -parameters

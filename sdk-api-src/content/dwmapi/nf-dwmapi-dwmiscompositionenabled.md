@@ -53,7 +53,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-Obtains a value that indicates whether Desktop Window Manager (DWM) composition is enabled. Applications on machines running Windows 7 or earlier can listen for composition state changes by handling the <a href="https://msdn.microsoft.com/ae412d35-8901-4521-a954-239864bca219">WM_DWMCOMPOSITIONCHANGED</a> notification.
+Obtains a value that indicates whether Desktop Window Manager (DWM) composition is enabled. Applications on machines running Windows 7 or earlier can listen for composition state changes by handling the <a href="https://msdn.microsoft.com/en-us/library/Dd388199(v=VS.85).aspx">WM_DWMCOMPOSITIONCHANGED</a> notification.
 
 
 ## -parameters

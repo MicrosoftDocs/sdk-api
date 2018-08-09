@@ -55,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>GetCodecInterface</b> method is used to retrieve a pointer to the <a href="https://msdn.microsoft.com/48cfc4d1-4b79-47a5-9cc9-a1f19d2c0123">IWMCodecAMVideoAccelerator</a> interface exposed on the decoder <a href="wmformat_glossary.htm">DMO</a>.
+The <b>GetCodecInterface</b> method is used to retrieve a pointer to the <a href="https://msdn.microsoft.com/48cfc4d1-4b79-47a5-9cc9-a1f19d2c0123">IWMCodecAMVideoAccelerator</a> interface exposed on the decoder <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DMO</a>.
 
 
 

@@ -62,7 +62,7 @@ Tests the comparison value to determine if any of the compared components are ou
 
 Comparison value to test. The comparison value is typically retrieved using a recording version of an DirectXMath
         function such as 
-        <a href="https://msdn.microsoft.com/a55a4fb4-ff6c-4b50-bc14-9e43c4c1683f">XMVectorInBoundsR</a>. The names of the recording functions end
+        <a href="https://msdn.microsoft.com/en-us/library/Hh404800(v=VS.85).aspx">XMVectorInBoundsR</a>. The names of the recording functions end
         with an "R".
 
 
@@ -113,27 +113,27 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/a4ebab70-1fd6-455f-8078-aa85165d19ae">XMComparisonAllFalse</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437885(v=VS.85).aspx">XMComparisonAllFalse</a>
 
 
 
-<a href="https://msdn.microsoft.com/6613221e-bff0-4dba-9918-6094ec3fdc99">XMComparisonAllInBounds</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437886(v=VS.85).aspx">XMComparisonAllInBounds</a>
 
 
 
-<a href="https://msdn.microsoft.com/74d2856d-c311-47cd-9ff0-ee10ed66e29e">XMComparisonAllTrue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ff34254-c7d4-4064-868e-2d7ed9351f2d">XMComparisonAnyFalse</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437889(v=VS.85).aspx">XMComparisonAnyFalse</a>
 
 
 
-<a href="https://msdn.microsoft.com/a268f858-00a7-4159-8940-9714cb479535">XMComparisonAnyTrue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437899(v=VS.85).aspx">XMComparisonAnyTrue</a>
 
 
 
-<a href="https://msdn.microsoft.com/72fafc98-a938-479c-9c1a-c2e37ceff9df">XMComparisonMixed</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437908(v=VS.85).aspx">XMComparisonMixed</a>
  
 
  

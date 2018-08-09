@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Used by modeless property sheets to retrieve the information returned to modal property sheets by <a href="https://msdn.microsoft.com/1cef9b14-498e-4dcb-94a5-5faa17e0774e">PropertySheet</a>. You can use this macro or sent the <a href="https://msdn.microsoft.com/e0f609ea-5d7e-4c17-ade1-3c1051c5a5bf">PSM_GETRESULT</a> message explicitly.
+Used by modeless property sheets to retrieve the information returned to modal property sheets by <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a>. You can use this macro or sent the <a href="https://msdn.microsoft.com/en-us/library/Bb774579(v=VS.85).aspx">PSM_GETRESULT</a> message explicitly.
 
 
 ## -parameters
@@ -72,14 +72,14 @@ Handle to the property sheet's dialog box.
 
 To retrieve extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
-The return value is identical to what <a href="https://msdn.microsoft.com/1cef9b14-498e-4dcb-94a5-5faa17e0774e">PropertySheet</a> would have returned had this been a modal property sheet.
+The return value is identical to what <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> would have returned had this been a modal property sheet.
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80.</a> The <a href="https://msdn.microsoft.com/1cef9b14-498e-4dcb-94a5-5faa17e0774e">PropertySheet</a> return value carries different information for modal and modeless property sheets. In some cases, modeless property sheets may need the information they would have received from <b>PropertySheet</b> if they had been modal. In particular, they may need to know whether ID_PSREBOOTSYSTEM or ID_PSRESTARTWINDOWS would have been returned.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80.</a> The <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> return value carries different information for modal and modeless property sheets. In some cases, modeless property sheets may need the information they would have received from <b>PropertySheet</b> if they had been modal. In particular, they may need to know whether ID_PSREBOOTSYSTEM or ID_PSRESTARTWINDOWS would have been returned.
 
-For a modeless property sheet, your message loop should use <a href="https://msdn.microsoft.com/7629c3f8-0b10-4585-8a95-9309c75b3ebb">PSM_ISDIALOGMESSAGE</a> to pass messages to the property sheet dialog box, and <a href="https://msdn.microsoft.com/1f2d0af9-5853-48e7-b827-483be032b6ca">PSM_GETCURRENTPAGEHWND</a> to determine when to destroy the dialog box. When the user clicks the <b>OK</b> or <b>Cancel</b> button, <b>PSM_GETCURRENTPAGEHWND</b> returns <b>NULL</b>. You can then retrieve the value that a modal property sheet would have received from <a href="https://msdn.microsoft.com/1cef9b14-498e-4dcb-94a5-5faa17e0774e">PropertySheet</a> by sending a <a href="https://msdn.microsoft.com/e0f609ea-5d7e-4c17-ade1-3c1051c5a5bf">PSM_GETRESULT</a> message.
+For a modeless property sheet, your message loop should use <a href="https://msdn.microsoft.com/en-us/library/Bb774593(v=VS.85).aspx">PSM_ISDIALOGMESSAGE</a> to pass messages to the property sheet dialog box, and <a href="https://msdn.microsoft.com/en-us/library/Bb774578(v=VS.85).aspx">PSM_GETCURRENTPAGEHWND</a> to determine when to destroy the dialog box. When the user clicks the <b>OK</b> or <b>Cancel</b> button, <b>PSM_GETCURRENTPAGEHWND</b> returns <b>NULL</b>. You can then retrieve the value that a modal property sheet would have received from <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> by sending a <a href="https://msdn.microsoft.com/en-us/library/Bb774579(v=VS.85).aspx">PSM_GETRESULT</a> message.
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 

@@ -162,7 +162,7 @@ When this method is called, the <a href="https://msdn.microsoft.com/6a939fd0-1e0
 
 
 
-<a href="tablet.iinkcollector">IInkCollector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
 
 
 

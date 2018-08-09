@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Moves the image that is being dragged during a drag-and-drop operation. This function is typically called in response to a <a href="https://msdn.microsoft.com/9b99387e-e176-4b20-a05a-bc75928a1367">WM_MOUSEMOVE</a> message. 
+Moves the image that is being dragged during a drag-and-drop operation. This function is typically called in response to a <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> message. 
 
 
 ## -parameters
@@ -87,7 +87,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 
-To begin a drag operation, use the <a href="https://msdn.microsoft.com/5b262b32-5ec2-4f19-8a76-4c318aec7dc7">ImageList_BeginDrag</a> function. 
+To begin a drag operation, use the <a href="https://msdn.microsoft.com/en-us/library/Bb761516(v=VS.85).aspx">ImageList_BeginDrag</a> function. 
 
 
 

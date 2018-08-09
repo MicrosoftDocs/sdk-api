@@ -91,7 +91,7 @@ If the window is not zoomed, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/a2f0ff67-e625-4f42-9d8f-e81f52c597e8">IsIconic</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633527(v=VS.85).aspx">IsIconic</a>
 
 
 

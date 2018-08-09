@@ -81,7 +81,7 @@ Specifies the Natural Query Syntax. This syntax removes the requirement for a co
 
 
 
-Use this enumeration to set the desired SQSO_SYNTAX flag in <a href="https://msdn.microsoft.com/2753f0ad-2648-4ec2-b53f-089caad8ec15">STRUCTURED_QUERY_SINGLE_OPTION</a>, which is used with the methods <a href="https://msdn.microsoft.com/a7c2d4d7-7ccf-4daa-b4d5-cf23ed1e88b4">IQueryParser::SetOption</a> and <a href="https://msdn.microsoft.com/85216ad7-6988-43cd-87b3-49a2ca1173b6">IQueryParser::GetOption</a>.
+Use this enumeration to set the desired SQSO_SYNTAX flag in <a href="https://msdn.microsoft.com/en-us/library/Aa965708(v=VS.85).aspx">STRUCTURED_QUERY_SINGLE_OPTION</a>, which is used with the methods <a href="https://msdn.microsoft.com/en-us/library/Bb231359(v=VS.85).aspx">IQueryParser::SetOption</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb231351(v=VS.85).aspx">IQueryParser::GetOption</a>.
 
 
 

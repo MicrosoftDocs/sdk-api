@@ -151,7 +151,7 @@ Not used.
 
 
 
-<a href="335e8f55-c313-423e-a301-8ef6a38c5b05">Automation Types</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221134(v=VS.85).aspx">Automation Types</a>
 
 
 

@@ -75,7 +75,7 @@ The <b>IConsoleNameSpace</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3324e25-1bfa-4adb-b811-509daff3127c">DeleteItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb970486(v=VS.85).aspx">DeleteItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to delete a single item from the scope pane.
@@ -93,7 +93,7 @@ Enables the snap-in to get the handle to the first child item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72c4cafb-f39b-4e37-b8f0-4f0867ac78f0">GetItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965805(v=VS.85).aspx">GetItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to get the attributes of a single scope pane item.
@@ -129,7 +129,7 @@ Enables the snap-in to insert a single item into the scope pane.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bdcd5630-b29f-484a-a20a-af4328e721a5">SetItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb970346(v=VS.85).aspx">SetItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to set the attributes of a single scope pane item.

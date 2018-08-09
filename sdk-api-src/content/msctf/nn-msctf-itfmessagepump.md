@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>ITfMessagePump</b> interface is implemented by the TSF manager and is used by an application to obtain messages from the application message queue. The methods of this interface are wrappers for the <a href="_win32_getmessage">GetMessage</a> and <a href="_win32_peekmessage">PeekMessage</a> functions. This interface enables the TSF manager to perform any necessary pre-message or post-message processing.
+The <b>ITfMessagePump</b> interface is implemented by the TSF manager and is used by an application to obtain messages from the application message queue. The methods of this interface are wrappers for the <a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> and <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> functions. This interface enables the TSF manager to perform any necessary pre-message or post-message processing.
 
 
 ## -inheritance

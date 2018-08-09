@@ -77,7 +77,7 @@ Indicates whether to use the swap chain in temporary mono mode. <b>TRUE</b> indi
 
 
 
-Temporary mono is a feature where a stereo swap chain can be presented using only the content in the left buffer.  To present using the left buffer as a mono buffer, an application calls the  <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> method with the <a href="dxgi_present.htm">DXGI_PRESENT_STEREO_TEMPORARY_MONO</a> 
+Temporary mono is a feature where a stereo swap chain can be presented using only the content in the left buffer.  To present using the left buffer as a mono buffer, an application calls the  <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> method with the <a href="https://msdn.microsoft.com/en-us/library/Bb509554(v=VS.85).aspx">DXGI_PRESENT_STEREO_TEMPORARY_MONO</a> 
 flag.  All windowed swap chains support temporary mono. However, full-screen swap chains optionally support temporary mono because not all hardware supports temporary mono on full-screen swap chains efficiently.
 
 

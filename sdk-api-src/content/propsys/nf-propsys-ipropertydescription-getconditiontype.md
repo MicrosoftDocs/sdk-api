@@ -68,7 +68,7 @@ A pointer to a value that indicates the condition type.
 
 ### -param popDefault [out]
 
-Type: <b><a href="https://msdn.microsoft.com/d1ec553d-f9fb-4039-9121-0f57bac15345">CONDITION_OPERATION</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>*</b>
 
 When this method returns, contains a pointer to a value that indicates the default condition operation.
 

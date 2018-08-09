@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in a <a href="https://msdn.microsoft.com/40b3df37-d1c1-43fe-afcb-cbac4d9b6564">XMFLOAT3PK</a>.
+Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in a <a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx">XMFLOAT3PK</a>.
 
 
 ## -parameters

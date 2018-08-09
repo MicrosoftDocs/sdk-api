@@ -86,7 +86,7 @@ When reading or writing  XML for a task, a monthly day-of-week trigger is specif
 
 
 
-<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
  
 
  

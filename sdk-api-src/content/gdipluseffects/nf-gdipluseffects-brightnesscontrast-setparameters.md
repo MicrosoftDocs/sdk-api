@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>BrightnessContrast::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/92eaf786-ab9e-46ae-af02-e620b3a35a8a">BrightnessContrast</a> object.
+The <b>BrightnessContrast::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/en-us/library/ms534423(v=VS.85).aspx">BrightnessContrast</a> object.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ The <b>BrightnessContrast::SetParameters</b> method sets the parameters of this 
 
 ### -param parameters [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/b5271911-7759-4e87-af25-7d9a9d9c653e">BrightnessContrastParams</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534058(v=VS.85).aspx">BrightnessContrastParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/b5271911-7759-4e87-af25-7d9a9d9c653e">BrightnessContrastParams</a> structure that specifies the parameters.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534058(v=VS.85).aspx">BrightnessContrastParams</a> structure that specifies the parameters.
 
 
 ## -returns
@@ -87,11 +87,11 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/92eaf786-ab9e-46ae-af02-e620b3a35a8a">BrightnessContrast</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534423(v=VS.85).aspx">BrightnessContrast</a>
 
 
 
-<a href="https://msdn.microsoft.com/992feb3f-027a-45cd-8404-68f3a5a5999d">BrightnessContrast::GetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536277(v=VS.85).aspx">BrightnessContrast::GetParameters</a>
  
 
  

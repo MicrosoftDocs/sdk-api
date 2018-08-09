@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Contains and receives display information for a toolbar item. This structure is used with the <a href="https://msdn.microsoft.com/ed6e4141-2bf8-4a92-8349-f3833c87fcf3">TBN_GETDISPINFO</a> notification code. 
+Contains and receives display information for a toolbar item. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb787268(v=VS.85).aspx">TBN_GETDISPINFO</a> notification code. 
 
 
 ## -struct-fields
@@ -62,10 +62,10 @@ Contains and receives display information for a toolbar item. This structure is 
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field dwMask
@@ -106,7 +106,7 @@ Not currently implemented.
 </dl>
 </td>
 <td width="60%">
-Set this flag when processing <a href="https://msdn.microsoft.com/ed6e4141-2bf8-4a92-8349-f3833c87fcf3">TBN_GETDISPINFO</a>; the toolbar control will retain the supplied information and not request it again.
+Set this flag when processing <a href="https://msdn.microsoft.com/en-us/library/Bb787268(v=VS.85).aspx">TBN_GETDISPINFO</a>; the toolbar control will retain the supplied information and not request it again.
 
 </td>
 </tr>

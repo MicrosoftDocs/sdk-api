@@ -71,7 +71,7 @@ The <b>IStemmerConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7907af0e-dab1-43fc-a279-a0b7bbc973d1">SetLocaleInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670064(v=VS.85).aspx">SetLocaleInfo</a>
 </td>
 <td align="left" width="63%">
 Sets locale information for the stemmer.

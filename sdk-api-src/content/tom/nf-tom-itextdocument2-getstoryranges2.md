@@ -81,7 +81,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-Call this method only if the <a href="https://msdn.microsoft.com/6a9d865c-8710-4e67-bf1a-10d09f81488c">ITextDocument::GetStoryCount</a> method returns a value that is greater than one.
+Call this method only if the <a href="https://msdn.microsoft.com/en-us/library/Bb774027(v=VS.85).aspx">ITextDocument::GetStoryCount</a> method returns a value that is greater than one.
 
 
 

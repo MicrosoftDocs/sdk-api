@@ -83,7 +83,7 @@ Not implemented.
 
 
 
-A filter, also known as a filter handler, is an implementation of the <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a> interface.
+A filter, also known as a filter handler, is an implementation of the <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a> interface.
 
 <b>FILTERED_DATA_SOURCES</b> can hold one file content identifier of each type. CLSIDs are always searched first, followed by the  file name extension, then MIME type, and finally the path. 
 
@@ -99,11 +99,11 @@ A filter, also known as a filter handler, is an implementation of the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/7b24986b-972d-4674-846b-f856b908edf4">Developing Filter Handlers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd940430(v=VS.85).aspx">Developing Filter Handlers</a>
 
 
 
-<a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>
 
 
 

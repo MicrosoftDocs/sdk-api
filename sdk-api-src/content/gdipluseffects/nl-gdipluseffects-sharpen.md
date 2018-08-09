@@ -51,5 +51,5 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>Sharpen</b> class enables you to adjust the sharpness of a bitmap. Pass the address of a <b>Sharpen</b> object to the <a href="https://msdn.microsoft.com/cb85a7ac-5af0-45c7-8035-d7bc2827af6a">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/6b3d0a2f-acff-47a7-bc9f-6e9d659f683c">Bitmap::ApplyEffect</a> method. To specify the nature of the sharpening adjustment, pass the address of a <a href="https://msdn.microsoft.com/9a3dd5ec-789b-4191-a680-6d85c12ab97b">SharpenParams</a> structure to the <a href="https://msdn.microsoft.com/279fee59-6fcf-4a9d-b16e-e6de6b5977c1">Sharpen::SetParameters</a> method of a <b>Sharpen</b> object.
+The <b>Sharpen</b> class enables you to adjust the sharpness of a bitmap. Pass the address of a <b>Sharpen</b> object to the <a href="https://msdn.microsoft.com/en-us/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/en-us/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method. To specify the nature of the sharpening adjustment, pass the address of a <a href="https://msdn.microsoft.com/en-us/library/ms534073(v=VS.85).aspx">SharpenParams</a> structure to the <a href="https://msdn.microsoft.com/en-us/library/ms534758(v=VS.85).aspx">Sharpen::SetParameters</a> method of a <b>Sharpen</b> object.
 

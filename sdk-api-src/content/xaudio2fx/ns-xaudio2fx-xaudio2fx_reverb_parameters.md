@@ -376,7 +376,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/7A5217AE-D7D6-4D92-A14E-DA36854F4D3E">IXAudio2Voice::SetEffectParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418595(v=VS.85).aspx">IXAudio2Voice::SetEffectParameters</a>
 
 
 
@@ -388,7 +388,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/9f82d25d-be20-49dc-b49e-cb8abe64f1cf">XAudio2CreateReverb</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419213(v=VS.85).aspx">XAudio2CreateReverb</a>
  
 
  

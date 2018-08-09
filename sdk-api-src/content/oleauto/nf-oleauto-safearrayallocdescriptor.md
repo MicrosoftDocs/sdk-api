@@ -125,7 +125,7 @@ The array could not be locked.
 
 
 
-This function allows the creation of safe arrays that contain elements with data types other than those provided by <a href="5B94F1A2-A558-473F-85DD-9545C0464CC7">SafeArrayCreate</a>. After creating an array descriptor using <b>SafeArrayAllocDescriptor</b>, set the element size in the array descriptor, an call <a href="A1F984CD-9638-415D-8582-25B1BDFBD694">SafeArrayAllocData</a> to allocate memory for the array elements.
+This function allows the creation of safe arrays that contain elements with data types other than those provided by <a href="https://msdn.microsoft.com/en-us/library/ms221234(v=VS.85).aspx">SafeArrayCreate</a>. After creating an array descriptor using <b>SafeArrayAllocDescriptor</b>, set the element size in the array descriptor, an call <a href="https://msdn.microsoft.com/en-us/library/ms221468(v=VS.85).aspx">SafeArrayAllocData</a> to allocate memory for the array elements.
 
 
 #### Examples

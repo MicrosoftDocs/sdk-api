@@ -113,7 +113,7 @@ This helper function works for <a href="https://msdn.microsoft.com/library/windo
 </ul>
 Additional types may be supported in the future.
 
-This function extracts a single value from the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure and uses that value to initialize the output <b>VARIANT</b> structure. The calling application must use <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> to free the <b>VARIANT</b> referred to by <i>pvar</i> when it is no longer needed.
+This function extracts a single value from the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure and uses that value to initialize the output <b>VARIANT</b> structure. The calling application must use <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a> to free the <b>VARIANT</b> referred to by <i>pvar</i> when it is no longer needed.
 
 If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> is an array, <i>iElem</i> must be less than the number of elements in the array.
 

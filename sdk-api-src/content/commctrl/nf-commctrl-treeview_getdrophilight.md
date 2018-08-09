@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the tree-view item that is the target of a drag-and-drop operation. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/505c713c-7728-4119-bc0e-482fe7e73193">TVM_GETNEXTITEM</a> message with the TVGN_DROPHILITE flag. 
+Retrieves the tree-view item that is the target of a drag-and-drop operation. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/en-us/library/Bb773622(v=VS.85).aspx">TVM_GETNEXTITEM</a> message with the TVGN_DROPHILITE flag. 
 
 
 ## -parameters

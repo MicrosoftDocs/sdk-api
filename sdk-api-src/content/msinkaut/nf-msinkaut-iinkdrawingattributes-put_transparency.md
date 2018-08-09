@@ -93,7 +93,7 @@ This property is read/write.
 
 
 
-<a href="tablet.iinkdrawingattributes">IInkDrawingAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
 
 
 

@@ -94,7 +94,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
 
 
 
@@ -102,23 +102,23 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/9b0236b2-be6b-4918-a106-5b0e6c3dd5ff">Creating a Linear Gradient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533914(v=VS.85).aspx">Creating a Linear Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/7aa94b39-bd4c-4e66-b0dc-77f8953797b1">Filling a Shape with a Color Gradient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533856(v=VS.85).aspx">Filling a Shape with a Color Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/0849880c-3a52-4614-bc32-cc120ff5a90f">LinearGradientBrush::GetLinearColors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535334(v=VS.85).aspx">LinearGradientBrush::GetLinearColors</a>
 
 
 
-<a href="https://msdn.microsoft.com/3fbdebd7-e988-4e2e-8bfe-dbac9a34fff7">LinearGradientBrush::SetInterpolationColors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535346(v=VS.85).aspx">LinearGradientBrush::SetInterpolationColors</a>
 
 
 

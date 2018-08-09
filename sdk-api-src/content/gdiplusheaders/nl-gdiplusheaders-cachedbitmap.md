@@ -51,6 +51,6 @@ req.product: GDI+ 1.0
 ## -description
 
 
-A <a href="https://msdn.microsoft.com/c1791cad-522a-4a66-b27f-bc989cf5f11b">CachedBitmap</a> object stores a bitmap in a format that is optimized for display on a particular device. To display a cached bitmap, call the 
+A <a href="https://msdn.microsoft.com/en-us/library/ms536270(v=VS.85).aspx">CachedBitmap</a> object stores a bitmap in a format that is optimized for display on a particular device. To display a cached bitmap, call the 
 			<b>Graphics::DrawCachedBitmap</b> method.
 

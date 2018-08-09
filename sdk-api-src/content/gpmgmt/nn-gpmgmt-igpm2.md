@@ -55,7 +55,7 @@ The
 <b>IGPM2</b> interface extends the <a href="https://msdn.microsoft.com/2d44cf6d-a3fa-43db-b28e-3d48f6d13625">GPMBackupDir</a> and <a href="https://msdn.microsoft.com/6e9f6ac5-d6d7-4360-b722-0b22e2391d20">InitializeReporting</a> methods of the <a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM</a> interface of the Group Policy Management Console (GPMC).
 
 The <b>GPM</b> object is the only object used with 
-the <a href="_com_cocreateinstance">CoCreateInstance</a> function.
+the <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function.
 
 
 ## -inheritance

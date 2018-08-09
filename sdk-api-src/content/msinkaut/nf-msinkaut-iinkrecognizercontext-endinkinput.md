@@ -147,7 +147,7 @@ Incremental recognition is the ability of the recognizer to process only a small
 
 
 
-<a href="tablet.iinkrecognizercontext">IInkRecognizerContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846801(v=VS.85).aspx">IInkRecognizerContext</a>
 
 
 

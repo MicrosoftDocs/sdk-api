@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Contains information specific to an edit operation that has taken place in a date and time picker (DTP) control. This message is used with the <a href="https://msdn.microsoft.com/a5b13582-323b-4804-912c-a988d902547d">DTN_USERSTRING</a> notification code. 
+Contains information specific to an edit operation that has taken place in a date and time picker (DTP) control. This message is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb761745(v=VS.85).aspx">DTN_USERSTRING</a> notification code. 
 
 
 ## -struct-fields
@@ -62,9 +62,9 @@ Contains information specific to an edit operation that has taken place in a dat
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about this notification code. 
+An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification code. 
 
 
 ### -field pszUserString
@@ -78,7 +78,7 @@ The address of the zero-terminated string that the user entered.
 
 Type: <b><a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a></b>
 
-A <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure that must be filled in by the owner when handling the <a href="https://msdn.microsoft.com/a5b13582-323b-4804-912c-a988d902547d">DTN_USERSTRING</a> notification code. 
+A <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure that must be filled in by the owner when handling the <a href="https://msdn.microsoft.com/en-us/library/Bb761745(v=VS.85).aspx">DTN_USERSTRING</a> notification code. 
 
 
 ### -field dwFlags

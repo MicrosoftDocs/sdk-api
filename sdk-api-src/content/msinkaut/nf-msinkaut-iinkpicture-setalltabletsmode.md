@@ -164,7 +164,7 @@ When an ink collector switches from ink collection using a single tablet to ink 
 
 
 
-<a href="tablet.iinkpicture">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
 
 
 

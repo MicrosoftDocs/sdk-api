@@ -65,9 +65,9 @@ This property is read-only.
 
 
 Note that it is possible for multiple fax ports to have the same user-friendly 
-name. Use the <a href="https://msdn.microsoft.com/f7720dda-3635-4a23-9dc4-09cac4b6aa17">DeviceId</a> property to uniquely identify a fax port.
+name. Use the <a href="https://msdn.microsoft.com/en-us/library/ms692379(v=VS.85).aspx">DeviceId</a> property to uniquely identify a fax port.
 
-<b>Name</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/a8371d98-8a66-484a-9179-4894ae0a7dfc">Freeing Fax Resources</a>.
+<b>Name</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
 
 
@@ -77,27 +77,27 @@ name. Use the <a href="https://msdn.microsoft.com/f7720dda-3635-4a23-9dc4-09cac4
 
 
 
-<a href="https://msdn.microsoft.com/f7720dda-3635-4a23-9dc4-09cac4b6aa17">DeviceId</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692379(v=VS.85).aspx">DeviceId</a>
 
 
 
-<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/7888d042-7d85-4921-b233-f6e95e0c80d9">FaxPort</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690315(v=VS.85).aspx">FaxPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/abdd91dd-7734-411a-9b7c-0da312269e6d">IFaxPort</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691281(v=VS.85).aspx">IFaxPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/e61b13b3-d86c-4f95-bf5a-6b0545a76d03">IFaxPorts</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690893(v=VS.85).aspx">IFaxPorts</a>
  
 
  

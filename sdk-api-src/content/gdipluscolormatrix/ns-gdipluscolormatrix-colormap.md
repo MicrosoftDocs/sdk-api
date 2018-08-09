@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>ColorMap</b> structure contains two <a href="https://msdn.microsoft.com/library/windows/hardware/mt297756">Color</a> objects. Several methods of the <a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a> class adjust image colors by using a color remap table, which is an array of <b>ColorMap</b> structures.
+The <b>ColorMap</b> structure contains two <a href="https://msdn.microsoft.com/library/windows/hardware/mt297756">Color</a> objects. Several methods of the <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> class adjust image colors by using a color remap table, which is an array of <b>ColorMap</b> structures.
 
 
 ## -struct-fields
@@ -82,11 +82,11 @@ The new color.
 
 
 
-<a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b56ccd5-b9f3-4c5e-8a0b-4b3d1f2b7122">Using a Color Remap Table</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533877(v=VS.85).aspx">Using a Color Remap Table</a>
  
 
  

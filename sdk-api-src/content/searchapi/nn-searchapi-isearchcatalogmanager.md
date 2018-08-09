@@ -71,7 +71,7 @@ The <b>ISearchCatalogManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1263b88f-6e58-4107-b9a5-dca55551670f">EnumerateExcludedExtensions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231489(v=VS.85).aspx">EnumerateExcludedExtensions</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -80,7 +80,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86bcb5c9-813f-462a-a859-dd47127dff10">get_ConnectTimeout</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231497(v=VS.85).aspx">get_ConnectTimeout</a>
 </td>
 <td align="left" width="63%">
 Gets the connection time-out value for connecting to a store for indexing.
@@ -89,16 +89,16 @@ Gets the connection time-out value for connecting to a store for indexing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/81f02e23-3f7c-4989-a39e-d5c6883e9493">get_DataTimeout</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231498(v=VS.85).aspx">get_DataTimeout</a>
 </td>
 <td align="left" width="63%">
-Gets the data time-out value, in seconds, for data transactions between the indexer and the search  filter host. This value is contained in a <a href="https://msdn.microsoft.com/f6032470-abfd-4808-921c-7fa687ed640f">TIMEOUT_INFO</a> structure. 
+Gets the data time-out value, in seconds, for data transactions between the indexer and the search  filter host. This value is contained in a <a href="https://msdn.microsoft.com/en-us/library/Aa965374(v=VS.85).aspx">TIMEOUT_INFO</a> structure. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed11b5ba-c939-4efc-87c1-358796397f09">get_DiacriticSensitivity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231499(v=VS.85).aspx">get_DiacriticSensitivity</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates whether the catalog is sensitive to diacritics. A diacritic is a mark added to a letter to indicate a special phonetic value or pronunciation.
@@ -107,7 +107,7 @@ Gets a value that indicates whether the catalog is sensitive to diacritics. A di
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/440e3bdf-7cfd-4e6f-8274-159300d27501">get_Name</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231500(v=VS.85).aspx">get_Name</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the current catalog.
@@ -116,7 +116,7 @@ Gets the name of the current catalog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/22cd866e-8af7-428a-8036-43f5ac9ad099">GetCatalogStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231490(v=VS.85).aspx">GetCatalogStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the status of the catalog.
@@ -125,17 +125,17 @@ Gets the status of the catalog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/420204ca-10c4-4f37-933c-eb3f24d2bd76">GetCrawlScopeManager</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231491(v=VS.85).aspx">GetCrawlScopeManager</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/8b731941-f1f6-402e-8cee-3c493e3c369d">ISearchCrawlScopeManager</a> interface for this search catalog.
+Gets an <a href="https://msdn.microsoft.com/en-us/library/Bb266492(v=VS.85).aspx">ISearchCrawlScopeManager</a> interface for this search catalog.
       
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f1637859-369a-4d67-984d-09babbf0be98">GetItemsChangedSink</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231492(v=VS.85).aspx">GetItemsChangedSink</a>
 </td>
 <td align="left" width="63%">
 Gets the change notification sink interface.
@@ -144,7 +144,7 @@ Gets the change notification sink interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a877a2b0-49aa-4df4-8e4e-16736a6b3804">GetParameter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231493(v=VS.85).aspx">GetParameter</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -153,7 +153,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5e673c9c-8e50-4b4e-8bdf-4b1e785e0fc5">GetPersistentItemsChangedSink</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231494(v=VS.85).aspx">GetPersistentItemsChangedSink</a>
 </td>
 <td align="left" width="63%">
 Gets the change notification event sink interface for a client. This method is used by client applications and protocol handlers to notify the indexer of changes.
@@ -162,17 +162,17 @@ Gets the change notification event sink interface for a client. This method is u
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/82894b06-57d4-404b-9527-f62efb346e77">GetQueryHelper</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231495(v=VS.85).aspx">GetQueryHelper</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a> interface for the current catalog.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a> interface for the current catalog.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b0f4a0b9-6688-4a36-8867-e66498a113ab">GetURLIndexingState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231496(v=VS.85).aspx">GetURLIndexingState</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -181,7 +181,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/721de587-ab21-467b-a97b-e0d80ba9ccaa">NumberOfItems</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266415(v=VS.85).aspx">NumberOfItems</a>
 </td>
 <td align="left" width="63%">
 Gets the number of items in the catalog.
@@ -191,7 +191,7 @@ Gets the number of items in the catalog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bc82c814-865a-47fe-8541-d79eeee0b8df">NumberOfItemsToIndex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266416(v=VS.85).aspx">NumberOfItemsToIndex</a>
 </td>
 <td align="left" width="63%">
 Gets the number of items to be indexed within the catalog.
@@ -201,25 +201,25 @@ Gets the number of items to be indexed within the catalog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98805e77-4d9a-4857-bd58-9559c729b432">put_ConnectTimeout</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266417(v=VS.85).aspx">put_ConnectTimeout</a>
 </td>
 <td align="left" width="63%">
-Sets the connection time-out value in the <a href="https://msdn.microsoft.com/f6032470-abfd-4808-921c-7fa687ed640f">TIMEOUT_INFO</a> structure, in seconds.
+Sets the connection time-out value in the <a href="https://msdn.microsoft.com/en-us/library/Aa965374(v=VS.85).aspx">TIMEOUT_INFO</a> structure, in seconds.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7cb970e3-c939-47e7-a713-f1b6f084460f">put_DataTimeout</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266418(v=VS.85).aspx">put_DataTimeout</a>
 </td>
 <td align="left" width="63%">
-Sets the time-out value for data transactions between the indexer and the search filter host. This information is stored in the <a href="https://msdn.microsoft.com/f6032470-abfd-4808-921c-7fa687ed640f">TIMEOUT_INFO</a> structure and is measured in seconds.
+Sets the time-out value for data transactions between the indexer and the search filter host. This information is stored in the <a href="https://msdn.microsoft.com/en-us/library/Aa965374(v=VS.85).aspx">TIMEOUT_INFO</a> structure and is measured in seconds.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c680ec4c-c850-4486-b317-80c82584ee95">put_DiacriticSensitivity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266419(v=VS.85).aspx">put_DiacriticSensitivity</a>
 </td>
 <td align="left" width="63%">
 Sets a value that determines whether the catalog is sensitive to diacritics. A diacritic is a mark added to a letter to indicate a special phonetic value or pronunciation.
@@ -228,7 +228,7 @@ Sets a value that determines whether the catalog is sensitive to diacritics. A d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/608a35f7-3c5c-4e1d-b7fc-7c1ab5327af1">RegisterViewForNotification</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266420(v=VS.85).aspx">RegisterViewForNotification</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -237,7 +237,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8d7fa3d1-2cda-4ec5-ae20-fe5f7b8c0c82">Reindex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266421(v=VS.85).aspx">Reindex</a>
 </td>
 <td align="left" width="63%">
 Re-indexes all URLs in the catalog.
@@ -247,7 +247,7 @@ Re-indexes all URLs in the catalog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3b16496e-ae03-4ea9-ac9e-307b087b864e">ReindexMatchingURLs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266422(v=VS.85).aspx">ReindexMatchingURLs</a>
 </td>
 <td align="left" width="63%">
 Reindexes all items that match the provided pattern. This method was not implemented prior to Windows 7.
@@ -257,7 +257,7 @@ Reindexes all items that match the provided pattern. This method was not impleme
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed2bc32a-e5a0-471f-ba49-fcc70d991690">ReindexSearchRoot</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266423(v=VS.85).aspx">ReindexSearchRoot</a>
 </td>
 <td align="left" width="63%">
 Re-indexes all URLs from a specified root.
@@ -275,7 +275,7 @@ Resets the underlying catalog by rebuilding the databases and performing a full 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eba632e4-cbba-457a-ab89-cb4316507c39">SetExtensionClusion</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266425(v=VS.85).aspx">SetExtensionClusion</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -284,7 +284,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5cefa86a-b6cb-4f0b-a2f9-1647f2696706">SetParameter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266426(v=VS.85).aspx">SetParameter</a>
 </td>
 <td align="left" width="63%">
 Sets a name/value parameter for the catalog.
@@ -294,7 +294,7 @@ Sets a name/value parameter for the catalog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f9d3c86c-e36e-4127-8b2f-1bdfe9057f41">UnregisterViewForNotification</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266427(v=VS.85).aspx">UnregisterViewForNotification</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -303,7 +303,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3ecd6168-92da-46b5-9c61-86ed99950413">URLBeingIndexed</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266428(v=VS.85).aspx">URLBeingIndexed</a>
 </td>
 <td align="left" width="63%">
 Gets the URL that is currently being indexed. If no indexing is currently in process, <i>pszUrl</i> is set to <b>NULL</b>.
@@ -319,7 +319,7 @@ Gets the URL that is currently being indexed. If no indexing is currently in pro
 
 
 
-<a href="https://msdn.microsoft.com/cfba12eb-4123-4b57-8311-d4fc8f9f514e">The Indexing Process</a>
+<a href="https://msdn.microsoft.com/en-us/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
  
 
  

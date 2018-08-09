@@ -51,7 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Contains information about a window that denied a request from <a href="https://msdn.microsoft.com/bfc9f836-7960-4249-98c9-1c73b7641f77">BroadcastSystemMessageEx</a>. 
+Contains information about a window that denied a request from <a href="https://msdn.microsoft.com/en-us/library/ms644933(v=VS.85).aspx">BroadcastSystemMessageEx</a>. 
 
 
 ## -struct-fields
@@ -71,14 +71,14 @@ The size, in bytes, of this structure.
 Type: <b>HDESK</b>
 
 A desktop handle to the window specified by 
-					<b>hwnd</b>. This value is returned only if <a href="https://msdn.microsoft.com/bfc9f836-7960-4249-98c9-1c73b7641f77">BroadcastSystemMessageEx</a> specifies <b>BSF_RETURNHDESK</b> and <b>BSF_QUERY</b>. 
+					<b>hwnd</b>. This value is returned only if <a href="https://msdn.microsoft.com/en-us/library/ms644933(v=VS.85).aspx">BroadcastSystemMessageEx</a> specifies <b>BSF_RETURNHDESK</b> and <b>BSF_QUERY</b>. 
 
 
 ### -field hwnd
 
 Type: <b>HWND</b>
 
-A handle to the window that denied the request. This value is returned if <a href="https://msdn.microsoft.com/bfc9f836-7960-4249-98c9-1c73b7641f77">BroadcastSystemMessageEx</a> specifies <b>BSF_QUERY</b>. 
+A handle to the window that denied the request. This value is returned if <a href="https://msdn.microsoft.com/en-us/library/ms644933(v=VS.85).aspx">BroadcastSystemMessageEx</a> specifies <b>BSF_QUERY</b>. 
 
 
 ### -field luid
@@ -93,7 +93,7 @@ A locally unique identifier (LUID) for the window.
 
 
 
-<a href="https://msdn.microsoft.com/bfc9f836-7960-4249-98c9-1c73b7641f77">BroadcastSystemMessageEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644933(v=VS.85).aspx">BroadcastSystemMessageEx</a>
 
 
 
@@ -101,7 +101,7 @@ A locally unique identifier (LUID) for the window.
 
 
 
-<a href="https://msdn.microsoft.com/885bb607-3ec0-4e24-9f55-fbdfb1c538a1">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
 
 
 

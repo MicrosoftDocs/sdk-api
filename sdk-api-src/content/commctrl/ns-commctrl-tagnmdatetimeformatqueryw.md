@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Contains information about a date and time picker (DTP) control callback field. It contains a substring (taken from the control's format string) that defines a callback field. The structure receives the maximum allowable size of the text that will be displayed in the callback field. This structure is used with the <a href="https://msdn.microsoft.com/0f00086a-0ab8-4f6f-9c3e-6e77008aa088">DTN_FORMATQUERY</a> notification code. 
+Contains information about a date and time picker (DTP) control callback field. It contains a substring (taken from the control's format string) that defines a callback field. The structure receives the maximum allowable size of the text that will be displayed in the callback field. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb761743(v=VS.85).aspx">DTN_FORMATQUERY</a> notification code. 
 
 
 ## -struct-fields
@@ -62,9 +62,9 @@ Contains information about a date and time picker (DTP) control callback field. 
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about this notification code. 
+An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification code. 
 
 
 ### -field pszFormat

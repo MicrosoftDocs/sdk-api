@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets a date and time picker (DTP) control to a given date and time. You can use this macro or send the <a href="https://msdn.microsoft.com/aab023ac-22ef-485b-be2f-2aa76dfcf57f">DTM_SETSYSTEMTIME</a> message explicitly. 
+Sets a date and time picker (DTP) control to a given date and time. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761782(v=VS.85).aspx">DTM_SETSYSTEMTIME</a> message explicitly. 
 
 
 ## -parameters

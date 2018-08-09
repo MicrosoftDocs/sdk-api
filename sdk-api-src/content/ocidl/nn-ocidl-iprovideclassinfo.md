@@ -56,7 +56,7 @@ Provides access to the type information for an object's coclass entry in its typ
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProvideClassInfo</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IProvideClassInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProvideClassInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IProvideClassInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IProvideClassInfo</b> interface has these methods.
 <a href="https://msdn.microsoft.com/9dac095d-4657-47ea-a673-4d8a96fc29bb">GetClassInfo</a>
 </td>
 <td align="left" width="63%">
-Retrieves a pointer to the <a href="f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a> interface for the object's type information.
+Retrieves a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms221696(v=VS.85).aspx">ITypeInfo</a> interface for the object's type information.
 
 </td>
 </tr>

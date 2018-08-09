@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the amount of time that the mouse cursor must hover over an item before it is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/454fbc38-f7fd-4dea-b223-56003b88528f">LVM_SETHOVERTIME</a> message explicitly. 
+Sets the amount of time that the mouse cursor must hover over an item before it is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761174(v=VS.85).aspx">LVM_SETHOVERTIME</a> message explicitly. 
 
 
 ## -parameters

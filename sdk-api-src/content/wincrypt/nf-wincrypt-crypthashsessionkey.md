@@ -242,7 +242,7 @@ The function failed in some unexpected way.
 
 
 
-<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
  
 
  

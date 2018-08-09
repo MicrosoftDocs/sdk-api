@@ -84,11 +84,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/b333bf7d-b212-43fd-8f86-d7bf73b6a3f4">Color::GetValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536253(v=VS.85).aspx">Color::GetValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/41befc00-c256-4f56-90c3-8fd5aa18bb49">Color::MakeARGB</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536254(v=VS.85).aspx">Color::MakeARGB</a>
  
 
  

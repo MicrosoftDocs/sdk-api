@@ -64,7 +64,7 @@ The
 
  The <b>BSTR</b> representation of the terminal's 
 <a href="https://msdn.microsoft.com/2a16d33c-2d87-4172-a5ff-33ff62e96615">terminal class</a>. The <b>BSTR</b> is allocated using 
-<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a>. It should be deallocated by the client.
+<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a>. It should be deallocated by the client.
 
 
 ## -returns

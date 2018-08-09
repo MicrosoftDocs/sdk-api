@@ -133,12 +133,12 @@ The button is not checked.
 
 
 
-The <b>IsDlgButtonChecked</b> function sends a <a href="https://msdn.microsoft.com/a25b2c8d-0b32-4807-bfb4-e277675924f1">BM_GETCHECK</a> message to the specified button control. 
+The <b>IsDlgButtonChecked</b> function sends a <a href="https://msdn.microsoft.com/en-us/library/Bb775986(v=VS.85).aspx">BM_GETCHECK</a> message to the specified button control. 
 
 
 #### Examples
 
-For an example, see the section titled "Creating a Modeless Dialog Box" in <a href="https://msdn.microsoft.com/8a5b6bdd-4429-4f48-b846-6bd617a87abf">Using Dialog Boxes</a>.
+For an example, see the section titled "Creating a Modeless Dialog Box" in <a href="https://msdn.microsoft.com/en-us/library/ms644996(v=VS.85).aspx">Using Dialog Boxes</a>.
 
 <div class="code"></div>
 
@@ -149,7 +149,7 @@ For an example, see the section titled "Creating a Modeless Dialog Box" in <a hr
 
 
 
-<a href="https://msdn.microsoft.com/bda42841-cc26-44c7-9295-3b3bc818d269">CheckDlgButton</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761875(v=VS.85).aspx">CheckDlgButton</a>
  
 
  

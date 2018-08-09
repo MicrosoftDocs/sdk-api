@@ -71,9 +71,9 @@ The <b>GetGroups</b> method retrieves the collection of outbound routing groups.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/799a034c-c807-428c-8536-bc68dce5cd8e">FaxOutboundRoutingGroups</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a>**</b>
 
-A <a href="https://msdn.microsoft.com/799a034c-c807-428c-8536-bc68dce5cd8e">FaxOutboundRoutingGroups</a> object.
+A <a href="https://msdn.microsoft.com/en-us/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a> object.
 
 
 
@@ -82,7 +82,7 @@ A <a href="https://msdn.microsoft.com/799a034c-c807-428c-8536-bc68dce5cd8e">FaxO
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -92,15 +92,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/70d
 
 
 
-<a href="https://msdn.microsoft.com/64ff05d6-6ebe-4155-96cd-7b925c979492">FaxOutboundRouting</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690136(v=VS.85).aspx">FaxOutboundRouting</a>
 
 
 
-<a href="https://msdn.microsoft.com/47e35e11-b288-47c6-bfed-3af7716e7d6b">IFaxOutboundRouting</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690138(v=VS.85).aspx">IFaxOutboundRouting</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a05df3b-c56b-4dfc-a0ee-7f1c2861e9ae">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

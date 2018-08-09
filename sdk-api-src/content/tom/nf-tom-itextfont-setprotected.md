@@ -157,7 +157,7 @@ Insufficient memory.
 
 
 
-In general, Text Object Model (TOM) methods that attempt to change the formatting or content of a range will fail with <b>E_ACCESSDENIED</b> if any part of that range is protected or if the document is read-only. To make a change in protected text, the TOM client should attempt to turn off the protection of the text to be modified. The owner of the document may permit this to happen. For example in rich edit controls, attempts to change protected text result in an <a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a> notification code to the creator of the document, who then can refuse or grant permission for the change. The creator is the client that created a windowed rich-edit control through the <a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a> function or the <a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a> object that called the <a href="https://msdn.microsoft.com/475ede7d-75ba-4eda-8253-1166fc9f45fe">CreateTextServices</a> function to create a windowless rich edit control.
+In general, Text Object Model (TOM) methods that attempt to change the formatting or content of a range will fail with <b>E_ACCESSDENIED</b> if any part of that range is protected or if the document is read-only. To make a change in protected text, the TOM client should attempt to turn off the protection of the text to be modified. The owner of the document may permit this to happen. For example in rich edit controls, attempts to change protected text result in an <a href="https://msdn.microsoft.com/en-us/library/Bb787981(v=VS.85).aspx">EN_PROTECTED</a> notification code to the creator of the document, who then can refuse or grant permission for the change. The creator is the client that created a windowed rich-edit control through the <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a> function or the <a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a> object that called the <a href="https://msdn.microsoft.com/en-us/library/Bb787722(v=VS.85).aspx">CreateTextServices</a> function to create a windowless rich edit control.
 
 
 
@@ -171,23 +171,23 @@ In general, Text Object Model (TOM) methods that attempt to change the formattin
 
 
 
-<a href="https://msdn.microsoft.com/475ede7d-75ba-4eda-8253-1166fc9f45fe">CreateTextServices</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787722(v=VS.85).aspx">CreateTextServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787981(v=VS.85).aspx">EN_PROTECTED</a>
 
 
 
-<a href="https://msdn.microsoft.com/c0696172-e6c2-4b26-9bb3-e58d31100e5b">GetProtected</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774007(v=VS.85).aspx">GetProtected</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
 
 
 
@@ -199,7 +199,7 @@ In general, Text Object Model (TOM) methods that attempt to change the formattin
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

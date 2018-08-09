@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the number of tabs in the tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/a8ec7d66-fe44-45ca-8f6c-4e75752ebe95">TCM_GETITEMCOUNT</a> message explicitly. 
+Retrieves the number of tabs in the tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760592(v=VS.85).aspx">TCM_GETITEMCOUNT</a> message explicitly. 
 
 
 ## -parameters

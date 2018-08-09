@@ -93,7 +93,7 @@ The margin is effective only within the application's window. If the pen is appl
 
 
 
-<a href="tablet.iinkoverlay">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
 
 
 

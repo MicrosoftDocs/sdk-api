@@ -53,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 Sets the range of a scroll bar.
         
-<div class="alert"><b>Note</b>  This macro expands to a call to the <a href="https://msdn.microsoft.com/749c3b04-d5a6-4f7c-89a3-a1c0fbb85cb9">SetScrollRange</a> function, which is deprecated. New applications should use the <a href="https://msdn.microsoft.com/a45af17c-df18-4156-be8b-868fc4cb0696">SetScrollInfo</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This macro expands to a call to the <a href="https://msdn.microsoft.com/en-us/library/Bb787599(v=VS.85).aspx">SetScrollRange</a> function, which is deprecated. New applications should use the <a href="https://msdn.microsoft.com/en-us/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -92,7 +92,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/749c3b04-d5a6-4f7c-89a3-a1c0fbb85cb9">SetScrollRange</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb787599(v=VS.85).aspx">SetScrollRange</a>.
 
 
 

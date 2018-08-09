@@ -82,7 +82,7 @@ Closes a database.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8191ab96-0303-4972-ae9b-8f2f8a23ac1a">CreateObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670032(v=VS.85).aspx">CreateObject</a>
 </td>
 <td align="left" width="63%">
 Creates an unnamed object you can reference in the future through the *<i>pdwObjInstance</i> parameter.
@@ -93,7 +93,7 @@ Creates an unnamed object you can reference in the future through the *<i>pdwObj
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f83a48da-8f11-4af3-9de8-a2eabd1432ec">GetObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670033(v=VS.85).aspx">GetObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>-based interface on the object identified by the <i>dwObjInstance</i> parameter.

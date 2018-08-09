@@ -89,7 +89,7 @@ Gets value and state data for a property key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyStoreCache_SetState">SetState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375990(v=VS.85).aspx">SetState</a>
 </td>
 <td align="left" width="63%">
 Sets the property state of a specified property key.

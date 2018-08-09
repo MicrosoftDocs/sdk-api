@@ -83,7 +83,7 @@ Returns S_OK if successful; otherwise, returns one of the following values:
 
 <ul>
 <li>E_NOINTERFACE if the object does not implement the GUID that the <i>riid</i> parameter specifies.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
 </ul>
 
 
@@ -94,7 +94,7 @@ Returns S_OK if successful; otherwise, returns one of the following values:
 
 For subresource surface objects that the <a href="https://msdn.microsoft.com/99730AB1-C5D9-41D6-8001-495FF26E8232">IDXGIResource1::CreateSubresourceSurface</a> method creates, <b>GetResource</b> simply returns the values that were used to create the subresource surface.
 
-Current objects that implement <a href="https://msdn.microsoft.com/9210b966-9e9a-4cd1-ba70-6f1a9fda9d80">IDXGISurface</a> are either resources or views.  <b>GetResource</b> for these objects returns “this” or the resource that supports the view respectively.  In this situation, the subresource index is 0.
+Current objects that implement <a href="https://msdn.microsoft.com/en-us/library/Bb174565(v=VS.85).aspx">IDXGISurface</a> are either resources or views.  <b>GetResource</b> for these objects returns “this” or the resource that supports the view respectively.  In this situation, the subresource index is 0.
 
 
 

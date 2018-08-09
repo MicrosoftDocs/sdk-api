@@ -85,7 +85,7 @@ Setting the <b>LineHeight</b> property after strokes have been assigned to the <
 
 
 
-<a href="tablet.iinkdivider">IInkDivider</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847144(v=VS.85).aspx">IInkDivider</a>
 
 
 

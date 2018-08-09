@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the amount of space (padding) around each tab's icon and label in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/c7f84c0d-8bf4-429a-b403-a0019575e72e">TCM_SETPADDING</a> message explicitly. 
+Sets the amount of space (padding) around each tab's icon and label in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760639(v=VS.85).aspx">TCM_SETPADDING</a> message explicitly. 
 
 
 ## -parameters

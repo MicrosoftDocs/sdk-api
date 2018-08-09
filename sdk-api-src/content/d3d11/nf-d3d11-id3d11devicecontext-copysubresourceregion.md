@@ -130,7 +130,7 @@ Returns nothing
 
 
 
-The source box must be within the size of the source resource. The destination offsets, (x, y, and z), allow the source box to be offset when writing into the destination resource; however, the dimensions of the source box and the offsets must be within the size of the resource. If you try and copy outside the destination resource or specify a source box that is larger than the source resource, the behavior of <b>CopySubresourceRegion</b> is undefined. If you created a device that supports the <a href="overviews_direct3d_11_devices_layers.htm">debug layer</a>, the debug output reports an error on this invalid <b>CopySubresourceRegion</b> call. Invalid parameters to <b>CopySubresourceRegion</b> cause undefined behavior and might result in incorrect rendering, clipping, no copy, or even the removal of the rendering device.
+The source box must be within the size of the source resource. The destination offsets, (x, y, and z), allow the source box to be offset when writing into the destination resource; however, the dimensions of the source box and the offsets must be within the size of the resource. If you try and copy outside the destination resource or specify a source box that is larger than the source resource, the behavior of <b>CopySubresourceRegion</b> is undefined. If you created a device that supports the <a href="https://msdn.microsoft.com/en-us/library/Ff476881(v=VS.85).aspx">debug layer</a>, the debug output reports an error on this invalid <b>CopySubresourceRegion</b> call. Invalid parameters to <b>CopySubresourceRegion</b> cause undefined behavior and might result in incorrect rendering, clipping, no copy, or even the removal of the rendering device.
 
 If the resources are buffers, all coordinates are in bytes; if the resources are textures, all coordinates are in texels. <a href="https://msdn.microsoft.com/643a21f7-3c2e-4d62-9236-051f51d31241">D3D11CalcSubresource</a> is a helper function for calculating subresource indexes.
 
@@ -139,15 +139,15 @@ If the resources are buffers, all coordinates are in bytes; if the resources are
 <ul>
 <li>Must be different subresources (although they can be from the same resource).</li>
 <li>Must be the same type.</li>
-<li>Must have compatible DXGI formats (identical or from the same type group). For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to an DXGI_FORMAT_R32G32B32_UINT texture since both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. <b>CopySubresourceRegion</b> can copy between a few format types. For more info, see <a href="https://msdn.microsoft.com/add98d8f-6846-4dd6-b0e2-a4b6e89cbcc5">Format Conversion using Direct3D 10.1</a>.</li>
+<li>Must have compatible DXGI formats (identical or from the same type group). For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to an DXGI_FORMAT_R32G32B32_UINT texture since both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. <b>CopySubresourceRegion</b> can copy between a few format types. For more info, see <a href="https://msdn.microsoft.com/en-us/library/Bb694531(v=VS.85).aspx">Format Conversion using Direct3D 10.1</a>.</li>
 <li>May not be currently mapped.</li>
 </ul>
-<b>CopySubresourceRegion</b> only supports copy; it does not support any stretch, color key, or blend. <b>CopySubresourceRegion</b> can reinterpret the resource data between a few format types. For more info, see <a href="https://msdn.microsoft.com/add98d8f-6846-4dd6-b0e2-a4b6e89cbcc5">Format Conversion using Direct3D 10.1</a>.
+<b>CopySubresourceRegion</b> only supports copy; it does not support any stretch, color key, or blend. <b>CopySubresourceRegion</b> can reinterpret the resource data between a few format types. For more info, see <a href="https://msdn.microsoft.com/en-us/library/Bb694531(v=VS.85).aspx">Format Conversion using Direct3D 10.1</a>.
 
 If your app needs to copy an entire resource, we recommend to use <a href="https://msdn.microsoft.com/54c1c08a-792c-463d-8237-9f7947d15396">ID3D11DeviceContext::CopyResource</a> instead.
         
 
-<b>CopySubresourceRegion</b> is an asynchronous call, which may be added to the command-buffer queue, this attempts to remove pipeline stalls that may occur when copying data. For more information about pipeline stalls, see <a href="https://msdn.microsoft.com/34fd4d15-ee64-4acf-967d-a4afb6f26329">performance considerations</a>.
+<b>CopySubresourceRegion</b> is an asynchronous call, which may be added to the command-buffer queue, this attempts to remove pipeline stalls that may occur when copying data. For more information about pipeline stalls, see <a href="https://msdn.microsoft.com/en-us/library/Bb205132(v=VS.85).aspx">performance considerations</a>.
 
 <div class="alert"><b>Note</b>  <b>Applies only to feature level 9_x hardware</b> If you use <a href="https://msdn.microsoft.com/2d8ef5a2-204a-434d-918a-104419050233">ID3D11DeviceContext::UpdateSubresource</a> or <b>CopySubresourceRegion</b> to copy from a staging resource to a default resource, you can corrupt the destination contents. This occurs if you pass a <b>NULL</b> source box and if the source resource has different dimensions from those of the destination resource or if you use destination offsets, (x, y, and z). In this situation, always pass a source box that is the full size of the source resource.</div>
 <div> </div>

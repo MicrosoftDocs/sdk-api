@@ -79,7 +79,7 @@ Enables resource data sharing between two or more Direct3D devices. The only res
 <div class="alert"><b>Note</b>  Starting with Windows 8, <b>WARP</b> devices fully support shared resources.
             </div>
 <div> </div>
-<div class="alert"><b>Note</b>  Starting with Windows 8, we recommend that you enable resource data sharing between two or more Direct3D devices by using a combination of the <a href="d3d11_resource_misc_flag.htm">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> and <a href="d3d11_resource_misc_flag.htm">D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX</a> flags instead.
+<div class="alert"><b>Note</b>  Starting with Windows 8, we recommend that you enable resource data sharing between two or more Direct3D devices by using a combination of the <a href="https://msdn.microsoft.com/en-us/library/Ff476203(v=VS.85).aspx">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> and <a href="https://msdn.microsoft.com/en-us/library/Ff476203(v=VS.85).aspx">D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX</a> flags instead.
             </div>
 <div> </div>
 
@@ -171,7 +171,7 @@ You must set the texture format to one of the following types.
 <li>DXGI_FORMAT_B8G8R8A8_UNORM_SRGB</li>
 </ul>For example, set the <b>Format</b> member of the <a href="https://msdn.microsoft.com/90c0f877-daf5-4b3d-9846-5bb414c55461">D3D11_TEXTURE2D_DESC</a> structure to one of these  types.
               </li>
-<li>You cannot use D3D11_RESOURCE_MISC_GDI_COMPATIBLE with multisampling. Therefore, set the <b>Count</b> member of the <a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a> structure to 1. Then, set the <b>SampleDesc</b> member of the <a href="https://msdn.microsoft.com/90c0f877-daf5-4b3d-9846-5bb414c55461">D3D11_TEXTURE2D_DESC</a> structure to this <b>DXGI_SAMPLE_DESC</b> structure.
+<li>You cannot use D3D11_RESOURCE_MISC_GDI_COMPATIBLE with multisampling. Therefore, set the <b>Count</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a> structure to 1. Then, set the <b>SampleDesc</b> member of the <a href="https://msdn.microsoft.com/90c0f877-daf5-4b3d-9846-5bb414c55461">D3D11_TEXTURE2D_DESC</a> structure to this <b>DXGI_SAMPLE_DESC</b> structure.
               </li>
 </ul>
 

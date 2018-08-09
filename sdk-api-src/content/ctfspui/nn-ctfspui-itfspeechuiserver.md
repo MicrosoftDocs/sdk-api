@@ -104,7 +104,7 @@ Sets the style and text of the speech balloon on the TSF language bar.
 
 The user interface elements on the TSF language bar managed by this interface include the microphone button, the speech configuration menu button, the dictation button, the command button, and the speech balloon. The standard speech text service usually manages these user interface elements in an application, including initialization. This type of application does not require the <b>ITfSpeechUIServer</b> interface.
 
-An application that does not use the speech text service might require use of the features provided by the speech-related interface elements. In that case, the following code example shows how an application can obtain a pointer to the <b>ITfSpeechUIServer</b> interface by calling the <a href="_com_cocreateinstance">CoCreateInstance</a> function with the CLSID_SpeechUIServer <b>CLSID</b>.
+An application that does not use the speech text service might require use of the features provided by the speech-related interface elements. In that case, the following code example shows how an application can obtain a pointer to the <b>ITfSpeechUIServer</b> interface by calling the <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function with the CLSID_SpeechUIServer <b>CLSID</b>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -135,11 +135,11 @@ Subsequently, the application can use the <a href="https://msdn.microsoft.com/5a
 
 
 
-<a href="_com_cocreateinstance">CoCreateInstance</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

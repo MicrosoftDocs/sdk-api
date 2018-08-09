@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Carries information specific to hit-testing points for a month calendar control. This structure is used with the <a href="https://msdn.microsoft.com/51e74b07-4ed7-488d-ad5d-116f046577fc">MCM_HITTEST</a> message and the corresponding <a href="https://msdn.microsoft.com/b328f8e7-4f9d-477f-bbb8-97f0acd5af0d">MonthCal_HitTest</a> macro. 
+Carries information specific to hit-testing points for a month calendar control. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb760991(v=VS.85).aspx">MCM_HITTEST</a> message and the corresponding <a href="https://msdn.microsoft.com/en-us/library/Bb774710(v=VS.85).aspx">MonthCal_HitTest</a> macro. 
 
 
 ## -struct-fields

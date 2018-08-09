@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Creates a copy of the <a href="https://msdn.microsoft.com/4fac0cf0-165d-45f2-8e63-02f0c8eae431">IEnumSearchRoots</a> object with the same contents and state as the current one.
+Creates a copy of the <a href="https://msdn.microsoft.com/en-us/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a> object with the same contents and state as the current one.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Creates a copy of the <a href="https://msdn.microsoft.com/4fac0cf0-165d-45f2-8e6
 
 ### -param ppenum [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/4fac0cf0-165d-45f2-8e63-02f0c8eae431">IEnumSearchRoots</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a>**</b>
 
-Returns a pointer to the new <a href="https://msdn.microsoft.com/4fac0cf0-165d-45f2-8e63-02f0c8eae431">IEnumSearchRoots</a> object. The calling application must free the new object by calling its <a href="_com_IUnknown_Release">IUnknown::Release</a> method.
+Returns a pointer to the new <a href="https://msdn.microsoft.com/en-us/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a> object. The calling application must free the new object by calling its <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
                 
 
 

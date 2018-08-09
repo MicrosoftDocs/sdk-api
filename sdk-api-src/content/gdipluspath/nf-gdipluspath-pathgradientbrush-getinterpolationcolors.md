@@ -106,8 +106,8 @@ If the method fails, it returns one of the other elements of the
 
 A simple path gradient brush has two colors: a boundary color and a center color. When you paint with such a brush, the color changes gradually from the boundary color to the center color as you move from the boundary path to the center point. You can create a more complex gradient by specifying an array of preset colors and an array of blend positions. 
 
-Before you call the <b>PathGradientBrush::GetInterpolationColors</b> method, you must allocate two buffers: one to hold the array of preset colors and one to hold the array of blend positions. You can call the <a href="https://msdn.microsoft.com/2a93d8a9-2167-4d65-97b2-84aefc10a56b">PathGradientBrush::GetInterpolationColorCount</a> method of the 
-				<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>object to determine the required size of those buffers. The size of the color buffer is the return value of <b>PathGradientBrush::GetInterpolationColorCount</b> multiplied by 
+Before you call the <b>PathGradientBrush::GetInterpolationColors</b> method, you must allocate two buffers: one to hold the array of preset colors and one to hold the array of blend positions. You can call the <a href="https://msdn.microsoft.com/en-us/library/ms535068(v=VS.85).aspx">PathGradientBrush::GetInterpolationColorCount</a> method of the 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>object to determine the required size of those buffers. The size of the color buffer is the return value of <b>PathGradientBrush::GetInterpolationColorCount</b> multiplied by 
 				<b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/mt297756">Color</a>). The size of the position buffer is the value of <b>PathGradientBrush::GetInterpolationColorCount</b> multiplied by 
 				<b>sizeof</b>(
 				<b>REAL</b>).
@@ -118,7 +118,7 @@ Before you call the <b>PathGradientBrush::GetInterpolationColors</b> method, you
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>object from a triangular path. The code sets the preset colors to red, blue, and aqua and sets the blend positions to 0, 0.6, and 1. The code calls the <a href="https://msdn.microsoft.com/2a93d8a9-2167-4d65-97b2-84aefc10a56b">PathGradientBrush::GetInterpolationColorCount</a> method of the 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>object from a triangular path. The code sets the preset colors to red, blue, and aqua and sets the blend positions to 0, 0.6, and 1. The code calls the <a href="https://msdn.microsoft.com/en-us/library/ms535068(v=VS.85).aspx">PathGradientBrush::GetInterpolationColorCount</a> method of the 
 						<b>PathGradientBrush</b>object to obtain the number of preset colors currently set for the brush. Next, the code allocates two buffers: one to hold the array of preset colors, and one to hold the array of blend positions. The call to the <b>PathGradientBrush::GetInterpolationColors</b> method of the 
 						<b>PathGradientBrush</b>object fills the buffers with the preset colors and the blend positions. Finally the code fills a small square with each of the preset colors.
 
@@ -179,7 +179,7 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
 
 
 
@@ -187,23 +187,23 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/f6a8085c-3d6a-494f-a1ee-5fa96efb1aae">Creating a Path Gradient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/7aa94b39-bd4c-4e66-b0dc-77f8953797b1">Filling a Shape with a Color Gradient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533856(v=VS.85).aspx">Filling a Shape with a Color Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a93d8a9-2167-4d65-97b2-84aefc10a56b">PathGradientBrush::GetInterpolationColorCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535068(v=VS.85).aspx">PathGradientBrush::GetInterpolationColorCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/91a0a611-b0c1-47b7-b030-1544128c0460">PathGradientBrush::SetInterpolationColors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535089(v=VS.85).aspx">PathGradientBrush::SetInterpolationColors</a>
  
 
  

@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information about a change that has taken place in a date and time picker (DTP) control. This structure is used with the <a href="https://msdn.microsoft.com/65cdd8fb-1f07-4447-b503-d40fdfa37202">DTN_DATETIMECHANGE</a> notification code. 
+Contains information about a change that has taken place in a date and time picker (DTP) control. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb761737(v=VS.85).aspx">DTN_DATETIMECHANGE</a> notification code. 
 
 
 ## -struct-fields
@@ -60,9 +60,9 @@ Contains information about a change that has taken place in a date and time pick
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about the notification code. 
+An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification code. 
 
 
 ### -field dwFlags

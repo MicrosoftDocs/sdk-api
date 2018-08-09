@@ -81,7 +81,7 @@ This property should only be changed if the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="tablet.iinkedit_">IInkEdit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
 
 
 

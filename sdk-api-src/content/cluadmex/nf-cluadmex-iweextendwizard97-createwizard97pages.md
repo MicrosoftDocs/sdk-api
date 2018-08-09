@@ -65,9 +65,9 @@ Allows you to create Wizard97 property pages and add them to a
 ### -param piData [in]
 
 
-<a href="_com_iunknown">IUnknown</a> interface pointer for retrieving information 
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer for retrieving information 
        relating to the wizard97 pages to be added. By calling 
-       <a href="_com_IUnknown_QueryInterface">IUnknown::QueryInterface</a> with the 
+       <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> with the 
        <i>piData</i> pointer, the following interfaces are available:
 
 <ul>
@@ -81,7 +81,7 @@ Allows you to create Wizard97 property pages and add them to a
 <a href="https://msdn.microsoft.com/a88ba05c-b64b-4d6d-b005-f2f867093355">IGetClusterObjectInfo</a>
 </li>
 </ul>
-Depending on the type of <a href="c_gly.htm">cluster object</a>, a 
+Depending on the type of <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster object</a>, a 
        pointer to one of the following interfaces is also available:
 
 <ul>
@@ -136,7 +136,7 @@ If your extension has no Wizard97 pages but does have non-Wizard97 pages, you ca
 <p class="proch"><img alt="" src="../common/wedge.gif"/><b>For each Wizard97 property page to be added</b>
 
 <ol>
-<li>Use <i>piData</i> to call <a href="_com_IUnknown_QueryInterface">QueryInterface</a> and retrieve an 
+<li>Use <i>piData</i> to call <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> and retrieve an 
        interface pointer for the <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">object</a> associated with the new 
        page. For example, if you are adding a property page for a resource, you want to retrieve a pointer to the 
        <a href="https://msdn.microsoft.com/8a3a9e9d-4666-4d9a-83e3-10d667b42d66">IGetClusterResourceInfo</a> interface. 

@@ -60,9 +60,9 @@ The <b>TaskDialogIndirect</b> function creates, displays, and operates a task di
 
 ### -param pTaskConfig [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/6ca94c55-6589-4a20-afba-49b566adeba2">TASKDIALOGCONFIG</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb787473(v=VS.85).aspx">TASKDIALOGCONFIG</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/6ca94c55-6589-4a20-afba-49b566adeba2">TASKDIALOGCONFIG</a> structure that contains information used to display the task dialog.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb787473(v=VS.85).aspx">TASKDIALOGCONFIG</a> structure that contains information used to display the task dialog.
 
 
 ### -param pnButton [out, optional]
@@ -210,7 +210,7 @@ The operation failed.
 
 
 
-When you use a task dialog box to indicate that the system is low on memory, the strings pointed to by the various string and icon members in the <a href="https://msdn.microsoft.com/6ca94c55-6589-4a20-afba-49b566adeba2">TASKDIALOGCONFIG</a> structure should not be taken from a resource file since an attempt to load the resource may fail.
+When you use a task dialog box to indicate that the system is low on memory, the strings pointed to by the various string and icon members in the <a href="https://msdn.microsoft.com/en-us/library/Bb787473(v=VS.85).aspx">TASKDIALOGCONFIG</a> structure should not be taken from a resource file since an attempt to load the resource may fail.
 
  If you create a task dialog while a dialog box is present, use a handle to the dialog box as the <i>hWndParent</i> parameter. The <i>hWndParent</i> parameter should not identify a child window, such as a control in a dialog box. 
 
@@ -262,7 +262,7 @@ switch (nButtonPressed)
 
 
 
-<a href="https://msdn.microsoft.com/07ebee3c-5aa7-4b0d-b6cb-e642e01e1a88">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
  
 
  

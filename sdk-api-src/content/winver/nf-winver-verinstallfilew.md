@@ -54,7 +54,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Installs the specified file based on information returned from the <a href="https://msdn.microsoft.com/c6cdeb38-f0e1-4a7c-b000-01c61ddc06fb">VerFindFile</a> function. <b>VerInstallFile</b> decompresses the file, if necessary, assigns a unique filename, and checks for errors, such as outdated files. 
+Installs the specified file based on information returned from the <a href="https://msdn.microsoft.com/en-us/library/ms647461(v=VS.85).aspx">VerFindFile</a> function. <b>VerInstallFile</b> decompresses the file, if necessary, assigns a unique filename, and checks for errors, such as outdated files. 
 
 
 ## -parameters
@@ -126,7 +126,7 @@ The name of the directory where the file can be found.
 
 Type: <b>LPCTSTR</b>
 
-The name of the directory where the file should be installed. <a href="https://msdn.microsoft.com/c6cdeb38-f0e1-4a7c-b000-01c61ddc06fb">VerFindFile</a> returns this value in its 
+The name of the directory where the file should be installed. <a href="https://msdn.microsoft.com/en-us/library/ms647461(v=VS.85).aspx">VerFindFile</a> returns this value in its 
 					<i>szDestDir</i> parameter. 
 
 
@@ -134,7 +134,7 @@ The name of the directory where the file should be installed. <a href="https://m
 
 Type: <b>LPCTSTR</b>
 
-The name of the directory where a preexisting version of this file can be found. <a href="https://msdn.microsoft.com/c6cdeb38-f0e1-4a7c-b000-01c61ddc06fb">VerFindFile</a> returns this value in its 
+The name of the directory where a preexisting version of this file can be found. <a href="https://msdn.microsoft.com/en-us/library/ms647461(v=VS.85).aspx">VerFindFile</a> returns this value in its 
 					<i>szCurDir</i> parameter. 
 
 
@@ -299,7 +299,7 @@ The function cannot rename the temporary file, but already deleted the destinati
 </dl>
 </td>
 <td width="60%">
-The new file requires a code page that cannot be displayed by the version of the system currently running. This error can be overridden by calling <a href="https://msdn.microsoft.com/bd16c1ac-b817-4fb9-bf72-279a8e164f71">VerInstallFile</a> with the <b>VIFF_FORCEINSTALL</b> flag set.
+The new file requires a code page that cannot be displayed by the version of the system currently running. This error can be overridden by calling <a href="https://msdn.microsoft.com/en-us/library/ms647462(v=VS.85).aspx">VerInstallFile</a> with the <b>VIFF_FORCEINSTALL</b> flag set.
 
 </td>
 </tr>
@@ -311,7 +311,7 @@ The new file requires a code page that cannot be displayed by the version of the
 </dl>
 </td>
 <td width="60%">
-The new and preexisting files have different language or code-page values. This error can be overridden by calling <a href="https://msdn.microsoft.com/bd16c1ac-b817-4fb9-bf72-279a8e164f71">VerInstallFile</a> again with the <b>VIFF_FORCEINSTALL</b> flag set.
+The new and preexisting files have different language or code-page values. This error can be overridden by calling <a href="https://msdn.microsoft.com/en-us/library/ms647462(v=VS.85).aspx">VerInstallFile</a> again with the <b>VIFF_FORCEINSTALL</b> flag set.
 
 </td>
 </tr>
@@ -323,7 +323,7 @@ The new and preexisting files have different language or code-page values. This 
 </dl>
 </td>
 <td width="60%">
-The new file has a different type, subtype, or operating system from the preexisting file. This error can be overridden by calling <a href="https://msdn.microsoft.com/bd16c1ac-b817-4fb9-bf72-279a8e164f71">VerInstallFile</a> again with the <b>VIFF_FORCEINSTALL</b> flag set.
+The new file has a different type, subtype, or operating system from the preexisting file. This error can be overridden by calling <a href="https://msdn.microsoft.com/en-us/library/ms647462(v=VS.85).aspx">VerInstallFile</a> again with the <b>VIFF_FORCEINSTALL</b> flag set.
 
 </td>
 </tr>
@@ -347,7 +347,7 @@ The preexisting file is in use by the system and cannot be deleted.
 </dl>
 </td>
 <td width="60%">
-The new and preexisting files differ in one or more attributes. This error can be overridden by calling <a href="https://msdn.microsoft.com/bd16c1ac-b817-4fb9-bf72-279a8e164f71">VerInstallFile</a> again with the <b>VIFF_FORCEINSTALL</b> flag set.
+The new and preexisting files differ in one or more attributes. This error can be overridden by calling <a href="https://msdn.microsoft.com/en-us/library/ms647462(v=VS.85).aspx">VerInstallFile</a> again with the <b>VIFF_FORCEINSTALL</b> flag set.
 
 </td>
 </tr>
@@ -395,7 +395,7 @@ A read, create, delete, or rename operation failed due to a sharing violation.
 </dl>
 </td>
 <td width="60%">
-The file to install is older than the preexisting file. This error can be overridden by calling <a href="https://msdn.microsoft.com/bd16c1ac-b817-4fb9-bf72-279a8e164f71">VerInstallFile</a> again with the <b>VIFF_FORCEINSTALL</b> flag set.
+The file to install is older than the preexisting file. This error can be overridden by calling <a href="https://msdn.microsoft.com/en-us/library/ms647462(v=VS.85).aspx">VerInstallFile</a> again with the <b>VIFF_FORCEINSTALL</b> flag set.
 
 </td>
 </tr>
@@ -419,7 +419,7 @@ The temporary copy of the new file is in the destination directory. The cause of
 </dl>
 </td>
 <td width="60%">
-The preexisting file is write-protected. This error can be overridden by calling <a href="https://msdn.microsoft.com/bd16c1ac-b817-4fb9-bf72-279a8e164f71">VerInstallFile</a> again with the <b>VIFF_FORCEINSTALL</b> flag set.
+The preexisting file is write-protected. This error can be overridden by calling <a href="https://msdn.microsoft.com/en-us/library/ms647462(v=VS.85).aspx">VerInstallFile</a> again with the <b>VIFF_FORCEINSTALL</b> flag set.
 
 </td>
 </tr>
@@ -456,11 +456,11 @@ This function works on 16-, 32-, and 64-bit file images.
 
 
 
-<a href="https://msdn.microsoft.com/c6cdeb38-f0e1-4a7c-b000-01c61ddc06fb">VerFindFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647461(v=VS.85).aspx">VerFindFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/60de7900-56b9-4481-bef9-b4079eedf926">Version Information</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646981(v=VS.85).aspx">Version Information</a>
  
 
  

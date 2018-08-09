@@ -77,9 +77,9 @@ Pointer to an <a href="http://msdn.microsoft.com/en-us/library/ms680509(VS.85).a
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -98,7 +98,7 @@ When this method is called ::addref() will be called on the <a href="http://msdn
 
 
 
-<a href="https://msdn.microsoft.com/64eff938-e130-48be-a45f-43f6c885b588">ID3D10DeviceChild Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild Interface</a>
  
 
  

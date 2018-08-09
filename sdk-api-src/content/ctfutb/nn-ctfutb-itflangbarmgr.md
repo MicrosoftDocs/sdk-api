@@ -157,11 +157,11 @@ Uninstalls an advise event sink.
 
 
 
-<a href="_com_cocreateinstance">CoCreateInstance</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

@@ -162,7 +162,7 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
 
 
 
@@ -170,11 +170,11 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/1e080903-0a3d-4686-83ab-b50864354347">SetOutline</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787793(v=VS.85).aspx">SetOutline</a>
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

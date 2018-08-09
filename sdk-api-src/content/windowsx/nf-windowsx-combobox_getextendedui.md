@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Ascertains whether a combo box is using the default user interface (UI) or the extended UI. You can use this macro or send the <a href="https://msdn.microsoft.com/4f5580e0-68b1-4584-bf79-561fb8222fe0">CB_GETEXTENDEDUI</a> message explicitly.
+Ascertains whether a combo box is using the default user interface (UI) or the extended UI. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775855(v=VS.85).aspx">CB_GETEXTENDEDUI</a> message explicitly.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/4f5580e0-68b1-4584-bf79-561fb8222fe0">CB_GETEXTENDEDUI</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775855(v=VS.85).aspx">CB_GETEXTENDEDUI</a>.
 	
 
 

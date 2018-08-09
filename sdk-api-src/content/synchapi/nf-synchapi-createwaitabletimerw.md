@@ -137,7 +137,7 @@ Use the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0400 or later. For more information, see 
 <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
 
-To associate a timer with a window, use the <a href="https://msdn.microsoft.com/393038fa-972f-4151-b90a-cebf84c50867">SetTimer</a> function.
+To associate a timer with a window, use the <a href="https://msdn.microsoft.com/en-us/library/ms644906(v=VS.85).aspx">SetTimer</a> function.
 
 
 #### Examples

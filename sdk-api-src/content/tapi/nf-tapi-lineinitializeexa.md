@@ -123,7 +123,7 @@ The Hidden Window mechanism is selected by specifying LINEINITIALIZEEXOPTION_USE
 <a href="https://msdn.microsoft.com/17fed282-6d08-4702-9ceb-9cbcc3737395">LINEINITIALIZEEXPARAMS</a> structure. In this mechanism (which is the only mechanism available to TAPI verson 1.<i>x</i> applications), TAPI creates a window in the context of the application during the 
 <b>lineInitializeEx</b> or 
 <a href="https://msdn.microsoft.com/4b406f19-be9b-4130-91a7-5fdfa56f7fc3">lineInitialize</a> (for TAPI version 1.3 and 1.4 applications) function, and subclasses the window so that all messages posted to it are handled by a WNDPROC in TAPI itself. When TAPI has a message to deliver to the application, TAPI posts a message to the hidden window. When the message is received (which can happen only when the application calls the Windows 
-<a href="_win32_getmessage_cpp">GetMessage</a> function), Windows switches the process context to that of the application and invokes the WNDPROC in TAPI. TAPI then delivers the message to the application by calling the <i>lineCallbackProc</i>, a pointer to which the application provided as a parameter in its call to 
+<a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> function), Windows switches the process context to that of the application and invokes the WNDPROC in TAPI. TAPI then delivers the message to the application by calling the <i>lineCallbackProc</i>, a pointer to which the application provided as a parameter in its call to 
 <b>lineInitializeEx</b> (or 
 <a href="https://msdn.microsoft.com/4b406f19-be9b-4130-91a7-5fdfa56f7fc3">lineInitialize</a>). This mechanism requires the application to have a message queue (which is not desirable for service processes) and to service that queue regularly to avoid delaying processing of telephony events. The hidden window is destroyed by TAPI during the 
 <a href="https://msdn.microsoft.com/d512508a-fb6a-41ec-a80d-f625abfdd184">lineShutdown</a> function.
@@ -142,11 +142,11 @@ The Event Handle mechanism is selected by specifying LINEINITIALIZEEXOPTION_USEE
 
 The Completion Port mechanism is selected by specifying LINEINITIALIZEEXOPTION_USECOMPLETION PORT in the <b>dwOptions</b> member in the 
 <a href="https://msdn.microsoft.com/17fed282-6d08-4702-9ceb-9cbcc3737395">LINEINITIALIZEEXPARAMS</a> structure. In this mechanism, whenever a telephony event needs to be sent to the application, TAPI sends it using 
-<a href="base.postqueuedcompletionstatus">PostQueuedCompletionStatus</a> to the completion port that the application specified in the <b>hCompletionPort</b> member in 
+<a href="https://msdn.microsoft.com/en-us/library/Aa365458(v=VS.85).aspx">PostQueuedCompletionStatus</a> to the completion port that the application specified in the <b>hCompletionPort</b> member in 
 <a href="https://msdn.microsoft.com/17fed282-6d08-4702-9ceb-9cbcc3737395">LINEINITIALIZEEXPARAMS</a>, tagged with the completion key that the application specified in the <b>dwCompletionKey</b> member in 
 <a href="https://msdn.microsoft.com/17fed282-6d08-4702-9ceb-9cbcc3737395">LINEINITIALIZEEXPARAMS</a>. The application must have previously created the completion port using 
-<a href="base.createiocompletionport">CreateIoCompletionPort</a>. The application retrieves events using 
-<a href="base.getqueuedcompletionstatus">GetQueuedCompletionStatus</a>. Upon return from <b>GetQueuedCompletionStatus</b>, the application has the specified <b>dwCompletionKey</b> written to the <b>DWORD</b> pointed to by the <i>lpCompletionKey</i> parameter, and a pointer to a 
+<a href="https://msdn.microsoft.com/en-us/library/Aa363862(v=VS.85).aspx">CreateIoCompletionPort</a>. The application retrieves events using 
+<a href="https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a>. Upon return from <b>GetQueuedCompletionStatus</b>, the application has the specified <b>dwCompletionKey</b> written to the <b>DWORD</b> pointed to by the <i>lpCompletionKey</i> parameter, and a pointer to a 
 <a href="https://msdn.microsoft.com/1d184948-4ba2-4c8c-8771-d1aea6c4f565">LINEMESSAGE</a> structure returned to the location pointed to by <i>lpOverlapped</i>. After the application has processed the event, it is the application's responsibility to call 
 <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> to release the memory used to contain the 
 <b>LINEMESSAGE</b> structure. Because the application created the completion port (thereby allowing it to be shared for other purposes), the application must close it; the application must not close the completion port until after calling 

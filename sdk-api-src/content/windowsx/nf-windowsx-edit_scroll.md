@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Scrolls the text vertically in a multiline edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/616b5ac2-d92f-4fc5-9a9e-2c7527fb0d97">EM_SCROLL</a> message explicitly.
+Scrolls the text vertically in a multiline edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761635(v=VS.85).aspx">EM_SCROLL</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ The amount to scroll horizontally.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/616b5ac2-d92f-4fc5-9a9e-2c7527fb0d97">EM_SCROLL</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761635(v=VS.85).aspx">EM_SCROLL</a>.
 
 
 

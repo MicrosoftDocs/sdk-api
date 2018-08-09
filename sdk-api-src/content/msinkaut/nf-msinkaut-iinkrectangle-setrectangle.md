@@ -151,7 +151,7 @@ An exception occurred inside the method.
 
 
 
-<a href="tablet.iinkrectangle">IInkRectangle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846804(v=VS.85).aspx">IInkRectangle</a>
 
 
 

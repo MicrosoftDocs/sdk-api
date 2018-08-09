@@ -78,7 +78,7 @@ Setting <b>SelText</b> to a new value sets <a href="https://msdn.microsoft.com/6
 
 
 
-<a href="tablet.iinkedit_">IInkEdit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
 
 
 

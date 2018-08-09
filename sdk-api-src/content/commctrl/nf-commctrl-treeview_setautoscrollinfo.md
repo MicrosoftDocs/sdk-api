@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets information used to determine auto-scroll characteristics. Use this macro or send the <a href="https://msdn.microsoft.com/de55933f-1caa-4193-84de-0486c41e8f1f">TVM_SETAUTOSCROLLINFO</a> message explicitly.
+Sets information used to determine auto-scroll characteristics. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773738(v=VS.85).aspx">TVM_SETAUTOSCROLLINFO</a> message explicitly.
 
 
 ## -parameters

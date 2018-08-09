@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Assigns an image list to a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/5241065b-85e4-412e-9868-fd5b15ff7c17">LVM_SETIMAGELIST</a> message explicitly. 
+Assigns an image list to a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761178(v=VS.85).aspx">LVM_SETIMAGELIST</a> message explicitly. 
 
 
 ## -parameters

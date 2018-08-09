@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the amount of time that the mouse cursor must hover over an item before it is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/e7646024-f868-459f-88be-b232b6b4bb2a">LVM_GETHOVERTIME</a> message explicitly. 
+Gets the amount of time that the mouse cursor must hover over an item before it is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774941(v=VS.85).aspx">LVM_GETHOVERTIME</a> message explicitly. 
 
 
 ## -parameters

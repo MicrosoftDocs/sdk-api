@@ -91,9 +91,9 @@ The return value is the input locale identifier for the thread. The low word con
 
 The input locale identifier is a broader concept than a keyboard layout, since it can also encompass a speech-to-text converter, an Input Method Editor (IME), or any other form of input.
 
-Since the keyboard layout can be dynamically changed, applications that cache information about the current keyboard layout should process the <a href="https://msdn.microsoft.com/4d403b1d-f6f7-40d5-9bf5-6a9c4da0803c">WM_INPUTLANGCHANGE</a> message to be informed of changes in the input language.
+Since the keyboard layout can be dynamically changed, applications that cache information about the current keyboard layout should process the <a href="https://msdn.microsoft.com/en-us/library/ms632629(v=VS.85).aspx">WM_INPUTLANGCHANGE</a> message to be informed of changes in the input language.
 
-To get the KLID (keyboard layout ID) of the currently active HKL, call the  <a href="https://msdn.microsoft.com/505e053b-0f3d-47ad-b4ab-37bfae2512ef">GetKeyboardLayoutName</a>.
+To get the KLID (keyboard layout ID) of the currently active HKL, call the  <a href="https://msdn.microsoft.com/en-us/library/ms646298(v=VS.85).aspx">GetKeyboardLayoutName</a>.
 
 <b>Beginning in Windows 8:</b> The preferred method to retrieve the language associated with the current keyboard layout or input method is a call to <a href="https://msdn.microsoft.com/64c40fb5-3601-4673-b85d-d647e8a05298">Windows.Globalization.Language.CurrentInputMethodLanguageTag</a>. If your app passes language tags from <b>CurrentInputMethodLanguageTag</b> to any <a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support</a> functions, it must first convert the tags by calling <a href="https://msdn.microsoft.com/99264b22-3fb5-47e2-b0b9-42a6768e67c1">ResolveLocaleName</a>.
 
@@ -105,7 +105,7 @@ To get the KLID (keyboard layout ID) of the currently active HKL, call the  <a h
 
 
 
-<a href="https://msdn.microsoft.com/bfc045fb-8696-45f5-b65f-06a08c000765">ActivateKeyboardLayout</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646289(v=VS.85).aspx">ActivateKeyboardLayout</a>
 
 
 
@@ -117,11 +117,11 @@ To get the KLID (keyboard layout ID) of the currently active HKL, call the  <a h
 
 
 
-<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e35847e-d641-4ff2-80b6-a5b5293ebbdc">LoadKeyboardLayout</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>
 
 
 
@@ -133,7 +133,7 @@ To get the KLID (keyboard layout ID) of the currently active HKL, call the  <a h
 
 
 
-<a href="https://msdn.microsoft.com/4d403b1d-f6f7-40d5-9bf5-6a9c4da0803c">WM_INPUTLANGCHANGE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632629(v=VS.85).aspx">WM_INPUTLANGCHANGE</a>
  
 
  

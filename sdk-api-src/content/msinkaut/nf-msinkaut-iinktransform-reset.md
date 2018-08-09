@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="tablet.iinktransform">IInkTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846808(v=VS.85).aspx">IInkTransform</a>
 
 
 

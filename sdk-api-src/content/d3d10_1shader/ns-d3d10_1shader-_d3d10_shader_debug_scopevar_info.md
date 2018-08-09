@@ -67,14 +67,14 @@ Index into variable token.
 
 ### -field VarType
 
-Type: <b><a href="https://msdn.microsoft.com/856c29ea-c70b-4980-a631-f88f594a287c">D3D10_SHADER_DEBUG_VARTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172430(v=VS.85).aspx">D3D10_SHADER_DEBUG_VARTYPE</a></b>
 
 Indicates whether this is a variable or function.
 
 
 ### -field Class
 
-Type: <b><a href="https://msdn.microsoft.com/e638c059-9c92-43fe-9fae-8a0cf535af8f">D3D10_SHADER_VARIABLE_CLASS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172440(v=VS.85).aspx">D3D10_SHADER_VARIABLE_CLASS</a></b>
 
 Indicates the variable class.
 
@@ -139,7 +139,7 @@ Index of the first variable, later variables are offsets from this one.
 
 
 
-The <b>D3D10_SHADER_DEBUG_SCOPEVAR_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/b1b4201a-5bfb-4fce-ba51-64f7da9531bc">D3D10_SHADER_DEBUG_INFO</a> structure.
+The <b>D3D10_SHADER_DEBUG_SCOPEVAR_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb172420(v=VS.85).aspx">D3D10_SHADER_DEBUG_INFO</a> structure.
 
 
 
@@ -149,7 +149,7 @@ The <b>D3D10_SHADER_DEBUG_SCOPEVAR_INFO</b> structure is used with the <a href="
 
 
 
-<a href="https://msdn.microsoft.com/b36309e0-1c44-42d9-adcf-33acd753438c">Shader Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
  
 
  

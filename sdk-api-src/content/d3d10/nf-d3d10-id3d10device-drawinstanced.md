@@ -100,11 +100,11 @@ Returns nothing.
 
 
 
-A <a href="https://msdn.microsoft.com/84c0ca29-2356-4b7f-98ee-ff1758edc540">draw API</a> submits work to the rendering pipeline.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb205117(v=VS.85).aspx">draw API</a> submits work to the rendering pipeline.
 
 Instancing may extend performance by reusing the same geometry to draw multiple objects in a scene. One example of instancing could be to draw the same object with different positions and colors. For an example of instancing, see the <a href="dd22e271-7ace-fcb6-3da2-ba838c59db6e">Instancing10 Sample</a>.
 
-The vertex data for an instanced draw call normally comes from a vertex buffer that is bound to the pipeline. However, you could also provide the vertex data from a shader that has instanced data identified with a <a href="https://msdn.microsoft.com/6f5c504c-1940-4d1c-b594-a2132599376b">system-value semantic</a> (SV_InstanceID).
+The vertex data for an instanced draw call normally comes from a vertex buffer that is bound to the pipeline. However, you could also provide the vertex data from a shader that has instanced data identified with a <a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">system-value semantic</a> (SV_InstanceID).
 
 
 
@@ -114,7 +114,7 @@ The vertex data for an instanced draw call normally comes from a vertex buffer t
 
 
 
-<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

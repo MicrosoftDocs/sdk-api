@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Defines the dimensions of a <a href="https://msdn.microsoft.com/d78c3845-76fd-4bd7-a603-bb1d8c66ac49">viewport</a>.
+Defines the dimensions of a <a href="https://msdn.microsoft.com/en-us/library/Bb205126(v=VS.85).aspx">viewport</a>.
 
 
 ## -struct-fields
@@ -114,7 +114,7 @@ In all cases, <b>Width</b> and <b>Height</b> must be ≥ 0 and <b>TopLeftX</b> +
 
 
 
-<a href="https://msdn.microsoft.com/84769515-3f3b-4464-9620-7b806bf905b3">Core Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205153(v=VS.85).aspx">Core Structures</a>
  
 
  

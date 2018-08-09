@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Arranges items in icon view. You can use this macro or send the <a href="https://msdn.microsoft.com/f7dbcdd2-3cc9-4bae-827e-8bac3b49486c">LVM_ARRANGE</a> message explicitly.
+Arranges items in icon view. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774884(v=VS.85).aspx">LVM_ARRANGE</a> message explicitly.
 
 
 ## -parameters

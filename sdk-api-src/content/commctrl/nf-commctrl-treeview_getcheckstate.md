@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the check state of the specified item. You can also use the <a href="https://msdn.microsoft.com/89aaaa82-2809-4e4e-a325-5666a57c5cbb">TVM_GETITEMSTATE</a> message directly. 
+Gets the check state of the specified item. You can also use the <a href="https://msdn.microsoft.com/en-us/library/Bb773614(v=VS.85).aspx">TVM_GETITEMSTATE</a> message directly. 
 
 
 ## -parameters

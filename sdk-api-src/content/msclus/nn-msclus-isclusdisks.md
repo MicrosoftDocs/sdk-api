@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Provides access to the 
-    <a href="c_gly.htm">cluster-capable</a>
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster-capable</a>
 <a href="https://msdn.microsoft.com/003bc879-d526-4f7d-8f58-a9002f78819d">Physical Disks</a> available to a 
     <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type</a>.
 

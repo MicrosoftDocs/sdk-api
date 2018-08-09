@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Creates a Command object, specifying computers, catalogs, and scopes.
 
@@ -73,7 +73,7 @@ The number of scopes in the <i>awcsScope</i> array.
 
 ### -param aDepths
 
-A pointer to an array of values that represent the type of search (deep or shallow, virtual or physical) for each scope in <i>awcsScope</i>. For the possible values for each scope, see <a href="https://msdn.microsoft.com/77bf0e7e-d575-4ae7-b390-ab75eac2f58d">QUERY_*</a> scope constants.
+A pointer to an array of values that represent the type of search (deep or shallow, virtual or physical) for each scope in <i>awcsScope</i>. For the possible values for each scope, see <a href="https://msdn.microsoft.com/en-us/library/ms690819(v=VS.85).aspx">QUERY_*</a> scope constants.
 
 
 ### -param awcsScope
@@ -188,7 +188,7 @@ The <b>CIMakeICommand</b> function does not return an error if the catalog or co
 
 
 
-<a href="https://msdn.microsoft.com/44159df2-3703-44f0-a448-33f673a23e2e">CICreateCommand</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690973(v=VS.85).aspx">CICreateCommand</a>
 
 
 

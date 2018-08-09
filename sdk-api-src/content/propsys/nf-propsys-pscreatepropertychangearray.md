@@ -118,7 +118,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 This function creates a Component Object Model (COM) object that implements <a href="shell.IPropertyChangeArray">IPropertyChangeArray</a>. This object is a container for a set of <a href="shell.IPropertyChange">IPropertyChange</a> interfaces and can be used with <a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a> to apply a set of property changes to a set of files.
 
-You must initialize COM with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before you call <a href="shell.PSCreatePropertyChangeArray">PSCreatePropertyChangeArray</a>. COM must remain initialized for the lifetime of this object. The property change array executes in a single-threaded apartment (STA).
+You must initialize COM with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before you call <a href="https://msdn.microsoft.com/en-us/library/Bb776491(v=VS.85).aspx">PSCreatePropertyChangeArray</a>. COM must remain initialized for the lifetime of this object. The property change array executes in a single-threaded apartment (STA).
 
 A property change array can be initialized either by specifying simple changes by using the parameters, or by using various <a href="shell.IPropertyChangeArray">IPropertyChangeArray</a> methods to insert or append additional changes.
 
@@ -130,7 +130,7 @@ The parameters are tied together by their index value. For instance, for propert
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSCreatePropertyChangeArray">PSCreatePropertyChangeArray</a> to set the <a href="shell.props_System_Comment">Comment</a> property to "Fun" and <a href="shell.props_System_Rating">Rating</a> to 4 on one or more files.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776491(v=VS.85).aspx">PSCreatePropertyChangeArray</a> to set the <a href="https://msdn.microsoft.com/en-us/library/ms726934(v=VS.85).aspx">Comment</a> property to "Fun" and <a href="https://msdn.microsoft.com/en-us/library/Dd757585(v=VS.85).aspx">Rating</a> to 4 on one or more files.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

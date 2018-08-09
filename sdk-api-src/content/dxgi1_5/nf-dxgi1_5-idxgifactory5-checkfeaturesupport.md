@@ -85,7 +85,7 @@ The size, in bytes, of <i>pFeatureSupportData</i>.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -96,7 +96,7 @@ This method returns an HRESULT success or error code.
 
 
 
-Refer to the description of <a href="https://msdn.microsoft.com/c0030570-89ba-4586-a358-8c3b8c393a90">DXGI_SWAP_CHAIN_FLAG_ALLOW_TEARING</a>.
+Refer to the description of <a href="https://msdn.microsoft.com/en-us/library/Bb173076(v=VS.85).aspx">DXGI_SWAP_CHAIN_FLAG_ALLOW_TEARING</a>.
 
 
 

@@ -79,7 +79,7 @@ The <b>IADsOU</b> interface is a dual interface that is used to manage <a href="
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

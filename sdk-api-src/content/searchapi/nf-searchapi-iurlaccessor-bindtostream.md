@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Binds the item being processed to an <a href="_stg_istream">IStream interface [Structured Storage]</a> data stream and retrieves a pointer to that stream.
+Binds the item being processed to an <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a> data stream and retrieves a pointer to that stream.
         
 
 
@@ -64,7 +64,7 @@ Binds the item being processed to an <a href="_stg_istream">IStream interface [S
 
 Type: <b>IStream**</b>
 
-Receives the address of a pointer to the <a href="_stg_istream">IStream</a> that contains the item represented by the URL.
+Receives the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> that contains the item represented by the URL.
                 
 
 
@@ -83,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
- Using the information returned by the <a href="https://msdn.microsoft.com/410be931-d458-458a-b0cd-4e9f0c444423">IUrlAccessor::GetFileName</a>, <a href="https://msdn.microsoft.com/dc56bacc-17a9-450f-a57c-22a90bde24b8">IUrlAccessor::GetCLSID</a>, and <a href="https://msdn.microsoft.com/2847de4b-79bb-4596-a0ed-fd494046aab4">IUrlAccessor::GetDocFormat</a> methods, the appropriate content <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a>object is created and passed to this stream by the IPersistStream interface.
+ Using the information returned by the <a href="https://msdn.microsoft.com/en-us/library/Bb231418(v=VS.85).aspx">IUrlAccessor::GetFileName</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb231416(v=VS.85).aspx">IUrlAccessor::GetCLSID</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb231417(v=VS.85).aspx">IUrlAccessor::GetDocFormat</a> methods, the appropriate content <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>object is created and passed to this stream by the IPersistStream interface.
             
 
 

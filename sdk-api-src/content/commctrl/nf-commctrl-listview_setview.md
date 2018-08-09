@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the view of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/e6d3f16d-52ea-4863-a6c9-9a085d5f794a">LVM_SETVIEW</a> message explicitly. 
+Sets the view of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761220(v=VS.85).aspx">LVM_SETVIEW</a> message explicitly. 
 
 
 ## -parameters
@@ -70,13 +70,13 @@ A handle to the list-view control.
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 <b>DWORD</b>
-<a href="https://msdn.microsoft.com/e6d3f16d-52ea-4863-a6c9-9a085d5f794a">LVM_SETVIEW</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761220(v=VS.85).aspx">LVM_SETVIEW</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_SetView</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
+To use <b>ListView_SetView</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

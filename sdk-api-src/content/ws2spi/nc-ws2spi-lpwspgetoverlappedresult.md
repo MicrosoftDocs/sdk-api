@@ -117,7 +117,7 @@ If
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -128,7 +128,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -139,7 +139,7 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_INVALID_HANDLE</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_INVALID_HANDLE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -151,7 +151,7 @@ The <b>hEvent</b> member of the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -162,7 +162,7 @@ One of the parameters is unacceptable.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_IO_INCOMPLETE</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_IO_INCOMPLETE</a></b></dt>
 </dl>
 </td>
 <td width="60%">

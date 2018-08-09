@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Retrieves the <a href="i.htm">idle wait time</a> for the work item. 
+Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa446894(v=VS.85).aspx">idle wait time</a> for the work item. 
 			
 		For information about idle conditions, see <a href="https://msdn.microsoft.com/1e480681-b77a-48fe-a732-dd1591eaa08d">Task Idle Conditions</a>.
 
@@ -117,7 +117,7 @@ The arguments are not valid.
 
 
 
-The idle time returned here is used in conjunction with <a href="i.htm">idle triggers</a> and <a href="i.htm">idle conditions</a>. Idle triggers are event-based triggers that are not associated with a scheduled time. Idle conditions are associated with the scheduled start time for the task.
+The idle time returned here is used in conjunction with <a href="https://msdn.microsoft.com/en-us/library/Aa446894(v=VS.85).aspx">idle triggers</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa446894(v=VS.85).aspx">idle conditions</a>. Idle triggers are event-based triggers that are not associated with a scheduled time. Idle conditions are associated with the scheduled start time for the task.
 
 Idle triggers are specified by setting the 
 <a href="https://msdn.microsoft.com/07cba55c-47af-4879-b7be-12952763e016">TASK_TRIGGER_TYPE</a> member of the 

@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Provides a method to accumulate named entities as identified by an <a href="https://msdn.microsoft.com/30fa2fb6-7dfd-41e1-ab4f-5fd80c8a81ec">IConditionGenerator</a> object. When a query parser parses an input string into condition nodes, the parser invokes an <a href="https://msdn.microsoft.com/30fa2fb6-7dfd-41e1-ab4f-5fd80c8a81ec">IConditionGenerator</a> object that, in turn, invokes this interface to collect possible named entities in the input string.
+Provides a method to accumulate named entities as identified by an <a href="https://msdn.microsoft.com/en-us/library/Bb231380(v=VS.85).aspx">IConditionGenerator</a> object. When a query parser parses an input string into condition nodes, the parser invokes an <a href="https://msdn.microsoft.com/en-us/library/Bb231380(v=VS.85).aspx">IConditionGenerator</a> object that, in turn, invokes this interface to collect possible named entities in the input string.
         
 
 

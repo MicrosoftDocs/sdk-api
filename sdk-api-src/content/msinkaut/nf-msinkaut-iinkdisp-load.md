@@ -162,7 +162,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save<
 
 
 
-<a href="tablet.iinkdisp">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
 
 
 

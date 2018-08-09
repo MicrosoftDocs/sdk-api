@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Assigns an image list to an existing header control. You can use this macro or send the <a href="https://msdn.microsoft.com/1d7f07fa-f6f4-422a-949c-97d0388343e3">HDM_SETIMAGELIST</a> message explicitly. 
+Assigns an image list to an existing header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775365(v=VS.85).aspx">HDM_SETIMAGELIST</a> message explicitly. 
 
 
 ## -parameters

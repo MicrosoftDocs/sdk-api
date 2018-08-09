@@ -55,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Retrieves details about all formal WinSAT assessments.
 
-To retrieve this interface, call the <a href="_com_cocreateinstance">CoCreateInstance</a> function. Use __uuidof(CQueryAllWinSAT) as the class identifier and __uuidof(IQueryAllWinSATAssessments) as the interface identifier.
+To retrieve this interface, call the <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function. Use __uuidof(CQueryAllWinSAT) as the class identifier and __uuidof(IQueryAllWinSATAssessments) as the interface identifier.
 
 
 ## -see-also

@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the width and height of tabs in a fixed-width or owner-drawn tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/3935d686-f8bc-41fb-b025-04120cf03f02">TCM_SETITEMSIZE</a> message explicitly. 
+Sets the width and height of tabs in a fixed-width or owner-drawn tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760635(v=VS.85).aspx">TCM_SETITEMSIZE</a> message explicitly. 
 
 
 ## -parameters

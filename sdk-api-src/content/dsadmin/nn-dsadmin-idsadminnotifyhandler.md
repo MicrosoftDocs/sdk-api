@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-The <b>IDsAdminNotifyHandler</b> interface is implemented by an Active Directory administrative notification handler. This interface is used by the Active Directory Users and Computers MMC snap-in to notify registered handlers when certain events, such as deleting or renaming an object, occur. The snap-in creates an instance of this object by calling <a href="_com_cocreateinstance">CoCreateInstance</a> with the CLSID of the extension.
+The <b>IDsAdminNotifyHandler</b> interface is implemented by an Active Directory administrative notification handler. This interface is used by the Active Directory Users and Computers MMC snap-in to notify registered handlers when certain events, such as deleting or renaming an object, occur. The snap-in creates an instance of this object by calling <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with the CLSID of the extension.
 
 
 ## -inheritance
@@ -112,7 +112,7 @@ Called once for each object after the confirmation dialog box has been displayed
 
 
 
-<a href="_com_cocreateinstance">CoCreateInstance</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
  
 
  

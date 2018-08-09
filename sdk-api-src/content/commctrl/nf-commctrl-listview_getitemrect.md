@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the bounding rectangle for all or part of an item in the current view. You can use this macro or send the <a href="https://msdn.microsoft.com/7ce74b65-3360-42b4-9889-d90aefe2d284">LVM_GETITEMRECT</a> message explicitly. 
+Gets the bounding rectangle for all or part of an item in the current view. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761049(v=VS.85).aspx">LVM_GETITEMRECT</a> message explicitly. 
 
 
 ## -parameters

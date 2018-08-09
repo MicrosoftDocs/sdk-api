@@ -61,7 +61,7 @@ The <b>PeerCollabUnregisterEvent</b> function deregisters an application from no
 
 ### -param hPeerEvent [in]
 
-Handle to the peer collaboration event the peer application will deregister. This handle is obtained with a previous call to <a href="p2p.peercollabregisterevent">PeerCollabRegisterEvent</a>.
+Handle to the peer collaboration event the peer application will deregister. This handle is obtained with a previous call to <a href="https://msdn.microsoft.com/en-us/library/Aa371077(v=VS.85).aspx">PeerCollabRegisterEvent</a>.
 
 
 ## -returns

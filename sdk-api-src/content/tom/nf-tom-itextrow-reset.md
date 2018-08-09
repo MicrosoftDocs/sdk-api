@@ -63,7 +63,7 @@ Resets a row.
 
 Type: <b>long</b>
 
-The <a href="tomconstants.htm">tomRowUpdate</a> reset value.
+The <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomRowUpdate</a> reset value.
 
 
 ## -returns

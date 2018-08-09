@@ -145,7 +145,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-If this function returns an icon handle in the <b>hIcon</b> member of the <a href="https://msdn.microsoft.com/4d32826a-bb40-4805-9826-801c142b8d28">SHSTOCKICONINFO</a>  structure pointed to by <i>psii</i>, you are responsible for freeing the icon with <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> when you no longer need it.
+If this function returns an icon handle in the <b>hIcon</b> member of the <a href="https://msdn.microsoft.com/4d32826a-bb40-4805-9826-801c142b8d28">SHSTOCKICONINFO</a>  structure pointed to by <i>psii</i>, you are responsible for freeing the icon with <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> when you no longer need it.
 
 
 

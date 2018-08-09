@@ -154,7 +154,7 @@ Typically, this is <b>NULL</b>. Otherwise, this is a pointer to an
 ### -param ppNamespace [out]
 
 Receives a pointer to an 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> object bound to the specified namespace. This pointer has a positive reference count. The caller must call <a href="_com_iunknown_release">IWbemServices::Release</a> on the pointer when it is no longer required. This pointer is set to point to <b>NULL</b> when there is an error.
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> object bound to the specified namespace. This pointer has a positive reference count. The caller must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IWbemServices::Release</a> on the pointer when it is no longer required. This pointer is set to point to <b>NULL</b> when there is an error.
 
 
 ## -returns

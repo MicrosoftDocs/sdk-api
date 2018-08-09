@@ -128,7 +128,7 @@ The <i>ppropvar</i> parameter is invalid. The <a href="https://msdn.microsoft.co
 
 For more information, see the <i>type</i> attribute of the <a href="shell.propdesc_schema_typeInfo">typeInfo</a> element in the property's .propdesc file.
 
-Most property descriptions specify the type that their values are expected to use.  For example, the property description for <a href="shell.props_System_Title">System.Title</a> specifies that System.Title values should use <code>VT_LPWSTR</code>. This method coerces values to this type, and coerces the result into a canonical form.
+Most property descriptions specify the type that their values are expected to use.  For example, the property description for <a href="https://msdn.microsoft.com/en-us/library/Bb787584(v=VS.85).aspx">System.Title</a> specifies that System.Title values should use <code>VT_LPWSTR</code>. This method coerces values to this type, and coerces the result into a canonical form.
 
 It is important to note that if this method fails, it will have already called the <a href="shell.PropVariantClear">PropVariantClear</a> on the input <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure. Only if this method succeeds is the calling application responsible for calling the <b>PropVariantClear</b> on <i>ppropvar</i> when the structure is no longer needed.
 

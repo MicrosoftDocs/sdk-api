@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the handle to the image list that has been set for an existing header control. You can use this macro or send the <a href="https://msdn.microsoft.com/3e1a979c-60c5-4538-bd4d-16238829062e">HDM_GETIMAGELIST</a> message explicitly. 
+Gets the handle to the image list that has been set for an existing header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775332(v=VS.85).aspx">HDM_GETIMAGELIST</a> message explicitly. 
 
 
 ## -parameters

@@ -68,7 +68,7 @@ The index of the effect to retrieve the connector.
 
 ### -param ppConnector [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/930ffa74-8a38-44c2-8b1c-74c0839d1a5d">IMILBitmapEffectInputConnector</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735274(v=VS.85).aspx">IMILBitmapEffectInputConnector</a>**</b>
 
 A pointer that receives a pointer to the desired effects output connector.
 

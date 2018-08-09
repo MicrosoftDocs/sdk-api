@@ -55,12 +55,12 @@ req.product: GDI+ 1.1
 provides similar functionality.]
 
 <b>IMcastAddressAllocation</b> is the main interface for multicast address allocation. An application calls the COM 
-<a href="_com_cocreateinstance">CoCreateInstance</a> function on this interface to create the multicast client interface object.
+<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function on this interface to create the multicast client interface object.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMcastAddressAllocation</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IMcastAddressAllocation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMcastAddressAllocation</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMcastAddressAllocation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -161,7 +161,7 @@ This component currently supports only IP version 4 addresses.
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

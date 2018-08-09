@@ -173,7 +173,7 @@ Creates a new instance of the <a href="https://msdn.microsoft.com/6c8ae787-3175-
 <a href="https://msdn.microsoft.com/810bf0c2-2780-4ba3-84c1-7b257139e26e">CreateComponentEnumerator</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="_com_IEnumUnknown">IEnumUnknown</a> object of the specified component types.
+Creates an <a href="https://msdn.microsoft.com/en-us/library/ms683764(v=VS.85).aspx">IEnumUnknown</a> object of the specified component types.
 
 </td>
 </tr>

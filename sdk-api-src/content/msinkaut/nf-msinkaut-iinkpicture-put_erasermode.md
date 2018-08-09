@@ -83,7 +83,7 @@ For further details about this property, refer to the <a href="https://msdn.micr
 
 
 
-<a href="tablet.iinkpicture">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
 
 
 

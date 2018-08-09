@@ -107,7 +107,7 @@ Gets the number of change operations in the array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyChangeArray_InsertAt">InsertAt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372033(v=VS.85).aspx">InsertAt</a>
 </td>
 <td align="left" width="63%">
 Inserts a change operation into an array at the specified position.
@@ -139,7 +139,7 @@ Removes a specified change.
 
 
 
-Either call <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> with a class identifier (CLSID) of <b>CLSID_PropertyChangeArray</b> or call <a href="shell.PSCreatePropertyChangeArray">PSCreatePropertyChangeArray</a> to obtain a standard implementation of this interface. This is a container interface that allows multiple changes to be passed to a single file operation to prevent accessing a file multiple times.
+Either call <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> with a class identifier (CLSID) of <b>CLSID_PropertyChangeArray</b> or call <a href="https://msdn.microsoft.com/en-us/library/Bb776491(v=VS.85).aspx">PSCreatePropertyChangeArray</a> to obtain a standard implementation of this interface. This is a container interface that allows multiple changes to be passed to a single file operation to prevent accessing a file multiple times.
 
 
 

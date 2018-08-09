@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/23aeb0f6-857e-490c-9ede-11c0955a45c9">ISearchManager</a> to state proxy use.
+Used by <a href="https://msdn.microsoft.com/en-us/library/Bb231485(v=VS.85).aspx">ISearchManager</a> to state proxy use.
 
 
 ## -enum-fields

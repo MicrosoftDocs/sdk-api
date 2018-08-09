@@ -83,15 +83,15 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/6d71fcda-0cf0-463c-8c60-0415109d154f">DWM Thumbnail Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa969541(v=VS.85).aspx">DWM Thumbnail Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb1e0f1e-a6db-4961-bfa5-9c2218f8c950">Desktop Window Manager Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa969540(v=VS.85).aspx">Desktop Window Manager Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/02c40cda-b87c-44c5-bcc5-3d0e83b7b14b">DwmUpdateThumbnailProperties</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa969526(v=VS.85).aspx">DwmUpdateThumbnailProperties</a>
  
 
  

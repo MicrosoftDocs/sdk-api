@@ -359,7 +359,7 @@ The driver responds to the DDFLIP_NOVSYNC flag (For more information about this 
 
 #### DDCAPS2_NO2DDURING3DSCENE
 
-Two-dimensional operations such as <a href="https://msdn.microsoft.com/e458c430-855c-419b-aa50-144d2b422e78">IDirectDrawSurface7::Blt</a> and <a href="https://msdn.microsoft.com/0267ad70-e7cc-41e8-8325-7ede4a662d13">IDirectDrawSurface7::Lock</a> cannot be performed on any surfaces that Direct3D is using between calls to the <a href="https://msdn.microsoft.com/7fc1375d-b2de-4762-9963-8428938e499f">BeginScene</a> and <a href="https://msdn.microsoft.com/9ff1e40e-9e19-4168-ae29-6f7d204ab236">EndScene</a> methods.
+Two-dimensional operations such as <a href="https://msdn.microsoft.com/e458c430-855c-419b-aa50-144d2b422e78">IDirectDrawSurface7::Blt</a> and <a href="https://msdn.microsoft.com/0267ad70-e7cc-41e8-8325-7ede4a662d13">IDirectDrawSurface7::Lock</a> cannot be performed on any surfaces that Direct3D is using between calls to the <a href="https://msdn.microsoft.com/en-us/library/Bb174350(v=VS.85).aspx">BeginScene</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb174375(v=VS.85).aspx">EndScene</a> methods.
 
 
 
@@ -1348,7 +1348,7 @@ The driver responds to the DDFLIP_NOVSYNC flag (For more information about this 
 
 ##### - dwCaps2.DDCAPS2_NO2DDURING3DSCENE
 
-Two-dimensional operations such as <a href="https://msdn.microsoft.com/e458c430-855c-419b-aa50-144d2b422e78">IDirectDrawSurface7::Blt</a> and <a href="https://msdn.microsoft.com/0267ad70-e7cc-41e8-8325-7ede4a662d13">IDirectDrawSurface7::Lock</a> cannot be performed on any surfaces that Direct3D is using between calls to the <a href="https://msdn.microsoft.com/7fc1375d-b2de-4762-9963-8428938e499f">BeginScene</a> and <a href="https://msdn.microsoft.com/9ff1e40e-9e19-4168-ae29-6f7d204ab236">EndScene</a> methods.
+Two-dimensional operations such as <a href="https://msdn.microsoft.com/e458c430-855c-419b-aa50-144d2b422e78">IDirectDrawSurface7::Blt</a> and <a href="https://msdn.microsoft.com/0267ad70-e7cc-41e8-8325-7ede4a662d13">IDirectDrawSurface7::Lock</a> cannot be performed on any surfaces that Direct3D is using between calls to the <a href="https://msdn.microsoft.com/en-us/library/Bb174350(v=VS.85).aspx">BeginScene</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb174375(v=VS.85).aspx">EndScene</a> methods.
 
 
 ##### - dwCaps2.DDCAPS2_NONLOCALVIDMEM

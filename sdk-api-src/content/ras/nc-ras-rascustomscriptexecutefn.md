@@ -157,7 +157,7 @@ When RAS calls
 
 In some cases, the <b>szUserName</b> of the 
 <a href="https://msdn.microsoft.com/13d15c98-a41b-4bc8-8be6-c0b718b86fea">RASDIALPARAMS</a> structure will be an empty string. In these cases, the custom-scripting DLL should use the Unicode version of the 
-<a href="_win32_getusername">GetUserName</a> function to obtain the name of the current user.
+<a href="https://msdn.microsoft.com/en-us/library/Dd319876(v=VS.85).aspx">GetUserName</a> function to obtain the name of the current user.
 
 
 

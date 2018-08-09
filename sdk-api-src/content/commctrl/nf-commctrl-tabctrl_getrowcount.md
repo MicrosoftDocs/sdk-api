@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the current number of rows of tabs in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/ef104374-1030-46c3-876e-083df73854ab">TCM_GETROWCOUNT</a> message explicitly. 
+Retrieves the current number of rows of tabs in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760596(v=VS.85).aspx">TCM_GETROWCOUNT</a> message explicitly. 
 
 
 ## -parameters

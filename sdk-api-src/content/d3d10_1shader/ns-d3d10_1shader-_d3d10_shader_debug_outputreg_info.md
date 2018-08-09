@@ -60,7 +60,7 @@ Describes a shader output register.
 
 ### -field OutputRegisterSet
 
-Type: <b><a href="https://msdn.microsoft.com/62fbed9b-ca8f-4eb0-8c5d-d18ea7c76c24">D3D10_SHADER_DEBUG_REGTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172425(v=VS.85).aspx">D3D10_SHADER_DEBUG_REGTYPE</a></b>
 
 Must be D3D10_SHADER_DEBUG_REG_TEMP, D3D10_SHADER_DEBUG_REG_TEMPARRAY or D3D10_SHADER_DEBUG_REG_OUTPUT.
 
@@ -88,7 +88,7 @@ A value of -1 means the component is masked out.
 
 ### -field OutputVars
 
-Type: <b><a href="https://msdn.microsoft.com/71239305-2bfa-43b2-ab5c-d6865f9ce998">D3D10_SHADER_DEBUG_OUTPUTVAR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172424(v=VS.85).aspx">D3D10_SHADER_DEBUG_OUTPUTVAR</a></b>
 
 Indicates which variable the instruction is writing per-component.
 
@@ -112,7 +112,7 @@ Offset from OutputReg of the element being written to. Used when writing to an i
 
 
 
-<a href="https://msdn.microsoft.com/b36309e0-1c44-42d9-adcf-33acd753438c">Shader Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
  
 
  

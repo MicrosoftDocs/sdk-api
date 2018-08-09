@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="winauto.uiauto_IUIAutomationElement4_CurrentAnnotationTypes">CurrentAnnotationTypes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt845694(v=VS.85).aspx">CurrentAnnotationTypes</a>
 
 
 

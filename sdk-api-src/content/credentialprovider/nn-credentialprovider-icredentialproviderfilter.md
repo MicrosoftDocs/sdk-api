@@ -70,7 +70,7 @@ The <b>ICredentialProviderFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn932766">Filter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh707480(v=VS.85).aspx">Filter</a>
 </td>
 <td align="left" width="63%">
 Evaluates whether a list of credential providers should be allowed to provide credential tiles.

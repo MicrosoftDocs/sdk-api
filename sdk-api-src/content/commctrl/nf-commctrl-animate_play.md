@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Plays an AVI clip in an animation control. The control plays the clip in the background while the thread continues executing. You can use this macro or send the <a href="https://msdn.microsoft.com/738b7305-bb77-441d-a198-17daf3b76039">ACM_PLAY</a> message explicitly. 
+Plays an AVI clip in an animation control. The control plays the clip in the background while the thread continues executing. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761899(v=VS.85).aspx">ACM_PLAY</a> message explicitly. 
 
 
 ## -parameters
@@ -90,7 +90,7 @@ The number of times to replay the AVI clip. A value of -1 means replay the clip 
 
 
 
-You can use <a href="https://msdn.microsoft.com/6778fe2e-5338-4111-973a-1fc26a3b5f82">Animate_Seek</a> to direct the animation control to display a particular frame of the AVI clip. 
+You can use <a href="https://msdn.microsoft.com/en-us/library/Bb761916(v=VS.85).aspx">Animate_Seek</a> to direct the animation control to display a particular frame of the AVI clip. 
 
 
 

@@ -548,7 +548,7 @@ List is ordered with uppercase Roman letters (I, II, III, ...).
 
 ### -field tomListNumberAsSequence
 
-The value returned by <a href="https://msdn.microsoft.com/e797f494-bc34-4529-a773-22d1ebfe1250">ITextPara::GetListStart</a> is treated as the first code in a Unicode sequence.
+The value returned by <a href="https://msdn.microsoft.com/en-us/library/Bb773987(v=VS.85).aspx">ITextPara::GetListStart</a> is treated as the first code in a Unicode sequence.
 
 
 ### -field tomListNumberedCircle
@@ -3005,19 +3005,19 @@ The actual height of a table row.
 #### - tomTeX
 
 Enables TeX syntax for build up/down operations. The <b>tomTeX</b> style can have the following values: <dl>
-<dd><a href="tomconstants.htm">tomStyleDefault</a></dd>
-<dd><a href="tomconstants.htm">tomStyleScriptScriptCramped</a></dd>
-<dd><a href="tomconstants.htm">tomStyleScriptScript</a></dd>
-<dd><a href="tomconstants.htm">tomStyleScriptCramped</a></dd>
-<dd><a href="tomconstants.htm">tomStyleScript</a></dd>
-<dd><a href="tomconstants.htm">tomStyleTextCramped</a></dd>
-<dd><a href="tomconstants.htm">tomStyleText</a></dd>
-<dd><a href="tomconstants.htm">tomStyleDisplayCramped</a></dd>
-<dd><a href="tomconstants.htm">tomStyleDisplay</a></dd>
-<dd><a href="tomconstants.htm">tomDecDecSize</a></dd>
-<dd><a href="tomconstants.htm">tomDecSize</a></dd>
-<dd><a href="tomconstants.htm">tomIncSize</a></dd>
-<dd><a href="tomconstants.htm">tomIncIncSize</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleDefault</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleScriptScriptCramped</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleScriptScript</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleScriptCramped</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleScript</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleTextCramped</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleText</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleDisplayCramped</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleDisplay</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomDecDecSize</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomDecSize</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomIncSize</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomIncIncSize</a></dd>
 </dl>
 
 
@@ -3101,26 +3101,26 @@ Build down the outermost object without its characters.
 
 Mask for specifying changes to make during math linearization (build down). It can be a combination of the following values. 
 
-<a href="tomconstants.htm">tomMathInsRowBefore</a>
-<a href="tomconstants.htm">tomMathInsRowAfter</a>
-<a href="tomconstants.htm">tomMathInsColBefore</a>
-<a href="tomconstants.htm">tomMathInsColAfter</a>
-<a href="tomconstants.htm">tomMathDeleteRow</a>
-<a href="tomconstants.htm">tomMathDeleteCol</a>
-<a href="tomconstants.htm">tomMathDeleteArg</a>
-<a href="tomconstants.htm">tomMathDeleteArg1</a>
-<a href="tomconstants.htm">tomMathDeleteArg2</a>
-<a href="tomconstants.htm">tomMathMakeFracLinear</a>
-<a href="tomconstants.htm">tomMathMakeFracStacked</a>
-<a href="tomconstants.htm">tomMathMakeFracSlashed</a>
-<a href="tomconstants.htm">tomMathMakeLeftSubSup</a>
-<a href="tomconstants.htm">tomMathMakeSubSup</a>
-<a href="tomconstants.htm">tomMathBackspace</a>
-<a href="tomconstants.htm">tomMathEnter</a>
-<a href="tomconstants.htm">tomMathShiftTab</a>
-<a href="tomconstants.htm">tomMathTab</a>
-<a href="tomconstants.htm">tomMathSubscript</a>
-<a href="tomconstants.htm">tomMathSuperscript</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathInsRowBefore</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathInsRowAfter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathInsColBefore</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathInsColAfter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDeleteRow</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDeleteCol</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDeleteArg</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDeleteArg1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDeleteArg2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathMakeFracLinear</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathMakeFracStacked</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathMakeFracSlashed</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathMakeLeftSubSup</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathMakeSubSup</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathBackspace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathEnter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathShiftTab</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathTab</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathSubscript</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathSuperscript</a>
 
 #### - tomMathInsRowBefore
 

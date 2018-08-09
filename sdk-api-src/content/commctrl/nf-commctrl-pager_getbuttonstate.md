@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the state of the specified button in a pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/58f99b67-fef7-4695-86e2-0579a2f6de2f">PGM_GETBUTTONSTATE</a> message explicitly. 
+Retrieves the state of the specified button in a pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760871(v=VS.85).aspx">PGM_GETBUTTONSTATE</a> message explicitly. 
 
 
 ## -parameters
@@ -69,5 +69,5 @@ Handle to the pager control.
 
 Type: <b>int</b>
 
-Indicates which button to retrieve the state for. See the description for <i>iButton</i> in <a href="https://msdn.microsoft.com/58f99b67-fef7-4695-86e2-0579a2f6de2f">PGM_GETBUTTONSTATE</a> for a list of possible values. 
+Indicates which button to retrieve the state for. See the description for <i>iButton</i> in <a href="https://msdn.microsoft.com/en-us/library/Bb760871(v=VS.85).aspx">PGM_GETBUTTONSTATE</a> for a list of possible values. 
 

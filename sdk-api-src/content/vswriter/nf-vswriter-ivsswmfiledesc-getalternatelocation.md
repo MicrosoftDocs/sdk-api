@@ -159,7 +159,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012.
 
-The caller must call <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory held by the <i>pbstrAlternateLocation</i> parameter.
+The caller must call <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory held by the <i>pbstrAlternateLocation</i> parameter.
 
 The interpretation of the alternate location returned by 
 <b>GetAlternateLocation</b> differs depending on the method used to retrieve the 

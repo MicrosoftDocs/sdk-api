@@ -82,7 +82,7 @@ Type: <b>INT</b>
 Integer that specifies the number of elements in the 
 					<i>presetColors </i> array. This is the same as the number of elements in the 
 					<i>blendPositions</i> array. Before calling the <b>LinearGradientBrush::GetInterpolationColors</b> method of a 
-					<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a> object, call the <a href="https://msdn.microsoft.com/0d0be1a2-7358-4176-b946-042fb3d509eb">LinearGradientBrush::GetInterpolationColorCount</a> method of that same 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a> object, call the <a href="https://msdn.microsoft.com/en-us/library/ms535331(v=VS.85).aspx">LinearGradientBrush::GetInterpolationColorCount</a> method of that same 
 					<b>LinearGradientBrush</b> object to determine the current number of colors. The number of blend positions retrieved is the same as the number of colors retrieved. 
 
 
@@ -107,7 +107,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
 
 
 
@@ -115,27 +115,27 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/9b0236b2-be6b-4918-a106-5b0e6c3dd5ff">Creating a Linear Gradient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533914(v=VS.85).aspx">Creating a Linear Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/7aa94b39-bd4c-4e66-b0dc-77f8953797b1">Filling a Shape with a Color Gradient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533856(v=VS.85).aspx">Filling a Shape with a Color Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d0be1a2-7358-4176-b946-042fb3d509eb">LinearGradientBrush::GetInterpolationColorCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535331(v=VS.85).aspx">LinearGradientBrush::GetInterpolationColorCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/3fbdebd7-e988-4e2e-8bfe-dbac9a34fff7">LinearGradientBrush::SetInterpolationColors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535346(v=VS.85).aspx">LinearGradientBrush::SetInterpolationColors</a>
 
 
 
-<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
 
 
 
@@ -143,7 +143,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/8d5c8780-f03c-40b2-b237-e40121e3d6f6">SolidBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534508(v=VS.85).aspx">SolidBrush</a>
  
 
  

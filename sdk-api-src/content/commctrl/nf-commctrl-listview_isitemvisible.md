@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Indicates whether an item in the list-view control is visible. Use this macro or send the <a href="https://msdn.microsoft.com/355be527-e2b9-46be-96a0-951d72216d92">LVM_ISITEMVISIBLE</a> message explicitly.
+Indicates whether an item in the list-view control is visible. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761135(v=VS.85).aspx">LVM_ISITEMVISIBLE</a> message explicitly.
 
 
 ## -parameters

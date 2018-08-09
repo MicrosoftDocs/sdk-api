@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the scroll range of a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard <a href="https://msdn.microsoft.com/749c3b04-d5a6-4f7c-89a3-a1c0fbb85cb9">SetScrollRange</a> function. 
+Sets the scroll range of a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard <a href="https://msdn.microsoft.com/en-us/library/Bb787599(v=VS.85).aspx">SetScrollRange</a> function. 
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Sets the scroll range of a flat scroll bar. If flat scroll bars are not initiali
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
-A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/ecad7e1b-5250-47fc-bc0f-81889186729f">InitializeFlatSB</a>. 
+A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
 
 
 ### -param code

@@ -69,7 +69,7 @@ Reference to a source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d9
 
 ### -param pbstrOut [out]
 
-Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a>*</b>
 
 Pointer to the extracted property value if one exists; otherwise, contains an empty string.
 
@@ -95,7 +95,7 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 <b>VT_EMPTY</b> is successfully converted to an allocated BSTR containing "".
 
-The calling application is responsible for using <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to release the <b>BSTR</b> pointed to by <i>pbstrOut</i> when it is no longer needed.
+The calling application is responsible for using <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to release the <b>BSTR</b> pointed to by <i>pbstrOut</i> when it is no longer needed.
 
 In addition to the conversions provided by <a href="shell.PropVariantChangeType">PropVariantChangeType</a>, the following special cases apply to <a href="shell.PropVariantToBSTR">PropVariantToBSTR</a>.
                 

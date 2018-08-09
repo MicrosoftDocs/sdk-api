@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>GetMessages</b> method returns a new iterator (archive cursor) for the archive of outbound fax messages. For more information, see <a href="https://msdn.microsoft.com/4eab8319-23ff-4f25-9402-bcb53a440879">FaxOutgoingMessageIterator</a>.
+The <b>GetMessages</b> method returns a new iterator (archive cursor) for the archive of outbound fax messages. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690094(v=VS.85).aspx">FaxOutgoingMessageIterator</a>.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The <b>GetMessages</b> method returns a new iterator (archive cursor) for the ar
 
 Type: <b>Long</b>
 
-A <b>Long</b> value that specifies the size of the prefetch buffer. This value determines how many fax messages the iterator object retrieves from the fax server when the object needs to refresh its contents. The default value is <a href="https://msdn.microsoft.com/447a730c-6033-46ab-9d90-0aad1aa4a429">lDEFAULT_PREFETCH_SIZE</a>.
+A <b>Long</b> value that specifies the size of the prefetch buffer. This value determines how many fax messages the iterator object retrieves from the fax server when the object needs to refresh its contents. The default value is <a href="https://msdn.microsoft.com/en-us/library/ms689196(v=VS.85).aspx">lDEFAULT_PREFETCH_SIZE</a>.
 
 
 ### -param pFaxOutgoingMessageIterator
@@ -76,16 +76,16 @@ A <b>Long</b> value that specifies the size of the prefetch buffer. This value d
 
 #### - FaxOutgoingMessageIterator
 
-Type: <b><a href="https://msdn.microsoft.com/5a34e012-33ae-4950-9f10-a3ad94142ef1">IFaxOutgoingMessageIterator</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms690096(v=VS.85).aspx">IFaxOutgoingMessageIterator</a>**</b>
 
-A <a href="https://msdn.microsoft.com/4eab8319-23ff-4f25-9402-bcb53a440879">FaxOutgoingMessageIterator</a> object.
+A <a href="https://msdn.microsoft.com/en-us/library/ms690094(v=VS.85).aspx">FaxOutgoingMessageIterator</a> object.
 
 
 ## -remarks
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_LOW</a> or <b>farQUERY_OUT_ARCHIVE</b> access right. With the <b>farSUBMIT_LOW</b> access right, the user will be able to use this method only for his own faxes. With the <b>farQUERY_OUT_ARCHIVE</b> access right, he will be able to use this method for all of the faxes on the server.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farSUBMIT_LOW</a> or <b>farQUERY_OUT_ARCHIVE</b> access right. With the <b>farSUBMIT_LOW</b> access right, the user will be able to use this method only for his own faxes. With the <b>farQUERY_OUT_ARCHIVE</b> access right, he will be able to use this method for all of the faxes on the server.
 
 
 
@@ -95,11 +95,11 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/70d
 
 
 
-<a href="https://msdn.microsoft.com/ffed51b3-0a07-4667-8d8d-5054362489c4">FaxOutgoingArchive</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688634(v=VS.85).aspx">FaxOutgoingArchive</a>
 
 
 
-<a href="https://msdn.microsoft.com/072eb2cc-7fd9-4f8e-8583-44384357e708">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693402(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

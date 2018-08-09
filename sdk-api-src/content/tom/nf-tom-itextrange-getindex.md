@@ -63,7 +63,7 @@ Retrieves the story index of the <i>Unit</i> parameter at the specified range St
 
 Type: <b>long</b>
 
-Unit that is indexed. For a list of possible <i>Unit</i> values, see the discussion under <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>. 
+Unit that is indexed. For a list of possible <i>Unit</i> values, see the discussion under <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>. 
 
 
 ### -param pIndex
@@ -134,7 +134,7 @@ The index value returned by the <b>ITextRange::GetIndex</b> method is not valid 
 
 
 
-<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
 
 
 
@@ -142,7 +142,7 @@ The index value returned by the <b>ITextRange::GetIndex</b> method is not valid 
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

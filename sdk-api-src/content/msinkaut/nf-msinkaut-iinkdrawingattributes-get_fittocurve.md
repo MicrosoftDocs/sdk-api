@@ -87,7 +87,7 @@ If you set this property while collecting a stroke or strokes, the ink does not 
 
 
 
-<a href="tablet.iinkdrawingattributes">IInkDrawingAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
 
 
 

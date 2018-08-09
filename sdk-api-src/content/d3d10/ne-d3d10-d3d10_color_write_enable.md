@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Identify which components of each pixel of a render target are writable during <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">blending</a>.
+Identify which components of each pixel of a render target are writable during <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">blending</a>.
 
 
 ## -enum-fields
@@ -97,7 +97,7 @@ These flags can be combined with a bitwise OR.
 
 
 
-<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
  
 
  

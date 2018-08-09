@@ -74,7 +74,7 @@ A pointer to a memory location that receives the <a href="https://msdn.microsoft
 
 ### -param ppDesktopResource [out]
 
-A pointer to a variable that receives the <a href="https://msdn.microsoft.com/de1f11a5-194b-438e-975b-3945179d0ed7">IDXGIResource</a> interface of the surface that contains the desktop bitmap.
+A pointer to a variable that receives the <a href="https://msdn.microsoft.com/en-us/library/Bb174560(v=VS.85).aspx">IDXGIResource</a> interface of the surface that contains the desktop bitmap.
 
 
 ## -returns
@@ -92,7 +92,7 @@ A pointer to a variable that receives the <a href="https://msdn.microsoft.com/de
 <li>DXGI_ERROR_WAIT_TIMEOUT if the time-out interval elapsed before the next desktop frame was available.</li>
 <li>DXGI_ERROR_INVALID_CALL if the application called <b>AcquireNextFrame</b> without releasing the previous frame.</li>
 <li>E_INVALIDARG if one of the parameters to <b>AcquireNextFrame</b> is incorrect; for example, if <i>pFrameInfo</i> is NULL.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
 </ul>
 
 

@@ -162,7 +162,7 @@ Use the <a href="https://msdn.microsoft.com/2682e7ba-dabd-497e-aea4-6d3f837f4f10
 
 
 
-<a href="tablet.iinkoverlay">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
 
 
 

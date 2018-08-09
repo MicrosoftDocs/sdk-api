@@ -82,7 +82,7 @@ This method returns a 32-bit <b>ARGB</b> value that holds the alpha, red, green,
 
 
 
-<a href="https://msdn.microsoft.com/41befc00-c256-4f56-90c3-8fd5aa18bb49">Color::MakeARGB</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536254(v=VS.85).aspx">Color::MakeARGB</a>
  
 
  

@@ -71,11 +71,11 @@ Contains a polarity value to return.
 
 
 
-<a href="base.ioctl_ioctl_pwm_pin_get_polarity">IOCTL_PWM_PIN_GET_POLARITY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt843916(v=VS.85).aspx">IOCTL_PWM_PIN_GET_POLARITY</a>
 
 
 
-<a href="basel.pwm_polarity">PWM_POLARITY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt843932(v=VS.85).aspx">PWM_POLARITY</a>
  
 
  

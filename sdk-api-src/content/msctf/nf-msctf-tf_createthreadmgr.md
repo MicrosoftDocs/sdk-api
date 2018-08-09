@@ -53,7 +53,7 @@ req.product: GDI+ 1.1
 
 The <b>TF_CreateThreadMgr</b> function creates a thread manager object without having to initialize COM. Usage of this method is not recommended, because the calling process must maintain a proper reference count on an object that is owned by Msctf.dll.
 
-It is instead recommended that thread manager objects be created using <a href="_com_cocreateinstance">CoCreateInstance</a> , as demonstrated in <a href="https://msdn.microsoft.com/3a2ba59c-3565-4f54-ac10-923dcb4882cb">ITfThreadMgr</a>.
+It is instead recommended that thread manager objects be created using <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> , as demonstrated in <a href="https://msdn.microsoft.com/3a2ba59c-3565-4f54-ac10-923dcb4882cb">ITfThreadMgr</a>.
 
 
 ## -parameters
@@ -98,7 +98,7 @@ Pointer to an <b>ITfThreadMgr</b> interface pointer that receives the thread man
 
 
 
-<a href="_com_cocreateinstance">CoCreateInstance</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
 
 
 

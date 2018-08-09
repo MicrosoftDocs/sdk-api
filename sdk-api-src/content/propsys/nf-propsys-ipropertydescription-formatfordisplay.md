@@ -172,7 +172,7 @@ You must initialize Component Object Model (COM) with <a href="https://msdn.micr
 
 On success, this method gets a formatted Unicode string representation of a property value for a specified <a href="shell.PROPERTYKEY">PROPERTYKEY</a>, and one or more <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a>.
 
-The purpose of this method is to convert data into a string suitable for display to the user. The value is formatted according to the current locale, the language of the user, the <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a>, and the property description specified by the property key. For information about how the property description schema influences the formatting of the value, see <a href="shell.propdesc_schema_displayInfo">displayInfo</a>, <a href="shell.propdesc_schema_stringFormat">stringFormat</a>, <a href="shell.propdesc_schema_booleanFormat">booleanFormat</a>, <a href="shell.propdesc_schema_numberFormat">numberFormat</a>, <a href="https://msdn.microsoft.com/3ed64cf2-d6f3-4ad0-9194-838e82df7472">NMDATETIMEFORMAT</a>,  and <a href="shell.propdesc_schema_enumeratedList">enumeratedList</a>. Typically, the <b>PROPDESC_FORMAT_FLAGS</b> are used to modify the format prescribed by the property description.
+The purpose of this method is to convert data into a string suitable for display to the user. The value is formatted according to the current locale, the language of the user, the <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a>, and the property description specified by the property key. For information about how the property description schema influences the formatting of the value, see <a href="shell.propdesc_schema_displayInfo">displayInfo</a>, <a href="shell.propdesc_schema_stringFormat">stringFormat</a>, <a href="shell.propdesc_schema_booleanFormat">booleanFormat</a>, <a href="shell.propdesc_schema_numberFormat">numberFormat</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb761731(v=VS.85).aspx">NMDATETIMEFORMAT</a>,  and <a href="shell.propdesc_schema_enumeratedList">enumeratedList</a>. Typically, the <b>PROPDESC_FORMAT_FLAGS</b> are used to modify the format prescribed by the property description.
 
 The output string can contain Unicode directional characters. These nonspacing characters influence the Unicode bidirectional algorithm so that the values appear correctly when a left to right (LTR) language is drawn on an right to left (RTL) window, and vice versa. These characters include the following: <code>"\x200e", "\x200f", "\x202a", "\x202b", "\x202c", "\x202d", "\x202e".</code>
 
@@ -185,7 +185,7 @@ The following properties use special formats and are unaffected by the <a href="
 </tr>
 <tr>
 <td>
-<a href="shell.props_System_FileAttributes">System.FileAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb760693(v=VS.85).aspx">System.FileAttributes</a>
 </td>
 <td>The following file attributes are converted to letters and appended to create a string (for example, a value of 0x1801 (FILE_ATTRIBUTE_READONLY | FILE_ATTRIBUTE_COMPRESSED | FILE_ATTRIBUTE_OFFLINE) is converted to "RCO"):
                             
@@ -202,13 +202,13 @@ The following properties use special formats and are unaffected by the <a href="
 </tr>
 <tr>
 <td>
-<a href="shell.props_System_Photo_ISOSpeed">System.Photo.ISOSpeed</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb760483(v=VS.85).aspx">System.Photo.ISOSpeed</a>
 </td>
 <td>For example, "ISO-400".</td>
 </tr>
 <tr>
 <td>
-<a href="shell.props_System_Photo_ShutterSpeed">System.Photo.ShutterSpeed</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787267(v=VS.85).aspx">System.Photo.ShutterSpeed</a>
 </td>
 <td>
 The APEX value is converted to an exposure time using this formula:
@@ -221,13 +221,13 @@ For example, "2 sec."or "1/125 sec.".
 </tr>
 <tr>
 <td>
-<a href="shell.props_System_Photo_ExposureTime">System.Photo.ExposureTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb760438(v=VS.85).aspx">System.Photo.ExposureTime</a>
 </td>
 <td>For example,  "2 sec."or "1/125 sec." </td>
 </tr>
 <tr>
 <td>
-<a href="shell.props_System_Photo_Aperture">System.Photo.Aperture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb760308(v=VS.85).aspx">System.Photo.Aperture</a>
 </td>
 <td>
 The APEX value is converted to an F number using this formula:
@@ -240,49 +240,49 @@ For example, "f/5.6".
 </tr>
 <tr>
 <td>
-<a href="shell.props_System_Photo_FNumber">System.Photo.FNumber</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb760459(v=VS.85).aspx">System.Photo.FNumber</a>
 </td>
 <td>For example,  "f/5.6".</td>
 </tr>
 <tr>
 <td>
-<a href="shell.props_System_Photo_SubjectDistance">System.Photo.SubjectDistance</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787273(v=VS.85).aspx">System.Photo.SubjectDistance</a>
 </td>
 <td>For example, "15 m"or "250 mm".</td>
 </tr>
 <tr>
 <td>
-<a href="shell.props_System_Photo_FocalLength">System.Photo.FocalLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb760462(v=VS.85).aspx">System.Photo.FocalLength</a>
 </td>
 <td>For example,  "50 mm".</td>
 </tr>
 <tr>
 <td>
-<a href="shell.props_System_Photo_FlashEnergy">System.Photo.FlashEnergy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb760447(v=VS.85).aspx">System.Photo.FlashEnergy</a>
 </td>
 <td>For example,  "500 bpcs".</td>
 </tr>
 <tr>
 <td>
-<a href="shell.props_System_Photo_ExposureBias">System.Photo.ExposureBias</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb760423(v=VS.85).aspx">System.Photo.ExposureBias</a>
 </td>
 <td>For example, "-2 step", " 0 step", or "+3 step".</td>
 </tr>
 <tr>
 <td>
-<a href="shell.props_System_Computer_DecoratedFreeSpace">System.Computer.DecoratedFreeSpace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787749(v=VS.85).aspx">System.Computer.DecoratedFreeSpace</a>
 </td>
 <td>For example, "105 MB free of 13.2 GB".</td>
 </tr>
 <tr>
 <td>
-<a href="shell.props_System_ItemType">System.ItemType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb760781(v=VS.85).aspx">System.ItemType</a>
 </td>
 <td>For example, "Application" or "JPEG Image".</td>
 </tr>
 <tr>
 <td>
-<a href="shell.props_System_ComputerName">System.ComputerName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb760662(v=VS.85).aspx">System.ComputerName</a>
 </td>
 <td>For example, "LITWARE05 (this computer)" or "testbox07".</td>
 </tr>

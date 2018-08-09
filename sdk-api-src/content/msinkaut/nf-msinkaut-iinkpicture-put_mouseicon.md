@@ -85,7 +85,7 @@ You can use the <b>MouseIcon</b> property to load either cursor or icon files. T
 
 
 
-<a href="tablet.iinkpicture">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
 
 
 

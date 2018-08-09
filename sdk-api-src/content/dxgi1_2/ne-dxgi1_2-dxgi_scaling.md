@@ -61,7 +61,7 @@ Identifies resize behavior when the back-buffer size does not match the size of 
 
 ### -field DXGI_SCALING_STRETCH
 
-Directs DXGI to make the back-buffer contents scale to fit the presentation target size. This is the implicit behavior of DXGI when you call the <a href="https://msdn.microsoft.com/c6c32336-fbea-420b-b0d9-1c1cf3893688">IDXGIFactory::CreateSwapChain</a> method.
+Directs DXGI to make the back-buffer contents scale to fit the presentation target size. This is the implicit behavior of DXGI when you call the <a href="https://msdn.microsoft.com/en-us/library/Bb174537(v=VS.85).aspx">IDXGIFactory::CreateSwapChain</a> method.
 
 
 ### -field DXGI_SCALING_NONE

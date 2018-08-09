@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Contains information used in handling the <a href="https://msdn.microsoft.com/af9ecc27-2004-4c45-9f1d-9ee0b2b50ff6">TTN_GETDISPINFO</a> notification code. This structure supersedes the 
+Contains information used in handling the <a href="https://msdn.microsoft.com/en-us/library/Bb760269(v=VS.85).aspx">TTN_GETDISPINFO</a> notification code. This structure supersedes the 
 			<b>TOOLTIPTEXT</b> structure. 
 
 
@@ -63,10 +63,10 @@ Contains information used in handling the <a href="https://msdn.microsoft.com/af
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field lpszText
@@ -94,7 +94,7 @@ Handle to the instance that contains a string resource to be used as the tooltip
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Flags that indicates how to interpret the <b>idFrom</b> member of the included <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure. 
+Flags that indicates how to interpret the <b>idFrom</b> member of the included <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure. 
 
 <table>
 <tr>

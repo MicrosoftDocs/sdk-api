@@ -63,7 +63,7 @@ Retrieves the container format of the decoder.
 
 Type: <b>GUID*</b>
 
-The container format of the decoder. The native container format GUIDs are listed in <a href="_wic_guids_clsids.htm">WIC GUIDs and CLSIDs</a>.
+The container format of the decoder. The native container format GUIDs are listed in <a href="https://msdn.microsoft.com/en-us/library/Ee719882(v=VS.85).aspx">WIC GUIDs and CLSIDs</a>.
 
 
 ## -returns

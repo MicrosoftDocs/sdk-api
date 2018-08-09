@@ -77,7 +77,7 @@ Returns a floating point value that represents the frequency ratio.
 
 
 
-<b>XAudio2SemitonesToFrequencyRatio</b> can be used to calculate the Ratio parameter value passed to the function <a href="https://msdn.microsoft.com/58D458C3-528B-4696-8A24-2D66B93695C3">IXAudio2SourceVoice::SetFrequencyRatio</a>.
+<b>XAudio2SemitonesToFrequencyRatio</b> can be used to calculate the Ratio parameter value passed to the function <a href="https://msdn.microsoft.com/en-us/library/Ee418469(v=VS.85).aspx">IXAudio2SourceVoice::SetFrequencyRatio</a>.
 
 
 

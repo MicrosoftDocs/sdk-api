@@ -118,7 +118,7 @@ The object can install these tools by passing the width in pixels that is to be 
 lpbw-&gt;bottom =  0 
 lpbw-&gt;lLeft  =  5 
 lpbw-&gt;right  =  5 </code></pre>
-<div class="alert"><b>Note</b>  While executing <b>IOleInPlaceUIWindow::RequestBorderSpace</b>, do not make calls to the <a href="_win32_PeekMessage_cpp">PeekMessage</a> or <a href="_win32_GetMessage_cpp">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <b>IOleInPlaceUIWindow::RequestBorderSpace</b>.</div>
+<div class="alert"><b>Note</b>  While executing <b>IOleInPlaceUIWindow::RequestBorderSpace</b>, do not make calls to the <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <b>IOleInPlaceUIWindow::RequestBorderSpace</b>.</div>
 <div> </div>
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 If the amount of space an active object uses for its toolbars is irrelevant to the container, it can simply return NOERROR as shown in the following <b>IOleInPlaceUIWindow::RequestBorderSpace</b> example. Containers should not unduly restrict the display of tools by an active in-place object.

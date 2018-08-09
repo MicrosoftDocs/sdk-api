@@ -64,9 +64,9 @@ Gets the feature level of the hardware device.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/9a6e75ba-3925-4ec7-83c7-53efdcc096cd">D3D10_FEATURE_LEVEL1</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb694529(v=VS.85).aspx">D3D10_FEATURE_LEVEL1</a></b>
 
-The feature level (see <a href="https://msdn.microsoft.com/9a6e75ba-3925-4ec7-83c7-53efdcc096cd">D3D10_FEATURE_LEVEL1</a>).
+The feature level (see <a href="https://msdn.microsoft.com/en-us/library/Bb694529(v=VS.85).aspx">D3D10_FEATURE_LEVEL1</a>).
 
 
 
@@ -85,7 +85,7 @@ This method requires Windows Vista Service Pack 1.
 
 
 
-<a href="https://msdn.microsoft.com/511f710d-f35e-46bf-93e0-47b6ceb5c84d">ID3D10Device1 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb694546(v=VS.85).aspx">ID3D10Device1 Interface</a>
  
 
  

@@ -98,7 +98,7 @@ The name of the resource to share. The name is limited to MAX_PATH characters. N
 						
 						You will need the  resource name if you  call the <a href="https://msdn.microsoft.com/5A7575E4-382E-4A2F-AFE8-2E5850526E75">ID3D11Device1::OpenSharedResourceByName</a> method to access the shared resource by name. If you instead  call the <a href="https://msdn.microsoft.com/4751B49E-01DB-467B-879C-743C8B43DDA5">ID3D11Device1::OpenSharedResource1</a> method to access the shared resource by handle, set this parameter to <b>NULL</b>.
 
-If <i>lpName</i> matches the name of an existing resource, <b>CreateSharedHandle</b> fails with <a href="dxgi_error.htm">DXGI_ERROR_NAME_ALREADY_EXISTS</a>. This occurs because these objects share the same namespace.
+If <i>lpName</i> matches the name of an existing resource, <b>CreateSharedHandle</b> fails with <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NAME_ALREADY_EXISTS</a>. This occurs because these objects share the same namespace.
 
 The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\). For more information, see 
 <a href="https://msdn.microsoft.com/771e0bbf-bd73-4e87-aa1e-945c1287b517">Kernel Object Namespaces</a>. Fast user switching is implemented using Terminal Services sessions. Kernel object names must follow the guidelines outlined for Terminal Services so that applications can support multiple users.
@@ -118,11 +118,11 @@ A pointer to a variable that receives the NT HANDLE value to the resource to sha
 Returns S_OK if successful; otherwise, returns one of the following values:
 
 <ul>
-<li><a href="dxgi_error.htm">DXGI_ERROR_INVALID_CALL</a> if one of the parameters is invalid.</li>
-<li><a href="dxgi_error.htm">DXGI_ERROR_NAME_ALREADY_EXISTS</a> if the supplied name of the resource to share is already associated with another resource.</li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a> if one of the parameters is invalid.</li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NAME_ALREADY_EXISTS</a> if the supplied name of the resource to share is already associated with another resource.</li>
 <li>E_ACCESSDENIED if the object is being created in a protected namespace.</li>
 <li>E_OUTOFMEMORY if sufficient memory is not available to create the handle.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic. </li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic. </li>
 </ul>
 <b>Platform Update for Windows 7:  </b>On Windows 7 or Windows Server 2008 R2 with the <a href="http://support.microsoft.com/kb/2670838">Platform Update for Windows 7</a> installed, <b>CreateSharedHandle</b> fails with E_NOTIMPL. For more info about the Platform Update for Windows 7, see <a href="https://msdn.microsoft.com/C6DC0D38-E17C-4924-AF7C-6AE74C6C50D1">Platform Update for Windows 7</a>. 
 
@@ -133,7 +133,7 @@ Returns S_OK if successful; otherwise, returns one of the following values:
 
 
 
-<b>CreateSharedHandle</b> only returns the NT handle when you  created the resource as shared and specified that it uses NT handles (that is, you set the <a href="https://msdn.microsoft.com/2a324055-21b0-4dad-a8e0-781905329dc2">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> and <a href="https://msdn.microsoft.com/2a324055-21b0-4dad-a8e0-781905329dc2">D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX</a> flags). If you  created the resource as shared and specified that it uses NT handles, you must use <b>CreateSharedHandle</b> to get a handle for sharing.  In this situation, you can't use the <a href="https://msdn.microsoft.com/7fa92667-2e37-498b-994b-7c576754b86b">IDXGIResource::GetSharedHandle</a> method because it will fail.
+<b>CreateSharedHandle</b> only returns the NT handle when you  created the resource as shared and specified that it uses NT handles (that is, you set the <a href="https://msdn.microsoft.com/2a324055-21b0-4dad-a8e0-781905329dc2">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> and <a href="https://msdn.microsoft.com/2a324055-21b0-4dad-a8e0-781905329dc2">D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX</a> flags). If you  created the resource as shared and specified that it uses NT handles, you must use <b>CreateSharedHandle</b> to get a handle for sharing.  In this situation, you can't use the <a href="https://msdn.microsoft.com/en-us/library/Bb174562(v=VS.85).aspx">IDXGIResource::GetSharedHandle</a> method because it will fail.
 
 You can pass the handle that  <b>CreateSharedHandle</b> returns in a call to the <a href="https://msdn.microsoft.com/4751B49E-01DB-467B-879C-743C8B43DDA5">ID3D11Device1::OpenSharedResource1</a> method to give a device access to a shared resource that you created on a different device.
 

@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Returns the index of the item that has the focus in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/ae6ee159-c769-41d6-b0bb-2a9ade4c0e71">TCM_GETCURFOCUS</a> message explicitly. 
+Returns the index of the item that has the focus in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760581(v=VS.85).aspx">TCM_GETCURFOCUS</a> message explicitly. 
 
 
 ## -parameters

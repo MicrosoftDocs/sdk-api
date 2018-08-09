@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information specific to an <a href="https://msdn.microsoft.com/4e9b91e3-d042-4fd0-b063-a9e6ea9ad564">NM_CUSTOMDRAW (list view)</a> notification code sent by a list-view control. 
+Contains information specific to an <a href="https://msdn.microsoft.com/en-us/library/Bb774865(v=VS.85).aspx">NM_CUSTOMDRAW (list view)</a> notification code sent by a list-view control. 
 
 
 ## -struct-fields
@@ -60,10 +60,10 @@ Contains information specific to an <a href="https://msdn.microsoft.com/4e9b91e3
 
 ### -field nmcd
 
-Type: <b><a href="https://msdn.microsoft.com/c8a990a9-fb39-46e7-a5d2-fc817ff46e1b">NMCUSTOMDRAW</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775483(v=VS.85).aspx">NMCUSTOMDRAW</a></b>
 
 
-<a href="https://msdn.microsoft.com/c8a990a9-fb39-46e7-a5d2-fc817ff46e1b">NMCUSTOMDRAW</a> structure that contains general custom draw information. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb775483(v=VS.85).aspx">NMCUSTOMDRAW</a> structure that contains general custom draw information. 
 
 
 ### -field clrText
@@ -77,7 +77,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
 
-<b>COLORREF</b> value representing the color that will be used to display text background in the list-view control. In <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0., </a> this member is ignored if the background image is set with the <a href="https://msdn.microsoft.com/8fdd363c-ac12-498b-80b7-aaa5741cfd76">LVM_SETBKIMAGE</a> message. 
+<b>COLORREF</b> value representing the color that will be used to display text background in the list-view control. In <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0., </a> this member is ignored if the background image is set with the <a href="https://msdn.microsoft.com/en-us/library/Bb761155(v=VS.85).aspx">LVM_SETBKIMAGE</a> message. 
 
 
 ### -field iSubItem
@@ -240,7 +240,7 @@ Align the group on the right.
 
 
 
-<div class="alert"><b>Note</b>  Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 

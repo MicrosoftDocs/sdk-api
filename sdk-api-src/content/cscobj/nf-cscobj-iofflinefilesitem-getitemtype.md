@@ -83,7 +83,7 @@ Another way to determine an item's type is to query the item for one of the foll
 <a href="https://msdn.microsoft.com/53b9af4b-7526-4b54-bae2-61c97aa67ebf">IOfflineFilesFileItem</a>
 <a href="https://msdn.microsoft.com/724fabf6-fb27-49c9-8f99-dc61377ac921">IOfflineFilesServerItem</a>
 <a href="https://msdn.microsoft.com/aff6be4a-07bc-4a74-8fbf-92fe8985f5b6">IOfflineFilesShareItem</a>
-If the call to <a href="_com_iunknown_queryinterface">QueryInterface</a> succeeds, the item is of the requested type.  An item can be of only one of the above types.
+If the call to <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> succeeds, the item is of the requested type.  An item can be of only one of the above types.
 
 
 

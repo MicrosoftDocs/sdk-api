@@ -63,7 +63,7 @@ Expands this range so that any partial units it contains are completely containe
 
 Type: <b>long</b>
 
-Unit to include, if it is partially within the range. The default value is <code>tomWord</code>. For a list of the other <i>Unit</i> values, see the discussion under <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>. 
+Unit to include, if it is partially within the range. The default value is <code>tomWord</code>. For a list of the other <i>Unit</i> values, see the discussion under <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>. 
 
 
 ### -param pDelta
@@ -132,7 +132,7 @@ For example, if an insertion point is at the beginning, the end, or within a wor
 
 
 
-<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
 
 
 
@@ -140,7 +140,7 @@ For example, if an insertion point is at the beginning, the end, or within a wor
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

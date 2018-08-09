@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information about the two rectangles of a split button. Sent with the <a href="https://msdn.microsoft.com/ce72778d-3cca-46a4-9d05-40954a18681d">NM_GETCUSTOMSPLITRECT</a> notification.
+Contains information about the two rectangles of a split button. Sent with the <a href="https://msdn.microsoft.com/en-us/library/Bb775534(v=VS.85).aspx">NM_GETCUSTOMSPLITRECT</a> notification.
 
 
 ## -struct-fields
@@ -60,9 +60,9 @@ Contains information about the two rectangles of a split button. Sent with the <
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about the notification. 
+An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification. 
 
 
 ### -field rcClient

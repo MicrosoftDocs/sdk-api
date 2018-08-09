@@ -77,7 +77,7 @@ The type of text-edit change that occurred.
 
 ### -param pChangedData [in]
 
-Type: <b><a href="uiauto_WorkingWithSafeArrays.htm">SAFEARRAY</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a>*</b>
 
 The event data. Should be assignable as a <b>VAR</b> of type <b>VT_BSTR</b>.
 

@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When a folder is added to a library it is also added to the <a href="_search_3x_WDS_Overview">Windows Search</a> index.
+When a folder is added to a library it is also added to the <a href="https://msdn.microsoft.com/en-us/library/Ff628790(v=VS.85).aspx">Windows Search</a> index.
 
 For convenience, <a href="https://msdn.microsoft.com/308e7905-dfa1-438f-9e7e-f895517e7adb">SHAddFolderPathToLibrary</a> can be used in place of this method.
 

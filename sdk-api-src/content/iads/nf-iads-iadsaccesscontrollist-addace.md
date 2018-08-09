@@ -61,7 +61,7 @@ req.product: GDI+ 1.1
 
 ### -param pAccessControlEntry [in]
 
-Pointer to the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface of the <a href="https://msdn.microsoft.com/6d2cd45b-0dc6-4bb3-9c41-014bec71f258">IADsAccessControlEntry</a> object to be added. This parameter cannot be <b>NULL</b>.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface of the <a href="https://msdn.microsoft.com/6d2cd45b-0dc6-4bb3-9c41-014bec71f258">IADsAccessControlEntry</a> object to be added. This parameter cannot be <b>NULL</b>.
 
 
 ## -returns

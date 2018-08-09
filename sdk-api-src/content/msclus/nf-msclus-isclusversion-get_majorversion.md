@@ -72,7 +72,7 @@ This property is read-only.
 
 The <b>MajorVersion</b> and 
     <a href="https://msdn.microsoft.com/c335922c-ac62-4b37-bafb-b29d58545c85">ClusVersion.MinorVersion</a> properties together 
-    form a complete Windows <a href="v_gly.htm">version number</a>.
+    form a complete Windows <a href="https://msdn.microsoft.com/en-us/library/Aa373122(v=VS.85).aspx">version number</a>.
 
 <div class="code"><span codelanguage="VisualBasic"><table>
 <tr>

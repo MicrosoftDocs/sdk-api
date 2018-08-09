@@ -51,9 +51,9 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Text Object Model (TOM) rich text-range attributes are accessed through a pair of dual interfaces, <a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a> and <a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>.
+Text Object Model (TOM) rich text-range attributes are accessed through a pair of dual interfaces, <a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>.
 
-The <b>ITextPara2</b> interface extends <a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>, providing the equivalent of the Microsoft Word format-paragraph dialog.
+The <b>ITextPara2</b> interface extends <a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>, providing the equivalent of the Microsoft Word format-paragraph dialog.
 
 
 ## -inheritance

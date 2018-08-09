@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>ColorCurve::GetParameters</b> gets the current values of the parameters of this <a href="https://msdn.microsoft.com/1ea62f08-f591-4da5-8fcc-74df7ddcebe4">ColorCurve</a> object.
+The <b>ColorCurve::GetParameters</b> gets the current values of the parameters of this <a href="https://msdn.microsoft.com/en-us/library/ms534429(v=VS.85).aspx">ColorCurve</a> object.
 
 
 ## -parameters
@@ -63,14 +63,14 @@ The <b>ColorCurve::GetParameters</b> gets the current values of the parameters o
 
 Type: <b>UINT*</b>
 
-Pointer to a <b>UINT</b> that specifies the size, in bytes, of a <a href="https://msdn.microsoft.com/53204bea-b6b6-4a7c-a237-4754fbb92628">ColorCurveParams</a> structure.
+Pointer to a <b>UINT</b> that specifies the size, in bytes, of a <a href="https://msdn.microsoft.com/en-us/library/ms534060(v=VS.85).aspx">ColorCurveParams</a> structure.
 
 
 ### -param parameters [out]
 
-Type: <b><a href="https://msdn.microsoft.com/53204bea-b6b6-4a7c-a237-4754fbb92628">ColorCurveParams</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534060(v=VS.85).aspx">ColorCurveParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/53204bea-b6b6-4a7c-a237-4754fbb92628">ColorCurveParams</a> structure that receives the parameter values.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534060(v=VS.85).aspx">ColorCurveParams</a> structure that receives the parameter values.
 
 
 ## -returns
@@ -94,11 +94,11 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/1ea62f08-f591-4da5-8fcc-74df7ddcebe4">ColorCurve</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534429(v=VS.85).aspx">ColorCurve</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e523edd-324d-473a-8a3b-36d99f4327ee">ColorCurve::SetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536241(v=VS.85).aspx">ColorCurve::SetParameters</a>
  
 
  

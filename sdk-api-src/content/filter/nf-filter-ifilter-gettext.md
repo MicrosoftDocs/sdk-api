@@ -51,9 +51,9 @@ req.product: Internet Explorer 5
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
-Retrieves text (text-type properties) from the current chunk, which must have a <a href="https://msdn.microsoft.com/67a39a45-faca-4aad-8d9c-5ee0525a59e7">CHUNKSTATE</a> enumeration value of CHUNK_TEXT.
+Retrieves text (text-type properties) from the current chunk, which must have a <a href="https://msdn.microsoft.com/en-us/library/ms691020(v=VS.85).aspx">CHUNKSTATE</a> enumeration value of CHUNK_TEXT.
 
 
 
@@ -103,7 +103,7 @@ The operation was completed successfully.
 </dl>
 </td>
 <td width="60%">
-The <b>flags</b> member of the <a href="https://msdn.microsoft.com/fb3e432d-3c8b-4567-9dc3-c35961f100ff">STAT_CHUNK</a> structure for the current chunk does not have a value of CHUNK_TEXT. 
+The <b>flags</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms691016(v=VS.85).aspx">STAT_CHUNK</a> structure for the current chunk does not have a value of CHUNK_TEXT. 
 
 
 </td>
@@ -115,7 +115,7 @@ The <b>flags</b> member of the <a href="https://msdn.microsoft.com/fb3e432d-3c8b
 </dl>
 </td>
 <td width="60%">
-All the text in the current chunk has been returned. Additional calls to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a> method should return this error until the <a href="https://msdn.microsoft.com/4d4f3150-deec-40b6-a945-b4cea241db8d">IFilter::GetChunk</a> method has been called successfully. 
+All the text in the current chunk has been returned. Additional calls to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a> method should return this error until the <a href="https://msdn.microsoft.com/en-us/library/ms691080(v=VS.85).aspx">IFilter::GetChunk</a> method has been called successfully. 
 
 
 </td>
@@ -153,11 +153,11 @@ If the current chunk is too large for the <i>awcBuffer</i> array, more than one 
 
 
 
-<a href="https://msdn.microsoft.com/67a39a45-faca-4aad-8d9c-5ee0525a59e7">CHUNKSTATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691020(v=VS.85).aspx">CHUNKSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fb7219a-608c-43f8-a8e3-48bbf0218c6e">IFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>
  
 
  

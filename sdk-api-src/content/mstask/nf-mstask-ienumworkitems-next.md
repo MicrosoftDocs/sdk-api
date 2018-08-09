@@ -70,7 +70,7 @@ The number of tasks to retrieve.
 
 ### -param rgpwszNames [out]
 
-A pointer to an array of pointers (<b>LPWSTR</b>) to <b>null</b>-terminated character strings containing the file names of the tasks returned from the enumeration sequence. These file names are taken from the <a href="s.htm">Scheduled Tasks folder</a> and have the ".job" extension.
+A pointer to an array of pointers (<b>LPWSTR</b>) to <b>null</b>-terminated character strings containing the file names of the tasks returned from the enumeration sequence. These file names are taken from the <a href="https://msdn.microsoft.com/en-us/library/Aa382137(v=VS.85).aspx">Scheduled Tasks folder</a> and have the ".job" extension.
 
 After processing the names returned in <i>rgpwszNames</i>, you must first free each character string in the array and then the array itself using <b>CoTaskMemFree</b>.
 

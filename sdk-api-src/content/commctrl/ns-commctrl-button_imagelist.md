@@ -142,19 +142,19 @@ Center the image.
 
 
 
-<a href="https://msdn.microsoft.com/79383758-53d4-4955-b472-befd338cbec6">BCM_GETIMAGELIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775963(v=VS.85).aspx">BCM_GETIMAGELIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/805d2d9b-3e8f-4323-abaf-0dd5765cd740">BCM_SETIMAGELIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775975(v=VS.85).aspx">BCM_SETIMAGELIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/e194640a-92b7-4ba5-b80c-51a1da9c32cf">Button_GetImageList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761853(v=VS.85).aspx">Button_GetImageList</a>
 
 
 
-<a href="https://msdn.microsoft.com/37d449aa-a503-4ca4-98dc-dae9a1838228">Button_SetImageList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761867(v=VS.85).aspx">Button_SetImageList</a>
 
 
 

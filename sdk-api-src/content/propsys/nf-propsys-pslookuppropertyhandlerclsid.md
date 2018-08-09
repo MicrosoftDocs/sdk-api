@@ -88,7 +88,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-For information on how to register your handler, see <a href="shell.Building_Property_Handlers_Property_Handlers">Initializing Property Handlers</a>.
+For information on how to register your handler, see <a href="https://msdn.microsoft.com/en-us/library/Cc144131(v=VS.85).aspx">Initializing Property Handlers</a>.
 
 This function returns only those handlers registered under <b>HKEY_LOCAL_MACHINE</b>.
 

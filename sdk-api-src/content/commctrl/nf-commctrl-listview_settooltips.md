@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the tooltip control that the list-view control will use to display tooltips. You can use this macro or send the <a href="https://msdn.microsoft.com/5b4335a4-e9f0-4b13-b00b-516af3b60bf1">LVM_SETTOOLTIPS</a> message explicitly. 
+Sets the tooltip control that the list-view control will use to display tooltips. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761216(v=VS.85).aspx">LVM_SETTOOLTIPS</a> message explicitly. 
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A handle to the tooltip control to be set.
 
 
 
-<a href="https://msdn.microsoft.com/3d8277a6-e35d-4b07-9817-d13b42a66fe6">ListView_GetToolTips</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775014(v=VS.85).aspx">ListView_GetToolTips</a>
  
 
  

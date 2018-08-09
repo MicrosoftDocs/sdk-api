@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the virtual number of items in a <a href="List_View_Controls_Overview.htm">virtual list view</a>. You can use this macro or send the <a href="https://msdn.microsoft.com/5e794c12-ddcb-44fc-b0d2-677352602503">LVM_SETITEMCOUNT</a> message explicitly. 
+Sets the virtual number of items in a <a href="List_View_Controls_Overview.htm">virtual list view</a>. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761188(v=VS.85).aspx">LVM_SETITEMCOUNT</a> message explicitly. 
 
 
 ## -parameters
@@ -115,7 +115,7 @@ This macro is intended only for list-view controls that use the <a href="List_vi
 
 If the list-view control was created with the <a href="List_view_window_styles.htm">LVS_OWNERDATA</a> style, this macro sets the virtual number of items that the control contains. 
 
-If the list-view control was created without the <a href="List_view_window_styles.htm">LVS_OWNERDATA</a> style, the <a href="https://msdn.microsoft.com/0752e7a8-e231-4f7e-9a3f-72a22ec0cccd">ListView_SetItemCount</a> macro should be used. 
+If the list-view control was created without the <a href="List_view_window_styles.htm">LVS_OWNERDATA</a> style, the <a href="https://msdn.microsoft.com/en-us/library/Bb775093(v=VS.85).aspx">ListView_SetItemCount</a> macro should be used. 
 
 
 

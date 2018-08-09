@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 Contains extended result information obtained by calling
-			the <a href="https://msdn.microsoft.com/0167c716-8c54-4ec6-b4aa-bec4e8efd515">ChangeWindowMessageFilterEx</a> function.
+			the <a href="https://msdn.microsoft.com/en-us/library/Dd388202(v=VS.85).aspx">ChangeWindowMessageFilterEx</a> function.
 		
 
 
@@ -145,7 +145,7 @@ Certain messages whose value is smaller than <b>WM_USER</b> are required to pass
 		block such messages.
 		
 
-An application may use the <a href="https://msdn.microsoft.com/a78357b4-5069-45f0-b082-66042c42a5fd">ChangeWindowMessageFilter</a> function to 
+An application may use the <a href="https://msdn.microsoft.com/en-us/library/ms632675(v=VS.85).aspx">ChangeWindowMessageFilter</a> function to 
 		allow or block a message in a process-wide manner. 
 		If the message is allowed by either the process message filter 
 		or the window message filter, it will be delivered to the window.
@@ -243,7 +243,7 @@ The following table lists the possible values returned in <b>ExtStatus</b>.
 
 
 
-<a href="https://msdn.microsoft.com/0167c716-8c54-4ec6-b4aa-bec4e8efd515">ChangeWindowMessageFilterEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd388202(v=VS.85).aspx">ChangeWindowMessageFilterEx</a>
  
 
  

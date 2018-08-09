@@ -74,7 +74,7 @@ This method does not return a value.
 
 
 
-Constant and locked parameters such as the input and output formats remain unchanged. Variables set by <a href="https://msdn.microsoft.com/1E6FD9FB-9E99-422E-B2E1-3679FC3EEF32">IXAPOParameters::SetParameters</a> remain unchanged.
+Constant and locked parameters such as the input and output formats remain unchanged. Variables set by <a href="https://msdn.microsoft.com/en-us/library/Ee418447(v=VS.85).aspx">IXAPOParameters::SetParameters</a> remain unchanged.
 
 
 
@@ -100,7 +100,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/21DA61D2-8EDE-496B-8513-D67121697FBA">IXAPO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415893(v=VS.85).aspx">IXAPO</a>
  
 
  

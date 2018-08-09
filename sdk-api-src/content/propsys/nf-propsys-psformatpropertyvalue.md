@@ -126,7 +126,7 @@ The purpose of this function is to convert data into a string suitable for displ
 <a href="shell.propdesc_schema_numberFormat">numberFormat</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/3ed64cf2-d6f3-4ad0-9194-838e82df7472">NMDATETIMEFORMAT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761731(v=VS.85).aspx">NMDATETIMEFORMAT</a>
 </li>
 <li>
 <a href="shell.propdesc_schema_enumeratedList">enumeratedList</a>

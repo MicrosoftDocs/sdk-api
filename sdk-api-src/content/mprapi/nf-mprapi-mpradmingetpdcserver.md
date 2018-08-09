@@ -126,7 +126,7 @@ The <i>lpwsDomainName</i> parameter is <b>NULL</b>, and <i>lpwsServerName</i> pa
 
 The 
 <b>MprAdminGetPDCServer</b> function can obtain the name of the server with the user accounts database given the name of the RAS server, or the name of the domain in which the RAS server resides. To get the server name, call the 
-<a href="_win32_getcomputername">GetComputerName</a> function
+<a href="https://msdn.microsoft.com/en-us/library/ms724295(v=VS.85).aspx">GetComputerName</a> function
 
 If the server name specified by <i>lpszServer</i> is part of a domain, The server returned by 
 <b>MprAdminGetPDCServer</b> will be either the primary domain controller or a backup domain controller.
@@ -134,7 +134,7 @@ If the server name specified by <i>lpszServer</i> is part of a domain, The serve
 If the server name specified by <i>lpszServer</i> is a stand-alone Windows NT/Windows 2000 server (that is, the server or workstation does not participate in a domain), then the server name itself is returned in the <i>lpszUserAccountServer</i> buffer.
 
 You can then use the name of the user account server in a call to the 
-<a href="_win32_netquerydisplayinformation">NetQueryDisplayInformation</a> function to enumerate the users in the user account database. You can also use the server name in calls to the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa370610(v=VS.85).aspx">NetQueryDisplayInformation</a> function to enumerate the users in the user account database. You can also use the server name in calls to the 
 <a href="https://msdn.microsoft.com/d04f6925-ac38-4adf-ac2e-701db5435c90">MprAdminUserGetInfo</a> and 
 <a href="https://msdn.microsoft.com/7f4d5213-56b4-43d2-93c8-ee5ca50b2a19">MprAdminUserSetInfo</a> functions to get and set RAS privileges for a specified user account.
 
@@ -146,7 +146,7 @@ You can then use the name of the user account server in a call to the
 
 
 
-<a href="_win32_getcomputername">GetComputerName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms724295(v=VS.85).aspx">GetComputerName</a>
 
 
 
@@ -158,7 +158,7 @@ You can then use the name of the user account server in a call to the
 
 
 
-<a href="_win32_netquerydisplayinformation">NetQueryDisplayInformation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa370610(v=VS.85).aspx">NetQueryDisplayInformation</a>
 
 
 

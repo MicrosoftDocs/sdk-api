@@ -53,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 The <b>IMofCompiler::CompileFile</b> method compiles a MOF file (including 
     binary MOFs) and stores the information in the 
-    <a href="gloss_w.htm">WMI repository</a>. 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa390843(v=VS.85).aspx">WMI repository</a>. 
     This method performs the same operation as the <a href="https://msdn.microsoft.com/9858da09-fb91-43a4-9817-83b10e2ee08f">Mofcomp</a> 
     command.
 

@@ -173,7 +173,7 @@ GetComboBoxInfo(hwnd, &amp;info);
 
 
 
-<a href="https://msdn.microsoft.com/f7553df7-4309-49fc-9e4a-da9063e6b042">GetComboBoxInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775939(v=VS.85).aspx">GetComboBoxInfo</a>
  
 
  

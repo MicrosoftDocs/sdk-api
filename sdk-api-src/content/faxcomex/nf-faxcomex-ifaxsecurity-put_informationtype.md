@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-The information type is a bitwise combination that indicates what security information will be retrieved from the server when requesting a security descriptor using the <a href="https://msdn.microsoft.com/66911dcd-2c46-4ef3-ae77-cb94249e92e3">Descriptor</a> property or when refreshing the <a href="https://msdn.microsoft.com/0c1fe69c-f10b-4c7d-abe5-1a3e93d56c04">FaxSecurity</a> object using the <a href="https://msdn.microsoft.com/79d5e895-0306-4a40-a101-b83ab012d723">Refresh</a> method. The information type also determines what information is sent to the fax server when you save changes to the <b>FaxSecurity</b> object using the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method.
+The information type is a bitwise combination that indicates what security information will be retrieved from the server when requesting a security descriptor using the <a href="https://msdn.microsoft.com/en-us/library/Aa358878(v=VS.85).aspx">Descriptor</a> property or when refreshing the <a href="https://msdn.microsoft.com/en-us/library/ms689509(v=VS.85).aspx">FaxSecurity</a> object using the <a href="https://msdn.microsoft.com/en-us/library/ms690274(v=VS.85).aspx">Refresh</a> method. The information type also determines what information is sent to the fax server when you save changes to the <b>FaxSecurity</b> object using the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method.
 
 The bits are specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> structure, defined in Winnt.h. Each item of security information is designated by a bit flag. The following values specify the bits applicable to the fax service.
 
@@ -93,7 +93,7 @@ The bits are specified in the <a href="https://msdn.microsoft.com/library/window
 </table>
  
 
-You should set the <b>InformationType</b> property before you read the <a href="https://msdn.microsoft.com/66911dcd-2c46-4ef3-ae77-cb94249e92e3">Descriptor</a> property to ensure that you receive the information that you want and to ensure that you request only the information for which you have the appropriate access rights. Also, the <b>InformationType</b> property will affect what information is sent to the fax server when you call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method. If you do not set the <b>InformationType</b> property, it defaults to the flags DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, and OWNER_SECURITY_INFORMATION.
+You should set the <b>InformationType</b> property before you read the <a href="https://msdn.microsoft.com/en-us/library/Aa358878(v=VS.85).aspx">Descriptor</a> property to ensure that you receive the information that you want and to ensure that you request only the information for which you have the appropriate access rights. Also, the <b>InformationType</b> property will affect what information is sent to the fax server when you call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method. If you do not set the <b>InformationType</b> property, it defaults to the flags DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, and OWNER_SECURITY_INFORMATION.
 
 
 

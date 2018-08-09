@@ -63,14 +63,14 @@ Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138
 
 Type: <b>WORD</b>
 
-<b>WORD</b> value that represents an MS-DOS date. See <a href="61b029cb-8b60-400a-a6bb-a3f6839dc9d2">DosDateTimeToVariantTime</a> for more information about this format.
+<b>WORD</b> value that represents an MS-DOS date. See <a href="https://msdn.microsoft.com/en-us/library/ms221238(v=VS.85).aspx">DosDateTimeToVariantTime</a> for more information about this format.
 
 
 ### -param wTime [in]
 
 Type: <b>WORD</b>
 
-<b>WORD</b> value that represents an MS-DOS time. See <a href="61b029cb-8b60-400a-a6bb-a3f6839dc9d2">DosDateTimeToVariantTime</a> for more information about this format.
+<b>WORD</b> value that represents an MS-DOS time. See <a href="https://msdn.microsoft.com/en-us/library/ms221238(v=VS.85).aspx">DosDateTimeToVariantTime</a> for more information about this format.
 
 
 ### -param pvar [out]
@@ -97,7 +97,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 Creates a <b>VT_DATE</b> variant.
 
-See <a href="61b029cb-8b60-400a-a6bb-a3f6839dc9d2">DosDateTimeToVariantTime</a> for more information about the formats of <i>wDate</i>, <i>wTime</i>, and of the resulting variant date.
+See <a href="https://msdn.microsoft.com/en-us/library/ms221238(v=VS.85).aspx">DosDateTimeToVariantTime</a> for more information about the formats of <i>wDate</i>, <i>wTime</i>, and of the resulting variant date.
 
 This is an inline function, with its source code provided in the header. It is not included in any .dll or .lib file.
 

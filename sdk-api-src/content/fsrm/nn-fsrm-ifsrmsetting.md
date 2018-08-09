@@ -54,14 +54,14 @@ req.product: Internet Explorer 5
 Used to configure FSRM.
 
 To get this interface, call the 
-    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
+    <a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmSetting</b> as the class identifier and 
     <code>__uuidof(IFsrmSetting)</code> as the interface identifier.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmSetting</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFsrmSetting</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmSetting</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmSetting</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

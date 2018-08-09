@@ -101,7 +101,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/2e568966-8f37-460a-8715-76e67593001b">Graphics::SetRenderingOrigin</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535814(v=VS.85).aspx">Graphics::SetRenderingOrigin</a>
  
 
  

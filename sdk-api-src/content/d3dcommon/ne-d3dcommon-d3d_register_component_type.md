@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The register component types, usually used in <a href="https://msdn.microsoft.com/4c789141-5381-4fe9-b54f-c1a2761a5a20">D3D10_SIGNATURE_PARAMETER_DESC</a>.
+The register component types, usually used in <a href="https://msdn.microsoft.com/en-us/library/Bb172446(v=VS.85).aspx">D3D10_SIGNATURE_PARAMETER_DESC</a>.
 
 
 ## -enum-fields
@@ -116,7 +116,7 @@ typedef D3D_REGISTER_COMPONENT_TYPE D3D10_REGISTER_COMPONENT_TYPE;</pre>
 
 
 
-<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
  
 
  

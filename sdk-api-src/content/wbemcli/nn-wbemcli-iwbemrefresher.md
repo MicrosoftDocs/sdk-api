@@ -57,7 +57,7 @@ The
 <b>IWbemRefresher</b> interface provides an entry point through which refreshable objects such as enumerators or refresher objects, can be refreshed. Implementers of 
 <a href="https://msdn.microsoft.com/eb0d12c0-d746-4bae-b47d-50350d33447a">IWbemHiPerfProvider</a> must provide an implementation of this interface.
 
-WMI supplies a client implementation of this interface. Clients can access this interface by calling <a href="_com_cocreateinstance">CoCreateInstance</a> on <b>CLSID_WbemRefresher</b>. This is the only supported implementation on the client.
+WMI supplies a client implementation of this interface. Clients can access this interface by calling <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> on <b>CLSID_WbemRefresher</b>. This is the only supported implementation on the client.
 
 
 ## -inheritance

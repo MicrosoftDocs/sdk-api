@@ -186,7 +186,7 @@ The <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">In
 
 
 
-<a href="tablet.iinkdisp">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
 
 
 

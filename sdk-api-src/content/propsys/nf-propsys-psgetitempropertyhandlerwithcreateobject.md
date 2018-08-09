@@ -166,7 +166,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.Building_Property_Handlers_Property_Handlers">Initializing Property Handlers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Cc144131(v=VS.85).aspx">Initializing Property Handlers</a>
  
 
  

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">depth-stencil</a> state of 
+Sets the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">depth-stencil</a> state of 
     the output-merger stage.
 
 
@@ -62,9 +62,9 @@ Sets the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a87618
 
 ### -param pDepthStencilState [in]
 
-Type: <b><a href="https://msdn.microsoft.com/7cb79259-5575-4307-ab02-8bf11a0acf90">ID3D10DepthStencilState</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173524(v=VS.85).aspx">ID3D10DepthStencilState</a>*</b>
 
-Pointer to a depth-stencil state interface (see <a href="https://msdn.microsoft.com/7cb79259-5575-4307-ab02-8bf11a0acf90">ID3D10DepthStencilState</a>) to bind to the device.
+Pointer to a depth-stencil state interface (see <a href="https://msdn.microsoft.com/en-us/library/Bb173524(v=VS.85).aspx">ID3D10DepthStencilState</a>) to bind to the device.
 
 
 ### -param StencilRef [in]
@@ -87,9 +87,9 @@ Returns nothing.
 
 
 
-To create a depth-stencil state interface, call <a href="https://msdn.microsoft.com/41dab20f-53e7-488d-a0c5-7435122d81b8">ID3D10Device::CreateDepthStencilState</a>.
+To create a depth-stencil state interface, call <a href="https://msdn.microsoft.com/en-us/library/Bb173546(v=VS.85).aspx">ID3D10Device::CreateDepthStencilState</a>.
 
-Depth-stencil state is used by the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger</a> stage to 
+Depth-stencil state is used by the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger</a> stage to 
       setup depth-stencil testing. 
       The stencil reference value is the control value used in the depth-stencil test.
 
@@ -104,7 +104,7 @@ The method will not hold a reference to the interfaces passed in. For that reaso
 
 
 
-<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

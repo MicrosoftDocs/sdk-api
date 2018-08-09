@@ -51,7 +51,7 @@ req.irql:
 
 
 Specifies the algorithm that is used when images are scaled or rotated.
-<div class="alert"><b>Note</b>  Starting in Windows 8, more interpolations modes are available.  See <a href="direct2d.__D2D1_INTERPOLATION_MODE">D2D1_INTERPOLATION_MODE</a> for more info.</div><div> </div>
+<div class="alert"><b>Note</b>  Starting in Windows 8, more interpolations modes are available.  See <a href="https://msdn.microsoft.com/en-us/library/Hh447004(v=VS.85).aspx">D2D1_INTERPOLATION_MODE</a> for more info.</div><div> </div>
 
 ## -enum-fields
 

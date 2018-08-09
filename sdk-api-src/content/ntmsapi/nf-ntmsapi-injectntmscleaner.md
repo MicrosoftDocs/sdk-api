@@ -260,7 +260,7 @@ If there is no NTMS_IEPORT object, a door access is performed. In this case, the
 
 
 
-<a href="removable_storage_manager_functions.htm">Cleaner Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Cleaner Management Functions</a>
 
 
 

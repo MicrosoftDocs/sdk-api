@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the first visible item in a tree-view control window. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/505c713c-7728-4119-bc0e-482fe7e73193">TVM_GETNEXTITEM</a> message with the TVGN_FIRSTVISIBLE flag. 
+Retrieves the first visible item in a tree-view control window. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/en-us/library/Bb773622(v=VS.85).aspx">TVM_GETNEXTITEM</a> message with the TVGN_FIRSTVISIBLE flag. 
 
 
 ## -parameters
@@ -74,19 +74,19 @@ Handle to the tree-view control.
 
 
 
-<a href="https://msdn.microsoft.com/f2d7d7b1-cfe7-4361-bd90-e3e99dbcd99c">TVM_GETITEMRECT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773610(v=VS.85).aspx">TVM_GETITEMRECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/b46dbbff-0571-4c46-91b3-4601e1707799">TreeView_GetLastVisible</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773855(v=VS.85).aspx">TreeView_GetLastVisible</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e21cd1b-d05e-4c62-9ec8-244a096f90f3">TreeView_GetNextVisible</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773870(v=VS.85).aspx">TreeView_GetNextVisible</a>
 
 
 
-<a href="https://msdn.microsoft.com/b9a4ad11-bd4a-48c6-9dbb-a92a3e410dc3">TreeView_GetPrevVisible</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773878(v=VS.85).aspx">TreeView_GetPrevVisible</a>
  
 
  

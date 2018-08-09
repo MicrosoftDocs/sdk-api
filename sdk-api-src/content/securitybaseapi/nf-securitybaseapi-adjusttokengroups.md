@@ -144,7 +144,7 @@ You cannot enable a group that has the SE_GROUP_USE_FOR_DENY_ONLY attribute.
 
 
 
-<a href="authorization_functions.htm">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
 
 
 

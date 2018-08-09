@@ -138,7 +138,7 @@ A server that copies secured objects to various media can use the <b>MakeSelfRel
 
 
 
-<a href="authorization_functions.htm">Low-level Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
 
 
 

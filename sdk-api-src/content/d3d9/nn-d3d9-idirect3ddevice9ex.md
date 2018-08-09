@@ -51,12 +51,12 @@ req.irql:
 ## -description
 
 
-Applications use the methods of the IDirect3DDevice9Ex interface to render primitives, create resources, work with system-level variables, adjust gamma ramp levels, work with palettes, and create shaders. The IDirect3DDevice9Ex interface derives from the <a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a> interface.
+Applications use the methods of the IDirect3DDevice9Ex interface to render primitives, create resources, work with system-level variables, adjust gamma ramp levels, work with palettes, and create shaders. The IDirect3DDevice9Ex interface derives from the <a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DDevice9Ex</b> interface inherits from <a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>. <b>IDirect3DDevice9Ex</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DDevice9Ex</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>. <b>IDirect3DDevice9Ex</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDirect3DDevice9Ex</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/89a9b112-5f0a-4e57-9b8e-48b3a76a09ce">CheckDeviceState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174338(v=VS.85).aspx">CheckDeviceState</a>
 </td>
 <td align="left" width="63%">
 Reports the current cooperative-level status of the Direct3D device for a windowed or full-screen application.
@@ -80,7 +80,7 @@ Reports the current cooperative-level status of the Direct3D device for a window
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bd8a5992-f50a-403b-8645-87e8473a3538">CheckResourceResidency</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174339(v=VS.85).aspx">CheckResourceResidency</a>
 </td>
 <td align="left" width="63%">
 Checks an array of resources to determine if it is likely that they will cause a large stall at Draw time because the system must make the resources GPU-accessible.
@@ -89,7 +89,7 @@ Checks an array of resources to determine if it is likely that they will cause a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1fd99d5b-0b54-43d8-9f94-1f8c14e98e69">ComposeRects</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174340(v=VS.85).aspx">ComposeRects</a>
 </td>
 <td align="left" width="63%">
 Copy a text string to one surface using an alphabet of glyphs on another surface. Composition is done by the GPU using bitwise operations.
@@ -98,7 +98,7 @@ Copy a text string to one surface using an alphabet of glyphs on another surface
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/29227080-0ddc-4297-b470-8849ec84fa47">CreateDepthStencilSurfaceEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb509711(v=VS.85).aspx">CreateDepthStencilSurfaceEx</a>
 </td>
 <td align="left" width="63%">
 Creates a depth-stencil surface.
@@ -107,7 +107,7 @@ Creates a depth-stencil surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/03fd24f4-9db2-4763-b7c7-85c6d05c3c77">CreateOffscreenPlainSurfaceEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb509712(v=VS.85).aspx">CreateOffscreenPlainSurfaceEx</a>
 </td>
 <td align="left" width="63%">
 Create an off-screen surface.
@@ -116,7 +116,7 @@ Create an off-screen surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9b928448-a212-41e2-b81b-b8a5f9a1d848">CreateRenderTargetEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb509713(v=VS.85).aspx">CreateRenderTargetEx</a>
 </td>
 <td align="left" width="63%">
 Creates a render-target surface.
@@ -125,7 +125,7 @@ Creates a render-target surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fa5b08f7-abb0-4f59-8454-4016cb029f1e">GetDisplayModeEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb509714(v=VS.85).aspx">GetDisplayModeEx</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display mode's spatial resolution, color resolution, refresh frequency, and rotation settings.
@@ -134,7 +134,7 @@ Retrieves the display mode's spatial resolution, color resolution, refresh frequ
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/724a4512-b40d-427f-964f-9f0988ebbe26">GetGPUThreadPriority</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174341(v=VS.85).aspx">GetGPUThreadPriority</a>
 </td>
 <td align="left" width="63%">
 Get the priority of the GPU thread.
@@ -143,7 +143,7 @@ Get the priority of the GPU thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3acb0675-e20a-4ecd-8f29-3867051acb26">GetMaximumFrameLatency</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174342(v=VS.85).aspx">GetMaximumFrameLatency</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of frames of data that the system is allowed to queue.
@@ -152,7 +152,7 @@ Retrieves the number of frames of data that the system is allowed to queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/845c72ff-669d-44bf-8065-cff456418e8c">PresentEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174343(v=VS.85).aspx">PresentEx</a>
 </td>
 <td align="left" width="63%">
 Swap the swapchain's next buffer with the front buffer.
@@ -161,7 +161,7 @@ Swap the swapchain's next buffer with the front buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/03c8084e-eff1-4c01-9102-f7fb777585a4">ResetEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174344(v=VS.85).aspx">ResetEx</a>
 </td>
 <td align="left" width="63%">
 Resets the type, size, and format of the swap chain with all other surfaces persistent.
@@ -170,7 +170,7 @@ Resets the type, size, and format of the swap chain with all other surfaces pers
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e2576f38-c2c9-41a0-a680-3eb8c3015f8a">SetConvolutionMonoKernel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174345(v=VS.85).aspx">SetConvolutionMonoKernel</a>
 </td>
 <td align="left" width="63%">
 Prepare the texture sampler for monochrome convolution filtering on a single-color texture.
@@ -179,7 +179,7 @@ Prepare the texture sampler for monochrome convolution filtering on a single-col
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa9dd95e-74ce-4f48-bd60-8cabc2013377">SetGPUThreadPriority</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174346(v=VS.85).aspx">SetGPUThreadPriority</a>
 </td>
 <td align="left" width="63%">
 Set the priority on the GPU thread.
@@ -188,7 +188,7 @@ Set the priority on the GPU thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a6606b6-336d-4e13-bac4-8bd8c770b1d8">SetMaximumFrameLatency</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174347(v=VS.85).aspx">SetMaximumFrameLatency</a>
 </td>
 <td align="left" width="63%">
 Set the number of frames that the system is allowed to queue for rendering.
@@ -197,11 +197,11 @@ Set the number of frames that the system is allowed to queue for rendering.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/45f41a97-ab2f-4e90-aeb7-06de86fcbd72">TestCooperativeLevel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174348(v=VS.85).aspx">TestCooperativeLevel</a>
 </td>
 <td align="left" width="63%">
 <div class="alert"><b>Note</b>  
-<a href="https://msdn.microsoft.com/45f41a97-ab2f-4e90-aeb7-06de86fcbd72">TestCooperativeLevel</a> is no longer available for use. Instead, use <a href="https://msdn.microsoft.com/89a9b112-5f0a-4e57-9b8e-48b3a76a09ce">CheckDeviceState</a>.</div>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174348(v=VS.85).aspx">TestCooperativeLevel</a> is no longer available for use. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Bb174338(v=VS.85).aspx">CheckDeviceState</a>.</div>
 <div> </div>
 Reports the current cooperative-level status of the Direct3D device for a windowed or full-screen application.
 
@@ -209,7 +209,7 @@ Reports the current cooperative-level status of the Direct3D device for a window
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e3c329c8-30fa-4e39-8cd5-27130531f2ce">WaitForVBlank</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174349(v=VS.85).aspx">WaitForVBlank</a>
 </td>
 <td align="left" width="63%">
 Suspend execution of the calling thread until the next vertical blank signal.
@@ -223,7 +223,7 @@ Suspend execution of the calling thread until the next vertical blank signal.
 
 
 
-The <b>IDirect3DDevice9Ex</b> interface is obtained by calling <a href="https://msdn.microsoft.com/7182c5ea-40ca-4cf8-a33e-b22984fc9349">IDirect3D9Ex::CreateDeviceEx</a>.
+The <b>IDirect3DDevice9Ex</b> interface is obtained by calling <a href="https://msdn.microsoft.com/en-us/library/Bb174302(v=VS.85).aspx">IDirect3D9Ex::CreateDeviceEx</a>.
 
 The LPDIRECT3DDEVICE9EX and PDIRECT3DDEVICE9EX types are defined as pointers to the IDirect3DDevice9Ex interface:
 
@@ -246,8 +246,8 @@ typedef struct IDirect3DDevice9Ex *LPDIRECT3DDEVICE9EX, *PDIRECT3DDEVICE9EX;
 Follow these two steps to initialize a Direct3D device:
 
 <ol>
-<li>Call <a href="https://msdn.microsoft.com/5480ecab-9820-4352-9587-4eba6ab26ebf">Direct3DCreate9Ex</a> to create the Direct3D object.</li>
-<li>Call <a href="https://msdn.microsoft.com/7182c5ea-40ca-4cf8-a33e-b22984fc9349">CreateDeviceEx</a> to create the Direct3D device.</li>
+<li>Call <a href="https://msdn.microsoft.com/en-us/library/Bb219676(v=VS.85).aspx">Direct3DCreate9Ex</a> to create the Direct3D object.</li>
+<li>Call <a href="https://msdn.microsoft.com/en-us/library/Bb174302(v=VS.85).aspx">CreateDeviceEx</a> to create the Direct3D device.</li>
 </ol>
 Here is an example:
 
@@ -283,7 +283,7 @@ pDirect3DEx-&gt;CreateDeviceEx(D3DADAPTER_DEFAULT, D3DDEVTYPE_HAL, hWnd, behavio
 
 
 
-<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
  
 
  

@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information about a hit test. This structure is used with the <a href="https://msdn.microsoft.com/ff866bd1-9f2a-457c-921d-549610ab9088">HDM_HITTEST</a> message and it supersedes the <b>HD_HITTESTINFO</b> structure. 
+Contains information about a hit test. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb775349(v=VS.85).aspx">HDM_HITTEST</a> message and it supersedes the <b>HD_HITTESTINFO</b> structure. 
 
 
 ## -struct-fields

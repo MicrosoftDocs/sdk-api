@@ -97,7 +97,7 @@ The first time you call the <b>Region::GetLastStatus</b> method of a
 
 
 
-The following example creates a region from a path. Next, the code calls <a href="https://msdn.microsoft.com/20e6f834-1f36-4de0-b574-b89ebce917de">Region::GetBounds Methods</a>, followed by a call to <a href="https://msdn.microsoft.com/748cbc1c-cf0c-461f-ac14-52cf882a33b4">Region::GetDataSize</a>. The code then calls <b>Region::GetLastStatus</b>. If all method calls have been successful up to this point, <b>Region::GetLastStatus</b> returns <b>Ok</b>.
+The following example creates a region from a path. Next, the code calls <a href="https://msdn.microsoft.com/en-us/library/ms534776(v=VS.85).aspx">Region::GetBounds Methods</a>, followed by a call to <a href="https://msdn.microsoft.com/en-us/library/ms534766(v=VS.85).aspx">Region::GetDataSize</a>. The code then calls <b>Region::GetLastStatus</b>. If all method calls have been successful up to this point, <b>Region::GetLastStatus</b> returns <b>Ok</b>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

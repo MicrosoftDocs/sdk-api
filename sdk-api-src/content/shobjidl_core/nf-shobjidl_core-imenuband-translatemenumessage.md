@@ -61,9 +61,9 @@ Translates a message for a Component Object Model (COM) object.
 
 ### -param pmsg [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a> structure that contains the incoming message.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure that contains the incoming message.
 
 
 ### -param plRet [out]

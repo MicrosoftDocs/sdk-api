@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The blend-state interface holds a description for blending state that you can bind to the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger stage</a>. This blend-state interface supports logical operations as well as blending operations.
+The blend-state interface holds a description for blending state that you can bind to the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger stage</a>. This blend-state interface supports logical operations as well as blending operations.
 
 
 ## -inheritance
@@ -87,7 +87,7 @@ Gets the description for blending state that you used to create the blend-state 
 
 Blending applies a simple function to combine output values from a pixel shader with data in a render target. You have control over how the pixels are blended by using a predefined set of blending operations and preblending operations.
 
-To create a blend-state object, call <a href="https://msdn.microsoft.com/2E891104-3706-46A5-88FB-C621C95B4EFB">ID3D11Device1::CreateBlendState1</a>. To bind the blend-state object to the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger stage</a>, call <a href="https://msdn.microsoft.com/fabcae1d-2ad8-4f4d-8eef-18945e369225">ID3D11DeviceContext::OMSetBlendState</a>.
+To create a blend-state object, call <a href="https://msdn.microsoft.com/2E891104-3706-46A5-88FB-C621C95B4EFB">ID3D11Device1::CreateBlendState1</a>. To bind the blend-state object to the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger stage</a>, call <a href="https://msdn.microsoft.com/fabcae1d-2ad8-4f4d-8eef-18945e369225">ID3D11DeviceContext::OMSetBlendState</a>.
 
 
 

@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-Creates the <a href="asf_file_structure.htm">ASF Header Object</a> object.
+Creates the <a href="https://msdn.microsoft.com/en-us/library/Ee663575(v=VS.85).aspx">ASF Header Object</a> object.
 
 
 

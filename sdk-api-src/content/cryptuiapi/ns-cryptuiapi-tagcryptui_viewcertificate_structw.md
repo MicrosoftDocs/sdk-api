@@ -363,7 +363,7 @@ The number of property pages to add to the dialog box.
 
 ### -field rgPropSheetPages
 
-An array of property pages to add to the dialog box.                        Each page in this array will not receive the <b>lParam</b> in the <a href="_win32_propsheetpage_str_cpp">PROPSHEETPAGE</a> structure as the <b>lParam</b> in the <a href="_win32_wm_initdialog_cpp">WM_INITDIALOG</a> message. It will instead receive a pointer to a <a href="https://msdn.microsoft.com/c6335c02-3b3e-45e2-bb58-b7213aea500b">CRYPTUI_INITDIALOG_STRUCT</a>  structure. It contains the <b>lParam</b> in  <b>PROPSHEETPAGE</b> and the pointer to the <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> for which the page is being displayed.
+An array of property pages to add to the dialog box.                        Each page in this array will not receive the <b>lParam</b> in the <a href="_win32_propsheetpage_str_cpp">PROPSHEETPAGE</a> structure as the <b>lParam</b> in the <a href="https://msdn.microsoft.com/en-us/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a> message. It will instead receive a pointer to a <a href="https://msdn.microsoft.com/c6335c02-3b3e-45e2-bb58-b7213aea500b">CRYPTUI_INITDIALOG_STRUCT</a>  structure. It contains the <b>lParam</b> in  <b>PROPSHEETPAGE</b> and the pointer to the <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> for which the page is being displayed.
 
 
 ### -field nStartPage

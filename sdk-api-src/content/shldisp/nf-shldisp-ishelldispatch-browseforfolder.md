@@ -90,7 +90,7 @@ The handle to the parent window of the dialog box. This value can be zero.
 
 #### - sTitle [in]
 
-Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
 
 A <b>String</b> value that represents the title displayed inside the <b>Browse</b> dialog box.
 

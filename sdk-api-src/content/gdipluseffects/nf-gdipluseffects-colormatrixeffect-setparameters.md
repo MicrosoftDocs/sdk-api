@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>ColorMatrixEffect::SetParameters</b> method sets the 5x5 color matrix of this <a href="https://msdn.microsoft.com/99a4a671-e128-4a1b-8c8a-e9231bd44e96">ColorMatrixEffect</a> object.
+The <b>ColorMatrixEffect::SetParameters</b> method sets the 5x5 color matrix of this <a href="https://msdn.microsoft.com/en-us/library/ms534431(v=VS.85).aspx">ColorMatrixEffect</a> object.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ The <b>ColorMatrixEffect::SetParameters</b> method sets the 5x5 color matrix of 
 
 ### -param matrix [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/2b37702b-c87f-4f41-8240-a23393019ea3">ColorMatrix</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534063(v=VS.85).aspx">ColorMatrix</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/2b37702b-c87f-4f41-8240-a23393019ea3">ColorMatrix</a> object that specifies the 5x5 color matrix. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534063(v=VS.85).aspx">ColorMatrix</a> object that specifies the 5x5 color matrix. 
 
 
 ## -returns
@@ -87,15 +87,15 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/99a4a671-e128-4a1b-8c8a-e9231bd44e96">ColorMatrixEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534431(v=VS.85).aspx">ColorMatrixEffect</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f2b6ab3-128f-4422-bbe3-57b487cd1f5c">ColorMatrixEffect::GetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536232(v=VS.85).aspx">ColorMatrixEffect::GetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e018c5a-7933-43b6-b7b3-ee9daea16eb9">Recoloring</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533809(v=VS.85).aspx">Recoloring</a>
  
 
  

@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
 
 Returns the 
     device name of a 
-    <a href="s_gly.htm">storage class resource</a> 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">storage class resource</a> 
     partition.
 
 This property is read-only.

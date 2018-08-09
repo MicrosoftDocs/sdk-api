@@ -55,8 +55,8 @@ The
 <b>RasSecurityDialogGetInfo</b> function is called by a RAS security DLL to get information about a port from the RAS server.
 
 To call this function, first call the 
-<a href="_win32_loadlibrary">LoadLibrary</a> function to load Rasman.dll. Then call the 
-<a href="_win32_getprocaddress">GetProcAddress</a> function to get the DLL's 
+<a href="https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx">LoadLibrary</a> function to load Rasman.dll. Then call the 
+<a href="https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx">GetProcAddress</a> function to get the DLL's 
 <b>RasSecurityDialogGetInfo</b> entry point.
 <div class="alert"><b>Note</b>  Windows Server 2008, 
   Windows Server 2003,
@@ -111,11 +111,11 @@ The <b>LastError</b> member of the
 
 
 
-<a href="_win32_getprocaddress">GetProcAddress</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx">GetProcAddress</a>
 
 
 
-<a href="_win32_loadlibrary">LoadLibrary</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx">LoadLibrary</a>
 
 
 

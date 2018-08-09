@@ -56,7 +56,7 @@ A depth-stencil-view-variable interface accesses a depth-stencil view.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectDepthStencilViewVariable</b> interface inherits from <a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable</a>. <b>ID3D10EffectDepthStencilViewVariable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectDepthStencilViewVariable</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>. <b>ID3D10EffectDepthStencilViewVariable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID3D10EffectDepthStencilViewVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/512cc8dc-1c89-44cc-971a-df1df3eedff0">GetDepthStencil</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173643(v=VS.85).aspx">GetDepthStencil</a>
 </td>
 <td align="left" width="63%">
 Get a depth-stencil-view resource.
@@ -80,7 +80,7 @@ Get a depth-stencil-view resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3113306b-947e-412f-b01f-a8dce7146315">GetDepthStencilArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173644(v=VS.85).aspx">GetDepthStencilArray</a>
 </td>
 <td align="left" width="63%">
 Get an array of depth-stencil-view resources.
@@ -89,7 +89,7 @@ Get an array of depth-stencil-view resources.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/78ac2fb9-34b8-44b6-a6cd-762708aa691b">SetDepthStencil</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173645(v=VS.85).aspx">SetDepthStencil</a>
 </td>
 <td align="left" width="63%">
 Set a depth-stencil-view resource.
@@ -98,7 +98,7 @@ Set a depth-stencil-view resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e8a2e860-6c06-4afa-967d-2bb73fc0e89e">SetDepthStencilArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173646(v=VS.85).aspx">SetDepthStencilArray</a>
 </td>
 <td align="left" width="63%">
 Set an array of depth-stencil-view resources.
@@ -113,11 +113,11 @@ Set an array of depth-stencil-view resources.
 
 
 
-<a href="https://msdn.microsoft.com/ebe0afc7-6261-4c96-a54e-9b491e240c03">Effect Interfaces (Direct3D 10)</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205178(v=VS.85).aspx">Effect Interfaces (Direct3D 10)</a>
 
 
 
-<a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>
  
 
  

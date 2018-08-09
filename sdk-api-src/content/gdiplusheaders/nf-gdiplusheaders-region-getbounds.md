@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 			GetBounds methods of the 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/dn915769">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/bbaa4027-94aa-497f-8efb-a82d251847af">Region Methods</a>.
+			<a href="https://msdn.microsoft.com/library/windows/hardware/dn915769">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534761(v=VS.85).aspx">Region Methods</a>.
 
 </span><h3>Overload list</h3><table>
 <tr>
@@ -62,19 +62,19 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fdbecca4-be04-4162-a930-19e94c69c7e2">GetBounds(Rect*,Graphics*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534816(v=VS.85).aspx">GetBounds(Rect*,Graphics*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/fdbecca4-be04-4162-a930-19e94c69c7e2">Region::GetBounds</a> method gets a rectangle that encloses this region.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534816(v=VS.85).aspx">Region::GetBounds</a> method gets a rectangle that encloses this region.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee766b43-d7e1-4578-a706-c8943359702c">GetBounds(RectF*,Graphics*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534818(v=VS.85).aspx">GetBounds(RectF*,Graphics*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/ee766b43-d7e1-4578-a706-c8943359702c">Region::GetBounds</a> method gets a rectangle that encloses this region. 
+The <a href="https://msdn.microsoft.com/en-us/library/ms534818(v=VS.85).aspx">Region::GetBounds</a> method gets a rectangle that encloses this region. 
 
 </td>
 </tr>

@@ -61,9 +61,9 @@ The <b>Graphics::Flush</b> method flushes all pending graphics operations.
 
 ### -param intention [in]
 
-Type: <b><a href="https://msdn.microsoft.com/fa08d76e-c1fb-4abb-9770-93f3ae01a066">FlushIntention</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534122(v=VS.85).aspx">FlushIntention</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/fa08d76e-c1fb-4abb-9770-93f3ae01a066">FlushIntention</a> enumeration that specifies whether pending operations are flushed immediately (not executed) or executed as soon as possible. 
+Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534122(v=VS.85).aspx">FlushIntention</a> enumeration that specifies whether pending operations are flushed immediately (not executed) or executed as soon as possible. 
 
 
 ## -returns
@@ -80,7 +80,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/fa08d76e-c1fb-4abb-9770-93f3ae01a066">FlushIntention</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534122(v=VS.85).aspx">FlushIntention</a>
 
 
 

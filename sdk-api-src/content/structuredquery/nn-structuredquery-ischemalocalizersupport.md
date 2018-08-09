@@ -71,7 +71,7 @@ The <b>ISchemaLocalizerSupport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/670e69aa-f8ee-4c71-bc8b-b0f689601d62">Localize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231334(v=VS.85).aspx">Localize</a>
 </td>
 <td align="left" width="63%">
 Localizes keywords from an input string.

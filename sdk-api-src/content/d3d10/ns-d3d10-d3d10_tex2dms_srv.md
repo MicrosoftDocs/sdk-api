@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Specifies the <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresource(s)</a> from a multisampled <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">2D texture</a> to use in a shader-resource view.
+Specifies the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource(s)</a> from a multisampled <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">2D texture</a> to use in a shader-resource view.
 
 
 ## -struct-fields
@@ -69,7 +69,7 @@ Integer of any value. See remarks.
 
 
 
-Since a multisampled 2D texture contains a single subresource, there is actually nothing to specify in <a href="https://msdn.microsoft.com/458b8bed-42c3-45c5-96c7-fd7cb3964f6d">D3D10_TEX2DMS_RTV</a>. Consequently, <b>UnusedField_NothingToDefine</b> is included so that this structure will compile in C.
+Since a multisampled 2D texture contains a single subresource, there is actually nothing to specify in <a href="https://msdn.microsoft.com/en-us/library/Bb172468(v=VS.85).aspx">D3D10_TEX2DMS_RTV</a>. Consequently, <b>UnusedField_NothingToDefine</b> is included so that this structure will compile in C.
 
 
 
@@ -79,7 +79,7 @@ Since a multisampled 2D texture contains a single subresource, there is actually
 
 
 
-<a href="https://msdn.microsoft.com/d8fe2ebe-349a-456e-9a5a-16f2d3419800">Resource Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
  
 
  

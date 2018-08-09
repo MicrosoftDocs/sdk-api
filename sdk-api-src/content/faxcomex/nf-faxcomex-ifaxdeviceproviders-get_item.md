@@ -53,7 +53,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Item</b> property returns a <a href="https://msdn.microsoft.com/ef32eb3d-e158-4740-82f5-661d5eded88c">FaxDeviceProvider</a> object from the <a href="https://msdn.microsoft.com/3abb80d7-fedf-469d-b17a-604ca78f4b8b">FaxDeviceProviders</a> collection.
+The <b>Item</b> property returns a <a href="https://msdn.microsoft.com/en-us/library/ms684890(v=VS.85).aspx">FaxDeviceProvider</a> object from the <a href="https://msdn.microsoft.com/en-us/library/ms687073(v=VS.85).aspx">FaxDeviceProviders</a> collection.
 
 This property is read/write.
 
@@ -66,19 +66,19 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/ef32eb3d-e158-4740-82f5-661d5eded88c">FaxDeviceProvider</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684890(v=VS.85).aspx">FaxDeviceProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/3abb80d7-fedf-469d-b17a-604ca78f4b8b">FaxDeviceProviders</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687073(v=VS.85).aspx">FaxDeviceProviders</a>
 
 
 
-<a href="https://msdn.microsoft.com/91899618-9164-4db4-94d3-a971db9f1ca0">IFaxDeviceProvider</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684893(v=VS.85).aspx">IFaxDeviceProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/422003a1-7db2-4eff-97bd-8ca889a3e5f6">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693462(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

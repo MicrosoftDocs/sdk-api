@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the calendar ID for the given calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/4b9d06f5-0784-4a17-b401-982206d4be67">MCM_SETCALID</a> message explicitly.
+Sets the calendar ID for the given calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760995(v=VS.85).aspx">MCM_SETCALID</a> message explicitly.
 
 
 ## -parameters

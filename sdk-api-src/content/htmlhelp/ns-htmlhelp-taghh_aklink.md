@@ -76,7 +76,7 @@ Specifies one or more ALink names or KLink keywords to look up. Multiple entries
 
 ### -field pszUrl
 
-Specifies the topic file to navigate to if the lookup fails. <i>pszURL</i> refers to a <a href="https://msdn.microsoft.com/DB3F1302-6933-45e8-9AF7-E3C075549B51">valid topic</a> within the specified compiled help (.chm) file and does not support Internet protocols that point to an HTML file. 
+Specifies the topic file to navigate to if the lookup fails. <i>pszURL</i> refers to a <a href="https://msdn.microsoft.com/en-us/library/ms524236(v=VS.85).aspx">valid topic</a> within the specified compiled help (.chm) file and does not support Internet protocols that point to an HTML file. 
 
 
 ### -field pszMsgText
@@ -124,10 +124,10 @@ If the lookup yields no matching topics, <b>HtmlHelp()</b> checks the values of 
 <h3><a id="Used_by"></a><a id="used_by"></a><a id="USED_BY"></a>Used by</h3>
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/E9BA3037-1402-4021-A1BB-B15774AAD5A3">HH_ALINK_LOOKUP</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670078(v=VS.85).aspx">HH_ALINK_LOOKUP</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/F91C9EB5-6660-47bd-AA8D-484B4E0DF1F6">HH_KEYWORD_LOOKUP</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670091(v=VS.85).aspx">HH_KEYWORD_LOOKUP</a>
 </li>
 </ul>
 
@@ -138,7 +138,7 @@ If the lookup yields no matching topics, <b>HtmlHelp()</b> checks the values of 
 
 
 
-<a href="https://msdn.microsoft.com/E75CA82E-9759-47d8-AF84-5842EDAB019D">About Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms524235(v=VS.85).aspx">About Structures</a>
  
 
  

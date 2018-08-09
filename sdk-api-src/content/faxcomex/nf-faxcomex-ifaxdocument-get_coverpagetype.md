@@ -65,7 +65,7 @@ This property is read/write.
 
 By default, <b>CoverPageType</b> is set to 0, indicating that no file is used.
 
-Provide the name of the cover page in the <a href="https://msdn.microsoft.com/ae883970-dfd4-4811-b5a6-c666e1289707">CoverPage</a> property.
+Provide the name of the cover page in the <a href="https://msdn.microsoft.com/en-us/library/ms687493(v=VS.85).aspx">CoverPage</a> property.
 
 
 
@@ -75,15 +75,15 @@ Provide the name of the cover page in the <a href="https://msdn.microsoft.com/ae
 
 
 
-<a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/926f01ab-66a7-49c8-95cf-7f80925401be">IFaxDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685960(v=VS.85).aspx">IFaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/347943cc-a417-469e-a936-8da5601e752f">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

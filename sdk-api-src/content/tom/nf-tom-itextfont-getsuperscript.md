@@ -131,7 +131,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-This property corresponds to the <b>CFE_SUPERSCRIPT</b> effect described in the <a href="https://msdn.microsoft.com/e0057d40-e479-4706-b677-b8fb727a8118">CHARFORMAT2</a> structure.
+This property corresponds to the <b>CFE_SUPERSCRIPT</b> effect described in the <a href="https://msdn.microsoft.com/en-us/library/Bb787883(v=VS.85).aspx">CHARFORMAT2</a> structure.
 
 
 
@@ -141,7 +141,7 @@ This property corresponds to the <b>CFE_SUPERSCRIPT</b> effect described in the 
 
 
 
-<a href="https://msdn.microsoft.com/e0057d40-e479-4706-b677-b8fb727a8118">CHARFORMAT2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787883(v=VS.85).aspx">CHARFORMAT2</a>
 
 
 
@@ -149,7 +149,7 @@ This property corresponds to the <b>CFE_SUPERSCRIPT</b> effect described in the 
 
 
 
-<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
 
 
 
@@ -157,11 +157,11 @@ This property corresponds to the <b>CFE_SUPERSCRIPT</b> effect described in the 
 
 
 
-<a href="https://msdn.microsoft.com/51588d20-b664-4380-aa51-625bbeb214b4">SetSuperscript</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787830(v=VS.85).aspx">SetSuperscript</a>
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

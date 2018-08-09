@@ -61,7 +61,7 @@ Set all the elements in a render target to one value.
 
 ### -param pRenderTargetView [in]
 
-Type: <b><a href="https://msdn.microsoft.com/0a545476-19d2-41f7-9012-82fbf633f23b">ID3D10RenderTargetView</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173827(v=VS.85).aspx">ID3D10RenderTargetView</a>*</b>
 
 Pointer to the render target.
 
@@ -117,7 +117,7 @@ When using <a href="https://msdn.microsoft.com/9e51bda1-84f8-4144-b678-73c821c5b
 
 
 
-<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

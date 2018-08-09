@@ -79,7 +79,7 @@ A reference to the IID of the interface to retrieve.
 
 Type: <b>void**</b>
 
-When this method returns, contains the address of an <a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a> interface pointer.
+When this method returns, contains the address of an <a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a> interface pointer.
 
 
 ## -returns

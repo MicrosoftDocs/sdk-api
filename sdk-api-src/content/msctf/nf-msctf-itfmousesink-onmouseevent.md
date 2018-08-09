@@ -70,7 +70,7 @@ Contains the zero-based quadrant index, relative to the edge, that the mouse pos
 
 ### -param dwBtnStatus [in]
 
-Indicates the mouse button state at the time of the event. See the <i>wParam</i> parameter of the <a href="_win32_wm_mousemove">WM_MOUSEMOVE</a> message for possible values.
+Indicates the mouse button state at the time of the event. See the <i>wParam</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> message for possible values.
 
 
 ### -param pfEaten [out]
@@ -137,7 +137,7 @@ The caller should translate double-click events into multiple mouse button down 
 
 
 
-<a href="_win32_wm_mousemove">WM_MOUSEMOVE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a>
  
 
  

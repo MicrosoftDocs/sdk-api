@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>ImageAttributes::GetLastStatus</b> method returns a value that indicates the nature of this <a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a> object's most recent method failure.
+The <b>ImageAttributes::GetLastStatus</b> method returns a value that indicates the nature of this <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object's most recent method failure.
 
 
 ## -parameters
@@ -71,10 +71,10 @@ Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/windows/hardw
 The <b>ImageAttributes::GetLastStatus</b> method returns an element of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> enumeration.
 
 If no methods invoked on this 
-						<a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a> object have failed since the previous call to <b>ImageAttributes::GetLastStatus</b>, then <b>ImageAttributes::GetLastStatus</b> returns <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Ok</a>.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object have failed since the previous call to <b>ImageAttributes::GetLastStatus</b>, then <b>ImageAttributes::GetLastStatus</b> returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a>.
 
 If at least one method invoked on this 
-						<a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a> object has failed since the previous call to <b>ImageAttributes::GetLastStatus</b>, then <b>ImageAttributes::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object has failed since the previous call to <b>ImageAttributes::GetLastStatus</b>, then <b>ImageAttributes::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
 
 
 
@@ -84,10 +84,10 @@ If at least one method invoked on this
 
 
 You can call <b>ImageAttributes::GetLastStatus</b> immediately after constructing an 
-				<a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a> object to determine whether the constructor succeeded.
+				<a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object to determine whether the constructor succeeded.
 
 The first time you call the <b>ImageAttributes::GetLastStatus</b> method of an 
-				<a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a> object, it returns <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Ok</a> if the constructor succeeded and all methods invoked so far on the 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object, it returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a> if the constructor succeeded and all methods invoked so far on the 
 				<b>ImageAttributes</b> object succeeded. Otherwise, it returns a value that indicates the nature of the most recent failure.
 
 
@@ -98,7 +98,7 @@ The first time you call the <b>ImageAttributes::GetLastStatus</b> method of an
 
 
 
-<a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a>
 
 
 

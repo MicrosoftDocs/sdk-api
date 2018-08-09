@@ -56,7 +56,7 @@ req.product: ADAM
 The 
 <b>RasGetCountryInfo</b> function retrieves country/region-specific dialing information from the Windows Telephony list of countries/regions.
 
-For more information about country/region-specific dialing information and <a href="_tapi3_telephony_application_programming_interfaces">Telephony Application Programming Interface (TAPI)</a> country/region identifiers, see the TAPI portion of the Platform Software Development Kit (SDK).
+For more information about country/region-specific dialing information and <a href="https://msdn.microsoft.com/en-us/library/ms734273(v=VS.85).aspx">Telephony Application Programming Interface (TAPI)</a> country/region identifiers, see the TAPI portion of the Platform Software Development Kit (SDK).
 
 
 ## -parameters

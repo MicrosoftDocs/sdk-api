@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-The <b>ITextStory</b> interface methods are used to access shared data from multiple stories, which is stored in the parent <a href="https://msdn.microsoft.com/b0bc844f-2d20-4e67-84c5-0a5313bf6dee">ITextServices</a> instance. 
+The <b>ITextStory</b> interface methods are used to access shared data from multiple stories, which is stored in the parent <a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a> instance. 
 
 The stories can be "edited" simultaneously by using individual <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a> methods, and displayed independently of one another. In addition, one story at a time can be UI active; that is, it receives keyboard and mouse input. 
 

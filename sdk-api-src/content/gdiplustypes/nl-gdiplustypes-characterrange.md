@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-A <a href="https://msdn.microsoft.com/71ca7e98-71f7-4355-886f-0edf9a3981c9">CharacterRange</a> object specifies a range of character positions within a string.
+A <a href="https://msdn.microsoft.com/en-us/library/ms536266(v=VS.85).aspx">CharacterRange</a> object specifies a range of character positions within a string.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">CharacterRange</b> has these types of members:
 <ul>
@@ -65,19 +65,19 @@ A <a href="https://msdn.microsoft.com/71ca7e98-71f7-4355-886f-0edf9a3981c9">Char
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c0edd04b-00ff-4fd4-bab6-bd2f4cba03ce">CharacterRange::CharacterRange()</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536268(v=VS.85).aspx">CharacterRange::CharacterRange()</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/c0edd04b-00ff-4fd4-bab6-bd2f4cba03ce">CharacterRange::CharacterRange</a> object with the data members set to zero.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536268(v=VS.85).aspx">CharacterRange::CharacterRange</a> object with the data members set to zero.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0193db0a-b280-4154-96aa-02c438db6eba">CharacterRange::CharacterRange(INT,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536269(v=VS.85).aspx">CharacterRange::CharacterRange(INT,INT)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/0193db0a-b280-4154-96aa-02c438db6eba">CharacterRange::CharacterRange</a> object and initializes the data members to the values specified.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536269(v=VS.85).aspx">CharacterRange::CharacterRange</a> object and initializes the data members to the values specified.
 
 </td>
 </tr>
@@ -90,10 +90,10 @@ Creates a <a href="https://msdn.microsoft.com/0193db0a-b280-4154-96aa-02c438db6e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/410d6727-c4cc-4e25-ae57-3b45bb1fcf57">CharacterRange::operator=</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536267(v=VS.85).aspx">CharacterRange::operator=</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/410d6727-c4cc-4e25-ae57-3b45bb1fcf57">CharacterRange::operator=</a> method sets this <b>CharacterRange</b> object equal to the specified <b>CharacterRange</b> object.
+The <a href="https://msdn.microsoft.com/en-us/library/ms536267(v=VS.85).aspx">CharacterRange::operator=</a> method sets this <b>CharacterRange</b> object equal to the specified <b>CharacterRange</b> object.
 
 </td>
 </tr>

@@ -73,7 +73,7 @@ The changed item is placed ahead of other queued items in the indexer's queue, t
 
 
 
-Set the <b>priority</b> member of the <a href="https://msdn.microsoft.com/83ed1c76-7210-4d0b-a6e2-461bc331e168">SEARCH_ITEM_CHANGE</a> structure to one of these flags.
+Set the <b>priority</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Aa965371(v=VS.85).aspx">SEARCH_ITEM_CHANGE</a> structure to one of these flags.
 
 As the indexer crawls, it builds a list of items that need to be indexed. These flags indicate the placement of changed items in the indexer's queue. Higher priority items are placed at the front of the queue.
 

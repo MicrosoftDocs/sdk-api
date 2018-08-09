@@ -66,7 +66,7 @@ This property is read-only.
 
 This property describes the default effect that happens when the user drops a grabbed element on a target, such as moving or copying the element.  This property can be a short string such as "move", or a longer one such as "insert into Main group".  The string is always localized.
 
-If this property changes, the provider must notify clients by firing a <a href="uiauto_event_ids.htm">UIA_AutomationPropertyChangedEventId</a> event. 
+If this property changes, the provider must notify clients by firing a <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_AutomationPropertyChangedEventId</a> event. 
 
 
 

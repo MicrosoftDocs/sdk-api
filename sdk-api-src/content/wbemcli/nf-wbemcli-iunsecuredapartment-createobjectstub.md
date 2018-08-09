@@ -74,7 +74,7 @@ Pointer to the client's in-process implementation of
 ### -param ppStub [out]
 
 Receives a pointer to a substitute object to be used in asynchronous 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> calls. The user receives an <a href="_com_iunknown">IUnknown</a> pointer and must call <a href="_com_iunknown_queryinterface">QueryInterface</a> for <b>IID_WbemObjectSink</b> before using this object in asynchronous 
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> calls. The user receives an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer and must call <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> for <b>IID_WbemObjectSink</b> before using this object in asynchronous 
 <b>IWbemServices</b> calls.
 
 
@@ -82,7 +82,7 @@ Receives a pointer to a substitute object to be used in asynchronous
 
 
 
-This method returns standard COM error codes for <a href="_com_iunknown_queryinterface">QueryInterface</a>. It returns <b>S_OK</b> if the call succeeds. If the call fails because the requested interface was not supported, the method returns <b>E_NOINTERFACE</b>.
+This method returns standard COM error codes for <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a>. It returns <b>S_OK</b> if the call succeeds. If the call fails because the requested interface was not supported, the method returns <b>E_NOINTERFACE</b>.
 
 COM-specific error codes also may be returned if network problems cause you to lose the remote connection to Windows Management.
 
