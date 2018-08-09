@@ -2,13 +2,13 @@
 UID: NA:iscsidsc
 ms.assetid: c77aee9e-3ee8-3193-90f7-0c5ab184af06
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: iscsidisc
+archived: true
 ---
 
 # Iscsidsc.h header

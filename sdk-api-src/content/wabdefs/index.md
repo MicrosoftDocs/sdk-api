@@ -2,13 +2,13 @@
 UID: NA:wabdefs
 ms.assetid: f0165076-8152-35b7-8c3e-e227cdd6530d
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: wab
+archived: true
 ---
 
 # Wabdefs.h header

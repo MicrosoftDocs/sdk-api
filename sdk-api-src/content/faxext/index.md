@@ -2,13 +2,13 @@
 UID: NA:faxext
 ms.assetid: adfdde34-9f7f-33eb-a351-06b0bf1d2aa4
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: fax
+archived: true
 ---
 
 # Faxext.h header

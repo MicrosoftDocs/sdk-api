@@ -2,13 +2,13 @@
 UID: NA:mi
 ms.assetid: aac31f17-22ba-3534-a0bf-99947d893f79
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: wmi_v2
+archived: true
 ---
 
 # Mi.h header

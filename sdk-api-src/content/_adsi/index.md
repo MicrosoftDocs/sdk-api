@@ -2,7 +2,7 @@
 UID: TP:adsi
 ms.assetid: 534ca0a3-4d26-3e5d-a913-50ae21601fba
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

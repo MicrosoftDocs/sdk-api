@@ -2,7 +2,7 @@
 UID: NA:advpub
 ms.assetid: 173c7b1c-a6a4-317e-9697-746d90079880
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

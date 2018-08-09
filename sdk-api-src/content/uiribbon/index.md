@@ -2,7 +2,7 @@
 UID: NA:uiribbon
 ms.assetid: a27b3b32-7e36-395c-beec-b81b278b75df
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

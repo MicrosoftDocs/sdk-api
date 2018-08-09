@@ -2,13 +2,13 @@
 UID: NA:atscpsipparser
 ms.assetid: e20ec960-887e-3ce7-8683-3869efd2e12f
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: mstv
+archived: true
 ---
 
 # Atscpsipparser.h header

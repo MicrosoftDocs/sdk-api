@@ -2,7 +2,7 @@
 UID: NA:rpcasync
 ms.assetid: 946490f2-beb8-3f4d-8685-b67d79dea575
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,13 +2,13 @@
 UID: NA:winldap
 ms.assetid: 12d3afbf-4b23-3b4f-a06d-76bbe045a2c9
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: ldap
+archived: true
 ---
 
 # Winldap.h header

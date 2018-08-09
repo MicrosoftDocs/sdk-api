@@ -2,13 +2,13 @@
 UID: NA:msxml6
 ms.assetid: e7171135-c530-3f6a-9ffa-b24ec47757c9
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: ixhr2
+archived: true
 ---
 
 # Msxml6.h header
