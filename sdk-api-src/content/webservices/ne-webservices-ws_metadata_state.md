@@ -90,7 +90,7 @@ The following diagram illustrates the functions that
                 cause state transitions in the metadata object.
             
 
-<img alt="" src="images/MetadataStates.png"/>
+<img alt="" src="./images/MetadataStates.png"/>
 
 
 
