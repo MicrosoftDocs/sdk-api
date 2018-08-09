@@ -7,7 +7,7 @@ old-location: shell\IWizardExtension_GetLastPage.htm
 old-project: shell
 ms.assetid: b4fc1089-d0fb-406d-bf05-b43b3f2cc87e
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetLastPage, GetLastPage method [Windows Shell], GetLastPage method [Windows Shell],IWizardExtension interface, IWizardExtension interface [Windows Shell],GetLastPage method, IWizardExtension.GetLastPage, IWizardExtension::GetLastPage, _shell_IWizardExtension_GetLastPage, shell.IWizardExtension_GetLastPage, shobjidl/IWizardExtension::GetLastPage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ Gets a handle to the final page of the wizard extension pages.
 
 Type: <b>HPROPSHEETPAGE*</b>
 
-
-          A pointer to a <a href="https://msdn.microsoft.com/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> handle representing the wizard extension's final page.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> handle representing the wizard extension's final page.
         
 
 
@@ -90,12 +89,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        This value is used to navigate backward into the wizard extension pages when the user clicks the <b>Back</b> button.
+This value is used to navigate backward into the wizard extension pages when the user clicks the <b>Back</b> button.
       
 
-
-        Although the wizard extension may host several sequential HTML pages, if it consists of only one page the handles returned by <a href="https://msdn.microsoft.com/1276b63d-6d5e-4e60-b936-b307cd922b4b">IWizardExtension::GetFirstPage</a> and <b>IWizardExtension::GetLastPage</b> are the same.
+Although the wizard extension may host several sequential HTML pages, if it consists of only one page the handles returned by <a href="https://msdn.microsoft.com/1276b63d-6d5e-4e60-b936-b307cd922b4b">IWizardExtension::GetFirstPage</a> and <b>IWizardExtension::GetLastPage</b> are the same.
       
 
 

@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationprimarycontent_sethorizontal
 old-project: directmanipulation
 ms.assetid: 94716ec8-325e-4e9e-9a30-1d9999bdb9c3
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetHorizontalAlignment method, IDirectManipulationPrimaryContent.SetHorizontalAlignment, IDirectManipulationPrimaryContent::SetHorizontalAlignment, SetHorizontalAlignment, SetHorizontalAlignment method [Direct Manipulation], SetHorizontalAlignment method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_sethorizontalalignment, directmanipulation/IDirectManipulationPrimaryContent::SetHorizontalAlignment
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_EmfPlusRecordType.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\emfplusrecordtype.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: EmfPlusRecordTotal, EmfPlusRecordType, EmfPlusRecordType enumeration [GDI+], EmfPlusRecordTypeBeginContainer, EmfPlusRecordTypeBeginContainerNoParams, EmfPlusRecordTypeClear, EmfPlusRecordTypeComment, EmfPlusRecordTypeDrawArc, EmfPlusRecordTypeDrawBeziers, EmfPlusRecordTypeDrawClosedCurve, EmfPlusRecordTypeDrawCurve, EmfPlusRecordTypeDrawDriverString, EmfPlusRecordTypeDrawEllipse, EmfPlusRecordTypeDrawImage, EmfPlusRecordTypeDrawImagePoints, EmfPlusRecordTypeDrawLines, EmfPlusRecordTypeDrawPath, EmfPlusRecordTypeDrawPie, EmfPlusRecordTypeDrawRects, EmfPlusRecordTypeDrawString, EmfPlusRecordTypeEndContainer, EmfPlusRecordTypeEndOfFile, EmfPlusRecordTypeFillClosedCurve, EmfPlusRecordTypeFillEllipse, EmfPlusRecordTypeFillPath, EmfPlusRecordTypeFillPie, EmfPlusRecordTypeFillPolygon, EmfPlusRecordTypeFillRects, EmfPlusRecordTypeFillRegion, EmfPlusRecordTypeGetDC, EmfPlusRecordTypeHeader, EmfPlusRecordTypeInvalid, EmfPlusRecordTypeMax, EmfPlusRecordTypeMin, EmfPlusRecordTypeMultiFormatEnd, EmfPlusRecordTypeMultiFormatSection, EmfPlusRecordTypeMultiFormatStart, EmfPlusRecordTypeMultiplyWorldTransform, EmfPlusRecordTypeObject, EmfPlusRecordTypeOffsetClip, EmfPlusRecordTypeResetClip, EmfPlusRecordTypeResetWorldTransform, EmfPlusRecordTypeRestore, EmfPlusRecordTypeRotateWorldTransform, EmfPlusRecordTypeSave, EmfPlusRecordTypeScaleWorldTransform, EmfPlusRecordTypeSerializableObject, EmfPlusRecordTypeSetAntiAliasMode, EmfPlusRecordTypeSetClipPath, EmfPlusRecordTypeSetClipRect, EmfPlusRecordTypeSetClipRegion, EmfPlusRecordTypeSetCompositingMode, EmfPlusRecordTypeSetCompositingQuality, EmfPlusRecordTypeSetGammaValue, EmfPlusRecordTypeSetInterpolationMode, EmfPlusRecordTypeSetPageTransform, EmfPlusRecordTypeSetPixelOffsetMode, EmfPlusRecordTypeSetRenderingOrigin, EmfPlusRecordTypeSetTSClip, EmfPlusRecordTypeSetTSGraphics, EmfPlusRecordTypeSetTextContrast, EmfPlusRecordTypeSetTextRenderingHint, EmfPlusRecordTypeSetWorldTransform, EmfPlusRecordTypeStrokeFillPath, EmfPlusRecordTypeTranslateWorldTransform, EmfRecordTypeAbortPath, EmfRecordTypeAlphaBlend, EmfRecordTypeAngleArc, EmfRecordTypeArc, EmfRecordTypeArcTo, EmfRecordTypeBeginPath, EmfRecordTypeBitBlt, EmfRecordTypeChord, EmfRecordTypeCloseFigure, EmfRecordTypeColorCorrectPalette, EmfRecordTypeColorMatchToTargetW, EmfRecordTypeCreateBrushIndirect, EmfRecordTypeCreateColorSpace, EmfRecordTypeCreateColorSpaceW, EmfRecordTypeCreateDIBPatternBrushPt, EmfRecordTypeCreateMonoBrush, EmfRecordTypeCreatePalette, EmfRecordTypeCreatePen, EmfRecordTypeDeleteColorSpace, EmfRecordTypeDeleteObject, EmfRecordTypeDrawEscape, EmfRecordTypeEOF, EmfRecordTypeEllipse, EmfRecordTypeEndPath, EmfRecordTypeExcludeClipRect, EmfRecordTypeExtCreateFontIndirect, EmfRecordTypeExtCreatePen, EmfRecordTypeExtEscape, EmfRecordTypeExtFloodFill, EmfRecordTypeExtSelectClipRgn, EmfRecordTypeExtTextOutA, EmfRecordTypeExtTextOutW, EmfRecordTypeFillPath, EmfRecordTypeFillRgn, EmfRecordTypeFlattenPath, EmfRecordTypeForceUFIMapping, EmfRecordTypeFrameRgn, EmfRecordTypeGLSBoundedRecord, EmfRecordTypeGLSRecord, EmfRecordTypeGdiComment, EmfRecordTypeGradientFill, EmfRecordTypeHeader, EmfRecordTypeIntersectClipRect, EmfRecordTypeInvertRgn, EmfRecordTypeLineTo, EmfRecordTypeMaskBlt, EmfRecordTypeMax, EmfRecordTypeMin, EmfRecordTypeModifyWorldTransform, EmfRecordTypeMoveToEx, EmfRecordTypeNamedEscape, EmfRecordTypeOffsetClipRgn, EmfRecordTypePaintRgn, EmfRecordTypePie, EmfRecordTypePixelFormat, EmfRecordTypePlgBlt, EmfRecordTypePolyBezier, EmfRecordTypePolyBezier16, EmfRecordTypePolyBezierTo, EmfRecordTypePolyBezierTo16, EmfRecordTypePolyDraw, EmfRecordTypePolyDraw16, EmfRecordTypePolyLineTo, EmfRecordTypePolyPolygon, EmfRecordTypePolyPolygon16, EmfRecordTypePolyPolyline, EmfRecordTypePolyPolyline16, EmfRecordTypePolyTextOutA, EmfRecordTypePolyTextOutW, EmfRecordTypePolygon, EmfRecordTypePolygon16, EmfRecordTypePolyline, EmfRecordTypePolyline16, EmfRecordTypePolylineTo16, EmfRecordTypeRealizePalette, EmfRecordTypeRectangle, EmfRecordTypeReserved_069, EmfRecordTypeReserved_117, EmfRecordTypeResizePalette, EmfRecordTypeRestoreDC, EmfRecordTypeRoundRect, EmfRecordTypeSaveDC, EmfRecordTypeScaleViewportExtEx, EmfRecordTypeScaleWindowExtEx, EmfRecordTypeSelectClipPath, EmfRecordTypeSelectObject, EmfRecordTypeSelectPalette, EmfRecordTypeSetArcDirection, EmfRecordTypeSetBkColor, EmfRecordTypeSetBkMode, EmfRecordTypeSetBrushOrgEx, EmfRecordTypeSetColorAdjustment, EmfRecordTypeSetColorSpace, EmfRecordTypeSetDIBitsToDevice, EmfRecordTypeSetICMMode, EmfRecordTypeSetICMProfileA, EmfRecordTypeSetICMProfileW, EmfRecordTypeSetLayout, EmfRecordTypeSetLinkedUFIs, EmfRecordTypeSetMapMode, EmfRecordTypeSetMapperFlags, EmfRecordTypeSetMetaRgn, EmfRecordTypeSetMiterLimit, EmfRecordTypeSetPaletteEntries, EmfRecordTypeSetPixelV, EmfRecordTypeSetPolyFillMode, EmfRecordTypeSetROP2, EmfRecordTypeSetStretchBltMode, EmfRecordTypeSetTextAlign, EmfRecordTypeSetTextColor, EmfRecordTypeSetTextJustification, EmfRecordTypeSetViewportExtEx, EmfRecordTypeSetViewportOrgEx, EmfRecordTypeSetWindowExtEx, EmfRecordTypeSetWindowOrgEx, EmfRecordTypeSetWorldTransform, EmfRecordTypeSmallTextOut, EmfRecordTypeStartDoc, EmfRecordTypeStretchBlt, EmfRecordTypeStretchDIBits, EmfRecordTypeStrokeAndFillPath, EmfRecordTypeStrokePath, EmfRecordTypeTransparentBlt, EmfRecordTypeWidenPath, WmfRecordTypeAbortDoc, WmfRecordTypeAnimatePalette, WmfRecordTypeArc, WmfRecordTypeBitBlt, WmfRecordTypeChord, WmfRecordTypeCreateBitmap, WmfRecordTypeCreateBitmapIndirect, WmfRecordTypeCreateBrush, WmfRecordTypeCreateBrushIndirect, WmfRecordTypeCreateFontIndirect, WmfRecordTypeCreatePalette, WmfRecordTypeCreatePatternBrush, WmfRecordTypeCreatePenIndirect, WmfRecordTypeCreateRegion, WmfRecordTypeDIBBitBlt, WmfRecordTypeDIBCreatePatternBrush, WmfRecordTypeDIBStretchBlt, WmfRecordTypeDeleteObject, WmfRecordTypeDrawText, WmfRecordTypeEllipse, WmfRecordTypeEndDoc, WmfRecordTypeEndPage, WmfRecordTypeEscape, WmfRecordTypeExcludeClipRect, WmfRecordTypeExtFloodFill, WmfRecordTypeExtTextOut, WmfRecordTypeFillRegion, WmfRecordTypeFloodFill, WmfRecordTypeFrameRegion, WmfRecordTypeIntersectClipRect, WmfRecordTypeInvertRegion, WmfRecordTypeLineTo, WmfRecordTypeMoveTo, WmfRecordTypeOffsetClipRgn, WmfRecordTypeOffsetViewportOrg, WmfRecordTypeOffsetWindowOrg, WmfRecordTypePaintRegion, WmfRecordTypePatBlt, WmfRecordTypePie, WmfRecordTypePolyPolygon, WmfRecordTypePolygon, WmfRecordTypePolyline, WmfRecordTypeRealizePalette, WmfRecordTypeRectangle, WmfRecordTypeResetDC, WmfRecordTypeResizePalette, WmfRecordTypeRestoreDC, WmfRecordTypeRoundRect, WmfRecordTypeSaveDC, WmfRecordTypeScaleViewportExt, WmfRecordTypeScaleWindowExt, WmfRecordTypeSelectClipRegion, WmfRecordTypeSelectObject, WmfRecordTypeSelectPalette, WmfRecordTypeSetBkColor, WmfRecordTypeSetBkMode, WmfRecordTypeSetDIBToDev, WmfRecordTypeSetLayout, WmfRecordTypeSetMapMode, WmfRecordTypeSetMapperFlags, WmfRecordTypeSetPalEntries, WmfRecordTypeSetPixel, WmfRecordTypeSetPolyFillMode, WmfRecordTypeSetROP2, WmfRecordTypeSetRelAbs, WmfRecordTypeSetStretchBltMode, WmfRecordTypeSetTextAlign, WmfRecordTypeSetTextCharExtra, WmfRecordTypeSetTextColor, WmfRecordTypeSetTextJustification, WmfRecordTypeSetViewportExt, WmfRecordTypeSetViewportOrg, WmfRecordTypeSetWindowExt, WmfRecordTypeSetWindowOrg, WmfRecordTypeStartDoc, WmfRecordTypeStartPage, WmfRecordTypeStretchBlt, WmfRecordTypeStretchDIB, WmfRecordTypeTextOut, _gdiplus_ENUM_EmfPlusRecordType, gdiplus._gdiplus_ENUM_EmfPlusRecordType, gdiplusenums/EmfPlusRecordTotal, gdiplusenums/EmfPlusRecordType, gdiplusenums/EmfPlusRecordTypeBeginContainer, gdiplusenums/EmfPlusRecordTypeBeginContainerNoParams, gdiplusenums/EmfPlusRecordTypeClear, gdiplusenums/EmfPlusRecordTypeComment, gdiplusenums/EmfPlusRecordTypeDrawArc, gdiplusenums/EmfPlusRecordTypeDrawBeziers, gdiplusenums/EmfPlusRecordTypeDrawClosedCurve, gdiplusenums/EmfPlusRecordTypeDrawCurve, gdiplusenums/EmfPlusRecordTypeDrawDriverString, gdiplusenums/EmfPlusRecordTypeDrawEllipse, gdiplusenums/EmfPlusRecordTypeDrawImage, gdiplusenums/EmfPlusRecordTypeDrawImagePoints, gdiplusenums/EmfPlusRecordTypeDrawLines, gdiplusenums/EmfPlusRecordTypeDrawPath, gdiplusenums/EmfPlusRecordTypeDrawPie, gdiplusenums/EmfPlusRecordTypeDrawRects, gdiplusenums/EmfPlusRecordTypeDrawString, gdiplusenums/EmfPlusRecordTypeEndContainer, gdiplusenums/EmfPlusRecordTypeEndOfFile, gdiplusenums/EmfPlusRecordTypeFillClosedCurve, gdiplusenums/EmfPlusRecordTypeFillEllipse, gdiplusenums/EmfPlusRecordTypeFillPath, gdiplusenums/EmfPlusRecordTypeFillPie, gdiplusenums/EmfPlusRecordTypeFillPolygon, gdiplusenums/EmfPlusRecordTypeFillRects, gdiplusenums/EmfPlusRecordTypeFillRegion, gdiplusenums/EmfPlusRecordTypeGetDC, gdiplusenums/EmfPlusRecordTypeHeader, gdiplusenums/EmfPlusRecordTypeInvalid, gdiplusenums/EmfPlusRecordTypeMax, gdiplusenums/EmfPlusRecordTypeMin, gdiplusenums/EmfPlusRecordTypeMultiFormatEnd, gdiplusenums/EmfPlusRecordTypeMultiFormatSection, gdiplusenums/EmfPlusRecordTypeMultiFormatStart, gdiplusenums/EmfPlusRecordTypeMultiplyWorldTransform, gdiplusenums/EmfPlusRecordTypeObject, gdiplusenums/EmfPlusRecordTypeOffsetClip, gdiplusenums/EmfPlusRecordTypeResetClip, gdiplusenums/EmfPlusRecordTypeResetWorldTransform, gdiplusenums/EmfPlusRecordTypeRestore, gdiplusenums/EmfPlusRecordTypeRotateWorldTransform, gdiplusenums/EmfPlusRecordTypeSave, gdiplusenums/EmfPlusRecordTypeScaleWorldTransform, gdiplusenums/EmfPlusRecordTypeSerializableObject, gdiplusenums/EmfPlusRecordTypeSetAntiAliasMode, gdiplusenums/EmfPlusRecordTypeSetClipPath, gdiplusenums/EmfPlusRecordTypeSetClipRect, gdiplusenums/EmfPlusRecordTypeSetClipRegion, gdiplusenums/EmfPlusRecordTypeSetCompositingMode, gdiplusenums/EmfPlusRecordTypeSetCompositingQuality, gdiplusenums/EmfPlusRecordTypeSetGammaValue, gdiplusenums/EmfPlusRecordTypeSetInterpolationMode, gdiplusenums/EmfPlusRecordTypeSetPageTransform, gdiplusenums/EmfPlusRecordTypeSetPixelOffsetMode, gdiplusenums/EmfPlusRecordTypeSetRenderingOrigin, gdiplusenums/EmfPlusRecordTypeSetTSClip, gdiplusenums/EmfPlusRecordTypeSetTSGraphics, gdiplusenums/EmfPlusRecordTypeSetTextContrast, gdiplusenums/EmfPlusRecordTypeSetTextRenderingHint, gdiplusenums/EmfPlusRecordTypeSetWorldTransform, gdiplusenums/EmfPlusRecordTypeStrokeFillPath, gdiplusenums/EmfPlusRecordTypeTranslateWorldTransform, gdiplusenums/EmfRecordTypeAbortPath, gdiplusenums/EmfRecordTypeAlphaBlend, gdiplusenums/EmfRecordTypeAngleArc, gdiplusenums/EmfRecordTypeArc, gdiplusenums/EmfRecordTypeArcTo, gdiplusenums/EmfRecordTypeBeginPath, gdiplusenums/EmfRecordTypeBitBlt, gdiplusenums/EmfRecordTypeChord, gdiplusenums/EmfRecordTypeCloseFigure, gdiplusenums/EmfRecordTypeColorCorrectPalette, gdiplusenums/EmfRecordTypeColorMatchToTargetW, gdiplusenums/EmfRecordTypeCreateBrushIndirect, gdiplusenums/EmfRecordTypeCreateColorSpace, gdiplusenums/EmfRecordTypeCreateColorSpaceW, gdiplusenums/EmfRecordTypeCreateDIBPatternBrushPt, gdiplusenums/EmfRecordTypeCreateMonoBrush, gdiplusenums/EmfRecordTypeCreatePalette, gdiplusenums/EmfRecordTypeCreatePen, gdiplusenums/EmfRecordTypeDeleteColorSpace, gdiplusenums/EmfRecordTypeDeleteObject, gdiplusenums/EmfRecordTypeDrawEscape, gdiplusenums/EmfRecordTypeEOF, gdiplusenums/EmfRecordTypeEllipse, gdiplusenums/EmfRecordTypeEndPath, gdiplusenums/EmfRecordTypeExcludeClipRect, gdiplusenums/EmfRecordTypeExtCreateFontIndirect, gdiplusenums/EmfRecordTypeExtCreatePen, gdiplusenums/EmfRecordTypeExtEscape, gdiplusenums/EmfRecordTypeExtFloodFill, gdiplusenums/EmfRecordTypeExtSelectClipRgn, gdiplusenums/EmfRecordTypeExtTextOutA, gdiplusenums/EmfRecordTypeExtTextOutW, gdiplusenums/EmfRecordTypeFillPath, gdiplusenums/EmfRecordTypeFillRgn, gdiplusenums/EmfRecordTypeFlattenPath, gdiplusenums/EmfRecordTypeForceUFIMapping, gdiplusenums/EmfRecordTypeFrameRgn, gdiplusenums/EmfRecordTypeGLSBoundedRecord, gdiplusenums/EmfRecordTypeGLSRecord, gdiplusenums/EmfRecordTypeGdiComment, gdiplusenums/EmfRecordTypeGradientFill, gdiplusenums/EmfRecordTypeHeader, gdiplusenums/EmfRecordTypeIntersectClipRect, gdiplusenums/EmfRecordTypeInvertRgn, gdiplusenums/EmfRecordTypeLineTo, gdiplusenums/EmfRecordTypeMaskBlt, gdiplusenums/EmfRecordTypeMax, gdiplusenums/EmfRecordTypeMin, gdiplusenums/EmfRecordTypeModifyWorldTransform, gdiplusenums/EmfRecordTypeMoveToEx, gdiplusenums/EmfRecordTypeNamedEscape, gdiplusenums/EmfRecordTypeOffsetClipRgn, gdiplusenums/EmfRecordTypePaintRgn, gdiplusenums/EmfRecordTypePie, gdiplusenums/EmfRecordTypePixelFormat, gdiplusenums/EmfRecordTypePlgBlt, gdiplusenums/EmfRecordTypePolyBezier, gdiplusenums/EmfRecordTypePolyBezier16, gdiplusenums/EmfRecordTypePolyBezierTo, gdiplusenums/EmfRecordTypePolyBezierTo16, gdiplusenums/EmfRecordTypePolyDraw, gdiplusenums/EmfRecordTypePolyDraw16, gdiplusenums/EmfRecordTypePolyLineTo, gdiplusenums/EmfRecordTypePolyPolygon, gdiplusenums/EmfRecordTypePolyPolygon16, gdiplusenums/EmfRecordTypePolyPolyline, gdiplusenums/EmfRecordTypePolyPolyline16, gdiplusenums/EmfRecordTypePolyTextOutA, gdiplusenums/EmfRecordTypePolyTextOutW, gdiplusenums/EmfRecordTypePolygon, gdiplusenums/EmfRecordTypePolygon16, gdiplusenums/EmfRecordTypePolyline, gdiplusenums/EmfRecordTypePolyline16, gdiplusenums/EmfRecordTypePolylineTo16, gdiplusenums/EmfRecordTypeRealizePalette, gdiplusenums/EmfRecordTypeRectangle, gdiplusenums/EmfRecordTypeReserved_069, gdiplusenums/EmfRecordTypeReserved_117, gdiplusenums/EmfRecordTypeResizePalette, gdiplusenums/EmfRecordTypeRestoreDC, gdiplusenums/EmfRecordTypeRoundRect, gdiplusenums/EmfRecordTypeSaveDC, gdiplusenums/EmfRecordTypeScaleViewportExtEx, gdiplusenums/EmfRecordTypeScaleWindowExtEx, gdiplusenums/EmfRecordTypeSelectClipPath, gdiplusenums/EmfRecordTypeSelectObject, gdiplusenums/EmfRecordTypeSelectPalette, gdiplusenums/EmfRecordTypeSetArcDirection, gdiplusenums/EmfRecordTypeSetBkColor, gdiplusenums/EmfRecordTypeSetBkMode, gdiplusenums/EmfRecordTypeSetBrushOrgEx, gdiplusenums/EmfRecordTypeSetColorAdjustment, gdiplusenums/EmfRecordTypeSetColorSpace, gdiplusenums/EmfRecordTypeSetDIBitsToDevice, gdiplusenums/EmfRecordTypeSetICMMode, gdiplusenums/EmfRecordTypeSetICMProfileA, gdiplusenums/EmfRecordTypeSetICMProfileW, gdiplusenums/EmfRecordTypeSetLayout, gdiplusenums/EmfRecordTypeSetLinkedUFIs, gdiplusenums/EmfRecordTypeSetMapMode, gdiplusenums/EmfRecordTypeSetMapperFlags, gdiplusenums/EmfRecordTypeSetMetaRgn, gdiplusenums/EmfRecordTypeSetMiterLimit, gdiplusenums/EmfRecordTypeSetPaletteEntries, gdiplusenums/EmfRecordTypeSetPixelV, gdiplusenums/EmfRecordTypeSetPolyFillMode, gdiplusenums/EmfRecordTypeSetROP2, gdiplusenums/EmfRecordTypeSetStretchBltMode, gdiplusenums/EmfRecordTypeSetTextAlign, gdiplusenums/EmfRecordTypeSetTextColor, gdiplusenums/EmfRecordTypeSetTextJustification, gdiplusenums/EmfRecordTypeSetViewportExtEx, gdiplusenums/EmfRecordTypeSetViewportOrgEx, gdiplusenums/EmfRecordTypeSetWindowExtEx, gdiplusenums/EmfRecordTypeSetWindowOrgEx, gdiplusenums/EmfRecordTypeSetWorldTransform, gdiplusenums/EmfRecordTypeSmallTextOut, gdiplusenums/EmfRecordTypeStartDoc, gdiplusenums/EmfRecordTypeStretchBlt, gdiplusenums/EmfRecordTypeStretchDIBits, gdiplusenums/EmfRecordTypeStrokeAndFillPath, gdiplusenums/EmfRecordTypeStrokePath, gdiplusenums/EmfRecordTypeTransparentBlt, gdiplusenums/EmfRecordTypeWidenPath, gdiplusenums/WmfRecordTypeAbortDoc, gdiplusenums/WmfRecordTypeAnimatePalette, gdiplusenums/WmfRecordTypeArc, gdiplusenums/WmfRecordTypeBitBlt, gdiplusenums/WmfRecordTypeChord, gdiplusenums/WmfRecordTypeCreateBitmap, gdiplusenums/WmfRecordTypeCreateBitmapIndirect, gdiplusenums/WmfRecordTypeCreateBrush, gdiplusenums/WmfRecordTypeCreateBrushIndirect, gdiplusenums/WmfRecordTypeCreateFontIndirect, gdiplusenums/WmfRecordTypeCreatePalette, gdiplusenums/WmfRecordTypeCreatePatternBrush, gdiplusenums/WmfRecordTypeCreatePenIndirect, gdiplusenums/WmfRecordTypeCreateRegion, gdiplusenums/WmfRecordTypeDIBBitBlt, gdiplusenums/WmfRecordTypeDIBCreatePatternBrush, gdiplusenums/WmfRecordTypeDIBStretchBlt, gdiplusenums/WmfRecordTypeDeleteObject, gdiplusenums/WmfRecordTypeDrawText, gdiplusenums/WmfRecordTypeEllipse, gdiplusenums/WmfRecordTypeEndDoc, gdiplusenums/WmfRecordTypeEndPage, gdiplusenums/WmfRecordTypeEscape, gdiplusenums/WmfRecordTypeExcludeClipRect, gdiplusenums/WmfRecordTypeExtFloodFill, gdiplusenums/WmfRecordTypeExtTextOut, gdiplusenums/WmfRecordTypeFillRegion, gdiplusenums/WmfRecordTypeFloodFill, gdiplusenums/WmfRecordTypeFrameRegion, gdiplusenums/WmfRecordTypeIntersectClipRect, gdiplusenums/WmfRecordTypeInvertRegion, gdiplusenums/WmfRecordTypeLineTo, gdiplusenums/WmfRecordTypeMoveTo, gdiplusenums/WmfRecordTypeOffsetClipRgn, gdiplusenums/WmfRecordTypeOffsetViewportOrg, gdiplusenums/WmfRecordTypeOffsetWindowOrg, gdiplusenums/WmfRecordTypePaintRegion, gdiplusenums/WmfRecordTypePatBlt, gdiplusenums/WmfRecordTypePie, gdiplusenums/WmfRecordTypePolyPolygon, gdiplusenums/WmfRecordTypePolygon, gdiplusenums/WmfRecordTypePolyline, gdiplusenums/WmfRecordTypeRealizePalette, gdiplusenums/WmfRecordTypeRectangle, gdiplusenums/WmfRecordTypeResetDC, gdiplusenums/WmfRecordTypeResizePalette, gdiplusenums/WmfRecordTypeRestoreDC, gdiplusenums/WmfRecordTypeRoundRect, gdiplusenums/WmfRecordTypeSaveDC, gdiplusenums/WmfRecordTypeScaleViewportExt, gdiplusenums/WmfRecordTypeScaleWindowExt, gdiplusenums/WmfRecordTypeSelectClipRegion, gdiplusenums/WmfRecordTypeSelectObject, gdiplusenums/WmfRecordTypeSelectPalette, gdiplusenums/WmfRecordTypeSetBkColor, gdiplusenums/WmfRecordTypeSetBkMode, gdiplusenums/WmfRecordTypeSetDIBToDev, gdiplusenums/WmfRecordTypeSetLayout, gdiplusenums/WmfRecordTypeSetMapMode, gdiplusenums/WmfRecordTypeSetMapperFlags, gdiplusenums/WmfRecordTypeSetPalEntries, gdiplusenums/WmfRecordTypeSetPixel, gdiplusenums/WmfRecordTypeSetPolyFillMode, gdiplusenums/WmfRecordTypeSetROP2, gdiplusenums/WmfRecordTypeSetRelAbs, gdiplusenums/WmfRecordTypeSetStretchBltMode, gdiplusenums/WmfRecordTypeSetTextAlign, gdiplusenums/WmfRecordTypeSetTextCharExtra, gdiplusenums/WmfRecordTypeSetTextColor, gdiplusenums/WmfRecordTypeSetTextJustification, gdiplusenums/WmfRecordTypeSetViewportExt, gdiplusenums/WmfRecordTypeSetViewportOrg, gdiplusenums/WmfRecordTypeSetWindowExt, gdiplusenums/WmfRecordTypeSetWindowOrg, gdiplusenums/WmfRecordTypeStartDoc, gdiplusenums/WmfRecordTypeStartPage, gdiplusenums/WmfRecordTypeStretchBlt, gdiplusenums/WmfRecordTypeStretchDIB, gdiplusenums/WmfRecordTypeTextOut
 ms.prod: windows
 ms.technology: windows-sdk
@@ -695,14 +695,14 @@ Identifies a record that marks the last EMF+ record of a metafile.
 ### -field EmfPlusRecordTypeComment
 
 
-<a href="https://msdn.microsoft.com/library/ms535678(v=VS.85).aspx">Graphics::AddMetafileComment</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535678(v=VS.85).aspx">Graphics::AddMetafileComment</a>
 
 
 
 ### -field EmfPlusRecordTypeGetDC
 
 
-<a href="https://msdn.microsoft.com/library/ms535709(v=VS.85).aspx">Graphics::GetHDC</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535709(v=VS.85).aspx">Graphics::GetHDC</a>
 
 
 
@@ -727,320 +727,320 @@ Identifies the end of a multiple-format block.
 ### -field EmfPlusRecordTypeClear
 
 
-<a href="https://msdn.microsoft.com/library/ms535679(v=VS.85).aspx">Graphics::Clear</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535679(v=VS.85).aspx">Graphics::Clear</a>
 
 
 
 ### -field EmfPlusRecordTypeFillRects
 
 
-<a href="https://msdn.microsoft.com/library/ms535775(v=VS.85).aspx">FillRectangles Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535775(v=VS.85).aspx">FillRectangles Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawRects
 
 
-<a href="https://msdn.microsoft.com/library/ms535757(v=VS.85).aspx">DrawRectangles Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535757(v=VS.85).aspx">DrawRectangles Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeFillPolygon
 
 
-<a href="https://msdn.microsoft.com/library/ms535770(v=VS.85).aspx">FillPolygon Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535770(v=VS.85).aspx">FillPolygon Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawLines
 
 
-<a href="https://msdn.microsoft.com/library/ms535749(v=VS.85).aspx">DrawLines Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535749(v=VS.85).aspx">DrawLines Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeFillEllipse
 
 
-<a href="https://msdn.microsoft.com/library/ms535767(v=VS.85).aspx">FillEllipse Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535767(v=VS.85).aspx">FillEllipse Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawEllipse
 
 
-<a href="https://msdn.microsoft.com/library/ms535744(v=VS.85).aspx">DrawEllipse Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535744(v=VS.85).aspx">DrawEllipse Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeFillPie
 
 
-<a href="https://msdn.microsoft.com/library/ms535769(v=VS.85).aspx">FillPie Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535769(v=VS.85).aspx">FillPie Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawPie
 
 
-<a href="https://msdn.microsoft.com/library/ms535751(v=VS.85).aspx">DrawPie Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535751(v=VS.85).aspx">DrawPie Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawArc
 
 
-<a href="https://msdn.microsoft.com/library/ms535733(v=VS.85).aspx">DrawArc Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535733(v=VS.85).aspx">DrawArc Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeFillRegion
 
 
-<a href="https://msdn.microsoft.com/library/ms535690(v=VS.85).aspx">Graphics::FillRegion</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535690(v=VS.85).aspx">Graphics::FillRegion</a>
 
 
 
 ### -field EmfPlusRecordTypeFillPath
 
 
-<a href="https://msdn.microsoft.com/library/ms535688(v=VS.85).aspx">Graphics::FillPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535688(v=VS.85).aspx">Graphics::FillPath</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawPath
 
 
-<a href="https://msdn.microsoft.com/library/ms535685(v=VS.85).aspx">Graphics::DrawPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535685(v=VS.85).aspx">Graphics::DrawPath</a>
 
 
 
 ### -field EmfPlusRecordTypeFillClosedCurve
 
 
-<a href="https://msdn.microsoft.com/library/ms535765(v=VS.85).aspx">FillClosedCurve Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535765(v=VS.85).aspx">FillClosedCurve Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawClosedCurve
 
 
-<a href="https://msdn.microsoft.com/library/ms535740(v=VS.85).aspx">DrawClosedCurve Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535740(v=VS.85).aspx">DrawClosedCurve Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawCurve
 
 
-<a href="https://msdn.microsoft.com/library/ms535742(v=VS.85).aspx">DrawCurve Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535742(v=VS.85).aspx">DrawCurve Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawBeziers
 
 
-<a href="https://msdn.microsoft.com/library/ms535738(v=VS.85).aspx">DrawBeziers Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535738(v=VS.85).aspx">DrawBeziers Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawImage
 
 
-<a href="https://msdn.microsoft.com/library/ms535746(v=VS.85).aspx">DrawImage Methods</a> (all methods that do not receive an array of destination points)
+<a href="https://msdn.microsoft.com/en-us/library/ms535746(v=VS.85).aspx">DrawImage Methods</a> (all methods that do not receive an array of destination points)
 
 
 ### -field EmfPlusRecordTypeDrawImagePoints
 
 
-<a href="https://msdn.microsoft.com/library/ms535746(v=VS.85).aspx">DrawImage Methods</a> (all methods that receive an array of destination points)
+<a href="https://msdn.microsoft.com/en-us/library/ms535746(v=VS.85).aspx">DrawImage Methods</a> (all methods that receive an array of destination points)
 
 
 ### -field EmfPlusRecordTypeDrawString
 
 
-<a href="https://msdn.microsoft.com/library/ms535759(v=VS.85).aspx">DrawString Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535759(v=VS.85).aspx">DrawString Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeSetRenderingOrigin
 
 
-<a href="https://msdn.microsoft.com/library/ms535814(v=VS.85).aspx">Graphics::SetRenderingOrigin</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535814(v=VS.85).aspx">Graphics::SetRenderingOrigin</a>
 
 
 
 ### -field EmfPlusRecordTypeSetAntiAliasMode
 
 
-<a href="https://msdn.microsoft.com/library/ms535815(v=VS.85).aspx">Graphics::SetSmoothingMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535815(v=VS.85).aspx">Graphics::SetSmoothingMode</a>
 
 
 
 ### -field EmfPlusRecordTypeSetTextRenderingHint
 
 
-<a href="https://msdn.microsoft.com/library/ms535817(v=VS.85).aspx">Graphics::SetTextRenderingHint</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535817(v=VS.85).aspx">Graphics::SetTextRenderingHint</a>
 
 
 
 ### -field EmfPlusRecordTypeSetTextContrast
 
 
-<a href="https://msdn.microsoft.com/library/ms535816(v=VS.85).aspx">Graphics::SetTextContrast</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535816(v=VS.85).aspx">Graphics::SetTextContrast</a>
 
 
 
 ### -field EmfPlusRecordTypeSetInterpolationMode
 
 
-<a href="https://msdn.microsoft.com/library/ms535810(v=VS.85).aspx">Graphics::SetInterpolationMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535810(v=VS.85).aspx">Graphics::SetInterpolationMode</a>
 
 
 
 ### -field EmfPlusRecordTypeSetPixelOffsetMode
 
 
-<a href="https://msdn.microsoft.com/library/ms535813(v=VS.85).aspx">Graphics::SetPixelOffsetMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535813(v=VS.85).aspx">Graphics::SetPixelOffsetMode</a>
 
 
 
 ### -field EmfPlusRecordTypeSetCompositingMode
 
 
-<a href="https://msdn.microsoft.com/library/ms535808(v=VS.85).aspx">Graphics::SetCompositingMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535808(v=VS.85).aspx">Graphics::SetCompositingMode</a>
 
 
 
 ### -field EmfPlusRecordTypeSetCompositingQuality
 
 
-<a href="https://msdn.microsoft.com/library/ms535809(v=VS.85).aspx">Graphics::SetCompositingQuality</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535809(v=VS.85).aspx">Graphics::SetCompositingQuality</a>
 
 
 
 ### -field EmfPlusRecordTypeSave
 
 
-<a href="https://msdn.microsoft.com/library/ms535806(v=VS.85).aspx">Graphics::Save</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535806(v=VS.85).aspx">Graphics::Save</a>
 
 
 
 ### -field EmfPlusRecordTypeRestore
 
 
-<a href="https://msdn.microsoft.com/library/ms535804(v=VS.85).aspx">Graphics::Restore</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a>
 
 
 
 ### -field EmfPlusRecordTypeBeginContainer
 
 
-<a href="https://msdn.microsoft.com/library/ms536158(v=VS.85).aspx">Graphics::BeginContainer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536158(v=VS.85).aspx">Graphics::BeginContainer</a>
 
 
 
 ### -field EmfPlusRecordTypeBeginContainerNoParams
 
 
-<a href="https://msdn.microsoft.com/library/ms536156(v=VS.85).aspx">Graphics::BeginContainer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536156(v=VS.85).aspx">Graphics::BeginContainer</a>
 
 
 
 ### -field EmfPlusRecordTypeEndContainer
 
 
-<a href="https://msdn.microsoft.com/library/ms535686(v=VS.85).aspx">Graphics::EndContainer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535686(v=VS.85).aspx">Graphics::EndContainer</a>
 
 
 
 ### -field EmfPlusRecordTypeSetWorldTransform
 
 
-<a href="https://msdn.microsoft.com/library/ms535818(v=VS.85).aspx">Graphics::SetTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535818(v=VS.85).aspx">Graphics::SetTransform</a>
 
 
 
 ### -field EmfPlusRecordTypeResetWorldTransform
 
 
-<a href="https://msdn.microsoft.com/library/ms535803(v=VS.85).aspx">Graphics::ResetTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535803(v=VS.85).aspx">Graphics::ResetTransform</a>
 
 
 
 ### -field EmfPlusRecordTypeMultiplyWorldTransform
 
 
-<a href="https://msdn.microsoft.com/library/ms535800(v=VS.85).aspx">Graphics::MultiplyTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535800(v=VS.85).aspx">Graphics::MultiplyTransform</a>
 
 
 
 ### -field EmfPlusRecordTypeTranslateWorldTransform
 
 
-<a href="https://msdn.microsoft.com/library/ms535820(v=VS.85).aspx">Graphics::TranslateTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535820(v=VS.85).aspx">Graphics::TranslateTransform</a>
 
 
 
 ### -field EmfPlusRecordTypeScaleWorldTransform
 
 
-<a href="https://msdn.microsoft.com/library/ms535807(v=VS.85).aspx">Graphics::ScaleTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535807(v=VS.85).aspx">Graphics::ScaleTransform</a>
 
 
 
 ### -field EmfPlusRecordTypeRotateWorldTransform
 
 
-<a href="https://msdn.microsoft.com/library/ms535805(v=VS.85).aspx">Graphics::RotateTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535805(v=VS.85).aspx">Graphics::RotateTransform</a>
 
 
 
 ### -field EmfPlusRecordTypeSetPageTransform
 
 
-<a href="https://msdn.microsoft.com/library/ms535811(v=VS.85).aspx">Graphics::SetPageScale</a> and <a href="https://msdn.microsoft.com/library/ms535812(v=VS.85).aspx">Graphics::SetPageUnit</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535811(v=VS.85).aspx">Graphics::SetPageScale</a> and <a href="https://msdn.microsoft.com/en-us/library/ms535812(v=VS.85).aspx">Graphics::SetPageUnit</a>
 
 
 
 ### -field EmfPlusRecordTypeResetClip
 
 
-<a href="https://msdn.microsoft.com/library/ms535802(v=VS.85).aspx">Graphics::ResetClip</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535802(v=VS.85).aspx">Graphics::ResetClip</a>
 
 
 
 ### -field EmfPlusRecordTypeSetClipRect
 
 
-<a href="https://msdn.microsoft.com/library/ms535826(v=VS.85).aspx">Graphics::SetClip</a> and <a href="https://msdn.microsoft.com/library/ms535828(v=VS.85).aspx">Graphics::SetClip</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535826(v=VS.85).aspx">Graphics::SetClip</a> and <a href="https://msdn.microsoft.com/en-us/library/ms535828(v=VS.85).aspx">Graphics::SetClip</a>
 
 
 
 ### -field EmfPlusRecordTypeSetClipPath
 
 
-<a href="https://msdn.microsoft.com/library/ms535824(v=VS.85).aspx">Graphics::SetClip</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535824(v=VS.85).aspx">Graphics::SetClip</a>
 
 
 
 ### -field EmfPlusRecordTypeSetClipRegion
 
 
-<a href="https://msdn.microsoft.com/library/ms535827(v=VS.85).aspx">Graphics::SetClip</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535827(v=VS.85).aspx">Graphics::SetClip</a>
 
 
 
 ### -field EmfPlusRecordTypeOffsetClip
 
 
-<a href="https://msdn.microsoft.com/library/ms535791(v=VS.85).aspx">TranslateClip Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535791(v=VS.85).aspx">TranslateClip Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawDriverString
 
 
-<a href="https://msdn.microsoft.com/library/ms535683(v=VS.85).aspx">Graphics::DrawDriverString</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535683(v=VS.85).aspx">Graphics::DrawDriverString</a>
 
 
 

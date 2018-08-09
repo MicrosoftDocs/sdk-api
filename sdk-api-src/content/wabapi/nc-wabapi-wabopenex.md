@@ -96,18 +96,18 @@ Address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms
 
 
 
-#### - Reserved2
-
-Type: <b>DWORD</b>
-
-Reserved. Must be set to 0.
-
-
 #### - lpWABParam
 
 Type: <b>LPWAB_PARAM</b>
 
 Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms629458(v=VS.85).aspx">WAB_PARAM</a> structure. Supported by Internet Explorer 4.0 or later.
+
+
+#### - Reserved2
+
+Type: <b>DWORD</b>
+
+Reserved. Must be set to 0.
 
 
 #### - lpfnAllocateBuffer

@@ -7,7 +7,7 @@ old-location: controls\ImageList_DragMove.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_dragmove.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ImageList_DragMove, ImageList_DragMove function [Windows Controls], _win32_ImageList_DragMove, _win32_ImageList_DragMove_cpp, commctrl/ImageList_DragMove, controls.ImageList_DragMove, controls._win32_ImageList_DragMove
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Moves the image that is being dragged during a drag-and-drop operation. This function is typically called in response to a <a href="https://msdn.microsoft.com/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> message. 
+Moves the image that is being dragged during a drag-and-drop operation. This function is typically called in response to a <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> message. 
 
 
 ## -parameters
@@ -87,7 +87,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 
-To begin a drag operation, use the <a href="https://msdn.microsoft.com/library/Bb761516(v=VS.85).aspx">ImageList_BeginDrag</a> function. 
+To begin a drag operation, use the <a href="https://msdn.microsoft.com/en-us/library/Bb761516(v=VS.85).aspx">ImageList_BeginDrag</a> function. 
 
 
 

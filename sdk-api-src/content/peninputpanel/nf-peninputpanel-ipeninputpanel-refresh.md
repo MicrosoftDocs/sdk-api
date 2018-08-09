@@ -7,7 +7,7 @@ old-location: tablet\peninputpanel_refresh.htm
 old-project: tablet
 ms.assetid: 7f135184-76cc-4636-8c20-db29ca7d5540
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 7f135184-76cc-4636-8c20-db29ca7d5540, IPenInputPanel interface [Tablet PC],Refresh method, IPenInputPanel.Refresh, IPenInputPanel::Refresh, Refresh, Refresh method [Tablet PC], Refresh method [Tablet PC],IPenInputPanel interface, peninputpanel/IPenInputPanel::Refresh, tablet.peninputpanel_refresh
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,8 +82,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                Success.
+Success.
               
 
 </td>
@@ -95,8 +94,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                Unexpected parameter or property type.
+Unexpected parameter or property type.
               
 
 </td>
@@ -108,8 +106,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                An unspecified error occurred.
+An unspecified error occurred.
               
 
 </td>

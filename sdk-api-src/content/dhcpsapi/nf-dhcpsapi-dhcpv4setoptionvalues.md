@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4setoptionvalues.htm
 old-project: dhcp
 ms.assetid: 8c50af53-8298-401e-826e-0fb1d1410499
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpV4SetOptionValues, DhcpV4SetOptionValues function [DHCP], dhcp.dhcpv4setoptionvalues, dhcpsapi/DhcpV4SetOptionValues
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ Pointer to a <a href="https://msdn.microsoft.com/91d4d678-f0c5-4081-9302-0d08c89
 
 ### -param OptionValues [in]
 
-
-    Pointer to a <a href="https://msdn.microsoft.com/c68b9543-0d7a-46ab-babd-3868c1338d67">DHCP_OPTION_VALUE_ARRAY</a> structure that contains a list of option codes and the corresponding data value that will be set.
+Pointer to a <a href="https://msdn.microsoft.com/c68b9543-0d7a-46ab-babd-3868c1338d67">DHCP_OPTION_VALUE_ARRAY</a> structure that contains a list of option codes and the corresponding data value that will be set.
 
 
 ## -returns

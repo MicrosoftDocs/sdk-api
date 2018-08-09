@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getprotocolversion.htm
 old-project: mstv
 ms.assetid: 80700a74-85d6-4269-9000-83e62f68aeb1
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetProtocolVersion, GetProtocolVersion method [Microsoft TV Technologies], GetProtocolVersion method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetProtocolVersion method, ISCTE_EAS.GetProtocolVersion, ISCTE_EAS::GetProtocolVersion, ISCTE_EASGetProtocolVersion, atscpsipparser/ISCTE_EAS::GetProtocolVersion, mstv.iscte_eas_getprotocolversion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,8 +60,7 @@ The <b>GetProtocolVersion</b> method returns the protocol version of the EAS tab
 
 ### -param pbVal [out]
 
-
-            Receives the protocol_version field.
+Receives the protocol_version field.
           
 
 

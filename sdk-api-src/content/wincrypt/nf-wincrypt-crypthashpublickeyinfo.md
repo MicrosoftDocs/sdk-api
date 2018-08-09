@@ -4,10 +4,10 @@ title: CryptHashPublicKeyInfo function
 author: windows-sdk-content
 description: Encodes the public key information in a CERT_PUBLIC_KEY_INFO structure and computes the hash of the encoded bytes.
 old-location: security\crypthashpublickeyinfo.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: b0c419b7-ebb3-42c6-9f6a-59b55a2db1b2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CryptHashPublicKeyInfo, CryptHashPublicKeyInfo function [Security], _crypto2_crypthashpublickeyinfo, security.crypthashpublickeyinfo, wincrypt/CryptHashPublicKeyInfo
 ms.prod: windows
 ms.technology: windows-sdk

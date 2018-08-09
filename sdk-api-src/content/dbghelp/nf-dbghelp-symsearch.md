@@ -7,7 +7,7 @@ old-location: base\symsearch.htm
 old-project: debug
 ms.assetid: d6b3c06b-fcfd-436c-b267-99ec1380e744
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SYMSEARCH_ALLITEMS, SYMSEARCH_GLOBALSONLY, SYMSEARCH_MASKOBJS, SYMSEARCH_RECURSE, SymSearch, SymSearch function, SymSearchW, base.symsearch, dbghelp/SymSearch, dbghelp/SymSearchW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -166,8 +166,7 @@ Recurse from the top to find all symbols.
 
 
 
-
-						If the function succeeds, the return value is <b>TRUE</b>.
+If the function succeeds, the return value is <b>TRUE</b>.
 						
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 

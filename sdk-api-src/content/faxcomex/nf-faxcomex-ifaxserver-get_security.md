@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_security.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_41h5.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxServer object [Fax Service],Security property, FaxServer.Security, IFaxServer.get_Security, IFaxServer::get_Security, Security property [Fax Service], Security property [Fax Service],FaxServer object, _mfax_faxserver.security, fax._mfax_faxserver_security, get_Security
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Security</b> property creates a <a href="https://msdn.microsoft.com/library/ms689509(v=VS.85).aspx">FaxSecurity</a> configuration object. The object permits the calling application to set and retrieve a security descriptor for the fax server.
+The <b>Security</b> property creates a <a href="https://msdn.microsoft.com/en-us/library/ms689509(v=VS.85).aspx">FaxSecurity</a> configuration object. The object permits the calling application to set and retrieve a security descriptor for the fax server.
 
 This property is read-only.
 
@@ -65,11 +65,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689110(v=VS.85).aspx">IFaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a>
  
 
  

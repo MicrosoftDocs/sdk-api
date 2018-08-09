@@ -4,10 +4,10 @@ title: WINNLSEnableIME function
 author: windows-sdk-content
 description: Temporarily enables or disables an Input Method Editor (IME) and, at the same time, turns on or off the display of all windows owned by the IME.
 old-location: winprog\_win32_winnlsenableime.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\winnlsenableime.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WINNLSEnableIME, WINNLSEnableIME function [Windows API], _win32_WINNLSEnableIME, winnls32/WINNLSEnableIME, winprog._win32_winnlsenableime, winui._win32_winnlsenableime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,26 +61,14 @@ Temporarily enables or disables an Input Method Editor (IME) and, at the same ti
 
 
 
-### -param HWND
-
-TBD
-
-
-### -param BOOL
-
-TBD
-
-
-
-
-#### - bFlag [in]
-
-<b>TRUE</b> to enable the IME; <b>FALSE</b> to disable.
-
-
-#### - hwnd [in]
+### -param HWND [in]
 
 Must be <b>NULL</b>. Specifying a particular IME for each application is not supported.
+
+
+### -param BOOL [in]
+
+<b>TRUE</b> to enable the IME; <b>FALSE</b> to disable.
 
 
 ## -returns

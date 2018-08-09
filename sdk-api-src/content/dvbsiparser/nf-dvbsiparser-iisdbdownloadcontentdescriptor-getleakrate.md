@@ -7,7 +7,7 @@ old-location: mstv\iisdbdownloadcontentdescriptor_getleakrate.htm
 old-project: mstv
 ms.assetid: 3e85f026-66bf-4c13-b476-3aca9e28b3b6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetLeakRate, GetLeakRate method [Microsoft TV Technologies], GetLeakRate method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetLeakRate method, IIsdbDownloadContentDescriptor.GetLeakRate, IIsdbDownloadContentDescriptor::GetLeakRate, dvbsiparser/IIsdbDownloadContentDescriptor::GetLeakRate, mstv.iisdbdownloadcontentdescriptor_getleakrate
 ms.prod: windows
 ms.technology: windows-sdk

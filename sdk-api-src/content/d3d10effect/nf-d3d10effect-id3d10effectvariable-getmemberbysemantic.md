@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_getmemberbysemantic.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_getmemberbysemantic.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 39fcf4c4-6072-0377-d1b8-ca11cc848a0c, GetMemberBySemantic, GetMemberBySemantic method [Direct3D 10], GetMemberBySemantic method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],GetMemberBySemantic method, ID3D10EffectVariable.GetMemberBySemantic, ID3D10EffectVariable::GetMemberBySemantic, d3d10effect/ID3D10EffectVariable::GetMemberBySemantic, direct3d10.id3d10effectvariable_getmemberbysemantic
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,9 +69,9 @@ The semantic.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>.
 
 
 
@@ -90,7 +90,7 @@ If the effect variable is an structure, use this method to look up a member by a
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>
  
 
  

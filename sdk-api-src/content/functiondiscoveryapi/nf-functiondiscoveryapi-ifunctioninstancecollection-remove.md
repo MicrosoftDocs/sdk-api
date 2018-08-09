@@ -7,7 +7,7 @@ old-location: ncd\ifunctioninstancecollection_remove.htm
 old-project: fundisc
 ms.assetid: e5abe3e0-a07c-45e4-a590-133f6b30a7f7
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/30/2018
 ms.keywords: IFunctionInstanceCollection interface,Remove method, IFunctionInstanceCollection.Remove, IFunctionInstanceCollection::Remove, Remove, Remove method, Remove method,IFunctionInstanceCollection interface, functiondiscoveryapi/IFunctionInstanceCollection::Remove, ncd.ifunctioninstancecollection_remove
 ms.prod: windows
 ms.technology: windows-sdk

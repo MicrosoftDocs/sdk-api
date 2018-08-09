@@ -7,7 +7,7 @@ old-location: p2p\peercollabsignout.htm
 old-project: p2psdk
 ms.assetid: aa69a233-6104-47c6-a0b5-378794108623
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerCollabSignout, PeerCollabSignout function [Peer Networking], p2p.peercollabsignout, p2p/PeerCollabSignout
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,7 @@ The <b>PeerCollabSignout</b> function signs a peer out of a specific type of pee
 
 
 
-### -param dwSigninOptions
-
-TBD
-
-
-
-
-#### - dwSignoutOptions [in]
+### -param dwSigninOptions [in]
 
 
 <a href="https://msdn.microsoft.com/00b7f57a-222d-4152-bded-93f1899692da">PEER_SIGNIN_FLAGS</a> enumeration value that contains the presence provider sign-in options for the calling peer. This value is obtained by calling <a href="https://msdn.microsoft.com/2b1452d3-2474-40c9-a913-de7e148e2d94">PeerCollabGetSigninOptions</a> from the peer application.

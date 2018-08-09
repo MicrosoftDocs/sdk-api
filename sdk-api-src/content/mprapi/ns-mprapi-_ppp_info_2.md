@@ -7,7 +7,7 @@ old-location: rras\ppp_info_2.htm
 old-project: rras
 ms.assetid: 5fe87e87-6199-4a96-8e76-1838e515116e
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: PPP_INFO_2, PPP_INFO_2 structure [RAS], _PPP_INFO_2, _mpr_ppp_info_2, mprapi/PPP_INFO_2, rras.ppp_info_2
 ms.prod: windows
 ms.technology: windows-sdk

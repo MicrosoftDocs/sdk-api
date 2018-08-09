@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_GetSize.htm
 old-project: shell
 ms.assetid: 50294d95-801d-4cd6-94ae-8b48c68af50f
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetSize, GetSize method [Windows Shell], GetSize method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetSize method, IShellImageData.GetSize, IShellImageData::GetSize, _shell_IShellImageData_GetSize, shell.IShellImageData_GetSize, shimgdata/IShellImageData::GetSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Gets the dimensions of the image file.
 
 Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a>*</b>
 
-
-          A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure containing the size of the image. This value is valid only when the method returns <b>S_OK</b>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure containing the size of the image. This value is valid only when the method returns <b>S_OK</b>.
         
 
 

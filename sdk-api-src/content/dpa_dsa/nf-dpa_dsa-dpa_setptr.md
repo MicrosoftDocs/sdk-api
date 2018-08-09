@@ -7,7 +7,7 @@ old-location: controls\DPA_SetPtr.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_setptr.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DPA_SetPtr, DPA_SetPtr function [Windows Controls], _win32_DPA_SetPtr, _win32_DPA_SetPtr_cpp, controls.DPA_SetPtr, controls._win32_DPA_SetPtr, dpa_dsa/DPA_SetPtr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,22 +62,12 @@ Assigns a value to an item in a dynamic pointer array (DPA).
 
 ### -param hdpa
 
-TBD
+Type: <b>HDPA</b>
+
+A handle to a DPA.
 
 
 ### -param i
-
-TBD
-
-
-### -param p
-
-Type: <b>void*</b>
-
-A pointer to the value to assign to the specified DPA item.
-
-
-#### - index
 
 Type: <b>int</b>
 
@@ -86,11 +76,11 @@ The index of the item in the DPA.
 <div class="alert"><b>Note</b>  If the index is beyond the current size of the DPA, the DPA expands to accommodate it. You do not need to assign items contiguously.</div>
 <div> </div>
 
-#### - pdpa
+### -param p
 
-Type: <b>HDPA</b>
+Type: <b>void*</b>
 
-A handle to a DPA.
+A pointer to the value to assign to the specified DPA item.
 
 
 ## -returns

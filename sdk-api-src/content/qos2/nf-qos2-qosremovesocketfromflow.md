@@ -7,7 +7,7 @@ old-location: qos\qosremovesocketfromflow.htm
 old-project: qos
 ms.assetid: c67dc959-2511-4a95-87e4-1689f49c167a
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: QOSRemoveSocketFromFlow, QOSRemoveSocketFromFlow function [QOS], qos.qosremovesocketfromflow, qos2/QOSRemoveSocketFromFlow
 ms.prod: windows
 ms.technology: windows-sdk

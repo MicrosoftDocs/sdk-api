@@ -7,7 +7,7 @@ old-location: mscs\iweextendwizard97_createwizard97pages.htm
 old-project: mscs
 ms.assetid: 1ab81008-42d8-4863-8836-0508e49ceca9
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: CreateWizard97Pages, CreateWizard97Pages method [Failover Cluster], CreateWizard97Pages method [Failover Cluster],IWEExtendWizard97 interface, IWEExtendWizard97 interface [Failover Cluster],CreateWizard97Pages method, IWEExtendWizard97.CreateWizard97Pages, IWEExtendWizard97::CreateWizard97Pages, _wolf_iweextendwizard97_createwizard97pages, cluadmex/IWEExtendWizard97::CreateWizard97Pages, mscs.iweextendwizard97_createwizard97pages
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,9 @@ Allows you to create Wizard97 property pages and add them to a
 ### -param piData [in]
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer for retrieving information 
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer for retrieving information 
        relating to the wizard97 pages to be added. By calling 
-       <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> with the 
+       <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> with the 
        <i>piData</i> pointer, the following interfaces are available:
 
 <ul>
@@ -81,7 +81,7 @@ Allows you to create Wizard97 property pages and add them to a
 <a href="https://msdn.microsoft.com/a88ba05c-b64b-4d6d-b005-f2f867093355">IGetClusterObjectInfo</a>
 </li>
 </ul>
-Depending on the type of <a href="https://msdn.microsoft.com/library/ms682005(v=VS.85).aspx">cluster object</a>, a 
+Depending on the type of <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster object</a>, a 
        pointer to one of the following interfaces is also available:
 
 <ul>
@@ -136,14 +136,14 @@ If your extension has no Wizard97 pages but does have non-Wizard97 pages, you ca
 <p class="proch"><img alt="" src="../common/wedge.gif"/><b>For each Wizard97 property page to be added</b>
 
 <ol>
-<li>Use <i>piData</i> to call <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> and retrieve an 
+<li>Use <i>piData</i> to call <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> and retrieve an 
        interface pointer for the <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">object</a> associated with the new 
        page. For example, if you are adding a property page for a resource, you want to retrieve a pointer to the 
        <a href="https://msdn.microsoft.com/8a3a9e9d-4666-4d9a-83e3-10d667b42d66">IGetClusterResourceInfo</a> interface. 
        Although it is possible to successfully query for interfaces that retrieve data unrelated to the object being 
        extended, you should expect to receive errors when you attempt to call the methods.</li>
 <li>To create the page, call the function 
-       <a href="https://msdn.microsoft.com/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a>. To produce pages 
+       <a href="_win32_createpropertysheetpage_cpp">CreatePropertySheetPage</a>. To produce pages 
        that look like the pages provided by Cluster Administrator, each new wizard97 page should be no larger than 293 
        dialog units wide and 172 dialog units high, and should contain a static control positioned at (38,12) with a 
        size of (247,10).</li>
@@ -159,7 +159,7 @@ If your extension has no Wizard97 pages but does have non-Wizard97 pages, you ca
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a>
+<a href="_win32_createpropertysheetpage_cpp">CreatePropertySheetPage</a>
 
 
 

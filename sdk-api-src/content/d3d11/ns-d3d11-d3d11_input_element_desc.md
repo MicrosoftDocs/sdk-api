@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_input_element_desc.htm
 old-project: direct3d11
 ms.assetid: 45545d24-1513-4efd-9344-20673c5b98d5
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D3D11_INPUT_ELEMENT_DESC, D3D11_INPUT_ELEMENT_DESC structure [Direct3D 11], d3d11/D3D11_INPUT_ELEMENT_DESC, ddd8b2ab-b2d6-b462-f2ed-127b85cb7e53, direct3d11.d3d11_input_element_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,9 +88,9 @@ The semantic index for the element. A semantic index modifies a semantic, with a
 
 ### -field Format
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
 
-The data type of the element data. See <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>.
+The data type of the element data. See <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>.
 
 
 ### -field InputSlot
@@ -128,7 +128,7 @@ The number of instances to draw using the same per-instance data before advancin
 
 
 An input-layout object contains an array of structures, each structure defines one element being read from an input slot. Create an input-layout 
-      object by calling <a href="https://msdn.microsoft.com/fe233b7b-3729-428a-8611-e98ea4c5af35">ID3D11Device::CreateInputLayout</a>. For an example, see the "Create the Input-Layout Object" subtopic under the  <a href="https://msdn.microsoft.com/library/Bb205117(v=VS.85).aspx">Getting Started with the Input-Assembler Stage</a> topic.
+      object by calling <a href="https://msdn.microsoft.com/fe233b7b-3729-428a-8611-e98ea4c5af35">ID3D11Device::CreateInputLayout</a>. For an example, see the "Create the Input-Layout Object" subtopic under the  <a href="https://msdn.microsoft.com/en-us/library/Bb205117(v=VS.85).aspx">Getting Started with the Input-Assembler Stage</a> topic.
 
 
 

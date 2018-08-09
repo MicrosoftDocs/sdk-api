@@ -7,7 +7,7 @@ old-location: gdi\linedda.htm
 old-project: gdi
 ms.assetid: 1400d947-324a-4921-9f65-f5d3a11005da
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: LineDDA, LineDDA function [Windows GDI], _win32_LineDDA, gdi.linedda, wingdi/LineDDA
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,66 +61,34 @@ The <b>LineDDA</b> function determines which pixels should be highlighted for a 
 
 
 
-### -param xStart
-
-TBD
-
-
-### -param yStart
-
-TBD
-
-
-### -param xEnd
-
-TBD
-
-
-### -param yEnd
-
-TBD
-
-
-### -param lpProc
-
-TBD
-
-
-### -param data
-
-TBD
-
-
-
-
-#### - lpData [in]
-
-Pointer to the application-defined data.
-
-
-#### - lpLineFunc [in]
-
-Pointer to an application-defined callback function. For more information, see the <a href="https://msdn.microsoft.com/4a8b1120-4b0b-4029-8b49-4371c0627bba">LineDDAProc</a> callback function.
-
-
-#### - nXEnd [in]
-
-Specifies the x-coordinate, in logical units, of the line's ending point.
-
-
-#### - nXStart [in]
+### -param xStart [in]
 
 Specifies the x-coordinate, in logical units, of the line's starting point.
 
 
-#### - nYEnd [in]
+### -param yStart [in]
+
+Specifies the y-coordinate, in logical units, of the line's starting point.
+
+
+### -param xEnd [in]
+
+Specifies the x-coordinate, in logical units, of the line's ending point.
+
+
+### -param yEnd [in]
 
 Specifies the y-coordinate, in logical units, of the line's ending point.
 
 
-#### - nYStart [in]
+### -param lpProc [in]
 
-Specifies the y-coordinate, in logical units, of the line's starting point.
+Pointer to an application-defined callback function. For more information, see the <a href="https://msdn.microsoft.com/4a8b1120-4b0b-4029-8b49-4371c0627bba">LineDDAProc</a> callback function.
+
+
+### -param data [in]
+
+Pointer to the application-defined data.
 
 
 ## -returns

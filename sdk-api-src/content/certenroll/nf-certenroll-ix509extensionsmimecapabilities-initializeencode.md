@@ -7,7 +7,7 @@ old-location: security\ix509extensionsmimecapabilities_initializeencode_method.h
 old-project: seccertenroll
 ms.assetid: 731e3c93-699b-4a99-8520-294f3134aa66
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509ExtensionSmimeCapabilities interface [Security],InitializeEncode method, IX509ExtensionSmimeCapabilities.InitializeEncode, IX509ExtensionSmimeCapabilities::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionSmimeCapabilities interface, certenroll/IX509ExtensionSmimeCapabilities::InitializeEncode, security.ix509extensionsmimecapabilities_initializeencode_method
 ms.prod: windows
 ms.technology: windows-sdk

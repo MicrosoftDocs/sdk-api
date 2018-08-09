@@ -7,7 +7,7 @@ old-location: proc_snap\pss_process_information.htm
 old-project: proc_snap
 ms.assetid: D629FA42-B501-4A0E-9B53-6D70E580B687
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: PSS_PROCESS_INFORMATION, PSS_PROCESS_INFORMATION structure, proc_snap.pss_process_information, processsnapshot/PSS_PROCESS_INFORMATION
 ms.prod: windows
 ms.technology: windows-sdk

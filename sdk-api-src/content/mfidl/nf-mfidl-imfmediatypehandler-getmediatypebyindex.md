@@ -7,7 +7,7 @@ old-location: mf\imfmediatypehandler_getmediatypebyindex.htm
 old-project: medfound
 ms.assetid: a1827675-bbc4-45d8-8c6e-644b0d2addd4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetMediaTypeByIndex, GetMediaTypeByIndex method [Media Foundation], GetMediaTypeByIndex method [Media Foundation],IMFMediaTypeHandler interface, IMFMediaTypeHandler interface [Media Foundation],GetMediaTypeByIndex method, IMFMediaTypeHandler.GetMediaTypeByIndex, IMFMediaTypeHandler::GetMediaTypeByIndex, a1827675-bbc4-45d8-8c6e-644b0d2addd4, mf.imfmediatypehandler_getmediatypebyindex, mfidl/IMFMediaTypeHandler::GetMediaTypeByIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,15 +65,13 @@ Retrieves a media type from the object's list of supported media types.
 
 ### -param dwIndex [in]
 
-
-            Zero-based index of the media type to retrieve. To get the number of media types in the list, call <a href="https://msdn.microsoft.com/c5ee41bc-ee8b-4990-ae9d-92ef54597f31">IMFMediaTypeHandler::GetMediaTypeCount</a>.
+Zero-based index of the media type to retrieve. To get the number of media types in the list, call <a href="https://msdn.microsoft.com/c5ee41bc-ee8b-4990-ae9d-92ef54597f31">IMFMediaTypeHandler::GetMediaTypeCount</a>.
           
 
 
 ### -param ppType [out]
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface. The caller must release the interface.
           
 
 
@@ -95,8 +93,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -108,8 +105,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The <i>dwIndex</i> parameter is out of range.
+The <i>dwIndex</i> parameter is out of range.
               
 
 </td>

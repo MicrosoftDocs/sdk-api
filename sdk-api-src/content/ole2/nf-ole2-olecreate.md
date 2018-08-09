@@ -7,7 +7,7 @@ old-location: com\olecreate.htm
 old-project: com
 ms.assetid: 00b7edd2-8e2e-4e0a-91a6-d966f6c8d456
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: OleCreate, OleCreate function [COM], _ole_OleCreate, com.olecreate, ole/OleCreate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Creates an embedded object identified by a CLSID. You use it typically to implem
 
 
 
-#### - rclsid [in]
+### -param rclsid
 
-CLSID of the embedded object that is to be created.
+TBD
 
 
 #### - riid [in]
@@ -94,6 +94,11 @@ Pointer to an instance of the <a href="https://msdn.microsoft.com/2f454538-0f40-
 #### - ppvObj [out]
 
 Address of pointer variable that receives the interface pointer requested in riid. Upon successful return, *<i>ppvObject</i> contains the requested interface pointer.
+
+
+#### - [in]
+
+CLSID of the embedded object that is to be created.
 
 
 ## -returns

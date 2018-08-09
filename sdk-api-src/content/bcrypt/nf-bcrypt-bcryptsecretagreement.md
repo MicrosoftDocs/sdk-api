@@ -7,7 +7,7 @@ old-location: security\bcryptsecretagreement.htm
 old-project: seccng
 ms.assetid: 96863d81-3643-4962-8abf-db1cc2acde07
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: BCryptSecretAgreement, BCryptSecretAgreement function [Security], bcrypt/BCryptSecretAgreement, security.bcryptsecretagreement
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,19 +69,14 @@ The handle of the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-33
 The handle of the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> to use to create the secret agreement value. This key and the <i>hPrivKey</i> key must come from the same CNG cryptographic algorithm provider.
 
 
-### -param phAgreedSecret
+### -param phAgreedSecret [out]
 
-TBD
+A pointer to a <b>BCRYPT_SECRET_HANDLE</b> that receives a handle that represents the secret agreement value. This handle must be released by passing it to the <a href="https://msdn.microsoft.com/237743ff-ecb1-4c01-b4f9-192f27716f2c">BCryptDestroySecret</a> function when it is no longer needed.
 
 
 ### -param dwFlags [in]
 
 A set of flags that modify the behavior of this function. No flags are defined for this function.
-
-
-#### - phSecret [out]
-
-A pointer to a <b>BCRYPT_SECRET_HANDLE</b> that receives a handle that represents the secret agreement value. This handle must be released by passing it to the <a href="https://msdn.microsoft.com/237743ff-ecb1-4c01-b4f9-192f27716f2c">BCryptDestroySecret</a> function when it is no longer needed.
 
 
 ## -returns

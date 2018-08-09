@@ -2,7 +2,7 @@
 UID: NA:remotesystemadditionalinfo
 ms.assetid: 79e624a6-4856-35c6-ba03-a5e55827cc42
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

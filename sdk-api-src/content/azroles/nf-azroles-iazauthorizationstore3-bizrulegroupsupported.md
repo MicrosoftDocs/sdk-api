@@ -7,7 +7,7 @@ old-location: security\iazauthorizationstore3_bizrulegroupsupported_method.htm
 old-project: secauthz
 ms.assetid: 88449b12-5086-4f86-94d4-2a4afb4be070
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: BizruleGroupSupported, BizruleGroupSupported method [Security], BizruleGroupSupported method [Security],IAzAuthorizationStore3 interface, IAzAuthorizationStore3 interface [Security],BizruleGroupSupported method, IAzAuthorizationStore3.BizruleGroupSupported, IAzAuthorizationStore3::BizruleGroupSupported, azroles/IAzAuthorizationStore3::BizruleGroupSupported, security.iazauthorizationstore3_bizrulegroupsupported_method
 ms.prod: windows
 ms.technology: windows-sdk

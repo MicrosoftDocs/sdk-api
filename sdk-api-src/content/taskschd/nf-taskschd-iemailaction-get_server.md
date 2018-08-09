@@ -4,10 +4,10 @@ title: IEmailAction::get_Server
 author: windows-sdk-content
 description: Gets or sets the name of the SMTP server that you use to send email from.
 old-location: taskschd\iemailaction_server.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: c781f189-f27b-4f37-af53-144e1ae8cb75
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IEmailAction interface [Task Scheduler],Server property, IEmailAction.Server, IEmailAction.get_Server, IEmailAction::Server, IEmailAction::get_Server, IEmailAction::put_Server, Server property [Task Scheduler], Server property [Task Scheduler],IEmailAction interface, get_Server, taskschd.iemailaction_server, taskschd/IEmailAction::Server, taskschd/IEmailAction::get_Server, taskschd/IEmailAction::put_Server
 ms.prod: windows
 ms.technology: windows-sdk

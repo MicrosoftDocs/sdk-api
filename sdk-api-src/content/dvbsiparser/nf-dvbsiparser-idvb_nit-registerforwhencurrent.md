@@ -7,7 +7,7 @@ old-location: mstv\idvb_nit_registerforwhencurrent.htm
 old-project: mstv
 ms.assetid: b5405814-1e7c-470f-a8bc-d16d16bdb526
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IDVB_NIT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IDVB_NIT.RegisterForWhenCurrent, IDVB_NIT::RegisterForWhenCurrent, IDVB_NITRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IDVB_NIT interface, dvbsiparser/IDVB_NIT::RegisterForWhenCurrent, mstv.idvb_nit_registerforwhencurrent
 ms.prod: windows
 ms.technology: windows-sdk

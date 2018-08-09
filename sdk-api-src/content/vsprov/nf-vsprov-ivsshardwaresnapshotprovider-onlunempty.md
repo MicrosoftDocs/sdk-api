@@ -4,10 +4,10 @@ title: IVssHardwareSnapshotProvider::OnLunEmpty
 author: windows-sdk-content
 description: Called whenever VSS determines that a shadow copy LUN contains no interesting data.
 old-location: base\ivsshardwaresnapshotprovider_onlunempty.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 06a31704-9031-4ab9-84eb-685f6b648d27
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IVssHardwareSnapshotProvider interface [VSS],OnLunEmpty method, IVssHardwareSnapshotProvider.OnLunEmpty, IVssHardwareSnapshotProvider::OnLunEmpty, OnLunEmpty, OnLunEmpty method [VSS], OnLunEmpty method [VSS],IVssHardwareSnapshotProvider interface, base.ivsshardwaresnapshotprovider_onlunempty, vsprov/IVssHardwareSnapshotProvider::OnLunEmpty
 ms.prod: windows
 ms.technology: windows-sdk

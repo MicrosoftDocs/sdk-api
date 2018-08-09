@@ -4,10 +4,10 @@ title: PdhLookupPerfNameByIndexA function
 author: windows-sdk-content
 description: Returns the performance object name or counter name corresponding to the specified index.
 old-location: perf\pdhlookupperfnamebyindex.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 6d5e1465-296b-4d8c-b0cb-aefdffb8539e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhLookupPerfNameByIndex, PdhLookupPerfNameByIndex function [Perf], PdhLookupPerfNameByIndexA, PdhLookupPerfNameByIndexW, _win32_pdhlookupperfnamebyindex, base.pdhlookupperfnamebyindex, pdh/PdhLookupPerfNameByIndex, pdh/PdhLookupPerfNameByIndexA, pdh/PdhLookupPerfNameByIndexW, perf.pdhlookupperfnamebyindex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,8 +86,7 @@ Size of the <i>szNameBuffer</i> buffer, in <b>TCHARs</b>. If zero on input, the 
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

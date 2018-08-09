@@ -7,7 +7,7 @@ old-location: com\oleuieditlinks.htm
 old-project: com
 ms.assetid: 17c7daf8-83bf-4cfd-a67c-a638630ca263
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: OleUIEditLinks, OleUIEditLinks function [COM], OleUIEditLinksA, OleUIEditLinksW, _ole_OleUIEditLinks, com.oleuieditlinks, oledlg/OleUIEditLinks, oledlg/OleUIEditLinksA, oledlg/OleUIEditLinksW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,14 +63,7 @@ Invokes the standard <b>Links</b> dialog box, allowing the user to make modifica
 
 
 
-### -param Arg1
-
-TBD
-
-
-
-
-#### - lpEL [in]
+### -param Arg1 [in]
 
 Pointer to an <a href="https://msdn.microsoft.com/0a139936-bda4-40c8-85d6-b52ff042f2d9">OLEUIEDITLINKS</a> structure that contains information used to initialize the dialog box.
 

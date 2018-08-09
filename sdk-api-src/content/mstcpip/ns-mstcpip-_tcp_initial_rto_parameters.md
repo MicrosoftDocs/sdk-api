@@ -7,7 +7,7 @@ old-location: winsock\tcp_initial_rto_parameters.htm
 old-project: winsock
 ms.assetid: D8445188-A7D5-4A2C-827A-CB559C3B0748
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*PTCP_INITIAL_RTO_PARAMETERS, PTCP_INITIAL_RTO_PARAMETERS, PTCP_INITIAL_RTO_PARAMETERS structure pointer [Winsock], TCP_INITIAL_RTO_PARAMETERS, TCP_INITIAL_RTO_PARAMETERS structure [Winsock], _TCP_INITIAL_RTO_PARAMETERS, mstcpip/PTCP_INITIAL_RTO_PARAMETERS, mstcpip/TCP_INITIAL_RTO_PARAMETERS, winsock.tcp_initial_rto_parameters"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-			The 
+The 
 <a href="https://msdn.microsoft.com/862dd8f8-5929-4426-b531-a87e36506634">TCP_INITIAL_RTO_PARAMETERS</a> structure  specifies data used by the <a href="https://msdn.microsoft.com/F5ABAE57-E0F0-4AEB-825C-B53AEE8210E7">SIO_TCP_INITIAL_RTO</a> IOCTL to configure initial re-transmission timeout (RTO) parameters to be used on the socket.
 
 

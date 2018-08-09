@@ -7,7 +7,7 @@ old-location: security\ialternativename_strvalue_property.htm
 old-project: seccertenroll
 ms.assetid: 1d916450-4a4e-4f11-b95b-dbf9693b7cdd
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IAlternativeName interface [Security],StrValue property, IAlternativeName.StrValue, IAlternativeName.get_StrValue, IAlternativeName::StrValue, IAlternativeName::get_StrValue, StrValue property [Security], StrValue property [Security],IAlternativeName interface, certenroll/IAlternativeName::StrValue, certenroll/IAlternativeName::get_StrValue, get_StrValue, security.ialternativename_strvalue_property
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: p2p\peergraphgetrecord.htm
 old-project: p2psdk
 ms.assetid: 5e777c02-980c-42f9-add7-9568c86c2efe
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphGetRecord, PeerGraphGetRecord function [Peer Networking], p2p.peergraphgetrecord, p2p/PeerGraphGetRecord
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphGetRecord</b> function retrieves a specific record based on the specified record ID. The returned record should be freed by calling <a href="https://msdn.microsoft.com/a5b7d563-214a-48e0-b184-0c12d62fb125">PeerGraphFreeData</a>.
+The <b>PeerGraphGetRecord</b> function retrieves a specific record based on the specified record ID. The returned record should be freed by calling <a href="https://msdn.microsoft.com/a5b7d563-214a-48e0-b184-0c12d62fb125">PeerGraphFreeData</a>.
 
 
 ## -parameters
@@ -152,8 +151,7 @@ The specified record was not found.
 
 
 
-<a href="https://msdn.microsoft.com/4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1">
-        PEER_RECORD</a>
+<a href="https://msdn.microsoft.com/4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1">PEER_RECORD</a>
 
 
 

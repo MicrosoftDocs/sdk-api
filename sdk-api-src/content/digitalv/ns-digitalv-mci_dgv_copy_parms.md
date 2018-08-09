@@ -7,7 +7,7 @@ old-location: multimedia\mci_dgv_copy_parms.htm
 old-project: Multimedia
 ms.assetid: 314f1843-0457-4160-a9f0-71cffe676c8c
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPMCI_DGV_COPY_PARMS, MCI_DGV_COPY_PARMS, MCI_DGV_COPY_PARMS structure [Windows Multimedia], _win32_MCI_DGV_COPY_PARMS_str, digitalv/MCI_DGV_COPY_PARMS, multimedia.mci_dgv_copy_parms"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,22 +63,19 @@ The <b>MCI_DGV_COPY_PARMS</b> structure contains parameters for the <a href="htt
 
 ### -field dwCallback
 
-
-            The low-order word specifies a window handle used for the MCI_NOTIFY flag.
+The low-order word specifies a window handle used for the MCI_NOTIFY flag.
           
 
 
 ### -field dwFrom
 
-
-            Starting position for copy.
+Starting position for copy.
           
 
 
 ### -field dwTo
 
-
-            Ending position for copy.
+Ending position for copy.
           
 
 
@@ -99,15 +96,13 @@ Rectangle describing area to be copied.   Be aware that <a href="https://msdn.mi
 
 ### -field dwAudioStream
 
-
-            Audio stream.
+Audio stream.
           
 
 
 ### -field dwVideoStream
 
-
-            Video stream.
+Video stream.
           
 
 

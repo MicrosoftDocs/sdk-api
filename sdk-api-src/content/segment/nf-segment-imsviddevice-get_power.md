@@ -7,7 +7,7 @@ old-location: mstv\imsviddevice_get_power.htm
 old-project: mstv
 ms.assetid: 3be4247b-43d4-4a32-8643-7eb2637aee6f
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_Power method, IMSVidDevice.get_Power, IMSVidDevice::get_Power, IMSVidDeviceget_Power, get_Power, get_Power method [Microsoft TV Technologies], get_Power method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_power, segment/IMSVidDevice::get_Power
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,17 +68,14 @@ The <b>get_Power</b> method queries whether the device is off or on.
 
 #### - pPower [out]
 
-
-            Pointer to a variable that receives one of the following values.
+Pointer to a variable that receives one of the following values.
             
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

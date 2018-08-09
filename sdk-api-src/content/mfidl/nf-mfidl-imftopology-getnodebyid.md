@@ -7,7 +7,7 @@ old-location: mf\imftopology_getnodebyid.htm
 old-project: medfound
 ms.assetid: 34c8326f-bd34-4bf6-9171-a1ed3191b85e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 34c8326f-bd34-4bf6-9171-a1ed3191b85e, GetNodeByID, GetNodeByID method [Media Foundation], GetNodeByID method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetNodeByID method, IMFTopology.GetNodeByID, IMFTopology::GetNodeByID, mf.imftopology_getnodebyid, mfidl/IMFTopology::GetNodeByID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,15 +62,13 @@ Gets a node in the topology, specified by node identifier.
 
 ### -param qwTopoNodeID [in]
 
-
-            The identifier of the node to retrieve. To get a node's identifier, call <a href="https://msdn.microsoft.com/9c0e5be9-6481-4132-ad5b-9db13fb07391">IMFTopologyNode::GetTopoNodeID</a>.
+The identifier of the node to retrieve. To get a node's identifier, call <a href="https://msdn.microsoft.com/9c0e5be9-6481-4132-ad5b-9db13fb07391">IMFTopologyNode::GetTopoNodeID</a>.
           
 
 
 ### -param ppNode [out]
 
-
-            Receives a pointer to the node's <a href="https://msdn.microsoft.com/01d7eb7c-a3d3-4924-a8ec-a67e9dc17424">IMFTopologyNode</a> interface. The caller must release the interface.
+Receives a pointer to the node's <a href="https://msdn.microsoft.com/01d7eb7c-a3d3-4924-a8ec-a67e9dc17424">IMFTopologyNode</a> interface. The caller must release the interface.
           
 
 
@@ -78,8 +76,7 @@ Gets a node in the topology, specified by node identifier.
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -94,8 +91,7 @@ Gets a node in the topology, specified by node identifier.
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -107,8 +103,7 @@ Gets a node in the topology, specified by node identifier.
 </dl>
 </td>
 <td width="60%">
-
-                The topology does not contain a node with this identifier.
+The topology does not contain a node with this identifier.
               
 
 </td>

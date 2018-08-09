@@ -4,10 +4,10 @@ title: WdsTransportClientQueryStatus function
 author: windows-sdk-content
 description: Retrieves the current status of an ongoing or complete multicast transmission from the multicast client.
 old-location: wds\wdstransportclientquerystatus.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 405d8575-a6ae-483e-a49a-9281c5e825a7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WdsTransportClientQueryStatus, WdsTransportClientQueryStatus function [Windows Deployment Services], wds.wdstransportclientquerystatus, wdstci/WdsTransportClientQueryStatus
 ms.prod: windows
 ms.technology: windows-sdk

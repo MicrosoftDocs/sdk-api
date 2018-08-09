@@ -7,7 +7,7 @@ old-location: wsw\ws_receive_option.htm
 old-project: wsw
 ms.assetid: a2aefba7-40ff-4399-b13f-f1bad191f366
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_RECEIVE_OPTION, WS_RECEIVE_OPTION enumeration [Web Services for Windows], WS_RECEIVE_OPTIONAL_MESSAGE, WS_RECEIVE_REQUIRED_MESSAGE, webservices/WS_RECEIVE_OPTION, webservices/WS_RECEIVE_OPTIONAL_MESSAGE, webservices/WS_RECEIVE_REQUIRED_MESSAGE, wsw.ws_receive_option
 ms.prod: windows
 ms.technology: windows-sdk

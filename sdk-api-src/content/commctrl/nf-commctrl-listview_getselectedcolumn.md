@@ -7,7 +7,7 @@ old-location: controls\ListView_GetSelectedColumn.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getselectedcolumn.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_GetSelectedColumn, ListView_GetSelectedColumn macro [Windows Controls], _win32_ListView_GetSelectedColumn, _win32_ListView_GetSelectedColumn_cpp, commctrl/ListView_GetSelectedColumn, controls.ListView_GetSelectedColumn, controls._win32_ListView_GetSelectedColumn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets an integer that specifies the selected column. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761067(v=VS.85).aspx">LVM_GETSELECTEDCOLUMN</a> message explicitly. 
+Gets an integer that specifies the selected column. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761067(v=VS.85).aspx">LVM_GETSELECTEDCOLUMN</a> message explicitly. 
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A handle to the list-view control.
 
 
 
-To use <b>ListView_GetSelectedColumn</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_GetSelectedColumn</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

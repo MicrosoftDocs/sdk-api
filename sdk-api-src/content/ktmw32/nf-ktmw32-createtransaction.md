@@ -4,10 +4,10 @@ title: CreateTransaction function
 author: windows-sdk-content
 description: Creates a new transaction object.
 old-location: fs\createtransaction.htm
-old-project: Ktm
+old-project: ktm
 ms.assetid: 578bda35-bd35-4f6d-8366-a4bfb4dbfe42
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: CreateTransaction, CreateTransaction function [Files], TRANSACTION_DO_NOT_PROMOTE, fs.createtransaction, ktmw32/CreateTransaction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,6 +69,25 @@ TBD
 A user-readable description of the transaction.
 
 
+#### - lpTransactionAttributes [in, optional]
+
+A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> 
+      structure that determines whether the returned handle can be inherited by child processes. If this parameter is 
+      <b>NULL</b>, the handle cannot be inherited.
+      
+
+The <b>lpSecurityDescriptor</b> member of the structure specifies a 
+       <a href="https://msdn.microsoft.com/6512d128-3b0c-4ba7-8709-2fd225389a40">security descriptor</a> for the new 
+       event. If <i>lpTransactionAttributes</i> is <b>NULL</b>, the object gets 
+       a default security descriptor. The access control lists (ACL) in the default security descriptor for a 
+       transaction come from the primary or impersonation token of the creator.
+
+
+#### - UOW [in, optional]
+
+Reserved. Must be zero (0).
+
+
 #### - CreateOptions [in, optional]
 
 Any optional transaction instructions.  
@@ -92,12 +111,12 @@ The transaction cannot be distributed.
  
 
 
-#### - IsolationFlags [in, optional]
+#### - IsolationLevel [in, optional]
 
 Reserved; specify zero (0).
 
 
-#### - IsolationLevel [in, optional]
+#### - IsolationFlags [in, optional]
 
 Reserved; specify zero (0).
 
@@ -107,25 +126,6 @@ Reserved; specify zero (0).
 The time-out interval, in milliseconds. If a nonzero value is specified, the transaction will be aborted when the interval elapses if it has not already reached the prepared state.
 
 Specify zero (0) or INFINITE to provide an infinite time-out.
-
-
-#### - UOW [in, optional]
-
-Reserved. Must be zero (0).
-
-
-#### - lpTransactionAttributes [in, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> 
-      structure that determines whether the returned handle can be inherited by child processes. If this parameter is 
-      <b>NULL</b>, the handle cannot be inherited.
-      
-
-The <b>lpSecurityDescriptor</b> member of the structure specifies a 
-       <a href="https://msdn.microsoft.com/6512d128-3b0c-4ba7-8709-2fd225389a40">security descriptor</a> for the new 
-       event. If <i>lpTransactionAttributes</i> is <b>NULL</b>, the object gets 
-       a default security descriptor. The access control lists (ACL) in the default security descriptor for a 
-       transaction come from the primary or impersonation token of the creator.
 
 
 ## -returns

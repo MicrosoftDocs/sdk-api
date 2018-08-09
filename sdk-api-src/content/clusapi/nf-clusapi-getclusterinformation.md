@@ -7,7 +7,7 @@ old-location: mscs\getclusterinformation.htm
 old-project: mscs
 ms.assetid: 5b259eb9-c5d0-4f4f-8a6b-14eaed716612
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: GetClusterInformation, GetClusterInformation function [Failover Cluster], PCLUSAPI_GET_CLUSTER_INFORMATION, PCLUSAPI_GET_CLUSTER_INFORMATION function [Failover Cluster], _wolf_getclusterinformation, clusapi/GetClusterInformation, clusapi/PCLUSAPI_GET_CLUSTER_INFORMATION, mscs.getclusterinformation
 ms.prod: windows
 ms.technology: windows-sdk

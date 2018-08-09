@@ -7,7 +7,7 @@ old-location: http\httpwaitfordisconnect.htm
 old-project: http
 ms.assetid: 1f1c16c1-43ef-4e29-8d3d-8592ce6a6bf0
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpWaitForDisconnect, HttpWaitForDisconnect function [HTTP], _http_httpwaitfordisconnect, http.httpwaitfordisconnect, http/HttpWaitForDisconnect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,12 @@ The
 
 
 
-### -param RequestQueueHandle
+### -param RequestQueueHandle [in]
 
-TBD
+A handle to the request queue that handles requests from the specified connection. A request queue is created and its handle returned by a call to the 
+<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
+
+<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://msdn.microsoft.com/c3741092-c23a-465f-9a65-5bcbf977fad3">HttpCreateHttpHandle</a> function.
 
 
 ### -param ConnectionId [in]
@@ -77,14 +80,6 @@ Identifier for the connection to the client computer. This value is returned in 
 TBD
 
 
-
-
-#### - ReqQueueHandle [in]
-
-A handle to the request queue that handles requests from the specified connection. A request queue is created and its handle returned by a call to the 
-<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
-
-<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://msdn.microsoft.com/c3741092-c23a-465f-9a65-5bcbf977fad3">HttpCreateHttpHandle</a> function.
 
 
 #### - pOverlapped [in]

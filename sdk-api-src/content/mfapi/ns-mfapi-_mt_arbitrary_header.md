@@ -7,7 +7,7 @@ old-location: mf\mt_arbitrary_header.htm
 old-project: medfound
 ms.assetid: efe2ceb7-32f5-4a43-b4d9-807fe66d6edb
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MT_ARBITRARY_HEADER, MT_ARBITRARY_HEADER structure [Media Foundation], _MT_ARBITRARY_HEADER, mf.mt_arbitrary_header, mfapi/MT_ARBITRARY_HEADER
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,8 +78,7 @@ If <b>TRUE</b>, samples have a fixed size in bytes.
 
 ### -field bTemporalCompression
 
-
-          If <b>TRUE</b>, the data in this stream uses temporal compression. Otherwise, samples are independent of each other.
+If <b>TRUE</b>, the data in this stream uses temporal compression. Otherwise, samples are independent of each other.
 
 
 ### -field lSampleSize

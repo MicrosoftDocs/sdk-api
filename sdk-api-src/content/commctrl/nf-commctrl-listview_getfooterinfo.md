@@ -7,7 +7,7 @@ old-location: controls\ListView_GetFooterInfo.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getfooterinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_GetFooterInfo, ListView_GetFooterInfo macro [Windows Controls], _shell_ListView_GetFooterInfo, _shell_ListView_GetFooterInfo_cpp, commctrl/ListView_GetFooterInfo, controls.ListView_GetFooterInfo, controls._shell_ListView_GetFooterInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets information on the footer of a specified list-view control. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774927(v=VS.85).aspx">LVM_GETFOOTERINFO</a> message explicitly.
+Gets information on the footer of a specified list-view control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774927(v=VS.85).aspx">LVM_GETFOOTERINFO</a> message explicitly.
 
 
 ## -parameters
@@ -69,5 +69,5 @@ A handle to the list-view control.
 
 Type: <b>LPLVFOOTERINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Bb774748(v=VS.85).aspx">LVFOOTERINFO</a> structure to receive information depending on the value of the <b>mask</b> member. The calling application is responsible for allocating this structure and setting the <b>mask</b> member.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb774748(v=VS.85).aspx">LVFOOTERINFO</a> structure to receive information depending on the value of the <b>mask</b> member. The calling application is responsible for allocating this structure and setting the <b>mask</b> member.
 

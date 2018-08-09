@@ -7,7 +7,7 @@ old-location: shell\IHWEventHandler_Initialize.htm
 old-project: shell
 ms.assetid: 96eb582a-4f32-4e13-ad01-8b5ffabab582
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IHWEventHandler interface [Windows Shell],Initialize method, IHWEventHandler.Initialize, IHWEventHandler::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IHWEventHandler interface, inet_IHWEventHandler_Initialize, shell.IHWEventHandler_Initialize, shobjidl/IHWEventHandler::Initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Initializes an object that contains an implementation of the <a href="https://ms
 
 Type: <b>LPCWSTR</b>
 
-
-          A pointer to a string buffer that contains the string from the following registry value.
+A pointer to a string buffer that contains the string from the following registry value.
           
 
 
@@ -96,11 +95,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        This method receives the registry string stored in the InitCmdLine value under the
+This method receives the registry string stored in the InitCmdLine value under the
         
-         <b>AutoPlayHandlers</b>\<b>Handlers</b>\<i>HandlerName</i>
-        key. Applications that have registered with AutoPlay as event handlers place this string into the registry as part of the registration process.
+         <b>AutoPlayHandlers</b>\<b>Handlers</b>\<i>HandlerName</i>key. Applications that have registered with AutoPlay as event handlers place this string into the registry as part of the registration process.
       
 
 

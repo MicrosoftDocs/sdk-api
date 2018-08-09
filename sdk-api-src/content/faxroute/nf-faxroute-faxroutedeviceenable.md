@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxroutedeviceenable.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_771h.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxRouteDeviceEnable, FaxRouteDeviceEnable function [Fax Service], QUERY_STATUS, STATUS_DISABLE, STATUS_ENABLE, _mfax_faxroutedeviceenable, fax._mfax_faxroutedeviceenable, faxroute/FaxRouteDeviceEnable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,15 +121,15 @@ This function will return ERROR_BAD_CONFIGURATION if you attempt to refer to a d
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684519(v=VS.85).aspx">Fax Routing Extension Application Programming Interface Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684519(v=VS.85).aspx">Fax Routing Extension Application Programming Interface Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692865(v=VS.85).aspx">Fax Routing Extension Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692865(v=VS.85).aspx">Fax Routing Extension Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692910(v=VS.85).aspx">FaxRouteDeviceChangeNotification</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692910(v=VS.85).aspx">FaxRouteDeviceChangeNotification</a>
  
 
  

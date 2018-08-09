@@ -7,7 +7,7 @@ old-location: mstv\imsvidclosedcaptioning_get_enable.htm
 old-project: mstv
 ms.assetid: 2bb46aa7-fd94-4afa-9bba-769472e014ff
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidClosedCaptioning interface [Microsoft TV Technologies],get_Enable method, IMSVidClosedCaptioning.get_Enable, IMSVidClosedCaptioning::get_Enable, IMSVidClosedCaptioningget_Enable, get_Enable, get_Enable method [Microsoft TV Technologies], get_Enable method [Microsoft TV Technologies],IMSVidClosedCaptioning interface, mstv.imsvidclosedcaptioning_get_enable, segment/IMSVidClosedCaptioning::get_Enable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,11 +72,9 @@ Pointer to a variable that receives one of the following values.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

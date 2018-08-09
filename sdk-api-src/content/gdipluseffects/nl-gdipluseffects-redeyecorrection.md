@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RedEyeCorrection_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\redeyecorrection.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: RedEyeCorrection, RedEyeCorrection class [GDI+], RedEyeCorrection class [GDI+],described, _gdiplus_CLASS_RedEyeCorrection_Class, gdiplus._gdiplus_CLASS_RedEyeCorrection_Class, gdipluseffects/RedEyeCorrection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,5 +51,5 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>RedEyeCorrection</b> class enables you to correct the red eyes that sometimes occur in flash photographs. Pass the address of a <b>RedEyeCorrection</b> object to the <a href="https://msdn.microsoft.com/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method. To specify areas of the bitmap that have red eyes, pass a <a href="https://msdn.microsoft.com/library/ms534072(v=VS.85).aspx">RedEyeCorrectionParams</a> structure to the <a href="https://msdn.microsoft.com/library/ms534928(v=VS.85).aspx">RedEyeCorrection::SetParameters</a> method of a <b>RedEyeCorrection</b> object.
+The <b>RedEyeCorrection</b> class enables you to correct the red eyes that sometimes occur in flash photographs. Pass the address of a <b>RedEyeCorrection</b> object to the <a href="https://msdn.microsoft.com/en-us/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/en-us/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method. To specify areas of the bitmap that have red eyes, pass a <a href="https://msdn.microsoft.com/en-us/library/ms534072(v=VS.85).aspx">RedEyeCorrectionParams</a> structure to the <a href="https://msdn.microsoft.com/en-us/library/ms534928(v=VS.85).aspx">RedEyeCorrection::SetParameters</a> method of a <b>RedEyeCorrection</b> object.
 

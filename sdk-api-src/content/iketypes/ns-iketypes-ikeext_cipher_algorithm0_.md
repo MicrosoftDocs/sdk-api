@@ -7,7 +7,7 @@ old-location: fwp\ikeext_cipher_algorithm0.htm
 old-project: fwp
 ms.assetid: 940714a3-d098-4d02-9209-fcf3b24ee4e7
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IKEEXT_CIPHER_ALGORITHM0, IKEEXT_CIPHER_ALGORITHM0 structure [Filtering], IKEEXT_CIPHER_ALGORITHM0_, fwp.ikeext_cipher_algorithm0, iketypes/IKEEXT_CIPHER_ALGORITHM0
 ms.prod: windows
 ms.technology: windows-sdk

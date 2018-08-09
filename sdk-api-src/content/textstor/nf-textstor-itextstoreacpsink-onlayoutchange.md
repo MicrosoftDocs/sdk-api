@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpsink_onlayoutchange.htm
 old-project: TSF
 ms.assetid: 2018d3ef-892f-46c0-8dd0-3e27a9f2272c
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnLayoutChange method, ITextStoreACPSink.OnLayoutChange, ITextStoreACPSink::OnLayoutChange, OnLayoutChange, OnLayoutChange method [Text Services Framework], OnLayoutChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onlayoutchange_ref, textstor/ITextStoreACPSink::OnLayoutChange, tsf.itextstoreacpsink_onlayoutchange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,20 +112,17 @@ If a call to <a href="https://msdn.microsoft.com/d621e96b-d357-4468-8a89-89445fb
 
 
 
-<a href="https://msdn.microsoft.com/b6489391-a19e-405a-a129-f68054088860">
-        ITextStoreACP::GetACPFromPoint
+<a href="https://msdn.microsoft.com/b6489391-a19e-405a-a129-f68054088860">ITextStoreACP::GetACPFromPoint
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/7739674e-9524-4530-900c-6e7facc3254f">
-        ITextStoreACP::GetActiveView
+<a href="https://msdn.microsoft.com/7739674e-9524-4530-900c-6e7facc3254f">ITextStoreACP::GetActiveView
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/d621e96b-d357-4468-8a89-89445fb1ca9e">
-        ITextStoreACP::GetTextExt
+<a href="https://msdn.microsoft.com/d621e96b-d357-4468-8a89-89445fb1ca9e">ITextStoreACP::GetTextExt
       </a>
 
 

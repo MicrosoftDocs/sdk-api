@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothsdpgetcontainerelementdata.htm
 old-project: bluetooth
 ms.assetid: 7dbf44f6-8a80-419e-9db7-60ada9ca9647
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: BluetoothSdpGetContainerElementData, BluetoothSdpGetContainerElementData function [Bluetooth], bluetooth.bluetoothsdpgetcontainerelementdata, bluetoothapis/BluetoothSdpGetContainerElementData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The size, in bytes, of the <i>pContainerStream</i> parameter.
 ### -param pElement [in, out]
 
 A value used to track the  location in the stream.  The first
-          time the <b>BluetoothSdpGetContainerElementData</b> function is called for a  container, *<i>pElement</i>
-should be <b>NULL</b>.  For subsequent calls, the value should be
+          time the <b>BluetoothSdpGetContainerElementData</b> function is called for a  container, *<i>pElement</i>should be <b>NULL</b>.  For subsequent calls, the value should be
 unmodified.
 
 

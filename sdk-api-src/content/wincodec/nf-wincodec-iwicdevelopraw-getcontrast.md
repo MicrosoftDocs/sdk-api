@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_getcontrast.htm
 old-project: wic
 ms.assetid: 65454979-f282-42da-80b6-e50955634093
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetContrast, GetContrast method [Windows Imaging Component], GetContrast method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetContrast method, IWICDevelopRaw.GetContrast, IWICDevelopRaw::GetContrast, _wic_codec_iwicdevelopraw_getcontrast, wic._wic_codec_iwicdevelopraw_getcontrast, wincodec/IWICDevelopRaw::GetContrast
 ms.prod: windows
 ms.technology: windows-sdk

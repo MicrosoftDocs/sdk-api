@@ -7,7 +7,7 @@ old-location: xps\ixpsompagereference_collectlinktargets.htm
 old-project: printdocs
 ms.assetid: 82c64e8a-d8fb-41e3-95f8-b8ca490eae78
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CollectLinkTargets, CollectLinkTargets method [XPS Documents and Packaging], CollectLinkTargets method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],CollectLinkTargets method, IXpsOMPageReference.CollectLinkTargets, IXpsOMPageReference::CollectLinkTargets, xps.ixpsompagereference_collectlinktargets, xpsobjectmodel/IXpsOMPageReference::CollectLinkTargets
 ms.prod: windows
 ms.technology: windows-sdk

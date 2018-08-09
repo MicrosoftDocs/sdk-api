@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_execmethod.htm
 old-project: WmiSdk
 ms.assetid: 2637efdc-fde5-4a44-a41f-67e0fb0df19d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ExecMethod, ExecMethod method [Windows Management Instrumentation], ExecMethod method [Windows Management Instrumentation],ISWbemServices interface, ExecMethod method [Windows Management Instrumentation],SWbemServices object, ISWbemServices interface [Windows Management Instrumentation],ExecMethod method, ISWbemServices.ExecMethod, ISWbemServices::ExecMethod, SWbemServices object [Windows Management Instrumentation],ExecMethod method, SWbemServices.ExecMethod, _hmm_swbemservices.execmethod, wmi.swbemservices_execmethod
 ms.prod: windows
 ms.technology: windows-sdk

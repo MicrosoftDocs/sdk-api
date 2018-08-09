@@ -7,7 +7,7 @@ old-location: rpc\ndrdllcanunloadnow.htm
 old-project: rpc
 ms.assetid: 25cc5909-87f7-4670-a123-69bb28d891a5
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: NdrDllCanUnloadNow, NdrDllCanUnloadNow function [RPC], rpc.ndrdllcanunloadnow, rpcproxy/NdrDllCanUnloadNow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ The <b>NdrDllCanUnloadNow</b> function determines whether the DLL that implement
 
 ### -param pPSFactoryBuffer [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/ms695281(v=VS.85).aspx">CStdPSFactoryBuffer</a> object. The pointer is contained in the global variable, gPFactory, defined in RpcProxy.h. 
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms695281(v=VS.85).aspx">CStdPSFactoryBuffer</a> object. The pointer is contained in the global variable, gPFactory, defined in RpcProxy.h. 
 
 
 ## -returns

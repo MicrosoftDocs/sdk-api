@@ -7,7 +7,7 @@ old-location: rpc\rpccancelthreadex.htm
 old-project: rpc
 ms.assetid: ecf00da0-bc26-4762-94e1-9a5e1cdbc32e
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcCancelThreadEx, RpcCancelThreadEx function [RPC], _rpc_rpccancelthreadex, rpc.rpccancelthreadex, rpcdce/RpcCancelThreadEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>RpcCancelThreadEx</b> function stops the execution of a thread. The 
 <b>RpcCancelThreadEx</b> function should not be used to stop the execution of an asynchronous RPC call; instead, use the 
 <a href="https://msdn.microsoft.com/e55d586f-969b-4e9a-97d9-b6c74b2a8b6d">RpcAsyncCancelCall</a> function to stop the execution of an asynchronous RPC call.
@@ -65,17 +64,12 @@ req.product: ADAM
 
 ### -param Thread
 
-TBD
+Handle of the thread to cancel.
 
 
 ### -param Timeout
 
 Number of seconds to wait for the thread to be canceled before this function returns. To specify that a client waits an indefinite amount of time, pass the value RPC_C_CANCEL_INFINITE_TIMEOUT.
-
-
-#### - ThreadHandle
-
-Handle of the thread to cancel.
 
 
 ## -returns
@@ -144,7 +138,7 @@ If you are using the named pipes protocol, <a href="https://msdn.microsoft.com/0
 <div class="alert"><b>Note</b>  You can use 
 <b>RpcCancelThreadEx</b> with any of the connection-oriented protocols (<b>ncacn_*</b>) except 
 <a href="https://msdn.microsoft.com/">ncacn_http</a>, and with any of the datagram protocols except 
-<a href="https://msdn.microsoft.com/">ncadg_mq</a> and 
+<a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a> and 
 <a href="https://msdn.microsoft.com/0009f794-5c14-4484-9023-cb20c7030dc5">ncalrpc</a>.</div>
 <div> </div>
 
@@ -175,7 +169,7 @@ If you are using the named pipes protocol, <a href="https://msdn.microsoft.com/0
 
 
 
-<a href="https://msdn.microsoft.com/">ncadg_mq</a>
+<a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a>
 
 
 

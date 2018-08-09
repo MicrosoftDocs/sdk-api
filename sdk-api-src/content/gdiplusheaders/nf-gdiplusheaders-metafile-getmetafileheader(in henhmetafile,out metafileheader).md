@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Metafile_GetMetafileHeader_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\metafilegetmetafileheadermethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetMetafileHeader, GetMetafileHeader methods [GDI+], Metafile.GetMetafileHeader, Metafile.GetMetafileHeader(IN HENHMETAFILE,OUT MetafileHeader), Metafile::GetMetafileHeader, Metafile::GetMetafileHeader(IN HENHMETAFILE,OUT MetafileHeader), _gdiplus_CLASS_Metafile_GetMetafileHeader_Methods, gdiplus._gdiplus_CLASS_Metafile_GetMetafileHeader_Methods, gdiplusheaders/GetMetafileHeader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,8 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 			GetMetafileHeader methods of the 
-			<a href="https://msdn.microsoft.com/library/ms534477(v=VS.85).aspx">Metafile</a> class. For a complete list of methods for the 
-			<b>Metafile</b> class, see <a href="https://msdn.microsoft.com/library/ms535268(v=VS.85).aspx">Metafile Methods</a>. 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a> class. For a complete list of methods for the 
+			<b>Metafile</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms535268(v=VS.85).aspx">Metafile Methods</a>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Method</th>
@@ -62,46 +62,46 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535279(v=VS.85).aspx">GetMetafileHeader(MetafileHeader*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535279(v=VS.85).aspx">GetMetafileHeader(MetafileHeader*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535279(v=VS.85).aspx">Metafile::GetMetafileHeader</a> method gets the header.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535279(v=VS.85).aspx">Metafile::GetMetafileHeader</a> method gets the header.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535276(v=VS.85).aspx">GetMetafileHeader(WCHAR*,MetafileHeader*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535276(v=VS.85).aspx">GetMetafileHeader(WCHAR*,MetafileHeader*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535276(v=VS.85).aspx">Metafile::GetMetafileHeader</a> method gets the header.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535276(v=VS.85).aspx">Metafile::GetMetafileHeader</a> method gets the header.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535280(v=VS.85).aspx">GetMetafileHeader(IStream*,MetafileHeader*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535280(v=VS.85).aspx">GetMetafileHeader(IStream*,MetafileHeader*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535280(v=VS.85).aspx">Metafile::GetMetafileHeader</a> method gets the header.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535280(v=VS.85).aspx">Metafile::GetMetafileHeader</a> method gets the header.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535277(v=VS.85).aspx">GetMetafileHeader(HENHMETAFILE*,MetafileHeader*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535277(v=VS.85).aspx">GetMetafileHeader(HENHMETAFILE*,MetafileHeader*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535277(v=VS.85).aspx">Metafile::GetMetafileHeader</a> method gets the header.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535277(v=VS.85).aspx">Metafile::GetMetafileHeader</a> method gets the header.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535278(v=VS.85).aspx">GetMetafileHeader(HMETAFILE,WmfPlaceableFileHeader*,MetafileHeader*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535278(v=VS.85).aspx">GetMetafileHeader(HMETAFILE,WmfPlaceableFileHeader*,MetafileHeader*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535278(v=VS.85).aspx">Metafile::GetMetafileHeader</a> method gets the metafile header of this metafile.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535278(v=VS.85).aspx">Metafile::GetMetafileHeader</a> method gets the metafile header of this metafile.
 
 </td>
 </tr>

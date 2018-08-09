@@ -7,7 +7,7 @@ old-location: wsw\ws_custom_type_description.htm
 old-project: wsw
 ms.assetid: 7ae3d16c-0755-4226-844e-52cf96fa84fb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_CUSTOM_TYPE_DESCRIPTION, WS_CUSTOM_TYPE_DESCRIPTION structure [Web Services for Windows], _WS_CUSTOM_TYPE_DESCRIPTION, webservices/WS_CUSTOM_TYPE_DESCRIPTION, wsw.ws_custom_type_description
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturereference.htm
 old-project: OPC
 ms.assetid: 2ce40bc7-754a-4f69-9348-75603e2257a4
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcSignatureReference, IOpcSignatureReference interface [Open Packaging Conventions], IOpcSignatureReference interface [Open Packaging Conventions],described, msopc/IOpcSignatureReference, opc.iopcsignaturereference
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IOpcSignatureReference</b> interface has these methods.
 <a href="https://msdn.microsoft.com/438adeba-bf5f-4f87-ab4c-c370e58565ce">GetDigestMethod</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the digest method to use on the referenced XML element, when the element is signed.
+Gets the digest method to use on the referenced XML element, when the element is signed.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IOpcSignatureReference</b> interface has these methods.
 <a href="https://msdn.microsoft.com/0bb46de1-63af-4ac1-b37b-42a2b174b590">GetDigestValue</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the digest value that is calculated for the referenced XML element when the element is signed.
+Gets the digest value that is calculated for the referenced XML element when the element is signed.
             
 
 </td>
@@ -105,8 +103,7 @@ Gets the identifier for the reference.
 <a href="https://msdn.microsoft.com/f3f3f6a8-c15e-420a-b56d-5dac0a054fac">GetTransformMethod</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the canonicalization method to use on the referenced XML element, when the element is signed.
+Gets the canonicalization method to use on the referenced XML element, when the element is signed.
             
 
 </td>
@@ -116,8 +113,7 @@ Gets the identifier for the reference.
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a string that indicates the type of the referenced XML  element.
+Gets a string that indicates the type of the referenced XML  element.
             
 
 </td>
@@ -127,8 +123,7 @@ Gets the identifier for the reference.
 <a href="https://msdn.microsoft.com/4dd02f48-9b49-4e74-b0cf-c51c0a594437">GetUri</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the URI of the referenced XML element.
+Gets the URI of the referenced XML element.
             
 
 </td>

@@ -4,10 +4,10 @@ title: GetUserNameExW function
 author: windows-sdk-content
 description: Retrieves the name of the user or other security principal associated with the calling thread. You can specify the format of the returned name.
 old-location: base\getusernameex.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 7e7d618b-2e64-4b0b-aed3-f3221b0443ca
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/07/2018
 ms.keywords: GetUserNameEx, GetUserNameEx function, GetUserNameExA, GetUserNameExW, _win32_getusernameex, base.getusernameex, secext/GetUserNameEx, secext/GetUserNameExA, secext/GetUserNameExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,14 +75,7 @@ The format of the name. This parameter is a value from the
 A pointer to a buffer that receives the name in the specified format. The buffer must include space for the terminating null character.
 
 
-### -param nSize
-
-TBD
-
-
-
-
-#### - lpnSize [in, out]
+### -param nSize [in, out]
 
 On input, this variable specifies the size of the <i>lpNameBuffer</i> buffer, in <b>TCHARs</b>. If the function is successful, the variable receives the number of <b>TCHARs</b> copied to the buffer, not including the terminating null character. 
 

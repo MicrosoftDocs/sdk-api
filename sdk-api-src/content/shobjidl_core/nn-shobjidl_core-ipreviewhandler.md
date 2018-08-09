@@ -7,7 +7,7 @@ old-location: shell\IPreviewHandler.htm
 old-project: shell
 ms.assetid: a4e6507c-10b1-4c21-9359-92ba635a2a2c
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IPreviewHandler, IPreviewHandler interface [Windows Shell], IPreviewHandler interface [Windows Shell],described, _shell_IPreviewHandler, shell.IPreviewHandler, shobjidl_core/IPreviewHandler
 ms.prod: windows
 ms.technology: windows-sdk

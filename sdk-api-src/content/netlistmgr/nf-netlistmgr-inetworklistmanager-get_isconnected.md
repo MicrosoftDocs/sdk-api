@@ -7,7 +7,7 @@ old-location: nla\inetworklistmanager_get_isconnected.htm
 old-project: nla
 ms.assetid: 51bdec8e-521f-4673-a2ad-07e8995f3905
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: INetworkListManager interface [Network Awareness],get_IsConnected method, INetworkListManager.get_IsConnected, INetworkListManager::get_IsConnected, get_IsConnected, get_IsConnected method [Network Awareness], get_IsConnected method [Network Awareness],INetworkListManager interface, netlistmgr/INetworkListManager::get_IsConnected, nla.inetworklistmanager_get_isconnected
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,6 @@ The <b>get_IsConnected</b> property specifies if the local machine has network c
 ### -param pbIsConnected [out]
 
 If <b>TRUE</b> ,  the network has at least local connectivity via ipv4 or ipv6 or both. The network may also have internet connectivity.  Thus, the network is connected.
-
-
 
 If <b>FALSE</b>, the network does not have local or internet connectivity. The network is not connected.
 

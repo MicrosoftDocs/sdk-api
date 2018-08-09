@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_put_owner.htm
 old-project: DirectShow
 ms.assetid: 658ad234-cb5a-428b-ae19-0cd52db6718b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_Owner method, IVideoWindow.put_Owner, IVideoWindow::put_Owner, IVideoWindowput_Owner, control/IVideoWindow::put_Owner, dshow.ivideowindow_put_owner, put_Owner, put_Owner method [DirectShow], put_Owner method [DirectShow],IVideoWindow interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ The <code>put_Owner</code> method specifies a parent window for the video window
 
 ### -param Owner [in]
 
-
-            A handle to the parent window, as an <a href="https://msdn.microsoft.com/80194b19-9c24-48f5-aca6-6ab33bd88c90">OAHWND</a> value, or <b>NULL</b> to remove the existing parent.
+A handle to the parent window, as an <a href="https://msdn.microsoft.com/80194b19-9c24-48f5-aca6-6ab33bd88c90">OAHWND</a> value, or <b>NULL</b> to remove the existing parent.
           
 
 

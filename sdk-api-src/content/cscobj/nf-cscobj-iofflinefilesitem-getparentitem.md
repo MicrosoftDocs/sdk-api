@@ -7,7 +7,7 @@ old-location: of\iofflinefilesitem_getparentitem.htm
 old-project: offlinefiles
 ms.assetid: 4fa89807-cd0c-4868-bd65-a8a0a42dff7d
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetParentItem, GetParentItem method [Offline Files], GetParentItem method [Offline Files],IOfflineFilesItem interface, IOfflineFilesItem interface [Offline Files],GetParentItem method, IOfflineFilesItem.GetParentItem, IOfflineFilesItem::GetParentItem, cscobj/IOfflineFilesItem::GetParentItem, of.iofflinefilesitem_getparentitem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-    Retrieves the <a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a> interface for the parent of the item. This method can be called repeatedly to retrieve items at the top of the cache namespace.
+Retrieves the <a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a> interface for the parent of the item. This method can be called repeatedly to retrieve items at the top of the cache namespace.
 
 
 ## -parameters

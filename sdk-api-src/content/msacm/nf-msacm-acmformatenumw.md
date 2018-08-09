@@ -7,7 +7,7 @@ old-location: multimedia\acmformatenum.htm
 old-project: Multimedia
 ms.assetid: 31da0e86-a298-4ef6-a515-4954aa120656
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: "_win32_acmFormatEnum, acmFormatEnum, acmFormatEnum function [Windows Multimedia], acmFormatEnumA, acmFormatEnumW, msacm/acmFormatEnum, msacm/acmFormatEnumA, msacm/acmFormatEnumW, multimedia.acmformatenum"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,11 +95,9 @@ Flags for enumerating the formats for a given format tag. The following values a
 
 <table>
 <tr>
-<th>
-Value
+<th>Value
 </th>
-<th>
-Meaning
+<th>Meaning
 </th>
 </tr>
 <tr>

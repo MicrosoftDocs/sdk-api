@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_adddestinationcredentials.htm
 old-project: wmi_v2
 ms.assetid: d3abb931-47eb-4f13-b463-caf6c6b918b0
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_DestinationOptions_AddDestinationCredentials, MI_DestinationOptions_AddDestinationCredentials function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_AddDestinationCredentials, wmi_v2.mi_destinationoptions_adddestinationcredentials
 ms.prod: windows
 ms.technology: windows-sdk

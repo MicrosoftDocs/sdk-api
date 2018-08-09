@@ -7,7 +7,7 @@ old-location: mf\mfpolicymanager_action.htm
 old-project: medfound
 ms.assetid: 74cee983-e084-458b-b615-5447cca9abbc
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 74cee983-e084-458b-b615-5447cca9abbc, MFPOLICYMANAGER_ACTION, MFPOLICYMANAGER_ACTION enumeration [Media Foundation], PEACTION_COPY, PEACTION_EXPORT, PEACTION_EXTRACT, PEACTION_LAST, PEACTION_NO, PEACTION_PLAY, PEACTION_RESERVED1, PEACTION_RESERVED2, PEACTION_RESERVED3, _MFPOLICYMANAGER_ACTION, mf.mfpolicymanager_action, mfidl/MFPOLICYMANAGER_ACTION, mfidl/PEACTION_COPY, mfidl/PEACTION_EXPORT, mfidl/PEACTION_EXTRACT, mfidl/PEACTION_LAST, mfidl/PEACTION_NO, mfidl/PEACTION_PLAY, mfidl/PEACTION_RESERVED1, mfidl/PEACTION_RESERVED2, mfidl/PEACTION_RESERVED3
 ms.prod: windows
 ms.technology: windows-sdk

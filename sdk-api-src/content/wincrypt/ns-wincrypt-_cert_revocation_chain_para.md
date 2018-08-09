@@ -4,10 +4,10 @@ title: "_CERT_REVOCATION_CHAIN_PARA"
 author: windows-sdk-content
 description: Contains parameters used for building a chain for an independent online certificate status protocol (OCSP) response signer certificate.
 old-location: security\cert_revocation_chain_para.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 9cdcc81a-aef1-4a1e-94f8-7aa461225dae
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PCERT_REVOCATION_CHAIN_PARA, CERT_CHAIN_REVOCATION_CHECK_OCSP_CERT, CERT_REVOCATION_CHAIN_PARA, CERT_REVOCATION_CHAIN_PARA structure [Security], PCERT_REVOCATION_CHAIN_PARA, PCERT_REVOCATION_CHAIN_PARA structure pointer [Security], _CERT_REVOCATION_CHAIN_PARA, security.cert_revocation_chain_para, wincrypt/CERT_REVOCATION_CHAIN_PARA, wincrypt/PCERT_REVOCATION_CHAIN_PARA"
 ms.prod: windows
 ms.technology: windows-sdk

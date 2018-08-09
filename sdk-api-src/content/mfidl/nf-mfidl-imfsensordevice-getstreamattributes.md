@@ -7,7 +7,7 @@ old-location: mf\imfsensordevice_getstreamattributes.htm
 old-project: medfound
 ms.assetid: DDBEB335-E6E3-4185-B7EF-90FABA9CDCE5
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetStreamAttributes, GetStreamAttributes method [Media Foundation], GetStreamAttributes method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetStreamAttributes method, IMFSensorDevice.GetStreamAttributes, IMFSensorDevice::GetStreamAttributes, mf.imfsensordevice_getstreamattributes, mfidl/IMFSensorDevice::GetStreamAttributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ The <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IM
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -97,8 +96,7 @@ The <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IM
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -110,8 +108,7 @@ The <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IM
 </dl>
 </td>
 <td width="60%">
-
-                The <i>pDeviceId</i> parameter is null.
+The <i>pDeviceId</i> parameter is null.
 
 </td>
 </tr>
@@ -122,8 +119,7 @@ The <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IM
 </dl>
 </td>
 <td width="60%">
-
-                The sensor group has not been initialized.
+The sensor group has not been initialized.
 
 </td>
 </tr>

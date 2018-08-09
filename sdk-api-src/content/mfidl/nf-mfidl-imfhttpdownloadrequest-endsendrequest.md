@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_endsendrequest.htm
 old-project: medfound
 ms.assetid: 2B1554C7-2814-4A9E-BBAC-B25C78775420
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: EndSendRequest, EndSendRequest method [Media Foundation], EndSendRequest method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],EndSendRequest method, IMFHttpDownloadRequest.EndSendRequest, IMFHttpDownloadRequest::EndSendRequest, mf.imfhttpdownloadrequest_endsendrequest, mfidl/IMFHttpDownloadRequest::EndSendRequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ Pointer to the <a href="https://msdn.microsoft.com/8c95b1de-8974-445c-8070-41552
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ Pointer to the <a href="https://msdn.microsoft.com/8c95b1de-8974-445c-8070-41552
 </dl>
 </td>
 <td width="60%">
-
-                The request was successfully sent to the server.
+The request was successfully sent to the server.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: winrt\iexeserverregistration_servername.htm
 old-project: WinRT
 ms.assetid: CB7CAA65-4DA9-4948-AEB4-150A45629947
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_ServerName method, IExeServerRegistration.get_ServerName, IExeServerRegistration::get_ServerName, activationregistration/IExeServerRegistration::get_ServerName, get_ServerName, get_ServerName method [Windows Runtime], get_ServerName method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_servername
 ms.prod: windows
 ms.technology: windows-sdk

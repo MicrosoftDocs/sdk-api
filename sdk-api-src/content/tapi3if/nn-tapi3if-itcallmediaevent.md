@@ -4,10 +4,10 @@ title: ITCallMediaEvent
 author: windows-sdk-content
 description: The ITCallMediaEvent interface contains methods that retrieve the description of media events.
 old-location: tapi3\itcallmediaevent.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: db55ff03-9271-4a94-9cba-a3ef0282b7b6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITCallMediaEvent, ITCallMediaEvent interface [TAPI 2.2], ITCallMediaEvent interface [TAPI 2.2],described, _tapi3_itcallmediaevent, tapi3.itcallmediaevent, tapi3if/ITCallMediaEvent
 ms.prod: windows
 ms.technology: windows-sdk

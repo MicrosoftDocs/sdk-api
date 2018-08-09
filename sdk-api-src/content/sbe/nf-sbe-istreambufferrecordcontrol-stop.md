@@ -7,7 +7,7 @@ old-location: mstv\istreambufferrecordcontrol_stop.htm
 old-project: mstv
 ms.assetid: 1b6a3ac4-076a-4fca-909c-6063637248a8
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IStreamBufferRecordControl interface [Microsoft TV Technologies],Stop method, IStreamBufferRecordControl.Stop, IStreamBufferRecordControl::Stop, IStreamBufferRecordControlStop, Stop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies],IStreamBufferRecordControl interface, mstv.istreambufferrecordcontrol_stop, sbe/IStreamBufferRecordControl::Stop
 ms.prod: windows
 ms.technology: windows-sdk

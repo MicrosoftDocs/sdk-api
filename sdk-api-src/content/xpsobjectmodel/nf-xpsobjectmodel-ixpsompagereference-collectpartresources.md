@@ -7,7 +7,7 @@ old-location: xps\ixpsompagereference_collectpartresources.htm
 old-project: printdocs
 ms.assetid: 52a45351-669c-42f3-b02b-afbf42727313
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CollectPartResources, CollectPartResources method [XPS Documents and Packaging], CollectPartResources method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],CollectPartResources method, IXpsOMPageReference.CollectPartResources, IXpsOMPageReference::CollectPartResources, xps.ixpsompagereference_collectpartresources, xpsobjectmodel/IXpsOMPageReference::CollectPartResources
 ms.prod: windows
 ms.technology: windows-sdk

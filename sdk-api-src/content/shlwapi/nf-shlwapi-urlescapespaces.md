@@ -7,7 +7,7 @@ old-location: shell\UrlEscapeSpaces.htm
 old-project: shell
 ms.assetid: d6d676f1-0ef3-4701-99b2-ca520b39ce6e
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: UrlEscapeSpaces, UrlEscapeSpaces function [Windows Shell], _win32_UrlEscapeSpaces, shell.UrlEscapeSpaces, shlwapi/UrlEscapeSpaces
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,11 @@ A macro that converts space characters into their corresponding escape sequence.
 
 
 
-### -param pszUrl
+### -param pszUrl [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+A pointer to a URL string. If it does not refer to a file, it must include a valid scheme such as "http://".
 
 
 ### -param pszEscaped [out]
@@ -76,13 +78,6 @@ A pointer to a null-terminated string containing the string pointed to by <i>psz
 Type: <b>LPDWORD</b>
 
 The number of characters in <i>pszEscaped</i>.
-
-
-#### - pszURL [in]
-
-Type: <b>LPCTSTR</b>
-
-A pointer to a URL string. If it does not refer to a file, it must include a valid scheme such as "http://".
 
 
 ## -remarks

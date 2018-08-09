@@ -7,7 +7,7 @@ old-location: dshow\amvaendframeinfo.htm
 old-project: DirectShow
 ms.assetid: 7f9308c1-0426-4c0f-97aa-4d946ac2403a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: "*LPAMVAEndFrameInfo, AMVAEndFrameInfo, AMVAEndFrameInfo structure [DirectShow], AMVAEndFrameInfoStructure, LPAMVAEndFrameInfo, LPAMVAEndFrameInfo structure pointer [DirectShow], _tag_AMVAEndFrameInfo, amva/AMVAEndFrameInfo, amva/LPAMVAEndFrameInfo, dshow.amvaendframeinfo"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,15 +60,12 @@ The <b>AMVAEndFrameInfo</b> structure contains information  for the <a href="htt
 
 ### -field dwSizeMiscData
 
-
-            
-            Size, in bytes, of the buffer that <b>pMiscData</b> points to. The value must be 2.
+Size, in bytes, of the buffer that <b>pMiscData</b> points to. The value must be 2.
 
 
 ### -field pMiscData
 
-
-            Pointer to a buffer that contains data for the video accelerator.
+Pointer to a buffer that contains data for the video accelerator.
 
 This buffer must contain a <b>WORD</b> value equal equal to the same surface index that passed to the corresponding <a href="https://msdn.microsoft.com/00077ffe-4acb-4648-9e95-652184e4449b">IAMVideoAccelerator::BeginFrame</a> method.
 
@@ -77,9 +74,7 @@ This buffer must contain a <b>WORD</b> value equal equal to the same surface ind
 
 
 
-
-        
-        The buffer pointed to by <b>pMiscData</b> cannot contain pointer values, because their addresses will not be valid in kernel mode, where frame processing occurs.
+The buffer pointed to by <b>pMiscData</b> cannot contain pointer values, because their addresses will not be valid in kernel mode, where frame processing occurs.
       
 
 

@@ -4,10 +4,10 @@ title: IGPMStarterGPOBackupCollection::get_Count
 author: windows-sdk-content
 description: Returns the number of GPMStarterGPOBackup objects in the collection.
 old-location: gpmc\igpmstartergpobackupcollection_get_count.htm
-old-project: gpmc
+old-project: GPMC
 ms.assetid: ae460d7b-7b33-4871-a6ab-edc7f6b9e36b
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],IGPMStarterGPOBackupCollection interface, IGPMStarterGPOBackupCollection interface [GPMC],Count property, IGPMStarterGPOBackupCollection.Count, IGPMStarterGPOBackupCollection.get_Count, IGPMStarterGPOBackupCollection::Count, IGPMStarterGPOBackupCollection::get_Count, _win32_igpmstartergpobackupcollection_get_count, get_Count, gpmc.igpmstartergpobackupcollection_get_count, gpmgmt/IGPMStarterGPOBackupCollection::Count, gpmgmt/IGPMStarterGPOBackupCollection::get_Count
 ms.prod: windows
 ms.technology: windows-sdk

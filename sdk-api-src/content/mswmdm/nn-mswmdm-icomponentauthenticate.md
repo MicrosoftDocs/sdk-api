@@ -7,7 +7,7 @@ old-location: wmdm\icomponentauthenticate.htm
 old-project: WMDM
 ms.assetid: 5da66dc2-825d-4332-b1cb-2b9d0fabb445
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: IComponentAuthenticate, IComponentAuthenticate interface [windows Media Device Manager], IComponentAuthenticate interface [windows Media Device Manager],described, IComponentAuthenticateInterface, mswmdm/IComponentAuthenticate, wmdm.icomponentauthenticate
 ms.prod: windows
 ms.technology: windows-sdk

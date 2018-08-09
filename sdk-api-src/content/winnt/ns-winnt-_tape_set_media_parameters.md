@@ -4,10 +4,10 @@ title: "_TAPE_SET_MEDIA_PARAMETERS"
 author: windows-sdk-content
 description: Describes the tape in the tape drive. It is used by the SetTapeParametersfunction.
 old-location: backup\tape_set_media_parameters_str.htm
-old-project: Backup
+old-project: backup
 ms.assetid: 20243a64-2644-4519-b746-ba33f0893e49
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: "*PTAPE_SET_MEDIA_PARAMETERS, PTAPE_SET_MEDIA_PARAMETERS, PTAPE_SET_MEDIA_PARAMETERS structure pointer [Backup], TAPE_SET_MEDIA_PARAMETERS, TAPE_SET_MEDIA_PARAMETERS structure [Backup], _TAPE_SET_MEDIA_PARAMETERS, _win32_tape_set_media_parameters_str, backup.tape_set_media_parameters_str, base.tape_set_media_parameters_str, winnt/PTAPE_SET_MEDIA_PARAMETERS, winnt/TAPE_SET_MEDIA_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk

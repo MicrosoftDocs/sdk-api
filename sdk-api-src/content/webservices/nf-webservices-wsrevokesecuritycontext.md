@@ -7,7 +7,7 @@ old-location: wsw\wsrevokesecuritycontext.htm
 old-project: wsw
 ms.assetid: 07367f3d-4158-4ef4-ac27-4218d2a810a8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsRevokeSecurityContext, WsRevokeSecurityContext function [Web Services for Windows], webservices/WsRevokeSecurityContext, wsw.wsrevokesecuritycontext
 ms.prod: windows
 ms.technology: windows-sdk

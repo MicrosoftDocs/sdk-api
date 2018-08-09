@@ -7,7 +7,7 @@ old-location: iscsidisc\setiscsitunnelmodeouteraddress.htm
 old-project: iSCSIDisc
 ms.assetid: fdf84037-a546-49fd-9af4-21ea001587f3
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: SetIScsiTunnelModeOuterAddressW, SetIscsiTunnelModeOuterAddress, SetIscsiTunnelModeOuterAddress function [iSCSI Discovery Library API], SetIscsiTunnelModeOuterAddressA, SetIscsiTunnelModeOuterAddressW, iscsidisc.setiscsitunnelmodeouteraddress, iscsidsc/SetIscsiTunnelModeOuterAddress, iscsidsc/SetIscsiTunnelModeOuterAddressA, iscsidsc/SetIscsiTunnelModeOuterAddressW
 ms.prod: windows
 ms.technology: windows-sdk

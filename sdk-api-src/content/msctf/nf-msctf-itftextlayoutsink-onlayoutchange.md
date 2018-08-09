@@ -7,7 +7,7 @@ old-location: tsf\itftextlayoutsink_onlayoutchange.htm
 old-project: TSF
 ms.assetid: a99313ab-98a7-4fc0-b3ae-78ff26a41d8e
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfTextLayoutSink interface [Text Services Framework],OnLayoutChange method, ITfTextLayoutSink.OnLayoutChange, ITfTextLayoutSink::OnLayoutChange, OnLayoutChange, OnLayoutChange method [Text Services Framework], OnLayoutChange method [Text Services Framework],ITfTextLayoutSink interface, _tsf_itftextlayoutsink_onlayoutchange_ref, msctf/ITfTextLayoutSink::OnLayoutChange, tsf.itftextlayoutsink_onlayoutchange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,26 +101,22 @@ Each context has a default view for which a reference can be obtained using the 
 
 
 
-<a href="https://msdn.microsoft.com/41f7eb74-bca2-4d53-8a70-0b872616fd1b">
-        ITfContext::GetActiveView
+<a href="https://msdn.microsoft.com/41f7eb74-bca2-4d53-8a70-0b872616fd1b">ITfContext::GetActiveView
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/302d185d-dab7-4a77-a5cf-da2529d8b24a">
-        ITfContextView
+<a href="https://msdn.microsoft.com/302d185d-dab7-4a77-a5cf-da2529d8b24a">ITfContextView
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/370e30a8-6eed-448a-87c7-7fd01e9973c6">
-        ITfTextLayoutSink
+<a href="https://msdn.microsoft.com/370e30a8-6eed-448a-87c7-7fd01e9973c6">ITfTextLayoutSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b9ff6d11-68f2-47c5-b8d7-b3bc2533fdbb">
-        TfLayoutCode
+<a href="https://msdn.microsoft.com/b9ff6d11-68f2-47c5-b8d7-b3bc2533fdbb">TfLayoutCode
       </a>
  
 

@@ -7,7 +7,7 @@ old-location: search\_search_IWordBreaker_Init.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\init.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: IWordBreaker interface [search],Init method, IWordBreaker.Init, IWordBreaker::Init, Init, Init method [search], Init method [search],IWordBreaker interface, _search_IWordBreaker_Init, indexsrv/IWordBreaker::Init, search._search_IWordBreaker_Init
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Initializes the <a href="https://msdn.microsoft.com/library/Bb266433(v=VS.85).aspx">IWordBreaker</a> implementation and indicates the mode in which the component operates.
+Initializes the <a href="https://msdn.microsoft.com/en-us/library/Bb266433(v=VS.85).aspx">IWordBreaker</a> implementation and indicates the mode in which the component operates.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Maximum number of characters in words that are added to the <a href="https://msd
 
 Type: <b>BOOL*</b>
 
-Pointer to a variable that receives a flag indicating whether there are license restrictions for this <a href="https://msdn.microsoft.com/library/Bb266433(v=VS.85).aspx">IWordBreaker</a> implementation. <b>TRUE</b> indicates that the stemmer is restricted to authorized use only. <b>FALSE</b> indicates that this <b>IWordBreaker</b> implementation can be used freely.
+Pointer to a variable that receives a flag indicating whether there are license restrictions for this <a href="https://msdn.microsoft.com/en-us/library/Bb266433(v=VS.85).aspx">IWordBreaker</a> implementation. <b>TRUE</b> indicates that the stemmer is restricted to authorized use only. <b>FALSE</b> indicates that this <b>IWordBreaker</b> implementation can be used freely.
 
 
 ## -returns
@@ -147,7 +147,7 @@ Other errors.
 
 
 
-The functionality of the word breaker is similar in both index creation and querying. Differences are language dependent. If <i>pfLicense</i> is <b>TRUE</b>, and if you want more information about possible license restrictions, call the <a href="https://msdn.microsoft.com/library/Bb266435(v=VS.85).aspx">IWordBreaker::GetLicenseToUse</a> method.
+The functionality of the word breaker is similar in both index creation and querying. Differences are language dependent. If <i>pfLicense</i> is <b>TRUE</b>, and if you want more information about possible license restrictions, call the <a href="https://msdn.microsoft.com/en-us/library/Bb266435(v=VS.85).aspx">IWordBreaker::GetLicenseToUse</a> method.
             
 
 
@@ -158,7 +158,7 @@ The functionality of the word breaker is similar in both index creation and quer
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb266433(v=VS.85).aspx">IWordBreaker</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266433(v=VS.85).aspx">IWordBreaker</a>
  
 
  

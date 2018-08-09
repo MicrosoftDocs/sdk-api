@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GdiplusBase_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\gdiplusbase.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GdiplusBase, GdiplusBase class [GDI+], GdiplusBase class [GDI+],described, _gdiplus_CLASS_GdiplusBase_Class, gdiplus._gdiplus_CLASS_GdiplusBase_Class, gdiplusbase/GdiplusBase
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,16 +64,16 @@ The <b>GdiplusBase</b> class provides memory allocation and deallocation for GDI
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536164(v=VS.85).aspx">GdiplusBase::operator delete</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536164(v=VS.85).aspx">GdiplusBase::operator delete</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536164(v=VS.85).aspx">GdiplusBase::operator delete</a> method deallocates memory for one GDI+ object.
+The <a href="https://msdn.microsoft.com/en-us/library/ms536164(v=VS.85).aspx">GdiplusBase::operator delete</a> method deallocates memory for one GDI+ object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536165(v=VS.85).aspx">GdiplusBase::operator delete[]</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536165(v=VS.85).aspx">GdiplusBase::operator delete[]</a>
 </td>
 <td align="left" width="63%">
 The 
@@ -85,19 +85,19 @@ The
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536166(v=VS.85).aspx">GdiplusBase::operator new</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536166(v=VS.85).aspx">GdiplusBase::operator new</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536166(v=VS.85).aspx">GdiplusBase::operator new</a> method allocates memory for one GDI+ object.
+The <a href="https://msdn.microsoft.com/en-us/library/ms536166(v=VS.85).aspx">GdiplusBase::operator new</a> method allocates memory for one GDI+ object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536167(v=VS.85).aspx">GdiplusBase::operator new[]</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536167(v=VS.85).aspx">GdiplusBase::operator new[]</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536167(v=VS.85).aspx">GdiplusBase::operator new[]</a> method allocates memory for an array of GDI+ objects.
+The <a href="https://msdn.microsoft.com/en-us/library/ms536167(v=VS.85).aspx">GdiplusBase::operator new[]</a> method allocates memory for an array of GDI+ objects.
 
 </td>
 </tr>

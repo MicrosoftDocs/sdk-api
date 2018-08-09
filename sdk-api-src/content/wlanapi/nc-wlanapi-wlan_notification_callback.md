@@ -4,10 +4,10 @@ title: WLAN_NOTIFICATION_CALLBACK
 author: windows-sdk-content
 description: Defines the type of notification callback function.
 old-location: nwifi\notif_callback.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: df721e77-3285-442b-aabd-2dccae85fda5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WLAN_NOTIFICATION_CALLBACK, WLAN_NOTIFICATION_CALLBACK callback, WLAN_NOTIFICATION_CALLBACK callback function [NativeWIFI], nwifi.notif_callback, wlanapi/WLAN_NOTIFICATION_CALLBACK
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,16 +71,16 @@ The <b>WLAN_NOTIFICATION_CALLBACK</b> callback function prototype defines the ty
 
 
 
-#### - context
-
-A pointer to the context information provided by the client when it registered for the notification.
-
-
 #### - data
 
 A pointer to a <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure that contains the notification information.
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>Only the wlan_notification_acm_connection_complete and wlan_notification_acm_disconnected notifications are available.
+
+
+#### - context
+
+A pointer to the context information provided by the client when it registered for the notification.
 
 
 ## -returns

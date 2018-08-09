@@ -4,10 +4,10 @@ title: BufferedPaintClear function
 author: windows-sdk-content
 description: Clears a specified rectangle in the buffer to ARGB = {0,0,0,0}.
 old-location: controls\BufferedPaintClear.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintclear.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: BufferedPaintClear, BufferedPaintClear function [Windows Controls], _shell_BufferedPaintClear, _shell_BufferedPaintClear_cpp, controls.BufferedPaintClear, controls._shell_BufferedPaintClear, uxtheme/BufferedPaintClear
 ms.prod: windows
 ms.technology: windows-sdk

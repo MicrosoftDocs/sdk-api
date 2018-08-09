@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_tex2dms_array_srv.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2dms_array_srv.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 460c707d-2543-a058-00c6-8e476deecb5d, D3D10_TEX2DMS_ARRAY_SRV, D3D10_TEX2DMS_ARRAY_SRV structure [Direct3D 10], d3d10/D3D10_TEX2DMS_ARRAY_SRV, direct3d10.d3d10_tex2dms_array_srv
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Specifies the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">subresource(s)</a> from an array of multisampled <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">2D textures</a> to use in a shader-resource view.
+Specifies the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource(s)</a> from an array of multisampled <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">2D textures</a> to use in a shader-resource view.
 
 
 ## -struct-fields
@@ -62,7 +62,7 @@ Specifies the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The index of the first texture to use in an array of textures (see <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">array slice</a>)
+The index of the first texture to use in an array of textures (see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">array slice</a>)
 
 
 ### -field ArraySize
@@ -76,7 +76,7 @@ Number of textures to use.
 
 
 
-This structure is one member of a shader-resource-view description (see <a href="https://msdn.microsoft.com/library/Bb172437(v=VS.85).aspx">D3D10_SHADER_RESOURCE_VIEW_DESC</a>).
+This structure is one member of a shader-resource-view description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172437(v=VS.85).aspx">D3D10_SHADER_RESOURCE_VIEW_DESC</a>).
 
 
 
@@ -86,7 +86,7 @@ This structure is one member of a shader-resource-view description (see <a href=
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
  
 
  

@@ -4,10 +4,10 @@ title: IUPnPService::QueryStateVariable
 author: windows-sdk-content
 description: The QueryStateVariable method returns the value of the specified service's state variable.
 old-location: upnp\iupnpservice_querystatevariable.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: d92785a2-e04c-4968-b515-019205180915
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IUPnPService interface [UPnP APIs],QueryStateVariable method, IUPnPService.QueryStateVariable, IUPnPService::QueryStateVariable, QueryStateVariable, QueryStateVariable method [UPnP APIs], QueryStateVariable method [UPnP APIs],IUPnPService interface, _upnp_iupnpservice_querystatevariable, upnp.iupnpservice_querystatevariable, upnp/IUPnPService::QueryStateVariable
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\ts_selection_anchor.htm
 old-project: TSF
 ms.assetid: 56fbe145-1972-4b44-a730-17860e428dd0
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: TS_SELECTION_ANCHOR, TS_SELECTION_ANCHOR structure [Text Services Framework], _tsf_ts_selection_anchor_ref, textstor/TS_SELECTION_ANCHOR, tsf.ts_selection_anchor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,14 +87,12 @@ A <a href="https://msdn.microsoft.com/20d0efc2-604f-4ec6-820d-0f87a6d011b0">TS_S
 
 
 
-<a href="https://msdn.microsoft.com/ce301fa4-d1dd-4470-b8b5-fc944afdc621">
-        ITextStoreAnchor::SetSelection
+<a href="https://msdn.microsoft.com/ce301fa4-d1dd-4470-b8b5-fc944afdc621">ITextStoreAnchor::SetSelection
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/20d0efc2-604f-4ec6-820d-0f87a6d011b0">
-        TS_SELECTIONSTYLE
+<a href="https://msdn.microsoft.com/20d0efc2-604f-4ec6-820d-0f87a6d011b0">TS_SELECTIONSTYLE
       </a>
  
 

@@ -7,7 +7,7 @@ old-location: p2p\peercollabregisterevent.htm
 old-project: p2psdk
 ms.assetid: db7daf08-8d79-493f-8df5-172dae498df0
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerCollabRegisterEvent, PeerCollabRegisterEvent function [Peer Networking], p2p.peercollabregisterevent, p2p/PeerCollabRegisterEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ The <b>PeerCollabRegisterEvent</b> function registers an application with the pe
 
 ### -param hEvent [in]
 
-Handle created by CreateEvent that the application is signaled on  when an event is triggered.  When an application is signaled, it must call <a href="https://msdn.microsoft.com/library/Aa371067(v=VS.85).aspx">PeerCollabGetEventData</a> to retrieve events until PEER_S_NO_EVENT_DATA is returned.
+Handle created by CreateEvent that the application is signaled on  when an event is triggered.  When an application is signaled, it must call <a href="https://msdn.microsoft.com/en-us/library/Aa371067(v=VS.85).aspx">PeerCollabGetEventData</a> to retrieve events until PEER_S_NO_EVENT_DATA is returned.
 
 
 ### -param cEventRegistration [in]
@@ -76,7 +76,7 @@ An array of <a href="https://msdn.microsoft.com/dfc55346-99ef-441e-ba49-e7463581
 
 ### -param phPeerEvent [out]
 
-The peer event handle returned by this function. This handle is passed to <a href="https://msdn.microsoft.com/library/Aa371067(v=VS.85).aspx">PeerCollabGetEventData</a> when a peer collaboration network event is raised on the peer.
+The peer event handle returned by this function. This handle is passed to <a href="https://msdn.microsoft.com/en-us/library/Aa371067(v=VS.85).aspx">PeerCollabGetEventData</a> when a peer collaboration network event is raised on the peer.
 
 
 ## -returns
@@ -119,7 +119,7 @@ One of the arguments is invalid.
 </dl>
 </td>
 <td width="60%">
-An attempt was made to call <a href="https://msdn.microsoft.com/library/Aa371077(v=VS.85).aspx">PeerCollabRegisterEvent</a> from an elevated process.
+An attempt was made to call <a href="https://msdn.microsoft.com/en-us/library/Aa371077(v=VS.85).aspx">PeerCollabRegisterEvent</a> from an elevated process.
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ An application can call <b>PeerCollabRegisterEvent</b> multiple times, where eac
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa371067(v=VS.85).aspx">PeerCollabGetEventData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa371067(v=VS.85).aspx">PeerCollabGetEventData</a>
  
 
  

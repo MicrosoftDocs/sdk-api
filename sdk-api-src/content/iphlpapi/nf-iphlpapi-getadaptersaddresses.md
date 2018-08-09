@@ -7,7 +7,7 @@ old-location: iphlp\getadaptersaddresses.htm
 old-project: iphlp
 ms.assetid: 7b34138f-7263-4b73-95df-9e854fd81135
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GAA_FLAG_INCLUDE_ALL_COMPARTMENTS, GAA_FLAG_INCLUDE_ALL_INTERFACES, GAA_FLAG_INCLUDE_GATEWAYS, GAA_FLAG_INCLUDE_PREFIX, GAA_FLAG_INCLUDE_TUNNEL_BINDINGORDER, GAA_FLAG_INCLUDE_WINS_INFO, GAA_FLAG_SKIP_ANYCAST, GAA_FLAG_SKIP_DNS_SERVER, GAA_FLAG_SKIP_FRIENDLY_NAME, GAA_FLAG_SKIP_MULTICAST, GAA_FLAG_SKIP_UNICAST, GetAdaptersAddresses, GetAdaptersAddresses function [IP Helper], _iphlp_getadaptersaddresses, iphlp.getadaptersaddresses, iphlpapi/GetAdaptersAddresses
 ms.prod: windows
 ms.technology: windows-sdk
@@ -374,9 +374,7 @@ In versions prior to Windows 10, the order in which adapters appear in the list
 
 If the GAA_FLAG_INCLUDE_ALL_INTERFACES is set, then all NDIS adapters will be retrieved even those addresses associated with adapters not bound to an address family specified in the <i>Family</i> parameter. When this flag is not set, then only the addresses that are bound to an adapter enabled for the address family specified in the <i>Family</i> parameter are returned.
 
-The size of the <a href="https://msdn.microsoft.com/a2df3749-6c75-40c0-8952-1656bbe639a6">IP_ADAPTER_ADDRESSES</a>
-structure was changed on Windows XP with Service Pack 1 (SP1) and later. Several additional members were added to this structure. The size of the <b>IP_ADAPTER_ADDRESSES</b>
-structure was also changed on Windows Vista and later. A number of additional members were added to this structure. The size of the 
+The size of the <a href="https://msdn.microsoft.com/a2df3749-6c75-40c0-8952-1656bbe639a6">IP_ADAPTER_ADDRESSES</a>structure was changed on Windows XP with Service Pack 1 (SP1) and later. Several additional members were added to this structure. The size of the <b>IP_ADAPTER_ADDRESSES</b>structure was also changed on Windows Vista and later. A number of additional members were added to this structure. The size of the 
      <b>IP_ADAPTER_ADDRESSES</b> structure also changed on 
      Windows Vista with Service Pack 1 (SP1)and later and onWindows Server 2008 and later. One additional member was added to this structure. The <b>Length</b> member of the <b>IP_ADAPTER_ADDRESSES</b> structure returned in the linked list of structures in the buffer pointed to by the <i>AdapterAddresses</i> parameter should be used to determine which version of the <b>IP_ADAPTER_ADDRESSES</b> structure is being used. 
 

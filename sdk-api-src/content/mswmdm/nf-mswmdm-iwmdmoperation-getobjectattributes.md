@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation_getobjectattributes.htm
 old-project: WMDM
 ms.assetid: 4e1f4300-057d-40df-8e5c-75765f9ce337
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: GetObjectAttributes, GetObjectAttributes method [windows Media Device Manager], GetObjectAttributes method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],GetObjectAttributes method, IWMDMOperation.GetObjectAttributes, IWMDMOperation::GetObjectAttributes, IWMDMOperationGetObjectAttributes, mswmdm/IWMDMOperation::GetObjectAttributes, wmdm.iwmdmoperation_getobjectattributes
 ms.prod: windows
 ms.technology: windows-sdk

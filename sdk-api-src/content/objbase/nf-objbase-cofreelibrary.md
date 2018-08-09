@@ -7,7 +7,7 @@ old-location: com\cofreelibrary.htm
 old-project: com
 ms.assetid: 3959e7d9-6220-474e-8f85-76f7f935727f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: CoFreeLibrary, CoFreeLibrary function [COM], _com_CoFreeLibrary, com.cofreelibrary, objbase/CoFreeLibrary
 ms.prod: windows
 ms.technology: windows-sdk

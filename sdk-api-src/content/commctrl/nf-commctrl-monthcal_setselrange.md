@@ -7,7 +7,7 @@ old-location: controls\MonthCal_SetSelRange.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setselrange.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: MonthCal_SetSelRange, MonthCal_SetSelRange macro [Windows Controls], _win32_MonthCal_SetSelRange, _win32_MonthCal_SetSelRange_cpp, commctrl/MonthCal_SetSelRange, controls.MonthCal_SetSelRange, controls._win32_MonthCal_SetSelRange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the selection for a month calendar control to a given date range. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761014(v=VS.85).aspx">MCM_SETSELRANGE</a> message explicitly. 
+Sets the selection for a month calendar control to a given date range. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761014(v=VS.85).aspx">MCM_SETSELRANGE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,26 +60,12 @@ Sets the selection for a month calendar control to a given date range. You can u
 
 ### -param hmc
 
-TBD
-
-
-### -param rgst
-
-TBD
-
-
-
-
-
-
-#### - hwndMC
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to a month calendar control. 
 
 
-#### - lprgSysTimeArray
+### -param rgst
 
 Type: <b>LPSYSTEMTIME</b>
 

@@ -7,7 +7,7 @@ old-location: adsi\iadsopendsobject.htm
 old-project: ADSI
 ms.assetid: 9daf6f91-6c58-46a8-ba05-149f28b53829
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IADsOpenDSObject, IADsOpenDSObject interface [ADSI], IADsOpenDSObject interface [ADSI],described, _ds_iadsopendsobject, adsi.iadsopendsobject, iads/IADsOpenDSObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ Calling the <a href="https://msdn.microsoft.com/9984ddb4-58bb-4264-930b-07e6534d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsOpenDSObject</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsOpenDSObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsOpenDSObject</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsOpenDSObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IADsOpenDSObject</b> interface has these methods.
 <a href="https://msdn.microsoft.com/9984ddb4-58bb-4264-930b-07e6534dc69f">OpenDSObject</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface on the specified object.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface on the specified object.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ Gets the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDi
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

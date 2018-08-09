@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlereader_getfootprintfile.htm
 old-project: appxpkg
 ms.assetid: BD60CD3E-2C08-4B97-B311-00C0EEBEF752
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: GetFootprintFile, GetFootprintFile method [App packaging and management], GetFootprintFile method [App packaging and management],IAppxBundleReader interface, IAppxBundleReader interface [App packaging and management],GetFootprintFile method, IAppxBundleReader.GetFootprintFile, IAppxBundleReader::GetFootprintFile, appxpackaging/IAppxBundleReader::GetFootprintFile, appxpkg.iappxbundlereader_getfootprintfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,7 +106,7 @@ The <i>fileType</i> parameter is not a valid value in the <a href="https://msdn.
 The bundle doesn't contain a footprint file of the specified type.
 
 
-<a href="https://msdn.microsoft.com/BD60CD3E-2C08-4B97-B311-00C0EEBEF752">GetFootprintFile</a> can return this error for the <a href="https://msdn.microsoft.com/library/Dn280275(v=VS.85).aspx">APPX_BUNDLE_FOOTPRINT_FILE_TYPE_SIGNATURE</a> type.
+<a href="https://msdn.microsoft.com/BD60CD3E-2C08-4B97-B311-00C0EEBEF752">GetFootprintFile</a> can return this error for the <a href="https://msdn.microsoft.com/en-us/library/Dn280275(v=VS.85).aspx">APPX_BUNDLE_FOOTPRINT_FILE_TYPE_SIGNATURE</a> type.
 
 </td>
 </tr>

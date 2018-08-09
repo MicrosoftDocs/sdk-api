@@ -7,7 +7,7 @@ old-location: wsl\wsllaunch.htm
 old-project: wsl
 ms.assetid: 0C88BCF8-9FFC-4D7C-9A7C-F56F9A4FD7FC
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WslLaunch, WslLaunch function, wsl.wsllaunch, wslapi/WslLaunch
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,9 @@ Launches a Windows Subsystem for Linux (WSL) process in the context of a particu
 
 
 
-### -param distributionName
+### -param distributionName [in]
 
-TBD
+Unique name representing a distribution (for example, "Fabrikam.Distro.10.01").
 
 
 ### -param command [in, optional]
@@ -74,49 +74,22 @@ Command to execute. If no command is supplied, launches the default shell.
 Governs whether or not the launched process should inherit the calling process's working directory. If FALSE, the process is started in the WSL default user's home directory ("~").
 
 
-### -param stdIn
-
-TBD
-
-
-### -param stdOut
-
-TBD
-
-
-### -param stdErr
-
-TBD
-
-
-### -param process
-
-TBD
-
-
-
-
-#### - distroName [in]
-
-Unique name representing a distribution (for example, "Fabrikam.Distro.10.01").
-
-
-#### - hStdErr [in]
-
-Handle to use for <b>STDERR</b>.
-
-
-#### - hStdIn [in]
+### -param stdIn [in]
 
 Handle to use for <b>STDIN</b>.
 
 
-#### - hStdOut [in]
+### -param stdOut [in]
 
 Handle to use for <b>STDOUT</b>.
 
 
-#### - phProcess [out]
+### -param stdErr [in]
+
+Handle to use for <b>STDERR</b>.
+
+
+### -param process [out]
 
 Pointer to address to receive the process HANDLE associated with the newly-launched WSL process.
 

@@ -7,7 +7,7 @@ old-location: security\authzopenobjectaudit.htm
 old-project: secauthz
 ms.assetid: 39c6f0bc-72bf-4a82-b417-c0c5b2626344
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AuthzOpenObjectAudit, AuthzOpenObjectAudit function [Security], _win32_authzopenobjectaudit, authz/AuthzOpenObjectAudit, security.authzopenobjectaudit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,9 +90,11 @@ A pointer to the
 TBD
 
 
-### -param OptionalSecurityDescriptorCount
+### -param OptionalSecurityDescriptorCount [in]
 
-TBD
+The number of elements in <i>SecurityDescriptorArray</i>. 
+
+					
 
 
 ### -param pReply [in]
@@ -104,13 +106,6 @@ A pointer to an
 #### - SecurityDescriptorArray [in]
 
 A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structures.
-
-
-#### - SecurityDescriptorCount [in]
-
-The number of elements in <i>SecurityDescriptorArray</i>. 
-
-					
 
 
 ## -returns
@@ -129,7 +124,7 @@ If the function fails, it returns a zero value. To get extended error informatio
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
  
 
  

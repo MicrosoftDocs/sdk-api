@@ -7,7 +7,7 @@ old-location: of\iofflinefilessyncconflicthandler_resolveconflict.htm
 old-project: offlinefiles
 ms.assetid: eb6fbdcf-1833-4ada-880e-f2dbfce64d99
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesSyncConflictHandler interface [Offline Files],ResolveConflict method, IOfflineFilesSyncConflictHandler.ResolveConflict, IOfflineFilesSyncConflictHandler::ResolveConflict, OFFLINEFILES_CHANGES_LOCAL_ATTRIBUTES, OFFLINEFILES_CHANGES_LOCAL_SIZE, OFFLINEFILES_CHANGES_LOCAL_TIME, OFFLINEFILES_CHANGES_REMOTE_ATTRIBUTES, OFFLINEFILES_CHANGES_REMOTE_SIZE, OFFLINEFILES_CHANGES_REMOTE_TIME, OFFLINEFILES_SYNC_STATE_LOCAL_KNOWN, OFFLINEFILES_SYNC_STATE_REMOTE_KNOWN, ResolveConflict, ResolveConflict method [Offline Files], ResolveConflict method [Offline Files],IOfflineFilesSyncConflictHandler interface, cscobj/IOfflineFilesSyncConflictHandler::ResolveConflict, of.iofflinefilessyncconflicthandler_resolveconflict
 ms.prod: windows
 ms.technology: windows-sdk
@@ -136,7 +136,7 @@ Receives the desired resolution code.  Specify a value from the <a href="https:/
 
 If the value of the  <i>pConflictResolution</i> parameter is <b>OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPALLCHANGES</b>, the conflict handler must provide a new name for the item.  This new name is used for the new copies created remotely and locally.  Note that this is a file name, not a fully qualified path.
 
-The name string must be allocated using <a href="https://msdn.microsoft.com/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>.
+The name string must be allocated using <a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>.
 
 This parameter may be <b>NULL</b> if a new name is not required by the resolution.
 

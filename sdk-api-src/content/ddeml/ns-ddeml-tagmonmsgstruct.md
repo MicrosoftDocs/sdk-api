@@ -7,7 +7,7 @@ old-location: dataxchg\monmsgstruct_str.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\monmsgstruct.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*PMONMSGSTRUCT, MONMSGSTRUCT, MONMSGSTRUCT structure [Data Exchange], PMONMSGSTRUCT, PMONMSGSTRUCT structure pointer [Data Exchange], _win32_MONMSGSTRUCT_str, _win32_monmsgstruct_str_cpp, dataxchg.monmsgstruct_str, ddeml/MONMSGSTRUCT, ddeml/PMONMSGSTRUCT, tagMONMSGSTRUCT, winui._win32_monmsgstruct_str"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,7 @@ The <b>lParam</b> parameter of the DDE message.
 
 ### -field dmhd
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms648732(v=VS.85).aspx">DDEML_MSG_HOOK_DATA</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms648732(v=VS.85).aspx">DDEML_MSG_HOOK_DATA</a></b>
 
 Additional information about the DDE message. 
 
@@ -123,31 +123,31 @@ Additional information about the DDE message.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648732(v=VS.85).aspx">DDEML_MSG_HOOK_DATA</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648732(v=VS.85).aspx">DDEML_MSG_HOOK_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648733(v=VS.85).aspx">MONCBSTRUCT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648733(v=VS.85).aspx">MONCBSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648734(v=VS.85).aspx">MONCONVSTRUCT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648734(v=VS.85).aspx">MONCONVSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648735(v=VS.85).aspx">MONERRSTRUCT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648735(v=VS.85).aspx">MONERRSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648736(v=VS.85).aspx">MONHSZSTRUCT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648736(v=VS.85).aspx">MONHSZSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648737(v=VS.85).aspx">MONLINKSTRUCT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648737(v=VS.85).aspx">MONLINKSTRUCT</a>
 
 
 

@@ -4,10 +4,10 @@ title: PFN_WdsCliCallback
 author: windows-sdk-content
 description: Defines a callback function that WDS can call for progress notification and error messages during a file or image transfer.
 old-location: wds\pfn_wdsclicallback.htm
-old-project: Wds
+old-project: wds
 ms.assetid: b071ba1c-5860-4492-ad86-71eaeeb74df4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PFN_WdsCliCallback, PFN_WdsCliCallback callback, PFN_WdsCliCallback callback function [Windows Deployment Services], WDS_CLI_MSG_COMPLETE, WDS_CLI_MSG_PROGRESS, WDS_CLI_MSG_START, WDS_CLI_MSG_TEXT, wds.pfn_wdsclicallback, wdsclientapi/PFN_WdsCliCallback
 ms.prod: windows
 ms.technology: windows-sdk

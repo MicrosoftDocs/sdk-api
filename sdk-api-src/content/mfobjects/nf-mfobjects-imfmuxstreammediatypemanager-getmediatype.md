@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreammediatypemanager_getmediatype.htm
 old-project: medfound
 ms.assetid: F8A65783-7FD8-46C2-87B0-BC540E1F187F
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetMediaType, GetMediaType method [Media Foundation], GetMediaType method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetMediaType method, IMFMuxStreamMediaTypeManager.GetMediaType, IMFMuxStreamMediaTypeManager::GetMediaType, mf.imfmuxstreammediatypemanager_getmediatype, mfobjects/IMFMuxStreamMediaTypeManager::GetMediaType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,8 +80,7 @@ The media type of the substream with the specified index.
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -96,8 +95,7 @@ The media type of the substream with the specified index.
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -109,8 +107,7 @@ The media type of the substream with the specified index.
 </dl>
 </td>
 <td width="60%">
-
-                Invalid argument.
+Invalid argument.
               
 
 </td>
@@ -122,8 +119,7 @@ The media type of the substream with the specified index.
 </dl>
 </td>
 <td width="60%">
-
-                The stream specified substream index is invalid. Call <a href="https://msdn.microsoft.com/631802B5-00F7-4219-9B21-5A1FB8628477">GetStreamCount</a> to get the number of substreams managed by the multiplexed media source.
+The stream specified substream index is invalid. Call <a href="https://msdn.microsoft.com/631802B5-00F7-4219-9B21-5A1FB8628477">GetStreamCount</a> to get the number of substreams managed by the multiplexed media source.
 
 </td>
 </tr>
@@ -134,8 +130,7 @@ The media type of the substream with the specified index.
 </dl>
 </td>
 <td width="60%">
-
-                The media type of the specified substream is invalid. 
+The media type of the specified substream is invalid. 
 
 </td>
 </tr>

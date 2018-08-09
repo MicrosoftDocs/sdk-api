@@ -4,10 +4,10 @@ title: tagResultCodes
 author: windows-sdk-content
 description: Defines a list of result codes.
 old-location: nap\resultcodes_struct.htm
-old-project: NAP
+old-project: nap
 ms.assetid: 9d608f0a-9841-48e6-8856-2d8c1afc3e5d
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: ResultCodes, ResultCodes structure [NAP], nap.resultcodes_struct, naptypes/ResultCodes, tagResultCodes
 ms.prod: windows
 ms.technology: windows-sdk

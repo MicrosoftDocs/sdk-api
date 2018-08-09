@@ -7,7 +7,7 @@ old-location: shell\SHAnsiToUnicode.htm
 old-project: shell
 ms.assetid: 9578f26e-56ea-4f3b-b024-b2e285d0c4d2
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHAnsiToUnicode, SHAnsiToUnicode function [Windows Shell], _win32_SHAnsiToUnicode, shell.SHAnsiToUnicode, shlwapi/SHAnsiToUnicode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,39 +123,39 @@ If the <i>pszSrc</i> and <i>pwszDst</i> buffers overlap, the function's behavior
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647499(v=VS.85).aspx">StringCbCopy</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647499(v=VS.85).aspx">StringCbCopy</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647500(v=VS.85).aspx">StringCbCopyEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647500(v=VS.85).aspx">StringCbCopyEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647501(v=VS.85).aspx">StringCbCopyN</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647501(v=VS.85).aspx">StringCbCopyN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647503(v=VS.85).aspx">StringCbCopyNEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647503(v=VS.85).aspx">StringCbCopyNEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647509(v=VS.85).aspx">StringCbLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647509(v=VS.85).aspx">StringCbLength</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647527(v=VS.85).aspx">StringCchCopy</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647527(v=VS.85).aspx">StringCchCopy</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647529(v=VS.85).aspx">StringCchCopyEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647529(v=VS.85).aspx">StringCchCopyEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647530(v=VS.85).aspx">StringCchCopyN</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647530(v=VS.85).aspx">StringCchCopyN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647533(v=VS.85).aspx">StringCchCopyNEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647533(v=VS.85).aspx">StringCchCopyNEx</a>
 
 
 

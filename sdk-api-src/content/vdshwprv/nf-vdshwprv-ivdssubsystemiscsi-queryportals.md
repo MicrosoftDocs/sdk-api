@@ -4,10 +4,10 @@ title: IVdsSubSystemIscsi::QueryPortals
 author: windows-sdk-content
 description: Returns an object that enumerates the iSCSI portals of the subsystem.
 old-location: base\ivdssubsystemiscsi_queryportals.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 277cc256-ac9d-4a4c-b154-ba611c08db9f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IVdsSubSystemIscsi interface [VDS],QueryPortals method, IVdsSubSystemIscsi.QueryPortals, IVdsSubSystemIscsi::QueryPortals, QueryPortals, QueryPortals method [VDS], QueryPortals method [VDS],IVdsSubSystemIscsi interface, base.ivdssubsystemiscsi_queryportals, vds/IVdsSubSystemIscsi::QueryPortals, vdshwprv/IVdsSubSystemIscsi::QueryPortals
 ms.prod: windows
 ms.technology: windows-sdk

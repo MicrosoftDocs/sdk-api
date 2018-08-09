@@ -7,7 +7,7 @@ old-location: mscs\clusresgroup_commonroproperties.htm
 old-project: mscs
 ms.assetid: 90de1234-d55c-40c2-9616-cfb3f9230c41
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusResGroup class [Failover Cluster],CommonROProperties property, ClusResGroup.CommonROProperties, CommonROProperties property [Failover Cluster], CommonROProperties property [Failover Cluster],ClusResGroup class, ISClusResGroup.get_CommonROProperties, ISClusResGroup::get_CommonROProperties, _wolf_clusresgroup.commonroproperties, get_CommonROProperties, mscs.clusresgroup_commonroproperties
 ms.prod: windows
 ms.technology: windows-sdk

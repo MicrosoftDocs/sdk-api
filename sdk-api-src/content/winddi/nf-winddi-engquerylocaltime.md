@@ -7,7 +7,7 @@ old-location: display\engquerylocaltime.htm
 old-project: display
 ms.assetid: 826993fc-7cf2-4747-a0d9-086e5d7310b6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: EngQueryLocalTime, EngQueryLocalTime function [Display Devices], display.engquerylocaltime, gdifncs_268682b0-aef3-4241-b49c-1cea87ec4f29.xml, winddi/EngQueryLocalTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,14 +62,7 @@ The <b>EngQueryLocalTime</b> function queries the local time.
 
 
 
-### -param Arg1
-
-TBD
-
-
-
-
-#### - ptf [out]
+### -param Arg1 [out]
 
 Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff565470">ENG_TIME_FIELDS</a> structure that receives the local time.
 

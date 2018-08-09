@@ -7,7 +7,7 @@ old-location: dataxchg\freeddelparam.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangefunctions\freeddelparam.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: FreeDDElParam, FreeDDElParam function [Data Exchange], _win32_FreeDDElParam, _win32_freeddelparam_cpp, dataxchg.freeddelparam, dde/FreeDDElParam, winui._win32_freeddelparam
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ req.irql:
 
 
 Frees the memory specified by the 
-			<i>lParam</i> parameter of a posted Dynamic Data Exchange (DDE) message. An application receiving a posted DDE message should call this function after it has used the <a href="https://msdn.microsoft.com/library/ms649008(v=VS.85).aspx">UnpackDDElParam</a> function to unpack the 
+			<i>lParam</i> parameter of a posted Dynamic Data Exchange (DDE) message. An application receiving a posted DDE message should call this function after it has used the <a href="https://msdn.microsoft.com/en-us/library/ms649008(v=VS.85).aspx">UnpackDDElParam</a> function to unpack the 
 			<i>lParam</i> value. 
 
 
@@ -112,7 +112,7 @@ This function frees the memory specified by the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
 
 
 
@@ -120,7 +120,7 @@ This function frees the memory specified by the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649006(v=VS.85).aspx">PackDDElParam</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649006(v=VS.85).aspx">PackDDElParam</a>
 
 
 
@@ -128,11 +128,11 @@ This function frees the memory specified by the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649007(v=VS.85).aspx">ReuseDDElParam</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649007(v=VS.85).aspx">ReuseDDElParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649008(v=VS.85).aspx">UnpackDDElParam</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649008(v=VS.85).aspx">UnpackDDElParam</a>
  
 
  

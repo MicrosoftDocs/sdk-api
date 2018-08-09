@@ -7,7 +7,7 @@ old-location: controls\ListView_InsertMarkHitTest.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertmarkhittest.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_InsertMarkHitTest, ListView_InsertMarkHitTest macro [Windows Controls], _win32_ListView_InsertMarkHitTest, _win32_ListView_InsertMarkHitTest_cpp, commctrl/ListView_InsertMarkHitTest, controls.ListView_InsertMarkHitTest, controls._win32_ListView_InsertMarkHitTest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the insertion point closest to a specified point. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761131(v=VS.85).aspx">LVM_INSERTMARKHITTEST</a> message explicitly. 
+Retrieves the insertion point closest to a specified point. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761131(v=VS.85).aspx">LVM_INSERTMARKHITTEST</a> message explicitly. 
 
 
 ## -parameters
@@ -73,25 +73,16 @@ Type: <b>LPPOINT</b>
 
 ### -param lvim
 
-TBD
-
-
-
-
-
-
-#### - plvim
-
 Type: <b>PLVINSERTMARK</b>
 
-<a href="https://msdn.microsoft.com/library/Bb774758(v=VS.85).aspx">LVINSERTMARK</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774758(v=VS.85).aspx">LVINSERTMARK</a>
 <i>point</i>
 
 ## -remarks
 
 
 
-To use <b>ListView_InsertMarkHitTest</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_InsertMarkHitTest</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

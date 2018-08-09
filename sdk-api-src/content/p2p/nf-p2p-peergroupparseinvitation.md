@@ -7,7 +7,7 @@ old-location: p2p\peergroupparseinvitation.htm
 old-project: p2psdk
 ms.assetid: ddc1c419-7be3-4115-af21-1108921c7b1d
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGroupParseInvitation, PeerGroupParseInvitation function [Peer Networking], p2p.peergroupparseinvitation, p2p/PeerGroupParseInvitation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGroupParseInvitation</b> function returns a <a href="https://msdn.microsoft.com/215df4ed-83e3-40c3-a38e-89d92ce38707">PEER_INVITATION_INFO</a> structure with the details of a specific invitation.
+The <b>PeerGroupParseInvitation</b> function returns a <a href="https://msdn.microsoft.com/215df4ed-83e3-40c3-a38e-89d92ce38707">PEER_INVITATION_INFO</a> structure with the details of a specific invitation.
 
 
 ## -parameters
@@ -138,8 +137,7 @@ Cryptography-specific errors can be returned from the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/215df4ed-83e3-40c3-a38e-89d92ce38707">
-		  PEER_INVITATION_INFO</a>
+<a href="https://msdn.microsoft.com/215df4ed-83e3-40c3-a38e-89d92ce38707">PEER_INVITATION_INFO</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: winmsg\getparent.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getparent.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetParent, GetParent function [Windows and Messages], _win32_GetParent, _win32_getparent_cpp, winmsg.getparent, winui._win32_getparent, winuser/GetParent
 ms.prod: windows
 ms.technology: windows-sdk

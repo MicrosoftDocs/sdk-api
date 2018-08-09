@@ -7,7 +7,7 @@ old-location: gdi\getmetafile.htm
 old-project: gdi
 ms.assetid: 56A602C4-AE4D-46DE-B5DA-66A68E3A16BF
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetMetaFile, GetMetaFile function [Windows GDI], GetMetaFileA, GetMetaFileW, gdi.getmetafile, wingdi/GetMetaFile, wingdi/GetMetaFileA, wingdi/GetMetaFileW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,7 @@ The <b>GetMetaFile</b> function creates a handle that identifies the metafile st
 
 
 
-### -param lpName
-
-TBD
-
-
-
-
-#### - lpszMetaFile [in]
+### -param lpName [in]
 
 A pointer to a null-terminated string that specifies the name of a metafile.
 

@@ -7,7 +7,7 @@ old-location: com\olesetmenudescriptor.htm
 old-project: com
 ms.assetid: c80fe36d-5093-4814-83a9-0c11c5a7cf5f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: OleSetMenuDescriptor, OleSetMenuDescriptor function [COM], _ole_OleSetMenuDescriptor, com.olesetmenudescriptor, ole2/OleSetMenuDescriptor
 ms.prod: windows
 ms.technology: windows-sdk

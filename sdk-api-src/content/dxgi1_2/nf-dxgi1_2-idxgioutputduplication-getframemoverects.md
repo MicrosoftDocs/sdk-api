@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutputduplication_getframemoverects.htm
 old-project: direct3ddxgi
 ms.assetid: 7B7BF1A2-5F89-4AE1-BBDE-A298813B3AE7
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/30/2018
 ms.keywords: GetFrameMoveRects, GetFrameMoveRects method [DXGI], GetFrameMoveRects method [DXGI],IDXGIOutputDuplication interface, IDXGIOutputDuplication interface [DXGI],GetFrameMoveRects method, IDXGIOutputDuplication.GetFrameMoveRects, IDXGIOutputDuplication::GetFrameMoveRects, direct3ddxgi.idxgioutputduplication_getframemoverects, dxgi1_2/IDXGIOutputDuplication::GetFrameMoveRects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,7 +108,7 @@ For more information about returning the required buffer size, see Remarks.
           is incorrect; for example, if 
           <i>pMoveRectBuffer</i> is NULL.</li>
 <li>Possibly other error codes that are described in the 
-          <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+          <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
 </ul>
 
 

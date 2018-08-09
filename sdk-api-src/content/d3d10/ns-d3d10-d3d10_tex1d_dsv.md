@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_tex1d_dsv.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex1d_dsv.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 11f3ace2-fb36-9637-6055-c218eefac753, D3D10_TEX1D_DSV, D3D10_TEX1D_DSV structure [Direct3D 10], d3d10/D3D10_TEX1D_DSV, direct3d10.d3d10_tex1d_dsv
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Specifies the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">subresource</a> from a <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">1D texture</a> that is accessible to a depth-stencil view.
+Specifies the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource</a> from a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">1D texture</a> that is accessible to a depth-stencil view.
 
 
 ## -struct-fields
@@ -62,14 +62,14 @@ Specifies the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The index of the first mipmap level to use (see <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">mip slice</a>).
+The index of the first mipmap level to use (see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">mip slice</a>).
 
 
 ## -remarks
 
 
 
-This structure is one member of a depth-stencil-view description (see <a href="https://msdn.microsoft.com/library/Bb205037(v=VS.85).aspx">D3D10_DEPTH_STENCIL_VIEW_DESC</a>).
+This structure is one member of a depth-stencil-view description (see <a href="https://msdn.microsoft.com/en-us/library/Bb205037(v=VS.85).aspx">D3D10_DEPTH_STENCIL_VIEW_DESC</a>).
 
 
 
@@ -79,7 +79,7 @@ This structure is one member of a depth-stencil-view description (see <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
  
 
  

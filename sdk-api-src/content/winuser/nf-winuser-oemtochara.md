@@ -7,7 +7,7 @@ old-location: menurc\oemtochar.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\oemtochar.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: OemToChar, OemToChar function [Menus and Other Resources], OemToCharA, OemToCharW, _win32_OemToChar, _win32_oemtochar_cpp, menurc.oemtochar, winui._win32_oemtochar, winuser/OemToChar, winuser/OemToCharA, winuser/OemToCharW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,32 +61,20 @@ Translates a string from the OEM-defined character set into either an ANSI or a 
 
 
 
-### -param pSrc
+### -param pSrc [in]
 
-TBD
+Type: <b>LPCSTR</b>
 
-
-### -param pDst
-
-TBD
+A null-terminated string of characters from the OEM-defined character set. 
 
 
-
-
-#### - lpszDst [out]
+### -param pDst [out]
 
 Type: <b>LPTSTR</b>
 
 The destination buffer, which receives the translated string. If the <b>OemToChar</b> function is being used as an ANSI function, the string can be translated in place by setting the 
 					<i>lpszDst</i> parameter to the same address as the 
 					<i>lpszSrc</i> parameter. This cannot be done if <b>OemToChar</b> is being used as a wide-character function.
-
-
-#### - lpszSrc [in]
-
-Type: <b>LPCSTR</b>
-
-A null-terminated string of characters from the OEM-defined character set. 
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: netshell\printmessage.htm
 old-project: netshell
 ms.assetid: 6646a4f7-24b7-460c-8027-80485ac50785
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: PrintMessage, PrintMessage function [NetShell], _netsh_printmessage, netsh/PrintMessage, netshell.printmessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,27 +60,14 @@ The
 
 
 
-### -param pwszFormat
+### -param pwszFormat [in]
 
-TBD
+A string to be output to the NetShell console.
 
 
 ### -param param
 
-TBD
-
-
-
-
-####### - ...
-
-
-					The arguments used to fill into the message.
-
-
-#### - rgwcInput [in]
-
-A string to be output to the NetShell console.
+The arguments used to fill into the message.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorageglobals_initialize.htm
 old-project: WMDM
 ms.assetid: 661060dc-5a38-4110-80f6-c67e3be8c96b
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: IMDSPStorageGlobals interface [windows Media Device Manager],Initialize method, IMDSPStorageGlobals.Initialize, IMDSPStorageGlobals::Initialize, IMDSPStorageGlobalsInitialize, Initialize, Initialize method [windows Media Device Manager], Initialize method [windows Media Device Manager],IMDSPStorageGlobals interface, mswmdm/IMDSPStorageGlobals::Initialize, wmdm.imdspstorageglobals_initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Mode used to initialize the medium. Specify exactly one of the following two mod
 
 <table>
 <tr>
-<th>
-                  Mode
+<th>Mode
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

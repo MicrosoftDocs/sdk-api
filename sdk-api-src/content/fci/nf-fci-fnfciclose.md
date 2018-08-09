@@ -7,7 +7,7 @@ old-location: winprog\fnfciclose.htm
 old-project: devnotes
 ms.assetid: c4edf6ca-0b16-4e30-933b-934f8930c6d6
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FNFCICLOSE, FNFCICLOSE macro [Windows API], fci/FNFCICLOSE, winprog.fnfciclose
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,21 +61,12 @@ The <b>FNFCICLOSE</b> macro provides the declaration for the application-defined
 
 ### -param fn
 
-TBD
-
-
-
-
+ Specifies an application-defined value that identifies an open file.
 
 
 #### - err
 
 Pointer to the error code value. This value is  used to provide extended error information in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
-
-
-#### - hf
-
- Specifies an application-defined value that identifies an open file.
 
 
 #### - pv

@@ -7,7 +7,7 @@ old-location: wmi\iwbemcontext_getvalue.htm
 old-project: WmiSdk
 ms.assetid: e11fff37-aeb7-41c5-8639-ca0a7a144263
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: GetValue, GetValue method [Windows Management Instrumentation], GetValue method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],GetValue method, IWbemContext.GetValue, IWbemContext::GetValue, _hmm_iwbemcontext_getvalue, wbemcli/IWbemContext::GetValue, wmi.iwbemcontext_getvalue
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup_switchtoforeground.htm
 old-project: bits
 ms.assetid: 19619a97-b4f2-4609-9b06-bb188e00860c
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],SwitchToForeground method, IBackgroundCopyGroup.SwitchToForeground, IBackgroundCopyGroup::SwitchToForeground, SwitchToForeground, SwitchToForeground method [BITS], SwitchToForeground method [BITS],IBackgroundCopyGroup interface, bits.ibackgroundcopygroup_switchtoforeground, qmgr/IBackgroundCopyGroup::SwitchToForeground
 ms.prod: windows
 ms.technology: windows-sdk

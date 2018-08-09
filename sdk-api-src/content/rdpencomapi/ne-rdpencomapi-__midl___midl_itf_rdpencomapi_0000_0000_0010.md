@@ -7,7 +7,7 @@ old-location: rdp\rdpsrapi_kbd_code_type.htm
 old-project: rdp
 ms.assetid: 7E8CD302-3F61-4132-8C80-E73A6DD034E1
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: RDPSRAPI_KBD_CODE_SCANCODE, RDPSRAPI_KBD_CODE_TYPE, RDPSRAPI_KBD_CODE_TYPE enumeration [RDP], RDPSRAPI_KBD_CODE_UNICODE, __MIDL___MIDL_itf_rdpencomapi_0000_0000_0010, rdp.rdpsrapi_kbd_code_type, rdpencomapi/RDPSRAPI_KBD_CODE_SCANCODE, rdpencomapi/RDPSRAPI_KBD_CODE_TYPE, rdpencomapi/RDPSRAPI_KBD_CODE_UNICODE
 ms.prod: windows
 ms.technology: windows-sdk

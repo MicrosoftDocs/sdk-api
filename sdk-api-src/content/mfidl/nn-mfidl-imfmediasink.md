@@ -7,7 +7,7 @@ old-location: mf\imfmediasink.htm
 old-project: medfound
 ms.assetid: 103e6fd8-a18f-480a-8261-099623014659
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 103e6fd8-a18f-480a-8261-099623014659, IMFMediaSink, IMFMediaSink interface [Media Foundation], IMFMediaSink interface [Media Foundation],described, mf.imfmediasink, mfidl/IMFMediaSink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ The <b>IMFMediaSink</b> interface has these methods.
 <a href="https://msdn.microsoft.com/1b05ef87-5559-4310-942c-54ab113eb42d">AddStreamSink</a>
 </td>
 <td align="left" width="63%">
-
-          Adds a new stream sink to the media sink.
+Adds a new stream sink to the media sink.
         
 
 </td>
@@ -86,8 +85,7 @@ The <b>IMFMediaSink</b> interface has these methods.
 <a href="https://msdn.microsoft.com/a7e8e2af-8b10-47f5-8b09-a7147ace5ba1">GetCharacteristics</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the characteristics of the media sink.
+Gets the characteristics of the media sink.
         
 
 </td>
@@ -97,8 +95,7 @@ The <b>IMFMediaSink</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ffa6a7b5-cd79-4c45-a5e3-9d133ffc89a6">GetPresentationClock</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the presentation clock that was set on the media sink.
+Gets the presentation clock that was set on the media sink.
         
 
 </td>
@@ -108,8 +105,7 @@ The <b>IMFMediaSink</b> interface has these methods.
 <a href="https://msdn.microsoft.com/267a8efc-6743-48ca-a1c4-da82f3770419">GetStreamSinkById</a>
 </td>
 <td align="left" width="63%">
-
-          Gets a stream sink, specified by stream identifier.
+Gets a stream sink, specified by stream identifier.
         
 
 </td>
@@ -119,8 +115,7 @@ The <b>IMFMediaSink</b> interface has these methods.
 <a href="https://msdn.microsoft.com/01604801-1566-410c-b23a-0568c7298868">GetStreamSinkByIndex</a>
 </td>
 <td align="left" width="63%">
-
-          Gets a stream sink, specified by index.
+Gets a stream sink, specified by index.
         
 
 </td>
@@ -130,8 +125,7 @@ The <b>IMFMediaSink</b> interface has these methods.
 <a href="https://msdn.microsoft.com/bf4b5713-586c-4b12-80a1-4452eec63e32">GetStreamSinkCount</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the number of stream sinks on this media sink.
+Gets the number of stream sinks on this media sink.
         
 
 </td>
@@ -141,8 +135,7 @@ The <b>IMFMediaSink</b> interface has these methods.
 <a href="https://msdn.microsoft.com/f99ee960-7fea-4867-bc24-d7e1d6fcafa5">RemoveStreamSink</a>
 </td>
 <td align="left" width="63%">
-
-          Removes a stream sink from the media sink.
+Removes a stream sink from the media sink.
         
 
 </td>
@@ -152,8 +145,7 @@ The <b>IMFMediaSink</b> interface has these methods.
 <a href="https://msdn.microsoft.com/844fc3b3-b56e-4048-b589-e24457bcc419">SetPresentationClock</a>
 </td>
 <td align="left" width="63%">
-
-          Sets the presentation clock on the media sink.
+Sets the presentation clock on the media sink.
         
 
 </td>
@@ -163,8 +155,7 @@ The <b>IMFMediaSink</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a>
 </td>
 <td align="left" width="63%">
-
-          Shuts down the media sink and releases the resources it is using.
+Shuts down the media sink and releases the resources it is using.
         
 
 </td>

@@ -7,7 +7,7 @@ old-location: shell\PathSearchAndQualify.htm
 old-project: shell
 ms.assetid: 90da281d-349a-460a-aa5a-14e3b4ced727
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PathSearchAndQualify, PathSearchAndQualify function [Windows Shell], PathSearchAndQualifyA, PathSearchAndQualifyW, _win32_PathSearchAndQualify, shell.PathSearchAndQualify, shlwapi/PathSearchAndQualify, shlwapi/PathSearchAndQualifyA, shlwapi/PathSearchAndQualifyW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,42 +64,25 @@ Determines if a given path is correctly formatted and fully qualified.
 
 
 
-### -param pszPath
-
-TBD
-
-
-### -param pszBuf
-
-TBD
-
-
-### -param cchBuf
-
-TBD
-
-
-
-
-#### - cchFullyQualifiedPath [in]
-
-Type: <b>UINT</b>
-
-The size of the buffer pointed to by <i>pszFullyQualifiedPath</i>, in characters.
-
-
-#### - pcszPath [in]
+### -param pszPath [in]
 
 Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string of maximum length MAX_PATH that contains the path to search.
 
 
-#### - pszFullyQualifiedPath [out]
+### -param pszBuf [out]
 
 Type: <b>LPTSTR</b>
 
 A pointer to a null-terminated string of length MAX_PATH that contains the path to be referenced.
+
+
+### -param cchBuf [in]
+
+Type: <b>UINT</b>
+
+The size of the buffer pointed to by <i>pszFullyQualifiedPath</i>, in characters.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: SnmpDuplicateVbl function
 author: windows-sdk-content
 description: The WinSNMP SnmpDuplicateVbl function copies a variable bindings list for the specified WinSNMP session. This function returns a handle to the copied variable bindings list and allocates any necessary memory for it.
 old-location: snmp\snmpduplicatevbl.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: b6ca0167-43d7-4a85-b3ba-c2683ae27ff5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SnmpDuplicateVbl, SnmpDuplicateVbl function [SNMP], _snmp_snmpduplicatevbl, snmp.snmpduplicatevbl, winsnmp/SnmpDuplicateVbl
 ms.prod: windows
 ms.technology: windows-sdk

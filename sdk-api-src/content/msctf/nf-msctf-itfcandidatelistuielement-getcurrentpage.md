@@ -7,7 +7,7 @@ old-location: tsf\itfcandidatelistuielement_getcurrentpage.htm
 old-project: TSF
 ms.assetid: 551c73ff-8fbd-47e5-a6e8-90d58141c7c0
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetCurrentPage, GetCurrentPage method [Text Services Framework], GetCurrentPage method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetCurrentPage method, ITfCandidateListUIElement.GetCurrentPage, ITfCandidateListUIElement::GetCurrentPage, msctf/ITfCandidateListUIElement::GetCurrentPage, tsf.itfcandidatelistuielement_getcurrentpage
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\itfmousetracker_unadvisemousesink.htm
 old-project: TSF
 ms.assetid: 7707b7ce-662b-43e5-ada4-ba42eec56ede
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfMouseTracker interface [Text Services Framework],UnadviseMouseSink method, ITfMouseTracker.UnadviseMouseSink, ITfMouseTracker::UnadviseMouseSink, UnadviseMouseSink, UnadviseMouseSink method [Text Services Framework], UnadviseMouseSink method [Text Services Framework],ITfMouseTracker interface, _tsf_itfmousetracker_unadvisemousesink_ref, msctf/ITfMouseTracker::UnadviseMouseSink, tsf.itfmousetracker_unadvisemousesink
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: InternetSetCookieExA function
 author: windows-sdk-content
 description: The InternetSetCookieEx function creates a cookie with a specified name that is associated with a specified URL. This function differs from the InternetSetCookie function by being able to create third-party cookies.
 old-location: wininet\internetsetcookieex.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: 5044761f-152d-4606-87d2-c56a11db18c4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: INTERNET_COOKIE_EVALUATE_P3P, INTERNET_COOKIE_HTTPONLY, INTERNET_COOKIE_THIRD_PARTY, INTERNET_FLAG_RESTRICTED_ZONE, InternetSetCookieEx, InternetSetCookieEx function [WinINet], InternetSetCookieExA, InternetSetCookieExW, wininet.internetsetcookieex, wininet/InternetSetCookieEx, wininet/InternetSetCookieExA, wininet/InternetSetCookieExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,11 @@ The <b>InternetSetCookieEx</b> function
 
 
 
-### -param lpszUrl
+### -param lpszUrl [in]
 
-TBD
+Pointer to a <b>null</b>-terminated string that contains the URL for which the cookie should be set. 
+
+If this pointer is <b>NULL</b>, <b>InternetSetCookieEx</b> fails with an <b>ERROR_INVALID_PARAMETER</b> error.
 
 
 ### -param lpszCookieName [in]
@@ -146,13 +148,6 @@ Indicates that the cookie being set is associated with an untrusted site.
 ### -param dwReserved [in]
 
 <b>NULL</b>, or contains a pointer to a Platform-for-Privacy-Protection (P3P) header to be associated with the cookie.
-
-
-#### - lpszURL [in]
-
-Pointer to a <b>null</b>-terminated string that contains the URL for which the cookie should be set. 
-
-If this pointer is <b>NULL</b>, <b>InternetSetCookieEx</b> fails with an <b>ERROR_INVALID_PARAMETER</b> error.
 
 
 ## -returns

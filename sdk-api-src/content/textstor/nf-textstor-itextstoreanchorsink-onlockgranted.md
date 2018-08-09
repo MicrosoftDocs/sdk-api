@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchorsink_onlockgranted.htm
 old-project: TSF
 ms.assetid: 4a2ab828-1eb8-4aae-bebd-dc8b406fd58f
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnLockGranted method, ITextStoreAnchorSink.OnLockGranted, ITextStoreAnchorSink::OnLockGranted, OnLockGranted, OnLockGranted method [Text Services Framework], OnLockGranted method [Text Services Framework],ITextStoreAnchorSink interface, TS_LF_READ, TS_LF_READWRITE, _tsf_itextstoreanchorsink_onlockgranted_ref, textstor/ITextStoreAnchorSink::OnLockGranted, tsf.itextstoreanchorsink_onlockgranted
 ms.prod: windows
 ms.technology: windows-sdk
@@ -172,14 +172,12 @@ If a synchronous lock request is made from within <b>ITextStoreAnchor::RequestLo
 
 
 
-<a href="https://msdn.microsoft.com/fb96b4fb-864f-4f32-bf7c-cf7f199e552a">
-        ITextStoreAnchorSink
+<a href="https://msdn.microsoft.com/fb96b4fb-864f-4f32-bf7c-cf7f199e552a">ITextStoreAnchorSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f0bb6ef9-a8fc-4331-9210-6c5ba1721a73">
-        TS_LF_* Constants
+<a href="https://msdn.microsoft.com/f0bb6ef9-a8fc-4331-9210-6c5ba1721a73">TS_LF_* Constants
       </a>
  
 

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_IsEmptyArea_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\isemptyarea.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: IsEmptyArea, IsEmptyArea method [GDI+], IsEmptyArea method [GDI+],Rect class, Rect class [GDI+],IsEmptyArea method, Rect.IsEmptyArea, Rect::IsEmptyArea, _gdiplus_CLASS_Rect_IsEmptyArea_, gdiplus._gdiplus_CLASS_Rect_IsEmptyArea_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,11 +117,11 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534974(v=VS.85).aspx">Inflate Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534974(v=VS.85).aspx">Inflate Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
 
 
 
@@ -129,11 +129,11 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
  
 
  

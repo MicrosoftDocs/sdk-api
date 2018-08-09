@@ -7,7 +7,7 @@ old-location: base\undecoratesymbolname.htm
 old-project: debug
 ms.assetid: f52e8e3b-3113-4d8c-b44a-846c574cfbd8
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: UNDNAME_32_BIT_DECODE, UNDNAME_COMPLETE, UNDNAME_NAME_ONLY, UNDNAME_NO_ACCESS_SPECIFIERS, UNDNAME_NO_ALLOCATION_LANGUAGE, UNDNAME_NO_ALLOCATION_MODEL, UNDNAME_NO_ARGUMENTS, UNDNAME_NO_CV_THISTYPE, UNDNAME_NO_FUNCTION_RETURNS, UNDNAME_NO_LEADING_UNDERSCORES, UNDNAME_NO_MEMBER_TYPE, UNDNAME_NO_MS_KEYWORDS, UNDNAME_NO_MS_THISTYPE, UNDNAME_NO_RETURN_UDT_MODEL, UNDNAME_NO_SPECIAL_SYMS, UNDNAME_NO_THISTYPE, UNDNAME_NO_THROW_SIGNATURES, UnDecorateSymbolName, UnDecorateSymbolName function, UnDecorateSymbolNameW, _win32_undecoratesymbolname, base.undecoratesymbolname, dbghelp/UnDecorateSymbolName, dbghelp/UnDecorateSymbolNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,35 +60,23 @@ Undecorates the specified decorated C++ symbol name.
 
 
 
-### -param name
-
-TBD
-
-
-### -param outputString
-
-TBD
-
-
-### -param maxStringLength
-
-TBD
-
-
-### -param flags
-
-TBD
-
-
-
-
-#### - DecoratedName [in]
+### -param name [in]
 
 The decorated C++ symbol name. This name can be identified by the first character of the name, which is 
       always a question mark (?).
 
 
-#### - Flags [in]
+### -param outputString [out]
+
+A pointer to a string buffer that receives the undecorated name.
+
+
+### -param maxStringLength [in]
+
+The size of the <i>UnDecoratedName</i> buffer, in characters.
+
+
+### -param flags [in]
 
 The options for how the decorated name is undecorated. This parameter can be zero or more of the following 
       values.
@@ -290,16 +278,6 @@ Disable expansion of throw-signatures for functions and pointers to functions.
 </tr>
 </table>
  
-
-
-#### - UnDecoratedName [out]
-
-A pointer to a string buffer that receives the undecorated name.
-
-
-#### - UndecoratedLength [in]
-
-The size of the <i>UnDecoratedName</i> buffer, in characters.
 
 
 ## -returns

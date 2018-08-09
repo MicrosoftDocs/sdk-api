@@ -7,7 +7,7 @@ old-location: taskschd\ienumworkitems.htm
 old-project: taskschd
 ms.assetid: 1af162e5-8ba1-4d2e-9451-39c80ac0eecf
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumWorkItems, IEnumWorkItems interface [Task Scheduler], IEnumWorkItems interface [Task Scheduler],described, _msb_ienumworkitems, mstask/IEnumWorkItems, taskschd.ienumworkitems
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,9 +53,9 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Provides the methods for enumerating the tasks in the <a href="https://msdn.microsoft.com/library/ms709421(v=VS.85).aspx">Scheduled Tasks folder</a>.
+Provides the methods for enumerating the tasks in the <a href="https://msdn.microsoft.com/en-us/library/Aa382137(v=VS.85).aspx">Scheduled Tasks folder</a>.
 
-<b>IEnumWorkItems</b> is the primary interface of the <a href="https://msdn.microsoft.com/library/Aa381008(v=VS.85).aspx">enumeration object</a>. To create the enumeration, call 
+<b>IEnumWorkItems</b> is the primary interface of the <a href="https://msdn.microsoft.com/en-us/library/Aa446866(v=VS.85).aspx">enumeration object</a>. To create the enumeration, call 
 <a href="https://msdn.microsoft.com/aca750e3-89b0-47f2-a9b9-49fe5db7f234">ITaskScheduler::Enum</a>.
 
 

@@ -7,7 +7,7 @@ old-location: shell\PathMakePretty.htm
 old-project: shell
 ms.assetid: fb871054-4c63-42de-b85b-edefa4b09ea0
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PathMakePretty, PathMakePretty function [Windows Shell], PathMakePrettyA, PathMakePrettyW, _win32_PathMakePretty, shell.PathMakePretty, shlwapi/PathMakePretty, shlwapi/PathMakePrettyA, shlwapi/PathMakePrettyW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,14 +63,7 @@ Converts an all-uppercase path to all lowercase characters to give the path a co
 
 
 
-### -param pszPath
-
-TBD
-
-
-
-
-#### - lpPath [in, out]
+### -param pszPath [in, out]
 
 Type: <b>LPTSTR</b>
 

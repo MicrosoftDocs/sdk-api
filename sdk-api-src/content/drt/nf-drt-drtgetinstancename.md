@@ -7,7 +7,7 @@ old-location: p2p\drtgetinstancename.htm
 old-project: p2psdk
 ms.assetid: f69b745c-d990-42cf-8994-9640bcb7d1bf
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: DrtGetInstanceName, DrtGetInstanceName function [Distributed Routing Tables], drt/DrtGetInstanceName, p2p.drtgetinstancename
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,19 +63,14 @@ The <b>DrtGetInstanceName</b> function retrieves the full name of the Distribute
 Handle to the DRT instance.
 
 
-### -param ulcbInstanceNameSize
+### -param ulcbInstanceNameSize [in, out]
 
-TBD
+The length of the <i>pwzDrtInstanceName</i> buffer.
 
 
 ### -param pwzDrtInstanceName [out]
 
 Contains the complete name of the DRT instance associated with <i>hDRT</i>.
-
-
-#### - pucblInstanceNameLen [in, out]
-
-The length of the <i>pwzDrtInstanceName</i> buffer.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: IWRdsProtocolConnection::GetVideoHandle
 author: windows-sdk-content
 description: Obtains the handle of the video device for the protocol.
 old-location: termserv\iwrdsprotocolconnection_getvideohandle.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 069ee899-ae3a-4043-92b5-e193dbfe4f54
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetVideoHandle, GetVideoHandle method [Remote Desktop Services], GetVideoHandle method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetVideoHandle method, IWRdsProtocolConnection.GetVideoHandle, IWRdsProtocolConnection::GetVideoHandle, termserv.iwrdsprotocolconnection_getvideohandle, wtsprotocol/IWRdsProtocolConnection::GetVideoHandle
 ms.prod: windows
 ms.technology: windows-sdk

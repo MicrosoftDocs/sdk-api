@@ -7,7 +7,7 @@ old-location: rm\drmgetsignedissuancelicenseex.htm
 old-project: adrms_sdk
 ms.assetid: 9d37f69e-e582-4efc-9f17-866f195e439a
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMGetSignedIssuanceLicenseEx, DRMGetSignedIssuanceLicenseEx function [Active Directory Rights Management Services SDK 1.0], DRM_AUTO_GENERATE_KEY, DRM_OWNER_LICENSE_NOPERSIST, DRM_REUSE_KEY, DRM_SIGN_CANCEL, DRM_SIGN_OFFLINE, msdrm/DRMGetSignedIssuanceLicenseEx, rm.drmgetsignedissuancelicenseex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ Contains various options for acquiring the signed issuance license. This paramet
 
 #### DRM_SIGN_OFFLINE
 
-Specifies an offline issuance license signing request. When signing offline, the issuance license is signed by using the <a href="https://msdn.microsoft.com/library/ms682005(v=VS.85).aspx">client licensor certificate</a> (CLC) obtained during a previous call to <a href="https://msdn.microsoft.com/0d4ce794-8384-4f1c-bc8c-1e67fbb5f987">DRMAcquireLicense</a>. To get this certificate from the store, use <a href="https://msdn.microsoft.com/7a7797f2-d219-4a17-ac3d-96134cd14a55">DRMEnumerateLicense</a>. Each CLC is tied to the server that issued it; be sure that you are using the correct client licensor certificate for the issuance license you are publishing.
+Specifies an offline issuance license signing request. When signing offline, the issuance license is signed by using the <a href="https://msdn.microsoft.com/en-us/library/Aa362374(v=VS.85).aspx">client licensor certificate</a> (CLC) obtained during a previous call to <a href="https://msdn.microsoft.com/0d4ce794-8384-4f1c-bc8c-1e67fbb5f987">DRMAcquireLicense</a>. To get this certificate from the store, use <a href="https://msdn.microsoft.com/7a7797f2-d219-4a17-ac3d-96134cd14a55">DRMEnumerateLicense</a>. Each CLC is tied to the server that issued it; be sure that you are using the correct client licensor certificate for the issuance license you are publishing.
 
 This flag cannot be combined with the <b>DRM_SIGN_ONLINE</b> or <b>DRM_SERVER_ISSUANCELICENSE</b> flags.
 
@@ -145,9 +145,9 @@ Reserved for future use.
 A handle to an enabling principal in the end-user license that should be bound. Create this handle by using the <a href="https://msdn.microsoft.com/92858a46-cef5-4d25-9f3c-cbb343743565">DRMCreateEnablingPrincipal</a> function by passing in the rights account certificate. This parameter is required.
 
 
-### -param hBoundLicenseCLC
+### -param hBoundLicenseCLC [in]
 
-TBD
+A handle to the bound license corresponding to the client licensor certificate created using <a href="https://msdn.microsoft.com/102fa347-47be-4dc7-ba17-3f1ad3735b00">DRMCreateBoundLicense</a>. This can be created by binding the <i>wszClientLicensorCertificate</i> to the <b>ISSUE</b> right using the <i>hEnablingPrincipal</i> handle. This parameter is required.
 
 
 ### -param pfnCallback [in]
@@ -158,11 +158,6 @@ A pointer to the callback function used to notify the application of an asynchro
 ### -param pvContext [in]
 
 A 32-bit, application-defined value that is sent in the <i>pvContext</i> parameter of the callback function. This value can be a pointer to data, a pointer to an event handle, or whatever else the custom callback function is designed to handle. For more information, see <a href="https://msdn.microsoft.com/7d880b74-1934-4282-a7ca-1dac3602d6b4">Creating a Callback Function</a>.
-
-
-#### - hBoundLicense [in]
-
-A handle to the bound license corresponding to the client licensor certificate created using <a href="https://msdn.microsoft.com/102fa347-47be-4dc7-ba17-3f1ad3735b00">DRMCreateBoundLicense</a>. This can be created by binding the <i>wszClientLicensorCertificate</i> to the <b>ISSUE</b> right using the <i>hEnablingPrincipal</i> handle. This parameter is required.
 
 
 ## -returns

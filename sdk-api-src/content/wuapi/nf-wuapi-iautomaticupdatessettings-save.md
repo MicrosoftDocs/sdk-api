@@ -4,10 +4,10 @@ title: IAutomaticUpdatesSettings::Save
 author: windows-sdk-content
 description: Applies the current Automatic Updates settings.
 old-location: wua\iautomaticupdatessettings_save.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: fb54b900-345a-4b36-b16d-52790c0266f6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],Save method, IAutomaticUpdatesSettings.Save, IAutomaticUpdatesSettings::Save, Save, Save method [Windows Update Agent], Save method [Windows Update Agent],IAutomaticUpdatesSettings interface, wua.iautomaticupdatessettings_save, wuapi/IAutomaticUpdatesSettings::Save
 ms.prod: windows
 ms.technology: windows-sdk

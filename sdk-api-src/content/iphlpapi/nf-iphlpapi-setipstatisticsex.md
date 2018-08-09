@@ -7,7 +7,7 @@ old-location: iphlp\setipstatisticsex.htm
 old-project: iphlp
 ms.assetid: 13b52016-5bdb-4546-af53-d3ae2708653b
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: AF_INET, AF_INET6, SetIpStatisticsEx, SetIpStatisticsEx function [IP Helper], iphlp.setipstatisticsex, iphlpapi/SetIpStatisticsEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,10 @@ The
 
 
 
-### -param Statistics
+### -param Statistics [in]
 
-TBD
+A pointer to a 
+<a href="https://msdn.microsoft.com/920e71b6-247c-4442-9f66-704a6c878feb">MIB_IPSTATS</a> structure. The caller should set the <b>dwForwarding</b> and <b>dwDefaultTTL</b> members of this structure to the new values. To keep one of the members at its current value, use MIB_USE_CURRENT_TTL or MIB_USE_CURRENT_FORWARDING.
 
 
 ### -param Family
@@ -104,12 +105,6 @@ The Internet Protocol version 6 (IPv6) address family. When this parameter is sp
 </tr>
 </table>
  
-
-
-#### - pIpStats [in]
-
-A pointer to a 
-<a href="https://msdn.microsoft.com/920e71b6-247c-4442-9f66-704a6c878feb">MIB_IPSTATS</a> structure. The caller should set the <b>dwForwarding</b> and <b>dwDefaultTTL</b> members of this structure to the new values. To keep one of the members at its current value, use MIB_USE_CURRENT_TTL or MIB_USE_CURRENT_FORWARDING.
 
 
 ## -returns

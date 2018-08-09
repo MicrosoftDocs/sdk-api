@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Tint_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\tint.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Tint, Tint class [GDI+], Tint class [GDI+],described, _gdiplus_CLASS_Tint_Class, gdiplus._gdiplus_CLASS_Tint_Class, gdipluseffects/Tint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,5 +51,5 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>Tint</b> class enables you to apply a tint to a bitmap. Pass the address of a <b>Tint</b> object to the <a href="https://msdn.microsoft.com/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method. To specify the nature of the tint, pass the address of a <a href="https://msdn.microsoft.com/library/ms534074(v=VS.85).aspx">TintParams</a> structure to the <a href="https://msdn.microsoft.com/library/ms534518(v=VS.85).aspx">Tint::SetParameters</a> method of a <b>Tint</b> object.
+The <b>Tint</b> class enables you to apply a tint to a bitmap. Pass the address of a <b>Tint</b> object to the <a href="https://msdn.microsoft.com/en-us/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/en-us/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method. To specify the nature of the tint, pass the address of a <a href="https://msdn.microsoft.com/en-us/library/ms534074(v=VS.85).aspx">TintParams</a> structure to the <a href="https://msdn.microsoft.com/en-us/library/ms534518(v=VS.85).aspx">Tint::SetParameters</a> method of a <b>Tint</b> object.
 

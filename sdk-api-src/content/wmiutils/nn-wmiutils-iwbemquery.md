@@ -7,7 +7,7 @@ old-location: wmi\iwbemquery.htm
 old-project: WmiSdk
 ms.assetid: 4a0c0c1d-3d84-491f-8379-d164821fa71b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: IWbemQuery, IWbemQuery interface [Windows Management Instrumentation], IWbemQuery interface [Windows Management Instrumentation],described, WbemQuery, _hmm_iwbemquery, wmi.iwbemquery, wmiutils/IWbemQuery
 ms.prod: windows
 ms.technology: windows-sdk

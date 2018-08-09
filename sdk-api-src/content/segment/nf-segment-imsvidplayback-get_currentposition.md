@@ -7,7 +7,7 @@ old-location: mstv\imsvidplayback_get_currentposition.htm
 old-project: mstv
 ms.assetid: 08facda5-3c17-4dac-b06f-6032f9490087
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_CurrentPosition method, IMSVidPlayback.get_CurrentPosition, IMSVidPlayback::get_CurrentPosition, IMSVidPlaybackget_CurrentPosition, get_CurrentPosition, get_CurrentPosition method [Microsoft TV Technologies], get_CurrentPosition method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_currentposition, segment/IMSVidPlayback::get_CurrentPosition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,11 +65,9 @@ Pointer to a variable that receives the playback position. The units for the ret
 
 <table>
 <tr>
-<th>
-                  Position Mode
+<th>Position Mode
                 </th>
-<th>
-                  Returned Value
+<th>Returned Value
                 </th>
 </tr>
 <tr>

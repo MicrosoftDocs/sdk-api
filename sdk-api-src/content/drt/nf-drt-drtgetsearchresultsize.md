@@ -7,7 +7,7 @@ old-location: p2p\drtgetsearchresultsize.htm
 old-project: p2psdk
 ms.assetid: ef17c42e-4cf9-4b5c-b6ef-430500fddff2
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: DrtGetSearchResultSize, DrtGetSearchResultSize function [Peer Networking], drt/DrtGetSearchResultSize, p2p.drtgetsearchresultsize
 ms.prod: windows
 ms.technology: windows-sdk

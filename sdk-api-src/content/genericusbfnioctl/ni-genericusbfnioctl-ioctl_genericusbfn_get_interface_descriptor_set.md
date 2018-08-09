@@ -7,7 +7,7 @@ old-location: buses\ioctl_genericusbfn_get_interface_descriptor_set.htm
 old-project: usbref
 ms.assetid: 35069739-1E73-4F60-A16C-26EFF5D33D55
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 08/06/2018
 ms.keywords: IOCTL_GENERICUSBFN_GET_INTERFACE_DESCRIPTOR_SET, IOCTL_GENERICUSBFN_GET_INTERFACE_DESCRIPTOR_SET control, IOCTL_GENERICUSBFN_GET_INTERFACE_DESCRIPTOR_SET control code [Buses], buses.ioctl_genericusbfn_get_interface_descriptor_set, genericusbfnioctl/IOCTL_GENERICUSBFN_GET_INTERFACE_DESCRIPTOR_SET
 ms.prod: windows
 ms.technology: windows-sdk

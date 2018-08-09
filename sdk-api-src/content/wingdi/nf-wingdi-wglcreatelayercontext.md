@@ -7,7 +7,7 @@ old-location: opengl\wglcreatelayercontext.htm
 old-project: OpenGL
 ms.assetid: 81050b48-7385-4ef3-acc5-82d5c893b2e8
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: "_ogl_wglCreateLayerContext, opengl.wglcreatelayercontext, wglCreateLayerContext, wglCreateLayerContext function [OpenGL], wingdi/wglCreateLayerContext"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,6 @@ TBD
 
 
 
-#### - hdc
-
-Specifies the device context for a new rendering context.
 
 
 #### - iLayerPlane

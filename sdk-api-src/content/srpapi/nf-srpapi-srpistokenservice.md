@@ -7,7 +7,7 @@ old-location: edp\srpistokenservice.htm
 old-project: EDP
 ms.assetid: 5049B594-A882-49F0-A18B-6A28818AD8D2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EDP.srpistokenservice, SrpIsTokenService, SrpIsTokenService function, srpapi/SrpIsTokenService
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,6 +44,7 @@ targetos: Windows
 req.lib: Srpapi.lib
 req.dll: Srpapi.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SrpIsTokenService function
@@ -62,19 +63,14 @@ req.irql:
 
 
 
-### -param TokenHandle
+### -param TokenHandle [in]
 
-TBD
+Token Handle to be checked.
 
 
 ### -param IsTokenService [out]
 
 A boolean value that indicates whether the service is a token service.
-
-
-#### - tokenHandle [in]
-
-Token Handle to be checked.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturereferenceenumerator.htm
 old-project: OPC
 ms.assetid: 1d0a14c6-826c-419f-9e94-d5929fdbae82
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcSignatureReferenceEnumerator, IOpcSignatureReferenceEnumerator interface [Open Packaging Conventions], IOpcSignatureReferenceEnumerator interface [Open Packaging Conventions],described, msopc/IOpcSignatureReferenceEnumerator, opc.iopcsignaturereferenceenumerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-	   A read-only enumerator of <a href="https://msdn.microsoft.com/2ce40bc7-754a-4f69-9348-75603e2257a4">IOpcSignatureReference</a> interface pointers.
+A read-only enumerator of <a href="https://msdn.microsoft.com/2ce40bc7-754a-4f69-9348-75603e2257a4">IOpcSignatureReference</a> interface pointers.
 
 
 ## -inheritance
@@ -102,8 +101,7 @@ Moves the current position of the enumerator to the next <a href="https://msdn.m
 <a href="https://msdn.microsoft.com/7ff697a4-45fe-46cd-8d36-96bafcb32aa1">MovePrevious</a>
 </td>
 <td align="left" width="63%">
-Moves the current position of the enumerator to the previous <a href="https://msdn.microsoft.com/2ce40bc7-754a-4f69-9348-75603e2257a4">IOpcSignatureReference</a>
-    interface pointer.
+Moves the current position of the enumerator to the previous <a href="https://msdn.microsoft.com/2ce40bc7-754a-4f69-9348-75603e2257a4">IOpcSignatureReference</a>interface pointer.
 
 </td>
 </tr>
@@ -114,9 +112,7 @@ Moves the current position of the enumerator to the previous <a href="https://ms
 
 
 
-
-  		When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the  <a href="https://msdn.microsoft.com/b7a260c3-cfe5-4dcb-9628-7cf7fdf382de">MoveNext</a>
-          method after creating the enumerator.
+When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the  <a href="https://msdn.microsoft.com/b7a260c3-cfe5-4dcb-9628-7cf7fdf382de">MoveNext</a>method after creating the enumerator.
 
 Changes to the set will invalidate the enumerator, and all subsequent calls to it will fail.
 

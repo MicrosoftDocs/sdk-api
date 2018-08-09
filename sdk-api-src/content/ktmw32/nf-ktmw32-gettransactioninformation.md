@@ -4,10 +4,10 @@ title: GetTransactionInformation function
 author: windows-sdk-content
 description: Returns the requested information about the specified transaction.
 old-location: fs\gettransactioninformation_func.htm
-old-project: Ktm
+old-project: ktm
 ms.assetid: 5ce3c96a-629e-49d0-8ec4-f9bf76af99ac
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: GetTransactionInformation, GetTransactionInformation function [Files], fs.gettransactioninformation_func, ktmw32/GetTransactionInformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,9 +79,9 @@ The size of the <i>Description</i> parameter, in bytes. The buffer length value 
 A pointer to a buffer that receives the user-defined description of the transaction.
 
 
-#### - IsolationFlags [out, optional]
+#### - Outcome [out, optional]
 
-Reserved.
+A pointer to a buffer that receives the current outcome of the transaction. If the call to the <b>GetTransactionInformation</b> function is successful, this value will be one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564835">TRANSACTION_OUTCOME</a> enumeration values.
 
 
 #### - IsolationLevel [out, optional]
@@ -89,9 +89,9 @@ Reserved.
 Reserved.
 
 
-#### - Outcome [out, optional]
+#### - IsolationFlags [out, optional]
 
-A pointer to a buffer that receives the current outcome of the transaction. If the call to the <b>GetTransactionInformation</b> function is successful, this value will be one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564835">TRANSACTION_OUTCOME</a> enumeration values.
+Reserved.
 
 
 #### - Timeout [out, optional]

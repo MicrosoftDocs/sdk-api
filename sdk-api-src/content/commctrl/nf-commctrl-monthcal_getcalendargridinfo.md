@@ -7,7 +7,7 @@ old-location: controls\MonthCal_GetCalendarGridInfo.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalendargridinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: MonthCal_GetCalendarGridInfo, MonthCal_GetCalendarGridInfo macro [Windows Controls], _shell_MonthCal_GetCalendarGridInfo, _shell_MonthCal_GetCalendarGridInfo_cpp, commctrl/MonthCal_GetCalendarGridInfo, controls.MonthCal_GetCalendarGridInfo, controls._shell_MonthCal_GetCalendarGridInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ Handle to a month calendar control.
 
 ### -param pmcGridInfo
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb760925(v=VS.85).aspx">MCGRIDINFO</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb760925(v=VS.85).aspx">MCGRIDINFO</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/library/Bb760925(v=VS.85).aspx">MCGRIDINFO</a> structure that contains information about the calendar grid.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb760925(v=VS.85).aspx">MCGRIDINFO</a> structure that contains information about the calendar grid.
 

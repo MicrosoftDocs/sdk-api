@@ -7,7 +7,7 @@ old-location: display\querydisplayconfig.htm
 old-project: display
 ms.assetid: b1792d7f-f216-4250-a6b6-a11b251a9cec
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: CCD_Functions_4fc57ba2-e10b-4d28-bbaf-a5ded2264e59.xml, QueryDisplayConfig, QueryDisplayConfig function [Display Devices], display.querydisplayconfig, winuser/QueryDisplayConfig
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,39 +62,7 @@ The <b>QueryDisplayConfig</b> function retrieves information about all possible 
 
 
 
-### -param flags
-
-TBD
-
-
-### -param numPathArrayElements
-
-TBD
-
-
-### -param pathArray
-
-TBD
-
-
-### -param numModeInfoArrayElements
-
-TBD
-
-
-### -param modeInfoArray
-
-TBD
-
-
-### -param currentTopologyId
-
-TBD
-
-
-
-
-#### - Flags [in]
+### -param flags [in]
 
 The type of information to retrieve. The value for the <i>Flags</i> parameter must be one of the following values.
 
@@ -123,33 +91,33 @@ Currently active paths only.
 Active path as defined in the CCD database for the currently connected displays. 
 
 
-#### - pCurrentTopologyId [out, optional]
+### -param numPathArrayElements [in, out]
+
+Pointer to a variable that contains the number of elements in <i>pPathInfoArray</i>. This parameter cannot be <b>NULL</b>. If <b>QueryDisplayConfig</b> returns ERROR_SUCCESS, <i>pNumPathInfoElements</i> is updated with the number of valid entries in <i>pPathInfoArray</i>.
+
+
+### -param pathArray [out]
+
+Pointer to a variable that contains an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff553945">DISPLAYCONFIG_PATH_INFO</a> elements. Each element in <i>pPathInfoArray</i> describes a single path from a source to a target. The source and target mode information indexes are only valid in combination with the <i>pmodeInfoArray</i> tables that are returned for the API at the same time. This parameter cannot be <b>NULL</b>. The <i>pPathInfoArray</i> is always returned in path priority order. For more information about path priority order, see <a href="https://msdn.microsoft.com/93f8f932-fc7b-4420-8b3e-27194937bed5">Path Priority Order</a>. 
+
+
+### -param numModeInfoArrayElements [in, out]
+
+Pointer to a variable that specifies the number in element of the mode information table. This parameter cannot be <b>NULL</b>. If <b>QueryDisplayConfig</b> returns ERROR_SUCCESS, <i>pNumModeInfoArrayElements</i> is updated with the number of valid entries in <i>pModeInfoArray</i>. 
+
+
+### -param modeInfoArray [out]
+
+Pointer to a variable that contains an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff553933">DISPLAYCONFIG_MODE_INFO</a> elements. This parameter cannot be <b>NULL</b>. 
+
+
+### -param currentTopologyId [out, optional]
 
 Pointer to a variable that receives the identifier of the currently active topology in the CCD database. For a list of possible values, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554001">DISPLAYCONFIG_TOPOLOGY_ID</a> enumerated type.
 
 The <i>pCurrentTopologyId</i> parameter is only set when the <i>Flags</i> parameter value is QDC_DATABASE_CURRENT.
 
 If the <i>Flags</i> parameter value is set to QDC_DATABASE_CURRENT, the <i>pCurrentTopologyId</i> parameter must not be <b>NULL</b>. If the <i>Flags</i> parameter value is not set to QDC_DATABASE_CURRENT, the <i>pCurrentTopologyId</i> parameter value must be <b>NULL</b>.
-
-
-#### - pModeInfoArray [out]
-
-Pointer to a variable that contains an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff553933">DISPLAYCONFIG_MODE_INFO</a> elements. This parameter cannot be <b>NULL</b>. 
-
-
-#### - pNumModeInfoArrayElements [in, out]
-
-Pointer to a variable that specifies the number in element of the mode information table. This parameter cannot be <b>NULL</b>. If <b>QueryDisplayConfig</b> returns ERROR_SUCCESS, <i>pNumModeInfoArrayElements</i> is updated with the number of valid entries in <i>pModeInfoArray</i>. 
-
-
-#### - pNumPathArrayElements [in, out]
-
-Pointer to a variable that contains the number of elements in <i>pPathInfoArray</i>. This parameter cannot be <b>NULL</b>. If <b>QueryDisplayConfig</b> returns ERROR_SUCCESS, <i>pNumPathInfoElements</i> is updated with the number of valid entries in <i>pPathInfoArray</i>.
-
-
-#### - pPathInfoArray [out]
-
-Pointer to a variable that contains an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff553945">DISPLAYCONFIG_PATH_INFO</a> elements. Each element in <i>pPathInfoArray</i> describes a single path from a source to a target. The source and target mode information indexes are only valid in combination with the <i>pmodeInfoArray</i> tables that are returned for the API at the same time. This parameter cannot be <b>NULL</b>. The <i>pPathInfoArray</i> is always returned in path priority order. For more information about path priority order, see <a href="https://msdn.microsoft.com/93f8f932-fc7b-4420-8b3e-27194937bed5">Path Priority Order</a>. 
 
 
 ## -returns

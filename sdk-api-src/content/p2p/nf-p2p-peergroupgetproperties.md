@@ -7,7 +7,7 @@ old-location: p2p\peergroupgetproperties.htm
 old-project: p2psdk
 ms.assetid: 6273817f-9698-4c0b-93a9-9bbee2e5dc78
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGroupGetProperties, PeerGroupGetProperties function [Peer Networking], p2p.peergroupgetproperties, p2p/PeerGroupGetProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGroupGetProperties</b> function retrieves information on the properties of a specified group.
+The <b>PeerGroupGetProperties</b> function retrieves information on the properties of a specified group.
 
 
 ## -parameters
@@ -147,8 +146,7 @@ Group properties cannot be retrieved if a peer has not synchronized with a peer 
 
 
 
-<a href="https://msdn.microsoft.com/a1501343-bd84-4dbe-91d0-c64c59e34abc">
-		  PEER_GROUP_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/a1501343-bd84-4dbe-91d0-c64c59e34abc">PEER_GROUP_PROPERTIES</a>
 
 
 

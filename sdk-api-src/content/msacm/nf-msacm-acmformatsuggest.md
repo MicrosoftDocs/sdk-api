@@ -7,7 +7,7 @@ old-location: multimedia\acmformatsuggest.htm
 old-project: Multimedia
 ms.assetid: c7618d7e-e41e-4513-9511-2133ef5a1582
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: "_win32_acmFormatSuggest, acmFormatSuggest, acmFormatSuggest function [Windows Multimedia], msacm/acmFormatSuggest, multimedia.acmformatsuggest"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,11 +89,9 @@ Flags for matching the desired destination format. The following values are defi
 
 <table>
 <tr>
-<th>
-Value
+<th>Value
 </th>
-<th>
-Meaning
+<th>Meaning
 </th>
 </tr>
 <tr>

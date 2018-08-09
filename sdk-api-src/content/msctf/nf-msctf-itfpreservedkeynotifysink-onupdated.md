@@ -7,7 +7,7 @@ old-location: tsf\itfpreservedkeynotifysink_onupdated.htm
 old-project: TSF
 ms.assetid: 50654da7-60ee-4038-a02a-1055445f1e5d
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfPreservedKeyNotifySink interface [Text Services Framework],OnUpdated method, ITfPreservedKeyNotifySink.OnUpdated, ITfPreservedKeyNotifySink::OnUpdated, OnUpdated, OnUpdated method [Text Services Framework], OnUpdated method [Text Services Framework],ITfPreservedKeyNotifySink interface, _tsf_itfpreservedkeynotifysink_onupdated_ref, msctf/ITfPreservedKeyNotifySink::OnUpdated, tsf.itfpreservedkeynotifysink_onupdated
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,14 +91,12 @@ To determine if the key is unpreserved, call <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/feb83f22-652c-4fec-b35d-a0cc41eab533">
-        ITfKeystrokeMgr::SetPreservedKeyDescription
+<a href="https://msdn.microsoft.com/feb83f22-652c-4fec-b35d-a0cc41eab533">ITfKeystrokeMgr::SetPreservedKeyDescription
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/05975fce-04c3-4316-a9b2-ed015e7aa8fe">
-        ITfKeystrokeMgr::UnpreserveKey
+<a href="https://msdn.microsoft.com/05975fce-04c3-4316-a9b2-ed015e7aa8fe">ITfKeystrokeMgr::UnpreserveKey
       </a>
 
 
@@ -107,8 +105,7 @@ To determine if the key is unpreserved, call <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/95d37e94-3991-49c9-bddf-4183a69d49b9">
-        TF_PRESERVEDKEY
+<a href="https://msdn.microsoft.com/95d37e94-3991-49c9-bddf-4183a69d49b9">TF_PRESERVEDKEY
       </a>
  
 

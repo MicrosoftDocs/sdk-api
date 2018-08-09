@@ -7,7 +7,7 @@ old-location: wsw\wssetmessageproperty.htm
 old-project: wsw
 ms.assetid: f1e6616f-63ac-4afb-90dd-17a776d59eeb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsSetMessageProperty, WsSetMessageProperty function [Web Services for Windows], webservices/WsSetMessageProperty, wsw.wssetmessageproperty
 ms.prod: windows
 ms.technology: windows-sdk

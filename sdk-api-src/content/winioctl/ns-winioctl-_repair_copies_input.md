@@ -4,10 +4,10 @@ title: "_REPAIR_COPIES_INPUT"
 author: windows-sdk-content
 description: Input structure for the FSCTL_REPAIR_COPIES control code.
 old-location: fs\repair_copies_input.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: c3cefb13-4825-4482-a87c-4ba482d3820b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PREPAIR_COPIES_INPUT, PREPAIR_COPIES_INPUT, PREPAIR_COPIES_INPUT structure pointer [Files], REPAIR_COPIES_INPUT, REPAIR_COPIES_INPUT structure [Files], _REPAIR_COPIES_INPUT, fs.repair_copies_input, winioctl/PREPAIR_COPIES_INPUT, winioctl/REPAIR_COPIES_INPUT"
 ms.prod: windows
 ms.technology: windows-sdk

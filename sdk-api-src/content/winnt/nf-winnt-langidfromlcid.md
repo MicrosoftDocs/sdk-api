@@ -7,7 +7,7 @@ old-location: intl\langidfromlcid.htm
 old-project: Intl
 ms.assetid: 23392f93-8724-4b58-879e-4f48aaba4084
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: LANGIDFROMLCID, LANGIDFROMLCID macro [Internationalization for Windows Applications], _win32_LANGIDFROMLCID, intl.langidfromlcid, winnt/LANGIDFROMLCID
 ms.prod: windows
 ms.technology: windows-sdk

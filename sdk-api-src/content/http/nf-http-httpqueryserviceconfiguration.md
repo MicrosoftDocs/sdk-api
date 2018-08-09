@@ -7,7 +7,7 @@ old-location: http\httpqueryserviceconfiguration.htm
 old-project: http
 ms.assetid: bbd2c3c4-d2d0-4590-9b5c-6916b91600cd
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpQueryServiceConfiguration, HttpQueryServiceConfiguration function [HTTP], HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigUrlAclInfo, _http_httpqueryserviceconfiguration, http.httpqueryserviceconfiguration, http/HttpQueryServiceConfiguration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-			The 
+The 
 <b>HttpQueryServiceConfiguration</b> function retrieves one or more HTTP Server API configuration records.
 
 
@@ -149,47 +148,7 @@ Queries  the SSL configuration for an SSL Centralized Certificate Store (CCS) re
  
 
 
-### -param pInput
-
-TBD
-
-
-### -param InputLength
-
-TBD
-
-
-### -param pOutput
-
-TBD
-
-
-### -param OutputLength
-
-TBD
-
-
-### -param pReturnLength [out, optional]
-
-A pointer to a variable that receives the number of bytes to be written in the output buffer. If the output buffer is too small, the call fails with a return value of <b>ERROR_INSUFFICIENT_BUFFER</b>. The value pointed to by <i>pReturnLength</i> can be used to determine the minimum length the buffer requires for the call to succeed.
-
-
-### -param pOverlapped [in]
-
-Reserved for asynchronous operation and must be set to <b>NULL</b>.
-
-
-#### - InputConfigInfoLength [in, optional]
-
-Size, in bytes, of the <i>pInputConfigInfo</i> buffer.
-
-
-#### - OutputConfigInfoLength [in, optional]
-
-Size, in bytes, of the <i>pOutputConfigInfo</i> buffer.
-
-
-#### - pInputConfigInfo [in, optional]
+### -param pInput [in, optional]
 
 A pointer to a structure whose contents further define the query and of the type that correlates with <i>ConfigId</i> in the following table.
 
@@ -281,11 +240,15 @@ No input data; set to <b>NULL</b>.
 </table>
  
 
+For more information, see the appropriate query structures.
 
-						For more information, see the appropriate query structures.
+
+### -param InputLength [in, optional]
+
+Size, in bytes, of the <i>pInputConfigInfo</i> buffer.
 
 
-#### - pOutputConfigInfo [in, out, optional]
+### -param pOutput [in, out, optional]
 
 A pointer to a buffer in which the query results are returned. The type of this buffer correlates with <i>ConfigId</i>.
 
@@ -379,12 +342,26 @@ A pointer to a buffer in which the query results are returned. The type of this 
  
 
 
+### -param OutputLength [in, optional]
+
+Size, in bytes, of the <i>pOutputConfigInfo</i> buffer.
+
+
+### -param pReturnLength [out, optional]
+
+A pointer to a variable that receives the number of bytes to be written in the output buffer. If the output buffer is too small, the call fails with a return value of <b>ERROR_INSUFFICIENT_BUFFER</b>. The value pointed to by <i>pReturnLength</i> can be used to determine the minimum length the buffer requires for the call to succeed.
+
+
+### -param pOverlapped [in]
+
+Reserved for asynchronous operation and must be set to <b>NULL</b>.
+
+
 ## -returns
 
 
 
-
-						If the function succeeds, the return value is <b>NO_ERROR</b>.
+If the function succeeds, the return value is <b>NO_ERROR</b>.
 
 If the function fails, the return value is one of the following error codes.
 

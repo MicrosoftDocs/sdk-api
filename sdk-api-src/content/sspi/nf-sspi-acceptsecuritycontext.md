@@ -4,10 +4,10 @@ title: AcceptSecurityContext function
 author: windows-sdk-content
 description: Lets the server component of a transport application establish a security context between the server and a remote client.
 old-location: security\acceptsecuritycontext__credssp_.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: a53f733e-b646-4431-b021-a2c446308849
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ASC_REQ_ALLOCATE_MEMORY, ASC_REQ_CONNECTION, ASC_REQ_DELEGATE, ASC_REQ_EXTENDED_ERROR, ASC_REQ_REPLAY_DETECT, ASC_REQ_SEQUENCE_DETECT, ASC_REQ_STREAM, AcceptSecurityContext, AcceptSecurityContext (CredSSP), AcceptSecurityContext function [Security], security.acceptsecuritycontext__credssp_, sspi/AcceptSecurityContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # AcceptSecurityContext function

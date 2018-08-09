@@ -7,7 +7,7 @@ old-location: ics\inetsharingconfiguration_enablesharing.htm
 old-project: ics
 ms.assetid: 40b2a2ff-50f4-484c-bf79-ae99a348644f
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: EnableSharing, EnableSharing method [ICS/ICF], EnableSharing method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],EnableSharing method, INetSharingConfiguration.EnableSharing, INetSharingConfiguration::EnableSharing, _ics_inetsharingconfiguration_enablesharing, ics.inetsharingconfiguration_enablesharing, netcon/INetSharingConfiguration::EnableSharing
 ms.prod: windows
 ms.technology: windows-sdk

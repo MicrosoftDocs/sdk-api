@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext1_swapdevicecontextstate.htm
 old-project: direct3d11
 ms.assetid: 4E267E86-602F-459C-A6F9-4660EC8FA752
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D11DeviceContext1 interface [Direct3D 11],SwapDeviceContextState method, ID3D11DeviceContext1.SwapDeviceContextState, ID3D11DeviceContext1::SwapDeviceContextState, SwapDeviceContextState, SwapDeviceContextState method [Direct3D 11], SwapDeviceContextState method [Direct3D 11],ID3D11DeviceContext1 interface, d3d11_1/ID3D11DeviceContext1::SwapDeviceContextState, direct3d11.id3d11devicecontext1_swapdevicecontextstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ Returns nothing.
 
 <b>SwapDeviceContextState</b> is not supported on a deferred context.
 
-<b>SwapDeviceContextState</b> disables the incompatible device interfaces <a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>, <a href="https://msdn.microsoft.com/library/Bb694546(v=VS.85).aspx">ID3D10Device1</a>, <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>, and <a href="https://msdn.microsoft.com/DB4DAD13-3CD7-4362-950B-6403328CB071">ID3D11Device1</a>. When a context state object is active, the runtime disables certain methods on the device and context interfaces. A context state object that is created with <code>__uuidof(ID3D11Device1)</code> or <code>__uuidof(ID3D11Device)</code> turns off most of the Direct3D 10 device interfaces. A context state object that is created with <code>__uuidof(ID3D10Device1)</code> or <code>__uuidof(ID3D10Device)</code> turns off most of the <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> methods.
+<b>SwapDeviceContextState</b> disables the incompatible device interfaces <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb694546(v=VS.85).aspx">ID3D10Device1</a>, <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>, and <a href="https://msdn.microsoft.com/DB4DAD13-3CD7-4362-950B-6403328CB071">ID3D11Device1</a>. When a context state object is active, the runtime disables certain methods on the device and context interfaces. A context state object that is created with <code>__uuidof(ID3D11Device1)</code> or <code>__uuidof(ID3D11Device)</code> turns off most of the Direct3D 10 device interfaces. A context state object that is created with <code>__uuidof(ID3D10Device1)</code> or <code>__uuidof(ID3D10Device)</code> turns off most of the <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> methods.
 For more information about this behavior, see <a href="https://msdn.microsoft.com/8887C3F1-3EA3-4948-A019-E3CB3F3D46C6">ID3D11Device1::CreateDeviceContextState</a>.
 
 <b>SwapDeviceContextState</b> activates the context state object specified by <i>pState</i>. This means that the device behaviors that are associated with the context state object's feature level and compatible interface are activated on the Direct3D device until the next call to <b>SwapDeviceContextState</b>. In addition, any state that was saved when this context state object was last active is now reactivated, so that the previous state is replaced.
@@ -99,7 +99,7 @@ The feature level that is specified by the application, and that is chosen by th
 
 The feature level of the context state object controls the functionality available from the immediate context. However, to maintain the free-threaded contract of the Direct3D 11 device methods—the resource-creation methods in particular—the upper-bound feature level of all created context state objects controls the set of resources that the device creates.
 
-Because the context state object interface is published by the immediate context, the interface requires the same threading model as the immediate context. Specifically, <b>SwapDeviceContextState</b> is single-threaded with respect to the other immediate context methods and with respect to the equivalent methods of <a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>.
+Because the context state object interface is published by the immediate context, the interface requires the same threading model as the immediate context. Specifically, <b>SwapDeviceContextState</b> is single-threaded with respect to the other immediate context methods and with respect to the equivalent methods of <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>.
 
 Crucially, because only one of the Direct3D 10 or Direct3D 11 ref-count behaviors can be available at a time, one of the Direct3D 10 and Direct3D 11 interfaces must break its ref-count contract. To avoid this situation, the activation of a context state object turns off the incompatible version interface. Also, if you call a method of an incompatible version interface, the call silently fails if the method has  return type <b>void</b>, returns an <b>HRESULT</b> value of <b>E_INVALIDARG</b>, or sets any out parameter to <b>NULL</b>.
 

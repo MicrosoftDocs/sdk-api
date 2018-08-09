@@ -7,7 +7,7 @@ old-location: controls\ListView_SetBkImage.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setbkimage.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_SetBkImage, ListView_SetBkImage macro [Windows Controls], _win32_ListView_SetBkImage, _win32_ListView_SetBkImage_cpp, commctrl/ListView_SetBkImage, controls.ListView_SetBkImage, controls._win32_ListView_SetBkImage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the background image in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761155(v=VS.85).aspx">LVM_SETBKIMAGE</a> message explicitly.
+Sets the background image in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761155(v=VS.85).aspx">LVM_SETBKIMAGE</a> message explicitly.
 
 
 ## -parameters
@@ -60,21 +60,16 @@ Sets the background image in a list-view control. You can use this macro or send
 
 ### -param hwnd
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the list-view control. 
 
 
 ### -param plvbki
 
 Type: <b>LPLVBKIMAGE</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Bb774742(v=VS.85).aspx">LVBKIMAGE</a> structure that contains the new background image information. 
-
-
-#### - hwndLV
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to the list-view control. 
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb774742(v=VS.85).aspx">LVBKIMAGE</a> structure that contains the new background image information. 
 
 
 ## -remarks
@@ -91,7 +86,7 @@ Because the list-view control uses OLE COM to manipulate the background images, 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761246(v=VS.85).aspx">ListView_GetBkImage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761246(v=VS.85).aspx">ListView_GetBkImage</a>
  
 
  

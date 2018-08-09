@@ -7,7 +7,7 @@ old-location: iscsidisc\removeiscsisendtargetportal.htm
 old-project: iSCSIDisc
 ms.assetid: f9c05a86-3484-4092-b384-c599fbf1e60f
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: RemoveIScsiSendTargetPortalW, RemoveIscsiSendTargetPortal, RemoveIscsiSendTargetPortal function [iSCSI Discovery Library API], RemoveIscsiSendTargetPortalA, RemoveIscsiSendTargetPortalW, iscsidisc.removeiscsisendtargetportal, iscsidsc/RemoveIscsiSendTargetPortal, iscsidsc/RemoveIscsiSendTargetPortalA, iscsidsc/RemoveIscsiSendTargetPortalW
 ms.prod: windows
 ms.technology: windows-sdk

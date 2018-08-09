@@ -7,7 +7,7 @@ old-location: mbn\imbnpinmanagerevents_ongetpinstatecomplete.htm
 old-project: mbn
 ms.assetid: e228073b-896a-4d2d-a8a5-f8fa7a52ffc2
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: E_MBN_BAD_SIM, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnPinManagerEvents interface [Microsoft Broadband Networks],OnGetPinStateComplete method, IMbnPinManagerEvents.OnGetPinStateComplete, IMbnPinManagerEvents::OnGetPinStateComplete, OnGetPinStateComplete, OnGetPinStateComplete method [Microsoft Broadband Networks], OnGetPinStateComplete method [Microsoft Broadband Networks],IMbnPinManagerEvents interface, S_OK, mbn.imbnpinmanagerevents_ongetpinstatecomplete, mbnapi/IMbnPinManagerEvents::OnGetPinStateComplete
 ms.prod: windows
 ms.technology: windows-sdk

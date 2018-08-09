@@ -7,7 +7,7 @@ old-location: mf\opm_configure_parameters.htm
 old-project: medfound
 ms.assetid: 60d13945-740f-46bd-9602-bacd0dac5e32
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: OPM_CONFIGURE_PARAMETERS, OPM_CONFIGURE_PARAMETERS structure [Media Foundation], _OPM_CONFIGURE_PARAMETERS, mf.opm_configure_parameters, opmapi/OPM_CONFIGURE_PARAMETERS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,8 +92,7 @@ The data for the command. The meaning of the data depends on the command. For mo
 
 
 
-
-        The layout of this  structure is identical to the <a href="https://msdn.microsoft.com/8b2c06e9-f1b7-4185-8ade-b5abe9ac776d">AMCOPPCommand</a> structure used in Certified Output Protection Protocol (COPP).
+The layout of this  structure is identical to the <a href="https://msdn.microsoft.com/8b2c06e9-f1b7-4185-8ade-b5abe9ac776d">AMCOPPCommand</a> structure used in Certified Output Protection Protocol (COPP).
       
 
 Initialize this structure as follows.

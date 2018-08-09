@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawString_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawstringmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: DrawString, DrawString methods [GDI+], Graphics.DrawString, Graphics::DrawString, _gdiplus_CLASS_Graphics_DrawString_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawString_Methods, gdiplusgraphics/DrawString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,28 +65,28 @@ DrawString methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535993(v=VS.85).aspx">DrawString(WCHAR*,INT,Font*,PointF&,Brush*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535993(v=VS.85).aspx">DrawString(WCHAR*,INT,Font*,PointF&,Brush*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535993(v=VS.85).aspx">Graphics::DrawString</a> method draws a string based on a font and an origin for the string.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535993(v=VS.85).aspx">Graphics::DrawString</a> method draws a string based on a font and an origin for the string.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535991(v=VS.85).aspx">DrawString(WCHAR*,INT,Font*,RectF&,StringFormat*,Brush*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535991(v=VS.85).aspx">DrawString(WCHAR*,INT,Font*,RectF&,StringFormat*,Brush*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535991(v=VS.85).aspx">Graphics::DrawString</a> method draws a string based on a font, a layout rectangle, and a format. 
+The <a href="https://msdn.microsoft.com/en-us/library/ms535991(v=VS.85).aspx">Graphics::DrawString</a> method draws a string based on a font, a layout rectangle, and a format. 
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535994(v=VS.85).aspx">DrawString(WCHAR*,INT,Font*,PointF&,StringFormat*,Brush*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535994(v=VS.85).aspx">DrawString(WCHAR*,INT,Font*,PointF&,StringFormat*,Brush*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535994(v=VS.85).aspx">Graphics::DrawString</a> method draws a string based on a font, a string origin, and a format.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535994(v=VS.85).aspx">Graphics::DrawString</a> method draws a string based on a font, a string origin, and a format.
 
 </td>
 </tr>

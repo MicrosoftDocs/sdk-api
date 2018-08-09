@@ -4,10 +4,10 @@ title: ldap_search_extA function
 author: windows-sdk-content
 description: Searches the LDAP directory and returns a requested set of attributes for each matched entry.
 old-location: ldap\ldap_search_ext.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: 25ba88f3-44f6-42b8-9d33-6e57f2484738
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: LDAP_SCOPE_BASE, LDAP_SCOPE_ONELEVEL, LDAP_SCOPE_SUBTREE, _ldap_ldap_search_ext, ldap.ldap__search__ext, ldap.ldap_search_ext, ldap_search_ext, ldap_search_ext function [LDAP], ldap_search_extA, ldap_search_extW, winldap/ldap_search_ext, winldap/ldap_search_extA, winldap/ldap_search_extW
 ms.prod: windows
 ms.technology: windows-sdk

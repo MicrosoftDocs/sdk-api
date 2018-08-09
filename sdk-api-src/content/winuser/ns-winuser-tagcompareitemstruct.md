@@ -4,10 +4,10 @@ title: tagCOMPAREITEMSTRUCT
 author: windows-sdk-content
 description: Supplies the identifiers and application-supplied data for two items in a sorted, owner-drawn list box or combo box.
 old-location: controls\COMPAREITEMSTRUCT.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\compareitemstruct.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPCOMPAREITEMSTRUCT, *PCOMPAREITEMSTRUCT, COMPAREITEMSTRUCT, COMPAREITEMSTRUCT structure [Windows Controls], _win32_COMPAREITEMSTRUCT_str, _win32_COMPAREITEMSTRUCT_str_cpp, controls.COMPAREITEMSTRUCT, controls._win32_COMPAREITEMSTRUCT_str, tagCOMPAREITEMSTRUCT, winuser/COMPAREITEMSTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk

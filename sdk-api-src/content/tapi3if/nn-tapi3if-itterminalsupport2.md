@@ -4,10 +4,10 @@ title: ITTerminalSupport2
 author: windows-sdk-content
 description: The ITTerminalSupport2 interface is derived from the ITTerminalSupport interface. ITTerminalSupport2 supports the retrieval of information about pluggable terminal classes and superclasses by C, C++, and scripting applications.
 old-location: tapi3\itterminalsupport2.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 58611991-746c-4626-a1b1-535a2134ee27
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITTerminalSupport2, ITTerminalSupport2 interface [TAPI 2.2], ITTerminalSupport2 interface [TAPI 2.2],described, _tapi3_itterminalsupport2, tapi3.itterminalsupport2, tapi3if/ITTerminalSupport2
 ms.prod: windows
 ms.technology: windows-sdk

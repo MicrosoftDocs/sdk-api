@@ -7,7 +7,7 @@ old-location: shell\IAppVisibility_IsLauncherVisible.htm
 old-project: shell
 ms.assetid: 8D7BBAEC-A745-4707-861E-74CC331ED356
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IAppVisibility interface [Windows Shell],IsLauncherVisible method, IAppVisibility.IsLauncherVisible, IAppVisibility::IsLauncherVisible, IsLauncherVisible, IsLauncherVisible method [Windows Shell], IsLauncherVisible method [Windows Shell],IAppVisibility interface, shell.IAppVisibility_IsLauncherVisible, shobjidl_core/IAppVisibility::IsLauncherVisible
 ms.prod: windows
 ms.technology: windows-sdk

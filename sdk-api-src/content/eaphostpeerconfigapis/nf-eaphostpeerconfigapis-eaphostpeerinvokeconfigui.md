@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerinvokeconfigui.htm
 old-project: eaphost
 ms.assetid: afb20482-a439-437d-9c8f-c4e87e440113
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapHostPeerInvokeConfigUI, EapHostPeerInvokeConfigUI function [EAPHost], eaphost.eaphostpeerinvokeconfigui, eaphostpeerconfigapis/EapHostPeerInvokeConfigUI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows Media Format 9 Series or later
 
 Starts the configuration user interface of the specified EAP method.
 
-<b>EapHostPeerInvokeConfigUI</b> must be called on threads that have COM initialized for <a href="Http://go.microsoft.com/fwlink/p/?linkid=83881">Single Threaded Apartment</a> (STA). This can be achieved by calling COM API <a href="https://msdn.microsoft.com/library/ms678543(v=VS.85).aspx">CoInitialize</a>; when the supplicant has finished  with the STA thread <a href="https://msdn.microsoft.com/library/ms688715(v=VS.85).aspx">CoUninitialize</a> must be called before exiting.
+<b>EapHostPeerInvokeConfigUI</b> must be called on threads that have COM initialized for <a href="Http://go.microsoft.com/fwlink/p/?linkid=83881">Single Threaded Apartment</a> (STA). This can be achieved by calling COM API <a href="https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx">CoInitialize</a>; when the supplicant has finished  with the STA thread <a href="https://msdn.microsoft.com/en-us/library/ms688715(v=VS.85).aspx">CoUninitialize</a> must be called before exiting.
 
 
 ## -parameters
@@ -96,14 +96,7 @@ A pointer to a DWORD that specifies the size of the buffer pointed to by <i>ppCo
 A pointer to a pointer to a byte buffer that contains updated configuration data from the user. After consuming the data, this memory must be freed by calling <a href="https://msdn.microsoft.com/162c796c-b9dc-465a-a1bc-f11d740f3fa0">EapHostPeerFreeMemory</a>.
 
 
-### -param ppEapError
-
-TBD
-
-
-
-
-#### - pEapError [out]
+### -param ppEapError [out]
 
 A pointer to a pointer to an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/c80ac625-8202-49a7-813a-62a9e0d15058">EapHostPeerFreeErrorMemory</a>.
 

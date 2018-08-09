@@ -7,7 +7,7 @@ old-location: p2p\peergraphshutdown.htm
 old-project: p2psdk
 ms.assetid: 036f1bd6-f8aa-47ba-841e-f731ff486860
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphShutdown, PeerGraphShutdown function [Peer Networking], p2p.peergraphshutdown, p2p/PeerGraphShutdown
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphShutdown</b> function cleans up any resources allocated by the call to <a href="https://msdn.microsoft.com/00ffdec7-f084-4170-a4a1-e6112bab4d61">PeerGraphStartup</a>.  There must be a call to <b>PeerGraphShutdown</b> for each call to <b>PeerGraphStartup</b>.
+The <b>PeerGraphShutdown</b> function cleans up any resources allocated by the call to <a href="https://msdn.microsoft.com/00ffdec7-f084-4170-a4a1-e6112bab4d61">PeerGraphStartup</a>.  There must be a call to <b>PeerGraphShutdown</b> for each call to <b>PeerGraphStartup</b>.
 
 
 ## -parameters

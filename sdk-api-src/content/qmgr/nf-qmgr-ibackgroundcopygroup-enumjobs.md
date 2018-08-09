@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup_enumjobs.htm
 old-project: bits
 ms.assetid: 40e4412e-60d5-4e08-85b9-1e92f5222e71
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: EnumJobs, EnumJobs method [BITS], EnumJobs method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],EnumJobs method, IBackgroundCopyGroup.EnumJobs, IBackgroundCopyGroup::EnumJobs, bits.ibackgroundcopygroup_enumjobs, qmgr/IBackgroundCopyGroup::EnumJobs
 ms.prod: windows
 ms.technology: windows-sdk

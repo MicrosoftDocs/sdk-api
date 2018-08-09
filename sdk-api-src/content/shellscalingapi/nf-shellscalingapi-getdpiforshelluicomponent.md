@@ -7,7 +7,7 @@ old-location: shell\getdpiforshelluicomponent.htm
 old-project: shell
 ms.assetid: D5198497-DBD5-439E-809C-A36211C2774C
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetDpiForShellUIComponent, GetDpiForShellUiComponent, GetDpiForShellUiComponent function [Windows Shell], shell.getdpiforshelluicomponent, shellscalingapi/GetDpiForShellUiComponent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,14 +60,7 @@ Retrieves the dots per inch (dpi) occupied by a <a href="https://msdn.microsoft.
 
 
 
-### -param Arg1
-
-TBD
-
-
-
-
-#### - component [in]
+### -param Arg1 [in]
 
 The type of shell component.
 

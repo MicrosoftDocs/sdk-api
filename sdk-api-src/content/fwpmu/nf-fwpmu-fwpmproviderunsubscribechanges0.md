@@ -7,7 +7,7 @@ old-location: fwp\fwpmproviderunsubscribechanges0_func.htm
 old-project: fwp
 ms.assetid: 8dd403c1-7740-4f60-8b74-02e3b0a645e4
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmProviderUnsubscribeChanges0, FwpmProviderUnsubscribeChanges0 function [Filtering], fwp.fwpmproviderunsubscribechanges0_func, fwpmu/FwpmProviderUnsubscribeChanges0
 ms.prod: windows
 ms.technology: windows-sdk

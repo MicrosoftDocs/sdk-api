@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjobs.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8bjn.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxJobs, IFaxJobs interface [Fax Service], IFaxJobs interface [Fax Service],described, _mfax_ifaxjobs, fax._mfax_ifaxjobs, faxcom/IFaxJobs
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,9 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxJobs</b> dual interface is used by a fax client application to access the <a href="https://msdn.microsoft.com/library/ms692342(v=VS.85).aspx">FaxJob</a> objects derived from a <a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a> object. The interface enumerates the fax jobs associated with a connected fax server.
+The <b>IFaxJobs</b> dual interface is used by a fax client application to access the <a href="https://msdn.microsoft.com/en-us/library/ms692342(v=VS.85).aspx">FaxJob</a> objects derived from a <a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a> object. The interface enumerates the fax jobs associated with a connected fax server.
 
-A <a href="https://msdn.microsoft.com/library/ms692796(v=VS.85).aspx">FaxJobs</a> object is a collection of <a href="https://msdn.microsoft.com/library/ms692342(v=VS.85).aspx">FaxJob</a> objects.
+A <a href="https://msdn.microsoft.com/en-us/library/ms692796(v=VS.85).aspx">FaxJobs</a> object is a collection of <a href="https://msdn.microsoft.com/en-us/library/ms692342(v=VS.85).aspx">FaxJob</a> objects.
 
 The <b>IFaxJobs</b> interface includes methods that allow a fax client application to perform the following tasks. 
 			<ul>
@@ -65,7 +65,7 @@ The <b>IFaxJobs</b> interface includes methods that allow a fax client applicati
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxJobs</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxJobs</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxJobs</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxJobs</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -80,19 +80,19 @@ The <b>IFaxJobs</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms691382(v=VS.85).aspx">get_Count</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691382(v=VS.85).aspx">get_Count</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms691382(v=VS.85).aspx">IFaxJobs::get_Count</a> method returns the number of queued fax jobs associated with the connected fax server.
+The <a href="https://msdn.microsoft.com/en-us/library/ms691382(v=VS.85).aspx">IFaxJobs::get_Count</a> method returns the number of queued fax jobs associated with the connected fax server.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms691271(v=VS.85).aspx">get_Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691271(v=VS.85).aspx">get_Item</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms691271(v=VS.85).aspx">IFaxJobs::get_Item</a> method returns a new <a href="https://msdn.microsoft.com/library/ms692342(v=VS.85).aspx">FaxJob</a> object for a specified fax job. The object allows enumeration of the fax jobs associated with a connected fax server.
+The <a href="https://msdn.microsoft.com/en-us/library/ms691271(v=VS.85).aspx">IFaxJobs::get_Item</a> method returns a new <a href="https://msdn.microsoft.com/en-us/library/ms692342(v=VS.85).aspx">FaxJob</a> object for a specified fax job. The object allows enumeration of the fax jobs associated with a connected fax server.
 
 </td>
 </tr>
@@ -107,17 +107,17 @@ The <a href="https://msdn.microsoft.com/library/ms691271(v=VS.85).aspx">IFaxJobs
 You should not implement this interface. The Microsoft standard implementation provides complete functionality. 
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
-Use the <b>IFaxJobs</b> interface to create and retrieve <a href="https://msdn.microsoft.com/library/ms692310(v=VS.85).aspx">IFaxJob</a> interface pointers to <a href="https://msdn.microsoft.com/library/ms692342(v=VS.85).aspx">FaxJob</a> objects. There is one FaxJob object for each queued job associated with the connected fax server. 
+Use the <b>IFaxJobs</b> interface to create and retrieve <a href="https://msdn.microsoft.com/en-us/library/ms692310(v=VS.85).aspx">IFaxJob</a> interface pointers to <a href="https://msdn.microsoft.com/en-us/library/ms692342(v=VS.85).aspx">FaxJob</a> objects. There is one FaxJob object for each queued job associated with the connected fax server. 
 
-To create an instance of a <a href="https://msdn.microsoft.com/library/ms692342(v=VS.85).aspx">FaxJob</a> object, perform the following steps. Note that a fax client application should not call the <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function to retrieve an <a href="https://msdn.microsoft.com/library/ms692310(v=VS.85).aspx">IFaxJob</a> interface pointer. 
+To create an instance of a <a href="https://msdn.microsoft.com/en-us/library/ms692342(v=VS.85).aspx">FaxJob</a> object, perform the following steps. Note that a fax client application should not call the <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function to retrieve an <a href="https://msdn.microsoft.com/en-us/library/ms692310(v=VS.85).aspx">IFaxJob</a> interface pointer. 
 				<ol>
-<li>Call the <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function to retrieve a pointer to an IFaxServer interface.</li>
+<li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function to retrieve a pointer to an IFaxServer interface.</li>
 <li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms692315(v=VS.85).aspx">IFaxServer::Connect</a> method to connect to a fax server.</li>
-<li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms692836(v=VS.85).aspx">IFaxServer::GetJobs</a> method to create and initialize a <a href="https://msdn.microsoft.com/library/ms692796(v=VS.85).aspx">FaxJobs</a> object for the fax server.</li>
-<li>Call the <a href="https://msdn.microsoft.com/library/ms691382(v=VS.85).aspx">IFaxJobs::get_Count</a> method and then the <a href="https://msdn.microsoft.com/library/ms691271(v=VS.85).aspx">IFaxJobs::get_Item</a> method to retrieve <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointers for each child <a href="https://msdn.microsoft.com/library/ms692342(v=VS.85).aspx">FaxJob</a> object.</li>
-<li>Use the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer to call <a href="https://msdn.microsoft.com/library/ms692310(v=VS.85).aspx">IFaxJob</a> interface methods. (You can also call the <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method to retrieve an <b>IFaxJob</b> interface pointer.)</li>
+<li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms692836(v=VS.85).aspx">IFaxServer::GetJobs</a> method to create and initialize a <a href="https://msdn.microsoft.com/en-us/library/ms692796(v=VS.85).aspx">FaxJobs</a> object for the fax server.</li>
+<li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms691382(v=VS.85).aspx">IFaxJobs::get_Count</a> method and then the <a href="https://msdn.microsoft.com/en-us/library/ms691271(v=VS.85).aspx">IFaxJobs::get_Item</a> method to retrieve <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointers for each child <a href="https://msdn.microsoft.com/en-us/library/ms692342(v=VS.85).aspx">FaxJob</a> object.</li>
+<li>Use the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer to call <a href="https://msdn.microsoft.com/en-us/library/ms692310(v=VS.85).aspx">IFaxJob</a> interface methods. (You can also call the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method to retrieve an <b>IFaxJob</b> interface pointer.)</li>
 <li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms691936(v=VS.85).aspx">IFaxServer::Disconnect</a> method to disconnect from the fax server.</li>
-<li>Call the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method for each <a href="https://msdn.microsoft.com/library/ms692342(v=VS.85).aspx">FaxJob</a> object to allow the object to deallocate itself, and again to destroy the <b>IFaxJobs</b> interface pointer.</li>
+<li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method for each <a href="https://msdn.microsoft.com/en-us/library/ms692342(v=VS.85).aspx">FaxJob</a> object to allow the object to deallocate itself, and again to destroy the <b>IFaxJobs</b> interface pointer.</li>
 </ol>
 
 
@@ -129,15 +129,15 @@ To create an instance of a <a href="https://msdn.microsoft.com/library/ms692342(
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

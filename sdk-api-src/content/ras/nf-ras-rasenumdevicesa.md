@@ -7,7 +7,7 @@ old-location: rras\rasenumdevices.htm
 old-project: rras
 ms.assetid: 819f069f-15e7-41b6-9153-4d602be4245d
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RasEnumDevices, RasEnumDevices function [RAS], RasEnumDevicesA, RasEnumDevicesW, _ras_rasenumdevices, ras/RasEnumDevices, ras/RasEnumDevicesA, ras/RasEnumDevicesW, rras.rasenumdevices
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,17 +69,11 @@ TBD
 
 
 
-#### - lpRasDevInfo [in]
+#### - [in]
 
 Pointer to a buffer that receives an array of 
 <a href="https://msdn.microsoft.com/9e569177-ca71-440c-820c-c352616348e9">RASDEVINFO</a> structures, one for each RAS-capable device. Before calling the function, set the <b>dwSize</b> member of the first 
 <b>RASDEVINFO</b> structure in the buffer to sizeof(<b>RASDEVINFO</b>) to identify the version of the structure.
-
-
-#### - lpcDevices [out]
-
-Pointer to a variable that receives the number of 
-<a href="https://msdn.microsoft.com/9e569177-ca71-440c-820c-c352616348e9">RASDEVINFO</a> structures written to the <i>lpRasDevInfo</i> buffer.
 
 
 #### - lpcb [in, out]
@@ -96,6 +90,12 @@ On output, the function sets this variable to the number of bytes required to en
 
 </div>
 <div> </div>
+
+#### - lpcDevices [out]
+
+Pointer to a variable that receives the number of 
+<a href="https://msdn.microsoft.com/9e569177-ca71-440c-820c-c352616348e9">RASDEVINFO</a> structures written to the <i>lpRasDevInfo</i> buffer.
+
 
 ## -returns
 
@@ -117,9 +117,7 @@ If the function fails, the return value is one of the following error codes or a
 </dl>
 </td>
 <td width="60%">
-The <i>lpRasDevInfo</i> buffer is not large enough. The <i>lpcb</i>
-								 parameter is less than the <b>dwSize</b> member in the <i>lpRasDevInfo</i>
-								 parameter which should be set prior to calling the function. The function returns the required buffer size in the variable pointed to by <i>lpcb</i>.
+The <i>lpRasDevInfo</i> buffer is not large enough. The <i>lpcb</i>parameter is less than the <b>dwSize</b> member in the <i>lpRasDevInfo</i>parameter which should be set prior to calling the function. The function returns the required buffer size in the variable pointed to by <i>lpcb</i>.
 
 </td>
 </tr>
@@ -130,9 +128,7 @@ The <i>lpRasDevInfo</i> buffer is not large enough. The <i>lpcb</i>
 </dl>
 </td>
 <td width="60%">
-Indicates insufficient memory. The <i>lpRasDevInfo</i>
-								  parameter is non-<b>NULL</b>, the <i>lpcb</i>
-								 parameter is non-<b>NULL</b> and an internal memory allocation failed. This is possibly due to a low-memory condition.
+Indicates insufficient memory. The <i>lpRasDevInfo</i>parameter is non-<b>NULL</b>, the <i>lpcb</i>parameter is non-<b>NULL</b> and an internal memory allocation failed. This is possibly due to a low-memory condition.
 
 </td>
 </tr>
@@ -143,8 +139,7 @@ Indicates insufficient memory. The <i>lpRasDevInfo</i>
 </dl>
 </td>
 <td width="60%">
-Indicates an invalid parameter value. The <i>lpcb</i>
-								 parameter is <b>NULL</b> or the <i>lpcDevices</i> parameter is <b>NULL</b>.
+Indicates an invalid parameter value. The <i>lpcb</i>parameter is <b>NULL</b> or the <i>lpcDevices</i> parameter is <b>NULL</b>.
 
 </td>
 </tr>
@@ -155,8 +150,7 @@ Indicates an invalid parameter value. The <i>lpcb</i>
 </dl>
 </td>
 <td width="60%">
-The address or buffer specified by <i>lpRasDevInfo</i> is invalid. The <b>dwSize</b>
-								 member of the 
+The address or buffer specified by <i>lpRasDevInfo</i> is invalid. The <b>dwSize</b>member of the 
 								<i>lpRasDevInfo</i>  parameter does not equal sizeof(<a href="https://msdn.microsoft.com/9e569177-ca71-440c-820c-c352616348e9">RASDEVINFO</a>).
 
 </td>

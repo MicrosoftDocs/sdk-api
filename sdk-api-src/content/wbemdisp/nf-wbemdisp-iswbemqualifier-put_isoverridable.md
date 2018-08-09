@@ -7,7 +7,7 @@ old-location: wmi\swbemqualifier_isoverridable.htm
 old-project: WmiSdk
 ms.assetid: 3cd82407-6664-446e-bc84-68cc9a69fd6b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemQualifier interface [Windows Management Instrumentation],IsOverridable property, ISWbemQualifier.get_IsOverridable, ISWbemQualifier.put_IsOverridable, ISWbemQualifier::put_IsOverridable, IsOverridable property [Windows Management Instrumentation], IsOverridable property [Windows Management Instrumentation],ISWbemQualifier interface, IsOverridable property [Windows Management Instrumentation],SWbemQualifier object, SWbemQualifier object [Windows Management Instrumentation],IsOverridable property, SWbemQualifier.IsOverridable, _hmm_swbemqualifier.isoverridable, put_IsOverridable, wmi.swbemqualifier_isoverridable
 ms.prod: windows
 ms.technology: windows-sdk

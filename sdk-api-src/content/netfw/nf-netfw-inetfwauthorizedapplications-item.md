@@ -7,7 +7,7 @@ old-location: ics\inetfwauthorizedapplications_item.htm
 old-project: ics
 ms.assetid: 3c9eac16-9ba5-43f6-b52e-4340598745d8
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INetFwAuthorizedApplications interface [ICS/ICF],Item method, INetFwAuthorizedApplications.Item, INetFwAuthorizedApplications::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwAuthorizedApplications interface, ics.inetfwauthorizedapplications_item, netfw/INetFwAuthorizedApplications::Item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,11 +74,6 @@ Application to retrieve.
 
 
 
-#### - String imageFileName [in]
-
-Application to retrieve.
-
-
 #### - application [out]
 
 Reference to the returned <a href="https://msdn.microsoft.com/1ddeeab8-b81b-4d34-9ca6-103147fb3426">INetFwAuthorizedApplication</a> object.
@@ -86,13 +81,17 @@ Reference to the returned <a href="https://msdn.microsoft.com/1ddeeab8-b81b-4d34
 Reference to the returned <a href="https://msdn.microsoft.com/1ddeeab8-b81b-4d34-9ca6-103147fb3426">INetFwAuthorizedApplication</a> object.
 
 
+#### - String imageFileName [in]
+
+Application to retrieve.
+
+
 ## -returns
 
 
 
 <h3>C++</h3>
-
-						If the method succeeds the return value is S_OK.
+If the method succeeds the return value is S_OK.
 
 If the method fails, the return value is one of the following error codes.
 
@@ -160,8 +159,7 @@ The requested item does not exist.
  
 
 <h3>VB</h3>
-
-						If the method succeeds the return value is S_OK.
+If the method succeeds the return value is S_OK.
 
 If the method fails, the return value is one of the following error codes.
 

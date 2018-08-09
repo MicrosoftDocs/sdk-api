@@ -7,7 +7,7 @@ old-location: netshell\tag_type.htm
 old-project: netshell
 ms.assetid: 3e87447e-5374-4411-96ab-3ad400948aa5
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: "*PTAG_TYPE, NS_REQ_ALLOW_MULTIPLE, NS_REQ_ONE_OR_MORE, NS_REQ_PRESENT, NS_REQ_ZERO, PTAG_TYPE, PTAG_TYPE structure pointer [NetShell], TAG_TYPE, TAG_TYPE structure [NetShell], _TAG_TYPE, _netsh_tag_type, netsh/PTAG_TYPE, netsh/TAG_TYPE, netshell.tag_type"
 ms.prod: windows
 ms.technology: windows-sdk

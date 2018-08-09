@@ -7,7 +7,7 @@ old-location: fs\arefileapisansi.htm
 old-project: fileio
 ms.assetid: 6bebe896-86d1-40b8-ab7f-0305ada71fdf
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/06/2018
 ms.keywords: AreFileApisANSI, AreFileApisANSI function [Files], _win32_arefileapisansi, base.arefileapisansi, fileapi/AreFileApisANSI, fs.arefileapisansi
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,8 +7,8 @@ old-location: windowssetupandmigration\oobecomplete.htm
 old-project: WNF
 ms.assetid: D543CD82-9985-49E2-A902-34CB5880B875
 ms.author: windowssdkdev
-ms.date: 02/15/2018
-ms.keywords: OOBEComplete, OOBEComplete function, oobenotification/OOBEComplete, windowssetupandmigration.oobecomplete
+ms.date: 08/06/2018
+ms.keywords: OOBEComplete, isOOBEComplete, isOOBEComplete function, oobenotification/isOOBEComplete, windowssetupandmigration.oobecomplete
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
@@ -38,7 +38,7 @@ api_location:
  - API-MS-Win-OOBE-Notification-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - OOBEComplete
+ - isOOBEComplete
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib
@@ -61,14 +61,7 @@ Determines whether OOBE (Windows Welcome) has been completed.
 
 
 
-### -param isOOBEComplete
-
-TBD
-
-
-
-
-#### - OOBEComplete [out]
+### -param isOOBEComplete [out]
 
 Pointer to a variable that will receive the completion of OOBE upon success.
 

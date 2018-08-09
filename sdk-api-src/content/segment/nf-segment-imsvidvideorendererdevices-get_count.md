@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorendererdevices_get_count.htm
 old-project: mstv
 ms.assetid: 4308ed6a-b9c4-46f3-98eb-be23cd49c7dc
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidVideoRendererDevices interface [Microsoft TV Technologies],get_Count method, IMSVidVideoRendererDevices.get_Count, IMSVidVideoRendererDevices::get_Count, IMSVidVideoRendererDevicesget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, mstv.imsvidvideorendererdevices_get_count, segment/IMSVidVideoRendererDevices::get_Count
 ms.prod: windows
 ms.technology: windows-sdk

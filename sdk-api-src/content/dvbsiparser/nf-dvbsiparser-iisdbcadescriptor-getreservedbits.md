@@ -7,7 +7,7 @@ old-location: mstv\iisdbcadescriptor_getreservedbits.htm
 old-project: mstv
 ms.assetid: c45295f9-df77-4a23-b6c2-65d5b2c9c360
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetReservedBits, GetReservedBits method [Microsoft TV Technologies], GetReservedBits method [Microsoft TV Technologies],IIsdbCADescriptor interface, IIsdbCADescriptor interface [Microsoft TV Technologies],GetReservedBits method, IIsdbCADescriptor.GetReservedBits, IIsdbCADescriptor::GetReservedBits, dvbsiparser/IIsdbCADescriptor::GetReservedBits, mstv.iisdbcadescriptor_getreservedbits
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: http\httpqueryrequestqueueproperty.htm
 old-project: http
 ms.assetid: a3b1e85e-f152-4038-a56a-3d5985757c45
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpQueryRequestQueueProperty, HttpQueryRequestQueueProperty function [HTTP], HttpServer503VerbosityProperty, HttpServerQueueLengthProperty, HttpServerStateProperty, http.httpqueryrequestqueueproperty, http/HttpQueryRequestQueueProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,10 @@ The <b>HttpQueryRequestQueueProperty</b> function queries a property of the requ
 
 
 
-### -param RequestQueueProperty
+### -param RequestQueueProperty [in]
 
-TBD
+The handle to the request queue for which the property setting is returned. A request queue is created and its handle returned by a call to the 
+<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
 
 
 ### -param Property [in]
@@ -107,45 +108,7 @@ Queries the current state of the request queue. The state must be either active 
  
 
 
-### -param PropertyInformation
-
-TBD
-
-
-### -param PropertyInformationLength [in]
-
-The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i> parameter.
-
-
-### -param Reserved1
-
-TBD
-
-
-### -param OPTIONAL
-
-TBD
-
-
-### -param Reserved2
-
-TBD
-
-
-
-
-#### - Handle [in]
-
-The handle to the request queue for which the property setting is returned. A request queue is created and its handle returned by a call to the 
-<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
-
-
-#### - Reserved [in]
-
-Reserved. Must be zero.
-
-
-#### - pPropertyInformation [out]
+### -param PropertyInformation [out]
 
 A pointer to the buffer that receives the property information.
 
@@ -174,7 +137,22 @@ A pointer to the buffer that receives the property information.
 
 
 
-#### - pReserved [in]
+### -param PropertyInformationLength [in]
+
+The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i> parameter.
+
+
+### -param Reserved1 [in]
+
+Reserved. Must be zero.
+
+
+### -param OPTIONAL
+
+TBD
+
+
+### -param Reserved2 [in]
 
 This parameter is reserved and must be <b>NULL</b>.
 

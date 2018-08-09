@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjobs_get_count.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_33zo.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxJobs interface [Fax Service],get_Count method, IFaxJobs.get_Count, IFaxJobs::get_Count, _mfax_ifaxjobs_get_count, fax._mfax_ifaxjobs_get_count, faxcom/IFaxJobs::get_Count, get_Count, get_Count method [Fax Service], get_Count method [Fax Service],IFaxJobs interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-After calling the <b>IFaxJobs::get_Count</b> method, a fax client application can call the <a href="https://msdn.microsoft.com/library/ms691271(v=VS.85).aspx">IFaxJobs::get_Item</a> method to retrieve interface pointers to one or more <a href="https://msdn.microsoft.com/library/ms692342(v=VS.85).aspx">FaxJob</a> objects. 
+After calling the <b>IFaxJobs::get_Count</b> method, a fax client application can call the <a href="https://msdn.microsoft.com/en-us/library/ms691271(v=VS.85).aspx">IFaxJobs::get_Item</a> method to retrieve interface pointers to one or more <a href="https://msdn.microsoft.com/en-us/library/ms692342(v=VS.85).aspx">FaxJob</a> objects. 
 
 
 
@@ -91,11 +91,11 @@ After calling the <b>IFaxJobs::get_Count</b> method, a fax client application ca
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
@@ -103,15 +103,15 @@ After calling the <b>IFaxJobs::get_Count</b> method, a fax client application ca
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692310(v=VS.85).aspx">IFaxJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692310(v=VS.85).aspx">IFaxJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692372(v=VS.85).aspx">IFaxJobs</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692372(v=VS.85).aspx">IFaxJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691271(v=VS.85).aspx">IFaxJobs::get_Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691271(v=VS.85).aspx">IFaxJobs::get_Item</a>
  
 
  

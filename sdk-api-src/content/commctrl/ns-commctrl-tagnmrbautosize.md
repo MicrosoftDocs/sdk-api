@@ -7,7 +7,7 @@ old-location: controls\NMRBAUTOSIZE.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrbautosize.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPNMRBAUTOSIZE, LPNMRBAUTOSIZE, LPNMRBAUTOSIZE structure pointer [Windows Controls], NMRBAUTOSIZE, NMRBAUTOSIZE structure [Windows Controls], _win32_NMRBAUTOSIZE, _win32_NMRBAUTOSIZE_cpp, commctrl/LPNMRBAUTOSIZE, commctrl/NMRBAUTOSIZE, controls.NMRBAUTOSIZE, controls._win32_NMRBAUTOSIZE, tagNMRBAUTOSIZE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information used in handling the <a href="https://msdn.microsoft.com/library/Bb774405(v=VS.85).aspx">RBN_AUTOSIZE</a> notification codes. 
+Contains information used in handling the <a href="https://msdn.microsoft.com/en-us/library/Bb774405(v=VS.85).aspx">RBN_AUTOSIZE</a> notification codes. 
 
 
 ## -struct-fields
@@ -60,10 +60,10 @@ Contains information used in handling the <a href="https://msdn.microsoft.com/li
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field fChanged

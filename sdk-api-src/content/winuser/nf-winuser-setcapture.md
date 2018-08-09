@@ -7,7 +7,7 @@ old-location: inputdev\setcapture.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\setcapture.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetCapture, SetCapture function [Keyboard and Mouse Input], _win32_SetCapture, _win32_setcapture_cpp, inputdev.setcapture, winui._win32_setcapture, winuser/SetCapture
 ms.prod: windows
 ms.technology: windows-sdk

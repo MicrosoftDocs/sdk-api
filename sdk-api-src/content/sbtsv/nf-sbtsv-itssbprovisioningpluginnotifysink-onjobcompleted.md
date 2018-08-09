@@ -7,7 +7,7 @@ old-location: termserv\itssbprovisioningpluginnotifysink_onjobcompleted.htm
 old-project: termserv
 ms.assetid: 7d0399c8-2161-4d6e-8c14-7fd5bc2757b8
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],OnJobCompleted method, ITsSbProvisioningPluginNotifySink.OnJobCompleted, ITsSbProvisioningPluginNotifySink::OnJobCompleted, OnJobCompleted, OnJobCompleted method [Remote Desktop Services], OnJobCompleted method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::OnJobCompleted, termserv.itssbprovisioningpluginnotifysink_onjobcompleted
 ms.prod: windows
 ms.technology: windows-sdk

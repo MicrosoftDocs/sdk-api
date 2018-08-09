@@ -7,7 +7,7 @@ old-location: controls\Header_GetItem.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitem.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Header_GetItem, Header_GetItem macro [Windows Controls], _win32_Header_GetItem, _win32_Header_GetItem_cpp, commctrl/Header_GetItem, controls.Header_GetItem, controls._win32_Header_GetItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets information about an item in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775335(v=VS.85).aspx">HDM_GETITEM</a> message explicitly. 
+Gets information about an item in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775335(v=VS.85).aspx">HDM_GETITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -67,22 +67,17 @@ A handle to the header control.
 
 ### -param i
 
-TBD
+Type: <b>int</b>
+
+The index of the item for which information is to be retrieved. 
 
 
 ### -param phdi
 
 Type: <b>LPHDITEM</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Bb775247(v=VS.85).aspx">HDITEM</a> structure. When the message is sent, the <b>mask</b> member indicates the type of information being requested. When the message returns, the other members receive the requested information. If the 
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb775247(v=VS.85).aspx">HDITEM</a> structure. When the message is sent, the <b>mask</b> member indicates the type of information being requested. When the message returns, the other members receive the requested information. If the 
 <b>mask</b> member specifies zero, the message returns <b>TRUE</b> but copies no information to the structure. 
-
-
-#### - index
-
-Type: <b>int</b>
-
-The index of the item for which information is to be retrieved. 
 
 
 ## -remarks
@@ -90,7 +85,7 @@ The index of the item for which information is to be retrieved.
 
 
 If the HDI_TEXT flag is set in the 
-				<b>mask</b> member of the <a href="https://msdn.microsoft.com/library/Bb775247(v=VS.85).aspx">HDITEM</a> structure, the control may change the 
+				<b>mask</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb775247(v=VS.85).aspx">HDITEM</a> structure, the control may change the 
 				<b>pszText</b> member of the structure to point to the new text instead of filling the buffer with the requested text. Applications should not assume that the text will always be placed in the requested buffer.
 
 The <b>Header_GetItem</b> macro is defined as follows:

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpdeletesubnet.htm
 old-project: dhcp
 ms.assetid: e000a81b-b61b-4ba9-adee-4940edc78050
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpDeleteSubnet, DhcpDeleteSubnet function [DHCP], dhcp.dhcpdeletesubnet, dhcpsapi/DhcpDeleteSubnet
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpDeleteSubnet</b> function deletes a subnet from the DHCP server.
+The <b>DhcpDeleteSubnet</b> function deletes a subnet from the DHCP server.
 
 
 ## -parameters

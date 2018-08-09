@@ -7,7 +7,7 @@ old-location: p2p\peergraphgetnodeinfo.htm
 old-project: p2psdk
 ms.assetid: 7149aba3-d44b-4492-aa56-4d8dbfba7b7c
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphGetNodeInfo, PeerGraphGetNodeInfo function [Peer Networking], p2p.peergraphgetnodeinfo, p2p/PeerGraphGetNodeInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphGetNodeInfo</b> function retrieves information about a specific node.
+The <b>PeerGraphGetNodeInfo</b> function retrieves information about a specific node.
 
 
 ## -parameters
@@ -161,8 +160,7 @@ There can be several nodes of a graph on a computer. For example, multiple users
 
 
 
-<a href="https://msdn.microsoft.com/51cc6c27-91ca-4d02-95d6-207827450fd5">
-        PEER_NODE_INFO</a>
+<a href="https://msdn.microsoft.com/51cc6c27-91ca-4d02-95d6-207827450fd5">PEER_NODE_INFO</a>
 
 
 

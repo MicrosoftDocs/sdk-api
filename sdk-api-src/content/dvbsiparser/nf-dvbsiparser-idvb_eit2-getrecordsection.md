@@ -7,7 +7,7 @@ old-location: mstv\idvb_eit2_getrecordsection.htm
 old-project: mstv
 ms.assetid: 249c93f2-53d7-4110-9db3-34f3b0296b48
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordSection, GetRecordSection method [Microsoft TV Technologies], GetRecordSection method [Microsoft TV Technologies],IDVB_EIT2 interface, IDVB_EIT2 interface [Microsoft TV Technologies],GetRecordSection method, IDVB_EIT2.GetRecordSection, IDVB_EIT2::GetRecordSection, dvbsiparser/IDVB_EIT2::GetRecordSection, mstv.idvb_eit2_getrecordsection
 ms.prod: windows
 ms.technology: windows-sdk

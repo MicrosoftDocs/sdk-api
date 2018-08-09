@@ -7,7 +7,7 @@ old-location: mf\imftopology_clonefrom.htm
 old-project: medfound
 ms.assetid: b455aa57-9785-4741-bc3b-1f99cbf4e3d9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: CloneFrom, CloneFrom method [Media Foundation], CloneFrom method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],CloneFrom method, IMFTopology.CloneFrom, IMFTopology::CloneFrom, b455aa57-9785-4741-bc3b-1f99cbf4e3d9, mf.imftopology_clonefrom, mfidl/IMFTopology::CloneFrom
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Converts this topology into a copy of another topology.
+Converts this topology into a copy of another topology.
         
 
 
@@ -64,8 +63,7 @@ req.product: GDI+ 1.1
 
 ### -param pTopology [in]
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e-a4ff-53457ee910f6">IMFTopology</a> interface of the topology to clone.
+A pointer to the <a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e-a4ff-53457ee910f6">IMFTopology</a> interface of the topology to clone.
           
 
 
@@ -85,20 +83,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This method does the following:
 
 <ul>
-<li>
-            Removes all of the nodes from this topology.
+<li>Removes all of the nodes from this topology.
           </li>
-<li>
-            Clones the nodes from <i>pTopology</i> and adds them to this topology. The cloned nodes have the same node identifiers as the nodes from <i>pTopology</i>.
+<li>Clones the nodes from <i>pTopology</i> and adds them to this topology. The cloned nodes have the same node identifiers as the nodes from <i>pTopology</i>.
           </li>
-<li>
-            Connects the cloned nodes to match the connections in <i>pTopology</i>.
+<li>Connects the cloned nodes to match the connections in <i>pTopology</i>.
           </li>
-<li>
-            Copies the attributes from <i>pTopology</i> to this topology.
+<li>Copies the attributes from <i>pTopology</i> to this topology.
           </li>
-<li>
-            Copies the topology identifier from <i>pTopology</i> to this topology.</li>
+<li>Copies the topology identifier from <i>pTopology</i> to this topology.</li>
 </ul>
 
 

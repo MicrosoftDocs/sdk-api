@@ -7,7 +7,7 @@ old-location: imapi\ifsifileitem2_get_fsinamedstreams.htm
 old-project: imapi
 ms.assetid: 011c6241-4989-41ca-9876-d6810797a382
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],get_FsiNamedStreams method, IFsiFileItem2.get_FsiNamedStreams, IFsiFileItem2::get_FsiNamedStreams, get_FsiNamedStreams, get_FsiNamedStreams method [IMAPI], get_FsiNamedStreams method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_get_fsinamedstreams, imapi2fs/IFsiFileItem2::get_FsiNamedStreams
 ms.prod: windows
 ms.technology: windows-sdk

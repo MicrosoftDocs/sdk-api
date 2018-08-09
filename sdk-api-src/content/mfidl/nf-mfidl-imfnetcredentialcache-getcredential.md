@@ -7,7 +7,7 @@ old-location: mf\imfnetcredentialcache_getcredential.htm
 old-project: medfound
 ms.assetid: 7e095445-354a-4fbb-b354-bf87eb77552f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 7e095445-354a-4fbb-b354-bf87eb77552f, GetCredential, GetCredential method [Media Foundation], GetCredential method [Media Foundation],IMFNetCredentialCache interface, IMFNetCredentialCache interface [Media Foundation],GetCredential method, IMFNetCredentialCache.GetCredential, IMFNetCredentialCache::GetCredential, mf.imfnetcredentialcache_getcredential, mfidl/IMFNetCredentialCache::GetCredential
 ms.prod: windows
 ms.technology: windows-sdk

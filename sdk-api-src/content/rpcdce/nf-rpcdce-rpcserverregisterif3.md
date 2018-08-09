@@ -7,7 +7,7 @@ old-location: rpc\rpcserverregisterif3.htm
 old-project: rpc
 ms.assetid: D685B7A6-7E22-419F-B476-F0372836D16A
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcServerRegisterIf3, RpcServerRegisterIf3 function [RPC], rpc.rpcserverregisterif3, rpcdce/RpcServerRegisterIf3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>RpcServerRegisterIf3</b> function registers an interface with the RPC run-time library.
 
 
@@ -100,9 +99,9 @@ If the number of concurrent calls is not a concern, you can achieve slightly bet
 Maximum size of incoming data blocks, in bytes. This parameter may be used to help prevent malicious denial-of-service attacks. If the data block of a remote procedure call is larger than <i>MaxRpcSize</i>, the RPC run-time library rejects the call and sends an RPC_S_ACCESS_DENIED error to the client. Specifying a value of (unsigned int) –1 for this parameter removes the limit on the size of incoming data blocks. This parameter has no effect on calls made over the <a href="https://msdn.microsoft.com/0009f794-5c14-4484-9023-cb20c7030dc5">ncalrpc</a> protocol.
 
 
-### -param IfCallback
+### -param IfCallback [in, optional]
 
-TBD
+Security-callback function, or <b>NULL</b> for no callback. Each registered interface can have a different callback function. See the Remarks on <a href="https://msdn.microsoft.com/0c05ec68-4f1f-4a54-b6cd-776e9993b7da">RpcServerRegisterIf2</a>.
 
 
 ### -param SecurityDescriptor [in, optional]
@@ -110,17 +109,11 @@ TBD
 Security descriptor for accessing the RPC interface. Each registered interface can have a different security descriptor.
 
 
-#### - IfCallbackFn [in, optional]
-
-Security-callback function, or <b>NULL</b> for no callback. Each registered interface can have a different callback function. See the Remarks on <a href="https://msdn.microsoft.com/0c05ec68-4f1f-4a54-b6cd-776e9993b7da">RpcServerRegisterIf2</a>.
-
-
 ## -returns
 
 
 
-
-						Returns RPC_S_OK upon success.
+Returns RPC_S_OK upon success.
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
 <a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>

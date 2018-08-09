@@ -7,7 +7,7 @@ old-location: rpc\rpcifidvectorfree.htm
 old-project: rpc
 ms.assetid: 1af518a7-02db-438a-ba3f-723bd8422188
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcIfIdVectorFree, RpcIfIdVectorFree function [RPC], _rpc_rpcifidvectorfree, rpc.rpcifidvectorfree, rpcdce/RpcIfIdVectorFree
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,13 +61,6 @@ The
 
 
 ### -param IfIdVector
-
-TBD
-
-
-
-
-#### - IfIdVec
 
 Address of a pointer to a vector of interface information. On return, the pointer is set to <b>NULL</b>.
 

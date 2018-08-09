@@ -7,7 +7,7 @@ old-location: gdi\ptopenprovider.htm
 old-project: printdocs
 ms.assetid: 6821b1b0-74b0-4caf-b8e6-a9df4d7693d7
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: PTOpenProvider, PTOpenProvider function [Windows GDI], _win32_PTOpenProvider, gdi.ptopenprovider, prntvpt/PTOpenProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,17 +67,12 @@ A pointer to the full name of a print queue.
 
 ### -param dwVersion
 
-TBD
+The version of the <a href="https://msdn.microsoft.com/98d5f8ec-54bd-4e88-b632-ed427b599cb6">Print Schema</a> requested by the caller.
 
 
 ### -param phProvider [out]
 
 A pointer to a handle for the provider.
-
-
-#### - version
-
-The version of the <a href="https://msdn.microsoft.com/98d5f8ec-54bd-4e88-b632-ed427b599cb6">Print Schema</a> requested by the caller.
 
 
 ## -returns

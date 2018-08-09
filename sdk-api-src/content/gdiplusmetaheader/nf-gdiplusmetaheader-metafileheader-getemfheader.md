@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetEmfHeader_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getemfheader.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetEmfHeader, GetEmfHeader method [GDI+], GetEmfHeader method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetEmfHeader method, MetafileHeader.GetEmfHeader, MetafileHeader::GetEmfHeader, _gdiplus_CLASS_MetafileHeader_GetEmfHeader_, gdiplus._gdiplus_CLASS_MetafileHeader_GetEmfHeader_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>MetafileHeader::GetEmfHeader</b> method gets an <a href="https://msdn.microsoft.com/library/ms534065(v=VS.85).aspx">ENHMETAHEADER3</a> structure that contains properties of the associated metafile.
+The <b>MetafileHeader::GetEmfHeader</b> method gets an <a href="https://msdn.microsoft.com/en-us/library/ms534065(v=VS.85).aspx">ENHMETAHEADER3</a> structure that contains properties of the associated metafile.
 
 
 ## -parameters
@@ -65,10 +65,10 @@ The <b>MetafileHeader::GetEmfHeader</b> method gets an <a href="https://msdn.mic
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534065(v=VS.85).aspx">ENHMETAHEADER3</a>*</b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534065(v=VS.85).aspx">ENHMETAHEADER3</a>*</b>
 </strong>
 
-If the associated metafile is in the EMF or EMF+ format, this method returns a pointer to an <a href="https://msdn.microsoft.com/library/ms534065(v=VS.85).aspx">ENHMETAHEADER3</a> structure that contains properties of the associated metafile. If the associated metafile is in the WMF format, this method returns <b>NULL</b>.
+If the associated metafile is in the EMF or EMF+ format, this method returns a pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms534065(v=VS.85).aspx">ENHMETAHEADER3</a> structure that contains properties of the associated metafile. If the associated metafile is in the WMF format, this method returns <b>NULL</b>.
 
 
 
@@ -78,27 +78,27 @@ If the associated metafile is in the EMF or EMF+ format, this method returns a p
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534065(v=VS.85).aspx">ENHMETAHEADER3</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534065(v=VS.85).aspx">ENHMETAHEADER3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535280(v=VS.85).aspx">GetMetafileHeader</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535280(v=VS.85).aspx">GetMetafileHeader</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533831(v=VS.85).aspx">Loading and Displaying Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533831(v=VS.85).aspx">Loading and Displaying Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534477(v=VS.85).aspx">Metafile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534480(v=VS.85).aspx">MetafileHeader</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534480(v=VS.85).aspx">MetafileHeader</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536391(v=VS.85).aspx">Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536391(v=VS.85).aspx">Metafiles</a>
  
 
  

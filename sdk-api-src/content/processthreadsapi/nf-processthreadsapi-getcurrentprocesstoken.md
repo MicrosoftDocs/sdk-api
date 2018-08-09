@@ -7,7 +7,7 @@ old-location: security\getcurrentprocesstoken.htm
 old-project: secauthz
 ms.assetid: 9DD1781A-4C77-4E22-9FCF-579FC90F3028
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: GetCurrentProcessToken, GetCurrentProcessToken function [Security], processthreadsapi/GetCurrentProcessToken, security.getcurrentprocesstoken
 ms.prod: windows
 ms.technology: windows-sdk

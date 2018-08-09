@@ -4,10 +4,10 @@ title: LoadLibraryExA function
 author: windows-sdk-content
 description: Loads the specified module into the address space of the calling process.
 old-location: base\loadlibraryex.htm
-old-project: Dlls
+old-project: dlls
 ms.assetid: 4fc699ca-6ffb-4954-9b72-1b827d558563
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: DONT_RESOLVE_DLL_REFERENCES, LDR_IS_DATAFILE, LDR_IS_IMAGEMAPPING, LDR_IS_RESOURCE, LOAD_IGNORE_CODE_AUTHZ_LEVEL, LOAD_LIBRARY_AS_DATAFILE, LOAD_LIBRARY_AS_DATAFILE_EXCLUSIVE, LOAD_LIBRARY_AS_IMAGE_RESOURCE, LOAD_LIBRARY_SEARCH_APPLICATION_DIR, LOAD_LIBRARY_SEARCH_DEFAULT_DIRS, LOAD_LIBRARY_SEARCH_DLL_LOAD_DIR, LOAD_LIBRARY_SEARCH_SYSTEM32, LOAD_LIBRARY_SEARCH_USER_DIRS, LOAD_WITH_ALTERED_SEARCH_PATH, LoadLibraryEx, LoadLibraryEx function, LoadLibraryExA, LoadLibraryExW, _win32_loadlibraryex, base.loadlibraryex, libloaderapi/LoadLibraryEx, libloaderapi/LoadLibraryExA, libloaderapi/LoadLibraryExW, winbase/LoadLibraryEx, winbase/LoadLibraryExA, winbase/LoadLibraryExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,9 +70,36 @@ Loads the specified module into the address space of the calling process. The sp
 
 
 
-### -param lpLibFileName
+### -param lpLibFileName [in]
 
-TBD
+A string that specifies the file name of the module to load. This name is not related to the name stored in a 
+       library module itself, as specified by the <b>LIBRARY</b> keyword in the module-definition 
+       (.def) file.
+
+The module can be a library module (a .dll file) or an executable module (an .exe file). If the 
+       specified module is an executable module, static imports are not loaded; instead, the module is loaded as if 
+       <b>DONT_RESOLVE_DLL_REFERENCES</b> was specified. See the <i>dwFlags</i> 
+       parameter for more information.
+
+If the string specifies a module name without a path and the file name extension is omitted, the function 
+       appends the default library extension .dll to the module name. To prevent the function from appending 
+       .dll to the module name, include a trailing point character (.) in the module name string.
+
+If the string specifies a fully qualified path, the function searches only that path for the module. When 
+       specifying a path, be sure to use backslashes (\), not forward slashes (/). For more information about paths, 
+       see <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming Files, Paths, and Namespaces</a>.
+
+If the string specifies a module name without a path and more than one loaded module has the same base name 
+       and extension, the function returns a handle to the module that was loaded first.
+
+If the string specifies a module name without a path and a module of the same name is not already loaded, or 
+       if the string specifies a module name with a relative path, the function searches for the specified module. The 
+       function also searches for modules if loading the specified module causes the system to load other associated 
+       modules (that is, if the module has dependencies). The directories that are searched and the order in which 
+       they are searched depend on the specified path and the <i>dwFlags</i> parameter. For more 
+       information, see Remarks.
+
+If the function cannot find the  module or one of its dependencies, the function fails.
 
 
 ### -param hFile
@@ -325,38 +352,6 @@ This value cannot be combined with any <b>LOAD_LIBRARY_SEARCH</b> flag.
  
 
 
-#### - lpFileName [in]
-
-A string that specifies the file name of the module to load. This name is not related to the name stored in a 
-       library module itself, as specified by the <b>LIBRARY</b> keyword in the module-definition 
-       (.def) file.
-
-The module can be a library module (a .dll file) or an executable module (an .exe file). If the 
-       specified module is an executable module, static imports are not loaded; instead, the module is loaded as if 
-       <b>DONT_RESOLVE_DLL_REFERENCES</b> was specified. See the <i>dwFlags</i> 
-       parameter for more information.
-
-If the string specifies a module name without a path and the file name extension is omitted, the function 
-       appends the default library extension .dll to the module name. To prevent the function from appending 
-       .dll to the module name, include a trailing point character (.) in the module name string.
-
-If the string specifies a fully qualified path, the function searches only that path for the module. When 
-       specifying a path, be sure to use backslashes (\), not forward slashes (/). For more information about paths, 
-       see <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming Files, Paths, and Namespaces</a>.
-
-If the string specifies a module name without a path and more than one loaded module has the same base name 
-       and extension, the function returns a handle to the module that was loaded first.
-
-If the string specifies a module name without a path and a module of the same name is not already loaded, or 
-       if the string specifies a module name with a relative path, the function searches for the specified module. The 
-       function also searches for modules if loading the specified module causes the system to load other associated 
-       modules (that is, if the module has dependencies). The directories that are searched and the order in which 
-       they are searched depend on the specified path and the <i>dwFlags</i> parameter. For more 
-       information, see Remarks.
-
-If the function cannot find the  module or one of its dependencies, the function fails.
-
-
 ## -returns
 
 
@@ -395,8 +390,8 @@ You select these optional behaviors by setting the <i>dwFlags</i> parameter; if
 The calling process can use the handle returned by 
     <b>LoadLibraryEx</b> to identify the module in calls to the 
     <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>, 
-    <a href="https://msdn.microsoft.com/library/ms648042(v=VS.85).aspx">FindResource</a>, and 
-    <a href="https://msdn.microsoft.com/library/ms648046(v=VS.85).aspx">LoadResource</a> functions.
+    <a href="https://msdn.microsoft.com/en-us/library/ms648042(v=VS.85).aspx">FindResource</a>, and 
+    <a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a> functions.
 
 To enable or disable error messages displayed by the loader during DLL loads, use the 
     <a href="https://msdn.microsoft.com/b88f5577-9124-433c-a7e8-a7f713b7b27d">SetErrorMode</a> function.
@@ -442,7 +437,7 @@ Unless an application depends on specific image mapping characteristics, the
       <b>LOAD_LIBRARY_AS_DATAFILE</b>. This allows the loader to choose whether to load the module 
       as an image resource or a data file, selecting whichever option enables the system to share pages more 
       effectively. Resource  functions such as 
-      <a href="https://msdn.microsoft.com/library/ms648042(v=VS.85).aspx">FindResource</a> can use either mapping.
+      <a href="https://msdn.microsoft.com/en-us/library/ms648042(v=VS.85).aspx">FindResource</a> can use either mapping.
 
 
 
@@ -530,7 +525,7 @@ If <i>lpFileName</i> specifies an absolute path and <i>dwFlags</i> is
 
 The <a href="https://msdn.microsoft.com/c0c57554-3d98-487c-8bae-c594620d5a00">SetDllDirectory</a> function can be used to modify 
       the search path. This solution is better than using 
-      <a href="https://msdn.microsoft.com/library/Aa365530(v=VS.85).aspx">SetCurrentDirectory</a> or hard-coding the full path 
+      <a href="https://msdn.microsoft.com/en-us/library/Aa365530(v=VS.85).aspx">SetCurrentDirectory</a> or hard-coding the full path 
       to the DLL. However, be aware that using 
       <b>SetDllDirectory</b> effectively disables safe DLL search 
       mode while the specified directory is in the search path and it is not thread safe. If possible, it is best to 
@@ -649,7 +644,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648042(v=VS.85).aspx">FindResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648042(v=VS.85).aspx">FindResource</a>
 
 
 
@@ -673,7 +668,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648046(v=VS.85).aspx">LoadResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a>
 
 
 

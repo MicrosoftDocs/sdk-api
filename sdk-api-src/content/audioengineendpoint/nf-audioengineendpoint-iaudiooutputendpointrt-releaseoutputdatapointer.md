@@ -7,7 +7,7 @@ old-location: termserv\iaudiooutputendpointrt_releaseoutputdatapointer.htm
 old-project: termserv
 ms.assetid: 55b7d55e-b684-4c6e-a937-e8922732857d
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: IAudioOutputEndpointRT interface [Remote Desktop Services],ReleaseOutputDataPointer method, IAudioOutputEndpointRT.ReleaseOutputDataPointer, IAudioOutputEndpointRT::ReleaseOutputDataPointer, ReleaseOutputDataPointer, ReleaseOutputDataPointer method [Remote Desktop Services], ReleaseOutputDataPointer method [Remote Desktop Services],IAudioOutputEndpointRT interface, audioengineendpoint/IAudioOutputEndpointRT::ReleaseOutputDataPointer, termserv.iaudiooutputendpointrt_releaseoutputdatapointer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-        The <b>ReleaseOutputDataPointer</b> method releases the pointer to the output buffer.
+The <b>ReleaseOutputDataPointer</b> method releases the pointer to the output buffer.
 
 
 ## -parameters
@@ -61,8 +60,7 @@ req.irql:
 
 ### -param pConnectionProperty [in]
 
-A pointer to an  <a href="https://msdn.microsoft.com/dbf7ed62-445e-4f15-bc21-46117e694dc0">APO_CONNECTION_PROPERTY</a>
-    structure. The values in the structure must not be changed. The caller sets the members as follows:
+A pointer to an  <a href="https://msdn.microsoft.com/dbf7ed62-445e-4f15-bc21-46117e694dc0">APO_CONNECTION_PROPERTY</a>structure. The values in the structure must not be changed. The caller sets the members as follows:
 
 <ul>
 <li><b>pBuffer</b> is set to the pointer to the output data buffer returned by the <a href="https://msdn.microsoft.com/14d69520-3d0c-42ee-8986-9d83b5cff62e">IAudioOutputEndpointRT::GetOutputDataPointer</a> method.</li>

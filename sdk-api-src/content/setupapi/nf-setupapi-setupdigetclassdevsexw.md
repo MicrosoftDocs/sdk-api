@@ -7,7 +7,7 @@ old-location: devinst\setupdigetclassdevsex.htm
 old-project: devinst
 ms.assetid: 9f13ffe1-1a60-4d9a-942d-63312ca9bc5b
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: SetupDiGetClassDevsEx, SetupDiGetClassDevsEx function [Device and Driver Installation], SetupDiGetClassDevsExA, SetupDiGetClassDevsExW, devinst.setupdigetclassdevsex, di-rtns_61e59e92-0451-4398-88af-0a14347aa74e.xml, setupapi/SetupDiGetClassDevsEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -146,14 +146,14 @@ Reserved for internal use. This parameter must be set to <b>NULL</b>.
 Return a list of installed devices for the specified device setup classes or device interface classes. 
 
 
-##### - Flags.DIGCF_DEFAULT
-
-Return only the device that is associated with the system default device interface, if one is set, for the specified device interface classes. 
-
-
 ##### - Flags.DIGCF_DEVICEINTERFACE
 
 Return devices that support device interfaces for the specified device interface classes. This flag must be set in the <i>Flags</i> parameter if the <i>Enumerator</i> parameter specifies a <a href="devinst.device_instance_ids">device instance ID</a>.
+
+
+##### - Flags.DIGCF_DEFAULT
+
+Return only the device that is associated with the system default device interface, if one is set, for the specified device interface classes. 
 
 
 ##### - Flags.DIGCF_PRESENT

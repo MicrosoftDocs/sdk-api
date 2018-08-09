@@ -7,7 +7,7 @@ old-location: mf\imfaudiomediatype.htm
 old-project: medfound
 ms.assetid: 425a4a37-6fd3-4724-9d18-c39cc2862ef7
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 425a4a37-6fd3-4724-9d18-c39cc2862ef7, IMFAudioMediaType, IMFAudioMediaType interface [Media Foundation], IMFAudioMediaType interface [Media Foundation],described, mf.imfaudiomediatype, mfobjects/IMFAudioMediaType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,9 +54,7 @@ req.product: GDI+ 1.1
 
 <p class="CCE_Message">[<b>IMFAudioMediaType</b> is no longer available for use as of Windows 7. Instead, use the media type attributes to get the properties of the audio format.]
 
-
-        
-          Represents a description of an audio format.
+Represents a description of an audio format.
 
 
 ## -inheritance
@@ -79,8 +77,7 @@ The <b>IMFAudioMediaType</b> interface has these methods.
 <a href="https://msdn.microsoft.com/6a874e7b-9358-45e1-85be-7207bf46d93e">GetAudioFormat</a>
 </td>
 <td align="left" width="63%">
-
-          Returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure that describes the audio format.
+Returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure that describes the audio format.
         
 
 </td>
@@ -94,8 +91,7 @@ The <b>IMFAudioMediaType</b> interface has these methods.
 
 <b>Windows Server 2008 and Windows Vista:  </b>If the major type of a media type is <b>MFMediaType_Audio</b>, you can query the media type object for the <b>IMFAudioMediaType</b> interface.
 
-
-        To convert an audio media type into a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure, call <a href="https://msdn.microsoft.com/b124bac2-90de-4358-a079-f509a89c3776">MFCreateWaveFormatExFromMFMediaType</a>.
+To convert an audio media type into a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure, call <a href="https://msdn.microsoft.com/b124bac2-90de-4358-a079-f509a89c3776">MFCreateWaveFormatExFromMFMediaType</a>.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 

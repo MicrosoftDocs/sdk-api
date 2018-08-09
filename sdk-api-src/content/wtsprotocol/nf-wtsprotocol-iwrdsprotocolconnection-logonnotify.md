@@ -4,10 +4,10 @@ title: IWRdsProtocolConnection::LogonNotify
 author: windows-sdk-content
 description: Called when the user has logged on to the session.
 old-location: termserv\iwrdsprotocolconnection_logonnotify.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 2b6ce1cd-0e9f-465d-a5d6-e0d35bddebc4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],LogonNotify method, IWRdsProtocolConnection.LogonNotify, IWRdsProtocolConnection::LogonNotify, LogonNotify, LogonNotify method [Remote Desktop Services], LogonNotify method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_logonnotify, wtsprotocol/IWRdsProtocolConnection::LogonNotify
 ms.prod: windows
 ms.technology: windows-sdk

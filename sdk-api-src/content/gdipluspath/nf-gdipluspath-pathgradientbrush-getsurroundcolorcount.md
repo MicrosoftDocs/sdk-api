@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetSurroundColorCount_.ht
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getsurroundcolorcount.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetSurroundColorCount, GetSurroundColorCount method [GDI+], GetSurroundColorCount method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetSurroundColorCount method, PathGradientBrush.GetSurroundColorCount, PathGradientBrush::GetSurroundColorCount, _gdiplus_CLASS_PathGradientBrush_GetSurroundColorCount_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetSurroundColorCount_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,31 +78,31 @@ This method returns the number of colors that have been specified for the bounda
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533856(v=VS.85).aspx">Filling a Shape with a Color Gradient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533856(v=VS.85).aspx">Filling a Shape with a Color Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535071(v=VS.85).aspx">PathGradientBrush::GetSurroundColorCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535071(v=VS.85).aspx">PathGradientBrush::GetSurroundColorCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535090(v=VS.85).aspx">PathGradientBrush::SetSurroundColors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535090(v=VS.85).aspx">PathGradientBrush::SetSurroundColors</a>
  
 
  

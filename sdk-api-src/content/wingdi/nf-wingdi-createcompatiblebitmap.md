@@ -7,7 +7,7 @@ old-location: gdi\createcompatiblebitmap.htm
 old-project: gdi
 ms.assetid: d2866beb-ff7a-4390-8651-e7bf458ddf88
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateCompatibleBitmap, CreateCompatibleBitmap function [Windows GDI], _win32_CreateCompatibleBitmap, gdi.createcompatiblebitmap, wingdi/CreateCompatibleBitmap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,26 +69,14 @@ The <b>CreateCompatibleBitmap</b> function creates a bitmap compatible with the 
 A handle to a device context.
 
 
-### -param cx
-
-TBD
-
-
-### -param cy
-
-TBD
-
-
-
-
-#### - nHeight [in]
-
-The bitmap height, in pixels.
-
-
-#### - nWidth [in]
+### -param cx [in]
 
 The bitmap width, in pixels.
+
+
+### -param cy [in]
+
+The bitmap height, in pixels.
 
 
 ## -returns

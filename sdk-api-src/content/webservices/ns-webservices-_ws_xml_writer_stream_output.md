@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_writer_stream_output.htm
 old-project: wsw
 ms.assetid: 8ee4ea59-5cdc-43bf-80c0-8f8632fee274
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_XML_WRITER_STREAM_OUTPUT, WS_XML_WRITER_STREAM_OUTPUT structure [Web Services for Windows], _WS_XML_WRITER_STREAM_OUTPUT, webservices/WS_XML_WRITER_STREAM_OUTPUT, wsw.ws_xml_writer_stream_output
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imftransform_setinputtype.htm
 old-project: medfound
 ms.assetid: 822a83d1-177a-4a8d-842e-eb76f8253283
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 822a83d1-177a-4a8d-842e-eb76f8253283, IMFTransform interface [Media Foundation],SetInputType method, IMFTransform.SetInputType, IMFTransform::SetInputType, SetInputType, SetInputType method [Media Foundation], SetInputType method [Media Foundation],IMFTransform interface, mf.imftransform_setinputtype, mftransform/IMFTransform::SetInputType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Sets, tests, or clears the media type for an input stream on this Media Foundation transform (MFT).
+Sets, tests, or clears the media type for an input stream on this Media Foundation transform (MFT).
         
 
 
@@ -64,22 +63,19 @@ req.product: GDI+ 1.1
 
 ### -param dwInputStreamID [in]
 
-
-            Input stream identifier. To get the list of stream identifiers, call <a href="https://msdn.microsoft.com/0715c78e-de92-439d-a4f3-078e19f78a8e">IMFTransform::GetStreamIDs</a>.
+Input stream identifier. To get the list of stream identifiers, call <a href="https://msdn.microsoft.com/0715c78e-de92-439d-a4f3-078e19f78a8e">IMFTransform::GetStreamIDs</a>.
           
 
 
 ### -param pType [in]
 
-
-            Pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface, or <b>NULL</b>.
+Pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface, or <b>NULL</b>.
           
 
 
 ### -param dwFlags [in]
 
-
-            Zero or more flags from the <a href="https://msdn.microsoft.com/dd7e97fb-80ab-4e6b-ac2a-a257d7e8ec63">_MFT_SET_TYPE_FLAGS</a> enumeration.
+Zero or more flags from the <a href="https://msdn.microsoft.com/dd7e97fb-80ab-4e6b-ac2a-a257d7e8ec63">_MFT_SET_TYPE_FLAGS</a> enumeration.
           
 
 
@@ -87,8 +83,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -103,8 +98,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -116,8 +110,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The MFT cannot use the proposed media type.
+The MFT cannot use the proposed media type.
               
 
 </td>
@@ -129,8 +122,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                Invalid stream identifier.
+Invalid stream identifier.
               
 
 </td>
@@ -142,8 +134,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The proposed type is not valid. This error code indicates that the media type itself is not configured correctly; for example, it might contain mutually contradictory attributes.
+The proposed type is not valid. This error code indicates that the media type itself is not configured correctly; for example, it might contain mutually contradictory attributes.
               
 
 </td>
@@ -155,8 +146,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The MFT cannot switch types while processing data. Try draining or flushing the MFT.
+The MFT cannot switch types while processing data. Try draining or flushing the MFT.
               
 
 </td>
@@ -168,8 +158,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                You must set the output types before setting the input types.
+You must set the output types before setting the input types.
               
 
 </td>
@@ -181,8 +170,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The MFT could not find a suitable DirectX Video Acceleration (DXVA) configuration.
+The MFT could not find a suitable DirectX Video Acceleration (DXVA) configuration.
               
 
 </td>
@@ -200,29 +188,23 @@ req.product: GDI+ 1.1
 This method can be used to set, test without setting, or clear the media type:
 
 <ul>
-<li>
-            To set the media type, set <i>dwFlags</i> to zero and set <i>pType</i> to a non-<b>NULL</b> pointer that specifies the media type.
+<li>To set the media type, set <i>dwFlags</i> to zero and set <i>pType</i> to a non-<b>NULL</b> pointer that specifies the media type.
           </li>
-<li>
-            To test the media type without setting it, set <i>dwFlags</i> to <b>MFT_SET_TYPE_TEST_ONLY</b> and set <i>pType</i> to a non-<b>NULL</b> pointer that specifies the media type. If the media type is acceptable, the method return <b>S_OK</b>. Otherwise, it returns <b>MF_E_INVALIDMEDIATYPE</b>. Regardless of the return value, the current media type does not change.
+<li>To test the media type without setting it, set <i>dwFlags</i> to <b>MFT_SET_TYPE_TEST_ONLY</b> and set <i>pType</i> to a non-<b>NULL</b> pointer that specifies the media type. If the media type is acceptable, the method return <b>S_OK</b>. Otherwise, it returns <b>MF_E_INVALIDMEDIATYPE</b>. Regardless of the return value, the current media type does not change.
           </li>
-<li>
-            To clear the media type, set <i>pType</i> to <b>NULL</b>.
+<li>To clear the media type, set <i>pType</i> to <b>NULL</b>.
           </li>
 </ul>
-
-        Setting the media type on one stream may change the acceptable types on another stream.
+Setting the media type on one stream may change the acceptable types on another stream.
       
 
-
-        An MFT may require the caller to set one or more output types before setting the input type. If so, the method returns <b>MF_E_TRANSFORM_TYPE_NOT_SET</b>.
+An MFT may require the caller to set one or more output types before setting the input type. If so, the method returns <b>MF_E_TRANSFORM_TYPE_NOT_SET</b>.
       
 
-
-        If the MFT supports DirectX Video Acceleration (DXVA) but is unable to find a suitable DXVA configuration (for example, if the graphics driver does not have the right capabilities), the method should return <b>MF_E_UNSUPPORTED_D3D_TYPE</b>. For more information, see <a href="https://msdn.microsoft.com/d7330370-adb3-4c6a-962a-7b46c344500c">Supporting DXVA 2.0 in Media Foundation</a>.
+If the MFT supports DirectX Video Acceleration (DXVA) but is unable to find a suitable DXVA configuration (for example, if the graphics driver does not have the right capabilities), the method should return <b>MF_E_UNSUPPORTED_D3D_TYPE</b>. For more information, see <a href="https://msdn.microsoft.com/d7330370-adb3-4c6a-962a-7b46c344500c">Supporting DXVA 2.0 in Media Foundation</a>.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTSetInputType</b>. See <a href="https://msdn.microsoft.com/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTSetInputType</b>. See <a href="https://msdn.microsoft.com/en-us/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
 
 
 

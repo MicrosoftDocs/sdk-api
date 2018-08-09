@@ -7,7 +7,7 @@ old-location: winauto\iversioninfo_iversioninfo__getcomponentdescription.htm
 old-project: WinAuto
 ms.assetid: bb689adb-bd94-4c62-b408-33e1aa694c89
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetComponentDescription, GetComponentDescription method [Windows Accessibility], GetComponentDescription method [Windows Accessibility],IVersionInfo interface, IVersionInfo interface [Windows Accessibility],GetComponentDescription method, IVersionInfo.GetComponentDescription, IVersionInfo::GetComponentDescription, _msaa_IVersionInfo_GetComponentDescription, msaa.iversioninfo_iversioninfo__getcomponentdescription, msaatext/IVersionInfo::GetComponentDescription, winauto.iversioninfo_iversioninfo__getcomponentdescription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,7 @@ req.product: GDI+ 1.1
 Clients call this method to retrieve a description of the component.
 		
 <div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
-<a href="http://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>
-for more information on advanced text input and natural language technologies.
+<a href="http://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		</div><div> </div>
 
 ## -parameters

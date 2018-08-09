@@ -7,7 +7,7 @@ old-location: automat\dosdatetimetovarianttime.htm
 old-project: automat
 ms.assetid: 61b029cb-8b60-400a-a6bb-a3f6839dc9d2
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: DosDateTimeToVariantTime, DosDateTimeToVariantTime function [Automation], _oa96_DosDateTimeToVariantTime, automat.dosdatetimetovarianttime, oleauto/DosDateTimeToVariantTime
 ms.prod: windows
 ms.technology: windows-sdk

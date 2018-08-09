@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_FontFamily_Clone_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\clone_58.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],FontFamily class, FontFamily class [GDI+],Clone method, FontFamily.Clone, FontFamily::Clone, _gdiplus_CLASS_FontFamily_Clone_, gdiplus._gdiplus_CLASS_FontFamily_Clone_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>FontFamily::Clone</b> method creates a new <a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a> object based on this <b>FontFamily</b> object.
+The <b>FontFamily::Clone</b> method creates a new <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> object based on this <b>FontFamily</b> object.
 
 
 ## -parameters
@@ -65,10 +65,10 @@ The <b>FontFamily::Clone</b> method creates a new <a href="https://msdn.microsof
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a>*</b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>*</b>
 </strong>
 
-This method returns a pointer to the new <a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a> object.
+This method returns a pointer to the new <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> object.
 
 
 
@@ -78,15 +78,15 @@ This method returns a pointer to the new <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
  
 
  

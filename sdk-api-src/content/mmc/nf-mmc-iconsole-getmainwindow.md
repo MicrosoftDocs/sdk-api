@@ -7,7 +7,7 @@ old-location: mmc\iconsole_getmainwindow.htm
 old-project: MMC
 ms.assetid: C861307B-38DD-4FC0-A790-59E26AB6F7AD
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: GetMainWindow, GetMainWindow method [MMC], GetMainWindow method [MMC],IConsole interface, IConsole interface [MMC],GetMainWindow method, IConsole.GetMainWindow, IConsole::GetMainWindow, mmc.iconsole_getmainwindow, mmc/IConsole::GetMainWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt300830(v=VS.85).aspx">IConsole</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt300830(v=VS.85).aspx">IConsole</a>
  
 
  

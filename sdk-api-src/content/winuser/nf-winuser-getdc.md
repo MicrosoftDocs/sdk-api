@@ -7,7 +7,7 @@ old-location: gdi\getdc.htm
 old-project: gdi
 ms.assetid: 50b2387b-c8e4-42a8-8f0f-0bdb355adbfd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetDC, GetDC function [Windows GDI], _win32_GetDC, gdi.getdc, winuser/GetDC
 ms.prod: windows
 ms.technology: windows-sdk

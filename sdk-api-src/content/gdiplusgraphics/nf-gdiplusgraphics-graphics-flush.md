@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_Flush_intention_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\flush.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Flush, Flush method [GDI+], Flush method [GDI+],Graphics class, Graphics class [GDI+],Flush method, Graphics.Flush, Graphics::Flush, _gdiplus_CLASS_Graphics_Flush_intention_, gdiplus._gdiplus_CLASS_Graphics_Flush_intention_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ The <b>Graphics::Flush</b> method flushes all pending graphics operations.
 
 ### -param intention [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534122(v=VS.85).aspx">FlushIntention</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534122(v=VS.85).aspx">FlushIntention</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/library/ms534122(v=VS.85).aspx">FlushIntention</a> enumeration that specifies whether pending operations are flushed immediately (not executed) or executed as soon as possible. 
+Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534122(v=VS.85).aspx">FlushIntention</a> enumeration that specifies whether pending operations are flushed immediately (not executed) or executed as soon as possible. 
 
 
 ## -returns
@@ -80,7 +80,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534122(v=VS.85).aspx">FlushIntention</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534122(v=VS.85).aspx">FlushIntention</a>
 
 
 

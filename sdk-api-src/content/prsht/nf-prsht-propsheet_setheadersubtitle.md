@@ -7,7 +7,7 @@ old-location: controls\PropSheet_SetHeaderSubTitle.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setheadersubtitle.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: PropSheet_SetHeaderSubTitle, PropSheet_SetHeaderSubTitle macro [Windows Controls], _win32_PropSheet_SetHeaderSubTitle, _win32_PropSheet_SetHeaderSubTitle_cpp, controls.PropSheet_SetHeaderSubTitle, controls._win32_PropSheet_SetHeaderSubTitle, prsht/PropSheet_SetHeaderSubTitle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Sets the subtitle text for the header of a wizard's interior page. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774621(v=VS.85).aspx">PSM_SETHEADERSUBTITLE</a> message explicitly.
+Sets the subtitle text for the header of a wizard's interior page. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774621(v=VS.85).aspx">PSM_SETHEADERSUBTITLE</a> message explicitly.
 
 
 ## -parameters
@@ -61,38 +61,19 @@ Sets the subtitle text for the header of a wizard's interior page. You can use t
 
 ### -param hDlg
 
-TBD
-
-
-### -param index
-
-TBD
-
-
-### -param lpszText
-
-TBD
-
-
-
-
-
-
-#### - hWizardDlg
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the wizard's window.
 
 
-#### - iPageIndex
+### -param index
 
 Type: <b>int</b>
 
 Zero-based index of the page.
 
 
-#### - pszHeaderSubTitle
+### -param lpszText
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
 
@@ -105,7 +86,7 @@ New header subtitle.
 
 If you specify the current page, it will immediately be repainted to display the new subtitle.
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 
@@ -115,15 +96,15 @@ If you specify the current page, it will immediately be repainted to display the
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774651(v=VS.85).aspx">PropSheet_HwndToIndex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774651(v=VS.85).aspx">PropSheet_HwndToIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774653(v=VS.85).aspx">PropSheet_IdToIndex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774653(v=VS.85).aspx">PropSheet_IdToIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774664(v=VS.85).aspx">PropSheet_PageToIndex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774664(v=VS.85).aspx">PropSheet_PageToIndex</a>
 
 
 

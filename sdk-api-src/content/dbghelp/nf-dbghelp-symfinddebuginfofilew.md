@@ -7,7 +7,7 @@ old-location: base\symfinddebuginfofile.htm
 old-project: debug
 ms.assetid: ea4879b2-edf8-4542-b16a-41777c0068cd
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymFindDebugInfoFile, SymFindDebugInfoFile function, SymFindDebugInfoFileW, base.symfinddebuginfofile, dbghelp/SymFindDebugInfoFile, dbghelp/SymFindDebugInfoFileW
 ms.prod: windows
 ms.technology: windows-sdk

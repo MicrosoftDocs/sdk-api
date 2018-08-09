@@ -7,7 +7,7 @@ old-location: ad\dsmakespn.htm
 old-project: ad
 ms.assetid: fca3c59c-bb81-42a0-acd3-2e55c902febe
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DsMakeSpn, DsMakeSpn function [Active Directory], DsMakeSpnA, DsMakeSpnW, _glines_dsmakespn, ad.dsmakespn, dsparse/DsMakeSpn, dsparse/DsMakeSpnA, dsparse/DsMakeSpnW
 ms.prod: windows
 ms.technology: windows-sdk

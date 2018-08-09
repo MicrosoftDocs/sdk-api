@@ -7,7 +7,7 @@ old-location: devinst\setupdiselectdevice.htm
 old-project: devinst
 ms.assetid: c6a512ad-bcc6-4dc5-873e-33bdaab129e2
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: SetupDiSelectDevice, SetupDiSelectDevice function [Device and Driver Installation], devinst.setupdiselectdevice, di-rtns_0cbab99d-4106-4e25-81fc-68034d9f464d.xml, setupapi/SetupDiSelectDevice
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\ibda_conditionalaccess_get_smartcardstatus.htm
 old-project: mstv
 ms.assetid: 940247b0-c002-414f-9d01-9f4acfe90a35
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],get_SmartCardStatus method, IBDA_ConditionalAccess.get_SmartCardStatus, IBDA_ConditionalAccess::get_SmartCardStatus, IBDA_ConditionalAccessget_SmartCardStatus, bdaiface/IBDA_ConditionalAccess::get_SmartCardStatus, get_SmartCardStatus, get_SmartCardStatus method [Microsoft TV Technologies], get_SmartCardStatus method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, mstv.ibda_conditionalaccess_get_smartcardstatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,22 +60,19 @@ The <b>get_SmartCardStatus</b> method retrieves the status of the smart card.
 
 ### -param pCardStatus [out]
 
-
-            Pointer to a variable of type <a href="https://msdn.microsoft.com/c699c6a9-f554-4e2d-ac7f-9b5ff954fa6b">SmartCardStatusType</a> that receives the card status type.
+Pointer to a variable of type <a href="https://msdn.microsoft.com/c699c6a9-f554-4e2d-ac7f-9b5ff954fa6b">SmartCardStatusType</a> that receives the card status type.
           
 
 
 ### -param pCardAssociation [out]
 
-
-            Pointer to a variable of type <a href="https://msdn.microsoft.com/42fe27ed-d461-43bf-87c5-bd0704339ec7">SmartCardAssociationType</a> that receives the card association type.
+Pointer to a variable of type <a href="https://msdn.microsoft.com/42fe27ed-d461-43bf-87c5-bd0704339ec7">SmartCardAssociationType</a> that receives the card association type.
           
 
 
 ### -param pbstrCardError [out]
 
-
-            Receives a string containing the card error. When the string is no longer required, call the <b>SysFreeString</b> function to free it.
+Receives a string containing the card error. When the string is no longer required, call the <b>SysFreeString</b> function to free it.
           
 
 
@@ -90,8 +87,7 @@ The <b>get_SmartCardStatus</b> method retrieves the status of the smart card.
 
 
 
-
-            If the method succeeds, it returns S_OK. If it fails, it returns an error code.
+If the method succeeds, it returns S_OK. If it fails, it returns an error code.
           
 
 

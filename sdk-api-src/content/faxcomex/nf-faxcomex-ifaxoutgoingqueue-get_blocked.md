@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingqueue_blocked_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_59d0.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: Blocked property [Fax Service], Blocked property [Fax Service],FaxOutgoingQueue object, FaxOutgoingQueue object [Fax Service],Blocked property, FaxOutgoingQueue.Blocked, IFaxOutgoingQueue.get_Blocked, IFaxOutgoingQueue::get_Blocked, _mfax_faxoutgoingqueue.blocked, fax._mfax_faxoutgoingqueue_blocked, fax._mfax_faxoutgoingqueue_blocked_vb, get_Blocked
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ This property is read/write.
 
 If this property is equal to <b>True</b>, the outbound job queue is blocked and the fax service is not accepting outbound fax submissions. If this property is equal to <b>False</b>, the queue is not blocked.
 
-To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
+To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -75,15 +75,15 @@ To read or to write to this property, a user must have the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/library/ms687528(v=VS.85).aspx">FaxOutgoingQueue</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687528(v=VS.85).aspx">FaxOutgoingQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms687529(v=VS.85).aspx">IFaxOutgoingQueue</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687529(v=VS.85).aspx">IFaxOutgoingQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692914(v=VS.85).aspx">Setting the Outgoing Queue Properties</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692914(v=VS.85).aspx">Setting the Outgoing Queue Properties</a>
  
 
  

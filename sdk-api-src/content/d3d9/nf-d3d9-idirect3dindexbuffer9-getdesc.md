@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dindexbuffer9__getdesc.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dindexbuffer9__getdesc.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 9], GetDesc method [Direct3D 9],IDirect3DIndexBuffer9 interface, IDirect3DIndexBuffer9 interface [Direct3D 9],GetDesc method, IDirect3DIndexBuffer9.GetDesc, IDirect3DIndexBuffer9::GetDesc, d3d9helper/IDirect3DIndexBuffer9::GetDesc, direct3d9.idirect3dindexbuffer9__getdesc, f6d3661c-7957-0918-0367-c148e854bf9f
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,16 +61,16 @@ Retrieves a description of the index buffer resource.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172563(v=VS.85).aspx">D3DINDEXBUFFER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172563(v=VS.85).aspx">D3DINDEXBUFFER_DESC</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb172563(v=VS.85).aspx">D3DINDEXBUFFER_DESC</a> structure, describing the returned index buffer. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172563(v=VS.85).aspx">D3DINDEXBUFFER_DESC</a> structure, describing the returned index buffer. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is returned if the argument is invalid.
 
@@ -82,11 +82,11 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is return
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205865(v=VS.85).aspx">IDirect3DIndexBuffer9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205865(v=VS.85).aspx">IDirect3DIndexBuffer9</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174595(v=VS.85).aspx">Index Buffers (Direct3D 9)</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174595(v=VS.85).aspx">Index Buffers (Direct3D 9)</a>
  
 
  

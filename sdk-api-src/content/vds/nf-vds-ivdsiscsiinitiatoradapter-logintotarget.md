@@ -4,10 +4,10 @@ title: IVdsIscsiInitiatorAdapter::LoginToTarget
 author: windows-sdk-content
 description: Performs a manual login to an iSCSI target.
 old-location: base\ivdsiscsiinitiatoradapter_logintotarget.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 74d6ddd0-1b78-446a-9bce-6816eb34a2b9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IVdsIscsiInitiatorAdapter interface [VDS],LoginToTarget method, IVdsIscsiInitiatorAdapter.LoginToTarget, IVdsIscsiInitiatorAdapter::LoginToTarget, LoginToTarget, LoginToTarget method [VDS], LoginToTarget method [VDS],IVdsIscsiInitiatorAdapter interface, base.ivdsiscsiinitiatoradapter_logintotarget, vds/IVdsIscsiInitiatorAdapter::LoginToTarget
 ms.prod: windows
 ms.technology: windows-sdk

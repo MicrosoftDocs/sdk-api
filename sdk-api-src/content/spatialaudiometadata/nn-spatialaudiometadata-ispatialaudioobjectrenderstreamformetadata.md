@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectrenderstreamformetadata.htm
 old-project: CoreAudio
 ms.assetid: 1623B280-FC12-4C19-9D4A-D8463D1A1046
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: ISpatialAudioObjectRenderStreamForMetadata, ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio], ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio],described, coreaudio.ispatialaudioobjectrenderstreamformetadata, spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioObjectRenderStreamForMetadata interface
@@ -55,85 +56,22 @@ Provides methods for controlling a spatial audio object render stream for metada
 This interface is a part of  Windows Sonic, Microsoft’s audio platform for more immersive audio which includes integrated spatial sound on Xbox and Windows.
 
 
-## -inheritance
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectRenderStreamForMetadata</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISpatialAudioObjectRenderStreamForMetadata</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISpatialAudioObjectRenderStreamForMetadata</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0BECB2AC-A889-443D-8360-E266F21AA240">BeginUpdatingAudioObjects</a>
-</td>
-<td align="left" width="63%">
-Puts the system into the state where audio object data can be submitted for processing and the <b>ISpatialAudioObjectRenderStreamForMetadata</b> state can be modified.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/FD49F2D6-D510-4995-9B09-65F7CCCB7337">EndUpdatingAudioObjects</a>
-</td>
-<td align="left" width="63%">
-Notifies the system that the app has finished supplying audio data for the spatial audio objects activated with <a href="coreaudio.ispatialaudioobjectformetadataitems_activatespatialaudioobjectformetadatacommands">ActivateSpatialAudioObjectForMetadataCommands</a> or <a href="https://msdn.microsoft.com/A9743D42-659A-404C-BB21-8A5086870F34">ActivateSpatialAudioObjectForMetadataItems</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A92C6CC8-BD49-480A-BED2-E434E271951B">GetAvailableDynamicObjectCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of dynamic spatial audio objects that are currently available.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/568F3D03-7296-475B-880B-E6FD0C2BD863">GetService</a>
-</td>
-<td align="left" width="63%">
-Gets additional services from the <b>ISpatialAudioObjectRenderStreamForMetadata</b>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
-</td>
-<td align="left" width="63%">
-Reset a stopped audio stream.   
-      
+## -remarks
 
 
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
-</td>
-<td align="left" width="63%">
-Starts the spatial audio stream.  
 
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
-</td>
-<td align="left" width="63%">
-Stops a running audio stream.   
+<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="coreaudio.ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a> interface.</div>
+<div> </div>
 
-</td>
-</tr>
-</table> 
+
+
+## -see-also
+
+
+
+
+<a href="coreaudio.ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
+ 
+
+ 
 

@@ -4,10 +4,10 @@ title: GetApplicationRestartSettings function
 author: windows-sdk-content
 description: Retrieves the restart information registered for the specified process.
 old-location: recovery\getapplicationrestartsettings.htm
-old-project: Recovery
+old-project: recovery
 ms.assetid: bf35437a-9252-4efd-aa3c-be487dafa86e
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: GetApplicationRestartSettings, GetApplicationRestartSettings function [Recovery], recovery.getapplicationrestartsettings, winbase/GetApplicationRestartSettings
 ms.prod: windows
 ms.technology: windows-sdk

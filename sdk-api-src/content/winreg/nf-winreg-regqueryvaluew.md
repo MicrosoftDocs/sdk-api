@@ -7,7 +7,7 @@ old-location: base\regqueryvalue.htm
 old-project: SysInfo
 ms.assetid: 18f27717-3bd9-45ac-a1ea-61abc1753a52
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: RegQueryValue, RegQueryValue function, RegQueryValueA, RegQueryValueW, _win32_regqueryvalue, base.regqueryvalue, winreg/RegQueryValue, winreg/RegQueryValueA, winreg/RegQueryValueW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,19 +98,7 @@ For more information, see
 <a href="https://msdn.microsoft.com/a6d3a884-f181-46a5-b655-226c68792e08">Registry Element Size Limits</a>.
 
 
-### -param lpData
-
-TBD
-
-
-### -param lpcbData
-
-TBD
-
-
-
-
-#### - lpValue [out, optional]
+### -param lpData [out, optional]
 
 A pointer to a buffer that receives the default value of the specified key. 
 
@@ -120,7 +108,7 @@ A pointer to a buffer that receives the default value of the specified key.
 If <i>lpValue</i> is <b>NULL</b>, and <i>lpcbValue</i> is non-<b>NULL</b>, the function returns ERROR_SUCCESS, and stores the size of the data, in bytes, in the variable pointed to by <i>lpcbValue</i>. This enables an application to determine the best way to allocate a buffer for the value's data.
 
 
-#### - lpcbValue [in, out, optional]
+### -param lpcbData [in, out, optional]
 
 A pointer to a variable that specifies the size of the buffer pointed to by the <i>lpValue</i> parameter, in bytes. When the function returns, this variable contains the size of the data copied to <i>lpValue</i>, including any terminating <b>null</b> characters. 
 

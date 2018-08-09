@@ -7,7 +7,7 @@ old-location: mscs\resutilenumresourcesex2.htm
 old-project: mscs
 ms.assetid: F178850C-D68A-4A51-A830-F12E023352B4
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: PRESUTIL_ENUM_RESOURCES_EX2, PRESUTIL_ENUM_RESOURCES_EX2 function [Failover Cluster], ResUtilEnumResourcesEx2, ResUtilEnumResourcesEx2 function [Failover Cluster], mscs.resutilenumresourcesex2, resapi/PRESUTIL_ENUM_RESOURCES_EX2, resapi/ResUtilEnumResourcesEx2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -144,19 +144,19 @@ The requested access privileges. This may be any combination of <b>GENERIC_READ<
           <a href="https://msdn.microsoft.com/e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f">ResUtilEnumResourcesEx</a>.
 
 
-##### - pResCallBack.hEnum
-
-[in] A handle to the resource currently being enumerated. 
-          <a href="https://msdn.microsoft.com/e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f">ResUtilEnumResourcesEx</a> opens and closes 
-          this handle automatically.
-
-
 ##### - pResCallBack.hSelf
 
 [in] The hSelf parameter passed to 
           <a href="https://msdn.microsoft.com/e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f">ResUtilEnumResourcesEx</a>. Note that the 
           callback function is never called when <i>hSelf</i> and <i>hEnum</i> 
           refer to the same resource.
+
+
+##### - pResCallBack.hEnum
+
+[in] A handle to the resource currently being enumerated. 
+          <a href="https://msdn.microsoft.com/e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f">ResUtilEnumResourcesEx</a> opens and closes 
+          this handle automatically.
 
 
 ##### - pResCallBack.pParameter

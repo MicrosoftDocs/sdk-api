@@ -2,12 +2,12 @@
 UID: NF:msopc.IOpcRelationshipSelectorEnumerator.MovePrevious
 title: IOpcRelationshipSelectorEnumerator::MovePrevious
 author: windows-sdk-content
-description: Moves the current position of the enumerator to the previous IOpcRelationshipSelector interface pointer.
+description: Moves the current position of the enumerator to the previous IOpcRelationshipSelectorinterface pointer.
 old-location: opc\iopcrelationshipselectorenumerator_moveprevious.htm
 old-project: OPC
 ms.assetid: dd367eb8-cd1c-4f0a-a435-aad86685b71a
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcRelationshipSelectorEnumerator.MovePrevious, IOpcRelationshipSelectorEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcRelationshipSelectorEnumerator interface, msopc/IOpcRelationshipSelectorEnumerator::MovePrevious, opc.iopcrelationshipselectorenumerator_moveprevious
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Moves the current position of the enumerator to the previous <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a>
-    interface pointer.
+Moves the current position of the enumerator to the previous <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a>interface pointer.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ Moves the current position of the enumerator to the previous <a href="https://ms
 
 ### -param hasPrevious [out, retval]
 
-A Boolean value that indicates the status of the <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a>
-    interface pointer at the current position.
+A Boolean value that indicates the status of the <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a>interface pointer at the current position.
 
 The value of <i>hasPrevious</i> is only valid when the method succeeds.
 

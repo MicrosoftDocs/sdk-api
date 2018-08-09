@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced3.htm
 old-project: wmformat
 ms.assetid: 20bf3c00-0f35-4b8e-b78d-a36fbfd865b7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWMReaderAdvanced3, IWMReaderAdvanced3 interface [windows Media Format], IWMReaderAdvanced3 interface [windows Media Format],described, IWMReaderAdvanced3Interface, wmformat.iwmreaderadvanced3, wmsdkidl/IWMReaderAdvanced3
 ms.prod: windows
 ms.technology: windows-sdk

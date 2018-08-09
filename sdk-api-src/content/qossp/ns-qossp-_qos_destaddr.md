@@ -7,7 +7,7 @@ old-location: qos\qos_destaddr.htm
 old-project: qos
 ms.assetid: 6b9e52b2-58d0-437f-a71b-248feac59c13
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPQOS_DESTADDR, LPQOS_DESTADDR, LPQOS_DESTADDR structure pointer [QOS], QOS_DESTADDR, QOS_DESTADDR structure [QOS], _QOS_DESTADDR, _gqos_qos_destaddr, qos.qos_destaddr, qossp/LPQOS_DESTADDR, qossp/QOS_DESTADDR"
 ms.prod: windows
 ms.technology: windows-sdk

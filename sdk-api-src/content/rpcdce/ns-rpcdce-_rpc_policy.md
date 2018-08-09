@@ -7,7 +7,7 @@ old-location: rpc\rpc_policy.htm
 old-project: rpc
 ms.assetid: 2647d75d-09b5-48b2-9a79-4d1f95cb094b
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: "*PRPC_POLICY, 0, PRPC_POLICY, PRPC_POLICY structure pointer [RPC], RPC_C_BIND_TO_ALL_NICS, RPC_C_MQ_AUTHENTICATE, RPC_C_MQ_AUTHN_LEVEL_NONE, RPC_C_MQ_AUTHN_LEVEL_PKT_INTEGRITY, RPC_C_MQ_AUTHN_LEVEL_PKT_PRIVACY, RPC_C_MQ_CLEAR_ON_OPEN, RPC_C_MQ_ENCRYPT, RPC_C_MQ_PERMANENT, RPC_C_MQ_TEMPORARY, RPC_C_MQ_USE_EXISTING_SECURITY, RPC_C_USE_INTERNET_PORT, RPC_C_USE_INTRANET_PORT, RPC_POLICY, RPC_POLICY structure [RPC], _RPC_POLICY, _rpc_rpc_policy, rpc.rpc_policy, rpcdce/PRPC_POLICY, rpcdce/RPC_POLICY"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,7 +121,7 @@ Allocates the endpoint from one of the ports defined in the registry as "Intrane
 </td>
 <td width="60%">
 The server process–receive queue will be deleted automatically when the RPC server exits. Any outstanding calls still in the queue will be lost. This is the default. Valid only with the 
-<a href="https://msdn.microsoft.com/">ncadg_mq</a> protocol sequence.
+<a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a> protocol sequence.
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ Calls to server are encrypted. The default is that both encrypted and unencrypte
 </td>
 <td width="60%">
 The server's receive queue accepts all calls from clients. This is the default authentication level. Valid only with the 
-<a href="https://msdn.microsoft.com/">ncadg_mq</a> protocol.
+<a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a> protocol.
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ Sets the server's receive queue to only accept client calls that have authentica
 <div class="alert"><b>Note</b>  If the registry does not contain any of the keys that specify the default policies, then the <b>EndpointFlags</b> member will have no effect at run time. If a key is missing or contains an invalid value, then the entire configuration for that protocol (
 <a href="https://msdn.microsoft.com/8142c667-9a5f-4066-a36d-1bb5ce551d21">ncacn_ip_tcp</a>, 
 <a href="https://msdn.microsoft.com/c9133fcc-6dc2-49da-9c6f-5ce3c51090d5">ncadg_ip_udp</a> or 
-<a href="https://msdn.microsoft.com/">ncadg_mq</a>) is marked as invalid and all calls to <b>RpcServerUseProtseq*</b> functions over that protocol will fail.</div>
+<a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a>) is marked as invalid and all calls to <b>RpcServerUseProtseq*</b> functions over that protocol will fail.</div>
 <div> </div>
 
 ### -field NICFlags

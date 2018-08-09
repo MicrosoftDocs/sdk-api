@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol2.htm
 old-project: CoreAudio
 ms.assetid: 3bb65edf-103c-4eeb-82b4-7c571cddfcf3
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: IAudioSessionControl2, IAudioSessionControl2 interface [Core Audio], IAudioSessionControl2 interface [Core Audio],described, audiopolicy/IAudioSessionControl2, coreaudio.iaudiosessioncontrol2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ By calling <a href="https://msdn.microsoft.com/42de66dd-46df-40af-9d8a-39ee9f91b
 
 
 </li>
-</ul>
-    When the application wants to release the <b>IAudioSessionControl2</b> interface instance, the application must call the interface's <b>Release</b> method from the same thread as the call to <a href="https://msdn.microsoft.com/233d4471-037f-4df9-bef6-57f2544dedb5">IAudioClient::GetService</a> that created the object.
+</ul>When the application wants to release the <b>IAudioSessionControl2</b> interface instance, the application must call the interface's <b>Release</b> method from the same thread as the call to <a href="https://msdn.microsoft.com/233d4471-037f-4df9-bef6-57f2544dedb5">IAudioClient::GetService</a> that created the object.
 
 The application thread that uses this interface must be initialized for COM. For more information about COM initialization, see the description of the <b>CoInitializeEx</b> function in the Windows SDK documentation.
 
@@ -86,8 +85,7 @@ The <b>IAudioSessionControl2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17ae85ad-e2ef-4a87-9d0f-58baa080ff98">
-        GetProcessId</a>
+<a href="https://msdn.microsoft.com/17ae85ad-e2ef-4a87-9d0f-58baa080ff98">GetProcessId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the process identifier of the session.

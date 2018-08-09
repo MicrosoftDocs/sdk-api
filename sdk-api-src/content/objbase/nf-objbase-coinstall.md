@@ -7,7 +7,7 @@ old-location: com\coinstall.htm
 old-project: com
 ms.assetid: 9486ef2d-51a1-41b4-85e5-427af9a98cec
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: CoInstall, CoInstall function [COM], _com_CoInstall, com.coinstall, objbase/CoInstall
 ms.prod: windows
 ms.technology: windows-sdk

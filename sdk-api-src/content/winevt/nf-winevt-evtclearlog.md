@@ -4,10 +4,10 @@ title: EvtClearLog function
 author: windows-sdk-content
 description: Removes all events from the specified channel and writes them to the target log file.
 old-location: wes\evtclearlog.htm
-old-project: WES
+old-project: wes
 ms.assetid: 26d2aabd-96dc-4091-82f4-e5d4c69e09a4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EvtClearLog, EvtClearLog function [EventLog], wes.evtclearlog, winevt/EvtClearLog
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\getmiterlimit.htm
 old-project: gdi
 ms.assetid: 51b1fb95-dd44-47f8-9311-2c6dc9c57bbc
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetMiterLimit, GetMiterLimit function [Windows GDI], _win32_GetMiterLimit, gdi.getmiterlimit, wingdi/GetMiterLimit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,7 @@ The <b>GetMiterLimit</b> function retrieves the miter limit for the specified de
 Handle to the device context.
 
 
-### -param plimit
-
-TBD
-
-
-
-
-#### - peLimit [out]
+### -param plimit [out]
 
 Pointer to a floating-point value that receives the current miter limit.
 

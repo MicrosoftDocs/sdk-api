@@ -7,7 +7,7 @@ old-location: intl\immgetimefilename.htm
 old-project: Intl
 ms.assetid: c2dafd0a-3cb9-4d9b-919b-c7ef86fb1cd4
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmGetIMEFileName, ImmGetIMEFileName function [Internationalization for Windows Applications], ImmGetIMEFileNameA, ImmGetIMEFileNameW, _win32_ImmGetIMEFileName, imm/ImmGetIMEFileName, imm/ImmGetIMEFileNameA, imm/ImmGetIMEFileNameW, intl.immgetimefilename
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Retrieves the file name of the IME associated with the specified input locale.
 
 
 
-### -param HKL
+### -param HKL [in]
 
-TBD
+Input locale identifier.
 
 
 ### -param lpszFileName [out, optional]
@@ -74,11 +74,6 @@ Pointer to a buffer in which the function retrieves the file name. This paramete
 ### -param uBufLen [in]
 
 Size, in bytes, of the output buffer. The application specifies 0 if the function is to return the buffer size needed to receive the file name, not including the terminating null character. For Unicode, <i>uBufLen</i> specifies the size in Unicode characters, not including the terminating null character.
-
-
-#### - hKL [in]
-
-Input locale identifier.
 
 
 ## -returns

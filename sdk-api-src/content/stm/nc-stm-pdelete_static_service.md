@@ -4,10 +4,10 @@ title: PDELETE_STATIC_SERVICE
 author: windows-sdk-content
 description: The DeleteStaticService function deletes a static service from the table.
 old-location: rras\deletestaticservice.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 230ddff5-7fd1-4e4e-b4bb-49c427a3f9c7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DeleteStaticService, DeleteStaticService callback function [RAS], PDELETE_STATIC_SERVICE, PDELETE_STATIC_SERVICE callback, _mpr_deletestaticservice, rras.deletestaticservice, stm/DeleteStaticService
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # PDELETE_STATIC_SERVICE callback function

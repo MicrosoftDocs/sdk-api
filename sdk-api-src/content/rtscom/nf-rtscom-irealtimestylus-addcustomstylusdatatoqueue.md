@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_addcustomstylusdatatoqueue.htm
 old-project: tablet
 ms.assetid: 9d216853-9103-4027-a724-f35d84553a9b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 9d216853-9103-4027-a724-f35d84553a9b, AddCustomStylusDataToQueue, AddCustomStylusDataToQueue method [Tablet PC], AddCustomStylusDataToQueue method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],AddCustomStylusDataToQueue method, IRealTimeStylus.AddCustomStylusDataToQueue, IRealTimeStylus::AddCustomStylusDataToQueue, rtscom/IRealTimeStylus::AddCustomStylusDataToQueue, tablet.irealtimestylus_addcustomstylusdatatoqueue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ Adds custom data to the specified queue of the <a href="https://msdn.microsoft.c
 
 ### -param sq [in]
 
-
-              The <a href="https://msdn.microsoft.com/245f1c78-a6e9-4138-bddb-c0c890583aea">StylusQueue Enumeration</a> specifying the stylus queue to which to add the custom data.
+The <a href="https://msdn.microsoft.com/245f1c78-a6e9-4138-bddb-c0c890583aea">StylusQueue Enumeration</a> specifying the stylus queue to which to add the custom data.
 
 
 ### -param pGuidId [in]
@@ -80,8 +79,7 @@ Adds custom data to the specified queue of the <a href="https://msdn.microsoft.c
 
 ### -param pbData [in]
 
-
-            The custom data to add to the specified queue. May not be <b>NULL</b>.
+The custom data to add to the specified queue. May not be <b>NULL</b>.
           
 
 

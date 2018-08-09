@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_gettimelinemarkertimer.htm
 old-project: medfound
 ms.assetid: 8C58DBB6-A55E-4992-B4F2-EB36E15FA7A1
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetTimelineMarkerTimer, GetTimelineMarkerTimer method [Media Foundation], GetTimelineMarkerTimer method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetTimelineMarkerTimer method, IMFMediaEngineEx.GetTimelineMarkerTimer, IMFMediaEngineEx::GetTimelineMarkerTimer, mf.imfmediaengineex_gettimelinemarkertimer, mfmediaengine/IMFMediaEngineEx::GetTimelineMarkerTimer
 ms.prod: windows
 ms.technology: windows-sdk

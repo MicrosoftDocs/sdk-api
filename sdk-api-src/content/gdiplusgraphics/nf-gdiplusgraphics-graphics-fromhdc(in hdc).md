@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_FromHDC_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfromhdcmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: FromHDC, FromHDC methods [GDI+], Graphics.FromHDC, Graphics.FromHDC(IN HDC), Graphics::FromHDC, Graphics::FromHDC(IN HDC), _gdiplus_CLASS_Graphics_FromHDC_Methods, gdiplus._gdiplus_CLASS_Graphics_FromHDC_Methods, gdiplusgraphics/FromHDC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,20 +65,20 @@ FromHDC methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535950(v=VS.85).aspx">FromHDC(HDC)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535950(v=VS.85).aspx">FromHDC(HDC)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535950(v=VS.85).aspx">Graphics::FromHDC</a>
+The <a href="https://msdn.microsoft.com/en-us/library/ms535950(v=VS.85).aspx">Graphics::FromHDC</a>
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object that is associated with a specified device context.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535951(v=VS.85).aspx">FromHDC(HDD,HANDLE)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535951(v=VS.85).aspx">FromHDC(HDD,HANDLE)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535951(v=VS.85).aspx">Graphics::FromHDC</a>
+The <a href="https://msdn.microsoft.com/en-us/library/ms535951(v=VS.85).aspx">Graphics::FromHDC</a>
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object that is associated with a specified device context and a specified device.
 
 </td>

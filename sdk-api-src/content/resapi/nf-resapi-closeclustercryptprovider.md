@@ -7,7 +7,7 @@ old-location: mscs\closeclustercryptprovider.htm
 old-project: mscs
 ms.assetid: 844D991A-6B29-4ADE-8CFE-114FD4AF7C9B
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: CloseClusterCryptProvider, CloseClusterCryptProvider function [Failover Cluster], PCLOSE_CLUSTER_CRYPT_PROVIDER, PCLOSE_CLUSTER_CRYPT_PROVIDER function [Failover Cluster], mscs.closeclustercryptprovider, resapi/CloseClusterCryptProvider, resapi/PCLOSE_CLUSTER_CRYPT_PROVIDER
 ms.prod: windows
 ms.technology: windows-sdk

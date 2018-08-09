@@ -7,7 +7,7 @@ old-location: mmc\icontextmenucallback_additem.htm
 old-project: MMC
 ms.assetid: 7186f201-13aa-4357-9b89-b435d244229c
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: AddItem, AddItem method [MMC], AddItem method [MMC],IContextMenuCallback interface, IContextMenuCallback interface [MMC],AddItem method, IContextMenuCallback.AddItem, IContextMenuCallback::AddItem, _slate_icontextmenucallback_additem, mmc.icontextmenucallback_additem, mmc/IContextMenuCallback::AddItem
 ms.prod: windows
 ms.technology: windows-sdk

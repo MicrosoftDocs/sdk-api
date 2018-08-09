@@ -2,13 +2,13 @@
 UID: NA:sysinfoapi
 ms.assetid: 6e1f154e-cb89-3563-bfef-9ccac20a6b15
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: sidebar
+archived: true
 ---
 
 # Sysinfoapi.h header

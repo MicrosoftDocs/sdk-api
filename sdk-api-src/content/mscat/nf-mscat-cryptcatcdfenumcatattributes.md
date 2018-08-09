@@ -7,7 +7,7 @@ old-location: security\cryptcatcdfenumcatattributes.htm
 old-project: seccrypto
 ms.assetid: 01889cb9-7bf4-4591-9bb2-b263c4effe0c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CryptCATCDFEnumCatAttributes, CryptCATCDFEnumCatAttributes function [Security], mscat/CryptCATCDFEnumCatAttributes, security.cryptcatcdfenumcatattributes
 ms.prod: windows
 ms.technology: windows-sdk

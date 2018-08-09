@@ -7,7 +7,7 @@ old-location: tablet\getcontextpropertyvalue.htm
 old-project: tablet
 ms.assetid: e3f154ce-b4bf-4520-a4de-03cfe27ef9b0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: GetContextPropertyValue, GetContextPropertyValue function [Tablet PC], e3f154ce-b4bf-4520-a4de-03cfe27ef9b0, recapis/GetContextPropertyValue, tablet.getcontextpropertyvalue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ The handle to the recognizer context.
 
 ### -param pGuid
 
-TBD
+The property to retrieve. Specify a predefined property globally unique identifier (GUID) or application-defined GUID. For a list of predefined properties, see the recognition <a href="https://msdn.microsoft.com/dcf6bc5a-1b61-48f7-bc7a-f74ae6e2e57e">Property GUIDs</a>.
 
 
 ### -param pcbSize
@@ -80,11 +80,6 @@ On input, the size, in bytes, the <i>pProperty </i>buffer can be. On output, the
 ### -param pProperty
 
 The user allocated buffer to contain the property value. To determine the size of the buffer, set <i>pProperty</i> to <b>NULL</b>; use the size to allocate <i>pProperty</i>.
-
-
-#### - pPropertyGUID
-
-The property to retrieve. Specify a predefined property globally unique identifier (GUID) or application-defined GUID. For a list of predefined properties, see the recognition <a href="https://msdn.microsoft.com/dcf6bc5a-1b61-48f7-bc7a-f74ae6e2e57e">Property GUIDs</a>.
 
 
 ## -returns

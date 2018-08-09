@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2ex_getsupportedprofiles.htm
 old-project: imapi
 ms.assetid: 1295d536-8531-4470-a8b4-1e589736e0b1
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: GetSupportedProfiles, GetSupportedProfiles method [IMAPI], GetSupportedProfiles method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetSupportedProfiles method, IDiscRecorder2Ex.GetSupportedProfiles, IDiscRecorder2Ex::GetSupportedProfiles, imapi.idiscrecorder2ex_getsupportedprofiles, imapi2/IDiscRecorder2Ex::GetSupportedProfiles
 ms.prod: windows
 ms.technology: windows-sdk

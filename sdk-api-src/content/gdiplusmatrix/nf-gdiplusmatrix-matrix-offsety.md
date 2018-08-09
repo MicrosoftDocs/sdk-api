@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_OffsetY_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\offsety.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Matrix class [GDI+],OffsetY method, Matrix.OffsetY, Matrix::OffsetY, OffsetY, OffsetY method [GDI+], OffsetY method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_OffsetY_, gdiplus._gdiplus_CLASS_Matrix_OffsetY_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,27 +78,27 @@ This method returns the vertical translation value of this matrix, which is the 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536395(v=VS.85).aspx">Global and Local Transformations</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536395(v=VS.85).aspx">Global and Local Transformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536397(v=VS.85).aspx">Matrix Representation of Transformations</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536397(v=VS.85).aspx">Matrix Representation of Transformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535309(v=VS.85).aspx">Matrix::OffsetX</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535309(v=VS.85).aspx">Matrix::OffsetX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535317(v=VS.85).aspx">Matrix::Translate</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535317(v=VS.85).aspx">Matrix::Translate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533810(v=VS.85).aspx">Transformations</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533810(v=VS.85).aspx">Transformations</a>
  
 
  

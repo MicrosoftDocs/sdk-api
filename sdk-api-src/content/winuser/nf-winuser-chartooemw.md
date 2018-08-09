@@ -7,7 +7,7 @@ old-location: menurc\chartooem.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\chartooem.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CharToOem, CharToOem function [Menus and Other Resources], CharToOemA, CharToOemW, _win32_CharToOem, _win32_chartooem_cpp, menurc.chartooem, winui._win32_chartooem, winuser/CharToOem, winuser/CharToOemA, winuser/CharToOemW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,32 +62,20 @@ Translates a string into the OEM-defined character set.
 
 
 
-### -param pSrc
+### -param pSrc [in]
 
-TBD
+Type: <b>LPCTSTR</b>
 
-
-### -param pDst
-
-TBD
+The null-terminated string to be translated.
 
 
-
-
-#### - lpszDst [out]
+### -param pDst [out]
 
 Type: <b>LPSTR</b>
 
 The destination buffer, which receives the translated string. If the <b>CharToOem</b> function is being used as an ANSI function, the string can be translated in place by setting the 
 					<i>lpszDst</i> parameter to the same address as the 
 					<i>lpszSrc</i> parameter. This cannot be done if <b>CharToOem</b> is being used as a wide-character function. 
-
-
-#### - lpszSrc [in]
-
-Type: <b>LPCTSTR</b>
-
-The null-terminated string to be translated.
 
 
 ## -returns

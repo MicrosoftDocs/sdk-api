@@ -7,7 +7,7 @@ old-location: mmc\iheaderctrl2_getcolumnfilter.htm
 old-project: MMC
 ms.assetid: 2daf15ac-4de2-422d-9ac0-b592090468ed
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: GetColumnFilter, GetColumnFilter method [MMC], GetColumnFilter method [MMC],IHeaderCtrl2 interface, IHeaderCtrl2 interface [MMC],GetColumnFilter method, IHeaderCtrl2.GetColumnFilter, IHeaderCtrl2::GetColumnFilter, _slate_iheaderctrl2_getcolumnfilter, mmc.iheaderctrl2_getcolumnfilter, mmc/IHeaderCtrl2::GetColumnFilter
 ms.prod: windows
 ms.technology: windows-sdk

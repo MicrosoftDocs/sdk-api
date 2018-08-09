@@ -4,10 +4,10 @@ title: CryptEnumProviderTypesA function
 author: windows-sdk-content
 description: Retrieves the first or next types of cryptographic service provider (CSP) supported on the computer.
 old-location: security\cryptenumprovidertypes.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 7568c963-4d06-4af0-bd15-240402425046
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CryptEnumProviderTypes, CryptEnumProviderTypes function [Security], CryptEnumProviderTypesA, CryptEnumProviderTypesW, _crypto2_cryptenumprovidertypes, security.cryptenumprovidertypes, wincrypt/CryptEnumProviderTypes, wincrypt/CryptEnumProviderTypesA, wincrypt/CryptEnumProviderTypesW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,9 +85,15 @@ Reserved for future use and must be zero.
 Address of the <b>DWORD</b> value designating the enumerated provider type.
 
 
-### -param szTypeName
+### -param szTypeName [out]
 
-TBD
+A pointer to a buffer that receives the data from the enumerated provider type. This is a string including the terminating <b>NULL</b> character. Some provider types do not have display names, and in this case no name is returned and the returned value pointed to by <i>pcbTypeName</i> is zero. 
+
+
+
+
+This parameter can be <b>NULL</b> to get the size of the name for memory allocation purposes. For more information, see 
+<a href="https://msdn.microsoft.com/ef99edef-39b2-4d78-9c01-13720215d47f">Retrieving Data of Unknown Length</a>.
 
 
 ### -param pcbTypeName [in, out]
@@ -99,17 +105,6 @@ A pointer to a <b>DWORD</b> value specifying the size, in bytes, of the buffer p
 
 <div class="alert"><b>Note</b>  When processing the data returned in the buffer, applications must use the actual size of the data returned. The actual size can be slightly smaller than the size of the buffer specified on input. (On input, buffer sizes are usually specified large enough to ensure that the largest possible output data fits in the buffer.) On output, the variable pointed to by this parameter is updated to reflect the actual size of the data copied to the buffer.</div>
 <div> </div>
-
-#### - pszTypeName [out]
-
-A pointer to a buffer that receives the data from the enumerated provider type. This is a string including the terminating <b>NULL</b> character. Some provider types do not have display names, and in this case no name is returned and the returned value pointed to by <i>pcbTypeName</i> is zero. 
-
-
-
-
-This parameter can be <b>NULL</b> to get the size of the name for memory allocation purposes. For more information, see 
-<a href="https://msdn.microsoft.com/ef99edef-39b2-4d78-9c01-13720215d47f">Retrieving Data of Unknown Length</a>.
-
 
 ## -returns
 

@@ -4,10 +4,10 @@ title: IWRdsProtocolSettings
 author: windows-sdk-content
 description: Exposes methods for retrieving and adding policy-related settings.
 old-location: termserv\iwrdsprotocolsettings.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 3680a001-e162-4930-985f-5c50c2e8a8b9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWRdsProtocolSettings, IWRdsProtocolSettings interface [Remote Desktop Services], IWRdsProtocolSettings interface [Remote Desktop Services],described, termserv.iwrdsprotocolsettings, wtsprotocol/IWRdsProtocolSettings
 ms.prod: windows
 ms.technology: windows-sdk

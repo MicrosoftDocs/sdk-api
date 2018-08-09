@@ -7,7 +7,7 @@ old-location: security\gettokeninformation.htm
 old-project: secauthz
 ms.assetid: e94de19c-de12-40fb-a72c-060f7ad12f75
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: GetTokenInformation, GetTokenInformation function [Security], _win32_gettokeninformation, security.gettokeninformation, securitybaseapi/GetTokenInformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,8 +58,7 @@ req.product: ADAM
 ## -description
 
 
-
-   The <b>GetTokenInformation</b> function retrieves a specified type of information about an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access token</a>. The calling process must have appropriate access rights to obtain the information.
+The <b>GetTokenInformation</b> function retrieves a specified type of information about an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access token</a>. The calling process must have appropriate access rights to obtain the information.
 
 To determine if a user is a member of a specific group, use the 
 <a href="https://msdn.microsoft.com/c254a167-c4e7-4b84-9be3-6862761309f8">CheckTokenMembership</a> function. To determine group membership for app container tokens, use the <a href="https://msdn.microsoft.com/0420FC77-8035-42A5-8907-83D0CE53FB64">CheckTokenMembershipEx</a> function.
@@ -102,8 +101,7 @@ If the value of the <i>TokenInformationClass</i> parameter is TokenDefaultDacl a
 
 
 
-
-      If the function succeeds, the return value is nonzero.
+If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.

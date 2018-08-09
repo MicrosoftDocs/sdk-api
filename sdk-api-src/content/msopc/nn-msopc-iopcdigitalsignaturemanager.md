@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignaturemanager.htm
 old-project: OPC
 ms.assetid: 13e8a7b9-1d25-421b-bc81-adc495e6d9c7
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcDigitalSignatureManager, IOpcDigitalSignatureManager interface [Open Packaging Conventions], IOpcDigitalSignatureManager interface [Open Packaging Conventions],described, msopc/IOpcDigitalSignatureManager, opc.iopcdigitalsignaturemanager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IOpcDigitalSignatureManager</b> interface has these methods.
 <a href="https://msdn.microsoft.com/c58f9730-b2c2-40cd-8aae-03fbd09f8c76">CreateSigningOptions</a>
 </td>
 <td align="left" width="63%">
-
-              Creates an <a href="https://msdn.microsoft.com/5fb66c8f-2eb2-48c3-8e6f-04a1c509f6ec">IOpcSigningOptions</a> interface pointer.
+Creates an <a href="https://msdn.microsoft.com/5fb66c8f-2eb2-48c3-8e6f-04a1c509f6ec">IOpcSigningOptions</a> interface pointer.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IOpcDigitalSignatureManager</b> interface has these methods.
 <a href="https://msdn.microsoft.com/44906f03-806f-400c-a7f3-0da5c330e1ff">GetSignatureEnumerator</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an enumerator of <a href="https://msdn.microsoft.com/cfa38ef6-9d96-4577-a3bf-518784d19ad8">IOpcDigitalSignature</a> interface pointers, which represent package signatures.
+Gets an enumerator of <a href="https://msdn.microsoft.com/cfa38ef6-9d96-4577-a3bf-518784d19ad8">IOpcDigitalSignature</a> interface pointers, which represent package signatures.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IOpcDigitalSignatureManager</b> interface has these methods.
 <a href="https://msdn.microsoft.com/958cf2e7-0956-489a-904f-01ec00af48d1">GetSignatureOriginPartName</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a> interface pointer that represents the part name of the Digital Signature Origin part.
+Gets an <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a> interface pointer that represents the part name of the Digital Signature Origin part.
             
 
 </td>
@@ -107,8 +104,7 @@ The <b>IOpcDigitalSignatureManager</b> interface has these methods.
 <a href="https://msdn.microsoft.com/bc022b81-f61d-4efa-9c68-f798b2d929c2">RemoveSignature</a>
 </td>
 <td align="left" width="63%">
-
-              Removes from the package a specified signature part  that stores signature markup.
+Removes from the package a specified signature part  that stores signature markup.
             
 
 </td>
@@ -118,8 +114,7 @@ The <b>IOpcDigitalSignatureManager</b> interface has these methods.
 <a href="https://msdn.microsoft.com/cacd0ccf-0cb9-41dc-a944-74db8254fd95">ReplaceSignatureXml</a>
 </td>
 <td align="left" width="63%">
-
-              Replaces the existing signature markup that is stored in a specified signature part.
+Replaces the existing signature markup that is stored in a specified signature part.
             
 
 </td>
@@ -129,8 +124,7 @@ The <b>IOpcDigitalSignatureManager</b> interface has these methods.
 <a href="https://msdn.microsoft.com/edf1590c-14a2-4887-a2df-20b5b4cb89a6">SetSignatureOriginPartName</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the part name of the Digital Signature Origin part to the name represented by a specified <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a> interface pointer.
+Sets the part name of the Digital Signature Origin part to the name represented by a specified <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a> interface pointer.
             
 
 </td>
@@ -140,8 +134,7 @@ The <b>IOpcDigitalSignatureManager</b> interface has these methods.
 <a href="https://msdn.microsoft.com/5d40cae4-67d5-40a6-bd63-cf6243a703eb">Sign</a>
 </td>
 <td align="left" width="63%">
-
-              Signs the package by generating a signature by using the specified certificate and <a href="https://msdn.microsoft.com/5fb66c8f-2eb2-48c3-8e6f-04a1c509f6ec">IOpcSigningOptions</a> interface pointer.
+Signs the package by generating a signature by using the specified certificate and <a href="https://msdn.microsoft.com/5fb66c8f-2eb2-48c3-8e6f-04a1c509f6ec">IOpcSigningOptions</a> interface pointer.
             
 
 </td>
@@ -151,8 +144,7 @@ The <b>IOpcDigitalSignatureManager</b> interface has these methods.
 <a href="https://msdn.microsoft.com/76a37ad6-caa0-4fa3-abc1-2eae63e3134b">Validate</a>
 </td>
 <td align="left" width="63%">
-
-              Validates a specified package signature using a specified certificate.
+Validates a specified package signature using a specified certificate.
             
 
 </td>

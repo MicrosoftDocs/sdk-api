@@ -4,10 +4,10 @@ title: ICivicAddressReport::GetAddressLine2
 author: windows-sdk-content
 description: Retrieves the second line of a street address.
 old-location: winlocation_com_ref\icivicaddressreport_getaddressline2.htm
-old-project: LocationAPI
+old-project: locationapi
 ms.assetid: 2c66b294-15a9-490a-b77c-ff48f35d1d3b
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/30/2018
 ms.keywords: GetAddressLine2, GetAddressLine2 method [WinLocation], GetAddressLine2 method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetAddressLine2 method, ICivicAddressReport.GetAddressLine2, ICivicAddressReport::GetAddressLine2, WinLocation_COM_Ref.icivicaddressreport_getaddressline2, locationapi/ICivicAddressReport::GetAddressLine2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/fd40bf4a-c59a-43a4-ab01-c671a8a41731">Windows.Devices.Geolocation</a>
-API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/fd40bf4a-c59a-43a4-ab01-c671a8a41731">Windows.Devices.Geolocation</a>API.
 ]
 
 Retrieves the second line of a street address.

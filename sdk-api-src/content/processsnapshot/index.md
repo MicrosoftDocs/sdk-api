@@ -2,13 +2,13 @@
 UID: NA:processsnapshot
 ms.assetid: 31905fd4-0130-3348-9e7b-254234a6d749
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: proc_snap
+archived: true
 ---
 
 # Processsnapshot.h header

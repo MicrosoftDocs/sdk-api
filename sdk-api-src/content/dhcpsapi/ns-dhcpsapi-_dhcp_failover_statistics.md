@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_failover_statistics.htm
 old-project: dhcp
 ms.assetid: a06d873c-fc82-40c1-be3e-45f24328897d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDHCP_FAILOVER_STATISTICS, DHCP_FAILOVER_STATISTICS, DHCP_FAILOVER_STATISTICS structure [DHCP], LPDHCP_FAILOVER_STATISTICS, LPDHCP_FAILOVER_STATISTICS structure pointer [DHCP], _DHCP_FAILOVER_STATISTICS, dhcp.dhcp_failover_statistics, dhcpsapi/DHCP_FAILOVER_STATISTICS, dhcpsapi/LPDHCP_FAILOVER_STATISTICS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,6 +95,11 @@ The <b>DHCP_FAILOVER_STATISTICS</b> structure defines DHCP server scope statisti
 
 
 
+#### - numAddr
+
+Value that specifies the total number of addresses in a DHCPv4 scope that are part of a failover relationship.
+
+
 #### - addrFree
 
 Value that specifies the total number of free IPv4 addresses that can be leased out to clients in a DHCPv4 scope that are part of a failover relationship.
@@ -105,24 +110,19 @@ Value that specifies the total number of free IPv4 addresses that can be leased 
 Value that specifies the total number of IPv4 addresses that are leased out to clients in a DHCPv4 scope that are part of a failover relationship.
 
 
-#### - numAddr
-
-Value that specifies the total number of addresses in a DHCPv4 scope that are part of a failover relationship.
-
-
 #### - partnerAddrFree
 
 Value that specifies the number of free IPv4 addresses on the partner server that can be leased out to clients in a DHCPv4 scope that are part of a failover relationship.
 
 
-#### - partnerAddrInUse
-
-Value that specifies the number of IPv4 addresses on the partner server that are leased out to clients in a DHCPv4 scope that are part of a failover relationship.
-
-
 #### - thisAddrFree
 
 Value that specifies the number of free IPv4 addresses on the local server that can be leased out to clients in a DHCPv4 scope that are part of a failover relationship.
+
+
+#### - partnerAddrInUse
+
+Value that specifies the number of IPv4 addresses on the partner server that are leased out to clients in a DHCPv4 scope that are part of a failover relationship.
 
 
 #### - thisAddrInUse

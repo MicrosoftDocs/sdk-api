@@ -7,7 +7,7 @@ old-location: security\icertpropertykeyprovinfo_privatekey_property.htm
 old-project: seccertenroll
 ms.assetid: 24cc6dea-fb29-4533-8f6c-3f273c5b94c3
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: ICertPropertyKeyProvInfo interface [Security],PrivateKey property, ICertPropertyKeyProvInfo.PrivateKey, ICertPropertyKeyProvInfo.get_PrivateKey, ICertPropertyKeyProvInfo::PrivateKey, ICertPropertyKeyProvInfo::get_PrivateKey, PrivateKey property [Security], PrivateKey property [Security],ICertPropertyKeyProvInfo interface, certenroll/ICertPropertyKeyProvInfo::PrivateKey, certenroll/ICertPropertyKeyProvInfo::get_PrivateKey, get_PrivateKey, security.icertpropertykeyprovinfo_privatekey_property
 ms.prod: windows
 ms.technology: windows-sdk

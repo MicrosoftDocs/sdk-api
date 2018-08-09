@@ -7,7 +7,7 @@ old-location: mapi\mapiresolvename.htm
 old-project: windowsmapi
 ms.assetid: c834ea40-62c6-44a8-b0e1-f569a92b4c83
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/07/2018
 ms.keywords: MAPIResolveName, MAPIResolveName callback, MAPIResolveName callback function, MAPI_AB_NOMODIFY, MAPI_DIALOG, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapiresolvename, mapi/MAPIResolveName
 ms.prod: windows
 ms.technology: windows-sdk

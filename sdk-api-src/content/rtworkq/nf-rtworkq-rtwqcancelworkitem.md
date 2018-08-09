@@ -7,7 +7,7 @@ old-location: base\rtwqcancelworkitem.htm
 old-project: procthread
 ms.assetid: 55d5c6d6-310e-4f73-bbf4-9ac47a3ed295
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: RtwqCancelWorkItem, RtwqCancelWorkItem function, base.rtwqcancelworkitem, rtworkq/RtwqCancelWorkItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-          Attempts to cancel an asynchronous operation that was scheduled with <a href="https://msdn.microsoft.com/cfc22cfb-44fc-441b-826c-61f72cb0bd68">RtwqScheduleWorkItem</a>.
+Attempts to cancel an asynchronous operation that was scheduled with <a href="https://msdn.microsoft.com/cfc22cfb-44fc-441b-826c-61f72cb0bd68">RtwqScheduleWorkItem</a>.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: ADAM
 
 ### -param Key [in]
 
-
-            The key that was received in the <i>key</i> parameter of the <a href="https://msdn.microsoft.com/cfc22cfb-44fc-441b-826c-61f72cb0bd68">RtwqScheduleWorkItem</a>.
+The key that was received in the <i>key</i> parameter of the <a href="https://msdn.microsoft.com/cfc22cfb-44fc-441b-826c-61f72cb0bd68">RtwqScheduleWorkItem</a>.
           
 
 

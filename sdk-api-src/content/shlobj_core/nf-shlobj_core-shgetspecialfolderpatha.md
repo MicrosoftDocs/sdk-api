@@ -7,7 +7,7 @@ old-location: shell\SHGetSpecialFolderPath.htm
 old-project: shell
 ms.assetid: 4c39fdc1-5e43-4042-8703-fb72c88e2637
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHGetSpecialFolderPath, SHGetSpecialFolderPath function [Windows Shell], SHGetSpecialFolderPathA, SHGetSpecialFolderPathW, _win32_SHGetSpecialFolderPath, shell.SHGetSpecialFolderPath, shlobj_core/SHGetSpecialFolderPath, shlobj_core/SHGetSpecialFolderPathA, shlobj_core/SHGetSpecialFolderPathW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,12 +70,16 @@ Retrieves the path of a special folder, identified by its <a href="https://msdn.
 
 ### -param hwnd
 
-TBD
+Type: <b>HWND</b>
+
+Reserved.
 
 
-### -param pszPath
+### -param pszPath [out]
 
-TBD
+Type: <b>LPTSTR</b>
+
+A pointer to a null-terminated string that receives the drive and path of the specified folder. This buffer must be at least MAX_PATH characters in size.
 
 
 ### -param csidl [in]
@@ -90,20 +94,6 @@ A <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSID
 Type: <b>BOOL</b>
 
 Indicates whether the folder should be created if it does not already exist. If this value is nonzero, the folder is created. If this value is zero, the folder is not created.
-
-
-#### - hwndOwner
-
-Type: <b>HWND</b>
-
-Reserved.
-
-
-#### - lpszPath [out]
-
-Type: <b>LPTSTR</b>
-
-A pointer to a null-terminated string that receives the drive and path of the specified folder. This buffer must be at least MAX_PATH characters in size.
 
 
 ## -returns

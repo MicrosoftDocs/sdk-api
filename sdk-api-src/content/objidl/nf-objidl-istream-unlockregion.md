@@ -7,7 +7,7 @@ old-location: stg\istream_unlockregion.htm
 old-project: stg
 ms.assetid: e34c8d94-b24b-4041-b5dd-2a4ed74b01ec
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: IStream interface [Structured Storage],UnlockRegion method, IStream.UnlockRegion, IStream::UnlockRegion, UnlockRegion, UnlockRegion method [Structured Storage], UnlockRegion method [Structured Storage],IStream interface, _stg_istream_unlockregion, objidl/IStream::UnlockRegion, stg.istream_unlockregion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The <b>UnlockRegion</b> method removes the access restriction on a range of bytes previously restricted with 
+The <b>UnlockRegion</b> method removes the access restriction on a range of bytes previously restricted with 
 <a href="https://msdn.microsoft.com/f2606833-05ed-4bd0-a762-7b8172fb14c8">IStream::LockRegion</a>.
 
 

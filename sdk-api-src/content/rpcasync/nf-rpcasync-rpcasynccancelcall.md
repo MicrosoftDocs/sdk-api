@@ -7,7 +7,7 @@ old-location: rpc\rpcasynccancelcall.htm
 old-project: rpc
 ms.assetid: e55d586f-969b-4e9a-97d9-b6c74b2a8b6d
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcAsyncCancelCall, RpcAsyncCancelCall function [RPC], _rpc_rpcasynccancelcall, rpc.rpcasynccancelcall, rpcasync/RpcAsyncCancelCall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,13 +67,6 @@ Pointer to the
 
 
 ### -param fAbort
-
-TBD
-
-
-
-
-#### - fAbortCall
 
 If <b>TRUE</b>, the call is canceled immediately. If <b>FALSE</b>, wait for the server to complete the call.
 

@@ -7,7 +7,7 @@ old-location: http\httpsendhttpresponse.htm
 old-project: http
 ms.assetid: 0183584f-105e-4fa3-8991-d3f2dfca1d62
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HTTP_SEND_RESPONSE_FLAG_BUFFER_DATA, HTTP_SEND_RESPONSE_FLAG_DISCONNECT, HTTP_SEND_RESPONSE_FLAG_ENABLE_NAGLING, HTTP_SEND_RESPONSE_FLAG_MORE_DATA, HTTP_SEND_RESPONSE_FLAG_OPAQUE, HTTP_SEND_RESPONSE_FLAG_PROCESS_RANGES, HttpSendHttpResponse, HttpSendHttpResponse function [HTTP], _http_httpsendhttpresponse, http.httpsendhttpresponse, http/HttpSendHttpResponse
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-			The 
+The 
 <b>HttpSendHttpResponse</b> function sends an HTTP response to the specified HTTP request.
 
 
@@ -61,9 +60,12 @@ req.product: GDI+ 1.1
 
 
 
-### -param RequestQueueHandle
+### -param RequestQueueHandle [in]
 
-TBD
+A handle to the request queue from which the specified request was retrieved. A request queue is created and its handle returned by a call to the 
+<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
+
+<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://msdn.microsoft.com/c3741092-c23a-465f-9a65-5bcbf977fad3">HttpCreateHttpHandle</a> function.
 
 
 ### -param RequestId [in]
@@ -173,9 +175,10 @@ This flag is only allowed when the <b>StatusCode</b> member of <i>pHttpResponse<
  
 
 
-### -param HttpResponse
+### -param HttpResponse [in]
 
-TBD
+A pointer to an 
+<a href="https://msdn.microsoft.com/F94646C0-7293-4543-842B-F08D8C7E2247">HTTP_RESPONSE</a> structure that defines the HTTP response.
 
 
 ### -param OPTIONAL
@@ -185,34 +188,16 @@ TBD
 
 
 
-### -param Reserved1
-
-TBD
-
-
-### -param Reserved2
-
-TBD
-
-
-#### - ReqQueueHandle [in]
-
-A handle to the request queue from which the specified request was retrieved. A request queue is created and its handle returned by a call to the 
-<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
-
-<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://msdn.microsoft.com/c3741092-c23a-465f-9a65-5bcbf977fad3">HttpCreateHttpHandle</a> function.
-
-
-#### - Reserved3 [in]
-
-This parameter is reserved and must be zero.
-
-
-#### - pBytesSent [out]
+### -param Reserved1 [out]
 
 Optional. A pointer to a variable that receives the number, in bytes, sent if the function operates synchronously.
 
 When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesSent</i> to <b>NULL</b>. Otherwise, when <i>pOverlapped</i> is set to <b>NULL</b>, <i>pBytesSent</i> must contain a valid memory address and not be set to <b>NULL</b>.
+
+
+### -param Reserved2 [in]
+
+This parameter is reserved and must be <b>NULL</b>.
 
 
 #### - pCachePolicy [in, optional]
@@ -222,10 +207,19 @@ A pointer to the <a href="https://msdn.microsoft.com/91fcbf35-ef8b-4f70-9c31-3f7
 <b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>This parameter is reserved and must be <b>NULL</b>.
 
 
-#### - pHttpResponse [in]
+#### - Reserved3 [in]
 
-A pointer to an 
-<a href="https://msdn.microsoft.com/F94646C0-7293-4543-842B-F08D8C7E2247">HTTP_RESPONSE</a> structure that defines the HTTP response.
+This parameter is reserved and must be zero.
+
+
+#### - pOverlapped [in]
+
+For asynchronous calls, set <i>pOverlapped</i> to point to an 
+<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure; for synchronous calls, set  to <b>NULL</b>.
+
+A synchronous call blocks until all response data specified in the <i>pHttpResponse</i> parameter is sent, whereas an asynchronous call immediately returns <b>ERROR_IO_PENDING</b> and the calling application then uses 
+<a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
+<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structures for synchronization, see <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>.
 
 
 #### - pLogData [in, optional]
@@ -239,27 +233,11 @@ Be aware that even when logging is enabled on a URL Group, or server session, th
 <b>Windows Vista and Windows Server 2008:  </b>This parameter is new for Windows Vista, and Windows Server 2008
 
 
-#### - pOverlapped [in]
-
-For asynchronous calls, set <i>pOverlapped</i> to point to an 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure; for synchronous calls, set  to <b>NULL</b>.
-
-A synchronous call blocks until all response data specified in the <i>pHttpResponse</i> parameter is sent, whereas an asynchronous call immediately returns <b>ERROR_IO_PENDING</b> and the calling application then uses 
-<a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structures for synchronization, see <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>.
-
-
-#### - pReserved2 [in]
-
-This parameter is reserved and must be <b>NULL</b>.
-
-
 ## -returns
 
 
 
-
-						If the function succeeds, the function returns <b>NO_ERROR</b>.
+If the function succeeds, the function returns <b>NO_ERROR</b>.
 
 If the function is used asynchronously, a return value of <b>ERROR_IO_PENDING</b> indicates that the next request is not yet ready and is retrieved later through normal overlapped I/O completion mechanisms.
 

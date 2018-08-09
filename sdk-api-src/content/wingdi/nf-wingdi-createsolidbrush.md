@@ -7,7 +7,7 @@ old-location: gdi\createsolidbrush.htm
 old-project: gdi
 ms.assetid: e39b5f77-97d8-4ea6-8277-7da12b3367f3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateSolidBrush, CreateSolidBrush function [Windows GDI], _win32_CreateSolidBrush, gdi.createsolidbrush, wingdi/CreateSolidBrush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,14 +64,7 @@ The <b>CreateSolidBrush</b> function creates a logical brush that has the specif
 
 
 
-### -param color
-
-TBD
-
-
-
-
-#### - crColor [in]
+### -param color [in]
 
 The color of the brush. To create a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> color value, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
 

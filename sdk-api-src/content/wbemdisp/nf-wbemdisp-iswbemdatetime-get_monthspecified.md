@@ -7,7 +7,7 @@ old-location: wmi\swbemdatetime_monthspecified.htm
 old-project: WmiSdk
 ms.assetid: 12dd94de-24be-4b13-bde5-2fc28be94efa
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemDateTime interface [Windows Management Instrumentation],MonthSpecified property, ISWbemDateTime.get_MonthSpecified, ISWbemDateTime.put_MonthSpecified, ISWbemDateTime::get_MonthSpecified, MonthSpecified property [Windows Management Instrumentation], MonthSpecified property [Windows Management Instrumentation],ISWbemDateTime interface, MonthSpecified property [Windows Management Instrumentation],SWbemDateTime object, SWbemDateTime object [Windows Management Instrumentation],MonthSpecified property, SWbemDateTime.MonthSpecified, _hmm_swbemdatetime.monthspecified, get_MonthSpecified, wmi.swbemdatetime_monthspecified
 ms.prod: windows
 ms.technology: windows-sdk

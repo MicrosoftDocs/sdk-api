@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10asynchronous.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10asynchronous.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D10Asynchronous, ID3D10Asynchronous interface [Direct3D 10], ID3D10Asynchronous interface [Direct3D 10],described, bbcae8e9-6f10-e6ca-52e5-20302edce780, d3d10/ID3D10Asynchronous, direct3d10.id3d10asynchronous
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ This interface encapsulates methods for retrieving data from the GPU asynchronou
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Asynchronous</b> interface inherits from <a href="https://msdn.microsoft.com/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>. <b>ID3D10Asynchronous</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Asynchronous</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>. <b>ID3D10Asynchronous</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID3D10Asynchronous</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173501(v=VS.85).aspx">Begin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173501(v=VS.85).aspx">Begin</a>
 </td>
 <td align="left" width="63%">
 Starts the collection of GPU data.
@@ -80,7 +80,7 @@ Starts the collection of GPU data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173502(v=VS.85).aspx">End</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173502(v=VS.85).aspx">End</a>
 </td>
 <td align="left" width="63%">
 Ends the collection of GPU data.
@@ -98,10 +98,10 @@ Get data from the GPU asynchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173504(v=VS.85).aspx">GetDataSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173504(v=VS.85).aspx">GetDataSize</a>
 </td>
 <td align="left" width="63%">
-Get the size of the data (in bytes) that is output when calling <a href="https://msdn.microsoft.com/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a>.
+Get the size of the data (in bytes) that is output when calling <a href="https://msdn.microsoft.com/en-us/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a>.
 
 </td>
 </tr>
@@ -116,11 +116,11 @@ There are three types of asynchronous interfaces, all of which inherit this inte
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173823(v=VS.85).aspx">ID3D10Query Interface</a> - Queries information from the GPU.</li>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173823(v=VS.85).aspx">ID3D10Query Interface</a> - Queries information from the GPU.</li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173822(v=VS.85).aspx">ID3D10Predicate Interface</a> - Determines whether a piece of geometry should be processed or not depending on the results of a previous draw call.</li>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173822(v=VS.85).aspx">ID3D10Predicate Interface</a> - Determines whether a piece of geometry should be processed or not depending on the results of a previous draw call.</li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173514(v=VS.85).aspx">ID3D10Counter Interface</a> - Measures GPU performance.</li>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173514(v=VS.85).aspx">ID3D10Counter Interface</a> - Measures GPU performance.</li>
 </ul>
 
 
@@ -130,11 +130,11 @@ There are three types of asynchronous interfaces, all of which inherit this inte
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>
  
 
  

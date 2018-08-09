@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11moduleinstance_bindsamplerbyname.htm
 old-project: direct3d11
 ms.assetid: 3AB143F9-6AF7-4C1A-8330-AAA4A7723327
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: BindSamplerByName, BindSamplerByName method [Direct3D 11], BindSamplerByName method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindSamplerByName method, ID3D11ModuleInstance.BindSamplerByName, ID3D11ModuleInstance::BindSamplerByName, d3d11shader/ID3D11ModuleInstance::BindSamplerByName, direct3d11.id3d11moduleinstance_bindsamplerbyname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ The number of slots for rebinding.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns:
 

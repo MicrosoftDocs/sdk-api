@@ -4,10 +4,10 @@ title: WSDCreateOutboundAttachment function
 author: windows-sdk-content
 description: Creates an IWSDOutboundAttachment object.
 old-location: ncd\wsdcreateoutboundattachment.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 92e4ed8a-4a17-49dd-9ed8-bc867ec8bba9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSDCreateOutboundAttachment, WSDCreateOutboundAttachment function, ncd.wsdcreateoutboundattachment, wsdattachment/WSDCreateOutboundAttachment
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,7 @@ Creates an <a href="https://msdn.microsoft.com/ba2f2038-e6ef-4ad4-a1fb-50e225394
 
 
 
-### -param ppAttachment
-
-TBD
-
-
-
-
-#### - attachmentOut [out]
+### -param ppAttachment [out]
 
 Returns a reference to the initialized <a href="https://msdn.microsoft.com/ba2f2038-e6ef-4ad4-a1fb-50e225394c60">IWSDOutboundAttachment</a> object. Cannot be <b>NULL</b>.
 

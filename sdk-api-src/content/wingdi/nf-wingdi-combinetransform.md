@@ -7,7 +7,7 @@ old-location: gdi\combinetransform.htm
 old-project: gdi
 ms.assetid: 6ccd7828-7aa6-4c86-a340-b93e50cf3a2a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CombineTransform, CombineTransform function [Windows GDI], _win32_CombineTransform, gdi.combinetransform, wingdi/CombineTransform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,36 +61,19 @@ The <b>CombineTransform</b> function concatenates two world-space to page-space 
 
 
 
-### -param lpxfOut
+### -param lpxfOut [out]
 
-TBD
-
-
-### -param lpxf1
-
-TBD
+A pointer to an <a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a> structure that receives the combined transformation.
 
 
-### -param lpxf2
-
-TBD
-
-
-
-
-#### - lpxform1 [in]
+### -param lpxf1 [in]
 
 A pointer to an <a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a> structure that specifies the first transformation.
 
 
-#### - lpxform2 [in]
+### -param lpxf2 [in]
 
 A pointer to an <a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a> structure that specifies the second transformation.
-
-
-#### - lpxformResult [out]
-
-A pointer to an <a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a> structure that receives the combined transformation.
 
 
 ## -returns

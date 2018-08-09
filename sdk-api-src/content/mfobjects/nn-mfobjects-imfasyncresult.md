@@ -7,7 +7,7 @@ old-location: mf\imfasyncresult.htm
 old-project: medfound
 ms.assetid: 8c95b1de-8974-445c-8070-41552ea83e53
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 8c95b1de-8974-445c-8070-41552ea83e53, IMFAsyncResult, IMFAsyncResult interface [Media Foundation], IMFAsyncResult interface [Media Foundation],described, mf.imfasyncresult, mfobjects/IMFAsyncResult
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Provides information about the result of an asynchronous operation.
+Provides information about the result of an asynchronous operation.
         
 
 

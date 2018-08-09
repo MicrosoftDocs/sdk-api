@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxrecipients_add_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_73l0.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],FaxRecipients object, FaxRecipients object [Fax Service],Add method, FaxRecipients.Add, IFaxRecipients.Add, IFaxRecipients::Add, _mfax_faxrecipients.add, fax._mfax_faxrecipients_add, fax._mfax_faxrecipients_add_vb
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Add</b> method adds a new <a href="https://msdn.microsoft.com/library/ms690204(v=VS.85).aspx">FaxRecipient</a> object to the <a href="https://msdn.microsoft.com/library/ms689604(v=VS.85).aspx">FaxRecipients</a> collection. 
+The <b>Add</b> method adds a new <a href="https://msdn.microsoft.com/en-us/library/ms690204(v=VS.85).aspx">FaxRecipient</a> object to the <a href="https://msdn.microsoft.com/en-us/library/ms689604(v=VS.85).aspx">FaxRecipients</a> collection. 
 
 
 ## -parameters
@@ -84,9 +84,9 @@ Specifies the name of the fax recipient.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms690206(v=VS.85).aspx">IFaxRecipient</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms690206(v=VS.85).aspx">IFaxRecipient</a>**</b>
 
-A <a href="https://msdn.microsoft.com/library/ms690204(v=VS.85).aspx">FaxRecipient</a> object.
+A <a href="https://msdn.microsoft.com/en-us/library/ms690204(v=VS.85).aspx">FaxRecipient</a> object.
 
 
 
@@ -96,15 +96,15 @@ A <a href="https://msdn.microsoft.com/library/ms690204(v=VS.85).aspx">FaxRecipie
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693479(v=VS.85).aspx">Broadcasting a Fax</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693479(v=VS.85).aspx">Broadcasting a Fax</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689604(v=VS.85).aspx">FaxRecipients</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689604(v=VS.85).aspx">FaxRecipients</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689605(v=VS.85).aspx">IFaxRecipients</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689605(v=VS.85).aspx">IFaxRecipients</a>
  
 
  

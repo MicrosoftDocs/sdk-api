@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathData_PathData_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathdataclass\pathdata_38.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: PathData, PathData class [GDI+],PathData constructor, PathData constructor [GDI+], PathData constructor [GDI+],PathData class, PathData.PathData, PathData.PathData(), PathData::PathData, _gdiplus_CLASS_PathData_PathData_, gdiplus._gdiplus_CLASS_PathData_PathData_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,19 +66,19 @@ Creates a <b>PathData::PathData</b> object. The <b>Count</b> data member is init
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535561(v=VS.85).aspx">GetPathPoints Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535561(v=VS.85).aspx">GetPathPoints Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535535(v=VS.85).aspx">GetPathTypes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535535(v=VS.85).aspx">GetPathTypes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535536(v=VS.85).aspx">GetPointCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535536(v=VS.85).aspx">GetPointCount</a>
 
 
 
@@ -86,15 +86,15 @@ Creates a <b>PathData::PathData</b> object. The <b>Count</b> data member is init
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534162(v=VS.85).aspx">PathPointType</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534162(v=VS.85).aspx">PathPointType</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536370(v=VS.85).aspx">Paths</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534488(v=VS.85).aspx">PointF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
  
 
  

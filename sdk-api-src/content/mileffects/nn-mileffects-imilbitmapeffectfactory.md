@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectfactory.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectfactory\imilbitmapeffectfactory.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IMILBitmapEffectFactory, IMILBitmapEffectFactory interface [WPF Bitmap Effects], IMILBitmapEffectFactory interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectfactory, mileffects/IMILBitmapEffectFactory, wibe._wibe_imilbitmapeffectfactory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,28 +71,28 @@ The <b>IMILBitmapEffectFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735292(v=VS.85).aspx">CreateContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735292(v=VS.85).aspx">CreateContext</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a> object.
+Creates an <a href="https://msdn.microsoft.com/en-us/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735293(v=VS.85).aspx">CreateEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735293(v=VS.85).aspx">CreateEffect</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> object.
+Creates an <a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735294(v=VS.85).aspx">CreateEffectOuter</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735294(v=VS.85).aspx">CreateEffectOuter</a>
 </td>
 <td align="left" width="63%">
-Creates an outer <a href="https://msdn.microsoft.com/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> object.
+Creates an outer <a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> object.
 
 </td>
 </tr>

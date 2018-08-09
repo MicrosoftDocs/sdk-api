@@ -7,7 +7,7 @@ old-location: fs\getlogcontainername.htm
 old-project: Clfs
 ms.assetid: 4ff12544-797d-48b9-9c42-4bec059e6551
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/03/2018
 ms.keywords: GetLogContainerName, GetLogContainerName function [Files], clfsw32/GetLogContainerName, fs.getlogcontainername
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ Retrieves
 
 ### -param hLog [in]
 
-
-      A handle to the log that is obtained from a successful call to 
+A handle to the log that is obtained from a successful call to 
       <a href="https://msdn.microsoft.com/ac104bf9-7ca7-417a-bd14-09b0e82c6a77">CreateLogFile</a>. 
 
 The log handle could refer to a 
@@ -76,14 +75,12 @@ The log handle could refer to a
 
 ### -param cidLogicalContainer [in]
 
-
-      The unique  identifier that is associated with a container. 
+The unique  identifier that is associated with a container. 
 
 
 ### -param pwstrContainerName [in, out]
 
-
-      A pointer to a user-allocated buffer to receive the full path and name of the log container, in wide characters.
+A pointer to a user-allocated buffer to receive the full path and name of the log container, in wide characters.
      
 
 
@@ -118,8 +115,7 @@ If the function succeeds, the value of this parameter is less than or equal to
 If the function succeeds, the return value is nonzero. 
       
 
-
-       If the function fails, the return value is zero (0). To get extended error information, call 
+If the function fails, the return value is zero (0). To get extended error information, call 
        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. The following list identifies the possible error codes:
 
 

@@ -7,7 +7,7 @@ old-location: multimedia\iavifile_readdata.htm
 old-project: Multimedia
 ms.assetid: 52071d08-1e95-4b4b-b85c-3fcca2c666aa
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IAVIFile interface [Windows Multimedia],ReadData method, IAVIFile.ReadData, IAVIFile::ReadData, ReadData, ReadData method [Windows Multimedia], ReadData method [Windows Multimedia],IAVIFile interface, _win32_IAVIFile_ReadData, multimedia.iavifile_readdata, vfw/IAVIFile::ReadData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,6 +80,11 @@ The <b>ReadData</b> method reads file headers. Called when an application uses t
 
 
 
+#### - ps
+
+Pointer to the interface to a file.
+
+
 #### - fcc
 
 Four-character code of the header to read.
@@ -93,11 +98,6 @@ Pointer to the buffer for the data.
 #### - lpcbBuffer
 
 Size, in bytes, of the buffer specified by <i>lpBuffer</i>. When this method returns control to the application, the contents of this parameter specifies the amount of data read.
-
-
-#### - ps
-
-Pointer to the interface to a file.
 
 
 ## -returns

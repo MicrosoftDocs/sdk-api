@@ -7,7 +7,7 @@ old-location: mstv\idvbteletextdescriptor_getrecordteletexttype.htm
 old-project: mstv
 ms.assetid: 4272d95a-406f-4afc-92b9-abfd618f41ab
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordTeletextType, GetRecordTeletextType method [Microsoft TV Technologies], GetRecordTeletextType method [Microsoft TV Technologies],IDvbTeletextDescriptor interface, IDvbTeletextDescriptor interface [Microsoft TV Technologies],GetRecordTeletextType method, IDvbTeletextDescriptor.GetRecordTeletextType, IDvbTeletextDescriptor::GetRecordTeletextType, dvbsiparser/IDvbTeletextDescriptor::GetRecordTeletextType, mstv.idvbteletextdescriptor_getrecordteletexttype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Gets the teletext type code from from a Digital Video Broadcast (DVB) teletext descriptor. 
+Gets the teletext type code from from a Digital Video Broadcast (DVB) teletext descriptor. 
 
 
 

@@ -7,7 +7,7 @@ old-location: automat\safearrayallocdescriptor.htm
 old-project: automat
 ms.assetid: 8fe5c802-cdc0-4e7a-9410-ba65f9a5140e
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: SafeArrayAllocDescriptor, SafeArrayAllocDescriptor function [Automation], _oa96_SafeArrayAllocDescriptor, automat.safearrayallocdescriptor, oleauto/SafeArrayAllocDescriptor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,7 +125,7 @@ The array could not be locked.
 
 
 
-This function allows the creation of safe arrays that contain elements with data types other than those provided by <a href="https://msdn.microsoft.com/library/ms221234(v=VS.85).aspx">SafeArrayCreate</a>. After creating an array descriptor using <b>SafeArrayAllocDescriptor</b>, set the element size in the array descriptor, an call <a href="https://msdn.microsoft.com/library/ms221468(v=VS.85).aspx">SafeArrayAllocData</a> to allocate memory for the array elements.
+This function allows the creation of safe arrays that contain elements with data types other than those provided by <a href="https://msdn.microsoft.com/en-us/library/ms221234(v=VS.85).aspx">SafeArrayCreate</a>. After creating an array descriptor using <b>SafeArrayAllocDescriptor</b>, set the element size in the array descriptor, an call <a href="https://msdn.microsoft.com/en-us/library/ms221468(v=VS.85).aspx">SafeArrayAllocData</a> to allocate memory for the array elements.
 
 
 #### Examples

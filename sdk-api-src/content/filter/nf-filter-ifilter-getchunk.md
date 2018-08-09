@@ -7,7 +7,7 @@ old-location: indexsrv\ifilter_getchunk.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_96gb.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 08/03/2018
 ms.keywords: GetChunk, GetChunk method [Indexing Service], GetChunk method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],GetChunk method, IFilter.GetChunk, IFilter::GetChunk, _idxs_IFilter_GetChunk, filter/IFilter::GetChunk, indexsrv.ifilter_getchunk
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Positions the filter at the beginning of the next chunk, or at the first chunk if this is the first call to the <b>GetChunk</b> method, and returns a description of the current chunk.
 
@@ -63,7 +63,7 @@ Positions the filter at the beginning of the next chunk, or at the first chunk i
 
 ### -param pStat [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/ms691016(v=VS.85).aspx">STAT_CHUNK</a> structure containing a description of the current chunk.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms691016(v=VS.85).aspx">STAT_CHUNK</a> structure containing a description of the current chunk.
 
 
 ## -returns
@@ -153,11 +153,11 @@ General access failure.
 
 
 
-If upon return <i>pStat</i> points to a <a href="https://msdn.microsoft.com/library/ms691016(v=VS.85).aspx">STAT_CHUNK</a> structure with the <b>breakType</b> member equal to CHUNK_NO_BREAK, only the <b>idChunk</b> member will be updated with the new chunk identifier (ID) value. The other members of the <b>STAT_CHUNK</b> structure remain unchanged. 
+If upon return <i>pStat</i> points to a <a href="https://msdn.microsoft.com/en-us/library/ms691016(v=VS.85).aspx">STAT_CHUNK</a> structure with the <b>breakType</b> member equal to CHUNK_NO_BREAK, only the <b>idChunk</b> member will be updated with the new chunk identifier (ID) value. The other members of the <b>STAT_CHUNK</b> structure remain unchanged. 
 
 
 
-Internal value-type properties (chunks with a <a href="https://msdn.microsoft.com/library/ms691020(v=VS.85).aspx">CHUNKSTATE</a> enumeration value of CHUNK_VALUE) cannot be concatenated using CHUNK_NO_BREAK. A single word cannot span more than two glued chunks. 
+Internal value-type properties (chunks with a <a href="https://msdn.microsoft.com/en-us/library/ms691020(v=VS.85).aspx">CHUNKSTATE</a> enumeration value of CHUNK_VALUE) cannot be concatenated using CHUNK_NO_BREAK. A single word cannot span more than two glued chunks. 
 
 
 
@@ -192,11 +192,11 @@ Before returning the results of a call to the <b>GetChunk</b> method on an embed
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691016(v=VS.85).aspx">STAT_CHUNK</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691016(v=VS.85).aspx">STAT_CHUNK</a>
  
 
  

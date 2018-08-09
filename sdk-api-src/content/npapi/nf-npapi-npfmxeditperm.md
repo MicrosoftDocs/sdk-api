@@ -7,7 +7,7 @@ old-location: security\npfmxeditperm.htm
 old-project: secauthn
 ms.assetid: 72ea90ce-3493-49bf-beaa-833217495e47
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: NPFMXEditPerm, NPFMXEditPerm function [Security], WNPERM_DLG_AUDIT, WNPERM_DLG_OWNER, WNPERM_DLG_PERM, _mnp_npfmxeditperm, npapi/NPFMXEditPerm, security.npfmxeditperm
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,7 @@ Pointer to the current drive name selected in File Manager.
 A handle to the FMX window which can be used to query selections.
 
 
-### -param nDialogType
-
-TBD
-
-
-
-
-#### - nType [in]
+### -param nDialogType [in]
 
 Specifies the type of permission dialog box to bring up. This parameter can be one of the following values.
 
@@ -123,8 +116,7 @@ Brings up the <b>Owner</b> dialog box.
 
 
 
-
-						If the function succeeds, the function should return WN_SUCCESS.
+If the function succeeds, the function should return WN_SUCCESS.
 					
 
 If the function fails, it should call 

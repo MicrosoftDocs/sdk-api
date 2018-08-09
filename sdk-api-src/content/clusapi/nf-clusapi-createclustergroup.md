@@ -7,7 +7,7 @@ old-location: mscs\createclustergroup.htm
 old-project: mscs
 ms.assetid: 7011640e-87d0-4f2b-971c-9e86c77db13e
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: CreateClusterGroup, CreateClusterGroup function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_GROUP, PCLUSAPI_CREATE_CLUSTER_GROUP function [Failover Cluster], _wolf_createclustergroup, clusapi/CreateClusterGroup, clusapi/PCLUSAPI_CREATE_CLUSTER_GROUP, mscs.createclustergroup
 ms.prod: windows
 ms.technology: windows-sdk

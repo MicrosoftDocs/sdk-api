@@ -7,7 +7,7 @@ old-location: mstv\iisdb_nbit.htm
 old-project: mstv
 ms.assetid: 32c15a03-6683-4b22-b374-a15784696368
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IISDB_NBIT, IISDB_NBIT interface [Microsoft TV Technologies], IISDB_NBIT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_NBIT, mstv.iisdb_nbit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,6 @@ req.product: Windows Media Format 9 Series or later
 
 Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
   The NBIT describes the programs included in a multiplexed transport stream for an ISDB broadcast.
-
 
 
 To obtain a pointer to this interface, first make sure that the media graph is in a running state and that the stream you are tuned to contains an NBIT. Then:
@@ -132,8 +131,7 @@ Returns a descriptor for a specified record
 <a href="https://msdn.microsoft.com/baec7c6a-67a7-4081-96ee-3cb35a72ff4e">GetRecordDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
-
-  Gets a descriptor from a record in an NBIT
+Gets a descriptor from a record in an NBIT
   by using the standard tag for the descriptor.
 
 </td>
@@ -215,7 +213,6 @@ Gets the version number from the NBIT.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
 </td>
 <td align="left" width="63%">
-
 Initializes an object that supports this interface.
 
 </td>

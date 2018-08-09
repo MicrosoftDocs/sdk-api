@@ -7,7 +7,7 @@ old-location: display\dxflipoverlay.htm
 old-project: display
 ms.assetid: 7674f853-e5ea-44c7-b5ed-5fd90bfa1bcb
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: DxFlipOverlay, DxFlipOverlay callback function [Display Devices], PDX_FLIPOVERLAY, PDX_FLIPOVERLAY callback, VideoMiniPort_DxApiFunctions_67a8d728-6197-4111-9115-597ff4311331.xml, display.dxflipoverlay, dxmini/DxFlipOverlay
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: DXGI_FORMAT
+req.typenames: D3DCOLORVALUE
 topic_type:
  - APIRef
  - kbSyntax
@@ -74,14 +74,14 @@ The<i> DxFlipOverlay</i> callback function is called when a client of the video 
 
 
 
-#### - FlipOverlayInfo
-
-Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549323">DDFLIPOVERLAYINFO</a> structure that contains the flip information for the surface.
-
-
 #### - HwDeviceExtension
 
 Points to the miniport driver's device extension.
+
+
+#### - FlipOverlayInfo
+
+Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549323">DDFLIPOVERLAYINFO</a> structure that contains the flip information for the surface.
 
 
 #### - lpOutput

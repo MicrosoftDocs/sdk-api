@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacontextdestroyenumhandle0.htm
 old-project: fwp
 ms.assetid: 2d8cb6e2-3923-473f-85d0-26638781651b
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPsecSaContextDestroyEnumHandle0, IPsecSaContextDestroyEnumHandle0 function [Filtering], fwp.ipsecsacontextdestroyenumhandle0, fwpmu/IPsecSaContextDestroyEnumHandle0
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpalette_isblackwhite.htm
 old-project: wic
 ms.assetid: a22603b9-5c23-4016-9f28-1cf420ac11fa
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],IsBlackWhite method, IWICPalette.IsBlackWhite, IWICPalette::IsBlackWhite, IsBlackWhite, IsBlackWhite method [Windows Imaging Component], IsBlackWhite method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_isblackwhite, wic._wic_codec_iwicpalette_isblackwhite, wincodec/IWICPalette::IsBlackWhite
 ms.prod: windows
 ms.technology: windows-sdk

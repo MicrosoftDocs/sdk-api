@@ -7,7 +7,7 @@ old-location: tsf\itfeditsession_doeditsession.htm
 old-project: TSF
 ms.assetid: f89b2676-9a69-492f-be8a-96e4436d594c
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: DoEditSession, DoEditSession method [Text Services Framework], DoEditSession method [Text Services Framework],ITfEditSession interface, ITfEditSession interface [Text Services Framework],DoEditSession method, ITfEditSession.DoEditSession, ITfEditSession::DoEditSession, _tsf_itfeditsession_doeditsession_ref, msctf/ITfEditSession::DoEditSession, tsf.itfeditsession_doeditsession
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,8 +112,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/b9d4718a-42a6-4be5-9f57-1a392cd98469">
-        ITfEditSession
+<a href="https://msdn.microsoft.com/b9d4718a-42a6-4be5-9f57-1a392cd98469">ITfEditSession
       </a>
 
 
@@ -122,8 +121,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/1de17286-5d56-4302-a144-5fe6ca7d5557">
-        TfEditCookie
+<a href="https://msdn.microsoft.com/1de17286-5d56-4302-a144-5fe6ca7d5557">TfEditCookie
       </a>
  
 

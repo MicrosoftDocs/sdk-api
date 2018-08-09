@@ -7,7 +7,7 @@ old-location: controls\BUTTON_IMAGELIST.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\button_imagelist.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*PBUTTON_IMAGELIST, BUTTON_IMAGELIST, BUTTON_IMAGELIST structure [Windows Controls], BUTTON_IMAGELIST_ALIGN_BOTTOM, BUTTON_IMAGELIST_ALIGN_CENTER, BUTTON_IMAGELIST_ALIGN_LEFT, BUTTON_IMAGELIST_ALIGN_RIGHT, BUTTON_IMAGELIST_ALIGN_TOP, PBUTTON_IMAGELIST, PBUTTON_IMAGELIST structure pointer [Windows Controls], _win32_BUTTON_IMAGELIST_str, _win32_BUTTON_IMAGELIST_str_cpp, commctrl/BUTTON_IMAGELIST, commctrl/PBUTTON_IMAGELIST, controls.BUTTON_IMAGELIST, controls._win32_BUTTON_IMAGELIST_str"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -142,19 +142,19 @@ Center the image.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775963(v=VS.85).aspx">BCM_GETIMAGELIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775963(v=VS.85).aspx">BCM_GETIMAGELIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775975(v=VS.85).aspx">BCM_SETIMAGELIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775975(v=VS.85).aspx">BCM_SETIMAGELIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761853(v=VS.85).aspx">Button_GetImageList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761853(v=VS.85).aspx">Button_GetImageList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761867(v=VS.85).aspx">Button_SetImageList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761867(v=VS.85).aspx">Button_SetImageList</a>
 
 
 

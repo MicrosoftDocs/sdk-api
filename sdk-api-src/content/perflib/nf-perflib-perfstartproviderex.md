@@ -4,10 +4,10 @@ title: PerfStartProviderEx function
 author: windows-sdk-content
 description: Registers the provider.
 old-location: perf\perfstartproviderex.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 9f3aefbf-0836-46fc-8a53-858c3c94cef9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PerfStartProviderEx, PerfStartProviderEx function [Perf], perf.perfstartproviderex, perflib/PerfStartProviderEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,14 +71,7 @@ GUID that uniquely identifies the provider. The <b>providerGuid</b> attribute of
 A <a href="https://msdn.microsoft.com/9bfab8aa-f44b-4515-8a2a-764583080f57">PERF_PROVIDER_CONTEXT</a> structure that contains pointers to the control callback, memory management routines, and context information.  
 
 
-### -param Provider
-
-TBD
-
-
-
-
-#### - phProvider [out]
+### -param Provider [out]
 
 Handle to the provider. You must call <a href="https://msdn.microsoft.com/4b31f88b-cadc-4bee-bdea-9079cc14c140">PerfStopProvider</a> to release resources associated with the handle.
 
@@ -87,8 +80,7 @@ Handle to the provider. You must call <a href="https://msdn.microsoft.com/4b31f8
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

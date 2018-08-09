@@ -7,7 +7,7 @@ old-location: fwp\ikeext_authentication_method2.htm
 old-project: fwp
 ms.assetid: f0bd649e-746d-4802-87fe-d8baec2b252f
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IKEEXT_AUTHENTICATION_METHOD2, IKEEXT_AUTHENTICATION_METHOD2 structure [Filtering], IKEEXT_AUTHENTICATION_METHOD2_, fwp.ikeext_authentication_method2, iketypes/IKEEXT_AUTHENTICATION_METHOD2
 ms.prod: windows
 ms.technology: windows-sdk

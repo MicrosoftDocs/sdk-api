@@ -4,10 +4,10 @@ title: DeleteSynchronizationBarrier function
 author: windows-sdk-content
 description: Deletes a synchronization barrier.
 old-location: base\deletesynchronizationbarrier.htm
-old-project: Sync
+old-project: sync
 ms.assetid: 04626b6f-f5f7-4042-9786-7cabd68636ac
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DeleteSynchronizationBarrier, DeleteSynchronizationBarrier function, base.deletesynchronizationbarrier, synchapi/DeleteSynchronizationBarrier
 ms.prod: windows
 ms.technology: windows-sdk

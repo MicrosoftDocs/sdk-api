@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp2_getscreenext.htm
 old-project: TSF
 ms.assetid: fdc258ab-b692-495c-be76-0b41d75625e2
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetScreenExt method, ITextStoreACP2.GetScreenExt, ITextStoreACP2::GetScreenExt, textstor/ITextStoreACP2::GetScreenExt, tsf.itextstoreacp2_getscreenext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,14 +131,12 @@ If the text is not currently displayed, for example, if the document window is m
 
 
 
-<a href="https://msdn.microsoft.com/86dde611-4c46-418c-aa89-728081a28943">
-        ITfContextView::GetScreenExt
+<a href="https://msdn.microsoft.com/86dde611-4c46-418c-aa89-728081a28943">ITfContextView::GetScreenExt
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">
-        TsViewCookie
+<a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">TsViewCookie
       </a>
  
 

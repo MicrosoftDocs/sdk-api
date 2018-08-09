@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ColorCurve_ColorCurve_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorcurveclass\colorcurveconstructors\colorcurve.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: ColorCurve, ColorCurve class [GDI+],ColorCurve constructor, ColorCurve constructor [GDI+], ColorCurve constructor [GDI+],ColorCurve class, ColorCurve.ColorCurve, ColorCurve::ColorCurve, _gdiplus_CLASS_ColorCurve_ColorCurve_, gdiplus._gdiplus_CLASS_ColorCurve_ColorCurve_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/library/ms534429(v=VS.85).aspx">ColorCurve</a> object. 
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534429(v=VS.85).aspx">ColorCurve</a> object. 
 
 
 ## -parameters
@@ -66,23 +66,23 @@ Creates a <a href="https://msdn.microsoft.com/library/ms534429(v=VS.85).aspx">Co
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534429(v=VS.85).aspx">ColorCurve</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534429(v=VS.85).aspx">ColorCurve</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536241(v=VS.85).aspx">ColorCurve::SetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536241(v=VS.85).aspx">ColorCurve::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534060(v=VS.85).aspx">ColorCurveParams</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534060(v=VS.85).aspx">ColorCurveParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534098(v=VS.85).aspx">CurveAdjustments</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534098(v=VS.85).aspx">CurveAdjustments</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534100(v=VS.85).aspx">CurveChannel</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534100(v=VS.85).aspx">CurveChannel</a>
  
 
  

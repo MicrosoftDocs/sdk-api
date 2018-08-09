@@ -7,7 +7,7 @@ old-location: display\engunlockdirectdrawsurface.htm
 old-project: display
 ms.assetid: 61d1ff1a-d5e3-4542-953c-8b1771622a63
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: EngUnlockDirectDrawSurface, EngUnlockDirectDrawSurface function [Display Devices], display.engunlockdirectdrawsurface, gdifncs_6582e033-3e56-4a8d-904d-2978c63ddd4b.xml, winddi/EngUnlockDirectDrawSurface
 ms.prod: windows
 ms.technology: windows-sdk

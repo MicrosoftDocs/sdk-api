@@ -4,10 +4,10 @@ title: "__MIDL_ItsPubPlugin_0001"
 author: windows-sdk-content
 description: Contains information about a resource that can be assigned to users in RemoteApp and Desktop Connection.
 old-location: termserv\pluginresource.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 209dee74-c52e-4e31-9d1b-1e7c6c0d0121
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "__MIDL_ItsPubPlugin_0001, pluginResource, pluginResource structure [Remote Desktop Services], termserv.pluginresource, tspubplugincom/pluginResource"
 ms.prod: windows
 ms.technology: windows-sdk

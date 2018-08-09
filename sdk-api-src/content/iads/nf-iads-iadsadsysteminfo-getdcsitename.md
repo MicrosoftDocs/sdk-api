@@ -7,7 +7,7 @@ old-location: adsi\iadsadsysteminfo_getdcsitename.htm
 old-project: ADSI
 ms.assetid: 2b9bb5f2-8312-4413-bbf2-4765fd33a2c6
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetDCSiteName, GetDCSiteName method [ADSI], GetDCSiteName method [ADSI],IADsADSystemInfo interface, IADsADSystemInfo interface [ADSI],GetDCSiteName method, IADsADSystemInfo.GetDCSiteName, IADsADSystemInfo::GetDCSiteName, _ds_iadsadsysteminfo_getdcsitename, adsi.iadsadsysteminfo__getdcsitename, adsi.iadsadsysteminfo_getdcsitename, iads/IADsADSystemInfo::GetDCSiteName
 ms.prod: windows
 ms.technology: windows-sdk

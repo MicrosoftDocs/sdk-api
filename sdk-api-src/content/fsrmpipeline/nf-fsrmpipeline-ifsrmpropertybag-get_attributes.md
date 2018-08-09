@@ -4,10 +4,10 @@ title: IFsrmPropertyBag::get_Attributes
 author: windows-sdk-content
 description: The attributes of the file.
 old-location: fsrm\ifsrmpropertybag_attributes.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 9d84b68f-1db8-43d5-964b-c961ec9c250b
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/01/2018
 ms.keywords: Attributes property [File Server Resource Manager], Attributes property [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],Attributes property, IFsrmPropertyBag.Attributes, IFsrmPropertyBag.get_Attributes, IFsrmPropertyBag::Attributes, IFsrmPropertyBag::get_Attributes, fs.ifsrmpropertybag_attributes, fsrm.ifsrmpropertybag_attributes, fsrmpipeline/IFsrmPropertyBag::Attributes, fsrmpipeline/IFsrmPropertyBag::get_Attributes, get_Attributes
 ms.prod: windows
 ms.technology: windows-sdk

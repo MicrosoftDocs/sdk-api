@@ -7,7 +7,7 @@ old-location: xaudio2\ixapo.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixapo.IXAPO
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: IXAPO, IXAPO interface [XAudio2 Audio Mixing APIs], IXAPO interface [XAudio2 Audio Mixing APIs],described, xapo/IXAPO, xaudio2.ixapo
 ms.prod: windows
 ms.technology: windows-sdk

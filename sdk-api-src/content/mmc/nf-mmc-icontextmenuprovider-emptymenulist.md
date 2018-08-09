@@ -7,7 +7,7 @@ old-location: mmc\icontextmenuprovider_emptymenulist.htm
 old-project: MMC
 ms.assetid: d8867d95-4812-499b-81cd-d0f9471fe33b
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: EmptyMenuList, EmptyMenuList method [MMC], EmptyMenuList method [MMC],IContextMenuProvider interface, IContextMenuProvider interface [MMC],EmptyMenuList method, IContextMenuProvider.EmptyMenuList, IContextMenuProvider::EmptyMenuList, _slate_icontextmenuprovider_emptymenulist, mmc.icontextmenuprovider_emptymenulist, mmc/IContextMenuProvider::EmptyMenuList
 ms.prod: windows
 ms.technology: windows-sdk

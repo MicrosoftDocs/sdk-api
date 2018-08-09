@@ -7,7 +7,7 @@ old-location: security\ix509attributecspprovider_signature_property.htm
 old-project: seccertenroll
 ms.assetid: 06245293-b331-4963-a0cf-b7c604580908
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509AttributeCspProvider interface [Security],Signature property, IX509AttributeCspProvider.Signature, IX509AttributeCspProvider.get_Signature, IX509AttributeCspProvider::Signature, IX509AttributeCspProvider::get_Signature, Signature property [Security], Signature property [Security],IX509AttributeCspProvider interface, certenroll/IX509AttributeCspProvider::Signature, certenroll/IX509AttributeCspProvider::get_Signature, get_Signature, security.ix509attributecspprovider_signature_property
 ms.prod: windows
 ms.technology: windows-sdk

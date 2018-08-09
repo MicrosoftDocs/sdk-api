@@ -7,7 +7,7 @@ old-location: wmp\iwmpmetadatatext_get_description.htm
 old-project: WMP
 ms.assetid: 8a593336-7ec8-4238-8923-c65374cecbeb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPMetadataText interface [Windows Media Player],get_description method, IWMPMetadataText.get_description, IWMPMetadataText::get_description, IWMPMetadataTextget_description, get_description, get_description method [Windows Media Player], get_description method [Windows Media Player],IWMPMetadataText interface, wmp.iwmpmetadatatext_get_description, wmp/IWMPMetadataText::get_description
 ms.prod: windows
 ms.technology: windows-sdk

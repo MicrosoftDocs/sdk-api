@@ -7,7 +7,7 @@ old-location: intl\scriptpositionsingleglyph.htm
 old-project: Intl
 ms.assetid: 8dc776a9-fdde-4982-a2ca-e4384615bc47
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ScriptPositionSingleGlyph, ScriptPositionSingleGlyph function [Internationalization for Windows Applications], _win32_ScriptPositionSingleGlyph, intl.scriptpositionsingleglyph, usp10/ScriptPositionSingleGlyph
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,9 +109,9 @@ The identifier of the original glyph being shaped.
 The original glyph advance width.
 
 
-### -param GOffset
+### -param GOffset [in]
 
-TBD
+The original glyph offset. Typically, this value is an output of <a href="https://msdn.microsoft.com/dd456988-ec9d-4e62-a93f-753ac08a18d9">ScriptPlaceOpenType</a> or <a href="https://msdn.microsoft.com/7f88432f-052f-4781-8346-31c8a0771e51">ScriptPlace</a>.
 
 
 ### -param piOutAdvance [out]
@@ -122,11 +122,6 @@ Pointer to the location in which this function retrieves the new advance width a
 ### -param pOutGoffset [out]
 
 Pointer to the location in which this function retrieves the new glyph offset adjusted for the alternate glyph.
-
-
-#### - Goffset [in]
-
-The original glyph offset. Typically, this value is an output of <a href="https://msdn.microsoft.com/dd456988-ec9d-4e62-a93f-753ac08a18d9">ScriptPlaceOpenType</a> or <a href="https://msdn.microsoft.com/7f88432f-052f-4781-8346-31c8a0771e51">ScriptPlace</a>.
 
 
 ## -returns

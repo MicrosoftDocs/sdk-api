@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_setinputmode.htm
 old-project: directmanipulation
 ms.assetid: 2be1c8a1-a729-4851-b103-b108b9a96e2d
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetInputMode method, IDirectManipulationViewport.SetInputMode, IDirectManipulationViewport::SetInputMode, SetInputMode, SetInputMode method [Direct Manipulation], SetInputMode method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setinputmode, directmanipulation/IDirectManipulationViewport::SetInputMode
 ms.prod: windows
 ms.technology: windows-sdk

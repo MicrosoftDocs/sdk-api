@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetoptionvaluev5.htm
 old-project: dhcp
 ms.assetid: afb598fd-b63f-4dd3-bd6e-287016c5fe57
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetOptionValueV5, DhcpGetOptionValueV5 function [DHCP], dhcp.dhcpgetoptionvaluev5, dhcpsapi/DhcpGetOptionValueV5
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpGetOptionValueV5</b> function retrieves a DHCP option value (the option code and associated data) for a particular scope. This function extends the functionality provided by <a href="https://msdn.microsoft.com/7dca800f-2427-44b1-bc92-f9db54de08a5">DhcpGetOptionValue</a> by allowing the caller to specify a class and/or vendor for the option.
+The <b>DhcpGetOptionValueV5</b> function retrieves a DHCP option value (the option code and associated data) for a particular scope. This function extends the functionality provided by <a href="https://msdn.microsoft.com/7dca800f-2427-44b1-bc92-f9db54de08a5">DhcpGetOptionValue</a> by allowing the caller to specify a class and/or vendor for the option.
 
 
 ## -parameters
@@ -212,8 +211,7 @@ The specified DHCP client is not a reserved client.
 
 
 
-<a href="https://msdn.microsoft.com/6a11cb60-2690-45d4-a5e6-a3ebdc1efe3d">
-        DHCP_OPTION_VALUE</a>
+<a href="https://msdn.microsoft.com/6a11cb60-2690-45d4-a5e6-a3ebdc1efe3d">DHCP_OPTION_VALUE</a>
 
 
 

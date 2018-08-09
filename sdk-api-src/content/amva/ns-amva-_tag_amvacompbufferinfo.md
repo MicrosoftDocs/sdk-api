@@ -7,7 +7,7 @@ old-location: dshow\amvacompbufferinfo.htm
 old-project: DirectShow
 ms.assetid: 74ef5dfb-1062-40c6-a2dd-76f46ca8db92
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: "*LPAMVACompBufferInfo, AMVACompBufferInfo, AMVACompBufferInfo structure [DirectShow], AMVACompBufferInfoStructure, LPAMVACompBufferInfo, LPAMVACompBufferInfo structure pointer [DirectShow], _tag_AMVACompBufferInfo, amva/AMVACompBufferInfo, amva/LPAMVACompBufferInfo, dshow.amvacompbufferinfo"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          The <b>AMVACompBufferInfo</b> structure describes the allocated surfaces and compressed buffer information.
+The <b>AMVACompBufferInfo</b> structure describes the allocated surfaces and compressed buffer information.
 
 
 ## -struct-fields
@@ -61,29 +60,25 @@ req.irql:
 
 ### -field dwNumCompBuffers
 
-
-            Number of buffers requested for compressed data.
+Number of buffers requested for compressed data.
           
 
 
 ### -field dwWidthToCreate
 
-
-            Width of surface to create.
+Width of surface to create.
           
 
 
 ### -field dwHeightToCreate
 
-
-            Height of surface to create.
+Height of surface to create.
           
 
 
 ### -field dwBytesToAllocate
 
-
-            Total number of bytes used by each surface.
+Total number of bytes used by each surface.
           
 
 

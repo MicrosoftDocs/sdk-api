@@ -4,10 +4,10 @@ title: IWSDiscoveredService::GetExtendedDiscoXML
 author: windows-sdk-content
 description: Retrieves custom or extensible data provided in the header or body of the SOAP message.
 old-location: ncd\iwsdiscoveredservice_getextendeddiscoxml.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 6ca12b1b-4adf-4c54-90b5-ab5286af9252
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetExtendedDiscoXML, GetExtendedDiscoXML method, GetExtendedDiscoXML method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetExtendedDiscoXML method, IWSDiscoveredService.GetExtendedDiscoXML, IWSDiscoveredService::GetExtendedDiscoXML, ncd.iwsdiscoveredservice_getextendeddiscoxml, wsddisco/IWSDiscoveredService::GetExtendedDiscoXML
 ms.prod: windows
 ms.technology: windows-sdk

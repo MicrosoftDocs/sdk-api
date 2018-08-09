@@ -7,7 +7,7 @@ old-location: gdi\deleteobject.htm
 old-project: gdi
 ms.assetid: cc679af0-6839-4c83-9c42-39d7ededda40
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DeleteObject, DeleteObject function [Windows GDI], DeleteObjectW, _win32_DeleteObject, gdi.deleteobject, wingdi/DeleteObject, wingdi/DeleteObjectW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,14 +64,7 @@ The <b>DeleteObject</b> function deletes a logical pen, brush, font, bitmap, reg
 
 
 
-### -param ho
-
-TBD
-
-
-
-
-#### - hObject [in]
+### -param ho [in]
 
 A handle to a logical pen, brush, font, bitmap, region, or palette.
 

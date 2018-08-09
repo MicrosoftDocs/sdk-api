@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumsubnetelementsv4.htm
 old-project: dhcp
 ms.assetid: 561a7aac-eed9-4a80-a4a4-f3a7727ae92a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpEnumSubnetElementsV4, DhcpEnumSubnetElementsV4 function [DHCP], dhcp.dhcpenumsubnetelementsv4, dhcpsapi/DhcpEnumSubnetElementsV4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -170,13 +170,11 @@ The specified IPv4 subnet does not exist on the DHCP server.
 
 
 
-<a href="https://msdn.microsoft.com/e70581b4-879b-450f-a99b-754145f4bee8">
-		  DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4</a>
+<a href="https://msdn.microsoft.com/e70581b4-879b-450f-a99b-754145f4bee8">DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4</a>
 
 
 
-<a href="https://msdn.microsoft.com/291be329-0588-4b67-835f-4f2b2369772a">
-		  DHCP_SUBNET_ELEMENT_TYPE</a>
+<a href="https://msdn.microsoft.com/291be329-0588-4b67-835f-4f2b2369772a">DHCP_SUBNET_ELEMENT_TYPE</a>
 
 
 

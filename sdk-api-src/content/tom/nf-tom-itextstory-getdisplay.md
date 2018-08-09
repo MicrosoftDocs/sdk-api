@@ -4,10 +4,10 @@ title: ITextStory::GetDisplay
 author: windows-sdk-content
 description: Gets a new display for a story.
 old-location: controls\itextstory_getdisplay.htm
-old-project: Controls
+old-project: controls
 ms.assetid: e9ea7fbc-b814-4dbd-ae8a-9e260b56abab
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetDisplay, GetDisplay method [Windows Controls], GetDisplay method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetDisplay method, ITextStory.GetDisplay, ITextStory::GetDisplay, controls.itextstory_getdisplay, tom/ITextStory::GetDisplay
 ms.prod: windows
 ms.technology: windows-sdk

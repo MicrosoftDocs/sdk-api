@@ -7,7 +7,7 @@ old-location: com\ifont_isequal.htm
 old-project: com
 ms.assetid: becef75d-8342-4b4f-82e2-f1cca4eb619e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IFont interface [COM],IsEqual method, IFont.IsEqual, IFont::IsEqual, IsEqual, IsEqual method [COM], IsEqual method [COM],IFont interface, _ctrl_ifont_isequal, com.ifont_isequal, ocidl/IFont::IsEqual
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Compares this font object to another for equivalence.
 
 ### -param pFontOther [in]
 
-
-      A pointer to the <a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a> interface on the font object to be compared to this font. The reference count of the object referred to by this pointer is not affected by the comparison operation.
+A pointer to the <a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a> interface on the font object to be compared to this font. The reference count of the object referred to by this pointer is not affected by the comparison operation.
      
 
 

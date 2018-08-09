@@ -4,10 +4,10 @@ title: SetScrollInfo function
 author: windows-sdk-content
 description: The SetScrollInfo function sets the parameters of a scroll bar, including the minimum and maximum scrolling positions, the page size, and the position of the scroll box (thumb). The function also redraws the scroll bar, if requested.
 old-location: controls\SetScrollInfo.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\setscrollinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SB_CTL, SB_HORZ, SB_VERT, SIF_DISABLENOSCROLL, SIF_PAGE, SIF_POS, SIF_RANGE, SetScrollInfo, SetScrollInfo function [Windows Controls], _win32_SetScrollInfo, _win32_SetScrollInfo_cpp, controls.SetScrollInfo, controls._win32_SetScrollInfo, winuser/SetScrollInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,9 +73,50 @@ Handle to a scroll bar control or a window with a standard scroll bar, depending
 					<i>fnBar</i> parameter. 
 
 
-### -param nBar
+### -param nBar [in]
 
-TBD
+Type: <b>int</b>
+
+Specifies the type of scroll bar for which to set parameters. This parameter can be one of the following values. 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="SB_CTL"></a><a id="sb_ctl"></a><dl>
+<dt><b>SB_CTL</b></dt>
+</dl>
+</td>
+<td width="60%">
+Sets the parameters of a scroll bar control. The 
+						<i>hwnd</i> parameter must be the handle to the scroll bar control. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SB_HORZ"></a><a id="sb_horz"></a><dl>
+<dt><b>SB_HORZ</b></dt>
+</dl>
+</td>
+<td width="60%">
+Sets the parameters of the window's standard horizontal scroll bar. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SB_VERT"></a><a id="sb_vert"></a><dl>
+<dt><b>SB_VERT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Sets the parameters of the window's standard vertical scroll bar. 
+
+</td>
+</tr>
+</table>
+ 
 
 
 ### -param lpsi [in]
@@ -145,64 +186,11 @@ Sets the scroll range to the value specified in the
  
 
 
-### -param redraw
-
-TBD
-
-
-
-
-#### - fRedraw [in]
+### -param redraw [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Specifies whether the scroll bar is redrawn to reflect the changes to the scroll bar. If this parameter is <b>TRUE</b>, the scroll bar is redrawn, otherwise, it is not redrawn. 
-
-
-#### - fnBar [in]
-
-Type: <b>int</b>
-
-Specifies the type of scroll bar for which to set parameters. This parameter can be one of the following values. 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="SB_CTL"></a><a id="sb_ctl"></a><dl>
-<dt><b>SB_CTL</b></dt>
-</dl>
-</td>
-<td width="60%">
-Sets the parameters of a scroll bar control. The 
-						<i>hwnd</i> parameter must be the handle to the scroll bar control. 
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SB_HORZ"></a><a id="sb_horz"></a><dl>
-<dt><b>SB_HORZ</b></dt>
-</dl>
-</td>
-<td width="60%">
-Sets the parameters of the window's standard horizontal scroll bar. 
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SB_VERT"></a><a id="sb_vert"></a><dl>
-<dt><b>SB_VERT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Sets the parameters of the window's standard vertical scroll bar. 
-
-</td>
-</tr>
-</table>
- 
 
 
 ## -returns

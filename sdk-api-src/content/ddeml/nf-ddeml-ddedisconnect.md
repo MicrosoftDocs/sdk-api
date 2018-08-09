@@ -7,7 +7,7 @@ old-location: dataxchg\ddedisconnect.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddedisconnect.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: DdeDisconnect, DdeDisconnect function [Data Exchange], _win32_DdeDisconnect, _win32_ddedisconnect_cpp, dataxchg.ddedisconnect, ddeml/DdeDisconnect, winui._win32_ddedisconnect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Terminates a conversation started by either the <a href="https://msdn.microsoft.com/library/ms648745(v=VS.85).aspx">DdeConnect</a> or <a href="https://msdn.microsoft.com/library/ms648746(v=VS.85).aspx">DdeConnectList</a> function and invalidates the specified conversation handle. 
+Terminates a conversation started by either the <a href="https://msdn.microsoft.com/en-us/library/ms648745(v=VS.85).aspx">DdeConnect</a> or <a href="https://msdn.microsoft.com/en-us/library/ms648746(v=VS.85).aspx">DdeConnectList</a> function and invalidates the specified conversation handle. 
 
 
 ## -parameters
@@ -75,7 +75,7 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. 
 
-The <a href="https://msdn.microsoft.com/library/ms648755(v=VS.85).aspx">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
+The <a href="https://msdn.microsoft.com/en-us/library/ms648755(v=VS.85).aspx">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
 
 
 
@@ -84,7 +84,7 @@ The <a href="https://msdn.microsoft.com/library/ms648755(v=VS.85).aspx">DdeGetLa
 
 
 
-Any incomplete transactions started before calling <b>DdeDisconnect</b> are immediately abandoned. The <a href="https://msdn.microsoft.com/library/ms648720(v=VS.85).aspx">XTYP_DISCONNECT</a> transaction is sent to the Dynamic Data Exchange (DDE) callback function of the partner in the conversation. Generally, only client applications must terminate conversations. 
+Any incomplete transactions started before calling <b>DdeDisconnect</b> are immediately abandoned. The <a href="https://msdn.microsoft.com/en-us/library/ms648720(v=VS.85).aspx">XTYP_DISCONNECT</a> transaction is sent to the Dynamic Data Exchange (DDE) callback function of the partner in the conversation. Generally, only client applications must terminate conversations. 
 
 
 
@@ -98,19 +98,19 @@ Any incomplete transactions started before calling <b>DdeDisconnect</b> are imme
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648745(v=VS.85).aspx">DdeConnect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648745(v=VS.85).aspx">DdeConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648746(v=VS.85).aspx">DdeConnectList</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648746(v=VS.85).aspx">DdeConnectList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648750(v=VS.85).aspx">DdeDisconnectList</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648750(v=VS.85).aspx">DdeDisconnectList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
 
 
 
@@ -118,7 +118,7 @@ Any incomplete transactions started before calling <b>DdeDisconnect</b> are imme
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648720(v=VS.85).aspx">XTYP_DISCONNECT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648720(v=VS.85).aspx">XTYP_DISCONNECT</a>
  
 
  

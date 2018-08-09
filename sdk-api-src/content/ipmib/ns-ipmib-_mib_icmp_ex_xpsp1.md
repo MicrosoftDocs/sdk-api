@@ -7,7 +7,7 @@ old-location: mib\mib_icmp_ex.htm
 old-project: mib
 ms.assetid: 3d2c7edc-c9e6-4db6-b7c8-07f7f01cbe0d
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/30/2018
 ms.keywords: "*PMIB_ICMP_EX, *PMIB_ICMP_EX_XPSP1, MIB_ICMP_EX, MIB_ICMP_EX structure [MIB], MIB_ICMP_EX_XPSP1, PMIB_ICMP_EX, PMIB_ICMP_EX structure pointer [MIB], _MIB_ICMP_EX_XPSP1, ipmib/MIB_ICMP_EX, ipmib/PMIB_ICMP_EX, iprtrmib/MIB_ICMP_EX, iprtrmib/PMIB_ICMP_EX, mib.mib_icmp_ex, rras.mib_icmp_ex"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-			The 
+The 
 <b>MIB_ICMP_EX</b> structure contains the extended Internet Control Message Protocol (ICMP) statistics for a particular computer.
 
 
@@ -92,7 +91,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365934(v=VS.85).aspx">GetIcmpStatistics</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365934(v=VS.85).aspx">GetIcmpStatistics</a>
 
 
 

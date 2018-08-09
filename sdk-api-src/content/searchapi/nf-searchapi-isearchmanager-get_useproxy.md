@@ -7,7 +7,7 @@ old-location: search\_search_ISearchManager_get_UseProxy.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_useproxy.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchManager interface [search],get_UseProxy method, ISearchManager.get_UseProxy, ISearchManager::get_UseProxy, _search_ISearchManager_get_UseProxy, get_UseProxy, get_UseProxy method [search], get_UseProxy method [search],ISearchManager interface, search._search_ISearchManager_get_UseProxy, searchapi/ISearchManager::get_UseProxy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-            Retrieves the proxy server to be used.
+Retrieves the proxy server to be used.
         
 
 
@@ -63,10 +62,9 @@ req.product: ADAM
 
 ### -param pUseProxy [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa965699(v=VS.85).aspx">PROXY_ACCESS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965699(v=VS.85).aspx">PROXY_ACCESS</a>*</b>
 
-
-                    Receives a pointer to the proxy server to be used.
+Receives a pointer to the proxy server to be used.
                 
 
 

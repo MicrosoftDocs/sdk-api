@@ -7,7 +7,7 @@ old-location: fwp\ipsec_cipher_type_enum.htm
 old-project: fwp
 ms.assetid: 88bcd239-83a6-4bc6-b9c8-2416c91ee4c4
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPSEC_CIPHER_TYPE, IPSEC_CIPHER_TYPE enumeration [Filtering], IPSEC_CIPHER_TYPE_, IPSEC_CIPHER_TYPE_3DES, IPSEC_CIPHER_TYPE_AES_128, IPSEC_CIPHER_TYPE_AES_192, IPSEC_CIPHER_TYPE_AES_256, IPSEC_CIPHER_TYPE_DES, IPSEC_CIPHER_TYPE_MAX, fwp.ipsec_cipher_type_enum, ipsectypes/IPSEC_CIPHER_TYPE, ipsectypes/IPSEC_CIPHER_TYPE_3DES, ipsectypes/IPSEC_CIPHER_TYPE_AES_128, ipsectypes/IPSEC_CIPHER_TYPE_AES_192, ipsectypes/IPSEC_CIPHER_TYPE_AES_256, ipsectypes/IPSEC_CIPHER_TYPE_DES, ipsectypes/IPSEC_CIPHER_TYPE_MAX
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-		The <b>IPSEC_CIPHER_TYPE</b> enumerated type indicates the type of encryption algorithm used in an IPsec SA for data privacy.
+The <b>IPSEC_CIPHER_TYPE</b> enumerated type indicates the type of encryption algorithm used in an IPsec SA for data privacy.
 
 
 ## -enum-fields

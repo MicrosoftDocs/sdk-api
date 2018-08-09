@@ -7,7 +7,7 @@ old-location: shell\IFileOperationProgressSink_PostMoveItem.htm
 old-project: shell
 ms.assetid: cd353e15-4b1c-4d02-aa3f-c8d744a1722f
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PostMoveItem method, IFileOperationProgressSink.PostMoveItem, IFileOperationProgressSink::PostMoveItem, PostMoveItem, PostMoveItem method [Windows Shell], PostMoveItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PostMoveItem, shell.IFileOperationProgressSink_PostMoveItem, shobjidl_core/IFileOperationProgressSink::PostMoveItem
 ms.prod: windows
 ms.technology: windows-sdk

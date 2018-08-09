@@ -7,7 +7,7 @@ old-location: opc\iopcparturi.htm
 old-project: OPC
 ms.assetid: 81123212-7a32-4833-b81f-8454a544327d
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcPartUri, IOpcPartUri interface [Open Packaging Conventions], IOpcPartUri interface [Open Packaging Conventions],described, msopc/IOpcPartUri, opc.iopcparturi
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Represents the part name of a part.  
-        If the part is a Relationships part, it is represented by the <a href="https://msdn.microsoft.com/6259906d-820d-4b6e-bbeb-d9d044f2b35a">IOpcRelationshipSet</a> interface; otherwise, it is represented by the <a href="https://msdn.microsoft.com/e6a40f30-03d1-4c93-a5e0-563b4c6588b4">IOpcPart</a> interface.
+Represents the part name of a part.  If the part is a Relationships part, it is represented by the <a href="https://msdn.microsoft.com/6259906d-820d-4b6e-bbeb-d9d044f2b35a">IOpcRelationshipSet</a> interface; otherwise, it is represented by the <a href="https://msdn.microsoft.com/e6a40f30-03d1-4c93-a5e0-563b4c6588b4">IOpcPart</a> interface.
 
 
 ## -inheritance

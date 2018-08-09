@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstoragecontrol2_insert2.htm
 old-project: WMDM
 ms.assetid: bc6cc03c-e13a-45d8-afcb-1fadd5f4dd8e
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: IWMDMStorageControl2 interface [windows Media Device Manager],Insert2 method, IWMDMStorageControl2.Insert2, IWMDMStorageControl2::Insert2, IWMDMStorageControl2Insert2, Insert2, Insert2 method [windows Media Device Manager], Insert2 method [windows Media Device Manager],IWMDMStorageControl2 interface, mswmdm/IWMDMStorageControl2::Insert2, wmdm.iwmdmstoragecontrol2_insert2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,11 @@ Processing mode used for the <b>Insert2</b> operation. The following table lists
 
 <table>
 <tr>
-<th>
-                  Combinations
+<th>Combinations
                 </th>
-<th>
-                  Mode
+<th>Mode
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

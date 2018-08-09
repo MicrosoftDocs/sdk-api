@@ -7,7 +7,7 @@ old-location: cos\icomtrackinginfoobject_getvalue.htm
 old-project: cossdk
 ms.assetid: 38f5fc3d-eecd-42e5-92ea-df2b096aa1cc
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: GetValue, GetValue method [COM+], GetValue method [COM+],IComTrackingInfoObject interface, IComTrackingInfoObject interface [COM+],GetValue method, IComTrackingInfoObject.GetValue, IComTrackingInfoObject::GetValue, _dtc_IComTrackingInfoObject_GetValue, comsvcs/IComTrackingInfoObject::GetValue, cos.icomtrackinginfoobject_getvalue
 ms.prod: windows
 ms.technology: windows-sdk

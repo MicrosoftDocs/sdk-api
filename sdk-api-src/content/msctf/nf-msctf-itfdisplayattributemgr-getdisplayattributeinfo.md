@@ -7,7 +7,7 @@ old-location: tsf\itfdisplayattributemgr_getdisplayattributeinfo.htm
 old-project: TSF
 ms.assetid: 41bc183f-013f-4e68-bb72-d9a30d5ea48e
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetDisplayAttributeInfo, GetDisplayAttributeInfo method [Text Services Framework], GetDisplayAttributeInfo method [Text Services Framework],ITfDisplayAttributeMgr interface, ITfDisplayAttributeMgr interface [Text Services Framework],GetDisplayAttributeInfo method, ITfDisplayAttributeMgr.GetDisplayAttributeInfo, ITfDisplayAttributeMgr::GetDisplayAttributeInfo, _tsf_itfdisplayattributemgr_getdisplayattributeinfo_ref, msctf/ITfDisplayAttributeMgr::GetDisplayAttributeInfo, tsf.itfdisplayattributemgr_getdisplayattributeinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,14 +111,12 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/e283a45d-b585-4a26-89db-7ed706f0f593">
-        ITfContext::TrackProperties
+<a href="https://msdn.microsoft.com/e283a45d-b585-4a26-89db-7ed706f0f593">ITfContext::TrackProperties
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/7f590ecf-06e9-42da-ba40-4364296ae594">
-        ITfDisplayAttributeInfo
+<a href="https://msdn.microsoft.com/7f590ecf-06e9-42da-ba40-4364296ae594">ITfDisplayAttributeInfo
       </a>
 
 

@@ -7,7 +7,7 @@ old-location: dxmath\xmcomparisonanyoutofbounds.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMComparisonAnyOutOfBounds(uint32_t)
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/30/2018
 ms.keywords: Use DirectX..XMComparisonAnyOutOfBounds, XMComparisonAnyOutOfBounds, XMComparisonAnyOutOfBounds method [DirectX Math Support APIs], dxmath.xmcomparisonanyoutofbounds
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Tests the comparison value to determine if any of the compared components are ou
 
 Comparison value to test. The comparison value is typically retrieved using a recording version of an DirectXMath
         function such as 
-        <a href="https://msdn.microsoft.com/library/Hh404800(v=VS.85).aspx">XMVectorInBoundsR</a>. The names of the recording functions end
+        <a href="https://msdn.microsoft.com/en-us/library/Hh404800(v=VS.85).aspx">XMVectorInBoundsR</a>. The names of the recording functions end
         with an "R".
 
 
@@ -113,27 +113,27 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/library/Hh437885(v=VS.85).aspx">XMComparisonAllFalse</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437885(v=VS.85).aspx">XMComparisonAllFalse</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Hh437886(v=VS.85).aspx">XMComparisonAllInBounds</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437886(v=VS.85).aspx">XMComparisonAllInBounds</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Hh437889(v=VS.85).aspx">XMComparisonAnyFalse</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437889(v=VS.85).aspx">XMComparisonAnyFalse</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Hh437899(v=VS.85).aspx">XMComparisonAnyTrue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437899(v=VS.85).aspx">XMComparisonAnyTrue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Hh437908(v=VS.85).aspx">XMComparisonMixed</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437908(v=VS.85).aspx">XMComparisonMixed</a>
  
 
  

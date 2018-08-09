@@ -7,7 +7,7 @@ old-location: buses\winusb_querypipe.htm
 old-project: usbref
 ms.assetid: cbc0a988-27ee-46f5-be03-fe79eedd128a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WinUsb_QueryPipe, WinUsb_QueryPipe function [Buses], buses.winusb_querypipe, winusb/WinUsb_QueryPipe, winusbfunc_1a0b0ae5-25b3-47b5-bc32-165be320831b.xml
 ms.prod: windows
 ms.technology: windows-sdk

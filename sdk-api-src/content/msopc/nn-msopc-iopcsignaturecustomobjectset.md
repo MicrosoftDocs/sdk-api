@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturecustomobjectset.htm
 old-project: OPC
 ms.assetid: eb2a561d-2723-45dc-98a6-ecf11101016b
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcSignatureCustomObjectSet, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions], IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],described, msopc/IOpcSignatureCustomObjectSet, opc.iopcsignaturecustomobjectset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IOpcSignatureCustomObjectSet</b> interface has these methods.
 <a href="https://msdn.microsoft.com/93bf4509-900c-42bc-9834-c8a33cfe7e65">Create</a>
 </td>
 <td align="left" width="63%">
-
-              Creates an <a href="https://msdn.microsoft.com/4ebb4fbe-66cc-46d9-b548-31177d9f6da9">IOpcSignatureCustomObject</a> interface pointer to represent an application-specific <b>Object</b> element in the signature, and adds the new interface to the set.
+Creates an <a href="https://msdn.microsoft.com/4ebb4fbe-66cc-46d9-b548-31177d9f6da9">IOpcSignatureCustomObject</a> interface pointer to represent an application-specific <b>Object</b> element in the signature, and adds the new interface to the set.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IOpcSignatureCustomObjectSet</b> interface has these methods.
 <a href="https://msdn.microsoft.com/7cfd8439-8f7e-4112-a2c0-3827922fb4b0">Delete</a>
 </td>
 <td align="left" width="63%">
-
-              Deletes a specified <a href="https://msdn.microsoft.com/4ebb4fbe-66cc-46d9-b548-31177d9f6da9">IOpcSignatureCustomObject</a> interface pointer from the set.
+Deletes a specified <a href="https://msdn.microsoft.com/4ebb4fbe-66cc-46d9-b548-31177d9f6da9">IOpcSignatureCustomObject</a> interface pointer from the set.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IOpcSignatureCustomObjectSet</b> interface has these methods.
 <a href="https://msdn.microsoft.com/a365a1df-4c72-44a0-bcf5-8ef19c54f4ee">GetEnumerator</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an enumerator of <a href="https://msdn.microsoft.com/4ebb4fbe-66cc-46d9-b548-31177d9f6da9">IOpcSignatureCustomObject</a> interface pointers in the set.
+Gets an enumerator of <a href="https://msdn.microsoft.com/4ebb4fbe-66cc-46d9-b548-31177d9f6da9">IOpcSignatureCustomObject</a> interface pointers in the set.
             
 
 </td>

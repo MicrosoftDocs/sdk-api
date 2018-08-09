@@ -7,7 +7,7 @@ old-location: cos\ieventobjectchange2.htm
 old-project: cossdk
 ms.assetid: 1b51c7ad-eae7-4030-81c2-ed9259648d31
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IEventObjectChange2, IEventObjectChange2 interface [COM+], IEventObjectChange2 interface [COM+],described, _cos_IEventObjectChange2, cos.ieventobjectchange2, eventsys/IEventObjectChange2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,6 @@ The <b>IEventObjectChange2</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ae760225-2c4f-46e5-8d35-eefec8f2f5da">ChangedEventClass</a>
 </td>
 <td align="left" width="63%">
-
 Indicates that an event class object has been added, modified, or deleted.
 
 </td>

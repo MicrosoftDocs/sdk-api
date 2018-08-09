@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_getmaxidealimagesize.htm
 old-project: DirectShow
 ms.assetid: ee9f6803-c8b8-48e0-9be0-3d61a453014e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: GetMaxIdealImageSize, GetMaxIdealImageSize method [DirectShow], GetMaxIdealImageSize method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetMaxIdealImageSize method, IVideoWindow.GetMaxIdealImageSize, IVideoWindow::GetMaxIdealImageSize, IVideoWindowGetMaxIdealImageSize, control/IVideoWindow::GetMaxIdealImageSize, dshow.ivideowindow_getmaxidealimagesize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -145,8 +145,7 @@ This method returns S_FALSE under various circumstances:
 
 <ul>
 <li>The filter is using an <a href="https://msdn.microsoft.com/2d49888a-7046-4779-9634-d181fa582584">IOverlay</a> transport.</li>
-<li>
-            UseWhenFullScreen mode is on. (See <a href="https://msdn.microsoft.com/e50f7f06-6534-4373-a2b8-fa315158729d">IDirectDrawVideo::UseWhenFullScreen</a>.)</li>
+<li>UseWhenFullScreen mode is on. (See <a href="https://msdn.microsoft.com/e50f7f06-6534-4373-a2b8-fa315158729d">IDirectDrawVideo::UseWhenFullScreen</a>.)</li>
 <li>The video surface has no maximum overlay stretch. (The <b>dwMaxOverlayStretch</b> member of the DDCAPS structure is zero. See <a href="https://msdn.microsoft.com/d63437e3-4e8a-49de-b555-db29d235569d">IDirectDrawVideo::GetCaps</a>.)</li>
 </ul>
 

@@ -7,7 +7,7 @@ old-location: display\clipobj_benum.htm
 old-project: display
 ms.assetid: d54e6e2a-4869-45d6-9ad1-4e9aca5f5e77
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: CLIPOBJ_bEnum, CLIPOBJ_bEnum function [Display Devices], display.clipobj_benum, gdifncs_8f383214-6bb4-4099-bdf7-c019a28ef8ac.xml, winddi/CLIPOBJ_bEnum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,7 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5394
 Specifies the size, in bytes, of the buffer pointed to by <i>pv</i>.
 
 
-### -param pul
-
-TBD
-
-
-
-
-#### - pv [out]
+### -param pul [out]
 
 Pointer to the buffer that will receive data about the clip region in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff565490">ENUMRECTS</a> structure.
 

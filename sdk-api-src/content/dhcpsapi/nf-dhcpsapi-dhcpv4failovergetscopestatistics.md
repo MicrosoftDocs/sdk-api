@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4failovergetscopestatistics.htm
 old-project: dhcp
 ms.assetid: 888945a8-5c07-440a-ad2d-2126342facda
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpV4FailoverGetScopeStatistics, DhcpV4FailoverGetScopeStatistics function [DHCP], dhcp.dhcpv4failovergetscopestatistics, dhcpsapi/DhcpV4FailoverGetScopeStatistics
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,9 +63,10 @@ The <b>DhcpV4FailoverGetScopeStatistics</b> function retrieves the address usage
 Pointer to a null-terminated Unicode string that represents the IP address or hostname of the DHCP server.
 
 
-### -param ScopeId
+### -param ScopeId [in]
 
-TBD
+
+<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> structure that contains the IPv4 scope address of the address usage statistics to retrieve.
 
 
 ### -param pStats [out]
@@ -76,12 +77,6 @@ Pointer to a <a href="https://msdn.microsoft.com/a06d873c-fc82-40c1-be3e-45f2432
 
 </div>
 <div> </div>
-
-#### - scopeId [in]
-
-
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> structure that contains the IPv4 scope address of the address usage statistics to retrieve.
-
 
 ## -returns
 

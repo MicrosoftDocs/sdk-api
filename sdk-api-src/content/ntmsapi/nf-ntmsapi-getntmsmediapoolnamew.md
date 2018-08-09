@@ -7,7 +7,7 @@ old-location: fs\getntmsmediapoolname.htm
 old-project: Rsm
 ms.assetid: 72b9028b-d97e-4441-8677-1a4a0b03dee2
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: GetNtmsMediaPoolName, GetNtmsMediaPoolName function [Files], GetNtmsMediaPoolNameA, GetNtmsMediaPoolNameW, _zaw_getntmsmediapoolname, base.getntmsmediapoolname, fs.getntmsmediapoolname, ntmsapi/GetNtmsMediaPoolName, ntmsapi/GetNtmsMediaPoolNameA, ntmsapi/GetNtmsMediaPoolNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,19 +75,14 @@ Handle to the session returned by the
 Unique identifier of the media pool whose name is to be retrieved.
 
 
-### -param lpNameBuf
+### -param lpNameBuf [out]
 
-TBD
+Pointer to a buffer that receives the name of the media pool.
 
 
 ### -param lpdwBufSize [in, out]
 
 Size of the <i>lpBufName</i> buffer, on input. On output, the number of characters in the full name hierarchy.
-
-
-#### - lpBufName [out]
-
-Pointer to a buffer that receives the name of the media pool.
 
 
 ## -returns
@@ -182,7 +177,7 @@ The function was successful.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: gdi\getcurrentpositionex.htm
 old-project: gdi
 ms.assetid: 23a5ac58-2b88-42d3-ab02-8edb8ef187cc
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetCurrentPositionEx, GetCurrentPositionEx function [Windows GDI], _win32_GetCurrentPositionEx, gdi.getcurrentpositionex, wingdi/GetCurrentPositionEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,7 @@ The <b>GetCurrentPositionEx</b> function retrieves the current position in logic
 A handle to the device context.
 
 
-### -param lppt
-
-TBD
-
-
-
-
-#### - lpPoint [out]
+### -param lppt [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that receives the logical coordinates of the current position.
 

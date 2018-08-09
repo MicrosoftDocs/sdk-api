@@ -4,10 +4,10 @@ title: CertOpenStore function
 author: windows-sdk-content
 description: Opens a certificate store by using a specified store provider type.
 old-location: security\certopenstore.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 4edccbfe-c0a8-442b-b6b7-51ef598e7c90
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CERT_FILE_STORE_COMMIT_ENABLE, CERT_LDAP_STORE_AREC_EXCLUSIVE_FLAG, CERT_LDAP_STORE_OPENED_FLAG, CERT_LDAP_STORE_SIGN_FLAG, CERT_LDAP_STORE_UNBIND_FLAG, CERT_REGISTRY_STORE_REMOTE_FLAG, CERT_REGISTRY_STORE_SERIALIZED_FLAG, CERT_STORE_BACKUP_RESTORE_FLAG, CERT_STORE_CREATE_NEW_FLAG, CERT_STORE_DEFER_CLOSE_UNTIL_LAST_FREE_FLAG, CERT_STORE_DELETE_FLAG, CERT_STORE_ENUM_ARCHIVED_FLAG, CERT_STORE_MAXIMUM_ALLOWED_FLAG, CERT_STORE_NO_CRYPT_RELEASE_FLAG, CERT_STORE_OPEN_EXISTING_FLAG, CERT_STORE_PROV_COLLECTION, CERT_STORE_PROV_FILE, CERT_STORE_PROV_FILENAME(_W), CERT_STORE_PROV_FILENAME_A, CERT_STORE_PROV_LDAP(_W), CERT_STORE_PROV_MEMORY, CERT_STORE_PROV_MSG, CERT_STORE_PROV_PHYSICAL(_W), CERT_STORE_PROV_PKCS12, CERT_STORE_PROV_PKCS7, CERT_STORE_PROV_REG, CERT_STORE_PROV_SERIALIZED, CERT_STORE_PROV_SMART_CARD(_W), CERT_STORE_PROV_SYSTEM(_W), CERT_STORE_PROV_SYSTEM_A, CERT_STORE_PROV_SYSTEM_REGISTRY(_W), CERT_STORE_PROV_SYSTEM_REGISTRY_A, CERT_STORE_READONLY_FLAG, CERT_STORE_SET_LOCALIZED_NAME_FLAG, CERT_STORE_SHARE_CONTEXT_FLAG, CERT_STORE_UPDATE_KEYID_FLAG, CERT_SYSTEM_STORE_CURRENT_SERVICE, CERT_SYSTEM_STORE_CURRENT_USER, CERT_SYSTEM_STORE_CURRENT_USER_GROUP_POLICY, CERT_SYSTEM_STORE_LOCAL_MACHINE, CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, CERT_SYSTEM_STORE_LOCAL_MACHINE_GROUP_POLICY, CERT_SYSTEM_STORE_RELOCATE_FLAG, CERT_SYSTEM_STORE_SERVICES, CERT_SYSTEM_STORE_UNPROTECTED_FLAG, CERT_SYSTEM_STORE_USERS, CertOpenStore, CertOpenStore function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_certopenstore, security.certopenstore, wincrypt/CertOpenStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -344,9 +344,46 @@ Same as <b>CERT_STORE_PROV_SYSTEM_REGISTRY_A</b>.
  
 
 
-### -param dwEncodingType
+### -param dwEncodingType [in]
 
-TBD
+Specifies the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate encoding type</a> and <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding type</a>. Encoding is used only when the <i>dwSaveAs</i> parameter of  the <a href="https://msdn.microsoft.com/5cc818d7-b079-4962-aabc-fc512d4e92ac">CertSaveStore</a> function contains <b>CERT_STORE_SAVE_AS_PKCS7</b>. Otherwise, the <i>dwMsgAndCertEncodingType</i> parameter is not used.
+
+This parameter is only applicable  when the <b>CERT_STORE_PROV_MSG</b>, <b>CERT_STORE_PROV_PKCS7</b>, or <b>CERT_STORE_PROV_FILENAME</b> provider type is specified in the <i>lpszStoreProvider</i> parameter. For all other provider types, this parameter is unused and should be set to zero.
+
+
+This parameter can be a combination of one or more of the following values.
+
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="PKCS_7_ASN_ENCODING"></a><a id="pkcs_7_asn_encoding"></a><dl>
+<dt><b>PKCS_7_ASN_ENCODING</b></dt>
+<dt>65536 (0x10000)</dt>
+</dl>
+</td>
+<td width="60%">
+Specifies PKCS #7 message encoding.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="X509_ASN_ENCODING"></a><a id="x509_asn_encoding"></a><dl>
+<dt><b>X509_ASN_ENCODING</b></dt>
+<dt>1 (0x1)</dt>
+</dl>
+</td>
+<td width="60%">
+Specifies X.509 certificate encoding.
+
+</td>
+</tr>
+</table>
+ 
 
 
 ### -param hCryptProv [in]
@@ -722,48 +759,6 @@ Use this flag with the <b>CERT_LDAP_STORE_OPENED_FLAG</b> flag to cause the LDAP
 ### -param pvPara [in]
 
 A 32-bit value that can contain additional information for this function. The contents of this parameter depends on the value of the <i>lpszStoreProvider</i> and other parameters.
-
-
-#### - dwMsgAndCertEncodingType [in]
-
-Specifies the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate encoding type</a> and <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding type</a>. Encoding is used only when the <i>dwSaveAs</i> parameter of  the <a href="https://msdn.microsoft.com/5cc818d7-b079-4962-aabc-fc512d4e92ac">CertSaveStore</a> function contains <b>CERT_STORE_SAVE_AS_PKCS7</b>. Otherwise, the <i>dwMsgAndCertEncodingType</i> parameter is not used.
-
-This parameter is only applicable  when the <b>CERT_STORE_PROV_MSG</b>, <b>CERT_STORE_PROV_PKCS7</b>, or <b>CERT_STORE_PROV_FILENAME</b> provider type is specified in the <i>lpszStoreProvider</i> parameter. For all other provider types, this parameter is unused and should be set to zero.
-
-
-This parameter can be a combination of one or more of the following values.
-
-
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="PKCS_7_ASN_ENCODING"></a><a id="pkcs_7_asn_encoding"></a><dl>
-<dt><b>PKCS_7_ASN_ENCODING</b></dt>
-<dt>65536 (0x10000)</dt>
-</dl>
-</td>
-<td width="60%">
-Specifies PKCS #7 message encoding.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="X509_ASN_ENCODING"></a><a id="x509_asn_encoding"></a><dl>
-<dt><b>X509_ASN_ENCODING</b></dt>
-<dt>1 (0x1)</dt>
-</dl>
-</td>
-<td width="60%">
-Specifies X.509 certificate encoding.
-
-</td>
-</tr>
-</table>
- 
 
 
 ## -returns

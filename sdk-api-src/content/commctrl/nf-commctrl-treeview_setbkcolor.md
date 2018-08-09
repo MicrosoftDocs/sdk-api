@@ -7,7 +7,7 @@ old-location: controls\TreeView_SetBkColor.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setbkcolor.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TreeView_SetBkColor, TreeView_SetBkColor macro [Windows Controls], _win32_TreeView_SetBkColor, _win32_TreeView_SetBkColor_cpp, commctrl/TreeView_SetBkColor, controls.TreeView_SetBkColor, controls._win32_TreeView_SetBkColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the background color of the control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773741(v=VS.85).aspx">TVM_SETBKCOLOR</a> message explicitly. 
+Sets the background color of the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773741(v=VS.85).aspx">TVM_SETBKCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -60,19 +60,12 @@ Sets the background color of the control. You can use this macro or send the <a 
 
 ### -param hwnd
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to a tree-view control. 
 
 
 ### -param clr
-
-TBD
-
-
-
-
-
-
-#### - clrBk
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
 
@@ -80,19 +73,12 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> value that contains the new background color. If this argument is -1, the control will revert to using the system color for the background color. 
 
 
-#### - hwndTV
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to a tree-view control. 
-
-
 ## -see-also
 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773807(v=VS.85).aspx">TreeView_GetBkColor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773807(v=VS.85).aspx">TreeView_GetBkColor</a>
  
 
  

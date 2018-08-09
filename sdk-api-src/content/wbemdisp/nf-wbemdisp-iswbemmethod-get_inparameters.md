@@ -7,7 +7,7 @@ old-location: wmi\swbemmethod_inparameters.htm
 old-project: WmiSdk
 ms.assetid: fba1bb97-29f9-41d3-8ecc-f283989118c1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemMethod interface [Windows Management Instrumentation],InParameters property, ISWbemMethod.get_InParameters, ISWbemMethod::get_InParameters, InParameters property [Windows Management Instrumentation], InParameters property [Windows Management Instrumentation],ISWbemMethod interface, InParameters property [Windows Management Instrumentation],SWbemMethod object, SWbemMethod object [Windows Management Instrumentation],InParameters property, SWbemMethod.InParameters, _hmm_swbemmethod.inparameters, get_InParameters, wmi.swbemmethod_inparameters
 ms.prod: windows
 ms.technology: windows-sdk

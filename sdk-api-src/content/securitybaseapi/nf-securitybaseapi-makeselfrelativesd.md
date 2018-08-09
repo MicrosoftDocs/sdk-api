@@ -7,7 +7,7 @@ old-location: security\makeselfrelativesd.htm
 old-project: secauthz
 ms.assetid: 497c7e2f-75b7-41b9-9693-37e041b7af58
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: MakeSelfRelativeSD, MakeSelfRelativeSD function [Security], _win32_makeselfrelativesd, security.makeselfrelativesd, securitybaseapi/MakeSelfRelativeSD
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,30 +66,20 @@ The <b>MakeSelfRelativeSD</b> function creates a <a href="https://msdn.microsoft
 
 
 
-### -param pAbsoluteSecurityDescriptor
-
-TBD
-
-
-### -param pSelfRelativeSecurityDescriptor
-
-TBD
-
-
-### -param lpdwBufferLength [in, out]
-
-A pointer to a variable specifying the size of the buffer pointed to by the <i>pSelfRelativeSD</i> parameter. If the buffer is not large enough for the security descriptor, the function fails and sets this variable to the minimum required size.
-
-
-#### - pAbsoluteSD [in]
+### -param pAbsoluteSecurityDescriptor [in]
 
 A pointer to a 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure in absolute format. The function creates a version of this security descriptor in self-relative format without modifying the original.
 
 
-#### - pSelfRelativeSD [out, optional]
+### -param pSelfRelativeSecurityDescriptor [out, optional]
 
 A pointer to a buffer the function fills with a security descriptor in self-relative format.
+
+
+### -param lpdwBufferLength [in, out]
+
+A pointer to a variable specifying the size of the buffer pointed to by the <i>pSelfRelativeSD</i> parameter. If the buffer is not large enough for the security descriptor, the function fails and sets this variable to the minimum required size.
 
 
 ## -returns

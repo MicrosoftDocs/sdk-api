@@ -7,7 +7,7 @@ old-location: base\interlockedflushslist.htm
 old-project: sync
 ms.assetid: 3fde3377-8a98-4976-a350-2c173b209e8c
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 08/06/2018
 ms.keywords: InterlockedFlushSList, InterlockedFlushSList function, _win32_interlockedflushslist, base.interlockedflushslist, interlockedapi/InterlockedFlushSList, winbase/InterlockedFlushSList
 ms.prod: windows
 ms.technology: windows-sdk

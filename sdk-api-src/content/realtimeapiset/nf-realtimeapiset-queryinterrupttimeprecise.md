@@ -4,10 +4,10 @@ title: QueryInterruptTimePrecise function
 author: windows-sdk-content
 description: Gets the current interrupt-time count, in a more precise form than QueryInterruptTime does.
 old-location: base\queryinterrupttimeprecise.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 0F65A707-0899-4F79-B7CD-16C9143C4173
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/07/2018
 ms.keywords: QueryInterruptTimePrecise, QueryInterruptTimePrecise function, base.queryinterrupttimeprecise, realtimeapiset/QueryInterruptTimePrecise
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,11 +88,9 @@ To provide a system time value that is more precise than that of <a href="https:
 
 Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553075">KeQueryTimeIncrement</a> routine to determine the duration of a system clock tick.
 
+Also see Remarks in <a href="https://msdn.microsoft.com/FB2B179B-5E44-4201-86E2-DB386607FD90">QueryInterruptTime</a>.
 
-				Also see Remarks in <a href="https://msdn.microsoft.com/FB2B179B-5E44-4201-86E2-DB386607FD90">QueryInterruptTime</a>.
-
-<div class="alert"><b>Note</b>  
-				The <b>QueryInterruptTimePrecise</b> function produces different results on debug ("checked") builds of Windows, because the interrupt-time count and tick count are advanced by approximately 49 days. This helps to identify bugs that might not occur until the system has been running for a long time. The checked build is available to MSDN subscribers through the <a href="http://go.microsoft.com/fwlink/p/?linkid=8714">Microsoft Developer Network (MSDN)</a> Web site.</div>
+<div class="alert"><b>Note</b>  The <b>QueryInterruptTimePrecise</b> function produces different results on debug ("checked") builds of Windows, because the interrupt-time count and tick count are advanced by approximately 49 days. This helps to identify bugs that might not occur until the system has been running for a long time. The checked build is available to MSDN subscribers through the <a href="http://go.microsoft.com/fwlink/p/?linkid=8714">Microsoft Developer Network (MSDN)</a> Web site.</div>
 <div> </div>
 To compile an application that uses this function, define _WIN32_WINNT as 0x0601 or later. For more information, see
 				<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.

@@ -7,7 +7,7 @@ old-location: mstv\iservicelocationdescriptor_getelementstreamtype.htm
 old-project: mstv
 ms.assetid: d95a9af9-2e09-4a94-ac13-1b17698cfff3
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetElementStreamType, GetElementStreamType method [Microsoft TV Technologies], GetElementStreamType method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetElementStreamType method, IServiceLocationDescriptor.GetElementStreamType, IServiceLocationDescriptor::GetElementStreamType, atscpsipparser/IServiceLocationDescriptor::GetElementStreamType, mstv.iservicelocationdescriptor_getelementstreamtype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Gets a code identifying the type of an elementary stream from an Advanced Televi
 ### -param bIndex [in]
 
 Specifies the elementary stream,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/134e4051-6a73-4420-b12d-3171738bd8ad">IServiceLocationDescriptor::GetNumberOfElements</a>
-  method to get the number of elementary streams in the descriptor.
+  indexed from zero. Call the <a href="https://msdn.microsoft.com/134e4051-6a73-4420-b12d-3171738bd8ad">IServiceLocationDescriptor::GetNumberOfElements</a>method to get the number of elementary streams in the descriptor.
 
 
 ### -param pbVal [out]

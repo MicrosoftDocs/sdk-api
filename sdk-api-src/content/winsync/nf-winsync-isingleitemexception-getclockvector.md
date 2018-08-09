@@ -7,7 +7,7 @@ old-location: winsync\isingleitemexception_getclockvector.htm
 old-project: winsync
 ms.assetid: e212e561-9baa-46d0-90c0-ec143b24e641
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetClockVector, GetClockVector method [Windows Sync], GetClockVector method [Windows Sync],ISingleItemException interface, ISingleItemException interface [Windows Sync],GetClockVector method, ISingleItemException.GetClockVector, ISingleItemException::GetClockVector, winsync.isingleitemexception_getclockvector, winsync/ISingleItemException::GetClockVector
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\DSA_GetItem.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_getitem.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DSA_GetItem, DSA_GetItem function [Windows Controls], _win32_DSA_GetItem, _win32_DSA_GetItem_cpp, controls.DSA_GetItem, controls._win32_DSA_GetItem, dpa_dsa/DSA_GetItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,14 +58,18 @@ Gets an element from a dynamic structure array (DSA).
 
 
 
-### -param hdsa
+### -param hdsa [in]
 
-TBD
+Type: <b>HDSA</b>
+
+A handle to the DSA containing the element.
 
 
-### -param i
+### -param i [in]
 
-TBD
+Type: <b>int</b>
+
+The index of the element to be retrieved (zero-based).
 
 
 ### -param pitem [out]
@@ -73,20 +77,6 @@ TBD
 Type: <b>void*</b>
 
 A pointer to a buffer which is filled with a copy of the specified element of the DSA.
-
-
-#### - index [in]
-
-Type: <b>int</b>
-
-The index of the element to be retrieved (zero-based).
-
-
-#### - pdsa [in]
-
-Type: <b>HDSA</b>
-
-A handle to the DSA containing the element.
 
 
 ## -returns
@@ -116,7 +106,7 @@ Using the element pointer that this function retrieves, you can modify the data 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775661(v=VS.85).aspx">DSA_GetItemPtr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775661(v=VS.85).aspx">DSA_GetItemPtr</a>
  
 
  

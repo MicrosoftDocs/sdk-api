@@ -4,10 +4,10 @@ title: IVssComponent::GetDirectedTargetCount
 author: windows-sdk-content
 description: The GetDirectedTargetCount method returns the number of directed target specifications associated with the current component. Either a writer or a requester can call this method.
 old-location: base\ivsscomponent_getdirectedtargetcount.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 3c8cf80e-66b9-4c6f-a63d-90626937582b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetDirectedTargetCount, GetDirectedTargetCount method [VSS], GetDirectedTargetCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetDirectedTargetCount method, IVssComponent.GetDirectedTargetCount, IVssComponent::GetDirectedTargetCount, _win32_ivsscomponent_getdirectedtargetcount, base.ivsscomponent_getdirectedtargetcount, vswriter/IVssComponent::GetDirectedTargetCount
 ms.prod: windows
 ms.technology: windows-sdk

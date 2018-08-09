@@ -7,7 +7,7 @@ old-location: mscs\clusnode_netinterfaces.htm
 old-project: mscs
 ms.assetid: 98799b21-6646-430c-8194-debc7985fa9d
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusNode object [Failover Cluster],NetInterfaces property, ClusNode.NetInterfaces, ISClusNode.get_NetInterfaces, ISClusNode::get_NetInterfaces, NetInterfaces property [Failover Cluster], NetInterfaces property [Failover Cluster],ClusNode object, _wolf_clusnode.netinterfaces, get_NetInterfaces, mscs.clusnode_netinterfaces
 ms.prod: windows
 ms.technology: windows-sdk

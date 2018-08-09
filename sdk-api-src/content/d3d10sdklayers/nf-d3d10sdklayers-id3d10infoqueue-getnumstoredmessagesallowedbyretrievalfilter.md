@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_getnumstoredmessagesallowedbyretrievalf
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getnumstoredmessagesallowedbyretrievalfilter.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 42e473fd-210b-8a78-d305-72db80e7fc30, GetNumStoredMessagesAllowedByRetrievalFilter, GetNumStoredMessagesAllowedByRetrievalFilter method [Direct3D 10], GetNumStoredMessagesAllowedByRetrievalFilter method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetNumStoredMessagesAllowedByRetrievalFilter method, ID3D10InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter, ID3D10InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter, d3d10sdklayers/ID3D10InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter, direct3d10.id3d10infoqueue_getnumstoredmessagesallowedbyretrievalfilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ Number of messages allowed by a retrieval filter.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mmc\snapins_remove.htm
 old-project: MMC
 ms.assetid: a75fda6c-701f-4d68-8f91-8781fc412a0d
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: Remove, Remove method [MMC], Remove method [MMC],SnapIns interface, Remove method [MMC],SnapIns object, SnapIns interface [MMC],Remove method, SnapIns object [MMC],Remove method, SnapIns.Remove, SnapIns::Remove, _slate_snapins.remove_method, mmc.snapins_remove
 ms.prod: windows
 ms.technology: windows-sdk

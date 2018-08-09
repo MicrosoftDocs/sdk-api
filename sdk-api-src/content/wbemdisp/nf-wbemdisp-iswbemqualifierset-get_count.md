@@ -7,7 +7,7 @@ old-location: wmi\swbemqualifierset_count.htm
 old-project: WmiSdk
 ms.assetid: a381916a-a1e2-4b9a-8162-777a04824291
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: Count property [Windows Management Instrumentation], Count property [Windows Management Instrumentation],ISWbemQualifierSet interface, Count property [Windows Management Instrumentation],SWbemQualifierSet object, ISWbemQualifierSet interface [Windows Management Instrumentation],Count property, ISWbemQualifierSet.get_Count, ISWbemQualifierSet::get_Count, SWbemQualifierSet object [Windows Management Instrumentation],Count property, SWbemQualifierSet.Count, _hmm_swbemqualifierset.count, get_Count, wmi.swbemqualifierset_count
 ms.prod: windows
 ms.technology: windows-sdk

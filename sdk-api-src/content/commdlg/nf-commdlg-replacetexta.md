@@ -7,7 +7,7 @@ old-location: dlgbox\replacetext.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\replacetext.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 08/06/2018
 ms.keywords: ReplaceText, ReplaceText function [Dialog Boxes], ReplaceTextA, ReplaceTextW, _win32_ReplaceText, _win32_replacetext_cpp, commdlg/ReplaceText, commdlg/ReplaceTextA, commdlg/ReplaceTextW, dlgbox.replacetext, winui._win32_replacetext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,18 +60,11 @@ Creates a system-defined modeless dialog box that lets the user specify a string
 
 
 
-### -param Arg1
-
-TBD
-
-
-
-
-#### - lpfr [in, out]
+### -param Arg1 [in, out]
 
 Type: <b>LPFINDREPLACE</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/ms646835(v=VS.85).aspx">FINDREPLACE</a> structure that contains information used to initialize the dialog box. The dialog box uses this structure to send information about the user's input to your application. For more information, see the following Remarks section.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms646835(v=VS.85).aspx">FINDREPLACE</a> structure that contains information used to initialize the dialog box. The dialog box uses this structure to send information about the user's input to your application. For more information, see the following Remarks section.
 
 
 ## -returns
@@ -82,7 +75,7 @@ Type: <b>HWND</b>
 
 If the function succeeds, the return value is the window handle to the dialog box. You can use the window handle to communicate with the dialog box or close it.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call the <a href="https://msdn.microsoft.com/library/ms646916(v=VS.85).aspx">CommDlgExtendedError</a> function, which can return one of the following error codes:
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call the <a href="https://msdn.microsoft.com/en-us/library/ms646916(v=VS.85).aspx">CommDlgExtendedError</a> function, which can return one of the following error codes:
 
 
 
@@ -91,13 +84,13 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-The <b>ReplaceText</b> function does not perform a text replacement operation. Instead, the dialog box sends <a href="https://msdn.microsoft.com/library/ms646872(v=VS.85).aspx">FINDMSGSTRING</a> registered messages to the window procedure of the owner window of the dialog box. When you create the dialog box, the  <b>hwndOwner</b> member of the <a href="https://msdn.microsoft.com/library/ms646835(v=VS.85).aspx">FINDREPLACE</a> structure is a handle to the owner window.
+The <b>ReplaceText</b> function does not perform a text replacement operation. Instead, the dialog box sends <a href="https://msdn.microsoft.com/en-us/library/ms646872(v=VS.85).aspx">FINDMSGSTRING</a> registered messages to the window procedure of the owner window of the dialog box. When you create the dialog box, the  <b>hwndOwner</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms646835(v=VS.85).aspx">FINDREPLACE</a> structure is a handle to the owner window.
 
-Before calling <b>ReplaceText</b>, you must call the <a href="https://msdn.microsoft.com/library/ms644947(v=VS.85).aspx">RegisterWindowMessage</a> function to get the identifier for the <a href="https://msdn.microsoft.com/library/ms646872(v=VS.85).aspx">FINDMSGSTRING</a> message. The dialog box procedure uses this identifier to send messages when the user clicks the <b>Find Next</b>, <b>Replace</b>, or <b>Replace All</b> buttons, or when the dialog box is closing. The  <i>lParam</i> parameter of a <b>FINDMSGSTRING</b> message contains a pointer to the <a href="https://msdn.microsoft.com/library/ms646835(v=VS.85).aspx">FINDREPLACE</a> structure. The  <b>Flags</b> member of this structure indicates the event that caused the message. Other members of the structure indicate the user's input.
+Before calling <b>ReplaceText</b>, you must call the <a href="https://msdn.microsoft.com/en-us/library/ms644947(v=VS.85).aspx">RegisterWindowMessage</a> function to get the identifier for the <a href="https://msdn.microsoft.com/en-us/library/ms646872(v=VS.85).aspx">FINDMSGSTRING</a> message. The dialog box procedure uses this identifier to send messages when the user clicks the <b>Find Next</b>, <b>Replace</b>, or <b>Replace All</b> buttons, or when the dialog box is closing. The  <i>lParam</i> parameter of a <b>FINDMSGSTRING</b> message contains a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms646835(v=VS.85).aspx">FINDREPLACE</a> structure. The  <b>Flags</b> member of this structure indicates the event that caused the message. Other members of the structure indicate the user's input.
 
-If you create a <b>Replace</b> dialog box, you must also use the <a href="https://msdn.microsoft.com/library/ms645498(v=VS.85).aspx">IsDialogMessage</a> function in the main message loop of your application to ensure that the dialog box correctly processes keyboard input, such as the TAB and ESC keys. The <b>IsDialogMessage</b> function returns a value that indicates whether the Replace dialog box processed the message.
+If you create a <b>Replace</b> dialog box, you must also use the <a href="https://msdn.microsoft.com/en-us/library/ms645498(v=VS.85).aspx">IsDialogMessage</a> function in the main message loop of your application to ensure that the dialog box correctly processes keyboard input, such as the TAB and ESC keys. The <b>IsDialogMessage</b> function returns a value that indicates whether the Replace dialog box processed the message.
 
-You can provide an <a href="https://msdn.microsoft.com/library/ms646922(v=VS.85).aspx">FRHookProc</a> hook procedure for a <b>Replace</b> dialog box. The hook procedure can process messages sent to the dialog box. To enable a hook procedure, set the <b>FR_ENABLEHOOK</b> flag in the  <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/ms646835(v=VS.85).aspx">FINDREPLACE</a> structure and specify the address of the hook procedure in the  <b>lpfnHook</b> member.
+You can provide an <a href="https://msdn.microsoft.com/en-us/library/ms646922(v=VS.85).aspx">FRHookProc</a> hook procedure for a <b>Replace</b> dialog box. The hook procedure can process messages sent to the dialog box. To enable a hook procedure, set the <b>FR_ENABLEHOOK</b> flag in the  <b>Flags</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms646835(v=VS.85).aspx">FINDREPLACE</a> structure and specify the address of the hook procedure in the  <b>lpfnHook</b> member.
 
 
 
@@ -107,11 +100,11 @@ You can provide an <a href="https://msdn.microsoft.com/library/ms646922(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646916(v=VS.85).aspx">CommDlgExtendedError</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646916(v=VS.85).aspx">CommDlgExtendedError</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645524(v=VS.85).aspx">Common Dialog Box Library</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645524(v=VS.85).aspx">Common Dialog Box Library</a>
 
 
 
@@ -119,15 +112,15 @@ You can provide an <a href="https://msdn.microsoft.com/library/ms646922(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646835(v=VS.85).aspx">FINDREPLACE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646835(v=VS.85).aspx">FINDREPLACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646922(v=VS.85).aspx">FRHookProc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646922(v=VS.85).aspx">FRHookProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645498(v=VS.85).aspx">IsDialogMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645498(v=VS.85).aspx">IsDialogMessage</a>
 
 
 
@@ -135,11 +128,11 @@ You can provide an <a href="https://msdn.microsoft.com/library/ms646922(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644947(v=VS.85).aspx">RegisterWindowMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644947(v=VS.85).aspx">RegisterWindowMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645417(v=VS.85).aspx">WM_CTLCOLORDLG</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645417(v=VS.85).aspx">WM_CTLCOLORDLG</a>
  
 
  

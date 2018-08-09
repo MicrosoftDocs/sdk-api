@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_put_sessionstartblock.htm
 old-project: imapi
 ms.assetid: 0018d614-c936-41f1-8700-477aa259da2a
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_SessionStartBlock method, IFileSystemImage.put_SessionStartBlock, IFileSystemImage::put_SessionStartBlock, imapi.ifilesystemimage_put_sessionstartblock, imapi2fs/IFileSystemImage::put_SessionStartBlock, put_SessionStartBlock, put_SessionStartBlock method [IMAPI], put_SessionStartBlock method [IMAPI],IFileSystemImage interface
 ms.prod: windows
 ms.technology: windows-sdk

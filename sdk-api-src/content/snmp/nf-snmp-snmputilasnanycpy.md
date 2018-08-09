@@ -4,10 +4,10 @@ title: SnmpUtilAsnAnyCpy function
 author: windows-sdk-content
 description: The SnmpUtilAsnAnyCpy function copies the variable pointed to by the pAnySrc parameter to the pAnyDst parameter. The function allocates any necessary memory for the destination's copy. The SnmpUtilAsnAnyCpy function is an element of the SNMP Utility API.
 old-location: snmp\snmputilasnanycpy.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 0a8743da-ef4a-4b00-b9be-5550896d147a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SnmpUtilAsnAnyCpy, SnmpUtilAsnAnyCpy function [SNMP], _snmp_snmputilasnanycpy, snmp.snmputilasnanycpy, snmp/SnmpUtilAsnAnyCpy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SnmpUtilAsnAnyCpy function

@@ -7,7 +7,7 @@ old-location: controls\IImageList_DragEnter.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\dragenter.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DragEnter, DragEnter method [Windows Controls], DragEnter method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],DragEnter method, IImageList.DragEnter, IImageList::DragEnter, comctl_IImageList_DragEnter, comctl_IImageList_DragEnter_cpp, commoncontrols/IImageList::DragEnter, controls.IImageList_DragEnter, controls.comctl_IImageList_DragEnter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-		Locks updates to the specified window during a drag operation and displays the drag image at the specified position within the window. 
+Locks updates to the specified window during a drag operation and displays the drag image at the specified position within the window. 
 		
 
 
@@ -99,11 +98,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-		To begin a drag operation, use <a href="https://msdn.microsoft.com/library/Bb761440(v=VS.85).aspx">IImageList::BeginDrag</a>. 
+To begin a drag operation, use <a href="https://msdn.microsoft.com/en-us/library/Bb761440(v=VS.85).aspx">IImageList::BeginDrag</a>. 
 		
 
-To use <b>IImageList::DragEnter</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>IImageList::DragEnter</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

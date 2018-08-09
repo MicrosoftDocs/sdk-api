@@ -7,7 +7,7 @@ old-location: wmi\swbemrefreshableitem_refresher.htm
 old-project: WmiSdk
 ms.assetid: 238722e0-63e6-4907-993e-67693746d487
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemRefreshableItem interface [Windows Management Instrumentation],Refresher property, ISWbemRefreshableItem.get_Refresher, ISWbemRefreshableItem::get_Refresher, Refresher property [Windows Management Instrumentation], Refresher property [Windows Management Instrumentation],ISWbemRefreshableItem interface, Refresher property [Windows Management Instrumentation],SWbemRefreshableItem object, SWbemRefreshableItem object [Windows Management Instrumentation],Refresher property, SWbemRefreshableItem.Refresher, _hmm_swbemrefreshableitem.refresher, get_Refresher, wmi.swbemrefreshableitem_refresher
 ms.prod: windows
 ms.technology: windows-sdk

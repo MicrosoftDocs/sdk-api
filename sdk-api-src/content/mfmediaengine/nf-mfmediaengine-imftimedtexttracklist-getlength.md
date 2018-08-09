@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttracklist_getlength.htm
 old-project: medfound
 ms.assetid: 468BF969-9D8D-4866-8E33-F1CC6F09E90A
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFTimedTextTrackList interface, IMFTimedTextTrackList interface [Media Foundation],GetLength method, IMFTimedTextTrackList.GetLength, IMFTimedTextTrackList::GetLength, mf.imftimedtexttracklist_getlength, mfmediaengine/IMFTimedTextTrackList::GetLength
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: adsi\iadsmembers.htm
 old-project: ADSI
 ms.assetid: 889e8fc1-61a6-4a3a-82ac-85d41f664149
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IADsMembers, IADsMembers interface [ADSI], IADsMembers interface [ADSI],described, _ds_iadsmembers, adsi.iadsmembers, iads/IADsMembers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ The <b>IADsMembers</b> interface serves a slightly different purpose from the  <
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsMembers</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsMembers</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsMembers</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsMembers</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -108,7 +108,7 @@ Gets the number of members.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/Hh707480(v=VS.85).aspx">Filter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh707480(v=VS.85).aspx">Filter</a>
 
 
 </td>
@@ -146,7 +146,7 @@ Gets and sets the filter for selection.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

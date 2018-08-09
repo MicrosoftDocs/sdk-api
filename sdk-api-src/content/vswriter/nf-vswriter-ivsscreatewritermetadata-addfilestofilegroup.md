@@ -4,10 +4,10 @@ title: IVssCreateWriterMetadata::AddFilesToFileGroup
 author: windows-sdk-content
 description: The AddFilesToFileGroup method adds a file set (a specified file or files) to a specified file group component.
 old-location: base\ivsscreatewritermetadata_addfilestofilegroup.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 5d5a0155-467c-4c42-876e-a1b245cf6f8e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AddFilesToFileGroup, AddFilesToFileGroup method [VSS], AddFilesToFileGroup method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddFilesToFileGroup method, IVssCreateWriterMetadata.AddFilesToFileGroup, IVssCreateWriterMetadata::AddFilesToFileGroup, _win32_ivsscreatewritermetadata_addfilestofilegroup, base.ivsscreatewritermetadata_addfilestofilegroup, vswriter/IVssCreateWriterMetadata::AddFilesToFileGroup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,17 +115,6 @@ For information on traversing over mounted folders, see
 
 
 
-#### - dwBackupTypeMask [in]
-
-A bitmask of 
-<a href="https://msdn.microsoft.com/41ba60f7-d621-478a-a24a-202d326ebf2c">VSS_FILE_SPEC_BACKUP_TYPE</a> enumeration values to indicate if a writer should evaluate the file for participation in a certain type of backup operations. 
-
-
-
-
-The default value for this argument is (VSS_FSBT_ALL_BACKUP_REQUIRED | VSS_FSBT_ALL_SNAPSHOT_REQUIRED).
-
-
 #### - wszAlternatePath [in]
 
 Pointer to a <b>null</b>-terminated wide character string containing the alternate path, which actually contains the files to be backed up with this component.
@@ -137,6 +126,17 @@ UNC paths are supported.
 Specifying an alternate path is optional; if no alternate path is needed, <i>wszAlternatePath</i> should be <b>NULL</b>.
 
 An alternate path should not be confused with an alternate location mapping.
+
+
+#### - dwBackupTypeMask [in]
+
+A bitmask of 
+<a href="https://msdn.microsoft.com/41ba60f7-d621-478a-a24a-202d326ebf2c">VSS_FILE_SPEC_BACKUP_TYPE</a> enumeration values to indicate if a writer should evaluate the file for participation in a certain type of backup operations. 
+
+
+
+
+The default value for this argument is (VSS_FSBT_ALL_BACKUP_REQUIRED | VSS_FSBT_ALL_SNAPSHOT_REQUIRED).
 
 
 ## -returns

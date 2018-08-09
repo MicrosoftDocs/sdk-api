@@ -4,10 +4,10 @@ title: SspiPrepareForCredRead function
 author: windows-sdk-content
 description: Generates a target name and credential type from the specified identity structure.
 old-location: security\sspiprepareforcredread.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: f473fd7a-5c0f-4a77-829b-28a82ad0d28d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SspiPrepareForCredRead, SspiPrepareForCredRead function [Security], security.sspiprepareforcredread, sspi/SspiPrepareForCredRead
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SspiPrepareForCredRead function

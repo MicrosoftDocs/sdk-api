@@ -7,7 +7,7 @@ old-location: winmsg\broadcastsystemmessageex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\broadcastsystemmessageex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: BSF_ALLOWSFW, BSF_FLUSHDISK, BSF_FORCEIFHUNG, BSF_IGNORECURRENTTASK, BSF_LUID, BSF_NOHANG, BSF_NOTIMEOUTIFNOTHUNG, BSF_POSTMESSAGE, BSF_QUERY, BSF_RETURNHDESK, BSF_SENDNOTIFYMESSAGE, BSM_ALLCOMPONENTS, BSM_ALLDESKTOPS, BSM_APPLICATIONS, BroadcastSystemMessageEx, BroadcastSystemMessageEx function [Windows and Messages], BroadcastSystemMessageExA, BroadcastSystemMessageExW, _win32_BroadcastSystemMessageEx, _win32_broadcastsystemmessageex_cpp, winmsg.broadcastsystemmessageex, winui._win32_broadcastsystemmessageex, winuser/BroadcastSystemMessageEx, winuser/BroadcastSystemMessageExA, winuser/BroadcastSystemMessageExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,43 +65,7 @@ This function is similar to <a href="https://msdn.microsoft.com/en-us/library/ms
 
 
 
-### -param flags
-
-TBD
-
-
-### -param lpInfo
-
-TBD
-
-
-### -param Msg
-
-TBD
-
-
-### -param wParam [in]
-
-Type: <b>WPARAM</b>
-
-Additional message-specific information. 
-
-
-### -param lParam [in]
-
-Type: <b>LPARAM</b>
-
-Additional message-specific information. 
-
-
-### -param pbsmInfo
-
-TBD
-
-
-
-
-#### - dwFlags [in]
+### -param flags [in]
 
 Type: <b>DWORD</b>
 
@@ -241,7 +205,7 @@ Sends the message using <a href="https://msdn.microsoft.com/en-us/library/ms6449
  
 
 
-#### - lpdwRecipients [in, out, optional]
+### -param lpInfo [in, out, optional]
 
 Type: <b>LPDWORD</b>
 
@@ -296,20 +260,34 @@ Broadcast to applications.
  
 
 
-#### - pBSMInfo [out, optional]
-
-Type: <b>PBSMINFO</b>
-
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms644957(v=VS.85).aspx">BSMINFO</a> structure that contains additional information if the request is denied and <i>dwFlags</i> is set to <b>BSF_QUERY</b>. 
-
-
-#### - uiMessage [in]
+### -param Msg [in]
 
 Type: <b>UINT</b>
 
 The message to be sent. 
 
 For lists of the system-provided messages, see <a href="https://msdn.microsoft.com/en-us/library/ms644927(v=VS.85).aspx">System-Defined Messages</a>.
+
+
+### -param wParam [in]
+
+Type: <b>WPARAM</b>
+
+Additional message-specific information. 
+
+
+### -param lParam [in]
+
+Type: <b>LPARAM</b>
+
+Additional message-specific information. 
+
+
+### -param pbsmInfo [out, optional]
+
+Type: <b>PBSMINFO</b>
+
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms644957(v=VS.85).aspx">BSMINFO</a> structure that contains additional information if the request is denied and <i>dwFlags</i> is set to <b>BSF_QUERY</b>. 
 
 
 ## -returns

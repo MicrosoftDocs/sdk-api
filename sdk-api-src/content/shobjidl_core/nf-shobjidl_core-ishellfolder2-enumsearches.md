@@ -7,7 +7,7 @@ old-location: shell\IShellFolder2_EnumSearches.htm
 old-project: shell
 ms.assetid: ed7b0e3c-f679-491b-98a2-542fcf5d2077
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: EnumSearches, EnumSearches method [Windows Shell], EnumSearches method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],EnumSearches method, IShellFolder2.EnumSearches, IShellFolder2::EnumSearches, _win32_IShellFolder2_EnumSearches, shell.IShellFolder2_EnumSearches, shobjidl_core/IShellFolder2::EnumSearches
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ Requests a pointer to an interface that allows a client to enumerate the availab
 
 Type: <b><a href="https://msdn.microsoft.com/63b71cd2-483b-482f-b3f4-6d5c937e7708">IEnumExtraSearch</a>**</b>
 
-
-          The address of a pointer to an enumerator object's <a href="https://msdn.microsoft.com/63b71cd2-483b-482f-b3f4-6d5c937e7708">IEnumExtraSearch</a> interface.
+The address of a pointer to an enumerator object's <a href="https://msdn.microsoft.com/63b71cd2-483b-482f-b3f4-6d5c937e7708">IEnumExtraSearch</a> interface.
         
 
 

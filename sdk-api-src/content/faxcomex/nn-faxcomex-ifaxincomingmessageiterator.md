@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessageiterator_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9zg2_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxIncomingMessageIterator, IFaxIncomingMessageIterator interface [Fax Service], IFaxIncomingMessageIterator interface [Fax Service],described, _mfax_faxincomingmessageiterator_cpp, fax._mfax_faxincomingmessageiterator_cpp, faxcomex/IFaxIncomingMessageIterator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,14 +51,14 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxIncomingMessageIterator</b> interface is used by a fax client application to move through the archive of inbound fax messages that the fax service has successfully received. Because the <b>IFaxIncomingMessageIterator</b> interface is a forward iterator, you can only move forward through the archive from beginning to end, and you can access only one fax message (<a href="https://msdn.microsoft.com/library/ms686128(v=VS.85).aspx">IFaxIncomingMessage</a> object) at a time.
+The <b>IFaxIncomingMessageIterator</b> interface is used by a fax client application to move through the archive of inbound fax messages that the fax service has successfully received. Because the <b>IFaxIncomingMessageIterator</b> interface is a forward iterator, you can only move forward through the archive from beginning to end, and you can access only one fax message (<a href="https://msdn.microsoft.com/en-us/library/ms686128(v=VS.85).aspx">IFaxIncomingMessage</a> object) at a time.
 
-The <b>IFaxIncomingMessageIterator</b> interface is accessed through the <a href="https://msdn.microsoft.com/library/ms687474(v=VS.85).aspx">IFaxIncomingArchive</a> interface.
+The <b>IFaxIncomingMessageIterator</b> interface is accessed through the <a href="https://msdn.microsoft.com/en-us/library/ms687474(v=VS.85).aspx">IFaxIncomingArchive</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxIncomingMessageIterator</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxIncomingMessageIterator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxIncomingMessageIterator</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxIncomingMessageIterator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -101,7 +101,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms684951(v=VS.85).aspx">Mo
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms687005(v=VS.85).aspx">AtEOF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687005(v=VS.85).aspx">AtEOF</a>
 
 
 </td>
@@ -110,7 +110,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms687005(v=VS.85).aspx">AtEOF</a> property is the end of file marker for the archive of inbound fax messages. If this property is equal to <b>TRUE</b>, the archive cursor has moved beyond the last fax message in the inbound fax archive. If this property is equal to <b>FALSE</b>, the archive cursor has not yet reached the end of the archive.
+The <a href="https://msdn.microsoft.com/en-us/library/ms687005(v=VS.85).aspx">AtEOF</a> property is the end of file marker for the archive of inbound fax messages. If this property is equal to <b>TRUE</b>, the archive cursor has moved beyond the last fax message in the inbound fax archive. If this property is equal to <b>FALSE</b>, the archive cursor has not yet reached the end of the archive.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687461(v=VS.85).aspx">Me
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms686518(v=VS.85).aspx">PrefetchSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686518(v=VS.85).aspx">PrefetchSize</a>
 
 
 </td>
@@ -142,7 +142,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms686518(v=VS.85).aspx">PrefetchSize</a> property indicates the size of the prefetch (read-ahead) buffer.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686518(v=VS.85).aspx">PrefetchSize</a> property indicates the size of the prefetch (read-ahead) buffer.
 
 </td>
 </tr>
@@ -163,15 +163,15 @@ To create a <b>FaxIncomingMessageIterator</b> object in C++, call the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/ms687518(v=VS.85).aspx">FaxIncomingMessageIterator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687518(v=VS.85).aspx">FaxIncomingMessageIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms687474(v=VS.85).aspx">IFaxIncomingArchive</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687474(v=VS.85).aspx">IFaxIncomingArchive</a>
  
 
  

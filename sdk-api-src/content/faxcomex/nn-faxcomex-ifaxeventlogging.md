@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxeventlogging_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1xt3_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxEventLogging, IFaxEventLogging interface [Fax Service], IFaxEventLogging interface [Fax Service],described, _mfax_faxeventlogging_cpp, fax._mfax_faxeventlogging_cpp, faxcomex/IFaxEventLogging
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The <b>IFaxEventLogging</b> interface defines a configuration object used by a f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxEventLogging</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxEventLogging</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxEventLogging</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxEventLogging</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -167,7 +167,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687455(v=VS.85).aspx">IF
 
 
 
-A default implementation of <b>IFaxEventLogging</b> is provided as the <a href="https://msdn.microsoft.com/library/ms684912(v=VS.85).aspx">FaxEventLogging</a> object.
+A default implementation of <b>IFaxEventLogging</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms684912(v=VS.85).aspx">FaxEventLogging</a> object.
 
 
 

@@ -7,7 +7,7 @@ old-location: http\http_request_v2.htm
 old-project: http
 ms.assetid: 02ac6f4f-ca54-42d5-9acb-5a1e81b2cb1c
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: "*PHTTP_REQUEST, *PHTTP_REQUEST_V2, *PHTTP_REQUEST_V2 structure [HTTP], HTTP_REQUEST, HTTP_REQUEST_V2, HTTP_REQUEST_V2 structure [HTTP], _HTTP_REQUEST_V2, http.http_request_v2, http/*PHTTP_REQUEST_V2, http/HTTP_REQUEST_V2"
 ms.prod: windows
 ms.technology: windows-sdk

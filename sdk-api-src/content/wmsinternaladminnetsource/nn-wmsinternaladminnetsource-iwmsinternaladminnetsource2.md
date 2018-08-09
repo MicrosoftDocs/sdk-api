@@ -7,7 +7,7 @@ old-location: wmformat\iwmsinternaladminnetsource2.htm
 old-project: wmformat
 ms.assetid: 6d334725-11d5-4249-a83d-fc8c1c35a56f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWMSInternalAdminNetSource2, IWMSInternalAdminNetSource2 interface [windows Media Format], IWMSInternalAdminNetSource2 interface [windows Media Format],described, IWMSInternalAdminNetSource2Interface, wmformat.iwmsinternaladminnetsource2, wmsinternaladminnetsource/IWMSInternalAdminNetSource2
 ms.prod: windows
 ms.technology: windows-sdk

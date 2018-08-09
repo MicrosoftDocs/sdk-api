@@ -7,7 +7,7 @@ old-location: controls\ListView_FindItem.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_finditem.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_FindItem, ListView_FindItem macro [Windows Controls], _win32_ListView_FindItem, _win32_ListView_FindItem_cpp, commctrl/ListView_FindItem, controls.ListView_FindItem, controls._win32_ListView_FindItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Searches for a list-view item with the specified characteristics. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774903(v=VS.85).aspx">LVM_FINDITEM</a> message explicitly. 
+Searches for a list-view item with the specified characteristics. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774903(v=VS.85).aspx">LVM_FINDITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -76,5 +76,5 @@ The index of the item after which to begin the search, or -1 to start from the b
 
 Type: <b>const LPLVFINDINFO</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Bb774745(v=VS.85).aspx">LVFINDINFO</a> structure that contains information about what to search for. 
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb774745(v=VS.85).aspx">LVFINDINFO</a> structure that contains information about what to search for. 
 

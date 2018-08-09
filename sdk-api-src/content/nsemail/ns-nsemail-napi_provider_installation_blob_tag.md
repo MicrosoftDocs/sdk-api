@@ -7,7 +7,7 @@ old-location: winsock\napi_provider_installation_blob.htm
 old-project: winsock
 ms.assetid: 3444ad63-444a-481d-8fe7-f40b2b7d5283
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: NAPI_PROVIDER_INSTALLATION_BLOB, NAPI_PROVIDER_INSTALLATION_BLOB structure [Winsock], PNAPI_PROVIDER_INSTALLATION_BLOB, PNAPI_PROVIDER_INSTALLATION_BLOB structure pointer [Winsock], napi_provider_installation_blob_tag, nsemail/NAPI_PROVIDER_INSTALLATION_BLOB, nsemail/PNAPI_PROVIDER_INSTALLATION_BLOB, winsock.napi_provider_installation_blob
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,8 +101,7 @@ The offset,  in bytes, to the first of multiple <a href="https://msdn.microsoft.
 
 
 
-This structure is supported on Windows Vista
-  and later.
+This structure is supported on Windows Vistaand later.
 
 The 
 <b>NAPI_PROVIDER_INSTALLATION_BLOB</b> structure contains the information required to install a namespace provider for the NS_EMAIL namespace. There may be multiple namespace providers for the NS_EMAIL namespace install on a local system.

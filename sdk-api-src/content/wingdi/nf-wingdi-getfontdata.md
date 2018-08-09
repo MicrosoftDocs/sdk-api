@@ -7,7 +7,7 @@ old-location: gdi\getfontdata.htm
 old-project: gdi
 ms.assetid: ec716ad8-bdc2-4f61-968e-f86288123cec
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetFontData, GetFontData function [Windows GDI], _win32_GetFontData, gdi.getfontdata, wingdi/GetFontData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,26 +79,14 @@ The name of a font metric table from which the font data is to be retrieved. Thi
 The offset from the beginning of the font metric table to the location where the function should begin retrieving information. If this parameter is zero, the information is retrieved starting at the beginning of the table specified by the <i>dwTable</i> parameter. If this value is greater than or equal to the size of the table, an error occurs.
 
 
-### -param pvBuffer
-
-TBD
-
-
-### -param cjBuffer
-
-TBD
-
-
-
-
-#### - cbData [in]
-
-The length, in bytes, of the information to be retrieved. If this parameter is zero, <b>GetFontData</b> returns the size of the data specified in the <i>dwTable</i> parameter.
-
-
-#### - lpvBuffer [out]
+### -param pvBuffer [out]
 
 A pointer to a buffer that receives the font information. If this parameter is <b>NULL</b>, the function returns the size of the buffer required for the font data.
+
+
+### -param cjBuffer [in]
+
+The length, in bytes, of the information to be retrieved. If this parameter is zero, <b>GetFontData</b> returns the size of the data specified in the <i>dwTable</i> parameter.
 
 
 ## -returns

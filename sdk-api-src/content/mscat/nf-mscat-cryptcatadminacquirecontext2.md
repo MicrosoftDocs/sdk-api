@@ -7,7 +7,7 @@ old-location: security\cryptcatadminacquirecontext2.htm
 old-project: seccrypto
 ms.assetid: B089217A-5C12-4C51-8E46-3A9243347B21
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CryptCATAdminAcquireContext2, CryptCATAdminAcquireContext2 function [Security], mscat/CryptCATAdminAcquireContext2, security.cryptcatadminacquirecontext2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,8 +101,7 @@ Reserved. This value must be zero.
 
 
 
-
-						If the function succeeds, the return value is nonzero (<b>TRUE</b>).
+If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.

@@ -7,7 +7,7 @@ old-location: rpc\rpcserverunregisterifex.htm
 old-project: rpc
 ms.assetid: f01eab2c-cd33-4427-9f0c-903e4d3474e9
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcServerUnregisterIfEx, RpcServerUnregisterIfEx function [RPC], _rpc_rpcserverunregisterifex, rpc.rpcserverunregisterifex, rpcdce/RpcServerUnregisterIfEx
 ms.prod: windows
 ms.technology: windows-sdk

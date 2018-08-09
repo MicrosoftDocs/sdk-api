@@ -4,10 +4,10 @@ title: RtlUnwindEx function
 author: windows-sdk-content
 description: Initiates an unwind of procedure call frames.
 old-location: base\rtlunwindex.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 3d2d8778-311e-4cc1-b280-4f83ab457755
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: RtlUnwindEx, RtlUnwindEx function, base.rtlunwindex, winnt/RtlUnwindEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,21 +85,16 @@ A pointer to an <a href="https://msdn.microsoft.com/85a64178-bdcb-4293-9363-289c
 A value to be placed in the integer function return register before continuing execution.
 
 
-### -param ContextRecord
+### -param ContextRecord [in]
 
-TBD
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure that stores context 
+      during the unwind operation.
 
 
 ### -param HistoryTable [in, optional]
 
 A pointer to the unwind history table. This structure is processor specific. For definitions of this 
       structure, see Winternl.h.
-
-
-#### - OriginalContext [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure that stores context 
-      during the unwind operation.
 
 
 ## -returns

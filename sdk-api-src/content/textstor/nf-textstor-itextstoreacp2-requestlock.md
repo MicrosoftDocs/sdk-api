@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp2_requestlock.htm
 old-project: TSF
 ms.assetid: 82254529-3deb-4e69-8571-3f8eaa533459
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],RequestLock method, ITextStoreACP2.RequestLock, ITextStoreACP2::RequestLock, RequestLock, RequestLock method [Text Services Framework], RequestLock method [Text Services Framework],ITextStoreACP2 interface, TS_LF_READ, TS_LF_READWRITE, TS_LF_SYNC, textstor/ITextStoreACP2::RequestLock, tsf.itextstoreacp2_requestlock
 ms.prod: windows
 ms.technology: windows-sdk
@@ -184,14 +184,12 @@ For more information about document locks, see <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/f0bb6ef9-a8fc-4331-9210-6c5ba1721a73">
-        TS_LF_* Constants
+<a href="https://msdn.microsoft.com/f0bb6ef9-a8fc-4331-9210-6c5ba1721a73">TS_LF_* Constants
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/20b0a89f-ab52-466f-9669-c6c29ad12de0">
-        Text Store Return Values
+<a href="https://msdn.microsoft.com/20b0a89f-ab52-466f-9669-c6c29ad12de0">Text Store Return Values
       </a>
  
 

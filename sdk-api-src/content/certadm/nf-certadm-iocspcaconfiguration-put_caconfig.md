@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration_caconfig.htm
 old-project: seccrypto
 ms.assetid: 642f8d0b-8dae-41a7-a87c-2b55d1034328
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CAConfig property [Security], CAConfig property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],CAConfig property, IOCSPCAConfiguration.CAConfig, IOCSPCAConfiguration.put_CAConfig, IOCSPCAConfiguration::CAConfig, IOCSPCAConfiguration::get_CAConfig, IOCSPCAConfiguration::put_CAConfig, certadm/IOCSPCAConfiguration::CAConfig, certadm/IOCSPCAConfiguration::get_CAConfig, certadm/IOCSPCAConfiguration::put_CAConfig, put_CAConfig, security.iocspcaconfiguration_caconfig
 ms.prod: windows
 ms.technology: windows-sdk

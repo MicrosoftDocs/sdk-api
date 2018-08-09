@@ -7,7 +7,7 @@ old-location: monitor\destroyphysicalmonitors.htm
 old-project: Monitor
 ms.assetid: ec9bbadf-93f3-4842-9bcc-e6a76f2f1ccf
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: DestroyPhysicalMonitors, DestroyPhysicalMonitors function [Monitor Configuration], monitor.destroyphysicalmonitors, physicalmonitorenumerationapi/DestroyPhysicalMonitors
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,15 +61,13 @@ Closes an array of physical monitor handles. Call this function to close an arra
 
 ### -param dwPhysicalMonitorArraySize [in]
 
-
-            Number of elements in the <i>pPhysicalMonitorArray</i> array.
+Number of elements in the <i>pPhysicalMonitorArray</i> array.
           
 
 
 ### -param pPhysicalMonitorArray [in]
 
-
-            Pointer to an array of <a href="https://msdn.microsoft.com/58eb4999-37d9-472d-aa26-38b19a2287b2">PHYSICAL_MONITOR</a> structures.
+Pointer to an array of <a href="https://msdn.microsoft.com/58eb4999-37d9-472d-aa26-38b19a2287b2">PHYSICAL_MONITOR</a> structures.
           
 
 

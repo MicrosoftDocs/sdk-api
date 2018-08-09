@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_Enumerate_points_types
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\enumerate.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Enumerate, Enumerate method [GDI+], Enumerate method [GDI+],GraphicsPathIterator class, GraphicsPathIterator class [GDI+],Enumerate method, GraphicsPathIterator.Enumerate, GraphicsPathIterator::Enumerate, _gdiplus_CLASS_GraphicsPathIterator_Enumerate_points_types_count_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_Enumerate_points_types_count_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>GraphicsPathIterator::Enumerate</b> method copies the path's data points to a <a href="https://msdn.microsoft.com/library/ms534488(v=VS.85).aspx">PointF</a> array and copies the path's point types to a <b>BYTE</b> array.
+The <b>GraphicsPathIterator::Enumerate</b> method copies the path's data points to a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> array and copies the path's point types to a <b>BYTE</b> array.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>GraphicsPathIterator::Enumerate</b> method copies the path's data points 
 
 ### -param points [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534488(v=VS.85).aspx">PointF</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>*</b>
 
 Pointer to an array that receives the path's data points. 
 
@@ -97,16 +97,16 @@ This method returns the number of points retrieved.
 
 
 This 
-				<a href="https://msdn.microsoft.com/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a> object is associated with a <a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object. That <b>GraphicsPath</b> object has an array of points and an array of types. Each element in the array of types is a byte that specifies the point type and a set of flags for the corresponding element in the array of points. Possible point types and flags are listed in the <a href="https://msdn.microsoft.com/library/ms534162(v=VS.85).aspx">PathPointType</a> enumeration.
+				<a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a> object is associated with a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object. That <b>GraphicsPath</b> object has an array of points and an array of types. Each element in the array of types is a byte that specifies the point type and a set of flags for the corresponding element in the array of points. Possible point types and flags are listed in the <a href="https://msdn.microsoft.com/en-us/library/ms534162(v=VS.85).aspx">PathPointType</a> enumeration.
 
-You can call the <a href="https://msdn.microsoft.com/library/ms535454(v=VS.85).aspx">GraphicsPathIterator::GetCount</a> method to determine the number of data points in the path. The <i>points</i> parameter points to a buffer that receives the data points, and the <i>types</i> parameter points to a buffer that receives the types. Before you call the <b>GraphicsPathIterator::Enumerate</b> method, you must allocate memory for those buffers. The size of the <i>points</i> buffer should be the return value of <b>GraphicsPathIterator::GetCount</b> multiplied by <b>sizeof(PointF)</b>. The size of the types buffer should be the return value of <b>GraphicsPathIterator::GetCount</b>.
+You can call the <a href="https://msdn.microsoft.com/en-us/library/ms535454(v=VS.85).aspx">GraphicsPathIterator::GetCount</a> method to determine the number of data points in the path. The <i>points</i> parameter points to a buffer that receives the data points, and the <i>types</i> parameter points to a buffer that receives the types. Before you call the <b>GraphicsPathIterator::Enumerate</b> method, you must allocate memory for those buffers. The size of the <i>points</i> buffer should be the return value of <b>GraphicsPathIterator::GetCount</b> multiplied by <b>sizeof(PointF)</b>. The size of the types buffer should be the return value of <b>GraphicsPathIterator::GetCount</b>.
 
 
 #### Examples
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object and adds three lines to the path. The code creates a <a href="https://msdn.microsoft.com/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a> object and calls its <b>GraphicsPathIterator::Enumerate</b> method to retrieve the path's data points and point types. Then the code displays the count returned by the <b>GraphicsPathIterator::Enumerate</b> method.
+The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object and adds three lines to the path. The code creates a <a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a> object and calls its <b>GraphicsPathIterator::Enumerate</b> method to retrieve the path's data points and point types. Then the code displays the count returned by the <b>GraphicsPathIterator::Enumerate</b> method.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -155,43 +155,43 @@ delete[] pTypes;
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535534(v=VS.85).aspx">GetPathData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535534(v=VS.85).aspx">GetPathData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535561(v=VS.85).aspx">GetPathPoints Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535561(v=VS.85).aspx">GetPathPoints Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535535(v=VS.85).aspx">GetPathTypes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535535(v=VS.85).aspx">GetPathTypes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535536(v=VS.85).aspx">GetPointCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535536(v=VS.85).aspx">GetPointCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535452(v=VS.85).aspx">GraphicsPathIterator::CopyData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535452(v=VS.85).aspx">GraphicsPathIterator::CopyData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535454(v=VS.85).aspx">GraphicsPathIterator::GetCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535454(v=VS.85).aspx">GraphicsPathIterator::GetCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536370(v=VS.85).aspx">Paths</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
  
 
  

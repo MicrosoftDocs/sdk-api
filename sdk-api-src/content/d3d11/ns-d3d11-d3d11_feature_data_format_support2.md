@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_feature_data_format_support2.htm
 old-project: direct3d11
 ms.assetid: 075cc44a-3c91-4015-af7f-489b3b3c6661
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 666f73ad-8c04-9774-e3ed-01d758bb509f, D3D11_FEATURE_DATA_FORMAT_SUPPORT2, D3D11_FEATURE_DATA_FORMAT_SUPPORT2 structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_FORMAT_SUPPORT2, direct3d11.d3d11_feature_data_format_support2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,10 +60,10 @@ Describes which unordered resource options are supported by the current graphics
 
 ### -field InFormat
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> to return information on.
+<a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> to return information on.
 
 
 ### -field OutFormatSupport2

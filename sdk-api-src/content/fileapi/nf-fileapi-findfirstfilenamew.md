@@ -7,7 +7,7 @@ old-location: fs\findfirstfilenamew.htm
 old-project: fileio
 ms.assetid: 9f64aa3e-4c73-47a8-8304-6134f1b4d153
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/06/2018
 ms.keywords: FindFirstFileNameW, FindFirstFileNameW function [Files], fileapi/FindFirstFileNameW, fs.findfirstfilenamew
 ms.prod: windows
 ms.technology: windows-sdk

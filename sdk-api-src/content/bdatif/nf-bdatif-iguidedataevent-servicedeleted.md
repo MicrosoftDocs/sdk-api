@@ -7,7 +7,7 @@ old-location: mstv\iguidedataevent_servicedeleted.htm
 old-project: mstv
 ms.assetid: bba15ebe-d1c5-4c71-b052-6b75a7825613
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ServiceDeleted method, IGuideDataEvent.ServiceDeleted, IGuideDataEvent::ServiceDeleted, IGuideDataEventServiceDeleted, ServiceDeleted, ServiceDeleted method [Microsoft TV Technologies], ServiceDeleted method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ServiceDeleted, mstv.iguidedataevent_servicedeleted
 ms.prod: windows
 ms.technology: windows-sdk

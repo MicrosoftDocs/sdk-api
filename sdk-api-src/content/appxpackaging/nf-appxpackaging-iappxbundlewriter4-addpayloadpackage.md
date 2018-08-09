@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlewriter4_addpayloadpackage.htm
 old-project: appxpkg
 ms.assetid: 5D313F6C-F2EC-42A4-A4A8-8026E7DBF67B
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: AddPayloadPackage, AddPayloadPackage method [App packaging and management], AddPayloadPackage method [App packaging and management],IAppxBundleWriter4 interface, IAppxBundleWriter4 interface [App packaging and management],AddPayloadPackage method, IAppxBundleWriter4.AddPayloadPackage, IAppxBundleWriter4::AddPayloadPackage, appxpackaging/IAppxBundleWriter4::AddPayloadPackage, appxpkg.iappxbundlewriter4_addpayloadpackage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ A flag for whether this package is a default applicable package.
 
 #### - inputStream [in]
 
-
-            An <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> that provides the contents of <i>fileName</i>.
+An <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> that provides the contents of <i>fileName</i>.
 
 
 ## -returns

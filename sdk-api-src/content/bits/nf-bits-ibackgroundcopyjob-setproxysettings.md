@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_setproxysettings.htm
 old-project: bits
 ms.assetid: fd21a17b-1049-4dd9-a08b-da84699b8006
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetProxySettings method, IBackgroundCopyJob.SetProxySettings, IBackgroundCopyJob::SetProxySettings, SetProxySettings, SetProxySettings method [BITS], SetProxySettings method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setproxysettings, bits.ibackgroundcopyjob_setproxysettings, bits/IBackgroundCopyJob::SetProxySettings
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,6 +76,16 @@ Specifies whether to use the user's proxy settings, not to use a proxy, or to us
 
 
 
+#### - pProxyList [in]
+
+Null-terminated string that contains the proxies to use to transfer files. The list is space-delimited. For details on specifying a proxy, see Remarks.
+
+ This parameter must be <b>NULL</b> if the value of <i>ProxyUsage</i> is <b>BG_JOB_PROXY_USAGE_PRECONFIG</b>, <b>BG_JOB_PROXY_USAGE_NO_PROXY</b>, or <b>BG_JOB_PROXY_USAGE_AUTODETECT</b>.
+
+The length of the proxy list is limited to 4,000 characters, not including the null terminator.
+					
+
+
 #### - pProxyBypassList [in]
 
 Null-terminated string that contains an optional list of host names, IP addresses, or both, that can bypass the proxy. The list is space-delimited. For details on specifying a bypass proxy, see Remarks.
@@ -84,17 +94,6 @@ This parameter must be <b>NULL</b> if the value of <i>ProxyUsage</i> is <b>BG_JO
 						
 
 The length of the proxy bypass list is limited to 4,000 characters, not including the null terminator.
-					
-
-
-#### - pProxyList [in]
-
-Null-terminated string that contains the proxies to use to transfer files. The list is space-delimited. For details on specifying a proxy, see Remarks.
-
- This parameter must be <b>NULL</b> if the value of <i>ProxyUsage</i> is <b>BG_JOB_PROXY_USAGE_PRECONFIG</b>, <b>BG_JOB_PROXY_USAGE_NO_PROXY</b>, or <b>BG_JOB_PROXY_USAGE_AUTODETECT</b>.
-
-
-						The length of the proxy list is limited to 4,000 characters, not including the null terminator.
 					
 
 

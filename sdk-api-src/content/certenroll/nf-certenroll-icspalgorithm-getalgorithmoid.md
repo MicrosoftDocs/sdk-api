@@ -7,7 +7,7 @@ old-location: security\icspalgorithm_getalgorithmoid_method.htm
 old-project: seccertenroll
 ms.assetid: b922154d-0d57-4473-b331-c0082d9e5db5
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: GetAlgorithmOid, GetAlgorithmOid method [Security], GetAlgorithmOid method [Security],ICspAlgorithm interface, ICspAlgorithm interface [Security],GetAlgorithmOid method, ICspAlgorithm.GetAlgorithmOid, ICspAlgorithm::GetAlgorithmOid, certenroll/ICspAlgorithm::GetAlgorithmOid, security.icspalgorithm_getalgorithmoid_method
 ms.prod: windows
 ms.technology: windows-sdk

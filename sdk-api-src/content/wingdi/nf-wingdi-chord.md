@@ -7,7 +7,7 @@ old-location: gdi\chord.htm
 old-project: gdi
 ms.assetid: d6752c47-96a5-4fac-a1bb-0611a91f03f9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Chord, Chord function [Windows GDI], _win32_Chord, gdi.chord, wingdi/Chord
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,84 +66,42 @@ The <b>Chord</b> function draws a chord (a region bounded by the intersection of
 A handle to the device context in which the chord appears.
 
 
-### -param x1
-
-TBD
-
-
-### -param y1
-
-TBD
-
-
-### -param x2
-
-TBD
-
-
-### -param y2
-
-TBD
-
-
-### -param x3
-
-TBD
-
-
-### -param y3
-
-TBD
-
-
-### -param x4
-
-TBD
-
-
-### -param y4
-
-TBD
-
-
-
-
-#### - nBottomRect [in]
-
-The y-coordinate, in logical coordinates, of the lower-right corner of the bounding rectangle.
-
-
-#### - nLeftRect [in]
+### -param x1 [in]
 
 The x-coordinate, in logical coordinates, of the upper-left corner of the bounding rectangle.
 
 
-#### - nRightRect [in]
-
-The x-coordinate, in logical coordinates, of the lower-right corner of the bounding rectangle.
-
-
-#### - nTopRect [in]
+### -param y1 [in]
 
 The y-coordinate, in logical coordinates, of the upper-left corner of the bounding rectangle.
 
 
-#### - nXRadial1 [in]
+### -param x2 [in]
+
+The x-coordinate, in logical coordinates, of the lower-right corner of the bounding rectangle.
+
+
+### -param y2 [in]
+
+The y-coordinate, in logical coordinates, of the lower-right corner of the bounding rectangle.
+
+
+### -param x3 [in]
 
 The x-coordinate, in logical coordinates, of the endpoint of the radial defining the beginning of the chord.
 
 
-#### - nXRadial2 [in]
-
-The x-coordinate, in logical coordinates, of the endpoint of the radial defining the end of the chord.
-
-
-#### - nYRadial1 [in]
+### -param y3 [in]
 
 The y-coordinate, in logical coordinates, of the endpoint of the radial defining the beginning of the chord.
 
 
-#### - nYRadial2 [in]
+### -param x4 [in]
+
+The x-coordinate, in logical coordinates, of the endpoint of the radial defining the end of the chord.
+
+
+### -param y4 [in]
 
 The y-coordinate, in logical coordinates, of the endpoint of the radial defining the end of the chord.
 

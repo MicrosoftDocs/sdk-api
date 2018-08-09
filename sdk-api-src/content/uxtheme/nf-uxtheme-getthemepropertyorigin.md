@@ -4,10 +4,10 @@ title: GetThemePropertyOrigin function
 author: windows-sdk-content
 description: Retrieves the location of the theme property definition for a property.
 old-location: controls\GetThemePropertyOrigin.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemepropertyorigin.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetThemePropertyOrigin, GetThemePropertyOrigin function [Windows Controls], controls.GetThemePropertyOrigin, controls.inet_GetThemePropertyOrigin, inet_GetThemePropertyOrigin, inet_GetThemePropertyOrigin_cpp, uxtheme/GetThemePropertyOrigin
 ms.prod: windows
 ms.technology: windows-sdk

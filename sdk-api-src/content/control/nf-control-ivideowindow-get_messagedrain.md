@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_messagedrain.htm
 old-project: DirectShow
 ms.assetid: 9a1a3070-5b68-4dd2-bc10-97a8331cc262
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_MessageDrain method, IVideoWindow.get_MessageDrain, IVideoWindow::get_MessageDrain, IVideoWindowget_MessageDrain, control/IVideoWindow::get_MessageDrain, dshow.ivideowindow_get_messagedrain, get_MessageDrain, get_MessageDrain method [DirectShow], get_MessageDrain method [DirectShow],IVideoWindow interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ The <code>get_MessageDrain</code> method retrieves the window that receives mous
 
 ### -param Drain [in]
 
-
-            Receives a handle to the window, as an <a href="https://msdn.microsoft.com/80194b19-9c24-48f5-aca6-6ab33bd88c90">OAHWND</a> type. If no message drain was set, this parameter receives the value <b>NULL</b>.
+Receives a handle to the window, as an <a href="https://msdn.microsoft.com/80194b19-9c24-48f5-aca6-6ab33bd88c90">OAHWND</a> type. If no message drain was set, this parameter receives the value <b>NULL</b>.
           
 
 

@@ -4,10 +4,10 @@ title: SLGetAuthenticationResult function
 author: windows-sdk-content
 description: Gets the authentication results.
 old-location: security\slgetauthenticationresult.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: 8f30ac28-92a0-41f5-b076-eda7014fb526
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLGetAuthenticationResult, SLGetAuthenticationResult function [Security], security.slgetauthenticationresult, slpublic/SLGetAuthenticationResult
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLGetAuthenticationResult function

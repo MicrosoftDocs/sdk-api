@@ -7,7 +7,7 @@ old-location: menurc\insertmenuitem.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\insertmenuitem.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: InsertMenuItem, InsertMenuItem function [Menus and Other Resources], InsertMenuItemA, InsertMenuItemW, _win32_InsertMenuItem, _win32_insertmenuitem_cpp, menurc.insertmenuitem, winui._win32_insertmenuitem, winuser/InsertMenuItem, winuser/InsertMenuItemA, winuser/InsertMenuItemW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,14 +64,18 @@ Inserts a new menu item at the specified position in a menu.
 
 
 
-### -param hmenu
+### -param hmenu [in]
 
-TBD
+Type: <b>HMENU</b>
+
+A handle to the menu in which the new menu item is inserted. 
 
 
-### -param item
+### -param item [in]
 
-TBD
+Type: <b>UINT</b>
+
+The identifier or position of the menu item before which to insert the new item. The meaning of this parameter depends on the value of <i>fByPosition</i>. 
 
 
 ### -param fByPosition [in]
@@ -81,32 +85,11 @@ Type: <b>BOOL</b>
 Controls the meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="https://msdn.microsoft.com/en-us/library/ms647553(v=VS.85).aspx">Accessing Menu Items Programmatically</a> for more information.
 
 
-### -param lpmi
-
-TBD
-
-
-
-
-#### - hMenu [in]
-
-Type: <b>HMENU</b>
-
-A handle to the menu in which the new menu item is inserted. 
-
-
-#### - lpmii [in]
+### -param lpmi [in]
 
 Type: <b>LPCMENUITEMINFO</b>
 
 A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms647578(v=VS.85).aspx">MENUITEMINFO</a> structure that contains information about the new menu item. 
-
-
-#### - uItem [in]
-
-Type: <b>UINT</b>
-
-The identifier or position of the menu item before which to insert the new item. The meaning of this parameter depends on the value of <i>fByPosition</i>. 
 
 
 ## -returns

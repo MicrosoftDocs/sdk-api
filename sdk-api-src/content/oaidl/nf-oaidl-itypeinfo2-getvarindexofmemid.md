@@ -7,7 +7,7 @@ old-location: automat\itypeinfo2_getvarindexofmemid.htm
 old-project: automat
 ms.assetid: 6b97ddbf-bcb3-4e39-a355-40c1fd4e8c6a
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: GetVarIndexOfMemId, GetVarIndexOfMemId method [Automation], GetVarIndexOfMemId method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetVarIndexOfMemId method, ITypeInfo2.GetVarIndexOfMemId, ITypeInfo2::GetVarIndexOfMemId, _oa96_ITypeInfo2_GetVarIndexOfMemId, automat.itypeinfo2_getvarindexofmemid, oaidl/ITypeInfo2::GetVarIndexOfMemId
 ms.prod: windows
 ms.technology: windows-sdk

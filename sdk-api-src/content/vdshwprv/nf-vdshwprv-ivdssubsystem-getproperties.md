@@ -4,10 +4,10 @@ title: IVdsSubSystem::GetProperties
 author: windows-sdk-content
 description: Returns the properties of a subsystem.
 old-location: base\ivdssubsystem_getproperties.htm
-old-project: VDS
+old-project: vds
 ms.assetid: cbcf1e14-7e3d-44e6-8c4a-afe927ed0f9d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsSubSystem interface, IVdsSubSystem interface [VDS],GetProperties method, IVdsSubSystem.GetProperties, IVdsSubSystem::GetProperties, base.ivdssubsystem_getproperties, vds/IVdsSubSystem::GetProperties, vdshwprv/IVdsSubSystem::GetProperties
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpcreateclass.htm
 old-project: dhcp
 ms.assetid: ae30baba-a2cd-4662-a62a-58b59d119dc4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpCreateClass, DhcpCreateClass function [DHCP], dhcp.dhcpcreateclass, dhcpsapi/DhcpCreateClass
 ms.prod: windows
 ms.technology: windows-sdk
@@ -129,8 +129,7 @@ The specified class name is already defined on the DHCP server, or the class inf
 
 
 
-<a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">
-		  DHCP_CLASS_INFO</a>
+<a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">DHCP_CLASS_INFO</a>
 
 
 

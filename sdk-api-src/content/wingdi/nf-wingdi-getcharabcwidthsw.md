@@ -7,7 +7,7 @@ old-location: gdi\getcharabcwidths.htm
 old-project: gdi
 ms.assetid: b48ab66d-ff0a-48d9-b7dd-28610bf69d51
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetCharABCWidths, GetCharABCWidths function [Windows GDI], GetCharABCWidthsA, GetCharABCWidthsW, _win32_GetCharABCWidths, gdi.getcharabcwidths, wingdi/GetCharABCWidths, wingdi/GetCharABCWidthsA, wingdi/GetCharABCWidthsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,36 +71,19 @@ The <b>GetCharABCWidths</b> function retrieves the widths, in logical units, of 
 A handle to the device context.
 
 
-### -param wFirst
-
-TBD
-
-
-### -param wLast
-
-TBD
-
-
-### -param lpABC
-
-TBD
-
-
-
-
-#### - lpabc [out]
-
-A pointer to an array of <a href="https://msdn.microsoft.com/00000000-0000-0000-0000-000000000001">ABC</a> structures that receives the character widths, in logical units. This array must contain at least as many <b>ABC</b> structures as there are characters in the range specified by the <i>uFirstChar</i> and <i>uLastChar</i> parameters.
-
-
-#### - uFirstChar [in]
+### -param wFirst [in]
 
 The first character in the group of consecutive characters from the current font.
 
 
-#### - uLastChar [in]
+### -param wLast [in]
 
 The last character in the group of consecutive characters from the current font.
+
+
+### -param lpABC [out]
+
+A pointer to an array of <a href="https://msdn.microsoft.com/00000000-0000-0000-0000-000000000001">ABC</a> structures that receives the character widths, in logical units. This array must contain at least as many <b>ABC</b> structures as there are characters in the range specified by the <i>uFirstChar</i> and <i>uLastChar</i> parameters.
 
 
 ## -returns

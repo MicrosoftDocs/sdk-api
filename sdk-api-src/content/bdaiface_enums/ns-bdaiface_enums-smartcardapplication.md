@@ -7,7 +7,7 @@ old-location: mstv\smartcardapplication.htm
 old-project: mstv
 ms.assetid: 14d9cfbd-46c4-4be2-8631-f0916820c129
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: SmartCardApplication, SmartCardApplication structure [Microsoft TV Technologies], SmartCardApplicationStructure, bdaiface_enums/SmartCardApplication, mstv.smartcardapplication
 ms.prod: windows
 ms.technology: windows-sdk

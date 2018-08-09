@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsender_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0gtu_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxSender, IFaxSender interface [Fax Service], IFaxSender interface [Fax Service],described, _mfax_faxsender_cpp, fax._mfax_faxsender_cpp, faxcomex/IFaxSender
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The <b>IFaxSender</b> interface defines a messaging object used by a fax client 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxSender</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxSender</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxSender</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxSender</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -75,7 +75,7 @@ The <b>IFaxSender</b> interface has these methods.
 <a href="https://msdn.microsoft.com/en-us/library/ms690195(v=VS.85).aspx">LoadDefaultSender</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms690195(v=VS.85).aspx">IFaxSender::get_LoadDefaultSender</a> method fills the <a href="https://msdn.microsoft.com/library/ms687532(v=VS.85).aspx">FaxSender</a> object with the default sender information.
+The <a href="https://msdn.microsoft.com/en-us/library/ms690195(v=VS.85).aspx">IFaxSender::get_LoadDefaultSender</a> method fills the <a href="https://msdn.microsoft.com/en-us/library/ms687532(v=VS.85).aspx">FaxSender</a> object with the default sender information.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690195(v=VS.85).aspx">IF
 <a href="https://msdn.microsoft.com/en-us/library/ms689558(v=VS.85).aspx">SaveDefaultSender</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms689558(v=VS.85).aspx">IFaxSender::SaveDefaultSender</a> method stores information about the default sender from the <a href="https://msdn.microsoft.com/library/ms687532(v=VS.85).aspx">FaxSender</a> object.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689558(v=VS.85).aspx">IFaxSender::SaveDefaultSender</a> method stores information about the default sender from the <a href="https://msdn.microsoft.com/en-us/library/ms687532(v=VS.85).aspx">FaxSender</a> object.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms689558(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms689541(v=VS.85).aspx">BillingCode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689541(v=VS.85).aspx">BillingCode</a>
 
 
 </td>
@@ -108,14 +108,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms689541(v=VS.85).aspx">IFaxSender::get_BillingCode</a> property is a null-terminated string that contains the billing code associated with the sender.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689541(v=VS.85).aspx">IFaxSender::get_BillingCode</a> property is a null-terminated string that contains the billing code associated with the sender.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms689516(v=VS.85).aspx">City</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689516(v=VS.85).aspx">City</a>
 
 
 </td>
@@ -131,7 +131,7 @@ Not currently supported.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms688437(v=VS.85).aspx">Company</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688437(v=VS.85).aspx">Company</a>
 
 
 </td>
@@ -140,14 +140,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms688437(v=VS.85).aspx">IFaxSender::get_Company</a> property is a null-terminated string that contains the company name associated with the sender.
+The <a href="https://msdn.microsoft.com/en-us/library/ms688437(v=VS.85).aspx">IFaxSender::get_Company</a> property is a null-terminated string that contains the company name associated with the sender.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms690217(v=VS.85).aspx">Country</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690217(v=VS.85).aspx">Country</a>
 
 
 </td>
@@ -359,7 +359,7 @@ Not currently supported.
 
 
 
-A default implementation of <b>IFaxSender</b> is provided as the <a href="https://msdn.microsoft.com/library/ms687532(v=VS.85).aspx">FaxSender</a> object.
+A default implementation of <b>IFaxSender</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms687532(v=VS.85).aspx">FaxSender</a> object.
 
 
 

@@ -74,14 +74,14 @@ The <b>Add</b> method adds a new persistent tuning space to the system.
 
 
 
-#### - pNewIndex [out]
-
-Pointer to a variable of type <b>VARIANT</b> that receives the ID of the new tuning space within the current collection.
-
-
 #### - pTuningSpace [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3439f2">ITuningSpace</a> interface of the new tuning space
+
+
+#### - pNewIndex [out]
+
+Pointer to a variable of type <b>VARIANT</b> that receives the ID of the new tuning space within the current collection.
 
 
 ## -returns

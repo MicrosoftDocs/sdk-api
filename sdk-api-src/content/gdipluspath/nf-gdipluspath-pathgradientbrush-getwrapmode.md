@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetWrapMode_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getwrapmode_45.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetWrapMode, GetWrapMode method [GDI+], GetWrapMode method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetWrapMode method, PathGradientBrush.GetWrapMode, PathGradientBrush::GetWrapMode, _gdiplus_CLASS_PathGradientBrush_GetWrapMode_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetWrapMode_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,11 +65,11 @@ The <b>PathGradientBrush::GetWrapMode</b> method gets the wrap mode currently se
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534407(v=VS.85).aspx">WrapMode</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534407(v=VS.85).aspx">WrapMode</a></b>
 </strong>
 
 This method returns an element of the 
-						<a href="https://msdn.microsoft.com/library/ms534407(v=VS.85).aspx">WrapMode</a> enumeration that indicates the wrap mode currently set for this path gradient brush.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534407(v=VS.85).aspx">WrapMode</a> enumeration that indicates the wrap mode currently set for this path gradient brush.
 
 
 
@@ -88,13 +88,10 @@ The default wrap mode for a path gradient brush is WrapModeClamp, which indicate
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
- object based on a triangular path. The code calls the <a href="https://msdn.microsoft.com/library/ms535092(v=VS.85).aspx">PathGradientBrush::SetWrapMode</a> method of the 
-						<b>PathGradientBrush</b>
- object to set the wrap mode to <a href="https://msdn.microsoft.com/library/ms534407(v=VS.85).aspx">WrapModeTileFlipX</a>. Next, the code calls the <b>PathGradientBrush::GetWrapMode</b> method of the 
-						<b>PathGradientBrush</b>
- object to obtain the brush's wrap mode. If the obtained wrap mode is WrapModeTileFlipX, the code calls 
-						<a href="https://msdn.microsoft.com/library/ms535957(v=VS.85).aspx">FillRectangle</a> to tile a large area with the path gradient brush. 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>object based on a triangular path. The code calls the <a href="https://msdn.microsoft.com/en-us/library/ms535092(v=VS.85).aspx">PathGradientBrush::SetWrapMode</a> method of the 
+						<b>PathGradientBrush</b>object to set the wrap mode to <a href="https://msdn.microsoft.com/en-us/library/ms534407(v=VS.85).aspx">WrapModeTileFlipX</a>. Next, the code calls the <b>PathGradientBrush::GetWrapMode</b> method of the 
+						<b>PathGradientBrush</b>object to obtain the brush's wrap mode. If the obtained wrap mode is WrapModeTileFlipX, the code calls 
+						<a href="https://msdn.microsoft.com/en-us/library/ms535957(v=VS.85).aspx">FillRectangle</a> to tile a large area with the path gradient brush. 
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -142,27 +139,27 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533856(v=VS.85).aspx">Filling a Shape with a Color Gradient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533856(v=VS.85).aspx">Filling a Shape with a Color Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535092(v=VS.85).aspx">PathGradientBrush::SetWrapMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535092(v=VS.85).aspx">PathGradientBrush::SetWrapMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533861(v=VS.85).aspx">Tiling a Shape with an Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533861(v=VS.85).aspx">Tiling a Shape with an Image</a>
  
 
  

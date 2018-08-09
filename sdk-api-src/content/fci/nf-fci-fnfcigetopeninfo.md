@@ -7,7 +7,7 @@ old-location: winprog\fnfcigetopeninfo.htm
 old-project: devnotes
 ms.assetid: 5baccb69-7872-4d67-ad74-70cdd7459f8d
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FNFCIGETOPENINFO, FNFCIGETOPENINFO macro [Windows API], fci/FNFCIGETOPENINFO, winprog.fnfcigetopeninfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,23 +59,9 @@ The <b>FNFCIGETOPENINFO</b> macro provides the declaration for the application-d
 
 
 
-### -param fn
+### -param fn [in]
 
-TBD
-
-
-
-
-
-
-#### - err
-
-Pointer to the error code value. This value will be used to provide extended error information in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
-
-
-#### - pattribs
-
-The file attributes. For possible values and their descriptions, see File Attributes.
+ The complete filename.
 
 
 #### - pdate
@@ -103,11 +89,6 @@ The file attributes. For possible values and their descriptions, see File Attrib
  
 
 
-#### - pszName [in]
-
- The complete filename.
-
-
 #### - ptime
 
 The MS-DOS time. The time is a packed value with the following format:
@@ -131,6 +112,16 @@ The MS-DOS time. The time is a packed value with the following format:
 </tr>
 </table>
  
+
+
+#### - pattribs
+
+The file attributes. For possible values and their descriptions, see File Attributes.
+
+
+#### - err
+
+Pointer to the error code value. This value will be used to provide extended error information in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
 
 
 #### - pv

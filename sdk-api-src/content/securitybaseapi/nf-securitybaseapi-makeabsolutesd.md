@@ -7,7 +7,7 @@ old-location: security\makeabsolutesd.htm
 old-project: secauthz
 ms.assetid: 47c75071-f10d-43cf-a841-2dd49fc39afa
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: MakeAbsoluteSD, MakeAbsoluteSD function [Security], _win32_makeabsolutesd, security.makeabsolutesd, securitybaseapi/MakeAbsoluteSD
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,19 +66,20 @@ The <b>MakeAbsoluteSD</b> function creates a <a href="https://msdn.microsoft.com
 
 
 
-### -param pSelfRelativeSecurityDescriptor
+### -param pSelfRelativeSecurityDescriptor [in]
 
-TBD
-
-
-### -param pAbsoluteSecurityDescriptor
-
-TBD
+A pointer to a 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure in self-relative format. The function creates an absolute-format version of this security descriptor without modifying the original security descriptor.
 
 
-### -param lpdwAbsoluteSecurityDescriptorSize
+### -param pAbsoluteSecurityDescriptor [out, optional]
 
-TBD
+A pointer to a buffer that the function fills with the main body of an absolute-format security descriptor. This information is formatted as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure.
+
+
+### -param lpdwAbsoluteSecurityDescriptorSize [in, out]
+
+A pointer to a variable that specifies the size of the buffer pointed to by the <i>pAbsoluteSD</i> parameter. If the buffer is not large enough for the security descriptor, the function fails and sets this variable to the minimum required size.
 
 
 ### -param pDacl [out, optional]
@@ -119,22 +120,6 @@ A pointer to a buffer the function fills with the SID of the absolute-format sec
 ### -param lpdwPrimaryGroupSize [in, out]
 
 A pointer to a variable that specifies the size of the buffer pointed to by the <i>pPrimaryGroup</i> parameter. If the buffer is not large enough for the SID, the function fails and sets this variable to the minimum required size.
-
-
-#### - lpdwAbsoluteSDSize [in, out]
-
-A pointer to a variable that specifies the size of the buffer pointed to by the <i>pAbsoluteSD</i> parameter. If the buffer is not large enough for the security descriptor, the function fails and sets this variable to the minimum required size.
-
-
-#### - pAbsoluteSD [out, optional]
-
-A pointer to a buffer that the function fills with the main body of an absolute-format security descriptor. This information is formatted as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure.
-
-
-#### - pSelfRelativeSD [in]
-
-A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure in self-relative format. The function creates an absolute-format version of this security descriptor without modifying the original security descriptor.
 
 
 ## -returns

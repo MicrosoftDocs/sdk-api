@@ -7,7 +7,7 @@ old-location: wmi\iwbemobjectsinkex_writeprogress.htm
 old-project: WmiSdk
 ms.assetid: 78323321-942d-47f2-82e6-19ae2ea39b6a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: IWbemObjectSinkEx interface [Windows Management Instrumentation],WriteProgress method, IWbemObjectSinkEx.WriteProgress, IWbemObjectSinkEx::WriteProgress, WriteProgress, WriteProgress method [Windows Management Instrumentation], WriteProgress method [Windows Management Instrumentation],IWbemObjectSinkEx interface, wbemcli/IWbemObjectSinkEx::WriteProgress, wmi.iwbemobjectsinkex_writeprogress
 ms.prod: windows
 ms.technology: windows-sdk

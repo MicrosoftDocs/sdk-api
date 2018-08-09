@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_createinstanceenum.htm
 old-project: WmiSdk
 ms.assetid: 47671b9b-a2ff-4375-b2a4-7e8599f1fb69
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: CreateInstanceEnum, CreateInstanceEnum method [Windows Management Instrumentation], CreateInstanceEnum method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],CreateInstanceEnum method, IWbemServices.CreateInstanceEnum, IWbemServices::CreateInstanceEnum, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DEEP, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_FORWARD_ONLY, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_SHALLOW, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_createinstanceenum, wbemcli/IWbemServices::CreateInstanceEnum, wmi.iwbemservices_createinstanceenum
 ms.prod: windows
 ms.technology: windows-sdk

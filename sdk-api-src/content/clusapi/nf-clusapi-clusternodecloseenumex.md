@@ -7,7 +7,7 @@ old-location: mscs\clusternodecloseenumex.htm
 old-project: mscs
 ms.assetid: 1B743E4E-F8E0-4E73-B5FA-53D4FC547251
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusterNodeCloseEnumEx, ClusterNodeCloseEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM_EX, PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM_EX function [Failover Cluster], clusapi/ClusterNodeCloseEnumEx, clusapi/PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM_EX, mscs.clusternodecloseenumex
 ms.prod: windows
 ms.technology: windows-sdk

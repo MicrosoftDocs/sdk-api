@@ -4,10 +4,10 @@ title: WinHttpReadData function
 author: windows-sdk-content
 description: The WinHttpReadData function reads data from a handle opened by the WinHttpOpenRequest function.
 old-location: http\winhttpreaddata.htm
-old-project: WinHttp
+old-project: winhttp
 ms.assetid: 06340601-9b2d-487a-a82a-aa2175a52dc5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WinHttpReadData, WinHttpReadData function [WinHTTP], http.winhttpreaddata, winhttp.winhttpreaddata_function, winhttp/WinHttpReadData
 ms.prod: windows
 ms.technology: windows-sdk

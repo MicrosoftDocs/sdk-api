@@ -7,7 +7,7 @@ old-location: base\ioctl_pwm_controller_set_desired_period.htm
 old-project: devio
 ms.assetid: 7E25B3C8-8C73-4808-B460-DFC408A2482F
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/07/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD, IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD control, IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD control code, base.ioctl_pwm_controller_set_desired_period, pwm/IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Sets the output signal period of a Pulse Width Modulation (PWM) controller to a 
 
 ### -input-buffer
 
-A pointer to a buffer that contains a <a href="https://msdn.microsoft.com/BD003CAE-3DB9-4C7B-9CAD-735866C17004">PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT</a> struct. The associated value is the requested output signal period, in picoseconds, for the controller. This value must be greater than zero (0). It must be in the controller supported range of periods, which is between the <b>MinimumPeriod</b> and <b>MaximumPeriod</b> values, inclusive, which you can obtain by using <a href="https://msdn.microsoft.com/library/Mt826476(v=VS.85).aspx">IOCTL_PWM_CONTROLLER_GET_INFO</a>.
+A pointer to a buffer that contains a <a href="https://msdn.microsoft.com/BD003CAE-3DB9-4C7B-9CAD-735866C17004">PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT</a> struct. The associated value is the requested output signal period, in picoseconds, for the controller. This value must be greater than zero (0). It must be in the controller supported range of periods, which is between the <b>MinimumPeriod</b> and <b>MaximumPeriod</b> values, inclusive, which you can obtain by using <a href="https://msdn.microsoft.com/en-us/library/Mt826476(v=VS.85).aspx">IOCTL_PWM_CONTROLLER_GET_INFO</a>.
 
 
 ### -input-buffer-length
@@ -76,7 +76,7 @@ The size of the input buffer, in bytes.
 
 ### -output-buffer
 
- A pointer to a buffer that contains a <a href="https://msdn.microsoft.com/BD003CAE-3DB9-4C7B-9CAD-735866C17004">PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT</a> struct. The associated value is the effective output signal period of the Pulse Width Modulation (PWM) controller. It can later be retrieved by using <a href="https://msdn.microsoft.com/library/Mt826475(v=VS.85).aspx">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>.  
+ A pointer to a buffer that contains a <a href="https://msdn.microsoft.com/BD003CAE-3DB9-4C7B-9CAD-735866C17004">PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT</a> struct. The associated value is the effective output signal period of the Pulse Width Modulation (PWM) controller. It can later be retrieved by using <a href="https://msdn.microsoft.com/en-us/library/Mt826475(v=VS.85).aspx">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>.  
 
 
 ### -output-buffer-length
@@ -124,8 +124,7 @@ To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087
 <pre class="syntax">BOOL 
    WINAPI 
    DeviceIoControl( (HANDLE)       hDevice,         // handle to device
-                    (DWORD)        IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD, // dwIoControlCode
-                    (LPDWORD)      lpInBuffer,      // input buffer
+                    (DWORD)        IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD, // dwIoControlCode(LPDWORD)      lpInBuffer,      // input buffer
                     (DWORD)        nInBufferSize,   // size of input buffer
                     (LPDWORD)      lpOutBuffer,     // output buffer
                     (DWORD)        nOutBufferSize,  // size of output buffer
@@ -169,7 +168,7 @@ The control code for the operation. Use
 
 </td>
 <td width="60%">
-A pointer to a buffer that contains a <a href="https://msdn.microsoft.com/BD003CAE-3DB9-4C7B-9CAD-735866C17004">PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT</a> struct. The associated value is the requested output signal period, in picoseconds, for the controller. This value must be greater than zero (0). It must be in the controller supported range of periods, which is between the <b>MinimumPeriod</b> and <b>MaximumPeriod</b> values, inclusive, which you can obtain by using <a href="https://msdn.microsoft.com/library/Mt826476(v=VS.85).aspx">IOCTL_PWM_CONTROLLER_GET_INFO</a>.
+A pointer to a buffer that contains a <a href="https://msdn.microsoft.com/BD003CAE-3DB9-4C7B-9CAD-735866C17004">PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT</a> struct. The associated value is the requested output signal period, in picoseconds, for the controller. This value must be greater than zero (0). It must be in the controller supported range of periods, which is between the <b>MinimumPeriod</b> and <b>MaximumPeriod</b> values, inclusive, which you can obtain by using <a href="https://msdn.microsoft.com/en-us/library/Mt826476(v=VS.85).aspx">IOCTL_PWM_CONTROLLER_GET_INFO</a>.
 
 </td>
 </tr>
@@ -189,7 +188,7 @@ The size of the input buffer, in bytes.
 
 </td>
 <td width="60%">
- A pointer to a buffer that contains a <a href="https://msdn.microsoft.com/BD003CAE-3DB9-4C7B-9CAD-735866C17004">PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT</a> struct. The associated value is the effective output signal period of the Pulse Width Modulation (PWM) controller. It can later be retrieved by using <a href="https://msdn.microsoft.com/library/Mt826475(v=VS.85).aspx">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>.
+ A pointer to a buffer that contains a <a href="https://msdn.microsoft.com/BD003CAE-3DB9-4C7B-9CAD-735866C17004">PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT</a> struct. The associated value is the effective output signal period of the Pulse Width Modulation (PWM) controller. It can later be retrieved by using <a href="https://msdn.microsoft.com/en-us/library/Mt826475(v=VS.85).aspx">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>.
 
 </td>
 </tr>

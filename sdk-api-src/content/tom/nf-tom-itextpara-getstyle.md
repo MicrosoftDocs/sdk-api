@@ -4,10 +4,10 @@ title: ITextPara::GetStyle
 author: windows-sdk-content
 description: Retrieves the style handle to the paragraphs in the specified range.
 old-location: controls\ITextPara_GetStyle.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparagetstyle.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetStyle, GetStyle method [Windows Controls], GetStyle method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetStyle method, ITextPara.GetStyle, ITextPara::GetStyle, _win32_ITextPara_GetStyle, _win32_ITextPara_GetStyle_cpp, controls.ITextPara_GetStyle, controls._win32_ITextPara_GetStyle, tom/ITextPara::GetStyle
 ms.prod: windows
 ms.technology: windows-sdk

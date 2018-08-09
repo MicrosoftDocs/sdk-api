@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/30/2018
 ms.keywords: IDXGIFactory, IDXGIFactory interface [DXGI], IDXGIFactory interface [DXGI],described, b1276108-6fb6-9c57-75ed-b22303809d9e, direct3ddxgi.idxgifactory, dxgi/IDXGIFactory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ An <b>IDXGIFactory</b> interface implements methods for generating DXGI objects 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIFactory</b> interface inherits from <a href="https://msdn.microsoft.com/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>. <b>IDXGIFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIFactory</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>. <b>IDXGIFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IDXGIFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb174536(v=VS.85).aspx">CreateSoftwareAdapter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174536(v=VS.85).aspx">CreateSoftwareAdapter</a>
 </td>
 <td align="left" width="63%">
 Create an adapter interface that represents a software adapter.
@@ -82,18 +82,18 @@ Create an adapter interface that represents a software adapter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb174537(v=VS.85).aspx">CreateSwapChain</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174537(v=VS.85).aspx">CreateSwapChain</a>
 </td>
 <td align="left" width="63%">
 Creates a swap chain.
 
-<div class="alert"><b>Note</b>  Starting with Direct3D 11.1, we recommend not to use <a href="https://msdn.microsoft.com/library/Bb174537(v=VS.85).aspx">CreateSwapChain</a> anymore to create a swap chain. Instead, use <a href="https://msdn.microsoft.com/B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD">CreateSwapChainForHwnd</a>, <a href="https://msdn.microsoft.com/B3AC3AEB-3449-4444-9FD3-866A3795C41F">CreateSwapChainForCoreWindow</a>, or <a href="https://msdn.microsoft.com/8AE13082-F8C3-422A-A111-4E91488BD1AF">CreateSwapChainForComposition</a> depending on how you want to create the swap chain.</div>
+<div class="alert"><b>Note</b>  Starting with Direct3D 11.1, we recommend not to use <a href="https://msdn.microsoft.com/en-us/library/Bb174537(v=VS.85).aspx">CreateSwapChain</a> anymore to create a swap chain. Instead, use <a href="https://msdn.microsoft.com/B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD">CreateSwapChainForHwnd</a>, <a href="https://msdn.microsoft.com/B3AC3AEB-3449-4444-9FD3-866A3795C41F">CreateSwapChainForCoreWindow</a>, or <a href="https://msdn.microsoft.com/8AE13082-F8C3-422A-A111-4E91488BD1AF">CreateSwapChainForComposition</a> depending on how you want to create the swap chain.</div>
 <div> </div>
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb174538(v=VS.85).aspx">EnumAdapters</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174538(v=VS.85).aspx">EnumAdapters</a>
 </td>
 <td align="left" width="63%">
 Enumerates the adapters (video cards).
@@ -102,7 +102,7 @@ Enumerates the adapters (video cards).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb174539(v=VS.85).aspx">GetWindowAssociation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174539(v=VS.85).aspx">GetWindowAssociation</a>
 </td>
 <td align="left" width="63%">
 Get the window through which the user controls the transition to and from full screen.
@@ -111,7 +111,7 @@ Get the window through which the user controls the transition to and from full s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb174540(v=VS.85).aspx">MakeWindowAssociation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174540(v=VS.85).aspx">MakeWindowAssociation</a>
 </td>
 <td align="left" width="63%">
 Allows DXGI to monitor an application's message queue for the alt-enter key sequence (which causes the application to switch from windowed to full screen or vice versa).
@@ -125,11 +125,11 @@ Allows DXGI to monitor an application's message queue for the alt-enter key sequ
 
 
 
-Create a factory by calling <a href="https://msdn.microsoft.com/library/Bb204862(v=VS.85).aspx">CreateDXGIFactory</a>.
+Create a factory by calling <a href="https://msdn.microsoft.com/en-us/library/Bb204862(v=VS.85).aspx">CreateDXGIFactory</a>.
         
 
 Because you can create a Direct3D device without creating a swap chain, you might need to retrieve the factory that is used to create the device in order to create a swap chain.
-          You can request the <a href="https://msdn.microsoft.com/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a> interface from the Direct3D device and then use the <a href="https://msdn.microsoft.com/library/Bb174542(v=VS.85).aspx">IDXGIObject::GetParent</a> method to locate
+          You can request the <a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a> interface from the Direct3D device and then use the <a href="https://msdn.microsoft.com/en-us/library/Bb174542(v=VS.85).aspx">IDXGIObject::GetParent</a> method to locate
           the factory.  The following code shows how.
         
 
@@ -166,7 +166,7 @@ pDXGIAdapter-&gt;GetParent(__uuidof(IDXGIFactory), (void **)&amp;pIDXGIFactory);
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>
  
 
  

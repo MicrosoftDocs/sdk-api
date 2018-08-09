@@ -7,7 +7,7 @@ old-location: fs\getntmsobjectattribute.htm
 old-project: Rsm
 ms.assetid: 9a92d60c-a25f-4775-adb9-1a02af3c8917
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: GetNtmsObjectAttribute, GetNtmsObjectAttribute function [Files], GetNtmsObjectAttributeA, GetNtmsObjectAttributeW, _zaw_getntmsobjectattribute, base.getntmsobjectattribute, fs.getntmsobjectattribute, ntmsapi/GetNtmsObjectAttribute, ntmsapi/GetNtmsObjectAttributeA, ntmsapi/GetNtmsObjectAttributeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -299,7 +299,7 @@ The following is the list of objects that require special access rights.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Object Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Object Management Functions</a>
 
 
 

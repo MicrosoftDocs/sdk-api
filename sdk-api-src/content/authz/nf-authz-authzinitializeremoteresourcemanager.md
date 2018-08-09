@@ -7,7 +7,7 @@ old-location: security\authzinitializeremoteresourcemanager.htm
 old-project: secauthz
 ms.assetid: C3B6C75B-13A5-49CC-BB01-DA1EEC292C20
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AuthzInitializeRemoteResourceManager, AuthzInitializeRemoteResourceManager function [Security], authz/AuthzInitializeRemoteResourceManager, security.authzinitializeremoteresourcemanager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,8 +72,7 @@ A handle to the resource manager. When you have finished using the handle, free 
 
 
 
-
-						If the function succeeds, the function returns <b>TRUE</b>. 
+If the function succeeds, the function returns <b>TRUE</b>. 
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 

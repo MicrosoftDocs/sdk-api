@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_enumsurfaces.htm
 old-project: directdraw
 ms.assetid: d97135f3-9921-4e0c-b5ba-e4f709a5e32d
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: DDENUMSURFACES_ALL, DDENUMSURFACES_CANBECREATED, DDENUMSURFACES_DOESEXIST, DDENUMSURFACES_MATCH, DDENUMSURFACES_NOMATCH, EnumSurfaces, EnumSurfaces method [DirectDraw], EnumSurfaces method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],EnumSurfaces method, IDirectDraw7.EnumSurfaces, IDirectDraw7::EnumSurfaces, ddraw/IDirectDraw7::EnumSurfaces, directdraw.idirectdraw7_enumsurfaces
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,14 +105,14 @@ Searches for any surface that matches the surface description.
 Searches for any surface that does not match the surface description.
 
 
-#### - lpContext [in]
-
-Address of an application-defined structure to be passed to each enumeration member.
-
-
 #### - lpDDSD2 [in]
 
 Address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550340">DDSURFACEDESC2</a> structure that defines the surface of interest. This parameter can be NULL if <i>dwFlags</i> includes the DDENUMSURFACES_ALL flag.
+
+
+#### - lpContext [in]
+
+Address of an application-defined structure to be passed to each enumeration member.
 
 
 #### - lpEnumSurfacesCallback [in]

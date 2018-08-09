@@ -2,13 +2,13 @@
 UID: NA:faxdev
 ms.assetid: cad163c3-7cd9-3c88-b548-618d73407172
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: fax
+archived: true
 ---
 
 # Faxdev.h header

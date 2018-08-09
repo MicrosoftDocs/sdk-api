@@ -7,7 +7,7 @@ old-location: wmi\cframeworkquery_keysonly.htm
 old-project: WmiSdk
 ms.assetid: 977030f8-264f-4fa2-8941-e419cd28c569
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/03/2018
 ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],KeysOnly method, CFrameworkQuery.KeysOnly, CFrameworkQuery::KeysOnly, KeysOnly, KeysOnly method [Windows Management Instrumentation], KeysOnly method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_keysonly, frquery/CFrameworkQuery::KeysOnly, wmi.cframeworkquery_keysonly
 ms.prod: windows
 ms.technology: windows-sdk

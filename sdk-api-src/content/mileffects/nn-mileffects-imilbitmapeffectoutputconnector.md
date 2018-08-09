@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectoutputconnector.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnector\imilbitmapeffectoutputconnector.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IMILBitmapEffectOutputConnector, IMILBitmapEffectOutputConnector interface [WPF Bitmap Effects], IMILBitmapEffectOutputConnector interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectoutputconnector, mileffects/IMILBitmapEffectOutputConnector, wibe._wibe_imilbitmapeffectoutputconnector
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,16 +71,16 @@ The <b>IMILBitmapEffectOutputConnector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735265(v=VS.85).aspx">GetConnection</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735265(v=VS.85).aspx">GetConnection</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/library/ms735274(v=VS.85).aspx">IMILBitmapEffectInputConnector</a> associated with the output connector.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/ms735274(v=VS.85).aspx">IMILBitmapEffectInputConnector</a> associated with the output connector.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735266(v=VS.85).aspx">GetNumberConnections</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735266(v=VS.85).aspx">GetNumberConnections</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of connections the output connector has.

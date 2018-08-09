@@ -4,10 +4,10 @@ title: MsiRecordDataSize function
 author: windows-sdk-content
 description: The MsiRecordDataSize function returns the length of a record field. The count does not include the terminating null character.
 old-location: setup\msirecorddatasize.htm
-old-project: Msi
+old-project: msi
 ms.assetid: e0e4e842-697f-43fa-8012-dd911bf3eebc
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: MsiRecordDataSize, MsiRecordDataSize function, _msi_msirecorddatasize, msiquery/MsiRecordDataSize, setup.msirecorddatasize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ If the data is in stream format, the function returns the byte count.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
  
 
  

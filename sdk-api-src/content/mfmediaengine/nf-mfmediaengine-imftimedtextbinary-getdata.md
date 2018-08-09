@@ -7,7 +7,7 @@ old-location: mf\imftimedtextbinary_getdata.htm
 old-project: medfound
 ms.assetid: F8A0770D-87DD-4253-81F6-A002BEB8B896
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetData, GetData method [Media Foundation], GetData method [Media Foundation],IMFTimedTextBinary interface, IMFTimedTextBinary interface [Media Foundation],GetData method, IMFTimedTextBinary.GetData, IMFTimedTextBinary::GetData, mf.imftimedtextbinary_getdata, mfmediaengine/IMFTimedTextBinary::GetData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,18 +71,18 @@ Gets the data content of the timed-text object.
 
 
 
-#### - pcLength [out]
-
-Type: <b>DWORD*</b>
-
-A pointer to a variable that receives the length in bytes of the data content.
-
-
 #### - ppData [out]
 
 Type: <b>const BYTE**</b>
 
 A pointer to a memory block that receives a pointer to the data content of the timed-text object.
+
+
+#### - pcLength [out]
+
+Type: <b>DWORD*</b>
+
+A pointer to a variable that receives the length in bytes of the data content.
 
 
 ## -returns

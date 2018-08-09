@@ -7,7 +7,7 @@ old-location: mscs\cluster_resource_class.htm
 old-project: mscs
 ms.assetid: 65168256-f097-48a5-9e86-ec419ccb13bd
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: CLUSTER_RESOURCE_CLASS, CLUSTER_RESOURCE_CLASS enumeration [Failover Cluster], CLUS_RESCLASS_NETWORK, CLUS_RESCLASS_STORAGE, CLUS_RESCLASS_UNKNOWN, CLUS_RESCLASS_USER, _CLUSTER_RESOURCE_CLASS, _CLUSTER_RESOURCE_CLASS enumeration [Failover Cluster], clusapi/CLUSTER_RESOURCE_CLASS, clusapi/CLUS_RESCLASS_NETWORK, clusapi/CLUS_RESCLASS_STORAGE, clusapi/CLUS_RESCLASS_UNKNOWN, clusapi/CLUS_RESCLASS_USER, clusapi/_CLUSTER_RESOURCE_CLASS, msclus/CLUSTER_RESOURCE_CLASS, msclus/CLUS_RESCLASS_NETWORK, msclus/CLUS_RESCLASS_STORAGE, msclus/CLUS_RESCLASS_UNKNOWN, msclus/CLUS_RESCLASS_USER, msclus/_CLUSTER_RESOURCE_CLASS, mscs.cluster_resource_class
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,12 +68,12 @@ Resource class is unknown.
 ### -field CLUS_RESCLASS_STORAGE
 
 Resource is a storage device, such as a 
-           <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">Physical Disk resource</a>.
+           <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">Physical Disk resource</a>.
 
 
 ### -field CLUS_RESCLASS_NETWORK
 
-Resource is a <a href="https://msdn.microsoft.com/library/ms721596(v=VS.85).aspx">network</a> device.
+Resource is a <a href="https://msdn.microsoft.com/en-us/library/Aa371763(v=VS.85).aspx">network</a> device.
 
 
 ### -field CLUS_RESCLASS_USER

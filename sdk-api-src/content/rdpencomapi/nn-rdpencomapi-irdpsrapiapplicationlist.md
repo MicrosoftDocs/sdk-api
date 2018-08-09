@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiapplicationlist.htm
 old-project: rdp
 ms.assetid: 275bb93c-dc93-4884-82a9-e87f5c3ab475
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IRDPSRAPIApplicationList, IRDPSRAPIApplicationList interface [RDP], IRDPSRAPIApplicationList interface [RDP],described, rdp.irdpsrapiapplicationlist, rdpencomapi/IRDPSRAPIApplicationList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Applications obtain access to this object using <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

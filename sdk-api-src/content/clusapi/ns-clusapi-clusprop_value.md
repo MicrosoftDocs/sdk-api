@@ -7,7 +7,7 @@ old-location: mscs\clusprop_value.htm
 old-project: mscs
 ms.assetid: a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: "*PCLUSPROP_VALUE, CLUSPROP_VALUE, CLUSPROP_VALUE structure [Failover Cluster], PCLUSPROP_VALUE, PCLUSPROP_VALUE structure pointer [Failover Cluster], _wolf_clusprop_value, clusapi/CLUSPROP_VALUE, clusapi/PCLUSPROP_VALUE, mscs.clusprop_value"
 ms.prod: windows
 ms.technology: windows-sdk

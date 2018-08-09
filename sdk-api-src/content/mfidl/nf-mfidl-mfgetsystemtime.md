@@ -7,7 +7,7 @@ old-location: mf\mfgetsystemtime.htm
 old-project: medfound
 ms.assetid: e23617f6-248e-4e0b-866b-19b960ebf8eb
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFGetSystemTime, MFGetSystemTime function [Media Foundation], e23617f6-248e-4e0b-866b-19b960ebf8eb, mf.mfgetsystemtime, mfidl/MFGetSystemTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Returns the system time.
+Returns the system time.
         
 
 
@@ -67,8 +66,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            Returns the system time, in 100-nanosecond units.
+Returns the system time, in 100-nanosecond units.
           
 
 

@@ -7,7 +7,7 @@ old-location: winmsg\timerproc.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreference\timerfunctions\timerproc.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TimerProc, TimerProc callback, TimerProc callback function [Windows and Messages], _win32_TimerProc, _win32_timerproc_cpp, winmsg.timerproc, winui._win32_timerproc, winuser/TimerProc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,18 +78,18 @@ An application-defined callback function that processes <a href="https://msdn.mi
 
 
 
-#### - dwTime [in]
-
-Type: <b>DWORD</b>
-
-The number of milliseconds that have elapsed since the system was started. This is the value returned by the <a href="https://msdn.microsoft.com/22201c82-a49a-4972-9f49-6baf6d23a1ea">GetTickCount</a> function. 
-
-
 #### - hwnd [in]
 
 Type: <b>HWND</b>
 
 A handle to the window associated with the timer. 
+
+
+#### - uMsg [in]
+
+Type: <b>UINT</b>
+
+The <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> message. 
 
 
 #### - idEvent [in]
@@ -99,11 +99,11 @@ Type: <b>UINT_PTR</b>
 The timer's identifier. 
 
 
-#### - uMsg [in]
+#### - dwTime [in]
 
-Type: <b>UINT</b>
+Type: <b>DWORD</b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> message. 
+The number of milliseconds that have elapsed since the system was started. This is the value returned by the <a href="https://msdn.microsoft.com/22201c82-a49a-4972-9f49-6baf6d23a1ea">GetTickCount</a> function. 
 
 
 ## -returns

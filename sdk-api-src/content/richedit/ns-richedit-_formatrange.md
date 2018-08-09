@@ -7,7 +7,7 @@ old-location: controls\FORMATRANGE.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\formatrange.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: FORMATRANGE, FORMATRANGE structure [Windows Controls], _formatrange, _win32_FORMATRANGE_str, _win32_FORMATRANGE_str_cpp, controls.FORMATRANGE, controls._win32_FORMATRANGE_str, richedit/FORMATRANGE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Information that a rich edit control uses to format its output for a particular device. This structure is used with the <a href="https://msdn.microsoft.com/library/Bb788020(v=VS.85).aspx">EM_FORMATRANGE</a> message.
+Information that a rich edit control uses to format its output for a particular device. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb788020(v=VS.85).aspx">EM_FORMATRANGE</a> message.
 
 
 ## -struct-fields
@@ -70,7 +70,7 @@ An HDC for the target device to format for.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HDC</a></b>
 
-A HDC for the device to render to, if <a href="https://msdn.microsoft.com/library/Bb788020(v=VS.85).aspx">EM_FORMATRANGE</a> is being used to send the output to a device.
+A HDC for the device to render to, if <a href="https://msdn.microsoft.com/en-us/library/Bb788020(v=VS.85).aspx">EM_FORMATRANGE</a> is being used to send the output to a device.
 
 
 ### -field rc
@@ -89,7 +89,7 @@ The entire area of a page on the rendering device. Units are measured in twips.
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb787885(v=VS.85).aspx">CHARRANGE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a></b>
 
 The range of characters to format.
 
@@ -111,7 +111,7 @@ The values for <b>rc</b> and <b>rcPage</b> can be obtained by using <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb788020(v=VS.85).aspx">EM_FORMATRANGE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb788020(v=VS.85).aspx">EM_FORMATRANGE</a>
  
 
  

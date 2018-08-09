@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_GetSize_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getsize.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Font class [GDI+],GetSize method, Font.GetSize, Font::GetSize, GetSize, GetSize method [GDI+], GetSize method [GDI+],Font class, _gdiplus_CLASS_Font_GetSize_, gdiplus._gdiplus_CLASS_Font_GetSize_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Font::GetSize</b> method returns the font size (commonly called the em size) of this 
-			<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a> object. The size is in the units of this 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a> object. The size is in the units of this 
 			<b>Font</b> object.
 
 
@@ -71,7 +71,7 @@ Type: <strong>Type: <b>REAL</b>
 </strong>
 
 The method returns the font size. The size is in the units of this 
-						<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a> object.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a> object.
 
 
 
@@ -81,23 +81,23 @@ The method returns the font size. The size is in the units of this
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536202(v=VS.85).aspx">Font::GetHeight</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536202(v=VS.85).aspx">Font::GetHeight</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536198(v=VS.85).aspx">Font::GetStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536198(v=VS.85).aspx">Font::GetStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536199(v=VS.85).aspx">Font::GetUnit</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536199(v=VS.85).aspx">Font::GetUnit</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
  
 
  

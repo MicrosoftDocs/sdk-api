@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewporteventhandler_onviewp
 old-project: directmanipulation
 ms.assetid: dfb70d6f-ce3c-4d39-b7b5-21812ff7e56b
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IDirectManipulationViewportEventHandler interface [Direct Manipulation],OnViewportUpdated method, IDirectManipulationViewportEventHandler.OnViewportUpdated, IDirectManipulationViewportEventHandler::OnViewportUpdated, OnViewportUpdated, OnViewportUpdated method [Direct Manipulation], OnViewportUpdated method [Direct Manipulation],IDirectManipulationViewportEventHandler interface, directmanipulation.idirectmanipulationviewporteventhandler_onviewportupdated, directmanipulation/IDirectManipulationViewportEventHandler::OnViewportUpdated
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\getthreadid.htm
 old-project: procthread
 ms.assetid: 198dfe9e-713f-46ce-90eb-24bfe42d2bf6
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: GetThreadId, GetThreadId function, base.getthreadid, processthreadsapi/GetThreadId, winbase/GetThreadId
 ms.prod: windows
 ms.technology: windows-sdk

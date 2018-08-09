@@ -7,7 +7,7 @@ old-location: security\certsrvservercontrol.htm
 old-project: seccrypto
 ms.assetid: 6f32e7f4-60d5-4370-b240-46aa2475e279
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CSCONTROL_SHUTDOWN, CertSrvServerControl, CertSrvServerControl function [Security], CertSrvServerControlW, _certsrv_certsrvservercontrol, certbcli/CertSrvServerControl, certbcli/CertSrvServerControlW, security.certsrvservercontrol
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>CertSrvServerControl</b>  function issues a service control command to programmatically stop Certificate Services.
+The <b>CertSrvServerControl</b>  function issues a service control command to programmatically stop Certificate Services.
 
 
 ## -parameters
@@ -102,8 +101,7 @@ For future use, this parameter will be the pointer to pointer to bytes represent
 
 
 
-
-						The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
+The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 
 

@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignature_getcustomobjectenumerator.htm
 old-project: OPC
 ms.assetid: 1263ca86-8b4f-4be9-a88a-f11e76178d0d
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: GetCustomObjectEnumerator, GetCustomObjectEnumerator method [Open Packaging Conventions], GetCustomObjectEnumerator method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetCustomObjectEnumerator method, IOpcDigitalSignature.GetCustomObjectEnumerator, IOpcDigitalSignature::GetCustomObjectEnumerator, msopc/IOpcDigitalSignature::GetCustomObjectEnumerator, opc.iopcdigitalsignature_getcustomobjectenumerator
 ms.prod: windows
 ms.technology: windows-sdk

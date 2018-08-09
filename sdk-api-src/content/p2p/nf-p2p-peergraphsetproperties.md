@@ -7,7 +7,7 @@ old-location: p2p\peergraphsetproperties.htm
 old-project: p2psdk
 ms.assetid: a9cdf715-bbef-4b5b-96b9-b7c1e35c76ec
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphSetProperties, PeerGraphSetProperties function [Peer Networking], p2p.peergraphsetproperties, p2p/PeerGraphSetProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphSetProperties</b> function sets the peer graph properties.
+The <b>PeerGraphSetProperties</b> function sets the peer graph properties.
 
 
 ## -parameters
@@ -158,8 +157,7 @@ the <b>pwzFriendlyName</b>,
 
 
 
-<a href="https://msdn.microsoft.com/15b4eeb4-1040-4f07-8e79-2c09aab9f926">
-        PEER_GRAPH_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/15b4eeb4-1040-4f07-8e79-2c09aab9f926">PEER_GRAPH_PROPERTIES</a>
 
 
 

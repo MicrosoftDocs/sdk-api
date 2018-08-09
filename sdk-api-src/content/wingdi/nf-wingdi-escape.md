@@ -7,7 +7,7 @@ old-location: gdi\escape.htm
 old-project: printdocs
 ms.assetid: ba21b680-78a8-45a2-94e1-01b377b74787
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Escape, Escape function [Windows GDI], _win32_Escape_v3, gdi.escape, wingdi/Escape
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,46 +65,24 @@ The <b>Escape</b> function enables an application to access the system-defined d
 A handle to the device context.
 
 
-### -param iEscape
+### -param iEscape [in]
 
-TBD
-
-
-### -param cjIn
-
-TBD
+The escape function to be performed. This parameter must be one of the predefined escape values listed in Remarks. Use the <a href="https://msdn.microsoft.com/5ca74f61-75dd-4a8c-9f0f-9c1b4719c75f">ExtEscape</a> function if your application defines a private escape value.
 
 
-### -param pvIn
-
-TBD
-
-
-### -param pvOut
-
-TBD
-
-
-
-
-#### - cbInput [in]
+### -param cjIn [in]
 
 The number of bytes of data pointed to by the <i>lpvInData</i> parameter. This can be 0.
 
 
-#### - lpvInData [in]
+### -param pvIn [in]
 
 A pointer to the input structure required for the specified escape.
 
 
-#### - lpvOutData [out]
+### -param pvOut [out]
 
 A pointer to the structure that receives output from this escape. This parameter should be <b>NULL</b> if no data is returned.
-
-
-#### - nEscape [in]
-
-The escape function to be performed. This parameter must be one of the predefined escape values listed in Remarks. Use the <a href="https://msdn.microsoft.com/5ca74f61-75dd-4a8c-9f0f-9c1b4719c75f">ExtEscape</a> function if your application defines a private escape value.
 
 
 ## -returns

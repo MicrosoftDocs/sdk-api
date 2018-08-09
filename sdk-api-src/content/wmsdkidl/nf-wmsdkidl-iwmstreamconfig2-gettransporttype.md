@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamconfig2_gettransporttype.htm
 old-project: wmformat
 ms.assetid: dfe7b285-8d1d-4b71-a839-1c73d76e6444
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetTransportType, GetTransportType method [windows Media Format], GetTransportType method [windows Media Format],IWMStreamConfig2 interface, IWMStreamConfig2 interface [windows Media Format],GetTransportType method, IWMStreamConfig2.GetTransportType, IWMStreamConfig2::GetTransportType, IWMStreamConfig2GetTransportType, wmformat.iwmstreamconfig2_gettransporttype, wmsdkidl/IWMStreamConfig2::GetTransportType
 ms.prod: windows
 ms.technology: windows-sdk

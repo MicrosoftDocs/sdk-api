@@ -7,7 +7,7 @@ old-location: mstv\imsvidevr_get_presenter.htm
 old-project: mstv
 ms.assetid: d3b5e272-8c71-4e84-b08f-b277eec643c4
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidEVR interface [Microsoft TV Technologies],get_Presenter method, IMSVidEVR.get_Presenter, IMSVidEVR::get_Presenter, IMSVidEVRget_Presenter, get_Presenter, get_Presenter method [Microsoft TV Technologies], get_Presenter method [Microsoft TV Technologies],IMSVidEVR interface, mstv.imsvidevr_get_presenter, segment/IMSVidEVR::get_Presenter
 ms.prod: windows
 ms.technology: windows-sdk

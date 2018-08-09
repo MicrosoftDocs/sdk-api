@@ -7,7 +7,7 @@ old-location: rpc\rpcserversubscribefornotification.htm
 old-project: rpc
 ms.assetid: 544b1e57-7b3c-474d-8b89-d6c62f54b2c2
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcServerSubscribeForNotification, RpcServerSubscribeForNotification function [RPC], rpc.rpcserversubscribefornotification, rpcasync/RpcServerSubscribeForNotification
 ms.prod: windows
 ms.technology: windows-sdk

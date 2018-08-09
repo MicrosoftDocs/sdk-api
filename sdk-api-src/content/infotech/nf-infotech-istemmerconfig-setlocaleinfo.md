@@ -123,7 +123,7 @@ Locale described by the parameters is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms670063(v=VS.85).aspx">IStemmerConfig</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670063(v=VS.85).aspx">IStemmerConfig</a>
  
 
  

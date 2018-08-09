@@ -7,7 +7,7 @@ old-location: shell\SizeTMult.htm
 old-project: shell
 ms.assetid: 078bc77b-6af3-4d13-8f98-5f52605fdf8d
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SizeTMult, SizeTMult function [Windows Shell], ULongLongMult, _shell_SizeTMult, intsafe/SizeTMult, shell.SizeTMult
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,38 +59,21 @@ Multiplies one value of type <b>size_t</b> by another.
 
 
 
-### -param ullMultiplicand
-
-TBD
-
-
-### -param ullMultiplier
-
-TBD
-
-
-### -param pullResult
-
-TBD
-
-
-
-
-#### - cbMultiplicand [in]
+#### - ullMultiplicand [in]
 
 Type: <b>size_t</b>
 
 The value to be multiplied by <i>cbMultiplier</i>.
 
 
-#### - cbMultiplier [in]
+#### - ullMultiplier [in]
 
 Type: <b>size_t</b>
 
 The value by which to multiply <i>cbMultiplicand</i>.
 
 
-#### - pcbResult [out]
+#### - pullResult [out]
 
 Type: <b>size_t*</b>
 

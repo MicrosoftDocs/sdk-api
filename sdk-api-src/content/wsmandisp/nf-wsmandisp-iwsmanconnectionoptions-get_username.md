@@ -4,10 +4,10 @@ title: IWSManConnectionOptions::get_UserName
 author: windows-sdk-content
 description: Sets and gets the user name of a local or a domain account on the remote computer. This property determines the user name for authentication.
 old-location: winrm\connectionoptions_username.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: e8f70143-f002-4b39-97a3-006b9713262d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ConnectionOptions object [Windows Remote Management],UserName property, ConnectionOptions.UserName, IWSManConnectionOptions.get_UserName, IWSManConnectionOptions.put_UserName, IWSManConnectionOptions::get_UserName, UserName property [Windows Remote Management], UserName property [Windows Remote Management],ConnectionOptions object, get_UserName, winrm.connectionoptions_username, wsman.connectionoptions_username
 ms.prod: windows
 ms.technology: windows-sdk

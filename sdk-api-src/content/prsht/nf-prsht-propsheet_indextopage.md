@@ -7,7 +7,7 @@ old-location: controls\PropSheet_IndexToPage.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_indextopage.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: PropSheet_IndexToPage, PropSheet_IndexToPage macro [Windows Controls], _win32_PropSheet_IndexToPage, _win32_PropSheet_IndexToPage_cpp, controls.PropSheet_IndexToPage, controls._win32_PropSheet_IndexToPage, prsht/PropSheet_IndexToPage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Takes the index of a property sheet page and returns its HPROPSHEETPAGE handle. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774589(v=VS.85).aspx">PSM_INDEXTOPAGE</a> message explicitly.
+Takes the index of a property sheet page and returns its HPROPSHEETPAGE handle. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774589(v=VS.85).aspx">PSM_INDEXTOPAGE</a> message explicitly.
 
 
 ## -parameters
@@ -61,26 +61,12 @@ Takes the index of a property sheet page and returns its HPROPSHEETPAGE handle. 
 
 ### -param hDlg
 
-TBD
-
-
-### -param i
-
-TBD
-
-
-
-
-
-
-#### - hPropSheetDlg
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the property sheet window.
 
 
-#### - iPageIndex
+### -param i
 
 Type: <b>int</b>
 
@@ -92,7 +78,7 @@ Zero-based index of the page.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774664(v=VS.85).aspx">PropSheet_PageToIndex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774664(v=VS.85).aspx">PropSheet_PageToIndex</a>
  
 
  

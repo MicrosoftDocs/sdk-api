@@ -7,7 +7,7 @@ old-location: mf\mfinvokecallback.htm
 old-project: medfound
 ms.assetid: 28832d50-9b15-4eb0-96f9-2032d4edcaf4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 28832d50-9b15-4eb0-96f9-2032d4edcaf4, MFInvokeCallback, MFInvokeCallback function [Media Foundation], mf.mfinvokecallback, mfapi/MFInvokeCallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Invokes a callback method to complete an asynchronous operation.
+Invokes a callback method to complete an asynchronous operation.
         
 
 
@@ -84,8 +83,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The function succeeded.
+The function succeeded.
               
 
 </td>
@@ -122,8 +120,7 @@ The <a href="https://msdn.microsoft.com/10be2361-b5b4-4c10-92a1-527ca22c74e4">MF
 
 
 
-
-        If you are implementing an asynchronous method, use this function to invoke the caller's <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> method.
+If you are implementing an asynchronous method, use this function to invoke the caller's <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> method.
 
 The callback is invoked from a Media Foundation work queue. For more information, see <a href="https://msdn.microsoft.com/cd94280d-7267-4d35-8333-aa4a5bd81b73">Writing an Asynchronous Method</a>.
 

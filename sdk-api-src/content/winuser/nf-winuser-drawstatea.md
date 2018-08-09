@@ -7,7 +7,7 @@ old-location: gdi\drawstate.htm
 old-project: gdi
 ms.assetid: b92150be-8264-4ea8-a2ea-d70b7fba6361
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DSS_DISABLED, DSS_HIDEPREFIX, DSS_MONO, DSS_NORMAL, DSS_PREFIXONLY, DSS_RIGHT, DSS_UNION, DST_BITMAP, DST_COMPLEX, DST_ICON, DST_PREFIXTEXT, DST_TEXT, DrawState, DrawState function [Windows GDI], DrawStateA, DrawStateW, _win32_DrawState, gdi.drawstate, winuser/DrawState, winuser/DrawStateA, winuser/DrawStateW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,14 @@ The <b>DrawState</b> function displays an image and applies a visual effect to i
 A handle to the device context to draw in.
 
 
-### -param hbrFore
+### -param hbrFore [in]
 
-TBD
+A handle to the brush used to draw the image, if the state specified by the <i>fuFlags</i> parameter is DSS_MONO. This parameter is ignored for other states.
 
 
-### -param qfnCallBack
+### -param qfnCallBack [in]
 
-TBD
+A pointer to an application-defined callback function used to render the image. This parameter is required if the image type in <i>fuFlags</i> is DST_COMPLEX. It is optional and can be <b>NULL</b> if the image type is DST_TEXT. For all other image types, this parameter is ignored. For more information about the callback function, see the <a href="https://msdn.microsoft.com/a95a4020-e433-4b2c-96e7-f272e28e5a43">DrawStateProc</a> function.
 
 
 ### -param lData [in]
@@ -106,14 +106,7 @@ The width of the image, in device units. This parameter is required if the image
 The height of the image, in device units. This parameter is required if the image type is DST_COMPLEX. Otherwise, it can be zero to calculate the height of the image.
 
 
-### -param uFlags
-
-TBD
-
-
-
-
-#### - fuFlags [in]
+### -param uFlags [in]
 
 The image type and state. This parameter can be one of the following type values.
 
@@ -256,16 +249,6 @@ Dithers the image.
  
 
 For all states except DSS_NORMAL, the image is converted to monochrome before the visual effect is applied.
-
-
-#### - hbr [in]
-
-A handle to the brush used to draw the image, if the state specified by the <i>fuFlags</i> parameter is DSS_MONO. This parameter is ignored for other states.
-
-
-#### - lpOutputFunc [in]
-
-A pointer to an application-defined callback function used to render the image. This parameter is required if the image type in <i>fuFlags</i> is DST_COMPLEX. It is optional and can be <b>NULL</b> if the image type is DST_TEXT. For all other image types, this parameter is ignored. For more information about the callback function, see the <a href="https://msdn.microsoft.com/a95a4020-e433-4b2c-96e7-f272e28e5a43">DrawStateProc</a> function.
 
 
 ## -returns

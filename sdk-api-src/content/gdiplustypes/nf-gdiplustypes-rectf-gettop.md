@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_GetTop_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\gettop_7.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetTop, GetTop method [GDI+], GetTop method [GDI+],RectF class, RectF class [GDI+],GetTop method, RectF.GetTop, RectF::GetTop, _gdiplus_CLASS_RectF_GetTop_, gdiplus._gdiplus_CLASS_RectF_GetTop_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,19 +78,19 @@ This method returns the y-coordinate of the top edge of the rectangle.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534964(v=VS.85).aspx">GetBottom</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534964(v=VS.85).aspx">GetBottom</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534966(v=VS.85).aspx">GetLeft</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534966(v=VS.85).aspx">GetLeft</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534968(v=VS.85).aspx">GetRight</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534968(v=VS.85).aspx">GetRight</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
 
 
 
@@ -98,15 +98,15 @@ This method returns the y-coordinate of the top edge of the rectangle.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534506(v=VS.85).aspx">SizeF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
  
 
  

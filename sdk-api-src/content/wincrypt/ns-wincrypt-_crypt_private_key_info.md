@@ -4,10 +4,10 @@ title: "_CRYPT_PRIVATE_KEY_INFO"
 author: windows-sdk-content
 description: Contains a clear-text private key in the PrivateKey field (DER encoded). CRYPT_PRIVATE_KEY_INFO contains the information in a PKCS #8 PrivateKeyInfo ASN.1 type found in the PKCS #8 standard.
 old-location: security\crypt_private_key_info.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 63a5d1c2-88b3-45fa-94d3-2179cb8802c9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PCRYPT_PRIVATE_KEY_INFO, CRYPT_PRIVATE_KEY_INFO, CRYPT_PRIVATE_KEY_INFO structure [Security], PCRYPT_PRIVATE_KEY_INFO, PCRYPT_PRIVATE_KEY_INFO structure pointer [Security], _CRYPT_PRIVATE_KEY_INFO, security.crypt_private_key_info, wincrypt/CRYPT_PRIVATE_KEY_INFO, wincrypt/PCRYPT_PRIVATE_KEY_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

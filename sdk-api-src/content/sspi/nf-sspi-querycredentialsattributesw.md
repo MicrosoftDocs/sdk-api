@@ -4,10 +4,10 @@ title: QueryCredentialsAttributesW function
 author: windows-sdk-content
 description: Retrieves the attributes of a credential, such as the name associated with the credential.
 old-location: security\querycredentialsattributes.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: a8ba6f73-8469-431b-b185-183b45b2c533
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: QueryCredentialsAttributes, QueryCredentialsAttributes function [Security], QueryCredentialsAttributesA, QueryCredentialsAttributesW, _ssp_querycredentialsattributes, security.querycredentialsattributes, sspi/QueryCredentialsAttributes, sspi/QueryCredentialsAttributesA, sspi/QueryCredentialsAttributesW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,6 +44,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # QueryCredentialsAttributesW function

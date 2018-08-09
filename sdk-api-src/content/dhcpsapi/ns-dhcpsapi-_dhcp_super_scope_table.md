@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_super_scope_table.htm
 old-project: dhcp
 ms.assetid: ed7ad090-b13a-464b-af03-04944f018b36
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDHCP_SUPER_SCOPE_TABLE, DHCP_SUPER_SCOPE_TABLE, DHCP_SUPER_SCOPE_TABLE structure [DHCP], LPDHCP_SUPER_SCOPE_TABLE, LPDHCP_SUPER_SCOPE_TABLE structure pointer [DHCP], _DHCP_SUPER_SCOPE_TABLE, dhcp.dhcp_super_scope_table, dhcpsapi/LPDHCP_SUPER_SCOPE_TABLE, dhcpsapi/_DHCP_SUPER_SCOPE_TABLE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ Specifies the number of subnets (and therefore scopes) present in the super scop
 
 ### -field pEntries
 
-Pointer to a list of <a href="https://msdn.microsoft.com/affaa0b0-3bd1-4d17-adec-518d2cb7e5b6">DHCP_SUPER_SCOPE_TABLE_ENTRY</a>
-        structures containing the names and IP addresses of each subnet defined within the superscope.
+Pointer to a list of <a href="https://msdn.microsoft.com/affaa0b0-3bd1-4d17-adec-518d2cb7e5b6">DHCP_SUPER_SCOPE_TABLE_ENTRY</a>structures containing the names and IP addresses of each subnet defined within the superscope.
 
 
 ### -field pEntries.size_is
@@ -85,8 +84,7 @@ Pointer to a list of <a href="https://msdn.microsoft.com/affaa0b0-3bd1-4d17-adec
 
 
 
-A "superscope" is the set of all subnets defined on a DHCP server, and hence all scopes along with the IP address ranges each serves. Taken altogether, it provides a complete set of all IP addresses served by the DHCP server. The superscope table will only provide the IP addresses associated with each subnet; to obtain the IP ranges served by each, <a href="https://msdn.microsoft.com/0e511993-a9c3-445b-bafc-3d66182ee32d">DhcpGetSubnetInfo</a> should be called on the IP address provided in each <a href="https://msdn.microsoft.com/affaa0b0-3bd1-4d17-adec-518d2cb7e5b6">DHCP_SUPER_SCOPE_TABLE_ENTRY</a>
-        structure of the table.
+A "superscope" is the set of all subnets defined on a DHCP server, and hence all scopes along with the IP address ranges each serves. Taken altogether, it provides a complete set of all IP addresses served by the DHCP server. The superscope table will only provide the IP addresses associated with each subnet; to obtain the IP ranges served by each, <a href="https://msdn.microsoft.com/0e511993-a9c3-445b-bafc-3d66182ee32d">DhcpGetSubnetInfo</a> should be called on the IP address provided in each <a href="https://msdn.microsoft.com/affaa0b0-3bd1-4d17-adec-518d2cb7e5b6">DHCP_SUPER_SCOPE_TABLE_ENTRY</a>structure of the table.
 
 
 

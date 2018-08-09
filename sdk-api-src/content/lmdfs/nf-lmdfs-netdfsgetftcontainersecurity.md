@@ -7,7 +7,7 @@ old-location: dfs\netdfsgetftcontainersecurity.htm
 old-project: dfs
 ms.assetid: 88e988db-1418-49d5-8cac-1ea6144474a5
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: NetDfsGetFtContainerSecurity, NetDfsGetFtContainerSecurity function [Distributed File System], dfs.netdfsgetftcontainersecurity, fs.netdfsgetftcontainersecurity, lmdfs/NetDfsGetFtContainerSecurity, netmgmt.netdfsgetftcontainersecurity
 ms.prod: windows
 ms.technology: windows-sdk

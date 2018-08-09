@@ -4,10 +4,10 @@ title: WPUOpenCurrentThread function
 author: windows-sdk-content
 description: The WPUOpenCurrentThread function opens a handle to the current thread that can be used with overlapped functions in a layered service provider.
 old-location: winsock\wpuopencurrentthread_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 92d21f29-240f-407e-89a7-bbbb8f9bf0eb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WPUOpenCurrentThread, WPUOpenCurrentThread function [Winsock], _win32_wpuopencurrentthread_2, winsock.wpuopencurrentthread_2, ws2spi/WPUOpenCurrentThread
 ms.prod: windows
 ms.technology: windows-sdk

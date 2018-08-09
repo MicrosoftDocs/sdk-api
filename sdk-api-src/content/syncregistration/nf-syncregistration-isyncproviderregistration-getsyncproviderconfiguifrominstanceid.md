@@ -7,7 +7,7 @@ old-location: winsync\isyncproviderregistration_getsyncproviderconfiguifrominsta
 old-project: winsync
 ms.assetid: 472732d7-39bd-434c-80f3-9808eca9035c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetSyncProviderConfigUIFromInstanceId, GetSyncProviderConfigUIFromInstanceId method [Windows Sync], GetSyncProviderConfigUIFromInstanceId method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetSyncProviderConfigUIFromInstanceId method, ISyncProviderRegistration.GetSyncProviderConfigUIFromInstanceId, ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId, syncregistration/ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId, winsync.isyncproviderregistration_getsyncproviderconfiguifrominstanceid
 ms.prod: windows
 ms.technology: windows-sdk

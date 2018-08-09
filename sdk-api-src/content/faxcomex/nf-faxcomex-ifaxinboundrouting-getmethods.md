@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundrouting_getmethods.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2x9v.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxInboundRouting object [Fax Service],GetMethods method, FaxInboundRouting.GetMethods, GetMethods, GetMethods method [Fax Service], GetMethods method [Fax Service],FaxInboundRouting object, IFaxInboundRouting.GetMethods, IFaxInboundRouting::GetMethods, _mfax_faxinboundrouting.getmethods, fax._mfax_faxinboundrouting_getmethods
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,9 +71,9 @@ The <b>GetMethods</b> method retrieves the ordered collection of all the inbound
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms686674(v=VS.85).aspx">FaxInboundRoutingMethods</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms686674(v=VS.85).aspx">FaxInboundRoutingMethods</a>**</b>
 
-A <a href="https://msdn.microsoft.com/library/ms686674(v=VS.85).aspx">FaxInboundRoutingMethods</a> object.
+A <a href="https://msdn.microsoft.com/en-us/library/ms686674(v=VS.85).aspx">FaxInboundRoutingMethods</a> object.
 
 
 
@@ -82,9 +82,9 @@ A <a href="https://msdn.microsoft.com/library/ms686674(v=VS.85).aspx">FaxInbound
 
 
 
-Order is based on the <a href="https://msdn.microsoft.com/library/ms686150(v=VS.85).aspx">Priority</a> property of each routing method. The priority is associated with the order in which the fax service calls the routing method when the service receives a fax job.
+Order is based on the <a href="https://msdn.microsoft.com/en-us/library/ms686150(v=VS.85).aspx">Priority</a> property of each routing method. The priority is associated with the order in which the fax service calls the routing method when the service receives a fax job.
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -94,11 +94,11 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684595(v=VS.85).aspx">FaxInboundRouting</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684595(v=VS.85).aspx">FaxInboundRouting</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

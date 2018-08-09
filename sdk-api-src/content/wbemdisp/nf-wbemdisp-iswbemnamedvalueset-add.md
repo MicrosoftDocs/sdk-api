@@ -7,7 +7,7 @@ old-location: wmi\swbemnamedvalueset_add.htm
 old-project: WmiSdk
 ms.assetid: 471b23f5-6c53-40e2-a2a9-0798044c9dfb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],ISWbemNamedValueSet interface, Add method [Windows Management Instrumentation],SWbemNamedValueSet object, ISWbemNamedValueSet interface [Windows Management Instrumentation],Add method, ISWbemNamedValueSet.Add, ISWbemNamedValueSet::Add, SWbemNamedValueSet object [Windows Management Instrumentation],Add method, SWbemNamedValueSet.Add, _hmm_swbemnamedvalueset.add, wmi.swbemnamedvalueset_add
 ms.prod: windows
 ms.technology: windows-sdk

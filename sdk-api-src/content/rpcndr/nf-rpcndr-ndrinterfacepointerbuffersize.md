@@ -7,7 +7,7 @@ old-location: rpc\ndrinterfacepointerbuffersize.htm
 old-project: rpc
 ms.assetid: 815ebf99-f616-44e3-9b87-25d9a889cf6b
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: NdrInterfacePointerBufferSize, NdrInterfacePointerBufferSize function [RPC], rpc.ndrinterfacepointerbuffersize, rpcndr/NdrInterfacePointerBufferSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ Pointer to the format string description.
 
 
 
-This function has no return values. If an error occurs, the function throws  one of the following exception codes. In addition, the function can throw exception codes from <a href="https://msdn.microsoft.com/library/ms692640(v=VS.85).aspx">CoGetMarshalSizeMax</a>.
+This function has no return values. If an error occurs, the function throws  one of the following exception codes. In addition, the function can throw exception codes from <a href="https://msdn.microsoft.com/en-us/library/ms692640(v=VS.85).aspx">CoGetMarshalSizeMax</a>.
 
 <table>
 <tr>

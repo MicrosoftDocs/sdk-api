@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_account_events_type_enum.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\e\faxinto_z_fax_account_events_type_enum.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FAX_ACCOUNT_EVENTS_TYPE_ENUM, FAX_ACCOUNT_EVENTS_TYPE_ENUM enumeration [Fax Service], _mfax_fax_account_events_type_enum, faetFXSSVC_ENDED, faetIN_ARCHIVE, faetIN_QUEUE, faetNONE, faetOUT_ARCHIVE, faetOUT_QUEUE, fax._mfax_fax_account_events_type_enum, faxcomex/FAX_ACCOUNT_EVENTS_TYPE_ENUM, faxcomex/faetFXSSVC_ENDED, faxcomex/faetIN_ARCHIVE, faxcomex/faetIN_QUEUE, faxcomex/faetNONE, faxcomex/faetOUT_ARCHIVE, faxcomex/faetOUT_QUEUE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,7 +93,7 @@ A notification is sent whenever the fax service stops executing.
 
 
 
-The following table lists the <a href="https://msdn.microsoft.com/library/Aa359031(v=VS.85).aspx">IFaxAccountNotify</a> methods called by each member of the enumeration:
+The following table lists the <a href="https://msdn.microsoft.com/en-us/library/Aa359031(v=VS.85).aspx">IFaxAccountNotify</a> methods called by each member of the enumeration:
 
 
 <table class="clsStd">
@@ -107,31 +107,19 @@ The following table lists the <a href="https://msdn.microsoft.com/library/Aa3590
 </tr>
 <tr>
 <td>faetIN_QUEUE</td>
-<td>OnIncomingJobAdded
-
-			OnIncomingJobRemoved
-
-			OnIncomingJobChanged</td>
+<td>OnIncomingJobAdded</p>OnIncomingJobRemoved</p>OnIncomingJobChanged</td>
 </tr>
 <tr>
 <td>faetOUT_QUEUE</td>
-<td>OnOutgoingJobAdded
-
-			OnOutgoingJobRemoved
-
-			OnOutgoingJobChanged</td>
+<td>OnOutgoingJobAdded</p>OnOutgoingJobRemoved</p>OnOutgoingJobChanged</td>
 </tr>
 <tr>
 <td>faetIN_ARCHIVE</td>
-<td>OnIncomingMessageAdded
-
-			OnIncomingMessageRemoved</td>
+<td>OnIncomingMessageAdded</p>OnIncomingMessageRemoved</td>
 </tr>
 <tr>
 <td>faetOUT_ARCHIVE</td>
-<td>OnOutgoingMessageAdded
-
-			OnOutgoingMessageRemoved</td>
+<td>OnOutgoingMessageAdded</p>OnOutgoingMessageRemoved</td>
 </tr>
 <tr>
 <td>faetFXSSVC_ENDED</td>

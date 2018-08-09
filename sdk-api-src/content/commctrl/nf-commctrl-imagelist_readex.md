@@ -7,7 +7,7 @@ old-location: controls\ImageList_ReadEx.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_readex.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ILP_DOWNLEVEL, ILP_NORMAL, ImageList_ReadEx, ImageList_ReadEx function [Windows Controls], _win32_ImageList_ReadEx, _win32_ImageList_ReadEx_cpp, commctrl/ImageList_ReadEx, controls.ImageList_ReadEx, controls._win32_ImageList_ReadEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-Reads an image list from a stream, and returns an <a href="https://msdn.microsoft.com/library/Bb761490(v=VS.85).aspx">IImageList</a> interface to the image list. 
+Reads an image list from a stream, and returns an <a href="https://msdn.microsoft.com/en-us/library/Bb761490(v=VS.85).aspx">IImageList</a> interface to the image list. 
 
 
 
@@ -64,8 +63,7 @@ Reads an image list from a stream, and returns an <a href="https://msdn.microsof
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-
-		A flag that specifies how the stream is read.
+A flag that specifies how the stream is read.
 
 
 
@@ -80,8 +78,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 </dl>
 </td>
 <td width="60%">
-
-			Expects an image list that was written with the ILP_NORMAL flag specified.
+Expects an image list that was written with the ILP_NORMAL flag specified.
 			
 
 </td>
@@ -92,8 +89,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 </dl>
 </td>
 <td width="60%">
-
-			Expects an image list that was written with the ILP_DOWNLEVEL flag specified.
+Expects an image list that was written with the ILP_DOWNLEVEL flag specified.
 			
 
 </td>
@@ -106,8 +102,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b>LPSTREAM</b>
 
-
-		The address of the stream. 
+The address of the stream. 
 		
 
 
@@ -115,8 +110,7 @@ Type: <b>LPSTREAM</b>
 
 Type: <b>REFIID</b>
 
-
-					An IID for the image list.
+An IID for the image list.
 		
 
 
@@ -124,8 +118,7 @@ Type: <b>REFIID</b>
 
 Type: <b>void**</b>
 
-
-		The address of a pointer to the interface for the image list if successful, <b>NULL</b> otherwise.
+The address of a pointer to the interface for the image list if successful, <b>NULL</b> otherwise.
 		
 
 
@@ -144,7 +137,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-To use <b>ImageList_ReadEx</b>, the application must specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ImageList_ReadEx</b>, the application must specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 
@@ -154,15 +147,15 @@ To use <b>ImageList_ReadEx</b>, the application must specify Comctl32.dll versio
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761560(v=VS.85).aspx">ImageList_Read</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761560(v=VS.85).aspx">ImageList_Read</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775228(v=VS.85).aspx">ImageList_Write</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775228(v=VS.85).aspx">ImageList_Write</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775229(v=VS.85).aspx">ImageList_WriteEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775229(v=VS.85).aspx">ImageList_WriteEx</a>
 
 
 

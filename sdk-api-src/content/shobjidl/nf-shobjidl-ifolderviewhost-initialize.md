@@ -7,7 +7,7 @@ old-location: shell\IFolderViewHost_Initialize.htm
 old-project: shell
 ms.assetid: 77740dfc-6423-451d-859b-7c894122309d
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IFolderViewHost interface [Windows Shell],Initialize method, IFolderViewHost.Initialize, IFolderViewHost::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IFolderViewHost interface, _shell_IFolderViewHost_Initialize, shell.IFolderViewHost_Initialize, shobjidl/IFolderViewHost::Initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ The address of a pointer to a data object.
 
 Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>*</b>
 
-
-          The address of a pointer to a <b>RECT</b> structure that specifies the dimensions of the folder view.
+The address of a pointer to a <b>RECT</b> structure that specifies the dimensions of the folder view.
         
 
 

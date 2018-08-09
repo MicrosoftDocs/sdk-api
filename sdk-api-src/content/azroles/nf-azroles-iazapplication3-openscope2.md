@@ -7,7 +7,7 @@ old-location: security\iazapplication3_openscope2.htm
 old-project: secauthz
 ms.assetid: 1ea9f12e-d00d-4ccd-bfd4-21027610e681
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: IAzApplication3 interface [Security],OpenScope2 method, IAzApplication3.OpenScope2, IAzApplication3::OpenScope2, OpenScope2, OpenScope2 method [Security], OpenScope2 method [Security],IAzApplication3 interface, azroles/IAzApplication3::OpenScope2, security.iazapplication3_openscope2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ A string that contains the name of the <a href="https://msdn.microsoft.com/536c5
 
 The address of a pointer to the <a href="https://msdn.microsoft.com/536c563e-7a6b-480d-9e83-1d7cc90a795d">IAzScope2</a> object that this method opens.
 
-When you have finished using the <a href="https://msdn.microsoft.com/536c563e-7a6b-480d-9e83-1d7cc90a795d">IAzScope2</a> object, release it by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
+When you have finished using the <a href="https://msdn.microsoft.com/536c563e-7a6b-480d-9e83-1d7cc90a795d">IAzScope2</a> object, release it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

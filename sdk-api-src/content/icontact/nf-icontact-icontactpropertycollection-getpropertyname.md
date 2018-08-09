@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyNam
 old-project: wincontacts
 ms.assetid: 8fa7fb24-2648-4f7b-b37c-d42b2966a959
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 07/29/2018
 ms.keywords: GetPropertyName, GetPropertyName method [Windows Contacts], GetPropertyName method [Windows Contacts],IContactPropertyCollection interface, IContactPropertyCollection interface [Windows Contacts],GetPropertyName method, IContactPropertyCollection.GetPropertyName, IContactPropertyCollection::GetPropertyName, _wincontacts_IContactPropertyCollection_GetPropertyName, icontact/IContactPropertyCollection::GetPropertyName, wincontacts._wincontacts_IContactPropertyCollection_GetPropertyName
 ms.prod: windows
 ms.technology: windows-sdk

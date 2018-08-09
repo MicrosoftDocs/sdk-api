@@ -7,7 +7,7 @@ old-location: multimedia\iccompressgetformatsize.htm
 old-project: Multimedia
 ms.assetid: 50d73009-1f8e-4e2e-950c-0c1262ea61f0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ICCompressGetFormatSize, ICCompressGetFormatSize macro [Windows Multimedia], _win32_ICCompressGetFormatSize, multimedia.iccompressgetformatsize, vfw/ICCompressGetFormatSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,15 +68,6 @@ Handle of the compressor.
 
 
 ### -param lpbi
-
-TBD
-
-
-
-
-
-
-#### - lpbiInput
 
 Pointer to a <b>BITMAPINFO</b> structure containing the input format.
 

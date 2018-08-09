@@ -7,7 +7,7 @@ old-location: inputmsg\getpointerframepeninfohistory.htm
 old-project: InputMsg
 ms.assetid: a4f6a9f3-dfbd-4413-aae7-f58e1521ef1d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetPointerFramePenInfoHistory, GetPointerFramePenInfoHistory function [Input Messages and Notifications], inputmsg.getpointerframepeninfohistory, winuser/GetPointerFramePenInfoHistory
 ms.prod: windows
 ms.technology: windows-sdk

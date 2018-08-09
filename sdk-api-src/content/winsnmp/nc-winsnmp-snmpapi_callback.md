@@ -4,10 +4,10 @@ title: SNMPAPI_CALLBACK
 author: windows-sdk-content
 description: The Microsoft WinSNMP implementation calls the SNMPAPI_CALLBACK function to notify a WinSNMP session that an SNMP message or asynchronous event is available.
 old-location: snmp\snmpapi_callback.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 9871b4a8-c96c-48a7-9e7e-7fe1c259545e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SNMPAPI_CALLBACK, SNMPAPI_CALLBACK callback, SNMPAPI_CALLBACK callback function [SNMP], _snmp_snmpapi_callback, snmp.snmpapi_callback, winsnmp/SNMPAPI_CALLBACK
 ms.prod: windows
 ms.technology: windows-sdk

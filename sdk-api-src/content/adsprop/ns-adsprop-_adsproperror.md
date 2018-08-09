@@ -7,7 +7,7 @@ old-location: ad\adsproperror.htm
 old-project: ad
 ms.assetid: 584cb3e7-3b26-4346-9162-b3e3064ded1a
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: "*PADSPROPERROR, ADSPROPERROR, ADSPROPERROR structure [Active Directory], PADSPROPERROR, PADSPROPERROR structure pointer [Active Directory], _ADSPROPERROR, _glines_adsproperror, ad.adsproperror, adsprop/ADSPROPERROR, adsprop/PADSPROPERROR"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,8 +82,7 @@ Pointer to a NULL-terminated Unicode string that contains the class name of the 
 
 ### -field hr
 
-Contains an <b>HRESULT</b> value that specifies the  code of the error that occurred. If <i>hr</i> is not equal to <b>S_OK</b>, then <i>pszError</i> is ignored. If <i>hr</i>
-    is equal to <b>S_OK</b>, then <i>pszError</i> contains an error message.
+Contains an <b>HRESULT</b> value that specifies the  code of the error that occurred. If <i>hr</i> is not equal to <b>S_OK</b>, then <i>pszError</i> is ignored. If <i>hr</i>is equal to <b>S_OK</b>, then <i>pszError</i> contains an error message.
 
 
 ### -field pszError

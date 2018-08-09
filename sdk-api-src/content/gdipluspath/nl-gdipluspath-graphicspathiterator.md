@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiterator.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GraphicsPathIterator, GraphicsPathIterator class [GDI+], GraphicsPathIterator class [GDI+],described, _gdiplus_CLASS_GraphicsPathIterator_Class, gdiplus._gdiplus_CLASS_GraphicsPathIterator_Class, gdipluspath/GraphicsPathIterator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,6 +51,6 @@ req.product: GDI+ 1.0
 ## -description
 
 
-This <a href="https://msdn.microsoft.com/library/ms535451(v=VS.85).aspx">GraphicsPathIterator</a> class provides methods for isolating selected subsets of the path stored in a 
-			<a href="https://msdn.microsoft.com/library/ms535523(v=VS.85).aspx">GraphicsPath</a> object. A path consists of one or more figures. You can use a <b>GraphicsPathIterator</b> to isolate one or more of those figures. A path can also have markers that divide the path into sections. You can use a <b>GraphicsPathIterator</b> object to isolate one or more of those sections.
+This <a href="https://msdn.microsoft.com/en-us/library/ms535451(v=VS.85).aspx">GraphicsPathIterator</a> class provides methods for isolating selected subsets of the path stored in a 
+			<a href="https://msdn.microsoft.com/en-us/library/ms535523(v=VS.85).aspx">GraphicsPath</a> object. A path consists of one or more figures. You can use a <b>GraphicsPathIterator</b> to isolate one or more of those figures. A path can also have markers that divide the path into sections. You can use a <b>GraphicsPathIterator</b> object to isolate one or more of those sections.
 

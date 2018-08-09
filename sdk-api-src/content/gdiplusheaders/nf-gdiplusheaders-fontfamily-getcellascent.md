@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_FontFamily_GetCellAscent_style_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\getcellascent.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: FontFamily class [GDI+],GetCellAscent method, FontFamily.GetCellAscent, FontFamily::GetCellAscent, GetCellAscent, GetCellAscent method [GDI+], GetCellAscent method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GetCellAscent_style_, gdiplus._gdiplus_CLASS_FontFamily_GetCellAscent_style_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The <b>FontFamily::GetCellAscent</b> method gets the cell ascent, in design unit
 
 Type: <b>INT</b>
 
-Integer that specifies the style of the typeface. This value must be an element of the <a href="https://msdn.microsoft.com/library/ms534124(v=VS.85).aspx">FontStyle</a> enumeration or the result of a bitwise <b>OR</b> applied to two or more of these elements. For example, <code>FontStyleBold | FontStyleUnderline | FontStyleStrikeout</code> specifies a combination of the three styles. 
+Integer that specifies the style of the typeface. This value must be an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534124(v=VS.85).aspx">FontStyle</a> enumeration or the result of a bitwise <b>OR</b> applied to two or more of these elements. For example, <code>FontStyleBold | FontStyleUnderline | FontStyleStrikeout</code> specifies a combination of the three styles. 
 
 
 ## -returns
@@ -83,27 +83,27 @@ This method returns the cell ascent, in design units, of this font family for th
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536175(v=VS.85).aspx">FontFamily::GetCellDescent</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536175(v=VS.85).aspx">FontFamily::GetCellDescent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536176(v=VS.85).aspx">FontFamily::GetEmHeight</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536176(v=VS.85).aspx">FontFamily::GetEmHeight</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536179(v=VS.85).aspx">FontFamily::GetLineSpacing</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536179(v=VS.85).aspx">FontFamily::GetLineSpacing</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534124(v=VS.85).aspx">FontStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534124(v=VS.85).aspx">FontStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533824(v=VS.85).aspx">Obtaining Font Metrics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533824(v=VS.85).aspx">Obtaining Font Metrics</a>
  
 
  

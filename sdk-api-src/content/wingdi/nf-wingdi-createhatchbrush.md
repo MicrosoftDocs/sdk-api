@@ -7,7 +7,7 @@ old-location: gdi\createhatchbrush.htm
 old-project: gdi
 ms.assetid: 0b5849d6-1e22-4ac5-980c-2f2a73b16adb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateHatchBrush, CreateHatchBrush function [Windows GDI], HS_BDIAGONAL, HS_CROSS, HS_DIAGCROSS, HS_FDIAGONAL, HS_HORIZONTAL, HS_VERTICAL, _win32_CreateHatchBrush, gdi.createhatchbrush, wingdi/CreateHatchBrush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,24 +61,7 @@ The <b>CreateHatchBrush</b> function creates a logical brush that has the specif
 
 
 
-### -param iHatch
-
-TBD
-
-
-### -param color
-
-TBD
-
-
-
-
-#### - clrref [in]
-
-The foreground color of the brush that is used for the hatches. To create a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> color value, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
-
-
-#### - fnStyle [in]
+### -param iHatch [in]
 
 The <a href="https://msdn.microsoft.com/ac0957db-242a-4d52-9661-2aa9d8571aab">hatch style of the brush</a>. This parameter can be one of the following values.
 
@@ -149,6 +132,11 @@ Vertical hatch
 </tr>
 </table>
  
+
+
+### -param color [in]
+
+The foreground color of the brush that is used for the hatches. To create a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> color value, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: stg\stgdeserializepropvariant.htm
 old-project: stg
 ms.assetid: 55b4de40-d81d-4989-8f57-a286815fa495
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: StgDeserializePropVariant, StgDeserializePropVariant function [Structured Storage], propvarutil/StgDeserializePropVariant, stg.stgdeserializepropvariant
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,7 @@ A pointer to the  <b>SERIALIZEDPROPERTYVALUE</b> buffer.
 The size of the <i>pprop</i> buffer in bytes.
 
 
-### -param ppropvar
-
-TBD
-
-
-
-
-#### - pvar [out]
+### -param ppropvar [out]
 
 A pointer to a <b>PROPVARIANT</b>.
 

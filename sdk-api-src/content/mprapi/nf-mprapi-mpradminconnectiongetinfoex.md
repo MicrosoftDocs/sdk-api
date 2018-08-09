@@ -7,7 +7,7 @@ old-location: rras\mpradminconnectiongetinfoex.htm
 old-project: rras
 ms.assetid: 7b6a27da-306c-48e5-830b-215ce6f80ea1
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminConnectionGetInfoEx, MprAdminConnectionGetInfoEx function [RAS], mprapi/MprAdminConnectionGetInfoEx, rras.mpradminconnectiongetinfoex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,9 @@ The
 A handle to the computer from which the connection information is retrieved. To obtain this handle, call <a href="https://msdn.microsoft.com/f93b37bc-d3d1-40f0-aef6-839bb43c88e2">MprAdminServerConnect</a>.
 
 
-### -param hRasConnection
+### -param hRasConnection [in]
 
-TBD
+A handle to the connection to retrieve data about. To obtain this handle, call <a href="https://msdn.microsoft.com/27be536e-0437-4e30-aef7-ed92f50baeaa">MprAdminConnectionEnum</a>.
 
 
 ### -param pRasConnection [out]
@@ -75,11 +75,6 @@ TBD
 A pointer, on output, to  a <a href="https://msdn.microsoft.com/48526073-caeb-463e-b85b-1ef46ca1e2b4">RAS_CONNECTION_EX</a> structure that contains the connection information for the RRAS server in <i>hRasServer</i>.
 
 To free this memory, call <a href="https://msdn.microsoft.com/60cae055-841a-4435-bf0e-4198b1ccdd4e">MprAdminBufferFree</a>.
-
-
-#### - hConnection [in]
-
-A handle to the connection to retrieve data about. To obtain this handle, call <a href="https://msdn.microsoft.com/27be536e-0437-4e30-aef7-ed92f50baeaa">MprAdminConnectionEnum</a>.
 
 
 ## -returns

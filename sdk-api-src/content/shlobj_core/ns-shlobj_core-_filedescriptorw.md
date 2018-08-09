@@ -7,7 +7,7 @@ old-location: shell\FILEDESCRIPTOR.htm
 old-project: shell
 ms.assetid: b81a7e52-5bd8-4fa4-bd76-9a58afaceec0
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPFILEDESCRIPTORW, FD_ACCESSTIME, FD_ATTRIBUTES, FD_CLSID, FD_CREATETIME, FD_FILESIZE, FD_LINKUI, FD_PROGRESSUI, FD_SIZEPOINT, FD_UNICODE, FD_WRITESTIME, FILEDESCRIPTOR, FILEDESCRIPTOR structure [Windows Shell], FILEDESCRIPTORW, LPFILEDESCRIPTOR, LPFILEDESCRIPTOR structure pointer [Windows Shell], _FILEDESCRIPTORA, _FILEDESCRIPTORW, _win32_FILEDESCRIPTOR, shell.FILEDESCRIPTOR, shlobj_core/FILEDESCRIPTOR, shlobj_core/LPFILEDESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -196,39 +196,9 @@ Type: <b>TCHAR[MAX_PATH]</b>
 The null-terminated string that contains the name of the file.
 
 
-##### - dwFlags.FD_ACCESSTIME (0x00000010)
-
-0x00000010. The <b>ftLastAccessTime</b> member is valid.
-
-
-##### - dwFlags.FD_ATTRIBUTES (0x00000004)
-
-0x00000004. The <b>dwFileAttributes</b> member is valid.
-
-
 ##### - dwFlags.FD_CLSID (0x00000001)
 
 0x00000001. The <b>clsid</b> member is valid.
-
-
-##### - dwFlags.FD_CREATETIME (0x00000008)
-
-0x00000008. The <b>ftCreationTime</b> member is valid.
-
-
-##### - dwFlags.FD_FILESIZE (0x00000040)
-
-0x00000040. The <b>nFileSizeHigh</b> and <b>nFileSizeLow</b> members are valid.
-
-
-##### - dwFlags.FD_LINKUI (0x00008000)
-
-0x00008000. Treat the operation as a shortcut.
-
-
-##### - dwFlags.FD_PROGRESSUI (0x00004000)
-
-0x00004000. A progress indicator is shown with drag-and-drop operations.
 
 
 ##### - dwFlags.FD_SIZEPOINT (0x00000002)
@@ -236,14 +206,44 @@ The null-terminated string that contains the name of the file.
 0x00000002. The <b>sizel</b> and <b>pointl</b> members are valid.
 
 
-##### - dwFlags.FD_UNICODE ((int)0x80000000)
+##### - dwFlags.FD_ATTRIBUTES (0x00000004)
 
-(int)0x80000000. <b>Windows Vista and later</b>. The descriptor is Unicode.
+0x00000004. The <b>dwFileAttributes</b> member is valid.
+
+
+##### - dwFlags.FD_CREATETIME (0x00000008)
+
+0x00000008. The <b>ftCreationTime</b> member is valid.
+
+
+##### - dwFlags.FD_ACCESSTIME (0x00000010)
+
+0x00000010. The <b>ftLastAccessTime</b> member is valid.
 
 
 ##### - dwFlags.FD_WRITESTIME (0x00000020)
 
 0x00000020. The <b>ftLastWriteTime</b> member is valid.
+
+
+##### - dwFlags.FD_FILESIZE (0x00000040)
+
+0x00000040. The <b>nFileSizeHigh</b> and <b>nFileSizeLow</b> members are valid.
+
+
+##### - dwFlags.FD_PROGRESSUI (0x00004000)
+
+0x00004000. A progress indicator is shown with drag-and-drop operations.
+
+
+##### - dwFlags.FD_LINKUI (0x00008000)
+
+0x00008000. Treat the operation as a shortcut.
+
+
+##### - dwFlags.FD_UNICODE ((int)0x80000000)
+
+(int)0x80000000. <b>Windows Vista and later</b>. The descriptor is Unicode.
 
 
 ## -remarks

@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2data.htm
 old-project: imapi
 ms.assetid: 6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IDiscFormat2Data, IDiscFormat2Data interface [IMAPI], IDiscFormat2Data interface [IMAPI],described, imapi.idiscformat2data, imapi2/IDiscFormat2Data
 ms.prod: windows
 ms.technology: windows-sdk

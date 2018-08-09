@@ -4,10 +4,10 @@ title: NTFS_EXTENDED_VOLUME_DATA
 author: windows-sdk-content
 description: Represents volume data.
 old-location: fs\ntfs_volume_data_buffer_str.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 9ca0fe72-162c-4d75-a2f3-e1c7c0b0152a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PNTFS_EXTENDED_VOLUME_DATA, NTFS_EXTENDED_VOLUME_DATA, NTFS_VOLUME_DATA_BUFFER, NTFS_VOLUME_DATA_BUFFER structure [Files], PNTFS_VOLUME_DATA_BUFFER, PNTFS_VOLUME_DATA_BUFFER structure pointer [Files], _win32_ntfs_volume_data_buffer_str, base.ntfs_volume_data_buffer_str, fs.ntfs_volume_data_buffer_str, winioctl/NTFS_VOLUME_DATA_BUFFER, winioctl/PNTFS_VOLUME_DATA_BUFFER"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,54 +112,9 @@ Represents volume data.  This structure is passed to the
 
 
 
-#### - BytesPerCluster
+#### - VolumeSerialNumber
 
-The number of bytes in a cluster on the specified volume. This value is also known as the cluster factor.
-
-
-#### - BytesPerFileRecordSegment
-
-The number of bytes in a file record segment.
-
-
-#### - BytesPerSector
-
-The number of bytes in a sector on the specified volume.
-
-
-#### - ClustersPerFileRecordSegment
-
-The number of clusters in a file record segment.
-
-
-#### - FreeClusters
-
-The number of free clusters in the specified volume.
-
-
-#### - Mft2StartLcn
-
-The starting logical cluster number of the master file table mirror.
-
-
-#### - MftStartLcn
-
-The starting logical cluster number of the master file table.
-
-
-#### - MftValidDataLength
-
-The length of the master file table, in bytes.
-
-
-#### - MftZoneEnd
-
-The ending logical cluster number of the master file table zone.
-
-
-#### - MftZoneStart
-
-The starting logical cluster number of the master file table zone.
+The serial number of the volume. This is a unique number assigned to the volume media by the operating system.
 
 
 #### - NumberSectors
@@ -172,14 +127,59 @@ The number of sectors in the specified volume.
 The number of used and free clusters in the specified volume.
 
 
+#### - FreeClusters
+
+The number of free clusters in the specified volume.
+
+
 #### - TotalReserved
 
 The number of reserved clusters in the specified volume.
 
 
-#### - VolumeSerialNumber
+#### - BytesPerSector
 
-The serial number of the volume. This is a unique number assigned to the volume media by the operating system.
+The number of bytes in a sector on the specified volume.
+
+
+#### - BytesPerCluster
+
+The number of bytes in a cluster on the specified volume. This value is also known as the cluster factor.
+
+
+#### - BytesPerFileRecordSegment
+
+The number of bytes in a file record segment.
+
+
+#### - ClustersPerFileRecordSegment
+
+The number of clusters in a file record segment.
+
+
+#### - MftValidDataLength
+
+The length of the master file table, in bytes.
+
+
+#### - MftStartLcn
+
+The starting logical cluster number of the master file table.
+
+
+#### - Mft2StartLcn
+
+The starting logical cluster number of the master file table mirror.
+
+
+#### - MftZoneStart
+
+The starting logical cluster number of the master file table zone.
+
+
+#### - MftZoneEnd
+
+The ending logical cluster number of the master file table zone.
 
 
 ## -remarks

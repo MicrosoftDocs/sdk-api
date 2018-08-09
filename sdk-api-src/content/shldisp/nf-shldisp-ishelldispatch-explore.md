@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_Explore.htm
 old-project: shell
 ms.assetid: DB434D02-56B2-4e8f-9E43-BBF47C7BE377
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: Explore, Explore method [Windows Shell], Explore method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],Explore method, IShellDispatch.Explore, IShellDispatch::Explore, shell.IShellDispatch_Explore
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\idvbservicelistdescriptor_getrecordserviceid.htm
 old-project: mstv
 ms.assetid: c98d032a-0a3c-4e27-a5b7-ee594024ac9d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordServiceId, GetRecordServiceId method [Microsoft TV Technologies], GetRecordServiceId method [Microsoft TV Technologies],IDvbServiceListDescriptor interface, IDvbServiceListDescriptor interface [Microsoft TV Technologies],GetRecordServiceId method, IDvbServiceListDescriptor.GetRecordServiceId, IDvbServiceListDescriptor::GetRecordServiceId, dvbsiparser/IDvbServiceListDescriptor::GetRecordServiceId, mstv.idvbservicelistdescriptor_getrecordserviceid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Gets the value of the service_id field from a Digital Video Broadcast (DVB) serv
 ### -param bRecordIndex [in]
 
 Specifies the service record number,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/8a3dd6b9-a7a1-49fd-806d-05c726bbe99e">IDvbServiceListDescriptor::GetCountOfRecords</a>
-  method to get the number of records in the logical channel descriptor.
+  indexed from zero. Call the <a href="https://msdn.microsoft.com/8a3dd6b9-a7a1-49fd-806d-05c726bbe99e">IDvbServiceListDescriptor::GetCountOfRecords</a>method to get the number of records in the logical channel descriptor.
 
 
 ### -param pwVal [out]

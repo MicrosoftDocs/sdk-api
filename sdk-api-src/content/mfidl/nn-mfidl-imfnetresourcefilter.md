@@ -7,7 +7,7 @@ old-location: mf\imfnetresourcefilter.htm
 old-project: medfound
 ms.assetid: AC8FBD93-B39B-4530-8475-275D3D0DA512
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFNetResourceFilter, IMFNetResourceFilter interface [Media Foundation], IMFNetResourceFilter interface [Media Foundation],described, mf.imfnetresourcefilter, mfidl/IMFNetResourceFilter
 ms.prod: windows
 ms.technology: windows-sdk

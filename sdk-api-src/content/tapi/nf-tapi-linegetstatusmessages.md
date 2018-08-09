@@ -4,10 +4,10 @@ title: lineGetStatusMessages function
 author: windows-sdk-content
 description: The lineGetStatusMessages function enables an application to query which notification messages the application is set up to receive for events related to status changes for the specified line or any of its addresses.
 old-location: tapi2\linegetstatusmessages.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: c8ac3bff-be4f-43ca-9651-3263fa06af23
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: "_tapi2_linegetstatusmessages, lineGetStatusMessages, lineGetStatusMessages function [TAPI 2.2], tapi/lineGetStatusMessages, tapi2.linegetstatusmessages"
 ms.prod: windows
 ms.technology: windows-sdk

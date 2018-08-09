@@ -7,7 +7,7 @@ old-location: mstv\msvidccservice.htm
 old-project: mstv
 ms.assetid: 19e6a389-7f5b-40b9-a7e6-e90060e6d7d5
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: Caption1, Caption2, MSVidCCService, MSVidCCService enumeration [Microsoft TV Technologies], MSVidCCServiceEnumeration, None, Text1, Text2, XDS, mstv.msvidccservice, segment/Caption1, segment/Caption2, segment/MSVidCCService, segment/None, segment/Text1, segment/Text2, segment/XDS
 ms.prod: windows
 ms.technology: windows-sdk

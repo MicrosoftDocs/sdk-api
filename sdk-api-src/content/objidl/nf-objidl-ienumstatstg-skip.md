@@ -7,7 +7,7 @@ old-location: stg\ienumstatstg_skip.htm
 old-project: stg
 ms.assetid: 97d785d9-961c-44af-a0a0-1d2f610e6c9a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumSTATSTG interface [Structured Storage],Skip method, IEnumSTATSTG.Skip, IEnumSTATSTG::Skip, Skip, Skip method [Structured Storage], Skip method [Structured Storage],IEnumSTATSTG interface, objidl/IEnumSTATSTG::Skip, stg.ienumstatstg_skip
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IVdsVDisk::GetHostVolume
 author: windows-sdk-content
 description: Returns an interface pointer to the volume object for the volume where the virtual disk resides.
 old-location: base\ivdsvdisk_gethostvolume.htm
-old-project: VDS
+old-project: vds
 ms.assetid: e8ab5d3a-775d-4c80-9c18-d25b5dd169e6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetHostVolume, GetHostVolume method, GetHostVolume method,IVdsVDisk interface, IVdsVDisk interface,GetHostVolume method, IVdsVDisk.GetHostVolume, IVdsVDisk::GetHostVolume, base.ivdsvdisk_gethostvolume, vds/IVdsVDisk::GetHostVolume
 ms.prod: windows
 ms.technology: windows-sdk

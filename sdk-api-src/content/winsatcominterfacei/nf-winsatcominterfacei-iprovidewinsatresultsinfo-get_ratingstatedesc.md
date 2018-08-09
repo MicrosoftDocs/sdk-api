@@ -4,10 +4,10 @@ title: IProvideWinSATResultsInfo::get_RatingStateDesc
 author: windows-sdk-content
 description: Retrieves a string that you can use in a UI to indicate whether the assessment is valid.
 old-location: winsat\iprovidewinsatresultsinfo_ratingstatedesc.htm
-old-project: WinSAT
+old-project: winsat
 ms.assetid: 6995a4a2-a8c6-4c8f-bac0-478af4d8f911
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IProvideWinSATResultsInfo interface [WinSAT],RatingStateDesc property, IProvideWinSATResultsInfo.RatingStateDesc, IProvideWinSATResultsInfo.get_RatingStateDesc, IProvideWinSATResultsInfo::RatingStateDesc, IProvideWinSATResultsInfo::get_RatingStateDesc, RatingStateDesc property [WinSAT], RatingStateDesc property [WinSAT],IProvideWinSATResultsInfo interface, get_RatingStateDesc, winsat.iprovidewinsatresultsinfo_ratingstatedesc, winsatcominterfacei/IProvideWinSATResultsInfo::RatingStateDesc, winsatcominterfacei/IProvideWinSATResultsInfo::get_RatingStateDesc
 ms.prod: windows
 ms.technology: windows-sdk

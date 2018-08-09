@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparameterdescriptor.htm
 old-project: mstv
 ms.assetid: 264ae78d-cd72-49ff-b99b-2af637cc2917
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IIsdbSIParameterDescriptor, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies], IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbSIParameterDescriptor, mstv.iisdbsiparameterdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

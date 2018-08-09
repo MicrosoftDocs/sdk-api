@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_SetCurFocus.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setcurfocus.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TabCtrl_SetCurFocus, TabCtrl_SetCurFocus macro [Windows Controls], _win32_TabCtrl_SetCurFocus, _win32_TabCtrl_SetCurFocus_cpp, commctrl/TabCtrl_SetCurFocus, controls.TabCtrl_SetCurFocus, controls._win32_TabCtrl_SetCurFocus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the focus to a specified tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760610(v=VS.85).aspx">TCM_SETCURFOCUS</a> message explicitly. 
+Sets the focus to a specified tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760610(v=VS.85).aspx">TCM_SETCURFOCUS</a> message explicitly. 
 
 
 ## -parameters
@@ -67,15 +67,6 @@ Handle to the tab control.
 
 ### -param i
 
-TBD
-
-
-
-
-
-
-#### - iItem
-
 Type: <b>int</b>
 
 Zero-based index of the tab that gets the focus. 
@@ -85,9 +76,9 @@ Zero-based index of the tab that gets the focus.
 
 
 
-If the tab control has the <a href="https://msdn.microsoft.com/library/Bb760549(v=VS.85).aspx">TCS_BUTTONS</a> style (button mode), the tab with the focus may be different from the selected tab. For example, when a tab is selected, the user can press the arrow keys to set the focus to a different tab without changing the selected tab. In button mode, the <b>TabCtrl_SetCurFocus</b> macro sets the input focus to the button associated with the specified tab, but it does not change the selected tab. 
+If the tab control has the <a href="Tab_Control_Styles.htm">TCS_BUTTONS</a> style (button mode), the tab with the focus may be different from the selected tab. For example, when a tab is selected, the user can press the arrow keys to set the focus to a different tab without changing the selected tab. In button mode, the <b>TabCtrl_SetCurFocus</b> macro sets the input focus to the button associated with the specified tab, but it does not change the selected tab. 
 
-If the tab control does not have the <a href="https://msdn.microsoft.com/library/Bb760549(v=VS.85).aspx">TCS_BUTTONS</a> style, changing the focus also changes the selected tab. In this case, the tab control sends the <a href="https://msdn.microsoft.com/library/Bb760571(v=VS.85).aspx">TCN_SELCHANGING</a> and <a href="https://msdn.microsoft.com/library/Bb760569(v=VS.85).aspx">TCN_SELCHANGE</a> notification codes to its parent window. 
+If the tab control does not have the <a href="Tab_Control_Styles.htm">TCS_BUTTONS</a> style, changing the focus also changes the selected tab. In this case, the tab control sends the <a href="https://msdn.microsoft.com/en-us/library/Bb760571(v=VS.85).aspx">TCN_SELCHANGING</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb760569(v=VS.85).aspx">TCN_SELCHANGE</a> notification codes to its parent window. 
 
 
 
@@ -101,11 +92,11 @@ If the tab control does not have the <a href="https://msdn.microsoft.com/library
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb760581(v=VS.85).aspx">TCM_GETCURFOCUS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb760581(v=VS.85).aspx">TCM_GETCURFOCUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb760653(v=VS.85).aspx">TabCtrl_GetCurFocus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb760653(v=VS.85).aspx">TabCtrl_GetCurFocus</a>
  
 
  

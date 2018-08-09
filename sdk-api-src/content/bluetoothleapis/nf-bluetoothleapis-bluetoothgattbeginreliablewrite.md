@@ -7,7 +7,7 @@ old-location: bltooth\bluetoothgattbeginreliablewrite.htm
 old-project: bltooth
 ms.assetid: D053FD0C-3088-4C56-A4EA-F41079FAAF20
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/30/2018
 ms.keywords: BluetoothGATTBeginReliableWrite, BluetoothGATTBeginReliableWrite function [Bluetooth Devices], bltooth.bluetoothgattbeginreliablewrite, bluetoothleapis/BluetoothGATTBeginReliableWrite
 ms.prod: windows
 ms.technology: windows-sdk

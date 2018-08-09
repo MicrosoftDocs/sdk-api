@@ -7,7 +7,7 @@ old-location: properties\VariantToDoubleWithDefault.htm
 old-project: properties
 ms.assetid: a3e32a30-363d-487e-bdd5-ac2616d6de14
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: VariantToDoubleWithDefault, VariantToDoubleWithDefault function [Windows Properties], _shell_VariantToDoubleWithDefault, properties.VariantToDoubleWithDefault, propvarutil/VariantToDoubleWithDefault, shell.VariantToDoubleWithDefault
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,12 +94,12 @@ If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138
 
 If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> is not of type VT_R8, the function attempts to convert the value in the <b>VARIANT</b> into a <b>DOUBLE</b>.
 
-If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> is of type VT_EMPTY or a conversion is not possible, then <a href="https://msdn.microsoft.com/library/Bb776601(v=VS.85).aspx">VariantToDoubleWithDefault</a> returns the default value provided by <i>dblDefault</i>. See <a href="https://msdn.microsoft.com/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a> for a list of possible conversions.
+If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> is of type VT_EMPTY or a conversion is not possible, then <a href="shell.VariantToDoubleWithDefault">VariantToDoubleWithDefault</a> returns the default value provided by <i>dblDefault</i>. See <a href="shell.PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776601(v=VS.85).aspx">VariantToDoubleWithDefault</a> to access a <b>DOUBLE</b> value stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToDoubleWithDefault">VariantToDoubleWithDefault</a> to access a <b>DOUBLE</b> value stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -126,19 +126,19 @@ DOUBLE dblValue = VariantToDoubleWithDefault(var, 3.1415);
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762321(v=VS.85).aspx">InitVariantFromDouble</a>
+<a href="shell.InitVariantFromDouble">InitVariantFromDouble</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>
+<a href="shell.PropVariantChangeType">PropVariantChangeType</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776538(v=VS.85).aspx">PropVariantToDouble</a>
+<a href="shell.PropVariantToDouble">PropVariantToDouble</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776598(v=VS.85).aspx">VariantToDouble</a>
+<a href="shell.VariantToDouble">VariantToDouble</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: qos\id_error_object.htm
 old-project: qos
 ms.assetid: de6e8eaa-4436-4b82-8c47-76da53116ff2
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: ID_ERROR_OBJECT, ID_ERROR_OBJECT structure [QOS], lpmapi/ID_ERROR_OBJECT, qos.id_error_object
 ms.prod: windows
 ms.technology: windows-sdk

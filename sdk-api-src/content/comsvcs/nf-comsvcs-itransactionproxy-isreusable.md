@@ -7,7 +7,7 @@ old-location: cos\itransactionproxy_isreusable.htm
 old-project: cossdk
 ms.assetid: c642d329-c996-4207-bdcf-7c79d955b2c4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ITransactionProxy interface [COM+],IsReusable method, ITransactionProxy.IsReusable, ITransactionProxy::IsReusable, IsReusable, IsReusable method [COM+], IsReusable method [COM+],ITransactionProxy interface, comsvcs/ITransactionProxy::IsReusable, cos.itransactionproxy_isreusable
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\authzfreeresourcemanager.htm
 old-project: secauthz
 ms.assetid: 8b716368-8d81-4c62-9086-0976b39bbcf8
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AuthzFreeResourceManager, AuthzFreeResourceManager function [Security], _win32_authzfreeresourcemanager, authz/AuthzFreeResourceManager, security.authzfreeresourcemanager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,7 @@ The <b>AuthzFreeResourceManager</b> function frees a resource manager object.
 
 
 
-### -param hAuthzResourceManager
-
-TBD
-
-
-
-
-#### - AuthzResourceManager [in]
+### -param hAuthzResourceManager [in]
 
 The <b>AUTHZ_RESOURCE_MANAGER_HANDLE</b> to be freed.
 
@@ -88,7 +81,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
  
 
  

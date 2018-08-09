@@ -7,7 +7,7 @@ old-location: dlgbox\getdlgitemtext.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getdlgitemtext.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetDlgItemText, GetDlgItemText function [Dialog Boxes], GetDlgItemTextA, GetDlgItemTextW, _win32_GetDlgItemText, _win32_getdlgitemtext_cpp, dlgbox.getdlgitemtext, winui._win32_getdlgitemtext, winuser/GetDlgItemText, winuser/GetDlgItemTextA, winuser/GetDlgItemTextW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,14 +85,7 @@ Type: <b>LPTSTR</b>
 The buffer to receive the title or text. 
 
 
-### -param cchMax
-
-TBD
-
-
-
-
-#### - nMaxCount [in]
+### -param cchMax [in]
 
 Type: <b>int</b>
 

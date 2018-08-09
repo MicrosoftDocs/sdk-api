@@ -7,7 +7,7 @@ old-location: adsi\ads_hold.htm
 old-project: ADSI
 ms.assetid: f1ef87f0-b024-4d16-873b-a68bb62f4206
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: "*PADS_HOLD, ADS_HOLD, ADS_HOLD structure [ADSI], PADS_HOLD, PADS_HOLD structure pointer [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0010, _ds_ads_hold, adsi.ads__hold, adsi.ads_hold, iads/ADS_HOLD, iads/PADS_HOLD"
 ms.prod: windows
 ms.technology: windows-sdk

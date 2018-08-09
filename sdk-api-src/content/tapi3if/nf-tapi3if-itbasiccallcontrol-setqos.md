@@ -4,10 +4,10 @@ title: ITBasicCallControl::SetQOS
 author: windows-sdk-content
 description: The SetQOS method sets the quality of service level for the call.
 old-location: tapi3\itbasiccallcontrol_setqos.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: f1e6ef32-5706-4b1c-a1fa-a7be48fd6efd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],SetQOS method, ITBasicCallControl.SetQOS, ITBasicCallControl::SetQOS, SetQOS, SetQOS method [TAPI 2.2], SetQOS method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_setqos, tapi3.itbasiccallcontrol_setqos, tapi3if/ITBasicCallControl::SetQOS
 ms.prod: windows
 ms.technology: windows-sdk

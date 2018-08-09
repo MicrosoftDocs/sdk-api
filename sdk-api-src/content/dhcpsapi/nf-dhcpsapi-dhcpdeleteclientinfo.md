@@ -7,7 +7,7 @@ old-location: dhcp\dhcpdeleteclientinfo.htm
 old-project: dhcp
 ms.assetid: abbf4843-2a4f-4d09-9a21-33587ad0d3e8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpDeleteClientInfo, DhcpDeleteClientInfo function [DHCP], dhcp.dhcpdeleteclientinfo, dhcpsapi/DhcpDeleteClientInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpDeleteClientInfo</b> function deletes a client information record from the DHCP server.
+The <b>DhcpDeleteClientInfo</b> function deletes a client information record from the DHCP server.
 
 
 ## -parameters

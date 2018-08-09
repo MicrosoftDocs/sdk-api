@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacontextcreate1.htm
 old-project: fwp
 ms.assetid: b0eab185-fae2-4133-b3f2-22d609cb94d1
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPsecSaContextCreate1, IPsecSaContextCreate1 function [Filtering], fwp.ipsecsacontextcreate1, fwpmu/IPsecSaContextCreate1
 ms.prod: windows
 ms.technology: windows-sdk

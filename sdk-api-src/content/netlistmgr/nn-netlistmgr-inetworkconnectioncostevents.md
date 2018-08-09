@@ -7,7 +7,7 @@ old-location: nla\inetworkconnectioncostevents.htm
 old-project: nla
 ms.assetid: ABFE73E5-CB9E-4077-81D2-DD0FB39F4EC5
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: INetworkConnectionCostEvents, INetworkConnectionCostEvents interface [Network Awareness], INetworkConnectionCostEvents interface [Network Awareness],described, netlistmgr/INetworkConnectionCostEvents, nla.inetworkconnectioncostevents
 ms.prod: windows
 ms.technology: windows-sdk

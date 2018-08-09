@@ -4,10 +4,10 @@ title: "_WTSCONFIGINFOW"
 author: windows-sdk-content
 description: Contains information about a Remote Desktop Services session.
 old-location: termserv\wtsconfiginfo.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 11561aee-0b73-4e4a-8a53-11a46c7838c7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PWTSCONFIGINFOW, PWTSCONFIGINFO, PWTSCONFIGINFO structure pointer [Remote Desktop Services], WTSCONFIGINFO, WTSCONFIGINFO structure [Remote Desktop Services], WTSCONFIGINFOA, WTSCONFIGINFOW, _WTSCONFIGINFOW, termserv.wtsconfiginfo, wtsapi32/PWTSCONFIGINFO, wtsapi32/WTSCONFIGINFO, wtsapi32/WTSCONFIGINFOA, wtsapi32/WTSCONFIGINFOW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -173,6 +173,26 @@ A null-terminated string that contains the name of  the program to start immedia
 This member is reserved.
 
 
+##### - fDisablePrinterRedirection.0
+
+Enable client printer redirection.
+
+
+##### - fDisablePrinterRedirection.1
+
+Disable client printer redirection.
+
+
+##### - fDisableDefaultMainClientPrinter.0
+
+The printer connected to the client is not the default printer for the user.
+
+
+##### - fDisableDefaultMainClientPrinter.1
+
+The printer connected to the client is the default printer for the user.
+
+
 ##### - ShadowSettings.0
 
 Remote control is disabled.
@@ -199,26 +219,6 @@ The user of remote control can view the session remotely, with the user's permis
 
 The user of remote control can view the session remotely but not actively control the session; the 
         user's permission is not required.
-
-
-##### - fDisableDefaultMainClientPrinter.0
-
-The printer connected to the client is not the default printer for the user.
-
-
-##### - fDisableDefaultMainClientPrinter.1
-
-The printer connected to the client is the default printer for the user.
-
-
-##### - fDisablePrinterRedirection.0
-
-Enable client printer redirection.
-
-
-##### - fDisablePrinterRedirection.1
-
-Disable client printer redirection.
 
 
 ## -see-also

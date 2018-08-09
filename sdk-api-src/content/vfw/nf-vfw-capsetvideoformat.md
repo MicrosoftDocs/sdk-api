@@ -7,7 +7,7 @@ old-location: multimedia\capsetvideoformat.htm
 old-project: Multimedia
 ms.assetid: 3c4bee26-d578-463b-8d97-6cdc78957ce0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_win32_capSetVideoFormat, capSetVideoFormat, capSetVideoFormat macro [Windows Multimedia], multimedia.capsetvideoformat, vfw/capSetVideoFormat"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,17 +69,12 @@ Handle to a capture window.
 
 ### -param s
 
-TBD
+Pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure. 
 
 
 ### -param wSize
 
 The size, in bytes, of the structure referenced by <i>psVideoFormat</i>. 
-
-
-#### - psVideoFormat
-
-Pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure. 
 
 
 ## -remarks

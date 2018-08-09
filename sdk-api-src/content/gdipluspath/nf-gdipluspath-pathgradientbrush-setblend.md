@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetBlend_blendFactors_ble
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setblend_56blendfactors_blendpositions_count.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: PathGradientBrush class [GDI+],SetBlend method, PathGradientBrush.SetBlend, PathGradientBrush::SetBlend, SetBlend, SetBlend method [GDI+], SetBlend method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetBlend_blendFactors_blendPositions_count_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetBlend_blendFactors_blendPositions_count_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,8 +103,7 @@ If the method fails, it returns one of the other elements of the
 
 
 A 
-				<a href="https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
- object has a boundary path and a center point. When you fill an area with a path gradient brush, the color changes gradually as you move from the boundary path to the center point. By default, the color is linearly related to the distance, but you can customize the relationship between color and distance by calling the <b>PathGradientBrush::SetBlend</b> method.
+				<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>object has a boundary path and a center point. When you fill an area with a path gradient brush, the color changes gradually as you move from the boundary path to the center point. By default, the color is linearly related to the distance, but you can customize the relationship between color and distance by calling the <b>PathGradientBrush::SetBlend</b> method.
 
 
 #### Examples
@@ -112,10 +111,8 @@ A
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
- object based on an ellipse. The code calls the <b>PathGradientBrush::SetBlend</b> method of the 
-						<b>PathGradientBrush</b>
- object to establish a set of blend factors and blend positions for the brush. Then the code uses the path gradient brush to fill the ellipse.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>object based on an ellipse. The code calls the <b>PathGradientBrush::SetBlend</b> method of the 
+						<b>PathGradientBrush</b>object to establish a set of blend factors and blend positions for the brush. Then the code uses the path gradient brush to fill the ellipse.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -171,7 +168,7 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
 
 
 
@@ -179,27 +176,27 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533856(v=VS.85).aspx">Filling a Shape with a Color Gradient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533856(v=VS.85).aspx">Filling a Shape with a Color Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535063(v=VS.85).aspx">PathGradientBrush::GetBlend</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535063(v=VS.85).aspx">PathGradientBrush::GetBlend</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535062(v=VS.85).aspx">PathGradientBrush::GetBlendCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535062(v=VS.85).aspx">PathGradientBrush::GetBlendCount</a>
  
 
  

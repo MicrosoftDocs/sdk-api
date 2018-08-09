@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadStrAlloc.htm
 old-project: properties
 ms.assetid: 2F58A6DB-3563-42fa-9B6F-327D0A87AE81
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: PSPropertyBag_ReadStrAlloc, PSPropertyBag_ReadStrAlloc function [Windows Properties], properties.PSPropertyBag_ReadStrAlloc, propsys/PSPropertyBag_ReadStrAlloc, shell.PSPropertyBag_ReadStrAlloc, shell_PSPropertyBag_ReadStrAlloc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ A pointer to a null-terminated property name string.
 
 Type: <b>PWSTR*</b>
 
-When this function returns, contains a pointer to a string data value from a property in a property bag and allocates memory for the string that is read. The caller of the <a href="https://msdn.microsoft.com/library/Ee845062(v=VS.85).aspx">PSPropertyBag_ReadStrAlloc</a> function needs to call a <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function on this parameter.
+When this function returns, contains a pointer to a string data value from a property in a property bag and allocates memory for the string that is read. The caller of the <a href="shell.PSPropertyBag_ReadStrAlloc">PSPropertyBag_ReadStrAlloc</a> function needs to call a <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function on this parameter.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: shell\ITransferAdviseSink_PropertyFailure.htm
 old-project: shell
 ms.assetid: c43cb166-6edf-4c45-93c1-16cb9b5c2d30
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ITransferAdviseSink interface [Windows Shell],PropertyFailure method, ITransferAdviseSink.PropertyFailure, ITransferAdviseSink::PropertyFailure, PropertyFailure, PropertyFailure method [Windows Shell], PropertyFailure method [Windows Shell],ITransferAdviseSink interface, _shell_ITransferAdviseSink_PropertyFailure, shell.ITransferAdviseSink_PropertyFailure, shobjidl_core/ITransferAdviseSink::PropertyFailure
 ms.prod: windows
 ms.technology: windows-sdk

@@ -169,31 +169,6 @@ User-supplied data.
 Path to the Active Directory site, domain, or organization unit to which this GPO is linked. If the GPO is linked to the local GPO, this member is "Local".
 
 
-##### - GPOLink.GPLinkDomain
-
-The GPO is linked to a domain.
-
-
-##### - GPOLink.GPLinkMachine
-
-The GPO is linked to a computer (local or remote).
-
-
-##### - GPOLink.GPLinkOrganizationalUnit
-
-The GPO is linked to an organizational unit.
-
-
-##### - GPOLink.GPLinkSite
-
-The GPO is linked to a site.
-
-
-##### - GPOLink.GPLinkUnknown
-
-No link information is available.
-
-
 ##### - dwOptions.GPO_FLAG_DISABLE
 
 This GPO is disabled.
@@ -202,6 +177,31 @@ This GPO is disabled.
 ##### - dwOptions.GPO_FLAG_FORCE
 
 Do not override the policy settings in this GPO with policy settings in a subsequent GPO.
+
+
+##### - GPOLink.GPLinkUnknown
+
+No link information is available.
+
+
+##### - GPOLink.GPLinkMachine
+
+The GPO is linked to a computer (local or remote).
+
+
+##### - GPOLink.GPLinkSite
+
+The GPO is linked to a site.
+
+
+##### - GPOLink.GPLinkDomain
+
+The GPO is linked to a domain.
+
+
+##### - GPOLink.GPLinkOrganizationalUnit
+
+The GPO is linked to an organizational unit.
 
 
 ## -remarks

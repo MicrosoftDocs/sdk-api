@@ -4,10 +4,10 @@ title: MsiGetProductInfoExA function
 author: windows-sdk-content
 description: Returns product information for advertised and installed products.
 old-location: setup\msigetproductinfoex.htm
-old-project: Msi
+old-project: msi
 ms.assetid: b0060666-3987-49eb-916e-0bcbf54acb23
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: INSTALLPROPERTY_HELPLINK, INSTALLPROPERTY_HELPTELEPHONE, INSTALLPROPERTY_INSTALLDATE, INSTALLPROPERTY_INSTALLEDLANGUAGE, INSTALLPROPERTY_INSTALLEDPRODUCTNAME, INSTALLPROPERTY_INSTALLLOCATION, INSTALLPROPERTY_INSTALLSOURCE, INSTALLPROPERTY_LOCALPACKAGE, INSTALLPROPERTY_PRODUCTSTATE, INSTALLPROPERTY_PUBLISHER, INSTALLPROPERTY_URLINFOABOUT, INSTALLPROPERTY_URLUPDATEINFO, INSTALLPROPERTY_VERSIONMAJOR, INSTALLPROPERTY_VERSIONMINOR, INSTALLPROPERTY_VERSIONSTRING, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiGetProductInfoEx, MsiGetProductInfoEx function, MsiGetProductInfoExA, MsiGetProductInfoExW, NULL, User SID, msi/MsiGetProductInfoEx, msi/MsiGetProductInfoExA, msi/MsiGetProductInfoExW, setup.msigetproductinfoex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -421,9 +421,13 @@ the <a href="https://msdn.microsoft.com/4f495029-232c-4aa2-aecf-b400de2e8c4c">AR
  
 
 
-### -param szValue
+### -param szValue [out, optional]
 
-TBD
+A pointer to a  buffer that receives the property value. This buffer should be large enough to contain the information. If the buffer is too small, the function returns <b>ERROR_MORE_DATA</b> and sets *<i>pcchValue</i> to the number of <b>TCHAR</b> in the value, not including the terminating NULL character.
+
+If <i>lpValue</i> is set to <b>NULL</b> and <i>pcchValue</i> is set to a valid pointer,  the function returns <b>ERROR_SUCCESS</b> and sets *<i>pcchValue</i> to the number of <b>TCHAR</b> in the value, not including the terminating NULL character.  The function can then be called again to retrieve the value, with <i>lpValue</i> buffer large enough to contain *<i>pcchValue</i> + 1 characters.
+
+If <i>lpValue</i> and <i>pcchValue</i> are both set to <b>NULL</b>, the function returns <b>ERROR_SUCCESS</b> if the value exists, without  retrieving the value.
 
 
 ### -param pcchValue [in, out, optional]
@@ -431,15 +435,6 @@ TBD
 A pointer to a variable that specifies the number of <b>TCHAR</b> in the <i>lpValue</i> buffer. When the function returns, this parameter is set to the size of the requested value whether or not the function copies the value into the specified buffer. The size is returned as the number of <b>TCHAR</b> in the requested value, not including the terminating null character.
 
 This parameter can be set to <b>NULL</b> only if <i>lpValue</i> is also <b>NULL</b>. Otherwise, the function returns <b>ERROR_INVALID_PARAMETER</b>.
-
-
-#### - lpValue [out, optional]
-
-A pointer to a  buffer that receives the property value. This buffer should be large enough to contain the information. If the buffer is too small, the function returns <b>ERROR_MORE_DATA</b> and sets *<i>pcchValue</i> to the number of <b>TCHAR</b> in the value, not including the terminating NULL character.
-
-If <i>lpValue</i> is set to <b>NULL</b> and <i>pcchValue</i> is set to a valid pointer,  the function returns <b>ERROR_SUCCESS</b> and sets *<i>pcchValue</i> to the number of <b>TCHAR</b> in the value, not including the terminating NULL character.  The function can then be called again to retrieve the value, with <i>lpValue</i> buffer large enough to contain *<i>pcchValue</i> + 1 characters.
-
-If <i>lpValue</i> and <i>pcchValue</i> are both set to <b>NULL</b>, the function returns <b>ERROR_SUCCESS</b> if the value exists, without  retrieving the value.
 
 
 ## -returns
@@ -558,8 +553,7 @@ When the
 <b>MsiGetProductInfoEx</b> returns <b>ERROR_MORE_DATA</b>, and 
 the <i>pcchValue</i> parameter contains the size of the string, in <b>TCHAR</b>, without counting the null character.
 
-
-    The <b>MsiGetProductInfoEx</b> function  (<b>INSTALLPROPERTY_LOCALPACKAGE</b>) returns a path to the cached package. The cached package is for internal use only. Maintenance mode installations must be invoked through the 
+The <b>MsiGetProductInfoEx</b> function  (<b>INSTALLPROPERTY_LOCALPACKAGE</b>) returns a path to the cached package. The cached package is for internal use only. Maintenance mode installations must be invoked through the 
 <a href="https://msdn.microsoft.com/067d6fbb-833f-4e0e-bfdb-18d1b8608f58">MsiConfigureFeature</a>, 
 <a href="https://msdn.microsoft.com/06f341ac-badd-47a0-af86-4fb76bf528d6">MsiConfigureProduct</a>, or 
 <a href="https://msdn.microsoft.com/7a7ae88a-b893-4d10-8542-b2066d1572a9">MsiConfigureProductEx</a> functions.

@@ -7,7 +7,7 @@ old-location: opc\iopcrelationshipselectorset.htm
 old-project: OPC
 ms.assetid: cb23cbe2-764c-47e4-bd32-2791ddde9eee
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcRelationshipSelectorSet, IOpcRelationshipSelectorSet interface [Open Packaging Conventions], IOpcRelationshipSelectorSet interface [Open Packaging Conventions],described, msopc/IOpcRelationshipSelectorSet, opc.iopcrelationshipselectorset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IOpcRelationshipSelectorSet</b> interface has these methods.
 <a href="https://msdn.microsoft.com/801d1924-c75c-47b5-99fe-9d97ea8dfee1">Create</a>
 </td>
 <td align="left" width="63%">
-
-              Creates an <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a> interface pointer to represent how a subset of relationships are selected to be signed, and adds the new pointer to the set.
+Creates an <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a> interface pointer to represent how a subset of relationships are selected to be signed, and adds the new pointer to the set.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IOpcRelationshipSelectorSet</b> interface has these methods.
 <a href="https://msdn.microsoft.com/a90757f7-bdb1-4cff-9a46-64ec953f2172">Delete</a>
 </td>
 <td align="left" width="63%">
-
-              Deletes a specified <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a> interface pointer from the set.
+Deletes a specified <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a> interface pointer from the set.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IOpcRelationshipSelectorSet</b> interface has these methods.
 <a href="https://msdn.microsoft.com/7c0a885a-8ee2-40fe-bbc6-d7036e4a4c40">GetEnumerator</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an enumerator of <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a> interface pointers in the set.
+Gets an enumerator of <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a> interface pointers in the set.
             
 
 </td>

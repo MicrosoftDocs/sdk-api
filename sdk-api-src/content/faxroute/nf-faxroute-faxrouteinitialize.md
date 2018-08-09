@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxrouteinitialize.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_54o5.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxRouteInitialize, FaxRouteInitialize function [Fax Service], _mfax_faxrouteinitialize, fax._mfax_faxrouteinitialize, faxroute/FaxRouteInitialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Handle to an initialized heap. The fax routing extension DLL must use the Win32�
 
 Type: <b>PFAX_ROUTE_CALLBACKROUTINES</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms692881(v=VS.85).aspx">FAX_ROUTE_CALLBACKROUTINES</a> structure that contains pointers to the callback functions the fax service supplies. The structure contains pointers to the <a href="https://msdn.microsoft.com/library/ms692874(v=VS.85).aspx">FaxRouteAddFile</a>, <a href="https://msdn.microsoft.com/library/ms692858(v=VS.85).aspx">FaxRouteDeleteFile</a>, <a href="https://msdn.microsoft.com/library/ms692862(v=VS.85).aspx">FaxRouteGetFile</a>, <a href="https://msdn.microsoft.com/library/ms692864(v=VS.85).aspx">FaxRouteEnumFiles</a>, and <a href="https://msdn.microsoft.com/library/ms692909(v=VS.85).aspx">FaxRouteModifyRoutingData</a> functions. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms692881(v=VS.85).aspx">FAX_ROUTE_CALLBACKROUTINES</a> structure that contains pointers to the callback functions the fax service supplies. The structure contains pointers to the <a href="https://msdn.microsoft.com/en-us/library/ms692874(v=VS.85).aspx">FaxRouteAddFile</a>, <a href="https://msdn.microsoft.com/en-us/library/ms692858(v=VS.85).aspx">FaxRouteDeleteFile</a>, <a href="https://msdn.microsoft.com/en-us/library/ms692862(v=VS.85).aspx">FaxRouteGetFile</a>, <a href="https://msdn.microsoft.com/en-us/library/ms692864(v=VS.85).aspx">FaxRouteEnumFiles</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms692909(v=VS.85).aspx">FaxRouteModifyRoutingData</a> functions. 
 
                     
 
@@ -96,7 +96,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 The fax routing extension DLL should not perform provider-specific initialization when the fax service calls the <a href="https://msdn.microsoft.com/0c3e3083-9297-4626-b2a7-0062d1c2cf9e">DllMain</a> function, described in MSDN. Instead, the extension should do this when the fax service calls the <b>FaxRouteInitialize</b> function.
 
-For more information, see <a href="https://msdn.microsoft.com/library/ms693451(v=VS.85).aspx">Fax Routing Extension Registration</a> and <a href="https://msdn.microsoft.com/library/ms684521(v=VS.85).aspx">Fax File Lists</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms693451(v=VS.85).aspx">Fax Routing Extension Registration</a> and <a href="https://msdn.microsoft.com/en-us/library/ms684521(v=VS.85).aspx">Fax File Lists</a>.
 
 
 
@@ -106,35 +106,35 @@ For more information, see <a href="https://msdn.microsoft.com/library/ms693451(v
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692881(v=VS.85).aspx">FAX_ROUTE_CALLBACKROUTINES</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692881(v=VS.85).aspx">FAX_ROUTE_CALLBACKROUTINES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684519(v=VS.85).aspx">Fax Routing Extension Application Programming Interface Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684519(v=VS.85).aspx">Fax Routing Extension Application Programming Interface Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692865(v=VS.85).aspx">Fax Routing Extension Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692865(v=VS.85).aspx">Fax Routing Extension Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692874(v=VS.85).aspx">FaxRouteAddFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692874(v=VS.85).aspx">FaxRouteAddFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692858(v=VS.85).aspx">FaxRouteDeleteFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692858(v=VS.85).aspx">FaxRouteDeleteFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692864(v=VS.85).aspx">FaxRouteEnumFiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692864(v=VS.85).aspx">FaxRouteEnumFiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692862(v=VS.85).aspx">FaxRouteGetFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692862(v=VS.85).aspx">FaxRouteGetFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692909(v=VS.85).aspx">FaxRouteModifyRoutingData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692909(v=VS.85).aspx">FaxRouteModifyRoutingData</a>
  
 
  

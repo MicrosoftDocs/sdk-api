@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2ex_gettrackinformation.htm
 old-project: imapi
 ms.assetid: bfb8c7b0-8fe4-4e41-8e71-31ea0af57619
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: GetTrackInformation, GetTrackInformation method [IMAPI], GetTrackInformation method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetTrackInformation method, IDiscRecorder2Ex.GetTrackInformation, IDiscRecorder2Ex::GetTrackInformation, imapi.idiscrecorder2ex_gettrackinformation, imapi2/IDiscRecorder2Ex::GetTrackInformation
 ms.prod: windows
 ms.technology: windows-sdk

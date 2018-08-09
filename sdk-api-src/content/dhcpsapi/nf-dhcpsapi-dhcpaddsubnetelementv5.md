@@ -7,7 +7,7 @@ old-location: dhcp\dhcpaddsubnetelementv5.htm
 old-project: dhcp
 ms.assetid: 200fc8da-d05c-4502-9cfc-d1092c5d0417
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpAddSubnetElementV5, DhcpAddSubnetElementV5 function [DHCP], dhcp.dhcpaddsubnetelementv5, dhcpsapi/DhcpAddSubnetElementV5
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpAddSubnetElementV5</b> function  adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database. <b>Windows 2000 and earlier:  </b>This function is not available.
+The <b>DhcpAddSubnetElementV5</b> function  adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database. <b>Windows 2000 and earlier:  </b>This function is not available.
 
 
 

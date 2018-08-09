@@ -4,10 +4,10 @@ title: BeginBufferedAnimation function
 author: windows-sdk-content
 description: Begins a buffered animation operation. The animation consists of a cross-fade between the contents of two buffers over a specified period of time.
 old-location: controls\BeginBufferedAnimation.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\beginbufferedanimation.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: BeginBufferedAnimation, BeginBufferedAnimation function [Windows Controls], _shell_BeginBufferedAnimation, _shell_BeginBufferedAnimation_cpp, controls.BeginBufferedAnimation, controls._shell_BeginBufferedAnimation, uxtheme/BeginBufferedAnimation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,9 @@ A handle of the target DC on which the buffer is animated.
 
 ### -param prcTarget
 
-TBD
+Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>*</b>
+
+A pointer to a structure that specifies the area of the target DC in which to draw.
 
 
 ### -param dwFormat
@@ -112,13 +114,6 @@ When this function returns, this value points to the handle of the DC where the 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HDC</a>*</b>
 
 When this function returns, this value points to the handle of the DC where the application should paint the final state of the animation, if not <b>NULL</b>.
-
-
-#### - rcTarget
-
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>*</b>
-
-A pointer to a structure that specifies the area of the target DC in which to draw.
 
 
 ## -returns

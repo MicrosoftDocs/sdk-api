@@ -4,10 +4,10 @@ title: PdhBrowseCountersHW function
 author: windows-sdk-content
 description: Displays a Browse Counters dialog box that the user can use to select one or more counters that they want to add to the query. This function is identical to the PdhBrowseCounters function, except that it supports the use of handles to data sources.
 old-location: perf\pdhbrowsecountersh.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: ab835bf8-1adc-463f-99c3-654a328af98a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhBrowseCountersH, PdhBrowseCountersH function [Perf], PdhBrowseCountersHA, PdhBrowseCountersHW, _win32_pdhbrowsecountersh, base.pdhbrowsecountersh, pdh/PdhBrowseCountersH, pdh/PdhBrowseCountersHA, pdh/PdhBrowseCountersHW, perf.pdhbrowsecountersh
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ A
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
@@ -91,8 +90,7 @@ If the function fails, the return value is a
 
 
 Note that the dialog
-   box can return PDH_DIALOG_CANCELLED if <b>bSingleCounterPerDialog</b>
-   is <b>FALSE</b> and the user clicks the <b>Close</b> button, so your error handling would have to account for this.
+   box can return PDH_DIALOG_CANCELLED if <b>bSingleCounterPerDialog</b>is <b>FALSE</b> and the user clicks the <b>Close</b> button, so your error handling would have to account for this.
 
 
 

@@ -7,7 +7,7 @@ old-location: shell\DuplicateIcon.htm
 old-project: shell
 ms.assetid: 488a24e1-f6f0-4bbd-9487-2b4c650f4879
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DuplicateIcon, DuplicateIcon function [Windows Shell], _shell_DuplicateIcon, shell.DuplicateIcon, shellapi/DuplicateIcon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ If successful, the function returns the handle to the new icon that was created;
 
 
 
-When it is no longer needed, the caller is responsible for freeing the icon handle returned by <b>DuplicateIcon</b> by calling the <a href="https://msdn.microsoft.com/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function.
+When it is no longer needed, the caller is responsible for freeing the icon handle returned by <b>DuplicateIcon</b> by calling the <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function.
 
 
 

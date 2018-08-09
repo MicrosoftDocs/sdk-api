@@ -4,10 +4,10 @@ title: PdhComputeCounterStatistics function
 author: windows-sdk-content
 description: Computes statistics for a counter from an array of raw values.
 old-location: perf\pdhcomputecounterstatistics.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: a986ae6c-88ee-4a03-9077-3d286157b9d1
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhComputeCounterStatistics, PdhComputeCounterStatistics function [Perf], _win32_pdhcomputecounterstatistics, base.pdhcomputecounterstatistics, pdh/PdhComputeCounterStatistics, perf.pdhcomputecounterstatistics
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,10 +110,7 @@ Return the calculated value as a long integer.
 </table>
  
 
-
-						
-						
-						You can use the bitwise inclusive OR operator (|) to combine the data type with one of the following scaling factors.
+You can use the bitwise inclusive OR operator (|) to combine the data type with one of the following scaling factors.
 
 <table>
 <tr>
@@ -181,8 +178,7 @@ A
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

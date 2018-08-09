@@ -4,10 +4,10 @@ title: ISettingsResult::GetDescription
 author: windows-sdk-content
 description: Returns the description of the error.
 old-location: smi\isettingsresult_getdescription.htm
-old-project: SMI
+old-project: smi
 ms.assetid: d020bd46-8967-4105-856d-ee448b527852
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetDescription, GetDescription method [SMI], GetDescription method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetDescription method, ISettingsResult.GetDescription, ISettingsResult::GetDescription, smi.isettingsresult_getdescription, wcmconfig/ISettingsResult::GetDescription
 ms.prod: windows
 ms.technology: windows-sdk

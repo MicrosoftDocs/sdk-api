@@ -7,7 +7,7 @@ old-location: stg\readclassstg.htm
 old-project: stg
 ms.assetid: 90256fcd-54ce-48e1-aa12-d8f91cd4dfb1
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: ReadClassStg, ReadClassStg function [Structured Storage], _stg_readclassstg, coml2api/ReadClassStg, stg.readclassstg
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ Pointer to where the CLSID is written. May return CLSID_NULL.
 
 
 
-
-						This function supports the standard return value E_OUTOFMEMORY, in addition to the following:
+This function supports the standard return value E_OUTOFMEMORY, in addition to the following:
 
 This function also returns any of the error values returned by the 
 <a href="https://msdn.microsoft.com/87478fa8-1b5f-44ed-bffc-e139c7f44a12">IStorage::Stat</a> method.
@@ -106,7 +105,7 @@ This function also returns any of the error values returned by the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms694338(v=VS.85).aspx">OleLoad</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms694338(v=VS.85).aspx">OleLoad</a>
 
 
 

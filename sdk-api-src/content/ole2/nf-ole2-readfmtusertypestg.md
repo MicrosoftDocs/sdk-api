@@ -7,7 +7,7 @@ old-location: stg\readfmtusertypestg.htm
 old-project: stg
 ms.assetid: 6f26550d-c094-4150-b8ef-2da1d052c1ff
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: ReadFmtUserTypeStg, ReadFmtUserTypeStg function [Structured Storage], _stg_readfmtusertypestg, ole2/ReadFmtUserTypeStg, stg.readfmtusertypestg
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,10 @@ The
 
 
 
-### -param pstg
+### -param pstg [in]
 
-TBD
+Pointer to the 
+<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface on the storage object from which the information is to be read.
 
 
 ### -param pcf [out]
@@ -76,18 +77,11 @@ Pointer to where the clipboard format is to be written on return. It can be <b>N
 Address of <b>LPWSTR</b> pointer variable that receives a pointer to the null-terminated Unicode user-type string. The caller can specify <b>NULL</b> for this parameter, which indicates that the user type is of no interest. This function allocates memory for the string. The caller is responsible for freeing the memory with <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a>.
 
 
-#### - pStg [in]
-
-Pointer to the 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface on the storage object from which the information is to be read.
-
-
 ## -returns
 
 
 
-
-						This function supports the standard return values E_FAIL, E_INVALIDARG, and E_OUTOFMEMORY, in addition to the following:
+This function supports the standard return values E_FAIL, E_INVALIDARG, and E_OUTOFMEMORY, in addition to the following:
 
 This function also returns any of the error values returned by the 
 <a href="https://msdn.microsoft.com/934a90bb-5ed0-4d80-9906-352ad8586655">ISequentialStream::Read</a> method.

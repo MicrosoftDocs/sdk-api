@@ -7,7 +7,7 @@ old-location: dataxchg\makeintatom.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atommacros\makeintatom.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MAKEINTATOM, MAKEINTATOM macro [Data Exchange], _win32_MAKEINTATOM, _win32_makeintatom_cpp, dataxchg.makeintatom, winbase/MAKEINTATOM, winui._win32_makeintatom
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,15 +60,6 @@ Converts the specified atom into a string, so it can be passed to functions whic
 
 
 ### -param i
-
-TBD
-
-
-
-
-
-
-#### - wInteger
 
 The numeric value to be made into an integer atom. This parameter can be either an integer atom or a string atom. 
 

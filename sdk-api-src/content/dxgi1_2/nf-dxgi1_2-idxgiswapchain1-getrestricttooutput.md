@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain1_getrestricttooutput.htm
 old-project: direct3ddxgi
 ms.assetid: 024176FA-BD3B-4410-9342-B8FA2C5B18F6
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/30/2018
 ms.keywords: GetRestrictToOutput, GetRestrictToOutput method [DXGI], GetRestrictToOutput method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetRestrictToOutput method, IDXGISwapChain1.GetRestrictToOutput, IDXGISwapChain1::GetRestrictToOutput, direct3ddxgi.idxgiswapchain1_getrestricttooutput, dxgi1_2/IDXGISwapChain1::GetRestrictToOutput
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Gets the output (the display monitor) to which you can restrict the contents of 
 
 ### -param ppRestrictToOutput [out]
 
- A pointer to a buffer that receives a pointer to the <a href="https://msdn.microsoft.com/library/Bb174546(v=VS.85).aspx">IDXGIOutput</a> interface for the restrict-to output. An application passes this pointer to <b>IDXGIOutput</b> in a call to the  <a href="https://msdn.microsoft.com/B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD">IDXGIFactory2::CreateSwapChainForHwnd</a>, <a href="https://msdn.microsoft.com/B3AC3AEB-3449-4444-9FD3-866A3795C41F">IDXGIFactory2::CreateSwapChainForCoreWindow</a>, or  <a href="https://msdn.microsoft.com/8AE13082-F8C3-422A-A111-4E91488BD1AF">IDXGIFactory2::CreateSwapChainForComposition</a> method to create the swap chain.
+ A pointer to a buffer that receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb174546(v=VS.85).aspx">IDXGIOutput</a> interface for the restrict-to output. An application passes this pointer to <b>IDXGIOutput</b> in a call to the  <a href="https://msdn.microsoft.com/B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD">IDXGIFactory2::CreateSwapChainForHwnd</a>, <a href="https://msdn.microsoft.com/B3AC3AEB-3449-4444-9FD3-866A3795C41F">IDXGIFactory2::CreateSwapChainForCoreWindow</a>, or  <a href="https://msdn.microsoft.com/8AE13082-F8C3-422A-A111-4E91488BD1AF">IDXGIFactory2::CreateSwapChainForComposition</a> method to create the swap chain.
 
 
 ## -returns

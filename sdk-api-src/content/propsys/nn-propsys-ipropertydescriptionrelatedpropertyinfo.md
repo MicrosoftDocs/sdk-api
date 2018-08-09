@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescriptionRelatedPropertyInfo.htm
 old-project: properties
 ms.assetid: 1658542e-ca2f-4566-b40f-8647577f4481
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: IPropertyDescriptionRelatedPropertyInfo, IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties], IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties],described, properties.IPropertyDescriptionRelatedPropertyInfo, propsys/IPropertyDescriptionRelatedPropertyInfo, shell.IPropertyDescriptionRelatedPropertyInfo, shell_IPropertyDescriptionRelatedPropertyInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,12 +51,12 @@ req.product: ADAM
 ## -description
 
 
-Provides a method that retrives an <a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> interface.
+Provides a method that retrives an <a href="shell.IPropertyDescription">IPropertyDescription</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyDescriptionRelatedPropertyInfo</b> interface inherits from <a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>. <b>IPropertyDescriptionRelatedPropertyInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyDescriptionRelatedPropertyInfo</b> interface inherits from <a href="shell.IPropertyDescription">IPropertyDescription</a>. <b>IPropertyDescriptionRelatedPropertyInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,10 +71,10 @@ The <b>IPropertyDescriptionRelatedPropertyInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd378275(v=VS.85).aspx">GetRelatedProperty</a>
+<a href="shell.IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty">GetRelatedProperty</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> object that represents the related property.
+Retrieves an <a href="shell.IPropertyDescription">IPropertyDescription</a> object that represents the related property.
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ Retrieves an <a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx"
 
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
-Do not implement this interface. There is only one implementation of <a href="https://msdn.microsoft.com/library/Dd378276(v=VS.85).aspx">IPropertyDescriptionRelatedPropertyInfo</a> in the system; it is provided by the Shell. 
+Do not implement this interface. There is only one implementation of <a href="shell.IPropertyDescriptionRelatedPropertyInfo">IPropertyDescriptionRelatedPropertyInfo</a> in the system; it is provided by the Shell. 
 
 Only one property description exists for each property in the system.
 
@@ -98,7 +98,7 @@ Only one property description exists for each property in the system.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

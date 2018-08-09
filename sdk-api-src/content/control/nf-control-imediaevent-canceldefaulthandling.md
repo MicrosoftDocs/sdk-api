@@ -7,7 +7,7 @@ old-location: dshow\imediaevent_canceldefaulthandling.htm
 old-project: DirectShow
 ms.assetid: 955d0494-8418-42a1-ab6e-2c779165f578
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: CancelDefaultHandling, CancelDefaultHandling method [DirectShow], CancelDefaultHandling method [DirectShow],IMediaEvent interface, IMediaEvent interface [DirectShow],CancelDefaultHandling method, IMediaEvent.CancelDefaultHandling, IMediaEvent::CancelDefaultHandling, IMediaEventCancelDefaultHandling, control/IMediaEvent::CancelDefaultHandling, dshow.imediaevent_canceldefaulthandling
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_makeresident.htm
 old-project: direct3d12
 ms.assetid: 2B3B97DC-5AA3-470E-8EED-3956B295BB94
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: ID3D12Device interface,MakeResident method, ID3D12Device.MakeResident, ID3D12Device::MakeResident, MakeResident, MakeResident method, MakeResident method,ID3D12Device interface, d3d12/ID3D12Device::MakeResident, direct3d12.id3d12device_makeresident
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ Descriptor Heaps, Heaps, Committed Resources, and Query Heaps
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           

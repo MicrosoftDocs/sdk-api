@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_root_constants.htm
 old-project: direct3d12
 ms.assetid: B6630700-4F01-4D91-A8FF-3E9CB6505F51
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: D3D12_ROOT_CONSTANTS, D3D12_ROOT_CONSTANTS structure, d3d12/D3D12_ROOT_CONSTANTS, direct3d12.d3d12_root_constants
 ms.prod: windows
 ms.technology: windows-sdk

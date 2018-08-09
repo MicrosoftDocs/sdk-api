@@ -7,7 +7,7 @@ old-location: fwp\fwpmcalloutgetbykey0_func.htm
 old-project: fwp
 ms.assetid: 05c5ac43-adf1-419c-8a39-32f8dddd3b98
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmCalloutGetByKey0, FwpmCalloutGetByKey0 function [Filtering], fwp.fwpmcalloutgetbykey0_func, fwpmu/FwpmCalloutGetByKey0
 ms.prod: windows
 ms.technology: windows-sdk

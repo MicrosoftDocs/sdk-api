@@ -7,7 +7,7 @@ old-location: mf\mfcreateremotedesktopplugin.htm
 old-project: medfound
 ms.assetid: c986c80b-b583-47be-91e7-5881db0018c2
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFCreateRemoteDesktopPlugin, MFCreateRemoteDesktopPlugin function [Media Foundation], c986c80b-b583-47be-91e7-5881db0018c2, mf.mfcreateremotedesktopplugin, mfidl/MFCreateRemoteDesktopPlugin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ Receives a pointer to the <a href="https://msdn.microsoft.com/75bb9bf8-12a7-430f
 
 
 
-
-            The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ Receives a pointer to the <a href="https://msdn.microsoft.com/75bb9bf8-12a7-430f
 </dl>
 </td>
 <td width="60%">
-
-                The function succeeded.
+The function succeeded.
 
 </td>
 </tr>

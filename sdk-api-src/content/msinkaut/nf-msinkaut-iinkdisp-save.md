@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_save.htm
 old-project: tablet
 ms.assetid: 31da19a7-207f-4f11-9b0f-7402e9727f59
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 31da19a7-207f-4f11-9b0f-7402e9727f59, Base64Gif, Base64InkSerializedFormat, Gif, IInkDisp interface [Tablet PC],Save method, IInkDisp.Save, IInkDisp::Save, IPCM_Default, IPCM_MaximumCompression, IPCM_NoCompression, InkSerializedFormat, Save, Save method [Tablet PC], Save method [Tablet PC],IInkDisp interface, msinkaut/IInkDisp::Save, tablet.inkdisp_save
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,28 +65,23 @@ Converts the ink to the specified <a href="https://msdn.microsoft.com/ecbf48ce-0
 
 ### -param PersistenceFormat [in, optional]
 
-
-              Optional. Sets one of the <a href="https://msdn.microsoft.com/ecbf48ce-0394-4da1-9f5c-d2626545982c">InkPersistenceFormat</a> values that indicates the format of the persisted ink. The default value is InkSerializedFormat.
+Optional. Sets one of the <a href="https://msdn.microsoft.com/ecbf48ce-0394-4da1-9f5c-d2626545982c">InkPersistenceFormat</a> values that indicates the format of the persisted ink. The default value is InkSerializedFormat.
             
 
 <table>
 <tr>
-<th>
-                Name
+<th>Name
               </th>
-<th>
-                Description
+<th>Description
               </th>
 </tr>
 <tr>
-<td width="40%"><a id="_________________InkSerializedFormat"></a><a id="_________________inkserializedformat"></a><a id="_________________INKSERIALIZEDFORMAT"></a><dl>
-<dt><b>
-                InkSerializedFormat</b></dt>
+<td width="40%"><a id="InkSerializedFormat"></a><a id="inkserializedformat"></a><a id="INKSERIALIZEDFORMAT"></a><dl>
+<dt><b>InkSerializedFormat</b></dt>
 </dl>
 </td>
 <td width="60%">
-
-                  Ink is persisted using ink serialized format (ISF).
+Ink is persisted using ink serialized format (ISF).
                 
 
 This is the most compact persistent representation of ink. It can be embedded within a binary document format or placed directly on the Clipboard. This is the default value.
@@ -94,9 +89,8 @@ This is the most compact persistent representation of ink. It can be embedded wi
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_______________Base64InkSerializedFormat"></a><a id="_______________base64inkserializedformat"></a><a id="_______________BASE64INKSERIALIZEDFORMAT"></a><dl>
-<dt><b>
-              Base64InkSerializedFormat</b></dt>
+<td width="40%"><a id="Base64InkSerializedFormat"></a><a id="base64inkserializedformat"></a><a id="BASE64INKSERIALIZEDFORMAT"></a><dl>
+<dt><b>Base64InkSerializedFormat</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -114,16 +108,14 @@ This format is provided so that ink can be encoded directly in an Extensible Mar
 <td width="60%">
 Ink is persisted by using a Graphics Interchange Format (GIF) file that contains ISF as metadata that is embedded within the file. 
 
-
-                  This allows ink to be viewed in applications that are not ink-enabled and maintain its full ink fidelity when it returns to an ink-enabled application. This format is ideal when transporting ink content within an HTML file and making it usable by ink-enabled and ink-unaware applications.
+This allows ink to be viewed in applications that are not ink-enabled and maintain its full ink fidelity when it returns to an ink-enabled application. This format is ideal when transporting ink content within an HTML file and making it usable by ink-enabled and ink-unaware applications.
                 
 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_________________Base64Gif"></a><a id="_________________base64gif"></a><a id="_________________BASE64GIF"></a><dl>
-<dt><b>
-                Base64Gif</b></dt>
+<td width="40%"><a id="Base64Gif"></a><a id="base64gif"></a><a id="BASE64GIF"></a><dl>
+<dt><b>Base64Gif</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -139,23 +131,19 @@ This GIFformat is provided when ink is to be encoded directly in an XML or HTML 
 
 ### -param CompressionMode [in, optional]
 
-
-              Optional. One of the <a href="https://msdn.microsoft.com/dac49948-3977-4952-a6c0-f54c4a0a2e36">InkPersistenceCompressionMode</a> values that specifies the compression mode of the persisted ink.
+Optional. One of the <a href="https://msdn.microsoft.com/dac49948-3977-4952-a6c0-f54c4a0a2e36">InkPersistenceCompressionMode</a> values that specifies the compression mode of the persisted ink.
             The default value is IPCM_Default.
 
 <table>
 <tr>
-<th>
-                Name
+<th>Name
               </th>
-<th>
-                Description
+<th>Description
               </th>
 </tr>
 <tr>
-<td width="40%"><a id="_________________IPCM_Default"></a><a id="_________________ipcm_default"></a><a id="_________________IPCM_DEFAULT"></a><dl>
-<dt><b>
-                IPCM_Default</b></dt>
+<td width="40%"><a id="IPCM_Default"></a><a id="ipcm_default"></a><a id="IPCM_DEFAULT"></a><dl>
+<dt><b>IPCM_Default</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -164,9 +152,8 @@ Is used when  the best tradeoff between save-time and storage for the typical ap
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_________________IPCM_MaximumCompression"></a><a id="_________________ipcm_maximumcompression"></a><a id="_________________IPCM_MAXIMUMCOMPRESSION"></a><dl>
-<dt><b>
-                IPCM_MaximumCompression</b></dt>
+<td width="40%"><a id="IPCM_MaximumCompression"></a><a id="ipcm_maximumcompression"></a><a id="IPCM_MAXIMUMCOMPRESSION"></a><dl>
+<dt><b>IPCM_MaximumCompression</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -175,9 +162,8 @@ Is used when minimizing storage space is more important than how fast the ink is
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_________________IPCM_NoCompression"></a><a id="_________________ipcm_nocompression"></a><a id="_________________IPCM_NOCOMPRESSION"></a><dl>
-<dt><b>
-                IPCM_NoCompression</b></dt>
+<td width="40%"><a id="IPCM_NoCompression"></a><a id="ipcm_nocompression"></a><a id="IPCM_NOCOMPRESSION"></a><dl>
+<dt><b>IPCM_NoCompression</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -193,8 +179,7 @@ Is used when save-time is more important than the amount of storage space used a
 
 When this method returns, contains the byte array that contains the persisted ink.
 
-
-              For more information about the VARIANT structure, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
+For more information about the VARIANT structure, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
             
 
 
@@ -285,12 +270,10 @@ Occurs if you attempt to save an empty Ink object in GIF format.
 
 
 
-
-            Attempting to save an empty <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object in GIF format generates an error.
+Attempting to save an empty <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object in GIF format generates an error.
           
 
-<div class="alert"><b>Note</b>  
-            When calling the <b>Save</b> method with an <a href="https://msdn.microsoft.com/ecbf48ce-0394-4da1-9f5c-d2626545982c">InkPersistenceFormat</a> value of <b>Base64InkSerializedFormat</b>, the return value is a <b>NULL</b> -terminated byte array. To write the saved ink to an XML file, first remove the last byte from the array before converting the array to 8-bit Unicode Transformation Format (UTF-8) encoded string.
+<div class="alert"><b>Note</b>  When calling the <b>Save</b> method with an <a href="https://msdn.microsoft.com/ecbf48ce-0394-4da1-9f5c-d2626545982c">InkPersistenceFormat</a> value of <b>Base64InkSerializedFormat</b>, the return value is a <b>NULL</b> -terminated byte array. To write the saved ink to an XML file, first remove the last byte from the array before converting the array to 8-bit Unicode Transformation Format (UTF-8) encoded string.
           </div>
 <div> </div>
 

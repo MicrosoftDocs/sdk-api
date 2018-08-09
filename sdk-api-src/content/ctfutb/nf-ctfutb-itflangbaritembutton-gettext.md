@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritembutton_gettext.htm
 old-project: TSF
 ms.assetid: 9c50f934-d968-4a3d-8455-8923d98b926e
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITfLangBarItemButton interface, ITfLangBarItemButton interface [Text Services Framework],GetText method, ITfLangBarItemButton.GetText, ITfLangBarItemButton::GetText, _tsf_itflangbaritembutton_gettext_ref, ctfutb/ITfLangBarItemButton::GetText, tsf.itflangbaritembutton_gettext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.irql:
 
 ### -param pbstrText [out]
 
-Pointer to a <b>BSTR</b> that receives the string for the language bar item. This string must be allocated using the <a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a> function. The caller must free this buffer when it is no longer required by calling <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+Pointer to a <b>BSTR</b> that receives the string for the language bar item. This string must be allocated using the <a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> function. The caller must free this buffer when it is no longer required by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
 
 
 ## -returns
@@ -121,11 +121,11 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8_gettypeinfo.htm
 old-project: hid
 ms.assetid: e850c3a4-b2dd-4de5-82e3-5bbd90a7ba15
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/30/2018
 ms.keywords: GetTypeInfo, GetTypeInfo method [Human Input Devices], GetTypeInfo method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],GetTypeInfo method, IDirectInputJoyConfig8.GetTypeInfo, IDirectInputJoyConfig8::GetTypeInfo, di_ref_9e378bd2-ae1a-4a66-b934-d9d5ad46cf5d.xml, dinputd/IDirectInputJoyConfig8::GetTypeInfo, hid.idirectinputjoyconfig8_gettypeinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,6 +65,16 @@ The <b>IDirectInputJoyConfig8::GetTypeInfo </b>method obtains information about 
 
 
 
+#### - pwszTypeName
+
+Points to the name of the type, previously obtained from a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff540987">IDirectInputJoyConfig8::EnumTypes</a>. 
+
+
+#### - pjti
+
+Points to a structure that receives information about the joystick type. The caller must initialize the <b>dwSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538513">DIJOYTYPEINFO</a> structure before calling this method. 
+
+
 #### - dwFlags
 
 Specifies the parts of the DIJOYTYPEINFO structure pointed to by <i>pjti</i> that are to be filled. There may be zero, one, or more of the following: 
@@ -94,16 +104,6 @@ Indicates that the display name for the joystick type is being requested.
 #### DITC_CALLOUT
 
 Indicates that the callout for the joystick type is being requested. 
-
-
-#### - pjti
-
-Points to a structure that receives information about the joystick type. The caller must initialize the <b>dwSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538513">DIJOYTYPEINFO</a> structure before calling this method. 
-
-
-#### - pwszTypeName
-
-Points to the name of the type, previously obtained from a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff540987">IDirectInputJoyConfig8::EnumTypes</a>. 
 
 
 ## -returns

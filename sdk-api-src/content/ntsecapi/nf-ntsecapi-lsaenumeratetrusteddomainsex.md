@@ -7,7 +7,7 @@ old-location: security\lsaenumeratetrusteddomainsex.htm
 old-project: secmgmt
 ms.assetid: 4a203bff-c3e1-4d95-b556-617dc8c2e8c2
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 08/06/2018
 ms.keywords: LsaEnumerateTrustedDomainsEx, LsaEnumerateTrustedDomainsEx function [Security], _lsa_lsaenumeratetrusteddomainsex, ntsecapi/LsaEnumerateTrustedDomainsEx, security.lsaenumeratetrusteddomainsex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,19 +84,14 @@ Your application should free this buffer when it is no longer needed by calling
 <a href="https://msdn.microsoft.com/6eb3d18f-c54c-4e51-8a4b-b7a3f930cfa9">LsaFreeMemory</a>.
 
 
-### -param PreferedMaximumLength
+### -param PreferedMaximumLength [in]
 
-TBD
+Preferred maximum length, in bytes, of returned data. This is not a hard upper limit, but serves as a guide. Due to data conversion between systems with different natural data sizes, the actual amount of data returned may be greater than this value.
 
 
 ### -param CountReturned [out]
 
 Pointer to a <b>LONG</b> that receives the number of trusted domain objects returned.
-
-
-#### - PreferredMaximumLength [in]
-
-Preferred maximum length, in bytes, of returned data. This is not a hard upper limit, but serves as a guide. Due to data conversion between systems with different natural data sizes, the actual amount of data returned may be greater than this value.
 
 
 ## -returns
@@ -106,7 +101,7 @@ Preferred maximum length, in bytes, of returned data. This is not a hard upper l
 If the function succeeds, the function returns STATUS_SUCCESS.
 
 If the function fails, it returns an  <b>NTSTATUS</b> code, which can be one of the following values or one of the 
-<a href="https://msdn.microsoft.com/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

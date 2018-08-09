@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecapabilities_getsupportedcontenttypes.htm
 old-project: wpd_sdk
 ms.assetid: 5f56ca91-552f-4a52-8a68-225601c5f6f4
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: GetSupportedContentTypes, GetSupportedContentTypes method [Windows Portable Devices SDK], GetSupportedContentTypes method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedContentTypes method, IPortableDeviceCapabilities.GetSupportedContentTypes, IPortableDeviceCapabilities::GetSupportedContentTypes, IPortableDeviceCapabilitiesGetSupportedContentTypes, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedContentTypes, wpdsdk.iportabledevicecapabilities_getsupportedcontenttypes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-        The <b>GetSupportedContentTypes</b> method retrieves all supported content types for a specified functional object type on a device.
+The <b>GetSupportedContentTypes</b> method retrieves all supported content types for a specified functional object type on a device.
       
 
 
@@ -64,15 +63,13 @@ req.product: ADAM
 
 ### -param Category [in]
 
-
-            A <b>REFGUID</b> that specifies a functional object category. To get a list of functional categories on the device, call <a href="https://msdn.microsoft.com/c444f9d6-7bef-4e0a-bcd8-6a6110986208">IPortableDeviceCapabilities::GetFunctionalCategories</a>.
+A <b>REFGUID</b> that specifies a functional object category. To get a list of functional categories on the device, call <a href="https://msdn.microsoft.com/c444f9d6-7bef-4e0a-bcd8-6a6110986208">IPortableDeviceCapabilities::GetFunctionalCategories</a>.
           
 
 
 ### -param ppContentTypes [out]
 
-
-            Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597589">IPortableDevicePropVariantCollection</a> interface that lists all the supported object types for the specified functional object category. These object types will be <b>GUID</b> values of type VT_CLSID in the retrieved <b>PROPVARIANT</b> items. See <a href="https://msdn.microsoft.com/4c3da994-fe12-4cb8-8f11-c4930cae96af">Requirements for Objects</a> for a list of object types defined by Windows Portable Devices. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597589">IPortableDevicePropVariantCollection</a> interface that lists all the supported object types for the specified functional object category. These object types will be <b>GUID</b> values of type VT_CLSID in the retrieved <b>PROPVARIANT</b> items. See <a href="https://msdn.microsoft.com/4c3da994-fe12-4cb8-8f11-c4930cae96af">Requirements for Objects</a> for a list of object types defined by Windows Portable Devices. The caller must release this interface when it is done with it.
           
 
 
@@ -110,7 +107,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
 
 
 

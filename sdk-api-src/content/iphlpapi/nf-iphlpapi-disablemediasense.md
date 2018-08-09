@@ -7,7 +7,7 @@ old-location: iphlp\disablemediasense.htm
 old-project: iphlp
 ms.assetid: ec845db8-d544-4291-8221-0fde82c2de27
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: DisableMediaSense, DisableMediaSense function [IP Helper], iphlp.disablemediasense, iphlpapi/DisableMediaSense
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,13 +67,6 @@ An application should not use the value pointed to by this variable. This handle
 
 
 ### -param pOverLapped
-
-TBD
-
-
-
-
-#### - pOverlapped
 
 A pointer to an 
 <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure. Except for the <b>hEvent</b> member, all members of this structure must be set to zero. The <b>hEvent</b> member requires a handle to a valid event object. Use the 
@@ -171,8 +164,7 @@ To call <b>DisableMediaSense</b> synchronously, an application needs to create a
 To call <b>DisableMediaSense</b> asynchronously, an application needs to allocate an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure. Except for the <b>hEvent</b> member, all members of this structure must be set to zero. The <b>hEvent</b> member requires a handle to a valid event object. Use the 
 <a href="https://msdn.microsoft.com/1f6d946e-c74c-4599-ac3d-b709216a0900">CreateEvent</a> function to create this event. When called asynchronously, <b>DisableMediaSense</b> always returns ERROR_IO_PENDING. The IRP will be completed only when <a href="https://msdn.microsoft.com/1a959da7-5fdb-4749-a4be-5d44e80ca2ea">RestoreMediaSense</a> is called later.   Use the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function to close the handle to the event object when it is no longer needed. The system closes the handle automatically when the process terminates. The event object is destroyed when its last handle has been closed. 
 
-On Windows Server 2003
-   and Windows XP, the TCP/IP stack implements a policy of deleting all IP addresses on an interface in response to a media sense disconnect event from an underlying network interface. If a network switch or hub that the local computer is connected to is powered off, or a network cable is disconnected, the network interface will deliver disconnection events. IP configuration information associated with the network interface is lost. As a result, the TCP/IP stack implements a policy of hiding disconnected interfaces so these interfaces and their associated IP addresses do not show up in configuration information retrieved through IP helper. This policy prevents some applications from easily detecting that a network interface is merely disconnected, rather than removed from the system.
+On Windows Server 2003and Windows XP, the TCP/IP stack implements a policy of deleting all IP addresses on an interface in response to a media sense disconnect event from an underlying network interface. If a network switch or hub that the local computer is connected to is powered off, or a network cable is disconnected, the network interface will deliver disconnection events. IP configuration information associated with the network interface is lost. As a result, the TCP/IP stack implements a policy of hiding disconnected interfaces so these interfaces and their associated IP addresses do not show up in configuration information retrieved through IP helper. This policy prevents some applications from easily detecting that a network interface is merely disconnected, rather than removed from the system.
 
 This behavior does not normally impact a local client computer if it is using DHCP requests to a DHCP server for IP configuration information. But this can have a serious impact on server computers, particularly computers used as part of clusters. The <b>DisableMediaSense</b> function can be used to temporarily disable the media sensing capability for these cases. At some later time, the <a href="https://msdn.microsoft.com/1a959da7-5fdb-4749-a4be-5d44e80ca2ea">RestoreMediaSense</a> function would be called to restore the media sensing capability.
 
@@ -191,8 +183,7 @@ The TCP/IP stack on Windows Vista and later was changed to not hide disconnecte
 
 #### Examples
 
-The following example shows how to call the <b>DisableMediaSense</b> and <a href="https://msdn.microsoft.com/1a959da7-5fdb-4749-a4be-5d44e80ca2ea">RestoreMediaSense</a> functions asynchronously. This sample is only useful on Windows Server 2003
-   and Windows XP where the <b>DisableMediaSense</b> and <b>RestoreMediaSense</b> functions do something useful.
+The following example shows how to call the <b>DisableMediaSense</b> and <a href="https://msdn.microsoft.com/1a959da7-5fdb-4749-a4be-5d44e80ca2ea">RestoreMediaSense</a> functions asynchronously. This sample is only useful on Windows Server 2003and Windows XP where the <b>DisableMediaSense</b> and <b>RestoreMediaSense</b> functions do something useful.
 
 The sample first calls the <b>DisableMediaSense</b> function, sleeps for 60 seconds to allow the user to disconnect a network cable, retrieves the IP address table and prints some members of the IP address entries in the table, calls the <a href="https://msdn.microsoft.com/1a959da7-5fdb-4749-a4be-5d44e80ca2ea">RestoreMediaSense</a> function, retrieves the IP address table again, and prints some members of the IP address entries in the table.  The impact of disabling the media sensing capability can be seen in the difference in the IP address table entries. 
 

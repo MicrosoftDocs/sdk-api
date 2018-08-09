@@ -7,7 +7,7 @@ old-location: adsi\iadsacl_copyacl.htm
 old-project: ADSI
 ms.assetid: 9ed78d7d-3448-4a49-920f-97221584541c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: CopyAcl, CopyAcl method [ADSI], CopyAcl method [ADSI],IADsAcl interface, IADsAcl interface [ADSI],CopyAcl method, IADsAcl.CopyAcl, IADsAcl::CopyAcl, _ds_iadsacl_copyacl, adsi.iadsacl__copyacl, adsi.iadsacl_copyacl, iads/IADsAcl::CopyAcl
 ms.prod: windows
 ms.technology: windows-sdk

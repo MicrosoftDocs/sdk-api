@@ -7,7 +7,7 @@ old-location: shell\IShellMenu_GetState.htm
 old-project: shell
 ms.assetid: ea5d402f-2644-4e42-b1e7-2304f0ca71e2
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetState, GetState method [Windows Shell], GetState method [Windows Shell],IShellMenu interface, IShellMenu interface [Windows Shell],GetState method, IShellMenu.GetState, IShellMenu::GetState, _shell_IShellMenu_GetState, shell.IShellMenu_GetState, shobjidl_core/IShellMenu::GetState
 ms.prod: windows
 ms.technology: windows-sdk

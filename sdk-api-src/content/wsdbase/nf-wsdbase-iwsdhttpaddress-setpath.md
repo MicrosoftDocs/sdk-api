@@ -4,10 +4,10 @@ title: IWSDHttpAddress::SetPath
 author: windows-sdk-content
 description: Sets the URI path for this address.
 old-location: ncd\iwsdhttpaddress_setpath.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 4bad84a6-f321-4275-9787-f6bae83c807e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWSDHttpAddress interface,SetPath method, IWSDHttpAddress.SetPath, IWSDHttpAddress::SetPath, SetPath, SetPath method, SetPath method,IWSDHttpAddress interface, ncd.iwsdhttpaddress_setpath, wsdbase/IWSDHttpAddress::SetPath
 ms.prod: windows
 ms.technology: windows-sdk

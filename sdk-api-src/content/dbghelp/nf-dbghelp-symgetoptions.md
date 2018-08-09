@@ -7,7 +7,7 @@ old-location: base\symgetoptions.htm
 old-project: debug
 ms.assetid: 3d9db826-1c4a-46d6-b007-c0dd5e6b17cc
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymGetOptions, SymGetOptions function, _win32_symgetoptions, base.symgetoptions, dbghelp/SymGetOptions
 ms.prod: windows
 ms.technology: windows-sdk

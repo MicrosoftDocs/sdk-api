@@ -7,7 +7,7 @@ old-location: wmformat\iwmbackuprestoreprops_getpropbyindex.htm
 old-project: wmformat
 ms.assetid: 96376e63-3c36-4bea-8cd2-362bb1ba054f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetPropByIndex, GetPropByIndex method [windows Media Format], GetPropByIndex method [windows Media Format],IWMBackupRestoreProps interface, IWMBackupRestoreProps interface [windows Media Format],GetPropByIndex method, IWMBackupRestoreProps.GetPropByIndex, IWMBackupRestoreProps::GetPropByIndex, IWMBackupRestorePropsGetPropByIndex, wmformat.iwmbackuprestoreprops_getpropbyindex, wmsdkidl/IWMBackupRestoreProps::GetPropByIndex
 ms.prod: windows
 ms.technology: windows-sdk

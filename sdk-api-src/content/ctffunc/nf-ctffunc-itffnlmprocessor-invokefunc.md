@@ -7,7 +7,7 @@ old-location: tsf\itffnlmprocessor_invokefunc.htm
 old-project: TSF
 ms.assetid: 9545c715-ec31-4360-b8f9-bb0746164878
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],InvokeFunc method, ITfFnLMProcessor.InvokeFunc, ITfFnLMProcessor::InvokeFunc, InvokeFunc, InvokeFunc method [Text Services Framework], InvokeFunc method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_invokefunc_ref, ctffunc/ITfFnLMProcessor::InvokeFunc, tsf.itffnlmprocessor_invokefunc
 ms.prod: windows
 ms.technology: windows-sdk

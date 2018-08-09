@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_force_flag.htm
 old-project: dhcp
 ms.assetid: 2ec45a99-432d-4218-9048-81714ceff36b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDHCP_FORCE_FLAG, DHCP_FORCE_FLAG, DHCP_FORCE_FLAG enumeration [DHCP], DhcpFailoverForce, DhcpFullForce, DhcpNoForce, LPDHCP_FORCE_FLAG, LPDHCP_FORCE_FLAG enumeration pointer [DHCP], _DHCP_FORCE_FLAG, dhcp.dhcp_force_flag, dhcpsapi/DHCP_FORCE_FLAG, dhcpsapi/DhcpFailoverForce, dhcpsapi/DhcpFullForce, dhcpsapi/DhcpNoForce, dhcpsapi/LPDHCP_FORCE_FLAG"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DHCP_FORCE_FLAG</b> enumeration defines the set of flags describing the force level of a DHCP subnet element deletion operation.
+The <b>DHCP_FORCE_FLAG</b> enumeration defines the set of flags describing the force level of a DHCP subnet element deletion operation.
 
 
 ## -enum-fields
@@ -79,8 +78,7 @@ The operation deletes all client records affected by the element, and then delet
 
 
 
-<a href="https://msdn.microsoft.com/8232b2cc-0bb1-4509-ad5f-6d1d1ece9fe5">
-        DhcpRemoveSubnetElementV5</a>
+<a href="https://msdn.microsoft.com/8232b2cc-0bb1-4509-ad5f-6d1d1ece9fe5">DhcpRemoveSubnetElementV5</a>
  
 
  

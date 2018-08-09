@@ -7,7 +7,7 @@ old-location: mstv\idvb_eit2.htm
 old-project: mstv
 ms.assetid: 9d93130c-12fb-4c76-98c1-cdfae113cf2c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IDVB_EIT2, IDVB_EIT2 interface [Microsoft TV Technologies], IDVB_EIT2 interface [Microsoft TV Technologies],described, dvbsiparser/IDVB_EIT2, mstv.idvb_eit2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_MCAST_LEASE_RESPONSE"
 author: windows-sdk-content
 description: The MCAST_LEASE_RESPONSE structure is used to respond to multicast lease requests.
 old-location: madcap\mcast_lease_response.htm
-old-project: Madcap
+old-project: madcap
 ms.assetid: 1993e3bc-b6bd-4e13-aa71-7e33bf7ef540
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: "*PMCAST_LEASE_RESPONSE, MCAST_LEASE_RESPONSE, MCAST_LEASE_RESPONSE structure [MADCAP], PMCAST_LEASE_RESPONSE, PMCAST_LEASE_RESPONSE structure pointer [MADCAP], _MCAST_LEASE_RESPONSE, _mdhcp_mcast_lease_response, madcap.mcast_lease_response, madcapcl/MCAST_LEASE_RESPONSE, madcapcl/PMCAST_LEASE_RESPONSE"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: windowsribbon\ui_eventparams_command_.htm
 old-project: windowsribbon
 ms.assetid: 7B1E92E2-DFFE-4B4F-87F1-1BFBD8E06D08
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: PUI_EVENTPARAMS_COMMAND, PUI_EVENTPARAMS_COMMAND structure pointer [Windows Ribbon], UI_EVENTPARAMS_COMMAND, UI_EVENTPARAMS_COMMAND , UI_EVENTPARAMS_COMMAND structure [Windows Ribbon], _UI_EVENTPARAMS_COMMAND, uiribbon/PUI_EVENTPARAMS_COMMAND, uiribbon/UI_EVENTPARAMS_COMMAND, windowsribbon.ui_eventparams_command_
 ms.prod: windows
 ms.technology: windows-sdk

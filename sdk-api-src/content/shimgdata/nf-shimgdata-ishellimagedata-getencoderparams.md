@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_GetEncoderParams.htm
 old-project: shell
 ms.assetid: 9b664d0f-7bb7-4cdd-8c0c-2ca80faaa764
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetEncoderParams, GetEncoderParams method [Windows Shell], GetEncoderParams method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetEncoderParams method, IShellImageData.GetEncoderParams, IShellImageData::GetEncoderParams, _shell_IShellImageData_GetEncoderParams, shell.IShellImageData_GetEncoderParams, shimgdata/IShellImageData::GetEncoderParams
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ A pointer to a GUID that specifies the encoder. This must be an encoder supporte
 
 Type: <b>EncoderParameters**</b>
 
-The address of a pointer to an array of <a href="https://msdn.microsoft.com/library/ms534434(v=VS.85).aspx">EncoderParameter</a> objects.
+The address of a pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx">EncoderParameter</a> objects.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: gdi\createbrushindirect.htm
 old-project: gdi
 ms.assetid: 75f94ad1-ca25-4ad1-9e8c-ad1a4b8475a7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateBrushIndirect, CreateBrushIndirect function [Windows GDI], _win32_CreateBrushIndirect, gdi.createbrushindirect, wingdi/CreateBrushIndirect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ The <b>CreateBrushIndirect</b> function creates a logical brush that has the spe
 
 
 
-### -param plbrush
-
-TBD
-
-
-
-
-#### - lplb [in]
+### -param plbrush [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/ded2c7a4-2248-4d01-95c6-ab4050719094">LOGBRUSH</a> structure that contains information about the brush.
 

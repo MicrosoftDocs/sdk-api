@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_geturl.htm
 old-project: medfound
 ms.assetid: 38FAD6B8-8C50-492C-BC53-6F301D49083F
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetURL, GetURL method [Media Foundation], GetURL method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetURL method, IMFHttpDownloadRequest.GetURL, IMFHttpDownloadRequest::GetURL, mf.imfhttpdownloadrequest_geturl, mfidl/IMFHttpDownloadRequest::GetURL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ The URL that is used for sending the request to the server. Note that this URL m
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ The URL that is used for sending the request to the server. Note that this URL m
 </dl>
 </td>
 <td width="60%">
-
-                Successfully returned the URL.
+Successfully returned the URL.
 
 </td>
 </tr>
@@ -99,8 +97,7 @@ The URL that is used for sending the request to the server. Note that this URL m
 </dl>
 </td>
 <td width="60%">
-
-                There is insufficient memory to complete the operation.
+There is insufficient memory to complete the operation.
 
 </td>
 </tr>
@@ -111,8 +108,7 @@ The URL that is used for sending the request to the server. Note that this URL m
 </dl>
 </td>
 <td width="60%">
-
-                The <i>ppszURL</i> parameter is an invalid pointer.
+The <i>ppszURL</i> parameter is an invalid pointer.
 
 </td>
 </tr>

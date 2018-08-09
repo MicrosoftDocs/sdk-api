@@ -7,7 +7,7 @@ old-location: mf\id3d11authenticatedchannel_getcertificatesize.htm
 old-project: medfound
 ms.assetid: B393140A-9744-4290-B168-4E7F4E9F55DC
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetCertificateSize, GetCertificateSize method [Media Foundation], GetCertificateSize method [Media Foundation],ID3D11AuthenticatedChannel interface, ID3D11AuthenticatedChannel interface [Media Foundation],GetCertificateSize method, ID3D11AuthenticatedChannel.GetCertificateSize, ID3D11AuthenticatedChannel::GetCertificateSize, d3d11/ID3D11AuthenticatedChannel::GetCertificateSize, mf.id3d11authenticatedchannel_getcertificatesize
 ms.prod: windows
 ms.technology: windows-sdk

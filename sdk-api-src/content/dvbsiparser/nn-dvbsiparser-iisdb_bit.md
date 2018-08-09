@@ -7,7 +7,7 @@ old-location: mstv\iisdb_bit.htm
 old-project: mstv
 ms.assetid: 0ec4497c-68c3-4b0e-a9e4-332e42b2c89b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IISDB_BIT, IISDB_BIT interface [Microsoft TV Technologies], IISDB_BIT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_BIT, mstv.iisdb_bit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,10 +51,8 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT). A BIT contains a broadcaster unit and the service information transmission parameter
+Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT). A BIT contains a broadcaster unit and the service information transmission parameter
   for each broadcaster unit.
-
 
 
 To obtain a pointer to this interface, first make sure that the media graph is in a running state and that the stream you are tuned to contains an BIT. Then:

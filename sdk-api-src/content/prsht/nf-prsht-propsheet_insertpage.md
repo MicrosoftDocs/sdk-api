@@ -7,7 +7,7 @@ old-location: controls\PropSheet_InsertPage.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_insertpage.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: PropSheet_InsertPage, PropSheet_InsertPage macro [Windows Controls], _win32_PropSheet_InsertPage, _win32_PropSheet_InsertPage_cpp, controls.PropSheet_InsertPage, controls._win32_PropSheet_InsertPage, hpageInsertAfter, index, prsht/PropSheet_InsertPage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Inserts a new page into an existing property sheet. The page can be inserted either at a specified index or after a specified page. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774591(v=VS.85).aspx">PSM_INSERTPAGE</a> message explicitly.
+Inserts a new page into an existing property sheet. The page can be inserted either at a specified index or after a specified page. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774591(v=VS.85).aspx">PSM_INSERTPAGE</a> message explicitly.
 
 
 ## -parameters
@@ -61,29 +61,12 @@ Inserts a new page into an existing property sheet. The page can be inserted eit
 
 ### -param hDlg
 
-TBD
-
-
-### -param index
-
-TBD
-
-
-### -param hpage
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to the page to be inserted. The page must first be created by a call to the <a href="https://msdn.microsoft.com/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> function.
-
-
-#### - hPropSheetDlg
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the property sheet.
 
 
-#### - wParam
+### -param index
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
@@ -118,6 +101,13 @@ If you set <i>wParam</i> to an existing page's HPROPSHEETPAGE handle, the new pa
  
 
 
+### -param hpage
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to the page to be inserted. The page must first be created by a call to the <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> function.
+
+
 ## -remarks
 
 
@@ -126,43 +116,43 @@ The pages after the insertion point are shifted to the right to accommodate the 
 
 The property sheet is not resized to fit the new page. Do not make the new page larger than the property sheet's largest page.
 
-A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Accordingly, you should not use the <b>PropSheet_InsertPage</b> macro in your implementation of <a href="https://msdn.microsoft.com/library/Bb760813(v=VS.85).aspx">PropSheetPageProc</a> or while handling the following notifications and Windows messages.
+A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Accordingly, you should not use the <b>PropSheet_InsertPage</b> macro in your implementation of <a href="https://msdn.microsoft.com/en-us/library/Bb760813(v=VS.85).aspx">PropSheetPageProc</a> or while handling the following notifications and Windows messages.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb774552(v=VS.85).aspx">PSN_APPLY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774552(v=VS.85).aspx">PSN_APPLY</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb774559(v=VS.85).aspx">PSN_KILLACTIVE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774559(v=VS.85).aspx">PSN_KILLACTIVE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb774566(v=VS.85).aspx">PSN_RESET</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774566(v=VS.85).aspx">PSN_RESET</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb774568(v=VS.85).aspx">PSN_SETACTIVE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774568(v=VS.85).aspx">PSN_SETACTIVE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/ms632620(v=VS.85).aspx">WM_DESTROY</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632620(v=VS.85).aspx">WM_DESTROY</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a>
 </li>
 </ul>
-If you need to modify a property sheet page while you are handling one of these messages or while <a href="https://msdn.microsoft.com/library/Bb760813(v=VS.85).aspx">PropSheetPageProc</a> is in operation, post yourself a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks. Then you can modify the list of pages.
+If you need to modify a property sheet page while you are handling one of these messages or while <a href="https://msdn.microsoft.com/en-us/library/Bb760813(v=VS.85).aspx">PropSheetPageProc</a> is in operation, post yourself a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks. Then you can modify the list of pages.
 
 The following notifications are also affected by property sheet modification.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb774570(v=VS.85).aspx">PSN_WIZBACK</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774570(v=VS.85).aspx">PSN_WIZBACK</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb774572(v=VS.85).aspx">PSN_WIZNEXT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774572(v=VS.85).aspx">PSN_WIZNEXT</a>
 </li>
 </ul>
-You can add or remove pages in response to these notifications, provided that you return (via DWL_MSGRESULT) a nonzero value to specify the desired new page. Note, however, that if you insert a page that is located before the current page (that has a smaller index than the current page), <a href="https://msdn.microsoft.com/library/Bb774559(v=VS.85).aspx">PSN_KILLACTIVE</a> might be sent to the wrong page.
+You can add or remove pages in response to these notifications, provided that you return (via DWL_MSGRESULT) a nonzero value to specify the desired new page. Note, however, that if you insert a page that is located before the current page (that has a smaller index than the current page), <a href="https://msdn.microsoft.com/en-us/library/Bb774559(v=VS.85).aspx">PSN_KILLACTIVE</a> might be sent to the wrong page.
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 

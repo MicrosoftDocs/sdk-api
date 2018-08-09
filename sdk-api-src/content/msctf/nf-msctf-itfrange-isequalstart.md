@@ -7,7 +7,7 @@ old-location: tsf\itfrange_isequalstart.htm
 old-project: TSF
 ms.assetid: 562c2821-9522-4fb5-ae15-4430cd2711c6
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfRange interface [Text Services Framework],IsEqualStart method, ITfRange.IsEqualStart, ITfRange::IsEqualStart, IsEqualStart, IsEqualStart method [Text Services Framework], IsEqualStart method [Text Services Framework],ITfRange interface, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_isequalstart_ref, msctf/ITfRange::IsEqualStart, tsf.itfrange_isequalstart
 ms.prod: windows
 ms.technology: windows-sdk
@@ -187,8 +187,7 @@ This method is identical to, but more efficient than, <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
       </a>
 
 
@@ -197,14 +196,12 @@ This method is identical to, but more efficient than, <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/b84375ec-e00a-4cb3-97b7-f10688814968">
-        ITfRange::CompareStart
+<a href="https://msdn.microsoft.com/b84375ec-e00a-4cb3-97b7-f10688814968">ITfRange::CompareStart
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/03b87230-457f-4483-a183-d8a8cc7cead4">
-        ITfRange:IsEqualEnd
+<a href="https://msdn.microsoft.com/03b87230-457f-4483-a183-d8a8cc7cead4">ITfRange:IsEqualEnd
       </a>
 
 
@@ -213,8 +210,7 @@ This method is identical to, but more efficient than, <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/d670666f-2915-4a23-b825-b534a015e37f">
-        TfAnchor
+<a href="https://msdn.microsoft.com/d670666f-2915-4a23-b825-b534a015e37f">TfAnchor
       </a>
  
 

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Tint_SetParameters_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\tintclass\tintmethods\setparameters.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],Tint class, Tint class [GDI+],SetParameters method, Tint.SetParameters, Tint::SetParameters, _gdiplus_CLASS_Tint_SetParameters_, gdiplus._gdiplus_CLASS_Tint_SetParameters_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>Tint::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/library/ms534513(v=VS.85).aspx">Tint</a> object.
+The <b>Tint::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/en-us/library/ms534513(v=VS.85).aspx">Tint</a> object.
 
 
 ## -parameters
@@ -62,9 +62,9 @@ The <b>Tint::SetParameters</b> method sets the parameters of this <a href="https
 
 ### -param parameters [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms534074(v=VS.85).aspx">TintParams</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534074(v=VS.85).aspx">TintParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534074(v=VS.85).aspx">TintParams</a> object that specifies the parameters. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534074(v=VS.85).aspx">TintParams</a> object that specifies the parameters. 
 
 
 ## -returns
@@ -88,11 +88,11 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534513(v=VS.85).aspx">Tint</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534513(v=VS.85).aspx">Tint</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534517(v=VS.85).aspx">Tint::GetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534517(v=VS.85).aspx">Tint::GetParameters</a>
  
 
  

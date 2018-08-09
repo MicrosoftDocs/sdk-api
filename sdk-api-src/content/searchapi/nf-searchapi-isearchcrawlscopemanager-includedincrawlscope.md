@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager_IncludedInCrawlScope.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\includedincrawlscope.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchCrawlScopeManager interface [search],IncludedInCrawlScope method, ISearchCrawlScopeManager.IncludedInCrawlScope, ISearchCrawlScopeManager::IncludedInCrawlScope, IncludedInCrawlScope, IncludedInCrawlScope method [search], IncludedInCrawlScope method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_IncludedInCrawlScope, search._search_ISearchCrawlScopeManager_IncludedInCrawlScope, searchapi/ISearchCrawlScopeManager::IncludedInCrawlScope
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-            Retrieves an indicator of whether the specified URL is included in the crawl scope.
+Retrieves an indicator of whether the specified URL is included in the crawl scope.
         
 
 
@@ -65,8 +64,7 @@ req.product: ADAM
 
 Type: <b>LPCWSTR</b>
 
-
-                    A string containing the URL to check for inclusion in the crawl scope.
+A string containing the URL to check for inclusion in the crawl scope.
                 
 
 
@@ -74,8 +72,7 @@ Type: <b>LPCWSTR</b>
 
 Type: <b>BOOL*</b>
 
-
-                    A pointer to a <b>BOOL</b> value: <b>TRUE</b> if <i>pszURL</i> is included in the crawl scope; otherwise, <b>FALSE</b>.
+A pointer to a <b>BOOL</b> value: <b>TRUE</b> if <i>pszURL</i> is included in the crawl scope; otherwise, <b>FALSE</b>.
                 
 
 

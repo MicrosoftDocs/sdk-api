@@ -7,7 +7,7 @@ old-location: controls\DATETIMEPICKERINFO.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\datetimepickerinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDATETIMEPICKERINFO, DATETIMEPICKERINFO, DATETIMEPICKERINFO structure [Windows Controls], LPDATETIMEPICKERINFO, LPDATETIMEPICKERINFO structure pointer [Windows Controls], _shell_DATETIMEPICKERINFO, _shell_DATETIMEPICKERINFO_cpp, commctrl/DATETIMEPICKERINFO, commctrl/LPDATETIMEPICKERINFO, controls.DATETIMEPICKERINFO, controls._shell_DATETIMEPICKERINFO, tagDATETIMEPICKERINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Contains information about a date and time picker (DTP) control.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Set to <code>sizeof(DATETIMEPICKERINFO)</code>. This member must be set before sending a pointer to this structure with the <a href="https://msdn.microsoft.com/library/Bb761755(v=VS.85).aspx">DTM_GETDATETIMEPICKERINFO</a> message, or the <a href="https://msdn.microsoft.com/library/Bb761786(v=VS.85).aspx">DateTime_GetDateTimePickerInfo</a> macro.
+Set to <code>sizeof(DATETIMEPICKERINFO)</code>. This member must be set before sending a pointer to this structure with the <a href="https://msdn.microsoft.com/en-us/library/Bb761755(v=VS.85).aspx">DTM_GETDATETIMEPICKERINFO</a> message, or the <a href="https://msdn.microsoft.com/en-us/library/Bb761786(v=VS.85).aspx">DateTime_GetDateTimePickerInfo</a> macro.
 
 
 ### -field rcCheck
@@ -98,14 +98,14 @@ The state of  <b>rcButton</b>— one or a bitwise combination of the <a href="ht
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
-A handle to the edit control. For information see, <a href="https://msdn.microsoft.com/library/Bb775458(v=VS.85).aspx">Edit Controls</a>.
+A handle to the edit control. For information see, <a href="https://msdn.microsoft.com/en-us/library/Bb775458(v=VS.85).aspx">Edit Controls</a>.
 
 
 ### -field hwndUD
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
-A handle to the up/down control—an alternative to using the drop-down grid (looks like month calendar control). For more information, see <a href="https://msdn.microsoft.com/library/Bb759889(v=VS.85).aspx">Up-Down Controls</a>.
+A handle to the up/down control—an alternative to using the drop-down grid (looks like month calendar control). For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb759889(v=VS.85).aspx">Up-Down Controls</a>.
 
 
 ### -field hwndDropDown

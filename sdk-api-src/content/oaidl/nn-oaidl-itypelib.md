@@ -7,7 +7,7 @@ old-location: automat\itypelib.htm
 old-project: automat
 ms.assetid: c1e5d71f-6a4e-45f3-811d-f57024f81a55
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: ITypeLib, ITypeLib interface [Automation], ITypeLib interface [Automation],described, _oa96_ITypeLib_Interface, automat.itypelib, oaidl/ITypeLib
 ms.prod: windows
 ms.technology: windows-sdk
@@ -193,7 +193,7 @@ General information, including a user-readable name for the library and help for
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221442(v=VS.85).aspx">Type Description Interfaces and Functions </a>
+<a href="387d44b7-407b-44a9-9239-a4cb20e88cac">Type Description Interfaces and Functions </a>
  
 
  

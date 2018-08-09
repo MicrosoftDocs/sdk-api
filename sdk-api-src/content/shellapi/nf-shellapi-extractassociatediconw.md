@@ -7,7 +7,7 @@ old-location: shell\ExtractAssociatedIcon.htm
 old-project: shell
 ms.assetid: 157ce603-9988-4cae-a2cd-51db290268c3
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ExtractAssociatedIcon, ExtractAssociatedIcon function [Windows Shell], ExtractAssociatedIconA, ExtractAssociatedIconW, _shell_ExtractAssociatedIcon, shell.ExtractAssociatedIcon, shellapi/ExtractAssociatedIcon, shellapi/ExtractAssociatedIconA, shellapi/ExtractAssociatedIconW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,19 +70,7 @@ Type: <b>HINSTANCE</b>
 A handle to the instance of the calling application.
 
 
-### -param pszIconPath
-
-TBD
-
-
-### -param piIcon
-
-TBD
-
-
-
-
-#### - lpIconPath [in, out]
+### -param pszIconPath [in, out]
 
 Type: <b>LPTSTR</b>
 
@@ -93,7 +81,7 @@ Pointer to a string that, on entry, specifies the full path and file name of the
 When this function returns, if the icon handle was obtained from an executable file (either an executable file pointed to by <i>lpIconPath</i> or an associated executable file) the function stores the full path and file name of that executable in the buffer pointed to by this parameter.
 
 
-#### - lpiIcon [in, out]
+### -param piIcon [in, out]
 
 Type: <b>LPWORD</b>
 
@@ -123,7 +111,7 @@ If the function fails, the return value is <b>NULL</b>.
 
 
 
-When it is no longer needed, the caller is responsible for freeing the icon handle returned by <b>ExtractAssociatedIcon</b> by calling the <a href="https://msdn.microsoft.com/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function.
+When it is no longer needed, the caller is responsible for freeing the icon handle returned by <b>ExtractAssociatedIcon</b> by calling the <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function.
 
 The <b>ExtractAssociatedIcon</b> function first looks for the indexed icon in the file specified by <i>lpIconPath</i>. If the function cannot obtain the icon handle from that file, and the file has an associated executable file, it looks in that executable file for an icon. Associations with executable files are based on file name extensions and are stored in the per-user part of the registry.
 

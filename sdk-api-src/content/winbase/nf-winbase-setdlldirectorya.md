@@ -4,10 +4,10 @@ title: SetDllDirectoryA function
 author: windows-sdk-content
 description: Adds a directory to the search path used to locate DLLs for the application.
 old-location: base\setdlldirectory.htm
-old-project: Dlls
+old-project: dlls
 ms.assetid: c0c57554-3d98-487c-8bae-c594620d5a00
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetDllDirectory, SetDllDirectory function, SetDllDirectoryA, SetDllDirectoryW, base.setdlldirectory, winbase/SetDllDirectory, winbase/SetDllDirectoryA, winbase/SetDllDirectoryW
 ms.prod: windows
 ms.technology: windows-sdk

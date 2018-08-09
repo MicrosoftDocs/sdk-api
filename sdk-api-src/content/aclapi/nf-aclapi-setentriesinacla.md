@@ -7,7 +7,7 @@ old-location: security\setentriesinacl.htm
 old-project: secauthz
 ms.assetid: 05960fc1-1ad2-4c19-a65c-62259af5e18c
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: SetEntriesInAcl, SetEntriesInAcl function [Security], SetEntriesInAclA, SetEntriesInAclW, _win32_setentriesinacl, aclapi/SetEntriesInAcl, aclapi/SetEntriesInAclA, aclapi/SetEntriesInAclW, security.setentriesinacl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,8 +57,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>SetEntriesInAcl</b> function creates a new <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control list</a> (ACL) by merging new access control or audit control information into an existing 
+The <b>SetEntriesInAcl</b> function creates a new <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control list</a> (ACL) by merging new access control or audit control information into an existing 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a> structure.
 
 
@@ -93,8 +92,7 @@ A pointer to a variable that receives a pointer to the new ACL. If the function 
 
 
 
-
-						If the function succeeds, the function returns ERROR_SUCCESS.
+If the function succeeds, the function returns ERROR_SUCCESS.
 
 If the function fails, it returns a nonzero error code defined in WinError.h.
 
@@ -166,7 +164,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
 
 
 

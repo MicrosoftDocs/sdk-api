@@ -7,7 +7,7 @@ old-location: automat\varint.htm
 old-project: automat
 ms.assetid: 96a9a158-d822-4cde-80c5-ea66f0fa4f1f
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarInt, VarInt function [Automation], _oa96_VarInt, automat.varint, oleauto/VarInt
 ms.prod: windows
 ms.technology: windows-sdk

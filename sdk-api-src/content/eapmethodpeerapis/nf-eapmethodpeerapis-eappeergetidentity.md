@@ -7,7 +7,7 @@ old-location: eaphost\eappeergetidentity.htm
 old-project: eaphost
 ms.assetid: 24ae093f-5ddf-4b09-934f-d0e945335cde
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapPeerGetIdentity, EapPeerGetIdentity function [EAPHost], eaphost.eappeergetidentity, eapmethodpeerapis/EapPeerGetIdentity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,9 @@ Returns the user data and user identity after being called by EAPHost.
 
 
 
-### -param dwFlags
+### -param dwFlags [in]
 
-TBD
+A combination of <a href="https://msdn.microsoft.com/b6305349-3418-475e-8a37-2c06b399556e">EAP flags</a> that describe the  EAP authentication session behavior.
 
 
 ### -param dwSizeofConnectionData [in]
@@ -74,9 +74,9 @@ Specifies the size, in bytes, of the connection data buffer provided in <i>pConn
 A pointer to a byte buffer that contains the opaque configuration data BLOB. 
 
 
-### -param dwSizeofUserData
+### -param dwSizeofUserData [in]
 
-TBD
+Specifies the size, in bytes, of the user data buffer provided in <i>pUserData</i>.
 
 
 ### -param pUserData [in]
@@ -99,8 +99,7 @@ Returns <b>TRUE</b> if the user identity and user data blob aren't returned succ
 
 ### -param pdwSizeOfUserDataOut [in, out]
 
-Specifies the size, in bytes, of the <i>ppUserDataOut</i>
-buffer.
+Specifies the size, in bytes, of the <i>ppUserDataOut</i>buffer.
 
 
 ### -param ppUserDataOut [out]
@@ -116,16 +115,6 @@ A pointer to a pointer to the returned user data. The data is passed to <a href=
 ### -param ppEapError [out]
 
 A pointer to the pointer to an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
-
-
-#### - dwSizeOfUserData [in]
-
-Specifies the size, in bytes, of the user data buffer provided in <i>pUserData</i>.
-
-
-#### - dwflags [in]
-
-A combination of <a href="https://msdn.microsoft.com/b6305349-3418-475e-8a37-2c06b399556e">EAP flags</a> that describe the  EAP authentication session behavior.
 
 
 ## -remarks

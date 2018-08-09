@@ -7,7 +7,7 @@ old-location: security\npgetconnection.htm
 old-project: secauthn
 ms.assetid: 3f52bbff-998d-4e11-877f-478085207e6b
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: NPGetConnection, NPGetConnection function [Security], _mnp_npgetconnection, npapi/NPGetConnection, security.npgetconnection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,7 @@ Pointer to the name of the local device the caller is interested in. The network
 Pointer to a buffer that will receive the remote name used to make the connection. This buffer is allocated by the caller. 
 
 
-### -param lpnBufferLen
-
-TBD
-
-
-
-
-#### - lpBufferSize [in, out]
+### -param lpnBufferLen [in, out]
 
 Pointer to the size, in characters, of the <i>lpRemoteName</i> buffer. If the call fails because the buffer is not big enough, <i>lpBufferSize</i> is set to the required buffer size.
 

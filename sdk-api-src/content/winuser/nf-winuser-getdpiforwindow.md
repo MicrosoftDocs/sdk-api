@@ -7,7 +7,7 @@ old-location: hidpi\getdpiforwindow.htm
 old-project: hidpi
 ms.assetid: E9F7BCFA-4215-44C0-95FB-57C28325720C
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetDpiForWindow, GetDpiForWindow function [High DPI], hidpi.getdpiforwindow, winuser/GetDpiForWindow
 ms.prod: windows
 ms.technology: windows-sdk

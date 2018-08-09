@@ -7,7 +7,7 @@ old-location: opc\iopcrelationshipselectorenumerator.htm
 old-project: OPC
 ms.assetid: 9c0bbc0d-d950-4929-9100-41a7f016a208
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcRelationshipSelectorEnumerator, IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions], IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions],described, msopc/IOpcRelationshipSelectorEnumerator, opc.iopcrelationshipselectorenumerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,9 +74,7 @@ The <b>IOpcRelationshipSelectorEnumerator</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
 </td>
 <td align="left" width="63%">
-
-              Creates a copy of the current <b>IOpcRelationshipSelectorEnumerator</b>
-              interface pointer and all its descendants.
+Creates a copy of the current <b>IOpcRelationshipSelectorEnumerator</b>interface pointer and all its descendants.
             
 
 </td>
@@ -86,8 +84,7 @@ The <b>IOpcRelationshipSelectorEnumerator</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ffff6b7e-8e46-4be6-921f-b98e7d51a114">GetCurrent</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a> interface pointer at the current position of the enumerator.
+Gets the <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a> interface pointer at the current position of the enumerator.
             
 
 </td>
@@ -97,9 +94,7 @@ The <b>IOpcRelationshipSelectorEnumerator</b> interface has these methods.
 <a href="https://msdn.microsoft.com/a958f62d-3e9a-47d9-8ac2-a92a21a74ed1">MoveNext</a>
 </td>
 <td align="left" width="63%">
-
-              Moves the current position of the enumerator to the next <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a>
-              interface pointer.
+Moves the current position of the enumerator to the next <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a>interface pointer.
             
 
 </td>
@@ -109,9 +104,7 @@ The <b>IOpcRelationshipSelectorEnumerator</b> interface has these methods.
 <a href="https://msdn.microsoft.com/dd367eb8-cd1c-4f0a-a435-aad86685b71a">MovePrevious</a>
 </td>
 <td align="left" width="63%">
-
-              Moves the current position of the enumerator to the previous <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a>
-              interface pointer.
+Moves the current position of the enumerator to the previous <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a>interface pointer.
             
 
 </td>
@@ -123,11 +116,9 @@ The <b>IOpcRelationshipSelectorEnumerator</b> interface has these methods.
 
 
 
+When an enumerator is created, the current position precedes the first pointer.
 
-  		When an enumerator is created, the current position precedes the first pointer.
-
-To set the current position to the first pointer of the enumerator, call the  <a href="https://msdn.microsoft.com/a958f62d-3e9a-47d9-8ac2-a92a21a74ed1">MoveNext</a>
-          method after creating the enumerator.
+To set the current position to the first pointer of the enumerator, call the  <a href="https://msdn.microsoft.com/a958f62d-3e9a-47d9-8ac2-a92a21a74ed1">MoveNext</a>method after creating the enumerator.
 
 Changes to the set will invalidate the enumerator, and all subsequent calls to it will fail.
 

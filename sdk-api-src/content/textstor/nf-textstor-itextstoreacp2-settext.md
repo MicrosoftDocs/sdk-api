@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp2_settext.htm
 old-project: TSF
 ms.assetid: a00b8273-1690-4cf5-899f-afcb1092bfe8
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],SetText method, ITextStoreACP2.SetText, ITextStoreACP2::SetText, SetText, SetText method [Text Services Framework], SetText method [Text Services Framework],ITextStoreACP2 interface, acpNewEnd, acpOldEnd, acpStart, textstor/ITextStoreACP2::SetText, tsf.itextstoreacp2_settext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -227,8 +227,7 @@ This method should call the <a href="https://msdn.microsoft.com/0ed72ddd-523e-47
 
 
 
-<a href="https://msdn.microsoft.com/6e05ed74-fff3-4bc4-a21e-9af9492af23b">
-        Miscellaneous Text Store Constants
+<a href="https://msdn.microsoft.com/6e05ed74-fff3-4bc4-a21e-9af9492af23b">Miscellaneous Text Store Constants
       </a>
 
 

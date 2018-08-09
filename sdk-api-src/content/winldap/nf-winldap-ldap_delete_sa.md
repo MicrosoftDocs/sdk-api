@@ -4,10 +4,10 @@ title: ldap_delete_sA function
 author: windows-sdk-content
 description: The ldap_delete_s function is a synchronous operation that removes a leaf entry from the directory tree.
 old-location: ldap\ldap_delete_s.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: cded1b76-0fad-454f-bf5a-c500c9079f08
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_delete_s, ldap.ldap__delete__s, ldap.ldap_delete_s, ldap_delete_s, ldap_delete_s function [LDAP], ldap_delete_sA, ldap_delete_sW, winldap/ldap_delete_s, winldap/ldap_delete_sA, winldap/ldap_delete_sW"
 ms.prod: windows
 ms.technology: windows-sdk

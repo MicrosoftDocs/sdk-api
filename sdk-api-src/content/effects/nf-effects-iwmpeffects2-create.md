@@ -7,7 +7,7 @@ old-location: wmp\iwmpeffects2_create.htm
 old-project: WMP
 ms.assetid: a0bc4e45-7174-4dbd-a902-06c685c9a9ac
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/30/2018
 ms.keywords: Create, Create method [Windows Media Player], Create method [Windows Media Player],IWMPEffects2 interface, IWMPEffects2 interface [Windows Media Player],Create method, IWMPEffects2.Create, IWMPEffects2::Create, IWMPEffectsCreate, effects/IWMPEffects2::Create, wmp.iwmpeffects2_create
 ms.prod: windows
 ms.technology: windows-sdk

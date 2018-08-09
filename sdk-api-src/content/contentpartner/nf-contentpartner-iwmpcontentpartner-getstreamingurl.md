@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_getstreamingurl.htm
 old-project: WMP
 ms.assetid: 7b9c25bc-35f7-429a-b465-45e166e2ed1a
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/30/2018
 ms.keywords: GetStreamingURL, GetStreamingURL method [Windows Media Player], GetStreamingURL method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetStreamingURL method, IWMPContentPartner.GetStreamingURL, IWMPContentPartner::GetStreamingURL, IWMPContentPartnerGetStreamingURL, contentpartner/IWMPContentPartner::GetStreamingURL, wmp.iwmpcontentpartner_getstreamingurl
 ms.prod: windows
 ms.technology: windows-sdk

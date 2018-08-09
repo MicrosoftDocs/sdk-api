@@ -7,7 +7,7 @@ old-location: mf\mfcreatesensorgroup.htm
 old-project: medfound
 ms.assetid: A1DDA62D-D668-4292-9DFF-09B17A78A54E
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFCreateSensorGroup, MFCreateSensorGroup function [Media Foundation], mf.mfcreatesensorgroup, mfidl/MFCreateSensorGroup
 ms.prod: windows
 ms.technology: windows-sdk

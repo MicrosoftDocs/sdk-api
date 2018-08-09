@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturecustomobjectenumerator.htm
 old-project: OPC
 ms.assetid: e82caa1e-4cf8-457f-86d9-24f707544199
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcSignatureCustomObjectEnumerator, IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions], IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions],described, msopc/IOpcSignatureCustomObjectEnumerator, opc.iopcsignaturecustomobjectenumerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IOpcSignatureCustomObjectEnumerator</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
 </td>
 <td align="left" width="63%">
-
-              Creates a copy of the current <b>IOpcSignatureCustomObjectEnumerator</b> interface pointer and all its descendants.
+Creates a copy of the current <b>IOpcSignatureCustomObjectEnumerator</b> interface pointer and all its descendants.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IOpcSignatureCustomObjectEnumerator</b> interface has these methods.
 <a href="https://msdn.microsoft.com/a0197da5-e613-4aba-8098-901e192051ff">GetCurrent</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <a href="https://msdn.microsoft.com/4ebb4fbe-66cc-46d9-b548-31177d9f6da9">IOpcSignatureCustomObject</a> interface at the current position of the enumerator.
+Gets the <a href="https://msdn.microsoft.com/4ebb4fbe-66cc-46d9-b548-31177d9f6da9">IOpcSignatureCustomObject</a> interface at the current position of the enumerator.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IOpcSignatureCustomObjectEnumerator</b> interface has these methods.
 <a href="https://msdn.microsoft.com/8b74d1e3-0a57-407c-bf05-f17aa84923e5">MoveNext</a>
 </td>
 <td align="left" width="63%">
-
-              Moves the current position of the enumerator to the next <a href="https://msdn.microsoft.com/4ebb4fbe-66cc-46d9-b548-31177d9f6da9">IOpcSignatureCustomObject</a> interface pointer.
+Moves the current position of the enumerator to the next <a href="https://msdn.microsoft.com/4ebb4fbe-66cc-46d9-b548-31177d9f6da9">IOpcSignatureCustomObject</a> interface pointer.
             
 
 </td>
@@ -107,9 +104,7 @@ The <b>IOpcSignatureCustomObjectEnumerator</b> interface has these methods.
 <a href="https://msdn.microsoft.com/1143280b-4c92-44cf-8e2d-acd26527f264">MovePrevious</a>
 </td>
 <td align="left" width="63%">
-
-              Moves the current position of the enumerator to the previous <a href="https://msdn.microsoft.com/4ebb4fbe-66cc-46d9-b548-31177d9f6da9">IOpcSignatureCustomObject</a>
-              interface pointer.
+Moves the current position of the enumerator to the previous <a href="https://msdn.microsoft.com/4ebb4fbe-66cc-46d9-b548-31177d9f6da9">IOpcSignatureCustomObject</a>interface pointer.
             
 
 </td>
@@ -121,9 +116,7 @@ The <b>IOpcSignatureCustomObjectEnumerator</b> interface has these methods.
 
 
 
-
-  		When an enumerator is created, the current position precedes the first pointer of the enumerator. To set the current position to the first pointer, call the  <a href="https://msdn.microsoft.com/8b74d1e3-0a57-407c-bf05-f17aa84923e5">MoveNext</a>
-          method after creating the enumerator.
+When an enumerator is created, the current position precedes the first pointer of the enumerator. To set the current position to the first pointer, call the  <a href="https://msdn.microsoft.com/8b74d1e3-0a57-407c-bf05-f17aa84923e5">MoveNext</a>method after creating the enumerator.
 
 Changes to the set will invalidate the enumerator, and all subsequent calls to it will fail.
 

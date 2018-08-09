@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_drawindexedinstanced.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_drawindexedinstanced.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 38658e6f-340e-68e9-eb0a-101f9c8f0c5e, DrawIndexedInstanced, DrawIndexedInstanced method [Direct3D 10], DrawIndexedInstanced method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],DrawIndexedInstanced method, ID3D10Device.DrawIndexedInstanced, ID3D10Device::DrawIndexedInstanced, d3d10/ID3D10Device::DrawIndexedInstanced, direct3d10.id3d10device_drawindexedinstanced
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,7 +107,7 @@ Returns nothing.
 
 
 
-A <a href="https://msdn.microsoft.com/library/Bb205117(v=VS.85).aspx">draw API</a> submits work to the rendering pipeline.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb205117(v=VS.85).aspx">draw API</a> submits work to the rendering pipeline.
 
 Instancing may extend performance by reusing the same geometry to draw multiple objects in a scene. One example of instancing could be to draw the same object with different positions and colors. Indexing requires multiple vertex buffers: at least one for per-vertex data and a second buffer for per-instance data. For an example of instancing, see the <a href="dd22e271-7ace-fcb6-3da2-ba838c59db6e">Instancing10 Sample</a>.
 
@@ -119,7 +119,7 @@ Instancing may extend performance by reusing the same geometry to draw multiple 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

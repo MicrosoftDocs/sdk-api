@@ -4,10 +4,10 @@ title: PdhEnumMachinesHA function
 author: windows-sdk-content
 description: Returns a list of the computer names associated with counters in a log file.
 old-location: perf\pdhenummachinesh.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 7e8dc113-76a7-4a7a-bbad-1a4387831501
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhEnumMachinesH, PdhEnumMachinesH function [Perf], PdhEnumMachinesHA, PdhEnumMachinesHW, _win32_pdhenummachinesh, base.pdhenummachinesh, pdh/PdhEnumMachinesH, pdh/PdhEnumMachinesHA, pdh/PdhEnumMachinesHW, perf.pdhenummachinesh
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Returns a list of the computer names associated with counters in a log file. The computer names were either specified when adding counters to the query or when calling the <a href="https://msdn.microsoft.com/8f8b4651-b550-4b34-bb2f-d2497c56b572">PdhConnectMachine</a> function. The computers listed include those that are currently connected and online, in addition to those that are offline or not returning performance data.
+Returns a list of the computer names associated with counters in a log file. The computer names were either specified when adding counters to the query or when calling the <a href="https://msdn.microsoft.com/8f8b4651-b550-4b34-bb2f-d2497c56b572">PdhConnectMachine</a> function. The computers listed include those that are currently connected and online, in addition to those that are offline or not returning performance data.
 			
 
 This function is identical to 
@@ -74,24 +73,12 @@ Handle to a data source returned by the
 
 
 
-### -param mszMachineList
-
-TBD
-
-
-### -param pcchBufferSize
-
-TBD
-
-
-
-
-#### - mszMachineNameList [out]
+### -param mszMachineList [out]
 
 Caller-allocated buffer to receive the list of <b>null</b>-terminated strings that contain the computer names. The list is terminated with two <b>null</b>-terminator characters. Set to <b>NULL</b> if <i>pcchBufferLength</i> is zero.
 
 
-#### - pcchBufferLength [in, out]
+### -param pcchBufferSize [in, out]
 
 Size of the <i>mszMachineNameList</i> buffer, in <b>TCHARs</b>. If zero on input, the function returns PDH_MORE_DATA and sets this parameter to the required buffer size. If the buffer is larger than the required size, the function sets this parameter to the actual size of the buffer that was used. If the specified size on input is greater than zero but less than the required size, you should not rely on the returned size to reallocate the buffer.
 
@@ -100,8 +87,7 @@ Size of the <i>mszMachineNameList</i> buffer, in <b>TCHARs</b>. If zero on input
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

@@ -7,7 +7,7 @@ old-location: security\iazapplication_version.htm
 old-project: secauthz
 ms.assetid: 4fa03e8c-e039-465c-aca2-4b68b894eb29
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AzApplication object [Security],Version property, IAzApplication interface [Security],Version property, IAzApplication.Version, IAzApplication.put_Version, IAzApplication::Version, IAzApplication::get_Version, IAzApplication::put_Version, Version property [Security], Version property [Security],AzApplication object, Version property [Security],IAzApplication interface, azroles/IAzApplication::Version, azroles/IAzApplication::get_Version, azroles/IAzApplication::put_Version, put_Version, security.iazapplication_version
 ms.prod: windows
 ms.technology: windows-sdk

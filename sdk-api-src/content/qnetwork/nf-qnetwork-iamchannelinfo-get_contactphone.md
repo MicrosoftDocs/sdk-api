@@ -7,7 +7,7 @@ old-location: dshow\iamchannelinfo_get_contactphone.htm
 old-project: DirectShow
 ms.assetid: b5addbbb-a0f3-4dec-a347-9c69864a0615
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IAMChannelInfo interface [DirectShow],get_ContactPhone method, IAMChannelInfo.get_ContactPhone, IAMChannelInfo::get_ContactPhone, IAMChannelInfoget_ContactPhone, dshow.iamchannelinfo_get_contactphone, get_ContactPhone, get_ContactPhone method [DirectShow], get_ContactPhone method [DirectShow],IAMChannelInfo interface, qnetwork/IAMChannelInfo::get_ContactPhone
 ms.prod: windows
 ms.technology: windows-sdk

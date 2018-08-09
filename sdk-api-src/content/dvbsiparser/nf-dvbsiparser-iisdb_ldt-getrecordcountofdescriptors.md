@@ -7,7 +7,7 @@ old-location: mstv\iisdb_ldt_getrecordcountofdescriptors.htm
 old-project: mstv
 ms.assetid: 1352eec0-fed2-4d14-81f2-c73b8d34a264
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IISDB_LDT.GetRecordCountOfDescriptors, IISDB_LDT::GetRecordCountOfDescriptors, dvbsiparser/IISDB_LDT::GetRecordCountOfDescriptors, mstv.iisdb_ldt_getrecordcountofdescriptors
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Returns the number of descriptors for a record in
+Returns the number of descriptors for a record in
   an Integrated Services Digital Broadcasting 
   (ISDB) linked description table (LDT).
  
@@ -65,10 +64,8 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param dwRecordIndex [in]
 
-
-  Specifies the record number,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/da91deea-527c-4458-9db5-ae500cee19bb">IISDB_LDT::GetCountOfRecords</a>
-  method to get the number of records in the LDT.
+Specifies the record number,
+  indexed from zero. Call the <a href="https://msdn.microsoft.com/da91deea-527c-4458-9db5-ae500cee19bb">IISDB_LDT::GetCountOfRecords</a>method to get the number of records in the LDT.
 
 
 

@@ -7,7 +7,7 @@ old-location: mf\dxva2_videosample.htm
 old-project: medfound
 ms.assetid: 040ade10-8573-4375-829d-938efa750a12
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 040ade10-8573-4375-829d-938efa750a12, DXVA2_SampleData_RFF, DXVA2_SampleData_RFF_TFF_Present, DXVA2_SampleData_TFF, DXVA2_VideoSample, DXVA2_VideoSample structure [Media Foundation], _DXVA2_VideoSample, dxva2api/DXVA2_VideoSample, mf.dxva2_videosample
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,15 +64,13 @@ Specifies an input sample for the <a href="https://msdn.microsoft.com/4a199ad3-6
 
 ### -field Start
 
-
-            Start time of the sample, in 100-nanosecond units. For video substream samples, the value is zero.
+Start time of the sample, in 100-nanosecond units. For video substream samples, the value is zero.
           
 
 
 ### -field End
 
-
-            End time of the sample, in 100-nanosecond units. For video substream samples, the value is zero.
+End time of the sample, in 100-nanosecond units. For video substream samples, the value is zero.
           
 
 
@@ -85,43 +83,37 @@ Specifies an input sample for the <a href="https://msdn.microsoft.com/4a199ad3-6
 
 ### -field SrcSurface
 
-
-            Pointer to the <a href="https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface of the Direct3D surface that contains the sample.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface of the Direct3D surface that contains the sample.
           
 
 
 ### -field SrcRect
 
-
-            Source rectangle. The source rectangle defines which portion of the input sample is copied to the destination surface. The source rectangle is specified using pixel coordinates on the input surface.
+Source rectangle. The source rectangle defines which portion of the input sample is copied to the destination surface. The source rectangle is specified using pixel coordinates on the input surface.
           
 
 
 ### -field DstRect
 
-
-            Destination rectangle. The destination rectangle defines the portion of the destination surface where the source rectangle is copied. The destination rectangle is specified using pixel coordinates on the destination surface.
+Destination rectangle. The destination rectangle defines the portion of the destination surface where the source rectangle is copied. The destination rectangle is specified using pixel coordinates on the destination surface.
           
 
 
 ### -field Pal
 
-
-            If the input sample is for a substream and uses a palettized YUV color format, this member contains an array of <a href="https://msdn.microsoft.com/4d296764-a00a-407d-a963-62c138976ccc">DXVA2_AYUVSample8</a> structures that define the palette entries. For non-palettized pixel formats, the array elements should all be zero.
+If the input sample is for a substream and uses a palettized YUV color format, this member contains an array of <a href="https://msdn.microsoft.com/4d296764-a00a-407d-a963-62c138976ccc">DXVA2_AYUVSample8</a> structures that define the palette entries. For non-palettized pixel formats, the array elements should all be zero.
           
 
 
 ### -field PlanarAlpha
 
-
-            Alpha value that will be applied to this input sample when it is composited.
+Alpha value that will be applied to this input sample when it is composited.
           
 
 
 ### -field SampleData
 
-
-            Contains additional flags. The following flags are defined.
+Contains additional flags. The following flags are defined.
           
 
 <table>
@@ -135,8 +127,7 @@ Specifies an input sample for the <a href="https://msdn.microsoft.com/4a199ad3-6
 </dl>
 </td>
 <td width="60%">
-
-                Repeat first field (RFF) bit.
+Repeat first field (RFF) bit.
               
 
 </td>
@@ -147,8 +138,7 @@ Specifies an input sample for the <a href="https://msdn.microsoft.com/4a199ad3-6
 </dl>
 </td>
 <td width="60%">
-
-                Top field first (TFF) bit.
+Top field first (TFF) bit.
               
 
 </td>
@@ -159,8 +149,7 @@ Specifies an input sample for the <a href="https://msdn.microsoft.com/4a199ad3-6
 </dl>
 </td>
 <td width="60%">
-
-                If set, the RFF and TFF flags are used.
+If set, the RFF and TFF flags are used.
               
 
 </td>
@@ -168,8 +157,7 @@ Specifies an input sample for the <a href="https://msdn.microsoft.com/4a199ad3-6
 </table>
  
 
-
-            These flags provide a hint to the deinterlacer when it performs inverse telecine.
+These flags provide a hint to the deinterlacer when it performs inverse telecine.
           
 
 

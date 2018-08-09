@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_v_CheckZoneCrossing.htm
 old-project: shell
 ms.assetid: cc682057-9a84-4b14-bfe3-32b6ada9304c
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],v_CheckZoneCrossing method, IBrowserService2.v_CheckZoneCrossing, IBrowserService2::v_CheckZoneCrossing, shdeprecated/IBrowserService2::v_CheckZoneCrossing, shell.IBrowserService2_v_CheckZoneCrossing, v_CheckZoneCrossing, v_CheckZoneCrossing method [Windows Shell], v_CheckZoneCrossing method [Windows Shell],IBrowserService2 interface, zone_IBrowserService2_v_CheckZoneCrossing
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Deprecated. Called by the base class to validate a zone crossing when navigating
 
 Type: <b>LPCITEMIDLIST</b>
 
-
-          The PIDL of the navigation destination.
+The PIDL of the navigation destination.
         
 
 

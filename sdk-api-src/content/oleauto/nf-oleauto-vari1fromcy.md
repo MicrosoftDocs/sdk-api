@@ -7,7 +7,7 @@ old-location: automat\vari1fromcy.htm
 old-project: automat
 ms.assetid: 9ceaabd0-8d36-4706-92a1-73a675b2ae34
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarI1FromCy, VarI1FromCy function [Automation], _oa96_VarI1FromCy, automat.vari1fromcy, oleauto/VarI1FromCy
 ms.prod: windows
 ms.technology: windows-sdk

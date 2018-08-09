@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetclientinfov4.htm
 old-project: dhcp
 ms.assetid: 3f8b9cbb-f903-4a97-8a38-caf2210b6d48
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpGetClientInfoV4, DhcpGetClientInfoV4 function [DHCP], dhcp.dhcpgetclientinfov4, dhcpsapi/DhcpGetClientInfoV4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,8 +123,7 @@ An error occurred while accessing the DHCP server's database.
 
 
 
-<a href="https://msdn.microsoft.com/ac058d7a-7257-4e40-8fc0-bc4ca107671b">
-		  DHCP_CLIENT_INFO_V4</a>
+<a href="https://msdn.microsoft.com/ac058d7a-7257-4e40-8fc0-bc4ca107671b">DHCP_CLIENT_INFO_V4</a>
 
 
 

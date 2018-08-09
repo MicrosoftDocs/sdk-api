@@ -7,7 +7,7 @@ old-location: mf\dxva2createdirect3ddevicemanager9.htm
 old-project: medfound
 ms.assetid: b06e9c68-80ee-4997-bcf7-f05879aa5776
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: DXVA2CreateDirect3DDeviceManager9, DXVA2CreateDirect3DDeviceManager9 function [Media Foundation], b06e9c68-80ee-4997-bcf7-f05879aa5776, dxva2api/DXVA2CreateDirect3DDeviceManager9, mf.dxva2createdirect3ddevicemanager9
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          Creates an instance of the <a href="https://msdn.microsoft.com/d82fd82d-510e-4004-b18b-8f2372e29701">Direct3D Device Manager</a>.
+Creates an instance of the <a href="https://msdn.microsoft.com/d82fd82d-510e-4004-b18b-8f2372e29701">Direct3D Device Manager</a>.
         
 
 
@@ -63,22 +62,13 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param pResetToken [out]
 
-
-            Receives a token that identifies this instance of the Direct3D device manager. Use this token when calling <a href="https://msdn.microsoft.com/01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33">IDirect3DDeviceManager9::ResetDevice</a>.
+Receives a token that identifies this instance of the Direct3D device manager. Use this token when calling <a href="https://msdn.microsoft.com/01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33">IDirect3DDeviceManager9::ResetDevice</a>.
           
 
 
-### -param ppDeviceManager
+### -param ppDeviceManager [out]
 
-TBD
-
-
-
-
-#### - ppDXVAManager [out]
-
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/e661e666-dc51-4a71-9ecd-62a667bb217d">IDirect3DDeviceManager9</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/e661e666-dc51-4a71-9ecd-62a667bb217d">IDirect3DDeviceManager9</a> interface. The caller must release the interface.
           
 
 

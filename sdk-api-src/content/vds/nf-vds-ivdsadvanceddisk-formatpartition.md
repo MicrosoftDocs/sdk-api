@@ -4,10 +4,10 @@ title: IVdsAdvancedDisk::FormatPartition
 author: windows-sdk-content
 description: Formats an existing OEM, ESP, or unknown partition.
 old-location: base\ivdsadvanceddisk_formatpartition.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 9b7015c2-a85d-4a56-8aec-208933640185
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: FormatPartition, FormatPartition method [VDS], FormatPartition method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],FormatPartition method, IVdsAdvancedDisk.FormatPartition, IVdsAdvancedDisk::FormatPartition, base.ivdsadvanceddisk_formatpartition, vds/IVdsAdvancedDisk::FormatPartition
 ms.prod: windows
 ms.technology: windows-sdk

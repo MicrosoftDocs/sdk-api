@@ -7,7 +7,7 @@ old-location: mf\mfp_mf_event.htm
 old-project: medfound
 ms.assetid: 61dec86d-919c-4b1b-ab2a-527d062ae0f8
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFP_MF_EVENT, MFP_MF_EVENT structure [Media Foundation], mf.mfp_mf_event, mfplay/MFP_MF_EVENT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -139,8 +139,7 @@ Pointer to the <a href="https://msdn.microsoft.com/2839d256-bdaf-40cf-9f9d-46f9e
 
 
 
-
-        To get a pointer to this structure, cast the <i>pEventHeader</i> parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a> method. You can use the <a href="https://msdn.microsoft.com/478cc749-1073-4fca-bfc6-3e5d5b0deec4">MFP_GET_MF_EVENT</a> macro for this purpose.
+To get a pointer to this structure, cast the <i>pEventHeader</i> parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a> method. You can use the <a href="https://msdn.microsoft.com/478cc749-1073-4fca-bfc6-3e5d5b0deec4">MFP_GET_MF_EVENT</a> macro for this purpose.
 
 If <b>MFEventType</b> is <a href="https://msdn.microsoft.com/9eeb4262-1593-4c5f-9341-ebd328b586e7">MEStreamSinkFormatChanged</a>, the following property may be stored in the event property store, which can be accessed through the <b>header.pPropertyStore</b> member.
 

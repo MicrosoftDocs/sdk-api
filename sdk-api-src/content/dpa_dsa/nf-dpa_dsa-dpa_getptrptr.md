@@ -7,7 +7,7 @@ old-location: controls\DPA_GetPtrPtr.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_getptrptr.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DPA_GetPtrPtr, DPA_GetPtrPtr macro [Windows Controls], _shell_DPA_GetPtrPtr, _shell_DPA_GetPtrPtr_cpp, controls.DPA_GetPtrPtr, controls._shell_DPA_GetPtrPtr, dpa_dsa/DPA_GetPtrPtr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,8 +67,7 @@ A handle to an existing DPA.
 
 
 
-Applications can use the return value to manipulate the contents of the DPA directly instead of using functions such as <a href="https://msdn.microsoft.com/library/Bb775635(v=VS.85).aspx">DPA_SetPtr</a>. The return value is invalidated by any operation that changes the number of elements in the DPA or destroys the DPA. 
-For example, after calling function <a href="https://msdn.microsoft.com/library/Bb775625(v=VS.85).aspx">DPA_InsertPtr</a> on a DPA, any internal pointers retrieved by calling the macro <b>DPA_GetPtrPtr</b> on the same DPA are no longer valid.
+Applications can use the return value to manipulate the contents of the DPA directly instead of using functions such as <a href="https://msdn.microsoft.com/en-us/library/Bb775635(v=VS.85).aspx">DPA_SetPtr</a>. The return value is invalidated by any operation that changes the number of elements in the DPA or destroys the DPA. For example, after calling function <a href="https://msdn.microsoft.com/en-us/library/Bb775625(v=VS.85).aspx">DPA_InsertPtr</a> on a DPA, any internal pointers retrieved by calling the macro <b>DPA_GetPtrPtr</b> on the same DPA are no longer valid.
 
 
 

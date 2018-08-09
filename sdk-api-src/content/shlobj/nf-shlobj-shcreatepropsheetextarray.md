@@ -7,7 +7,7 @@ old-location: shell\SHCreatePropSheetExtArray.htm
 old-project: shell
 ms.assetid: 88a72529-325d-431e-bc26-bddca787e62b
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHCreatePropSheetExtArray, SHCreatePropSheetExtArray function [Windows Shell], _win32_SHCreatePropSheetExtArray, shell.SHCreatePropSheetExtArray, shlobj/SHCreatePropSheetExtArray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,31 +61,14 @@ Loads all the Shell <a href="https://msdn.microsoft.com/72233ab5-212d-498c-8df1-
 
 
 
-### -param hKey
-
-TBD
-
-
-### -param pszSubKey
-
-TBD
-
-
-### -param max_iface
-
-Type: <b>UINT</b>
-
-The maximum number of property sheet handlers to be returned.
-
-
-#### - hkey [in]
+### -param hKey [in]
 
 Type: <b>HKEY</b>
 
 The registry root key that contains the subkey with the property sheet extension handlers. For instance, <b>HKEY_LOCAL_MACHINE</b>.
 
 
-#### - pszSubkey [in, optional]
+### -param pszSubKey [in, optional]
 
 Type: <b>PCWSTR</b>
 
@@ -104,6 +87,13 @@ For example, if  <i>hkey</i> specifies HKEY_LOCAL_MACHINE and <i>pszSubkey</i> s
                      <b>shellex</b>
                         <b>PropertySheetHandlers</b></pre>
 
+
+
+### -param max_iface
+
+Type: <b>UINT</b>
+
+The maximum number of property sheet handlers to be returned.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: rpc\cstdstubbuffer_debugserverrelease.htm
 old-project: rpc
 ms.assetid: 3bdf74bf-2aed-4527-8c60-02537465354b
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: CStdStubBuffer_DebugServerRelease, CStdStubBuffer_DebugServerRelease function [RPC], rpc.cstdstubbuffer_debugserverrelease, rpcproxy/CStdStubBuffer_DebugServerRelease
 ms.prod: windows
 ms.technology: windows-sdk

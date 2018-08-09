@@ -7,7 +7,7 @@ old-location: wmi\wbemtimespan_comparison_operators_notequal.htm
 old-project: WmiSdk
 ms.assetid: 440112c5-11d8-4fa9-b282-8cfcd5a33140
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator!= method, WBEMTimeSpan.operator!=, WBEMTimeSpan::operator!=, operator!=, operator!= method [Windows Management Instrumentation], operator!= method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator!=, wmi.wbemtimespan_comparison_operators_notequal
 ms.prod: windows
 ms.technology: windows-sdk

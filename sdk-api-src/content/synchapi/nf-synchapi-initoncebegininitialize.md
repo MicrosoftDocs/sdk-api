@@ -4,10 +4,10 @@ title: InitOnceBeginInitialize function
 author: windows-sdk-content
 description: Begins one-time initialization.
 old-location: base\initoncebegininitialize.htm
-old-project: Sync
+old-project: sync
 ms.assetid: f342e85c-ac81-4470-89ce-a9d0fc5e8f89
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: INIT_ONCE_ASYNC, INIT_ONCE_CHECK_ONLY, InitOnceBeginInitialize, InitOnceBeginInitialize function, base.initoncebegininitialize, synchapi/InitOnceBeginInitialize, winbase/InitOnceBeginInitialize
 ms.prod: windows
 ms.technology: windows-sdk

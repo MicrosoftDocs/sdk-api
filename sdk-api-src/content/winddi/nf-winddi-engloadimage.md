@@ -7,7 +7,7 @@ old-location: display\engloadimage.htm
 old-project: display
 ms.assetid: 03b1835a-5c4e-4f38-93b1-e557a2975be7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: EngLoadImage, EngLoadImage function [Display Devices], display.engloadimage, gdifncs_8fb20a2d-c7ae-4d15-af65-219b44289130.xml, winddi/EngLoadImage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,16 +59,7 @@ The <b>EngLoadImage</b> function loads the specified executable image into kerne
 
 
 
-### -param filename
-
-TBD
-
-
-
-
-
-
-#### - pwszDriver [in]
+### -param filename [in]
 
 Pointer to a null-terminated string that names the file containing the executable image to be loaded.
 

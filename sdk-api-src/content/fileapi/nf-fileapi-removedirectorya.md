@@ -7,7 +7,7 @@ old-location: fs\removedirectory.htm
 old-project: fileio
 ms.assetid: d699cdd2-e270-4f17-bdec-6eea25b01578
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/06/2018
 ms.keywords: RemoveDirectory, RemoveDirectory function [Files], RemoveDirectoryA, RemoveDirectoryW, _win32_removedirectory, base.removedirectory, fileapi/RemoveDirectory, fileapi/RemoveDirectoryA, fileapi/RemoveDirectoryW, fs.removedirectory, winbase/RemoveDirectory, winbase/RemoveDirectoryA, winbase/RemoveDirectoryW
 ms.prod: windows
 ms.technology: windows-sdk

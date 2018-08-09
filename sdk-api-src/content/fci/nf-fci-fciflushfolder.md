@@ -7,7 +7,7 @@ old-location: winprog\fciflushfolder.htm
 old-project: devnotes
 ms.assetid: dc9c226e-e309-48c3-9edb-3f0a040c0c18
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FCIFlushFolder, FCIFlushFolder function [Windows API], fci/FCIFlushFolder, winprog.fciflushfolder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,24 +64,12 @@ The <b>FCIFlushFolder</b> function forces the current folder under construction 
 A valid FCI context handle returned by the <a href="https://msdn.microsoft.com/bfcea06d-2f09-405c-955c-0f56149148f2">FCICreate</a> function.
 
 
-### -param pfnfcignc
-
-TBD
-
-
-### -param pfnfcis
-
-TBD
-
-
-
-
-#### - GetNextCab [in]
+### -param pfnfcignc [in]
 
 Pointer to an application-defined callback function to obtain specifications on the next cabinet to create. The function should be declared using the <a href="https://msdn.microsoft.com/d56fb63e-91bf-4991-a954-176211697a2e">FNFCIGETNEXTCABINET</a> macro.
 
 
-#### - pfnProgress [in]
+### -param pfnfcis [in]
 
 Pointer to an application-defined callback function to update the user. The function should be declared using the <a href="https://msdn.microsoft.com/529fd3c8-9783-4dbe-9268-a9137935cf9b">FNFCISTATUS</a> macro.
 

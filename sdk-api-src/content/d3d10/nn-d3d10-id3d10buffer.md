@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10buffer.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10buffer.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 8a6172fe-deac-4b70-fb31-07255d702e32, ID3D10Buffer, ID3D10Buffer interface [Direct3D 10], ID3D10Buffer interface [Direct3D 10],described, d3d10/ID3D10Buffer, direct3d10.id3d10buffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,12 +51,12 @@ req.irql:
 ## -description
 
 
-A buffer interface accesses a <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">buffer resource</a>, which is unstructured memory. Buffers typically store vertex or index data.
+A buffer interface accesses a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">buffer resource</a>, which is unstructured memory. Buffers typically store vertex or index data.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Buffer</b> interface inherits from <a href="https://msdn.microsoft.com/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>. <b>ID3D10Buffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Buffer</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>. <b>ID3D10Buffer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID3D10Buffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173511(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173511(v=VS.85).aspx">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get the properties of a buffer resource.
@@ -80,7 +80,7 @@ Get the properties of a buffer resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173512(v=VS.85).aspx">Map</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173512(v=VS.85).aspx">Map</a>
 </td>
 <td align="left" width="63%">
 Get a pointer to the data contained in the resource and deny GPU access to the resource.
@@ -89,10 +89,10 @@ Get a pointer to the data contained in the resource and deny GPU access to the r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173513(v=VS.85).aspx">Unmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173513(v=VS.85).aspx">Unmap</a>
 </td>
 <td align="left" width="63%">
-Invalidate the pointer to the resource retrieved by <a href="https://msdn.microsoft.com/library/Bb173512(v=VS.85).aspx">ID3D10Buffer::Map</a> and reenable GPU access to the resource.
+Invalidate the pointer to the resource retrieved by <a href="https://msdn.microsoft.com/en-us/library/Bb173512(v=VS.85).aspx">ID3D10Buffer::Map</a> and reenable GPU access to the resource.
 
 </td>
 </tr>
@@ -103,11 +103,11 @@ Invalidate the pointer to the resource retrieved by <a href="https://msdn.micros
 
 
 
-Three types of buffers can be created; <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">vertex</a>, index, and shader-constant buffers. To create a buffer resource, call <a href="https://msdn.microsoft.com/library/Bb173544(v=VS.85).aspx">ID3D10Device::CreateBuffer</a>.
+Three types of buffers can be created; <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">vertex</a>, index, and shader-constant buffers. To create a buffer resource, call <a href="https://msdn.microsoft.com/en-us/library/Bb173544(v=VS.85).aspx">ID3D10Device::CreateBuffer</a>.
 
-A buffer must be bound to the pipeline before it can be accessed. Buffers can be bound to the <a href="https://msdn.microsoft.com/library/Bb205116(v=VS.85).aspx">input-assembler</a> stage by calls to <a href="https://msdn.microsoft.com/library/Bb173591(v=VS.85).aspx">ID3D10Device::IASetVertexBuffers</a> and <a href="https://msdn.microsoft.com/library/Bb173588(v=VS.85).aspx">ID3D10Device::IASetIndexBuffer</a>, and to the <a href="https://msdn.microsoft.com/library/Bb205121(v=VS.85).aspx">stream-output</a> stage by a call to <a href="https://msdn.microsoft.com/library/Bb173620(v=VS.85).aspx">ID3D10Device::SOSetTargets</a>.
+A buffer must be bound to the pipeline before it can be accessed. Buffers can be bound to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler</a> stage by calls to <a href="https://msdn.microsoft.com/en-us/library/Bb173591(v=VS.85).aspx">ID3D10Device::IASetVertexBuffers</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb173588(v=VS.85).aspx">ID3D10Device::IASetIndexBuffer</a>, and to the <a href="https://msdn.microsoft.com/en-us/library/Bb205121(v=VS.85).aspx">stream-output</a> stage by a call to <a href="https://msdn.microsoft.com/en-us/library/Bb173620(v=VS.85).aspx">ID3D10Device::SOSetTargets</a>.
 
-Buffers can be bound to multiple pipeline stages simultaneously for reading. A buffer can also be bound to a single pipeline stage for writing; however, the same buffer cannot be bound for reading and writing simultaneously. For more information, see <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">binding resources</a>.
+Buffers can be bound to multiple pipeline stages simultaneously for reading. A buffer can also be bound to a single pipeline stage for writing; however, the same buffer cannot be bound for reading and writing simultaneously. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">binding resources</a>.
 
 
 
@@ -117,11 +117,11 @@ Buffers can be bound to multiple pipeline stages simultaneously for reading. A b
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205276(v=VS.85).aspx">Resource Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205276(v=VS.85).aspx">Resource Interfaces</a>
  
 
  

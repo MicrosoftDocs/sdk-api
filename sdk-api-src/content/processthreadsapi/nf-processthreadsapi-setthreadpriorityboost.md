@@ -7,7 +7,7 @@ old-location: base\setthreadpriorityboost.htm
 old-project: procthread
 ms.assetid: 5cc16bfe-6792-40e8-91ef-6f54a38e6e33
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: SetThreadPriorityBoost, SetThreadPriorityBoost function, _win32_setthreadpriorityboost, base.setthreadpriorityboost, processthreadsapi/SetThreadPriorityBoost, winbase/SetThreadPriorityBoost
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,14 +74,7 @@ A handle to the thread whose priority is to be boosted. The handle must have the
 <b>Windows Server 2003 and Windows XP:  </b>The handle must have the <b>THREAD_SET_INFORMATION</b> access right.
 
 
-### -param bDisablePriorityBoost
-
-TBD
-
-
-
-
-#### - DisablePriorityBoost [in]
+### -param bDisablePriorityBoost [in]
 
 If this parameter is <b>TRUE</b>, dynamic boosting is disabled. If the parameter is <b>FALSE</b>, dynamic boosting is enabled.
 

@@ -4,10 +4,10 @@ title: IWindowsMediaLibrarySharingServices
 author: windows-sdk-content
 description: The IWindowsMediaLibrarySharingServices interface defines methods that configure the sharing of media libraries among users on the local computer, users on the home network, and users on the Internet.
 old-location: wmlss\IWindowsMediaLibrarySharingServicesInterface.htm
-old-project: WMLSS
+old-project: wmlss
 ms.assetid: bbec5687-3c77-4385-a9be-74c6d84db962
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],described, wmlss.IWindowsMediaLibrarySharingServicesInterface, wmlss/IWindowsMediaLibrarySharingServices
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mmc\iresultownerdata_cachehint.htm
 old-project: MMC
 ms.assetid: 8d63e5d7-f342-409a-abea-0305129ba060
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: CacheHint, CacheHint method [MMC], CacheHint method [MMC],IResultOwnerData interface, IResultOwnerData interface [MMC],CacheHint method, IResultOwnerData.CacheHint, IResultOwnerData::CacheHint, _slate_iresultownerdata_cachehint, mmc.iresultownerdata_cachehint, mmc/IResultOwnerData::CacheHint
 ms.prod: windows
 ms.technology: windows-sdk

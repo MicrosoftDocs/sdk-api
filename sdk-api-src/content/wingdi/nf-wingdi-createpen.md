@@ -7,7 +7,7 @@ old-location: gdi\createpen.htm
 old-project: gdi
 ms.assetid: 882facd2-7e06-48f6-82e4-f20e4d5adc92
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreatePen, CreatePen function [Windows GDI], PS_DASH, PS_DASHDOT, PS_DASHDOTDOT, PS_DOT, PS_INSIDEFRAME, PS_NULL, PS_SOLID, _win32_CreatePen, gdi.createpen, wingdi/CreatePen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,29 +63,7 @@ The <b>CreatePen</b> function creates a logical pen that has the specified style
 
 
 
-### -param iStyle
-
-TBD
-
-
-### -param cWidth
-
-TBD
-
-
-### -param color
-
-TBD
-
-
-
-
-#### - crColor [in]
-
-A color reference for the pen color. To generate a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> structure, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
-
-
-#### - fnPenStyle [in]
+### -param iStyle [in]
 
 The pen style. It can be any one of the following values.
 
@@ -168,11 +146,16 @@ The pen is solid. When this pen is used in any GDI drawing function that takes a
  
 
 
-#### - nWidth [in]
+### -param cWidth [in]
 
 The width of the pen, in logical units. If <i>nWidth</i> is zero, the pen is a single pixel wide, regardless of the current transformation.
 
 <b>CreatePen</b> returns a pen with the specified width bit with the PS_SOLID style if you specify a width greater than one for the following styles: PS_DASH, PS_DOT, PS_DASHDOT, PS_DASHDOTDOT.
+
+
+### -param color [in]
+
+A color reference for the pen color. To generate a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> structure, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
 
 
 ## -returns

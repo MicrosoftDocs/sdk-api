@@ -7,7 +7,7 @@ old-location: mscs\openclusternetworkex.htm
 old-project: mscs
 ms.assetid: e21dcfd6-adb6-40a7-9518-5b49988e2901
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: OpenClusterNetworkEx, OpenClusterNetworkEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NETWORK_EX, PCLUSAPI_OPEN_CLUSTER_NETWORK_EX function [Failover Cluster], clusapi/OpenClusterNetworkEx, clusapi/PCLUSAPI_OPEN_CLUSTER_NETWORK_EX, mscs.openclusternetworkex
 ms.prod: windows
 ms.technology: windows-sdk

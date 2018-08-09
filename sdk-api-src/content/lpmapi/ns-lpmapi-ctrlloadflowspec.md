@@ -7,7 +7,7 @@ old-location: qos\ctrlloadflowspec.htm
 old-project: qos
 ms.assetid: def835ae-f0d2-4cdc-a498-315c4ef1245b
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: CtrlLoadFlowspec, CtrlLoadFlowspec structure [QOS], lpmapi/CtrlLoadFlowspec, qos.ctrlloadflowspec
 ms.prod: windows
 ms.technology: windows-sdk

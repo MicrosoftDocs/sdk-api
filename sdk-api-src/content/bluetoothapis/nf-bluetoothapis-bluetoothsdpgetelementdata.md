@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothsdpgetelementdata.htm
 old-project: bluetooth
 ms.assetid: 65de8f2f-1781-44fa-87a9-21aa461eb8ee
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: BluetoothSdpGetElementData, BluetoothSdpGetElementData function [Bluetooth], bluetooth.bluetoothsdpgetelementdata, bluetoothapis/BluetoothSdpGetElementData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,19 +65,14 @@ The <b>BluetoothSdpGetElementData</b> function retrieves and parses a single ele
 A pointer to a valid SDP stream.
 
 
-### -param cbSdpStreamLength
+### -param cbSdpStreamLength [in]
 
-TBD
+The length, in bytes, of <i>pSdpStream</i>.
 
 
 ### -param pData [out]
 
 A pointer to a buffer to be filled with the data of the SDP element found at the beginning of the <i>pSdpStream</i> SDP stream.
-
-
-#### - cbSpdStreamLength [in]
-
-The length, in bytes, of <i>pSdpStream</i>.
 
 
 ## -returns

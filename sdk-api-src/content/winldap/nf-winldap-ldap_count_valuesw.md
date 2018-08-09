@@ -4,10 +4,10 @@ title: ldap_count_valuesW function
 author: windows-sdk-content
 description: The ldap_count_values function counts the number of values in a list.
 old-location: ldap\ldap_count_values.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: 3b00eeea-a966-4cf1-b945-2f052cae727a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_count_values, ldap.ldap__count__values, ldap.ldap_count_values, ldap_count_values, ldap_count_values function [LDAP], ldap_count_valuesA, ldap_count_valuesW, winldap/ldap_count_values, winldap/ldap_count_valuesA, winldap/ldap_count_valuesW"
 ms.prod: windows
 ms.technology: windows-sdk

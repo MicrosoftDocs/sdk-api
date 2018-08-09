@@ -7,7 +7,7 @@ old-location: mf\mfgetattributeratio.htm
 old-project: medfound
 ms.assetid: 2572c30c-4ae1-42b7-b1f7-6c564d936c60
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 2572c30c-4ae1-42b7-b1f7-6c564d936c60, MFGetAttributeRatio, MFGetAttributeRatio function [Media Foundation], mf.mfgetattributeratio, mfapi/MFGetAttributeRatio
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,19 +72,14 @@ Pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6
 <b>GUID</b> that identifies which value to retrieve. The attribute type must be MF_ATTRIBUTE_UINT64.
 
 
-### -param punNumerator
+### -param punNumerator [out]
 
-TBD
+Receives the numerator of the ratio.
 
 
 ### -param punDenominator [out]
 
 Receives the denominator of the ratio.
-
-
-#### - pnNumerator [out]
-
-Receives the numerator of the ratio.
 
 
 ## -returns

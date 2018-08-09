@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol9_setprocampcontrol.htm
 old-project: DirectShow
 ms.assetid: 6e2949f5-87e5-4748-bb23-be14452c8c82
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetProcAmpControl method, IVMRMixerControl9.SetProcAmpControl, IVMRMixerControl9::SetProcAmpControl, IVMRMixerControl9SetProcAmpControl, SetProcAmpControl, SetProcAmpControl method [DirectShow], SetProcAmpControl method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setprocampcontrol, vmr9/IVMRMixerControl9::SetProcAmpControl
 ms.prod: windows
 ms.technology: windows-sdk

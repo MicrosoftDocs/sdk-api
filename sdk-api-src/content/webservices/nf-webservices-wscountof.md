@@ -7,7 +7,7 @@ old-location: wsw\wscountof.htm
 old-project: wsw
 ms.assetid: 3087fa5e-46fc-4580-999c-f80a2b8555f6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsCountOf, WsCountOf macro [Web Services for Windows], webservices/WsCountOf, wsw.wscountof
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,16 +62,7 @@ Returns the number of elements a specified array.
 
 
 
-### -param arrayValue
-
-TBD
-
-
-
-
-
-
-#### - arrayName [in]
+### -param arrayValue [in]
 
 The array of objects  for which for which to get the count.
         The array type can be either a valid C data type or user defined data type. The array must be static.

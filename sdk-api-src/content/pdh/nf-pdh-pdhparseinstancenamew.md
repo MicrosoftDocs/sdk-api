@@ -4,10 +4,10 @@ title: PdhParseInstanceNameW function
 author: windows-sdk-content
 description: Parses the elements of an instance string.
 old-location: perf\pdhparseinstancename.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 8304ecee-5141-450a-be11-838b9f52413b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhParseInstanceName, PdhParseInstanceName function [Perf], PdhParseInstanceNameA, PdhParseInstanceNameW, _win32_pdhparseinstancename, base.pdhparseinstancename, pdh/PdhParseInstanceName, pdh/PdhParseInstanceNameA, pdh/PdhParseInstanceNameW, perf.pdhparseinstancename
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Parses the elements of an instance string.
+Parses the elements of an instance string.
 		
 
 
@@ -106,8 +105,7 @@ Index value of the instance. If an index entry is not present in the string, the
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

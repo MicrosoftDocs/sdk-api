@@ -7,7 +7,7 @@ old-location: dshow\videoinfoheader.htm
 old-project: DirectShow
 ms.assetid: a175592b-0dc1-4001-b52f-785407965932
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: VIDEOINFOHEADER, VIDEOINFOHEADER structure [DirectShow], VIDEOINFOHEADERStructure, amvideo/VIDEOINFOHEADER, dshow.videoinfoheader, tagVIDEOINFOHEADER
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ The <b>VIDEOINFOHEADER</b> structure describes the bitmap and color information 
 
 ### -field rcSource
 
-
-              A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the source video window. This structure can be a clipping rectangle, to select a portion of the source video stream.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the source video window. This structure can be a clipping rectangle, to select a portion of the source video stream.
 
 
 ### -field rcTarget

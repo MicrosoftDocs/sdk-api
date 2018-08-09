@@ -7,7 +7,7 @@ old-location: shell\LongToUInt.htm
 old-project: shell
 ms.assetid: 8a40e74e-9173-46a9-93ad-62eafb23c4d7
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: LongToUInt, LongToUInt function [Windows Shell], _shell_LongToUInt, intsafe/LongToUInt, shell.LongToUInt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,7 @@ Type: <b>LONG</b>
 The value to be converted.
 
 
-### -param puResult
-
-TBD
-
-
-
-
-#### - piResult [out]
+### -param puResult [out]
 
 Type: <b>UINT*</b>
 

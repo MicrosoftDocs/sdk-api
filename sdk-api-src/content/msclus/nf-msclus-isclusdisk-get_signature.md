@@ -7,7 +7,7 @@ old-location: mscs\clusdisk_signature.htm
 old-project: mscs
 ms.assetid: f8fae469-9259-4191-8af4-a7d408ce6667
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusDisk object [Failover Cluster],Signature property, ClusDisk.Signature, ISClusDisk.get_Signature, ISClusDisk::get_Signature, Signature property [Failover Cluster], Signature property [Failover Cluster],ClusDisk object, _wolf_clusdisk.signature, get_Signature, mscs.clusdisk_signature
 ms.prod: windows
 ms.technology: windows-sdk

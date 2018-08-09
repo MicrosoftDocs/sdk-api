@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationGridItemPattern_CachedContainingGrid.h
 old-project: WinAuto
 ms.assetid: 4f7bb005-0027-489d-855a-40c8dffe4576
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CachedContainingGrid property [Windows Accessibility], CachedContainingGrid property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CachedContainingGrid property, IUIAutomationGridItemPattern.CachedContainingGrid, IUIAutomationGridItemPattern.get_CachedContainingGrid, IUIAutomationGridItemPattern::CachedContainingGrid, IUIAutomationGridItemPattern::get_CachedContainingGrid, get_CachedContainingGrid, uiauto.uiauto_IUIAutomationGridItemPattern_CachedContainingGrid, uiauto_IUIAutomationGridItemPattern_CachedContainingGrid, uiautomationclient/IUIAutomationGridItemPattern::CachedContainingGrid, uiautomationclient/IUIAutomationGridItemPattern::get_CachedContainingGrid, winauto.uiauto_IUIAutomationGridItemPattern_CachedContainingGrid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

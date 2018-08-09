@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectblendvariable_getbackingstore.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectblendvariable_getbackingstore.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetBackingStore, GetBackingStore method [Direct3D 10], GetBackingStore method [Direct3D 10],ID3D10EffectBlendVariable interface, ID3D10EffectBlendVariable interface [Direct3D 10],GetBackingStore method, ID3D10EffectBlendVariable.GetBackingStore, ID3D10EffectBlendVariable::GetBackingStore, a3cd275e-7fbc-0df7-7bd7-389e7e3c4888, d3d10effect/ID3D10EffectBlendVariable::GetBackingStore, direct3d10.id3d10effectblendvariable_getbackingstore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,18 +67,18 @@ Index into an array of blend-state descriptions. If there is only one blend-stat
 
 ### -param pBlendDesc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb204893(v=VS.85).aspx">D3D10_BLEND_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb204893(v=VS.85).aspx">D3D10_BLEND_DESC</a>*</b>
 
-A pointer to a blend-state description (see <a href="https://msdn.microsoft.com/library/Bb204893(v=VS.85).aspx">D3D10_BLEND_DESC</a>).
+A pointer to a blend-state description (see <a href="https://msdn.microsoft.com/en-us/library/Bb204893(v=VS.85).aspx">D3D10_BLEND_DESC</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -97,7 +97,7 @@ Effect variables are saved in memory in the backing store; when a technique is a
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173631(v=VS.85).aspx">ID3D10EffectBlendVariable Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173631(v=VS.85).aspx">ID3D10EffectBlendVariable Interface</a>
  
 
  

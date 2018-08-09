@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchorsink_onselectionchange.htm
 old-project: TSF
 ms.assetid: e33932b0-f5ce-4325-809d-ec06cb4a49a6
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnSelectionChange method, ITextStoreAnchorSink.OnSelectionChange, ITextStoreAnchorSink::OnSelectionChange, OnSelectionChange, OnSelectionChange method [Text Services Framework], OnSelectionChange method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onselectionchange_ref, textstor/ITextStoreAnchorSink::OnSelectionChange, tsf.itextstoreanchorsink_onselectionchange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,8 +122,7 @@ Applications should expect reentrant client calls to <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/62730a6d-4dc8-4207-9818-ab95e6537854">
-        ITextStoreAnchor
+<a href="https://msdn.microsoft.com/62730a6d-4dc8-4207-9818-ab95e6537854">ITextStoreAnchor
       </a>
 
 
@@ -133,8 +132,7 @@ Applications should expect reentrant client calls to <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/ce301fa4-d1dd-4470-b8b5-fc944afdc621">
-        ITextStoreAnchor::SetSelection
+<a href="https://msdn.microsoft.com/ce301fa4-d1dd-4470-b8b5-fc944afdc621">ITextStoreAnchor::SetSelection
       </a>
 
 

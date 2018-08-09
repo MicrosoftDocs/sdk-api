@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromStrRet.htm
 old-project: properties
 ms.assetid: 5c02e2ee-14c2-4966-83e7-16dfbf81b879
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: InitPropVariantFromStrRet, InitPropVariantFromStrRet function [Windows Properties], properties.InitPropVariantFromStrRet, propvarutil/InitPropVariantFromStrRet, shell.InitPropVariantFromStrRet, shell_InitPropVariantFromStrRet
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,7 +102,7 @@ Creates a VT_LPWSTR propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762308(v=VS.85).aspx">InitPropVariantFromStrRet</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromStrRet">InitPropVariantFromStrRet</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -135,19 +135,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762305(v=VS.85).aspx">InitPropVariantFromString</a>
+<a href="shell.InitPropVariantFromString">InitPropVariantFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762337(v=VS.85).aspx">InitVariantFromStrRet</a>
+<a href="shell.InitVariantFromStrRet">InitVariantFromStrRet</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776559(v=VS.85).aspx">PropVariantToString</a>
+<a href="shell.PropVariantToString">PropVariantToString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776563(v=VS.85).aspx">PropVariantToStringWithDefault</a>
+<a href="shell.PropVariantToStringWithDefault">PropVariantToStringWithDefault</a>
  
 
  

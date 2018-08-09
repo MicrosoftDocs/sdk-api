@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensordatareport_getsensorvalue.htm
 old-project: SensorsAPI
 ms.assetid: cd4aab72-558c-4f56-a9c1-b10213823c28
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: GetSensorValue, GetSensorValue method, GetSensorValue method,ISensorDataReport interface, ISensorDataReport interface,GetSensorValue method, ISensorDataReport.GetSensorValue, ISensorDataReport::GetSensorValue, sensorsapi/ISensorDataReport::GetSensorValue, winsensors_com_ref.isensordatareport_getsensorvalue
 ms.prod: windows
 ms.technology: windows-sdk

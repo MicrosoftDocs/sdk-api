@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_SetMinTabWidth.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setmintabwidth.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TabCtrl_SetMinTabWidth, TabCtrl_SetMinTabWidth macro [Windows Controls], _win32_TabCtrl_SetMinTabWidth, _win32_TabCtrl_SetMinTabWidth_cpp, commctrl/TabCtrl_SetMinTabWidth, controls.TabCtrl_SetMinTabWidth, controls._win32_TabCtrl_SetMinTabWidth
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the minimum width of items in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760637(v=VS.85).aspx">TCM_SETMINTABWIDTH</a> message explicitly. 
+Sets the minimum width of items in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760637(v=VS.85).aspx">TCM_SETMINTABWIDTH</a> message explicitly. 
 
 
 ## -parameters
@@ -60,28 +60,14 @@ Sets the minimum width of items in a tab control. You can use this macro or send
 
 ### -param hwnd
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to the tab control. 
 
 
 ### -param x
 
-TBD
-
-
-
-
-
-
-#### - cx
-
 Type: <b>int</b>
 
 Minimum width to be set for a tab control item. If this parameter is set to -1, the control will use the default tab width. 
-
-
-#### - hwndTab
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to the tab control. 
 

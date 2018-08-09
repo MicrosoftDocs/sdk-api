@@ -7,7 +7,7 @@ old-location: automat\varr8pow.htm
 old-project: automat
 ms.assetid: 45ad59e7-f829-43f0-85f8-9cabb2a36ddf
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarR8Pow, VarR8Pow function [Automation], _oa96_VarR8Pow, automat.varr8pow, oleauto/VarR8Pow
 ms.prod: windows
 ms.technology: windows-sdk

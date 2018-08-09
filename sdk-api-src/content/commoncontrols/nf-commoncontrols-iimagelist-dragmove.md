@@ -7,7 +7,7 @@ old-location: controls\IImageList_DragMove.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\dragmove.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DragMove, DragMove method [Windows Controls], DragMove method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],DragMove method, IImageList.DragMove, IImageList::DragMove, comctl_IImageList_DragMove, comctl_IImageList_DragMove_cpp, commoncontrols/IImageList::DragMove, controls.IImageList_DragMove, controls.comctl_IImageList_DragMove
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Moves the image that is being dragged during a drag-and-drop operation. This function is typically called in response to a <a href="https://msdn.microsoft.com/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> message.
+Moves the image that is being dragged during a drag-and-drop operation. This function is typically called in response to a <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> message.
 		
 
 
@@ -90,11 +90,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-		To begin a drag operation, use the <a href="https://msdn.microsoft.com/library/Bb761440(v=VS.85).aspx">IImageList::BeginDrag</a> method. 
+To begin a drag operation, use the <a href="https://msdn.microsoft.com/en-us/library/Bb761440(v=VS.85).aspx">IImageList::BeginDrag</a> method. 
 		
 
-To use <b>IImageList::DragMove</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>IImageList::DragMove</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

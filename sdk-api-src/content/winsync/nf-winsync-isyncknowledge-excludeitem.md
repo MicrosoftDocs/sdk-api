@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge_excludeitem.htm
 old-project: winsync
 ms.assetid: db3cd239-dbc2-4da7-ba3d-3adc9ad1c6f3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: ExcludeItem, ExcludeItem method [Windows Sync], ExcludeItem method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ExcludeItem method, ISyncKnowledge.ExcludeItem, ISyncKnowledge::ExcludeItem, winsync.isyncknowledge_excludeitem, winsync/ISyncKnowledge::ExcludeItem
 ms.prod: windows
 ms.technology: windows-sdk

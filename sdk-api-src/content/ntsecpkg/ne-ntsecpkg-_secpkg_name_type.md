@@ -7,7 +7,7 @@ old-location: security\secpkg_name_type.htm
 old-project: secauthn
 ms.assetid: 6a534bfa-83ec-408d-ad21-e230a7adc61e
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: SECPKG_NAME_TYPE, SECPKG_NAME_TYPE enumeration [Security], SecNameAlternateId, SecNameDN, SecNameFlat, SecNameSamCompatible, _SECPKG_NAME_TYPE, _ssp_secpkg_name_type, ntsecpkg/SECPKG_NAME_TYPE, ntsecpkg/SecNameAlternateId, ntsecpkg/SecNameDN, ntsecpkg/SecNameFlat, ntsecpkg/SecNameSamCompatible, security.secpkg_name_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The <b>SECPKG_NAME_TYPE</b> enumeration is used to describe the type of name specified for an account.
+The <b>SECPKG_NAME_TYPE</b> enumeration is used to describe the type of name specified for an account.
 
 The <b>SECPKG_NAME_TYPE</b> enumeration is used by the 
 <a href="https://msdn.microsoft.com/1cc02c6b-2628-441d-97ae-ed83a4f6bfd0">GetAuthDataForUser</a> and 

@@ -7,7 +7,7 @@ old-location: multimedia\iavieditstream_paste.htm
 old-project: Multimedia
 ms.assetid: bdb6de96-6a1e-49ca-a824-ed6d7b43fd13
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IAVIEditStream interface [Windows Multimedia],Paste method, IAVIEditStream.Paste, IAVIEditStream::Paste, Paste, Paste method [Windows Multimedia], Paste method [Windows Multimedia],IAVIEditStream interface, _win32_IAVIEditStream_Paste, multimedia.iavieditstream_paste, vfw/IAVIEditStream::Paste
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,14 +90,14 @@ Starting position of the copy operation within the source stream.
 
 
 
-#### - lLength
-
-Length, in frames, of the copy operation within the source stream.
-
-
 #### - pavi
 
 Pointer to the interface to the stream to receive the pasted data.
+
+
+#### - lLength
+
+Length, in frames, of the copy operation within the source stream.
 
 
 ## -returns

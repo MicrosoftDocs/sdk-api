@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10stateblock.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10stateblock.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 23872e09-b63b-11d0-bb95-f57009f0fab6, ID3D10StateBlock, ID3D10StateBlock interface [Direct3D 10], ID3D10StateBlock interface [Direct3D 10],described, d3d10effect/ID3D10StateBlock, direct3d10.id3d10stateblock
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>ID3D10StateBlock</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173857(v=VS.85).aspx">Apply</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173857(v=VS.85).aspx">Apply</a>
 </td>
 <td align="left" width="63%">
 Apply the state block to the current device state.
@@ -80,7 +80,7 @@ Apply the state block to the current device state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173858(v=VS.85).aspx">Capture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173858(v=VS.85).aspx">Capture</a>
 </td>
 <td align="left" width="63%">
 Capture the current value of states that are included in a stateblock.
@@ -98,7 +98,7 @@ Get the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Cc627127(v=VS.85).aspx">ReleaseAllDeviceObjects</a>
+<a href="https://msdn.microsoft.com/en-us/library/Cc627127(v=VS.85).aspx">ReleaseAllDeviceObjects</a>
 </td>
 <td align="left" width="63%">
 Release all references to device objects.
@@ -112,7 +112,7 @@ Release all references to device objects.
 
 
 
-To create a state-block interface, call <a href="https://msdn.microsoft.com/library/Bb205090(v=VS.85).aspx">D3D10CreateStateBlock</a>.
+To create a state-block interface, call <a href="https://msdn.microsoft.com/en-us/library/Bb205090(v=VS.85).aspx">D3D10CreateStateBlock</a>.
 
 This interface can be used to save and restore pipeline state. It can also be used to capture the current state.
 
@@ -124,7 +124,7 @@ This interface can be used to save and restore pipeline state. It can also be us
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
  
 
  

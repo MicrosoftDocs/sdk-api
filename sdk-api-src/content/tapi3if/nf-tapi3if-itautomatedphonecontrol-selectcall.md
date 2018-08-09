@@ -4,10 +4,10 @@ title: ITAutomatedPhoneControl::SelectCall
 author: windows-sdk-content
 description: The SelectCall method selects the current phone object onto the Call object pointed to by the pCall parameter.
 old-location: tapi3\itautomatedphonecontrol_selectcall.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: b9e721cb-8f62-420d-bfc1-f8e634f0f2d4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],SelectCall method, ITAutomatedPhoneControl.SelectCall, ITAutomatedPhoneControl::SelectCall, SelectCall, SelectCall method [TAPI 2.2], SelectCall method [TAPI 2.2],ITAutomatedPhoneControl interface, _tapi3_itautomatedphonecontrol_selectcall, tapi3.itautomatedphonecontrol_selectcall, tapi3if/ITAutomatedPhoneControl::SelectCall
 ms.prod: windows
 ms.technology: windows-sdk

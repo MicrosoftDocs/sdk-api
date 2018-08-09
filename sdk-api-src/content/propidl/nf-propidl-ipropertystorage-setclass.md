@@ -7,7 +7,7 @@ old-location: stg\ipropertystorage_setclass.htm
 old-project: stg
 ms.assetid: 88c916e5-b7f0-4f4d-b049-df2b0e1c2423
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: IPropertyStorage [Strctd Stg],SetClass, IPropertyStorage interface [Structured Storage],SetClass method, IPropertyStorage.SetClass, IPropertyStorage::SetClass, SetClass, SetClass method [Structured Storage], SetClass method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_setclass, propidl/IPropertyStorage::SetClass, stg.ipropertystorage_setclass
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The <b>SetClass</b> method assigns a new CLSID to the current property storage object, and persistently stores the CLSID with the object.
+The <b>SetClass</b> method assigns a new CLSID to the current property storage object, and persistently stores the CLSID with the object.
 
 
 ## -parameters
@@ -69,8 +68,7 @@ New CLSID to be associated with the property set.
 
 
 
-
-						This method supports the standard return value E_UNEXPECTED, in addition to the following:
+This method supports the standard return value E_UNEXPECTED, in addition to the following:
 
 
 

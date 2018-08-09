@@ -7,7 +7,7 @@ old-location: wmformat\wmcreatewriter.htm
 old-project: wmformat
 ms.assetid: 26d42213-40a1-4e2c-805b-c0803ee015b4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WMCreateWriter, WMCreateWriter function [windows Media Format], wmformat.wmcreatewriter, wmsdkidl/WMCreateWriter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,19 +62,14 @@ The <b>WMCreateWriter</b> function creates a writer object.
 
 
 
-### -param pUnkCert
+### -param pUnkCert [in]
 
-TBD
+Pointer to an <b>IUnknown</b> interface. This value is not used and should be set to <b>NULL</b>.
 
 
 ### -param ppWriter [out]
 
 Pointer to a pointer to the <a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter</a> interface of the newly created writer object.
-
-
-#### - pUnkReserved [in]
-
-Pointer to an <b>IUnknown</b> interface. This value is not used and should be set to <b>NULL</b>.
 
 
 ## -returns

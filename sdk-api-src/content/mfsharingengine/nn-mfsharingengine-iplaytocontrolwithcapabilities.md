@@ -7,7 +7,7 @@ old-location: mf\iplaytocontrolwithcapabilities.htm
 old-project: medfound
 ms.assetid: d670f320-30b5-4712-9192-d0976b65dd65
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IPlayToControlWithCapabilities, IPlayToControlWithCapabilities interface [Media Foundation], IPlayToControlWithCapabilities interface [Media Foundation],described, mf.iplaytocontrolwithcapabilities, mfsharingengine/IPlayToControlWithCapabilities
 ms.prod: windows
 ms.technology: windows-sdk

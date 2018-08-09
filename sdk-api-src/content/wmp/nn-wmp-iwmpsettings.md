@@ -7,7 +7,7 @@ old-location: wmp\iwmpsettings.htm
 old-project: WMP
 ms.assetid: e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], IWMPSettings interface [Windows Media Player],described, IWMPSettingsInterface, wmp.iwmpsettings, wmp/IWMPSettings
 ms.prod: windows
 ms.technology: windows-sdk

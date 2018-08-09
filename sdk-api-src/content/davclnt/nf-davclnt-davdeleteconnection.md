@@ -7,7 +7,7 @@ old-location: webdav\davdeleteconnection.htm
 old-project: webdav
 ms.assetid: 736b8a16-30db-410e-8295-97730297d04b
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 08/06/2018
 ms.keywords: DavDeleteConnection, DavDeleteConnection function [WebDAV], davclnt/DavDeleteConnection, webdav.davdeleteconnection
 ms.prod: windows
 ms.technology: windows-sdk

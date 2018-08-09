@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessorcontrol2_enablehardwareeffects.htm
 old-project: medfound
 ms.assetid: 682B1FAA-05D5-40E3-98BD-DDEFB0C5B4AF
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: EnableHardwareEffects, EnableHardwareEffects method [Media Foundation], EnableHardwareEffects method [Media Foundation],IMFVideoProcessorControl2 interface, IMFVideoProcessorControl2 interface [Media Foundation],EnableHardwareEffects method, IMFVideoProcessorControl2.EnableHardwareEffects, IMFVideoProcessorControl2::EnableHardwareEffects, mf.imfvideoprocessorcontrol2_enablehardwareeffects, mfidl/IMFVideoProcessorControl2::EnableHardwareEffects
 ms.prod: windows
 ms.technology: windows-sdk

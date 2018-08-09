@@ -7,7 +7,7 @@ old-location: nps\SDO_isdodictionaryold_createattribute.htm
 old-project: nps
 ms.assetid: 8c5a203b-b60b-4053-b1c4-eca2c30a050e
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: CreateAttribute, CreateAttribute method [Network Policy Server], CreateAttribute method [Network Policy Server],ISdoDictionaryOld interface, ISdoDictionaryOld interface [Network Policy Server],CreateAttribute method, ISdoDictionaryOld.CreateAttribute, ISdoDictionaryOld::CreateAttribute, _sdo_isdodictionaryold_createattribute, nps.SDO_isdodictionaryold_createattribute, sdo.isdodictionaryold_createattribute, sdoias/ISdoDictionaryOld::CreateAttribute
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: ADAM
 
 The 
 <b>CreateAttribute</b> method creates a new attribute object and returns an 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface to it.
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface to it.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Specifies a value from the enumeration type
 ### -param ppAttributeObject [out]
 
 Pointer to a pointer to an 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer for the created attribute object.
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer for the created attribute object.
 
 
 ## -returns

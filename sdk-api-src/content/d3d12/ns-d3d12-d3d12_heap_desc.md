@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_heap_desc.htm
 old-project: direct3d12
 ms.assetid: 3A473476-F37E-4F01-B121-87E998EE9411
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: D3D12_HEAP_DESC, D3D12_HEAP_DESC structure, d3d12/D3D12_HEAP_DESC, direct3d12.d3d12_heap_desc
 ms.prod: windows
 ms.technology: windows-sdk

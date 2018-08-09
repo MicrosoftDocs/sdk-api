@@ -7,7 +7,7 @@ old-location: intl\candidateform.htm
 old-project: Intl
 ms.assetid: 86edcfe0-07f7-4bd7-9444-3a884aeb7926
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPCANDIDATEFORM, *NPCANDIDATEFORM, *PCANDIDATEFORM, CANDIDATEFORM, CANDIDATEFORM structure [Internationalization for Windows Applications], PCANDIDATEFORM, PCANDIDATEFORM structure pointer [Internationalization for Windows Applications], _win32_CANDIDATEFORM_str, imm/CANDIDATEFORM, imm/PCANDIDATEFORM, intl.candidateform, tagCANDIDATEFORM"
 ms.prod: windows
 ms.technology: windows-sdk

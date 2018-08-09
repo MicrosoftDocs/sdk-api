@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothsdpgetattributevalue.htm
 old-project: bluetooth
 ms.assetid: 79368265-3d01-4bfd-ba71-930696e0bc08
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: BluetoothSdpGetAttributeValue, BluetoothSdpGetAttributeValue function [Bluetooth], bluetooth.bluetoothsdpgetattributevalue, bluetoothapis/BluetoothSdpGetAttributeValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,8 +123,7 @@ The identifier provided in <i>usAttributeId</i> was not found in the record.
 
 
 
-The record stream in <i>pRecordStream</i>
-must be an SDP stream formatted as an SDP record, a SEQUENCE
+The record stream in <i>pRecordStream</i>must be an SDP stream formatted as an SDP record, a SEQUENCE
 containing attribute ID (UINT16) plus attribute value (any SDP element type) pairs.
 
 The attribute identifier provided in the <i>usAttributeId</i> parameter can be one of the many SDP_ATTRIB_Xxx universal attribute identifiers provided in the bthdef.h file, or a custom attribute value defined by a Bluetooth profile. All values greater than or equal to 0x200 are profile-specific attribute identifiers, and are specific to the profile. See the bthdef.h header file for a list of universal SDP attribute identifiers.

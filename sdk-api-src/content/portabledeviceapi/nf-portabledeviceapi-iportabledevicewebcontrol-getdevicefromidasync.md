@@ -7,7 +7,7 @@ old-location: wpdauto\iportabledevicewebcontrol_getdevicefromidasync.htm
 old-project: wpdauto
 ms.assetid: a53e4a15-4f51-43e7-84c7-4c75be87e3d9
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 07/30/2018
 ms.keywords: GetDeviceFromIdAsync, GetDeviceFromIdAsync method [WPD Automation], GetDeviceFromIdAsync method [WPD Automation],IPortableDeviceWebControl interface, IPortableDeviceWebControl interface [WPD Automation],GetDeviceFromIdAsync method, IPortableDeviceWebControl.GetDeviceFromIdAsync, IPortableDeviceWebControl::GetDeviceFromIdAsync, portabledeviceapi/IPortableDeviceWebControl::GetDeviceFromIdAsync, wpdauto.iportabledevicewebcontrol_getdevicefromidasync
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Instantiates a WPD Automation <a href="https://msdn.microsoft.com/library/ms630493(v=VS.85).aspx">Device</a> object asynchronously for a given WPD device identifier.
+Instantiates a WPD Automation <a href="wpdauto.device_object_script">Device</a> object asynchronously for a given WPD device identifier.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocnetwork_hasprofile.htm
 old-project: nativewifi
 ms.assetid: 252f32ef-0a54-445f-94ca-113a67a3e6dd
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: HasProfile, HasProfile method [NativeWIFI], HasProfile method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],HasProfile method, IDot11AdHocNetwork.HasProfile, IDot11AdHocNetwork::HasProfile, adhoc/IDot11AdHocNetwork::HasProfile, nwifi.idot11adhocnetwork_hasprofile
 ms.prod: windows
 ms.technology: windows-sdk

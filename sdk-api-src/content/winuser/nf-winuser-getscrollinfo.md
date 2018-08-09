@@ -4,10 +4,10 @@ title: GetScrollInfo function
 author: windows-sdk-content
 description: The GetScrollInfo function retrieves the parameters of a scroll bar, including the minimum and maximum scrolling positions, the page size, and the position of the scroll box (thumb).
 old-location: controls\GetScrollInfo.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\getscrollinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetScrollInfo, GetScrollInfo function [Windows Controls], SB_CTL, SB_HORZ, SB_VERT, SIF_PAGE, SIF_POS, SIF_RANGE, SIF_TRACKPOS, _win32_GetScrollInfo, _win32_GetScrollInfo_cpp, controls.GetScrollInfo, controls._win32_GetScrollInfo, winuser/GetScrollInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,9 +73,50 @@ Handle to a scroll bar control or a window with a standard scroll bar, depending
 					<i>fnBar</i> parameter. 
 
 
-### -param nBar
+### -param nBar [in]
 
-TBD
+Type: <b>int</b>
+
+Specifies the type of scroll bar for which to retrieve parameters. This parameter can be one of the following values. 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="SB_CTL"></a><a id="sb_ctl"></a><dl>
+<dt><b>SB_CTL</b></dt>
+</dl>
+</td>
+<td width="60%">
+Retrieves the parameters for a scroll bar control. The 
+						<i>hwnd</i> parameter must be the handle to the scroll bar control. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SB_HORZ"></a><a id="sb_horz"></a><dl>
+<dt><b>SB_HORZ</b></dt>
+</dl>
+</td>
+<td width="60%">
+Retrieves the parameters for the window's standard horizontal scroll bar. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SB_VERT"></a><a id="sb_vert"></a><dl>
+<dt><b>SB_VERT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Retrieves the parameters for the window's standard vertical scroll bar. 
+
+</td>
+</tr>
+</table>
+ 
 
 
 ### -param lpsi [in, out]
@@ -141,52 +182,6 @@ Copies the scroll range to the
 Copies the current scroll box tracking position to the 
 						<b>nTrackPos</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure pointed to by 
 						<i>lpsi</i>.
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - fnBar [in]
-
-Type: <b>int</b>
-
-Specifies the type of scroll bar for which to retrieve parameters. This parameter can be one of the following values. 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="SB_CTL"></a><a id="sb_ctl"></a><dl>
-<dt><b>SB_CTL</b></dt>
-</dl>
-</td>
-<td width="60%">
-Retrieves the parameters for a scroll bar control. The 
-						<i>hwnd</i> parameter must be the handle to the scroll bar control. 
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SB_HORZ"></a><a id="sb_horz"></a><dl>
-<dt><b>SB_HORZ</b></dt>
-</dl>
-</td>
-<td width="60%">
-Retrieves the parameters for the window's standard horizontal scroll bar. 
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SB_VERT"></a><a id="sb_vert"></a><dl>
-<dt><b>SB_VERT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Retrieves the parameters for the window's standard vertical scroll bar. 
 
 </td>
 </tr>

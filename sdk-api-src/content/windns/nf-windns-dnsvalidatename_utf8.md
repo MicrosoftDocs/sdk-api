@@ -4,10 +4,10 @@ title: DnsValidateName_UTF8 function
 author: windows-sdk-content
 description: The DnsValidateName function validates the status of a specified DNS name.
 old-location: dns\dnsvalidatename.htm
-old-project: DNS
+old-project: dns
 ms.assetid: efdbd217-6936-42c1-a1eb-8655a62513ee
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DnsValidateName, DnsValidateName function [DNS], DnsValidateName_A, DnsValidateName_UTF8, DnsValidateName_W, _dns_dnsvalidatename, dns.dnsvalidatename, windns/DnsValidateName, windns/DnsValidateName_A, windns/DnsValidateName_UTF8, windns/DnsValidateName_W
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,12 +77,24 @@ The
 
 
 
-#### - pszName [in]
+### -param pszName
+
+TBD
+
+
+### -param Format
+
+TBD
+
+
+
+
+#### - p [in]
 
 A pointer to a string that represents the DNS name to be examined.
 
 
-#### - Format [in]
+#### - f [in]
 
 A <a href="https://msdn.microsoft.com/f6f1cff3-4bff-4a07-bbc6-5255030b4164">DNS_NAME_FORMAT</a> value that specifies the format of the name to be examined.
 

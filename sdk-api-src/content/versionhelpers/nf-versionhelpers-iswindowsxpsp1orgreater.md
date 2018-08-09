@@ -7,7 +7,7 @@ old-location: base\iswindowsxpsp1orgreater.htm
 old-project: SysInfo
 ms.assetid: F8921444-B13D-4522-84F2-4792F4F37EA5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: IsWindowsXPSP1OrGreater, IsWindowsXPSP1OrGreater function, base.iswindowsxpsp1orgreater, versionhelpers/IsWindowsXPSP1OrGreater
 ms.prod: windows
 ms.technology: windows-sdk

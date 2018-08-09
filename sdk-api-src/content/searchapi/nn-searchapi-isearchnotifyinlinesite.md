@@ -7,7 +7,7 @@ old-location: search\_search_ISearchNotifyInlineSite.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchnotifyinlinesite\isearchnotifyinlinesite.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchNotifyInlineSite, ISearchNotifyInlineSite interface [search], ISearchNotifyInlineSite interface [search],described, _search_ISearchNotifyInlineSite, search._search_ISearchNotifyInlineSite, searchapi/ISearchNotifyInlineSite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-            Provides methods the Search service uses to send updates on catalog and index status to notification providers.
+Provides methods the Search service uses to send updates on catalog and index status to notification providers.
         
 
 
@@ -73,22 +72,20 @@ The <b>ISearchNotifyInlineSite</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231459(v=VS.85).aspx">OnCatalogStatusChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231459(v=VS.85).aspx">OnCatalogStatusChange</a>
 </td>
 <td align="left" width="63%">
-
-            Called by the search service to notify a client when the status of the catalog changes.
+Called by the search service to notify a client when the status of the catalog changes.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231460(v=VS.85).aspx">OnItemIndexedStatusChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231460(v=VS.85).aspx">OnItemIndexedStatusChange</a>
 </td>
 <td align="left" width="63%">
-
-            Called by the search service to notify the client when the status of a particular document or item changes.
+Called by the search service to notify the client when the status of a particular document or item changes.
         
 
 </td>
@@ -105,11 +102,11 @@ The <b>ISearchNotifyInlineSite</b> interface has these methods.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb266528(v=VS.85).aspx">Notifying the Index of Changes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266528(v=VS.85).aspx">Notifying the Index of Changes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
+<a href="https://msdn.microsoft.com/en-us/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
  
 
  

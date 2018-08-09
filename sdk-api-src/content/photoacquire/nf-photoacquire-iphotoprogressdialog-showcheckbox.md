@@ -7,7 +7,7 @@ old-location: picacq\iphotoprogressdialog_showcheckbox.htm
 old-project: acquisition
 ms.assetid: 6518c073-b4d9-49df-819f-473028ad230a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],ShowCheckbox method, IPhotoProgressDialog.ShowCheckbox, IPhotoProgressDialog::ShowCheckbox, IPhotoProgressDialogShowCheckbox, ShowCheckbox, ShowCheckbox method [Picture Acquisition], ShowCheckbox method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::ShowCheckbox, picacq.iphotoprogressdialog_showcheckbox
 ms.prod: windows
 ms.technology: windows-sdk

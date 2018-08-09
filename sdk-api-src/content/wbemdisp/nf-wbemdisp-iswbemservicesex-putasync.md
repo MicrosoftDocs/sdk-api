@@ -7,7 +7,7 @@ old-location: wmi\swbemservicesex_putasync.htm
 old-project: WmiSdk
 ms.assetid: 27da0c60-6dae-482d-a9bf-1aab016d3ae8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemServicesEx interface [Windows Management Instrumentation],PutAsync method, ISWbemServicesEx.PutAsync, ISWbemServicesEx::PutAsync, PutAsync, PutAsync method [Windows Management Instrumentation], PutAsync method [Windows Management Instrumentation],ISWbemServicesEx interface, PutAsync method [Windows Management Instrumentation],SWbemServicesEx object, SWbemServicesEx object [Windows Management Instrumentation],PutAsync method, SWbemServicesEx.PutAsync, _hmm_swbemservicesex.putasync, wbemChangeFlagCreateOnly, wbemChangeFlagCreateOrUpdate, wbemChangeFlagUpdateCompatible, wbemChangeFlagUpdateForceMode, wbemChangeFlagUpdateOnly, wbemChangeFlagUpdateSafeMode, wbemFlagReturnImmediately, wbemFlagReturnWhenComplete, wbemFlagUseAmendedQualifiers, wmi.swbemservicesex_putasync
 ms.prod: windows
 ms.technology: windows-sdk

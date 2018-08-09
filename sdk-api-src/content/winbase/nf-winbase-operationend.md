@@ -7,7 +7,7 @@ old-location: oprec\operationend.htm
 old-project: oprec
 ms.assetid: 73C6FBDD-BB4A-46A5-8E39-7862A1938F47
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: OperationEnd, OperationEnd function [Operation Recorder], oprec.operationend, winbase/OperationEnd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ Every call to <a href="https://msdn.microsoft.com/3E67057E-D09F-48BA-A95A-5D00F4
 
 
 
-### -param OperationEndParams
-
-TBD
-
-
-
-
-#### - OperationParams [in]
+### -param OperationEndParams [in]
 
 An <a href="https://msdn.microsoft.com/45ABFE6A-7B70-418F-8C3C-6388079D1306">_OPERATION_END_PARAMETERS</a> structure that specifies <b>VERSION</b>, <b>OPERATION_ID</b> and <b>FLAGS</b>.
 

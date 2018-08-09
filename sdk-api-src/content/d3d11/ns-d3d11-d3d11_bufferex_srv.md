@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_bufferex_srv.htm
 old-project: direct3d11
 ms.assetid: 55714c3b-ef21-43c1-94a1-60b63f3fedac
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 6e2b4acb-42c7-1258-4812-425166fea83e, D3D11_BUFFEREX_SRV, D3D11_BUFFEREX_SRV structure [Direct3D 11], d3d11/D3D11_BUFFEREX_SRV, direct3d11.d3d11_bufferex_srv
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ The number of elements in the resource.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A <a href="https://msdn.microsoft.com/11ded487-af4a-4357-b781-bd6b0f3c5a75">D3D11_BUFFEREX_SRV_FLAG</a>-typed value that identifies view options for the buffer. Currently, the only option is to identify a raw view of the buffer. For more info about raw viewing of buffers, see <a href="https://msdn.microsoft.com/library/Ff476900(v=VS.85).aspx">Raw Views of Buffers</a>.
+A <a href="https://msdn.microsoft.com/11ded487-af4a-4357-b781-bd6b0f3c5a75">D3D11_BUFFEREX_SRV_FLAG</a>-typed value that identifies view options for the buffer. Currently, the only option is to identify a raw view of the buffer. For more info about raw viewing of buffers, see <a href="https://msdn.microsoft.com/en-us/library/Ff476900(v=VS.85).aspx">Raw Views of Buffers</a>.
 
 
 ## -remarks

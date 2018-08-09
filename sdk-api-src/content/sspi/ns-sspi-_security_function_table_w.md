@@ -4,10 +4,10 @@ title: "_SECURITY_FUNCTION_TABLE_W"
 author: windows-sdk-content
 description: The SecurityFunctionTable structure is a dispatch table that contains pointers to the functions defined in SSPI.
 old-location: security\securityfunctiontable.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 6315e8d6-b40a-4dd6-b6a6-598a965f93dc
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PSecurityFunctionTableW, PSecurityFunctionTable, PSecurityFunctionTable structure pointer [Security], SECURITY_SUPPORT_PROVIDER_INTERFACE_VERSION, SECURITY_SUPPORT_PROVIDER_INTERFACE_VERSION structure [Security], SecurityFunctionTable, SecurityFunctionTable structure [Security], SecurityFunctionTableA, SecurityFunctionTableW, _SECURITY_FUNCTION_TABLE_W, _ssp_securityfunctiontable, security.securityfunctiontable, sspi/PSecurityFunctionTable, sspi/SECURITY_SUPPORT_PROVIDER_INTERFACE_VERSION, sspi/SecurityFunctionTable, sspi/SecurityFunctionTableA, sspi/SecurityFunctionTableW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,6 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _SECURITY_FUNCTION_TABLE_W structure
@@ -227,24 +228,24 @@ Pointer to the   <a href="https://msdn.microsoft.com/ea271d0c-9167-41c5-8919-096
 
 
 
-#### - AcquireCredentialsHandle
-
-Pointer to the <a href="https://msdn.microsoft.com/acda4cf3-39a6-4bd2-91a0-db1f191b57b5">AcquireCredentialsHandle</a> function.
-
-
-#### - AddCredentials
-
-Pointer to the  <a href="https://msdn.microsoft.com/ea6ddd18-818e-43f5-9453-de2b3f994325">AddCredential</a> function.
-
-
 #### - EnumerateSecurityPackages
 
 Pointer to the <a href="https://msdn.microsoft.com/900790a6-111d-43f5-9316-e85aab03a3bc">EnumerateSecurityPackages</a> function.
 
 
-#### - ImportSecurityContext
+#### - Reserved1
 
-Pointer to the <a href="https://msdn.microsoft.com/0f8e65d0-69cf-42ba-a903-1922d731e5ec">ImportSecurityContext</a> function.
+Reserved for future use.
+
+
+#### - QueryCredentialsAttributes
+
+Pointer to the  <a href="https://msdn.microsoft.com/a8ba6f73-8469-431b-b185-183b45b2c533">QueryCredentialsAttributes</a> function.
+
+
+#### - AcquireCredentialsHandle
+
+Pointer to the <a href="https://msdn.microsoft.com/acda4cf3-39a6-4bd2-91a0-db1f191b57b5">AcquireCredentialsHandle</a> function.
 
 
 #### - InitializeSecurityContext
@@ -257,19 +258,19 @@ Pointer to the  <a href="https://msdn.microsoft.com/21d965d4-3c03-4e29-a70d-4538
 Pointer to the  <a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a> function.
 
 
-#### - QueryCredentialsAttributes
-
-Pointer to the  <a href="https://msdn.microsoft.com/a8ba6f73-8469-431b-b185-183b45b2c533">QueryCredentialsAttributes</a> function.
-
-
 #### - QuerySecurityPackageInfo
 
 Pointer to the   <a href="https://msdn.microsoft.com/130ef0fe-bb13-4a65-b476-cd25ed234da1">QuerySecurityPackageInfo</a> function.
 
 
-#### - Reserved1
+#### - ImportSecurityContext
 
-Reserved for future use.
+Pointer to the <a href="https://msdn.microsoft.com/0f8e65d0-69cf-42ba-a903-1922d731e5ec">ImportSecurityContext</a> function.
+
+
+#### - AddCredentials
+
+Pointer to the  <a href="https://msdn.microsoft.com/ea6ddd18-818e-43f5-9453-de2b3f994325">AddCredential</a> function.
 
 
 #### - SetContextAttributes

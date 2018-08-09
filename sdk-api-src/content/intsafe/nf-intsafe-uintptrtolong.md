@@ -7,7 +7,7 @@ old-location: shell\SizeTToLong.htm
 old-project: shell
 ms.assetid: 1904fefa-eb31-4fda-ad0b-8ad6d2b62210
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SizeTToLong, SizeTToLong function [Windows Shell], UIntPtrToLong, _shell_SizeTToLong, intsafe/SizeTToLong, shell.SizeTToLong
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,11 @@ Converts a value of type <b>size_t</b> to a value of type <b>LONG</b>.
 
 
 
-### -param uOperand
+### -param uOperand [in]
 
-TBD
+Type: <b>size_t</b>
+
+The value to be converted.
 
 
 ### -param plResult [out]
@@ -69,13 +71,6 @@ TBD
 Type: <b>LONG*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
-
-
-#### - cbOperand [in]
-
-Type: <b>size_t</b>
-
-The value to be converted.
 
 
 ## -returns

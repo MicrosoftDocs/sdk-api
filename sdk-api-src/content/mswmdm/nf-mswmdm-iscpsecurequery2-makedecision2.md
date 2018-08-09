@@ -7,7 +7,7 @@ old-location: wmdm\iscpsecurequery2_makedecision2.htm
 old-project: WMDM
 ms.assetid: a3031585-7a56-49d9-ad4b-d2f9e687dd6b
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: ISCPSecureQuery2 interface [windows Media Device Manager],MakeDecision2 method, ISCPSecureQuery2.MakeDecision2, ISCPSecureQuery2::MakeDecision2, ISCPSecureQuery2MakeDecision2, MakeDecision2, MakeDecision2 method [windows Media Device Manager], MakeDecision2 method [windows Media Device Manager],ISCPSecureQuery2 interface, mswmdm/ISCPSecureQuery2::MakeDecision2, wmdm.iscpsecurequery2_makedecision2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Flags describing the data offered to the secure content provider for making deci
 
 <table>
 <tr>
-<th>
-                  Flag
+<th>Flag
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -158,11 +156,9 @@ Pointer to a <b>DWORD</b> containing the revocation bit flag. The flag value wil
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

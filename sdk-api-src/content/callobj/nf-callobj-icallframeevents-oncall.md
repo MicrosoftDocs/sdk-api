@@ -7,7 +7,7 @@ old-location: com\icallframeevents_oncall.htm
 old-project: com
 ms.assetid: bdccc4a7-e408-4186-8cc0-b14feacfbf04
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: ICallFrameEvents interface [COM],OnCall method, ICallFrameEvents.OnCall, ICallFrameEvents::OnCall, OnCall, OnCall method [COM], OnCall method [COM],ICallFrameEvents interface, _com_icallframeevents_oncall, callobj/ICallFrameEvents::OnCall, com.icallframeevents_oncall
 ms.prod: windows
 ms.technology: windows-sdk

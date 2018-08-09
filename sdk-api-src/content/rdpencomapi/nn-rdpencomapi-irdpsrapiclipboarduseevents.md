@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiclipboarduseevents.htm
 old-project: rdp
 ms.assetid: 76ea520c-64c2-4096-ab21-9714b98b5dac
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IRDPSRAPIClipboardUseEvents, IRDPSRAPIClipboardUseEvents interface [RDP], IRDPSRAPIClipboardUseEvents interface [RDP],described, rdp.irdpsrapiclipboarduseevents, rdpencomapi/IRDPSRAPIClipboardUseEvents
 ms.prod: windows
 ms.technology: windows-sdk

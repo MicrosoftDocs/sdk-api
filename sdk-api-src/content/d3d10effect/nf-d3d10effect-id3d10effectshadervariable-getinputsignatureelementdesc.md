@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectshadervariable_getinputsignatureelementdesc
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshadervariable_getinputsignatureelementdesc.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 22632913-ab5d-3124-504e-d04b7e203897, GetInputSignatureElementDesc, GetInputSignatureElementDesc method [Direct3D 10], GetInputSignatureElementDesc method [Direct3D 10],ID3D10EffectShaderVariable interface, ID3D10EffectShaderVariable interface [Direct3D 10],GetInputSignatureElementDesc method, ID3D10EffectShaderVariable.GetInputSignatureElementDesc, ID3D10EffectShaderVariable::GetInputSignatureElementDesc, d3d10effect/ID3D10EffectShaderVariable::GetInputSignatureElementDesc, direct3d10.id3d10effectshadervariable_getinputsignatureelementdesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,18 +74,18 @@ A zero-based shader-element index.
 
 ### -param pDesc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172446(v=VS.85).aspx">D3D10_SIGNATURE_PARAMETER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172446(v=VS.85).aspx">D3D10_SIGNATURE_PARAMETER_DESC</a>*</b>
 
-A pointer to a parameter description (see <a href="https://msdn.microsoft.com/library/Bb172446(v=VS.85).aspx">D3D10_SIGNATURE_PARAMETER_DESC</a>).
+A pointer to a parameter description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172446(v=VS.85).aspx">D3D10_SIGNATURE_PARAMETER_DESC</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -104,11 +104,11 @@ An effect contains one or more shaders; each shader has an input and output sign
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173693(v=VS.85).aspx">ID3D10EffectShaderResourceVariable Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173693(v=VS.85).aspx">ID3D10EffectShaderResourceVariable Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173698(v=VS.85).aspx">ID3D10EffectShaderVariable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173698(v=VS.85).aspx">ID3D10EffectShaderVariable</a>
  
 
  

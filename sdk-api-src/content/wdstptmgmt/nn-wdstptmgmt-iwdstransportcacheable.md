@@ -4,10 +4,10 @@ title: IWdsTransportCacheable
 author: windows-sdk-content
 description: Provides caching for objects that handle persistent data. This interface can be inherited by other interfaces that represent persisted objects.
 old-location: wds\iwdstransportcacheable.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 2245d198-056c-467f-aae7-b1bb02f188e2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWdsTransportCacheable, IWdsTransportCacheable interface [Windows Deployment Services], IWdsTransportCacheable interface [Windows Deployment Services],described, wds.iwdstransportcacheable, wdstptmgmt/IWdsTransportCacheable
 ms.prod: windows
 ms.technology: windows-sdk

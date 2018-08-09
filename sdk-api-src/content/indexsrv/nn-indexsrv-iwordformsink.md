@@ -7,7 +7,7 @@ old-location: search\iwordformsink.htm
 old-project: search
 ms.assetid: 81D52B0C-BADD-48C0-85DB-57CA82D7BBA8
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: IWordFormSink, IWordFormSink interface [search], IWordFormSink interface [search],described, indexsrv/IWordFormSink, search.iwordformsink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,12 +95,12 @@ Puts the original word form in the <b>IWordFormSink</b> object.
 
 
 
-Windows Search creates and initializes instances of the StemSink object. The <b>IWordFormSink</b> object receives the <i>ulMaxTokenSize</i> parameter during initialization. The value for this parameter is determined by the <a href="https://msdn.microsoft.com/library/Bb266437(v=VS.85).aspx">IStemmer</a> implementation and determines the maximum length, in characters, for a single word that the <b>IWordFormSink</b> handles.
+Windows Search creates and initializes instances of the StemSink object. The <b>IWordFormSink</b> object receives the <i>ulMaxTokenSize</i> parameter during initialization. The value for this parameter is determined by the <a href="https://msdn.microsoft.com/en-us/library/Bb266437(v=VS.85).aspx">IStemmer</a> implementation and determines the maximum length, in characters, for a single word that the <b>IWordFormSink</b> handles.
 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb266437(v=VS.85).aspx">IStemmer</a> implementations receive a pointer to the <b>IWordFormSink</b> object in the <a href="https://msdn.microsoft.com/library/Bb266434(v=VS.85).aspx">GenerateWordForms</a> method.
+<a href="https://msdn.microsoft.com/en-us/library/Bb266437(v=VS.85).aspx">IStemmer</a> implementations receive a pointer to the <b>IWordFormSink</b> object in the <a href="https://msdn.microsoft.com/en-us/library/Bb266434(v=VS.85).aspx">GenerateWordForms</a> method.
 
 
 
@@ -112,7 +112,7 @@ Windows Search creates and initializes instances of the StemSink object. The <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb266437(v=VS.85).aspx">IStemmer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266437(v=VS.85).aspx">IStemmer</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: netmgmt\netlocalgroupdelmembers.htm
 old-project: netmgmt
 ms.assetid: 85ae796b-c94a-46a8-9fa8-6c612db38671
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: 0, 3, NetLocalGroupDelMembers, NetLocalGroupDelMembers function [Network Management], _win32_netlocalgroupdelmembers, lmaccess/NetLocalGroupDelMembers, netmgmt.netlocalgroupdelmembers
 ms.prod: windows
 ms.technology: windows-sdk

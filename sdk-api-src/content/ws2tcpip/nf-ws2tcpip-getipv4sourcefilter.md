@@ -4,10 +4,10 @@ title: getipv4sourcefilter function
 author: windows-sdk-content
 description: Retrieves the multicast filter state for an IPv4 socket.
 old-location: winsock\getipv4sourcefilter.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 17D35D24-C419-4787-AB93-E6B1B6B13807
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: getipv4sourcefilter, getipv4sourcefilter function [Winsock], winsock.getipv4sourcefilter, ws2tcpip/getipv4sourcefilter
 ms.prod: windows
 ms.technology: windows-sdk

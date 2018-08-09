@@ -7,7 +7,7 @@ old-location: wer\werunregisteradditionalprocess.htm
 old-project: wer
 ms.assetid: CE840EE8-5EB6-4F0F-935E-5DA9097E950F
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 08/06/2018
 ms.keywords: WerUnregisterAdditionalProcess, WerUnregisterAdditionalProcess function [Windows Error Reporting], wer.werunregisteradditionalprocess, werapi/WerUnregisterAdditionalProcess
 ms.prod: windows
 ms.technology: windows-sdk

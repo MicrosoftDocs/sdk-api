@@ -7,7 +7,7 @@ old-location: wmi\swbemservicesex_put.htm
 old-project: WmiSdk
 ms.assetid: 1a9a718d-875d-4102-9d9d-3d10be162f58
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemServicesEx interface [Windows Management Instrumentation],Put method, ISWbemServicesEx.Put, ISWbemServicesEx::Put, Put, Put method [Windows Management Instrumentation], Put method [Windows Management Instrumentation],ISWbemServicesEx interface, Put method [Windows Management Instrumentation],SWbemServicesEx object, SWbemServicesEx object [Windows Management Instrumentation],Put method, SWbemServicesEx.Put, _hmm_swbemservicesex.put, wbemChangeFlagCreateOnly, wbemChangeFlagCreateOrUpdate, wbemChangeFlagUpdateCompatible, wbemChangeFlagUpdateForceMode, wbemChangeFlagUpdateOnly, wbemChangeFlagUpdateSafeMode, wbemFlagReturnImmediately, wbemFlagReturnWhenComplete, wbemFlagUseAmendedQualifiers, wmi.swbemservicesex_put
 ms.prod: windows
 ms.technology: windows-sdk

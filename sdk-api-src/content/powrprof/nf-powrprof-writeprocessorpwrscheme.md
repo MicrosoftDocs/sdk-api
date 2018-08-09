@@ -7,7 +7,7 @@ old-location: base\writeprocessorpwrscheme.htm
 old-project: power
 ms.assetid: 70e18f50-4774-4a7c-8fe0-7fd6a54aaa90
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: WriteProcessorPwrScheme, WriteProcessorPwrScheme function, _win32_writeprocessorpwrscheme, base.writeprocessorpwrscheme, powrprof/WriteProcessorPwrScheme
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,20 +61,15 @@ Writes processor power policy settings for the specified power scheme.
 
 
 
-### -param uiID
+### -param uiID [in]
 
-TBD
+The index of the power scheme to be written.
 
 
 ### -param pMachineProcessorPowerPolicy [in]
 
 A pointer to a 
 <a href="https://msdn.microsoft.com/54403b81-97bc-4f2b-8721-48c9f69e2773">MACHINE_PROCESSOR_POWER_POLICY</a> structure that contains the power policy settings to be written.
-
-
-#### - ID [in]
-
-The index of the power scheme to be written.
 
 
 ## -returns

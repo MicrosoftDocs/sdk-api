@@ -7,7 +7,7 @@ old-location: multimedia\avistreaminfo.htm
 old-project: Multimedia
 ms.assetid: 7a1ba29b-e8ba-435d-a551-c9184631971c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AVIStreamInfo, AVIStreamInfo function [Windows Multimedia], AVIStreamInfoA, AVIStreamInfoW, _win32_AVIStreamInfo, multimedia.avistreaminfo, vfw/AVIStreamInfo, vfw/AVIStreamInfoA, vfw/AVIStreamInfoW
 ms.prod: windows
 ms.technology: windows-sdk

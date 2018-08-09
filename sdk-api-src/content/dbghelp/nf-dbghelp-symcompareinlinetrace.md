@@ -7,7 +7,7 @@ old-location: base\symcompareinlinetrace.htm
 old-project: debug
 ms.assetid: 24daca16-834c-424a-8569-e448f515d76f
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymCompareInlineTrace, SymCompareInlineTrace function, base.symcompareinlinetrace, dbghelp/SymCompareInlineTrace
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevvirtualdevicecreation.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_48by.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxDevVirtualDeviceCreation, FaxDevVirtualDeviceCreation function [Fax Service], _mfax_faxdevvirtualdevicecreation, fax._mfax_faxdevvirtualdevicecreation, faxdev/FaxDevVirtualDeviceCreation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ The FSP must set the members of the structure as follows.
 </tr>
 <tr>
 <td><b>hDevice</b></td>
-<td>Set to <b>DeviceId</b> from <a href="https://msdn.microsoft.com/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a>
+<td>Set to <b>DeviceId</b> from <a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a>
 </td>
 </tr>
 <tr>
@@ -163,19 +163,19 @@ When an FSP uses physical fax devices, the TAPI and the telephony service provid
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692918(v=VS.85).aspx">Creating a Completion Packet</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692918(v=VS.85).aspx">Creating a Completion Packet</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684546(v=VS.85).aspx">Fax Service Provider Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684546(v=VS.85).aspx">Fax Service Provider Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684545(v=VS.85).aspx">FaxDevInitialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684545(v=VS.85).aspx">FaxDevInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a>
 
 
 
@@ -187,15 +187,15 @@ When an FSP uses physical fax devices, the TAPI and the telephony service provid
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692954(v=VS.85).aspx">Using a Virtual Device to Transmit a Fax</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692954(v=VS.85).aspx">Using a Virtual Device to Transmit a Fax</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693469(v=VS.85).aspx">Virtual Fax Devices</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693469(v=VS.85).aspx">Virtual Fax Devices</a>
  
 
  

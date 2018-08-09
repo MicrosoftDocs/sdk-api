@@ -7,7 +7,7 @@ old-location: xps\ixpssignature_getsignaturexml.htm
 old-project: printdocs
 ms.assetid: 9e76487c-465c-4d15-82d0-ed2a21decc33
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetSignatureXml, GetSignatureXml method [XPS Documents and Packaging], GetSignatureXml method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSignatureXml method, IXpsSignature.GetSignatureXml, IXpsSignature::GetSignatureXml, xps.ixpssignature_getsignaturexml, xpsdigitalsignature/IXpsSignature::GetSignatureXml
 ms.prod: windows
 ms.technology: windows-sdk

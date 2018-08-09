@@ -7,7 +7,7 @@ old-location: proc_snap\pss_thread_information.htm
 old-project: proc_snap
 ms.assetid: 68BC42FD-9A30-462F-AFB1-DF9587C50F45
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: PSS_THREAD_INFORMATION, PSS_THREAD_INFORMATION structure, proc_snap.pss_thread_information, processsnapshot/PSS_THREAD_INFORMATION
 ms.prod: windows
 ms.technology: windows-sdk

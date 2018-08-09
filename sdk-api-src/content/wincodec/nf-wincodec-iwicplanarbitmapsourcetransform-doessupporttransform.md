@@ -7,7 +7,7 @@ old-location: wic\iwicplanarbitmapsourcetransform_doessupporttransform.htm
 old-project: wic
 ms.assetid: CB601454-591B-4292-A8BF-EA9D1F060AB3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DoesSupportTransform, DoesSupportTransform method [Windows Imaging Component], DoesSupportTransform method [Windows Imaging Component],IWICPlanarBitmapSourceTransform interface, IWICPlanarBitmapSourceTransform interface [Windows Imaging Component],DoesSupportTransform method, IWICPlanarBitmapSourceTransform.DoesSupportTransform, IWICPlanarBitmapSourceTransform::DoesSupportTransform, wic.iwicplanarbitmapsourcetransform_doessupporttransform, wincodec/IWICPlanarBitmapSourceTransform::DoesSupportTransform
 ms.prod: windows
 ms.technology: windows-sdk

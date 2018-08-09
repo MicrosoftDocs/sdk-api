@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestcmc_keyarchivalcertificate_propert
 old-project: seccertenroll
 ms.assetid: 93f71fd7-33bb-4352-b184-7270bca1363f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],KeyArchivalCertificate property, IX509CertificateRequestCmc.KeyArchivalCertificate, IX509CertificateRequestCmc.get_KeyArchivalCertificate, IX509CertificateRequestCmc::KeyArchivalCertificate, IX509CertificateRequestCmc::get_KeyArchivalCertificate, IX509CertificateRequestCmc::put_KeyArchivalCertificate, KeyArchivalCertificate property [Security], KeyArchivalCertificate property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::KeyArchivalCertificate, certenroll/IX509CertificateRequestCmc::get_KeyArchivalCertificate, certenroll/IX509CertificateRequestCmc::put_KeyArchivalCertificate, get_KeyArchivalCertificate, security.ix509certificaterequestcmc_keyarchivalcertificate_property
 ms.prod: windows
 ms.technology: windows-sdk

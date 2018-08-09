@@ -7,7 +7,7 @@ old-location: wintouch\imanipulationprocessor_minimumscalerotateradius.htm
 old-project: wintouch
 ms.assetid: b4c49f41-c5ea-4c6a-872b-2d982e588b09
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/06/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],MinimumScaleRotateRadius property, IManipulationProcessor.MinimumScaleRotateRadius, IManipulationProcessor.put_MinimumScaleRotateRadius, IManipulationProcessor::MinimumScaleRotateRadius, IManipulationProcessor::get_MinimumScaleRotateRadius, IManipulationProcessor::put_MinimumScaleRotateRadius, MinimumScaleRotateRadius property [Windows Touch], MinimumScaleRotateRadius property [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::MinimumScaleRotateRadius, manipulations/IManipulationProcessor::get_MinimumScaleRotateRadius, manipulations/IManipulationProcessor::put_MinimumScaleRotateRadius, put_MinimumScaleRotateRadius, wintouch.imanipulationprocessor_minimumscalerotateradius
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-      Specifies how large the distance contacts on a scale or rotate gesture need to be to trigger manipulation.
+Specifies how large the distance contacts on a scale or rotate gesture need to be to trigger manipulation.
     
 
 This property is read/write.
@@ -67,8 +66,7 @@ This property is read/write.
 
 
 
-<div class="alert"><b>Note</b>  
-  This property is set in centipixels (100ths of a pixel).
+<div class="alert"><b>Note</b>  This property is set in centipixels (100ths of a pixel).
   </div>
 <div> </div>
     

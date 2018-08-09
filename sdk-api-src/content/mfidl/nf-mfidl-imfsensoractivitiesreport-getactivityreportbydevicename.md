@@ -7,7 +7,7 @@ old-location: mf\imfsensoractivityreport_getactivityreportbydevicename.htm
 old-project: medfound
 ms.assetid: 66FDBCE0-E3F3-43A4-B34A-7FE6C7F3F918
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetActivityReportByDeviceName, GetActivityReportByDeviceName method [Media Foundation], GetActivityReportByDeviceName method [Media Foundation],IMFSensorActivitiesReport interface, IMFSensorActivitiesReport interface [Media Foundation],GetActivityReportByDeviceName method, IMFSensorActivitiesReport.GetActivityReportByDeviceName, IMFSensorActivitiesReport::GetActivityReportByDeviceName, mf.imfsensoractivityreport_getactivityreportbydevicename, mfidl/IMFSensorActivitiesReport::GetActivityReportByDeviceName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ The symbolic name of the sensor for which the <a href="https://msdn.microsoft.co
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -97,8 +96,7 @@ The symbolic name of the sensor for which the <a href="https://msdn.microsoft.co
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>

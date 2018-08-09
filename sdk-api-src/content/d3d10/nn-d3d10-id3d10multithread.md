@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10multithread.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10multithread.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 03af3cb4-f8ff-e677-80ea-33ee09667866, ID3D10Multithread, ID3D10Multithread interface [Direct3D 10], ID3D10Multithread interface [Direct3D 10],described, d3d10/ID3D10Multithread, direct3d10.id3d10multithread
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-A multithread interface accesses multithread settings and can only be used if the <a href="https://msdn.microsoft.com/library/Bb205068(v=VS.85).aspx">thread-safe layer</a> is turned on. 
+A multithread interface accesses multithread settings and can only be used if the <a href="https://msdn.microsoft.com/en-us/library/Bb205068(v=VS.85).aspx">thread-safe layer</a> is turned on. 
 
 
 ## -inheritance
@@ -71,7 +71,7 @@ The <b>ID3D10Multithread</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173817(v=VS.85).aspx">Enter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173817(v=VS.85).aspx">Enter</a>
 </td>
 <td align="left" width="63%">
 Enter a device's critical section.
@@ -80,7 +80,7 @@ Enter a device's critical section.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173818(v=VS.85).aspx">GetMultithreadProtected</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173818(v=VS.85).aspx">GetMultithreadProtected</a>
 </td>
 <td align="left" width="63%">
 Find out if multithreading is turned on or not.
@@ -89,7 +89,7 @@ Find out if multithreading is turned on or not.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173819(v=VS.85).aspx">Leave</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173819(v=VS.85).aspx">Leave</a>
 </td>
 <td align="left" width="63%">
 Leave a device's critical section.
@@ -98,7 +98,7 @@ Leave a device's critical section.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173820(v=VS.85).aspx">SetMultithreadProtected</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173820(v=VS.85).aspx">SetMultithreadProtected</a>
 </td>
 <td align="left" width="63%">
 Turn multithreading on or off.
@@ -112,7 +112,7 @@ Turn multithreading on or off.
 
 
 
-This interface is obtained by querying it from the <a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a> using <a href="http://msdn.microsoft.com/en-us/library/ms682521(VS.85).aspx">IUnknown::QueryInterface</a>.
+This interface is obtained by querying it from the <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a> using <a href="http://msdn.microsoft.com/en-us/library/ms682521(VS.85).aspx">IUnknown::QueryInterface</a>.
 
 
 
@@ -122,7 +122,7 @@ This interface is obtained by querying it from the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
  
 
  

@@ -4,10 +4,10 @@ title: GetAddrInfoExW function
 author: windows-sdk-content
 description: Provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request.
 old-location: winsock\getaddrinfoex.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetAddrInfoEx, GetAddrInfoEx function [Winsock], GetAddrInfoExA, GetAddrInfoExW, NS_ALL, NS_BTH, NS_DNS, NS_EMAIL, NS_NETBT, NS_NLA, NS_NTDS, NS_PNRPCLOUD, NS_PNRPNAME, NS_WINS, winsock.getaddrinfoex, ws2tcpip/GetAddrInfoEx, ws2tcpip/GetAddrInfoExA, ws2tcpip/GetAddrInfoExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -219,9 +219,14 @@ This namespace identifier is supported on Windows Vista and later.
 A pointer to an optional GUID of a specific namespace provider to query in the case where  multiple namespace providers are registered under a single namespace such as <b>NS_DNS</b>. Passing the GUID for specific namespace provider will result in only the specified namespace provider being queried. The <a href="https://msdn.microsoft.com/f5b6cd42-c5cb-43b6-bb96-fd260217e252">WSAEnumNameSpaceProviders</a> function can be called to retrieve the GUID for a namespace provider.
 
 
-### -param hints
+### -param hints [in, optional]
 
-TBD
+A pointer to an 
+<a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a> structure that provides hints about the type of socket the caller supports. 
+
+The <b>ai_addrlen</b>, <b>ai_canonname</b>, <b>ai_addr</b>, and <b>ai_next</b> members of the <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a> structure pointed to by the <i>pHints</i> parameter must be zero or <b>NULL</b>. Otherwise the <b>GetAddrInfoEx</b> function will fail with <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a>.
+
+See the Remarks for more details.
 
 
 ### -param ppResult [out]
@@ -282,14 +287,7 @@ On Windows 8 and Windows Server 2012 whenever the <b>UNICODE</b> or <b>_UNICOD
 On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is currently reserved and must be set to <b>NULL</b> since asynchronous operations are not supported. 
 
 
-### -param lpHandle
-
-TBD
-
-
-
-
-#### - lpNameHandle [out, optional]
+#### - lpHandle [out, optional]
 
 An optional pointer used only for asynchronous operations.  
 
@@ -300,16 +298,6 @@ On Windows 8 and Windows Server 2012, if the <b>GetAddrInfoEx</b> function wil
 On Windows 8 and Windows Server 2012 whenever the <b>UNICODE</b> or <b>_UNICODE</b> macro is not defined,  this parameter is currently reserved and must be set to <b>NULL</b>. 
 
 On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is currently reserved and must be set to <b>NULL</b> since asynchronous operations are not supported. 
-
-
-#### - pHints [in, optional]
-
-A pointer to an 
-<a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a> structure that provides hints about the type of socket the caller supports. 
-
-The <b>ai_addrlen</b>, <b>ai_canonname</b>, <b>ai_addr</b>, and <b>ai_next</b> members of the <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a> structure pointed to by the <i>pHints</i> parameter must be zero or <b>NULL</b>. Otherwise the <b>GetAddrInfoEx</b> function will fail with <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a>.
-
-See the Remarks for more details.
 
 
 ## -returns

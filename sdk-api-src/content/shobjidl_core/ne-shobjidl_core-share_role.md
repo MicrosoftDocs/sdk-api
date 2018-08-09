@@ -7,7 +7,7 @@ old-location: shell\SHARE_ROLE.htm
 old-project: shell
 ms.assetid: d1c8764d-002e-4fbd-a0a6-1f469f8b1fbb
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHARE_ROLE, SHARE_ROLE enumeration [Windows Shell], SHARE_ROLE_CONTRIBUTOR, SHARE_ROLE_CO_OWNER, SHARE_ROLE_CUSTOM, SHARE_ROLE_INVALID, SHARE_ROLE_MIXED, SHARE_ROLE_OWNER, SHARE_ROLE_READER, _shell_SHARE_ROLE, shell.SHARE_ROLE, shobjidl_core/SHARE_ROLE, shobjidl_core/SHARE_ROLE_CONTRIBUTOR, shobjidl_core/SHARE_ROLE_CO_OWNER, shobjidl_core/SHARE_ROLE_CUSTOM, shobjidl_core/SHARE_ROLE_INVALID, shobjidl_core/SHARE_ROLE_MIXED, shobjidl_core/SHARE_ROLE_OWNER, shobjidl_core/SHARE_ROLE_READER
 ms.prod: windows
 ms.technology: windows-sdk

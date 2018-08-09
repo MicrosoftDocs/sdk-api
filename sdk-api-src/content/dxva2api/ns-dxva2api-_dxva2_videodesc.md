@@ -7,7 +7,7 @@ old-location: mf\dxva2_videodesc.htm
 old-project: medfound
 ms.assetid: 0e500a08-a3b5-475c-8bbc-e4b30cce247d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 0e500a08-a3b5-475c-8bbc-e4b30cce247d, DXVA2_VideoDesc, DXVA2_VideoDesc structure [Media Foundation], _DXVA2_VideoDesc, dxva2api/DXVA2_VideoDesc, mf.dxva2_videodesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          Describes a video stream for a DXVA decoder device or video processor device.
+Describes a video stream for a DXVA decoder device or video processor device.
         
 
 
@@ -63,57 +62,49 @@ req.product: Windows Media Format 9 Series or later
 
 ### -field SampleWidth
 
-
-            Width of the video frame, in pixels.
+Width of the video frame, in pixels.
           
 
 
 ### -field SampleHeight
 
-
-            Height of the video frame, in pixels.
+Height of the video frame, in pixels.
           
 
 
 ### -field SampleFormat
 
-
-            Additional details about the video format, specified as a <a href="https://msdn.microsoft.com/eba2c56b-8951-4dc5-91ae-1371793ce787">DXVA2_ExtendedFormat</a> structure.
+Additional details about the video format, specified as a <a href="https://msdn.microsoft.com/eba2c56b-8951-4dc5-91ae-1371793ce787">DXVA2_ExtendedFormat</a> structure.
           
 
 
 ### -field Format
 
-
-            Surface format, specified as a <b>D3DFORMAT</b> value or FOURCC code. A FOURCC code can be constructed using the <b>D3DFORMAT</b> or <b>MAKEFOURCC</b> macros.
+Surface format, specified as a <b>D3DFORMAT</b> value or FOURCC code. A FOURCC code can be constructed using the <b>D3DFORMAT</b> or <b>MAKEFOURCC</b> macros.
           
 
 
 ### -field InputSampleFreq
 
-
-            Frame rate of the input video stream, specified as a <a href="https://msdn.microsoft.com/03b6bef9-c0ba-4efa-9552-55c8e9fd77ae">DXVA2_Frequency</a> structure.
+Frame rate of the input video stream, specified as a <a href="https://msdn.microsoft.com/03b6bef9-c0ba-4efa-9552-55c8e9fd77ae">DXVA2_Frequency</a> structure.
           
 
 
 ### -field OutputFrameFreq
 
-
-            Frame rate of the output video, specified as a <a href="https://msdn.microsoft.com/03b6bef9-c0ba-4efa-9552-55c8e9fd77ae">DXVA2_Frequency</a> structure.
+Frame rate of the output video, specified as a <a href="https://msdn.microsoft.com/03b6bef9-c0ba-4efa-9552-55c8e9fd77ae">DXVA2_Frequency</a> structure.
           
 
 
 ### -field UABProtectionLevel
 
-
-            Level of data protection required when the user accessible bus (UAB) is present. If <b>TRUE</b>, the video must be protected when a UAB is present. If <b>FALSE</b>, the video is not required to be protected.
+Level of data protection required when the user accessible bus (UAB) is present. If <b>TRUE</b>, the video must be protected when a UAB is present. If <b>FALSE</b>, the video is not required to be protected.
           
 
 
 ### -field Reserved
 
-
-            Reserved. Must be zero.
+Reserved. Must be zero.
           
 
 

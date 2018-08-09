@@ -7,7 +7,7 @@ old-location: bits\ienumbitspeers_next.htm
 old-project: bits
 ms.assetid: b5bc254d-d74e-4076-a22a-93abf9023068
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IEnumBitsPeers interface [BITS],Next method, IEnumBitsPeers.Next, IEnumBitsPeers::Next, Next, Next method [BITS], Next method [BITS],IEnumBitsPeers interface, bits.ienumbitspeers_next, bits3_0/IEnumBitsPeers::Next
 ms.prod: windows
 ms.technology: windows-sdk

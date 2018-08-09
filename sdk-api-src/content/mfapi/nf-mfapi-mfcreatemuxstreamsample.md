@@ -7,7 +7,7 @@ old-location: mf\mfcreatemuxstreamsample.htm
 old-project: medfound
 ms.assetid: D7E7B260-54E0-47F4-9762-ADB06103CDF3
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFCreateMuxStreamSample, MFCreateMuxStreamSample function [Media Foundation], mf.mfcreatemuxstreamsample, mfapi/MFCreateMuxStreamSample
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: rras\mpradminconnectionhangupnotification2.htm
 old-project: rras
 ms.assetid: 3231ae83-c7fc-46d4-a4d9-f7ccf1c4ed18
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminConnectionHangupNotification2, MprAdminConnectionHangupNotification2 callback, MprAdminConnectionHangupNotification2 callback function [RAS], _mpr_mpradminconnectionhangupnotification2, mprapi/MprAdminConnectionHangupNotification2, rras.mpradminconnectionhangupnotification2
 ms.prod: windows
 ms.technology: windows-sdk

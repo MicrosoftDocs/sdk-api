@@ -4,10 +4,10 @@ title: CredUIConfirmCredentialsA function
 author: windows-sdk-content
 description: Is called after CredUIPromptForCredentials or CredUICmdLinePromptForCredentials, to confirm the validity of the credential harvested.
 old-location: security\creduiconfirmcredentials.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 67262844-75f0-4f68-90f6-63f9a6d2b0a1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CredUIConfirmCredentials, CredUIConfirmCredentials function [Security], CredUIConfirmCredentialsA, CredUIConfirmCredentialsW, _cred_creduiconfirmcredentials, security.creduiconfirmcredentials, wincred/CredUIConfirmCredentials, wincred/CredUIConfirmCredentialsA, wincred/CredUIConfirmCredentialsW
 ms.prod: windows
 ms.technology: windows-sdk

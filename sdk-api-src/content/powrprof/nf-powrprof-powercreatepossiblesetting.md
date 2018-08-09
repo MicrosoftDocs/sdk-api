@@ -7,7 +7,7 @@ old-location: base\powercreatepossiblesetting.htm
 old-project: power
 ms.assetid: a7297dbe-8ea5-4097-a0b3-2740f99acbaf
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerCreatePossibleSetting, PowerCreatePossibleSetting function, base.powercreatepossiblesetting, powrprof/PowerCreatePossibleSetting
 ms.prod: windows
 ms.technology: windows-sdk

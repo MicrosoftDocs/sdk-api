@@ -7,7 +7,7 @@ old-location: p2p\peergroupregisterevent.htm
 old-project: p2psdk
 ms.assetid: a4dc100a-d3dc-408e-a425-bded11d04db5
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGroupRegisterEvent, PeerGroupRegisterEvent function [Peer Networking], p2p.peergroupregisterevent, p2p/PeerGroupRegisterEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGroupRegisterEvent</b> function registers a peer for specific peer group events.
+The <b>PeerGroupRegisterEvent</b> function registers a peer for specific peer group events.
 
 
 ## -parameters
@@ -156,8 +155,7 @@ Before you close the HPEEREVENT handle, you must unregister for the peer event  
 
 
 
-<a href="https://msdn.microsoft.com/9c9c82c3-b02a-49c2-9a8f-eb355ded8480">
-		  PEER_GROUP_EVENT_REGISTRATION</a>
+<a href="https://msdn.microsoft.com/9c9c82c3-b02a-49c2-9a8f-eb355ded8480">PEER_GROUP_EVENT_REGISTRATION</a>
 
 
 

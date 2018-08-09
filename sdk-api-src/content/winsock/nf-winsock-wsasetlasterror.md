@@ -4,10 +4,10 @@ title: WSASetLastError function
 author: windows-sdk-content
 description: The WSASetLastError function sets the error code that can be retrieved through the WSAGetLastError function.
 old-location: winsock\wsasetlasterror_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 596155ee-3dcc-4ae3-97ab-0653e019cbee
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSASetLastError, WSASetLastError function [Winsock], _win32_wsasetlasterror_2, winsock.wsasetlasterror_2, winsock/WSASetLastError
 ms.prod: windows
 ms.technology: windows-sdk

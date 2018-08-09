@@ -7,7 +7,7 @@ old-location: security\credssp_cred.htm
 old-project: secauthn
 ms.assetid: b22bd22c-e6e1-4817-b5cf-ab49f574e75f
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: "*PCREDSSP_CRED, CREDSSP_CRED, CREDSSP_CRED structure [Security], PCREDSSP_CRED, PCREDSSP_CRED structure pointer [Security], _CREDSSP_CRED, credssp/CREDSSP_CRED, credssp/PCREDSSP_CRED, security.credssp_cred"
 ms.prod: windows
 ms.technology: windows-sdk

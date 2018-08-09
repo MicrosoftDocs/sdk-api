@@ -7,7 +7,7 @@ old-location: mib\mib_best_if.htm
 old-project: mib
 ms.assetid: a557acfe-c5c6-44fc-b1f1-2aa7ef599d44
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/30/2018
 ms.keywords: "*PMIB_BEST_IF, MIB_BEST_IF, MIB_BEST_IF structure [MIB], PMIB_BEST_IF, PMIB_BEST_IF structure pointer [MIB], _MIB_BEST_IF, _mpr_mib_best_if, ipmib/MIB_BEST_IF, ipmib/PMIB_BEST_IF, iprtrmib/MIB_BEST_IF, iprtrmib/PMIB_BEST_IF, mib.mib_best_if, rras.mib_best_if"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,11 +85,11 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365920(v=VS.85).aspx">GetBestInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365920(v=VS.85).aspx">GetBestInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365924(v=VS.85).aspx">GetBestRoute</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365924(v=VS.85).aspx">GetBestRoute</a>
  
 
  

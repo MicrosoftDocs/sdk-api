@@ -7,7 +7,7 @@ old-location: mstv\isbe2streammap.htm
 old-project: mstv
 ms.assetid: d63691ca-2420-4c54-b343-be85d634488c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: ISBE2StreamMap, ISBE2StreamMap interface [Microsoft TV Technologies], ISBE2StreamMap interface [Microsoft TV Technologies],described, mstv.isbe2streammap, sbe/ISBE2StreamMap
 ms.prod: windows
 ms.technology: windows-sdk

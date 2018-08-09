@@ -7,7 +7,7 @@ old-location: mf\mfcreatevideopresenter.htm
 old-project: medfound
 ms.assetid: 04a1ce0d-f1ed-4b8a-827c-600297660442
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 04a1ce0d-f1ed-4b8a-827c-600297660442, MFCreateVideoPresenter, MFCreateVideoPresenter callback, MFCreateVideoPresenter callback function [Media Foundation], evr/MFCreateVideoPresenter, mf.mfcreatevideopresenter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,8 +109,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>

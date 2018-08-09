@@ -4,10 +4,10 @@ title: SnmpCountVbl function
 author: windows-sdk-content
 description: A WinSNMP application calls the WinSNMP SnmpCountVbl function to enumerate the variable binding entries in the specified variable bindings list.
 old-location: snmp\snmpcountvbl.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 08e7d450-0c75-4ef5-a9c5-ef0255601a9a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SnmpCountVbl, SnmpCountVbl function [SNMP], _snmp_snmpcountvbl, snmp.snmpcountvbl, winsnmp/SnmpCountVbl
 ms.prod: windows
 ms.technology: windows-sdk

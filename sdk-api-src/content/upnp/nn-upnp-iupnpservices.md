@@ -4,10 +4,10 @@ title: IUPnPServices
 author: windows-sdk-content
 description: The IUPnPServices interface enumerates a collection of services.
 old-location: upnp\iupnpservices.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: 8d5e487f-d2d4-4603-918c-e751d698be3c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IUPnPServices, IUPnPServices interface [UPnP APIs], IUPnPServices interface [UPnP APIs],described, _upnp_iupnpservices, upnp.iupnpservices, upnp/IUPnPServices
 ms.prod: windows
 ms.technology: windows-sdk

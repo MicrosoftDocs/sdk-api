@@ -7,7 +7,7 @@ old-location: rpc\rpcnsprofileeltinqnext.htm
 old-project: rpc
 ms.assetid: 78835fde-82c3-4cff-94b9-91e07120e03f
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcNsProfileEltInqNext, RpcNsProfileEltInqNext function [RPC], RpcNsProfileEltInqNextA, RpcNsProfileEltInqNextW, _rpc_rpcnsprofileeltinqnext, rpc.rpcnsprofileeltinqnext, rpcnsi/RpcNsProfileEltInqNext, rpcnsi/RpcNsProfileEltInqNextA, rpcnsi/RpcNsProfileEltInqNextW
 ms.prod: windows
 ms.technology: windows-sdk

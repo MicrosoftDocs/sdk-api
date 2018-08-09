@@ -7,7 +7,7 @@ old-location: gdi\getdibcolortable.htm
 old-project: gdi
 ms.assetid: 3e3319be-8a3d-4ac2-ba36-9dbf18243472
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetDIBColorTable, GetDIBColorTable function [Windows GDI], _win32_GetDIBColorTable, gdi.getdibcolortable, wingdi/GetDIBColorTable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,9 +67,9 @@ The <b>GetDIBColorTable</b> function retrieves RGB (red, green, blue) color valu
 A handle to a device context. A DIB section bitmap must be selected into this device context.
 
 
-### -param iStart
+### -param iStart [in]
 
-TBD
+A zero-based color table index that specifies the first color table entry to retrieve.
 
 
 ### -param cEntries [in]
@@ -77,21 +77,9 @@ TBD
 The number of color table entries to retrieve.
 
 
-### -param prgbq
-
-TBD
-
-
-
-
-#### - pColors [out]
+### -param prgbq [out]
 
 A pointer to a buffer that receives an array of <a href="https://msdn.microsoft.com/22e0991d-078e-4b44-9f03-004137e31f6c">RGBQUAD</a> data structures containing color information from the DIB color table. The buffer must be large enough to contain as many <b>RGBQUAD</b> data structures as the value of <i>cEntries</i>.
-
-
-#### - uStartIndex [in]
-
-A zero-based color table index that specifies the first color table entry to retrieve.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: wmformat\wm_reader_statistics.htm
 old-project: wmformat
 ms.assetid: 30e58e9b-5247-4d9a-91dc-fd137d8f5613
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WM_READER_STATISTICS, WM_READER_STATISTICS structure [windows Media Format], _WMReaderStatistics, wmformat.wm_reader_statistics, wmsdkidl/WM_READER_STATISTICS
 ms.prod: windows
 ms.technology: windows-sdk

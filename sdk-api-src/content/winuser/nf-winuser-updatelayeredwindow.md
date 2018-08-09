@@ -7,7 +7,7 @@ old-location: winmsg\updatelayeredwindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\updatelayeredwindow.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ULW_ALPHA, ULW_COLORKEY, ULW_OPAQUE, UpdateLayeredWindow, UpdateLayeredWindow function [Windows and Messages], _win32_UpdateLayeredWindow, _win32_updatelayeredwindow_cpp, winmsg.updatelayeredwindow, winui._win32_updatelayeredwindow, winuser/UpdateLayeredWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,9 +63,13 @@ Updates the position, size, shape, content, and translucency of a layered window
 
 
 
-### -param hWnd
+### -param hWnd [in]
 
-TBD
+Type: <b>HWND</b>
+
+A handle to a layered window. A layered window is created by specifying <b>WS_EX_LAYERED</b> when creating the window with the <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function. 
+
+<b>Windows 8:  </b>The <b>WS_EX_LAYERED</b> style is supported for top-level windows and child windows. Previous Windows versions support <b>WS_EX_LAYERED</b> only for top-level windows.
 
 
 ### -param hdcDst [in, optional]
@@ -169,15 +173,6 @@ Draw an opaque layered window.
  
 
 If <i>hdcSrc</i> is <b>NULL</b>, <i>dwFlags</i> should be zero.
-
-
-#### - hwnd [in]
-
-Type: <b>HWND</b>
-
-A handle to a layered window. A layered window is created by specifying <b>WS_EX_LAYERED</b> when creating the window with the <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function. 
-
-<b>Windows 8:  </b>The <b>WS_EX_LAYERED</b> style is supported for top-level windows and child windows. Previous Windows versions support <b>WS_EX_LAYERED</b> only for top-level windows.
 
 
 ## -returns

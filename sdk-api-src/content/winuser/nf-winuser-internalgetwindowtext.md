@@ -7,7 +7,7 @@ old-location: winmsg\internalgetwindowtext.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\internalgetwindowtext.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: InternalGetWindowText, InternalGetWindowText function [Windows and Messages], _win32_InternalGetWindowText, _win32_internalgetwindowtext_cpp, winmsg.internalgetwindowtext, winui._win32_internalgetwindowtext, winuser/InternalGetWindowText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,19 +77,7 @@ Type: <b>HWND</b>
 A handle to the window or control containing the text. 
 
 
-### -param pString
-
-TBD
-
-
-### -param cchMaxCount
-
-TBD
-
-
-
-
-#### - lpString [out]
+### -param pString [out]
 
 Type: <b>LPWSTR</b>
 
@@ -100,7 +88,7 @@ The buffer that is to receive the text.
 				terminated with a null character. 
 
 
-#### - nMaxCount [in]
+### -param cchMaxCount [in]
 
 Type: <b>int</b>
 

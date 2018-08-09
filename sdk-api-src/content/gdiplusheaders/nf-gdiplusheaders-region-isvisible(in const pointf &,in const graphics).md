@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_IsVisible_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionisvisiblemethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: IsVisible, IsVisible methods [GDI+], Region.IsVisible, Region.IsVisible(IN const PointF &,IN const Graphics), Region::IsVisible, Region::IsVisible(IN const PointF &,IN const Graphics), _gdiplus_CLASS_Region_IsVisible_Methods, gdiplus._gdiplus_CLASS_Region_IsVisible_Methods, gdiplusheaders/IsVisible
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 			IsVisible methods of the 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/dn915769">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/library/ms534761(v=VS.85).aspx">Region Methods</a>. 
+			<a href="https://msdn.microsoft.com/library/windows/hardware/dn915769">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534761(v=VS.85).aspx">Region Methods</a>. 
 
 </span><h3>Overload list</h3><table>
 <tr>
@@ -62,73 +62,73 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534797(v=VS.85).aspx">IsVisible(Rect&,Graphics*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534797(v=VS.85).aspx">IsVisible(Rect&,Graphics*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534797(v=VS.85).aspx">Region::IsVisible</a> method determines whether a rectangle intersects this region.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534797(v=VS.85).aspx">Region::IsVisible</a> method determines whether a rectangle intersects this region.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534801(v=VS.85).aspx">IsVisible(Point&,Graphics*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534801(v=VS.85).aspx">IsVisible(Point&,Graphics*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534801(v=VS.85).aspx">Region::IsVisible</a> method determines whether a point is inside this region.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534801(v=VS.85).aspx">Region::IsVisible</a> method determines whether a point is inside this region.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534796(v=VS.85).aspx">IsVisible(RectF&,Graphics*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534796(v=VS.85).aspx">IsVisible(RectF&,Graphics*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534796(v=VS.85).aspx">Region::IsVisible</a> method determines whether a rectangle intersects this region.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534796(v=VS.85).aspx">Region::IsVisible</a> method determines whether a rectangle intersects this region.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534798(v=VS.85).aspx">IsVisible(INT,INT,Graphics*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534798(v=VS.85).aspx">IsVisible(INT,INT,Graphics*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534798(v=VS.85).aspx">Region::IsVisible</a> method determines whether a point is inside this region.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534798(v=VS.85).aspx">Region::IsVisible</a> method determines whether a point is inside this region.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534795(v=VS.85).aspx">IsVisible(PointF&,Graphics*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534795(v=VS.85).aspx">IsVisible(PointF&,Graphics*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534795(v=VS.85).aspx">Region::IsVisible</a> method determines whether a point is inside this region.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534795(v=VS.85).aspx">Region::IsVisible</a> method determines whether a point is inside this region.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534799(v=VS.85).aspx">IsVisible(REAL,REAL,Graphics*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534799(v=VS.85).aspx">IsVisible(REAL,REAL,Graphics*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534799(v=VS.85).aspx">Region::IsVisible</a> method determines whether a point is inside this region.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534799(v=VS.85).aspx">Region::IsVisible</a> method determines whether a point is inside this region.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534800(v=VS.85).aspx">IsVisible(INT,INT,INT,INT,Graphics*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534800(v=VS.85).aspx">IsVisible(INT,INT,INT,INT,Graphics*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534800(v=VS.85).aspx">Region::IsVisible</a> method determines whether a rectangle intersects this region.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534800(v=VS.85).aspx">Region::IsVisible</a> method determines whether a rectangle intersects this region.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534802(v=VS.85).aspx">IsVisible(REAL,REAL,REAL,REAL,Graphics*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534802(v=VS.85).aspx">IsVisible(REAL,REAL,REAL,REAL,Graphics*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534802(v=VS.85).aspx">Region::IsVisible</a> method determines whether a rectangle intersects this region.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534802(v=VS.85).aspx">Region::IsVisible</a> method determines whether a rectangle intersects this region.
 
 </td>
 </tr>

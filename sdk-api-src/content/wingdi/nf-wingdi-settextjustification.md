@@ -7,7 +7,7 @@ old-location: gdi\settextjustification.htm
 old-project: gdi
 ms.assetid: 55fb5a28-b7da-40d8-8e64-4b42c23fa8b1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetTextJustification, SetTextJustification function [Windows GDI], _win32_SetTextJustification, gdi.settextjustification, wingdi/SetTextJustification
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,26 +66,14 @@ The <b>SetTextJustification</b> function specifies the amount of space the syste
 A handle to the device context.
 
 
-### -param extra
-
-TBD
-
-
-### -param count
-
-TBD
-
-
-
-
-#### - nBreakCount [in]
-
-The number of break characters in the line.
-
-
-#### - nBreakExtra [in]
+### -param extra [in]
 
 The total extra space, in logical units, to be added to the line of text. If the current mapping mode is not MM_TEXT, the value identified by the <i>nBreakExtra</i> parameter is transformed and rounded to the nearest pixel.
+
+
+### -param count [in]
+
+The number of break characters in the line.
 
 
 ## -returns

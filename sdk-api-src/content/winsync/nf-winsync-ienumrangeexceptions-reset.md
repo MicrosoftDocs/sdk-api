@@ -7,7 +7,7 @@ old-location: winsync\ienumrangeexceptions_reset.htm
 old-project: winsync
 ms.assetid: d4056703-8218-4b0b-9ed6-4c1584f0b751
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IEnumRangeExceptions interface [Windows Sync],Reset method, IEnumRangeExceptions.Reset, IEnumRangeExceptions::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumRangeExceptions interface, winsync.ienumrangeexceptions_reset, winsync/IEnumRangeExceptions::Reset
 ms.prod: windows
 ms.technology: windows-sdk

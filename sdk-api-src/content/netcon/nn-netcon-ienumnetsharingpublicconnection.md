@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingpublicconnection.htm
 old-project: ics
 ms.assetid: 69f2d4c0-7c25-4a50-988b-3ca6babb489a
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: IEnumNetSharingPublicConnection, IEnumNetSharingPublicConnection interface [ICS/ICF], IEnumNetSharingPublicConnection interface [ICS/ICF],described, _ics_ienumnetsharingpublicconnection, ics.ienumnetsharingpublicconnection, netcon/IEnumNetSharingPublicConnection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,7 +116,7 @@ Skips the specified number of public connections in this enumeration.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
 
 
 

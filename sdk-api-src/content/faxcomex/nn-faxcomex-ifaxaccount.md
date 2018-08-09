@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccount_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccount\faxinta_n_ifaxaccount.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxAccount, IFaxAccount interface [Fax Service], IFaxAccount interface [Fax Service],described, _mfax_faxaccount_cpp, fax._mfax_faxaccount_cpp, faxcomex/IFaxAccount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,13 +51,13 @@ req.product: Internet Explorer 5
 ## -description
 
 
-Represents a <a href="https://msdn.microsoft.com/library/Aa358860(v=VS.85).aspx">fax account</a> on the fax server.
+Represents a <a href="https://msdn.microsoft.com/en-us/library/Aa358860(v=VS.85).aspx">fax account</a> on the fax server.
         
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccount</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxAccount</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccount</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxAccount</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -76,7 +76,7 @@ The <b>IFaxAccount</b> interface has these methods.
 <a href="https://msdn.microsoft.com/en-us/library/Aa359060(v=VS.85).aspx">ListenToAccountEvents</a>
 </td>
 <td align="left" width="63%">
-Sets the flags of a <a href="https://msdn.microsoft.com/library/Aa359063(v=VS.85).aspx">FAX_ACCOUNT_EVENTS_TYPE_ENUM</a> variable that represents the events for which the account is listening.
+Sets the flags of a <a href="https://msdn.microsoft.com/en-us/library/Aa359063(v=VS.85).aspx">FAX_ACCOUNT_EVENTS_TYPE_ENUM</a> variable that represents the events for which the account is listening.
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ A set of flags indicating the type of events for which the account is listening.
 
 
 
-A default implementation of <b>IFaxAccount</b> is provided as the <a href="https://msdn.microsoft.com/library/Aa358967(v=VS.85).aspx">FaxAccount</a> object. The interface and the object are supported only on Windows Vista or later.
+A default implementation of <b>IFaxAccount</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/Aa358967(v=VS.85).aspx">FaxAccount</a> object. The interface and the object are supported only on Windows Vista or later.
 
 
 

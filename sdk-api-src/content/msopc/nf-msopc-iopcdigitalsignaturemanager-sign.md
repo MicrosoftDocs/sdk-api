@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignaturemanager_sign.htm
 old-project: OPC
 ms.assetid: 5d40cae4-67d5-40a6-bd63-cf6243a703eb
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],Sign method, IOpcDigitalSignatureManager.Sign, IOpcDigitalSignatureManager::Sign, Sign, Sign method [Open Packaging Conventions], Sign method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::Sign, opc.iopcdigitalsignaturemanager_sign
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,8 +103,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-
-                At least one of the <i>certificate</i>, <i>signingOptions</i>, and <i>digitalSignature</i> parameters is <b>NULL</b>.
+At least one of the <i>certificate</i>, <i>signingOptions</i>, and <i>digitalSignature</i> parameters is <b>NULL</b>.
               
 
 </td>
@@ -200,8 +199,7 @@ The specified part does not exist.
 </dl>
 </td>
 <td width="60%">
-
-                An <b>HRESULT</b> error code from a <a href="https://msdn.microsoft.com/library/windows/hardware/mt595945">Cryptography</a> API.
+An <b>HRESULT</b> error code from a <a href="https://msdn.microsoft.com/library/windows/hardware/mt595945">Cryptography</a> API.
 
 </td>
 </tr>
@@ -212,8 +210,7 @@ The specified part does not exist.
 </dl>
 </td>
 <td width="60%">
-
-                An <b>HRESULT</b> error code from a <a href="https://msdn.microsoft.com/library/Dd430435(v=VS.85).aspx">Windows Web Services</a> API.
+An <b>HRESULT</b> error code from a <a href="https://msdn.microsoft.com/en-us/library/Dd430435(v=VS.85).aspx">Windows Web Services</a> API.
 
 </td>
 </tr>

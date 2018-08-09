@@ -7,7 +7,7 @@ old-location: tsf\itfproperty_findrange.htm
 old-project: TSF
 ms.assetid: 08e9c9c1-768b-406c-96ae-e0776b59344d
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: FindRange, FindRange method [Text Services Framework], FindRange method [Text Services Framework],ITfProperty interface, ITfProperty interface [Text Services Framework],FindRange method, ITfProperty.FindRange, ITfProperty::FindRange, _tsf_itfproperty_findrange_ref, msctf/ITfProperty::FindRange, tsf.itfproperty_findrange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -185,13 +185,11 @@ TEXT:  this is some &lt;a&gt;colored &lt;/a&gt;text
 
 
 
-<a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">
-        ITfDocumentMgr::CreateContext</a>
+<a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">ITfDocumentMgr::CreateContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession</a>
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession</a>
 
 
 
@@ -199,13 +197,11 @@ TEXT:  this is some &lt;a&gt;colored &lt;/a&gt;text
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">
-        ITfRange</a>
+<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/d670666f-2915-4a23-b825-b534a015e37f">
-        TfAnchor</a>
+<a href="https://msdn.microsoft.com/d670666f-2915-4a23-b825-b534a015e37f">TfAnchor</a>
  
 
  

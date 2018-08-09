@@ -7,7 +7,7 @@ old-location: security\certsrvisserveronline.htm
 old-project: seccrypto
 ms.assetid: fce1ea87-6c02-433e-af38-99b33528b1f1
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CertSrvIsServerOnline, CertSrvIsServerOnline function [Security], CertSrvIsServerOnlineW, _certsrv_certsrvisserveronline, certbcli/CertSrvIsServerOnline, certbcli/CertSrvIsServerOnlineW, security.certsrvisserveronline
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>CertSrvIsServerOnline</b> function  determines if a Certificate Services server is online; if the Certificate Services server is not online, backup operations will not be successful.
+The <b>CertSrvIsServerOnline</b> function  determines if a Certificate Services server is online; if the Certificate Services server is not online, backup operations will not be successful.
 
 
 ## -parameters
@@ -74,8 +73,7 @@ A pointer to Boolean value which will be <b>TRUE</b> if the Certificate Services
 
 
 
-
-						The return value is an <b>HRESULT</b>. This function will fail if Certificate Services is not running. If Certificate Services is running and ready to accept requests, this function will return S_OK, and *<i>pfServerOnline</i> will point to a value of <b>TRUE</b>. If Certificate Services is running in suspended (or paused) mode, this function will return S_OK, and *<i>pfServerOnline</i> will point to a value of <b>FALSE</b>.
+The return value is an <b>HRESULT</b>. This function will fail if Certificate Services is not running. If Certificate Services is running and ready to accept requests, this function will return S_OK, and *<i>pfServerOnline</i> will point to a value of <b>TRUE</b>. If Certificate Services is running in suspended (or paused) mode, this function will return S_OK, and *<i>pfServerOnline</i> will point to a value of <b>FALSE</b>.
 
 
 

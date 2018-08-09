@@ -2,12 +2,12 @@
 UID: NN:dmusics.IDirectMusicSynth8
 title: IDirectMusicSynth8
 author: windows-sdk-content
-description: IDirectMusicSynth8 is unsupported and may be altered or unavailable in the future.
+description: IDirectMusicSynth8is unsupported and may be altered or unavailable in the future.
 old-location: audio\idirectmusicsynth8.htm
 old-project: audio
 ms.assetid: C5D773BB-3939-494D-9F61-3DC8231295AF
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/30/2018
 ms.keywords: IDirectMusicSynth8, IDirectMusicSynth8 interface [Audio Devices], IDirectMusicSynth8 interface [Audio Devices],described, audio.idirectmusicsynth8, dmusics/IDirectMusicSynth8
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,6 +50,5 @@ req.irql:
 ## -description
 
 
-<b>IDirectMusicSynth8</b>
-is unsupported and may be altered or unavailable in the future.
+<b>IDirectMusicSynth8</b>is unsupported and may be altered or unavailable in the future.
 

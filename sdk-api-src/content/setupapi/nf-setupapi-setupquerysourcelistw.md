@@ -7,7 +7,7 @@ old-location: setup\setupquerysourcelist.htm
 old-project: SetupApi
 ms.assetid: 8d1de1d5-5b82-45ae-b29c-4f9a93d28c6e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupQuerySourceList, SetupQuerySourceList function [Setup API], SetupQuerySourceListA, SetupQuerySourceListW, _setupapi_setupquerysourcelist, setup.setupquerysourcelist, setupapi/SetupQuerySourceList, setupapi/SetupQuerySourceListA, setupapi/SetupQuerySourceListW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,11 +109,6 @@ Pointer to a variable in which this function returns a pointer to an array of so
 Pointer to a variable in which this function returns the number of sources in the list.
 
 
-##### - Flags.SRCLIST_NOSTRIPPLATFORM
-
-Normally, all paths are stripped of a platform-specific component if it is the final component. For example, a path stored in the registry as f:\x86 is returned as f:\. If this flag is specified, the platform-specific component is not stripped.
-
-
 ##### - Flags.SRCLIST_SYSTEM
 
 Query the system list.
@@ -122,6 +117,11 @@ Query the system list.
 ##### - Flags.SRCLIST_USER
 
 Query the per-user list.
+
+
+##### - Flags.SRCLIST_NOSTRIPPLATFORM
+
+Normally, all paths are stripped of a platform-specific component if it is the final component. For example, a path stored in the registry as f:\x86 is returned as f:\. If this flag is specified, the platform-specific component is not stripped.
 
 
 ## -returns

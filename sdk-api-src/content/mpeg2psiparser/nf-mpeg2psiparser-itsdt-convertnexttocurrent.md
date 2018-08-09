@@ -7,7 +7,7 @@ old-location: mstv\itsdt_convertnexttocurrent.htm
 old-project: mstv
 ms.assetid: a8ce79ed-516a-44bf-b9c9-ff6d693cdd30
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],ConvertNextToCurrent method, ITSDT.ConvertNextToCurrent, ITSDT::ConvertNextToCurrent, ITSDTConvertNextToCurrent, mpeg2psiparser/ITSDT::ConvertNextToCurrent, mstv.itsdt_convertnexttocurrent
 ms.prod: windows
 ms.technology: windows-sdk

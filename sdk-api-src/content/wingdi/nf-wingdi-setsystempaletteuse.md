@@ -7,7 +7,7 @@ old-location: gdi\setsystempaletteuse.htm
 old-project: gdi
 ms.assetid: 6ff245d3-1bcc-4778-a595-c1eb16531ad3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SYSPAL_NOSTATIC, SYSPAL_NOSTATIC256, SYSPAL_STATIC, SetSystemPaletteUse, SetSystemPaletteUse function [Windows GDI], _win32_SetSystemPaletteUse, gdi.setsystempaletteuse, wingdi/SetSystemPaletteUse
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,7 @@ The <b>SetSystemPaletteUse</b> function allows an application to specify whether
 A handle to the device context. This device context must refer to a device that supports color palettes.
 
 
-### -param use
-
-TBD
-
-
-
-
-#### - uUsage [in]
+### -param use [in]
 
 The new use of the system palette. This parameter can be one of the following values.
 

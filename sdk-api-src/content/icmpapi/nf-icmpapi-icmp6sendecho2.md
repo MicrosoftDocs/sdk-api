@@ -7,7 +7,7 @@ old-location: iphlp\icmp6sendecho2.htm
 old-project: iphlp
 ms.assetid: 622c769b-ede8-4bc2-ac54-98de47ae1fed
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: Icmp6SendEcho2, Icmp6SendEcho2 function [IP Helper], icmpapi/Icmp6SendEcho2, iphlp.icmp6sendecho2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ For more information on using events, see <a href="https://msdn.microsoft.com/li
 
 The routine that is called when the calling thread is in an alertable thread and  an ICMPv6 reply arrives. On Windows Vista and later, <b>PIO_APC_ROUTINE_DEFINED</b> must be defined to force the datatype for this parameter to <b>PIO_APC_ROUTINE</b> rather than <b>FARPROC</b>. 
 
-On Windows Server 2003 and Windows XP
-  , 
+On Windows Server 2003 and Windows XP, 
    <b>PIO_APC_ROUTINE_DEFINED</b> must not be defined to force the datatype for this parameter to <b>FARPROC</b>.
 
 
@@ -131,8 +130,7 @@ The size, in bytes,  of the reply buffer pointed to by the <i>ReplyBuffer</i> pa
 
 ### -param Timeout [in]
 
-The time, in milliseconds, to wait for replies. This parameter is only used if the <b>Icmp6SendEcho2</b> function is called synchronously. So this parameter is not used if either the <i>ApcRoutine</i> or <i>Event</i>
-                           parameter are not <b>NULL</b>.
+The time, in milliseconds, to wait for replies. This parameter is only used if the <b>Icmp6SendEcho2</b> function is called synchronously. So this parameter is not used if either the <i>ApcRoutine</i> or <i>Event</i>parameter are not <b>NULL</b>.
 
 
 ## -returns
@@ -326,8 +324,7 @@ This parameter is reserved.
 
 
 
-On Windows Server 2003 and Windows XP
-  , any application that calls the <b>Icmp6SendEcho2</b> function asynchronously using the <i>ApcRoutine</i> parameter must not define <b>PIO_APC_ROUTINE_DEFINED</b> to force the datatype for the <i>ApcRoutine</i> parameter to <b>FARPROC</b> rather than <b>PIO_APC_ROUTINE</b>. 
+On Windows Server 2003 and Windows XP, any application that calls the <b>Icmp6SendEcho2</b> function asynchronously using the <i>ApcRoutine</i> parameter must not define <b>PIO_APC_ROUTINE_DEFINED</b> to force the datatype for the <i>ApcRoutine</i> parameter to <b>FARPROC</b> rather than <b>PIO_APC_ROUTINE</b>. 
 
 On Windows Server 2003 and Windows XP, the callback function pointed to by the <i>ApcRoutine</i> must be defined as a function of type <b>VOID</b> with the following syntax:
 

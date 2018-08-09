@@ -7,7 +7,7 @@ old-location: dxmath\containedby.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.TriangleTests.ContainedBy(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/30/2018
 ms.keywords: ContainedBy, ContainedBy method [DirectX Math Support APIs], DirectX::TriangleTests.ContainedBy, dxmath.containedby
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,7 +107,7 @@ A vector defining the triangle.
 
 
 
-A <a href="https://msdn.microsoft.com/library/Hh449605(v=VS.85).aspx">ContainmentType</a> value indicating whether the triangle is contained within the planes.
+A <a href="https://msdn.microsoft.com/en-us/library/Hh449605(v=VS.85).aspx">ContainmentType</a> value indicating whether the triangle is contained within the planes.
 
 
 

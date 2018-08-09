@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain1_setbackgroundcolor.htm
 old-project: direct3ddxgi
 ms.assetid: E46CA219-303F-40D4-8C62-6241C9199BA0
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/30/2018
 ms.keywords: IDXGISwapChain1 interface [DXGI],SetBackgroundColor method, IDXGISwapChain1.SetBackgroundColor, IDXGISwapChain1::SetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [DXGI], SetBackgroundColor method [DXGI],IDXGISwapChain1 interface, direct3ddxgi.idxgiswapchain1_setbackgroundcolor, dxgi1_2/IDXGISwapChain1::SetBackgroundColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ A pointer to a <a href="https://msdn.microsoft.com/5F9DDDC1-644E-4DA2-8E3D-F1577
         <ul>
 <li>S_OK if it successfully set the background color.</li>
 <li>E_INVALIDARG if the <i>pColor</i> parameter is incorrect, for example, <i>pColor</i> is NULL or any of the floating-point values of the members of <a href="https://msdn.microsoft.com/5F9DDDC1-644E-4DA2-8E3D-F157789809E7">DXGI_RGBA</a> to which <i>pColor</i> points are outside the range from 0.0 through 1.0.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
 </ul>
 
 
@@ -86,9 +86,9 @@ A pointer to a <a href="https://msdn.microsoft.com/5F9DDDC1-644E-4DA2-8E3D-F1577
 
 
 
-The background color affects only swap chains that you create with <a href="https://msdn.microsoft.com/library/Hh404526(v=VS.85).aspx">DXGI_SCALING_NONE</a> in windowed mode. You pass this value in a call to <a href="https://msdn.microsoft.com/B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD">IDXGIFactory2::CreateSwapChainForHwnd</a>, <a href="https://msdn.microsoft.com/B3AC3AEB-3449-4444-9FD3-866A3795C41F">IDXGIFactory2::CreateSwapChainForCoreWindow</a>, or  <a href="https://msdn.microsoft.com/8AE13082-F8C3-422A-A111-4E91488BD1AF">IDXGIFactory2::CreateSwapChainForComposition</a>. Typically, the background color is not visible unless the swap-chain contents are smaller than the destination window.
+The background color affects only swap chains that you create with <a href="https://msdn.microsoft.com/en-us/library/Hh404526(v=VS.85).aspx">DXGI_SCALING_NONE</a> in windowed mode. You pass this value in a call to <a href="https://msdn.microsoft.com/B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD">IDXGIFactory2::CreateSwapChainForHwnd</a>, <a href="https://msdn.microsoft.com/B3AC3AEB-3449-4444-9FD3-866A3795C41F">IDXGIFactory2::CreateSwapChainForCoreWindow</a>, or  <a href="https://msdn.microsoft.com/8AE13082-F8C3-422A-A111-4E91488BD1AF">IDXGIFactory2::CreateSwapChainForComposition</a>. Typically, the background color is not visible unless the swap-chain contents are smaller than the destination window.
 
-When you set the background color, it is not immediately realized. It takes effect in conjunction with your next call to the <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> method. The <a href="https://msdn.microsoft.com/library/Bb509554(v=VS.85).aspx">DXGI_PRESENT</a> flags that you pass to <b>IDXGISwapChain1::Present1</b> can help achieve the effect that you require. For example, if you call <b>SetBackgroundColor</b> and then call <b>IDXGISwapChain1::Present1</b> with the <i>Flags</i> parameter set to <a href="https://msdn.microsoft.com/library/Bb509554(v=VS.85).aspx">DXGI_PRESENT_DO_NOT_SEQUENCE</a>, you change only the background color without changing the displayed contents of the swap chain.
+When you set the background color, it is not immediately realized. It takes effect in conjunction with your next call to the <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> method. The <a href="https://msdn.microsoft.com/en-us/library/Bb509554(v=VS.85).aspx">DXGI_PRESENT</a> flags that you pass to <b>IDXGISwapChain1::Present1</b> can help achieve the effect that you require. For example, if you call <b>SetBackgroundColor</b> and then call <b>IDXGISwapChain1::Present1</b> with the <i>Flags</i> parameter set to <a href="https://msdn.microsoft.com/en-us/library/Bb509554(v=VS.85).aspx">DXGI_PRESENT_DO_NOT_SEQUENCE</a>, you change only the background color without changing the displayed contents of the swap chain.
 
 When you call the <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> method to display contents of the swap chain, <b>IDXGISwapChain1::Present1</b> uses the <a href="https://msdn.microsoft.com/DD3D1E49-06D2-4FB9-A41B-86453D8E566F">DXGI_ALPHA_MODE</a> value that is specified in the <b>AlphaMode</b> member of the <a href="https://msdn.microsoft.com/38B302DF-5617-4195-8E4A-619D75188AD5">DXGI_SWAP_CHAIN_DESC1</a> structure to determine how to handle the <b>a</b> member of the <a href="https://msdn.microsoft.com/5F9DDDC1-644E-4DA2-8E3D-F157789809E7">DXGI_RGBA</a> structure, the alpha value of the background color, that achieves window transparency. For example, if <b>AlphaMode</b> is <b>DXGI_ALPHA_MODE_IGNORE</b>, <b>IDXGISwapChain1::Present1</b> ignores the a member of <b>DXGI_RGBA</b>.
 

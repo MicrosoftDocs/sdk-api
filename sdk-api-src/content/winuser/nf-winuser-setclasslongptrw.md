@@ -7,7 +7,7 @@ old-location: winmsg\setclasslongptr.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setclasslongptr.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GCLP_ HBRBACKGROUND, GCLP_HCURSOR, GCLP_HICON, GCLP_HICONSM, GCLP_HMODULE, GCLP_MENUNAME, GCLP_WNDPROC, GCL_CBCLSEXTRA, GCL_CBWNDEXTRA, GCL_STYLE, SetClassLongPtr, SetClassLongPtr function [Windows and Messages], SetClassLongPtrA, SetClassLongPtrW, _win32_SetClassLongPtr, _win32_setclasslongptr_cpp, winmsg.setclasslongptr, winui._win32_setclasslongptr, winuser/SetClassLongPtr, winuser/SetClassLongPtrA, winuser/SetClassLongPtrW
 ms.prod: windows
 ms.technology: windows-sdk

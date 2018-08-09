@@ -7,7 +7,7 @@ old-location: mscs\pauseclusternodeex.htm
 old-project: mscs
 ms.assetid: 632C26C2-ED12-40DC-9615-4A09A7E2F7CB
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: PCLUSAPI_PAUSE_CLUSTER_NODE_EX, PCLUSAPI_PAUSE_CLUSTER_NODE_EX function [Failover Cluster], PauseClusterNodeEx, PauseClusterNodeEx function [Failover Cluster], clusapi/PCLUSAPI_PAUSE_CLUSTER_NODE_EX, clusapi/PauseClusterNodeEx, mscs.pauseclusternodeex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,12 +68,12 @@ A handle to the node to suspend.
 <b>TRUE</b> to drain the node; otherwise <b>FALSE</b>.
 
 
-### -param dwPauseFlags [in]
+### -param dwPauseFlags [in] [in]
 
 TBD
 
 
-### -param hNodeDrainTarget [in, optional]
+### -param hNodeDrainTarget [in, optional] [in, optional]
 
 TBD
 

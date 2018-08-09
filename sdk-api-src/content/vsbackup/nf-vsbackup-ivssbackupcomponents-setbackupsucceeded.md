@@ -4,10 +4,10 @@ title: IVssBackupComponents::SetBackupSucceeded
 author: windows-sdk-content
 description: The SetBackupSucceeded method indicates whether the backup of the specified component of a specific writer was successful.
 old-location: base\ivssbackupcomponents_setbackupsucceeded.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 5565183d-f374-4796-a399-b008041afdd2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetBackupSucceeded method, IVssBackupComponents.SetBackupSucceeded, IVssBackupComponents::SetBackupSucceeded, SetBackupSucceeded, SetBackupSucceeded method [VSS], SetBackupSucceeded method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setbackupsucceeded, base.ivssbackupcomponents_setbackupsucceeded, vsbackup/IVssBackupComponents::SetBackupSucceeded
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,15 +109,15 @@ The string cannot be <b>NULL</b> and should contain the same component name as w
 
 
 
-#### - bSucceeded [in]
-
-Set this parameter to <b>true</b> if the component was successfully backed up, or <b>false</b> otherwise.
-
-
 #### - componentType [in]
 
 Type of the component. See 
 <a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> for the possible values.
+
+
+#### - bSucceeded [in]
+
+Set this parameter to <b>true</b> if the component was successfully backed up, or <b>false</b> otherwise.
 
 
 ## -returns

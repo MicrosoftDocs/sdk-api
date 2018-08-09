@@ -7,7 +7,7 @@ old-location: mib\mib_ipmcast_mfe_stats_ex.htm
 old-project: mib
 ms.assetid: 4d1b35bd-da6c-48a1-ade1-f96148c9eecb
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/30/2018
 ms.keywords: "*PMIB_IPMCAST_MFE_STATS_EX, *PMIB_IPMCAST_MFE_STATS_EX_XP, MIB_IPMCAST_MFE_STATS_EX, MIB_IPMCAST_MFE_STATS_EX structure [MIB], MIB_IPMCAST_MFE_STATS_EX_XP, PMIB_IPMCAST_MFE_STATS_EX, PMIB_IPMCAST_MFE_STATS_EX structure pointer [MIB], _MIB_IPMCAST_MFE_STATS_EX_XP, ipmib/MIB_IPMCAST_MFE_STATS_EX, ipmib/PMIB_IPMCAST_MFE_STATS_EX, iprtrmib/MIB_IPMCAST_MFE_STATS_EX, iprtrmib/PMIB_IPMCAST_MFE_STATS_EX, mib.mib_ipmcast_mfe_stats_ex"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -224,8 +224,7 @@ This structure does not have a fixed size. Use the <b>SIZEOF_MIB_MFE_STATS_EX(X)
 
 The <b>dwRouteProtocol</b>, <b>dwRouteNetwork</b>, and <b>dwRouteMask</b> members uniquely identify the route to which this MFE is related.
 
-On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista
-   and later, the organization of header files has changed. This  structure is defined in the <i>Ipmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ipmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ipmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
+On the Microsoft Windows Software Development Kit (SDK) released for Windows Vistaand later, the organization of header files has changed. This  structure is defined in the <i>Ipmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ipmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ipmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
 
 

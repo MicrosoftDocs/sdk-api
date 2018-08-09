@@ -4,10 +4,10 @@ title: IFsrmFileGroup::get_NonMembers
 author: windows-sdk-content
 description: Retrieves or sets the filename patterns that determine the files that are excluded from the file group.
 old-location: fsrm\ifsrmfilegroup_nonmembers.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: c3c2ff78-db1a-44df-a7af-15c4a6c4b22d
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/01/2018
 ms.keywords: IFsrmFileGroup interface [File Server Resource Manager],NonMembers property, IFsrmFileGroup.NonMembers, IFsrmFileGroup.get_NonMembers, IFsrmFileGroup::NonMembers, IFsrmFileGroup::get_NonMembers, IFsrmFileGroup::put_NonMembers, NonMembers property [File Server Resource Manager], NonMembers property [File Server Resource Manager],IFsrmFileGroup interface, fs.ifsrmfilegroup_nonmembers, fsrm.ifsrmfilegroup_nonmembers, fsrmscreen/IFsrmFileGroup::NonMembers, fsrmscreen/IFsrmFileGroup::get_NonMembers, fsrmscreen/IFsrmFileGroup::put_NonMembers, get_NonMembers
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetCount.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getcount.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TreeView_GetCount, TreeView_GetCount macro [Windows Controls], _win32_TreeView_GetCount, _win32_TreeView_GetCount_cpp, commctrl/TreeView_GetCount, controls.TreeView_GetCount, controls._win32_TreeView_GetCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves a count of the items in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773572(v=VS.85).aspx">TVM_GETCOUNT</a> message explicitly. 
+Retrieves a count of the items in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773572(v=VS.85).aspx">TVM_GETCOUNT</a> message explicitly. 
 
 
 ## -parameters
@@ -59,15 +59,6 @@ Retrieves a count of the items in a tree-view control. You can use this macro or
 
 
 ### -param hwnd
-
-TBD
-
-
-
-
-
-
-#### - hwndTV
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
@@ -78,8 +69,7 @@ Handle to the tree-view control.
 
 
 
-
-		The node count returned by <b>TreeView_GetCount</b> is limited to integer values. If you add a node beyond 32767 the macro returns a negative value. After adding 65536 nodes the count returns to zero. When this occurs, the tree-view control appears empty with no scrollbars. For more information see the Knowledge Base article <a href="http://go.microsoft.com/fwlink/p/?linkid=198357">Q182231</a>.
+The node count returned by <b>TreeView_GetCount</b> is limited to integer values. If you add a node beyond 32767 the macro returns a negative value. After adding 65536 nodes the count returns to zero. When this occurs, the tree-view control appears empty with no scrollbars. For more information see the Knowledge Base article <a href="http://go.microsoft.com/fwlink/p/?linkid=198357">Q182231</a>.
 		
 
 

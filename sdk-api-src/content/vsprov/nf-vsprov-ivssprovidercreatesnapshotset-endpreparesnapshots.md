@@ -4,10 +4,10 @@ title: IVssProviderCreateSnapshotSet::EndPrepareSnapshots
 author: windows-sdk-content
 description: Is called once for the complete shadow copy set, after the last IVssHardwareSnapshotProvider::BeginPrepareSnapshot call.
 old-location: base\ivssprovidercreatesnapshotset_endpreparesnapshots.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 230666c7-e7e4-4e75-a84d-1786e8cbbb6c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EndPrepareSnapshots, EndPrepareSnapshots method [VSS], EndPrepareSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, IVssProviderCreateSnapshotSet interface [VSS],EndPrepareSnapshots method, IVssProviderCreateSnapshotSet.EndPrepareSnapshots, IVssProviderCreateSnapshotSet::EndPrepareSnapshots, base.ivssprovidercreatesnapshotset_endpreparesnapshots, vsprov/IVssProviderCreateSnapshotSet::EndPrepareSnapshots
 ms.prod: windows
 ms.technology: windows-sdk

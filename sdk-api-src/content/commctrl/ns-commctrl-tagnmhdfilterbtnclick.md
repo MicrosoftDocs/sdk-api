@@ -7,7 +7,7 @@ old-location: controls\NMHDFILTERBTNCLICK.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\header\structures\nmhdfilterbtnclick.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPNMHDFILTERBTNCLICK, LPNMHDFILTERBTNCLICK, LPNMHDFILTERBTNCLICK structure pointer [Windows Controls], NMHDFILTERBTNCLICK, NMHDFILTERBTNCLICK structure [Windows Controls], _win32_NMHDFILTERBTNCLICK_Structure, _win32_NMHDFILTERBTNCLICK_Structure_cpp, commctrl/LPNMHDFILTERBTNCLICK, commctrl/NMHDFILTERBTNCLICK, controls.NMHDFILTERBTNCLICK, controls._win32_NMHDFILTERBTNCLICK_Structure, tagNMHDFILTERBTNCLICK"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,9 @@ Specifies or receives the attributes of a filter button click.
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
-A handle of an <a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information. 
+A handle of an <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information. 
 
 
 ### -field iItem
@@ -84,7 +84,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775275(v=VS.85).aspx">HDN_FILTERBTNCLICK</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775275(v=VS.85).aspx">HDN_FILTERBTNCLICK</a>
  
 
  

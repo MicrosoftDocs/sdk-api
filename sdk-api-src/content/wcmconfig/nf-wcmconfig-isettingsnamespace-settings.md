@@ -4,10 +4,10 @@ title: ISettingsNamespace::Settings
 author: windows-sdk-content
 description: Retrieves an enumerator for the top-level settings for the namespace.
 old-location: smi\isettingsnamespace_settings.htm
-old-project: SMI
+old-project: smi
 ms.assetid: 86ec9224-5704-4a7d-b554-f9baf3f14531
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: ISettingsNamespace interface [SMI],Settings method, ISettingsNamespace.Settings, ISettingsNamespace::Settings, Settings, Settings method [SMI], Settings method [SMI],ISettingsNamespace interface, smi.isettingsnamespace_settings, wcmconfig/ISettingsNamespace::Settings
 ms.prod: windows
 ms.technology: windows-sdk

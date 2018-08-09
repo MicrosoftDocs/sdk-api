@@ -7,7 +7,7 @@ old-location: automat\icreatetypelib_setguid.htm
 old-project: automat
 ms.assetid: c9afbb9e-3f0a-4862-abb6-82631bae759f
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetGuid method, ICreateTypeLib.SetGuid, ICreateTypeLib::SetGuid, SetGuid, SetGuid method [Automation], SetGuid method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetGuid, automat.icreatetypelib_setguid, oaidl/ICreateTypeLib::SetGuid
 ms.prod: windows
 ms.technology: windows-sdk

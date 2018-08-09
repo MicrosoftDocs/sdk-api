@@ -7,7 +7,7 @@ old-location: wmi\swbemobjectex_refresh_.htm
 old-project: WmiSdk
 ms.assetid: 6aeaa336-fb98-4eda-b746-fc958198d8ae
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemObjectEx interface [Windows Management Instrumentation],Refresh_ method, ISWbemObjectEx.Refresh_, ISWbemObjectEx::Refresh_, Refresh_, Refresh_ method [Windows Management Instrumentation], Refresh_ method [Windows Management Instrumentation],ISWbemObjectEx interface, Refresh_ method [Windows Management Instrumentation],SWbemObjectEx object, SWbemObjectEx object [Windows Management Instrumentation],Refresh_ method, SWbemObjectEx.Refresh_, _hmm_swbemobjectex.refresh_, wmi.swbemobjectex_refresh_
 ms.prod: windows
 ms.technology: windows-sdk

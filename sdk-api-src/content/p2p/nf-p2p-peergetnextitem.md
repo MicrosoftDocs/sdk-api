@@ -7,7 +7,7 @@ old-location: p2p\peergetnextitem.htm
 old-project: p2psdk
 ms.assetid: 015faeb3-82d9-49e5-a451-7394bf83240f
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGetNextItem, PeerGetNextItem function [Peer Networking], p2p.peergetnextitem, p2p/PeerGetNextItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGetNextItem</b> function returns a specific number of items from a peer enumeration.
+The <b>PeerGetNextItem</b> function returns a specific number of items from a peer enumeration.
 
 
 ## -parameters

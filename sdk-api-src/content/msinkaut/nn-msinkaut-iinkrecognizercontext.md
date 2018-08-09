@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognizercontext.htm
 old-project: tablet
 ms.assetid: D3DC08E9-19CC-4281-9C71-CB9B8CBDDB7F
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IInkRecognizerContext, IInkRecognizerContext interface [Tablet PC], IInkRecognizerContext interface [Tablet PC],described, msinkaut/IInkRecognizerContext, tablet.iinkrecognizercontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkRecognizerContext</b> int
 <a href="https://msdn.microsoft.com/0cc319af-cd0b-4089-928b-cae6c86f6f61">Recognition</a>
 </td>
 <td align="left" width="63%">
-
-          Occurs when the <a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa7ed882">InkRecognizerContext</a> has generated results from the <a href="https://msdn.microsoft.com/d3fc8117-4acd-474a-aec0-cb421230ef94">BackgroundRecognize</a> method.
+Occurs when the <a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa7ed882">InkRecognizerContext</a> has generated results from the <a href="https://msdn.microsoft.com/d3fc8117-4acd-474a-aec0-cb421230ef94">BackgroundRecognize</a> method.
         
 
 </td>
@@ -87,8 +86,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkRecognizerContext</b> int
 <a href="https://msdn.microsoft.com/5e86a4d5-c0a7-4283-81cc-ec3a26f74880">RecognitionWithAlternates</a>
 </td>
 <td align="left" width="63%">
-
-          Occurs when the <a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa7ed882">InkRecognizerContext Class</a> has generated results after calling the <a href="https://msdn.microsoft.com/1559678c-c220-4c67-aa0f-566377d95818">BackgroundRecognizeWithAlternates Method</a> method.
+Occurs when the <a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa7ed882">InkRecognizerContext Class</a> has generated results after calling the <a href="https://msdn.microsoft.com/1559678c-c220-4c67-aa0f-566377d95818">BackgroundRecognizeWithAlternates Method</a> method.
         
 
 </td>

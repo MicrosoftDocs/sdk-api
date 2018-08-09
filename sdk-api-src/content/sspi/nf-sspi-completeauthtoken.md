@@ -4,10 +4,10 @@ title: CompleteAuthToken function
 author: windows-sdk-content
 description: Completes an authentication token.
 old-location: security\completeauthtoken.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: a404d0a3-d1ea-4708-87d7-2d216e9a5f5f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CompleteAuthToken, CompleteAuthToken function [Security], _ssp_completeauthtoken, security.completeauthtoken, sspi/CompleteAuthToken
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # CompleteAuthToken function

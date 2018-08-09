@@ -4,10 +4,10 @@ title: MsiProcessMessage function
 author: windows-sdk-content
 description: The MsiProcessMessage function sends an error record to the installer for processing.
 old-location: setup\msiprocessmessage.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 136662bd-b970-4ff3-8ae5-c5e3097ee00d
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: INSTALLMESSAGE_ACTIONDATA, INSTALLMESSAGE_ACTIONSTART, INSTALLMESSAGE_COMMONDATA, INSTALLMESSAGE_ERROR, INSTALLMESSAGE_FATALEXIT, INSTALLMESSAGE_FILESINUSE, INSTALLMESSAGE_INFO, INSTALLMESSAGE_OUTOFDISKSPACE, INSTALLMESSAGE_PROGRESS, INSTALLMESSAGE_RESOLVESOURCE, INSTALLMESSAGE_RMFILESINUSE, INSTALLMESSAGE_USER, INSTALLMESSAGE_WARNING, MsiProcessMessage, MsiProcessMessage function, _msi_msiprocessmessage, msiquery/MsiProcessMessage, setup.msiprocessmessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,8 +68,8 @@ Handle to the installation provided to a DLL custom action or obtained through <
 ### -param eMessageType [in]
 
 The <i>eMessage</i> parameter must be a value specifying one of the following message types. To display a message box with push buttons or icons, use OR-operators to add INSTALLMESSAGE_ERROR, INSTALLMESSAGE_WARNING, or INSTALLMESSAGE_USER to the standard message box styles used by 
-the <a href="https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx">MessageBox</a> and 
-<a href="https://msdn.microsoft.com/library/ms645507(v=VS.85).aspx">MessageBoxEx</a> functions. For more information, see the Remarks below. 
+the <a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a> and 
+<a href="https://msdn.microsoft.com/en-us/library/ms645507(v=VS.85).aspx">MessageBoxEx</a> functions. For more information, see the Remarks below. 
 
 
 
@@ -94,8 +94,7 @@ Premature termination, possibly fatal out of memory.
 </dl>
 </td>
 <td width="60%">
-Formatted error message,<div> </div>
-[1] is message number in 
+Formatted error message,<div> </div>[1] is message number in 
 <a href="https://msdn.microsoft.com/3c817468-cba7-46bf-9208-5e6699c02fb6">Error table</a>.
 
 </td>
@@ -106,8 +105,7 @@ Formatted error message,<div> </div>
 </dl>
 </td>
 <td width="60%">
-Formatted warning message,<div> </div>
-[1] is message number in Error table.
+Formatted warning message,<div> </div>[1] is message number in Error table.
 
 </td>
 </tr>
@@ -117,8 +115,7 @@ Formatted warning message,<div> </div>
 </dl>
 </td>
 <td width="60%">
-User request message,<div> </div>
-[1] is message number in Error table.
+User request message,<div> </div>[1] is message number in Error table.
 
 </td>
 </tr>
@@ -128,8 +125,7 @@ User request message,<div> </div>
 </dl>
 </td>
 <td width="60%">
-Informative message for log,<div> </div>
-not to be displayed.
+Informative message for log,<div> </div>not to be displayed.
 
 </td>
 </tr>
@@ -179,10 +175,7 @@ Insufficient disk space message.
 </dl>
 </td>
 <td width="60%">
-Progress: start of action,<div> </div>
-[1] action name,<div> </div>
-[2] description,<div> </div>
-[3] template for ACTIONDATA messages.
+Progress: start of action,<div> </div>[1] action name,<div> </div>[2] description,<div> </div>[3] template for ACTIONDATA messages.
 
 </td>
 </tr>
@@ -383,7 +376,7 @@ For more information and a code sample, see
 <a href="https://msdn.microsoft.com/101e6b59-3791-450c-9dc6-8930bd665a93">Adding Custom Actions to the ProgressBar</a>.
 
 <h3><a id="Display_of_Message_Boxes"></a><a id="display_of_message_boxes"></a><a id="DISPLAY_OF_MESSAGE_BOXES"></a>Display of Message Boxes</h3>
-To display a message box with push buttons or icons, use OR-operators to add INSTALLMESSAGE_ERROR, INSTALLMESSAGE_WARNING, or INSTALLMESSAGE_USER with the message box options used by <a href="https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx">MessageBox</a> and <a href="https://msdn.microsoft.com/library/ms645507(v=VS.85).aspx">MessageBoxEx</a>. The available push button options are MB_OK, MB_OKCANCEL, MB_ABORTRETRYIGNORE, MB_YESNOCANCEL, MB_YESNO, and MB_RETRYCANCEL. The available default button options are MB_DEFBUTTON1, MB_DEFBUTTON2, and MB_DEFBUTTON3. The available icon options are MB_ICONERROR, MB_ICONQUESTION, MB_ICONWARNING, and MB_ICONINFORMATION. If no icon options is specified, Windows Installer chooses a default icon style based upon the message type.
+To display a message box with push buttons or icons, use OR-operators to add INSTALLMESSAGE_ERROR, INSTALLMESSAGE_WARNING, or INSTALLMESSAGE_USER with the message box options used by <a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a> and <a href="https://msdn.microsoft.com/en-us/library/ms645507(v=VS.85).aspx">MessageBoxEx</a>. The available push button options are MB_OK, MB_OKCANCEL, MB_ABORTRETRYIGNORE, MB_YESNOCANCEL, MB_YESNO, and MB_RETRYCANCEL. The available default button options are MB_DEFBUTTON1, MB_DEFBUTTON2, and MB_DEFBUTTON3. The available icon options are MB_ICONERROR, MB_ICONQUESTION, MB_ICONWARNING, and MB_ICONINFORMATION. If no icon options is specified, Windows Installer chooses a default icon style based upon the message type.
 
 For example, the following call to 
 <b>MsiProcessMessage</b> sends an INSTALLMESSAGE_ERROR message with the MB_ICONWARNING icon and the MB_ABORTRETRYCANCEL buttons.
@@ -418,7 +411,7 @@ For more information on sending messages with
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Installer Action Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Action Functions</a>
 
 
 

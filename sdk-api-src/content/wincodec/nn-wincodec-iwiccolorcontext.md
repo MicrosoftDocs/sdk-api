@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccolorcontext.htm
 old-project: wic
 ms.assetid: b6817676-affb-4bb3-adba-e24e0b75ad10
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWICColorContext, IWICColorContext interface [Windows Imaging Component], IWICColorContext interface [Windows Imaging Component],described, _wic_codec_iwiccolorcontext, wic._wic_codec_iwiccolorcontext, wincodec/IWICColorContext
 ms.prod: windows
 ms.technology: windows-sdk

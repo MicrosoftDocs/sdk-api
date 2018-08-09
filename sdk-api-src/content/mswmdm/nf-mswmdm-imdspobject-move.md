@@ -7,7 +7,7 @@ old-location: wmdm\imdspobject_move.htm
 old-project: WMDM
 ms.assetid: 0b054233-1792-4845-81c9-cf20c81d135f
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Move method, IMDSPObject.Move, IMDSPObject::Move, IMDSPObjectMove, Move, Move method [windows Media Device Manager], Move method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Move, wmdm.imdspobject_move
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Processing mode by which to invoke the <b>Move</b> operation and the method by w
 
 <table>
 <tr>
-<th>
-                  Mode
+<th>Mode
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -91,11 +89,9 @@ The following table lists flags that indicate where the object will be moved to.
 
 <table>
 <tr>
-<th>
-                  Method of move
+<th>Method of move
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

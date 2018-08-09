@@ -7,7 +7,7 @@ old-location: mscs\clusnode_name.htm
 old-project: mscs
 ms.assetid: dc293d40-596d-421c-a4de-16897e4e5282
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusNode object [Failover Cluster],Name property, ClusNode.Name, ISClusNode.get_Name, ISClusNode::get_Name, Name property [Failover Cluster], Name property [Failover Cluster],ClusNode object, _wolf_clusnode.name, get_Name, mscs.clusnode_name
 ms.prod: windows
 ms.technology: windows-sdk

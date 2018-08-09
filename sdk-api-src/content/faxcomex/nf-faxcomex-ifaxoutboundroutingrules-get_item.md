@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutingrules_item.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_73xp.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxOutboundRoutingRules object [Fax Service],Item property, FaxOutboundRoutingRules.Item, IFaxOutboundRoutingRules.get_Item, IFaxOutboundRoutingRules::get_Item, Item property [Fax Service], Item property [Fax Service],FaxOutboundRoutingRules object, _mfax_faxoutboundroutingrules.item, fax._mfax_faxoutboundroutingrules_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Item</b> property returns a <a href="https://msdn.microsoft.com/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object from the <a href="https://msdn.microsoft.com/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a> collection using the routing rule's index.
+The <b>Item</b> property returns a <a href="https://msdn.microsoft.com/en-us/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object from the <a href="https://msdn.microsoft.com/en-us/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a> collection using the routing rule's index.
 
 This property is read-only.
 
@@ -65,15 +65,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689527(v=VS.85).aspx">IFaxOutboundRoutingRules</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689527(v=VS.85).aspx">IFaxOutboundRoutingRules</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693486(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693486(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

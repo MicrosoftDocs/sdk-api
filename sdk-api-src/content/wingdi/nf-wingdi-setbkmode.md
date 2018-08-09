@@ -7,7 +7,7 @@ old-location: gdi\setbkmode.htm
 old-project: gdi
 ms.assetid: 60e4467a-14ab-421e-b174-4b9c0134ce72
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: OPAQUE, SetBkMode, SetBkMode function [Windows GDI], TRANSPARENT, _win32_SetBkMode, gdi.setbkmode, wingdi/SetBkMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,7 @@ The <b>SetBkMode</b> function sets the background mix mode of the specified devi
 A handle to the device context.
 
 
-### -param mode
-
-TBD
-
-
-
-
-#### - iBkMode [in]
+### -param mode [in]
 
 The background mode. This parameter can be one of the following values.
 

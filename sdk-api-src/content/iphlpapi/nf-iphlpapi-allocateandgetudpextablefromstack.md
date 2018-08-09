@@ -7,7 +7,7 @@ old-location: iphlp\allocateandgetudpextablefromstack.htm
 old-project: iphlp
 ms.assetid: 22bb2cc2-c559-4a03-a1ab-9a7fa0442b13
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: AF_INET, AF_INET6, AllocateAndGetUdpExTableFromStack, AllocateAndGetUdpExTableFromStack function [IP Helper], iphlp.allocateandgetudpextablefromstack, iphlpapi/AllocateAndGetUdpExTableFromStack
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ The <b>AllocateAndGetUdpExTableFromStack</b> function retrieves the UDP connecti
 
 
 
-### -param ppUdpTable
+### -param ppUdpTable [out]
 
-TBD
+Pointer to the address of the opaque data that contains the UDP connection table after the function returns.
 
 
 ### -param bOrder [in]
@@ -112,11 +112,6 @@ Retrieve IPv6 UDP addresses.
 </tr>
 </table>
  
-
-
-#### - ppUDPTable [out]
-
-Pointer to the address of the opaque data that contains the UDP connection table after the function returns.
 
 
 ## -returns

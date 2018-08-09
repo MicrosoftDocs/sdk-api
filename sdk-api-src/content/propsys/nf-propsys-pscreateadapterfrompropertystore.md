@@ -7,7 +7,7 @@ old-location: properties\PSCreateAdapterFromPropertyStore.htm
 old-project: properties
 ms.assetid: a3489f95-e790-481a-af6e-f30527dc476c
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: PSCreateAdapterFromPropertyStore, PSCreateAdapterFromPropertyStore function [Windows Properties], _shell_PSCreateAdapterFromPropertyStore, properties.PSCreateAdapterFromPropertyStore, propsys/PSCreateAdapterFromPropertyStore, shell.PSCreateAdapterFromPropertyStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-The adapter object implements <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>, <a href="https://msdn.microsoft.com/library/Bb761452(v=VS.85).aspx">IPropertyStoreCapabilities</a>, and <a href="https://msdn.microsoft.com/477991e5-0882-475c-9178-c3add695dc2c">IObjectProvider</a>.
+The adapter object implements <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>, <a href="shell.IPropertyStoreCapabilities">IPropertyStoreCapabilities</a>, and <a href="https://msdn.microsoft.com/477991e5-0882-475c-9178-c3add695dc2c">IObjectProvider</a>.
 
 Use this function if you need an object that implements <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> with an API that requires an <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface. The object created can also be useful to a namespace extension that wants to provide support for binding to namespace items using <b>IPropertySetStorage</b>. Applications must call this object from only one thread at a time.
 
@@ -107,7 +107,7 @@ The adapter property store makes calls to methods on the <a href="https://msdn.m
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776487(v=VS.85).aspx">PSCreateAdapterFromPropertyStore</a> to use an adapter property store to convert an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> interface into an <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSCreateAdapterFromPropertyStore">PSCreateAdapterFromPropertyStore</a> to use an adapter property store to convert an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> interface into an <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -145,7 +145,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776493(v=VS.85).aspx">PSCreatePropertyStoreFromPropertySetStorage</a>
+<a href="shell.PSCreatePropertyStoreFromPropertySetStorage">PSCreatePropertyStoreFromPropertySetStorage</a>
  
 
  

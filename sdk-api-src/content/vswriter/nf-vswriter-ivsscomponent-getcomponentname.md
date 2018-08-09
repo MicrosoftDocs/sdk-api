@@ -4,10 +4,10 @@ title: IVssComponent::GetComponentName
 author: windows-sdk-content
 description: The GetComponentName method returns the logical name of this component.
 old-location: base\ivsscomponent_getcomponentname.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 24b36ea6-3662-4846-a90b-5c2da578e1fa
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetComponentName, GetComponentName method [VSS], GetComponentName method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetComponentName method, IVssComponent.GetComponentName, IVssComponent::GetComponentName, _win32_ivsscomponent_getcomponentname, base.ivsscomponent_getcomponentname, vswriter/IVssComponent::GetComponentName
 ms.prod: windows
 ms.technology: windows-sdk

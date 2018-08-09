@@ -7,7 +7,7 @@ old-location: winsock\socket_peer_target_name.htm
 old-project: winsock
 ms.assetid: 6e807cc3-f9de-4d15-b337-4a6b4be910c2
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: SOCKET_PEER_TARGET_NAME, SOCKET_PEER_TARGET_NAME structure [Winsock], _SOCKET_PEER_TARGET_NAME, mstcpip/SOCKET_PEER_TARGET_NAME, winsock.socket_peer_target_name
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,15 +83,13 @@ The peer target name for the socket.
 
 
 
-The <b>SOCKET_PEER_TARGET_NAME</b> structure  is supported on Windows Vista
-  and later.
+The <b>SOCKET_PEER_TARGET_NAME</b> structure  is supported on Windows Vistaand later.
 
 The <b>SOCKET_PEER_TARGET_NAME</b> structure  is used by the <a href="https://msdn.microsoft.com/c293658c-d7f9-411d-b6c1-a333592a741c">WSASetSocketPeerTargetName</a> function to specify the peer target name that corresponds to a peer IP address.  This target name is meant to be specified by client applications to securely identify the peer that should be authenticated.
 
 Currently, the only type of security protocol that is supported is IPsec. So specifying an enumeration value  of <b>SOCKET_SECURITY_PROTOCOL_DEFAULT</b> has the same effect as specifying <b>SOCKET_SECURITY_PROTOCOL_IPSEC</b> in the <b>SecurityProtocol</b> member. 
 
-The implementation of IPsec on Windows Vista
-  and Windows Server 2008 only supports computer-to-computer and user-to-computer authentication. As a result, the peer target name specified in the <b>AllStrings</b> member of the <b>SOCKET_PEER_TARGET_NAME</b> structure  should refer to the peer computer principal.
+The implementation of IPsec on Windows Vistaand Windows Server 2008 only supports computer-to-computer and user-to-computer authentication. As a result, the peer target name specified in the <b>AllStrings</b> member of the <b>SOCKET_PEER_TARGET_NAME</b> structure  should refer to the peer computer principal.
 
 
 

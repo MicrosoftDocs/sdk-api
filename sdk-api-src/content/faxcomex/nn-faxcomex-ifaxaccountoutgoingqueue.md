@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccountoutgoingqueue_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingqueue\faxinta_n_ifaxaccountoutgoingqueue_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxAccountOutgoingQueue, IFaxAccountOutgoingQueue interface [Fax Service], IFaxAccountOutgoingQueue interface [Fax Service],described, _mfax_faxaccountoutgoingqueue_cpp, fax._mfax_faxaccountoutgoingqueue_cpp, faxcomex/IFaxAccountOutgoingQueue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,14 +51,14 @@ req.product: Internet Explorer 5
 ## -description
 
 
-Used by a fax client application to retrieve the outbound fax jobs (<a href="https://msdn.microsoft.com/library/ms689505(v=VS.85).aspx">FaxOutgoingJobs</a> object) in the job queue for a particular fax account.
+Used by a fax client application to retrieve the outbound fax jobs (<a href="https://msdn.microsoft.com/en-us/library/ms689505(v=VS.85).aspx">FaxOutgoingJobs</a> object) in the job queue for a particular fax account.
 
-The <b>IFaxAccountOutgoingQueue</b> interface is accessed through the <a href="https://msdn.microsoft.com/library/Aa359052(v=VS.85).aspx">IFaxAccountFolders</a> interface.
+The <b>IFaxAccountOutgoingQueue</b> interface is accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa359052(v=VS.85).aspx">IFaxAccountFolders</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccountOutgoingQueue</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxAccountOutgoingQueue</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccountOutgoingQueue</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxAccountOutgoingQueue</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -97,15 +97,15 @@ Returns the collection of outbound fax jobs in the queue for the current fax acc
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa358945(v=VS.85).aspx">FaxAccountOutgoingQueue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358945(v=VS.85).aspx">FaxAccountOutgoingQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa359052(v=VS.85).aspx">IFaxAccountFolders</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359052(v=VS.85).aspx">IFaxAccountFolders</a>
  
 
  

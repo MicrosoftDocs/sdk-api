@@ -7,7 +7,7 @@ old-location: security\npgetuser.htm
 old-project: secauthn
 ms.assetid: 15fdf8fa-417c-4c1e-803e-6345cb4216e0
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: NPGetUser, NPGetUser function [Security], _mnp_npgetuser, npapi/NPGetUser, security.npgetuser
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,14 +71,7 @@ Pointer to a buffer to receive the user name. This should be a name that can be 
 <a href="https://msdn.microsoft.com/b0d730f7-595e-4ea7-8688-db479dcc40b4">NPAddConnection3</a> function to re-establish the connection with the same user name.
 
 
-### -param lpnBufferLen
-
-TBD
-
-
-
-
-#### - lpBufferSize [in, out]
+### -param lpnBufferLen [in, out]
 
 Pointer to the size, in characters, of the <i>lpUserName</i> buffer. If the call fails because the buffer is not big enough, this location will be used to return the required buffer size.
 

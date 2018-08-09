@@ -7,7 +7,7 @@ old-location: opc\iopcpartenumerator.htm
 old-project: OPC
 ms.assetid: 0a2296b2-a149-439a-abcf-2bc2eb6d1235
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcPartEnumerator, IOpcPartEnumerator interface [Open Packaging Conventions], IOpcPartEnumerator interface [Open Packaging Conventions],described, msopc/IOpcPartEnumerator, opc.iopcpartenumerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,8 +114,7 @@ Moves the current position of the enumerator to the previous <a href="https://ms
 
 To get a pointer to this interface, call the <a href="https://msdn.microsoft.com/7b2a5ae6-b3ac-49b5-a798-9fca450da6d1">IOpcPartSet::GetEnumerator</a> method.
 
-When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the <a href="https://msdn.microsoft.com/4d52bb74-53f5-4c7c-a42e-5d67e330b48c">MoveNext</a>
-          method after creating the enumerator.
+When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the <a href="https://msdn.microsoft.com/4d52bb74-53f5-4c7c-a42e-5d67e330b48c">MoveNext</a>method after creating the enumerator.
 
 <div class="alert"><b>Note</b>  Changes to the enumerator's underlying set will invalidate the enumerator, and all subsequent calls will fail.</div>
 <div> </div>

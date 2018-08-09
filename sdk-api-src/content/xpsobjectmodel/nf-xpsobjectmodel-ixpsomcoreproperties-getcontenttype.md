@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_getcontenttype.htm
 old-project: printdocs
 ms.assetid: 2a032cd7-90b3-427c-bbdf-2265f15c6f23
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetContentType, GetContentType method [XPS Documents and Packaging], GetContentType method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetContentType method, IXpsOMCoreProperties.GetContentType, IXpsOMCoreProperties::GetContentType, xps.ixpsomcoreproperties_getcontenttype, xpsobjectmodel/IXpsOMCoreProperties::GetContentType
 ms.prod: windows
 ms.technology: windows-sdk

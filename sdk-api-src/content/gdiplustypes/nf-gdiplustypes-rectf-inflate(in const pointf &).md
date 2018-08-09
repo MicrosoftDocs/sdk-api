@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_Inflate_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfinflatemethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Inflate, Inflate methods [GDI+], RectF.Inflate, RectF.Inflate(IN const PointF &), RectF::Inflate, RectF::Inflate(IN const PointF &), _gdiplus_CLASS_RectF_Inflate_Methods, gdiplus._gdiplus_CLASS_RectF_Inflate_Methods, gdiplustypes/Inflate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,8 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 			Inflate methods of the 
-			<a href="https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx">RectF</a> class. For a complete list of methods for the 
-			<b>RectF</b> class, see <a href="https://msdn.microsoft.com/library/ms534931(v=VS.85).aspx">RectF Methods</a>. 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a> class. For a complete list of methods for the 
+			<b>RectF</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534931(v=VS.85).aspx">RectF Methods</a>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Method</th>
@@ -62,19 +62,19 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534952(v=VS.85).aspx">Inflate(PointF&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534952(v=VS.85).aspx">Inflate(PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534952(v=VS.85).aspx">RectF::Inflate</a><i>point</i>.<b>X</b><i>point</i>.<b>Y</b> on the top and bottom edges.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534952(v=VS.85).aspx">RectF::Inflate</a><i>point</i>.<b>X</b><i>point</i>.<b>Y</b> on the top and bottom edges.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534953(v=VS.85).aspx">Inflate(REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534953(v=VS.85).aspx">Inflate(REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534953(v=VS.85).aspx">RectF::Inflate</a><i>dx</i><i>dy</i> on the top and bottom edges.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534953(v=VS.85).aspx">RectF::Inflate</a><i>dx</i><i>dy</i> on the top and bottom edges.
 
 </td>
 </tr>

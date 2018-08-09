@@ -7,7 +7,7 @@ old-location: dshow\am_simpleratechange.htm
 old-project: DirectShow
 ms.assetid: 18b33455-b499-4aa9-9fec-41ec2c03a638
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: AM_SimpleRateChange, AM_SimpleRateChange structure [DirectShow], dshow.am_simpleratechange, dvdmedia/AM_SimpleRateChange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          The <b>AM_SimpleRateChange</b> structure is used to change the playback rate for an MPEG-2 stream.
+The <b>AM_SimpleRateChange</b> structure is used to change the playback rate for an MPEG-2 stream.
         
 
 
@@ -63,15 +62,13 @@ req.product: Windows Media Format 9 Series or later
 
 ### -field StartTime
 
-
-            Specifies the time stamp on the input sample when the new rate takes effect. The new rate applies to all samples with a time stamp &gt;= <b>StartTime</b> and less than the start time on the next queued rate segment.
+Specifies the time stamp on the input sample when the new rate takes effect. The new rate applies to all samples with a time stamp &gt;= <b>StartTime</b> and less than the start time on the next queued rate segment.
           
 
 
 ### -field Rate
 
-
-            Specifies the new rate x 10000. Rate is the inverse of speed. For example, if the playback speed is 2x, the rate is 1/2, so the <b>Rate</b> member is set to 5000.
+Specifies the new rate x 10000. Rate is the inverse of speed. For example, if the playback speed is 2x, the rate is 1/2, so the <b>Rate</b> member is set to 5000.
           
 
 
@@ -82,15 +79,11 @@ req.product: Windows Media Format 9 Series or later
 <h3><a id="Version_1.1_Semantics"></a><a id="version_1.1_semantics"></a><a id="VERSION_1.1_SEMANTICS"></a>Version 1.1 Semantics</h3>
 For version 1.1 of this property set, the <b>StartTime</b> member can be -1. This value indicates that the rate change applies to the decoder's <i>most forward</i> sample, defined as the sample at the head of the decoder's outgoing queue.  To get the actual start time of the rate change, query the <a href="https://msdn.microsoft.com/3c7006e7-48fd-4df8-b446-8ee2b024278b">AM_RATE_QueryLastRateSegPTS</a> property.
 
-
-
 The decoder should adjust the time stamps on every queued sample to reflect the new rate. Queued samples might be incompatible with the new rate, especially for audio decoders. If so, the decoder may simply drop the queued samples. After dropping samples, it should set the discontinuity flag on the first sample it delivers.
 
  
 
 In the case where <b>StartTime</b> is -1, but the new rate is incompatible and the decoder does not keep a queue of samples, the decoder should return VFW_E_DVD_WRONG_SPEED from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560721">IKsPropertySet::Set</a> method. The source filter can then set a rate change with a specified (not -1) start time.
-
-
 
 The source filter can schedule a rate change whose start time is earlier than previously queued rate changes. This invalidates any rate changes further down the queue; the decoder should discard them. If <b>StartTime</b> is -1, the decoder should discard all pending rate changes before queuing the new rate change.
 
@@ -129,9 +122,12 @@ In the following diagram, the output time stamp (y) is given by formula
 
 
 
-     y = r(x - xi)
 
-
+             
+             
+             
+             
+             y = r(x - xi)
 
 where x is the input time stamp, r is the rate, and xi is the x-intercept for the current rate. This formula is obtained by solving for the equation y = mx + b at the point xi, where m is the slope (r) and b is the y-intercept. This gives b = -m(xi), which can then be substituted back into the equation y = mx + b.
 
@@ -156,8 +152,6 @@ The decoder can calculate the x-intercept as follows. Given:
     xi2 = x-intercept for the current rate change
 
     x = start time for the current rate change
-
-
 
 The unknown xi2 can be found by setting y = r2(x - xi2) = r1(x - xi1) and solving for xi2. (Refer to the diagram that follows.) This gives the following result:
 

@@ -7,7 +7,7 @@ old-location: com\cogetmalloc.htm
 old-project: com
 ms.assetid: d1d09fbe-ca5c-4480-b807-3afcc043ccb9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: CoGetMalloc, CoGetMalloc function [COM], _com_CoGetMalloc, com.cogetmalloc, combaseapi/CoGetMalloc
 ms.prod: windows
 ms.technology: windows-sdk

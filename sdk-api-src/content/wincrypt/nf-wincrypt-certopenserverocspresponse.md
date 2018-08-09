@@ -4,10 +4,10 @@ title: CertOpenServerOcspResponse function
 author: windows-sdk-content
 description: Opens a handle to an online certificate status protocol (OCSP) response associated with a server certificate chain.
 old-location: security\certopenserverocspresponse.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: c29d1972-b329-4e32-aead-a038130fb85e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CertOpenServerOcspResponse, CertOpenServerOcspResponse function [Security], security.certopenserverocspresponse, wincrypt/CertOpenServerOcspResponse
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,13 +70,6 @@ This parameter is not used and must be zero.
 
 
 ### -param pOpenPara
-
-TBD
-
-
-
-
-#### - pvReserved
 
 This parameter is not used and must be <b>NULL</b>.
 

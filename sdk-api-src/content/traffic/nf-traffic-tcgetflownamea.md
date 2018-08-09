@@ -4,10 +4,10 @@ title: TcGetFlowNameA function
 author: windows-sdk-content
 description: The TcGetFlowName function provides the name of a flow that has been created by the calling client.
 old-location: qos\tcgetflowname.htm
-old-project: QOS
+old-project: qos
 ms.assetid: 49a78c9a-6aac-4348-9f26-dfd331dc83ec
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TcGetFlowName, TcGetFlowName function [QOS], TcGetFlowNameA, TcGetFlowNameW, _gqos_tcgetflowname, qos.tcgetflowname, traffic/TcGetFlowName, traffic/TcGetFlowNameA, traffic/TcGetFlowNameW
 ms.prod: windows
 ms.technology: windows-sdk

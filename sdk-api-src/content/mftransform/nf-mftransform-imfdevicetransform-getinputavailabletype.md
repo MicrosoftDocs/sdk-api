@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_getinputavailabletype.htm
 old-project: stream
 ms.assetid: 7F3DA67A-AC31-43A5-83AF-7744F6AA5810
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 07/30/2018
 ms.keywords: GetInputAvailableType, GetInputAvailableType method [Streaming Media Devices], GetInputAvailableType method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetInputAvailableType method, IMFDeviceTransform.GetInputAvailableType, IMFDeviceTransform::GetInputAvailableType, mftransform/IMFDeviceTransform::GetInputAvailableType, stream.imfdevicetransform_getinputavailabletype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -142,7 +142,6 @@ There is no media type available with the specified index.
 The MFT defines a list of available media types for each input stream and orders them by preference. This method enumerates the available media types for an input stream. To enumerate the available types, increment <i>dwTypeIndex</i> until the method returns <b>MF_E_NO_MORE_TYPES</b>.
 
 <h3><a id="Implementation_notes"></a><a id="implementation_notes"></a><a id="IMPLEMENTATION_NOTES"></a>Implementation notes</h3>
-
 If the MFT stores a media type internally, the MFT should return a clone of the media type, not a pointer to the original type. Otherwise, the caller might modify the type and alter the internal state of the MFT.
 
 

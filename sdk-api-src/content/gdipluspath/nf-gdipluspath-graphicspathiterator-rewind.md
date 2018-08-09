@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_Rewind_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\rewind.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GraphicsPathIterator class [GDI+],Rewind method, GraphicsPathIterator.Rewind, GraphicsPathIterator::Rewind, Rewind, Rewind method [GDI+], Rewind method [GDI+],GraphicsPathIterator class, _gdiplus_CLASS_GraphicsPathIterator_Rewind_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_Rewind_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,14 +75,14 @@ This method does not return a value.
 
 
 The first time you call the 
-				<b>NextSubpath</b> method of an iterator, it gets the first figure (subpath) of that iterator's associated path. The second time, it gets the second figure, and so on. When you call <b>GraphicsPathIterator::Rewind</b>, the sequence starts over; that is, after you call <b>GraphicsPathIterator::Rewind</b>, the next call to <a href="https://msdn.microsoft.com/library/ms535462(v=VS.85).aspx">GraphicsPathIterator::NextSubpath</a> gets the first figure in the path. The <a href="https://msdn.microsoft.com/library/ms535464(v=VS.85).aspx">GraphicsPathIterator::NextMarker</a> and <a href="https://msdn.microsoft.com/library/ms535460(v=VS.85).aspx">GraphicsPathIterator::NextPathType</a> methods behave similarly.
+				<b>NextSubpath</b> method of an iterator, it gets the first figure (subpath) of that iterator's associated path. The second time, it gets the second figure, and so on. When you call <b>GraphicsPathIterator::Rewind</b>, the sequence starts over; that is, after you call <b>GraphicsPathIterator::Rewind</b>, the next call to <a href="https://msdn.microsoft.com/en-us/library/ms535462(v=VS.85).aspx">GraphicsPathIterator::NextSubpath</a> gets the first figure in the path. The <a href="https://msdn.microsoft.com/en-us/library/ms535464(v=VS.85).aspx">GraphicsPathIterator::NextMarker</a> and <a href="https://msdn.microsoft.com/en-us/library/ms535460(v=VS.85).aspx">GraphicsPathIterator::NextPathType</a> methods behave similarly.
 
 
 #### Examples
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object and adds five figures to the path. The code passes the address of that <b>GraphicsPath</b> object to a <a href="https://msdn.microsoft.com/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a> constructor to create an iterator that is associated with the path. The code calls the iterator's <a href="https://msdn.microsoft.com/library/ms535462(v=VS.85).aspx">GraphicsPathIterator::NextSubpath</a> method twice to retrieve the second figure in the path. The <a href="https://msdn.microsoft.com/library/ms535685(v=VS.85).aspx">DrawPath</a> method draws that path in blue. Next, the code calls the <b>GraphicsPathIterator::Rewind</b> method and then calls <b>GraphicsPathIterator::NextSubpath</b> once to obtain the first figure in the path. The <b>DrawPath</b> method draws that figure in red.
+The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object and adds five figures to the path. The code passes the address of that <b>GraphicsPath</b> object to a <a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a> constructor to create an iterator that is associated with the path. The code calls the iterator's <a href="https://msdn.microsoft.com/en-us/library/ms535462(v=VS.85).aspx">GraphicsPathIterator::NextSubpath</a> method twice to retrieve the second figure in the path. The <a href="https://msdn.microsoft.com/en-us/library/ms535685(v=VS.85).aspx">DrawPath</a> method draws that path in blue. Next, the code calls the <b>GraphicsPathIterator::Rewind</b> method and then calls <b>GraphicsPathIterator::NextSubpath</b> once to obtain the first figure in the path. The <b>DrawPath</b> method draws that figure in red.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -145,31 +145,31 @@ VOID RewindExample(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535457(v=VS.85).aspx">GraphicsPathIterator::NextMarker Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535457(v=VS.85).aspx">GraphicsPathIterator::NextMarker Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535460(v=VS.85).aspx">GraphicsPathIterator::NextPathType</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535460(v=VS.85).aspx">GraphicsPathIterator::NextPathType</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535458(v=VS.85).aspx">GraphicsPathIterator::NextSubpath Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535458(v=VS.85).aspx">GraphicsPathIterator::NextSubpath Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536370(v=VS.85).aspx">Paths</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
  
 
  

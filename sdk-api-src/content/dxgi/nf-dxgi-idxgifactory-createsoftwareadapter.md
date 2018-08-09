@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory_createsoftwareadapter.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory_createsoftwareadapter.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/30/2018
 ms.keywords: CreateSoftwareAdapter, CreateSoftwareAdapter method [DXGI], CreateSoftwareAdapter method [DXGI],IDXGIFactory interface, IDXGIFactory interface [DXGI],CreateSoftwareAdapter method, IDXGIFactory.CreateSoftwareAdapter, IDXGIFactory::CreateSoftwareAdapter, direct3ddxgi.idxgifactory_createsoftwareadapter, dxgi/IDXGIFactory::CreateSoftwareAdapter, eb1643db-ba87-e9e9-56a9-b7f505fcd700
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,18 +69,18 @@ Handle to the software adapter's dll. HMODULE can be obtained with <a href="http
 
 ### -param ppAdapter [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a>**</b>
 
-Address of a pointer to an adapter (see <a href="https://msdn.microsoft.com/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a>).
+Address of a pointer to an adapter (see <a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-A <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">return code</a> indicating success or failure.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">return code</a> indicating success or failure.
 
 
 
@@ -103,7 +103,7 @@ The typical calling scenario is to call <a href="https://msdn.microsoft.com/d936
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174535(v=VS.85).aspx">IDXGIFactory</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174535(v=VS.85).aspx">IDXGIFactory</a>
  
 
  

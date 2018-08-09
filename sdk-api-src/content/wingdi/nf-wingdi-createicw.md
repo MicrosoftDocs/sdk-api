@@ -7,7 +7,7 @@ old-location: gdi\createic.htm
 old-project: gdi
 ms.assetid: dcb08ce7-9ded-497c-936c-48d3026a0004
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateIC, CreateIC function [Windows GDI], CreateICA, CreateICW, _win32_CreateIC, gdi.createic, wingdi/CreateIC, wingdi/CreateICA, wingdi/CreateICW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,46 +65,24 @@ The <b>CreateIC</b> function creates an information context for the specified de
 
 
 
-### -param pszDriver
-
-TBD
-
-
-### -param pszDevice
-
-TBD
-
-
-### -param pszPort
-
-TBD
-
-
-### -param pdm
-
-TBD
-
-
-
-
-#### - lpdvmInit [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure containing device-specific initialization data for the device driver. The <a href="https://msdn.microsoft.com/e89a2f6f-2bac-4369-b526-f8e15028698b">DocumentProperties</a> function retrieves this structure filled in for a specified device. The <i>lpdvmInit</i> parameter must be <b>NULL</b> if the device driver is to use the default initialization (if any) specified by the user.
-
-
-#### - lpszDevice [in]
-
-A pointer to a null-terminated character string that specifies the name of the specific output device being used, as shown by the Print Manager (for example, Epson FX-80). It is not the printer model name. The <i>lpszDevice</i> parameter must be used.
-
-
-#### - lpszDriver [in]
+### -param pszDriver [in]
 
 A pointer to a null-terminated character string that specifies the name of the device driver (for example, Epson).
 
 
-#### - lpszOutput
+### -param pszDevice [in]
+
+A pointer to a null-terminated character string that specifies the name of the specific output device being used, as shown by the Print Manager (for example, Epson FX-80). It is not the printer model name. The <i>lpszDevice</i> parameter must be used.
+
+
+### -param pszPort
 
 This parameter is ignored and should be set to <b>NULL</b>. It is provided only for compatibility with 16-bit Windows.
+
+
+### -param pdm [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure containing device-specific initialization data for the device driver. The <a href="https://msdn.microsoft.com/e89a2f6f-2bac-4369-b526-f8e15028698b">DocumentProperties</a> function retrieves this structure filled in for a specified device. The <i>lpdvmInit</i> parameter must be <b>NULL</b> if the device driver is to use the default initialization (if any) specified by the user.
 
 
 ## -returns

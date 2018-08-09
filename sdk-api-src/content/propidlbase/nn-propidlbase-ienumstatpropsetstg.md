@@ -7,7 +7,7 @@ old-location: stg\ienumstatpropsetstg.htm
 old-project: stg
 ms.assetid: 8d5e658f-312c-4c91-8794-808b2e8dd182
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumSTATPROPSETSTG, IEnumSTATPROPSETSTG interface [Structured Storage], IEnumSTATPROPSETSTG interface [Structured Storage],described, _stg_ienumstatpropsetstg, propidlbase/IEnumSTATPROPSETSTG, stg.ienumstatpropsetstg
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>IEnumSTATPROPSETSTG</b> interface iterates through an array of 
 <a href="https://msdn.microsoft.com/8e5cc502-9f96-4f4b-8729-cac4a1ffcd6f">STATPROPSETSTG</a> structures. The <b>STATPROPSETSTG</b> structures contain statistical data about the property sets managed by the current <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> instance. <b>IEnumSTATPROPSETSTG</b> has the same methods as all enumerator interfaces: <a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>, and 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>.

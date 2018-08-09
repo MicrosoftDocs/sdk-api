@@ -4,10 +4,10 @@ title: CredUIParseUserNameA function
 author: windows-sdk-content
 description: The CredUIParseUserName function extracts the domain and user account name from a fully qualified user name.
 old-location: security\creduiparseusername.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 4a7fb207-f940-4610-a740-7bf5d58fb285
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CredUIParseUserName, CredUIParseUserName function [Security], CredUIParseUserNameA, CredUIParseUserNameW, _cred_creduiparseusername, security.creduiparseusername, wincred/CredUIParseUserName, wincred/CredUIParseUserNameA, wincred/CredUIParseUserNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,46 +68,27 @@ The <b>CredUIParseUserName</b> function extracts the domain and user account nam
 TBD
 
 
-### -param user
-
-TBD
-
-
-### -param userBufferSize
-
-TBD
-
-
-### -param domain
-
-TBD
-
-
-### -param domainBufferSize
-
-TBD
-
-
-
-
-#### - pszDomain [out]
-
-Pointer to a <b>null</b>-terminated string that receives the domain name. If <i>pszUserName</i> specifies a certificate, <i>pszDomain</i> will be <b>NULL</b>.
-
-
-#### - pszUser [out]
+### -param user [out]
 
 Pointer to a <b>null</b>-terminated string that receives the user account name.
 
 
-#### - pszUserName [in]
+### -param userBufferSize [in]
 
-Pointer to a <b>null</b>-terminated string that contains the user name to be parsed. The name must be in UPN or down-level format, or a certificate. Typically, <i>pszUserName</i> is received from the 
-<a href="https://msdn.microsoft.com/97a8e750-3e63-4e6f-a875-1e5c49c30dd4">CredUIPromptForCredentials</a> or 
-<a href="https://msdn.microsoft.com/5b5bfe87-8f31-4228-931e-50cfc399b66b">CredUICmdLinePromptForCredentials</a>.
+Maximum number of characters to write to the <i>pszUser</i> string including the terminating <b>null</b> character. 
 
 
-#### - ulDomainMaxChars [in]
+
+
+<div class="alert"><b>Note</b>  CREDUI_MAX_USERNAME_LENGTH does NOT include the terminating <b>null</b> character.</div>
+<div> </div>
+
+### -param domain [out]
+
+Pointer to a <b>null</b>-terminated string that receives the domain name. If <i>pszUserName</i> specifies a certificate, <i>pszDomain</i> will be <b>NULL</b>.
+
+
+### -param domainBufferSize [in]
 
 Maximum number of characters to write to the <i>pszDomain</i> string including the terminating <b>null</b> character. 
 
@@ -117,15 +98,12 @@ Maximum number of characters to write to the <i>pszDomain</i> string including t
 <div class="alert"><b>Note</b>  CREDUI_MAX_DOMAIN_TARGET_LENGTH does NOT include the terminating <b>null</b> character.</div>
 <div> </div>
 
-#### - ulUserMaxChars [in]
+#### - UserName [in]
 
-Maximum number of characters to write to the <i>pszUser</i> string including the terminating <b>null</b> character. 
+Pointer to a <b>null</b>-terminated string that contains the user name to be parsed. The name must be in UPN or down-level format, or a certificate. Typically, <i>pszUserName</i> is received from the 
+<a href="https://msdn.microsoft.com/97a8e750-3e63-4e6f-a875-1e5c49c30dd4">CredUIPromptForCredentials</a> or 
+<a href="https://msdn.microsoft.com/5b5bfe87-8f31-4228-931e-50cfc399b66b">CredUICmdLinePromptForCredentials</a>.
 
-
-
-
-<div class="alert"><b>Note</b>  CREDUI_MAX_USERNAME_LENGTH does NOT include the terminating <b>null</b> character.</div>
-<div> </div>
 
 ## -returns
 

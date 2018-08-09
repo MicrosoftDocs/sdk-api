@@ -7,7 +7,7 @@ old-location: mf\imfmediasink_getcharacteristics.htm
 old-project: medfound
 ms.assetid: a7e8e2af-8b10-47f5-8b09-a7147ace5ba1
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetCharacteristics, GetCharacteristics method [Media Foundation], GetCharacteristics method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetCharacteristics method, IMFMediaSink.GetCharacteristics, IMFMediaSink::GetCharacteristics, MEDIASINK_CANNOT_MATCH_CLOCK, MEDIASINK_CAN_PREROLL, MEDIASINK_CLOCK_REQUIRED, MEDIASINK_FIXED_STREAMS, MEDIASINK_RATELESS, MEDIASINK_REQUIRE_REFERENCE_MEDIATYPE, a7e8e2af-8b10-47f5-8b09-a7147ace5ba1, mf.imfmediasink_getcharacteristics, mfidl/IMFMediaSink::GetCharacteristics
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ Gets the characteristics of the media sink.
 
 ### -param pdwCharacteristics [out]
 
-
-            Receives a bitwise <b>OR</b> of zero or more flags. The following flags are defined:
+Receives a bitwise <b>OR</b> of zero or more flags. The following flags are defined:
           
 
 <table>
@@ -81,8 +80,7 @@ Gets the characteristics of the media sink.
 </dl>
 </td>
 <td width="60%">
-
-                The media sink has a fixed number of streams. It does not support the <a href="https://msdn.microsoft.com/1b05ef87-5559-4310-942c-54ab113eb42d">IMFMediaSink::AddStreamSink</a> and <a href="https://msdn.microsoft.com/f99ee960-7fea-4867-bc24-d7e1d6fcafa5">IMFMediaSink::RemoveStreamSink</a> methods. This flag is a hint to the application.
+The media sink has a fixed number of streams. It does not support the <a href="https://msdn.microsoft.com/1b05ef87-5559-4310-942c-54ab113eb42d">IMFMediaSink::AddStreamSink</a> and <a href="https://msdn.microsoft.com/f99ee960-7fea-4867-bc24-d7e1d6fcafa5">IMFMediaSink::RemoveStreamSink</a> methods. This flag is a hint to the application.
               
 
 </td>
@@ -137,8 +135,7 @@ This flag is obsolete, because all media sinks must support the <a href="https:/
 </dl>
 </td>
 <td width="60%">
-
-                The media sink can accept preroll samples before the presentation clock starts. The media sink exposes the <a href="https://msdn.microsoft.com/7cc93751-4477-4649-b09e-53f519fb1acb">IMFMediaSinkPreroll</a> interface.
+The media sink can accept preroll samples before the presentation clock starts. The media sink exposes the <a href="https://msdn.microsoft.com/7cc93751-4477-4649-b09e-53f519fb1acb">IMFMediaSinkPreroll</a> interface.
               
 
 </td>
@@ -176,8 +173,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -189,8 +185,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The media sink's <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> method has been called.
+The media sink's <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> method has been called.
               
 
 </td>
@@ -205,8 +200,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-
-        The characteristics of a media sink are fixed throughout the life time of the sink.
+The characteristics of a media sink are fixed throughout the life time of the sink.
       
 
 

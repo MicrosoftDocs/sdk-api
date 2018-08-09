@@ -4,10 +4,10 @@ title: SLGetSLIDList function
 author: windows-sdk-content
 description: Gets a list of SLIDs according to the input query ID type and the ID value.
 old-location: security\slgetslidlist.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: e2733f2e-e78b-4a77-a81d-d5913baa4bc4
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLGetSLIDList, SLGetSLIDList function [Security], security.slgetslidlist, slpublic/SLGetSLIDList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLGetSLIDList function

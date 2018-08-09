@@ -7,7 +7,7 @@ old-location: rras\mpradminacceptnewconnection3.htm
 old-project: rras
 ms.assetid: c457b972-e326-4c6d-b146-f6ce4e18e3ea
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminAcceptNewConnection3, MprAdminAcceptNewConnection3 callback, MprAdminAcceptNewConnection3 callback function [RAS], mprapi/MprAdminAcceptNewConnection3, rras.mpradminacceptnewconnection3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,8 +82,7 @@ Pointer to a
 ### -param pRasConnection3 [in]
 
 Pointer to a 
- <a href="https://msdn.microsoft.com/f474563e-01c5-4f2a-aec4-477e0ffc7ab2">RAS_CONNECTION_3</a>
-		 structure that describes this connection.
+ <a href="https://msdn.microsoft.com/f474563e-01c5-4f2a-aec4-477e0ffc7ab2">RAS_CONNECTION_3</a>structure that describes this connection.
 
 
 ## -returns

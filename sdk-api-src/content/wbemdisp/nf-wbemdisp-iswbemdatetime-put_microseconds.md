@@ -7,7 +7,7 @@ old-location: wmi\swbemdatetime_microseconds.htm
 old-project: WmiSdk
 ms.assetid: b810b781-86a3-4730-8114-44d10454f7c3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemDateTime interface [Windows Management Instrumentation],Microseconds property, ISWbemDateTime.get_Microseconds, ISWbemDateTime.put_Microseconds, ISWbemDateTime::put_Microseconds, Microseconds property [Windows Management Instrumentation], Microseconds property [Windows Management Instrumentation],ISWbemDateTime interface, Microseconds property [Windows Management Instrumentation],SWbemDateTime object, SWbemDateTime object [Windows Management Instrumentation],Microseconds property, SWbemDateTime.Microseconds, _hmm_swbemdatetime.microseconds, put_Microseconds, wmi.swbemdatetime_microseconds
 ms.prod: windows
 ms.technology: windows-sdk

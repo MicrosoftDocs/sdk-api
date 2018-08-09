@@ -7,7 +7,7 @@ old-location: wer\werstoregetnextreportkey.htm
 old-project: wer
 ms.assetid: 781D54A9-6F51-445E-89A8-A0C944081B81
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 08/06/2018
 ms.keywords: WerStoreGetNextReportKey, WerStoreGetNextReportKey function [Windows Error Reporting], wer.werstoregetnextreportkey, werapi/WerStoreGetNextReportKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,24 +63,12 @@ Gets a reference to the next report in the error report store.
 
 ### -param hReportStore
 
-TBD
+The error report store (previously retrieved with <a href="https://msdn.microsoft.com/FA7E0EC6-00F1-45E2-BE34-D732965FBA15">WerStoreOpen</a>).
 
 
 ### -param ppszReportKey
 
-TBD
-
-
-
-
-#### - reportKey
-
 A pointer to the report key string. On a successful call, this will point to the retrieved report key.
-
-
-#### - store
-
-The error report store (previously retrieved with <a href="https://msdn.microsoft.com/FA7E0EC6-00F1-45E2-BE34-D732965FBA15">WerStoreOpen</a>).
 
 
 ## -returns

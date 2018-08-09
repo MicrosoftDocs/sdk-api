@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getalertpriority.htm
 old-project: mstv
 ms.assetid: 3862ae19-972b-4822-8b52-5a868a2fc58d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetAlertPriority, GetAlertPriority method [Microsoft TV Technologies], GetAlertPriority method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetAlertPriority method, ISCTE_EAS.GetAlertPriority, ISCTE_EAS::GetAlertPriority, ISCTE_EASGetAlertPriority, atscpsipparser/ISCTE_EAS::GetAlertPriority, mstv.iscte_eas_getalertpriority
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,8 +60,7 @@ The <b>GetAlertPriority</b> method returns the alert priority.
 
 ### -param pbVal [out]
 
-
-            Receives the alert_priority field.
+Receives the alert_priority field.
           
 
 

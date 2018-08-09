@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effect_ispool.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_ispool.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 82637aae-8141-d7a4-6168-bdd7cd3afa44, ID3D10Effect interface [Direct3D 10],IsPool method, ID3D10Effect.IsPool, ID3D10Effect::IsPool, IsPool, IsPool method [Direct3D 10], IsPool method [Direct3D 10],ID3D10Effect interface, d3d10effect/ID3D10Effect::IsPool, direct3d10.id3d10effect_ispool
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Test an effect to see if it is part of a memory pool.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
-<b>TRUE</b> if the effect is pooled; otherwise <b>FALSE</b>. See <a href="https://msdn.microsoft.com/library/Bb173667(v=VS.85).aspx">ID3D10EffectPool Interface</a>.
+<b>TRUE</b> if the effect is pooled; otherwise <b>FALSE</b>. See <a href="https://msdn.microsoft.com/en-us/library/Bb173667(v=VS.85).aspx">ID3D10EffectPool Interface</a>.
 
 
 
@@ -76,7 +76,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a>
  
 
  

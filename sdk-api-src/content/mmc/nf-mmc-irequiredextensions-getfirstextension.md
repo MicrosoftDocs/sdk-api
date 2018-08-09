@@ -7,7 +7,7 @@ old-location: mmc\irequiredextensions_getfirstextension.htm
 old-project: MMC
 ms.assetid: 1c84d6ab-c855-4b89-8e36-0794e3ffdb85
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: GetFirstExtension, GetFirstExtension method [MMC], GetFirstExtension method [MMC],IRequiredExtensions interface, IRequiredExtensions interface [MMC],GetFirstExtension method, IRequiredExtensions.GetFirstExtension, IRequiredExtensions::GetFirstExtension, _slate_irequiredextensions_getfirstextension, mmc.irequiredextensions_getfirstextension, mmc/IRequiredExtensions::GetFirstExtension
 ms.prod: windows
 ms.technology: windows-sdk

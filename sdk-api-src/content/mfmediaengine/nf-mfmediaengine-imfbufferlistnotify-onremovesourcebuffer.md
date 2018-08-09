@@ -7,7 +7,7 @@ old-location: mf\imfbufferlistnotify_onremovesourcebuffer.htm
 old-project: medfound
 ms.assetid: 2b203ba3-d5b8-4ab9-ae3e-74c289d74749
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFBufferListNotify interface [Media Foundation],OnRemoveSourceBuffer method, IMFBufferListNotify.OnRemoveSourceBuffer, IMFBufferListNotify::OnRemoveSourceBuffer, OnRemoveSourceBuffer, OnRemoveSourceBuffer method [Media Foundation], OnRemoveSourceBuffer method [Media Foundation],IMFBufferListNotify interface, mf.imfbufferlistnotify_onremovesourcebuffer, mfmediaengine/IMFBufferListNotify::OnRemoveSourceBuffer
 ms.prod: windows
 ms.technology: windows-sdk

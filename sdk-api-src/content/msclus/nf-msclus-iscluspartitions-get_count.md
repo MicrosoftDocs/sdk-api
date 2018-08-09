@@ -7,7 +7,7 @@ old-location: mscs\cluspartitions_count.htm
 old-project: mscs
 ms.assetid: 5d5016cd-47da-4601-bb63-d6365b18ee5d
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusPartitions collection [Failover Cluster],Count property, ClusPartitions.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusPartitions collection, ISClusPartitions.get_Count, ISClusPartitions::get_Count, _wolf_cluspartitions.count, get_Count, mscs.cluspartitions_count
 ms.prod: windows
 ms.technology: windows-sdk

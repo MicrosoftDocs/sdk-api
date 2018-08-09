@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapitransportstreambuffer_payloadoffset.htm
 old-project: rdp
 ms.assetid: 2d684e5d-65b5-4216-8256-d861028220c4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer interface [RDP],PayloadOffset property, IRDPSRAPITransportStreamBuffer.PayloadOffset, IRDPSRAPITransportStreamBuffer.get_PayloadOffset, IRDPSRAPITransportStreamBuffer::PayloadOffset, IRDPSRAPITransportStreamBuffer::get_PayloadOffset, IRDPSRAPITransportStreamBuffer::put_PayloadOffset, PayloadOffset property [RDP], PayloadOffset property [RDP],IRDPSRAPITransportStreamBuffer interface, get_PayloadOffset, rdp.irdpsrapitransportstreambuffer_payloadoffset, rdpencomapi/IRDPSRAPITransportStreamBuffer::PayloadOffset, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_PayloadOffset, rdpencomapi/IRDPSRAPITransportStreamBuffer::put_PayloadOffset
 ms.prod: windows
 ms.technology: windows-sdk

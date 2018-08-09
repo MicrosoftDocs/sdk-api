@@ -7,7 +7,7 @@ old-location: mscs\changeresourceprocessfordumps.htm
 old-project: mscs
 ms.assetid: A404752F-4758-4133-8AD3-3137A4CA77D5
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ChangeResourceProcessForDumps, ChangeResourceProcessForDumps callback, ChangeResourceProcessForDumps callback function [Failover Cluster], PCHANGE_RESOURCE_PROCESS_FOR_DUMPS, PCHANGE_RESOURCE_PROCESS_FOR_DUMPS callback function [Failover Cluster], mscs.changeresourceprocessfordumps, resapi/ChangeResourceProcessForDumps, resapi/PCHANGE_RESOURCE_PROCESS_FOR_DUMPS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,22 +58,22 @@ The <b>PCHANGE_RESOURCE_PROCESS_FOR_DUMPS</b> type defines a pointer to this fun
 
 
 
-### -param resource [in]
+### -param resource [in] [in]
 
 TBD
 
 
-### -param processName [in]
+### -param processName [in] [in]
 
 TBD
 
 
-### -param processId [in]
+### -param processId [in] [in]
 
 TBD
 
 
-### -param isAdd [in]
+### -param isAdd [in] [in]
 
 TBD
 

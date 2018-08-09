@@ -4,10 +4,10 @@ title: D2D_VECTOR_2F
 author: windows-sdk-content
 description: A vector of 2 FLOAT values (x, y).
 old-location: direct2d\d2d1_vector_2f.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: DD180090-D2F4-4DF3-8652-101713C01AE4
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D2D1_VECTOR_2F, D2D1_VECTOR_2F structure [Direct2D], D2D_VECTOR_2F, D2D_VECTOR_2F structure [Direct2D], d2d1_1/D2D1_VECTOR_2F, dcommon/D2D1_VECTOR_2F, direct2d.d2d1_vector_2f
 ms.prod: windows
 ms.technology: windows-sdk

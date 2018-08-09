@@ -7,7 +7,7 @@ old-location: p2p\peergraphconnect.htm
 old-project: p2psdk
 ms.assetid: 76a2c54d-4424-4aa3-9b62-3ebe88b63c9f
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphConnect, PeerGraphConnect function [Peer Networking], p2p.peergraphconnect, p2p/PeerGraphConnect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphConnect</b> function attempts to make a connection to a specified node in a peer graph.  This function starts an asynchronous operation.  The calling application must wait for a <b>PEER_GRAPH_EVENT_NEIGHBOR_CONNECTION</b>  event to determine if the connection attempt is successful.
+The <b>PeerGraphConnect</b> function attempts to make a connection to a specified node in a peer graph.  This function starts an asynchronous operation.  The calling application must wait for a <b>PEER_GRAPH_EVENT_NEIGHBOR_CONNECTION</b>  event to determine if the connection attempt is successful.
 
 
 ## -parameters
@@ -157,8 +156,7 @@ A graph must be  initialized with a call to <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/09476d3b-ec65-40a2-90ee-a20be230deca">
-        PEER_ADDRESS</a>
+<a href="https://msdn.microsoft.com/09476d3b-ec65-40a2-90ee-a20be230deca">PEER_ADDRESS</a>
 
 
 

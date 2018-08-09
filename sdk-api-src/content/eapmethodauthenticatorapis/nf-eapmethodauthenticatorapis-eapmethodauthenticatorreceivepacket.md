@@ -7,7 +7,7 @@ old-location: eaphost\eapmethodauthenticatorreceivepacket.htm
 old-project: eaphost
 ms.assetid: 93505c06-fc77-44e6-8ca2-e52ee67ca267
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapMethodAuthenticatorReceivePacket, EapMethodAuthenticatorReceivePacket function [EAPHost], eaphost.eapmethodauthenticatorreceivepacket, eapmethodauthenticatorapis/EapMethodAuthenticatorReceivePacket
 ms.prod: windows
 ms.technology: windows-sdk

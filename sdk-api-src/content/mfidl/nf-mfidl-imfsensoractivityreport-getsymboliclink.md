@@ -7,7 +7,7 @@ old-location: mf\imfsensoractivityreport_getsymboliclink.htm
 old-project: medfound
 ms.assetid: BF0BDB21-DE87-4177-A94F-8BA8FD571B02
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetSymbolicLink, GetSymbolicLink method [Media Foundation], GetSymbolicLink method [Media Foundation],IMFSensorActivityReport interface, IMFSensorActivityReport interface [Media Foundation],GetSymbolicLink method, IMFSensorActivityReport.GetSymbolicLink, IMFSensorActivityReport::GetSymbolicLink, mf.imfsensoractivityreport_getsymboliclink, mfidl/IMFSensorActivityReport::GetSymbolicLink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ Receives the number of characters that were written into the <i>SymbolicLink</i>
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -97,8 +96,7 @@ Receives the number of characters that were written into the <i>SymbolicLink</i>
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>

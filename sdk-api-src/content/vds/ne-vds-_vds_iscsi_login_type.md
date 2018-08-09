@@ -4,10 +4,10 @@ title: "_VDS_ISCSI_LOGIN_TYPE"
 author: windows-sdk-content
 description: Defines the set of valid types for logging into an iSCSI target.
 old-location: base\vds_iscsi_login_type.htm
-old-project: VDS
+old-project: vds
 ms.assetid: d40db9ab-6fa5-4efb-83e8-ce1dce5fe0c2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: VDS_ILT_BOOT, VDS_ILT_MANUAL, VDS_ILT_PERSISTENT, VDS_ISCSI_LOGIN_TYPE, VDS_ISCSI_LOGIN_TYPE enumeration [VDS], _VDS_ISCSI_LOGIN_TYPE, base.vds_iscsi_login_type, vds/VDS_ILT_BOOT, vds/VDS_ILT_MANUAL, vds/VDS_ILT_PERSISTENT, vds/VDS_ISCSI_LOGIN_TYPE, vdshwprv/VDS_ILT_BOOT, vdshwprv/VDS_ILT_MANUAL, vdshwprv/VDS_ILT_PERSISTENT, vdshwprv/VDS_ISCSI_LOGIN_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

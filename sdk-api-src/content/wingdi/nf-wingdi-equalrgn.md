@@ -7,7 +7,7 @@ old-location: gdi\equalrgn.htm
 old-project: gdi
 ms.assetid: c7829998-78f4-4334-bf34-92aad12555f5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EqualRgn, EqualRgn function [Windows GDI], _win32_EqualRgn, gdi.equalrgn, wingdi/EqualRgn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,24 +63,12 @@ The <b>EqualRgn</b> function checks the two specified regions to determine wheth
 
 
 
-### -param hrgn1
-
-TBD
-
-
-### -param hrgn2
-
-TBD
-
-
-
-
-#### - hSrcRgn1 [in]
+### -param hrgn1 [in]
 
 Handle to a region.
 
 
-#### - hSrcRgn2 [in]
+### -param hrgn2 [in]
 
 Handle to a region.
 

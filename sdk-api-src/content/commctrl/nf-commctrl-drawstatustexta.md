@@ -7,7 +7,7 @@ old-location: controls\DrawStatusText.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\status\functions\drawstatustext.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DrawStatusText, DrawStatusText function [Windows Controls], DrawStatusTextA, DrawStatusTextW, SBT_NOBORDERS, SBT_POPOUT, SBT_RTLREADING, _win32_DrawStatusText, _win32_DrawStatusText_cpp, commctrl/DrawStatusText, commctrl/DrawStatusTextA, commctrl/DrawStatusTextW, controls.DrawStatusText, controls._win32_DrawStatusText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,9 @@ The <b>DrawStatusText</b> function draws the specified text in the style of a st
 
 ### -param hDC
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HDC</a></b>
+
+Handle to the display context for the window. 
 
 
 ### -param lprc
@@ -123,13 +125,6 @@ Indicates that the string pointed to by
 </tr>
 </table>
  
-
-
-#### - hdc
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HDC</a></b>
-
-Handle to the display context for the window. 
 
 
 ## -returns

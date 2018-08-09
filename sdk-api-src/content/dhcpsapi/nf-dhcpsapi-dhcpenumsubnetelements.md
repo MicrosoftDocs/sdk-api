@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumsubnetelements.htm
 old-project: dhcp
 ms.assetid: 1e2f1476-2a73-4298-80f7-c57efdc10fd2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpEnumSubnetElements, DhcpEnumSubnetElements function [DHCP], dhcp.dhcpenumsubnetelements, dhcpsapi/DhcpEnumSubnetElements
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpEnumSubnetElements</b> function returns an enumerated list of elements for a specific DHCP subnet.
+The <b>DhcpEnumSubnetElements</b> function returns an enumerated list of elements for a specific DHCP subnet.
 
 
 ## -parameters
@@ -171,13 +170,11 @@ The specified IPv4 subnet does not exist on the DHCP server.
 
 
 
-<a href="https://msdn.microsoft.com/50fbcae7-ea0c-4b46-a042-d463ab496e12">
-		  DHCP_SUBNET_ELEMENT_INFO_ARRAY</a>
+<a href="https://msdn.microsoft.com/50fbcae7-ea0c-4b46-a042-d463ab496e12">DHCP_SUBNET_ELEMENT_INFO_ARRAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/291be329-0588-4b67-835f-4f2b2369772a">
-		  DHCP_SUBNET_ELEMENT_TYPE</a>
+<a href="https://msdn.microsoft.com/291be329-0588-4b67-835f-4f2b2369772a">DHCP_SUBNET_ELEMENT_TYPE</a>
 
 
 

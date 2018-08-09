@@ -7,7 +7,7 @@ old-location: shell\PathCchCombineEx.htm
 old-project: shell
 ms.assetid: 798c2e49-04a5-4270-b584-41faf1519e4b
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PATHCCH_ALLOW_LONG_PATHS, PATHCCH_DO_NOT_NORMALIZE_SEGMENTS, PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH, PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS, PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS, PATHCCH_NONE, PathCchCombineEx, PathCchCombineEx function [Windows Shell], pathcch/PathCchCombineEx, shell.PathCchCombineEx
 ms.prod: windows
 ms.technology: windows-sdk

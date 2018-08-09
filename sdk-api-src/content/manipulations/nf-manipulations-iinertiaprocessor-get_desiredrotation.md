@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_desiredrotation.htm
 old-project: wintouch
 ms.assetid: 42fcda66-8992-4a44-b4d5-04d4f2c7e25a
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/06/2018
 ms.keywords: DesiredRotation property [Windows Touch], DesiredRotation property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredRotation property, IInertiaProcessor.DesiredRotation, IInertiaProcessor.get_DesiredRotation, IInertiaProcessor::DesiredRotation, IInertiaProcessor::get_DesiredRotation, IInertiaProcessor::put_DesiredRotation, get_DesiredRotation, manipulations/IInertiaProcessor::DesiredRotation, manipulations/IInertiaProcessor::get_DesiredRotation, manipulations/IInertiaProcessor::put_DesiredRotation, wintouch.iinertiaprocessor_desiredrotation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,8 +67,7 @@ This property is read/write.
 
 <b>DesiredRotation</b> and <a href="https://msdn.microsoft.com/ee3bb3c8-4d7d-424b-abc9-db7307793794">DesiredAngularDeceleration</a> are mutually exclusive.  If one is set, the other should be NaN.
 
-
-        If inertia processing has already started, setting <b>DesiredRotation</b> will reset the inertia engine to the initial state with new deceleration value applied.
+If inertia processing has already started, setting <b>DesiredRotation</b> will reset the inertia engine to the initial state with new deceleration value applied.
       
 
 Call this function to set the initial state of inertia. You would call this function most likely during the <a href="https://msdn.microsoft.com/1284df32-f4e8-43b3-b825-9172ad39f0e6">ManipulationCompleted</a> event of the <a href="https://msdn.microsoft.com/963f87c1-e128-4bd5-9f28-d49418f768fb">IManipulationProcessor</a> or in the constructor of the <a href="https://msdn.microsoft.com/8dc171eb-0c6e-41dd-b506-5f91ea703a53">IInertiaProcessor</a> interface.

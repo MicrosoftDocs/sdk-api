@@ -7,7 +7,7 @@ old-location: gdi\selectpalette.htm
 old-project: gdi
 ms.assetid: 1fc3356f-6fa3-444f-b224-b953acd2394b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SelectPalette, SelectPalette function [Windows GDI], _win32_SelectPalette, gdi.selectpalette, wingdi/SelectPalette
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,28 +67,16 @@ The <b>SelectPalette</b> function selects the specified logical palette into a d
 A handle to the device context.
 
 
-### -param hPal
+### -param hPal [in]
 
-TBD
-
-
-### -param bForceBkgd
-
-TBD
+A handle to the logical palette to be selected.
 
 
-
-
-#### - bForceBackground [in]
+### -param bForceBkgd [in]
 
 Specifies whether the logical palette is forced to be a background palette. If this value is <b>TRUE</b>, the <a href="https://msdn.microsoft.com/1c744ad2-09bc-455f-bc3c-9a2583b57a30">RealizePalette</a> function causes the logical palette to be mapped to the colors already in the physical palette in the best possible way. This is always done, even if the window for which the palette is realized belongs to a thread without active focus.
 
 If this value is <b>FALSE</b>, <a href="https://msdn.microsoft.com/1c744ad2-09bc-455f-bc3c-9a2583b57a30">RealizePalette</a> causes the logical palette to be copied into the device palette when the application is in the foreground. (If the <i>hdc</i> parameter is a memory device context, this parameter is ignored.)
-
-
-#### - hpal [in]
-
-A handle to the logical palette to be selected.
 
 
 ## -returns

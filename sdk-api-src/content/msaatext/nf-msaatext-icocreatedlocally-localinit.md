@@ -7,7 +7,7 @@ old-location: winauto\icocreatedlocally_icocreatedlocally__localinit.htm
 old-project: WinAuto
 ms.assetid: c2ad4462-4e8a-4f1f-8e44-b1494ca37399
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ICoCreatedLocally interface [Windows Accessibility],LocalInit method, ICoCreatedLocally.LocalInit, ICoCreatedLocally::LocalInit, LocalInit, LocalInit method [Windows Accessibility], LocalInit method [Windows Accessibility],ICoCreatedLocally interface, _msaa_ICoCreatedLocally_LocalInit, msaa.icocreatedlocally_icocreatedlocally__localinit, msaatext/ICoCreatedLocally::LocalInit, winauto.icocreatedlocally_icocreatedlocally__localinit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 
 
 Implemented by clients to return information about the local object.<div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
-<a href="http://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>
-for more information on advanced text input and natural language technologies.
+<a href="http://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		</div>
 <div> </div>
 

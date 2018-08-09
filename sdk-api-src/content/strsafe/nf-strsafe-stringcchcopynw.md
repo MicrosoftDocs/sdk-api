@@ -7,7 +7,7 @@ old-location: menurc\stringcchcopyn.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopyn.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: StringCchCopyN, StringCchCopyN function [Menus and Other Resources], StringCchCopyNA, StringCchCopyNW, _shell_StringCchCopyN, _shell_stringcchcopyn_cpp, menurc.stringcchcopyn, strsafe/StringCchCopyN, strsafe/StringCchCopyNA, strsafe/StringCchCopyNW, winui._shell_stringcchcopyn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,14 +86,7 @@ Type: <b>LPCTSTR</b>
 The source string. This string must be readable up to <i>cchSrc</i> characters or a null terminator, whichever comes first.
 
 
-### -param cchToCopy
-
-TBD
-
-
-
-
-#### - cchSrc [in]
+### -param cchToCopy [in]
 
 Type: <b>size_t</b>
 

@@ -7,7 +7,7 @@ old-location: display\drvgetglyphmode.htm
 old-project: display
 ms.assetid: 8e11c4e7-0203-4445-8f33-3b928161c62a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: DrvGetGlyphMode, DrvGetGlyphMode function [Display Devices], ddifncs_e5ac278d-3417-4b76-aa0f-7fd2906f8137.xml, display.drvgetglyphmode, winddi/DrvGetGlyphMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ TBD
 
 
 
-#### - dhpdev [in]
+#### - [in]
 
 Handle to a physical device's <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a> structure.
 

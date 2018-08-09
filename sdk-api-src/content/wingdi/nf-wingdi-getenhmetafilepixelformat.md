@@ -7,7 +7,7 @@ old-location: opengl\getenhmetafilepixelformat.htm
 old-project: OpenGL
 ms.assetid: 80209210-5caa-44a9-a791-991b257d8d28
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: GetEnhMetaFilePixelFormat, GetEnhMetaFilePixelFormat function [OpenGL], _ogl_GetEnhMetaFilePixelFormat, opengl.getenhmetafilepixelformat, wingdi/GetEnhMetaFilePixelFormat
 ms.prod: windows
 ms.technology: windows-sdk

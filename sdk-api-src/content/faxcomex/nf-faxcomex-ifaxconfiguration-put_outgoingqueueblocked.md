@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_BlockOutgoingQueue_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\blockoutgoingqueue.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxConfiguration object [Fax Service],OutgoingQueueBlocked property, FaxConfiguration.OutgoingQueueBlocked, IFaxConfiguration.put_OutgoingQueueBlocked, IFaxConfiguration::put_OutgoingQueueBlocked, OutgoingQueueBlocked property [Fax Service], OutgoingQueueBlocked property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_BlockOutgoingQueue, fax._mfax_FaxConfiguration_BlockOutgoingQueue_vb, put_OutgoingQueueBlocked
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa358913(v=VS.85).aspx">FaxConfiguration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358913(v=VS.85).aspx">FaxConfiguration</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: controls\NMTBDISPINFO.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbdispinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPNMTBDISPINFOA, LPNMTBDISPINFO, LPNMTBDISPINFO structure pointer [Windows Controls], NMTBDISPINFO, NMTBDISPINFO structure [Windows Controls], NMTBDISPINFOA, NMTBDISPINFOW, TBNF_DI_SETITEM, TBNF_IMAGE, TBNF_TEXT, _win32_NMTBDISPINFO, _win32_NMTBDISPINFO_cpp, commctrl/LPNMTBDISPINFO, commctrl/NMTBDISPINFO, commctrl/NMTBDISPINFOA, commctrl/NMTBDISPINFOW, controls.NMTBDISPINFO, controls._win32_NMTBDISPINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Contains and receives display information for a toolbar item. This structure is used with the <a href="https://msdn.microsoft.com/library/Bb787268(v=VS.85).aspx">TBN_GETDISPINFO</a> notification code. 
+Contains and receives display information for a toolbar item. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb787268(v=VS.85).aspx">TBN_GETDISPINFO</a> notification code. 
 
 
 ## -struct-fields
@@ -62,10 +62,10 @@ Contains and receives display information for a toolbar item. This structure is 
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field dwMask
@@ -106,7 +106,7 @@ Not currently implemented.
 </dl>
 </td>
 <td width="60%">
-Set this flag when processing <a href="https://msdn.microsoft.com/library/Bb787268(v=VS.85).aspx">TBN_GETDISPINFO</a>; the toolbar control will retain the supplied information and not request it again.
+Set this flag when processing <a href="https://msdn.microsoft.com/en-us/library/Bb787268(v=VS.85).aspx">TBN_GETDISPINFO</a>; the toolbar control will retain the supplied information and not request it again.
 
 </td>
 </tr>

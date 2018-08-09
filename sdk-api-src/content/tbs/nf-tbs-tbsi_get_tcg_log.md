@@ -4,10 +4,10 @@ title: Tbsi_Get_TCG_Log function
 author: windows-sdk-content
 description: Retrieves the most recent Windows Boot Configuration Log (WBCL), also referred to as a TCG log.
 old-location: tbs\tbsi_get_tcg_log.htm
-old-project: TBS
+old-project: tbs
 ms.assetid: f52c71fd-383b-4c32-9b49-8904ffb692c1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Tbsi_Get_TCG_Log, Tbsi_Get_TCG_Log function [TBS], tbs.tbsi_get_tcg_log, tbs/Tbsi_Get_TCG_Log
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,24 +64,12 @@ Retrieves the most recent Windows Boot Configuration Log (WBCL), also referred t
 The TBS handle of the context that is retrieving the log. You get this parameter from a previous call to the <a href="https://msdn.microsoft.com/5f19f649-2132-4fd8-a346-4be73fb8917c">Tbsi_Context_Create</a> function.
 
 
-### -param pOutputBuf
-
-TBD
-
-
-### -param pOutputBufLen
-
-TBD
-
-
-
-
-#### - pabOutput [out]
+### -param pOutputBuf [out]
 
 A pointer to a buffer to receive  and store the WBCL. This parameter may be NULL to estimate the required buffer when the location pointed to by <i>pcbOutput</i> is also 0 on input.
 
 
-#### - pcbOutput [in, out]
+### -param pOutputBufLen [in, out]
 
 A pointer to an unsigned long integer that, on input, specifies the size, in bytes, of the output buffer.  If the function succeeds, this parameter, on output, receives the size, in bytes, of the data pointed to by <i>pOutputBuf</i>. If the function fails, this parameter does not receive a value.
 

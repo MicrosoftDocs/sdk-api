@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_gssetsamplers.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gssetsamplers.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 1c08811a-830c-451d-31b2-e679c42bcf69, GSSetSamplers, GSSetSamplers method [Direct3D 10], GSSetSamplers method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSSetSamplers method, ID3D10Device.GSSetSamplers, ID3D10Device::GSSetSamplers, d3d10/ID3D10Device::GSSetSamplers, direct3d10.id3d10device_gssetsamplers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,9 +75,9 @@ Number of samplers in the array. Each pipeline stage has a total of 16 sampler s
 
 ### -param ppSamplers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173833(v=VS.85).aspx">ID3D10SamplerState</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173833(v=VS.85).aspx">ID3D10SamplerState</a>*</b>
 
-Pointer to an array of sampler-state interfaces (see <a href="https://msdn.microsoft.com/library/Bb173833(v=VS.85).aspx">ID3D10SamplerState</a>). See Remarks.
+Pointer to an array of sampler-state interfaces (see <a href="https://msdn.microsoft.com/en-us/library/Bb173833(v=VS.85).aspx">ID3D10SamplerState</a>). See Remarks.
 
 
 ## -returns
@@ -131,7 +131,7 @@ The method will not hold a reference to the interfaces passed in. For that reaso
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getcurrentsubpicture.htm
 old-project: DirectShow
 ms.assetid: 92731904-2fb7-4dc2-b77f-1c40a002c469
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: GetCurrentSubpicture, GetCurrentSubpicture method [DirectShow], GetCurrentSubpicture method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentSubpicture method, IDvdInfo.GetCurrentSubpicture, IDvdInfo::GetCurrentSubpicture, IDvdInfoGetCurrentSubpicture, dshow.idvdinfo_getcurrentsubpicture, strmif/IDvdInfo::GetCurrentSubpicture
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,14 +79,14 @@ Retrieves the number of available subpicture streams, the currently selected sub
 Pointer to a value indicating whether the subpicture display is disabled.
 
 
-#### - pnCurrentStream [out]
-
-Pointer to the retrieved number of the currently selected subpicture stream.
-
-
 #### - pnStreamsAvailable [out]
 
 Pointer to the retrieved number of available subpicture streams.
+
+
+#### - pnCurrentStream [out]
+
+Pointer to the retrieved number of the currently selected subpicture stream.
 
 
 ## -returns

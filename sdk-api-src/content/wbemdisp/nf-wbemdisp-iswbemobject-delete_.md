@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_delete_.htm
 old-project: WmiSdk
 ms.assetid: bf1db667-4bd5-4717-bc0b-5bffe9d0f4fb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: Delete_, Delete_ method [Windows Management Instrumentation], Delete_ method [Windows Management Instrumentation],ISWbemObject interface, Delete_ method [Windows Management Instrumentation],SWbemObject object, ISWbemObject interface [Windows Management Instrumentation],Delete_ method, ISWbemObject.Delete_, ISWbemObject::Delete_, SWbemObject object [Windows Management Instrumentation],Delete_ method, SWbemObject.Delete_, _hmm_swbemobject.delete_, wmi.swbemobject_delete_
 ms.prod: windows
 ms.technology: windows-sdk

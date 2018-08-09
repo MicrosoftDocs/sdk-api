@@ -7,7 +7,7 @@ old-location: dshow\mp_curve_type.htm
 old-project: DirectShow
 ms.assetid: 0665796e-5589-4e6c-b101-e19eddec7e0d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: MP_CURVE_INVSQUARE, MP_CURVE_JUMP, MP_CURVE_LINEAR, MP_CURVE_SINE, MP_CURVE_SQUARE, MP_CURVE_TYPE, MP_CURVE_TYPE , MP_CURVE_TYPE enumeration [DirectShow], MP_CURVE_TYPEEnumeration, _MP_CURVE_TYPE, dshow.mp_curve_type, medparam/MP_CURVE_INVSQUARE, medparam/MP_CURVE_JUMP, medparam/MP_CURVE_LINEAR, medparam/MP_CURVE_SINE, medparam/MP_CURVE_SQUARE, medparam/MP_CURVE_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,14 +95,11 @@ The following table lists the defined curves and their mathematical equivalents.
 
 <table>
 <tr>
-<th>
-              Value
+<th>Value
             </th>
-<th>
-              Curve to Fit
+<th>Curve to Fit
             </th>
-<th>
-              Range
+<th>Range
             </th>
 </tr>
 <tr>

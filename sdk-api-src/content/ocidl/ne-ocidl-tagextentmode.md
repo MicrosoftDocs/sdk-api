@@ -7,7 +7,7 @@ old-location: com\dvextentmode.htm
 old-project: com
 ms.assetid: 5848c26d-d185-4ad9-8841-bb8b622364ee
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: DVEXTENTMODE, DVEXTENTMODE enumeration [COM], DVEXTENT_CONTENT, DVEXTENT_INTEGRAL, _ole_DVEXTENTMODE, com.dvextentmode, ocidl/DVEXTENTMODE, ocidl/DVEXTENT_CONTENT, ocidl/DVEXTENT_INTEGRAL, tagExtentMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,6 @@ Indicates whether the sizing mode is content or integral sizing.
 
 
 ### -field DVEXTENT_CONTENT
-
 
 Indicates that the container will ask the object how big it wants to be to exactly fit its content, for example, in snap-to-size operations.
 

@@ -7,7 +7,7 @@ old-location: gdi\extcreatepen.htm
 old-project: gdi
 ms.assetid: a1e81314-4fe6-481f-af96-24ebf56332cf
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ExtCreatePen, ExtCreatePen function [Windows GDI], PS_ALTERNATE, PS_COSMETIC, PS_DASH, PS_DASHDOT, PS_DASHDOTDOT, PS_DOT, PS_ENDCAP_FLAT, PS_ENDCAP_ROUND, PS_ENDCAP_SQUARE, PS_GEOMETRIC, PS_INSIDEFRAME, PS_JOIN_BEVEL, PS_JOIN_MITER, PS_JOIN_ROUND, PS_NULL, PS_SOLID, PS_USERSTYLE, _win32_ExtCreatePen, gdi.extcreatepen, wingdi/ExtCreatePen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,34 +61,7 @@ The <b>ExtCreatePen</b> function creates a logical cosmetic or geometric pen tha
 
 
 
-### -param iPenStyle
-
-TBD
-
-
-### -param cWidth
-
-TBD
-
-
-### -param plbrush
-
-TBD
-
-
-### -param cStyle
-
-TBD
-
-
-### -param pstyle
-
-TBD
-
-
-
-
-#### - dwPenStyle [in]
+### -param iPenStyle [in]
 
 A combination of type, style, end cap, and join attributes. The values from each category are combined by using the bitwise OR operator ( | ).
 
@@ -303,28 +276,28 @@ Joins are round.
  
 
 
-#### - dwStyleCount [in]
+### -param cWidth [in]
+
+The width of the pen. If the <i>dwPenStyle</i> parameter is PS_GEOMETRIC, the width is given in logical units. If <i>dwPenStyle</i> is PS_COSMETIC, the width must be set to 1.
+
+
+### -param plbrush [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/ded2c7a4-2248-4d01-95c6-ab4050719094">LOGBRUSH</a> structure. If <i>dwPenStyle</i> is PS_COSMETIC, the <b>lbColor</b> member specifies the color of the pen and the <b>lpStyle</b> member must be set to BS_SOLID. If <i>dwPenStyle</i> is PS_GEOMETRIC, all members must be used to specify the brush attributes of the pen.
+
+
+### -param cStyle [in]
 
 The length, in <b>DWORD</b> units, of the <i>lpStyle</i> array. This value must be zero if <i>dwPenStyle</i> is not PS_USERSTYLE.
 
 The style count is limited to 16.
 
 
-#### - dwWidth [in]
-
-The width of the pen. If the <i>dwPenStyle</i> parameter is PS_GEOMETRIC, the width is given in logical units. If <i>dwPenStyle</i> is PS_COSMETIC, the width must be set to 1.
-
-
-#### - lpStyle [in]
+### -param pstyle [in]
 
 A pointer to an array. The first value specifies the length of the first dash in a user-defined style, the second value specifies the length of the first space, and so on. This pointer must be <b>NULL</b> if <i>dwPenStyle</i> is not PS_USERSTYLE.
 
 If the <i>lpStyle</i> array is exceeded during line drawing, the pointer is reset to the beginning of the array. When this happens and <i>dwStyleCount</i> is an even number, the pattern of dashes and spaces repeats. However, if <i>dwStyleCount</i> is odd, the pattern reverses when the pointer is reset -- the first element of <i>lpStyle</i> now refers to spaces, the second refers to dashes, and so forth.
-
-
-#### - lplb [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/ded2c7a4-2248-4d01-95c6-ab4050719094">LOGBRUSH</a> structure. If <i>dwPenStyle</i> is PS_COSMETIC, the <b>lbColor</b> member specifies the color of the pen and the <b>lpStyle</b> member must be set to BS_SOLID. If <i>dwPenStyle</i> is PS_GEOMETRIC, all members must be used to specify the brush attributes of the pen.
 
 
 ## -returns

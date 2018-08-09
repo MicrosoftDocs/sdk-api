@@ -4,10 +4,10 @@ title: PdhCloseLog function
 author: windows-sdk-content
 description: Closes the specified log file.
 old-location: perf\pdhcloselog.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 74039bdf-d1b5-41ba-aa4e-4779ce0dd02a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PDH_FLAGS_CLOSE_QUERY, PdhCloseLog, PdhCloseLog function [Perf], _win32_pdhcloselog, base.pdhcloselog, pdh/PdhCloseLog, perf.pdhcloselog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Closes the specified log file.
+Closes the specified log file.
 		
 
 
@@ -96,8 +95,7 @@ Closes the query associated with the specified log file handle. See the <i>hQuer
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS and closes and deletes the query.
+If the function succeeds, it returns ERROR_SUCCESS and closes and deletes the query.
 						
 
 If the function fails, the return value is a 

@@ -7,7 +7,7 @@ old-location: stg\ilayoutstorage_relayoutdocfile.htm
 old-project: stg
 ms.assetid: 5db3a26c-595a-4c9b-bb6d-b170eb9864df
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: ILayoutStorage interface [Structured Storage],ReLayoutDocfile method, ILayoutStorage.ReLayoutDocfile, ILayoutStorage::ReLayoutDocfile, ReLayoutDocfile, ReLayoutDocfile method [Structured Storage], ReLayoutDocfile method [Structured Storage],ILayoutStorage interface, _stg_ilayoutstorage_relayoutdocfile, objidl/ILayoutStorage::ReLayoutDocfile, stg.ilayoutstorage_relayoutdocfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,8 +68,7 @@ Pointer to the name of the compound file to be rewritten. This name must be a va
 
 
 
-
-						This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL, as well as the following:
+This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL, as well as the following:
 
 
 

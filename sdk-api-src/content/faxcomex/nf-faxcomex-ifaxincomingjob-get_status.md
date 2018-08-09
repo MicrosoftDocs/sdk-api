@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingjob_status.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1far.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxIncomingJob object [Fax Service],Status property, FaxIncomingJob.Status, IFaxIncomingJob.get_Status, IFaxIncomingJob::get_Status, Status property [Fax Service], Status property [Fax Service],FaxIncomingJob object, _mfax_faxincomingjob.status, fax._mfax_faxincomingjob_status, get_Status
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,15 +65,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692952(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692952(v=VS.85).aspx">Visual Basic Example</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684830(v=VS.85).aspx">get_Status</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684830(v=VS.85).aspx">get_Status</a>
  
 
  

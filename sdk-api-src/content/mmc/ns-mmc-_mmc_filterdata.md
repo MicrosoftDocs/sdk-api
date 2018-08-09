@@ -7,7 +7,7 @@ old-location: mmc\mmc_filterdata.htm
 old-project: MMC
 ms.assetid: 312d27b8-cfca-48fd-8d39-b0f504421d2d
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: MMC_FILTERDATA, MMC_FILTERDATA structure [MMC], _MMC_FILTERDATA, _slate_mmc_filterdata, mmc.mmc_filterdata, mmc/MMC_FILTERDATA
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\iammediastream_initialize.htm
 old-project: DirectShow
 ms.assetid: b695100b-75a4-4107-828c-e0067290d972
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IAMMediaStream interface [DirectShow],Initialize method, IAMMediaStream.Initialize, IAMMediaStream::Initialize, IAMMediaStreamInitialize, Initialize, Initialize method [DirectShow], Initialize method [DirectShow],IAMMediaStream interface, amstream/IAMMediaStream::Initialize, dshow.iammediastream_initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,11 +74,9 @@ Value that modifies the media stream's behavior; it is a combination of one or m
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description</th>
+<th>Description</th>
 </tr>
 <tr>
 <td>AMMSF_ADDDEFAULTRENDERER</td>
@@ -139,11 +137,9 @@ If no flags are set, then <i>pStreamObject</i> can be one of the following.
 
 <table>
 <tr>
-<th>
-              Value
+<th>Value
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>

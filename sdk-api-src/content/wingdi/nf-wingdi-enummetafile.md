@@ -7,7 +7,7 @@ old-location: gdi\enummetafile.htm
 old-project: gdi
 ms.assetid: b11c7467-64a9-442b-8dee-26e15f64a26b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EnumMetaFile, EnumMetaFile function [Windows GDI], _win32_EnumMetaFile, gdi.enummetafile, wingdi/EnumMetaFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,26 +72,14 @@ Handle to a device context. This handle is passed to the callback function.
 Handle to a Windows-format metafile.
 
 
-### -param proc
-
-TBD
-
-
-### -param param
-
-TBD
-
-
-
-
-#### - lParam [in]
-
-Pointer to optional data.
-
-
-#### - lpMetaFunc [in]
+### -param proc [in]
 
 Pointer to an application-supplied callback function. For more information, see <a href="https://msdn.microsoft.com/ebef5a3f-0dd7-49df-a07d-c55c5e8c868c">EnumMetaFileProc</a>.
+
+
+### -param param [in]
+
+Pointer to optional data.
 
 
 ## -returns

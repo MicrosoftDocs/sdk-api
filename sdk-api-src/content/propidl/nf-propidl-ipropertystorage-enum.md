@@ -7,7 +7,7 @@ old-location: stg\ipropertystorage_enum.htm
 old-project: stg
 ms.assetid: 73f834cf-b6e4-4a48-bbdc-0c4ba87aacaf
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: Enum, Enum method [Structured Storage], Enum method [Structured Storage],IPropertyStorage interface, IPropertyStorage [Strctd Stg],Enum, IPropertyStorage interface [Structured Storage],Enum method, IPropertyStorage.Enum, IPropertyStorage::Enum, _stg_ipropertystorage_enum, propidl/IPropertyStorage::Enum, stg.ipropertystorage_enum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The <b>Enum</b> method creates an enumerator object designed to enumerate data of type 
+The <b>Enum</b> method creates an enumerator object designed to enumerate data of type 
 <a href="https://msdn.microsoft.com/3b8de6d3-18a3-4c0a-94d1-04bcec05d41a">STATPROPSTG</a>, which contains information on the current property set. On return, this method supplies a pointer to the 
 <a href="https://msdn.microsoft.com/e625e52a-5628-4d18-9282-aa1c141c83af">IEnumSTATPROPSTG</a> pointer on this object.
 
@@ -72,8 +71,7 @@ Pointer to
 
 
 
-
-						This method supports the standard return value E_UNEXPECTED, in addition to the following:
+This method supports the standard return value E_UNEXPECTED, in addition to the following:
 
 
 

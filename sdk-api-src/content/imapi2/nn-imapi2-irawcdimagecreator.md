@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagecreator.htm
 old-project: imapi
 ms.assetid: b5fe1a32-545e-417d-9996-34d12862a0ea
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IRawCDImageCreator, IRawCDImageCreator interface [IMAPI], IRawCDImageCreator interface [IMAPI],described, imapi.irawcdimagecreator, imapi2/IRawCDImageCreator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ To create an instance of this interface, call the <b>CoCreateInstance</b> functi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRawCDImageCreator</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IRawCDImageCreator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRawCDImageCreator</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IRawCDImageCreator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

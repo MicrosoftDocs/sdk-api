@@ -7,7 +7,7 @@ old-location: rras\rassecuritydialogsend.htm
 old-project: rras
 ms.assetid: adbc357b-7a5d-426d-b21f-0b1478bb2348
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RasSecurityDialogSend, RasSecurityDialogSend function [RAS], _ras_rassecuritydialogsend, rasshost/RasSecurityDialogSend, rras.rassecuritydialogsend
 ms.prod: windows
 ms.technology: windows-sdk

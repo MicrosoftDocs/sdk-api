@@ -7,7 +7,7 @@ old-location: tablet\iinkgesture_gethotpoint.htm
 old-project: tablet
 ms.assetid: 6c047cf7-2162-4146-906b-47c4006daeeb
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 6c047cf7-2162-4146-906b-47c4006daeeb, GetHotPoint, GetHotPoint method [Tablet PC], GetHotPoint method [Tablet PC],IInkGesture interface, IInkGesture interface [Tablet PC],GetHotPoint method, IInkGesture.GetHotPoint, IInkGesture::GetHotPoint, msinkaut/IInkGesture::GetHotPoint, tablet.iinkgesture_gethotpoint
 ms.prod: windows
 ms.technology: windows-sdk

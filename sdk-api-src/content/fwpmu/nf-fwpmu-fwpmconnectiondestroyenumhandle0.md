@@ -7,7 +7,7 @@ old-location: fwp\fwpmconnectiondestroyenumhandle0.htm
 old-project: fwp
 ms.assetid: 0325908e-4d2b-4cdb-9cfa-f2985a76dba9
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmConnectionDestroyEnumHandle0, FwpmConnectionDestroyEnumHandle0 function [Filtering], fwp.fwpmconnectiondestroyenumhandle0, fwpmu/FwpmConnectionDestroyEnumHandle0
 ms.prod: windows
 ms.technology: windows-sdk

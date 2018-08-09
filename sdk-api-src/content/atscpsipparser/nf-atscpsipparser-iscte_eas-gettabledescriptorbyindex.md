@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_gettabledescriptorbyindex.htm
 old-project: mstv
 ms.assetid: 24e02875-32ab-4844-bec3-8044b03b9843
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, ISCTE_EAS.GetTableDescriptorByIndex, ISCTE_EAS::GetTableDescriptorByIndex, ISCTE_EASGetTableDescriptorByIndex, atscpsipparser/ISCTE_EAS::GetTableDescriptorByIndex, mstv.iscte_eas_gettabledescriptorbyindex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,8 +60,7 @@ The <b>GetTableDescriptorByIndex</b> method returns a descriptor for the EAS tab
 
 ### -param dwIndex [in]
 
-
-            The zero-based index of the descriptor to retrieve. Call the <a href="https://msdn.microsoft.com/1d6cae55-233f-49e0-8ced-9dd21b0aa32b">ISCTE_EAS::GetCountOfTableDescriptors</a> method to get the number of table descriptors.
+The zero-based index of the descriptor to retrieve. Call the <a href="https://msdn.microsoft.com/1d6cae55-233f-49e0-8ced-9dd21b0aa32b">ISCTE_EAS::GetCountOfTableDescriptors</a> method to get the number of table descriptors.
           
 
 

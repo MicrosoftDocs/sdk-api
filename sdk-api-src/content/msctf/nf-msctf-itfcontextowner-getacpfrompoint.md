@@ -7,7 +7,7 @@ old-location: tsf\itfcontextowner_getacpfrompoint.htm
 old-project: TSF
 ms.assetid: f8091e79-33af-49d5-b3c8-d30952c62010
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetACPFromPoint, GetACPFromPoint method [Text Services Framework], GetACPFromPoint method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetACPFromPoint method, ITfContextOwner.GetACPFromPoint, ITfContextOwner::GetACPFromPoint, _tsf_itfcontextowner_getacpfrompoint_ref, msctf/ITfContextOwner::GetACPFromPoint, tsf.itfcontextowner_getacpfrompoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -160,8 +160,7 @@ Use the illustration to determine the character position returned based on the f
 
 
 
-<a href="https://msdn.microsoft.com/b6489391-a19e-405a-a129-f68054088860">
-        ITextStoreACP::GetACPFromPoint
+<a href="https://msdn.microsoft.com/b6489391-a19e-405a-a129-f68054088860">ITextStoreACP::GetACPFromPoint
       </a>
 
 
@@ -175,8 +174,7 @@ Use the illustration to determine the character position returned based on the f
 
 
 
-<a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">
-        TsViewCookie
+<a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">TsViewCookie
       </a>
  
 

@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfacegethandle.htm
 old-project: rras
 ms.assetid: a220dbc1-90e0-4290-8a65-c2a2dd218f07
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminInterfaceGetHandle, MprAdminInterfaceGetHandle function [RAS], _mpr_mpradmininterfacegethandle, mprapi/MprAdminInterfaceGetHandle, rras.mpradmininterfacegethandle
 ms.prod: windows
 ms.technology: windows-sdk

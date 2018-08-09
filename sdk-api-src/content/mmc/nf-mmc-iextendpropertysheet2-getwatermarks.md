@@ -7,7 +7,7 @@ old-location: mmc\iextendpropertysheet2_getwatermarks.htm
 old-project: MMC
 ms.assetid: caecb35a-3f59-4a04-af46-862ded9685cf
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: GetWatermarks, GetWatermarks method [MMC], GetWatermarks method [MMC],IExtendPropertySheet2 interface, IExtendPropertySheet2 interface [MMC],GetWatermarks method, IExtendPropertySheet2.GetWatermarks, IExtendPropertySheet2::GetWatermarks, _slate_iextendpropertysheet2_getwatermarks, mmc.iextendpropertysheet2_getwatermarks, mmc/IExtendPropertySheet2::GetWatermarks
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The <b>IExtendPropertySheet2::GetWatermarks</b> method gets the watermark bitmap
 ### -param lpIDataObject [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a> interface on the object that contains context information about the scope or result item.
+<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface on the object that contains context information about the scope or result item.
 
 
 ### -param lphWatermark [out]

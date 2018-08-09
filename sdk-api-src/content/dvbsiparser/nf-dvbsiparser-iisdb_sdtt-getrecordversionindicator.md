@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt_getrecordversionindicator.htm
 old-project: mstv
 ms.assetid: 3b4b4b4b-84b3-4181-bc84-389e72b66053
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordVersionIndicator, GetRecordVersionIndicator method [Microsoft TV Technologies], GetRecordVersionIndicator method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordVersionIndicator method, IISDB_SDTT.GetRecordVersionIndicator, IISDB_SDTT::GetRecordVersionIndicator, dvbsiparser/IISDB_SDTT::GetRecordVersionIndicator, mstv.iisdb_sdtt_getrecordversionindicator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Receives the version indicator from a record
+Receives the version indicator from a record
   in an Integrated Services Digital Broadcasting
   (ISDB)  software download
   trigger table
@@ -66,16 +65,14 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param dwRecordIndex [in]
 
-
-  Specifies the record number, indexed from zero.
+Specifies the record number, indexed from zero.
   Call the <a href="https://msdn.microsoft.com/3e445eed-907c-4a9b-80b7-b16460bc131c">IISDB_SDTT::GetCountOfRecords</a> method to get the number of records in the SDTT.
 
 
 
 ### -param pbVal [out]
 
-
-  Receives the version indicator.
+Receives the version indicator.
 
 
 

@@ -7,7 +7,7 @@ old-location: multimedia\iavifile_writedata.htm
 old-project: Multimedia
 ms.assetid: 0b693a98-a91a-4fba-99da-e3bac71c1b22
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IAVIFile interface [Windows Multimedia],WriteData method, IAVIFile.WriteData, IAVIFile::WriteData, WriteData, WriteData method [Windows Multimedia], WriteData method [Windows Multimedia],IAVIFile interface, _win32_IAVIFile_WriteData, multimedia.iavifile_writedata, vfw/IAVIFile::WriteData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,9 +80,9 @@ The <b>WriteData</b> method writes file headers. Called when an application uses
 
 
 
-#### - cbBuffer
+#### - ps
 
-Size, in bytes, of the buffer specified by <i>lpBuffer</i>.
+Pointer to the interface to a file.
 
 
 #### - fcc
@@ -95,9 +95,9 @@ Four-character code of the header to write.
 Pointer to the buffer for the data.
 
 
-#### - ps
+#### - cbBuffer
 
-Pointer to the interface to a file.
+Size, in bytes, of the buffer specified by <i>lpBuffer</i>.
 
 
 ## -returns

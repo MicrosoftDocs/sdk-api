@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_gettransportstreamid.htm
 old-project: mstv
 ms.assetid: 0c3261e8-c671-48c7-b07c-59ce74b13c76
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetTransportStreamId, GetTransportStreamId method [Microsoft TV Technologies], GetTransportStreamId method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetTransportStreamId method, IATSC_VCT.GetTransportStreamId, IATSC_VCT::GetTransportStreamId, IATSC_VCTGetTransportStreamId, atscpsipparser/IATSC_VCT::GetTransportStreamId, mstv.iatsc_vct_gettransportstreamid
 ms.prod: windows
 ms.technology: windows-sdk

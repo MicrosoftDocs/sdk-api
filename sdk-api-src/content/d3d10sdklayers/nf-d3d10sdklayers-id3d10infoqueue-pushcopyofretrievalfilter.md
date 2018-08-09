@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_pushcopyofretrievalfilter.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_pushcopyofretrievalfilter.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 95f070e8-3e19-b7cf-e5db-1e4a5d006c3e, ID3D10InfoQueue interface [Direct3D 10],PushCopyOfRetrievalFilter method, ID3D10InfoQueue.PushCopyOfRetrievalFilter, ID3D10InfoQueue::PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter method [Direct3D 10], PushCopyOfRetrievalFilter method [Direct3D 10],ID3D10InfoQueue interface, d3d10sdklayers/ID3D10InfoQueue::PushCopyOfRetrievalFilter, direct3d10.id3d10infoqueue_pushcopyofretrievalfilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ Push a copy of retrieval filter currently on the top of the retrieval-filter sta
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -76,7 +76,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
  
 
  

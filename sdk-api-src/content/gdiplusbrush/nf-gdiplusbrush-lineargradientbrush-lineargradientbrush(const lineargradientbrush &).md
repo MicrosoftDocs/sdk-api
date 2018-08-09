@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_Constructors.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushconstructors.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: LinearGradientBrush, LinearGradientBrush constructors [GDI+], LinearGradientBrush.LinearGradientBrush, LinearGradientBrush.LinearGradientBrush(const LinearGradientBrush &), LinearGradientBrush::LinearGradientBrush, LinearGradientBrush::LinearGradientBrush(const LinearGradientBrush &), _gdiplus_CLASS_LinearGradientBrush_Constructors, gdiplus._gdiplus_CLASS_LinearGradientBrush_Constructors, gdiplusbrush/LinearGradientBrush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 <span>This topic lists the constructors of the 
-			<a href="https://msdn.microsoft.com/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a> class. For a complete class listing, see <b>LinearGradientBrush Class</b>. 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a> class. For a complete class listing, see <b>LinearGradientBrush Class</b>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Constructor</th>
@@ -60,46 +60,46 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535356(v=VS.85).aspx">LinearGradientBrush(Point&,Point&,Color&,Color&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535356(v=VS.85).aspx">LinearGradientBrush(Point&,Point&,Color&,Color&)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms535356(v=VS.85).aspx">LinearGradientBrush::LinearGradientBrush</a> object from a set of boundary points and boundary colors.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535356(v=VS.85).aspx">LinearGradientBrush::LinearGradientBrush</a> object from a set of boundary points and boundary colors.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535353(v=VS.85).aspx">LinearGradientBrush(PointF&,PointF&,Color&,Color&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535353(v=VS.85).aspx">LinearGradientBrush(PointF&,PointF&,Color&,Color&)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms535353(v=VS.85).aspx">LinearGradientBrush::LinearGradientBrush</a> object from a set of boundary points and boundary colors.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535353(v=VS.85).aspx">LinearGradientBrush::LinearGradientBrush</a> object from a set of boundary points and boundary colors.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535357(v=VS.85).aspx">LinearGradientBrush(Rect&,Color&,Color&,REAL,BOOL)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535357(v=VS.85).aspx">LinearGradientBrush(Rect&,Color&,Color&,REAL,BOOL)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms535357(v=VS.85).aspx">LinearGradientBrush::LinearGradientBrush</a> object from a rectangle and angle of direction.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535357(v=VS.85).aspx">LinearGradientBrush::LinearGradientBrush</a> object from a rectangle and angle of direction.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535358(v=VS.85).aspx">LinearGradientBrush(Rect&,Color&,Color&,LinearGradientMode)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535358(v=VS.85).aspx">LinearGradientBrush(Rect&,Color&,Color&,LinearGradientMode)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms535358(v=VS.85).aspx">LinearGradientBrush::LinearGradientBrush</a> object based on a rectangle and mode of direction.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535358(v=VS.85).aspx">LinearGradientBrush::LinearGradientBrush</a> object based on a rectangle and mode of direction.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535355(v=VS.85).aspx">LinearGradientBrush(RectF&,Color&,Color&,LinearGradientMode)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535355(v=VS.85).aspx">LinearGradientBrush(RectF&,Color&,Color&,LinearGradientMode)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms535355(v=VS.85).aspx">LinearGradientBrush::LinearGradientBrush</a> object based on a rectangle and mode of direction.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535355(v=VS.85).aspx">LinearGradientBrush::LinearGradientBrush</a> object based on a rectangle and mode of direction.
 
 </td>
 </tr>

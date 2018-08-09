@@ -7,7 +7,7 @@ old-location: wmi\iwbempath.htm
 old-project: WmiSdk
 ms.assetid: 71b2597b-d82a-439d-b0b7-af76aefea6a2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: IWbemPath, IWbemPath interface [Windows Management Instrumentation], IWbemPath interface [Windows Management Instrumentation],described, WbemDefPath, _hmm_iwbempath, wmi.iwbempath, wmiutils/IWbemPath
 ms.prod: windows
 ms.technology: windows-sdk

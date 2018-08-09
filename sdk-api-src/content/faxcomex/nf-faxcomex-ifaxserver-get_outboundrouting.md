@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_outboundrouting.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6y1z.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxServer object [Fax Service],OutboundRouting property, FaxServer.OutboundRouting, IFaxServer.get_OutboundRouting, IFaxServer::get_OutboundRouting, OutboundRouting property [Fax Service], OutboundRouting property [Fax Service],FaxServer object, _mfax_faxserver.outboundrouting, fax._mfax_faxserver_outboundrouting, get_OutboundRouting
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>OutboundRouting</b> property creates a <a href="https://msdn.microsoft.com/library/ms690136(v=VS.85).aspx">FaxOutboundRouting</a> configuration object. The object permits users to configure outbound routing groups and rules.
+The <b>OutboundRouting</b> property creates a <a href="https://msdn.microsoft.com/en-us/library/ms690136(v=VS.85).aspx">FaxOutboundRouting</a> configuration object. The object permits users to configure outbound routing groups and rules.
 
 This property is read-only.
 
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-This property is not supported in Windows XP, and will return the error: <a href="https://msdn.microsoft.com/library/ms693490(v=VS.85).aspx">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>. 
+This property is not supported in Windows XP, and will return the error: <a href="https://msdn.microsoft.com/en-us/library/ms693490(v=VS.85).aspx">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>. 
 
 
 
@@ -74,15 +74,15 @@ This property is not supported in Windows XP, and will return the error: <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689110(v=VS.85).aspx">IFaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

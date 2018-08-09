@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawLines_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawlinesmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: DrawLines, DrawLines methods [GDI+], Graphics.DrawLines, Graphics::DrawLines, _gdiplus_CLASS_Graphics_DrawLines_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawLines_Methods, gdiplusgraphics/DrawLines
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,19 +65,19 @@ DrawLines methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536017(v=VS.85).aspx">DrawLines(Pen*,Point*,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536017(v=VS.85).aspx">DrawLines(Pen*,Point*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536017(v=VS.85).aspx">Graphics::DrawLines</a> method draws a sequence of connected lines.
+The <a href="https://msdn.microsoft.com/en-us/library/ms536017(v=VS.85).aspx">Graphics::DrawLines</a> method draws a sequence of connected lines.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536019(v=VS.85).aspx">DrawLines(Pen*,PointF*,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536019(v=VS.85).aspx">DrawLines(Pen*,PointF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536019(v=VS.85).aspx">Graphics::DrawLines</a> method draws a sequence of connected lines.
+The <a href="https://msdn.microsoft.com/en-us/library/ms536019(v=VS.85).aspx">Graphics::DrawLines</a> method draws a sequence of connected lines.
 
 </td>
 </tr>

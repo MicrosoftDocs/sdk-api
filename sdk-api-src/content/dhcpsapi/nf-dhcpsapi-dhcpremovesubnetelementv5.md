@@ -7,7 +7,7 @@ old-location: dhcp\dhcpremovesubnetelementv5.htm
 old-project: dhcp
 ms.assetid: 8232b2cc-0bb1-4509-ad5f-6d1d1ece9fe5
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpRemoveSubnetElementV5, DhcpRemoveSubnetElementV5 function [DHCP], dhcp.dhcpremovesubnetelementv5, dhcpsapi/DhcpRemoveSubnetElementV5
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,8 +104,7 @@ This function emulates the RPC interface used by the Windows NT 4.0 DHCP serve
 
 
 
-<a href="https://msdn.microsoft.com/2ec45a99-432d-4218-9048-81714ceff36b">
-        DHCP_FORCE_FLAG</a>
+<a href="https://msdn.microsoft.com/2ec45a99-432d-4218-9048-81714ceff36b">DHCP_FORCE_FLAG</a>
 
 
 

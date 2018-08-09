@@ -7,7 +7,7 @@ old-location: mf\imftransform_addinputstreams.htm
 old-project: medfound
 ms.assetid: 311ab66e-5dbd-452a-bad4-99a6293cbc60
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 311ab66e-5dbd-452a-bad4-99a6293cbc60, AddInputStreams, AddInputStreams method [Media Foundation], AddInputStreams method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],AddInputStreams method, IMFTransform.AddInputStreams, IMFTransform::AddInputStreams, mf.imftransform_addinputstreams, mftransform/IMFTransform::AddInputStreams
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Adds one or more new input streams to this Media Foundation transform (MFT).
+Adds one or more new input streams to this Media Foundation transform (MFT).
         
 
 
@@ -64,15 +63,13 @@ req.product: GDI+ 1.1
 
 ### -param cStreams [in]
 
-
-            Number of streams to add.
+Number of streams to add.
           
 
 
 ### -param adwStreamIDs [in]
 
-
-            Array of stream identifiers. The new stream identifiers must not match any existing input streams.
+Array of stream identifiers. The new stream identifiers must not match any existing input streams.
           
 
 
@@ -80,8 +77,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -96,8 +92,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -109,8 +104,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                Invalid argument.
+Invalid argument.
               
 
 </td>
@@ -122,8 +116,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The MFT has a fixed number of input streams.
+The MFT has a fixed number of input streams.
               
 
 </td>
@@ -138,15 +131,13 @@ req.product: GDI+ 1.1
 
 
 
-
-        If the new streams exceed the maximum number of input streams for this transform, the method returns <b>E_INVALIDARG.</b> To find the maximum number of input streams, call <a href="https://msdn.microsoft.com/4d9585f0-5818-4e7f-925c-4c50ae6a6edc">IMFTransform::GetStreamLimits</a>.
+If the new streams exceed the maximum number of input streams for this transform, the method returns <b>E_INVALIDARG.</b> To find the maximum number of input streams, call <a href="https://msdn.microsoft.com/4d9585f0-5818-4e7f-925c-4c50ae6a6edc">IMFTransform::GetStreamLimits</a>.
       
 
-
-        If any of the new stream identifiers conflicts with an existing input stream, the method returns <b>E_INVALIDARG</b>.
+If any of the new stream identifiers conflicts with an existing input stream, the method returns <b>E_INVALIDARG</b>.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTAddInputStreams</b>. See <a href="https://msdn.microsoft.com/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTAddInputStreams</b>. See <a href="https://msdn.microsoft.com/en-us/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
 
 
 

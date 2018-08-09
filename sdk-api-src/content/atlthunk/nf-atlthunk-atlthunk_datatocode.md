@@ -7,7 +7,7 @@ old-location: base\atlthunk_datatocode.htm
 old-project: memory
 ms.assetid: 138714A8-5BBE-47A8-9E57-9CD6D35DE644
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: AtlThunk_DataToCode, AtlThunk_DataToCode function, atlthunk/AtlThunk_DataToCode, base.atlthunk_datatocode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,11 +60,7 @@ Returns an executable function corresponding to the AtlThunkData_t parameter.
 
 ### -param Arg1
 
-TBD
-
-
-
-
+The ATL thunk.
 
 
 ## -returns

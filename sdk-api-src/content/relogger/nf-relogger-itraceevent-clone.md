@@ -4,10 +4,10 @@ title: ITraceEvent::Clone
 author: windows-sdk-content
 description: Creates a duplicate copy of an event.
 old-location: etw\ievent_clone.htm
-old-project: etw
+old-project: ETW
 ms.assetid: a4fa29f4-a265-4b42-a499-bc53566dc889
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/07/2018
 ms.keywords: Clone, Clone method [ETW], Clone method [ETW],ITraceEvent interface, ITraceEvent interface [ETW],Clone method, ITraceEvent.Clone, ITraceEvent::Clone, etw.ievent_clone, relogger/ITraceEvent::Clone
 ms.prod: windows
 ms.technology: windows-sdk

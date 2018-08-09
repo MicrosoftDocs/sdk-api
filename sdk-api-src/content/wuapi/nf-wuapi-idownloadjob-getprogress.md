@@ -4,10 +4,10 @@ title: IDownloadJob::GetProgress
 author: windows-sdk-content
 description: Returns an IDownloadProgress interface that describes the current progress of a download.
 old-location: wua\idownloadjob_getprogress.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: e87c85cf-0011-4edb-a409-0b4db3292caf
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetProgress, GetProgress method [Windows Update Agent], GetProgress method [Windows Update Agent],IDownloadJob interface, IDownloadJob interface [Windows Update Agent],GetProgress method, IDownloadJob.GetProgress, IDownloadJob::GetProgress, wua.idownloadjob_getprogress, wuapi/IDownloadJob::GetProgress
 ms.prod: windows
 ms.technology: windows-sdk

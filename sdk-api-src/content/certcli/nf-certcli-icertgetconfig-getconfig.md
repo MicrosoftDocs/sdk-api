@@ -7,7 +7,7 @@ old-location: security\icertgetconfig_getconfig.htm
 old-project: seccrypto
 ms.assetid: 5935bf37-4a4a-4c0f-ae3f-bd76f97d0d9a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CC_DEFAULTCONFIG, CC_FIRSTCONFIG, CC_LOCALACTIVECONFIG, CC_LOCALCONFIG, CC_UIPICKCONFIG, CC_UIPICKCONFIGSKIPLOCALCA, GetConfig, GetConfig method [Security], GetConfig method [Security],ICertGetConfig interface, ICertGetConfig interface [Security],GetConfig method, ICertGetConfig.GetConfig, ICertGetConfig::GetConfig, certcli/ICertGetConfig::GetConfig, security.icertgetconfig_getconfig
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,7 +149,7 @@ Displays a UI that allows the user to select a CA. The UI excludes any local CA.
 
 #### - pbstrOut [out]
 
-A pointer to a <b>BSTR</b> that contains the configuration. When you have finished using the configuration, call the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to free <i>pbstrOut</i>.
+A pointer to a <b>BSTR</b> that contains the configuration. When you have finished using the configuration, call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to free <i>pbstrOut</i>.
 
 
 ## -returns

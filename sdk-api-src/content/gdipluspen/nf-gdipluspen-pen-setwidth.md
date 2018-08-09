@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_SetWidth_width_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setwidth_58width.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Pen class [GDI+],SetWidth method, Pen.SetWidth, Pen::SetWidth, SetWidth, SetWidth method [GDI+], SetWidth method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetWidth_width_, gdiplus._gdiplus_CLASS_Pen_SetWidth_width_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Pen::SetWidth</b> method sets the width for this 
-			<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object.
 
 
 ## -parameters
@@ -88,19 +88,19 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535036(v=VS.85).aspx">Pen::GetWidth</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535036(v=VS.85).aspx">Pen::GetWidth</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536372(v=VS.85).aspx">Pens, Lines and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines and Rectangles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533854(v=VS.85).aspx">Setting Pen Width and Alignment</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533854(v=VS.85).aspx">Setting Pen Width and Alignment</a>
  
 
  

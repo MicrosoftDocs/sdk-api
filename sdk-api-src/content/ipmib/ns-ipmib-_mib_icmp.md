@@ -7,7 +7,7 @@ old-location: mib\mib_icmp.htm
 old-project: mib
 ms.assetid: 45ccaacb-f2cd-4be5-94ef-48d4403d5f60
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/30/2018
 ms.keywords: "*PMIB_ICMP, MIB_ICMP, MIB_ICMP structure [MIB], PMIB_ICMP, PMIB_ICMP structure pointer [MIB], _MIB_ICMP, _mpr_mib_icmp, ipmib/MIB_ICMP, ipmib/PMIB_ICMP, iprtrmib/MIB_ICMP, iprtrmib/PMIB_ICMP, mib.mib_icmp, rras.mib_icmp"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365934(v=VS.85).aspx">GetIcmpStatistics</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365934(v=VS.85).aspx">GetIcmpStatistics</a>
 
 
 

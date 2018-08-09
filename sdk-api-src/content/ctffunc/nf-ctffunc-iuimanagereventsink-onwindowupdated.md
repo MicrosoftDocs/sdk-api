@@ -7,7 +7,7 @@ old-location: tsf\iuimanagereventsink_onwindowupdated.htm
 old-project: TSF
 ms.assetid: A50F3F1B-B00A-4ABD-B94A-F1D3904C6938
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowUpdated method, IUIManagerEventSink.OnWindowUpdated, IUIManagerEventSink::OnWindowUpdated, OnWindowUpdated, OnWindowUpdated method [Text Services Framework], OnWindowUpdated method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowUpdated, tsf.iuimanagereventsink_onwindowupdated
 ms.prod: windows
 ms.technology: windows-sdk

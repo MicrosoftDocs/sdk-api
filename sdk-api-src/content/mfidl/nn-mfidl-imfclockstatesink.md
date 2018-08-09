@@ -7,7 +7,7 @@ old-location: mf\imfclockstatesink.htm
 old-project: medfound
 ms.assetid: 9aa0d2cd-a687-4b3a-834d-ccc8d3a03196
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 9aa0d2cd-a687-4b3a-834d-ccc8d3a03196, IMFClockStateSink, IMFClockStateSink interface [Media Foundation], IMFClockStateSink interface [Media Foundation],described, mf.imfclockstatesink, mfidl/IMFClockStateSink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Receives state-change notifications from the presentation clock.
+Receives state-change notifications from the presentation clock.
         
 
 

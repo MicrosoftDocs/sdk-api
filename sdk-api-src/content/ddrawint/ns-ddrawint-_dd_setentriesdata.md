@@ -7,7 +7,7 @@ old-location: display\dd_setentriesdata.htm
 old-project: display
 ms.assetid: 9420f41a-401b-4fc3-b9a4-f2bfe6cb2710
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: "*PDD_SETENTRIESDATA, DD_SETENTRIESDATA, DD_SETENTRIESDATA structure [Display Devices], _DD_SETENTRIESDATA, ddrawint/DD_SETENTRIESDATA, ddstrcts_dc575bf2-1249-4d66-aba9-aba1856358df.xml, display.dd_setentriesdata"
 ms.prod: windows
 ms.technology: windows-sdk

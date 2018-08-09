@@ -7,7 +7,7 @@ old-location: p2p\peercollabenumendpoints.htm
 old-project: p2psdk
 ms.assetid: c29d089c-1f1e-4d50-9a3a-18c844b4ad1c
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerCollabEnumEndpoints, PeerCollabEnumEndpoints function [Peer Networking], p2p.peercollabenumendpoints, p2p/PeerCollabEnumEndpoints
 ms.prod: windows
 ms.technology: windows-sdk

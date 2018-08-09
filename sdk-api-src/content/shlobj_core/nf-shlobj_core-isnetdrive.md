@@ -7,7 +7,7 @@ old-location: shell\IsNetDrive.htm
 old-project: shell
 ms.assetid: 44e02665-648a-4cf0-9dc0-038e54d08a49
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IsNetDrive, IsNetDrive function [Windows Shell], _win32_IsNetDrive, shell.IsNetDrive, shlobj_core/IsNetDrive
 ms.prod: windows
 ms.technology: windows-sdk

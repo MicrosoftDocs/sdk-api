@@ -7,7 +7,7 @@ old-location: mstv\iisdb_ldt_getrecorddescriptorbytag.htm
 old-project: mstv
 ms.assetid: 6d1fc08c-9c5b-4361-a144-d8b423250c51
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IISDB_LDT.GetRecordDescriptorByTag, IISDB_LDT::GetRecordDescriptorByTag, dvbsiparser/IISDB_LDT::GetRecordDescriptorByTag, mstv.iisdb_ldt_getrecorddescriptorbytag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Searches a record in
+Searches a record in
   an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT) for a specific descriptor tag. 
 
 
@@ -63,8 +62,7 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param dwRecordIndex [in]
 
-
-  Specifies the record number, indexed from zero.
+Specifies the record number, indexed from zero.
   Call the <a href="https://msdn.microsoft.com/da91deea-527c-4458-9db5-ae500cee19bb">IISDB_LDT::GetCountOfRecords</a> method to get the number of records in the LDT.
 
 
@@ -76,13 +74,11 @@ Specifies the descriptor tag for which to search.
 
 ### -param pdwCookie [in, out]
 
-
-  Pointer to a variable that specifies the start position
+Pointer to a variable that specifies the start position
   in the descriptor list. This parameter is optional.
   If the value of <i>pdwCookie</i> is <b>NULL</b>, the search starts from the
   first descriptor in the list. Otherwise, the search starts from
-  the position given in <i>pdwCookie</i>. When the method returns, the <i>pdwCookie</i>
-  parameter contains the position of the next matching descriptor,
+  the position given in <i>pdwCookie</i>. When the method returns, the <i>pdwCookie</i>parameter contains the position of the next matching descriptor,
   if any. You can use this parameter to iterate through the descriptor list,
   looking for every instance of a particular descriptor tag.
 
@@ -90,9 +86,7 @@ Specifies the descriptor tag for which to search.
 
 ### -param ppDescriptor [out]
 
-
-  Receives a pointer to the <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a>
-  interface of the object that contains the LDT. Use this interface to retrieve the information
+Receives a pointer to the <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a>interface of the object that contains the LDT. Use this interface to retrieve the information
   in the descriptor. The caller must release the interface.
 
 

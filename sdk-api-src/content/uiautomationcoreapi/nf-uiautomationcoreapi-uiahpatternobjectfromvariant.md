@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaHPatternObjectFromVariantFunction.htm
 old-project: WinAuto
 ms.assetid: dd5d0d4b-75fa-4215-bd48-79d58a9a4862
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: UiaHPatternObjectFromVariant, UiaHPatternObjectFromVariant function [Windows Accessibility], uiauto.uiauto_UiaHPatternObjectFromVariantFunction, uiauto_UiaHPatternObjectFromVariantFunction, uiautomationcoreapi/UiaHPatternObjectFromVariant, winauto.uiauto_UiaHPatternObjectFromVariantFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,11 @@ req.product: Windows XP with SP1 and later
 
 
 
-### -param pvar
+### -param pvar [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>*</b>
+
+The pattern.
 
 
 ### -param phobj [out]
@@ -70,13 +72,6 @@ Type: <b>HUIAPATTERNOBJECT *</b>
 
 The address of a variable that receives the control pattern object.
 				This parameter is passed uninitialized.
-
-
-#### - par [in]
-
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>*</b>
-
-The pattern.
 
 
 ## -returns

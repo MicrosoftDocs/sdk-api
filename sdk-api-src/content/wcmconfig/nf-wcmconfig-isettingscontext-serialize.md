@@ -4,10 +4,10 @@ title: ISettingsContext::Serialize
 author: windows-sdk-content
 description: Serializes the data in this context into the provided stream.
 old-location: smi\isettingscontext_serialize.htm
-old-project: SMI
+old-project: smi
 ms.assetid: 13b29096-8572-4539-abd4-de22a9594f38
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: ISettingsContext interface [SMI],Serialize method, ISettingsContext.Serialize, ISettingsContext::Serialize, Serialize, Serialize method [SMI], Serialize method [SMI],ISettingsContext interface, smi.isettingscontext_serialize, wcmconfig/ISettingsContext::Serialize
 ms.prod: windows
 ms.technology: windows-sdk

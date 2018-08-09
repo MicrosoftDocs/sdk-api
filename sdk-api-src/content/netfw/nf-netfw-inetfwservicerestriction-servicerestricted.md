@@ -7,7 +7,7 @@ old-location: ics\inetfwservicerestriction_servicerestricted.htm
 old-project: ics
 ms.assetid: 38fe5a68-44ab-4bcb-8673-ebb1e87e446f
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INetFwServiceRestriction interface [ICS/ICF],ServiceRestricted method, INetFwServiceRestriction.ServiceRestricted, INetFwServiceRestriction::ServiceRestricted, ServiceRestricted, ServiceRestricted method [ICS/ICF], ServiceRestricted method [ICS/ICF],INetFwServiceRestriction interface, ics.inetfwservicerestriction_servicerestricted, netfw/INetFwServiceRestriction::ServiceRestricted
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,8 +79,7 @@ Indicates whether service restriction rules are in place to restrict the specifi
 
 
 <h3>C++</h3>
-
-						If the method succeeds the return value is S_OK.
+If the method succeeds the return value is S_OK.
 
 If the method fails, the return value is one of the following error codes.
 
@@ -137,8 +136,7 @@ The method failed due to an invalid pointer.
  
 
 <h3>VB</h3>
-
-						If the method succeeds the return value is S_OK.
+If the method succeeds the return value is S_OK.
 
 If the method fails, the return value is one of the following error codes.
 

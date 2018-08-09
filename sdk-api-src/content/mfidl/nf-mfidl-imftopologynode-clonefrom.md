@@ -7,7 +7,7 @@ old-location: mf\imftopologynode_clonefrom.htm
 old-project: medfound
 ms.assetid: 90322fbc-e3de-4801-b10b-63ce538fc83f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 90322fbc-e3de-4801-b10b-63ce538fc83f, CloneFrom, CloneFrom method [Media Foundation], CloneFrom method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],CloneFrom method, IMFTopologyNode.CloneFrom, IMFTopologyNode::CloneFrom, mf.imftopologynode_clonefrom, mfidl/IMFTopologyNode::CloneFrom
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Copies the data from another topology node into this node.
+Copies the data from another topology node into this node.
 
 
 ## -parameters
@@ -63,8 +62,7 @@ req.product: GDI+ 1.1
 
 ### -param pNode [in]
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/01d7eb7c-a3d3-4924-a8ec-a67e9dc17424">IMFTopologyNode</a> interface of the node to copy.
+A pointer to the <a href="https://msdn.microsoft.com/01d7eb7c-a3d3-4924-a8ec-a67e9dc17424">IMFTopologyNode</a> interface of the node to copy.
           
 
 
@@ -86,8 +84,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -99,8 +96,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The node types do not match.
+The node types do not match.
               
 
 </td>
@@ -115,16 +111,13 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-
-        The two nodes must have the same node type. To get the node type, call <a href="https://msdn.microsoft.com/64b2d2b4-1f00-412d-8188-fa361dc317a1">IMFTopologyNode::GetNodeType</a>.
+The two nodes must have the same node type. To get the node type, call <a href="https://msdn.microsoft.com/64b2d2b4-1f00-412d-8188-fa361dc317a1">IMFTopologyNode::GetNodeType</a>.
       
 
-
-        This method copies the object pointer, preferred types, and attributes from <i>pNode</i> to this node. It also copies the <a href="https://msdn.microsoft.com/a6d9246a-0cc6-4dbd-affa-e7d0bbddb008">TOPOID</a> that uniquely identifies each node in a topology. It does not duplicate any of the connections from <i>pNode</i> to other nodes.
+This method copies the object pointer, preferred types, and attributes from <i>pNode</i> to this node. It also copies the <a href="https://msdn.microsoft.com/a6d9246a-0cc6-4dbd-affa-e7d0bbddb008">TOPOID</a> that uniquely identifies each node in a topology. It does not duplicate any of the connections from <i>pNode</i> to other nodes.
       
 
-
-        The purpose of this method is to copy nodes from one topology to another. Do not use duplicate nodes within the same topology.
+The purpose of this method is to copy nodes from one topology to another. Do not use duplicate nodes within the same topology.
       
 
 

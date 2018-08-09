@@ -7,7 +7,7 @@ old-location: controls\ListView_CancelEditLabel.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_canceleditlabel.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_CancelEditLabel, ListView_CancelEditLabel macro [Windows Controls], _win32_ListView_CancelEditLabel, _win32_ListView_CancelEditLabel_cpp, commctrl/ListView_CancelEditLabel, controls.ListView_CancelEditLabel, controls._win32_ListView_CancelEditLabel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Cancels an item text editing operation. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774886(v=VS.85).aspx">LVM_CANCELEDITLABEL</a> message explicitly. 
+Cancels an item text editing operation. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774886(v=VS.85).aspx">LVM_CANCELEDITLABEL</a> message explicitly. 
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A handle to the list-view control.
 
 
 
-To use <b>ListView_CancelEditLabel</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_CancelEditLabel</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

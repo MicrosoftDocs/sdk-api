@@ -4,10 +4,10 @@ title: EvtOpenPublisherMetadata function
 author: windows-sdk-content
 description: Gets a handle that you use to read the specified provider's metadata.
 old-location: wes\evtopenpublishermetadata.htm
-old-project: WES
+old-project: wes
 ms.assetid: 0839fb15-12a9-4e30-9afa-6f6437956df0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EvtOpenPublisherMetadata, EvtOpenPublisherMetadata function [EventLog], wes.evtopenpublishermetadata, winevt/EvtOpenPublisherMetadata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,9 @@ Gets a handle that you use to read the specified provider's metadata.
 A remote session handle that the <a href="https://msdn.microsoft.com/26f1745c-dcca-4452-872e-1fffe20f049c">EvtOpenSession</a> function returns. Set to <b>NULL</b> to get the metadata for a provider on the local computer.
 
 
-### -param PublisherId
+### -param PublisherId [in]
 
-TBD
+The name of the provider. To enumerate the names of the providers registered on the computer, call the <a href="https://msdn.microsoft.com/156c434c-6d0f-4af0-bf10-20aa6bae0945">EvtOpenPublisherEnum</a> function.
 
 
 ### -param LogFilePath [in, optional]
@@ -83,11 +83,6 @@ The locale identifier to use when accessing the localized metadata from the prov
 ### -param Flags [in]
 
 Reserved. Must be zero.
-
-
-#### - PublisherIdentity [in]
-
-The name of the provider. To enumerate the names of the providers registered on the computer, call the <a href="https://msdn.microsoft.com/156c434c-6d0f-4af0-bf10-20aa6bae0945">EvtOpenPublisherEnum</a> function.
 
 
 ## -returns

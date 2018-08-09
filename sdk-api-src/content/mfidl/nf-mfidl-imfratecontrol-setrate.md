@@ -7,7 +7,7 @@ old-location: mf\imfratecontrol_setrate.htm
 old-project: medfound
 ms.assetid: 428d73fa-f284-4861-a41e-04ea7709db0f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 428d73fa-f284-4861-a41e-04ea7709db0f, IMFRateControl interface [Media Foundation],SetRate method, IMFRateControl.SetRate, IMFRateControl::SetRate, SetRate, SetRate method [Media Foundation], SetRate method [Media Foundation],IMFRateControl interface, mf.imfratecontrol_setrate, mfidl/IMFRateControl::SetRate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Sets the playback rate.
+Sets the playback rate.
         
 
 
@@ -64,15 +63,13 @@ req.product: GDI+ 1.1
 
 ### -param fThin [in]
 
-
-            If <b>TRUE</b>, the media streams are thinned. Otherwise, the stream is not thinned. For media sources and demultiplexers, the object must thin the streams when this parameter is <b>TRUE</b>. For downstream transforms, such as decoders and multiplexers, this parameter is informative; it notifies the object that the input streams are thinned. For information, see <a href="https://msdn.microsoft.com/509b2cc8-6017-41a9-ae80-9af21dce9367">About Rate Control</a>.
+If <b>TRUE</b>, the media streams are thinned. Otherwise, the stream is not thinned. For media sources and demultiplexers, the object must thin the streams when this parameter is <b>TRUE</b>. For downstream transforms, such as decoders and multiplexers, this parameter is informative; it notifies the object that the input streams are thinned. For information, see <a href="https://msdn.microsoft.com/509b2cc8-6017-41a9-ae80-9af21dce9367">About Rate Control</a>.
           
 
 
 ### -param flRate [in]
 
-
-            The requested playback rate. Postive values indicate forward playback, negative values indicate reverse playback, and zero indicates scrubbing (the source delivers a single frame).
+The requested playback rate. Postive values indicate forward playback, negative values indicate reverse playback, and zero indicates scrubbing (the source delivers a single frame).
           
 
 
@@ -94,8 +91,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -107,8 +103,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The object does not support reverse playback.
+The object does not support reverse playback.
               
 
 </td>
@@ -120,8 +115,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The object does not support thinning.
+The object does not support thinning.
               
 
 </td>
@@ -133,8 +127,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The object does not support the requested playback rate.
+The object does not support the requested playback rate.
               
 
 </td>
@@ -146,8 +139,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The object cannot change to the new rate while in the running state.
+The object cannot change to the new rate while in the running state.
               
 
 </td>

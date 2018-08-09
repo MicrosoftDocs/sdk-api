@@ -4,10 +4,10 @@ title: TxfLogCreateFileReadContext function
 author: windows-sdk-content
 description: Creates a context to be used to read replication records.
 old-location: fs\txflogcreatefilereadcontext.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 57218f53-adcd-4a9a-b772-d3dab576b8c1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TxfLogCreateFileReadContext, TxfLogCreateFileReadContext function [Files], fs.txflogcreatefilereadcontext, txfw32/TxfLogCreateFileReadContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,9 +75,9 @@ The path that identifies the Resource Manager's .blf file.
 The first LSN in the range to be read.
 
 
-### -param EndingLsn
+### -param EndingLsn [in]
 
-TBD
+The last LSN in the range to be read.
 
 
 ### -param TxfFileId [in]
@@ -88,11 +88,6 @@ The TxF identifier to search for in the LSN range. For more information, see <a 
 ### -param TxfLogContext [out]
 
 A pointer to the context created.
-
-
-#### - EndingLSN [in]
-
-The last LSN in the range to be read.
 
 
 ## -returns

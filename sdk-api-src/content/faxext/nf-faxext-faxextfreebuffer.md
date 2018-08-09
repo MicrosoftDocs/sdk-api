@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxextfreebuffer.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_75bm.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxExtFreeBuffer, FaxExtFreeBuffer function [Fax Service], _mfax_faxextfreebuffer, fax._mfax_faxextfreebuffer, faxext/FaxExtFreeBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>FaxExtFreeBuffer</b> callback function deallocates memory previously allocated by a successful call to the <a href="https://msdn.microsoft.com/library/ms684528(v=VS.85).aspx">FaxExtGetData</a> function.
+The <b>FaxExtFreeBuffer</b> callback function deallocates memory previously allocated by a successful call to the <a href="https://msdn.microsoft.com/en-us/library/ms684528(v=VS.85).aspx">FaxExtGetData</a> function.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>FaxExtFreeBuffer</b> callback function deallocates memory previously allo
 
 Type: <b>LPVOID</b>
 
-Pointer to the data retrieved by a successful call to the <a href="https://msdn.microsoft.com/library/ms684528(v=VS.85).aspx">FaxExtGetData</a> function.
+Pointer to the data retrieved by a successful call to the <a href="https://msdn.microsoft.com/en-us/library/ms684528(v=VS.85).aspx">FaxExtGetData</a> function.
 
 
 ## -returns
@@ -79,9 +79,9 @@ None.
 
 
 
-When the fax extension calls this fax service callback function, it must use the function pointer exposed by the fax service when the service calls the <a href="https://msdn.microsoft.com/library/ms684525(v=VS.85).aspx">FaxExtInitializeConfig</a> function.
+When the fax extension calls this fax service callback function, it must use the function pointer exposed by the fax service when the service calls the <a href="https://msdn.microsoft.com/en-us/library/ms684525(v=VS.85).aspx">FaxExtInitializeConfig</a> function.
 
-The fax service passes a pointer to the <b>FaxExtFreeBuffer</b> callback function when the fax service calls the <a href="https://msdn.microsoft.com/library/ms684525(v=VS.85).aspx">FaxExtInitializeConfig</a> function. The PFAX_EXT_FREE_BUFFER data type is a pointer to a <b>FaxExtFreeBuffer</b> function.
+The fax service passes a pointer to the <b>FaxExtFreeBuffer</b> callback function when the fax service calls the <a href="https://msdn.microsoft.com/en-us/library/ms684525(v=VS.85).aspx">FaxExtInitializeConfig</a> function. The PFAX_EXT_FREE_BUFFER data type is a pointer to a <b>FaxExtFreeBuffer</b> function.
 
 
 
@@ -91,11 +91,11 @@ The fax service passes a pointer to the <b>FaxExtFreeBuffer</b> callback functio
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684528(v=VS.85).aspx">FaxExtGetData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684528(v=VS.85).aspx">FaxExtGetData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684525(v=VS.85).aspx">FaxExtInitializeConfig</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684525(v=VS.85).aspx">FaxExtInitializeConfig</a>
  
 
  

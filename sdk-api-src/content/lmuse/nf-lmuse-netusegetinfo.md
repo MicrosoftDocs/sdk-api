@@ -7,7 +7,7 @@ old-location: netmgmt\netusegetinfo.htm
 old-project: netmgmt
 ms.assetid: 257875db-5ed9-4569-8dbb-5dcc7a6af95c
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: NetUseGetInfo, NetUseGetInfo function [Network Management], _win32_netusegetinfo, lmuse/NetUseGetInfo, netmgmt.netusegetinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,27 +77,7 @@ A pointer to a string that specifies the name of the connection for which to ret
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
 
-### -param LevelFlags
-
-TBD
-
-
-### -param bufptr
-
-TBD
-
-
-
-
-#### - BufPtr [out]
-
-A pointer to the buffer that receives the data. The format of this data depends on the value of the <i>Level</i> parameter. This buffer is allocated by the system and must be freed using the 
-<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a> and 
-<a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>.
-
-
-#### - Level [in]
+### -param LevelFlags [in]
 
 The information level of the data requested. This parameter can be one of the following values. 
 
@@ -146,6 +126,14 @@ Specifies information about the connection between a local device and a shared r
 </tr>
 </table>
  
+
+
+### -param bufptr [out]
+
+A pointer to the buffer that receives the data. The format of this data depends on the value of the <i>Level</i> parameter. This buffer is allocated by the system and must be freed using the 
+<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function. For more information, see 
+<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a> and 
+<a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>.
 
 
 ## -returns

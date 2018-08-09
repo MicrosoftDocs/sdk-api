@@ -7,7 +7,7 @@ old-location: rpc\rpcraiseexception.htm
 old-project: rpc
 ms.assetid: 0bffc62e-a80e-4af1-a17a-ef4f00b9c4da
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcRaiseException, RpcRaiseException function [RPC], _rpc_rpcraiseexception, rpc.rpcraiseexception, rpcdce/RpcRaiseException
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,13 +61,6 @@ Use the
 
 
 ### -param exception
-
-TBD
-
-
-
-
-#### - Exception
 
 Exception code for the exception.
 

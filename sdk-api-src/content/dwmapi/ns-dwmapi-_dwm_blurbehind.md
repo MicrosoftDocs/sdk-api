@@ -7,7 +7,7 @@ old-location: dwm\dwm_blurbehind.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\structures\dwm_blurbehind.htm
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 08/06/2018
 ms.keywords: "*PDWM_BLURBEHIND, DWM_BLURBEHIND, DWM_BLURBEHIND structure [Desktop Window Manager], PDWM_BLURBEHIND, PDWM_BLURBEHIND structure pointer [Desktop Window Manager], _DWM_BLURBEHIND, _udwm_dwm_blurbehind, _udwm_dwm_blurbehind_cpp, dwm.dwm_blurbehind, dwmapi/DWM_BLURBEHIND, dwmapi/PDWM_BLURBEHIND, winui._udwm_dwm_blurbehind"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-Specifies Desktop Window Manager (DWM) blur-behind properties. Used by the <a href="https://msdn.microsoft.com/library/Aa969508(v=VS.85).aspx">DwmEnableBlurBehindWindow</a> function.
+Specifies Desktop Window Manager (DWM) blur-behind properties. Used by the <a href="https://msdn.microsoft.com/en-us/library/Aa969508(v=VS.85).aspx">DwmEnableBlurBehindWindow</a> function.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Specifies Desktop Window Manager (DWM) blur-behind properties. Used by the <a hr
 
 ### -field dwFlags
 
-A bitwise combination of <a href="https://msdn.microsoft.com/library/Aa969533(v=VS.85).aspx">DWM Blur Behind</a> constant values that indicates which of the members of this structure have been set.
+A bitwise combination of <a href="https://msdn.microsoft.com/en-us/library/Aa969533(v=VS.85).aspx">DWM Blur Behind</a> constant values that indicates which of the members of this structure have been set.
 
 
 ### -field fEnable

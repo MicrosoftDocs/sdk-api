@@ -7,7 +7,7 @@ old-location: wsw\wswriteenvelopestart.htm
 old-project: wsw
 ms.assetid: 213fe780-82f2-4140-92f2-2665317a5cb6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsWriteEnvelopeStart, WsWriteEnvelopeStart function [Web Services for Windows], webservices/WsWriteEnvelopeStart, wsw.wswriteenvelopestart
 ms.prod: windows
 ms.technology: windows-sdk

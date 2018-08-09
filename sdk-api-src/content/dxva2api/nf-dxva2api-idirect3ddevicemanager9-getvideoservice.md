@@ -7,7 +7,7 @@ old-location: mf\idirect3ddevicemanager9_getvideoservice.htm
 old-project: medfound
 ms.assetid: 2e62a750-3017-4dd7-9fbc-e2c641f6cf10
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 2e62a750-3017-4dd7-9fbc-e2c641f6cf10, GetVideoService, GetVideoService method [Media Foundation], GetVideoService method [Media Foundation],IDirect3DDeviceManager9 interface, IDirect3DDeviceManager9 interface [Media Foundation],GetVideoService method, IDirect3DDeviceManager9.GetVideoService, IDirect3DDeviceManager9::GetVideoService, dxva2api/IDirect3DDeviceManager9::GetVideoService, mf.idirect3ddevicemanager9_getvideoservice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          Gets a DirectX Video Acceleration (DXVA) service interface.
+Gets a DirectX Video Acceleration (DXVA) service interface.
         
 
 
@@ -63,15 +62,13 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param hDevice [in]
 
-
-            A handle to a Direct3D device. To get a device handle, call <a href="https://msdn.microsoft.com/74cd2260-279a-4956-8fce-40f8008b6797">IDirect3DDeviceManager9::OpenDeviceHandle</a>.
+A handle to a Direct3D device. To get a device handle, call <a href="https://msdn.microsoft.com/74cd2260-279a-4956-8fce-40f8008b6797">IDirect3DDeviceManager9::OpenDeviceHandle</a>.
           
 
 
 ### -param riid [in]
 
-
-            The interface identifier (IID) of the requested interface. The Direct3D device might support the following DXVA service interfaces:
+The interface identifier (IID) of the requested interface. The Direct3D device might support the following DXVA service interfaces:
           
 
 <ul>
@@ -85,8 +82,7 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param ppService [out]
 
-
-            Receives a pointer to the requested interface. The caller must release the interface.
+Receives a pointer to the requested interface. The caller must release the interface.
           
 
 
@@ -94,8 +90,7 @@ req.product: Windows Media Format 9 Series or later
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -110,8 +105,7 @@ req.product: Windows Media Format 9 Series or later
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -123,8 +117,7 @@ req.product: Windows Media Format 9 Series or later
 </dl>
 </td>
 <td width="60%">
-
-                The device handle is invalid.
+The device handle is invalid.
               
 
 </td>
@@ -136,8 +129,7 @@ req.product: Windows Media Format 9 Series or later
 </dl>
 </td>
 <td width="60%">
-
-                The Direct3D device does not support video acceleration.
+The Direct3D device does not support video acceleration.
               
 
 </td>
@@ -149,8 +141,7 @@ req.product: Windows Media Format 9 Series or later
 </dl>
 </td>
 <td width="60%">
-
-                The Direct3D device manager was not initialized. The owner of the device must call <a href="https://msdn.microsoft.com/01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33">IDirect3DDeviceManager9::ResetDevice</a>.
+The Direct3D device manager was not initialized. The owner of the device must call <a href="https://msdn.microsoft.com/01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33">IDirect3DDeviceManager9::ResetDevice</a>.
               
 
 </td>
@@ -162,8 +153,7 @@ req.product: Windows Media Format 9 Series or later
 </dl>
 </td>
 <td width="60%">
-
-                The specified handle is not a Direct3D device handle.
+The specified handle is not a Direct3D device handle.
               
 
 </td>

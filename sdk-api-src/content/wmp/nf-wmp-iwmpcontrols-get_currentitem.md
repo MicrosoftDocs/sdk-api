@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols_get_currentitem.htm
 old-project: WMP
 ms.assetid: 1c2443cd-d7e6-466f-b728-ad04a415d192
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_currentItem method, IWMPControls.get_currentItem, IWMPControls::get_currentItem, IWMPControlsget_currentItem, get_currentItem, get_currentItem method [Windows Media Player], get_currentItem method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_currentitem, wmp/IWMPControls::get_currentItem
 ms.prod: windows
 ms.technology: windows-sdk

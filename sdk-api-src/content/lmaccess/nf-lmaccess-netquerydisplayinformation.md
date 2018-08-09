@@ -7,7 +7,7 @@ old-location: netmgmt\netquerydisplayinformation.htm
 old-project: netmgmt
 ms.assetid: 049f1ea3-4d23-4b35-8b08-7256859aed45
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: 1, 2, 3, NetQueryDisplayInformation, NetQueryDisplayInformation function [Network Management], _win32_netquerydisplayinformation, lmaccess/NetQueryDisplayInformation, netmgmt.netquerydisplayinformation
 ms.prod: windows
 ms.technology: windows-sdk

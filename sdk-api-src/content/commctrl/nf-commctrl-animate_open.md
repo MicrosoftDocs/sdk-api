@@ -7,7 +7,7 @@ old-location: controls\Animate_Open.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_open.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Animate_Open, Animate_Open macro [Windows Controls], _win32_Animate_Open, _win32_Animate_Open_cpp, commctrl/Animate_Open, controls.Animate_Open, controls._win32_Animate_Open
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Opens an AVI clip and displays its first frame in an animation control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761897(v=VS.85).aspx">ACM_OPEN</a> message explicitly. 
+Opens an AVI clip and displays its first frame in an animation control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761897(v=VS.85).aspx">ACM_OPEN</a> message explicitly. 
 
 
 ## -parameters
@@ -60,30 +60,16 @@ Opens an AVI clip and displays its first frame in an animation control. You can 
 
 ### -param hwnd
 
-TBD
-
-
-### -param szName
-
-TBD
-
-
-
-
-
-
-#### - hwndAnim
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the animation control. 
 
 
-#### - lpszName
+### -param szName
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
 
-A pointer to a buffer that contains the path of the AVI file or the name of an AVI resource. Alternatively, this parameter can consist of the AVI resource identifier in the <a href="https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx">LOWORD</a> and zero in the <a href="https://msdn.microsoft.com/library/ms632657(v=VS.85).aspx">HIWORD</a>. To create this value, use the <a href="https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. The control loads an AVI resource from the module specified by the instance handle passed to the <a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a> function, the <a href="https://msdn.microsoft.com/library/Bb761904(v=VS.85).aspx">Animate_Create</a> macro, or the dialog box creation function that created the control. The AVI file or resource specified by <i>lpszName</i> must not contain audio.
+A pointer to a buffer that contains the path of the AVI file or the name of an AVI resource. Alternatively, this parameter can consist of the AVI resource identifier in the <a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a> and zero in the <a href="https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx">HIWORD</a>. To create this value, use the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. The control loads an AVI resource from the module specified by the instance handle passed to the <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a> function, the <a href="https://msdn.microsoft.com/en-us/library/Bb761904(v=VS.85).aspx">Animate_Create</a> macro, or the dialog box creation function that created the control. The AVI file or resource specified by <i>lpszName</i> must not contain audio.
 
 
 
@@ -94,9 +80,9 @@ If this parameter is <b>NULL</b>, the system closes the AVI file that was previo
 
 
 
-You can only open silent AVI clips. <a href="https://msdn.microsoft.com/library/Bb761897(v=VS.85).aspx">ACM_OPEN</a> and <b>Animate_Open</b> will fail if <i>lpszName</i> specifies an AVI clip that contains sound. 
+You can only open silent AVI clips. <a href="https://msdn.microsoft.com/en-us/library/Bb761897(v=VS.85).aspx">ACM_OPEN</a> and <b>Animate_Open</b> will fail if <i>lpszName</i> specifies an AVI clip that contains sound. 
 
-You can use <a href="https://msdn.microsoft.com/library/Bb761902(v=VS.85).aspx">Animate_Close</a> to close an AVI file or AVI resource that was previously opened for the specified animation control. 
+You can use <a href="https://msdn.microsoft.com/en-us/library/Bb761902(v=VS.85).aspx">Animate_Close</a> to close an AVI file or AVI resource that was previously opened for the specified animation control. 
 
 
 

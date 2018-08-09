@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_getcategory.htm
 old-project: printdocs
 ms.assetid: 97b1b0ca-a2e7-4835-aece-c2cc23481530
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetCategory, GetCategory method [XPS Documents and Packaging], GetCategory method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCategory method, IXpsOMCoreProperties.GetCategory, IXpsOMCoreProperties::GetCategory, xps.ixpsomcoreproperties_getcategory, xpsobjectmodel/IXpsOMCoreProperties::GetCategory
 ms.prod: windows
 ms.technology: windows-sdk

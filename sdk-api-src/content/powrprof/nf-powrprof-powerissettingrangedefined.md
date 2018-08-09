@@ -7,7 +7,7 @@ old-location: base\powerissettingrangedefined.htm
 old-project: power
 ms.assetid: 7babaf7b-ecb3-4b29-917e-2ed63bad4a38
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: PowerIsSettingRangeDefined, PowerIsSettingRangeDefined function, base.powerissettingrangedefined, powrprof/PowerIsSettingRangeDefined
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,14 @@ TBD
 
 
 
-#### - SettingGuid [in, optional]
-
-The identifier of the power setting to query.
-
-
 #### - SubKeyGuid [in, optional]
 
 The identifier of the subkey to search.
+
+
+#### - SettingGuid [in, optional]
+
+The identifier of the power setting to query.
 
 
 ## -returns

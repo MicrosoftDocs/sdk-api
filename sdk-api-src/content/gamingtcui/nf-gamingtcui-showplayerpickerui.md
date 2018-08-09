@@ -7,7 +7,7 @@ old-location: tcui\showplayerpickerui.htm
 old-project: tcui
 ms.assetid: 71A5DD28-1C0F-46B6-835F-1358B21AF2EF
 ms.author: windowssdkdev
-ms.date: 03/20/2018
+ms.date: 08/06/2018
 ms.keywords: ShowPlayerPickerUI, ShowPlayerPickerUI function, gamingtcui/ShowPlayerPickerUI, tcui.showplayerpickerui
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,7 +133,7 @@ Do not use. This API is only supported for Xbox developers.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Do not use. This API is only supported for Xbox developers.
 

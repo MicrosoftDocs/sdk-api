@@ -7,7 +7,7 @@ old-location: tsf\itfcontext_trackproperties.htm
 old-project: TSF
 ms.assetid: e283a45d-b585-4a26-89db-7ed706f0f593
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfContext interface [Text Services Framework],TrackProperties method, ITfContext.TrackProperties, ITfContext::TrackProperties, TrackProperties, TrackProperties method [Text Services Framework], TrackProperties method [Text Services Framework],ITfContext interface, _tsf_itfcontext_trackproperties_ref, msctf/ITfContext::TrackProperties, tsf.itfcontext_trackproperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -248,14 +248,12 @@ sel.range-&gt;Release();
 
 
 
-<a href="https://msdn.microsoft.com/e5d76443-f767-47fb-be3a-8cbac224d299">
-        ITfContext::GetProperty
+<a href="https://msdn.microsoft.com/e5d76443-f767-47fb-be3a-8cbac224d299">ITfContext::GetProperty
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f4021a3d-6b86-469f-8943-770e7ef0cf99">
-        ITfReadOnlyProperty
+<a href="https://msdn.microsoft.com/f4021a3d-6b86-469f-8943-770e7ef0cf99">ITfReadOnlyProperty
       </a>
  
 

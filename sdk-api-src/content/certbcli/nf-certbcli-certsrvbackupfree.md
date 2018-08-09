@@ -7,7 +7,7 @@ old-location: security\certsrvbackupfree.htm
 old-project: seccrypto
 ms.assetid: dbfac3fc-3156-4253-812a-8b0647719096
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CertSrvBackupFree, CertSrvBackupFree function [Security], _certsrv_certsrvbackupfree, certbcli/CertSrvBackupFree, security.certsrvbackupfree
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>CertSrvBackupFree</b> function is used to free memory allocated from certain Certificate Services Backup APIs.
+The <b>CertSrvBackupFree</b> function is used to free memory allocated from certain Certificate Services Backup APIs.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: mf\mfshutdownobject.htm
 old-project: medfound
 ms.assetid: a7dc3d4a-f21e-4af8-bee0-2d5f2cf28587
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFShutdownObject, MFShutdownObject function [Media Foundation], a7dc3d4a-f21e-4af8-bee0-2d5f2cf28587, mf.mfshutdownobject, mfidl/MFShutdownObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,8 +84,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The function succeeded.
+The function succeeded.
               
 
 </td>

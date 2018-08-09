@@ -4,10 +4,10 @@ title: IUpdateServiceManager::AddScanPackageService
 author: windows-sdk-content
 description: Registers a scan package as a service with Windows Update Agent (WUA) and then returns an IUpdateService interface.
 old-location: wua\iupdateservicemanager_addscanpackageservice.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 5b0677bb-9f19-4bb4-9942-8ca3da18b29a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: AddScanPackageService, AddScanPackageService method [Windows Update Agent], AddScanPackageService method [Windows Update Agent],IUpdateServiceManager interface, IUpdateServiceManager interface [Windows Update Agent],AddScanPackageService method, IUpdateServiceManager.AddScanPackageService, IUpdateServiceManager::AddScanPackageService, wua.iupdateservicemanager_addscanpackageservice, wuapi/IUpdateServiceManager::AddScanPackageService
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,14 +81,14 @@ For possible values, see <a href="https://msdn.microsoft.com/c03ee4e7-b8d4-46bb-
 A pointer to an <a href="https://msdn.microsoft.com/2f237cd3-668b-4b1b-b98b-4cfc40f5889e">IUpdateService</a> interface that contains service registration information.
 
 
-#### - bstrScanFileLocation [in]
-
-The path of the Microsoft signed scan file that has to be registered as a service.
-
-
 #### - bstrServiceName [in]
 
 A descriptive name for the scan package service.
+
+
+#### - bstrScanFileLocation [in]
+
+The path of the Microsoft signed scan file that has to be registered as a service.
 
 
 ## -returns

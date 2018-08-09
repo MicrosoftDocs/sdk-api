@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturepartreference_getcontenttype.htm
 old-project: OPC
 ms.assetid: 1384a0ab-d2dc-49c6-b180-648e256a875d
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: GetContentType, GetContentType method [Open Packaging Conventions], GetContentType method [Open Packaging Conventions],IOpcSignaturePartReference interface, IOpcSignaturePartReference interface [Open Packaging Conventions],GetContentType method, IOpcSignaturePartReference.GetContentType, IOpcSignaturePartReference::GetContentType, msopc/IOpcSignaturePartReference::GetContentType, opc.iopcsignaturepartreference_getcontenttype
 ms.prod: windows
 ms.technology: windows-sdk

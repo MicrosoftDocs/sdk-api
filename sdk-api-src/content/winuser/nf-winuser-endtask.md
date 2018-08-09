@@ -7,7 +7,7 @@ old-location: winmsg\endtask.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\endtask.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EndTask, EndTask function [Windows and Messages], _win32_EndTask, _win32_endtask_cpp, winmsg.endtask, winui._win32_endtask, winuser/EndTask
 ms.prod: windows
 ms.technology: windows-sdk

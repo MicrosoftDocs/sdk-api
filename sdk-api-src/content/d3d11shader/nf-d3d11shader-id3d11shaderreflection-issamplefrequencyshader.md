@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflection_issamplefrequencyshader.htm
 old-project: direct3d11
 ms.assetid: e57cdb67-90b6-4d5d-967b-5de3a9bbaf78
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 55289906-bcde-3c18-a7a9-103b6e0d4c54, ID3D11ShaderReflection interface [Direct3D 11],IsSampleFrequencyShader method, ID3D11ShaderReflection.IsSampleFrequencyShader, ID3D11ShaderReflection::IsSampleFrequencyShader, IsSampleFrequencyShader, IsSampleFrequencyShader method [Direct3D 11], IsSampleFrequencyShader method [Direct3D 11],ID3D11ShaderReflection interface, d3d11shader/ID3D11ShaderReflection::IsSampleFrequencyShader, direct3d11.id3d11shaderreflection_issamplefrequencyshader
 ms.prod: windows
 ms.technology: windows-sdk

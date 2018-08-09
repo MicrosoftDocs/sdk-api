@@ -4,10 +4,10 @@ title: WSAEventSelect function
 author: windows-sdk-content
 description: The WSAEventSelect function specifies an event object to be associated with the specified set of FD_XXX network events.
 old-location: winsock\wsaeventselect_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: f98a71e4-47fb-47a4-b37e-e4cc801a8f98
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSAEventSelect, WSAEventSelect function [Winsock], _win32_wsaeventselect_2, winsock.wsaeventselect_2, winsock2/WSAEventSelect
 ms.prod: windows
 ms.technology: windows-sdk

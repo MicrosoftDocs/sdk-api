@@ -7,7 +7,7 @@ old-location: base\vbs_enclave_report_module.htm
 old-project: memory
 ms.assetid: FB72B01D-B3FE-4FD7-8766-B209C6BC105E
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: VBS_ENCLAVE_REPORT_MODULE, VBS_ENCLAVE_REPORT_MODULE structure, base.vbs_enclave_report_module, ntenclv/VBS_ENCLAVE_REPORT_MODULE
 ms.prod: windows
 ms.technology: windows-sdk

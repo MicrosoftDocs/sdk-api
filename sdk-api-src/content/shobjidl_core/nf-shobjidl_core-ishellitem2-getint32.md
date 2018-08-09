@@ -7,7 +7,7 @@ old-location: shell\IShellItem2_GetInt32.htm
 old-project: shell
 ms.assetid: 7b56036e-316b-4300-979c-151422f74bd2
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetInt32, GetInt32 method [Windows Shell], GetInt32 method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetInt32 method, IShellItem2.GetInt32, IShellItem2::GetInt32, _shell_IShellItem2_GetInt32, shell.IShellItem2_GetInt32, shobjidl_core/IShellItem2::GetInt32
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Gets the Int32 value of specified property key.
 
 Type: <b>REFPROPERTYKEY</b>
 
-
-          A reference to a <a href="https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea">PROPERTYKEY</a> structure.
+A reference to a <a href="https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea">PROPERTYKEY</a> structure.
         
 
 

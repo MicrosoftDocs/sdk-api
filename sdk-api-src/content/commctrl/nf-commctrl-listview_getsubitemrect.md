@@ -7,7 +7,7 @@ old-location: controls\ListView_GetSubItemRect.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getsubitemrect.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: LVIR_BOUNDS, LVIR_ICON, LVIR_LABEL, ListView_GetSubItemRect, ListView_GetSubItemRect macro [Windows Controls], _win32_ListView_GetSubItemRect, _win32_ListView_GetSubItemRect_cpp, commctrl/ListView_GetSubItemRect, controls.ListView_GetSubItemRect, controls._win32_ListView_GetSubItemRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets information about the rectangle that surrounds a subitem in a list-view control. You can use this macro (recommended) or send the <a href="https://msdn.microsoft.com/library/Bb761075(v=VS.85).aspx">LVM_GETSUBITEMRECT</a> message explicitly. This macro is intended to be used only on list-view controls that use the <a href="https://msdn.microsoft.com/library/Bb774739(v=VS.85).aspx">LVS_REPORT</a> style. 
+Gets information about the rectangle that surrounds a subitem in a list-view control. You can use this macro (recommended) or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761075(v=VS.85).aspx">LVM_GETSUBITEMRECT</a> message explicitly. This macro is intended to be used only on list-view controls that use the <a href="List_view_window_styles.htm">LVS_REPORT</a> style. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Gets information about the rectangle that surrounds a subitem in a list-view con
 
 ### -param hwnd
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to a list-view control. 
 
 
 ### -param iItem
@@ -123,22 +125,6 @@ Returns the bounding rectangle of the entire item, including the icon and label.
 
 
 ### -param prc
-
-TBD
-
-
-
-
-
-
-#### - hwndLV
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to a list-view control. 
-
-
-#### - lpRect
 
 Type: <b>LPRECT</b>
 

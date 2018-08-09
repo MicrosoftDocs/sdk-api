@@ -7,7 +7,7 @@ old-location: search\_search_ISearchNotifyInlineSite_OnItemIndexedStatusChange.h
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchnotifyinlinesite\onitemindexedstatuschange.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchNotifyInlineSite interface [search],OnItemIndexedStatusChange method, ISearchNotifyInlineSite.OnItemIndexedStatusChange, ISearchNotifyInlineSite::OnItemIndexedStatusChange, OnItemIndexedStatusChange, OnItemIndexedStatusChange method [search], OnItemIndexedStatusChange method [search],ISearchNotifyInlineSite interface, _search_ISearchNotifyInlineSite_OnItemIndexedStatusChange, search._search_ISearchNotifyInlineSite_OnItemIndexedStatusChange, searchapi/ISearchNotifyInlineSite::OnItemIndexedStatusChange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-            Called by the search service to notify the client when the status of a particular document or item changes.
+Called by the search service to notify the client when the status of a particular document or item changes.
         
 
 
@@ -63,10 +62,9 @@ req.product: ADAM
 
 ### -param sipStatus [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa965701(v=VS.85).aspx">SEARCH_INDEXING_PHASE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965701(v=VS.85).aspx">SEARCH_INDEXING_PHASE</a></b>
 
-
-                    The <a href="https://msdn.microsoft.com/library/Aa965701(v=VS.85).aspx">SEARCH_INDEXING_PHASE</a> status of each document in the array being sent.
+The <a href="https://msdn.microsoft.com/en-us/library/Aa965701(v=VS.85).aspx">SEARCH_INDEXING_PHASE</a> status of each document in the array being sent.
                 
 
 
@@ -74,17 +72,15 @@ Type: <b><a href="https://msdn.microsoft.com/library/Aa965701(v=VS.85).aspx">SEA
 
 Type: <b>DWORD</b>
 
-
-                    The number of entries in <i>rgItemStatusEntries</i>.
+The number of entries in <i>rgItemStatusEntries</i>.
                 
 
 
 ### -param rgItemStatusEntries [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa965372(v=VS.85).aspx">SEARCH_ITEM_INDEXING_STATUS</a>[]</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965372(v=VS.85).aspx">SEARCH_ITEM_INDEXING_STATUS</a>[]</b>
 
-
-                    An array of <a href="https://msdn.microsoft.com/library/Aa965372(v=VS.85).aspx">SEARCH_ITEM_INDEXING_STATUS</a> structures containing status update information.
+An array of <a href="https://msdn.microsoft.com/en-us/library/Aa965372(v=VS.85).aspx">SEARCH_ITEM_INDEXING_STATUS</a> structures containing status update information.
                 
 
 
@@ -104,11 +100,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231458(v=VS.85).aspx">ISearchNotifyInlineSite</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231458(v=VS.85).aspx">ISearchNotifyInlineSite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb266528(v=VS.85).aspx">Notifying the Index of Changes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266528(v=VS.85).aspx">Notifying the Index of Changes</a>
  
 
  

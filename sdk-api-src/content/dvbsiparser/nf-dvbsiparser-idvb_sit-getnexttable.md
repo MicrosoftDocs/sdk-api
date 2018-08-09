@@ -7,7 +7,7 @@ old-location: mstv\idvb_sit_getnexttable.htm
 old-project: mstv
 ms.assetid: e5a23ec2-8eff-42cb-abe2-bf4447406e8c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],IDVB_SIT interface, IDVB_SIT interface [Microsoft TV Technologies],GetNextTable method, IDVB_SIT.GetNextTable, IDVB_SIT::GetNextTable, IDVB_SITGetNextTable, dvbsiparser/IDVB_SIT::GetNextTable, mstv.idvb_sit_getnexttable
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IUPnPService::InvokeAction
 author: windows-sdk-content
 description: Invokes a method on the device.
 old-location: upnp\iupnpservice_invokeaction.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: fe8b4761-63cb-46a9-a7d0-5603cc1a5a58
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IUPnPService interface [UPnP APIs],InvokeAction method, IUPnPService.InvokeAction, IUPnPService::InvokeAction, InvokeAction, InvokeAction method [UPnP APIs], InvokeAction method [UPnP APIs],IUPnPService interface, _upnp_iupnpservice_invokeaction, upnp.iupnpservice_invokeaction, upnp/IUPnPService::InvokeAction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,6 +82,16 @@ Specifies the method to invoke.
 
 
 
+#### - varInActionArgs [in]
+
+Specifies an array of input arguments to the method. If the action has no input arguments, this parameter must contain an empty array. 
+
+
+
+
+The contents of this array are service-specific.
+
+
 #### - pvarOutActionArgs [in, out]
 
 On input, contains a reference to an empty array. On output, receives a reference to the array of output arguments. If the action has no output arguments, this parameter contains an empty array. 
@@ -101,16 +111,6 @@ If the device returns an error after the action is invoked on it and this parame
 
 Free this parameter with <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a>.
 						
-
-
-#### - varInActionArgs [in]
-
-Specifies an array of input arguments to the method. If the action has no input arguments, this parameter must contain an empty array. 
-
-
-
-
-The contents of this array are service-specific.
 
 
 ## -returns

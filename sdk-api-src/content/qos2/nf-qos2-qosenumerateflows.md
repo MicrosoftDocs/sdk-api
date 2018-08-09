@@ -7,7 +7,7 @@ old-location: qos\qosenumerateflows.htm
 old-project: qos
 ms.assetid: 62027f7b-9ecc-4631-b755-2302e0bb49c0
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: QOSEnumerateFlows, QOSEnumerateFlows function [QOS], qos.qosenumerateflows, qos2/QOSEnumerateFlows
 ms.prod: windows
 ms.technology: windows-sdk

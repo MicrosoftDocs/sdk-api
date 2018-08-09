@@ -7,7 +7,7 @@ old-location: winsync\ifeedclockvectorelement.htm
 old-project: winsync
 ms.assetid: 7ffc228f-c4f2-4451-9b23-ec78bf6c8318
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IFeedClockVectorElement, IFeedClockVectorElement interface [Windows Sync], IFeedClockVectorElement interface [Windows Sync],described, winsync.ifeedclockvectorelement, winsync/IFeedClockVectorElement
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: GetComputerObjectNameA function
 author: windows-sdk-content
 description: Retrieves the local computer's name in a specified format.
 old-location: base\getcomputerobjectname.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: aead19ae-a27c-486e-aa2e-220d337044fc
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/07/2018
 ms.keywords: GetComputerObjectName, GetComputerObjectName function, GetComputerObjectNameA, GetComputerObjectNameW, _win32_getcomputerobjectname, base.getcomputerobjectname, secext/GetComputerObjectName, secext/GetComputerObjectNameA, secext/GetComputerObjectNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,14 +79,7 @@ A pointer to a buffer that receives the name in the specified format.
 If this parameter is <b>NULL</b>, either the function succeeds and the <i>lpnSize</i> parameter receives the required size, or the function fails with ERROR_INSUFFICIENT_BUFFER and <i>lpnSize</i> receives the required size. The behavior depends on the value of <i>NameFormat</i> and the version of the operating system.
 
 
-### -param nSize
-
-TBD
-
-
-
-
-#### - lpnSize [in, out]
+### -param nSize [in, out]
 
 On input, specifies the size of the <i>lpNameBuffer</i> buffer, in <b>TCHARs</b>. On success, receives the size of the name copied to the buffer. If the <i>lpNameBuffer</i> buffer is too small to hold the name, the function fails and <i>lpnSize</i> receives the required buffer size.
 

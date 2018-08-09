@@ -7,7 +7,7 @@ old-location: wsw\ws_http_ssl_policy_description.htm
 old-project: wsw
 ms.assetid: 5175dfe4-eba6-4101-982d-273f67065c5c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_HTTP_SSL_POLICY_DESCRIPTION, WS_HTTP_SSL_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_HTTP_SSL_POLICY_DESCRIPTION, webservices/WS_HTTP_SSL_POLICY_DESCRIPTION, wsw.ws_http_ssl_policy_description
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: intl\imeshf.htm
 old-project: Intl
 ms.assetid: CFFEFEDC-F614-4DD4-B1A1-4D236339E817
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: IMESHF, IMESHF structure [Internationalization for Windows Applications], PIMESHF, PIMESHF structure pointer [Internationalization for Windows Applications], _IMESHF, intl.imeshf, msime/IMESHF, msime/PIMESHF
 ms.prod: windows
 ms.technology: windows-sdk

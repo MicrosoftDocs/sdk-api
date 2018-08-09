@@ -7,7 +7,7 @@ old-location: tsf\itfedittransactionsink_onendedittransaction.htm
 old-project: TSF
 ms.assetid: 9ca9eac8-f30b-4a52-b851-3ad7a5c4dfb7
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfEditTransactionSink interface [Text Services Framework],OnEndEditTransaction method, ITfEditTransactionSink.OnEndEditTransaction, ITfEditTransactionSink::OnEndEditTransaction, OnEndEditTransaction, OnEndEditTransaction method [Text Services Framework], OnEndEditTransaction method [Text Services Framework],ITfEditTransactionSink interface, _tsf_itfedittransactionsink_onendedittransaction_ref, msctf/ITfEditTransactionSink::OnEndEditTransaction, tsf.itfedittransactionsink_onendedittransaction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,14 +91,12 @@ The TSF manager calls this method at the end of an edit transaction. A text serv
 
 
 
-<a href="https://msdn.microsoft.com/d5393459-8bd6-4daf-830a-aa08d76c6347">
-        ITfEditTransactionSink
+<a href="https://msdn.microsoft.com/d5393459-8bd6-4daf-830a-aa08d76c6347">ITfEditTransactionSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/7763a879-a558-463d-837b-e38e6f84b9f7">
-        ITfTextEditSink::OnEndEdit
+<a href="https://msdn.microsoft.com/7763a879-a558-463d-837b-e38e6f84b9f7">ITfTextEditSink::OnEndEdit
       </a>
  
 

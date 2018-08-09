@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclient_disconnect.htm
 old-project: termserv
 ms.assetid: 134e72ad-93dd-4f53-b26c-09654f309658
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: Disconnect, Disconnect method [Remote Desktop Services], Disconnect method [Remote Desktop Services],IRemoteDesktopClient interface, IRemoteDesktopClient interface [Remote Desktop Services],Disconnect method, IRemoteDesktopClient.Disconnect, IRemoteDesktopClient::Disconnect, rdpappcontainerclient/IRemoteDesktopClient::Disconnect, termserv.iremotedesktopclient_disconnect
 ms.prod: windows
 ms.technology: windows-sdk

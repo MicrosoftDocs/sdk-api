@@ -7,7 +7,7 @@ old-location: dhcp\dhcpserversetconfig.htm
 old-project: dhcp
 ms.assetid: 06f0c6b2-a916-4b1b-9956-22dcaafcad1b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpServerSetConfig, DhcpServerSetConfig function [DHCP], Set_APIProtocolSupport, Set_BackupInterval, Set_BackupPath, Set_DatabaseCleanupInterval, Set_DatabaseLoggingFlag, Set_DatabaseName, Set_DatabasePath, Set_RestoreFlag, Set_Set_DebugFlag, dhcp.dhcpserversetconfig, dhcpsapi/DhcpServerSetConfig
 ms.prod: windows
 ms.technology: windows-sdk
@@ -211,8 +211,7 @@ The DHCPv4 server must be restarted for the following settings to be effective:<
 
 
 
-<a href="https://msdn.microsoft.com/3c7226fd-703c-4981-b82b-180b4070d671">
-        DHCP_SERVER_CONFIG_INFO</a>
+<a href="https://msdn.microsoft.com/3c7226fd-703c-4981-b82b-180b4070d671">DHCP_SERVER_CONFIG_INFO</a>
 
 
 

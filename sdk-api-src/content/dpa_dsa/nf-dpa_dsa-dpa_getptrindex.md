@@ -7,7 +7,7 @@ old-location: controls\DPA_GetPtrIndex.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_getptrindex.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DPA_GetPtrIndex, DPA_GetPtrIndex function [Windows Controls], _shell_DPA_GetPtrIndex, _shell_DPA_GetPtrIndex_cpp, controls.DPA_GetPtrIndex, controls._shell_DPA_GetPtrIndex, dpa_dsa/DPA_GetPtrIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,14 +67,7 @@ Type: <b>HDPA</b>
 A handle to an existing DPA.
 
 
-### -param p
-
-TBD
-
-
-
-
-#### - pvoid [in]
+### -param p [in]
 
 Type: <b>const void*</b>
 

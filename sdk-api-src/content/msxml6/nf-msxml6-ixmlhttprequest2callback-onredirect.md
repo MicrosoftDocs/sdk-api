@@ -7,7 +7,7 @@ old-location: ixhr2\ixmlhttprequest2callback_onredirect.htm
 old-project: ixhr2
 ms.assetid: 8492FFD5-99C8-4545-B5FD-465CC01D0038
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnRedirect method, IXMLHTTPRequest2Callback.OnRedirect, IXMLHTTPRequest2Callback::OnRedirect, OnRedirect, OnRedirect method [XMLHttpRequest2], OnRedirect method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onredirect, msxml6/IXMLHTTPRequest2Callback::OnRedirect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,8 +89,7 @@ If the request redirection is not permitted, you can call the Abort method on th
 XMLHTTPRequest2 imposes a maximum of 100 re-directions on any request. Any re-directions above that limit generate an <a href="https://msdn.microsoft.com/532C97A7-B952-47BE-A9C7-5B1E5AB4C3D3">OnError</a> event.
 Applications have no access to the headers for re-directions.
 
-
- Once the final redirection has completed and the final URL has been reached, the application receives an <a href="https://msdn.microsoft.com/EB6580C5-B200-4281-BF1F-FA5C3220689E">OnHeadersAvailable</a> callback.
+Once the final redirection has completed and the final URL has been reached, the application receives an <a href="https://msdn.microsoft.com/EB6580C5-B200-4281-BF1F-FA5C3220689E">OnHeadersAvailable</a> callback.
 
 
 

@@ -7,7 +7,7 @@ old-location: menurc\verinstallfile.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verinstallfile.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: VIFF_DONTDELETEOLD, VIFF_FORCEINSTALL, VerInstallFile, VerInstallFile function [Menus and Other Resources], VerInstallFileA, VerInstallFileW, _win32_VerInstallFile, _win32_verinstallfile_cpp, menurc.verinstallfile, winui._win32_verinstallfile, winver/VerInstallFile, winver/VerInstallFileA, winver/VerInstallFileW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -145,14 +145,7 @@ Type: <b>LPTSTR</b>
 The name of a temporary copy of the source file. The buffer should be at least <b>_MAX_PATH</b> characters long, although this is not required, and should be empty on input. 
 
 
-### -param puTmpFileLen
-
-TBD
-
-
-
-
-#### - lpuTmpFileLen [in, out]
+### -param puTmpFileLen [in, out]
 
 Type: <b>PUINT</b>
 

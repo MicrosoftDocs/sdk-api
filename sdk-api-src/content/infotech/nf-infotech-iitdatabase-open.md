@@ -129,7 +129,7 @@ The database was successfully opened.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms670034(v=VS.85).aspx">IITDatabase</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670034(v=VS.85).aspx">IITDatabase</a>
  
 
  

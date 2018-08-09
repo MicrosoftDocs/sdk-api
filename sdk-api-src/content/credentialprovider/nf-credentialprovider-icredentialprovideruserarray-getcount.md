@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderUserArray_GetCount.htm
 old-project: shell
 ms.assetid: 524A9FA1-5106-42d2-A4B6-5D3B83E3A6BA
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],ICredentialProviderUserArray interface, ICredentialProviderUserArray interface [Windows Shell],GetCount method, ICredentialProviderUserArray.GetCount, ICredentialProviderUserArray::GetCount, credentialprovider/ICredentialProviderUserArray::GetCount, shell.ICredentialProviderUserArray_GetCount
 ms.prod: windows
 ms.technology: windows-sdk

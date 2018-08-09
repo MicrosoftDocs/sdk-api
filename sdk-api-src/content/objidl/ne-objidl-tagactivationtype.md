@@ -1,0 +1,101 @@
+---
+UID: NE:objidl.tagACTIVATIONTYPE
+title: tagACTIVATIONTYPE
+author: windows-sdk-content
+description: Specifies the kind of activation for an activatable class.
+old-location: winrt\activationtype.htm
+old-project: WinRT
+ms.assetid: 200257CC-FE26-407F-8AE4-4DB7030AB4E7
+ms.author: windowssdkdev
+ms.date: 08/06/2018
+ms.keywords: ACTIVATIONTYPE, ActivationType, ActivationType enumeration [Windows Runtime], InProcess, OutOfProcess, objidl/ActivationType, objidl/InProcess, objidl/OutOfProcess, tagACTIVATIONTYPE, winrt.activationtype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Objidlbase.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: ACTIVATIONTYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - objidl.h
+api_name:
+ - ActivationType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: ADAM
+---
+
+# tagACTIVATIONTYPE enumeration
+
+
+## -description
+
+
+Specifies the kind of activation for an activatable class.
+
+
+## -enum-fields
+
+
+
+
+### -field ACTIVATIONTYPE_UNCATEGORIZED
+
+
+### -field ACTIVATIONTYPE_FROM_MONIKER
+
+
+### -field ACTIVATIONTYPE_FROM_DATA
+
+
+### -field ACTIVATIONTYPE_FROM_STORAGE
+
+
+### -field ACTIVATIONTYPE_FROM_STREAM
+
+
+### -field ACTIVATIONTYPE_FROM_FILE
+
+
+
+
+#### - InProcess
+
+Specifies in-process activation.
+
+
+#### - OutOfProcess
+
+Specifies out-of-process activation.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/99834A2D-547B-4B04-8703-46B11E0BB812">IActivatableClassRegistration</a>
+ 
+
+ 
+

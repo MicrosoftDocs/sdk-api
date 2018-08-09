@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedProviderDescription.htm
 old-project: WinAuto
 ms.assetid: ed26dbb7-9838-48f2-8401-f169038b8b92
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CachedProviderDescription property [Windows Accessibility], CachedProviderDescription property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedProviderDescription property, IUIAutomationElement.CachedProviderDescription, IUIAutomationElement.get_CachedProviderDescription, IUIAutomationElement::CachedProviderDescription, IUIAutomationElement::get_CachedProviderDescription, get_CachedProviderDescription, uiauto.uiauto_IUIAutomationElement_CachedProviderDescription, uiauto_IUIAutomationElement_CachedProviderDescription, uiautomationclient/IUIAutomationElement::CachedProviderDescription, uiautomationclient/IUIAutomationElement::get_CachedProviderDescription, winauto.uiauto_IUIAutomationElement_CachedProviderDescription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

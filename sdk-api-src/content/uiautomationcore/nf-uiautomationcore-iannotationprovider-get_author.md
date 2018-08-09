@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IAnnotationProvider_Author.htm
 old-project: WinAuto
 ms.assetid: 7A5DB431-FCB8-4AE6-AA55-EC0A5DE64470
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Author property [Windows Accessibility], Author property [Windows Accessibility],IAnnotationProvider interface, IAnnotationProvider interface [Windows Accessibility],Author property, IAnnotationProvider.Author, IAnnotationProvider.get_Author, IAnnotationProvider::Author, IAnnotationProvider::get_Author, get_Author, uiautomationcore/IAnnotationProvider::Author, uiautomationcore/IAnnotationProvider::get_Author, winauto.uiauto_IAnnotationProvider_Author
 ms.prod: windows
 ms.technology: windows-sdk

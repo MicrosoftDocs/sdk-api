@@ -4,10 +4,10 @@ title: Static_GetText macro
 author: windows-sdk-content
 description: Gets the text of a static control.
 old-location: controls\Static_GetText.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_gettext.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Static_GetText, Static_GetText macro [Windows Controls], _win32_Static_GetText, _win32_Static_GetText_cpp, controls.Static_GetText, controls._win32_Static_GetText, windowsx/Static_GetText
 ms.prod: windows
 ms.technology: windows-sdk

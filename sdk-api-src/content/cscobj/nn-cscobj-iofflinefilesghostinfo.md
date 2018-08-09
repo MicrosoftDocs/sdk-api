@@ -7,7 +7,7 @@ old-location: of\iofflinefilesghostinfo.htm
 old-project: offlinefiles
 ms.assetid: bb71bc95-049d-4ade-ad10-c33b0bf739ce
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesGhostInfo, IOfflineFilesGhostInfo interface [Offline Files], IOfflineFilesGhostInfo interface [Offline Files],described, cscobj/IOfflineFilesGhostInfo, of.iofflinefilesghostinfo
 ms.prod: windows
 ms.technology: windows-sdk

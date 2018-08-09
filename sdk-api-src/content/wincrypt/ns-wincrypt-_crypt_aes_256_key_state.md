@@ -4,10 +4,10 @@ title: "_CRYPT_AES_256_KEY_STATE"
 author: windows-sdk-content
 description: Specifies the 256-bit symmetric key information for an Advanced Encryption Standard (AES) cipher.
 old-location: security\crypt_aes_256_key_state.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 3df59645-4175-4df0-a04d-ca1cde3eb910
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PCRYPT_AES_256_KEY_STATE, CRYPT_AES_256_KEY_STATE, CRYPT_AES_256_KEY_STATE structure [Security], PCRYPT_AES_256_KEY_STATE, PCRYPT_AES_256_KEY_STATE structure pointer [Security], _CRYPT_AES_256_KEY_STATE, security.crypt_aes_256_key_state, wincrypt/CRYPT_AES_256_KEY_STATE, wincrypt/PCRYPT_AES_256_KEY_STATE"
 ms.prod: windows
 ms.technology: windows-sdk

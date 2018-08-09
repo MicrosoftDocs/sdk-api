@@ -4,10 +4,10 @@ title: ITAutomatedPhoneControl::put_AutoVolumeControl
 author: windows-sdk-content
 description: The put_AutoVolumeControl method sets the AutoVolumeControl property for this phone.
 old-location: tapi3\itautomatedphonecontrol_put_autovolumecontrol.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 3d45ef58-a7d7-41ab-b06a-9d53bf79690a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoVolumeControl method, ITAutomatedPhoneControl.put_AutoVolumeControl, ITAutomatedPhoneControl::put_AutoVolumeControl, _tapi3_itautomatedphonecontrol_put_autovolumecontrol, put_AutoVolumeControl, put_AutoVolumeControl method [TAPI 2.2], put_AutoVolumeControl method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autovolumecontrol, tapi3if/ITAutomatedPhoneControl::put_AutoVolumeControl
 ms.prod: windows
 ms.technology: windows-sdk

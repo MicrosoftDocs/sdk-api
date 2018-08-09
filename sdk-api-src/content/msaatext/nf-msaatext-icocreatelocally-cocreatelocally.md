@@ -7,7 +7,7 @@ old-location: winauto\icocreatelocally_icocreatelocally__cocreatelocally.htm
 old-project: WinAuto
 ms.assetid: 3a41dd9d-71b3-4d7c-9728-a65f7ddac3d5
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: CoCreateLocally, CoCreateLocally method [Windows Accessibility], CoCreateLocally method [Windows Accessibility],ICoCreateLocally interface, ICoCreateLocally interface [Windows Accessibility],CoCreateLocally method, ICoCreateLocally.CoCreateLocally, ICoCreateLocally::CoCreateLocally, _msaa_ICoCreateLocally_CoCreateLocally, msaa.icocreatelocally_icocreatelocally__cocreatelocally, msaatext/ICoCreateLocally::CoCreateLocally, winauto.icocreatelocally_icocreatelocally__cocreatelocally
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 
 
 Clients call <b>ICoCreateLocally::CoCreateLocally</b> to create a helper object in the same context as the server object. This allows clients to increase performance because they are running in the server application.<div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
-<a href="http://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>
-for more information on advanced text input and natural language technologies.
+<a href="http://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		</div>
 <div> </div>
 

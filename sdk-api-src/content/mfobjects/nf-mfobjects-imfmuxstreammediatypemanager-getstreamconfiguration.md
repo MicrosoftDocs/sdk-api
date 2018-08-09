@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreammediatypemanager_getstreamconfiguration.htm
 old-project: medfound
 ms.assetid: 5B2B7F8C-0D3B-4BBB-8445-1A428A29A272
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetStreamConfiguration, GetStreamConfiguration method [Media Foundation], GetStreamConfiguration method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetStreamConfiguration method, IMFMuxStreamMediaTypeManager.GetStreamConfiguration, IMFMuxStreamMediaTypeManager::GetStreamConfiguration, mf.imfmuxstreammediatypemanager_getstreamconfiguration, mfobjects/IMFMuxStreamMediaTypeManager::GetStreamConfiguration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ The index of the configuration to retrieve.
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -92,8 +91,7 @@ The index of the configuration to retrieve.
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -105,8 +103,7 @@ The index of the configuration to retrieve.
 </dl>
 </td>
 <td width="60%">
-
-                The specified configuration index is not valid.
+The specified configuration index is not valid.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: ifsk\filtergetinformation.htm
 old-project: ifsk
 ms.assetid: d5124ac2-dd1e-46b2-b25c-e965768eaf9e
 ms.author: windowssdkdev
-ms.date: 04/17/2018
+ms.date: 08/06/2018
 ms.keywords: FilterGetInformation, FilterGetInformation function [Installable File System Drivers], FltWin32ApiRef_244d89a8-3a31-44bd-bc08-b3ea8bb4dbba.xml, fltuser/FilterGetInformation, ifsk.filtergetinformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -151,8 +151,7 @@ The buffer pointed to by <i>lpBuffer</i> is not large enough to contain the requ
 </dl>
 </td>
 <td width="60%">
-
-        An invalid value was specified for the <i>dwInformationClass</i> parameter.  For example, if <b>FilterAggregateStandardInformation</b> is specified for an operating system prior to Windows Vista, <b>FilterGetInformation</b> returns this HRESULT value.
+An invalid value was specified for the <i>dwInformationClass</i> parameter.  For example, if <b>FilterAggregateStandardInformation</b> is specified for an operating system prior to Windows Vista, <b>FilterGetInformation</b> returns this HRESULT value.
        
 
 </td>

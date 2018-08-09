@@ -7,7 +7,7 @@ old-location: shell\IUnknown_GetSite.htm
 old-project: shell
 ms.assetid: 95e83078-ab74-40d6-8e31-653e578770f2
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IUnknown_GetSite, IUnknown_GetSite function [Windows Shell], _win32_IUnknown_GetSite, shell.IUnknown_GetSite, shlwapi/IUnknown_GetSite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,14 +77,7 @@ Type: <b>REFIID</b>
 The IID of the interface pointer that should be returned in <i>ppvSite</i>.
 
 
-### -param ppv
-
-TBD
-
-
-
-
-#### - ppvSite [out]
+### -param ppv [out]
 
 Type: <b>VOID**</b>
 

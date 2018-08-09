@@ -7,7 +7,7 @@ old-location: winprog\icamerauicontrol_suspend.htm
 old-project: devnotes
 ms.assetid: 864333e6-b17f-4225-9302-4335556d0164
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ICameraUIControl interface [Windows API],Suspend method, ICameraUIControl.Suspend, ICameraUIControl::Suspend, Suspend, Suspend method [Windows API], Suspend method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::Suspend, winprog.icamerauicontrol_suspend
 ms.prod: windows
 ms.technology: windows-sdk

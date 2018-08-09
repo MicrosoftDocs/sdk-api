@@ -4,10 +4,10 @@ title: ItsPubPlugin::ResolveResource
 author: windows-sdk-content
 description: Provides information about how to connect to a user's assigned personal virtual desktop.
 old-location: termserv\itspubplugin_resolveresource.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 035b9d13-b64e-4e1c-8623-b4456f36c4ee
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ItsPubPlugin interface [Remote Desktop Services],ResolveResource method, ItsPubPlugin.ResolveResource, ItsPubPlugin::ResolveResource, ResolveResource, ResolveResource method [Remote Desktop Services], ResolveResource method [Remote Desktop Services],ItsPubPlugin interface, termserv.itspubplugin_resolveresource, tspubplugincom/ItsPubPlugin::ResolveResource
 ms.prod: windows
 ms.technology: windows-sdk

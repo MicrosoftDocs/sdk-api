@@ -7,7 +7,7 @@ old-location: tsf\itfcontext_getappproperty.htm
 old-project: TSF
 ms.assetid: 5c04ff8e-5686-4802-b312-71dddaf0155e
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetAppProperty, GetAppProperty method [Text Services Framework], GetAppProperty method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetAppProperty method, ITfContext.GetAppProperty, ITfContext::GetAppProperty, _tsf_itfcontext_getappproperty_ref, msctf/ITfContext::GetAppProperty, tsf.itfcontext_getappproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -182,14 +182,12 @@ Application properties differ from text properties, obtained by <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/e5d76443-f767-47fb-be3a-8cbac224d299">
-        ITfContext::GetProperty
+<a href="https://msdn.microsoft.com/e5d76443-f767-47fb-be3a-8cbac224d299">ITfContext::GetProperty
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f4021a3d-6b86-469f-8943-770e7ef0cf99">
-        ITfReadOnlyProperty
+<a href="https://msdn.microsoft.com/f4021a3d-6b86-469f-8943-770e7ef0cf99">ITfReadOnlyProperty
       </a>
 
 

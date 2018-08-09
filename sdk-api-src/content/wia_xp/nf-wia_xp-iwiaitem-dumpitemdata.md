@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaItem_DumpItemData.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\dumpitemdata.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: DumpItemData, DumpItemData method [WIA], DumpItemData method [WIA],IWiaItem interface, IWiaItem interface [WIA],DumpItemData method, IWiaItem.DumpItemData, IWiaItem::DumpItemData, _wia_IWiaItem_DumpItemData, wia._wia_IWiaItem_DumpItemData, wia_xp/IWiaItem::DumpItemData
 ms.prod: windows
 ms.technology: windows-sdk

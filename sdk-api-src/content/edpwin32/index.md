@@ -2,13 +2,13 @@
 UID: NA:edpwin32
 ms.assetid: d4453729-6c25-3e95-aaa2-455b92b22394
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: edp
+archived: true
 ---
 
 # Edpwin32.h header

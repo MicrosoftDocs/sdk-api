@@ -7,7 +7,7 @@ old-location: mf\imfoutputtrustauthority_setpolicy.htm
 old-project: medfound
 ms.assetid: f5102ef3-472f-4a38-889c-e1c25dd46765
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFOutputTrustAuthority interface [Media Foundation],SetPolicy method, IMFOutputTrustAuthority.SetPolicy, IMFOutputTrustAuthority::SetPolicy, SetPolicy, SetPolicy method [Media Foundation], SetPolicy method [Media Foundation],IMFOutputTrustAuthority interface, f5102ef3-472f-4a38-889c-e1c25dd46765, mf.imfoutputtrustauthority_setpolicy, mfidl/IMFOutputTrustAuthority::SetPolicy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Sets one or more policy objects on the output trust authority (OTA).
+Sets one or more policy objects on the output trust authority (OTA).
         
 
 
@@ -70,23 +69,20 @@ The address of  an array of <a href="https://msdn.microsoft.com/76af8e03-9584-4f
 
 ### -param nPolicy [in]
 
-
-            The number of elements in the <i>ppPolicy</i> array.
+The number of elements in the <i>ppPolicy</i> array.
           
 
 
 ### -param ppbTicket [out]
 
-
-            Receives either a pointer to a buffer allocated by the OTA, or the value <b>NULL</b>. If this parameter receives a non-<b>NULL</b> value, the caller must release the buffer by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>. 
+Receives either a pointer to a buffer allocated by the OTA, or the value <b>NULL</b>. If this parameter receives a non-<b>NULL</b> value, the caller must release the buffer by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>. 
 
 <div class="alert"><b>Note</b>  Currently this parameter is reserved. An OTA should set the pointer to <b>NULL</b>.</div>
 <div> </div>
 
 ### -param pcbTicket [out]
 
-
-            Receives the size of the <i>ppbTicket</i> buffer, in bytes. If <i>ppbTicket</i> receives the value <b>NULL</b>, <i>pcbTicket</i> receives the value zero.
+Receives the size of the <i>ppbTicket</i> buffer, in bytes. If <i>ppbTicket</i> receives the value <b>NULL</b>, <i>pcbTicket</i> receives the value zero.
 
 
 ## -returns
@@ -107,8 +103,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -120,8 +115,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The policy was negotiated successfully, but the OTA will enforce it asynchronously.
+The policy was negotiated successfully, but the OTA will enforce it asynchronously.
               
 
 </td>
@@ -133,8 +127,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The OTA does not support the requirements of this policy.
+The OTA does not support the requirements of this policy.
               
 
 </td>

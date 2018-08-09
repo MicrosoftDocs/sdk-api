@@ -7,7 +7,7 @@ old-location: of\iofflinefilessetting_getpolicy.htm
 old-project: offlinefiles
 ms.assetid: b7f7f8f5-2640-4770-a7ba-230cca8a9575
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetPolicy, GetPolicy method [Offline Files], GetPolicy method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetPolicy method, IOfflineFilesSetting.GetPolicy, IOfflineFilesSetting::GetPolicy, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPolicy, of.iofflinefilessetting_getpolicy
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: ad\adspropshowerrordialog.htm
 old-project: ad
 ms.assetid: c7ed3d36-474e-4cb1-82aa-1e2c1ebd4b83
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ADsPropShowErrorDialog, ADsPropShowErrorDialog function [Active Directory], ad.adspropshowerrordialog, adsprop/ADsPropShowErrorDialog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,19 +58,14 @@ The <b>ADsPropShowErrorDialog</b> function displays a dialog box that contains t
 
 
 
-### -param hNotifyObj
+### -param hNotifyObj [in]
 
-TBD
+The handle of the notification object. To obtain this handle, call <a href="https://msdn.microsoft.com/bfca3801-0d24-4177-8173-b6bf4b854fae">ADsPropCreateNotifyObj</a>.
 
 
 ### -param hPage [in]
 
 The window handle of the property page.
-
-
-#### - hNotifyObject [in]
-
-The handle of the notification object. To obtain this handle, call <a href="https://msdn.microsoft.com/bfca3801-0d24-4177-8173-b6bf4b854fae">ADsPropCreateNotifyObj</a>.
 
 
 ## -returns

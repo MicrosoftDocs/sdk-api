@@ -7,7 +7,7 @@ old-location: shell\SHLoadIndirectString.htm
 old-project: shell
 ms.assetid: f0265cd8-deb8-4bca-b379-39aff49c7df1
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHLoadIndirectString, SHLoadIndirectString function [Windows Shell], _shell_SHLoadIndirectString, shell.SHLoadIndirectString, shlwapi/SHLoadIndirectString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,7 +125,7 @@ The Package Resource Index (PRI) is a binary format introduced in Windows 8 tha
 
 The string is extracted from the .pri file named, using the <i>resource</i> as a locator. The retrieved string is copied to the output buffer and the function returns S_OK. The string is extracted based on the current Shell environment or <a href="https://msdn.microsoft.com/bab9ae0f-8609-494d-b943-7905eed8ee93">ResourceContext</a>.
 
-An example of this type of indirect string is shown here:
+An example of this type of indirect string is shown here.
                         
                             <div class="code"><span codelanguage=""><table>
 <tr>
@@ -146,9 +146,20 @@ The string is extracted from the Resources.pri file stored in the app's root dir
 
 <div class="alert"><b>Note</b>  This string must refer to a package installed for the current user. If it does not, the call will fail.</div>
 <div> </div>
-An example of this type of indirect string is shown here:
-                        
-                            <div class="code"><span codelanguage=""><table>
+An example of this type of indirect string is shown here. In this example, the reference name is fully-qualified, but it contains no namespace (for example, "resources"). The deployment stack expands the name to look for it in all namespaces.<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+@{Microsoft.Camera_6.2.8376.0_x64__8wekyb3d8bbwe? ms-resource://Microsoft.Camera/manifestAppDescription}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+In this next example, the fully-qualified reference name does specify a namespace to limit the lookup to.<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
 </tr>

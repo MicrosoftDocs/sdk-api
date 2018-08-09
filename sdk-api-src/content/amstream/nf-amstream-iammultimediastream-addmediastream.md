@@ -7,7 +7,7 @@ old-location: dshow\iammultimediastream_addmediastream.htm
 old-project: DirectShow
 ms.assetid: 3ccfb776-6a4e-48da-857d-6693cf916c40
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: AddMediaStream, AddMediaStream method [DirectShow], AddMediaStream method [DirectShow],IAMMultiMediaStream interface, IAMMultiMediaStream interface [DirectShow],AddMediaStream method, IAMMultiMediaStream.AddMediaStream, IAMMultiMediaStream::AddMediaStream, IAMMultiMediaStreamAddMediaStream, amstream/IAMMultiMediaStream::AddMediaStream, dshow.iammultimediastream_addmediastream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,11 +79,9 @@ Bitwise combination of zero or more of the following flags.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

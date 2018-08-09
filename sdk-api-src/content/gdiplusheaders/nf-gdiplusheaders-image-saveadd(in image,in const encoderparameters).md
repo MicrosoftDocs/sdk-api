@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_SaveAdd_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\imagesaveaddmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Image.SaveAdd, Image.SaveAdd(IN Image,IN const EncoderParameters), Image::SaveAdd, Image::SaveAdd(IN Image,IN const EncoderParameters), SaveAdd, SaveAdd methods [GDI+], _gdiplus_CLASS_Image_SaveAdd_Methods, gdiplus._gdiplus_CLASS_Image_SaveAdd_Methods, gdiplusheaders/SaveAdd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,8 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 			SaveAdd methods of the 
-			<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a> class. For a complete list of methods for the 
-			<b>Image</b> class, see <a href="https://msdn.microsoft.com/library/ms535366(v=VS.85).aspx">Image Methods</a>.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> class. For a complete list of methods for the 
+			<b>Image</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms535366(v=VS.85).aspx">Image Methods</a>.
 
 </span><h3>Overload list</h3><table>
 <tr>
@@ -64,20 +64,20 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535408(v=VS.85).aspx">SaveAdd(EncoderParameters*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535408(v=VS.85).aspx">SaveAdd(EncoderParameters*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535408(v=VS.85).aspx">Image::SaveAdd</a> method adds a frame to a file or stream specified in a previous call to the 
+The <a href="https://msdn.microsoft.com/en-us/library/ms535408(v=VS.85).aspx">Image::SaveAdd</a> method adds a frame to a file or stream specified in a previous call to the 
 			<b>Save</b> method. Use this method to save selected frames from a multiple-frame image to another multiple-frame image.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535409(v=VS.85).aspx">SaveAdd(Image*,EncoderParameters*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535409(v=VS.85).aspx">SaveAdd(Image*,EncoderParameters*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535409(v=VS.85).aspx">Image::SaveAdd</a> method adds a frame to a file or stream specified in a previous call to the 
+The <a href="https://msdn.microsoft.com/en-us/library/ms535409(v=VS.85).aspx">Image::SaveAdd</a> method adds a frame to a file or stream specified in a previous call to the 
 			<b>Save</b> method.
 
 </td>

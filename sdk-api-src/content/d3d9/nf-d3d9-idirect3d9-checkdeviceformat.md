@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9__checkdeviceformat.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__checkdeviceformat.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: CheckDeviceFormat, CheckDeviceFormat method [Direct3D 9], CheckDeviceFormat method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],CheckDeviceFormat method, IDirect3D9.CheckDeviceFormat, IDirect3D9::CheckDeviceFormat, d3d9helper/IDirect3D9::CheckDeviceFormat, daa5cafd-0b8b-a747-98fe-eb9db7acde6d, direct3d9.idirect3d9__checkdeviceformat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,49 +63,49 @@ Determines whether a surface format is available as a specified resource type an
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Ordinal number denoting the display adapter to query. <a href="https://msdn.microsoft.com/library/Bb172504(v=VS.85).aspx">D3DADAPTER_DEFAULT</a> is always the primary display adapter. This method returns D3DERR_INVALIDCALL when this value equals or exceeds the number of display adapters in the system. 
+Ordinal number denoting the display adapter to query. <a href="https://msdn.microsoft.com/en-us/library/Bb172504(v=VS.85).aspx">D3DADAPTER_DEFAULT</a> is always the primary display adapter. This method returns D3DERR_INVALIDCALL when this value equals or exceeds the number of display adapters in the system. 
 
 
 ### -param DeviceType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172547(v=VS.85).aspx">D3DDEVTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172547(v=VS.85).aspx">D3DDEVTYPE</a></b>
 
-Member of the <a href="https://msdn.microsoft.com/library/Bb172547(v=VS.85).aspx">D3DDEVTYPE</a> enumerated type, identifying the device type.
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172547(v=VS.85).aspx">D3DDEVTYPE</a> enumerated type, identifying the device type.
 
 
 ### -param AdapterFormat [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a></b>
 
-Member of the <a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a> enumerated type, identifying the format of the display mode into which the adapter will be placed.
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a> enumerated type, identifying the format of the display mode into which the adapter will be placed.
 
 
 ### -param Usage [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Requested usage options for the surface. Usage options are any combination of <a href="https://msdn.microsoft.com/library/Bb172625(v=VS.85).aspx">D3DUSAGE</a> and <a href="https://msdn.microsoft.com/library/Bb172626(v=VS.85).aspx">D3DUSAGE_QUERY</a> constants (only a subset of the D3DUSAGE constants are valid for <b>CheckDeviceFormat</b>; see the table on the D3DUSAGE page).
+Requested usage options for the surface. Usage options are any combination of <a href="https://msdn.microsoft.com/en-us/library/Bb172625(v=VS.85).aspx">D3DUSAGE</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb172626(v=VS.85).aspx">D3DUSAGE_QUERY</a> constants (only a subset of the D3DUSAGE constants are valid for <b>CheckDeviceFormat</b>; see the table on the D3DUSAGE page).
 
 
 ### -param RType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172601(v=VS.85).aspx">D3DRESOURCETYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172601(v=VS.85).aspx">D3DRESOURCETYPE</a></b>
 
-Resource type requested for use with the queried format. Member of <a href="https://msdn.microsoft.com/library/Bb172601(v=VS.85).aspx">D3DRESOURCETYPE</a>. 
+Resource type requested for use with the queried format. Member of <a href="https://msdn.microsoft.com/en-us/library/Bb172601(v=VS.85).aspx">D3DRESOURCETYPE</a>. 
 
 
 ### -param CheckFormat [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a></b>
 
-Format of the surfaces which may be used, as defined by Usage. Member of <a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>.
+Format of the surfaces which may be used, as defined by Usage. Member of <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the format is compatible with the specified device for the requested usage, this method returns D3D_OK.
 
@@ -147,7 +147,7 @@ BOOL IsDepthFormatExisting( D3DFORMAT DepthFormat, D3DFORMAT AdapterFormat )
 </td>
 </tr>
 </table></span></div>
-See <a href="https://msdn.microsoft.com/library/Bb147355(v=VS.85).aspx">Selecting a Device (Direct3D 9)</a> for more detail on the enumeration process.
+See <a href="https://msdn.microsoft.com/en-us/library/Bb147355(v=VS.85).aspx">Selecting a Device (Direct3D 9)</a> for more detail on the enumeration process.
 
 </li>
 <li>Can this texture be rendered in a particular format - Given the current display mode, this example shows how to verify that the texture format is compatible with the specific back-buffer format:
@@ -176,10 +176,10 @@ BOOL IsTextureFormatOk( D3DFORMAT TextureFormat, D3DFORMAT AdapterFormat )
 </tr>
 </table></span></div>
 </li>
-<li>Alpha blending in a pixel shader - Set Usage to <a href="https://msdn.microsoft.com/library/Bb172625(v=VS.85).aspx">D3DUSAGE_QUERY_POSTPIXELSHADER_BLENDING</a>. Expect this to fail for all floating-point render targets.</li>
-<li>Autogeneration of mipmaps - Set Usage to <a href="https://msdn.microsoft.com/library/Bb172625(v=VS.85).aspx">D3DUSAGE_AUTOGENMIPMAP</a>. If the mipmap automatic generation fails, the application will get a non-mipmapped texture. Calling this method is considered a hint, so this method can return D3DOK_NOAUTOGEN (a valid success code) if the only thing that fails is the mipmap generation. For more information about mipmap generation, see <a href="https://msdn.microsoft.com/library/Bb172340(v=VS.85).aspx">Automatic Generation of Mipmaps (Direct3D 9)</a>.</li>
+<li>Alpha blending in a pixel shader - Set Usage to <a href="https://msdn.microsoft.com/en-us/library/Bb172625(v=VS.85).aspx">D3DUSAGE_QUERY_POSTPIXELSHADER_BLENDING</a>. Expect this to fail for all floating-point render targets.</li>
+<li>Autogeneration of mipmaps - Set Usage to <a href="https://msdn.microsoft.com/en-us/library/Bb172625(v=VS.85).aspx">D3DUSAGE_AUTOGENMIPMAP</a>. If the mipmap automatic generation fails, the application will get a non-mipmapped texture. Calling this method is considered a hint, so this method can return D3DOK_NOAUTOGEN (a valid success code) if the only thing that fails is the mipmap generation. For more information about mipmap generation, see <a href="https://msdn.microsoft.com/en-us/library/Bb172340(v=VS.85).aspx">Automatic Generation of Mipmaps (Direct3D 9)</a>.</li>
 </ul>
-When migrating code from Direct3D 9 to Direct3D 10, the Direct3D 10 equivalent to CheckDeviceFormat is <a href="https://msdn.microsoft.com/library/Bb173536(v=VS.85).aspx">CheckFormatSupport</a>.
+When migrating code from Direct3D 9 to Direct3D 10, the Direct3D 10 equivalent to CheckDeviceFormat is <a href="https://msdn.microsoft.com/en-us/library/Bb173536(v=VS.85).aspx">CheckFormatSupport</a>.
 
 
 
@@ -189,7 +189,7 @@ When migrating code from Direct3D 9 to Direct3D 10, the Direct3D 10 equivalent t
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174300(v=VS.85).aspx">IDirect3D9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a>
  
 
  

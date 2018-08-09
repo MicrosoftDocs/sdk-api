@@ -7,7 +7,7 @@ old-location: controls\Pager_SetPos.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setpos.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Pager_SetPos, Pager_SetPos macro [Windows Controls], _win32_Pager_SetPos, _win32_Pager_SetPos_cpp, commctrl/Pager_SetPos, controls.Pager_SetPos, controls._win32_Pager_SetPos
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the scroll position for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760886(v=VS.85).aspx">PGM_SETPOS</a> message explicitly. 
+Sets the scroll position for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760886(v=VS.85).aspx">PGM_SETPOS</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Sets the scroll position for the pager control. You can use this macro or send t
 
 ### -param hwnd
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to the pager control. 
 
 
 ### -param iPos
@@ -68,11 +70,4 @@ TBD
 Type: <b>int</b>
 
 Value of type <b>int</b> that contains the new scroll position, in pixels. 
-
-
-#### - hwndPager
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to the pager control. 
 

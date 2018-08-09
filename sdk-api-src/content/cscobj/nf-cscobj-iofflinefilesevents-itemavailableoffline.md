@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_itemavailableoffline.htm
 old-project: offlinefiles
 ms.assetid: 6c629ede-00ee-4f5e-9f75-022e3c5b3957
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemAvailableOffline method, IOfflineFilesEvents.ItemAvailableOffline, IOfflineFilesEvents::ItemAvailableOffline, ItemAvailableOffline, ItemAvailableOffline method [Offline Files], ItemAvailableOffline method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemAvailableOffline, of.iofflinefilesevents_itemavailableoffline
 ms.prod: windows
 ms.technology: windows-sdk

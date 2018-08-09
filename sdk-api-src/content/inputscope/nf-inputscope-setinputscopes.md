@@ -7,7 +7,7 @@ old-location: tsf\SetInputScopes.htm
 old-project: TSF
 ms.assetid: 28c0be9b-f42c-4ab1-a3af-9c591a5192dd
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: SetInputScopes, SetInputScopes function [Text Services Framework], inputscope/SetInputScopes, tsf.SetInputScopes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ Sets a combination of one input scope, multiple input scopes, one phrase list, a
 The window to set the scope on.
 
 
-### -param pInputScopes
+### -param pInputScopes [in]
 
-TBD
+Pointer to an array of input scopes. Can be <b>NULL</b>. If not <b>NULL</b>, all of the input scopes in the array are set as the input scope of the window with equal weighting. Use IS_DEFAULT to accept all other input scopes as well.
 
 
 ### -param cInputScopes [in]
@@ -74,9 +74,9 @@ TBD
 The number of input scopes in the array pointed to by <i>*pInputScopes</i>. This value must be zero if the array is <b>NULL</b>.
 
 
-### -param ppszPhraseList
+### -param ppszPhraseList [in]
 
-TBD
+Pointer to an array of pointers to <b>NULL</b>-terminated phrases. Can be <b>NULL</b>.
 
 
 ### -param cPhrases [in]
@@ -84,34 +84,12 @@ TBD
 Number of pointers pointed to by <i>**ppszPhraseList</i>, which represents the number of phrases.
 
 
-### -param pszRegExp
-
-TBD
-
-
-### -param pszSRGS
-
-TBD
-
-
-
-
-#### - **ppszPhraseList [in]
-
-Pointer to an array of pointers to <b>NULL</b>-terminated phrases. Can be <b>NULL</b>.
-
-
-#### - *pInputScopes [in]
-
-Pointer to an array of input scopes. Can be <b>NULL</b>. If not <b>NULL</b>, all of the input scopes in the array are set as the input scope of the window with equal weighting. Use IS_DEFAULT to accept all other input scopes as well.
-
-
-#### - *pszRegExp [in]
+### -param pszRegExp [in]
 
 Pointer to a <b>NULL</b>-terminated string containing the regular expression to be recognized. Can be <b>NULL</b>.
 
 
-#### - *pszSRGS [in]
+### -param pszSRGS [in]
 
 Pointer to a <b>NULL</b>-terminated XML string that provides speech-specific hints and rules to aid in speech recognition. The XML format conforms to the Speech Recognition Grammar Specification (SRGS) standard, outlined at <a href="http://go.microsoft.com/fwlink/p/?linkid=161740">http://www.w3.org/TR/speech-grammar</a>. Can be <b>NULL</b>. $
 

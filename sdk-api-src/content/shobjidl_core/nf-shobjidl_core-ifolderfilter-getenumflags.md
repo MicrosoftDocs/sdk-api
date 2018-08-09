@@ -7,7 +7,7 @@ old-location: shell\IFolderFilter_GetEnumFlags.htm
 old-project: shell
 ms.assetid: b02b103c-b82e-455b-9498-dfc387806c36
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetEnumFlags, GetEnumFlags method [Windows Shell], GetEnumFlags method [Windows Shell],IFolderFilter interface, IFolderFilter interface [Windows Shell],GetEnumFlags method, IFolderFilter.GetEnumFlags, IFolderFilter::GetEnumFlags, _shell_IFolderFilter_GetEnumFlags, shell.IFolderFilter_GetEnumFlags, shobjidl_core/IFolderFilter::GetEnumFlags
 ms.prod: windows
 ms.technology: windows-sdk

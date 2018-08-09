@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentpolicyserver_getallowuntrustedca.htm
 old-project: seccertenroll
 ms.assetid: 6b15a2ba-2e68-4c66-910d-20dd0f0581c2
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: GetAllowUnTrustedCA, GetAllowUnTrustedCA method [Security], GetAllowUnTrustedCA method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetAllowUnTrustedCA method, IX509EnrollmentPolicyServer.GetAllowUnTrustedCA, IX509EnrollmentPolicyServer::GetAllowUnTrustedCA, certenroll/IX509EnrollmentPolicyServer::GetAllowUnTrustedCA, security.ix509enrollmentpolicyserver_getallowuntrustedca
 ms.prod: windows
 ms.technology: windows-sdk

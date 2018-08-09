@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensorcollection_clear.htm
 old-project: SensorsAPI
 ms.assetid: 03b2345b-1d06-449e-9ecf-ecce9aa60c08
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: Clear, Clear method, Clear method,ISensorCollection interface, ISensorCollection interface,Clear method, ISensorCollection.Clear, ISensorCollection::Clear, sensorsapi/ISensorCollection::Clear, winsensors_com_ref.isensorcollection_clear
 ms.prod: windows
 ms.technology: windows-sdk

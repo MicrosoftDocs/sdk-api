@@ -7,7 +7,7 @@ old-location: automat\itypelib_gettypecomp.htm
 old-project: automat
 ms.assetid: 11c22e52-b0d5-4251-b8fa-ea3efae555e6
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: GetTypeComp, GetTypeComp method [Automation], GetTypeComp method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeComp method, ITypeLib.GetTypeComp, ITypeLib::GetTypeComp, _oa96_ITypeLib_GetTypeComp, automat.itypelib_gettypecomp, oaidl/ITypeLib::GetTypeComp
 ms.prod: windows
 ms.technology: windows-sdk

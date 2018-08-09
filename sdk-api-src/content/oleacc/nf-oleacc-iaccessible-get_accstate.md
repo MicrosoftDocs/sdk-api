@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accstate.htm
 old-project: WinAuto
 ms.assetid: e6b7e0dd-407a-4e82-889b-31ad999a72ca
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accState method, IAccessible.get_accState, IAccessible::get_accState, _msaa_IAccessible_get_accState, get_accState, get_accState method [Windows Accessibility], get_accState method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accstate, oleacc/IAccessible::get_accState, winauto.iaccessible_iaccessible__get_accstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,8 +118,7 @@ If predefined state values are returned, clients call <a href="https://msdn.micr
 
 The actual state of a child often depends on the state of its ancestors. For example, controls in an application's main window are not focusable when a modal dialog box is open, but the controls may not report this state. To verify the state information of a child object, call <b>get_accState</b> for the parent object.
 
-<b>Note to server developers:  </b>
-              You must use the predefined state constants.
+<b>Note to server developers:  </b>You must use the predefined state constants.
             
 
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>

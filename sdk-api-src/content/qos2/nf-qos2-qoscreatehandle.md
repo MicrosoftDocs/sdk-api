@@ -7,7 +7,7 @@ old-location: qos\qoscreatehandle.htm
 old-project: qos
 ms.assetid: dcee0bed-dc6f-435d-b292-07e331f6cf5b
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: QOSCreateHandle, QOSCreateHandle function [QOS], qos.qoscreatehandle, qos2/QOSCreateHandle
 ms.prod: windows
 ms.technology: windows-sdk

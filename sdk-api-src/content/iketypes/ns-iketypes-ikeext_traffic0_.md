@@ -7,7 +7,7 @@ old-location: fwp\ikeext_traffic0.htm
 old-project: fwp
 ms.assetid: 99cb3774-7afd-44fd-9c3e-e2d913aaeecb
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IKEEXT_TRAFFIC0, IKEEXT_TRAFFIC0 structure [Filtering], IKEEXT_TRAFFIC0_, fwp.ikeext_traffic0, iketypes/IKEEXT_TRAFFIC0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-		The <b>IKEEXT_TRAFFIC0</b> structure specifies the IKE/Authip traffic.
+The <b>IKEEXT_TRAFFIC0</b> structure specifies the IKE/Authip traffic.
 
 
 ## -struct-fields

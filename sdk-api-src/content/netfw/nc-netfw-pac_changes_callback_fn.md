@@ -7,7 +7,7 @@ old-location: ics\pac_changes_callback_fn.htm
 old-project: ics
 ms.assetid: 7a2afc36-c250-4eb1-9853-d79def85bb67
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: PAC_CHANGES_CALLBACK_FN, PAC_CHANGES_CALLBACK_FN callback, PAC_CHANGES_CALLBACK_FN callback function [ICS/ICF], ics.pac_changes_callback_fn, networkisolation/PAC_CHANGES_CALLBACK_FN
 ms.prod: windows
 ms.technology: windows-sdk

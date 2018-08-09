@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxroutingmethod_get_guid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1les.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxRoutingMethod object [Fax Service],Guid property, FaxRoutingMethod.Guid, Guid property [Fax Service], Guid property [Fax Service],FaxRoutingMethod object, IFaxRoutingMethod.get_Guid, IFaxRoutingMethod::get_Guid, _mfax_ifaxroutingmethod_get_guid, fax._mfax_ifaxroutingmethod_get_guid, fax._mfax_ifaxroutingmethod_get_guid_vb, get_Guid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ This property is read-only.
 
 
 
-A fax client application can use the <b>Guid</b> property to uniquely identify a fax routing method. It is possible for multiple routing methods to have the same user-friendly name, and even the same function name. For more information, see <a href="https://msdn.microsoft.com/library/ms691955(v=VS.85).aspx">Fax Routing Methods</a>.
+A fax client application can use the <b>Guid</b> property to uniquely identify a fax routing method. It is possible for multiple routing methods to have the same user-friendly name, and even the same function name. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691955(v=VS.85).aspx">Fax Routing Methods</a>.
 
-<b>Guid</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
+<b>Guid</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
 
 
@@ -76,15 +76,15 @@ A fax client application can use the <b>Guid</b> property to uniquely identify a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690703(v=VS.85).aspx">FaxRoutingMethod</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690703(v=VS.85).aspx">FaxRoutingMethod</a>
 
 
 
@@ -96,11 +96,11 @@ A fax client application can use the <b>Guid</b> property to uniquely identify a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691856(v=VS.85).aspx">IFaxRoutingMethod</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691856(v=VS.85).aspx">IFaxRoutingMethod</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692291(v=VS.85).aspx">IFaxRoutingMethods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692291(v=VS.85).aspx">IFaxRoutingMethods</a>
  
 
  

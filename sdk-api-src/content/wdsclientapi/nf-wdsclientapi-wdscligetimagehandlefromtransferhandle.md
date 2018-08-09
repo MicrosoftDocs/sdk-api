@@ -4,10 +4,10 @@ title: WdsCliGetImageHandleFromTransferHandle function
 author: windows-sdk-content
 description: Returns an image handle from a completed transfer handle. The handle is to the local copy of the image that's been transferred from the server to the client.
 old-location: wds\wdscligetimagehandlefromtransferhandle.htm
-old-project: Wds
+old-project: wds
 ms.assetid: d2356f34-9ef8-4d7d-bb01-843d1aa1cbed
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WdsCliGetImageHandleFromTransferHandle, WdsCliGetImageHandleFromTransferHandle function [Windows Deployment Services], wds.wdscligetimagehandlefromtransferhandle, wdsclientapi/WdsCliGetImageHandleFromTransferHandle
 ms.prod: windows
 ms.technology: windows-sdk

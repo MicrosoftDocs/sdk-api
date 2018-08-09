@@ -7,7 +7,7 @@ old-location: security\si_object_info.htm
 old-project: secauthz
 ms.assetid: bdfd0753-4727-4ca1-ac36-0a77db0a16c5
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: "*PSI_OBJECT_INFO, PSI_OBJECT_INFO, PSI_OBJECT_INFO structure pointer [Security], SI_ADVANCED, SI_AUDITS_ELEVATION_REQUIRED, SI_CONTAINER, SI_DISABLE_DENY_ACE, SI_EDIT_ALL, SI_EDIT_AUDITS, SI_EDIT_EFFECTIVE, SI_EDIT_OWNER, SI_EDIT_PERMS, SI_EDIT_PROPERTIES, SI_ENABLE_CENTRAL_POLICY, SI_ENABLE_EDIT_ATTRIBUTE_CONDITION, SI_MAY_WRITE, SI_NO_ACL_PROTECT, SI_NO_ADDITIONAL_PERMISSION, SI_NO_TREE_APPLY, SI_OBJECT_GUID, SI_OBJECT_INFO, SI_OBJECT_INFO structure [Security], SI_OWNER_ELEVATION_REQUIRED, SI_OWNER_READONLY, SI_OWNER_RECURSE, SI_PAGE_TITLE, SI_PERMS_ELEVATION_REQUIRED, SI_READONLY, SI_RESET, SI_RESET_DACL, SI_RESET_DACL_TREE, SI_RESET_OWNER, SI_RESET_SACL, SI_RESET_SACL_TREE, SI_SCOPE_ELEVATION_REQUIRED, SI_SERVER_IS_DC, SI_VIEW_ONLY, _SI_OBJECT_INFO, _win32_si_object_info_str, aclui/PSI_OBJECT_INFO, aclui/SI_OBJECT_INFO, security.si_object_info"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,9 +74,8 @@ A set of bit flags that determine the editing options available to the user. Thi
 <th>Meaning</th>
 </tr>
 <tr>
-<td width="40%"><a id="_SI_ADVANCED_"></a><a id="_si_advanced_"></a><dl>
-<dt><b>
-SI_ADVANCED
+<td width="40%"><a id="SI_ADVANCED_"></a><a id="si_advanced_"></a><dl>
+<dt><b>SI_ADVANCED
 </b></dt>
 <dt>0x00000010L</dt>
 </dl>
@@ -106,9 +105,8 @@ If this flag is set, a shield is displayed on the <b>Edit</b> button of the adva
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_SI_CONTAINER_"></a><a id="_si_container_"></a><dl>
-<dt><b>
-SI_CONTAINER
+<td width="40%"><a id="SI_CONTAINER_"></a><a id="si_container_"></a><dl>
+<dt><b>SI_CONTAINER
 </b></dt>
 <dt>0x00000004L</dt>
 </dl>
@@ -132,9 +130,8 @@ If this flag is set, the system disables denying an ACE.  Clients of the access 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_SI_EDIT_ALL_"></a><a id="_si_edit_all_"></a><dl>
-<dt><b>
-SI_EDIT_ALL
+<td width="40%"><a id="SI_EDIT_ALL_"></a><a id="si_edit_all_"></a><dl>
+<dt><b>SI_EDIT_ALL
 </b></dt>
 </dl>
 </td>
@@ -148,16 +145,14 @@ SI_EDIT_OWNER, and SI_EDIT_AUDITS flags.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_SI_EDIT_AUDITS_"></a><a id="_si_edit_audits_"></a><dl>
-<dt><b>
-SI_EDIT_AUDITS
+<td width="40%"><a id="SI_EDIT_AUDITS_"></a><a id="si_edit_audits_"></a><dl>
+<dt><b>SI_EDIT_AUDITS
 </b></dt>
 <dt>0x00000002L</dt>
 </dl>
 </td>
 <td width="60%">
-If this flag is set and the user clicks the <b>Advanced</b> button, the system displays an advanced security property sheet that includes an <a href="https://msdn.microsoft.com/2a9152b7-c72d-4f03-bc3f-b75927fb4b6c">Auditing property page</a>
-								 for editing the object's SACL. To display the <b>Advanced</b> button, set the SI_ADVANCED flag.
+If this flag is set and the user clicks the <b>Advanced</b> button, the system displays an advanced security property sheet that includes an <a href="https://msdn.microsoft.com/2a9152b7-c72d-4f03-bc3f-b75927fb4b6c">Auditing property page</a>for editing the object's SACL. To display the <b>Advanced</b> button, set the SI_ADVANCED flag.
 
 </td>
 </tr>
@@ -173,24 +168,21 @@ If this flag is set and the user clicks the <b>Advanced</b> button, the system d
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_SI_EDIT_OWNER_"></a><a id="_si_edit_owner_"></a><dl>
-<dt><b>
-SI_EDIT_OWNER
+<td width="40%"><a id="SI_EDIT_OWNER_"></a><a id="si_edit_owner_"></a><dl>
+<dt><b>SI_EDIT_OWNER
 </b></dt>
 <dt>0x00000001L</dt>
 </dl>
 </td>
 <td width="60%">
 If this flag is set and the user clicks the <b>Advanced</b> button, the system displays an advanced security property sheet that includes an 
-<a href="https://msdn.microsoft.com/b0c421db-450e-4030-98e9-e062202e482c">Owner property page</a>
-								 for changing the object's owner. To display the <b>Advanced</b> button, set the SI_ADVANCED flag.
+<a href="https://msdn.microsoft.com/b0c421db-450e-4030-98e9-e062202e482c">Owner property page</a>for changing the object's owner. To display the <b>Advanced</b> button, set the SI_ADVANCED flag.
 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_SI_EDIT_PERMS_"></a><a id="_si_edit_perms_"></a><dl>
-<dt><b>
-SI_EDIT_PERMS
+<td width="40%"><a id="SI_EDIT_PERMS_"></a><a id="si_edit_perms_"></a><dl>
+<dt><b>SI_EDIT_PERMS
 </b></dt>
 <dt>0x00000000L</dt>
 </dl>
@@ -201,9 +193,8 @@ This is the default value. The basic security property page always displays the 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_SI_EDIT_PROPERTIES_"></a><a id="_si_edit_properties_"></a><dl>
-<dt><b>
-SI_EDIT_PROPERTIES
+<td width="40%"><a id="SI_EDIT_PROPERTIES_"></a><a id="si_edit_properties_"></a><dl>
+<dt><b>SI_EDIT_PROPERTIES
 </b></dt>
 <dt>0x00000080L</dt>
 </dl>
@@ -251,9 +242,8 @@ Indicates that the access control editor cannot read the DACL but might be able 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_SI_NO_ACL_PROTECT_"></a><a id="_si_no_acl_protect_"></a><dl>
-<dt><b>
-SI_NO_ACL_PROTECT
+<td width="40%"><a id="SI_NO_ACL_PROTECT_"></a><a id="si_no_acl_protect_"></a><dl>
+<dt><b>SI_NO_ACL_PROTECT
 </b></dt>
 <dt>0x00000200L</dt>
 </dl>
@@ -282,9 +272,8 @@ If this flag is set, the access control editor hides the <b>Special Permissions<
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_SI_NO_TREE_APPLY_"></a><a id="_si_no_tree_apply_"></a><dl>
-<dt><b>
-SI_NO_TREE_APPLY
+<td width="40%"><a id="SI_NO_TREE_APPLY_"></a><a id="si_no_tree_apply_"></a><dl>
+<dt><b>SI_NO_TREE_APPLY
 </b></dt>
 <dt>0x00000400L</dt>
 </dl>
@@ -295,9 +284,8 @@ If this flag is set, the access control editor hides the check box that controls
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_SI_OBJECT_GUID_"></a><a id="_si_object_guid_"></a><dl>
-<dt><b>
-SI_OBJECT_GUID
+<td width="40%"><a id="SI_OBJECT_GUID_"></a><a id="si_object_guid_"></a><dl>
+<dt><b>SI_OBJECT_GUID
 </b></dt>
 <dt>0x00010000L</dt>
 </dl>
@@ -321,9 +309,8 @@ If this flag is set, a shield is displayed on the <b>Edit</b> button of the adva
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_SI_OWNER_READONLY_"></a><a id="_si_owner_readonly_"></a><dl>
-<dt><b>
-SI_OWNER_READONLY
+<td width="40%"><a id="SI_OWNER_READONLY_"></a><a id="si_owner_readonly_"></a><dl>
+<dt><b>SI_OWNER_READONLY
 </b></dt>
 <dt>0x00000040L</dt>
 </dl>
@@ -334,9 +321,8 @@ If this flag is set, the user cannot change the owner of the object. Set this fl
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_SI_OWNER_RECURSE_"></a><a id="_si_owner_recurse_"></a><dl>
-<dt><b>
-SI_OWNER_RECURSE
+<td width="40%"><a id="SI_OWNER_RECURSE_"></a><a id="si_owner_recurse_"></a><dl>
+<dt><b>SI_OWNER_RECURSE
 </b></dt>
 <dt>0x00000100L</dt>
 </dl>
@@ -348,9 +334,8 @@ Combine this flag with SI_CONTAINER to display a check box on the owner page tha
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_SI_PAGE_TITLE_"></a><a id="_si_page_title_"></a><dl>
-<dt><b>
-SI_PAGE_TITLE
+<td width="40%"><a id="SI_PAGE_TITLE_"></a><a id="si_page_title_"></a><dl>
+<dt><b>SI_PAGE_TITLE
 </b></dt>
 <dt>0x00000800L</dt>
 </dl>
@@ -374,9 +359,8 @@ If this flag is set, an image of a shield is displayed on the <b>Edit</b> button
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_SI_READONLY_"></a><a id="_si_readonly_"></a><dl>
-<dt><b>
-SI_READONLY
+<td width="40%"><a id="SI_READONLY_"></a><a id="si_readonly_"></a><dl>
+<dt><b>SI_READONLY
 </b></dt>
 <dt>0x00000008L</dt>
 </dl>
@@ -389,9 +373,8 @@ This flag cannot be combined with the <b>SI_VIEW_ONLY</b> flag.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_SI_RESET_"></a><a id="_si_reset_"></a><dl>
-<dt><b>
-SI_RESET
+<td width="40%"><a id="SI_RESET_"></a><a id="si_reset_"></a><dl>
+<dt><b>SI_RESET
 </b></dt>
 <dt>0x00000020L</dt>
 </dl>
@@ -414,9 +397,8 @@ When set, this flag displays the <b>Reset Defaults</b> button on the <b>Permissi
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_SI_RESET_DACL_TREE_"></a><a id="_si_reset_dacl_tree_"></a><dl>
-<dt><b>
-SI_RESET_DACL_TREE
+<td width="40%"><a id="SI_RESET_DACL_TREE_"></a><a id="si_reset_dacl_tree_"></a><dl>
+<dt><b>SI_RESET_DACL_TREE
 </b></dt>
 <dt>0x00004000L</dt>
 </dl>
@@ -450,9 +432,8 @@ When set, this flag displays the <b>Reset Defaults</b> button on the <b>Auditing
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_SI_RESET_SACL_TREE_"></a><a id="_si_reset_sacl_tree_"></a><dl>
-<dt><b>
-SI_RESET_SACL_TREE
+<td width="40%"><a id="SI_RESET_SACL_TREE_"></a><a id="si_reset_sacl_tree_"></a><dl>
+<dt><b>SI_RESET_SACL_TREE
 </b></dt>
 <dt>0x00008000L</dt>
 </dl>
@@ -477,9 +458,8 @@ If this flag is set, an image of a shield is displayed on the <b>Change</b> butt
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_SI_SERVER_IS_DC_"></a><a id="_si_server_is_dc_"></a><dl>
-<dt><b>
-SI_SERVER_IS_DC
+<td width="40%"><a id="SI_SERVER_IS_DC_"></a><a id="si_server_is_dc_"></a><dl>
+<dt><b>SI_SERVER_IS_DC
 </b></dt>
 <dt>0x00001000L</dt>
 </dl>

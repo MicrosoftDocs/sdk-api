@@ -4,10 +4,10 @@ title: ITCallMediaEvent::get_Cause
 author: windows-sdk-content
 description: The get_Cause method gets the cause of the call media event, such as a timeout on the renderer device.
 old-location: tapi3\itcallmediaevent_get_cause.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 51905e69-ff95-46fb-a73a-785a8d444253
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Cause method, ITCallMediaEvent.get_Cause, ITCallMediaEvent::get_Cause, _tapi3_itcallmediaevent_get_cause, get_Cause, get_Cause method [TAPI 2.2], get_Cause method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_cause, tapi3if/ITCallMediaEvent::get_Cause
 ms.prod: windows
 ms.technology: windows-sdk

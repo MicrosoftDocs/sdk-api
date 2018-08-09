@@ -7,7 +7,7 @@ old-location: properties\IPropertySystem_EnumeratePropertyDescriptions.htm
 old-project: properties
 ms.assetid: eb87e6b6-2a48-497a-8a42-9c929a742502
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: EnumeratePropertyDescriptions, EnumeratePropertyDescriptions method [Windows Properties], EnumeratePropertyDescriptions method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],EnumeratePropertyDescriptions method, IPropertySystem.EnumeratePropertyDescriptions, IPropertySystem::EnumeratePropertyDescriptions, properties.IPropertySystem_EnumeratePropertyDescriptions, propsys/IPropertySystem::EnumeratePropertyDescriptions, shell.IPropertySystem_EnumeratePropertyDescriptions, shell_IPropertySystem_EnumeratePropertyDescriptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Gets an instance of the subsystem object that implements <a href="https://msdn.microsoft.com/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a>, to obtain either the entire or a partial list of property descriptions in the system.
+Gets an instance of the subsystem object that implements <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a>, to obtain either the entire or a partial list of property descriptions in the system.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Gets an instance of the subsystem object that implements <a href="https://msdn.m
 
 ### -param filterOn [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb762524(v=VS.85).aspx">PROPDESC_ENUMFILTER</a></b>
+Type: <b><a href="shell.PROPDESC_ENUMFILTER">PROPDESC_ENUMFILTER</a></b>
 
-The list to return. See <a href="https://msdn.microsoft.com/library/Bb762524(v=VS.85).aspx">PROPDESC_ENUMFILTER</a>. Valid values for this method are 0 through 4.
+The list to return. See <a href="shell.PROPDESC_ENUMFILTER">PROPDESC_ENUMFILTER</a>. Valid values for this method are 0 through 4.
 
 
 ### -param riid [in]
@@ -77,7 +77,7 @@ A reference to the desired IID.
 
 Type: <b>void**</b>
 
-The address of an <a href="https://msdn.microsoft.com/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a> interface pointer.
+The address of an <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a> interface pointer.
 
 
 ## -returns
@@ -137,7 +137,7 @@ It is recommended that you use the IID_PPV_ARGS macro, defined in objbase.h, to 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761437(v=VS.85).aspx">IPropertySystem</a>
+<a href="shell.IPropertySystem">IPropertySystem</a>
  
 
  

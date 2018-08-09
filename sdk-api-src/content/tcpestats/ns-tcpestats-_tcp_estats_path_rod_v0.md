@@ -4,10 +4,10 @@ title: "_TCP_ESTATS_PATH_ROD_v0"
 author: windows-sdk-content
 description: Contains read-only dynamic information for extended TCP statistics on network path measurement for a TCP connection.
 old-location: iphlp\tcp_estats_path_rod_v0.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 35ed2a10-caac-4004-80ac-f62c3880f5de
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PTCP_ESTATS_PATH_ROD_v0, PTCP_ESTATS_PATH_ROD_v0, PTCP_ESTATS_PATH_ROD_v0 structure pointer [IP Helper], TCP_ESTATS_PATH_ROD_v0, TCP_ESTATS_PATH_ROD_v0 structure [IP Helper], _TCP_ESTATS_PATH_ROD_v0, iphlp.tcp_estats_path_rod_v0, tcpestats/PTCP_ESTATS_PATH_ROD_v0, tcpestats/TCP_ESTATS_PATH_ROD_v0"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: menurc\setmenuinfo.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenuinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetMenuInfo, SetMenuInfo function [Menus and Other Resources], _win32_SetMenuInfo, _win32_setmenuinfo_cpp, menurc.setmenuinfo, winui._win32_setmenuinfo, winuser/SetMenuInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ TBD
 
 
 
-#### - hmenu [in]
+#### - [in]
 
 Type: <b>HMENU</b>
 

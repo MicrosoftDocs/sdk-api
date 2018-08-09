@@ -7,7 +7,7 @@ old-location: rpc\cstdstubbuffer_isiidsupported.htm
 old-project: rpc
 ms.assetid: a0f47424-7286-493b-815f-96e27e645824
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: CStdStubBuffer_IsIIDSupported, CStdStubBuffer_IsIIDSupported
 , CStdStubBuffer_IsIIDSupported function [RPC], rpc.cstdstubbuffer_isiidsupported, rpcproxy/CStdStubBuffer_IsIIDSupported
 ms.prod: windows

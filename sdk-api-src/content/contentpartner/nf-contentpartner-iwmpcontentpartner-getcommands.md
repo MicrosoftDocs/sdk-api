@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_getcommands.htm
 old-project: WMP
 ms.assetid: bc6dfd97-50bb-438c-9cd6-3eac91e99cab
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/30/2018
 ms.keywords: GetCommands, GetCommands method [Windows Media Player], GetCommands method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetCommands method, IWMPContentPartner.GetCommands, IWMPContentPartner::GetCommands, IWMPContentPartnerGetCommands, contentpartner/IWMPContentPartner::GetCommands, wmp.iwmpcontentpartner_getcommands
 ms.prod: windows
 ms.technology: windows-sdk

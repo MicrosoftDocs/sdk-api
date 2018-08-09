@@ -7,7 +7,7 @@ old-location: rras\rasgetprojectioninfoex.htm
 old-project: rras
 ms.assetid: e34216ed-fa78-4cb3-8db9-274c8ba196dd
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RasGetProjectionInfoEx, RasGetProjectionInfoEx function [RAS], ras/RasGetProjectionInfoEx, rras.rasgetprojectioninfoex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,11 @@ The <b>RasGetProjectionInfoEx</b> function  obtains information about Point-to-P
 
 
 
-### -param hrasconn
+### -param hrasconn [in]
 
-TBD
+A handle to the RAS connection for which the tunnel endpoints are to be changed. This can be a handle returned by the 
+<a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> or 
+<a href="https://msdn.microsoft.com/b581cfbf-a55e-4f56-89cd-168aa23af550">RasEnumConnections</a> function.
 
 
 ### -param pRasProjection [in, out]
@@ -73,13 +75,6 @@ A pointer to a <a href="https://msdn.microsoft.com/ca4fbaff-f035-4340-8d29-7dcdd
 
 A pointer, in input, that specifies the size, in bytes, of the buffer pointed to by pRasProjection. On output, this variable receives the size, in bytes, of the buffer needed to store the number of <a href="https://msdn.microsoft.com/ca4fbaff-f035-4340-8d29-7dcddaf1b1bb">RAS_PROJECTION_INFO</a> structures pointed to by 
 					<i>pRasProjection</i>.
-
-
-#### - Hrasconn [in]
-
-A handle to the RAS connection for which the tunnel endpoints are to be changed. This can be a handle returned by the 
-<a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> or 
-<a href="https://msdn.microsoft.com/b581cfbf-a55e-4f56-89cd-168aa23af550">RasEnumConnections</a> function.
 
 
 ## -returns

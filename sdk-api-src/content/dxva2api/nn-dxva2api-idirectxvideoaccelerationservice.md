@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoaccelerationservice.htm
 old-project: medfound
 ms.assetid: 50a2d8f7-d7c9-4d50-88cc-f6c8562fbb17
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 50a2d8f7-d7c9-4d50-88cc-f6c8562fbb17, IDirectXVideoAccelerationService, IDirectXVideoAccelerationService interface [Media Foundation], IDirectXVideoAccelerationService interface [Media Foundation],described, dxva2api/IDirectXVideoAccelerationService, mf.idirectxvideoaccelerationservice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IDirectXVideoAccelerationService</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh998978">CreateSurface</a>
 </td>
 <td align="left" width="63%">
-
-          Creates a DirectX Video Acceleration (DXVA) video processor or DXVA decoder render target.
+Creates a DirectX Video Acceleration (DXVA) video processor or DXVA decoder render target.
         
 
 </td>
@@ -90,11 +89,9 @@ The <b>IDirectXVideoAccelerationService</b> interface has these methods.
 This is the base interface for DXVA services. The Direct3D device can support any of the following DXVA services, which derive from <b>IDirectXVideoAccelerationService</b>:
 
 <ul>
-<li>
-            Video decoding: <a href="https://msdn.microsoft.com/eeb62178-b54d-45d3-a584-75865f0662fa">IDirectXVideoDecoderService</a>
+<li>Video decoding: <a href="https://msdn.microsoft.com/eeb62178-b54d-45d3-a584-75865f0662fa">IDirectXVideoDecoderService</a>
 </li>
-<li>
-            Video processing: <a href="https://msdn.microsoft.com/fa33a9e9-4e91-4eb7-91c2-5b0c63ab7688">IDirectXVideoProcessorService</a>
+<li>Video processing: <a href="https://msdn.microsoft.com/fa33a9e9-4e91-4eb7-91c2-5b0c63ab7688">IDirectXVideoProcessorService</a>
 </li>
 </ul>
 

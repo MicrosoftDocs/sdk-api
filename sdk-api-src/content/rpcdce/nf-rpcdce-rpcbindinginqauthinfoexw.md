@@ -7,7 +7,7 @@ old-location: rpc\rpcbindinginqauthinfoex.htm
 old-project: rpc
 ms.assetid: e75f5ba6-7a1c-4069-8810-05aa38a47e9c
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcBindingInqAuthInfoEx, RpcBindingInqAuthInfoEx function [RPC], RpcBindingInqAuthInfoExA, RpcBindingInqAuthInfoExW, _rpc_rpcbindinginqauthinfoex, rpc.rpcbindinginqauthinfoex, rpcdce/RpcBindingInqAuthInfoEx, rpcdce/RpcBindingInqAuthInfoExA, rpcdce/RpcBindingInqAuthInfoExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,13 +117,6 @@ Passes value of current version (needed for forward compatibility if extensions 
 
 
 ### -param SecurityQOS
-
-TBD
-
-
-
-
-#### - SecurityQos
 
 Returns pointer to the 
 <a href="https://msdn.microsoft.com/f7733b9d-ae32-44ff-b1ca-dd0292dd0ff6">RPC_SECURITY_QOS</a> structure, which defines quality-of-service settings.

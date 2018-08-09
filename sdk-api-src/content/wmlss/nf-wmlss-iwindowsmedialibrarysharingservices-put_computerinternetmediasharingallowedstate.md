@@ -4,10 +4,10 @@ title: IWindowsMediaLibrarySharingServices::put_computerInternetMediaSharingAllo
 author: windows-sdk-content
 description: The put_computerInternetMediaSharingAllowedState method specifies whether media libraries on the computer are allowed to be shared on the Internet.
 old-location: wmlss\IWMLSSput_computerInternetMediaSharingAllowedState.htm
-old-project: WMLSS
+old-project: wmlss
 ms.assetid: d41d63d7-2b15-4dd5-bbc1-17696924a624
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_computerInternetMediaSharingAllowedState method, IWindowsMediaLibrarySharingServices.put_computerInternetMediaSharingAllowedState, IWindowsMediaLibrarySharingServices::put_computerInternetMediaSharingAllowedState, put_computerInternetMediaSharingAllowedState, put_computerInternetMediaSharingAllowedState method [Windows Media Library Sharing Services], put_computerInternetMediaSharingAllowedState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_computerInternetMediaSharingAllowedState, wmlss/IWindowsMediaLibrarySharingServices::put_computerInternetMediaSharingAllowedState
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\TreeView_MapAccIDToHTREEITEM.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_mapaccidtohtreeitem.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TreeView_MapAccIDToHTREEITEM, TreeView_MapAccIDToHTREEITEM macro [Windows Controls], _win32_TreeView_MapAccIDToHTREEITEM, _win32_TreeView_MapAccIDToHTREEITEM_cpp, commctrl/TreeView_MapAccIDToHTREEITEM, controls.TreeView_MapAccIDToHTREEITEM, controls._win32_TreeView_MapAccIDToHTREEITEM
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Maps an accessibility ID to an <b>HTREEITEM</b>. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773734(v=VS.85).aspx">TVM_MAPACCIDTOHTREEITEM</a> message explicitly. 
+Maps an accessibility ID to an <b>HTREEITEM</b>. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773734(v=VS.85).aspx">TVM_MAPACCIDTOHTREEITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -69,15 +69,14 @@ A handle to the list-view control.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            The accessibility ID to map to an <b>HTREEITEM</b>.
+The accessibility ID to map to an <b>HTREEITEM</b>.
 
 
 ## -remarks
 
 
 
-To use <b>TreeView_MapAccIDToHTREEITEM</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>TreeView_MapAccIDToHTREEITEM</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 <div class="alert"><b>Note</b>  The accessibility ID is not the same as that mentioned in <a href="https://msdn.microsoft.com/bac49a2d-4357-4607-a89d-d2ed4abf89bb">IAccessibleObject</a>. This is a unique ID used for treeview items as long as treeitems do not exceed the max limit of <b>UINT</b>.
 </div>

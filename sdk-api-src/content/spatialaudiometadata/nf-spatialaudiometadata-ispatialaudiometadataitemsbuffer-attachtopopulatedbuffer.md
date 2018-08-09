@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataitemsbuffer_attachtopopulatedbuffer
 old-project: CoreAudio
 ms.assetid: 7C17F504-6EB7-4A8D-B3E1-203D5D9B7E3C
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: AttachToPopulatedBuffer, AttachToPopulatedBuffer method [Core Audio], AttachToPopulatedBuffer method [Core Audio],ISpatialAudioMetadataItemsBuffer interface, ISpatialAudioMetadataItemsBuffer interface [Core Audio],AttachToPopulatedBuffer method, ISpatialAudioMetadataItemsBuffer.AttachToPopulatedBuffer, ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer, coreaudio.ispatialaudiometadataitemsbuffer_attachtopopulatedbuffer, spatialaudiometadata/ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer

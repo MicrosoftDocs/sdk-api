@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_addimpltype.htm
 old-project: automat
 ms.assetid: fef8421f-67de-402b-8efd-7a104c84ca6e
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: AddImplType, AddImplType method [Automation], AddImplType method [Automation],ICreateTypeInfo interface, ICreateTypeInfo interface [Automation],AddImplType method, ICreateTypeInfo.AddImplType, ICreateTypeInfo::AddImplType, _oa96_ICreateTypeInfo_AddImplType, automat.icreatetypeinfo_addimpltype, oaidl/ICreateTypeInfo::AddImplType
 ms.prod: windows
 ms.technology: windows-sdk

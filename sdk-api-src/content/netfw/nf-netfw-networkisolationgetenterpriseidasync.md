@@ -7,7 +7,7 @@ old-location: ics\networkisolationgetenterpriseidasync.htm
 old-project: ics
 ms.assetid: 709211F9-FE7A-4C43-AD35-101C4B64ED26
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: NETISO_GEID_DEFAULT, NETISO_GEID_FORCE_TO_CHECK, NETISO_GEID_FOR_NEUTRAL_AWARE, NETISO_GEID_FOR_WDAG, NetworkIsolationGetEnterpriseIdAsync, NetworkIsolationGetEnterpriseIdAsync function [ICS/ICF], ics.networkisolationgetenterpriseidasync, netfw/NetworkIsolationGetEnterpriseIdAsync
 ms.prod: windows
 ms.technology: windows-sdk

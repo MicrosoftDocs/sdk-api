@@ -7,7 +7,7 @@ old-location: tsf\tf_lbballooninfo.htm
 old-project: TSF
 ms.assetid: 8ceed1ae-27f9-4998-b950-52865bfa2f79
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: TF_LBBALLOONINFO, TF_LBBALLOONINFO structure [Text Services Framework], _tsf_tf_lbballooninfo_ref, ctfutb/TF_LBBALLOONINFO, tsf.tf_lbballooninfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ Contains one of the <a href="https://msdn.microsoft.com/c79eb490-b950-4d49-bdf9-
 
 ### -field bstrText
 
-Contains a <b>BSTR</b> that contains the string for the balloon. This string must be allocated using the <a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a> function. The caller free this buffer when it is no longer required by calling <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+Contains a <b>BSTR</b> that contains the string for the balloon. This string must be allocated using the <a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> function. The caller free this buffer when it is no longer required by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
 
 
 ## -see-also
@@ -81,11 +81,11 @@ Contains a <b>BSTR</b> that contains the string for the balloon. This string mus
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>
 
 
 

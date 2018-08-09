@@ -7,7 +7,7 @@ old-location: ndf\ndfgettracefile.htm
 old-project: ndf
 ms.assetid: a9ce6471-20f3-4c53-92e5-6fd4f7bd10e3
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: NdfGetTraceFile, NdfGetTraceFile function [NDF], ndf.ndfgettracefile, ndfapi/NdfGetTraceFile
 ms.prod: windows
 ms.technology: windows-sdk

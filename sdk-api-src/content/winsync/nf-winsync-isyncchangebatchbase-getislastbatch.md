@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatchbase_getislastbatch.htm
 old-project: winsync
 ms.assetid: 74b82fde-c492-4d5f-a680-62b836420cee
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetIsLastBatch, GetIsLastBatch method [Windows Sync], GetIsLastBatch method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetIsLastBatch method, ISyncChangeBatchBase.GetIsLastBatch, ISyncChangeBatchBase::GetIsLastBatch, winsync.isyncchangebatchbase_getislastbatch, winsync/ISyncChangeBatchBase::GetIsLastBatch
 ms.prod: windows
 ms.technology: windows-sdk

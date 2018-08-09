@@ -7,7 +7,7 @@ old-location: devinst\sp_drvinfo_data.htm
 old-project: devinst
 ms.assetid: 13cdebad-6247-4651-a1d0-709e14af22f6
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: "*PSP_DRVINFO_DATA_V1_W, PSP_DRVINFO_DATA, PSP_DRVINFO_DATA structure pointer [Device and Driver Installation], SP_DRVINFO_DATA, SP_DRVINFO_DATA structure [Device and Driver Installation], SP_DRVINFO_DATA_V1, SP_DRVINFO_DATA_V1_W, SP_DRVINFO_DATA_W, _SP_DRVINFO_DATA_V1_W, devinst.sp_drvinfo_data, di-struct_738a1fa5-729a-4464-af75-05591d68eef7.xml, setupapi/PSP_DRVINFO_DATA, setupapi/SP_DRVINFO_DATA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,11 +103,6 @@ A NULL-terminated string that contains the name of the manufacturer of the devic
 A NULL-terminated string giving the provider of this driver. This is typically the name of the organization that creates the driver or INF file. <b>ProviderName</b> can be an empty string.
 
 
-#### - DriverDate
-
-Date of the driver. From the <b>DriverVer</b> entry in the INF file. See the <a href="devinst.inf_ddinstall_section">INF DDInstall Section</a> for more information about the <b>DriverVer</b> entry.
-
-
 ##### - DriverType.SPDIT_CLASSDRIVER
 
 This structure represents a class driver.
@@ -116,6 +111,11 @@ This structure represents a class driver.
 ##### - DriverType.SPDIT_COMPATDRIVER
 
 This structure represents a compatible driver.
+
+
+#### - DriverDate
+
+Date of the driver. From the <b>DriverVer</b> entry in the INF file. See the <a href="devinst.inf_ddinstall_section">INF DDInstall Section</a> for more information about the <b>DriverVer</b> entry.
 
 
 #### - DriverVersion

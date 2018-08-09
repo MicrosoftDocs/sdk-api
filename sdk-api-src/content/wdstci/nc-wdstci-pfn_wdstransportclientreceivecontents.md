@@ -4,10 +4,10 @@ title: PFN_WdsTransportClientReceiveContents
 author: windows-sdk-content
 description: The PFN_WdsTransportClientReceiveContents callback is used by the multicast client to indicate that a block of data is ready to be used.
 old-location: wds\pfn_wdstransportclientreceivecontents.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 3a1cd9bb-c0da-4d66-9338-1f284fc15499
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PFN_WdsTransportClientReceiveContents, PFN_WdsTransportClientReceiveContents callback, PFN_WdsTransportClientReceiveContents callback function [Windows Deployment Services], wds.pfn_wdstransportclientreceivecontents, wdstci/PFN_WdsTransportClientReceiveContents
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,14 +86,14 @@ The size of the data in <i>pCallerData</i>.
 
 
 
-#### - pContentOffset [in]
-
-The offset in the data stream where this block of data starts.  
-
-
 #### - pMetadata [in]
 
 Pointer to the buffer location  that has received the content. The size of this buffer in bytes is given by <i>ulSize</i>. 
+
+
+#### - pContentOffset [in]
+
+The offset in the data stream where this block of data starts.  
 
 
 ## -returns

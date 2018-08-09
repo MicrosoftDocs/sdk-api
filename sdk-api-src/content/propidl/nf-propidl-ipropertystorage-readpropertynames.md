@@ -7,7 +7,7 @@ old-location: stg\ipropertystorage_readpropertynames.htm
 old-project: stg
 ms.assetid: 42b0bf7e-0402-425c-8a5f-09eaa16d93fe
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: IPropertyStorage [Strctd Stg], IPropertyStorage [Strctd Stg],ReadPropertyNames, IPropertyStorage interface [Structured Storage],ReadPropertyNames method, IPropertyStorage.ReadPropertyNames, IPropertyStorage::ReadPropertyNames, ReadPropertyNames, ReadPropertyNames method [Structured Storage], ReadPropertyNames method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_readpropertynames, propidl/IPropertyStorage::ReadPropertyNames, stg.ipropertystorage_readpropertynames
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The <b>ReadPropertyNames</b> method retrieves any existing string names for the specified property IDs.
+The <b>ReadPropertyNames</b> method retrieves any existing string names for the specified property IDs.
 
 
 ## -parameters
@@ -82,8 +81,7 @@ Each <b>LPWSTR</b> member of the array should be freed using the
 
 
 
-
-						This method supports the standard return value E_UNEXPECTED, in addition to the following:
+This method supports the standard return value E_UNEXPECTED, in addition to the following:
 
 
 

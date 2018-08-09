@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreammediatypemanager_addstreamconfiguration.htm
 old-project: medfound
 ms.assetid: 9A647B60-ACA0-4878-A75B-54CA093DEDD0
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: AddStreamConfiguration, AddStreamConfiguration method [Media Foundation], AddStreamConfiguration method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],AddStreamConfiguration method, IMFMuxStreamMediaTypeManager.AddStreamConfiguration, IMFMuxStreamMediaTypeManager::AddStreamConfiguration, mf.imfmuxstreammediatypemanager_addstreamconfiguration, mfobjects/IMFMuxStreamMediaTypeManager::AddStreamConfiguration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ A bitmask value where the bits that are on represent the indices of the substrea
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ A bitmask value where the bits that are on represent the indices of the substrea
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -100,8 +98,7 @@ A bitmask value where the bits that are on represent the indices of the substrea
 </dl>
 </td>
 <td width="60%">
-
-                The specified configuration is already registered.
+The specified configuration is already registered.
               
 
 </td>
@@ -124,8 +121,7 @@ The supplied bitmask has bits set that are invalid for the media source.
 </dl>
 </td>
 <td width="60%">
-
-                There is insufficient memory to complete the operation.
+There is insufficient memory to complete the operation.
 
 </td>
 </tr>

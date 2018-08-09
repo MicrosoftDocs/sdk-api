@@ -7,7 +7,7 @@ old-location: mstv\iisdb_nbit_getrecordmessagesectionnumber.htm
 old-project: mstv
 ms.assetid: 3bfab381-f5af-4583-b268-72c83f3bfb8d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordMessageSectionNumber, GetRecordMessageSectionNumber method [Microsoft TV Technologies], GetRecordMessageSectionNumber method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordMessageSectionNumber method, IISDB_NBIT.GetRecordMessageSectionNumber, IISDB_NBIT::GetRecordMessageSectionNumber, dvbsiparser/IISDB_NBIT::GetRecordMessageSectionNumber, mstv.iisdb_nbit_getrecordmessagesectionnumber
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Gets the section_number field from a record in  Integrated Services Digital Broadcasting (ISDB)
+Gets the section_number field from a record in  Integrated Services Digital Broadcasting (ISDB)
   network broadcaster information table (NBIT).
   The section_ number field identifies the section so that
   the demultiplexer can successfully reconstruct the sections in their original order.
@@ -66,8 +65,7 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param dwRecordIndex [in]
 
-
-  Specifies the record number, indexed from zero.
+Specifies the record number, indexed from zero.
   Call the <a href="https://msdn.microsoft.com/c747278a-dea7-4772-b37d-89c1deaaf91f">IISDB_NBIT::GetCountOfRecords</a> method to get the number
   of records in the NBIT.
 

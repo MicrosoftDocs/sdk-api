@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_isendofstream.htm
 old-project: medfound
 ms.assetid: 5e5c02ea-d3fc-4d8d-aa8b-87aa033a3644
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 5e5c02ea-d3fc-4d8d-aa8b-87aa033a3644, IMFByteStream interface [Media Foundation],IsEndOfStream method, IMFByteStream.IsEndOfStream, IMFByteStream::IsEndOfStream, IsEndOfStream, IsEndOfStream method [Media Foundation], IsEndOfStream method [Media Foundation],IMFByteStream interface, mf.imfbytestream_isendofstream, mfobjects/IMFByteStream::IsEndOfStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ Queries whether the current position has reached the end of the stream.
 
 ### -param pfEndOfStream [out]
 
-
-            Receives the value <b>TRUE</b> if the end of the stream has been reached, or <b>FALSE</b> otherwise.
+Receives the value <b>TRUE</b> if the end of the stream has been reached, or <b>FALSE</b> otherwise.
           
 
 

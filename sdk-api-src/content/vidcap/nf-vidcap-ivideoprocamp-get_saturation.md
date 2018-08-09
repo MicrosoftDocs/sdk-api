@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_saturation.htm
 old-project: DirectShow
 ms.assetid: 977e71a4-8118-4fc2-9f76-ec30293b33d0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_Saturation method, IVideoProcAmp.get_Saturation, IVideoProcAmp::get_Saturation, IVideoProcAmpget_Saturation, dshow.ivideoprocamp_get_saturation, get_Saturation, get_Saturation method [DirectShow], get_Saturation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Saturation
 ms.prod: windows
 ms.technology: windows-sdk

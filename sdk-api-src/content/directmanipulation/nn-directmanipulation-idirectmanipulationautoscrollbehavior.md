@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationautoscrollbehavior.htm
 old-project: directmanipulation
 ms.assetid: 6E847EE2-231C-4B09-955A-F546CC790E3C
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IDirectManipulationAutoScrollBehavior, IDirectManipulationAutoScrollBehavior interface [Direct Manipulation], IDirectManipulationAutoScrollBehavior interface [Direct Manipulation],described, directmanipulation.idirectmanipulationautoscrollbehavior, directmanipulation/IDirectManipulationAutoScrollBehavior
 ms.prod: windows
 ms.technology: windows-sdk

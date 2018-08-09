@@ -7,7 +7,7 @@ old-location: controls\ListView_GetGroupHeaderImageList.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupheaderimagelist.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_GetGroupHeaderImageList, ListView_GetGroupHeaderImageList macro [Windows Controls], _shell_ListView_GetGroupHeaderImageList, _shell_ListView_GetGroupHeaderImageList_cpp, commctrl/ListView_GetGroupHeaderImageList, controls.ListView_GetGroupHeaderImageList, controls._shell_ListView_GetGroupHeaderImageList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ A handle to the list-view control.
 
 
 
-To specify an image list another way, such as, by large icons, small icons, or state images, send the <a href="https://msdn.microsoft.com/library/Bb774943(v=VS.85).aspx">LVM_GETIMAGELIST</a> message explicitly.
+To specify an image list another way, such as, by large icons, small icons, or state images, send the <a href="https://msdn.microsoft.com/en-us/library/Bb774943(v=VS.85).aspx">LVM_GETIMAGELIST</a> message explicitly.
 
 
 

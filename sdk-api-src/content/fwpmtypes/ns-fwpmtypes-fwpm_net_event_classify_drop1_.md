@@ -7,7 +7,7 @@ old-location: fwp\fwpm_net_event_classify_drop1.htm
 old-project: fwp
 ms.assetid: 2bc38e75-450e-4ad7-8954-ff339ae769f5
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FWPM_NET_EVENT_CLASSIFY_DROP1, FWPM_NET_EVENT_CLASSIFY_DROP1 structure [Filtering], FWPM_NET_EVENT_CLASSIFY_DROP1_, FWP_DIRECTION_FORWARD, FWP_DIRECTION_IN, FWP_DIRECTION_OUT, fwp.fwpm_net_event_classify_drop1, fwpmtypes/FWPM_NET_EVENT_CLASSIFY_DROP1
 ms.prod: windows
 ms.technology: windows-sdk

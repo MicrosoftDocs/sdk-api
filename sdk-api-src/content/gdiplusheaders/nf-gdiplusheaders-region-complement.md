@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Complement_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regioncomplementmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Complement, Complement methods [GDI+], Region.Complement, Region::Complement, _gdiplus_CLASS_Region_Complement_Methods, gdiplus._gdiplus_CLASS_Region_Complement_Methods, gdiplusheaders/Complement
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 			Complement methods of the 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/dn915769">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/library/ms534761(v=VS.85).aspx">Region Methods</a>.
+			<a href="https://msdn.microsoft.com/library/windows/hardware/dn915769">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534761(v=VS.85).aspx">Region Methods</a>.
 
 </span><h3>Overload list</h3><table>
 <tr>
@@ -62,37 +62,37 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534918(v=VS.85).aspx">Complement(Rect&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534918(v=VS.85).aspx">Complement(Rect&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534918(v=VS.85).aspx">Region::Complement</a> method updates this region to the portion of the specified rectangle's interior that does not intersect this region.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534918(v=VS.85).aspx">Region::Complement</a> method updates this region to the portion of the specified rectangle's interior that does not intersect this region.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534919(v=VS.85).aspx">Complement(RectF&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534919(v=VS.85).aspx">Complement(RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534919(v=VS.85).aspx">Region::Complement</a> method updates this region to the portion of the specified rectangle's interior that does not intersect this region.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534919(v=VS.85).aspx">Region::Complement</a> method updates this region to the portion of the specified rectangle's interior that does not intersect this region.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534917(v=VS.85).aspx">Complement(Region*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534917(v=VS.85).aspx">Complement(Region*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534917(v=VS.85).aspx">Region::Complement</a> method updates this region to the portion of another region that does not intersect this region.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534917(v=VS.85).aspx">Region::Complement</a> method updates this region to the portion of another region that does not intersect this region.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534829(v=VS.85).aspx">Complement(GraphicsPath*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534829(v=VS.85).aspx">Complement(GraphicsPath*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534829(v=VS.85).aspx">Region::Complement</a> method updates this region to the portion of the specified path's interior that does not intersect this region.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534829(v=VS.85).aspx">Region::Complement</a> method updates this region to the portion of the specified path's interior that does not intersect this region.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: com\ipersistfile_save.htm
 old-project: com
 ms.assetid: da9581e8-98c7-4592-8ee1-a1bc8232635b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IPersistFile interface [COM],Save method, IPersistFile.Save, IPersistFile::Save, Save, Save method [COM], Save method [COM],IPersistFile interface, _com_ipersistfile_save, com.ipersistfile_save, objidl/IPersistFile::Save
 ms.prod: windows
 ms.technology: windows-sdk

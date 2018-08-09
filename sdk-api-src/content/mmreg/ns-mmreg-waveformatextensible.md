@@ -7,7 +7,7 @@ old-location: multimedia\waveformatextensible.htm
 old-project: Multimedia
 ms.assetid: 179d6c0c-ea80-4e9f-9e1b-43785f20cbd3
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPWAVEFORMATIEEEFLOATEX, *LPWAVEFORMATPCMEX, *NPWAVEFORMATIEEEFLOATEX, *NPWAVEFORMATPCMEX, *PWAVEFORMATEXTENSIBLE, *PWAVEFORMATIEEEFLOATEX, *PWAVEFORMATPCMEX, PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE structure pointer [Windows Multimedia], WAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE structure [Windows Multimedia], WAVEFORMATIEEEFLOATEX, WAVEFORMATPCMEX, _win32_WAVEFORMATEXTENSIBLE_str, mmreg/PWAVEFORMATEXTENSIBLE, mmreg/WAVEFORMATEXTENSIBLE, multimedia.waveformatextensible"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,11 +108,9 @@ The <b>dwChannelMask</b> member specifies which channels are present in the mult
 
 <table>
 <tr>
-<th>
-              Speaker position
+<th>Speaker position
             </th>
-<th>
-              Flag bit
+<th>Flag bit
             </th>
 </tr>
 <tr>
@@ -196,11 +194,9 @@ For backward compatibility, any wave format that can be specified by a stand-alo
 
 <table>
 <tr>
-<th>
-              Wave-Format Tag
+<th>Wave-Format Tag
             </th>
-<th>
-              SubFormat GUID
+<th>SubFormat GUID
             </th>
 </tr>
 <tr>
@@ -236,11 +232,9 @@ The following structures, for particular extended formats, are defined as <b>WAV
 
 <table>
 <tr>
-<th>
-              Definition
+<th>Definition
             </th>
-<th>
-              Value of SubFormat
+<th>Value of SubFormat
             </th>
 </tr>
 <tr>

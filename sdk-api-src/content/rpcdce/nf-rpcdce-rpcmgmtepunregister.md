@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtepunregister.htm
 old-project: rpc
 ms.assetid: b825a79d-7f9e-45f1-88d0-a3b733a7df78
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcMgmtEpUnregister, RpcMgmtEpUnregister function [RPC], _rpc_rpcmgmtepunregister, rpc.rpcmgmtepunregister, rpcdce/RpcMgmtEpUnregister
 ms.prod: windows
 ms.technology: windows-sdk

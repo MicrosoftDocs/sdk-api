@@ -7,7 +7,7 @@ old-location: mstv\iisdb_nbit_getrecordinformationtype.htm
 old-project: mstv
 ms.assetid: 0f51abc1-d797-4666-b5d5-50560fd2f9f3
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordInformationType, GetRecordInformationType method [Microsoft TV Technologies], GetRecordInformationType method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordInformationType method, IISDB_NBIT.GetRecordInformationType, IISDB_NBIT::GetRecordInformationType, dvbsiparser/IISDB_NBIT::GetRecordInformationType, mstv.iisdb_nbit_getrecordinformationtype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Gets an information_type field from 
+Gets an information_type field from 
   a record in an Integrated Services Digital Broadcasting (ISDB)
   network broadcaster information table (NBIT).
   
@@ -65,8 +64,7 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param dwRecordIndex [in]
 
-
-  Specifies the record number, indexed from zero.
+Specifies the record number, indexed from zero.
   Call the <a href="https://msdn.microsoft.com/c747278a-dea7-4772-b37d-89c1deaaf91f">IISDB_NBIT::GetCountOfRecords</a> method to get the number of records in the NBIT.
 
 

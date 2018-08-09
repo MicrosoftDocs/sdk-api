@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dindexbuffer9__lock.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dindexbuffer9__lock.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IDirect3DIndexBuffer9 interface [Direct3D 9],Lock method, IDirect3DIndexBuffer9.Lock, IDirect3DIndexBuffer9::Lock, Lock, Lock method [Direct3D 9], Lock method [Direct3D 9],IDirect3DIndexBuffer9 interface, a727fd78-b27c-1dcd-d6ca-d3bf644edaa8, d3d9helper/IDirect3DIndexBuffer9::Lock, direct3d9.idirect3dindexbuffer9__lock
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,14 +95,14 @@ Combination of zero or more locking flags that describe the type of lock to perf
 <li>D3DLOCK_READONLY</li>
 <li>D3DLOCK_NOOVERWRITE</li>
 </ul>
-For a description of the flags, see <a href="https://msdn.microsoft.com/library/Bb172568(v=VS.85).aspx">D3DLOCK</a>.
+For a description of the flags, see <a href="https://msdn.microsoft.com/en-us/library/Bb172568(v=VS.85).aspx">D3DLOCK</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -113,11 +113,11 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-As a general rule, do not hold a lock across more than one frame. When working with index buffers, you are allowed to make multiple lock calls. However, you must ensure that the number of lock calls match the number of unlock calls. <a href="https://msdn.microsoft.com/library/Bb174369(v=VS.85).aspx">IDirect3DDevice9::DrawIndexedPrimitive</a> calls will not succeed with any outstanding lock count on any currently set index buffer. 
+As a general rule, do not hold a lock across more than one frame. When working with index buffers, you are allowed to make multiple lock calls. However, you must ensure that the number of lock calls match the number of unlock calls. <a href="https://msdn.microsoft.com/en-us/library/Bb174369(v=VS.85).aspx">IDirect3DDevice9::DrawIndexedPrimitive</a> calls will not succeed with any outstanding lock count on any currently set index buffer. 
 
 The D3DLOCK_DISCARD and D3DLOCK_NOOVERWRITE flags are valid only on buffers created with D3DUSAGE_DYNAMIC.
 
-See <a href="https://msdn.microsoft.com/library/Bb147300(v=VS.85).aspx">Programming Tips (Direct3D 9)</a> for information about using D3DLOCK_DISCARD or D3DLOCK_NOOVERWRITE.
+See <a href="https://msdn.microsoft.com/en-us/library/Bb147300(v=VS.85).aspx">Programming Tips (Direct3D 9)</a> for information about using D3DLOCK_DISCARD or D3DLOCK_NOOVERWRITE.
 
 
 
@@ -127,15 +127,15 @@ See <a href="https://msdn.microsoft.com/library/Bb147300(v=VS.85).aspx">Programm
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205865(v=VS.85).aspx">IDirect3DIndexBuffer9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205865(v=VS.85).aspx">IDirect3DIndexBuffer9</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205868(v=VS.85).aspx">IDirect3DIndexBuffer9::Unlock</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205868(v=VS.85).aspx">IDirect3DIndexBuffer9::Unlock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174595(v=VS.85).aspx">Index Buffers (Direct3D 9)</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174595(v=VS.85).aspx">Index Buffers (Direct3D 9)</a>
  
 
  

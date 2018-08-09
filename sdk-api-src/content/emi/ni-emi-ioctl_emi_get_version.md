@@ -7,7 +7,7 @@ old-location: powermeter\ioctl_emi_get_version.htm
 old-project: powermeter
 ms.assetid: 6B27B70C-DB3C-4EF9-B8FF-8074B0285F87
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/30/2018
 ms.keywords: IOCTL_EMI_GET_VERSION, IOCTL_EMI_GET_VERSION control, IOCTL_EMI_GET_VERSION control code [Power Metering and Budgeting Devices], emi/IOCTL_EMI_GET_VERSION, powermeter.ioctl_emi_get_version
 ms.prod: windows
 ms.technology: windows-sdk

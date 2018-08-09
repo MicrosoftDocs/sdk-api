@@ -7,7 +7,7 @@ old-location: mstv\idvbextendedeventdescriptor_getrecorditemw.htm
 old-project: mstv
 ms.assetid: 39c046b0-d357-44c5-9abe-2fb3998b7677
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordItemW, GetRecordItemW method [Microsoft TV Technologies], GetRecordItemW method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetRecordItemW method, IDvbExtendedEventDescriptor.GetRecordItemW, IDvbExtendedEventDescriptor::GetRecordItemW, dvbsiparser/IDvbExtendedEventDescriptor::GetRecordItemW, mstv.idvbextendedeventdescriptor_getrecorditemw
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Gets the item and descriptor from a  Digital Videl Broadcast (DVB) extended even
 ### -param bRecordIndex [in]
 
 Specifies the item record number,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/db065f1a-8354-4207-b7f7-d67adf094c70">IDvbExtendedEventDescriptor::GetCountOfRecords</a>
-  method to get the number of records in the extended event descriptor.
+  indexed from zero. Call the <a href="https://msdn.microsoft.com/db065f1a-8354-4207-b7f7-d67adf094c70">IDvbExtendedEventDescriptor::GetCountOfRecords</a>method to get the number of records in the extended event descriptor.
 
 
 ### -param convMode [in]

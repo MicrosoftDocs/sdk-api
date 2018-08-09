@@ -7,7 +7,7 @@ old-location: search\_search_ISearchProtocolThreadContext.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocolthreadcontext\isearchprotocolthreadcontext.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchProtocolThreadContext, ISearchProtocolThreadContext interface [search], ISearchProtocolThreadContext interface [search],described, _search_ISearchProtocolThreadContext, search._search_ISearchProtocolThreadContext, searchapi/ISearchProtocolThreadContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>ISearchProtocolThreadContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231428(v=VS.85).aspx">ThreadIdle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231428(v=VS.85).aspx">ThreadIdle</a>
 </td>
 <td align="left" width="63%">
 Notifies the protocol handler that the filtering thread is idle, so that the protocol handler can clean up any cache it might have built up.
@@ -80,7 +80,7 @@ Notifies the protocol handler that the filtering thread is idle, so that the pro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231429(v=VS.85).aspx">ThreadInit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231429(v=VS.85).aspx">ThreadInit</a>
 </td>
 <td align="left" width="63%">
 Initializes communication between the protocol handler and the protocol host.
@@ -89,7 +89,7 @@ Initializes communication between the protocol handler and the protocol host.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231430(v=VS.85).aspx">ThreadShutdown</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231430(v=VS.85).aspx">ThreadShutdown</a>
 </td>
 <td align="left" width="63%">
 Notifies the protocol handler that the thread is being shut down.

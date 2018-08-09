@@ -7,7 +7,7 @@ old-location: mbn\imbnsmsreadmsgtextcdma_sizeincharacters.htm
 old-project: mbn
 ms.assetid: db1d364f-a5c7-4729-8df5-846a74510f3d
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],SizeInCharacters property, IMbnSmsReadMsgTextCdma.SizeInCharacters, IMbnSmsReadMsgTextCdma.get_SizeInCharacters, IMbnSmsReadMsgTextCdma::SizeInCharacters, IMbnSmsReadMsgTextCdma::get_SizeInCharacters, SizeInCharacters property [Microsoft Broadband Networks], SizeInCharacters property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, get_SizeInCharacters, mbn.imbnsmsreadmsgtextcdma_sizeincharacters, mbnapi/IMbnSmsReadMsgTextCdma::SizeInCharacters, mbnapi/IMbnSmsReadMsgTextCdma::get_SizeInCharacters
 ms.prod: windows
 ms.technology: windows-sdk

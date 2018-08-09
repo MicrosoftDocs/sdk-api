@@ -7,7 +7,7 @@ old-location: shell\NWMF.htm
 old-project: shell
 ms.assetid: b55b60ae-fb56-4525-8113-35c417b28954
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: NWMF, NWMF enumeration [Windows Shell], NWMF_FIRST, NWMF_FORCETAB, NWMF_FORCEWINDOW, NWMF_FROMDIALOGCHILD, NWMF_HTMLDIALOG, NWMF_INACTIVETAB, NWMF_OVERRIDEKEY, NWMF_SHOWHELP, NWMF_SUGGESTTAB, NWMF_SUGGESTWINDOW, NWMF_UNLOADING, NWMF_USERALLOWED, NWMF_USERINITED, NWMF_USERREQUESTED, _shell_NWMF, shell.NWMF, shobjidl_core/NWMF, shobjidl_core/NWMF_FIRST, shobjidl_core/NWMF_FORCETAB, shobjidl_core/NWMF_FORCEWINDOW, shobjidl_core/NWMF_FROMDIALOGCHILD, shobjidl_core/NWMF_HTMLDIALOG, shobjidl_core/NWMF_INACTIVETAB, shobjidl_core/NWMF_OVERRIDEKEY, shobjidl_core/NWMF_SHOWHELP, shobjidl_core/NWMF_SUGGESTTAB, shobjidl_core/NWMF_SUGGESTWINDOW, shobjidl_core/NWMF_UNLOADING, shobjidl_core/NWMF_USERALLOWED, shobjidl_core/NWMF_USERINITED, shobjidl_core/NWMF_USERREQUESTED
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,8 +66,7 @@ The page is unloading. This flag is set in response to the <a href="_inet_IHTMLW
 
 ### -field NWMF_USERINITED
 
-
-        The call to <a href="https://msdn.microsoft.com/0721298f-99c2-463b-8ffa-7527844dcab4">INewWindowManager::EvaluateNewWindow</a> is the result of a user-initiated action (a mouse click or key press). Use this flag in conjunction with the <a href="https://msdn.microsoft.com/b55b60ae-fb56-4525-8113-35c417b28954">NWMF_FIRST_USERINITED</a> flag to determine whether the call is a direct or indirect result of the user-initiated action.
+The call to <a href="https://msdn.microsoft.com/0721298f-99c2-463b-8ffa-7527844dcab4">INewWindowManager::EvaluateNewWindow</a> is the result of a user-initiated action (a mouse click or key press). Use this flag in conjunction with the <a href="https://msdn.microsoft.com/b55b60ae-fb56-4525-8113-35c417b28954">NWMF_FIRST_USERINITED</a> flag to determine whether the call is a direct or indirect result of the user-initiated action.
 
 
 ### -field NWMF_FIRST
@@ -77,8 +76,7 @@ When <a href="https://msdn.microsoft.com/b55b60ae-fb56-4525-8113-35c417b28954">N
 
 ### -field NWMF_OVERRIDEKEY
 
-
-        The override key (ALT) was pressed. The override key is used to bypass the pop-up manager—allowing all pop-up windows to display—and must be held down at the time that <a href="https://msdn.microsoft.com/0721298f-99c2-463b-8ffa-7527844dcab4">INewWindowManager::EvaluateNewWindow</a> is called. 
+The override key (ALT) was pressed. The override key is used to bypass the pop-up manager—allowing all pop-up windows to display—and must be held down at the time that <a href="https://msdn.microsoft.com/0721298f-99c2-463b-8ffa-7527844dcab4">INewWindowManager::EvaluateNewWindow</a> is called. 
             
                 
 
@@ -87,20 +85,17 @@ When <a href="https://msdn.microsoft.com/b55b60ae-fb56-4525-8113-35c417b28954">N
 
 ### -field NWMF_SHOWHELP
 
-
-        The new window attempting to load is the result of a call to the <a href="_inet_showHelp_Method_scr">showHelp</a> method. Help is sometimes displayed in a separate window, and this flag is valuable in those cases.
+The new window attempting to load is the result of a call to the <a href="_inet_showHelp_Method_scr">showHelp</a> method. Help is sometimes displayed in a separate window, and this flag is valuable in those cases.
 
 
 ### -field NWMF_HTMLDIALOG
 
-
-        The new window is a dialog box that displays HTML content.
+The new window is a dialog box that displays HTML content.
 
 
 ### -field NWMF_FROMDIALOGCHILD
 
-
-        The <a href="https://msdn.microsoft.com/0721298f-99c2-463b-8ffa-7527844dcab4">EvaluateNewWindow</a> method is being called from an HTML dialog. The new window should not show the UI in the parent window.
+The <a href="https://msdn.microsoft.com/0721298f-99c2-463b-8ffa-7527844dcab4">EvaluateNewWindow</a> method is being called from an HTML dialog. The new window should not show the UI in the parent window.
 
 
 ### -field NWMF_USERREQUESTED

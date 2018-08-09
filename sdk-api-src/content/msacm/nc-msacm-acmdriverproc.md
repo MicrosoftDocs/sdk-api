@@ -7,7 +7,7 @@ old-location: multimedia\acmdriverproc.htm
 old-project: Multimedia
 ms.assetid: e29c157d-e56e-4242-abb8-2736d5599caa
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: "_win32_acmDriverProc, acmDriverProc, acmDriverProc callback, acmDriverProc callback function [Windows Multimedia], msacm/acmDriverProc, multimedia.acmdriverproc"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,6 +93,11 @@ Identifier of the installable ACM driver.
 Handle to the installable ACM driver. This parameter is a unique handle the ACM assigns to the driver.
 
 
+#### - uMsg
+
+ACM driver message.
+
+
 #### - lParam1
 
 Message parameter.
@@ -101,11 +106,6 @@ Message parameter.
 #### - lParam2
 
 Message parameter.
-
-
-#### - uMsg
-
-ACM driver message.
 
 
 ## -returns

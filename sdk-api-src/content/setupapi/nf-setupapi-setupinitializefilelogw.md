@@ -7,7 +7,7 @@ old-location: setup\setupinitializefilelog.htm
 old-project: SetupApi
 ms.assetid: fac7abac-76a9-456a-843a-e1048df268b7
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupInitializeFileLog, SetupInitializeFileLog function [Setup API], SetupInitializeFileLogA, SetupInitializeFileLogW, _setupapi_setupinitializefilelog, setup.setupinitializefilelog, setupapi/SetupInitializeFileLog, setupapi/SetupInitializeFileLogA, setupapi/SetupInitializeFileLogW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,6 +96,11 @@ If the log file exists, overwrite it. If the log file exists and this flag is no
 Open the log file for querying only.
 
 
+##### - Flags.SPFILELOG_SYSTEMLOG
+
+Use the system file log. The user must be an Administrator to specify this option unless SPFILELOG_QUERYONLY is specified and <i>LogFileName</i> is not specified. Do not specify SPFILELOG_SYSTEMLOG in combination with SPFILELOG_FORCENEW.
+
+
 ##### - Flags.SPFILELOG_FORCENEW
 
 If the log file exists, overwrite it. If the log file exists and this flag is not specified, any new files that are installed are added to the list in the existing log file. Do not specify in combination with SPFILELOG_SYSTEMLOG.
@@ -104,11 +109,6 @@ If the log file exists, overwrite it. If the log file exists and this flag is no
 ##### - Flags.SPFILELOG_QUERYONLY
 
 Open the log file for querying only.
-
-
-##### - Flags.SPFILELOG_SYSTEMLOG
-
-Use the system file log. The user must be an Administrator to specify this option unless SPFILELOG_QUERYONLY is specified and <i>LogFileName</i> is not specified. Do not specify SPFILELOG_SYSTEMLOG in combination with SPFILELOG_FORCENEW.
 
 
 ## -returns

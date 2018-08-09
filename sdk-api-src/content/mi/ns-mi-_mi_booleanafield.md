@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_booleanafield.htm
 old-project: wmi_v2
 ms.assetid: 4295dad6-ce19-4a75-993d-797f5b6cdca0
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_BooleanAField, MI_BooleanAField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_BooleanAField, mi/MI_BooleanAField, wmi._mi_booleanafield, wmi_v2.mi_booleanafield
 ms.prod: windows
 ms.technology: windows-sdk

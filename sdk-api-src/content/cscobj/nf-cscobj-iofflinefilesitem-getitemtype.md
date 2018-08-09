@@ -7,7 +7,7 @@ old-location: of\iofflinefilesitem_getitemtype.htm
 old-project: offlinefiles
 ms.assetid: 87fbf63a-d103-4c80-b6a7-60784c7350bc
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetItemType, GetItemType method [Offline Files], GetItemType method [Offline Files],IOfflineFilesItem interface, IOfflineFilesItem interface [Offline Files],GetItemType method, IOfflineFilesItem.GetItemType, IOfflineFilesItem::GetItemType, cscobj/IOfflineFilesItem::GetItemType, of.iofflinefilesitem_getitemtype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ Another way to determine an item's type is to query the item for one of the foll
 <a href="https://msdn.microsoft.com/53b9af4b-7526-4b54-bae2-61c97aa67ebf">IOfflineFilesFileItem</a>
 <a href="https://msdn.microsoft.com/724fabf6-fb27-49c9-8f99-dc61377ac921">IOfflineFilesServerItem</a>
 <a href="https://msdn.microsoft.com/aff6be4a-07bc-4a74-8fbf-92fe8985f5b6">IOfflineFilesShareItem</a>
-If the call to <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> succeeds, the item is of the requested type.  An item can be of only one of the above types.
+If the call to <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> succeeds, the item is of the requested type.  An item can be of only one of the above types.
 
 
 

@@ -4,10 +4,10 @@ title: SLInstallProofOfPurchase function
 author: windows-sdk-content
 description: Registers the product key with SL.
 old-location: security\slinstallproofofpurchase.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: ea9efcf0-5146-4ede-8ec3-dc8617e34156
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLInstallProofOfPurchase, SLInstallProofOfPurchase function [Security], security.slinstallproofofpurchase, slpublic/SLInstallProofOfPurchase
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLInstallProofOfPurchase function
@@ -93,14 +94,7 @@ Type: <b>PBYTE</b>
 A pointer to the product key specific data. If there is no PKey specific data, set <i>pbPKeySpecificData</i> to <b>NULL</b>.
 
 
-### -param pPkeyId
-
-TBD
-
-
-
-
-#### - pPKeyId [out]
+### -param pPkeyId [out]
 
 Type: <b>SLID*</b>
 

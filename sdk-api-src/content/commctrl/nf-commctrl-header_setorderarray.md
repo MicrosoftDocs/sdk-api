@@ -7,7 +7,7 @@ old-location: controls\Header_SetOrderArray.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setorderarray.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Header_SetOrderArray, Header_SetOrderArray macro [Windows Controls], _win32_Header_SetOrderArray, _win32_Header_SetOrderArray_cpp, commctrl/Header_SetOrderArray, controls.Header_SetOrderArray, controls._win32_Header_SetOrderArray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the left-to-right order of header items. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775369(v=VS.85).aspx">HDM_SETORDERARRAY</a> message explicitly. 
+Sets the left-to-right order of header items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775369(v=VS.85).aspx">HDM_SETORDERARRAY</a> message explicitly. 
 
 
 ## -parameters
@@ -60,39 +60,20 @@ Sets the left-to-right order of header items. You can use this macro or send the
 
 ### -param hwnd
 
-TBD
-
-
-### -param iCount
-
-TBD
-
-
-### -param lpi
-
-TBD
-
-
-
-
-
-
-#### - hwndHD
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a header control. 
 
 
-#### - iSize
+### -param iCount
 
 Type: <b>int</b>
 
 The size of the buffer at 
-					<i>lpiArray</i>, in elements. This value must equal the value returned by <a href="https://msdn.microsoft.com/library/Bb775337(v=VS.85).aspx">HDM_GETITEMCOUNT</a>. 
+					<i>lpiArray</i>, in elements. This value must equal the value returned by <a href="https://msdn.microsoft.com/en-us/library/Bb775337(v=VS.85).aspx">HDM_GETITEMCOUNT</a>. 
 
 
-#### - lpiArray
+### -param lpi
 
 Type: <b>int*</b>
 

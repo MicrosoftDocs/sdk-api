@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_CompositingMode.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\compositingmode.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: CompositingMode, CompositingMode enumeration [GDI+], CompositingModeSourceCopy, CompositingModeSourceOver, _gdiplus_ENUM_CompositingMode, gdiplus._gdiplus_ENUM_CompositingMode, gdiplusenums/CompositingMode, gdiplusenums/CompositingModeSourceCopy, gdiplusenums/CompositingModeSourceOver
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>CompositingMode</b> enumeration specifies how rendered colors are combined with background colors. This enumeration is used by the <a href="https://msdn.microsoft.com/library/ms535700(v=VS.85).aspx">Graphics::GetCompositingMode</a> and <a href="https://msdn.microsoft.com/library/ms535808(v=VS.85).aspx">Graphics::SetCompositingMode</a> methods of the 
+The <b>CompositingMode</b> enumeration specifies how rendered colors are combined with background colors. This enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/ms535700(v=VS.85).aspx">Graphics::GetCompositingMode</a> and <a href="https://msdn.microsoft.com/en-us/library/ms535808(v=VS.85).aspx">Graphics::SetCompositingMode</a> methods of the 
 			<b>Graphics</b> class.
 
 
@@ -75,15 +75,15 @@ Specifies that when a color is rendered, it overwrites the background color. Thi
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535700(v=VS.85).aspx">Graphics::GetCompositingMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535700(v=VS.85).aspx">Graphics::GetCompositingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535808(v=VS.85).aspx">Graphics::SetCompositingMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535808(v=VS.85).aspx">Graphics::SetCompositingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534404(v=VS.85).aspx">TextRenderingHint</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534404(v=VS.85).aspx">TextRenderingHint</a>
  
 
  

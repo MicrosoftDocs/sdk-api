@@ -7,7 +7,7 @@ old-location: security\auditquerysystempolicy_func.htm
 old-project: secauthz
 ms.assetid: 5c268033-65fd-4a74-90a1-4b9e1e18daf1
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AuditQuerySystemPolicy, AuditQuerySystemPolicy function [Security], ntsecapi/AuditQuerySystemPolicy, security.auditquerysystempolicy_func
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,9 +67,9 @@ The <b>AuditQuerySystemPolicy</b> function retrieves system audit policy for one
 A pointer to an array of <b>GUID</b> values that specify the subcategories for which to query audit policy. For a list of defined audit-policy subcategories, see <a href="https://msdn.microsoft.com/e3b12139-947d-4922-91fd-f9833c069011">Auditing Constants</a>.
 
 
-### -param dwPolicyCount
+### -param dwPolicyCount [in]
 
-TBD
+The number of elements in each of the <i>pSubCategoryGuids</i> and <i>ppAuditPolicy</i> arrays.
 
 
 ### -param ppAuditPolicy [out]
@@ -79,17 +79,11 @@ A pointer to a single buffer that contains both an array of pointers to <a href=
 When you have finished using this buffer, free it by calling the <a href="https://msdn.microsoft.com/697baf9b-91c4-4a88-a190-e9f6812e08af">AuditFree</a> function.
 
 
-#### - PolicyCount [in]
-
-The number of elements in each of the <i>pSubCategoryGuids</i> and <i>ppAuditPolicy</i> arrays.
-
-
 ## -returns
 
 
 
-
-						If the function succeeds, it returns <b>TRUE</b>.
+If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes defined in WinError.h.

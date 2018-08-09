@@ -7,7 +7,7 @@ old-location: mmc\is_special_dataobject.htm
 old-project: MMC
 ms.assetid: 63bc378a-b0ef-44d2-834a-f9fc4ab71e99
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: IS_SPECIAL_DATAOBJECT, IS_SPECIAL_DATAOBJECT macro [MMC], _slate_is_special_dataobject, mmc.is_special_dataobject, mmc/IS_SPECIAL_DATAOBJECT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: GDI+ 1.1
 The 
 <b>IS_SPECIAL_DATAOBJECT</b> macro determines whether an <b>LPDATAOBJECT</b> passed by MMC in a call to the snap-in's 
 Notify method is a special type of data object instead of a pointer to an actual 
-<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a> object.
+<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> object.
 
 
 ## -parameters

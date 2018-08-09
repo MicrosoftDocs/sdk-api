@@ -7,7 +7,7 @@ old-location: menurc\getmenustring.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenustring.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetMenuString, GetMenuString function [Menus and Other Resources], GetMenuStringA, GetMenuStringW, MF_BYCOMMAND, MF_BYPOSITION, _win32_GetMenuString, _win32_getmenustring_cpp, menurc.getmenustring, winui._win32_getmenustring, winuser/GetMenuString, winuser/GetMenuStringA, winuser/GetMenuStringW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,26 +86,14 @@ Type: <b>LPTSTR</b>
 The buffer that receives the null-terminated string. If the string is as long or longer than <i>lpString</i>, the string is truncated and the terminating null character is added. If <i>lpString</i> is <b>NULL</b>, the function returns the length of the menu string. 
 
 
-### -param cchMax
-
-TBD
-
-
-### -param flags
-
-TBD
-
-
-
-
-#### - nMaxCount [in]
+### -param cchMax [in]
 
 Type: <b>int</b>
 
 The maximum length, in characters, of the string to be copied. If the string is longer than the maximum specified in the <i>nMaxCount</i> parameter, the extra characters are truncated. If <i>nMaxCount</i> is 0, the function returns the length of the menu string. 
 
 
-#### - uFlag [in]
+### -param flags [in]
 
 Type: <b>UINT</b>
 

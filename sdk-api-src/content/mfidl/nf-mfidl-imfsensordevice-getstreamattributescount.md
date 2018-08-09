@@ -7,7 +7,7 @@ old-location: mf\imfsensordevice_getstreamattributescount.htm
 old-project: medfound
 ms.assetid: C6A0C4E6-7939-42C1-A499-7C92D83CB418
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetStreamAttributesCount, GetStreamAttributesCount method [Media Foundation], GetStreamAttributesCount method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetStreamAttributesCount method, IMFSensorDevice.GetStreamAttributesCount, IMFSensorDevice::GetStreamAttributesCount, mf.imfsensordevice_getstreamattributescount, mfidl/IMFSensorDevice::GetStreamAttributesCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ The number of stream attributes available for this sensor device.
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -92,8 +91,7 @@ The number of stream attributes available for this sensor device.
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -105,8 +103,7 @@ The number of stream attributes available for this sensor device.
 </dl>
 </td>
 <td width="60%">
-
-                The <i>pdwCount</i> parameter is null.
+The <i>pdwCount</i> parameter is null.
 
 </td>
 </tr>
@@ -117,8 +114,7 @@ The number of stream attributes available for this sensor device.
 </dl>
 </td>
 <td width="60%">
-
-                The sensor group has not been initialized.
+The sensor group has not been initialized.
 
 </td>
 </tr>

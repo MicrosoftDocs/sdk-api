@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_sosettargets.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_sosettargets.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],SOSetTargets method, ID3D10Device.SOSetTargets, ID3D10Device::SOSetTargets, SOSetTargets, SOSetTargets method [Direct3D 10], SOSetTargets method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::SOSetTargets, direct3d10.id3d10device_sosettargets, ff1f3d28-095a-2fa4-65ed-d7fd2370cc17
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Set the target output <a href="https://msdn.microsoft.com/library/windows/hardware/dn938497">buffers</a> for the <a href="https://msdn.microsoft.com/library/Bb205121(v=VS.85).aspx">StreamOutput</a> stage, which enables/disables the pipeline to stream-out data.
+Set the target output <a href="https://msdn.microsoft.com/library/windows/hardware/dn938497">buffers</a> for the <a href="https://msdn.microsoft.com/en-us/library/Bb205121(v=VS.85).aspx">StreamOutput</a> stage, which enables/disables the pipeline to stream-out data.
 
 
 ## -parameters
@@ -68,9 +68,9 @@ The number of buffer to bind to the device. A maximum of four output buffers can
 
 ### -param ppSOTargets [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173510(v=VS.85).aspx">ID3D10Buffer</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173510(v=VS.85).aspx">ID3D10Buffer</a>*</b>
 
-The array of output buffers (see <a href="https://msdn.microsoft.com/library/Bb173510(v=VS.85).aspx">ID3D10Buffer</a>) to bind to the device. The buffers must have been created with the <a href="https://msdn.microsoft.com/library/Bb204891(v=VS.85).aspx">D3D10_BIND_STREAM_OUTPUT</a> flag.
+The array of output buffers (see <a href="https://msdn.microsoft.com/en-us/library/Bb173510(v=VS.85).aspx">ID3D10Buffer</a>) to bind to the device. The buffers must have been created with the <a href="https://msdn.microsoft.com/en-us/library/Bb204891(v=VS.85).aspx">D3D10_BIND_STREAM_OUTPUT</a> flag.
 
 
 ### -param pOffsets [in]
@@ -99,7 +99,7 @@ An offset of -1 will cause the stream output buffer to be appended, continuing a
 
 Calling this method using a buffer that is currently bound for writing will effectively bind <b>NULL</b> instead because a buffer cannot be bound as both an input and an output at the same time.
 
-The <a href="https://msdn.microsoft.com/library/Bb205068(v=VS.85).aspx">Debug Layer</a> will generate a warning whenever a resource is prevented from being bound simultaneously as an input and an output, but this will not prevent invalid data from being used by the runtime.
+The <a href="https://msdn.microsoft.com/en-us/library/Bb205068(v=VS.85).aspx">Debug Layer</a> will generate a warning whenever a resource is prevented from being bound simultaneously as an input and an output, but this will not prevent invalid data from being used by the runtime.
 
 The method will not hold a reference to the interfaces passed in. For that reason, applications should be careful not to release an interface currently in use by the device.
 
@@ -111,7 +111,7 @@ The method will not hold a reference to the interfaces passed in. For that reaso
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

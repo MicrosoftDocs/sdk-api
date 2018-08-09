@@ -7,7 +7,7 @@ old-location: dfs\dfs_info_5.htm
 old-project: dfs
 ms.assetid: bd68d7bf-94e1-41f9-84e9-e58ab34378a1
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDFS_INFO_5, *PDFS_INFO_5, DFS_INFO_5, DFS_INFO_5 structure [Distributed File System], DFS_PROPERTY_FLAG_ABDE, DFS_PROPERTY_FLAG_CLUSTER_ENABLED, DFS_PROPERTY_FLAG_INSITE_REFERRALS, DFS_PROPERTY_FLAG_ROOT_SCALABILITY, DFS_PROPERTY_FLAG_SITE_COSTING, DFS_PROPERTY_FLAG_TARGET_FAILBACK, DFS_VOLUME_FLAVOR_AD_BLOB, DFS_VOLUME_FLAVOR_STANDALONE, DFS_VOLUME_STATE_INCONSISTENT, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, LPDFS_INFO_5, LPDFS_INFO_5 structure pointer [Distributed File System], PDFS_INFO_5, PDFS_INFO_5 structure pointer [Distributed File System], _DFS_INFO_5, dfs.dfs_info_5, fs.dfs_info_5, lmdfs/DFS_INFO_5, lmdfs/LPDFS_INFO_5, lmdfs/PDFS_INFO_5, netmgmt.dfs_info_5"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-    Contains information about a Distributed File System (DFS) root or link. This structure contains the 
+Contains information about a Distributed File System (DFS) root or link. This structure contains the 
     name, status, <b>GUID</b>, time-out, namespace/root/link properties, metadata size, and number of targets for the root or 
     link. This structure is only for use with the <a href="https://msdn.microsoft.com/c05a8d78-41f4-4c19-a25e-ef4885869584">NetDfsEnum</a>, 
     <a href="https://msdn.microsoft.com/065ec002-cb90-4d78-a70c-6ac37f71994f">NetDfsGetClientInfo</a>, and 

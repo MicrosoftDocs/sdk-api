@@ -7,7 +7,7 @@ old-location: properties\ClearVariantArray.htm
 old-project: properties
 ms.assetid: 8126392e-d86c-420c-9f0d-ca7cb97030b0
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: ClearVariantArray, ClearVariantArray function [Windows Properties], _shell_ClearVariantArray, properties.ClearVariantArray, propvarutil/ClearVariantArray, shell.ClearVariantArray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,7 @@ Type: <b>VARIANT*</b>
 Array of <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structures to free.
 
 
-### -param cvars
-
-TBD
-
-
-
-
-#### - cVars [in]
+### -param cvars [in]
 
 Type: <b>UINT</b>
 
@@ -98,7 +91,7 @@ This function releases the memory and references held by each structure in the a
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762284(v=VS.85).aspx">ClearVariantArray</a>
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.ClearVariantArray">ClearVariantArray</a>
 
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -122,11 +115,11 @@ ClearVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762283(v=VS.85).aspx">ClearPropVariantArray</a>
+<a href="shell.ClearPropVariantArray">ClearPropVariantArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762285(v=VS.85).aspx">FreePropVariantArray</a>
+<a href="shell.FreePropVariantArray">FreePropVariantArray</a>
  
 
  

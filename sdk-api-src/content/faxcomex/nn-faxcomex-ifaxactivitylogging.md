@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxactivitylogging_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0odj_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxActivityLogging, IFaxActivityLogging interface [Fax Service], IFaxActivityLogging interface [Fax Service],described, _mfax_faxactivitylogging_cpp, fax._mfax_faxactivitylogging_cpp, faxcomex/IFaxActivityLogging
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The <b>IFaxActivityLogging</b> interface defines a configuration object used by 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxActivityLogging</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxActivityLogging</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxActivityLogging</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxActivityLogging</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -75,7 +75,7 @@ The <b>IFaxActivityLogging</b> interface has these methods.
 <a href="https://msdn.microsoft.com/en-us/library/ms684842(v=VS.85).aspx">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684842(v=VS.85).aspx">IFaxActivityLogging::Refresh</a> method refreshes <a href="https://msdn.microsoft.com/library/ms684576(v=VS.85).aspx">FaxActivityLogging</a> object information from the fax server.
+The <a href="https://msdn.microsoft.com/en-us/library/ms684842(v=VS.85).aspx">IFaxActivityLogging::Refresh</a> method refreshes <a href="https://msdn.microsoft.com/en-us/library/ms684576(v=VS.85).aspx">FaxActivityLogging</a> object information from the fax server.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms684842(v=VS.85).aspx">IF
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms685941(v=VS.85).aspx">IFaxActivityLogging::Save</a> method saves the <a href="https://msdn.microsoft.com/library/ms684576(v=VS.85).aspx">FaxActivityLogging</a> object's data.
+The <a href="https://msdn.microsoft.com/en-us/library/ms685941(v=VS.85).aspx">IFaxActivityLogging::Save</a> method saves the <a href="https://msdn.microsoft.com/en-us/library/ms684576(v=VS.85).aspx">FaxActivityLogging</a> object's data.
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686497(v=VS.85).aspx">IF
 
 
 
-A default implementation of <b>IFaxActivityLogging</b> is provided as the <a href="https://msdn.microsoft.com/library/ms684576(v=VS.85).aspx">FaxActivityLogging</a> object.
+A default implementation of <b>IFaxActivityLogging</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms684576(v=VS.85).aspx">FaxActivityLogging</a> object.
 
 
 

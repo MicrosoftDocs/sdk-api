@@ -7,7 +7,7 @@ old-location: iphlp\getownermodulefromtcpentry.htm
 old-project: iphlp
 ms.assetid: 12162f0a-56c1-4f81-a1f5-3cd5ad975d0d
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: GetOwnerModuleFromTcpEntry, GetOwnerModuleFromTcpEntry function [IP Helper], iphlp.getownermodulefromtcpentry, iphlpapi/GetOwnerModuleFromTcpEntry
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,17 +71,7 @@ A pointer to a <a href="https://msdn.microsoft.com/5fc1e95a-4ab1-4a15-aedc-47cfd
  This parameter must be set to <b>TCPIP_OWNER_MODULE_INFO_BASIC</b>.
 
 
-### -param pBuffer
-
-TBD
-
-
-### -param pdwSize [in, out]
-
-The estimated size, in  bytes, of the structure returned in <i>Buffer</i>. If this value is set too small, <b>ERROR_INSUFFICIENT_BUFFER</b> is returned by this function, and this field will contain the correct size of the buffer. The size required is the size of the corresponding structure plus an additional number of bytes equal to the length of data pointed to in the structure (for example, the name and path strings).
-
-
-#### - Buffer [out]
+### -param pBuffer [out]
 
 A pointer a buffer that contains a <a href="https://msdn.microsoft.com/cce3e0ff-31f2-454b-8aae-3b35f72f47ed">TCPIP_OWNER_MODULE_BASIC_INFO</a> structure with the owner module data. The type of data returned in this buffer is indicated by the value of the <i>Class</i> parameter. 
 
@@ -100,6 +90,11 @@ The following structures are used for the data in <i>Buffer</i> when  <i>Class</
 </tr>
 </table>
  
+
+
+### -param pdwSize [in, out]
+
+The estimated size, in  bytes, of the structure returned in <i>Buffer</i>. If this value is set too small, <b>ERROR_INSUFFICIENT_BUFFER</b> is returned by this function, and this field will contain the correct size of the buffer. The size required is the size of the corresponding structure plus an additional number of bytes equal to the length of data pointed to in the structure (for example, the name and path strings).
 
 
 ## -returns

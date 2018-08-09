@@ -7,7 +7,7 @@ old-location: automat\varr8fromdate.htm
 old-project: automat
 ms.assetid: 20d5e917-e350-43da-8fce-e76ab95b90f7
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarR8FromDate, VarR8FromDate function [Automation], _oa96_VarR8FromDate, automat.varr8fromdate, oleauto/VarR8FromDate
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: display\dxgettransferstatus.htm
 old-project: display
 ms.assetid: e33ec8f0-2d1c-42cf-8b82-8f316f52e2a8
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: DxGetTransferStatus, DxGetTransferStatus callback function [Display Devices], PDX_GETTRANSFERSTATUS, PDX_GETTRANSFERSTATUS callback, VideoMiniPort_DxApiFunctions_f0260ee6-8e6c-4ab0-bad3-8d5c2ce42488.xml, display.dxgettransferstatus, dxmini/DxGetTransferStatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: DXGI_FORMAT
+req.typenames: D3DCOLORVALUE
 topic_type:
  - APIRef
  - kbSyntax
@@ -74,11 +74,6 @@ The<i> DxGetTransferStatus</i> callback function is used by DirectDraw to determ
 
 
 
-#### - GetTransferOutInfo
-
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549521">DDGETTRANSFERSTATUSOUTINFO</a> structure that contains the transfer status information.
-
-
 #### - HwDeviceExtension
 
 Points to the miniport driver's device extension.
@@ -87,6 +82,11 @@ Points to the miniport driver's device extension.
 #### - lpInput
 
 Reserved for system use. 
+
+
+#### - GetTransferOutInfo
+
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549521">DDGETTRANSFERSTATUSOUTINFO</a> structure that contains the transfer status information.
 
 
 ## -returns

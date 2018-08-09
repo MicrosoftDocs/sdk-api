@@ -7,7 +7,7 @@ old-location: winprog\unsignedmultiplyextract128.htm
 old-project: winprog
 ms.assetid: 93a2550d-b95a-4206-95a6-3412d9b38f37
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: UnsignedMultiplyExtract128, UnsignedMultiplyExtract128 function [Windows API], winnt/UnsignedMultiplyExtract128, winprog.unsignedmultiplyextract128
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: menurc\getmenuiteminfo.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenuiteminfo.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetMenuItemInfo, GetMenuItemInfo function [Menus and Other Resources], GetMenuItemInfoA, GetMenuItemInfoW, _win32_GetMenuItemInfo, _win32_getmenuiteminfo_cpp, menurc.getmenuiteminfo, winui._win32_getmenuiteminfo, winuser/GetMenuItemInfo, winuser/GetMenuItemInfoA, winuser/GetMenuItemInfoW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,18 @@ Retrieves information about a menu item.
 
 
 
-### -param hmenu
+### -param hmenu [in]
 
-TBD
+Type: <b>HMENU</b>
+
+A handle to the menu that contains the menu item. 
 
 
-### -param item
+### -param item [in]
 
-TBD
+Type: <b>UINT</b>
+
+The identifier or position of the menu item to get information about. The meaning of this parameter depends on the value of <i>fByPosition</i>. 
 
 
 ### -param fByPosition [in]
@@ -87,20 +91,6 @@ The meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is 
 Type: <b>LPMENUITEMINFO</b>
 
 A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms647578(v=VS.85).aspx">MENUITEMINFO</a> structure that specifies the information to retrieve and receives information about the menu item. Note that you must set the <b>cbSize</b> member to <code>sizeof(MENUITEMINFO)</code> before calling this function. 
-
-
-#### - hMenu [in]
-
-Type: <b>HMENU</b>
-
-A handle to the menu that contains the menu item. 
-
-
-#### - uItem [in]
-
-Type: <b>UINT</b>
-
-The identifier or position of the menu item to get information about. The meaning of this parameter depends on the value of <i>fByPosition</i>. 
 
 
 ## -returns

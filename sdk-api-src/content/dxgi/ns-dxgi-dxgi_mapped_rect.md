@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_mapped_rect.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_mapped_rect.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/30/2018
 ms.keywords: 44004772-851a-9ebf-10ab-60178c7e35c5, DXGI_MAPPED_RECT, DXGI_MAPPED_RECT structure [DXGI], direct3ddxgi.dxgi_mapped_rect, dxgi/DXGI_MAPPED_RECT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ A pointer to the image buffer of the surface.
 
 
 
-The <b>DXGI_MAPPED_RECT</b> structure is initialized by the <a href="https://msdn.microsoft.com/library/Bb174567(v=VS.85).aspx">IDXGISurface::Map</a> method.
+The <b>DXGI_MAPPED_RECT</b> structure is initialized by the <a href="https://msdn.microsoft.com/en-us/library/Bb174567(v=VS.85).aspx">IDXGISurface::Map</a> method.
 
 
 

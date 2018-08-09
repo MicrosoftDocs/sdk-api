@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxroutingmethods_get_count.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0lis.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxRoutingMethods interface [Fax Service],get_Count method, IFaxRoutingMethods.get_Count, IFaxRoutingMethods::get_Count, _mfax_ifaxroutingmethods_get_count, fax._mfax_ifaxroutingmethods_get_count, faxcom/IFaxRoutingMethods::get_Count, get_Count, get_Count method [Fax Service], get_Count method [Fax Service],IFaxRoutingMethods interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxRoutingMethods::get_Count</b> returns the number of fax routing methods associated with a <a href="https://msdn.microsoft.com/library/ms691338(v=VS.85).aspx">FaxPort</a> object.
+The <b>IFaxRoutingMethods::get_Count</b> returns the number of fax routing methods associated with a <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-After calling the <b>IFaxRoutingMethods::get_Count</b> method, a fax client application can call the <a href="https://msdn.microsoft.com/library/ms692331(v=VS.85).aspx">IFaxRoutingMethods::get_Item</a> method to retrieve interface pointers to one or more <a href="https://msdn.microsoft.com/library/ms691842(v=VS.85).aspx">FaxRoutingMethod</a> objects.
+After calling the <b>IFaxRoutingMethods::get_Count</b> method, a fax client application can call the <a href="https://msdn.microsoft.com/en-us/library/ms692331(v=VS.85).aspx">IFaxRoutingMethods::get_Item</a> method to retrieve interface pointers to one or more <a href="https://msdn.microsoft.com/en-us/library/ms691842(v=VS.85).aspx">FaxRoutingMethod</a> objects.
 
 
 
@@ -91,27 +91,27 @@ After calling the <b>IFaxRoutingMethods::get_Count</b> method, a fax client appl
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691943(v=VS.85).aspx">GetRoutingMethods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691943(v=VS.85).aspx">GetRoutingMethods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691856(v=VS.85).aspx">IFaxRoutingMethod</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691856(v=VS.85).aspx">IFaxRoutingMethod</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692291(v=VS.85).aspx">IFaxRoutingMethods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692291(v=VS.85).aspx">IFaxRoutingMethods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692331(v=VS.85).aspx">IFaxRoutingMethods::get_Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692331(v=VS.85).aspx">IFaxRoutingMethods::get_Item</a>
  
 
  

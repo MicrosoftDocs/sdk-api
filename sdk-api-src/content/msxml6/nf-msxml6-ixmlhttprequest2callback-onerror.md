@@ -7,7 +7,7 @@ old-location: ixhr2\ixmlhttprequest2callback_onerror.htm
 old-project: ixhr2
 ms.assetid: 532C97A7-B952-47BE-A9C7-5B1E5AB4C3D3
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnError method, IXMLHTTPRequest2Callback.OnError, IXMLHTTPRequest2Callback::OnError, OnError, OnError method [XMLHttpRequest2], OnError method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onerror, msxml6/IXMLHTTPRequest2Callback::OnError
 ms.prod: windows
 ms.technology: windows-sdk

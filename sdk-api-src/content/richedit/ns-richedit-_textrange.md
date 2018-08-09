@@ -7,7 +7,7 @@ old-location: controls\TEXTRANGE.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\textrange.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TEXTRANGE, TEXTRANGE structure [Windows Controls], TEXTRANGEA, TEXTRANGEW, _textrange, _win32_TEXTRANGE_str, _win32_TEXTRANGE_str_cpp, controls.TEXTRANGE, controls._win32_TEXTRANGE_str, richedit/TEXTRANGE, richedit/TEXTRANGEA, richedit/TEXTRANGEW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: ADAM
 ## -description
 
 
-A range of text from a rich edit control. This structure is filled in by the <a href="https://msdn.microsoft.com/library/Bb774199(v=VS.85).aspx">EM_GETTEXTRANGE</a> message. The buffer pointed to by the <b>lpstrText</b> member must be large enough to receive all characters and the terminating null character.
+A range of text from a rich edit control. This structure is filled in by the <a href="https://msdn.microsoft.com/en-us/library/Bb774199(v=VS.85).aspx">EM_GETTEXTRANGE</a> message. The buffer pointed to by the <b>lpstrText</b> member must be large enough to receive all characters and the terminating null character.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ A range of text from a rich edit control. This structure is filled in by the <a 
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb787885(v=VS.85).aspx">CHARRANGE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a></b>
 
 The range of characters to retrieve. 
 
@@ -80,11 +80,11 @@ The text.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774199(v=VS.85).aspx">EM_GETTEXTRANGE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774199(v=VS.85).aspx">EM_GETTEXTRANGE</a>
 
 
 

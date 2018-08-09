@@ -7,7 +7,7 @@ old-location: devinst\dma_des.htm
 old-project: devinst
 ms.assetid: e357132d-ba40-4c14-813c-505aadc94a26
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: "*PDMA_DES, DMA_DES, DMA_DES structure [Device and Driver Installation], DMA_Des_s, PDMA_DES, PDMA_DES structure pointer [Device and Driver Installation], cfgmgr32/DMA_DES, cfgmgr32/PDMA_DES, cfgmgrst_342a3feb-d7c8-46bb-8672-009f024374d7.xml, devinst.dma_des"
 ms.prod: windows
 ms.technology: windows-sdk

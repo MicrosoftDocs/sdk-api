@@ -4,10 +4,10 @@ title: HttpQueryInfoA function
 author: windows-sdk-content
 description: Retrieves header information associated with an HTTP request.
 old-location: wininet\httpqueryinfo.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: 5747ce19-5004-4eea-abe9-dd00abac1b3b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: HttpQueryInfo, HttpQueryInfo function [WinINet], HttpQueryInfoA, HttpQueryInfoW, _inet_httpqueryinfo_function, wininet.httpqueryinfo, wininet/HttpQueryInfo, wininet/HttpQueryInfoA, wininet/HttpQueryInfoW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,9 +74,9 @@ A combination of an attribute to be retrieved and flags that modify the request.
 <a href="https://msdn.microsoft.com/b1613193-ae03-411e-bf05-de42f471cd8c">Query Info Flags</a>.
 
 
-### -param lpBuffer
+### -param lpBuffer [in, out]
 
-TBD
+A pointer to a buffer to receive the requested information. This parameter must not be <b>NULL</b>.
 
 
 ### -param lpdwBufferLength [in, out]
@@ -92,11 +92,6 @@ When the function
 ### -param lpdwIndex [in, out]
 
 A pointer to a zero-based header index used to enumerate multiple headers with the same name. When calling the function, this parameter is the index of the specified header to return. When the function returns, this parameter is the index of the next header. If the next index cannot be found, <b>ERROR_HTTP_HEADER_NOT_FOUND</b> is returned.
-
-
-#### - lpvBuffer [in, out]
-
-A pointer to a buffer to receive the requested information. This parameter must not be <b>NULL</b>.
 
 
 ## -returns

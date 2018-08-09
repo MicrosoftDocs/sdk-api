@@ -7,7 +7,7 @@ old-location: gdi\setwindoworgex.htm
 old-project: gdi
 ms.assetid: 75409b5a-c003-49f2-aceb-a28330b92b0a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetWindowOrgEx, SetWindowOrgEx function [Windows GDI], _win32_SetWindowOrgEx, gdi.setwindoworgex, wingdi/SetWindowOrgEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,34 +68,17 @@ The <b>SetWindowOrgEx</b> function specifies which window point maps to the view
 A handle to the device context.
 
 
-### -param x
-
-TBD
-
-
-### -param y
-
-TBD
-
-
-### -param lppt
-
-TBD
-
-
-
-
-#### - X [in]
+### -param x [in]
 
 The x-coordinate, in logical units, of the new window origin.
 
 
-#### - Y [in]
+### -param y [in]
 
 The y-coordinate, in logical units, of the new window origin.
 
 
-#### - lpPoint [out]
+### -param lppt [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that receives the previous origin of the window, in logical units. If <i>lpPoint</i> is <b>NULL</b>, this parameter is not used.
 

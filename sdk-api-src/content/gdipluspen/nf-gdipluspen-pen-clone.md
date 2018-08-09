@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_Clone_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\clone_85.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Pen class, Pen class [GDI+],Clone method, Pen.Clone, Pen::Clone, _gdiplus_CLASS_Pen_Clone_, gdiplus._gdiplus_CLASS_Pen_Clone_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Pen::Clone</b> method copies a 
-			<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object. 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object. 
 
 
 ## -parameters
@@ -66,10 +66,10 @@ The <b>Pen::Clone</b> method copies a
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a>*</b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>*</b>
 </strong>
 
-This method returns a pointer to the new <a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object.
+This method returns a pointer to the new <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object.
 
 
 
@@ -79,19 +79,19 @@ This method returns a pointer to the new <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535015(v=VS.85).aspx">Pen Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535015(v=VS.85).aspx">Pen Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
  
 
  

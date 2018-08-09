@@ -7,7 +7,7 @@ old-location: tablet\inkstrokes_scaletransform.htm
 old-project: tablet
 ms.assetid: d7b69554-69e3-4a45-9313-16a3529863e9
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IInkStrokes interface [Tablet PC],ScaleTransform method, IInkStrokes.ScaleTransform, IInkStrokes::ScaleTransform, ScaleTransform, ScaleTransform method [Tablet PC], ScaleTransform method [Tablet PC],IInkStrokes interface, a4140abe-adc8-492d-bb8c-96fba5ca3bd0, msinkaut/IInkStrokes::ScaleTransform, tablet.inkstrokes_scaletransform
 ms.prod: windows
 ms.technology: windows-sdk

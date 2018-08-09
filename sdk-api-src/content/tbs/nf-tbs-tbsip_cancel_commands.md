@@ -4,10 +4,10 @@ title: Tbsip_Cancel_Commands function
 author: windows-sdk-content
 description: Cancels all outstanding commands for the specified context.
 old-location: tbs\_tbsip_cancel_commands.htm
-old-project: TBS
+old-project: tbs
 ms.assetid: aaf209cb-2250-4c23-900f-9026d2f44e24
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Tbsip_Cancel_Commands, Tbsip_Cancel_Commands function [TBS], tbs._tbsip_cancel_commands, tbs/Tbsip_Cancel_Commands
 ms.prod: windows
 ms.technology: windows-sdk

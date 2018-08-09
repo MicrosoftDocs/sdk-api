@@ -7,7 +7,7 @@ old-location: mf\imfactivate_activateobject.htm
 old-project: medfound
 ms.assetid: 120b8070-6732-450d-8334-b3910f7bb4d2
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 120b8070-6732-450d-8334-b3910f7bb4d2, ActivateObject, ActivateObject method [Media Foundation], ActivateObject method [Media Foundation],IMFActivate interface, IMFActivate interface [Media Foundation],ActivateObject method, IMFActivate.ActivateObject, IMFActivate::ActivateObject, mf.imfactivate_activateobject, mfobjects/IMFActivate::ActivateObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Creates the object associated with this activation object.
+Creates the object associated with this activation object.
         
 
 
@@ -64,15 +63,13 @@ req.product: GDI+ 1.1
 
 ### -param riid [in]
 
-
-            Interface identifier (IID) of the requested interface.
+Interface identifier (IID) of the requested interface.
           
 
 
 ### -param ppv [out]
 
-
-            Receives a pointer to the requested interface. The caller must release the interface.
+Receives a pointer to the requested interface. The caller must release the interface.
           
 
 
@@ -102,8 +99,7 @@ Some Microsoft Media Foundation objects must be shut down before being released.
 </ul>
 The <a href="https://msdn.microsoft.com/1f88ff31-5a91-4838-bfce-673a5a85c766">IMFActivate::ShutdownObject</a> method is generic to all object types. If the object does not require a shutdown method, <b>ShutdownObject</b> succeeds and has no effect. If you do not know the specific shutdown method for the object (or do not know the object type), call <b>IMFActivate::ShutdownObject</b>.
 
-
-        After the first call to <b>ActivateObject</b>, subsequent calls return a pointer to the same instance, until the client calls either <a href="https://msdn.microsoft.com/1f88ff31-5a91-4838-bfce-673a5a85c766">ShutdownObject</a> or <a href="https://msdn.microsoft.com/15216c57-f85d-4087-ad52-d35059647828">IMFActivate::DetachObject</a>.
+After the first call to <b>ActivateObject</b>, subsequent calls return a pointer to the same instance, until the client calls either <a href="https://msdn.microsoft.com/1f88ff31-5a91-4838-bfce-673a5a85c766">ShutdownObject</a> or <a href="https://msdn.microsoft.com/15216c57-f85d-4087-ad52-d35059647828">IMFActivate::DetachObject</a>.
       
 
 

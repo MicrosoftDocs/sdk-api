@@ -7,7 +7,7 @@ old-location: controls\NMPGCALCSIZE.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\pager\structures\nmpgcalcsize.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPNMPGCALCSIZE, LPNMPGCALCSIZE, LPNMPGCALCSIZE structure pointer [Windows Controls], NMPGCALCSIZE, NMPGCALCSIZE structure [Windows Controls], PGF_CALCHEIGHT, PGF_CALCWIDTH, _win32_NMPGCALCSIZE, _win32_NMPGCALCSIZE_cpp, commctrl/LPNMPGCALCSIZE, commctrl/NMPGCALCSIZE, controls.NMPGCALCSIZE, controls._win32_NMPGCALCSIZE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains and receives information that the pager control uses to calculate the scrollable area of the contained window. It is used with the <a href="https://msdn.microsoft.com/library/Bb760864(v=VS.85).aspx">PGN_CALCSIZE</a> notification. 
+Contains and receives information that the pager control uses to calculate the scrollable area of the contained window. It is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb760864(v=VS.85).aspx">PGN_CALCSIZE</a> notification. 
 
 
 ## -struct-fields
@@ -60,10 +60,10 @@ Contains and receives information that the pager control uses to calculate the s
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification. 
 
 
 ### -field dwFlag

@@ -7,7 +7,7 @@ old-location: automat\icreatetypelib_sethelpcontext.htm
 old-project: automat
 ms.assetid: 58d7cd77-cfb6-493e-a9fd-26f469eec9f0
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetHelpContext method, ICreateTypeLib.SetHelpContext, ICreateTypeLib::SetHelpContext, SetHelpContext, SetHelpContext method [Automation], SetHelpContext method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetHelpContext, automat.icreatetypelib_sethelpcontext, oaidl/ICreateTypeLib::SetHelpContext
 ms.prod: windows
 ms.technology: windows-sdk

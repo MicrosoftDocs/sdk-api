@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromStream_stream_useEmbeddedColorMa
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\fromstream.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Bitmap class [GDI+],FromStream method, Bitmap.FromStream, Bitmap::FromStream, FromStream, FromStream method [GDI+], FromStream method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_FromStream_stream_useEmbeddedColorManagement_, gdiplus._gdiplus_CLASS_Bitmap_FromStream_stream_useEmbeddedColorManagement_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,14 +62,14 @@ The <b>Bitmap::FromStream</b> method creates a
 
 ### -param stream [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx">IStream</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a>*</b>
 
 Pointer to an 
-					<a href="https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx">IStream</a>COMCOM interface. The implementation of 
+					<a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a>COMCOM interface. The implementation of 
 					IStream must include the 
-					<a href="https://msdn.microsoft.com/library/Aa380043(v=VS.85).aspx">IStream::Seek</a>, 
+					<a href="https://msdn.microsoft.com/en-us/library/Aa380043(v=VS.85).aspx">IStream::Seek</a>, 
 					<b>Read</b>, and 
-					<a href="https://msdn.microsoft.com/library/Aa380045(v=VS.85).aspx">IStream::Stat</a> methods. 
+					<a href="https://msdn.microsoft.com/en-us/library/Aa380045(v=VS.85).aspx">IStream::Stat</a> methods. 
 
 
 ### -param useEmbeddedColorManagement [in]
@@ -102,15 +102,15 @@ This method returns a pointer to the new
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536335(v=VS.85).aspx">Images, Bitmaps, and Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536335(v=VS.85).aspx">Images, Bitmaps, and Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533815(v=VS.85).aspx">Using Images, Bitmaps, and Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533815(v=VS.85).aspx">Using Images, Bitmaps, and Metafiles</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: rras\rtmaddroutetodest.htm
 old-project: rras
 ms.assetid: 422beb9b-b7e8-446f-8294-9f87a9f66f7a
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RTM_ROUTE_CHANGE_BEST, RTM_ROUTE_CHANGE_FIRST, RTM_ROUTE_CHANGE_NEW, RtmAddRouteToDest, RtmAddRouteToDest function [RAS], _rtmv2ref_rtmaddroutetodest, rras.rtmaddroutetodest, rtmv2/RtmAddRouteToDest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -139,11 +139,6 @@ Returned by the routing table manager to indicate that the route that was added 
  
 
 
-#### - NotifyHandle [in]
-
-Set this parameter to <b>NULL</b>. This parameter is reserved for future use.
-
-
 #### - RouteHandle [in, out]
 
 If the client has a handle (updating a route): On input, <i>RouteHandle</i> is a pointer to the route handle. On output, <i>RouteHandle</i> is unchanged. 
@@ -159,6 +154,11 @@ If a handle does not need to be returned (client is adding or updating a route):
 #### - RouteListHandle [in]
 
 Handle to a route list to which to move the route. This parameter is optional and can be set to <b>NULL</b>.
+
+
+#### - NotifyHandle [in]
+
+Set this parameter to <b>NULL</b>. This parameter is reserved for future use.
 
 
 ## -returns

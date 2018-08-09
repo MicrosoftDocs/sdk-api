@@ -4,10 +4,10 @@ title: WTSEnumerateProcessesExW function
 author: windows-sdk-content
 description: Retrieves information about the active processes on the specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
 old-location: termserv\wtsenumerateprocessesex.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: bc8a2550-cf89-4203-b96b-c750c0dff255
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WTSEnumerateProcessesEx, WTSEnumerateProcessesEx function [Remote Desktop Services], WTSEnumerateProcessesExA, WTSEnumerateProcessesExW, termserv.wtsenumerateprocessesex, wtsapi32/WTSEnumerateProcessesEx, wtsapi32/WTSEnumerateProcessesExA, wtsapi32/WTSEnumerateProcessesExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,9 +78,9 @@ A pointer to a <b>DWORD</b> variable that, on input, specifies the type of infor
 If you do not specify a valid value for this parameter, on output, <b>WTSEnumerateProcessesEx</b> sets this parameter to one and returns an error. Otherwise, on output, <b>WTSEnumerateProcessesEx</b> does not change the value of this parameter.
 
 
-### -param SessionId
+### -param SessionId [in]
 
-TBD
+The session  for which to enumerate processes. To enumerate processes for all sessions on the server,  specify <b>WTS_ANY_SESSION</b>.
 
 
 ### -param ppProcessInfo [out]
@@ -94,11 +94,6 @@ A pointer to a variable that receives a pointer to an array of
 
 A pointer to a variable that receives the number of  
       structures returned in the buffer referenced by the <i>ppProcessInfo</i> parameter.
-
-
-#### - SessionID [in]
-
-The session  for which to enumerate processes. To enumerate processes for all sessions on the server,  specify <b>WTS_ANY_SESSION</b>.
 
 
 ## -returns

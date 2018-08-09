@@ -7,7 +7,7 @@ old-location: rras\rasdeletesubentry.htm
 old-project: rras
 ms.assetid: c423d0cc-7275-4703-abee-4eada625d956
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RasDeleteSubEntry, RasDeleteSubEntry function [RAS], RasDeleteSubEntryA, RasDeleteSubEntryW, _ras_rasdeletesubentry, ras/RasDeleteSubEntry, ras/RasDeleteSubEntryA, ras/RasDeleteSubEntryW, rras.rasdeletesubentry
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,29 +62,26 @@ The
 
 
 
-### -param pszPhonebook
+### -param pszPhonebook [in]
 
-TBD
-
-
-### -param pszEntry
-
-TBD
+Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file.
 
 
-#### - dwSubEntryId [in]
-
-Specifies the one-based index of the subentry.
-
-
-#### - lpszEntry [in]
+### -param pszEntry [in]
 
 Pointer to a <b>null</b>-terminated string that contains the name of an existing entry from which a subentry is to be deleted.
 
 
-#### - lpszPhonebook [in]
+### -param dwSubEntryId
 
-Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file.
+TBD
+
+
+
+
+#### - dwSubentryId [in]
+
+Specifies the one-based index of the subentry.
 
 
 ## -returns

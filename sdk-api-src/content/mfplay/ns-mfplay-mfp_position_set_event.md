@@ -7,7 +7,7 @@ old-location: mf\mfp_position_set_event.htm
 old-project: medfound
 ms.assetid: 5a40f12b-c463-4c07-b062-411c0701254f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFP_POSITION_SET_EVENT, MFP_POSITION_SET_EVENT structure [Media Foundation], mf.mfp_position_set_event, mfplay/MFP_POSITION_SET_EVENT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,8 +79,7 @@ Pointer to the <a href="https://msdn.microsoft.com/2839d256-bdaf-40cf-9f9d-46f9e
 
 
 
-To get a pointer to this structure, cast the <i>pEventHeader</i>
-parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  method.  You can use the <a href="https://msdn.microsoft.com/e9b692e6-7b7c-45ac-bbaa-7060578f9403">MFP_GET_POSITION_SET_EVENT</a> macro for this purpose.
+To get a pointer to this structure, cast the <i>pEventHeader</i>parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  method.  You can use the <a href="https://msdn.microsoft.com/e9b692e6-7b7c-45ac-bbaa-7060578f9403">MFP_GET_POSITION_SET_EVENT</a> macro for this purpose.
 
 
 

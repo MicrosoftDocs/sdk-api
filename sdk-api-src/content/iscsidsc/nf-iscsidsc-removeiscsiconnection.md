@@ -7,7 +7,7 @@ old-location: iscsidisc\removeiscsiconnection.htm
 old-project: iSCSIDisc
 ms.assetid: 1d34348a-b16a-4420-88e1-092e3f521ea5
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: RemoveIScsiConnection, RemoveIscsiConnection, RemoveIscsiConnection function [iSCSI Discovery Library API], iscsidisc.removeiscsiconnection, iscsidsc/RemoveIscsiConnection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,7 @@ The <b>RemoveIscsiConnection</b> function removes a connection from an active se
 A pointer to a structure of type <a href="https://msdn.microsoft.com/d13975f9-58d0-425c-a2de-a0d1d70850d3">ISCSI_UNIQUE_SESSION_ID</a> that specifies the unique session identifier of the session that the connection belongs to.
 
 
-### -param ConnectionId
-
-TBD
-
-
-
-
-#### - UniqueConnectionId [in]
+### -param ConnectionId [in]
 
 A pointer to a structure of type <a href="https://msdn.microsoft.com/cc68fda4-6dbf-42de-8e0e-e144bd4e9524">ISCSI_UNIQUE_CONNECTION_ID</a> that specifies the connection to remove. 
 

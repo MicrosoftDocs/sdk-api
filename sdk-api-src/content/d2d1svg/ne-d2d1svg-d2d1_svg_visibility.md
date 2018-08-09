@@ -4,10 +4,10 @@ title: D2D1_SVG_VISIBILITY
 author: windows-sdk-content
 description: Specifies a value for the SVG visibility property.
 old-location: direct2d\d2d1_svg_visibility.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 05896FDA-CDC2-474B-AFFB-14326989FA69
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D2D1_SVG_VISIBILITY, D2D1_SVG_VISIBILITY enumeration [Direct2D], D2D1_SVG_VISIBILITY_FORCE_DWORD, D2D1_SVG_VISIBILITY_HIDDEN, D2D1_SVG_VISIBILITY_VISIBLE, d2d1svg/D2D1_SVG_VISIBILITY, d2d1svg/D2D1_SVG_VISIBILITY_FORCE_DWORD, d2d1svg/D2D1_SVG_VISIBILITY_HIDDEN, d2d1svg/D2D1_SVG_VISIBILITY_VISIBLE, direct2d.d2d1_svg_visibility
 ms.prod: windows
 ms.technology: windows-sdk

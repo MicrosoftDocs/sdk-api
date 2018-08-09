@@ -7,7 +7,7 @@ old-location: gdi\creatediscardablebitmap.htm
 old-project: gdi
 ms.assetid: 79168baf-26ea-4d24-b75c-d0658a56892c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateDiscardableBitmap, CreateDiscardableBitmap function [Windows GDI], _win32_CreateDiscardableBitmap, gdi.creatediscardablebitmap, wingdi/CreateDiscardableBitmap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,26 +66,14 @@ The <b>CreateDiscardableBitmap</b> function creates a discardable bitmap that is
 A handle to a device context.
 
 
-### -param cx
-
-TBD
-
-
-### -param cy
-
-TBD
-
-
-
-
-#### - nHeight [in]
-
-The height, in pixels, of the bitmap.
-
-
-#### - nWidth [in]
+### -param cx [in]
 
 The width, in pixels, of the bitmap.
+
+
+### -param cy [in]
+
+The height, in pixels, of the bitmap.
 
 
 ## -returns

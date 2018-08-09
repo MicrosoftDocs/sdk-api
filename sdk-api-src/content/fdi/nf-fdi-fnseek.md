@@ -7,7 +7,7 @@ old-location: winprog\fnseek.htm
 old-project: devnotes
 ms.assetid: e49b5086-6b89-40ce-b6fa-905d21593dec
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FNSEEK, FNSEEK macro [Windows API], fdi/FNSEEK, winprog.fnseek
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,23 +59,14 @@ The <b>FNSEEK</b> macro provides the declaration for the application-defined cal
 
 
 
-### -param fn
+### -param fn [in]
 
-TBD
-
-
-
-
+An application-defined value used to identify the open file.
 
 
 #### - dist
 
 The number of bytes to move the file pointer.
-
-
-#### - hf [in]
-
-An application-defined value used to identify the open file.
 
 
 #### - seektype

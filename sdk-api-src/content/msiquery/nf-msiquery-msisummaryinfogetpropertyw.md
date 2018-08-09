@@ -4,10 +4,10 @@ title: MsiSummaryInfoGetPropertyW function
 author: windows-sdk-content
 description: The MsiSummaryInfoGetProperty function gets a single property from the summary information stream.
 old-location: setup\msisummaryinfogetproperty.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 7df4bd31-85a7-4b61-beaf-5c1f2117e6f5
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: MsiSummaryInfoGetProperty, MsiSummaryInfoGetProperty function, MsiSummaryInfoGetPropertyA, MsiSummaryInfoGetPropertyW, _msi_msisummaryinfogetproperty, msiquery/MsiSummaryInfoGetProperty, msiquery/MsiSummaryInfoGetPropertyA, msiquery/MsiSummaryInfoGetPropertyW, setup.msisummaryinfogetproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,8 +108,7 @@ Pointer to the variable that specifies the size, in <b>TCHARs</b>, of the buffer
 
 
 
-
-					The 
+The 
 <b>MsiSummaryInfoGetProperty</b> function returns one of the following values:
 
 
@@ -138,7 +137,7 @@ The property information returned by the <b>MsiSummaryInfoGetProperty</b> functi
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Summary Information Property Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Summary Information Property Functions</a>
 
 
 

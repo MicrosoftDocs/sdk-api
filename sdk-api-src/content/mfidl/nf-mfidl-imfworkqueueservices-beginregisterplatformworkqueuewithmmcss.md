@@ -7,7 +7,7 @@ old-location: mf\imfworkqueueservices_beginregisterplatformworkqueuewithmmcss.ht
 old-project: medfound
 ms.assetid: aea9f946-dd59-4e51-a1de-b086e70ea083
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: BeginRegisterPlatformWorkQueueWithMMCSS, BeginRegisterPlatformWorkQueueWithMMCSS method [Media Foundation], BeginRegisterPlatformWorkQueueWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],BeginRegisterPlatformWorkQueueWithMMCSS method, IMFWorkQueueServices.BeginRegisterPlatformWorkQueueWithMMCSS, IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS, aea9f946-dd59-4e51-a1de-b086e70ea083, mf.imfworkqueueservices_beginregisterplatformworkqueuewithmmcss, mfidl/IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Associates a platform work queue with a Multimedia Class Scheduler Service (MMCSS) task.
+Associates a platform work queue with a Multimedia Class Scheduler Service (MMCSS) task.
         
 
 
@@ -64,8 +63,7 @@ req.product: GDI+ 1.1
 
 ### -param dwPlatformWorkQueue [in]
 
-
-            The platform work queue to register with MMCSS. See <a href="https://msdn.microsoft.com/c769f876-83ca-4b04-a054-22fa7146310e">Work Queue Identifiers</a>.
+The platform work queue to register with MMCSS. See <a href="https://msdn.microsoft.com/c769f876-83ca-4b04-a054-22fa7146310e">Work Queue Identifiers</a>.
           To register all of the standard work queues to the same MMCSS task, set this parameter to <b>MFASYNC_CALLBACK_QUEUE_ALL</b>.
 
 
@@ -77,8 +75,7 @@ The name of the MMCSS task to be performed.
 
 ### -param dwTaskId [in]
 
-
-            The unique task identifier. To obtain a new task identifier, set this value to zero.
+The unique task identifier. To obtain a new task identifier, set this value to zero.
           
 
 

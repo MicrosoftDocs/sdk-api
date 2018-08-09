@@ -7,7 +7,7 @@ old-location: wsw\ws_nettcp_url.htm
 old-project: wsw
 ms.assetid: 62079e59-01c8-48fb-932a-ca01cc7b86ec
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_NETTCP_URL, WS_NETTCP_URL structure [Web Services for Windows], _WS_NETTCP_URL, webservices/WS_NETTCP_URL, wsw.ws_nettcp_url
 ms.prod: windows
 ms.technology: windows-sdk

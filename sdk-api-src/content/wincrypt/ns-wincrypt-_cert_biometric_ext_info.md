@@ -4,10 +4,10 @@ title: "_CERT_BIOMETRIC_EXT_INFO"
 author: windows-sdk-content
 description: Contains a set of biometric information.
 old-location: security\cert_biometric_ext_info.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: b2a877e1-2be2-428c-bc47-ec5ce6cef7e6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PCERT_BIOMETRIC_EXT_INFO, CERT_BIOMETRIC_EXT_INFO, CERT_BIOMETRIC_EXT_INFO structure [Security], PCERT_BIOMETRIC_EXT_INFO, PCERT_BIOMETRIC_EXT_INFO structure pointer [Security], _CERT_BIOMETRIC_EXT_INFO, security.cert_biometric_ext_info, wincrypt/CERT_BIOMETRIC_EXT_INFO, wincrypt/PCERT_BIOMETRIC_EXT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

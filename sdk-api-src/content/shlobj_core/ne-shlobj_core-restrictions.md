@@ -7,7 +7,7 @@ old-location: shell\RESTRICTIONS.htm
 old-project: shell
 ms.assetid: 14eac1b9-8ef6-4473-81c1-72ba270a9da7
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: RESTRICTIONS, RESTRICTIONS enumeration [Windows Shell], REST_ALLOWBITBUCKDRIVES, REST_ALLOWCOMMENTTOGGLE, REST_ALLOWFILECLSIDJUNCTIONS, REST_ALLOWLEGACYLMZBEHAVIOR, REST_ALLOWLEGACYWEBVIEW, REST_ALLOWUNHASHEDWEBVIEW, REST_ARP_DONTGROUPPATCHES, REST_ARP_NOADDPAGE, REST_ARP_NOARP, REST_ARP_NOCHOOSEPROGRAMSPAGE, REST_ARP_NOREMOVEPAGE, REST_ARP_NOWINSETUPPAGE, REST_ARP_ShowPostSetup, REST_BITBUCKCONFIRMDELETE, REST_BITBUCKNOPROP, REST_BITBUCKNUKEONDELETE, REST_CLASSICSHELL, REST_CLEARRECENTDOCSONEXIT, REST_DISALLOWCPL, REST_DISALLOWRUN, REST_DONTRETRYBADNETNAME, REST_DONTSHOWSUPERHIDDEN, REST_ENFORCESHELLEXTSECURITY, REST_ENUMWORKGROUP, REST_FORCEACTIVEDESKTOPON, REST_FORCECOPYACLWITHFILE, REST_FORCESTARTMENULOGOFF, REST_GREYMSIADS, REST_HASFINDCOMPUTERS, REST_HIDECLOCK, REST_HIDERUNASVERB, REST_INHERITCONSOLEHANDLES, REST_INTELLIMENUS, REST_LINKRESOLVEIGNORELINKINFO, REST_MYCOMPNOPROP, REST_MYDOCSNOPROP, REST_MYDOCSONNET, REST_MaxRecentDocs, REST_NOACTIVEDESKTOP, REST_NOACTIVEDESKTOPCHANGES, REST_NOADDDESKCOMP, REST_NOAUTOTRAYNOTIFY, REST_NOCDBURNING, REST_NOCHANGEMAPPEDDRIVECOMMENT, REST_NOCHANGEMAPPEDDRIVELABEL, REST_NOCHANGESTARMENU, REST_NOCHANGINGWALLPAPER, REST_NOCLOSE, REST_NOCLOSEDESKCOMP, REST_NOCLOSE_DRAGDROPBAND, REST_NOCOLORCHOICE, REST_NOCOMMONGROUPS, REST_NOCOMPUTERSNEARME, REST_NOCONTROLPANEL, REST_NOCONTROLPANELBARRICADE, REST_NOCSC, REST_NOCURRENTUSERRUN, REST_NOCURRENTUSERRUNONCE, REST_NOCUSTOMIZETHISFOLDER, REST_NOCUSTOMIZEWEBVIEW, REST_NODELDESKCOMP, REST_NODESKCOMP, REST_NODESKTOP, REST_NODESKTOPCLEANUP, REST_NODETAILSTHUMBNAILONNETWORK, REST_NODISCONNECT, REST_NODISPBACKGROUND, REST_NODISPLAYAPPEARANCEPAGE, REST_NODISPLAYCPL, REST_NODISPSCREENSAVEPG, REST_NODISPSCREENSAVEPREVIEW, REST_NODISPSETTINGSPG, REST_NODRIVEAUTORUN, REST_NODRIVES, REST_NODRIVETYPEAUTORUN, REST_NOEDITDESKCOMP, REST_NOENCRYPTION, REST_NOENCRYPTONMOVE, REST_NOENTIRENETWORK, REST_NOENUMENTIRENETWORK, REST_NOEXITTODOS, REST_NOFAVORITESMENU, REST_NOFILEASSOCIATE, REST_NOFILEMENU, REST_NOFIND, REST_NOFOLDEROPTIONS, REST_NOFORGETSOFTWAREUPDATE, REST_NOHARDWARETAB, REST_NOHTMLWALLPAPER, REST_NOINTERNETICON, REST_NOINTERNETOPENWITH, REST_NOLOCALMACHINERUN, REST_NOLOCALMACHINERUNONCE, REST_NOLOGO3CHANNELNOTIFY, REST_NOLOWDISKSPACECHECKS, REST_NOMANAGEMYCOMPUTERVERB, REST_NOMOVINGBAND, REST_NOMYCOMPUTERICON, REST_NONE, REST_NONETCONNECTDISCONNECT, REST_NONETCRAWL, REST_NONETHOOD, REST_NONETWORKCONNECTIONS, REST_NONLEGACYSHELLMODE, REST_NOONLINEPRINTSWIZARD, REST_NOPRINTERADD, REST_NOPRINTERDELETE, REST_NOPRINTERTABS, REST_NOPUBLISHWIZARD, REST_NORECENTDOCSHISTORY, REST_NORECENTDOCSMENU, REST_NORECENTDOCSNETHOOD, REST_NOREMOTECHANGENOTIFY, REST_NOREMOTERECURSIVEEVENTS, REST_NORESOLVESEARCH, REST_NORESOLVETRACK, REST_NORUN, REST_NORUNASINSTALLPROMPT, REST_NOSAVESET, REST_NOSECURITY, REST_NOSETACTIVEDESKTOP, REST_NOSETFOLDERS, REST_NOSETTASKBAR, REST_NOSETTINGSASSIST, REST_NOSHAREDDOCUMENTS, REST_NOSHELLSEARCHBUTTON, REST_NOSIMPLENETIDLIST, REST_NOSIZECHOICE, REST_NOSMBALLOONTIP, REST_NOSMCONFIGUREPROGRAMS, REST_NOSMEJECTPC, REST_NOSMHELP, REST_NOSMMFUPROGRAMS, REST_NOSMMOREPROGRAMS, REST_NOSMMYDOCS, REST_NOSMMYMUSIC, REST_NOSMMYPICS, REST_NOSMNETWORKPLACES, REST_NOSMPINNEDLIST, REST_NOSTARTMENUSUBFOLDERS, REST_NOSTARTPAGE, REST_NOSTARTPANEL, REST_NOSTRCMPLOGICAL, REST_NOTASKGROUPING, REST_NOTHEMESTAB, REST_NOTHUMBNAILCACHE, REST_NOTOOLBARSONTASKBAR, REST_NOTRAYCONTEXTMENU, REST_NOTRAYITEMSDISPLAY, REST_NOUPDATEWINDOWS, REST_NOUPNPINSTALL, REST_NOUSERNAMEINSTARTPANEL, REST_NOVIEWCONTEXTMENU, REST_NOVIEWONDRIVE, REST_NOVISUALSTYLECHOICE, REST_NOWEB, REST_NOWEBSERVICES, REST_NOWEBVIEW, REST_NOWELCOMESCREEN, REST_NOWINKEYS, REST_PROMPTRUNASINSTALLNETPATH, REST_RESTRICTCPL, REST_RESTRICTRUN, REST_REVERTWEBVIEWSECURITY, REST_RUNDLGMEMCHECKBOX, REST_SEPARATEDESKTOPPROCESS, REST_SETVISUALSTYLE, REST_SORTMAXITEMCOUNT, REST_STARTBANNER, REST_STARTMENULOGOFF, REST_STARTRUNNOHOMEPATH, REST_USEDESKTOPINICACHE, _win32_RESTRICTIONS, shell.RESTRICTIONS, shlobj_core/RESTRICTIONS, shlobj_core/REST_ALLOWBITBUCKDRIVES, shlobj_core/REST_ALLOWCOMMENTTOGGLE, shlobj_core/REST_ALLOWFILECLSIDJUNCTIONS, shlobj_core/REST_ALLOWLEGACYLMZBEHAVIOR, shlobj_core/REST_ALLOWLEGACYWEBVIEW, shlobj_core/REST_ALLOWUNHASHEDWEBVIEW, shlobj_core/REST_ARP_DONTGROUPPATCHES, shlobj_core/REST_ARP_NOADDPAGE, shlobj_core/REST_ARP_NOARP, shlobj_core/REST_ARP_NOCHOOSEPROGRAMSPAGE, shlobj_core/REST_ARP_NOREMOVEPAGE, shlobj_core/REST_ARP_NOWINSETUPPAGE, shlobj_core/REST_ARP_ShowPostSetup, shlobj_core/REST_BITBUCKCONFIRMDELETE, shlobj_core/REST_BITBUCKNOPROP, shlobj_core/REST_BITBUCKNUKEONDELETE, shlobj_core/REST_CLASSICSHELL, shlobj_core/REST_CLEARRECENTDOCSONEXIT, shlobj_core/REST_DISALLOWCPL, shlobj_core/REST_DISALLOWRUN, shlobj_core/REST_DONTRETRYBADNETNAME, shlobj_core/REST_DONTSHOWSUPERHIDDEN, shlobj_core/REST_ENFORCESHELLEXTSECURITY, shlobj_core/REST_ENUMWORKGROUP, shlobj_core/REST_FORCEACTIVEDESKTOPON, shlobj_core/REST_FORCECOPYACLWITHFILE, shlobj_core/REST_FORCESTARTMENULOGOFF, shlobj_core/REST_GREYMSIADS, shlobj_core/REST_HASFINDCOMPUTERS, shlobj_core/REST_HIDECLOCK, shlobj_core/REST_HIDERUNASVERB, shlobj_core/REST_INHERITCONSOLEHANDLES, shlobj_core/REST_INTELLIMENUS, shlobj_core/REST_LINKRESOLVEIGNORELINKINFO, shlobj_core/REST_MYCOMPNOPROP, shlobj_core/REST_MYDOCSNOPROP, shlobj_core/REST_MYDOCSONNET, shlobj_core/REST_MaxRecentDocs, shlobj_core/REST_NOACTIVEDESKTOP, shlobj_core/REST_NOACTIVEDESKTOPCHANGES, shlobj_core/REST_NOADDDESKCOMP, shlobj_core/REST_NOAUTOTRAYNOTIFY, shlobj_core/REST_NOCDBURNING, shlobj_core/REST_NOCHANGEMAPPEDDRIVECOMMENT, shlobj_core/REST_NOCHANGEMAPPEDDRIVELABEL, shlobj_core/REST_NOCHANGESTARMENU, shlobj_core/REST_NOCHANGINGWALLPAPER, shlobj_core/REST_NOCLOSE, shlobj_core/REST_NOCLOSEDESKCOMP, shlobj_core/REST_NOCLOSE_DRAGDROPBAND, shlobj_core/REST_NOCOLORCHOICE, shlobj_core/REST_NOCOMMONGROUPS, shlobj_core/REST_NOCOMPUTERSNEARME, shlobj_core/REST_NOCONTROLPANEL, shlobj_core/REST_NOCONTROLPANELBARRICADE, shlobj_core/REST_NOCSC, shlobj_core/REST_NOCURRENTUSERRUN, shlobj_core/REST_NOCURRENTUSERRUNONCE, shlobj_core/REST_NOCUSTOMIZETHISFOLDER, shlobj_core/REST_NOCUSTOMIZEWEBVIEW, shlobj_core/REST_NODELDESKCOMP, shlobj_core/REST_NODESKCOMP, shlobj_core/REST_NODESKTOP, shlobj_core/REST_NODESKTOPCLEANUP, shlobj_core/REST_NODETAILSTHUMBNAILONNETWORK, shlobj_core/REST_NODISCONNECT, shlobj_core/REST_NODISPBACKGROUND, shlobj_core/REST_NODISPLAYAPPEARANCEPAGE, shlobj_core/REST_NODISPLAYCPL, shlobj_core/REST_NODISPSCREENSAVEPG, shlobj_core/REST_NODISPSCREENSAVEPREVIEW, shlobj_core/REST_NODISPSETTINGSPG, shlobj_core/REST_NODRIVEAUTORUN, shlobj_core/REST_NODRIVES, shlobj_core/REST_NODRIVETYPEAUTORUN, shlobj_core/REST_NOEDITDESKCOMP, shlobj_core/REST_NOENCRYPTION, shlobj_core/REST_NOENCRYPTONMOVE, shlobj_core/REST_NOENTIRENETWORK, shlobj_core/REST_NOENUMENTIRENETWORK, shlobj_core/REST_NOEXITTODOS, shlobj_core/REST_NOFAVORITESMENU, shlobj_core/REST_NOFILEASSOCIATE, shlobj_core/REST_NOFILEMENU, shlobj_core/REST_NOFIND, shlobj_core/REST_NOFOLDEROPTIONS, shlobj_core/REST_NOFORGETSOFTWAREUPDATE, shlobj_core/REST_NOHARDWARETAB, shlobj_core/REST_NOHTMLWALLPAPER, shlobj_core/REST_NOINTERNETICON, shlobj_core/REST_NOINTERNETOPENWITH, shlobj_core/REST_NOLOCALMACHINERUN, shlobj_core/REST_NOLOCALMACHINERUNONCE, shlobj_core/REST_NOLOGO3CHANNELNOTIFY, shlobj_core/REST_NOLOWDISKSPACECHECKS, shlobj_core/REST_NOMANAGEMYCOMPUTERVERB, shlobj_core/REST_NOMOVINGBAND, shlobj_core/REST_NOMYCOMPUTERICON, shlobj_core/REST_NONE, shlobj_core/REST_NONETCONNECTDISCONNECT, shlobj_core/REST_NONETCRAWL, shlobj_core/REST_NONETHOOD, shlobj_core/REST_NONETWORKCONNECTIONS, shlobj_core/REST_NONLEGACYSHELLMODE, shlobj_core/REST_NOONLINEPRINTSWIZARD, shlobj_core/REST_NOPRINTERADD, shlobj_core/REST_NOPRINTERDELETE, shlobj_core/REST_NOPRINTERTABS, shlobj_core/REST_NOPUBLISHWIZARD, shlobj_core/REST_NORECENTDOCSHISTORY, shlobj_core/REST_NORECENTDOCSMENU, shlobj_core/REST_NORECENTDOCSNETHOOD, shlobj_core/REST_NOREMOTECHANGENOTIFY, shlobj_core/REST_NOREMOTERECURSIVEEVENTS, shlobj_core/REST_NORESOLVESEARCH, shlobj_core/REST_NORESOLVETRACK, shlobj_core/REST_NORUN, shlobj_core/REST_NORUNASINSTALLPROMPT, shlobj_core/REST_NOSAVESET, shlobj_core/REST_NOSECURITY, shlobj_core/REST_NOSETACTIVEDESKTOP, shlobj_core/REST_NOSETFOLDERS, shlobj_core/REST_NOSETTASKBAR, shlobj_core/REST_NOSETTINGSASSIST, shlobj_core/REST_NOSHAREDDOCUMENTS, shlobj_core/REST_NOSHELLSEARCHBUTTON, shlobj_core/REST_NOSIMPLENETIDLIST, shlobj_core/REST_NOSIZECHOICE, shlobj_core/REST_NOSMBALLOONTIP, shlobj_core/REST_NOSMCONFIGUREPROGRAMS, shlobj_core/REST_NOSMEJECTPC, shlobj_core/REST_NOSMHELP, shlobj_core/REST_NOSMMFUPROGRAMS, shlobj_core/REST_NOSMMOREPROGRAMS, shlobj_core/REST_NOSMMYDOCS, shlobj_core/REST_NOSMMYMUSIC, shlobj_core/REST_NOSMMYPICS, shlobj_core/REST_NOSMNETWORKPLACES, shlobj_core/REST_NOSMPINNEDLIST, shlobj_core/REST_NOSTARTMENUSUBFOLDERS, shlobj_core/REST_NOSTARTPAGE, shlobj_core/REST_NOSTARTPANEL, shlobj_core/REST_NOSTRCMPLOGICAL, shlobj_core/REST_NOTASKGROUPING, shlobj_core/REST_NOTHEMESTAB, shlobj_core/REST_NOTHUMBNAILCACHE, shlobj_core/REST_NOTOOLBARSONTASKBAR, shlobj_core/REST_NOTRAYCONTEXTMENU, shlobj_core/REST_NOTRAYITEMSDISPLAY, shlobj_core/REST_NOUPDATEWINDOWS, shlobj_core/REST_NOUPNPINSTALL, shlobj_core/REST_NOUSERNAMEINSTARTPANEL, shlobj_core/REST_NOVIEWCONTEXTMENU, shlobj_core/REST_NOVIEWONDRIVE, shlobj_core/REST_NOVISUALSTYLECHOICE, shlobj_core/REST_NOWEB, shlobj_core/REST_NOWEBSERVICES, shlobj_core/REST_NOWEBVIEW, shlobj_core/REST_NOWELCOMESCREEN, shlobj_core/REST_NOWINKEYS, shlobj_core/REST_PROMPTRUNASINSTALLNETPATH, shlobj_core/REST_RESTRICTCPL, shlobj_core/REST_RESTRICTRUN, shlobj_core/REST_REVERTWEBVIEWSECURITY, shlobj_core/REST_RUNDLGMEMCHECKBOX, shlobj_core/REST_SEPARATEDESKTOPPROCESS, shlobj_core/REST_SETVISUALSTYLE, shlobj_core/REST_SORTMAXITEMCOUNT, shlobj_core/REST_STARTBANNER, shlobj_core/REST_STARTMENULOGOFF, shlobj_core/REST_STARTRUNNOHOMEPATH, shlobj_core/REST_USEDESKTOPINICACHE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -483,8 +483,7 @@ If nonzero, the system administrator has removed the <b>Manage</b> command from 
 
 If nonzero, the system administrator has restricted the programs the user can run.  Programs listed under the registry key 
                             
-                               <b>HKEY_CURRENT_USER</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>Policies</b>\<b>Explorer</b>\<b>DisallowRun</b>
-                            may not be run from the <b>Run</b> dialog box, by double-clicking, or by selecting from the <b>File</b> menu.  Programs are listed by their full path (for example, "C:\Windows\system32\cmd.exe"). Applications should prevent users from running programs listed under that key. Applications that use the <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a> or <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a> function to run programs do not need to take any special action because those functions will check the policy.
+                               <b>HKEY_CURRENT_USER</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>Policies</b>\<b>Explorer</b>\<b>DisallowRun</b>may not be run from the <b>Run</b> dialog box, by double-clicking, or by selecting from the <b>File</b> menu.  Programs are listed by their full path (for example, "C:\Windows\system32\cmd.exe"). Applications should prevent users from running programs listed under that key. Applications that use the <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a> or <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a> function to run programs do not need to take any special action because those functions will check the policy.
 
 
 ### -field REST_NOWELCOMESCREEN
@@ -495,15 +494,13 @@ If nonzero, the system administrator has disabled the <b>Welcome to Windows</b> 
 ### -field REST_RESTRICTCPL
 
 If nonzero, the system administrator has restricted the control panel applications the user can run.  In order to be run, a control panel application must be listed under the registry key 
-                               <b>HKEY_CURRENT_USER</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>Policies</b>\<b>Explorer</b>\<b>RestrictCpl</b>
-                          . The control panel application can be listed either under its display name (for example, "Mouse") or under its filename (for example, "main.cpl"). Applications that launch control panel applications should prevent users from running control panel applications not listed under that key.
+                               <b>HKEY_CURRENT_USER</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>Policies</b>\<b>Explorer</b>\<b>RestrictCpl</b>. The control panel application can be listed either under its display name (for example, "Mouse") or under its filename (for example, "main.cpl"). Applications that launch control panel applications should prevent users from running control panel applications not listed under that key.
 
 
 ### -field REST_DISALLOWCPL
 
 If nonzero, the system administrator has restricted the control panel applications the user can run.  In order to be run, a control panel application must not be listed under the registry key 
-                               <b>HKEY_CURRENT_USER</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>Policies</b>\<b>Explorer</b>\<b>DisallowCpl</b>
-                          . The control panel application can be listed either under its display name (for example, "Mouse") or under its filename (for example, "main.cpl"). Applications that launch control panel applications should prevent users from running control panel applications listed under that key.
+                               <b>HKEY_CURRENT_USER</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>Policies</b>\<b>Explorer</b>\<b>DisallowCpl</b>. The control panel application can be listed either under its display name (for example, "Mouse") or under its filename (for example, "main.cpl"). Applications that launch control panel applications should prevent users from running control panel applications listed under that key.
 
 
 ### -field REST_NOSMBALLOONTIP
@@ -523,43 +520,36 @@ If nonzero, the system administrator has disabled the keyboard shortcut associat
 
 ### -field REST_NOENCRYPTONMOVE
 
-
-              If nonzero, the system administrator has specified that unencrypted files and folders moved into an encrypted folder should remain unencrypted instead of inheriting the encryption attribute from the enclosing folder. Applications that move files and folders should unencrypt them if they were originally unencrypted and are moved into an encrypted folder. Applications that use the <a href="https://msdn.microsoft.com/7807015f-52c5-46f5-9e90-4e3e60ddf705">SHFileOperation</a> function to move files do not need to perform any special actions because the <b>SHFileOperation</b> function respects this policy.
+If nonzero, the system administrator has specified that unencrypted files and folders moved into an encrypted folder should remain unencrypted instead of inheriting the encryption attribute from the enclosing folder. Applications that move files and folders should unencrypt them if they were originally unencrypted and are moved into an encrypted folder. Applications that use the <a href="https://msdn.microsoft.com/7807015f-52c5-46f5-9e90-4e3e60ddf705">SHFileOperation</a> function to move files do not need to perform any special actions because the <b>SHFileOperation</b> function respects this policy.
 
 
 ### -field REST_NOLOCALMACHINERUN
 
 If nonzero, the system administrator has disabled the execution of programs listed in the 
-                   <b>HKEY_LOCAL_MACHINE</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>Run</b>
-                   registry key. Applications do not need to perform any special actions.
+                   <b>HKEY_LOCAL_MACHINE</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>Run</b>registry key. Applications do not need to perform any special actions.
 
 
 ### -field REST_NOCURRENTUSERRUN
 
 If nonzero, the system administrator has disabled the execution of programs listed in the 
-                   <b>HKEY_CURRENT_USER</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>Run</b>
-                   registry key. Applications do not need to perform any special actions.
+                   <b>HKEY_CURRENT_USER</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>Run</b>registry key. Applications do not need to perform any special actions.
 
 
 ### -field REST_NOLOCALMACHINERUNONCE
 
-
-              If nonzero, the system administrator has disabled the execution of programs listed in the 
-                   <b>HKEY_LOCAL_MACHINE</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>RunOnce</b>
-                   registry key. Applications do not need to perform any special actions.
+If nonzero, the system administrator has disabled the execution of programs listed in the 
+                   <b>HKEY_LOCAL_MACHINE</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>RunOnce</b>registry key. Applications do not need to perform any special actions.
 
 
 ### -field REST_NOCURRENTUSERRUNONCE
 
 If nonzero, the system administrator has disabled the execution of programs listed in the 
-                   <b>HKEY_CURRENT_USER</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>RunOnce</b>
-                   registry key. Applications do not need to perform any special actions.
+                   <b>HKEY_CURRENT_USER</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>RunOnce</b>registry key. Applications do not need to perform any special actions.
 
 
 ### -field REST_FORCEACTIVEDESKTOPON
 
-
-              If nonzero, the system administrator has forced web content to be enabled on the desktop. Applications do not need to perform any special actions. <b>Windows Vista or later</b>: Not used.
+If nonzero, the system administrator has forced web content to be enabled on the desktop. Applications do not need to perform any special actions. <b>Windows Vista or later</b>: Not used.
 
 
 ### -field REST_NOVIEWONDRIVE
@@ -624,17 +614,20 @@ If nonzero, the system administrator has hidden the <b>My Documents</b> icon on 
 
 ### -field REST_MYCOMPNOPROP
 
-<b>Windows 2000 SP3 or later.</b> If nonzero, the system administrator has disabled the <b>System Properties</b> dialog box. Applications should not launch the <b>System Properties</b> dialog box.
+<b>
+              Windows 2000 SP3 or later.</b> If nonzero, the system administrator has disabled the <b>System Properties</b> dialog box. Applications should not launch the <b>System Properties</b> dialog box.
 
 
 ### -field REST_MYDOCSNOPROP
 
-<b>Windows 2000 SP3 or later.</b> If nonzero, the system administrator has disabled the ability to view properties of the <b>My Documents</b> folder. Applications should not redirect the <b>My Documents</b> folder.
+<b>
+              Windows 2000 SP3 or later.</b> If nonzero, the system administrator has disabled the ability to view properties of the <b>My Documents</b> folder. Applications should not redirect the <b>My Documents</b> folder.
 
 
 ### -field REST_NOSTARTPANEL
 
-<b>Windows XP or later.</b> If nonzero, the system administrator has disabled the Windows XP <b>Start</b> menu. Applications do not need to perform any special actions.
+<b>
+              Windows XP or later.</b> If nonzero, the system administrator has disabled the Windows XP <b>Start</b> menu. Applications do not need to perform any special actions.
 
 
 ### -field REST_NODISPLAYAPPEARANCEPAGE
@@ -669,7 +662,8 @@ If nonzero, the system administrator has hidden the <b>My Documents</b> icon on 
 
 ### -field REST_STARTRUNNOHOMEPATH
 
-<b>Windows 2000 SP3 or later.</b> If nonzero, the default working directory for programs run from the Run dialog is not forced to the user's home directory. Applications do not need to perform any special actions.
+<b>
+              Windows 2000 SP3 or later.</b> If nonzero, the default working directory for programs run from the Run dialog is not forced to the user's home directory. Applications do not need to perform any special actions.
 
 
 ### -field REST_NOUSERNAMEINSTARTPANEL
@@ -704,12 +698,14 @@ Windows XP, Windows <b>2003.</b> If nonzero, the system administrator has hidde
 
 ### -field REST_NOSMMOREPROGRAMS
 
-<b>Windows XP or later.</b> If nonzero, the system administrator has hidden the <b>All Programs</b> item on the Windows XP <b>Start</b> menu. Applications should not show the contents of the <b>Start</b> menu folder to the user.
+<b>
+              Windows XP or later.</b> If nonzero, the system administrator has hidden the <b>All Programs</b> item on the Windows XP <b>Start</b> menu. Applications should not show the contents of the <b>Start</b> menu folder to the user.
 
 
 ### -field REST_NOSMMFUPROGRAMS
 
-<b>Windows XP or later.</b> If nonzero, the system administrator has hidden the list of most frequently used programs on the Windows XP <b>Start</b> menu. Applications do not need to perform any special actions.
+<b>
+              Windows XP or later.</b> If nonzero, the system administrator has hidden the list of most frequently used programs on the Windows XP <b>Start</b> menu. Applications do not need to perform any special actions.
 
 
 ### -field REST_NOTRAYITEMSDISPLAY
@@ -724,7 +720,8 @@ Windows XP, Windows <b>2003.</b> If nonzero, the system administrator has hidde
 
 ### -field REST_NOSMCONFIGUREPROGRAMS
 
-<b>Windows 2000 SP3 or later.</b> If nonzero, the system administrator has hidden the <b>Set Program Access</b> and <b>Defaults</b> shortcut on the <b>Start</b> menu. Applications that enumerate the contents of the <b>Start</b> menu should not show the <b>Set Program Access</b> and <b>Defaults</b> shortcut to the user.
+<b>
+              Windows 2000 SP3 or later.</b> If nonzero, the system administrator has hidden the <b>Set Program Access</b> and <b>Defaults</b> shortcut on the <b>Start</b> menu. Applications that enumerate the contents of the <b>Start</b> menu should not show the <b>Set Program Access</b> and <b>Defaults</b> shortcut to the user.
 
 
 ### -field REST_HIDECLOCK
@@ -799,38 +796,45 @@ Windows XP, Windows<b>2003.</b> If nonzero, the system administrator has disabl
 
 ### -field REST_NOSTRCMPLOGICAL
 
-<b>Windows XP SP1 or later, or IE_BACKCOMPAT_VERSION defined.</b> If nonzero, the system administrator has specified that filenames should be sorted with the <b>StringCompare</b> function instead of the <b>StrCmpLogical</b> function. Applications that sort filenames should sort accordingly.  (This policy does not apply to Windows 2000.)
+<b>
+              Windows XP SP1 or later, or IE_BACKCOMPAT_VERSION defined.</b>
+             If nonzero, the system administrator has specified that filenames should be sorted with the <b>StringCompare</b> function instead of the <b>StrCmpLogical</b> function. Applications that sort filenames should sort accordingly.  (This policy does not apply to Windows 2000.)
 
 
 ### -field REST_NOPUBLISHWIZARD
 
-<b>Windows XP SP1 or later service pack, Windows Server 2003 or IE_BACKCOMPAT_VERSION defined.</b> Disables the Windows Publishing Wizard (WPW).<b>Windows Vista or later</b>: Not used.
+<b>
+              Windows XP SP1 or later service pack, Windows Server 2003 or IE_BACKCOMPAT_VERSION defined.</b> Disables the Windows Publishing Wizard (WPW).<b>Windows Vista or later</b>: Not used.
 
 
 ### -field REST_NOONLINEPRINTSWIZARD
 
-<b>Windows XP SP1 or later, or IE_BACKCOMPAT_VERSION defined.</b> Disables the Online Prints Wizard (OPW). <b>Windows Vista or later</b>: Not used.
+<b>
+              Windows XP SP1 or later, or IE_BACKCOMPAT_VERSION defined.</b> Disables the Online Prints Wizard (OPW). <b>Windows Vista or later</b>: Not used.
 
 
 ### -field REST_NOWEBSERVICES
 
-<b>Windows XP SP1 or later, or IE_BACKCOMPAT_VERSION defined.</b> Disables the web specified services for both the Online Prints Wizard (OPW) and the Windows Publishing Wizard (WPW).
+<b>
+              Windows XP SP1 or later, or IE_BACKCOMPAT_VERSION defined.</b>
+             Disables the web specified services for both the Online Prints Wizard (OPW) and the Windows Publishing Wizard (WPW).
 
 
 ### -field REST_ALLOWUNHASHEDWEBVIEW
 
-<b>Windows 2000 SP3 or later, Windows XP, or Windows Server 2003.</b> If nonzero, the system administrator has granted permission for unregistered web view templates to be displayed. Applications do not need to perform any special actions. <b>Windows Vista or later</b>: Not used.
+<b>
+              Windows 2000 SP3 or later, Windows XP, or Windows Server 2003.</b> If nonzero, the system administrator has granted permission for unregistered web view templates to be displayed. Applications do not need to perform any special actions. <b>Windows Vista or later</b>: Not used.
 
 
 ### -field REST_ALLOWLEGACYWEBVIEW
 
-
-              If nonzero, the system administrator has granted permission for old web view templates (created prior to Windows XP) to be converted to Windows XP templates. Applications do not need to perform any special actions. <b>Windows Vista or later</b>: Not used.
+If nonzero, the system administrator has granted permission for old web view templates (created prior to Windows XP) to be converted to Windows XP templates. Applications do not need to perform any special actions. <b>Windows Vista or later</b>: Not used.
 
 
 ### -field REST_REVERTWEBVIEWSECURITY
 
-<b>Windows 2000 SP3 or later, Windows XP, or Windows Server 2003.</b> If nonzero, the system administrator has reduced web view security to the level that existed in Windows 2000 SP2 or earlier. Applications do not need to perform any special actions.  (This policy does not apply to Windows 2000 SP2 or earlier.) <b>Windows Vista or later</b>: Not used.
+<b>
+              Windows 2000 SP3 or later, Windows XP, or Windows Server 2003.</b> If nonzero, the system administrator has reduced web view security to the level that existed in Windows 2000 SP2 or earlier. Applications do not need to perform any special actions.  (This policy does not apply to Windows 2000 SP2 or earlier.) <b>Windows Vista or later</b>: Not used.
 
 
 ### -field REST_INHERITCONSOLEHANDLES
@@ -840,52 +844,63 @@ Windows XP, Windows<b>2003.</b> If nonzero, the system administrator has disabl
 
 ### -field REST_SORTMAXITEMCOUNT
 
-<b>Windows XP SP2 and SP3 only. Not supported under Windows Vista or later.</b> Do not sort views with more items than this key. Useful for viewing large numbers of files in one folder.
+<b>
+              Windows XP SP2 and SP3 only. Not supported under Windows Vista or later.</b> Do not sort views with more items than this key. Useful for viewing large numbers of files in one folder.
 
 
 ### -field REST_NOREMOTERECURSIVEEVENTS
 
-<b>Windows XP SP2 or later.</b> Do not register network change events recursively. This helps to avoid network traffic.
+<b>
+              Windows XP SP2 or later.</b> Do not register network change events recursively. This helps to avoid network traffic.
 
 
 ### -field REST_NOREMOTECHANGENOTIFY
 
-<b>Windows XP SP2 or later.</b> Do not notify for remote change notifications.
+<b>
+              Windows XP SP2 or later.</b> Do not notify for remote change notifications.
 
 
 ### -field REST_NOSIMPLENETIDLIST
 
-<b>Windows XP SP2 or SP3 only. Not supported under Windows Vista or later.</b> No simple network IDLists.
+<b>
+              Windows XP SP2 or SP3 only. Not supported under Windows Vista or later.</b> No simple network IDLists.
 
 
 ### -field REST_NOENUMENTIRENETWORK
 
-<b>Windows XP SP2 or later.</b> Do not enumerate the entire network.
+<b>
+              Windows XP SP2 or later.</b> Do not enumerate the entire network.
 
 
 ### -field REST_NODETAILSTHUMBNAILONNETWORK
 
-<b>Windows XP SP2 and SP3 only. Not supported under Windows Vista or later.</b>
+<b>
+              Windows XP SP2 and SP3 only. Not supported under Windows Vista or later.</b>
+
 
 
 ### -field REST_NOINTERNETOPENWITH
 
-<b>Windows XP SP2 or later.</b> If nonzero, the system administrator has removed the ability to resolve file associations using the Internet. The option <b>Use the web service to find the appropriate program</b> is unavailable in the dialog displayed when the user selects <b>Open With</b> or double-clicks an unassociated file type.
+<b>
+              Windows XP SP2 or later.</b> If nonzero, the system administrator has removed the ability to resolve file associations using the Internet. The option <b>Use the web service to find the appropriate program</b> is unavailable in the dialog displayed when the user selects <b>Open With</b> or double-clicks an unassociated file type.
 
 
 ### -field REST_DONTRETRYBADNETNAME
 
-<b>Windows XP SP2 or later.</b> In <b>Network Places</b>, if the provider returns ERROR_BAD_NET_NAME, do not retry.
+<b>
+              Windows XP SP2 or later.</b> In <b>Network Places</b>, if the provider returns ERROR_BAD_NET_NAME, do not retry.
 
 
 ### -field REST_ALLOWFILECLSIDJUNCTIONS
 
-<b>Windows XP SP2 or later, Windows Server 2003.</b> Re-enable legacy support for file.{guid} junctions in file system folders.
+<b>
+              Windows XP SP2 or later, Windows Server 2003.</b> Re-enable legacy support for file.{guid} junctions in file system folders.
 
 
 ### -field REST_NOUPNPINSTALL
 
-<b>Windows XP SP2 or later.</b> Disable the <b>Install Universal Plug and Play (UPnP)</b> task in <b>My Network Places</b>.
+<b>
+              Windows XP SP2 or later.</b> Disable the <b>Install Universal Plug and Play (UPnP)</b> task in <b>My Network Places</b>.
 
 
 ### -field REST_ARP_DONTGROUPPATCHES
@@ -915,17 +930,19 @@ If nonzero, the system administrator has removed the option to choose the progra
 
 ### -field REST_ALLOWCOMMENTTOGGLE
 
-<b>Windows XP SP2 only. Not supported under Windows Vista or later.</b> Allows the user to toggle the position of the Comment and the Computer Name.
+<b>
+              Windows XP SP2 only. Not supported under Windows Vista or later.</b> Allows the user to toggle the position of the Comment and the Computer Name.
 
 
 ### -field REST_USEDESKTOPINICACHE
 
-<b>Windows XP SP2 and SP3 only. Not supported under Windows Vista or later.</b> Cache desktop.ini entries from network folders.
+<b>
+              Windows XP SP2 and SP3 only. Not supported under Windows Vista or later.</b> Cache desktop.ini entries from network folders.
 
 
-#### - REST_ALLOWLEGACYLMZBEHAVIOR
+#### - REST_NORECENTDOCSNETHOOD
 
-<b>Windows XP SP2 only. Not supported under Windows Vista or later.</b> Indicates allowable LMZ behavior for ActiveX objects changed in Windows XP SP2, this policy gets the pre-Windows XP SP2 behavior.
+Windows Vista. If nonzero, the system administrator has disabled the automatic addition of shortcuts in <b>Network Neighborhood</b> to recently-accessed network resources. Applications do not need to perform any special actions.
 
 
 #### - REST_NOCOMPUTERSNEARME
@@ -933,7 +950,8 @@ If nonzero, the system administrator has removed the option to choose the progra
 <b>Not supported under Windows Vista and later</b>. If nonzero, the system administrator has hidden the <b>Computers Near Me</b> icon in the <b>My Network Places</b> folder. Applications should remove access to CSIDL_COMPUTERSNEARME.
 
 
-#### - REST_NORECENTDOCSNETHOOD
+#### - REST_ALLOWLEGACYLMZBEHAVIOR
 
-Windows Vista. If nonzero, the system administrator has disabled the automatic addition of shortcuts in <b>Network Neighborhood</b> to recently-accessed network resources. Applications do not need to perform any special actions.
+<b>
+              Windows XP SP2 only. Not supported under Windows Vista or later.</b> Indicates allowable LMZ behavior for ActiveX objects changed in Windows XP SP2, this policy gets the pre-Windows XP SP2 behavior.
 

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_serverft.htm
 old-project: wmi_v2
 ms.assetid: a8b3b230-8378-448b-9c89-82b601373f0e
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_ServerFT, MI_ServerFT structure [Windows Management Infrastructure (MI)], _MI_ServerFT, mi/MI_ServerFT, wmi_v2.mi_serverft
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,12 +62,12 @@ A support structure used in the <a href="https://msdn.microsoft.com/bbe367c4-196
 
 
 
-#### - GetSystemName
-
-Gets the system name for the server.
-
-
 #### - GetVersion
 
 Gets the value of the <b>MI_VERSION</b> macro used when compiling the server.
+
+
+#### - GetSystemName
+
+Gets the system name for the server.
 

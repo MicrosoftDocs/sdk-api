@@ -7,7 +7,7 @@ old-location: winrt\imetadatadispenserex_getoption.htm
 old-project: WinRT
 ms.assetid: 862948bd-6fce-4af9-9c68-1d3291e13053
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetOption, GetOption method [Windows Runtime], GetOption method [Windows Runtime],IMetaDataDispenserEx interface, IMetaDataDispenserEx interface [Windows Runtime],GetOption method, IMetaDataDispenserEx.GetOption, IMetaDataDispenserEx::GetOption, rometadataapi/IMetaDataDispenserEx::GetOption, winrt.imetadatadispenserex_getoption
 ms.prod: windows
 ms.technology: windows-sdk

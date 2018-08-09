@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_updatevideo.htm
 old-project: medfound
 ms.assetid: de583e74-b31b-407e-af4b-c36649e1ca84
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],UpdateVideo method, IMFPMediaPlayer.UpdateVideo, IMFPMediaPlayer::UpdateVideo, UpdateVideo, UpdateVideo method [Media Foundation], UpdateVideo method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_updatevideo, mfplay/IMFPMediaPlayer::UpdateVideo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ The object's <a href="https://msdn.microsoft.com/library/windows/hardware/dn9269
 
 
 
-Call this method when your application's video playback window receives either a <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> or <a href="https://msdn.microsoft.com/library/ms632646(v=VS.85).aspx">WM_SIZE</a> message. This method performs two functions:
+Call this method when your application's video playback window receives either a <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> or <a href="https://msdn.microsoft.com/en-us/library/ms632646(v=VS.85).aspx">WM_SIZE</a> message. This method performs two functions:
         
         
 

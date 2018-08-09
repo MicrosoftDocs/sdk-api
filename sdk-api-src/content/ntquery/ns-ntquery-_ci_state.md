@@ -7,7 +7,7 @@ old-location: indexsrv\ci_state.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_2qjp.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 08/03/2018
 ms.keywords: CI_STATE, CI_STATE structure [Indexing Service], _CI_STATE, _idxs_CI_STATE, indexsrv.ci_state, ntquery/CI_STATE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Represents the current state of an Indexing Service catalog.
 
@@ -98,7 +98,7 @@ The completion percentage of current merge, if one is running.
 
 ### -field eState
 
-The state of content indexing. This can be one or more of the <a href="https://msdn.microsoft.com/library/ms691063(v=VS.85).aspx">CI_STATE_*</a> constants. 
+The state of content indexing. This can be one or more of the <a href="https://msdn.microsoft.com/en-us/library/ms691063(v=VS.85).aspx">CI_STATE_*</a> constants. 
 
 
 ### -field cFilteredDocuments
@@ -150,11 +150,11 @@ When using this structure, all members are output values. The <b>cbStruct</b> me
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691109(v=VS.85).aspx">CIState</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691109(v=VS.85).aspx">CIState</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691063(v=VS.85).aspx">CI_STATE_* Constants</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691063(v=VS.85).aspx">CI_STATE_* Constants</a>
  
 
  

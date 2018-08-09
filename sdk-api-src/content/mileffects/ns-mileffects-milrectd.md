@@ -7,7 +7,7 @@ old-location: wibe\_wibe_mil_rectd.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\structs\mil_rectd.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: MIL_RECTD, MIL_RECTD structure [WPF Bitmap Effects], MilRectD, _wibe_mil_rectd, mileffects/MIL_RECTD, wibe._wibe_mil_rectd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,20 +81,6 @@ Describes the width, height, and location of a rectangle.
 
 
 
-#### - Height
-
-Type: <b>DOUBLE</b>
-
-The height of the rectangle.
-
-
-#### - Width
-
-Type: <b>DOUBLE</b>
-
-The width of the rectangle.
-
-
 #### - X
 
 Type: <b>DOUBLE</b>
@@ -107,4 +93,18 @@ The location of the rectangle's left side.
 Type: <b>DOUBLE</b>
 
 The location of the rectangle's right side.
+
+
+#### - Width
+
+Type: <b>DOUBLE</b>
+
+The width of the rectangle.
+
+
+#### - Height
+
+Type: <b>DOUBLE</b>
+
+The height of the rectangle.
 

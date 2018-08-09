@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory2_RegisterStereoStatusEvent.htm
 old-project: direct3ddxgi
 ms.assetid: 912FC8B0-8B66-4203-BF27-8D7186F7CAC0
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/30/2018
 ms.keywords: IDXGIFactory2 interface [DXGI],RegisterStereoStatusEvent method, IDXGIFactory2.RegisterStereoStatusEvent, IDXGIFactory2::RegisterStereoStatusEvent, RegisterStereoStatusEvent, RegisterStereoStatusEvent method [DXGI], RegisterStereoStatusEvent method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_RegisterStereoStatusEvent, dxgi1_2/IDXGIFactory2::RegisterStereoStatusEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ A pointer to a key value that an application can pass to the <a href="https://ms
         <ul>
 <li>S_OK if it successfully registered the event.</li>
 <li>E_OUTOFMEMORY if memory is unavailable to complete the operation.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
 </ul>
 
 

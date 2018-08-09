@@ -7,7 +7,7 @@ old-location: etw\tdhenumeratemanifestproviderevents.htm
 old-project: ETW
 ms.assetid: 93A03E1D-4047-49F1-987B-FB7BE03E0483
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: TdhEnumerateManifestProviderEvents, TdhEnumerateManifestProviderEvents function [ETW], etw.tdhenumeratemanifestproviderevents, tdh/TdhEnumerateManifestProviderEvents
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,19 +66,14 @@ The <b>TdhEnumerateManifestProviderEvents</b> function retrieves the list of eve
 A GUID that identifies the manifest provider whose list of events you want to retrieve. 
 
 
-### -param Buffer
+### -param Buffer [out]
 
-TBD
+A user-allocated buffer to receive the list of events. For details, see the <a href="https://msdn.microsoft.com/CC392841-7436-4543-A846-FB5A27D9A014">PROVIDER_EVENT_INFO</a>  structure.
 
 
 ### -param BufferSize [in, out]
 
 The size, in bytes, of the buffer pointed to by the <i>ProviderInfo</i> parameter. If the function succeeds, this parameter receives the size of the buffer used. If the buffer is too small, the function returns <b>ERROR_INSUFFICIENT_BUFFER</b> and sets this parameter to the required buffer size. If the buffer size is zero on input, no data is returned in the buffer and this parameter receives the required buffer size.
-
-
-#### - ProviderInfo [out]
-
-A user-allocated buffer to receive the list of events. For details, see the <a href="https://msdn.microsoft.com/CC392841-7436-4543-A846-FB5A27D9A014">PROVIDER_EVENT_INFO</a>  structure.
 
 
 ## -returns

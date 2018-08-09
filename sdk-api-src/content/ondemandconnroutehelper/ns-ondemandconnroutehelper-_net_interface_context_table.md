@@ -7,7 +7,7 @@ old-location: nla\net_interface_context_table.htm
 old-project: nla
 ms.assetid: DA6101F2-EB8F-43DC-93C6-9365A7AABEAC
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: NET_INTERFACE_CONTEXT_TABLE, NET_INTERFACE_CONTEXT_TABLE structure [Network Awareness], PNET_INTERFACE_CONTEXT_TABLE, PNET_INTERFACE_CONTEXT_TABLE structure pointer [Network Awareness], _NET_INTERFACE_CONTEXT_TABLE, nla.net_interface_context_table, ondemandconnroutehelper/NET_INTERFACE_CONTEXT_TABLE, ondemandconnroutehelper/PNET_INTERFACE_CONTEXT_TABLE
 ms.prod: windows
 ms.technology: windows-sdk

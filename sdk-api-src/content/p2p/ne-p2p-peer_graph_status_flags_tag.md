@@ -7,8 +7,8 @@ old-location: p2p\peer_graph_status_flags.htm
 old-project: p2psdk
 ms.assetid: 71910437-4ebd-4fcc-977c-0a56c5f26d61
 ms.author: windowssdkdev
-ms.date: 07/17/2018
-ms.keywords: PEER_GRAPH_STATUS_FLAGS, PEER_GRAPH_STATUS_FLAGS enumeration [Peer Networking], PEER_GRAPH_STATUS_HAS_CONNECTIONS, PEER_GRAPH_STATUS_LISTENING, PEER_GRAPH_STATUS_SYNCHRONIZED, p2p.peer_graph_status_flags, p2p/ PEER_GRAPH_STATUS_FLAGS, p2p/PEER_GRAPH_STATUS_HAS_CONNECTIONS, p2p/PEER_GRAPH_STATUS_LISTENING, p2p/PEER_GRAPH_STATUS_SYNCHRONIZED, peer_graph_status_flags_tag
+ms.date: 08/06/2018
+ms.keywords: PEER_GRAPH_STATUS_FLAGS, PEER_GRAPH_STATUS_FLAGS enumeration [Peer Networking], PEER_GRAPH_STATUS_HAS_CONNECTIONS, PEER_GRAPH_STATUS_LISTENING, PEER_GRAPH_STATUS_SYNCHRONIZED, p2p.peer_graph_status_flags, p2p/PEER_GRAPH_STATUS_FLAGS, p2p/PEER_GRAPH_STATUS_HAS_CONNECTIONS, p2p/PEER_GRAPH_STATUS_LISTENING, p2p/PEER_GRAPH_STATUS_SYNCHRONIZED, peer_graph_status_flags_tag
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PEER_GRAPH_STATUS_FLAGS</b> enumeration is a set of flags that show the current status of a node within the peer graph.
+The <b>PEER_GRAPH_STATUS_FLAGS</b> enumeration is a set of flags that show the current status of a node within the peer graph.
 
 
 ## -enum-fields
@@ -80,8 +79,7 @@ Specifies whether or not the node's database is synchronized.
 
 
 
-<a href="https://msdn.microsoft.com/a052bff8-e90c-4ff7-8362-edb94b130f38">
-        PEER_GRAPH_EVENT_DATA</a>
+<a href="https://msdn.microsoft.com/a052bff8-e90c-4ff7-8362-edb94b130f38">PEER_GRAPH_EVENT_DATA</a>
 
 
 

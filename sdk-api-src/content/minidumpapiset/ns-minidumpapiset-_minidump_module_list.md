@@ -7,7 +7,7 @@ old-location: base\minidump_module_list_str.htm
 old-project: debug
 ms.assetid: 9c30026d-9c72-472f-9d71-b15274459aae
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*PMINIDUMP_MODULE_LIST, MINIDUMP_MODULE_LIST, MINIDUMP_MODULE_LIST structure, PMINIDUMP_MODULE_LIST, PMINIDUMP_MODULE_LIST structure pointer, _MINIDUMP_MODULE_LIST, _win32_minidump_module_list_str, base.minidump_module_list_str, minidumpapiset/MINIDUMP_MODULE_LIST, minidumpapiset/PMINIDUMP_MODULE_LIST"
 ms.prod: windows
 ms.technology: windows-sdk

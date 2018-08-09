@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__currentmediaitemavailable.htm
 old-project: WMP
 ms.assetid: 8e6e92b7-1916-4628-915b-e9ee0d52fe75
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: CurrentMediaItemAvailable, CurrentMediaItemAvailable method [Windows Media Player], CurrentMediaItemAvailable method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],CurrentMediaItemAvailable method, IWMPEvents.CurrentMediaItemAvailable, IWMPEvents::CurrentMediaItemAvailable, IWMPEventsCurrentMediaItemAvailable, wmp.iwmpevents_iwmpevents__currentmediaitemavailable, wmp/IWMPEvents::CurrentMediaItemAvailable
 ms.prod: windows
 ms.technology: windows-sdk

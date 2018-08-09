@@ -7,7 +7,7 @@ old-location: winsock\napi_domain_description_blob.htm
 old-project: winsock
 ms.assetid: 543aa20c-eec2-4177-87ed-ba9c91251010
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: NAPI_DOMAIN_DESCRIPTION_BLOB, NAPI_DOMAIN_DESCRIPTION_BLOB structure [Winsock], PNAPI_DOMAIN_DESCRIPTION_BLOB, PNAPI_DOMAIN_DESCRIPTION_BLOB structure pointer [Winsock], napi_domain_description_blob_tag, nsemail/NAPI_DOMAIN_DESCRIPTION_BLOB, nsemail/PNAPI_DOMAIN_DESCRIPTION_BLOB, winsock.napi_domain_description_blob
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,8 +84,7 @@ The offset, in bytes, to a Unicode string that contains a domain name handled by
 
 
 
-This structure is supported on Windows Vista
-  and later.
+This structure is supported on Windows Vistaand later.
 
 The 
 <b>NAPI_DOMAIN_DESCRIPTION_BLOB</b> structure describes a domain handled by a namespace provider for the NS_EMAIL namespace. A typical domain name represented by the <b>OffsetThisDomainName</b> member in this structure might be msn.com or yahoo.com.

@@ -7,7 +7,7 @@ old-location: mf\imfvideomediatype_getvideoformat.htm
 old-project: medfound
 ms.assetid: 2168c76e-2b83-40ad-8ac1-9b76f1a31b7b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 2168c76e-2b83-40ad-8ac1-9b76f1a31b7b, GetVideoFormat, GetVideoFormat method [Media Foundation], GetVideoFormat method [Media Foundation],IMFVideoMediaType interface, IMFVideoMediaType interface [Media Foundation],GetVideoFormat method, IMFVideoMediaType.GetVideoFormat, IMFVideoMediaType::GetVideoFormat, mf.imfvideomediatype_getvideoformat, mfobjects/IMFVideoMediaType::GetVideoFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,8 +68,7 @@ Returns a pointer to an <a href="https://msdn.microsoft.com/7fbc4a35-117c-4f0c-9
 
 
 
-
-            This method returns a pointer to an <a href="https://msdn.microsoft.com/7fbc4a35-117c-4f0c-9e9b-ff44e30a1618">MFVIDEOFORMAT</a> structure.
+This method returns a pointer to an <a href="https://msdn.microsoft.com/7fbc4a35-117c-4f0c-9e9b-ff44e30a1618">MFVIDEOFORMAT</a> structure.
           
 
 
@@ -79,8 +78,7 @@ Returns a pointer to an <a href="https://msdn.microsoft.com/7fbc4a35-117c-4f0c-9
 
 
 
-
-        If you need to convert the media type into an <a href="https://msdn.microsoft.com/7fbc4a35-117c-4f0c-9e9b-ff44e30a1618">MFVIDEOFORMAT</a> structure, call <a href="https://msdn.microsoft.com/c83e3605-d345-4192-a6fd-26d1a78eb259">MFCreateMFVideoFormatFromMFMediaType</a>.
+If you need to convert the media type into an <a href="https://msdn.microsoft.com/7fbc4a35-117c-4f0c-9e9b-ff44e30a1618">MFVIDEOFORMAT</a> structure, call <a href="https://msdn.microsoft.com/c83e3605-d345-4192-a6fd-26d1a78eb259">MFCreateMFVideoFormatFromMFMediaType</a>.
 
 There are no guarantees about how long the returned pointer is valid.
 

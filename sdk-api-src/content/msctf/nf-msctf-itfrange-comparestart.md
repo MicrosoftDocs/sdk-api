@@ -7,7 +7,7 @@ old-location: tsf\itfrange_comparestart.htm
 old-project: TSF
 ms.assetid: b84375ec-e00a-4cb3-97b7-f10688814968
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: "+1, -1, 0, CompareStart, CompareStart method [Text Services Framework], CompareStart method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],CompareStart method, ITfRange.CompareStart, ITfRange::CompareStart, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_comparestart_ref, msctf/ITfRange::CompareStart, tsf.itfrange_comparestart"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -225,8 +225,7 @@ This method will never return 0 unless the two anchors are in a single region. I
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
       </a>
 
 
@@ -235,14 +234,12 @@ This method will never return 0 unless the two anchors are in a single region. I
 
 
 
-<a href="https://msdn.microsoft.com/23841f07-f2ea-4365-a8cb-128c4fb210ab">
-        ITfRange::CompareEnd
+<a href="https://msdn.microsoft.com/23841f07-f2ea-4365-a8cb-128c4fb210ab">ITfRange::CompareEnd
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/562c2821-9522-4fb5-ae15-4430cd2711c6">
-        ITfRange::IsEqualStart
+<a href="https://msdn.microsoft.com/562c2821-9522-4fb5-ae15-4430cd2711c6">ITfRange::IsEqualStart
       </a>
 
 
@@ -251,8 +248,7 @@ This method will never return 0 unless the two anchors are in a single region. I
 
 
 
-<a href="https://msdn.microsoft.com/d670666f-2915-4a23-b825-b534a015e37f">
-        TfAnchor
+<a href="https://msdn.microsoft.com/d670666f-2915-4a23-b825-b534a015e37f">TfAnchor
       </a>
  
 

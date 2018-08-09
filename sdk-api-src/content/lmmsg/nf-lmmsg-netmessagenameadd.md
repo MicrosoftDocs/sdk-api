@@ -7,7 +7,7 @@ old-location: netmgmt\netmessagenameadd.htm
 old-project: netmgmt
 ms.assetid: 5330e883-5439-46af-b4ae-b0926feadb70
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: NetMessageNameAdd, NetMessageNameAdd function [Network Management], _win32_netmessagenameadd, lmmsg/NetMessageNameAdd, netmgmt.netmessagenameadd
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetDpiX_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getdpix_56.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetDpiX, GetDpiX method [GDI+], GetDpiX method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetDpiX method, MetafileHeader.GetDpiX, MetafileHeader::GetDpiX, _gdiplus_CLASS_MetafileHeader_GetDpiX_, gdiplus._gdiplus_CLASS_MetafileHeader_GetDpiX_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,27 +78,27 @@ This method returns a real number that indicates the horizontal dots per inch of
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535280(v=VS.85).aspx">GetMetafileHeader</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535280(v=VS.85).aspx">GetMetafileHeader</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533831(v=VS.85).aspx">Loading and Displaying Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533831(v=VS.85).aspx">Loading and Displaying Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534477(v=VS.85).aspx">Metafile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534480(v=VS.85).aspx">MetafileHeader</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534480(v=VS.85).aspx">MetafileHeader</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535107(v=VS.85).aspx">MetafileHeader::GetDpiY</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535107(v=VS.85).aspx">MetafileHeader::GetDpiY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536391(v=VS.85).aspx">Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536391(v=VS.85).aspx">Metafiles</a>
  
 
  

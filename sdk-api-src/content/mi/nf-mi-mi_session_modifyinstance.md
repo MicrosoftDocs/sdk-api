@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_session_modifyinstance.htm
 old-project: wmi_v2
 ms.assetid: 4a01ac01-5d47-47ff-a331-6009a5c57204
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_Session_ModifyInstance, MI_Session_ModifyInstance function [Windows Management Infrastructure (MI)], mi/MI_Session_ModifyInstance, wmi_v2.mi_session_modifyinstance
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ Session handle returned from
 ### -param flags
 
 Runtime type information (RTTI) 
-      <a href="https://msdn.microsoft.com/library/JJ653875(v=VS.85).aspx">flags</a>. May be 
+      <a href="https://msdn.microsoft.com/en-us/library/JJ653875(v=VS.85).aspx">flags</a>. May be 
       set to 0.
 
 

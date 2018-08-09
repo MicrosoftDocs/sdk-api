@@ -7,7 +7,7 @@ old-location: dlgbox\devnames_str.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\devnames.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDEVNAMES, DEVNAMES, DEVNAMES structure [Dialog Boxes], LPDEVNAMES, LPDEVNAMES structure pointer [Dialog Boxes], _win32_DEVNAMES_str, _win32_devnames_str_cpp, commdlg/DEVNAMES, commdlg/LPDEVNAMES, dlgbox.devnames_str, tagDEVNAMES, winui._win32_devnames_str"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains strings that identify the driver, device, and output port names for a printer. These strings must be ANSI strings when the ANSI version of <a href="https://msdn.microsoft.com/library/ms646940(v=VS.85).aspx">PrintDlg</a> or <a href="https://msdn.microsoft.com/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> is used, and must be Unicode strings when the Unicode version of <b>PrintDlg</b> or <b>PrintDlgEx</b> is used. The <b>PrintDlgEx</b> and <b>PrintDlg</b> functions use these strings to initialize the system-defined <a href="https://msdn.microsoft.com/library/ms646966(v=VS.85).aspx">Print Property Sheet</a> or <a href="https://msdn.microsoft.com/library/ms646964(v=VS.85).aspx">Print Dialog Box</a>. When the user closes the property sheet or dialog box, information about the selected printer is returned in this structure. 
+Contains strings that identify the driver, device, and output port names for a printer. These strings must be ANSI strings when the ANSI version of <a href="https://msdn.microsoft.com/en-us/library/ms646940(v=VS.85).aspx">PrintDlg</a> or <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> is used, and must be Unicode strings when the Unicode version of <b>PrintDlg</b> or <b>PrintDlgEx</b> is used. The <b>PrintDlgEx</b> and <b>PrintDlg</b> functions use these strings to initialize the system-defined <a href="https://msdn.microsoft.com/en-us/library/ms646966(v=VS.85).aspx">Print Property Sheet</a> or <a href="https://msdn.microsoft.com/en-us/library/ms646964(v=VS.85).aspx">Print Dialog Box</a>. When the user closes the property sheet or dialog box, information about the selected printer is returned in this structure. 
 
 
 ## -struct-fields
@@ -91,7 +91,7 @@ Indicates whether the strings contained in the <b>DEVNAMES</b> structure identif
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645524(v=VS.85).aspx">Common Dialog Box Library</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645524(v=VS.85).aspx">Common Dialog Box Library</a>
 
 
 
@@ -99,11 +99,11 @@ Indicates whether the strings contained in the <b>DEVNAMES</b> structure identif
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646940(v=VS.85).aspx">PrintDlg</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646940(v=VS.85).aspx">PrintDlg</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646942(v=VS.85).aspx">PrintDlgEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: fwp\ikeext_eap_authentication0.htm
 old-project: fwp
 ms.assetid: 86029526-ea87-4962-b5f5-f535c7034c60
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IKEEXT_EAP_AUTHENTICATION0, IKEEXT_EAP_AUTHENTICATION0 structure [Filtering], IKEEXT_EAP_AUTHENTICATION0__, IKEEXT_EAP_FLAG_LOCAL_AUTH_ONLY, IKEEXT_EAP_FLAG_REMOTE_AUTH_ONLY, fwp.ikeext_eap_authentication0, iketypes/IKEEXT_EAP_AUTHENTICATION0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-		The <b>IKEEXT_EAP_AUTHENTICATION0</b> structure stores information needed for Extensible Authentication Protocol (EAP) authentication. 
+The <b>IKEEXT_EAP_AUTHENTICATION0</b> structure stores information needed for Extensible Authentication Protocol (EAP) authentication. 
 		
 	This structure is only applicable to IKEv2.
 

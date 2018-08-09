@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_FUNC_IsAlphaPixelFormat_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\isalphapixelformat.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: IsAlphaPixelFormat, IsAlphaPixelFormat function [GDI+], _gdiplus_FUNC_IsAlphaPixelFormat_, gdiplus._gdiplus_FUNC_IsAlphaPixelFormat_, gdipluspixelformats/IsAlphaPixelFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ The <b>IsAlphaPixelFormat</b> method determines whether a specified pixel format
 
 Type: <b>PixelFormat</b>
 
-A <a href="https://msdn.microsoft.com/library/ms534412(v=VS.85).aspx">PixelFormat</a> constant that specifies the pixel format to be tested.
+A <a href="https://msdn.microsoft.com/en-us/library/ms534412(v=VS.85).aspx">PixelFormat</a> constant that specifies the pixel format to be tested.
 
 
 ## -returns

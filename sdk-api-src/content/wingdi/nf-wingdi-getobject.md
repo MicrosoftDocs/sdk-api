@@ -7,7 +7,7 @@ old-location: gdi\getobject.htm
 old-project: gdi
 ms.assetid: 555ab876-d990-426d-915c-f98df82a10aa
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetObject, GetObject function [Windows GDI], GetObjectA, GetObjectW, HBITMAP, HBITMAP returned from a call to CreateDIBSection, HBRUSH, HFONT, HPALETTE, HPEN, HPEN returned from a call to ExtCreatePen, _win32_GetObject, gdi.getobject, wingdi/GetObject, wingdi/GetObjectA, wingdi/GetObjectW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,34 +65,17 @@ The <b>GetObject</b> function retrieves information for the specified graphics o
 
 
 
-### -param h
-
-TBD
-
-
-### -param c
-
-TBD
-
-
-### -param pv
-
-TBD
-
-
-
-
-#### - cbBuffer [in]
-
-The number of bytes of information to be written to the buffer.
-
-
-#### - hgdiobj [in]
+### -param h [in]
 
 A handle to the graphics object of interest. This can be a handle to one of the following: a logical bitmap, a brush, a font, a palette, a pen, or a device independent bitmap created by calling the <a href="https://msdn.microsoft.com/9276ec84-2860-42be-a9f8-d4efb8d25eec">CreateDIBSection</a> function.
 
 
-#### - lpvObject [out]
+### -param c [in]
+
+The number of bytes of information to be written to the buffer.
+
+
+### -param pv [out]
 
 A pointer to a buffer that receives the information about the specified graphics object.
 

@@ -7,7 +7,7 @@ old-location: multimedia\icdraw.htm
 old-project: Multimedia
 ms.assetid: 0bf2c264-6adf-4773-95df-9cd77e73c022
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ICDraw, ICDraw function [Windows Multimedia], _win32_ICDraw, multimedia.icdraw, vfw/ICDraw
 ms.prod: windows
 ms.technology: windows-sdk

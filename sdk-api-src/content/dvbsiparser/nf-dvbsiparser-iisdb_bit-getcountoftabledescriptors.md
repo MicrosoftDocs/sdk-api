@@ -7,7 +7,7 @@ old-location: mstv\iisdb_bit_getcountoftabledescriptors.htm
 old-project: mstv
 ms.assetid: 69b1851b-b8a9-4dfe-be6b-ffadd2a83b12
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IISDB_BIT.GetCountOfTableDescriptors, IISDB_BIT::GetCountOfTableDescriptors, dvbsiparser/IISDB_BIT::GetCountOfTableDescriptors, mstv.iisdb_bit_getcountoftabledescriptors
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Gets the broadcaster_descriptors_length field value from
+Gets the broadcaster_descriptors_length field value from
   an
   Integrated Services Digital Broadcasting (ISDB)
   broadcaster information table

@@ -7,7 +7,7 @@ old-location: bluetooth\bluetooth_radio_info.htm
 old-project: bluetooth
 ms.assetid: 14440e02-ff2e-4fae-aac9-1b2fd936510e
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: "*PBLUETOOTH_RADIO_INFO, BLUETOOTH_RADIO_INFO, BLUETOOTH_RADIO_INFO structure [Bluetooth], _BLUETOOTH_RADIO_INFO, bluetooth.bluetooth_radio_info, bluetoothapis/BLUETOOTH_RADIO_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

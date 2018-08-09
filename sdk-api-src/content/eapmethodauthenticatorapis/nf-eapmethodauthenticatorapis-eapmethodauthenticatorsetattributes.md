@@ -7,7 +7,7 @@ old-location: eaphost\eapmethodauthenticatorsetattributes.htm
 old-project: eaphost
 ms.assetid: 0cc4df3a-6438-4770-9b13-c9d2a798822c
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapMethodAuthenticatorSetAttributes, EapMethodAuthenticatorSetAttributes function [EAPHost], eaphost.eapmethodauthenticatorsetattributes, eapmethodauthenticatorapis/EapMethodAuthenticatorSetAttributes
 ms.prod: windows
 ms.technology: windows-sdk

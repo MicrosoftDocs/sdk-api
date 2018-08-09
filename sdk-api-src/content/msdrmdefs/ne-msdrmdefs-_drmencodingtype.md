@@ -7,7 +7,7 @@ old-location: rm\drmencodingtype.htm
 old-project: adrms_sdk
 ms.assetid: 7859d7e9-aec4-4255-a11b-5d18c08fd6ca
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMENCODINGTYPE, DRMENCODINGTYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMENCODINGTYPE_BASE64, DRMENCODINGTYPE_LONG, DRMENCODINGTYPE_RAW, DRMENCODINGTYPE_STRING, DRMENCODINGTYPE_TIME, DRMENCODINGTYPE_UINT, _DRMENCODINGTYPE, msdrmdefs/DRMENCODINGTYPE, msdrmdefs/DRMENCODINGTYPE_BASE64, msdrmdefs/DRMENCODINGTYPE_LONG, msdrmdefs/DRMENCODINGTYPE_RAW, msdrmdefs/DRMENCODINGTYPE_STRING, msdrmdefs/DRMENCODINGTYPE_TIME, msdrmdefs/DRMENCODINGTYPE_UINT, rm.drmencodingtype
 ms.prod: windows
 ms.technology: windows-sdk

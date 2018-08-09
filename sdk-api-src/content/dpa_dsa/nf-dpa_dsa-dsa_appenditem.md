@@ -7,7 +7,7 @@ old-location: controls\DSA_AppendItem.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\macros\dsa_appenditem.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DSA_AppendItem, DSA_AppendItem macro [Windows Controls], _shell_DSA_AppendItem, _shell_DSA_AppendItem_cpp, controls.DSA_AppendItem, controls._shell_DSA_AppendItem, dpa_dsa/DSA_AppendItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,35 +58,21 @@ Appends a new item to the end of a dynamic structure array (DSA).
 
 
 
-### -param hdsa
-
-TBD
-
-
-### -param pitem
-
-TBD
-
-
-
-
-
-
-#### - pItem [in]
-
-A pointer to the item that is to be inserted.
-
-
-#### - pdsa [in]
+### -param hdsa [in]
 
 A handle to the DSA in which to insert the item.
+
+
+### -param pitem [in]
+
+A pointer to the item that is to be inserted.
 
 
 ## -remarks
 
 
 
-<div class="alert"><b>Note</b>  This macro wraps the <a href="https://msdn.microsoft.com/library/Bb775665(v=VS.85).aspx">DSA_InsertItem</a> function.</div>
+<div class="alert"><b>Note</b>  This macro wraps the <a href="https://msdn.microsoft.com/en-us/library/Bb775665(v=VS.85).aspx">DSA_InsertItem</a> function.</div>
 <div> </div>
 The actual data pointed to by <i>pItem</i> is copied into the DSA. Subsequent actions performed on that item do not affect the original copy.
 

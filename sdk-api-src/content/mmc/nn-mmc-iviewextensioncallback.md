@@ -7,7 +7,7 @@ old-location: mmc\iviewextensioncallback.htm
 old-project: MMC
 ms.assetid: 1854ab01-e518-4ff4-a1d5-d1e03b348992
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: IViewExtensionCallback, IViewExtensionCallback interface [MMC], IViewExtensionCallback interface [MMC],described, _slate_iviewextensioncallback, mmc.iviewextensioncallback, mmc/IViewExtensionCallback
 ms.prod: windows
 ms.technology: windows-sdk

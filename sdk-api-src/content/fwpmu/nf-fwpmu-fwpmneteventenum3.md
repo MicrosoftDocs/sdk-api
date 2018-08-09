@@ -7,7 +7,7 @@ old-location: fwp\fwpmneteventenum3.htm
 old-project: fwp
 ms.assetid: D7098530-9B20-4DB0-908D-EC8E365CB70D
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmNetEventEnum3, FwpmNetEventEnum3 function [Filtering], fwp.fwpmneteventenum3, fwpmu/FwpmNetEventEnum3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-
-   The <b>FwpmNetEventEnum3</b> function returns the next page of results from the network event enumerator.
+The <b>FwpmNetEventEnum3</b> function returns the next page of results from the network event enumerator.
 <div class="alert"><b>Note</b>  <b>FwpmNetEventEnum3</b>  s the specific implementation of <b>FwpmNetEventEnum</b> used in Windows 10, version 1607 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8,  <a href="https://msdn.microsoft.com/bf0974b1-8ddf-4f88-8b15-75f255f7a9d6">FwpmNetEventEnum2</a> is available. For Windows 7, <a href="https://msdn.microsoft.com/b320ab18-2713-479c-a635-da3c5a3e1d10">FwpmNetEventEnum1</a> is available. For Windows Vista, <a href="https://msdn.microsoft.com/c58a273a-c707-47f5-a667-e5d61579d82c">FwpmNetEventEnum0</a> is available.</div><div> </div>
 
 ## -parameters

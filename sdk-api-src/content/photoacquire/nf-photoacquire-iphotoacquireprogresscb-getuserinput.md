@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquireprogresscb_getuserinput.htm
 old-project: acquisition
 ms.assetid: db0d924b-a586-4f81-a367-e8fbdf3e9bd9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetUserInput, GetUserInput method [Picture Acquisition], GetUserInput method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],GetUserInput method, IPhotoAcquireProgressCB.GetUserInput, IPhotoAcquireProgressCB::GetUserInput, IPhotoAcquireProgressCBGetUserInput, photoacquire/IPhotoAcquireProgressCB::GetUserInput, picacq.iphotoacquireprogresscb_getuserinput
 ms.prod: windows
 ms.technology: windows-sdk

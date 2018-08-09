@@ -4,10 +4,10 @@ title: IVssComponent::SetBackupStamp
 author: windows-sdk-content
 description: The SetBackupStamp method sets a string containing information indicating when a backup took place.
 old-location: base\ivsscomponent_setbackupstamp.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 54995cc9-8988-4f26-9c60-5d809a93e4e1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IVssComponent interface [VSS],SetBackupStamp method, IVssComponent.SetBackupStamp, IVssComponent::SetBackupStamp, SetBackupStamp, SetBackupStamp method [VSS], SetBackupStamp method [VSS],IVssComponent interface, _win32_ivsscomponent_setbackupstamp, base.ivsscomponent_setbackupstamp, vswriter/IVssComponent::SetBackupStamp
 ms.prod: windows
 ms.technology: windows-sdk

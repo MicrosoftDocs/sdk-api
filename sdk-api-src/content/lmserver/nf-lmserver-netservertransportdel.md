@@ -7,7 +7,7 @@ old-location: netmgmt\netservertransportdel.htm
 old-project: netmgmt
 ms.assetid: 69b22f30-62b1-4dcb-bbb0-aceae8d77f61
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: 0, 1, NetServerTransportDel, NetServerTransportDel function [Network Management], _win32_netservertransportdel, lmserver/NetServerTransportDel, netmgmt.netservertransportdel
 ms.prod: windows
 ms.technology: windows-sdk

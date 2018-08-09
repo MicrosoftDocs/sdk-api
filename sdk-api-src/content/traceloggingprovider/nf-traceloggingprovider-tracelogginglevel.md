@@ -7,7 +7,7 @@ old-location: tracelogging\tracelogginglevel.htm
 old-project: tracelogging
 ms.assetid: 280EEFC4-EC84-4FAA-B14B-CBC5F0E0EA5D
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TraceLoggingLevel, TraceLoggingLevel macro, tracelogging.tracelogginglevel, traceloggingprovider/TraceLoggingLevel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,16 +59,7 @@ Wrapper macro for setting the event's level.
 
 
 
-### -param eventLevel
-
-TBD
-
-
-
-
-
-
-#### - eventKeyword [in]
+### -param eventLevel [in]
 
 The level of the event and must be between 0 and 255. 
 

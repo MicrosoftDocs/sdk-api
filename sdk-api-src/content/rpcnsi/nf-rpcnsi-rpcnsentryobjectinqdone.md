@@ -7,7 +7,7 @@ old-location: rpc\rpcnsentryobjectinqdone.htm
 old-project: rpc
 ms.assetid: de1ed214-1018-498a-81a9-7932d4eead0b
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcNsEntryObjectInqDone, RpcNsEntryObjectInqDone function [RPC], _rpc_rpcnsentryobjectinqdone, rpc.rpcnsentryobjectinqdone, rpcnsi/RpcNsEntryObjectInqDone
 ms.prod: windows
 ms.technology: windows-sdk

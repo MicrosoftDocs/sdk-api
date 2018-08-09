@@ -7,7 +7,7 @@ old-location: rpc\ndrasyncservercall.htm
 old-project: rpc
 ms.assetid: 5AA8EFA3-E7A7-44F5-9FC8-7CA86D94746A
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: NdrAsyncServerCall, NdrAsyncServerCall function [RPC], rpc.ndrasyncservercall, rpcndr/NdrAsyncServerCall
 ms.prod: windows
 ms.technology: windows-sdk

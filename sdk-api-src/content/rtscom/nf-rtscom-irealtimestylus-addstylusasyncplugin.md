@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_addstylusasyncplugin.htm
 old-project: tablet
 ms.assetid: fc22fa79-469a-47f0-96ce-9a041fc8a617
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: AddStylusAsyncPlugin, AddStylusAsyncPlugin method [Tablet PC], AddStylusAsyncPlugin method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],AddStylusAsyncPlugin method, IRealTimeStylus.AddStylusAsyncPlugin, IRealTimeStylus::AddStylusAsyncPlugin, fc22fa79-469a-47f0-96ce-9a041fc8a617, rtscom/IRealTimeStylus::AddStylusAsyncPlugin, tablet.irealtimestylus_addstylusasyncplugin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-          Adds an <a href="https://msdn.microsoft.com/bf961d70-2576-493b-a34d-c7c72b6c0234">IStylusAsyncPlugin</a> to the asynchronous plug-in collection at the specified index.
+Adds an <a href="https://msdn.microsoft.com/bf961d70-2576-493b-a34d-c7c72b6c0234">IStylusAsyncPlugin</a> to the asynchronous plug-in collection at the specified index.
         
 
 

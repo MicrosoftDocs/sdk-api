@@ -7,7 +7,7 @@ old-location: picacq\iuserinputstring_getstringtype.htm
 old-project: acquisition
 ms.assetid: 57f0c750-9c66-4c30-adc1-0cfd23d878d1
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetStringType, GetStringType method [Picture Acquisition], GetStringType method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetStringType method, IUserInputString.GetStringType, IUserInputString::GetStringType, IUserInputStringGetStringType, photoacquire/IUserInputString::GetStringType, picacq.iuserinputstring_getstringtype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Pointer to an integer value containing the string type.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

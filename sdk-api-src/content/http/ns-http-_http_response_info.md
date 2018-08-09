@@ -7,7 +7,7 @@ old-location: http\http_response_info.htm
 old-project: http
 ms.assetid: 29422116-0a33-4553-98aa-785bb926dee0
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: "*PHTTP_RESPONSE_INFO, *PHTTP_RESPONSE_INFO structure [HTTP], HTTP_RESPONSE_INFO, HTTP_RESPONSE_INFO structure [HTTP], _HTTP_RESPONSE_INFO, http.http_response_info, http/*PHTTP_RESPONSE_INFO, http/HTTP_RESPONSE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

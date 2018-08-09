@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_finishcommandlist.htm
 old-project: direct3d11
 ms.assetid: 31e9d8b6-4173-4999-8772-75134d60d269
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FinishCommandList, FinishCommandList method [Direct3D 11], FinishCommandList method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],FinishCommandList method, ID3D11DeviceContext.FinishCommandList, ID3D11DeviceContext::FinishCommandList, a4e1fb43-9932-f619-f748-39b385791b7a, d3d11/ID3D11DeviceContext::FinishCommandList, direct3d11.id3d11devicecontext_finishcommandlist
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ Upon completion of the method, the passed pointer to an <a href="https://msdn.mi
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, returns one of the following:
 

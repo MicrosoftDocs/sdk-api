@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetType_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\gettype_36.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetType, GetType method [GDI+], GetType method [GDI+],Image class, Image class [GDI+],GetType method, Image.GetType, Image::GetType, _gdiplus_CLASS_Image_GetType_, gdiplus._gdiplus_CLASS_Image_GetType_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Image::GetType</b> method gets the type (bitmap or metafile) of this 
-			<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object.
 
 
 ## -parameters
@@ -66,10 +66,10 @@ The <b>Image::GetType</b> method gets the type (bitmap or metafile) of this
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534139(v=VS.85).aspx">ImageType</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534139(v=VS.85).aspx">ImageType</a></b>
 </strong>
 
-This method returns an element of the <a href="https://msdn.microsoft.com/library/ms534139(v=VS.85).aspx">ImageType</a> enumeration that indicates the image type.
+This method returns an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534139(v=VS.85).aspx">ImageType</a> enumeration that indicates the image type.
 
 
 
@@ -79,19 +79,19 @@ This method returns an element of the <a href="https://msdn.microsoft.com/librar
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534139(v=VS.85).aspx">ImageType</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534139(v=VS.85).aspx">ImageType</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533831(v=VS.85).aspx">Loading and Displaying Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533831(v=VS.85).aspx">Loading and Displaying Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536393(v=VS.85).aspx">Types of Bitmaps</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536393(v=VS.85).aspx">Types of Bitmaps</a>
  
 
  

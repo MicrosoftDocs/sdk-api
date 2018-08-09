@@ -7,7 +7,7 @@ old-location: security\ix509attributearchivekey.htm
 old-project: seccertenroll
 ms.assetid: b42111e9-e39e-4192-9aba-47403fb627dc
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509AttributeArchiveKey, IX509AttributeArchiveKey interface [Security], IX509AttributeArchiveKey interface [Security],described, certenroll/IX509AttributeArchiveKey, security.ix509attributearchivekey
 ms.prod: windows
 ms.technology: windows-sdk

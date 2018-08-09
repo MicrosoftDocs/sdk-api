@@ -4,10 +4,10 @@ title: ISensNetwork
 author: windows-sdk-content
 description: The ISensNetwork interface handles network events fired by the System Event Notification Service (SENS).
 old-location: sens\isensnetwork.htm
-old-project: Sens
+old-project: sens
 ms.assetid: 1cea5dff-13ea-4afb-84ac-7b8df4f55fc8
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: ISensNetwork, ISensNetwork interface [SENS], ISensNetwork interface [SENS],described, _zaw_isensnetwork, sens.isensnetwork, sensevts/ISensNetwork, syncmgr.isensnetwork
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISensNetwork</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ISensNetwork</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISensNetwork</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ISensNetwork</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

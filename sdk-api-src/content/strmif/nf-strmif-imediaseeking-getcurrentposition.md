@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking_getcurrentposition.htm
 old-project: DirectShow
 ms.assetid: 4dca0c9e-ce95-4716-8e4d-ce8bf83628d6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: GetCurrentPosition, GetCurrentPosition method [DirectShow], GetCurrentPosition method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetCurrentPosition method, IMediaSeeking.GetCurrentPosition, IMediaSeeking::GetCurrentPosition, IMediaSeekingGetCurrentPosition, dshow.imediaseeking_getcurrentposition, strmif/IMediaSeeking::GetCurrentPosition
 ms.prod: windows
 ms.technology: windows-sdk

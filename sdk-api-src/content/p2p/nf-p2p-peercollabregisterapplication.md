@@ -7,7 +7,7 @@ old-location: p2p\peercollabregisterapplication.htm
 old-project: p2psdk
 ms.assetid: 962982a6-171f-4c13-ae03-84698482dea4
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerCollabRegisterApplication, PeerCollabRegisterApplication function [Peer Networking], p2p.peercollabregisterapplication, p2p/PeerCollabRegisterApplication
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,7 +121,6 @@ A peer's application has a GUID representing a single specific application. When
 When registering an application, it is recommended that developers specify a relative path, such as <b>%ProgramFiles%</b>, instead of an absolute path. This prevents application failure due to a change in the location of application files. For example, if the <b>C:\ProgramFiles</b> directory is moved to <b>E:\</b>. 
 
 Only applications that are local to the machine can be registered. It is not possible to register when an application's executable path is located on a network share like a UNC path or locally-mapped network drive.
-
 
 Applications can be registered in  the 'ALL_USERS' and 'CURRENT_USER' scopes. In the event an application is registered in both  scopes simultaneously, an application registered in 'CURRENT_USER' scope takes precedence over an application registered in 'ALL_USERS' scope.
 It is important to note that to register for the registration type of 'ALL_USERS' the caller must be operating with administrative privileges.

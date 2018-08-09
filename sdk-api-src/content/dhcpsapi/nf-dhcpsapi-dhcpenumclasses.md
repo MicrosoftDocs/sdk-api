@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumclasses.htm
 old-project: dhcp
 ms.assetid: 93f37424-1a81-477e-85da-359885e94349
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpEnumClasses, DhcpEnumClasses function [DHCP], dhcp.dhcpenumclasses, dhcpsapi/DhcpEnumClasses
 ms.prod: windows
 ms.technology: windows-sdk
@@ -137,8 +137,7 @@ An error occurred while accessing the DHCP server's database.
 
 
 
-<a href="https://msdn.microsoft.com/716beba3-cba2-406c-a41f-2f08b6a7dc5a">
-		  DHCP_CLASS_INFO_ARRAY</a>
+<a href="https://msdn.microsoft.com/716beba3-cba2-406c-a41f-2f08b6a7dc5a">DHCP_CLASS_INFO_ARRAY</a>
 
 
 

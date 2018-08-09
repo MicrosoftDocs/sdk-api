@@ -7,7 +7,7 @@ old-location: rpc\rpcbindinginqoption.htm
 old-project: rpc
 ms.assetid: f148c827-d18a-41f2-834a-f6b77b331bcc
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcBindingInqOption, RpcBindingInqOption function [RPC], _rpc_rpcbindinginqoption, rpc.rpcbindinginqoption, rpcdce/RpcBindingInqOption
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ Server binding about which to determine binding-option values.
 
 ### -param option
 
-TBD
+Binding handle property to inquire about.
 
 
 ### -param pOptionValue
@@ -77,11 +77,6 @@ Memory location to place the value for the specified <i>Option</i>
 <div class="alert"><b>Note</b>  For a list of binding options and their possible values, see 
 <a href="https://msdn.microsoft.com/ff88e05d-b9f3-42ef-a44f-fee9261832c8">Binding Option Constants</a>.</div>
 <div> </div>
-
-#### - Option
-
-Binding handle property to inquire about.
-
 
 ## -returns
 

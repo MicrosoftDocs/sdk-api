@@ -7,7 +7,7 @@ old-location: wsw\wssendmessage.htm
 old-project: wsw
 ms.assetid: 143864db-0a09-4d8d-8b07-369a0555aa46
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsSendMessage, WsSendMessage function [Web Services for Windows], webservices/WsSendMessage, wsw.wssendmessage
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dsurface9.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 7eb0f571-de02-55a6-f6eb-fc92e63fbb48, IDirect3DSurface9, IDirect3DSurface9 interface [Direct3D 9], IDirect3DSurface9 interface [Direct3D 9],described, d3d9helper/IDirect3DSurface9, direct3d9.idirect3dsurface9
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Applications use the methods of the IDirect3DSurface9 interface to query and pre
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DSurface9</b> interface inherits from <a href="https://msdn.microsoft.com/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>. <b>IDirect3DSurface9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DSurface9</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>. <b>IDirect3DSurface9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDirect3DSurface9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205893(v=VS.85).aspx">GetContainer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205893(v=VS.85).aspx">GetContainer</a>
 </td>
 <td align="left" width="63%">
 Provides access to the parent cube texture or texture (mipmap) object, if this surface is a child level of a cube texture or a mipmap. This method can also provide access to the parent swap chain if the surface is a back-buffer child.
@@ -80,7 +80,7 @@ Provides access to the parent cube texture or texture (mipmap) object, if this s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205894(v=VS.85).aspx">GetDC</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205894(v=VS.85).aspx">GetDC</a>
 </td>
 <td align="left" width="63%">
 Retrieves a device context.
@@ -89,7 +89,7 @@ Retrieves a device context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205895(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205895(v=VS.85).aspx">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of the surface.
@@ -98,7 +98,7 @@ Retrieves a description of the surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205896(v=VS.85).aspx">LockRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205896(v=VS.85).aspx">LockRect</a>
 </td>
 <td align="left" width="63%">
 Locks a rectangle on a surface.
@@ -107,7 +107,7 @@ Locks a rectangle on a surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205897(v=VS.85).aspx">ReleaseDC</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205897(v=VS.85).aspx">ReleaseDC</a>
 </td>
 <td align="left" width="63%">
 Release a device context handle.
@@ -116,7 +116,7 @@ Release a device context handle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205898(v=VS.85).aspx">UnlockRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205898(v=VS.85).aspx">UnlockRect</a>
 </td>
 <td align="left" width="63%">
 Unlocks a rectangle on a surface.
@@ -159,7 +159,7 @@ typedef struct IDirect3DSurface9 *LPDIRECT3DSURFACE9, *PDIRECT3DSURFACE9;
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>
  
 
  

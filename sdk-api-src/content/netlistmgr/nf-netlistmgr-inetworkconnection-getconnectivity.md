@@ -7,7 +7,7 @@ old-location: nla\inetworkconnection_getconnectivity.htm
 old-project: nla
 ms.assetid: 63fe54f7-c5e5-4dac-ad06-5ebfdb3a3419
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: GetConnectivity, GetConnectivity method [Network Awareness], GetConnectivity method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetConnectivity method, INetworkConnection.GetConnectivity, INetworkConnection::GetConnectivity, netlistmgr/INetworkConnection::GetConnectivity, nla.inetworkconnection_getconnectivity
 ms.prod: windows
 ms.technology: windows-sdk

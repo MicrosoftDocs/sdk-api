@@ -7,7 +7,7 @@ old-location: controls\CreateUpDownControl.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\updown\functions\createupdowncontrol.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CreateUpDownControl, CreateUpDownControl function [Windows Controls], _win32_CreateUpDownControl, _win32_CreateUpDownControl_cpp, commctrl/CreateUpDownControl, controls.CreateUpDownControl, controls._win32_CreateUpDownControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Creates an up-down control.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Window styles for the control. This parameter should include the <a href="https://msdn.microsoft.com/library/ms632600(v=VS.85).aspx">WS_CHILD</a>, <a href="https://msdn.microsoft.com/library/ms632600(v=VS.85).aspx">WS_BORDER</a>, and <a href="https://msdn.microsoft.com/library/ms632600(v=VS.85).aspx">WS_VISIBLE</a> styles, and it may include any of the window styles specific to the up-down control. 
+Window styles for the control. This parameter should include the <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_CHILD</a>, <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_BORDER</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_VISIBLE</a> styles, and it may include any of the window styles specific to the up-down control. 
 
 
 ### -param x

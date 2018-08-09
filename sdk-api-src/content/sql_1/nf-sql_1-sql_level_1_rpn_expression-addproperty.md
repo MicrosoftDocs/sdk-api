@@ -7,7 +7,7 @@ old-location: netmon\addproperty.htm
 old-project: NetMon2
 ms.assetid: 7aa9af0a-2434-4331-a244-a743dd430dcf
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AddProperty, AddProperty function [Network Monitor], _netmon_addproperty, netmon.addproperty, sql_1/AddProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Nmapi.lib
 req.dll: Nmapi.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # AddProperty function
@@ -58,23 +59,16 @@ The <b>AddProperty</b> function adds one property to the parser <a href="https:/
 
 
 
-### -param pProp
+### -param pProp [in]
 
-TBD
-
-
+Handle of the protocol that is associated with the database. When Network Monitor calls the 
+<a href="https://msdn.microsoft.com/b8a2752d-30a6-48f2-90b3-b1430ae983d2">Register</a> function, Network Monitor passes the protocol handle to the parser DLL.
 
 
 #### - PropertyInfo [in]
 
 Pointer to a 
 <a href="https://msdn.microsoft.com/878777ab-141d-4cc5-b0c1-f2ac8f770bf0">PROPERTYINFO</a> structure that defines the property.
-
-
-#### - hProtocol [in]
-
-Handle of the protocol that is associated with the database. When Network Monitor calls the 
-<a href="https://msdn.microsoft.com/b8a2752d-30a6-48f2-90b3-b1430ae983d2">Register</a> function, Network Monitor passes the protocol handle to the parser DLL.
 
 
 ## -returns

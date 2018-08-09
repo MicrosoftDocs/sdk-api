@@ -7,7 +7,7 @@ old-location: winsock\getservice_2.htm
 old-project: winsock
 ms.assetid: d09ffe2d-33c3-4ca3-bc99-d7d78fd83620
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: GetService, GetService function [Winsock], GetServiceA, GetServiceW, NS_DEFAULT, NS_DNS, NS_NETBT, NS_SAP, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, PROP_ADDRESSES, PROP_ALL, PROP_COMMENT, PROP_DISPLAY_HINT, PROP_LOCALE, PROP_MACHINE, PROP_SD, PROP_START_TIME, PROP_VERSION, _win32_getservice_2, nspapi/GetService, nspapi/GetServiceA, nspapi/GetServiceW, winsock.getservice_2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -300,8 +300,7 @@ Reserved for future use. Must be set to <b>NULL</b>.
 
 
 
-
-						If the function succeeds, the return value is the number of 
+If the function succeeds, the return value is the number of 
 <a href="https://msdn.microsoft.com/5bcdeddf-2971-491b-9cf4-70595d3a7ff1">NS_SERVICE_INFO</a> structures stored in *<i>lpBuffer</i>. Zero indicates that no structures were stored.
 
 If the function fails, the return value is SOCKET_ERROR ( – 1). To get extended error information, call 

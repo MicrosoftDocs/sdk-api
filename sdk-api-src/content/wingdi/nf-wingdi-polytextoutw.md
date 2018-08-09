@@ -7,7 +7,7 @@ old-location: gdi\polytextout.htm
 old-project: gdi
 ms.assetid: 643b4f6a-843f-4795-adc8-a90223bdc246
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PolyTextOut, PolyTextOut function [Windows GDI], PolyTextOutA, PolyTextOutW, _win32_PolyTextOut, gdi.polytextout, wingdi/PolyTextOut, wingdi/PolyTextOutA, wingdi/PolyTextOutW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,26 +68,14 @@ The <b>PolyTextOut</b> function draws several strings using the font and text co
 A handle to the device context.
 
 
-### -param ppt
-
-TBD
-
-
-### -param nstrings
-
-TBD
-
-
-
-
-#### - cStrings [in]
-
-The number of <a href="https://msdn.microsoft.com/6f03e2ff-c15f-498c-8c3d-33106222279e">POLYTEXT</a> structures in the <i>pptxt</i> array.
-
-
-#### - pptxt [in]
+### -param ppt [in]
 
 A pointer to an array of <a href="https://msdn.microsoft.com/6f03e2ff-c15f-498c-8c3d-33106222279e">POLYTEXT</a> structures describing the strings to be drawn. The array contains one structure for each string to be drawn.
+
+
+### -param nstrings [in]
+
+The number of <a href="https://msdn.microsoft.com/6f03e2ff-c15f-498c-8c3d-33106222279e">POLYTEXT</a> structures in the <i>pptxt</i> array.
 
 
 ## -returns

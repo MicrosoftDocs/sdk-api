@@ -7,7 +7,7 @@ old-location: adsi\ads_dn_with_binary.htm
 old-project: ADSI
 ms.assetid: 541dd19d-79a1-4a74-b4a1-31cdf69fbf0c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: "*PADS_DN_WITH_BINARY, ADS_DN_WITH_BINARY, ADS_DN_WITH_BINARY structure [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0015, _ds_ads_dn_with_binary, adsi.ads__dn__with__binary, adsi.ads_dn_with_binary, iads/ADS_DN_WITH_BINARY"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ When extending the active directory schema to add <b>ADS_DN_WITH_BINARY</b>, you
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684429(v=VS.85).aspx">Object(DN-Binary)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684429(v=VS.85).aspx">Object(DN-Binary)</a>
  
 
  

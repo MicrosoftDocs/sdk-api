@@ -7,7 +7,7 @@ old-location: wintouch\gci_rotate_angle_from_argument.htm
 old-project: wintouch
 ms.assetid: 8967e870-b444-402e-a343-9ac427ce1f07
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GID_ROTATE_ANGLE_FROM_ARGUMENT, GID_ROTATE_ANGLE_FROM_ARGUMENT macro [Windows Touch], wintouch.gci_rotate_angle_from_argument, winuser/GID_ROTATE_ANGLE_FROM_ARGUMENT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,15 +62,6 @@ The <b>GID_ROTATE_ANGLE_FROM_ARGUMENT</b> macro is used to interpret the
 
 
 ### -param _arg_
-
-TBD
-
-
-
-
-
-
-#### - _ARG_
 
 A value from a <a href="https://msdn.microsoft.com/4167aeb0-2c31-4b7b-ad1b-e6d37da09ef8">WM_GESTURE</a> message.
 

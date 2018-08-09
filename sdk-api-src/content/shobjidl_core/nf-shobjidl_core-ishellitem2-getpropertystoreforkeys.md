@@ -7,7 +7,7 @@ old-location: shell\IShellItem2_GetPropertyStoreForKeys.htm
 old-project: shell
 ms.assetid: 2d32ece8-4a68-4bf2-a1ee-bd94a2aa6fbd
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetPropertyStoreForKeys, GetPropertyStoreForKeys method [Windows Shell], GetPropertyStoreForKeys method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetPropertyStoreForKeys method, IShellItem2.GetPropertyStoreForKeys, IShellItem2::GetPropertyStoreForKeys, _shell_IShellItem2_GetPropertyStoreForKeys, shell.IShellItem2_GetPropertyStoreForKeys, shobjidl_core/IShellItem2::GetPropertyStoreForKeys
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,8 +84,7 @@ The <a href="https://msdn.microsoft.com/d3fde1b9-b19f-431d-9cea-bffc289ee683">GE
 
 Type: <b>REFIID</b>
 
-
-          A reference to the IID of the object to be retrieved.
+A reference to the IID of the object to be retrieved.
         
 
 
@@ -93,8 +92,7 @@ Type: <b>REFIID</b>
 
 Type: <b>void**</b>
 
-
-          When this method returns, contains the address of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> interface pointer.
+When this method returns, contains the address of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> interface pointer.
         
 
 
@@ -113,8 +111,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<div class="alert"><b>Note</b>  
-        When this method is called on a property store for a file, that file is held open for the lifetime of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> object.
+<div class="alert"><b>Note</b>  When this method is called on a property store for a file, that file is held open for the lifetime of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> object.
       </div>
 <div> </div>
 

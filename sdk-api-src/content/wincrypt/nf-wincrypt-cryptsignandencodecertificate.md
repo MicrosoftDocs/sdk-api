@@ -4,10 +4,10 @@ title: CryptSignAndEncodeCertificate function
 author: windows-sdk-content
 description: Encodes and signs a certificate, certificate revocation list (CRL), certificate trust list (CTL), or certificate request.
 old-location: security\cryptsignandencodecertificate.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: ee138918-ed7c-4980-8b18-64004a0dd7df
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CryptSignAndEncodeCertificate, CryptSignAndEncodeCertificate function [Security], X509_ASN_ENCODING, X509_CERT_CRL_TO_BE_SIGNED, X509_CERT_REQUEST_TO_BE_SIGNED, X509_CERT_TO_BE_SIGNED, X509_KEYGEN_REQUEST_TO_BE_SIGNED, _crypto2_cryptsignandencodecertificate, security.cryptsignandencodecertificate, wincrypt/CryptSignAndEncodeCertificate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,9 +67,10 @@ This function performs the following operations:
 
 
 
-### -param hBCryptKey
+### -param hBCryptKey [in]
 
-TBD
+A handle of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) to do the signature. This handle is an <a href="https://msdn.microsoft.com/8ec6b392-06bc-4717-8657-7ea9a43d03fb">HCRYPTPROV</a> handle that has been created by using the 
+<a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a> function or an <b>NCRYPT_KEY_HANDLE</b> handle that has been created by using the <a href="https://msdn.microsoft.com/581c5d89-730d-4d8c-b3bb-a28edec25910">NCryptOpenKey</a> function. New applications should always pass in a <b>NCRYPT_KEY_HANDLE</b> handle of a CNG CSP.
 
 
 ### -param dwKeySpec [in]
@@ -222,12 +223,6 @@ A pointer to a <b>DWORD</b> that contains the size, in bytes, of the buffer poin
 
 <div class="alert"><b>Note</b>  When processing the data returned in the buffer, applications need to use the actual size of the data returned. The actual size can be slightly smaller than the size of the buffer specified on input. (On input, buffer sizes are usually specified large enough to ensure that the largest possible output data will fit in the buffer.) On output, the variable pointed to by this parameter is updated to reflect the actual size of the data copied to the buffer.</div>
 <div> </div>
-
-#### - hCryptProvOrNCryptKey [in]
-
-A handle of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) to do the signature. This handle is an <a href="https://msdn.microsoft.com/8ec6b392-06bc-4717-8657-7ea9a43d03fb">HCRYPTPROV</a> handle that has been created by using the 
-<a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a> function or an <b>NCRYPT_KEY_HANDLE</b> handle that has been created by using the <a href="https://msdn.microsoft.com/581c5d89-730d-4d8c-b3bb-a28edec25910">NCryptOpenKey</a> function. New applications should always pass in a <b>NCRYPT_KEY_HANDLE</b> handle of a CNG CSP.
-
 
 ## -returns
 

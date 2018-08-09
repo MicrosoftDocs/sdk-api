@@ -7,7 +7,7 @@ old-location: cos\imultiinterfacepublisherfilter.htm
 old-project: cossdk
 ms.assetid: f20f778b-fdd5-4c34-871b-d03cd1cd31cc
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IMultiInterfacePublisherFilter, IMultiInterfacePublisherFilter interface [COM+], IMultiInterfacePublisherFilter interface [COM+],described, _cos_IMultiInterfacePublisherFilter, cos.imultiinterfacepublisherfilter, eventsys/IMultiInterfacePublisherFilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,6 @@ The <b>IMultiInterfacePublisherFilter</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
 </td>
 <td align="left" width="63%">
-
 Associates an event class with a publisher filter.
 
 </td>
@@ -84,7 +83,6 @@ Associates an event class with a publisher filter.
 <a href="https://msdn.microsoft.com/a9257017-a9e7-4a0a-9dee-55493a659bda">PrepareToFire</a>
 </td>
 <td align="left" width="63%">
-
 Prepares the publisher filter to begin firing a filtered list of subscriptions using a provided firing control. The firing control is contained in the event class object.
 
 </td>

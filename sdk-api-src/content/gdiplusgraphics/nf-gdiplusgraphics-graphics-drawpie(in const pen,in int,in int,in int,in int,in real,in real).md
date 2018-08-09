@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawPie_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawpiemethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: DrawPie, DrawPie methods [GDI+], Graphics.DrawPie, Graphics.DrawPie(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL), Graphics::DrawPie, Graphics::DrawPie(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_DrawPie_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawPie_Methods, gdiplusgraphics/DrawPie
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,37 +65,37 @@ DrawPie methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536011(v=VS.85).aspx">DrawPie(Pen*,Rect&,REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536011(v=VS.85).aspx">DrawPie(Pen*,Rect&,REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536011(v=VS.85).aspx">Graphics::DrawPie</a> method draws a pie.
+The <a href="https://msdn.microsoft.com/en-us/library/ms536011(v=VS.85).aspx">Graphics::DrawPie</a> method draws a pie.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536016(v=VS.85).aspx">DrawPie(Pen*,RectF&,REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536016(v=VS.85).aspx">DrawPie(Pen*,RectF&,REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536016(v=VS.85).aspx">Graphics::DrawPie</a> method draws a pie.
+The <a href="https://msdn.microsoft.com/en-us/library/ms536016(v=VS.85).aspx">Graphics::DrawPie</a> method draws a pie.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536013(v=VS.85).aspx">DrawPie(Pen*,INT,INT,INT,INT,REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536013(v=VS.85).aspx">DrawPie(Pen*,INT,INT,INT,INT,REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536013(v=VS.85).aspx">Graphics::DrawPie</a> method draws a pie.
+The <a href="https://msdn.microsoft.com/en-us/library/ms536013(v=VS.85).aspx">Graphics::DrawPie</a> method draws a pie.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536014(v=VS.85).aspx">DrawPie(Pen*,REAL,REAL,REAL,REAL,REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536014(v=VS.85).aspx">DrawPie(Pen*,REAL,REAL,REAL,REAL,REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536014(v=VS.85).aspx">Graphics::DrawPie</a> method draws a pie.
+The <a href="https://msdn.microsoft.com/en-us/library/ms536014(v=VS.85).aspx">Graphics::DrawPie</a> method draws a pie.
 
 </td>
 </tr>

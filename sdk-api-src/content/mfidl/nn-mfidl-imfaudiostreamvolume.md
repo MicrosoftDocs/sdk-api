@@ -7,7 +7,7 @@ old-location: mf\imfaudiostreamvolume.htm
 old-project: medfound
 ms.assetid: f06ed262-a2ec-4688-b477-877d04cf1892
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFAudioStreamVolume, IMFAudioStreamVolume interface [Media Foundation], IMFAudioStreamVolume interface [Media Foundation],described, f06ed262-a2ec-4688-b477-877d04cf1892, mf.imfaudiostreamvolume, mfidl/IMFAudioStreamVolume
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ The <b>IMFAudioStreamVolume</b> interface has these methods.
 <a href="https://msdn.microsoft.com/cbcc0b5b-a60d-49ca-8b1c-7104e039a7d2">GetAllVolumes</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the volume levels for all of the channels in the audio stream.
+Retrieves the volume levels for all of the channels in the audio stream.
         
 
 </td>
@@ -88,8 +87,7 @@ The <b>IMFAudioStreamVolume</b> interface has these methods.
 <a href="https://msdn.microsoft.com/d19a56db-cd5f-4a19-98f0-42327c259b01">GetChannelCount</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the number of channels in the audio stream.
+Retrieves the number of channels in the audio stream.
         
 
 </td>
@@ -99,8 +97,7 @@ The <b>IMFAudioStreamVolume</b> interface has these methods.
 <a href="https://msdn.microsoft.com/5cfcc3a8-2911-45a3-8322-bf4e3b023dd2">GetChannelVolume</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the volume level for a specified channel in the audio stream.
+Retrieves the volume level for a specified channel in the audio stream.
         
 
 </td>
@@ -110,8 +107,7 @@ The <b>IMFAudioStreamVolume</b> interface has these methods.
 <a href="https://msdn.microsoft.com/6c278693-5a2f-4aa2-b477-3b3014b2cc89">SetAllVolumes</a>
 </td>
 <td align="left" width="63%">
-
-          Sets the individual volume levels for all of the channels in the audio stream.
+Sets the individual volume levels for all of the channels in the audio stream.
         
 
 </td>
@@ -121,8 +117,7 @@ The <b>IMFAudioStreamVolume</b> interface has these methods.
 <a href="https://msdn.microsoft.com/7786a6aa-c777-4b65-b38c-a75cd654a080">SetChannelVolume</a>
 </td>
 <td align="left" width="63%">
-
-          Sets the volume level for a specified channel in the audio stream.
+Sets the volume level for a specified channel in the audio stream.
         
 
 </td>
@@ -139,11 +134,9 @@ If your application does not require channel-level volume control, you can use t
 Volume is expressed as an attenuation level, where 0.0 indicates silence and 1.0 indicates full volume (no attenuation). For each channel, the attenuation level is the product of:
 
 <ul>
-<li>
-            The master volume level of the audio session.
+<li>The master volume level of the audio session.
           </li>
-<li>
-            The volume level of the channel.
+<li>The volume level of the channel.
           </li>
 </ul>
 For example, if the master volume is 0.8 and the channel volume is 0.5, the attenuation for that channel is 0.8 × 0.5 = 0.4. Volume levels can exceed 1.0 (positive gain), but the audio engine clips any audio samples that exceed zero decibels.

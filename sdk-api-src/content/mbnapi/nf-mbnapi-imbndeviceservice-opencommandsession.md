@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservice_opencommandsession.htm
 old-project: mbn
 ms.assetid: EC4FF42D-EFE9-432C-997F-426B2187BBBE
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],OpenCommandSession method, IMbnDeviceService.OpenCommandSession, IMbnDeviceService::OpenCommandSession, OpenCommandSession, OpenCommandSession method [Microsoft Broadband Networks], OpenCommandSession method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_opencommandsession, mbnapi/IMbnDeviceService::OpenCommandSession
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,7 +119,6 @@ An error was encountered when executing this method.
 
 
 <b>OpenCommandSession</b> allows an application to open a command session to a the device service on the mobile broadband device.
-
 
 This is an asynchronous operation and <b>OpenCommandSession</b> will return immediately. On completion of the operation, the Mobile Broadband service will call the <a href="https://msdn.microsoft.com/DE8F8AB7-62DE-47B1-A8E2-E24DFC63892E">OnOpenCommandSessionComplete</a> method of the <a href="https://msdn.microsoft.com/66A388D0-C704-45D2-AD56-4F81E1928774">IMbnDeviceServicesEvents</a> interface.
 

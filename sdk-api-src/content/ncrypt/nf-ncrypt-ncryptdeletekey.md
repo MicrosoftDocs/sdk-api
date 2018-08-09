@@ -7,7 +7,7 @@ old-location: security\ncryptdeletekey_func.htm
 old-project: seccng
 ms.assetid: 2e1958a7-51e0-4731-b4cf-a90d6c1f9ae0
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptDeleteKey, NCryptDeleteKey function [Security], ncrypt/NCryptDeleteKey, security.ncryptdeletekey_func
 ms.prod: windows
 ms.technology: windows-sdk

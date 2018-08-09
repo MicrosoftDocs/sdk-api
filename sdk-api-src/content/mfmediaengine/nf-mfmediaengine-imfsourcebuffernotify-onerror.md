@@ -7,7 +7,7 @@ old-location: mf\imfsourcebuffernotify_onerror.htm
 old-project: medfound
 ms.assetid: a7187b7a-0090-4380-82bb-a7f72d54232e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnError method, IMFSourceBufferNotify.OnError, IMFSourceBufferNotify::OnError, OnError, OnError method [Media Foundation], OnError method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onerror, mfmediaengine/IMFSourceBufferNotify::OnError
 ms.prod: windows
 ms.technology: windows-sdk

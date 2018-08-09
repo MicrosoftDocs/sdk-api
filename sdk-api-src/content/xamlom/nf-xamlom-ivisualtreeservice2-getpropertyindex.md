@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservice2_getpropertyindex.htm
 old-project: xaml_diagnostics
 ms.assetid: E23FA0C6-7822-4CEA-AF0C-75B42941B143
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetPropertyIndex, GetPropertyIndex method, GetPropertyIndex method,IVisualTreeService2 interface, IVisualTreeService2 interface,GetPropertyIndex method, IVisualTreeService2.GetPropertyIndex, IVisualTreeService2::GetPropertyIndex, xaml_diagnostics.ivisualtreeservice2_getpropertyindex, xamlom/IVisualTreeService2::GetPropertyIndex
 ms.prod: windows
 ms.technology: windows-sdk

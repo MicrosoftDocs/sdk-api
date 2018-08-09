@@ -4,10 +4,10 @@ title: IWindowsMediaLibrarySharingDevices
 author: windows-sdk-content
 description: The IWindowsMediaLibrarySharingDevices.
 old-location: wmlss\IWindowsMediaLibrarySharingDevicesInterface.htm
-old-project: WMLSS
+old-project: wmlss
 ms.assetid: 62e1f4d6-5b33-45d7-85d5-bc2c333c63e4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWindowsMediaLibrarySharingDevices, IWindowsMediaLibrarySharingDevices interface [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingDevices interface [Windows Media Library Sharing Services],described, wmlss.IWindowsMediaLibrarySharingDevicesInterface, wmlss/IWindowsMediaLibrarySharingDevices
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IFileDialogCustomize_SetCheckButtonState.htm
 old-project: shell
 ms.assetid: b028a811-e559-4152-9081-abaec0cab347
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],SetCheckButtonState method, IFileDialogCustomize.SetCheckButtonState, IFileDialogCustomize::SetCheckButtonState, SetCheckButtonState, SetCheckButtonState method [Windows Shell], SetCheckButtonState method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_SetCheckButtonState, shell_IFileDialogCustomize_SetCheckButtonState, shobjidl_core/IFileDialogCustomize::SetCheckButtonState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Sets the state of a check button (check box) in the dialog.
 
 Type: <b>DWORD</b>
 
-
-                  The ID of the check box.
+The ID of the check box.
                 
 
 
@@ -72,8 +71,7 @@ Type: <b>DWORD</b>
 
 Type: <b>BOOL</b>
 
-
-                  A <b>BOOL</b> value that indicates whether the box is checked. <b>TRUE</b> means checked; <b>FALSE</b>, unchecked.
+A <b>BOOL</b> value that indicates whether the box is checked. <b>TRUE</b> means checked; <b>FALSE</b>, unchecked.
                 
 
 

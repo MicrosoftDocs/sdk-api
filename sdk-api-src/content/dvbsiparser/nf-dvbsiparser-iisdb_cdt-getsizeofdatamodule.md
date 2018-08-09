@@ -7,7 +7,7 @@ old-location: mstv\iisdb_cdt_getsizeofdatamodule.htm
 old-project: mstv
 ms.assetid: c05a8c14-f0da-49d7-be34-1cac435a98da
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetSizeOfDataModule, GetSizeOfDataModule method [Microsoft TV Technologies], GetSizeOfDataModule method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetSizeOfDataModule method, IISDB_CDT.GetSizeOfDataModule, IISDB_CDT::GetSizeOfDataModule, dvbsiparser/IISDB_CDT::GetSizeOfDataModule, mstv.iisdb_cdt_getsizeofdatamodule
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Gets the size of a data module 
+Gets the size of a data module 
   from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 
 

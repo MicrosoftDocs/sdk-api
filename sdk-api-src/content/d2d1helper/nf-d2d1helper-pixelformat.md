@@ -4,10 +4,10 @@ title: PixelFormat function
 author: windows-sdk-content
 description: Creates a D2D1_PIXEL_FORMAT structure.
 old-location: direct2d\pixelformat.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 97128e07-68c2-40ab-bad1-7b6f599291b9
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: PixelFormat, PixelFormat function [Direct2D], d2d1helper/PixelFormat, direct2d.pixelformat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,9 +58,11 @@ Creates a  <a href="https://msdn.microsoft.com/e95afd9c-5793-4cb7-bcb8-aae4d28b6
 
 
 
-### -param dxgiFormat
+### -param dxgiFormat [in]
 
-TBD
+Type: <b><a href="http://msdn.microsoft.com/en-us/library/bb173059(VS.85).aspx">DXGI_FORMAT</a></b>
+
+A value that specifies the size and arrangement of channels in each pixel. The default value is <a href="http://msdn.microsoft.com/en-us/library/bb173059(VS.85).aspx">DXGI_FORMAT_UNKNOWN</a>.
 
 
 ### -param alphaMode [in]
@@ -68,13 +70,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/f1b1e735-2e89-4dc1-9fee-dfb4626ef453">ALPHA_MODE</a></b>
 
 A value that specifies whether the alpha channel is using premultiplied alpha or  straight alpha, or whether it should be ignored and considered opaque. The default value is <a href="https://msdn.microsoft.com/f1b1e735-2e89-4dc1-9fee-dfb4626ef453">D2D1_ALPHA_MODE_UNKNOWN</a>.
-
-
-#### - format [in]
-
-Type: <b><a href="http://msdn.microsoft.com/en-us/library/bb173059(VS.85).aspx">DXGI_FORMAT</a></b>
-
-A value that specifies the size and arrangement of channels in each pixel. The default value is <a href="http://msdn.microsoft.com/en-us/library/bb173059(VS.85).aspx">DXGI_FORMAT_UNKNOWN</a>.
 
 
 ## -returns

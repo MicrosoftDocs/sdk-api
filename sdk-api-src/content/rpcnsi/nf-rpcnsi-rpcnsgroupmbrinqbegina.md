@@ -7,7 +7,7 @@ old-location: rpc\rpcnsgroupmbrinqbegin.htm
 old-project: rpc
 ms.assetid: f3a98563-0c7f-4f4b-b272-af7c0366b95d
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcNsGroupMbrInqBegin, RpcNsGroupMbrInqBegin function [RPC], RpcNsGroupMbrInqBeginA, RpcNsGroupMbrInqBeginW, _rpc_rpcnsgroupmbrinqbegin, rpc.rpcnsgroupmbrinqbegin, rpcnsi/RpcNsGroupMbrInqBegin, rpcnsi/RpcNsGroupMbrInqBeginA, rpcnsi/RpcNsGroupMbrInqBeginW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IFileDialogCustomize_EndVisualGroup.htm
 old-project: shell
 ms.assetid: 84aef9e1-2b70-4e8b-b261-cc49f8e65ead
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: EndVisualGroup, EndVisualGroup method [Windows Shell], EndVisualGroup method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],EndVisualGroup method, IFileDialogCustomize.EndVisualGroup, IFileDialogCustomize::EndVisualGroup, shell.IFileDialogCustomize_EndVisualGroup, shell_IFileDialogCustomize_EndVisualGroup, shobjidl_core/IFileDialogCustomize::EndVisualGroup
 ms.prod: windows
 ms.technology: windows-sdk

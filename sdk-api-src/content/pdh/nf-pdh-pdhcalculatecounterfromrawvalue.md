@@ -4,10 +4,10 @@ title: PdhCalculateCounterFromRawValue function
 author: windows-sdk-content
 description: Calculates the displayable value of two raw counter values.
 old-location: perf\pdhcalculatecounterfromrawvalue.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: fd50b1fd-29b7-49a8-bbcc-4d7f0cbd7079
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhCalculateCounterFromRawValue, PdhCalculateCounterFromRawValue function [Perf], _win32_pdhcalculatecounterfromrawvalue, base.pdhcalculatecounterfromrawvalue, pdh/PdhCalculateCounterFromRawValue, perf.pdhcalculatecounterfromrawvalue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Calculates the displayable value of two raw counter values.
+Calculates the displayable value of two raw counter values.
 		
 
 
@@ -111,8 +110,7 @@ Return the calculated value as a long integer.
 </table>
  
 
-
-						You can use the bitwise inclusive OR operator (|) to combine the data type with one of the following scaling factors.
+You can use the bitwise inclusive OR operator (|) to combine the data type with one of the following scaling factors.
 
 <table>
 <tr>
@@ -173,8 +171,7 @@ A
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

@@ -7,7 +7,7 @@ old-location: indexsrv\stat_chunk.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_6a5n.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 08/03/2018
 ms.keywords: STAT_CHUNK, STAT_CHUNK structure [Indexing Service], _idxs_STAT_CHUNK, filter/STAT_CHUNK, indexsrv.stat_chunk, tagSTAT_CHUNK
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Describes the characteristics of a chunk.
 
@@ -63,17 +63,17 @@ Describes the characteristics of a chunk.
 
 ### -field idChunk
 
-The chunk identifier. Chunk identifiers must be unique for the current instance of the <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a> interface. Chunk identifiers must be in ascending order. The order in which chunks are numbered should correspond to the order in which they appear in the source document. Some search engines can take advantage of the proximity of chunks of various properties. If so, the order in which chunks with different properties are emitted will be important to the search engine.
+The chunk identifier. Chunk identifiers must be unique for the current instance of the <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a> interface. Chunk identifiers must be in ascending order. The order in which chunks are numbered should correspond to the order in which they appear in the source document. Some search engines can take advantage of the proximity of chunks of various properties. If so, the order in which chunks with different properties are emitted will be important to the search engine.
 
 
 ### -field breakType
 
-The type of break that separates the previous chunk from the current chunk. Values are from the <a href="https://msdn.microsoft.com/library/ms691123(v=VS.85).aspx">CHUNK_BREAKTYPE</a> enumeration. 
+The type of break that separates the previous chunk from the current chunk. Values are from the <a href="https://msdn.microsoft.com/en-us/library/ms691123(v=VS.85).aspx">CHUNK_BREAKTYPE</a> enumeration. 
 
 
 ### -field flags
 
-Indicates whether this chunk contains a text-type or a value-type property. Flag values are taken from the <a href="https://msdn.microsoft.com/library/ms691020(v=VS.85).aspx">CHUNKSTATE</a> enumeration. If the CHUNK_TEXT flag is set, <a href="https://msdn.microsoft.com/library/ms690992(v=VS.85).aspx">IFilter::GetText</a> should be used to retrieve the contents of the chunk as a series of words. If the CHUNK_VALUE flag is set, <a href="https://msdn.microsoft.com/library/ms690927(v=VS.85).aspx">IFilter::GetValue</a> should be used to retrieve the value and treat it as a single property value. If the filter dictates that the same content be treated as both text and as a value, the chunk should be emitted twice in two different chunks, each with one flag set.
+Indicates whether this chunk contains a text-type or a value-type property. Flag values are taken from the <a href="https://msdn.microsoft.com/en-us/library/ms691020(v=VS.85).aspx">CHUNKSTATE</a> enumeration. If the CHUNK_TEXT flag is set, <a href="https://msdn.microsoft.com/en-us/library/ms690992(v=VS.85).aspx">IFilter::GetText</a> should be used to retrieve the contents of the chunk as a series of words. If the CHUNK_VALUE flag is set, <a href="https://msdn.microsoft.com/en-us/library/ms690927(v=VS.85).aspx">IFilter::GetValue</a> should be used to retrieve the value and treat it as a single property value. If the filter dictates that the same content be treated as both text and as a value, the chunk should be emitted twice in two different chunks, each with one flag set.
 
 
 ### -field locale
@@ -83,7 +83,7 @@ The language and sublanguage associated with a chunk of text. Chunk locale is us
 
 ### -field attribute
 
-The property to be applied to the chunk. See <a href="https://msdn.microsoft.com/library/ms690996(v=VS.85).aspx">FULLPROPSPEC</a>. If a filter requires that the same text have more than one property, it needs to emit the text once for each property in separate chunks. 
+The property to be applied to the chunk. See <a href="https://msdn.microsoft.com/en-us/library/ms690996(v=VS.85).aspx">FULLPROPSPEC</a>. If a filter requires that the same text have more than one property, it needs to emit the text once for each property in separate chunks. 
 
 
 ### -field idChunkSource
@@ -200,19 +200,19 @@ Information provided by <b>idChunkSource</b>, <b>cwcStartSource</b>, and <b>cwcL
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691020(v=VS.85).aspx">CHUNKSTATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691020(v=VS.85).aspx">CHUNKSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691123(v=VS.85).aspx">CHUNK_BREAKTYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691123(v=VS.85).aspx">CHUNK_BREAKTYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690996(v=VS.85).aspx">FULLPROPSPEC</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690996(v=VS.85).aspx">FULLPROPSPEC</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>
  
 
  

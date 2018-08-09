@@ -7,7 +7,7 @@ old-location: mf\mfcreatedxgidevicemanager.htm
 old-project: medfound
 ms.assetid: 5398B6D7-1E7D-4987-A163-3360C805EE9C
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFCreateDXGIDeviceManager, MFCreateDXGIDeviceManager function [Media Foundation], mf.mfcreatedxgidevicemanager, mfapi/MFCreateDXGIDeviceManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,29 +59,15 @@ Creates an instance of the Microsoft DirectX Graphics Infrastructure (DXGI) Devi
 
 
 
-### -param resetToken
+### -param resetToken [out]
 
-TBD
-
-
-### -param ppDeviceManager
-
-TBD
-
-
-
-
-#### - pResetToken [out]
-
-
-            Receives a token that identifies this instance of the DXGI Device Manager. Use this token when calling <a href="https://msdn.microsoft.com/D8A2291A-792B-4D24-997A-9C152FFE5426">IMFDXGIDeviceManager::ResetDevice</a>.
+Receives a token that identifies this instance of the DXGI Device Manager. Use this token when calling <a href="https://msdn.microsoft.com/D8A2291A-792B-4D24-997A-9C152FFE5426">IMFDXGIDeviceManager::ResetDevice</a>.
           
 
 
-#### - ppDXVAManager [out]
+### -param ppDeviceManager [out]
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/4A0DC266-FCF0-4ECD-AC78-CF429839486D">IMFDXGIDeviceManager</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/4A0DC266-FCF0-4ECD-AC78-CF429839486D">IMFDXGIDeviceManager</a> interface. The caller must release the interface.
           
 
 

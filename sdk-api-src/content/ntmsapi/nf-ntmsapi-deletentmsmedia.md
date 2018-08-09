@@ -7,7 +7,7 @@ old-location: fs\deletentmsmedia.htm
 old-project: Rsm
 ms.assetid: d8e6b441-be8b-4f10-b241-d95221cebed8
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: DeleteNtmsMedia, DeleteNtmsMedia function [Files], _zaw_deletentmsmedia, base.deletentmsmedia, fs.deletentmsmedia, ntmsapi/DeleteNtmsMedia
 ms.prod: windows
 ms.technology: windows-sdk
@@ -220,7 +220,7 @@ You can use
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: iphlp\getinterfaceinfo.htm
 old-project: iphlp
 ms.assetid: efc0d175-2c6d-4608-b385-1623a9e0375c
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: GetInterfaceInfo, GetInterfaceInfo function [IP Helper], _iphlp_getinterfaceinfo, iphlp.getinterfaceinfo, iphlpapi/GetInterfaceInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-			The 
+The 
 <b>GetInterfaceInfo</b> function obtains the list of the network interface adapters with IPv4 enabled on the local system.
 
 
@@ -78,8 +77,7 @@ buffer pointed to by <i>pIfTable</i> parameter to receive the <a href="https://m
 
 
 
-
-						If the function succeeds, the return value is <b>NO_ERROR</b>.
+If the function succeeds, the return value is <b>NO_ERROR</b>.
 
 If the function fails, the return value is one of the following error codes.
 

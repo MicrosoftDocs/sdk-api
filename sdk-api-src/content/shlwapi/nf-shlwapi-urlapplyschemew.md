@@ -7,7 +7,7 @@ old-location: shell\UrlApplyScheme.htm
 old-project: shell
 ms.assetid: af60643e-b1a4-4013-b116-dd9fad4e90bf
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: URL_APPLY_DEFAULT, URL_APPLY_FORCEAPPLY, URL_APPLY_GUESSFILE, URL_APPLY_GUESSSCHEME, UrlApplyScheme, UrlApplyScheme function [Windows Shell], UrlApplySchemeA, UrlApplySchemeW, _win32_UrlApplyScheme, shell.UrlApplyScheme, shlwapi/UrlApplyScheme, shlwapi/UrlApplySchemeA, shlwapi/UrlApplySchemeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,9 +122,9 @@ Force <b>UrlApplyScheme</b> to determine a scheme for pszIn.
 Apply the default scheme if <b>UrlApplyScheme</b> can't determine one. The default prefix is stored in the registry but is typically "http".
 
 
-##### - dwFlags.URL_APPLY_FORCEAPPLY
+##### - dwFlags.URL_APPLY_GUESSSCHEME
 
-Force <b>UrlApplyScheme</b> to determine a scheme for pszIn.
+Attempt to determine the scheme by examining <i>pszIn</i>.
 
 
 ##### - dwFlags.URL_APPLY_GUESSFILE
@@ -132,9 +132,9 @@ Force <b>UrlApplyScheme</b> to determine a scheme for pszIn.
 Attempt to determine a file URL from <i>pszIn</i>.
 
 
-##### - dwFlags.URL_APPLY_GUESSSCHEME
+##### - dwFlags.URL_APPLY_FORCEAPPLY
 
-Attempt to determine the scheme by examining <i>pszIn</i>.
+Force <b>UrlApplyScheme</b> to determine a scheme for pszIn.
 
 
 ## -returns

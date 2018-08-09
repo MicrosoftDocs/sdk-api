@@ -7,7 +7,7 @@ old-location: rras\setinterfaceinfo.htm
 old-project: rras
 ms.assetid: abcfa220-a860-48cc-92c5-60ce655678b7
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: PSET_INTERFACE_INFO, PSET_INTERFACE_INFO callback, SetInterfaceInfo, SetInterfaceInfo callback function [RAS], _mpr_setinterfaceinfo, routprot/SetInterfaceInfo, rras.setinterfaceinfo
 ms.prod: windows
 ms.technology: windows-sdk

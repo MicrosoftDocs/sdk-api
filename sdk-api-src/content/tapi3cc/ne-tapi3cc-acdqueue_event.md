@@ -4,10 +4,10 @@ title: ACDQUEUE_EVENT
 author: windows-sdk-content
 description: The ACDQUEUE_EVENT enum describes ACD queue events. The ITQueueEvent::get_Event method returns a member of this enum to indicate the type of ACD queue event that occurred.
 old-location: tapi3\acdqueue_event.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 5a2efb70-a943-46c5-a362-18579ad8c965
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ACDQE_NEW_QUEUE, ACDQE_QUEUE_REMOVED, ACDQUEUE_EVENT, ACDQUEUE_EVENT enumeration [TAPI 2.2], _tapi3_acdqueue_event, tapi3.acdqueue_event, tapi3cc/ACDQE_NEW_QUEUE, tapi3cc/ACDQE_QUEUE_REMOVED, tapi3cc/ACDQUEUE_EVENT
 ms.prod: windows
 ms.technology: windows-sdk

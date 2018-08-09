@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_HighlightItem.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_highlightitem.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TabCtrl_HighlightItem, TabCtrl_HighlightItem macro [Windows Controls], _win32_TabCtrl_HighlightItem, _win32_TabCtrl_HighlightItem_cpp, commctrl/TabCtrl_HighlightItem, controls.TabCtrl_HighlightItem, controls._win32_TabCtrl_HighlightItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the highlight state of a tab item. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760602(v=VS.85).aspx">TCM_HIGHLIGHTITEM</a> message explicitly. 
+Sets the highlight state of a tab item. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760602(v=VS.85).aspx">TCM_HIGHLIGHTITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -60,12 +60,16 @@ Sets the highlight state of a tab item. You can use this macro or send the <a hr
 
 ### -param hwnd
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to the tab control. 
 
 
 ### -param i
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+
+Zero-based index of a tab control item. 
 
 
 ### -param fHighlight
@@ -73,20 +77,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
 
 Value specifying the highlight state to be set. If this value is nonzero, the tab is highlighted. If this value is zero, the tab is set to its default state. 
-
-
-#### - hwndTab
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to the tab control. 
-
-
-#### - idItem
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
-
-Zero-based index of a tab control item. 
 
 
 ## -remarks

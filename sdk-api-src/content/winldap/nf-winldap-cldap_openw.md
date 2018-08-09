@@ -4,10 +4,10 @@ title: cldap_openW function
 author: windows-sdk-content
 description: Establishes a session with an LDAP server over a connectionless User Datagram Protocol (UDP) service.
 old-location: ldap\cldap_open.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: 9dc62bb8-8569-4682-bfc7-7721af287318
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_ldap_cldap_open, cldap_open, cldap_open function [LDAP], cldap_openA, cldap_openW, ldap.cldap__open, ldap.cldap_open, winldap/cldap_open, winldap/cldap_openA, winldap/cldap_openW"
 ms.prod: windows
 ms.technology: windows-sdk

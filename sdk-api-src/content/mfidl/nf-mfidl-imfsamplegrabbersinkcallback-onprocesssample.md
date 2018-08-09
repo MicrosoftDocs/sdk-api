@@ -7,7 +7,7 @@ old-location: mf\imfsamplegrabbersinkcallback_onprocesssample.htm
 old-project: medfound
 ms.assetid: 0a7bfee3-9d6f-4cdf-8c64-abfc6ab78e60
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 0a7bfee3-9d6f-4cdf-8c64-abfc6ab78e60, IMFSampleGrabberSinkCallback interface [Media Foundation],OnProcessSample method, IMFSampleGrabberSinkCallback.OnProcessSample, IMFSampleGrabberSinkCallback::OnProcessSample, OnProcessSample, OnProcessSample method [Media Foundation], OnProcessSample method [Media Foundation],IMFSampleGrabberSinkCallback interface, mf.imfsamplegrabbersinkcallback_onprocesssample, mfidl/IMFSampleGrabberSinkCallback::OnProcessSample
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ The major type that specifies the format of the data. For a list of possible val
 
 ### -param dwSampleFlags [in]
 
-
-            Reserved.
+Reserved.
           
 
 
@@ -90,15 +89,13 @@ The duration of the sample, in 100-nanosecond units.
 
 ### -param pSampleBuffer [in]
 
-
-            A pointer to a buffer that contains the sample data.
+A pointer to a buffer that contains the sample data.
           
 
 
 ### -param dwSampleSize [in]
 
-
-            Size of the <i>pSampleBuffer</i> buffer, in bytes.
+Size of the <i>pSampleBuffer</i> buffer, in bytes.
           
 
 

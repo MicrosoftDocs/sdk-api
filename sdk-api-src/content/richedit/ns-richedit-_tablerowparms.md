@@ -7,7 +7,7 @@ old-location: controls\tablerowparms.htm
 old-project: controls
 ms.assetid: 8b538d72-1210-4344-b673-592ef9a8cc85
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: PFA_CENTER, PFA_LEFT, PFA_RIGHT, TABLEROWPARMS, TABLEROWPARMS structure [Windows Controls], _tableRowParms, controls.tablerowparms, richedit/TABLEROWPARMS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -160,42 +160,6 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 The index of the cell to insert or delete (<a href="https://msdn.microsoft.com/6CE9B8D1-68C9-4692-8454-24BC81E9038F">EM_SETTABLEPARMS</a> only).
 
 
-#### - fIdentCells:1
-
-Type: <b>DWORD</b>
-
- Indent cells.
-
-
-#### - fKeep:1
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
-
-Keep rows together (\trkeep).
-
-
-#### - fKeepFollow:1
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
-
-Keep the row on the same page as the following row (\trkeepfollow).
-
-
-#### - fRTL:1
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
-
-Display cells in right-to-left order (\rtlrow).
-
-
-#### - fWrap:1
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
-
-Wrap text to the right or left, depending on <b>bAlignment</b>
-							(see \tdfrmtxtLeftN and \tdfrmtxtRightN).
-
-
 #### - nAlignment:3
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
@@ -242,6 +206,41 @@ The rows are aligned with the right margin.
 </tr>
 </table>
  
+
+
+#### - fRTL:1
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+
+Display cells in right-to-left order (\rtlrow).
+
+
+#### - fKeep:1
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+
+Keep rows together (\trkeep).
+
+
+#### - fKeepFollow:1
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+
+Keep the row on the same page as the following row (\trkeepfollow).
+
+
+#### - fWrap:1
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+
+Wrap text to the right or left, depending on <b>bAlignment</b>(see \tdfrmtxtLeftN and \tdfrmtxtRightN).
+
+
+#### - fIdentCells:1
+
+Type: <b>DWORD</b>
+
+ Indent cells.
 
 
 ## -see-also

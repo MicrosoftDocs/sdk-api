@@ -7,7 +7,7 @@ old-location: security\getsecurityinfo.htm
 old-project: secauthz
 ms.assetid: 64767a6b-cd79-4e02-881a-706a078ff446
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: GetSecurityInfo, GetSecurityInfo function [Security], _win32_getsecurityinfo, aclapi/GetSecurityInfo, security.getsecurityinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,8 +55,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>GetSecurityInfo</b> function retrieves a copy of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> for an object specified by a handle.
+The <b>GetSecurityInfo</b> function retrieves a copy of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> for an object specified by a handle.
 
 
 ## -parameters
@@ -114,8 +113,7 @@ This parameter is required if any one of the <i>ppsidOwner</i>, <i>ppsidGroup</i
 
 
 
-
-						If the function succeeds, the return value is ERROR_SUCCESS.
+If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in WinError.h.
 
@@ -151,8 +149,7 @@ This function does not handle race conditions. If your thread calls this functio
 
 #### Examples
 
-
-     For an example that uses this function, see 
+For an example that uses this function, see 
      <a href="https://msdn.microsoft.com/b0dbc785-58a7-4f39-ab39-b96abece5b93">Finding the Owner of a File Object</a>.
 
 <div class="code"></div>
@@ -172,7 +169,7 @@ This function does not handle race conditions. If your thread calls this functio
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
 
 
 
@@ -184,7 +181,7 @@ This function does not handle race conditions. If your thread calls this functio
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa375728(v=VS.85).aspx">Privilege Constants</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375728(v=VS.85).aspx">Privilege Constants</a>
 
 
 

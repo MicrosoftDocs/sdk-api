@@ -7,7 +7,7 @@ old-location: winrt\hstring_usersize.htm
 old-project: WinRT
 ms.assetid: F258F308-7A16-4C24-9770-F6D8A1604811
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: HSTRING_UserSize, HSTRING_UserSize function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserSize, winrt.hstring_usersize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,19 +61,24 @@ Calculates the wire size of the <a href="https://msdn.microsoft.com/763ACE57-EFD
 
 
 
-### -param pFlags [in]
+### -param pFlags
 
-The data used by RPC.
+TBD
 
 
-### -param StartingSize [in]
+#### - StartingSize [in]
 
 The current buffer offset where the object will be marshaled. The method has to account for any padding needed for the <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> object to be properly aligned when it will be marshaled to the buffer.
 
 
-### -param ppidl [in]
+#### - ppidl [in]
 
 The string.
+
+
+#### - [in]
+
+The data used by RPC.
 
 
 ## -returns

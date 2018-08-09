@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_ColorPalette.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colorpalette.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: ColorPalette, ColorPalette structure [GDI+], _gdiplus_STRUC_ColorPalette, gdiplus._gdiplus_STRUC_ColorPalette, gdipluspixelformats/ColorPalette
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The <b>ColorPalette</b> structure defines an array of colors that make up a colo
 
 Type: <b>UINT</b>
 
-Combination of flags from the <a href="https://msdn.microsoft.com/library/ms534158(v=VS.85).aspx">PaletteFlags</a> enumeration. 
+Combination of flags from the <a href="https://msdn.microsoft.com/en-us/library/ms534158(v=VS.85).aspx">PaletteFlags</a> enumeration. 
 
 
 ### -field Count
@@ -89,15 +89,15 @@ Array of ARGB colors.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535384(v=VS.85).aspx">Image::GetPalette</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535384(v=VS.85).aspx">Image::GetPalette</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535404(v=VS.85).aspx">Image::SetPalette</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535404(v=VS.85).aspx">Image::SetPalette</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536393(v=VS.85).aspx">Types of Bitmaps</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536393(v=VS.85).aspx">Types of Bitmaps</a>
  
 
  

@@ -4,10 +4,10 @@ title: "_VDS_SUB_SYSTEM_PROP2"
 author: windows-sdk-content
 description: Defines the properties of a subsystem object. This structure is identical to the VDS_SUB_SYSTEM_PROP structure, except that it includes the supported RAID types and number of enclosures as members.
 old-location: base\vds_sub_system_prop2.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 8eb743b5-26e6-42e5-b94b-0849b1280cdb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: "*PVDS_SUB_SYSTEM_PROP2, PVDS_SUB_SYSTEM_PROP2, PVDS_SUB_SYSTEM_PROP2 structure pointer, VDS_H_DEGRADED, VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_UNKNOWN, VDS_SUB_SYSTEM_PROP2, VDS_SUB_SYSTEM_PROP2 structure, _VDS_SUB_SYSTEM_PROP2, base.vds_sub_system_prop2, vds/PVDS_SUB_SYSTEM_PROP2, vds/VDS_SUB_SYSTEM_PROP2, vdshwprv/PVDS_SUB_SYSTEM_PROP2, vdshwprv/VDS_SUB_SYSTEM_PROP2"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -150,16 +150,16 @@ The rebuild priority of the LUNs that belong to the subsystem. This value can ra
 The number of enclosures in the subsystem. The default value for this member is zero. A value of zero indicates that this property is not available for this subsystem.
 
 
-##### - health.VDS_H_DEGRADED (11)
-
-
-##### - health.VDS_H_FAILED (8)
+##### - health.VDS_H_UNKNOWN (0)
 
 
 ##### - health.VDS_H_HEALTHY (1)
 
 
-##### - health.VDS_H_UNKNOWN (0)
+##### - health.VDS_H_FAILED (8)
+
+
+##### - health.VDS_H_DEGRADED (11)
 
 
 ## -remarks

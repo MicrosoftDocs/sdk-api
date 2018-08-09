@@ -4,10 +4,10 @@ title: INTERNET_PER_CONN_OPTION_LISTA
 author: windows-sdk-content
 description: Contains the list of options for a particular Internet connection.
 old-location: wininet\internet_per_conn_option_list.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: 5e3178d5-b266-44bd-846c-f14bad0083c4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPINTERNET_PER_CONN_OPTION_LISTA, INTERNET_PER_CONN_OPTION_LIST, INTERNET_PER_CONN_OPTION_LIST structure [WinINet], INTERNET_PER_CONN_OPTION_LISTA, INTERNET_PER_CONN_OPTION_LISTW, LPINTERNET_PER_CONN_OPTION_LIST, LPINTERNET_PER_CONN_OPTION_LIST structure pointer [WinINet], _inet_internet_per_conn_option_list_structure, wininet.internet_per_conn_option_list, wininet/INTERNET_PER_CONN_OPTION_LIST, wininet/INTERNET_PER_CONN_OPTION_LISTA, wininet/INTERNET_PER_CONN_OPTION_LISTW, wininet/LPINTERNET_PER_CONN_OPTION_LIST"
 ms.prod: windows
 ms.technology: windows-sdk

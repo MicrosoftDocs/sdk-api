@@ -7,7 +7,7 @@ old-location: xaudio2\hrtfdirectivitytype.htm
 old-project: xaudio2
 ms.assetid: 7E094590-993D-4DA2-9955-A07E23B2604E
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: Cardioid, Cone, HrtfDirectivityType, HrtfDirectivityType enumeration [XAudio2 Audio Mixing APIs], OmniDirectional, hrtfapoapi/ Cardioid, hrtfapoapi/ OmniDirectional, hrtfapoapi/Cone, hrtfapoapi/HrtfDirectivityType, xaudio2.hrtfdirectivitytype
 ms.prod: windows
 ms.technology: windows-sdk

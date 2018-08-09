@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp2_getacpfrompoint.htm
 old-project: TSF
 ms.assetid: 2907cd34-6ebe-45b4-afd6-8062212c3dc9
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetACPFromPoint, GetACPFromPoint method [Text Services Framework], GetACPFromPoint method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetACPFromPoint method, ITextStoreACP2.GetACPFromPoint, ITextStoreACP2::GetACPFromPoint, textstor/ITextStoreACP2::GetACPFromPoint, tsf.itextstoreacp2_getacpfrompoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -173,26 +173,22 @@ The application has not calculated a text layout.
 
 
 
-<a href="https://msdn.microsoft.com/f8091e79-33af-49d5-b3c8-d30952c62010">
-        ITfContextOwner::GetACPFromPoint
+<a href="https://msdn.microsoft.com/f8091e79-33af-49d5-b3c8-d30952c62010">ITfContextOwner::GetACPFromPoint
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/543761fe-420e-4821-a69f-abc6c853677e">
-        ITfContextView::GetRangeFromPoint
+<a href="https://msdn.microsoft.com/543761fe-420e-4821-a69f-abc6c853677e">ITfContextView::GetRangeFromPoint
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/12178252-c246-4fa4-bf7b-2445b859ec01">
-        Manager Return Values
+<a href="https://msdn.microsoft.com/12178252-c246-4fa4-bf7b-2445b859ec01">Manager Return Values
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">
-        TsViewCookie
+<a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">TsViewCookie
       </a>
  
 

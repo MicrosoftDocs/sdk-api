@@ -7,7 +7,7 @@ old-location: iphlp\flushipnettable.htm
 old-project: iphlp
 ms.assetid: cf4dea10-552d-4730-a452-9302ef3761ff
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: FlushIpNetTable, FlushIpNetTable function [IP Helper], _iphlp_flushipnettable, iphlp.flushipnettable, iphlpapi/FlushIpNetTable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-			The 
+The 
 <b>FlushIpNetTable</b> function deletes all ARP entries for the specified interface from the ARP table on the local computer.
 		
 

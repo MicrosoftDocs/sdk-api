@@ -7,7 +7,7 @@ old-location: wmp\iwmpeffects_render.htm
 old-project: WMP
 ms.assetid: 9040c309-5e45-41d2-9a02-b17c6d764f59
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/30/2018
 ms.keywords: EffectsRender, IWMPEffects interface [Windows Media Player],Render method, IWMPEffects.Render, IWMPEffects::Render, Render, Render method [Windows Media Player], Render method [Windows Media Player],IWMPEffects interface, effects/IWMPEffects::Render, wmp.iwmpeffects_render
 ms.prod: windows
 ms.technology: windows-sdk

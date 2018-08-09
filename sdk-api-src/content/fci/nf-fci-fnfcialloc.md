@@ -7,7 +7,7 @@ old-location: winprog\fnfcialloc.htm
 old-project: devnotes
 ms.assetid: 339ac9d2-60bc-4a90-8a46-6fbb073be9d1
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FNFCIALLOC, FNFCIALLOC macro [Windows API], fci/FNFCIALLOC, winprog.fnfcialloc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,15 +60,6 @@ The <b>FNFCIALLOC</b> provides the declaration for the application-defined callb
 
 
 ### -param fn
-
-TBD
-
-
-
-
-
-
-#### - cb
 
 The number of bytes to allocate.
 

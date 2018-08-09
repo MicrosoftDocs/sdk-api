@@ -7,7 +7,7 @@ old-location: winmsg\getwindowdisplayaffinity.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowdisplayaffinity.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetWindowDisplayAffinity, GetWindowDisplayAffinity function [Windows and Messages], _win32_GetWindowDisplayAffinity, _win32_getwindowdisplayaffinity_cpp, winmsg.getwindowdisplayaffinity, winui._win32_getwindowdisplayaffinity, winuser/GetWindowDisplayAffinity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,14 +70,7 @@ Type: <b>HWND</b>
 A handle to the window. 
 
 
-### -param pdwAffinity
-
-TBD
-
-
-
-
-#### - dwAffinity [out]
+### -param pdwAffinity [out]
 
 Type: <b>DWORD*</b>
 

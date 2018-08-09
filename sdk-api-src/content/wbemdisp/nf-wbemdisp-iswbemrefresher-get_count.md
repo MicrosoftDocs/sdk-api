@@ -7,7 +7,7 @@ old-location: wmi\swbemrefresher_count.htm
 old-project: WmiSdk
 ms.assetid: 189c853b-dcf0-4bf7-821e-e12f94fcd1f3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: Count property [Windows Management Instrumentation], Count property [Windows Management Instrumentation],ISWbemRefresher interface, Count property [Windows Management Instrumentation],SWbemRefresher object, ISWbemRefresher interface [Windows Management Instrumentation],Count property, ISWbemRefresher.get_Count, ISWbemRefresher::get_Count, SWbemRefresher object [Windows Management Instrumentation],Count property, SWbemRefresher.Count, _hmm_swbemrefresher.count, get_Count, wmi.swbemrefresher_count
 ms.prod: windows
 ms.technology: windows-sdk

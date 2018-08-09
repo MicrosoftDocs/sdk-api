@@ -7,7 +7,7 @@ old-location: ncd\ifunctiondiscoveryproviderfactory.htm
 old-project: fundisc
 ms.assetid: 576db617-0bca-4b46-839b-0f133f28cacb
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/30/2018
 ms.keywords: IFunctionDiscoveryProviderFactory, IFunctionDiscoveryProviderFactory interface, IFunctionDiscoveryProviderFactory interface,described, functiondiscoveryprovider/IFunctionDiscoveryProviderFactory, ncd.ifunctiondiscoveryproviderfactory
 ms.prod: windows
 ms.technology: windows-sdk

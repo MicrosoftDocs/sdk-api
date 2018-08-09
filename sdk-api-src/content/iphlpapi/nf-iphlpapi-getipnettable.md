@@ -7,7 +7,7 @@ old-location: iphlp\getipnettable.htm
 old-project: iphlp
 ms.assetid: 01bcf86e-5fcc-4ce9-bb89-02d393e75d1d
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: GetIpNetTable, GetIpNetTable function [IP Helper], _iphlp_getipnettable, iphlp.getipnettable, iphlpapi/GetIpNetTable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,39 +60,22 @@ The
 
 
 
-### -param IpNetTable
-
-TBD
-
-
-### -param SizePointer
-
-TBD
-
-
-### -param Order
-
-TBD
-
-
-
-
-#### - bOrder [in]
-
-A Boolean value that specifies whether the returned mapping table should be sorted in ascending order by IP address. If this parameter is <b>TRUE</b>, the table is sorted.
-
-
-#### - pIpNetTable [out]
+### -param IpNetTable [out]
 
 A pointer to a buffer that receives the IPv4 to physical address mapping table as a 
 <a href="https://msdn.microsoft.com/1cac1c19-bc42-4aee-b9d0-d007b8798eeb">MIB_IPNETTABLE</a> structure.
 
 
-#### - pdwSize [in, out]
+### -param SizePointer [in, out]
 
 On input, specifies the size in bytes of the buffer pointed to by the <i>pIpNetTable</i> parameter.
 
 On output, if the buffer is not large enough to hold the returned mapping table, the function sets this parameter equal to the required buffer size in bytes.
+
+
+### -param Order [in]
+
+A Boolean value that specifies whether the returned mapping table should be sorted in ascending order by IP address. If this parameter is <b>TRUE</b>, the table is sorted.
 
 
 ## -returns

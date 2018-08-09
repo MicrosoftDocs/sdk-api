@@ -7,7 +7,7 @@ old-location: controls\ImageList_LoadImage.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_loadimage.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IMAGE_BITMAP, ImageList_LoadImage, ImageList_LoadImage function [Windows Controls], ImageList_LoadImageA, ImageList_LoadImageW, LR_CREATEDIBSECTION, LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_LOADFROMFILE, LR_LOADMAP3DCOLORS, LR_LOADTRANSPARENT, LR_MONOCHROME, LR_SHARED, OBM_ for OEM bitmaps, OCR_ for OEM cursors, OIC_ for OEM icons, _win32_ImageList_LoadImage, _win32_ImageList_LoadImage_cpp, commctrl/ImageList_LoadImage, commctrl/ImageList_LoadImageA, commctrl/ImageList_LoadImageW, controls.ImageList_LoadImage, controls._win32_ImageList_LoadImage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ If the <i>uFlags</i> parameter includes LR_LOADFROMFILE, <i>lpbmp</i> is the add
 
 If the <i>hi</i> parameter is non-<b>NULL</b> and LR_LOADFROMFILE is not specified, <i>lpbmp</i> is the address of a null-terminated string that contains the name of the image resource in the <i>hi</i> module.
 
-If <i>hi</i> is <b>NULL</b> and LR_LOADFROMFILE is not specified, the <a href="https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx">LOWORD</a> of this parameter must be the identifier of an OEM image to load. To create this value, use the <a href="https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro with one of the OEM image identifiers defined in Winuser.h. These identifiers have the following prefixes.
+If <i>hi</i> is <b>NULL</b> and LR_LOADFROMFILE is not specified, the <a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a> of this parameter must be the identifier of an OEM image to load. To create this value, use the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro with one of the OEM image identifiers defined in Winuser.h. These identifiers have the following prefixes.
 
 <table>
 <tr>
@@ -296,7 +296,7 @@ LR_LOADTRANSPARENT does not load the image transparently. It creates an opaque i
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648045(v=VS.85).aspx">LoadImage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a>
  
 
  

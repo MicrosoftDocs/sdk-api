@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_iasetindexbuffer.htm
 old-project: direct3d12
 ms.assetid: EB776EC7-42F2-47D3-A1FA-771EC6C4E3AB
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IASetIndexBuffer, IASetIndexBuffer method, IASetIndexBuffer method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,IASetIndexBuffer method, ID3D12GraphicsCommandList.IASetIndexBuffer, ID3D12GraphicsCommandList::IASetIndexBuffer, d3d12/ID3D12GraphicsCommandList::IASetIndexBuffer, direct3d12.id3d12graphicscommandlist_iasetindexbuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Sets the view for the index buffer.
 
 Type: <b>const <a href="https://msdn.microsoft.com/CADD98BF-EDA9-43D6-9ADA-392051541B61">D3D12_INDEX_BUFFER_VIEW</a>*</b>
 
-The view specifies the index buffer's address, size, and <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>, as a pointer to a <a href="https://msdn.microsoft.com/CADD98BF-EDA9-43D6-9ADA-392051541B61">D3D12_INDEX_BUFFER_VIEW</a> structure.
+The view specifies the index buffer's address, size, and <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>, as a pointer to a <a href="https://msdn.microsoft.com/CADD98BF-EDA9-43D6-9ADA-392051541B61">D3D12_INDEX_BUFFER_VIEW</a> structure.
           
 
 

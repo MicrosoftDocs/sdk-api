@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingjobs_item.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5ga5.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxIncomingJobs object [Fax Service],Item property, FaxIncomingJobs.Item, IFaxIncomingJobs.get_Item, IFaxIncomingJobs::get_Item, Item property [Fax Service], Item property [Fax Service],FaxIncomingJobs object, _mfax_faxincomingjobs.item, fax._mfax_faxincomingjobs_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Item</b> property returns a <a href="https://msdn.microsoft.com/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a> object from the <a href="https://msdn.microsoft.com/library/ms684959(v=VS.85).aspx">FaxIncomingJobs</a> collection.
+The <b>Item</b> property returns a <a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a> object from the <a href="https://msdn.microsoft.com/en-us/library/ms684959(v=VS.85).aspx">FaxIncomingJobs</a> collection.
 
 This property is read-only.
 
@@ -65,15 +65,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684959(v=VS.85).aspx">FaxIncomingJobs</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684959(v=VS.85).aspx">FaxIncomingJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692952(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692952(v=VS.85).aspx">Visual Basic Example</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686185(v=VS.85).aspx">get_Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686185(v=VS.85).aspx">get_Item</a>
  
 
  

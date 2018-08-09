@@ -4,10 +4,10 @@ title: WinHttpCreateUrl function
 author: windows-sdk-content
 description: Creates a URL from component parts such as the host name and path.
 old-location: http\winhttpcreateurl.htm
-old-project: WinHttp
+old-project: winhttp
 ms.assetid: 3f0403ea-479a-4764-ae65-d9bbd9233a50
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ICU_ESCAPE, ICU_REJECT_USERPWD, WinHttpCreateUrl, WinHttpCreateUrl function [WinHTTP], http.winhttpcreateurl, winhttp.winhttpcreateurl_function, winhttp/WinHttpCreateUrl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,14 +107,7 @@ Rejects URLs as input that contains either a username, or a password, or both. I
 Pointer to a character buffer that receives the URL as a wide character (Unicode) string.
 
 
-### -param pdwUrlLength
-
-TBD
-
-
-
-
-#### - lpdwUrlLength [in, out]
+### -param pdwUrlLength [in, out]
 
 Pointer to a variable of type unsigned long integer that receives the length of the 
 <i>pwszUrl</i> buffer in wide (Unicode) characters. When the function returns, this parameter receives the length of the URL string wide in characters, minus 1 for the terminating character. If 

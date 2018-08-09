@@ -7,7 +7,7 @@ old-location: security\auditlookupcategoryidfromcategoryguid_func.htm
 old-project: secauthz
 ms.assetid: c50e39f0-d45f-4deb-abe5-6261775b507c
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AuditLookupCategoryIdFromCategoryGuid, AuditLookupCategoryIdFromCategoryGuid function [Security], ntsecapi/AuditLookupCategoryIdFromCategoryGuid, security.auditlookupcategoryidfromcategoryguid_func
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,8 +73,7 @@ A pointer to an element of the <a href="https://msdn.microsoft.com/e8dbd1d5-37d5
 
 
 
-
-						If the function succeeds, it returns <b>TRUE</b>.
+If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.

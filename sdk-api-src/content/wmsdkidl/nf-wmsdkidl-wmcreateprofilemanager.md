@@ -7,7 +7,7 @@ old-location: wmformat\wmcreateprofilemanager.htm
 old-project: wmformat
 ms.assetid: 77eea431-74a0-449e-847e-7885ab33bda1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WMCreateProfileManager, WMCreateProfileManager function [windows Media Format], wmformat.wmcreateprofilemanager, wmsdkidl/WMCreateProfileManager
 ms.prod: windows
 ms.technology: windows-sdk

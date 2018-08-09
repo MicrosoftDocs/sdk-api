@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_getoutputbounds.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\getoutputbounds.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: GetOutputBounds, GetOutputBounds method [WPF Bitmap Effects], GetOutputBounds method [WPF Bitmap Effects],IMILBitmapEffectRenderContextImpl interface, IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],GetOutputBounds method, IMILBitmapEffectRenderContextImpl.GetOutputBounds, IMILBitmapEffectRenderContextImpl::GetOutputBounds, _wibe_imilbitmapeffectrendercontextimpl_getoutputbounds, mileffects/IMILBitmapEffectRenderContextImpl::GetOutputBounds, wibe._wibe_imilbitmapeffectrendercontextimpl_getoutputbounds
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Gets the output bounds of the render context.
 
 ### -param pRect [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735228(v=VS.85).aspx">MIL_RECTD</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735228(v=VS.85).aspx">MIL_RECTD</a>*</b>
 
 The output bounds.
 

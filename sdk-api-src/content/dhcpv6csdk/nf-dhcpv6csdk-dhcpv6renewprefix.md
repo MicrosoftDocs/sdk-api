@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6renewprefix.htm
 old-project: dhcp
 ms.assetid: e4eec40c-0e95-47f7-b102-daa63e5a8da0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Dhcpv6RenewPrefix, Dhcpv6RenewPrefix function [DHCP], dhcp.dhcpv6renewprefix, dhcpv6csdk/Dhcpv6RenewPrefix
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,10 +63,12 @@ The <b>Dhcpv6RenewPrefix</b> function renews a prefix previously acquired with t
 Name of the adapter on which the prefix renewal must be sent.
 
 
-### -param pclassId
+### -param pclassId [in]
 
-TBD
+Pointer to a <a href="https://msdn.microsoft.com/90dbc386-02d9-4631-8af3-edd34537fefc">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to send on the wire.
 
+<div class="alert"><b>Note</b>  DHCPv6 Option Code 15 (0x000F) is not supported by this API. Typically, the User Class option is used by a client to identify the type or category of user or application it represents. A server selects the configuration information for the client based on the classes identified in this option.</div>
+<div> </div>
 
 ### -param prefixleaseInfo [in, out]
 
@@ -82,13 +84,6 @@ Contains the number of seconds a requesting application needs to wait before cal
 
 Specifies  to the DHCPv6 client whether or not to send a REBIND in order to validate the prefix bindings.  <b>TRUE</b> indicates that a REBIND is required.  <b>FALSE</b> indicates RENEW is required.
 
-
-#### - classId [in]
-
-Pointer to a <a href="https://msdn.microsoft.com/90dbc386-02d9-4631-8af3-edd34537fefc">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to send on the wire.
-
-<div class="alert"><b>Note</b>  DHCPv6 Option Code 15 (0x000F) is not supported by this API. Typically, the User Class option is used by a client to identify the type or category of user or application it represents. A server selects the configuration information for the client based on the classes identified in this option.</div>
-<div> </div>
 
 ## -returns
 

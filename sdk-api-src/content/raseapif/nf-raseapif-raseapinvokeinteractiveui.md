@@ -7,7 +7,7 @@ old-location: eap\raseapinvokeinteractiveui.htm
 old-project: eap
 ms.assetid: 71dd40c9-acbd-4fb6-800d-d3f83a61b7b8
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: RasEapInvokeInteractiveUI, RasEapInvokeInteractiveUI callback, RasEapInvokeInteractiveUI callback function [EAP], _eap_raseapinvokeinteractiveui, eap.raseapinvokeinteractiveui, raseapif/RasEapInvokeInteractiveUI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,9 +78,12 @@ Pointer to context data for the interactive UI. The authentication protocol prov
 <a href="https://msdn.microsoft.com/8e38c155-2fa0-42c8-a843-c90e4f3f8854">RasEapMakeMessage</a> function.
 
 
-### -param dwSizeOfUIContextData
+### -param dwSizeOfUIContextData [in]
 
-TBD
+Specifies the size of the context data. The authentication protocol provides the size as a member of the 
+<a href="https://msdn.microsoft.com/d1634973-f6af-4be3-914a-513098c5fccf">PPP_EAP_OUTPUT</a> structure. The RAS Connection Manager receives the 
+<b>PPP_EAP_OUTPUT</b> structure as an output parameter from the 
+<a href="https://msdn.microsoft.com/8e38c155-2fa0-42c8-a843-c90e4f3f8854">RasEapMakeMessage</a> function.
 
 
 ### -param ppDataFromInteractiveUI
@@ -98,14 +101,6 @@ If the interactive UI does not obtain any user-specific data, the pointer that <
 ### -param pdwSizeOfDataFromInteractiveUI [out]
 
 Pointer to a <b>DWORD</b> variable that receives the size of the data returned from the interactive UI. If the interactive UI does not obtain any user-specific data, the <b>DWORD</b> variable should be set to zero.
-
-
-#### - dwSizeofUIContextData [in]
-
-Specifies the size of the context data. The authentication protocol provides the size as a member of the 
-<a href="https://msdn.microsoft.com/d1634973-f6af-4be3-914a-513098c5fccf">PPP_EAP_OUTPUT</a> structure. The RAS Connection Manager receives the 
-<b>PPP_EAP_OUTPUT</b> structure as an output parameter from the 
-<a href="https://msdn.microsoft.com/8e38c155-2fa0-42c8-a843-c90e4f3f8854">RasEapMakeMessage</a> function.
 
 
 ## -returns
@@ -135,8 +130,8 @@ A pointer to the data returned from the interactive UI is passed back to the aut
 <a href="https://msdn.microsoft.com/8e38c155-2fa0-42c8-a843-c90e4f3f8854">RasEapMakeMessage</a> function.
 
 The interactive user interface must support 
-<a href="https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> messages where 
-<a href="https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
+<a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> messages where 
+<a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
 
 
 

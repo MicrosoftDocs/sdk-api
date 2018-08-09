@@ -4,10 +4,10 @@ title: IWindowsMediaLibrarySharingServices::get_allowSharingToAllDevices
 author: windows-sdk-content
 description: The get_allowSharingToAllDevices method retrieves a value that indicates whether the current user's media library is shared with all devices on the home network.
 old-location: wmlss\IWMLSSget_allowSharingToAllDevices.htm
-old-project: WMLSS
+old-project: wmlss
 ms.assetid: f166eca1-9413-4f14-be2f-ef433f3e391a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_allowSharingToAllDevices method, IWindowsMediaLibrarySharingServices.get_allowSharingToAllDevices, IWindowsMediaLibrarySharingServices::get_allowSharingToAllDevices, get_allowSharingToAllDevices, get_allowSharingToAllDevices method [Windows Media Library Sharing Services], get_allowSharingToAllDevices method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_allowSharingToAllDevices, wmlss/IWindowsMediaLibrarySharingServices::get_allowSharingToAllDevices
 ms.prod: windows
 ms.technology: windows-sdk

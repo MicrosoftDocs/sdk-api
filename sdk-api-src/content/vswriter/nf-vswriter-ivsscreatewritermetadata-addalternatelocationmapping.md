@@ -4,10 +4,10 @@ title: IVssCreateWriterMetadata::AddAlternateLocationMapping
 author: windows-sdk-content
 description: The AddAlternateLocationMapping method creates an alternate location mapping for a file set.
 old-location: base\ivsscreatewritermetadata_addalternatelocationmapping.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 966c40d4-8c19-43cc-ba49-028763478f49
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AddAlternateLocationMapping, AddAlternateLocationMapping method [VSS], AddAlternateLocationMapping method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddAlternateLocationMapping method, IVssCreateWriterMetadata.AddAlternateLocationMapping, IVssCreateWriterMetadata::AddAlternateLocationMapping, _win32_ivsscreatewritermetadata_addalternatelocationmapping, base.ivsscreatewritermetadata_addalternatelocationmapping, vswriter/IVssCreateWriterMetadata::AddAlternateLocationMapping
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,16 +91,6 @@ The directory can be a local directory on the VSS machine, or it can be a file s
 UNC paths are supported.
 
 
-#### - wszFilespec [in]
-
-Null-terminated wide character string containing the file specification of the files to be mapped. 
-
-
-
-
-A file specification cannot contain directory specifications (for example, no backslashes) but can contain the ? and * wildcard characters.
-
-
 #### - wszPath [in]
 
 Null-terminated wide character string containing the name of the directory or directory hierarchy containing the files to be mapped. 
@@ -113,6 +103,16 @@ The directory can be a local directory on the VSS machine, or it can be a file s
 The path can contain environment variables (for example, %SystemRoot%) but cannot contain wildcard characters.
 
 There is no requirement that the path end with a backslash ("\"). It is up to applications that retrieve this information to check.
+
+
+#### - wszFilespec [in]
+
+Null-terminated wide character string containing the file specification of the files to be mapped. 
+
+
+
+
+A file specification cannot contain directory specifications (for example, no backslashes) but can contain the ? and * wildcard characters.
 
 
 ## -returns

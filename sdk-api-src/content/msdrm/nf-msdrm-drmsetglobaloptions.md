@@ -7,7 +7,7 @@ old-location: rm\drmsetglobaloptions.htm
 old-project: adrms_sdk
 ms.assetid: fff0d503-e342-4f50-810c-bda4e9e14ad7
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMSetGlobalOptions, DRMSetGlobalOptions function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetGlobalOptions, rm.drmsetglobaloptions
 ms.prod: windows
 ms.technology: windows-sdk

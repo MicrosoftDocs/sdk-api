@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_getendacp.htm
 old-project: TSF
 ms.assetid: 741ec23f-9d73-40ee-af94-f9a18bbb8e87
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetEndACP, GetEndACP method [Text Services Framework], GetEndACP method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetEndACP method, ITextStoreACP.GetEndACP, ITextStoreACP::GetEndACP, _tsf_itextstoreacp_getendacp_ref, textstor/ITextStoreACP::GetEndACP, tsf.itextstoreacp_getendacp
 ms.prod: windows
 ms.technology: windows-sdk

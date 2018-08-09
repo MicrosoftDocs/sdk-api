@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawpalette_initialize.htm
 old-project: directdraw
 ms.assetid: e0ad7ea1-759d-48e9-8d15-6601d9b15588
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IDirectDrawPalette interface [DirectDraw],Initialize method, IDirectDrawPalette.Initialize, IDirectDrawPalette::Initialize, Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw],IDirectDrawPalette interface, ddraw/IDirectDrawPalette::Initialize, directdraw.idirectdrawpalette_initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,14 @@ Initializes the DirectDrawPalette object.
 
 
 
-#### - dwFlags [in]
-
-Currently not used and must be set to 0.
-
-
 #### - lpDD [in]
 
 A pointer to the DirectDraw object to associate with the DirectDrawPalette object.
+
+
+#### - dwFlags [in]
+
+Currently not used and must be set to 0.
 
 
 #### - lpDDColorTable [out]

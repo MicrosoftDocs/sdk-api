@@ -7,7 +7,7 @@ old-location: com\ipicture.htm
 old-project: com
 ms.assetid: 42e3cd0e-2413-494a-8be8-2952089e02d2
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IPicture, IPicture interface [COM], IPicture interface [COM],described, _ctrl_ipicture, com.ipicture, ocidl/IPicture
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ The picture object also supports <a href="https://msdn.microsoft.com/97ea64ee-d9
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPicture</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IPicture</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPicture</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IPicture</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

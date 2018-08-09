@@ -7,7 +7,7 @@ old-location: directwrite\idwritefactory3_createfontfacereference_overload.htm
 old-project: DirectWrite
 ms.assetid: e4f73eff-84f8-3e86-08b1-aa513fad9a61
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: CreateFontFaceReference, CreateFontFaceReference methods [Direct2D], IDWriteFactory3::CreateFontFaceReference, directwrite.idwritefactory3_createfontfacereference_overload, dwrite_3/CreateFontFaceReference
 ms.prod: windows
 ms.technology: windows-sdk

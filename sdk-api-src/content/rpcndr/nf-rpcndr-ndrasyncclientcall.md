@@ -7,7 +7,7 @@ old-location: rpc\ndrasyncclientcall.htm
 old-project: rpc
 ms.assetid: 591f56de-6ceb-46d7-9720-cd2213605ef2
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: NdrAsyncClientCall, NdrAsyncClientCall function [RPC], rpc.ndrasyncclientcall, rpcndr/NdrAsyncClientCall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,7 @@ Pointer to the MIDL-generated <a href="https://msdn.microsoft.com/e3178aaa-a30a-
 Pointer to the MIDL-generated procedure format string that describes the method and parameters.
 
 
-### -param param
-
-TBD
-
-
-
-
-####### - ... [in, out]
+### -param param [in, out]
 
 Pointer to the client-side calling stack.
 

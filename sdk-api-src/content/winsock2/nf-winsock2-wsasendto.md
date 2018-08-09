@@ -4,10 +4,10 @@ title: WSASendTo function
 author: windows-sdk-content
 description: Sends data to a specific destination, using overlapped I/O where applicable.
 old-location: winsock\wsasendto_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: e3a11522-871c-4d6b-a2e6-ca91ffc2b698
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSASendTo, WSASendTo function [Winsock], _win32_wsasendto_2, winsock.wsasendto_2, winsock2/WSASendTo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,9 +98,9 @@ An optional pointer to the address of the target socket in the
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a> structure.
 
 
-### -param iTolen
+### -param iTolen [in]
 
-TBD
+The size, in bytes, of the address in the <i>lpTo</i> parameter.
 
 
 ### -param lpOverlapped [in]
@@ -112,11 +112,6 @@ A pointer to a
 ### -param lpCompletionRoutine [in]
 
 A pointer to the completion routine called when the send operation has been completed (ignored for nonoverlapped sockets).
-
-
-#### - iToLen [in]
-
-The size, in bytes, of the address in the <i>lpTo</i> parameter.
 
 
 ## -returns

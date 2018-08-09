@@ -7,7 +7,7 @@ old-location: dataxchg\moncbstruct_str.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\moncbstruct.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*PMONCBSTRUCT, MONCBSTRUCT, MONCBSTRUCT structure [Data Exchange], PMONCBSTRUCT, PMONCBSTRUCT structure pointer [Data Exchange], _win32_MONCBSTRUCT_str, _win32_moncbstruct_str_cpp, dataxchg.moncbstruct_str, ddeml/MONCBSTRUCT, ddeml/PMONCBSTRUCT, tagMONCBSTRUCT, winui._win32_moncbstruct_str"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -144,7 +144,7 @@ Additional data.
 
 ### -field cc
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms648730(v=VS.85).aspx">CONVCONTEXT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms648730(v=VS.85).aspx">CONVCONTEXT</a></b>
 
 The language information used to share data in different languages. 
 
@@ -168,7 +168,7 @@ Contains the first 32 bytes of data being passed with the transaction (<code>8 *
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648730(v=VS.85).aspx">CONVCONTEXT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648730(v=VS.85).aspx">CONVCONTEXT</a>
 
 
 
@@ -176,23 +176,23 @@ Contains the first 32 bytes of data being passed with the transaction (<code>8 *
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648735(v=VS.85).aspx">MONERRSTRUCT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648735(v=VS.85).aspx">MONERRSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648736(v=VS.85).aspx">MONHSZSTRUCT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648736(v=VS.85).aspx">MONHSZSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648737(v=VS.85).aspx">MONLINKSTRUCT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648737(v=VS.85).aspx">MONLINKSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648738(v=VS.85).aspx">MONMSGSTRUCT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648738(v=VS.85).aspx">MONMSGSTRUCT</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_subnet_state.htm
 old-project: dhcp
 ms.assetid: 1f2960ae-98f2-4c93-9705-e8b74a4f5e21
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDHCP_SUBNET_STATE, DHCP_SUBNET_STATE, DHCP_SUBNET_STATE enumeration [DHCP], DhcpSubnetDisabled, DhcpSubnetDisabledSwitched, DhcpSubnetEnabled, DhcpSubnetEnabledSwitched, DhcpSubnetInvalidState, LPDHCP_SUBNET_STATE, LPDHCP_SUBNET_STATE enumeration pointer [DHCP], _DHCP_SUBNET_STATE, dhcp.dhcp_subnet_state, dhcpsapi/DHCP_SUBNET_STATE, dhcpsapi/DhcpSubnetDisabled, dhcpsapi/DhcpSubnetDisabledSwitched, dhcpsapi/DhcpSubnetEnabled, dhcpsapi/DhcpSubnetEnabledSwitched, dhcpsapi/DhcpSubnetInvalidState, dhcpsapi/LPDHCP_SUBNET_STATE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DHCP_SUBNET_STATE</b> enumeration defines the set of possible states for a subnet.
+The <b>DHCP_SUBNET_STATE</b> enumeration defines the set of possible states for a subnet.
 
 
 ## -enum-fields
@@ -89,8 +88,7 @@ The subnet is in an invalid state.
 
 
 
-<a href="https://msdn.microsoft.com/030b4743-7558-493c-931c-1ad28a6b435a">
-        DHCP_SUBNET_INFO</a>
+<a href="https://msdn.microsoft.com/030b4743-7558-493c-931c-1ad28a6b435a">DHCP_SUBNET_INFO</a>
  
 
  

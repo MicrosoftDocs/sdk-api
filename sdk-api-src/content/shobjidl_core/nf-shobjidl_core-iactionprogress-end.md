@@ -7,7 +7,7 @@ old-location: shell\IActionProgress_End.htm
 old-project: shell
 ms.assetid: 91fa11c3-c781-4e96-9a42-4625b8b24333
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: End, End method [Windows Shell], End method [Windows Shell],IActionProgress interface, IActionProgress interface [Windows Shell],End method, IActionProgress.End, IActionProgress::End, shell.IActionProgress_End, shell_IActionProgress_End, shobjidl_core/IActionProgress::End
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ Return S_OK if successful, or an error value otherwise.
 
 
 
-
-		This method indicates that the action has finished, and the implementing class should perform cleanup and display results to the user, if applicable.
+This method indicates that the action has finished, and the implementing class should perform cleanup and display results to the user, if applicable.
 		
 
 

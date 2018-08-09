@@ -7,7 +7,7 @@ old-location: termserv\iaudiooutputendpointrt_pulseendpoint.htm
 old-project: termserv
 ms.assetid: 8ab117d6-5b13-4420-9cf2-865ff2011806
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: IAudioOutputEndpointRT interface [Remote Desktop Services],PulseEndpoint method, IAudioOutputEndpointRT.PulseEndpoint, IAudioOutputEndpointRT::PulseEndpoint, PulseEndpoint, PulseEndpoint method [Remote Desktop Services], PulseEndpoint method [Remote Desktop Services],IAudioOutputEndpointRT interface, audioengineendpoint/IAudioOutputEndpointRT::PulseEndpoint, termserv.iaudiooutputendpointrt_pulseendpoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-        The <b>PulseEndpoint</b> method is  reserved.
+The <b>PulseEndpoint</b> method is  reserved.
 
 This method is called by the audio engine at the end of a processing pass. The event handle is set by calling the <a href="https://msdn.microsoft.com/9f0f216a-d785-42e9-b07d-f1f2568b5833">IAudioEndpoint::SetEventHandle</a> method.
 

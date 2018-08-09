@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_GetSystemInformation.htm
 old-project: shell
 ms.assetid: 57c066e3-080f-4ecc-b56e-877f0569e901
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetSystemInformation, GetSystemInformation method [Windows Shell], GetSystemInformation method [Windows Shell],IShellDispatch2 object, IShellDispatch2 object [Windows Shell],GetSystemInformation method, IShellDispatch2.GetSystemInformation, IShellDispatch2::GetSystemInformation, _win32_IShellDispatch2_GetSystemInformation, shell.IShellDispatch2_GetSystemInformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ Retrieves system information.
 
 #### - sName [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
 
 A <b>String</b> that specifies the system information that is being requested.
 

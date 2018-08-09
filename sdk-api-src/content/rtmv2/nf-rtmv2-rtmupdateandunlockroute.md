@@ -7,7 +7,7 @@ old-location: rras\rtmupdateandunlockroute.htm
 old-project: rras
 ms.assetid: 917e3e90-b06b-410d-8456-d76e2baa76f8
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RtmUpdateAndUnlockRoute, RtmUpdateAndUnlockRoute function [RAS], _rtmv2ref_rtmupdateandunlockroute, rras.rtmupdateandunlockroute, rtmv2/RtmUpdateAndUnlockRoute
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,14 +93,14 @@ Set this parameter to <b>NULL</b>. <i>NotifyType</i> is reserved for future use.
 Receives RTM_ROUTE_CHANGE_BEST if the best route was changed.
 
 
-#### - NotifyHandle [in]
-
-Set this parameter to <b>NULL</b>. <i>NotifyHandle</i> is reserved for future use.
-
-
 #### - RouteListHandle [in]
 
 Handle to an optional route list to which to move the route. This parameter is optional and can be set to <b>NULL</b>.
+
+
+#### - NotifyHandle [in]
+
+Set this parameter to <b>NULL</b>. <i>NotifyHandle</i> is reserved for future use.
 
 
 ## -returns

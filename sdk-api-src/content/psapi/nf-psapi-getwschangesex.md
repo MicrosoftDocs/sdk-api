@@ -7,7 +7,7 @@ old-location: psapi\getwschangesex.htm
 old-project: psapi
 ms.assetid: 8572db5c-2ffc-424f-8cec-b6a6902fed62
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: GetWsChangesEx, GetWsChangesEx function [PSAPI], K32GetWsChangesEx, base.getwschangesex, psapi.getwschangesex, psapi/GetWsChangesEx, psapi/K32GetWsChangesEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,8 +86,7 @@ The size of the
 
 
 
-
-						If the function succeeds, the return value is nonzero.
+If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 

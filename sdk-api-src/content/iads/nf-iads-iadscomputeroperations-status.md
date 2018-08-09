@@ -7,7 +7,7 @@ old-location: adsi\iadscomputeroperations_status.htm
 old-project: ADSI
 ms.assetid: 85243a67-3fe4-43f2-8173-4e9a507609ba
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IADsComputerOperations interface [ADSI],Status method, IADsComputerOperations.Status, IADsComputerOperations::Status, Status, Status method [ADSI], Status method [ADSI],IADsComputerOperations interface, _ds_iadscomputeroperations_status, adsi.iadscomputeroperations__status, adsi.iadscomputeroperations_status, iads/IADsComputerOperations::Status
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ The <b>IADsComputerOperations::Status</b> method retrieves the status of a compu
 
 ### -param ppObject [out]
 
-Pointer to an  <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface that reports the status code of computer operations. The status code is provider-specific.
+Pointer to an  <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface that reports the status code of computer operations. The status code is provider-specific.
 
 
 ## -returns
@@ -88,7 +88,7 @@ For other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

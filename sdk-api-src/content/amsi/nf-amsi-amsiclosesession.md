@@ -7,7 +7,7 @@ old-location: amsi\amsiclosesession.htm
 old-project: AMSI
 ms.assetid: 1DF760A2-22AE-427E-8395-1EE34BD7BCAB
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 08/06/2018
 ms.keywords: AmsiCloseSession, AmsiCloseSession function [Antimalware Scan Interface], amsi.amsiclosesession, amsi/AmsiCloseSession
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,14 +63,7 @@ Close a session that was opened by <a href="https://msdn.microsoft.com/588C9003-
 The handle of type HAMSICONTEXT that was initially received from <a href="https://msdn.microsoft.com/946FC79C-556C-404E-A559-323AA69B3EC6">AmsiInitialize</a>.
 
 
-### -param amsiSession
-
-TBD
-
-
-
-
-#### - session [in]
+### -param amsiSession [in]
 
 The handle of type HAMSISESSION that was initially received from <a href="https://msdn.microsoft.com/588C9003-8689-4D1C-BDFB-386E60BAECD5">AmsiOpenSession</a>.
 

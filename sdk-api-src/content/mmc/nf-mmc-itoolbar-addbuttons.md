@@ -7,7 +7,7 @@ old-location: mmc\itoolbar_addbuttons.htm
 old-project: MMC
 ms.assetid: 9d37d0bc-d7c3-4d23-8dd4-c5a6c4af15ee
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: AddButtons, AddButtons method [MMC], AddButtons method [MMC],IToolbar interface, IToolbar interface [MMC],AddButtons method, IToolbar.AddButtons, IToolbar::AddButtons, _slate_itoolbar_addbuttons, mmc.itoolbar_addbuttons, mmc/IToolbar::AddButtons
 ms.prod: windows
 ms.technology: windows-sdk

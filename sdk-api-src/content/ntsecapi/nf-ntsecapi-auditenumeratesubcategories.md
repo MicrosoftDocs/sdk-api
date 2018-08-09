@@ -7,7 +7,7 @@ old-location: security\auditenumeratesubcategories_func.htm
 old-project: secauthz
 ms.assetid: c5af83f4-9524-4a39-ad1d-39b21bb073bd
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AuditEnumerateSubCategories, AuditEnumerateSubCategories function [Security], ntsecapi/AuditEnumerateSubCategories, security.auditenumeratesubcategories_func
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,14 +78,7 @@ A pointer to a single buffer that contains both an array of pointers to <b>GUID<
 When you have finished using this buffer, free it by calling the <a href="https://msdn.microsoft.com/697baf9b-91c4-4a88-a190-e9f6812e08af">AuditFree</a> function.
 
 
-### -param pdwCountReturned
-
-TBD
-
-
-
-
-#### - pCountReturned [out]
+### -param pdwCountReturned [out]
 
 A pointer to the number of audit-policy subcategories returned in the <i>ppAuditSubCategoriesArray</i> array.
 
@@ -94,8 +87,7 @@ A pointer to the number of audit-policy subcategories returned in the <i>ppAudit
 
 
 
-
-						If the function succeeds, it returns <b>TRUE</b>.
+If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.

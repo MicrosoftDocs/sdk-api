@@ -7,7 +7,7 @@ old-location: gdi\intersectcliprect.htm
 old-project: gdi
 ms.assetid: 9b3f9bfb-337b-45f0-b9ec-399e5f563638
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IntersectClipRect, IntersectClipRect function [Windows GDI], _win32_IntersectClipRect, gdi.intersectcliprect, wingdi/IntersectClipRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,46 +69,24 @@ The <b>IntersectClipRect</b> function creates a new clipping region from the int
 A handle to the device context.
 
 
-### -param left
-
-TBD
-
-
-### -param top
-
-TBD
-
-
-### -param right
-
-TBD
-
-
-### -param bottom
-
-TBD
-
-
-
-
-#### - nBottomRect [in]
-
-The y-coordinate, in logical units, of the lower-right corner of the rectangle.
-
-
-#### - nLeftRect [in]
+### -param left [in]
 
 The x-coordinate, in logical units, of the upper-left corner of the rectangle.
 
 
-#### - nRightRect [in]
+### -param top [in]
+
+The y-coordinate, in logical units, of the upper-left corner of the rectangle.
+
+
+### -param right [in]
 
 The x-coordinate, in logical units, of the lower-right corner of the rectangle.
 
 
-#### - nTopRect [in]
+### -param bottom [in]
 
-The y-coordinate, in logical units, of the upper-left corner of the rectangle.
+The y-coordinate, in logical units, of the lower-right corner of the rectangle.
 
 
 ## -returns

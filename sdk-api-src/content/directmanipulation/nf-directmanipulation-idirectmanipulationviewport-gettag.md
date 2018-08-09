@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_gettag.htm
 old-project: directmanipulation
 ms.assetid: 7523a99b-de43-4efe-ae22-6632167c039a
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: GetTag, GetTag method [Direct Manipulation], GetTag method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],GetTag method, IDirectManipulationViewport.GetTag, IDirectManipulationViewport::GetTag, directmanipulation.idirectmanipulationviewport_gettag, directmanipulation/IDirectManipulationViewport::GetTag
 ms.prod: windows
 ms.technology: windows-sdk

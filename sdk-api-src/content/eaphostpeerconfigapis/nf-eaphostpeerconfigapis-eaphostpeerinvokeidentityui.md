@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerinvokeidentityui.htm
 old-project: eaphost
 ms.assetid: 48c48162-44d8-45d2-9147-5bf006d493b5
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapHostPeerInvokeIdentityUI, EapHostPeerInvokeIdentityUI function [EAPHost], eaphost.eaphostpeerinvokeidentityui, eaphostpeerconfigapis/EapHostPeerInvokeIdentityUI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,9 +99,9 @@ Size of the buffer indicated by the <i>pUserData</i> parameter, in bytes.
 Pointer to user credential information that pertains to this authentication.
 
 
-### -param pdwSizeOfUserDataOut
+### -param pdwSizeOfUserDataOut [in, out]
 
-TBD
+Size of the buffer set to receive the user data returned by the <i>ppUserDataOut</i> parameter, in bytes.
 
 
 ### -param ppUserDataOut [out]
@@ -123,11 +123,6 @@ A pointer to a pointer to an <a href="https://msdn.microsoft.com/6af8cb67-da77-4
 ### -param ppvReserved [in, out]
 
 Reserved for future use.
-
-
-#### - pdwSizeofUserDataOut [in, out]
-
-Size of the buffer set to receive the user data returned by the <i>ppUserDataOut</i> parameter, in bytes.
 
 
 ## -see-also

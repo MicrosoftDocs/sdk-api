@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritemmgr_adviseitemsink.htm
 old-project: TSF
 ms.assetid: c01d80eb-9156-4fbf-98ff-7f06b145e72f
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: AdviseItemSink, AdviseItemSink method [Text Services Framework], AdviseItemSink method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],AdviseItemSink method, ITfLangBarItemMgr.AdviseItemSink, ITfLangBarItemMgr::AdviseItemSink, _tsf_itflangbaritemmgr_adviseitemsink_ref, ctfutb/ITfLangBarItemMgr::AdviseItemSink, tsf.itflangbaritemmgr_adviseitemsink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -162,8 +162,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/e15fb870-bedc-412d-9561-4db6c0515799">
-        ITfLangBarItemMgr::UnadviseItemsSink
+<a href="https://msdn.microsoft.com/e15fb870-bedc-412d-9561-4db6c0515799">ITfLangBarItemMgr::UnadviseItemsSink
       </a>
 
 
@@ -172,8 +171,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/6280cde9-2350-48a9-8740-01a856b0a1bc">
-        Predefined language bar items
+<a href="https://msdn.microsoft.com/6280cde9-2350-48a9-8740-01a856b0a1bc">Predefined language bar items
       </a>
  
 

@@ -4,10 +4,10 @@ title: TSPI_phoneSelectExtVersion function
 author: windows-sdk-content
 description: The TSPI_phoneSelectExtVersion function selects the indicated extension version for the indicated phone device. Subsequent requests operate according to that extension version.
 old-location: tspi\tspi_phoneselectextversion.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: edd746c8-3d76-4759-b2a7-9ec75dd16842
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: TSPI_phoneSelectExtVersion, TSPI_phoneSelectExtVersion function [TAPI 2.2], _tspi_tspi_phoneselectextversion, tspi.tspi_phoneselectextversion, tspi/TSPI_phoneSelectExtVersion
 ms.prod: windows
 ms.technology: windows-sdk

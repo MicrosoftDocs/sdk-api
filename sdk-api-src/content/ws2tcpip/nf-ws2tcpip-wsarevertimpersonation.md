@@ -4,10 +4,10 @@ title: WSARevertImpersonation function
 author: windows-sdk-content
 description: Terminates the impersonation of a socket peer. This must be called after calling WSAImpersonateSocketPeer and finishing any access checks.
 old-location: winsock\wsarevertimpersonation.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 7de25015-97ec-4338-846f-57df54142d65
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSARevertImpersonation, WSARevertImpersonation function [Winsock], winsock.wsarevertimpersonation, ws2tcpip/WSARevertImpersonation
 ms.prod: windows
 ms.technology: windows-sdk

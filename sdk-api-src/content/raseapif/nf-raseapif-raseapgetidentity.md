@@ -7,7 +7,7 @@ old-location: eap\raseapgetidentity.htm
 old-project: eap
 ms.assetid: 66bc34d2-54b9-46eb-b952-6ad66868c8ce
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: RAS_EAP_FLAG_8021X_AUTH, RAS_EAP_FLAG_FIRST_LINK, RAS_EAP_FLAG_LOGON, RAS_EAP_FLAG_MACHINE_AUTH, RAS_EAP_FLAG_NON_INTERACTIVE, RAS_EAP_FLAG_PREVIEW, RAS_EAP_FLAG_ROUTER, RasEapGetIdentity, RasEapGetIdentity callback, RasEapGetIdentity callback function [EAP], _eap_raseapgetidentity, eap.raseapgetidentity, raseapif/RasEapGetIdentity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -202,14 +202,7 @@ The authentication protocol should allocate the memory buffer for the identity d
 Pointer to a <b>DWORD</b> variable that receives the size of the data pointed to by the <i>ppUserDataOut</i> parameter.
 
 
-### -param ppwszIdentityOut
-
-TBD
-
-
-
-
-#### - ppwszIdentity [out]
+### -param ppwszIdentityOut [out]
 
 Pointer to a pointer that, on successful return, points to a null-terminated Unicode string that identifies the user requesting authentication. This string is passed to the authentication protocol in the <b>pszIdentity</b> member of 
 <a href="https://msdn.microsoft.com/80a8f118-323d-4040-91f7-202eeee6d227">PPP_EAP_INPUT</a> during the call to 
@@ -255,8 +248,8 @@ This function is called by the RAS function,
 
 If 
 <b>RasEapGetIdentity</b> displays a user interface, the user interface must support 
-<a href="https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> messages where 
-<a href="https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
+<a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> messages where 
+<a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
 
 
 

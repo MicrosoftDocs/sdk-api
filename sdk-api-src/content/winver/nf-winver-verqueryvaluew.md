@@ -7,7 +7,7 @@ old-location: menurc\verqueryvalue.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verqueryvalue.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: VerQueryValue, VerQueryValue function [Menus and Other Resources], VerQueryValueA, VerQueryValueW, _win32_VerQueryValue, _win32_verqueryvalue_cpp, menurc.verqueryvalue, winui._win32_verqueryvalue, winver/VerQueryValue, winver/VerQueryValueA, winver/VerQueryValueW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,14 +121,14 @@ When this method returns, contains a pointer to the size of the requested data p
 The root block. The function retrieves a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure for the version-information resource.
 
 
-##### - lpSubBlock.\StringFileInfo\lang-codepage\string-name
-
-A value in a language-specific <a href="https://msdn.microsoft.com/en-us/library/ms646992(v=VS.85).aspx">StringTable</a> structure. The <i>lang-codepage</i> name is a concatenation of a language and code page identifier pair found as a <b>DWORD</b> in the translation array for the resource. Here the <i>lang-codepage</i> name must be specified as a hexadecimal string. The <i>string-name</i> name must be one of the predefined strings described in the following Remarks section. The function retrieves a string value specific to the language and code page indicated. 
-
-
 ##### - lpSubBlock.\VarFileInfo\Translation
 
 The translation array in a <a href="https://msdn.microsoft.com/en-us/library/ms646994(v=VS.85).aspx">Var</a> variable information structure—the <b>Value</b> member of this structure. The function retrieves a pointer to this array of language and code page identifiers. An application can use these identifiers to access a language-specific <a href="https://msdn.microsoft.com/en-us/library/ms646992(v=VS.85).aspx">StringTable</a> structure (using the <b>szKey</b> member) in the version-information resource.
+
+
+##### - lpSubBlock.\StringFileInfo\lang-codepage\string-name
+
+A value in a language-specific <a href="https://msdn.microsoft.com/en-us/library/ms646992(v=VS.85).aspx">StringTable</a> structure. The <i>lang-codepage</i> name is a concatenation of a language and code page identifier pair found as a <b>DWORD</b> in the translation array for the resource. Here the <i>lang-codepage</i> name must be specified as a hexadecimal string. The <i>string-name</i> name must be one of the predefined strings described in the following Remarks section. The function retrieves a string value specific to the language and code page indicated. 
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: psapi\performance_information_str.htm
 old-project: psapi
 ms.assetid: efc47f6e-1a60-4e77-9e5d-c725f9042ab8
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: "*PPERFORMACE_INFORMATION, *PPERFORMANCE_INFORMATION, PERFORMACE_INFORMATION, PERFORMANCE_INFORMATION, PERFORMANCE_INFORMATION structure [PSAPI], PPERFORMANCE_INFORMATION, PPERFORMANCE_INFORMATION structure pointer [PSAPI], _PERFORMANCE_INFORMATION, _win32_performance_information_str, base.performance_information_str, psapi.performance_information_str, psapi/PERFORMANCE_INFORMATION, psapi/PPERFORMANCE_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

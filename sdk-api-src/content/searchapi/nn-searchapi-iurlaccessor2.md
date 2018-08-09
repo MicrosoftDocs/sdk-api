@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor2.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor2\iurlaccessor2.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: IUrlAccessor2, IUrlAccessor2 interface [search], IUrlAccessor2 interface [search],described, _search_IUrlAccessor2, search._search_IUrlAccessor2, searchapi/IUrlAccessor2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,12 +51,12 @@ req.product: ADAM
 ## -description
 
 
-Extends functionality of the <a href="https://msdn.microsoft.com/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> interface.
+Extends functionality of the <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUrlAccessor2</b> interface inherits from <a href="https://msdn.microsoft.com/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a>. <b>IUrlAccessor2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUrlAccessor2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a>. <b>IUrlAccessor2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,29 +71,27 @@ The <b>IUrlAccessor2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231400(v=VS.85).aspx">GetCodePage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231400(v=VS.85).aspx">GetCodePage</a>
 </td>
 <td align="left" width="63%">
-
-            Gets the code page for properties of the URL item.
+Gets the code page for properties of the URL item.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231401(v=VS.85).aspx">GetDisplayUrl</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231401(v=VS.85).aspx">GetDisplayUrl</a>
 </td>
 <td align="left" width="63%">
-
-            Gets the user-friendly path for the URL item.
+Gets the user-friendly path for the URL item.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231411(v=VS.85).aspx">IsDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231411(v=VS.85).aspx">IsDocument</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether an item URL is a document or directory.
@@ -112,11 +110,11 @@ Ascertains whether an item URL is a document or directory.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc142931(v=VS.85).aspx">IUrlAccessor3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Cc142931(v=VS.85).aspx">IUrlAccessor3</a>
 
 
 
@@ -124,11 +122,11 @@ Ascertains whether an item URL is a document or directory.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965709(v=VS.85).aspx">Search Protocol Handler Error Messages</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965709(v=VS.85).aspx">Search Protocol Handler Error Messages</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
+<a href="https://msdn.microsoft.com/en-us/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
  
 
  

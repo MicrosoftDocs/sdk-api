@@ -7,7 +7,7 @@ old-location: mf\imfpmphost.htm
 old-project: medfound
 ms.assetid: fab1fb42-07c5-4a74-b6f5-0950b2c3ba46
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFPMPHost, IMFPMPHost interface [Media Foundation], IMFPMPHost interface [Media Foundation],described, fab1fb42-07c5-4a74-b6f5-0950b2c3ba46, mf.imfpmphost, mfidl/IMFPMPHost
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ The <b>IMFPMPHost</b> interface has these methods.
 <a href="https://msdn.microsoft.com/787fc392-1858-41f4-a1ce-2da02a5e789f">CreateObjectByCLSID</a>
 </td>
 <td align="left" width="63%">
-
-          Creates an object in the PMP process, from a CLSID.
+Creates an object in the PMP process, from a CLSID.
         
 
 </td>
@@ -86,8 +85,7 @@ The <b>IMFPMPHost</b> interface has these methods.
 <a href="https://msdn.microsoft.com/45c533ca-d8ca-43f9-91d2-011a0b0d63a6">LockProcess</a>
 </td>
 <td align="left" width="63%">
-
-          Blocks the PMP process from ending.
+Blocks the PMP process from ending.
         
 
 </td>
@@ -97,8 +95,7 @@ The <b>IMFPMPHost</b> interface has these methods.
 <a href="https://msdn.microsoft.com/be96be6d-47de-4d2b-81fc-13079de33888">RemoteCreateObjectByCLSID</a>
 </td>
 <td align="left" width="63%">
-
-          Remotable version of <a href="https://msdn.microsoft.com/787fc392-1858-41f4-a1ce-2da02a5e789f">CreateObjectByCLSID</a>. (Not used by applications.)
+Remotable version of <a href="https://msdn.microsoft.com/787fc392-1858-41f4-a1ce-2da02a5e789f">CreateObjectByCLSID</a>. (Not used by applications.)
         
 
 </td>
@@ -108,8 +105,7 @@ The <b>IMFPMPHost</b> interface has these methods.
 <a href="https://msdn.microsoft.com/768f4579-5109-4d2b-a93d-f17f6b850c63">UnlockProcess</a>
 </td>
 <td align="left" width="63%">
-
-          Decrements the lock count on the PMP process.
+Decrements the lock count on the PMP process.
         
 
 </td>

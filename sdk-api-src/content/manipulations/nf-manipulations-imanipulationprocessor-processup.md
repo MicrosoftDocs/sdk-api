@@ -7,7 +7,7 @@ old-location: wintouch\imanipulationprocessor_processup.htm
 old-project: wintouch
 ms.assetid: c93f6729-5e50-41a1-867c-93e4ce9ecda9
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/06/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessUp method, IManipulationProcessor.ProcessUp, IManipulationProcessor::ProcessUp, ProcessUp, ProcessUp method [Windows Touch], ProcessUp method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessUp, wintouch.imanipulationprocessor_processup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,8 +87,7 @@ Returns <b>S_OK</b> on success, otherwise returns an error code such as <b>E_FAI
 
 
 
-
-    This method takes a timestamp using system time rather than from the touch hardware. To improve the experience in 
+This method takes a timestamp using system time rather than from the touch hardware. To improve the experience in 
     cases where performance is degrading you should use the <a href="https://msdn.microsoft.com/fafea353-9126-454d-9311-4859e5ae5712">ProcessUpWithTime</a> method.    
 
 

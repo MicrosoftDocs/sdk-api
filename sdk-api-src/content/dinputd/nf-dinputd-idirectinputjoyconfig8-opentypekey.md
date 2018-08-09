@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8_opentypekey.htm
 old-project: hid
 ms.assetid: d747625b-a9e3-41cb-894a-1f62599c62a9
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/30/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],OpenTypeKey method, IDirectInputJoyConfig8.OpenTypeKey, IDirectInputJoyConfig8::OpenTypeKey, OpenTypeKey, OpenTypeKey method [Human Input Devices], OpenTypeKey method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_073c7914-daaf-4db5-95bc-2fd2aef897b5.xml, dinputd/IDirectInputJoyConfig8::OpenTypeKey, hid.idirectinputjoyconfig8_opentypekey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,11 +65,6 @@ The <b>IDirectInputJoyConfig8::OpenTypeKey </b>method opens the registry key ass
 
 
 
-#### - phk
-
-Points to the opened registry key, on success. 
-
-
 #### - pwszType
 
 Points to the name of the type. The name of the type cannot exceed MAX_PATH characters, including the terminating null character. The name cannot begin with a "#" character. Types beginning with "#" are reserved by DirectInput. 
@@ -78,6 +73,11 @@ Points to the name of the type. The name of the type cannot exceed MAX_PATH char
 #### - regsam
 
 Specifies a registry security access mask. This can be any of the values permitted by the <b>RegOpenKeyEx</b> function. If write access is requested, then joystick configuration must first have been acquired. If only read access is requested, then acquisition is not required. 
+
+
+#### - phk
+
+Points to the opened registry key, on success. 
 
 
 ## -returns

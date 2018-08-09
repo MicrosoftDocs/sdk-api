@@ -7,7 +7,7 @@ old-location: cos\icomobjectpool2events_onobjpoolgetfromtx2.htm
 old-project: cossdk
 ms.assetid: d1c8b02a-8262-48f6-a160-5bef21bed5ce
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IComObjectPool2Events interface [COM+],OnObjPoolGetFromTx2 method, IComObjectPool2Events.OnObjPoolGetFromTx2, IComObjectPool2Events::OnObjPoolGetFromTx2, OnObjPoolGetFromTx2, OnObjPoolGetFromTx2 method [COM+], OnObjPoolGetFromTx2 method [COM+],IComObjectPool2Events interface, _dtc_IComObjectPool2Events_OnObjPoolGetFromTx2, comsvcs/IComObjectPool2Events::OnObjPoolGetFromTx2, cos.icomobjectpool2events_onobjpoolgetfromtx2
 ms.prod: windows
 ms.technology: windows-sdk

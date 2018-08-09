@@ -7,7 +7,7 @@ old-location: com\oleloadfromstream.htm
 old-project: com
 ms.assetid: 2d54a0ef-906b-4886-a095-4ff2f3d4e634
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: OleLoadFromStream, OleLoadFromStream function [COM], _ole_OleLoadFromStream, com.oleloadfromstream, ole/OleLoadFromStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,9 @@ Loads an object from the stream.
 
 
 
-#### - pStm [in]
+### -param pStm
 
-Pointer to the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface on the stream from which the object is to be loaded.
+TBD
 
 
 #### - iidInterface [in]
@@ -73,6 +73,11 @@ Interface identifier (IID) the caller wants to use to communicate with the objec
 #### - ppvObj [out]
 
 Address of pointer variable that receives the interface pointer requested in riid. Upon successful return, *<i>ppvObj</i> contains the requested interface pointer on the newly loaded object.
+
+
+#### - [in]
+
+Pointer to the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface on the stream from which the object is to be loaded.
 
 
 ## -returns

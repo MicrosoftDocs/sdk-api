@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob2_getreplydata.htm
 old-project: bits
 ms.assetid: f29df35f-48c2-4837-9809-46bd04f08bfb
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: GetReplyData, GetReplyData method [BITS], GetReplyData method [BITS],IBackgroundCopyJob2 interface, IBackgroundCopyJob2 interface [BITS],GetReplyData method, IBackgroundCopyJob2.GetReplyData, IBackgroundCopyJob2::GetReplyData, _drz_ibackgroundcopyjob2_getreplydata, bits.ibackgroundcopyjob2_getreplydata, bits1_5/IBackgroundCopyJob2::GetReplyData
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\NMITEMACTIVATE.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmitemactivate.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPNMITEMACTIVATE, LPNMITEMACTIVATE, LPNMITEMACTIVATE structure pointer [Windows Controls], LVKF_ALT, LVKF_CONTROL, LVKF_SHIFT, NMITEMACTIVATE, NMITEMACTIVATE structure [Windows Controls], _win32_NMITEMACTIVATE, _win32_NMITEMACTIVATE_cpp, commctrl/LPNMITEMACTIVATE, commctrl/NMITEMACTIVATE, controls.NMITEMACTIVATE, controls._win32_NMITEMACTIVATE, tagNMITEMACTIVATE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information about an <a href="https://msdn.microsoft.com/library/Bb774843(v=VS.85).aspx">LVN_ITEMACTIVATE</a> notification code. 
+Contains information about an <a href="https://msdn.microsoft.com/en-us/library/Bb774843(v=VS.85).aspx">LVN_ITEMACTIVATE</a> notification code. 
 
 
 ## -struct-fields
@@ -60,10 +60,10 @@ Contains information about an <a href="https://msdn.microsoft.com/library/Bb7748
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification code. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification code. 
 
 
 ### -field iItem
@@ -99,7 +99,7 @@ Old item state. This member is zero for notification codes that do not use it.
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Set of flags that indicate the item attributes that have changed. This member is zero for notifications that do not use it. Otherwise, it can have the same values as the 
-					<b>mask</b> member of the <a href="https://msdn.microsoft.com/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure. 
+					<b>mask</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure. 
 
 
 ### -field ptAction

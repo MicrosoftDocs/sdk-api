@@ -7,7 +7,7 @@ old-location: stg\gethglobalfromilockbytes.htm
 old-project: stg
 ms.assetid: 084fcd1d-5b85-448c-862a-378353e1e2e6
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: GetHGlobalFromILockBytes, GetHGlobalFromILockBytes function [Structured Storage], _stg_gethglobalfromilockbytes, coml2api/GetHGlobalFromILockBytes, stg.gethglobalfromilockbytes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.irql:
 ## -description
 
 
-
-			The 
+The 
 <b>GetHGlobalFromILockBytes</b> function retrieves a global memory handle to a byte array object created using the 
 <a href="https://msdn.microsoft.com/e7963be7-ccd8-49fb-85bb-e22fbbb6dc5c">CreateILockBytesOnHGlobal</a> function.
 
@@ -63,21 +62,16 @@ req.irql:
 
 
 
-### -param plkbyt
+### -param plkbyt [in]
 
-TBD
+Pointer to the 
+<a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> interface on the byte-array object previously created by a call to the 
+<a href="https://msdn.microsoft.com/e7963be7-ccd8-49fb-85bb-e22fbbb6dc5c">CreateILockBytesOnHGlobal</a> function.
 
 
 ### -param phglobal [out]
 
 Pointer to the current memory handle used by the specified byte-array object.
-
-
-#### - pLkbyt [in]
-
-Pointer to the 
-<a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> interface on the byte-array object previously created by a call to the 
-<a href="https://msdn.microsoft.com/e7963be7-ccd8-49fb-85bb-e22fbbb6dc5c">CreateILockBytesOnHGlobal</a> function.
 
 
 ## -returns

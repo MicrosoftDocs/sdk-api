@@ -4,10 +4,10 @@ title: RmStartSession function
 author: windows-sdk-content
 description: Starts a new Restart Manager session.
 old-location: rstmgr\rmstartsession.htm
-old-project: RstMgr
+old-project: rstmgr
 ms.assetid: bc79c6e5-49e6-44d3-90f6-b0109fb9611b
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: RmStartSession, RmStartSession function [Restart Mgr], restartmanager/RmStartSession, rstmgr.rmstartsession
 ms.prod: windows
 ms.technology: windows-sdk

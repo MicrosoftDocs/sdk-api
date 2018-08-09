@@ -7,7 +7,7 @@ old-location: intl\immassociatecontextex.htm
 old-project: Intl
 ms.assetid: 7f44d274-b5e9-4feb-acd6-5c68b3f7d868
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: IACE_CHILDREN, IACE_DEFAULT, IACE_IGNORENOCONTEXT, ImmAssociateContextEx, ImmAssociateContextEx function [Internationalization for Windows Applications], _win32_ImmAssociateContextEx, imm/ImmAssociateContextEx, intl.immassociatecontextex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,6 +68,16 @@ TBD
 
 
 
+#### - [in]
+
+Handle to the window to associate with the input context.
+
+
+#### - hIMC [in]
+
+Handle to the input method context.
+
+
 #### - dwFlags [in]
 
 Flags specifying the type of association between the window and the input method context. This parameter can have one of the following values.
@@ -109,16 +119,6 @@ Do not associate the input method context with windows that are not associated w
 </tr>
 </table>
  
-
-
-#### - hIMC [in]
-
-Handle to the input method context.
-
-
-#### - hWnd [in]
-
-Handle to the window to associate with the input context.
 
 
 ## -returns

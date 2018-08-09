@@ -7,7 +7,7 @@ old-location: inputmsg\is_pointer_thirdbutton_wparam.htm
 old-project: InputMsg
 ms.assetid: 0956F801-AB61-4B8A-B893-13862A1FC3F3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IS_POINTER_THIRDBUTTON_WPARAM, IS_POINTER_THIRDBUTTON_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_thirdbutton_wparam, winuser/IS_POINTER_THIRDBUTTON_WPARAM
 ms.prod: windows
 ms.technology: windows-sdk

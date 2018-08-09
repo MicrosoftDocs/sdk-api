@@ -7,7 +7,7 @@ old-location: rpc\rpcserveruseprotseq.htm
 old-project: rpc
 ms.assetid: 9b2c9cf0-fe96-4063-a893-f2793595af57
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcServerUseProtseq, RpcServerUseProtseq function [RPC], RpcServerUseProtseqA, RpcServerUseProtseqW, _rpc_rpcserveruseprotseq, rpc.rpcserveruseprotseq, rpcdce/RpcServerUseProtseq, rpcdce/RpcServerUseProtseqA, rpcdce/RpcServerUseProtseqW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ The
 
 ### -param Protseq
 
-TBD
+Pointer to a string identifier of the protocol sequence to register with the RPC run-time library.
 
 
 ### -param MaxCalls
@@ -75,11 +75,6 @@ Backlog queue length for the <b>ncacn_ip_tcp</b> protocol sequence. All other pr
 ### -param SecurityDescriptor
 
 Pointer to an optional parameter provided for the security subsystem. Used only for <b>ncacn_np</b> and <b>ncalrpc</b> protocol sequences. All other protocol sequences ignore this parameter. Using a security descriptor on the endpoint in order to make a server secure is not recommended. This parameter does not appear in the DCE specification for this API.
-
-
-#### - ProtSeq
-
-Pointer to a string identifier of the protocol sequence to register with the RPC run-time library.
 
 
 ## -returns

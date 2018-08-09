@@ -7,7 +7,7 @@ old-location: iphlp\convertinterfaceluidtonamea.htm
 old-project: iphlp
 ms.assetid: c65f7b3c-55f4-40f8-9a7a-19d1066deca4
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: ConvertInterfaceLuidToNameA, ConvertInterfaceLuidToNameA function [IP Helper], iphlp.convertinterfaceluidtonamea, netioapi/ConvertInterfaceLuidToNameA
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,8 +92,7 @@ On success,
 <tr>
 <td width="40%">
 <dl>
-<dt><b>
-								ERROR_INVALID_PARAMETER</b></dt>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -122,9 +121,7 @@ Not enough storage is available to process this command. This error is returned 
 
 
 
-The <b>ConvertInterfaceLuidToNameA</b> function is available on Windows Vista
-  
-   and later.
+The <b>ConvertInterfaceLuidToNameA</b> function is available on Windows Vistaand later.
 
 The <b>ConvertInterfaceLuidToNameA</b> function is protocol independent and works with network interfaces for both the IPv6 and IPv4 protocol. The <b>ConvertInterfaceLuidToNameA</b> converts a network interface LUID to an ANSI interface name. 
 

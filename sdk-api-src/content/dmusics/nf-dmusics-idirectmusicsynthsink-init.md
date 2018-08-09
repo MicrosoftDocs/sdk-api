@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynthsink_init.htm
 old-project: audio
 ms.assetid: d390c54d-18f6-47e1-9d52-057c984d284a
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/30/2018
 ms.keywords: IDirectMusicSynthSink interface [Audio Devices],Init method, IDirectMusicSynthSink.Init, IDirectMusicSynthSink::Init, Init, Init method [Audio Devices], Init method [Audio Devices],IDirectMusicSynthSink interface, audio.idirectmusicsynthsink_init, audmp-routines_d4f2d6c1-4bb6-453e-ad40-d0daab7775a3.xml, dmusics/IDirectMusicSynthSink::Init
 ms.prod: windows
 ms.technology: windows-sdk

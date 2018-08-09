@@ -4,10 +4,10 @@ title: SLClose function
 author: windows-sdk-content
 description: Closes the Software Licensing Client (SLC) context handle.
 old-location: security\slclose.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: a2483fa2-cdd6-48b8-861f-34fd5efc34df
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLClose, SLClose function [Security], security.slclose, slpublic/SLClose
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLClose function

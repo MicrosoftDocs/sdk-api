@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_FontCollection_FontCollection_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontcollectionclass\fontcollection_82.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: FontCollection, FontCollection class [GDI+],FontCollection constructor, FontCollection constructor [GDI+], FontCollection constructor [GDI+],FontCollection class, FontCollection.FontCollection, FontCollection.FontCollection(const FontCollection &), FontCollection::FontCollection, FontCollection::FontCollection(const FontCollection &), _gdiplus_CLASS_FontCollection_FontCollection_, gdiplus._gdiplus_CLASS_FontCollection_FontCollection_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,23 +66,23 @@ Creates an empty <b>FontCollection::FontCollection</b> object.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534438(v=VS.85).aspx">FontCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534438(v=VS.85).aspx">FontCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534469(v=VS.85).aspx">InstalledFontCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534469(v=VS.85).aspx">InstalledFontCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
  
 
  

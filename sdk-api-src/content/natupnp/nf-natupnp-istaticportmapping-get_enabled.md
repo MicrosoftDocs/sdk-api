@@ -7,7 +7,7 @@ old-location: ics\istaticportmapping_get_enabled.htm
 old-project: ics
 ms.assetid: a4a787ac-0ab2-413e-8738-23296e969477
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_Enabled method, IStaticPortMapping.get_Enabled, IStaticPortMapping::get_Enabled, _ics_istaticportmapping_get_enabled, get_Enabled, get_Enabled method [ICS/ICF], get_Enabled method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_enabled, natupnp/IStaticPortMapping::get_Enabled
 ms.prod: windows
 ms.technology: windows-sdk

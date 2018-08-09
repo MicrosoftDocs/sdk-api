@@ -7,7 +7,7 @@ old-location: p2p\peerenumgroups.htm
 old-project: p2psdk
 ms.assetid: debb3c57-b5d2-440b-acf2-b6d8e712849b
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerEnumGroups, PeerEnumGroups function [Peer Networking], p2p.peerenumgroups, p2p/PeerEnumGroups
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerEnumGroups</b> function creates and returns a peer enumeration handle used to enumerate all the peer groups associated with a specific peer identity.
+The <b>PeerEnumGroups</b> function creates and returns a peer enumeration handle used to enumerate all the peer groups associated with a specific peer identity.
 
 
 ## -parameters
@@ -124,8 +123,7 @@ The specified peer identity cannot be found.
 
 
 
-
-        Once the application has obtained the enumeration handle, use <a href="https://msdn.microsoft.com/015faeb3-82d9-49e5-a451-7394bf83240f">PeerGetNextItem</a> and <a href="https://msdn.microsoft.com/8f6fec31-8867-4d65-b5b0-e6506be9c991">PeerGetItemCount</a> to enumerate the peer groups.
+Once the application has obtained the enumeration handle, use <a href="https://msdn.microsoft.com/015faeb3-82d9-49e5-a451-7394bf83240f">PeerGetNextItem</a> and <a href="https://msdn.microsoft.com/8f6fec31-8867-4d65-b5b0-e6506be9c991">PeerGetItemCount</a> to enumerate the peer groups.
 
 When enumerating peer groups, <a href="https://msdn.microsoft.com/015faeb3-82d9-49e5-a451-7394bf83240f">PeerGetNextItem</a>  returns an array of pointers to <a href="https://msdn.microsoft.com/4c64664e-33c6-490e-b160-7bdb5fb428fa">PEER_NAME_PAIR</a> structures.
 

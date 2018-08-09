@@ -7,7 +7,7 @@ old-location: rras\mgmgetprotocoloninterface.htm
 old-project: rras
 ms.assetid: 38f6cc9b-ae9e-49a3-8f5e-835699ff3d60
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MgmGetProtocolOnInterface, MgmGetProtocolOnInterface function [RAS], _mpr_mgmgetprotocoloninterface, mgm/MgmGetProtocolOnInterface, rras.mgmgetprotocoloninterface
 ms.prod: windows
 ms.technology: windows-sdk

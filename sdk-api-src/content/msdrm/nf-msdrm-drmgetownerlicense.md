@@ -7,7 +7,7 @@ old-location: rm\drmgetownerlicense.htm
 old-project: adrms_sdk
 ms.assetid: e657ac08-9635-40ac-8d9f-cc8ab9ed3a6c
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMGetOwnerLicense, DRMGetOwnerLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetOwnerLicense, rm.drmgetownerlicense
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,19 +72,14 @@ The <b>DRMGetOwnerLicense</b> function retrieves an owner license created by cal
 A handle to a signed issuance license.
 
 
-### -param puOwnerLicenseLength
+### -param puOwnerLicenseLength [in, out]
 
-TBD
+An unsigned integer that contains the length, in characters, of the owner license retrieved by this function. The terminating null character is included in the length.
 
 
 ### -param wszOwnerLicense [out]
 
 A null-terminated string that contains the owner license in XrML format. For example XrML owner license, see <a href="https://msdn.microsoft.com/5c9ccaf3-e4ef-4b01-87f7-9c18cd3bc4d0">Owner License XML Example</a>.
-
-
-#### - puLength [in, out]
-
-An unsigned integer that contains the length, in characters, of the owner license retrieved by this function. The terminating null character is included in the length.
 
 
 ## -returns

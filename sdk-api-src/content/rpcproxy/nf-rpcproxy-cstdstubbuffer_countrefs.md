@@ -7,7 +7,7 @@ old-location: rpc\cstdstubbuffer_countrefs.htm
 old-project: rpc
 ms.assetid: ad330a86-27d9-453d-af9b-4a7f62d641bf
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: CStdStubBuffer_CountRefs, CStdStubBuffer_CountRefs function [RPC], rpc.cstdstubbuffer_countrefs, rpcproxy/CStdStubBuffer_CountRefs
 ms.prod: windows
 ms.technology: windows-sdk

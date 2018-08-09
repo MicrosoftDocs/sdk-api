@@ -7,7 +7,7 @@ old-location: ndf\ndfcloseincident.htm
 old-project: ndf
 ms.assetid: 5e5caf41-ca24-42e0-ac22-3b569400c383
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: NdfCloseIncident, NdfCloseIncident function [NDF], ndf.ndfcloseincident, ndfapi/NdfCloseIncident
 ms.prod: windows
 ms.technology: windows-sdk

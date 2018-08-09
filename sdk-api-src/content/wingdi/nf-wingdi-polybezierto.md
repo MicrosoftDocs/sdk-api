@@ -7,7 +7,7 @@ old-location: gdi\polybezierto.htm
 old-project: gdi
 ms.assetid: 0c8d6d6d-d0a3-4188-91ad-934e6f054862
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PolyBezierTo, PolyBezierTo function [Windows GDI], _win32_PolyBezierTo, gdi.polybezierto, wingdi/PolyBezierTo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,26 +69,14 @@ The <b>PolyBezierTo</b> function draws one or more Bézier curves.
 A handle to a device context.
 
 
-### -param apt
-
-TBD
-
-
-### -param cpt
-
-TBD
-
-
-
-
-#### - cCount [in]
-
-The number of points in the <i>lppt</i> array. This value must be three times the number of curves to be drawn because each Bézier curve requires two control points and an ending point.
-
-
-#### - lppt [in]
+### -param apt [in]
 
 A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures that contains the endpoints and control points, in logical units.
+
+
+### -param cpt [in]
+
+The number of points in the <i>lppt</i> array. This value must be three times the number of curves to be drawn because each Bézier curve requires two control points and an ending point.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: wmp\iwmpmetadatatext.htm
 old-project: WMP
 ms.assetid: 15d040fa-6c14-41ff-bd21-a8991c17681d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPMetadataText, IWMPMetadataText interface [Windows Media Player], IWMPMetadataText interface [Windows Media Player],described, IWMPMetadataTextInterface, wmp.iwmpmetadatatext, wmp/IWMPMetadataText
 ms.prod: windows
 ms.technology: windows-sdk

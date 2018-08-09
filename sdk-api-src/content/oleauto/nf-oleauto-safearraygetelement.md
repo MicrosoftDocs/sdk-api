@@ -7,7 +7,7 @@ old-location: automat\safearraygetelement.htm
 old-project: automat
 ms.assetid: 47e9ee31-1e3b-4193-8467-6ef0db05966e
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: SafeArrayGetElement, SafeArrayGetElement function [Automation], _oa96_SafeArrayGetElement, automat.safearraygetelement, oleauto/SafeArrayGetElement
 ms.prod: windows
 ms.technology: windows-sdk

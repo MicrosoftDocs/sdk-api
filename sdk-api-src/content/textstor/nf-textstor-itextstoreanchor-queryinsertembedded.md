@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_queryinsertembedded.htm
 old-project: TSF
 ms.assetid: 722506fa-db83-49d3-9434-a4ad7b797ce2
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],QueryInsertEmbedded method, ITextStoreAnchor.QueryInsertEmbedded, ITextStoreAnchor::QueryInsertEmbedded, QueryInsertEmbedded, QueryInsertEmbedded method [Text Services Framework], QueryInsertEmbedded method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::QueryInsertEmbedded, tsf.itextstoreanchor_queryinsertembedded
 ms.prod: windows
 ms.technology: windows-sdk
@@ -139,8 +139,7 @@ The clipboard formats supported by the document are dependent on the application
 
 
 
-<a href="https://msdn.microsoft.com/22c804b9-e260-4a8a-bbb3-fcc81fa97c7a">
-        ITextStoreAnchor::InsertEmbeddedAtSelection
+<a href="https://msdn.microsoft.com/22c804b9-e260-4a8a-bbb3-fcc81fa97c7a">ITextStoreAnchor::InsertEmbeddedAtSelection
       </a>
  
 

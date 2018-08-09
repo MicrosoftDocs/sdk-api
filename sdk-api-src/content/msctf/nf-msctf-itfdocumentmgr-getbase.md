@@ -7,7 +7,7 @@ old-location: tsf\itfdocumentmgr_getbase.htm
 old-project: TSF
 ms.assetid: 71248c77-7440-412c-b565-39c04108b98b
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetBase, GetBase method [Text Services Framework], GetBase method [Text Services Framework],ITfDocumentMgr interface, ITfDocumentMgr interface [Text Services Framework],GetBase method, ITfDocumentMgr.GetBase, ITfDocumentMgr::GetBase, _tsf_itfdocumentmgr_getbase_ref, msctf/ITfDocumentMgr::GetBase, tsf.itfdocumentmgr_getbase
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,14 +127,12 @@ A memory allocation error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/5be7635f-ec27-4892-9cfe-dba31e202510">
-        ITfDocumentMgr::GetTop
+<a href="https://msdn.microsoft.com/5be7635f-ec27-4892-9cfe-dba31e202510">ITfDocumentMgr::GetTop
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/afd5452b-4121-428d-801f-1638c2767c67">
-        ITfDocumentMgr::Push
+<a href="https://msdn.microsoft.com/afd5452b-4121-428d-801f-1638c2767c67">ITfDocumentMgr::Push
       </a>
  
 

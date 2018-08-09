@@ -7,7 +7,7 @@ old-location: tsf\itfspeechuiserver_updateballoon.htm
 old-project: TSF
 ms.assetid: 5ef25aa6-afc4-4c91-8e49-cb5a7ecec36a
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfSpeechUIServer interface [Text Services Framework],UpdateBalloon method, ITfSpeechUIServer.UpdateBalloon, ITfSpeechUIServer::UpdateBalloon, UpdateBalloon, UpdateBalloon method [Text Services Framework], UpdateBalloon method [Text Services Framework],ITfSpeechUIServer interface, ctfspui/ITfSpeechUIServer::UpdateBalloon, tsf.itfspeechuiserver_updateballoon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,8 +110,7 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/c79eb490-b950-4d49-bdf9-821f3706446d">
-        TfLBBalloonStyle
+<a href="https://msdn.microsoft.com/c79eb490-b950-4d49-bdf9-821f3706446d">TfLBBalloonStyle
       </a>
  
 

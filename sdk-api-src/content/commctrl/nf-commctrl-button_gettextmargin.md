@@ -7,7 +7,7 @@ old-location: controls\Button_GetTextMargin.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_gettextmargin.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Button_GetTextMargin, Button_GetTextMargin macro [Windows Controls], _win32_Button_GetTextMargin, _win32_Button_GetTextMargin_cpp, commctrl/Button_GetTextMargin, controls.Button_GetTextMargin, controls._win32_Button_GetTextMargin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the margins used to draw text in a button control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775971(v=VS.85).aspx">BCM_GETTEXTMARGIN</a> message explicitly. 
+Gets the margins used to draw text in a button control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775971(v=VS.85).aspx">BCM_GETTEXTMARGIN</a> message explicitly. 
 
 
 ## -parameters
@@ -76,7 +76,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 

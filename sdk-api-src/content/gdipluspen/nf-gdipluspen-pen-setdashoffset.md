@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_SetDashOffset_dashOffset_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setdashoffset.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Pen class [GDI+],SetDashOffset method, Pen.SetDashOffset, Pen::SetDashOffset, SetDashOffset, SetDashOffset method [GDI+], SetDashOffset method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetDashOffset_dashOffset_, gdiplus._gdiplus_CLASS_Pen_SetDashOffset_dashOffset_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ A positive
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object, sets the dash style, and draws a line. The code then sets the pen's offset value and draws a second line.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object, sets the dash style, and draws a line. The code then sets the pen's offset value and draws a second line.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -128,43 +128,43 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533850(v=VS.85).aspx">Drawing a Custom Dashed Line</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533850(v=VS.85).aspx">Drawing a Custom Dashed Line</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535025(v=VS.85).aspx">Pen::GetDashOffset</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535025(v=VS.85).aspx">Pen::GetDashOffset</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535026(v=VS.85).aspx">Pen::GetDashPattern</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535026(v=VS.85).aspx">Pen::GetDashPattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535027(v=VS.85).aspx">Pen::GetDashPatternCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535027(v=VS.85).aspx">Pen::GetDashPatternCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535028(v=VS.85).aspx">Pen::GetDashStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535028(v=VS.85).aspx">Pen::GetDashStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535047(v=VS.85).aspx">Pen::SetDashCap</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535047(v=VS.85).aspx">Pen::SetDashCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535049(v=VS.85).aspx">Pen::SetDashPattern</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535049(v=VS.85).aspx">Pen::SetDashPattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535050(v=VS.85).aspx">Pen::SetDashStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535050(v=VS.85).aspx">Pen::SetDashStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
  
 
  

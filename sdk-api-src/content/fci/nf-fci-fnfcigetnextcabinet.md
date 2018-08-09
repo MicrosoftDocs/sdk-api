@@ -7,7 +7,7 @@ old-location: winprog\fnfcigetnextcabinet.htm
 old-project: devnotes
 ms.assetid: d56fb63e-91bf-4991-a954-176211697a2e
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FNFCIGETNEXTCABINET, FNFCIGETNEXTCABINET macro [Windows API], fci/FNFCIGETNEXTCABINET, winprog.fnfcigetnextcabinet
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,21 +61,12 @@ The <b>FNFCIGETNEXTCABINET</b> macro provides the declaration for the applicatio
 
 ### -param fn
 
-TBD
-
-
-
-
+Pointer to a <a href="https://msdn.microsoft.com/e25cb72b-4c96-40e9-9fd5-2920e4a01d3a">CCAB</a> structure to provide the parameters for the creation of a new cabinet.
 
 
 #### - cbPrevCab
 
 Size, in bytes, of the previous cabinet.
-
-
-#### - pccab
-
-Pointer to a <a href="https://msdn.microsoft.com/e25cb72b-4c96-40e9-9fd5-2920e4a01d3a">CCAB</a> structure to provide the parameters for the creation of a new cabinet.
 
 
 #### - pv

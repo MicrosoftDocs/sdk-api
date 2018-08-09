@@ -7,7 +7,7 @@ old-location: mstv\iisdb_cdt_getoriginalnetworkid.htm
 old-project: mstv
 ms.assetid: 67adf536-1163-45e3-893c-e9501fefafe7
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetOriginalNetworkId, GetOriginalNetworkId method [Microsoft TV Technologies], GetOriginalNetworkId method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetOriginalNetworkId method, IISDB_CDT.GetOriginalNetworkId, IISDB_CDT::GetOriginalNetworkId, dvbsiparser/IISDB_CDT::GetOriginalNetworkId, mstv.iisdb_cdt_getoriginalnetworkid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Gets an identifier that identifies the broadcaster that originated the
+Gets an identifier that identifies the broadcaster that originated the
   MPEG-2 transport stream from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT). 
 
 
@@ -63,8 +62,7 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param pwVal [out]
 
-
- Receives the original network ID.
+Receives the original network ID.
 
 
 

@@ -7,7 +7,7 @@ old-location: base\symenumsourcefilesproc.htm
 old-project: debug
 ms.assetid: b1d1e967-514d-43da-b470-23228fa03dd9
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: PSYM_ENUMSOURCEFILES_CALLBACK, PSYM_ENUMSOURCEFILES_CALLBACKW, SymEnumSourceFilesProc, SymEnumSourceFilesProc callback, SymEnumSourceFilesProc callback function, base.symenumsourcefilesproc, dbghelp/SymEnumSourceFilesProc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,8 +78,7 @@ The user-defined value passed from the
 
 
 
-
-						If the function returns <b>TRUE</b>, the enumeration will continue.
+If the function returns <b>TRUE</b>, the enumeration will continue.
 						
 
 If the function returns <b>FALSE</b>, the enumeration will stop.

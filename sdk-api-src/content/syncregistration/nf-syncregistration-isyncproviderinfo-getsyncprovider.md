@@ -7,7 +7,7 @@ old-location: winsync\isyncproviderinfo_getsyncprovider.htm
 old-project: winsync
 ms.assetid: 74b70f31-0934-4599-9515-e94b6622d440
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetSyncProvider, GetSyncProvider method [Windows Sync], GetSyncProvider method [Windows Sync],ISyncProviderInfo interface, ISyncProviderInfo interface [Windows Sync],GetSyncProvider method, ISyncProviderInfo.GetSyncProvider, ISyncProviderInfo::GetSyncProvider, syncregistration/ISyncProviderInfo::GetSyncProvider, winsync.isyncproviderinfo_getsyncprovider
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\arc.htm
 old-project: gdi
 ms.assetid: c15a2173-0fad-4a8a-b0f9-cd39fe4e7bac
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Arc, Arc function [Windows GDI], _win32_Arc, gdi.arc, wingdi/Arc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,86 +66,44 @@ The <b>Arc</b> function draws an elliptical arc.
 A handle to the device context where drawing takes place.
 
 
-### -param x1
-
-TBD
-
-
-### -param y1
-
-TBD
-
-
-### -param x2
-
-TBD
-
-
-### -param y2
-
-TBD
-
-
-### -param x3
-
-TBD
-
-
-### -param y3
-
-TBD
-
-
-### -param x4
-
-TBD
-
-
-### -param y4
-
-TBD
-
-
-
-
-#### - nBottomRect [in]
-
-The y-coordinate, in logical units, of the lower-right corner of the bounding rectangle.
-
-
-#### - nLeftRect [in]
+### -param x1 [in]
 
 The x-coordinate, in logical units, of the upper-left corner of the bounding rectangle.
 
 
-#### - nRightRect [in]
-
-The x-coordinate, in logical units, of the lower-right corner of the bounding rectangle.
-
-
-#### - nTopRect [in]
+### -param y1 [in]
 
 The y-coordinate, in logical units, of the upper-left corner of the bounding rectangle.
 
 
-#### - nXEndArc [in]
+### -param x2 [in]
 
-The x-coordinate, in logical units, of the ending point of the radial line defining the ending point of the arc.
+The x-coordinate, in logical units, of the lower-right corner of the bounding rectangle.
 
 
-#### - nXStartArc [in]
+### -param y2 [in]
+
+The y-coordinate, in logical units, of the lower-right corner of the bounding rectangle.
+
+
+### -param x3 [in]
 
 The x-coordinate, in logical units, of the ending point of the radial line defining the starting point of the arc.
 
 
-#### - nYEndArc [in]
-
-The y-coordinate, in logical units, of the ending point of the radial line defining the ending point of the arc.
-
-
-#### - nYStartArc [in]
+### -param y3 [in]
 
 The y-coordinate, in logical units, of the ending point of the radial line defining the starting point of the arc.
+
+
+### -param x4 [in]
+
+The x-coordinate, in logical units, of the ending point of the radial line defining the ending point of the arc.
+
+
+### -param y4 [in]
+
+The y-coordinate, in logical units, of the ending point of the radial line defining the ending point of the arc.
 
 
 ## -returns

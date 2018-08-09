@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorgetstreamcolorspace.htm
 old-project: medfound
 ms.assetid: 4D66147C-D4FC-40BC-B406-B40B6EA24D94
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamColorSpace method, ID3D11VideoContext.VideoProcessorGetStreamColorSpace, ID3D11VideoContext::VideoProcessorGetStreamColorSpace, VideoProcessorGetStreamColorSpace, VideoProcessorGetStreamColorSpace method [Media Foundation], VideoProcessorGetStreamColorSpace method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamColorSpace, mf.id3d11videocontext_videoprocessorgetstreamcolorspace
 ms.prod: windows
 ms.technology: windows-sdk

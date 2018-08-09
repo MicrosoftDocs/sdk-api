@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvertexdeclaration9__getdeclaration.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexdeclaration9__getdeclaration.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetDeclaration, GetDeclaration method [Direct3D 9], GetDeclaration method [Direct3D 9],IDirect3DVertexDeclaration9 interface, IDirect3DVertexDeclaration9 interface [Direct3D 9],GetDeclaration method, IDirect3DVertexDeclaration9.GetDeclaration, IDirect3DVertexDeclaration9::GetDeclaration, bd1cb4cd-85cf-525d-1ac3-ebd3eb527b1a, d3d9helper/IDirect3DVertexDeclaration9::GetDeclaration, direct3d9.idirect3dvertexdeclaration9__getdeclaration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,16 +73,16 @@ Number of elements in the array. The application needs to allocate enough room f
 
 #### - pDecl [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172630(v=VS.85).aspx">D3DVERTEXELEMENT9</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172630(v=VS.85).aspx">D3DVERTEXELEMENT9</a>*</b>
 
-Array of vertex elements (see <a href="https://msdn.microsoft.com/library/Bb172630(v=VS.85).aspx">D3DVERTEXELEMENT9</a>) that make up a vertex shader declaration. The application needs to allocate enough room for this. The vertex element array ends with the <a href="https://msdn.microsoft.com/library/Bb172535(v=VS.85).aspx">D3DDECL_END</a> macro.
+Array of vertex elements (see <a href="https://msdn.microsoft.com/en-us/library/Bb172630(v=VS.85).aspx">D3DVERTEXELEMENT9</a>) that make up a vertex shader declaration. The application needs to allocate enough room for this. The vertex element array ends with the <a href="https://msdn.microsoft.com/en-us/library/Bb172535(v=VS.85).aspx">D3DDECL_END</a> macro.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be:
      D3DERR_INVALIDCALL.
@@ -94,7 +94,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-The number of elements, pNumElements, includes the <a href="https://msdn.microsoft.com/library/Bb172535(v=VS.85).aspx">D3DDECL_END</a> macro, which ends the declaration. So the element count is actually one higher than the number of valid vertex elements.
+The number of elements, pNumElements, includes the <a href="https://msdn.microsoft.com/en-us/library/Bb172535(v=VS.85).aspx">D3DDECL_END</a> macro, which ends the declaration. So the element count is actually one higher than the number of valid vertex elements.
 
 Here's an example that will return the vertex declaration array of up to 256 elements:
 
@@ -122,7 +122,7 @@ Specify <b>NULL</b> for pDeclto get the number of elements in the declaration.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205919(v=VS.85).aspx">IDirect3DVertexDeclaration9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205919(v=VS.85).aspx">IDirect3DVertexDeclaration9</a>
  
 
  

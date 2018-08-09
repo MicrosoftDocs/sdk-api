@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Blur_Blur_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\blurclass\blurconstructors\blur.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Blur, Blur class [GDI+],Blur constructor, Blur constructor [GDI+], Blur constructor [GDI+],Blur class, Blur.Blur, Blur::Blur, _gdiplus_CLASS_Blur_Blur_, gdiplus._gdiplus_CLASS_Blur_Blur_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/library/ms534422(v=VS.85).aspx">Blur</a> object.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534422(v=VS.85).aspx">Blur</a> object.
 
 
 ## -parameters
@@ -66,15 +66,15 @@ Creates a <a href="https://msdn.microsoft.com/library/ms534422(v=VS.85).aspx">Bl
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534422(v=VS.85).aspx">Blur</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534422(v=VS.85).aspx">Blur</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536282(v=VS.85).aspx">Blur::SetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536282(v=VS.85).aspx">Blur::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534057(v=VS.85).aspx">BlurParams</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534057(v=VS.85).aspx">BlurParams</a>
  
 
  

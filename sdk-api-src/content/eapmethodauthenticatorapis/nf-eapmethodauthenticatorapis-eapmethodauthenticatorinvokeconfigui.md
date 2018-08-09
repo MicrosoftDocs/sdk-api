@@ -7,7 +7,7 @@ old-location: eaphost\eapmethodauthenticatorinvokeconfigui.htm
 old-project: eaphost
 ms.assetid: 6d3083a6-1bd2-4dbf-9f8d-1a6e465188af
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapMethodAuthenticatorInvokeConfigUI, EapMethodAuthenticatorInvokeConfigUI function [EAPHost], eaphost.eapmethodauthenticatorinvokeconfigui, eapmethodauthenticatorapis/EapMethodAuthenticatorInvokeConfigUI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Defines a function that raises the EAP method's connection configuration user in
 
 <b>EapMethodAuthenticatorInvokeConfigUI</b> is a function prototype.
 
-<b>EapHostAuthenticatorInvokeConfigUI</b> must be called on threads that have COM initialized for <a href="Http://go.microsoft.com/fwlink/p/?linkid=83881">Single Threaded Apartment</a>. This can be achieved by calling COM API <a href="https://msdn.microsoft.com/library/ms678543(v=VS.85).aspx">CoInitialize</a>; when the supplicant has finished  with the STA thread <a href="https://msdn.microsoft.com/library/ms688715(v=VS.85).aspx">CoUninitialize</a> must be called before exiting.
+<b>EapHostAuthenticatorInvokeConfigUI</b> must be called on threads that have COM initialized for <a href="Http://go.microsoft.com/fwlink/p/?linkid=83881">Single Threaded Apartment</a>. This can be achieved by calling COM API <a href="https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx">CoInitialize</a>; when the supplicant has finished  with the STA thread <a href="https://msdn.microsoft.com/en-us/library/ms688715(v=VS.85).aspx">CoUninitialize</a> must be called before exiting.
 
 
 ## -parameters
@@ -104,14 +104,7 @@ Specifies the size, in bytes, of the configuration data returned in <i>ppConfigO
 A pointer to a pointer to a byte buffer that contains updated configuration data from the user. After consuming the data, this memory must be freed by calling <a href="https://msdn.microsoft.com/9ec9f468-4589-4832-9f17-ddc0b64b88f1">EapMethodAuthenticatorFreeMemory</a>.
 
 
-### -param ppEapError
-
-TBD
-
-
-
-
-#### - pEapError [out]
+### -param ppEapError [out]
 
 A pointer to the affdress of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/8fcf82d6-9809-4a28-a694-1f7494216f82">EapMethodAuthenticatorFreeErrorMemory</a>.
 

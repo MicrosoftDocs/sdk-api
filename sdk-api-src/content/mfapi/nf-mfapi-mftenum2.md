@@ -7,7 +7,7 @@ old-location: mf\mftenum2.htm
 old-project: medfound
 ms.assetid: 1BF74B1F-46D9-46E8-A9DC-5A9666C3CAFB
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFTEnum2, MFTEnum2 function [Media Foundation], mf.mftenum2, mfapi/MFTEnum2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-      
-        Gets a list of Microsoft Media Foundation transforms (MFTs) that match specified search criteria. This function extends the <a href="https://msdn.microsoft.com/e065ae51-85dd-48ef-9322-de4ade62c0fe">MFTEnumEx</a> function to allow external applications and internal components to discover the hardware MFTs that correspond to a specific video adapter. 
+Gets a list of Microsoft Media Foundation transforms (MFTs) that match specified search criteria. This function extends the <a href="https://msdn.microsoft.com/e065ae51-85dd-48ef-9322-de4ade62c0fe">MFTEnumEx</a> function to allow external applications and internal components to discover the hardware MFTs that correspond to a specific video adapter. 
 
 
 ## -parameters

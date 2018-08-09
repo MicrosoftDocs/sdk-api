@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6getstatelessstoreparams.htm
 old-project: dhcp
 ms.assetid: 80a32132-a032-452f-9438-52a1eb280fdf
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpV6GetStatelessStoreParams, DhcpV6GetStatelessStoreParams function [DHCP], dhcp.dhcpv6getstatelessstoreparams, dhcpsapi/DhcpV6GetStatelessStoreParams
 ms.prod: windows
 ms.technology: windows-sdk

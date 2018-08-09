@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevicecontrol_pause.htm
 old-project: WMDM
 ms.assetid: 420963d1-11ea-4f1d-b5c0-749e99ee7725
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Pause method, IWMDMDeviceControl.Pause, IWMDMDeviceControl::Pause, IWMDMDeviceControlPause, Pause, Pause method [windows Media Device Manager], Pause method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Pause, wmdm.iwmdmdevicecontrol_pause
 ms.prod: windows
 ms.technology: windows-sdk

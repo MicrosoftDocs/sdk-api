@@ -7,7 +7,7 @@ old-location: mscs\clusterregsetvalue.htm
 old-project: mscs
 ms.assetid: 6e4fee56-1c18-4f6d-81ae-c305aae59572
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusterRegSetValue, ClusterRegSetValue function [Failover Cluster], REG_BINARY, REG_DWORD, REG_DWORD_BIG_ENDIAN, REG_EXPAND_SZ, REG_MULTI_SZ, REG_NONE, REG_QWORD, REG_SZ, _wolf_clusterregsetvalue, clusapi/ClusterRegSetValue, mscs.clusterregsetvalue
 ms.prod: windows
 ms.technology: windows-sdk

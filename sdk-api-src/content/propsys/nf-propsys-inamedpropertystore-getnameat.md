@@ -7,7 +7,7 @@ old-location: shell\INamedPropertyStore_GetNameAt.htm
 old-project: shell
 ms.assetid: 2fd3896e-b170-49af-811e-a1f2facc7a84
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetNameAt, GetNameAt method [Windows Shell], GetNameAt method [Windows Shell],INamedPropertyStore interface, INamedPropertyStore interface [Windows Shell],GetNameAt method, INamedPropertyStore.GetNameAt, INamedPropertyStore::GetNameAt, _shell_INamedPropertyStore_GetNameAt, propsys/INamedPropertyStore::GetNameAt, shell.INamedPropertyStore_GetNameAt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ The index of the property in the store.
 
 ### -param pbstrName [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a>*</b>
 
 When this method returns, contains a pointer to the property's name. It is the calling application's responsibility to free this resource when it is no longer needed.
 

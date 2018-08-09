@@ -4,10 +4,10 @@ title: IVdsVolume
 author: windows-sdk-content
 description: Provides methods to manage volumes.
 old-location: base\ivdsvolume.htm
-old-project: VDS
+old-project: vds
 ms.assetid: a02ee0a6-ac29-406c-9fc0-4f632d32424f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IVdsVolume, IVdsVolume interface [VDS], IVdsVolume interface [VDS],described, base.ivdsvolume, vds/IVdsVolume
 ms.prod: windows
 ms.technology: windows-sdk

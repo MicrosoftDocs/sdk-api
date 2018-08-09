@@ -7,7 +7,7 @@ old-location: security\certsrvbackupprepare.htm
 old-project: seccrypto
 ms.assetid: 21af96f8-168d-4c6c-8966-357236c0e4e6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CSBACKUP_TYPE_FULL, CSBACKUP_TYPE_LOGS_ONLY, CertSrvBackupPrepare, CertSrvBackupPrepare function [Security], CertSrvBackupPrepareW, _certsrv_certsrvbackupprepare, certbcli/CertSrvBackupPrepare, certbcli/CertSrvBackupPrepareW, security.certsrvbackupprepare
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>CertSrvBackupPrepare</b> function is used to prepare a Certificate Services server for backup operations.
+The <b>CertSrvBackupPrepare</b> function is used to prepare a Certificate Services server for backup operations.
 
 
 ## -parameters
@@ -112,8 +111,7 @@ A pointer to a Certificate Services backup context handle (<b>HCSBC</b>).
 
 
 
-
-						The return value is an <b>HRESULT</b>. A value of S_OK indicates success, and *<i>phbc</i> will be set to an <b>HCSBC</b> which can be used by other Certificate Services backup APIs.
+The return value is an <b>HRESULT</b>. A value of S_OK indicates success, and *<i>phbc</i> will be set to an <b>HCSBC</b> which can be used by other Certificate Services backup APIs.
 
 
 

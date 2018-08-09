@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_ui_fontverticalposition.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_fontverticalposition.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: UI_FONTVERTICALPOSITION, UI_FONTVERTICALPOSITION enumeration [Windows Ribbon], UI_FONTVERTICALPOSITION_NOTAVAILABLE, UI_FONTVERTICALPOSITION_NOTSET, UI_FONTVERTICALPOSITION_SUBSCRIPT, UI_FONTVERTICALPOSITION_SUPERSCRIPT, scenicintent_UI_FONTVERTICALPOSITION, uiribbon/UI_FONTVERTICALPOSITION, uiribbon/UI_FONTVERTICALPOSITION_NOTAVAILABLE, uiribbon/UI_FONTVERTICALPOSITION_NOTSET, uiribbon/UI_FONTVERTICALPOSITION_SUBSCRIPT, uiribbon/UI_FONTVERTICALPOSITION_SUPERSCRIPT, windowsribbon.windowsribbon_ui_fontverticalposition
 ms.prod: windows
 ms.technology: windows-sdk

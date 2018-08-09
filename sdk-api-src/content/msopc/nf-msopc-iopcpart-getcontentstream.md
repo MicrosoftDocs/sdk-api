@@ -7,7 +7,7 @@ old-location: opc\iopcpart_getcontentstream.htm
 old-project: OPC
 ms.assetid: b40e3df2-e717-465d-8893-511e4776d80d
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: GetContentStream, GetContentStream method [Open Packaging Conventions], GetContentStream method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetContentStream method, IOpcPart.GetContentStream, IOpcPart::GetContentStream, msopc/IOpcPart::GetContentStream, opc.iopcpart_getcontentstream
 ms.prod: windows
 ms.technology: windows-sdk

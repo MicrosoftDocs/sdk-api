@@ -7,7 +7,7 @@ old-location: mstv\ietfilter_getcurrrating.htm
 old-project: mstv
 ms.assetid: d90d0842-2dd3-4b98-b619-1b71f7870be8
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetCurrRating, GetCurrRating method [Microsoft TV Technologies], GetCurrRating method [Microsoft TV Technologies],IETFilter interface, IETFilter interface [Microsoft TV Technologies],GetCurrRating method, IETFilter.GetCurrRating, IETFilter::GetCurrRating, IETFilterGetCurrRating, encdec/IETFilter::GetCurrRating, mstv.ietfilter_getcurrrating
 ms.prod: windows
 ms.technology: windows-sdk

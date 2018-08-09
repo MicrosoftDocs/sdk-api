@@ -7,7 +7,7 @@ old-location: controls\PropSheet_IsDialogMessage.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_isdialogmessage.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: PropSheet_IsDialogMessage, PropSheet_IsDialogMessage macro [Windows Controls], _win32_PropSheet_IsDialogMessage, _win32_PropSheet_IsDialogMessage_cpp, controls.PropSheet_IsDialogMessage, controls._win32_PropSheet_IsDialogMessage, prsht/PropSheet_IsDialogMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Passes a message to a property sheet dialog box and indicates whether the dialog box processed the message. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774593(v=VS.85).aspx">PSM_ISDIALOGMESSAGE</a> message explicitly.
+Passes a message to a property sheet dialog box and indicates whether the dialog box processed the message. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774593(v=VS.85).aspx">PSM_ISDIALOGMESSAGE</a> message explicitly.
 
 
 ## -parameters
@@ -70,18 +70,18 @@ Handle to the property sheet.
 
 Type: <b>LPMSG</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a> structure that contains the message to be checked.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure that contains the message to be checked.
 
 
 ## -remarks
 
 
 
-Your message loop should use the <b>PropSheet_IsDialogMessage</b> macro with modeless property sheets to pass messages to the property sheet dialog box. On systems that support Unicode, use the Unicode versions of the <a href="https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx">GetMessage</a> and <a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a> functions (<b>GetMessageW</b> and <b>PeekMessageW</b>) to retrieve messages.
+Your message loop should use the <b>PropSheet_IsDialogMessage</b> macro with modeless property sheets to pass messages to the property sheet dialog box. On systems that support Unicode, use the Unicode versions of the <a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a> and <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> functions (<b>GetMessageW</b> and <b>PeekMessageW</b>) to retrieve messages.
 
-If the return value indicates that the message was processed, it must not be passed to the <a href="https://msdn.microsoft.com/library/ms644955(v=VS.85).aspx">TranslateMessage</a> or <a href="https://msdn.microsoft.com/library/ms644934(v=VS.85).aspx">DispatchMessage</a> function.
+If the return value indicates that the message was processed, it must not be passed to the <a href="https://msdn.microsoft.com/en-us/library/ms644955(v=VS.85).aspx">TranslateMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644934(v=VS.85).aspx">DispatchMessage</a> function.
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 
@@ -91,7 +91,7 @@ If the return value indicates that the message was processed, it must not be pas
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb760811(v=VS.85).aspx">PropertySheet</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a>
  
 
  

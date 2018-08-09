@@ -7,7 +7,7 @@ old-location: etw\tdhaggregatepayloadfilters.htm
 old-project: ETW
 ms.assetid: B9093E64-1796-4AF2-AB45-84F278813B66
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: TdhAggregatePayloadFilters, TdhAggregatePayloadFilters function [ETW], etw.tdhaggregatepayloadfilters, tdh/TdhAggregatePayloadFilters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,23 +72,7 @@ An array of event payload single filters,
 
 
 
-### -param EventMatchALLFlags
-
-TBD
-
-
-### -param EventFilterDescriptor [out]
-
-A pointer to an <a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a> structure to be used with the <a href="https://msdn.microsoft.com/3aceffb6-614f-4cad-bbec-f181f0cbdbff">EnableTraceEx2</a> function.  The <b>EVENT_FILTER_DESCRIPTOR</b> structure will
-        contain a pointer to the aggregated payload filters, which have been
-        allocated by this function.  
-
-When the caller is finished using this
-        <a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a> structure with the <a href="https://msdn.microsoft.com/3aceffb6-614f-4cad-bbec-f181f0cbdbff">EnableTraceEx2</a> function,  the  <a href="https://msdn.microsoft.com/AA08AFD5-EC1A-44BF-9BCB-EEA69A959853">TdhCleanupPayloadEventFilterDescriptor</a>  function should be called to free the allocated memory.
-
-
-
-#### - EventMatchAllFlags [in, optional]
+### -param EventMatchALLFlags [in, optional]
 
 An array of Boolean values  that correspond to
         each payload filter passed in the <i>PayloadFilterPtrs</i> parameter and indicates how events are handled when multiple conditions are specified..  This parameter only affects situations where multiple
@@ -104,6 +88,17 @@ When a Boolean value is <b>FALSE</b>, an event will be written to a session only
         the specified conditions specified in the filter are  <b>TRUE</b>. If this flag is set to <b>FALSE</b> on one or more filters for
         the same event Id or event version, then the event is written if any of
         the non-flagged filters are satisfied.
+
+
+
+### -param EventFilterDescriptor [out]
+
+A pointer to an <a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a> structure to be used with the <a href="https://msdn.microsoft.com/3aceffb6-614f-4cad-bbec-f181f0cbdbff">EnableTraceEx2</a> function.  The <b>EVENT_FILTER_DESCRIPTOR</b> structure will
+        contain a pointer to the aggregated payload filters, which have been
+        allocated by this function.  
+
+When the caller is finished using this
+        <a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a> structure with the <a href="https://msdn.microsoft.com/3aceffb6-614f-4cad-bbec-f181f0cbdbff">EnableTraceEx2</a> function,  the  <a href="https://msdn.microsoft.com/AA08AFD5-EC1A-44BF-9BCB-EEA69A959853">TdhCleanupPayloadEventFilterDescriptor</a>  function should be called to free the allocated memory.
 
 
 

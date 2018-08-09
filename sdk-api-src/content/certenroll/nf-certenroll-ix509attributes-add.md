@@ -7,7 +7,7 @@ old-location: security\ix509attributes_add_method.htm
 old-project: seccertenroll
 ms.assetid: 769293d8-0ae0-419f-9399-3c501d700251
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509Attributes interface, IX509Attributes interface [Security],Add method, IX509Attributes.Add, IX509Attributes::Add, certenroll/IX509Attributes::Add, security.ix509attributes_add_method
 ms.prod: windows
 ms.technology: windows-sdk

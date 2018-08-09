@@ -7,7 +7,7 @@ old-location: shell\IQueryCancelAutoPlay_AllowAutoPlay.htm
 old-project: shell
 ms.assetid: ebc826a2-d7ea-413a-836b-c7e51f13692a
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ARCONTENT_AUDIOCD, ARCONTENT_AUTOPLAYMUSIC, ARCONTENT_AUTOPLAYPIX, ARCONTENT_AUTOPLAYVIDEO, ARCONTENT_AUTORUNINF, ARCONTENT_BLANKBD, ARCONTENT_BLANKCD, ARCONTENT_BLANKDVD, ARCONTENT_BLURAY, ARCONTENT_CAMERASTORAGE, ARCONTENT_CUSTOMEVENT, ARCONTENT_DVDAUDIO, ARCONTENT_DVDMOVIE, ARCONTENT_MASK, ARCONTENT_NONE, ARCONTENT_PHASE_FINAL, ARCONTENT_PHASE_MASK, ARCONTENT_PHASE_PRESNIFF, ARCONTENT_PHASE_SNIFFING, ARCONTENT_PHASE_UNKNOWN, ARCONTENT_SVCD, ARCONTENT_UNKNOWNCONTENT, ARCONTENT_VCD, AllowAutoPlay, AllowAutoPlay method [Windows Shell], AllowAutoPlay method [Windows Shell],IQueryCancelAutoPlay interface, IQueryCancelAutoPlay interface [Windows Shell],AllowAutoPlay method, IQueryCancelAutoPlay.AllowAutoPlay, IQueryCancelAutoPlay::AllowAutoPlay, _shell_IQueryCancelAutoPlay_AllowAutoPlay, shell.IQueryCancelAutoPlay_AllowAutoPlay, shobjidl/IQueryCancelAutoPlay::AllowAutoPlay
 ms.prod: windows
 ms.technology: windows-sdk
@@ -253,9 +253,7 @@ Upon presentation of media, the Shell searches the ROT for a component implement
                   <b>AutoplayHandlers</b>
                      <b>CancelAutoplay</b>
                         <b>CLSID</b>
-                           <i>The component's CLSID</i></pre>
-
-				This value is added by the application or hardware, usually at installation time. It isn't assigned a data value.
+                           <i>The component's CLSID</i></pre>This value is added by the application or hardware, usually at installation time. It isn't assigned a data value.
 
 <div class="alert"><b>Note</b>  The CLSID entered as a value under this key should not be encased in curly brackets.</div>
 <div> </div>

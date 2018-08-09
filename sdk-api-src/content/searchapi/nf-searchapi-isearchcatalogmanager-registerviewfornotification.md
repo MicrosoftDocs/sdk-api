@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_RegisterViewForNotification.h
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\registerviewfornotification.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchCatalogManager interface [search],RegisterViewForNotification method, ISearchCatalogManager.RegisterViewForNotification, ISearchCatalogManager::RegisterViewForNotification, RegisterViewForNotification, RegisterViewForNotification method [search], RegisterViewForNotification method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_RegisterViewForNotification, search._search_ISearchCatalogManager_RegisterViewForNotification, searchapi/ISearchCatalogManager::RegisterViewForNotification
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,9 @@ A pointer to the name of the view.
 
 ### -param pViewChangedSink [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb231452(v=VS.85).aspx">ISearchViewChangedSink</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231452(v=VS.85).aspx">ISearchViewChangedSink</a>*</b>
 
-Pointer to the <a href="https://msdn.microsoft.com/library/Bb231452(v=VS.85).aspx">ISearchViewChangedSink</a> object to receive notifications.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb231452(v=VS.85).aspx">ISearchViewChangedSink</a> object to receive notifications.
 
 
 ### -param pdwCookie [out]

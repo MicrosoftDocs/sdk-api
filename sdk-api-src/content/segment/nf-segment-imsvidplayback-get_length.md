@@ -7,7 +7,7 @@ old-location: mstv\imsvidplayback_get_length.htm
 old-project: mstv
 ms.assetid: a559c0b4-ed63-47ef-b99a-866c87939d5b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_Length method, IMSVidPlayback.get_Length, IMSVidPlayback::get_Length, IMSVidPlaybackget_Length, get_Length, get_Length method [Microsoft TV Technologies], get_Length method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_length, segment/IMSVidPlayback::get_Length
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,11 +65,9 @@ Pointer to a variable that receives the length. The units for the returned value
 
 <table>
 <tr>
-<th>
-                  Position Mode
+<th>Position Mode
                 </th>
-<th>
-                  Returned Value
+<th>Returned Value
                 </th>
 </tr>
 <tr>

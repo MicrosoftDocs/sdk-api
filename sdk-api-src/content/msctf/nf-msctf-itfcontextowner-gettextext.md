@@ -7,7 +7,7 @@ old-location: tsf\itfcontextowner_gettextext.htm
 old-project: TSF
 ms.assetid: edde0ba7-1d88-4c32-b794-761b66d73507
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetTextExt method, ITfContextOwner.GetTextExt, ITfContextOwner::GetTextExt, _tsf_itfcontextowner_gettextext_ref, msctf/ITfContextOwner::GetTextExt, tsf.itfcontextowner_gettextext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -174,8 +174,7 @@ If the document window is minimized, or if the specified text is not currently v
 
 
 
-<a href="https://msdn.microsoft.com/a4ef9180-5568-4e5b-8c37-f750263060d2">
-        ITfContextView::GetTextExt
+<a href="https://msdn.microsoft.com/a4ef9180-5568-4e5b-8c37-f750263060d2">ITfContextView::GetTextExt
       </a>
  
 

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_omsetdepthstencilstate.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omsetdepthstencilstate.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 75af58f4-0720-3b37-1633-f4ae71d23ebd, ID3D10Device interface [Direct3D 10],OMSetDepthStencilState method, ID3D10Device.OMSetDepthStencilState, ID3D10Device::OMSetDepthStencilState, OMSetDepthStencilState, OMSetDepthStencilState method [Direct3D 10], OMSetDepthStencilState method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OMSetDepthStencilState, direct3d10.id3d10device_omsetdepthstencilstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the <a href="https://msdn.microsoft.com/library/Bb205120(v=VS.85).aspx">depth-stencil</a> state of 
+Sets the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">depth-stencil</a> state of 
     the output-merger stage.
 
 
@@ -62,9 +62,9 @@ Sets the <a href="https://msdn.microsoft.com/library/Bb205120(v=VS.85).aspx">dep
 
 ### -param pDepthStencilState [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173524(v=VS.85).aspx">ID3D10DepthStencilState</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173524(v=VS.85).aspx">ID3D10DepthStencilState</a>*</b>
 
-Pointer to a depth-stencil state interface (see <a href="https://msdn.microsoft.com/library/Bb173524(v=VS.85).aspx">ID3D10DepthStencilState</a>) to bind to the device.
+Pointer to a depth-stencil state interface (see <a href="https://msdn.microsoft.com/en-us/library/Bb173524(v=VS.85).aspx">ID3D10DepthStencilState</a>) to bind to the device.
 
 
 ### -param StencilRef [in]
@@ -87,9 +87,9 @@ Returns nothing.
 
 
 
-To create a depth-stencil state interface, call <a href="https://msdn.microsoft.com/library/Bb173546(v=VS.85).aspx">ID3D10Device::CreateDepthStencilState</a>.
+To create a depth-stencil state interface, call <a href="https://msdn.microsoft.com/en-us/library/Bb173546(v=VS.85).aspx">ID3D10Device::CreateDepthStencilState</a>.
 
-Depth-stencil state is used by the <a href="https://msdn.microsoft.com/library/Bb205120(v=VS.85).aspx">output-merger</a> stage to 
+Depth-stencil state is used by the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger</a> stage to 
       setup depth-stencil testing. 
       The stencil reference value is the control value used in the depth-stencil test.
 
@@ -104,7 +104,7 @@ The method will not hold a reference to the interfaces passed in. For that reaso
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

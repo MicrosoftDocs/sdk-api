@@ -7,7 +7,7 @@ old-location: tsf\itfcomposition_shiftend.htm
 old-project: TSF
 ms.assetid: 40472318-85de-4cff-ac60-adfcbacc1537
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfComposition interface [Text Services Framework],ShiftEnd method, ITfComposition.ShiftEnd, ITfComposition::ShiftEnd, ShiftEnd, ShiftEnd method [Text Services Framework], ShiftEnd method [Text Services Framework],ITfComposition interface, _tsf_itfcomposition_shiftend_ref, msctf/ITfComposition::ShiftEnd, tsf.itfcomposition_shiftend
 ms.prod: windows
 ms.technology: windows-sdk
@@ -163,8 +163,7 @@ This method causes the GUID_PROP_COMPOSING property to be removed from any text 
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">
-        ITfRange
+<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
       </a>
  
 

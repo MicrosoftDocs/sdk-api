@@ -7,7 +7,7 @@ old-location: hidpi\adjustwindowrectexfordpi.htm
 old-project: hidpi
 ms.assetid: C7126165-1D64-4C04-9B8D-4F90AC2F2C67
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AdjustWindowRectExForDpi, AdjustWindowRectExForDpi function [High DPI], hidpi.adjustwindowrectexfordpi, winuser/AdjustWindowRectExForDpi
 ms.prod: windows
 ms.technology: windows-sdk

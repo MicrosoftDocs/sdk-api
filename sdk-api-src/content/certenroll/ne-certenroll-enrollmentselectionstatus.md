@@ -7,7 +7,7 @@ old-location: security\enrollmentselectionstatus_enum.htm
 old-project: seccertenroll
 ms.assetid: a762d81b-0426-483c-a9c0-70f531f4b6ac
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: EnrollmentSelectionStatus, EnrollmentSelectionStatus enumeration [Security], SelectedNo, SelectedYes, certenroll/EnrollmentSelectionStatus, certenroll/SelectedNo, certenroll/SelectedYes, security.enrollmentselectionstatus_enum
 ms.prod: windows
 ms.technology: windows-sdk

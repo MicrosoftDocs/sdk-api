@@ -7,7 +7,7 @@ old-location: dfs\netdfsadd.htm
 old-project: dfs
 ms.assetid: 2c8816b2-5489-486e-b749-605932ba9fe9
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: DFS_ADD_VOLUME, DFS_RESTORE_VOLUME, NetDfsAdd, NetDfsAdd function [Distributed File System], _win32_netdfsadd, dfs.netdfsadd, fs.netdfsadd, lmdfs/NetDfsAdd, netmgmt.netdfsadd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,9 +88,9 @@ Pointer to a string that specifies the link target server name. This parameter
       is required.
 
 
-### -param ShareName
+### -param ShareName [in]
 
-TBD
+Pointer to a string that specifies the link target share name. This can also be a share name with a path relative to the share. For example, <i>share1\mydir1\mydir2</i>. This parameter is required.
 
 
 ### -param Comment [in, optional]
@@ -115,11 +115,6 @@ Create a DFS link. If the DFS link already exists, the <b>NetDfsAdd</b>
 #### DFS_RESTORE_VOLUME (0x00000002)
 
 This flag is not supported.
-
-
-#### - PathName [in]
-
-Pointer to a string that specifies the link target share name. This can also be a share name with a path relative to the share. For example, <i>share1\mydir1\mydir2</i>. This parameter is required.
 
 
 ## -returns

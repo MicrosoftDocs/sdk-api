@@ -4,10 +4,10 @@ title: WinHttpFreeProxyResult function
 author: windows-sdk-content
 description: The WinHttpFreeProxyResult function frees the data retrieved from a previous call to WinHttpGetProxyResult.
 old-location: http\winhttpfreeproxyresult.htm
-old-project: WinHttp
+old-project: winhttp
 ms.assetid: 0484bf54-066f-4a7f-8d1a-079eb4b001bd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WinHttpFreeProxyResult, WinHttpFreeProxyResult function [WinHTTP], http.winhttpfreeproxyresult, winhttp/WinHttpFreeProxyResult
 ms.prod: windows
 ms.technology: windows-sdk

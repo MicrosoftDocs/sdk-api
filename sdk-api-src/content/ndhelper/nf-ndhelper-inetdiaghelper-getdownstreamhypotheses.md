@@ -7,7 +7,7 @@ old-location: ndf\inetdiaghelpe_getdownstreamhypotheses.htm
 old-project: ndf
 ms.assetid: ac26fbb5-d30f-4b1f-b432-043a07bfa853
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: GetDownStreamHypotheses, GetDownStreamHypotheses method [NDF], GetDownStreamHypotheses method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetDownStreamHypotheses method, INetDiagHelper.GetDownStreamHypotheses, INetDiagHelper::GetDownStreamHypotheses, ndf.inetdiaghelpe_getdownstreamhypotheses, ndhelper/INetDiagHelper::GetDownStreamHypotheses
 ms.prod: windows
 ms.technology: windows-sdk

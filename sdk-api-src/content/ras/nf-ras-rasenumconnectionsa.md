@@ -7,7 +7,7 @@ old-location: rras\rasenumconnections.htm
 old-project: rras
 ms.assetid: b581cfbf-a55e-4f56-89cd-168aa23af550
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RasEnumConnections, RasEnumConnections function [RAS], RasEnumConnectionsA, RasEnumConnectionsW, _ras_rasenumconnections, ras/RasEnumConnections, ras/RasEnumConnectionsA, ras/RasEnumConnectionsW, rras.rasenumconnections
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,10 +71,16 @@ TBD
 
 
 
-#### - lpcConnections [out]
+#### - [in, out]
 
-Pointer to a variable that receives the number of 
-<a href="https://msdn.microsoft.com/234834e2-f539-42de-add7-63e93086de17">RASCONN</a> structures written to the buffer specified by <i>lprasconn</i>.
+Pointer to a buffer that receives, on output, an array of 
+<a href="https://msdn.microsoft.com/234834e2-f539-42de-add7-63e93086de17">RASCONN</a> structures, one for each RAS connection. 
+
+
+
+
+On input, an application must set the <b>dwSize</b> member of the first 
+<a href="https://msdn.microsoft.com/234834e2-f539-42de-add7-63e93086de17">RASCONN</a> structure in the buffer to sizeof(<b>RASCONN</b>) in order to identify the version of the structure being passed.
 
 
 #### - lpcb [in, out]
@@ -92,16 +98,10 @@ On output, the function sets this variable to the number of bytes required to en
 </div>
 <div> </div>
 
-#### - lprasconn [in, out]
+#### - lpcConnections [out]
 
-Pointer to a buffer that receives, on output, an array of 
-<a href="https://msdn.microsoft.com/234834e2-f539-42de-add7-63e93086de17">RASCONN</a> structures, one for each RAS connection. 
-
-
-
-
-On input, an application must set the <b>dwSize</b> member of the first 
-<a href="https://msdn.microsoft.com/234834e2-f539-42de-add7-63e93086de17">RASCONN</a> structure in the buffer to sizeof(<b>RASCONN</b>) in order to identify the version of the structure being passed.
+Pointer to a variable that receives the number of 
+<a href="https://msdn.microsoft.com/234834e2-f539-42de-add7-63e93086de17">RASCONN</a> structures written to the buffer specified by <i>lprasconn</i>.
 
 
 ## -returns
@@ -124,9 +124,7 @@ If the function fails, the return value is from <a href="https://msdn.microsoft.
 </dl>
 </td>
 <td width="60%">
-The <i>lprasconn</i> buffer is not large enough. The <i>lpcb</i>
-								 parameter is less than the <b>dwSize</b> member in the <i>lprasconn</i>
-								 parameter which is should be set prior to calling the function. The function returns the required buffer size in the variable pointed to by <i>lpcb</i>.
+The <i>lprasconn</i> buffer is not large enough. The <i>lpcb</i>parameter is less than the <b>dwSize</b> member in the <i>lprasconn</i>parameter which is should be set prior to calling the function. The function returns the required buffer size in the variable pointed to by <i>lpcb</i>.
 
 </td>
 </tr>

@@ -4,10 +4,10 @@ title: "_STAT_WORKSTATION_0"
 author: windows-sdk-content
 description: Contains statistical information about the specified workstation.
 old-location: fs\stat_workstation_0_str.htm
-old-project: NetShare
+old-project: netshare
 ms.assetid: 7a29fe54-fd15-499d-b255-f49025421861
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPSTAT_WORKSTATION_0, *PSTAT_WORKSTATION_0, LPSTAT_WORKSTATION_0, LPSTAT_WORKSTATION_0 structure pointer [Files], PSTAT_WORKSTATION_0, PSTAT_WORKSTATION_0 structure pointer [Files], STAT_WORKSTATION_0, STAT_WORKSTATION_0 structure [Files], _STAT_WORKSTATION_0, _win32_stat_workstation_0_str, fs.stat_workstation_0_str, lmstats/LPSTAT_WORKSTATION_0, lmstats/PSTAT_WORKSTATION_0, lmstats/STAT_WORKSTATION_0, netmgmt.stat_workstation_0_str"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -211,14 +211,29 @@ Contains statistical information about the specified workstation.
 
 
 
+#### - StatisticsStartTime
+
+Specifies the time statistics collection started. This member also indicates when statistics for the workstations were last cleared. The value is stored as the number of seconds elapsed since 00:00:00, January 1, 1970.
+
+
 #### - BytesReceived
 
 Specifies the total number of bytes received by the workstation.
 
 
-#### - BytesTransmitted
+#### - SmbsReceived
 
-Specifies the total number of bytes transmitted by the workstation.
+Specifies the total number of server message blocks (SMBs) received by the workstation.
+
+
+#### - PagingReadBytesRequested
+
+Specifies the total number of bytes that have been read by paging I/O requests.
+
+
+#### - NonPagingReadBytesRequested
+
+Specifies the total number of bytes that have been read by non-paging I/O requests.
 
 
 #### - CacheReadBytesRequested
@@ -226,19 +241,44 @@ Specifies the total number of bytes transmitted by the workstation.
 Specifies the total number of bytes that have been read by cache I/O requests.
 
 
+#### - NetworkReadBytesRequested
+
+Specifies the total amount of bytes that have been read by disk I/O requests.
+
+
+#### - BytesTransmitted
+
+Specifies the total number of bytes transmitted by the workstation.
+
+
+#### - SmbsTransmitted
+
+Specifies the total number of SMBs transmitted by the workstation.
+
+
+#### - PagingWriteBytesRequested
+
+Specifies the total number of bytes that have been written by paging I/O requests.
+
+
+#### - NonPagingWriteBytesRequested
+
+Specifies the total number of bytes that have been written by non-paging I/O requests.
+
+
 #### - CacheWriteBytesRequested
 
 Specifies the total number of bytes that have been written by cache I/O requests.
 
 
-#### - CoreConnects
+#### - NetworkWriteBytesRequested
 
-Specifies the total number of connections to servers supporting the PCNET dialect that have succeeded.
+Specifies the total number of bytes that have been written by disk I/O requests.
 
 
-#### - CurrentCommands
+#### - InitiallyFailedOperations
 
-Specifies the number of current requests that have not been completed.
+Specifies the total number of network operations that failed to begin.
 
 
 #### - FailedCompletionOperations
@@ -246,24 +286,89 @@ Specifies the number of current requests that have not been completed.
 Specifies the total number of network operations that failed to complete.
 
 
+#### - ReadOperations
+
+Specifies the total number of read operations initiated by the workstation.
+
+
+#### - RandomReadOperations
+
+Specifies the total number of random access reads initiated by the workstation.
+
+
+#### - ReadSmbs
+
+Specifies the total number of read requests the workstation has sent to servers.
+
+
+#### - LargeReadSmbs
+
+Specifies the total number of read requests the workstation has sent to servers that are greater than twice the size of the server's negotiated buffer size.
+
+
+#### - SmallReadSmbs
+
+Specifies the total number of read requests the workstation has sent to servers that are less than 1/4 of the size of the server's negotiated buffer size.
+
+
+#### - WriteOperations
+
+Specifies the total number of write operations initiated by the workstation.
+
+
+#### - RandomWriteOperations
+
+Specifies the total number of random access writes initiated by the workstation.
+
+
+#### - WriteSmbs
+
+Specifies the total number of write requests the workstation has sent to servers.
+
+
+#### - LargeWriteSmbs
+
+Specifies the total number of write requests the workstation has sent to servers that are greater than twice the size of the server's negotiated buffer size.
+
+
+#### - SmallWriteSmbs
+
+Specifies the total number of write requests the workstation has sent to servers that are less than 1/4 of the size of the server's negotiated buffer size.
+
+
+#### - RawReadsDenied
+
+Specifies the total number of raw read requests made by the workstation that have been denied.
+
+
+#### - RawWritesDenied
+
+Specifies the total number of raw write requests made by the workstation that have been denied.
+
+
+#### - NetworkErrors
+
+Specifies the total number of network errors received by the workstation.
+
+
+#### - Sessions
+
+Specifies the total number of workstation sessions that were established.
+
+
 #### - FailedSessions
 
 Specifies the number of times the workstation attempted to create a session but failed.
 
 
-#### - FailedUseCount
+#### - Reconnects
 
-Specifies the total number of failed network connections for the workstation.
-
-
-#### - HungSessions
-
-Specifies the total number of sessions that have expired on the workstation.
+Specifies the total number of connections that have failed.
 
 
-#### - InitiallyFailedOperations
+#### - CoreConnects
 
-Specifies the total number of network operations that failed to begin.
+Specifies the total number of connections to servers supporting the PCNET dialect that have succeeded.
 
 
 #### - Lanman20Connects
@@ -281,119 +386,14 @@ Specifies the total number of connections to servers supporting the LanManager 2
 Specifies the total number of connections to servers supporting the NTLM dialect that have succeeded.
 
 
-#### - LargeReadSmbs
-
-Specifies the total number of read requests the workstation has sent to servers that are greater than twice the size of the server's negotiated buffer size.
-
-
-#### - LargeWriteSmbs
-
-Specifies the total number of write requests the workstation has sent to servers that are greater than twice the size of the server's negotiated buffer size.
-
-
-#### - NetworkErrors
-
-Specifies the total number of network errors received by the workstation.
-
-
-#### - NetworkReadBytesRequested
-
-Specifies the total amount of bytes that have been read by disk I/O requests.
-
-
-#### - NetworkWriteBytesRequested
-
-Specifies the total number of bytes that have been written by disk I/O requests.
-
-
-#### - NonPagingReadBytesRequested
-
-Specifies the total number of bytes that have been read by non-paging I/O requests.
-
-
-#### - NonPagingWriteBytesRequested
-
-Specifies the total number of bytes that have been written by non-paging I/O requests.
-
-
-#### - PagingReadBytesRequested
-
-Specifies the total number of bytes that have been read by paging I/O requests.
-
-
-#### - PagingWriteBytesRequested
-
-Specifies the total number of bytes that have been written by paging I/O requests.
-
-
-#### - RandomReadOperations
-
-Specifies the total number of random access reads initiated by the workstation.
-
-
-#### - RandomWriteOperations
-
-Specifies the total number of random access writes initiated by the workstation.
-
-
-#### - RawReadsDenied
-
-Specifies the total number of raw read requests made by the workstation that have been denied.
-
-
-#### - RawWritesDenied
-
-Specifies the total number of raw write requests made by the workstation that have been denied.
-
-
-#### - ReadOperations
-
-Specifies the total number of read operations initiated by the workstation.
-
-
-#### - ReadSmbs
-
-Specifies the total number of read requests the workstation has sent to servers.
-
-
-#### - Reconnects
-
-Specifies the total number of connections that have failed.
-
-
 #### - ServerDisconnects
 
 Specifies the number of times the workstation was disconnected by a network server.
 
 
-#### - Sessions
+#### - HungSessions
 
-Specifies the total number of workstation sessions that were established.
-
-
-#### - SmallReadSmbs
-
-Specifies the total number of read requests the workstation has sent to servers that are less than 1/4 of the size of the server's negotiated buffer size.
-
-
-#### - SmallWriteSmbs
-
-Specifies the total number of write requests the workstation has sent to servers that are less than 1/4 of the size of the server's negotiated buffer size.
-
-
-#### - SmbsReceived
-
-Specifies the total number of server message blocks (SMBs) received by the workstation.
-
-
-#### - SmbsTransmitted
-
-Specifies the total number of SMBs transmitted by the workstation.
-
-
-#### - StatisticsStartTime
-
-Specifies the time statistics collection started. This member also indicates when statistics for the workstations were last cleared. The value is stored as the number of seconds elapsed since 00:00:00, January 1, 1970.
+Specifies the total number of sessions that have expired on the workstation.
 
 
 #### - UseCount
@@ -401,14 +401,14 @@ Specifies the time statistics collection started. This member also indicates whe
 Specifies the total number of network connections established by the workstation.
 
 
-#### - WriteOperations
+#### - FailedUseCount
 
-Specifies the total number of write operations initiated by the workstation.
+Specifies the total number of failed network connections for the workstation.
 
 
-#### - WriteSmbs
+#### - CurrentCommands
 
-Specifies the total number of write requests the workstation has sent to servers.
+Specifies the number of current requests that have not been completed.
 
 
 ## -see-also

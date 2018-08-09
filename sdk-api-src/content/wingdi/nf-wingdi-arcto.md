@@ -7,7 +7,7 @@ old-location: gdi\arcto.htm
 old-project: gdi
 ms.assetid: 5e358a14-9f39-4267-9a44-c8bf05b5dfbb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ArcTo, ArcTo function [Windows GDI], _win32_ArcTo, gdi.arcto, wingdi/ArcTo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,84 +66,42 @@ The <b>ArcTo</b> function draws an elliptical arc.
 A handle to the device context where drawing takes place.
 
 
-### -param left
-
-TBD
-
-
-### -param top
-
-TBD
-
-
-### -param right
-
-TBD
-
-
-### -param bottom
-
-TBD
-
-
-### -param xr1
-
-TBD
-
-
-### -param yr1
-
-TBD
-
-
-### -param xr2
-
-TBD
-
-
-### -param yr2
-
-TBD
-
-
-
-
-#### - nBottomRect [in]
-
-The y-coordinate, in logical units, of the lower-right corner of the bounding rectangle.
-
-
-#### - nLeftRect [in]
+### -param left [in]
 
 The x-coordinate, in logical units, of the upper-left corner of the bounding rectangle.
 
 
-#### - nRightRect [in]
-
-The x-coordinate, in logical units, of the lower-right corner of the bounding rectangle.
-
-
-#### - nTopRect [in]
+### -param top [in]
 
 The y-coordinate, in logical units, of the upper-left corner of the bounding rectangle.
 
 
-#### - nXRadial1 [in]
+### -param right [in]
+
+The x-coordinate, in logical units, of the lower-right corner of the bounding rectangle.
+
+
+### -param bottom [in]
+
+The y-coordinate, in logical units, of the lower-right corner of the bounding rectangle.
+
+
+### -param xr1 [in]
 
 The x-coordinate, in logical units, of the endpoint of the radial defining the starting point of the arc.
 
 
-#### - nXRadial2 [in]
-
-The x-coordinate, in logical units, of the endpoint of the radial defining the ending point of the arc.
-
-
-#### - nYRadial1 [in]
+### -param yr1 [in]
 
 The y-coordinate, in logical units, of the endpoint of the radial defining the starting point of the arc.
 
 
-#### - nYRadial2 [in]
+### -param xr2 [in]
+
+The x-coordinate, in logical units, of the endpoint of the radial defining the ending point of the arc.
+
+
+### -param yr2 [in]
 
 The y-coordinate, in logical units, of the endpoint of the radial defining the ending point of the arc.
 

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_FUNC_GetPixelFormatSize_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\getpixelformatsize.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetPixelFormatSize, GetPixelFormatSize function [GDI+], _gdiplus_FUNC_GetPixelFormatSize_, gdiplus._gdiplus_FUNC_GetPixelFormatSize_, gdipluspixelformats/GetPixelFormatSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ The <b>GetPixelFormatSize</b> method returns the number of bits per pixel used b
 
 Type: <b>PixelFormat</b>
 
-A <a href="https://msdn.microsoft.com/library/ms534412(v=VS.85).aspx">PixelFormat</a> constant that specifies the pixel format to be tested.
+A <a href="https://msdn.microsoft.com/en-us/library/ms534412(v=VS.85).aspx">PixelFormat</a> constant that specifies the pixel format to be tested.
 
 
 ## -returns

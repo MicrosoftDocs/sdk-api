@@ -7,7 +7,7 @@ old-location: base\imagentheader.htm
 old-project: debug
 ms.assetid: bf796c81-84d1-43e6-a2ff-b0be6f4603e0
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: ImageNtHeader, ImageNtHeader function, _win32_imagentheader, base.imagentheader, dbghelp/ImageNtHeader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ Locates the
 
 
 
-### -param Base
-
-TBD
-
-
-
-
-#### - ImageBase [in]
+### -param Base [in]
 
 The base address of an image that is mapped into memory by a call to the 
 <a href="https://msdn.microsoft.com/df9f54cd-b2de-4107-a1c5-d5a07045851e">MapViewOfFile</a> function.

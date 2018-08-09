@@ -7,7 +7,7 @@ old-location: properties\VariantToUInt16WithDefault.htm
 old-project: properties
 ms.assetid: 937d64c3-f5af-4230-b811-6d5883ecaf86
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: VariantToUInt16WithDefault, VariantToUInt16WithDefault function [Windows Properties], _shell_VariantToUInt16WithDefault, properties.VariantToUInt16WithDefault, propvarutil/VariantToUInt16WithDefault, shell.VariantToUInt16WithDefault
 ms.prod: windows
 ms.technology: windows-sdk

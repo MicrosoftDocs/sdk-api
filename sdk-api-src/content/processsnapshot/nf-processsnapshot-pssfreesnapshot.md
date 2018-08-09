@@ -7,7 +7,7 @@ old-location: proc_snap\pssfreesnapshot.htm
 old-project: proc_snap
 ms.assetid: 5D062AE6-2F7C-4121-AB6E-9BFA06AB36C6
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: PssFreeSnapshot, PssFreeSnapshot function, proc_snap.pssfreesnapshot, processsnapshot/PssFreeSnapshot
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: cos\ieventcontrol.htm
 old-project: cossdk
 ms.assetid: 8b2fba30-3ede-466f-ad3b-2de2175a088b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IEventControl, IEventControl interface [COM+], IEventControl interface [COM+],described, _cos_IEventControl, cos.ieventcontrol, eventsys/IEventControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ The <b>IEventControl</b> interface differs from the <a href="https://msdn.micros
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventControl</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IEventControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventControl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IEventControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -77,7 +77,6 @@ The <b>IEventControl</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ba39305d-8dc3-40fe-b6f6-d5c22f54a180">GetSubscriptions</a>
 </td>
 <td align="left" width="63%">
-
 Retrieves the collection of subscriptions associated with an event method.
 
 </td>
@@ -87,7 +86,6 @@ Retrieves the collection of subscriptions associated with an event method.
 <a href="https://msdn.microsoft.com/ea0cc4b8-e345-44bc-969e-f35f25b641f9">SetDefaultQuery</a>
 </td>
 <td align="left" width="63%">
-
 Sets the default query to determine subscribers.
 
 </td>

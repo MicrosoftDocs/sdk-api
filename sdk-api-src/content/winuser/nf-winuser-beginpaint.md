@@ -7,7 +7,7 @@ old-location: gdi\beginpaint.htm
 old-project: gdi
 ms.assetid: 513341d7-bed8-469c-a067-ee71dc8860f9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: BeginPaint, BeginPaint function [Windows GDI], _win32_BeginPaint, gdi.beginpaint, winuser/BeginPaint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,19 +62,14 @@ The <b>BeginPaint</b> function prepares the specified window for painting and fi
 
 
 
-### -param hWnd
+### -param hWnd [in]
 
-TBD
+Handle to the window to be repainted.
 
 
 ### -param lpPaint [out]
 
 Pointer to the <a href="https://msdn.microsoft.com/1f8c6dd2-e511-48f2-8ab0-d2fadb1ce433">PAINTSTRUCT</a> structure that will receive painting information.
-
-
-#### - hwnd [in]
-
-Handle to the window to be repainted.
 
 
 ## -returns

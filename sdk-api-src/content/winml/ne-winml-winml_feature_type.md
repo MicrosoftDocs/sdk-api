@@ -78,19 +78,9 @@ Specifies the different types of WinML features.
 
 
 
-#### - WINML_TENSOR_IMAGE
+#### - WINML_TENSOR_UNDEFINED
 
-Feature of type image.
-
-
-#### - WINML_TENSOR_MAP
-
-Feature of type map.
-
-
-#### - WINML_TENSOR_SEQUENCE
-
-Feature of type sequence.
+Feature type undefined.
 
 
 #### - WINML_TENSOR_TENSOR
@@ -98,7 +88,17 @@ Feature of type sequence.
 Feature of type tensor.
 
 
-#### - WINML_TENSOR_UNDEFINED
+#### - WINML_TENSOR_SEQUENCE
 
-Feature type undefined.
+Feature of type sequence.
+
+
+#### - WINML_TENSOR_MAP
+
+Feature of type map.
+
+
+#### - WINML_TENSOR_IMAGE
+
+Feature of type image.
 

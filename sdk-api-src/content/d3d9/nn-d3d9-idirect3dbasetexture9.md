@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dbasetexture9.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dbasetexture9.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 9a51f87c-558e-0e06-6372-a3753ac70d17, IDirect3DBaseTexture9, IDirect3DBaseTexture9 interface [Direct3D 9], IDirect3DBaseTexture9 interface [Direct3D 9],described, d3d9helper/IDirect3DBaseTexture9, direct3d9.idirect3dbasetexture9
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Applications use the methods of the IDirect3DBaseTexture9 interface to manipulat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DBaseTexture9</b> interface inherits from <a href="https://msdn.microsoft.com/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>. <b>IDirect3DBaseTexture9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DBaseTexture9</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>. <b>IDirect3DBaseTexture9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDirect3DBaseTexture9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb174323(v=VS.85).aspx">GenerateMipSubLevels</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174323(v=VS.85).aspx">GenerateMipSubLevels</a>
 </td>
 <td align="left" width="63%">
 Generate mipmap sublevels.
@@ -80,7 +80,7 @@ Generate mipmap sublevels.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb174324(v=VS.85).aspx">GetAutoGenFilterType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174324(v=VS.85).aspx">GetAutoGenFilterType</a>
 </td>
 <td align="left" width="63%">
 Get the filter type that is used for automatically generated mipmap sublevels.
@@ -89,7 +89,7 @@ Get the filter type that is used for automatically generated mipmap sublevels.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb174325(v=VS.85).aspx">GetLevelCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174325(v=VS.85).aspx">GetLevelCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of texture levels in a multilevel texture.
@@ -98,7 +98,7 @@ Returns the number of texture levels in a multilevel texture.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb174326(v=VS.85).aspx">GetLOD</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174326(v=VS.85).aspx">GetLOD</a>
 </td>
 <td align="left" width="63%">
 Returns a value clamped to the maximum level-of-detail set for a managed texture (this method is not supported for an unmanaged texture).
@@ -107,7 +107,7 @@ Returns a value clamped to the maximum level-of-detail set for a managed texture
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb174327(v=VS.85).aspx">SetAutoGenFilterType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174327(v=VS.85).aspx">SetAutoGenFilterType</a>
 </td>
 <td align="left" width="63%">
 Set the filter type that is used for automatically generated mipmap sublevels.
@@ -116,7 +116,7 @@ Set the filter type that is used for automatically generated mipmap sublevels.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb174328(v=VS.85).aspx">SetLOD</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174328(v=VS.85).aspx">SetLOD</a>
 </td>
 <td align="left" width="63%">
 Sets the most detailed level-of-detail for a managed texture. 
@@ -130,7 +130,7 @@ Sets the most detailed level-of-detail for a managed texture.
 
 
 
-The <b>IDirect3DBaseTexture9</b> interface assigned to a particular stage for a device is obtained by calling the <a href="https://msdn.microsoft.com/library/Bb174412(v=VS.85).aspx">GetTexture</a> method.
+The <b>IDirect3DBaseTexture9</b> interface assigned to a particular stage for a device is obtained by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb174412(v=VS.85).aspx">GetTexture</a> method.
 
 The LPDIRECT3DBASETEXTURE9 and PDIRECT3DBASETEXTURE9 types are defined as pointers to the <b>IDirect3DBaseTexture9</b> interface.
 
@@ -159,7 +159,7 @@ The LPDIRECT3DBASETEXTURE9 and PDIRECT3DBASETEXTURE9 types are defined as pointe
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>
  
 
  

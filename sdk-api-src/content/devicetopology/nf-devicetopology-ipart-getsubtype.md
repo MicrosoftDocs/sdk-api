@@ -7,7 +7,7 @@ old-location: coreaudio\ipart_getsubtype.htm
 old-project: CoreAudio
 ms.assetid: 456aaafb-1e68-4a3a-b27b-c6f6f89dc17b
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: GetSubType, GetSubType method [Core Audio], GetSubType method [Core Audio],IPart interface, IPart interface [Core Audio],GetSubType method, IPart.GetSubType, IPart::GetSubType, IPartGetSubType, coreaudio.ipart_getsubtype, devicetopology/IPart::GetSubType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,14 +116,11 @@ The following table lists some of the subtype GUIDs that can be retrieved by the
 
 <table>
 <tr>
-<th>
-              Subtype GUID
+<th>Subtype GUID
             </th>
-<th>
-              Control interface
+<th>Control interface
             </th>
-<th>
-              Required or optional
+<th>Required or optional
             </th>
 </tr>
 <tr>

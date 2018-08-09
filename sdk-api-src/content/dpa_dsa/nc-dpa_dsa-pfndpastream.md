@@ -7,7 +7,7 @@ old-location: controls\PFNDPASTREAM.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndpastream.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: PFNDPASTREAM, PFNDPASTREAM callback, PFNDPASTREAM callback function [Windows Controls], _win32_PFNDPASTREAM_Function, _win32_PFNDPASTREAM_Function_cpp, controls.PFNDPASTREAM, controls._win32_PFNDPASTREAM_Function, dpa_dsa/PFNDPASTREAM
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Defines the prototype for the callback function used by <a href="https://msdn.microsoft.com/library/Bb775627(v=VS.85).aspx">DPA_LoadStream</a> and <a href="https://msdn.microsoft.com/library/Bb775631(v=VS.85).aspx">DPA_SaveStream</a>.
+Defines the prototype for the callback function used by <a href="https://msdn.microsoft.com/en-us/library/Bb775627(v=VS.85).aspx">DPA_LoadStream</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb775631(v=VS.85).aspx">DPA_SaveStream</a>.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Defines the prototype for the callback function used by <a href="https://msdn.mi
 
 Type: <b>DPASTREAMINFO*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Bb775504(v=VS.85).aspx">DPASTREAMINFO</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb775504(v=VS.85).aspx">DPASTREAMINFO</a> structure.
 
 
 ### -param *pstream [in]
@@ -76,7 +76,7 @@ An <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">ISt
 
 Type: <b>void*</b>
 
-A void pointer to callback data that the client passed to <a href="https://msdn.microsoft.com/library/Bb775627(v=VS.85).aspx">DPA_LoadStream</a> or <a href="https://msdn.microsoft.com/library/Bb775631(v=VS.85).aspx">DPA_SaveStream</a>.
+A void pointer to callback data that the client passed to <a href="https://msdn.microsoft.com/en-us/library/Bb775627(v=VS.85).aspx">DPA_LoadStream</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb775631(v=VS.85).aspx">DPA_SaveStream</a>.
 
 
 ## -returns

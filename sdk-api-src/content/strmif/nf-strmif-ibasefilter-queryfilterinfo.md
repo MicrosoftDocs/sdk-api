@@ -7,7 +7,7 @@ old-location: dshow\ibasefilter_queryfilterinfo.htm
 old-project: DirectShow
 ms.assetid: 6cb9b6ef-05ae-4816-b337-dd90cab843fb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IBaseFilter interface [DirectShow],QueryFilterInfo method, IBaseFilter.QueryFilterInfo, IBaseFilter::QueryFilterInfo, IBaseFilterQueryFilterInfo, QueryFilterInfo, QueryFilterInfo method [DirectShow], QueryFilterInfo method [DirectShow],IBaseFilter interface, dshow.ibasefilter_queryfilterinfo, strmif/IBaseFilter::QueryFilterInfo
 ms.prod: windows
 ms.technology: windows-sdk

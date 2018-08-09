@@ -7,7 +7,7 @@ old-location: dshow\avisuperindex.htm
 old-project: DirectShow
 ms.assetid: 57c855ef-d4ea-4e11-a37b-941335ccf657
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: AVISUPERINDEX, AVISUPERINDEX structure [DirectShow], _avisuperindex, aviriff/AVISUPERINDEX, dshow.avisuperindex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -138,9 +138,7 @@ The size of the sub-index, in bytes.
 
 #### dwDuration
 
-
-              
-            The duration of the file that is covered by the sub-index, in stream ticks.
+The duration of the file that is covered by the sub-index, in stream ticks.
 
 
 ## -remarks

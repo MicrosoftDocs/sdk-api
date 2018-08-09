@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11fence_createsharedhandle.htm
 old-project: direct3d11
 ms.assetid: 07447C9A-8F69-4FCA-B75C-D7015292F25D
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: CreateSharedHandle, CreateSharedHandle method [Direct3D 11], CreateSharedHandle method [Direct3D 11],ID3D11Fence interface, ID3D11Fence interface [Direct3D 11],CreateSharedHandle method, ID3D11Fence.CreateSharedHandle, ID3D11Fence::CreateSharedHandle, d3d11_3/ID3D11Fence::CreateSharedHandle, direct3d11.id3d11fence_createsharedhandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,7 +117,7 @@ A <b>NULL</b>-terminated <b>UNICODE</b> string that contains the name to associa
               Name comparison is case-sensitive.
             
 
-If <i>Name</i> matches the name of an existing resource, <b>CreateSharedHandle</b> fails with <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NAME_ALREADY_EXISTS</a>.
+If <i>Name</i> matches the name of an existing resource, <b>CreateSharedHandle</b> fails with <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NAME_ALREADY_EXISTS</a>.
               This occurs because these objects share the same namespace.
             
 
@@ -138,15 +138,15 @@ The object can be created in a private namespace.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, returns one of the following values:
               
 
 <ul>
-<li><a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a> if one of the parameters is invalid.
+<li><a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a> if one of the parameters is invalid.
               </li>
-<li><a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NAME_ALREADY_EXISTS</a> if the supplied name of the resource to share is already associated with another resource.
+<li><a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NAME_ALREADY_EXISTS</a> if the supplied name of the resource to share is already associated with another resource.
               </li>
 <li>E_ACCESSDENIED if the object is being created in a protected namespace.</li>
 <li>E_OUTOFMEMORY if sufficient memory is not available to create the handle.</li>
@@ -160,7 +160,7 @@ Returns S_OK if successful; otherwise, returns one of the following values:
 
 
 
-In order to to create a shared handle for the specified fence, the fence must have been created with either the <b>D3D11_FENCE_FLAG_SHARED</b> or <b>D3D11_FENCE_FLAG_SHARED_CROSS_ADAPTER</b> flags. For more information see the <a href="https://msdn.microsoft.com/library/Mt492475(v=VS.85).aspx">D3D11_FENCE_FLAG</a> enumeration.
+In order to to create a shared handle for the specified fence, the fence must have been created with either the <b>D3D11_FENCE_FLAG_SHARED</b> or <b>D3D11_FENCE_FLAG_SHARED_CROSS_ADAPTER</b> flags. For more information see the <a href="https://msdn.microsoft.com/en-us/library/Mt492475(v=VS.85).aspx">D3D11_FENCE_FLAG</a> enumeration.
 
 
 

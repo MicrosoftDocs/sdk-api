@@ -7,7 +7,7 @@ old-location: mscs\resutilsetdwordvalue.htm
 old-project: mscs
 ms.assetid: e8b4393b-84f7-4440-92b5-fd7fa2be96a2
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: PRESUTIL_SET_DWORD_VALUE, PRESUTIL_SET_DWORD_VALUE function [Failover Cluster], ResUtilSetDwordValue, ResUtilSetDwordValue function [Failover Cluster], _wolf_resutilsetdwordvalue, mscs.resutilsetdwordvalue, resapi/PRESUTIL_SET_DWORD_VALUE, resapi/ResUtilSetDwordValue
 ms.prod: windows
 ms.technology: windows-sdk

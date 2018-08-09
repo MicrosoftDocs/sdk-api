@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dresource9__getprivatedata.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__getprivatedata.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetPrivateData, GetPrivateData method [Direct3D 9], GetPrivateData method [Direct3D 9],IDirect3DResource9 interface, IDirect3DResource9 interface [Direct3D 9],GetPrivateData method, IDirect3DResource9.GetPrivateData, IDirect3DResource9::GetPrivateData, a3ce4b5e-f58e-cf26-2ef5-896eaf4a5613, d3d9helper/IDirect3DResource9::GetPrivateData, direct3d9.idirect3dresource9__getprivatedata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ Pointer to the size of the buffer at
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL, D3DERR_MOREDATA, D3DERR_NOTFOUND.
 
@@ -98,19 +98,19 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 This method is inherited by the following interfaces: 
     
-    <a href="https://msdn.microsoft.com/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>, 
+    <a href="https://msdn.microsoft.com/en-us/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>, 
     
-    <a href="https://msdn.microsoft.com/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a>,
+    <a href="https://msdn.microsoft.com/en-us/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a>,
     
-    <a href="https://msdn.microsoft.com/library/Bb174329(v=VS.85).aspx">IDirect3DCubeTexture9</a>, 
+    <a href="https://msdn.microsoft.com/en-us/library/Bb174329(v=VS.85).aspx">IDirect3DCubeTexture9</a>, 
     
-    <a href="https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx">IDirect3DTexture9</a>, 
+    <a href="https://msdn.microsoft.com/en-us/library/Bb205909(v=VS.85).aspx">IDirect3DTexture9</a>, 
     
-    <a href="https://msdn.microsoft.com/library/Bb205941(v=VS.85).aspx">IDirect3DVolumeTexture9</a>,
+    <a href="https://msdn.microsoft.com/en-us/library/Bb205941(v=VS.85).aspx">IDirect3DVolumeTexture9</a>,
     
-    <a href="https://msdn.microsoft.com/library/Bb205865(v=VS.85).aspx">IDirect3DIndexBuffer9</a>, 
+    <a href="https://msdn.microsoft.com/en-us/library/Bb205865(v=VS.85).aspx">IDirect3DIndexBuffer9</a>, 
     
-    <a href="https://msdn.microsoft.com/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>.
+    <a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>.
 
 
 
@@ -120,7 +120,7 @@ This method is inherited by the following interfaces:
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>
  
 
  

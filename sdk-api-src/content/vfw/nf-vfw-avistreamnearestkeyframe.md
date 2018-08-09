@@ -7,7 +7,7 @@ old-location: multimedia\avistreamnearestkeyframe.htm
 old-project: Multimedia
 ms.assetid: 90d0e0a8-dc5b-4f7e-868e-03f40f037437
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AVIStreamNearestKeyFrame, AVIStreamNearestKeyFrame macro [Windows Multimedia], _win32_AVIStreamNearestKeyFrame, multimedia.avistreamnearestkeyframe, vfw/AVIStreamNearestKeyFrame
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,15 +68,6 @@ Handle to an open stream.
 
 
 ### -param l
-
-TBD
-
-
-
-
-
-
-#### - lPos
 
 Starting position to search in the stream. 
 

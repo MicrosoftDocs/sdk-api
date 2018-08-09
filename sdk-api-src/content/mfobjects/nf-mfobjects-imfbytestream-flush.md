@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_flush.htm
 old-project: medfound
 ms.assetid: 16ea6c38-52f3-405e-8a8f-be5d0527099c
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 16ea6c38-52f3-405e-8a8f-be5d0527099c, Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],Flush method, IMFByteStream.Flush, IMFByteStream::Flush, mf.imfbytestream_flush, mfobjects/IMFByteStream::Flush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Clears any internal buffers used by the stream. If you are writing to the stream, the buffered data is written to the underlying file or device.
+Clears any internal buffers used by the stream. If you are writing to the stream, the buffered data is written to the underlying file or device.
         
 
 
@@ -77,8 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        If the byte stream is read-only, this method has no effect.
+If the byte stream is read-only, this method has no effect.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 

@@ -4,10 +4,10 @@ title: PdhCollectQueryDataWithTime function
 author: windows-sdk-content
 description: Collects the current raw data value for all counters in the specified query and updates the status code of each counter.
 old-location: perf\pdhcollectquerydatawithtime.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 2c47c690-0748-4ed4-a138-894d45c72581
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhCollectQueryDataWithTime, PdhCollectQueryDataWithTime function [Perf], base.pdhcollectquerydatawithtime, pdh/PdhCollectQueryDataWithTime, perf.pdhcollectquerydatawithtime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Collects the current raw data value for all counters in the specified query and updates the status code of each counter.
+Collects the current raw data value for all counters in the specified query and updates the status code of each counter.
 		
 
 
@@ -75,8 +74,7 @@ Time stamp when the first counter value in the query was retrieved. The time is 
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS. Otherwise, the function returns a 
+If the function succeeds, it returns ERROR_SUCCESS. Otherwise, the function returns a 
 <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
 <a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>.
 						

@@ -7,7 +7,7 @@ old-location: dwm\dwmquerythumbnailsourcesize.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmquerythumbnailsourcesize.htm
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 08/06/2018
 ms.keywords: DwmQueryThumbnailSourceSize, DwmQueryThumbnailSourceSize function [Desktop Window Manager], _udwm_dwmquerythumbnailsourcesize, _udwm_dwmquerythumbnailsourcesize_cpp, dwm.dwmquerythumbnailsourcesize, dwmapi/DwmQueryThumbnailSourceSize, winui._udwm_dwmquerythumbnailsourcesize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,15 +83,15 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa969541(v=VS.85).aspx">DWM Thumbnail Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa969541(v=VS.85).aspx">DWM Thumbnail Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa969540(v=VS.85).aspx">Desktop Window Manager Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa969540(v=VS.85).aspx">Desktop Window Manager Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa969526(v=VS.85).aspx">DwmUpdateThumbnailProperties</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa969526(v=VS.85).aspx">DwmUpdateThumbnailProperties</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: stg\stgconvertpropertytovariant.htm
 old-project: stg
 ms.assetid: ea4196e6-fc99-4288-942a-e5283f2e5544
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: StgConvertPropertyToVariant, StgConvertPropertyToVariant function [Structured Storage], propidl/StgConvertPropertyToVariant, stg.stgconvertpropertytovariant
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,9 @@ The <b>StgConvertPropertyToVariant</b> function converts a <b>SERIALIZEDPROPERTY
 
 
 
-### -param pprop
+### -param pprop [in]
 
-TBD
+A pointer to <b>SERIALIZEDPROPERTYVALUE</b>.
 
 
 ### -param CodePage [in]
@@ -77,11 +77,6 @@ A pointer to <b>PROPVARIANT</b>.
 ### -param pma [in]
 
 A pointer to a class that implements the <a href="https://msdn.microsoft.com/a0735b62-5ed3-42df-a320-b58c742645a8">IMemoryAllocator</a> abstract class.
-
-
-#### - prop [in]
-
-A pointer to <b>SERIALIZEDPROPERTYVALUE</b>.
 
 
 ## -returns

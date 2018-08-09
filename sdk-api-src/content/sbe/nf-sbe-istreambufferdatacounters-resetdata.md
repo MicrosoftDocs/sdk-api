@@ -7,7 +7,7 @@ old-location: mstv\istreambufferdatacounters_resetdata.htm
 old-project: mstv
 ms.assetid: 643f0f67-8915-4097-b53a-7007610c9c8a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IStreamBufferDataCounters interface [Microsoft TV Technologies],ResetData method, IStreamBufferDataCounters.ResetData, IStreamBufferDataCounters::ResetData, IStreamBufferDataCountersResetData, ResetData, ResetData method [Microsoft TV Technologies], ResetData method [Microsoft TV Technologies],IStreamBufferDataCounters interface, mstv.istreambufferdatacounters_resetdata, sbe/IStreamBufferDataCounters::ResetData
 ms.prod: windows
 ms.technology: windows-sdk

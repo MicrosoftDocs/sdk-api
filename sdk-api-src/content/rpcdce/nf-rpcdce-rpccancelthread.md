@@ -7,7 +7,7 @@ old-location: rpc\rpccancelthread.htm
 old-project: rpc
 ms.assetid: 4315562e-674b-40a4-a2d9-133e6ab27c25
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcCancelThread, RpcCancelThread function [RPC], _rpc_rpccancelthread, rpc.rpccancelthread, rpcdce/RpcCancelThread
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,13 +63,6 @@ The
 
 
 ### -param Thread
-
-TBD
-
-
-
-
-#### - ThreadHandle
 
 Handle of the thread to cancel.
 

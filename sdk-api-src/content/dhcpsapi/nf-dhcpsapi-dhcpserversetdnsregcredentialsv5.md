@@ -7,7 +7,7 @@ old-location: dhcp\dhcpserversetdnsregcredentialsv5.htm
 old-project: dhcp
 ms.assetid: 7fed2635-43a6-417a-996f-fff8d0692924
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpServerSetDnsRegCredentialsV5, DhcpServerSetDnsRegCredentialsV5 function [DHCP], dhcp.dhcpserversetdnsregcredentialsv5, dhcpsapi/DhcpServerSetDnsRegCredentialsV5
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,14 +74,7 @@ Pointer to a null-terminated Unicode string that specifies the user name for the
 Pointer to a null-terminated Unicode string that specifies the domain name for the DNS credentials.
 
 
-### -param Passwd
-
-TBD
-
-
-
-
-#### - Password [in]
+### -param Passwd [in]
 
 Pointer to a null-terminated   Unicode string that specifies the password for the DNS credentials. The password can be unencrypted.
 

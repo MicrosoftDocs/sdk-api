@@ -7,7 +7,7 @@ old-location: tsf\itfkeystrokemgr_unpreservekey.htm
 old-project: TSF
 ms.assetid: 05975fce-04c3-4316-a9b2-ed015e7aa8fe
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],UnpreserveKey method, ITfKeystrokeMgr.UnpreserveKey, ITfKeystrokeMgr::UnpreserveKey, UnpreserveKey, UnpreserveKey method [Text Services Framework], UnpreserveKey method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_unpreservekey_ref, msctf/ITfKeystrokeMgr::UnpreserveKey, tsf.itfkeystrokemgr_unpreservekey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -141,8 +141,7 @@ Preserved keys are registered by TSF text services and provide keyboard shortcut
 
 
 
-<a href="https://msdn.microsoft.com/95d37e94-3991-49c9-bddf-4183a69d49b9">
-        TF_PRESERVEDKEY
+<a href="https://msdn.microsoft.com/95d37e94-3991-49c9-bddf-4183a69d49b9">TF_PRESERVEDKEY
       </a>
  
 

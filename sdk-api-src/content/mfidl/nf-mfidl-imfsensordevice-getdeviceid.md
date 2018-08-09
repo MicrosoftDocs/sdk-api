@@ -7,7 +7,7 @@ old-location: mf\imfsensordevice_getdeviceid.htm
 old-project: medfound
 ms.assetid: 90598DC7-A4FB-4C3F-A671-1549703AC9DB
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetDeviceId, GetDeviceId method [Media Foundation], GetDeviceId method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceId method, IMFSensorDevice.GetDeviceId, IMFSensorDevice::GetDeviceId, mf.imfsensordevice_getdeviceid, mfidl/IMFSensorDevice::GetDeviceId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ The unique identifier for the device.
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ The unique identifier for the device.
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -100,8 +98,7 @@ The unique identifier for the device.
 </dl>
 </td>
 <td width="60%">
-
-                The <i>pDeviceId</i> parameter is null.
+The <i>pDeviceId</i> parameter is null.
 
 </td>
 </tr>
@@ -112,8 +109,7 @@ The unique identifier for the device.
 </dl>
 </td>
 <td width="60%">
-
-                The sensor group has not been initialized.
+The sensor group has not been initialized.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: mf\imfpmpclient.htm
 old-project: medfound
 ms.assetid: adfba5dd-eae6-48f3-a155-65bd491c952c
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFPMPClient, IMFPMPClient interface [Media Foundation], IMFPMPClient interface [Media Foundation],described, adfba5dd-eae6-48f3-a155-65bd491c952c, mf.imfpmpclient, mfidl/IMFPMPClient
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Enables a media source to receive a pointer to the <a href="https://msdn.microsoft.com/fab1fb42-07c5-4a74-b6f5-0950b2c3ba46">IMFPMPHost</a> interface.
+Enables a media source to receive a pointer to the <a href="https://msdn.microsoft.com/fab1fb42-07c5-4a74-b6f5-0950b2c3ba46">IMFPMPHost</a> interface.
         
 
 
@@ -77,8 +76,7 @@ The <b>IMFPMPClient</b> interface has these methods.
 <a href="https://msdn.microsoft.com/d6e48f36-7896-4e6d-ba10-d8c0288ccffc">SetPMPHost</a>
 </td>
 <td align="left" width="63%">
-
-          Provides a pointer to the <a href="https://msdn.microsoft.com/fab1fb42-07c5-4a74-b6f5-0950b2c3ba46">IMFPMPHost</a> interface.
+Provides a pointer to the <a href="https://msdn.microsoft.com/fab1fb42-07c5-4a74-b6f5-0950b2c3ba46">IMFPMPHost</a> interface.
         
 
 </td>

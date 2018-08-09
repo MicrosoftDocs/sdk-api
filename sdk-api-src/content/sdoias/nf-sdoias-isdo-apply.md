@@ -7,7 +7,7 @@ old-location: nps\SDO_isdo_apply.htm
 old-project: nps
 ms.assetid: aceca2f9-7b17-46a5-bcd1-e6fec3c369ed
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: Apply, Apply method [Network Policy Server], Apply method [Network Policy Server],ISdo interface, ISdo interface [Network Policy Server],Apply method, ISdo.Apply, ISdo::Apply, _sdo_isdo_apply, nps.SDO_isdo_apply, sdo.isdo_apply, sdoias/ISdo::Apply
 ms.prod: windows
 ms.technology: windows-sdk

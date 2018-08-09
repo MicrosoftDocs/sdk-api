@@ -7,7 +7,7 @@ old-location: mmc\irequiredextensions.htm
 old-project: MMC
 ms.assetid: 55832db9-30d9-4a5f-bfef-a014b1050f22
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: IRequiredExtensions, IRequiredExtensions interface [MMC], IRequiredExtensions interface [MMC],described, _slate_irequiredextensions, mmc.irequiredextensions, mmc/IRequiredExtensions
 ms.prod: windows
 ms.technology: windows-sdk

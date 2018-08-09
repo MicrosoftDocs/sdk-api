@@ -7,7 +7,7 @@ old-location: p2p\peergraphupdaterecord.htm
 old-project: p2psdk
 ms.assetid: 9007095f-4f2a-4e92-895b-9a4033f0f7b9
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphUpdateRecord, PeerGraphUpdateRecord function [Peer Networking], p2p.peergraphupdaterecord, p2p/PeerGraphUpdateRecord
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphUpdateRecord</b> function updates a record in the peer graph and then floods the record to each node in the peer graph.
+The <b>PeerGraphUpdateRecord</b> function updates a record in the peer graph and then floods the record to each node in the peer graph.
 
 
 ## -parameters
@@ -193,8 +192,7 @@ This code snippet shows how to update a record.
 
 
 
-<a href="https://msdn.microsoft.com/4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1">
-        PEER_RECORD</a>
+<a href="https://msdn.microsoft.com/4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1">PEER_RECORD</a>
  
 
  

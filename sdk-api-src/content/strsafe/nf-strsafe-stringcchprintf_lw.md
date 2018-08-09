@@ -7,7 +7,7 @@ old-location: menurc\stringcchprintf_l.htm
 old-project: menurc
 ms.assetid: 9484d792-3f4e-42cd-96e3-7ce0b16859cc
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: StringCchPrintf_l, StringCchPrintf_l function [Menus and Other Resources], StringCchPrintf_lA, StringCchPrintf_lW, menurc.stringcchprintf_l, strsafe/StringCchPrintf_l, strsafe/StringCchPrintf_lA, strsafe/StringCchPrintf_lW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,14 +83,7 @@ The format string. This string must be null-terminated. For more information, se
 The locale object. For more information, see <b>_create_locale</b>.
 
 
-### -param param
-
-TBD
-
-
-
-
-#### - [in]
+### -param param [in]
 
 The arguments to be inserted into the <i>pszFormat</i> string.
 

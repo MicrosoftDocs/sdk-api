@@ -7,7 +7,7 @@ old-location: wic\iwicjpegframeencode_getquantizationtable.htm
 old-project: wic
 ms.assetid: 6FBDAEA2-78E6-4152-815D-FA6164FE396F
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetQuantizationTable, GetQuantizationTable method [Windows Imaging Component], GetQuantizationTable method [Windows Imaging Component],IWICJpegFrameEncode interface, IWICJpegFrameEncode interface [Windows Imaging Component],GetQuantizationTable method, IWICJpegFrameEncode.GetQuantizationTable, IWICJpegFrameEncode::GetQuantizationTable, wic.iwicjpegframeencode_getquantizationtable, wincodec/IWICJpegFrameEncode::GetQuantizationTable
 ms.prod: windows
 ms.technology: windows-sdk

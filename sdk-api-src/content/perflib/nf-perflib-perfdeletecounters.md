@@ -4,10 +4,10 @@ title: PerfDeleteCounters function
 author: windows-sdk-content
 description: Removes the specified performance counter specifications from the specified query.
 old-location: perf\perfdeletecounters.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 330CA041-41CA-4C48-B88B-C48A0143505E
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PerfDeleteCounters, PerfDeleteCounters function [Perf], perf.perfdeletecounters, perflib/PerfDeleteCounters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,8 +78,7 @@ The size of the buffer that the <i>pCounters</i> parameter specifies, in bytes.
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
@@ -92,8 +91,7 @@ If the function fails, the return value is a
 
 
 
-The <i>pCounters</i> parameter should point to a sequence of <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a>
-blocks. Each <b>PERF_COUNTER_IDENTIFIER</b> block consists of a
+The <i>pCounters</i> parameter should point to a sequence of <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a>blocks. Each <b>PERF_COUNTER_IDENTIFIER</b> block consists of a
 <b>PERF_COUNTER_IDENTIFIER</b> structure, optionally followed by a null-terminated
 UTF-16LE instance  name string, followed by padding that makes the size of the block a multiple of 8 bytes.
 

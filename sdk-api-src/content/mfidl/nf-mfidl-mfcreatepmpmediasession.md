@@ -7,7 +7,7 @@ old-location: mf\mfcreatepmpmediasession.htm
 old-project: medfound
 ms.assetid: cb492e68-3d8a-49b2-8c0b-bee8065b53a8
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFCreatePMPMediaSession, MFCreatePMPMediaSession function [Media Foundation], cb492e68-3d8a-49b2-8c0b-bee8065b53a8, mf.mfcreatepmpmediasession, mfidl/MFCreatePMPMediaSession
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Creates an instance of the <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a> inside a Protected Media Path (PMP) process.
+Creates an instance of the <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a> inside a Protected Media Path (PMP) process.
         
 
 
@@ -63,29 +62,25 @@ req.product: GDI+ 1.1
 
 ### -param dwCreationFlags
 
-
-            A member of the <a href="https://msdn.microsoft.com/6341aaff-aa80-4172-8577-0b757a01ea53">MFPMPSESSION_CREATION_FLAGS</a> enumeration that specifies how to create the session object.
+A member of the <a href="https://msdn.microsoft.com/6341aaff-aa80-4172-8577-0b757a01ea53">MFPMPSESSION_CREATION_FLAGS</a> enumeration that specifies how to create the session object.
           
 
 
 ### -param pConfiguration
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface. This parameter can be <b>NULL</b>. See Remarks.
+A pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface. This parameter can be <b>NULL</b>. See Remarks.
           
 
 
 ### -param ppMediaSession
 
-
-            Receives a pointer to the PMP Media Session's <a href="https://msdn.microsoft.com/feebf891-73fa-4fe6-94ca-3594986fc92d">IMFMediaSession</a> interface. The caller must release the interface. Before releasing the last reference to the <b>IMFMediaSession</b> pointer, the application must call the <a href="https://msdn.microsoft.com/5b9663c2-e32e-4075-b397-59ae01558e15">IMFMediaSession::Shutdown</a> method.
+Receives a pointer to the PMP Media Session's <a href="https://msdn.microsoft.com/feebf891-73fa-4fe6-94ca-3594986fc92d">IMFMediaSession</a> interface. The caller must release the interface. Before releasing the last reference to the <b>IMFMediaSession</b> pointer, the application must call the <a href="https://msdn.microsoft.com/5b9663c2-e32e-4075-b397-59ae01558e15">IMFMediaSession::Shutdown</a> method.
           
 
 
 ### -param ppEnablerActivate
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface or the value <b>NULL</b>. If non-<b>NULL</b>, the caller must release the interface. See Remarks.
+Receives a pointer to the <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface or the value <b>NULL</b>. If non-<b>NULL</b>, the caller must release the interface. See Remarks.
           
 
 
@@ -93,8 +88,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -109,8 +103,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The function succeeded.
+The function succeeded.
 
 </td>
 </tr>
@@ -149,19 +142,16 @@ You can use the <i>pConfiguration</i> parameter to set any of the following attr
 If this function cannot create the PMP Media Session because a trusted binary was revoked, the <i>ppEnablerActivate</i> parameter receives an <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface pointer. The application can use this pointer to create a content enabler object, which can then be used to download an updated binary:
 
 <ol>
-<li>
-            Call <a href="https://msdn.microsoft.com/120b8070-6732-450d-8334-b3910f7bb4d2">IMFActivate::ActivateObject</a> with the interface identifier IID_IMFContentEnabler to get an <a href="https://msdn.microsoft.com/45d02bd0-1104-47ec-8559-8cc51590fc62">IMFContentEnabler</a> interface pointer.
+<li>Call <a href="https://msdn.microsoft.com/120b8070-6732-450d-8334-b3910f7bb4d2">IMFActivate::ActivateObject</a> with the interface identifier IID_IMFContentEnabler to get an <a href="https://msdn.microsoft.com/45d02bd0-1104-47ec-8559-8cc51590fc62">IMFContentEnabler</a> interface pointer.
           </li>
-<li>
-            Use that interface to download the updated binary.
+<li>Use that interface to download the updated binary.
           </li>
-<li>
-            Call <b>MFCreatePMPMediaSession</b> again.
+<li>Call <b>MFCreatePMPMediaSession</b> again.
           </li>
 </ol>
 If the function successfully creates the PMP Media Session, the <i>ppEnablerActivate</i> parameter receives the value <b>NULL</b>.
 
-Do not make calls to the PMP Media Session from a thread that is processing a window message sent from another thread. To test whether the current thread falls into this category, call <a href="https://msdn.microsoft.com/library/ms644941(v=VS.85).aspx">InSendMessage</a>.
+Do not make calls to the PMP Media Session from a thread that is processing a window message sent from another thread. To test whether the current thread falls into this category, call <a href="https://msdn.microsoft.com/en-us/library/ms644941(v=VS.85).aspx">InSendMessage</a>.
 
 
 

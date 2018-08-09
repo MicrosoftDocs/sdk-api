@@ -2,12 +2,12 @@
 UID: NS:mi._MI_FeatureDecl
 title: "_MI_FeatureDecl"
 author: windows-sdk-content
-description: Contains properties that are common to the MI_PropertyDeclMI_ParameterDecl and MI_MethodDecl structures.
+description: Contains properties that are common to the MI_PropertyDeclMI_ParameterDecland MI_MethodDecl structures.
 old-location: wmi_v2\mi_featuredecl.htm
 old-project: wmi_v2
 ms.assetid: 7C669B89-C6D7-45E5-AAD8-A884F4E87659
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_FeatureDecl, MI_FeatureDecl structure [Windows Management Infrastructure (MI)], _MI_FeatureDecl, mi/MI_FeatureDecl, wmi_v2.mi_featuredecl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 
 
 Contains properties that are common to the <a href="https://msdn.microsoft.com/bc5e5c1e-3483-4762-8063-047308dc3652">MI_PropertyDecl</a>
-<a href="https://msdn.microsoft.com/09ad6ea4-09ae-428b-9df9-414043044d6a">MI_ParameterDecl</a>
-and <a href="https://msdn.microsoft.com/50087394-44C2-4CE5-8952-9795FE9B236A">MI_MethodDecl</a> structures.
+<a href="https://msdn.microsoft.com/09ad6ea4-09ae-428b-9df9-414043044d6a">MI_ParameterDecl</a>and <a href="https://msdn.microsoft.com/50087394-44C2-4CE5-8952-9795FE9B236A">MI_MethodDecl</a> structures.
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: wsw\ws_item_range.htm
 old-project: wsw
 ms.assetid: 29e04edd-fa39-47d0-a24c-ef3f539ce171
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_ITEM_RANGE, WS_ITEM_RANGE structure [Web Services for Windows], _WS_ITEM_RANGE, webservices/WS_ITEM_RANGE, wsw.ws_item_range
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: display\dxflipvideoport.htm
 old-project: display
 ms.assetid: d6047c90-1163-475a-a55b-95ccb0570e3e
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: DxFlipVideoPort, DxFlipVideoPort callback function [Display Devices], PDX_FLIPVIDEOPORT, PDX_FLIPVIDEOPORT callback, VideoMiniPort_DxApiFunctions_ae9b2d92-5f47-4897-af4e-d8f7cb0f8b39.xml, display.dxflipvideoport, dxmini/DxFlipVideoPort
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: DXGI_FORMAT
+req.typenames: D3DCOLORVALUE
 topic_type:
  - APIRef
  - kbSyntax
@@ -74,14 +74,14 @@ The<i> DxFlipVideoPort</i> callback function is called when a client of the vide
 
 
 
-#### - FlipVideoPortInfo
-
-Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549347">DDFLIPVIDEOPORTINFO</a> structure that contains the flip information for the surface and VPE object.
-
-
 #### - HwDeviceExtension
 
 Points to the miniport driver's device extension.
+
+
+#### - FlipVideoPortInfo
+
+Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549347">DDFLIPVIDEOPORTINFO</a> structure that contains the flip information for the surface and VPE object.
 
 
 #### - lpOutput

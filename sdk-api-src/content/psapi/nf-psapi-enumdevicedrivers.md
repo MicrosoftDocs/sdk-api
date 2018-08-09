@@ -7,7 +7,7 @@ old-location: psapi\enumdevicedrivers.htm
 old-project: psapi
 ms.assetid: 55925741-da23-44b1-93e8-0e9468434a61
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: EnumDeviceDrivers, EnumDeviceDrivers function [PSAPI], K32EnumDeviceDrivers, _win32_enumdevicedrivers, base.enumdevicedrivers, psapi.enumdevicedrivers, psapi/EnumDeviceDrivers, psapi/K32EnumDeviceDrivers
 ms.prod: windows
 ms.technology: windows-sdk

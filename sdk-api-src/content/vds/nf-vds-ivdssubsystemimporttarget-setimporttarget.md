@@ -4,10 +4,10 @@ title: IVdsSubSystemImportTarget::SetImportTarget
 author: windows-sdk-content
 description: Sets the Volume Shadow Copy service (VSS) import target for the computer for this subsystem.
 old-location: base\ivdssubsystemimporttarget_setimporttarget.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 96770760-a9af-46be-8e63-be8a86ec81ab
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IVdsSubSystemImportTarget interface [VDS],SetImportTarget method, IVdsSubSystemImportTarget.SetImportTarget, IVdsSubSystemImportTarget::SetImportTarget, SetImportTarget, SetImportTarget method [VDS], SetImportTarget method [VDS],IVdsSubSystemImportTarget interface, base.ivdssubsystemimporttarget_setimporttarget, vds/IVdsSubSystemImportTarget::SetImportTarget
 ms.prod: windows
 ms.technology: windows-sdk

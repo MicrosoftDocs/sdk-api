@@ -7,7 +7,7 @@ old-location: http\httpqueryurlgroupproperty.htm
 old-project: http
 ms.assetid: f3e8fde0-5a78-46aa-8c6c-cea957d12356
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpQueryUrlGroupProperty, HttpQueryUrlGroupProperty function [HTTP], HttpServerAuthenticationProperty, HttpServerChannelBindProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, http.httpqueryurlgroupproperty, http/HttpQueryUrlGroupProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,24 +127,7 @@ Queries the channel binding token (CBT) properties.
  
 
 
-### -param PropertyInformation
-
-TBD
-
-
-### -param PropertyInformationLength [in]
-
-The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i> parameter.
-
-
-### -param ReturnLength
-
-TBD
-
-
-
-
-#### - pPropertyInformation [out]
+### -param PropertyInformation [out]
 
 A pointer to the buffer that receives the property information.
 
@@ -189,7 +172,12 @@ A pointer to the buffer that receives the property information.
 
 
 
-#### - pReturnLength [out, optional]
+### -param PropertyInformationLength [in]
+
+The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i> parameter.
+
+
+### -param ReturnLength [out, optional]
 
 The size, in bytes, returned in the  <i>pPropertyInformation</i> buffer.
 

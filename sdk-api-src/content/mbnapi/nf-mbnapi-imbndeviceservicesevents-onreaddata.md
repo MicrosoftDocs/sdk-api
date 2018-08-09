@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservicesevents_onreaddata.htm
 old-project: mbn
 ms.assetid: 14D2A2A3-E3E0-4C8B-B4FE-F85CA1316877
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnReadData method, IMbnDeviceServicesEvents.OnReadData, IMbnDeviceServicesEvents::OnReadData, OnReadData, OnReadData method [Microsoft Broadband Networks], OnReadData method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onreaddata, mbnapi/IMbnDeviceServicesEvents::OnReadData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Notification for data being read from a device service data session.
 
 ### -param deviceService [in]
 
-The <a href="https://msdn.microsoft.com/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> session object on which the data was read.
+The <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> session object on which the data was read.
 
 
 ### -param deviceServiceData [in]

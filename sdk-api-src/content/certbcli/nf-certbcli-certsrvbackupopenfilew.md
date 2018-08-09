@@ -7,7 +7,7 @@ old-location: security\certsrvbackupopenfile.htm
 old-project: seccrypto
 ms.assetid: 5ddce73f-c693-437a-9eae-d7eaf482ee05
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CertSrvBackupOpenFile, CertSrvBackupOpenFile function [Security], CertSrvBackupOpenFileW, _certsrv_certsrvbackupopenfile, certbcli/CertSrvBackupOpenFile, certbcli/CertSrvBackupOpenFileW, security.certsrvbackupopenfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>CertSrvBackupOpenFile</b> function opens a file for backup.
+The <b>CertSrvBackupOpenFile</b> function opens a file for backup.
 
 
 ## -parameters
@@ -87,8 +86,7 @@ A pointer to a <b>LARGE_INTEGER</b> value that represents the number of bytes in
 
 
 
-
-						If the function succeeds, the function returns S_OK.
+If the function succeeds, the function returns S_OK.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 

@@ -7,7 +7,7 @@ old-location: mscs\getclusterfromresource.htm
 old-project: mscs
 ms.assetid: d0ba93cb-94aa-4c68-b87e-518ee1e5c35c
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: GetClusterFromResource, GetClusterFromResource function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_RESOURCE, PCLUSAPI_GET_CLUSTER_FROM_RESOURCE function [Failover Cluster], _wolf_getclusterfromresource, clusapi/GetClusterFromResource, clusapi/PCLUSAPI_GET_CLUSTER_FROM_RESOURCE, mscs.getclusterfromresource
 ms.prod: windows
 ms.technology: windows-sdk

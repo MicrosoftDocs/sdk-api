@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumoptionsv5.htm
 old-project: dhcp
 ms.assetid: 9fe14fe7-d207-4a5a-b36c-4a5ab32a6bc3
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpEnumOptionsV5, DhcpEnumOptionsV5 function [DHCP], dhcp.dhcpenumoptionsv5, dhcpsapi/DhcpEnumOptionsV5
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpEnumOptionsV5</b> function returns an enumerated list of DHCP options for a given user or vendor class.
+The <b>DhcpEnumOptionsV5</b> function returns an enumerated list of DHCP options for a given user or vendor class.
 
 
 ## -parameters
@@ -178,8 +177,7 @@ The supplied user or vendor class name is either incorrect or unknown.
 
 
 
-<a href="https://msdn.microsoft.com/15b9bab5-8211-47c8-bc93-96c922c1aec1">
-		  DHCP_OPTION_ARRAY</a>
+<a href="https://msdn.microsoft.com/15b9bab5-8211-47c8-bc93-96c922c1aec1">DHCP_OPTION_ARRAY</a>
 
 
 

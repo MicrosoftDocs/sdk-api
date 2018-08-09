@@ -7,7 +7,7 @@ old-location: mstv\imsviddevice_put_power.htm
 old-project: mstv
 ms.assetid: 6a0122a8-6015-4255-a7d6-ab72b4025bd6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],put_Power method, IMSVidDevice.put_Power, IMSVidDevice::put_Power, IMSVidDeviceput_Power, mstv.imsviddevice_put_power, put_Power, put_Power method [Microsoft TV Technologies], put_Power method [Microsoft TV Technologies],IMSVidDevice interface, segment/IMSVidDevice::put_Power
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,11 +65,9 @@ Specifies whether to turn the power on or off. Use one of the following values.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

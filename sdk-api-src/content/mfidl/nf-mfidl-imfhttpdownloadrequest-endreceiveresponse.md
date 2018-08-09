@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_endreceiveresponse.htm
 old-project: medfound
 ms.assetid: FC342FB9-930F-4EA7-9057-51AF10D13ED9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: EndReceiveResponse, EndReceiveResponse method [Media Foundation], EndReceiveResponse method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],EndReceiveResponse method, IMFHttpDownloadRequest.EndReceiveResponse, IMFHttpDownloadRequest::EndReceiveResponse, mf.imfhttpdownloadrequest_endreceiveresponse, mfidl/IMFHttpDownloadRequest::EndReceiveResponse
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ Pointer to the <a href="https://msdn.microsoft.com/8c95b1de-8974-445c-8070-41552
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ Pointer to the <a href="https://msdn.microsoft.com/8c95b1de-8974-445c-8070-41552
 </dl>
 </td>
 <td width="60%">
-
-                Successfully received the HTTP response and associated headers.
+Successfully received the HTTP response and associated headers.
 
 </td>
 </tr>

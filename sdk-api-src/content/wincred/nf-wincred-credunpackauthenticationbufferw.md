@@ -4,10 +4,10 @@ title: CredUnPackAuthenticationBufferW function
 author: windows-sdk-content
 description: Converts an authentication buffer returned by a call to the CredUIPromptForWindowsCredentials function into a string user name and password.
 old-location: security\credunpackauthenticationbuffer.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: c87f0b11-59c2-4450-ad63-398cdb15016f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CredUnPackAuthenticationBuffer, CredUnPackAuthenticationBuffer function [Security], CredUnPackAuthenticationBufferA, CredUnPackAuthenticationBufferW, security.credunpackauthenticationbuffer, wincred/CredUnPackAuthenticationBuffer, wincred/CredUnPackAuthenticationBufferA, wincred/CredUnPackAuthenticationBufferW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,19 +100,21 @@ A pointer to a null-terminated string that receives the user name.
 This string can be a marshaled credential. See Remarks.
 
 
-#### - pcchMaxUserName [in, out]
+### -param pcchMaxUserName
 
-A pointer to a <b>DWORD</b> value that specifies the size, in characters, of the <i>pszUserName</i> buffer. On output, if the buffer is not of sufficient size, specifies the required size, in characters, of the  <i>pszUserName</i> buffer. The size includes terminating null character.
+TBD
 
 
-### -param pszDomainName [out]
+### -param pszDomainName
+
+TBD
+
+
+### -param pcchMaxDomainName [in, out]
 
 A pointer to a null-terminated string that receives the name of the user's domain.
 
-
-### -param pcchMaxDomainName
-
-TBD
+A pointer to a <b>DWORD</b> value that specifies the size, in characters, of the <i>pszDomainName</i> buffer. On output, if the buffer is not of sufficient size, specifies the required size, in characters, of the  <i>pszDomainName</i> buffer. The size includes the terminating null character. The required size can be zero if there is no domain name. 
 
 
 ### -param pszPassword [out]
@@ -127,9 +129,9 @@ A pointer to a <b>DWORD</b> value that specifies the size, in characters, of the
 This string can be a marshaled credential. See Remarks.
 
 
-#### - pcchMaxDomainname [in, out]
+#### - pcchlMaxUserName [in, out]
 
-A pointer to a <b>DWORD</b> value that specifies the size, in characters, of the <i>pszDomainName</i> buffer. On output, if the buffer is not of sufficient size, specifies the required size, in characters, of the  <i>pszDomainName</i> buffer. The size includes the terminating null character. The required size can be zero if there is no domain name. 
+A pointer to a <b>DWORD</b> value that specifies the size, in characters, of the <i>pszUserName</i> buffer. On output, if the buffer is not of sufficient size, specifies the required size, in characters, of the  <i>pszUserName</i> buffer. The size includes terminating null character.
 
 
 ## -returns

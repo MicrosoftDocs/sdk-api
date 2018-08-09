@@ -7,7 +7,7 @@ old-location: gdi\getrandomrgn.htm
 old-project: gdi
 ms.assetid: a7527d7a-7b5e-4dd5-9270-94bc92b5a4a0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetRandomRgn, GetRandomRgn function [Windows GDI], _win32_GetRandomRgn, gdi.getrandomrgn, wingdi/GetRandomRgn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,14 +73,7 @@ A handle to the device context.
 A handle to a region. Before the function is called, this identifies an existing region. After the function returns, this identifies a copy of the current system region. The old region identified by <i>hrgn</i> is overwritten.
 
 
-### -param i
-
-TBD
-
-
-
-
-#### - iNum [in]
+### -param i [in]
 
 This parameter must be SYSRGN.
 

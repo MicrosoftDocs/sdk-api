@@ -7,7 +7,7 @@ old-location: security\inherited_from.htm
 old-project: secauthz
 ms.assetid: 6839f67a-6c72-406d-b55e-bc366aaad107
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: "*PINHERITED_FROMA, INHERITED_FROM, INHERITED_FROM structure [Security], INHERITED_FROMA, INHERITED_FROMW, PINHERITED_FROM, PINHERITED_FROM structure pointer [Security], _INHERITED_FROMA, _INHERITED_FROMW, accctrl/INHERITED_FROM, accctrl/INHERITED_FROMA, accctrl/INHERITED_FROMW, accctrl/PINHERITED_FROM, security.inherited_from"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IGPMGPOLinksCollection::get_Item
 author: windows-sdk-content
 description: Given an index, returns a GPO link from the collection.
 old-location: gpmc\igpmgpolinkscollection_get_item.htm
-old-project: gpmc
+old-project: GPMC
 ms.assetid: 33630927-7bac-4efb-b79b-5db1981a51fb
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: GPMGPOLinksCollection class [GPMC],Item property, IGPMGPOLinksCollection interface [GPMC],Item property, IGPMGPOLinksCollection.Item, IGPMGPOLinksCollection.get_Item, IGPMGPOLinksCollection::Item, IGPMGPOLinksCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMGPOLinksCollection class, Item property [GPMC],IGPMGPOLinksCollection interface, _win32_igpmgpolinkscollection_get_item, get_Item, gpmc.igpmgpolinkscollection_get_item, gpmgmt/IGPMGPOLinksCollection::Item, gpmgmt/IGPMGPOLinksCollection::get_Item
 ms.prod: windows
 ms.technology: windows-sdk

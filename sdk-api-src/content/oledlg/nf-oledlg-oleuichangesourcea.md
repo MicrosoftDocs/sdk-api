@@ -7,7 +7,7 @@ old-location: com\oleuichangesource.htm
 old-project: com
 ms.assetid: 53ff17aa-3135-462e-885d-3bfbb74ed1c5
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: OleUIChangeSource, OleUIChangeSource function [COM], OleUIChangeSourceA, OleUIChangeSourceW, _ole_OleUIChangeSource, com.oleuichangesource, oledlg/OleUIChangeSource, oledlg/OleUIChangeSourceA, oledlg/OleUIChangeSourceW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,14 +63,7 @@ Invokes the <b>Change Source</b> dialog box, allowing the user to change the sou
 
 
 
-### -param Arg1
-
-TBD
-
-
-
-
-#### - lpCS [in]
+### -param Arg1 [in]
 
 Pointer to the in-out <a href="https://msdn.microsoft.com/440d120c-a121-471b-bee1-f23af136a664">OLEUICHANGESOURCE</a> structure for this dialog box.
 

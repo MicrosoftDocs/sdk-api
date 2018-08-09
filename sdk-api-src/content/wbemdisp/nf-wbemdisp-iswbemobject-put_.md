@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_put_.htm
 old-project: WmiSdk
 ms.assetid: c636ff95-9f3e-4ba9-adf3-30b981be02a4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemObject interface [Windows Management Instrumentation],Put_ method, ISWbemObject.Put_, ISWbemObject::Put_, Put_, Put_ method [Windows Management Instrumentation], Put_ method [Windows Management Instrumentation],ISWbemObject interface, Put_ method [Windows Management Instrumentation],SWbemObject object, SWbemObject object [Windows Management Instrumentation],Put_ method, SWbemObject.Put_, WbemChangeFlagUpdateForceMode, _hmm_swbemobject.put_, wbemChangeFlagCreateOnly, wbemChangeFlagCreateOrUpdate, wbemChangeFlagUpdateCompatible, wbemChangeFlagUpdateOnly, wbemChangeFlagUpdateSafeMode, wbemFlagReturnImmediately, wbemFlagReturnWhenComplete, wbemFlagUseAmendedQualifiers, wmi.swbemobject_put_
 ms.prod: windows
 ms.technology: windows-sdk

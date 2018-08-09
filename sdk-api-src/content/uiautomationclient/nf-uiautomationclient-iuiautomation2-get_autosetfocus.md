@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation2_AutoSetFocus.htm
 old-project: WinAuto
 ms.assetid: 86B0C641-6A5B-4E1A-ADB8-7663B246739B
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AutoSetFocus property [Windows Accessibility], AutoSetFocus property [Windows Accessibility],IUIAutomation2 interface, IUIAutomation2 interface [Windows Accessibility],AutoSetFocus property, IUIAutomation2.AutoSetFocus, IUIAutomation2.get_AutoSetFocus, IUIAutomation2::AutoSetFocus, IUIAutomation2::get_AutoSetFocus, IUIAutomation2::put_AutoSetFocus, get_AutoSetFocus, uiautomationclient/IUIAutomation2::AutoSetFocus, uiautomationclient/IUIAutomation2::get_AutoSetFocus, uiautomationclient/IUIAutomation2::put_AutoSetFocus, winauto.uiauto_IUIAutomation2_AutoSetFocus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

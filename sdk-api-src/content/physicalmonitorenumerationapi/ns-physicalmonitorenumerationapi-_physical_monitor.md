@@ -7,7 +7,7 @@ old-location: monitor\physical_monitor.htm
 old-project: Monitor
 ms.assetid: 58eb4999-37d9-472d-aa26-38b19a2287b2
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPPHYSICAL_MONITOR, LPPHYSICAL_MONITOR, LPPHYSICAL_MONITOR structure pointer [Monitor Configuration], PHYSICAL_MONITOR, PHYSICAL_MONITOR structure [Monitor Configuration], _PHYSICAL_MONITOR, monitor.physical_monitor, physicalmonitorenumerationapi/LPPHYSICAL_MONITOR, physicalmonitorenumerationapi/PHYSICAL_MONITOR"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-          Contains a handle and text description corresponding to a physical monitor.
+Contains a handle and text description corresponding to a physical monitor.
         
 
 
@@ -63,15 +62,13 @@ req.product: ADAM
 
 ### -field hPhysicalMonitor
 
-
-            Handle to the physical monitor.
+Handle to the physical monitor.
           
 
 
 ### -field szPhysicalMonitorDescription
 
-
-            Text description of the physical monitor.
+Text description of the physical monitor.
           
 
 

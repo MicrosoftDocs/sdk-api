@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_adddatasource.htm
 old-project: medfound
 ms.assetid: 76922DFA-E109-475D-BE09-47501AC7F50E
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: AddDataSource, AddDataSource method [Media Foundation], AddDataSource method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],AddDataSource method, IMFTimedText.AddDataSource, IMFTimedText::AddDataSource, mf.imftimedtext_adddatasource, mfmediaengine/IMFTimedText::AddDataSource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,13 +93,6 @@ Type: <b>DWORD*</b>
 Receives a pointer to the unique identifier for the added track.
 
 
-#### - fDefault [in]
-
-Type: <b>BOOL</b>
-
-Specifies whether to add the default data source. Specify <b>TRUE</b> to add the default data source or <b>FALSE</b> otherwise.
-
-
 #### - pByteStream [in]
 
 Type: <b><a href="https://msdn.microsoft.com/690035b7-2855-4714-938f-f8250ec70d24">IMFByteStream</a>*</b>
@@ -119,6 +112,13 @@ Null-terminated wide-character string that contains the label of the data source
 Type: <b>LPCWSTR</b>
 
 Null-terminated wide-character string that contains the language of the data source.
+
+
+#### - fDefault [in]
+
+Type: <b>BOOL</b>
+
+Specifies whether to add the default data source. Specify <b>TRUE</b> to add the default data source or <b>FALSE</b> otherwise.
 
 
 ## -returns

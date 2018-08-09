@@ -7,7 +7,7 @@ old-location: ndf\inetdiaghelpe_cleanup.htm
 old-project: ndf
 ms.assetid: d50d3415-8fa7-404c-8030-8ea7a59820e4
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: Cleanup, Cleanup method [NDF], Cleanup method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],Cleanup method, INetDiagHelper.Cleanup, INetDiagHelper::Cleanup, ndf.inetdiaghelpe_cleanup, ndhelper/INetDiagHelper::Cleanup
 ms.prod: windows
 ms.technology: windows-sdk

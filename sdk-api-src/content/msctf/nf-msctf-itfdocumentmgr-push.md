@@ -7,7 +7,7 @@ old-location: tsf\itfdocumentmgr_push.htm
 old-project: TSF
 ms.assetid: afd5452b-4121-428d-801f-1638c2767c67
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfDocumentMgr interface [Text Services Framework],Push method, ITfDocumentMgr.Push, ITfDocumentMgr::Push, Push, Push method [Text Services Framework], Push method [Text Services Framework],ITfDocumentMgr interface, _tsf_itfdocumentmgr_push_ref, msctf/ITfDocumentMgr::Push, tsf.itfdocumentmgr_push
 ms.prod: windows
 ms.technology: windows-sdk
@@ -154,26 +154,22 @@ This method causes the <a href="https://msdn.microsoft.com/80fbb861-1a12-4a9a-8f
 
 
 
-<a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">
-        ITfDocumentMgr::CreateContext
+<a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/bbf65d8d-5a59-4c4b-a132-fa28babcd70b">
-        ITfDocumentMgr::Pop
+<a href="https://msdn.microsoft.com/bbf65d8d-5a59-4c4b-a132-fa28babcd70b">ITfDocumentMgr::Pop
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/18586e51-66b6-4071-88b4-9b92d5449a45">
-        ITfThreadMgrEventSink::OnInitDocumentMgr
+<a href="https://msdn.microsoft.com/18586e51-66b6-4071-88b4-9b92d5449a45">ITfThreadMgrEventSink::OnInitDocumentMgr
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/80fbb861-1a12-4a9a-8f96-332c2f736f2d">
-        ITfThreadMgrEventSink::OnPushContext
+<a href="https://msdn.microsoft.com/80fbb861-1a12-4a9a-8f96-332c2f736f2d">ITfThreadMgrEventSink::OnPushContext
       </a>
  
 

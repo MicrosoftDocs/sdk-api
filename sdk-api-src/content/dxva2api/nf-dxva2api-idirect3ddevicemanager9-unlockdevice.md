@@ -7,7 +7,7 @@ old-location: mf\idirect3ddevicemanager9_unlockdevice.htm
 old-project: medfound
 ms.assetid: e5be74bc-55a2-4c8a-86eb-97b96a4091e7
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IDirect3DDeviceManager9 interface [Media Foundation],UnlockDevice method, IDirect3DDeviceManager9.UnlockDevice, IDirect3DDeviceManager9::UnlockDevice, UnlockDevice, UnlockDevice method [Media Foundation], UnlockDevice method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::UnlockDevice, e5be74bc-55a2-4c8a-86eb-97b96a4091e7, mf.idirect3ddevicemanager9_unlockdevice
 ms.prod: windows
 ms.technology: windows-sdk

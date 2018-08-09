@@ -4,10 +4,10 @@ title: IVssCreateExpressWriterMetadata::AddExcludeFiles
 author: windows-sdk-content
 description: Excludes a file set (a specified file or files) that might otherwise be implicitly included when a component of an express writer is backed up.
 old-location: base\ivsscreateexpresswritermetadata_addexcludefiles.htm
-old-project: VSS
+old-project: vss
 ms.assetid: a8d0d6bc-456a-405e-abd9-5ab4b2a59e63
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AddExcludeFiles, AddExcludeFiles method, AddExcludeFiles method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddExcludeFiles method, IVssCreateExpressWriterMetadata.AddExcludeFiles, IVssCreateExpressWriterMetadata::AddExcludeFiles, base.ivsscreateexpresswritermetadata_addexcludefiles, vswriter/IVssCreateExpressWriterMetadata::AddExcludeFiles
 ms.prod: windows
 ms.technology: windows-sdk

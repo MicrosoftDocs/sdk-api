@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_sessioncallbacks.htm
 old-project: wmi_v2
 ms.assetid: 76b21381-201e-4128-b0db-18d8968a80bb
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_SessionCallbacks, MI_SessionCallbacks structure [Windows Management Infrastructure (MI)], _MI_SessionCallbacks, mi/MI_SessionCallbacks, wmi_v2.mi_sessioncallbacks
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,14 +64,14 @@ A container for callback function pointers that handle logging and error message
 A client-specific context that is passed to all of the callbacks. This is used to correlate the callback to the associated operation.
 
 
-#### - writeError
-
-The CIM extension callback for errors. The session version of this function is informative only. The session will fail to create and will  return an error. All parameters are valid only for the lifetime of the callback.
-
-
 #### - writeMessage
 
 The CIM extension callback for receiving logging from the session creation. All parameters are valid only for the lifetime of the callback.
+
+
+#### - writeError
+
+The CIM extension callback for errors. The session version of this function is informative only. The session will fail to create and will  return an error. All parameters are valid only for the lifetime of the callback.
 
 
 ## -remarks

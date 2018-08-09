@@ -7,7 +7,7 @@ old-location: security\websecuritylevel_enum.htm
 old-project: seccertenroll
 ms.assetid: fa87ec81-59d9-495c-9b2e-5394678cd020
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: LevelSafe, LevelUnsafe, WebSecurityLevel, WebSecurityLevel enumeration [Security], certenroll/LevelSafe, certenroll/LevelUnsafe, certenroll/WebSecurityLevel, security.websecuritylevel_enum
 ms.prod: windows
 ms.technology: windows-sdk

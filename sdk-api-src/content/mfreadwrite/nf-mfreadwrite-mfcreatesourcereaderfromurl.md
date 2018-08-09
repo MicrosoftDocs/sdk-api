@@ -7,7 +7,7 @@ old-location: mf\mfcreatesourcereaderfromurl.htm
 old-project: medfound
 ms.assetid: 060b4ab3-9a9f-4c90-a8c5-9c6d81877e2f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFCreateSourceReaderFromURL, MFCreateSourceReaderFromURL function [Media Foundation], mf.mfcreatesourcereaderfromurl, mfreadwrite/MFCreateSourceReaderFromURL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,8 +89,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 Call <b>CoInitialize(Ex)</b> and <a href="https://msdn.microsoft.com/b4472e40-3681-4b26-9385-4df7bf19c2d8">MFStartup</a> before calling this function.
 
-
-        Internally, the source reader calls the <a href="https://msdn.microsoft.com/b8f751b1-6456-4d67-839d-ecfa388e8d71">IMFSourceResolver::CreateObjectFromURL</a> method to create a media source from the URL.
+Internally, the source reader calls the <a href="https://msdn.microsoft.com/b8f751b1-6456-4d67-839d-ecfa388e8d71">IMFSourceResolver::CreateObjectFromURL</a> method to create a media source from the URL.
       
 
 This function is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.

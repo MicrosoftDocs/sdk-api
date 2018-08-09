@@ -7,7 +7,7 @@ old-location: controls\INDEXTOOVERLAYMASK.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\indextooverlaymask.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: INDEXTOOVERLAYMASK, INDEXTOOVERLAYMASK macro [Windows Controls], _win32_INDEXTOOVERLAYMASK, _win32_INDEXTOOVERLAYMASK_cpp, commctrl/INDEXTOOVERLAYMASK, controls.INDEXTOOVERLAYMASK, controls._win32_INDEXTOOVERLAYMASK
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Prepares the index of an overlay mask so that the <a href="https://msdn.microsoft.com/library/Bb761533(v=VS.85).aspx">ImageList_Draw</a> function can use it. 
+Prepares the index of an overlay mask so that the <a href="https://msdn.microsoft.com/en-us/library/Bb761533(v=VS.85).aspx">ImageList_Draw</a> function can use it. 
 
 
 ## -parameters
@@ -60,22 +60,12 @@ Prepares the index of an overlay mask so that the <a href="https://msdn.microsof
 
 ### -param i
 
-TBD
-
-
-
-
-
-
-#### - iOverlay
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 An index of an overlay mask. 
 
 
 ## -remarks
-
 
 
 

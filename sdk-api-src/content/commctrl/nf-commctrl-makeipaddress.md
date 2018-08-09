@@ -7,7 +7,7 @@ old-location: controls\MAKEIPADDRESS.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\makeipaddress.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: MAKEIPADDRESS, MAKEIPADDRESS macro [Windows Controls], _win32_MAKEIPADDRESS, _win32_MAKEIPADDRESS_cpp, commctrl/MAKEIPADDRESS, controls.MAKEIPADDRESS, controls._win32_MAKEIPADDRESS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Packs four byte-values into a single LPARAM suitable for use with the <a href="https://msdn.microsoft.com/library/Bb761380(v=VS.85).aspx">IPM_SETADDRESS</a> message. 
+Packs four byte-values into a single LPARAM suitable for use with the <a href="https://msdn.microsoft.com/en-us/library/Bb761380(v=VS.85).aspx">IPM_SETADDRESS</a> message. 
 
 
 ## -parameters
@@ -74,18 +74,14 @@ The field 2 address.
 
 ### -param b3
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
-
-The field 3 address. 
+TBD
 
 
 ### -param b4
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
 
-
-
-
+The field 3 address. 
 
 
 #### - b0

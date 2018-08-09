@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineclassfactoryex_istypesupported.htm
 old-project: medfound
 ms.assetid: 6f4f50db-e491-46c2-a8b2-1b8e51033b5b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFMediaEngineClassFactoryEx interface [Media Foundation],IsTypeSupported method, IMFMediaEngineClassFactoryEx.IsTypeSupported, IMFMediaEngineClassFactoryEx::IsTypeSupported, IsTypeSupported, IsTypeSupported method [Media Foundation], IsTypeSupported method [Media Foundation],IMFMediaEngineClassFactoryEx interface, mf.imfmediaengineclassfactoryex_istypesupported, mfmediaengine/IMFMediaEngineClassFactoryEx::IsTypeSupported
 ms.prod: windows
 ms.technology: windows-sdk

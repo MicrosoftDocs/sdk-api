@@ -7,7 +7,7 @@ old-location: controls\ListView_RemoveAllGroups.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_removeallgroups.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_RemoveAllGroups, ListView_RemoveAllGroups macro [Windows Controls], _win32_ListView_RemoveAllGroups, _win32_ListView_RemoveAllGroups_cpp, commctrl/ListView_RemoveAllGroups, controls.ListView_RemoveAllGroups, controls._win32_ListView_RemoveAllGroups
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Removes all groups from a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761147(v=VS.85).aspx">LVM_REMOVEALLGROUPS</a> message explicitly. 
+Removes all groups from a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761147(v=VS.85).aspx">LVM_REMOVEALLGROUPS</a> message explicitly. 
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A handle to the list-view control.
 
 
 
-To use <b>ListView_RemoveAllGroups</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_RemoveAllGroups</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

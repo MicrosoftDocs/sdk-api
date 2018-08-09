@@ -7,7 +7,7 @@ old-location: gdi\selectobject.htm
 old-project: gdi
 ms.assetid: a89b875e-923d-4048-bc61-8dea132cc56d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Bitmap, Brush, Font, Pen, Region, SelectObject, SelectObject function [Windows GDI], _win32_SelectObject, gdi.selectobject, wingdi/SelectObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,7 @@ The <b>SelectObject</b> function selects an object into the specified device con
 A handle to the DC.
 
 
-### -param h
-
-TBD
-
-
-
-
-#### - hgdiobj [in]
+### -param h [in]
 
 A handle to the object to be selected. The specified object must have been created by using one of the following functions.
 

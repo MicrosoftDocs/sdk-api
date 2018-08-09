@@ -7,7 +7,7 @@ old-location: dshow\iasyncreader_requestallocator.htm
 old-project: DirectShow
 ms.assetid: 7bde850e-662f-4610-bac3-914c93584b30
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IAsyncReader interface [DirectShow],RequestAllocator method, IAsyncReader.RequestAllocator, IAsyncReader::RequestAllocator, IAsyncReaderRequestAllocator, RequestAllocator, RequestAllocator method [DirectShow], RequestAllocator method [DirectShow],IAsyncReader interface, dshow.iasyncreader_requestallocator, strmif/IAsyncReader::RequestAllocator
 ms.prod: windows
 ms.technology: windows-sdk

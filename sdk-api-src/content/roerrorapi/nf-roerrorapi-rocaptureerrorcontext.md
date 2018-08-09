@@ -7,7 +7,7 @@ old-location: winrt\rocaptureerrorcontext.htm
 old-project: WinRT
 ms.assetid: 4102CAD6-B5EC-4633-91CC-D56F6C0E287E
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: RoCaptureErrorContext, RoCaptureErrorContext function [Windows Runtime], roerrorapi/RoCaptureErrorContext, winrt.rocaptureerrorcontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,13 +62,6 @@ Saves the current error context so that it's available for later calls to the <a
 
 
 ### -param hr
-
-TBD
-
-
-
-
-#### - hrError
 
 The <b>HRESULT</b> associated with the error.
 

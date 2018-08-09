@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapitcpconnectioninfo_protocol.htm
 old-project: rdp
 ms.assetid: 1ca6d2db-bbd9-4332-bee6-7454a4c3cbea
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IRDPSRAPITcpConnectionInfo interface [RDP],Protocol property, IRDPSRAPITcpConnectionInfo.Protocol, IRDPSRAPITcpConnectionInfo.get_Protocol, IRDPSRAPITcpConnectionInfo::Protocol, IRDPSRAPITcpConnectionInfo::get_Protocol, Protocol property [RDP], Protocol property [RDP],IRDPSRAPITcpConnectionInfo interface, Protocol property [RDP],RDPSRAPITcpConnectionInfo object, RDPSRAPITcpConnectionInfo object [RDP],Protocol property, get_Protocol, rdp.irdpsrapitcpconnectioninfo_protocol, rdpencomapi/IRDPSRAPITcpConnectionInfo::Protocol, rdpencomapi/IRDPSRAPITcpConnectionInfo::get_Protocol
 ms.prod: windows
 ms.technology: windows-sdk

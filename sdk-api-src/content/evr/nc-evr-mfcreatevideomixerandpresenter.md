@@ -7,7 +7,7 @@ old-location: mf\mfcreatevideomixerandpresenter.htm
 old-project: medfound
 ms.assetid: 1777027a-85bb-47d2-baf8-6f420282b01a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 1777027a-85bb-47d2-baf8-6f420282b01a, MFCreateVideoMixerAndPresenter, MFCreateVideoMixerAndPresenter callback, MFCreateVideoMixerAndPresenter callback function [Media Foundation], evr/MFCreateVideoMixerAndPresenter, mf.mfcreatevideomixerandpresenter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,8 +110,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>

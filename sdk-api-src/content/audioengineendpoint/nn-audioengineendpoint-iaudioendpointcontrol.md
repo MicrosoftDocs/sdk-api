@@ -7,7 +7,7 @@ old-location: termserv\iaudioendpointcontrol.htm
 old-project: termserv
 ms.assetid: 4514521a-e9a9-4f39-ab7d-4ef7e514bd10
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: IAudioEndpointControl, IAudioEndpointControl interface [Remote Desktop Services], IAudioEndpointControl interface [Remote Desktop Services],described, audioengineendpoint/IAudioEndpointControl, termserv.iaudioendpointcontrol
 ms.prod: windows
 ms.technology: windows-sdk

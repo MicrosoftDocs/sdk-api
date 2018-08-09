@@ -7,7 +7,7 @@ old-location: mf\imftransform_getstreamlimits.htm
 old-project: medfound
 ms.assetid: 4d9585f0-5818-4e7f-925c-4c50ae6a6edc
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 4d9585f0-5818-4e7f-925c-4c50ae6a6edc, GetStreamLimits, GetStreamLimits method [Media Foundation], GetStreamLimits method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetStreamLimits method, IMFTransform.GetStreamLimits, IMFTransform::GetStreamLimits, mf.imftransform_getstreamlimits, mftransform/IMFTransform::GetStreamLimits
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets the minimum and maximum number of input and output streams for this Media Foundation transform (MFT).
+Gets the minimum and maximum number of input and output streams for this Media Foundation transform (MFT).
         
 
 
@@ -64,29 +63,25 @@ req.product: GDI+ 1.1
 
 ### -param pdwInputMinimum [out]
 
-
-            Receives the minimum number of input streams.
+Receives the minimum number of input streams.
           
 
 
 ### -param pdwInputMaximum [out]
 
-
-            Receives the maximum number of input streams. If there is no maximum, receives the value <b>MFT_STREAMS_UNLIMITED</b>.
+Receives the maximum number of input streams. If there is no maximum, receives the value <b>MFT_STREAMS_UNLIMITED</b>.
           
 
 
 ### -param pdwOutputMinimum [out]
 
-
-            Receives the minimum number of output streams.
+Receives the minimum number of output streams.
           
 
 
 ### -param pdwOutputMaximum [out]
 
-
-            Receives the maximum number of output streams. If there is no maximum, receives the value <b>MFT_STREAMS_UNLIMITED</b>.
+Receives the maximum number of output streams. If there is no maximum, receives the value <b>MFT_STREAMS_UNLIMITED</b>.
           
 
 
@@ -103,23 +98,19 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        If the MFT has a fixed number of streams, the minimum and maximum values are the same.
+If the MFT has a fixed number of streams, the minimum and maximum values are the same.
       
 
-
-        It is not recommended to create an MFT that supports zero inputs or zero outputs. An MFT with no inputs or no outputs may not be compatible with the rest of the Media Foundation pipeline. You should create a Media Foundation sink or source for this purpose instead.
+It is not recommended to create an MFT that supports zero inputs or zero outputs. An MFT with no inputs or no outputs may not be compatible with the rest of the Media Foundation pipeline. You should create a Media Foundation sink or source for this purpose instead.
       
 
-
-        When an MFT is first created, it is not guaranteed to have the minimum number of streams. To find the actual number of streams, call <a href="https://msdn.microsoft.com/491f7f44-fcac-4236-ba5c-e5705267c6c2">IMFTransform::GetStreamCount</a>.
+When an MFT is first created, it is not guaranteed to have the minimum number of streams. To find the actual number of streams, call <a href="https://msdn.microsoft.com/491f7f44-fcac-4236-ba5c-e5705267c6c2">IMFTransform::GetStreamCount</a>.
       
 
-
-        This method should not be called with <b>NULL</b> parameters, although in practice some implementations may allow <b>NULL</b> parameters.
+This method should not be called with <b>NULL</b> parameters, although in practice some implementations may allow <b>NULL</b> parameters.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetStreamLimits</b>. See <a href="https://msdn.microsoft.com/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetStreamLimits</b>. See <a href="https://msdn.microsoft.com/en-us/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
 
 
 

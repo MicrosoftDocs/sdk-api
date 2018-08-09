@@ -4,10 +4,10 @@ title: DnsFree function
 author: windows-sdk-content
 description: Frees memory allocated for DNS records that was obtained using the DnsQuery function.
 old-location: dns\dnsfree.htm
-old-project: DNS
+old-project: dns
 ms.assetid: 32baa672-2106-4c4a-972a-f7f79996b613
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DnsFree, DnsFree function [DNS], dns.dnsfree, windns/DnsFree
 ms.prod: windows
 ms.technology: windows-sdk

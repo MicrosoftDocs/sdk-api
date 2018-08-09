@@ -4,10 +4,10 @@ title: PerfSetCounterSetInfo function
 author: windows-sdk-content
 description: Specifies the layout of a particular counter set.
 old-location: perf\perfsetcountersetinfo.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: b4295503-5588-4898-816c-939a5920fc77
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PerfSetCounterSetInfo, PerfSetCounterSetInfo function [Perf], base.perfsetcountersetinfo, perf.perfsetcountersetinfo, perflib/PerfSetCounterSetInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,46 +61,28 @@ Specifies the layout of a particular counter set.
 
 
 
-### -param ProviderHandle
-
-TBD
-
-
-### -param Template
-
-TBD
-
-
-### -param TemplateSize
-
-TBD
-
-
-
-
-#### - dwTemplateSize [in]
-
-Size, in bytes, of the <i>pTemplate</i> buffer.
-
-
-#### - hProvider [in]
+### -param ProviderHandle [in]
 
 The handle of the provider. Use the handle variable that the <a href="https://msdn.microsoft.com/3939f6a1-0a94-429d-a71e-b37f045fea13">CTRPP</a> tool generated for you. For the name of the variable, see the <b>symbol</b> attribute of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406455">provider</a> element.
 
 <b>Windows Vista:  </b>The <a href="https://msdn.microsoft.com/b417b19b-adbc-40e3-aca1-c2cd94a79232">PerfStartProvider</a> function returns the handle.
 
 
-#### - pTemplate [in]
+### -param Template [in]
 
 Buffer that contains the counter set information. For details, see <a href="https://msdn.microsoft.com/bf48dcdb-6fdd-4093-9006-a53690c3ed86">PERF_COUNTERSET_INFO</a>.
+
+
+### -param TemplateSize [in]
+
+Size, in bytes, of the <i>pTemplate</i> buffer.
 
 
 ## -returns
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

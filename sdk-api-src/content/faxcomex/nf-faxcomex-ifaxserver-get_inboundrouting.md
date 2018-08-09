@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_inboundrouting.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1w4n.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxServer object [Fax Service],InboundRouting property, FaxServer.InboundRouting, IFaxServer.get_InboundRouting, IFaxServer::get_InboundRouting, InboundRouting property [Fax Service], InboundRouting property [Fax Service],FaxServer object, _mfax_faxserver.inboundrouting, fax._mfax_faxserver_inboundrouting, get_InboundRouting
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>InboundRouting</b> property creates a <a href="https://msdn.microsoft.com/library/ms684595(v=VS.85).aspx">FaxInboundRouting</a> configuration object. The object permits access to an inbound fax routing extension and its methods.
+The <b>InboundRouting</b> property creates a <a href="https://msdn.microsoft.com/en-us/library/ms684595(v=VS.85).aspx">FaxInboundRouting</a> configuration object. The object permits access to an inbound fax routing extension and its methods.
 
 This property is read-only.
 
@@ -65,15 +65,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689110(v=VS.85).aspx">IFaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: netvista\fwps_discard_metadata0.htm
 old-project: netvista
 ms.assetid: f17076d8-b669-4bb4-a871-10c7bdc6e370
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 07/30/2018
 ms.keywords: FWPS_DISCARD_METADATA0, FWPS_DISCARD_METADATA0 structure [Network Drivers Starting with Windows Vista], FWPS_DISCARD_METADATA0_, fwpstypes/FWPS_DISCARD_METADATA0, netvista.fwps_discard_metadata0, wfp_ref_3_struct_3_fwps_F-O_b2c71176-0655-45cf-ac72-3fbb690fb05b.xml
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,8 +87,7 @@ A UINT64 value that specifies the run-time identifier for the filter in the filt
 The FWPS_DISCARD_METADATA0 structure contains valid data only if the
     FWPS_METADATA_FIELD_DISCARD_REASON flag is set in the 
     <b>currentMetadataValues</b> member of the 
-    <a href="https://msdn.microsoft.com/fba7eb60-0d19-4bfd-b484-2e615d3e9237">
-    FWPS_INCOMING_METADATA_VALUES0</a> structure that the filter engine passes to a callout's 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552397">FWPS_INCOMING_METADATA_VALUES0</a> structure that the filter engine passes to a callout's 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function.
 
 
@@ -103,8 +102,7 @@ The FWPS_DISCARD_METADATA0 structure contains valid data only if the
 
 
 
-<a href="https://msdn.microsoft.com/fba7eb60-0d19-4bfd-b484-2e615d3e9237">
-   FWPS_INCOMING_METADATA_VALUES0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552397">FWPS_INCOMING_METADATA_VALUES0</a>
 
 
 

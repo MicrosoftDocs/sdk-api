@@ -7,7 +7,7 @@ old-location: tsf\itftextinputprocessor_deactivate.htm
 old-project: TSF
 ms.assetid: 427190fc-f246-47c6-84e0-a28808a86b6b
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: Deactivate, Deactivate method [Text Services Framework], Deactivate method [Text Services Framework],ITfTextInputProcessor interface, ITfTextInputProcessor interface [Text Services Framework],Deactivate method, ITfTextInputProcessor.Deactivate, ITfTextInputProcessor::Deactivate, _tsf_itftextinputprocessor_deactivate_ref, msctf/ITfTextInputProcessor::Deactivate, tsf.itftextinputprocessor_deactivate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,8 +92,7 @@ Before this method returns, it must release all references to the <i>ptim</i> pa
 
 
 
-<a href="https://msdn.microsoft.com/c5fd6b5c-0a78-4b5b-aad5-0c398798cf30">
-        ITfTextInputProcessor::Activate
+<a href="https://msdn.microsoft.com/c5fd6b5c-0a78-4b5b-aad5-0c398798cf30">ITfTextInputProcessor::Activate
       </a>
  
 

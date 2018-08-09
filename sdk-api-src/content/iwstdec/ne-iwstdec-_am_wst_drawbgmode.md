@@ -7,7 +7,7 @@ old-location: dshow\am_wst_drawbgmode.htm
 old-project: DirectShow
 ms.assetid: 1c27f3e1-a097-4f0e-af01-62cf500a3264
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: "*PAM_WST_DRAWBGMODE, AM_WST_DRAWBGMODE, AM_WST_DRAWBGMODE , AM_WST_DRAWBGMODE enumeration [DirectShow], AM_WST_DRAWBGMODEEnumeration, AM_WST_DRAWBGMODE_Opaque, AM_WST_DRAWBGMODE_Transparent, PAM_WST_DRAWBGMODE, PAM_WST_DRAWBGMODE enumeration pointer [DirectShow], _AM_WST_DRAWBGMODE, dshow.am_wst_drawbgmode, iwstdec/AM_WST_DRAWBGMODE, iwstdec/AM_WST_DRAWBGMODE_Opaque, iwstdec/AM_WST_DRAWBGMODE_Transparent, iwstdec/PAM_WST_DRAWBGMODE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,15 +64,13 @@ The <b>AM_WST_DRAWBGMODE</b> enumeration specifies whether the background of the
 
 ### -field AM_WST_DRAWBGMODE_Opaque
 
-
-            The background is opaque.
+The background is opaque.
           
 
 
 ### -field AM_WST_DRAWBGMODE_Transparent
 
-
-            The background is transparent.
+The background is transparent.
           
 
 

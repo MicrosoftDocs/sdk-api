@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_getscope.htm
 old-project: WmiSdk
 ms.assetid: 9601fb2b-583d-4481-8237-32db72432c63
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: GetScope, GetScope method [Windows Management Instrumentation], GetScope method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetScope method, IWbemPath.GetScope, IWbemPath::GetScope, _hmm_iwbempath_getscope, wmi.iwbempath_getscope, wmiutils/IWbemPath::GetScope
 ms.prod: windows
 ms.technology: windows-sdk

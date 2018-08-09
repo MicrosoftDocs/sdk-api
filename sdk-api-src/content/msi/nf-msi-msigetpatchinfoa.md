@@ -4,10 +4,10 @@ title: MsiGetPatchInfoA function
 author: windows-sdk-content
 description: The MsiGetPatchInfo function returns information about a patch.
 old-location: setup\msigetpatchinfo.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 4ff951df-5c1b-4874-9f09-f4ac23702e87
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: INSTALLPROPERTY_LOCALPACKAGE, MsiGetPatchInfo, MsiGetPatchInfo function, MsiGetPatchInfoA, MsiGetPatchInfoW, _msi_msigetpatchinfo, msi/MsiGetPatchInfo, msi/MsiGetPatchInfoA, msi/MsiGetPatchInfoW, setup.msigetpatchinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,8 +111,7 @@ If <i>lpValueBuf</i> is null, <i>pcchValueBuf</i> can be null.
 
 
 
-
-					The <b>MsiGetPatchInfo</b> function returns the following values.
+The <b>MsiGetPatchInfo</b> function returns the following values.
 
 <table>
 <tr>

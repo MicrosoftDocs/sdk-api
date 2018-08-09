@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturerequest_getsigninglocale.htm
 old-project: printdocs
 ms.assetid: 76b2d0a5-2d62-455d-8822-88ca14a497ae
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetSigningLocale, GetSigningLocale method [XPS Documents and Packaging], GetSigningLocale method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetSigningLocale method, IXpsSignatureRequest.GetSigningLocale, IXpsSignatureRequest::GetSigningLocale, xps.ixpssignaturerequest_getsigninglocale, xpsdigitalsignature/IXpsSignatureRequest::GetSigningLocale
 ms.prod: windows
 ms.technology: windows-sdk

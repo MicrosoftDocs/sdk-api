@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumsubnetclients.htm
 old-project: dhcp
 ms.assetid: 04ef441e-0638-4ee7-a6a6-a35ab5cf7a44
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpEnumSubnetClients, DhcpEnumSubnetClients function [DHCP], dhcp.dhcpenumsubnetclients, dhcpsapi/DhcpEnumSubnetClients
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpEnumSubnetClients</b> function returns an enumerated list of clients with served IP addresses in the specified subnet.
+The <b>DhcpEnumSubnetClients</b> function returns an enumerated list of clients with served IP addresses in the specified subnet.
 
 
 ## -parameters
@@ -122,8 +121,7 @@ This function requires host byte ordering for all <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/32bb0664-5227-4c84-a2d8-c3b348ae451c">
-		  DHCP_CLIENT_INFO_ARRAY</a>
+<a href="https://msdn.microsoft.com/32bb0664-5227-4c84-a2d8-c3b348ae451c">DHCP_CLIENT_INFO_ARRAY</a>
  
 
  

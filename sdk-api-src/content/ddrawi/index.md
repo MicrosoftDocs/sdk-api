@@ -2,7 +2,7 @@
 UID: NA:ddrawi
 ms.assetid: f040eb02-1240-3eaa-91c4-dcf01ea48c2d
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

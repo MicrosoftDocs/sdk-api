@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt.htm
 old-project: mstv
 ms.assetid: f6ed35bc-4470-4000-8f0d-19d454453720
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IISDB_SDTT, IISDB_SDTT interface [Microsoft TV Technologies], IISDB_SDTT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_SDTT, mstv.iisdb_sdtt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,13 +51,11 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Implements methods that get data
+Implements methods that get data
   from an Integrated Services Digital Broadcasting (ISDB)  software download
   trigger table
   (SDTT). An SDTT contains download information such as service ID, schedule, and
   receiver types for revision.
-
 
 To obtain a pointer to this interface, first make sure that the media graph is in a running state and that the stream you are tuned to contains an SDTT. Then:
 
@@ -89,8 +87,7 @@ The <b>IISDB_SDTT</b> interface has these methods.
 <a href="https://msdn.microsoft.com/3e445eed-907c-4a9b-80b7-b16460bc131c">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
-
-  Gets the number of records in an
+Gets the number of records in an
   SDTT.
 
 </td>
@@ -100,8 +97,7 @@ The <b>IISDB_SDTT</b> interface has these methods.
 <a href="https://msdn.microsoft.com/49368eaf-3115-4fdf-ac7a-39459d199ce0">GetOriginalNetworkId</a>
 </td>
 <td align="left" width="63%">
-
-  Gets an identifier for the network that originated the broadcast from an SDTT. 
+Gets an identifier for the network that originated the broadcast from an SDTT. 
 
 </td>
 </tr>
@@ -110,8 +106,7 @@ The <b>IISDB_SDTT</b> interface has these methods.
 <a href="https://msdn.microsoft.com/04f32111-4c4b-4f5b-81d1-fa7c19841cd8">GetRecordCountOfDescriptors</a>
 </td>
 <td align="left" width="63%">
-
-  Returns the number of descriptors for a record in
+Returns the number of descriptors for a record in
   an SDTT.
 
 </td>
@@ -141,8 +136,7 @@ Returns a descriptor for a specified record
 <a href="https://msdn.microsoft.com/0260e4fb-06d0-489c-8526-f5c2dd62b146">GetRecordDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
-
-  Searches a record in
+Searches a record in
   an SDTT.
 
 </td>
@@ -161,8 +155,7 @@ Gets the download level from an SDTT.
 <a href="https://msdn.microsoft.com/e7021a9e-4266-4c17-8874-4b10cf7d6428">GetRecordDurationByIndex</a>
 </td>
 <td align="left" width="63%">
-
-  Receives the event duration from a schedule record
+Receives the event duration from a schedule record
   in an SDTT.
 
 </td>
@@ -193,8 +186,7 @@ Returns a new version_number field value from a subtable
 <a href="https://msdn.microsoft.com/caf9f0b1-5529-4e8e-ab03-45d7d3268113">GetRecordScheduleTimeShiftInformation</a>
 </td>
 <td align="left" width="63%">
-
-  Receives event time shift information from a schedule record in
+Receives event time shift information from a schedule record in
     an SDTT.
 
 </td>
@@ -244,8 +236,7 @@ Receives the service_id field that uniquely identifies a service from
 <a href="https://msdn.microsoft.com/2b77ce3b-c706-4820-88dc-08b37978664b">GetTableIdExt</a>
 </td>
 <td align="left" width="63%">
-
-  Gets the table_id_extension field value from
+Gets the table_id_extension field value from
   an SDTT.
 
 </td>
@@ -275,8 +266,7 @@ Returns a hash value for this SDTT instance.
 <a href="https://msdn.microsoft.com/19b2234b-6836-42b7-9e64-a8212946c77b">GetVersionNumber</a>
 </td>
 <td align="left" width="63%">
-
-  Gets the version number for an SDTT.
+Gets the version number for an SDTT.
 
 </td>
 </tr>

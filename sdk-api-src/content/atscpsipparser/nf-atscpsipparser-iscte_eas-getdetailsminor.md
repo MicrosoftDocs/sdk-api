@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getdetailsminor.htm
 old-project: mstv
 ms.assetid: 59d43d84-2120-4200-b1e7-4603c1693018
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetDetailsMinor, GetDetailsMinor method [Microsoft TV Technologies], GetDetailsMinor method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDetailsMinor method, ISCTE_EAS.GetDetailsMinor, ISCTE_EAS::GetDetailsMinor, ISCTE_EASGetDetailsMinor, atscpsipparser/ISCTE_EAS::GetDetailsMinor, mstv.iscte_eas_getdetailsminor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,8 +60,7 @@ The <b>GetDetailsMinor</b> method returns the minor channel number for the detai
 
 ### -param pwVal [out]
 
-
-            Receives the details_minor_channel_number field.
+Receives the details_minor_channel_number field.
           
 
 

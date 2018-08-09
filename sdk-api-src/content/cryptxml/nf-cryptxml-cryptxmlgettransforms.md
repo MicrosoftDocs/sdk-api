@@ -7,7 +7,7 @@ old-location: security\cryptxmlgettransforms.htm
 old-project: seccrypto
 ms.assetid: 676f5216-70bd-455d-9e08-230b2599e166
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CryptXmlGetTransforms, CryptXmlGetTransforms function [Security], cryptxml/CryptXmlGetTransforms, security.cryptxmlgettransforms
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,14 +58,7 @@ The <b>CryptXmlGetTransforms</b> function returns information about the default 
 
 
 
-### -param ppConfig
-
-TBD
-
-
-
-
-#### - pConfig [out]
+### -param ppConfig [out]
 
 A pointer to a pointer to a <a href="https://msdn.microsoft.com/ad18ee99-685d-4a79-bd91-492df20edb8c">CRYPT_XML_TRANSFORM_CHAIN_CONFIG</a> structure to receive the returned transform information.
 

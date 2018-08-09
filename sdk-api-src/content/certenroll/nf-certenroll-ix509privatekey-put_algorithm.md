@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_algorithm.htm
 old-project: seccertenroll
 ms.assetid: 40d2eae1-733a-4e5b-bb15-71301d73f438
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: Algorithm property [Security], Algorithm property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Algorithm property, IX509PrivateKey.Algorithm, IX509PrivateKey.put_Algorithm, IX509PrivateKey::Algorithm, IX509PrivateKey::get_Algorithm, IX509PrivateKey::put_Algorithm, certenroll/IX509PrivateKey::Algorithm, certenroll/IX509PrivateKey::get_Algorithm, certenroll/IX509PrivateKey::put_Algorithm, put_Algorithm, security.ix509privatekey_algorithm
 ms.prod: windows
 ms.technology: windows-sdk

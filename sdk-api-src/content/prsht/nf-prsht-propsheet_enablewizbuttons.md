@@ -7,7 +7,7 @@ old-location: controls\PropSheet_EnableWizButtons.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_enablewizbuttons.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: PSWIZB_BACK, PSWIZB_CANCEL, PSWIZB_FINISH, PSWIZB_NEXT, PropSheet_EnableWizButtons, PropSheet_EnableWizButtons macro [Windows Controls], _win32_PropSheet_EnableWizButtons, _win32_PropSheet_EnableWizButtons_cpp, controls.PropSheet_EnableWizButtons, controls._win32_PropSheet_EnableWizButtons, prsht/PropSheet_EnableWizButtons
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Enables or disables buttons in an Aero wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774577(v=VS.85).aspx">PSM_ENABLEWIZBUTTONS</a> message explicitly.
+Enables or disables buttons in an Aero wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774577(v=VS.85).aspx">PSM_ENABLEWIZBUTTONS</a> message explicitly.
 
 
 ## -parameters

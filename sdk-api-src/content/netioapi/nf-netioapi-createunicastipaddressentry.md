@@ -7,7 +7,7 @@ old-location: iphlp\createunicastipaddressentry.htm
 old-project: iphlp
 ms.assetid: 8afca4e9-a4c4-4f93-bb4d-25e2eea71ae0
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: CreateUnicastIpAddressEntry, CreateUnicastIpAddressEntry function [IP Helper], iphlp.createunicastipaddressentry, netioapi/CreateUnicastIpAddressEntry
 ms.prod: windows
 ms.technology: windows-sdk

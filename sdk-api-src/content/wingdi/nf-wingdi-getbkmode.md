@@ -7,7 +7,7 @@ old-location: gdi\getbkmode.htm
 old-project: gdi
 ms.assetid: 3faedb48-3163-48fd-b26e-712de9c4bfaf
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetBkMode, GetBkMode function [Windows GDI], _win32_GetBkMode, gdi.getbkmode, wingdi/GetBkMode
 ms.prod: windows
 ms.technology: windows-sdk

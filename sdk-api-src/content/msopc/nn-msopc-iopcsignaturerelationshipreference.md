@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturerelationshipreference.htm
 old-project: OPC
 ms.assetid: 24aebfff-6b4f-49cb-988f-670ffed7d815
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcSignatureRelationshipReference, IOpcSignatureRelationshipReference interface [Open Packaging Conventions], IOpcSignatureRelationshipReference interface [Open Packaging Conventions],described, msopc/IOpcSignatureRelationshipReference, opc.iopcsignaturerelationshipreference
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IOpcSignatureRelationshipReference</b> interface has these methods.
 <a href="https://msdn.microsoft.com/126e0b2c-8b58-4b42-b2b5-99f6fab40f27">GetDigestMethod</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the digest method to use on relationship markup of the selected relationships.
+Gets the digest method to use on relationship markup of the selected relationships.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IOpcSignatureRelationshipReference</b> interface has these methods.
 <a href="https://msdn.microsoft.com/3c1f3e73-45fc-4325-bc7a-db9241385c4e">GetDigestValue</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the digest value calculated for the selected relationships when they are signed.
+Gets the digest value calculated for the selected relationships when they are signed.
             
 
 </td>
@@ -96,10 +94,8 @@ The <b>IOpcSignatureRelationshipReference</b> interface has these methods.
 <a href="https://msdn.microsoft.com/a9e1e9e8-d318-4e72-ba52-d020e58f85ff">GetRelationshipSelectorEnumerator</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an enumerator of <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a> interface pointers that represent the techniques used to select the subset of relationships in the referenced
-               
-              Relationships part.
+Gets an enumerator of <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a> interface pointers that represent the techniques used to select the subset of relationships in the referenced
+               Relationships part.
             
 
 </td>
@@ -109,10 +105,8 @@ The <b>IOpcSignatureRelationshipReference</b> interface has these methods.
 <a href="https://msdn.microsoft.com/9960c67c-4f09-435e-b82c-ca449645f6e5">GetRelationshipSigningOption</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a value that describes whether all or a subset of relationships that are stored in the referenced
-               
-              Relationships part are selected.
+Gets a value that describes whether all or a subset of relationships that are stored in the referenced
+               Relationships part are selected.
             
 
 </td>
@@ -122,9 +116,7 @@ The <b>IOpcSignatureRelationshipReference</b> interface has these methods.
 <a href="https://msdn.microsoft.com/d08cfbf0-0917-4ca4-85be-5ca62d7029d0">GetSourceUri</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the  source URI of the relationships that are stored in the referenced  
-              Relationships part.
+Gets the  source URI of the relationships that are stored in the referenced  Relationships part.
             
 
 </td>
@@ -134,8 +126,7 @@ The <b>IOpcSignatureRelationshipReference</b> interface has these methods.
 <a href="https://msdn.microsoft.com/87d85f7e-abf2-4f6f-91b6-36a014cc0f33">GetTransformMethod</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the canonicalization method to use on the relationship markup of the selected relationships when they are signed.
+Gets the canonicalization method to use on the relationship markup of the selected relationships when they are signed.
             
 
 </td>

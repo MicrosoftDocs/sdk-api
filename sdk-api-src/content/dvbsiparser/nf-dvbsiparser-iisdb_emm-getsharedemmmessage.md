@@ -7,7 +7,7 @@ old-location: mstv\iisdb_emm_getsharedemmmessage.htm
 old-project: mstv
 ms.assetid: d3ad405c-cdf0-4a37-9495-3f126e6c0688
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetSharedEmmMessage, GetSharedEmmMessage method [Microsoft TV Technologies], GetSharedEmmMessage method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetSharedEmmMessage method, IISDB_EMM.GetSharedEmmMessage, IISDB_EMM::GetSharedEmmMessage, dvbsiparser/IISDB_EMM::GetSharedEmmMessage, mstv.iisdb_emm_getsharedemmmessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Gets a shared message from an Integrated Services
+Gets a shared message from an Integrated Services
   Digital Broadcasting (ISDB) entitlement management message (EMM) table.
   
 
@@ -69,8 +68,7 @@ Receives the length of the buffer required to hold the message.
 
 ### -param ppbMessage [out]
 
-
-  Pointer to a memory block allocated to receive the shared message object.
+Pointer to a memory block allocated to receive the shared message object.
   The caller is responsible for freeing this memory.
 
 

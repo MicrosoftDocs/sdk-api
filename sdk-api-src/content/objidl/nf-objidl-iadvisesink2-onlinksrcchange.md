@@ -7,7 +7,7 @@ old-location: com\iadvisesink2_onlinksrcchange.htm
 old-project: com
 ms.assetid: 753ac9a3-0207-4c98-9d86-5ac16be2c5fa
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IAdviseSink2 interface [COM],OnLinkSrcChange method, IAdviseSink2.OnLinkSrcChange, IAdviseSink2::OnLinkSrcChange, OnLinkSrcChange, OnLinkSrcChange method [COM], OnLinkSrcChange method [COM],IAdviseSink2 interface, _ole_iadvisesink2_onlinksrcchange, com.iadvisesink2_onlinksrcchange, objidl/IAdviseSink2::OnLinkSrcChange
 ms.prod: windows
 ms.technology: windows-sdk

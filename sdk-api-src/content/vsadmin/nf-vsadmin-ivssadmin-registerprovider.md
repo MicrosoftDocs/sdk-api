@@ -4,10 +4,10 @@ title: IVssAdmin::RegisterProvider
 author: windows-sdk-content
 description: Registers a new shadow copy provider.
 old-location: base\ivssadmin_registerprovider.htm
-old-project: VSS
+old-project: vss
 ms.assetid: c17aee22-3afc-4ac5-a0c5-3fa1164ceee0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IVssAdmin interface [VSS],RegisterProvider method, IVssAdmin.RegisterProvider, IVssAdmin::RegisterProvider, RegisterProvider, RegisterProvider method [VSS], RegisterProvider method [VSS],IVssAdmin interface, base.ivssadmin_registerprovider, vsadmin/IVssAdmin::RegisterProvider
 ms.prod: windows
 ms.technology: windows-sdk

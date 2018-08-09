@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginesrcelementsex_addelementex.htm
 old-project: medfound
 ms.assetid: ad799c61-3ffb-4879-a875-d218c0b56e1c
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: AddElementEx, AddElementEx method [Media Foundation], AddElementEx method [Media Foundation],IMFMediaEngineSrcElementsEx interface, IMFMediaEngineSrcElementsEx interface [Media Foundation],AddElementEx method, IMFMediaEngineSrcElementsEx.AddElementEx, IMFMediaEngineSrcElementsEx::AddElementEx, mf.imfmediaenginesrcelementsex_addelementex, mfmediaengine/IMFMediaEngineSrcElementsEx::AddElementEx
 ms.prod: windows
 ms.technology: windows-sdk

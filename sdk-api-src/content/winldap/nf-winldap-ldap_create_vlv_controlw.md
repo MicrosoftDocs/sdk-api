@@ -4,10 +4,10 @@ title: ldap_create_vlv_controlW function
 author: windows-sdk-content
 description: The ldap_create_vlv_control function is used to create the request control (LDAP_CONTROL_VLVREQUEST) on the server.
 old-location: ldap\ldap_create_vlv_control.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: f4305aa9-e967-45a8-8b8b-49b1e60994e8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_create_vlv_control, ldap.ldap__create__vlv__control, ldap.ldap_create_vlv_control, ldap_create_vlv_control, ldap_create_vlv_control function [LDAP], ldap_create_vlv_controlA, ldap_create_vlv_controlW, winldap/ldap_create_vlv_control, winldap/ldap_create_vlv_controlA, winldap/ldap_create_vlv_controlW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,14 @@ The <b>ldap_create_vlv_control</b> function is used to create the request contro
 
 
 
-### -param ExternalHandle
+### -param ExternalHandle [in]
 
-TBD
+An LDAP session handle, as obtained from a call to <a href="https://msdn.microsoft.com/c0aa5a9e-ed46-42fb-9c02-728afea51505">ldap_init</a>.
 
 
-### -param VlvInfo
+### -param VlvInfo [in]
 
-TBD
+The address of an <a href="https://msdn.microsoft.com/2018ecb1-9b32-4afa-ad20-5cdae396376d">LDAPVLVInfo</a> structure whose contents are used to construct the value of the control created.
 
 
 ### -param IsCritical [in]
@@ -76,26 +76,9 @@ TBD
 If this value is not zero, the control created will have its criticality set to <b>TRUE</b>.
 
 
-### -param Control
-
-TBD
-
-
-
-
-#### - Vlvinfop [in]
-
-The address of an <a href="https://msdn.microsoft.com/2018ecb1-9b32-4afa-ad20-5cdae396376d">LDAPVLVInfo</a> structure whose contents are used to construct the value of the control created.
-
-
-#### - ctrlp [out]
+### -param Control [out]
 
 A result parameter assigned the address of an <a href="https://msdn.microsoft.com/c0b4d712-021d-46f3-8bda-aaf660ec1acc">LDAPControl</a> structure that contains the request control (<a href="https://msdn.microsoft.com/9f00ca19-544e-4616-a70a-e7e62fa84f53">LDAP_CONTROL_VLVREQUEST</a>) created by this function.
-
-
-#### - ld [in]
-
-An LDAP session handle, as obtained from a call to <a href="https://msdn.microsoft.com/c0aa5a9e-ed46-42fb-9c02-728afea51505">ldap_init</a>.
 
 
 ## -returns

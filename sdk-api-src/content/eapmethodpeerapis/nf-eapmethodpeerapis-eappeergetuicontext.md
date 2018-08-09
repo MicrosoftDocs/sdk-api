@@ -7,7 +7,7 @@ old-location: eaphost\eappeergetuicontext.htm
 old-project: eaphost
 ms.assetid: 14bbffde-da24-4632-bd73-2f96dc983117
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapPeerGetUIContext, EapPeerGetUIContext function [EAPHost], eaphost.eappeergetuicontext, eapmethodpeerapis/EapPeerGetUIContext
 ms.prod: windows
 ms.technology: windows-sdk

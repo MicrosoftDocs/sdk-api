@@ -4,10 +4,10 @@ title: IGPMBackupCollection::get_Count
 author: windows-sdk-content
 description: Returns the number of GPMBackup objects in the collection.
 old-location: gpmc\igpmbackupcollection_get_count.htm
-old-project: gpmc
+old-project: GPMC
 ms.assetid: 62103a25-cc1c-49d2-b822-d580bc79b645
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMBackupCollection object, Count property [GPMC],IGPMBackupCollection interface, GPMBackupCollection object [GPMC],Count property, IGPMBackupCollection interface [GPMC],Count property, IGPMBackupCollection.Count, IGPMBackupCollection.get_Count, IGPMBackupCollection::Count, IGPMBackupCollection::get_Count, _win32_igpmbackupcollection_get_count, get_Count, gpmc.igpmbackupcollection_get_count, gpmgmt/IGPMBackupCollection::Count, gpmgmt/IGPMBackupCollection::get_Count
 ms.prod: windows
 ms.technology: windows-sdk

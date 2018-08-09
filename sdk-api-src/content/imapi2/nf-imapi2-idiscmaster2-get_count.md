@@ -7,7 +7,7 @@ old-location: imapi\idiscmaster2_get_count.htm
 old-project: imapi
 ms.assetid: b1e0ec8f-4c66-4648-ad76-2998200ea574
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IDiscMaster2 interface [IMAPI],get_Count method, IDiscMaster2.get_Count, IDiscMaster2::get_Count, get_Count, get_Count method [IMAPI], get_Count method [IMAPI],IDiscMaster2 interface, imapi.idiscmaster2_get_count, imapi2/IDiscMaster2::get_Count
 ms.prod: windows
 ms.technology: windows-sdk

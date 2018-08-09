@@ -4,10 +4,10 @@ title: HttpOpenRequestA function
 author: windows-sdk-content
 description: Creates an HTTP request handle.
 old-location: wininet\httpopenrequest.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: caaff8e8-7db9-4d6d-8ba2-d8d19475173a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: HTTP/1.0, HTTP/1.1, HttpOpenRequest, HttpOpenRequest function [WinINet], HttpOpenRequestA, HttpOpenRequestW, _inet_httpopenrequest_function, wininet.httpopenrequest, wininet/HttpOpenRequest, wininet/HttpOpenRequestA, wininet/HttpOpenRequestW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,9 +113,9 @@ HTTP version 1.1
  
 
 
-### -param lpszReferrer
+### -param lpszReferrer [in]
 
-TBD
+A pointer to a <b>null</b>-terminated string that specifies the URL of the document from which the URL in the request (<i>lpszObjectName</i>) was obtained. If this parameter is <b>NULL</b>, no referrer is specified.
 
 
 ### -param lplpszAcceptTypes [in]
@@ -336,11 +336,6 @@ Uses secure transaction semantics. This translates to using Secure Sockets Layer
 ### -param dwContext [in]
 
   A pointer to a variable that contains the application-defined value that associates this operation with any application data.
-
-
-#### - lpszReferer [in]
-
-A pointer to a <b>null</b>-terminated string that specifies the URL of the document from which the URL in the request (<i>lpszObjectName</i>) was obtained. If this parameter is <b>NULL</b>, no referrer is specified.
 
 
 ## -returns

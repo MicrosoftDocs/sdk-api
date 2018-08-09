@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_windowstyleex.htm
 old-project: DirectShow
 ms.assetid: cdffe918-5802-406e-86b1-d1e9ebb6dbf7
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_WindowStyleEx method, IVideoWindow.get_WindowStyleEx, IVideoWindow::get_WindowStyleEx, IVideoWindowget_WindowStyleEx, control/IVideoWindow::get_WindowStyleEx, dshow.ivideowindow_get_windowstyleex, get_WindowStyleEx, get_WindowStyleEx method [DirectShow], get_WindowStyleEx method [DirectShow],IVideoWindow interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ The <code>get_WindowStyleEx</code> method retrieves the extended window styles o
 
 #### - pWindowStyleEx [out, retval]
 
-
-            Receives the window style flags.
+Receives the window style flags.
           
 
 

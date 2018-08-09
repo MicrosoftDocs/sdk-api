@@ -7,7 +7,7 @@ old-location: mscs\clusresources_createitem.htm
 old-project: mscs
 ms.assetid: 3ff2d33b-08aa-445b-930e-7fbe589f6269
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: CLUSTER_RESOURCE_DEFAULT_MONITOR, CLUSTER_RESOURCE_SEPARATE_MONITOR, ClusResources collection [Failover Cluster],CreateItem method, ClusResources.CreateItem, CreateItem, CreateItem method [Failover Cluster], CreateItem method [Failover Cluster],ClusResources collection, ISClusResources.CreateItem, ISClusResources::CreateItem, _wolf_clusresources.createitem, mscs.clusresources_createitem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,6 +92,22 @@ Creates a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f
 
 
 
+#### - strResourceName
+
+<b>String</b> containing the name of the resource to create.
+
+
+#### - strResourceType
+
+<b>String</b> specifying the type of resource to create.
+
+
+#### - strGroupName
+
+<b>String</b> containing the name of the group to which the new resource will 
+      belong.
+
+
 #### - lFlag
 
 Value indicating how to create the resource. <i>lFlag</i> can be set to one of these 
@@ -113,22 +129,6 @@ The <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cl
 
 Causes the Cluster service to create a separate Resource Monitor dedicated exclusively to the new 
         resource.
-
-
-#### - strGroupName
-
-<b>String</b> containing the name of the group to which the new resource will 
-      belong.
-
-
-#### - strResourceName
-
-<b>String</b> containing the name of the resource to create.
-
-
-#### - strResourceType
-
-<b>String</b> specifying the type of resource to create.
 
 
 ## -returns

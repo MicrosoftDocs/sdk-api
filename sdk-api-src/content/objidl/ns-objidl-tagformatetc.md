@@ -7,7 +7,7 @@ old-location: com\formatetc.htm
 old-project: com
 ms.assetid: 4478eb9a-84a1-4f3a-8290-94b8dd20c081
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPFORMATETC, FORMATETC, FORMATETC structure [COM], LPFORMATETC, LPFORMATETC structure pointer [COM], _ole_FORMATETC, com.formatetc, objidl/FORMATETC, objidl/LPFORMATETC, tagFORMATETC"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,8 +67,7 @@ The clipboard format of interest. There are three types of formats recognized by
 <ul>
 <li>Standard interchange formats, such as CF_TEXT.
 </li>
-<li>
-Private application formats understood only by the application offering the format, or by other applications offering similar features.
+<li>Private application formats understood only by the application offering the format, or by other applications offering similar features.
 </li>
 <li>OLE formats, which are used to create linked or embedded objects.
 </li>

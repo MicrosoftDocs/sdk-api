@@ -7,7 +7,7 @@ old-location: automat\icreatetypelib_setdocstring.htm
 old-project: automat
 ms.assetid: 5fe93ad2-f3c2-4559-a64a-cbbc17448e05
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetDocString method, ICreateTypeLib.SetDocString, ICreateTypeLib::SetDocString, SetDocString, SetDocString method [Automation], SetDocString method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetDocString, automat.icreatetypelib_setdocstring, oaidl/ICreateTypeLib::SetDocString
 ms.prod: windows
 ms.technology: windows-sdk

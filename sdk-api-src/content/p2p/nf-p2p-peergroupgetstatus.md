@@ -7,7 +7,7 @@ old-location: p2p\peergroupgetstatus.htm
 old-project: p2psdk
 ms.assetid: 712e6473-bb49-460a-9761-69a5ee4a067e
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGroupGetStatus, PeerGroupGetStatus function [Peer Networking], p2p.peergroupgetstatus, p2p/PeerGroupGetStatus
 ms.prod: windows
 ms.technology: windows-sdk

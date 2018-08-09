@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_setselection.htm
 old-project: TSF
 ms.assetid: ce301fa4-d1dd-4470-b8b5-fc944afdc621
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],SetSelection method, ITextStoreAnchor.SetSelection, ITextStoreAnchor::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::SetSelection, tsf.itextstoreanchor_setselection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -151,8 +151,7 @@ The caller does not have a read/write lock.
 
 
 
-<a href="https://msdn.microsoft.com/df1b21b7-b539-4546-96be-243a8e7ea75a">
-        ITextStoreAnchor::GetSelection
+<a href="https://msdn.microsoft.com/df1b21b7-b539-4546-96be-243a8e7ea75a">ITextStoreAnchor::GetSelection
       </a>
 
 

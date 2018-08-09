@@ -4,10 +4,10 @@ title: ITargetInfo::SetSchemaHiveMountName
 author: windows-sdk-content
 description: Sets the name of the mount location of the schema hive.
 old-location: smi\itargetinfo_setschemahivemountname.htm
-old-project: SMI
+old-project: smi
 ms.assetid: 128cf457-c66e-49b7-88a7-3f5d87800a20
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: ITargetInfo interface [SMI],SetSchemaHiveMountName method, ITargetInfo.SetSchemaHiveMountName, ITargetInfo::SetSchemaHiveMountName, SetSchemaHiveMountName, SetSchemaHiveMountName method [SMI], SetSchemaHiveMountName method [SMI],ITargetInfo interface, smi.itargetinfo_setschemahivemountname, wcmconfig/ITargetInfo::SetSchemaHiveMountName
 ms.prod: windows
 ms.technology: windows-sdk

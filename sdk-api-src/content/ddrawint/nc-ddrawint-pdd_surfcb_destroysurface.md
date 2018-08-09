@@ -7,7 +7,7 @@ old-location: display\dddestroysurface.htm
 old-project: display
 ms.assetid: 90060863-02ef-49bf-820d-b3adffbc8f40
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: DdDestroySurface, DdDestroySurface callback function [Display Devices], PDD_SURFCB_DESTROYSURFACE, PDD_SURFCB_DESTROYSURFACE callback, ddfncs_f6029f7a-5729-42d3-8ff6-f5e27994b133.xml, ddrawint/DdDestroySurface, display.dddestroysurface
 ms.prod: windows
 ms.technology: windows-sdk

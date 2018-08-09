@@ -7,7 +7,7 @@ old-location: fs\lzcopy.htm
 old-project: fileio
 ms.assetid: 9b6e1ab7-68a2-4721-9e84-11c4126f37a7
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/06/2018
 ms.keywords: LZCopy, LZCopy function [Files], _win32_lzcopy, base.lzcopy, fs.lzcopy, lzexpand/LZCopy
 ms.prod: windows
 ms.technology: windows-sdk

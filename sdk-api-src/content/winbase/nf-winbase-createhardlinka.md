@@ -4,10 +4,10 @@ title: CreateHardLinkA function
 author: windows-sdk-content
 description: Establishes a hard link between an existing file and a new file.
 old-location: fs\createhardlink.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 9b0d3f04-775f-44ea-b563-93dee29a278a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateHardLink, CreateHardLink function [Files], CreateHardLinkA, CreateHardLinkW, _win32_createhardlink, base.createhardlink, fs.createhardlink, winbase/CreateHardLink, winbase/CreateHardLinkA, winbase/CreateHardLinkW
 ms.prod: windows
 ms.technology: windows-sdk

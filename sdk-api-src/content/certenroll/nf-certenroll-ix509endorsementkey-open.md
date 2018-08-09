@@ -7,7 +7,7 @@ old-location: security\ix509endorsementkey_open.htm
 old-project: seccertenroll
 ms.assetid: 06855fc0-0d87-4fe7-9525-55eb60bffcd1
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509EndorsementKey interface [Security],Open method, IX509EndorsementKey.Open, IX509EndorsementKey::Open, Open, Open method [Security], Open method [Security],IX509EndorsementKey interface, certenroll/IX509EndorsementKey::Open, security.ix509endorsementkey_open
 ms.prod: windows
 ms.technology: windows-sdk

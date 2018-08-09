@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_winsxs_0000_0003_0001"
 author: windows-sdk-content
 description: The CREATE_ASM_NAME_OBJ_FLAGS enumeration is used by the CreateAssemblyNameObject function.
 old-location: setup\create_asm_name_obj_flags_.htm
-old-project: SbsCs
+old-project: sbscs
 ms.assetid: fdbb5eb0-0e45-483c-bcab-8b19a079800c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: CANOF_PARSE_DISPLAY_NAME, CANOF_SET_DEFAULT_VALUES, CREATE_ASM_NAME_OBJ_FLAGS, CREATE_ASM_NAME_OBJ_FLAGS , CREATE_ASM_NAME_OBJ_FLAGS enumeration [Side-by-side Assemblies], __MIDL___MIDL_itf_winsxs_0000_0003_0001, setup.create_asm_name_obj_flags_, winsxs/CANOF_PARSE_DISPLAY_NAME, winsxs/CANOF_SET_DEFAULT_VALUES, winsxs/CREATE_ASM_NAME_OBJ_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\DPA_Sort.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_sort.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DPA_Sort, DPA_Sort function [Windows Controls], _win32_DPA_Sort, _win32_DPA_Sort_cpp, controls.DPA_Sort, controls._win32_DPA_Sort, dpa_dsa/DPA_Sort
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,12 +66,16 @@ Sorts the items in a Dynamic Pointer Array (DPA).
 
 ### -param hdpa
 
-TBD
+Type: <b>HDPA</b>
+
+A handle to a DPA.
 
 
 ### -param pfnCompare
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a></b>
+
+A comparison function pointer. See <a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a> for the comparison function prototype.
 
 
 ### -param lParam
@@ -79,20 +83,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
 
 An additional parameter to be passed to <i>pfnCmp</i>.
-
-
-#### - pdpa
-
-Type: <b>HDPA</b>
-
-A handle to a DPA.
-
-
-#### - pfnCmp
-
-Type: <b><a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a></b>
-
-A comparison function pointer. See <a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a> for the comparison function prototype.
 
 
 ## -returns

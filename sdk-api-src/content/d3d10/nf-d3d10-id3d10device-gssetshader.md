@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_gssetshader.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gssetshader.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GSSetShader, GSSetShader method [Direct3D 10], GSSetShader method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSSetShader method, ID3D10Device.GSSetShader, ID3D10Device::GSSetShader, bec21328-0eb9-6e55-a154-2849f276da74, d3d10/ID3D10Device::GSSetShader, direct3d10.id3d10device_gssetshader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Set a geometry shader to the device.
 
 ### -param pShader [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173774(v=VS.85).aspx">ID3D10GeometryShader</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173774(v=VS.85).aspx">ID3D10GeometryShader</a>*</b>
 
-Pointer to a geometry shader (see <a href="https://msdn.microsoft.com/library/Bb173774(v=VS.85).aspx">ID3D10GeometryShader</a>). Passing in <b>NULL</b> disables the shader for this pipeline stage.
+Pointer to a geometry shader (see <a href="https://msdn.microsoft.com/en-us/library/Bb173774(v=VS.85).aspx">ID3D10GeometryShader</a>). Passing in <b>NULL</b> disables the shader for this pipeline stage.
 
 
 ## -returns
@@ -89,7 +89,7 @@ The method will not hold a reference to the interfaces passed in. For that reaso
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

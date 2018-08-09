@@ -7,7 +7,7 @@ old-location: fwp\fwpmcalloutsubscriptionsget0_func.htm
 old-project: fwp
 ms.assetid: 72e51167-c69e-4412-b83e-c66f91c9b96e
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmCalloutSubscriptionsGet0, FwpmCalloutSubscriptionsGet0 function [Filtering], fwp.fwpmcalloutsubscriptionsget0_func, fwpmu/FwpmCalloutSubscriptionsGet0
 ms.prod: windows
 ms.technology: windows-sdk

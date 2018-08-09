@@ -7,7 +7,7 @@ old-location: wmi\swbemdatetime_value.htm
 old-project: WmiSdk
 ms.assetid: 426a60d5-c364-406e-8346-049a13d59c7f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemDateTime interface [Windows Management Instrumentation],Value property, ISWbemDateTime.get_Value, ISWbemDateTime.put_Value, ISWbemDateTime::get_Value, SWbemDateTime object [Windows Management Instrumentation],Value property, SWbemDateTime.Value, Value property [Windows Management Instrumentation], Value property [Windows Management Instrumentation],ISWbemDateTime interface, Value property [Windows Management Instrumentation],SWbemDateTime object, _hmm_swbemdatetime.value, get_Value, wmi.swbemdatetime_value
 ms.prod: windows
 ms.technology: windows-sdk

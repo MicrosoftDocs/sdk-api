@@ -7,7 +7,7 @@ old-location: shell\IInitializeCommand.htm
 old-project: shell
 ms.assetid: e5a2a4d3-2488-4da2-aaab-c27461859d9f
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IInitializeCommand, IInitializeCommand interface [Windows Shell], IInitializeCommand interface [Windows Shell],described, _shell_IInitializeCommand, shell.IInitializeCommand, shobjidl_core/IInitializeCommand
 ms.prod: windows
 ms.technology: windows-sdk

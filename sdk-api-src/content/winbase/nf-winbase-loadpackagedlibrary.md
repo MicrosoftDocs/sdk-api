@@ -4,10 +4,10 @@ title: LoadPackagedLibrary function
 author: windows-sdk-content
 description: Loads the specified packaged module and its dependencies into the address space of the calling process.
 old-location: base\loadpackagedlibrary.htm
-old-project: Dlls
+old-project: dlls
 ms.assetid: 4a103753-a2c9-487f-b797-01d5f5d489f3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: LoadPackagedLibrary, LoadPackagedLibrary function, base.loadpackagedlibrary, winbase/LoadPackagedLibrary
 ms.prod: windows
 ms.technology: windows-sdk

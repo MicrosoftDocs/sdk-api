@@ -7,7 +7,7 @@ old-location: shell\UrlCanonicalize.htm
 old-project: shell
 ms.assetid: 70802745-0611-4d37-800e-b50d5ea23426
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: URL_DONT_SIMPLIFY, URL_ESCAPE_AS_UTF8, URL_ESCAPE_PERCENT, URL_ESCAPE_SPACES_ONLY, URL_ESCAPE_UNSAFE, URL_NO_META, URL_PLUGGABLE_PROTOCOL, URL_UNESCAPE, UrlCanonicalize, UrlCanonicalize function [Windows Shell], UrlCanonicalizeA, UrlCanonicalizeW, _win32_UrlCanonicalize, shell.UrlCanonicalize, shlwapi/UrlCanonicalize, shlwapi/UrlCanonicalizeA, shlwapi/UrlCanonicalizeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -141,24 +141,9 @@ Convert any occurrence of "%" to its escape sequence.
 <b>Windows 7 and later</b>. Percent-encode all non-ASCII characters as their UTF-8 equivalents.
 
 
-##### - dwFlags.URL_DONT_SIMPLIFY (0x08000000)
+##### - dwFlags.URL_UNESCAPE (0x10000000)
 
-Treat "/./" and "/../" in a URL string as literal characters, not as shorthand for navigation. See Remarks for further discussion.
-
-
-##### - dwFlags.URL_ESCAPE_AS_UTF8 (0x00040000)
-
-<b>Windows 7 and later</b>. Percent-encode all non-ASCII characters as their UTF-8 equivalents.
-
-
-##### - dwFlags.URL_ESCAPE_PERCENT (0x00001000)
-
-Convert any occurrence of "%" to its escape sequence.
-
-
-##### - dwFlags.URL_ESCAPE_SPACES_ONLY (0x04000000)
-
-Replace only spaces with escape sequences. This flag takes precedence over <b>URL_ESCAPE_UNSAFE</b>, but does not apply to opaque URLs.
+Un-escape any escape sequences that the URLs contain, with two exceptions. The escape sequences for "?" and "#" are not un-escaped. If one of the URL_ESCAPE_XXX flags is also set, the two URLs are first un-escaped, then combined, then escaped.
 
 
 ##### - dwFlags.URL_ESCAPE_UNSAFE (0x20000000)
@@ -166,19 +151,34 @@ Replace only spaces with escape sequences. This flag takes precedence over <b>UR
 Replace unsafe characters with their escape sequences. Unsafe characters are those characters that may be altered during transport across the Internet, and include the (&lt;, &gt;, ", #, {, }, |, \, ^, [, ], and ') characters. This flag applies to all URLs, including opaque URLs.
 
 
-##### - dwFlags.URL_NO_META (0x08000000)
-
-Defined to be the same as <b>URL_DONT_SIMPLIFY</b>.
-
-
 ##### - dwFlags.URL_PLUGGABLE_PROTOCOL (0x40000000)
 
 Combine URLs with client-defined pluggable protocols, according to the W3C specification. This flag does not apply to standard protocols such as ftp, http, gopher, and so on. If this flag is set, <a href="https://msdn.microsoft.com/f574d365-1ab9-4de4-84fe-17820c327ccf">UrlCombine</a> does not simplify URLs, so there is no need to also set <b>URL_DONT_SIMPLIFY</b>.
 
 
-##### - dwFlags.URL_UNESCAPE (0x10000000)
+##### - dwFlags.URL_ESCAPE_SPACES_ONLY (0x04000000)
 
-Un-escape any escape sequences that the URLs contain, with two exceptions. The escape sequences for "?" and "#" are not un-escaped. If one of the URL_ESCAPE_XXX flags is also set, the two URLs are first un-escaped, then combined, then escaped.
+Replace only spaces with escape sequences. This flag takes precedence over <b>URL_ESCAPE_UNSAFE</b>, but does not apply to opaque URLs.
+
+
+##### - dwFlags.URL_DONT_SIMPLIFY (0x08000000)
+
+Treat "/./" and "/../" in a URL string as literal characters, not as shorthand for navigation. See Remarks for further discussion.
+
+
+##### - dwFlags.URL_NO_META (0x08000000)
+
+Defined to be the same as <b>URL_DONT_SIMPLIFY</b>.
+
+
+##### - dwFlags.URL_ESCAPE_PERCENT (0x00001000)
+
+Convert any occurrence of "%" to its escape sequence.
+
+
+##### - dwFlags.URL_ESCAPE_AS_UTF8 (0x00040000)
+
+<b>Windows 7 and later</b>. Percent-encode all non-ASCII characters as their UTF-8 equivalents.
 
 
 ## -returns
@@ -214,7 +214,7 @@ If a URL string contains "/../" or "/./", <b>UrlCanonicalize</b> treats the char
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa384225(v=VS.85).aspx">Handling Uniform Resource Locators</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa384225(v=VS.85).aspx">Handling Uniform Resource Locators</a>
  
 
  

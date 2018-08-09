@@ -7,7 +7,7 @@ old-location: rpc\rpcsmsetclientallocfree.htm
 old-project: rpc
 ms.assetid: f6b6db72-c9af-44d1-9f84-26aaaa17691c
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcSmSetClientAllocFree, RpcSmSetClientAllocFree function [RPC], _rpc_rpcsmsetclientallocfree, rpc.rpcsmsetclientallocfree, rpcndr/RpcSmSetClientAllocFree
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,22 +62,10 @@ The
 
 ### -param ClientAlloc
 
-TBD
-
-
-### -param ClientFree
-
-TBD
-
-
-
-
-#### - pfnAllocate
-
 Function used to allocate memory.
 
 
-#### - pfnFree
+### -param ClientFree
 
 Function used to release memory and used with the function specified by <i>pfnAllocate</i>.
 

@@ -7,7 +7,7 @@ old-location: wsl\wslgetdistributionconfiguration.htm
 old-project: wsl
 ms.assetid: 7D680D81-921E-461F-8845-AADAF53EAEEE
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WslGetDistributionConfiguration, WslGetDistributionConfiguration function, wsl.wslgetdistributionconfiguration, wslapi/WslGetDistributionConfiguration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,66 +59,34 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-### -param distributionName
-
-TBD
-
-
-### -param distributionVersion
-
-TBD
-
-
-### -param defaultUID
-
-TBD
-
-
-### -param wslDistributionFlags
-
-TBD
-
-
-### -param defaultEnvironmentVariables
-
-TBD
-
-
-### -param defaultEnvironmentVariableCount
-
-TBD
-
-
-
-
-#### - distroName [in]
+### -param distributionName [in]
 
 Unique name representing a distribution (for example, "Fabrikam.Distro.10.01").
 
 
-#### - pDefaultEnvironmentVariablesArray [out]
-
-The address of a pointer to an array of default environment variable strings used when launching new WSL sessions for this distribution.
-
-
-#### - pDefaultEnvironmentVariablesCount [out]
-
-The number of elements in <i>pDefaultEnvironmentVariablesArray</i>.
-
-
-#### - pDefaultUID [out]
-
-The default user ID used when launching new WSL sessions for this distribution.
-
-
-#### - pVersion [out]
+### -param distributionVersion [out]
 
 The version of WSL for which this distribution is configured.
 
 
-#### - pWslFlags [out]
+### -param defaultUID [out]
+
+The default user ID used when launching new WSL sessions for this distribution.
+
+
+### -param wslDistributionFlags [out]
 
 The flags governing the behavior of this distribution.
+
+
+### -param defaultEnvironmentVariables [out]
+
+The address of a pointer to an array of default environment variable strings used when launching new WSL sessions for this distribution.
+
+
+### -param defaultEnvironmentVariableCount [out]
+
+The number of elements in <i>pDefaultEnvironmentVariablesArray</i>.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: IVdsDiskPartitionMF::FormatPartitionEx
 author: windows-sdk-content
 description: Formats an existing OEM, ESP, or unknown partition.
 old-location: base\ivdsdiskpartitionmf_formatpartitionex.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 82ab6b70-bfa3-4246-aa82-05c6c3b3cbe9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: FormatPartitionEx, FormatPartitionEx method, FormatPartitionEx method,IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,FormatPartitionEx method, IVdsDiskPartitionMF.FormatPartitionEx, IVdsDiskPartitionMF::FormatPartitionEx, base.ivdsdiskpartitionmf_formatpartitionex, vds/IVdsDiskPartitionMF::FormatPartitionEx
 ms.prod: windows
 ms.technology: windows-sdk

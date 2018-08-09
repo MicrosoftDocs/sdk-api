@@ -7,7 +7,7 @@ old-location: tsf\itflmlattice_enumlatticeelements.htm
 old-project: TSF
 ms.assetid: c42ad69f-d27a-40b7-8d63-3b422cb69db5
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: EnumLatticeElements, EnumLatticeElements method [Text Services Framework], EnumLatticeElements method [Text Services Framework],ITfLMLattice interface, ITfLMLattice interface [Text Services Framework],EnumLatticeElements method, ITfLMLattice.EnumLatticeElements, ITfLMLattice::EnumLatticeElements, _tsf_itflmlattice_enumlatticeelements_ref, ctffunc/ITfLMLattice::EnumLatticeElements, tsf.itflmlattice_enumlatticeelements
 ms.prod: windows
 ms.technology: windows-sdk
@@ -138,8 +138,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/5e36f052-a539-4020-8899-fb14c792c666">
-        IEnumTfLatticeElements
+<a href="https://msdn.microsoft.com/5e36f052-a539-4020-8899-fb14c792c666">IEnumTfLatticeElements
       </a>
 
 

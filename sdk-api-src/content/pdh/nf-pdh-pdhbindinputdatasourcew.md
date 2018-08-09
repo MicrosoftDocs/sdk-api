@@ -4,10 +4,10 @@ title: PdhBindInputDataSourceW function
 author: windows-sdk-content
 description: Binds one or more binary log files together for reading log data.
 old-location: perf\pdhbindinputdatasource.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: eaed9b28-eb09-4123-9317-5d3d50e2d77a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhBindInputDataSource, PdhBindInputDataSource function [Perf], PdhBindInputDataSourceA, PdhBindInputDataSourceW, _win32_pdhbindinputdatasource, base.pdhbindinputdatasource, pdh/PdhBindInputDataSource, pdh/PdhBindInputDataSourceA, pdh/PdhBindInputDataSourceW, perf.pdhbindinputdatasource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,14 +67,7 @@ Binds one or more binary log files together for reading log data.
 Handle to the bound data sources.
 
 
-### -param LogFileNameList
-
-TBD
-
-
-
-
-#### - szLogFileNameList [in]
+### -param LogFileNameList [in]
 
 <b>Null</b>-terminated string that contains one or more binary log files to bind together. Terminate each log file name with a <b>null</b>-terminator character and the list with one additional <b>null</b>-terminator character. The log file names can contain absolute or relative paths. You cannot specify more than 32 log files.
 
@@ -85,8 +78,7 @@ If <b>NULL</b>, the source is a real-time data source.
 
 
 
-
-						Returns ERROR_SUCCESS if the function succeeds.
+Returns ERROR_SUCCESS if the function succeeds.
 						
 
 If the function fails, the return value is a 

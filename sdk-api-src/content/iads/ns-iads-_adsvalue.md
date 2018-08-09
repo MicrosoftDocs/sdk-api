@@ -7,7 +7,7 @@ old-location: adsi\adsvalue.htm
 old-project: ADSI
 ms.assetid: b53c4a14-9965-4025-95bc-37f460ea2bc9
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPADSVALUE, *PADSVALUE, ADSVALUE, ADSVALUE structure [ADSI], LPADSVALUE, LPADSVALUE structure pointer [ADSI], PADSVALUE, PADSVALUE structure pointer [ADSI], _adsvalue, _ds_adsvalue, adsi.adsvalue, iads/ADSVALUE, iads/LPADSVALUE, iads/PADSVALUE"
 ms.prod: windows
 ms.technology: windows-sdk

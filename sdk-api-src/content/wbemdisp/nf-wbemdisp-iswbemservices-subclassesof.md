@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_subclassesof.htm
 old-project: WmiSdk
 ms.assetid: cfe08956-7215-4e2e-a279-6e86f14e5c27
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemServices interface [Windows Management Instrumentation],SubclassesOf method, ISWbemServices.SubclassesOf, ISWbemServices::SubclassesOf, SWbemServices object [Windows Management Instrumentation],SubclassesOf method, SWbemServices.SubclassesOf, SubclassesOf, SubclassesOf method [Windows Management Instrumentation], SubclassesOf method [Windows Management Instrumentation],ISWbemServices interface, SubclassesOf method [Windows Management Instrumentation],SWbemServices object, _hmm_swbemservices.subclassesof, semisynchronous mode, wbemFlagReturnImmediately, wbemFlagReturnWhenComplete, wbemFlagUseAmendedQualifiers, wbemQueryFlagDeep, wbemQueryFlagShallow, wmi.swbemservices_subclassesof
 ms.prod: windows
 ms.technology: windows-sdk

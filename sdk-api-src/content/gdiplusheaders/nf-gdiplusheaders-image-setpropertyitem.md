@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_SetPropertyItem_item_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\setpropertyitem.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Image class [GDI+],SetPropertyItem method, Image.SetPropertyItem, Image::SetPropertyItem, SetPropertyItem, SetPropertyItem method [GDI+], SetPropertyItem method [GDI+],Image class, _gdiplus_CLASS_Image_SetPropertyItem_item_, gdiplus._gdiplus_CLASS_Image_SetPropertyItem_item_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Image::SetPropertyItem</b> method sets a property item (piece of metadata) for this 
-			<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a> object. If the item already exists, then its contents are updated; otherwise, a new item is added.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object. If the item already exists, then its contents are updated; otherwise, a new item is added.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The <b>Image::SetPropertyItem</b> method sets a property item (piece of metadata
 
 Type: <b>const PropertyItem*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534493(v=VS.85).aspx">PropertyItem</a> object that specifies the property item to be set. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534493(v=VS.85).aspx">PropertyItem</a> object that specifies the property item to be set. 
 
 
 ## -returns
@@ -95,7 +95,7 @@ Certain image formats (for example, ICON and EMF) don't support properties. If y
 
 
 The following console application creates a 
-						<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a> object based on a JPEG file. The code calls the <b>Image::SetPropertyItem</b> method of that 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object based on a JPEG file. The code calls the <b>Image::SetPropertyItem</b> method of that 
 						<b>Image</b> object to set the title of the image. Then the code retrieves and displays the new title.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -152,39 +152,39 @@ INT main()
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535388(v=VS.85).aspx">Image::GetPropertyCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535388(v=VS.85).aspx">Image::GetPropertyCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535389(v=VS.85).aspx">Image::GetPropertyIdList</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535389(v=VS.85).aspx">Image::GetPropertyIdList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535390(v=VS.85).aspx">Image::GetPropertyItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535390(v=VS.85).aspx">Image::GetPropertyItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535391(v=VS.85).aspx">Image::GetPropertyItemSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535391(v=VS.85).aspx">Image::GetPropertyItemSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535392(v=VS.85).aspx">Image::GetPropertySize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535392(v=VS.85).aspx">Image::GetPropertySize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535400(v=VS.85).aspx">Image::RemovePropertyItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535400(v=VS.85).aspx">Image::RemovePropertyItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534493(v=VS.85).aspx">PropertyItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534493(v=VS.85).aspx">PropertyItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533832(v=VS.85).aspx">Reading and Writing Metadata</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533832(v=VS.85).aspx">Reading and Writing Metadata</a>
  
 
  

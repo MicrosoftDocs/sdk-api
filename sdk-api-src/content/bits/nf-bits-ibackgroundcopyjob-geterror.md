@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_geterror.htm
 old-project: bits
 ms.assetid: 2ad4c913-2d1e-4490-968c-960178a57e3b
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: GetError, GetError method [BITS], GetError method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetError method, IBackgroundCopyJob.GetError, IBackgroundCopyJob::GetError, _drz_ibackgroundcopyjob_geterror, bits.ibackgroundcopyjob_geterror, bits/IBackgroundCopyJob::GetError
 ms.prod: windows
 ms.technology: windows-sdk

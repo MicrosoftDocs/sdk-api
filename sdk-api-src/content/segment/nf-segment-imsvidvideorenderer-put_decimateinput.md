@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer_put_decimateinput.htm
 old-project: mstv
 ms.assetid: e048a572-3a96-4610-9266-0e97b5a09778
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_DecimateInput method, IMSVidVideoRenderer.put_DecimateInput, IMSVidVideoRenderer::put_DecimateInput, IMSVidVideoRendererput_DecimateInput, mstv.imsvidvideorenderer_put_decimateinput, put_DecimateInput, put_DecimateInput method [Microsoft TV Technologies], put_DecimateInput method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_DecimateInput
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,11 +74,9 @@ Specifies whether to enable or disable video decimation. Use one of the followin
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

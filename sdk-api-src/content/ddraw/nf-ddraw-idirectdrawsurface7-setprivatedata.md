@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_setprivatedata.htm
 old-project: directdraw
 ms.assetid: 822e4533-9073-4590-844e-8830110e4e33
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: "(none), DDSPD_IUNKNOWNPOINTER, DDSPD_VOLATILE, IDirectDrawSurface7 interface [DirectDraw],SetPrivateData method, IDirectDrawSurface7.SetPrivateData, IDirectDrawSurface7::SetPrivateData, SetPrivateData, SetPrivateData method [DirectDraw], SetPrivateData method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetPrivateData, directdraw.idirectdrawsurface7_setprivatedata"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,6 +65,16 @@ Associates data with the surface that is intended for use by the application, no
 
 
 
+#### - guidTag [in]
+
+Reference to (C++) or address of (C) the globally unique identifier that identifies the private data to be set.
+
+
+#### - lpData [in]
+
+A pointer to a buffer that contains the data to be associated with the surface.
+
+
 #### - cbSize [in]
 
 The size value of the buffer at <i>lpData</i>, in bytes.
@@ -91,16 +101,6 @@ The data at <i>lpData</i> is a pointer to an <a href="https://msdn.microsoft.com
 #### DDSPD_VOLATILE
 
 The buffer at <i>lpData</i> is only valid while the surface remains unchanged. If the surface's contents change, subsequent calls to the <a href="https://msdn.microsoft.com/f8c0c882-329f-4cce-8cd0-ff71c18b1716">IDirectDrawSurface7::GetPrivateData</a> method return DDERR_EXPIRED.
-
-
-#### - guidTag [in]
-
-Reference to (C++) or address of (C) the globally unique identifier that identifies the private data to be set.
-
-
-#### - lpData [in]
-
-A pointer to a buffer that contains the data to be associated with the surface.
 
 
 ## -returns

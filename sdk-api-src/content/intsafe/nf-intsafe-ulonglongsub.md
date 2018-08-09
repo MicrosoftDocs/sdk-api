@@ -7,7 +7,7 @@ old-location: shell\SIZETSub_1.htm
 old-project: shell
 ms.assetid: 10c66f6a-648d-4308-9c23-384ebe273af3
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SIZETSub, SIZETSub function [Windows Shell], ULongLongSub, _shell_SIZETSub, intsafe/SIZETSub, shell.SIZETSub, shell.SIZETSub_1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,38 +59,21 @@ Subtracts one value of type <b>SIZE_T</b> from another.
 
 
 
-### -param ullMinuend
-
-TBD
-
-
-### -param ullSubtrahend
-
-TBD
-
-
-### -param pullResult
-
-TBD
-
-
-
-
-#### - cbMinuend [in]
+### -param ullMinuend [in]
 
 Type: <b>SIZE_T</b>
 
 The value from which <i>cbSubtrahend</i> is subtracted.
 
 
-#### - cbSubtrahend [in]
+### -param ullSubtrahend [in]
 
 Type: <b>SIZE_T</b>
 
 The value to subtract from <i>cbMinuend</i>.
 
 
-#### - pcbResult [out]
+### -param pullResult [out]
 
 Type: <b>SIZE_T*</b>
 

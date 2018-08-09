@@ -7,7 +7,7 @@ old-location: winmsg\findwindowex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\findwindowex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: FindWindowEx, FindWindowEx function [Windows and Messages], FindWindowExA, FindWindowExW, _win32_FindWindowEx, _win32_findwindowex_cpp, winmsg.findwindowex, winui._win32_findwindowex, winuser/FindWindowEx, winuser/FindWindowExA, winuser/FindWindowExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,14 +70,26 @@ Retrieves a handle to a window whose class name and window name match the specif
 
 
 
-### -param hWndParent
+### -param hWndParent [in, optional]
 
-TBD
+Type: <b>HWND</b>
+
+A handle to the parent window whose child windows are to be searched.
+
+If <i>hwndParent</i> is <b>NULL</b>, the function uses the desktop window as the parent window. The function searches among windows that are child windows of the desktop. 
+
+If <i>hwndParent</i> is <b>HWND_MESSAGE</b>, the function searches all <a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">message-only windows</a>. 
 
 
-### -param hWndChildAfter
+### -param hWndChildAfter [in, optional]
 
-TBD
+Type: <b>HWND</b>
+
+A handle to a child window. The search begins with the next child window in the Z order. The child window must be a direct child window of <i>hwndParent</i>, not just a descendant window. 
+
+If <i>hwndChildAfter</i> is <b>NULL</b>, the search begins with the first child window of <i>hwndParent</i>. 
+
+Note that if both <i>hwndParent</i> and <i>hwndChildAfter</i> are <b>NULL</b>, the function searches all top-level and message-only windows. 
 
 
 ### -param lpszClass [in, optional]
@@ -94,28 +106,6 @@ The class name or a class atom created by a previous call to the <a href="https:
 Type: <b>LPCTSTR</b>
 
 The window name (the window's title). If this parameter is <b>NULL</b>, all window names match. 
-
-
-#### - hwndChildAfter [in, optional]
-
-Type: <b>HWND</b>
-
-A handle to a child window. The search begins with the next child window in the Z order. The child window must be a direct child window of <i>hwndParent</i>, not just a descendant window. 
-
-If <i>hwndChildAfter</i> is <b>NULL</b>, the search begins with the first child window of <i>hwndParent</i>. 
-
-Note that if both <i>hwndParent</i> and <i>hwndChildAfter</i> are <b>NULL</b>, the function searches all top-level and message-only windows. 
-
-
-#### - hwndParent [in, optional]
-
-Type: <b>HWND</b>
-
-A handle to the parent window whose child windows are to be searched.
-
-If <i>hwndParent</i> is <b>NULL</b>, the function uses the desktop window as the parent window. The function searches among windows that are child windows of the desktop. 
-
-If <i>hwndParent</i> is <b>HWND_MESSAGE</b>, the function searches all <a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">message-only windows</a>. 
 
 
 ## -returns

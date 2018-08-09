@@ -7,7 +7,7 @@ old-location: mscs\offlineclusterresource.htm
 old-project: mscs
 ms.assetid: 694dbf3d-3355-44d9-8af0-ea2baae832fd
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: OfflineClusterResource, OfflineClusterResource function [Failover Cluster], PCLUSAPI_OFFLINE_CLUSTER_RESOURCE, PCLUSAPI_OFFLINE_CLUSTER_RESOURCE function [Failover Cluster], _wolf_offlineclusterresource, clusapi/OfflineClusterResource, clusapi/PCLUSAPI_OFFLINE_CLUSTER_RESOURCE, mscs.offlineclusterresource
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PIS_SERVICE
 author: windows-sdk-content
 description: The IsService function checks whether a service of specified type and name exists in the service table, and optionally returns the service's parameters.
 old-location: rras\isservice.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: f2d8e1f4-ce6c-429c-bb14-26c6c75eab7e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IsService, IsService callback function [RAS], PIS_SERVICE, PIS_SERVICE callback, _mpr_isservice, rras.isservice, stm/IsService
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # PIS_SERVICE callback function

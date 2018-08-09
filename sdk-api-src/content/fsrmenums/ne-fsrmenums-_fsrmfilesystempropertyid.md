@@ -4,10 +4,10 @@ title: "_FsrmFileSystemPropertyId"
 author: windows-sdk-content
 description: Defines the possible types of file system property ids.
 old-location: fsrm\fsrmfilesystempropertyid.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 01745ffe-c50b-49a3-909f-6c32af6c656f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/01/2018
 ms.keywords: FsrmFileSystemPropertyId, FsrmFileSystemPropertyId enumeration [File Server Resource Manager], FsrmFileSystemPropertyId_DateCreated, FsrmFileSystemPropertyId_DateLastAccessed, FsrmFileSystemPropertyId_DateLastModified, FsrmFileSystemPropertyId_DateNow, FsrmFileSystemPropertyId_FileName, FsrmFileSystemPropertyId_Undefined, _FsrmFileSystemPropertyId, fs.fsrmfilesystempropertyid, fsrm.fsrmfilesystempropertyid, fsrmenums/FsrmFileSystemPropertyId, fsrmenums/FsrmFileSystemPropertyId_DateCreated, fsrmenums/FsrmFileSystemPropertyId_DateLastAccessed, fsrmenums/FsrmFileSystemPropertyId_DateLastModified, fsrmenums/FsrmFileSystemPropertyId_DateNow, fsrmenums/FsrmFileSystemPropertyId_FileName, fsrmenums/FsrmFileSystemPropertyId_Undefined
 ms.prod: windows
 ms.technology: windows-sdk

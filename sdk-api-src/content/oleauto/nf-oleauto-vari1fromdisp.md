@@ -7,7 +7,7 @@ old-location: automat\vari1fromdisp.htm
 old-project: automat
 ms.assetid: 82439eb1-e46f-4179-9017-fc5dccdbfeaf
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarI1FromDisp, VarI1FromDisp function [Automation], _oa96_VarI1FromDisp, automat.vari1fromdisp, oleauto/VarI1FromDisp
 ms.prod: windows
 ms.technology: windows-sdk

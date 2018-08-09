@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsecurity_descriptor.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxsecurity\faxinto_z_6ab6.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: Descriptor property [Fax Service], Descriptor property [Fax Service],FaxSecurity object, FaxSecurity object [Fax Service],Descriptor property, FaxSecurity.Descriptor, IFaxSecurity.get_Descriptor, IFaxSecurity.put_Descriptor, IFaxSecurity::get_Descriptor, _mfax_faxsecurity.descriptor, fax._mfax_faxsecurity_descriptor, get_Descriptor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Descriptor</b> property represents the security descriptor for a <a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a> object.
+The <b>Descriptor</b> property represents the security descriptor for a <a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a> object.
 
 This property is read/write.
 
@@ -65,9 +65,9 @@ This property is read/write.
 
 
 
-The <b>Descriptor</b> property represents the security descriptor, which contains the rights explicitly granted to a user by the fax administrator. The <a href="https://msdn.microsoft.com/library/ms689131(v=VS.85).aspx">GrantedRights</a> property reflects the user rights that the fax server grants based on the descriptor. Specifically, if a user has the access right <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farSUBMIT_HIGH</a>, the user can send high-priority, normal-priority and low-priority faxes. If a user has the access right <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farSUBMIT_NORMAL</a>, the user can send normal-priority and low-priority faxes.
+The <b>Descriptor</b> property represents the security descriptor, which contains the rights explicitly granted to a user by the fax administrator. The <a href="https://msdn.microsoft.com/en-us/library/ms689131(v=VS.85).aspx">GrantedRights</a> property reflects the user rights that the fax server grants based on the descriptor. Specifically, if a user has the access right <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farSUBMIT_HIGH</a>, the user can send high-priority, normal-priority and low-priority faxes. If a user has the access right <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farSUBMIT_NORMAL</a>, the user can send normal-priority and low-priority faxes.
 
-To read this property, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
+To read this property, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -77,11 +77,11 @@ To read this property, a user must have the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689509(v=VS.85).aspx">FaxSecurity</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689509(v=VS.85).aspx">FaxSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa358834(v=VS.85).aspx">IFaxSecurity::Descriptor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358834(v=VS.85).aspx">IFaxSecurity::Descriptor</a>
  
 
  

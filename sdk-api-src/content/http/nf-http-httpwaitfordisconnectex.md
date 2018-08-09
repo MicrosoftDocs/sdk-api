@@ -7,7 +7,7 @@ old-location: http\httpwaitfordisconnectex.htm
 old-project: http
 ms.assetid: D4946ECF-0E0E-439E-AEE5-BF24BD73D2B6
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpWaitForDisconnectEx, HttpWaitForDisconnectEx function [HTTP], http.httpwaitfordisconnectex, http/HttpWaitForDisconnectEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,7 @@ This function is an extension to <a href="https://msdn.microsoft.com/1f1c16c1-43
 
 
 
-### -param RequestQueueHandle
-
-TBD
+### -param RequestQueueHandle [in]
 
 
 ### -param ConnectionId [in]
@@ -74,9 +72,6 @@ TBD
 TBD
 
 
-
-
-#### - ReqQueueHandle [in]
 
 
 #### - Reserved

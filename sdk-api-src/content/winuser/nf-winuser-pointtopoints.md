@@ -7,7 +7,7 @@ old-location: gdi\pointtopoints.htm
 old-project: gdi
 ms.assetid: 9e9ec2c0-fce6-4205-8299-20ef7ff154e9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: POINTTOPOINTS, POINTTOPOINTS macro [Windows GDI], _win32_POINTTOPOINTS, gdi.pointtopoints, winuser/POINTTOPOINTS
 ms.prod: windows
 ms.technology: windows-sdk

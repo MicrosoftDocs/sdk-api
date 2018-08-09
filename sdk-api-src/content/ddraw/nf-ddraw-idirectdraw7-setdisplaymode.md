@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_setdisplaymode.htm
 old-project: directdraw
 ms.assetid: 385918cd-64f1-449c-822a-0034a8184fb9
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],SetDisplayMode method, IDirectDraw7.SetDisplayMode, IDirectDraw7::SetDisplayMode, SetDisplayMode, SetDisplayMode method [DirectDraw], SetDisplayMode method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::SetDisplayMode, directdraw.idirectdraw7_setdisplaymode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,9 @@ Sets the mode of the display-device hardware.
 
 
 
-#### - dwBPP [in]
+#### - dwWidth [in]
 
-Bits per pixel (bpp) of the new display mode.
-
-
-#### - dwFlags [in]
-
-This value consists of flags that describe additional options. Currently, the only valid flag is DDSDM_STANDARDVGAMODE, which causes the method to set Mode 13, instead of Mode X 320x200x8 mode. If you are setting another resolution, bit depth, or a Mode X mode, do not use this flag; instead, set the parameter to 0.
+Width of the new display mode.
 
 
 #### - dwHeight [in]
@@ -80,14 +75,19 @@ This value consists of flags that describe additional options. Currently, the on
 Height of the new display mode.
 
 
+#### - dwBPP [in]
+
+Bits per pixel (bpp) of the new display mode.
+
+
 #### - dwRefreshRate [in]
 
 Refresh rate of the new display mode. Set this value to 0 to request the default refresh rate for the driver.
 
 
-#### - dwWidth [in]
+#### - dwFlags [in]
 
-Width of the new display mode.
+This value consists of flags that describe additional options. Currently, the only valid flag is DDSDM_STANDARDVGAMODE, which causes the method to set Mode 13, instead of Mode X 320x200x8 mode. If you are setting another resolution, bit depth, or a Mode X mode, do not use this flag; instead, set the parameter to 0.
 
 
 ## -returns

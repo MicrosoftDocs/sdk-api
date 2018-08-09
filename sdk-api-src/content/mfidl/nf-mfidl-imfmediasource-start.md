@@ -7,7 +7,7 @@ old-location: mf\imfmediasource_start.htm
 old-project: medfound
 ms.assetid: 0a5abafe-1525-4bda-946c-05a6145e57ee
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 0a5abafe-1525-4bda-946c-05a6145e57ee, IMFMediaSource interface [Media Foundation],Start method, IMFMediaSource.Start, IMFMediaSource::Start, Start, Start method [Media Foundation], Start method [Media Foundation],IMFMediaSource interface, mf.imfmediasource_start, mfidl/IMFMediaSource::Start
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,22 +65,19 @@ Starts, seeks, or restarts the media source by specifying where to start playbac
 
 ### -param pPresentationDescriptor [in]
 
-
-            Pointer to the <a href="https://msdn.microsoft.com/db03e212-7021-433e-84dc-410b2cf7af87">IMFPresentationDescriptor</a> interface of the media source's presentation descriptor. To get the presentation descriptor, call <a href="https://msdn.microsoft.com/b6ac50b7-3ef1-43cf-8126-d9a003ebd825">IMFMediaSource::CreatePresentationDescriptor</a>. You can modify the presentation descriptor before calling <b>Start</b>, to select or deselect streams or change the media types.
+Pointer to the <a href="https://msdn.microsoft.com/db03e212-7021-433e-84dc-410b2cf7af87">IMFPresentationDescriptor</a> interface of the media source's presentation descriptor. To get the presentation descriptor, call <a href="https://msdn.microsoft.com/b6ac50b7-3ef1-43cf-8126-d9a003ebd825">IMFMediaSource::CreatePresentationDescriptor</a>. You can modify the presentation descriptor before calling <b>Start</b>, to select or deselect streams or change the media types.
           
 
 
 ### -param pguidTimeFormat [in]
 
-
-            Pointer to a GUID that specifies the time format. The time format defines the units for the <i>pvarStartPosition</i> parameter. If the value <i></i> is <b>GUID_NULL</b>, the time format is 100-nanosecond units. Some media sources might support additional time format GUIDs. This parameter can be <b>NULL</b>. If the value is <b>NULL</b>, it is equalivent to <b>GUID_NULL</b>.
+Pointer to a GUID that specifies the time format. The time format defines the units for the <i>pvarStartPosition</i> parameter. If the value <i></i> is <b>GUID_NULL</b>, the time format is 100-nanosecond units. Some media sources might support additional time format GUIDs. This parameter can be <b>NULL</b>. If the value is <b>NULL</b>, it is equalivent to <b>GUID_NULL</b>.
           
 
 
 ### -param pvarStartPosition [in]
 
-
-            Specifies where to start playback. The units of this parameter are indicated by the time format given in <i>pguidTimeFormat</i>. If the time format is <b>GUID_NULL</b>, the variant type must be <b>VT_I8</b> or <b>VT_EMPTY</b>. Use <b>VT_I8</b> to specify a new starting position, in 100-nanosecond units. Use <b>VT_EMPTY</b> to start from the current position. Other time formats might use other <b>PROPVARIANT</b> types.
+Specifies where to start playback. The units of this parameter are indicated by the time format given in <i>pguidTimeFormat</i>. If the time format is <b>GUID_NULL</b>, the variant type must be <b>VT_I8</b> or <b>VT_EMPTY</b>. Use <b>VT_I8</b> to specify a new starting position, in 100-nanosecond units. Use <b>VT_EMPTY</b> to start from the current position. Other time formats might use other <b>PROPVARIANT</b> types.
           
 
 
@@ -88,8 +85,7 @@ Starts, seeks, or restarts the media source by specifying where to start playbac
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -104,8 +100,7 @@ Starts, seeks, or restarts the media source by specifying where to start playbac
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -117,8 +112,7 @@ Starts, seeks, or restarts the media source by specifying where to start playbac
 </dl>
 </td>
 <td width="60%">
-
-                The start position is past the end of the presentation (ASF media source).
+The start position is past the end of the presentation (ASF media source).
               
 
 </td>
@@ -141,8 +135,7 @@ A hardware device was unable to start streaming. This error code can be returned
 </dl>
 </td>
 <td width="60%">
-
-                The start request is not valid. For example, the start position is past the end of the presentation.
+The start request is not valid. For example, the start position is past the end of the presentation.
               
 
 </td>
@@ -154,8 +147,7 @@ A hardware device was unable to start streaming. This error code can be returned
 </dl>
 </td>
 <td width="60%">
-
-                The media source's <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> method has been called.
+The media source's <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> method has been called.
               
 
 </td>
@@ -167,8 +159,7 @@ A hardware device was unable to start streaming. This error code can be returned
 </dl>
 </td>
 <td width="60%">
-
-                The media source does not support the time format specified in <i>pguidTimeFormat</i>.
+The media source does not support the time format specified in <i>pguidTimeFormat</i>.
               
 
 </td>
@@ -186,35 +177,26 @@ A hardware device was unable to start streaming. This error code can be returned
 This method is asynchronous. If the operation succeeds, the media source sends the following events:
 
 <ul>
-<li>
-            For each new stream, the source sends an <a href="https://msdn.microsoft.com/1bc8b265-b7a1-4068-89f7-c0da03dfb874">MENewStream</a> event. This event is sent for the first <b>Start</b> call in which the stream appears. The event data is a pointer to the stream's <a href="https://msdn.microsoft.com/66d07292-3bfe-4e68-b26f-890996262b98">IMFMediaStream</a> interface.
+<li>For each new stream, the source sends an <a href="https://msdn.microsoft.com/1bc8b265-b7a1-4068-89f7-c0da03dfb874">MENewStream</a> event. This event is sent for the first <b>Start</b> call in which the stream appears. The event data is a pointer to the stream's <a href="https://msdn.microsoft.com/66d07292-3bfe-4e68-b26f-890996262b98">IMFMediaStream</a> interface.
           </li>
-<li>
-            For each <i>updated</i> stream, the source sends an <a href="https://msdn.microsoft.com/2d91a267-e109-45f5-886b-11b883cc5509">MEUpdatedStream</a> event. A stream is updated if the stream already existed when <b>Start</b> was called (for example, if the application seeks during playback). The event data is a pointer to the stream's <a href="https://msdn.microsoft.com/66d07292-3bfe-4e68-b26f-890996262b98">IMFMediaStream</a> interface.
+<li>For each <i>updated</i> stream, the source sends an <a href="https://msdn.microsoft.com/2d91a267-e109-45f5-886b-11b883cc5509">MEUpdatedStream</a> event. A stream is updated if the stream already existed when <b>Start</b> was called (for example, if the application seeks during playback). The event data is a pointer to the stream's <a href="https://msdn.microsoft.com/66d07292-3bfe-4e68-b26f-890996262b98">IMFMediaStream</a> interface.
           </li>
-<li>
-            If the previous state was stopped, the source sends an <a href="https://msdn.microsoft.com/a52d8ee1-cb46-487d-a744-fca6db7c2353">MESourceStarted</a> event.
+<li>If the previous state was stopped, the source sends an <a href="https://msdn.microsoft.com/a52d8ee1-cb46-487d-a744-fca6db7c2353">MESourceStarted</a> event.
           </li>
-<li>
-            If the previous state was started or paused and the starting position is the current position (<b>VT_EMPTY</b>), the source sends an <a href="https://msdn.microsoft.com/a52d8ee1-cb46-487d-a744-fca6db7c2353">MESourceStarted</a> event.
+<li>If the previous state was started or paused and the starting position is the current position (<b>VT_EMPTY</b>), the source sends an <a href="https://msdn.microsoft.com/a52d8ee1-cb46-487d-a744-fca6db7c2353">MESourceStarted</a> event.
           </li>
-<li>
-            If the previous state was started or paused, and a new starting position is specified, the source sends an <a href="https://msdn.microsoft.com/51ce770e-ddc7-41c1-8e31-59481cafe2b0">MESourceSeeked</a> event.
+<li>If the previous state was started or paused, and a new starting position is specified, the source sends an <a href="https://msdn.microsoft.com/51ce770e-ddc7-41c1-8e31-59481cafe2b0">MESourceSeeked</a> event.
           </li>
-<li>
-            If the source sends an <a href="https://msdn.microsoft.com/a52d8ee1-cb46-487d-a744-fca6db7c2353">MESourceStarted</a> event, each media stream sends an <a href="https://msdn.microsoft.com/6652e440-5de9-4767-b7a6-9d919ceece38">MEStreamStarted</a> event. If the source sends an <a href="https://msdn.microsoft.com/51ce770e-ddc7-41c1-8e31-59481cafe2b0">MESourceSeeked</a> event, each stream sends an <a href="https://msdn.microsoft.com/df06df16-711d-4262-b049-fb29f25934de">MEStreamSeeked</a> event.
+<li>If the source sends an <a href="https://msdn.microsoft.com/a52d8ee1-cb46-487d-a744-fca6db7c2353">MESourceStarted</a> event, each media stream sends an <a href="https://msdn.microsoft.com/6652e440-5de9-4767-b7a6-9d919ceece38">MEStreamStarted</a> event. If the source sends an <a href="https://msdn.microsoft.com/51ce770e-ddc7-41c1-8e31-59481cafe2b0">MESourceSeeked</a> event, each stream sends an <a href="https://msdn.microsoft.com/df06df16-711d-4262-b049-fb29f25934de">MEStreamSeeked</a> event.
           </li>
 </ul>
-
-        If the start operation fails asynchronously (after the method returns <b>S_OK</b>), the media source sends an <a href="https://msdn.microsoft.com/a52d8ee1-cb46-487d-a744-fca6db7c2353">MESourceStarted</a> event that contains a failure code, without sending any of the other events listed here. If the method fails synchronously (returns an error code), no events are raised.
+If the start operation fails asynchronously (after the method returns <b>S_OK</b>), the media source sends an <a href="https://msdn.microsoft.com/a52d8ee1-cb46-487d-a744-fca6db7c2353">MESourceStarted</a> event that contains a failure code, without sending any of the other events listed here. If the method fails synchronously (returns an error code), no events are raised.
       
 
-
-        A call to <b>Start</b> results in a <i>seek</i> if the previous state was started or paused, and the new starting position is not <b>VT_EMPTY</b>. Not every media source can seek. If a media source can seek, the <a href="https://msdn.microsoft.com/cb5d54cd-58a3-4903-b22e-8207f90dbbc0">IMFMediaSource::GetCharacteristics</a> method returns the <b>MFMEDIASOURCE_CAN_SEEK</b> flag.
+A call to <b>Start</b> results in a <i>seek</i> if the previous state was started or paused, and the new starting position is not <b>VT_EMPTY</b>. Not every media source can seek. If a media source can seek, the <a href="https://msdn.microsoft.com/cb5d54cd-58a3-4903-b22e-8207f90dbbc0">IMFMediaSource::GetCharacteristics</a> method returns the <b>MFMEDIASOURCE_CAN_SEEK</b> flag.
       
 
-
-        Events from the media source are not synchronized with events from the media streams. If you seek a media source, therefore, you can still receive samples from the earlier position after getting the <a href="https://msdn.microsoft.com/51ce770e-ddc7-41c1-8e31-59481cafe2b0">MESourceSeeked</a> event. If you need to synchronize the operations, wait for the stream event, <a href="https://msdn.microsoft.com/df06df16-711d-4262-b049-fb29f25934de">MEStreamSeeked</a>, which marks the exact point in the stream where the seek occurs.
+Events from the media source are not synchronized with events from the media streams. If you seek a media source, therefore, you can still receive samples from the earlier position after getting the <a href="https://msdn.microsoft.com/51ce770e-ddc7-41c1-8e31-59481cafe2b0">MESourceSeeked</a> event. If you need to synchronize the operations, wait for the stream event, <a href="https://msdn.microsoft.com/df06df16-711d-4262-b049-fb29f25934de">MEStreamSeeked</a>, which marks the exact point in the stream where the seek occurs.
       
 
 <h3><a id="End_of_Stream"></a><a id="end_of_stream"></a><a id="END_OF_STREAM"></a>End of Stream</h3>
@@ -243,8 +225,7 @@ For more information, see <a href="https://msdn.microsoft.com/82db6f32-ad94-4563
 
 #### Examples
 
-
-          The following example starts playback at 1 second into the presentation.
+The following example starts playback at 1 second into the presentation.
         
 
 <div class="code"><span codelanguage=""><table>

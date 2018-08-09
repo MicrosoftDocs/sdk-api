@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_tex2d_rtv.htm
 old-project: direct3d11
 ms.assetid: e0f24576-0767-461d-8dc3-b8822ea89fef
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D3D11_TEX2D_RTV, D3D11_TEX2D_RTV structure [Direct3D 11], d3d11/D3D11_TEX2D_RTV, d4057f1c-8c04-5392-49a5-6f49138e1c38, direct3d11.d3d11_tex2d_rtv
 ms.prod: windows
 ms.technology: windows-sdk

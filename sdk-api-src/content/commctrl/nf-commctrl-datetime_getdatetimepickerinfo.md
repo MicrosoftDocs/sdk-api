@@ -7,7 +7,7 @@ old-location: controls\DateTime_GetDateTimePickerInfo.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getdatetimepickerinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DateTime_GetDateTimePickerInfo, DateTime_GetDateTimePickerInfo macro [Windows Controls], _shell_DateTime_GetDateTimePickerInfo, _shell_DateTime_GetDateTimePickerInfo_cpp, commctrl/DateTime_GetDateTimePickerInfo, controls.DateTime_GetDateTimePickerInfo, controls._shell_DateTime_GetDateTimePickerInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ A handle to the DTP control.
 
 ### -param pdtpi [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb761729(v=VS.85).aspx">DATETIMEPICKERINFO</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761729(v=VS.85).aspx">DATETIMEPICKERINFO</a>*</b>
 
-<a href="https://msdn.microsoft.com/library/Bb761729(v=VS.85).aspx">DATETIMEPICKERINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761729(v=VS.85).aspx">DATETIMEPICKERINFO</a>
 <b>cbSize</b>

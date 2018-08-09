@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeercredentialsxml2blob.htm
 old-project: eaphost
 ms.assetid: ef8475f0-047d-4858-b3c1-3ddf41c1847f
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapHostPeerCredentialsXml2Blob, EapHostPeerCredentialsXml2Blob function [EAPHost], eaphost.eaphostpeercredentialsxml2blob, eaphostpeerconfigapis/EapHostPeerCredentialsXml2Blob
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,9 +79,9 @@ The size, in bytes, of the buffer pointed to by the <i>pConfigIn</i> parameter.
 A pointer to a byte buffer that contains a configuration BLOB for which the credentials are configured. The  buffer is of size <i>dwSizeofConfigIn</i>.
 
 
-### -param pdwSizeOfCredentialsOut
+### -param pdwSizeOfCredentialsOut [out]
 
-TBD
+The size, in bytes, of the buffer pointed to by <i>ppCredentialsOut</i>.
 
 
 ### -param ppCredentialsOut [out]
@@ -97,11 +97,6 @@ A pointer to an <a href="https://msdn.microsoft.com/47702dd9-d9c2-4dd5-a12d-23a5
 ### -param ppEapError [out]
 
 A pointer to a pointer to an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised  by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/36f9b5dd-821d-4cc5-a1dd-587098635d17">EapHostPeerFreeErrorMemory</a>.
-
-
-#### - pdwSizeofCredentialsOut [out]
-
-The size, in bytes, of the buffer pointed to by <i>ppCredentialsOut</i>.
 
 
 ## -remarks

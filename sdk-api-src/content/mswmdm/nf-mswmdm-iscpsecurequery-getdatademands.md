@@ -7,7 +7,7 @@ old-location: wmdm\iscpsecurequery_getdatademands.htm
 old-project: WMDM
 ms.assetid: c4ed4da1-9378-4c35-8f03-b028e37c1707
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: GetDataDemands, GetDataDemands method [windows Media Device Manager], GetDataDemands method [windows Media Device Manager],ISCPSecureQuery interface, ISCPSecureQuery interface [windows Media Device Manager],GetDataDemands method, ISCPSecureQuery.GetDataDemands, ISCPSecureQuery::GetDataDemands, ISCPSecureQueryGetDataDemands, mswmdm/ISCPSecureQuery::GetDataDemands, wmdm.iscpsecurequery_getdatademands
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Flags describing the data required by the secure content provider to make decisi
 
 <table>
 <tr>
-<th>
-                  Flag
+<th>Flag
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

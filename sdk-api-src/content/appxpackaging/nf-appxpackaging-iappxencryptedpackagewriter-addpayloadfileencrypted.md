@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptedpackagewriter_addpayloadfileencrypted.htm
 old-project: appxpkg
 ms.assetid: 4F5823D3-7039-4CA1-BEEA-DF2A13BC54BD
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: AddPayloadFileEncrypted, AddPayloadFileEncrypted method [App packaging and management], AddPayloadFileEncrypted method [App packaging and management],IAppxEncryptedPackageWriter interface, IAppxEncryptedPackageWriter interface [App packaging and management],AddPayloadFileEncrypted method, IAppxEncryptedPackageWriter.AddPayloadFileEncrypted, IAppxEncryptedPackageWriter::AddPayloadFileEncrypted, appxpackaging/IAppxEncryptedPackageWriter::AddPayloadFileEncrypted, appxpkg.iappxencryptedpackagewriter_addpayloadfileencrypted
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,12 @@ The name of the payload file. The file name path must be relative to the root of
 
 ### -param compressionOption [in]
 
-
-            The type of compression to use  to store <i>fileName</i> in the package. 
+The type of compression to use  to store <i>fileName</i> in the package. 
 
 
 ### -param inputStream [in]
 
-
-            An <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> providing the contents of <i>fileName</i>.
+An <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> providing the contents of <i>fileName</i>.
           The stream must support <a href="https://msdn.microsoft.com/library/windows/hardware/hh439702">Read</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439723">Seek</a>, and <a href="https://msdn.microsoft.com/c22ab396-dbc5-43a0-8448-35a2c094464f">Stat</a>.
 
 

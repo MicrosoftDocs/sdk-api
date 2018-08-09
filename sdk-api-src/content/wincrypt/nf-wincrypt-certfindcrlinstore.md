@@ -4,10 +4,10 @@ title: CertFindCRLInStore function
 author: windows-sdk-content
 description: Finds the first or next certificate revocation list (CRL) context in a certificate store that matches a search criterion established by the dwFindType parameter and the associated pvFindPara parameter.
 old-location: security\certfindcrlinstore.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 3e481912-204a-4d86-ab67-81f8ae4d1aaa
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CRL_FIND_ANY, CRL_FIND_EXISTING, CRL_FIND_ISSUED_BY, CRL_FIND_ISSUED_BY_AKI_FLAG, CRL_FIND_ISSUED_BY_BASE_FLAG, CRL_FIND_ISSUED_BY_DELTA_FLAG, CRL_FIND_ISSUED_BY_SIGNATURE_FLAG, CRL_FIND_ISSUED_FOR, CRL_FIND_ISSUED_FOR_SET_STRONG_PROPERTIES_FLAG, CertFindCRLInStore, CertFindCRLInStore function [Security], _crypto2_certfindcrlinstore, security.certfindcrlinstore, wincrypt/CertFindCRLInStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ The <b>CertFindCRLInStore</b> function finds the first or next <a href="https://
 A handle of the certificate store to be searched.
 
 
-### -param dwCertEncodingType
+### -param dwCertEncodingType [in]
 
-TBD
+This parameter is not currently used. It must be set to zero.
 
 
 ### -param dwFindFlags [in]
@@ -216,11 +216,6 @@ This parameter is determined by the value of <i>dwFindType</i>. For details, see
 A pointer to the last 
 <a href="https://msdn.microsoft.com/cf7cabcd-b469-492a-b855-8870465ea1cc">CRL_CONTEXT</a> returned by this function. Must be <b>NULL</b> to get the first CRL in the store meeting the search criteria. Successive CRLs meeting the search criteria can be found by setting <i>pPrevCrlContext</i> to the <b>PCCRL_CONTEXT</b> pointer returned by a previous call to the function. The search process skips any CRLs that do not match the search criteria or that have been previously deleted from the store by 
 <a href="https://msdn.microsoft.com/eb542c25-8d2b-4427-8f2a-719b472613a5">CertDeleteCRLFromStore</a>. This function frees the <b>CRL_CONTEXT</b> referenced by values of this parameter that are not <b>NULL</b>.
-
-
-#### - dwEncodingType [in]
-
-This parameter is not currently used. It must be set to zero.
 
 
 ## -returns

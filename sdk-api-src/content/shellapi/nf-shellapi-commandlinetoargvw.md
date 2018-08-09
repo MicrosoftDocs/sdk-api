@@ -7,7 +7,7 @@ old-location: shell\CommandLineToArgvW.htm
 old-project: shell
 ms.assetid: 9889a016-b7a5-402b-8305-6f7c199d41b3
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: CommandLineToArgvW, CommandLineToArgvW function [Windows Shell], _shell_CommandLineToArgvW, shell.CommandLineToArgvW, shellapi/CommandLineToArgvW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -126,8 +126,7 @@ This special interpretation controls the "in quotes" mode tracked by the parser.
 
 
 
-
-        	The following example demonstrates how to parse a Unicode command-line string. The code frees the memory for the argument list at exit.
+The following example demonstrates how to parse a Unicode command-line string. The code frees the memory for the argument list at exit.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

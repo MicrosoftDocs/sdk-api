@@ -7,7 +7,7 @@ old-location: rpc\uuidtostring.htm
 old-project: rpc
 ms.assetid: 49235b28-a0c5-4f69-9932-85350d7bcbb8
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: UuidToString, UuidToString function [RPC], UuidToStringA, UuidToStringW, _rpc_uuidtostring, rpc.uuidtostring, rpcdce/UuidToString, rpcdce/UuidToStringA, rpcdce/UuidToStringW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>UuidToString</b> function converts a <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> to a string.
 
 

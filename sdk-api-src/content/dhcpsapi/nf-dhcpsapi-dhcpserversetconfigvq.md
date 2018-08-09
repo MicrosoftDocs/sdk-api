@@ -7,7 +7,7 @@ old-location: dhcp\dhcpserversetconfigvq.htm
 old-project: dhcp
 ms.assetid: 3498b674-5771-47b6-9dfa-a8e3e10bca40
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpServerSetConfigVQ, DhcpServerSetConfigVQ function [DHCP], dhcp.dhcpserversetconfigvq, dhcpsapi/DhcpServerSetConfigVQ
 ms.prod: windows
 ms.technology: windows-sdk

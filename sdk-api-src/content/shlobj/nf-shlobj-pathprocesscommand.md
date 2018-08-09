@@ -7,7 +7,7 @@ old-location: shell\PathProcessCommand.htm
 old-project: shell
 ms.assetid: 9dbc39e7-f73b-450f-bb87-17a38e7ab66d
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PPCF_ADDARGUMENTS, PPCF_ADDQUOTES, PPCF_FORCEQUALIFY, PPCF_LONGESTPOSSIBLE, PPCF_NODIRECTORIES, PathProcessCommand, PathProcessCommand function [Windows Shell], _win32_PathProcessCommand, shell.PathProcessCommand, shlobj/PathProcessCommand
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,9 @@ Pointer to a buffer that receives a null-terminated Unicode string with the appr
 
 ### -param cchDest
 
-TBD
+Type: <b>int</b>
+
+The maximum number of characters that can be put in <i>pszDest</i>, not including the terminating null character. If this value is too small, the function fails.
 
 
 ### -param dwFlags
@@ -113,13 +115,6 @@ Qualify even non-relative file names.
 #### PPCF_LONGESTPOSSIBLE (0x00000080)
 
 Always choose the longest possible executable name.
-
-
-#### - iDestMax
-
-Type: <b>int</b>
-
-The maximum number of characters that can be put in <i>pszDest</i>, not including the terminating null character. If this value is too small, the function fails.
 
 
 ## -returns

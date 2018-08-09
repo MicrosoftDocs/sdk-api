@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_rssetscissorrects.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_rssetscissorrects.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],RSSetScissorRects method, ID3D10Device.RSSetScissorRects, ID3D10Device::RSSetScissorRects, RSSetScissorRects, RSSetScissorRects method [Direct3D 10], RSSetScissorRects method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::RSSetScissorRects, direct3d10.id3d10device_rssetscissorrects, ff11533a-fe9e-059e-c169-7e6f3c873b2d
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Bind an array of <a href="https://msdn.microsoft.com/library/Bb205126(v=VS.85).aspx">scissor rectangles</a> to the <a href="https://msdn.microsoft.com/library/Bb205125(v=VS.85).aspx">rasterizer stage</a>.
+Bind an array of <a href="https://msdn.microsoft.com/en-us/library/Bb205126(v=VS.85).aspx">scissor rectangles</a> to the <a href="https://msdn.microsoft.com/en-us/library/Bb205125(v=VS.85).aspx">rasterizer stage</a>.
 
 
 ## -parameters
@@ -68,9 +68,9 @@ Number of scissor rectangles to bind.
 
 ### -param pRects [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb232915(v=VS.85).aspx">D3D10_RECT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb232915(v=VS.85).aspx">D3D10_RECT</a>*</b>
 
-An array of scissor rectangles (see <a href="https://msdn.microsoft.com/library/Bb232915(v=VS.85).aspx">D3D10_RECT</a>).
+An array of scissor rectangles (see <a href="https://msdn.microsoft.com/en-us/library/Bb232915(v=VS.85).aspx">D3D10_RECT</a>).
 
 
 ## -returns
@@ -86,11 +86,11 @@ Returns nothing.
 
 
 
-The scissor rectangles will only be used if ScissorEnable is set to true in the rasterizer state (see <a href="https://msdn.microsoft.com/library/Bb172408(v=VS.85).aspx">D3D10_RASTERIZER_DESC</a>).
+The scissor rectangles will only be used if ScissorEnable is set to true in the rasterizer state (see <a href="https://msdn.microsoft.com/en-us/library/Bb172408(v=VS.85).aspx">D3D10_RASTERIZER_DESC</a>).
 
-Which scissor rectangle to use is determined by the SV_ViewportArrayIndex semantic output by a geometry shader (see <a href="https://msdn.microsoft.com/library/Bb509647(v=VS.85).aspx">shader semantic syntax</a>). If a geometry shader does not make use of the SV_ViewportArrayIndex semantic then Direct3D will use the first scissor rectangle in the array.
+Which scissor rectangle to use is determined by the SV_ViewportArrayIndex semantic output by a geometry shader (see <a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">shader semantic syntax</a>). If a geometry shader does not make use of the SV_ViewportArrayIndex semantic then Direct3D will use the first scissor rectangle in the array.
 
-Each scissor rectangle in the array corresponds to a viewport in an array of viewports (see <a href="https://msdn.microsoft.com/library/Bb173613(v=VS.85).aspx">ID3D10Device::RSSetViewports</a>).
+Each scissor rectangle in the array corresponds to a viewport in an array of viewports (see <a href="https://msdn.microsoft.com/en-us/library/Bb173613(v=VS.85).aspx">ID3D10Device::RSSetViewports</a>).
 
 
 
@@ -100,7 +100,7 @@ Each scissor rectangle in the array corresponds to a viewport in an array of vie
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

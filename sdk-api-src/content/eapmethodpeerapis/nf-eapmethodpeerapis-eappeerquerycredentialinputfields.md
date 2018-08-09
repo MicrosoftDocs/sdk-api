@@ -7,7 +7,7 @@ old-location: eaphost\eappeerquerycredentialinputfields.htm
 old-project: eaphost
 ms.assetid: 8ae42352-e972-4094-bf03-90a2f20ab641
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapPeerQueryCredentialInputFields, EapPeerQueryCredentialInputFields function [EAPHost], eaphost.eappeerquerycredentialinputfields, eapmethodpeerapis/EapPeerQueryCredentialInputFields
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,19 +84,14 @@ The size of the EAP SSO configuration byte data pointed to by <i>pbEapConnData</
 A Pointer to an opaque byte buffer that contains the EAP configuration data BLOB.
 
 
-### -param pEapConfigFieldsArray
+### -param pEapConfigFieldsArray [out]
 
-TBD
+A Pointer to an <a href="https://msdn.microsoft.com/e8a2e934-1ded-4159-8cd8-7aeb75ce743a">EAP_CONFIG_INPUT_FIELD_ARRAY</a> structure that contains the input fields to display to the supplicant user. The <b>pwszData</b> fields in the individual <a href="https://msdn.microsoft.com/2b321f26-fb40-44e5-b483-52d85cb54c8c">EAP_CONFIG_INPUT_FIELD_DATA</a> elements are initialized to <b>NULL</b>.
 
 
 ### -param ppEapError [out]
 
  A pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
-
-
-#### - pEapConfigInputFieldsArray [out]
-
-A Pointer to an <a href="https://msdn.microsoft.com/e8a2e934-1ded-4159-8cd8-7aeb75ce743a">EAP_CONFIG_INPUT_FIELD_ARRAY</a> structure that contains the input fields to display to the supplicant user. The <b>pwszData</b> fields in the individual <a href="https://msdn.microsoft.com/2b321f26-fb40-44e5-b483-52d85cb54c8c">EAP_CONFIG_INPUT_FIELD_DATA</a> elements are initialized to <b>NULL</b>.
 
 
 ## -remarks

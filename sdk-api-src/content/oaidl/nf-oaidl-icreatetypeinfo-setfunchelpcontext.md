@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_setfunchelpcontext.htm
 old-project: automat
 ms.assetid: 945d2faa-f35d-488f-a0df-ace3fbb85971
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetFuncHelpContext method, ICreateTypeInfo.SetFuncHelpContext, ICreateTypeInfo::SetFuncHelpContext, SetFuncHelpContext, SetFuncHelpContext method [Automation], SetFuncHelpContext method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetFuncHelpContext, automat.icreatetypeinfo_setfunchelpcontext, oaidl/ICreateTypeInfo::SetFuncHelpContext
 ms.prod: windows
 ms.technology: windows-sdk

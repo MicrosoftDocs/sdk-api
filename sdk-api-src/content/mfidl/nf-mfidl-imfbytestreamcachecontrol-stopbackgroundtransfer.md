@@ -7,7 +7,7 @@ old-location: mf\imfbytestreamcachecontrol_stopbackgroundtransfer.htm
 old-project: medfound
 ms.assetid: 9f0f7102-c839-4e92-a798-5ea31ceba013
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFByteStreamCacheControl interface [Media Foundation],StopBackgroundTransfer method, IMFByteStreamCacheControl.StopBackgroundTransfer, IMFByteStreamCacheControl::StopBackgroundTransfer, StopBackgroundTransfer, StopBackgroundTransfer method [Media Foundation], StopBackgroundTransfer method [Media Foundation],IMFByteStreamCacheControl interface, mf.imfbytestreamcachecontrol_stopbackgroundtransfer, mfidl/IMFByteStreamCacheControl::StopBackgroundTransfer
 ms.prod: windows
 ms.technology: windows-sdk

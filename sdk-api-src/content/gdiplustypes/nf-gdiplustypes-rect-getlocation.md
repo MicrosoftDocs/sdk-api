@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_GetLocation_point_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getlocation.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetLocation, GetLocation method [GDI+], GetLocation method [GDI+],Rect class, Rect class [GDI+],GetLocation method, Rect.GetLocation, Rect::GetLocation, _gdiplus_CLASS_Rect_GetLocation_point_, gdiplus._gdiplus_CLASS_Rect_GetLocation_point_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
 
 
 
@@ -92,27 +92,27 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534964(v=VS.85).aspx">Rect::GetBottom</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534964(v=VS.85).aspx">Rect::GetBottom</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534966(v=VS.85).aspx">Rect::GetLeft</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534966(v=VS.85).aspx">Rect::GetLeft</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534968(v=VS.85).aspx">Rect::GetRight</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534968(v=VS.85).aspx">Rect::GetRight</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534970(v=VS.85).aspx">Rect::GetTop</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534970(v=VS.85).aspx">Rect::GetTop</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
  
 
  

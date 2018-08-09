@@ -7,7 +7,7 @@ old-location: netmgmt\netvalidatepasswordpolicyfree.htm
 old-project: netmgmt
 ms.assetid: 263834cd-a0e2-4ec0-9cb1-c03eb198de3a
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: NetValidatePasswordPolicyFree, NetValidatePasswordPolicyFree function [Network Management], lmaccess/NetValidatePasswordPolicyFree, netmgmt.netvalidatepasswordpolicyfree
 ms.prod: windows
 ms.technology: windows-sdk

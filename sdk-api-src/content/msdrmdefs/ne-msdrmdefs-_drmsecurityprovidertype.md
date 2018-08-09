@@ -7,7 +7,7 @@ old-location: rm\drmsecurityprovidertype.htm
 old-project: adrms_sdk
 ms.assetid: e8b81e48-d13a-4b7d-b7a4-a197dc81dc6b
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMSECURITYPROVIDERTYPE, DRMSECURITYPROVIDERTYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMSECURITYPROVIDERTYPE_SOFTWARESECREP, _DRMSECURITYPROVIDERTYPE, msdrmdefs/DRMSECURITYPROVIDERTYPE, msdrmdefs/DRMSECURITYPROVIDERTYPE_SOFTWARESECREP, rm.drmsecurityprovidertype
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecontent_transfer.htm
 old-project: wpd_sdk
 ms.assetid: 52fd2ca7-56ba-4e7a-9dcc-5b28f344c1df
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: IPortableDeviceContent interface [Windows Portable Devices SDK],Transfer method, IPortableDeviceContent.Transfer, IPortableDeviceContent::Transfer, IPortableDeviceContentTransfer, Transfer, Transfer method [Windows Portable Devices SDK], Transfer method [Windows Portable Devices SDK],IPortableDeviceContent interface, portabledeviceapi/IPortableDeviceContent::Transfer, wpdsdk.iportabledevicecontent_transfer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-        The <a href="https://msdn.microsoft.com/938a6a06-31c5-44d1-b87b-a108995ae9a1">Transfer</a> method retrieves an interface that is used to read from or write to the content data of an existing object resource.
+The <a href="https://msdn.microsoft.com/938a6a06-31c5-44d1-b87b-a108995ae9a1">Transfer</a> method retrieves an interface that is used to read from or write to the content data of an existing object resource.
       
 
 
@@ -64,8 +63,7 @@ req.product: ADAM
 
 ### -param ppResources [out]
 
-
-            Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/fce2d6db-13f0-4c1d-ba55-16139c6acbb7">IPortableDeviceResources</a> interface that is used to modify an object's resources. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/fce2d6db-13f0-4c1d-ba55-16139c6acbb7">IPortableDeviceResources</a> interface that is used to modify an object's resources. The caller must release this interface when it is done with it.
           
 
 
@@ -73,8 +71,7 @@ req.product: ADAM
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -114,8 +111,7 @@ At least one of the required arguments was a <b>NULL</b> pointer.
 
 
 
-
-        This method is typically used to read from an existing object.
+This method is typically used to read from an existing object.
       
 
 
@@ -136,7 +132,7 @@ For an example of how to use this method, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
  
 
  

@@ -4,10 +4,10 @@ title: ISensNetwork::ConnectionMade
 author: windows-sdk-content
 description: The ConnectionMade method notifies your application that the specified connection has been established.
 old-location: sens\isensnetwork_connectionmade.htm
-old-project: Sens
+old-project: sens
 ms.assetid: 3b067a6f-ba4c-4914-aa5b-e0fd7690e75c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: ConnectionMade, ConnectionMade method [SENS], ConnectionMade method [SENS],ISensNetwork interface, ISensNetwork interface [SENS],ConnectionMade method, ISensNetwork.ConnectionMade, ISensNetwork::ConnectionMade, _zaw_isensnetwork_connectionmade, sens.isensnetwork_connectionmade, sensevts/ISensNetwork::ConnectionMade, syncmgr.isensnetwork_connectionmade
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,7 +111,7 @@ Method returned successfully.
 SENS calls this method to notify your application that the specified connection has been established. SENS also provides a pointer to a structure containing Quality of Connection information.
 
 Filtering can be performed on the publisher property <i>ulConnectionMadeType</i> by setting it to either CONNECTION_LAN or CONNECTION_WAN or both. Use 
-<a href="https://msdn.microsoft.com/library/ms685465(v=VS.85).aspx">IEventSubscription::PutPublisherProperty</a> to set the publisher property.
+<a href="https://msdn.microsoft.com/en-us/library/ms685465(v=VS.85).aspx">IEventSubscription::PutPublisherProperty</a> to set the publisher property.
 			
 
 
@@ -126,11 +126,11 @@ Filtering can be performed on the publisher property <i>ulConnectionMadeType</i>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686510(v=VS.85).aspx">IEventSubscription</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686510(v=VS.85).aspx">IEventSubscription</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms685465(v=VS.85).aspx">IEventSubscription::PutPublisherProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685465(v=VS.85).aspx">IEventSubscription::PutPublisherProperty</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: ad\ds_repl_cursor_blob.htm
 old-project: ad
 ms.assetid: c41e4737-5ef8-40ce-9af1-0afff7e11dc1
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DS_REPL_CURSOR_BLOB, DS_REPL_CURSOR_BLOB structure [Active Directory], _DS_REPL_CURSOR_BLOB, ad.ds_repl_cursor_blob, ntdsapi/DS_REPL_CURSOR_BLOB
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CredUnprotectA function
 author: windows-sdk-content
 description: Decrypts credentials that were previously encrypted by using the CredProtect function.
 old-location: security\credunprotect.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 7a22fb2b-edfc-45f2-b2d2-729f3761584d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CredUnprotect, CredUnprotect function [Security], CredUnprotectA, CredUnprotectW, security.credunprotect, wincred/CredUnprotect, wincred/CredUnprotectA, wincred/CredUnprotectW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,9 +74,9 @@ Set to <b>TRUE</b> to specify that the credentials were encrypted in the securit
 A pointer to a string that specifies the encrypted credentials.
 
 
-### -param cchProtectedCredentials
+### -param cchProtectedCredentials [in]
 
-TBD
+The size, in characters, of the <i>pszProtectedCredentials</i> buffer.
 
 
 ### -param pszCredentials [out]
@@ -87,11 +87,6 @@ A pointer to a string that, on output, receives the decrypted credentials.
 ### -param pcchMaxChars [in, out]
 
 The size, in characters of the <i>pszCredentials</i> buffer. On output, if the <i>pszCredentials</i> is not of sufficient size to receive the encrypted credentials, this parameter specifies the required size, in characters, of the <i>pszCredentials</i> buffer.
-
-
-#### - cchCredentials [in]
-
-The size, in characters, of the <i>pszProtectedCredentials</i> buffer.
 
 
 ## -returns

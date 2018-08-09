@@ -7,7 +7,7 @@ old-location: security\ix509enrollment_parentwindow_property.htm
 old-project: seccertenroll
 ms.assetid: 154a73ae-e007-437b-87c3-33c2abb27aa4
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509Enrollment interface [Security],ParentWindow property, IX509Enrollment.ParentWindow, IX509Enrollment.put_ParentWindow, IX509Enrollment::ParentWindow, IX509Enrollment::get_ParentWindow, IX509Enrollment::put_ParentWindow, ParentWindow property [Security], ParentWindow property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::ParentWindow, certenroll/IX509Enrollment::get_ParentWindow, certenroll/IX509Enrollment::put_ParentWindow, put_ParentWindow, security.ix509enrollment_parentwindow_property
 ms.prod: windows
 ms.technology: windows-sdk

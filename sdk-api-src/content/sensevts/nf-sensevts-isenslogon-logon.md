@@ -4,10 +4,10 @@ title: ISensLogon::Logon
 author: windows-sdk-content
 description: The Logon method notifies an application that a user is logged on.
 old-location: sens\isenslogon_logon.htm
-old-project: Sens
+old-project: sens
 ms.assetid: 76a811a2-70c4-4dda-99c0-1578e9402a3b
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: ISensLogon interface [SENS],Logon method, ISensLogon.Logon, ISensLogon::Logon, Logon, Logon method [SENS], Logon method [SENS],ISensLogon interface, _zaw_isenslogon_logon, sens.isenslogon_logon, sensevts/ISensLogon::Logon, syncmgr.isenslogon_logon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,11 +113,11 @@ SENS calls this method to notify an application that a user is logged on.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686510(v=VS.85).aspx">IEventSubscription</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686510(v=VS.85).aspx">IEventSubscription</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms685465(v=VS.85).aspx">IEventSubscription::PutPublisherProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685465(v=VS.85).aspx">IEventSubscription::PutPublisherProperty</a>
 
 
 

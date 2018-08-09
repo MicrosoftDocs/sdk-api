@@ -7,7 +7,7 @@ old-location: netvista\sockaddr_in6.htm
 old-project: netvista
 ms.assetid: ef2955d2-5dc1-420b-a9e0-32a584059d5a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: "*LPSOCKADDR_IN6, *LPSOCKADDR_IN6_W2KSP1, *PSOCKADDR_IN6, *PSOCKADDR_IN6_W2KSP1, PSOCKADDR_IN6, PSOCKADDR_IN6 structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR_IN6, SOCKADDR_IN6 structure [Network Drivers Starting with Windows Vista], SOCKADDR_IN6_W2KSP1, netvista.sockaddr_in6, sockaddr_in6_w2ksp1, ws2ipdef/PSOCKADDR_IN6, ws2ipdef/SOCKADDR_IN6, wskref_7e70684f-ef0d-45c5-8075-3e9b6fa87337.xml"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -182,6 +182,30 @@ The transport address has global scope.
 A ULONG representation of the IPv6 scope identifier.
 
 
+##### - sin6_scope_struct.Zone
+
+The zone index that identifies the zone to which the transport address pertains. Zones of the
+        different scopes are instantiated as follows:
+        
+
+<ul>
+<li>Each interface on a node comprises a single zone of interface-local scope.</li>
+</ul>
+<ul>
+<li>Each link, and the interfaces attached to that link, comprise a single zone of link-local
+         scope.</li>
+</ul>
+<ul>
+<li>There is a single zone of global scope that comprises all of the links and interfaces in the
+         Internet.</li>
+</ul>
+<ul>
+<li>The boundaries of zones of scope other than interface-local, link-local, and global are
+         defined by network administrators.</li>
+</ul>
+A value of zero specifies the default zone.
+
+
 ##### - sin6_scope_struct.Level
 
 The scope of the IPv6 transport address. This scope must be the same as the IPv6 scope value
@@ -220,30 +244,6 @@ The transport address has global scope.
 ##### - sin6_scope_struct.Value
 
 A ULONG representation of the IPv6 scope identifier.
-
-
-##### - sin6_scope_struct.Zone
-
-The zone index that identifies the zone to which the transport address pertains. Zones of the
-        different scopes are instantiated as follows:
-        
-
-<ul>
-<li>Each interface on a node comprises a single zone of interface-local scope.</li>
-</ul>
-<ul>
-<li>Each link, and the interfaces attached to that link, comprise a single zone of link-local
-         scope.</li>
-</ul>
-<ul>
-<li>There is a single zone of global scope that comprises all of the links and interfaces in the
-         Internet.</li>
-</ul>
-<ul>
-<li>The boundaries of zones of scope other than interface-local, link-local, and global are
-         defined by network administrators.</li>
-</ul>
-A value of zero specifies the default zone.
 
 
 ## -remarks

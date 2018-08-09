@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\sourceinfo.htm
 old-project: xaml_diagnostics
 ms.assetid: 09B08C62-EF16-4A35-BFE9-B2D1CAE9F285
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: PSourceInfo, PSourceInfo structure pointer, SourceInfo, SourceInfo structure, xaml_diagnostics.sourceinfo, xamlom/PSourceInfo, xamlom/SourceInfo
 ms.prod: windows
 ms.technology: windows-sdk

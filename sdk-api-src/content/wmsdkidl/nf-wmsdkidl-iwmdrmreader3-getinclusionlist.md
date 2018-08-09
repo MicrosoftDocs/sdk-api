@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmreader3_getinclusionlist.htm
 old-project: wmformat
 ms.assetid: ac6f2ced-d60d-4472-8549-c52314375ac6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetInclusionList, GetInclusionList method [windows Media Format], GetInclusionList method [windows Media Format],IWMDRMReader3 interface, IWMDRMReader3 interface [windows Media Format],GetInclusionList method, IWMDRMReader3.GetInclusionList, IWMDRMReader3::GetInclusionList, IWMDRMReader3GetInclusionList, wmformat.iwmdrmreader3_getinclusionlist, wmsdkidl/IWMDRMReader3::GetInclusionList
 ms.prod: windows
 ms.technology: windows-sdk

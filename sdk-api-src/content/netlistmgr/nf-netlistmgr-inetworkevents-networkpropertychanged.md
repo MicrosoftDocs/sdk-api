@@ -7,7 +7,7 @@ old-location: nla\inetworkevents_networkpropertychanged.htm
 old-project: nla
 ms.assetid: a84f49ee-9efd-450e-a6e6-3f140330a9d0
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkPropertyChanged method, INetworkEvents.NetworkPropertyChanged, INetworkEvents::NetworkPropertyChanged, NetworkPropertyChanged, NetworkPropertyChanged method [Network Awareness], NetworkPropertyChanged method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkPropertyChanged, nla.inetworkevents_networkpropertychanged
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,15 +71,15 @@ The <b>NetworkPropertyChanged</b> method is called when a network property chang
 
 
 
+#### - gdNetworkId [in]
+
+GUID that specifies the network on which this event occurred.
+
+
 #### - fFlags [in]
 
 
 <a href="https://msdn.microsoft.com/04c96793-f6a8-418b-a8d4-65e8df77933c">NLM_NETWORK_PROPERTY_CHANGE</a> enumeration value that specifies the network property that changed.
-
-
-#### - gdNetworkId [in]
-
-GUID that specifies the network on which this event occurred.
 
 
 ## -returns

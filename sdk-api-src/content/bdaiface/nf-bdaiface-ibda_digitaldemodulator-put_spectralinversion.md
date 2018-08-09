@@ -7,7 +7,7 @@ old-location: mstv\ibda_digitaldemodulator_put_spectralinversion.htm
 old-project: mstv
 ms.assetid: 6aabb829-5198-407f-a8f7-f99f87229560
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_SpectralInversion method, IBDA_DigitalDemodulator.put_SpectralInversion, IBDA_DigitalDemodulator::put_SpectralInversion, IBDA_DigitalDemodulatorput_SpectralInversion, bdaiface/IBDA_DigitalDemodulator::put_SpectralInversion, mstv.ibda_digitaldemodulator_put_spectralinversion, put_SpectralInversion, put_SpectralInversion method [Microsoft TV Technologies], put_SpectralInversion method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
 ms.prod: windows
 ms.technology: windows-sdk

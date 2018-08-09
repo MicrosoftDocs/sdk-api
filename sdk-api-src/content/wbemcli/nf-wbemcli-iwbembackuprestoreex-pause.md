@@ -7,7 +7,7 @@ old-location: wmi\iwbembackuprestoreex_pause.htm
 old-project: WmiSdk
 ms.assetid: ce4f2637-cf30-4087-bd49-b26554f434ca
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: IWbemBackupRestoreEx interface [Windows Management Instrumentation],Pause method, IWbemBackupRestoreEx.Pause, IWbemBackupRestoreEx::Pause, Pause, Pause method [Windows Management Instrumentation], Pause method [Windows Management Instrumentation],IWbemBackupRestoreEx interface, wbemcli/IWbemBackupRestoreEx::Pause, wmi.iwbembackuprestoreex_pause
 ms.prod: windows
 ms.technology: windows-sdk

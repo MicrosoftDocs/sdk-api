@@ -7,7 +7,7 @@ old-location: coreaudio\ipart_getparttype.htm
 old-project: CoreAudio
 ms.assetid: 79af1dce-b946-4ef2-af36-4437603966da
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: GetPartType, GetPartType method [Core Audio], GetPartType method [Core Audio],IPart interface, IPart interface [Core Audio],GetPartType method, IPart.GetPartType, IPart::GetPartType, IPartGetPartType, coreaudio.ipart_getparttype, devicetopology/IPart::GetPartType
 ms.prod: windows
 ms.technology: windows-sdk

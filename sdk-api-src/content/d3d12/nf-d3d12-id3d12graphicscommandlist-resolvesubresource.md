@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_resolvesubresource.htm
 old-project: direct3d12
 ms.assetid: F1D4BAD1-B08E-47D0-9D2B-41873D6B4456
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: ID3D12GraphicsCommandList interface,ResolveSubresource method, ID3D12GraphicsCommandList.ResolveSubresource, ID3D12GraphicsCommandList::ResolveSubresource, ResolveSubresource, ResolveSubresource method, ResolveSubresource method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::ResolveSubresource, direct3d12.id3d12graphicscommandlist_resolvesubresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ The source subresource of the source resource.
 
 Type: <b>DXGI_FORMAT</b>
 
-A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> that indicates how the multisampled resource will be resolved to a single-sampled resource.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> that indicates how the multisampled resource will be resolved to a single-sampled resource.
             See remarks.
           
 

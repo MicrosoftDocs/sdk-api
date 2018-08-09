@@ -7,7 +7,7 @@ old-location: com\ifont_querytextmetrics.htm
 old-project: com
 ms.assetid: 960dcc0b-8769-415c-9d5a-eaf9f4b3aeac
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IFont interface [COM],QueryTextMetrics method, IFont.QueryTextMetrics, IFont::QueryTextMetrics, QueryTextMetrics, QueryTextMetrics method [COM], QueryTextMetrics method [COM],IFont interface, _ctrl_ifont_querytextmetrics, com.ifont_querytextmetrics, ocidl/IFont::QueryTextMetrics
 ms.prod: windows
 ms.technology: windows-sdk

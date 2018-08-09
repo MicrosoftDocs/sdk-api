@@ -7,7 +7,7 @@ old-location: mscs\clustergetenumcountex.htm
 old-project: mscs
 ms.assetid: EC66C1CF-4CAA-41C6-ABA1-BB576F0293F4
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusterGetEnumCountEx, ClusterGetEnumCountEx function [Failover Cluster], PCLUSAPI_CLUSTER_GET_ENUM_COUNT_EX, PCLUSAPI_CLUSTER_GET_ENUM_COUNT_EX function [Failover Cluster], clusapi/ClusterGetEnumCountEx, clusapi/PCLUSAPI_CLUSTER_GET_ENUM_COUNT_EX, mscs.clustergetenumcountex
 ms.prod: windows
 ms.technology: windows-sdk

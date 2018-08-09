@@ -7,7 +7,7 @@ old-location: gdi\settextcharacterextra.htm
 old-project: gdi
 ms.assetid: 83b7d225-4fb9-4c75-bc4a-e1bea7f901f1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetTextCharacterExtra, SetTextCharacterExtra function [Windows GDI], _win32_SetTextCharacterExtra, gdi.settextcharacterextra, wingdi/SetTextCharacterExtra
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,7 @@ The <b>SetTextCharacterExtra</b> function sets the intercharacter spacing. Inter
 A handle to the device context.
 
 
-### -param extra
-
-TBD
-
-
-
-
-#### - nCharExtra [in]
+### -param extra [in]
 
 The amount of extra space, in logical units, to be added to each character. If the current mapping mode is not MM_TEXT, the <i>nCharExtra</i> parameter is transformed and rounded to the nearest pixel.
 

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetoptioninfo.htm
 old-project: dhcp
 ms.assetid: 97cfe347-f4ca-4512-a33a-4da4532c4290
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpSetOptionInfo, DhcpSetOptionInfo function [DHCP], dhcp.dhcpsetoptioninfo, dhcpsapi/DhcpSetOptionInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpSetOptionInfo</b> function 
+The <b>DhcpSetOptionInfo</b> function 
 
 modifies the option definition of the specified option for the default user class and vendor class at the default option level.
 

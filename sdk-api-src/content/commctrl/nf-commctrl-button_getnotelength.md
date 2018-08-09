@@ -7,7 +7,7 @@ old-location: controls\Button_GetNoteLength.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getnotelength.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Button_GetNoteLength, Button_GetNoteLength macro [Windows Controls], _shell_Button_GetNoteLength, _shell_Button_GetNoteLength_cpp, commctrl/Button_GetNoteLength, controls.Button_GetNoteLength, controls._shell_Button_GetNoteLength
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the length of the note text that may be displayed in the description for a command link. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775967(v=VS.85).aspx">BCM_GETNOTELENGTH</a> message explicitly.
+Gets the length of the note text that may be displayed in the description for a command link. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775967(v=VS.85).aspx">BCM_GETNOTELENGTH</a> message explicitly.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A handle to the button control.
 
 Beginning with comctl32 DLL version 6.01, command link buttons may have a note. For information on DLL versions, see <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Common Control Versions</a>.
 
-The <b>Button_GetNoteLength</b> macro works only with the <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">BS_COMMANDLINK</a> and <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">BS_DEFCOMMANDLINK</a> button styles.
+The <b>Button_GetNoteLength</b> macro works only with the <a href="Button_Styles.htm">BS_COMMANDLINK</a> and <a href="Button_Styles.htm">BS_DEFCOMMANDLINK</a> button styles.
 
 
 
@@ -81,11 +81,11 @@ The <b>Button_GetNoteLength</b> macro works only with the <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">Button Styles</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">Button Styles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775947(v=VS.85).aspx">Button Types</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775947(v=VS.85).aspx">Button Types</a>
 
 
 

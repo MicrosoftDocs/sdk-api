@@ -7,7 +7,7 @@ old-location: winmsg\getguithreadinfo.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getguithreadinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetGUIThreadInfo, GetGUIThreadInfo function [Windows and Messages], _win32_GetGUIThreadInfo, _win32_getguithreadinfo_cpp, winmsg.getguithreadinfo, winui._win32_getguithreadinfo, winuser/GetGUIThreadInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,14 +72,7 @@ Type: <b>DWORD</b>
 The identifier for the thread for which information is to be retrieved. To retrieve this value, use the <a href="https://msdn.microsoft.com/en-us/library/ms633522(v=VS.85).aspx">GetWindowThreadProcessId</a> function. If this parameter is <b>NULL</b>, the function returns information for the foreground thread. 
 
 
-### -param pgui
-
-TBD
-
-
-
-
-#### - lpgui [in, out]
+### -param pgui [in, out]
 
 Type: <b>LPGUITHREADINFO</b>
 

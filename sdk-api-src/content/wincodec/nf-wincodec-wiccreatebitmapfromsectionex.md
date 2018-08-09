@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wiccreatebitmapfromsectionex.htm
 old-project: wic
 ms.assetid: 0c9892a5-c136-41f6-8161-8077afe1a9da
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WICCreateBitmapFromSectionEx, WICCreateBitmapFromSectionEx function [Windows Imaging Component], _wic_codec_wiccreatebitmapfromsectionex, wic._wic_codec_wiccreatebitmapfromsectionex, wincodec/WICCreateBitmapFromSectionEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,14 +109,7 @@ Type: <b><a href="https://msdn.microsoft.com/4b08bc8c-d67c-4bc4-a701-2903a971a47
 The desired access level.
 
 
-### -param ppIBitmap
-
-TBD
-
-
-
-
-#### - pIBitmap [out]
+### -param ppIBitmap [out]
 
 Type: <b><a href="https://msdn.microsoft.com/15dcc80d-ef58-453d-a57a-348ffc7ddc6b">IWICBitmap</a>**</b>
 

@@ -7,7 +7,7 @@ old-location: dshow\ireferenceclock_adviseperiodic.htm
 old-project: DirectShow
 ms.assetid: c8e2545b-ea3c-441c-8721-e7dec09d100e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: AdvisePeriodic, AdvisePeriodic method [DirectShow], AdvisePeriodic method [DirectShow],IReferenceClock interface, IReferenceClock interface [DirectShow],AdvisePeriodic method, IReferenceClock.AdvisePeriodic, IReferenceClock::AdvisePeriodic, IReferenceClockAdvisePeriodic, dshow.ireferenceclock_adviseperiodic, strmif/IReferenceClock::AdvisePeriodic
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,14 +83,14 @@ Handle to a semaphore, created by the caller.
 Pointer to a variable that receives an identifier for the advise request.
 
 
-#### - rtPeriodTime [in]
-
-Time between notifications, in 100-nanosecond units. Must be greater than zero.
-
-
 #### - rtStartTime [in]
 
 Time of the first notification, in 100-nanosecond units. Must be greater than zero and less than MAX_TIME.
+
+
+#### - rtPeriodTime [in]
+
+Time between notifications, in 100-nanosecond units. Must be greater than zero.
 
 
 ## -returns

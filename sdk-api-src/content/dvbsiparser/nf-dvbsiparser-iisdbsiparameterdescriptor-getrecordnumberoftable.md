@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparameterdescriptor_getrecordnumberoftable.htm
 old-project: mstv
 ms.assetid: 12f7af61-494e-4597-8672-47ea9552be62
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordNumberOfTable, GetRecordNumberOfTable method [Microsoft TV Technologies], GetRecordNumberOfTable method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetRecordNumberOfTable method, IIsdbSIParameterDescriptor.GetRecordNumberOfTable, IIsdbSIParameterDescriptor::GetRecordNumberOfTable, dvbsiparser/IIsdbSIParameterDescriptor::GetRecordNumberOfTable, mstv.iisdbsiparameterdescriptor_getrecordnumberoftable
 ms.prod: windows
 ms.technology: windows-sdk

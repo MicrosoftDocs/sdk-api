@@ -7,7 +7,7 @@ old-location: winmsg\showownedpopups.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\showownedpopups.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ShowOwnedPopups, ShowOwnedPopups function [Windows and Messages], _win32_ShowOwnedPopups, _win32_showownedpopups_cpp, winmsg.showownedpopups, winui._win32_showownedpopups, winuser/ShowOwnedPopups
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext1_hssetconstantbuffers1.htm
 old-project: direct3d11
 ms.assetid: 8E44A677-8C08-4343-BFA4-D4B536DB082B
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: HSSetConstantBuffers1, HSSetConstantBuffers1 method [Direct3D 11], HSSetConstantBuffers1 method [Direct3D 11],ID3D11DeviceContext1 interface, ID3D11DeviceContext1 interface [Direct3D 11],HSSetConstantBuffers1 method, ID3D11DeviceContext1.HSSetConstantBuffers1, ID3D11DeviceContext1::HSSetConstantBuffers1, d3d11_1/ID3D11DeviceContext1::HSSetConstantBuffers1, direct3d11.id3d11devicecontext1_hssetconstantbuffers1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ Returns nothing
 
 The runtime drops the call to <b>HSSetConstantBuffers1</b> if the number of constants to which <i>pNumConstants</i> points is larger than the maximum constant buffer size that is supported by shaders (4096 constants).  The values in the elements of the <i>pFirstConstant</i> and <i>pFirstConstant</i> + <i>pNumConstants</i> arrays can exceed the length of each buffer; from the shader's point of view, the constant buffer is the intersection of the actual memory allocation for the buffer and the window [value in an element of <i>pFirstConstant</i>, value in an element of <i>pFirstConstant</i> + value in an element of <i>pNumConstants</i>]. The runtime also drops the call to <b>HSSetConstantBuffers1</b> on existing drivers that don't support this offsetting.
 
-The runtime will emulate this feature for <a href="https://msdn.microsoft.com/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1, 9.2, and 9.3; therefore, this feature is supported for feature level 9.1, 9.2, and 9.3.  This feature is always available on new drivers for feature level 10 and higher.
+The runtime will emulate this feature for <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1, 9.2, and 9.3; therefore, this feature is supported for feature level 9.1, 9.2, and 9.3.  This feature is always available on new drivers for feature level 10 and higher.
 
 From the shader’s point of view, element [0] in the constant buffers array is the constant at <i>pFirstConstant</i>.
 

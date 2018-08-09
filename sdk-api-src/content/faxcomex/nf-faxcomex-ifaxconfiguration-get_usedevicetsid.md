@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_UseDeviceTSID_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\usedevicetsid.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxConfiguration object [Fax Service],UseDeviceTSID property, FaxConfiguration.UseDeviceTSID, IFaxConfiguration.get_UseDeviceTSID, IFaxConfiguration::get_UseDeviceTSID, UseDeviceTSID property [Fax Service], UseDeviceTSID property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_UseDeviceTSID, fax._mfax_FaxConfiguration_UseDeviceTSID_vb, get_UseDeviceTSID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa358913(v=VS.85).aspx">FaxConfiguration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358913(v=VS.85).aspx">FaxConfiguration</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mf\mfcalculatebitmapimagesize.htm
 old-project: medfound
 ms.assetid: 67d80db8-996e-4f59-82f0-efd3d4bd8ff0
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 67d80db8-996e-4f59-82f0-efd3d4bd8ff0, MFCalculateBitmapImageSize, MFCalculateBitmapImageSize function [Media Foundation], mf.mfcalculatebitmapimagesize, mfapi/MFCalculateBitmapImageSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,29 +63,25 @@ Retrieves the image size for a video format. Given a <a href="https://msdn.micro
 
 ### -param pBMIH [in]
 
-
-            Pointer to a <b>BITMAPINFOHEADER</b> structure that describes the format.
+Pointer to a <b>BITMAPINFOHEADER</b> structure that describes the format.
           
 
 
 ### -param cbBufSize [in]
 
-
-            Size of the <i>pBMIH</i> buffer, in bytes. The size includes any color masks or palette entries that follow the <b>BITMAPINFOHEADER</b> structure.
+Size of the <i>pBMIH</i> buffer, in bytes. The size includes any color masks or palette entries that follow the <b>BITMAPINFOHEADER</b> structure.
           
 
 
 ### -param pcbImageSize [out]
 
-
-            Receives the image size, in bytes.
+Receives the image size, in bytes.
           
 
 
 ### -param pbKnown [out]
 
-
-            Receives the value <b>TRUE</b> if the function recognizes the video format. Otherwise, receives the value <b>FALSE</b>. This parameter can be <b>NULL</b>.
+Receives the value <b>TRUE</b> if the function recognizes the video format. Otherwise, receives the value <b>FALSE</b>. This parameter can be <b>NULL</b>.
           
 
 
@@ -107,8 +103,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The function succeeded.
+The function succeeded.
               
 
 </td>
@@ -120,8 +115,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The <b>BITMAPINFOHEADER</b> structure is not valid, or the value of <i>cbBufSize</i> is too small.
+The <b>BITMAPINFOHEADER</b> structure is not valid, or the value of <i>cbBufSize</i> is too small.
               
 
 </td>
@@ -136,8 +130,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 
 
 
-
-        Before calling this function, you must set at least the following members of the <b>BITMAPINFOHEADER</b> structure:
+Before calling this function, you must set at least the following members of the <b>BITMAPINFOHEADER</b> structure:
 
 <ul>
 <li><b>biCompression</b></li>
@@ -148,8 +141,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 Also, if <b>biCompression</b> is <b>BI_BITFIELDS</b>, the <b>BITMAPINFOHEADER</b> structure must be followed by an array of color masks.
       
 
-
-        This function fails if the <b>BITMAPINFOHEADER</b> structure describes a format that is not a video format. For example, it fails if <b>biCompresson</b> is <b>BI_JPEG</b> or <b>BI_PNG</b> .
+This function fails if the <b>BITMAPINFOHEADER</b> structure describes a format that is not a video format. For example, it fails if <b>biCompresson</b> is <b>BI_JPEG</b> or <b>BI_PNG</b> .
 
 This function is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 

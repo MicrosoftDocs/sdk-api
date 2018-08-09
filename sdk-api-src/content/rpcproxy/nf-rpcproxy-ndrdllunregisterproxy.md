@@ -7,7 +7,7 @@ old-location: rpc\ndrdllunregisterproxy.htm
 old-project: rpc
 ms.assetid: 9a286298-b4a1-4386-99b1-bb6044ade87e
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: NdrDllUnregisterProxy, NdrDllUnregisterProxy function [RPC], rpc.ndrdllunregisterproxy, rpcproxy/NdrDllUnregisterProxy
 ms.prod: windows
 ms.technology: windows-sdk

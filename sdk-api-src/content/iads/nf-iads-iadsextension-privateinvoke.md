@@ -7,7 +7,7 @@ old-location: adsi\iadsextension_privateinvoke.htm
 old-project: ADSI
 ms.assetid: 5af74a05-df64-4679-890b-a5a031633fd8
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, IADsExtension interface [ADSI],PrivateInvoke method, IADsExtension.PrivateInvoke, IADsExtension::PrivateInvoke, PrivateInvoke, PrivateInvoke method [ADSI], PrivateInvoke method [ADSI],IADsExtension interface, _ds_iadsextension_privateinvoke, adsi.iadsextension__privateinvoke, adsi.iadsextension_privateinvoke, iads/IADsExtension::PrivateInvoke
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>IADsExtension::PrivateInvoke</b> method is normally called by ADSI after the  <a href="https://msdn.microsoft.com/533faef7-d504-443c-83e7-7eaf461ce550">IADsExtension::PrivateGetIDsOfNames</a> method. This method can either have a custom implementation or it can delegate the operation to <a href="https://msdn.microsoft.com/library/ms221366(v=VS.85).aspx">IDispatch::DispInvoke</a> method.
+The <b>IADsExtension::PrivateInvoke</b> method is normally called by ADSI after the  <a href="https://msdn.microsoft.com/533faef7-d504-443c-83e7-7eaf461ce550">IADsExtension::PrivateGetIDsOfNames</a> method. This method can either have a custom implementation or it can delegate the operation to <a href="https://msdn.microsoft.com/en-us/library/ms221366(v=VS.85).aspx">IDispatch::DispInvoke</a> method.
 
 
 ## -parameters
@@ -105,7 +105,7 @@ The member is changed by a reference assignment, rather than a value assignment.
 
 ### -param pdispparams [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms221416(v=VS.85).aspx">DISPPARAMS</a> structure that receives an array of arguments, an array of argument DISPIDs for named arguments, and counts for the number of elements in the arrays.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms221416(v=VS.85).aspx">DISPPARAMS</a> structure that receives an array of arguments, an array of argument DISPIDs for named arguments, and counts for the number of elements in the arrays.
 
 
 ### -param pvarResult [out]
@@ -120,7 +120,7 @@ Pointer to a structure that contains exception data. This structure should be fi
 
 ### -param puArgErr [out]
 
-The index within the <b>rgvarg</b> member of the <a href="https://msdn.microsoft.com/library/ms221416(v=VS.85).aspx">DISPPARAMS</a> structure in <i>pdispparams</i> for the first argument that has an error. Arguments are stored in the <b>rgvarg</b> array in reverse order, so the first argument is the one with the highest index in the array. This parameter is returned only when the resulting return value is <b>DISP_E_TYPEMISMATCH</b> or <b>DISP_E_PARAMNOTFOUND</b>.
+The index within the <b>rgvarg</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms221416(v=VS.85).aspx">DISPPARAMS</a> structure in <i>pdispparams</i> for the first argument that has an error. Arguments are stored in the <b>rgvarg</b> array in reverse order, so the first argument is the one with the highest index in the array. This parameter is returned only when the resulting return value is <b>DISP_E_TYPEMISMATCH</b> or <b>DISP_E_PARAMNOTFOUND</b>.
 
 
 ## -returns
@@ -143,7 +143,7 @@ For more information about other return values, see  <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221366(v=VS.85).aspx">DispInvoke</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221366(v=VS.85).aspx">DispInvoke</a>
 
 
 

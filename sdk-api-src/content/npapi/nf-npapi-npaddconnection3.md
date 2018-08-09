@@ -7,7 +7,7 @@ old-location: security\npaddconnection3.htm
 old-project: secauthn
 ms.assetid: b0d730f7-595e-4ea7-8688-db479dcc40b4
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: CONNECT_DEFERRED, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_TEMPORARY, NPAddConnection3, NPAddConnection3 function [Security], _mnp_npaddconnection3, dwType, lpLocalName, lpRemoteName, npapi/NPAddConnection3, security.npaddconnection3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-			The <b>NPAddConnection3</b> function connects a local device to a network resource. It performs the same operation as 
+The <b>NPAddConnection3</b> function connects a local device to a network resource. It performs the same operation as 
 <a href="https://msdn.microsoft.com/37a3988c-18ee-400a-85c3-cc3cbdf015ea">NPAddConnection</a> but in addition lets you specify a handle to the window that should own any resulting dialog boxes and specify how the connection should be established.
 
 
@@ -182,8 +181,7 @@ This feature is used to speed the restoring of network connections at logon. A p
 
 
 
-
-						If the function succeeds, it will return WN_SUCCESS. Otherwise, it will return an error code. This may include one of the following.
+If the function succeeds, it will return WN_SUCCESS. Otherwise, it will return an error code. This may include one of the following.
 
 <table>
 <tr>

@@ -7,7 +7,7 @@ old-location: intl\immgetregisterwordstyle.htm
 old-project: Intl
 ms.assetid: 29ddf963-f421-4fad-9861-a6ed51e481ac
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmGetRegisterWordStyle, ImmGetRegisterWordStyle function [Internationalization for Windows Applications], ImmGetRegisterWordStyleA, ImmGetRegisterWordStyleW, _win32_ImmGetRegisterWordStyle, imm/ImmGetRegisterWordStyle, imm/ImmGetRegisterWordStyleA, imm/ImmGetRegisterWordStyleW, intl.immgetregisterwordstyle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Retrieves a list of the styles supported by the IME associated with the specifie
 
 
 
-### -param HKL
+### -param HKL [in]
 
-TBD
+Input locale identifier.
 
 
 ### -param nItem [in]
@@ -74,11 +74,6 @@ Maximum number of styles that the output buffer can hold. The application sets t
 ### -param lpStyleBuf [out]
 
 Pointer to a <a href="https://msdn.microsoft.com/72681071-58c4-490a-83d5-5013871ca875">STYLEBUF</a> structure in which the function retrieves the style information.
-
-
-#### - hKL [in]
-
-Input locale identifier.
 
 
 ## -returns

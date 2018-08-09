@@ -7,7 +7,7 @@ old-location: devinst\setupdigetclassbitmapindex.htm
 old-project: devinst
 ms.assetid: 5e64d387-701c-42eb-87a8-ba2f51c8552d
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: SetupDiGetClassBitmapIndex, SetupDiGetClassBitmapIndex function [Device and Driver Installation], devinst.setupdigetclassbitmapindex, di-rtns_6c4b7a43-90cf-4f8a-9766-2ebe966fb8c0.xml, setupapi/SetupDiGetClassBitmapIndex
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparser2_getsdtt.htm
 old-project: mstv
 ms.assetid: fd361526-eb0c-4edd-b346-3bded48fdc06
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetSDTT, GetSDTT method [Microsoft TV Technologies], GetSDTT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetSDTT method, IIsdbSiParser2.GetSDTT, IIsdbSiParser2::GetSDTT, dvbsiparser/IIsdbSiParser2::GetSDTT, mstv.iisdbsiparser2_getsdtt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ Value of the table_id_extension field for the SDTT. This field value identifies 
 
 ### -param ppSDTT [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/f6ed35bc-4470-4000-8f0d-19d454453720">IISDB_SDTT</a>
-interface. Use this interface to retrieve the information in the table. 
+Receives a pointer to the <a href="https://msdn.microsoft.com/f6ed35bc-4470-4000-8f0d-19d454453720">IISDB_SDTT</a>interface. Use this interface to retrieve the information in the table. 
 The caller must release the interface.
 
 

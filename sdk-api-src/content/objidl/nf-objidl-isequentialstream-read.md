@@ -7,7 +7,7 @@ old-location: stg\isequentialstream_read.htm
 old-project: stg
 ms.assetid: 934a90bb-5ed0-4d80-9906-352ad8586655
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: ISequentialStream interface [Structured Storage],Read method, ISequentialStream.Read, ISequentialStream::Read, Read, Read method [Structured Storage], Read method [Structured Storage],ISequentialStream interface, _stg_isequentialstream_read, objidl/ISequentialStream::Read, stg.isequentialstream_read
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The <b>Read</b> method reads a specified number of bytes from the stream object into memory, starting at the current seek pointer.
+The <b>Read</b> method reads a specified number of bytes from the stream object into memory, starting at the current seek pointer.
 
 
 ## -parameters

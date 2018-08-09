@@ -4,10 +4,10 @@ title: GetNotificationResourceManagerAsync function
 author: windows-sdk-content
 description: Requests and receives asynchronous notification for a resource manager (RM). This function is used by the RM register to receive notifications when a transaction changes state.
 old-location: fs\getnotificationresourcemanagerasync.htm
-old-project: Ktm
+old-project: ktm
 ms.assetid: c83e104b-6cd7-4399-8232-7c2e7b408f1a
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: GetNotificationResourceManagerAsync, GetNotificationResourceManagerAsync function [Files], fs.getnotificationresourcemanagerasync, ktmw32/GetNotificationResourceManagerAsync
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,14 +83,7 @@ A pointer to a variable that receives the actual size of the notification receiv
       <i>TransactionNotification</i> parameter.
 
 
-### -param lpOverlapped
-
-TBD
-
-
-
-
-#### - pOverlapped [in]
+### -param lpOverlapped [in]
 
 A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that is 
       required for asynchronous operation.

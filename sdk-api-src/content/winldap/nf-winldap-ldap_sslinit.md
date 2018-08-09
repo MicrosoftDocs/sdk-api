@@ -4,10 +4,10 @@ title: ldap_sslinit function
 author: windows-sdk-content
 description: Initializes a Secure Sockets Layer (SSL) session with an LDAP server.
 old-location: ldap\ldap_sslinit.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: 04c13577-9d9f-4305-8aa2-fad81c03290a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_sslinit, ldap.ldap__sslinit, ldap.ldap_sslinit, ldap_sslinit, ldap_sslinit function [LDAP], ldap_sslinitA, ldap_sslinitW, winldap/ldap_sslinit, winldap/ldap_sslinitA, winldap/ldap_sslinitW"
 ms.prod: windows
 ms.technology: windows-sdk

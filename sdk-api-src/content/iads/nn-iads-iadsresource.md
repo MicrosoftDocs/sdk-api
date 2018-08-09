@@ -7,7 +7,7 @@ old-location: adsi\iadsresource.htm
 old-project: ADSI
 ms.assetid: 217749a4-55dc-457f-8582-1513ff3b0666
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IADsResource, IADsResource interface [ADSI], IADsResource interface [ADSI],described, _ds_iadsresource, adsi.iadsresource, iads/IADsResource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The <b>IADsResource</b> interface is a dual interface that inherits from  <a hre
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsResource</b> interface inherits from <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsResource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsResource</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsResource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

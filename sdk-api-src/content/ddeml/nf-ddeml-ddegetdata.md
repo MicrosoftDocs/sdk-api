@@ -7,7 +7,7 @@ old-location: dataxchg\ddegetdata.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddegetdata.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: DdeGetData, DdeGetData function [Data Exchange], _win32_DdeGetData, _win32_ddegetdata_cpp, dataxchg.ddegetdata, ddeml/DdeGetData, winui._win32_ddegetdata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,7 +101,7 @@ If the
 If the 
 						<i>pDst</i> parameter is <b>NULL</b>, the return value is the size, in bytes, of the memory object associated with the data handle. 
 
-The <a href="https://msdn.microsoft.com/library/ms648755(v=VS.85).aspx">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
+The <a href="https://msdn.microsoft.com/en-us/library/ms648755(v=VS.85).aspx">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
 
 
 
@@ -115,19 +115,19 @@ The <a href="https://msdn.microsoft.com/library/ms648755(v=VS.85).aspx">DdeGetLa
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648740(v=VS.85).aspx">DdeAccessData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648740(v=VS.85).aspx">DdeAccessData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648747(v=VS.85).aspx">DdeCreateDataHandle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648747(v=VS.85).aspx">DdeCreateDataHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648752(v=VS.85).aspx">DdeFreeDataHandle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648752(v=VS.85).aspx">DdeFreeDataHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
 
 
 

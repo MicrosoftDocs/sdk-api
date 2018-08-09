@@ -4,10 +4,10 @@ title: ITRequestEvent::get_DestAddress
 author: windows-sdk-content
 description: The get_DestAddress method gets the destination address.
 old-location: tapi3\itrequestevent_get_destaddress.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: b3cf5a48-6d9f-4c66-91eb-c18a29d71ff9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_DestAddress method, ITRequestEvent.get_DestAddress, ITRequestEvent::get_DestAddress, _tapi3_itrequestevent_get_destaddress, get_DestAddress, get_DestAddress method [TAPI 2.2], get_DestAddress method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_destaddress, tapi3if/ITRequestEvent::get_DestAddress
 ms.prod: windows
 ms.technology: windows-sdk

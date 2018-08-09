@@ -7,7 +7,7 @@ old-location: mf\mfbeginregisterworkqueuewithmmcssex.htm
 old-project: medfound
 ms.assetid: D27E2B51-857D-48E5-8D25-A26917FCF959
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFBeginRegisterWorkQueueWithMMCSSEx, MFBeginRegisterWorkQueueWithMMCSSEx function [Media Foundation], mf.mfbeginregisterworkqueuewithmmcssex, mfapi/MFBeginRegisterWorkQueueWithMMCSSEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
+Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 
 
 ## -parameters
@@ -67,8 +66,7 @@ The identifier of the work queue.  For private work queues, the identifier is re
 
 ### -param wszClass [in]
 
-
-            The name of the MMCSS task. For more information, see <a href="https://msdn.microsoft.com/a7169938-1c72-4c4c-881a-cb08ad6182c7">Multimedia Class Scheduler Service</a>.
+The name of the MMCSS task. For more information, see <a href="https://msdn.microsoft.com/a7169938-1c72-4c4c-881a-cb08ad6182c7">Multimedia Class Scheduler Service</a>.
           
 
 

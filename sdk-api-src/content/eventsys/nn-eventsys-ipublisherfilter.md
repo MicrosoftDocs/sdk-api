@@ -7,7 +7,7 @@ old-location: cos\ipublisherfilter.htm
 old-project: cossdk
 ms.assetid: affc0af4-36f8-4479-8685-f91c29111d76
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IPublisherFilter, IPublisherFilter interface [COM+], IPublisherFilter interface [COM+],described, _cos_IPublisherFilter, cos.ipublisherfilter, eventsys/IPublisherFilter
 ms.prod: windows
 ms.technology: windows-sdk

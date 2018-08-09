@@ -4,10 +4,10 @@ title: IWSManEnumerator::get_Error
 author: windows-sdk-content
 description: Gets an XML representation of additional error information.
 old-location: winrm\enumerator_error.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: 08a6307b-3ed5-4d7f-aa22-a666d64371b5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Enumerator object [Windows Remote Management],Error property, Enumerator.Error, Error property [Windows Remote Management], Error property [Windows Remote Management],Enumerator object, IWSManEnumerator.get_Error, IWSManEnumerator::get_Error, get_Error, winrm.enumerator_error, wsman.enumerator_error
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: p2p\peergroupcreateinvitation.htm
 old-project: p2psdk
 ms.assetid: 1ae5c288-6e9b-452a-8994-7878d713cd6d
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PEER_GROUP_ROLE_ADMIN, PEER_GROUP_ROLE_MEMBER, PeerGroupCreateInvitation, PeerGroupCreateInvitation function [Peer Networking], p2p.peergroupcreateinvitation, p2p/PeerGroupCreateInvitation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGroupCreateInvitation</b> function returns an XML string that can be used by the specified peer to join a group. 
+The <b>PeerGroupCreateInvitation</b> function returns an XML string that can be used by the specified peer to join a group. 
 
 
 ## -parameters
@@ -219,8 +218,7 @@ Cryptography-specific errors can be returned from the <a href="https://msdn.micr
 
 
 
-
-        Peers cannot create invitations for peers whose assumed role is superior to their own. For example, a peer in a member role cannot create an invitation for a peer in an administrator role.
+Peers cannot create invitations for peers whose assumed role is superior to their own. For example, a peer in a member role cannot create an invitation for a peer in an administrator role.
 
 
 

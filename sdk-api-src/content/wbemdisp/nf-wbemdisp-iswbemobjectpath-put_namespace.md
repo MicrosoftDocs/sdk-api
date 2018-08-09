@@ -7,7 +7,7 @@ old-location: wmi\swbemobjectpath_namespace.htm
 old-project: WmiSdk
 ms.assetid: be88670d-6f0d-4b9d-886f-3e70bf4758ed
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemObjectPath interface [Windows Management Instrumentation],Namespace property, ISWbemObjectPath.get_Namespace, ISWbemObjectPath.put_Namespace, ISWbemObjectPath::put_Namespace, Namespace property [Windows Management Instrumentation], Namespace property [Windows Management Instrumentation],ISWbemObjectPath interface, Namespace property [Windows Management Instrumentation],SWbemObjectPath object, SWbemObjectPath object [Windows Management Instrumentation],Namespace property, SWbemObjectPath.Namespace, _hmm_swbemobjectpath.namespace, put_Namespace, wmi.swbemobjectpath_namespace
 ms.prod: windows
 ms.technology: windows-sdk

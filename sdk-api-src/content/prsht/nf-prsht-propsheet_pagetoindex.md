@@ -7,7 +7,7 @@ old-location: controls\PropSheet_PageToIndex.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_pagetoindex.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: PropSheet_PageToIndex, PropSheet_PageToIndex macro [Windows Controls], _win32_PropSheet_PageToIndex, _win32_PropSheet_PageToIndex_cpp, controls.PropSheet_PageToIndex, controls._win32_PropSheet_PageToIndex, prsht/PropSheet_PageToIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Takes the HPROPSHEETPAGE handle of a property sheet page and returns its zero-based index. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774595(v=VS.85).aspx">PSM_PAGETOINDEX</a> message explicitly.
+Takes the HPROPSHEETPAGE handle of a property sheet page and returns its zero-based index. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774595(v=VS.85).aspx">PSM_PAGETOINDEX</a> message explicitly.
 
 
 ## -parameters
@@ -61,30 +61,16 @@ Takes the HPROPSHEETPAGE handle of a property sheet page and returns its zero-ba
 
 ### -param hDlg
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to the property sheet.
 
 
 ### -param hpage
 
-TBD
-
-
-
-
-
-
-#### - hPage
-
 Type: <b>HPROPSHEETPAGE</b>
 
 HPROPSHEETPAGE handle to the property sheet page.
-
-
-#### - hPropSheetDlg
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to the property sheet.
 
 
 ## -see-also
@@ -92,11 +78,11 @@ Handle to the property sheet.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774658(v=VS.85).aspx">PropSheet_IndexToPage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774658(v=VS.85).aspx">PropSheet_IndexToPage</a>
 
 
 

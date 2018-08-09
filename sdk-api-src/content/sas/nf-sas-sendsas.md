@@ -7,7 +7,7 @@ old-location: security\sendsas.htm
 old-project: secauthn
 ms.assetid: da5d0915-dc41-4b63-a500-a0bec3f19a65
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: SendSAS, SendSAS function [Security], sas/SendSAS, security.sendsas
 ms.prod: windows
 ms.technology: windows-sdk

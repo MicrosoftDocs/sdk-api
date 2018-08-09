@@ -7,7 +7,7 @@ old-location: mstv\idvb_bat_registerfornexttable.htm
 old-project: mstv
 ms.assetid: 77c2d270-72ab-4ae6-84dd-c28c231094ad
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IDVB_BAT interface [Microsoft TV Technologies],RegisterForNextTable method, IDVB_BAT.RegisterForNextTable, IDVB_BAT::RegisterForNextTable, IDVB_BATRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IDVB_BAT interface, dvbsiparser/IDVB_BAT::RegisterForNextTable, mstv.idvb_bat_registerfornexttable
 ms.prod: windows
 ms.technology: windows-sdk

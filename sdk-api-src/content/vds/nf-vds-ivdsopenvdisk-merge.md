@@ -4,10 +4,10 @@ title: IVdsOpenVDisk::Merge
 author: windows-sdk-content
 description: Merges a child virtual disk with its parents in the differencing chain.
 old-location: base\ivdsopenvdisk_merge.htm
-old-project: VDS
+old-project: vds
 ms.assetid: b513e904-a6ff-494e-9f63-b5158467b245
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IVdsOpenVDisk interface,Merge method, IVdsOpenVDisk.Merge, IVdsOpenVDisk::Merge, Merge, Merge method, Merge method,IVdsOpenVDisk interface, base.ivdsopenvdisk_merge, vds/IVdsOpenVDisk::Merge
 ms.prod: windows
 ms.technology: windows-sdk

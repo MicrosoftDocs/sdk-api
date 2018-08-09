@@ -7,7 +7,7 @@ old-location: mf\imfschemehandler_begincreateobject.htm
 old-project: medfound
 ms.assetid: 78858e8c-0eb3-4b62-84f0-76e9dff0e3ce
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 78858e8c-0eb3-4b62-84f0-76e9dff0e3ce, BeginCreateObject, BeginCreateObject method [Media Foundation], BeginCreateObject method [Media Foundation],IMFSchemeHandler interface, IMFSchemeHandler interface [Media Foundation],BeginCreateObject method, IMFSchemeHandler.BeginCreateObject, IMFSchemeHandler::BeginCreateObject, mf.imfschemehandler_begincreateobject, mfidl/IMFSchemeHandler::BeginCreateObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,8 +67,7 @@ When the <a href="https://msdn.microsoft.com/93eecf10-308b-4bb4-92f9-fd32d6ecdb0
 
 ### -param pwszURL [in]
 
-
-            A null-terminated string that contains the URL to resolve.
+A null-terminated string that contains the URL to resolve.
           
 
 
@@ -106,8 +105,7 @@ A pointer to the <b>IUnknown</b> interface of a state object, defined by the cal
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -122,8 +120,7 @@ A pointer to the <b>IUnknown</b> interface of a state object, defined by the cal
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -135,8 +132,7 @@ A pointer to the <b>IUnknown</b> interface of a state object, defined by the cal
 </dl>
 </td>
 <td width="60%">
-
-                Cannot open the URL with the requested access (read or write).
+Cannot open the URL with the requested access (read or write).
               
 
 </td>
@@ -148,8 +144,7 @@ A pointer to the <b>IUnknown</b> interface of a state object, defined by the cal
 </dl>
 </td>
 <td width="60%">
-
-                Unsupported byte stream type.
+Unsupported byte stream type.
               
 
 </td>

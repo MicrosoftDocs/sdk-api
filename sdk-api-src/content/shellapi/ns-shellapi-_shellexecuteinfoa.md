@@ -7,7 +7,7 @@ old-location: shell\SHELLEXECUTEINFO.htm
 old-project: shell
 ms.assetid: 50e0dac3-b5dc-4d9f-8fd7-3a53a428166b
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPSHELLEXECUTEINFOA, LPSHELLEXECUTEINFO, LPSHELLEXECUTEINFO structure pointer [Windows Shell], SEE_MASK_ASYNCOK, SEE_MASK_CLASSKEY, SEE_MASK_CLASSNAME, SEE_MASK_CONNECTNETDRV, SEE_MASK_DEFAULT, SEE_MASK_DOENVSUBST, SEE_MASK_FLAG_DDEWAIT, SEE_MASK_FLAG_HINST_IS_SITE, SEE_MASK_FLAG_LOG_USAGE, SEE_MASK_FLAG_NO_UI, SEE_MASK_HMONITOR, SEE_MASK_HOTKEY, SEE_MASK_ICON, SEE_MASK_IDLIST, SEE_MASK_INVOKEIDLIST, SEE_MASK_NOASYNC, SEE_MASK_NOCLOSEPROCESS, SEE_MASK_NOQUERYCLASSSTORE, SEE_MASK_NOZONECHECKS, SEE_MASK_NO_CONSOLE, SEE_MASK_UNICODE, SEE_MASK_WAITFORINPUTIDLE, SE_ERR_ACCESSDENIED, SE_ERR_ASSOCINCOMPLETE, SE_ERR_DDEBUSY, SE_ERR_DDEFAIL, SE_ERR_DDETIMEOUT, SE_ERR_DLLNOTFOUND, SE_ERR_FNF, SE_ERR_NOASSOC, SE_ERR_OOM, SE_ERR_PNF, SE_ERR_SHARE, SHELLEXECUTEINFO, SHELLEXECUTEINFO structure [Windows Shell], SHELLEXECUTEINFOA, _SHELLEXECUTEINFOA, _SHELLEXECUTEINFOW, _win32_SHELLEXECUTEINFO, edit, explore, find, open, print, properties, shell.SHELLEXECUTEINFO, shellapi/LPSHELLEXECUTEINFO, shellapi/SHELLEXECUTEINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -395,9 +395,7 @@ The address of a null-terminated string that specifies one of the following:
 <li>A file extension. For example, ".txt".</li>
 <li>A registry path under HKEY_CLASSES_ROOT that names a subkey that contains one or more Shell verbs. This key will have a subkey that conforms to the Shell verb registry schema, such as <b>shell</b>\<i>verb name</i></p>.</li>
 </ul>
-
-
-                        This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_CLASSNAME</b>.
+This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_CLASSNAME</b>.
                     
 
 
@@ -412,7 +410,7 @@ A handle to the registry key for the file type. The access rights for this regis
 
 Type: <b>DWORD</b>
 
-A keyboard shortcut to associate with the application. The low-order word is the virtual key code, and the high-order word is a modifier flag (HOTKEYF_). For a list of modifier flags, see the description of the <a href="https://msdn.microsoft.com/library/ms646284(v=VS.85).aspx">WM_SETHOTKEY</a> message. This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_HOTKEY</b>.
+A keyboard shortcut to associate with the application. The low-order word is the virtual key code, and the high-order word is a modifier flag (HOTKEYF_). For a list of modifier flags, see the description of the <a href="https://msdn.microsoft.com/en-us/library/ms646284(v=VS.85).aspx">WM_SETHOTKEY</a> message. This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_HOTKEY</b>.
 
 
 ### -field DUMMYUNIONNAME
@@ -456,9 +454,7 @@ To include double quotation marks in <b>lpParameters</b>, enclose each mark in a
                 
 
 <pre class="syntax" xml:space="preserve"><code>sei.lpParameters = "An example: \"\"\"quoted text\"\"\"";</code></pre>
-
-
-                In this case, the application receives three parameters: <i>An</i>, <i>example:</i>, and <i>"quoted text"</i>.
+In this case, the application receives three parameters: <i>An</i>, <i>example:</i>, and <i>"quoted text"</i>.
 
 
 

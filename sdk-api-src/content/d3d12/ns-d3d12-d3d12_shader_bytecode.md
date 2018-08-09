@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_shader_bytecode.htm
 old-project: direct3d12
 ms.assetid: E2195755-A0C2-4824-A2EB-553F7909847F
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: D3D12_SHADER_BYTECODE, D3D12_SHADER_BYTECODE structure, d3d12/D3D12_SHADER_BYTECODE, direct3d12.d3d12_shader_bytecode
 ms.prod: windows
 ms.technology: windows-sdk

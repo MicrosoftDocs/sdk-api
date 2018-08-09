@@ -7,7 +7,7 @@ old-location: base\symcleanup.htm
 old-project: debug
 ms.assetid: 56107b71-a3f9-49af-9a90-df3585aed7c8
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymCleanup, SymCleanup function, _win32_symcleanup, base.symcleanup, dbghelp/SymCleanup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -35,6 +35,7 @@ api_type:
  - DllExport
 api_location:
  - Dbghelp.dll
+ - imagehlp.dll
 api_name:
  - SymCleanup
 product: Windows

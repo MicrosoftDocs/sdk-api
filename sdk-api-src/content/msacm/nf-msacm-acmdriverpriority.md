@@ -7,7 +7,7 @@ old-location: multimedia\acmdriverpriority.htm
 old-project: Multimedia
 ms.assetid: 62ab009e-b8fe-4b92-ba0f-a98cd761307b
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: "_win32_acmDriverPriority, acmDriverPriority, acmDriverPriority function [Windows Multimedia], msacm/acmDriverPriority, multimedia.acmdriverpriority"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,11 +79,9 @@ Flags for setting priorities of ACM drivers. The following values are defined.
 
 <table>
 <tr>
-<th>
-Value
+<th>Value
 </th>
-<th>
-Meaning
+<th>Meaning
 </th>
 </tr>
 <tr>

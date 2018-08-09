@@ -4,10 +4,10 @@ title: WlxNegotiate function
 author: windows-sdk-content
 description: The WlxNegotiate function must be implemented by a replacement GINA DLL. This is the first call made by Winlogon to the GINA DLL. WlxNegotiate allows the GINA to verify that it supports the installed version of Winlogon.
 old-location: security\wlxnegotiate.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 9e7bab30-5cc6-4c55-82e4-d888e1af59ed
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WlxNegotiate, WlxNegotiate function [Security], _gina_wlxnegotiate, security.wlxnegotiate, winwlx/WlxNegotiate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,20 +61,15 @@ The <b>WlxNegotiate</b> function must be implemented by a replacement <a href="h
 
 
 
-### -param dwWinlogonVersion
+### -param dwWinlogonVersion [in]
 
-TBD
+Specifies which version of Winlogon will be communicating with the GINA.
 
 
 ### -param pdwDllVersion [out]
 
 Indicates which version of Winlogon the GINA supports. This version information is also used by Winlogon to determine which dispatch table is passed to the GINA in subsequent calls to 
 <a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a>. This version cannot be greater than the version specified by <i>dwWinLogonVersion</i>.
-
-
-#### - dwWinLogonVersion [in]
-
-Specifies which version of Winlogon will be communicating with the GINA.
 
 
 ## -returns

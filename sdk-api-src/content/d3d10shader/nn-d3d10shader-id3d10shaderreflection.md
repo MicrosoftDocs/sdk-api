@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10shaderreflection.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D10ShaderReflection, ID3D10ShaderReflection interface [Direct3D 10], ID3D10ShaderReflection interface [Direct3D 10],described, d3d10shader/ID3D10ShaderReflection, direct3d10.id3d10shaderreflection, fd699fe1-b903-c976-14c4-3b0023611424
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>ID3D10ShaderReflection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173848(v=VS.85).aspx">GetConstantBufferByIndex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173848(v=VS.85).aspx">GetConstantBufferByIndex</a>
 </td>
 <td align="left" width="63%">
 Get a constant buffer by index.
@@ -80,7 +80,7 @@ Get a constant buffer by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173849(v=VS.85).aspx">GetConstantBufferByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173849(v=VS.85).aspx">GetConstantBufferByName</a>
 </td>
 <td align="left" width="63%">
 Get a constant buffer by name.
@@ -89,7 +89,7 @@ Get a constant buffer by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173850(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173850(v=VS.85).aspx">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get a shader description.
@@ -98,7 +98,7 @@ Get a shader description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173851(v=VS.85).aspx">GetInputParameterDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173851(v=VS.85).aspx">GetInputParameterDesc</a>
 </td>
 <td align="left" width="63%">
 Get an input-parameter description for a shader.
@@ -107,7 +107,7 @@ Get an input-parameter description for a shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173852(v=VS.85).aspx">GetOutputParameterDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173852(v=VS.85).aspx">GetOutputParameterDesc</a>
 </td>
 <td align="left" width="63%">
 Get an output-parameter description for a shader.
@@ -116,7 +116,7 @@ Get an output-parameter description for a shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173853(v=VS.85).aspx">GetResourceBindingDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173853(v=VS.85).aspx">GetResourceBindingDesc</a>
 </td>
 <td align="left" width="63%">
 Get a description of the resources bound to a shader.
@@ -130,7 +130,7 @@ Get a description of the resources bound to a shader.
 
 
 
-Create the interface by calling <a href="https://msdn.microsoft.com/library/Bb310590(v=VS.85).aspx">D3DX10ReflectShader</a>. Since it is a COM interface, creating the interface increases a reference count and the interface must be released when it is no longer needed. The remaining shader-reflection interfaces are not COM interfaces.
+Create the interface by calling <a href="https://msdn.microsoft.com/en-us/library/Bb310590(v=VS.85).aspx">D3DX10ReflectShader</a>. Since it is a COM interface, creating the interface increases a reference count and the interface must be released when it is no longer needed. The remaining shader-reflection interfaces are not COM interfaces.
 
 
 
@@ -140,7 +140,7 @@ Create the interface by calling <a href="https://msdn.microsoft.com/library/Bb31
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205158(v=VS.85).aspx">Shader Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205158(v=VS.85).aspx">Shader Interfaces</a>
  
 
  

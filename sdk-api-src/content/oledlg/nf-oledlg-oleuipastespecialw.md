@@ -7,7 +7,7 @@ old-location: com\oleuipastespecial.htm
 old-project: com
 ms.assetid: fb1335da-a863-4d15-8a8d-289d8cccd13f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: OleUIPasteSpecial, OleUIPasteSpecial function [COM], OleUIPasteSpecialA, OleUIPasteSpecialW, _ole_OleUIPasteSpecial, com.oleuipastespecial, oledlg/OleUIPasteSpecial, oledlg/OleUIPasteSpecialA, oledlg/OleUIPasteSpecialW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ Invokes the standard <b>Paste Special</b> dialog box, allowing the user to selec
 
 
 
-### -param Arg1
-
-TBD
-
-
-
-
-#### - lpPS [in]
+### -param Arg1 [in]
 
 A pointer to an <a href="https://msdn.microsoft.com/bb346fa7-03ae-458d-8488-64db7a9c48e1">OLEUIPASTESPECIAL</a> structure.
 
@@ -329,7 +322,7 @@ A call to <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e4
 </dl>
 </td>
 <td width="60%">
-Unable to call <a href="https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx">LoadString</a> to get localized resources from the library.
+Unable to call <a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a> to get localized resources from the library.
 
 </td>
 </tr>

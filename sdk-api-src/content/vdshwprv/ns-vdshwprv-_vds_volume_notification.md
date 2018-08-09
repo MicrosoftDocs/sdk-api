@@ -4,10 +4,10 @@ title: "_VDS_VOLUME_NOTIFICATION"
 author: windows-sdk-content
 description: Defines the details of volume events.
 old-location: base\vds_volume_notification.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 0aea3de4-60b1-4452-a5f1-f3556e719e09
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: VDS_NF_VOLUME_ARRIVE, VDS_NF_VOLUME_DEPART, VDS_NF_VOLUME_MODIFY, VDS_NF_VOLUME_REBUILDING_PROGRESS, VDS_VOLUME_NOTIFICATION, VDS_VOLUME_NOTIFICATION structure [VDS], _VDS_VOLUME_NOTIFICATION, base.vds_volume_notification, vds/_VDS_VOLUME_NOTIFICATION, vdshwprv/_VDS_VOLUME_NOTIFICATION
 ms.prod: windows
 ms.technology: windows-sdk

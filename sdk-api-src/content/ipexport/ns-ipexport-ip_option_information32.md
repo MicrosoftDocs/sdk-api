@@ -7,7 +7,7 @@ old-location: iphlp\ip_option_information32.htm
 old-project: iphlp
 ms.assetid: 3924230d-ff10-43ac-981c-81273bce6896
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: "*PIP_OPTION_INFORMATION32, IP_FLAG_DF, IP_FLAG_REVERSE, IP_OPTION_INFORMATION32, IP_OPTION_INFORMATION32 structure [IP Helper], PIP_OPTION_INFORMATION32, PIP_OPTION_INFORMATION32 structure pointer [IP Helper], ip_option_information32, ipexport/IP_OPTION_INFORMATION32, ipexport/PIP_OPTION_INFORMATION32, iphlp.ip_option_information32"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,8 +98,7 @@ For IPv4, the possible values for the <b>Flags</b> member are a combination of t
 </td>
 <td width="60%">
 This value causes the IP packet to add in an IP routing header with
-                   the source. This value is only applicable on Windows Vista
-   and later. 
+                   the source. This value is only applicable on Windows Vistaand later. 
 
 </td>
 </tr>

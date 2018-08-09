@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmaplock.htm
 old-project: wic
 ms.assetid: c0ddbc25-6abe-484b-a545-3b9376c514df
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWICBitmapLock, IWICBitmapLock interface [Windows Imaging Component], IWICBitmapLock interface [Windows Imaging Component],described, _wic_codec_iwicbitmaplock, wic._wic_codec_iwicbitmaplock, wincodec/IWICBitmapLock
 ms.prod: windows
 ms.technology: windows-sdk

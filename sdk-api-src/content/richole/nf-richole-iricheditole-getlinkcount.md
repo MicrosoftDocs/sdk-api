@@ -7,7 +7,7 @@ old-location: controls\IRichEditOle_GetLinkCount.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetlinkcount.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: GetLinkCount, GetLinkCount method [Windows Controls], GetLinkCount method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],GetLinkCount method, IRichEditOle.GetLinkCount, IRichEditOle::GetLinkCount, _win32_IRichEditOle_GetLinkCount, _win32_IRichEditOle_GetLinkCount_cpp, controls.IRichEditOle_GetLinkCount, controls._win32_IRichEditOle_GetLinkCount, richole/IRichEditOle::GetLinkCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ This method returns the number of links.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774306(v=VS.85).aspx">IRichEditOle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774306(v=VS.85).aspx">IRichEditOle</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: controls\ENPROTECTED.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enprotected.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ENPROTECTED, ENPROTECTED structure [Windows Controls], _enprotected, _win32_ENPROTECTED_str, _win32_ENPROTECTED_str_cpp, controls.ENPROTECTED, controls._win32_ENPROTECTED_str, richedit/ENPROTECTED
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Contains information associated with an <a href="https://msdn.microsoft.com/library/Bb787981(v=VS.85).aspx">EN_PROTECTED</a> notification code. A rich edit control sends this notification when the user attempts to edit protected text.
+Contains information associated with an <a href="https://msdn.microsoft.com/en-us/library/Bb787981(v=VS.85).aspx">EN_PROTECTED</a> notification code. A rich edit control sends this notification when the user attempts to edit protected text.
 
 
 ## -struct-fields
@@ -61,10 +61,10 @@ Contains information associated with an <a href="https://msdn.microsoft.com/libr
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> notification header. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> notification header. 
 
 
 ### -field msg
@@ -90,7 +90,7 @@ The <b>lParam</b> parameter of the message.
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb787885(v=VS.85).aspx">CHARRANGE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a></b>
 
 The current selection. 
 
@@ -100,7 +100,7 @@ The current selection.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787981(v=VS.85).aspx">EN_PROTECTED</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787981(v=VS.85).aspx">EN_PROTECTED</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: multimedia\stretchdib.htm
 old-project: Multimedia
 ms.assetid: 9b542bcf-c32f-40ab-96d1-6f0d96b856c5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: StretchDIB, StretchDIB function [Windows Multimedia], _win32_StretchDIB, multimedia.stretchdib, vfw/StretchDIB
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ Pointer to a <a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0c
 
 ### -param lpDst
 
-TBD
+Pointer to the memory buffer that will receive the copied pixel bits.
 
 
 ### -param DstX
@@ -99,7 +99,7 @@ Pointer to a <a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0c
 
 ### -param lpSrc
 
-TBD
+Pointer to the source bitmap data.
 
 
 ### -param SrcX
@@ -120,16 +120,6 @@ Width, in pixels, of the source rectangle.
 ### -param SrcYE
 
 Height, in pixels, of the source rectangle.
-
-
-#### - lpvDst
-
-Pointer to the memory buffer that will receive the copied pixel bits.
-
-
-#### - lpvSrc
-
-Pointer to the source bitmap data.
 
 
 ## -returns

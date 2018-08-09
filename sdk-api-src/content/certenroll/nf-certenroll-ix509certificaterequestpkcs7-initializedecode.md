@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs7_initializedecode_method.htm
 old-project: seccertenroll
 ms.assetid: 40084cb0-eb48-485d-aa45-8ddb577f2d4f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],InitializeDecode method, IX509CertificateRequestPkcs7.InitializeDecode, IX509CertificateRequestPkcs7::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::InitializeDecode, security.ix509certificaterequestpkcs7_initializedecode_method
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2erase_get_fullerase.htm
 old-project: imapi
 ms.assetid: 56b4db17-1699-4e09-9a6d-ef5e998621c5
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IDiscFormat2Erase interface [IMAPI],get_FullErase method, IDiscFormat2Erase.get_FullErase, IDiscFormat2Erase::get_FullErase, get_FullErase, get_FullErase method [IMAPI], get_FullErase method [IMAPI],IDiscFormat2Erase interface, imapi.idiscformat2erase_get_fullerase, imapi2/IDiscFormat2Erase::get_FullErase
 ms.prod: windows
 ms.technology: windows-sdk

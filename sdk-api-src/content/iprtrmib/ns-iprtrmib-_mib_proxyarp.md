@@ -7,7 +7,7 @@ old-location: mib\mib_proxyarp.htm
 old-project: mib
 ms.assetid: 4f919bfb-733b-4b49-8550-505626779eac
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/30/2018
 ms.keywords: "*PMIB_PROXYARP, MIB_PROXYARP, MIB_PROXYARP structure [MIB], PMIB_PROXYARP, PMIB_PROXYARP structure pointer [MIB], _MIB_PROXYARP, _mpr_mib_proxyarp, iprtrmib/MIB_PROXYARP, iprtrmib/PMIB_PROXYARP, mib.mib_proxyarp, rras.mib_proxyarp"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,11 +80,11 @@ The index of the interface on which to act as a proxy for the address specified 
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365868(v=VS.85).aspx">CreateProxyArpEntry</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365868(v=VS.85).aspx">CreateProxyArpEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365889(v=VS.85).aspx">DeleteProxyArpEntry</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365889(v=VS.85).aspx">DeleteProxyArpEntry</a>
  
 
  

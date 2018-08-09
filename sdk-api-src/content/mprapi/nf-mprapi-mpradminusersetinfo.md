@@ -7,7 +7,7 @@ old-location: rras\mpradminusersetinfo.htm
 old-project: rras
 ms.assetid: 7f4d5213-56b4-43d2-93c8-ee5ca50b2a19
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminUserSetInfo, MprAdminUserSetInfo function [RAS], _mpr_mpradminusersetinfo, mprapi/MprAdminUserSetInfo, rras.mpradminusersetinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,14 +60,20 @@ The
 
 
 
-### -param lpszServer
+### -param lpszServer [in]
 
-TBD
+Pointer to a Unicode string that specifies the name of the server  with the master User Accounts Subsystem (UAS). If the remote access server is part of a domain, the computer with the UAS is either the primary domain controller or the backup domain controller. If the remote access server is not part of a domain, then the server itself  stores the UAS. In either case, call the 
+<a href="https://msdn.microsoft.com/96bd5e88-5b13-41b2-ab3a-f9995cae36f8">MprAdminGetPDCServer</a> function to obtain the value for this parameter. 
 
 
-### -param lpszUser
 
-TBD
+
+If the server itself stores the UAS, this parameter can be <b>NULL</b>.
+
+
+### -param lpszUser [in]
+
+Pointer to a Unicode string that specifies the name of the user for which to set RAS information.
 
 
 ### -param dwLevel [in]
@@ -90,22 +96,6 @@ Pointer to a
 
 <b>Windows NT Server 4.0 with SP3 and later:  </b>If the <i>dwLevel</i> parameter specifies zero, <i>lpbBuffer</i> should point to a 
 <a href="https://msdn.microsoft.com/f034c6c2-2dac-40bf-b810-9bf6f3eb3c41">RAS_USER_0</a> structure.
-
-
-#### - lpwsServerName [in]
-
-Pointer to a Unicode string that specifies the name of the server  with the master User Accounts Subsystem (UAS). If the remote access server is part of a domain, the computer with the UAS is either the primary domain controller or the backup domain controller. If the remote access server is not part of a domain, then the server itself  stores the UAS. In either case, call the 
-<a href="https://msdn.microsoft.com/96bd5e88-5b13-41b2-ab3a-f9995cae36f8">MprAdminGetPDCServer</a> function to obtain the value for this parameter. 
-
-
-
-
-If the server itself stores the UAS, this parameter can be <b>NULL</b>.
-
-
-#### - lpwsUserName [in]
-
-Pointer to a Unicode string that specifies the name of the user for which to set RAS information.
 
 
 ## -returns
@@ -178,8 +168,8 @@ The user specified by <i>lpwsUserName</i> does not exist on the server specified
 This function is available on Windows NT 4.0 if the RRAS redistributable is installed. However, the version of Mprapi.dll that ships with the RRAS redistributable exports the function as 
 <a href="https://msdn.microsoft.com/5b049dfd-ecc8-47e4-82cc-71a875752714">RasAdminUserSetInfo</a> rather than 
 <b>MprAdminUserSetInfo</b>. Therefore, when using the RRAS redistributable, use 
-<a href="https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx">LoadLibrary</a> and 
-<a href="https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx">GetProcAddress</a> to access this function.
+<a href="https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx">LoadLibrary</a> and 
+<a href="https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx">GetProcAddress</a> to access this function.
 
 
 

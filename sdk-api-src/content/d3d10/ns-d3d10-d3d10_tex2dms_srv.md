@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_tex2dms_srv.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2dms_srv.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 85d08460-6071-fabd-5910-b60baa79e1e6, D3D10_TEX2DMS_SRV, D3D10_TEX2DMS_SRV structure [Direct3D 10], d3d10/D3D10_TEX2DMS_SRV, direct3d10.d3d10_tex2dms_srv
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Specifies the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">subresource(s)</a> from a multisampled <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">2D texture</a> to use in a shader-resource view.
+Specifies the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource(s)</a> from a multisampled <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">2D texture</a> to use in a shader-resource view.
 
 
 ## -struct-fields
@@ -69,7 +69,7 @@ Integer of any value. See remarks.
 
 
 
-Since a multisampled 2D texture contains a single subresource, there is actually nothing to specify in <a href="https://msdn.microsoft.com/library/Bb172468(v=VS.85).aspx">D3D10_TEX2DMS_RTV</a>. Consequently, <b>UnusedField_NothingToDefine</b> is included so that this structure will compile in C.
+Since a multisampled 2D texture contains a single subresource, there is actually nothing to specify in <a href="https://msdn.microsoft.com/en-us/library/Bb172468(v=VS.85).aspx">D3D10_TEX2DMS_RTV</a>. Consequently, <b>UnusedField_NothingToDefine</b> is included so that this structure will compile in C.
 
 
 
@@ -79,7 +79,7 @@ Since a multisampled 2D texture contains a single subresource, there is actually
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
  
 
  

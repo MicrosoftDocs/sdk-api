@@ -4,10 +4,10 @@ title: WNetGetResourceInformationW function
 author: windows-sdk-content
 description: When provided with a remote path to a network resource, the WNetGetResourceInformation function identifies the network provider that owns the resource and obtains information about the type of the resource.
 old-location: wnet\wnetgetresourceinformation.htm
-old-project: WNet
+old-project: wnet
 ms.assetid: 19273874-adf1-4ffb-8b83-0eaa64e4622e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WNetGetResourceInformation, WNetGetResourceInformation function [Windows Networking (WNet)], WNetGetResourceInformationA, WNetGetResourceInformationW, _win32_wnetgetresourceinformation, winnetwk/WNetGetResourceInformation, winnetwk/WNetGetResourceInformationA, winnetwk/WNetGetResourceInformationW, wnet.wnetgetresourceinformation
 ms.prod: windows
 ms.technology: windows-sdk

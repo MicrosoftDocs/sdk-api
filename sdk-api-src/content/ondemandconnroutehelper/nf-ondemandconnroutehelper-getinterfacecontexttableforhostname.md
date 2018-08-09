@@ -7,7 +7,7 @@ old-location: nla\getinterfacecontexttableforhostname.htm
 old-project: nla
 ms.assetid: BD687853-6242-4A72-BACE-13B681FD4674
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: GetInterfaceContextTableForHostName, GetInterfaceContextTableForHostName function [Network Awareness], nla.getinterfacecontexttableforhostname, ondemandconnroutehelper/GetInterfaceContextTableForHostName
 ms.prod: windows
 ms.technology: windows-sdk

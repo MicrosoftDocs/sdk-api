@@ -7,7 +7,7 @@ old-location: powermeter\emi_measurement_data.htm
 old-project: powermeter
 ms.assetid: 5D8E8146-D6B4-427B-9B17-0FB4FB0372A8
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/30/2018
 ms.keywords: EMI_CHANNEL_MEASUREMENT_DATA, EMI_MEASUREMENT_DATA, EMI_MEASUREMENT_DATA structure [Power Metering and Budgeting Devices], EMI_MEASUREMENT_DATA_V1, PEMI_MEASUREMENT_DATA, PEMI_MEASUREMENT_DATA structure pointer [Power Metering and Budgeting Devices], emi/EMI_MEASUREMENT_DATA, emi/PEMI_MEASUREMENT_DATA, powermeter.emi_measurement_data
 ms.prod: windows
 ms.technology: windows-sdk

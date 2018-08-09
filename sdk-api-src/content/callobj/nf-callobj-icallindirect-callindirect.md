@@ -7,7 +7,7 @@ old-location: com\icallindirect_callindirect.htm
 old-project: com
 ms.assetid: d017ad36-8779-4107-8ee3-f44589f9e802
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: CallIndirect, CallIndirect method [COM], CallIndirect method [COM],ICallIndirect interface, ICallIndirect interface [COM],CallIndirect method, ICallIndirect.CallIndirect, ICallIndirect::CallIndirect, _com_icallindirect_callindirect, callobj/ICallIndirect::CallIndirect, com.icallindirect_callindirect
 ms.prod: windows
 ms.technology: windows-sdk

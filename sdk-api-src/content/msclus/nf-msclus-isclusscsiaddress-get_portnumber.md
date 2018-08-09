@@ -7,7 +7,7 @@ old-location: mscs\clusscsiaddress_portnumber.htm
 old-project: mscs
 ms.assetid: a05715d8-4eae-4a80-bba3-9b26e90ba6d4
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusScsiAddress object [Failover Cluster],PortNumber property, ClusScsiAddress.PortNumber, ISClusScsiAddress.get_PortNumber, ISClusScsiAddress::get_PortNumber, PortNumber property [Failover Cluster], PortNumber property [Failover Cluster],ClusScsiAddress object, _wolf_clusscsiaddress.portnumber, get_PortNumber, mscs.clusscsiaddress_portnumber
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Returns the 
-    <a href="https://msdn.microsoft.com/library/ms682866(v=VS.85).aspx">SCSI</a> port number of the 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">SCSI</a> port number of the 
     <a href="https://msdn.microsoft.com/d42e9bca-3717-44f7-a1b9-dfad1dbddd23">Physical Disk</a>.
 
 This property is read-only.

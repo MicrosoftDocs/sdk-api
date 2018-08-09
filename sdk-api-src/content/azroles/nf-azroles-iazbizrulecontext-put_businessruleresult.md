@@ -7,7 +7,7 @@ old-location: security\azbizrulecontext_businessruleresult.htm
 old-project: secauthz
 ms.assetid: 9f8b72bb-b2c3-4ba0-aa56-ff0ad0df1502
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AzBizRuleContext object [Security],BusinessRuleResult property, BusinessRuleResult property [Security], BusinessRuleResult property [Security],AzBizRuleContext object, BusinessRuleResult property [Security],IAzBizRuleContext interface, IAzBizRuleContext interface [Security],BusinessRuleResult property, IAzBizRuleContext.BusinessRuleResult, IAzBizRuleContext.put_BusinessRuleResult, IAzBizRuleContext::BusinessRuleResult, IAzBizRuleContext::put_BusinessRuleResult, azroles/IAzBizRuleContext::BusinessRuleResult, azroles/IAzBizRuleContext::put_BusinessRuleResult, put_BusinessRuleResult, security.azbizrulecontext_businessruleresult
 ms.prod: windows
 ms.technology: windows-sdk

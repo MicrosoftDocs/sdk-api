@@ -7,7 +7,7 @@ old-location: shell\ILLoadFromStreamEx_IStream_PIDLIST_ABSOLUTE.htm
 old-project: shell
 ms.assetid: 6fb735b6-a8c3-439e-9f20-4fda8f008b28
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ILLoadFromStreamEx, ILLoadFromStreamEx function [Windows Shell], ILLoadFromStreamEx(IStream*,PIDLIST_ABSOLUTE*), _shell_ILLoadFromStreamEx_IStream_PIDLIST_ABSOLUTE, shell.ILLoadFromStreamEx_IStream_PIDLIST_ABSOLUTE, shlobj_core/ILLoadFromStreamEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,14 +73,7 @@ A pointer to the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cac
       <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> loads.
 
 
-### -param pidl
-
-TBD
-
-
-
-
-#### - ppidl [out]
+### -param pidl [out]
 
 Type: <b>PIDLIST_ABSOLUTE*</b>
 

@@ -7,7 +7,7 @@ old-location: stg\remsnb.htm
 old-project: stg
 ms.assetid: 09a50518-2889-49ca-9d81-3035777ac2ac
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: "*wireSNB, RemSNB, RemSNB structure [Structured Storage], SNB, SNB structure pointer [Structured Storage], _stg_remsnb, objidl/RemSNB, objidl/SNB, stg.remsnb, tagRemSNB"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>RemSNB</b> structure is used for marshaling the 
 <a href="https://msdn.microsoft.com/8428a820-3d8a-41e0-9955-d355440e2ebc">SNB</a> data type.
 

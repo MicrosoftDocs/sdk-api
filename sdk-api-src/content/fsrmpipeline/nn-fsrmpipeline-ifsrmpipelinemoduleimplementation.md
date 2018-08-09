@@ -4,10 +4,10 @@ title: IFsrmPipelineModuleImplementation
 author: windows-sdk-content
 description: Abstract interface for IFsrmClassifierModuleImplementation and IFsrmStorageModuleImplementation.
 old-location: fsrm\ifsrmpipelinemoduleimplementation.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: a4420b1e-e2e5-460c-948c-3c5f97d7a0e7
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/01/2018
 ms.keywords: IFsrmPipelineModuleImplementation, IFsrmPipelineModuleImplementation interface [File Server Resource Manager], IFsrmPipelineModuleImplementation interface [File Server Resource Manager],described, fs.ifsrmpipelinemoduleimplementation, fsrm.ifsrmpipelinemoduleimplementation, fsrm/IFsrmPipelineModuleImplementation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Classifiers and storage modules should not implement this interface. For more in
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmPipelineModuleImplementation</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmPipelineModuleImplementation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmPipelineModuleImplementation</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmPipelineModuleImplementation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

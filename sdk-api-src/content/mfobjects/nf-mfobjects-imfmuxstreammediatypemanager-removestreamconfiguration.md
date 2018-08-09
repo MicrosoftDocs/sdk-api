@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreammediatypemanager_removestreamconfiguration.htm
 old-project: medfound
 ms.assetid: 8808DC0A-7675-4913-B4F1-B2FCCB3AFBBF
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFMuxStreamMediaTypeManager interface [Media Foundation],RemoveStreamConfiguration method, IMFMuxStreamMediaTypeManager.RemoveStreamConfiguration, IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration, RemoveStreamConfiguration, RemoveStreamConfiguration method [Media Foundation], RemoveStreamConfiguration method [Media Foundation],IMFMuxStreamMediaTypeManager interface, mf.imfmuxstreammediatypemanager_removestreamconfiguration, mfobjects/IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ A bitmask value where the bits that are on represent the indices of the substrea
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ A bitmask value where the bits that are on represent the indices of the substrea
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -100,8 +98,7 @@ A bitmask value where the bits that are on represent the indices of the substrea
 </dl>
 </td>
 <td width="60%">
-
-                The specified configuration is not currently registered.
+The specified configuration is not currently registered.
               
 
 </td>
@@ -113,8 +110,7 @@ A bitmask value where the bits that are on represent the indices of the substrea
 </dl>
 </td>
 <td width="60%">
-
-                There is insufficient memory to complete the operation.
+There is insufficient memory to complete the operation.
 
 </td>
 </tr>

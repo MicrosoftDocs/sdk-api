@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacheadministration_getconfigurationflags.htm
 old-project: bits
 ms.assetid: caa54ee0-c771-47e7-95d1-26a812f0f95f
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: BG_ENABLE_PEERCACHING_CLIENT, BG_ENABLE_PEERCACHING_SERVER, GetConfigurationFlags, GetConfigurationFlags method [BITS], GetConfigurationFlags method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],GetConfigurationFlags method, IBitsPeerCacheAdministration.GetConfigurationFlags, IBitsPeerCacheAdministration::GetConfigurationFlags, bits.ibitspeercacheadministration_getconfigurationflags, bits3_0/IBitsPeerCacheAdministration::GetConfigurationFlags
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: display\ddopendirectdrawin.htm
 old-project: display
 ms.assetid: 62a15685-5420-46cf-ae50-14bb8d97a3ce
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: "*LPDDOPENDIRECTDRAWIN, DDOPENDIRECTDRAWIN, DDOPENDIRECTDRAWIN structure [Display Devices], LPDDOPENDIRECTDRAWIN, LPDDOPENDIRECTDRAWIN structure pointer [Display Devices], _DDOPENDIRECTDRAWIN, ddkmapi/DDOPENDIRECTDRAWIN, ddkmapi/LPDDOPENDIRECTDRAWIN, ddstrcts_bd64cbc2-e2e3-4929-b127-9151f8b45819.xml, display.ddopendirectdrawin"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\ListView_SetGroupInfo.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setgroupinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_SetGroupInfo, ListView_SetGroupInfo macro [Windows Controls], _win32_ListView_SetGroupInfo, _win32_ListView_SetGroupInfo_cpp, commctrl/ListView_SetGroupInfo, controls.ListView_SetGroupInfo, controls._win32_ListView_SetGroupInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets group information. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761167(v=VS.85).aspx">LVM_SETGROUPINFO</a> message explicitly. 
+Sets group information. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761167(v=VS.85).aspx">LVM_SETGROUPINFO</a> message explicitly. 
 
 
 ## -parameters
@@ -74,13 +74,13 @@ Type: <b>int</b>
 
 Type: <b>PLVGROUP</b>
 
-<a href="https://msdn.microsoft.com/library/Bb774769(v=VS.85).aspx">LVGROUP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774769(v=VS.85).aspx">LVGROUP</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_SetGroupInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_SetGroupInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

@@ -4,10 +4,10 @@ title: PdhSetQueryTimeRange function
 author: windows-sdk-content
 description: Limits the samples that you can read from a log file to those within the specified time range, inclusively.
 old-location: perf\pdhsetquerytimerange.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: ed0e100e-9f82-48c0-b4bb-72820c5eeaa8
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhSetQueryTimeRange, PdhSetQueryTimeRange function [Perf], _win32_pdhsetquerytimerange, base.pdhsetquerytimerange, pdh/PdhSetQueryTimeRange, perf.pdhsetquerytimerange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ A
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

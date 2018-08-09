@@ -7,7 +7,7 @@ old-location: xps\ixpsomparturicollection_insertat.htm
 old-project: printdocs
 ms.assetid: 672e3cc7-ac25-4d9d-9983-66cf6d26f574
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IXpsOMPartUriCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMPartUriCollection.InsertAt, IXpsOMPartUriCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, xps.ixpsomparturicollection_insertat, xpsobjectmodel/IXpsOMPartUriCollection::InsertAt
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\pfncmfilterproc.htm
 old-project: seccrypto
 ms.assetid: f870a8a7-c504-491a-b9ac-045766e46348
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: PFNCMFILTERPROC, PFNCMFILTERPROC callback, PFNCMFILTERPROC callback function [Security], cryptdlg/PFNCMFILTERPROC, security.pfncmfilterproc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,9 +75,9 @@ A pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a3
 
 
 
-#### - dwDisplayWell [in]
+#### - lCustData [in]
 
- Reserved for future use.
+The address of an array of byte values that holds custom data.  <i>lCustData</i> is passed to the <b>PFNCMFILTERPROC</b> function by the <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> function.
 
 
 #### - dwFlags [in]
@@ -85,9 +85,9 @@ A pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a3
  Reserved for future use.
 
 
-#### - lCustData [in]
+#### - dwDisplayWell [in]
 
-The address of an array of byte values that holds custom data.  <i>lCustData</i> is passed to the <b>PFNCMFILTERPROC</b> function by the <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> function.
+ Reserved for future use.
 
 
 ## -returns

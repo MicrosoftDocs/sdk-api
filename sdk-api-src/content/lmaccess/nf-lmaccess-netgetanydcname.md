@@ -7,7 +7,7 @@ old-location: netmgmt\netgetanydcname.htm
 old-project: netmgmt
 ms.assetid: 64dacbf4-46c2-4f82-b250-b7d338535e7c
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: NetGetAnyDCName, NetGetAnyDCName function [Network Management], _win32_netgetanydcname, lmaccess/NetGetAnyDCName, netmgmt.netgetanydcname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,15 +76,15 @@ Pointer to an allocated buffer that receives a string that specifies the server 
 <a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>.
 
 
-#### - domainname [in]
-
-Pointer to a constant string that specifies the name of the domain. If this parameter is <b>NULL</b>, the name of the domain controller for the primary domain is used. For more information, see the following Remarks section.
-
-
 #### - servername [in]
 
 Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. For more information, see the following Remarks section.
 					
+
+
+#### - domainname [in]
+
+Pointer to a constant string that specifies the name of the domain. If this parameter is <b>NULL</b>, the name of the domain controller for the primary domain is used. For more information, see the following Remarks section.
 
 
 ## -returns

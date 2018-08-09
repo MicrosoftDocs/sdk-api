@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_calculatediscidentifier.htm
 old-project: imapi
 ms.assetid: c1d1fc83-326e-4d9f-b771-c520ee956ed5
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: CalculateDiscIdentifier, CalculateDiscIdentifier method [IMAPI], CalculateDiscIdentifier method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],CalculateDiscIdentifier method, IFileSystemImage.CalculateDiscIdentifier, IFileSystemImage::CalculateDiscIdentifier, imapi.ifilesystemimage_calculatediscidentifier, imapi2fs/IFileSystemImage::CalculateDiscIdentifier
 ms.prod: windows
 ms.technology: windows-sdk

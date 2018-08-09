@@ -7,7 +7,7 @@ old-location: display\fd_glyphattr.htm
 old-project: display
 ms.assetid: 25a5c390-244c-4cff-a6a5-cc61fc5aa40b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: "*PFD_GLYPHATTR, FD_GLYPHATTR, FD_GLYPHATTR structure [Display Devices], PFD_GLYPHATTR, PFD_GLYPHATTR structure pointer [Display Devices], _FD_GLYPHATTR, display.fd_glyphattr, grstrcts_5edf5620-9123-4fdd-b402-d7e06bdeee2a.xml, winddi/FD_GLYPHATTR, winddi/PFD_GLYPHATTR"
 ms.prod: windows
 ms.technology: windows-sdk

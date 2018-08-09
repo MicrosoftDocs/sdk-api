@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_GetLineJoin_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getlinejoin.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetLineJoin, GetLineJoin method [GDI+], GetLineJoin method [GDI+],Pen class, Pen class [GDI+],GetLineJoin method, Pen.GetLineJoin, Pen::GetLineJoin, _gdiplus_CLASS_Pen_GetLineJoin_, gdiplus._gdiplus_CLASS_Pen_GetLineJoin_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Pen::GetLineJoin</b> method gets the line join style currently set for this 
-			<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object.
 
 
 ## -parameters
@@ -66,11 +66,11 @@ The <b>Pen::GetLineJoin</b> method gets the line join style currently set for th
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534148(v=VS.85).aspx">LineJoin</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534148(v=VS.85).aspx">LineJoin</a></b>
 </strong>
 
 This method returns an element of the 
-						<a href="https://msdn.microsoft.com/library/ms534148(v=VS.85).aspx">LineJoin</a> enumeration that indicates the style used at the point where line segments join.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534148(v=VS.85).aspx">LineJoin</a> enumeration that indicates the style used at the point where line segments join.
 
 
 
@@ -80,19 +80,19 @@ This method returns an element of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533853(v=VS.85).aspx">Joining Lines</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533853(v=VS.85).aspx">Joining Lines</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535053(v=VS.85).aspx">Pen::SetLineJoin</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535053(v=VS.85).aspx">Pen::SetLineJoin</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
  
 
  

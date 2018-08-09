@@ -63,7 +63,7 @@ Opens a word wheel.
 
 ### -param lpITDB [in]
 
-Pointer to <a href="https://msdn.microsoft.com/library/ms670034(v=VS.85).aspx">database object</a>.
+Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms670034(v=VS.85).aspx">database object</a>.
 
 
 
@@ -144,7 +144,7 @@ Word wheel is already open.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/library/ms670034(v=VS.85).aspx">IITDatabase</a>* interface or <i>lpszMoniker</i> parameter was NULL.
+The <a href="https://msdn.microsoft.com/en-us/library/ms670034(v=VS.85).aspx">IITDatabase</a>* interface or <i>lpszMoniker</i> parameter was NULL.
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ The <a href="https://msdn.microsoft.com/library/ms670034(v=VS.85).aspx">IITDatab
 
 
 
-<a href="https://msdn.microsoft.com/library/ms670057(v=VS.85).aspx">IITWordWheel</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670057(v=VS.85).aspx">IITWordWheel</a>
  
 
  

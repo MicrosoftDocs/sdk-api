@@ -7,7 +7,7 @@ old-location: termserv\iaudiodeviceendpoint.htm
 old-project: termserv
 ms.assetid: 3112bc7e-e138-4b42-8f82-61fdf19f7e94
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: IAudioDeviceEndpoint, IAudioDeviceEndpoint interface [Remote Desktop Services], IAudioDeviceEndpoint interface [Remote Desktop Services],described, audioengineendpoint/IAudioDeviceEndpoint, termserv.iaudiodeviceendpoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.irql:
 
 Initializes a device endpoint object and gets the capabilities of the device that it represents.
 
-
-        A <i>device endpoint</i> abstracts an audio device. The device can be a rendering device such as a speaker or a capture  device such as a microphone. A device endpoint must implement the <b>IAudioDeviceEndpoint</b> interface.
+A <i>device endpoint</i> abstracts an audio device. The device can be a rendering device such as a speaker or a capture  device such as a microphone. A device endpoint must implement the <b>IAudioDeviceEndpoint</b> interface.
       
 
 To a get a reference to the <b>IAudioDeviceEndpoint</b> interface of the device, the audio engine calls <b>QueryInterface</b> on the audio endpoint (<a href="https://msdn.microsoft.com/f9638dea-f61d-45f6-b91d-72e4fc1b4a92">IAudioInputEndpointRT</a> or <a href="https://msdn.microsoft.com/b881b2f9-ffe9-46ff-94aa-eef0af172a3e">IAudioOutputEndpointRT</a>) for the device.

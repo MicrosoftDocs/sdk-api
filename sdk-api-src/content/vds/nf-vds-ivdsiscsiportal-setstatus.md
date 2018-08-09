@@ -4,10 +4,10 @@ title: IVdsIscsiPortal::SetStatus
 author: windows-sdk-content
 description: Sets the status of a portal to the specified value.
 old-location: base\ivdsiscsiportal_setstatus.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 6c63fa36-bccb-4731-999a-c6f8b565b38f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IVdsIscsiPortal interface [VDS],SetStatus method, IVdsIscsiPortal.SetStatus, IVdsIscsiPortal::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_setstatus, vds/IVdsIscsiPortal::SetStatus, vdshwprv/IVdsIscsiPortal::SetStatus
 ms.prod: windows
 ms.technology: windows-sdk

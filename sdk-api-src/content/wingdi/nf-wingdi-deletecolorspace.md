@@ -7,7 +7,7 @@ old-location: wcs\deletecolorspace.htm
 old-project: WCS
 ms.assetid: 5b241224-2994-4533-9629-d2a4b129ce86
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: DeleteColorSpace, DeleteColorSpace function [Windows Color System], _color_DeleteColorSpace, wcs.deletecolorspace, wingdi/DeleteColorSpace
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,13 +64,6 @@ The <b>DeleteColorSpace</b> function removes and destroys a specified <a href="h
 
 
 ### -param hcs
-
-TBD
-
-
-
-
-#### - hColorSpace
 
 Specifies the handle to a color space to delete.
 

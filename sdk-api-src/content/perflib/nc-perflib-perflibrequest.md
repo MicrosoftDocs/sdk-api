@@ -4,10 +4,10 @@ title: PERFLIBREQUEST
 author: windows-sdk-content
 description: Providers can implement this function to receive notification when consumers perform certain actions, such as adding or removing counters from a query.
 old-location: perf\controlcallback_perflibv2.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 0f771ab7-af42-481b-b2da-20dcdf49b82b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: ControlCallback, ControlCallback callback function [Perf], PERFLIBREQUEST, PERFLIBREQUEST callback, PERF_ADD_COUNTER, PERF_COLLECT_END, PERF_COLLECT_START, PERF_ENUM_INSTANCES, PERF_REMOVE_COUNTER, base.controlcallback_perflibv2, perf.controlcallback_perflibv2, perflib/ControlCallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Providers can implement this function to receive notification when consumers perform certain actions, such as adding or removing counters from a query. 
+Providers can implement this function to receive notification when consumers perform certain actions, such as adding or removing counters from a query. 
 			PERFLIB calls the callback before the consumer's request completes.
 
 The <b>PERFLIBREQUEST</b> type defines a pointer to this callback function. The <b>ControlCallback</b> function is a placeholder for the application-defined function name.
@@ -150,8 +149,7 @@ Size, in bytes, of the <i>Buffer</i> parameter.
 
 
 
-
-						Return ERROR_SUCCESS if the callback succeeds. 
+Return ERROR_SUCCESS if the callback succeeds. 
 
 If the callback fails, PERFLIB will return the error code to the consumer if the request is <b>PERF_ADD_COUNTER</b>, <b>PERF_ENUM_INSTANCES</b>, or <b>PERF_COLLECT_START</b>; otherwise, the error code is ignored.
 

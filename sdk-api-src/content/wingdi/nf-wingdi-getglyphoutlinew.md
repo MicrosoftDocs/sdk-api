@@ -7,7 +7,7 @@ old-location: gdi\getglyphoutline.htm
 old-project: gdi
 ms.assetid: 08f06007-5b21-44ab-b234-21a58c94ed4e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GGO_BEZIER, GGO_BITMAP, GGO_GLYPH_INDEX, GGO_GRAY2_BITMAP, GGO_GRAY4_BITMAP, GGO_GRAY8_BITMAP, GGO_METRICS, GGO_NATIVE, GGO_UNHINTED, GetGlyphOutline, GetGlyphOutline function [Windows GDI], GetGlyphOutlineA, GetGlyphOutlineW, _win32_GetGlyphOutline, gdi.getglyphoutline, wingdi/GetGlyphOutline, wingdi/GetGlyphOutlineA, wingdi/GetGlyphOutlineW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,42 +76,7 @@ A handle to the device context.
 The character for which data is to be returned.
 
 
-### -param fuFormat
-
-TBD
-
-
-### -param lpgm [out]
-
-A pointer to the <a href="https://msdn.microsoft.com/a6fa3813-56f7-4b54-b21d-8aabc2309a34">GLYPHMETRICS</a> structure describing the placement of the glyph in the character cell.
-
-
-### -param cjBuffer
-
-TBD
-
-
-### -param pvBuffer
-
-TBD
-
-
-### -param lpmat2 [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/841883d6-bc4d-46ef-abf4-f179771d255b">MAT2</a> structure specifying a transformation matrix for the character.
-
-
-#### - cbBuffer [in]
-
-The size, in bytes, of the buffer (*<i>lpvBuffer</i>) where the function is to copy information about the outline character. If this value is zero, the function returns the required size of the buffer.
-
-
-#### - lpvBuffer [out]
-
-A pointer to the buffer that receives information about the outline character. If this value is <b>NULL</b>, the function returns the required size of the buffer.
-
-
-#### - uFormat [in]
+### -param fuFormat [in]
 
 The format of the data that the function retrieves. This parameter can be one of the following values.
 
@@ -214,6 +179,26 @@ The function only returns unhinted outlines. This flag only works in conjunction
  
 
 Note that, for the GGO_GRAYn_BITMAP values, the function retrieves a glyph bitmap that contains n^2+1 (n squared plus one) levels of gray.
+
+
+### -param lpgm [out]
+
+A pointer to the <a href="https://msdn.microsoft.com/a6fa3813-56f7-4b54-b21d-8aabc2309a34">GLYPHMETRICS</a> structure describing the placement of the glyph in the character cell.
+
+
+### -param cjBuffer [in]
+
+The size, in bytes, of the buffer (*<i>lpvBuffer</i>) where the function is to copy information about the outline character. If this value is zero, the function returns the required size of the buffer.
+
+
+### -param pvBuffer [out]
+
+A pointer to the buffer that receives information about the outline character. If this value is <b>NULL</b>, the function returns the required size of the buffer.
+
+
+### -param lpmat2 [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/841883d6-bc4d-46ef-abf4-f179771d255b">MAT2</a> structure specifying a transformation matrix for the character.
 
 
 ## -returns

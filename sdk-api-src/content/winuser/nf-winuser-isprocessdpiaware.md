@@ -7,7 +7,7 @@ old-location: winmsg\isprocessdpiaware.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\isprocessdpiaware.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IsProcessDPIAware, IsProcessDPIAware function [Windows and Messages], _win32_IsProcessDPIAware, _win32_isprocessdpiaware_cpp, winmsg.isprocessdpiaware, winui._win32_isprocessdpiaware, winuser/IsProcessDPIAware
 ms.prod: windows
 ms.technology: windows-sdk

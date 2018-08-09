@@ -7,7 +7,7 @@ old-location: mscs\clusresdependencies_additem.htm
 old-project: mscs
 ms.assetid: f8462df8-dece-423f-a585-5774411401c8
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: AddItem, AddItem method [Failover Cluster], AddItem method [Failover Cluster],ClusResDependencies class, ClusResDependencies class [Failover Cluster],AddItem method, ClusResDependencies.AddItem, ISClusResDependencies.AddItem, ISClusResDependencies::AddItem, _wolf_clusresdependencies.additem, mscs.clusresdependencies_additem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
 
 Adds an 
     existing cluster <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> to the 
-    <a href="https://msdn.microsoft.com/library/ms691748(v=VS.85).aspx">dependency</a> collection.
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369367(v=VS.85).aspx">dependency</a> collection.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: mscs\getclustergroupstate.htm
 old-project: mscs
 ms.assetid: 5f794dee-aeee-4906-ba63-c154bfda4d17
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: GetClusterGroupState, GetClusterGroupState function [Failover Cluster], PCLUSAPI_GET_CLUSTER_GROUP_STATE, PCLUSAPI_GET_CLUSTER_GROUP_STATE function [Failover Cluster], _wolf_getclustergroupstate, clusapi/GetClusterGroupState, clusapi/PCLUSAPI_GET_CLUSTER_GROUP_STATE, mscs.getclustergroupstate
 ms.prod: windows
 ms.technology: windows-sdk

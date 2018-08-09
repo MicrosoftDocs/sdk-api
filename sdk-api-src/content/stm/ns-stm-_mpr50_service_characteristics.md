@@ -4,10 +4,10 @@ title: "_MPR50_SERVICE_CHARACTERISTICS"
 author: windows-sdk-content
 description: The MPR_SERVICE_CHARACTERISTICS structure contains information used to register a routing protocol with the router manager.
 old-location: rras\mpr_service_characteristics.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 92a117ae-3a5f-4702-a936-8e23bc575763
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PMPR_SERVICE_CHARACTERISTICS, DEMAND_UPDATE_ROUTES, DEMAND_UPDATE_SERVICES, MPR50_SERVICE_CHARACTERISTICS, MPR_SERVICE_CHARACTERISTICS, MPR_SERVICE_CHARACTERISTICS structure [RAS], PMPR_SERVICE_CHARACTERISTICS, PMPR_SERVICE_CHARACTERISTICS structure pointer [RAS], ROUTING, SERVICES, _MPR50_SERVICE_CHARACTERISTICS, _mpr_mpr_service_characteristics, routprot/MPR_SERVICE_CHARACTERISTICS, routprot/PMPR_SERVICE_CHARACTERISTICS, rras.mpr_service_characteristics, stm/MPR_SERVICE_CHARACTERISTICS, stm/PMPR_SERVICE_CHARACTERISTICS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,6 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _MPR50_SERVICE_CHARACTERISTICS structure
@@ -67,11 +68,6 @@ The
 
 
 
-#### - dwProtocolId
-
-Specifies the routing protocol that the router manager requests the DLL to register. (A common name space is used for all protocol families.)
-
-
 #### - dwVersion
 
 On input, specifies the version of RRAS currently running. 
@@ -82,6 +78,11 @@ On input, specifies the version of RRAS currently running.
 On output, the routing protocol should specify the version of RRAS that it requires.
 
 The symbol MS_ROUTER_VERSION in the header file Routprot.h is defined to be the RRAS version for a given implementation.
+
+
+#### - dwProtocolId
+
+Specifies the routing protocol that the router manager requests the DLL to register. (A common name space is used for all protocol families.)
 
 
 #### - fSupportedFunctionality
@@ -145,16 +146,22 @@ The protocol is able to perform autostatic updates of services when requested by
  
 
 
-#### - pfnBlockConvertServicesToStatic
+#### - pfnIsService
 
 Pointer to an implementation of the 
-<a href="https://msdn.microsoft.com/60d1ee7b-bba3-4dd1-8faf-520a2e3cfad3">BlockConvertServicesToStatic</a> function for this routing protocol.
+<a href="https://msdn.microsoft.com/f2d8e1f4-ce6c-429c-bb14-26c6c75eab7e">IsService</a> function for this routing protocol.
 
 
-#### - pfnBlockDeleteStaticServices
+#### - pfnCreateServiceEnumerationHandle
 
 Pointer to an implementation of the 
-<a href="https://msdn.microsoft.com/eb680a9c-aad8-44b5-8c20-af15c1fd8930">BlockDeleteStaticServices</a> function for this routing protocol.
+<a href="https://msdn.microsoft.com/68ed5662-ffa8-456b-b79c-a6fb27339262">CreateServiceEnumerationHandle</a> function for this routing protocol.
+
+
+#### - pfnEnumerateGetNextService
+
+Pointer to an implementation of the 
+<a href="https://msdn.microsoft.com/45d0ccaa-97d5-4a14-9983-dc0ca268ed4b">EnumerateGetNextService</a> function for this routing protocol.
 
 
 #### - pfnCloseServiceEnumerationHandle
@@ -163,10 +170,10 @@ Pointer to an implementation of the
 <a href="https://msdn.microsoft.com/c127f914-b655-4b6a-bb13-daeb5e82e343">CloseServiceEnumerationHandle</a> function for this routing protocol.
 
 
-#### - pfnCreateServiceEnumerationHandle
+#### - pfnGetServiceCount
 
 Pointer to an implementation of the 
-<a href="https://msdn.microsoft.com/68ed5662-ffa8-456b-b79c-a6fb27339262">CreateServiceEnumerationHandle</a> function for this routing protocol.
+<a href="https://msdn.microsoft.com/44ba90c0-a019-4aca-92e2-1e795cbd335d">GetServiceCount</a> function for this routing protocol.
 
 
 #### - pfnCreateStaticService
@@ -181,10 +188,16 @@ Pointer to an implementation of the
 <a href="https://msdn.microsoft.com/230ddff5-7fd1-4e4e-b4bb-49c427a3f9c7">DeleteStaticService</a> function for this routing protocol.
 
 
-#### - pfnEnumerateGetNextService
+#### - pfnBlockConvertServicesToStatic
 
 Pointer to an implementation of the 
-<a href="https://msdn.microsoft.com/45d0ccaa-97d5-4a14-9983-dc0ca268ed4b">EnumerateGetNextService</a> function for this routing protocol.
+<a href="https://msdn.microsoft.com/60d1ee7b-bba3-4dd1-8faf-520a2e3cfad3">BlockConvertServicesToStatic</a> function for this routing protocol.
+
+
+#### - pfnBlockDeleteStaticServices
+
+Pointer to an implementation of the 
+<a href="https://msdn.microsoft.com/eb680a9c-aad8-44b5-8c20-af15c1fd8930">BlockDeleteStaticServices</a> function for this routing protocol.
 
 
 #### - pfnGetFirstOrderedService
@@ -197,18 +210,6 @@ Pointer to an implementation of the
 
 Pointer to an implementation of the 
 <a href="https://msdn.microsoft.com/e25d7086-cfb7-41ea-8f4e-7e4f065830d9">GetNextOrderedService</a> function for this routing protocol.
-
-
-#### - pfnGetServiceCount
-
-Pointer to an implementation of the 
-<a href="https://msdn.microsoft.com/44ba90c0-a019-4aca-92e2-1e795cbd335d">GetServiceCount</a> function for this routing protocol.
-
-
-#### - pfnIsService
-
-Pointer to an implementation of the 
-<a href="https://msdn.microsoft.com/f2d8e1f4-ce6c-429c-bb14-26c6c75eab7e">IsService</a> function for this routing protocol.
 
 
 ## -remarks

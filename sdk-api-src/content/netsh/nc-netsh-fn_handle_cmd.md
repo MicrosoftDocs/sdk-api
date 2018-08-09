@@ -7,7 +7,7 @@ old-location: netshell\fn_handle_cmd.htm
 old-project: netshell
 ms.assetid: 5058e202-9ad4-4789-97db-3c13b4a1c337
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: FN_HANDLE_CMD, FN_HANDLE_CMD callback, FN_HANDLE_CMD callback function [NetShell], SampleCommand, _netsh_fn_handle_cmd, netsh/FN_HANDLE_CMD, netshell.fn_handle_cmd
 ms.prod: windows
 ms.technology: windows-sdk

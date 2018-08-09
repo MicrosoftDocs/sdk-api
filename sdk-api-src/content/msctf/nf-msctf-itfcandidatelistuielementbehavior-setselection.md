@@ -7,7 +7,7 @@ old-location: tsf\itfcandidatelistuielementbehavior_setselection.htm
 old-project: TSF
 ms.assetid: a3afdfc9-c3e7-4735-b13f-84c45230128a
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfCandidateListUIElementBehavior interface [Text Services Framework],SetSelection method, ITfCandidateListUIElementBehavior.SetSelection, ITfCandidateListUIElementBehavior::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITfCandidateListUIElementBehavior interface, msctf/ITfCandidateListUIElementBehavior::SetSelection, tsf.itfcandidatelistuielementbehavior_setselection
 ms.prod: windows
 ms.technology: windows-sdk

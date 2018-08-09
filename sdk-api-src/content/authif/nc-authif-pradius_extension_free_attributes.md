@@ -7,7 +7,7 @@ old-location: nps\IAS_radiusextensionfreeattributes.htm
 old-project: nps
 ms.assetid: 2b76c648-a8d6-440c-b0b8-7c17f91ad961
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: PRADIUS_EXTENSION_FREE_ATTRIBUTES, PRADIUS_EXTENSION_FREE_ATTRIBUTES callback, PRADIUS_EXTENSION_FREE_ATTRIBUTES callback function [Network Policy Server], RadiusExtensionFreeAttributes, _ias_radiusextensionfreeattributes, authif/PRADIUS_EXTENSION_FREE_ATTRIBUTES, ias.radiusextensionfreeattributes, nps.IAS_radiusextensionfreeattributes
 ms.prod: windows
 ms.technology: windows-sdk

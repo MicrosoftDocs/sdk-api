@@ -4,10 +4,10 @@ title: ITextStory
 author: windows-sdk-content
 description: The ITextStory interface methods are used to access shared data from multiple stories, which is stored in the parent ITextServices instance.
 old-location: controls\itextstory.htm
-old-project: Controls
+old-project: controls
 ms.assetid: 8b52c6e8-c250-4cfb-979e-770df9f94010
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStory, ITextStory interface [Windows Controls], ITextStory interface [Windows Controls],described, controls.itextstory, tom/ITextStory
 ms.prod: windows
 ms.technology: windows-sdk

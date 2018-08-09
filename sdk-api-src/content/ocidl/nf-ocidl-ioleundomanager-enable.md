@@ -7,7 +7,7 @@ old-location: com\ioleundomanager_enable.htm
 old-project: com
 ms.assetid: d4d8582e-a9d1-48df-87ef-e378f3a81fa2
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: Enable, Enable method [COM], Enable method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],Enable method, IOleUndoManager.Enable, IOleUndoManager::Enable, _ole_ioleundomanager_enable, com.ioleundomanager_enable, ocidl/IOleUndoManager::Enable
 ms.prod: windows
 ms.technology: windows-sdk

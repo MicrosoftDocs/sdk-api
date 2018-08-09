@@ -7,7 +7,7 @@ old-location: security\getappcontainernamedobjectpath.htm
 old-project: secauthz
 ms.assetid: 466CE2DA-332E-4AA7-A0EB-868A646C0979
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: GetAppContainerNamedObjectPath, GetAppContainerNamedObjectPath function [Security], security.getappcontainernamedobjectpath, securityappcontainer/GetAppContainerNamedObjectPath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,8 +90,7 @@ Returns the length required to accommodate the length of the named object path.
 
 
 
-
-						If the function succeeds, the function returns a value of <b>TRUE</b>. 
+If the function succeeds, the function returns a value of <b>TRUE</b>. 
 
 If the function fails, it returns a value of <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
@@ -102,7 +101,7 @@ If the function fails, it returns a value of <b>FALSE</b>. To get extended error
 
 
 
-For assistive technology tools that work across Windows Store apps and desktop applications and have features that get loaded in the context of Windows Store apps, at times it may be necessary for the in-context feature to synchronize with the tool. Typically such synchronization is accomplished by establishing a named object in the user's session. Windows Store apps pose a challenge for this mechanism because, by default, named objects in the user's or global session are not accessible to Windows Store apps. We recommend that you update assistive technology tools to use <a href="https://msdn.microsoft.com/5ecbaaf0-704e-4c27-b3ce-b5436e577d62">UI Automation APIs</a> or <a href="https://msdn.microsoft.com/library/ms692162(v=VS.85).aspx">Magnification APIs</a> to avoid such pitfalls. In the interim, it may be necessary to continue using named objects.
+For assistive technology tools that work across Windows Store apps and desktop applications and have features that get loaded in the context of Windows Store apps, at times it may be necessary for the in-context feature to synchronize with the tool. Typically such synchronization is accomplished by establishing a named object in the user's session. Windows Store apps pose a challenge for this mechanism because, by default, named objects in the user's or global session are not accessible to Windows Store apps. We recommend that you update assistive technology tools to use <a href="https://msdn.microsoft.com/5ecbaaf0-704e-4c27-b3ce-b5436e577d62">UI Automation APIs</a> or <a href="https://msdn.microsoft.com/en-us/library/ms692162(v=VS.85).aspx">Magnification APIs</a> to avoid such pitfalls. In the interim, it may be necessary to continue using named objects.
 
 
 #### Examples

@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getexceptionservice.htm
 old-project: mstv
 ms.assetid: b9431651-4f8f-40a0-abd8-b162e5ad09ae
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetExceptionService, GetExceptionService method [Microsoft TV Technologies], GetExceptionService method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetExceptionService method, ISCTE_EAS.GetExceptionService, ISCTE_EAS::GetExceptionService, ISCTE_EASGetExceptionService, atscpsipparser/ISCTE_EAS::GetExceptionService, mstv.iscte_eas_getexceptionservice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,29 +60,25 @@ The <b>GetExceptionService</b> method returns information about an exception ser
 
 ### -param bIndex [in]
 
-
-            Zero-based index of the exception service to retrieve. Call <a href="https://msdn.microsoft.com/da98cf2f-a302-41d0-8226-18d6bb89be82">ISCTE_EAS::GetExceptionCount</a> to get the number of exception services.
+Zero-based index of the exception service to retrieve. Call <a href="https://msdn.microsoft.com/da98cf2f-a302-41d0-8226-18d6bb89be82">ISCTE_EAS::GetExceptionCount</a> to get the number of exception services.
           
 
 
 ### -param pbIBRef [out]
 
-
-            Receives the in_band_reference flag.
+Receives the in_band_reference flag.
           
 
 
 ### -param pwFirst [out]
 
-
-            If the in_band_reference flag is <b>TRUE</b>, receives the exception_major_channel_number field. Otherwise, receives the exception_OOB_source_ID field.
+If the in_band_reference flag is <b>TRUE</b>, receives the exception_major_channel_number field. Otherwise, receives the exception_OOB_source_ID field.
           
 
 
 ### -param pwSecond [out]
 
-
-            If the in_band_reference flag is <b>TRUE</b>, receives the exception_minor_channel_number field. Otherwise, the value is undefined and this parameter should be ignored.
+If the in_band_reference flag is <b>TRUE</b>, receives the exception_minor_channel_number field. Otherwise, the value is undefined and this parameter should be ignored.
           
 
 
@@ -90,8 +86,7 @@ The <b>GetExceptionService</b> method returns information about an exception ser
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>

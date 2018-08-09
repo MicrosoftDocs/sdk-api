@@ -7,7 +7,7 @@ old-location: mf\imfsinkwriter_getserviceforstream.htm
 old-project: medfound
 ms.assetid: 166f8f71-e52d-43b1-9137-e4bf79bf5421
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetServiceForStream, GetServiceForStream method [Media Foundation], GetServiceForStream method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],GetServiceForStream method, IMFSinkWriter.GetServiceForStream, IMFSinkWriter::GetServiceForStream, mf.imfsinkwriter_getserviceforstream, mfreadwrite/IMFSinkWriter::GetServiceForStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,8 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 If the <i>dwStreamIndex</i> parameter equals <b>MF_SINK_WRITER_MEDIASINK</b>, the method attempts to get the interface from the media sink. Otherwise, it attempts to get the interface from the encoder for the stream at the specified index. If that fails, or if no encoder is present, the method attempts to get the interface from the stream on the media sink.
 
-
-          If the input and output types of the sink are identical and compressed,
+If the input and output types of the sink are identical and compressed,
           it's possible that no encoding is required and the video encoder will not be instantiated.
           In that case, <b>GetServiceForStream</b> will return MF_E_UNSUPPORTED_SERVICE.
         

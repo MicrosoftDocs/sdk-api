@@ -7,7 +7,7 @@ old-location: mf\ievrtrustedvideoplugin_isintrustedvideomode.htm
 old-project: medfound
 ms.assetid: 43242898-4812-4faa-8e0a-6e60455c9f3b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 43242898-4812-4faa-8e0a-6e60455c9f3b, IEVRTrustedVideoPlugin interface [Media Foundation],IsInTrustedVideoMode method, IEVRTrustedVideoPlugin.IsInTrustedVideoMode, IEVRTrustedVideoPlugin::IsInTrustedVideoMode, IsInTrustedVideoMode, IsInTrustedVideoMode method [Media Foundation], IsInTrustedVideoMode method [Media Foundation],IEVRTrustedVideoPlugin interface, evr/IEVRTrustedVideoPlugin::IsInTrustedVideoMode, mf.ievrtrustedvideoplugin_isintrustedvideomode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          Queries whether the plug-in has any transient vulnerabilities at this time.
+Queries whether the plug-in has any transient vulnerabilities at this time.
         
 
 

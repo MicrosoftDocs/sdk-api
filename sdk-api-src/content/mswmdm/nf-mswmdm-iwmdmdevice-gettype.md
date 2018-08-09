@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice_gettype.htm
 old-project: WMDM
 ms.assetid: b240d6ac-99bd-4cc2-92d8-e9c7c5834bd7
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: GetType, GetType method [windows Media Device Manager], GetType method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetType method, IWMDMDevice.GetType, IWMDMDevice::GetType, IWMDMDeviceGetType, mswmdm/IWMDMDevice::GetType, wmdm.iwmdmdevice_gettype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Pointer to a <b>DWORD</b> specifying the device type attributes. The possible va
 
 <table>
 <tr>
-<th>
-                  Device type
+<th>Device type
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

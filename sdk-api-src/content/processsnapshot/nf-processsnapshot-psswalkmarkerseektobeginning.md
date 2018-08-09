@@ -7,7 +7,7 @@ old-location: proc_snap\psswalkmarkerseektobeginning.htm
 old-project: proc_snap
 ms.assetid: BE0FA122-3966-4827-9DA3-A98A162EF270
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: PssWalkMarkerSeekToBeginning, PssWalkMarkerSeekToBeginning function, proc_snap.psswalkmarkerseektobeginning, processsnapshot/PssWalkMarkerSeekToBeginning
 ms.prod: windows
 ms.technology: windows-sdk

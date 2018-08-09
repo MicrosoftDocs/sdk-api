@@ -7,7 +7,7 @@ old-location: security\lsa_dispatch_table.htm
 old-project: secauthn
 ms.assetid: 2e144ce0-e8c9-457a-8b12-7d21dda6adf3
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: "*PLSA_DISPATCH_TABLE, LSA_DISPATCH_TABLE, LSA_DISPATCH_TABLE structure [Security], PLSA_DISPATCH_TABLE, PLSA_DISPATCH_TABLE structure pointer [Security], _LSA_DISPATCH_TABLE, _lsa_lsa_dispatch_table, ntsecpkg/LSA_DISPATCH_TABLE, ntsecpkg/PLSA_DISPATCH_TABLE, security.lsa_dispatch_table"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,8 +69,7 @@ Pointer to the <a href="https://msdn.microsoft.com/383c935c-a1f2-4d1b-bb02-e7e37
 
 ### -field DeleteLogonSession
 
-
-					Pointer to the <a href="https://msdn.microsoft.com/72b9451c-8a94-4e64-bd78-0afef210671c">DeleteLogonSession</a> function.
+Pointer to the <a href="https://msdn.microsoft.com/72b9451c-8a94-4e64-bd78-0afef210671c">DeleteLogonSession</a> function.
 
 
 ### -field AddCredential
@@ -122,6 +121,5 @@ Pointer to the
 
 ### -field CopyFromClientBuffer
 
-
-					Pointer to the <a href="https://msdn.microsoft.com/d753694e-38f9-47d1-b860-252123ae6f16">CopyFromClientBuffer</a> function.
+Pointer to the <a href="https://msdn.microsoft.com/d753694e-38f9-47d1-b860-252123ae6f16">CopyFromClientBuffer</a> function.
 

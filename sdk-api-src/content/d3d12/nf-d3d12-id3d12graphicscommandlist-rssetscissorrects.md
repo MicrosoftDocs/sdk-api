@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_rssetscissorrects.htm
 old-project: direct3d12
 ms.assetid: 5A636CCB-34EB-4642-B588-4107D79F46F5
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: ID3D12GraphicsCommandList interface,RSSetScissorRects method, ID3D12GraphicsCommandList.RSSetScissorRects, ID3D12GraphicsCommandList::RSSetScissorRects, RSSetScissorRects, RSSetScissorRects method, RSSetScissorRects method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::RSSetScissorRects, direct3d12.id3d12graphicscommandlist_rssetscissorrects
 ms.prod: windows
 ms.technology: windows-sdk

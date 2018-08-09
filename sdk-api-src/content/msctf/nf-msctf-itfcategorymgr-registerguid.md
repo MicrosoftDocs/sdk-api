@@ -7,7 +7,7 @@ old-location: tsf\itfcategorymgr_registerguid.htm
 old-project: TSF
 ms.assetid: d0de17d9-be3a-4f68-a77d-880047775952
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],RegisterGUID method, ITfCategoryMgr.RegisterGUID, ITfCategoryMgr::RegisterGUID, RegisterGUID, RegisterGUID method [Text Services Framework], RegisterGUID method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_registerguid_ref, msctf/ITfCategoryMgr::RegisterGUID, tsf.itfcategorymgr_registerguid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -134,20 +134,17 @@ A <b>TfGuidAtom</b> value is only valid within the process that <b>ITfCategoryMg
 
 
 
-<a href="https://msdn.microsoft.com/26139c8c-e1d9-4d7a-a0c0-ef73e572fbe4">
-        ITfCategoryMgr
+<a href="https://msdn.microsoft.com/26139c8c-e1d9-4d7a-a0c0-ef73e572fbe4">ITfCategoryMgr
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/a5f5a67c-3152-4933-8a35-0a0cd555a0bf">
-        ITfCategoryMgr::GetGUID
+<a href="https://msdn.microsoft.com/a5f5a67c-3152-4933-8a35-0a0cd555a0bf">ITfCategoryMgr::GetGUID
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/813916f6-610f-4031-bb17-67d7f5ffed6f">
-        ITfCategoryMgr::IsEqualTfGuidAtom
+<a href="https://msdn.microsoft.com/813916f6-610f-4031-bb17-67d7f5ffed6f">ITfCategoryMgr::IsEqualTfGuidAtom
       </a>
 
 

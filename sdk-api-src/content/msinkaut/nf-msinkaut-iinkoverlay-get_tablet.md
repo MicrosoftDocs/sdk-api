@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_tablet.htm
 old-project: tablet
 ms.assetid: 88da4f91-2baf-4152-adc2-a6f91bc2c9e3
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IInkOverlay interface [Tablet PC],Tablet property, IInkOverlay.Tablet, IInkOverlay.get_Tablet, IInkOverlay::Tablet, IInkOverlay::get_Tablet, InkOverlay.get_Tablet, Tablet property [Tablet PC], Tablet property [Tablet PC],IInkOverlay interface, get_Tablet, msinkaut/IInkOverlay::Tablet, msinkaut/IInkOverlay::get_Tablet, put_Tablet, tablet.inkoverlay_tablet
 ms.prod: windows
 ms.technology: windows-sdk

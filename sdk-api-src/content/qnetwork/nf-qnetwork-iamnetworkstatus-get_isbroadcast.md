@@ -7,7 +7,7 @@ old-location: dshow\iamnetworkstatus_get_isbroadcast.htm
 old-project: DirectShow
 ms.assetid: 578fe82b-0c87-47ea-9600-91d68f4c733f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_IsBroadcast method, IAMNetworkStatus.get_IsBroadcast, IAMNetworkStatus::get_IsBroadcast, IAMNetworkStatusget_IsBroadcast, dshow.iamnetworkstatus_get_isbroadcast, get_IsBroadcast, get_IsBroadcast method [DirectShow], get_IsBroadcast method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_IsBroadcast
 ms.prod: windows
 ms.technology: windows-sdk

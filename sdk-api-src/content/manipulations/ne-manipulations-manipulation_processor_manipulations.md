@@ -7,7 +7,7 @@ old-location: wintouch\manipulation_processor_manipulations.htm
 old-project: wintouch
 ms.assetid: 85ddd2d3-cb4b-48ae-8ad4-230be5420abd
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/06/2018
 ms.keywords: MANIPULATION_ALL, MANIPULATION_NONE, MANIPULATION_PROCESSOR_MANIPULATIONS, MANIPULATION_PROCESSOR_MANIPULATIONS enumeration [Windows Touch], MANIPULATION_ROTATE, MANIPULATION_SCALE, MANIPULATION_TRANSLATE_X, MANIPULATION_TRANSLATE_Y, manipulations/MANIPULATION_ALL, manipulations/MANIPULATION_NONE, manipulations/MANIPULATION_PROCESSOR_MANIPULATIONS, manipulations/MANIPULATION_ROTATE, manipulations/MANIPULATION_SCALE, manipulations/MANIPULATION_TRANSLATE_X, manipulations/MANIPULATION_TRANSLATE_Y, wintouch.manipulation_processor_manipulations
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,8 +93,7 @@ Indicates all manipulations are enabled.
 
 
 
-
-        Use this enumeration with the <a href="https://msdn.microsoft.com/1909394f-83ec-4e13-81af-3e6c70210865">SupportedManipulations</a> property to get and 
+Use this enumeration with the <a href="https://msdn.microsoft.com/1909394f-83ec-4e13-81af-3e6c70210865">SupportedManipulations</a> property to get and 
 		  set the kind of manipulation data you want to receive from the <a href="https://msdn.microsoft.com/963f87c1-e128-4bd5-9f28-d49418f768fb">IManipulationProcessor</a> interface. 
 		  You can combine different kinds of manipulations by a bitwise OR.
 

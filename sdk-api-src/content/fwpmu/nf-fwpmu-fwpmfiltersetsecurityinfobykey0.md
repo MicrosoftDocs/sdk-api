@@ -7,7 +7,7 @@ old-location: fwp\fwpmfiltersetsecurityinfobykey0_func.htm
 old-project: fwp
 ms.assetid: 01dac90a-98a0-46b7-8d9e-ce5fdf8014a9
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmFilterSetSecurityInfoByKey0, FwpmFilterSetSecurityInfoByKey0 function [Filtering], fwp.fwpmfiltersetsecurityinfobykey0_func, fwpmu/FwpmFilterSetSecurityInfoByKey0
 ms.prod: windows
 ms.technology: windows-sdk

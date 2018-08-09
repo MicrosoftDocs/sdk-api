@@ -4,10 +4,10 @@ title: OpenFileById function
 author: windows-sdk-content
 description: Opens the file that matches the specified identifier.
 old-location: fs\openfilebyid.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: caa757a2-fc3f-4883-8d3e-b98d28f92517
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: FILE_FLAG_BACKUP_SEMANTICS, FILE_FLAG_NO_BUFFERING, FILE_FLAG_OPEN_NO_RECALL, FILE_FLAG_OPEN_REPARSE_POINT, FILE_FLAG_OVERLAPPED, FILE_FLAG_RANDOM_ACCESS, FILE_FLAG_SEQUENTIAL_SCAN, FILE_FLAG_WRITE_THROUGH, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OpenFileById, OpenFileById function [Files], fileextd/OpenFileById, fs.openfilebyid, winbase/OpenFileById
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,14 +62,15 @@ Opens the file that matches the specified identifier.
 
 
 
-### -param hVolumeHint
+### -param hVolumeHint [in]
 
-TBD
+A handle to any file on a volume or share on which the file to be opened is stored.
 
 
-### -param lpFileId
+### -param lpFileId [in]
 
-TBD
+A pointer to a <a href="https://msdn.microsoft.com/9092a701-3b47-4c4c-8221-54fa3220d322">FILE_ID_DESCRIPTOR</a> that identifies 
+       the file to open.
 
 
 ### -param dwDesiredAccess [in]
@@ -165,14 +166,7 @@ If this flag is not specified, but the object has been opened for write access o
 Reserved.
 
 
-### -param dwFlagsAndAttributes
-
-TBD
-
-
-
-
-#### - dwFlags [in]
+### -param dwFlagsAndAttributes [in]
 
 The file flags.
 
@@ -341,17 +335,6 @@ If <b>FILE_FLAG_NO_BUFFERING</b> is also specified, so that system caching is no
 </tr>
 </table>
  
-
-
-#### - hFile [in]
-
-A handle to any file on a volume or share on which the file to be opened is stored.
-
-
-#### - lpFileID [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/9092a701-3b47-4c4c-8221-54fa3220d322">FILE_ID_DESCRIPTOR</a> that identifies 
-       the file to open.
 
 
 ## -returns

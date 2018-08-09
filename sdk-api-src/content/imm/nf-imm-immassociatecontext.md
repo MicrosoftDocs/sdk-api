@@ -7,7 +7,7 @@ old-location: intl\immassociatecontext.htm
 old-project: Intl
 ms.assetid: 978ea304-c44d-4f00-b86f-932bbd5f603c
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmAssociateContext, ImmAssociateContext function [Internationalization for Windows Applications], _win32_ImmAssociateContext, imm/ImmAssociateContext, intl.immassociatecontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,26 +61,14 @@ Associates the specified input context with the specified window. By default, th
 
 
 
-### -param HWND
-
-TBD
-
-
-### -param HIMC
-
-TBD
-
-
-
-
-#### - hIMC [in]
-
-Handle to the input context. If <i>hIMC</i> is <b>NULL</b>, the function removes any association the window has with an input context. Thus IME cannot be used in the window.
-
-
-#### - hWnd [in]
+### -param HWND [in]
 
 Handle to the window to associate with the input context.
+
+
+### -param HIMC [in]
+
+Handle to the input context. If <i>hIMC</i> is <b>NULL</b>, the function removes any association the window has with an input context. Thus IME cannot be used in the window.
 
 
 ## -returns

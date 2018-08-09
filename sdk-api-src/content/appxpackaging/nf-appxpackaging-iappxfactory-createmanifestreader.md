@@ -7,7 +7,7 @@ old-location: appxpkg\iappxfactory_createmanifestreader.htm
 old-project: appxpkg
 ms.assetid: BF6C83FF-8CB1-47C0-84C3-E71059F0796E
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: CreateManifestReader, CreateManifestReader method [App packaging and management], CreateManifestReader method [App packaging and management],IAppxFactory interface, IAppxFactory interface [App packaging and management],CreateManifestReader method, IAppxFactory.CreateManifestReader, IAppxFactory::CreateManifestReader, appxpackaging/IAppxFactory::CreateManifestReader, appxpkg.iappxfactory_createmanifestreader
 ms.prod: windows
 ms.technology: windows-sdk

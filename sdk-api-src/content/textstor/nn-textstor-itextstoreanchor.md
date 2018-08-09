@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor.htm
 old-project: TSF
 ms.assetid: 62730a6d-4dc8-4207-9818-ab95e6537854
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreAnchor, ITextStoreAnchor interface [Text Services Framework], ITextStoreAnchor interface [Text Services Framework],described, _tsf_itextstoreanchor_ref, textstor/ITextStoreAnchor, tsf.itextstoreanchor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -328,8 +328,7 @@ Called by an application to indicate that it no longer requires notifications fr
 
 
 
-<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">
-        ITextStoreACP
+<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP
       </a>
 
 
@@ -347,8 +346,7 @@ Called by an application to indicate that it no longer requires notifications fr
 
 
 
-<a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">
-        TsViewCookie
+<a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">TsViewCookie
       </a>
  
 

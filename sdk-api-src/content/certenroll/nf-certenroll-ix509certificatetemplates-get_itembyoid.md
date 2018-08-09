@@ -7,7 +7,7 @@ old-location: security\ix509certificatetemplates_itembyoid.htm
 old-project: seccertenroll
 ms.assetid: f601a98b-035d-428b-8579-8e26365e4b78
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509CertificateTemplates interface [Security],ItemByOid property, IX509CertificateTemplates.ItemByOid, IX509CertificateTemplates.get_ItemByOid, IX509CertificateTemplates::ItemByOid, IX509CertificateTemplates::get_ItemByOid, ItemByOid property [Security], ItemByOid property [Security],IX509CertificateTemplates interface, certenroll/IX509CertificateTemplates::ItemByOid, certenroll/IX509CertificateTemplates::get_ItemByOid, get_ItemByOid, security.ix509certificatetemplates_itembyoid
 ms.prod: windows
 ms.technology: windows-sdk

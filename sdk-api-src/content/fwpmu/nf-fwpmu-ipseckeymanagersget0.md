@@ -7,7 +7,7 @@ old-location: fwp\ipseckeymanagersget0.htm
 old-project: fwp
 ms.assetid: 5456C126-DF5F-472D-A3A2-37C2C0C1E2FE
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPsecKeyManagersGet0, IPsecKeyManagersGet0 function [Filtering], fwp.ipseckeymanagersget0, fwpmu/IPsecKeyManagersGet0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,14 +73,7 @@ Type: <b><a href="https://msdn.microsoft.com/942F38AF-13F4-4A2E-A504-5085EC90E74
 All of the current TIAs.
 
 
-### -param numEntries
-
-TBD
-
-
-
-
-#### - numentries [out]
+### -param numEntries [out]
 
 Type: <b>UINT32*</b>
 

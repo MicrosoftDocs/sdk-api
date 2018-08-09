@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecontent_enumobjects.htm
 old-project: wpd_sdk
 ms.assetid: 72526019-58c9-4a18-a925-e0a900f3e35a
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: EnumObjects, EnumObjects method [Windows Portable Devices SDK], EnumObjects method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],EnumObjects method, IPortableDeviceContent.EnumObjects, IPortableDeviceContent::EnumObjects, IPortableDeviceContentEnumObjects, portabledeviceapi/IPortableDeviceContent::EnumObjects, wpdsdk.iportabledevicecontent_enumobjects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-        The <b>EnumObjects</b> method retrieves an interface that is used to enumerate the immediate child objects of an object. It has an optional filter that can enumerate objects with specific properties.
+The <b>EnumObjects</b> method retrieves an interface that is used to enumerate the immediate child objects of an object. It has an optional filter that can enumerate objects with specific properties.
       
 
 
@@ -64,29 +63,25 @@ req.product: ADAM
 
 ### -param dwFlags [in]
 
-
-            Currently ignored; specify zero.
+Currently ignored; specify zero.
           
 
 
 ### -param pszParentObjectID [in]
 
-
-            Pointer to a null-terminated string that specifies the ID of the parent. This can be an empty string (but not a <b>NULL</b> pointer) or the defined constant <b>WPD_DEVICE_OBJECT_ID</b> to indicate the device root.
+Pointer to a null-terminated string that specifies the ID of the parent. This can be an empty string (but not a <b>NULL</b> pointer) or the defined constant <b>WPD_DEVICE_OBJECT_ID</b> to indicate the device root.
           
 
 
 ### -param pFilter [in]
 
-
-            This parameter is ignored and should be set to <b>NULL</b>.
+This parameter is ignored and should be set to <b>NULL</b>.
           
 
 
 ### -param ppEnum [out]
 
-
-            Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/0e9a65cc-819c-494e-9c7c-8f5fec78a2ee">IEnumPortableDeviceObjectIDs</a> interface that is used to enumerate the objects that are found. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/0e9a65cc-819c-494e-9c7c-8f5fec78a2ee">IEnumPortableDeviceObjectIDs</a> interface that is used to enumerate the objects that are found. The caller must release this interface when it is done with it.
           
 
 
@@ -94,8 +89,7 @@ req.product: ADAM
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -148,7 +142,7 @@ At least one of the required arguments was a <b>NULL</b> pointer.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
  
 
  

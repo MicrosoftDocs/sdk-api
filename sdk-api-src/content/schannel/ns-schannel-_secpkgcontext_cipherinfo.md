@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_cipherinfo.htm
 old-project: secauthn
 ms.assetid: 204D3520-76B6-42C0-83A4-45769F66364A
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: "*PSecPkgContext_CipherInfo, PSecPkgContext_CipherInfo, PSecPkgContext_CipherInfo structure pointer [Security], SecPkgContext_CipherInfo, SecPkgContext_CipherInfo structure [Security], _SecPkgContext_CipherInfo, schannel/PSecPkgContext_CipherInfo, schannel/SecPkgContext_CipherInfo, security.secpkgcontext_cipherinfo"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -136,11 +136,6 @@ The dw max exchange length.
 The dw key type.
 
 
-#### - szCertificate[SZ_ALG_MAX_SIZE]
-
-The sz certificate.
-
-
 #### - szCipherSuite[SZ_ALG_MAX_SIZE]
 
 The sz cipher suite.
@@ -151,12 +146,17 @@ The sz cipher suite.
 The sz cipher.
 
 
+#### - szHash[SZ_ALG_MAX_SIZE]
+
+The sz hash.
+
+
 #### - szExchange[SZ_ALG_MAX_SIZE]
 
 The sz exchange.
 
 
-#### - szHash[SZ_ALG_MAX_SIZE]
+#### - szCertificate[SZ_ALG_MAX_SIZE]
 
-The sz hash.
+The sz certificate.
 

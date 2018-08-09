@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionbrightnesseffect_setblackpointx_overloaded
 old-project: directcomp
 ms.assetid: 05fc473f-4dc6-b64d-830e-4153b1e0e392
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: SetBlackPointX, SetBlackPointX methods [DirectComposition], dcomp/SetBlackPointX, directcomp.idcompositionbrightnesseffect_setblackpointx_overloaded, idcompositionbrightnesseffect::SetBlackPointX
 ms.prod: windows
 ms.technology: windows-sdk

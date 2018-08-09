@@ -7,7 +7,7 @@ old-location: mf\imfsourceresolver_cancelobjectcreation.htm
 old-project: medfound
 ms.assetid: 6a30ac92-a281-4293-8975-987fa25a5318
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 6a30ac92-a281-4293-8975-987fa25a5318, CancelObjectCreation, CancelObjectCreation method [Media Foundation], CancelObjectCreation method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],CancelObjectCreation method, IMFSourceResolver.CancelObjectCreation, IMFSourceResolver::CancelObjectCreation, mf.imfsourceresolver_cancelobjectcreation, mfidl/IMFSourceResolver::CancelObjectCreation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Cancels an asynchronous request to create an object.
+Cancels an asynchronous request to create an object.
         
 
 
@@ -71,8 +70,7 @@ req.product: GDI+ 1.1
 
 #### - ppIUnknownCancelCookie [in]
 
-
-            Pointer to the <b>IUnknown</b> interface that was returned in the <i>ppIUnknownCancelCookie</i> parameter of the <a href="https://msdn.microsoft.com/6e218b93-4855-40dd-96cc-c4ee02792c14">IMFSourceResolver::BeginCreateObjectFromByteStream</a> or <a href="https://msdn.microsoft.com/bc97c1fb-d23a-4887-b6ac-0751c254a405">IMFSourceResolver::BeginCreateObjectFromURL</a> method.
+Pointer to the <b>IUnknown</b> interface that was returned in the <i>ppIUnknownCancelCookie</i> parameter of the <a href="https://msdn.microsoft.com/6e218b93-4855-40dd-96cc-c4ee02792c14">IMFSourceResolver::BeginCreateObjectFromByteStream</a> or <a href="https://msdn.microsoft.com/bc97c1fb-d23a-4887-b6ac-0751c254a405">IMFSourceResolver::BeginCreateObjectFromURL</a> method.
           
 
 
@@ -89,8 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        You can use this method to cancel a previous call to <a href="https://msdn.microsoft.com/6e218b93-4855-40dd-96cc-c4ee02792c14">BeginCreateObjectFromByteStream</a> or <a href="https://msdn.microsoft.com/bc97c1fb-d23a-4887-b6ac-0751c254a405">BeginCreateObjectFromURL</a>. Because these methods are asynchronous, however, they might be completed before the operation can be canceled. Therefore, your callback might still be invoked after you call this method.
+You can use this method to cancel a previous call to <a href="https://msdn.microsoft.com/6e218b93-4855-40dd-96cc-c4ee02792c14">BeginCreateObjectFromByteStream</a> or <a href="https://msdn.microsoft.com/bc97c1fb-d23a-4887-b6ac-0751c254a405">BeginCreateObjectFromURL</a>. Because these methods are asynchronous, however, they might be completed before the operation can be canceled. Therefore, your callback might still be invoked after you call this method.
       
 
 <div class="alert"><b>Note</b>  This method cannot be called remotely.</div>

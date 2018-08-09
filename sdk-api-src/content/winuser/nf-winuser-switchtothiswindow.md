@@ -7,7 +7,7 @@ old-location: winmsg\switchtothiswindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\switchtothiswindow.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SwitchToThisWindow, SwitchToThisWindow function [Windows and Messages], _win32_SwitchToThisWindow, _win32_switchtothiswindow_cpp, winmsg.switchtothiswindow, winui._win32_switchtothiswindow, winuser/SwitchToThisWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,32 +65,20 @@ Switches
 
 
 
-### -param hwnd
+### -param hwnd [in]
 
-TBD
+Type: <b>HWND</b>
 
-
-### -param fUnknown
-
-TBD
+A handle to the window. 
 
 
-
-
-#### - fAltTab [in]
+### -param fUnknown [in]
 
 Type: <b>BOOL</b>
 
 A <b>TRUE</b> for this parameter indicates that the window
 				is being switched to using the Alt/Ctl+Tab key sequence.  This parameter
 				should be <b>FALSE</b> otherwise. 
-
-
-#### - hWnd [in]
-
-Type: <b>HWND</b>
-
-A handle to the window. 
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: rpc\rpcnetworkisprotseqvalid.htm
 old-project: rpc
 ms.assetid: 72a28f64-2a66-4b61-96a9-80b8b9486151
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcNetworkIsProtseqValid, RpcNetworkIsProtseqValid function [RPC], RpcNetworkIsProtseqValidA, RpcNetworkIsProtseqValidW, _rpc_rpcnetworkisprotseqvalid, rpc.rpcnetworkisprotseqvalid, rpcdce/RpcNetworkIsProtseqValid, rpcdce/RpcNetworkIsProtseqValidA, rpcdce/RpcNetworkIsProtseqValidW
 ms.prod: windows
 ms.technology: windows-sdk

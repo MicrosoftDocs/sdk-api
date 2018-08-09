@@ -7,7 +7,7 @@ old-location: mf\imftrustedoutput_getoutputtrustauthoritycount.htm
 old-project: medfound
 ms.assetid: 3aae6859-0b32-4705-9045-b98d0bbf43a6
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 3aae6859-0b32-4705-9045-b98d0bbf43a6, GetOutputTrustAuthorityCount, GetOutputTrustAuthorityCount method [Media Foundation], GetOutputTrustAuthorityCount method [Media Foundation],IMFTrustedOutput interface, IMFTrustedOutput interface [Media Foundation],GetOutputTrustAuthorityCount method, IMFTrustedOutput.GetOutputTrustAuthorityCount, IMFTrustedOutput::GetOutputTrustAuthorityCount, mf.imftrustedoutput_getoutputtrustauthoritycount, mfidl/IMFTrustedOutput::GetOutputTrustAuthorityCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets the number of output trust authorities (OTAs) provided by this trusted output. Each OTA reports a single action.
+Gets the number of output trust authorities (OTAs) provided by this trusted output. Each OTA reports a single action.
 
 
 ## -parameters
@@ -63,8 +62,7 @@ req.product: GDI+ 1.1
 
 ### -param pcOutputTrustAuthorities [out]
 
-
-            Receives the number of OTAs.
+Receives the number of OTAs.
           
 
 

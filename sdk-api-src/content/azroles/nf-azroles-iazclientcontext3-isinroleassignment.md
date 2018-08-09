@@ -7,7 +7,7 @@ old-location: security\iazclientcontext3_isinroleassignment_method.htm
 old-project: secauthz
 ms.assetid: 20e19ee7-3b65-4f0f-ba19-7fb6cbbaea7b
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: IAzClientContext3 interface [Security],IsInRoleAssignment method, IAzClientContext3.IsInRoleAssignment, IAzClientContext3::IsInRoleAssignment, IsInRoleAssignment, IsInRoleAssignment method [Security], IsInRoleAssignment method [Security],IAzClientContext3 interface, azroles/IAzClientContext3::IsInRoleAssignment, security.iazclientcontext3_isinroleassignment_method
 ms.prod: windows
 ms.technology: windows-sdk

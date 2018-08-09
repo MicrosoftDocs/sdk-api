@@ -7,7 +7,7 @@ old-location: p2p\peergroupjoin.htm
 old-project: p2psdk
 ms.assetid: a7f5689d-4849-4363-bc61-3fed63f4287b
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGroupJoin, PeerGroupJoin function [Peer Networking], p2p.peergroupjoin, p2p/PeerGroupJoin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGroupJoin</b> function prepares a peer with an invitation to join an existing peer group prior to calling <a href="https://msdn.microsoft.com/240bcba7-29f9-4043-8203-e71175bee69a">PeerGroupConnect</a> or <a href="https://msdn.microsoft.com/44885110-fcb1-402a-86c6-1229b087165b">PeerGroupConnectByAddress</a>.
+The <b>PeerGroupJoin</b> function prepares a peer with an invitation to join an existing peer group prior to calling <a href="https://msdn.microsoft.com/240bcba7-29f9-4043-8203-e71175bee69a">PeerGroupConnect</a> or <a href="https://msdn.microsoft.com/44885110-fcb1-402a-86c6-1229b087165b">PeerGroupConnectByAddress</a>.
 
 
 ## -parameters

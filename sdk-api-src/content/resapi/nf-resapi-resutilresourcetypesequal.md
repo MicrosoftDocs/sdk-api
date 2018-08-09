@@ -7,7 +7,7 @@ old-location: mscs\resutilresourcetypesequal.htm
 old-project: mscs
 ms.assetid: 716d2174-5fa7-4868-9f33-ab6f815e6335
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: PRESUTIL_RESOURCE_TYPES_EQUAL, PRESUTIL_RESOURCE_TYPES_EQUAL function [Failover Cluster], ResUtilResourceTypesEqual, ResUtilResourceTypesEqual function [Failover Cluster], _wolf_resutilresourcetypesequal, mscs.resutilresourcetypesequal, resapi/PRESUTIL_RESOURCE_TYPES_EQUAL, resapi/ResUtilResourceTypesEqual
 ms.prod: windows
 ms.technology: windows-sdk

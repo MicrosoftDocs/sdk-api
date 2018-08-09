@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetEncoderParameterList_clsidEncoder_
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getencoderparameterlist.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetEncoderParameterList, GetEncoderParameterList method [GDI+], GetEncoderParameterList method [GDI+],Image class, Image class [GDI+],GetEncoderParameterList method, Image.GetEncoderParameterList, Image::GetEncoderParameterList, _gdiplus_CLASS_Image_GetEncoderParameterList_clsidEncoder_size_buffer_, gdiplus._gdiplus_CLASS_Image_GetEncoderParameterList_clsidEncoder_size_buffer_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,15 +72,15 @@ Pointer to a
 Type: <b>UINT</b>
 
 Integer that specifies the size, in bytes, of the 
-					<i>buffer</i> array. Call the <a href="https://msdn.microsoft.com/library/ms535375(v=VS.85).aspx">Image::GetEncoderParameterListSize</a> method to obtain the required size. 
+					<i>buffer</i> array. Call the <a href="https://msdn.microsoft.com/en-us/library/ms535375(v=VS.85).aspx">Image::GetEncoderParameterListSize</a> method to obtain the required size. 
 
 
 ### -param buffer [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534435(v=VS.85).aspx">EncoderParameters</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534435(v=VS.85).aspx">EncoderParameters</a>*</b>
 
 Pointer to an 
-					<a href="https://msdn.microsoft.com/library/ms534435(v=VS.85).aspx">EncoderParameters</a> object that receives the list of supported parameters. 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534435(v=VS.85).aspx">EncoderParameters</a> object that receives the list of supported parameters. 
 
 
 ## -returns
@@ -104,8 +104,8 @@ If the method fails, it returns one of the other elements of the
 
 
 The <b>Image::GetEncoderParameterList</b> method returns an array of 
-				<a href="https://msdn.microsoft.com/library/ms534434(v=VS.85).aspx">EncoderParameter</a> objects. Before you call <b>Image::GetEncoderParameterList</b>, you must allocate a buffer large enough to receive that array, which is part of an 
-				<a href="https://msdn.microsoft.com/library/ms534435(v=VS.85).aspx">EncoderParameters</a> object. You can call the <a href="https://msdn.microsoft.com/library/ms535375(v=VS.85).aspx">Image::GetEncoderParameterListSize</a> method to get the size, in bytes, of the required 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx">EncoderParameter</a> objects. Before you call <b>Image::GetEncoderParameterList</b>, you must allocate a buffer large enough to receive that array, which is part of an 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534435(v=VS.85).aspx">EncoderParameters</a> object. You can call the <a href="https://msdn.microsoft.com/en-us/library/ms535375(v=VS.85).aspx">Image::GetEncoderParameterListSize</a> method to get the size, in bytes, of the required 
 				<b>EncoderParameters</b> object. 
 
 
@@ -116,23 +116,23 @@ The <b>Image::GetEncoderParameterList</b> method returns an array of
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534080(v=VS.85).aspx">GetImageEncoders</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534080(v=VS.85).aspx">GetImageEncoders</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534081(v=VS.85).aspx">GetImageEncodersSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534081(v=VS.85).aspx">GetImageEncodersSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535375(v=VS.85).aspx">Image::GetEncoderParameterListSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535375(v=VS.85).aspx">Image::GetEncoderParameterListSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533814(v=VS.85).aspx">Using Image Encoders and Decoders</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533814(v=VS.85).aspx">Using Image Encoders and Decoders</a>
  
 
  

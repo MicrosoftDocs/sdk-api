@@ -7,7 +7,7 @@ old-location: gdi\polyline.htm
 old-project: gdi
 ms.assetid: 55481dd0-3db7-4131-b383-4d0036943e60
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Polyline, Polyline function [Windows GDI], _win32_Polyline, gdi.polyline, wingdi/Polyline
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,26 +68,14 @@ The <b>Polyline</b> function draws a series of line segments by connecting the p
 A handle to a device context.
 
 
-### -param apt
-
-TBD
-
-
-### -param cpt
-
-TBD
-
-
-
-
-#### - cPoints [in]
-
-The number of points in the array. This number must be greater than or equal to two.
-
-
-#### - lppt [in]
+### -param apt [in]
 
 A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures, in logical units.
+
+
+### -param cpt [in]
+
+The number of points in the array. This number must be greater than or equal to two.
 
 
 ## -returns

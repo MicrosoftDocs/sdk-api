@@ -7,7 +7,7 @@ old-location: controls\FORWARD_WM_NOTIFY.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\macros\forward_wm_notify.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: FORWARD_WM_NOTIFY, FORWARD_WM_NOTIFY macro [Windows Controls], _win32_FORWARD_WM_NOTIFY, _win32_FORWARD_WM_NOTIFY_cpp, commctrl/FORWARD_WM_NOTIFY, controls.FORWARD_WM_NOTIFY, controls._win32_FORWARD_WM_NOTIFY
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sends or posts the <a href="https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a> message. 
+Sends or posts the <a href="https://msdn.microsoft.com/en-us/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a> message. 
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Sends or posts the <a href="https://msdn.microsoft.com/library/Bb775583(v=VS.85)
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
-A handle to the window that receives the <a href="https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a> message. 
+A handle to the window that receives the <a href="https://msdn.microsoft.com/en-us/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a> message. 
 
 
 ### -param idFrom
@@ -74,16 +74,16 @@ The identifier of the control sending the message.
 
 ### -param pnmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains the notification code and additional information. For some notification codes, this parameter points to a larger structure that has the <b>NMHDR</b> structure as its first member. 
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains the notification code and additional information. For some notification codes, this parameter points to a larger structure that has the <b>NMHDR</b> structure as its first member. 
 
 
 ### -param fn
 
 Type: <b>function</b>
 
-The function that sends or posts the <a href="https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a> message. This parameter can be either the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> or <a href="https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx">PostMessage</a> function. 
+The function that sends or posts the <a href="https://msdn.microsoft.com/en-us/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a> message. This parameter can be either the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a> function. 
 
 
 ## -remarks

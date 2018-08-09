@@ -7,7 +7,7 @@ old-location: wmdm\imdspdirecttransfer_transfertodevice.htm
 old-project: WMDM
 ms.assetid: 7a95a23d-751e-4101-a150-3a1e47a14a95
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: IMDSPDirectTransfer interface [windows Media Device Manager],TransferToDevice method, IMDSPDirectTransfer.TransferToDevice, IMDSPDirectTransfer::TransferToDevice, IMDSPDirectTransferTransferToDevice, TransferToDevice, TransferToDevice method [windows Media Device Manager], TransferToDevice method [windows Media Device Manager],IMDSPDirectTransfer interface, mswmdm/IMDSPDirectTransfer::TransferToDevice, wmdm.imdspdirecttransfer_transfertodevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,11 +79,9 @@ Flags that affect behavior of this method. The <i>fuFlags</i> parameter must be 
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

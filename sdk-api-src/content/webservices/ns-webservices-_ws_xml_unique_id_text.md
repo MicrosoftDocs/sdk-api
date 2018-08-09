@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_unique_id_text.htm
 old-project: wsw
 ms.assetid: 4703fcb7-af03-4855-97c4-aac33e75ad4f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_XML_UNIQUE_ID_TEXT, WS_XML_UNIQUE_ID_TEXT structure [Web Services for Windows], _WS_XML_UNIQUE_ID_TEXT, webservices/WS_XML_UNIQUE_ID_TEXT, wsw.ws_xml_unique_id_text
 ms.prod: windows
 ms.technology: windows-sdk

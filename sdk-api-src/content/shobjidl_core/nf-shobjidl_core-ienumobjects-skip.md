@@ -7,7 +7,7 @@ old-location: shell\IEnumObjects_Skip.htm
 old-project: shell
 ms.assetid: 227be42b-c821-40f4-8bcb-9990d1ceefeb
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumObjects interface [Windows Shell],Skip method, IEnumObjects.Skip, IEnumObjects::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumObjects interface, _shell_IEnumObjects_Skip, shell.IEnumObjects_Skip, shobjidl_core/IEnumObjects::Skip
 ms.prod: windows
 ms.technology: windows-sdk

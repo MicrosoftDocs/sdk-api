@@ -7,7 +7,7 @@ old-location: eaphost\eappeerinvokeconfigui.htm
 old-project: eaphost
 ms.assetid: ac15a065-d0a3-403f-ae5f-175f77e2507f
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapPeerInvokeConfigUI, EapPeerInvokeConfigUI function [EAPHost], eaphost.eappeerinvokeconfigui, eapmethodpeerapis/EapPeerInvokeConfigUI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,9 +86,9 @@ When this API is called for the first time, or when a new authentication session
 
 
 
-### -param pdwSizeOfConnectionDataOut
+### -param pdwSizeOfConnectionDataOut [out]
 
-TBD
+Receives a pointer to the size, in bytes, of the <i>ppConnectionDataOut</i> parameter.
 
 
 ### -param ppConnectionDataOut [out]
@@ -99,11 +99,6 @@ Receives a pointer to a pointer that contains a byte buffer with the user-config
 ### -param ppEapError [out]
 
 A pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
-
-
-#### - dwSizeOfConnectionDataOut [out]
-
-Receives a pointer to the size, in bytes, of the <i>ppConnectionDataOut</i> parameter.
 
 
 ## -remarks

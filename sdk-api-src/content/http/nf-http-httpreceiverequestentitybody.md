@@ -7,7 +7,7 @@ old-location: http\httpreceiverequestentitybody.htm
 old-project: http
 ms.assetid: b4ba765f-537b-4021-9ecc-d400d9b94723
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HTTP_RECEIVE_REQUEST_ENTITY_BODY_FLAG_FILL_BUFFER, HttpReceiveRequestEntityBody, HttpReceiveRequestEntityBody function [HTTP], _http_httpreceiverequestentitybody, http.httpreceiverequestentitybody, http/HttpReceiveRequestEntityBody
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,12 @@ The
 
 
 
-### -param RequestQueueHandle
+### -param RequestQueueHandle [in]
 
-TBD
+The handle to the request queue from which to retrieve the specified entity body data. A request queue is created and its handle returned by a call to the 
+<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
+
+<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://msdn.microsoft.com/c3741092-c23a-465f-9a65-5bcbf977fad3">HttpCreateHttpHandle</a> function.
 
 
 ### -param RequestId [in]
@@ -97,47 +100,17 @@ Specifies that the buffer will be filled with one or more  entity bodies, unless
  
 
 
-### -param EntityBuffer
-
-TBD
-
-
-### -param EntityBufferLength
-
-TBD
-
-
-### -param BytesReturned
-
-TBD
-
-
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - BufferLength [in]
-
-The size, in bytes, of the buffer pointed to by the <i>pBuffer</i> parameter.
-
-
-#### - ReqQueueHandle [in]
-
-The handle to the request queue from which to retrieve the specified entity body data. A request queue is created and its handle returned by a call to the 
-<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
-
-<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://msdn.microsoft.com/c3741092-c23a-465f-9a65-5bcbf977fad3">HttpCreateHttpHandle</a> function.
-
-
-#### - pBuffer [out]
+### -param EntityBuffer [out]
 
 A pointer to a buffer that receives entity-body data.
 
 
-#### - pBytesReceived [out, optional]
+### -param EntityBufferLength [in]
+
+The size, in bytes, of the buffer pointed to by the <i>pBuffer</i> parameter.
+
+
+### -param BytesReturned [out, optional]
 
 Optional. A pointer to a variables that receives the size, in bytes, of the entity body data returned in the <i>pBuffer</i> buffer. 
 
@@ -145,6 +118,13 @@ Optional. A pointer to a variables that receives the size, in bytes, of the enti
 
 
 When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesReceived</i> to <b>NULL</b>. Otherwise, when <i>pOverlapped</i> is set to <b>NULL</b>, <i>pBytesReceived</i> must contain a valid memory address, and not be set to <b>NULL</b>.
+
+
+### -param OPTIONAL
+
+TBD
+
+
 
 
 #### - pOverlapped [in, optional]

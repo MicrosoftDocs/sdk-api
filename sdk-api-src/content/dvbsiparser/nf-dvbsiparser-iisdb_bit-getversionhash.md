@@ -7,7 +7,7 @@ old-location: mstv\iisdb_bit_getversionhash.htm
 old-project: mstv
 ms.assetid: 26423a5f-710b-405f-acf2-1aafbeb304d2
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetVersionHash method, IISDB_BIT.GetVersionHash, IISDB_BIT::GetVersionHash, dvbsiparser/IISDB_BIT::GetVersionHash, mstv.iisdb_bit_getversionhash
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,8 +66,7 @@ Returns a hash value for this instance of an Integrated Services Digital Broadca
 
 ### -param pdwVersionHash [out]
 
-
-  Receives the hash value.
+Receives the hash value.
 
 
 

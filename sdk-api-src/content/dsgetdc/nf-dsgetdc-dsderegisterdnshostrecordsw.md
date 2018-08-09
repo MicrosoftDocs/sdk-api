@@ -7,7 +7,7 @@ old-location: ad\dsderegisterdnshostrecords.htm
 old-project: ad
 ms.assetid: 18ab6455-dab2-42d9-b68e-a8f0ad2d8091
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DsDeregisterDnsHostRecords, DsDeregisterDnsHostRecords function [Active Directory], DsDeregisterDnsHostRecordsA, DsDeregisterDnsHostRecordsW, _glines_dsderegisterdnshostrecords, ad.dsderegisterdnshostrecords, dsgetdc/DsDeregisterDnsHostRecords, dsgetdc/DsDeregisterDnsHostRecordsA, dsgetdc/DsDeregisterDnsHostRecordsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,6 +70,11 @@ TBD
 Pointer to the null-terminated string that specifies the DNS host name of the domain controller whose DNS records are being deleted.
 
 
+#### - ServerName [in, optional]
+
+The null-terminated string that specifies the name of the remote domain controller. Can be set to <b>NULL</b> if the calling application is running on the domain controller being updated.
+
+
 #### - DnsDomainName [in, optional]
 
 The null-terminated string that specifies the DNS domain name of the domain occupied by the domain controller. It is unnecessary for this to be a domain hosted by this domain controller. If <b>NULL</b>, the <i>DnsHostName</i> with the leftmost label removed is specified.
@@ -83,11 +88,6 @@ Pointer to the Domain GUID of the domain. If <b>NULL</b>, GUID specific names ar
 #### - DsaGuid [in, optional]
 
 Pointer to the GUID of the <b>NTDS-DSA</b> object to be deleted. If <b>NULL</b>, <b>NTDS-DSA</b> specific names are not removed.
-
-
-#### - ServerName [in, optional]
-
-The null-terminated string that specifies the name of the remote domain controller. Can be set to <b>NULL</b> if the calling application is running on the domain controller being updated.
 
 
 ## -returns

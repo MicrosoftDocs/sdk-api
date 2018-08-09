@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_processor_content_desc.htm
 old-project: medfound
 ms.assetid: A1649897-B368-4D03-9A08-630C8C59E44A
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_CONTENT_DESC, D3D11_VIDEO_PROCESSOR_CONTENT_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_CONTENT_DESC, mf.d3d11_video_processor_content_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ A member of the <a href="https://msdn.microsoft.com/D0C0C58C-8BBC-4C2C-BD0B-4244
 
 ### -field InputFrameRate
 
-The frame rate of the input video stream, specified as a <a href="https://msdn.microsoft.com/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a> structure.
+The frame rate of the input video stream, specified as a <a href="https://msdn.microsoft.com/en-us/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a> structure.
 
 
 
@@ -82,7 +82,7 @@ The height of the input frames, in pixels.
 
 ### -field OutputFrameRate
 
-The frame rate of the output video stream, specified as a <a href="https://msdn.microsoft.com/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a> structure.
+The frame rate of the output video stream, specified as a <a href="https://msdn.microsoft.com/en-us/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a> structure.
 
 
 

@@ -4,10 +4,10 @@ title: IVssBackupComponents::GetWriterStatus
 author: windows-sdk-content
 description: The GetWriterStatus method returns the status of the specified writer.
 old-location: base\ivssbackupcomponents_getwriterstatus.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 652e9630-291d-41cd-96d9-6a63988932a5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetWriterStatus, GetWriterStatus method [VSS], GetWriterStatus method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterStatus method, IVssBackupComponents.GetWriterStatus, IVssBackupComponents::GetWriterStatus, S_OK, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, VSS_E_WRITER_NOT_RESPONDING, VSS_E_WRITER_STATUS_NOT_AVAILABLE, _win32_ivssbackupcomponents_getwriterstatus, base.ivssbackupcomponents_getwriterstatus, vsbackup/IVssBackupComponents::GetWriterStatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,6 +94,11 @@ The address of a caller-allocated variable that receives a string containing the
 
 
 
+
+
+#### - pState [out]
+
+The address of a caller-allocated variable that receives a <a href="https://msdn.microsoft.com/97aa20a3-4d58-49e8-83c0-fc33c700c410">VSS_WRITER_STATE</a> enumeration value.
 
 
 #### - pHrResultFailure [out]
@@ -200,11 +205,6 @@ The writer status is not available for one or more writers. A writer may have re
 </tr>
 </table>
  
-
-
-#### - pState [out]
-
-The address of a caller-allocated variable that receives a <a href="https://msdn.microsoft.com/97aa20a3-4d58-49e8-83c0-fc33c700c410">VSS_WRITER_STATE</a> enumeration value.
 
 
 ## -returns

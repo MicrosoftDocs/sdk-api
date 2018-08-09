@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetHeight_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getheight_27.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetHeight, GetHeight method [GDI+], GetHeight method [GDI+],Image class, Image class [GDI+],GetHeight method, Image.GetHeight, Image::GetHeight, _gdiplus_CLASS_Image_GetHeight_, gdiplus._gdiplus_CLASS_Image_GetHeight_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,27 +82,27 @@ This method returns the height, in pixels, of this image.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535381(v=VS.85).aspx">Image::GetHorizontalResolution</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535381(v=VS.85).aspx">Image::GetHorizontalResolution</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535396(v=VS.85).aspx">Image::GetVerticalResolution</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535396(v=VS.85).aspx">Image::GetVerticalResolution</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535397(v=VS.85).aspx">Image::GetWidth</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535397(v=VS.85).aspx">Image::GetWidth</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536335(v=VS.85).aspx">Images, Bitmaps, and Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536335(v=VS.85).aspx">Images, Bitmaps, and Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533815(v=VS.85).aspx">Using Images, Bitmaps, and Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533815(v=VS.85).aspx">Using Images, Bitmaps, and Metafiles</a>
  
 
  

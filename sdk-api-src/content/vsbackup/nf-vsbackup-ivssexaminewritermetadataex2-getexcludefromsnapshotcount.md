@@ -4,10 +4,10 @@ title: IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount
 author: windows-sdk-content
 description: Obtains the number of file sets that have been explicitly excluded from a given shadow copy.
 old-location: base\ivssexaminewritermetadataex2_getexcludefromsnapshotcount.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 77f21feb-bd7c-4fd0-820b-9dabb1bcbc89
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetExcludeFromSnapshotCount, GetExcludeFromSnapshotCount method, GetExcludeFromSnapshotCount method,IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,GetExcludeFromSnapshotCount method, IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount, IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount, base.ivssexaminewritermetadataex2_getexcludefromsnapshotcount, vsbackup/IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount
 ms.prod: windows
 ms.technology: windows-sdk

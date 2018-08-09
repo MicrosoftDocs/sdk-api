@@ -4,10 +4,10 @@ title: "_SecPkgContext_CredentialNameA"
 author: windows-sdk-content
 description: Specifies the credential name for the security context.
 old-location: security\secpkgcontext_credentialname.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 55ac5db9-9c55-421d-82f5-bdbc54c5d544
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PSecPkgContext_CredentialNameA, PSecPkgContext_CredentialName, PSecPkgContext_CredentialName structure pointer [Security], SecPkgContext_CredentialName, SecPkgContext_CredentialName structure [Security], SecPkgContext_CredentialNameA, _SecPkgContext_CredentialNameA, _SecPkgContext_CredentialNameW, security.secpkgcontext_credentialname, sspi/PSecPkgContext_CredentialName, sspi/SecPkgContext_CredentialName"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_CredentialNameA structure

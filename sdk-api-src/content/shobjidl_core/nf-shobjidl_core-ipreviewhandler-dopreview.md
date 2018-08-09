@@ -7,7 +7,7 @@ old-location: shell\IPreviewHandler_DoPreview.htm
 old-project: shell
 ms.assetid: f6bad84f-9089-4905-ad4d-9b69ff9d11d6
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DoPreview, DoPreview method [Windows Shell], DoPreview method [Windows Shell],IPreviewHandler interface, IPreviewHandler interface [Windows Shell],DoPreview method, IPreviewHandler.DoPreview, IPreviewHandler::DoPreview, _shell_IPreviewHandler_DoPreview, shell.IPreviewHandler_DoPreview, shobjidl_core/IPreviewHandler::DoPreview
 ms.prod: windows
 ms.technology: windows-sdk
@@ -143,8 +143,7 @@ If the previewer window has not yet been created, then it must be created after 
 
 This method should be called only after <a href="https://msdn.microsoft.com/a323811a-8244-40a0-a6b2-68572639be5f">IPreviewHandler::SetWindow</a> has been called.
 
-
-              Aditionally, this method should be called only after <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> has been called.
+Aditionally, this method should be called only after <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> has been called.
             
 
 <div class="alert"><b>Note</b>  Do not actually create the previewer window until this method has been called.</div>

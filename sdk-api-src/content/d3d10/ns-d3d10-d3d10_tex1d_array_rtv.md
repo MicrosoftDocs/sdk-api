@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_tex1d_array_rtv.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex1d_array_rtv.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 1782c294-a270-170d-b512-62785435d8d4, D3D10_TEX1D_ARRAY_RTV, D3D10_TEX1D_ARRAY_RTV structure [Direct3D 10], d3d10/D3D10_TEX1D_ARRAY_RTV, direct3d10.d3d10_tex1d_array_rtv
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Specifies the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">subresource(s)</a> from an array of <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">1D textures</a> to use in a render-target view.
+Specifies the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource(s)</a> from an array of <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">1D textures</a> to use in a render-target view.
 
 
 ## -struct-fields
@@ -62,14 +62,14 @@ Specifies the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The index of the mipmap level to use (see <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">mip slice</a>).
+The index of the mipmap level to use (see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">mip slice</a>).
 
 
 ### -field FirstArraySlice
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The index of the first texture to use in an array of textures (see <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">array slice</a>)
+The index of the first texture to use in an array of textures (see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">array slice</a>)
 
 
 ### -field ArraySize
@@ -83,7 +83,7 @@ Number of textures to use.
 
 
 
-This structure is one member of a render-target-view description (see <a href="https://msdn.microsoft.com/library/Bb172410(v=VS.85).aspx">D3D10_RENDER_TARGET_VIEW_DESC</a>).
+This structure is one member of a render-target-view description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172410(v=VS.85).aspx">D3D10_RENDER_TARGET_VIEW_DESC</a>).
 
 
 
@@ -93,7 +93,7 @@ This structure is one member of a render-target-view description (see <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
  
 
  

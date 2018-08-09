@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dbasetexture9__setlod.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dbasetexture9__setlod.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IDirect3DBaseTexture9 interface [Direct3D 9],SetLOD method, IDirect3DBaseTexture9.SetLOD, IDirect3DBaseTexture9::SetLOD, SetLOD, SetLOD method [Direct3D 9], SetLOD method [Direct3D 9],IDirect3DBaseTexture9 interface, d3d9helper/IDirect3DBaseTexture9::SetLOD, direct3d9.idirect3dbasetexture9__setlod, e09d34c8-aef0-62f8-8160-11d659b8bb51
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,20 +81,20 @@ A DWORD value, clamped to the maximum level-of-detail value (one less than the t
 
 
 
-This method applies to the following interfaces, which inherit from <a href="https://msdn.microsoft.com/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a>.
+This method applies to the following interfaces, which inherit from <a href="https://msdn.microsoft.com/en-us/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a>.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb174329(v=VS.85).aspx">IDirect3DCubeTexture9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174329(v=VS.85).aspx">IDirect3DCubeTexture9</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx">IDirect3DTexture9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205909(v=VS.85).aspx">IDirect3DTexture9</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb205941(v=VS.85).aspx">IDirect3DVolumeTexture9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205941(v=VS.85).aspx">IDirect3DVolumeTexture9</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>
 </li>
 </ul>
 <b>SetLOD</b> is used for level-of-detail control of managed textures. This method returns 0 on nonmanaged textures.
@@ -111,7 +111,7 @@ More specifically, if the texture was created with the dimensions of 256x256, se
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a>
  
 
  

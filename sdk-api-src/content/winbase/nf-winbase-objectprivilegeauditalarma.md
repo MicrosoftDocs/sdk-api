@@ -7,7 +7,7 @@ old-location: security\objectprivilegeauditalarm.htm
 old-project: secauthz
 ms.assetid: 76714ffe-be7c-4928-b7c9-e72441ada4c7
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 08/06/2018
 ms.keywords: ObjectPrivilegeAuditAlarm, ObjectPrivilegeAuditAlarm function [Security], ObjectPrivilegeAuditAlarmA, ObjectPrivilegeAuditAlarmW, _win32_objectprivilegeauditalarm, security.objectprivilegeauditalarm, winbase/ObjectPrivilegeAuditAlarm, winbase/ObjectPrivilegeAuditAlarmA, winbase/ObjectPrivilegeAuditAlarmW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -137,7 +137,7 @@ The <b>ObjectPrivilegeAuditAlarm</b> function requires the calling <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

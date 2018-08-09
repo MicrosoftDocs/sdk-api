@@ -7,7 +7,7 @@ old-location: xps\ixpsompackagewriter_close.htm
 old-project: printdocs
 ms.assetid: 916fbdaa-bef7-4a6f-9259-47347b47dc27
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Close, Close method [XPS Documents and Packaging], Close method [XPS Documents and Packaging],IXpsOMPackageWriter interface, Close method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, IXpsOMPackageWriter interface [XPS Documents and Packaging],Close method, IXpsOMPackageWriter.Close, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],Close method, IXpsOMPackageWriter3D::Close, IXpsOMPackageWriter::Close, xps.ixpsompackagewriter_close, xpsobjectmodel/IXpsOMPackageWriter3D::Close, xpsobjectmodel/IXpsOMPackageWriter::Close
 ms.prod: windows
 ms.technology: windows-sdk

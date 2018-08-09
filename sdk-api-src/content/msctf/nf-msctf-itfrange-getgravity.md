@@ -7,7 +7,7 @@ old-location: tsf\itfrange_getgravity.htm
 old-project: TSF
 ms.assetid: 7569b9dd-869f-49a6-ad0f-c2d9b5f0ae70
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetGravity, GetGravity method [Text Services Framework], GetGravity method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetGravity method, ITfRange.GetGravity, ITfRange::GetGravity, _tsf_itfrange_getgravity_ref, msctf/ITfRange::GetGravity, tsf.itfrange_getgravity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,7 +112,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms629023(v=VS.85).aspx">Anchor Gravity</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Anchor Gravity</a>
 
 
 
@@ -120,8 +120,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession</a>
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession</a>
 
 
 
@@ -129,8 +128,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/f8be0458-cd14-471d-a138-0730f87374e0">
-        ITfRange::SetGravity</a>
+<a href="https://msdn.microsoft.com/f8be0458-cd14-471d-a138-0730f87374e0">ITfRange::SetGravity</a>
 
 
 

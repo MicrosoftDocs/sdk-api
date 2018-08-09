@@ -7,7 +7,7 @@ old-location: wsw\wswriteattribute.htm
 old-project: wsw
 ms.assetid: d1c02344-f5b9-4a59-b1c2-2dfb41df5ce1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsWriteAttribute, WsWriteAttribute function [Web Services for Windows], webservices/WsWriteAttribute, wsw.wswriteattribute
 ms.prod: windows
 ms.technology: windows-sdk

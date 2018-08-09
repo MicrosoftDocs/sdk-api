@@ -7,7 +7,7 @@ old-location: wmformat\iwmauthorizer_getshareddata.htm
 old-project: wmformat
 ms.assetid: 575df33a-b29e-43eb-84c2-6f9875f26196
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetSharedData, GetSharedData method [windows Media Format], GetSharedData method [windows Media Format],IWMAuthorizer interface, IWMAuthorizer interface [windows Media Format],GetSharedData method, IWMAuthorizer.GetSharedData, IWMAuthorizer::GetSharedData, wmformat.iwmauthorizer_getshareddata, wmsecure/IWMAuthorizer::GetSharedData
 ms.prod: windows
 ms.technology: windows-sdk

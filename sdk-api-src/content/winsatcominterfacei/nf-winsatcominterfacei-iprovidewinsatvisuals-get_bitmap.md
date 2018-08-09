@@ -4,10 +4,10 @@ title: IProvideWinSATVisuals::get_Bitmap
 author: windows-sdk-content
 description: Retrieves a bitmap for the WinSAT base score.
 old-location: winsat\iprovidewinsatvisuals_get_bitmap.htm
-old-project: WinSAT
+old-project: winsat
 ms.assetid: 90188fb1-3125-459e-a475-5042c2ee0a5c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IProvideWinSATVisuals interface [WinSAT],get_Bitmap method, IProvideWinSATVisuals.get_Bitmap, IProvideWinSATVisuals::get_Bitmap, get_Bitmap, get_Bitmap method [WinSAT], get_Bitmap method [WinSAT],IProvideWinSATVisuals interface, winsat.iprovidewinsatvisuals_get_bitmap, winsatcominterfacei/IProvideWinSATVisuals::get_Bitmap
 ms.prod: windows
 ms.technology: windows-sdk

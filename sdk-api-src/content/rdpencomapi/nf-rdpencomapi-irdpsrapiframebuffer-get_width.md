@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiframebuffer_width.htm
 old-project: rdp
 ms.assetid: 7f54d18a-29cf-402a-a672-2d0dae1f8ce4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IRDPSRAPIFrameBuffer interface [RDP],Width property, IRDPSRAPIFrameBuffer.Width, IRDPSRAPIFrameBuffer.get_Width, IRDPSRAPIFrameBuffer::Width, IRDPSRAPIFrameBuffer::get_Width, Width property [RDP], Width property [RDP],IRDPSRAPIFrameBuffer interface, get_Width, rdp.irdpsrapiframebuffer_width, rdpencomapi/IRDPSRAPIFrameBuffer::Width, rdpencomapi/IRDPSRAPIFrameBuffer::get_Width
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: rpc\cstdstubbuffer2_disconnect.htm
 old-project: rpc
 ms.assetid: 5593A1C5-37B1-4A83-BEA3-F99AB82CF8FD
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: CStdStubBuffer2_Disconnect, CStdStubBuffer2_Disconnect function [RPC], rpc.cstdstubbuffer2_disconnect, rpcproxy/CStdStubBuffer2_Disconnect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ Implements  the <a href="https://msdn.microsoft.com/da0ecd2b-a445-4ecb-a003-ef07
 
 ### -param pthis [in]
 
-Pointer to  the <a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
 
 
 ## -returns

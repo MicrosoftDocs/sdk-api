@@ -4,10 +4,10 @@ title: EventDescGetTask function
 author: windows-sdk-content
 description: Retrieves the task from the event descriptor.
 old-location: etw\eventdescgettask_func.htm
-old-project: etw
+old-project: ETW
 ms.assetid: 5913587d-5c0d-4c50-99d9-8bff266b1c5b
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/07/2018
 ms.keywords: EventDescGetTask, EventDescGetTask function [ETW], base.eventdescgettask_func, etw.eventdescgettask_func, evntprov/EventDescGetTask
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-		Retrieves
+Retrieves
 		
 		
 	

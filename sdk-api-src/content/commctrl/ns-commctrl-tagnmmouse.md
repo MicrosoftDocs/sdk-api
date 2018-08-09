@@ -7,7 +7,7 @@ old-location: controls\NMMOUSE.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmmouse.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPNMMOUSE, LPNMMOUSE, LPNMMOUSE structure pointer [Windows Controls], NMCLICK, NMMOUSE, NMMOUSE structure [Windows Controls], _win32_NMMOUSE, _win32_NMMOUSE_cpp, commctrl/LPNMMOUSE, commctrl/NMMOUSE, controls.NMMOUSE, controls._win32_NMMOUSE, tagNMMOUSE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,9 @@ Contains information used with mouse notification messages.
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about this notification. 
+An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about this notification. 
 
 
 ### -field dwItemSpec
@@ -83,8 +83,7 @@ A control-specific item data.
 
 Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a></b>
 
-
-					A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that contains the client coordinates of the mouse when the click occurred. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that contains the client coordinates of the mouse when the click occurred. 
 
 
 ### -field dwHitInfo

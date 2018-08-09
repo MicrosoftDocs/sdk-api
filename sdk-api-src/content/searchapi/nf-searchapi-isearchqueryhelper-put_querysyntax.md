@@ -7,7 +7,7 @@ old-location: search\_search_ISearchQueryHelper_put_QuerySyntax.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querysyntax.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QuerySyntax method, ISearchQueryHelper.put_QuerySyntax, ISearchQueryHelper::put_QuerySyntax, _search_ISearchQueryHelper_put_QuerySyntax, put_QuerySyntax, put_QuerySyntax method [search], put_QuerySyntax method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QuerySyntax, searchapi/ISearchQueryHelper::put_QuerySyntax
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Sets the syntax of the query.
 
 ### -param querySyntax [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa965704(v=VS.85).aspx">SEARCH_QUERY_SYNTAX</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965704(v=VS.85).aspx">SEARCH_QUERY_SYNTAX</a></b>
 
-Flag that specifies the search query syntax. For a list of possible values, see the description of the <a href="https://msdn.microsoft.com/library/Aa965704(v=VS.85).aspx">SEARCH_QUERY_SYNTAX</a> enumerated type.
+Flag that specifies the search query syntax. For a list of possible values, see the description of the <a href="https://msdn.microsoft.com/en-us/library/Aa965704(v=VS.85).aspx">SEARCH_QUERY_SYNTAX</a> enumerated type.
 
 
 ## -returns
@@ -83,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The allowed syntaxes are Simple, Natural Query Syntax (NQS), and Advanced Query Syntax (AQS). If not set, the default query syntax is SEARCH_ADVANCED_QUERY_SYNTAX.
 
-The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://msdn.microsoft.com/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>.
+The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://msdn.microsoft.com/en-us/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>.
 
 
 
@@ -93,23 +93,23 @@ The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231310(v=VS.85).aspx">ISearchQueryHelper::get_QuerySyntax</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231310(v=VS.85).aspx">ISearchQueryHelper::get_QuerySyntax</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb266517(v=VS.85).aspx">Querying the Index Programmatically</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266517(v=VS.85).aspx">Querying the Index Programmatically</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231256(v=VS.85).aspx">Querying the Index with Windows Search SQL Syntax</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231256(v=VS.85).aspx">Querying the Index with Windows Search SQL Syntax</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965704(v=VS.85).aspx">SEARCH_QUERY_SYNTAX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965704(v=VS.85).aspx">SEARCH_QUERY_SYNTAX</a>
  
 
  

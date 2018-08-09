@@ -4,10 +4,10 @@ title: "_VDS_LUN_PLEX_PROP"
 author: windows-sdk-content
 description: Defines the properties of a LUN plex object.
 old-location: base\vds_lun_plex_prop.htm
-old-project: VDS
+old-project: vds
 ms.assetid: d79ce5a9-af5a-4691-b853-c18d4a4d04c7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: "*PVDS_LUN_PLEX_PROP, VDS_H_FAILED, VDS_H_FAILED_REDUNDANCY, VDS_H_FAILED_REDUNDANCY_FAILING, VDS_H_FAILING, VDS_H_FAILING_REDUNDANCY, VDS_H_HEALTHY, VDS_H_REBUILDING, VDS_H_UNKNOWN, VDS_LUN_PLEX_PROP, VDS_LUN_PLEX_PROP structure [VDS], _VDS_LUN_PLEX_PROP, base.vds_lun_plex_prop, vds/_VDS_LUN_PLEX_PROP, vdshwprv/_VDS_LUN_PLEX_PROP"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -138,19 +138,7 @@ The stripe interleave size, in bytes. This member is valid only for plexes of ty
 The rebuild priority of the plex. This value must be greater than or equal to 0 (lowest priority) and less than or equal to 15 (highest priority).
 
 
-##### - health.VDS_H_FAILED (8)
-
-
-##### - health.VDS_H_FAILED_REDUNDANCY (6)
-
-
-##### - health.VDS_H_FAILED_REDUNDANCY_FAILING (7)
-
-
-##### - health.VDS_H_FAILING (4)
-
-
-##### - health.VDS_H_FAILING_REDUNDANCY (5)
+##### - health.VDS_H_UNKNOWN (0)
 
 
 ##### - health.VDS_H_HEALTHY (1)
@@ -159,7 +147,19 @@ The rebuild priority of the plex. This value must be greater than or equal to 0 
 ##### - health.VDS_H_REBUILDING (2)
 
 
-##### - health.VDS_H_UNKNOWN (0)
+##### - health.VDS_H_FAILING (4)
+
+
+##### - health.VDS_H_FAILING_REDUNDANCY (5)
+
+
+##### - health.VDS_H_FAILED_REDUNDANCY (6)
+
+
+##### - health.VDS_H_FAILED_REDUNDANCY_FAILING (7)
+
+
+##### - health.VDS_H_FAILED (8)
 
 
 ## -remarks

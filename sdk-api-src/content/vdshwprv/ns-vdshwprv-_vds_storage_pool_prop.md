@@ -4,10 +4,10 @@ title: "_VDS_STORAGE_POOL_PROP"
 author: windows-sdk-content
 description: Defines the properties of a storage pool object.
 old-location: base\vds_storage_pool_prop.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 2a82e872-2005-4b05-b67a-161b16c4f3aa
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: "*PVDS_STORAGE_POOL_PROP, PVDS_STORAGE_POOL_PROP, PVDS_STORAGE_POOL_PROP structure pointer, VDS_H_DEGRADED, VDS_H_HEALTHY, VDS_H_UNKNOWN, VDS_STORAGE_POOL_PROP, VDS_STORAGE_POOL_PROP structure, _VDS_STORAGE_POOL_PROP, base.vds_storage_pool_prop, vds/PVDS_STORAGE_POOL_PROP, vds/VDS_STORAGE_POOL_PROP, vdshwprv/PVDS_STORAGE_POOL_PROP, vdshwprv/VDS_STORAGE_POOL_PROP"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,13 +121,13 @@ The space, in bytes, in this storage pool that can be allocated to create child 
 The maximum size that may be used to create new LUNs or child storage pools from this pool, or to expand existing LUNs or child storage pools. To calculate the amount of managed space that has already been allocated to existing LUNs or child storage pools, subtract the value of this member from the value of the <b>ullTotalManagedSpace</b> member.
 
 
-##### - health.VDS_H_DEGRADED (11)
+##### - health.VDS_H_UNKNOWN (0)
 
 
 ##### - health.VDS_H_HEALTHY (1)
 
 
-##### - health.VDS_H_UNKNOWN (0)
+##### - health.VDS_H_DEGRADED (11)
 
 
 ## -remarks

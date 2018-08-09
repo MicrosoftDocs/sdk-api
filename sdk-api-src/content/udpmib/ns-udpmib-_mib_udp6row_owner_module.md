@@ -4,10 +4,10 @@ title: "_MIB_UDP6ROW_OWNER_MODULE"
 author: windows-sdk-content
 description: Contains an entry from the User Datagram Protocol (UDP) listener table for IPv6 on the local computer. This entry also also includes any available ownership data and the process ID (PID) that issued the call to the bind function for the UDP endpoint.
 old-location: mib\mib_udp6row_owner_module.htm
-old-project: MIB
+old-project: mib
 ms.assetid: dcc80b3c-d4d5-44f4-9c7f-df6be2e21889
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: "*PMIB_UDP6ROW_OWNER_MODULE, MIB_UDP6ROW_OWNER_MODULE, MIB_UDP6ROW_OWNER_MODULE structure [MIB], PMIB_UDP6ROW_OWNER_MODULE, PMIB_UDP6ROW_OWNER_MODULE structure pointer [MIB], _MIB_UDP6ROW_OWNER_MODULE, iprtrmib/MIB_UDP6ROW_OWNER_MODULE, iprtrmib/PMIB_UDP6ROW_OWNER_MODULE, mib.mib_udp6row_owner_module, udpmib/MIB_UDP6ROW_OWNER_MODULE, udpmib/PMIB_UDP6ROW_OWNER_MODULE"
 ms.prod: windows
 ms.technology: windows-sdk

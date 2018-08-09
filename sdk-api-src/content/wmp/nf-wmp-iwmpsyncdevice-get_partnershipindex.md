@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice_get_partnershipindex.htm
 old-project: WMP
 ms.assetid: a7f04b97-8a09-4feb-b776-649aa9d6f407
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_partnershipIndex method, IWMPSyncDevice.get_partnershipIndex, IWMPSyncDevice::get_partnershipIndex, IWMPSyncDeviceget_partnershipIndex, get_partnershipIndex, get_partnershipIndex method [Windows Media Player], get_partnershipIndex method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_partnershipindex, wmp/IWMPSyncDevice::get_partnershipIndex
 ms.prod: windows
 ms.technology: windows-sdk

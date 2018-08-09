@@ -7,7 +7,7 @@ old-location: base\symenumsourcefiles.htm
 old-project: debug
 ms.assetid: 4649bdc6-74c5-4529-bedc-64e0277144d0
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymEnumSourceFiles, SymEnumSourceFiles function, SymEnumSourceFilesW, base.symenumsourcefiles, dbghelp/SymEnumSourceFiles, dbghelp/SymEnumSourceFilesW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,9 +79,10 @@ A wildcard expression that indicates the names of the source files to be enumera
 If this parameter is <b>NULL</b>, the function will enumerate all files.
 
 
-### -param cbSrcFiles
+### -param cbSrcFiles [in]
 
-TBD
+Pointer to a 
+<a href="https://msdn.microsoft.com/b1d1e967-514d-43da-b470-23228fa03dd9">SymEnumSourceFilesProc</a> callback function that receives the source file information.
 
 
 ### -param UserContext [in, optional]
@@ -89,18 +90,11 @@ TBD
 User-defined value that is passed to the callback function, or <b>NULL</b>. This parameter is typically used by an application to pass a pointer to a data structure that provides context for the callback function.
 
 
-#### - EnumSymbolsCallback [in]
-
-Pointer to a 
-<a href="https://msdn.microsoft.com/b1d1e967-514d-43da-b470-23228fa03dd9">SymEnumSourceFilesProc</a> callback function that receives the source file information.
-
-
 ## -returns
 
 
 
-
-						If the function succeeds, the return value is <b>TRUE</b>.
+If the function succeeds, the return value is <b>TRUE</b>.
 						
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 

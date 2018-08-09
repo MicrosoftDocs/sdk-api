@@ -7,7 +7,7 @@ old-location: http\httpdeleteserviceconfiguration.htm
 old-project: http
 ms.assetid: 0ae94936-4c6a-4c9f-adb8-5e3af75cf486
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpDeleteServiceConfiguration, HttpDeleteServiceConfiguration function [HTTP], HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigTimeouts, HttpServiceConfigUrlAclInfo, _http_httpdeleteserviceconfiguration, http.httpdeleteserviceconfiguration, http/HttpDeleteServiceConfiguration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-			The 
+The 
 <b>HttpDeleteServiceConfiguration</b> function deletes specified data, such as IP addresses or SSL Certificates, from the HTTP Server API configuration store, one record at a time.
 
 
@@ -257,8 +256,7 @@ Reserved for future asynchronous operation. This parameter must be set to <b>NUL
 
 
 
-
-						If the function succeeds, the function returns NO_ERROR.
+If the function succeeds, the function returns NO_ERROR.
 
 If the function fails, it returns one of the following error codes.
 

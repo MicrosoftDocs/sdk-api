@@ -2,12 +2,12 @@
 UID: NF:gdipluspath.PathGradientBrush.GetRectangle(OUT Rect)
 title: PathGradientBrush::GetRectangle(OUT Rect)
 author: windows-sdk-content
-description: This topic lists the GetRectangle methods of the PathGradientBrush class. For a complete list of methods for the PathGradientBrush class, see PathGradientBrush Methods.
+description: This topic lists the GetRectangle methods of the PathGradientBrushclass. For a complete list of methods for the PathGradientBrushclass, see PathGradientBrush Methods.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetRectangle_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\pathgradientbrushgetrectanglemethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetRectangle, GetRectangle methods [GDI+], PathGradientBrush.GetRectangle, PathGradientBrush.GetRectangle(OUT Rect), PathGradientBrush::GetRectangle, PathGradientBrush::GetRectangle(OUT Rect), _gdiplus_CLASS_PathGradientBrush_GetRectangle_Methods, gdiplus._gdiplus_CLASS_PathGradientBrush_GetRectangle_Methods, gdipluspath/GetRectangle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,10 +53,8 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 			GetRectangle methods of the 
-			<a href="https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
- class. For a complete list of methods for the 
-			<b>PathGradientBrush</b>
- class, see <a href="https://msdn.microsoft.com/library/ms535061(v=VS.85).aspx">PathGradientBrush Methods</a>.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>class. For a complete list of methods for the 
+			<b>PathGradientBrush</b>class, see <a href="https://msdn.microsoft.com/en-us/library/ms535061(v=VS.85).aspx">PathGradientBrush Methods</a>.
 
 </span><h3>Overload list</h3><table>
 <tr>
@@ -65,19 +63,19 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535097(v=VS.85).aspx">GetRectangle(Rect*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535097(v=VS.85).aspx">GetRectangle(Rect*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535097(v=VS.85).aspx">PathGradientBrush::GetRectangle</a> method gets the smallest rectangle that encloses the boundary path of this path gradient brush.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535097(v=VS.85).aspx">PathGradientBrush::GetRectangle</a> method gets the smallest rectangle that encloses the boundary path of this path gradient brush.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535096(v=VS.85).aspx">GetRectangle(RectF*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535096(v=VS.85).aspx">GetRectangle(RectF*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535096(v=VS.85).aspx">PathGradientBrush::GetRectangle</a> method gets the smallest rectangle that encloses the boundary path of this path gradient brush.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535096(v=VS.85).aspx">PathGradientBrush::GetRectangle</a> method gets the smallest rectangle that encloses the boundary path of this path gradient brush.
 
 </td>
 </tr>

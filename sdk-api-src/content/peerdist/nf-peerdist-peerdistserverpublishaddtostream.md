@@ -7,7 +7,7 @@ old-location: p2p\peerdistserverpublishaddtostream.htm
 old-project: p2psdk
 ms.assetid: 296e21b9-9488-408a-b470-bbde1a18e6f0
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerDistServerPublishAddToStream, PeerDistServerPublishAddToStream function [Peer Networking], p2p.peerdistserverpublishaddtostream, peerdist/PeerDistServerPublishAddToStream
 ms.prod: windows
 ms.technology: windows-sdk

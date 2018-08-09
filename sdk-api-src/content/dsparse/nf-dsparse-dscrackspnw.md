@@ -7,7 +7,7 @@ old-location: ad\dscrackspn.htm
 old-project: ad
 ms.assetid: 65c81c23-a259-480c-9c1e-03484d3e89c9
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DsCrackSpn, DsCrackSpn function [Active Directory], DsCrackSpnA, DsCrackSpnW, _glines_dscrackspn, ad.dscrackspn, dsparse/DsCrackSpn, dsparse/DsCrackSpnA, dsparse/DsCrackSpnW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,10 +61,20 @@ The <b>DsCrackSpn</b> function parses a service principal name (SPN) into its co
 
 
 
-### -param pszSpn
+### -param pszSpn [in]
 
-TBD
+Pointer to a constant null-terminated string that contains the SPN to parse. The SPN has the following format, in which the &lt;service class&gt; and &lt;instance name&gt; components must be present and the &lt;port number&gt; and &lt;service name&gt; components are optional. The &lt;port number&gt; component must be a numeric string value.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;service class&gt;/&lt;instance name&gt;:&lt;port number&gt;/&lt;service name&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param pcServiceClass [in, out, optional]
 
@@ -112,21 +122,6 @@ Pointer to a <b>TCHAR</b> buffer that receives a null-terminated string containi
 
 Pointer to a <b>DWORD</b> value that receives the integer value of the &lt;port number&gt; component of the SPN. If the SPN does not contain a &lt;port number&gt; component, this parameter receives zero. This parameter may be  <b>NULL</b> if the port number is not required.
 
-
-#### - pszSPN [in]
-
-Pointer to a constant null-terminated string that contains the SPN to parse. The SPN has the following format, in which the &lt;service class&gt; and &lt;instance name&gt; components must be present and the &lt;port number&gt; and &lt;service name&gt; components are optional. The &lt;port number&gt; component must be a numeric string value.
-
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;service class&gt;/&lt;instance name&gt;:&lt;port number&gt;/&lt;service name&gt;</pre>
-</td>
-</tr>
-</table></span></div>
 
 ## -returns
 

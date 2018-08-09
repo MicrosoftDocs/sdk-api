@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdocument_coverpagetype_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3v8l.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: CoverPageType property [Fax Service], CoverPageType property [Fax Service],FaxDocument object, FaxDocument object [Fax Service],CoverPageType property, FaxDocument.CoverPageType, IFaxDocument.get_CoverPageType, IFaxDocument::get_CoverPageType, _mfax_faxdocument.coverpagetype, fax._mfax_faxdocument_coverpagetype, fax._mfax_faxdocument_coverpagetype_vb, get_CoverPageType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,15 +75,15 @@ Provide the name of the cover page in the <a href="https://msdn.microsoft.com/en
 
 
 
-<a href="https://msdn.microsoft.com/library/ms685958(v=VS.85).aspx">FaxDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms685960(v=VS.85).aspx">IFaxDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685960(v=VS.85).aspx">IFaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wintouch\registertouchwindow.htm
 old-project: wintouch
 ms.assetid: a70a7418-f79d-40c8-9219-3ce38a74da9f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: RegisterTouchWindow, RegisterTouchWindow function [Windows Touch], TWF_FINETOUCH, TWF_WANTPALM, wintouch.registertouchwindow, winuser/RegisterTouchWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,9 @@ Registers a window as being touch-capable.
 
 
 
-### -param hwnd
+### -param hwnd [in]
 
-TBD
+The handle of the window being registered. The function fails with <b>ERROR_ACCESS_DENIED</b> if the calling thread does not own the specified window.
 
 
 ### -param ulFlags [in]
@@ -103,11 +103,6 @@ By default, palm detection is enabled and some <a href="https://msdn.microsoft.c
 </tr>
 </table>
  
-
-
-#### - hWnd [in]
-
-The handle of the window being registered. The function fails with <b>ERROR_ACCESS_DENIED</b> if the calling thread does not own the specified window.
 
 
 ## -returns

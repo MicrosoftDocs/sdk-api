@@ -7,7 +7,7 @@ old-location: controls\DSA_DestroyCallback.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_destroycallback.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DSA_DestroyCallback, DSA_DestroyCallback function [Windows Controls], _win32_DSA_DestroyCallback, _win32_DSA_DestroyCallback_cpp, controls.DSA_DestroyCallback, controls._win32_DSA_DestroyCallback, dpa_dsa/DSA_DestroyCallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,11 @@ Iterates through a dynamic structure array (DSA), calling a specified callback f
 
 
 
-### -param hdsa
+### -param hdsa [in]
 
-TBD
+Type: <b>HDSA</b>
+
+A handle to a DSA to walk and destroy.
 
 
 ### -param pfnCB [in]
@@ -80,16 +82,8 @@ A callback function pointer. For the callback function prototype, see <a href="h
 
 Type: <b>void*</b>
 
-
-          A callback data pointer. This pointer is, in turn, passed as a parameter to <i>pfnCB</i>.
+A callback data pointer. This pointer is, in turn, passed as a parameter to <i>pfnCB</i>.
         
-
-
-#### - pdsa [in]
-
-Type: <b>HDSA</b>
-
-A handle to a DSA to walk and destroy.
 
 
 ## -returns

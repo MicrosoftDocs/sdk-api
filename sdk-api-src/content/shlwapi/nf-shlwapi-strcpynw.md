@@ -7,7 +7,7 @@ old-location: shell\StrCpyN.htm
 old-project: shell
 ms.assetid: 7e21414d-0d82-40b9-b32f-5eaf351166da
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: StrCpyN, StrCpyN function [Windows Shell], StrCpyNW, _win32_StrCpyN, shell.StrCpyN, shlwapi/StrCpyN, shlwapi/StrCpyNW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,7 +101,7 @@ Returns a pointer to <i>pszDst</i>.
 
 
 
-<b>Security Warning:  </b>Using this function incorrectly can compromise the security of your application. The copied string is not guaranteed to be null-terminated.  Consider using one of the following alternatives. <a href="https://msdn.microsoft.com/library/ms647499(v=VS.85).aspx">StringCbCopy</a>, <a href="https://msdn.microsoft.com/library/ms647500(v=VS.85).aspx">StringCbCopyEx</a>, <a href="https://msdn.microsoft.com/library/ms647501(v=VS.85).aspx">StringCbCopyN</a>, <a href="https://msdn.microsoft.com/library/ms647503(v=VS.85).aspx">StringCbCopyNEx</a>, <a href="https://msdn.microsoft.com/library/ms647527(v=VS.85).aspx">StringCchCopy</a>, <a href="https://msdn.microsoft.com/library/ms647529(v=VS.85).aspx">StringCchCopyEx</a>, <a href="https://msdn.microsoft.com/library/ms647530(v=VS.85).aspx">StringCchCopyN</a>, <a href="https://msdn.microsoft.com/library/ms647533(v=VS.85).aspx">StringCchCopyNEx</a>. You should review <a href="https://msdn.microsoft.com/eca31652-2659-456d-b082-c84d6fd39094">Security Considerations: Microsoft Windows Shell</a> before continuing.
+<b>Security Warning:  </b>Using this function incorrectly can compromise the security of your application. The copied string is not guaranteed to be null-terminated.  Consider using one of the following alternatives. <a href="https://msdn.microsoft.com/en-us/library/ms647499(v=VS.85).aspx">StringCbCopy</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647500(v=VS.85).aspx">StringCbCopyEx</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647501(v=VS.85).aspx">StringCbCopyN</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647503(v=VS.85).aspx">StringCbCopyNEx</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647527(v=VS.85).aspx">StringCchCopy</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647529(v=VS.85).aspx">StringCchCopyEx</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647530(v=VS.85).aspx">StringCchCopyN</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647533(v=VS.85).aspx">StringCchCopyNEx</a>. You should review <a href="https://msdn.microsoft.com/eca31652-2659-456d-b082-c84d6fd39094">Security Considerations: Microsoft Windows Shell</a> before continuing.
 
 
 

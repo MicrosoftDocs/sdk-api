@@ -7,7 +7,7 @@ old-location: fs\flushlogtolsn.htm
 old-project: Clfs
 ms.assetid: d2a30ce1-e9c7-4dcf-b5fb-4355c9134461
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/03/2018
 ms.keywords: FlushLogToLsn, FlushLogToLsn function [Files], clfsw32/FlushLogToLsn, fs.flushlogtolsn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,18 +77,18 @@ TBD
 
 
 
-#### - pOverlapped [in, out, optional]
-
-A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that  is required for asynchronous operation. 
-
-This parameter can be <b>NULL</b>  except for an asynchronous operation.
-
-
 #### - plsnLastFlushed [out, optional]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure. 
 
 The LSN returned is greater than the LSN of any record flushed.  If the function  succeeds, the value of the LSN is never less than <i>plsnFlush</i>.  This value  is meaningful only  when  the function succeeds.
+
+
+#### - pOverlapped [in, out, optional]
+
+A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that  is required for asynchronous operation. 
+
+This parameter can be <b>NULL</b>  except for an asynchronous operation.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: fs\reserveandappendlog.htm
 old-project: Clfs
 ms.assetid: 2036fc26-d040-4738-b66e-d5d3d0dbe385
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/03/2018
 ms.keywords: CLFS_FLAG_FORCE_APPEND, CLFS_FLAG_FORCE_FLUSH, CLFS_FLAG_NO_FLAGS, CLFS_FLAG_USE_RESERVATION, ReserveAndAppendLog, ReserveAndAppendLog function [Files], clfsw32/ReserveAndAppendLog, fs.reserveandappendlog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -150,21 +150,11 @@ Assigns no flags.
  
 
 
-#### - pOverlapped [in, out, optional]
+#### - rgWriteEntries [in, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure. 
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541891">CLFS_WRITE_ENTRY</a> buffers to be marshaled into  one  record.
 
-This parameter can be <b>NULL</b> if asynchronous operation is not used.
-
-
-#### - plsn [out, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that receives the LSN  of the appended record.
-
-
-#### - plsnPrevious [in, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that specifies the LSN of the previous record in the previous-chain.
+This parameter is ignored if the <i>cWriteEntries</i> parameter is zero.
 
 
 #### - plsnUndoNext [in, optional]
@@ -172,11 +162,21 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the next record in the undo-chain.   
 
 
-#### - rgWriteEntries [in, optional]
+#### - plsnPrevious [in, optional]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541891">CLFS_WRITE_ENTRY</a> buffers to be marshaled into  one  record.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that specifies the LSN of the previous record in the previous-chain.
 
-This parameter is ignored if the <i>cWriteEntries</i> parameter is zero.
+
+#### - plsn [out, optional]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that receives the LSN  of the appended record.
+
+
+#### - pOverlapped [in, out, optional]
+
+A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure. 
+
+This parameter can be <b>NULL</b> if asynchronous operation is not used.
 
 
 ## -returns

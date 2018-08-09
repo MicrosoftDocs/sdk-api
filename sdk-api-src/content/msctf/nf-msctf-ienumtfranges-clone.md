@@ -7,7 +7,7 @@ old-location: tsf\ienumtfranges_clone.htm
 old-project: TSF
 ms.assetid: 5e51a747-0b77-4ba3-b03c-217a3f81a0aa
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfRanges interface, IEnumTfRanges interface [Text Services Framework],Clone method, IEnumTfRanges.Clone, IEnumTfRanges::Clone, _tsf_ienumtfranges_clone_ref, msctf/IEnumTfRanges::Clone, tsf.ienumtfranges_clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,8 +112,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">
-        ITfRange
+<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
       </a>
  
 

@@ -7,7 +7,7 @@ old-location: iphlp\lookuppersistentudpportreservation.htm
 old-project: iphlp
 ms.assetid: 621C732E-9A42-455C-A1A8-F1997D6EF0D7
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: LookupPersistentUdpPortReservation, LookupPersistentUdpPortReservation function [IP Helper], iphlp.lookuppersistentudpportreservation, iphlpapi/LookupPersistentUdpPortReservation
 ms.prod: windows
 ms.technology: windows-sdk

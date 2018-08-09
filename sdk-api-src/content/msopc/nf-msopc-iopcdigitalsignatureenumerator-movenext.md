@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignatureenumerator_movenext.htm
 old-project: OPC
 ms.assetid: 1dd6321c-b9dc-4c09-8874-31f891c37146
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcDigitalSignatureEnumerator.MoveNext, IOpcDigitalSignatureEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcDigitalSignatureEnumerator interface, msopc/IOpcDigitalSignatureEnumerator::MoveNext, opc.iopcdigitalsignatureenumerator_movenext
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\iocspproperty.htm
 old-project: seccrypto
 ms.assetid: 854848f0-ea89-4c25-a8a5-40f1e4d229be
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IOCSPProperty, IOCSPProperty interface [Security], IOCSPProperty interface [Security],described, certadm/IOCSPProperty, security.iocspproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The default implementation of <a href="https://msdn.microsoft.com/8c700357-0cb4-
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

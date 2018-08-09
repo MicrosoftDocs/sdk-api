@@ -7,7 +7,7 @@ old-location: gdi\createpalette.htm
 old-project: gdi
 ms.assetid: f3462198-9360-4b77-ac62-9fe21ec666be
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreatePalette, CreatePalette function [Windows GDI], _win32_CreatePalette, gdi.createpalette, wingdi/CreatePalette
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,14 +63,7 @@ The <b>CreatePalette</b> function creates a logical palette.
 
 
 
-### -param plpal
-
-TBD
-
-
-
-
-#### - lplgpl [in]
+### -param plpal [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/99d70a0e-ac61-4a88-a500-66443e7882ad">LOGPALETTE</a> structure that contains information about the colors in the logical palette.
 

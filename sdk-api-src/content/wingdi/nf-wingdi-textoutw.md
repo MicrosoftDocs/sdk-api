@@ -7,7 +7,7 @@ old-location: gdi\textout.htm
 old-project: gdi
 ms.assetid: 0c437ff8-3893-4dc3-827b-fa9ce4bcd7e6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TextOut, TextOut function [Windows GDI], TextOutA, TextOutW, _win32_TextOut, gdi.textout, wingdi/TextOut, wingdi/TextOutA, wingdi/TextOutW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,14 +71,14 @@ The <b>TextOut</b> function writes a character string at the specified location,
 A handle to the device context.
 
 
-### -param x
+### -param x [in]
 
-TBD
+The x-coordinate, in logical coordinates, of the reference point that the system uses to align the string.
 
 
-### -param y
+### -param y [in]
 
-TBD
+The y-coordinate, in logical coordinates, of the reference point that the system uses to align the string.
 
 
 ### -param lpString [in]
@@ -86,26 +86,9 @@ TBD
 A pointer to the string to be drawn. The string does not need to be zero-terminated, because <i>cchString</i> specifies the length of the string.
 
 
-### -param c
-
-TBD
-
-
-
-
-#### - cchString [in]
+### -param c [in]
 
 The <a href="https://msdn.microsoft.com/695fd0f9-abd4-4666-acad-2c409624ddc6">length of the string</a> pointed to by <i>lpString</i>, in characters.
-
-
-#### - nXStart [in]
-
-The x-coordinate, in logical coordinates, of the reference point that the system uses to align the string.
-
-
-#### - nYStart [in]
-
-The y-coordinate, in logical coordinates, of the reference point that the system uses to align the string.
 
 
 ## -returns

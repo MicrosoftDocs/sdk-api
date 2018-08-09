@@ -7,7 +7,7 @@ old-location: mf\imf2dbuffer.htm
 old-project: medfound
 ms.assetid: 80eb23db-a7c0-4dbe-97d8-0dc07a34d8f7
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 80eb23db-a7c0-4dbe-97d8-0dc07a34d8f7, IMF2DBuffer, IMF2DBuffer interface [Media Foundation], IMF2DBuffer interface [Media Foundation],described, mf.imf2dbuffer, mfobjects/IMF2DBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Represents a buffer that contains a two-dimensional surface, such as a video frame.
+Represents a buffer that contains a two-dimensional surface, such as a video frame.
         
 
 
@@ -77,8 +76,7 @@ The <b>IMF2DBuffer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/84634782-7805-4e2b-a043-7e49adef5c2a">ContiguousCopyFrom</a>
 </td>
 <td align="left" width="63%">
-
-          Copies data to this buffer from a buffer that has a contiguous format.
+Copies data to this buffer from a buffer that has a contiguous format.
         
 
 </td>
@@ -88,8 +86,7 @@ The <b>IMF2DBuffer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/32601f2e-ab91-4a65-bcf4-8e063e90fbb0">ContiguousCopyTo</a>
 </td>
 <td align="left" width="63%">
-
-          Copies this buffer into the caller's buffer, converting the data to contiguous format.
+Copies this buffer into the caller's buffer, converting the data to contiguous format.
         
 
 </td>
@@ -99,8 +96,7 @@ The <b>IMF2DBuffer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/413d50f6-a047-4561-985d-9d1927825617">GetContiguousLength</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the number of bytes needed to store the contents of the buffer in contiguous format.
+Retrieves the number of bytes needed to store the contents of the buffer in contiguous format.
         
 
 </td>
@@ -110,8 +106,7 @@ The <b>IMF2DBuffer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/08a5f659-609d-4a86-a24e-b30bb7f9e835">GetScanline0AndPitch</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves a pointer to the buffer memory and the surface stride.
+Retrieves a pointer to the buffer memory and the surface stride.
         
 
 </td>
@@ -121,8 +116,7 @@ The <b>IMF2DBuffer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/a2042d1f-4d80-4dfd-b57e-33f6a6d07d6e">IsContiguousFormat</a>
 </td>
 <td align="left" width="63%">
-
-          Queries whether the buffer is contiguous in its native format.
+Queries whether the buffer is contiguous in its native format.
         
 
 </td>
@@ -132,8 +126,7 @@ The <b>IMF2DBuffer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/887a7394-9fe0-473a-825b-f095b01626c4">Lock2D</a>
 </td>
 <td align="left" width="63%">
-
-          Gives the caller access to the memory in the buffer.
+Gives the caller access to the memory in the buffer.
         
 
 </td>
@@ -143,8 +136,7 @@ The <b>IMF2DBuffer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/535452a3-0b38-467e-b556-80a069e4c0a5">Unlock2D</a>
 </td>
 <td align="left" width="63%">
-
-          Unlocks a buffer that was previously locked.
+Unlocks a buffer that was previously locked.
         
 
 </td>
@@ -165,11 +157,9 @@ Every video format defines a <i>contiguous</i> or <i>packed</i> representation. 
 If a media buffer supports the <b>IMF2DBuffer</b> interface, the underlying buffer is not guaranteed to have a contiguous representation, because there might be additional padding bytes after each row of pixels. When a buffer is non-contiguous, the <a href="https://msdn.microsoft.com/28ac372a-6e73-4e66-bf69-bcc244821b71">Lock</a> and <a href="https://msdn.microsoft.com/887a7394-9fe0-473a-825b-f095b01626c4">Lock2D</a> methods have different behaviors:
 
 <ul>
-<li>
-            The <a href="https://msdn.microsoft.com/887a7394-9fe0-473a-825b-f095b01626c4">Lock2D</a> method returns a pointer to the underlying buffer. The buffer might not be contiguous.
+<li>The <a href="https://msdn.microsoft.com/887a7394-9fe0-473a-825b-f095b01626c4">Lock2D</a> method returns a pointer to the underlying buffer. The buffer might not be contiguous.
           </li>
-<li>
-            The <a href="https://msdn.microsoft.com/28ac372a-6e73-4e66-bf69-bcc244821b71">Lock</a> method returns a buffer that is guaranteed to be contiguous. If the underlying buffer is not contiguous, the method copies the data into a new buffer, and the <a href="https://msdn.microsoft.com/3ca53321-5533-45f0-b415-6a16f780ec54">Unlock</a> method copies it back into the original buffer.
+<li>The <a href="https://msdn.microsoft.com/28ac372a-6e73-4e66-bf69-bcc244821b71">Lock</a> method returns a buffer that is guaranteed to be contiguous. If the underlying buffer is not contiguous, the method copies the data into a new buffer, and the <a href="https://msdn.microsoft.com/3ca53321-5533-45f0-b415-6a16f780ec54">Unlock</a> method copies it back into the original buffer.
           </li>
 </ul>
 Call the <a href="https://msdn.microsoft.com/887a7394-9fe0-473a-825b-f095b01626c4">Lock2D</a> method to access the 2-D buffer in its native format. The native format might not be contiguous. The buffer's <a href="https://msdn.microsoft.com/28ac372a-6e73-4e66-bf69-bcc244821b71">IMFMediaBuffer::Lock</a> method returns a contiguous representation of the buffer. However, this might require an internal copy from the native format. For 2-D buffers, therefore, you should use the <b>Lock2D</b> method and avoid the <b>Lock</b> method. Because the <b>Lock</b> method might cause up to two buffer copies, the <b>Lock2D</b> method is generally more efficient and should be used when possible. To find out if the underlying buffer is contiguous, call <a href="https://msdn.microsoft.com/a2042d1f-4d80-4dfd-b57e-33f6a6d07d6e">IMF2DBuffer::IsContiguousFormat</a>.

@@ -7,7 +7,7 @@ old-location: rpc\rpcssswapclientallocfree.htm
 old-project: rpc
 ms.assetid: 1ed7161b-f49c-48bc-8b64-3a9596833f19
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcSsSwapClientAllocFree, RpcSsSwapClientAllocFree function [RPC], _rpc_rpcssswapclientallocfree, rpc.rpcssswapclientallocfree, rpcndr/RpcSsSwapClientAllocFree
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,42 +62,20 @@ The
 
 ### -param ClientAlloc
 
-TBD
+New function to allocate memory.
 
 
 ### -param ClientFree
 
-TBD
+New function to release memory.
 
 
 ### -param OldClientAlloc
 
-TBD
-
-
-### -param OldClientFree
-
-TBD
-
-
-
-
-#### - pfnAllocate
-
-New function to allocate memory.
-
-
-#### - pfnFree
-
-New function to release memory.
-
-
-#### - pfnOldAllocate
-
 Returns the previous memory-allocation function.
 
 
-#### - pfnOldFree
+### -param OldClientFree
 
 Returns the previous memory-freeing function.
 

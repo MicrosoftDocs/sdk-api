@@ -7,7 +7,7 @@ old-location: setup\setupopenlog.htm
 old-project: SetupApi
 ms.assetid: 3ff13002-7811-4e44-b12b-52d0d4c8de60
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupOpenLog, SetupOpenLog function [Setup API], _setupapi_setupopenlog, setup.setupopenlog, setupapi/SetupOpenLog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,14 +62,7 @@ The  <b>SetupOpenLog</b> function opens the log files.
 
 
 
-### -param Erase
-
-TBD
-
-
-
-
-#### - Reserved [in]
+### -param Erase [in]
 
 Must be FALSE.
 

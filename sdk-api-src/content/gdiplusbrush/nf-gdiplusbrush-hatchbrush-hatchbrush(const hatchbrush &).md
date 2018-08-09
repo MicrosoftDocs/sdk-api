@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_HatchBrush_HatchBrush_hatchStyle_foreColor_
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\hatchbrushclass\hatchbrush_47hatchstyle_forecolor_backcolor.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: HatchBrush, HatchBrush class [GDI+],HatchBrush constructor, HatchBrush constructor [GDI+], HatchBrush constructor [GDI+],HatchBrush class, HatchBrush.HatchBrush, HatchBrush.HatchBrush(const HatchBrush &), HatchBrush::HatchBrush, HatchBrush::HatchBrush(const HatchBrush &), _gdiplus_CLASS_HatchBrush_HatchBrush_hatchStyle_foreColor_backColor_, gdiplus._gdiplus_CLASS_HatchBrush_HatchBrush_hatchStyle_foreColor_backColor_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,11 +61,11 @@ Creates a <b>HatchBrush::HatchBrush</b> object based on a hatch style, a foregro
 
 
 
-#### - backColor [in, ref]
+#### - hatchStyle [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/mt297756">Color</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534127(v=VS.85).aspx">HatchStyle</a></b>
 
-Optional. Reference to a color to use for the background. The default value is <b>Color</b>()(a <a href="https://msdn.microsoft.com/library/windows/hardware/mt297756">Color</a> object created by the default <b>Color</b> constructor). 
+Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534127(v=VS.85).aspx">HatchStyle</a> enumeration that specifies the pattern of hatch lines that will be used. 
 
 
 #### - foreColor [in, ref]
@@ -75,11 +75,11 @@ Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/mt29
 Reference to a color to use for the hatch lines. 
 
 
-#### - hatchStyle [in]
+#### - backColor [in, ref]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534127(v=VS.85).aspx">HatchStyle</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/mt297756">Color</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/library/ms534127(v=VS.85).aspx">HatchStyle</a> enumeration that specifies the pattern of hatch lines that will be used. 
+Optional. Reference to a color to use for the background. The default value is <b>Color</b>()(a <a href="https://msdn.microsoft.com/library/windows/hardware/mt297756">Color</a> object created by the default <b>Color</b> constructor). 
 
 
 ## -see-also
@@ -87,7 +87,7 @@ Element of the <a href="https://msdn.microsoft.com/library/ms534127(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
 
 
 
@@ -95,15 +95,15 @@ Element of the <a href="https://msdn.microsoft.com/library/ms534127(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534459(v=VS.85).aspx">HatchBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534459(v=VS.85).aspx">HatchBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534127(v=VS.85).aspx">HatchStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534127(v=VS.85).aspx">HatchStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533811(v=VS.85).aspx">Using a Brush to Fill Shapes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533811(v=VS.85).aspx">Using a Brush to Fill Shapes</a>
  
 
  

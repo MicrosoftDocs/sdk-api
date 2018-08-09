@@ -7,7 +7,7 @@ old-location: iphlp\getadaptersinfo.htm
 old-project: iphlp
 ms.assetid: 8cdecc84-6566-438b-86d0-3c55490a9a59
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: GetAdaptersInfo, GetAdaptersInfo function [IP Helper], _iphlp_getadaptersinfo, iphlp.getadaptersinfo, iphlpapi/GetAdaptersInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,25 +63,13 @@ The
 
 
 
-### -param AdapterInfo
-
-TBD
-
-
-### -param SizePointer
-
-TBD
-
-
-
-
-#### - pAdapterInfo [out]
+### -param AdapterInfo [out]
 
 A pointer to a buffer that receives a linked list of 
 <a href="https://msdn.microsoft.com/f8035801-ca0c-4d86-bfc5-8e2d746af1b4">IP_ADAPTER_INFO</a> structures.
 
 
-#### - pOutBufLen [in, out]
+### -param SizePointer [in, out]
 
 A pointer to a <b>ULONG</b> variable that specifies the size of the buffer pointed to by the <i>pAdapterInfo</i> parameter. If this size is insufficient to hold the adapter information, 
 <b>GetAdaptersInfo</b> fills in this variable with the required size, and returns an error code of <b>ERROR_BUFFER_OVERFLOW</b>.
@@ -151,8 +139,7 @@ No adapter information exists for the local computer.
 </dl>
 </td>
 <td width="60%">
-
-								The <a href="https://msdn.microsoft.com/8cdecc84-6566-438b-86d0-3c55490a9a59">GetAdaptersInfo</a> function is not supported by the operating system running on the local computer.
+The <a href="https://msdn.microsoft.com/8cdecc84-6566-438b-86d0-3c55490a9a59">GetAdaptersInfo</a> function is not supported by the operating system running on the local computer.
 
 </td>
 </tr>

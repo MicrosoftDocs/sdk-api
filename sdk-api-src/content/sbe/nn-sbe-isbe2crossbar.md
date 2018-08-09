@@ -7,7 +7,7 @@ old-location: mstv\isbe2crossbar.htm
 old-project: mstv
 ms.assetid: 299816e7-2dad-44a5-a44d-9c3efe405d9b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: ISBE2Crossbar, ISBE2Crossbar interface [Microsoft TV Technologies], ISBE2Crossbar interface [Microsoft TV Technologies],described, mstv.isbe2crossbar, sbe/ISBE2Crossbar
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,8 +98,7 @@ Enables or disables profile default mode and stream default mode for the crossba
 <a href="https://msdn.microsoft.com/891dc676-8930-41bc-a0ae-4a080c6d4cd6">EnumStreams</a>
 </td>
 <td align="left" width="63%">
-
-            Gets an enumeration object for all streams that are discovered within the currently loaded WTV file.
+Gets an enumeration object for all streams that are discovered within the currently loaded WTV file.
           
 
 </td>
@@ -109,8 +108,7 @@ Enables or disables profile default mode and stream default mode for the crossba
 <a href="https://msdn.microsoft.com/6a4bec40-2c6d-49fb-8977-3c3db2b2b4df">GetInitialProfile</a>
 </td>
 <td align="left" width="63%">
-
-            Gets the initial profile, which lists media types for the default set of <a href="https://msdn.microsoft.com/435081e9-8a3f-42ab-9091-30c7c3dd59c6">Stream Buffer Source</a> filter output pins that are specific to the loaded WTV file.
+Gets the initial profile, which lists media types for the default set of <a href="https://msdn.microsoft.com/435081e9-8a3f-42ab-9091-30c7c3dd59c6">Stream Buffer Source</a> filter output pins that are specific to the loaded WTV file.
 
 </td>
 </tr>
@@ -119,8 +117,7 @@ Enables or disables profile default mode and stream default mode for the crossba
 <a href="https://msdn.microsoft.com/34067ca5-ead0-44ac-b274-dc9e3f2fb2fd">SetOutputProfile</a>
 </td>
 <td align="left" width="63%">
-
-            Replaces the default profile with a custom profile.
+Replaces the default profile with a custom profile.
           
 
 </td>

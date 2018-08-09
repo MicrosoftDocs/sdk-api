@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice3_deviceiocontrol.htm
 old-project: WMDM
 ms.assetid: 1f41c3f9-8eb6-4d51-87f9-c8b035a73cce
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: DeviceIoControl, DeviceIoControl method [windows Media Device Manager], DeviceIoControl method [windows Media Device Manager],IMDSPDevice3 interface, IMDSPDevice3 interface [windows Media Device Manager],DeviceIoControl method, IMDSPDevice3.DeviceIoControl, IMDSPDevice3::DeviceIoControl, IMDSPDevice3DeviceIoControl, mswmdm/IMDSPDevice3::DeviceIoControl, wmdm.imdspdevice3_deviceiocontrol
 ms.prod: windows
 ms.technology: windows-sdk

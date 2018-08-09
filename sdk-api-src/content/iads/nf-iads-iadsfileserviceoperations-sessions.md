@@ -7,7 +7,7 @@ old-location: adsi\iadsfileserviceoperations_sessions.htm
 old-project: ADSI
 ms.assetid: 97b485c9-650a-4d87-adbb-51799581c3bc
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IADsFileServiceOperations interface [ADSI],Sessions method, IADsFileServiceOperations.Sessions, IADsFileServiceOperations::Sessions, Sessions, Sessions method [ADSI], Sessions method [ADSI],IADsFileServiceOperations interface, _ds_iadsfileserviceoperations_sessions, adsi.iadsfileserviceoperations__sessions, adsi.iadsfileserviceoperations_sessions, iads/IADsFileServiceOperations::Sessions
 ms.prod: windows
 ms.technology: windows-sdk

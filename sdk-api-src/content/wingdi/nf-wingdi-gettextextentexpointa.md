@@ -7,7 +7,7 @@ old-location: gdi\gettextextentexpoint.htm
 old-project: gdi
 ms.assetid: b873a059-5aa3-47d0-b109-7acd542c7d79
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetTextExtentExPoint, GetTextExtentExPoint function [Windows GDI], GetTextExtentExPointA, GetTextExtentExPointW, _win32_GetTextExtentExPoint, gdi.gettextextentexpoint, wingdi/GetTextExtentExPoint, wingdi/GetTextExtentExPointA, wingdi/GetTextExtentExPointW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,9 +71,9 @@ The <b>GetTextExtentExPoint</b> function retrieves the number of characters in a
 A handle to the device context.
 
 
-### -param lpszString
+### -param lpszString [in]
 
-TBD
+A pointer to the null-terminated string for which extents are to be retrieved.
 
 
 ### -param cchString [in]
@@ -91,26 +91,16 @@ The maximum allowable width, in logical units, of the formatted string.
 A pointer to an integer that receives a count of the maximum number of characters that will fit in the space specified by the <i>nMaxExtent</i> parameter. When the <i>lpnFit</i> parameter is <b>NULL</b>, the <i>nMaxExtent</i> parameter is ignored.
 
 
-### -param lpnDx
-
-TBD
-
-
-### -param lpSize [out]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that receives the dimensions of the string, in logical units. This parameter cannot be <b>NULL</b>.
-
-
-#### - alpDx [out]
+### -param lpnDx [out]
 
 A pointer to an array of integers that receives partial string extents. Each element in the array gives the distance, in logical units, between the beginning of the string and one of the characters that fits in the space specified by the <i>nMaxExtent</i> parameter. This array must have at least as many elements as characters specified by the <i>cchString</i> parameter because the entire array is used internally. The function fills the array with valid extents for as many characters as are specified by the <i>lpnFit</i> parameter. Any values in the rest of the array should be ignored. If <i>alpDx</i> is <b>NULL</b>, the function does not compute partial string widths.
 
 For complex scripts, where a sequence of characters may be represented by any number of glyphs, the values in the <i>alpDx</i> array up to the number specified by the <i>lpnFit</i> parameter match one-to-one with code points. Again, you should ignore the rest of the values in the <i>alpDx</i> array.
 
 
-#### - lpszStr [in]
+### -param lpSize [out]
 
-A pointer to the null-terminated string for which extents are to be retrieved.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that receives the dimensions of the string, in logical units. This parameter cannot be <b>NULL</b>.
 
 
 ## -returns

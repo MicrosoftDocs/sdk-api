@@ -7,7 +7,7 @@ old-location: adsi\iadsobjectoptions_getoption.htm
 old-project: ADSI
 ms.assetid: 77a994d2-81ae-4afb-be5c-be8d7159a2c2
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetOption, GetOption method [ADSI], GetOption method [ADSI],IADsObjectOptions interface, IADsObjectOptions interface [ADSI],GetOption method, IADsObjectOptions.GetOption, IADsObjectOptions::GetOption, _ds_iadsobjectoptions_getoption, adsi.iadsobjectoptions__getoption, adsi.iadsobjectoptions_getoption, iads/IADsObjectOptions::GetOption
 ms.prod: windows
 ms.technology: windows-sdk

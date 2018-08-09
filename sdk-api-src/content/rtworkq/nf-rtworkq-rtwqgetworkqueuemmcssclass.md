@@ -7,7 +7,7 @@ old-location: base\rtwqgetworkqueuemmcssclass.htm
 old-project: procthread
 ms.assetid: 1fea099d-33cd-4edd-aa6c-026a0e3478e3
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: RtwqGetWorkQueueMMCSSClass, RtwqGetWorkQueueMMCSSClass function, base.rtwqgetworkqueuemmcssclass, rtworkq/RtwqGetWorkQueueMMCSSClass
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensormanagerevents_onsensorenter.htm
 old-project: SensorsAPI
 ms.assetid: 1316e3b0-9677-4575-a3b8-53fa57295987
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: ISensorManagerEvents interface,OnSensorEnter method, ISensorManagerEvents.OnSensorEnter, ISensorManagerEvents::OnSensorEnter, OnSensorEnter, OnSensorEnter method, OnSensorEnter method,ISensorManagerEvents interface, sensorsapi/ISensorManagerEvents::OnSensorEnter, winsensors_com_ref.isensormanagerevents_onsensorenter, winsensors_com_ref.isensormanagerevents_sensorenter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Provides notification when a sensor device is connected.
 
 ### -param pSensor [in]
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee0cfb884e0">ISensor</a> interface of the sensor that was connected.
+A pointer to the <a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee0cfb884e0">ISensor</a> interface of the sensor that was connected.
 
 
 ### -param state [in]
@@ -103,8 +102,7 @@ The method succeeded.
 
 
 
-
-  To know when a sensor is disconnected, subscribe to the <a href="https://msdn.microsoft.com/541ef7a4-c238-4fc5-9b2d-1fadb1472b2d">ISensorEvents::OnLeave</a> event.
+To know when a sensor is disconnected, subscribe to the <a href="https://msdn.microsoft.com/541ef7a4-c238-4fc5-9b2d-1fadb1472b2d">ISensorEvents::OnLeave</a> event.
 
 
 

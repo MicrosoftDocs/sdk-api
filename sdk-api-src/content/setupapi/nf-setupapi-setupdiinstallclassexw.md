@@ -7,7 +7,7 @@ old-location: devinst\setupdiinstallclassex.htm
 old-project: devinst
 ms.assetid: 72ab3fb4-dc4f-439a-87ed-4f4ad061d03a
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: SetupDiInstallClassEx, SetupDiInstallClassEx function [Device and Driver Installation], SetupDiInstallClassExA, SetupDiInstallClassExW, devinst.setupdiinstallclassex, di-rtns_80aa5f67-e57e-4749-8130-5c940376db49.xml, setupapi/SetupDiInstallClassEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -129,16 +129,6 @@ Reserved. Must be zero.
 Reserved. Must be zero.
 
 
-##### - Flags.DI_FORCECOPY
-
-Set this flag to always copy files, even if they are already present on the user's computer. If the caller supplies a file queue, this flag is ignored.
-
-
-##### - Flags.DI_NOBROWSE
-
-Set this flag to disable browsing if a copy operation cannot find a specified file. If the caller supplies a file queue, this flag is ignored.
-
-
 ##### - Flags.DI_NOVCP
 
 Set this flag if <i>FileQueue</i> is supplied. 
@@ -148,6 +138,16 @@ DI_NOVCP instructs the <b>SetupInstallFromInfSection</b> function not to create 
 If this flag is set, files are not copied just queued. 
 
 For more information about the <b>SetupInstallFromInfSection</b> function, see the Microsoft Windows SDK documentation.
+
+
+##### - Flags.DI_NOBROWSE
+
+Set this flag to disable browsing if a copy operation cannot find a specified file. If the caller supplies a file queue, this flag is ignored.
+
+
+##### - Flags.DI_FORCECOPY
+
+Set this flag to always copy files, even if they are already present on the user's computer. If the caller supplies a file queue, this flag is ignored.
 
 
 ##### - Flags.DI_QUIETINSTALL

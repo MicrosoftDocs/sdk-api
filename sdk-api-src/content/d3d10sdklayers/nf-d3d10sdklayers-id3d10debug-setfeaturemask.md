@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10debug_setfeaturemask.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug_setfeaturemask.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 663f3b21-bce6-d627-ee2d-e5e129eee88d, ID3D10Debug interface [Direct3D 10],SetFeatureMask method, ID3D10Debug.SetFeatureMask, ID3D10Debug::SetFeatureMask, SetFeatureMask, SetFeatureMask method [Direct3D 10], SetFeatureMask method [Direct3D 10],ID3D10Debug interface, d3d10sdklayers/ID3D10Debug::SetFeatureMask, direct3d10.id3d10debug_setfeaturemask
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,9 +69,9 @@ Feature-mask flags bitwise ORed together. If a flag is present, then that featur
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -80,7 +80,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/lib
 
 
 
-<div class="alert"><b>Note</b>  If you call this API in a Session 0 process, it returns <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.</div>
+<div class="alert"><b>Note</b>  If you call this API in a Session 0 process, it returns <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.</div>
 <div> </div>
 Setting a feature-mask flag will cause a rendering-operation method (listed below) to do some extra task when called. The possible feature flags are:
 
@@ -91,11 +91,11 @@ Setting a feature-mask flag will cause a rendering-operation method (listed belo
 </tr>
 <tr>
 <td>D3D10_DEBUG_FEATURE_FLUSH_PER_RENDER_OP</td>
-<td>Runtime will additionally call <a href="https://msdn.microsoft.com/library/Bb173568(v=VS.85).aspx">ID3D10Device::Flush</a>.</td>
+<td>Runtime will additionally call <a href="https://msdn.microsoft.com/en-us/library/Bb173568(v=VS.85).aspx">ID3D10Device::Flush</a>.</td>
 </tr>
 <tr>
 <td>D3D10_DEBUG_FEATURE_PRESENT_PER_RENDER_OP</td>
-<td>Runtime will call <a href="https://msdn.microsoft.com/library/Bb174576(v=VS.85).aspx">Present</a>. Presentation of render buffers will occur according to the settings established by prior calls to <a href="https://msdn.microsoft.com/library/Bb173522(v=VS.85).aspx">ID3D10Debug::SetSwapChain</a> and <a href="https://msdn.microsoft.com/library/Bb173521(v=VS.85).aspx">ID3D10Debug::SetPresentPerRenderOpDelay</a>.</td>
+<td>Runtime will call <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">Present</a>. Presentation of render buffers will occur according to the settings established by prior calls to <a href="https://msdn.microsoft.com/en-us/library/Bb173522(v=VS.85).aspx">ID3D10Debug::SetSwapChain</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb173521(v=VS.85).aspx">ID3D10Debug::SetPresentPerRenderOpDelay</a>.</td>
 </tr>
 </table>
  
@@ -104,40 +104,40 @@ These feature-mask flags apply to the following rendering-operation methods:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173563(v=VS.85).aspx">ID3D10Device::Draw</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173563(v=VS.85).aspx">ID3D10Device::Draw</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173565(v=VS.85).aspx">ID3D10Device::DrawIndexed</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173565(v=VS.85).aspx">ID3D10Device::DrawIndexed</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173567(v=VS.85).aspx">ID3D10Device::DrawInstanced</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173567(v=VS.85).aspx">ID3D10Device::DrawInstanced</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173566(v=VS.85).aspx">ID3D10Device::DrawIndexedInstanced</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173566(v=VS.85).aspx">ID3D10Device::DrawIndexedInstanced</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173564(v=VS.85).aspx">ID3D10Device::DrawAuto</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173564(v=VS.85).aspx">ID3D10Device::DrawAuto</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173539(v=VS.85).aspx">ID3D10Device::ClearRenderTargetView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173539(v=VS.85).aspx">ID3D10Device::ClearRenderTargetView</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173538(v=VS.85).aspx">ID3D10Device::ClearDepthStencilView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173538(v=VS.85).aspx">ID3D10Device::ClearDepthStencilView</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173542(v=VS.85).aspx">ID3D10Device::CopySubresourceRegion</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173542(v=VS.85).aspx">ID3D10Device::CopySubresourceRegion</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173541(v=VS.85).aspx">ID3D10Device::CopyResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173541(v=VS.85).aspx">ID3D10Device::CopyResource</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173621(v=VS.85).aspx">ID3D10Device::UpdateSubresource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173621(v=VS.85).aspx">ID3D10Device::UpdateSubresource</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173569(v=VS.85).aspx">ID3D10Device::GenerateMips</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173569(v=VS.85).aspx">ID3D10Device::GenerateMips</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb173607(v=VS.85).aspx">ID3D10Device::ResolveSubresource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173607(v=VS.85).aspx">ID3D10Device::ResolveSubresource</a>
 </li>
 </ul>
 
@@ -148,7 +148,7 @@ These feature-mask flags apply to the following rendering-operation methods:
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173516(v=VS.85).aspx">ID3D10Debug Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173516(v=VS.85).aspx">ID3D10Debug Interface</a>
  
 
  

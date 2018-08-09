@@ -7,7 +7,7 @@ old-location: ad\adspropgetinitinfo.htm
 old-project: ad
 ms.assetid: dcc4ea8f-6924-4e26-a675-ce326f35933c
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ADsPropGetInitInfo, ADsPropGetInitInfo function [Active Directory], ad.adspropgetinitinfo, adsprop/ADsPropGetInitInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,19 +58,14 @@ The <b>ADsPropGetInitInfo</b> function is used to obtain directory object data t
 
 
 
-### -param hNotifyObj
+### -param hNotifyObj [in]
 
-TBD
+The handle of the notification object. To obtain this handle, call <a href="https://msdn.microsoft.com/bfca3801-0d24-4177-8173-b6bf4b854fae">ADsPropCreateNotifyObj</a>.
 
 
 ### -param pInitParams [out]
 
 Pointer to an <a href="https://msdn.microsoft.com/cbee3515-5037-4d65-8817-4c63fe13ef5d">ADSPROPINITPARAMS</a> structure that receives the directory object data. The <b>dwSize</b> member of this structure must be entered before calling this function.
-
-
-#### - hNotifyObject [in]
-
-The handle of the notification object. To obtain this handle, call <a href="https://msdn.microsoft.com/bfca3801-0d24-4177-8173-b6bf4b854fae">ADsPropCreateNotifyObj</a>.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: wsl\wslregisterdistribution.htm
 old-project: wsl
 ms.assetid: 34D5D38D-A155-42DE-9E9B-2BD7E414E4EC
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WslRegisterDistribution, WslRegisterDistribution function, wsl.wslregisterdistribution, wslapi/WslRegisterDistribution
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,19 +59,14 @@ Registers a new distribution with the Windows Subsystem for Linux (WSL).
 
 
 
-### -param distributionName
+### -param distributionName [in]
 
-TBD
+Unique name representing a distribution (for example, "Fabrikam.Distro.10.01").
 
 
 ### -param tarGzFilename [in]
 
 Full path to a .tar.gz file containing the file system of the distribution to register.
-
-
-#### - distroName [in]
-
-Unique name representing a distribution (for example, "Fabrikam.Distro.10.01").
 
 
 ## -returns

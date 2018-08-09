@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessage_callerid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1bfo.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: CallerId property [Fax Service], CallerId property [Fax Service],FaxIncomingMessage object, FaxIncomingMessage object [Fax Service],CallerId property, FaxIncomingMessage.CallerId, IFaxIncomingMessage.get_CallerId, IFaxIncomingMessage::get_CallerId, _mfax_faxincomingmessage.callerid, fax._mfax_faxincomingmessage_callerid, fax._mfax_faxincomingmessage_callerid_vb, get_CallerId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,15 +64,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686128(v=VS.85).aspx">IFaxIncomingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686128(v=VS.85).aspx">IFaxIncomingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693406(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693406(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

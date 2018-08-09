@@ -7,7 +7,7 @@ old-location: ics\inetfwprofile_type.htm
 old-project: ics
 ms.assetid: aa3be066-e1f7-47a1-bdde-4bbd79067b1e
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INetFwProfile interface [ICS/ICF],Type property, INetFwProfile.Type, INetFwProfile.get_Type, INetFwProfile::Type, INetFwProfile::get_Type, Type property [ICS/ICF], Type property [ICS/ICF],INetFwProfile interface, get_Type, ics.inetfwprofile_type, netfw/INetFwProfile::Type, netfw/INetFwProfile::get_Type
 ms.prod: windows
 ms.technology: windows-sdk

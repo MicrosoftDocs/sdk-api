@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingjob_extendedstatuscode.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_40v9.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: ExtendedStatusCode property [Fax Service], ExtendedStatusCode property [Fax Service],FaxIncomingJob object, FaxIncomingJob object [Fax Service],ExtendedStatusCode property, FaxIncomingJob.ExtendedStatusCode, IFaxIncomingJob.get_ExtendedStatusCode, IFaxIncomingJob::get_ExtendedStatusCode, _mfax_faxincomingjob.extendedstatuscode, fax._mfax_faxincomingjob_extendedstatuscode, get_ExtendedStatusCode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,15 +65,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692952(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692952(v=VS.85).aspx">Visual Basic Example</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686035(v=VS.85).aspx">get_ExtendedStatusCode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686035(v=VS.85).aspx">get_ExtendedStatusCode</a>
  
 
  

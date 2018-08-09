@@ -7,7 +7,7 @@ old-location: of\iofflinefilescache_unpin.htm
 old-project: offlinefiles
 ms.assetid: 32d81a75-8845-4bd5-a0ff-e056a06ac11c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],Unpin method, IOfflineFilesCache.Unpin, IOfflineFilesCache::Unpin, OFFLINEFILES_PIN_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_PIN_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_PIN_CONTROL_FLAG_CONSOLE, OFFLINEFILES_PIN_CONTROL_FLAG_FILL, OFFLINEFILES_PIN_CONTROL_FLAG_FORALL, OFFLINEFILES_PIN_CONTROL_FLAG_FORREDIR, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER_POLICY, OFFLINEFILES_PIN_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_PIN_CONTROL_FLAG_LOWPRIORITY, OFFLINEFILES_PIN_CONTROL_PINLINKTARGETS, Unpin, Unpin method [Offline Files], Unpin method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::Unpin, of.iofflinefilescache_unpin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-    Unpins files, directories, and network shared folders from the Offline Files cache. Pinning is called "Always Available Offline" in the Windows user interface.
+Unpins files, directories, and network shared folders from the Offline Files cache. Pinning is called "Always Available Offline" in the Windows user interface.
 
 When a file is unpinned, it is no longer guaranteed to be available offline.  If the unpin operation removes all instances of pin information in that it is not pinned by Folder Redirection, Group Policy, or by the user and that item has no unsynchronized offline changes, it may be automatically removed from the cache at any time.
 

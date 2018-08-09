@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effect_gettechniquebyindex.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_gettechniquebyindex.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetTechniqueByIndex, GetTechniqueByIndex method [Direct3D 10], GetTechniqueByIndex method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetTechniqueByIndex method, ID3D10Effect.GetTechniqueByIndex, ID3D10Effect::GetTechniqueByIndex, d3d10effect/ID3D10Effect::GetTechniqueByIndex, direct3d10.id3d10effect_gettechniquebyindex, fa1352dd-acaf-8d2f-cb41-b99cf103e21b
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,9 +69,9 @@ A zero-based index.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173708(v=VS.85).aspx">ID3D10EffectTechnique</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173708(v=VS.85).aspx">ID3D10EffectTechnique</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Bb173708(v=VS.85).aspx">ID3D10EffectTechnique Interface</a>.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173708(v=VS.85).aspx">ID3D10EffectTechnique Interface</a>.
 
 
 
@@ -81,7 +81,7 @@ A pointer to an <a href="https://msdn.microsoft.com/library/Bb173708(v=VS.85).as
 
 
 An effect contains one or more techniques; each technique contains one or more passes. You can access a technique using its name or with an index. 
-      For more about techniques, see <a href="https://msdn.microsoft.com/library/Bb205112(v=VS.85).aspx">techniques and passes</a>.
+      For more about techniques, see <a href="https://msdn.microsoft.com/en-us/library/Bb205112(v=VS.85).aspx">techniques and passes</a>.
 
 
 
@@ -91,7 +91,7 @@ An effect contains one or more techniques; each technique contains one or more p
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a>
  
 
  

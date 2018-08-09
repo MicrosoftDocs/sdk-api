@@ -7,7 +7,7 @@ old-location: setup\setupqueuecopy.htm
 old-project: SetupApi
 ms.assetid: c8683438-7a28-4713-8781-45f9bd75b72c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupQueueCopy, SetupQueueCopy function [Setup API], SetupQueueCopyA, SetupQueueCopyW, _setupapi_setupqueuecopy, setup.setupqueuecopy, setupapi/SetupQueueCopy, setupapi/SetupQueueCopyA, setupapi/SetupQueueCopyW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,9 +80,9 @@ Pointer to a <b>null</b>-terminated string that specifies the root of the source
 Pointer to a <b>null</b>-terminated string that specifies the path relative to <i>SourceRootPath</i> where the file can be found. This parameter may be <b>NULL</b>.
 
 
-### -param SourceFilename
+### -param SourceFilename [in]
 
-TBD
+Pointer to a <b>null</b>-terminated string that specifies the file name part of the file to be copied.
 
 
 ### -param SourceDescription [in]
@@ -90,9 +90,9 @@ TBD
 Pointer to a <b>null</b>-terminated string that specifies  a description of the source media to be used during disk prompts. This parameter can be <b>NULL</b>.
 
 
-### -param SourceTagfile
+### -param SourceTagfile [in]
 
-TBD
+Pointer to a <b>null</b>-terminated string that specifies  a tag file whose presence at <i>SourceRootPath</i> indicates the presence of the source media. This parameter may be <b>NULL</b>. If not specified, the file itself will be used as the tag file if required.
 
 
 ### -param TargetDirectory [in]
@@ -100,9 +100,9 @@ TBD
 Pointer to a <b>null</b>-terminated string that specifies the directory where the file is to be copied.
 
 
-### -param TargetFilename
+### -param TargetFilename [in]
 
-TBD
+Pointer to a <b>null</b>-terminated string that specifies  the name of the target file. This parameter may be <b>NULL</b>. If not specified, the target file will have the same name as the source file.
 
 
 ### -param CopyStyle [in]
@@ -135,7 +135,7 @@ Examine each file being copied to see if its version resources indicate that it 
 
 
 The file version information used during version checks is that specified in the <b>dwFileVersionMS</b> and <b>dwFileVersionLS</b> members of a 
-<a href="https://msdn.microsoft.com/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure, as filled in by the  version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
+<a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure, as filled in by the  version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
 
 If the source file is not equal in version or newer, and <i>CopyMsgHandler</i> is specified, the caller is notified and may cancel the copy. If <i>CopyMsgHandler</i> is not specified, the file is not copied.
 
@@ -217,34 +217,9 @@ If the user tries to skip a file, warn them that skipping a file may affect the 
 Delete the source file upon successful copy. The caller is not notified if the delete fails.
 
 
-##### - CopyStyle.SP_COPY_FORCE_IN_USE
+##### - CopyStyle.SP_COPY_REPLACEONLY
 
-If the target exists, behave as if it is in use and queue the file for copying on the next system reboot.
-
-
-##### - CopyStyle.SP_COPY_FORCE_NEWER
-
-Examine each file being copied to see if its version resources (or time stamps for non-image files) indicate that it is not newer than an existing copy on the target. If the file being copied is not newer, the file is not copied. The caller is not notified.
-
-
-##### - CopyStyle.SP_COPY_FORCE_NOOVERWRITE
-
-Check whether the target file exists, and, if so, the file is not overwritten. The caller is not notified.
-
-
-##### - CopyStyle.SP_COPY_IN_USE_NEEDS_REBOOT
-
-If the file was in use during the copy operation, alert the user that the system needs to be rebooted.
-
-
-##### - CopyStyle.SP_COPY_LANGUAGEAWARE
-
-Examine each file being copied to see if its language differs from the language of any existing file already on the target. If so, and <i>CopyMsgHandler</i> is specified, the caller is notified and may cancel the copy. If <i>CopyMsgHandler</i> is not specified, the file is not copied.
-
-
-##### - CopyStyle.SP_COPY_NEWER_ONLY
-
-Examine each file being copied to see if its version resources indicate that it is not newer than an existing copy on the target. If the source file is newer but not equal in version to the existing target, the file is copied.
+Copy the file only if doing so would overwrite a file at the destination path. The caller is not notified.
 
 
 ##### - CopyStyle.SP_COPY_NEWER_OR SAME
@@ -255,14 +230,14 @@ Examine each file being copied to see if its version resources indicate that it 
 
 
 The file version information used during version checks is that specified in the <b>dwFileVersionMS</b> and <b>dwFileVersionLS</b> members of a 
-<a href="https://msdn.microsoft.com/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure, as filled in by the  version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
+<a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure, as filled in by the  version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
 
 If the source file is not equal in version or newer, and <i>CopyMsgHandler</i> is specified, the caller is notified and may cancel the copy. If <i>CopyMsgHandler</i> is not specified, the file is not copied.
 
 
-##### - CopyStyle.SP_COPY_NODECOMP
+##### - CopyStyle.SP_COPY_NEWER_ONLY
 
-Do not decompress the file. When this flag is set, the target file is not given the uncompressed form of the source name (if appropriate). For example, copying f:\x86\cmd.ex_ to \\install\temp results in a target file of \\install\temp\cmd.ex_. If the SP_COPY_NODECOMP flag was not specified, the file would be decompressed and the target would be called \\install\temp\cmd.exe. The filename part of <i>DestinationName</i>, if specified, is stripped and replaced with the filename of the source file. When SP_COPY_NODECOMP is specified, no language or version information can be checked.
+Examine each file being copied to see if its version resources indicate that it is not newer than an existing copy on the target. If the source file is newer but not equal in version to the existing target, the file is copied.
 
 
 ##### - CopyStyle.SP_COPY_NOOVERWRITE
@@ -270,19 +245,14 @@ Do not decompress the file. When this flag is set, the target file is not given 
 Check whether the target file exists, and, if so, notify the caller who may veto the copy. If <i>CopyMsgHandler</i> is not specified, the file is not overwritten.
 
 
-##### - CopyStyle.SP_COPY_NOSKIP
+##### - CopyStyle.SP_COPY_NODECOMP
 
-Do not give the user the option to skip a file.
-
-
-##### - CopyStyle.SP_COPY_REPLACEONLY
-
-Copy the file only if doing so would overwrite a file at the destination path. The caller is not notified.
+Do not decompress the file. When this flag is set, the target file is not given the uncompressed form of the source name (if appropriate). For example, copying f:\x86\cmd.ex_ to \\install\temp results in a target file of \\install\temp\cmd.ex_. If the SP_COPY_NODECOMP flag was not specified, the file would be decompressed and the target would be called \\install\temp\cmd.exe. The filename part of <i>DestinationName</i>, if specified, is stripped and replaced with the filename of the source file. When SP_COPY_NODECOMP is specified, no language or version information can be checked.
 
 
-##### - CopyStyle.SP_COPY_SOURCEPATH_ABSOLUTE
+##### - CopyStyle.SP_COPY_LANGUAGEAWARE
 
-<i>SourcePathRoot</i> is the full path part of the source file. Ignore the relative source specified in the <b>SourceDisksNames</b> section of the INF file for the source media where the file is located. This flag is ignored if SP_COPY_SOURCE_ABSOLUTE is specified.
+Examine each file being copied to see if its language differs from the language of any existing file already on the target. If so, and <i>CopyMsgHandler</i> is specified, the caller is notified and may cancel the copy. If <i>CopyMsgHandler</i> is not specified, the file is not copied.
 
 
 ##### - CopyStyle.SP_COPY_SOURCE_ABSOLUTE
@@ -290,24 +260,39 @@ Copy the file only if doing so would overwrite a file at the destination path. T
 <i>SourceFile</i> is a full source path. Do not look it up in the <b>SourceDisksNames</b> section of the INF file.
 
 
+##### - CopyStyle.SP_COPY_SOURCEPATH_ABSOLUTE
+
+<i>SourcePathRoot</i> is the full path part of the source file. Ignore the relative source specified in the <b>SourceDisksNames</b> section of the INF file for the source media where the file is located. This flag is ignored if SP_COPY_SOURCE_ABSOLUTE is specified.
+
+
+##### - CopyStyle.SP_COPY_FORCE_IN_USE
+
+If the target exists, behave as if it is in use and queue the file for copying on the next system reboot.
+
+
+##### - CopyStyle.SP_COPY_IN_USE_NEEDS_REBOOT
+
+If the file was in use during the copy operation, alert the user that the system needs to be rebooted.
+
+
+##### - CopyStyle.SP_COPY_NOSKIP
+
+Do not give the user the option to skip a file.
+
+
+##### - CopyStyle.SP_COPY_FORCE_NOOVERWRITE
+
+Check whether the target file exists, and, if so, the file is not overwritten. The caller is not notified.
+
+
+##### - CopyStyle.SP_COPY_FORCE_NEWER
+
+Examine each file being copied to see if its version resources (or time stamps for non-image files) indicate that it is not newer than an existing copy on the target. If the file being copied is not newer, the file is not copied. The caller is not notified.
+
+
 ##### - CopyStyle.SP_COPY_WARNIFSKIP
 
 If the user tries to skip a file, warn them that skipping a file may affect the installation. (Used for system-critical files.)
-
-
-#### - SourceFileName [in]
-
-Pointer to a <b>null</b>-terminated string that specifies the file name part of the file to be copied.
-
-
-#### - SourceTagFile [in]
-
-Pointer to a <b>null</b>-terminated string that specifies  a tag file whose presence at <i>SourceRootPath</i> indicates the presence of the source media. This parameter may be <b>NULL</b>. If not specified, the file itself will be used as the tag file if required.
-
-
-#### - TargetFileName [in]
-
-Pointer to a <b>null</b>-terminated string that specifies  the name of the target file. This parameter may be <b>NULL</b>. If not specified, the target file will have the same name as the source file.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_MultiplyTransform_matrix_order_.ht
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\multiplytransform.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Graphics class [GDI+],MultiplyTransform method, Graphics.MultiplyTransform, Graphics::MultiplyTransform, MultiplyTransform, MultiplyTransform method [GDI+], MultiplyTransform method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_MultiplyTransform_matrix_order_, gdiplus._gdiplus_CLASS_Graphics_MultiplyTransform_matrix_order_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,16 +61,16 @@ The <b>Graphics::MultiplyTransform</b> method updates this <a href="https://msdn
 
 ### -param matrix [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>*</b>
 
 Pointer to a matrix that will be multiplied by the world transformation matrix of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object. 
 
 
 ### -param order [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534149(v=VS.85).aspx">MatrixOrder</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534149(v=VS.85).aspx">MatrixOrder</a></b>
 
-Optional. Element of the <a href="https://msdn.microsoft.com/library/ms534149(v=VS.85).aspx">MatrixOrder</a> enumeration that specifies the order of multiplication. MatrixOrderPrepend specifies that the passed matrix is on the left, and MatrixOrderAppend specifies that the passed matrix is on the right. The default value is MatrixOrderPrepend. 
+Optional. Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534149(v=VS.85).aspx">MatrixOrder</a> enumeration that specifies the order of multiplication. MatrixOrderPrepend specifies that the passed matrix is on the left, and MatrixOrderAppend specifies that the passed matrix is on the right. The default value is MatrixOrderPrepend. 
 
 
 ## -returns
@@ -92,7 +92,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536332(v=VS.85).aspx">Coordinate Systems and Transformations</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536332(v=VS.85).aspx">Coordinate Systems and Transformations</a>
 
 
 
@@ -100,43 +100,43 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535729(v=VS.85).aspx">Graphics::GetTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535729(v=VS.85).aspx">Graphics::GetTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535803(v=VS.85).aspx">Graphics::ResetTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535803(v=VS.85).aspx">Graphics::ResetTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535805(v=VS.85).aspx">Graphics::RotateTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535805(v=VS.85).aspx">Graphics::RotateTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535807(v=VS.85).aspx">Graphics::ScaleTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535807(v=VS.85).aspx">Graphics::ScaleTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535818(v=VS.85).aspx">Graphics::SetTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535818(v=VS.85).aspx">Graphics::SetTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535819(v=VS.85).aspx">Graphics::TransformPoints</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535819(v=VS.85).aspx">Graphics::TransformPoints</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535820(v=VS.85).aspx">Graphics::TranslateTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535820(v=VS.85).aspx">Graphics::TranslateTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534149(v=VS.85).aspx">MatrixOrder</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534149(v=VS.85).aspx">MatrixOrder</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533810(v=VS.85).aspx">Transformations</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533810(v=VS.85).aspx">Transformations</a>
  
 
  

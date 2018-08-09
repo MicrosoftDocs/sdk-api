@@ -4,10 +4,10 @@ title: IInitiateWinSATAssessment
 author: windows-sdk-content
 description: Initiates an assessment.
 old-location: winsat\iinitiatewinsatassessment.htm
-old-project: WinSAT
+old-project: winsat
 ms.assetid: 0b299477-50a4-4f61-a0e5-fdbae239503b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IInitiateWinSATAssessment, IInitiateWinSATAssessment interface [WinSAT], IInitiateWinSATAssessment interface [WinSAT],described, winsat.iinitiatewinsatassessment, winsatcominterfacei/IInitiateWinSATAssessment
 ms.prod: windows
 ms.technology: windows-sdk

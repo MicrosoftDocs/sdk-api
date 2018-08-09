@@ -7,7 +7,7 @@ old-location: controls\ImageList_RemoveAll.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_removeall.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ImageList_RemoveAll, ImageList_RemoveAll macro [Windows Controls], _win32_ImageList_RemoveAll, _win32_ImageList_RemoveAll_cpp, commctrl/ImageList_RemoveAll, controls.ImageList_RemoveAll, controls._win32_ImageList_RemoveAll
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Calls the <a href="https://msdn.microsoft.com/library/Bb761564(v=VS.85).aspx">ImageList_Remove</a> function to remove all of the images from an image list. 
+Calls the <a href="https://msdn.microsoft.com/en-us/library/Bb761564(v=VS.85).aspx">ImageList_Remove</a> function to remove all of the images from an image list. 
 
 
 ## -parameters

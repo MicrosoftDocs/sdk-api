@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_line_metrics1.htm
 old-project: DirectWrite
 ms.assetid: 7b5cc425-8a7e-0bff-3fe1-73984872b60b
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: DWRITE_LINE_METRICS1, DWRITE_LINE_METRICS1 structure [Direct Write], directwrite.dwrite_line_metrics1, dwrite_3/DWRITE_LINE_METRICS1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,33 +84,20 @@ White space after the content of the line. This is included in the height of the
 
 
 
-#### - baseline
-
-Type: <b>FLOAT</b>
-
-The distance from the top of the text line to its baseline.
-
-
-#### - height
-
-Type: <b>FLOAT</b>
-
-The height of the text line.
-
-
-#### - isTrimmed
-
-Type: <b>BOOL</b>
-
-The line is trimmed.
-
-
 #### - length
 
 Type: <b>UINT32</b>
 
 The number of text positions in the text line. 
 	  This includes any trailing whitespace and newline characters.
+
+
+#### - trailingWhitespaceLength
+
+Type: <b>UINT32</b>
+
+The number of whitespace positions at the end of the text line. 
+	  Newline sequences are considered whitespace.
 
 
 #### - newlineLength
@@ -121,10 +108,23 @@ The number of characters in the newline sequence at the end of the text line.
 	  If the count is zero, then the text line was either wrapped or it is the end of the text.
 
 
-#### - trailingWhitespaceLength
+#### - height
 
-Type: <b>UINT32</b>
+Type: <b>FLOAT</b>
 
-The number of whitespace positions at the end of the text line. 
-	  Newline sequences are considered whitespace.
+The height of the text line.
+
+
+#### - baseline
+
+Type: <b>FLOAT</b>
+
+The distance from the top of the text line to its baseline.
+
+
+#### - isTrimmed
+
+Type: <b>BOOL</b>
+
+The line is trimmed.
 

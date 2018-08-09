@@ -7,7 +7,7 @@ old-location: shell\SHCloneSpecialIDList.htm
 old-project: shell
 ms.assetid: ef8a6168-c495-47a7-af97-dfee19a41f64
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHCloneSpecialIDList, SHCloneSpecialIDList function [Windows Shell], _win32_SHCloneSpecialIDList, shell.SHCloneSpecialIDList, shlobj_core/SHCloneSpecialIDList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,9 @@ Retrieves a pointer to the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1
 
 ### -param hwnd
 
-TBD
+Type: <b>HWND</b>
+
+Reserved.
 
 
 ### -param csidl [in]
@@ -78,13 +80,6 @@ A <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSID
 Type: <b>BOOL</b>
 
 A value of type <b>BOOL</b> that indicates if the folder should be created if it does not already exist. If  <i>fCreate</i> is <b>TRUE</b>, the folder is created. If it is <b>FALSE</b>, the folder is not created.
-
-
-#### - hwndOwner
-
-Type: <b>HWND</b>
-
-Reserved.
 
 
 ## -returns

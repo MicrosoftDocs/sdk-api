@@ -7,7 +7,7 @@ old-location: tsf\itfpersistentpropertyloaderacp_loadproperty.htm
 old-project: TSF
 ms.assetid: 20730a90-e59c-46ae-a0bf-a212b201351c
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfPersistentPropertyLoaderACP interface [Text Services Framework],LoadProperty method, ITfPersistentPropertyLoaderACP.LoadProperty, ITfPersistentPropertyLoaderACP::LoadProperty, LoadProperty, LoadProperty method [Text Services Framework], LoadProperty method [Text Services Framework],ITfPersistentPropertyLoaderACP interface, _tsf_itfpersistentpropertyloaderacp_loadproperty_ref, msctf/ITfPersistentPropertyLoaderACP::LoadProperty, tsf.itfpersistentpropertyloaderacp_loadproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -143,8 +143,7 @@ Obtain the original position of the stream before writing to the stream. The ori
 
 
 
-<a href="https://msdn.microsoft.com/9c5cb193-d18e-4d91-b9be-b8a61a56d3a3">
-        TF_PERSISTENT_PROPERTY_HEADER_ACP
+<a href="https://msdn.microsoft.com/9c5cb193-d18e-4d91-b9be-b8a61a56d3a3">TF_PERSISTENT_PROPERTY_HEADER_ACP
       </a>
  
 

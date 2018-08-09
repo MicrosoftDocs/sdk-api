@@ -4,10 +4,10 @@ title: SLRegisterEvent function
 author: windows-sdk-content
 description: Registers an event in the SL service.
 old-location: security\slregisterevent.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: a18f58d4-c8e7-4974-a015-e4941e834e79
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLRegisterEvent, SLRegisterEvent function [Security], security.slregisterevent, slpublic/SLRegisterEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLRegisterEvent function

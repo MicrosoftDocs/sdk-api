@@ -7,7 +7,7 @@ old-location: mschap\mschapsrvchangepassword2.htm
 old-project: mschap
 ms.assetid: 91ea4b98-79e4-4764-a580-a622d1491943
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/30/2018
 ms.keywords: MSChapSrvChangePassword2, MSChapSrvChangePassword2 function [MS-CHAP], _mschap_mschapsrvchangepassword2, mschap.mschapsrvchangepassword2, mschapp/MSChapSrvChangePassword2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: netmgmt\netaccessadd.htm
 old-project: netmgmt
 ms.assetid: 54b78f1d-53d1-4cb8-99ba-51c3d6e6de0c
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: 1, NetAccessAdd, NetAccessAdd function [Network Management], _win32_netaccessadd, lmaccess/NetAccessAdd, netmgmt.netaccessadd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,31 +72,6 @@ TBD
 
 ### -param level
 
-TBD
-
-
-### -param buf
-
-TBD
-
-
-#### - cbBuffer
-
-Specifies the size, in bytes, of the buffer pointed to by the <i>pbBuffer</i> parameter.
-
-
-#### - pbBuffer
-
-Pointer to the buffer that contains the access information structure.
-
-
-#### - pszServer
-
-Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
-
-
-#### - sLevel
-
 Specifies the information level of the data. This parameter can be the following value.
 
 <table>
@@ -117,6 +92,21 @@ The <i>pbBuffer</i> parameter points to an
 </tr>
 </table>
  
+
+
+### -param buf
+
+Pointer to the buffer that contains the access information structure.
+
+
+#### - pszServer
+
+Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
+
+
+#### - cbBuffer
+
+Specifies the size, in bytes, of the buffer pointed to by the <i>pbBuffer</i> parameter.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob1_addfiles.htm
 old-project: bits
 ms.assetid: 4a9860da-3977-4b97-957f-dd4de1e775cb
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: AddFiles, AddFiles method [BITS], AddFiles method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],AddFiles method, IBackgroundCopyJob1.AddFiles, IBackgroundCopyJob1::AddFiles, bits.ibackgroundcopyjob1_addfiles, qmgr/IBackgroundCopyJob1::AddFiles
 ms.prod: windows
 ms.technology: windows-sdk

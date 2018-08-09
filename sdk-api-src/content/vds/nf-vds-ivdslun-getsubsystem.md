@@ -4,10 +4,10 @@ title: IVdsLun::GetSubSystem
 author: windows-sdk-content
 description: Returns the subsystem that surfaces the LUN.
 old-location: base\ivdslun_getsubsystem.htm
-old-project: VDS
+old-project: vds
 ms.assetid: bd7dbe48-ad56-4304-a076-608f697620d8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsLun interface, IVdsLun interface [VDS],GetSubSystem method, IVdsLun.GetSubSystem, IVdsLun::GetSubSystem, base.ivdslun_getsubsystem, vds/IVdsLun::GetSubSystem, vdshwprv/IVdsLun::GetSubSystem
 ms.prod: windows
 ms.technology: windows-sdk

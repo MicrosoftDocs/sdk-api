@@ -7,7 +7,7 @@ old-location: fs\mountntmsmedia.htm
 old-project: Rsm
 ms.assetid: f943f36c-654a-48ed-aeb2-1fc146f2d9ff
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: MountNtmsMedia, MountNtmsMedia function [Files], NTMS_MOUNT_ERROR_NOT_AVAILABLE, NTMS_MOUNT_ERROR_OFFLINE, NTMS_MOUNT_READ, NTMS_MOUNT_SPECIFIC_DRIVE, NTMS_MOUNT_WRITE, NTMS_PRIORITY_HIGH, NTMS_PRIORITY_HIGHEST, NTMS_PRIORITY_LOW, NTMS_PRIORITY_LOWEST, NTMS_PRIORITY_NORMAL, _zaw_mountntmsmedia, base.mountntmsmedia, fs.mountntmsmedia, ntmsapi/MountNtmsMedia
 ms.prod: windows
 ms.technology: windows-sdk
@@ -469,7 +469,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
  
 
  

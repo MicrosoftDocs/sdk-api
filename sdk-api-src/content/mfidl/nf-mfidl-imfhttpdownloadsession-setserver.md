@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadsession_setserver.htm
 old-project: medfound
 ms.assetid: 408D4863-D95F-4BBD-9F0B-9796ED08A256
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFHttpDownloadSession interface [Media Foundation],SetServer method, IMFHttpDownloadSession.SetServer, IMFHttpDownloadSession::SetServer, SetServer, SetServer method [Media Foundation], SetServer method [Media Foundation],IMFHttpDownloadSession interface, mf.imfhttpdownloadsession_setserver, mfidl/IMFHttpDownloadSession::SetServer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ The TCP port number of the server.
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -92,8 +91,7 @@ The TCP port number of the server.
 </dl>
 </td>
 <td width="60%">
-
-                Successfully stored the supplied data.
+Successfully stored the supplied data.
 
 </td>
 </tr>
@@ -104,8 +102,7 @@ The TCP port number of the server.
 </dl>
 </td>
 <td width="60%">
-
-                There is insufficient memory to complete the operation.
+There is insufficient memory to complete the operation.
 
 </td>
 </tr>

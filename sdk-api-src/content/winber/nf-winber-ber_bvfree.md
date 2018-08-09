@@ -4,10 +4,10 @@ title: ber_bvfree function
 author: windows-sdk-content
 description: The ber_bvfree function frees a berval structure.
 old-location: ldap\ber_bvfree.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: 9e5a4bb9-568d-48ee-be75-952916c021b1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_ldap_ber_bvfree, ber_bvfree, ber_bvfree function [LDAP], ldap.ber__bvfree, ldap.ber_bvfree, winber/ber_bvfree, winldap/ber_bvfree"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,14 @@ The <b>ber_bvfree</b> function frees a
 
 
 
-### -param pBerVal [in]
+### -param pBerVal
+
+TBD
+
+
+
+
+#### - bv [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a> structure to be deallocated.
 

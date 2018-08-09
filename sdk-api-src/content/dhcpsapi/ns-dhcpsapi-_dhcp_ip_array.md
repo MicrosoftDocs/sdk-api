@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_ip_array.htm
 old-project: dhcp
 ms.assetid: 84f42e55-8364-4119-83e4-c03699a9aa0a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDHCP_IP_ARRAY, DHCP_IP_ARRAY, DHCP_IP_ARRAY structure [DHCP], LPDHCP_IP_ARRAY, LPDHCP_IP_ARRAY structure pointer [DHCP], _DHCP_IP_ARRAY, dhcp.dhcp_ip_array, dhcpsapi/LPDHCP_IP_ARRAY, dhcpsapi/_DHCP_IP_ARRAY"
 ms.prod: windows
 ms.technology: windows-sdk

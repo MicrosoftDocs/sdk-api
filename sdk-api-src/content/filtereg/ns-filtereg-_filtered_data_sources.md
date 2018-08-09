@@ -7,7 +7,7 @@ old-location: search\filtered_data_sources.htm
 old-project: search
 ms.assetid: 5baae290-aead-4986-a7d4-0302931e0104
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: FILTERED_DATA_SOURCES, FILTERED_DATA_SOURCES structure [search], _FILTERED_DATA_SOURCES, filtereg/FILTERED_DATA_SOURCES, search.filtered_data_sources
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ Not implemented.
 
 
 
-A filter, also known as a filter handler, is an implementation of the <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a> interface.
+A filter, also known as a filter handler, is an implementation of the <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a> interface.
 
 <b>FILTERED_DATA_SOURCES</b> can hold one file content identifier of each type. CLSIDs are always searched first, followed by the  file name extension, then MIME type, and finally the path. 
 
@@ -99,11 +99,11 @@ A filter, also known as a filter handler, is an implementation of the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd940430(v=VS.85).aspx">Developing Filter Handlers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd940430(v=VS.85).aspx">Developing Filter Handlers</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>
 
 
 

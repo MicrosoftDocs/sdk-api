@@ -7,7 +7,7 @@ old-location: mib\mib_ipaddrtable.htm
 old-project: mib
 ms.assetid: 12a929e5-813d-4dae-9ea0-5a3c0a88cf05
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/30/2018
 ms.keywords: "*PMIB_IPADDRTABLE, MIB_IPADDRTABLE, MIB_IPADDRTABLE structure [MIB], PMIB_IPADDRTABLE, PMIB_IPADDRTABLE structure pointer [MIB], _MIB_IPADDRTABLE, _mpr_mib_ipaddrtable, ipmib/MIB_IPADDRTABLE, ipmib/PMIB_IPADDRTABLE, iprtrmib/MIB_IPADDRTABLE, iprtrmib/PMIB_IPADDRTABLE, mib.mib_ipaddrtable, rras.mib_ipaddrtable"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ To view an example that retrieves the <b>MIB_IPADDRTABLE</b> structure and then 
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365949(v=VS.85).aspx">GetIpAddrTable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365949(v=VS.85).aspx">GetIpAddrTable</a>
 
 
 

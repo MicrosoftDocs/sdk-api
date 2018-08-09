@@ -7,7 +7,7 @@ old-location: security\ipolicyqualifier_objectid_property.htm
 old-project: seccertenroll
 ms.assetid: d19efcd3-c5fc-4268-af39-2385b7babcc9
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IPolicyQualifier interface [Security],ObjectId property, IPolicyQualifier.ObjectId, IPolicyQualifier.get_ObjectId, IPolicyQualifier::ObjectId, IPolicyQualifier::get_ObjectId, ObjectId property [Security], ObjectId property [Security],IPolicyQualifier interface, certenroll/IPolicyQualifier::ObjectId, certenroll/IPolicyQualifier::get_ObjectId, get_ObjectId, security.ipolicyqualifier_objectid_property
 ms.prod: windows
 ms.technology: windows-sdk

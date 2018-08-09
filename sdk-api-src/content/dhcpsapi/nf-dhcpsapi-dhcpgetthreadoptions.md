@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetthreadoptions.htm
 old-project: dhcp
 ms.assetid: 2ba4b971-467c-47a6-8c4d-8e41b7874c80
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DHCP_FLAGS_DONT_ACCESS_DS, DhcpGetThreadOptions, DhcpGetThreadOptions function [DHCP], dhcp.dhcpgetthreadoptions, dhcpsapi/DhcpGetThreadOptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpGetThreadOptions</b> function  retrieves the current thread options as set by <a href="https://msdn.microsoft.com/aadca143-6fdd-4b25-9bd5-1ba177be148e">DhcpSetThreadOptions</a>. 
+The <b>DhcpGetThreadOptions</b> function  retrieves the current thread options as set by <a href="https://msdn.microsoft.com/aadca143-6fdd-4b25-9bd5-1ba177be148e">DhcpSetThreadOptions</a>. 
 
 
 ## -parameters

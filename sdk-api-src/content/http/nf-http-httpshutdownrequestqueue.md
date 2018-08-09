@@ -7,7 +7,7 @@ old-location: http\httpshutdownrequestqueue.htm
 old-project: http
 ms.assetid: f6640565-a5a1-4a71-938c-1adf54beb40a
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpShutdownRequestQueue, HttpShutdownRequestQueue function [HTTP], http.httpshutdownrequestqueue, http/HttpShutdownRequestQueue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,7 @@ The <b>HttpShutdownRequestQueue</b> function stops queuing requests for the spec
 
 
 
-### -param RequestQueueHandle
-
-TBD
-
-
-
-
-#### - ReqQueueHandle [in]
+### -param RequestQueueHandle [in]
 
 The handle to the request queue that is shut down. A request queue is created and its handle returned by a call to the 
 <a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.

@@ -7,7 +7,7 @@ old-location: security\ipolicyqualifiers_clear_method.htm
 old-project: seccertenroll
 ms.assetid: 96b36a6e-f67b-40fb-ab05-4782e7cb659f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IPolicyQualifiers interface, IPolicyQualifiers interface [Security],Clear method, IPolicyQualifiers.Clear, IPolicyQualifiers::Clear, certenroll/IPolicyQualifiers::Clear, security.ipolicyqualifiers_clear_method
 ms.prod: windows
 ms.technology: windows-sdk

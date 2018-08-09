@@ -7,7 +7,7 @@ old-location: mf\imfremotedesktopplugin.htm
 old-project: medfound
 ms.assetid: 75bb9bf8-12a7-430f-9943-18623aff9903
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 75bb9bf8-12a7-430f-9943-18623aff9903, IMFRemoteDesktopPlugin, IMFRemoteDesktopPlugin interface [Media Foundation], IMFRemoteDesktopPlugin interface [Media Foundation],described, mf.imfremotedesktopplugin, mfidl/IMFRemoteDesktopPlugin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Modifies a topology for use in a Terminal Services environment.
+Modifies a topology for use in a Terminal Services environment.
         
 
 
@@ -91,14 +90,11 @@ Modifies a topology for use in a Terminal Services environment.
 To use this interface, do the following:
 
 <ol>
-<li>
-            Call <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> with the <b>SM_REMOTESESSION</b> flag. The function returns <b>TRUE</b> if the calling process is associated with a Terminal Services client session.
+<li>Call <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> with the <b>SM_REMOTESESSION</b> flag. The function returns <b>TRUE</b> if the calling process is associated with a Terminal Services client session.
           </li>
-<li>
-            If <b>GetSystemMetrics</b> returns <b>TRUE</b>, call <a href="https://msdn.microsoft.com/c986c80b-b583-47be-91e7-5881db0018c2">MFCreateRemoteDesktopPlugin</a>. This function returns a pointer to the <b>IMFRemoteDesktopPlugin</b> interface.
+<li>If <b>GetSystemMetrics</b> returns <b>TRUE</b>, call <a href="https://msdn.microsoft.com/c986c80b-b583-47be-91e7-5881db0018c2">MFCreateRemoteDesktopPlugin</a>. This function returns a pointer to the <b>IMFRemoteDesktopPlugin</b> interface.
           </li>
-<li>
-            Call <a href="https://msdn.microsoft.com/799ba0b4-b015-4899-9496-d8c23d033b24">UpdateTopology</a> with a pointer to the topology.
+<li>Call <a href="https://msdn.microsoft.com/799ba0b4-b015-4899-9496-d8c23d033b24">UpdateTopology</a> with a pointer to the topology.
           </li>
 </ol>
 The application must call <a href="https://msdn.microsoft.com/799ba0b4-b015-4899-9496-d8c23d033b24">UpdateTopology</a> before calling <a href="https://msdn.microsoft.com/ea5313f0-b0fd-4945-97a2-b3f17937294f">IMFMediaSession::SetTopology</a> on the Media Session.

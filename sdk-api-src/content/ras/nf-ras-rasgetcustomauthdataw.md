@@ -7,7 +7,7 @@ old-location: rras\rasgetcustomauthdata.htm
 old-project: rras
 ms.assetid: 626d372c-4da8-4c79-92dd-9cc5b4b8a618
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RasGetCustomAuthData, RasGetCustomAuthData function [RAS], RasGetCustomAuthDataA, RasGetCustomAuthDataW, _ras_rasgetcustomauthdata, ras/RasGetCustomAuthData, ras/RasGetCustomAuthDataA, ras/RasGetCustomAuthDataW, rras.rasgetcustomauthdata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -155,7 +155,7 @@ The buffer pointed to by <i>pbCustomAuthData</i> is too small to receive the dat
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: intl\immsimulatehotkey.htm
 old-project: Intl
 ms.assetid: 24d5dd3c-01bd-4665-ad45-9f93edb212b3
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmSimulateHotKey, ImmSimulateHotKey function [Internationalization for Windows Applications], _win32_ImmSimulateHotKey, imm/ImmSimulateHotKey, intl.immsimulatehotkey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,26 +59,14 @@ Simulates the specified IME hot key, causing the same response as if the user pr
 
 
 
-### -param HWND
-
-TBD
-
-
-### -param DWORD
-
-TBD
-
-
-
-
-#### - dwHotKeyID [in]
-
-Identifier of the IME hot key. For more information, see <a href="https://msdn.microsoft.com/a262ef4e-d8ab-4eb6-88c6-023b90850cc6">IME Hot Key Identifiers</a>.
-
-
-#### - hWnd [in]
+### -param HWND [in]
 
 Handle to the window.
+
+
+### -param DWORD [in]
+
+Identifier of the IME hot key. For more information, see <a href="https://msdn.microsoft.com/a262ef4e-d8ab-4eb6-88c6-023b90850cc6">IME Hot Key Identifiers</a>.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: fs\submitntmsoperatorrequest.htm
 old-project: Rsm
 ms.assetid: d2c146d0-f1f9-4810-a489-91b5c4ca3431
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: NTMS_OPREQ_CLEANER, NTMS_OPREQ_DEVICESERVICE, NTMS_OPREQ_MESSAGE, NTMS_OPREQ_MOVEMEDIA, NTMS_OPREQ_NEWMEDIA, SubmitNtmsOperatorRequest, SubmitNtmsOperatorRequest function [Files], SubmitNtmsOperatorRequestA, SubmitNtmsOperatorRequestW, _zaw_submitntmsoperatorrequest, base.submitntmsoperatorrequest, fs.submitntmsoperatorrequest, ntmsapi/SubmitNtmsOperatorRequest, ntmsapi/SubmitNtmsOperatorRequestA, ntmsapi/SubmitNtmsOperatorRequestW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -298,7 +298,7 @@ The NTMS_OPEREQ_MESSAGE value (in the <i>dwRequest</i> parameter) is the request
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Operator Request Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Operator Request Functions</a>
 
 
 

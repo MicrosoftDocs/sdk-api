@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_IsFilled_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\isfilled.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: AdjustableArrowCap class [GDI+],IsFilled method, AdjustableArrowCap.IsFilled, AdjustableArrowCap::IsFilled, IsFilled, IsFilled method [GDI+], IsFilled method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_IsFilled_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_IsFilled_
 ms.prod: windows
 ms.technology: windows-sdk

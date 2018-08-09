@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadsession_createrequest.htm
 old-project: medfound
 ms.assetid: 111A075A-82A7-4607-9359-37B2DA97AFC5
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: CreateRequest, CreateRequest method [Media Foundation], CreateRequest method [Media Foundation],IMFHttpDownloadSession interface, IMFHttpDownloadSession interface [Media Foundation],CreateRequest method, IMFHttpDownloadSession.CreateRequest, IMFHttpDownloadSession::CreateRequest, mf.imfhttpdownloadsession_createrequest, mfidl/IMFHttpDownloadSession::CreateRequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,8 +98,7 @@ Upon successful return of the method, this parameter is set to an <a href="https
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -114,8 +113,7 @@ Upon successful return of the method, this parameter is set to an <a href="https
 </dl>
 </td>
 <td width="60%">
-
-                Successfully stored the supplied information.
+Successfully stored the supplied information.
 
 </td>
 </tr>
@@ -126,8 +124,7 @@ Upon successful return of the method, this parameter is set to an <a href="https
 </dl>
 </td>
 <td width="60%">
-
-                There is insufficient memory to complete the operation.
+There is insufficient memory to complete the operation.
 
 </td>
 </tr>

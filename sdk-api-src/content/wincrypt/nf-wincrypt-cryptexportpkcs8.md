@@ -4,10 +4,10 @@ title: CryptExportPKCS8 function
 author: windows-sdk-content
 description: Exports the private key in PKCS #8 format. The function is superseded by CryptExportPKCS8Ex, which also may be altered or unavailable in subsequent versions.
 old-location: security\cryptexportpkcs8.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: defd0b23-d9c2-4b28-a6a6-1be7487ae656
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CryptExportPKCS8, CryptExportPKCS8 function [Security], security.cryptexportpkcs8, wincrypt/CryptExportPKCS8
 ms.prod: windows
 ms.technology: windows-sdk

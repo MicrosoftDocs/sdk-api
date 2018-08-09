@@ -4,10 +4,10 @@ title: ITTerminalControl
 author: windows-sdk-content
 description: The ITTerminalControl interface provides methods to get the MSP handle, connect and disconnect a terminal from a filter graph, and run or stop a renderer.
 old-location: tapi3\itterminalcontrol.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 6fe60002-3af3-45e9-a084-7296a48e7263
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITTerminalControl, ITTerminalControl interface [TAPI 2.2], ITTerminalControl interface [TAPI 2.2],described, _tapi3_itterminalcontrol, tapi3.itterminalcontrol, termmgr/ITTerminalControl
 ms.prod: windows
 ms.technology: windows-sdk

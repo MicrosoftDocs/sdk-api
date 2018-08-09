@@ -4,10 +4,10 @@ title: CryptAcquireContextA function
 author: windows-sdk-content
 description: Used to acquire a handle to a particular key container within a particular cryptographic service provider (CSP). This returned handle is used in calls to CryptoAPI functions that use the selected CSP.
 old-location: security\cryptacquirecontext.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 57e13662-3189-4f8d-b90a-d1fbdc09b63c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CRYPT_DEFAULT_CONTAINER_OPTIONAL, CRYPT_DELETEKEYSET, CRYPT_MACHINE_KEYSET, CRYPT_NEWKEYSET, CRYPT_SILENT, CRYPT_VERIFYCONTEXT, CryptAcquireContext, CryptAcquireContext function [Security], CryptAcquireContextA, CryptAcquireContextW, _crypto2_cryptacquirecontext, security.cryptacquirecontext, wincrypt/CryptAcquireContext, wincrypt/CryptAcquireContextA, wincrypt/CryptAcquireContextW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,14 +73,27 @@ With the appropriate setting of <i>dwFlags</i>, this function can also create an
 A pointer to a handle of a CSP. When you have finished using the CSP, release the handle by calling the <a href="https://msdn.microsoft.com/c1e3e708-b543-4e87-8638-a9946a83e614">CryptReleaseContext</a> function.
 
 
-### -param szContainer
+### -param szContainer [in]
 
-TBD
+The key container name. This is a null-terminated string that identifies the key container to the CSP. This name is independent of the method used to store the keys. Some CSPs store their key containers internally (in hardware), some use the system registry, and others use the file system. In most cases, when <i>dwFlags</i> is set to CRYPT_VERIFYCONTEXT, <i>pszContainer</i> must be set to <b>NULL</b>. However, for hardware-based CSPs, such as a smart card CSP, can be access publically available information in the specfied container.
+
+For more information about the usage of the <i>pszContainer</i> parameter, see Remarks.
 
 
-### -param szProvider
+### -param szProvider [in]
 
-TBD
+A null-terminated string that contains the name of the CSP to be used. 
+
+
+
+
+If this parameter is <b>NULL</b>, the user default provider is used. For more information, see 
+<a href="https://msdn.microsoft.com/ad1ff45c-7d02-431b-a287-e9db765476ce">Cryptographic Service Provider Contexts</a>. For a list of available cryptographic providers, see 
+<a href="https://msdn.microsoft.com/97e9a708-83b5-48b3-9d16-f7b54367dc4e">Cryptographic Provider Names</a>.
+
+An application can obtain the name of the CSP in use by using the <a href="https://msdn.microsoft.com/c0b7c1c8-aa42-4d40-a7f7-99c0821c8977">CryptGetProvParam</a> function to read the PP_NAME CSP value in the <i>dwParam</i> parameter.
+
+The default CSP can change between operating system releases. To ensure interoperability on different operating system platforms, the CSP should be explicitly set by using this parameter instead of using the default CSP.
 
 
 ### -param dwProvType [in]
@@ -202,29 +215,6 @@ Obtains a context for a smart card CSP that can be used for hashing and symmetri
 </tr>
 </table>
  
-
-
-#### - pszContainer [in]
-
-The key container name. This is a null-terminated string that identifies the key container to the CSP. This name is independent of the method used to store the keys. Some CSPs store their key containers internally (in hardware), some use the system registry, and others use the file system. In most cases, when <i>dwFlags</i> is set to CRYPT_VERIFYCONTEXT, <i>pszContainer</i> must be set to <b>NULL</b>. However, for hardware-based CSPs, such as a smart card CSP, can be access publically available information in the specfied container.
-
-For more information about the usage of the <i>pszContainer</i> parameter, see Remarks.
-
-
-#### - pszProvider [in]
-
-A null-terminated string that contains the name of the CSP to be used. 
-
-
-
-
-If this parameter is <b>NULL</b>, the user default provider is used. For more information, see 
-<a href="https://msdn.microsoft.com/ad1ff45c-7d02-431b-a287-e9db765476ce">Cryptographic Service Provider Contexts</a>. For a list of available cryptographic providers, see 
-<a href="https://msdn.microsoft.com/97e9a708-83b5-48b3-9d16-f7b54367dc4e">Cryptographic Provider Names</a>.
-
-An application can obtain the name of the CSP in use by using the <a href="https://msdn.microsoft.com/c0b7c1c8-aa42-4d40-a7f7-99c0821c8977">CryptGetProvParam</a> function to read the PP_NAME CSP value in the <i>dwParam</i> parameter.
-
-The default CSP can change between operating system releases. To ensure interoperability on different operating system platforms, the CSP should be explicitly set by using this parameter instead of using the default CSP.
 
 
 ## -returns

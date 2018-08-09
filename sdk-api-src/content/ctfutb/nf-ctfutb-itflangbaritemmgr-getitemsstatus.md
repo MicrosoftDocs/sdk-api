@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritemmgr_getitemsstatus.htm
 old-project: TSF
 ms.assetid: bf0bbbd5-63ca-4f2e-afee-e0c47d6e3d7b
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetItemsStatus, GetItemsStatus method [Text Services Framework], GetItemsStatus method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],GetItemsStatus method, ITfLangBarItemMgr.GetItemsStatus, ITfLangBarItemMgr::GetItemsStatus, _tsf_itflangbaritemmgr_getitemsstatus_ref, ctfutb/ITfLangBarItemMgr::GetItemsStatus, tsf.itflangbaritemmgr_getitemsstatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -136,8 +136,7 @@ This method causes the <a href="https://msdn.microsoft.com/2f850553-ec79-4e2f-a4
 
 
 
-<a href="https://msdn.microsoft.com/5f2c0e61-f7e5-4dcc-86a3-7bd1c994b8bc">
-        TF_LBI_STATUS_* Constants
+<a href="https://msdn.microsoft.com/5f2c0e61-f7e5-4dcc-86a3-7bd1c994b8bc">TF_LBI_STATUS_* Constants
       </a>
  
 

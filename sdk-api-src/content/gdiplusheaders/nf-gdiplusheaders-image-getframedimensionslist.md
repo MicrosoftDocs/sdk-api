@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetFrameDimensionsList_dimensionIDs_c
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getframedimensionslist.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetFrameDimensionsList, GetFrameDimensionsList method [GDI+], GetFrameDimensionsList method [GDI+],Image class, Image class [GDI+],GetFrameDimensionsList method, Image.GetFrameDimensionsList, Image::GetFrameDimensionsList, _gdiplus_CLASS_Image_GetFrameDimensionsList_dimensionIDs_count_, gdiplus._gdiplus_CLASS_Image_GetFrameDimensionsList_dimensionIDs_count_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Image::GetFrameDimensionsList</b> method gets the identifiers for the frame dimensions of this 
-			<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ Type: <b>UINT</b>
 
 Integer that specifies the number of elements in the 
 					<i>dimensionIDs</i> array. Call the 
-					<a href="https://msdn.microsoft.com/library/ms535378(v=VS.85).aspx">Image::GetFrameDimensionsCount</a> method to determine this number. 
+					<a href="https://msdn.microsoft.com/en-us/library/ms535378(v=VS.85).aspx">Image::GetFrameDimensionsCount</a> method to determine this number. 
 
 
 ## -returns
@@ -110,14 +110,13 @@ Windows GDI+ can support an arbitrary number of pages (or images, or frames), as
 
 
 
-
-			The following console application creates an 
-						<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a> object based on a TIFF file. The code calls the <a href="https://msdn.microsoft.com/library/ms535378(v=VS.85).aspx">Image::GetFrameDimensionsCount</a> method to find out how many frame dimensions the 
+The following console application creates an 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object based on a TIFF file. The code calls the <a href="https://msdn.microsoft.com/en-us/library/ms535378(v=VS.85).aspx">Image::GetFrameDimensionsCount</a> method to find out how many frame dimensions the 
 						<b>Image</b> object has. Each of those frame dimensions is identified by a 
 						GUID, and the call to <b>GetFrameDimensionsList</b> retrieves those 
 						GUIDs. The first 
 						GUID is at index 0 in the 
-						<i>pDimensionIDs</i> array. The call to the <a href="https://msdn.microsoft.com/library/ms535377(v=VS.85).aspx">Image::GetFrameCount</a> method determines the number of frames in the dimension identified by the first 
+						<i>pDimensionIDs</i> array. The call to the <a href="https://msdn.microsoft.com/en-us/library/ms535377(v=VS.85).aspx">Image::GetFrameCount</a> method determines the number of frames in the dimension identified by the first 
 						GUID.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -190,31 +189,31 @@ You can look up the displayed GUID in Gdiplusimaging.h and see that it is the id
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533838(v=VS.85).aspx">Copying Individual Frames from a Multiple-Frame Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533838(v=VS.85).aspx">Copying Individual Frames from a Multiple-Frame Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533839(v=VS.85).aspx">Creating and Saving a Multiple-Frame Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533839(v=VS.85).aspx">Creating and Saving a Multiple-Frame Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534434(v=VS.85).aspx">EncoderParameter</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx">EncoderParameter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535377(v=VS.85).aspx">Image::GetFrameCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535377(v=VS.85).aspx">Image::GetFrameCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535378(v=VS.85).aspx">Image::GetFrameDimensionsCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535378(v=VS.85).aspx">Image::GetFrameDimensionsCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535398(v=VS.85).aspx">Image::SaveAdd Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535398(v=VS.85).aspx">Image::SaveAdd Methods</a>
  
 
  

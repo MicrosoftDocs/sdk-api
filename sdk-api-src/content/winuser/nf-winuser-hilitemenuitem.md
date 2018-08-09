@@ -7,7 +7,7 @@ old-location: menurc\hilitemenuitem.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\hilitemenuitem.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: HiliteMenuItem, HiliteMenuItem function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, MF_HILITE, MF_UNHILITE, _win32_HiliteMenuItem, _win32_hilitemenuitem_cpp, menurc.hilitemenuitem, winui._win32_hilitemenuitem, winuser/HiliteMenuItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,19 +59,25 @@ Adds or removes highlighting from an item in a menu bar.
 
 
 
-### -param hWnd
+### -param hWnd [in]
 
-TBD
+Type: <b>HWND</b>
 
-
-### -param hMenu
-
-TBD
+A handle to the window that contains the menu. 
 
 
-### -param uIDHiliteItem
+### -param hMenu [in]
 
-TBD
+Type: <b>HMENU</b>
+
+A handle to the menu bar that contains the item. 
+
+
+### -param uIDHiliteItem [in]
+
+Type: <b>UINT</b>
+
+The menu item. This parameter is either the identifier of the menu item or the offset of the menu item in the menu bar, depending on the value of the <i>uHilite</i> parameter. 
 
 
 ### -param uHilite [in]
@@ -131,27 +137,6 @@ Removes highlighting from the menu item.
 </tr>
 </table>
  
-
-
-#### - hmenu [in]
-
-Type: <b>HMENU</b>
-
-A handle to the menu bar that contains the item. 
-
-
-#### - hwnd [in]
-
-Type: <b>HWND</b>
-
-A handle to the window that contains the menu. 
-
-
-#### - uItemHilite [in]
-
-Type: <b>UINT</b>
-
-The menu item. This parameter is either the identifier of the menu item or the offset of the menu item in the menu bar, depending on the value of the <i>uHilite</i> parameter. 
 
 
 ## -returns

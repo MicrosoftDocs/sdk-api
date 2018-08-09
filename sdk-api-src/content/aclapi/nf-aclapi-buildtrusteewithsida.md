@@ -7,7 +7,7 @@ old-location: security\buildtrusteewithsid.htm
 old-project: secauthz
 ms.assetid: 3745fbf2-911a-4cb6-81a8-6256c742c700
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: BuildTrusteeWithSid, BuildTrusteeWithSid function [Security], BuildTrusteeWithSidA, BuildTrusteeWithSidW, MultipleTrusteeOperation, TrusteeForm, TrusteeType, _win32_buildtrusteewithsid, aclapi/BuildTrusteeWithSid, aclapi/BuildTrusteeWithSidA, aclapi/BuildTrusteeWithSidW, pMultipleTrustee, security.buildtrusteewithsid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,8 +55,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>BuildTrusteeWithSid</b> function initializes a 
+The <b>BuildTrusteeWithSid</b> function initializes a 
 <a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure. The caller specifies the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) of the trustee. The function sets other members of the structure to default values and does not look up the name associated with the SID.
 
 
@@ -133,8 +132,7 @@ TRUSTEE_IS_UNKNOWN
 
 
 
-
-						This function does not return a value.
+This function does not return a value.
 
 
 
@@ -148,7 +146,7 @@ TRUSTEE_IS_UNKNOWN
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
 
 
 

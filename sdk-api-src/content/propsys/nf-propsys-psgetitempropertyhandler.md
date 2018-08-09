@@ -7,7 +7,7 @@ old-location: properties\PSGetItemPropertyHandler.htm
 old-project: properties
 ms.assetid: 7b7fd260-c863-41f7-8594-4ee435090228
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: PSGetItemPropertyHandler, PSGetItemPropertyHandler function [Windows Properties], _shell_PSGetItemPropertyHandler, properties.PSGetItemPropertyHandler, propsys/PSGetItemPropertyHandler, shell.PSGetItemPropertyHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,16 +108,16 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-This function is supported in Windows XP and Windows Vista. For applications supported only on Windows Vista or later, it is recommended that you use <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">IShellItem2::GetPropertyStore</a> instead of <a href="https://msdn.microsoft.com/library/Bb776499(v=VS.85).aspx">PSGetItemPropertyHandler</a>. That method provides a richer set of properties in the property store that is returned.
+This function is supported in Windows XP and Windows Vista. For applications supported only on Windows Vista or later, it is recommended that you use <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">IShellItem2::GetPropertyStore</a> instead of <a href="shell.PSGetItemPropertyHandler">PSGetItemPropertyHandler</a>. That method provides a richer set of properties in the property store that is returned.
 
 This function is approximately equivalent to passing the GPS_HANDLERPROPERTIESONLY flag to <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">IShellItem2::GetPropertyStore</a>.
 
-You must initialize Component Object Model (COM) with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before you call <a href="https://msdn.microsoft.com/library/Bb776499(v=VS.85).aspx">PSGetItemPropertyHandler</a>. COM must remain initialized for the lifetime of this object.
+You must initialize Component Object Model (COM) with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before you call <a href="shell.PSGetItemPropertyHandler">PSGetItemPropertyHandler</a>. COM must remain initialized for the lifetime of this object.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776499(v=VS.85).aspx">PSGetItemPropertyHandler</a> to obtain a property handler for an item.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetItemPropertyHandler">PSGetItemPropertyHandler</a> to obtain a property handler for an item.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

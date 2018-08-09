@@ -7,7 +7,7 @@ old-location: controls\Header_GetOrderArray.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getorderarray.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Header_GetOrderArray, Header_GetOrderArray macro [Windows Controls], _win32_Header_GetOrderArray, _win32_Header_GetOrderArray_cpp, commctrl/Header_GetOrderArray, controls.Header_GetOrderArray, controls._win32_Header_GetOrderArray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the current left-to-right order of items in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775343(v=VS.85).aspx">HDM_GETORDERARRAY</a> message explicitly. 
+Gets the current left-to-right order of items in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775343(v=VS.85).aspx">HDM_GETORDERARRAY</a> message explicitly. 
 
 
 ## -parameters
@@ -60,39 +60,20 @@ Gets the current left-to-right order of items in a header control. You can use t
 
 ### -param hwnd
 
-TBD
-
-
-### -param iCount
-
-TBD
-
-
-### -param lpi
-
-TBD
-
-
-
-
-
-
-#### - hwndHD
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a header control. 
 
 
-#### - iSize
+### -param iCount
 
 Type: <b>int</b>
 
 The number of integer elements that 
-					<i>lpiArray</i> can hold. This value must be equal to the number of items in the control (see <a href="https://msdn.microsoft.com/library/Bb775337(v=VS.85).aspx">HDM_GETITEMCOUNT</a>).
+					<i>lpiArray</i> can hold. This value must be equal to the number of items in the control (see <a href="https://msdn.microsoft.com/en-us/library/Bb775337(v=VS.85).aspx">HDM_GETITEMCOUNT</a>).
 
 
-#### - lpiArray
+### -param lpi
 
 Type: <b>int*</b>
 

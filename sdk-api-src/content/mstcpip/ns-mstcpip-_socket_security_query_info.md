@@ -7,7 +7,7 @@ old-location: winsock\socket_security_query_info.htm
 old-project: winsock
 ms.assetid: 90439ff6-e6a8-4124-b280-a65b9ca12787
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: SOCKET_INFO_CONNECTION_ENCRYPTED, SOCKET_INFO_CONNECTION_SECURED, SOCKET_SECURITY_QUERY_INFO, SOCKET_SECURITY_QUERY_INFO structure [Winsock], _SOCKET_SECURITY_QUERY_INFO, mstcpip/SOCKET_SECURITY_QUERY_INFO, winsock.socket_security_query_info
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,8 +113,7 @@ A handle to the access token for the peer computer's account during the course o
 
 
 
-The <b>SOCKET_SECURITY_QUERY_INFO</b> structure  is supported on Windows Vista
-  and later.
+The <b>SOCKET_SECURITY_QUERY_INFO</b> structure  is supported on Windows Vistaand later.
 
 The <b>SOCKET_SECURITY_QUERY_INFO</b> structure  is used by the <a href="https://msdn.microsoft.com/fda7738f-b7fc-49c3-aa40-9beea31d1009">WSAQuerySocketSecurity</a> function to return information about the security applied to a connection on a socket.
 

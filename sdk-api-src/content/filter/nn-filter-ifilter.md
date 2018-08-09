@@ -7,7 +7,7 @@ old-location: indexsrv\ifilter.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9sfm.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 08/03/2018
 ms.keywords: IFilter, IFilter interface [Indexing Service], IFilter interface [Indexing Service],described, _idxs_IFilter, filter/IFilter, indexsrv.ifilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,11 +51,11 @@ req.product: Internet Explorer 5
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Scans documents for text and properties (also called attributes). It extracts chunks of text from these documents, filtering out embedded formatting and retaining information about the position of the text. It also extracts chunks of values, which are properties of an entire document or of well-defined parts of a document. <b>IFilter</b> provides the foundation for building higher-level applications such as document indexers and application-independent viewers.
 
-For introductory information about how the <b>IFilter</b> interface works with documents and document properties, see <a href="https://msdn.microsoft.com/library/ms689715(v=VS.85).aspx">Properties of Documents</a>. For a synopsis and an example of how the <b>IFilter</b> interface processes a document, see <a href="https://msdn.microsoft.com/library/ms689681(v=VS.85).aspx">Property Filtering</a> and <a href="https://msdn.microsoft.com/library/ms689661(v=VS.85).aspx">Property Indexing</a>.
+For introductory information about how the <b>IFilter</b> interface works with documents and document properties, see <a href="https://msdn.microsoft.com/en-us/library/ms689715(v=VS.85).aspx">Properties of Documents</a>. For a synopsis and an example of how the <b>IFilter</b> interface processes a document, see <a href="https://msdn.microsoft.com/en-us/library/ms689681(v=VS.85).aspx">Property Filtering</a> and <a href="https://msdn.microsoft.com/en-us/library/ms689661(v=VS.85).aspx">Property Indexing</a>.
 
 
 
@@ -77,7 +77,7 @@ The <b>IFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms691053(v=VS.85).aspx">BindRegion</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691053(v=VS.85).aspx">BindRegion</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface representing the specified portion of object. Currently reserved for future use.
@@ -86,7 +86,7 @@ Retrieves an interface representing the specified portion of object. Currently r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms691080(v=VS.85).aspx">GetChunk</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691080(v=VS.85).aspx">GetChunk</a>
 </td>
 <td align="left" width="63%">
 Positions filter at beginning of first or next chunk and returns a descriptor.
@@ -137,15 +137,15 @@ Initializes a filtering session.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690929(v=VS.85).aspx">BindIFilterFromStorage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690929(v=VS.85).aspx">BindIFilterFromStorage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690827(v=VS.85).aspx">BindIFilterFromStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690827(v=VS.85).aspx">BindIFilterFromStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691002(v=VS.85).aspx">LoadIFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691002(v=VS.85).aspx">LoadIFilter</a>
  
 
  

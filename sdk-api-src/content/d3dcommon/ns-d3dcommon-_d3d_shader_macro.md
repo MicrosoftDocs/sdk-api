@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_macro.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_macro.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPD3D_SHADER_MACRO, 6228b971-e519-bff0-1831-d585a34e8212, D3D10_SHADER_MACRO, D3D10_SHADER_MACRO structure [Direct3D 10], D3D_SHADER_MACRO, D3D_SHADER_MACRO structure [Direct3D 10], LPD3D10_SHADER_MACRO, LPD3D10_SHADER_MACRO structure pointer [Direct3D 10], _D3D_SHADER_MACRO, d3d10shader/D3D10_SHADER_MACRO, d3d10shader/LPD3D10_SHADER_MACRO, d3dcommon/D3D10_SHADER_MACRO, d3dcommon/LPD3D10_SHADER_MACRO, direct3d10.d3d10_shader_macro"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ D3D10_SHADER_MACRO Shader_Macros[1] = { "zero", "0"  };
 </td>
 </tr>
 </table></span></div>
-There are several shader or effect creation methods (such as <a href="https://msdn.microsoft.com/library/Bb205084(v=VS.85).aspx">D3D10CompileShader</a>, <a href="https://msdn.microsoft.com/library/Bb172658(v=VS.85).aspx">D3DX10CreateEffectFromFile</a> or <a href="https://msdn.microsoft.com/library/Bb172681(v=VS.85).aspx">D3DX10PreprocessShaderFromFile</a>) that take an array of macros as an input parameter.
+There are several shader or effect creation methods (such as <a href="https://msdn.microsoft.com/en-us/library/Bb205084(v=VS.85).aspx">D3D10CompileShader</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172658(v=VS.85).aspx">D3DX10CreateEffectFromFile</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb172681(v=VS.85).aspx">D3DX10PreprocessShaderFromFile</a>) that take an array of macros as an input parameter.
 
 The      <b>D3D10_SHADER_MACRO</b> structure is type defined in the  D3D10shader.h header file as a <a href="https://msdn.microsoft.com/8cfe0b3c-5ce8-4d59-8fd9-0fdf200c9552">D3D_SHADER_MACRO</a> structure, which is fully defined in the  D3DCommon.h header file.
 

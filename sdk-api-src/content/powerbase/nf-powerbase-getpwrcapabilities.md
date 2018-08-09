@@ -7,7 +7,7 @@ old-location: base\getpwrcapabilities.htm
 old-project: power
 ms.assetid: bb5cec5f-8d45-4158-824a-023f92af9b69
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetPwrCapabilities, GetPwrCapabilities function, _win32_getpwrcapabilities, base.getpwrcapabilities, powerbase/GetPwrCapabilities, powrprof/GetPwrCapabilities
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,14 +60,7 @@ Retrieves information about the system power capabilities.
 
 
 
-### -param lpspc
-
-TBD
-
-
-
-
-#### - lpSystemPowerCapabilities [out]
+### -param lpspc [out]
 
 A pointer to a 
 <a href="https://msdn.microsoft.com/aa0af56e-59b3-4d0d-b356-a4046d8754ef">SYSTEM_POWER_CAPABILITIES</a> structure that receives the information.

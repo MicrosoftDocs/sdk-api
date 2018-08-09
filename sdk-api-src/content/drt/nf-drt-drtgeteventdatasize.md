@@ -7,7 +7,7 @@ old-location: p2p\drtgeteventdatasize.htm
 old-project: p2psdk
 ms.assetid: b73431fc-6b5a-41f7-8616-6d82dc8844f4
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: DrtGetEventDataSize, DrtGetEventDataSize function [Peer Networking], drt/DrtGetEventDataSize, p2p.drtgeteventdatasize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,19 +58,14 @@ The <b>DrtGetEventDataSize</b> function returns the size of the <a href="https:/
 
 
 
-### -param hDrt
+### -param hDrt [in]
 
-TBD
+Handle to the Distributed Routing Table instance for which the event occurred.
 
 
 ### -param pulEventDataLen [out]
 
 The size, in bytes, of the event data.
-
-
-#### - hDRT [in]
-
-Handle to the Distributed Routing Table instance for which the event occurred.
 
 
 ## -returns

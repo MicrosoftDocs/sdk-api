@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacontextexpire0.htm
 old-project: fwp
 ms.assetid: 7e249e61-ba40-4dd9-b675-c3c86e8dd1bf
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPsecSaContextExpire0, IPsecSaContextExpire0 function [Filtering], fwp.ipsecsacontextexpire0, fwpmu/IPsecSaContextExpire0
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaRemoveEventClientEvent.htm
 old-project: WinAuto
 ms.assetid: c98b3e0f-c3d3-45a5-b1a1-80da1b5673f3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: UiaRemoveEvent, UiaRemoveEvent function [Windows Accessibility], uiauto.uiauto_UiaRemoveEventClientEvent, uiauto_UiaRemoveEventClientEvent, uiautomationcoreapi/UiaRemoveEvent, winauto.uiauto_UiaRemoveEventClientEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-### -param hEvent
-
-TBD
-
-
-
-
-#### - hevent [in]
+### -param hEvent [in]
 
 Type: <b>HUIAEVENT</b>
 

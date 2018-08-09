@@ -7,7 +7,7 @@ old-location: eaphost\eapmethodauthenticatorshutdown.htm
 old-project: eaphost
 ms.assetid: 7b6f883f-f3ea-48d0-b61c-9056316cd232
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapMethodAuthenticatorShutdown, EapMethodAuthenticatorShutdown function [EAPHost], eaphost.eapmethodauthenticatorshutdown, eapmethodauthenticatorapis/EapMethodAuthenticatorShutdown
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,19 +61,14 @@ Shuts down the EAP authenticator method and prepares to unload it from the serve
 
 
 
-### -param pEapType
+### -param pEapType [in]
 
-TBD
+A pointer to an  <a href="https://msdn.microsoft.com/47702dd9-d9c2-4dd5-a12d-23a55b031d27">EAP_METHOD_TYPE</a> enumeration that specifies the type of EAP authentication used in the session.
 
 
 ### -param ppEapError [out]
 
 A pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://msdn.microsoft.com/8fcf82d6-9809-4a28-a694-1f7494216f82">EapMethodAuthenticatorFreeErrorMemory</a>.
-
-
-#### - peapType [in]
-
-A pointer to an  <a href="https://msdn.microsoft.com/47702dd9-d9c2-4dd5-a12d-23a55b031d27">EAP_METHOD_TYPE</a> enumeration that specifies the type of EAP authentication used in the session.
 
 
 ## -remarks

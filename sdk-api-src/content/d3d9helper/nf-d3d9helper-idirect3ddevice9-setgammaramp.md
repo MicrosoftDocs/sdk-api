@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setgammaramp.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setgammaramp.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetGammaRamp method, IDirect3DDevice9.SetGammaRamp, IDirect3DDevice9::SetGammaRamp, SetGammaRamp, SetGammaRamp method [Direct3D 9], SetGammaRamp method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetGammaRamp, direct3d9.idirect3ddevice9__setgammaramp, e89cee81-1943-1a70-dd75-6de0d4b7dca7
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,9 +105,9 @@ No gamma correction is applied. The supplied gamma table is transferred directly
 
 ### -param pRamp [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb172561(v=VS.85).aspx">D3DGAMMARAMP</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172561(v=VS.85).aspx">D3DGAMMARAMP</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb172561(v=VS.85).aspx">D3DGAMMARAMP</a> structure, representing the gamma correction ramp to be set for the implicit swap chain. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172561(v=VS.85).aspx">D3DGAMMARAMP</a> structure, representing the gamma correction ramp to be set for the implicit swap chain. 
 
 
 ## -returns
@@ -127,7 +127,7 @@ There is always at least one swap chain (the implicit swap chain) for each devic
 
 If the device does not support gamma ramps in the swap chain's current presentation mode (full-screen or windowed), no error return is given. Applications can check the D3DCAPS2_FULLSCREENGAMMA and D3DCAPS2_CANCALIBRATEGAMMA capability bits in the Caps2 member of the D3DCAPS9 structure to determine the capabilities of the device and whether a calibrator is installed.
 
-For windowed gamma correction presentation, use <a href="https://msdn.microsoft.com/library/Bb205908(v=VS.85).aspx">IDirect3DSwapChain9::Present</a> if the hardware supports the feature. In DirectX 8, SetGammaRamp will set the gamma ramp only on a full-screen mode application. For more information about gamma correction, see <a href="https://msdn.microsoft.com/library/Bb173460(v=VS.85).aspx">Gamma (Direct3D 9)</a>.
+For windowed gamma correction presentation, use <a href="https://msdn.microsoft.com/en-us/library/Bb205908(v=VS.85).aspx">IDirect3DSwapChain9::Present</a> if the hardware supports the feature. In DirectX 8, SetGammaRamp will set the gamma ramp only on a full-screen mode application. For more information about gamma correction, see <a href="https://msdn.microsoft.com/en-us/library/Bb173460(v=VS.85).aspx">Gamma (Direct3D 9)</a>.
 
 
 
@@ -137,15 +137,15 @@ For windowed gamma correction presentation, use <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174390(v=VS.85).aspx">IDirect3DDevice9::GetGammaRamp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174390(v=VS.85).aspx">IDirect3DDevice9::GetGammaRamp</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205899(v=VS.85).aspx">IDirect3DSwapChain9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205899(v=VS.85).aspx">IDirect3DSwapChain9</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: rras\mprconfigserversetinfo.htm
 old-project: rras
 ms.assetid: 95fe0dfb-cfa6-4e84-a060-4b0fffc71a3d
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprConfigServerSetInfo, MprConfigServerSetInfo function [RAS], mprapi/MprConfigServerSetInfo, rras.mprconfigserversetinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -138,7 +138,6 @@ A system reboot is required for such a change to take affect. Change the port co
 </dl>
 </td>
 <td width="60%">
-
 If you try to set the number of ports to more than the system supported limits as defined on the <a href="https://msdn.microsoft.com/ea27a928-055b-4705-8f7c-dd9a221b2573">MPR_SERVER_1</a> and <a href="https://msdn.microsoft.com/9e38651a-541f-4470-a841-4eb94dbe4835">MPR_SERVER_2</a> topics.
 
 Returns this error if you try to set the number of PPTP ports to 0.
@@ -208,7 +207,7 @@ The topic <a href="https://msdn.microsoft.com/9e4aa8d4-e09e-4c84-acf0-c505a58841
 
 
 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
 
 
 

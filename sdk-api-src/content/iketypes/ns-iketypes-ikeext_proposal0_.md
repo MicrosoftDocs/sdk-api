@@ -7,7 +7,7 @@ old-location: fwp\ikeext_proposal0.htm
 old-project: fwp
 ms.assetid: 59568ef7-12bd-407a-a8ee-9bf261f49883
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IKEEXT_PROPOSAL0, IKEEXT_PROPOSAL0 structure [Filtering], IKEEXT_PROPOSAL0_, fwp.ikeext_proposal0, iketypes/IKEEXT_PROPOSAL0
 ms.prod: windows
 ms.technology: windows-sdk

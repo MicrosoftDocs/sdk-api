@@ -7,7 +7,7 @@ old-location: tsf\itfrange_collapse.htm
 old-project: TSF
 ms.assetid: 657b1ffe-a958-4eb0-8014-6c068711b809
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: Collapse, Collapse method [Text Services Framework], Collapse method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],Collapse method, ITfRange.Collapse, ITfRange::Collapse, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_collapse_ref, msctf/ITfRange::Collapse, tsf.itfrange_collapse
 ms.prod: windows
 ms.technology: windows-sdk
@@ -170,8 +170,7 @@ The cookie in <i>ec</i> is invalid, or the caller does not have a read-only lock
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
       </a>
 
 
@@ -184,8 +183,7 @@ The cookie in <i>ec</i> is invalid, or the caller does not have a read-only lock
 
 
 
-<a href="https://msdn.microsoft.com/d670666f-2915-4a23-b825-b534a015e37f">
-        TfAnchor
+<a href="https://msdn.microsoft.com/d670666f-2915-4a23-b825-b534a015e37f">TfAnchor
       </a>
  
 

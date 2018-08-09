@@ -7,7 +7,7 @@ old-location: intl\immgetcompositionwindow.htm
 old-project: Intl
 ms.assetid: d2c93eac-f221-4d65-af8c-45c687df6024
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmGetCompositionWindow, ImmGetCompositionWindow function [Internationalization for Windows Applications], _win32_ImmGetCompositionWindow, imm/ImmGetCompositionWindow, intl.immgetcompositionwindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,19 +60,14 @@ Retrieves information about the composition window.
 
 
 
-### -param HIMC
+### -param HIMC [in]
 
-TBD
+Handle to the input context.
 
 
 ### -param lpCompForm [out]
 
 Pointer to a <a href="https://msdn.microsoft.com/9b76474a-1ea9-4fcf-9fa8-deee5009a7ba">COMPOSITIONFORM</a> structure in which the function retrieves information about the composition window.
-
-
-#### - hIMC [in]
-
-Handle to the input context.
 
 
 ## -returns

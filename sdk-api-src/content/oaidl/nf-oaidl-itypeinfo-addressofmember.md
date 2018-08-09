@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_addressofmember.htm
 old-project: automat
 ms.assetid: cf351457-13ff-4e40-9d92-89c6db42627c
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: AddressOfMember, AddressOfMember method [Automation], AddressOfMember method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],AddressOfMember method, ITypeInfo.AddressOfMember, ITypeInfo::AddressOfMember, _oa96_ITypeInfo_AddressOfMember, automat.itypeinfo_addressofmember, oaidl/ITypeInfo::AddressOfMember
 ms.prod: windows
 ms.technology: windows-sdk

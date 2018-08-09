@@ -7,7 +7,7 @@ old-location: mscs\registerclusterresourcetypenotifyv2.htm
 old-project: mscs
 ms.assetid: 2E7DE3C3-F64B-4D5E-ADE9-B7CE60CB0E78
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: RegisterClusterResourceTypeNotifyV2, RegisterClusterResourceTypeNotifyV2 function [Failover Cluster], clusapi/RegisterClusterResourceTypeNotifyV2, mscs.registerclusterresourcetypenotifyv2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-Adds a notification type to a cluster notification port.
-   This allows      an application to register for notification events that only affect a particular      cluster object.
+Adds a notification type to a cluster notification port.This allows      an application to register for notification events that only affect a particular      cluster object.
 
 
 ## -parameters

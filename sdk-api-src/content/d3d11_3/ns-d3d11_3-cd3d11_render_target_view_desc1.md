@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_render_target_view_desc1.htm
 old-project: direct3d11
 ms.assetid: D87F06B4-7574-4BBD-A481-653CA35B8FB2
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: CD3D11_RENDER_TARGET_VIEW_DESC1, D3D11_RENDER_TARGET_VIEW_DESC1, D3D11_RENDER_TARGET_VIEW_DESC1 structure [Direct3D 11], d3d11_3/D3D11_RENDER_TARGET_VIEW_DESC1, direct3d11.d3d11_render_target_view_desc1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,16 +65,21 @@ Describes the subresources from a resource that are accessible using a render-ta
 
 
 
+#### - Format
+
+A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that specifies the data format.
+
+
+
+
+#### - ViewDimension
+
+A <a href="https://msdn.microsoft.com/42cbd3ec-fa8a-48ea-be88-bbe46db13566">D3D11_RTV_DIMENSION</a>-typed value that specifies the resource type and how the render-target resource will be accessed.
+
+
 #### - Buffer
 
 A <a href="https://msdn.microsoft.com/979c69cf-f9b5-4b10-92ff-ad5245880802">D3D11_BUFFER_RTV</a> structure that specifies which buffer elements can be accessed.
-
-
-#### - Format
-
-A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that specifies the data format.
-
-
 
 
 #### - Texture1D
@@ -110,11 +115,6 @@ A <a href="https://msdn.microsoft.com/ec08341c-980f-4d5f-8eb9-f41835105b46">D3D1
 #### - Texture3D
 
 A <a href="https://msdn.microsoft.com/58a4b383-ad5d-4eb0-bff5-8825c3ae8dd1">D3D11_TEX3D_RTV</a> structure that specifies subresources in a 3D texture that can be accessed.
-
-
-#### - ViewDimension
-
-A <a href="https://msdn.microsoft.com/42cbd3ec-fa8a-48ea-be88-bbe46db13566">D3D11_RTV_DIMENSION</a>-typed value that specifies the resource type and how the render-target resource will be accessed.
 
 
 ## -remarks

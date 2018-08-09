@@ -7,7 +7,7 @@ old-location: winprog\multiplyextract128.htm
 old-project: winprog
 ms.assetid: 7b178c3e-076c-472b-8205-3a52a0e6a7b5
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: MultiplyExtract128, MultiplyExtract128 function [Windows API], winnt/MultiplyExtract128, winprog.multiplyextract128
 ms.prod: windows
 ms.technology: windows-sdk

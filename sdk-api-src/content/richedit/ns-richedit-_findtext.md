@@ -7,7 +7,7 @@ old-location: controls\FINDTEXT.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\findtext.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: FINDTEXT, FINDTEXT structure [Windows Controls], FINDTEXTA, FINDTEXTW, _findtext, _win32_FINDTEXT_str, _win32_FINDTEXT_str_cpp, controls.FINDTEXT, controls._win32_FINDTEXT_str, richedit/FINDTEXT, richedit/FINDTEXTA, richedit/FINDTEXTW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: ADAM
 ## -description
 
 
-Contains information about a search operation in a rich edit control. This structure is used with the <a href="https://msdn.microsoft.com/library/Bb788009(v=VS.85).aspx">EM_FINDTEXT</a> message.
+Contains information about a search operation in a rich edit control. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb788009(v=VS.85).aspx">EM_FINDTEXT</a> message.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ Contains information about a search operation in a rich edit control. This struc
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb787885(v=VS.85).aspx">CHARRANGE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a></b>
 
 The range of characters to search. 
 
@@ -80,15 +80,15 @@ The null-terminated string used in the find operation.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb788009(v=VS.85).aspx">EM_FINDTEXT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb788009(v=VS.85).aspx">EM_FINDTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb788015(v=VS.85).aspx">EM_FINDTEXTW</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb788015(v=VS.85).aspx">EM_FINDTEXTW</a>
 
 
 

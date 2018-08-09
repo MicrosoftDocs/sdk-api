@@ -7,7 +7,7 @@ old-location: gdi\getworldtransform.htm
 old-project: gdi
 ms.assetid: 72945b1e-144e-4724-bf08-6f971f8adb43
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetWorldTransform, GetWorldTransform function [Windows GDI], _win32_GetWorldTransform, gdi.getworldtransform, wingdi/GetWorldTransform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,7 @@ The <b>GetWorldTransform</b> function retrieves the current world-space to page-
 A handle to the device context.
 
 
-### -param lpxf
-
-TBD
-
-
-
-
-#### - lpXform [out]
+### -param lpxf [out]
 
 A pointer to an <a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a> structure that receives the current world-space to page-space transformation.
 

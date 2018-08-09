@@ -7,7 +7,7 @@ old-location: shell\Shell_NotifyIcon.htm
 old-project: shell
 ms.assetid: a316bc29-5f19-4a04-a32b-f4caeea0c029
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: NIM_ADD, NIM_DELETE, NIM_MODIFY, NIM_SETFOCUS, NIM_SETVERSION, Shell_NotifyIcon, Shell_NotifyIcon function [Windows Shell], Shell_NotifyIconA, Shell_NotifyIconW, _win32_Shell_NotifyIcon, shell.Shell_NotifyIcon, shellapi/Shell_NotifyIcon, shellapi/Shell_NotifyIconA, shellapi/Shell_NotifyIconW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,11 +104,11 @@ NIM_SETVERSION must be called every time a notification area icon is added (NIM_
 For details, see the Remarks section.
 
 
-### -param lpData
+### -param lpData [in]
 
-TBD
+Type: <b>PNOTIFYICONDATA</b>
 
-
+A pointer to a <a href="https://msdn.microsoft.com/fdcc42c1-b3e5-4b04-8d79-7b6c29699d53">NOTIFYICONDATA</a> structure. The content of the structure depends on the value of <i>dwMessage</i>. It can define an icon to add to the notification area, cause that icon to display a notification, or identify an icon to modify or delete.
 
 
 ##### - dwMessage.NIM_ADD (0x00000000)
@@ -116,14 +116,14 @@ TBD
 0x00000000. Adds an icon to the status area. The icon is given an identifier in the <a href="https://msdn.microsoft.com/fdcc42c1-b3e5-4b04-8d79-7b6c29699d53">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i>—either through its <b>uID</b> or <b>guidItem</b> member. This identifier is used in subsequent calls to <b>Shell_NotifyIcon</b> to perform later actions on the icon.
 
 
-##### - dwMessage.NIM_DELETE (0x00000002)
-
-0x00000002. Deletes an icon from the status area. <a href="https://msdn.microsoft.com/fdcc42c1-b3e5-4b04-8d79-7b6c29699d53">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> uses the ID originally assigned to the icon when it was added to the notification area (NIM_ADD) to identify the icon to be deleted.
-
-
 ##### - dwMessage.NIM_MODIFY (0x00000001)
 
 0x00000001. Modifies an icon in the status area. <a href="https://msdn.microsoft.com/fdcc42c1-b3e5-4b04-8d79-7b6c29699d53">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> uses the ID originally assigned to the icon when it was added to the notification area (NIM_ADD) to identify the icon to be modified.
+
+
+##### - dwMessage.NIM_DELETE (0x00000002)
+
+0x00000002. Deletes an icon from the status area. <a href="https://msdn.microsoft.com/fdcc42c1-b3e5-4b04-8d79-7b6c29699d53">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> uses the ID originally assigned to the icon when it was added to the notification area (NIM_ADD) to identify the icon to be deleted.
 
 
 ##### - dwMessage.NIM_SETFOCUS (0x00000003)
@@ -138,13 +138,6 @@ TBD
 NIM_SETVERSION must be called every time a notification area icon is added (NIM_ADD)&gt;. It does not need to be called with NIM_MOFIDY. The version setting is not persisted once a user logs off.
 
 For details, see the Remarks section.
-
-
-#### - lpdata [in]
-
-Type: <b>PNOTIFYICONDATA</b>
-
-A pointer to a <a href="https://msdn.microsoft.com/fdcc42c1-b3e5-4b04-8d79-7b6c29699d53">NOTIFYICONDATA</a> structure. The content of the structure depends on the value of <i>dwMessage</i>. It can define an icon to add to the notification area, cause that icon to display a notification, or identify an icon to modify or delete.
 
 
 ## -returns
@@ -165,9 +158,9 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. If <i>dwMessage</i
 As of Windows 2000 (<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Shell32.dll version 5.0</a>), if you set the <b>uVersion</b> member of the <a href="https://msdn.microsoft.com/fdcc42c1-b3e5-4b04-8d79-7b6c29699d53">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> to NOTIFYICON_VERSION_4 or higher, <b>Shell_NotifyIcon</b> mouse and keyboard events are handled differently than in earlier versions of Windows. The differences include the following:
 
 <ul>
-<li>If a user selects a notify icon's shortcut menu with the keyboard, the Shell now sends the associated application a <a href="https://msdn.microsoft.com/library/ms647592(v=VS.85).aspx">WM_CONTEXTMENU</a> message. Earlier versions send <a href="https://msdn.microsoft.com/library/ms646242(v=VS.85).aspx">WM_RBUTTONDOWN</a> and <a href="https://msdn.microsoft.com/library/ms646243(v=VS.85).aspx">WM_RBUTTONUP</a> messages.</li>
-<li>If a user selects a notify icon with the keyboard and activates it with the SPACEBAR or ENTER key, the version 5.0 Shell sends the associated application an NIN_KEYSELECT notification. Earlier versions send <a href="https://msdn.microsoft.com/library/ms646242(v=VS.85).aspx">WM_RBUTTONDOWN</a> and <a href="https://msdn.microsoft.com/library/ms646243(v=VS.85).aspx">WM_RBUTTONUP</a> messages.</li>
-<li>If a user selects a notify icon with the mouse and activates it with the ENTER key, the Shell now sends the associated application an NIN_SELECT notification. Earlier versions send <a href="https://msdn.microsoft.com/library/ms646242(v=VS.85).aspx">WM_RBUTTONDOWN</a> and <a href="https://msdn.microsoft.com/library/ms646243(v=VS.85).aspx">WM_RBUTTONUP</a> messages.</li>
+<li>If a user selects a notify icon's shortcut menu with the keyboard, the Shell now sends the associated application a <a href="https://msdn.microsoft.com/en-us/library/ms647592(v=VS.85).aspx">WM_CONTEXTMENU</a> message. Earlier versions send <a href="https://msdn.microsoft.com/en-us/library/ms646242(v=VS.85).aspx">WM_RBUTTONDOWN</a> and <a href="https://msdn.microsoft.com/en-us/library/ms646243(v=VS.85).aspx">WM_RBUTTONUP</a> messages.</li>
+<li>If a user selects a notify icon with the keyboard and activates it with the SPACEBAR or ENTER key, the version 5.0 Shell sends the associated application an NIN_KEYSELECT notification. Earlier versions send <a href="https://msdn.microsoft.com/en-us/library/ms646242(v=VS.85).aspx">WM_RBUTTONDOWN</a> and <a href="https://msdn.microsoft.com/en-us/library/ms646243(v=VS.85).aspx">WM_RBUTTONUP</a> messages.</li>
+<li>If a user selects a notify icon with the mouse and activates it with the ENTER key, the Shell now sends the associated application an NIN_SELECT notification. Earlier versions send <a href="https://msdn.microsoft.com/en-us/library/ms646242(v=VS.85).aspx">WM_RBUTTONDOWN</a> and <a href="https://msdn.microsoft.com/en-us/library/ms646243(v=VS.85).aspx">WM_RBUTTONUP</a> messages.</li>
 </ul>
 As of Windows XP (<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Shell32.dll version 6.0</a>), if a user passes the mouse pointer over an icon with which a balloon notification is associated, the Shell sends the following messages:
 

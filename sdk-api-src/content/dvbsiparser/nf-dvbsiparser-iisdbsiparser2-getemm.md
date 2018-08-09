@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparser2_getemm.htm
 old-project: mstv
 ms.assetid: 9dc2aaa9-50f0-4c72-a252-3757a1aa13b7
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetEMM, GetEMM method [Microsoft TV Technologies], GetEMM method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetEMM method, IIsdbSiParser2.GetEMM, IIsdbSiParser2::GetEMM, dvbsiparser/IIsdbSiParser2::GetEMM, mstv.iisdbsiparser2_getemm
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ Value of the table_id field for the EMM. This field value identifies a subtable 
 
 ### -param ppEMM [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/a1389e7c-a3f1-4782-b811-5e09615b3e47">IISDB_EMM</a>
-interface. Use this interface to retrieve the information in the table. 
+Receives a pointer to the <a href="https://msdn.microsoft.com/a1389e7c-a3f1-4782-b811-5e09615b3e47">IISDB_EMM</a>interface. Use this interface to retrieve the information in the table. 
 The caller must release the interface.
 
 

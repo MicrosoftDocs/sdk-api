@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutingrules_add.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_50f8.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],FaxOutboundRoutingRules object, FaxOutboundRoutingRules object [Fax Service],Add method, FaxOutboundRoutingRules.Add, IFaxOutboundRoutingRules.Add, IFaxOutboundRoutingRules::Add, _mfax_faxoutboundroutingrules.add, fax._mfax_faxoutboundroutingrules_add
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Add</b> method adds an outbound routing rule (<a href="https://msdn.microsoft.com/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object) to the <a href="https://msdn.microsoft.com/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a> collection.
+The <b>Add</b> method adds an outbound routing rule (<a href="https://msdn.microsoft.com/en-us/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object) to the <a href="https://msdn.microsoft.com/en-us/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a> collection.
 
 
 ## -parameters
@@ -64,14 +64,14 @@ The <b>Add</b> method adds an outbound routing rule (<a href="https://msdn.micro
 
 Type: <b>Long</b>
 
-A <b>Long</b> value that specifies the country/region code to associate with the outbound routing rule. Specifying <a href="https://msdn.microsoft.com/library/ms687973(v=VS.85).aspx">frrcANY_CODE</a> will add a rule that applies to any country/region code.
+A <b>Long</b> value that specifies the country/region code to associate with the outbound routing rule. Specifying <a href="https://msdn.microsoft.com/en-us/library/ms687973(v=VS.85).aspx">frrcANY_CODE</a> will add a rule that applies to any country/region code.
 
 
 ### -param lAreaCode
 
 Type: <b>Long</b>
 
-Specifies a <b>Long</b> value that indicates the area code to associate with the outbound routing rule. Specifying <a href="https://msdn.microsoft.com/library/ms687973(v=VS.85).aspx">frrcANY_CODE</a> will add a rule that applies to any area code within the specified country/region code.
+Specifies a <b>Long</b> value that indicates the area code to associate with the outbound routing rule. Specifying <a href="https://msdn.microsoft.com/en-us/library/ms687973(v=VS.85).aspx">frrcANY_CODE</a> will add a rule that applies to any area code within the specified country/region code.
 
 
 ### -param bUseDevice
@@ -106,9 +106,9 @@ Specifies the device to associate with the outbound routing rule. If <i>bUseDevi
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a>**</b>
 
-A <a href="https://msdn.microsoft.com/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object.
+A <a href="https://msdn.microsoft.com/en-us/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object.
 
 
 
@@ -117,9 +117,9 @@ A <a href="https://msdn.microsoft.com/library/ms690230(v=VS.85).aspx">FaxOutboun
 
 
 
-This method can also return remote procedure call (RPC) return values. For more information, see <a href="https://msdn.microsoft.com/library/Aa378645(v=VS.85).aspx">RPC Return Values</a>.
+This method can also return remote procedure call (RPC) return values. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa378645(v=VS.85).aspx">RPC Return Values</a>.
 
-To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farMANAGE_CONFIG</a> access right.
+To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farMANAGE_CONFIG</a> access right.
 
 
 
@@ -129,15 +129,15 @@ To read or to write to this property, a user must have the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689527(v=VS.85).aspx">IFaxOutboundRoutingRules</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689527(v=VS.85).aspx">IFaxOutboundRoutingRules</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693486(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693486(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

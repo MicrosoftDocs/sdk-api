@@ -4,10 +4,10 @@ title: ITaskSettings::put_StopIfGoingOnBatteries
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the task will be stopped if the computer is going onto batteries.
 old-location: taskschd\itasksettings_stopifgoingonbatteries.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 84647124-8cb2-47f9-a86c-80bb2a629c88
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],StopIfGoingOnBatteries property, ITaskSettings.StopIfGoingOnBatteries, ITaskSettings.put_StopIfGoingOnBatteries, ITaskSettings::StopIfGoingOnBatteries, ITaskSettings::get_StopIfGoingOnBatteries, ITaskSettings::put_StopIfGoingOnBatteries, StopIfGoingOnBatteries property [Task Scheduler], StopIfGoingOnBatteries property [Task Scheduler],ITaskSettings interface, put_StopIfGoingOnBatteries, taskschd.itasksettings_stopifgoingonbatteries, taskschd/ITaskSettings::StopIfGoingOnBatteries, taskschd/ITaskSettings::get_StopIfGoingOnBatteries, taskschd/ITaskSettings::put_StopIfGoingOnBatteries
 ms.prod: windows
 ms.technology: windows-sdk

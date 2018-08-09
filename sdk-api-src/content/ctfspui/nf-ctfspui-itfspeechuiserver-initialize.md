@@ -7,7 +7,7 @@ old-location: tsf\itfspeechuiserver_initialize.htm
 old-project: TSF
 ms.assetid: 5a51b8c7-3d29-4566-8cfa-f76dfd067aa8
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfSpeechUIServer interface [Text Services Framework],Initialize method, ITfSpeechUIServer.Initialize, ITfSpeechUIServer::Initialize, Initialize, Initialize method [Text Services Framework], Initialize method [Text Services Framework],ITfSpeechUIServer interface, ctfspui/ITfSpeechUIServer::Initialize, tsf.itfspeechuiserver_initialize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PdhFormatFromRawValue function
 author: windows-sdk-content
 description: Computes a displayable value for the given raw counter values.
 old-location: perf\pdhformatfromrawvalue.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 13027af4-2e76-4c2f-88e8-a2554a16fae3
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhFormatFromRawValue, PdhFormatFromRawValue function [Perf], _win32_pdhformatfromrawvalue, base.pdhformatfromrawvalue, pdh/PdhFormatFromRawValue, perf.pdhformatfromrawvalue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Computes a displayable value for the given raw counter values.
+Computes a displayable value for the given raw counter values.
 		
 
 
@@ -114,8 +113,7 @@ Return the calculated value as a long integer.
 </table>
  
 
-
-						You can use the bitwise inclusive OR operator (|) to combine the data type with one of the following scaling factors.
+You can use the bitwise inclusive OR operator (|) to combine the data type with one of the following scaling factors.
 
 <table>
 <tr>
@@ -161,45 +159,27 @@ Multiply the final value by 1,000.
 Pointer to the time base, if necessary for the format conversion. If time base information is not necessary for the format conversion, the value of this parameter is ignored. To retrieve the time base of the counter, call <a href="https://msdn.microsoft.com/b034c00e-50f1-46af-aebc-0cb968c0b737">PdhGetCounterTimeBase</a>.
 
 
-### -param pRawValue1
-
-TBD
-
-
-### -param pRawValue2
-
-TBD
-
-
-### -param pFmtValue
-
-TBD
-
-
-
-
-#### - fmtValue [out]
-
-A 
-<a href="https://msdn.microsoft.com/68ccd722-94d2-4610-ba64-f51318f5436e">PDH_FMT_COUNTERVALUE</a> structure that receives the calculated counter value.
-
-
-#### - rawValue1 [in]
+### -param pRawValue1 [in]
 
 Raw counter value used to compute the displayable counter value. For details, see <a href="https://msdn.microsoft.com/237a3c82-0ab4-45cb-bd93-2f308178c573">PDH_RAW_COUNTER</a>. 
 
 
-#### - rawValue2 [in]
+### -param pRawValue2 [in]
 
 Raw counter value used to compute the displayable counter value. For details, see <a href="https://msdn.microsoft.com/237a3c82-0ab4-45cb-bd93-2f308178c573">PDH_RAW_COUNTER</a>. Some counters, for example, rate counters, require two raw values to calculate a displayable value. If the counter type does not require a second value, set this parameter to <b>NULL</b>. This value must be the older of the two raw values.
+
+
+### -param pFmtValue [out]
+
+A 
+<a href="https://msdn.microsoft.com/68ccd722-94d2-4610-ba64-f51318f5436e">PDH_FMT_COUNTERVALUE</a> structure that receives the calculated counter value.
 
 
 ## -returns
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

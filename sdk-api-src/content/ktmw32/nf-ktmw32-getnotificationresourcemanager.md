@@ -4,10 +4,10 @@ title: GetNotificationResourceManager function
 author: windows-sdk-content
 description: Requests and receives a notification for a resource manager (RM). This function is used by the RM register to receive notifications when a transaction changes state.
 old-location: fs\getnotificationresourcemanager.htm
-old-project: Ktm
+old-project: ktm
 ms.assetid: d606f960-e843-4478-8ba7-5201f85c44ce
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: GetNotificationResourceManager, GetNotificationResourceManager function [Files], fs.getnotificationresourcemanager, ktmw32/GetNotificationResourceManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,17 +83,17 @@ TBD
 
 
 
-#### - ReturnLength [out, optional]
-
-A pointer to a variable that receives the actual size of the notification received by the 
-      <i>TransactionNotification</i> parameter.
-
-
 #### - dwMilliseconds [in, optional]
 
 The time, in milliseconds, for which the calling application is blocking while waiting for the notification 
       to become available. If no notifications are available when the timeout expires, 
       <b>ERROR_TIMEOUT</b> is returned.
+
+
+#### - ReturnLength [out, optional]
+
+A pointer to a variable that receives the actual size of the notification received by the 
+      <i>TransactionNotification</i> parameter.
 
 
 ## -returns

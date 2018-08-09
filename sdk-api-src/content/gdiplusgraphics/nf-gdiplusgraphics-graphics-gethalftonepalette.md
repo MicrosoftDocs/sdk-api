@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetHalftonePalette_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\gethalftonepalette.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetHalftonePalette, GetHalftonePalette method [GDI+], GetHalftonePalette method [GDI+],Graphics class, Graphics class [GDI+],GetHalftonePalette method, Graphics.GetHalftonePalette, Graphics::GetHalftonePalette, _gdiplus_CLASS_Graphics_GetHalftonePalette_, gdiplus._gdiplus_CLASS_Graphics_GetHalftonePalette_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ The purpose of the <b>Graphics::GetHalftonePalette</b> method is to enable GDI+ 
 <li>Construct a 
 						<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object from a handle to the device context. </li>
 <li>Call the
-<a href="https://msdn.microsoft.com/library/ms536028(v=VS.85).aspx">Graphics::DrawImage</a> method of the 
+<a href="https://msdn.microsoft.com/en-us/library/ms536028(v=VS.85).aspx">Graphics::DrawImage</a> method of the 
 						<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object. </li>
 </ol>
 Be sure to delete the palette when you have finished using it. If you do not follow the preceding procedure, then on an 8-bits-per-pixel-display device, the default, 16-color process is used, which results in a lesser quality halftone.
@@ -132,7 +132,7 @@ The following example draws the same image twice. Before the image is drawn the 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535384(v=VS.85).aspx">GetPalette</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535384(v=VS.85).aspx">GetPalette</a>
 
 
 
@@ -144,7 +144,7 @@ The following example draws the same image twice. Before the image is drawn the 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535404(v=VS.85).aspx"> SetPalette</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535404(v=VS.85).aspx"> SetPalette</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mstv\idvbsiparser_gettdt.htm
 old-project: mstv
 ms.assetid: 0922ccda-7bd8-480d-8cd1-64f170b7ec69
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetTDT, GetTDT method [Microsoft TV Technologies], GetTDT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetTDT method, IDvbSiParser.GetTDT, IDvbSiParser::GetTDT, IDvbSiParserGetTDT, dvbsiparser/IDvbSiParser::GetTDT, mstv.idvbsiparser_gettdt
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_enablehorizontalmirrormode.htm
 old-project: medfound
 ms.assetid: 1B8F2CE8-0963-472F-8C30-AE2BBA844D26
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: EnableHorizontalMirrorMode, EnableHorizontalMirrorMode method [Media Foundation], EnableHorizontalMirrorMode method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],EnableHorizontalMirrorMode method, IMFMediaEngineEx.EnableHorizontalMirrorMode, IMFMediaEngineEx::EnableHorizontalMirrorMode, mf.imfmediaengineex_enablehorizontalmirrormode, mfmediaengine/IMFMediaEngineEx::EnableHorizontalMirrorMode
 ms.prod: windows
 ms.technology: windows-sdk

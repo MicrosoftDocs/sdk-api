@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessage_sender.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1iya.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxOutgoingMessage object [Fax Service],Sender property, FaxOutgoingMessage.Sender, IFaxOutgoingMessage.get_Sender, IFaxOutgoingMessage::get_Sender, Sender property [Fax Service], Sender property [Fax Service],FaxOutgoingMessage object, _mfax_faxoutgoingmessage.sender, fax._mfax_faxoutgoingmessage_sender, get_Sender
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,15 +65,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690152(v=VS.85).aspx">IFaxOutgoingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690152(v=VS.85).aspx">IFaxOutgoingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693402(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693402(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

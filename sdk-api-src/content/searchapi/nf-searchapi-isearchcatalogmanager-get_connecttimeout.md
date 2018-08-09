@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_get_ConnectTimeout.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\get_connecttimeout.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchCatalogManager interface [search],get_ConnectTimeout method, ISearchCatalogManager.get_ConnectTimeout, ISearchCatalogManager::get_ConnectTimeout, _search_ISearchCatalogManager_get_ConnectTimeout, get_ConnectTimeout, get_ConnectTimeout method [search], get_ConnectTimeout method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_get_ConnectTimeout, searchapi/ISearchCatalogManager::get_ConnectTimeout
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Gets the connection time-out value for connecting to a store for indexing.
 
 Type: <b>DWORD*</b>
 
-Receives a pointer to the time-out value, in seconds, from the <a href="https://msdn.microsoft.com/library/Aa965374(v=VS.85).aspx">TIMEOUT_INFO</a> structure.
+Receives a pointer to the time-out value, in seconds, from the <a href="https://msdn.microsoft.com/en-us/library/Aa965374(v=VS.85).aspx">TIMEOUT_INFO</a> structure.
 
 
 ## -returns

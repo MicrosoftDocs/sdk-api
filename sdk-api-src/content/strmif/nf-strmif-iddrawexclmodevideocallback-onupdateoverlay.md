@@ -7,7 +7,7 @@ old-location: dshow\iddrawexclmodevideocallback_onupdateoverlay.htm
 old-project: DirectShow
 ms.assetid: ede823ba-8340-4339-8e8a-e1d4f9ad1273
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IDDrawExclModeVideoCallback interface [DirectShow],OnUpdateOverlay method, IDDrawExclModeVideoCallback.OnUpdateOverlay, IDDrawExclModeVideoCallback::OnUpdateOverlay, IDDrawExclModeVideoCallbackOnUpdateOverlay, OnUpdateOverlay, OnUpdateOverlay method [DirectShow], OnUpdateOverlay method [DirectShow],IDDrawExclModeVideoCallback interface, dshow.iddrawexclmodevideocallback_onupdateoverlay, strmif/IDDrawExclModeVideoCallback::OnUpdateOverlay
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,9 +110,9 @@ Boolean specifying whether the new window is visible. <b>TRUE</b> means the new 
 Boolean value specifying whether the call is being made before or after the overlay-related change. <b>TRUE</b> specifies before, <b>FALSE</b> specifies after.
 
 
-#### - prcDestNew [in]
+#### - prcSrcOld [in]
 
-Pointer to the rectangle representing the new destination position of the rectangle in the overlay surface.
+Pointer to the rectangle representing the old source position of the DirectDraw surface.
 
 
 #### - prcDestOld [in]
@@ -125,9 +125,9 @@ Pointer to the rectangle representing the old destination position of the rectan
 Pointer to the rectangle representing the new source position of the DirectDraw surface.
 
 
-#### - prcSrcOld [in]
+#### - prcDestNew [in]
 
-Pointer to the rectangle representing the old source position of the DirectDraw surface.
+Pointer to the rectangle representing the new destination position of the rectangle in the overlay surface.
 
 
 ## -returns

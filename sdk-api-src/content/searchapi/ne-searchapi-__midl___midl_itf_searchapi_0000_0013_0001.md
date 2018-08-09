@@ -7,7 +7,7 @@ old-location: search\_search_CLUSION_REASON.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\clusion_reason.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: CLUSIONREASON_DEFAULT, CLUSIONREASON_GROUPPOLICY, CLUSIONREASON_UNKNOWNSCOPE, CLUSIONREASON_USER, CLUSION_REASON, CLUSION_REASON enumeration [search], __MIDL___MIDL_itf_searchapi_0000_0013_0001, _search_CLUSION_REASON, search._search_CLUSION_REASON, searchapi/CLUSIONREASON_DEFAULT, searchapi/CLUSIONREASON_GROUPPOLICY, searchapi/CLUSIONREASON_UNKNOWNSCOPE, searchapi/CLUSIONREASON_USER, searchapi/CLUSION_REASON
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: ADAM
 
 
 These flags enumerate reasons why URLs are included or excluded from the current crawl scope. The 
-<a href="https://msdn.microsoft.com/library/Bb266491(v=VS.85).aspx">ISearchCrawlScopeManager::IncludedInCrawlScopeEx</a> method returns a pointer to this enumeration to explain why a specified URL is either included or excluded from the current crawl scope.
+<a href="https://msdn.microsoft.com/en-us/library/Bb266491(v=VS.85).aspx">ISearchCrawlScopeManager::IncludedInCrawlScopeEx</a> method returns a pointer to this enumeration to explain why a specified URL is either included or excluded from the current crawl scope.
 
 
 ## -enum-fields
@@ -72,7 +72,7 @@ The URL has been included or excluded by a default rule. Default rules are set d
 
 ### -field CLUSIONREASON_USER
 
-The URL has been included or excluded by a user rule. User rules are set either by the user through Control Panel or by a calling application through the <a href="https://msdn.microsoft.com/library/Bb266492(v=VS.85).aspx">ISearchCrawlScopeManager</a> interface.
+The URL has been included or excluded by a user rule. User rules are set either by the user through Control Panel or by a calling application through the <a href="https://msdn.microsoft.com/en-us/library/Bb266492(v=VS.85).aspx">ISearchCrawlScopeManager</a> interface.
 
 
 ### -field CLUSIONREASON_GROUPPOLICY

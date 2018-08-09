@@ -4,10 +4,10 @@ title: ITSubStream::SelectTerminal
 author: windows-sdk-content
 description: The SelectTerminal method selects an ITTerminal object onto the substream. See the Remarks section under ITStream::SelectTerminal for additional information.
 old-location: tapi3\itsubstream_selectterminal.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 5dc558ab-7422-4106-831e-9d2812530e0a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],SelectTerminal method, ITSubStream.SelectTerminal, ITSubStream::SelectTerminal, SelectTerminal, SelectTerminal method [TAPI 2.2], SelectTerminal method [TAPI 2.2],ITSubStream interface, _tapi3_itsubstream_selectterminal, tapi3.itsubstream_selectterminal, tapi3if/ITSubStream::SelectTerminal
 ms.prod: windows
 ms.technology: windows-sdk

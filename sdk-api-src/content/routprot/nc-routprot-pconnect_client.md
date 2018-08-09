@@ -7,7 +7,7 @@ old-location: rras\connectclient.htm
 old-project: rras
 ms.assetid: 548d8411-ca03-4316-9adb-3b4b48a740d9
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: ConnectClient, ConnectClient callback function [RAS], PCONNECT_CLIENT, PCONNECT_CLIENT callback, _mpr_connectclient, routprot/ConnectClient, rras.connectclient
 ms.prod: windows
 ms.technology: windows-sdk

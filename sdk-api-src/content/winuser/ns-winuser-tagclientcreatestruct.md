@@ -7,7 +7,7 @@ old-location: winmsg\clientcreatestruct.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\clientcreatestruct.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPCLIENTCREATESTRUCT, CLIENTCREATESTRUCT, CLIENTCREATESTRUCT structure [Windows and Messages], LPCLIENTCREATESTRUCT, LPCLIENTCREATESTRUCT structure pointer [Windows and Messages], _win32_CLIENTCREATESTRUCT_str, _win32_clientcreatestruct_str_cpp, tagCLIENTCREATESTRUCT, winmsg.clientcreatestruct, winui._win32_clientcreatestruct_str, winuser/CLIENTCREATESTRUCT, winuser/LPCLIENTCREATESTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk

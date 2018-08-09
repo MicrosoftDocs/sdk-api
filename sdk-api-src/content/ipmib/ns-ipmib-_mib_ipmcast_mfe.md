@@ -7,7 +7,7 @@ old-location: mib\mib_ipmcast_mfe.htm
 old-project: mib
 ms.assetid: 731e2c88-5c4f-4165-a9f2-287b4c10c76b
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/30/2018
 ms.keywords: "*PMIB_IPMCAST_MFE, MIB_IPMCAST_MFE, MIB_IPMCAST_MFE structure [MIB], PMIB_IPMCAST_MFE, PMIB_IPMCAST_MFE structure pointer [MIB], _MIB_IPMCAST_MFE, _mpr_mib_ipmcast_mfe, ipmib/MIB_IPMCAST_MFE, ipmib/PMIB_IPMCAST_MFE, iprtrmib/MIB_IPMCAST_MFE, iprtrmib/PMIB_IPMCAST_MFE, mib.mib_ipmcast_mfe, rras.mib_ipmcast_mfe"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -183,11 +183,9 @@ The
 
 The <b>dwRouteProtocol</b>, <b>dwRouteNetwork</b>, and <b>dwRouteMask</b> members uniquely identify the route to which this MFE is related.
 
-The <b>MIB_IPMCAST_MFE</b> structure is used by the <a href="https://msdn.microsoft.com/d4374ced-06ea-49dd-8f52-0d06612aa4c3">Multicast Group Manager functions</a>. The <b>MIB_IPMCAST_MFE</b> structure is retrieved using the <a href="https://msdn.microsoft.com/15b1b096-9044-4983-9039-e7a13c2cca25">MgmGetMfe</a> function. An existing <b>MIB_IPMCAST_MFE</b> structure can be modified using the <a href="https://msdn.microsoft.com/143c080a-be80-47fb-a159-e6c95aa0d7ea">MgmSetMfe</a>
-			 function.
+The <b>MIB_IPMCAST_MFE</b> structure is used by the <a href="https://msdn.microsoft.com/d4374ced-06ea-49dd-8f52-0d06612aa4c3">Multicast Group Manager functions</a>. The <b>MIB_IPMCAST_MFE</b> structure is retrieved using the <a href="https://msdn.microsoft.com/15b1b096-9044-4983-9039-e7a13c2cca25">MgmGetMfe</a> function. An existing <b>MIB_IPMCAST_MFE</b> structure can be modified using the <a href="https://msdn.microsoft.com/143c080a-be80-47fb-a159-e6c95aa0d7ea">MgmSetMfe</a>function.
 
-On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista
-   and later, the organization of header files has changed. This  structure is defined in the <i>Ipmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ipmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ipmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
+On the Microsoft Windows Software Development Kit (SDK) released for Windows Vistaand later, the organization of header files has changed. This  structure is defined in the <i>Ipmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ipmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ipmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
 
 

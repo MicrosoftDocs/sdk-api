@@ -7,7 +7,7 @@ old-location: rpc\rpcnsbindingexportpnp.htm
 old-project: rpc
 ms.assetid: 01440165-ab04-447a-9a39-9e91743aba65
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcNsBindingExportPnP, RpcNsBindingExportPnP function [RPC], RpcNsBindingExportPnPA, RpcNsBindingExportPnPW, _rpc_rpcnsbindingexportpnp, rpc.rpcnsbindingexportpnp, rpcnsi/RpcNsBindingExportPnP, rpcnsi/RpcNsBindingExportPnPA, rpcnsi/RpcNsBindingExportPnPW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,13 +88,6 @@ Stub-generated data structure specifying the interface to export. A null value i
 
 
 ### -param ObjectVector
-
-TBD
-
-
-
-
-#### - ObjectUuidVec
 
 Pointer to a vector of object UUIDs offered by the server. The server application constructs this vector. A null value indicates there are no object UUIDs to export (only binding handles are to be exported).
 

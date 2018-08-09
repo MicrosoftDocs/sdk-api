@@ -7,7 +7,7 @@ old-location: shell\SHOpenPropSheetW.htm
 old-project: shell
 ms.assetid: bf42b26e-0f10-47b4-9d3b-48c59618342d
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHOpenPropSheet, SHOpenPropSheet function [Windows Shell], SHOpenPropSheetA, SHOpenPropSheetW, _win32_SHOpenPropSheetW, shell.SHOpenPropSheetW, shlobj/SHOpenPropSheet, shlobj/SHOpenPropSheetA, shlobj/SHOpenPropSheetW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,9 +84,11 @@ Type: <b>UINT</b>
 <b>UINT</b> value that specifies the number of property sheets in the array specified by <i>ahkeys</i>.
 
 
-### -param pclsidDefault
+### -param pclsidDefault [in, optional]
 
-TBD
+Type: <b>const CLSID*</b>
+
+A pointer to the default <b>CLSID</b>. This value can be <b>NULL</b>.
 
 
 ### -param pdtobj [in]
@@ -108,13 +110,6 @@ Not used.
 Type: <b>LPCTSTR</b>
 
 A pointer to a string that specifies the start page. This value can be <b>NULL</b>.
-
-
-#### - pclsidDef [in, optional]
-
-Type: <b>const CLSID*</b>
-
-A pointer to the default <b>CLSID</b>. This value can be <b>NULL</b>.
 
 
 ## -returns

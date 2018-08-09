@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxlinecallback.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_8xpn.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxLineCallback, FaxLineCallback callback function [Fax Service], PFAX_LINECALLBACK, PFAX_LINECALLBACK callback, _mfax_faxlinecallback, fax._mfax_faxlinecallback, faxdev/FaxLineCallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ The <b>PFAX_LINECALLBACK</b> data type is a pointer to a <i>FaxLineCallback</i> 
 
 Type: <b>HANDLE</b>
 
-Specifies a fax handle returned by the <a href="https://msdn.microsoft.com/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a> function.
+Specifies a fax handle returned by the <a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a> function.
 
 
 ### -param hDevice [in]
@@ -123,7 +123,7 @@ This callback function does not return a value.
 
 
 
-The FSP must register the <i>FaxLineCallback</i> callback function by passing its address when the fax service calls the <a href="https://msdn.microsoft.com/library/ms684545(v=VS.85).aspx">FaxDevInitialize</a> function.
+The FSP must register the <i>FaxLineCallback</i> callback function by passing its address when the fax service calls the <a href="https://msdn.microsoft.com/en-us/library/ms684545(v=VS.85).aspx">FaxDevInitialize</a> function.
 
 
 
@@ -133,23 +133,23 @@ The FSP must register the <i>FaxLineCallback</i> callback function by passing it
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684546(v=VS.85).aspx">Fax Service Provider Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684546(v=VS.85).aspx">Fax Service Provider Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684545(v=VS.85).aspx">FaxDevInitialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684545(v=VS.85).aspx">FaxDevInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms735983(v=VS.85).aspx">lineInitializeEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735983(v=VS.85).aspx">lineInitializeEx</a>
  
 
  

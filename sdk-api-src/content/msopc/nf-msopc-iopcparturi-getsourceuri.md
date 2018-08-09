@@ -7,7 +7,7 @@ old-location: opc\iopcparturi_getsourceuri.htm
 old-project: OPC
 ms.assetid: 02e8570b-3826-4619-b4f5-c1f74e27aefc
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: GetSourceUri, GetSourceUri method [Open Packaging Conventions], GetSourceUri method [Open Packaging Conventions],IOpcPartUri interface, IOpcPartUri interface [Open Packaging Conventions],GetSourceUri method, IOpcPartUri.GetSourceUri, IOpcPartUri::GetSourceUri, msopc/IOpcPartUri::GetSourceUri, opc.iopcparturi_getsourceuri
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-          Gets  the source URI of the relationships that are stored in a  Relationships part. The  current part URI object represents the part name of that Relationships part.
+Gets  the source URI of the relationships that are stored in a  Relationships part. The  current part URI object represents the part name of that Relationships part.
 
 
 ## -parameters
@@ -62,16 +61,14 @@ req.product: Rights Management Services client 1.0 or later
 
 ### -param sourceUri [out, retval]
 
-
-              A pointer to the <a href="https://msdn.microsoft.com/35ce7946-f7e7-4ac3-852f-e3fcca23d6d4">IOpcUri</a> interface of the OPC URI object that represents the  URI of the source of the relationships stored in the Relationships part.
+A pointer to the <a href="https://msdn.microsoft.com/35ce7946-f7e7-4ac3-852f-e3fcca23d6d4">IOpcUri</a> interface of the OPC URI object that represents the  URI of the source of the relationships stored in the Relationships part.
 
 
 ## -returns
 
 
 
-
-              The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
             
 
 <table>
@@ -97,8 +94,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-
-                The <i>sourceUri</i> parameter is <b>NULL</b>.
+The <i>sourceUri</i> parameter is <b>NULL</b>.
               
 
 </td>
@@ -125,8 +121,7 @@ For more information about the part names of Relationships parts, see the <i>OPC
 </dl>
 </td>
 <td width="60%">
-
-                An <b>HRESULT</b> error code from the <a href="inet_CreateUri_Function">CreateUri</a> function.
+An <b>HRESULT</b> error code from the <a href="inet_CreateUri_Function">CreateUri</a> function.
               
 
 </td>
@@ -139,8 +134,7 @@ For more information about the part names of Relationships parts, see the <i>OPC
 </dl>
 </td>
 <td width="60%">
-
-                An <b>HRESULT</b> error code from a  <a href="https://msdn.microsoft.com/library/windows/hardware/mt147353">WinINet</a> API.
+An <b>HRESULT</b> error code from a  <a href="https://msdn.microsoft.com/library/windows/hardware/mt147353">WinINet</a> API.
               
 
 </td>
@@ -155,12 +149,10 @@ For more information about the part names of Relationships parts, see the <i>OPC
 
 
 
-
-          If the current part URI object represents the part name of the Relationships part that stores package relationships ("/_rels/.rels"),  the OPC URI object returned in <i>sourceUri</i> will represent the package root ("/").
+If the current part URI object represents the part name of the Relationships part that stores package relationships ("/_rels/.rels"),  the OPC URI object returned in <i>sourceUri</i> will represent the package root ("/").
         
 
-
-          If the current part URI object is not the part name of a Relationships part,  this method fails with the <b>OPC_E_RELATIONSHIP_URI_REQUIRED</b> error. The syntax for Relationship part names is specified in the <i>OPC</i>.
+If the current part URI object is not the part name of a Relationships part,  this method fails with the <b>OPC_E_RELATIONSHIP_URI_REQUIRED</b> error. The syntax for Relationship part names is specified in the <i>OPC</i>.
 
 The following table shows possible current part URIs and the source URI that would be returned by this method. <table>
 <tr>

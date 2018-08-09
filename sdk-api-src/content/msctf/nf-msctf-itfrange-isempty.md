@@ -7,7 +7,7 @@ old-location: tsf\itfrange_isempty.htm
 old-project: TSF
 ms.assetid: 4cc720c1-acc1-445e-830e-91135fdfeeed
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfRange interface [Text Services Framework],IsEmpty method, ITfRange.IsEmpty, ITfRange::IsEmpty, IsEmpty, IsEmpty method [Text Services Framework], IsEmpty method [Text Services Framework],ITfRange interface, _tsf_itfrange_isempty_ref, msctf/ITfRange::IsEmpty, tsf.itfrange_isempty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -140,8 +140,7 @@ The value of the <i>ec</i> parameter is an invalid cookie.
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
       </a>
 
 

@@ -7,7 +7,7 @@ old-location: gdi\drawescape.htm
 old-project: gdi
 ms.assetid: 306eec06-6d29-43bc-aff0-a267efa52ccd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DrawEscape, DrawEscape function [Windows GDI], _win32_DrawEscape, gdi.drawescape, wingdi/DrawEscape
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,36 +66,19 @@ The <b>DrawEscape</b> function provides drawing capabilities of the specified vi
 A handle to the DC for the specified video display.
 
 
-### -param iEscape
+### -param iEscape [in]
 
-TBD
-
-
-### -param cjIn
-
-TBD
+The escape function to be performed.
 
 
-### -param lpIn
-
-TBD
-
-
-
-
-#### - cbInput [in]
+### -param cjIn [in]
 
 The number of bytes of data pointed to by the <i>lpszInData</i> parameter.
 
 
-#### - lpszInData [in]
+### -param lpIn [in]
 
 A pointer to the input structure required for the specified escape.
-
-
-#### - nEscape [in]
-
-The escape function to be performed.
 
 
 ## -returns

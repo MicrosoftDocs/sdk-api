@@ -7,7 +7,7 @@ old-location: automat\vari2fromui2.htm
 old-project: automat
 ms.assetid: 8d46449f-663d-4609-9b41-b9cd54933e5f
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarI2FromUI2, VarI2FromUI2 function [Automation], _oa96_VarI2FromUI2, automat.vari2fromui2, oleauto/VarI2FromUI2
 ms.prod: windows
 ms.technology: windows-sdk

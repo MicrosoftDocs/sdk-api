@@ -7,7 +7,7 @@ old-location: base\getcurrentthread.htm
 old-project: procthread
 ms.assetid: 91a11552-66c1-42bd-b837-8a7685977bc9
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: GetCurrentThread, GetCurrentThread function, _win32_getcurrentthread, base.getcurrentthread, processthreadsapi/GetCurrentThread, winbase/GetCurrentThread
 ms.prod: windows
 ms.technology: windows-sdk

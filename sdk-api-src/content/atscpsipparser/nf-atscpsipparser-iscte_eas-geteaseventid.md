@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_geteaseventid.htm
 old-project: mstv
 ms.assetid: d501fa7c-c1a8-42bc-af71-a966a7cba9f6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetEASEventID, GetEASEventID method [Microsoft TV Technologies], GetEASEventID method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetEASEventID method, ISCTE_EAS.GetEASEventID, ISCTE_EAS::GetEASEventID, ISCTE_EASGetEASEventID, atscpsipparser/ISCTE_EAS::GetEASEventID, mstv.iscte_eas_geteaseventid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,8 +60,7 @@ The <b>GetEASEventID</b> method returns the identifier of this emergency event.
 
 ### -param pwVal [out]
 
-
-            Receives the EAS_Event_ID field.
+Receives the EAS_Event_ID field.
           
 
 

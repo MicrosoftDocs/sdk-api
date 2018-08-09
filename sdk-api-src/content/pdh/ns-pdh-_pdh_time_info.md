@@ -4,10 +4,10 @@ title: "_PDH_TIME_INFO"
 author: windows-sdk-content
 description: The PDH_TIME_INFO structure contains information on time intervals as applied to the sampling of performance data.
 old-location: perf\pdh_time_info_str.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: a747f288-8d6c-401c-a927-a61ffea3d423
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: "*PPDH_TIME_INFO, PDH_TIME_INFO, PDH_TIME_INFO structure [Perf], PPDH_TIME_INFO, PPDH_TIME_INFO structure pointer [Perf], _PDH_TIME_INFO, _win32_pdh_time_info_str, base.pdh_time_info_str, pdh/PDH_TIME_INFO, pdh/PPDH_TIME_INFO, perf.pdh_time_info_str"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>PDH_TIME_INFO</b> structure contains information on time intervals as applied to the sampling of performance data.
 		
 

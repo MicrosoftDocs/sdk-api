@@ -7,7 +7,7 @@ old-location: mf\_mfp_credential_flags.htm
 old-project: medfound
 ms.assetid: 5aa13072-239a-41b6-a0b6-a2729bab2db4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFP_CREDENTIAL_CLEAR_TEXT, MFP_CREDENTIAL_DO_NOT_CACHE, MFP_CREDENTIAL_LOGGED_ON_USER, MFP_CREDENTIAL_PROMPT, MFP_CREDENTIAL_PROXY, MFP_CREDENTIAL_SAVE, _MFP_CREDENTIAL_FLAGS, _MFP_CREDENTIAL_FLAGS enumeration [Media Foundation], mf._mfp_credential_flags, mfplay/MFP_CREDENTIAL_CLEAR_TEXT, mfplay/MFP_CREDENTIAL_DO_NOT_CACHE, mfplay/MFP_CREDENTIAL_LOGGED_ON_USER, mfplay/MFP_CREDENTIAL_PROMPT, mfplay/MFP_CREDENTIAL_PROXY, mfplay/MFP_CREDENTIAL_SAVE, mfplay/_MFP_CREDENTIAL_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,8 +82,7 @@ The credentials are saved to persistent storage. This flag acts as a hint for th
 
 ### -field MFP_CREDENTIAL_DO_NOT_CACHE
 
-
-            [out] If the application sets this flag, the player object does not cache the user credentials in memory. Otherwise, the player object   does not cache the credentials. If you set this flag, do not set the <b>MFP_CREDENTIAL_SAVE</b> flag.
+[out] If the application sets this flag, the player object does not cache the user credentials in memory. Otherwise, the player object   does not cache the credentials. If you set this flag, do not set the <b>MFP_CREDENTIAL_SAVE</b> flag.
           
 
 
@@ -103,8 +102,7 @@ The credentials will be used to authenticate with a proxy.
 
 ### -field MFP_CREDENTIAL_LOGGED_ON_USER
 
-
-            The authentication scheme supports authentication of the user who is currently logged on.
+The authentication scheme supports authentication of the user who is currently logged on.
           
 
 

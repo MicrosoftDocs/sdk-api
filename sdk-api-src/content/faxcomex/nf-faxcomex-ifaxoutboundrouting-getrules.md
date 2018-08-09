@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundrouting_getrules.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2v1v.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxOutboundRouting object [Fax Service],GetRules method, FaxOutboundRouting.GetRules, GetRules, GetRules method [Fax Service], GetRules method [Fax Service],FaxOutboundRouting object, IFaxOutboundRouting.GetRules, IFaxOutboundRouting::GetRules, _mfax_faxoutboundrouting.getrules, fax._mfax_faxoutboundrouting_getrules
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,9 +71,9 @@ The <b>GetRules</b> method retrieves the collection of outbound routing groups.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a>**</b>
 
-A <a href="https://msdn.microsoft.com/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a> object.
+A <a href="https://msdn.microsoft.com/en-us/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a> object.
 
 
 
@@ -82,7 +82,7 @@ A <a href="https://msdn.microsoft.com/library/ms689525(v=VS.85).aspx">FaxOutboun
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -92,15 +92,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690136(v=VS.85).aspx">FaxOutboundRouting</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690136(v=VS.85).aspx">FaxOutboundRouting</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690138(v=VS.85).aspx">IFaxOutboundRouting</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690138(v=VS.85).aspx">IFaxOutboundRouting</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693486(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693486(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

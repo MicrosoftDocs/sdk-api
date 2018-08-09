@@ -7,7 +7,7 @@ old-location: wmp\playerstate.htm
 old-project: WMP
 ms.assetid: 7cd17639-e491-4066-838a-236554733874
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/30/2018
 ms.keywords: PlayerState, PlayerState enumeration [Windows Media Player], effects/PlayerState, effects/pause_state, effects/play_state, effects/stop_state, enumeration [Windows Media Player], pause_state, play_state, stop_state, typedefenumPlayerState, wmp.playerstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,11 +57,9 @@ The <b>PlayerState</b> enumeration type provides some basic states of Windows Me
 
 <table>
 <tr>
-<th>
-            Number
+<th>Number
           </th>
-<th>
-            Description
+<th>Description
           </th>
 </tr>
 <tr>

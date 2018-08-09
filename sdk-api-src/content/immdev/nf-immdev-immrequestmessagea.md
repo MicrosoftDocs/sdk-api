@@ -7,7 +7,7 @@ old-location: intl\immrequestmessage.htm
 old-project: Intl
 ms.assetid: 70c90851-b6a4-41ce-a048-c828adcd4ed8
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmRequestMessage, ImmRequestMessage function [Internationalization for Windows Applications], ImmRequestMessageA, ImmRequestMessageW, immdev/ImmRequestMessage, immdev/ImmRequestMessageA, immdev/ImmRequestMessageW, intl.immrequestmessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,36 +61,19 @@ Generates a <a href="https://msdn.microsoft.com/c5e9f256-eed2-46cb-bb33-0e640a97
 
 
 
-### -param HIMC
-
-TBD
-
-
-### -param WPARAM
-
-TBD
-
-
-### -param LPARAM
-
-TBD
-
-
-
-
-#### - hIMC [in]
+### -param HIMC [in]
 
 Handle to the target input context.
 
 
-#### - lParam [in]
-
-Value of the <i>lParam</i> parameter for the <a href="https://msdn.microsoft.com/c5e9f256-eed2-46cb-bb33-0e640a975f1f">WM_IME_REQUEST</a> message.
-
-
-#### - wParam [in]
+### -param WPARAM [in]
 
 Value of the <i>wParam</i> parameter for the <a href="https://msdn.microsoft.com/c5e9f256-eed2-46cb-bb33-0e640a975f1f">WM_IME_REQUEST</a> message.
+
+
+### -param LPARAM [in]
+
+Value of the <i>lParam</i> parameter for the <a href="https://msdn.microsoft.com/c5e9f256-eed2-46cb-bb33-0e640a975f1f">WM_IME_REQUEST</a> message.
 
 
 ## -returns

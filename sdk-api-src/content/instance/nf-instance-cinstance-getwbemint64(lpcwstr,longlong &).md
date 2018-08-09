@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getwbemint64.htm
 old-project: WmiSdk
 ms.assetid: b51d0c51-3b72-4358-8fc3-d1dbc298b4d9
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/03/2018
 ms.keywords: CInstance.GetWBEMINT64, CInstance.GetWBEMINT64(LPCWSTR,LONGLONG &), CInstance::GetWBEMINT64, CInstance::GetWBEMINT64 methods [Windows Management Instrumentation], CInstance::GetWBEMINT64(LPCWSTR,LONGLONG &), GetWBEMINT64, instance/CInstance::GetWBEMINT64, wmi.cinstance_getwbemint64
 ms.prod: windows
 ms.technology: windows-sdk

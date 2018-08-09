@@ -7,7 +7,7 @@ old-location: opc\iopccertificateset_getenumerator.htm
 old-project: OPC
 ms.assetid: a48b9225-07cb-4367-b011-dc2297c2c4b3
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcCertificateSet interface, IOpcCertificateSet interface [Open Packaging Conventions],GetEnumerator method, IOpcCertificateSet.GetEnumerator, IOpcCertificateSet::GetEnumerator, msopc/IOpcCertificateSet::GetEnumerator, opc.iopccertificateset_getenumerator
 ms.prod: windows
 ms.technology: windows-sdk

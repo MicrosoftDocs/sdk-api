@@ -7,7 +7,7 @@ old-location: tsf\itfcleanupcontextdurationsink_onendcleanupcontext.htm
 old-project: TSF
 ms.assetid: d7af4584-9c77-40cd-a83d-7b6fd3945b17
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfCleanupContextDurationSink interface [Text Services Framework],OnEndCleanupContext method, ITfCleanupContextDurationSink.OnEndCleanupContext, ITfCleanupContextDurationSink::OnEndCleanupContext, OnEndCleanupContext, OnEndCleanupContext method [Text Services Framework], OnEndCleanupContext method [Text Services Framework],ITfCleanupContextDurationSink interface, _tsf_itfcleanupcontextdurationsink_onendcleanupcontext_ref, msctf/ITfCleanupContextDurationSink::OnEndCleanupContext, tsf.itfcleanupcontextdurationsink_onendcleanupcontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,8 +78,7 @@ A context cleanup occurs when:
 <ul>
 <li>The text service is deactivated while a context is still on the context stack. This can occur when the active text service is changed or when the active language changes while the text service is active.</li>
 <li>
-<a href="https://msdn.microsoft.com/7293fbfa-c385-4713-80b2-760e54dbf4c1">
-              ITfThreadMgr::Deactivate
+<a href="https://msdn.microsoft.com/7293fbfa-c385-4713-80b2-760e54dbf4c1">ITfThreadMgr::Deactivate
             </a> is called while a context is still on the context stack.</li>
 </ul>
 
@@ -103,8 +102,7 @@ A context cleanup occurs when:
 
 
 
-<a href="https://msdn.microsoft.com/6af597e6-f997-4b28-8994-a8dbabcaaa68">
-        ITfCleanupContextSink::OnCleanupContext
+<a href="https://msdn.microsoft.com/6af597e6-f997-4b28-8994-a8dbabcaaa68">ITfCleanupContextSink::OnCleanupContext
       </a>
  
 

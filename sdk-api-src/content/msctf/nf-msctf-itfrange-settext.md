@@ -7,7 +7,7 @@ old-location: tsf\itfrange_settext.htm
 old-project: TSF
 ms.assetid: 797d96a1-0250-4e8d-a4bd-31152fd6eca7
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfRange interface [Text Services Framework],SetText method, ITfRange.SetText, ITfRange::SetText, SetText, SetText method [Text Services Framework], SetText method [Text Services Framework],ITfRange interface, _tsf_itfrange_settext_ref, msctf/ITfRange::SetText, tsf.itfrange_settext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -182,8 +182,7 @@ For inserting text, the <a href="https://msdn.microsoft.com/1373fe9b-6c51-4514-a
 
 
 
-<a href="https://msdn.microsoft.com/1373fe9b-6c51-4514-a7da-c1f872d9b1ce">
-        ITFInsertAtSelection:InsertTextAtSelection
+<a href="https://msdn.microsoft.com/1373fe9b-6c51-4514-a7da-c1f872d9b1ce">ITFInsertAtSelection:InsertTextAtSelection
       </a>
 
 
@@ -193,8 +192,7 @@ For inserting text, the <a href="https://msdn.microsoft.com/1373fe9b-6c51-4514-a
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
       </a>
 
 
@@ -203,14 +201,12 @@ For inserting text, the <a href="https://msdn.microsoft.com/1373fe9b-6c51-4514-a
 
 
 
-<a href="https://msdn.microsoft.com/b38a8de3-947f-469c-9f0d-f0482ea86884">
-        ITfRange::GetText
+<a href="https://msdn.microsoft.com/b38a8de3-947f-469c-9f0d-f0482ea86884">ITfRange::GetText
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/95b8622d-c934-4293-abb4-9eface451be5">
-        ITfRange::InsertEmbedded
+<a href="https://msdn.microsoft.com/95b8622d-c934-4293-abb4-9eface451be5">ITfRange::InsertEmbedded
       </a>
 
 

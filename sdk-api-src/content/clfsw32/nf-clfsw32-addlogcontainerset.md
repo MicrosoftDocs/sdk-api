@@ -7,7 +7,7 @@ old-location: fs\addlogcontainerset.htm
 old-project: Clfs
 ms.assetid: b3dec3bd-3e39-42fa-8f73-71784b3d5be2
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/03/2018
 ms.keywords: AddLogContainerSet, AddLogContainerSet function [Files], clfsw32/AddLogContainerSet, fs.addlogcontainerset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,11 @@ The handle to an open log that is obtained from <a href="https://msdn.microsoft.
 The file can be dedicated or multiplexed.
 
 
-### -param cContainer
+### -param cContainer [in]
 
-TBD
+The number of containers  in the <i>rgwszContainerPath</i> array.  
+
+This value must be nonzero.  A log must have at least two containers before any I/O can be performed on it.
 
 
 ### -param pcbContainer [in, optional]
@@ -91,23 +93,9 @@ An array of   <i>cContainer</i> path names for containers.
 Each element in the array is a wide-character string that contains a valid path for the new container in the log volume.
 
 
-### -param pReserved
-
-TBD
-
-
-
-
-#### - Reserved [in, out, optional]
+### -param pReserved [in, out, optional]
 
 Reserved.  Set <i>Reserved</i> to <b>NULL</b>.
-
-
-#### - cContainers [in]
-
-The number of containers  in the <i>rgwszContainerPath</i> array.  
-
-This value must be nonzero.  A log must have at least two containers before any I/O can be performed on it.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_properties_.htm
 old-project: WmiSdk
 ms.assetid: 8dd49678-47e7-4c6b-ab12-42532065eaf2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemObject interface [Windows Management Instrumentation],Properties_ property, ISWbemObject.get_Properties_, ISWbemObject::get_Properties_, Properties_ property [Windows Management Instrumentation], Properties_ property [Windows Management Instrumentation],ISWbemObject interface, Properties_ property [Windows Management Instrumentation],SWbemObject object, SWbemObject object [Windows Management Instrumentation],Properties_ property, SWbemObject.Properties_, _hmm_swbemobject.properties_, get_Properties_, wmi.swbemobject_properties_
 ms.prod: windows
 ms.technology: windows-sdk

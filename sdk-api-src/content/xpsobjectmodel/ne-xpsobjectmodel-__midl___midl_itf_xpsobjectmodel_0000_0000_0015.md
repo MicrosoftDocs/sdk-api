@@ -7,7 +7,7 @@ old-location: xps\xps_thumbnail_size.htm
 old-project: printdocs
 ms.assetid: 308083dd-74b4-4674-b5d7-e14e917fbc1f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: XPS_THUMBNAIL_SIZE, XPS_THUMBNAIL_SIZE enumeration [XPS Documents and Packaging], XPS_THUMBNAIL_SIZE_LARGE, XPS_THUMBNAIL_SIZE_MEDIUM, XPS_THUMBNAIL_SIZE_SMALL, XPS_THUMBNAIL_SIZE_VERYSMALL, __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0015, xps.xps_thumbnail_size, xpsobjectmodel/XPS_THUMBNAIL_SIZE, xpsobjectmodel/XPS_THUMBNAIL_SIZE_LARGE, xpsobjectmodel/XPS_THUMBNAIL_SIZE_MEDIUM, xpsobjectmodel/XPS_THUMBNAIL_SIZE_SMALL, xpsobjectmodel/XPS_THUMBNAIL_SIZE_VERYSMALL
 ms.prod: windows
 ms.technology: windows-sdk

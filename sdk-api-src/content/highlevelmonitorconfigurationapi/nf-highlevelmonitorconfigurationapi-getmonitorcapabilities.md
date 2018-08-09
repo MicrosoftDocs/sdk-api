@@ -7,7 +7,7 @@ old-location: monitor\getmonitorcapabilities.htm
 old-project: Monitor
 ms.assetid: 57cf0004-58cf-46d9-b5be-22edda2ce5a9
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetMonitorCapabilities, GetMonitorCapabilities function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorCapabilities, monitor.getmonitorcapabilities
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-        Retrieves the configuration capabilities of a monitor. Call this function to find out which high-level monitor configuration functions are supported by the monitor.
+Retrieves the configuration capabilities of a monitor. Call this function to find out which high-level monitor configuration functions are supported by the monitor.
 
 
 ## -parameters
@@ -62,22 +61,19 @@ req.product: GDI+ 1.1
 
 ### -param hMonitor [in]
 
-
-            Handle to a physical monitor. To get the monitor handle, call <a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
+Handle to a physical monitor. To get the monitor handle, call <a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
           
 
 
 ### -param pdwMonitorCapabilities [out]
 
-
-            Receives a bitwise <b>OR</b> of capabilities flags. See Remarks.
+Receives a bitwise <b>OR</b> of capabilities flags. See Remarks.
           
 
 
 ### -param pdwSupportedColorTemperatures [out]
 
-
-            Receives a bitwise <b>OR</b> of color temperature flags. See Remarks.
+Receives a bitwise <b>OR</b> of color temperature flags. See Remarks.
           
 
 
@@ -101,10 +97,8 @@ The capabilities flags returned in <i>pdwMonitorCapabilities</i> specify which h
 
 <table>
 <tr>
-<th>
-              Value</th>
-<th>
-              Description
+<th>Value</th>
+<th>Description
             </th>
 </tr>
 <tr>
@@ -166,11 +160,9 @@ The color temperature flags returned in <i>pdwSupportedColorTemperatures</i> spe
 
 <table>
 <tr>
-<th>
-              Value
+<th>Value
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>

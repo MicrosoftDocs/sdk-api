@@ -7,7 +7,7 @@ old-location: com\ienumconnections_reset.htm
 old-project: com
 ms.assetid: 444c9398-199f-4d87-9b1e-075d5af0b649
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumConnections interface [COM],Reset method, IEnumConnections.Reset, IEnumConnections::Reset, Reset, Reset method [COM], Reset method [COM],IEnumConnections interface, _com_ienumconnections_reset, com.ienumconnections_reset, ocidl/IEnumConnections::Reset
 ms.prod: windows
 ms.technology: windows-sdk

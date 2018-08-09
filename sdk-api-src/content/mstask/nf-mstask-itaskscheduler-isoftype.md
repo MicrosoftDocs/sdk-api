@@ -7,7 +7,7 @@ old-location: taskschd\itaskscheduler_isoftype.htm
 old-project: taskschd
 ms.assetid: 6d0a474d-398f-4d85-8e58-5dc2b6283086
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 08/06/2018
 ms.keywords: ITaskScheduler interface [Task Scheduler],IsOfType method, ITaskScheduler.IsOfType, ITaskScheduler::IsOfType, IsOfType, IsOfType method [Task Scheduler], IsOfType method [Task Scheduler],ITaskScheduler interface, _msb_itaskscheduler_isoftype, mstask/ITaskScheduler::IsOfType, taskschd.itaskscheduler_isoftype
 ms.prod: windows
 ms.technology: windows-sdk

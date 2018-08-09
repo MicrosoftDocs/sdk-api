@@ -7,7 +7,7 @@ old-location: nps\SDO_isdodictionaryold_enumattributevalues.htm
 old-project: nps
 ms.assetid: e46dc286-5316-49c2-a384-b486efc80d2a
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: EnumAttributeValues, EnumAttributeValues method [Network Policy Server], EnumAttributeValues method [Network Policy Server],ISdoDictionaryOld interface, ISdoDictionaryOld interface [Network Policy Server],EnumAttributeValues method, ISdoDictionaryOld.EnumAttributeValues, ISdoDictionaryOld::EnumAttributeValues, _sdo_isdodictionaryold_enumattributevalues, nps.SDO_isdodictionaryold_enumattributevalues, sdo.isdodictionaryold_enumattributevalues, sdoias/ISdoDictionaryOld::EnumAttributeValues
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,15 +68,15 @@ Specifies the ID of the attribute.
 ### -param pValueIds [out]
 
 On successful return points to a 
-<a href="https://msdn.microsoft.com/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> of value IDs for the enumerable attribute. If the attribute is not enumerable, points to a 
-<a href="https://msdn.microsoft.com/library/ms221627(v=VS.85).aspx">VT_EMPTY</a> variant.
+<a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> of value IDs for the enumerable attribute. If the attribute is not enumerable, points to a 
+<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VT_EMPTY</a> variant.
 
 
 ### -param pValuesDesc [out]
 
 On successful return points to a 
-<a href="https://msdn.microsoft.com/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> of value descriptions for the enumerable attribute. If the attribute is not enumerable, points to a 
-<a href="https://msdn.microsoft.com/library/ms221627(v=VS.85).aspx">VT_EMPTY</a> variant.
+<a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> of value descriptions for the enumerable attribute. If the attribute is not enumerable, points to a 
+<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VT_EMPTY</a> variant.
 
 
 ## -returns

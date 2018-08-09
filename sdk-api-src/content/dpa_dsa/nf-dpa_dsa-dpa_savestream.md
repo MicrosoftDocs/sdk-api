@@ -7,7 +7,7 @@ old-location: controls\DPA_SaveStream.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_savestream.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DPA_SaveStream, DPA_SaveStream function [Windows Controls], _win32_DPA_SaveStream, _win32_DPA_SaveStream_cpp, controls.DPA_SaveStream, controls._win32_DPA_SaveStream, dpa_dsa/DPA_SaveStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,21 +60,25 @@ Saves the dynamic pointer array (DPA) to a stream by writing out a header, and t
 
 
 
-### -param hdpa
+### -param hdpa [in]
 
-TBD
+Type: <b>HDPA</b>
+
+Receives a handle to a DPA.
 
 
 ### -param pfn [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775725(v=VS.85).aspx">PFNDPASTREAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775725(v=VS.85).aspx">PFNDPASTREAM</a></b>
 
-The callback function. See <a href="https://msdn.microsoft.com/library/Bb775725(v=VS.85).aspx">PFNDPASTREAM</a> for the callback function prototype. 
+The callback function. See <a href="https://msdn.microsoft.com/en-us/library/Bb775725(v=VS.85).aspx">PFNDPASTREAM</a> for the callback function prototype. 
 
 
-### -param pstream
+### -param pstream [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
+
+An <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> object. 
 
 
 ### -param pvInstData [in]
@@ -82,20 +86,6 @@ TBD
 Type: <b>void*</b>
 
 A pointer to callback data. <i>pvInstData</i> is passed as a parameter to <i>pfn</i>. 
-
-
-#### - pdpa [in]
-
-Type: <b>HDPA</b>
-
-Receives a handle to a DPA.
-
-
-#### - pstm [in]
-
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
-
-An <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> object. 
 
 
 ## -returns

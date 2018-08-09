@@ -7,7 +7,7 @@ old-location: display\dxgetpreviousautoflip.htm
 old-project: display
 ms.assetid: 3b19e4be-413c-4014-b414-cb2ba3e14b14
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: DxGetPreviousAutoflip, DxGetPreviousAutoflip callback function [Display Devices], PDX_GETPREVIOUSAUTOFLIP, PDX_GETPREVIOUSAUTOFLIP callback, VideoMiniPort_DxApiFunctions_07351af6-3fdc-4a60-852f-23ea28bc6e2b.xml, display.dxgetpreviousautoflip, dxmini/DxGetPreviousAutoflip
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: DXGI_FORMAT
+req.typenames: D3DCOLORVALUE
 topic_type:
  - APIRef
  - kbSyntax
@@ -74,6 +74,11 @@ The<i> DxGetPreviousAutoflip</i> callback function is called when the device is 
 
 
 
+#### - HwDeviceExtension
+
+Points to the miniport driver's device extension.
+
+
 #### - GetPreviousAutoflipInInfo
 
 Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549485">DDGETPREVIOUSAUTOFLIPININFO</a> structure that contains the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object information.
@@ -82,11 +87,6 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54948
 #### - GetPreviousAutoflipOutInfo
 
 Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549489">DDGETPREVIOUSAUTOFLIPOUTINFO</a> structure that contains the index of the autoflip chain.
-
-
-#### - HwDeviceExtension
-
-Points to the miniport driver's device extension.
 
 
 ## -returns

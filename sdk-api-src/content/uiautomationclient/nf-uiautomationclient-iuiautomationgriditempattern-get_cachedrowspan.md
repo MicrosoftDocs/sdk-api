@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationGridItemPattern_CachedRowSpan.htm
 old-project: WinAuto
 ms.assetid: 6c93cfc7-76f3-4341-ae77-7782d5936ac6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CachedRowSpan property [Windows Accessibility], CachedRowSpan property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CachedRowSpan property, IUIAutomationGridItemPattern.CachedRowSpan, IUIAutomationGridItemPattern.get_CachedRowSpan, IUIAutomationGridItemPattern::CachedRowSpan, IUIAutomationGridItemPattern::get_CachedRowSpan, get_CachedRowSpan, uiauto.uiauto_IUIAutomationGridItemPattern_CachedRowSpan, uiauto_IUIAutomationGridItemPattern_CachedRowSpan, uiautomationclient/IUIAutomationGridItemPattern::CachedRowSpan, uiautomationclient/IUIAutomationGridItemPattern::get_CachedRowSpan, winauto.uiauto_IUIAutomationGridItemPattern_CachedRowSpan
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

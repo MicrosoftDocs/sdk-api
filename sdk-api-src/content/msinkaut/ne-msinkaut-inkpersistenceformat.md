@@ -7,7 +7,7 @@ old-location: tablet\inkpersistenceformat.htm
 old-project: tablet
 ms.assetid: ecbf48ce-0394-4da1-9f5c-d2626545982c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IPF_Base64Gif, IPF_Base64InkSerializedFormat, IPF_Gif, IPF_InkSerializedFormat, InkPersistenceFormat, InkPersistenceFormat enumeration [Tablet PC], ecbf48ce-0394-4da1-9f5c-d2626545982c, msinkaut/IPF_Base64Gif, msinkaut/IPF_Base64InkSerializedFormat, msinkaut/IPF_Gif, msinkaut/IPF_InkSerializedFormat, msinkaut/InkPersistenceFormat, tablet.inkpersistenceformat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,18 +84,18 @@ This format is provided so that ink can be encoded directly in an Extensible Mar
 
 
 
-#### - IPF_Base64Gif
-
-Ink is persisted by using a base64 encoded fortified.
-
-This GIF format is provided when ink is to be encoded directly in an XML or HTML file with later conversion into an image. A possible use of this would be in an XML format that is generated to contain all ink information and used as a way to generate HTML through Extensible Stylesheet Language Transformations (XSLT).
-
-
 #### - IPF_Gif
 
 Ink is persisted by using a Graphics Interchange Format (GIF) file that contains ISF as metadata that is embedded within the file.
 
 This allows ink to be viewed in applications that are not ink-enabled and maintain its full ink fidelity when it returns to an ink-enabled application. This format is ideal when transporting ink content within an HTML file and making it usable by ink-enabled and ink-unaware applications.
+
+
+#### - IPF_Base64Gif
+
+Ink is persisted by using a base64 encoded fortified.
+
+This GIF format is provided when ink is to be encoded directly in an XML or HTML file with later conversion into an image. A possible use of this would be in an XML format that is generated to contain all ink information and used as a way to generate HTML through Extensible Stylesheet Language Transformations (XSLT).
 
 
 ## -see-also

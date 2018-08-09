@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Blur_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\blur.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Blur, Blur class [GDI+], Blur class [GDI+],described, _gdiplus_CLASS_Blur_Class, gdiplus._gdiplus_CLASS_Blur_Class, gdipluseffects/Blur
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,6 +51,6 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>Blur</b> class enables you to apply a Gaussian blur effect to a bitmap and specify the nature of the blur. Pass the address of a <b>Blur</b> object to the <a href="https://msdn.microsoft.com/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method. To specify the nature of the blur, pass a <a href="https://msdn.microsoft.com/library/ms534057(v=VS.85).aspx">BlurParams</a> structure to the <a href="https://msdn.microsoft.com/library/ms536282(v=VS.85).aspx">Blur::SetParameters</a> method of a <b>Blur</b> object.
+The <b>Blur</b> class enables you to apply a Gaussian blur effect to a bitmap and specify the nature of the blur. Pass the address of a <b>Blur</b> object to the <a href="https://msdn.microsoft.com/en-us/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/en-us/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method. To specify the nature of the blur, pass a <a href="https://msdn.microsoft.com/en-us/library/ms534057(v=VS.85).aspx">BlurParams</a> structure to the <a href="https://msdn.microsoft.com/en-us/library/ms536282(v=VS.85).aspx">Blur::SetParameters</a> method of a <b>Blur</b> object.
 		
 

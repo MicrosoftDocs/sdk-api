@@ -7,7 +7,7 @@ old-location: search\_search_ISearchProtocol_Init.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol\init.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchProtocol interface [search],Init method, ISearchProtocol.Init, ISearchProtocol::Init, Init, Init method [search], Init method [search],ISearchProtocol interface, _search_ISearchProtocol_Init, search._search_ISearchProtocol_Init, searchapi/ISearchProtocol::Init
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-          Initializes a protocol handler. 
+Initializes a protocol handler. 
         
 
 
@@ -63,28 +62,25 @@ req.product: ADAM
 
 ### -param pTimeoutInfo [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa965374(v=VS.85).aspx">TIMEOUT_INFO</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965374(v=VS.85).aspx">TIMEOUT_INFO</a>*</b>
 
-
-                  Pointer to a <a href="https://msdn.microsoft.com/library/Aa965374(v=VS.85).aspx">TIMEOUT_INFO</a> structure that contains information about connection time-outs. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa965374(v=VS.85).aspx">TIMEOUT_INFO</a> structure that contains information about connection time-outs. 
                 
 
 
 ### -param pProtocolHandlerSite [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb231443(v=VS.85).aspx">IProtocolHandlerSite</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231443(v=VS.85).aspx">IProtocolHandlerSite</a>*</b>
 
-
-                  Pointer to an <a href="https://msdn.microsoft.com/library/Bb231443(v=VS.85).aspx">IProtocolHandlerSite</a> interface that enables protocol handlers to access <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFiltear</a>within the filter host. 
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb231443(v=VS.85).aspx">IProtocolHandlerSite</a> interface that enables protocol handlers to access <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFiltear</a>within the filter host. 
                 
 
 
 ### -param pProxyInfo [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa965369(v=VS.85).aspx">PROXY_INFO</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965369(v=VS.85).aspx">PROXY_INFO</a>*</b>
 
-
-                  Pointer to a <a href="https://msdn.microsoft.com/library/Aa965369(v=VS.85).aspx">PROXY_INFO</a> structure that contains information about the proxy settings necessary for accessing items in the content source.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa965369(v=VS.85).aspx">PROXY_INFO</a> structure that contains information about the proxy settings necessary for accessing items in the content source.
                 
 
 
@@ -103,12 +99,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        After the protocol handler is <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">created</a>, this method is called to perform any initialization specific to the protocol handler. This method is not called again.  
+After the protocol handler is <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">created</a>, this method is called to perform any initialization specific to the protocol handler. This method is not called again.  
       
 
-
-        Because the protocol host may unexpectedly terminate before calling <a href="https://msdn.microsoft.com/library/Bb231441(v=VS.85).aspx">ISearchProtocol::ShutDown</a>, protocol handlers with persistent information, such as temporary files and registry entries, should do an initial clean-up of resources previously opened in this method before starting the current instance.
+Because the protocol host may unexpectedly terminate before calling <a href="https://msdn.microsoft.com/en-us/library/Bb231441(v=VS.85).aspx">ISearchProtocol::ShutDown</a>, protocol handlers with persistent information, such as temporary files and registry entries, should do an initial clean-up of resources previously opened in this method before starting the current instance.
       
 
 

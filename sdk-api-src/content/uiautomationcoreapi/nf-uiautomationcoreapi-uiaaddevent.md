@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaAddEventClientEvent.htm
 old-project: WinAuto
 ms.assetid: 6d53c864-2791-4693-84dd-c7c1d8262b1f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: UiaAddEvent, UiaAddEvent function [Windows Accessibility], uiauto.uiauto_UiaAddEventClientEvent, uiauto_UiaAddEventClientEvent, uiautomationcoreapi/UiaAddEvent, winauto.uiauto_UiaAddEventClientEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,14 +109,7 @@ Type: <b><a href="https://msdn.microsoft.com/426355e4-50ce-4189-824d-c2256903224
 The address of a <a href="https://msdn.microsoft.com/426355e4-50ce-4189-824d-c2256903224c">UiaCacheRequest</a> structure that defines the cache request in effect for nodes that are returned with events.
 
 
-### -param phEvent
-
-TBD
-
-
-
-
-#### - phevent [out]
+### -param phEvent [out]
 
 Type: <b>HUIEVENT*</b>
 

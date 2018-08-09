@@ -7,7 +7,7 @@ old-location: ndf\shellcommandinfo.htm
 old-project: ndf
 ms.assetid: 54e23cfc-52bf-482a-a3e8-49fd6aa505e3
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: "*PShellCommandInfo, ShellCommandInfo, ShellCommandInfo structure [NDF], ShellCommandInfo,*PShellCommandInfo, ShellCommandInfo,*PShellCommandInfo structure [NDF], ndattrib/ShellCommandInfo, ndf.shellcommandinfo, tagShellCommandInfo"
 ms.prod: windows
 ms.technology: windows-sdk

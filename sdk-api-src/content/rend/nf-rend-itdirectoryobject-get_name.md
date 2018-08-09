@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobject_get_name.htm
 old-project: tapi
 ms.assetid: b24c1e69-5ba1-4597-86fb-2233707a1acf
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/31/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_Name method, ITDirectoryObject.get_Name, ITDirectoryObject::get_Name, _tapi3_itdirectoryobject_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_Name, tapi3.itdirectoryobject_get_name
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-<p class="CCE_Message">[
-						Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
+<p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 The 
@@ -124,7 +123,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppName</i> parameter.
+<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppName</i> parameter.
 			
 
 

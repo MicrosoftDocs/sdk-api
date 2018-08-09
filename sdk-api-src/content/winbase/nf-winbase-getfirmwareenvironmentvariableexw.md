@@ -7,7 +7,7 @@ old-location: base\getfirmwareenvironmentvariableex.htm
 old-project: SysInfo
 ms.assetid: B093BA68-C68B-4ED6-9902-058650A191FD
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: GetFirmwareEnvironmentVariableEx, GetFirmwareEnvironmentVariableEx function, GetFirmwareEnvironmentVariableExA, GetFirmwareEnvironmentVariableExW, base.getfirmwareenvironmentvariableex, winbase/GetFirmwareEnvironmentVariableEx, winbase/GetFirmwareEnvironmentVariableExA, winbase/GetFirmwareEnvironmentVariableExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ The GUID that represents the namespace of the firmware environment variable. The
 
 ### -param pBuffer
 
-TBD
+A pointer to a buffer that receives the value of the specified firmware environment variable.
 
 
 ### -param nSize
@@ -84,18 +84,6 @@ The size of the <i>pValue</i> buffer, in bytes.
 
 
 ### -param pdwAttribubutes
-
-TBD
-
-
-
-
-#### - pValue
-
-A pointer to a buffer that receives the value of the specified firmware environment variable.
-
-
-#### - pdwAttributes
 
 Bitmask identifying UEFI variable attributes associated with the variable. See <a href="https://msdn.microsoft.com/D3C2F03F-66F6-40A4-830E-058BBA925ACD">SetFirmwareEnvironmentVariableEx</a> for the bitmask definition.
 

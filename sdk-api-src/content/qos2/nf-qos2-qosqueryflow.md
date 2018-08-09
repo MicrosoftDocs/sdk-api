@@ -7,7 +7,7 @@ old-location: qos\qosqueryflow.htm
 old-project: qos
 ms.assetid: 8cae3ba2-beca-45e2-9526-2d917abc2606
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: QOSQueryFlow, QOSQueryFlow function [QOS], QOSQueryFlowFundamentals, QOSQueryOutgoingRate, QOSQueryPacketPriority, QOS_QUERYFLOW_FRESH, qos.qosqueryflow, qos2/QOSQueryFlow
 ms.prod: windows
 ms.technology: windows-sdk

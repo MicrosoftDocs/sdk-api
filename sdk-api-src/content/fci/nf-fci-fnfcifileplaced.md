@@ -7,7 +7,7 @@ old-location: winprog\fnfcifileplaced.htm
 old-project: devnotes
 ms.assetid: f8a1bcfc-8a13-49cf-a3e7-caec6c6421b0
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FNFCIFILEPLACED, FNFCIFILEPLACED macro [Windows API], fci/FNFCIFILEPLACED, winprog.fnfcifileplaced
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,11 +61,12 @@ The <b>FNFCIFILEPLACED</b> macro provides the declaration for the application-de
 
 ### -param fn
 
-TBD
+Pointer to the <a href="https://msdn.microsoft.com/e25cb72b-4c96-40e9-9fd5-2920e4a01d3a">CCAB</a> structure containing the parameters of the cabinet on which the file has been stored.
 
 
+#### - pszFile [in]
 
-
+The name of the file in the cabinet.
 
 
 #### - cbFile
@@ -76,16 +77,6 @@ The length of the file in bytes.
 #### - fContinuation
 
 A boolean value that is <b>TRUE</b> if the data added is a segment of a continued file.
-
-
-#### - pccab
-
-Pointer to the <a href="https://msdn.microsoft.com/e25cb72b-4c96-40e9-9fd5-2920e4a01d3a">CCAB</a> structure containing the parameters of the cabinet on which the file has been stored.
-
-
-#### - pszFile [in]
-
-The name of the file in the cabinet.
 
 
 #### - pv

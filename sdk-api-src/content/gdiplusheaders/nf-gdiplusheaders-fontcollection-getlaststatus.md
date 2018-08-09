@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_FontCollection_GetLastStatus_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontcollectionclass\fontcollectionmethods\getlaststatus_22.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: FontCollection class [GDI+],GetLastStatus method, FontCollection.GetLastStatus, FontCollection::GetLastStatus, GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],FontCollection class, _gdiplus_CLASS_FontCollection_GetLastStatus_, gdiplus._gdiplus_CLASS_FontCollection_GetLastStatus_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>FontCollection::GetLastStatus</b> method returns a value that indicates the result of this <a href="https://msdn.microsoft.com/library/ms534438(v=VS.85).aspx">FontCollection</a> object's previous method call.
+The <b>FontCollection::GetLastStatus</b> method returns a value that indicates the result of this <a href="https://msdn.microsoft.com/en-us/library/ms534438(v=VS.85).aspx">FontCollection</a> object's previous method call.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/windows/hardw
 
 The <b>FontCollection::GetLastStatus</b> method returns an element of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> enumeration.
 
-If the previous method invoked on this <a href="https://msdn.microsoft.com/library/ms534438(v=VS.85).aspx">FontCollection</a> object succeeded, <b>FontCollection::GetLastStatus</b> returns Ok.
+If the previous method invoked on this <a href="https://msdn.microsoft.com/en-us/library/ms534438(v=VS.85).aspx">FontCollection</a> object succeeded, <b>FontCollection::GetLastStatus</b> returns Ok.
 
 If the previous method failed, then <b>FontCollection::GetLastStatus</b> returns one of the other elements of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> enumeration that indicates the nature of the failure.
 
@@ -81,16 +81,16 @@ If the previous method failed, then <b>FontCollection::GetLastStatus</b> returns
 
 
 
-You can call <b>FontCollection::GetLastStatus</b> immediately after constructing a <a href="https://msdn.microsoft.com/library/ms534438(v=VS.85).aspx">FontCollection</a> object to determine whether the constructor succeeded. <b>FontCollection::GetLastStatus</b> returns Ok if the constructor succeeded. Otherwise, it returns a value that indicates the nature of the failure.
+You can call <b>FontCollection::GetLastStatus</b> immediately after constructing a <a href="https://msdn.microsoft.com/en-us/library/ms534438(v=VS.85).aspx">FontCollection</a> object to determine whether the constructor succeeded. <b>FontCollection::GetLastStatus</b> returns Ok if the constructor succeeded. Otherwise, it returns a value that indicates the nature of the failure.
 
-Note that the implementation of <b>FontCollection::GetLastStatus</b> in the <a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a> and <a href="https://msdn.microsoft.com/library/ms534438(v=VS.85).aspx">FontCollection</a> classes is different from the implementation of this method in other classes. Also, the implementation of <b>FontCollection::GetLastStatus</b> in the <b>Font</b> class is different from the implementation of <b>FontCollection::GetLastStatus</b> in the <b>FontCollection</b> class.
+Note that the implementation of <b>FontCollection::GetLastStatus</b> in the <a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a> and <a href="https://msdn.microsoft.com/en-us/library/ms534438(v=VS.85).aspx">FontCollection</a> classes is different from the implementation of this method in other classes. Also, the implementation of <b>FontCollection::GetLastStatus</b> in the <b>Font</b> class is different from the implementation of <b>FontCollection::GetLastStatus</b> in the <b>FontCollection</b> class.
 
 
 #### Examples
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a> object, checks the status of a method call, and, if successful, draws text.
+The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a> object, checks the status of a method call, and, if successful, draws text.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -141,15 +141,15 @@ The following example creates a <a href="https://msdn.microsoft.com/library/ms53
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534438(v=VS.85).aspx">FontCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534438(v=VS.85).aspx">FontCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
  
 
  

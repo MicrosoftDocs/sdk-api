@@ -2,12 +2,12 @@
 UID: NF:gdiplusgraphics.Graphics.Clear
 title: Graphics::Clear
 author: windows-sdk-content
-description: The Graphics::Clear method clears a Graphics object to a specified color.
+description: The Graphics::Clear method clears a Graphicsobject to a specified color.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Clear_color_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\clear.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Clear, Clear method [GDI+], Clear method [GDI+],Graphics class, Graphics class [GDI+],Clear method, Graphics.Clear, Graphics::Clear, _gdiplus_CLASS_Graphics_Clear_color_, gdiplus._gdiplus_CLASS_Graphics_Clear_color_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::Clear</b> method clears a 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>
- object to a specified color.
+			<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>object to a specified color.
 
 
 ## -parameters
@@ -93,7 +92,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535755(v=VS.85).aspx">DrawRectangle Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535755(v=VS.85).aspx">DrawRectangle Methods</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager_IncludedInCrawlScopeEx.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\includedincrawlscopeex.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchCrawlScopeManager interface [search],IncludedInCrawlScopeEx method, ISearchCrawlScopeManager.IncludedInCrawlScopeEx, ISearchCrawlScopeManager::IncludedInCrawlScopeEx, IncludedInCrawlScopeEx, IncludedInCrawlScopeEx method [search], IncludedInCrawlScopeEx method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_IncludedInCrawlScopeEx, search._search_ISearchCrawlScopeManager_IncludedInCrawlScopeEx, searchapi/ISearchCrawlScopeManager::IncludedInCrawlScopeEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,9 +75,9 @@ A pointer to a <b>BOOL</b> value: <b>TRUE</b> if <i>pszURL</i> is included in th
 
 ### -param pReason [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa965690(v=VS.85).aspx">CLUSION_REASON</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965690(v=VS.85).aspx">CLUSION_REASON</a>*</b>
 
-Retrieves a pointer to a value from the <a href="https://msdn.microsoft.com/library/Aa965690(v=VS.85).aspx">CLUSION_REASON</a> enumeration that indicates the reason that the specified URL was included in or excluded from the crawl scope.
+Retrieves a pointer to a value from the <a href="https://msdn.microsoft.com/en-us/library/Aa965690(v=VS.85).aspx">CLUSION_REASON</a> enumeration that indicates the reason that the specified URL was included in or excluded from the crawl scope.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_get_bitrate.htm
 old-project: WMP
 ms.assetid: dfac8b29-47d9-4cee-801b-f43fa2bba6ed
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_bitRate method, IWMPNetwork.get_bitRate, IWMPNetwork::get_bitRate, IWMPNetworkget_bitRate, get_bitRate, get_bitRate method [Windows Media Player], get_bitRate method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_bitrate, wmp/IWMPNetwork::get_bitRate
 ms.prod: windows
 ms.technology: windows-sdk

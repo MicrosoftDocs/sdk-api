@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestmainpackagedependency_getpackagefamilyname.ht
 old-project: appxpkg
 ms.assetid: 4F8E3E60-CE14-48C1-8367-10AA293F72F6
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: GetPackageFamilyName, GetPackageFamilyName method [App packaging and management], GetPackageFamilyName method [App packaging and management],IAppxManifestMainPackageDependency interface, IAppxManifestMainPackageDependency interface [App packaging and management],GetPackageFamilyName method, IAppxManifestMainPackageDependency.GetPackageFamilyName, IAppxManifestMainPackageDependency::GetPackageFamilyName, appxpackaging/IAppxManifestMainPackageDependency::GetPackageFamilyName, appxpkg.iappxmanifestmainpackagedependency_getpackagefamilyname
 ms.prod: windows
 ms.technology: windows-sdk

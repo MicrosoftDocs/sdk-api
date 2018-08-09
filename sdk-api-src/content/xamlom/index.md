@@ -2,13 +2,13 @@
 UID: NA:xamlom
 ms.assetid: 95070ea0-5efb-36e5-b388-2bf9d19e9de5
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: xaml_diagnostics
+archived: true
 ---
 
 # Xamlom.h header

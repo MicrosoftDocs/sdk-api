@@ -7,7 +7,7 @@ old-location: mf\imfsensorstream_clonesensorstream.htm
 old-project: medfound
 ms.assetid: A9729DEB-AA59-476B-A309-A960C3B1E40E
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: CloneSensorStream, CloneSensorStream method [Media Foundation], CloneSensorStream method [Media Foundation],IMFSensorStream interface, IMFSensorStream interface [Media Foundation],CloneSensorStream method, IMFSensorStream.CloneSensorStream, IMFSensorStream::CloneSensorStream, mf.imfsensorstream_clonesensorstream, mfidl/IMFSensorStream::CloneSensorStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ If the call is successful, <i>ppStream</i> receives the cloned <a href="https://
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ If the call is successful, <i>ppStream</i> receives the cloned <a href="https://
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -100,8 +98,7 @@ If the call is successful, <i>ppStream</i> receives the cloned <a href="https://
 </dl>
 </td>
 <td width="60%">
-
-                The <i>ppStream</i> parameter is null.
+The <i>ppStream</i> parameter is null.
 
 </td>
 </tr>

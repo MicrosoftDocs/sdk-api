@@ -2,7 +2,7 @@
 UID: TP:dshow
 ms.assetid: b1546a05-da85-3ec0-b7d1-f1e3c27d19c5
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -39,6 +39,7 @@ To develop DirectShow, you need these headers:
  * [dvdevcod.h](../dvdevcod/index.md)
  * [dvdmedia.h](../dvdmedia/index.md)
  * [dxva9typ.h](../dxva9typ/index.md)
+ * [errors.h](../errors/index.md)
  * [evcode.h](../evcode/index.md)
  * [il21dec.h](../il21dec/index.md)
  * [iwstdec.h](../iwstdec/index.md)

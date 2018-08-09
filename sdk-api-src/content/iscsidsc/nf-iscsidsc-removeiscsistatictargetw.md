@@ -7,7 +7,7 @@ old-location: iscsidisc\removeiscsistatictarget.htm
 old-project: iSCSIDisc
 ms.assetid: 7927d414-929e-4f01-b6bf-e6d571486aed
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: RemoveIScsiStaticTargetW, RemoveIscsiStaticTarget, RemoveIscsiStaticTarget function [iSCSI Discovery Library API], RemoveIscsiStaticTargetA, RemoveIscsiStaticTargetW, iscsidisc.removeiscsistatictarget, iscsidsc/RemoveIscsiStaticTarget, iscsidsc/RemoveIscsiStaticTargetA, iscsidsc/RemoveIscsiStaticTargetW
 ms.prod: windows
 ms.technology: windows-sdk

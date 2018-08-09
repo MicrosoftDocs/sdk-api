@@ -7,7 +7,7 @@ old-location: dshow\iasyncreader_syncreadaligned.htm
 old-project: DirectShow
 ms.assetid: 862511f1-7580-44db-aed5-3dd8279dcc33
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IAsyncReader interface [DirectShow],SyncReadAligned method, IAsyncReader.SyncReadAligned, IAsyncReader::SyncReadAligned, IAsyncReaderSyncReadAligned, SyncReadAligned, SyncReadAligned method [DirectShow], SyncReadAligned method [DirectShow],IAsyncReader interface, dshow.iasyncreader_syncreadaligned, strmif/IAsyncReader::SyncReadAligned
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: menurc\trackpopupmenuex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\trackpopupmenuex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TPM_BOTTOMALIGN, TPM_CENTERALIGN, TPM_HORIZONTAL, TPM_HORNEGANIMATION, TPM_HORPOSANIMATION, TPM_LEFTALIGN, TPM_LEFTBUTTON, TPM_NOANIMATION, TPM_NONOTIFY, TPM_RETURNCMD, TPM_RIGHTALIGN, TPM_RIGHTBUTTON, TPM_TOPALIGN, TPM_VCENTERALIGN, TPM_VERNEGANIMATION, TPM_VERPOSANIMATION, TPM_VERTICAL, TrackPopupMenuEx, TrackPopupMenuEx function [Menus and Other Resources], _win32_TrackPopupMenuEx, _win32_trackpopupmenuex_cpp, menurc.trackpopupmenuex, winui._win32_trackpopupmenuex, winuser/TrackPopupMenuEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,45 +62,14 @@ Displays a shortcut menu at the specified location and tracks the selection of i
 
 
 
-### -param hMenu
+### -param hMenu [in]
 
-TBD
+Type: <b>HMENU</b>
 
-
-### -param uFlags
-
-TBD
+A handle to the shortcut menu to be displayed. This handle can be obtained by calling the <a href="https://msdn.microsoft.com/en-us/library/ms647626(v=VS.85).aspx">CreatePopupMenu</a> function to create a new shortcut menu or by calling the <a href="https://msdn.microsoft.com/en-us/library/ms647984(v=VS.85).aspx">GetSubMenu</a> function to retrieve a handle to a submenu associated with an existing menu item. 
 
 
-### -param x [in]
-
-Type: <b>int</b>
-
-The horizontal location of the shortcut menu, in screen coordinates. 
-
-
-### -param y [in]
-
-Type: <b>int</b>
-
-The vertical location of the shortcut menu, in screen coordinates. 
-
-
-### -param hwnd [in]
-
-Type: <b>HWND</b>
-
-A handle to the window that owns the shortcut menu. This window receives all messages from the menu. The window does not receive a <a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> message from the menu until the function returns. If you specify TPM_NONOTIFY in the <i>fuFlags</i> parameter, the function does not send messages to the window identified by <i>hwnd</i>. However, you must still pass a window handle in <i>hwnd</i>. It can be any window handle from your application. 
-
-
-### -param lptpm [in, optional]
-
-Type: <b>LPTPMPARAMS</b>
-
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms647586(v=VS.85).aspx">TPMPARAMS</a> structure that specifies an area of the screen the menu should not overlap. This parameter can be <b>NULL</b>. 
-
-
-#### - fuFlags [in]
+### -param uFlags [in]
 
 Type: <b>UINT</b>
 
@@ -377,11 +346,32 @@ The excluded rectangle is a portion of the screen that the menu should not overl
  For right-to-left text layout, use <b>TPM_LAYOUTRTL</b>. By default, the text layout is left-to-right. 
 
 
-#### - hmenu [in]
+### -param x [in]
 
-Type: <b>HMENU</b>
+Type: <b>int</b>
 
-A handle to the shortcut menu to be displayed. This handle can be obtained by calling the <a href="https://msdn.microsoft.com/en-us/library/ms647626(v=VS.85).aspx">CreatePopupMenu</a> function to create a new shortcut menu or by calling the <a href="https://msdn.microsoft.com/en-us/library/ms647984(v=VS.85).aspx">GetSubMenu</a> function to retrieve a handle to a submenu associated with an existing menu item. 
+The horizontal location of the shortcut menu, in screen coordinates. 
+
+
+### -param y [in]
+
+Type: <b>int</b>
+
+The vertical location of the shortcut menu, in screen coordinates. 
+
+
+### -param hwnd [in]
+
+Type: <b>HWND</b>
+
+A handle to the window that owns the shortcut menu. This window receives all messages from the menu. The window does not receive a <a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> message from the menu until the function returns. If you specify TPM_NONOTIFY in the <i>fuFlags</i> parameter, the function does not send messages to the window identified by <i>hwnd</i>. However, you must still pass a window handle in <i>hwnd</i>. It can be any window handle from your application. 
+
+
+### -param lptpm [in, optional]
+
+Type: <b>LPTPMPARAMS</b>
+
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms647586(v=VS.85).aspx">TPMPARAMS</a> structure that specifies an area of the screen the menu should not overlap. This parameter can be <b>NULL</b>. 
 
 
 ## -returns

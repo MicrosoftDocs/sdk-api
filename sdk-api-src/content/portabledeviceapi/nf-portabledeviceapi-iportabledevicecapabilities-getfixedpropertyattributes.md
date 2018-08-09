@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecapabilities_getfixedpropertyattributes.htm
 old-project: wpd_sdk
 ms.assetid: 94e4e9f4-5858-4e12-bcd7-561fb3636fc8
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: GetFixedPropertyAttributes, GetFixedPropertyAttributes method [Windows Portable Devices SDK], GetFixedPropertyAttributes method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetFixedPropertyAttributes method, IPortableDeviceCapabilities.GetFixedPropertyAttributes, IPortableDeviceCapabilities::GetFixedPropertyAttributes, IPortableDeviceCapabilitiesGetFixedPropertyAttributes, portabledeviceapi/IPortableDeviceCapabilities::GetFixedPropertyAttributes, wpdsdk.iportabledevicecapabilities_getfixedpropertyattributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-        The <b>GetFixedPropertyAttributes</b> method retrieves the standard property attributes for a specified property and format. Standard attributes are those that have the same value for all objects of the same format. For example, one device might not allow users to modify video file names; this device would return <b>WPD_PROPERTY_ATTRIBUTE_CAN_WRITE</b> with a value of False for WMV formatted objects. Attributes that can have different values for a format, or optional attributes, are not returned.
+The <b>GetFixedPropertyAttributes</b> method retrieves the standard property attributes for a specified property and format. Standard attributes are those that have the same value for all objects of the same format. For example, one device might not allow users to modify video file names; this device would return <b>WPD_PROPERTY_ATTRIBUTE_CAN_WRITE</b> with a value of False for WMV formatted objects. Attributes that can have different values for a format, or optional attributes, are not returned.
       
 
 
@@ -64,22 +63,19 @@ req.product: ADAM
 
 ### -param Format [in]
 
-
-            A <b>REFGUID</b> that specifies the format of the objects of interest. For format <b>GUID</b> values, see <a href="https://msdn.microsoft.com/b668f1c3-eed0-44c5-921f-e92c016130f0">Object Formats</a>.
+A <b>REFGUID</b> that specifies the format of the objects of interest. For format <b>GUID</b> values, see <a href="https://msdn.microsoft.com/b668f1c3-eed0-44c5-921f-e92c016130f0">Object Formats</a>.
           
 
 
 ### -param Key [in]
 
-
-            A <b>REFPROPERTYKEY</b> that specifies the property that you want to know the attributes of. Properties defined by Windows Portable Devices are listed in <a href="https://msdn.microsoft.com/3bfbe8d0-6ad5-42de-afdd-d83328aaaa62">Properties and Attributes</a>.
+A <b>REFPROPERTYKEY</b> that specifies the property that you want to know the attributes of. Properties defined by Windows Portable Devices are listed in <a href="https://msdn.microsoft.com/3bfbe8d0-6ad5-42de-afdd-d83328aaaa62">Properties and Attributes</a>.
           
 
 
 ### -param ppAttributes [out]
 
-
-            Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface that holds the attributes and their values. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface that holds the attributes and their values. The caller must release this interface when it is done with it.
           
 
 
@@ -87,8 +83,7 @@ req.product: ADAM
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -117,12 +112,10 @@ The method succeeded.
 
 
 
-
-        You can specify <b>WPD_OBJECT_FORMAT_ALL</b> for the <i>Format</i> parameter to retrieve the complete set of property attributes.
+You can specify <b>WPD_OBJECT_FORMAT_ALL</b> for the <i>Format</i> parameter to retrieve the complete set of property attributes.
       
 
-
-        Attributes describe properties. Example attributes are <b>WPD_PROPERTY_ATTRIBUTE_CAN_READ</b> and <b>WPD_PROPERTY_ATTRIBUTE_CAN_WRITE</b>. This method does not retrieve resource attributes.
+Attributes describe properties. Example attributes are <b>WPD_PROPERTY_ATTRIBUTE_CAN_READ</b> and <b>WPD_PROPERTY_ATTRIBUTE_CAN_WRITE</b>. This method does not retrieve resource attributes.
       
 
 
@@ -133,7 +126,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: controls\ListView_SetUnicodeFormat.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setunicodeformat.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_SetUnicodeFormat, ListView_SetUnicodeFormat macro [Windows Controls], _win32_ListView_SetUnicodeFormat, _win32_ListView_SetUnicodeFormat_cpp, commctrl/ListView_SetUnicodeFormat, controls.ListView_SetUnicodeFormat, controls._win32_ListView_SetUnicodeFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761218(v=VS.85).aspx">LVM_SETUNICODEFORMAT</a> message explicitly. 
+Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761218(v=VS.85).aspx">LVM_SETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -77,7 +77,7 @@ The character set that is used by the control. If this value is nonzero, the con
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775018(v=VS.85).aspx">ListView_GetUnicodeFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775018(v=VS.85).aspx">ListView_GetUnicodeFormat</a>
  
 
  

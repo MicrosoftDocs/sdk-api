@@ -7,7 +7,7 @@ old-location: xps\ixpsompagereference.htm
 old-project: printdocs
 ms.assetid: cdebab24-f918-4235-b4d5-5ee1007ade87
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents and Packaging], IXpsOMPageReference interface [XPS Documents and Packaging],described, xps.ixpsompagereference, xpsobjectmodel/IXpsOMPageReference
 ms.prod: windows
 ms.technology: windows-sdk

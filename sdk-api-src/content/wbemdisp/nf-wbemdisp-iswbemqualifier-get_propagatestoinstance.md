@@ -7,7 +7,7 @@ old-location: wmi\swbemqualifier_propagatestoinstance.htm
 old-project: WmiSdk
 ms.assetid: 5cab3498-f7ba-4d82-9f07-90a87e15f270
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemQualifier interface [Windows Management Instrumentation],PropagatesToInstance property, ISWbemQualifier.get_PropagatesToInstance, ISWbemQualifier.put_PropagatesToInstance, ISWbemQualifier::get_PropagatesToInstance, PropagatesToInstance property [Windows Management Instrumentation], PropagatesToInstance property [Windows Management Instrumentation],ISWbemQualifier interface, PropagatesToInstance property [Windows Management Instrumentation],SWbemQualifier object, SWbemQualifier object [Windows Management Instrumentation],PropagatesToInstance property, SWbemQualifier.PropagatesToInstance, _hmm_swbemqualifier.propagatestoinstance, get_PropagatesToInstance, wmi.swbemqualifier_propagatestoinstance
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: ncd\ifunctioninstancequery_execute_method.htm
 old-project: fundisc
 ms.assetid: 42618944-6ae6-45f0-85f9-3c958d719ed2
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/30/2018
 ms.keywords: Execute, Execute method, Execute method,IFunctionInstanceQuery interface, IFunctionInstanceQuery interface,Execute method, IFunctionInstanceQuery.Execute, IFunctionInstanceQuery::Execute, functiondiscoveryapi/IFunctionInstanceQuery::Execute, ncd.ifunctioninstancequery_execute_method
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,8 +125,7 @@ The results to be returned by a provider will come through asynchronous notifica
 <td width="40%">
 <dl>
 <dt><b>HRESULT_FROM_WIN32(ERROR_OBJECT_NOT_FOUND)</b></dt>
-<dt>
-0x800710d8</dt>
+<dt>0x800710d8</dt>
 </dl>
 </td>
 <td width="60%">
@@ -138,8 +137,7 @@ The function instance represented by the specified ID does not exist on this com
 <td width="40%">
 <dl>
 <dt><b>HRESULT_FROM_WIN32(ERROR_KEY_DELETED)</b></dt>
-<dt>
-0x800703fa</dt>
+<dt>0x800703fa</dt>
 </dl>
 </td>
 <td width="60%">
@@ -151,8 +149,7 @@ The function instance could not be returned because the key corresponding to the
 <td width="40%">
 <dl>
 <dt><b>HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND)</b></dt>
-<dt>
-0x80070002</dt>
+<dt>0x80070002</dt>
 </dl>
 </td>
 <td width="60%">

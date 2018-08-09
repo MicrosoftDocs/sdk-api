@@ -7,7 +7,7 @@ old-location: mscs\clusprop_partition_info_ex.htm
 old-project: mscs
 ms.assetid: b1343a04-b8bd-469a-a620-985eeb89401c
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: "*PCLUSPROP_PARTITION_INFO_EX, CLUSPROP_PARTITION_INFO_EX, CLUSPROP_PARTITION_INFO_EX structure [Failover Cluster], CLUSPROP_PIFLAG_DEFAULT_QUORUM, CLUSPROP_PIFLAG_REMOVABLE, CLUSPROP_PIFLAG_STICKY, CLUSPROP_PIFLAG_USABLE, FS_CASE_IS_PRESERVED, FS_CASE_SENSITIVE, FS_PERSISTENT_ACLS, FS_UNICODE_STORED_ON_DISK, PCLUSPROP_PARTITION_INFO_EX, PCLUSPROP_PARTITION_INFO_EX structure pointer [Failover Cluster], clusapi/CLUSPROP_PARTITION_INFO_EX, clusapi/PCLUSPROP_PARTITION_INFO_EX, mscs.clusprop_partition_info_ex"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.irql:
 Specifies a collection of information about a physical disk resource, such as its device name and volume label. 
     The <b>CLUSPROP_PARTITION_INFO_EX</b> 
     structure contains information relevant to 
-    <a href="https://msdn.microsoft.com/library/ms682866(v=VS.85).aspx">storage class resources</a>. It is 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">storage class resources</a>. It is 
     used as an entry in a <a href="https://msdn.microsoft.com/f2b20fe5-0d7e-4ccd-b288-aa8104a24fef">value list</a> and consists of:
 <ul>
 <li>A <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure describing the format, 
@@ -82,41 +82,10 @@ Specifies a collection of information about a physical disk resource, such as it
 
 
 
-#### - DeviceNumber
-
-Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
-       structure that contains an unsigned 32-bit integer indicating the unique device number.
-
-
-#### - FreeSizeInBytes
-
-Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
-       structure that identifies the amount of unallocated space, in bytes, of the specified storage class 
-       resource.
-
-
-#### - PartitionNumber
-
-Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
-       structure that identifies the partition number of the specified storage class resource.
-
-
 #### - Syntax
 
 Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a value 
        of <b>CLUSPROP_SYNTAX_PARTITION_INFO_EX</b> (0x000d0001).
-
-
-#### - TotalSizeInBytes
-
-Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
-       structure that identifies the total size, in bytes, of the specified storage class resource.
-
-
-#### - VolumeGuid
-
-Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
-       structure that takes a 128-bit value that contains the unique identifier associated with that volume.
 
 
 #### - cbLength
@@ -124,37 +93,6 @@ Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7a
 Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating 
        the count of bytes in the 
        <b>CLUSPROP_PARTITION_INFO_EX</b> structure.
-
-
-#### - dwFileSystemFlags
-
-Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
-       structure that describes the file system. One or more of the following flags are valid.
-
-
-
-#### FS_CASE_SENSITIVE (1)
-
-The file system supports case-sensitive file names.
-
-
-
-#### FS_CASE_IS_PRESERVED (2)
-
-The file system preserves the case of file names when it places a name on the storage class 
-         resource.
-
-
-
-#### FS_UNICODE_STORED_ON_DISK (4)
-
-The file system supports Unicode in file names as they appear on storage class resource.
-
-
-
-#### FS_PERSISTENT_ACLS (8)
-
-The file system preserves and enforces access control lists (ACLs).
 
 
 #### - dwFlags
@@ -192,6 +130,19 @@ The partition should be used to store quorum files if no partition is specified 
         larger than 50MB automatically receives this flag.
 
 
+#### - szDeviceName
+
+Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
+       structure that describes the device name for the storage class resource, such as C:. No backslashes are 
+       included.
+
+
+#### - szVolumeLabel
+
+Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
+       structure that describes the volume label for the storage class resource.
+
+
 #### - dwSerialNumber
 
 Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
@@ -205,11 +156,35 @@ Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7a
        file system. A file name component is that portion of a file name between backslashes.
 
 
-#### - szDeviceName
+#### - dwFileSystemFlags
 
 Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
-       structure that describes the device name for the storage class resource, such as C:. No backslashes are 
-       included.
+       structure that describes the file system. One or more of the following flags are valid.
+
+
+
+#### FS_CASE_SENSITIVE (1)
+
+The file system supports case-sensitive file names.
+
+
+
+#### FS_CASE_IS_PRESERVED (2)
+
+The file system preserves the case of file names when it places a name on the storage class 
+         resource.
+
+
+
+#### FS_UNICODE_STORED_ON_DISK (4)
+
+The file system supports Unicode in file names as they appear on storage class resource.
+
+
+
+#### FS_PERSISTENT_ACLS (8)
+
+The file system preserves and enforces access control lists (ACLs).
 
 
 #### - szFileSystem
@@ -219,10 +194,35 @@ Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7a
        "NTFS".
 
 
-#### - szVolumeLabel
+#### - TotalSizeInBytes
 
 Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
-       structure that describes the volume label for the storage class resource.
+       structure that identifies the total size, in bytes, of the specified storage class resource.
+
+
+#### - FreeSizeInBytes
+
+Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
+       structure that identifies the amount of unallocated space, in bytes, of the specified storage class 
+       resource.
+
+
+#### - DeviceNumber
+
+Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
+       structure that contains an unsigned 32-bit integer indicating the unique device number.
+
+
+#### - PartitionNumber
+
+Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
+       structure that identifies the partition number of the specified storage class resource.
+
+
+#### - VolumeGuid
+
+Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
+       structure that takes a 128-bit value that contains the unique identifier associated with that volume.
 
 
 ## -see-also

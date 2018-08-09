@@ -7,7 +7,7 @@ old-location: controls\ListView_SetItemText.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemtext.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_SetItemText, ListView_SetItemText macro [Windows Controls], _win32_ListView_SetItemText, _win32_ListView_SetItemText_cpp, commctrl/ListView_SetItemText, controls.ListView_SetItemText, controls._win32_ListView_SetItemText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Changes the text of a list-view item or subitem. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761198(v=VS.85).aspx">LVM_SETITEMTEXT</a> message explicitly. 
+Changes the text of a list-view item or subitem. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761198(v=VS.85).aspx">LVM_SETITEMTEXT</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Changes the text of a list-view item or subitem. You can use this macro or send 
 
 ### -param hwndLV
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the list-view control. 
 
 
 ### -param i
@@ -82,15 +84,8 @@ The one-based index of the subitem. To set the item label, set
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
 
-A pointer to a null-terminated string that contains the new text. This parameter can be LPSTR_TEXTCALLBACK to indicate a callback item for which the parent window stores the text. In this case, the list-view control sends the parent an <a href="https://msdn.microsoft.com/library/Bb774818(v=VS.85).aspx">LVN_GETDISPINFO</a> notification code when it needs the text.
+A pointer to a null-terminated string that contains the new text. This parameter can be LPSTR_TEXTCALLBACK to indicate a callback item for which the parent window stores the text. In this case, the list-view control sends the parent an <a href="https://msdn.microsoft.com/en-us/library/Bb774818(v=VS.85).aspx">LVN_GETDISPINFO</a> notification code when it needs the text.
 This parameter can be <b>NULL</b>.
-
-
-#### - hwnd
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to the list-view control. 
 
 
 #### - iSubItem
@@ -105,6 +100,6 @@ The one-based index of the subitem. To set the item label, set
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
 
-A pointer to a null-terminated string that contains the new text. This parameter can be LPSTR_TEXTCALLBACK to indicate a callback item for which the parent window stores the text. In this case, the list-view control sends the parent an <a href="https://msdn.microsoft.com/library/Bb774818(v=VS.85).aspx">LVN_GETDISPINFO</a> notification code when it needs the text.
+A pointer to a null-terminated string that contains the new text. This parameter can be LPSTR_TEXTCALLBACK to indicate a callback item for which the parent window stores the text. In this case, the list-view control sends the parent an <a href="https://msdn.microsoft.com/en-us/library/Bb774818(v=VS.85).aspx">LVN_GETDISPINFO</a> notification code when it needs the text.
 This parameter can be <b>NULL</b>.
 

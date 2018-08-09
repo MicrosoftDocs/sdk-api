@@ -4,10 +4,10 @@ title: TSPI_phoneDevSpecific function
 author: windows-sdk-content
 description: The TSPI_phoneDevSpecific function is used as a general extension mechanism to enable a Telephony API implementation to provide features not described in the other operations. The meanings of these extensions are device specific.
 old-location: tspi\tspi_phonedevspecific.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 8c2161c2-ab7c-44b0-a7a0-249412359838
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: TSPI_phoneDevSpecific, TSPI_phoneDevSpecific function [TAPI 2.2], _tspi_tspi_phonedevspecific, tspi.tspi_phonedevspecific, tspi/TSPI_phoneDevSpecific
 ms.prod: windows
 ms.technology: windows-sdk

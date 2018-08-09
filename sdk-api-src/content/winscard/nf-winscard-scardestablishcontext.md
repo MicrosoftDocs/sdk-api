@@ -4,10 +4,10 @@ title: SCardEstablishContext function
 author: windows-sdk-content
 description: Establishes the resource manager context (the scope) within which database operations are performed.
 old-location: security\scardestablishcontext.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 1cf9b005-b76c-4fc9-b4bd-a1ad8552535f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SCARD_SCOPE_SYSTEM, SCARD_SCOPE_USER, SCardEstablishContext, SCardEstablishContext function [Security], _smart_scardestablishcontext, security.scardestablishcontext, winscard/SCardEstablishContext
 ms.prod: windows
 ms.technology: windows-sdk

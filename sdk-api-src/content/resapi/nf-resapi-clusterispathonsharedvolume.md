@@ -7,7 +7,7 @@ old-location: mscs\clusterispathonsharedvolume.htm
 old-project: mscs
 ms.assetid: 8d4702b8-23de-4c45-87ec-1a4ada8a4086
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusterIsPathOnSharedVolume, ClusterIsPathOnSharedVolume function [Failover Cluster], PCLUSTER_IS_PATH_ON_SHARED_VOLUME, PCLUSTER_IS_PATH_ON_SHARED_VOLUME function [Failover Cluster], mscs.clusterispathonsharedvolume, resapi/ClusterIsPathOnSharedVolume, resapi/PCLUSTER_IS_PATH_ON_SHARED_VOLUME
 ms.prod: windows
 ms.technology: windows-sdk

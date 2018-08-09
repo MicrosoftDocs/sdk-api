@@ -7,7 +7,7 @@ old-location: base\symgetsourcefile.htm
 old-project: debug
 ms.assetid: 1d2115fb-2725-4fae-abb7-ff1b8a802c69
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymGetSourceFile, SymGetSourceFile function, SymGetSourceFileW, base.symgetsourcefile, dbghelp/SymGetSourceFile, dbghelp/SymGetSourceFileW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,8 +96,7 @@ The size of the <i>FilePath</i> buffer, in characters.
 
 
 
-
-						If the function succeeds, the return value is <b>TRUE</b>.
+If the function succeeds, the return value is <b>TRUE</b>.
 						
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 

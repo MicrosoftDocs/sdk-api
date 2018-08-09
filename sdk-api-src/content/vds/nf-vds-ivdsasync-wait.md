@@ -4,10 +4,10 @@ title: IVdsAsync::Wait
 author: windows-sdk-content
 description: Returns when the asynchronous operation has either finished successfully or failed.
 old-location: base\ivdsasync_wait.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 1bb30247-efb8-488f-b142-8912c351f5f2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IVdsAsync interface [VDS],Wait method, IVdsAsync.Wait, IVdsAsync::Wait, Wait, Wait method [VDS], Wait method [VDS],IVdsAsync interface, base.ivdsasync_wait, vds/IVdsAsync::Wait, vdshwprv/IVdsAsync::Wait
 ms.prod: windows
 ms.technology: windows-sdk

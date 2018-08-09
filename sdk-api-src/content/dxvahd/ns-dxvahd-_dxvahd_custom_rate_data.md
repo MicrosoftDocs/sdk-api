@@ -7,7 +7,7 @@ old-location: mf\dxvahd_custom_rate_data.htm
 old-project: medfound
 ms.assetid: 12cac4a8-cfdf-484c-8443-ef47dd3a152b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: DXVAHD_CUSTOM_RATE_DATA, DXVAHD_CUSTOM_RATE_DATA structure [Media Foundation], _DXVAHD_CUSTOM_RATE_DATA, dxvahd/DXVAHD_CUSTOM_RATE_DATA, mf.dxvahd_custom_rate_data
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ The number of output frames that will be generated for every <i>N</i> input samp
 
 ### -field InputInterlaced
 
-
-            If <b>TRUE</b>, the input stream must be interlaced<b></b>. Otherwise, the input stream must be progressive.
+If <b>TRUE</b>, the input stream must be interlaced<b></b>. Otherwise, the input stream must be progressive.
 
 
 ### -field InputFramesOrFields

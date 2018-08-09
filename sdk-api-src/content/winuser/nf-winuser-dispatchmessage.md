@@ -7,7 +7,7 @@ old-location: winmsg\dispatchmessage.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\dispatchmessage.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DispatchMessage, DispatchMessage function [Windows and Messages], DispatchMessageA, DispatchMessageW, _win32_DispatchMessage, _win32_dispatchmessage_cpp, winmsg.dispatchmessage, winui._win32_dispatchmessage, winuser/DispatchMessage, winuser/DispatchMessageA, winuser/DispatchMessageW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,14 +70,7 @@ Dispatches a message to a window procedure. It is typically used to dispatch a m
 
 
 
-### -param lpMsg
-
-TBD
-
-
-
-
-#### - lpmsg [in]
+### -param lpMsg [in]
 
 Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a>*</b>
 

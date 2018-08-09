@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevices_item.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5j8t.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxDevices object [Fax Service],Item property, FaxDevices.Item, IFaxDevices.get_Item, IFaxDevices::get_Item, Item property [Fax Service], Item property [Fax Service],FaxDevices object, _mfax_faxdevices.item, fax._mfax_faxdevices_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Item</b> property returns a <a href="https://msdn.microsoft.com/library/ms686192(v=VS.85).aspx">FaxDevice</a> object from the <a href="https://msdn.microsoft.com/library/ms684819(v=VS.85).aspx">FaxDevices</a> collection, using its index.
+The <b>Item</b> property returns a <a href="https://msdn.microsoft.com/en-us/library/ms686192(v=VS.85).aspx">FaxDevice</a> object from the <a href="https://msdn.microsoft.com/en-us/library/ms684819(v=VS.85).aspx">FaxDevices</a> collection, using its index.
 
 This property is read-only.
 
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-To retrieve an item from the <a href="https://msdn.microsoft.com/library/ms684819(v=VS.85).aspx">FaxDevices</a> collection using the device ID, call the <a href="https://msdn.microsoft.com/library/ms686143(v=VS.85).aspx">ItemById</a> property.
+To retrieve an item from the <a href="https://msdn.microsoft.com/en-us/library/ms684819(v=VS.85).aspx">FaxDevices</a> collection using the device ID, call the <a href="https://msdn.microsoft.com/en-us/library/ms686143(v=VS.85).aspx">ItemById</a> property.
 
 
 
@@ -74,11 +74,11 @@ To retrieve an item from the <a href="https://msdn.microsoft.com/library/ms68481
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684819(v=VS.85).aspx">FaxDevices</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684819(v=VS.85).aspx">FaxDevices</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693400(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693400(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: p2p\drtgetsearchresult.htm
 old-project: p2psdk
 ms.assetid: b89ea470-072e-46b6-9f5d-3e05aa012188
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: DrtGetSearchResult, DrtGetSearchResult function [Peer Networking], drt/DrtGetSearchResult, p2p.drtgetsearchresult
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,9 +63,9 @@ The <b>DrtGetSearchResult</b> function allows the caller to retrieve the search 
 Handle to the search context to close. This parameter is returned by the <a href="https://msdn.microsoft.com/d43634d5-eb0a-4f84-9248-977c544db984">DrtStartSearch</a> function.
 
 
-### -param ulSearchResultSize
+### -param ulSearchResultSize [out]
 
-TBD
+Pointer to the <a href="https://msdn.microsoft.com/23cf713e-2730-456c-a3da-649c5ed00ffb">DRT_SEARCH_RESULT</a> structure containing the search result.
 
 
 ### -param pSearchResult
@@ -73,11 +73,6 @@ TBD
 TBD
 
 
-
-
-#### - ppSearchResult [out]
-
-Pointer to the <a href="https://msdn.microsoft.com/23cf713e-2730-456c-a3da-649c5ed00ffb">DRT_SEARCH_RESULT</a> structure containing the search result.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: shell\ITravelLog_GetToolTipText.htm
 old-project: shell
 ms.assetid: a085fe2e-9658-448c-b659-4ef08896ec77
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetToolTipText, GetToolTipText method [Windows Shell], GetToolTipText method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],GetToolTipText method, ITravelLog.GetToolTipText, ITravelLog::GetToolTipText, shdeprecated/ITravelLog::GetToolTipText, shell.ITravelLog_GetToolTipText, zone_ITravelLog_GetToolTipText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,8 +91,7 @@ A pointer to a buffer that receives the Unicode tooltip text string.
 
 Type: <b>DWORD</b>
 
-
-          The number of characters in the buffer pointed to by <i>pwzText</i>.
+The number of characters in the buffer pointed to by <i>pwzText</i>.
         
 
 

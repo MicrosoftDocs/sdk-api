@@ -4,10 +4,10 @@ title: IVssWMComponent::GetDatabaseLogFile
 author: windows-sdk-content
 description: The GetDatabaseLogFile method obtains a file descriptor for the log file associated with the specified database backup component.
 old-location: base\ivsswmcomponent_getdatabaselogfile.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 8aaab68a-27e3-4e76-8116-530001b504a3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetDatabaseLogFile, GetDatabaseLogFile method [VSS], GetDatabaseLogFile method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetDatabaseLogFile method, IVssWMComponent.GetDatabaseLogFile, IVssWMComponent::GetDatabaseLogFile, _win32_ivsswmcomponent_getdatabaselogfile, base.ivsswmcomponent_getdatabaselogfile, vsbackup/IVssWMComponent::GetDatabaseLogFile
 ms.prod: windows
 ms.technology: windows-sdk

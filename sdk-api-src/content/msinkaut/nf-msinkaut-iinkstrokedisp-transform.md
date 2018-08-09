@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_transform.htm
 old-project: tablet
 ms.assetid: b7860215-a267-407e-9105-8e51340f4216
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IInkStrokeDisp interface [Tablet PC],Transform method, IInkStrokeDisp.Transform, IInkStrokeDisp::Transform, Transform, Transform method [Tablet PC], Transform method [Tablet PC],IInkStrokeDisp interface, b7860215-a267-407e-9105-8e51340f4216, msinkaut/IInkStrokeDisp::Transform, tablet.iinkstrokedisp_transform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-          Applies a linear transformation to an <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> object or an <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection, which can represent scaling, rotation, translation, and combinations of transformations.
+Applies a linear transformation to an <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> object or an <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection, which can represent scaling, rotation, translation, and combinations of transformations.
         
 
 

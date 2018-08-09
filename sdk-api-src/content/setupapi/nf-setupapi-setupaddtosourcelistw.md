@@ -7,7 +7,7 @@ old-location: setup\setupaddtosourcelist.htm
 old-project: SetupApi
 ms.assetid: c1da3f9b-12ea-49f3-a5ca-45a63a56becd
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupAddToSourceList, SetupAddToSourceList function [Setup API], SetupAddToSourceListA, SetupAddToSourceListW, _setupapi_setupaddtosourcelist, setup.setupaddtosourcelist, setupapi/SetupAddToSourceList, setupapi/SetupAddToSourceListA, setupapi/SetupAddToSourceListW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,16 +109,6 @@ Add the source to the end of the list. If this flag is not specified, the source
 Pointer to the source to be added to the list. You should use a null-terminated string. 
 
 
-##### - Flags.SRCLIST_APPEND
-
-Add the source to the end of the list. If this flag is not specified, the source is added to the beginning of the list.
-
-
-##### - Flags.SRCLIST_SYSIFADMIN
-
-If the caller is an administrator, the source is added to the per-system list; if the caller is not a member of the administrators local group, the source is added to the per-user list for the current user.
-
-
 ##### - Flags.SRCLIST_SYSTEM
 
 Add the source to the per-system list. The caller must be an administrator.
@@ -127,6 +117,16 @@ Add the source to the per-system list. The caller must be an administrator.
 ##### - Flags.SRCLIST_USER
 
 Add the source to the per-user list.
+
+
+##### - Flags.SRCLIST_SYSIFADMIN
+
+If the caller is an administrator, the source is added to the per-system list; if the caller is not a member of the administrators local group, the source is added to the per-user list for the current user.
+
+
+##### - Flags.SRCLIST_APPEND
+
+Add the source to the end of the list. If this flag is not specified, the source is added to the beginning of the list.
 
 
 ## -returns

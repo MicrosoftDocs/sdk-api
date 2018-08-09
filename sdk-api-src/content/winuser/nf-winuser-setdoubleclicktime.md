@@ -7,7 +7,7 @@ old-location: inputdev\setdoubleclicktime.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\setdoubleclicktime.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetDoubleClickTime, SetDoubleClickTime function [Keyboard and Mouse Input], _win32_SetDoubleClickTime, _win32_setdoubleclicktime_cpp, inputdev.setdoubleclicktime, winui._win32_setdoubleclicktime, winuser/SetDoubleClickTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,7 @@ Sets the double-click time for the mouse. A double-click is a series of two clic
 
 
 
-### -param Arg1
-
-TBD
-
-
-
-
-#### - uInterval [in]
+### -param Arg1 [in]
 
 Type: <b>UINT</b>
 

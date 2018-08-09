@@ -7,7 +7,7 @@ old-location: stg\ipropertystorage_writepropertynames.htm
 old-project: stg
 ms.assetid: 3612bf29-344a-4389-bd3b-56b9fa297362
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: IPropertyStorage interface [Structured Storage],WritePropertyNames method, IPropertyStorage.WritePropertyNames, IPropertyStorage::WritePropertyNames, WritePropertyNames, WritePropertyNames method [Structured Storage], WritePropertyNames method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_writepropertynames, propidl/IPropertyStorage::WritePropertyNames, stg.ipropertystorage_writepropertynames
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,8 +80,7 @@ An array of new names to be assigned to the corresponding property IDs in the <i
 
 
 
-
-						This method supports the standard return value <b>E_UNEXPECTED</b>, in addition to the following:
+This method supports the standard return value <b>E_UNEXPECTED</b>, in addition to the following:
 
 
 

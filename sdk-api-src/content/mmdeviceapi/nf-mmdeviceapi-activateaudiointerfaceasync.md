@@ -7,7 +7,7 @@ old-location: coreaudio\activateaudiointerfaceasync.htm
 old-project: CoreAudio
 ms.assetid: 7BAFD9DB-DCD7-4093-A24B-9A8556C6C45B
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: ActivateAudioInterfaceAsync, ActivateAudioInterfaceAsync function [Core Audio], coreaudio.activateaudiointerfaceasync, mmdeviceapi/ActivateAudioInterfaceAsync
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,13 +82,6 @@ An interface implemented by the caller that is called by Windows when the result
 
 
 ### -param activationOperation
-
-TBD
-
-
-
-
-#### - createAsync
 
 Returns an <a href="https://msdn.microsoft.com/43b25a67-d9a8-4749-a654-c7310039c553">IActivateAudioInterfaceAsyncOperation</a> interface that represents the asynchronous operation of activating the requested <b>WASAPI</b> interface.
 

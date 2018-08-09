@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__FindTBar.htm
 old-project: shell
 ms.assetid: 1bf707e5-8849-4b5c-aa5b-f77ccfbc3ad7
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_FindTBar method, IBrowserService2._FindTBar, IBrowserService2::_FindTBar, _FindTBar, _FindTBar method [Windows Shell], _FindTBar method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_FindTBar, shell.IBrowserService2__FindTBar, zone_IBrowserService2__FindTBar
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Deprecated. Returns the index of a browser toolbar item based on Component Objec
 
 Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
 
-
-          A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of the browser toolbar item.
+A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of the browser toolbar item.
         
 
 

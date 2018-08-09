@@ -7,7 +7,7 @@ old-location: shell\SHMapPIDLToSystemImageListIndex.htm
 old-project: shell
 ms.assetid: 7f11049b-2481-496b-95e3-77d480f2c9df
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHMapPIDLToSystemImageListIndex, SHMapPIDLToSystemImageListIndex function [Windows Shell], _win32_SHMapPIDLToSystemImageListIndex, shell.SHMapPIDLToSystemImageListIndex, shlobj_core/SHMapPIDLToSystemImageListIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,11 @@ Retrieves the icon index from the system image list that is associated with a fo
 
 
 
-### -param pshf
+### -param pshf [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>*</b>
+
+An <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> interface pointer for the folder that contains the item.
 
 
 ### -param pidl [in]
@@ -73,25 +75,11 @@ Type: <b>PCUITEMID_CHILD</b>
 A pointer to the item's <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure.
 
 
-### -param piIndexSel
-
-TBD
-
-
-
-
-#### - piIndex [out, optional]
+### -param piIndexSel [out, optional]
 
 Type: <b>int*</b>
 
 A pointer to an <b>int</b> that, when this function returns successfully, receives the index of the item's <b>open</b> icon in the system image list. If the item does not have a special <b>open</b> icon then the index of its normal icon is returned. If the <b>open</b> icon exists and cannot be obtained, then the value pointed to by <i>piIndex</i> is set to -1. This parameter can be <b>NULL</b> if the calling application is not interested in the <b>open</b> icon.
-
-
-#### - psf [in]
-
-Type: <b><a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>*</b>
-
-An <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> interface pointer for the folder that contains the item.
 
 
 ## -returns

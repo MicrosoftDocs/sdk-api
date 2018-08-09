@@ -7,7 +7,7 @@ old-location: security\iazscope_canbedelegated.htm
 old-project: secauthz
 ms.assetid: e68bd5b2-060b-478b-9375-b23761888e6a
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AzScope object [Security],CanBeDelegated property, CanBeDelegated property [Security], CanBeDelegated property [Security],AzScope object, CanBeDelegated property [Security],IAzScope interface, IAzScope interface [Security],CanBeDelegated property, IAzScope.CanBeDelegated, IAzScope.get_CanBeDelegated, IAzScope::CanBeDelegated, IAzScope::get_CanBeDelegated, azroles/IAzScope::CanBeDelegated, azroles/IAzScope::get_CanBeDelegated, get_CanBeDelegated, security.iazscope_canbedelegated
 ms.prod: windows
 ms.technology: windows-sdk

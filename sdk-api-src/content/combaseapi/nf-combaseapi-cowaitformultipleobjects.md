@@ -7,7 +7,7 @@ old-location: com\cowaitformultipleobjects.htm
 old-project: com
 ms.assetid: 7A14E4F4-20F0-43FF-8D64-9AAC34B8D56F
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: CoWaitForMultipleObjects, CoWaitForMultipleObjects function [COM], com.cowaitformultipleobjects, combaseapi/CoWaitForMultipleObjects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,14 +82,7 @@ The length of the <i>pHandles</i> array. Must be &lt;= 56.
 An array of handles to waitable kernel objects.
 
 
-### -param lpdwindex
-
-TBD
-
-
-
-
-#### - lpdwIndex [out]
+### -param lpdwindex [out]
 
 Receives the index of the handle that satisfied the wait.
 

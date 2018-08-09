@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddClosedCurve_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddclosedcurvemethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: AddClosedCurve, AddClosedCurve methods [GDI+], GraphicsPath.AddClosedCurve, GraphicsPath::AddClosedCurve, _gdiplus_CLASS_GraphicsPath_AddClosedCurve_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddClosedCurve_Methods, gdipluspath/AddClosedCurve
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,9 +53,9 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 AddClosedCurve methods of the 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
 <b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -65,37 +65,37 @@ AddClosedCurve methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535615(v=VS.85).aspx">AddClosedCurve(Point*,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535615(v=VS.85).aspx">AddClosedCurve(Point*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535615(v=VS.85).aspx">GraphicsPath::AddClosedCurve</a> method adds a closed cardinal spline to this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535615(v=VS.85).aspx">GraphicsPath::AddClosedCurve</a> method adds a closed cardinal spline to this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535618(v=VS.85).aspx">AddClosedCurve(PointF*,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535618(v=VS.85).aspx">AddClosedCurve(PointF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535618(v=VS.85).aspx">GraphicsPath::AddClosedCurve</a> method adds a closed cardinal spline to this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535618(v=VS.85).aspx">GraphicsPath::AddClosedCurve</a> method adds a closed cardinal spline to this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535616(v=VS.85).aspx">AddClosedCurve(Point*,INT,REAL)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535616(v=VS.85).aspx">AddClosedCurve(Point*,INT,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535616(v=VS.85).aspx">GraphicsPath::AddClosedCurve</a> method adds a closed cardinal spline to this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535616(v=VS.85).aspx">GraphicsPath::AddClosedCurve</a> method adds a closed cardinal spline to this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535617(v=VS.85).aspx">AddClosedCurve(PointF*,INT,REAL)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535617(v=VS.85).aspx">AddClosedCurve(PointF*,INT,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535617(v=VS.85).aspx">GraphicsPath::AddClosedCurve</a> method adds a closed cardinal spline to this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535617(v=VS.85).aspx">GraphicsPath::AddClosedCurve</a> method adds a closed cardinal spline to this path.
 
 </td>
 </tr>

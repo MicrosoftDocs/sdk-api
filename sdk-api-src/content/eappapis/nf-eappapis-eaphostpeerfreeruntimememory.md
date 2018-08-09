@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerfreeruntimememory.htm
 old-project: eaphost
 ms.assetid: d27233a0-b41f-43f6-a934-1ab8df8b0581
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapHostPeerFreeRuntimeMemory, EapHostPeerFreeRuntimeMemory function [EAPHost], eaphost.eaphostpeerfreeruntimememory, eappapis/ EapHostPeerFreeRuntimeMemory
 ms.prod: windows
 ms.technology: windows-sdk

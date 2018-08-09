@@ -7,7 +7,7 @@ old-location: mstv\mpeg_header_bits.htm
 old-project: mstv
 ms.assetid: e25d36af-ee72-4986-8d96-2bce8b19ac80
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: "*PMPEG_HEADER_BITS, MPEG_HEADER_BITS, MPEG_HEADER_BITS structure [Microsoft TV Technologies], MPEG_HEADER_BITSStructure, PMPEG_HEADER_BITS, PMPEG_HEADER_BITS structure pointer [Microsoft TV Technologies], mpeg2bits/MPEG_HEADER_BITS, mpeg2bits/PMPEG_HEADER_BITS, mstv.mpeg_header_bits"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,29 +64,25 @@ The <b>MPEG_HEADER_BITS</b> structure contains the first 16 bits that follow the
 
 ### -field SectionLength
 
-
-            The length of the section, in bytes.
+The length of the section, in bytes.
           
 
 
 ### -field Reserved
 
-
-            Two reserved bits.
+Two reserved bits.
           
 
 
 ### -field PrivateIndicator
 
-
-            The private_indicator bit.
+The private_indicator bit.
           
 
 
 ### -field SectionSyntaxIndicator
 
-
-            The section_syntax_indicator bit.
+The section_syntax_indicator bit.
           
 
 

@@ -7,7 +7,7 @@ old-location: mf\imfmediasession_start.htm
 old-project: medfound
 ms.assetid: 1bdec0c0-b042-4e5e-a72b-b15942750ced
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 1bdec0c0-b042-4e5e-a72b-b15942750ced, GUID_NULL, IMFMediaSession interface [Media Foundation],Start method, IMFMediaSession.Start, IMFMediaSession::Start, MF_TIME_FORMAT_ENTRY_RELATIVE, MF_TIME_FORMAT_SEGMENT_OFFSET, Start, Start method [Media Foundation], Start method [Media Foundation],IMFMediaSession interface, mf.imfmediasession_start, mfidl/IMFMediaSession::Start
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Starts the Media Session.
+Starts the Media Session.
         
 
 
@@ -126,8 +125,7 @@ If a media source supports this time format, the <a href="https://msdn.microsoft
 
 ### -param pvarStartPosition [in]
 
-
-            Pointer to a <b>PROPVARIANT</b> that specifies the starting position for playback. The meaning and data type of this parameter are indicated by the <i>pguidTimeFormat</i> parameter.
+Pointer to a <b>PROPVARIANT</b> that specifies the starting position for playback. The meaning and data type of this parameter are indicated by the <i>pguidTimeFormat</i> parameter.
           
 
 
@@ -135,8 +133,7 @@ If a media source supports this time format, the <a href="https://msdn.microsoft
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -151,8 +148,7 @@ If a media source supports this time format, the <a href="https://msdn.microsoft
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -164,8 +160,7 @@ If a media source supports this time format, the <a href="https://msdn.microsoft
 </dl>
 </td>
 <td width="60%">
-
-                The operation cannot be performed in the Media Session's current state.
+The operation cannot be performed in the Media Session's current state.
               
 
 </td>
@@ -177,8 +172,7 @@ If a media source supports this time format, the <a href="https://msdn.microsoft
 </dl>
 </td>
 <td width="60%">
-
-                The Media Session has been shut down.
+The Media Session has been shut down.
               
 
 </td>

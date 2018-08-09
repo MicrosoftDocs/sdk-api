@@ -4,10 +4,10 @@ title: PdhEnumLogSetNamesA function
 author: windows-sdk-content
 description: Enumerates the names of the log sets within the DSN.
 old-location: perf\pdhenumlogsetnames.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: c74cc8a6-915b-40ed-a88b-bc2147215d52
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhEnumLogSetNames, PdhEnumLogSetNames function [Perf], PdhEnumLogSetNamesA, PdhEnumLogSetNamesW, _win32_pdhenumlogsetnames, base.pdhenumlogsetnames, pdh/PdhEnumLogSetNames, pdh/PdhEnumLogSetNamesA, pdh/PdhEnumLogSetNamesW, perf.pdhenumlogsetnames
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Enumerates the names of the log sets within the DSN.
+Enumerates the names of the log sets within the DSN.
 		
 
 
@@ -68,9 +67,9 @@ req.product: ADAM
 <b>Null</b>-terminated string that specifies the DSN. 
 
 
-### -param mszDataSetNameList
+### -param mszDataSetNameList [out]
 
-TBD
+Caller-allocated buffer that receives the list of <b>null</b>-terminated log set names. The list is terminated with a <b>null</b>-terminator character. Set to <b>NULL</b> if the <i>pcchBufferLength</i> parameter is zero.
 
 
 ### -param pcchBufferLength [in, out]
@@ -78,17 +77,11 @@ TBD
 Size of the <i>mszLogSetNameList</i> buffer, in <b>TCHARs</b>. If zero on input, the function returns PDH_MORE_DATA and sets this parameter to the required buffer size. If the buffer is larger than the required size, the function sets this parameter to the actual size of the buffer that was used. If the specified size on input is greater than zero but less than the required size, you should not rely on the returned size to reallocate the buffer.
 
 
-#### - mszLogSetNameList [out]
-
-Caller-allocated buffer that receives the list of <b>null</b>-terminated log set names. The list is terminated with a <b>null</b>-terminator character. Set to <b>NULL</b> if the <i>pcchBufferLength</i> parameter is zero.
-
-
 ## -returns
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

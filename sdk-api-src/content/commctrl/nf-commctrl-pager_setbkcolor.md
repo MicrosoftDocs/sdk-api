@@ -7,7 +7,7 @@ old-location: controls\Pager_SetBkColor.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setbkcolor.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Pager_SetBkColor, Pager_SetBkColor macro [Windows Controls], _win32_Pager_SetBkColor, _win32_Pager_SetBkColor_cpp, commctrl/Pager_SetBkColor, controls.Pager_SetBkColor, controls._win32_Pager_SetBkColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the current background color for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760878(v=VS.85).aspx">PGM_SETBKCOLOR</a> message explicitly. 
+Sets the current background color for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760878(v=VS.85).aspx">PGM_SETBKCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -60,30 +60,16 @@ Sets the current background color for the pager control. You can use this macro 
 
 ### -param hwnd
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to the pager control. 
 
 
 ### -param clr
 
-TBD
-
-
-
-
-
-
-#### - clrBk
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
 
 <b>COLORREF</b> value that contains the new background color of the pager control. 
-
-
-#### - hwndPager
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to the pager control. 
 
 
 ## -remarks

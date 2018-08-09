@@ -7,7 +7,7 @@ old-location: intl\immsetconversionstatus.htm
 old-project: Intl
 ms.assetid: cdf6ea84-bab9-4ecc-b2d1-748e5e28615f
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmSetConversionStatus, ImmSetConversionStatus function [Internationalization for Windows Applications], _win32_ImmSetConversionStatus, imm/ImmSetConversionStatus, intl.immsetconversionstatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,19 +61,12 @@ Sets the current conversion status.
 
 
 
-### -param HIMC
+### -param HIMC [in]
 
-TBD
-
-
-### -param DWORD
-
-TBD
+Handle to the input context.
 
 
-
-
-#### - fdwConversion [in]
+### -param DWORD [in]
 
 Conversion mode values. For more information, see <a href="https://msdn.microsoft.com/0b0afb4e-f7aa-4ca6-9174-21983b2a422b">IME Conversion Mode Values</a>.
 
@@ -81,11 +74,6 @@ Conversion mode values. For more information, see <a href="https://msdn.microsof
 #### - fdwSentence [in]
 
 Sentence mode values. For more information, see <a href="https://msdn.microsoft.com/24b12936-7dfc-4c8d-970c-d8354ad46d1d">IME Sentence Mode Values</a>.
-
-
-#### - hIMC [in]
-
-Handle to the input context.
 
 
 ## -returns

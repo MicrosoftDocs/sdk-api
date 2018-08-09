@@ -7,7 +7,7 @@ old-location: ics\istaticportmappingcollection_get_item.htm
 old-project: ics
 ms.assetid: 0034e56d-45a1-404a-b129-6ebb951e7d76
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],get_Item method, IStaticPortMappingCollection.get_Item, IStaticPortMappingCollection::get_Item, _ics_istaticportmappingcollection_get_item, get_Item, get_Item method [ICS/ICF], get_Item method [ICS/ICF],IStaticPortMappingCollection interface, ics.istaticportmappingcollection_get_item, natupnp/IStaticPortMappingCollection::get_Item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -197,7 +197,7 @@ The NAT API with UPnP technology uses the combination of the external port and t
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a>
 
 
 

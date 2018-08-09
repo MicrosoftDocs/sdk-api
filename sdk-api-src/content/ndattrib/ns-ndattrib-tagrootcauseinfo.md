@@ -7,7 +7,7 @@ old-location: ndf\rootcauseinfo.htm
 old-project: ndf
 ms.assetid: 01d02658-ae12-4465-94fc-7a966dcdd8fb
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: "*PRootCauseInfo, RCF_ISCONFIRMED, RCF_ISLEAF, RCF_ISTHIRDPARTY, RootCauseInfo, RootCauseInfo structure [NDF], ndattrib/RootCauseInfo, ndf.rootcauseinfo, tagRootCauseInfo"
 ms.prod: windows
 ms.technology: windows-sdk

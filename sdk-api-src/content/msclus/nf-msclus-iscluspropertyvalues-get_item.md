@@ -7,7 +7,7 @@ old-location: mscs\cluspropertyvalues_item.htm
 old-project: mscs
 ms.assetid: 8980e2ed-3822-4ecf-80d7-f3be42e92161
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusPropertyValues collection [Failover Cluster],Item property, ClusPropertyValues.Item, ISClusPropertyValues.get_Item, ISClusPropertyValues::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ClusPropertyValues collection, _wolf_cluspropertyvalues.item, get_Item, mscs.cluspropertyvalues_item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     in subsequent versions.]
 
 Returns a single 
-    <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">property value</a> from a 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">property value</a> from a 
     <a href="https://msdn.microsoft.com/18ae71ee-5582-4ac9-bb0f-f1c077c0352a">ClusPropertyValues</a> 
     collection.
 

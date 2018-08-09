@@ -4,10 +4,10 @@ title: IsBadCodePtr function
 author: windows-sdk-content
 description: Determines whether the calling process has read access to the memory at the specified address.
 old-location: base\isbadcodeptr.htm
-old-project: Memory
+old-project: memory
 ms.assetid: 001b8972-6a7f-4964-af8d-a6f31ea3a525
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IsBadCodePtr, IsBadCodePtr function, _win32_isbadcodeptr, base.isbadcodeptr, winbase/IsBadCodePtr
 ms.prod: windows
 ms.technology: windows-sdk

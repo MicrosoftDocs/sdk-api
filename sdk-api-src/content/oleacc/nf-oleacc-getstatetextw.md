@@ -7,7 +7,7 @@ old-location: winauto\getstatetext.htm
 old-project: WinAuto
 ms.assetid: 2a136883-870e-48c3-b182-1cdc64768894
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetStateText, GetStateText function [Windows Accessibility], GetStateTextA, GetStateTextW, _msaa_GetStateText, msaa.getstatetext, oleacc/GetStateText, oleacc/GetStateTextA, oleacc/GetStateTextW, winauto.getstatetext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,42 +61,25 @@ Retrieves a localized string that describes an object's state for a single prede
 
 
 
-### -param lStateBit
-
-TBD
-
-
-### -param lpszState
-
-TBD
-
-
-### -param cchState
-
-TBD
-
-
-
-
-#### - cchStateBitMax [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
-
-The size of the buffer that is pointed to by the <i>lpszStateBit</i> parameter. For ANSI strings, this value is measured in bytes; for Unicode strings, it is measured in characters.
-
-
-#### - dwStateBit [in]
+### -param lStateBit [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 One of the <a href="https://msdn.microsoft.com/1253d2d2-d931-4380-9ae8-f4e1fdaee817">object state constants</a>.
 
 
-#### - lpszStateBit [out]
+### -param lpszState [out]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
 
 Address of a buffer that receives the state text string. If this parameter is <b>NULL</b>, the function returns the state string's length, not including the null character.
+
+
+### -param cchState [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+The size of the buffer that is pointed to by the <i>lpszStateBit</i> parameter. For ANSI strings, this value is measured in bytes; for Unicode strings, it is measured in characters.
 
 
 ## -returns

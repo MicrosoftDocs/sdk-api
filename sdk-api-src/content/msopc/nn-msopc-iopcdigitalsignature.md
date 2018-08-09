@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignature.htm
 old-project: OPC
 ms.assetid: cfa38ef6-9d96-4577-a3bf-518784d19ad8
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], IOpcDigitalSignature interface [Open Packaging Conventions],described, msopc/IOpcDigitalSignature, opc.iopcdigitalsignature
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IOpcDigitalSignature</b> interface has these methods.
 <a href="https://msdn.microsoft.com/59c89909-6e35-4210-b76c-c820a9bb0d8e">GetCanonicalizationMethod</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the canonicalization method  that was applied to the <b>SignedInfo</b> element of the serialized signature.
+Gets the canonicalization method  that was applied to the <b>SignedInfo</b> element of the serialized signature.
             
 
 </td>
@@ -94,8 +93,7 @@ Gets an enumerator of certificates that are used in the signature.
 <a href="https://msdn.microsoft.com/1263ca86-8b4f-4be9-a88a-f11e76178d0d">GetCustomObjectEnumerator</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an enumerator of <a href="https://msdn.microsoft.com/4ebb4fbe-66cc-46d9-b548-31177d9f6da9">IOpcSignatureCustomObject</a> interface pointers that represent application-specific <b>Object</b> elements in the signature markup.
+Gets an enumerator of <a href="https://msdn.microsoft.com/4ebb4fbe-66cc-46d9-b548-31177d9f6da9">IOpcSignatureCustomObject</a> interface pointers that represent application-specific <b>Object</b> elements in the signature markup.
             
 
 </td>
@@ -105,8 +103,7 @@ Gets an enumerator of certificates that are used in the signature.
 <a href="https://msdn.microsoft.com/8cc5ae5d-faef-451d-8ad8-db4b8b5c0e22">GetCustomReferenceEnumerator</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an enumerator of the <a href="https://msdn.microsoft.com/2ce40bc7-754a-4f69-9348-75603e2257a4">IOpcSignatureReference</a> interface pointers that represent references to application-specific XML elements that have been signed.
+Gets an enumerator of the <a href="https://msdn.microsoft.com/2ce40bc7-754a-4f69-9348-75603e2257a4">IOpcSignatureReference</a> interface pointers that represent references to application-specific XML elements that have been signed.
             
 
 </td>
@@ -116,8 +113,7 @@ Gets an enumerator of certificates that are used in the signature.
 <a href="https://msdn.microsoft.com/c9360d23-1eac-4bb1-ae40-c157f1a79621">GetNamespaces</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the prefix and namespace mapping of the <b>Signature</b> element of the signature markup.
+Gets the prefix and namespace mapping of the <b>Signature</b> element of the signature markup.
             
 
 </td>
@@ -127,8 +123,7 @@ Gets an enumerator of certificates that are used in the signature.
 <a href="https://msdn.microsoft.com/67f4404f-518c-4a47-8c8e-b5b8d13e18cb">GetPackageObjectReference</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an  <a href="https://msdn.microsoft.com/2ce40bc7-754a-4f69-9348-75603e2257a4">IOpcSignatureReference</a> interface pointer that represents the reference to the package-specific <b>Object</b> element that has been signed.
+Gets an  <a href="https://msdn.microsoft.com/2ce40bc7-754a-4f69-9348-75603e2257a4">IOpcSignatureReference</a> interface pointer that represents the reference to the package-specific <b>Object</b> element that has been signed.
             
 
 </td>
@@ -138,8 +133,7 @@ Gets an enumerator of certificates that are used in the signature.
 <a href="https://msdn.microsoft.com/20eea0ff-dff1-4f95-aaf7-00e5a36503f1">GetSignatureId</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the value of the <b>Id</b> attribute from the <b>Signature</b> element of the signature markup.
+Gets the value of the <b>Id</b> attribute from the <b>Signature</b> element of the signature markup.
             
 
 </td>
@@ -149,8 +143,7 @@ Gets an enumerator of certificates that are used in the signature.
 <a href="https://msdn.microsoft.com/a4dfd99f-16d7-4bf1-9852-d6d1fd4a3f06">GetSignatureMethod</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the signature method used to calculate the value in the <b>SignatureValue</b> element of the signature markup.
+Gets the signature method used to calculate the value in the <b>SignatureValue</b> element of the signature markup.
             
 
 </td>
@@ -160,8 +153,7 @@ Gets an enumerator of certificates that are used in the signature.
 <a href="https://msdn.microsoft.com/0a7f9413-d44d-4d3d-bb4e-01ef14ee7a1c">GetSignaturePartName</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the part name of the part that contains the signature markup.
+Gets the part name of the part that contains the signature markup.
             
 
 </td>
@@ -171,8 +163,7 @@ Gets an enumerator of certificates that are used in the signature.
 <a href="https://msdn.microsoft.com/d8d1507e-b72f-4eb7-bd3d-4f4a26516c18">GetSignaturePartReferenceEnumerator</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an enumerator of <a href="https://msdn.microsoft.com/b4bbf854-96b4-412b-a22d-c810423a3752">IOpcSignaturePartReference</a> interface pointers, which represent references to parts that have been signed.
+Gets an enumerator of <a href="https://msdn.microsoft.com/b4bbf854-96b4-412b-a22d-c810423a3752">IOpcSignaturePartReference</a> interface pointers, which represent references to parts that have been signed.
             
 
 </td>
@@ -182,8 +173,7 @@ Gets an enumerator of certificates that are used in the signature.
 <a href="https://msdn.microsoft.com/ffb74828-1177-4c3d-8a8c-e40bb0c4cbf0">GetSignatureRelationshipReferenceEnumerator</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an enumerator of <a href="https://msdn.microsoft.com/24aebfff-6b4f-49cb-988f-670ffed7d815">IOpcSignatureRelationshipReference</a> interface pointers, which represent references to relationships that have been signed.
+Gets an enumerator of <a href="https://msdn.microsoft.com/24aebfff-6b4f-49cb-988f-670ffed7d815">IOpcSignatureRelationshipReference</a> interface pointers, which represent references to relationships that have been signed.
             
 
 </td>
@@ -193,8 +183,7 @@ Gets an enumerator of certificates that are used in the signature.
 <a href="https://msdn.microsoft.com/c918d156-ad32-4a0c-83cc-dd37fe884744">GetSignatureValue</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the decoded value in the <b>SignatureValue</b> element of the signature markup.
+Gets the decoded value in the <b>SignatureValue</b> element of the signature markup.
             
 
 </td>
@@ -204,8 +193,7 @@ Gets an enumerator of certificates that are used in the signature.
 <a href="https://msdn.microsoft.com/7b495661-32ed-4010-a945-7e638f30f4f2">GetSignatureXml</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the signature markup.
+Gets the signature markup.
             
 
 </td>
@@ -224,8 +212,7 @@ Gets a string that indicates the time at which the signature was generated.
 <a href="https://msdn.microsoft.com/df142c4d-27dc-4db3-9a37-78c5703c8119">GetTimeFormat</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the format of the string returned by the <a href="https://msdn.microsoft.com/8054eba8-ca53-42e4-9105-ef7cf20637c1">GetSigningTime</a> method.
+Gets the format of the string returned by the <a href="https://msdn.microsoft.com/8054eba8-ca53-42e4-9105-ef7cf20637c1">GetSigningTime</a> method.
             
 
 </td>

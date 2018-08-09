@@ -7,7 +7,7 @@ old-location: iphlp\convertipv4masktolength.htm
 old-project: iphlp
 ms.assetid: 63a3c558-24e0-41ef-9417-a3b6b2075977
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: ConvertIpv4MaskToLength, ConvertIpv4MaskToLength function [IP Helper], iphlp.convertipv4masktolength, netioapi/ConvertIpv4MaskToLength
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,9 +103,7 @@ One of the parameters was invalid. This error is returned if the <i>Mask</i> par
 
 
 
-The <b>ConvertIpv4MaskToLength</b> function is available on Windows Vista
-  
-   and later.
+The <b>ConvertIpv4MaskToLength</b> function is available on Windows Vistaand later.
 
 
 

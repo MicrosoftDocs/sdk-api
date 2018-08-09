@@ -4,10 +4,10 @@ title: CdromKnownGoodDigitalPlayback function
 author: windows-sdk-content
 description: Determines whether the specified CD-ROM or DVD drive has digital playback that is known to be good.
 old-location: base\cdromknowngooddigitalplayback.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: df242729-2082-4608-bd73-4c8d215a09ea
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: CdromKnownGoodDigitalPlayback, CdromKnownGoodDigitalPlayback function, base.cdromknowngooddigitalplayback, storprop/CdromKnownGoodDigitalPlayback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Storprop.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # CdromKnownGoodDigitalPlayback function
@@ -58,19 +59,14 @@ Determines whether the specified CD-ROM or DVD drive has digital playback that i
 
 
 
-### -param HDevInfo
+### -param HDevInfo [in]
 
-TBD
+A handle to a device information set listing the devices for which information is to be returned. This handle is typically returned by the <b>SetupDiGetClassDevs</b> or <b>SetupDiGetClassDevsEx</b> function.
 
 
 ### -param DevInfoData [in]
 
 A pointer to an <b>SP_DEVINFO_DATA</b> structure that defines the device instance.
-
-
-#### - DevInfo [in]
-
-A handle to a device information set listing the devices for which information is to be returned. This handle is typically returned by the <b>SetupDiGetClassDevs</b> or <b>SetupDiGetClassDevsEx</b> function.
 
 
 ## -returns

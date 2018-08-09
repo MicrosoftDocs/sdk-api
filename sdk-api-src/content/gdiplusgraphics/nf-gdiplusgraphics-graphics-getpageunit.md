@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetPageUnit_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getpageunit.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetPageUnit, GetPageUnit method [GDI+], GetPageUnit method [GDI+],Graphics class, Graphics class [GDI+],GetPageUnit method, Graphics.GetPageUnit, Graphics::GetPageUnit, _gdiplus_CLASS_Graphics_GetPageUnit_, gdiplus._gdiplus_CLASS_Graphics_GetPageUnit_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,10 +66,10 @@ The <b>Graphics::GetPageUnit</b> method gets the unit of measure currently set f
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534405(v=VS.85).aspx">Unit</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534405(v=VS.85).aspx">Unit</a></b>
 </strong>
 
-This method returns an element of the <a href="https://msdn.microsoft.com/library/ms534405(v=VS.85).aspx">Unit</a> enumeration that indicates the unit of measure currently set for this 
+This method returns an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534405(v=VS.85).aspx">Unit</a> enumeration that indicates the unit of measure currently set for this 
 						<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object.
 
 
@@ -84,31 +84,31 @@ This method returns an element of the <a href="https://msdn.microsoft.com/librar
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535703(v=VS.85).aspx">Graphics::GetDpiX</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535703(v=VS.85).aspx">Graphics::GetDpiX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535705(v=VS.85).aspx">Graphics::GetDpiY</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535705(v=VS.85).aspx">Graphics::GetDpiY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535716(v=VS.85).aspx">Graphics::GetPageScale</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535716(v=VS.85).aspx">Graphics::GetPageScale</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535811(v=VS.85).aspx">Graphics::SetPageScale</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535811(v=VS.85).aspx">Graphics::SetPageScale</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535812(v=VS.85).aspx">Graphics::SetPageUnit</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535812(v=VS.85).aspx">Graphics::SetPageUnit</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536399(v=VS.85).aspx">Types of Coordinate Systems</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536399(v=VS.85).aspx">Types of Coordinate Systems</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534405(v=VS.85).aspx">Unit</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534405(v=VS.85).aspx">Unit</a>
  
 
  

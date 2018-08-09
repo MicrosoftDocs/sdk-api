@@ -7,7 +7,7 @@ old-location: directwrite\idwritegdiinterop1_getfontsignature_overload.htm
 old-project: DirectWrite
 ms.assetid: 83967afd-8309-74b7-da76-1caee04a4990
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: GetFontSignature, GetFontSignature methods [Direct Write], IDWriteGdiInterop1::GetFontSignature, directwrite.idwritegdiinterop1_getfontsignature_overload, dwrite_3/GetFontSignature
 ms.prod: windows
 ms.technology: windows-sdk

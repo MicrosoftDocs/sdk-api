@@ -7,7 +7,7 @@ old-location: mstv\icreatepropbagonregkey_create.htm
 old-project: mstv
 ms.assetid: d6410ead-7364-4db4-a4c9-cafe5fbf2e84
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: Create, Create method [Microsoft TV Technologies], Create method [Microsoft TV Technologies],ICreatePropBagOnRegKey interface, ICreatePropBagOnRegKey interface [Microsoft TV Technologies],Create method, ICreatePropBagOnRegKey.Create, ICreatePropBagOnRegKey::Create, ICreatePropBagOnRegKeyCreate, mstv.icreatepropbagonregkey_create, regbag/ICreatePropBagOnRegKey::Create
 ms.prod: windows
 ms.technology: windows-sdk
@@ -161,34 +161,28 @@ This method creates a property bag and returns a pointer to the <b>IPropertyBag<
 
 <table>
 <tr>
-<th>
-              Method
+<th>Method
             </th>
-<th>
-              Required Access Rights
+<th>Required Access Rights
             </th>
 </tr>
 <tr>
-<td><b>
-              IPropertyBag::Read
+<td><b>IPropertyBag::Read
             </b></td>
 <td>KEY_READ</td>
 </tr>
 <tr>
-<td><b>
-              IPropertyBag::Write
+<td><b>IPropertyBag::Write
             </b></td>
 <td>KEY_WRITE</td>
 </tr>
 <tr>
-<td><b>
-              IPropertyBag2::CountProperties
+<td><b>IPropertyBag2::CountProperties
             </b></td>
 <td>KEY_QUERY_VALUE | KEY_ENUMERATE_SUB_KEYS</td>
 </tr>
 <tr>
-<td><b>
-              IPropertyBag2::GetPropertyInfo
+<td><b>IPropertyBag2::GetPropertyInfo
             </b></td>
 <td>KEY_QUERY_VALUE | KEY_ENUMERATE_SUB_KEYS</td>
 </tr>

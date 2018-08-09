@@ -7,7 +7,7 @@ old-location: mf\playto_source_createflags.htm
 old-project: medfound
 ms.assetid: 15B632DD-586B-40E4-9B63-05CCC6AFB93A
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PLAYTO_CONTROLLER_CREATEFLAGS, PLAYTO_CONTROLLER_CREATEFLAGS enumeration [Media Foundation], PLAYTO_SOURCE_AUDIO, PLAYTO_SOURCE_CREATEFLAGS, PLAYTO_SOURCE_IMAGE, PLAYTO_SOURCE_PROTECTED, PLAYTO_SOURCE_VIDEO, mf.playto_controller_createflags, mf.playto_source_createflags, mfsharingengine/PLAYTO_CONTROLLER_CREATEFLAGS, mfsharingengine/PLAYTO_SOURCE_AUDIO, mfsharingengine/PLAYTO_SOURCE_IMAGE, mfsharingengine/PLAYTO_SOURCE_PROTECTED, mfsharingengine/PLAYTO_SOURCE_VIDEO
 ms.prod: windows
 ms.technology: windows-sdk

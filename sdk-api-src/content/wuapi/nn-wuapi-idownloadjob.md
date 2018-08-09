@@ -4,10 +4,10 @@ title: IDownloadJob
 author: windows-sdk-content
 description: Contains properties and methods that are available to a download operation.
 old-location: wua\idownloadjob.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 0157acab-53b6-43f9-a358-81cd5108c531
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IDownloadJob, IDownloadJob interface [Windows Update Agent], IDownloadJob interface [Windows Update Agent],described, wua.idownloadjob, wuapi/IDownloadJob
 ms.prod: windows
 ms.technology: windows-sdk

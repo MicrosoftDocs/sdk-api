@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_GetSubpathCount_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\getsubpathcount.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetSubpathCount, GetSubpathCount method [GDI+], GetSubpathCount method [GDI+],GraphicsPathIterator class, GraphicsPathIterator class [GDI+],GetSubpathCount method, GraphicsPathIterator.GetSubpathCount, GraphicsPathIterator::GetSubpathCount, _gdiplus_CLASS_GraphicsPathIterator_GetSubpathCount_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_GetSubpathCount_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,31 +78,31 @@ This method returns the number of subpaths (also called figures) in the path.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535529(v=VS.85).aspx">CloseFigure</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535529(v=VS.85).aspx">CloseFigure</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535458(v=VS.85).aspx">GraphicsPathIterator::NextSubpath Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535458(v=VS.85).aspx">GraphicsPathIterator::NextSubpath Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536370(v=VS.85).aspx">Paths</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535569(v=VS.85).aspx">StartFigure</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535569(v=VS.85).aspx">StartFigure</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Blur_GetParameters_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\blurclass\blurmethods\getparameters.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Blur class [GDI+],GetParameters method, Blur.GetParameters, Blur::GetParameters, GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],Blur class, _gdiplus_CLASS_Blur_GetParameters_, gdiplus._gdiplus_CLASS_Blur_GetParameters_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>Blur::GetParameters</b> method gets the current values of the parameters of this <a href="https://msdn.microsoft.com/library/ms534422(v=VS.85).aspx">Blur</a> object.
+The <b>Blur::GetParameters</b> method gets the current values of the parameters of this <a href="https://msdn.microsoft.com/en-us/library/ms534422(v=VS.85).aspx">Blur</a> object.
 
 
 ## -parameters
@@ -63,14 +63,14 @@ The <b>Blur::GetParameters</b> method gets the current values of the parameters 
 
 Type: <b>UINT*</b>
 
-Pointer to a <b>UINT</b> that specifies the size, in bytes, of a <a href="https://msdn.microsoft.com/library/ms534057(v=VS.85).aspx">BlurParams</a> structure.
+Pointer to a <b>UINT</b> that specifies the size, in bytes, of a <a href="https://msdn.microsoft.com/en-us/library/ms534057(v=VS.85).aspx">BlurParams</a> structure.
 
 
 ### -param parameters [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534057(v=VS.85).aspx">BlurParams</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534057(v=VS.85).aspx">BlurParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534057(v=VS.85).aspx">BlurParams</a> structure that receives the parameter values.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534057(v=VS.85).aspx">BlurParams</a> structure that receives the parameter values.
 
 
 ## -returns
@@ -94,15 +94,15 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534422(v=VS.85).aspx">Blur</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534422(v=VS.85).aspx">Blur</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536282(v=VS.85).aspx">Blur::SetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536282(v=VS.85).aspx">Blur::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534503(v=VS.85).aspx">Sharpen</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534503(v=VS.85).aspx">Sharpen</a>
  
 
  

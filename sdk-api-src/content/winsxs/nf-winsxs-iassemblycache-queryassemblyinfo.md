@@ -4,10 +4,10 @@ title: IAssemblyCache::QueryAssemblyInfo
 author: windows-sdk-content
 description: The QueryAssemblyInfo method queries the side-by-side assembly store for assembly information and validates the files in the side-by-side assembly store against the assembly manifest.
 old-location: setup\iassemblycache_queryassemblyinfo.htm
-old-project: SbsCs
+old-project: sbscs
 ms.assetid: fc13e5ac-60cf-43f2-b50e-00be3a1ad270
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IAssemblyCache interface [Side-by-side Assemblies],QueryAssemblyInfo method, IAssemblyCache.QueryAssemblyInfo, IAssemblyCache::QueryAssemblyInfo, QUERYASMINFO_FLAG_GETSIZE, QUERYASMINFO_FLAG_VALIDATE, QueryAssemblyInfo, QueryAssemblyInfo method [Side-by-side Assemblies], QueryAssemblyInfo method [Side-by-side Assemblies],IAssemblyCache interface, setup.iassemblycache_queryassemblyinfo, winsxs/IAssemblyCache::QueryAssemblyInfo
 ms.prod: windows
 ms.technology: windows-sdk

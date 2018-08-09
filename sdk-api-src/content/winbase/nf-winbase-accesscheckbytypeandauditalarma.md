@@ -7,7 +7,7 @@ old-location: security\accesscheckbytypeandauditalarm.htm
 old-project: secauthz
 ms.assetid: ea14fd55-e0e4-4bf2-b20e-5874783c16c3
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 08/06/2018
 ms.keywords: AccessCheckByTypeAndAuditAlarm, AccessCheckByTypeAndAuditAlarm function [Security], AccessCheckByTypeAndAuditAlarmA, AccessCheckByTypeAndAuditAlarmW, _win32_accesscheckbytypeandauditalarm, security.accesscheckbytypeandauditalarm, winbase/AccessCheckByTypeAndAuditAlarm, winbase/AccessCheckByTypeAndAuditAlarmA, winbase/AccessCheckByTypeAndAuditAlarmW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,9 +90,10 @@ A pointer to a null-terminated string that specifies the type of object being cr
 A pointer to a null-terminated string that specifies the name of the object being created or accessed. This string appears in any audit message that the function generates.
 
 
-### -param SecurityDescriptor
+### -param SecurityDescriptor [in]
 
-TBD
+A pointer to a 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure against which access is checked.
 
 
 ### -param PrincipalSelfSid [in, optional]
@@ -172,12 +173,6 @@ A pointer to a flag set by the audit-generation routine when the function return
 <a href="https://msdn.microsoft.com/274f3a62-1833-402b-b362-f526b2bee14b">ObjectCloseAuditAlarm</a> function when the object handle is closed.
 
 
-#### - pSecurityDescriptor [in]
-
-A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure against which access is checked.
-
-
 ## -returns
 
 
@@ -249,7 +244,7 @@ If the security descriptor does not contain owner and group SIDs, <b>AccessCheck
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

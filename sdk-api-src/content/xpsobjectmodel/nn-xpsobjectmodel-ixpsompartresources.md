@@ -7,7 +7,7 @@ old-location: xps\ixpsompartresources.htm
 old-project: printdocs
 ms.assetid: 9f706f23-25a0-40ee-93f4-3d7ac98ad6ed
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IXpsOMPartResources, IXpsOMPartResources interface [XPS Documents and Packaging], IXpsOMPartResources interface [XPS Documents and Packaging],described, xps.ixpsompartresources, xpsobjectmodel/IXpsOMPartResources
 ms.prod: windows
 ms.technology: windows-sdk

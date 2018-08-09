@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopyfiles.htm
 old-project: bits
 ms.assetid: 831998ba-601c-43c4-ba27-faff741f8eb4
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IEnumBackgroundCopyFiles, IEnumBackgroundCopyFiles interface [BITS], IEnumBackgroundCopyFiles interface [BITS],described, _drz_ienumbackgroundcopyfiles, bits.ienumbackgroundcopyfiles, bits/IEnumBackgroundCopyFiles
 ms.prod: windows
 ms.technology: windows-sdk

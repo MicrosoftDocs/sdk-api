@@ -7,7 +7,7 @@ old-location: winprog\int64shllmod32.htm
 old-project: winprog
 ms.assetid: fe79b0c4-3316-4b05-b088-0d4b45586430
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: Int64ShllMod32, Int64ShllMod32 macro [Windows API], _win32_int64shllmod32, winnt/Int64ShllMod32, winprog.int64shllmod32
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,28 +59,14 @@ Performs a left logical shift operation on an unsigned 64-bit integer value. The
 
 
 
-### -param a
-
-TBD
-
-
-### -param b
-
-TBD
-
-
-
-
-
-
-#### - ShiftCount [in]
-
-The shift count in the range 0-31.
-
-
-#### - Value [in]
+### -param a [in]
 
 The unsigned 64-bit integer to be shifted.
+
+
+### -param b [in]
+
+The shift count in the range 0-31.
 
 
 ## -remarks

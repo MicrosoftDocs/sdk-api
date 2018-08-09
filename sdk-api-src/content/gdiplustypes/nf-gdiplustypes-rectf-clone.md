@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_Clone_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\clone_47.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],RectF class, RectF class [GDI+],Clone method, RectF.Clone, RectF::Clone, _gdiplus_CLASS_RectF_Clone_, gdiplus._gdiplus_CLASS_RectF_Clone_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>RectF::Clone</b> method creates a new 
-			<a href="https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx">RectF</a> object and initializes it with the contents of this 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a> object and initializes it with the contents of this 
 			<b>RectF</b> object.
 
 
@@ -67,11 +67,11 @@ The <b>RectF::Clone</b> method creates a new
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx">RectF</a>*</b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>*</b>
 </strong>
 
 This method returns a pointer to the new 
-						<a href="https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx">RectF</a> object.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a> object.
 
 
 
@@ -81,7 +81,7 @@ This method returns a pointer to the new
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
 
 
 
@@ -89,11 +89,11 @@ This method returns a pointer to the new
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
  
 
  

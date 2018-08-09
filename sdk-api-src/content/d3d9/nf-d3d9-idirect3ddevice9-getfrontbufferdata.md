@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__getfrontbufferdata.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getfrontbufferdata.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetFrontBufferData, GetFrontBufferData method [Direct3D 9], GetFrontBufferData method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetFrontBufferData method, IDirect3DDevice9.GetFrontBufferData, IDirect3DDevice9::GetFrontBufferData, b122af3c-c0ea-2cbb-1c39-139ab45eff11, d3d9helper/IDirect3DDevice9::GetFrontBufferData, direct3d9.idirect3ddevice9__getfrontbufferdata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,9 @@ An unsigned integer specifying the swap chain.
 
 ### -param pDestSurface [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface that will receive a copy of the contents of the front buffer. The data is returned in successive rows with no intervening space, starting from the vertically highest row on the device's output to the lowest.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface that will receive a copy of the contents of the front buffer. The data is returned in successive rows with no intervening space, starting from the vertically highest row on the device's output to the lowest.
 
 
 
@@ -81,7 +81,7 @@ For windowed mode, the size of the destination surface should be the size of the
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_DRIVERINTERNALERROR, D3DERR_DEVICELOST, D3DERR_INVALIDCALL
 
@@ -98,7 +98,7 @@ This method is the only way to capture an antialiased screen shot.
 
 This function is very slow, by design, and should not be used in any performance-critical path.
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb174714(v=VS.85).aspx">Lost Devices and Retrieved Data</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb174714(v=VS.85).aspx">Lost Devices and Retrieved Data</a>.
 
 
 
@@ -108,7 +108,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/Bb174714(v
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
  
 
  

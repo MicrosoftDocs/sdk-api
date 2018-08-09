@@ -7,7 +7,7 @@ old-location: vstor\enumeratevirtualdiskmetadata.htm
 old-project: VStor
 ms.assetid: 7817863a-38ca-4686-9d66-71700dba852f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EnumerateVirtualDiskMetadata, EnumerateVirtualDiskMetadata function [Virtual Storage], virtdisk/EnumerateVirtualDiskMetadata, vstor.enumeratevirtualdiskmetadata
 ms.prod: windows
 ms.technology: windows-sdk

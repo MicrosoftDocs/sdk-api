@@ -7,7 +7,7 @@ old-location: tsf\itfrange_shiftstartregion.htm
 old-project: TSF
 ms.assetid: 6e16112a-0cfe-41be-9d9c-4cbcde898c3f
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfRange interface [Text Services Framework],ShiftStartRegion method, ITfRange.ShiftStartRegion, ITfRange::ShiftStartRegion, ShiftStartRegion, ShiftStartRegion method [Text Services Framework], ShiftStartRegion method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftstartregion_ref, msctf/ITfRange::ShiftStartRegion, tsf.itfrange_shiftstartregion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -144,8 +144,7 @@ The anchor must be positioned adjacent to the desired region prior to calling th
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
       </a>
 
 
@@ -154,20 +153,17 @@ The anchor must be positioned adjacent to the desired region prior to calling th
 
 
 
-<a href="https://msdn.microsoft.com/cda2282f-3d3c-4763-9892-b889b29963a6">
-        ITfRange::ShiftEndRegion
+<a href="https://msdn.microsoft.com/cda2282f-3d3c-4763-9892-b889b29963a6">ITfRange::ShiftEndRegion
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f9f983b1-a5fa-4857-b73c-b879c566d6f6">
-        ITfRange::ShiftStart
+<a href="https://msdn.microsoft.com/f9f983b1-a5fa-4857-b73c-b879c566d6f6">ITfRange::ShiftStart
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f6a9f9a2-9691-49c7-a481-47ad2cd67a4d">
-        TfShiftDir
+<a href="https://msdn.microsoft.com/f6a9f9a2-9691-49c7-a481-47ad2cd67a4d">TfShiftDir
       </a>
  
 

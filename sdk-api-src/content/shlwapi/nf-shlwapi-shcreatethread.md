@@ -7,7 +7,7 @@ old-location: shell\SHCreateThread.htm
 old-project: shell
 ms.assetid: 2140e396-29cd-4665-b684-337170570b73
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHCreateThread, SHCreateThread function [Windows Shell], _win32_SHCreateThread, shell.SHCreateThread, shlwapi/SHCreateThread
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,9 +76,11 @@ Type: <b>void*</b>
 A pointer to an optional application-defined data structure that contains initialization data. It is passed to the function pointed to by <i>pfnThreadProc</i> and, optionally, <i>pfnCallback</i>. This value can be <b>NULL</b>.
 
 
-### -param flags
+### -param flags [in]
 
-TBD
+Type: <b>SHCT_FLAGS</b>
+
+The flags that control the behavior of the function. One or more of the <a href="https://msdn.microsoft.com/66cda866-7a39-4c5a-a795-a4c5c64cbab7">CTF</a> constants.
 
 
 ### -param pfnCallback [in, optional]
@@ -92,13 +94,6 @@ A pointer to an optional application-defined function of the
 				 its argument. <b>SHCreateThread</b> will wait for the 
 				 function pointed to by <i>pfnCallback</i> to return before returning to its caller. The 
 				 return value of the function pointed to by <i>pfnCallback</i> is ignored.
-
-
-#### - dwFlags [in]
-
-Type: <b>SHCT_FLAGS</b>
-
-The flags that control the behavior of the function. One or more of the <a href="https://msdn.microsoft.com/66cda866-7a39-4c5a-a795-a4c5c64cbab7">CTF</a> constants.
 
 
 ## -returns

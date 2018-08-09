@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_SetItemSize.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setitemsize.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TabCtrl_SetItemSize, TabCtrl_SetItemSize macro [Windows Controls], _win32_TabCtrl_SetItemSize, _win32_TabCtrl_SetItemSize_cpp, commctrl/TabCtrl_SetItemSize, controls.TabCtrl_SetItemSize, controls._win32_TabCtrl_SetItemSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the width and height of tabs in a fixed-width or owner-drawn tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760635(v=VS.85).aspx">TCM_SETITEMSIZE</a> message explicitly. 
+Sets the width and height of tabs in a fixed-width or owner-drawn tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760635(v=VS.85).aspx">TCM_SETITEMSIZE</a> message explicitly. 
 
 
 ## -parameters
@@ -67,26 +67,12 @@ Handle to the tab control.
 
 ### -param x
 
-TBD
-
-
-### -param y
-
-TBD
-
-
-
-
-
-
-#### - cx
-
 Type: <b>int</b>
 
 New width, in pixels. 
 
 
-#### - cy
+### -param y
 
 Type: <b>int</b>
 

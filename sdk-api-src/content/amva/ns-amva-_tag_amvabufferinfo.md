@@ -7,7 +7,7 @@ old-location: dshow\amvabufferinfo.htm
 old-project: DirectShow
 ms.assetid: 8b018c40-44ae-4033-97b3-efa4b4c1bfb2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: "*LPAMVABUFFERINFO, AMVABUFFERINFO, AMVABUFFERINFO structure [DirectShow], AMVABUFFERINFOStructure, DXVA_ALPHA_BLEND_COMBINATION_BUFFER, DXVA_AYUV_BUFFER, DXVA_BITSTREAM_DATA_BUFFER, DXVA_DCCMD_SURFACE_BUFFER, DXVA_DEBLOCKING_CONTROL_BUFFER, DXVA_DPXD_SURFACE_BUFFER, DXVA_HIGHLIGHT_BUFFER, DXVA_IA44_SURFACE_BUFFER, DXVA_INVERSE_QUANTIZATION_MATRIX_BUFFER, DXVA_MACROBLOCK_CONTROL_BUFFER, DXVA_PICTURE_DECODE_BUFFER, DXVA_PICTURE_RESAMPLE_BUFFER, DXVA_READ_BACK_BUFFER, DXVA_RESIDUAL_DIFFERENCE_BUFFER, DXVA_SLICE_CONTROL_BUFFER, LPAMVABUFFERINFO, LPAMVABUFFERINFO structure pointer [DirectShow], _tag_AMVABUFFERINFO, amva/AMVABUFFERINFO, amva/LPAMVABUFFERINFO, dshow.amvabufferinfo"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          The <b>AMVABUFFERINFO</b> structure specifies a buffer for the 
+The <b>AMVABUFFERINFO</b> structure specifies a buffer for the 
         <a href="https://msdn.microsoft.com/12794739-9120-4dc1-b95d-6d390d25726b">IAMVideoAccelerator::Execute</a>  method.
 
 
@@ -227,8 +226,7 @@ For complete descriptions of these buffer types, refer to the DirectX Video Acce
 
 ### -field dwBufferIndex
 
-
-            Buffer index.
+Buffer index.
           
 
 
@@ -240,8 +238,7 @@ The offset of the relevant data from the beginning of the buffer.
 
 ### -field dwDataSize
 
-
-            Size of the relevant data in the buffer, in bytes.
+Size of the relevant data in the buffer, in bytes.
           
 
 

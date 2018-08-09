@@ -7,7 +7,7 @@ old-location: controls\Header_OrderToIndex.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_ordertoindex.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Header_OrderToIndex, Header_OrderToIndex macro [Windows Controls], _win32_Header_OrderToIndex, _win32_Header_OrderToIndex_cpp, commctrl/Header_OrderToIndex, controls.Header_OrderToIndex, controls._win32_Header_OrderToIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves an index value for an item based on its order in the header control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775355(v=VS.85).aspx">HDM_ORDERTOINDEX</a> message explicitly. 
+Retrieves an index value for an item based on its order in the header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775355(v=VS.85).aspx">HDM_ORDERTOINDEX</a> message explicitly. 
 
 
 ## -parameters
@@ -60,26 +60,12 @@ Retrieves an index value for an item based on its order in the header control. Y
 
 ### -param hwnd
 
-TBD
-
-
-### -param i
-
-TBD
-
-
-
-
-
-
-#### - hwndHD
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a header control. 
 
 
-#### - iOrder
+### -param i
 
 Type: <b>int</b>
 

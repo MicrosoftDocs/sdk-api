@@ -7,7 +7,7 @@ old-location: http\httpapi_version_greater_or_equal.htm
 old-project: http
 ms.assetid: d9ac035f-7085-417f-b7df-0607b95f4233
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HTTPAPI_VERSION_GREATER_OR_EQUAL, HTTPAPI_VERSION_GREATER_OR_EQUAL macro [HTTP], http.httpapi_version_greater_or_equal, http/HTTPAPI_VERSION_GREATER_OR_EQUAL
 ms.prod: windows
 ms.technology: windows-sdk

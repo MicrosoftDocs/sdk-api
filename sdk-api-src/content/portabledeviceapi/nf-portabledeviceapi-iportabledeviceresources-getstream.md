@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceresources_getstream.htm
 old-project: wpd_sdk
 ms.assetid: d5c9a85a-59fa-4b7b-acc7-d450ecd10593
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: GetStream, GetStream method [Windows Portable Devices SDK], GetStream method [Windows Portable Devices SDK],IPortableDeviceResources interface, IPortableDeviceResources interface [Windows Portable Devices SDK],GetStream method, IPortableDeviceResources.GetStream, IPortableDeviceResources::GetStream, IPortableDeviceResourcesGetStream, portabledeviceapi/IPortableDeviceResources::GetStream, wpdsdk.iportabledeviceresources_getstream
 ms.prod: windows
 ms.technology: windows-sdk

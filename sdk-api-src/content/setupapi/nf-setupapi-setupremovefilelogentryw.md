@@ -7,7 +7,7 @@ old-location: setup\setupremovefilelogentry.htm
 old-project: SetupApi
 ms.assetid: a26d2c24-7092-40b0-9ae9-e7edf68aeb3d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupRemoveFileLogEntry, SetupRemoveFileLogEntry function [Setup API], SetupRemoveFileLogEntryA, SetupRemoveFileLogEntryW, _setupapi_setupremovefilelogentry, setup.setupremovefilelogentry, setupapi/SetupRemoveFileLogEntry, setupapi/SetupRemoveFileLogEntryA, setupapi/SetupRemoveFileLogEntryW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,14 +75,7 @@ Handle to the file log as returned by
 Pointer to a <b>null</b>-terminated string that specifies the name for a logical grouping of names within the log file. Required for non-system logs. Otherwise, <i>LogSectionName</i> may be <b>NULL</b>.
 
 
-### -param TargetFilename
-
-TBD
-
-
-
-
-#### - TargetFileName [in]
+### -param TargetFilename [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the name of the file as it exists on the target. This name should be in whatever format is meaningful to the caller. If <b>NULL</b>, the section specified by <i>LogSectionName</i> is removed. The main section cannot be removed.
 

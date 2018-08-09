@@ -4,10 +4,10 @@ title: ILocationEvents
 author: windows-sdk-content
 description: ILocationEvents provides callback methods that you must implement if you want to receive event notifications.
 old-location: winlocation\ilocationevents.htm
-old-project: LocationAPI
+old-project: locationapi
 ms.assetid: 5281ae0f-8599-4f84-a3f3-cde8c69e893d
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/30/2018
 ms.keywords: ILocationEvents, ILocationEvents interface [WinLocation], ILocationEvents interface [WinLocation],described, locationapi/ILocationEvents, winlocation.ilocationevents
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/fd40bf4a-c59a-43a4-ab01-c671a8a41731">Windows.Devices.Geolocation</a>
-API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/fd40bf4a-c59a-43a4-ab01-c671a8a41731">Windows.Devices.Geolocation</a>API.
 ]
 
 <b>ILocationEvents</b> provides callback methods that 

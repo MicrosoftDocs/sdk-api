@@ -7,7 +7,7 @@ old-location: tsf\itfdisplayattributeinfo_setattributeinfo.htm
 old-project: TSF
 ms.assetid: 3e9a472c-7992-48fc-be47-993f6d53f043
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfDisplayAttributeInfo interface [Text Services Framework],SetAttributeInfo method, ITfDisplayAttributeInfo.SetAttributeInfo, ITfDisplayAttributeInfo::SetAttributeInfo, SetAttributeInfo, SetAttributeInfo method [Text Services Framework], SetAttributeInfo method [Text Services Framework],ITfDisplayAttributeInfo interface, _tsf_itfdisplayattributeinfo_setattributeinfo_ref, msctf/ITfDisplayAttributeInfo::SetAttributeInfo, tsf.itfdisplayattributeinfo_setattributeinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,8 +131,7 @@ The implementation of this method should not call <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/0f906a19-16b8-47c1-adca-10d6da0cc7dd">
-        ITfDisplayAttributeMgr::OnUpdateInfo
+<a href="https://msdn.microsoft.com/0f906a19-16b8-47c1-adca-10d6da0cc7dd">ITfDisplayAttributeMgr::OnUpdateInfo
       </a>
 
 

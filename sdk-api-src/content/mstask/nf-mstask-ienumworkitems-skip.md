@@ -7,7 +7,7 @@ old-location: taskschd\ienumworkitems_skip.htm
 old-project: taskschd
 ms.assetid: 5f4c7c98-a802-4fc3-b88f-bb37826f8199
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumWorkItems interface [Task Scheduler],Skip method, IEnumWorkItems.Skip, IEnumWorkItems::Skip, Skip, Skip method [Task Scheduler], Skip method [Task Scheduler],IEnumWorkItems interface, _msb_ienumworkitems_skip, mstask/IEnumWorkItems::Skip, taskschd.ienumworkitems_skip
 ms.prod: windows
 ms.technology: windows-sdk

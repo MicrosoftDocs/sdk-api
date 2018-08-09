@@ -7,7 +7,7 @@ old-location: security\auditlookupcategoryname_func.htm
 old-project: secauthz
 ms.assetid: 8b30d864-8eb5-42d8-bc9a-a9eae1de5187
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AuditLookupCategoryName, AuditLookupCategoryName function [Security], AuditLookupCategoryNameA, AuditLookupCategoryNameW, ntsecapi/AuditLookupCategoryName, ntsecapi/AuditLookupCategoryNameA, ntsecapi/AuditLookupCategoryNameW, security.auditlookupcategoryname_func
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,8 +79,7 @@ When you have finished using this string, free it by calling the <a href="https:
 
 
 
-
-						If the function succeeds, it returns <b>TRUE</b>.
+If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.

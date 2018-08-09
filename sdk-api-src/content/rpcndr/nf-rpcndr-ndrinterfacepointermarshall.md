@@ -7,7 +7,7 @@ old-location: rpc\ndrinterfacepointermarshall.htm
 old-project: rpc
 ms.assetid: b6a8ca3c-a386-48c9-9347-ef9329678b5d
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: NdrInterfacePointerMarshall, NdrInterfacePointerMarshall function [RPC], rpc.ndrinterfacepointermarshall, rpcndr/NdrInterfacePointerMarshall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ Pointer to the format string description.
 
 
 
-Returns null upon success. If an error occurs, the function throws one of the following exception codes. In addition, the function can throw exception codes from <a href="https://msdn.microsoft.com/library/ms678428(v=VS.85).aspx">CoMarshalInterface</a>.
+Returns null upon success. If an error occurs, the function throws one of the following exception codes. In addition, the function can throw exception codes from <a href="https://msdn.microsoft.com/en-us/library/ms678428(v=VS.85).aspx">CoMarshalInterface</a>.
 
 <table>
 <tr>

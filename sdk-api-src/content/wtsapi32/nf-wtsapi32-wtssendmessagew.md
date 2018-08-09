@@ -4,10 +4,10 @@ title: WTSSendMessageW function
 author: windows-sdk-content
 description: Displays a message box on the client desktop of a specified Remote Desktop Services session.
 old-location: termserv\wtssendmessage.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 4c70bc93-00b1-46ed-947d-b3cf61a5aca4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IDABORT, IDASYNC, IDCANCEL, IDCONTINUE, IDIGNORE, IDNO, IDOK, IDRETRY, IDTIMEOUT, IDTRYAGAIN, IDYES, WTSSendMessage, WTSSendMessage function [Remote Desktop Services], WTSSendMessageA, WTSSendMessageW, _win32_wtssendmessage, termserv.wtssendmessage, wtsapi32/WTSSendMessage, wtsapi32/WTSSendMessageA, wtsapi32/WTSSendMessageW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -209,12 +209,6 @@ If <b>FALSE</b>, the function returns immediately and the
 <b>Abort</b>
 
 
-##### - pResponse.IDASYNC (32001 (0x7D01))
-
-The <i>bWait</i> parameter was <b>FALSE</b>, so the function 
-        returned without waiting for a response.
-
-
 ##### - pResponse.IDCANCEL (2)
 
 <b>Cancel</b>
@@ -245,12 +239,6 @@ The <i>bWait</i> parameter was <b>FALSE</b>, so the function
 <b>Retry</b>
 
 
-##### - pResponse.IDTIMEOUT (32000 (0x7D00))
-
-The <i>bWait</i> parameter was <b>TRUE</b> and the time-out 
-        interval elapsed.
-
-
 ##### - pResponse.IDTRYAGAIN (10)
 
 <b>Try Again</b>
@@ -259,6 +247,18 @@ The <i>bWait</i> parameter was <b>TRUE</b> and the time-out
 ##### - pResponse.IDYES (6)
 
 <b>Yes</b>
+
+
+##### - pResponse.IDASYNC (32001 (0x7D01))
+
+The <i>bWait</i> parameter was <b>FALSE</b>, so the function 
+        returned without waiting for a response.
+
+
+##### - pResponse.IDTIMEOUT (32000 (0x7D00))
+
+The <i>bWait</i> parameter was <b>TRUE</b> and the time-out 
+        interval elapsed.
 
 
 ## -returns

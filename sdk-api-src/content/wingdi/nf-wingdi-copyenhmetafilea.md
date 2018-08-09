@@ -7,7 +7,7 @@ old-location: gdi\copyenhmetafile.htm
 old-project: gdi
 ms.assetid: 7c428828-b239-41d4-926c-88caa0aa7214
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CopyEnhMetaFile, CopyEnhMetaFile function [Windows GDI], CopyEnhMetaFileA, CopyEnhMetaFileW, _win32_CopyEnhMetaFile, gdi.copyenhmetafile, wingdi/CopyEnhMetaFile, wingdi/CopyEnhMetaFileA, wingdi/CopyEnhMetaFileW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,24 +63,12 @@ The <b>CopyEnhMetaFile</b> function copies the contents of an enhanced-format me
 
 
 
-### -param hEnh
-
-TBD
-
-
-### -param lpFileName
-
-TBD
-
-
-
-
-#### - hemfSrc [in]
+### -param hEnh [in]
 
 A handle to the enhanced metafile to be copied.
 
 
-#### - lpszFile [in]
+### -param lpFileName [in]
 
 A pointer to the name of the destination file. If this parameter is <b>NULL</b>, the source metafile is copied to memory.
 

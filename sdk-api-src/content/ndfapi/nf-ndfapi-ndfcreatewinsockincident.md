@@ -7,7 +7,7 @@ old-location: ndf\ndfcreatewinsockincident.htm
 old-project: ndf
 ms.assetid: c4cb2713-b656-47a8-9de7-9d33e864a811
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: NdfCreateWinSockIncident, NdfCreateWinSockIncident function [NDF], ndf.ndfcreatewinsockincident, ndfapi/NdfCreateWinSockIncident
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,9 +80,11 @@ Type: <b>USHORT</b>
 The port providing Winsock access.
 
 
-### -param appId
+### -param appId [in, optional]
 
-TBD
+Type: <b>LPCWSTR</b>
+
+Unique identifier associated with the application.
 
 
 ### -param userId [in, optional]
@@ -97,13 +99,6 @@ Unique identifier associated with the user.
 Type: <b>NDFHANDLE*</b>
 
 Handle to the Network Diagnostics Framework incident.
-
-
-#### - appID [in, optional]
-
-Type: <b>LPCWSTR</b>
-
-Unique identifier associated with the application.
 
 
 ## -returns

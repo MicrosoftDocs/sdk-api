@@ -7,7 +7,7 @@ old-location: netmgmt\netwkstasetinfo.htm
 old-project: netmgmt
 ms.assetid: d746b6c9-5ef1-4174-a84f-44e4e50200cd
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: 100, 101, 102, 502, NetWkstaSetInfo, NetWkstaSetInfo function [Network Management], _win32_netwkstasetinfo, lmwksta/NetWkstaSetInfo, netmgmt.netwkstasetinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,11 +133,6 @@ A pointer to the buffer that specifies the data. The format of this data depends
 <a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>.
 
 
-#### - parm_err [out]
-
-A pointer to a value that receives the index of the first member of the workstation information structure that causes the ERROR_INVALID_PARAMETER error. If this parameter is <b>NULL</b>, the index is not returned on error. For more information, see the Remarks section.
-
-
 #### - servername [in]
 
 A pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
@@ -145,6 +140,11 @@ A pointer to a string that specifies the DNS or NetBIOS name of the remote serve
 
 
 					
+
+
+#### - parm_err [out]
+
+A pointer to a value that receives the index of the first member of the workstation information structure that causes the ERROR_INVALID_PARAMETER error. If this parameter is <b>NULL</b>, the index is not returned on error. For more information, see the Remarks section.
 
 
 ## -returns

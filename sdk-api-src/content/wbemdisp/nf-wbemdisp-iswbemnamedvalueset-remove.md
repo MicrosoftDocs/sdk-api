@@ -7,7 +7,7 @@ old-location: wmi\swbemnamedvalueset_remove.htm
 old-project: WmiSdk
 ms.assetid: 8cb353fb-c6d7-41d9-a2d0-ff1ad37264e4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemNamedValueSet interface [Windows Management Instrumentation],Remove method, ISWbemNamedValueSet.Remove, ISWbemNamedValueSet::Remove, Remove, Remove method [Windows Management Instrumentation], Remove method [Windows Management Instrumentation],ISWbemNamedValueSet interface, Remove method [Windows Management Instrumentation],SWbemNamedValueSet object, SWbemNamedValueSet object [Windows Management Instrumentation],Remove method, SWbemNamedValueSet.Remove, _hmm_swbemnamedvalueset.remove, wmi.swbemnamedvalueset_remove
 ms.prod: windows
 ms.technology: windows-sdk

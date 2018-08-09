@@ -4,10 +4,10 @@ title: "_DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS"
 author: windows-sdk-content
 description: Specifies parameters for the offload write operation.
 old-location: base\device_dsm_offload_write_parameters.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: d0107cae-50c9-46d2-97cd-324030692903
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: "*PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure pointer, _DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, base.device_dsm_offload_write_parameters, winioctl/DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, winioctl/PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk

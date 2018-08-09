@@ -7,7 +7,7 @@ old-location: mf\imftopology_gettopologyid.htm
 old-project: medfound
 ms.assetid: f7d33d20-1b58-4b88-9a98-1004a5c42dfa
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetTopologyID, GetTopologyID method [Media Foundation], GetTopologyID method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetTopologyID method, IMFTopology.GetTopologyID, IMFTopology::GetTopologyID, f7d33d20-1b58-4b88-9a98-1004a5c42dfa, mf.imftopology_gettopologyid, mfidl/IMFTopology::GetTopologyID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets the identifier of the topology.
+Gets the identifier of the topology.
 
 
 ## -parameters
@@ -63,8 +62,7 @@ req.product: GDI+ 1.1
 
 ### -param pID [out]
 
-
-            Receives the identifier, as a <a href="https://msdn.microsoft.com/a6d9246a-0cc6-4dbd-affa-e7d0bbddb008">TOPOID</a> value.
+Receives the identifier, as a <a href="https://msdn.microsoft.com/a6d9246a-0cc6-4dbd-affa-e7d0bbddb008">TOPOID</a> value.
           
 
 

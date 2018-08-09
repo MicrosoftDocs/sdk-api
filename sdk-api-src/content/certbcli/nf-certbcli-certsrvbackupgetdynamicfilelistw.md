@@ -7,7 +7,7 @@ old-location: security\certsrvbackupgetdynamicfilelist.htm
 old-project: seccrypto
 ms.assetid: ff60b705-5ac6-4e61-9b88-9ffc2dc9adce
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CertSrvBackupGetDynamicFileList, CertSrvBackupGetDynamicFileList function [Security], CertSrvBackupGetDynamicFileListW, _certsrv_certsrvbackupgetdynamicfilelist, certbcli/CertSrvBackupGetDynamicFileList, certbcli/CertSrvBackupGetDynamicFileListW, security.certsrvbackupgetdynamicfilelist
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>CertSrvBackupGetDynamicFileList</b> function retrieves the list of Certificate Services dynamic file names that need to be backed up for the given backup context. The dynamic files are those that are not included in the Certificate Services database backup.
+The <b>CertSrvBackupGetDynamicFileList</b> function retrieves the list of Certificate Services dynamic file names that need to be backed up for the given backup context. The dynamic files are those that are not included in the Certificate Services database backup.
 
 
 ## -parameters
@@ -81,8 +80,7 @@ A pointer to the <b>DWORD</b> value that specifies the number of bytes in <i>ppw
 
 
 
-
-						The return value is an <b>HRESULT</b>. A value of <b>S_OK</b> indicates success.
+The return value is an <b>HRESULT</b>. A value of <b>S_OK</b> indicates success.
 
 
 

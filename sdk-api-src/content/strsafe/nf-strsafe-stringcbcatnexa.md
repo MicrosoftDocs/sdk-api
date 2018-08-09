@@ -7,7 +7,7 @@ old-location: menurc\stringcbcatnex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcatnex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbCatNEx, StringCbCatNEx function [Menus and Other Resources], StringCbCatNExA, StringCbCatNExW, _shell_StringCbCatNEx, _shell_stringcbcatnex_cpp, menurc.stringcbcatnex, strsafe/StringCbCatNEx, strsafe/StringCbCatNExA, strsafe/StringCbCatNExW, winui._shell_stringcbcatnex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,9 +90,11 @@ Type: <b>LPCTSTR</b>
 The source string that is to be concatenated to the end of <i>pszDest</i>. This string must be null-terminated.
 
 
-### -param cbToAppend
+### -param cbToAppend [in]
 
-TBD
+Type: <b>size_t</b>
+
+The maximum number of bytes to append to <i>pszDest</i>.
 
 
 ### -param ppszDestEnd [out, optional]
@@ -177,13 +179,6 @@ If the function fails, <i>pszDest</i> is untouched. Nothing is added to the orig
 </tr>
 </table>
  
-
-
-#### - cbMaxAppend [in]
-
-Type: <b>size_t</b>
-
-The maximum number of bytes to append to <i>pszDest</i>.
 
 
 ## -returns

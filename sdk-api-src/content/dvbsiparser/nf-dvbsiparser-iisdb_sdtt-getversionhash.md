@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt_getversionhash.htm
 old-project: mstv
 ms.assetid: 269b96c7-7748-44b3-9e6d-2089bcc56664
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetVersionHash method, IISDB_SDTT.GetVersionHash, IISDB_SDTT::GetVersionHash, dvbsiparser/IISDB_SDTT::GetVersionHash, mstv.iisdb_sdtt_getversionhash
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Returns a hash value for this instance of an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
+Returns a hash value for this instance of an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
   Tables that refer to
   the same content
   will return the same hash value, even though the tables have different version_number and table_id fields. You can use this hash value to identify when

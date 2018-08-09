@@ -7,7 +7,7 @@ old-location: perf\collectperformancedata.htm
 old-project: PerfCtrs
 ms.assetid: 9903eb4b-017b-47df-81c5-98c4e1ac697d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: CollectPerformanceData, CollectPerformanceData callback function [Perf], PM_COLLECT_PROC, PM_COLLECT_PROC callback, base.collectperformancedata, perf.collectperformancedata, winperf/CollectPerformanceData
 ms.prod: windows
 ms.technology: windows-sdk

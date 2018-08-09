@@ -7,7 +7,7 @@ old-location: directdraw\enummodescallback.htm
 old-project: directdraw
 ms.assetid: 5959FD6F-7C48-43EA-8C7C-BCA659D06CE2
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: EnumModesCallback, EnumModesCallback callback function [DirectDraw], LPDDENUMMODESCALLBACK, LPDDENUMMODESCALLBACK callback, ddraw/EnumModesCallback, directdraw.enummodescallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,14 +72,14 @@ Do not use. This callback function is superseded by the <a href="https://msdn.mi
 
 
 
-#### - lpContext [in]
-
-A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
-
-
 #### - lpDDSurfaceDesc [in]
 
 A pointer to a read-only <a href="https://msdn.microsoft.com/library/windows/hardware/ff550339">DDSURFACEDESC</a> structure that provides the monitor frequency and the mode that can be created.
+
+
+#### - lpContext [in]
+
+A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
 
 
 ## -returns

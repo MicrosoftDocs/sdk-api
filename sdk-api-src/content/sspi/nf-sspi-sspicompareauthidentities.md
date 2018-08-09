@@ -4,10 +4,10 @@ title: SspiCompareAuthIdentities function
 author: windows-sdk-content
 description: Compares the two specified credentials.
 old-location: security\sspicompareauthidentities.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: d2c4f363-3d86-48f0-bae1-4f9240d68bab
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SspiCompareAuthIdentities, SspiCompareAuthIdentities function [Security], security.sspicompareauthidentities, sspi/SspiCompareAuthIdentities
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SspiCompareAuthIdentities function

@@ -7,7 +7,7 @@ old-location: mstv\iisdb_ldt_initialize.htm
 old-project: mstv
 ms.assetid: 6239688f-2300-4cdb-97cb-179f63efb933
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IISDB_LDT interface [Microsoft TV Technologies],Initialize method, IISDB_LDT.Initialize, IISDB_LDT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_LDT interface, dvbsiparser/IISDB_LDT::Initialize, mstv.iisdb_ldt_initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Initializes the object using captured table section data
+Initializes the object using captured table section data
   for an Integrated Services Digital Broadcasting (ISDB)
   linked description table (LDT).
 
@@ -64,8 +63,7 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param pSectionList [in]
 
-
-  Pointer to the <a href="https://msdn.microsoft.com/eb6d31b4-ee4a-468f-9e58-115159095858">ISectionList</a> interface
+Pointer to the <a href="https://msdn.microsoft.com/eb6d31b4-ee4a-468f-9e58-115159095858">ISectionList</a> interface
   of the <b>SectionList</b> object that contains the section data.
 
 

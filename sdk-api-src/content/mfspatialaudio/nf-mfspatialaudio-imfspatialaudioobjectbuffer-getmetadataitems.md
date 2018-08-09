@@ -7,7 +7,7 @@ old-location: mf\imfspatialaudioobjectbuffer_getmetadataitems.htm
 old-project: medfound
 ms.assetid: 19BF7AC6-B21F-47D1-8573-48C5E4869574
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetMetadataItems, GetMetadataItems method [Media Foundation], GetMetadataItems method [Media Foundation],IMFSpatialAudioObjectBuffer interface, IMFSpatialAudioObjectBuffer interface [Media Foundation],GetMetadataItems method, IMFSpatialAudioObjectBuffer.GetMetadataItems, IMFSpatialAudioObjectBuffer::GetMetadataItems, mf.imfspatialaudioobjectbuffer_getmetadataitems, mfspatialaudio/IMFSpatialAudioObjectBuffer::GetMetadataItems
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,8 +110,7 @@ The supplied pointer is invalid.
 
 
 
-The metadata is written to the <a href="https://msdn.microsoft.com/54A6B7DE-A41E-4214-AF02-CC19250B9037">ISpatialAudioMetadataItems</a>
-    collection in a format identified by the <a href="https://msdn.microsoft.com/9714A2C7-25A1-4735-A0AC-22329ECBBC46">MF_MT_SPATIAL_AUDIO_OBJECT_METADATA_FORMAT_ID</a>     media type attribute specified during media type negotiation phase of Media Foundation     topology construction.
+The metadata is written to the <a href="https://msdn.microsoft.com/54A6B7DE-A41E-4214-AF02-CC19250B9037">ISpatialAudioMetadataItems</a>collection in a format identified by the <a href="https://msdn.microsoft.com/9714A2C7-25A1-4735-A0AC-22329ECBBC46">MF_MT_SPATIAL_AUDIO_OBJECT_METADATA_FORMAT_ID</a>     media type attribute specified during media type negotiation phase of Media Foundation     topology construction.
 
 
 

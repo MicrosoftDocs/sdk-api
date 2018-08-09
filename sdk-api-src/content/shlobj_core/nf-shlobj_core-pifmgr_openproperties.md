@@ -7,7 +7,7 @@ old-location: properties\PifMgr_OpenProperties.htm
 old-project: properties
 ms.assetid: 0bc11528-7278-4765-b3cb-671ba82c9155
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: OPENPROPS_INHIBITPIF, OPENPROPS_NONE, PifMgr_OpenProperties, PifMgr_OpenProperties function [Windows Properties], _win32_PifMgr_OpenProperties, properties.PifMgr_OpenProperties, shell.PifMgr_OpenProperties, shlobj_core/PifMgr_OpenProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,11 @@ Type: <b>PCWSTR</b>
 A null-terminated Unicode string that contains the application's name.
 
 
-### -param pszPIF
+### -param pszPIF [in, optional]
 
-TBD
+Type: <b>PCWSTR</b>
+
+A null-terminated Unicode string that contains the name of the .pif file.
 
 
 ### -param hInf
@@ -99,13 +101,6 @@ Ignore any existing .pif files and get the properties from win.ini or _Default.p
 #### OPENPROPS_NONE
 
 No options specified.
-
-
-#### - lpszPIF [in, optional]
-
-Type: <b>PCWSTR</b>
-
-A null-terminated Unicode string that contains the name of the .pif file.
 
 
 ## -returns

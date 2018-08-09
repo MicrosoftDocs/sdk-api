@@ -7,7 +7,7 @@ old-location: hid\ioctl_keyboard_query_attributes.htm
 old-project: hid
 ms.assetid: 6119ca39-f740-4c8a-a7f1-eb6f30624093
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/30/2018
 ms.keywords: IOCTL_KEYBOARD_QUERY_ATTRIBUTES, IOCTL_KEYBOARD_QUERY_ATTRIBUTES control, IOCTL_KEYBOARD_QUERY_ATTRIBUTES control code [Human Input Devices], hid.ioctl_keyboard_query_attributes, kref_1522bb4a-6d24-4a25-a5fe-73343ff6c131.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_ATTRIBUTES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-     The IOCTL_KEYBOARD_QUERY_ATTRIBUTES request returns information about the keyboard attributes.
+The IOCTL_KEYBOARD_QUERY_ATTRIBUTES request returns information about the keyboard attributes.
     
 
 Kbdclass copies the current stack location, sets the <b>MajorFunction</b> member of the new stack location to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>, and sends this request down the device stack.
@@ -116,9 +115,9 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_BUFFER_TOO_SMALL
+#### -STATUS_SUCCESS
 
-The value of <b>Parameters.DeviceIoControl.InputBufferLength </b>or <b>Parameters.DeviceIoControl.OutputBufferLength</b> is not valid.
+The request completed successfully.
 
 
 #### -STATUS_INVALID_PARAMETER
@@ -126,9 +125,9 @@ The value of <b>Parameters.DeviceIoControl.InputBufferLength </b>or <b>Parameter
 The <b>UnitId </b>value is not valid.
 
 
-#### -STATUS_SUCCESS
+#### -STATUS_BUFFER_TOO_SMALL
 
-The request completed successfully.
+The value of <b>Parameters.DeviceIoControl.InputBufferLength </b>or <b>Parameters.DeviceIoControl.OutputBufferLength</b> is not valid.
 
 
 ## -see-also

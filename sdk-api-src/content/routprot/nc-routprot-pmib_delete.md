@@ -7,7 +7,7 @@ old-location: rras\mibdelete.htm
 old-project: rras
 ms.assetid: 3097843e-ffa6-443a-9ee8-1034f3ed474a
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MibDelete, MibDelete callback function [RAS], PMIB_DELETE, PMIB_DELETE callback, _mpr_mibdelete, routprot/MibDelete, rras.mibdelete
 ms.prod: windows
 ms.technology: windows-sdk

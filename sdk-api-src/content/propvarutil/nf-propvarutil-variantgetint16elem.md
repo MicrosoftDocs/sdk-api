@@ -7,7 +7,7 @@ old-location: properties\VariantGetInt16Elem.htm
 old-project: properties
 ms.assetid: fd572a65-c74c-490e-8cff-aa9ba54da5a1
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: VariantGetInt16Elem, VariantGetInt16Elem function [Windows Properties], _shell_VariantGetInt16Elem, properties.VariantGetInt16Elem, propvarutil/VariantGetInt16Elem, shell.VariantGetInt16Elem
 ms.prod: windows
 ms.technology: windows-sdk

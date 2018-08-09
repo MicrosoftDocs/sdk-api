@@ -7,7 +7,7 @@ old-location: mscs\clus_storage_set_driveletter.htm
 old-project: mscs
 ms.assetid: 71f3a009-c4af-4c7a-973d-4bd2eba25b94
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: "*PCLUS_STORAGE_SET_DRIVELETTER, CLUS_STORAGE_SET_DRIVELETTER, CLUS_STORAGE_SET_DRIVELETTER structure [Failover Cluster], PCLUS_STORAGE_SET_DRIVELETTER, PCLUS_STORAGE_SET_DRIVELETTER structure pointer [Failover Cluster], _CLUS_STORAGE_SET_DRIVELETTER, clusapi/CLUS_STORAGE_SET_DRIVELETTER, clusapi/PCLUS_STORAGE_SET_DRIVELETTER, mscs.clus_storage_set_driveletter"
 ms.prod: windows
 ms.technology: windows-sdk

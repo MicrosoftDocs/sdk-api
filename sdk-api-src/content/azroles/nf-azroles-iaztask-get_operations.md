@@ -7,7 +7,7 @@ old-location: security\iaztask_operations.htm
 old-project: secauthz
 ms.assetid: b05fd157-6526-49d6-9bb1-fcf8c59cc74e
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AzTask object [Security],Operations property, IAzTask interface [Security],Operations property, IAzTask.Operations, IAzTask.get_Operations, IAzTask::Operations, IAzTask::get_Operations, Operations property [Security], Operations property [Security],AzTask object, Operations property [Security],IAzTask interface, azroles/IAzTask::Operations, azroles/IAzTask::get_Operations, get_Operations, security.iaztask_operations
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-In JScript, the returned <a href="https://msdn.microsoft.com/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. 
+In JScript, the returned <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. 
 
 
 

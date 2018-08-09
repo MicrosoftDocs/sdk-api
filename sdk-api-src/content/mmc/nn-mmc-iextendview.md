@@ -7,7 +7,7 @@ old-location: mmc\iextendview.htm
 old-project: MMC
 ms.assetid: a6ea8735-4cad-4c04-be97-dfad01b00388
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: IExtendView, IExtendView interface [MMC], IExtendView interface [MMC],described, _slate_iextendview, mmc.iextendview, mmc/IExtendView
 ms.prod: windows
 ms.technology: windows-sdk

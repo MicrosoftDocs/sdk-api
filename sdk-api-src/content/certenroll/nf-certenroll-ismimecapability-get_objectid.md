@@ -7,7 +7,7 @@ old-location: security\ismimecapability_objectid_property.htm
 old-project: seccertenroll
 ms.assetid: 3bd773f2-f3ea-45e5-9b37-8346070049d8
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: ISmimeCapability interface [Security],ObjectId property, ISmimeCapability.ObjectId, ISmimeCapability.get_ObjectId, ISmimeCapability::ObjectId, ISmimeCapability::get_ObjectId, ObjectId property [Security], ObjectId property [Security],ISmimeCapability interface, certenroll/ISmimeCapability::ObjectId, certenroll/ISmimeCapability::get_ObjectId, get_ObjectId, security.ismimecapability_objectid_property
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: stg\stgopenlayoutdocfile.htm
 old-project: stg
 ms.assetid: 6ecfb6bd-e623-42b6-9b95-f0563921ac15
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: StgOpenLayoutDocfile, StgOpenLayoutDocfile function [Structured Storage], _stg_stgopenlayoutdocfile, objbase/StgOpenLayoutDocfile, stg.stgopenlayoutdocfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,14 +84,7 @@ Access mode to use when opening the newly created storage object. Values are tak
 Reserved for future use.
 
 
-### -param ppstgOpen
-
-TBD
-
-
-
-
-#### - ppStgOpen [out]
+### -param ppstgOpen [out]
 
 A pointer to 
 <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> pointer variable that receives the interface pointer to the root object of the newly created root storage object.
@@ -101,8 +94,7 @@ A pointer to
 
 
 
-
-						This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL, in addition to the following:
+This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL, in addition to the following:
 
 The <b>StgOpenLayoutDocfile</b> function can also return any of the error values returned by the 
 <a href="https://msdn.microsoft.com/7920bd46-0a8f-42e0-9988-59d85edb64e2">StgOpenStorageOnILockBytes</a> function.

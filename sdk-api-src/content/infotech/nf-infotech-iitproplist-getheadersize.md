@@ -97,7 +97,7 @@ The size was successfully returned.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms670040(v=VS.85).aspx">IITPropList</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670040(v=VS.85).aspx">IITPropList</a>
 
 
 

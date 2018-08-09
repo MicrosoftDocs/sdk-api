@@ -4,10 +4,10 @@ title: IWSDHttpAddress::GetSecure
 author: windows-sdk-content
 description: Retrieves the status on whether TLS secure sessions are enabled for this address.
 old-location: ncd\iwsdhttpaddress_getsecure.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: aaf9e918-7d1c-4457-94f8-888a99f07c18
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetSecure, GetSecure method, GetSecure method,IWSDHttpAddress interface, IWSDHttpAddress interface,GetSecure method, IWSDHttpAddress.GetSecure, IWSDHttpAddress::GetSecure, ncd.iwsdhttpaddress_getsecure, wsdbase/IWSDHttpAddress::GetSecure
 ms.prod: windows
 ms.technology: windows-sdk

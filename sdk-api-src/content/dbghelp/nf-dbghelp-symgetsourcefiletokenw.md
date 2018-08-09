@@ -7,7 +7,7 @@ old-location: base\symgetsourcefiletoken.htm
 old-project: debug
 ms.assetid: 7a8c7d68-421e-41fd-8cab-750c44a5f028
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymGetSourceFileToken, SymGetSourceFileToken function, SymGetSourceFileTokenW, base.symgetsourcefiletoken, dbghelp/SymGetSourceFileToken, dbghelp/SymGetSourceFileTokenW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,8 +91,7 @@ The size of the <i>Token</i> buffer, in bytes.
 
 
 
-
-						If the function succeeds, the return value is <b>TRUE</b>.
+If the function succeeds, the return value is <b>TRUE</b>.
 						
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 

@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectevents_dirtyregion.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectevents\dirtyregion.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: DirtyRegion, DirtyRegion method [WPF Bitmap Effects], DirtyRegion method [WPF Bitmap Effects],IMILBitmapEffectEvents interface, IMILBitmapEffectEvents interface [WPF Bitmap Effects],DirtyRegion method, IMILBitmapEffectEvents.DirtyRegion, IMILBitmapEffectEvents::DirtyRegion, _wibe_imilbitmapeffectevents_dirtyregion, mileffects/IMILBitmapEffectEvents::DirtyRegion, wibe._wibe_imilbitmapeffectevents_dirtyregion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Invalidates the specified region of the given <a href="https://msdn.microsoft.com/library/ms735258(v=VS.85).aspx">IMILBitmapEffectPrimitive</a>.
+Invalidates the specified region of the given <a href="https://msdn.microsoft.com/en-us/library/ms735258(v=VS.85).aspx">IMILBitmapEffectPrimitive</a>.
 
 
 ## -parameters
@@ -61,14 +61,14 @@ Invalidates the specified region of the given <a href="https://msdn.microsoft.co
 
 ### -param pEffect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a>*</b>
 
 A pointer to the primitive to dirty.
 
 
 ### -param pRect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735228(v=VS.85).aspx">MIL_RECTD</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735228(v=VS.85).aspx">MIL_RECTD</a>*</b>
 
 A pointer to the rectangle to dirty.
 

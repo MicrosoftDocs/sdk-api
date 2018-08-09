@@ -7,7 +7,7 @@ old-location: winmsg\childwindowfrompoint.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\childwindowfrompoint.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ChildWindowFromPoint, ChildWindowFromPoint function [Windows and Messages], _win32_ChildWindowFromPoint, _win32_childwindowfrompoint_cpp, winmsg.childwindowfrompoint, winui._win32_childwindowfrompoint, winuser/ChildWindowFromPoint
 ms.prod: windows
 ms.technology: windows-sdk

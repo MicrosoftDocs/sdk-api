@@ -4,10 +4,10 @@ title: GetUserObjectSecurity function
 author: windows-sdk-content
 description: Retrieves security information for the specified user object.
 old-location: security\getuserobjectsecurity.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 998c2520-7833-4efd-a794-b13b528f0485
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetUserObjectSecurity, GetUserObjectSecurity function [Security], _win32_getuserobjectsecurity, security.getuserobjectsecurity, winuser/GetUserObjectSecurity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,9 +77,14 @@ A pointer to a
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> value that specifies the security information being requested.
 
 
-### -param pSID
+### -param pSID [in, out, optional]
 
-TBD
+A pointer to a 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure in <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">self-relative</a> format that contains the requested information when the function returns. This buffer must be aligned on a 4-byte boundary. 
+
+
+
+					
 
 
 ### -param nLength [in]
@@ -90,16 +95,6 @@ The length, in bytes, of the buffer pointed to by the <i>pSD</i> parameter.
 ### -param lpnLengthNeeded [out]
 
 A pointer to a variable to receive the number of bytes required to store the complete <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a>. If this variable's value is greater than the value of the <i>nLength</i> parameter when the function returns, the function returns <b>FALSE</b> and none of the security descriptor is copied to the buffer. Otherwise, the entire security descriptor is copied.
-
-
-#### - pSD [in, out, optional]
-
-A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure in <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">self-relative</a> format that contains the requested information when the function returns. This buffer must be aligned on a 4-byte boundary. 
-
-
-
-					
 
 
 ## -returns

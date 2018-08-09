@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_CharacterRange_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrange.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: CharacterRange, CharacterRange class [GDI+], CharacterRange class [GDI+],described, _gdiplus_CLASS_CharacterRange_Class, gdiplus._gdiplus_CLASS_CharacterRange_Class, gdiplustypes/CharacterRange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-A <a href="https://msdn.microsoft.com/library/ms536266(v=VS.85).aspx">CharacterRange</a> object specifies a range of character positions within a string.
+A <a href="https://msdn.microsoft.com/en-us/library/ms536266(v=VS.85).aspx">CharacterRange</a> object specifies a range of character positions within a string.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">CharacterRange</b> has these types of members:
 <ul>
@@ -65,19 +65,19 @@ A <a href="https://msdn.microsoft.com/library/ms536266(v=VS.85).aspx">CharacterR
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536268(v=VS.85).aspx">CharacterRange::CharacterRange()</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536268(v=VS.85).aspx">CharacterRange::CharacterRange()</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms536268(v=VS.85).aspx">CharacterRange::CharacterRange</a> object with the data members set to zero.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536268(v=VS.85).aspx">CharacterRange::CharacterRange</a> object with the data members set to zero.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536269(v=VS.85).aspx">CharacterRange::CharacterRange(INT,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536269(v=VS.85).aspx">CharacterRange::CharacterRange(INT,INT)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms536269(v=VS.85).aspx">CharacterRange::CharacterRange</a> object and initializes the data members to the values specified.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536269(v=VS.85).aspx">CharacterRange::CharacterRange</a> object and initializes the data members to the values specified.
 
 </td>
 </tr>
@@ -90,10 +90,10 @@ Creates a <a href="https://msdn.microsoft.com/library/ms536269(v=VS.85).aspx">Ch
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536267(v=VS.85).aspx">CharacterRange::operator=</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536267(v=VS.85).aspx">CharacterRange::operator=</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536267(v=VS.85).aspx">CharacterRange::operator=</a> method sets this <b>CharacterRange</b> object equal to the specified <b>CharacterRange</b> object.
+The <a href="https://msdn.microsoft.com/en-us/library/ms536267(v=VS.85).aspx">CharacterRange::operator=</a> method sets this <b>CharacterRange</b> object equal to the specified <b>CharacterRange</b> object.
 
 </td>
 </tr>

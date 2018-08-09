@@ -7,7 +7,7 @@ old-location: multimedia\drawdibbegin.htm
 old-project: Multimedia
 ms.assetid: 89178e33-e440-49fe-9900-0baea229d289
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DrawDibBegin, DrawDibBegin function [Windows Multimedia], _win32_DrawDibBegin, multimedia.drawdibbegin, vfw/DrawDibBegin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,12 +76,14 @@ Handle to a DC for drawing. This parameter is optional.
 
 ### -param dxDst
 
-TBD
+Width, in <b>MM_TEXT</b> client units, of the destination rectangle.
+          
 
 
 ### -param dyDst
 
-TBD
+Height, in <b>MM_TEXT</b> client units, of the destination rectangle.
+          
 
 
 ### -param lpbi
@@ -156,18 +158,6 @@ Applicable flags for the function. The following values are defined.
 </tr>
 </table>
  
-
-
-#### - dxDest
-
-Width, in <b>MM_TEXT</b> client units, of the destination rectangle.
-          
-
-
-#### - dyDest
-
-Height, in <b>MM_TEXT</b> client units, of the destination rectangle.
-          
 
 
 ## -returns

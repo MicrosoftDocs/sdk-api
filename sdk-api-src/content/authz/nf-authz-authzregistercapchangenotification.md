@@ -7,7 +7,7 @@ old-location: security\authzregistercapchangenotification.htm
 old-project: secauthz
 ms.assetid: B0675BB3-62FA-462E-8DFB-55C47576DFEC
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AuthzRegisterCapChangeNotification, AuthzRegisterCapChangeNotification function [Security], authz/AuthzRegisterCapChangeNotification, security.authzregistercapchangenotification
 ms.prod: windows
 ms.technology: windows-sdk

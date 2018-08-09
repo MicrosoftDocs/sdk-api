@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RedEyeCorrection_SetParameters_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\redeyecorrectionclass\redeyecorrectionmethods\setparameters.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: RedEyeCorrection class [GDI+],SetParameters method, RedEyeCorrection.SetParameters, RedEyeCorrection::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],RedEyeCorrection class, _gdiplus_CLASS_RedEyeCorrection_SetParameters_, gdiplus._gdiplus_CLASS_RedEyeCorrection_SetParameters_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>RedEyeCorrection::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/library/ms534499(v=VS.85).aspx">RedEyeCorrection</a> object.
+The <b>RedEyeCorrection::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/en-us/library/ms534499(v=VS.85).aspx">RedEyeCorrection</a> object.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ The <b>RedEyeCorrection::SetParameters</b> method sets the parameters of this <a
 
 ### -param parameters [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms534072(v=VS.85).aspx">RedEyeCorrectionParams</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534072(v=VS.85).aspx">RedEyeCorrectionParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534072(v=VS.85).aspx">RedEyeCorrectionParams</a> structure that specifies the parameters.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534072(v=VS.85).aspx">RedEyeCorrectionParams</a> structure that specifies the parameters.
 
 
 ## -returns
@@ -87,11 +87,11 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534499(v=VS.85).aspx">RedEyeCorrection</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534499(v=VS.85).aspx">RedEyeCorrection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534927(v=VS.85).aspx">RedEyeCorrection::GetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534927(v=VS.85).aspx">RedEyeCorrection::GetParameters</a>
  
 
  

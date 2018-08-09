@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_getstreamids.htm
 old-project: stream
 ms.assetid: 378A8E3F-8B1E-4C0B-9C30-FE78E1939422
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 07/30/2018
 ms.keywords: GetStreamIDs, GetStreamIDs method [Streaming Media Devices], GetStreamIDs method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetStreamIDs method, IMFDeviceTransform.GetStreamIDs, IMFDeviceTransform::GetStreamIDs, mftransform/IMFDeviceTransform::GetStreamIDs, stream.imfdevicetransform_getstreamids
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,16 +86,16 @@ The  <b>GetStreamIDs</b> method gets the stream identifiers for the input and ou
 The number of elements in <i>pdwInputStreamIDs</i>
 
 
-#### - dwOutputStreamIDArraySize [out]
-
-The number of elements in <i>pdwOutputStreamIDs</i>.
-
-
 #### - pdwInputStreamIDs [out]
 
  A pointer to an array allocated by the caller. The method fills the array with the input stream identifiers. The array size must be at least equal to the number of input streams. To get the number of input streams, call <a href="https://msdn.microsoft.com/6FD4B393-05E6-4400-B1A3-D69B7F1B90F0">IMFDeviceTransform::GetStreamCount</a>. 
 
 If the caller passes an array that is larger than the number of input streams, the MFT must not write values into the extra array entries.
+
+
+#### - dwOutputStreamIDArraySize [out]
+
+The number of elements in <i>pdwOutputStreamIDs</i>.
 
 
 #### - pdwOutputStreamIDs

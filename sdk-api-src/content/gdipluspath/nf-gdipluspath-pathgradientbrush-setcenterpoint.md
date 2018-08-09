@@ -2,12 +2,12 @@
 UID: NF:gdipluspath.PathGradientBrush.SetCenterPoint
 title: PathGradientBrush::SetCenterPoint
 author: windows-sdk-content
-description: This topic lists the SetCenterPoint methods of the PathGradientBrush class. For a complete list of methods for the PathGradientBrush class, see PathGradientBrush Methods.
+description: This topic lists the SetCenterPoint methods of the PathGradientBrushclass. For a complete list of methods for the PathGradientBrushclass, see PathGradientBrush Methods.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetCenterPoint_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\pathgradientbrushsetcenterpointmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: PathGradientBrush.SetCenterPoint, PathGradientBrush::SetCenterPoint, SetCenterPoint, SetCenterPoint methods [GDI+], _gdiplus_CLASS_PathGradientBrush_SetCenterPoint_Methods, gdiplus._gdiplus_CLASS_PathGradientBrush_SetCenterPoint_Methods, gdipluspath/SetCenterPoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,10 +53,8 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 			SetCenterPoint methods of the 
-			<a href="https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
- class. For a complete list of methods for the 
-			<b>PathGradientBrush</b>
- class, see <a href="https://msdn.microsoft.com/library/ms535061(v=VS.85).aspx">PathGradientBrush Methods</a>.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>class. For a complete list of methods for the 
+			<b>PathGradientBrush</b>class, see <a href="https://msdn.microsoft.com/en-us/library/ms535061(v=VS.85).aspx">PathGradientBrush Methods</a>.
 
 </span><h3>Overload list</h3><table>
 <tr>
@@ -65,19 +63,19 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535094(v=VS.85).aspx">SetCenterPoint(Point&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535094(v=VS.85).aspx">SetCenterPoint(Point&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535094(v=VS.85).aspx">PathGradientBrush::SetCenterPoint</a> method sets the center point of this path gradient brush. By default, the center point is at the centroid of the brush's boundary path, but you can set the center point to any location inside or outside the path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535094(v=VS.85).aspx">PathGradientBrush::SetCenterPoint</a> method sets the center point of this path gradient brush. By default, the center point is at the centroid of the brush's boundary path, but you can set the center point to any location inside or outside the path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535095(v=VS.85).aspx">SetCenterPoint(PointF&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535095(v=VS.85).aspx">SetCenterPoint(PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535095(v=VS.85).aspx">PathGradientBrush::SetCenterPoint</a> method sets the center point of this path gradient brush. By default, the center point is at the centroid of the brush's boundary path, but you can set the center point to any location inside or outside the path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535095(v=VS.85).aspx">PathGradientBrush::SetCenterPoint</a> method sets the center point of this path gradient brush. By default, the center point is at the centroid of the brush's boundary path, but you can set the center point to any location inside or outside the path.
 
 </td>
 </tr>

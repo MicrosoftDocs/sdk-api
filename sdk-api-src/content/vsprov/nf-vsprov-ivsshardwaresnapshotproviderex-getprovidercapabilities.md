@@ -4,10 +4,10 @@ title: IVssHardwareSnapshotProviderEx::GetProviderCapabilities
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivsshardwaresnapshotproviderex_getprovidercapabilities.htm
-old-project: VSS
+old-project: vss
 ms.assetid: cf95ba6c-b4da-4e9e-969e-58c492cf7901
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetProviderCapabilities, GetProviderCapabilities method, GetProviderCapabilities method,IVssHardwareSnapshotProviderEx interface, IVssHardwareSnapshotProviderEx interface,GetProviderCapabilities method, IVssHardwareSnapshotProviderEx.GetProviderCapabilities, IVssHardwareSnapshotProviderEx::GetProviderCapabilities, base.ivsshardwaresnapshotproviderex_getprovidercapabilities, vsprov/IVssHardwareSnapshotProviderEx::GetProviderCapabilities
 ms.prod: windows
 ms.technology: windows-sdk

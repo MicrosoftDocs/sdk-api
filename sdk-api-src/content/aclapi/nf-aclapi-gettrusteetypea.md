@@ -7,7 +7,7 @@ old-location: security\gettrusteetype.htm
 old-project: secauthz
 ms.assetid: 19777929-43cf-45ea-8283-e42bf9ce8d7a
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: GetTrusteeType, GetTrusteeType function [Security], GetTrusteeTypeA, GetTrusteeTypeW, _win32_gettrusteetype, aclapi/GetTrusteeType, aclapi/GetTrusteeTypeA, aclapi/GetTrusteeTypeW, security.gettrusteetype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ A pointer to a
 
 
 
-
-						The return value is one of the constants from the <a href="https://msdn.microsoft.com/6519c79d-9cee-4565-a71e-0b81a27c1185">TRUSTEE_TYPE</a> enumeration.
+The return value is one of the constants from the <a href="https://msdn.microsoft.com/6519c79d-9cee-4565-a71e-0b81a27c1185">TRUSTEE_TYPE</a> enumeration.
 					
 
 
@@ -86,7 +85,7 @@ A pointer to a
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
 
 
 

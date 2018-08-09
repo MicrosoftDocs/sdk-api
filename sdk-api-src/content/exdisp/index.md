@@ -2,7 +2,7 @@
 UID: NA:exdisp
 ms.assetid: 992f7b4e-4007-3de4-bdc8-f1f475fc79f2
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: intl\immgetimemenuitems.htm
 old-project: Intl
 ms.assetid: 452c864d-b2e7-452a-85f2-d06d46170865
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: IGIMIF_RIGHTMENU, IGIMII_CMODE, IGIMII_CONFIGURE, IGIMII_HELP, IGIMII_INPUTTOOLS, IGIMII_OTHER, IGIMII_SMODE, IGIMII_TOOLS, ImmGetImeMenuItems, ImmGetImeMenuItems function [Internationalization for Windows Applications], ImmGetImeMenuItemsA, ImmGetImeMenuItemsW, _win32_ImmGetImeMenuItems, imm/ImmGetImeMenuItems, imm/ImmGetImeMenuItemsA, imm/ImmGetImeMenuItemsW, intl.immgetimemenuitems
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,32 +61,12 @@ Retrieves the menu items that are registered in the IME menu of a specified inpu
 
 
 
-### -param HIMC
+### -param HIMC [in]
 
-TBD
-
-
-### -param DWORD
-
-TBD
+Handle to the input context for the specified menu items.
 
 
-### -param lpImeParentMenu [out, optional]
-
-Pointer to an <a href="https://msdn.microsoft.com/2e00993f-6720-4139-8097-a3d830e661ca">IMEMENUITEMINFO</a> structure in which the function retrieves parent menu information. To retrieve information about the submenu items of this parent menu, the application sets the <b>fType</b> member to MFT_SUBMENU. This parameter contains <b>NULL</b> if the function retrieves only top-level menu items.
-
-
-### -param lpImeMenu [out, optional]
-
-Pointer to an array of <a href="https://msdn.microsoft.com/2e00993f-6720-4139-8097-a3d830e661ca">IMEMENUITEMINFO</a> structures in which the function retrieves information about the menu items. This parameter contains <b>NULL</b> if the function retrieves the number of registered menu items.
-
-
-### -param dwSize [in]
-
-Size of the buffer to receive the <a href="https://msdn.microsoft.com/2e00993f-6720-4139-8097-a3d830e661ca">IMEMENUITEMINFO</a> structure.
-
-
-#### - dwFlags [in]
+### -param DWORD [in]
 
 Flag specifying menu information options. The following value is defined.
 
@@ -107,6 +87,21 @@ Retrieve the menu items for the context menu, obtained by a right mouse click.
 </tr>
 </table>
  
+
+
+### -param lpImeParentMenu [out, optional]
+
+Pointer to an <a href="https://msdn.microsoft.com/2e00993f-6720-4139-8097-a3d830e661ca">IMEMENUITEMINFO</a> structure in which the function retrieves parent menu information. To retrieve information about the submenu items of this parent menu, the application sets the <b>fType</b> member to MFT_SUBMENU. This parameter contains <b>NULL</b> if the function retrieves only top-level menu items.
+
+
+### -param lpImeMenu [out, optional]
+
+Pointer to an array of <a href="https://msdn.microsoft.com/2e00993f-6720-4139-8097-a3d830e661ca">IMEMENUITEMINFO</a> structures in which the function retrieves information about the menu items. This parameter contains <b>NULL</b> if the function retrieves the number of registered menu items.
+
+
+### -param dwSize [in]
+
+Size of the buffer to receive the <a href="https://msdn.microsoft.com/2e00993f-6720-4139-8097-a3d830e661ca">IMEMENUITEMINFO</a> structure.
 
 
 #### - dwType [in]
@@ -190,11 +185,6 @@ Retrieve the menu items that control menu items related to IME input tools provi
 </tr>
 </table>
  
-
-
-#### - hIMC [in]
-
-Handle to the input context for the specified menu items.
 
 
 ## -returns

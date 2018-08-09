@@ -4,10 +4,10 @@ title: "_VDS_PROVIDER_PROP"
 author: windows-sdk-content
 description: Defines the properties of a provider object.
 old-location: base\vds_provider_prop.htm
-old-project: VDS
+old-project: vds
 ms.assetid: f41fc908-3720-4dfb-a5d3-bb1459fb7e5d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: VDS_PROVIDER_PROP, VDS_PROVIDER_PROP structure [VDS], _VDS_PROVIDER_PROP, base.vds_provider_prop, vds/_VDS_PROVIDER_PROP, vdshwprv/_VDS_PROVIDER_PROP
 ms.prod: windows
 ms.technology: windows-sdk

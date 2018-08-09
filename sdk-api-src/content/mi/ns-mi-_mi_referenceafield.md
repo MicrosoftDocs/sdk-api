@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_referenceafield.htm
 old-project: wmi_v2
 ms.assetid: 4ccf96f4-4662-4f1d-96d7-650faeff800f
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_ReferenceAField, MI_ReferenceAField structure [Windows Management Infrastructure (MI)], _MI_ReferenceAField, mi/MI_ReferenceAField, wmi._mi_referenceafield, wmi_v2.mi_referenceafield
 ms.prod: windows
 ms.technology: windows-sdk

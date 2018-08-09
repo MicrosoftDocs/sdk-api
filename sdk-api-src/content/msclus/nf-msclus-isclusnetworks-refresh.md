@@ -7,7 +7,7 @@ old-location: mscs\clusnetworks_refresh.htm
 old-project: mscs
 ms.assetid: 0ccd6e02-28b5-4490-9d7f-bfa3809d23db
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusNetworks collection [Failover Cluster],Refresh method, ClusNetworks.Refresh, ISClusNetworks.Refresh, ISClusNetworks::Refresh, Refresh, Refresh method [Failover Cluster], Refresh method [Failover Cluster],ClusNetworks collection, _wolf_clusnetworks.refresh, mscs.clusnetworks_refresh
 ms.prod: windows
 ms.technology: windows-sdk

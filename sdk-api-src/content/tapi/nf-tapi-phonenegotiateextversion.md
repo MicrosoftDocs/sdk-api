@@ -4,10 +4,10 @@ title: phoneNegotiateExtVersion function
 author: windows-sdk-content
 description: The phoneNegotiateExtVersion function allows an application to negotiate an extension version to use with the specified phone device. This operation need not be called if the application does not support extensions.
 old-location: tapi2\phonenegotiateextversion.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: f62aa1da-7256-400a-998d-4c24d01989ec
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: "_tapi2_phonenegotiateextversion, phoneNegotiateExtVersion, phoneNegotiateExtVersion function [TAPI 2.2], tapi/phoneNegotiateExtVersion, tapi2.phonenegotiateextversion"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\ix509attributeclientid.htm
 old-project: seccertenroll
 ms.assetid: 82b773e3-7d47-4c85-a6b3-c8ef3e67630a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509AttributeClientId, IX509AttributeClientId interface [Security], IX509AttributeClientId interface [Security],described, certenroll/IX509AttributeClientId, security.ix509attributeclientid
 ms.prod: windows
 ms.technology: windows-sdk

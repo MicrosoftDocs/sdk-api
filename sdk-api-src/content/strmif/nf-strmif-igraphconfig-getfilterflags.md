@@ -7,7 +7,7 @@ old-location: dshow\igraphconfig_getfilterflags.htm
 old-project: DirectShow
 ms.assetid: 747c3865-1969-45e8-a2c9-dbd72a9ea463
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: GetFilterFlags, GetFilterFlags method [DirectShow], GetFilterFlags method [DirectShow],IGraphConfig interface, IGraphConfig interface [DirectShow],GetFilterFlags method, IGraphConfig.GetFilterFlags, IGraphConfig::GetFilterFlags, IGraphConfigGetFilterFlags, dshow.igraphconfig_getfilterflags, strmif/IGraphConfig::GetFilterFlags
 ms.prod: windows
 ms.technology: windows-sdk

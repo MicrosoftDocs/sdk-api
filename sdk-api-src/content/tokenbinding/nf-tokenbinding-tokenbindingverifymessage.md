@@ -4,10 +4,10 @@ title: TokenBindingVerifyMessage function
 author: windows-sdk-content
 description: Validates the token binding message and verifies the token bindings that the message contains.
 old-location: security\tokenbindingverifymessage.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: D6827DA3-75DC-4F31-B57A-4ED5B5F03112
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TokenBindingVerifyMessage, TokenBindingVerifyMessage function [Security], security.tokenbindingverifymessage, tokenbinding/TokenBindingVerifyMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,14 +75,14 @@ The size of the buffer that the <i>tokenBindingMessage</i> parameter points to, 
 The negotiated key algorithm to use. Use a value from the list of key types that you retrieved by calling the <a href="https://msdn.microsoft.com/8ABAC0AF-AF68-4742-9C36-3FB17D303409">TokenBindingGetKeyTypesServer</a> function.
 
 
-### -param tlsEKM
+### -param tlsEKM [in]
 
-TBD
+A pointer to a buffer that contains unique data.
 
 
-### -param tlsEKMSize
+### -param tlsEKMSize [in]
 
-TBD
+The size of the buffer that the <i>tlsUnique</i> parameter points to, in bytes.
 
 
 ### -param resultList [out]
@@ -90,16 +90,6 @@ TBD
 A pointer that receives the address for the buffer that contains the results for each of the token bindings that <b>TokenBindingVerifyMessage</b>   verifies.
 
 In user mode, use <a href="https://msdn.microsoft.com/9a176312-0312-4cc1-baf5-949b346d983e">HeapAlloc</a> to allocate the memory for the buffer, and <a href="https://msdn.microsoft.com/6139e55f-9dda-42b5-bc9b-8d9bbfeaa619">HeapFree</a> to free that memory. In kernel mode, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>  to allocate the memory for the buffer, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a> to free that memory.
-
-
-#### - tlsUnique [in]
-
-A pointer to a buffer that contains unique data.
-
-
-#### - tlsUniqueSize [in]
-
-The size of the buffer that the <i>tlsUnique</i> parameter points to, in bytes.
 
 
 ## -returns

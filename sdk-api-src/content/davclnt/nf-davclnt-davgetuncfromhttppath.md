@@ -7,7 +7,7 @@ old-location: webdav\davgetuncfromhttppath.htm
 old-project: webdav
 ms.assetid: e9613e4a-5ba1-4954-bc7a-7843249f031e
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 08/06/2018
 ms.keywords: DavGetUNCFromHTTPPath, DavGetUNCFromHTTPPath function [WebDAV], davclnt/DavGetUNCFromHTTPPath, webdav.davgetuncfromhttppath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,22 +60,7 @@ Converts the specified HTTP path to an equivalent UNC path.
 
 
 
-### -param Url
-
-TBD
-
-
-### -param UncPath [out]
-
-A pointer to a caller-allocated buffer  that receives the UNC path as a <b>null</b>-terminated Unicode string.
-
-
-### -param lpSize [in, out]
-
-A pointer to a variable that on input specifies the maximum size, in Unicode characters, of the buffer that the <i>UncPath</i> parameter points to. If the function succeeds, on output the variable receives the number of characters that were copied into the buffer, including the terminating <b>NULL</b> character. If the function fails with ERROR_INSUFFICIENT_BUFFER, on output the variable receives the number of characters needed to store the UNC path, including the terminating <b>NULL</b> character.
-
-
-#### - HttpPath [in]
+### -param Url [in]
 
 A pointer to a <b>null</b>-terminated Unicode string that contains the HTTP path. This string can be in any of the following formats, where <i>server</i> is the server name and <i>path</i> is the path to a remote file or directory on the server:
 
@@ -91,6 +76,16 @@ A pointer to a <b>null</b>-terminated Unicode string that contains the HTTP path
 <li>\\<i>server</i>\<i>path</i></li>
 <li>\\<i>server</i></li>
 </ul>
+
+### -param UncPath [out]
+
+A pointer to a caller-allocated buffer  that receives the UNC path as a <b>null</b>-terminated Unicode string.
+
+
+### -param lpSize [in, out]
+
+A pointer to a variable that on input specifies the maximum size, in Unicode characters, of the buffer that the <i>UncPath</i> parameter points to. If the function succeeds, on output the variable receives the number of characters that were copied into the buffer, including the terminating <b>NULL</b> character. If the function fails with ERROR_INSUFFICIENT_BUFFER, on output the variable receives the number of characters needed to store the UNC path, including the terminating <b>NULL</b> character.
+
 
 ## -returns
 

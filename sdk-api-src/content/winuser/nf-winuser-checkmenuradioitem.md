@@ -7,7 +7,7 @@ old-location: menurc\checkmenuradioitem.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\checkmenuradioitem.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CheckMenuRadioItem, CheckMenuRadioItem function [Menus and Other Resources], _win32_CheckMenuRadioItem, _win32_checkmenuradioitem_cpp, menurc.checkmenuradioitem, winui._win32_checkmenuradioitem, winuser/CheckMenuRadioItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,50 +70,28 @@ Type: <b>HMENU</b>
 A handle to the menu that contains the group of menu items. 
 
 
-### -param first
-
-TBD
-
-
-### -param last
-
-TBD
-
-
-### -param check
-
-TBD
-
-
-### -param flags
-
-TBD
-
-
-
-
-#### - idCheck [in]
-
-Type: <b>UINT</b>
-
-The identifier or position of the menu item to check. 
-
-
-#### - idFirst [in]
+### -param first [in]
 
 Type: <b>UINT</b>
 
 The identifier or position of the first menu item in the group. 
 
 
-#### - idLast [in]
+### -param last [in]
 
 Type: <b>UINT</b>
 
 The identifier or position of the last menu item in the group. 
 
 
-#### - uFlags [in]
+### -param check [in]
+
+Type: <b>UINT</b>
+
+The identifier or position of the menu item to check. 
+
+
+### -param flags [in]
 
 Type: <b>UINT</b>
 

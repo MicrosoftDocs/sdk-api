@@ -7,7 +7,7 @@ old-location: mstv\idvb_sdt_getrecordeitpresentfollowingflag.htm
 old-project: mstv
 ms.assetid: 93dba50a-c2a5-468d-851a-c43cd986d3ef
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordEITPresentFollowingFlag, GetRecordEITPresentFollowingFlag method [Microsoft TV Technologies], GetRecordEITPresentFollowingFlag method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetRecordEITPresentFollowingFlag method, IDVB_SDT.GetRecordEITPresentFollowingFlag, IDVB_SDT::GetRecordEITPresentFollowingFlag, IDVB_SDTGetRecordEITPresentFollowingFlag, dvbsiparser/IDVB_SDT::GetRecordEITPresentFollowingFlag, mstv.idvb_sdt_getrecordeitpresentfollowingflag
 ms.prod: windows
 ms.technology: windows-sdk

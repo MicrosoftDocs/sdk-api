@@ -7,7 +7,7 @@ old-location: mf\imfprotectedenvironmentaccess_call.htm
 old-project: medfound
 ms.assetid: 805473c4-a2c9-483a-9a2c-29a9c63dd58c
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: Call, Call method [Media Foundation], Call method [Media Foundation],IMFProtectedEnvironmentAccess interface, IMFProtectedEnvironmentAccess interface [Media Foundation],Call method, IMFProtectedEnvironmentAccess.Call, IMFProtectedEnvironmentAccess::Call, mf.imfprotectedenvironmentaccess_call, mfidl/IMFProtectedEnvironmentAccess::Call
 ms.prod: windows
 ms.technology: windows-sdk

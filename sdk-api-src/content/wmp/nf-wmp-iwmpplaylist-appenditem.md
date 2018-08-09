@@ -7,7 +7,7 @@ old-location: wmp\iwmpplaylist_appenditem.htm
 old-project: WMP
 ms.assetid: e6db41d8-a4d5-4cab-9612-0562f3e92c25
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],appendItem method, IWMPPlaylist.appendItem, IWMPPlaylist::appendItem, IWMPPlaylistappendItem, appendItem, appendItem method [Windows Media Player], appendItem method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_appenditem, wmp/IWMPPlaylist::appendItem
 ms.prod: windows
 ms.technology: windows-sdk

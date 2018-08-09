@@ -7,7 +7,7 @@ old-location: wmi\wbemauthenticationlevelenum.htm
 old-project: WmiSdk
 ms.assetid: 1789b25a-e9a0-42a3-97c2-077e902a2f41
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: WbemAuthenticationLevelCall, WbemAuthenticationLevelConnect, WbemAuthenticationLevelDefault, WbemAuthenticationLevelEnum, WbemAuthenticationLevelEnum enumeration [Windows Management Instrumentation], WbemAuthenticationLevelNone, WbemAuthenticationLevelPkt, WbemAuthenticationLevelPktIntegrity, WbemAuthenticationLevelPktPrivacy, _hmm_wbemauthenticationlevelenum, wbemdisp/WbemAuthenticationLevelCall, wbemdisp/WbemAuthenticationLevelConnect, wbemdisp/WbemAuthenticationLevelDefault, wbemdisp/WbemAuthenticationLevelEnum, wbemdisp/WbemAuthenticationLevelNone, wbemdisp/WbemAuthenticationLevelPkt, wbemdisp/WbemAuthenticationLevelPktIntegrity, wbemdisp/WbemAuthenticationLevelPktPrivacy, wmi.wbemauthenticationlevelenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -134,20 +134,6 @@ The following WSH script sets the authentication level. To run the script, save 
 
 
 
-#### - WbemAuthenticationLevelCall
-
-Short name: Call
-
-Authenticates only at the beginning of each call when the server receives the request.
-
-
-#### - WbemAuthenticationLevelConnect
-
-Short name: Connect
-
-Authenticates the credentials of the client only when the client establishes a relationship with the server.
-
-
 #### - WbemAuthenticationLevelDefault
 
 Short name: Default
@@ -160,6 +146,20 @@ WMI uses the default Windows Authentication setting.
 Short name: None
 
 Uses no authentication.
+
+
+#### - WbemAuthenticationLevelConnect
+
+Short name: Connect
+
+Authenticates the credentials of the client only when the client establishes a relationship with the server.
+
+
+#### - WbemAuthenticationLevelCall
+
+Short name: Call
+
+Authenticates only at the beginning of each call when the server receives the request.
 
 
 #### - WbemAuthenticationLevelPkt

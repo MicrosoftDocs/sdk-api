@@ -7,7 +7,7 @@ old-location: controls\HDLAYOUT.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\header\structures\hdlayout.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPHDLAYOUT, HDLAYOUT, HDLAYOUT structure [Windows Controls], LPHDLAYOUT, LPHDLAYOUT structure pointer [Windows Controls], _HD_LAYOUT, _win32_HDLAYOUT, _win32_HDLAYOUT_cpp, commctrl/HDLAYOUT, commctrl/LPHDLAYOUT, controls.HDLAYOUT, controls._win32_HDLAYOUT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information used to set the size and position of a header control. <b>HDLAYOUT</b> is used with the <a href="https://msdn.microsoft.com/library/Bb775353(v=VS.85).aspx">HDM_LAYOUT</a> message. This structure supersedes the 
+Contains information used to set the size and position of a header control. <b>HDLAYOUT</b> is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb775353(v=VS.85).aspx">HDM_LAYOUT</a> message. This structure supersedes the 
 			<b>HD_LAYOUT</b> structure. 
 
 
@@ -68,7 +68,7 @@ Structure that contains the coordinates of a rectangle that the header control w
 
 ### -field pwpos
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms632612(v=VS.85).aspx">WINDOWPOS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms632612(v=VS.85).aspx">WINDOWPOS</a>*</b>
 
 Structure that receives information about the appropriate size and position of the header control. 
 

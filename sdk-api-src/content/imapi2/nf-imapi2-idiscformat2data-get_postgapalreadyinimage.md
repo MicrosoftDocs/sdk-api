@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2data_get_postgapalreadyinimage.htm
 old-project: imapi
 ms.assetid: 4f4423b8-8cda-4ef2-a8f6-4ef7e147bf6b
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_PostgapAlreadyInImage method, IDiscFormat2Data.get_PostgapAlreadyInImage, IDiscFormat2Data::get_PostgapAlreadyInImage, get_PostgapAlreadyInImage, get_PostgapAlreadyInImage method [IMAPI], get_PostgapAlreadyInImage method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_postgapalreadyinimage, imapi2/IDiscFormat2Data::get_PostgapAlreadyInImage
 ms.prod: windows
 ms.technology: windows-sdk

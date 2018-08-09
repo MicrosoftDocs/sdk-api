@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_Rect_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectconstructors\rect_36.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Rect, Rect class [GDI+],Rect constructor, Rect constructor [GDI+], Rect constructor [GDI+],Rect class, Rect.Rect, Rect.Rect(), Rect.Rect(IN INT,IN INT,IN INT,IN INT), Rect::Rect, Rect::Rect(IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_Rect_Rect_, gdiplus._gdiplus_CLASS_Rect_Rect_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ Creates a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234"
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
 
 
 
@@ -94,15 +94,15 @@ Creates a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234"
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534960(v=VS.85).aspx">Rect Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534960(v=VS.85).aspx">Rect Constructors</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
  
 
  

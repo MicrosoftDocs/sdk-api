@@ -7,7 +7,7 @@ old-location: p2p\peerdistclientflushcontent.htm
 old-project: p2psdk
 ms.assetid: bb77499b-520b-4def-97d8-504983953d4b
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerDistClientFlushContent, PeerDistClientFlushContent function [Peer Networking], p2p.peerdistclientflushcontent, peerdist/PeerDistClientFlushContent
 ms.prod: windows
 ms.technology: windows-sdk

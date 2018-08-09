@@ -7,7 +7,7 @@ old-location: mscs\clusrestypes_item.htm
 old-project: mscs
 ms.assetid: 09535510-1824-4491-a638-04ffe944e932
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusResTypes collection [Failover Cluster],Item property, ClusResTypes.Item, ISClusResTypes.get_Item, ISClusResTypes::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ClusResTypes collection, _wolf_clusrestypes.item, get_Item, mscs.clusrestypes_item
 ms.prod: windows
 ms.technology: windows-sdk

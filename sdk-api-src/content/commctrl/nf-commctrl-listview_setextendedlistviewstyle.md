@@ -7,7 +7,7 @@ old-location: controls\ListView_SetExtendedListViewStyle.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setextendedlistviewstyle.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_SetExtendedListViewStyle, ListView_SetExtendedListViewStyle macro [Windows Controls], _win32_ListView_SetExtendedListViewStyle, _win32_ListView_SetExtendedListViewStyle_cpp, commctrl/ListView_SetExtendedListViewStyle, controls.ListView_SetExtendedListViewStyle, controls._win32_ListView_SetExtendedListViewStyle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets extended styles for list-view controls. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761165(v=VS.85).aspx">LVM_SETEXTENDEDLISTVIEWSTYLE</a> message explicitly.
+Sets extended styles for list-view controls. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761165(v=VS.85).aspx">LVM_SETEXTENDEDLISTVIEWSTYLE</a> message explicitly.
 
 
 ## -parameters
@@ -67,18 +67,9 @@ A handle to the list-view control that will receive the style change.
 
 ### -param dw
 
-TBD
-
-
-
-
-
-
-#### - dwExStyle
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-A <b>DWORD</b> value that specifies the extended list-view control style. This parameter can be a combination of <a href="https://msdn.microsoft.com/library/Bb774732(v=VS.85).aspx">Extended List-View Styles</a>. 
+A <b>DWORD</b> value that specifies the extended list-view control style. This parameter can be a combination of <a href="https://msdn.microsoft.com/en-us/library/Bb774732(v=VS.85).aspx">Extended List-View Styles</a>. 
 
 
 ## -remarks
@@ -86,11 +77,10 @@ A <b>DWORD</b> value that specifies the extended list-view control style. This p
 
 
 For backward compatibility reasons, the <b>ListView_SetExtendedListViewStyle</b> macro has not been updated to use 
-<i>dwExMask</i>. To use the <i>dwExMask</i>
-value, use the <a href="https://msdn.microsoft.com/library/Bb775077(v=VS.85).aspx">ListView_SetExtendedListViewStyleEx</a> macro. 
+<i>dwExMask</i>. To use the <i>dwExMask</i>value, use the <a href="https://msdn.microsoft.com/en-us/library/Bb775077(v=VS.85).aspx">ListView_SetExtendedListViewStyleEx</a> macro. 
 
-When you use this macro to set the <a href="https://msdn.microsoft.com/library/Bb774732(v=VS.85).aspx">LVS_EX_CHECKBOXES</a> style, any previously set state image index will be discarded. All check boxes will be initialized to the unchecked state. The state image index is contained in bits 12 through 15 of the 
-<b>state</b> member of the <a href="https://msdn.microsoft.com/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure.
+When you use this macro to set the <a href="Extended_list_view_styles.htm">LVS_EX_CHECKBOXES</a> style, any previously set state image index will be discarded. All check boxes will be initialized to the unchecked state. The state image index is contained in bits 12 through 15 of the 
+<b>state</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure.
 
 
 

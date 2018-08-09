@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacherecord_isfilevalidated.htm
 old-project: bits
 ms.assetid: f492f009-bef7-412e-8626-ae84cd5ce03f
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IBitsPeerCacheRecord interface [BITS],IsFileValidated method, IBitsPeerCacheRecord.IsFileValidated, IBitsPeerCacheRecord::IsFileValidated, IsFileValidated, IsFileValidated method [BITS], IsFileValidated method [BITS],IBitsPeerCacheRecord interface, bits.ibitspeercacherecord_isfilevalidated, bits3_0/IBitsPeerCacheRecord::IsFileValidated
 ms.prod: windows
 ms.technology: windows-sdk

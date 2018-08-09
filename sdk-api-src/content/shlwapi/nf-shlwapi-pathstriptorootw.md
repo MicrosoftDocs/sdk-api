@@ -7,7 +7,7 @@ old-location: shell\PathStripToRoot.htm
 old-project: shell
 ms.assetid: ce9a1a40-2a03-44d2-80bc-0dc10654550b
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PathStripToRoot, PathStripToRoot function [Windows Shell], PathStripToRootA, PathStripToRootW, _win32_PathStripToRoot, shell.PathStripToRoot, shlwapi/PathStripToRoot, shlwapi/PathStripToRootA, shlwapi/PathStripToRootW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,7 @@ Removes all file and directory elements in a path except for the root informatio
 
 
 
-### -param pszPath
-
-TBD
-
-
-
-
-#### - szRoot [in, out]
+### -param pszPath [in, out]
 
 Type: <b>LPTSTR</b>
 

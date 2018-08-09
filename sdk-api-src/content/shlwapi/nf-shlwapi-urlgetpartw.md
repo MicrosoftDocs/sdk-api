@@ -7,7 +7,7 @@ old-location: shell\UrlGetPart.htm
 old-project: shell
 ms.assetid: 5f43dedd-c543-46b2-b90e-f0af576d2605
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: URL_PARTFLAG_KEEPSCHEME, URL_PART_HOSTNAME, URL_PART_PASSWORD, URL_PART_PORT, URL_PART_QUERY, URL_PART_SCHEME, URL_PART_USERNAME, UrlGetPart, UrlGetPart function [Windows Shell], UrlGetPartA, UrlGetPartW, _win32_UrlGetPart, shell.UrlGetPart, shlwapi/UrlGetPart, shlwapi/UrlGetPartA, shlwapi/UrlGetPartW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -142,11 +142,6 @@ A flag that can be set to keep the URL scheme, in addition to the part that is s
 Keep the URL scheme.
 
 
-##### - dwFlags.URL_PARTFLAG_KEEPSCHEME
-
-Keep the URL scheme.
-
-
 ##### - dwPart.URL_PART_HOSTNAME
 
 The host name.
@@ -175,6 +170,11 @@ The URL scheme.
 ##### - dwPart.URL_PART_USERNAME
 
 The username.
+
+
+##### - dwFlags.URL_PARTFLAG_KEEPSCHEME
+
+Keep the URL scheme.
 
 
 ## -returns

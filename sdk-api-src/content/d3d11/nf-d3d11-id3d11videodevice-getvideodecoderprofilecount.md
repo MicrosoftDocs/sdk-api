@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice_getvideodecoderprofilecount.htm
 old-project: medfound
 ms.assetid: 6DCAD69B-3C00-4B3A-97AA-69DF26EF5CD4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetVideoDecoderProfileCount, GetVideoDecoderProfileCount method [Media Foundation], GetVideoDecoderProfileCount method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],GetVideoDecoderProfileCount method, ID3D11VideoDevice.GetVideoDecoderProfileCount, ID3D11VideoDevice::GetVideoDecoderProfileCount, d3d11/ID3D11VideoDevice::GetVideoDecoderProfileCount, mf.id3d11videodevice_getvideodecoderprofilecount
 ms.prod: windows
 ms.technology: windows-sdk

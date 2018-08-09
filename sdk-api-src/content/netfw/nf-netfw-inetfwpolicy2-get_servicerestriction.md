@@ -7,7 +7,7 @@ old-location: ics\inetfwpolicy2_servicerestriction.htm
 old-project: ics
 ms.assetid: cc62b295-23b5-40e8-a43a-1b4b67ac0f83
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],ServiceRestriction property, INetFwPolicy2.ServiceRestriction, INetFwPolicy2.get_ServiceRestriction, INetFwPolicy2::ServiceRestriction, INetFwPolicy2::get_ServiceRestriction, ServiceRestriction property [ICS/ICF], ServiceRestriction property [ICS/ICF],INetFwPolicy2 interface, get_ServiceRestriction, ics.inetfwpolicy2_servicerestriction, netfw/INetFwPolicy2::ServiceRestriction, netfw/INetFwPolicy2::get_ServiceRestriction
 ms.prod: windows
 ms.technology: windows-sdk

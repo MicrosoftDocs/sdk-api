@@ -7,7 +7,7 @@ old-location: search\_search_ISearchManager.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\isearchmanager.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchManager, ISearchManager interface [search], ISearchManager interface [search],described, _search_ISearchManager, search._search_ISearchManager, searchapi/ISearchManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-            Provides methods for controlling the Search service. This interface manages settings and objects that affect the search engine across catalogs.
+Provides methods for controlling the Search service. This interface manages settings and objects that affect the search engine across catalogs.
         
 
 
@@ -73,81 +72,75 @@ The <b>ISearchManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231479(v=VS.85).aspx">get_BypassList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231479(v=VS.85).aspx">get_BypassList</a>
 </td>
 <td align="left" width="63%">
-Gets a proxy bypass list from the indexer. This list is used to determine which items or URLs are local and do not need to go through the proxy server. This list is set by calling <a href="https://msdn.microsoft.com/library/Bb231488(v=VS.85).aspx">ISearchManager::SetProxy</a>.
+Gets a proxy bypass list from the indexer. This list is used to determine which items or URLs are local and do not need to go through the proxy server. This list is set by calling <a href="https://msdn.microsoft.com/en-us/library/Bb231488(v=VS.85).aspx">ISearchManager::SetProxy</a>.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231480(v=VS.85).aspx">get_LocalBypass</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231480(v=VS.85).aspx">get_LocalBypass</a>
 </td>
 <td align="left" width="63%">
-
-            Retrieves a value that determines whether the proxy server should be bypassed to find the item or URL.
+Retrieves a value that determines whether the proxy server should be bypassed to find the item or URL.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231481(v=VS.85).aspx">get_PortNumber</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231481(v=VS.85).aspx">get_PortNumber</a>
 </td>
 <td align="left" width="63%">
-
-            Retrieves the port number used to communicate with the proxy server. This port number is stored in the indexer and is set by the <a href="https://msdn.microsoft.com/library/Bb231488(v=VS.85).aspx">ISearchManager::SetProxy</a> method.
+Retrieves the port number used to communicate with the proxy server. This port number is stored in the indexer and is set by the <a href="https://msdn.microsoft.com/en-us/library/Bb231488(v=VS.85).aspx">ISearchManager::SetProxy</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231482(v=VS.85).aspx">get_ProxyName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231482(v=VS.85).aspx">get_ProxyName</a>
 </td>
 <td align="left" width="63%">
-
-            Retrieves the proxy name to be used by the protocol handler.
+Retrieves the proxy name to be used by the protocol handler.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231483(v=VS.85).aspx">get_UseProxy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231483(v=VS.85).aspx">get_UseProxy</a>
 </td>
 <td align="left" width="63%">
-
-            Retrieves the proxy server to be used.
+Retrieves the proxy server to be used.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231484(v=VS.85).aspx">get_UserAgent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231484(v=VS.85).aspx">get_UserAgent</a>
 </td>
 <td align="left" width="63%">
-
-            Retrieves the user agent string.
+Retrieves the user agent string.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231475(v=VS.85).aspx">GetCatalog</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231475(v=VS.85).aspx">GetCatalog</a>
 </td>
 <td align="left" width="63%">
-
-            Retrieves a catalog by name and creates a new <a href="https://msdn.microsoft.com/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a> object for that catalog.
+Retrieves a catalog by name and creates a new <a href="https://msdn.microsoft.com/en-us/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a> object for that catalog.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231476(v=VS.85).aspx">GetIndexerVersion</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231476(v=VS.85).aspx">GetIndexerVersion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the version of the current indexer in two chunks: the major version signifier and the minor version signifier.
@@ -156,7 +149,7 @@ Retrieves the version of the current indexer in two chunks: the major version si
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231477(v=VS.85).aspx">GetIndexerVersionStr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231477(v=VS.85).aspx">GetIndexerVersionStr</a>
 </td>
 <td align="left" width="63%">
 Retrieves the version of the current indexer as a single string.
@@ -165,7 +158,7 @@ Retrieves the version of the current indexer as a single string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231478(v=VS.85).aspx">GetParameter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231478(v=VS.85).aspx">GetParameter</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -174,18 +167,17 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231486(v=VS.85).aspx">put_UserAgent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231486(v=VS.85).aspx">put_UserAgent</a>
 </td>
 <td align="left" width="63%">
-
-            Sets the user agent string that a user agent passes to website and services to identify itself. 
+Sets the user agent string that a user agent passes to website and services to identify itself. 
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231487(v=VS.85).aspx">SetParameter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231487(v=VS.85).aspx">SetParameter</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -194,7 +186,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231488(v=VS.85).aspx">SetProxy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231488(v=VS.85).aspx">SetProxy</a>
 </td>
 <td align="left" width="63%">
 Stores information in the indexer that determines how the indexer will work and communicate with a proxy server.

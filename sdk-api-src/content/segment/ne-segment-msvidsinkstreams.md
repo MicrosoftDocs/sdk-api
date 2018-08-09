@@ -7,7 +7,7 @@ old-location: mstv\msvidsinkstreams.htm
 old-project: mstv
 ms.assetid: 11738d9f-25b1-4903-94a4-145202a81380
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: Audio, MSVidSinkStreams, MSVidSinkStreams enumeration [Microsoft TV Technologies], MSVidSinkStreamsEnumeration, Other, Video, mstv.msvidsinkstreams, segment/Audio, segment/MSVidSinkStreams, segment/Other, segment/Video
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,6 +76,11 @@ The <b>MSVidSinkStreams</b> enumeration defines the stream types for a generic s
 
 
 
+#### - Video
+
+Indicates a video steam.
+
+
 #### - Audio
 
 Indicates an audio stream.
@@ -84,11 +89,6 @@ Indicates an audio stream.
 #### - Other
 
 Indicates a stream that is neither video nor audio.
-
-
-#### - Video
-
-Indicates a video steam.
 
 
 ## -see-also

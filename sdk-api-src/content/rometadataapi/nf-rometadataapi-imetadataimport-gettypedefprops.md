@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_gettypedefprops.htm
 old-project: WinRT
 ms.assetid: 447937af-5edb-4e5e-89a1-13d1a733b3f7
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetTypeDefProps, GetTypeDefProps method [Windows Runtime], GetTypeDefProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetTypeDefProps method, IMetaDataImport.GetTypeDefProps, IMetaDataImport::GetTypeDefProps, rometadataapi/IMetaDataImport::GetTypeDefProps, winrt.imetadataimport_gettypedefprops
 ms.prod: windows
 ms.technology: windows-sdk

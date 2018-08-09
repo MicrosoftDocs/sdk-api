@@ -7,7 +7,7 @@ old-location: mf\imfsensoractivityreport_getactivityreport.htm
 old-project: medfound
 ms.assetid: 6E8D7039-9CBF-45A0-8CAE-48F79091D40B
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetActivityReport, GetActivityReport method [Media Foundation], GetActivityReport method [Media Foundation],IMFSensorActivitiesReport interface, IMFSensorActivitiesReport interface [Media Foundation],GetActivityReport method, IMFSensorActivitiesReport.GetActivityReport, IMFSensorActivitiesReport::GetActivityReport, mf.imfsensoractivityreport_getactivityreport, mfidl/IMFSensorActivitiesReport::GetActivityReport
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ A pointer to the  <a href="https://msdn.microsoft.com/06612B8E-5C1E-487C-B6EF-15
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -92,8 +91,7 @@ A pointer to the  <a href="https://msdn.microsoft.com/06612B8E-5C1E-487C-B6EF-15
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>

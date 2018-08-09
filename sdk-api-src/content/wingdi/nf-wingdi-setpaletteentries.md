@@ -7,7 +7,7 @@ old-location: gdi\setpaletteentries.htm
 old-project: gdi
 ms.assetid: df38f482-75ba-4800-8b26-92204c63255e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetPaletteEntries, SetPaletteEntries function [Windows GDI], _win32_SetPaletteEntries, gdi.setpaletteentries, wingdi/SetPaletteEntries
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,14 +76,7 @@ The first logical-palette entry to be set.
 The number of logical-palette entries to be set.
 
 
-### -param pPalEntries
-
-TBD
-
-
-
-
-#### - lppe [in]
+### -param pPalEntries [in]
 
 A pointer to the first member of an array of <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structures containing the RGB values and flags.
 

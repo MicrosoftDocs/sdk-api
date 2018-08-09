@@ -7,7 +7,7 @@ old-location: gdi\getcurrentobject.htm
 old-project: gdi
 ms.assetid: d7e2310c-6a9e-4195-824c-1a83382a5c5b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetCurrentObject, GetCurrentObject function [Windows GDI], OBJ_BITMAP, OBJ_BRUSH, OBJ_COLORSPACE, OBJ_FONT, OBJ_PAL, OBJ_PEN, _win32_GetCurrentObject, gdi.getcurrentobject, wingdi/GetCurrentObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,7 @@ The <b>GetCurrentObject</b> function retrieves a handle to an object of the spec
 A handle to the DC.
 
 
-### -param type
-
-TBD
-
-
-
-
-#### - uObjectType [in]
+### -param type [in]
 
 The object type to be queried. This parameter can be one of the following values.
 

@@ -7,7 +7,7 @@ old-location: gdi\getrasterizercaps.htm
 old-project: gdi
 ms.assetid: 0898d1c0-5480-4bd2-aa45-918340172a05
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetRasterizerCaps, GetRasterizerCaps function [Windows GDI], _win32_GetRasterizerCaps, gdi.getrasterizercaps, wingdi/GetRasterizerCaps
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,26 +61,14 @@ The <b>GetRasterizerCaps</b> function returns flags indicating whether TrueType 
 
 
 
-### -param lpraststat
-
-TBD
-
-
-### -param cjBytes
-
-TBD
-
-
-
-
-#### - cb [in]
-
-The number of bytes to be copied into the structure pointed to by the <i>lprs</i> parameter.
-
-
-#### - lprs [out]
+### -param lpraststat [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/40bb4b59-90a4-4780-ae5f-fef8a6fa62cb">RASTERIZER_STATUS</a> structure that receives information about the rasterizer.
+
+
+### -param cjBytes [in]
+
+The number of bytes to be copied into the structure pointed to by the <i>lprs</i> parameter.
 
 
 ## -returns

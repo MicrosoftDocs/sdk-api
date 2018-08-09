@@ -7,7 +7,7 @@ old-location: dshow\videoinfo.htm
 old-project: DirectShow
 ms.assetid: f08a449c-fed4-400b-a2fc-817bd59ba3fd
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: VIDEOINFO, VIDEOINFO structure [DirectShow], VIDEOINFOStructure, amvideo/VIDEOINFO, dshow.videoinfo, tagVIDEOINFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,36 +65,31 @@ If you are writing a video filter, you can use this structure to guarantee that 
 
 ### -field rcSource
 
-
-            Portion of the input video to use.
+Portion of the input video to use.
           
 
 
 ### -field rcTarget
 
-
-            Where the video should be displayed.
+Where the video should be displayed.
           
 
 
 ### -field dwBitRate
 
-
-            Approximate data rate in bits per second.
+Approximate data rate in bits per second.
           
 
 
 ### -field dwBitErrorRate
 
-
-            Bit error rate for this stream.
+Bit error rate for this stream.
           
 
 
 ### -field AvgTimePerFrame
 
-
-            The desired average time per frame, in 100-nanosecond units. For more information, see the Remarks section for the <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> structure.
+The desired average time per frame, in 100-nanosecond units. For more information, see the Remarks section for the <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> structure.
           
 
 
@@ -107,15 +102,13 @@ If you are writing a video filter, you can use this structure to guarantee that 
 
 ### -field bmiColors
 
-
-              Array of Win32 <a href="https://msdn.microsoft.com/22e0991d-078e-4b44-9f03-004137e31f6c">RGBQUAD</a> structures that specifies the video's color palette. Each structure represents a single color, which is a combination of red, green, and blue intensities.
+Array of Win32 <a href="https://msdn.microsoft.com/22e0991d-078e-4b44-9f03-004137e31f6c">RGBQUAD</a> structures that specifies the video's color palette. Each structure represents a single color, which is a combination of red, green, and blue intensities.
             
 
 
 ### -field dwBitMasks
 
-
-              Array of <b>DWORD</b> values that specify true-color bitmasks.
+Array of <b>DWORD</b> values that specify true-color bitmasks.
             
 
 

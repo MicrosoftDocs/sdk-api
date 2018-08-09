@@ -7,7 +7,7 @@ old-location: mf\imfasfcontentinfo_setprofile.htm
 old-project: medfound
 ms.assetid: 7e7e062d-9507-400a-8cc2-5355c12017f5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: 7e7e062d-9507-400a-8cc2-5355c12017f5, IMFASFContentInfo interface [Media Foundation],SetProfile method, IMFASFContentInfo.SetProfile, IMFASFContentInfo::SetProfile, SetProfile, SetProfile method [Media Foundation], SetProfile method [Media Foundation],IMFASFContentInfo interface, mf.imfasfcontentinfo_setprofile, wmcontainer/IMFASFContentInfo::SetProfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MFASF_STREAMSELECTOR_FLAGS
+req.typenames: MFSINK_WMDRMACTION
 topic_type:
  - APIRef
  - kbSyntax

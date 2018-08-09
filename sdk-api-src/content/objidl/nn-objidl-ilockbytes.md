@@ -7,7 +7,7 @@ old-location: stg\ilockbytes.htm
 old-project: stg
 ms.assetid: bb2c5d0d-8dc8-4844-9a20-ef8e4def5731
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: ILockBytes, ILockBytes interface [Structured Storage], ILockBytes interface [Structured Storage],described, _stg_ilockbytes, objidl/ILockBytes, stg.ilockbytes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>ILockBytes</b> interface is implemented on a byte array object that is backed by some physical storage, such as a disk file, global memory, or a database. It is used by a COM compound file storage object to give its root storage access to the physical device, while isolating the root storage from the details of accessing the physical storage.
 
 

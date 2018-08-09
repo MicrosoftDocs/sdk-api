@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationelement2_currentflowsfrom.htm
 old-project: WinAuto
 ms.assetid: E3991700-444C-4673-96EE-E6112FBD7547
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CurrentFlowsFrom property [Windows Accessibility], CurrentFlowsFrom property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CurrentFlowsFrom property, IUIAutomationElement2.CurrentFlowsFrom, IUIAutomationElement2.get_CurrentFlowsFrom, IUIAutomationElement2::CurrentFlowsFrom, IUIAutomationElement2::get_CurrentFlowsFrom, IUIAutomationElement2::put_CurrentFlowsFrom, get_CurrentFlowsFrom, uiautomationclient/IUIAutomationElement2::CurrentFlowsFrom, uiautomationclient/IUIAutomationElement2::get_CurrentFlowsFrom, uiautomationclient/IUIAutomationElement2::put_CurrentFlowsFrom, winauto.uiauto_iuiautomationelement2_currentflowsfrom
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

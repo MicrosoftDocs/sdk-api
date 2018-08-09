@@ -7,7 +7,7 @@ old-location: wmi\ienumwbemclassobject.htm
 old-project: WmiSdk
 ms.assetid: 142ea48d-d47b-4b7b-ab84-049a54955488
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: IEnumWbemClassObject, IEnumWbemClassObject interface [Windows Management Instrumentation], IEnumWbemClassObject interface [Windows Management Instrumentation],described, _hmm_ienumwbemclassobject, wbemcli/IEnumWbemClassObject, wmi.ienumwbemclassobject
 ms.prod: windows
 ms.technology: windows-sdk

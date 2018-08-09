@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_HueSaturationLightness_HueSaturationLightne
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\huesaturationlightnessclass\huesaturationlightnessconstructors\huesaturationlightness.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: HueSaturationLightness, HueSaturationLightness class [GDI+],HueSaturationLightness constructor, HueSaturationLightness constructor [GDI+], HueSaturationLightness constructor [GDI+],HueSaturationLightness class, HueSaturationLightness.HueSaturationLightness, HueSaturationLightness::HueSaturationLightness, _gdiplus_CLASS_HueSaturationLightness_HueSaturationLightness_, gdiplus._gdiplus_CLASS_HueSaturationLightness_HueSaturationLightness_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/library/ms534461(v=VS.85).aspx">HueSaturationLightness</a> object. 
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534461(v=VS.85).aspx">HueSaturationLightness</a> object. 
 
 
 ## -parameters
@@ -66,15 +66,15 @@ Creates a <a href="https://msdn.microsoft.com/library/ms534461(v=VS.85).aspx">Hu
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534461(v=VS.85).aspx">HueSaturationLightness</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534461(v=VS.85).aspx">HueSaturationLightness</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535442(v=VS.85).aspx">HueSaturationLightness::SetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535442(v=VS.85).aspx">HueSaturationLightness::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534069(v=VS.85).aspx">HueSaturationLightnessParams</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534069(v=VS.85).aspx">HueSaturationLightnessParams</a>
  
 
  

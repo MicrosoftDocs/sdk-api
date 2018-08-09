@@ -7,7 +7,7 @@ old-location: rpc\ndrstubforwardingfunction.htm
 old-project: rpc
 ms.assetid: 05d69090-4274-4dad-8fef-89db247d0c09
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: NdrStubForwardingFunction, NdrStubForwardingFunction function [RPC], rpc.ndrstubforwardingfunction, rpcproxy/NdrStubForwardingFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,34 +59,24 @@ The <b>NdrStubForwardingFunction</b> function is the entry point for server-side
 
 
 
-### -param This
+### -param This [in]
 
-TBD
+Pointer to an instance of the CStdStubBuffer object, implementing <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a>, for the DCOM interface.  
 
 
 ### -param pChannel [in]
 
-Pointer to <a href="https://msdn.microsoft.com/library/ms679738(v=VS.85).aspx">IRpcChannelBuffer</a> for the DCOM interface, often provided by OLE. 
+Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms679738(v=VS.85).aspx">IRpcChannelBuffer</a> for the DCOM interface, often provided by OLE. 
 
 
-### -param pmsg
+### -param pmsg [in, out]
 
-TBD
+Pointer to an <a href="https://msdn.microsoft.com/fd014622-97b3-4f76-8bc3-10821aa3c46e">RPC_MESSAGE</a> structure that  contains information about the RPC request.
 
 
 ### -param pdwStubPhase [out]
 
 Pointer to a flag that tracks the current interpreter call's activity.
-
-
-#### - pMsg [in, out]
-
-Pointer to an <a href="https://msdn.microsoft.com/fd014622-97b3-4f76-8bc3-10821aa3c46e">RPC_MESSAGE</a> structure that  contains information about the RPC request.
-
-
-#### - pThis [in]
-
-Pointer to an instance of the CStdStubBuffer object, implementing <a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a>, for the DCOM interface.  
 
 
 ## -returns
@@ -157,8 +147,6 @@ HRESULT Operation();
 </td>
 </tr>
 </table></span></div>
-
-
 In this example, where <b>IFunctionSample</b> and <b>IOperation</b> are defined in different .idl files. <b>IFunctionSample</b> is the base interface and <b>IOperation</b> is the derived interface. <b>IOperation</b> can aggregate <b>IOperation</b> without implementing <b>IOperation::FunctionSample</b>. When the client calls <b>IOperation::FunctionSample</b>, in the server side, RPC forwards the call to <b>IFunctionSample:FunctionSample</b>.
 
 

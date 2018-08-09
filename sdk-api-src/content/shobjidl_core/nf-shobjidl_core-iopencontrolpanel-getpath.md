@@ -7,7 +7,7 @@ old-location: shell\IOpenControlPanel_GetPath.htm
 old-project: shell
 ms.assetid: 2043a56a-cc03-4b05-a746-de4d11ac02e7
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetPath, GetPath method [Windows Shell], GetPath method [Windows Shell],IOpenControlPanel interface, IOpenControlPanel interface [Windows Shell],GetPath method, IOpenControlPanel.GetPath, IOpenControlPanel::GetPath, _shell_IOpenControlPanel_GetPath, shell.IOpenControlPanel_GetPath, shobjidl_core/IOpenControlPanel::GetPath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,9 +111,7 @@ If <i>pszName</i> points to the item's canonical name or <b>GUID</b>, then the p
 </td>
 </tr>
 </table></span></div>
-
-                
-                If <i>pszName</i> is <b>NULL</b> then one of these two values is returned:
+If <i>pszName</i> is <b>NULL</b> then one of these two values is returned:
 
                 
 

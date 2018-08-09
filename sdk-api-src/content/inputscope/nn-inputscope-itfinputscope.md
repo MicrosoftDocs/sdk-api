@@ -7,7 +7,7 @@ old-location: tsf\ITfInputScope.htm
 old-project: TSF
 ms.assetid: b2a045dd-dc2c-489d-bcb9-80710faef9c2
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfInputScope, ITfInputScope interface [Text Services Framework], ITfInputScope interface [Text Services Framework],described, _tsf_itfinputscope_ref, inputscope/ITfInputScope, tsf.ITfInputScope
 ms.prod: windows
 ms.technology: windows-sdk

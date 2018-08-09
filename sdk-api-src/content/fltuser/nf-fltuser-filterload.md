@@ -7,7 +7,7 @@ old-location: ifsk\filterload.htm
 old-project: ifsk
 ms.assetid: 248e05e6-570a-45fc-8b63-16625ffda1dd
 ms.author: windowssdkdev
-ms.date: 04/17/2018
+ms.date: 08/06/2018
 ms.keywords: FilterLoad, FilterLoad function [Installable File System Drivers], FltWin32ApiRef_273c18c5-9474-4605-80a1-1bc4cb9e4e7b.xml, fltuser/FilterLoad, ifsk.filterload
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,8 +100,7 @@ No matching minifilter driver was found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>
-        HRESULT_FROM_WIN32 (ERROR_SERVICE_ALREADY_RUNNING)</b></b></dt>
+<dt><b><b>HRESULT_FROM_WIN32 (ERROR_SERVICE_ALREADY_RUNNING)</b></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -112,8 +111,7 @@ The minifilter driver is already running.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>
-        HRESULT_FROM_WIN32 (ERROR_BAD_EXE_FORMAT)</b></b></dt>
+<dt><b><b>HRESULT_FROM_WIN32 (ERROR_BAD_EXE_FORMAT)</b></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -124,8 +122,7 @@ The load image for the minifilter driver specified by <i>lpFilterName</i> is inv
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>
-        HRESULT_FROM_WIN32 (ERROR_BAD_DRIVER)</b></b></dt>
+<dt><b><b>HRESULT_FROM_WIN32 (ERROR_BAD_DRIVER)</b></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -136,8 +133,7 @@ The load image for the minifilter driver specified by <i>lpFilterName</i> is inv
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>
-        HRESULT_FROM_WIN32 (ERROR_INVALID_IMAGE_HASH)</b></b></dt>
+<dt><b><b>HRESULT_FROM_WIN32 (ERROR_INVALID_IMAGE_HASH)</b></b></dt>
 </dl>
 </td>
 <td width="60%">

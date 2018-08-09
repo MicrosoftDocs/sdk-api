@@ -7,7 +7,7 @@ old-location: rpc\rpcerroraddrecord.htm
 old-project: rpc
 ms.assetid: b82708ef-0760-49b0-87d2-3d55a07b351f
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcErrorAddRecord, RpcErrorAddRecord function [RPC], _rpc_rpcerroraddrecord, rpc.rpcerroraddrecord, rpcasync/RpcErrorAddRecord
 ms.prod: windows
 ms.technology: windows-sdk

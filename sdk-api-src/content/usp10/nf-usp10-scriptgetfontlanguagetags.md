@@ -7,7 +7,7 @@ old-location: intl\scriptgetfontlanguagetags.htm
 old-project: Intl
 ms.assetid: 554915f0-4bfc-4777-98cd-c2bee6ac4ef4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ScriptGetFontLanguageTags, ScriptGetFontLanguageTags function [Internationalization for Windows Applications], _win32_ScriptGetFontLanguageTags, intl.scriptgetfontlanguagetags, usp10/ScriptGetFontLanguageTags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,19 +89,14 @@ An <a href="https://msdn.microsoft.com/188ad9a1-e0eb-411f-b6df-8c394d122d6f">OPE
 The length of the array specified by <i>pLangSysTags</i>.
 
 
-### -param pLangsysTags
+### -param pLangsysTags [out]
 
-TBD
+Pointer to a buffer in which this function retrieves an array of <a href="https://msdn.microsoft.com/188ad9a1-e0eb-411f-b6df-8c394d122d6f">OPENTYPE_TAG</a> structures identifying the language tags matching input criteria.
 
 
 ### -param pcTags [out]
 
 Pointer to the number of elements in the language tag array.
-
-
-#### - pLangSysTags [out]
-
-Pointer to a buffer in which this function retrieves an array of <a href="https://msdn.microsoft.com/188ad9a1-e0eb-411f-b6df-8c394d122d6f">OPENTYPE_TAG</a> structures identifying the language tags matching input criteria.
 
 
 ## -returns

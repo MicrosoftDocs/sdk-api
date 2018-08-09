@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10query.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10query.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 44824060-7dfe-0b44-7549-6ab5b12a7e8f, ID3D10Query, ID3D10Query interface [Direct3D 10], ID3D10Query interface [Direct3D 10],described, d3d10/ID3D10Query, direct3d10.id3d10query
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ A query interface queries information from the GPU.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Query</b> interface inherits from <a href="https://msdn.microsoft.com/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous</a>. <b>ID3D10Query</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Query</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous</a>. <b>ID3D10Query</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID3D10Query</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173824(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173824(v=VS.85).aspx">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get a query description.
@@ -85,13 +85,13 @@ Get a query description.
 
 
 
-A query can be created with <a href="https://msdn.microsoft.com/library/Bb173553(v=VS.85).aspx">ID3D10Device::CreateQuery</a>.
+A query can be created with <a href="https://msdn.microsoft.com/en-us/library/Bb173553(v=VS.85).aspx">ID3D10Device::CreateQuery</a>.
 
-This interface inherits the functionality of an <a href="https://msdn.microsoft.com/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous Interface</a>.
+This interface inherits the functionality of an <a href="https://msdn.microsoft.com/en-us/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous Interface</a>.
 
-Query data is typically gathered by issuing an <a href="https://msdn.microsoft.com/library/Bb173501(v=VS.85).aspx">ID3D10Asynchronous::Begin</a> command, issuing some graphics commands, issuing an <a href="https://msdn.microsoft.com/library/Bb173502(v=VS.85).aspx">ID3D10Asynchronous::End</a> command, and then calling <a href="https://msdn.microsoft.com/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a> to get data about what happened in between the Begin and End calls. The data returned by GetData will be different depending on the type of query.
+Query data is typically gathered by issuing an <a href="https://msdn.microsoft.com/en-us/library/Bb173501(v=VS.85).aspx">ID3D10Asynchronous::Begin</a> command, issuing some graphics commands, issuing an <a href="https://msdn.microsoft.com/en-us/library/Bb173502(v=VS.85).aspx">ID3D10Asynchronous::End</a> command, and then calling <a href="https://msdn.microsoft.com/en-us/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a> to get data about what happened in between the Begin and End calls. The data returned by GetData will be different depending on the type of query.
 
-There are, however, some queries that do not require calls to Begin. For a list of possible queries see <a href="https://msdn.microsoft.com/library/Bb205335(v=VS.85).aspx">D3D10_QUERY</a>.
+There are, however, some queries that do not require calls to Begin. For a list of possible queries see <a href="https://msdn.microsoft.com/en-us/library/Bb205335(v=VS.85).aspx">D3D10_QUERY</a>.
 
 A query is typically executed as shown in the following code:
 
@@ -133,11 +133,11 @@ When using a query that does not require a call to Begin, it still requires a ca
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous</a>
  
 
  

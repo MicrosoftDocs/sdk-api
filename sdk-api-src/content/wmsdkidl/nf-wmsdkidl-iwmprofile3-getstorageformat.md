@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofile3_getstorageformat.htm
 old-project: wmformat
 ms.assetid: 42aea1df-63cd-4eda-86c8-3cebe92d5c82
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetStorageFormat, GetStorageFormat method [windows Media Format], GetStorageFormat method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetStorageFormat method, IWMProfile3.GetStorageFormat, IWMProfile3::GetStorageFormat, IWMProfile3GetStorageFormat, wmformat.iwmprofile3_getstorageformat, wmsdkidl/IWMProfile3::GetStorageFormat
 ms.prod: windows
 ms.technology: windows-sdk

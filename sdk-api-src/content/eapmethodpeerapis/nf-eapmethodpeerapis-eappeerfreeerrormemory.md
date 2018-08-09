@@ -7,7 +7,7 @@ old-location: eaphost\eappeerfreeerrormemory.htm
 old-project: eaphost
 ms.assetid: 85b4197c-5caf-4e2b-94fd-e651712dd39d
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapPeerFreeErrorMemory, EapPeerFreeErrorMemory function [EAPHost], eaphost.eappeerfreeerrormemory, eapmethodpeerapis/EapPeerFreeErrorMemory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,7 @@ Releases error-specific memory allocated by the EAP peer method.
 
 
 
-### -param pEapError
-
-TBD
-
-
-
-
-#### - ppEapError [in]
+### -param pEapError [in]
 
 A pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains the error data to free.
 

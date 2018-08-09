@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothsdpenumattributes.htm
 old-project: bluetooth
 ms.assetid: 3113db03-a32f-47ad-a442-3769f41ee8e7
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: BluetoothSdpEnumAttributes, BluetoothSdpEnumAttributes function [Bluetooth], bluetooth.bluetoothsdpenumattributes, bluetoothapis/BluetoothSdpEnumAttributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,8 +127,7 @@ The SDP stream is corrupt.
 If the callback function returns
 <b>FALSE</b>, the enumeration initiated by the <b>BluetoothSdpEnumAttributes</b> function is stopped.
 
-The record stream in <i>pSDPStream</i>
-must be an SDP stream formatted as an SDP record, a SEQUENCE
+The record stream in <i>pSDPStream</i>must be an SDP stream formatted as an SDP record, a SEQUENCE
 containing attribute ID (UINT16) plus attribute value (any SDP element type) pairs.
 
 

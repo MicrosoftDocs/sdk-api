@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getstarttime.htm
 old-project: mstv
 ms.assetid: 70847a50-67a1-49f1-a24f-ca5bb0309481
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetStartTime, GetStartTime method [Microsoft TV Technologies], GetStartTime method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetStartTime method, ISCTE_EAS.GetStartTime, ISCTE_EAS::GetStartTime, ISCTE_EASGetStartTime, atscpsipparser/ISCTE_EAS::GetStartTime, mstv.iscte_eas_getstarttime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,8 +60,7 @@ The <b>GetStartTime</b> method returns the starting time of the alert.
 
 ### -param pdwVal [out]
 
-
-            Receives the event_start_time field.
+Receives the event_start_time field.
           
 
 

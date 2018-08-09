@@ -7,7 +7,7 @@ old-location: p2p\pfnpeer_validate_record.htm
 old-project: p2psdk
 ms.assetid: 5d81f09b-e46b-43e6-b0a8-ed7c236f2968
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PFNPEER_VALIDATE_RECORD, PFNPEER_VALIDATE_RECORD callback, PFNPEER_VALIDATE_RECORD callback function [Peer Networking], p2p.pfnpeer_validate_record, p2p/PFNPEER_VALIDATE_RECORD
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PFNPEER_VALIDATE_RECORD</b> callback specifies the function that the Peer Graphing Infrastructure calls     to validate records.
+The <b>PFNPEER_VALIDATE_RECORD</b> callback specifies the function that the Peer Graphing Infrastructure calls     to validate records.
 
 
 ## -parameters
@@ -134,8 +133,7 @@ The specified record is invalid.
 
 
 
-
-        When this callback is called by the Peer Graphing Infrastructure, a <a href="https://msdn.microsoft.com/d2451b45-eb42-4401-ab1d-505a41e25822">PEER_RECORD_CHANGE_TYPE</a> value is passed.  This specifies  the operation just performed on the record.  The application must verify the record based on the change type.  If the application  requires more information to verify the record, it can return PEER_E_DEFERRED_VALIDATION  and the Peer Graphing  Infrastructure places the record  in a deferred-record list.  Once the security mechanism has enough information to validate the record, it  calls <a href="https://msdn.microsoft.com/a9a48d8a-f31e-4526-bd09-826f04a564b1">PeerGraphValidateDeferredRecords</a>, and any record in the deferred-record list is re-submitted for validation.
+When this callback is called by the Peer Graphing Infrastructure, a <a href="https://msdn.microsoft.com/d2451b45-eb42-4401-ab1d-505a41e25822">PEER_RECORD_CHANGE_TYPE</a> value is passed.  This specifies  the operation just performed on the record.  The application must verify the record based on the change type.  If the application  requires more information to verify the record, it can return PEER_E_DEFERRED_VALIDATION  and the Peer Graphing  Infrastructure places the record  in a deferred-record list.  Once the security mechanism has enough information to validate the record, it  calls <a href="https://msdn.microsoft.com/a9a48d8a-f31e-4526-bd09-826f04a564b1">PeerGraphValidateDeferredRecords</a>, and any record in the deferred-record list is re-submitted for validation.
 
 This callback can be invoked from any of the Peer Graphing API functions involving records, such as <a href="https://msdn.microsoft.com/9007095f-4f2a-4e92-895b-9a4033f0f7b9">PeerGraphUpdateRecord</a>. 
 
@@ -147,18 +145,15 @@ This callback can be invoked from any of the Peer Graphing API functions involvi
 
 
 
-<a href="https://msdn.microsoft.com/4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1">
-        PEER_RECORD</a>
+<a href="https://msdn.microsoft.com/4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1">PEER_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/d2451b45-eb42-4401-ab1d-505a41e25822">
-        PEER_RECORD_CHANGE_TYPE</a>
+<a href="https://msdn.microsoft.com/d2451b45-eb42-4401-ab1d-505a41e25822">PEER_RECORD_CHANGE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4331cfc-dc1a-490b-b21d-0550f1d3fe33">
-        PEER_SECURITY_INTERFACE</a>
+<a href="https://msdn.microsoft.com/b4331cfc-dc1a-490b-b21d-0550f1d3fe33">PEER_SECURITY_INTERFACE</a>
 
 
 

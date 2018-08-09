@@ -7,7 +7,7 @@ old-location: shell\IShellLibrary_SetFolderType.htm
 old-project: shell
 ms.assetid: e3e3f356-6ffd-46b9-b8a5-1b0c9df01abe
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SetFolderType method, IShellLibrary.SetFolderType, IShellLibrary::SetFolderType, SetFolderType, SetFolderType method [Windows Shell], SetFolderType method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SetFolderType, shell.IShellLibrary_SetFolderType, shobjidl_core/IShellLibrary::SetFolderType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-         Sets the library's folder type.
+Sets the library's folder type.
       
 
 
@@ -65,8 +64,7 @@ req.product: Outlook Express 6.0
 
 Type: <b>REFFOLDERTYPEID</b>
 
-
-            The <b>GUID</b> or <a href="https://msdn.microsoft.com/d147a05c-6a03-4f20-a7be-20825fcbeec2">FOLDERTYPEID</a> that represents  the  view template that is applied to a folder, usually based on its intended use and contents.
+The <b>GUID</b> or <a href="https://msdn.microsoft.com/d147a05c-6a03-4f20-a7be-20825fcbeec2">FOLDERTYPEID</a> that represents  the  view template that is applied to a folder, usually based on its intended use and contents.
             
 
 

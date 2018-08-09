@@ -7,7 +7,7 @@ old-location: intl\mappinggetservices.htm
 old-project: Intl
 ms.assetid: 6d02e085-405e-4388-bf2f-409c92a7b190
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: MappingGetServices, MappingGetServices function [Internationalization for Windows Applications], elscore/MappingGetServices, intl.mappinggetservices
 ms.prod: windows
 ms.technology: windows-sdk

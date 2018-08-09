@@ -7,7 +7,7 @@ old-location: iphlp\gettcpstatisticsex2.htm
 old-project: iphlp
 ms.assetid: E7D988E3-4CE9-4BD3-96C7-4C16D2D6FA9C
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: AF_INET, AF_INET6, GetTcpStatisticsEx2, GetTcpStatisticsEx2 function [IP Helper], iphlp.gettcpstatisticsex2, iphlpapi/GetTcpStatisticsEx2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,19 +65,13 @@ it uses a new output structure that contains 64-bit counters, rather than 32-bit
 
 
 
-### -param Statistics
+### -param Statistics [out]
 
-TBD
-
-
-### -param Family
-
-TBD
+A pointer to a 
+<a href="https://msdn.microsoft.com/08d85d02-62a0-479d-bf56-5dad452436f3">MIB_TCPSTATS2</a> structure that receives the TCP statistics for the local computer.
 
 
-
-
-#### - dwFamily [in]
+### -param Family [in]
 
 The protocol family for which to retrieve statistics. This parameter must be one of the following values: 
 
@@ -110,12 +104,6 @@ Internet Protocol version 6 (IPv6).
 </tr>
 </table>
  
-
-
-#### - pStats [out]
-
-A pointer to a 
-<a href="https://msdn.microsoft.com/08d85d02-62a0-479d-bf56-5dad452436f3">MIB_TCPSTATS2</a> structure that receives the TCP statistics for the local computer.
 
 
 ## -returns

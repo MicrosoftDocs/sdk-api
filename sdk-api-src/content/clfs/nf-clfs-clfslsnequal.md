@@ -7,7 +7,7 @@ old-location: fs\lsnequal.htm
 old-project: Clfs
 ms.assetid: 995b3afd-5724-40d1-ab80-f2c7b2ea8560
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/03/2018
 ms.keywords: ClfsLsnEqual, LsnEqual, LsnEqual function [Files], clfs/LsnEqual, fs.lsnequal
 ms.prod: windows
 ms.technology: windows-sdk

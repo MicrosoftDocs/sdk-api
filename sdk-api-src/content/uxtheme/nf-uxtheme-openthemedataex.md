@@ -4,10 +4,10 @@ title: OpenThemeDataEx function
 author: windows-sdk-content
 description: Opens the theme data associated with a window for specified theme classes.
 old-location: controls\OpenThemeDataEx.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\openthemedataex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: OTD_FORCE_RECT_SIZING, OTD_NONCLIENT, OpenThemeDataEx, OpenThemeDataEx function [Windows Controls], controls.OpenThemeDataEx, controls.inet_OpenThemeDataEx, inet_OpenThemeDataEx, inet_OpenThemeDataEx_cpp, uxtheme/OpenThemeDataEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,9 +69,11 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 A handle to a window or control that the theme is to be retrieved from.
 
 
-### -param pszClassList
+### -param pszClassList [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
+
+A semicolon-separated list of class names to match.
 
 
 ### -param dwFlags [in]
@@ -107,13 +109,6 @@ Allows theme elements to be drawn in the non-client area of the window.
 </tr>
 </table>
  
-
-
-#### - pszClassIdList [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
-
-A semicolon-separated list of class names to match.
 
 
 ## -returns

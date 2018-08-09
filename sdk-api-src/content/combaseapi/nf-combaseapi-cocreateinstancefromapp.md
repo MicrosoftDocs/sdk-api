@@ -7,7 +7,7 @@ old-location: com\cocreateinstancefromapp.htm
 old-project: com
 ms.assetid: 1C773D78-5B33-44FE-A09B-AB8087F678A1
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: CoCreateInstanceFromApp, CoCreateInstanceFromApp function [COM], com.cocreateinstancefromapp, combaseapi/CoCreateInstanceFromApp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,9 @@ Creates an instance of a specific class on a specific computer from within an ap
 
 
 
-### -param Clsid
+### -param Clsid [in]
 
-TBD
+The CLSID of the object to be created.
 
 
 ### -param punkOuter [in, optional]
@@ -88,11 +88,6 @@ The number of structures in <i>pResults</i>. This value must be greater than 0.
 ### -param pResults [in, out]
 
 An array of <a href="https://msdn.microsoft.com/845040c9-fad4-4ac8-856d-d35edbf48ec9">MULTI_QI</a> structures. Each structure has three members: the identifier for a requested interface (<b>pIID</b>), the location to return the interface pointer (<b>pItf</b>) and the return value of the call to <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> (<b>hr</b>).
-
-
-#### - rclsid [in]
-
-The CLSID of the object to be created.
 
 
 ## -returns

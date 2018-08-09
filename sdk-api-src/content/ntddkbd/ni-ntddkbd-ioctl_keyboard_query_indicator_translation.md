@@ -7,7 +7,7 @@ old-location: hid\ioctl_keyboard_query_indicator_translation.htm
 old-project: hid
 ms.assetid: 84006453-cf73-44f2-ac8b-ea03382e113d
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/30/2018
 ms.keywords: IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION, IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION control, IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION control code [Human Input Devices], hid.ioctl_keyboard_query_indicator_translation, kref_6d0fc5dc-e636-464a-a537-c3a39b8cba53.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-     The IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION request returns information about the mapping between scan codes and indicators.   
+The IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION request returns information about the mapping between scan codes and indicators.   
     
 
 Kbdclass copies the current stack location, sets the <b>MajorFunction</b> member of the new stack location to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>, and sends this request down the device stack.
@@ -114,9 +113,9 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_BUFFER_TOO_SMALL
+#### -STATUS_SUCCESS
 
-The output buffer cannot hold the KEYBOARD_INDICATOR_TRANSLATION data.
+The request completed successfully.
 
 
 #### -STATUS_INVALID_PARAMETER
@@ -124,14 +123,14 @@ The output buffer cannot hold the KEYBOARD_INDICATOR_TRANSLATION data.
 The <b>UnitId</b> value is not valid.
 
 
+#### -STATUS_BUFFER_TOO_SMALL
+
+The output buffer cannot hold the KEYBOARD_INDICATOR_TRANSLATION data.
+
+
 #### -STATUS_NOT_SUPPORTED
 
 The target device is associated with a subordinate class device.
-
-
-#### -STATUS_SUCCESS
-
-The request completed successfully.
 
 
 ## -see-also

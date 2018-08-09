@@ -2,13 +2,13 @@
 UID: NA:wcsplugin
 ms.assetid: cd24e38d-d9a9-3363-bc85-29c88508da9d
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: wcs
+archived: true
 ---
 
 # Wcsplugin.h header

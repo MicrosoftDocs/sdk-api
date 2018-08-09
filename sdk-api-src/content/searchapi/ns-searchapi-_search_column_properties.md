@@ -7,7 +7,7 @@ old-location: search\_search_SEARCH_COLUMN_PROPERTIES.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_column_properties.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: SEARCH_COLUMN_PROPERTIES, SEARCH_COLUMN_PROPERTIES structure [search], _SEARCH_COLUMN_PROPERTIES, _search_SEARCH_COLUMN_PROPERTIES, search._search_SEARCH_COLUMN_PROPERTIES, searchapi/SEARCH_COLUMN_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ This structure is not implemented.
 
 ### -field Value
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a></b>
 
 The name of the column referenced in the ISearchQueryHelper::WriteProperties methods pColumns property array.
 

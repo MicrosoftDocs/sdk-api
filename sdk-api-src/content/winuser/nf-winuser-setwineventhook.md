@@ -7,7 +7,7 @@ old-location: winauto\setwineventhook.htm
 old-project: WinAuto
 ms.assetid: 090bda1b-0635-4aa3-ae33-3987b36e30b8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetWinEventHook, SetWinEventHook function [Windows Accessibility], WINEVENT_INCONTEXT, WINEVENT_OUTOFCONTEXT, WINEVENT_SKIPOWNPROCESS, WINEVENT_SKIPOWNTHREAD, _msaa_SetWinEventHook, msaa.setwineventhook, winauto.setwineventhook, winuser/SetWinEventHook
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,9 +82,11 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Handle to the DLL that contains the hook function at <i>lpfnWinEventProc</i>, if the WINEVENT_INCONTEXT flag is specified in the <i>dwFlags</i> parameter. If the hook function is not located in a DLL, or if the WINEVENT_OUTOFCONTEXT flag is specified, this parameter is <b>NULL</b>.
 
 
-### -param pfnWinEventProc
+### -param pfnWinEventProc [in]
 
-TBD
+Type: <b>WINEVENTPROC</b>
+
+Pointer to the event hook function. For more information about this function, see <a href="https://msdn.microsoft.com/5fe3cacc-4563-43da-960d-729d3fe4ff70">WinEventProc</a>.
 
 
 ### -param idProcess [in]
@@ -101,14 +103,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Specifies the ID of the thread from which the hook function receives events. If this parameter is zero, the hook function is associated with all existing threads on the current desktop.
 
 
-### -param dwFlags
-
-TBD
-
-
-
-
-#### - dwflags [in]
+### -param dwFlags [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
@@ -177,13 +172,6 @@ The following flag combinations are valid:
 Additionally, client applications can specify WINEVENT_INCONTEXT, or WINEVENT_OUTOFCONTEXT alone.
 
 See Remarks section for information on Windows Store app development.
-
-
-#### - lpfnWinEventProc [in]
-
-Type: <b>WINEVENTPROC</b>
-
-Pointer to the event hook function. For more information about this function, see <a href="https://msdn.microsoft.com/5fe3cacc-4563-43da-960d-729d3fe4ff70">WinEventProc</a>.
 
 
 ## -returns

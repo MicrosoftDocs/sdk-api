@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessage_copytiff_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1vc6.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: CopyTiff, CopyTiff method [Fax Service], CopyTiff method [Fax Service],FaxIncomingMessage object, FaxIncomingMessage object [Fax Service],CopyTiff method, FaxIncomingMessage.CopyTiff, IFaxIncomingMessage.CopyTiff, IFaxIncomingMessage::CopyTiff, _mfax_faxincomingmessage.copytiff, fax._mfax_faxincomingmessage_copytiff, fax._mfax_faxincomingmessage_copytiff_vb
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,15 +71,15 @@ Null-terminated <b>String</b> that specifies a fully qualified path and file nam
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686128(v=VS.85).aspx">IFaxIncomingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686128(v=VS.85).aspx">IFaxIncomingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693406(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693406(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

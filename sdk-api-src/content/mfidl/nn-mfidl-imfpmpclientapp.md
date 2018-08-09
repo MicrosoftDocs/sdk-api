@@ -7,7 +7,7 @@ old-location: mf\imfpmpclientapp.htm
 old-project: medfound
 ms.assetid: 03cd9e3c-65ac-40ad-802d-e36127dbd61f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFPMPClientApp, IMFPMPClientApp interface [Media Foundation], IMFPMPClientApp interface [Media Foundation],described, mf.imfpmpclientapp, mfidl/IMFPMPClientApp
 ms.prod: windows
 ms.technology: windows-sdk

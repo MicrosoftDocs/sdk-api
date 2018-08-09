@@ -4,10 +4,10 @@ title: WSAAddressToStringW function
 author: windows-sdk-content
 description: Converts all components of a sockaddr structure into a human-readable string representation of the address.
 old-location: winsock\wsaaddresstostring_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: d72e55e6-79a9-4386-9e1a-24a322f13426
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSAAddressToString, WSAAddressToString function [Winsock], WSAAddressToStringA, WSAAddressToStringW, _win32_wsaaddresstostring_2, winsock.wsaaddresstostring_2, winsock2/WSAAddressToString, winsock2/WSAAddressToStringA, winsock2/WSAAddressToStringW
 ms.prod: windows
 ms.technology: windows-sdk

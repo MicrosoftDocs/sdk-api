@@ -7,7 +7,7 @@ old-location: stg\ienumstatstg.htm
 old-project: stg
 ms.assetid: 93b8b14e-94e4-460b-9846-413affad8e4f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumSTATSTG, IEnumSTATSTG interface [Structured Storage], IEnumSTATSTG interface [Structured Storage],described, _stg_ienumstatstg, objidl/IEnumSTATSTG, stg.ienumstatstg
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>IEnumSTATSTG</b> interface enumerates an array of 
 <a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structures. These structures contain statistical data about  open storage, stream, or byte array objects. 
 <b>IEnumSTATSTG</b> has the same methods as all enumerator interfaces: <a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>, and 
@@ -118,7 +117,7 @@ Skips a specified number of <a href="https://msdn.microsoft.com/54e1df08-de8f-43
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693395(v=VS.85).aspx">CoGetMalloc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693395(v=VS.85).aspx">CoGetMalloc</a>
 
 
 

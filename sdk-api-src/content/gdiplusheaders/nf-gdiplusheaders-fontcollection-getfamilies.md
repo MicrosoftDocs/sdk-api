@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_FontCollection_GetFamilies_numSought_gpfami
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontcollectionclass\fontcollectionmethods\getfamilies.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: FontCollection class [GDI+],GetFamilies method, FontCollection.GetFamilies, FontCollection::GetFamilies, GetFamilies, GetFamilies method [GDI+], GetFamilies method [GDI+],FontCollection class, _gdiplus_CLASS_FontCollection_GetFamilies_numSought_gpfamilies_numFound_, gdiplus._gdiplus_CLASS_FontCollection_GetFamilies_numSought_gpfamilies_numFound_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,9 @@ Integer that specifies the number of font families in this font collection.
 
 ### -param gpfamilies [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>*</b>
 
-Pointer to an array that receives the <a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a> objects.
+Pointer to an array that receives the <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> objects.
 
 
 ### -param numFound [out]
@@ -101,7 +101,7 @@ A font family consists of a single font type with related styles. An example of 
 
 #### Examples
 
-The following example creates a <a href="https://msdn.microsoft.com/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a> object, gets the <a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a> objects contained within the collection, and uses one of the font families to draw text.
+The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a> object, gets the <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> objects contained within the collection, and uses one of the font families to draw text.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -145,23 +145,23 @@ The following example creates a <a href="https://msdn.microsoft.com/library/ms53
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534438(v=VS.85).aspx">FontCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534438(v=VS.85).aspx">FontCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536187(v=VS.85).aspx">FontCollection::GetFamilyCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536187(v=VS.85).aspx">FontCollection::GetFamilyCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
  
 
  

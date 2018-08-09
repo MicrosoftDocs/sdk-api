@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_gettimeseekresult.htm
 old-project: medfound
 ms.assetid: C7647460-8BAA-4480-A296-D83DFFBC5800
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetTimeSeekResult, GetTimeSeekResult method [Media Foundation], GetTimeSeekResult method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetTimeSeekResult method, IMFHttpDownloadRequest.GetTimeSeekResult, IMFHttpDownloadRequest::GetTimeSeekResult, mf.imfhttpdownloadrequest_gettimeseekresult, mfidl/IMFHttpDownloadRequest::GetTimeSeekResult
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ The end time offset, specified in units of one-hundred nanoseconds
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -123,8 +122,7 @@ The TimeSeekRange.DLNA.ORG HTTP header was not present in the response, or had a
 </dl>
 </td>
 <td width="60%">
-
-                The <i>pfNullSOurceOrigin</i> parameter is an invalid pointer.
+The <i>pfNullSOurceOrigin</i> parameter is an invalid pointer.
 
 </td>
 </tr>

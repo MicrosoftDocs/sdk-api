@@ -4,10 +4,10 @@ title: IVdsDrive
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a drive.
 old-location: base\ivdsdrive.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 597917cf-fb02-4949-98c3-3da3f7449ed1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IVdsDrive, IVdsDrive interface [VDS], IVdsDrive interface [VDS],described, base.ivdsdrive, vds/IVdsDrive, vdshwprv/IVdsDrive
 ms.prod: windows
 ms.technology: windows-sdk

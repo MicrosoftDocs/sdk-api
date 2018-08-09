@@ -7,7 +7,7 @@ old-location: base\symenumprocesses.htm
 old-project: debug
 ms.assetid: 281b83ff-8375-4edb-8a10-97af5dbdc87b
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymEnumProcesses, SymEnumProcesses function, base.symenumprocesses, dbghelp/SymEnumProcesses
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,8 +72,7 @@ A user-defined value that is passed to the callback function, or <b>NULL</b>. Th
 
 
 
-
-						If the function succeeds, the return value is <b>TRUE</b>.
+If the function succeeds, the return value is <b>TRUE</b>.
 						
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 

@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__keyup.htm
 old-project: WMP
 ms.assetid: e76e11d8-6cb9-488e-b5ca-1b5b11898d4b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],KeyUp method, IWMPEvents.KeyUp, IWMPEvents::KeyUp, IWMPEventsKeyUp, KeyUp, KeyUp method [Windows Media Player], KeyUp method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__keyup, wmp/IWMPEvents::KeyUp
 ms.prod: windows
 ms.technology: windows-sdk

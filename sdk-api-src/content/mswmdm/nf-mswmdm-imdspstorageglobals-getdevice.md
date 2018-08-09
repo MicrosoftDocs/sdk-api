@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorageglobals_getdevice.htm
 old-project: WMDM
 ms.assetid: 5c35b426-f7fd-46f7-b92d-12a0c22b50e9
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: GetDevice, GetDevice method [windows Media Device Manager], GetDevice method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetDevice method, IMDSPStorageGlobals.GetDevice, IMDSPStorageGlobals::GetDevice, IMDSPStorageGlobalsGetDevice, mswmdm/IMDSPStorageGlobals::GetDevice, wmdm.imdspstorageglobals_getdevice
 ms.prod: windows
 ms.technology: windows-sdk

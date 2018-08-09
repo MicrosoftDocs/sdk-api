@@ -7,7 +7,7 @@ old-location: rpc\rpcbindingsetauthinfo.htm
 old-project: rpc
 ms.assetid: 2db946b6-6a0d-402c-89ef-68c7489aa7ee
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcBindingSetAuthInfo, RpcBindingSetAuthInfo function [RPC], RpcBindingSetAuthInfoA, RpcBindingSetAuthInfoW, _rpc_rpcbindingsetauthinfo, rpc.rpcbindingsetauthinfo, rpcdce/RpcBindingSetAuthInfo, rpcdce/RpcBindingSetAuthInfoA, rpcdce/RpcBindingSetAuthInfoW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>RpcBindingSetAuthInfo</b> function sets a binding handle's authentication and authorization information.
 
 
@@ -108,13 +107,6 @@ When you select the RPC_C_AUTHN_GSS_SCHANNEL authentication service, the <i>Auth
 <div> </div>
 
 ### -param AuthzSvc
-
-TBD
-
-
-
-
-#### - AuthzService
 
 Authorization service implemented by the server for the interface of interest. See Note. 
 

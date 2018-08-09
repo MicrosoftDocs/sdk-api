@@ -4,10 +4,10 @@ title: IExecAction::get_WorkingDirectory
 author: windows-sdk-content
 description: Gets or sets the directory that contains either the executable file or the files that are used by the executable file.
 old-location: taskschd\iexecaction_workingdirectory.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 7cebc827-2587-46e4-a963-ad0fccfbcec7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IExecAction interface [Task Scheduler],WorkingDirectory property, IExecAction.WorkingDirectory, IExecAction.get_WorkingDirectory, IExecAction::WorkingDirectory, IExecAction::get_WorkingDirectory, IExecAction::put_WorkingDirectory, WorkingDirectory property [Task Scheduler], WorkingDirectory property [Task Scheduler],IExecAction interface, get_WorkingDirectory, taskschd.iexecaction_workingdirectory, taskschd/IExecAction::WorkingDirectory, taskschd/IExecAction::get_WorkingDirectory, taskschd/IExecAction::put_WorkingDirectory
 ms.prod: windows
 ms.technology: windows-sdk

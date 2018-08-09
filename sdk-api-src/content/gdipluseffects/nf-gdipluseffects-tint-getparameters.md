@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Tint_GetParameters_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\tintclass\tintmethods\getparameters.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],Tint class, Tint class [GDI+],GetParameters method, Tint.GetParameters, Tint::GetParameters, _gdiplus_CLASS_Tint_GetParameters_, gdiplus._gdiplus_CLASS_Tint_GetParameters_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>Tint::GetParameters</b> method gets the current values of the parameters of this <a href="https://msdn.microsoft.com/library/ms534513(v=VS.85).aspx">Tint</a> object.
+The <b>Tint::GetParameters</b> method gets the current values of the parameters of this <a href="https://msdn.microsoft.com/en-us/library/ms534513(v=VS.85).aspx">Tint</a> object.
 
 
 ## -parameters
@@ -63,14 +63,14 @@ The <b>Tint::GetParameters</b> method gets the current values of the parameters 
 
 Type: <b>UINT*</b>
 
-Pointer to a <b>UINT</b> that specifies the size, in bytes, of a <a href="https://msdn.microsoft.com/library/ms534074(v=VS.85).aspx">TintParams</a> structure.
+Pointer to a <b>UINT</b> that specifies the size, in bytes, of a <a href="https://msdn.microsoft.com/en-us/library/ms534074(v=VS.85).aspx">TintParams</a> structure.
 
 
 ### -param parameters [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534074(v=VS.85).aspx">TintParams</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534074(v=VS.85).aspx">TintParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534074(v=VS.85).aspx">TintParams</a> structure that receives the parameter values.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534074(v=VS.85).aspx">TintParams</a> structure that receives the parameter values.
 
 
 ## -returns
@@ -94,11 +94,11 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534513(v=VS.85).aspx">Tint</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534513(v=VS.85).aspx">Tint</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534518(v=VS.85).aspx">Tint::SetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534518(v=VS.85).aspx">Tint::SetParameters</a>
  
 
  

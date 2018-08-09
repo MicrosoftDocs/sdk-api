@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfacecreate.htm
 old-project: rras
 ms.assetid: c9590ebe-7e49-4ad1-bd9b-0d9c51938bc4
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminInterfaceCreate, MprAdminInterfaceCreate function [RAS], _mpr_mpradmininterfacecreate, mprapi/MprAdminInterfaceCreate, rras.mpradmininterfacecreate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,23 +103,18 @@ A DWORD value that describes the format in which the information is structured i
  
 
 
-### -param lpbBuffer
-
-TBD
-
-
-### -param phInterface [out]
-
-Pointer to a <b>HANDLE</b> variable. The variable receives a handle to use in all subsequent calls to manage this interface.
-
-
-#### - lpBuffer [in]
+### -param lpbBuffer [in]
 
 A pointer to a 
 <a href="https://msdn.microsoft.com/b204c10e-ccce-4d62-a7a9-75cf4fe1d9ba">MPR_INTERFACE_0</a>, 
 <a href="https://msdn.microsoft.com/90a3da46-7dd1-428b-ab72-d5defa710225">MPR_INTERFACE_1</a>,  
 <a href="https://msdn.microsoft.com/486f3526-2b0e-4f08-bb85-3aebf10cd52e">MPR_INTERFACE_2</a>, or  <a href="https://msdn.microsoft.com/d761a9cf-7b56-48ad-b98b-60fc99d0d8ba">MPR_INTERFACE_3</a> structure. The <i>dwLevel</i> parameter indicates the type of structure.
 					
+
+
+### -param phInterface [out]
+
+Pointer to a <b>HANDLE</b> variable. The variable receives a handle to use in all subsequent calls to manage this interface.
 
 
 ## -returns

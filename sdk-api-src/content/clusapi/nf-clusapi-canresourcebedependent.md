@@ -7,7 +7,7 @@ old-location: mscs\canresourcebedependent.htm
 old-project: mscs
 ms.assetid: 974ec036-3dd3-4453-9ce5-029f58d99d81
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: CanResourceBeDependent, CanResourceBeDependent function [Failover Cluster], PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT, PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT function [Failover Cluster], _wolf_canresourcebedependent, clusapi/CanResourceBeDependent, clusapi/PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT, mscs.canresourcebedependent
 ms.prod: windows
 ms.technology: windows-sdk

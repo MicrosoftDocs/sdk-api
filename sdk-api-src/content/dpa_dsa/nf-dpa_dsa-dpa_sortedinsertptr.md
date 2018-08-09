@@ -7,7 +7,7 @@ old-location: controls\DPA_SortedInsertPtr.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_sortedinsertptr.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DPAS_INSERTAFTER, DPAS_INSERTBEFORE, DPA_SortedInsertPtr, DPA_SortedInsertPtr macro [Windows Controls], _shell_DPA_SortedInsertPtr, _shell_DPA_SortedInsertPtr_cpp, controls.DPA_SortedInsertPtr, controls._shell_DPA_SortedInsertPtr, dpa_dsa/DPA_SortedInsertPtr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,9 @@ Inserts a new item before or after a specified existing item.
 
 ### -param hdpa
 
-TBD
+Type: <b>HDPA</b>
+
+A handle to a DPA.
 
 
 ### -param pFind
@@ -79,7 +81,9 @@ The index in the DPA at which to begin searching for <i>pFind</i>.
 
 ### -param pfnCompare
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a></b>
+
+A pointer to the comparison function. See <a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a> or <a href="https://msdn.microsoft.com/49e2b929-155d-447b-8935-7fe2a128874e">PFNDPACOMPARECONST</a> for the comparison function prototype.
 
 
 ### -param lParam
@@ -131,29 +135,15 @@ Type: <b>void*</b>
 A pointer to the item that is to be inserted.
 
 
-#### - pdpa
-
-Type: <b>HDPA</b>
-
-A handle to a DPA.
-
-
-#### - pfnCmp
-
-Type: <b><a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a></b>
-
-A pointer to the comparison function. See <a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a> or <a href="https://msdn.microsoft.com/49e2b929-155d-447b-8935-7fe2a128874e">PFNDPACOMPARECONST</a> for the comparison function prototype.
-
-
 ## -remarks
 
 
 
-<div class="alert"><b>Note</b>  This macro wraps the <a href="https://msdn.microsoft.com/library/Bb775625(v=VS.85).aspx">DPA_InsertPtr</a> and <a href="https://msdn.microsoft.com/library/Bb775633(v=VS.85).aspx">DPA_Search</a> functions.</div>
+<div class="alert"><b>Note</b>  This macro wraps the <a href="https://msdn.microsoft.com/en-us/library/Bb775625(v=VS.85).aspx">DPA_InsertPtr</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb775633(v=VS.85).aspx">DPA_Search</a> functions.</div>
 <div> </div>
 The DPAS_SORTED flag is included in <i>options</i> by default to indicate that the DPA is sorted.
 
-See function <a href="https://msdn.microsoft.com/library/Bb775633(v=VS.85).aspx">DPA_Search</a> for additional information on how the <i>pFind</i> item is located. The new item is inserted before or after the <i>pFind</i> item according to the <i>options</i> parameter. The <i>pFind</i> parameter need not exist in the DPA. If it does not exist in the DPA, then the new item is inserted where <i>pFind</i> would have been had it been inserted in the DPA in sorted order.
+See function <a href="https://msdn.microsoft.com/en-us/library/Bb775633(v=VS.85).aspx">DPA_Search</a> for additional information on how the <i>pFind</i> item is located. The new item is inserted before or after the <i>pFind</i> item according to the <i>options</i> parameter. The <i>pFind</i> parameter need not exist in the DPA. If it does not exist in the DPA, then the new item is inserted where <i>pFind</i> would have been had it been inserted in the DPA in sorted order.
 
 
 

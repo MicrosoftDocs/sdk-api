@@ -7,7 +7,7 @@ old-location: winmsg\changewindowmessagefilterex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\changewindowmessagefilterex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ChangeWindowMessageFilterEx, ChangeWindowMessageFilterEx function [Windows and Messages], MSGFLT_ALLOW, MSGFLT_DISALLOW, MSGFLT_RESET, _win32_ChangeWindowMessageFilterEx, _win32_changewindowmessagefilterex_cpp, winmsg.changewindowmessagefilterex, winui._win32_changewindowmessagefilterex, winuser/ChangeWindowMessageFilterEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,12 @@ Modifies the User Interface Privilege Isolation (UIPI) message filter for a spec
 
 
 
-### -param hwnd
+### -param hwnd [in]
 
-TBD
+Type: <b>HWND</b>
+
+A handle to the window whose UIPI message filter is to be modified.
+				
 
 
 ### -param message [in]
@@ -141,14 +144,6 @@ Resets the window message filter for <i>hWnd</i> to the default.   Any message a
 Type: <b>PCHANGEFILTERSTRUCT</b>
 
 Optional pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd388197(v=VS.85).aspx">CHANGEFILTERSTRUCT</a> structure.
-
-
-#### - hWnd [in]
-
-Type: <b>HWND</b>
-
-A handle to the window whose UIPI message filter is to be modified.
-				
 
 
 ## -returns

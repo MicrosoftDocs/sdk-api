@@ -7,7 +7,7 @@ old-location: dshow\imemorydata_setbuffer.htm
 old-project: DirectShow
 ms.assetid: d565b493-0ee6-4a10-9af3-ff9d9ba48ba8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IMemoryData interface [DirectShow],SetBuffer method, IMemoryData.SetBuffer, IMemoryData::SetBuffer, IMemoryDataSetBuffer, SetBuffer, SetBuffer method [DirectShow], SetBuffer method [DirectShow],IMemoryData interface, austream/IMemoryData::SetBuffer, dshow.imemorydata_setbuffer
 ms.prod: windows
 ms.technology: windows-sdk

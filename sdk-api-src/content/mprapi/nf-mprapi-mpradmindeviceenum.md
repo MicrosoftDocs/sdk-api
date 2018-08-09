@@ -7,7 +7,7 @@ old-location: rras\mpradmindeviceenum.htm
 old-project: rras
 ms.assetid: 092892fd-1b61-45c6-a05f-83fc193611b9
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminDeviceEnum, MprAdminDeviceEnum function [RAS], mprapi/MprAdminDeviceEnum, rras.mpradmindeviceenum
 ms.prod: windows
 ms.technology: windows-sdk

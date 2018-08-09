@@ -7,7 +7,7 @@ old-location: security\cryptcatmember.htm
 old-project: seccrypto
 ms.assetid: 08f663d9-9dc2-4ac9-95c5-7f2ed972eb9b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CRYPTCATMEMBER, CRYPTCATMEMBER structure [Security], CRYPTCATMEMBER_, mscat/CRYPTCATMEMBER, security.cryptcatmember
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: ics\istaticportmappingcollection_remove.htm
 old-project: ics
 ms.assetid: c82a145d-7b85-419b-b64b-36f1ac7a2631
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],Remove method, IStaticPortMappingCollection.Remove, IStaticPortMappingCollection::Remove, Remove, Remove method [ICS/ICF], Remove method [ICS/ICF],IStaticPortMappingCollection interface, _ics_istaticportmappingcollection_remove, ics.istaticportmappingcollection_remove, natupnp/IStaticPortMappingCollection::Remove
 ms.prod: windows
 ms.technology: windows-sdk
@@ -191,7 +191,7 @@ The NAT API with UPnP technology uses the combination of the external port and t
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a>
 
 
 

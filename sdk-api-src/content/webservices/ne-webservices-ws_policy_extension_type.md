@@ -7,7 +7,7 @@ old-location: wsw\ws_policy_extension_type.htm
 old-project: wsw
 ms.assetid: e656ec20-6df0-4929-8257-bfbfb98567fa
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_ENDPOINT_POLICY_EXTENSION_TYPE, WS_POLICY_EXTENSION_TYPE, WS_POLICY_EXTENSION_TYPE enumeration [Web Services for Windows], webservices/WS_ENDPOINT_POLICY_EXTENSION_TYPE, webservices/WS_POLICY_EXTENSION_TYPE, wsw.ws_policy_extension_type
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: iscsidisc\sendscsiinquiry.htm
 old-project: iSCSIDisc
 ms.assetid: a1339ff0-aa1e-4609-8983-d5f09481bd13
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: SendScsiInquiry, SendScsiInquiry function [iSCSI Discovery Library API], iscsidisc.sendscsiinquiry, iscsidsc/SendScsiInquiry
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,14 +90,14 @@ The page code. This code is inserted into the third byte of the CDB of the <b>IN
 A pointer to a location that reports the execution status of the CDB.
 
 
-### -param ResponseSize
+### -param ResponseSize [in, out]
 
-TBD
+A pointer to the location that, on input, specifies the byte-size of  <i>ResponseBuffer</i>. On output, this location specifies the number of bytes required to contain the response data for the READ CAPACITY command in the <i>ResponseBuffer</i>.
 
 
-### -param ResponseBuffer
+### -param ResponseBuffer [out]
 
-TBD
+The buffer that holds the inquiry data. 
 
 
 ### -param SenseSize [in, out]
@@ -110,16 +110,6 @@ A pointer to a location that, on input, contains the byte-size of <i>SenseBuffer
 
 The buffer that holds the sense data.  
 
-
-
-#### - ReponseBuffer [out]
-
-The buffer that holds the inquiry data. 
-
-
-#### - ReponseSize [in, out]
-
-A pointer to the location that, on input, specifies the byte-size of  <i>ResponseBuffer</i>. On output, this location specifies the number of bytes required to contain the response data for the READ CAPACITY command in the <i>ResponseBuffer</i>.
 
 
 ## -returns

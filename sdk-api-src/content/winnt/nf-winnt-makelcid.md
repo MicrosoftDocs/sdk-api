@@ -7,7 +7,7 @@ old-location: intl\makelcid.htm
 old-project: Intl
 ms.assetid: 2f8893a0-f916-4a62-a423-e525cf281fa4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MAKELCID, MAKELCID macro [Internationalization for Windows Applications], _win32_MAKELCID, intl.makelcid, winnt/MAKELCID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,24 +61,10 @@ Creates a <a href="https://msdn.microsoft.com/ea45b0e5-7df7-47fb-8dad-fccfbe53fe
 
 ### -param lgid
 
-TBD
-
-
-### -param srtid
-
-TBD
-
-
-
-
-
-
-#### - wLanguageID
-
 Language identifier. This identifier is a combination of a primary language identifier and a sublanguage identifier and is usually created by using the <a href="https://msdn.microsoft.com/cdf6424a-bf2b-4c14-8bc7-8b5f04c29ed3">MAKELANGID</a> macro.
 
 
-#### - wSortID
+### -param srtid
 
 Sort order identifier.
 

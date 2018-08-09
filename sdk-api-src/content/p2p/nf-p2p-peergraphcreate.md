@@ -7,7 +7,7 @@ old-location: p2p\peergraphcreate.htm
 old-project: p2psdk
 ms.assetid: 62e3ec57-378c-4322-9ad4-a40d98e03dab
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphCreate, PeerGraphCreate function [Peer Networking], p2p.peergraphcreate, p2p/PeerGraphCreate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphCreate</b> function creates a  new peer graph.  An application can  specify information about a peer graph, and the type of security that a  peer graph uses. A handle to a peer graph is returned, but a network connection is not established.
+The <b>PeerGraphCreate</b> function creates a  new peer graph.  An application can  specify information about a peer graph, and the type of security that a  peer graph uses. A handle to a peer graph is returned, but a network connection is not established.
 
 
 ## -parameters
@@ -157,13 +156,11 @@ After   <b>PeerGraphCreate</b> is called, the  application can subscribe to even
 
 
 
-<a href="https://msdn.microsoft.com/15b4eeb4-1040-4f07-8e79-2c09aab9f926">
-        PEER_GRAPH_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/15b4eeb4-1040-4f07-8e79-2c09aab9f926">PEER_GRAPH_PROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4331cfc-dc1a-490b-b21d-0550f1d3fe33">
-        PEER_SECURITY_INTERFACE</a>
+<a href="https://msdn.microsoft.com/b4331cfc-dc1a-490b-b21d-0550f1d3fe33">PEER_SECURITY_INTERFACE</a>
 
 
 

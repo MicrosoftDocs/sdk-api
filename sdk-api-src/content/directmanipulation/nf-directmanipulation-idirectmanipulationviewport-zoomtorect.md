@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_zoomtorect.htm
 old-project: directmanipulation
 ms.assetid: ce87521d-bbce-43d3-920b-89eca101d260
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],ZoomToRect method, IDirectManipulationViewport.ZoomToRect, IDirectManipulationViewport::ZoomToRect, ZoomToRect, ZoomToRect method [Direct Manipulation], ZoomToRect method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_zoomtorect, directmanipulation/IDirectManipulationViewport::ZoomToRect
 ms.prod: windows
 ms.technology: windows-sdk

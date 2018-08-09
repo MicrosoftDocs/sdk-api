@@ -7,7 +7,7 @@ old-location: wsw\wsreadmessageend.htm
 old-project: wsw
 ms.assetid: 3112be44-f610-421f-a4ea-0f87fc383540
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsReadMessageEnd, WsReadMessageEnd function [Web Services for Windows], webservices/WsReadMessageEnd, wsw.wsreadmessageend
 ms.prod: windows
 ms.technology: windows-sdk

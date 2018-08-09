@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensor_supportsevent.htm
 old-project: SensorsAPI
 ms.assetid: abf4e339-651d-4444-b219-e5177dbaa7ee
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: ISensor interface,SupportsEvent method, ISensor.SupportsEvent, ISensor::SupportsEvent, SupportsEvent, SupportsEvent method, SupportsEvent method,ISensor interface, sensorsapi/ISensor::SupportsEvent, winsensors_com_ref.isensor_supportsevent
 ms.prod: windows
 ms.technology: windows-sdk

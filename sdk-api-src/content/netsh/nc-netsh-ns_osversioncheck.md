@@ -7,7 +7,7 @@ old-location: netshell\ns_osversioncheck.htm
 old-project: netshell
 ms.assetid: d58258ac-a16a-4983-bf35-71153dcbe652
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: NS_OSVERSIONCHECK, NS_OSVERSIONCHECK callback, NS_OSVERSIONCHECK callback function [NetShell], SampleOsVersionCheck, _netsh_ns_osversioncheck, netsh/NS_OSVERSIONCHECK, netshell.ns_osversioncheck
 ms.prod: windows
 ms.technology: windows-sdk

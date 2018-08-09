@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddBezier_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddbeziermethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: AddBezier, AddBezier methods [GDI+], GraphicsPath.AddBezier, GraphicsPath.AddBezier(IN const Point &,IN const Point &,IN const Point &,IN const Point &), GraphicsPath::AddBezier, GraphicsPath::AddBezier(IN const Point &,IN const Point &,IN const Point &,IN const Point &), _gdiplus_CLASS_GraphicsPath_AddBezier_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddBezier_Methods, gdipluspath/AddBezier
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,9 +53,9 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 AddBezier methods of the 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
 <b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
 
 
 
@@ -66,37 +66,37 @@ AddBezier methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535621(v=VS.85).aspx">AddBezier(Point&,Point&,Point&,Point&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535621(v=VS.85).aspx">AddBezier(Point&,Point&,Point&,Point&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535621(v=VS.85).aspx">GraphicsPath::AddBezier</a> method adds a Bézier spline to the current figure of this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535621(v=VS.85).aspx">GraphicsPath::AddBezier</a> method adds a Bézier spline to the current figure of this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535624(v=VS.85).aspx">AddBezier(INT,INT,INT,INT,INT,INT,INT,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535624(v=VS.85).aspx">AddBezier(INT,INT,INT,INT,INT,INT,INT,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535624(v=VS.85).aspx">GraphicsPath::AddBezier</a> method adds a Bézier spline to the current figure of this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535624(v=VS.85).aspx">GraphicsPath::AddBezier</a> method adds a Bézier spline to the current figure of this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535623(v=VS.85).aspx">AddBezier(PointF&,PointF&,PointF&,PointF&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535623(v=VS.85).aspx">AddBezier(PointF&,PointF&,PointF&,PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535623(v=VS.85).aspx">GraphicsPath::AddBezier</a> method adds a Bézier spline to the current figure of this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535623(v=VS.85).aspx">GraphicsPath::AddBezier</a> method adds a Bézier spline to the current figure of this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535622(v=VS.85).aspx">AddBezier(REAL,REAL,REAL,REAL,REAL,REAL,REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535622(v=VS.85).aspx">AddBezier(REAL,REAL,REAL,REAL,REAL,REAL,REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535622(v=VS.85).aspx">GraphicsPath::AddBezier</a> method adds a Bézier spline to the current figure of this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535622(v=VS.85).aspx">GraphicsPath::AddBezier</a> method adds a Bézier spline to the current figure of this path.
 
 </td>
 </tr>

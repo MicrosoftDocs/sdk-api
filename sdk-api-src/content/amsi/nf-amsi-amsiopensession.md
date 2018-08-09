@@ -7,7 +7,7 @@ old-location: amsi\amsiopensession.htm
 old-project: AMSI
 ms.assetid: 588C9003-8689-4D1C-BDFB-386E60BAECD5
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 08/06/2018
 ms.keywords: AmsiOpenSession, AmsiOpenSession function [Antimalware Scan Interface], amsi.amsiopensession, amsi/AmsiOpenSession
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,14 +63,7 @@ Opens a session within which multiple scan requests can be correlated.
 The handle of type HAMSICONTEXT that was initially received from <a href="https://msdn.microsoft.com/946FC79C-556C-404E-A559-323AA69B3EC6">AmsiInitialize</a>.
 
 
-### -param amsiSession
-
-TBD
-
-
-
-
-#### - session [out]
+### -param amsiSession [out]
 
 A handle of type HAMSISESSION that must be passed to all subsequent calls to the AMSI API within the session.
 

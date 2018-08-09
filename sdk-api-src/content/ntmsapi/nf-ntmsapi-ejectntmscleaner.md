@@ -7,7 +7,7 @@ old-location: fs\ejectntmscleaner.htm
 old-project: Rsm
 ms.assetid: a55a8f17-1a14-4267-ae39-1585e1090f21
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: EjectNtmsCleaner, EjectNtmsCleaner function [Files], NTMS_EJECT_START, NTMS_EJECT_STOP, _zaw_ejectntmscleaner, base.ejectntmscleaner, fs.ejectntmscleaner, ntmsapi/EjectNtmsCleaner
 ms.prod: windows
 ms.technology: windows-sdk
@@ -242,7 +242,7 @@ Ejected cleaner cartridges are not tracked in the offline library.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Cleaner Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Cleaner Management Functions</a>
 
 
 

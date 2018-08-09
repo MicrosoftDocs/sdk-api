@@ -7,7 +7,7 @@ old-location: p2p\peergraphgetitemcount.htm
 old-project: p2psdk
 ms.assetid: db97b7e0-6f85-4b61-843f-efb4bc93149b
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphGetItemCount, PeerGraphGetItemCount function [Peer Networking], p2p.peergraphgetitemcount, p2p/PeerGraphGetItemCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphGetItemCount</b> function retrieves the  number of items in an enumeration.
+The <b>PeerGraphGetItemCount</b> function retrieves the  number of items in an enumeration.
 
 
 ## -parameters
@@ -124,8 +123,7 @@ A peer graph must be  initialized with a call to <a href="https://msdn.microsoft
 
 
 
-
-        Because some items can become invalid while an application is enumerating a set of items, the number of items returned from <a href="https://msdn.microsoft.com/f595e66d-570f-4642-bef8-ff5cf070649c">PeerGraphGetNextItem</a> can be less than the number of items  returned in <i>pCount</i>.  The value of  <i>pCount</i> indicates the number of items in an enumeration when the handle is created.  Due to the dynamic nature of the Peer Infrastructure, it is not guaranteed that the number of items retrieved by using <b>PeerGraphGetNextItem</b> is equal to <i>pCount</i>.
+Because some items can become invalid while an application is enumerating a set of items, the number of items returned from <a href="https://msdn.microsoft.com/f595e66d-570f-4642-bef8-ff5cf070649c">PeerGraphGetNextItem</a> can be less than the number of items  returned in <i>pCount</i>.  The value of  <i>pCount</i> indicates the number of items in an enumeration when the handle is created.  Due to the dynamic nature of the Peer Infrastructure, it is not guaranteed that the number of items retrieved by using <b>PeerGraphGetNextItem</b> is equal to <i>pCount</i>.
 
 
 

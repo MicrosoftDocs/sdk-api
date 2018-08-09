@@ -7,7 +7,7 @@ old-location: security\netisserviceaccount.htm
 old-project: secmgmt
 ms.assetid: 975e7c0d-d803-4d78-99ed-d07369341674
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 08/06/2018
 ms.keywords: NetIsServiceAccount, NetIsServiceAccount function [Security], lmaccess/NetIsServiceAccount, security.netisserviceaccount
 ms.prod: windows
 ms.technology: windows-sdk

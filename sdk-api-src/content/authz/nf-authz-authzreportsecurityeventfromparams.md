@@ -7,7 +7,7 @@ old-location: security\authzreportsecurityeventfromparams.htm
 old-project: secauthz
 ms.assetid: ee5b598a-0a89-4b32-a9bc-e9c811573b08
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AuthzReportSecurityEventFromParams, AuthzReportSecurityEventFromParams function [Security], authz/AuthzReportSecurityEventFromParams, security.authzreportsecurityeventfromparams
 ms.prod: windows
 ms.technology: windows-sdk

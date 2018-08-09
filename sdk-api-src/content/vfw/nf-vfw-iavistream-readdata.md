@@ -7,7 +7,7 @@ old-location: multimedia\iavistream_readdata.htm
 old-project: Multimedia
 ms.assetid: 688a19fb-5774-4e05-b0e8-4a98922def89
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],ReadData method, IAVIStream.ReadData, IAVIStream::ReadData, ReadData, ReadData method [Windows Multimedia], ReadData method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_ReadData, multimedia.iavistream_readdata, vfw/IAVIStream::ReadData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,6 +80,11 @@ Four-character code of the stream header to read.
 
 
 
+#### - ps
+
+Pointer to the interface to a stream.
+
+
 #### - lpBuffer
 
 Pointer to the buffer to contain the header data.
@@ -88,11 +93,6 @@ Pointer to the buffer to contain the header data.
 #### - lpcbBuffer
 
 Size, in bytes, of the buffer specified by <i>lpBuffer</i>. When this method returns control to the application, the contents of this parameter specifies the amount of data read.
-
-
-#### - ps
-
-Pointer to the interface to a stream.
 
 
 ## -returns

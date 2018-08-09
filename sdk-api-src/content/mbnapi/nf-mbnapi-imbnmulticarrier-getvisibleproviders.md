@@ -7,7 +7,7 @@ old-location: mbn\imbnmulticarrier_getvisibleproviders.htm
 old-project: mbn
 ms.assetid: AC11D275-C6E3-48EE-B3DA-C9BC8648D49D
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: GetVisibleProviders, GetVisibleProviders method [Microsoft Broadband Networks], GetVisibleProviders method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetVisibleProviders method, IMbnMultiCarrier.GetVisibleProviders, IMbnMultiCarrier::GetVisibleProviders, mbn.imbnmulticarrier_getvisibleproviders, mbnapi/IMbnMultiCarrier::GetVisibleProviders
 ms.prod: windows
 ms.technology: windows-sdk
@@ -145,8 +145,6 @@ This method returns the list of currently visible providers. CDMA devices will r
 To avoid frequent network scan operations,  Windows maintains a list of recent scan operations and the provider list is returned from the cached list.
 
 An application can call this method to get a list of visible providers upon the completion of <a href="https://msdn.microsoft.com/D249B5D4-B2C3-436A-B38A-041289422F12">ScanNetwork</a>.
-
-
 
 This list contains all the currently visible networks available at the user’s location excluding the ones reported by current registered provider and the list of preferred providers.  This list contains network entries that users have not subscribed to.  This list providers the user with an additional set of network choices they can potentially sign up for.
 

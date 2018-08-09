@@ -7,7 +7,7 @@ old-location: iscsidisc\refreshisnsserver.htm
 old-project: iSCSIDisc
 ms.assetid: c954126a-6bad-49cf-889e-81746fe175a4
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: RefreshISNSServerW, RefreshIsnsServer, RefreshIsnsServer function [iSCSI Discovery Library API], RefreshIsnsServerA, RefreshIsnsServerW, iscsidisc.refreshisnsserver, iscsidsc/RefreshIsnsServer, iscsidsc/RefreshIsnsServerA, iscsidsc/RefreshIsnsServerW
 ms.prod: windows
 ms.technology: windows-sdk

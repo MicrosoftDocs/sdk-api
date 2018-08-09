@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation_end.htm
 old-project: WMDM
 ms.assetid: f1a3f0b7-033d-4e93-aaca-43db88a9b705
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: End, End method [windows Media Device Manager], End method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],End method, IWMDMOperation.End, IWMDMOperation::End, IWMDMOperationEnd, mswmdm/IWMDMOperation::End, wmdm.iwmdmoperation_end
 ms.prod: windows
 ms.technology: windows-sdk

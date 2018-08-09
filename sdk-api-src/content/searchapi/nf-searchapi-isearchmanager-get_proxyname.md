@@ -7,7 +7,7 @@ old-location: search\_search_ISearchManager_get_ProxyName.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_proxyname.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchManager interface [search],get_ProxyName method, ISearchManager.get_ProxyName, ISearchManager::get_ProxyName, _search_ISearchManager_get_ProxyName, get_ProxyName, get_ProxyName method [search], get_ProxyName method [search],ISearchManager interface, search._search_ISearchManager_get_ProxyName, searchapi/ISearchManager::get_ProxyName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-            Retrieves the proxy name to be used by the protocol handler.
+Retrieves the proxy name to be used by the protocol handler.
         
 
 
@@ -65,8 +64,7 @@ req.product: ADAM
 
 Type: <b>LPWSTR*</b>
 
-
-                Receives a pointer to a Unicode string that contains the proxy name.
+Receives a pointer to a Unicode string that contains the proxy name.
             
 
 

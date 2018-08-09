@@ -7,7 +7,7 @@ old-location: ics\inetfwauthorizedapplications_remove.htm
 old-project: ics
 ms.assetid: 7c4e7d3f-6ab2-46f9-a5a0-f2901a8b5734
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INetFwAuthorizedApplications interface [ICS/ICF],Remove method, INetFwAuthorizedApplications.Remove, INetFwAuthorizedApplications::Remove, Remove, Remove method [ICS/ICF], Remove method [ICS/ICF],INetFwAuthorizedApplications interface, ics.inetfwauthorizedapplications_remove, netfw/INetFwAuthorizedApplications::Remove
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,8 +72,7 @@ Application name to be removed.
 
 
 <h3>C++</h3>
-
-						If the method succeeds the return value is <b>S_OK</b>.
+If the method succeeds the return value is <b>S_OK</b>.
 
 If the method fails, the return value is one of the following error codes.
 
@@ -119,8 +118,7 @@ The method was unable to allocate required memory.
  
 
 <h3>VB</h3>
-
-						If the method succeeds the return value is <b>S_OK</b>.
+If the method succeeds the return value is <b>S_OK</b>.
 
 If the method fails, the return value is one of the following error codes.
 

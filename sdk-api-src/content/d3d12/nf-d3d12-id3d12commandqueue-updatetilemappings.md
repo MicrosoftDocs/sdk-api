@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandqueue_updatetilemappings.htm
 old-project: direct3d12
 ms.assetid: 8A8017E5-AB55-4660-855B-D6F93F69CB52
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: ID3D12CommandQueue interface,UpdateTileMappings method, ID3D12CommandQueue.UpdateTileMappings, ID3D12CommandQueue::UpdateTileMappings, UpdateTileMappings, UpdateTileMappings method, UpdateTileMappings method,ID3D12CommandQueue interface, d3d12/ID3D12CommandQueue::UpdateTileMappings, direct3d12.id3d12commandqueue_updatetilemappings
 ms.prod: windows
 ms.technology: windows-sdk

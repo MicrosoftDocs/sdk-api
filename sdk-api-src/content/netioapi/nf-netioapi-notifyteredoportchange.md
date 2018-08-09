@@ -7,7 +7,7 @@ old-location: iphlp\notifyteredoportchange.htm
 old-project: iphlp
 ms.assetid: c0c23531-7629-41c9-acf2-9d2f5e98e02c
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: NotifyTeredoPortChange, NotifyTeredoPortChange function [IP Helper], iphlp.notifyteredoportchange, netioapi/NotifyTeredoPortChange
 ms.prod: windows
 ms.technology: windows-sdk

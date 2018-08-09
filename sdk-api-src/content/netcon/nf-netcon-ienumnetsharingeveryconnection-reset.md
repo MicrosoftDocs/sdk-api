@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingeveryconnection_reset.htm
 old-project: ics
 ms.assetid: c41539b9-2596-4bb4-9194-fa9accde165d
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: IEnumNetSharingEveryConnection interface [ICS/ICF],Reset method, IEnumNetSharingEveryConnection.Reset, IEnumNetSharingEveryConnection::Reset, Reset, Reset method [ICS/ICF], Reset method [ICS/ICF],IEnumNetSharingEveryConnection interface, _ics_ienumnetsharingeveryconnection_reset, ics.ienumnetsharingeveryconnection_reset, netcon/IEnumNetSharingEveryConnection::Reset
 ms.prod: windows
 ms.technology: windows-sdk

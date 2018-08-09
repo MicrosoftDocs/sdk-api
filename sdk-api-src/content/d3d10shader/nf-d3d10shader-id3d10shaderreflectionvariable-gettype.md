@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10shaderreflectionvariable_gettype.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflectionvariable_gettype.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 088c440d-f2c4-82ed-059a-f3ef98a485c6, GetType, GetType method [Direct3D 10], GetType method [Direct3D 10],ID3D10ShaderReflectionVariable interface, ID3D10ShaderReflectionVariable interface [Direct3D 10],GetType method, ID3D10ShaderReflectionVariable.GetType, ID3D10ShaderReflectionVariable::GetType, d3d10shader/ID3D10ShaderReflectionVariable::GetType, direct3d10.id3d10shaderreflectionvariable_gettype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ Get a shader-variable type.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173840(v=VS.85).aspx">ID3D10ShaderReflectionType</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173840(v=VS.85).aspx">ID3D10ShaderReflectionType</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Bb173840(v=VS.85).aspx">ID3D10ShaderReflectionType Interface</a>.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173840(v=VS.85).aspx">ID3D10ShaderReflectionType Interface</a>.
 
 
 
@@ -76,7 +76,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/Bb173840(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173845(v=VS.85).aspx">ID3D10ShaderReflectionVariable Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173845(v=VS.85).aspx">ID3D10ShaderReflectionVariable Interface</a>
  
 
  

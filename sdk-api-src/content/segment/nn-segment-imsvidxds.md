@@ -7,7 +7,7 @@ old-location: mstv\imsvidxds.htm
 old-project: mstv
 ms.assetid: ddd172fe-2f93-4b1b-b325-81be024bf74c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidXDS, IMSVidXDS interface [Microsoft TV Technologies], IMSVidXDS interface [Microsoft TV Technologies],described, IMSVidXDSInterface, mstv.imsvidxds, segment/IMSVidXDS
 ms.prod: windows
 ms.technology: windows-sdk

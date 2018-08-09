@@ -7,7 +7,7 @@ old-location: xps\ixpsomremotedictionaryresourcecollection_getcount.htm
 old-project: printdocs
 ms.assetid: 853fbce6-db0e-48c6-8a93-172c2568f45d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMRemoteDictionaryResourceCollection.GetCount, IXpsOMRemoteDictionaryResourceCollection::GetCount, xps.ixpsomremotedictionaryresourcecollection_getcount, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::GetCount
 ms.prod: windows
 ms.technology: windows-sdk

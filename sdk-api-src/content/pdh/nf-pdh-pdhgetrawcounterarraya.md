@@ -4,10 +4,10 @@ title: PdhGetRawCounterArrayA function
 author: windows-sdk-content
 description: Returns an array of raw values from the specified counter. Use this function when you want to retrieve the raw counter values of a counter that contains a wildcard character for the instance name.
 old-location: perf\pdhgetrawcounterarray.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 03b30d08-6901-45cd-bd6d-d2672eb0f914
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhGetRawCounterArray, PdhGetRawCounterArray function [Perf], PdhGetRawCounterArrayA, PdhGetRawCounterArrayW, _win32_pdhgetrawcounterarray, base.pdhgetrawcounterarray, pdh/PdhGetRawCounterArray, pdh/PdhGetRawCounterArrayA, pdh/PdhGetRawCounterArrayW, perf.pdhgetrawcounterarray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Returns an array of raw values from the specified counter.
+Returns an array of raw values from the specified counter.
 		Use this function when you want to retrieve the raw counter values of a counter that contains a wildcard character for the instance name.
 		
 
@@ -90,8 +89,7 @@ Caller-allocated buffer that receives the array of
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

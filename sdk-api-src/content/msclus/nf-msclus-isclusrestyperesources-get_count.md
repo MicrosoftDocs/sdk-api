@@ -7,7 +7,7 @@ old-location: mscs\clusrestyperesources_count.htm
 old-project: mscs
 ms.assetid: ccd8739e-9309-4630-92cd-5b2894eb416a
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusResTypeResources class [Failover Cluster],Count property, ClusResTypeResources.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusResTypeResources class, ISClusResTypeResources.get_Count, ISClusResTypeResources::get_Count, _wolf_clusrestyperesources.count, get_Count, mscs.clusrestyperesources_count
 ms.prod: windows
 ms.technology: windows-sdk

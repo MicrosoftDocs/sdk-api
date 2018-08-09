@@ -7,7 +7,7 @@ old-location: tablet\iinklineinfo.htm
 old-project: tablet
 ms.assetid: 58774f49-6af2-4b81-bbd5-709eb694af2d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 58774f49-6af2-4b81-bbd5-709eb694af2d, IInkLineInfo, IInkLineInfo interface [Tablet PC], IInkLineInfo interface [Tablet PC],described, msinkaut/IInkLineInfo, tablet.iinklineinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-          The <b>IInkLineInfo</b> interface provides access to the display properties and recognition result list of a text ink object (tInk).
+The <b>IInkLineInfo</b> interface provides access to the display properties and recognition result list of a text ink object (tInk).
         
 
 

@@ -7,7 +7,7 @@ old-location: gdi\lptodp.htm
 old-project: gdi
 ms.assetid: 670a16fb-842e-4250-9ad7-dc08e849c2ba
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: LPtoDP, LPtoDP function [Windows GDI], _win32_LPtoDP, gdi.lptodp, wingdi/LPtoDP
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,24 +67,12 @@ The <b>LPtoDP</b> function converts logical coordinates into device coordinates.
 A handle to the device context.
 
 
-### -param lppt
-
-TBD
-
-
-### -param c
-
-TBD
-
-
-
-
-#### - lpPoints [in, out]
+### -param lppt [in, out]
 
 A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures. The x-coordinates and y-coordinates contained in each of the <b>POINT</b> structures will be transformed.
 
 
-#### - nCount [in]
+### -param c [in]
 
 The number of points in the array.
 

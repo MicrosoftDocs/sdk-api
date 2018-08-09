@@ -7,7 +7,7 @@ old-location: automat\varbstrfromr4.htm
 old-project: automat
 ms.assetid: 368f691b-1f9c-4271-a76b-cd07d05cda23
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarBstrFromR4, VarBstrFromR4 function [Automation], _oa96_VarBstrFromR4, automat.varbstrfromr4, oleauto/VarBstrFromR4
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imftranscodesinkinfoprovider_setoutputfile.htm
 old-project: medfound
 ms.assetid: 048d1822-9349-4d49-a468-c89bc9c51583
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFTranscodeSinkInfoProvider interface [Media Foundation],SetOutputFile method, IMFTranscodeSinkInfoProvider.SetOutputFile, IMFTranscodeSinkInfoProvider::SetOutputFile, SetOutputFile, SetOutputFile method [Media Foundation], SetOutputFile method [Media Foundation],IMFTranscodeSinkInfoProvider interface, mf.imftranscodesinkinfoprovider_setoutputfile, mfidl/IMFTranscodeSinkInfoProvider::SetOutputFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        The media sink will create a local file with the specified file name.
+The media sink will create a local file with the specified file name.
 
 Alternately, you can call <a href="https://msdn.microsoft.com/234bed82-a148-4313-a8cb-eefe2061b7ed">IMFTranscodeSinkInfoProvider::SetOutputByteStream</a> to specify a byte stream  that will receive the transcoded data. These two methods are mutually exclusive.
 

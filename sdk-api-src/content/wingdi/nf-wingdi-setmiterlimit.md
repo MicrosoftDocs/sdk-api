@@ -7,7 +7,7 @@ old-location: gdi\setmiterlimit.htm
 old-project: gdi
 ms.assetid: 4bed113b-9e3f-441f-96d7-71630bf9298e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetMiterLimit, SetMiterLimit function [Windows GDI], _win32_SetMiterLimit, gdi.setmiterlimit, wingdi/SetMiterLimit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,24 +65,12 @@ The <b>SetMiterLimit</b> function sets the limit for the length of miter joins f
 Handle to the device context.
 
 
-### -param limit
-
-TBD
-
-
-### -param old
-
-TBD
-
-
-
-
-#### - eNewLimit [in]
+### -param limit [in]
 
 Specifies the new miter limit for the device context.
 
 
-#### - peOldLimit [out]
+### -param old [out]
 
 Pointer to a floating-point value that receives the previous miter limit. If this parameter is <b>NULL</b>, the previous miter limit is not returned.
 

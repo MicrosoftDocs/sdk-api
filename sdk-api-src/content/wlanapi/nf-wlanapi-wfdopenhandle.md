@@ -4,10 +4,10 @@ title: WFDOpenHandle function
 author: windows-sdk-content
 description: Opens a handle to the Wi-Fi Direct service and negotiates a version of the Wi-FI Direct API to use.
 old-location: nwifi\wfdopenhandle.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: D89FAC10-BC33-44BE-ABC8-962241949281
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WFDOpenHandle, WFDOpenHandle function [NativeWIFI], nwifi.wfdopenhandle, wlanapi/WFDOpenHandle
 ms.prod: windows
 ms.technology: windows-sdk

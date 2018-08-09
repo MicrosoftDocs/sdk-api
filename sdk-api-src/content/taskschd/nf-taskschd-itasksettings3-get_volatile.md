@@ -4,10 +4,10 @@ title: ITaskSettings3::get_Volatile
 author: windows-sdk-content
 description: Gets or sets a boolean value that indicates whether the task is automatically disabled every time Windows starts.
 old-location: taskschd\itasksettings3_volatile.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: C5A28292-13A0-42DC-BF94-4F1A03A3306C
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ITaskSettings3 interface [Task Scheduler],Volatile property, ITaskSettings3.Volatile, ITaskSettings3.get_Volatile, ITaskSettings3::Volatile, ITaskSettings3::get_Volatile, ITaskSettings3::put_Volatile, Volatile property [Task Scheduler], Volatile property [Task Scheduler],ITaskSettings3 interface, get_Volatile, taskschd.itasksettings3_volatile, taskschd/ITaskSettings3::Volatile, taskschd/ITaskSettings3::get_Volatile, taskschd/ITaskSettings3::put_Volatile
 ms.prod: windows
 ms.technology: windows-sdk

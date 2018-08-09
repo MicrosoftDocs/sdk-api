@@ -7,7 +7,7 @@ old-location: mf\idirect3ddevicemanager9.htm
 old-project: medfound
 ms.assetid: e661e666-dc51-4a71-9ecd-62a667bb217d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IDirect3DDeviceManager9, IDirect3DDeviceManager9 interface [Media Foundation], IDirect3DDeviceManager9 interface [Media Foundation],described, dxva2api/IDirect3DDeviceManager9, e661e666-dc51-4a71-9ecd-62a667bb217d, mf.idirect3ddevicemanager9
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,8 +83,7 @@ Closes a Direct3D device handle.
 <a href="https://msdn.microsoft.com/2e62a750-3017-4dd7-9fbc-e2c641f6cf10">GetVideoService</a>
 </td>
 <td align="left" width="63%">
-
-          Gets a DirectX Video Acceleration (DXVA) service interface.
+Gets a DirectX Video Acceleration (DXVA) service interface.
         
 
 </td>
@@ -94,8 +93,7 @@ Closes a Direct3D device handle.
 <a href="https://msdn.microsoft.com/51631747-04af-448e-97cf-25a329d4fbb4">LockDevice</a>
 </td>
 <td align="left" width="63%">
-
-          Gives the caller exclusive access to the Direct3D device.
+Gives the caller exclusive access to the Direct3D device.
         
 
 </td>
@@ -105,8 +103,7 @@ Closes a Direct3D device handle.
 <a href="https://msdn.microsoft.com/74cd2260-279a-4956-8fce-40f8008b6797">OpenDeviceHandle</a>
 </td>
 <td align="left" width="63%">
-
-          Gets a handle to the Direct3D device.
+Gets a handle to the Direct3D device.
         
 
 </td>
@@ -116,8 +113,7 @@ Closes a Direct3D device handle.
 <a href="https://msdn.microsoft.com/01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33">ResetDevice</a>
 </td>
 <td align="left" width="63%">
-
-          Sets the Direct3D device or notifies the device manager that the Direct3D device was reset.
+Sets the Direct3D device or notifies the device manager that the Direct3D device was reset.
 
 </td>
 </tr>

@@ -7,8 +7,8 @@ old-location: p2p\peer_connection_flags.htm
 old-project: p2psdk
 ms.assetid: 24723421-18e4-4333-8c25-f5ee08182f7f
 ms.author: windowssdkdev
-ms.date: 07/17/2018
-ms.keywords: PEER_CONNECTION_DIRECT, PEER_CONNECTION_FLAGS, PEER_CONNECTION_FLAGS enumeration [Peer Networking], PEER_CONNECTION_NEIGHBOR, p2p.peer_connection_flags, p2p/ PEER_CONNECTION_FLAGS, p2p/PEER_CONNECTION_DIRECT, p2p/PEER_CONNECTION_NEIGHBOR, peer_connection_flags_tag
+ms.date: 08/06/2018
+ms.keywords: PEER_CONNECTION_DIRECT, PEER_CONNECTION_FLAGS, PEER_CONNECTION_FLAGS enumeration [Peer Networking], PEER_CONNECTION_NEIGHBOR, p2p.peer_connection_flags, p2p/PEER_CONNECTION_DIRECT, p2p/PEER_CONNECTION_FLAGS, p2p/PEER_CONNECTION_NEIGHBOR, peer_connection_flags_tag
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PEER_CONNECTION_FLAGS</b> enumeration specifies the types of connections that a peer can have.
+The <b>PEER_CONNECTION_FLAGS</b> enumeration specifies the types of connections that a peer can have.
 
 
 ## -enum-fields

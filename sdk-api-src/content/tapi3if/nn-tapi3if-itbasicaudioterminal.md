@@ -4,10 +4,10 @@ title: ITBasicAudioTerminal
 author: windows-sdk-content
 description: The ITBasicAudioTerminal interface provides methods that allow an application to control basic sound characteristics of terminal.
 old-location: tapi3\itbasicaudioterminal.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 3e676a16-f3ce-433c-9941-8cdccdb01efd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITBasicAudioTerminal, ITBasicAudioTerminal interface [TAPI 2.2], ITBasicAudioTerminal interface [TAPI 2.2],described, _tapi3_itbasicaudioterminal, tapi3.itbasicaudioterminal, tapi3if/ITBasicAudioTerminal
 ms.prod: windows
 ms.technology: windows-sdk

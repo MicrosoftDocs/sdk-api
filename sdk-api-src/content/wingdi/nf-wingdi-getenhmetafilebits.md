@@ -7,7 +7,7 @@ old-location: gdi\getenhmetafilebits.htm
 old-project: gdi
 ms.assetid: 2bbfa0da-5b1e-4843-9777-c2e4c5fd3b78
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetEnhMetaFileBits, GetEnhMetaFileBits function [Windows GDI], _win32_GetEnhMetaFileBits, gdi.getenhmetafilebits, wingdi/GetEnhMetaFileBits
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,34 +63,17 @@ The <b>GetEnhMetaFileBits</b> function retrieves the contents of the specified e
 
 
 
-### -param hEMF
-
-TBD
-
-
-### -param nSize
-
-TBD
-
-
-### -param lpData
-
-TBD
-
-
-
-
-#### - cbBuffer [in]
-
-The size, in bytes, of the buffer to receive the data.
-
-
-#### - hemf [in]
+### -param hEMF [in]
 
 A handle to the enhanced metafile.
 
 
-#### - lpbBuffer [out]
+### -param nSize [in]
+
+The size, in bytes, of the buffer to receive the data.
+
+
+### -param lpData [out]
 
 A pointer to a buffer that receives the metafile data. The buffer must be sufficiently large to contain the data. If <i>lpbBuffer</i> is <b>NULL</b>, the function returns the size necessary to hold the data.
 

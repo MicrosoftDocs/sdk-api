@@ -7,7 +7,7 @@ old-location: controls\ListView_GetInsertMarkRect.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getinsertmarkrect.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_GetInsertMarkRect, ListView_GetInsertMarkRect macro [Windows Controls], _win32_ListView_GetInsertMarkRect, _win32_ListView_GetInsertMarkRect_cpp, commctrl/ListView_GetInsertMarkRect, controls.ListView_GetInsertMarkRect, controls._win32_ListView_GetInsertMarkRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the rectangle that bounds the insertion point. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774949(v=VS.85).aspx">LVM_GETINSERTMARKRECT</a> message explicitly. 
+Gets the rectangle that bounds the insertion point. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774949(v=VS.85).aspx">LVM_GETINSERTMARKRECT</a> message explicitly. 
 
 
 ## -parameters
@@ -67,15 +67,6 @@ A handle to the list-view control.
 
 ### -param rc
 
-TBD
-
-
-
-
-
-
-#### - prc
-
 Type: <b>LPRECT</b>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
@@ -84,7 +75,7 @@ Type: <b>LPRECT</b>
 
 
 
-To use <b>ListView_GetInsertMarkRect</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_GetInsertMarkRect</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

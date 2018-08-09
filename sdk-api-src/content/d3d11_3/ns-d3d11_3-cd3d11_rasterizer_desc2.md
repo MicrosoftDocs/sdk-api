@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_rasterizer_desc2.htm
 old-project: direct3d11
 ms.assetid: 54B5744A-1F50-4203-A43B-7E830D769534
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: CD3D11_RASTERIZER_DESC2, D3D11_RASTERIZER_DESC2, D3D11_RASTERIZER_DESC2 structure [Direct3D 11], d3d11_3/D3D11_RASTERIZER_DESC2, direct3d11.d3d11_rasterizer_desc2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,19 +65,19 @@ Describes rasterizer state.
 
 
 
-#### - AntialiasedLineEnable
+#### - FillMode
 
-Specifies whether to enable line antialiasing; only applies if doing line drawing and <b>MultisampleEnable</b> is <b>FALSE</b>. For more info about this member, see Remarks.
-
-
-#### - ConservativeRaster
-
-A <a href="https://msdn.microsoft.com/79D5A8A2-E379-4BE7-A0B2-50D16EFECAA3">D3D11_CONSERVATIVE_RASTERIZATION_MODE</a>-typed value that identifies whether conservative rasterization is on or off.
+A <a href="https://msdn.microsoft.com/853a7df5-4740-40dd-9188-2b399f3aae68">D3D11_FILL_MODE</a>-typed value that determines the fill mode to use when rendering.
 
 
 #### - CullMode
 
 A <a href="https://msdn.microsoft.com/437c4e2f-f120-44db-b0ce-f4dd4e666814">D3D11_CULL_MODE</a>-typed value that indicates that triangles facing the specified direction are not drawn.
+
+
+#### - FrontCounterClockwise
+
+Specifies whether a triangle is front- or back-facing. If <b>TRUE</b>, a triangle will be considered front-facing if its vertices are counter-clockwise on the render target and considered back-facing if they are clockwise. If <b>FALSE</b>, the opposite is true.
 
 
 #### - DepthBias
@@ -88,6 +88,11 @@ Depth value added to a given pixel. For info about depth bias, see <a href="http
 #### - DepthBiasClamp
 
 Maximum depth bias of a pixel. For info about depth bias, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj123786">Depth Bias</a>.
+
+
+#### - SlopeScaledDepthBias
+
+Scalar on a given pixel's slope. For info about depth bias, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj123786">Depth Bias</a>.
 
 
 #### - DepthClipEnable
@@ -107,9 +112,19 @@ When you set <b>DepthClipEnable</b> to <b>FALSE</b>, the hardware skips the z cl
 
 
 
-#### - FillMode
+#### - ScissorEnable
 
-A <a href="https://msdn.microsoft.com/853a7df5-4740-40dd-9188-2b399f3aae68">D3D11_FILL_MODE</a>-typed value that determines the fill mode to use when rendering.
+Specifies whether to enable scissor-rectangle culling. All pixels outside an active scissor rectangle are culled.
+
+
+#### - MultisampleEnable
+
+Specifies whether to use the quadrilateral or alpha line anti-aliasing algorithm on multisample antialiasing (MSAA) render targets. Set to <b>TRUE</b> to use the quadrilateral line anti-aliasing algorithm and to <b>FALSE</b> to use the alpha line anti-aliasing algorithm. For more info about this member, see Remarks.
+
+
+#### - AntialiasedLineEnable
+
+Specifies whether to enable line antialiasing; only applies if doing line drawing and <b>MultisampleEnable</b> is <b>FALSE</b>. For more info about this member, see Remarks.
 
 
 #### - ForcedSampleCount
@@ -122,29 +137,14 @@ The sample count that is forced while UAV rendering or rasterizing. Valid values
 <li>Don't bind depth-stencil views.</li>
 <li>Disable depth testing.</li>
 <li>Ensure the shader doesn't output depth.</li>
-<li>If you have any render-target views bound (<a href="https://msdn.microsoft.com/library/Ff476085(v=VS.85).aspx">D3D11_BIND_RENDER_TARGET</a>) and <b>ForcedSampleCount</b> is greater than 1, ensure that every render target has only a single sample.</li>
+<li>If you have any render-target views bound (<a href="https://msdn.microsoft.com/en-us/library/Ff476085(v=VS.85).aspx">D3D11_BIND_RENDER_TARGET</a>) and <b>ForcedSampleCount</b> is greater than 1, ensure that every render target has only a single sample.</li>
 <li>Don't operate the shader at sample frequency. Therefore, <a href="https://msdn.microsoft.com/e57cdb67-90b6-4d5d-967b-5de3a9bbaf78">ID3D11ShaderReflection::IsSampleFrequencyShader</a> returns <b>FALSE</b>.</li>
-</ul>Otherwise, rendering behavior is undefined. For info about how to configure depth-stencil, see <a href="https://msdn.microsoft.com/library/Bb205074(v=VS.85).aspx">Configuring Depth-Stencil Functionality</a>.</div>
+</ul>Otherwise, rendering behavior is undefined. For info about how to configure depth-stencil, see <a href="https://msdn.microsoft.com/en-us/library/Bb205074(v=VS.85).aspx">Configuring Depth-Stencil Functionality</a>.</div>
 <div> </div>
 
-#### - FrontCounterClockwise
+#### - ConservativeRaster
 
-Specifies whether a triangle is front- or back-facing. If <b>TRUE</b>, a triangle will be considered front-facing if its vertices are counter-clockwise on the render target and considered back-facing if they are clockwise. If <b>FALSE</b>, the opposite is true.
-
-
-#### - MultisampleEnable
-
-Specifies whether to use the quadrilateral or alpha line anti-aliasing algorithm on multisample antialiasing (MSAA) render targets. Set to <b>TRUE</b> to use the quadrilateral line anti-aliasing algorithm and to <b>FALSE</b> to use the alpha line anti-aliasing algorithm. For more info about this member, see Remarks.
-
-
-#### - ScissorEnable
-
-Specifies whether to enable scissor-rectangle culling. All pixels outside an active scissor rectangle are culled.
-
-
-#### - SlopeScaledDepthBias
-
-Scalar on a given pixel's slope. For info about depth bias, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj123786">Depth Bias</a>.
+A <a href="https://msdn.microsoft.com/79D5A8A2-E379-4BE7-A0B2-50D16EFECAA3">D3D11_CONSERVATIVE_RASTERIZATION_MODE</a>-typed value that identifies whether conservative rasterization is on or off.
 
 
 ## -remarks
@@ -211,7 +211,7 @@ If you do not specify some rasterizer state,  the Direct3D runtime uses the foll
 </table>
  
 
-<div class="alert"><b>Note</b>  For <a href="https://msdn.microsoft.com/library/Ff476876(v=VS.85).aspx">feature levels</a> 9.1, 9.2, 9.3, and 10.0, if you set <b>MultisampleEnable</b> to <b>FALSE</b>, the runtime renders all points, lines, and triangles without anti-aliasing even for render targets with a sample count greater than 1. For feature levels 10.1 and higher, the setting of <b>MultisampleEnable</b> has no effect on points and triangles with regard to MSAA and impacts only the selection of the line-rendering algorithm as shown in this table:</div>
+<div class="alert"><b>Note</b>  For <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature levels</a> 9.1, 9.2, 9.3, and 10.0, if you set <b>MultisampleEnable</b> to <b>FALSE</b>, the runtime renders all points, lines, and triangles without anti-aliasing even for render targets with a sample count greater than 1. For feature levels 10.1 and higher, the setting of <b>MultisampleEnable</b> has no effect on points and triangles with regard to MSAA and impacts only the selection of the line-rendering algorithm as shown in this table:</div>
 <div> </div>
 
 <table>
@@ -245,7 +245,7 @@ If you do not specify some rasterizer state,  the Direct3D runtime uses the foll
 
 
 
-The settings of the <b>MultisampleEnable</b> and <b>AntialiasedLineEnable</b> members apply only to multisample antialiasing (MSAA) render targets (that is, render targets with sample counts greater than 1). Because of the differences in <a href="https://msdn.microsoft.com/library/Ff476876(v=VS.85).aspx">feature-level</a> behavior and as long as you aren’t performing any line drawing or don’t mind that lines render as quadrilaterals, we recommend that you always set <b>MultisampleEnable</b> to <b>TRUE</b> whenever you render on MSAA render targets.
+The settings of the <b>MultisampleEnable</b> and <b>AntialiasedLineEnable</b> members apply only to multisample antialiasing (MSAA) render targets (that is, render targets with sample counts greater than 1). Because of the differences in <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature-level</a> behavior and as long as you aren’t performing any line drawing or don’t mind that lines render as quadrilaterals, we recommend that you always set <b>MultisampleEnable</b> to <b>TRUE</b> whenever you render on MSAA render targets.
 
 
 

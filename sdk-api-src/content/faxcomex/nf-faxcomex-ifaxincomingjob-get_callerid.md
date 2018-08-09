@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingjob_callerid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0jac.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: CallerId property [Fax Service], CallerId property [Fax Service],FaxIncomingJob object, FaxIncomingJob object [Fax Service],CallerId property, FaxIncomingJob.CallerId, IFaxIncomingJob.get_CallerId, IFaxIncomingJob::get_CallerId, _mfax_faxincomingjob.callerid, fax._mfax_faxincomingjob_callerid, fax._mfax_faxincomingjob_callerid_vb, get_CallerId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,15 +64,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684878(v=VS.85).aspx">IFaxIncomingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684878(v=VS.85).aspx">IFaxIncomingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692952(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692952(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

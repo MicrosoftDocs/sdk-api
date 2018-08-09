@@ -7,7 +7,7 @@ old-location: wintouch\getgestureinfo.htm
 old-project: wintouch
 ms.assetid: 407ed585-09aa-4174-8907-8bb9590f1795
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetGestureInfo, GetGestureInfo function [Windows Touch], wintouch.getgestureinfo, winuser/GetGestureInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfstreamsink_placemarker.htm
 old-project: medfound
 ms.assetid: bfa4fb12-59b2-4599-b8ff-dc38750a5a79
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFStreamSink interface [Media Foundation],PlaceMarker method, IMFStreamSink.PlaceMarker, IMFStreamSink::PlaceMarker, PlaceMarker, PlaceMarker method [Media Foundation], PlaceMarker method [Media Foundation],IMFStreamSink interface, bfa4fb12-59b2-4599-b8ff-dc38750a5a79, mf.imfstreamsink_placemarker, mfidl/IMFStreamSink::PlaceMarker
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,22 +65,19 @@ Places a marker in the stream.
 
 ### -param eMarkerType [in]
 
-
-            Specifies the marker type, as a member of the <a href="https://msdn.microsoft.com/d1c5f8ee-a451-44af-bf43-7623cea2be37">MFSTREAMSINK_MARKER_TYPE</a> enumeration.
+Specifies the marker type, as a member of the <a href="https://msdn.microsoft.com/d1c5f8ee-a451-44af-bf43-7623cea2be37">MFSTREAMSINK_MARKER_TYPE</a> enumeration.
           
 
 
 ### -param pvarMarkerValue [in]
 
-
-            Optional pointer to a <b>PROPVARIANT</b> that contains additional information related to the marker. The meaning of this value depends on the marker type. This parameter can be <b>NULL</b>.
+Optional pointer to a <b>PROPVARIANT</b> that contains additional information related to the marker. The meaning of this value depends on the marker type. This parameter can be <b>NULL</b>.
           
 
 
 ### -param pvarContextValue [in]
 
-
-            Optional pointer to a <b>PROPVARIANT</b> that is attached to the <a href="https://msdn.microsoft.com/40f68352-86e5-4864-9ca0-f30998857fef">MEStreamSinkMarker</a> event. Call <a href="https://msdn.microsoft.com/05e57b40-2565-4312-866e-50f0c7d62c4a">IMFMediaEvent::GetValue</a> to get this value from the event. The caller can use this information for any purpose. This parameter can be <b>NULL</b>.
+Optional pointer to a <b>PROPVARIANT</b> that is attached to the <a href="https://msdn.microsoft.com/40f68352-86e5-4864-9ca0-f30998857fef">MEStreamSinkMarker</a> event. Call <a href="https://msdn.microsoft.com/05e57b40-2565-4312-866e-50f0c7d62c4a">IMFMediaEvent::GetValue</a> to get this value from the event. The caller can use this information for any purpose. This parameter can be <b>NULL</b>.
           
 
 
@@ -88,8 +85,7 @@ Places a marker in the stream.
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -104,8 +100,7 @@ Places a marker in the stream.
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -117,8 +112,7 @@ Places a marker in the stream.
 </dl>
 </td>
 <td width="60%">
-
-                The media sink's <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> method has been called.
+The media sink's <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> method has been called.
               
 
 </td>
@@ -130,8 +124,7 @@ Places a marker in the stream.
 </dl>
 </td>
 <td width="60%">
-
-                This stream was removed from the media sink and is no longer valid.
+This stream was removed from the media sink and is no longer valid.
               
 
 </td>

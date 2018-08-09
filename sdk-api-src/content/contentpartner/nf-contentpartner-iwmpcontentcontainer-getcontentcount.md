@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentcontainer_getcontentcount.htm
 old-project: WMP
 ms.assetid: 0a12f6b3-c253-4d07-aa5e-556faa6fbccb
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/30/2018
 ms.keywords: GetContentCount, GetContentCount method [Windows Media Player], GetContentCount method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetContentCount method, IWMPContentContainer.GetContentCount, IWMPContentContainer::GetContentCount, IWMPContentContainerGetContentCount, contentpartner/IWMPContentContainer::GetContentCount, wmp.iwmpcontentcontainer_getcontentcount
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_width.htm
 old-project: DirectShow
 ms.assetid: 179b065a-7269-40fa-8772-b336f27d69de
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Width method, IVideoWindow.get_Width, IVideoWindow::get_Width, IVideoWindowget_Width, control/IVideoWindow::get_Width, dshow.ivideowindow_get_width, get_Width, get_Width method [DirectShow], get_Width method [DirectShow],IVideoWindow interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ The <code>get_Width</code> method retrieves the width of the video window.
 
 ### -param pWidth [out]
 
-
-            Receives the width, in pixels.
+Receives the width, in pixels.
           
 
 

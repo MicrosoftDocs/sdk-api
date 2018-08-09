@@ -7,7 +7,7 @@ old-location: gdi\unrealizeobject.htm
 old-project: gdi
 ms.assetid: b84cd0b3-fdf1-4f12-bc45-308032d6d698
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: UnrealizeObject, UnrealizeObject function [Windows GDI], _win32_UnrealizeObject, gdi.unrealizeobject, wingdi/UnrealizeObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ The <b>UnrealizeObject</b> function resets the origin of a brush or resets a log
 
 
 
-### -param h
-
-TBD
-
-
-
-
-#### - hgdiobj [in]
+### -param h [in]
 
 A handle to the logical palette to be reset.
 

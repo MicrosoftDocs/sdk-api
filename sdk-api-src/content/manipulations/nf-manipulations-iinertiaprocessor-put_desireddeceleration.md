@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_desireddeceleration.htm
 old-project: wintouch
 ms.assetid: 2ad39e7e-b433-4a40-aea2-53cf23247f25
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/06/2018
 ms.keywords: DesiredDeceleration property [Windows Touch], DesiredDeceleration property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredDeceleration property, IInertiaProcessor.DesiredDeceleration, IInertiaProcessor.put_DesiredDeceleration, IInertiaProcessor::DesiredDeceleration, IInertiaProcessor::get_DesiredDeceleration, IInertiaProcessor::put_DesiredDeceleration, manipulations/IInertiaProcessor::DesiredDeceleration, manipulations/IInertiaProcessor::get_DesiredDeceleration, manipulations/IInertiaProcessor::put_DesiredDeceleration, put_DesiredDeceleration, wintouch.iinertiaprocessor_desireddeceleration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,8 +67,7 @@ This property is read/write.
 
 <b>DesiredDeceleration</b> and <a href="https://msdn.microsoft.com/cbcd7ce7-7df4-48d8-acfe-dc206f5d70d1">DesiredDisplacement</a> are mutually exclusive.  If one is set, the other should be NaN.
 
-
-        If inertia processing has already started, setting <b>DesiredDeceleration</b> will reset the inertia engine to the initial state with new deceleration value applied.
+If inertia processing has already started, setting <b>DesiredDeceleration</b> will reset the inertia engine to the initial state with new deceleration value applied.
       
 
 Call this function to set the initial state of inertia. You would call this function most likely during the <a href="https://msdn.microsoft.com/1284df32-f4e8-43b3-b825-9172ad39f0e6">ManipulationCompleted</a> event of the <a href="https://msdn.microsoft.com/963f87c1-e128-4bd5-9f28-d49418f768fb">IManipulationProcessor</a> or in the constructor of the <a href="https://msdn.microsoft.com/8dc171eb-0c6e-41dd-b506-5f91ea703a53">IInertiaProcessor</a> interface.

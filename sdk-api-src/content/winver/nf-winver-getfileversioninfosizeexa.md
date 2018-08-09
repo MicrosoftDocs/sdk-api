@@ -7,7 +7,7 @@ old-location: menurc\getfileversioninfosizeex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\getfileversioninfosizeex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: FILE_VER_GET_LOCALISED, FILE_VER_GET_NEUTRAL, GetFileVersionInfoSizeEx, GetFileVersionInfoSizeEx function [Menus and Other Resources], GetFileVersionInfoSizeExA, GetFileVersionInfoSizeExW, _win32_GetFileVersionInfoSizeEx, _win32_getfileversioninfosizeex_cpp, menurc.getfileversioninfosizeex, winui._win32_getfileversioninfosizeex, winver/GetFileVersionInfoSizeEx, winver/GetFileVersionInfoSizeExA, winver/GetFileVersionInfoSizeExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,9 +105,11 @@ Loads the version resource strings from the corresponding MUI file, if available
  
 
 
-### -param lpwstrFilename
+### -param lpwstrFilename [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+The name of the file of interest. The function uses the search sequence specified by the  <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> function.
 
 
 ### -param lpdwHandle [out]
@@ -115,13 +117,6 @@ TBD
 Type: <b>LPDWORD</b>
 
 When this function returns, contains a pointer to a variable that is set to zero because this function sets it to zero. This parameter exists for historical reasons.
-
-
-#### - lptstrFilename [in]
-
-Type: <b>LPCTSTR</b>
-
-The name of the file of interest. The function uses the search sequence specified by the  <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> function.
 
 
 ## -returns

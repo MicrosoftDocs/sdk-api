@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaProviderForNonClientFunction.htm
 old-project: WinAuto
 ms.assetid: 440E6659-C62F-4567-B00F-B0F0B0F21817
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: UiaProviderForNonClient, UiaProviderForNonClient function [Windows Accessibility], uiautomationcoreapi/UiaProviderForNonClient, winauto.uiauto_UiaProviderForNonClientFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,14 +80,7 @@ Type: <b>long</b>
 The child identifier of the non-client control.
 
 
-### -param ppProvider
-
-TBD
-
-
-
-
-#### - pProvider [out]
+### -param ppProvider [out]
 
 Type: <b><a href="https://msdn.microsoft.com/f0ec6185-acd0-4df7-88f4-fd00747f98bf">IRawElementProviderSimple</a>**</b>
 

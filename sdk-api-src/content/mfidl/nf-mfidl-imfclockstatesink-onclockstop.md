@@ -7,7 +7,7 @@ old-location: mf\imfclockstatesink_onclockstop.htm
 old-project: medfound
 ms.assetid: 472b704f-d402-4e0b-96b8-fea267e8ff63
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 472b704f-d402-4e0b-96b8-fea267e8ff63, IMFClockStateSink interface [Media Foundation],OnClockStop method, IMFClockStateSink.OnClockStop, IMFClockStateSink::OnClockStop, OnClockStop, OnClockStop method [Media Foundation], OnClockStop method [Media Foundation],IMFClockStateSink interface, mf.imfclockstatesink_onclockstop, mfidl/IMFClockStateSink::OnClockStop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Called when the presentation clock stops.
+Called when the presentation clock stops.
         
 
 
@@ -71,8 +70,7 @@ req.product: GDI+ 1.1
 
 #### - hnssSystemTime [in]
 
-
-            The system time when the clock stopped, in 100-nanosecond units.
+The system time when the clock stopped, in 100-nanosecond units.
           
 
 
@@ -80,8 +78,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -96,8 +93,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -123,12 +119,10 @@ Deprecated. Do not use this error code.
 
 
 
-
-        When the presentation clock's <a href="https://msdn.microsoft.com/54377d65-2af7-410d-b8cf-45f467527a45">IMFPresentationClock::Stop</a> method is called, the clock notifies the presentation time source by calling the presentation time source's <b>OnClockStop</b> method. This call occurs synchronously within the <b>Stop</b> method. If the time source returns an error from <b>OnClockStop</b>, the presentation clock's <b>Stop</b> method returns an error and the state change does not take place.
+When the presentation clock's <a href="https://msdn.microsoft.com/54377d65-2af7-410d-b8cf-45f467527a45">IMFPresentationClock::Stop</a> method is called, the clock notifies the presentation time source by calling the presentation time source's <b>OnClockStop</b> method. This call occurs synchronously within the <b>Stop</b> method. If the time source returns an error from <b>OnClockStop</b>, the presentation clock's <b>Stop</b> method returns an error and the state change does not take place.
       
 
-
-        For any object that is not the presentation time source, the <b>OnClockStop</b> method is called asynchronously, after the state change is completed. 
+For any object that is not the presentation time source, the <b>OnClockStop</b> method is called asynchronously, after the state change is completed. 
 
 If an object is already stopped, it should return <b>S_OK</b> from <b>OnClockStop</b>. It should not return an error code. 
 

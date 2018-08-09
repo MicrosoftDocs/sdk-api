@@ -7,7 +7,7 @@ old-location: mstv\isbe2crossbar_enabledefaultmode.htm
 old-project: mstv
 ms.assetid: 5038050b-319d-488a-9cea-a2fc59b90cc8
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: EnableDefaultMode, EnableDefaultMode method [Microsoft TV Technologies], EnableDefaultMode method [Microsoft TV Technologies],ISBE2Crossbar interface, ISBE2Crossbar interface [Microsoft TV Technologies],EnableDefaultMode method, ISBE2Crossbar.EnableDefaultMode, ISBE2Crossbar::EnableDefaultMode, mstv.isbe2crossbar_enabledefaultmode, sbe/ISBE2Crossbar::EnableDefaultMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      Enables or disables the profile default mode and stream default mode for a crossbar in a <a href="https://msdn.microsoft.com/435081e9-8a3f-42ab-9091-30c7c3dd59c6">Stream Buffer Source</a> filter.
+Enables or disables the profile default mode and stream default mode for a crossbar in a <a href="https://msdn.microsoft.com/435081e9-8a3f-42ab-9091-30c7c3dd59c6">Stream Buffer Source</a> filter.
     The <i>profile</i>  describes a set of media types that can be used to create out pins, one media type per output pin. The <i>stream mapping</i> describes the mappings between the streams within a WTV file and filter output pins.
 
  If you do not call the <b>EnableDefaultMode</b> method in your application, the crossbar uses a default profile and a default stream map. In this case, the crossbar is said to be in <i>profile default mode</i> and <i>stream default mode</i>, respectively. You can use the <b>EnableDefaultMode</b> method to disable either mode or both modes, so that you can specify custom profiles or stream mappings. You can also use an <code>EnableDefaultMode(FALSE)</code> call to disable both default modes.

@@ -7,7 +7,7 @@ old-location: intl\immsetcandidatewindow.htm
 old-project: Intl
 ms.assetid: 4b82a5a3-1e31-4d50-9a0f-890e94d12201
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmSetCandidateWindow, ImmSetCandidateWindow function [Internationalization for Windows Applications], _win32_ImmSetCandidateWindow, imm/ImmSetCandidateWindow, intl.immsetcandidatewindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,19 +61,14 @@ Sets information about the candidates window.
 
 
 
-### -param HIMC
+### -param HIMC [in]
 
-TBD
+Handle to the input context.
 
 
 ### -param lpCandidate [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/86edcfe0-07f7-4bd7-9444-3a884aeb7926">CANDIDATEFORM</a> structure that contains information about the candidates window.
-
-
-#### - hIMC [in]
-
-Handle to the input context.
 
 
 ## -returns

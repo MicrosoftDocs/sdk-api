@@ -7,7 +7,7 @@ old-location: mf\mfcreatemediabufferwrapper.htm
 old-project: medfound
 ms.assetid: 6850e75c-4612-4514-a74d-9b36fd88a598
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 6850e75c-4612-4514-a74d-9b36fd88a598, MFCreateMediaBufferWrapper, MFCreateMediaBufferWrapper function [Media Foundation], mf.mfcreatemediabufferwrapper, mfapi/MFCreateMediaBufferWrapper
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,8 +101,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The function succeeded.
+The function succeeded.
               
 
 </td>
@@ -114,8 +113,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The requested offset or the requested length is not valid.
+The requested offset or the requested length is not valid.
               
 
 </td>

@@ -7,7 +7,7 @@ old-location: mf\mfgetmftmerit.htm
 old-project: medfound
 ms.assetid: 69029cf3-7f34-4bb1-8dfd-fa9a8d1a63c9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFGetMFTMerit, MFGetMFTMerit function [Media Foundation], mf.mfgetmftmerit, mfapi/MFGetMFTMerit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,8 +96,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-
-        The function fails if the MFT does not represent a hardware device with a valid Output Protection Manager (OPM) certificate.
+The function fails if the MFT does not represent a hardware device with a valid Output Protection Manager (OPM) certificate.
       
 
 

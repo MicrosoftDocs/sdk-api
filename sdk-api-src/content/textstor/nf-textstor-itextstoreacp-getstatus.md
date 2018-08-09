@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_getstatus.htm
 old-project: TSF
 ms.assetid: 6ed040ac-8584-4f09-9af8-218b5cd33765
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetStatus method, ITextStoreACP.GetStatus, ITextStoreACP::GetStatus, _tsf_itextstoreacp_getstatus_ref, textstor/ITextStoreACP::GetStatus, tsf.itextstoreacp_getstatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,8 +108,7 @@ The pointer to the TS_STATUS parameter is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">
-        ITextStoreACP
+<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP
       </a>
 
 
@@ -119,8 +118,7 @@ The pointer to the TS_STATUS parameter is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/d27d81f2-8599-4b65-866b-4e8fd2f589f5">
-        TS_STATUS
+<a href="https://msdn.microsoft.com/d27d81f2-8599-4b65-866b-4e8fd2f589f5">TS_STATUS
       </a>
  
 

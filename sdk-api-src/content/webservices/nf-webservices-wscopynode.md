@@ -7,7 +7,7 @@ old-location: wsw\wscopynode.htm
 old-project: wsw
 ms.assetid: 36078f7d-4c1f-4b8a-9f44-cd4949b7de04
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsCopyNode, WsCopyNode function [Web Services for Windows], webservices/WsCopyNode, wsw.wscopynode
 ms.prod: windows
 ms.technology: windows-sdk

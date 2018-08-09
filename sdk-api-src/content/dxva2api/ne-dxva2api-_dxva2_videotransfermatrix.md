@@ -7,7 +7,7 @@ old-location: mf\dxva2_videotransfermatrix.htm
 old-project: medfound
 ms.assetid: 682fa0c7-8f17-457f-9f8a-dc9190866152
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 682fa0c7-8f17-457f-9f8a-dc9190866152, DXVA2_VideoTransferMatrix, DXVA2_VideoTransferMatrix enumeration [Media Foundation], DXVA2_VideoTransferMatrixMask, DXVA2_VideoTransferMatrix_BT601, DXVA2_VideoTransferMatrix_BT709, DXVA2_VideoTransferMatrix_SMPTE240M, DXVA2_VideoTransferMatrix_Unknown, _DXVA2_VideoTransferMatrix, dxva2api/DXVA2_VideoTransferMatrix, dxva2api/DXVA2_VideoTransferMatrixMask, dxva2api/DXVA2_VideoTransferMatrix_BT601, dxva2api/DXVA2_VideoTransferMatrix_BT709, dxva2api/DXVA2_VideoTransferMatrix_SMPTE240M, dxva2api/DXVA2_VideoTransferMatrix_Unknown, mf.dxva2_videotransfermatrix
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,36 +61,31 @@ Describes the conversion matrices between Y'PbPr (component video) and studio R'
 
 ### -field DXVA2_VideoTransferMatrixMask
 
-
-            Bitmask to validate flag values. This value is not a valid flag.
+Bitmask to validate flag values. This value is not a valid flag.
           
 
 
 ### -field DXVA2_VideoTransferMatrix_Unknown
 
-
-            Unknown. For standard-definition content, treat as DXVA2_VideoTransferMatrix_BT601. For high-definition content, treat as DXVA2_VideoTransferMatrix_BT709. (High-definition content is defined for this purpose as anything with a source height greater than 576 lines.)
+Unknown. For standard-definition content, treat as DXVA2_VideoTransferMatrix_BT601. For high-definition content, treat as DXVA2_VideoTransferMatrix_BT709. (High-definition content is defined for this purpose as anything with a source height greater than 576 lines.)
           
 
 
 ### -field DXVA2_VideoTransferMatrix_BT709
 
-
-            ITU-R BT.709 transfer matrix.
+ITU-R BT.709 transfer matrix.
           
 
 
 ### -field DXVA2_VideoTransferMatrix_BT601
 
-
-            ITU-R BT.601 transfer matrix. Also used for SMPTE 170 and ITU-R BT.470-2 System B,G.
+ITU-R BT.601 transfer matrix. Also used for SMPTE 170 and ITU-R BT.470-2 System B,G.
           
 
 
 ### -field DXVA2_VideoTransferMatrix_SMPTE240M
 
-
-            SMPTE 240M transfer matrix.
+SMPTE 240M transfer matrix.
           
 
 

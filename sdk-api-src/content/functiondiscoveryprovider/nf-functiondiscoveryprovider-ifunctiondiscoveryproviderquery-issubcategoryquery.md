@@ -7,7 +7,7 @@ old-location: ncd\ifunctiondiscoveryproviderquery_issubcategoryquery.htm
 old-project: fundisc
 ms.assetid: fa262e62-2e34-4881-915d-995d66fa6841
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/30/2018
 ms.keywords: IFunctionDiscoveryProviderQuery interface,IsSubcategoryQuery method, IFunctionDiscoveryProviderQuery.IsSubcategoryQuery, IFunctionDiscoveryProviderQuery::IsSubcategoryQuery, IsSubcategoryQuery, IsSubcategoryQuery method, IsSubcategoryQuery method,IFunctionDiscoveryProviderQuery interface, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::IsSubcategoryQuery, ncd.ifunctiondiscoveryproviderquery_issubcategoryquery
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: http\httpcloseserversession.htm
 old-project: http
 ms.assetid: d1ceb491-c726-4aa0-b17e-f98f34279e32
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpCloseServerSession, HttpCloseServerSession function [HTTP], http.httpcloseserversession, http/HttpCloseServerSession
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fwp\fwpmfilteradd0_func.htm
 old-project: fwp
 ms.assetid: ca11187e-3a91-438f-9a7f-606da7c88f6d
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmFilterAdd0, FwpmFilterAdd0 function [Filtering], fwp.fwpmfilteradd0_func, fwpmu/FwpmFilterAdd0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -175,10 +175,8 @@ Some fields in the <a href="https://msdn.microsoft.com/e1925824-01c2-426a-a8f0-4
 
 If the caller supplies a <b>NULL</b> security descriptor, the system will assign a default security descriptor.
 
-To block connections to particular locations, add a  <a href="https://msdn.microsoft.com/070e1324-d41d-4001-bf26-97465bf87f98">FWP_ACTION_BLOCK</a>
-filter specifying the local address at the <a href="https://msdn.microsoft.com/3b2daef1-558b-4e3a-a98a-f4dfa80a29c0">FWPM_LAYER_ALE_AUTH_CONNECT_V*</a> 
-layer, or add a  <b>FWP_ACTION_BLOCK</b>
-filter without specifying the local address at the <b>FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_V*</b> layer.
+To block connections to particular locations, add a  <a href="https://msdn.microsoft.com/070e1324-d41d-4001-bf26-97465bf87f98">FWP_ACTION_BLOCK</a>filter specifying the local address at the <a href="https://msdn.microsoft.com/3b2daef1-558b-4e3a-a98a-f4dfa80a29c0">FWPM_LAYER_ALE_AUTH_CONNECT_V*</a> 
+layer, or add a  <b>FWP_ACTION_BLOCK</b>filter without specifying the local address at the <b>FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_V*</b> layer.
 
 <div class="alert"><b>Note</b>  If a local address is specified at the resource assignment layer, an implicit bind would succeed because  address, address type, and port may come back as <a href="https://msdn.microsoft.com/db605170-bfe0-4339-8a40-7b1ce435278b">FWP_EMPTY</a>. </div>
 <div> </div>

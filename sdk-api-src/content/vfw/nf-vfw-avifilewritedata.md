@@ -7,7 +7,7 @@ old-location: multimedia\avifilewritedata.htm
 old-project: Multimedia
 ms.assetid: 27eef026-e401-44a2-9b46-a16b61026d2a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AVIFileWriteData, AVIFileWriteData function [Windows Multimedia], _win32_AVIFileWriteData, multimedia.avifilewritedata, vfw/AVIFileWriteData
 ms.prod: windows
 ms.technology: windows-sdk

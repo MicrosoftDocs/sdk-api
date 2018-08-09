@@ -7,7 +7,7 @@ old-location: mf\imfpmpserver.htm
 old-project: medfound
 ms.assetid: ba6dc70a-d77d-41de-afe1-65f2efcc4a95
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFPMPServer, IMFPMPServer interface [Media Foundation], IMFPMPServer interface [Media Foundation],described, ba6dc70a-d77d-41de-afe1-65f2efcc4a95, mf.imfpmpserver, mfidl/IMFPMPServer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Enables two instances of the <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a> to share the same protected media path (PMP) process.
+Enables two instances of the <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a> to share the same protected media path (PMP) process.
         
 
 
@@ -111,14 +110,11 @@ If your application creates more than one instance of the Media Session, you can
 Use this interface as follows:
 
 <ol>
-<li>
-            Create the first instance of the PMP Media Session by calling <a href="https://msdn.microsoft.com/cb492e68-3d8a-49b2-8c0b-bee8065b53a8">MFCreatePMPMediaSession</a>.
+<li>Create the first instance of the PMP Media Session by calling <a href="https://msdn.microsoft.com/cb492e68-3d8a-49b2-8c0b-bee8065b53a8">MFCreatePMPMediaSession</a>.
           </li>
-<li>
-            Retrieve an <b>IMFPMPServer</b> pointer from the first Media Session by calling <a href="https://msdn.microsoft.com/4287dd1f-1718-4231-bc62-b58e0e61d688">IMFGetService::GetService</a> with the service identifier <b>MF_PMP_SERVER_CONTEXT</b>.
+<li>Retrieve an <b>IMFPMPServer</b> pointer from the first Media Session by calling <a href="https://msdn.microsoft.com/4287dd1f-1718-4231-bc62-b58e0e61d688">IMFGetService::GetService</a> with the service identifier <b>MF_PMP_SERVER_CONTEXT</b>.
           </li>
-<li>
-            Create the second instance of the PMP Media Session. Set the <a href="https://msdn.microsoft.com/a922c79b-d6c1-447d-b6fa-993970169a3f">MF_SESSION_SERVER_CONTEXT</a> attribute on the <i>pConfiguration</i> parameter of the <a href="https://msdn.microsoft.com/cb492e68-3d8a-49b2-8c0b-bee8065b53a8">MFCreatePMPMediaSession</a> function. The attribute value is the <b>IMFPMPServer</b> pointer retrieved in step 2.
+<li>Create the second instance of the PMP Media Session. Set the <a href="https://msdn.microsoft.com/a922c79b-d6c1-447d-b6fa-993970169a3f">MF_SESSION_SERVER_CONTEXT</a> attribute on the <i>pConfiguration</i> parameter of the <a href="https://msdn.microsoft.com/cb492e68-3d8a-49b2-8c0b-bee8065b53a8">MFCreatePMPMediaSession</a> function. The attribute value is the <b>IMFPMPServer</b> pointer retrieved in step 2.
           </li>
 </ol>
 

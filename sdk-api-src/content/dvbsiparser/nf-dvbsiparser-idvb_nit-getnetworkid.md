@@ -7,7 +7,7 @@ old-location: mstv\idvb_nit_getnetworkid.htm
 old-project: mstv
 ms.assetid: 86841b62-d6c0-4911-baf7-dd6d1a08a770
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetNetworkId, GetNetworkId method [Microsoft TV Technologies], GetNetworkId method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetNetworkId method, IDVB_NIT.GetNetworkId, IDVB_NIT::GetNetworkId, IDVB_NITGetNetworkId, dvbsiparser/IDVB_NIT::GetNetworkId, mstv.idvb_nit_getnetworkid
 ms.prod: windows
 ms.technology: windows-sdk

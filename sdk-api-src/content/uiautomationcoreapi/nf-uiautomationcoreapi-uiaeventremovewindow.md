@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaEventRemoveWindowFunction.htm
 old-project: WinAuto
 ms.assetid: 5c989cbf-b55a-4576-bacc-6e9955d4707f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: UiaEventRemoveWindow, UiaEventRemoveWindow function [Windows Accessibility], uiauto.uiauto_UiaEventRemoveWindowFunction, uiauto_UiaEventRemoveWindowFunction, uiautomationcoreapi/UiaEventRemoveWindow, winauto.uiauto_UiaEventRemoveWindowFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,11 @@ req.product: Windows XP with SP1 and later
 
 
 
-### -param hEvent
+### -param hEvent [in]
 
-TBD
+Type: <b>HUIAEVENT</b>
+
+The event being listened for. This event was retrieved from <a href="https://msdn.microsoft.com/6d53c864-2791-4693-84dd-c7c1d8262b1f">UiaAddEvent</a>.
 
 
 ### -param hwnd [in]
@@ -69,13 +71,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 The handle of the window to remove.
-
-
-#### - hevent [in]
-
-Type: <b>HUIAEVENT</b>
-
-The event being listened for. This event was retrieved from <a href="https://msdn.microsoft.com/6d53c864-2791-4693-84dd-c7c1d8262b1f">UiaAddEvent</a>.
 
 
 ## -returns

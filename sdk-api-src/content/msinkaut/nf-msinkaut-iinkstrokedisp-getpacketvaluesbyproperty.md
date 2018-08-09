@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_getpacketvaluesbyproperty.htm
 old-project: tablet
 ms.assetid: 135dcd06-f533-4470-b5b0-ea559c20e3c4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 135dcd06-f533-4470-b5b0-ea559c20e3c4, GetPacketValuesByProperty, GetPacketValuesByProperty method [Tablet PC], GetPacketValuesByProperty method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetPacketValuesByProperty method, IInkStrokeDisp.GetPacketValuesByProperty, IInkStrokeDisp::GetPacketValuesByProperty, msinkaut/IInkStrokeDisp::GetPacketValuesByProperty, tablet.iinkstrokedisp_getpacketvaluesbyproperty
 ms.prod: windows
 ms.technology: windows-sdk

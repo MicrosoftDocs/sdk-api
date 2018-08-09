@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setrenderstate.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setrenderstate.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 80316479-a08a-1e20-c73a-1d392c1204d6, IDirect3DDevice9 interface [Direct3D 9],SetRenderState method, IDirect3DDevice9.SetRenderState, IDirect3DDevice9::SetRenderState, SetRenderState, SetRenderState method [Direct3D 9], SetRenderState method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetRenderState, direct3d9.idirect3ddevice9__setrenderstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,14 +70,14 @@ Device state variable that is being modified. This parameter can be any member o
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-New value for the device render state to be set. The meaning of this parameter is dependent on the value specified for <i>State</i>. For example, if <i>State</i> were D3DRS_SHADEMODE, the second parameter would be one member of the <a href="https://msdn.microsoft.com/library/Bb172605(v=VS.85).aspx">D3DSHADEMODE</a> enumerated type. 
+New value for the device render state to be set. The meaning of this parameter is dependent on the value specified for <i>State</i>. For example, if <i>State</i> were D3DRS_SHADEMODE, the second parameter would be one member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172605(v=VS.85).aspx">D3DSHADEMODE</a> enumerated type. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is returned if one of the arguments is invalid.
 
@@ -89,15 +89,15 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is return
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174403(v=VS.85).aspx">IDirect3DDevice9::GetRenderState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174403(v=VS.85).aspx">IDirect3DDevice9::GetRenderState</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174463(v=VS.85).aspx">IDirect3DDevice9::SetTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174463(v=VS.85).aspx">IDirect3DDevice9::SetTransform</a>
  
 
  

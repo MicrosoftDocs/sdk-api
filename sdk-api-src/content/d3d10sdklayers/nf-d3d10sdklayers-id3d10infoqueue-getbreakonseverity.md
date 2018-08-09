@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_getbreakonseverity.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getbreakonseverity.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 640ea84e-c7af-c3d2-d27b-1edd4a3629f9, GetBreakOnSeverity, GetBreakOnSeverity method [Direct3D 10], GetBreakOnSeverity method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetBreakOnSeverity method, ID3D10InfoQueue.GetBreakOnSeverity, ID3D10InfoQueue::GetBreakOnSeverity, d3d10sdklayers/ID3D10InfoQueue::GetBreakOnSeverity, direct3d10.id3d10infoqueue_getbreakonseverity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,9 @@ Get a message severity level to break on when a message with that severity level
 
 ### -param Severity [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb205325(v=VS.85).aspx">D3D10_MESSAGE_SEVERITY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205325(v=VS.85).aspx">D3D10_MESSAGE_SEVERITY</a></b>
 
-Message severity level to break on (see <a href="https://msdn.microsoft.com/library/Bb205325(v=VS.85).aspx">D3D10_MESSAGE_SEVERITY</a>).
+Message severity level to break on (see <a href="https://msdn.microsoft.com/en-us/library/Bb205325(v=VS.85).aspx">D3D10_MESSAGE_SEVERITY</a>).
 
 
 ## -returns
@@ -81,7 +81,7 @@ Whether this breaking condition is turned on or off (true for on, false for off)
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
  
 
  

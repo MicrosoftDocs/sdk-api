@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver2_configuration_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxserver2\configuration.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: Configuration property [Fax Service], Configuration property [Fax Service],FaxServer object, FaxServer object [Fax Service],Configuration property, FaxServer.Configuration, IFaxServer2.get_Configuration, IFaxServer2::get_Configuration, _mfax_faxserver2.configuration, fax._mfax_faxserver2_configuration, fax._mfax_faxserver2_configuration_vb, get_Configuration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Configuration</b> property holds a <a href="https://msdn.microsoft.com/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a> object. The object permits a fax client application to access information about the configuration of the connected fax server.
+The <b>Configuration</b> property holds a <a href="https://msdn.microsoft.com/en-us/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a> object. The object permits a fax client application to access information about the configuration of the connected fax server.
 
 This property is read-only.
 
@@ -64,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa358976(v=VS.85).aspx">IFaxServer2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358976(v=VS.85).aspx">IFaxServer2</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: p2p\peercollabgetpresenceinfo.htm
 old-project: p2psdk
 ms.assetid: 596191a1-94cf-4497-aaf0-951e2c63b145
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerCollabGetPresenceInfo, PeerCollabGetPresenceInfo function [Peer Networking], p2p.peercollabgetpresenceinfo, p2p/PeerCollabGetPresenceInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,19 +59,14 @@ The <b>PeerCollabGetPresenceInfo</b> function retrieves the  presence informatio
 
 
 
-### -param pcEndpoint
+### -param pcEndpoint [in]
 
-TBD
+Pointer to a <a href="https://msdn.microsoft.com/9687b332-14ed-4023-b8c2-437d75fd0298">PEER_ENDPOINT</a> structure that contains the specific endpoint associated with the contact specified in <i>pcContact</i> for which presence information must be returned.
 
 
 ### -param ppPresenceInfo [out]
 
 Pointer  to the address of the <a href="https://msdn.microsoft.com/e8f83ba8-81a3-4083-bc15-e00b2bec1cd4">PEER_PRESENCE_INFO</a> structure that contains the requested presence data for the supplied endpoint.
-
-
-#### - pEndpoint [in]
-
-Pointer to a <a href="https://msdn.microsoft.com/9687b332-14ed-4023-b8c2-437d75fd0298">PEER_ENDPOINT</a> structure that contains the specific endpoint associated with the contact specified in <i>pcContact</i> for which presence information must be returned.
 
 
 ## -returns

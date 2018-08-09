@@ -4,10 +4,10 @@ title: "_FUSION_INSTALL_REFERENCE_"
 author: windows-sdk-content
 description: The FUSION_INSTALL_REFERENCE structure contains information about the application which references the side-by-side assembly.
 old-location: setup\fusion_install_reference_.htm
-old-project: SbsCs
+old-project: sbscs
 ms.assetid: daa2b625-1522-4239-9c62-65f09b50f74c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: "*LPFUSION_INSTALL_REFERENCE, FUSION_INSTALL_REFERENCE, FUSION_INSTALL_REFERENCE , FUSION_INSTALL_REFERENCE structure [Side-by-side Assemblies], FUSION_REFCOUNT_FILEPATH_GUID, FUSION_REFCOUNT_MSI_GUID, FUSION_REFCOUNT_OPAQUE_STRING_GUID, FUSION_REFCOUNT_OSINSTALL_GUID, FUSION_REFCOUNT_UNINSTALL_SUBKEY_GUID, LPFUSION_INSTALL_REFERENCE, LPFUSION_INSTALL_REFERENCE structure pointer [Side-by-side Assemblies], _FUSION_INSTALL_REFERENCE_, setup.fusion_install_reference_, winsxs/FUSION_INSTALL_REFERENCE, winsxs/LPFUSION_INSTALL_REFERENCE"
 ms.prod: windows
 ms.technology: windows-sdk

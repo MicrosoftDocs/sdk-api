@@ -7,7 +7,7 @@ old-location: gdi\setdcbrushcolor.htm
 old-project: gdi
 ms.assetid: 4feed536-2f1d-4a25-8311-7cae303167ca
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetDCBrushColor, SetDCBrushColor function [Windows GDI], _win32_SetDCBrushColor, gdi.setdcbrushcolor, wingdi/SetDCBrushColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,7 @@ req.product: Windows Address Book 5.0
 A handle to the DC.
 
 
-### -param color
-
-TBD
-
-
-
-
-#### - crColor [in]
+### -param color [in]
 
 The new brush color.
 

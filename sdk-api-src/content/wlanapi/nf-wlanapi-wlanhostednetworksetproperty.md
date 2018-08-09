@@ -4,10 +4,10 @@ title: WlanHostedNetworkSetProperty function
 author: windows-sdk-content
 description: Sets static properties of the wireless Hosted Network.
 old-location: nwifi\wlanhostednetworksetproperty.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: 88139383-f5d5-4e42-b41e-ea754a89356d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WlanHostedNetworkSetProperty, WlanHostedNetworkSetProperty function [NativeWIFI], nwifi.wlanhostednetworksetproperty, wlan_hosted_network_opcode_connection_settings, wlan_hosted_network_opcode_enable, wlanapi/WlanHostedNetworkSetProperty
 ms.prod: windows
 ms.technology: windows-sdk

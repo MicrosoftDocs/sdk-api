@@ -4,10 +4,10 @@ title: "_PERF_DATA_HEADER"
 author: windows-sdk-content
 description: Provides information about the PERF_DATA_HEADER block that contains the structure.
 old-location: perf\perf_data_header.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 0B30B30A-2B2D-43D8-B6DD-58C70D54EB58
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: "*PPERF_DATA_HEADER, PERF_DATA_HEADER, PERF_DATA_HEADER structure [Perf], PPERF_DATA_HEADER, PPERF_DATA_HEADER structure pointer [Perf], _PERF_DATA_HEADER, perf.perf_data_header, perflib/PERF_DATA_HEADER, perflib/PPERF_DATA_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Provides information about the <b>PERF_DATA_HEADER</b> block that contains the structure. A <b>PERF_DATA_HEADER</b> block corresponds to one query specification in a query, and consists of a <b>PERF_DATA_HEADER</b>
-structure followed by a sequence of <a href="https://msdn.microsoft.com/8C07E4BB-61CD-4A0F-8C23-86BE7DAA415F">PERF_COUNTER_HEADER</a> blocks.
+Provides information about the <b>PERF_DATA_HEADER</b> block that contains the structure. A <b>PERF_DATA_HEADER</b> block corresponds to one query specification in a query, and consists of a <b>PERF_DATA_HEADER</b>structure followed by a sequence of <a href="https://msdn.microsoft.com/8C07E4BB-61CD-4A0F-8C23-86BE7DAA415F">PERF_COUNTER_HEADER</a> blocks.
 
 
 ## -struct-fields

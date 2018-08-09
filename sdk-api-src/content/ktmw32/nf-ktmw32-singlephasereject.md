@@ -4,10 +4,10 @@ title: SinglePhaseReject function
 author: windows-sdk-content
 description: Indicates that the resource manager (RM) is refusing a single-phase request. When a transaction manager (TM) receives this call, it initiates a two-phase commit and sends a prepare request to all enlisted RMs.
 old-location: fs\singlephasereject.htm
-old-project: Ktm
+old-project: ktm
 ms.assetid: 8cc77686-e130-4b82-b2f5-70121b40e052
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SinglePhaseReject, SinglePhaseReject function [Files], fs.singlephasereject, ktmw32/SinglePhaseReject
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: ad\dsaddsidhistory.htm
 old-project: ad
 ms.assetid: 36ef8734-717a-4c3a-a839-6591d85c9734
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DsAddSidHistory, DsAddSidHistory function [Active Directory], DsAddSidHistoryA, DsAddSidHistoryW, _glines_dsaddsidhistory, ad.dsaddsidhistory, ntdsapi/DsAddSidHistory, ntdsapi/DsAddSidHistoryA, ntdsapi/DsAddSidHistoryW
 ms.prod: windows
 ms.technology: windows-sdk

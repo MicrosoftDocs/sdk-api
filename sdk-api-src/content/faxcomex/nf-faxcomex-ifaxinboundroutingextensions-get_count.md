@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingextensions_count_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2gl0.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxInboundRoutingExtensions object, FaxInboundRoutingExtensions object [Fax Service],Count property, FaxInboundRoutingExtensions.Count, IFaxInboundRoutingExtensions.get_Count, IFaxInboundRoutingExtensions::get_Count, _mfax_faxinboundroutingextensions.count, fax._mfax_faxinboundroutingextensions_count, fax._mfax_faxinboundroutingextensions_count_vb, get_Count
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/library/ms684899(v=VS.85).aspx">FaxInboundRoutingExtensions</a> collection. This is the total number of inbound routing extensions associated with the fax server.
+The <b>Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/en-us/library/ms684899(v=VS.85).aspx">FaxInboundRoutingExtensions</a> collection. This is the total number of inbound routing extensions associated with the fax server.
 
 This property is read-only.
 
@@ -64,15 +64,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684899(v=VS.85).aspx">FaxInboundRoutingExtensions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684899(v=VS.85).aspx">FaxInboundRoutingExtensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684901(v=VS.85).aspx">IFaxInboundRoutingExtensions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684901(v=VS.85).aspx">IFaxInboundRoutingExtensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

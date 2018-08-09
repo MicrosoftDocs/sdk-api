@@ -7,7 +7,7 @@ old-location: wmdm\imdspenumdevice_next.htm
 old-project: WMDM
 ms.assetid: 137bcc3b-8c6e-4512-b564-a32af437f69a
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: IMDSPEnumDevice interface [windows Media Device Manager],Next method, IMDSPEnumDevice.Next, IMDSPEnumDevice::Next, IMDSPEnumDeviceNext, Next, Next method [windows Media Device Manager], Next method [windows Media Device Manager],IMDSPEnumDevice interface, mswmdm/IMDSPEnumDevice::Next, wmdm.imdspenumdevice_next
 ms.prod: windows
 ms.technology: windows-sdk

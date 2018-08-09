@@ -7,7 +7,7 @@ old-location: properties\winrtpropertyvaluetopropvariant.htm
 old-project: properties
 ms.assetid: 3D6853B0-0A3F-4ACF-9C93-478688DAE9CF
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: WinRTPropertyValueToPropVariant, WinRTPropertyValueToPropVariant function [Windows Properties], properties.winrtpropertyvaluetopropvariant, propsys/WinRTPropertyValueToPropVariant
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,26 +59,14 @@ Copies the content from a Windows runtime property value to a <a href="https://m
 
 
 
-### -param punkPropertyValue
-
-TBD
-
-
-### -param ppropvar
-
-TBD
-
-
-
-
-#### - convertedValue [out]
-
-Pointer to a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure. When this function returns, the <b>PROPVARIANT</b> contains the converted info.
-
-
-#### - propertyValue [in, optional]
+### -param punkPropertyValue [in, optional]
 
 A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface from which this function can access the contents of a Windows runtime property value by retrieving and using the <a href="https://msdn.microsoft.com/29a8e6e5-764b-4de9-84ea-97abdee6b02f">Windows::Foundation::IPropertyValue</a> interface.
+
+
+### -param ppropvar [out]
+
+Pointer to a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure. When this function returns, the <b>PROPVARIANT</b> contains the converted info.
 
 
 ## -returns

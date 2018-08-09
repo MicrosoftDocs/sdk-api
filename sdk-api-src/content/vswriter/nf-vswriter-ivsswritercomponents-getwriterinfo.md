@@ -4,10 +4,10 @@ title: IVssWriterComponents::GetWriterInfo
 author: windows-sdk-content
 description: The GetWriterInfo method gets the instance and class identifier of the writer responsible for the components.
 old-location: base\ivsswritercomponents_getwriterinfo.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 22a539ac-1440-4fe9-b68e-feec97cab6c8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetWriterInfo, GetWriterInfo method [VSS], GetWriterInfo method [VSS],IVssWriterComponents interface, IVssWriterComponents interface [VSS],GetWriterInfo method, IVssWriterComponents.GetWriterInfo, IVssWriterComponents::GetWriterInfo, _win32_ivsswritercomponents_getwriterinfo, base.ivsswritercomponents_getwriterinfo, vswriter/IVssWriterComponents::GetWriterInfo
 ms.prod: windows
 ms.technology: windows-sdk

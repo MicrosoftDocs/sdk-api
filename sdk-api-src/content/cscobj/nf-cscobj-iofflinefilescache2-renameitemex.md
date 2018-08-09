@@ -7,7 +7,7 @@ old-location: of\iofflinefilescache2_renameitemex.htm
 old-project: offlinefiles
 ms.assetid: 766ABFE7-4417-47BA-ADF2-AA876C3A868A
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesCache2 interface [Offline Files],RenameItemEx method, IOfflineFilesCache2.RenameItemEx, IOfflineFilesCache2::RenameItemEx, RenameItemEx, RenameItemEx method [Offline Files], RenameItemEx method [Offline Files],IOfflineFilesCache2 interface, cscobj/IOfflineFilesCache2::RenameItemEx, of.iofflinefilescache2_renameitemex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-    Renames an item in the cache. This method is identical to the <a href="https://msdn.microsoft.com/883f29cb-d551-4358-8e74-f901956d8829">IOfflineFilesCache::RenameItem</a> method, except that it will attempt to do the rename operation right away. 
+Renames an item in the cache. This method is identical to the <a href="https://msdn.microsoft.com/883f29cb-d551-4358-8e74-f901956d8829">IOfflineFilesCache::RenameItem</a> method, except that it will attempt to do the rename operation right away. 
 
 
 ## -parameters

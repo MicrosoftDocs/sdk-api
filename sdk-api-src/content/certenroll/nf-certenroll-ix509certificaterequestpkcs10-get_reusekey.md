@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs10_reusekey_property.htm
 old-project: seccertenroll
 ms.assetid: b6788885-1036-4edd-bbb9-4d9808771d95
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],ReuseKey property, IX509CertificateRequestPkcs10.ReuseKey, IX509CertificateRequestPkcs10.get_ReuseKey, IX509CertificateRequestPkcs10::ReuseKey, IX509CertificateRequestPkcs10::get_ReuseKey, ReuseKey property [Security], ReuseKey property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::ReuseKey, certenroll/IX509CertificateRequestPkcs10::get_ReuseKey, get_ReuseKey, security.ix509certificaterequestpkcs10_reusekey_property
 ms.prod: windows
 ms.technology: windows-sdk

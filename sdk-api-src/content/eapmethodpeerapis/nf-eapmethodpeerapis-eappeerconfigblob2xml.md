@@ -7,7 +7,7 @@ old-location: eaphost\eappeerconfigblob2xml.htm
 old-project: eaphost
 ms.assetid: 0b6c8047-08bb-4cb7-9ef2-81793a497c65
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapPeerConfigBlob2Xml, EapPeerConfigBlob2Xml function [EAPHost], eaphost.eappeerconfigblob2xml, eapmethodpeerapis/EapPeerConfigBlob2Xml
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,14 +85,7 @@ A pointer to a pointer to an XML document that  contains the converted configura
                 the <b>EapPeerConfigBlob2Xml </b>function, the XML document will contain the  <b>ConfigBlob</b> node with the BLOB in string form. The EAP method should create configuration inside the  <a href="https://msdn.microsoft.com/e1e4dda3-6bf4-4da5-9e14-63548ec86836">EapHostConfig Schema</a> configuration element.
 
 
-### -param ppEapError
-
-TBD
-
-
-
-
-#### - pEapError [out]
+### -param ppEapError [out]
 
 A pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
 

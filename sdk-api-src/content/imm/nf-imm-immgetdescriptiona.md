@@ -7,7 +7,7 @@ old-location: intl\immgetdescription.htm
 old-project: Intl
 ms.assetid: 62f4efc8-7b46-4d8e-a6a2-2f346efe8ba6
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmGetDescription, ImmGetDescription function [Internationalization for Windows Applications], ImmGetDescriptionA, ImmGetDescriptionW, _win32_ImmGetDescription, imm/ImmGetDescription, imm/ImmGetDescriptionA, imm/ImmGetDescriptionW, intl.immgetdescription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Copies the description of the IME to the specified buffer.
 
 
 
-### -param HKL
+### -param HKL [in]
 
-TBD
+Input locale identifier.
 
 
 ### -param lpszDescription [out, optional]
@@ -76,11 +76,6 @@ Pointer to a buffer in which the function retrieves the null-terminated string d
 Size, in characters, of the output buffer. The application sets this parameter to 0 if the function is to return the buffer size needed for the complete description, excluding the terminating null character.
 
 <b>Windows NT, Windows 2000, Windows XP:</b> The size of the buffer is in Unicode characters, each consisting of two bytes. If the parameter is set to 0, the function returns the size of the buffer required in Unicode characters, excluding the Unicode terminating null character.
-
-
-#### - hKL [in]
-
-Input locale identifier.
 
 
 ## -returns

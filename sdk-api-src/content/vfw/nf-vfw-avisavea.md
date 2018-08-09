@@ -7,7 +7,7 @@ old-location: multimedia\avisave.htm
 old-project: Multimedia
 ms.assetid: 44200871-541c-4d67-ba12-61af06da8788
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AVISave, AVISave function [Windows Multimedia], AVISaveA, AVISaveW, _win32_AVISave, multimedia.avisave, vfw/AVISave, vfw/AVISaveA, vfw/AVISaveW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ Number of streams saved in the file.
 
 ### -param pfile
 
-TBD
+Pointer to an AVI stream. This parameter is paired with <i>lpOptions</i>. The parameter pair can be repeated as a variable number of arguments.
 
 
 ### -param lpOptions
@@ -101,11 +101,6 @@ TBD
 
 
 
-
-
-#### - pavi
-
-Pointer to an AVI stream. This parameter is paired with <i>lpOptions</i>. The parameter pair can be repeated as a variable number of arguments.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: winprog\uint32x32to64.htm
 old-project: winprog
 ms.assetid: 369e0574-df8b-4e65-bbba-7a7961caebe7
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: UInt32x32To64, UInt32x32To64 macro [Windows API], _win32_uint32x32to64, winnt/UInt32x32To64, winprog.uint32x32to64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,28 +59,14 @@ Multiplies two unsigned 32-bit integers, returning an unsigned 64-bit integer re
 
 
 
-### -param a
-
-TBD
-
-
-### -param b
-
-TBD
-
-
-
-
-
-
-#### - Multiplicand [in]
-
-The second unsigned 32-bit integer for the multiplication operation.
-
-
-#### - Multiplier [in]
+### -param a [in]
 
 The first unsigned 32-bit integer for the multiplication operation.
+
+
+### -param b [in]
+
+The second unsigned 32-bit integer for the multiplication operation.
 
 
 ## -remarks

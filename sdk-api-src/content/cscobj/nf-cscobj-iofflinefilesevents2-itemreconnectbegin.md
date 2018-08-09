@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents2_itemreconnectbegin.htm
 old-project: offlinefiles
 ms.assetid: 7b0d112d-17be-481a-8793-2b57506ec7b2
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesEvents2 interface [Offline Files],ItemReconnectBegin method, IOfflineFilesEvents2.ItemReconnectBegin, IOfflineFilesEvents2::ItemReconnectBegin, ItemReconnectBegin, ItemReconnectBegin method [Offline Files], ItemReconnectBegin method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::ItemReconnectBegin, of.iofflinefilesevents2_itemreconnectbegin
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IVdsVolumeOnline
 author: windows-sdk-content
 description: Provides a method to repair single volumes.
 old-location: base\ivdsvolumeonline.htm
-old-project: VDS
+old-project: vds
 ms.assetid: f2b7d9aa-e42c-4d6b-92e0-9d9bfbde1a42
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IVdsVolumeOnline, IVdsVolumeOnline interface, IVdsVolumeOnline interface,described, base.ivdsvolumeonline, vds/IVdsVolumeOnline
 ms.prod: windows
 ms.technology: windows-sdk

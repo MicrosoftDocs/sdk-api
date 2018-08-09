@@ -7,7 +7,7 @@ old-location: mf\dxvahd_createdevice.htm
 old-project: medfound
 ms.assetid: 9a5411f9-2018-4a8a-922d-ab431d615583
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: DXVAHD_CreateDevice, DXVAHD_CreateDevice function [Media Foundation], dxvahd/DXVAHD_CreateDevice, mf.dxvahd_createdevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Creates a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 
 ### -param pD3DDevice [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/Bb174337(v=VS.85).aspx">IDirect3DDevice9Ex</a> interface of a Direct3D 9 device.
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb174337(v=VS.85).aspx">IDirect3DDevice9Ex</a> interface of a Direct3D 9 device.
 
 
 ### -param pContentDesc [in]
@@ -129,8 +129,7 @@ The Direct3D device does not support DXVA-HD.
 
 
 
-
-        Use the <a href="https://msdn.microsoft.com/3f79ac9c-2aed-4e1c-bf6f-02f9c54d59cd">IDXVAHD_Device</a> interface to get the device capabilities, create the video processor, and allocate video surfaces.
+Use the <a href="https://msdn.microsoft.com/3f79ac9c-2aed-4e1c-bf6f-02f9c54d59cd">IDXVAHD_Device</a> interface to get the device capabilities, create the video processor, and allocate video surfaces.
       
 
 

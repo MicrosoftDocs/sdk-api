@@ -7,7 +7,7 @@ old-location: mf\imfmediatype_getmajortype.htm
 old-project: medfound
 ms.assetid: 98f0a9ca-4766-4d2b-89b8-d6e30b75f47d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 98f0a9ca-4766-4d2b-89b8-d6e30b75f47d, GetMajorType, GetMajorType method [Media Foundation], GetMajorType method [Media Foundation],IMFMediaType interface, IMFMediaType interface [Media Foundation],GetMajorType method, IMFMediaType.GetMajorType, IMFMediaType::GetMajorType, mf.imfmediatype_getmajortype, mfobjects/IMFMediaType::GetMajorType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,8 +86,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -99,8 +98,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The major type is not set.
+The major type is not set.
               
 
 </td>
@@ -115,8 +113,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-
-        This method is equivalent to getting the <a href="https://msdn.microsoft.com/b88b5fcf-8025-4638-930d-9fc5cf0ec8a3">MF_MT_MAJOR_TYPE</a> attribute from the media type.
+This method is equivalent to getting the <a href="https://msdn.microsoft.com/b88b5fcf-8025-4638-930d-9fc5cf0ec8a3">MF_MT_MAJOR_TYPE</a> attribute from the media type.
       
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:

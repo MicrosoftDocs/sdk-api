@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getduration.htm
 old-project: mstv
 ms.assetid: de644588-6247-44d2-9d19-53272af8529b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetDuration, GetDuration method [Microsoft TV Technologies], GetDuration method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDuration method, ISCTE_EAS.GetDuration, ISCTE_EAS::GetDuration, ISCTE_EASGetDuration, atscpsipparser/ISCTE_EAS::GetDuration, mstv.iscte_eas_getduration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,8 +60,7 @@ The <b>GetDuration</b> method returns the expected duration of the alert.
 
 ### -param pwVal [out]
 
-
-            Receives the event_duration field. The value of the field is the expected duration in minutes, most significant bit first.
+Receives the event_duration field. The value of the field is the expected duration in minutes, most significant bit first.
           
 
 

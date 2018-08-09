@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclockadjustment.htm
 old-project: CoreAudio
 ms.assetid: 61d90fd9-6c73-4987-b424-1523f15ab023
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: IAudioClockAdjustment, IAudioClockAdjustment interface [Core Audio], IAudioClockAdjustment interface [Core Audio],described, audioclient/IAudioClockAdjustment, coreaudio.iaudioclockadjustment
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>IAudioClockAdjustment</b> interface is used to adjust the sample rate of a stream. 
+The <b>IAudioClockAdjustment</b> interface is used to adjust the sample rate of a stream. 
 		
 
 The client obtains a reference to the <b>IAudioClockAdjustment</b> interface of a stream object by calling the <a href="https://msdn.microsoft.com/233d4471-037f-4df9-bef6-57f2544dedb5">IAudioClient::GetService</a> method with parameter <i>riid</i> set to REFIID IID_IAudioClockAdjustment. Adjusting the sample rate is not supported for exclusive mode streams. 

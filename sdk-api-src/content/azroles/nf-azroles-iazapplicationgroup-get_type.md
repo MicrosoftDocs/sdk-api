@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_type.htm
 old-project: secauthz
 ms.assetid: dc100895-4cfb-4e02-97bc-5c99bf26fbe2
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AZ_GROUPTYPE_BASIC, AZ_GROUPTYPE_LDAP_QUERY, AzApplicationGroup object [Security],Type property, IAzApplicationGroup interface [Security],Type property, IAzApplicationGroup.Type, IAzApplicationGroup.get_Type, IAzApplicationGroup::Type, IAzApplicationGroup::get_Type, IAzApplicationGroup::put_Type, Type property [Security], Type property [Security],AzApplicationGroup object, Type property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::Type, azroles/IAzApplicationGroup::get_Type, azroles/IAzApplicationGroup::put_Type, get_Type, security.iazapplicationgroup_type
 ms.prod: windows
 ms.technology: windows-sdk

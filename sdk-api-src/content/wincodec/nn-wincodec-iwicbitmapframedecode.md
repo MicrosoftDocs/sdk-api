@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapframedecode.htm
 old-project: wic
 ms.assetid: 1498b800-6449-440f-bed7-85891637e559
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWICBitmapFrameDecode, IWICBitmapFrameDecode interface [Windows Imaging Component], IWICBitmapFrameDecode interface [Windows Imaging Component],described, _wic_codec_iwicbitmapframedecode, wic._wic_codec_iwicbitmapframedecode, wincodec/IWICBitmapFrameDecode
 ms.prod: windows
 ms.technology: windows-sdk

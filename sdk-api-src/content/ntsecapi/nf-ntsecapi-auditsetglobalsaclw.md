@@ -7,7 +7,7 @@ old-location: security\auditsetglobalsacl.htm
 old-project: secauthz
 ms.assetid: 48A41E3F-DDB0-431F-BCF0-E2452FEA57FA
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AuditSetGlobalSacl, AuditSetGlobalSacl function [Security], AuditSetGlobalSaclA, AuditSetGlobalSaclW, ntsecapi/AuditSetGlobalSacl, ntsecapi/AuditSetGlobalSaclA, ntsecapi/AuditSetGlobalSaclW, security.auditsetglobalsacl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 
 
-
-						If the function succeeds, it returns <b>TRUE</b>.
+If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes defined in WinError.h.

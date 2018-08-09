@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_SetMiddleInset_middleIns
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\setmiddleinset.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: AdjustableArrowCap class [GDI+],SetMiddleInset method, AdjustableArrowCap.SetMiddleInset, AdjustableArrowCap::SetMiddleInset, SetMiddleInset, SetMiddleInset method [GDI+], SetMiddleInset method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_SetMiddleInset_middleInset_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_SetMiddleInset_middleInset_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,8 +94,7 @@ The middle inset is the number of units that the midpoint of the base shifts tow
 
 
 
-
-			The following example creates an 
+The following example creates an 
 						<b>AdjustableArrowCap</b> object, 
 						<i>myArrow</i>, and sets the middle inset of the cap to 5 pixels. The code then creates a 
 						<b>Pen</b> object and assigns 

@@ -7,7 +7,7 @@ old-location: indexsrv\ifilter_gettext.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_5378.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 08/03/2018
 ms.keywords: GetText, GetText method [Indexing Service], GetText method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],GetText method, IFilter.GetText, IFilter::GetText, _idxs_IFilter_GetText, filter/IFilter::GetText, indexsrv.ifilter_gettext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,9 @@ req.product: Internet Explorer 5
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
-Retrieves text (text-type properties) from the current chunk, which must have a <a href="https://msdn.microsoft.com/library/ms691020(v=VS.85).aspx">CHUNKSTATE</a> enumeration value of CHUNK_TEXT.
+Retrieves text (text-type properties) from the current chunk, which must have a <a href="https://msdn.microsoft.com/en-us/library/ms691020(v=VS.85).aspx">CHUNKSTATE</a> enumeration value of CHUNK_TEXT.
 
 
 
@@ -103,7 +103,7 @@ The operation was completed successfully.
 </dl>
 </td>
 <td width="60%">
-The <b>flags</b> member of the <a href="https://msdn.microsoft.com/library/ms691016(v=VS.85).aspx">STAT_CHUNK</a> structure for the current chunk does not have a value of CHUNK_TEXT. 
+The <b>flags</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms691016(v=VS.85).aspx">STAT_CHUNK</a> structure for the current chunk does not have a value of CHUNK_TEXT. 
 
 
 </td>
@@ -115,7 +115,7 @@ The <b>flags</b> member of the <a href="https://msdn.microsoft.com/library/ms691
 </dl>
 </td>
 <td width="60%">
-All the text in the current chunk has been returned. Additional calls to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a> method should return this error until the <a href="https://msdn.microsoft.com/library/ms691080(v=VS.85).aspx">IFilter::GetChunk</a> method has been called successfully. 
+All the text in the current chunk has been returned. Additional calls to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a> method should return this error until the <a href="https://msdn.microsoft.com/en-us/library/ms691080(v=VS.85).aspx">IFilter::GetChunk</a> method has been called successfully. 
 
 
 </td>
@@ -153,11 +153,11 @@ If the current chunk is too large for the <i>awcBuffer</i> array, more than one 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691020(v=VS.85).aspx">CHUNKSTATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691020(v=VS.85).aspx">CHUNKSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>
  
 
  

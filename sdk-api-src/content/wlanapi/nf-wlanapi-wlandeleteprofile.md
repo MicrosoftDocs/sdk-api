@@ -4,10 +4,10 @@ title: WlanDeleteProfile function
 author: windows-sdk-content
 description: Deletes a wireless profile for a wireless interface on the local computer.
 old-location: nwifi\wlandeleteprofile.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: 2d1152ad-8106-4b8f-9856-9e6e36daa063
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WlanDeleteProfile, WlanDeleteProfile function [NativeWIFI], nwifi.wlandeleteprofile, wlanapi/WlanDeleteProfile
 ms.prod: windows
 ms.technology: windows-sdk

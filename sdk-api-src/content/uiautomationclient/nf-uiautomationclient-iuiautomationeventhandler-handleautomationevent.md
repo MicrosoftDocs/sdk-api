@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationEventHandler_HandleAutomationEvent.htm
 old-project: WinAuto
 ms.assetid: 56668923-f21a-4d38-9175-95785892388c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: HandleAutomationEvent, HandleAutomationEvent method [Windows Accessibility], HandleAutomationEvent method [Windows Accessibility],IUIAutomationEventHandler interface, IUIAutomationEventHandler interface [Windows Accessibility],HandleAutomationEvent method, IUIAutomationEventHandler.HandleAutomationEvent, IUIAutomationEventHandler::HandleAutomationEvent, uiauto.uiauto_IUIAutomationEventHandler_HandleAutomationEvent, uiauto_IUIAutomationEventHandler_HandleAutomationEvent, uiautomationclient/IUIAutomationEventHandler::HandleAutomationEvent, winauto.uiauto_IUIAutomationEventHandler_HandleAutomationEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

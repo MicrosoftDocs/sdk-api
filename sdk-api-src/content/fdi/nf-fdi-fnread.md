@@ -7,7 +7,7 @@ old-location: winprog\fnread.htm
 old-project: devnotes
 ms.assetid: 0a8c6c9f-051c-43a0-b43b-1fd8b4fef10c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FNREAD, FNREAD macro [Windows API], fdi/FNREAD, winprog.fnread
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,21 +59,7 @@ The <b>FNREAD</b> macro provides the declaration for the application-defined cal
 
 
 
-### -param fn
-
-TBD
-
-
-
-
-
-
-#### - cb
-
-The maximum number of bytes to be read.
-
-
-#### - hf [in]
+### -param fn [in]
 
 An application-defined value used to identify the open file.
 
@@ -81,6 +67,11 @@ An application-defined value used to identify the open file.
 #### - pv [out]
 
 Pointer to the buffer that receives the data read from a file.
+
+
+#### - cb
+
+The maximum number of bytes to be read.
 
 
 ## -remarks

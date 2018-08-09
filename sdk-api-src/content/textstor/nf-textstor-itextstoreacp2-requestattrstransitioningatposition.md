@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp2_requestattrstransitioningatposition.htm
 old-project: TSF
 ms.assetid: ff1cda58-f02d-4c39-aed5-ebacbef20780
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],RequestAttrsTransitioningAtPosition method, ITextStoreACP2.RequestAttrsTransitioningAtPosition, ITextStoreACP2::RequestAttrsTransitioningAtPosition, RequestAttrsTransitioningAtPosition, RequestAttrsTransitioningAtPosition method [Text Services Framework], RequestAttrsTransitioningAtPosition method [Text Services Framework],ITextStoreACP2 interface, TS_ATTR_FIND_WANT_END, TS_ATTR_FIND_WANT_VALUE, textstor/ITextStoreACP2::RequestAttrsTransitioningAtPosition, tsf.itextstoreacp2_requestattrstransitioningatposition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -167,8 +167,7 @@ If the flag TS_ATTR_FIND_WANT_END is set in <i>dwFlags</i>, the method would ret
 
 
 
-<a href="https://msdn.microsoft.com/e99a44ba-c41a-4dd7-9475-dd37159081fd">
-        TS_ATTR_* Constants
+<a href="https://msdn.microsoft.com/e99a44ba-c41a-4dd7-9475-dd37159081fd">TS_ATTR_* Constants
       </a>
  
 

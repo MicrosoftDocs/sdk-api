@@ -7,7 +7,7 @@ old-location: wer\werregistermemoryblock.htm
 old-project: wer
 ms.assetid: 10fa2bf3-ec12-4c7c-b986-9b22cdaa7319
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 08/06/2018
 ms.keywords: WerRegisterMemoryBlock, WerRegisterMemoryBlock function [Windows Error Reporting], base.werregistermemoryblock, wer.werregistermemoryblock, werapi/WerRegisterMemoryBlock
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:dwrite
 ms.assetid: 12f59fc4-1aa3-339a-b92a-b52be912b188
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

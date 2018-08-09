@@ -7,7 +7,7 @@ old-location: automat\varformatfromtokens.htm
 old-project: automat
 ms.assetid: 36437d1a-970d-4a52-a8a5-1cddfe3d42f3
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarFormatFromTokens, VarFormatFromTokens function [Automation], _oa96_VarFormatFromTokens, automat.varformatfromtokens, oleauto/VarFormatFromTokens
 ms.prod: windows
 ms.technology: windows-sdk

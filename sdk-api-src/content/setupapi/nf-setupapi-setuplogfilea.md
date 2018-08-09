@@ -7,7 +7,7 @@ old-location: setup\setuplogfile.htm
 old-project: SetupApi
 ms.assetid: bc738212-ff81-4b52-b2ef-50aabf6658ab
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupLogFile, SetupLogFile function [Setup API], SetupLogFileA, SetupLogFileW, _setupapi_setuplogfile, setup.setuplogfile, setupapi/SetupLogFile, setupapi/SetupLogFileA, setupapi/SetupLogFileW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,14 +75,14 @@ Handle to the file log as returned by
 Optional pointer to the name for a logical grouping of names within the log file. You should use a <b>null</b>-terminated string.  Required if SPFILELOG_SYSTEMLOG was not passed when the file log was initialized. Otherwise, this parameter can be <b>NULL</b>.
 
 
-### -param SourceFilename
+### -param SourceFilename [in]
 
-TBD
+Name of the file as it exists on the source media from which it was installed. This name should be in whatever format is meaningful to the caller. You should use a <b>null</b>-terminated string.
 
 
-### -param TargetFilename
+### -param TargetFilename [in]
 
-TBD
+Name of the file as it exists on the target. This name should be in whatever format is meaningful to the caller. You should use a <b>null</b>-terminated string.
 
 
 ### -param Checksum [in]
@@ -110,16 +110,6 @@ Optional pointer to additional information to be associated with the file. You s
 ### -param Flags [in]
 
 This parameter can be SPFILELOG_OEMFILE, which is meaningful only for the system log and indicates that the file is not supplied by Microsoft. This parameter can be used to convert an existing file's entry, such as when an OEM overwrites a Microsoft-supplied system file.
-
-
-#### - SourceFileName [in]
-
-Name of the file as it exists on the source media from which it was installed. This name should be in whatever format is meaningful to the caller. You should use a <b>null</b>-terminated string.
-
-
-#### - TargetFileName [in]
-
-Name of the file as it exists on the target. This name should be in whatever format is meaningful to the caller. You should use a <b>null</b>-terminated string.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: mf\imfasfprofile_getmutualexclusion.htm
 old-project: medfound
 ms.assetid: 9b9e37fc-0bd8-4502-9e90-76330a08f68b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: 9b9e37fc-0bd8-4502-9e90-76330a08f68b, GetMutualExclusion, GetMutualExclusion method [Media Foundation], GetMutualExclusion method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetMutualExclusion method, IMFASFProfile.GetMutualExclusion, IMFASFProfile::GetMutualExclusion, mf.imfasfprofile_getmutualexclusion, wmcontainer/IMFASFProfile::GetMutualExclusion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MFASF_STREAMSELECTOR_FLAGS
+req.typenames: MFSINK_WMDRMACTION
 topic_type:
  - APIRef
  - kbSyntax

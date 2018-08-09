@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternate_alternateswithconstantpropertyvalu
 old-project: tablet
 ms.assetid: 6c199960-e0ee-4370-a302-a45a3dbe8b28
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 6c199960-e0ee-4370-a302-a45a3dbe8b28, AlternatesWithConstantPropertyValues, AlternatesWithConstantPropertyValues method [Tablet PC], AlternatesWithConstantPropertyValues method [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],AlternatesWithConstantPropertyValues method, IInkRecognitionAlternate.AlternatesWithConstantPropertyValues, IInkRecognitionAlternate::AlternatesWithConstantPropertyValues, msinkaut/IInkRecognitionAlternate::AlternatesWithConstantPropertyValues, tablet.iinkrecognitionalternate_alternateswithconstantpropertyvalues
 ms.prod: windows
 ms.technology: windows-sdk
@@ -163,8 +163,7 @@ For example, you can return alternates that divide the original alternate by:
 <ul>
 <li>Level of confidence boundaries-strong, intermediate, or poor-in the recognition result.</li>
 <li>Line boundaries.</li>
-<li>
-              Recognition segment boundaries.</li>
+<li>Recognition segment boundaries.</li>
 </ul>
 For a complete list of property types, see <a href="https://msdn.microsoft.com/2bfb0cbf-73a3-4e83-a4e9-f0803bd3dee8">RecognitionProperty</a>.
 

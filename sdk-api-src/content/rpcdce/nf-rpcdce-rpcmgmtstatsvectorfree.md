@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtstatsvectorfree.htm
 old-project: rpc
 ms.assetid: 0dc98053-8599-4884-a56a-5889a4480dcb
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcMgmtStatsVectorFree, RpcMgmtStatsVectorFree function [RPC], _rpc_rpcmgmtstatsvectorfree, rpc.rpcmgmtstatsvectorfree, rpcdce/RpcMgmtStatsVectorFree
 ms.prod: windows
 ms.technology: windows-sdk

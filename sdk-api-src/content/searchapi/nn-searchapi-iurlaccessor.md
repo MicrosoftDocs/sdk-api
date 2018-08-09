@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\iurlaccessor.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: IUrlAccessor, IUrlAccessor interface [search], IUrlAccessor interface [search],described, _search_IUrlAccessor, search._search_IUrlAccessor, searchapi/IUrlAccessor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,55 +72,50 @@ The <b>IUrlAccessor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231413(v=VS.85).aspx">AddRequestParameter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231413(v=VS.85).aspx">AddRequestParameter</a>
 </td>
 <td align="left" width="63%">
-
-            Requests a property-value set. 
+Requests a property-value set. 
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231414(v=VS.85).aspx">BindToFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231414(v=VS.85).aspx">BindToFilter</a>
 </td>
 <td align="left" width="63%">
-
-        Binds the item being processed to the appropriate <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a>and retrieves a pointer to the <b>IFilter</b>.
+Binds the item being processed to the appropriate <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>and retrieves a pointer to the <b>IFilter</b>.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231415(v=VS.85).aspx">BindToStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231415(v=VS.85).aspx">BindToStream</a>
 </td>
 <td align="left" width="63%">
-
-        Binds the item being processed to an <a href="https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a> data stream and retrieves a pointer to that stream.
+Binds the item being processed to an <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a> data stream and retrieves a pointer to that stream.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231416(v=VS.85).aspx">GetCLSID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231416(v=VS.85).aspx">GetCLSID</a>
 </td>
 <td align="left" width="63%">
-
-        Gets the <a href="https://msdn.microsoft.com/library/ms688628(v=VS.85).aspx">CLSID</a> for the document type of the URL item being processed.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/ms688628(v=VS.85).aspx">CLSID</a> for the document type of the URL item being processed.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231417(v=VS.85).aspx">GetDocFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231417(v=VS.85).aspx">GetDocFormat</a>
 </td>
 <td align="left" width="63%">
-
-        Gets the document format, represented as a Multipurpose Internet Mail Extensions (MIME) string.
+Gets the document format, represented as a Multipurpose Internet Mail Extensions (MIME) string.
         
 
 </td>
@@ -130,85 +125,77 @@ The <b>IUrlAccessor</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926842">GetFileName</a>
 </td>
 <td align="left" width="63%">
-
-        Retrieves the file name of the item, which the filter host uses for indexing. If the item does not exist in a file system and the <a href="https://msdn.microsoft.com/library/Bb231415(v=VS.85).aspx">IUrlAccessor::BindToStream</a> method is implemented, this method returns the shell's System.ParsingPath property for the item. 
+Retrieves the file name of the item, which the filter host uses for indexing. If the item does not exist in a file system and the <a href="https://msdn.microsoft.com/en-us/library/Bb231415(v=VS.85).aspx">IUrlAccessor::BindToStream</a> method is implemented, this method returns the shell's System.ParsingPath property for the item. 
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231419(v=VS.85).aspx">GetHost</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231419(v=VS.85).aspx">GetHost</a>
 </td>
 <td align="left" width="63%">
-
-         Gets the host name for the content source, if applicable.
+Gets the host name for the content source, if applicable.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231420(v=VS.85).aspx">GetLastModified</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231420(v=VS.85).aspx">GetLastModified</a>
 </td>
 <td align="left" width="63%">
-
-        Gets the time stamp identifying when the URL was last modified.
+Gets the time stamp identifying when the URL was last modified.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231421(v=VS.85).aspx">GetRedirectedURL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231421(v=VS.85).aspx">GetRedirectedURL</a>
 </td>
 <td align="left" width="63%">
-
-        Gets the redirected URL for the current item.
+Gets the redirected URL for the current item.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231422(v=VS.85).aspx">GetSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231422(v=VS.85).aspx">GetSecurityDescriptor</a>
 </td>
 <td align="left" width="63%">
-
-            Gets the security descriptor for the URL item. Security is applied at query time, so this descriptor identifies security for read access.
+Gets the security descriptor for the URL item. Security is applied at query time, so this descriptor identifies security for read access.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231423(v=VS.85).aspx">GetSecurityProvider</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231423(v=VS.85).aspx">GetSecurityProvider</a>
 </td>
 <td align="left" width="63%">
-
-            Gets the security provider for the URL. 
+Gets the security provider for the URL. 
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231424(v=VS.85).aspx">GetSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231424(v=VS.85).aspx">GetSize</a>
 </td>
 <td align="left" width="63%">
-
-        Gets the size of the content designated by the URL.
+Gets the size of the content designated by the URL.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231425(v=VS.85).aspx">IsDirectory</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231425(v=VS.85).aspx">IsDirectory</a>
 </td>
 <td align="left" width="63%">
-
-        Ascertains whether the item URL points to a directory.
+Ascertains whether the item URL points to a directory.
         
 
 </td>
@@ -238,11 +225,11 @@ Although the protocol handler runs in the protocol host's multithreaded environm
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231412(v=VS.85).aspx">IUrlAccessor2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231412(v=VS.85).aspx">IUrlAccessor2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc142931(v=VS.85).aspx">IUrlAccessor3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Cc142931(v=VS.85).aspx">IUrlAccessor3</a>
 
 
 
@@ -250,11 +237,11 @@ Although the protocol handler runs in the protocol host's multithreaded environm
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965709(v=VS.85).aspx">Search Protocol Handler Error Messages</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965709(v=VS.85).aspx">Search Protocol Handler Error Messages</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
+<a href="https://msdn.microsoft.com/en-us/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
  
 
  

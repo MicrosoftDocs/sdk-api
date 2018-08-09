@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectformetadatacommands.htm
 old-project: CoreAudio
 ms.assetid: B142D5CC-7321-4F3C-804D-50E728C37D10
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: ISpatialAudioObjectForMetadataCommands, ISpatialAudioObjectForMetadataCommands interface [Core Audio], ISpatialAudioObjectForMetadataCommands interface [Core Audio],described, coreaudio.ispatialaudioobjectformetadatacommands, spatialaudiometadata/ISpatialAudioObjectForMetadataCommands
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioObjectForMetadataCommands interface
@@ -57,7 +58,7 @@ This interface is a part of  Windows Sonic, Microsoft’s audio platform for mor
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectForMetadataCommands</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISpatialAudioObjectForMetadataCommands</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectForMetadataCommands</b> interface inherits from <a href="coreaudio.ispatialaudioobjectbase">ISpatialAudioObjectBase</a>. <b>ISpatialAudioObjectForMetadataCommands</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,42 +73,6 @@ The <b>ISpatialAudioObjectForMetadataCommands</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3896A6DF-158A-4DEA-961E-CFD38C2A4AC2">GetAudioObjectType</a>
-</td>
-<td align="left" width="63%">
-Gets a value specifying the type of audio object that is represented by the <b>ISpatialAudioObjectForMetadataCommands</b>. This value indicates if the object is dynamic or static. If the object is static, one and only one of the static audio channel values to which the object is assigned is returned.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
-</td>
-<td align="left" width="63%">
-Gets a buffer that is used to supply the audio data for the <b>ISpatialAudioObjectForMetadataCommands</b>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0D6FB74F-1B3D-446D-AFC6-9EB3DEDD75A0">IsActive</a>
-</td>
-<td align="left" width="63%">
-Gets a value indicating whether the <b>ISpatialAudioObjectForMetadataCommands</b> is valid. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/31AEA90B-9464-4A30-B2E4-EE93382E0C5D">SetEndOfStream</a>
-</td>
-<td align="left" width="63%">
-Instructs the system that the final block of audio data has been  submitted for the <b>ISpatialAudioObjectForMetadataCommands</b> so that the object can be deactivated and it's resources reused. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
 <a href="https://msdn.microsoft.com/4880851E-C13F-49EC-BFC2-0F97F36D4D07">WriteNextMetadataCommand</a>
 </td>
 <td align="left" width="63%">
@@ -116,4 +81,24 @@ Writes a metadata command to the spatial audio object, each command may only be 
 </td>
 </tr>
 </table> 
+
+
+## -remarks
+
+
+
+<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="coreaudio.ispatialaudioobjectbase">ISpatialAudioObjectBase</a> interface.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="coreaudio.ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
+ 
+
+ 
 

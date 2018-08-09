@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_clear_flag.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_clear_flag.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 6f00bddb-2778-cf66-6ca7-e2d2fe7b3c5a, D3D10_CLEAR_DEPTH, D3D10_CLEAR_FLAG, D3D10_CLEAR_FLAG enumeration [Direct3D 10], D3D10_CLEAR_STENCIL, d3d10/D3D10_CLEAR_DEPTH, d3d10/D3D10_CLEAR_FLAG, d3d10/D3D10_CLEAR_STENCIL, direct3d10.d3d10_clear_flag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Specifies the parts of the depth stencil to clear. Usually used with <a href="https://msdn.microsoft.com/library/Bb173538(v=VS.85).aspx">ID3D10Device::ClearDepthStencilView</a>.
+Specifies the parts of the depth stencil to clear. Usually used with <a href="https://msdn.microsoft.com/en-us/library/Bb173538(v=VS.85).aspx">ID3D10Device::ClearDepthStencilView</a>.
 
 
 ## -enum-fields
@@ -82,7 +82,7 @@ These flags can be bitwise ORed together.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
  
 
  

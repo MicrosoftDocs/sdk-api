@@ -7,7 +7,7 @@ old-location: xps\ixpsomsignatureblockresource.htm
 old-project: printdocs
 ms.assetid: f5052470-487d-4f47-8d42-70538a4a45a8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IXpsOMSignatureBlockResource, IXpsOMSignatureBlockResource interface [XPS Documents and Packaging], IXpsOMSignatureBlockResource interface [XPS Documents and Packaging],described, xps.ixpsomsignatureblockresource, xpsobjectmodel/IXpsOMSignatureBlockResource
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmformat\iwmreader_start.htm
 old-project: wmformat
 ms.assetid: 485844c6-7a84-4a0d-827d-060d8caef6cc
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWMReader interface [windows Media Format],Start method, IWMReader.Start, IWMReader::Start, IWMReaderStart, Start, Start method [windows Media Format], Start method [windows Media Format],IWMReader interface, wmformat.iwmreader_start, wmsdkidl/IWMReader::Start
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessageiterator_ateof_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7orq.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: AtEOF property [Fax Service], AtEOF property [Fax Service],FaxIncomingMessageIterator object, FaxIncomingMessageIterator object [Fax Service],AtEOF property, FaxIncomingMessageIterator.AtEOF, IFaxIncomingMessageIterator.get_AtEOF, IFaxIncomingMessageIterator::get_AtEOF, _mfax_faxincomingmessageiterator.ateof, fax._mfax_faxincomingmessageiterator_ateof, fax._mfax_faxincomingmessageiterator_ateof_vb, get_AtEOF
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_IN_ARCHIVE</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_IN_ARCHIVE</a> access right.
 
 
 
@@ -73,15 +73,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/ms687518(v=VS.85).aspx">FaxIncomingMessageIterator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687518(v=VS.85).aspx">FaxIncomingMessageIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms687519(v=VS.85).aspx">IFaxIncomingMessageIterator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687519(v=VS.85).aspx">IFaxIncomingMessageIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692976(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692976(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

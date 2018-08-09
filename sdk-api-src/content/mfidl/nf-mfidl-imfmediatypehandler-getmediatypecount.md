@@ -7,7 +7,7 @@ old-location: mf\imfmediatypehandler_getmediatypecount.htm
 old-project: medfound
 ms.assetid: c5ee41bc-ee8b-4990-ae9d-92ef54597f31
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetMediaTypeCount, GetMediaTypeCount method [Media Foundation], GetMediaTypeCount method [Media Foundation],IMFMediaTypeHandler interface, IMFMediaTypeHandler interface [Media Foundation],GetMediaTypeCount method, IMFMediaTypeHandler.GetMediaTypeCount, IMFMediaTypeHandler::GetMediaTypeCount, c5ee41bc-ee8b-4990-ae9d-92ef54597f31, mf.imfmediatypehandler_getmediatypecount, mfidl/IMFMediaTypeHandler::GetMediaTypeCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,12 +81,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        To get the supported media types, call <a href="https://msdn.microsoft.com/a1827675-bbc4-45d8-8c6e-644b0d2addd4">IMFMediaTypeHandler::GetMediaTypeByIndex</a>.
+To get the supported media types, call <a href="https://msdn.microsoft.com/a1827675-bbc4-45d8-8c6e-644b0d2addd4">IMFMediaTypeHandler::GetMediaTypeByIndex</a>.
       
 
-
-        For a media source, the media type handler for each stream must contain at least one supported media type. For media sinks, the media type handler for each stream might contain zero media types. In that case, the application must provide the media type. To test whether a particular media type is supported, call <a href="https://msdn.microsoft.com/ea52defa-8b78-4f40-97ae-ed6a5ee4849e">IMFMediaTypeHandler::IsMediaTypeSupported</a>.
+For a media source, the media type handler for each stream must contain at least one supported media type. For media sinks, the media type handler for each stream might contain zero media types. In that case, the application must provide the media type. To test whether a particular media type is supported, call <a href="https://msdn.microsoft.com/ea52defa-8b78-4f40-97ae-ed6a5ee4849e">IMFMediaTypeHandler::IsMediaTypeSupported</a>.
       
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:

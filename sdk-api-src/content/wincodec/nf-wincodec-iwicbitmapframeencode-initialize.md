@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapframeencode_initialize.htm
 old-project: wic
 ms.assetid: ec215e32-b4bd-469a-903d-f5b546185183
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],Initialize method, IWICBitmapFrameEncode.Initialize, IWICBitmapFrameEncode::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_initialize, wic._wic_codec_iwicbitmapframeencode_initialize, wincodec/IWICBitmapFrameEncode::Initialize
 ms.prod: windows
 ms.technology: windows-sdk

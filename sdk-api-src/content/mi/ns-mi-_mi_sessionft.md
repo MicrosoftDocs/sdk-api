@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_sessionft.htm
 old-project: wmi_v2
 ms.assetid: 24bf4ca7-db0e-4ce5-bffd-48d94130c424
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_SessionFT, MI_SessionFT structure [Windows Management Infrastructure (MI)], _MI_SessionFT, mi/MI_SessionFT, wmi_v2.mi_sessionft
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,10 +63,16 @@ For details, see <b>MI_Session_&lt;method name&gt;</b> functions.
 
 
 
-#### - AssociatorInstances
-
-
 #### - Close
+
+
+#### - GetApplication
+
+
+#### - GetInstance
+
+
+#### - ModifyInstance
 
 
 #### - CreateInstance
@@ -75,34 +81,28 @@ For details, see <b>MI_Session_&lt;method name&gt;</b> functions.
 #### - DeleteInstance
 
 
-#### - EnumerateClasses
+#### - Invoke
 
 
 #### - EnumerateInstances
 
 
-#### - GetApplication
-
-
-#### - GetClass
-
-
-#### - GetInstance
-
-
-#### - Invoke
-
-
-#### - ModifyInstance
-
-
 #### - QueryInstances
+
+
+#### - AssociatorInstances
 
 
 #### - ReferenceInstances
 
 
 #### - Subscribe
+
+
+#### - GetClass
+
+
+#### - EnumerateClasses
 
 
 #### - TestConnection

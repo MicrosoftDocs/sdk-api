@@ -7,7 +7,7 @@ old-location: wer\werstoregetfirstreportkey.htm
 old-project: wer
 ms.assetid: E4732B60-BFBE-4916-83A6-5F031D267913
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 08/06/2018
 ms.keywords: WerStoreGetFirstReportKey, WerStoreGetFirstReportKey function [Windows Error Reporting], wer.werstoregetfirstreportkey, werapi/WerStoreGetFirstReportKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,24 +63,12 @@ Gets a reference to the first report in the report store.
 
 ### -param hReportStore
 
-TBD
+The error report store (previously retrieved with <a href="https://msdn.microsoft.com/FA7E0EC6-00F1-45E2-BE34-D732965FBA15">WerStoreOpen</a>).
 
 
 ### -param ppszReportKey
 
-TBD
-
-
-
-
-#### - reportKey
-
 A pointer to the report key string. On a successful call, this will point to the retrieved report key.
-
-
-#### - store
-
-The error report store (previously retrieved with <a href="https://msdn.microsoft.com/FA7E0EC6-00F1-45E2-BE34-D732965FBA15">WerStoreOpen</a>).
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: gdi\scalewindowextex.htm
 old-project: gdi
 ms.assetid: c34f0978-74dd-4839-99f2-a106f3d2c0f9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ScaleWindowExtEx, ScaleWindowExtEx function [Windows GDI], _win32_ScaleWindowExtEx, gdi.scalewindowextex, wingdi/ScaleWindowExtEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,54 +66,27 @@ The <b>ScaleWindowExtEx</b> function modifies the window for a device context us
 A handle to the device context.
 
 
-### -param xn
-
-TBD
-
-
-### -param xd
-
-TBD
-
-
-### -param yn
-
-TBD
-
-
-### -param yd
-
-TBD
-
-
-### -param lpsz
-
-TBD
-
-
-
-
-#### - Xdenom [in]
-
-The amount by which to divide the current horizontal extent.
-
-
-#### - Xnum [in]
+### -param xn [in]
 
 The amount by which to multiply the current horizontal extent.
 
 
-#### - Ydenom [in]
+### -param xd [in]
 
-The amount by which to divide the current vertical extent.
+The amount by which to divide the current horizontal extent.
 
 
-#### - Ynum [in]
+### -param yn [in]
 
 The amount by which to multiply the current vertical extent.
 
 
-#### - lpSize [out]
+### -param yd [in]
+
+The amount by which to divide the current vertical extent.
+
+
+### -param lpsz [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that receives the previous window extents, in logical units. If <i>lpSize</i> is <b>NULL</b>, this parameter is not used.
 

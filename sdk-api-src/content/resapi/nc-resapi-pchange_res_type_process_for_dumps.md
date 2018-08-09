@@ -7,7 +7,7 @@ old-location: mscs\changerestypeprocessfordumps.htm
 old-project: mscs
 ms.assetid: 6E5CA26D-F58A-41A4-9ED0-35FA363B7025
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ChangeResTypeProcessForDumps, ChangeResTypeProcessForDumps callback, ChangeResTypeProcessForDumps callback function [Failover Cluster], PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS, PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS callback function [Failover Cluster], mscs.changerestypeprocessfordumps, resapi/ChangeResTypeProcessForDumps, resapi/PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,22 +58,22 @@ The <b>PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS</b> type defines a pointer to this fun
 
 
 
-### -param resourceTypeName [in]
+### -param resourceTypeName [in] [in]
 
 TBD
 
 
-### -param processName [in]
+### -param processName [in] [in]
 
 TBD
 
 
-### -param processId [in]
+### -param processId [in] [in]
 
 TBD
 
 
-### -param isAdd [in]
+### -param isAdd [in] [in]
 
 TBD
 

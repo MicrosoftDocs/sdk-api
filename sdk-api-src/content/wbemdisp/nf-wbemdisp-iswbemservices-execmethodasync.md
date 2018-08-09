@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_execmethodasync.htm
 old-project: WmiSdk
 ms.assetid: 933a4c64-7538-474e-9f6f-f94da6066b46
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ExecMethodAsync, ExecMethodAsync method [Windows Management Instrumentation], ExecMethodAsync method [Windows Management Instrumentation],ISWbemServices interface, ExecMethodAsync method [Windows Management Instrumentation],SWbemServices object, ISWbemServices interface [Windows Management Instrumentation],ExecMethodAsync method, ISWbemServices.ExecMethodAsync, ISWbemServices::ExecMethodAsync, SWbemServices object [Windows Management Instrumentation],ExecMethodAsync method, SWbemServices.ExecMethodAsync, _hmm_swbemservices.execmethodasync, wbemFlagDontSendStatus, wbemFlagSendStatus, wmi.swbemservices_execmethodasync
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_instancesofasync.htm
 old-project: WmiSdk
 ms.assetid: 631cd749-9a39-4606-9a38-0b4bb5b4b2cd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemServices interface [Windows Management Instrumentation],InstancesOfAsync method, ISWbemServices.InstancesOfAsync, ISWbemServices::InstancesOfAsync, InstancesOfAsync, InstancesOfAsync method [Windows Management Instrumentation], InstancesOfAsync method [Windows Management Instrumentation],ISWbemServices interface, InstancesOfAsync method [Windows Management Instrumentation],SWbemServices object, SWbemServices object [Windows Management Instrumentation],InstancesOfAsync method, SWbemServices.InstancesOfAsync, _hmm_swbemservices.instancesofasync, wbemFlagDontSendStatus, wbemFlagSendStatus, wbemFlagUseAmendedQualifiers, wbemQueryFlagDeep, wbemQueryFlagShallow, wmi.swbemservices_instancesofasync
 ms.prod: windows
 ms.technology: windows-sdk

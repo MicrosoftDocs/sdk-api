@@ -7,7 +7,7 @@ old-location: mscs\clusdisks_count.htm
 old-project: mscs
 ms.assetid: 6b0f88df-391d-4cfb-b0be-cf77747d024e
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusDisks class [Failover Cluster],Count property, ClusDisks.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusDisks class, ISClusDisks.get_Count, ISClusDisks::get_Count, _wolf_clusdisks.count, get_Count, mscs.clusdisks_count
 ms.prod: windows
 ms.technology: windows-sdk

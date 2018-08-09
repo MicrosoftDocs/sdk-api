@@ -7,7 +7,7 @@ old-location: opc\opc_relationship_selector.htm
 old-project: OPC
 ms.assetid: 5532aab1-850e-4de8-a470-c55fb4c2f8c4
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: OPC_RELATIONSHIP_SELECTOR, OPC_RELATIONSHIP_SELECTOR enumeration [Open Packaging Conventions], OPC_RELATIONSHIP_SELECT_BY_ID, OPC_RELATIONSHIP_SELECT_BY_TYPE, __MIDL___MIDL_itf_msopc_0001_0076_0002, msopc/OPC_RELATIONSHIP_SELECTOR, msopc/OPC_RELATIONSHIP_SELECT_BY_ID, msopc/OPC_RELATIONSHIP_SELECT_BY_TYPE, opc.opc_relationship_selector
 ms.prod: windows
 ms.technology: windows-sdk

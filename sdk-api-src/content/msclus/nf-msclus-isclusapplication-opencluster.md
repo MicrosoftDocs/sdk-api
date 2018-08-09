@@ -7,7 +7,7 @@ old-location: mscs\clusapplication_opencluster.htm
 old-project: mscs
 ms.assetid: 2501e921-5b0a-429f-aa7f-56191ab9795b
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ISClusApplication object [Failover Cluster],OpenCluster method, ISClusApplication.OpenCluster, ISClusApplication::OpenCluster, OpenCluster, OpenCluster method [Failover Cluster], OpenCluster method [Failover Cluster],ISClusApplication object, _wolf_clusapplication.opencluster, mscs.clusapplication_opencluster
 ms.prod: windows
 ms.technology: windows-sdk

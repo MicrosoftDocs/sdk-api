@@ -7,7 +7,7 @@ old-location: stg\ipropertystorage_readmultiple.htm
 old-project: stg
 ms.assetid: a3d708fe-53af-4f1b-94ac-edc40d59a034
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: IPropertyStorage [Strctd Stg],ReadMultiple, IPropertyStorage interface [Structured Storage],ReadMultiple method, IPropertyStorage.ReadMultiple, IPropertyStorage::ReadMultiple, ReadMultiple, ReadMultiple method [Structured Storage], ReadMultiple method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_readmultiple, propidl/IPropertyStorage::ReadMultiple, stg.ipropertystorage_readmultiple
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,11 +85,10 @@ Caller-allocated array of a
 
 
 
-
-						This method supports the standard return value <b>E_UNEXPECTED</b>, as well as the following:
+This method supports the standard return value <b>E_UNEXPECTED</b>, as well as the following:
 
 This function can also return any file system errors or Win32 errors wrapped in an <b>HRESULT</b> data type. For more information, see 
-<a href="https://msdn.microsoft.com/library/ms688560(v=VS.85).aspx">Error Handling Strategies</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms688560(v=VS.85).aspx">Error Handling Strategies</a>.
 
 For more information, see 
 <a href="https://msdn.microsoft.com/7540966f-a3b2-46c9-9e04-b15133a517eb">Property Storage Considerations</a>.

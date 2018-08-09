@@ -7,7 +7,7 @@ old-location: tsf\itfstatussink_onstatuschange.htm
 old-project: TSF
 ms.assetid: 6eabf08f-006b-43b4-aea7-1d803b3d09b2
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfStatusSink interface [Text Services Framework],OnStatusChange method, ITfStatusSink.OnStatusChange, ITfStatusSink::OnStatusChange, OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework],ITfStatusSink interface, _tsf_itfstatussink_onstatuschange_ref, msctf/ITfStatusSink::OnStatusChange, tsf.itfstatussink_onstatuschange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,14 +91,12 @@ This method receives a callback when one of the flags of the <b>dwDynamicFlags</
 
 
 
-<a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">
-        ITfContext
+<a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/a1f193b0-fcfc-4db6-90e9-61d528b08672">
-        ITfContext::GetStatus
+<a href="https://msdn.microsoft.com/a1f193b0-fcfc-4db6-90e9-61d528b08672">ITfContext::GetStatus
       </a>
 
 

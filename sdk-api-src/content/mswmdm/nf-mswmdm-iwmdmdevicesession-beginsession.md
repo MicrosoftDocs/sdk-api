@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevicesession_beginsession.htm
 old-project: WMDM
 ms.assetid: 7077e594-58ed-497d-893d-81eeb317b274
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: BeginSession, BeginSession method [windows Media Device Manager], BeginSession method [windows Media Device Manager],IWMDMDeviceSession interface, IWMDMDeviceSession interface [windows Media Device Manager],BeginSession method, IWMDMDeviceSession.BeginSession, IWMDMDeviceSession::BeginSession, IWMDMDeviceSessionBeginSession, mswmdm/IWMDMDeviceSession::BeginSession, wmdm.iwmdmdevicesession_beginsession
 ms.prod: windows
 ms.technology: windows-sdk

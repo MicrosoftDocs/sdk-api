@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_query_data_pipeline_statistics.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_query_data_pipeline_statistics.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 0f1e36bb-cb67-6e39-ddb2-784ed615c5bb, D3D10_QUERY_DATA_PIPELINE_STATISTICS, D3D10_QUERY_DATA_PIPELINE_STATISTICS structure [Direct3D 10], d3d10/D3D10_QUERY_DATA_PIPELINE_STATISTICS, direct3d10.d3d10_query_data_pipeline_statistics
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Query information about graphics-pipeline activity in between calls to <a href="https://msdn.microsoft.com/library/Bb173501(v=VS.85).aspx">ID3D10Asynchronous::Begin</a> and <a href="https://msdn.microsoft.com/library/Bb173502(v=VS.85).aspx">ID3D10Asynchronous::End</a>.
+Query information about graphics-pipeline activity in between calls to <a href="https://msdn.microsoft.com/en-us/library/Bb173501(v=VS.85).aspx">ID3D10Asynchronous::Begin</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb173502(v=VS.85).aspx">ID3D10Asynchronous::End</a>.
 
 
 ## -struct-fields
@@ -119,7 +119,7 @@ Number of times a pixel shader was invoked.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205153(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205153(v=VS.85).aspx">Core Structures</a>
  
 
  

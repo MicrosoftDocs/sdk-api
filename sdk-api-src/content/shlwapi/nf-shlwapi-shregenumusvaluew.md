@@ -7,7 +7,7 @@ old-location: shell\SHRegEnumUSValue.htm
 old-project: shell
 ms.assetid: 78ba5df4-8ee3-473f-b3ef-0bca65bb0a2a
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHRegEnumUSValue, SHRegEnumUSValue function [Windows Shell], SHRegEnumUSValueA, SHRegEnumUSValueW, _win32_SHRegEnumUSValue, shell.SHRegEnumUSValue, shlwapi/SHRegEnumUSValue, shlwapi/SHRegEnumUSValueA, shlwapi/SHRegEnumUSValueW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,9 +63,15 @@ Enumerates the values of the specified registry subkey in a user-specific subtre
 
 
 
-### -param hUSkey
+### -param hUSkey [in]
 
-TBD
+Type: <b>HUSKEY</b>
+
+A handle to a currently open registry subkey. The subkey must have been opened with the KEY_SET_VALUE access right. For more information, see <a href="https://msdn.microsoft.com/266d5c8e-1bcd-48e5-bc06-2fbc956d8658">Registry Key Security and Access Rights</a>.
+
+                        
+
+This handle can be obtained through the <a href="https://msdn.microsoft.com/756430a9-a495-412e-95c3-a93222bc467a">SHRegOpenUSKey</a> function.
 
 
 ### -param dwIndex [in]
@@ -82,9 +88,11 @@ Type: <b>LPTSTR</b>
 A pointer to a character buffer that receives the enumerated value name. The size of this buffer is specified in <i>pcchValueNameLen</i>.
 
 
-### -param pcchValueName
+### -param pcchValueName [in, out]
 
-TBD
+Type: <b>LPDWORD</b>
+
+A pointer to a <b>DWORD</b> that, on entry, contains the size of the buffer at <i>pszValueName</i>, in characters. On exit, this contains the number of characters that were copied to <i>pszValueName</i>.
 
 
 ### -param pdwType [out, optional]
@@ -113,24 +121,6 @@ A pointer to a <b>DWORD</b> that, on entry, contains the size of the buffer at <
 Type: <b><a href="https://msdn.microsoft.com/4216a983-9d53-44b1-8273-e5a90ac4b3ef">SHREGENUM_FLAGS</a></b>
 
 One of the <a href="https://msdn.microsoft.com/4216a983-9d53-44b1-8273-e5a90ac4b3ef">SHREGENUM_FLAGS</a> that specifies the base key in which the enumeration should take place.
-
-
-#### - hUSKey [in]
-
-Type: <b>HUSKEY</b>
-
-A handle to a currently open registry subkey. The subkey must have been opened with the KEY_SET_VALUE access right. For more information, see <a href="https://msdn.microsoft.com/266d5c8e-1bcd-48e5-bc06-2fbc956d8658">Registry Key Security and Access Rights</a>.
-
-                        
-
-This handle can be obtained through the <a href="https://msdn.microsoft.com/756430a9-a495-412e-95c3-a93222bc467a">SHRegOpenUSKey</a> function.
-
-
-#### - pcchValueNameLen [in, out]
-
-Type: <b>LPDWORD</b>
-
-A pointer to a <b>DWORD</b> that, on entry, contains the size of the buffer at <i>pszValueName</i>, in characters. On exit, this contains the number of characters that were copied to <i>pszValueName</i>.
 
 
 ## -returns

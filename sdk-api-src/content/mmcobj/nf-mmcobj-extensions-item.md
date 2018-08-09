@@ -7,7 +7,7 @@ old-location: mmc\extensions_item.htm
 old-project: MMC
 ms.assetid: 684cb03a-4e22-457e-9296-49c985776eed
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: Extensions interface [MMC],Item method, Extensions object [MMC],Item method, Extensions.Item, Extensions::Item, Item, Item method [MMC], Item method [MMC],Extensions interface, Item method [MMC],Extensions object, _slate_extensions.item_method, mmc.extensions_item
 ms.prod: windows
 ms.technology: windows-sdk

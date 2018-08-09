@@ -7,7 +7,7 @@ old-location: shell\ULongLongToUInt.htm
 old-project: shell
 ms.assetid: 22ddab76-7f47-4198-830a-5ae88706ef1f
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ULongLongToUInt, ULongLongToUInt function [Windows Shell], _shell_ULongLongToUInt, intsafe/ULongLongToUInt, shell.ULongLongToUInt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,7 @@ Type: <b>ULONGLONG</b>
 The value to be converted.
 
 
-### -param puResult
-
-TBD
-
-
-
-
-#### - puiResult [out]
+### -param puResult [out]
 
 Type: <b>UINT*</b>
 

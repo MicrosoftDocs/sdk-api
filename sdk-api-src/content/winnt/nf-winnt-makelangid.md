@@ -7,7 +7,7 @@ old-location: intl\makelangid.htm
 old-project: Intl
 ms.assetid: cdf6424a-bf2b-4c14-8bc7-8b5f04c29ed3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MAKELANGID, MAKELANGID macro [Internationalization for Windows Applications], _win32_MAKELANGID, intl.makelangid, winnt/MAKELANGID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,24 +61,10 @@ Creates a <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce
 
 ### -param p
 
-TBD
-
-
-### -param s
-
-TBD
-
-
-
-
-
-
-#### - usPrimaryLanguage
-
 Primary language identifier. This identifier can be a predefined value or a value for a user-defined primary language. For a user-defined language, the identifier is a value in the range 0x0200 to 0x03FF. All other values are reserved for operating system use. For more information, see <a href="https://msdn.microsoft.com/8a6373e0-46c2-4b1b-bc67-543f426ef15a">Language Identifier Constants and Strings</a>.
 
 
-#### - usSubLanguage
+### -param s
 
 Sublanguage identifier. This parameter can be a predefined sublanguage identifier or a user-defined sublanguage. For a user-defined sublanguage, the identifier is a value in the range 0x20 to 0x3F. All other values are reserved for operating system use. For more information, see <a href="https://msdn.microsoft.com/8a6373e0-46c2-4b1b-bc67-543f426ef15a">Language Identifier Constants and Strings</a>.
 

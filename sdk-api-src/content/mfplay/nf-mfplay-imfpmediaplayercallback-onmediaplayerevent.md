@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayercallback_onmediaplayerevent.htm
 old-project: medfound
 ms.assetid: 2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFPMediaPlayerCallback interface [Media Foundation],OnMediaPlayerEvent method, IMFPMediaPlayerCallback.OnMediaPlayerEvent, IMFPMediaPlayerCallback::OnMediaPlayerEvent, OnMediaPlayerEvent, OnMediaPlayerEvent method [Media Foundation], OnMediaPlayerEvent method [Media Foundation],IMFPMediaPlayerCallback interface, mf.imfpmediaplayercallback_onmediaplayerevent, mfplay/IMFPMediaPlayerCallback::OnMediaPlayerEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,8 +82,7 @@ This method does not return a value.
 
 
 
-
-        The specific type of playback event is given in the <b>eEventType</b> member of the <a href="https://msdn.microsoft.com/ed9d3790-845a-4392-b755-6a5ce6e20de5">MFP_EVENT_HEADER</a> structure. This structure contains information that is common to all of the event types. Some event types use extended structures. A set of macros is defined for casting the <i>pEventHeader</i> pointer to the correct structure type. For more information, see <a href="https://msdn.microsoft.com/95beb13d-db84-4713-9c27-27b37eac7f2f">MFP_EVENT_TYPE</a>.
+The specific type of playback event is given in the <b>eEventType</b> member of the <a href="https://msdn.microsoft.com/ed9d3790-845a-4392-b755-6a5ce6e20de5">MFP_EVENT_HEADER</a> structure. This structure contains information that is common to all of the event types. Some event types use extended structures. A set of macros is defined for casting the <i>pEventHeader</i> pointer to the correct structure type. For more information, see <a href="https://msdn.microsoft.com/95beb13d-db84-4713-9c27-27b37eac7f2f">MFP_EVENT_TYPE</a>.
       
 
 It is safe to call <a href="https://msdn.microsoft.com/fa57d465-1ee9-4f7a-9be8-66a6d73f65e8">IMFPMediaPlayer</a> and <a href="https://msdn.microsoft.com/2839d256-bdaf-40cf-9f9d-46f9e2ce59e8">IMFPMediaItem</a> methods inside the <b>OnMediaPlayer</b> method. MFPlay is guaranteed not to reenter the <b>OnMediaPlayer</b> method. That is, calls to <b>OnMediaPlayer</b> are serialized, and the method will not be invoked again from inside <b>OnMediaPlayer</b>. 

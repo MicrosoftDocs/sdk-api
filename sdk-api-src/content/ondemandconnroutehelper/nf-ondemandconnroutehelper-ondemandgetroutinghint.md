@@ -7,7 +7,7 @@ old-location: nla\ondemandgetroutinghint.htm
 old-project: nla
 ms.assetid: 6B98416F-A196-4015-836B-D6D649CCA9B1
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: OnDemandGetRoutingHint, OnDemandGetRoutingHint function [Network Awareness], nla.ondemandgetroutinghint, ondemandconnroutehelper/OnDemandGetRoutingHint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,24 +59,12 @@ The <b>OnDemandGetRoutingHint</b> function looks up a destination in the Route R
 
 
 
-### -param destinationHostName
-
-TBD
-
-
-### -param interfaceIndex
-
-TBD
-
-
-
-
-#### - DestinationHostName [in]
+### -param destinationHostName [in]
 
 An PWSTR describing the target host name for a network communication.
 
 
-#### - pInterfaceIndex [out]
+### -param interfaceIndex [out]
 
 The interface index of the network adapter to be used for communicating with the target host.
 

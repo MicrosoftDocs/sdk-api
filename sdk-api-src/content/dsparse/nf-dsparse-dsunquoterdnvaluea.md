@@ -7,7 +7,7 @@ old-location: ad\dsunquoterdnvalue.htm
 old-project: ad
 ms.assetid: 6e3dd220-ba98-46b5-8522-93cbe2029aa4
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DsUnquoteRdnValue, DsUnquoteRdnValue function [Active Directory], DsUnquoteRdnValueA, DsUnquoteRdnValueW, ERROR_BUFFER_OVERFLOW, ERROR_SUCCESS, _glines_dsunquoterdnvalue, ad.dsunquoterdnvalue, dsparse/DsUnquoteRdnValue, dsparse/DsUnquoteRdnValueA, dsparse/DsUnquoteRdnValueW
 ms.prod: windows
 ms.technology: windows-sdk

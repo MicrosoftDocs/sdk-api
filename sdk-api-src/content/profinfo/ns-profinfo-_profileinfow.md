@@ -7,7 +7,7 @@ old-location: shell\PROFILEINFO.htm
 old-project: shell
 ms.assetid: 09dae38c-3b2b-4f12-9c1e-90737cf0c7cc
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPPROFILEINFOW, LPPROFILEINFO, LPPROFILEINFO structure pointer [Windows Shell], PI_APPLYPOLICY, PI_NOUI, PROFILEINFO, PROFILEINFO structure [Windows Shell], PROFILEINFOA, PROFILEINFOW, _PROFILEINFOW, _shell_PROFILEINFO, profinfo/LPPROFILEINFO, profinfo/PROFILEINFO, profinfo/PROFILEINFOA, profinfo/PROFILEINFOW, shell.PROFILEINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -129,14 +129,14 @@ Type: <b>HANDLE</b>
 A handle to the <b>HKEY_CURRENT_USER</b> registry subtree. For more information, see Remarks.
 
 
-##### - dwFlags.PI_APPLYPOLICY
-
-Not supported.
-
-
 ##### - dwFlags.PI_NOUI
 
 Prevents the display of profile error messages.
+
+
+##### - dwFlags.PI_APPLYPOLICY
+
+Not supported.
 
 
 ## -remarks

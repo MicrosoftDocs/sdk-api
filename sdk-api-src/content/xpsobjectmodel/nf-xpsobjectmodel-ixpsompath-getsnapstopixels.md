@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_getsnapstopixels.htm
 old-project: printdocs
 ms.assetid: c0a4a8b5-f7cf-4cbe-9221-41cde4f63557
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: FALSE, GetSnapsToPixels, GetSnapsToPixels method [XPS Documents and Packaging], GetSnapsToPixels method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetSnapsToPixels method, IXpsOMPath.GetSnapsToPixels, IXpsOMPath::GetSnapsToPixels, TRUE, xps.ixpsompath_getsnapstopixels, xpsobjectmodel/IXpsOMPath::GetSnapsToPixels
 ms.prod: windows
 ms.technology: windows-sdk

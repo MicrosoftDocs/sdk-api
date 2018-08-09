@@ -4,10 +4,10 @@ title: Tbsi_Get_OwnerAuth function
 author: windows-sdk-content
 description: Retrieves the owner authorization of the TPM if the information is available in the local registry.
 old-location: tbs\tbsi_get_ownerauth.htm
-old-project: TBS
+old-project: tbs
 ms.assetid: 9D265AD2-F992-4756-9A2D-03DADB69C7DC
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TBS_OWNERAUTH_TYPE_ADMIN, TBS_OWNERAUTH_TYPE_ENDORSEMENT, TBS_OWNERAUTH_TYPE_ENDORSEMENT_20, TBS_OWNERAUTH_TYPE_FULL, TBS_OWNERAUTH_TYPE_STORAGE_20, TBS_OWNERAUTH_TYPE_USER, Tbsi_Get_OwnerAuth, Tbsi_Get_OwnerAuth function [TBS], tbs.tbsi_get_ownerauth, tbs/Tbsi_Get_OwnerAuth
 ms.prod: windows
 ms.technology: windows-sdk

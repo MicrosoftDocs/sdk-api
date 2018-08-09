@@ -4,10 +4,10 @@ title: DnsQuery_UTF8 function
 author: windows-sdk-content
 description: Is the generic query interface to the DNS namespace, and provides application developers with a DNS query resolution interface.
 old-location: dns\dnsquery.htm
-old-project: DNS
+old-project: dns
 ms.assetid: 3d810b76-cea1-4904-9b5a-c2566b332c2c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DnsQuery, DnsQuery function [DNS], DnsQuery_A, DnsQuery_UTF8, DnsQuery_W, _dns_dnsquery, dns.dnsquery, windns/DnsQuery, windns/DnsQuery_A, windns/DnsQuery_UTF8, windns/DnsQuery_W
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,9 +70,9 @@ The
 
 
 
-### -param pszName
+### -param pszName [in]
 
-TBD
+A pointer to a string that represents the DNS name to query.
 
 
 ### -param wType [in]
@@ -94,24 +94,14 @@ This parameter is reserved for future use and must be set to <b>NULL</b>.
 					
 
 
-### -param ppQueryResults
+### -param ppQueryResults [out, optional]
 
-TBD
+Optional. A pointer to a pointer that points to the list of RRs that comprise the response. For more information, see the Remarks section.
 
 
 ### -param pReserved [out, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
-
-
-#### - lpstrName [in]
-
-A pointer to a string that represents the DNS name to query.
-
-
-#### - ppQueryResultsSet [out, optional]
-
-Optional. A pointer to a pointer that points to the list of RRs that comprise the response. For more information, see the Remarks section.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: security\keyidentifierhashalgorithm_enum.htm
 old-project: seccertenroll
 ms.assetid: 80e3c730-880f-4cfa-921f-3bb88cf827f2
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: KeyIdentifierHashAlgorithm, KeyIdentifierHashAlgorithm enumeration [Security], SKIHashCapiSha1, SKIHashDefault, SKIHashSha1, SKIHashSha256, certenroll/KeyIdentifierHashAlgorithm, certenroll/SKIHashCapiSha1, certenroll/SKIHashDefault, certenroll/SKIHashSha1, certenroll/SKIHashSha256, security.keyidentifierhashalgorithm_enum
 ms.prod: windows
 ms.technology: windows-sdk

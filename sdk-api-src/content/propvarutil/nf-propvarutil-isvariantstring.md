@@ -7,7 +7,7 @@ old-location: properties\IsVariantString.htm
 old-project: properties
 ms.assetid: 6056856c-9b7a-4c6a-9e9a-0baa5e1addcf
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: IsVariantString, IsVariantString function [Windows Properties], _shell_IsVariantString, properties.IsVariantString, propvarutil/IsVariantString, shell.IsVariantString
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\itfsource_advisesink.htm
 old-project: TSF
 ms.assetid: 90928e6e-e11e-42ad-9b3e-d974642aca36
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: AdviseSink, AdviseSink method [Text Services Framework], AdviseSink method [Text Services Framework],ITfSource interface, IID_ITfActiveLanguageProfileNotifySink, IID_ITfDisplayAttributeNotifySink, IID_ITfKeyTraceEventSink, IID_ITfPreservedKeyNotifySink, IID_ITfThreadFocusSink, IID_ITfThreadMgrEventSink, ITfSource interface [Text Services Framework],AdviseSink method, ITfSource.AdviseSink, ITfSource::AdviseSink, _tsf_itfsource_advisesink_ref, msctf/ITfSource::AdviseSink, tsf.itfsource_advisesink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -233,38 +233,32 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/c70141e8-c948-44f4-914e-454327aadf2b">
-        ITfActiveLanguageProfileNotifySink
+<a href="https://msdn.microsoft.com/c70141e8-c948-44f4-914e-454327aadf2b">ITfActiveLanguageProfileNotifySink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/c9ca3eb5-1fb1-4e45-9ec4-a0296f1bc8c3">
-        ITfCompartment
+<a href="https://msdn.microsoft.com/c9ca3eb5-1fb1-4e45-9ec4-a0296f1bc8c3">ITfCompartment
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/1bd464e7-9e34-4725-83f9-42e09ddf4778">
-        ITfCompartmentEventSink
+<a href="https://msdn.microsoft.com/1bd464e7-9e34-4725-83f9-42e09ddf4778">ITfCompartmentEventSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">
-        ITfContext
+<a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/26fc5d8a-e24e-414e-a355-c1f89251f6bd">
-        ITfContextKeyEventSink
+<a href="https://msdn.microsoft.com/26fc5d8a-e24e-414e-a355-c1f89251f6bd">ITfContextKeyEventSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/c21ff404-af42-488a-90f0-d3f02277c557">
-        ITfDisplayAttributeNotifySink
+<a href="https://msdn.microsoft.com/c21ff404-af42-488a-90f0-d3f02277c557">ITfDisplayAttributeNotifySink
       </a>
 
 
@@ -273,38 +267,32 @@ ITfEditTransactionSink
 
 
 
-<a href="https://msdn.microsoft.com/9fa722a4-1e3f-4845-aea7-3b24b517f2a5">
-        ITfInputProcessorProfiles
+<a href="https://msdn.microsoft.com/9fa722a4-1e3f-4845-aea7-3b24b517f2a5">ITfInputProcessorProfiles
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/29785bae-59b8-4bbb-b899-44f6fc3e83bd">
-        ITfKeyTraceEventSink
+<a href="https://msdn.microsoft.com/29785bae-59b8-4bbb-b899-44f6fc3e83bd">ITfKeyTraceEventSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/16612641-2bff-4e6f-a955-85793021a20b">
-        ITfLangBarItem
+<a href="https://msdn.microsoft.com/16612641-2bff-4e6f-a955-85793021a20b">ITfLangBarItem
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/1734a011-1ee8-4afd-ace8-334eeaf14518">
-        ITfLangBarItemSink
+<a href="https://msdn.microsoft.com/1734a011-1ee8-4afd-ace8-334eeaf14518">ITfLangBarItemSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/c0c8d02a-cc3f-4c1c-96e9-516f49b868e6">
-        ITfLanguageProfileNotifySink
+<a href="https://msdn.microsoft.com/c0c8d02a-cc3f-4c1c-96e9-516f49b868e6">ITfLanguageProfileNotifySink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/0bf786b5-efcd-4c58-835b-47e7adf9be63">
-        ITfPreservedKeyNotifySink
+<a href="https://msdn.microsoft.com/0bf786b5-efcd-4c58-835b-47e7adf9be63">ITfPreservedKeyNotifySink
       </a>
 
 
@@ -313,38 +301,32 @@ ITfEditTransactionSink
 
 
 
-<a href="https://msdn.microsoft.com/e5d40c6f-c8ab-4e53-94d0-a6b475ce7a84">
-        ITfSource::UnadviseSink
+<a href="https://msdn.microsoft.com/e5d40c6f-c8ab-4e53-94d0-a6b475ce7a84">ITfSource::UnadviseSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/5fc37251-938b-4581-bb54-816749b17001">
-        ITfStatusSink
+<a href="https://msdn.microsoft.com/5fc37251-938b-4581-bb54-816749b17001">ITfStatusSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/a88b20ec-fc54-4814-9ca1-131664b4f377">
-        ITfSystemLangBarItemSink
+<a href="https://msdn.microsoft.com/a88b20ec-fc54-4814-9ca1-131664b4f377">ITfSystemLangBarItemSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/50f44525-eb3a-4db2-90c2-3e0c6c6146e3">
-        ITfTextEditSink
+<a href="https://msdn.microsoft.com/50f44525-eb3a-4db2-90c2-3e0c6c6146e3">ITfTextEditSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/370e30a8-6eed-448a-87c7-7fd01e9973c6">
-        ITfTextLayoutSink
+<a href="https://msdn.microsoft.com/370e30a8-6eed-448a-87c7-7fd01e9973c6">ITfTextLayoutSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/17335fa9-01ee-4585-9454-f326b6281ab1">
-        ITfThreadFocusSink
+<a href="https://msdn.microsoft.com/17335fa9-01ee-4585-9454-f326b6281ab1">ITfThreadFocusSink
       </a>
 
 
@@ -354,8 +336,7 @@ ITfEditTransactionSink
 
 
 
-<a href="https://msdn.microsoft.com/be2a3eb1-cb17-4d8b-a44d-ccb33749c8f6">
-        ITfThreadMgrEventSink
+<a href="https://msdn.microsoft.com/be2a3eb1-cb17-4d8b-a44d-ccb33749c8f6">ITfThreadMgrEventSink
       </a>
  
 

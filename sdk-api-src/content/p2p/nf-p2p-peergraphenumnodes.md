@@ -7,7 +7,7 @@ old-location: p2p\peergraphenumnodes.htm
 old-project: p2psdk
 ms.assetid: 68231b0a-6002-4974-84d7-08b0629f3622
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphEnumNodes, PeerGraphEnumNodes function [Peer Networking], p2p.peergraphenumnodes, p2p/PeerGraphEnumNodes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphEnumNodes</b> function creates and returns an enumeration handle used to enumerate  the nodes in a peer graph.  The enumeration provides  a snapshot of a peer graph at the time an enumeration is performed.   Depending on the policy of a peer graph, and if nodes do not publish presence information, an enumeration does not return some nodes that are connected to a peer graph.
+The <b>PeerGraphEnumNodes</b> function creates and returns an enumeration handle used to enumerate  the nodes in a peer graph.  The enumeration provides  a snapshot of a peer graph at the time an enumeration is performed.   Depending on the policy of a peer graph, and if nodes do not publish presence information, an enumeration does not return some nodes that are connected to a peer graph.
 
 
 ## -parameters
@@ -162,8 +161,7 @@ A peer graph does not require presence information. Therefore, the nodes cannot 
 
 
 
-
-        If <a href="https://msdn.microsoft.com/f595e66d-570f-4642-bef8-ff5cf070649c">PeerGraphGetNextItem</a> is called with the handle that   <b>PeerGraphEnumNodes</b> returns, then <b>PeerGraphGetNextItem</b>  returns the data in the  <a href="https://msdn.microsoft.com/51cc6c27-91ca-4d02-95d6-207827450fd5">PEER_NODE_INFO</a> structure.
+If <a href="https://msdn.microsoft.com/f595e66d-570f-4642-bef8-ff5cf070649c">PeerGraphGetNextItem</a> is called with the handle that   <b>PeerGraphEnumNodes</b> returns, then <b>PeerGraphGetNextItem</b>  returns the data in the  <a href="https://msdn.microsoft.com/51cc6c27-91ca-4d02-95d6-207827450fd5">PEER_NODE_INFO</a> structure.
 
 
 

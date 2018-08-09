@@ -7,7 +7,7 @@ old-location: automat\varui4fromdec.htm
 old-project: automat
 ms.assetid: dd36f6f5-7f33-43a7-99b1-16497e26bebb
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarUI4FromDec, VarUI4FromDec function [Automation], _oa96_VarUI4FromDec, automat.varui4fromdec, oleauto/VarUI4FromDec
 ms.prod: windows
 ms.technology: windows-sdk

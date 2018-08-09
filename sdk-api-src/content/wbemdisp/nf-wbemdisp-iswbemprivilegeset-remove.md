@@ -7,7 +7,7 @@ old-location: wmi\swbemprivilegeset_remove.htm
 old-project: WmiSdk
 ms.assetid: 4c0b6d49-262c-4840-955b-35b16b68f29f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemPrivilegeSet interface [Windows Management Instrumentation],Remove method, ISWbemPrivilegeSet.Remove, ISWbemPrivilegeSet::Remove, Remove, Remove method [Windows Management Instrumentation], Remove method [Windows Management Instrumentation],ISWbemPrivilegeSet interface, Remove method [Windows Management Instrumentation],SWbemPrivilegeSet object, SWbemPrivilegeSet object [Windows Management Instrumentation],Remove method, SWbemPrivilegeSet.Remove, _hmm_swbemprivilegeset.remove, wmi.swbemprivilegeset_remove
 ms.prod: windows
 ms.technology: windows-sdk

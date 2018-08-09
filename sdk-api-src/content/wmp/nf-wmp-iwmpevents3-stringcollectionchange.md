@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents3_iwmpevents3__stringcollectionchange.htm
 old-project: WMP
 ms.assetid: 93880116-e354-49d0-ba02-391fbb4d3f8c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPEvents3 interface [Windows Media Player],StringCollectionChange method, IWMPEvents3.StringCollectionChange, IWMPEvents3::StringCollectionChange, IWMPEvents3StringCollectionChange, StringCollectionChange, StringCollectionChange method [Windows Media Player], StringCollectionChange method [Windows Media Player],IWMPEvents3 interface, wmp.iwmpevents3_iwmpevents3__stringcollectionchange, wmp/IWMPEvents3::StringCollectionChange
 ms.prod: windows
 ms.technology: windows-sdk

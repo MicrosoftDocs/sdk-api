@@ -7,7 +7,7 @@ old-location: fwp\fwpmsublayersubscribechanges0_func.htm
 old-project: fwp
 ms.assetid: 63b672ab-6625-417a-86ff-7b834d7444cc
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmSubLayerSubscribeChanges0, FwpmSubLayerSubscribeChanges0 function [Filtering], fwp.fwpmsublayersubscribechanges0_func, fwpmu/FwpmSubLayerSubscribeChanges0
 ms.prod: windows
 ms.technology: windows-sdk

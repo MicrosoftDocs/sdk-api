@@ -7,7 +7,7 @@ old-location: mf\mfcreatesourcereaderfrombytestream.htm
 old-project: medfound
 ms.assetid: e167159d-902c-4c34-b5f0-eb764fe2de1c
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFCreateSourceReaderFromByteStream, MFCreateSourceReaderFromByteStream function [Media Foundation], mf.mfcreatesourcereaderfrombytestream, mfreadwrite/MFCreateSourceReaderFromByteStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,9 +89,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 Call <b>CoInitialize(Ex)</b> and <a href="https://msdn.microsoft.com/b4472e40-3681-4b26-9385-4df7bf19c2d8">MFStartup</a> before calling this function.
 
-
-        
-        Internally, the source reader calls the <a href="https://msdn.microsoft.com/e4a4aad5-0924-4251-b0da-6919ae010bf0">IMFSourceResolver::CreateObjectFromByteStream</a> method to create a media source from the byte stream. Therefore, a byte-stream handler must be registered for the byte stream. For more information about byte-stream handlers, see <a href="https://msdn.microsoft.com/b0113527-f22c-4519-b1cf-fea54bff4090">Scheme Handlers and Byte-Stream Handlers</a>.
+Internally, the source reader calls the <a href="https://msdn.microsoft.com/e4a4aad5-0924-4251-b0da-6919ae010bf0">IMFSourceResolver::CreateObjectFromByteStream</a> method to create a media source from the byte stream. Therefore, a byte-stream handler must be registered for the byte stream. For more information about byte-stream handlers, see <a href="https://msdn.microsoft.com/b0113527-f22c-4519-b1cf-fea54bff4090">Scheme Handlers and Byte-Stream Handlers</a>.
       
 
 This function is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.

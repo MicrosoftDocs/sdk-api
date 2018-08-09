@@ -4,10 +4,10 @@ title: SnmpCleanup function
 author: windows-sdk-content
 description: The SnmpCleanup function informs the Microsoft WinSNMP implementation that the calling WinSNMP application no longer requires the implementation's services.
 old-location: snmp\snmpcleanup.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 348f06e6-b408-4962-a0bc-8ff3e2ee21fa
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SnmpCleanup, SnmpCleanup function [SNMP], _snmp_snmpcleanup, snmp.snmpcleanup, winsnmp/SnmpCleanup
 ms.prod: windows
 ms.technology: windows-sdk

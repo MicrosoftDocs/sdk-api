@@ -7,7 +7,7 @@ old-location: ndf\inetdiaghelpe_lowhealth.htm
 old-project: ndf
 ms.assetid: 623de90f-c2dc-4879-9baf-4051d2d3691c
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: INetDiagHelper interface [NDF],LowHealth method, INetDiagHelper.LowHealth, INetDiagHelper::LowHealth, LowHealth, LowHealth method [NDF], LowHealth method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_lowhealth, ndhelper/INetDiagHelper::LowHealth
 ms.prod: windows
 ms.technology: windows-sdk

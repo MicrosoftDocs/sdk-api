@@ -7,7 +7,7 @@ old-location: search\_search_INCREMENTAL_ACCESS_INFO.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\incremental_access_info.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INCREMENTAL_ACCESS_INFO, INCREMENTAL_ACCESS_INFO structure [search], _INCREMENTAL_ACCESS_INFO, _search_INCREMENTAL_ACCESS_INFO, search._search_INCREMENTAL_ACCESS_INFO, searchapi/INCREMENTAL_ACCESS_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ Size of the file in bytes.
 
 ### -field ftLastModifiedTime
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx">FILETIME</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a></b>
 
 Last time the file was modified.
 

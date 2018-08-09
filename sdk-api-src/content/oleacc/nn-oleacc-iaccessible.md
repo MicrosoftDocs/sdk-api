@@ -7,7 +7,7 @@ old-location: winauto\iaccessible.htm
 old-project: WinAuto
 ms.assetid: 51e95b01-71e7-435b-85fb-28ee43eb08a7
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], IAccessible interface [Windows Accessibility],described, _msaa_IAccessible, msaa.iaccessible, oleacc/IAccessible, winauto.iaccessible
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ Exposes methods and properties that make a user interface element and its childr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessible</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAccessible</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessible</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAccessible</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -132,11 +132,9 @@ Retrieves the specified object's current screen location. All visual objects sup
 <a href="https://msdn.microsoft.com/8825c951-a6c1-4690-b36a-6159f30a13d9">accNavigate</a>
 </td>
 <td align="left" width="63%">
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/8825c951-a6c1-4690-b36a-6159f30a13d9">accNavigate</a>
-         method is deprecated and should not be used. Clients should use other methods and properties such as <a href="https://msdn.microsoft.com/dc9262d8-f57f-41f8-8945-d95f38d197e9">AccessibleChildren</a>, <a href="https://msdn.microsoft.com/64b0c24d-778a-4f13-8c70-6be3436a98cd">get_accChild</a>, <a href="https://msdn.microsoft.com/7c8c5208-ea77-47b2-913d-314ade0313f5">get_accParent</a>, and <a href="https://msdn.microsoft.com/7f20c07d-05f6-447a-8bed-72100cd96a97">IEnumVARIANT</a>.</div>
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/8825c951-a6c1-4690-b36a-6159f30a13d9">accNavigate</a>method is deprecated and should not be used. Clients should use other methods and properties such as <a href="https://msdn.microsoft.com/dc9262d8-f57f-41f8-8945-d95f38d197e9">AccessibleChildren</a>, <a href="https://msdn.microsoft.com/64b0c24d-778a-4f13-8c70-6be3436a98cd">get_accChild</a>, <a href="https://msdn.microsoft.com/7c8c5208-ea77-47b2-913d-314ade0313f5">get_accParent</a>, and <a href="https://msdn.microsoft.com/7f20c07d-05f6-447a-8bed-72100cd96a97">IEnumVARIANT</a>.</div>
 <div> </div>
-
-		  Traverses to another user interface element within a container and retrieves the object. All visual objects support this method.
+Traverses to another user interface element within a container and retrieves the object. All visual objects support this method.
 
 </td>
 </tr>

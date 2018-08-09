@@ -7,7 +7,7 @@ old-location: opengl\wglswaplayerbuffers.htm
 old-project: OpenGL
 ms.assetid: e23a9ce3-8bb4-42e0-9460-170fa3949939
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: WGL_SWAP_MAIN_PLANE, WGL_SWAP_OVERLAYi, WGL_SWAP_UNDERLAYi, _ogl_wglSwapLayerBuffers, opengl.wglswaplayerbuffers, wglSwapLayerBuffers, wglSwapLayerBuffers function [OpenGL], wingdi/wglSwapLayerBuffers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,6 +66,8 @@ TBD
 
 
 
+
+
 #### - fuPlanes
 
 Specifies the overlay, underlay, and main planes whose front and back buffers are to be swapped. The <b>bReserved</b> member of the <a href="https://msdn.microsoft.com/1480dea3-ae74-4e8b-b4de-fca8de5d8395">PIXELFORMATDESCRIPTOR</a> structure specifies the number of overlay and underlay planes. The <i>fuPlanes</i> parameter is a bitwise combination of the following values.<div> </div>
@@ -108,11 +110,6 @@ Swaps the front and back buffers of the underlay plane <i>i</i>, where <i>i</i> 
 </tr>
 </table>
  
-
-
-#### - hdc
-
-Specifies the device context of a window whose layer plane palette is to be realized into the physical palette.
 
 
 ## -returns

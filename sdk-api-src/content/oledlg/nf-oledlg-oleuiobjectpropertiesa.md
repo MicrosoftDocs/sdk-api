@@ -7,7 +7,7 @@ old-location: com\oleuiobjectproperties.htm
 old-project: com
 ms.assetid: 591f6056-2e5f-4e58-8806-9a0093de2463
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: OleUIObjectProperties, OleUIObjectProperties function [COM], OleUIObjectPropertiesA, OleUIObjectPropertiesW, _ole_OleUIObjectProperties, com.oleuiobjectproperties, oledlg/OleUIObjectProperties, oledlg/OleUIObjectPropertiesA, oledlg/OleUIObjectPropertiesW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,14 +63,7 @@ Invokes the <b>Object Properties</b> dialog box, which displays <b>General</b>, 
 
 
 
-### -param Arg1
-
-TBD
-
-
-
-
-#### - lpOF [in]
+### -param Arg1 [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/7a6216d6-061f-48c3-8e3f-5f3e5a63ffb3">OLEUIOBJECTPROPS</a> structure.
 

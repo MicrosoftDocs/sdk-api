@@ -7,7 +7,7 @@ old-location: tsf\itfdocumentmgr_createcontext.htm
 old-project: TSF
 ms.assetid: 1415f338-731c-44c5-b798-edf823174272
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: CreateContext, CreateContext method [Text Services Framework], CreateContext method [Text Services Framework],ITfDocumentMgr interface, ITfDocumentMgr interface [Text Services Framework],CreateContext method, ITfDocumentMgr.CreateContext, ITfDocumentMgr::CreateContext, _tsf_itfdocumentmgr_createcontext_ref, msctf/ITfDocumentMgr::CreateContext, tsf.itfdocumentmgr_createcontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -163,14 +163,12 @@ All references to the <i>punk</i> parameter are released when the context is des
 
 
 
-<a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">
-        ITfContext
+<a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/4fea0a48-df5f-4f34-a3ea-d52883f6f8b1">
-        ITfContextOwnerCompositionSink
+<a href="https://msdn.microsoft.com/4fea0a48-df5f-4f34-a3ea-d52883f6f8b1">ITfContextOwnerCompositionSink
       </a>
 
 
@@ -179,26 +177,22 @@ All references to the <i>punk</i> parameter are released when the context is des
 
 
 
-<a href="https://msdn.microsoft.com/bbf65d8d-5a59-4c4b-a132-fa28babcd70b">
-        ITfDocumentMgr::Pop
+<a href="https://msdn.microsoft.com/bbf65d8d-5a59-4c4b-a132-fa28babcd70b">ITfDocumentMgr::Pop
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/c5fd6b5c-0a78-4b5b-aad5-0c398798cf30">
-        ITfTextInputProcessor::Activate
+<a href="https://msdn.microsoft.com/c5fd6b5c-0a78-4b5b-aad5-0c398798cf30">ITfTextInputProcessor::Activate
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/bd9058c0-55b0-4231-a336-7cea4db75c0f">
-        ITfThreadMgr::Activate
+<a href="https://msdn.microsoft.com/bd9058c0-55b0-4231-a336-7cea4db75c0f">ITfThreadMgr::Activate
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/1de17286-5d56-4302-a144-5fe6ca7d5557">
-        TfEditCookie
+<a href="https://msdn.microsoft.com/1de17286-5d56-4302-a144-5fe6ca7d5557">TfEditCookie
       </a>
  
 

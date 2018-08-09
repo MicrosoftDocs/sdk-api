@@ -4,10 +4,10 @@ title: HTTP_VERSION_INFO
 author: windows-sdk-content
 description: Contains the global HTTP version.
 old-location: wininet\http_version_info.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: 446da4aa-08be-4b2c-a436-dc8fa923a3a8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPHTTP_VERSION_INFO, HTTP_VERSION_INFO, HTTP_VERSION_INFO structure [WinINet], LPHTTP_VERSION_INFO, LPHTTP_VERSION_INFO structure pointer [WinINet], _inet_http_version_info_structure, wininet.http_version_info, wininet/HTTP_VERSION_INFO, wininet/LPHTTP_VERSION_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

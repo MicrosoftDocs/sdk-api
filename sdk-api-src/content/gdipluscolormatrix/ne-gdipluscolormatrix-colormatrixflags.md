@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_ColorMatrixFlags.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\colormatrixflags.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: ColorMatrixFlags, ColorMatrixFlags enumeration [GDI+], ColorMatrixFlagsAltGray, ColorMatrixFlagsDefault, ColorMatrixFlagsSkipGrays, _gdiplus_ENUM_ColorMatrixFlags, gdiplus._gdiplus_ENUM_ColorMatrixFlags, gdipluscolormatrix/ColorMatrixFlags, gdipluscolormatrix/ColorMatrixFlagsAltGray, gdipluscolormatrix/ColorMatrixFlagsDefault, gdipluscolormatrix/ColorMatrixFlagsSkipGrays
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>ColorMatrixFlags</b> enumeration specifies the types of images and colors that will be affected by the color and grayscale adjustment settings of an 
-			<a href="https://msdn.microsoft.com/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object.
 
 
 ## -enum-fields
@@ -80,19 +80,19 @@ Specifies that colors are adjusted by one matrix and gray shades are adjusted by
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535416(v=VS.85).aspx">ImageAttributes::ClearColorMatrices</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535416(v=VS.85).aspx">ImageAttributes::ClearColorMatrices</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535417(v=VS.85).aspx">ImageAttributes::ClearColorMatrix</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535417(v=VS.85).aspx">ImageAttributes::ClearColorMatrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535430(v=VS.85).aspx">ImageAttributes::SetColorMatrices</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535430(v=VS.85).aspx">ImageAttributes::SetColorMatrices</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535431(v=VS.85).aspx">ImageAttributes::SetColorMatrix</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535431(v=VS.85).aspx">ImageAttributes::SetColorMatrix</a>
  
 
  

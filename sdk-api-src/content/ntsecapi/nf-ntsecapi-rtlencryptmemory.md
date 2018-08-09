@@ -7,7 +7,7 @@ old-location: security\rtlencryptmemory.htm
 old-project: seccrypto
 ms.assetid: b124a7fe-c62c-42f7-9d2b-cbf74d17186a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: RTL_ENCRYPT_OPTION_CROSS_PROCESS, RTL_ENCRYPT_OPTION_SAME_LOGON, RtlEncryptMemory, RtlEncryptMemory function [Security], ntsecapi/RtlEncryptMemory, security.rtlencryptmemory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,9 @@ The <b>RtlEncryptMemory</b> function encrypts memory contents.   The encrypted c
 A pointer to the memory to encrypt. The size of the memory must be a multiple of the RTL_ENCRYPT_MEMORY_SIZE constant.
 
 
-### -param MemorySize
+### -param MemorySize [in]
 
-TBD
+Number of bytes to which <i>Memory</i> points. The number of bytes must be a multiple of the RTL_ENCRYPT_MEMORY_SIZE constant.
 
 
 ### -param OptionFlags [in]
@@ -115,11 +115,6 @@ Use the same logon credentials to encrypt and decrypt memory in different proces
 </tr>
 </table>
  
-
-
-#### - MemoryLength [in]
-
-Number of bytes to which <i>Memory</i> points. The number of bytes must be a multiple of the RTL_ENCRYPT_MEMORY_SIZE constant.
 
 
 ## -returns

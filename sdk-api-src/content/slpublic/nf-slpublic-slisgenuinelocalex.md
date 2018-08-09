@@ -4,10 +4,10 @@ title: SLIsGenuineLocalEx function
 author: windows-sdk-content
 description: Checks whether the specified application installation is genuine.
 old-location: security\slisgenuinelocalex.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: 171edde8-edbd-4040-9623-359f13817687
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLIsGenuineLocalEx, SLIsGenuineLocalEx function [Security], security.slisgenuinelocalex, slpublic/SLIsGenuineLocalEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slwga.lib
 req.dll: Slwga.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLIsGenuineLocalEx function

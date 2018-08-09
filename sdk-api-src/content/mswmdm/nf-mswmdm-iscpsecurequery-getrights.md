@@ -7,7 +7,7 @@ old-location: wmdm\iscpsecurequery_getrights.htm
 old-project: WMDM
 ms.assetid: 3d9991f4-ce20-45c4-a408-d7a846b019ef
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: GetRights, GetRights method [windows Media Device Manager], GetRights method [windows Media Device Manager],ISCPSecureQuery interface, ISCPSecureQuery interface [windows Media Device Manager],GetRights method, ISCPSecureQuery.GetRights, ISCPSecureQuery::GetRights, ISCPSecureQueryGetRights, mswmdm/ISCPSecureQuery::GetRights, wmdm.iscpsecurequery_getrights
 ms.prod: windows
 ms.technology: windows-sdk

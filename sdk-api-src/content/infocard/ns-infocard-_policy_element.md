@@ -7,7 +7,7 @@ old-location: qos\policy_element.htm
 old-project: qos
 ms.assetid: 710ed81d-d455-4912-8aee-2f06db894c95
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: "*PPOLICY_ELEMENT, POLICY_ELEMENT, POLICY_ELEMENT structure [QOS], _POLICY_ELEMENT, infocard/POLICY_ELEMENT, qos.policy_element"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,11 +92,6 @@ The
 
 
 
-#### - ucPeData
-
-Policy Element data.
-
-
 #### - usPeLength
 
 Length of the Policy Element, in bytes.
@@ -105,4 +100,9 @@ Length of the Policy Element, in bytes.
 #### - usPeType
 
 Policy Element type.
+
+
+#### - ucPeData
+
+Policy Element data.
 

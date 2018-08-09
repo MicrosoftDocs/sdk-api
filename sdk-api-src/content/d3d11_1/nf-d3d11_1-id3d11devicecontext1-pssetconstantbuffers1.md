@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext1_pssetconstantbuffers1.htm
 old-project: direct3d11
 ms.assetid: 4B05144B-7766-4AE6-9B9F-C439B4BF0220
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D11DeviceContext1 interface [Direct3D 11],PSSetConstantBuffers1 method, ID3D11DeviceContext1.PSSetConstantBuffers1, ID3D11DeviceContext1::PSSetConstantBuffers1, PSSetConstantBuffers1, PSSetConstantBuffers1 method [Direct3D 11], PSSetConstantBuffers1 method [Direct3D 11],ID3D11DeviceContext1 interface, d3d11_1/ID3D11DeviceContext1::PSSetConstantBuffers1, direct3d11.id3d11devicecontext1_pssetconstantbuffers1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -145,7 +145,7 @@ That is, the window is the range is from (value in an element of <i>pFirstConsta
 The runtime also drops the call to <b>PSSetConstantBuffers1</b> on existing drivers that do not support this offsetting.
         
 
-The runtime will emulate this feature for <a href="https://msdn.microsoft.com/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1, 9.2, and 9.3; therefore, this feature is supported for feature level 9.1, 9.2, and 9.3.
+The runtime will emulate this feature for <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1, 9.2, and 9.3; therefore, this feature is supported for feature level 9.1, 9.2, and 9.3.
           This feature is always available on new drivers for feature level 10 and higher.
         
 

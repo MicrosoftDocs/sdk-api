@@ -7,7 +7,7 @@ old-location: rpc\rpcnsentryexpandname.htm
 old-project: rpc
 ms.assetid: a93052c2-3fb1-448a-b4bf-70b9676de69a
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcNsEntryExpandName, RpcNsEntryExpandName function [RPC], RpcNsEntryExpandNameA, RpcNsEntryExpandNameW, _rpc_rpcnsentryexpandname, rpc.rpcnsentryexpandname, rpcnsi/RpcNsEntryExpandName, rpcnsi/RpcNsEntryExpandNameA, rpcnsi/RpcNsEntryExpandNameW
 ms.prod: windows
 ms.technology: windows-sdk

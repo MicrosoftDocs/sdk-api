@@ -7,7 +7,7 @@ old-location: p2p\peerdistclientblockread.htm
 old-project: p2psdk
 ms.assetid: ee64c0a8-7a07-4045-96fa-855b31c2e5b1
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PEERDIST_READ_TIMEOUT_DEFAULT, PEERDIST_READ_TIMEOUT_LOCAL_CACHE_ONLY, PeerDistClientBlockRead, PeerDistClientBlockRead function [Peer Networking], p2p.peerdistclientblockread, peerdist/PeerDistClientBlockRead
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ A content handle opened by <a href="https://msdn.microsoft.com/bf9d4eb2-e939-42c
 
 ### -param cbMaxNumberOfBytes
 
-TBD
+The maximum number of bytes to read. If the <i>cbMaxNumberOfBytesToRead</i> is equal to 0, it indicates that the <b>PeerDistClientBlockRead</b> function is  querying the length of available consecutive content byes in the local cache at the current block read offset. The query will neither download content from the peers, nor return the count of bytes present in the peer cache.
 
 
 ### -param pBuffer [in, out, optional]
@@ -115,11 +115,6 @@ Specifies the default timeout of 5 seconds.
 ### -param lpOverlapped [in]
 
 Pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure. The start offset for read is specified by setting the <b>Offset</b> and <b>OffsetHigh</b> members of the <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure.  The <b>OffsetHigh</b> member should be set to the higher 32 bits of the start offset and the <b>Offset</b> member should be set to the lower 32 bits of the start offset.
-
-
-#### - cbMaxNumberOfBytesToRead
-
-The maximum number of bytes to read. If the <i>cbMaxNumberOfBytesToRead</i> is equal to 0, it indicates that the <b>PeerDistClientBlockRead</b> function is  querying the length of available consecutive content byes in the local cache at the current block read offset. The query will neither download content from the peers, nor return the count of bytes present in the peer cache.
 
 
 ## -returns

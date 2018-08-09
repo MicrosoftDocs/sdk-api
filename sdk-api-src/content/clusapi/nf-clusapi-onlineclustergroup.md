@@ -7,7 +7,7 @@ old-location: mscs\onlineclustergroup.htm
 old-project: mscs
 ms.assetid: 33b4f435-f394-41fc-846f-8e9206c76aa1
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: OnlineClusterGroup, OnlineClusterGroup function [Failover Cluster], PCLUSAPI_ONLINE_CLUSTER_GROUP, PCLUSAPI_ONLINE_CLUSTER_GROUP function [Failover Cluster], _wolf_onlineclustergroup, clusapi/OnlineClusterGroup, clusapi/PCLUSAPI_ONLINE_CLUSTER_GROUP, mscs.onlineclustergroup
 ms.prod: windows
 ms.technology: windows-sdk

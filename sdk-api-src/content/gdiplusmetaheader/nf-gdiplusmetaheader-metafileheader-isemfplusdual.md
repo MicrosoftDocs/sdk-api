@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsEmfPlusDual_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\isemfplusdual.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: IsEmfPlusDual, IsEmfPlusDual method [GDI+], IsEmfPlusDual method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],IsEmfPlusDual method, MetafileHeader.IsEmfPlusDual, MetafileHeader::IsEmfPlusDual, _gdiplus_CLASS_MetafileHeader_IsEmfPlusDual_, gdiplus._gdiplus_CLASS_MetafileHeader_IsEmfPlusDual_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,19 +78,19 @@ If the associated metafile is in the EMF+ Dual format, this method returns <b>TR
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534115(v=VS.85).aspx">EmfType</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534115(v=VS.85).aspx">EmfType</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533831(v=VS.85).aspx">Loading and Displaying Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533831(v=VS.85).aspx">Loading and Displaying Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534480(v=VS.85).aspx">MetafileHeader</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534480(v=VS.85).aspx">MetafileHeader</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536391(v=VS.85).aspx">Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536391(v=VS.85).aspx">Metafiles</a>
  
 
  

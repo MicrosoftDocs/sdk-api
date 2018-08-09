@@ -4,10 +4,10 @@ title: ISettingsEngine::ApplySettingsContext
 author: windows-sdk-content
 description: Applies a settings context.
 old-location: smi\isettingsengine_applysettingscontext.htm
-old-project: SMI
+old-project: smi
 ms.assetid: 459a97fb-e5fb-42a5-998d-84631fec2e6f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: ApplySettingsContext, ApplySettingsContext method [SMI], ApplySettingsContext method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],ApplySettingsContext method, ISettingsEngine.ApplySettingsContext, ISettingsEngine::ApplySettingsContext, smi.isettingsengine_applysettingscontext, wcmconfig/ISettingsEngine::ApplySettingsContext
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: opc\iopccertificateenumerator_getcurrent.htm
 old-project: OPC
 ms.assetid: edd2afc1-cafd-4a52-b2df-1a1fcdf1d6fa
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcCertificateEnumerator interface, IOpcCertificateEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcCertificateEnumerator.GetCurrent, IOpcCertificateEnumerator::GetCurrent, msopc/IOpcCertificateEnumerator::GetCurrent, opc.iopccertificateenumerator_getcurrent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-          Gets the <a href="http://msdn.microsoft.com/en-us/library/aa377189(vs.85).aspx">CERT_CONTEXT</a> structure at the current position of the enumerator.
+Gets the <a href="http://msdn.microsoft.com/en-us/library/aa377189(vs.85).aspx">CERT_CONTEXT</a> structure at the current position of the enumerator.
         
 
 
@@ -63,8 +62,7 @@ req.product: Rights Management Services client 1.0 or later
 
 ### -param certificate [out, retval]
 
-
-              A  pointer to a <a href="http://msdn.microsoft.com/en-us/library/aa377189(vs.85).aspx">CERT_CONTEXT</a> structure.
+A  pointer to a <a href="http://msdn.microsoft.com/en-us/library/aa377189(vs.85).aspx">CERT_CONTEXT</a> structure.
             If the method succeeds, call the <a href="https://msdn.microsoft.com/7d2f3237-3f8b-4234-b6db-3057384cd89b">CertFreeCertificateContext</a> function to free the memory of the structure.
 
 
@@ -72,8 +70,7 @@ req.product: Rights Management Services client 1.0 or later
 
 
 
-
-              The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
             
 
 <table>
@@ -99,8 +96,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-
-                The <i>partReference</i> parameter is <b>NULL</b>.
+The <i>partReference</i> parameter is <b>NULL</b>.
               
 
 </td>
@@ -217,8 +213,7 @@ Either the content type of a part differed from the expected content type (speci
 
 If the certificate represented by the <a href="http://msdn.microsoft.com/en-us/library/aa377189(vs.85).aspx">CERT_CONTEXT</a> structure is corrupted or is not an X.509 certificate, this method will return an error; further,  the signing policy used by the caller dictates whether the signature will still be validated. After this kind of error is returned, calls to the <a href="https://msdn.microsoft.com/81918b97-0d10-4d7c-aaad-fc886d55e664">MoveNext</a> or <a href="https://msdn.microsoft.com/564c391c-8c73-4dd8-b713-3a5309708fd6">MovePrevious</a> method will continue to iterate through the enumerator.
 
-When an enumerator is created, the current position precedes the first pointer of the enumerator. To set the current position to the first pointer, call the  <a href="https://msdn.microsoft.com/81918b97-0d10-4d7c-aaad-fc886d55e664">MoveNext</a>
-          method after the enumerator is created.
+When an enumerator is created, the current position precedes the first pointer of the enumerator. To set the current position to the first pointer, call the  <a href="https://msdn.microsoft.com/81918b97-0d10-4d7c-aaad-fc886d55e664">MoveNext</a>method after the enumerator is created.
 
 
 #### Thread Safety

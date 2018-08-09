@@ -7,7 +7,7 @@ old-location: mstv\iisdb_ldt.htm
 old-project: mstv
 ms.assetid: 4fdf82f2-e931-406b-a8cb-7b24c1d0b8d3
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IISDB_LDT, IISDB_LDT interface [Microsoft TV Technologies], IISDB_LDT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_LDT, mstv.iisdb_ldt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,11 +51,9 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB)
+Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB)
   linked description table (LDT). An LDT contains data used to collect reference
   information from other tables.
-
 
 
 To obtain a pointer to this interface, first make sure that the media graph is in a running state and that the stream you are tuned to contains an LDT. Then:
@@ -118,8 +116,7 @@ Gets the original_service_id field from
 <a href="https://msdn.microsoft.com/1352eec0-fed2-4d14-81f2-c73b8d34a264">GetRecordCountOfDescriptors</a>
 </td>
 <td align="left" width="63%">
-
-  Returns the number of descriptors for a record in
+Returns the number of descriptors for a record in
   an LDT.
 
 </td>
@@ -158,8 +155,7 @@ Searches a record in
 <a href="https://msdn.microsoft.com/382dc27b-7010-4d05-a401-ded8e0a8c932">GetTransportStreamId</a>
 </td>
 <td align="left" width="63%">
-
-  Returns the transport stream identifier (TSID) for an LDT. 
+Returns the transport stream identifier (TSID) for an LDT. 
 
 </td>
 </tr>
@@ -186,8 +182,7 @@ Gets the version number from the LDT.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
 </td>
 <td align="left" width="63%">
-
-  Initializes the object by using captured table section data
+Initializes the object by using captured table section data
   for an LDT.
 
 </td>

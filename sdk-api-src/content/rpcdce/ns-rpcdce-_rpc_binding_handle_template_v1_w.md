@@ -7,7 +7,7 @@ old-location: rpc\rpc_binding_handle_template_v1.htm
 old-project: rpc
 ms.assetid: b5712e0b-1751-4e5f-8000-da2a330da202
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: "*PRPC_BINDING_HANDLE_TEMPLATE_V1_W, RPC_BHT_OBJECT_UUID_VALID, RPC_BINDING_HANDLE_TEMPLATE, RPC_BINDING_HANDLE_TEMPLATE structure [RPC], RPC_BINDING_HANDLE_TEMPLATE_V1, RPC_BINDING_HANDLE_TEMPLATE_V1 structure [RPC], RPC_BINDING_HANDLE_TEMPLATE_V1_W, _RPC_BINDING_HANDLE_TEMPLATE_V1_A, _RPC_BINDING_HANDLE_TEMPLATE_V1_W, ncacn_http, ncacn_ip_tcp, ncacn_np, ncalrpc, rpc.rpc_binding_handle_template_v1, rpcdce/RPC_BINDING_HANDLE_TEMPLATE, rpcdce/RPC_BINDING_HANDLE_TEMPLATE_V1"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,7 +131,7 @@ Reserved. This member must be set to <b>NULL</b>.
 The UUID of the remote object. The semantics for this UUID are the same as those for a string binding. After the binding handle is created, call <a href="https://msdn.microsoft.com/5dcf341f-e392-4608-b741-8fa07cabd50b">RpcBindingSetObject</a> to change the UUID as needed.
 
 
-###### - ProtocolSequence.ncacn_http (Specifies RPC over HTTP.)
+###### - ProtocolSequence.ncalrpc (Specifies local RPC.)
 
 
 ###### - ProtocolSequence.ncacn_ip_tcp (Specifies RPC over TCP/IP.)
@@ -140,7 +140,7 @@ The UUID of the remote object. The semantics for this UUID are the same as those
 ###### - ProtocolSequence.ncacn_np (Specifies RPC over named pipes.)
 
 
-###### - ProtocolSequence.ncalrpc (Specifies local RPC.)
+###### - ProtocolSequence.ncacn_http (Specifies RPC over HTTP.)
 
 
 ## -remarks

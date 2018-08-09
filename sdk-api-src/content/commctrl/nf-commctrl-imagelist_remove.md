@@ -7,7 +7,7 @@ old-location: controls\ImageList_Remove.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_remove.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ImageList_Remove, ImageList_Remove function [Windows Controls], _win32_ImageList_Remove, _win32_ImageList_Remove_cpp, commctrl/ImageList_Remove, controls.ImageList_Remove, controls._win32_ImageList_Remove
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ When an image is removed, the indexes of the remaining images are adjusted so th
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761405(v=VS.85).aspx">ImageList_RemoveAll</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761405(v=VS.85).aspx">ImageList_RemoveAll</a>
  
 
  

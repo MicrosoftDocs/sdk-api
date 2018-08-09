@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectrendercontext.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\imilbitmapeffectrendercontext.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IMILBitmapEffectRenderContext, IMILBitmapEffectRenderContext interface [WPF Bitmap Effects], IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectrendercontext, mileffects/IMILBitmapEffectRenderContext, wibe._wibe_imilbitmapeffectrendercontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,16 +71,16 @@ The <b>IMILBitmapEffectRenderContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735242(v=VS.85).aspx">GetFinalTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735242(v=VS.85).aspx">GetFinalTransform</a>
 </td>
 <td align="left" width="63%">
-Gets the final <a href="https://msdn.microsoft.com/library/ms735225(v=VS.85).aspx">MILMatrixF</a> transform.
+Gets the final <a href="https://msdn.microsoft.com/en-us/library/ms735225(v=VS.85).aspx">MILMatrixF</a> transform.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735243(v=VS.85).aspx">GetOutputDPI</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735243(v=VS.85).aspx">GetOutputDPI</a>
 </td>
 <td align="left" width="63%">
 Gets the output dpi.
@@ -89,7 +89,7 @@ Gets the output dpi.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735244(v=VS.85).aspx">GetOutputPixelFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735244(v=VS.85).aspx">GetOutputPixelFormat</a>
 </td>
 <td align="left" width="63%">
 Gets the output pixel format GUID.
@@ -98,16 +98,16 @@ Gets the output pixel format GUID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735246(v=VS.85).aspx">SetInitialTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735246(v=VS.85).aspx">SetInitialTransform</a>
 </td>
 <td align="left" width="63%">
-Gets the initial <a href="https://msdn.microsoft.com/library/ms735225(v=VS.85).aspx">MILMatrixF</a> transform.
+Gets the initial <a href="https://msdn.microsoft.com/en-us/library/ms735225(v=VS.85).aspx">MILMatrixF</a> transform.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735247(v=VS.85).aspx">SetOutputDPI</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735247(v=VS.85).aspx">SetOutputDPI</a>
 </td>
 <td align="left" width="63%">
 Sets the output dpi.
@@ -116,7 +116,7 @@ Sets the output dpi.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735248(v=VS.85).aspx">SetOutputPixelFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735248(v=VS.85).aspx">SetOutputPixelFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the output pixel format.
@@ -125,7 +125,7 @@ Sets the output pixel format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735249(v=VS.85).aspx">SetRegionOfInterest</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735249(v=VS.85).aspx">SetRegionOfInterest</a>
 </td>
 <td align="left" width="63%">
 Sets the region of interest for the effect.
@@ -134,7 +134,7 @@ Sets the region of interest for the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735250(v=VS.85).aspx">SetUseSoftwareRenderer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735250(v=VS.85).aspx">SetUseSoftwareRenderer</a>
 </td>
 <td align="left" width="63%">
 Sets a value to indicate whether to use software rendering.

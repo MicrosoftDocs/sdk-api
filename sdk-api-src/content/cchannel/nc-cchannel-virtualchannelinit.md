@@ -7,7 +7,7 @@ old-location: termserv\virtualchannelinit.htm
 old-project: termserv
 ms.assetid: 3dae59dc-e70f-450e-a324-a4d68341a72e
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: VirtualChannelInit, VirtualChannelInit callback, VirtualChannelInit callback function [Remote Desktop Services], _win32_virtualchannelinit, cchannel/VirtualChannelInit, termserv.virtualchannelinit
 ms.prod: windows
 ms.technology: windows-sdk

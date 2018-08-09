@@ -7,7 +7,7 @@ old-location: dwm\dwmgetcolorizationcolor.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetcolorizationcolor.htm
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 08/06/2018
 ms.keywords: DwmGetColorizationColor, DwmGetColorizationColor function [Desktop Window Manager], _udwm_dwmgetcolorizationcolor, _udwm_dwmgetcolorizationcolor_cpp, dwm.dwmgetcolorizationcolor, dwmapi/DwmGetColorizationColor, winui._udwm_dwmgetcolorizationcolor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-Retrieves the current color used for Desktop Window Manager (DWM) glass composition. This value is based on the current color scheme and can be modified by the user. Applications can listen for color changes by handling the <a href="https://msdn.microsoft.com/library/Dd388198(v=VS.85).aspx">WM_DWMCOLORIZATIONCOLORCHANGED</a> notification.
+Retrieves the current color used for Desktop Window Manager (DWM) glass composition. This value is based on the current color scheme and can be modified by the user. Applications can listen for color changes by handling the <a href="https://msdn.microsoft.com/en-us/library/Dd388198(v=VS.85).aspx">WM_DWMCOLORIZATIONCOLORCHANGED</a> notification.
 
 
 ## -parameters
@@ -88,7 +88,7 @@ The value pointed to by <i>pcrColorization</i> is in an 0xAARRGGBB format. Many 
 
 #### Examples
 
-The following example code shows a <a href="https://msdn.microsoft.com/library/Dd388198(v=VS.85).aspx">WM_DWMCOLORIZATIONCOLORCHANGED</a> notification handle. If the colorization notification is received, this code retrieves the new color value.
+The following example code shows a <a href="https://msdn.microsoft.com/en-us/library/Dd388198(v=VS.85).aspx">WM_DWMCOLORIZATIONCOLORCHANGED</a> notification handle. If the colorization notification is received, this code retrieves the new color value.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

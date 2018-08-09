@@ -7,7 +7,7 @@ old-location: mf\mfmapdxgiformattodx9format.htm
 old-project: medfound
 ms.assetid: D3DF4739-31CC-4D0E-9EF2-6FCCAB8969EF
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFMapDXGIFormatToDX9Format, MFMapDXGIFormatToDX9Format function [Media Foundation], mf.mfmapdxgiformattodx9format, mfapi/MFMapDXGIFormatToDX9Format
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Converts a Microsoft DirectX Graphics Infrastructure (DXGI) format identifier to
 
 ### -param dx11 [in]
 
-The <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> value to convert.
+The <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> value to convert.
 
 
 ## -returns

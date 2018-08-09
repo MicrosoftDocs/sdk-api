@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter1_getdesc1.htm
 old-project: direct3ddxgi
 ms.assetid: 1eb051f8-4e64-41fe-8177-6aad47714cb9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/30/2018
 ms.keywords: GetDesc1, GetDesc1 method [DXGI], GetDesc1 method [DXGI],IDXGIAdapter1 interface, IDXGIAdapter1 interface [DXGI],GetDesc1 method, IDXGIAdapter1.GetDesc1, IDXGIAdapter1::GetDesc1, b985f570-96ae-e1c8-11c4-3485b12285bc, direct3ddxgi.idxgiadapter1_getdesc1, dxgi/IDXGIAdapter1::GetDesc1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ A pointer to a <a href="https://msdn.microsoft.com/0ae3bdb1-b122-439a-8f62-c831a
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, returns E_INVALIDARG if the <i>pDesc</i> parameter is <b>NULL</b>.  
         
@@ -87,7 +87,7 @@ Returns S_OK if successful; otherwise, returns E_INVALIDARG if the <i>pDesc</i> 
 This method is not supported by DXGI 1.0, which shipped in Windows Vista and Windows Server 2008. DXGI 1.1 support is required, which is available on 
       Windows 7, Windows Server 2008 R2, and as an update to Windows Vista with Service Pack 2 (SP2) (<a href="http://go.microsoft.com/fwlink/p/?linkid=160189">KB 971644</a>) and Windows Server 2008 (<a href="http://go.microsoft.com/fwlink/p/?linkid=183689">KB 971512</a>).
 
-Use the <b>GetDesc1</b> method to get a DXGI 1.1 description of an adapter.  To get a DXGI 1.0 description, use the <a href="https://msdn.microsoft.com/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a> method.
+Use the <b>GetDesc1</b> method to get a DXGI 1.1 description of an adapter.  To get a DXGI 1.0 description, use the <a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a> method.
 
 
 
@@ -105,7 +105,7 @@ Use the <b>GetDesc1</b> method to get a DXGI 1.1 description of an adapter.  To 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174526(v=VS.85).aspx">IDXGIAdapter::GetDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174526(v=VS.85).aspx">IDXGIAdapter::GetDesc</a>
  
 
  

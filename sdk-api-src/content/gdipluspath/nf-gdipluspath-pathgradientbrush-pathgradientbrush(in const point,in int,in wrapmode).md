@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_Constructors.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushconstructors.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: PathGradientBrush, PathGradientBrush constructors [GDI+], PathGradientBrush.PathGradientBrush, PathGradientBrush.PathGradientBrush(IN const Point,IN INT,IN WrapMode), PathGradientBrush::PathGradientBrush, PathGradientBrush::PathGradientBrush(IN const Point,IN INT,IN WrapMode), _gdiplus_CLASS_PathGradientBrush_Constructors, gdiplus._gdiplus_CLASS_PathGradientBrush_Constructors, gdipluspath/PathGradientBrush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 <span>This topic lists the constructors of the 
-			<a href="https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx">PathGradientBrush</a> class. For a complete class listing, see <b>PathGradientBrushXX Class</b>. 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a> class. For a complete class listing, see <b>PathGradientBrushXX Class</b>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Constructor</th>
@@ -60,28 +60,28 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535102(v=VS.85).aspx">PathGradientBrush(GraphicsPath*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535102(v=VS.85).aspx">PathGradientBrush(GraphicsPath*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms535102(v=VS.85).aspx">PathGradientBrush::PathGradientBrush</a> object based on a <a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535102(v=VS.85).aspx">PathGradientBrush::PathGradientBrush</a> object based on a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535100(v=VS.85).aspx">PathGradientBrush(Point*,INT,WrapMode)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535100(v=VS.85).aspx">PathGradientBrush(Point*,INT,WrapMode)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms535100(v=VS.85).aspx">PathGradientBrush::PathGradientBrush</a> object based on an array of points. Initializes the wrap mode of the path gradient brush.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535100(v=VS.85).aspx">PathGradientBrush::PathGradientBrush</a> object based on an array of points. Initializes the wrap mode of the path gradient brush.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535101(v=VS.85).aspx">PathGradientBrush(PointF*,INT,WrapMode)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535101(v=VS.85).aspx">PathGradientBrush(PointF*,INT,WrapMode)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx">PathGradientBrush</a> object based on an array of points. Initializes the wrap mode of the path gradient brush.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a> object based on an array of points. Initializes the wrap mode of the path gradient brush.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: base\queryidleprocessorcycletime.htm
 old-project: procthread
 ms.assetid: 75a5c4cf-ccc7-47ab-a2a9-88051e0a7d06
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: QueryIdleProcessorCycleTime, QueryIdleProcessorCycleTime function, base.queryidleprocessorcycletime, realtimeapiset/QueryIdleProcessorCycleTime, winbase/QueryIdleProcessorCycleTime
 ms.prod: windows
 ms.technology: windows-sdk

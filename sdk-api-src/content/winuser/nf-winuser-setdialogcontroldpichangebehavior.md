@@ -7,7 +7,7 @@ old-location: hidpi\setdialogresizebehavior.htm
 old-project: hidpi
 ms.assetid: 52BB557B-0D70-4189-9BD0-EB94188EA4E7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetDialogControlDpiChangeBehavior, SetDialogResizeBehavior, SetDialogResizeBehavior function [High DPI], hidpi.setdialogresizebehavior, winuser/SetDialogResizeBehavior
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Overrides the default per-monitor DPI scaling behavior of a child window in a di
 
 ### -param hWnd
 
-TBD
+A handle for the window whose behavior will be modified.
 
 
 ### -param mask
@@ -72,11 +72,6 @@ A mask specifying the subset of flags to be changed.
 ### -param values
 
 The desired value to be set for the specified subset of flags.
-
-
-#### - hwnd
-
-A handle for the window whose behavior will be modified.
 
 
 ## -returns

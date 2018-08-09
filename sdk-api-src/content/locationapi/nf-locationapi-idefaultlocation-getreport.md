@@ -4,10 +4,10 @@ title: IDefaultLocation::GetReport
 author: windows-sdk-content
 description: Retrieves the specified report type from the default location provider.
 old-location: winlocation_com_ref\idefaultlocation_getreport.htm
-old-project: LocationAPI
+old-project: locationapi
 ms.assetid: 7b52dd6e-cba5-4248-b1be-b34e47a029d5
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/30/2018
 ms.keywords: GetReport, GetReport method [WinLocation], GetReport method [WinLocation],IDefaultLocation interface, IDefaultLocation interface [WinLocation],GetReport method, IDefaultLocation.GetReport, IDefaultLocation::GetReport, WinLocation_COM_Ref.idefaultlocation_getreport, locationapi/IDefaultLocation::GetReport
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/fd40bf4a-c59a-43a4-ab01-c671a8a41731">Windows.Devices.Geolocation</a>
-API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/fd40bf4a-c59a-43a4-ab01-c671a8a41731">Windows.Devices.Geolocation</a>API.
 ]
 
 Retrieves the specified report type from the default location provider.

@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparser2_getbit.htm
 old-project: mstv
 ms.assetid: 25993059-a1a9-486f-97b3-fd240c8931dc
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetBIT, GetBIT method [Microsoft TV Technologies], GetBIT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetBIT method, IIsdbSiParser2.GetBIT, IIsdbSiParser2::GetBIT, dvbsiparser/IIsdbSiParser2::GetBIT, mstv.iisdbsiparser2_getbit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ Pointer to the original_network_id field for the BIT. This field contains an ide
 
 ### -param ppBIT [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/0ec4497c-68c3-4b0e-a9e4-332e42b2c89b">IISDB_BIT</a>
-interface. Use this interface to retrieve the information in the table. 
+Receives a pointer to the <a href="https://msdn.microsoft.com/0ec4497c-68c3-4b0e-a9e4-332e42b2c89b">IISDB_BIT</a>interface. Use this interface to retrieve the information in the table. 
 The caller must release the interface.
 
 

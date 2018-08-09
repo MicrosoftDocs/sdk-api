@@ -7,7 +7,7 @@ old-location: shell\IShellItem2_GetPropertyDescriptionList.htm
 old-project: shell
 ms.assetid: 443b95c9-0a9e-4ad5-8774-ad3b1b51c136
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetPropertyDescriptionList, GetPropertyDescriptionList method [Windows Shell], GetPropertyDescriptionList method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetPropertyDescriptionList method, IShellItem2.GetPropertyDescriptionList, IShellItem2::GetPropertyDescriptionList, _shell_IShellItem2_GetPropertyDescriptionList, shell.IShellItem2_GetPropertyDescriptionList, shobjidl_core/IShellItem2::GetPropertyDescriptionList
 ms.prod: windows
 ms.technology: windows-sdk

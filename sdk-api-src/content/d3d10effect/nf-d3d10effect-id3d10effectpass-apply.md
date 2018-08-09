@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectpass_apply.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass_apply.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: Apply, Apply method [Direct3D 10], Apply method [Direct3D 10],ID3D10EffectPass interface, ID3D10EffectPass interface [Direct3D 10],Apply method, ID3D10EffectPass.Apply, ID3D10EffectPass::Apply, a6935571-9a69-c70b-86b7-67c76b5c85fe, d3d10effect/ID3D10EffectPass::Apply, direct3d10.id3d10effectpass_apply
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,9 +69,9 @@ Unused.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -81,11 +81,11 @@ Returns one of the following <a href="https://msdn.microsoft.com/library/Bb20527
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173656(v=VS.85).aspx">ID3D10EffectPass</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173656(v=VS.85).aspx">ID3D10EffectPass</a>
  
 
  

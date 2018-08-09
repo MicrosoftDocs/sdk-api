@@ -7,7 +7,7 @@ old-location: dhcp\dhcpdeleteserver.htm
 old-project: dhcp
 ms.assetid: 88b6c29b-7b01-40c7-b4f5-4920845f1eb9
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpDeleteServer, DhcpDeleteServer function [DHCP], dhcp.dhcpdeleteserver, dhcpsapi/DhcpDeleteServer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpDeleteServer</b> function attempts to delete a DHCP server and any related objects (such as subnet information and IP reservations) from the directory service.
+The <b>DhcpDeleteServer</b> function attempts to delete a DHCP server and any related objects (such as subnet information and IP reservations) from the directory service.
 
 
 ## -parameters

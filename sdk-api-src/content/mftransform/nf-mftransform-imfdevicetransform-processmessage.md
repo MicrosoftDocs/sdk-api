@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_processmessage.htm
 old-project: stream
 ms.assetid: 890CAC55-CF9E-420C-ACFC-5A92E53258AA
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 07/30/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],ProcessMessage method, IMFDeviceTransform.ProcessMessage, IMFDeviceTransform::ProcessMessage, ProcessMessage, ProcessMessage method [Streaming Media Devices], ProcessMessage method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::ProcessMessage, stream.imfdevicetransform_processmessage
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\authzinitializecontextfromauthzcontext.htm
 old-project: secauthz
 ms.assetid: dac5e354-ee31-45e3-9eb8-8f3263161ad2
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AuthzInitializeContextFromAuthzContext, AuthzInitializeContextFromAuthzContext function [Security], _win32_authzinitializecontextfromauthzcontext, authz/AuthzInitializeContextFromAuthzContext, security.authzinitializecontextfromauthzcontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Starting with Windows Server 2012 and Windows 8, this function also duplicates
 
 
 
-### -param Flags
+### -param Flags [in]
 
-TBD
+Reserved for future use.
 
 
 ### -param hAuthzClientContext [in]
@@ -89,11 +89,6 @@ A pointer to parameters to be passed to the callback function that computes dyna
 ### -param phNewAuthzClientContext [out]
 
 A pointer to the duplicated AUTHZ_CLIENT_CONTEXT_HANDLE handle. When you have finished using the handle, release it by calling the <a href="https://msdn.microsoft.com/cad9fff0-9aa6-4cb2-a34f-94cf72f66bca">AuthzFreeContext</a> function.
-
-
-#### - flags [in]
-
-Reserved for future use.
 
 
 ## -returns
@@ -126,7 +121,7 @@ This function calls the  <a href="https://msdn.microsoft.com/c20a02a0-5303-4433-
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: rras\mpradminacceptreauthentication.htm
 old-project: rras
 ms.assetid: 58fea0ca-b7c1-4d32-bcfc-10b41e101f30
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminAcceptReauthentication, MprAdminAcceptReauthentication callback, MprAdminAcceptReauthentication callback function [RAS], mprapi/MprAdminAcceptReauthentication, rras.mpradminacceptreauthentication
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,8 +84,7 @@ Pointer to a
 ### -param pRasConnection3 [in]
 
 Pointer to a 
- <a href="https://msdn.microsoft.com/f474563e-01c5-4f2a-aec4-477e0ffc7ab2">RAS_CONNECTION_3</a>
-		 structure that describes this connection.
+ <a href="https://msdn.microsoft.com/f474563e-01c5-4f2a-aec4-477e0ffc7ab2">RAS_CONNECTION_3</a>structure that describes this connection.
 
 
 ## -returns

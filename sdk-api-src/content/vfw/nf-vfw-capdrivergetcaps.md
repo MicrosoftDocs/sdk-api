@@ -7,7 +7,7 @@ old-location: multimedia\capdrivergetcaps.htm
 old-project: Multimedia
 ms.assetid: 2ca3a1b1-1d88-480f-b079-82da111c4565
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_win32_capDriverGetCaps, capDriverGetCaps, capDriverGetCaps macro [Windows Multimedia], multimedia.capdrivergetcaps, vfw/capDriverGetCaps"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,17 +69,12 @@ Handle to a capture window.
 
 ### -param s
 
-TBD
+Pointer to the <a href="https://msdn.microsoft.com/6d341be9-6b10-495b-803b-059ead1114cc">CAPDRIVERCAPS</a> structure to contain the hardware capabilities. 
 
 
 ### -param wSize
 
 Size, in bytes, of the structure referenced by <i>psCaps</i>. 
-
-
-#### - psCaps
-
-Pointer to the <a href="https://msdn.microsoft.com/6d341be9-6b10-495b-803b-059ead1114cc">CAPDRIVERCAPS</a> structure to contain the hardware capabilities. 
 
 
 ## -remarks

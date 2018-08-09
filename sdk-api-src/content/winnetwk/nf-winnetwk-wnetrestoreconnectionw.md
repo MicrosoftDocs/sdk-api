@@ -4,10 +4,10 @@ title: WNetRestoreConnectionW function
 author: windows-sdk-content
 description: The WNetRestoreConnectionW function restores the connection to a network resource. The function prompts the user, if necessary, for a name and password.
 old-location: wnet\wnetrestoreconnectionw.htm
-old-project: WNet
+old-project: wnet
 ms.assetid: 641b37f1-9cea-4c7a-9b42-b4bd28c747ad
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WNetRestoreConnectionW, WNetRestoreConnectionW function [Windows Networking (WNet)], winnetwk/WNetRestoreConnectionW, wnet.wnetrestoreconnectionw
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ The <b>WNetRestoreConnectionW</b> function restores the connection to a network 
 
 
 
-### -param hWnd
+### -param hWnd [in]
 
-TBD
+Handle to the parent window that the function uses to display the user interface (UI) that prompts the user for a name and password when making the network connection. If this parameter is <b>NULL</b>, there is no owner window. 
 
 
 ### -param lpDevice [in]
@@ -74,11 +74,6 @@ Pointer to a <b>null</b>-terminated Unicode string that specifies the local name
 #### - fUseUI
 
 If true, display a username/password prompt to the caller; otherwise, do not display it. The default value is true. 
-
-
-#### - hwndParent [in]
-
-Handle to the parent window that the function uses to display the user interface (UI) that prompts the user for a name and password when making the network connection. If this parameter is <b>NULL</b>, there is no owner window. 
 
 
 ## -returns

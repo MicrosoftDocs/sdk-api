@@ -7,7 +7,7 @@ old-location: mscs\createclustercnoless.htm
 old-project: mscs
 ms.assetid: AED4CDC5-BE90-4F34-A8E2-DFD0617BC65B
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: CreateClusterCNOless, CreateClusterCNOless function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_CNOLESS, PCLUSAPI_CREATE_CLUSTER_CNOLESS function [Failover Cluster], clusapi/CreateClusterCNOless, clusapi/PCLUSAPI_CREATE_CLUSTER_CNOLESS, mscs.createclustercnoless
 ms.prod: windows
 ms.technology: windows-sdk

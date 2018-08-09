@@ -7,7 +7,7 @@ old-location: ncd\iproviderproperties_setvalue.htm
 old-project: fundisc
 ms.assetid: 5aa3e6a3-febc-4d2d-b58b-abfad28d325d
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/30/2018
 ms.keywords: IProviderProperties interface,SetValue method, IProviderProperties.SetValue, IProviderProperties::SetValue, SetValue, SetValue method, SetValue method,IProviderProperties interface, functiondiscoveryprovider/IProviderProperties::SetValue, ncd.iproviderproperties_setvalue
 ms.prod: windows
 ms.technology: windows-sdk

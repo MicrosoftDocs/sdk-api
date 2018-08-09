@@ -7,7 +7,7 @@ old-location: controls\Header_GetItemCount.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitemcount.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Header_GetItemCount, Header_GetItemCount macro [Windows Controls], _win32_Header_GetItemCount, _win32_Header_GetItemCount_cpp, commctrl/Header_GetItemCount, controls.Header_GetItemCount, controls._win32_Header_GetItemCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets a count of the items in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775337(v=VS.85).aspx">HDM_GETITEMCOUNT</a> message explicitly. 
+Gets a count of the items in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775337(v=VS.85).aspx">HDM_GETITEMCOUNT</a> message explicitly. 
 
 
 ## -parameters

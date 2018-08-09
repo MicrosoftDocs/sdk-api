@@ -7,7 +7,7 @@ old-location: shell\IEnumPublishedApps.htm
 old-project: shell
 ms.assetid: 89a06b1d-1b72-46ca-91cd-bb63ea0cbff7
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumPublishedApps, IEnumPublishedApps interface [Windows Shell], IEnumPublishedApps interface [Windows Shell],described, inet_IEnumPublishedApps, shappmgr/IEnumPublishedApps, shell.IEnumPublishedApps
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ The <b>IEnumPublishedApps</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
 </td>
 <td align="left" width="63%">
-
-		Gets the next <a href="https://msdn.microsoft.com/a5a44e74-494a-4c9b-8bf3-85c6093b2c0e">IPublishedApp</a> object in the enumeration.
+Gets the next <a href="https://msdn.microsoft.com/a5a44e74-494a-4c9b-8bf3-85c6093b2c0e">IPublishedApp</a> object in the enumeration.
 		
 
 </td>
@@ -86,8 +85,7 @@ The <b>IEnumPublishedApps</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
 </td>
 <td align="left" width="63%">
-
-		Resets the enumeration of <a href="https://msdn.microsoft.com/a5a44e74-494a-4c9b-8bf3-85c6093b2c0e">IPublishedApp</a> objects to the first item.
+Resets the enumeration of <a href="https://msdn.microsoft.com/a5a44e74-494a-4c9b-8bf3-85c6093b2c0e">IPublishedApp</a> objects to the first item.
 		
 
 </td>

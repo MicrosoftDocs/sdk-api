@@ -7,7 +7,7 @@ old-location: setup\setupgetfilequeuecount.htm
 old-project: SetupApi
 ms.assetid: 57312fa3-8ffc-47be-b344-3780d13ed175
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: FILEOP_BACKUP, FILEOP_COPY, FILEOP_DELETE, FILEOP_RENAME, SetupGetFileQueueCount, SetupGetFileQueueCount function [Setup API], _setupapi_setupgetfilequeuecount, setup.setupgetfilequeuecount, setupapi/SetupGetFileQueueCount
 ms.prod: windows
 ms.technology: windows-sdk

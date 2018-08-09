@@ -7,7 +7,7 @@ old-location: winrt\iagilereference_resolve.htm
 old-project: WinRT
 ms.assetid: 627A7EE4-CFEF-47F6-BA99-51BEB78C5D55
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IAgileReference interface [Windows Runtime],Resolve method, IAgileReference.Resolve, IAgileReference.Resolve(Q,), IAgileReference::Resolve, IAgileReference::Resolve(Q,), Resolve, Resolve method [Windows Runtime], Resolve method [Windows Runtime],IAgileReference interface, objidl/IAgileReference::Resolve, winrt.iagilereference_resolve
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,14 +71,14 @@ Gets the interface ID of an agile reference to an object.
 
 
 
-#### - ppvObjectReference [out, retval]
-
-On successful completion, *<i>ppvObjectReference</i> is a pointer to the interface specified by <i>riid</i>.
-
-
 #### - riid [in]
 
 The interface ID of the interface to be retrieved from the agile reference. It is not required to be the same as the registered interface.
+
+
+#### - ppvObjectReference [out, retval]
+
+On successful completion, *<i>ppvObjectReference</i> is a pointer to the interface specified by <i>riid</i>.
 
 
 ## -returns

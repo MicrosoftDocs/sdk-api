@@ -7,7 +7,7 @@ old-location: fwp\fwpmneteventsubscribe2.htm
 old-project: fwp
 ms.assetid: CC55CA33-A153-4B48-AA89-A28F010024F7
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmNetEventSubscribe2, FwpmNetEventSubscribe2 function [Filtering], fwp.fwpmneteventsubscribe2, fwpmu/FwpmNetEventSubscribe2
 ms.prod: windows
 ms.technology: windows-sdk

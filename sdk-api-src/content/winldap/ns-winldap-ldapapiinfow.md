@@ -4,10 +4,10 @@ title: ldapapiinfoW
 author: windows-sdk-content
 description: Retrieves data about the API and implementations used.
 old-location: ldap\ldapapiinfo.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: 9175224c-82f0-4f22-9975-b1d7a332c3df
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: LDAPAPIInfo, LDAPAPIInfo structure [LDAP], LDAPAPIInfoA, LDAPAPIInfoW, ldap.ldapapiinfo, ldapapiinfoW, winldap/LDAPAPIInfo, winldap/LDAPAPIInfoA, winldap/LDAPAPIInfoW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IVdsVolume::QueryPlexes
 author: windows-sdk-content
 description: Returns an object that enumerates the plexes of the volume.
 old-location: base\ivdsvolume_queryplexes.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 33fc5b7c-4d05-4ec7-8d03-631c6d9f2f34
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IVdsVolume interface [VDS],QueryPlexes method, IVdsVolume.QueryPlexes, IVdsVolume::QueryPlexes, QueryPlexes, QueryPlexes method [VDS], QueryPlexes method [VDS],IVdsVolume interface, base.ivdsvolume_queryplexes, vds/IVdsVolume::QueryPlexes
 ms.prod: windows
 ms.technology: windows-sdk

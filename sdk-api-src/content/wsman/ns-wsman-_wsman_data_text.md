@@ -4,10 +4,10 @@ title: "_WSMAN_DATA_TEXT"
 author: windows-sdk-content
 description: Holds textual data for use with various Windows Remote Management functions.
 old-location: winrm\wsman_data_text.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: 463dcc6a-2a56-42a9-a778-7a634e5f977c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSMAN_DATA_TEXT, WSMAN_DATA_TEXT structure [Windows Remote Management], _WSMAN_DATA_TEXT, winrm.wsman_data_text, wsman/WSMAN_DATA_TEXT
 ms.prod: windows
 ms.technology: windows-sdk

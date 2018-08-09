@@ -7,7 +7,7 @@ old-location: winprog\fnfciread.htm
 old-project: devnotes
 ms.assetid: dd4e97ff-efbc-462b-b954-bc3260fa1513
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FNFCIREAD, FNFCIREAD macro [Windows API], fci/FNFCIREAD, winprog.fnfciread
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,11 +61,12 @@ The <b>FNFCIREAD</b> macro provides the declaration for the application-defined 
 
 ### -param fn
 
-TBD
+An application-defined value used to identify the open file.
 
 
+#### - memory
 
-
+Pointer to the buffer that receives the data read from a file.
 
 
 #### - cb
@@ -76,16 +77,6 @@ The maximum number of bytes to read.
 #### - err
 
 Pointer to the error code value. This value will be used to provide extended error information in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
-
-
-#### - hf
-
-An application-defined value used to identify the open file.
-
-
-#### - memory
-
-Pointer to the buffer that receives the data read from a file.
 
 
 #### - pv

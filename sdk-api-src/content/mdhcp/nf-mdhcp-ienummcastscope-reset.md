@@ -7,7 +7,7 @@ old-location: tapi3\ienummcastscope_reset.htm
 old-project: tapi
 ms.assetid: 799ebbdb-b285-40a6-9fd8-39341d39bbf9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/31/2018
 ms.keywords: IEnumMcastScope interface [TAPI 2.2],Reset method, IEnumMcastScope.Reset, IEnumMcastScope::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumMcastScope interface, _tapi3_ienummcastscope_reset, mdhcp/IEnumMcastScope::Reset, tapi3.ienummcastscope_reset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[
-						Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
+<p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 The 

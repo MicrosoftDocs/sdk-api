@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectinterioroutputconnector.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinterioroutputconnector\imilbitmapeffectinterioroutputconnector.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IMILBitmapEffectInteriorOutputConnector, IMILBitmapEffectInteriorOutputConnector interface [WPF Bitmap Effects], IMILBitmapEffectInteriorOutputConnector interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectinterioroutputconnector, mileffects/IMILBitmapEffectInteriorOutputConnector, wibe._wibe_imilbitmapeffectinterioroutputconnector
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,10 +71,10 @@ The <b>IMILBitmapEffectInteriorOutputConnector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735268(v=VS.85).aspx">GetOutputConnector</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735268(v=VS.85).aspx">GetOutputConnector</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/library/ms735267(v=VS.85).aspx">IMILBitmapEffectOutputConnector</a> associated with the interior output connector.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/ms735267(v=VS.85).aspx">IMILBitmapEffectOutputConnector</a> associated with the interior output connector.
 
 </td>
 </tr>

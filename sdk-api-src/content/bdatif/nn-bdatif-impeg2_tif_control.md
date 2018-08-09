@@ -7,7 +7,7 @@ old-location: mstv\impeg2_tif_control.htm
 old-project: mstv
 ms.assetid: 9583365d-b318-49e2-a32f-f6cc9d3f289d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMPEG2_TIF_CONTROL, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies], IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],described, IMPEG2_TIF_CONTROLInterface, bdatif/IMPEG2_TIF_CONTROL, mstv.impeg2_tif_control
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ The <b>IMPEG2_TIF_CONTROL</b> interface has these methods.
 <a href="https://msdn.microsoft.com/27add7cc-1d77-4ac5-b63f-757f63f4c9b8">AddPIDs</a>
 </td>
 <td align="left" width="63%">
-
-          Notifies the Network Provider which PIDs the TIF should receive.
+Notifies the Network Provider which PIDs the TIF should receive.
 
 </td>
 </tr>

@@ -4,10 +4,10 @@ title: MsiSourceListForceResolutionW function
 author: windows-sdk-content
 description: The MsiSourceListForceResolution function forces the installer to search the source list for a valid product source the next time a source is required.
 old-location: setup\msisourcelistforceresolution.htm
-old-project: Msi
+old-project: msi
 ms.assetid: b58747bf-65db-4563-b09a-0b05d2cf62ea
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: MsiSourceListForceResolution, MsiSourceListForceResolution function, MsiSourceListForceResolutionA, MsiSourceListForceResolutionW, _msi_msisourcelistforceresolution, msi/MsiSourceListForceResolution, msi/MsiSourceListForceResolutionA, msi/MsiSourceListForceResolutionW, setup.msisourcelistforceresolution
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-			The 
+The 
 <b>MsiSourceListForceResolution</b> function forces the installer to search the source list for a valid product source the next time a source is required. For example, when the installer performs an installation or reinstallation, or when it requires the path for a component that is set to run from source.
 		
 
@@ -86,8 +85,7 @@ Reserved for future use. This value must be set to 0.
 
 
 
-
-					The <b>MsiSourceListForceResolution</b> function returns the following values.
+The <b>MsiSourceListForceResolution</b> function returns the following values.
 
 <table>
 <tr>

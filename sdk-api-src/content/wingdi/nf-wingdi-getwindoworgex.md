@@ -7,7 +7,7 @@ old-location: gdi\getwindoworgex.htm
 old-project: gdi
 ms.assetid: 9579ed10-6d4c-4724-af8b-22cab5b6ff5e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetWindowOrgEx, GetWindowOrgEx function [Windows GDI], _win32_GetWindowOrgEx, gdi.getwindoworgex, wingdi/GetWindowOrgEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,14 +67,7 @@ The <b>GetWindowOrgEx</b> function retrieves the x-coordinates and y-coordinates
 A handle to the device context.
 
 
-### -param lppoint
-
-TBD
-
-
-
-
-#### - lpPoint [out]
+### -param lppoint [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that receives the coordinates, in logical units, of the window origin.
 

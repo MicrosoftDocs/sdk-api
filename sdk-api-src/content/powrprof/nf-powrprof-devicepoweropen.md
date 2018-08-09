@@ -7,7 +7,7 @@ old-location: base\devicepoweropen.htm
 old-project: power
 ms.assetid: 1f0e8ee6-cd9e-468a-ba9a-f11e17852f89
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: DevicePowerOpen, DevicePowerOpen function, base.devicepoweropen, powrprof/DevicePowerOpen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,7 @@ Initializes a device list by querying all the devices.
 
 
 
-### -param DebugMask
-
-TBD
-
-
-
-
-#### - Flags [optional]
+### -param DebugMask [optional]
 
 Reserved; must be 0.
 

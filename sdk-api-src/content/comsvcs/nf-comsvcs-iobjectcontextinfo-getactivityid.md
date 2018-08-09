@@ -7,7 +7,7 @@ old-location: cos\iobjectcontextinfo_getactivityid.htm
 old-project: cossdk
 ms.assetid: b6420f2e-223c-4a85-9c45-178a478c8424
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: GetActivityId, GetActivityId method [COM+], GetActivityId method [COM+],IObjectContextInfo interface, IObjectContextInfo interface [COM+],GetActivityId method, IObjectContextInfo.GetActivityId, IObjectContextInfo::GetActivityId, _cos_IObjectContextInfo_GetActivityId, comsvcs/IObjectContextInfo::GetActivityId, cos.iobjectcontextinfo_getactivityid
 ms.prod: windows
 ms.technology: windows-sdk

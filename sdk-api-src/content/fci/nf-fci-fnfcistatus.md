@@ -7,7 +7,7 @@ old-location: winprog\fnfcistatus.htm
 old-project: devnotes
 ms.assetid: 529fd3c8-9783-4dbe-9268-a9137935cf9b
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FNFCISTATUS, FNFCISTATUS macro [Windows API], fci/FNFCISTATUS, winprog.fnfcistatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,11 +61,33 @@ The <b>FNFCISTATUS</b> macro provides the declaration for the application-define
 
 ### -param fn
 
-TBD
+Indicates the type of status update. Possible values include:
 
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>statusFile0x00
 
+</td>
+<td>Compressing a block into a folder.</td>
+</tr>
+<tr>
+<td>statusFolder0x01
 
+</td>
+<td>Adding a folder to a cabinet.</td>
+</tr>
+<tr>
+<td>statusCabinet0x02
 
+</td>
+<td>Writing out a complete cabinet.</td>
+</tr>
+</table>
+ 
 
 
 #### - cb1
@@ -133,37 +155,6 @@ Specifies a status specific value. Possible values include:
 #### - pv
 
 Pointer to an application-defined value.
-
-
-#### - typeStatus
-
-Indicates the type of status update. Possible values include:
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>statusFile0x00
-
-</td>
-<td>Compressing a block into a folder.</td>
-</tr>
-<tr>
-<td>statusFolder0x01
-
-</td>
-<td>Adding a folder to a cabinet.</td>
-</tr>
-<tr>
-<td>statusCabinet0x02
-
-</td>
-<td>Writing out a complete cabinet.</td>
-</tr>
-</table>
- 
 
 
 ## -remarks

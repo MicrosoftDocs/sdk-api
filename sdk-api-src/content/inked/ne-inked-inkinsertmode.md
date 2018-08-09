@@ -7,7 +7,7 @@ old-location: tablet\inkinsertmode.htm
 old-project: tablet
 ms.assetid: ab15cf9f-c3c8-4cdb-9350-ffa734e4da35
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IEM_InsertAsInk, IEM_InsertAsText, InkInsertMode, InkInsertMode enumeration [Tablet PC], ab15cf9f-c3c8-4cdb-9350-ffa734e4da35, inked/IEM_InsertAsInk, inked/IEM_InsertAsText, inked/InkInsertMode, tablet.inkinsertmode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,14 +70,14 @@ Specifies how ink is inserted onto the <a href="https://msdn.microsoft.com/52761
 
 
 
-#### - IEM_InsertAsInk
-
-Drawn ink is inserted as ink.
-
-
 #### - IEM_InsertAsText
 
 Default. Drawn ink is inserted as text.
+
+
+#### - IEM_InsertAsInk
+
+Drawn ink is inserted as ink.
 
 
 ## -see-also

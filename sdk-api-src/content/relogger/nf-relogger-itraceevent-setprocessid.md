@@ -4,10 +4,10 @@ title: ITraceEvent::SetProcessId
 author: windows-sdk-content
 description: Assigns an event to a specific process.
 old-location: etw\ievent_setprocessid.htm
-old-project: etw
+old-project: ETW
 ms.assetid: c2e5e6bf-cdff-42fa-9352-2f234f39849d
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/07/2018
 ms.keywords: ITraceEvent interface [ETW],SetProcessId method, ITraceEvent.SetProcessId, ITraceEvent::SetProcessId, SetProcessId, SetProcessId method [ETW], SetProcessId method [ETW],ITraceEvent interface, etw.ievent_setprocessid, relogger/ITraceEvent::SetProcessId
 ms.prod: windows
 ms.technology: windows-sdk

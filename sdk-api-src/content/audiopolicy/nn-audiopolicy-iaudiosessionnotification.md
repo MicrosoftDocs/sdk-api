@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionnotification.htm
 old-project: CoreAudio
 ms.assetid: 69222168-87d7-4f5a-93b1-6d91263a54bd
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: IAudioSessionNotification, IAudioSessionNotification interface [Core Audio], IAudioSessionNotification interface [Core Audio],described, audiopolicy/IAudioSessionNotification, coreaudio.iaudiosessionnotification
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ The <b>IAudioSessionNotification</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/03f22e06-f446-4c57-a955-3d12deec4152">
-        OnSessionCreated</a>
+<a href="https://msdn.microsoft.com/03f22e06-f446-4c57-a955-3d12deec4152">OnSessionCreated</a>
 </td>
 <td align="left" width="63%">
 Notifies the registered processes that the audio session has been created.

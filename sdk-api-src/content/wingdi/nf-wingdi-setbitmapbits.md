@@ -7,7 +7,7 @@ old-location: gdi\setbitmapbits.htm
 old-project: gdi
 ms.assetid: 3cab12a6-c408-4552-bec0-5ecfd8374757
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetBitmapBits, SetBitmapBits function [Windows GDI], _win32_SetBitmapBits, gdi.setbitmapbits, wingdi/SetBitmapBits
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,34 +61,17 @@ The <b>SetBitmapBits</b> function sets the bits of color data for a bitmap to th
 
 
 
-### -param hbm
-
-TBD
-
-
-### -param cb
-
-TBD
-
-
-### -param pvBits
-
-TBD
-
-
-
-
-#### - cBytes [in]
-
-The number of bytes pointed to by the <i>lpBits</i> parameter.
-
-
-#### - hbmp [in]
+### -param hbm [in]
 
 A handle to the bitmap to be set. This must be a compatible bitmap (DDB).
 
 
-#### - lpBits [in]
+### -param cb [in]
+
+The number of bytes pointed to by the <i>lpBits</i> parameter.
+
+
+### -param pvBits [in]
 
 A pointer to an array of bytes that contain color data for the specified bitmap.
 

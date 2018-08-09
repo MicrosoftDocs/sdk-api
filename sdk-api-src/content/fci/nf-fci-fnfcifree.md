@@ -7,7 +7,7 @@ old-location: winprog\fnfcifree.htm
 old-project: devnotes
 ms.assetid: 48f052e2-7786-430a-b3dc-afcfdffae387
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FNFCIFREE, FNFCIFREE macro [Windows API], fci/FNFCIFREE, winprog.fnfcifree
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,15 +60,6 @@ The <b>FNFCIFREE</b> macro provides the declaration for the application-defined 
 
 
 ### -param fn
-
-TBD
-
-
-
-
-
-
-#### - memory
 
 Pointer to the allocated memory block to free.
 

@@ -7,7 +7,7 @@ old-location: tsf\ienumtfpropertyvalue.htm
 old-project: TSF
 ms.assetid: 7f99df15-777c-46eb-bff3-542eb1fcc428
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumTfPropertyValue, IEnumTfPropertyValue interface [Text Services Framework], IEnumTfPropertyValue interface [Text Services Framework],described, _tsf_ienumtfpropertyvalue_ref, msctf/IEnumTfPropertyValue, tsf.ienumtfpropertyvalue
 ms.prod: windows
 ms.technology: windows-sdk

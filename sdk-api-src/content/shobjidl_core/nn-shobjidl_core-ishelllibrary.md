@@ -7,7 +7,7 @@ old-location: shell\IShellLibrary.htm
 old-project: shell
 ms.assetid: c1ef3d22-7c88-42b0-93a2-5d1b75c327ba
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IShellLibrary, IShellLibrary interface [Windows Shell], IShellLibrary interface [Windows Shell],described, _shell_IShellLibrary, shell.IShellLibrary, shobjidl_core/IShellLibrary
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,8 +83,7 @@ Adds a folder to the library.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a>
 </td>
 <td align="left" width="63%">
-
-         Commits library updates to an existing Library Description file.
+Commits library updates to an existing Library Description file.
       
 
 </td>
@@ -112,8 +111,7 @@ Gets the set of child folders that are contained in the library.
 <a href="https://msdn.microsoft.com/450ee4cc-5a09-4f14-832a-3982ec9de03b">GetFolderType</a>
 </td>
 <td align="left" width="63%">
-
-         Gets the library's folder type.      
+Gets the library's folder type.      
       
 
 </td>
@@ -186,8 +184,7 @@ Saves the library to a new Library Description (*.library-ms) file.
 <a href="https://msdn.microsoft.com/3a6fa57f-808d-4893-a01c-f192355f8989">SaveInKnownFolder</a>
 </td>
 <td align="left" width="63%">
-
-         Saves the library to a new file in a specified known folder.
+Saves the library to a new file in a specified known folder.
       
 
 </td>
@@ -206,8 +203,7 @@ Sets the default target folder that the library will use for save operations.
 <a href="https://msdn.microsoft.com/e3e3f356-6ffd-46b9-b8a5-1b0c9df01abe">SetFolderType</a>
 </td>
 <td align="left" width="63%">
-
-         Sets the library's folder type.
+Sets the library's folder type.
       
 
 </td>

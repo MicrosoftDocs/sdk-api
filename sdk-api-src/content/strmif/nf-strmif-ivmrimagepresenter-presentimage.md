@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagepresenter_presentimage.htm
 old-project: DirectShow
 ms.assetid: df6bf45d-df92-4655-862c-704a12a62ff9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IVMRImagePresenter interface [DirectShow],PresentImage method, IVMRImagePresenter.PresentImage, IVMRImagePresenter::PresentImage, IVMRImagePresenterPresentImage, PresentImage, PresentImage method [DirectShow], PresentImage method [DirectShow],IVMRImagePresenter interface, dshow.ivmrimagepresenter_presentimage, strmif/IVMRImagePresenter::PresentImage
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_GenericTypographic_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\generictypographic.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GenericTypographic, GenericTypographic method [GDI+], GenericTypographic method [GDI+],StringFormat class, StringFormat class [GDI+],GenericTypographic method, StringFormat.GenericTypographic, StringFormat::GenericTypographic, _gdiplus_CLASS_StringFormat_GenericTypographic_, gdiplus._gdiplus_CLASS_StringFormat_GenericTypographic_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>StringFormat::GenericTypographic</b> method creates a generic, typographic 
-			<a href="https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx">StringFormat</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object.
 
 
 ## -parameters
@@ -66,11 +66,11 @@ The <b>StringFormat::GenericTypographic</b> method creates a generic, typographi
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx">StringFormat</a>*</b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>*</b>
 </strong>
 
 This method returns a pointer to the new 
-						<a href="https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx">StringFormat</a> object.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object.
 
 
 
@@ -80,7 +80,7 @@ This method returns a pointer to the new
 
 
 A generic, typographic 
-				<a href="https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx">StringFormat</a> object has the following characteristics: 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object has the following characteristics: 
 
 <ul>
 <li>String format flags StringFormatFlagsLineLimit, StringFormatFlagsNoClip, and StringFormatFlagsNoFitBlackBox are set. </li>
@@ -97,7 +97,7 @@ A generic, typographic
 
 
 The following example creates a generic, typographic 
-						<a href="https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx">StringFormat</a> object and then uses it to draw a formatted string. The code also draws the string's layout rectangle.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object and then uses it to draw a formatted string. The code also draws the string's layout rectangle.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -138,11 +138,11 @@ The following example creates a generic, typographic
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534131(v=VS.85).aspx">HotkeyPrefix</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534131(v=VS.85).aspx">HotkeyPrefix</a>
 
 
 
@@ -150,27 +150,27 @@ The following example creates a generic, typographic
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534177(v=VS.85).aspx">StringAlignment</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534177(v=VS.85).aspx">StringAlignment</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534179(v=VS.85).aspx">StringDigitSubstitute</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534179(v=VS.85).aspx">StringDigitSubstitute</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx">StringFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534181(v=VS.85).aspx">StringFormatFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534181(v=VS.85).aspx">StringFormatFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534403(v=VS.85).aspx">StringTrimming</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534403(v=VS.85).aspx">StringTrimming</a>
  
 
  

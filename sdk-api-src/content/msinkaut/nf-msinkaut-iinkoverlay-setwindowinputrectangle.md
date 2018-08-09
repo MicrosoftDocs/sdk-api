@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_setwindowinputrectangle.htm
 old-project: tablet
 ms.assetid: 0f689b7d-0bcc-4cf2-8878-19f6af018b81
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IInkOverlay, IInkOverlay interface [Tablet PC],SetWindowInputRectangle method, IInkOverlay.SetWindowInputRectangle, IInkOverlay::SetWindowInputRectangle, SetWindowInputRectangle, SetWindowInputRectangle method [Tablet PC], SetWindowInputRectangle method [Tablet PC],IInkOverlay interface, b46139db-0473-4cd3-8f1b-d303f3430470, msinkaut/IInkOverlay::SetWindowInputRectangle, tablet.inkoverlay_setwindowinputrectangle
 ms.prod: windows
 ms.technology: windows-sdk

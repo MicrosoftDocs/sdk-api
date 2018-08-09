@@ -7,7 +7,7 @@ old-location: rpc\rpcserveruseprotseqex.htm
 old-project: rpc
 ms.assetid: a8cedfe9-9c16-4c35-9cc4-5ccaa9e130a8
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcServerUseProtseqEx, RpcServerUseProtseqEx function [RPC], RpcServerUseProtseqExA, RpcServerUseProtseqExW, _rpc_rpcserveruseprotseqex, rpc.rpcserveruseprotseqex, rpcdce/RpcServerUseProtseqEx, rpcdce/RpcServerUseProtseqExA, rpcdce/RpcServerUseProtseqExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ The
 
 ### -param Protseq
 
-TBD
+Pointer to a string identifier of the protocol sequence to register with the RPC run-time library.
 
 
 ### -param MaxCalls
@@ -82,11 +82,6 @@ Pointer to an optional parameter provided for the Windows XP/2000/NT security s
 Pointer to the 
 <a href="https://msdn.microsoft.com/2647d75d-09b5-48b2-9a79-4d1f95cb094b">RPC_POLICY</a> structure, which contains flags to restrict port allocation for dynamic ports and allow multihomed computers to selectively bind to network interface cards. The 
 <b>RPC_POLICY</b> structure enables the caller to direct the RPC run-time library to use an intranet port or an Internet port, among other options.
-
-
-#### - ProtSeq
-
-Pointer to a string identifier of the protocol sequence to register with the RPC run-time library.
 
 
 ## -returns

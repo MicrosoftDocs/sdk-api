@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectformetadatacommands_writenextmetadata
 old-project: CoreAudio
 ms.assetid: 4880851E-C13F-49EC-BFC2-0F97F36D4D07
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: ISpatialAudioObjectForMetadataCommands interface [Core Audio],WriteNextMetadataCommand method, ISpatialAudioObjectForMetadataCommands.WriteNextMetadataCommand, ISpatialAudioObjectForMetadataCommands::WriteNextMetadataCommand, WriteNextMetadataCommand, WriteNextMetadataCommand method [Core Audio], WriteNextMetadataCommand method [Core Audio],ISpatialAudioObjectForMetadataCommands interface, coreaudio.ispatialaudioobjectformetadatacommands_writenextmetadatacommand, spatialaudiometadata/ISpatialAudioObjectForMetadataCommands::WriteNextMetadataCommand
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioObjectForMetadataCommands::WriteNextMetadataCommand

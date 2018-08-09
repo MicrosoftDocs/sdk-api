@@ -7,7 +7,7 @@ old-location: picacq\iuserinputstring_getprompt.htm
 old-project: acquisition
 ms.assetid: f2fdb18d-5af8-45c8-8f92-7fc8c836082d
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetPrompt, GetPrompt method [Picture Acquisition], GetPrompt method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetPrompt method, IUserInputString.GetPrompt, IUserInputString::GetPrompt, IUserInputStringGetPrompt, photoacquire/IUserInputString::GetPrompt, picacq.iuserinputstring_getprompt
 ms.prod: windows
 ms.technology: windows-sdk

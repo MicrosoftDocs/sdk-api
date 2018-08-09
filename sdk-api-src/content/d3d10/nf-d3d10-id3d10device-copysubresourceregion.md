@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_copysubresourceregion.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_copysubresourceregion.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 6ed5c759-9864-ef56-3e1a-e3f8ff730dff, CopySubresourceRegion, CopySubresourceRegion method [Direct3D 10], CopySubresourceRegion method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CopySubresourceRegion method, ID3D10Device.CopySubresourceRegion, ID3D10Device::CopySubresourceRegion, d3d10/ID3D10Device::CopySubresourceRegion, direct3d10.id3d10device_copysubresourceregion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Copy a region from a source resource to a destination resource.
 
 ### -param pDstResource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>*</b>
 
-A pointer to the destination resource (see <a href="https://msdn.microsoft.com/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>).
+A pointer to the destination resource (see <a href="https://msdn.microsoft.com/en-us/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>).
 
 
 ### -param DstSubresource [in]
@@ -71,7 +71,7 @@ A pointer to the destination resource (see <a href="https://msdn.microsoft.com/l
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">Subresource</a> index of the destination.
+<a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">Subresource</a> index of the destination.
 
 
 ### -param DstX [in]
@@ -97,9 +97,9 @@ The z coordinate of the upper left corner of the destination region. For a 1D or
 
 ### -param pSrcResource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>*</b>
 
-A pointer to the source resource (see <a href="https://msdn.microsoft.com/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>).
+A pointer to the source resource (see <a href="https://msdn.microsoft.com/en-us/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>).
 
 
 ### -param SrcSubresource [in]
@@ -107,14 +107,14 @@ A pointer to the source resource (see <a href="https://msdn.microsoft.com/librar
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">Subresource</a> index of the source.
+<a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">Subresource</a> index of the source.
 
 
 ### -param pSrcBox [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb204895(v=VS.85).aspx">D3D10_BOX</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb204895(v=VS.85).aspx">D3D10_BOX</a>*</b>
 
-A 3D box (see <a href="https://msdn.microsoft.com/library/Bb204895(v=VS.85).aspx">D3D10_BOX</a>) that defines the source subresource that can be copied. If <b>NULL</b>, the entire source subresource is copied. The box must fit within the source resource.
+A 3D box (see <a href="https://msdn.microsoft.com/en-us/library/Bb204895(v=VS.85).aspx">D3D10_BOX</a>) that defines the source subresource that can be copied. If <b>NULL</b>, the entire source subresource is copied. The box must fit within the source resource.
 
 An empty box results in a no-op. A box is empty if the top value is greater than or equal to the bottom value, or the left value is greater than or equal to the right value, or the front value is greater than or equal to the back value. When the box is empty, <b>CopySubresourceRegion</b> doesn't perform a copy operation.
 
@@ -137,21 +137,21 @@ The source box must be within the size of the source resource. The destination l
 If the resources are buffers, all coordinates are in bytes; if the resources are textures, all coordinates are in texels. 
 
 
-<a href="https://msdn.microsoft.com/library/Bb694525(v=VS.85).aspx">D3D10CalcSubresource</a> is a helper function for calculating subresource indexes.
+<a href="https://msdn.microsoft.com/en-us/library/Bb694525(v=VS.85).aspx">D3D10CalcSubresource</a> is a helper function for calculating subresource indexes.
 
 <b>CopySubresourceRegion</b> performs the copy on the GPU (similar to a memcpy by the CPU). As a consequence, the source and destination resources must meet the following criteria:
 
 <ul>
 <li>Must be different subresources (although they can be from the same resource).</li>
 <li>Must be the same <a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">type</a>.</li>
-<li>Must have compatible <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">formats</a> (the formats must either be identical or be from the same type group). For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to an DXGI_FORMAT_R32G32B32_UINT texture because both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. Beginning with Direct3D 10.1, <b>CopySubresourceRegion</b> can copy between a few format types. For more info, see <a href="https://msdn.microsoft.com/library/Bb694531(v=VS.85).aspx">Format Conversion using Direct3D 10.1</a>.</li>
-<li>May not be currently <a href="https://msdn.microsoft.com/library/Bb205132(v=VS.85).aspx">mapped</a>.</li>
+<li>Must have compatible <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">formats</a> (the formats must either be identical or be from the same type group). For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to an DXGI_FORMAT_R32G32B32_UINT texture because both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. Beginning with Direct3D 10.1, <b>CopySubresourceRegion</b> can copy between a few format types. For more info, see <a href="https://msdn.microsoft.com/en-us/library/Bb694531(v=VS.85).aspx">Format Conversion using Direct3D 10.1</a>.</li>
+<li>May not be currently <a href="https://msdn.microsoft.com/en-us/library/Bb205132(v=VS.85).aspx">mapped</a>.</li>
 </ul>
-<b>CopySubresourceRegion</b>  supports only copy; it does not support any stretch, color key, blend, or format conversions. Beginning with Direct3D 10.1, <b>CopySubresourceRegion</b> can reinterpret the resource data between a few format types. For more info, see <a href="https://msdn.microsoft.com/library/Bb694531(v=VS.85).aspx">Format Conversion using Direct3D 10.1</a>.
+<b>CopySubresourceRegion</b>  supports only copy; it does not support any stretch, color key, blend, or format conversions. Beginning with Direct3D 10.1, <b>CopySubresourceRegion</b> can reinterpret the resource data between a few format types. For more info, see <a href="https://msdn.microsoft.com/en-us/library/Bb694531(v=VS.85).aspx">Format Conversion using Direct3D 10.1</a>.
 
-If your app needs to copy an entire resource, we recommend to use <a href="https://msdn.microsoft.com/library/Bb173541(v=VS.85).aspx">ID3D10Device::CopyResource</a> instead.
+If your app needs to copy an entire resource, we recommend to use <a href="https://msdn.microsoft.com/en-us/library/Bb173541(v=VS.85).aspx">ID3D10Device::CopyResource</a> instead.
 
-<b>CopySubresourceRegion</b> is an asynchronous call that the runtime can add  to the command-buffer queue. This asynchronous behaviorattempts to remove pipeline stalls that may occur when copying data. See <a href="https://msdn.microsoft.com/library/Bb205132(v=VS.85).aspx">performance considerations</a> for more details.
+<b>CopySubresourceRegion</b> is an asynchronous call that the runtime can add  to the command-buffer queue. This asynchronous behaviorattempts to remove pipeline stalls that may occur when copying data. See <a href="https://msdn.microsoft.com/en-us/library/Bb205132(v=VS.85).aspx">performance considerations</a> for more details.
 
 <table>
 <tr>
@@ -170,7 +170,7 @@ Direct3D 10.1 has added support for the following features:
 <ul>
 <li>You can use a depth-stencil buffer as a source or a destination.</li>
 <li>You can use multisampled resources as  source and destination only if both source and destination have identical multisampled count and quality. If source and destination differ in multisampled count and quality or if the source is multisampled and the destination is not multisampled (or vice versa), the call to <b>ID3D10Device::CopySubresourceRegion</b> fails.</li>
-<li>You can copy between uncompressed and compressed resources. During copy, the format conversions that are specified in  <a href="https://msdn.microsoft.com/library/Bb694531(v=VS.85).aspx">Format Conversion using Direct3D 10.1</a> are supported automatically. The uncompressed resource must be at least prestructured, and typed. You must also account for the difference between the virtual and the physical size of the mipmaps levels.</li>
+<li>You can copy between uncompressed and compressed resources. During copy, the format conversions that are specified in  <a href="https://msdn.microsoft.com/en-us/library/Bb694531(v=VS.85).aspx">Format Conversion using Direct3D 10.1</a> are supported automatically. The uncompressed resource must be at least prestructured, and typed. You must also account for the difference between the virtual and the physical size of the mipmaps levels.</li>
 </ul>
 </td>
 </tr>
@@ -212,11 +212,11 @@ Notice that, for a 2D texture, front and back are always set to 0 and 1 respecti
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173829(v=VS.85).aspx">ID3D10Resource Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173829(v=VS.85).aspx">ID3D10Resource Interface</a>
  
 
  

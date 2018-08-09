@@ -7,7 +7,7 @@ old-location: rpc\rpcnsbindinglookupnext.htm
 old-project: rpc
 ms.assetid: 068913fb-f9ca-4e03-93d7-3484ba43472e
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcNsBindingLookupNext, RpcNsBindingLookupNext function [RPC], _rpc_rpcnsbindinglookupnext, rpc.rpcnsbindinglookupnext, rpcnsi/RpcNsBindingLookupNext
 ms.prod: windows
 ms.technology: windows-sdk

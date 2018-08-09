@@ -7,7 +7,7 @@ old-location: base\canuserwritepwrscheme.htm
 old-project: power
 ms.assetid: 3989da98-aa01-4c63-a74c-ce7ba18278c1
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: CanUserWritePwrScheme, CanUserWritePwrScheme function, _win32_canuserwritepwrscheme, base.canuserwritepwrscheme, powrprof/CanUserWritePwrScheme
 ms.prod: windows
 ms.technology: windows-sdk

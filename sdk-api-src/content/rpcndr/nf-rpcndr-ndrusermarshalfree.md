@@ -7,7 +7,7 @@ old-location: rpc\ndrusermarshalfree.htm
 old-project: rpc
 ms.assetid: 3b850938-13f3-4173-86bb-8b01ac0c5809
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: NdrUserMarshalFree, NdrUserMarshalFree function [RPC], rpc.ndrusermarshalfree, rpcndr/NdrUserMarshalFree
 ms.prod: windows
 ms.technology: windows-sdk

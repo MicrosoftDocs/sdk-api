@@ -7,7 +7,7 @@ old-location: mf\imfsamistyle_getselectedstyle.htm
 old-project: medfound
 ms.assetid: 7501a4d5-eb5f-4f62-ae55-96ee999e561c
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 7501a4d5-eb5f-4f62-ae55-96ee999e561c, GetSelectedStyle, GetSelectedStyle method [Media Foundation], GetSelectedStyle method [Media Foundation],IMFSAMIStyle interface, IMFSAMIStyle interface [Media Foundation],GetSelectedStyle method, IMFSAMIStyle.GetSelectedStyle, IMFSAMIStyle::GetSelectedStyle, mf.imfsamistyle_getselectedstyle, mfidl/IMFSAMIStyle::GetSelectedStyle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets the current style from the SAMI media source.
+Gets the current style from the SAMI media source.
         
 
 
@@ -64,8 +63,7 @@ req.product: GDI+ 1.1
 
 ### -param ppwszStyle [out]
 
-
-            Receives a pointer to a null-terminated string that contains the name of the style. If no style is currently set, the method returns an empty string. The caller must free the memory for the string by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>. 
+Receives a pointer to a null-terminated string that contains the name of the style. If no style is currently set, the method returns an empty string. The caller must free the memory for the string by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>. 
           
 
 

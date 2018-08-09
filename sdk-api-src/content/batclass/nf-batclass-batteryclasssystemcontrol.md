@@ -7,7 +7,7 @@ old-location: battery\batteryclasssystemcontrol.htm
 old-project: battery
 ms.assetid: d462c51d-e175-4fc8-88b9-515ba648fab4
 ms.author: windowssdkdev
-ms.date: 02/16/2018
+ms.date: 07/30/2018
 ms.keywords: BatteryClassSystemControl, BatteryClassSystemControl routine [Battery Devices], bat-rtn_4e2bda63-ff7a-420f-96af-fa0d5041479b.xml, batclass/BatteryClassSystemControl, battery.batteryclasssystemcontrol
 ms.prod: windows
 ms.technology: windows-sdk

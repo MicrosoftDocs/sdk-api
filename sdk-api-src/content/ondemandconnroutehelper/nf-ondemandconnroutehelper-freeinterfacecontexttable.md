@@ -7,7 +7,7 @@ old-location: nla\freeinterfacecontexttable.htm
 old-project: nla
 ms.assetid: 79623E67-C255-498D-ACDA-8BC2AE925224
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: FreeInterfaceContextTable, FreeInterfaceContextTable function [Network Awareness], nla.freeinterfacecontexttable, ondemandconnroutehelper/FreeInterfaceContextTable
 ms.prod: windows
 ms.technology: windows-sdk

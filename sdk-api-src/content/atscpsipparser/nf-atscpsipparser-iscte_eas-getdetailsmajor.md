@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getdetailsmajor.htm
 old-project: mstv
 ms.assetid: ecb6f06d-ccf5-44f3-ba36-b24176c3a20e
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetDetailsMajor, GetDetailsMajor method [Microsoft TV Technologies], GetDetailsMajor method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDetailsMajor method, ISCTE_EAS.GetDetailsMajor, ISCTE_EAS::GetDetailsMajor, ISCTE_EASGetDetailsMajor, atscpsipparser/ISCTE_EAS::GetDetailsMajor, mstv.iscte_eas_getdetailsmajor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,8 +60,7 @@ The <b>GetDetailsMajor</b> method returns the major channel number for the detai
 
 ### -param pwVal [out]
 
-
-            Receives the details_major_channel_number field.
+Receives the details_major_channel_number field.
           
 
 

@@ -7,7 +7,7 @@ old-location: winmsg\childwindowfrompointex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\childwindowfrompointex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CWP_ALL, CWP_SKIPDISABLED, CWP_SKIPINVISIBLE, CWP_SKIPTRANSPARENT, ChildWindowFromPointEx, ChildWindowFromPointEx function [Windows and Messages], _win32_ChildWindowFromPointEx, _win32_childwindowfrompointex_cpp, winmsg.childwindowfrompointex, winui._win32_childwindowfrompointex, winuser/ChildWindowFromPointEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,9 +67,11 @@ Determines which, if any,
 
 
 
-### -param hwnd
+### -param hwnd [in]
 
-TBD
+Type: <b>HWND</b>
+
+A handle to the parent window. 
 
 
 ### -param pt [in]
@@ -81,21 +83,7 @@ A structure that defines the
 				of the point to be checked. 
 
 
-### -param flags
-
-TBD
-
-
-
-
-#### - hwndParent [in]
-
-Type: <b>HWND</b>
-
-A handle to the parent window. 
-
-
-#### - uFlags [in]
+### -param flags [in]
 
 Type: <b>UINT</b>
 

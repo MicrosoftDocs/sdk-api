@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_SelectActiveFrame_dimensionID_frameIn
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\selectactiveframe.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Image class [GDI+],SelectActiveFrame method, Image.SelectActiveFrame, Image::SelectActiveFrame, SelectActiveFrame, SelectActiveFrame method [GDI+], SelectActiveFrame method [GDI+],Image class, _gdiplus_CLASS_Image_SelectActiveFrame_dimensionID_frameIndex_, gdiplus._gdiplus_CLASS_Image_SelectActiveFrame_dimensionID_frameIndex_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Image::SelectActiveFrame</b> method selects the frame in this 
-			<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a> object specified by a dimension and an index.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object specified by a dimension and an index.
 
 
 ## -parameters
@@ -104,31 +104,31 @@ Among all the image formats currently supported by GDI+, the only formats that s
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534434(v=VS.85).aspx">EncoderParameter</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx">EncoderParameter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534435(v=VS.85).aspx">EncoderParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534435(v=VS.85).aspx">EncoderParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534080(v=VS.85).aspx">GetImageEncoders</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534080(v=VS.85).aspx">GetImageEncoders</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535399(v=VS.85).aspx">Image::Save Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535399(v=VS.85).aspx">Image::Save Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535398(v=VS.85).aspx">Image::SaveAdd Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535398(v=VS.85).aspx">Image::SaveAdd Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533814(v=VS.85).aspx">Using Image Encoders and Decoders</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533814(v=VS.85).aspx">Using Image Encoders and Decoders</a>
  
 
  

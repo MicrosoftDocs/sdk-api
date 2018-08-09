@@ -7,7 +7,7 @@ old-location: mf\imfpresentationdescriptor.htm
 old-project: medfound
 ms.assetid: db03e212-7021-433e-84dc-410b2cf7af87
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFPresentationDescriptor, IMFPresentationDescriptor interface [Media Foundation], IMFPresentationDescriptor interface [Media Foundation],described, db03e212-7021-433e-84dc-410b2cf7af87, mf.imfpresentationdescriptor, mfidl/IMFPresentationDescriptor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Describes the details of a presentation. A <i>presentation</i> is a set of related media streams that share a common presentation time.
+Describes the details of a presentation. A <i>presentation</i> is a set of related media streams that share a common presentation time.
         
 
 

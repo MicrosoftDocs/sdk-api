@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_getsubject.htm
 old-project: printdocs
 ms.assetid: 80499d81-4adc-402c-ab72-4ebc77eefaea
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetSubject, GetSubject method [XPS Documents and Packaging], GetSubject method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetSubject method, IXpsOMCoreProperties.GetSubject, IXpsOMCoreProperties::GetSubject, xps.ixpsomcoreproperties_getsubject, xpsobjectmodel/IXpsOMCoreProperties::GetSubject
 ms.prod: windows
 ms.technology: windows-sdk

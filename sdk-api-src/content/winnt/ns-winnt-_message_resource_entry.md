@@ -7,7 +7,7 @@ old-location: menurc\message_resource_entry.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcestructures\message_resource_entry.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PMESSAGE_RESOURCE_ENTRY, MESSAGE_RESOURCE_ENTRY, MESSAGE_RESOURCE_ENTRY structure [Menus and Other Resources], PMESSAGE_RESOURCE_ENTRY, PMESSAGE_RESOURCE_ENTRY structure pointer [Menus and Other Resources], _MESSAGE_RESOURCE_ENTRY, _win32_MESSAGE_RESOURCE_ENTRY_str, _win32_message_resource_entry_str_cpp, menurc.message_resource_entry, winnt/MESSAGE_RESOURCE_ENTRY, winnt/PMESSAGE_RESOURCE_ENTRY, winui._win32_message_resource_entry_str"
 ms.prod: windows
 ms.technology: windows-sdk

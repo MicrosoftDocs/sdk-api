@@ -4,10 +4,10 @@ title: WNetGetConnectionA function
 author: windows-sdk-content
 description: The WNetGetConnection function retrieves the name of the network resource associated with a local device.
 old-location: wnet\wnetgetconnection.htm
-old-project: WNet
+old-project: wnet
 ms.assetid: 72d84752-4e64-4c16-872b-cb892dffbf9a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WNetGetConnection, WNetGetConnection function [Windows Networking (WNet)], WNetGetConnectionA, WNetGetConnectionW, _win32_wnetgetconnection, winnetwk/WNetGetConnection, winnetwk/WNetGetConnectionA, winnetwk/WNetGetConnectionW, wnet.wnetgetconnection
 ms.prod: windows
 ms.technology: windows-sdk

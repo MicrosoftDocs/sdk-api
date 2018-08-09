@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_propertyset_containselement.htm
 old-project: wmi_v2
 ms.assetid: 71cf9c53-4e97-432c-9dfe-bef8ba119f71
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_PropertySet_ContainsElement, MI_PropertySet_ContainsElement function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_ContainsElement, wmi_v2.mi_propertyset_containselement
 ms.prod: windows
 ms.technology: windows-sdk

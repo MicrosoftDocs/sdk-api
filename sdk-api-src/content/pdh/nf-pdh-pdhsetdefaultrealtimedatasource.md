@@ -4,10 +4,10 @@ title: PdhSetDefaultRealTimeDataSource function
 author: windows-sdk-content
 description: Specifies the source of the real-time data.
 old-location: perf\pdhsetdefaultrealtimedatasource.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 5a46ac26-c1a1-40c1-a328-688e0b394e18
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: DATA_SOURCE_REGISTRY, DATA_SOURCE_WBEM, PdhSetDefaultRealTimeDataSource, PdhSetDefaultRealTimeDataSource function [Perf], _win32_pdhsetdefaultrealtimedatasource, base.pdhsetdefaultrealtimedatasource, pdh/PdhSetDefaultRealTimeDataSource, perf.pdhsetdefaultrealtimedatasource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Specifies the source of the real-time data.
+Specifies the source of the real-time data.
 		
 
 
@@ -100,8 +99,7 @@ The data source is a WMI provider.
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

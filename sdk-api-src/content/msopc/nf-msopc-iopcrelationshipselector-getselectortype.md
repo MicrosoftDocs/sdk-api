@@ -7,7 +7,7 @@ old-location: opc\iopcrelationshipselector_getselectortype.htm
 old-project: OPC
 ms.assetid: 583f56e5-c374-4f79-badd-35eb5eecef70
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: GetSelectorType, GetSelectorType method [Open Packaging Conventions], GetSelectorType method [Open Packaging Conventions],IOpcRelationshipSelector interface, IOpcRelationshipSelector interface [Open Packaging Conventions],GetSelectorType method, IOpcRelationshipSelector.GetSelectorType, IOpcRelationshipSelector::GetSelectorType, msopc/IOpcRelationshipSelector::GetSelectorType, opc.iopcrelationshipselector_getselectortype
 ms.prod: windows
 ms.technology: windows-sdk

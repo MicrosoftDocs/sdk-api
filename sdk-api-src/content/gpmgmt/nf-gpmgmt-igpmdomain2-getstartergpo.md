@@ -4,10 +4,10 @@ title: IGPMDomain2::GetStarterGPO
 author: windows-sdk-content
 description: Retrieves a GPMStarterGPO object that has a specified Group Policy object ID.
 old-location: gpmc\igpmdomain2_getstartergpo.htm
-old-project: gpmc
+old-project: GPMC
 ms.assetid: 0648c653-94da-40d6-98c2-46f80a51bc90
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: GetStarterGPO, GetStarterGPO method [GPMC], GetStarterGPO method [GPMC],IGPMDomain2 interface, IGPMDomain2 interface [GPMC],GetStarterGPO method, IGPMDomain2.GetStarterGPO, IGPMDomain2::GetStarterGPO, gpmc.igpmdomain2_getstartergpo, gpmgmt/IGPMDomain2::GetStarterGPO
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\ioctl_pwm_controller_get_actual_period.htm
 old-project: devio
 ms.assetid: 11EB530E-4C73-44A3-8739-315F992DBE7B
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/07/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD, IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD control, IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD control code, base.ioctl_pwm_controller_get_actual_period, pwm/IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD
 ms.prod: windows
 ms.technology: windows-sdk
@@ -124,8 +124,7 @@ To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087
 <pre class="syntax">BOOL 
    WINAPI 
    DeviceIoControl( (HANDLE)       hDevice,         // handle to device
-                    (DWORD)        IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD, // dwIoControlCode
-                    (LPDWORD)      NULL,      // input buffer
+                    (DWORD)        IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD, // dwIoControlCode(LPDWORD)      NULL,      // input buffer
                     (DWORD)        0,   // size of input buffer
                     (LPDWORD)      lpOutBuffer,     // output buffer
                     (DWORD)        nOutBufferSize,  // size of output buffer

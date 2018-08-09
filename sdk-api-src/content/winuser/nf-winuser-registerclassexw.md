@@ -7,7 +7,7 @@ old-location: winmsg\registerclassex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\registerclassex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: RegisterClassEx, RegisterClassEx function [Windows and Messages], RegisterClassExA, RegisterClassExW, _win32_RegisterClassEx, _win32_registerclassex_cpp, winmsg.registerclassex, winui._win32_registerclassex, winuser/RegisterClassEx, winuser/RegisterClassExA, winuser/RegisterClassExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,7 @@ Registers a window class for subsequent use in calls to the <a href="https://msd
 
 
 
-### -param WNDCLASSEXW
-
-TBD
-
-
-
-
-#### - lpwcx [in]
+#### - WNDCLASSEXW [in]
 
 Type: <b>const WNDCLASSEX*</b>
 

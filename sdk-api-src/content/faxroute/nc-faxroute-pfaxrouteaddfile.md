@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxrouteaddfile.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_5k6d.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxRouteAddFile, FaxRouteAddFile callback function [Fax Service], PFAXROUTEADDFILE, PFAXROUTEADDFILE callback, _mfax_faxrouteaddfile, fax._mfax_faxrouteaddfile, faxroute/FaxRouteAddFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,11 +97,11 @@ If the function fails, the return value is 1. To get extended error information,
 
 
 
-The fax service passes a pointer to the <i>FaxRouteAddFile</i> callback function when the fax service calls the <a href="https://msdn.microsoft.com/library/ms692863(v=VS.85).aspx">FaxRouteInitialize</a> function. The service passes the pointer in a <a href="https://msdn.microsoft.com/library/ms692881(v=VS.85).aspx">FAX_ROUTE_CALLBACKROUTINES</a> structure.
+The fax service passes a pointer to the <i>FaxRouteAddFile</i> callback function when the fax service calls the <a href="https://msdn.microsoft.com/en-us/library/ms692863(v=VS.85).aspx">FaxRouteInitialize</a> function. The service passes the pointer in a <a href="https://msdn.microsoft.com/en-us/library/ms692881(v=VS.85).aspx">FAX_ROUTE_CALLBACKROUTINES</a> structure.
 
 The <b>PFAXROUTEADDFILE</b> data type defines a pointer to a <i>FaxRouteAddFile</i> function. 
 
-For more information, see <a href="https://msdn.microsoft.com/library/ms684521(v=VS.85).aspx">Fax File Lists</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms684521(v=VS.85).aspx">Fax File Lists</a>.
 
 
 
@@ -111,27 +111,27 @@ For more information, see <a href="https://msdn.microsoft.com/library/ms684521(v
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692881(v=VS.85).aspx">FAX_ROUTE_CALLBACKROUTINES</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692881(v=VS.85).aspx">FAX_ROUTE_CALLBACKROUTINES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684519(v=VS.85).aspx">Fax Routing Extension Application Programming Interface Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684519(v=VS.85).aspx">Fax Routing Extension Application Programming Interface Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692865(v=VS.85).aspx">Fax Routing Extension Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692865(v=VS.85).aspx">Fax Routing Extension Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692858(v=VS.85).aspx">FaxRouteDeleteFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692858(v=VS.85).aspx">FaxRouteDeleteFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692862(v=VS.85).aspx">FaxRouteGetFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692862(v=VS.85).aspx">FaxRouteGetFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692863(v=VS.85).aspx">FaxRouteInitialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692863(v=VS.85).aspx">FaxRouteInitialize</a>
  
 
  

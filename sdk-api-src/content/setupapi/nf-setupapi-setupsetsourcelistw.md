@@ -7,7 +7,7 @@ old-location: setup\setupsetsourcelist.htm
 old-project: SetupApi
 ms.assetid: 6a37a56c-ae44-4a57-9307-90efcf025d1a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupSetSourceList, SetupSetSourceList function [Setup API], SetupSetSourceListA, SetupSetSourceListW, _setupapi_setupsetsourcelist, setup.setupsetsourcelist, setupapi/SetupSetSourceList, setupapi/SetupSetSourceListA, setupapi/SetupSetSourceListW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,15 +117,14 @@ Pointer to an array of strings to use as the source list, as specified by the <i
 Number of elements in the array pointed to by <i>SourceList</i>.
 
 
-##### - Flags.SRCLIST_NOBROWSE
-
-The user is not allowed to add or change sources when 
-<a href="https://msdn.microsoft.com/65ccd3d1-1846-48cb-9fe6-ab5c69845e01">SetupPromptForDisk</a> is used. This flag is typically used in combination with the SRCLIST_TEMPORARY flag.
-
-
 ##### - Flags.SRCLIST_SYSTEM
 
 The list is the per-system Most Recently Used (MRU) list stored in the registry. The caller must be a member of the administrators local group.
+
+
+##### - Flags.SRCLIST_USER
+
+The list is the per-user MRU list stored in the registry.
 
 
 ##### - Flags.SRCLIST_TEMPORARY
@@ -134,9 +133,10 @@ The specified list is temporary and will be the only list accessible to the curr
 <a href="https://msdn.microsoft.com/87ef9425-5dab-442b-a487-3a4789005411">SetupCancelTemporarySourceList</a> is called or <b>SetSourceList</b> is called again.
 
 
-##### - Flags.SRCLIST_USER
+##### - Flags.SRCLIST_NOBROWSE
 
-The list is the per-user MRU list stored in the registry.
+The user is not allowed to add or change sources when 
+<a href="https://msdn.microsoft.com/65ccd3d1-1846-48cb-9fe6-ab5c69845e01">SetupPromptForDisk</a> is used. This flag is typically used in combination with the SRCLIST_TEMPORARY flag.
 
 
 ## -returns

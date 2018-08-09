@@ -7,7 +7,7 @@ old-location: winprog\fnwrite.htm
 old-project: devnotes
 ms.assetid: e15d4293-2955-48cd-b8c9-77669a1e6436
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FNWRITE, FNWRITE macro [Windows API], fdi/FNWRITE, winprog.fnwrite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,21 +59,7 @@ The <b>FNWRITE</b> macro provides the declaration for the application-defined ca
 
 
 
-### -param fn
-
-TBD
-
-
-
-
-
-
-#### - cb
-
-The maximum number of bytes to be written.
-
-
-#### - hf [in]
+### -param fn [in]
 
 An application-defined value used to identify the open file.
 
@@ -81,6 +67,11 @@ An application-defined value used to identify the open file.
 #### - pv [in]
 
 Pointer to the buffer containing the data to be written.
+
+
+#### - cb
+
+The maximum number of bytes to be written.
 
 
 ## -remarks

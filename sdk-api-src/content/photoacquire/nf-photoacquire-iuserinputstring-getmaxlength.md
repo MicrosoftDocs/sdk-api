@@ -7,7 +7,7 @@ old-location: picacq\iuserinputstring_getmaxlength.htm
 old-project: acquisition
 ms.assetid: 474b32f5-e8b3-49d2-a2de-a78244b9066e
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetMaxLength, GetMaxLength method [Picture Acquisition], GetMaxLength method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetMaxLength method, IUserInputString.GetMaxLength, IUserInputString::GetMaxLength, IUserInputStringGetMaxLength, photoacquire/IUserInputString::GetMaxLength, picacq.iuserinputstring_getmaxlength
 ms.prod: windows
 ms.technology: windows-sdk

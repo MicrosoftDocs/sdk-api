@@ -7,7 +7,7 @@ old-location: rras\mpradminmibentrydelete.htm
 old-project: rras
 ms.assetid: 5a9a1d79-a313-49bc-a678-ba26ccda8e65
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminMIBEntryDelete, MprAdminMIBEntryDelete function [RAS], _mpr_mpradminmibentrydelete, mprapi/MprAdminMIBEntryDelete, rras.mpradminmibentrydelete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,9 +67,9 @@ Handle to the router on which to execute this call. Obtain this handle by callin
 <a href="https://msdn.microsoft.com/8d8cba34-e5d3-42ae-9724-361802f21410">MprAdminMIBServerConnect</a>.
 
 
-### -param dwProtocolId
+### -param dwProtocolId [in]
 
-TBD
+Specifies the router manager that exported the variable.
 
 
 ### -param dwRoutingPid [in]
@@ -86,11 +86,6 @@ Pointer to an opaque data
 ### -param dwEntrySize [in]
 
 Specifies the size, in bytes, of the data pointed to by <i>lpEntry</i> parameter.
-
-
-#### - dwTransportId [in]
-
-Specifies the router manager that exported the variable.
 
 
 ## -returns

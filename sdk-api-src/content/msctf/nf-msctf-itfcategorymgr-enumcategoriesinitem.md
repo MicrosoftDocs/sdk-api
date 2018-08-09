@@ -7,7 +7,7 @@ old-location: tsf\itfcategorymgr_enumcategoriesinitem.htm
 old-project: TSF
 ms.assetid: 271e5fbe-54e2-47e3-97d4-cd4211b92080
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: EnumCategoriesInItem, EnumCategoriesInItem method [Text Services Framework], EnumCategoriesInItem method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],EnumCategoriesInItem method, ITfCategoryMgr.EnumCategoriesInItem, ITfCategoryMgr::EnumCategoriesInItem, _tsf_itfcategorymgr_enumcategoriesinitem_ref, msctf/ITfCategoryMgr::EnumCategoriesInItem, tsf.itfcategorymgr_enumcategoriesinitem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -139,14 +139,12 @@ There is insufficient memory to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/88b123d8-86aa-40ae-8777-1b33cfbb953a">
-        ITfCategoryMgr::EnumItemsInCategory
+<a href="https://msdn.microsoft.com/88b123d8-86aa-40ae-8777-1b33cfbb953a">ITfCategoryMgr::EnumItemsInCategory
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/9e9a72a8-ea9b-4438-992c-5a7db64f7d82">
-        ITfCategoryMgr::RegisterCategory
+<a href="https://msdn.microsoft.com/9e9a72a8-ea9b-4438-992c-5a7db64f7d82">ITfCategoryMgr::RegisterCategory
       </a>
  
 

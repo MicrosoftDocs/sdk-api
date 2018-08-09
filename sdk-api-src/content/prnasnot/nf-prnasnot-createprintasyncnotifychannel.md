@@ -7,7 +7,7 @@ old-location: gdi\createprintasyncnotifychannel.htm
 old-project: printdocs
 ms.assetid: 52cc586a-a565-46c6-b1b7-8613ad111ed3
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: CreatePrintAsyncNotifyChannel, CreatePrintAsyncNotifyChannel function [Windows GDI], _win32_CreatePrintAsyncNotifyChannel, gdi.createprintasyncnotifychannel, prnasnot/CreatePrintAsyncNotifyChannel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,44 +59,17 @@ Creates a communication channel between a Print Spooler-hosted printing componen
 
 
 
-### -param pszName
+### -param pszName [in]
 
-TBD
-
-
-### -param pNotificationType
-
-TBD
+A pointer to the name of a print server or print queue.
 
 
-### -param eUserFilter
+### -param pNotificationType [in]
 
-TBD
-
-
-### -param eConversationStyle
-
-TBD
+A pointer to the GUID of the data schema for the type of notifications to be sent in the channel.
 
 
-### -param pCallback [in]
-
-A pointer to an object that the listening application will use to call back the Print Spooler-hosted component. This should be <b>NULL</b> if <i>directionality</i> is <b>kUniDirectional</b>.
-
-
-### -param ppIAsynchNotification
-
-TBD
-
-
-
-
-#### - directionality [in]
-
-A value specifying whether communication is bidirectional or unidirectional.
-
-
-#### - filter [in]
+### -param eUserFilter [in]
 
 A value specifying whether notifications will be sent to:
 
@@ -105,17 +78,17 @@ A value specifying whether notifications will be sent to:
 <li>A broader set of listening applications.</li>
 </ul>
 
-#### - pName [in]
+### -param eConversationStyle [in]
 
-A pointer to the name of a print server or print queue.
-
-
-#### - pSchema [in]
-
-A pointer to the GUID of the data schema for the type of notifications to be sent in the channel.
+A value specifying whether communication is bidirectional or unidirectional.
 
 
-#### - ppChannel [out]
+### -param pCallback [in]
+
+A pointer to an object that the listening application will use to call back the Print Spooler-hosted component. This should be <b>NULL</b> if <i>directionality</i> is <b>kUniDirectional</b>.
+
+
+### -param ppIAsynchNotification [out]
 
 A pointer to the new channel.
 

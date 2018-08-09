@@ -4,10 +4,10 @@ title: SLGetGenuineInformationEx function
 author: windows-sdk-content
 description: Specifies information about the genuine status of a Windows computer.
 old-location: security\slgetgenuineinformationex.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: 229fd8f2-ec8c-4f34-a492-caf18e036b70
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLGetGenuineInformationEx, SLGetGenuineInformationEx function [Security], security.slgetgenuineinformationex, slpublic/SLGetGenuineInformationEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLGetGenuineInformationEx function

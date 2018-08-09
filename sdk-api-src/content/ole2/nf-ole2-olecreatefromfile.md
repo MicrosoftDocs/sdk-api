@@ -7,7 +7,7 @@ old-location: com\olecreatefromfile.htm
 old-project: com
 ms.assetid: 98c63646-6617-46b6-8c3e-82d1c4d0adb6
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: OleCreateFromFile, OleCreateFromFile function [COM], _ole_OleCreateFromFile, com.olecreatefromfile, ole/OleCreateFromFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Creates an embedded object from the contents of a named file.
 
 
 
-#### - rclsid [in]
+### -param rclsid
 
-This parameter is reserved and must be CLSID_NULL.
+TBD
 
 
 #### - lpszFileName [in]
@@ -99,6 +99,11 @@ Pointer to the <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317
 #### - ppvObj [out]
 
 Address of pointer variable that receives the interface pointer requested in riid. Upon successful return, *<i>ppvObj</i> contains the requested interface pointer on the newly created object.
+
+
+#### - [in]
+
+This parameter is reserved and must be CLSID_NULL.
 
 
 ## -returns

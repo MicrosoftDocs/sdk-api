@@ -4,10 +4,10 @@ title: "_MIB_UDPSTATS"
 author: windows-sdk-content
 description: Contains statistics for the User Datagram Protocol (UDP) running on the local computer.
 old-location: mib\mib_udpstats.htm
-old-project: MIB
+old-project: mib
 ms.assetid: 128bae44-59a2-4e37-a588-a18805b9e340
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: "*PMIB_UDPSTATS, MIB_UDPSTATS, MIB_UDPSTATS structure [MIB], PMIB_UDPSTATS, PMIB_UDPSTATS structure pointer [MIB], _MIB_UDPSTATS, _mpr_mib_udpstats, iprtrmib/MIB_UDPSTATS, iprtrmib/PMIB_UDPSTATS, mib.mib_udpstats, rras.mib_udpstats, udpmib/MIB_UDPSTATS, udpmib/PMIB_UDPSTATS"
 ms.prod: windows
 ms.technology: windows-sdk

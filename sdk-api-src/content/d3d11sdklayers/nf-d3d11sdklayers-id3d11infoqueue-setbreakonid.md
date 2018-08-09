@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11infoqueue_setbreakonid.htm
 old-project: direct3d11
 ms.assetid: 7e245c09-bbe1-4601-826b-fe5e71ea6101
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 61b0771c-e26b-3275-edc2-79e49d2f26f0, ID3D11InfoQueue interface [Direct3D 11],SetBreakOnID method, ID3D11InfoQueue.SetBreakOnID, ID3D11InfoQueue::SetBreakOnID, SetBreakOnID, SetBreakOnID method [Direct3D 11], SetBreakOnID method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::SetBreakOnID, direct3d11.id3d11infoqueue_setbreakonid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ Turns this breaking condition on or off (true for on, false for off).
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

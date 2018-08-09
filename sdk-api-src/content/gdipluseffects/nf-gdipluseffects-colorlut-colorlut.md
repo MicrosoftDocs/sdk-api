@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ColorLUT_ColorLUT_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorlutclass\colorlutconstructors\colorlut.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: ColorLUT, ColorLUT class [GDI+],ColorLUT constructor, ColorLUT constructor [GDI+], ColorLUT constructor [GDI+],ColorLUT class, ColorLUT.ColorLUT, ColorLUT::ColorLUT, _gdiplus_CLASS_ColorLUT_ColorLUT_, gdiplus._gdiplus_CLASS_ColorLUT_ColorLUT_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates a new <a href="https://msdn.microsoft.com/library/ms534430(v=VS.85).aspx">ColorLUT</a> object. 
+Creates a new <a href="https://msdn.microsoft.com/en-us/library/ms534430(v=VS.85).aspx">ColorLUT</a> object. 
 
 
 ## -parameters
@@ -66,15 +66,15 @@ Creates a new <a href="https://msdn.microsoft.com/library/ms534430(v=VS.85).aspx
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534430(v=VS.85).aspx">ColorLUT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534430(v=VS.85).aspx">ColorLUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536237(v=VS.85).aspx">ColorLUT::SetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536237(v=VS.85).aspx">ColorLUT::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534061(v=VS.85).aspx">ColorLUTParams</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534061(v=VS.85).aspx">ColorLUTParams</a>
  
 
  

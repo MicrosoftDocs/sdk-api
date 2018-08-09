@@ -7,7 +7,7 @@ old-location: rras\rasdialfunc2.htm
 old-project: rras
 ms.assetid: a9395048-492b-42fb-b247-52999cee3f44
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: ERROR_AUTH_INTERNAL, ERROR_CANNOT_GET_LANA, ERROR_NETBIOS_ERROR, ERROR_SERVER_NOT_RESPONDING, RasDialFunc2, RasDialFunc2 callback, RasDialFunc2 callback function [RAS], _ras_rasdialfunc2, ras/RasDialFunc2, rras.rasdialfunc2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,6 +97,30 @@ Provides an application-defined value that was specified in the <b>dwCallbackId<
 <a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a>.
 
 
+#### - dwSubEntry [in]
+
+Specifies a subentry index for the phone-book entry associated with this connection. This value indicates the subentry that generated this call to the 
+<b>RasDialFunc2</b> callback function.
+
+
+#### - hrasconn [in]
+
+Handle to the RAS connection, as returned by 
+<a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a>.
+
+
+#### - unMsg [in]
+
+Specifies the type of event that has occurred. Currently, the only event defined is WM_RASDIALEVENT.
+
+
+#### - rascs [in]
+
+Specifies the 
+<a href="https://msdn.microsoft.com/42047265-1b0f-4449-842c-e860b8fb6728">RASCONNSTATE</a> enumerator value that indicates the state the 
+<a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> remote access connection process is about to enter.
+
+
 #### - dwError [in]
 
 Specifies the error that has occurred. If no error has occurred, <i>dwError</i> is zero. 
@@ -169,30 +193,6 @@ Specifies a routing error code, which is a RAS error.
 </tr>
 </table>
  
-
-
-#### - dwSubEntry [in]
-
-Specifies a subentry index for the phone-book entry associated with this connection. This value indicates the subentry that generated this call to the 
-<b>RasDialFunc2</b> callback function.
-
-
-#### - hrasconn [in]
-
-Handle to the RAS connection, as returned by 
-<a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a>.
-
-
-#### - rascs [in]
-
-Specifies the 
-<a href="https://msdn.microsoft.com/42047265-1b0f-4449-842c-e860b8fb6728">RASCONNSTATE</a> enumerator value that indicates the state the 
-<a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> remote access connection process is about to enter.
-
-
-#### - unMsg [in]
-
-Specifies the type of event that has occurred. Currently, the only event defined is WM_RASDIALEVENT.
 
 
 ## -returns

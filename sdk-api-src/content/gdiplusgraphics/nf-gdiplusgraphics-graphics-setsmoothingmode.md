@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_SetSmoothingMode_smoothingMode_.ht
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\setsmoothingmode.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Graphics class [GDI+],SetSmoothingMode method, Graphics.SetSmoothingMode, Graphics::SetSmoothingMode, SetSmoothingMode, SetSmoothingMode method [GDI+], SetSmoothingMode method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetSmoothingMode_smoothingMode_, gdiplus._gdiplus_CLASS_Graphics_SetSmoothingMode_smoothingMode_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ The <b>Graphics::SetSmoothingMode</b> method sets the rendering quality of the <
 
 ### -param smoothingMode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534173(v=VS.85).aspx">SmoothingMode</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534173(v=VS.85).aspx">SmoothingMode</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/library/ms534173(v=VS.85).aspx">SmoothingMode</a> enumeration that specifies whether smoothing (antialiasing) is applied to lines and curves. 
+Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534173(v=VS.85).aspx">SmoothingMode</a> enumeration that specifies whether smoothing (antialiasing) is applied to lines and curves. 
 
 
 ## -returns
@@ -84,7 +84,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-To get the rendering quality for text, use the <a href="https://msdn.microsoft.com/library/ms535728(v=VS.85).aspx">Graphics::GetTextRenderingHint</a> method. The higher the level of quality of the smoothing mode, the slower the performance.
+To get the rendering quality for text, use the <a href="https://msdn.microsoft.com/en-us/library/ms535728(v=VS.85).aspx">Graphics::GetTextRenderingHint</a> method. The higher the level of quality of the smoothing mode, the slower the performance.
 
 
 #### Examples
@@ -122,7 +122,7 @@ The following example sets the smoothing mode to two different values and fills 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536351(v=VS.85).aspx">Antialiasing with Lines and Curves</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536351(v=VS.85).aspx">Antialiasing with Lines and Curves</a>
 
 
 
@@ -130,11 +130,11 @@ The following example sets the smoothing mode to two different values and fills 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535723(v=VS.85).aspx">Graphics::GetSmoothingMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535723(v=VS.85).aspx">Graphics::GetSmoothingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533830(v=VS.85).aspx">Loading and Displaying Bitmaps</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533830(v=VS.85).aspx">Loading and Displaying Bitmaps</a>
  
 
  

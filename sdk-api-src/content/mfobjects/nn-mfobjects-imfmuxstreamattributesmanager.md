@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreamattributesmanager.htm
 old-project: medfound
 ms.assetid: 3C3D4AC2-93A1-48E9-8FB0-75650BFFB4F6
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFMuxStreamAttributesManager, IMFMuxStreamAttributesManager interface [Media Foundation], IMFMuxStreamAttributesManager interface [Media Foundation],described, mf.imfmuxstreamattributesmanager, mfobjects/IMFMuxStreamAttributesManager
 ms.prod: windows
 ms.technology: windows-sdk

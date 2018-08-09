@@ -4,10 +4,10 @@ title: CryptSignMessageWithKey function
 author: windows-sdk-content
 description: Signs a message by using a CSP's private key specified in the parameters.
 old-location: security\cryptsignmessagewithkey.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: d31024bf-7022-440b-8134-a02578510357
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CryptSignMessageWithKey, CryptSignMessageWithKey function [Security], security.cryptsignmessagewithkey, wincrypt/CryptSignMessageWithKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,9 +71,9 @@ a <a href="https://msdn.microsoft.com/d5426ad6-2181-42ce-99f2-cc6cc83e20a8">CRYP
 A pointer to a buffer array that contains the message to be signed.
 
 
-### -param cbToBeSigned
+### -param cbToBeSigned [in]
 
-TBD
+The number of array elements in the <i>pbToBeSigned</i> buffer array.
 
 
 ### -param pbSignedBlob [out]
@@ -96,11 +96,6 @@ A pointer to a <b>DWORD</b> value that indicates the size, in bytes, of the <i>p
 
 <div class="alert"><b>Note</b>  When processing the data returned, applications must use the actual size of the data returned. The actual size can be slightly smaller than the size of the buffer specified on input. (On input, buffer sizes are usually specified large enough to ensure that the largest possible output data will fit in the buffer.) On output, the variable pointed to by this parameter is updated to reflect the actual size of the data copied to the buffer.</div>
 <div> </div>
-
-#### - cToBeSigned [in]
-
-The number of array elements in the <i>pbToBeSigned</i> buffer array.
-
 
 ## -returns
 

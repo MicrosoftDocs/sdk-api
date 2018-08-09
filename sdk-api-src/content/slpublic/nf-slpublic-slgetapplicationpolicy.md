@@ -4,10 +4,10 @@ title: SLGetApplicationPolicy function
 author: windows-sdk-content
 description: Queries a policy from the set stored with the SLPersistApplicationPolicies function and loaded using the SLLoadApplicationPolicies function.
 old-location: security\slgetapplicationpolicy.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: 4d4b30bb-8548-4656-9fd9-553e8f8fb248
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLGetApplicationPolicy, SLGetApplicationPolicy function [Security], security.slgetapplicationpolicy, slpublic/SLGetApplicationPolicy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLGetApplicationPolicy function

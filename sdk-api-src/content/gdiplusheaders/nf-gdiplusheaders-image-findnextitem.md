@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_FindNextItem_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\findnextitem.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: FindNextItem, FindNextItem method [GDI+], FindNextItem method [GDI+],Image class, Image class [GDI+],FindNextItem method, Image.FindNextItem, Image::FindNextItem, _gdiplus_CLASS_Image_FindNextItem_, gdiplus._gdiplus_CLASS_Image_FindNextItem_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>Image::FindNextItem</b> method is used along with the <a href="https://msdn.microsoft.com/library/ms535368(v=VS.85).aspx">Image::FindFirstItem</a> method to enumerate the metadata items stored in this <a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a> object. The <b>Image::FindNextItem</b> method retrieves the description and the data size of the next metadata item in this <b>Image</b> object. 
+The <b>Image::FindNextItem</b> method is used along with the <a href="https://msdn.microsoft.com/en-us/library/ms535368(v=VS.85).aspx">Image::FindFirstItem</a> method to enumerate the metadata items stored in this <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object. The <b>Image::FindNextItem</b> method retrieves the description and the data size of the next metadata item in this <b>Image</b> object. 
 
 
 ## -parameters
@@ -61,9 +61,9 @@ The <b>Image::FindNextItem</b> method is used along with the <a href="https://ms
 
 ### -param item [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534468(v=VS.85).aspx">ImageItemData</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534468(v=VS.85).aspx">ImageItemData</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/library/ms534468(v=VS.85).aspx">ImageItemData</a> object. On input, the Desc member points to a buffer (allocated by the caller) large enough to hold the metadata description (1 byte for JPEG, 4 bytes for PNG, 11 bytes for GIF), and the DescSize member specifies the size (1, 4, or 6) of the buffer pointed to by Desc. On output, the buffer pointed to by Desc receives the metadata description, and the DataSize member receives the size, in bytes, of the metadata itself.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms534468(v=VS.85).aspx">ImageItemData</a> object. On input, the Desc member points to a buffer (allocated by the caller) large enough to hold the metadata description (1 byte for JPEG, 4 bytes for PNG, 11 bytes for GIF), and the DescSize member specifies the size (1, 4, or 6) of the buffer pointed to by Desc. On output, the buffer pointed to by Desc receives the metadata description, and the DataSize member receives the size, in bytes, of the metadata itself.
 
 
 ## -returns
@@ -87,15 +87,14 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535368(v=VS.85).aspx">Image::FindFirstItem</a> and <b>Image::FindNextItem</b> do not enumerate the metadata items stored by the <a href="https://msdn.microsoft.com/library/ms535405(v=VS.85).aspx">Image::SetPropertyItem</a> method.
+<a href="https://msdn.microsoft.com/en-us/library/ms535368(v=VS.85).aspx">Image::FindFirstItem</a> and <b>Image::FindNextItem</b> do not enumerate the metadata items stored by the <a href="https://msdn.microsoft.com/en-us/library/ms535405(v=VS.85).aspx">Image::SetPropertyItem</a> method.
 
 
 #### Examples
 
 
 
-
-			The following example displays the description and data size for each metadata item in an Image object.
+The following example displays the description and data size for each metadata item in an Image object.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -131,11 +130,11 @@ while(Ok == stat)
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535382(v=VS.85).aspx">Image::GetItemData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535382(v=VS.85).aspx">Image::GetItemData</a>
  
 
  

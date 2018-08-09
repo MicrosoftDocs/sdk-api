@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_setmanualgesture.ht
 old-project: directmanipulation
 ms.assetid: EBBBCEDB-8BAC-4E87-A69C-9730865A257F
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetManualGesture method, IDirectManipulationViewport.SetManualGesture, IDirectManipulationViewport::SetManualGesture, SetManualGesture, SetManualGesture method [Direct Manipulation], SetManualGesture method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setmanualgesture, directmanipulation/IDirectManipulationViewport::SetManualGesture
 ms.prod: windows
 ms.technology: windows-sdk

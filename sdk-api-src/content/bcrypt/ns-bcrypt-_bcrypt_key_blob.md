@@ -7,7 +7,7 @@ old-location: security\bcrypt_key_blob.htm
 old-project: seccng
 ms.assetid: ae7e8db3-858d-4573-afe1-c9bc14d76480
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: BCRYPT_KEY_BLOB, BCRYPT_KEY_BLOB structure [Security], _BCRYPT_KEY_BLOB, bcrypt/BCRYPT_KEY_BLOB, security.bcrypt_key_blob
 ms.prod: windows
 ms.technology: windows-sdk

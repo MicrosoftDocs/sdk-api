@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_createtexture3d.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createtexture3d.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: CreateTexture3D, CreateTexture3D method [Direct3D 10], CreateTexture3D method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateTexture3D method, ID3D10Device.CreateTexture3D, ID3D10Device::CreateTexture3D, c60533b9-1f88-143d-2e76-cc9dc35b462d, d3d10/ID3D10Device::CreateTexture3D, direct3d10.id3d10device_createtexture3d
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Create a single 3D texture (see <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">Texture3D</a>).
+Create a single 3D texture (see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">Texture3D</a>).
 
 
 ## -parameters
@@ -61,32 +61,32 @@ Create a single 3D texture (see <a href="https://msdn.microsoft.com/library/Bb20
 
 ### -param pDesc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb172481(v=VS.85).aspx">D3D10_TEXTURE3D_DESC</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172481(v=VS.85).aspx">D3D10_TEXTURE3D_DESC</a>*</b>
 
-Pointer to a 3D texture description (see <a href="https://msdn.microsoft.com/library/Bb172481(v=VS.85).aspx">D3D10_TEXTURE3D_DESC</a>). To create a typeless resource that can be interpreted at runtime into different, compatible formats, specify a typeless format in the texture description. To generate mipmap levels automatically, set the number of mipmap levels to 0.
+Pointer to a 3D texture description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172481(v=VS.85).aspx">D3D10_TEXTURE3D_DESC</a>). To create a typeless resource that can be interpreted at runtime into different, compatible formats, specify a typeless format in the texture description. To generate mipmap levels automatically, set the number of mipmap levels to 0.
 
 
 ### -param pInitialData [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb172456(v=VS.85).aspx">D3D10_SUBRESOURCE_DATA</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172456(v=VS.85).aspx">D3D10_SUBRESOURCE_DATA</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">subresource</a> descriptions (see <a href="https://msdn.microsoft.com/library/Bb172456(v=VS.85).aspx">D3D10_SUBRESOURCE_DATA</a>); one for each subresource (ordered by texture array index, then slice index, then mip level). Applications may not specify <b>NULL</b> for pInitialData when creating IMMUTABLE resources (see <a href="https://msdn.microsoft.com/library/Bb172499(v=VS.85).aspx">D3D10_USAGE</a>). If the resource is multisampled, pInitialData must be <b>NULL</b> because multisampled resources cannot be initialized with data when they are created.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource</a> descriptions (see <a href="https://msdn.microsoft.com/en-us/library/Bb172456(v=VS.85).aspx">D3D10_SUBRESOURCE_DATA</a>); one for each subresource (ordered by texture array index, then slice index, then mip level). Applications may not specify <b>NULL</b> for pInitialData when creating IMMUTABLE resources (see <a href="https://msdn.microsoft.com/en-us/library/Bb172499(v=VS.85).aspx">D3D10_USAGE</a>). If the resource is multisampled, pInitialData must be <b>NULL</b> because multisampled resources cannot be initialized with data when they are created.
 
 
 ### -param ppTexture3D [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173871(v=VS.85).aspx">ID3D10Texture3D</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173871(v=VS.85).aspx">ID3D10Texture3D</a>**</b>
 
-Address of a pointer to the created texture (see <a href="https://msdn.microsoft.com/library/Bb173871(v=VS.85).aspx">ID3D10Texture3D Interface</a>). Set this parameter to <b>NULL</b> to validate the other input parameters (the method will return S_FALSE if the other input parameters pass validation).
+Address of a pointer to the created texture (see <a href="https://msdn.microsoft.com/en-us/library/Bb173871(v=VS.85).aspx">ID3D10Texture3D Interface</a>). Set this parameter to <b>NULL</b> to validate the other input parameters (the method will return S_FALSE if the other input parameters pass validation).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-If the method succeeds, the return code is S_OK. See <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a> for failing error codes.
+If the method succeeds, the return code is S_OK. See <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a> for failing error codes.
 
 
 
@@ -97,7 +97,7 @@ If the method succeeds, the return code is S_OK. See <a href="https://msdn.micro
 
 CreateTexture3D creates a 3D texture resource, which contains an array of 1D textures. The number of textures is specified in the texture description. All textures in a resource must have the same format, size, and number of mipmap levels.
 
-All resources are made up of one or more <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">subresources</a>. To load data into the texture, applications may supply the data initially as part of <a href="https://msdn.microsoft.com/library/Bb172456(v=VS.85).aspx">D3D10_SUBRESOURCE_DATA</a> structure pointed to by pInitialData, or it may use one of the <a href="https://msdn.microsoft.com/library/Bb205166(v=VS.85).aspx">Texturing Functions</a> supplied by the SDK.
+All resources are made up of one or more <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresources</a>. To load data into the texture, applications may supply the data initially as part of <a href="https://msdn.microsoft.com/en-us/library/Bb172456(v=VS.85).aspx">D3D10_SUBRESOURCE_DATA</a> structure pointed to by pInitialData, or it may use one of the <a href="https://msdn.microsoft.com/en-us/library/Bb205166(v=VS.85).aspx">Texturing Functions</a> supplied by the SDK.
 
 
 
@@ -107,7 +107,7 @@ All resources are made up of one or more <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

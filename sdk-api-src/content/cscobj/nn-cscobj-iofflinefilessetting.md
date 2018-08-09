@@ -7,7 +7,7 @@ old-location: of\iofflinefilessetting.htm
 old-project: offlinefiles
 ms.assetid: 6f47c67b-9438-4229-89b2-6b3f9da8fb68
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesSetting, IOfflineFilesSetting interface [Offline Files], IOfflineFilesSetting interface [Offline Files],described, cscobj/IOfflineFilesSetting, of.iofflinefilessetting
 ms.prod: windows
 ms.technology: windows-sdk

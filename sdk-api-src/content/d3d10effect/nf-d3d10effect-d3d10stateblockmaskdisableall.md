@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10stateblockmaskdisableall.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10stateblockmaskdisableall.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D3D10StateBlockMaskDisableAll, D3D10StateBlockMaskDisableAll function [Direct3D 10], c2d0b2ea-1ff1-14e9-f16f-1c7623539483, d3d10effect/D3D10StateBlockMaskDisableAll, direct3d10.d3d10stateblockmaskdisableall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,18 +60,18 @@ Disable all state capturing with a state-block mask.
 
 ### -param pMask [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172453(v=VS.85).aspx">D3D10_STATE_BLOCK_MASK</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172453(v=VS.85).aspx">D3D10_STATE_BLOCK_MASK</a>*</b>
 
-A mask filled with all zeroes (see <a href="https://msdn.microsoft.com/library/Bb172453(v=VS.85).aspx">D3D10_STATE_BLOCK_MASK</a>).
+A mask filled with all zeroes (see <a href="https://msdn.microsoft.com/en-us/library/Bb172453(v=VS.85).aspx">D3D10_STATE_BLOCK_MASK</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -81,11 +81,11 @@ This method returns one of the following <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205151(v=VS.85).aspx">Core Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205151(v=VS.85).aspx">Core Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205177(v=VS.85).aspx">Effect Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205177(v=VS.85).aspx">Effect Functions</a>
  
 
  

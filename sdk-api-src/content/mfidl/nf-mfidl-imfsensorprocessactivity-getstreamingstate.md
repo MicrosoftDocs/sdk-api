@@ -7,7 +7,7 @@ old-location: mf\imfsensorprocessactivity_getstreamingstate.htm
 old-project: medfound
 ms.assetid: C8A99D4B-F3D5-41D2-A956-C147900F28ED
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetStreamingState, GetStreamingState method [Media Foundation], GetStreamingState method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetStreamingState method, IMFSensorProcessActivity.GetStreamingState, IMFSensorProcessActivity::GetStreamingState, mf.imfsensorprocessactivity_getstreamingstate, mfidl/IMFSensorProcessActivity::GetStreamingState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ Receives a value indicating whether the sensor is currently streaming.
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ Receives a value indicating whether the sensor is currently streaming.
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>

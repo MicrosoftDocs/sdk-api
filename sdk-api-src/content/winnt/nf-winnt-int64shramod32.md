@@ -7,7 +7,7 @@ old-location: winprog\int64shramod32.htm
 old-project: winprog
 ms.assetid: 69de2eb7-2cbe-48db-935b-b3d2c41f4e86
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: Int64ShraMod32, Int64ShraMod32 macro [Windows API], _win32_int64shramod32, winnt/Int64ShraMod32, winprog.int64shramod32
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,28 +59,14 @@ Performs a right arithmetic shift operation on a signed 64-bit integer value. Th
 
 
 
-### -param a
-
-TBD
-
-
-### -param b
-
-TBD
-
-
-
-
-
-
-#### - ShiftCount [in]
-
-The shift count in the range 0-31.
-
-
-#### - Value [in]
+### -param a [in]
 
 The signed 64-bit integer to be shifted.
+
+
+### -param b [in]
+
+The shift count in the range 0-31.
 
 
 ## -remarks

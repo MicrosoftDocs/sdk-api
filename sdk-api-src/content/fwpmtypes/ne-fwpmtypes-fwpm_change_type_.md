@@ -7,7 +7,7 @@ old-location: fwp\fwpm_change_type_enum.htm
 old-project: fwp
 ms.assetid: 244dd91d-f5fa-4f78-8082-04fc209a9071
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FWPM_CHANGE_ADD, FWPM_CHANGE_DELETE, FWPM_CHANGE_TYPE, FWPM_CHANGE_TYPE enumeration [Filtering], FWPM_CHANGE_TYPE_, FWPM_CHANGE_TYPE_MAX, fwp.fwpm_change_type_enum, fwpmtypes/FWPM_CHANGE_ADD, fwpmtypes/FWPM_CHANGE_DELETE, fwpmtypes/FWPM_CHANGE_TYPE, fwpmtypes/FWPM_CHANGE_TYPE_MAX
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-
-		The <b>FWPM_CHANGE_TYPE</b> enumerated type is used when dispatching change notifications to subscribers.
+The <b>FWPM_CHANGE_TYPE</b> enumerated type is used when dispatching change notifications to subscribers.
 
 
 ## -enum-fields

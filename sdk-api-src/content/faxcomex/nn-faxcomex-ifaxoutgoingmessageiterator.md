@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessageiterator_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8euq_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxOutgoingMessageIterator, IFaxOutgoingMessageIterator interface [Fax Service], IFaxOutgoingMessageIterator interface [Fax Service],described, _mfax_faxoutgoingmessageiterator_cpp, fax._mfax_faxoutgoingmessageiterator_cpp, faxcomex/IFaxOutgoingMessageIterator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,13 +51,13 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxOutgoingMessageIterator</b> interface describes an object that is used by a fax client application to move through the archive of fax messages that the fax service has successfully transmitted, represented by <a href="https://msdn.microsoft.com/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a> objects. Because the <a href="https://msdn.microsoft.com/library/ms690094(v=VS.85).aspx">FaxOutgoingMessageIterator</a> object is a forward iterator, you can only move forward through the archive, from beginning to end, and you can access only one message at a time.
+The <b>IFaxOutgoingMessageIterator</b> interface describes an object that is used by a fax client application to move through the archive of fax messages that the fax service has successfully transmitted, represented by <a href="https://msdn.microsoft.com/en-us/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a> objects. Because the <a href="https://msdn.microsoft.com/en-us/library/ms690094(v=VS.85).aspx">FaxOutgoingMessageIterator</a> object is a forward iterator, you can only move forward through the archive, from beginning to end, and you can access only one message at a time.
 		
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutgoingMessageIterator</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxOutgoingMessageIterator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutgoingMessageIterator</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxOutgoingMessageIterator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -100,7 +100,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms689156(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms688627(v=VS.85).aspx">AtEOF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688627(v=VS.85).aspx">AtEOF</a>
 
 
 </td>
@@ -116,7 +116,7 @@ The AtEOF property is the end-of-file marker for the archive of outbound fax mes
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms689616(v=VS.85).aspx">Message</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689616(v=VS.85).aspx">Message</a>
 
 
 </td>
@@ -125,7 +125,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms689616(v=VS.85).aspx">IFaxOutgoingMessageIterator::get_Message</a> property retrieves the outbound fax message under the archive cursor.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689616(v=VS.85).aspx">IFaxOutgoingMessageIterator::get_Message</a> property retrieves the outbound fax message under the archive cursor.
 
 </td>
 </tr>
@@ -152,7 +152,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687978(v=VS.85).aspx">IF
 
 
 
-A default implementation of <b>IFaxOutgoingMessageIterator</b> is provided as the <a href="https://msdn.microsoft.com/library/ms690094(v=VS.85).aspx">FaxOutgoingMessageIterator</a> object.
+A default implementation of <b>IFaxOutgoingMessageIterator</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms690094(v=VS.85).aspx">FaxOutgoingMessageIterator</a> object.
 
 
 

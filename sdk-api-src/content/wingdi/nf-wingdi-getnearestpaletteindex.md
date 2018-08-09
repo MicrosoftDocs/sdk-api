@@ -7,7 +7,7 @@ old-location: gdi\getnearestpaletteindex.htm
 old-project: gdi
 ms.assetid: df54532d-dcdb-4927-8f48-c9c92a7e0121
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetNearestPaletteIndex, GetNearestPaletteIndex function [Windows GDI], _win32_GetNearestPaletteIndex, gdi.getnearestpaletteindex, wingdi/GetNearestPaletteIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,26 +61,14 @@ The <b>GetNearestPaletteIndex</b> function retrieves the index for the entry in 
 
 
 
-### -param h
-
-TBD
-
-
-### -param color
-
-TBD
-
-
-
-
-#### - crColor [in]
-
-A color to be matched. To create a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> color value, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
-
-
-#### - hpal [in]
+### -param h [in]
 
 A handle to a logical palette.
+
+
+### -param color [in]
+
+A color to be matched. To create a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> color value, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
 
 
 ## -returns

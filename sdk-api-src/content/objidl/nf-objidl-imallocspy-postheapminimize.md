@@ -7,7 +7,7 @@ old-location: com\imallocspy_postheapminimize.htm
 old-project: com
 ms.assetid: 9d51c34e-6ed1-493d-8999-e67c4a60f6b6
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IMallocSpy interface [COM],PostHeapMinimize method, IMallocSpy.PostHeapMinimize, IMallocSpy::PostHeapMinimize, PostHeapMinimize, PostHeapMinimize method [COM], PostHeapMinimize method [COM],IMallocSpy interface, _com_imallocspy_postheapminimize, com.imallocspy_postheapminimize, objidl/IMallocSpy::PostHeapMinimize
 ms.prod: windows
 ms.technology: windows-sdk

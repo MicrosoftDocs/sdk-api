@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayer_put_fullscreen.htm
 old-project: WMP
 ms.assetid: 50ce0115-9e49-4431-b818-35bdc34da9a0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],put_fullScreen method, IWMPPlayer.put_fullScreen, IWMPPlayer::put_fullScreen, IWMPPlayerput_fullScreen, put_fullScreen, put_fullScreen method [Windows Media Player], put_fullScreen method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_fullscreen, wmp/IWMPPlayer::put_fullScreen
 ms.prod: windows
 ms.technology: windows-sdk

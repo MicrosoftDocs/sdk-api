@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacheadministration_enumpeers.htm
 old-project: bits
 ms.assetid: 8786d7d8-9ffb-4492-9834-90b97f97e4cf
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: EnumPeers, EnumPeers method [BITS], EnumPeers method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],EnumPeers method, IBitsPeerCacheAdministration.EnumPeers, IBitsPeerCacheAdministration::EnumPeers, bits.ibitspeercacheadministration_enumpeers, bits3_0/IBitsPeerCacheAdministration::EnumPeers
 ms.prod: windows
 ms.technology: windows-sdk

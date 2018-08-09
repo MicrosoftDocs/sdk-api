@@ -7,7 +7,7 @@ old-location: dataxchg\ddeunaccessdata.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeunaccessdata.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: DdeUnaccessData, DdeUnaccessData function [Data Exchange], _win32_DdeUnaccessData, _win32_ddeunaccessdata_cpp, dataxchg.ddeunaccessdata, ddeml/DdeUnaccessData, winui._win32_ddeunaccessdata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. 
 
-The <a href="https://msdn.microsoft.com/library/ms648755(v=VS.85).aspx">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
+The <a href="https://msdn.microsoft.com/en-us/library/ms648755(v=VS.85).aspx">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
 
 
 
@@ -89,23 +89,23 @@ The <a href="https://msdn.microsoft.com/library/ms648755(v=VS.85).aspx">DdeGetLa
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648740(v=VS.85).aspx">DdeAccessData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648740(v=VS.85).aspx">DdeAccessData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648741(v=VS.85).aspx">DdeAddData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648741(v=VS.85).aspx">DdeAddData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648747(v=VS.85).aspx">DdeCreateDataHandle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648747(v=VS.85).aspx">DdeCreateDataHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648752(v=VS.85).aspx">DdeFreeDataHandle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648752(v=VS.85).aspx">DdeFreeDataHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
 
 
 

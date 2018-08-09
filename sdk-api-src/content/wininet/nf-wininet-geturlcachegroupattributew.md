@@ -4,10 +4,10 @@ title: GetUrlCacheGroupAttributeW function
 author: windows-sdk-content
 description: Retrieves the attribute information of the specified cache group.
 old-location: wininet\geturlcachegroupattribute.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: 5e4e5666-1999-4bea-9b3e-f435f5dcfff8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetUrlCacheGroupAttribute, GetUrlCacheGroupAttribute function [WinINet], GetUrlCacheGroupAttributeA, GetUrlCacheGroupAttributeW, _inet_geturlcachegroupattribute_function, wininet.geturlcachegroupattribute, wininet/GetUrlCacheGroupAttribute, wininet/GetUrlCacheGroupAttributeA, wininet/GetUrlCacheGroupAttributeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -167,20 +167,15 @@ Pointer to an
 <a href="https://msdn.microsoft.com/d1c30fee-b8a3-472d-91a5-9d081f66b007">INTERNET_CACHE_GROUP_INFO</a> structure that receives the requested information.
 
 
-### -param lpcbGroupInfo
+### -param lpcbGroupInfo [in, out]
 
-TBD
+Pointer to a variable that contains the size of the 
+<i>lpGroupInfo</i> buffer. When the function returns, the variable contains the number of bytes copied to the buffer, or the required size of the buffer, in bytes.
 
 
 ### -param lpReserved [in, out]
 
 This parameter is reserved and must be <b>NULL</b>.
-
-
-#### - lpdwGroupInfo [in, out]
-
-Pointer to a variable that contains the size of the 
-<i>lpGroupInfo</i> buffer. When the function returns, the variable contains the number of bytes copied to the buffer, or the required size of the buffer, in bytes.
 
 
 ## -returns

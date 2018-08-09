@@ -7,7 +7,7 @@ old-location: controls\IRichEditOle_SetLinkAvailable.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolesetlinkavailable.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IRichEditOle interface [Windows Controls],SetLinkAvailable method, IRichEditOle.SetLinkAvailable, IRichEditOle::SetLinkAvailable, SetLinkAvailable, SetLinkAvailable method [Windows Controls], SetLinkAvailable method [Windows Controls],IRichEditOle interface, _win32_IRichEditOle_SetLinkAvailable, _win32_IRichEditOle_SetLinkAvailable_cpp, controls.IRichEditOle_SetLinkAvailable, controls._win32_IRichEditOle_SetLinkAvailable, richole/IRichEditOle::SetLinkAvailable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ Returns S_OK on success, or a failure code otherwise. E_INVALIDARG is returned i
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774306(v=VS.85).aspx">IRichEditOle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774306(v=VS.85).aspx">IRichEditOle</a>
  
 
  

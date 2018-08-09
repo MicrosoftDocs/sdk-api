@@ -7,7 +7,7 @@ old-location: adsi\ads_rights_enum.htm
 old-project: ADSI
 ms.assetid: ade64dd8-e08c-4f68-b3bf-ccc252272a99
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: ADS_RIGHTS_ENUM, ADS_RIGHTS_ENUM enumeration [ADSI], ADS_RIGHT_ACCESS_SYSTEM_SECURITY, ADS_RIGHT_ACTRL_DS_LIST, ADS_RIGHT_DELETE, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_DELETE_CHILD, ADS_RIGHT_DS_DELETE_TREE, ADS_RIGHT_DS_LIST_OBJECT, ADS_RIGHT_DS_READ_PROP, ADS_RIGHT_DS_SELF, ADS_RIGHT_DS_WRITE_PROP, ADS_RIGHT_GENERIC_ALL, ADS_RIGHT_GENERIC_EXECUTE, ADS_RIGHT_GENERIC_READ, ADS_RIGHT_GENERIC_WRITE, ADS_RIGHT_READ_CONTROL, ADS_RIGHT_SYNCHRONIZE, ADS_RIGHT_WRITE_DAC, ADS_RIGHT_WRITE_OWNER, __MIDL___MIDL_itf_ads_0001_0048_0001, _ds_ads_rights_enum, adsi.ads__rights__enum, adsi.ads_rights_enum, iads/ADS_RIGHTS_ENUM, iads/ADS_RIGHT_ACCESS_SYSTEM_SECURITY, iads/ADS_RIGHT_ACTRL_DS_LIST, iads/ADS_RIGHT_DELETE, iads/ADS_RIGHT_DS_CONTROL_ACCESS, iads/ADS_RIGHT_DS_CREATE_CHILD, iads/ADS_RIGHT_DS_DELETE_CHILD, iads/ADS_RIGHT_DS_DELETE_TREE, iads/ADS_RIGHT_DS_LIST_OBJECT, iads/ADS_RIGHT_DS_READ_PROP, iads/ADS_RIGHT_DS_SELF, iads/ADS_RIGHT_DS_WRITE_PROP, iads/ADS_RIGHT_GENERIC_ALL, iads/ADS_RIGHT_GENERIC_EXECUTE, iads/ADS_RIGHT_GENERIC_READ, iads/ADS_RIGHT_GENERIC_WRITE, iads/ADS_RIGHT_READ_CONTROL, iads/ADS_RIGHT_SYNCHRONIZE, iads/ADS_RIGHT_WRITE_DAC, iads/ADS_RIGHT_WRITE_OWNER
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ The <b>ADS_RIGHTS_ENUM</b> enumeration specifies
     property contains a combination of these values for an Active Directory object.
 
 For more information and a list of possible access right values for file or file share objects, see 
-    <a href="https://msdn.microsoft.com/library/Aa364399(v=VS.85).aspx">File Security and Access Rights</a>.
+    <a href="https://msdn.microsoft.com/en-us/library/Aa364399(v=VS.85).aspx">File Security and Access Rights</a>.
 
 For more information and a list of possible access right values for registry objects, see 
     <a href="https://msdn.microsoft.com/266d5c8e-1bcd-48e5-bc06-2fbc956d8658">Registry Key Security and Access Rights</a>.

@@ -7,7 +7,7 @@ old-location: security\bcrypt_oaep_padding_info.htm
 old-project: seccng
 ms.assetid: 19f48f2d-e952-4a01-8112-f298c79919b2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: BCRYPT_OAEP_PADDING_INFO, BCRYPT_OAEP_PADDING_INFO structure [Security], _BCRYPT_OAEP_PADDING_INFO, bcrypt/BCRYPT_OAEP_PADDING_INFO, security.bcrypt_oaep_padding_info
 ms.prod: windows
 ms.technology: windows-sdk

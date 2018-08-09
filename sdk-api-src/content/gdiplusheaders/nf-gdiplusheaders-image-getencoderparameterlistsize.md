@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetEncoderParameterListSize_clsidEnco
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getencoderparameterlistsize.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetEncoderParameterListSize, GetEncoderParameterListSize method [GDI+], GetEncoderParameterListSize method [GDI+],Image class, Image class [GDI+],GetEncoderParameterListSize method, Image.GetEncoderParameterListSize, Image::GetEncoderParameterListSize, _gdiplus_CLASS_Image_GetEncoderParameterListSize_clsidEncoder_, gdiplus._gdiplus_CLASS_Image_GetEncoderParameterListSize_clsidEncoder_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,9 +83,9 @@ This method returns the size, in bytes, of the parameter list.
 
 
 
-The <a href="https://msdn.microsoft.com/library/ms535374(v=VS.85).aspx">Image::GetEncoderParameterList</a> method returns an array of 
-				<a href="https://msdn.microsoft.com/library/ms534434(v=VS.85).aspx">EncoderParameter</a> objects. Before you call <b>Image::GetEncoderParameterList</b>, you must allocate a buffer large enough to receive that array, which is part of an 
-				<a href="https://msdn.microsoft.com/library/ms534435(v=VS.85).aspx">EncoderParameters</a> object. You can call the <b>Image::GetEncoderParameterListSize</b> method to get the size, in bytes, of the required 
+The <a href="https://msdn.microsoft.com/en-us/library/ms535374(v=VS.85).aspx">Image::GetEncoderParameterList</a> method returns an array of 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx">EncoderParameter</a> objects. Before you call <b>Image::GetEncoderParameterList</b>, you must allocate a buffer large enough to receive that array, which is part of an 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534435(v=VS.85).aspx">EncoderParameters</a> object. You can call the <b>Image::GetEncoderParameterListSize</b> method to get the size, in bytes, of the required 
 				<b>EncoderParameters</b> object. 
 
 
@@ -96,23 +96,23 @@ The <a href="https://msdn.microsoft.com/library/ms535374(v=VS.85).aspx">Image::G
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534080(v=VS.85).aspx">GetImageEncoders</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534080(v=VS.85).aspx">GetImageEncoders</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534081(v=VS.85).aspx">GetImageEncodersSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534081(v=VS.85).aspx">GetImageEncodersSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535374(v=VS.85).aspx">Image::GetEncoderParameterList</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535374(v=VS.85).aspx">Image::GetEncoderParameterList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533814(v=VS.85).aspx">Using Image Encoders and Decoders</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533814(v=VS.85).aspx">Using Image Encoders and Decoders</a>
  
 
  

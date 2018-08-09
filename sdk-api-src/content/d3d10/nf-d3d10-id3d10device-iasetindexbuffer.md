@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_iasetindexbuffer.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iasetindexbuffer.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 608d16ec-f6d6-ea93-bc37-fe7d34d07215, IASetIndexBuffer, IASetIndexBuffer method [Direct3D 10], IASetIndexBuffer method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],IASetIndexBuffer method, ID3D10Device.IASetIndexBuffer, ID3D10Device::IASetIndexBuffer, d3d10/ID3D10Device::IASetIndexBuffer, direct3d10.id3d10device_iasetindexbuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Bind an <a href="https://msdn.microsoft.com/library/windows/hardware/jj124414">index buffer</a> to the <a href="https://msdn.microsoft.com/library/Bb205116(v=VS.85).aspx">input-assembler</a> stage.
+Bind an <a href="https://msdn.microsoft.com/library/windows/hardware/jj124414">index buffer</a> to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler</a> stage.
 
 
 ## -parameters
@@ -61,16 +61,16 @@ Bind an <a href="https://msdn.microsoft.com/library/windows/hardware/jj124414">i
 
 ### -param pIndexBuffer [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173510(v=VS.85).aspx">ID3D10Buffer</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173510(v=VS.85).aspx">ID3D10Buffer</a>*</b>
 
-A pointer to a buffer (see <a href="https://msdn.microsoft.com/library/Bb173510(v=VS.85).aspx">ID3D10Buffer</a>) that contains indices. The index buffer must have been created with the <a href="https://msdn.microsoft.com/library/Bb204891(v=VS.85).aspx">D3D10_BIND_INDEX_BUFFER</a> flag.
+A pointer to a buffer (see <a href="https://msdn.microsoft.com/en-us/library/Bb173510(v=VS.85).aspx">ID3D10Buffer</a>) that contains indices. The index buffer must have been created with the <a href="https://msdn.microsoft.com/en-us/library/Bb204891(v=VS.85).aspx">D3D10_BIND_INDEX_BUFFER</a> flag.
 
 
 ### -param Format [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
 
-Specifies format of the data in the index buffer. The only formats allowed for index buffer data are 16-bit (<a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_R16_UINT</a>) and 32-bit (<b>DXGI_FORMAT_R32_UINT</b>) integers.
+Specifies format of the data in the index buffer. The only formats allowed for index buffer data are 16-bit (<a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_R16_UINT</a>) and 32-bit (<b>DXGI_FORMAT_R32_UINT</b>) integers.
 
 
 ### -param Offset [in]
@@ -93,11 +93,11 @@ Returns nothing.
 
 
 
-For information about creating index buffers, see <a href="https://msdn.microsoft.com/library/Bb205130(v=VS.85).aspx">Create an Index Buffer</a>.
+For information about creating index buffers, see <a href="https://msdn.microsoft.com/en-us/library/Bb205130(v=VS.85).aspx">Create an Index Buffer</a>.
 
-Calling this method using a buffer that is currently bound for writing (i.e. bound to the <a href="https://msdn.microsoft.com/library/Bb205121(v=VS.85).aspx">stream output</a> pipeline stage) will effectively bind <b>NULL</b> instead because a buffer cannot be bound as both an input and an output at the same time.
+Calling this method using a buffer that is currently bound for writing (i.e. bound to the <a href="https://msdn.microsoft.com/en-us/library/Bb205121(v=VS.85).aspx">stream output</a> pipeline stage) will effectively bind <b>NULL</b> instead because a buffer cannot be bound as both an input and an output at the same time.
 
-The <a href="https://msdn.microsoft.com/library/Bb205068(v=VS.85).aspx">Debug Layer</a> will generate a warning whenever a resource is prevented from being bound simultaneously as an input and an output, but this will not prevent invalid data from being used by the runtime.
+The <a href="https://msdn.microsoft.com/en-us/library/Bb205068(v=VS.85).aspx">Debug Layer</a> will generate a warning whenever a resource is prevented from being bound simultaneously as an input and an output, but this will not prevent invalid data from being used by the runtime.
 
 The method will not hold a reference to the interfaces passed in. For that reason, applications should be careful not to release an interface currently in use by the device.
 
@@ -109,7 +109,7 @@ The method will not hold a reference to the interfaces passed in. For that reaso
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

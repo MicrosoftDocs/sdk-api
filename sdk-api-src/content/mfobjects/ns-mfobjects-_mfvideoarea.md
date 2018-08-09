@@ -7,7 +7,7 @@ old-location: mf\mfvideoarea.htm
 old-project: medfound
 ms.assetid: d22b8b9c-399b-4fce-a173-833005b5bf03
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFVideoArea, MFVideoArea structure [Media Foundation], _MFVideoArea, d22b8b9c-399b-4fce-a173-833005b5bf03, mf.mfvideoarea, mfobjects/MFVideoArea
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Specifies a rectangular area within a video frame.
+Specifies a rectangular area within a video frame.
         
 
 
@@ -63,22 +62,19 @@ req.product: GDI+ 1.1
 
 ### -field OffsetX
 
-
-              An <a href="https://msdn.microsoft.com/e93539fe-3e4a-4b34-8d6a-b3f300a70ffc">MFOffset</a> structure that contains the x-coordinate of the upper-left corner of the rectangle. This coordinate might have a fractional value.
+An <a href="https://msdn.microsoft.com/e93539fe-3e4a-4b34-8d6a-b3f300a70ffc">MFOffset</a> structure that contains the x-coordinate of the upper-left corner of the rectangle. This coordinate might have a fractional value.
           
 
 
 ### -field OffsetY
 
-
-              An <a href="https://msdn.microsoft.com/e93539fe-3e4a-4b34-8d6a-b3f300a70ffc">MFOffset</a> structure that contains the y-coordinate of the upper-left corner of the rectangle. This coordinate might have a fractional value.
+An <a href="https://msdn.microsoft.com/e93539fe-3e4a-4b34-8d6a-b3f300a70ffc">MFOffset</a> structure that contains the y-coordinate of the upper-left corner of the rectangle. This coordinate might have a fractional value.
           
 
 
 ### -field Area
 
-
-              A <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that contains the width and height of the rectangle.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that contains the width and height of the rectangle.
           
 
 

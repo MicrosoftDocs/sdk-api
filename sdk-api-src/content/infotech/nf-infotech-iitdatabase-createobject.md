@@ -143,7 +143,7 @@ The memory required for internal structures could not be allocated.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms670034(v=VS.85).aspx">IITDatabase</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670034(v=VS.85).aspx">IITDatabase</a>
  
 
  

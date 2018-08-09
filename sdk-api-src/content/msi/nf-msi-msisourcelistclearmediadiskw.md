@@ -4,10 +4,10 @@ title: MsiSourceListClearMediaDiskW function
 author: windows-sdk-content
 description: The MsiSourceListClearMediaDisk function provides the ability to remove an existing registered disk under the media source for a product or patch in a specific context.
 old-location: setup\msisourcelistclearmediadisks.htm
-old-project: Msi
+old-project: msi
 ms.assetid: e2e7cc95-e41b-4270-8650-30a1c12a0057
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListClearMediaDisk, MsiSourceListClearMediaDisk function, MsiSourceListClearMediaDiskA, MsiSourceListClearMediaDiskW, NULL, User SID, msi/MsiSourceListClearMediaDisk, msi/MsiSourceListClearMediaDiskA, msi/MsiSourceListClearMediaDiskW, setup.msisourcelistclearmediadisks
 ms.prod: windows
 ms.technology: windows-sdk
@@ -186,14 +186,7 @@ The <i>dwOptions</i> value specifies the meaning of <i>szProductCodeOrPatchCode<
  
 
 
-### -param dwDiskId
-
-TBD
-
-
-
-
-#### - dwDiskID [in]
+### -param dwDiskId [in]
 
 This parameter provides the ID of the disk being removed.  
 
@@ -202,8 +195,7 @@ This parameter provides the ID of the disk being removed.
 
 
 
-
-					The <b>MsiSourceListClearMediaDisk</b> function returns the following values.
+The <b>MsiSourceListClearMediaDisk</b> function returns the following values.
 
 <table>
 <tr>

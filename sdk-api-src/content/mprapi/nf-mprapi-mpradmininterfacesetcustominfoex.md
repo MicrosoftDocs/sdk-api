@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfacesetcustominfoex.htm
 old-project: rras
 ms.assetid: 306d9d6c-6196-4a1f-8549-f8dd0fb5ab6f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminInterfaceSetCustomInfoEx, MprAdminInterfaceSetCustomInfoEx function [RAS], mprapi/MprAdminInterfaceSetCustomInfoEx, rras.mpradmininterfacesetcustominfoex
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PerfCloseQueryHandle function
 author: windows-sdk-content
 description: Closes a query handle that you opened by calling PerfOpenQueryHandle.
 old-location: perf\perfclosequeryhandle.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 94D08CF1-D47C-4A1B-A0CE-8C318CDF9FE0
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PerfCloseQueryHandle, PerfCloseQueryHandle function [Perf], perf.perfclosequeryhandle, perflib/PerfCloseQueryHandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,8 +68,7 @@ A handle to the query that you want to close
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

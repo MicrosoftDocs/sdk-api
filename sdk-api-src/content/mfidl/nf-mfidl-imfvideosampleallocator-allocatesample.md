@@ -7,7 +7,7 @@ old-location: mf\imfvideosampleallocator_allocatesample.htm
 old-project: medfound
 ms.assetid: e5347cef-edbd-4f6a-88c9-042e53515a32
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: AllocateSample, AllocateSample method [Media Foundation], AllocateSample method [Media Foundation],IMFVideoSampleAllocator interface, IMFVideoSampleAllocator interface [Media Foundation],AllocateSample method, IMFVideoSampleAllocator.AllocateSample, IMFVideoSampleAllocator::AllocateSample, e5347cef-edbd-4f6a-88c9-042e53515a32, mf.imfvideosampleallocator_allocatesample, mfidl/IMFVideoSampleAllocator::AllocateSample
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -109,8 +108,7 @@ The allocator was not initialized. Call <a href="https://msdn.microsoft.com/b1e4
 </dl>
 </td>
 <td width="60%">
-
-                No samples are available.
+No samples are available.
               
 
 </td>

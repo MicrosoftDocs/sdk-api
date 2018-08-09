@@ -7,7 +7,7 @@ old-location: mmc\iresultdata_sort.htm
 old-project: MMC
 ms.assetid: 457eccaf-3727-4b29-a38b-9f009749673e
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: IResultData interface [MMC],Sort method, IResultData.Sort, IResultData2 interface [MMC],Sort method, IResultData2::Sort, IResultData::Sort, RSI_DESCENDING = 0x0001, RSI_NOSORTICON = 0x0002, Sort, Sort method [MMC], Sort method [MMC],IResultData interface, Sort method [MMC],IResultData2 interface, _slate_iresultdata_sort, mmc.iresultdata_sort, mmc/IResultData2::Sort, mmc/IResultData::Sort
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfmetadataprovider_getmfmetadata.htm
 old-project: medfound
 ms.assetid: 0a3c1932-c301-4ecd-b640-02d7bcfc2aca
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 0a3c1932-c301-4ecd-b640-02d7bcfc2aca, GetMFMetadata, GetMFMetadata method [Media Foundation], GetMFMetadata method [Media Foundation],IMFMetadataProvider interface, IMFMetadataProvider interface [Media Foundation],GetMFMetadata method, IMFMetadataProvider.GetMFMetadata, IMFMetadataProvider::GetMFMetadata, mf.imfmetadataprovider_getmfmetadata, mfidl/IMFMetadataProvider::GetMFMetadata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets a collection of metadata, either for an entire presentation, or for one stream in the presentation.
+Gets a collection of metadata, either for an entire presentation, or for one stream in the presentation.
 
 
 ## -parameters
@@ -63,22 +62,19 @@ req.product: GDI+ 1.1
 
 ### -param pPresentationDescriptor [in]
 
-
-            Pointer to the <a href="https://msdn.microsoft.com/db03e212-7021-433e-84dc-410b2cf7af87">IMFPresentationDescriptor</a> interface of the media source's presentation descriptor.
+Pointer to the <a href="https://msdn.microsoft.com/db03e212-7021-433e-84dc-410b2cf7af87">IMFPresentationDescriptor</a> interface of the media source's presentation descriptor.
           
 
 
 ### -param dwStreamIdentifier [in]
 
-
-            If this parameter is zero, the method retrieves metadata that applies to the entire presentation. Otherwise, this <i></i> parameter specifies a stream identifier, and the method retrieves metadata for that stream. To get the stream identifier for a stream, call <a href="https://msdn.microsoft.com/d282ee48-6145-4557-8fa7-786b893327fa">IMFStreamDescriptor::GetStreamIdentifier</a>.
+If this parameter is zero, the method retrieves metadata that applies to the entire presentation. Otherwise, this <i></i> parameter specifies a stream identifier, and the method retrieves metadata for that stream. To get the stream identifier for a stream, call <a href="https://msdn.microsoft.com/d282ee48-6145-4557-8fa7-786b893327fa">IMFStreamDescriptor::GetStreamIdentifier</a>.
           
 
 
 ### -param dwFlags [in]
 
-
-            Reserved. Must be zero.
+Reserved. Must be zero.
           
 
 

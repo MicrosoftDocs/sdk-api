@@ -7,7 +7,7 @@ old-location: multimedia\avistreamprevsample.htm
 old-project: Multimedia
 ms.assetid: 86bc141f-6e58-49ac-b3f1-1e29e028be31
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AVIStreamPrevSample, AVIStreamPrevSample macro [Windows Multimedia], _win32_AVIStreamPrevSample, multimedia.avistreamprevsample, vfw/AVIStreamPrevSample
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,15 +68,6 @@ Handle to an open stream.
 
 
 ### -param l
-
-TBD
-
-
-
-
-
-
-#### - lPos
 
 Starting position to search in the stream. 
 

@@ -7,7 +7,7 @@ old-location: dshow\am_mpeg2level.htm
 old-project: DirectShow
 ms.assetid: 78446b44-7b83-4266-a591-5f70a0542c20
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: AM_MPEG2Level, AM_MPEG2Level enumeration [DirectShow], AM_MPEG2Level_High, AM_MPEG2Level_High1440, AM_MPEG2Level_Low, AM_MPEG2Level_Main, MPEG2LevelEnumeration, dshow.am_mpeg2level, dvdmedia/AM_MPEG2Level, dvdmedia/AM_MPEG2Level_High, dvdmedia/AM_MPEG2Level_High1440, dvdmedia/AM_MPEG2Level_Low, dvdmedia/AM_MPEG2Level_Main
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,29 +64,25 @@ Indicates an MPEG-2 video level as specified in the MPEG-2 video standard (ISO13
 
 ### -field AM_MPEG2Level_Low
 
-
-            Low level.
+Low level.
           
 
 
 ### -field AM_MPEG2Level_Main
 
-
-            Main level.
+Main level.
           
 
 
 ### -field AM_MPEG2Level_High1440
 
-
-            High 1440 level.
+High 1440 level.
           
 
 
 ### -field AM_MPEG2Level_High
 
-
-            High level.
+High level.
           
 
 

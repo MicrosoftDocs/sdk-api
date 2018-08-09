@@ -7,7 +7,7 @@ old-location: security\ix509scepenrollment_deleterequest.htm
 old-project: seccertenroll
 ms.assetid: d709dd46-b6ed-4471-a601-e140a139f57e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: DeleteRequest, DeleteRequest method [Security], DeleteRequest method [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],DeleteRequest method, IX509SCEPEnrollment.DeleteRequest, IX509SCEPEnrollment::DeleteRequest, certenroll/IX509SCEPEnrollment::DeleteRequest, security.ix509scepenrollment_deleterequest
 ms.prod: windows
 ms.technology: windows-sdk

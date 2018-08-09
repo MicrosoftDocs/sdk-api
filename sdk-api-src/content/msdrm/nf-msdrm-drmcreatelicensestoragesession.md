@@ -7,7 +7,7 @@ old-location: rm\drmcreatelicensestoragesession.htm
 old-project: adrms_sdk
 ms.assetid: 6561b6df-373b-4bd3-9196-09ef945f8042
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMCreateLicenseStorageSession, DRMCreateLicenseStorageSession function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateLicenseStorageSession, rm.drmcreatelicensestoragesession
 ms.prod: windows
 ms.technology: windows-sdk

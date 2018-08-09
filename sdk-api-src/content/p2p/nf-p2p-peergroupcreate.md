@@ -7,7 +7,7 @@ old-location: p2p\peergroupcreate.htm
 old-project: p2psdk
 ms.assetid: b85d87c6-28b7-49f8-865c-9d246f89367e
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGroupCreate, PeerGroupCreate function [Peer Networking], p2p.peergroupcreate, p2p/PeerGroupCreate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGroupCreate</b> function creates a new peer group.
+The <b>PeerGroupCreate</b> function creates a new peer group.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: mstv\ipbdaentitlementdescriptor_gettoken.htm
 old-project: mstv
 ms.assetid: 3fc73b0c-cacb-491b-b25b-49eb57154a37
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetToken, GetToken method [Microsoft TV Technologies], GetToken method [Microsoft TV Technologies],IPBDAEntitlementDescriptor interface, IPBDAEntitlementDescriptor interface [Microsoft TV Technologies],GetToken method, IPBDAEntitlementDescriptor.GetToken, IPBDAEntitlementDescriptor::GetToken, dvbsiparser/IPBDAEntitlementDescriptor::GetToken, mstv.ipbdaentitlementdescriptor_gettoken
 ms.prod: windows
 ms.technology: windows-sdk

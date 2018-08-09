@@ -7,7 +7,7 @@ old-location: winmsg\realgetwindowclass.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\realgetwindowclass.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: RealGetWindowClass, RealGetWindowClass function [Windows and Messages], RealGetWindowClassW, _win32_RealGetWindowClass, _win32_realgetwindowclass_cpp, winmsg.realgetwindowclass, winui._win32_realgetwindowclass, winuser/RealGetWindowClass, winuser/RealGetWindowClassW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,30 +71,18 @@ Type: <b>HWND</b>
 A handle to the window whose type will be retrieved. 
 
 
-### -param ptszClassName
-
-TBD
-
-
-### -param cchClassNameMax
-
-TBD
-
-
-
-
-#### - cchType [in]
-
-Type: <b>UINT</b>
-
-The length, in characters, of the buffer pointed to by the <i>pszType</i> parameter. 
-
-
-#### - pszType [out]
+### -param ptszClassName [out]
 
 Type: <b>LPTSTR</b>
 
 A pointer to a string that receives the window type. 
+
+
+### -param cchClassNameMax [in]
+
+Type: <b>UINT</b>
+
+The length, in characters, of the buffer pointed to by the <i>pszType</i> parameter. 
 
 
 ## -returns

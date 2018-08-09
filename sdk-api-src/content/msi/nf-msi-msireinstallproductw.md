@@ -4,10 +4,10 @@ title: MsiReinstallProductW function
 author: windows-sdk-content
 description: Reinstalls products.
 old-location: setup\msireinstallproduct.htm
-old-project: Msi
+old-project: msi
 ms.assetid: ad69868e-d653-417d-b902-d0d62e05c985
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: MsiReinstallProduct, MsiReinstallProduct function, MsiReinstallProductA, MsiReinstallProductW, REINSTALLMODE_FILEEQUALVERSION, REINSTALLMODE_FILEEXACT, REINSTALLMODE_FILEMISSING, REINSTALLMODE_FILEOLDERVERSION, REINSTALLMODE_FILEREPLACE, REINSTALLMODE_FILEVERIFY, REINSTALLMODE_MACHINEDATA, REINSTALLMODE_PACKAGE, REINSTALLMODE_SHORTCUT, REINSTALLMODE_USERDATA, _msi_msireinstallproduct, msi/MsiReinstallProduct, msi/MsiReinstallProductA, msi/MsiReinstallProductW, setup.msireinstallproduct
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-			The 
+The 
 <b>MsiReinstallProduct</b> function reinstalls products.
 
 
@@ -68,14 +67,7 @@ req.product: Rights Management Services client 1.0 or later
 Specifies the product code for the product to be reinstalled.
 
 
-### -param szReinstallMode
-
-TBD
-
-
-
-
-#### - dwReinstallMode [in]
+### -param szReinstallMode [in]
 
 Specifies the reinstall mode. This parameter can be one or more of the following values.
 
@@ -163,9 +155,7 @@ Rewrite all required registry entries from the
 </td>
 <td width="60%">
 Rewrite all required registry entries from the 
-<a href="https://msdn.microsoft.com/809ffd02-cf97-42d8-aed9-c13a14dcd8b4">Registry Table</a> that go to the <b>HKEY_LOCAL_MACHINE</b>
-
-							 or <b>HKEY_CLASSES_ROOT</b></p> registry hive. Rewrite all information from the 
+<a href="https://msdn.microsoft.com/809ffd02-cf97-42d8-aed9-c13a14dcd8b4">Registry Table</a> that go to the <b>HKEY_LOCAL_MACHINE</b></p>or <b>HKEY_CLASSES_ROOT</b></p> registry hive. Rewrite all information from the 
 <a href="https://msdn.microsoft.com/0fa00a3f-2a5d-411d-9fc6-9486a600f018">Class Table</a>, 
 <a href="https://msdn.microsoft.com/3749095c-f0c0-498c-969f-a6c445cfdd62">Verb Table</a>, 
 <a href="https://msdn.microsoft.com/4a6be647-3e73-47a1-acfa-7d6d0a2fb2f4">PublishComponent Table</a>, 
@@ -293,9 +283,7 @@ The product code does not identify a known product.
 </table>
  
 
-
-						
-						For more information, see 
+For more information, see 
 <a href="https://msdn.microsoft.com/0153a21f-9b26-4088-b12b-96c9e6918cc3">Displayed Error Messages</a>.
 					
 

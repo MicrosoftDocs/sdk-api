@@ -7,7 +7,7 @@ old-location: display\drvplgblt.htm
 old-project: display
 ms.assetid: 5bd478f1-0c01-4d7f-9ed1-af84e5bbe773
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: DrvPlgBlt, DrvPlgBlt function [Display Devices], ddifncs_7ede9dd6-c295-42b1-96f0-966ce103cc2e.xml, display.drvplgblt, winddi/DrvPlgBlt
 ms.prod: windows
 ms.technology: windows-sdk

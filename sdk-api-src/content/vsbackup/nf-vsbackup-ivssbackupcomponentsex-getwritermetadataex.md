@@ -4,10 +4,10 @@ title: IVssBackupComponentsEx::GetWriterMetadataEx
 author: windows-sdk-content
 description: The GetWriterMetadataEx method returns the metadata for a specific writer instance running on the system.
 old-location: base\ivssbackupcomponentsex_getwritermetadataex.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 19a31627-54e0-4b0d-87cf-ac18b3049310
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetWriterMetadataEx, GetWriterMetadataEx method [VSS], GetWriterMetadataEx method [VSS],IVssBackupComponentsEx interface, IVssBackupComponentsEx interface [VSS],GetWriterMetadataEx method, IVssBackupComponentsEx.GetWriterMetadataEx, IVssBackupComponentsEx::GetWriterMetadataEx, base.ivssbackupcomponentsex_getwritermetadataex, vsbackup/IVssBackupComponentsEx::GetWriterMetadataEx
 ms.prod: windows
 ms.technology: windows-sdk

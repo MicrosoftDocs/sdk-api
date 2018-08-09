@@ -7,7 +7,7 @@ old-location: xps\ixpsompart_setpartname.htm
 old-project: printdocs
 ms.assetid: d17083f3-38b2-43bd-8e87-1092cf397f29
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IXpsOMPart interface [XPS Documents and Packaging],SetPartName method, IXpsOMPart.SetPartName, IXpsOMPart::SetPartName, SetPartName, SetPartName method [XPS Documents and Packaging], SetPartName method [XPS Documents and Packaging],IXpsOMPart interface, xps.ixpsompart_setpartname, xpsobjectmodel/IXpsOMPart::SetPartName
 ms.prod: windows
 ms.technology: windows-sdk

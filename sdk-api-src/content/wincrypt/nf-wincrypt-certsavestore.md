@@ -4,10 +4,10 @@ title: CertSaveStore function
 author: windows-sdk-content
 description: Saves the certificate store to a file or to a memory BLOB.
 old-location: security\certsavestore.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 5cc818d7-b079-4962-aabc-fc512d4e92ac
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CERT_STORE_SAVE_AS_PKCS7, CERT_STORE_SAVE_AS_STORE, CERT_STORE_SAVE_TO_FILE, CERT_STORE_SAVE_TO_FILENAME, CERT_STORE_SAVE_TO_FILENAME_A, CERT_STORE_SAVE_TO_FILENAME_W, CERT_STORE_SAVE_TO_MEMORY, CertSaveStore, CertSaveStore function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_certsavestore, security.certsavestore, wincrypt/CertSaveStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,44 @@ The <b>CertSaveStore</b> function saves the <a href="https://msdn.microsoft.com/
 The handle of the certificate store to be saved.
 
 
-### -param dwEncodingType
+### -param dwEncodingType [in]
 
-TBD
+Specifies the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate encoding type</a> and <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding type</a>. Encoding is used only when <i>dwSaveAs</i> contains <b>CERT_STORE_SAVE_AS_PKCS7</b>. Otherwise, the <i>dwMsgAndCertEncodingType</i> parameter is not used.
+
+
+This parameter can be a combination of one or more of the following values.
+
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="PKCS_7_ASN_ENCODING"></a><a id="pkcs_7_asn_encoding"></a><dl>
+<dt><b>PKCS_7_ASN_ENCODING</b></dt>
+<dt>65536 (0x10000)</dt>
+</dl>
+</td>
+<td width="60%">
+Specifies PKCS 7 message encoding.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="X509_ASN_ENCODING"></a><a id="x509_asn_encoding"></a><dl>
+<dt><b>X509_ASN_ENCODING</b></dt>
+<dt>1 (0x1)</dt>
+</dl>
+</td>
+<td width="60%">
+Specifies X.509 certificate encoding.
+
+</td>
+</tr>
+</table>
+ 
 
 
 ### -param dwSaveAs [in]
@@ -192,46 +227,6 @@ A pointer that represents where the store should be saved to. The contents of th
 ### -param dwFlags [in]
 
 This parameter is reserved for future use and must be set to zero.
-
-
-#### - dwMsgAndCertEncodingType [in]
-
-Specifies the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate encoding type</a> and <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding type</a>. Encoding is used only when <i>dwSaveAs</i> contains <b>CERT_STORE_SAVE_AS_PKCS7</b>. Otherwise, the <i>dwMsgAndCertEncodingType</i> parameter is not used.
-
-
-This parameter can be a combination of one or more of the following values.
-
-
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="PKCS_7_ASN_ENCODING"></a><a id="pkcs_7_asn_encoding"></a><dl>
-<dt><b>PKCS_7_ASN_ENCODING</b></dt>
-<dt>65536 (0x10000)</dt>
-</dl>
-</td>
-<td width="60%">
-Specifies PKCS 7 message encoding.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="X509_ASN_ENCODING"></a><a id="x509_asn_encoding"></a><dl>
-<dt><b>X509_ASN_ENCODING</b></dt>
-<dt>1 (0x1)</dt>
-</dl>
-</td>
-<td width="60%">
-Specifies X.509 certificate encoding.
-
-</td>
-</tr>
-</table>
- 
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: iphlp\icmpsendecho.htm
 old-project: iphlp
 ms.assetid: c3cdc535-2c13-48c6-9ab1-88cc5e5119b5
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: IcmpSendEcho, IcmpSendEcho function [IP Helper], _iphlp_icmpsendecho, icmpapi/IcmpSendEcho, iphlp.icmpsendecho
 ms.prod: windows
 ms.technology: windows-sdk

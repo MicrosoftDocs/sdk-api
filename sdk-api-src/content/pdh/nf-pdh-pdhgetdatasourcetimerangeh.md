@@ -4,10 +4,10 @@ title: PdhGetDataSourceTimeRangeH function
 author: windows-sdk-content
 description: Determines the time range, number of entries and, if applicable, the size of the buffer containing the performance data from the specified input source.This function is identical to the PdhGetDataSourceTimeRange function, except that it supports the use of handles to data sources.
 old-location: perf\pdhgetdatasourcetimerangeh.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 55cfef46-999d-43fa-9b09-9d8916fbf755
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhGetDataSourceTimeRangeH, PdhGetDataSourceTimeRangeH function [Perf], _win32_pdhgetdatasourcetimerangeh, base.pdhgetdatasourcetimerangeh, pdh/PdhGetDataSourceTimeRangeH, perf.pdhgetdatasourcetimerangeh
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,8 +88,7 @@ Size of the <a href="https://msdn.microsoft.com/a747f288-8d6c-401c-a927-a61ffea3
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

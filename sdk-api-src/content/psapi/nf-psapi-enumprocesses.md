@@ -7,7 +7,7 @@ old-location: psapi\enumprocesses.htm
 old-project: psapi
 ms.assetid: 0c0445cb-27d2-4857-a4a5-7a4c180b068b
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: EnumProcesses, EnumProcesses function [PSAPI], K32EnumProcesses, _win32_enumprocesses, base.enumprocesses, psapi.enumprocesses, psapi/EnumProcesses, psapi/K32EnumProcesses
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ Retrieves the process identifier for each process object in the system.
 
 
 
-### -param lpidProcess
+### -param lpidProcess [out]
 
-TBD
+A pointer to an array that receives the list of process identifiers.
 
 
 ### -param cb [in]
@@ -74,21 +74,9 @@ TBD
 The size of the <i>pProcessIds</i> array, in bytes.
 
 
-### -param lpcbNeeded
-
-TBD
-
-
-
-
-#### - pBytesReturned [out]
+### -param lpcbNeeded [out]
 
 The number of bytes returned in the <i>pProcessIds</i> array.
-
-
-#### - pProcessIds [out]
-
-A pointer to an array that receives the list of process identifiers.
 
 
 ## -returns

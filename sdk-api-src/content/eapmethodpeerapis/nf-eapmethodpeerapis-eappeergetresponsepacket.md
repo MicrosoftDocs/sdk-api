@@ -7,7 +7,7 @@ old-location: eaphost\eappeergetresponsepacket.htm
 old-project: eaphost
 ms.assetid: 4e1deaab-53fe-4c8f-9018-d7b148131231
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapPeerGetResponsePacket, EapPeerGetResponsePacket function [EAPHost], eaphost.eappeergetresponsepacket, eapmethodpeerapis/EapPeerGetResponsePacket
 ms.prod: windows
 ms.technology: windows-sdk

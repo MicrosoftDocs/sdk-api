@@ -7,7 +7,7 @@ old-location: hid\ioctl_keyboard_query_typematic.htm
 old-project: hid
 ms.assetid: 0c19670b-0440-4a7a-ad87-a97d3da28e74
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/30/2018
 ms.keywords: IOCTL_KEYBOARD_QUERY_TYPEMATIC, IOCTL_KEYBOARD_QUERY_TYPEMATIC  control, IOCTL_KEYBOARD_QUERY_TYPEMATIC control code [Human Input Devices], hid.ioctl_keyboard_query_typematic, kref_6b6b2db2-e848-47bb-8972-afde72c9be36.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_TYPEMATIC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-     The IOCTL_KEYBOARD_QUERY_TYPEMATIC request returns the typematic settings.
+The IOCTL_KEYBOARD_QUERY_TYPEMATIC request returns the typematic settings.
      
     
 
@@ -117,9 +116,9 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_BUFFER_TOO_SMALL
+#### -STATUS_SUCCESS
 
-The output buffer cannot hold the KEYBOARD_TYPEMATIC_PARAMETERS data.
+The request completed successfully.
 
 
 #### -STATUS_INVALID_PARAMETER
@@ -127,9 +126,9 @@ The output buffer cannot hold the KEYBOARD_TYPEMATIC_PARAMETERS data.
 The <b>UnitId</b> value is not valid.
 
 
-#### -STATUS_SUCCESS
+#### -STATUS_BUFFER_TOO_SMALL
 
-The request completed successfully.
+The output buffer cannot hold the KEYBOARD_TYPEMATIC_PARAMETERS data.
 
 
 ## -see-also

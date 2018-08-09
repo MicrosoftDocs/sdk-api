@@ -7,7 +7,7 @@ old-location: dshow\copp_acp_protection_level.htm
 old-project: DirectShow
 ms.assetid: a3149eb6-e758-4b21-b574-32fb6c2ae3a2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: COPP_ACP_ForceDWORD, COPP_ACP_Level0, COPP_ACP_Level1, COPP_ACP_Level2, COPP_ACP_Level3, COPP_ACP_LevelMax, COPP_ACP_LevelMin, COPP_ACP_Protection_Level, COPP_ACP_Protection_Level , COPP_ACP_Protection_Level enumeration [DirectShow], COPP_ACP_Protection_LevelEnumeration, _COPP_ACP_Protection_Level, dshow.copp_acp_protection_level, dxva9typ/COPP_ACP_ForceDWORD, dxva9typ/COPP_ACP_Level0, dxva9typ/COPP_ACP_Level1, dxva9typ/COPP_ACP_Level2, dxva9typ/COPP_ACP_Level3, dxva9typ/COPP_ACP_LevelMax, dxva9typ/COPP_ACP_LevelMin, dxva9typ/COPP_ACP_Protection_Level
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,50 +64,43 @@ Specifies the ACP protection level.
 
 ### -field COPP_ACP_Level0
 
-
-            Level 0.
+Level 0.
           
 
 
 ### -field COPP_ACP_LevelMin
 
-
-            Minimum ACP level. Equivalent to <b>COPP_ACP_Level0</b>.
+Minimum ACP level. Equivalent to <b>COPP_ACP_Level0</b>.
           
 
 
 ### -field COPP_ACP_Level1
 
-
-            Level 1.
+Level 1.
           
 
 
 ### -field COPP_ACP_Level2
 
-
-            Level 2.
+Level 2.
           
 
 
 ### -field COPP_ACP_Level3
 
-
-            Level 3.
+Level 3.
           
 
 
 ### -field COPP_ACP_LevelMax
 
-
-            Maximum ACP level. Equivalent to <b>COPP_ACP_Level3</b>.
+Maximum ACP level. Equivalent to <b>COPP_ACP_Level3</b>.
           
 
 
 ### -field COPP_ACP_ForceDWORD
 
-
-            Reserved.
+Reserved.
           
 
 

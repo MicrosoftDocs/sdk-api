@@ -7,7 +7,7 @@ old-location: security\lsagetlogonsessiondata.htm
 old-project: secauthn
 ms.assetid: b1478a7a-f508-4b98-8c7b-adeb2f07bb86
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: LsaGetLogonSessionData, LsaGetLogonSessionData function [Security], _lsa_lsagetlogonsessiondata, ntsecapi/LsaGetLogonSessionData, security.lsagetlogonsessiondata
 ms.prod: windows
 ms.technology: windows-sdk

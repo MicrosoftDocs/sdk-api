@@ -7,7 +7,7 @@ old-location: gdi\getbitmapdimensionex.htm
 old-project: gdi
 ms.assetid: 3e4f5afc-26d3-4fb2-8d00-183165fdf471
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetBitmapDimensionEx, GetBitmapDimensionEx function [Windows GDI], _win32_GetBitmapDimensionEx, gdi.getbitmapdimensionex, wingdi/GetBitmapDimensionEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,24 +61,12 @@ The <b>GetBitmapDimensionEx</b> function retrieves the dimensions of a compatibl
 
 
 
-### -param hbit
-
-TBD
-
-
-### -param lpsize
-
-TBD
-
-
-
-
-#### - hBitmap [in]
+### -param hbit [in]
 
 A handle to a compatible bitmap (DDB).
 
 
-#### - lpDimension [out]
+### -param lpsize [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure to receive the bitmap dimensions. For more information, see Remarks.
 

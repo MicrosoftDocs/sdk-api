@@ -7,7 +7,7 @@ old-location: devinst\setupdicreatedevregkey.htm
 old-project: devinst
 ms.assetid: 8c07db95-eb59-4e01-851d-f6a8da169625
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: SetupDiCreateDevRegKey, SetupDiCreateDevRegKey function [Device and Driver Installation], SetupDiCreateDevRegKeyA, SetupDiCreateDevRegKeyW, devinst.setupdicreatedevregkey, di-rtns_284367d1-6053-4fd1-990b-7028a116ece2.xml, setupapi/SetupDiCreateDevRegKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,6 +123,16 @@ The handle to an open INF file that contains an <a href="devinst.inf_ddinstall_s
 The name of an INF <i>DDInstall</i> section in the INF file specified by <i>InfHandle</i>. This section is executed for the newly created key. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, <i>InfHandle</i> must be specified as well.
 
 
+##### - Scope.DICS_FLAG_GLOBAL
+
+Create a key to store global configuration information. This information is not specific to a particular hardware profile. On NT-based operating systems this creates a key that is rooted at <b>HKEY_LOCAL_MACHINE</b>. The exact key opened depends on the value of the <i>KeyType</i> parameter.
+
+
+##### - Scope.DICS_FLAG_CONFIGSPECIFIC
+
+Create a key to store hardware profile-specific configuration information. This key is rooted at one of the hardware-profile specific branches, instead of <b>HKEY_LOCAL_MACHINE</b>.
+
+
 ##### - KeyType.DIREG_DEV
 
 Create a <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d08dd23">hardware key</a> for the device. 
@@ -131,16 +141,6 @@ Create a <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d08dd2
 ##### - KeyType.DIREG_DRV
 
 Create a <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">software key</a> for the device.
-
-
-##### - Scope.DICS_FLAG_CONFIGSPECIFIC
-
-Create a key to store hardware profile-specific configuration information. This key is rooted at one of the hardware-profile specific branches, instead of <b>HKEY_LOCAL_MACHINE</b>.
-
-
-##### - Scope.DICS_FLAG_GLOBAL
-
-Create a key to store global configuration information. This information is not specific to a particular hardware profile. On NT-based operating systems this creates a key that is rooted at <b>HKEY_LOCAL_MACHINE</b>. The exact key opened depends on the value of the <i>KeyType</i> parameter.
 
 
 ## -returns

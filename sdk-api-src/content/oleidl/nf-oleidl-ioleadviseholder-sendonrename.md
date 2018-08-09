@@ -7,7 +7,7 @@ old-location: com\ioleadviseholder_sendonrename.htm
 old-project: com
 ms.assetid: 64e44cab-b618-49af-bf0e-966b9eaa198a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IOleAdviseHolder interface [COM],SendOnRename method, IOleAdviseHolder.SendOnRename, IOleAdviseHolder::SendOnRename, SendOnRename, SendOnRename method [COM], SendOnRename method [COM],IOleAdviseHolder interface, _ole_ioleadviseholder_sendonrename, com.ioleadviseholder_sendonrename, oleidl/IOleAdviseHolder::SendOnRename
 ms.prod: windows
 ms.technology: windows-sdk

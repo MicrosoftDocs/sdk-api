@@ -7,7 +7,7 @@ old-location: base\getusername.htm
 old-project: SysInfo
 ms.assetid: 87adc46a-c069-4ee5-900a-03b646306e64
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: GetUserName, GetUserName function, GetUserNameA, GetUserNameW, _win32_getusername, base.getusername, winbase/GetUserName, winbase/GetUserNameA, winbase/GetUserNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,14 +72,7 @@ Use the
 A pointer to the buffer to receive the user's logon name. If this buffer is not large enough to contain the entire user name, the function fails. A buffer size of (UNLEN + 1) characters will hold the maximum length user name including the terminating null character. UNLEN is defined in Lmcons.h.
 
 
-### -param pcbBuffer
-
-TBD
-
-
-
-
-#### - lpnSize [in, out]
+### -param pcbBuffer [in, out]
 
 On input, this variable specifies the size of the <i>lpBuffer</i> buffer, in <b>TCHARs</b>. On output, the variable receives the number of <b>TCHARs</b> copied to the buffer, including the terminating null character. 
 

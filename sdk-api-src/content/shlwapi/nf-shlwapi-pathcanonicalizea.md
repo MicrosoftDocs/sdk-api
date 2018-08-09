@@ -7,7 +7,7 @@ old-location: shell\PathCanonicalize.htm
 old-project: shell
 ms.assetid: e9b1e877-2cd6-4dd9-a15b-676cb940daed
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PathCanonicalize, PathCanonicalize function [Windows Shell], PathCanonicalizeA, PathCanonicalizeW, _win32_PathCanonicalize, shell.PathCanonicalize, shlwapi/PathCanonicalize, shlwapi/PathCanonicalizeA, shlwapi/PathCanonicalizeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,26 +65,14 @@ Simplifies a path by removing navigation elements such as "." and ".." to produc
 
 
 
-### -param pszBuf
-
-TBD
-
-
-### -param pszPath
-
-TBD
-
-
-
-
-#### - lpszDst [out]
+### -param pszBuf [out]
 
 Type: <b>LPTSTR</b>
 
 A pointer to a string that receives the canonicalized path. You must set the size of this buffer to MAX_PATH to ensure that it is large enough to hold the returned string.
 
 
-#### - lpszSrc [in]
+### -param pszPath [in]
 
 Type: <b>LPCTSTR</b>
 

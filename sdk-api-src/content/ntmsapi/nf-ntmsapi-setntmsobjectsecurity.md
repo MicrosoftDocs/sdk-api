@@ -7,7 +7,7 @@ old-location: fs\setntmsobjectsecurity.htm
 old-project: Rsm
 ms.assetid: ea6be316-6188-46a2-b12a-fe8426bc5fac
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: SetNtmsObjectSecurity, SetNtmsObjectSecurity function [Files], _zaw_setntmsobjectsecurity, base.setntmsobjectsecurity, fs.setntmsobjectsecurity, ntmsapi/SetNtmsObjectSecurity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,21 +79,16 @@ RSM object type. For a list of object types, see the
 <a href="https://msdn.microsoft.com/598e7cb1-f463-4252-9bdf-ccb98f36f4da">NtmsObjectsTypes</a>.
 
 
-### -param SecurityInformation
+### -param SecurityInformation [in]
 
-TBD
+A 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> value that specifies the security information to write to the RSM object.
 
 
 ### -param lpSecurityDescriptor [in]
 
 Pointer to a 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure that specifies the security descriptor to write to the RSM object: NTMS_USE_ACCESS, NTMS_CONTROL_ACCESS, or NTMS_MODIFY_ACCESS.
-
-
-#### - lpSecurityInformation [in]
-
-A 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> value that specifies the security information to write to the RSM object.
 
 
 ## -returns
@@ -228,7 +223,7 @@ If an application uses
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Object Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Object Management Functions</a>
  
 
  

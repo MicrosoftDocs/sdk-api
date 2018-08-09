@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PointF_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointf.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: PointF, PointF class [GDI+], PointF class [GDI+],described, _gdiplus_CLASS_PointF_Class, gdiplus._gdiplus_CLASS_PointF_Class, gdiplustypes/PointF
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ The <b>PointF</b> class encapsulates a point in a 2-D coordinate system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535003(v=VS.85).aspx">PointF::PointF()</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535003(v=VS.85).aspx">PointF::PointF()</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>PointF</b> object and initializes the 
@@ -76,7 +76,7 @@ Creates a <b>PointF</b> object and initializes the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535004(v=VS.85).aspx">PointF::PointF(PointF&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535004(v=VS.85).aspx">PointF::PointF(PointF&)</a>
 </td>
 <td align="left" width="63%">
 Creates a new <b>PointF</b> object and copies the data from another <b>PointF</b> object.
@@ -85,7 +85,7 @@ Creates a new <b>PointF</b> object and copies the data from another <b>PointF</b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535001(v=VS.85).aspx">PointF::PointF(REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535001(v=VS.85).aspx">PointF::PointF(REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>PointF</b> object using two real numbers to specify the 
@@ -96,11 +96,11 @@ Creates a <b>PointF</b> object using two real numbers to specify the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535002(v=VS.85).aspx">PointF::PointF(SizeF&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535002(v=VS.85).aspx">PointF::PointF(SizeF&)</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>PointF</b> object using a 
-			<a href="https://msdn.microsoft.com/library/ms534506(v=VS.85).aspx">SizeF</a> object to specify the 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> object to specify the 
 			<b>X</b> and 
 			<b>Y</b> data members.
 
@@ -115,10 +115,10 @@ Creates a <b>PointF</b> object using a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534996(v=VS.85).aspx">PointF::Equals</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534996(v=VS.85).aspx">PointF::Equals</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534996(v=VS.85).aspx">PointF::Equals</a> method determines whether two 
+The <a href="https://msdn.microsoft.com/en-us/library/ms534996(v=VS.85).aspx">PointF::Equals</a> method determines whether two 
 			<b>PointF</b> objects are equal. Two points are considered equal if they have the same 
 			<b>X</b> and 
 			<b>Y</b>  data members.
@@ -127,19 +127,19 @@ The <a href="https://msdn.microsoft.com/library/ms534996(v=VS.85).aspx">PointF::
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534998(v=VS.85).aspx">PointF::operator-(PointF&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534998(v=VS.85).aspx">PointF::operator-(PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534998(v=VS.85).aspx">PointF::operator-</a> method subtracts the <b>X</b> and <b>Y</b> data members of two <b>PointF</b> objects.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534998(v=VS.85).aspx">PointF::operator-</a> method subtracts the <b>X</b> and <b>Y</b> data members of two <b>PointF</b> objects.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534997(v=VS.85).aspx">PointF::operator+(PointF&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534997(v=VS.85).aspx">PointF::operator+(PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534997(v=VS.85).aspx">PointF::operator+</a> method adds the <b>X</b> and <b>Y</b> data members of two <b>PointF</b> objects.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534997(v=VS.85).aspx">PointF::operator+</a> method adds the <b>X</b> and <b>Y</b> data members of two <b>PointF</b> objects.
 
 </td>
 </tr>

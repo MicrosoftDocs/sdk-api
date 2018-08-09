@@ -7,7 +7,7 @@ old-location: intl\getfilemuiinfo.htm
 old-project: Intl
 ms.assetid: df1eee13-012a-47e6-a6de-8ddb8ecc6036
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetFileMUIInfo, GetFileMUIInfo function [Internationalization for Windows Applications], MUI_QUERY_CHECKSUM, MUI_QUERY_LANGUAGE_NAME, MUI_QUERY_RESOURCE_TYPES, MUI_QUERY_TYPE, _win32_GetFileMUIInfo, intl.getfilemuiinfo, winnls/GetFileMUIInfo
 ms.prod: windows
 ms.technology: windows-sdk

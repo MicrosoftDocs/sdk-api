@@ -7,7 +7,7 @@ old-location: winsock\setservice_2.htm
 old-project: winsock
 ms.assetid: cc5e35ef-5c64-41ba-a5f9-5961371c4d08
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: NS_DEFAULT, NS_DNS, NS_NDS, NS_NETBT, NS_SAP, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, SERVICE_ADD_TYPE, SERVICE_DELETE_TYPE, SERVICE_DEREGISTER, SERVICE_FLAG_DEFER, SERVICE_FLAG_HARD, SERVICE_FLUSH, SERVICE_REGISTER, SET_SERVICE_ PARTIAL_SUCCESS, SetService, SetService function [Winsock], SetServiceA, SetServiceW, _win32_setservice_2, nspapi/SetService, nspapi/SetServiceA, nspapi/SetServiceW, winsock.setservice_2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-			The 
+The 
 <b>SetService</b> function registers or removes from the registry a network service within one or more namespaces. The function can also add or remove a network service type within one or more namespaces.
 <div class="alert"><b>Note</b>  The 
 <b>SetService</b> function is obsolete. The functions detailed in 

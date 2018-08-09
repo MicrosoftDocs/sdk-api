@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectrendercontext_setinitialtransform.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\setinitialtransform.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],SetInitialTransform method, IMILBitmapEffectRenderContext.SetInitialTransform, IMILBitmapEffectRenderContext::SetInitialTransform, SetInitialTransform, SetInitialTransform method [WPF Bitmap Effects], SetInitialTransform method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, _wibe_imilbitmapeffectrendercontext_setinitialtransform, mileffects/IMILBitmapEffectRenderContext::SetInitialTransform, wibe._wibe_imilbitmapeffectrendercontext_setinitialtransform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Gets the initial <a href="https://msdn.microsoft.com/library/ms735225(v=VS.85).aspx">MILMatrixF</a> transform.
+Gets the initial <a href="https://msdn.microsoft.com/en-us/library/ms735225(v=VS.85).aspx">MILMatrixF</a> transform.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets the initial <a href="https://msdn.microsoft.com/library/ms735225(v=VS.85).a
 
 ### -param pMatrix [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735225(v=VS.85).aspx">MILMatrixF</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735225(v=VS.85).aspx">MILMatrixF</a>*</b>
 
 The initial transform.
 

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10shaderreflection1_getbitwiseinstructioncount.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection1_getbitwiseinstructioncount.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetBitwiseInstructionCount, GetBitwiseInstructionCount method [Direct3D 10], GetBitwiseInstructionCount method [Direct3D 10],ID3D10ShaderReflection1 interface, ID3D10ShaderReflection1 interface [Direct3D 10],GetBitwiseInstructionCount method, ID3D10ShaderReflection1.GetBitwiseInstructionCount, ID3D10ShaderReflection1::GetBitwiseInstructionCount, d3d10_1shader/ID3D10ShaderReflection1::GetBitwiseInstructionCount, direct3d10.id3d10shaderreflection1_getbitwiseinstructioncount, f02502a1-d6e6-ca62-6303-d73c0804a05b
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,9 +69,9 @@ A pointer to the number of bitwise instructions.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -90,7 +90,7 @@ This method requires Windows Vista Service Pack 1.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb694550(v=VS.85).aspx">ID3D10ShaderReflection1 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb694550(v=VS.85).aspx">ID3D10ShaderReflection1 Interface</a>
  
 
  

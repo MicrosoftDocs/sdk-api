@@ -4,10 +4,10 @@ title: MsiSourceListEnumMediaDisksA function
 author: windows-sdk-content
 description: The MsiSourceListEnumMediaDisks function enumerates the list of disks registered for the media source for a patch or product.
 old-location: setup\msisourcelistenummediadisks.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 29bf12f4-f9e0-4853-8f03-a31a855b2ad6
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListEnumMediaDisks, MsiSourceListEnumMediaDisks function, MsiSourceListEnumMediaDisksA, MsiSourceListEnumMediaDisksW, NULL, User SID, msi/MsiSourceListEnumMediaDisks, msi/MsiSourceListEnumMediaDisksA, msi/MsiSourceListEnumMediaDisksW, s-1-1-0, setup.msisourcelistenummediadisks
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-			The <b>MsiSourceListEnumMediaDisks</b> function enumerates the list of disks registered for the media source for a patch or product.
+The <b>MsiSourceListEnumMediaDisks</b> function enumerates the list of disks registered for the media source for a patch or product.
 			
 		
 
@@ -69,10 +68,50 @@ req.product: Rights Management Services client 1.0 or later
 The <a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a> or patch GUID of the product or patch. Use a null-terminated string. If the string is longer than 39 characters, the function fails and returns ERROR_INVALID_PARAMETER. This parameter cannot be <b>NULL</b>.
 
 
-### -param szUserSid
+### -param szUserSid [in, optional]
 
-TBD
+A string SID that specifies the user account that contains the product or patch.  The SID is not validated or resolved. An incorrect SID can return ERROR_UNKNOWN_PRODUCT or ERROR_UNKNOWN_PATCH. When referencing a machine context, <i>szUserSID</i> must be <b>NULL</b> and <i>dwContext</i> must be MSIINSTALLCONTEXT_MACHINE. 
 
+<table>
+<tr>
+<th>Type of SID</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="NULL"></a><a id="null"></a><dl>
+<dt><b><b>NULL</b></b></dt>
+</dl>
+</td>
+<td width="60%">
+A <b>NULL</b> denotes the currently logged on user. When referencing the current user account, <i>szUserSID</i> can be <b>NULL</b> and <i>dwContext</i> can be  MSIINSTALLCONTEXT_USERMANAGED or MSIINSTALLCONTEXT_USERUNMANAGED.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="User_SID"></a><a id="user_sid"></a><a id="USER_SID"></a><dl>
+<dt><b>User SID</b></dt>
+</dl>
+</td>
+<td width="60%">
+An enumeration for a specific user in the system.  An example of a user SID is "S-1-3-64-2415071341-1358098788-3127455600-2561".
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="s-1-1-0"></a><a id="S-1-1-0"></a><dl>
+<dt><b>s-1-1-0</b></dt>
+</dl>
+</td>
+<td width="60%">
+The special SID string s-1-1-0 (everyone) specifies enumeration across all users in the system.
+
+</td>
+</tr>
+</table>
+ 
+
+<div class="alert"><b>Note</b>  The special SID string s-1-5-18 (system) cannot be used to enumerate products or patches installed as per-machine.  Setting the SID value to s-1-5-18 returns ERROR_INVALID_PARAMETER.</div>
+<div> </div>
 
 ### -param dwContext [in]
 
@@ -198,57 +237,11 @@ A pointer to a variable that specifies the number of <b>TCHAR</b> in the <i>szDi
 This parameter can be set to <b>NULL</b> only if <i>szDiskPrompt</i> is also <b>NULL</b>, otherwise the function returns ERROR_INVALID_PARAMETER.
 
 
-#### - szUserSID [in, optional]
-
-A string SID that specifies the user account that contains the product or patch.  The SID is not validated or resolved. An incorrect SID can return ERROR_UNKNOWN_PRODUCT or ERROR_UNKNOWN_PATCH. When referencing a machine context, <i>szUserSID</i> must be <b>NULL</b> and <i>dwContext</i> must be MSIINSTALLCONTEXT_MACHINE. 
-
-<table>
-<tr>
-<th>Type of SID</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="NULL"></a><a id="null"></a><dl>
-<dt><b><b>NULL</b></b></dt>
-</dl>
-</td>
-<td width="60%">
-A <b>NULL</b> denotes the currently logged on user. When referencing the current user account, <i>szUserSID</i> can be <b>NULL</b> and <i>dwContext</i> can be  MSIINSTALLCONTEXT_USERMANAGED or MSIINSTALLCONTEXT_USERUNMANAGED.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="User_SID"></a><a id="user_sid"></a><a id="USER_SID"></a><dl>
-<dt><b>User SID</b></dt>
-</dl>
-</td>
-<td width="60%">
-An enumeration for a specific user in the system.  An example of a user SID is "S-1-3-64-2415071341-1358098788-3127455600-2561".
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="s-1-1-0"></a><a id="S-1-1-0"></a><dl>
-<dt><b>s-1-1-0</b></dt>
-</dl>
-</td>
-<td width="60%">
-The special SID string s-1-1-0 (everyone) specifies enumeration across all users in the system.
-
-</td>
-</tr>
-</table>
- 
-
-<div class="alert"><b>Note</b>  The special SID string s-1-5-18 (system) cannot be used to enumerate products or patches installed as per-machine.  Setting the SID value to s-1-5-18 returns ERROR_INVALID_PARAMETER.</div>
-<div> </div>
-
 ## -returns
 
 
 
-
-					The <b>MsiSourceListEnumMediaDisks</b> function returns the following values.
+The <b>MsiSourceListEnumMediaDisks</b> function returns the following values.
 
 <table>
 <tr>

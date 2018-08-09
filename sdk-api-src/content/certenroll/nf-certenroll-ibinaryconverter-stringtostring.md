@@ -7,7 +7,7 @@ old-location: security\ibinaryconverter_stringtostring_method.htm
 old-project: seccertenroll
 ms.assetid: c584a9bd-4ea3-4df7-8a9a-1f70cf07a213
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IBinaryConverter interface [Security],StringToString method, IBinaryConverter.StringToString, IBinaryConverter::StringToString, StringToString, StringToString method [Security], StringToString method [Security],IBinaryConverter interface, certenroll/IBinaryConverter::StringToString, security.ibinaryconverter_stringtostring_method
 ms.prod: windows
 ms.technology: windows-sdk

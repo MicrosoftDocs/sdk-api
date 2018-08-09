@@ -7,7 +7,7 @@ old-location: dshow\imediapropertybag.htm
 old-project: DirectShow
 ms.assetid: 6f134160-b0aa-44fd-b1b9-938f11349eac
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IMediaPropertyBag, IMediaPropertyBag interface [DirectShow], IMediaPropertyBag interface [DirectShow],described, IMediaPropertyBagInterface, dshow.imediapropertybag, strmif/IMediaPropertyBag
 ms.prod: windows
 ms.technology: windows-sdk

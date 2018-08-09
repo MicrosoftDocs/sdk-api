@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ColorBalance_GetParameters_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorbalanceclass\colorbalancemethods\getparameters.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: ColorBalance class [GDI+],GetParameters method, ColorBalance.GetParameters, ColorBalance::GetParameters, GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],ColorBalance class, _gdiplus_CLASS_ColorBalance_GetParameters_, gdiplus._gdiplus_CLASS_ColorBalance_GetParameters_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>ColorBalance::GetParameters</b> method gets the current values of the parameters of this <a href="https://msdn.microsoft.com/library/ms534428(v=VS.85).aspx">ColorBalance</a> object.
+The <b>ColorBalance::GetParameters</b> method gets the current values of the parameters of this <a href="https://msdn.microsoft.com/en-us/library/ms534428(v=VS.85).aspx">ColorBalance</a> object.
 
 
 ## -parameters
@@ -63,14 +63,14 @@ The <b>ColorBalance::GetParameters</b> method gets the current values of the par
 
 Type: <b>UINT*</b>
 
-Pointer to a <b>UINT</b> that specifies the size, in bytes, of a <a href="https://msdn.microsoft.com/library/ms534059(v=VS.85).aspx">ColorBalanceParams</a> structure.
+Pointer to a <b>UINT</b> that specifies the size, in bytes, of a <a href="https://msdn.microsoft.com/en-us/library/ms534059(v=VS.85).aspx">ColorBalanceParams</a> structure.
 
 
 ### -param parameters [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534059(v=VS.85).aspx">ColorBalanceParams</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534059(v=VS.85).aspx">ColorBalanceParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534059(v=VS.85).aspx">ColorBalanceParams</a> structure that receives the parameter values.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534059(v=VS.85).aspx">ColorBalanceParams</a> structure that receives the parameter values.
 
 
 ## -returns
@@ -93,11 +93,11 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534428(v=VS.85).aspx">ColorBalance</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534428(v=VS.85).aspx">ColorBalance</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536264(v=VS.85).aspx">ColorBalance::SetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536264(v=VS.85).aspx">ColorBalance::SetParameters</a>
  
 
  

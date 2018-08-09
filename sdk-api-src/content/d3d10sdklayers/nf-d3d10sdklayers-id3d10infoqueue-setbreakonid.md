@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_setbreakonid.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_setbreakonid.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D10InfoQueue interface [Direct3D 10],SetBreakOnID method, ID3D10InfoQueue.SetBreakOnID, ID3D10InfoQueue::SetBreakOnID, SetBreakOnID, SetBreakOnID method [Direct3D 10], SetBreakOnID method [Direct3D 10],ID3D10InfoQueue interface, d3d10sdklayers/ID3D10InfoQueue::SetBreakOnID, d9deed23-ec78-a913-c2b7-8c24e15d1e45, direct3d10.id3d10infoqueue_setbreakonid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,9 @@ Set a message identifier to break on when a message with that identifier passes 
 
 ### -param ID [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb205324(v=VS.85).aspx">D3D10_MESSAGE_ID</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205324(v=VS.85).aspx">D3D10_MESSAGE_ID</a></b>
 
-Message identifier to break on (see <a href="https://msdn.microsoft.com/library/Bb205324(v=VS.85).aspx">D3D10_MESSAGE_ID</a>).
+Message identifier to break on (see <a href="https://msdn.microsoft.com/en-us/library/Bb205324(v=VS.85).aspx">D3D10_MESSAGE_ID</a>).
 
 
 ### -param bEnable [in]
@@ -76,9 +76,9 @@ Turns this breaking condition on or off (true for on, false for off).
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -88,7 +88,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: ics\istaticportmapping.htm
 old-project: ics
 ms.assetid: 5013fea2-e767-4600-a10c-6859b7be42e4
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], IStaticPortMapping interface [ICS/ICF],described, _ics_istaticportmapping, ics.istaticportmapping, natupnp/IStaticPortMapping
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStaticPortMapping</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IStaticPortMapping</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStaticPortMapping</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IStaticPortMapping</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

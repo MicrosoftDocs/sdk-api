@@ -4,10 +4,10 @@ title: PdhGetDefaultPerfCounterW function
 author: windows-sdk-content
 description: Retrieves the name of the default counter for the specified object. This name can be used to set the initial counter selection in the Browse Counter dialog box. To use handles to data sources, use the PdhGetDefaultPerfCounterH function.
 old-location: perf\pdhgetdefaultperfcounter.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 0eb78071-3496-40e9-91b0-3c06547c88d5
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhGetDefaultPerfCounter, PdhGetDefaultPerfCounter function [Perf], PdhGetDefaultPerfCounterA, PdhGetDefaultPerfCounterW, _win32_pdhgetdefaultperfcounter, base.pdhgetdefaultperfcounter, pdh/PdhGetDefaultPerfCounter, pdh/PdhGetDefaultPerfCounterA, pdh/PdhGetDefaultPerfCounterW, perf.pdhgetdefaultperfcounter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Retrieves the name of the default counter for the specified object. This name can be used to set the initial counter selection in the Browse Counter dialog box.
+Retrieves the name of the default counter for the specified object. This name can be used to set the initial counter selection in the Browse Counter dialog box.
 			
 
 To use handles to data sources, use the 
@@ -99,8 +98,7 @@ Size of the <i>szDefaultCounterName</i> buffer, in <b>TCHARs</b>. If zero on inp
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

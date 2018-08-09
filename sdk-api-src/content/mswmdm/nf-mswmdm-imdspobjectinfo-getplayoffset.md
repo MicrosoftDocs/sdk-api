@@ -7,7 +7,7 @@ old-location: wmdm\imdspobjectinfo_getplayoffset.htm
 old-project: WMDM
 ms.assetid: 3e801b95-aa44-4275-8a21-f68fbf6240f1
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: GetPlayOffset, GetPlayOffset method [windows Media Device Manager], GetPlayOffset method [windows Media Device Manager],IMDSPObjectInfo interface, IMDSPObjectInfo interface [windows Media Device Manager],GetPlayOffset method, IMDSPObjectInfo.GetPlayOffset, IMDSPObjectInfo::GetPlayOffset, IMDSPObjectInfoGetPlayOffset, mswmdm/IMDSPObjectInfo::GetPlayOffset, wmdm.imdspobjectinfo_getplayoffset
 ms.prod: windows
 ms.technology: windows-sdk

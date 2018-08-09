@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquiresource_getitemcount.htm
 old-project: acquisition
 ms.assetid: f60538f2-f1b1-40bb-8663-ed93eede433e
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetItemCount, GetItemCount method [Picture Acquisition], GetItemCount method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetItemCount method, IPhotoAcquireSource.GetItemCount, IPhotoAcquireSource::GetItemCount, IPhotoAcquireSourceGetItemCount, photoacquire/IPhotoAcquireSource::GetItemCount, picacq.iphotoacquiresource_getitemcount
 ms.prod: windows
 ms.technology: windows-sdk

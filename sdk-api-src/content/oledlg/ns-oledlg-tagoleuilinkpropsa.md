@@ -7,7 +7,7 @@ old-location: com\oleuilinkprops_struct.htm
 old-project: com
 ms.assetid: 3f355ce8-adc3-4878-a8b4-3f7d94547ef1
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPOLEUILINKPROPSA, *POLEUILINKPROPSA, LPOLEUILINKPROPS, LPOLEUILINKPROPS structure pointer [COM], OLEUILINKPROPS, OLEUILINKPROPS structure [COM], OLEUILINKPROPSA, OLEUILINKPROPSW, POLEUILINKPROPS, POLEUILINKPROPS structure pointer [COM], _ole_OLEUILINKPROPS, com.oleuilinkprops_struct, oledlg/LPOLEUILINKPROPS, oledlg/OLEUILINKPROPS, oledlg/OLEUILINKPROPSA, oledlg/OLEUILINKPROPSW, oledlg/POLEUILINKPROPS, tagOLEUILINKPROPSA"
 ms.prod: windows
 ms.technology: windows-sdk

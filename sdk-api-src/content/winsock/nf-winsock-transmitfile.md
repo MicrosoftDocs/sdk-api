@@ -4,10 +4,10 @@ title: TransmitFile function
 author: windows-sdk-content
 description: Transmits file data over a connected socket handle.
 old-location: winsock\transmitfile_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 45db763e-735d-48ac-a0e4-6e63b5dda7a5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: LPFN_TRANSMITFILE, LPFN_TRANSMITFILE function [Winsock], TF_DISCONNECT, TF_REUSE_SOCKET, TF_USE_DEFAULT_WORKER, TF_USE_KERNEL_APC, TF_USE_SYSTEM_THREAD, TF_WRITE_BEHIND, TransmitFile, TransmitFile function [Winsock], _win32_transmitfile_2, winsock.transmitfile_2, winsock/LPFN_TRANSMITFILE, winsock/TransmitFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,13 +116,6 @@ A pointer to a
 
 
 ### -param dwReserved
-
-TBD
-
-
-
-
-#### - dwFlags
 
 A set of flags used to modify the behavior of the <b>TransmitFile</b> function call. The <i>dwFlags</i> parameter can contain a combination of the following options defined in the <i>Mswsock.h</i> header file: 
 

@@ -4,10 +4,10 @@ title: IWSDServiceProxyEventing::RenewMultipleOperations
 author: windows-sdk-content
 description: Renews a collection of existing notification subscriptions by submitting a new duration.
 old-location: ncd\iwsdserviceproxyeventing_renewmultipleoperations.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 67c5fa63-3512-4b03-afb4-9b97b26200aa
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWSDServiceProxyEventing interface,RenewMultipleOperations method, IWSDServiceProxyEventing.RenewMultipleOperations, IWSDServiceProxyEventing::RenewMultipleOperations, RenewMultipleOperations, RenewMultipleOperations method, RenewMultipleOperations method,IWSDServiceProxyEventing interface, ncd.iwsdserviceproxyeventing_renewmultipleoperations, wsdclient/IWSDServiceProxyEventing::RenewMultipleOperations
 ms.prod: windows
 ms.technology: windows-sdk

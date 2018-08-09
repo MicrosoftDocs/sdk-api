@@ -7,7 +7,7 @@ old-location: mf\imfsensorgroup_getsensordevice.htm
 old-project: medfound
 ms.assetid: 78924C45-9612-4B39-B9E2-C8D2DCCBED79
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetSensorDevice, GetSensorDevice method [Media Foundation], GetSensorDevice method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSensorDevice method, IMFSensorGroup.GetSensorDevice, IMFSensorGroup::GetSensorDevice, mf.imfsensorgroup_getsensordevice, mfidl/IMFSensorGroup::GetSensorDevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ If the call is successful, <i>ppDevice</i> will contain the retrieved sensor dev
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -92,8 +91,7 @@ If the call is successful, <i>ppDevice</i> will contain the retrieved sensor dev
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -105,8 +103,7 @@ If the call is successful, <i>ppDevice</i> will contain the retrieved sensor dev
 </dl>
 </td>
 <td width="60%">
-
-                The <i>ppDevice</i> parameter is null.
+The <i>ppDevice</i> parameter is null.
 
 </td>
 </tr>
@@ -117,8 +114,7 @@ If the call is successful, <i>ppDevice</i> will contain the retrieved sensor dev
 </dl>
 </td>
 <td width="60%">
-
-                the <i>dwIndex</i> parameter is not in the valid range.
+the <i>dwIndex</i> parameter is not in the valid range.
 
 </td>
 </tr>
@@ -129,8 +125,7 @@ If the call is successful, <i>ppDevice</i> will contain the retrieved sensor dev
 </dl>
 </td>
 <td width="60%">
-
-                The sensor group has not been initialized.
+The sensor group has not been initialized.
 
 </td>
 </tr>

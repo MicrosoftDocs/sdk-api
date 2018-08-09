@@ -7,7 +7,7 @@ old-location: gdi\getbitmapbits.htm
 old-project: gdi
 ms.assetid: 72e8cc6b-d282-451e-b6ec-0473d2daea7c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetBitmapBits, GetBitmapBits function [Windows GDI], _win32_GetBitmapBits, gdi.getbitmapbits, wingdi/GetBitmapBits
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,29 +64,19 @@ The <b>GetBitmapBits</b> function copies the bitmap bits of a specified device-d
 
 
 
-### -param hbit
+### -param hbit [in]
 
-TBD
+A handle to the device-dependent bitmap.
 
 
-### -param cb
+### -param cb [in]
 
-TBD
+The number of bytes to copy from the bitmap into the buffer.
 
 
 ### -param lpvBits [out]
 
 A pointer to a buffer to receive the bitmap bits. The bits are stored as an array of byte values.
-
-
-#### - cbBuffer [in]
-
-The number of bytes to copy from the bitmap into the buffer.
-
-
-#### - hbmp [in]
-
-A handle to the device-dependent bitmap.
 
 
 ## -returns

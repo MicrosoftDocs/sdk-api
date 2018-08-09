@@ -7,7 +7,7 @@ old-location: security\cryptxmlgetsignature.htm
 old-project: seccrypto
 ms.assetid: ef6748eb-1d3b-43e0-9525-2b588c2ae13f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CryptXmlGetSignature, CryptXmlGetSignature function [Security], cryptxml/CryptXmlGetSignature, security.cryptxmlgetsignature
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\wbemtimeout.htm
 old-project: WmiSdk
 ms.assetid: 1dfe8412-0b6a-40be-94b7-c993851a9205
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: WbemTimeout, WbemTimeout enumeration [Windows Management Instrumentation], _hmm_wbemtimeout, wbemTimeoutInfinite, wbemdisp/WbemTimeout, wbemdisp/wbemTimeoutInfinite, wmi.wbemtimeout
 ms.prod: windows
 ms.technology: windows-sdk

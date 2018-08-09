@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_gettabledescriptorbytag.htm
 old-project: mstv
 ms.assetid: 91e0aad8-31d9-44d1-9bda-7f0134f5457b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetTableDescriptorByTag method, ISCTE_EAS.GetTableDescriptorByTag, ISCTE_EAS::GetTableDescriptorByTag, ISCTE_EASGetTableDescriptorByTag, atscpsipparser/ISCTE_EAS::GetTableDescriptorByTag, mstv.iscte_eas_gettabledescriptorbytag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,22 +60,19 @@ The <b>GetTableDescriptorByTag</b> method searches the EAS table for a descripto
 
 ### -param bTag [in]
 
-
-            The descriptor tag to search for.
+The descriptor tag to search for.
           
 
 
 ### -param pdwCookie [in, out]
 
-
-            A pointer to a variable that specifies the start position in the descriptor list. This parameter can be <b>NULL</b>. If the value is <b>NULL</b>, the search starts from the first descriptor in the list. Otherwise, the search starts from the position given in *<i>pdwCookie</i>. When the method returns, the <i>pdwCookie</i> parameter contains the position of the next matching descriptor, if any. You can use this parameter to iterate through the descriptor list, looking for every instance of a particular descriptor tag.
+A pointer to a variable that specifies the start position in the descriptor list. This parameter can be <b>NULL</b>. If the value is <b>NULL</b>, the search starts from the first descriptor in the list. Otherwise, the search starts from the position given in *<i>pdwCookie</i>. When the method returns, the <i>pdwCookie</i> parameter contains the position of the next matching descriptor, if any. You can use this parameter to iterate through the descriptor list, looking for every instance of a particular descriptor tag.
           
 
 
 ### -param ppDescriptor [out]
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
           
 
 
@@ -83,8 +80,7 @@ The <b>GetTableDescriptorByTag</b> method searches the EAS table for a descripto
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>

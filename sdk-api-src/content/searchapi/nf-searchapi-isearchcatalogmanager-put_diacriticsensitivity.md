@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_put_DiacriticSensitivity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\put_diacriticsensitivity.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchCatalogManager interface [search],put_DiacriticSensitivity method, ISearchCatalogManager.put_DiacriticSensitivity, ISearchCatalogManager::put_DiacriticSensitivity, _search_ISearchCatalogManager_put_DiacriticSensitivity, put_DiacriticSensitivity, put_DiacriticSensitivity method [search], put_DiacriticSensitivity method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_put_DiacriticSensitivity, searchapi/ISearchCatalogManager::put_DiacriticSensitivity
 ms.prod: windows
 ms.technology: windows-sdk

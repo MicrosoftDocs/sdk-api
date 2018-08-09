@@ -7,7 +7,7 @@ old-location: mmc\idisplayhelp.htm
 old-project: MMC
 ms.assetid: 5f5b9a3b-d520-4e19-8cd7-efbb08bcfba2
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: IDisplayHelp, IDisplayHelp interface [MMC], IDisplayHelp interface [MMC],described, _slate_idisplayhelp, mmc.idisplayhelp, mmc/IDisplayHelp
 ms.prod: windows
 ms.technology: windows-sdk

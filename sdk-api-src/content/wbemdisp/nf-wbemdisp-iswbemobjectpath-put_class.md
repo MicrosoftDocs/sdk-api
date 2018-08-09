@@ -7,7 +7,7 @@ old-location: wmi\swbemobjectpath_class.htm
 old-project: WmiSdk
 ms.assetid: 60123963-31be-4112-9d06-611b4c599fd4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: Class property [Windows Management Instrumentation], Class property [Windows Management Instrumentation],ISWbemObjectPath interface, Class property [Windows Management Instrumentation],SWbemObjectPath object, ISWbemObjectPath interface [Windows Management Instrumentation],Class property, ISWbemObjectPath.get_Class, ISWbemObjectPath.put_Class, ISWbemObjectPath::put_Class, SWbemObjectPath object [Windows Management Instrumentation],Class property, SWbemObjectPath.Class, _hmm_swbemobjectpath.class, put_Class, wmi.swbemobjectpath_class
 ms.prod: windows
 ms.technology: windows-sdk

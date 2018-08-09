@@ -7,7 +7,7 @@ old-location: mscs\clusproperty_length.htm
 old-project: mscs
 ms.assetid: 9e2d1aec-8644-43e9-a079-82cf96e43e4e
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusProperty object [Failover Cluster],Length property, ClusProperty.Length, ISClusProperty.get_Length, ISClusProperty::get_Length, Length property [Failover Cluster], Length property [Failover Cluster],ClusProperty object, _wolf_clusproperty.length, get_Length, mscs.clusproperty_length
 ms.prod: windows
 ms.technology: windows-sdk

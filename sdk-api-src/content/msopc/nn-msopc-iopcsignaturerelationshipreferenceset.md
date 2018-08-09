@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturerelationshipreferenceset.htm
 old-project: OPC
 ms.assetid: 89ea7243-54ee-487b-a58a-0721af9db8c3
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcSignatureRelationshipReferenceSet, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions], IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],described, msopc/IOpcSignatureRelationshipReferenceSet, opc.iopcsignaturerelationshipreferenceset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IOpcSignatureRelationshipReferenceSet</b> interface has these methods.
 <a href="https://msdn.microsoft.com/c348ac25-f2b3-491d-b378-f0daf282b1ca">Create</a>
 </td>
 <td align="left" width="63%">
-
-              Creates an <a href="https://msdn.microsoft.com/24aebfff-6b4f-49cb-988f-670ffed7d815">IOpcSignatureRelationshipReference</a> interface pointer that represents a reference to a Relationships part,  and adds the new interface pointer to the set.
+Creates an <a href="https://msdn.microsoft.com/24aebfff-6b4f-49cb-988f-670ffed7d815">IOpcSignatureRelationshipReference</a> interface pointer that represents a reference to a Relationships part,  and adds the new interface pointer to the set.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IOpcSignatureRelationshipReferenceSet</b> interface has these methods.
 <a href="https://msdn.microsoft.com/7b11f066-3e3a-4dd0-a938-853301bc6914">CreateRelationshipSelectorSet</a>
 </td>
 <td align="left" width="63%">
-
-              Creates an <a href="https://msdn.microsoft.com/cb23cbe2-764c-47e4-bd32-2791ddde9eee">IOpcRelationshipSelectorSet</a> interface pointer that is used as the <i>selectorSet</i> parameter value of the <a href="https://msdn.microsoft.com/c348ac25-f2b3-491d-b378-f0daf282b1ca">Create</a> method.
+Creates an <a href="https://msdn.microsoft.com/cb23cbe2-764c-47e4-bd32-2791ddde9eee">IOpcRelationshipSelectorSet</a> interface pointer that is used as the <i>selectorSet</i> parameter value of the <a href="https://msdn.microsoft.com/c348ac25-f2b3-491d-b378-f0daf282b1ca">Create</a> method.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IOpcSignatureRelationshipReferenceSet</b> interface has these methods.
 <a href="https://msdn.microsoft.com/b4f09a75-5c9d-4870-80e1-3c589435a6b7">Delete</a>
 </td>
 <td align="left" width="63%">
-
-              Deletes a specified  <a href="https://msdn.microsoft.com/24aebfff-6b4f-49cb-988f-670ffed7d815">IOpcSignatureRelationshipReference</a> interface pointer from the set.
+Deletes a specified  <a href="https://msdn.microsoft.com/24aebfff-6b4f-49cb-988f-670ffed7d815">IOpcSignatureRelationshipReference</a> interface pointer from the set.
             
 
 </td>
@@ -107,8 +104,7 @@ The <b>IOpcSignatureRelationshipReferenceSet</b> interface has these methods.
 <a href="https://msdn.microsoft.com/a574a935-f89a-445f-a793-d8dc2e116a48">GetEnumerator</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an enumerator of <a href="https://msdn.microsoft.com/24aebfff-6b4f-49cb-988f-670ffed7d815">IOpcSignatureRelationshipReference</a> interface pointers in the set.
+Gets an enumerator of <a href="https://msdn.microsoft.com/24aebfff-6b4f-49cb-988f-670ffed7d815">IOpcSignatureRelationshipReference</a> interface pointers in the set.
             
 
 </td>

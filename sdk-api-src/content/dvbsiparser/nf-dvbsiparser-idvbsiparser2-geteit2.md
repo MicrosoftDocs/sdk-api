@@ -7,7 +7,7 @@ old-location: mstv\idvbsiparser2_geteit2.htm
 old-project: mstv
 ms.assetid: 47ccce59-d67e-4994-b69d-8dac425b375a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: DVB_EIT_ACTUAL_TID, DVB_EIT_OTHER_TID, GetEIT2, GetEIT2 method [Microsoft TV Technologies], GetEIT2 method [Microsoft TV Technologies],IDvbSiParser2 interface, IDvbSiParser2 interface [Microsoft TV Technologies],GetEIT2 method, IDvbSiParser2.GetEIT2, IDvbSiParser2::GetEIT2, dvbsiparser/IDvbSiParser2::GetEIT2, mstv.idvbsiparser2_geteit2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,8 +66,7 @@ The <b>GetEIT2</b> method gets the event information table (EIT).
 
 ### -param tableId [in]
 
-
-            Specifies the table identifier of the EIT. Use one of the following values.
+Specifies the table identifier of the EIT. Use one of the following values.
           
 
 <table>
@@ -125,15 +124,13 @@ Schedule EIT for another transport stream.
 
 ### -param pwServiceId [in]
 
-
-            An optional parameter that contains a service identifier. You can use this value to filter the request. Otherwise, set this parameter to <b>NULL</b>.
+An optional parameter that contains a service identifier. You can use this value to filter the request. Otherwise, set this parameter to <b>NULL</b>.
           
 
 
 ### -param pbSegment [in]
 
-
-            An optional parameter that contains a segment number. You can use this value to filter the request. Otherwise, set this parameter to <b>NULL</b>.
+An optional parameter that contains a segment number. You can use this value to filter the request. Otherwise, set this parameter to <b>NULL</b>.
           
 
 
@@ -147,8 +144,7 @@ Receives a pointer to the <a href="https://msdn.microsoft.com/9d93130c-12fb-4c76
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include those in the following table.
           
 
 <table>
@@ -210,8 +206,7 @@ The method succeeded.
 
 
 
-
-        The method fails if the filter does not receive a matching table within a predetermined length of time.
+The method fails if the filter does not receive a matching table within a predetermined length of time.
       
 
 

@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent2_get_mediaparametername.htm
 old-project: DirectShow
 ms.assetid: 67eb8a01-312a-45ee-8da3-59a1f9f952ec
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IAMMediaContent2 interface [DirectShow],get_MediaParameterName method, IAMMediaContent2.get_MediaParameterName, IAMMediaContent2::get_MediaParameterName, IAMMediaContent2get_MediaParameterName, dshow.iammediacontent2_get_mediaparametername, get_MediaParameterName, get_MediaParameterName method [DirectShow], get_MediaParameterName method [DirectShow],IAMMediaContent2 interface, qnetwork/IAMMediaContent2::get_MediaParameterName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,11 +70,9 @@ Specifies the location of the parameter in the ASX file.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

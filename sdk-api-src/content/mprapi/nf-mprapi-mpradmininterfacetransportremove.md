@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfacetransportremove.htm
 old-project: rras
 ms.assetid: 0773923a-6bfe-4b86-a8ca-a52016733668
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminInterfaceTransportRemove, MprAdminInterfaceTransportRemove function [RAS], _mpr_mpradmininterfacetransportremove, mprapi/MprAdminInterfaceTransportRemove, rras.mpradmininterfacetransportremove
 ms.prod: windows
 ms.technology: windows-sdk

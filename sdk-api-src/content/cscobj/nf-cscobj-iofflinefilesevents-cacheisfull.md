@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_cacheisfull.htm
 old-project: offlinefiles
 ms.assetid: 535998f6-846b-4075-9504-a8d3e90a73b9
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: CacheIsFull, CacheIsFull method [Offline Files], CacheIsFull method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],CacheIsFull method, IOfflineFilesEvents.CacheIsFull, IOfflineFilesEvents::CacheIsFull, cscobj/IOfflineFilesEvents::CacheIsFull, of.iofflinefilesevents_cacheisfull
 ms.prod: windows
 ms.technology: windows-sdk

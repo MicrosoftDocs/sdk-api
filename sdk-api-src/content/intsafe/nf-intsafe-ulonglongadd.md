@@ -7,7 +7,7 @@ old-location: shell\SIZETAdd_1.htm
 old-project: shell
 ms.assetid: 50acd1fa-fc4b-4e7a-8e88-71fb15eaa3c7
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SIZETAdd, SIZETAdd function [Windows Shell], ULongLongAdd, _shell_SIZETAdd, intsafe/SIZETAdd, shell.SIZETAdd, shell.SIZETAdd_1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,38 +59,21 @@ Adds two values of type <b>SIZE_T</b>.
 
 
 
-### -param ullAugend
-
-TBD
-
-
-### -param ullAddend
-
-TBD
-
-
-### -param pullResult
-
-TBD
-
-
-
-
-#### - cbAddend [in]
-
-Type: <b>SIZE_T</b>
-
-The value to add to <i>cbAugend</i>.
-
-
-#### - cbAugend [in]
+### -param ullAugend [in]
 
 Type: <b>SIZE_T</b>
 
 The first value in the equation.
 
 
-#### - pcbResult [out]
+### -param ullAddend [in]
+
+Type: <b>SIZE_T</b>
+
+The value to add to <i>cbAugend</i>.
+
+
+### -param pullResult [out]
 
 Type: <b>SIZE_T*</b>
 

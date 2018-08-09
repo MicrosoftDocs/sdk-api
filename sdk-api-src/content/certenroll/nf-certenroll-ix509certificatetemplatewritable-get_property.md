@@ -7,7 +7,7 @@ old-location: security\ix509certificatetemplatewritable_property.htm
 old-project: seccertenroll
 ms.assetid: df665957-c276-4e46-8838-76010146e4d7
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509CertificateTemplateWritable interface [Security],Property property, IX509CertificateTemplateWritable.Property, IX509CertificateTemplateWritable.get_Property, IX509CertificateTemplateWritable::Property, IX509CertificateTemplateWritable::get_Property, IX509CertificateTemplateWritable::put_Property, Property property [Security], Property property [Security],IX509CertificateTemplateWritable interface, certenroll/IX509CertificateTemplateWritable::Property, certenroll/IX509CertificateTemplateWritable::get_Property, certenroll/IX509CertificateTemplateWritable::put_Property, get_Property, security.ix509certificatetemplatewritable_property
 ms.prod: windows
 ms.technology: windows-sdk

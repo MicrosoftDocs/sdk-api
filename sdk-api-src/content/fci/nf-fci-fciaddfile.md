@@ -7,7 +7,7 @@ old-location: winprog\fciaddfile.htm
 old-project: devnotes
 ms.assetid: f99e8718-853b-4d35-98ae-61a8333dbaba
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FCIAddFile, FCIAddFile function [Windows API], fci/FCIAddFile, tcompTYPE_MSZIP, tcompTYPE_NONE, winprog.fciaddfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,19 +79,19 @@ The name under which to store the file in the cabinet.
 If set <b>TRUE</b>, the file will be executed when extracted.
 
 
-### -param pfnfcignc
+### -param pfnfcignc [in]
 
-TBD
-
-
-### -param pfnfcis
-
-TBD
+Pointer to an application-defined callback function to obtain specifications on the next cabinet to create. The function should be declared using the <a href="https://msdn.microsoft.com/d56fb63e-91bf-4991-a954-176211697a2e">FNFCIGETNEXTCABINET</a> macro.
 
 
-### -param pfnfcigoi
+### -param pfnfcis [in]
 
-TBD
+Pointer to an application-defined callback function to update the progress information available to the user. The function should be declared using the <a href="https://msdn.microsoft.com/529fd3c8-9783-4dbe-9268-a9137935cf9b">FNFCISTATUS</a> macro.
+
+
+### -param pfnfcigoi [in]
+
+Pointer to an application-defined callback function to open a file and retrieve the file date, time, and attributes. The function should be declared using the <a href="https://msdn.microsoft.com/5baccb69-7872-4d67-ad74-70cdd7459f8d">FNFCIGETOPENINFO</a> macro.
 
 
 ### -param typeCompress [in]
@@ -129,21 +129,6 @@ Microsoft ZIP compression.
 </tr>
 </table>
  
-
-
-#### - GetNextCab [in]
-
-Pointer to an application-defined callback function to obtain specifications on the next cabinet to create. The function should be declared using the <a href="https://msdn.microsoft.com/d56fb63e-91bf-4991-a954-176211697a2e">FNFCIGETNEXTCABINET</a> macro.
-
-
-#### - pfnOpenInfo [in]
-
-Pointer to an application-defined callback function to open a file and retrieve the file date, time, and attributes. The function should be declared using the <a href="https://msdn.microsoft.com/5baccb69-7872-4d67-ad74-70cdd7459f8d">FNFCIGETOPENINFO</a> macro.
-
-
-#### - pfnProgress [in]
-
-Pointer to an application-defined callback function to update the progress information available to the user. The function should be declared using the <a href="https://msdn.microsoft.com/529fd3c8-9783-4dbe-9268-a9137935cf9b">FNFCISTATUS</a> macro.
 
 
 ## -returns

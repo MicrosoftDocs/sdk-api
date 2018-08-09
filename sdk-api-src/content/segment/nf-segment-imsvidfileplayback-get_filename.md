@@ -7,7 +7,7 @@ old-location: mstv\imsvidfileplayback_get_filename.htm
 old-project: mstv
 ms.assetid: c8e01204-fb8e-4ebb-97d9-04dda15c491a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidFilePlayback interface [Microsoft TV Technologies],get_FileName method, IMSVidFilePlayback.get_FileName, IMSVidFilePlayback::get_FileName, IMSVidFilePlaybackget_FileName, get_FileName, get_FileName method [Microsoft TV Technologies], get_FileName method [Microsoft TV Technologies],IMSVidFilePlayback interface, mstv.imsvidfileplayback_get_filename, segment/IMSVidFilePlayback::get_FileName
 ms.prod: windows
 ms.technology: windows-sdk

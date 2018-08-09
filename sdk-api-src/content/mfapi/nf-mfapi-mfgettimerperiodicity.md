@@ -7,7 +7,7 @@ old-location: mf\mfgettimerperiodicity.htm
 old-project: medfound
 ms.assetid: 19d7ae7e-7ae3-474d-8111-3b60b9adb918
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 19d7ae7e-7ae3-474d-8111-3b60b9adb918, MFGetTimerPeriodicity, MFGetTimerPeriodicity function [Media Foundation], mf.mfgettimerperiodicity, mfapi/MFGetTimerPeriodicity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The function succeeded.
+The function succeeded.
               
 
 </td>

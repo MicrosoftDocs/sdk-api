@@ -7,7 +7,7 @@ old-location: tsf\itfcontextcomposition_startcomposition.htm
 old-project: TSF
 ms.assetid: aab84e6c-39c7-438e-b4f0-1d174473aa02
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfContextComposition interface [Text Services Framework],StartComposition method, ITfContextComposition.StartComposition, ITfContextComposition::StartComposition, StartComposition, StartComposition method [Text Services Framework], StartComposition method [Text Services Framework],ITfContextComposition interface, _tsf_itfcontextcomposition_startcomposition_ref, msctf/ITfContextComposition::StartComposition, tsf.itfcontextcomposition_startcomposition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -188,14 +188,12 @@ Any text covered by <i>pCompositionRange</i> receives the GUID_PROP_COMPOSING pr
 
 
 
-<a href="https://msdn.microsoft.com/b1eb5782-13e3-4cbb-8c37-ce7219d1e838">
-        ITfComposition
+<a href="https://msdn.microsoft.com/b1eb5782-13e3-4cbb-8c37-ce7219d1e838">ITfComposition
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/17d5eab5-a308-40a5-823a-f176508dda71">
-        ITfCompositionSink
+<a href="https://msdn.microsoft.com/17d5eab5-a308-40a5-823a-f176508dda71">ITfCompositionSink
       </a>
 
 
@@ -204,8 +202,7 @@ Any text covered by <i>pCompositionRange</i> receives the GUID_PROP_COMPOSING pr
 
 
 
-<a href="https://msdn.microsoft.com/18356eda-42b1-4b29-8fd8-cff4a3f6d234">
-        ITfContextOwnerCompositionSink::OnStartComposition
+<a href="https://msdn.microsoft.com/18356eda-42b1-4b29-8fd8-cff4a3f6d234">ITfContextOwnerCompositionSink::OnStartComposition
       </a>
 
 
@@ -215,8 +212,7 @@ Any text covered by <i>pCompositionRange</i> receives the GUID_PROP_COMPOSING pr
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">
-        ITfRange
+<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
       </a>
  
 

@@ -7,7 +7,7 @@ old-location: multimedia\iavieditstream_setinfo.htm
 old-project: Multimedia
 ms.assetid: 46496c24-cbe0-4234-8683-f39fa58e076b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IAVIEditStream interface [Windows Multimedia],SetInfo method, IAVIEditStream.SetInfo, IAVIEditStream::SetInfo, SetInfo, SetInfo method [Windows Multimedia], SetInfo method [Windows Multimedia],IAVIEditStream interface, _win32_IAVIEditStream_SetInfo, multimedia.iavieditstream_setinfo, vfw/IAVIEditStream::SetInfo
 ms.prod: windows
 ms.technology: windows-sdk

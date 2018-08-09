@@ -7,7 +7,7 @@ old-location: mstv\iservicelocationdescriptor_getelementpid.htm
 old-project: mstv
 ms.assetid: 97b6091b-cacb-4e69-8ca4-c9f4b70f6304
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetElementPID, GetElementPID method [Microsoft TV Technologies], GetElementPID method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetElementPID method, IServiceLocationDescriptor.GetElementPID, IServiceLocationDescriptor::GetElementPID, atscpsipparser/IServiceLocationDescriptor::GetElementPID, mstv.iservicelocationdescriptor_getelementpid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Gets the program ID (PID) that identifies an elementary stream from an Advanced 
 ### -param bIndex [in]
 
 Specifies the elementary stream,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/134e4051-6a73-4420-b12d-3171738bd8ad">IServiceLocationDescriptor::GetNumberOfElements</a>
-  method to get the number of elementary streams in the descriptor.
+  indexed from zero. Call the <a href="https://msdn.microsoft.com/134e4051-6a73-4420-b12d-3171738bd8ad">IServiceLocationDescriptor::GetNumberOfElements</a>method to get the number of elementary streams in the descriptor.
 
 
 ### -param pwVal [out]

@@ -7,7 +7,7 @@ old-location: security\ix509namevaluepair.htm
 old-project: seccertenroll
 ms.assetid: e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509NameValuePair, IX509NameValuePair interface [Security], IX509NameValuePair interface [Security],described, certenroll/IX509NameValuePair, security.ix509namevaluepair
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ The following example shows the ASN.1 output for a CMC certificate that contains
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509NameValuePair</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509NameValuePair</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509NameValuePair</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509NameValuePair</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -162,7 +162,7 @@ Retrieves the value portion of the name-value pair.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

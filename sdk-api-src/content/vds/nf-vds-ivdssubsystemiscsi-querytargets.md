@@ -4,10 +4,10 @@ title: IVdsSubSystemIscsi::QueryTargets
 author: windows-sdk-content
 description: Returns an object that enumerates the iSCSI targets of the subsystem.
 old-location: base\ivdssubsystemiscsi_querytargets.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 86a89c23-beed-48d0-8d35-ed8dd39db3c6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IVdsSubSystemIscsi interface [VDS],QueryTargets method, IVdsSubSystemIscsi.QueryTargets, IVdsSubSystemIscsi::QueryTargets, QueryTargets, QueryTargets method [VDS], QueryTargets method [VDS],IVdsSubSystemIscsi interface, base.ivdssubsystemiscsi_querytargets, vds/IVdsSubSystemIscsi::QueryTargets, vdshwprv/IVdsSubSystemIscsi::QueryTargets
 ms.prod: windows
 ms.technology: windows-sdk

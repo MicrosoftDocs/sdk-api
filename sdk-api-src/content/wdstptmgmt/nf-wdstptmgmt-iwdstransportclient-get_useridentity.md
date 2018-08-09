@@ -4,10 +4,10 @@ title: IWdsTransportClient::get_UserIdentity
 author: windows-sdk-content
 description: Receives a string representing the user identity associated with this client.
 old-location: wds\iwdstransportclient_useridentity.htm
-old-project: Wds
+old-project: wds
 ms.assetid: c22a49ba-2f90-4131-8cf0-aa0d242d32c7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],UserIdentity property, IWdsTransportClient.UserIdentity, IWdsTransportClient.get_UserIdentity, IWdsTransportClient::UserIdentity, IWdsTransportClient::get_UserIdentity, UserIdentity property [Windows Deployment Services], UserIdentity property [Windows Deployment Services],IWdsTransportClient interface, get_UserIdentity, wds.iwdstransportclient_useridentity, wdstptmgmt/IWdsTransportClient::UserIdentity, wdstptmgmt/IWdsTransportClient::get_UserIdentity
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\getprofilestring.htm
 old-project: SysInfo
 ms.assetid: 70987969-7ad5-4eb6-bcd0-ce8709864ee7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: GetProfileString, GetProfileString function, GetProfileStringA, GetProfileStringW, _win32_getprofilestring, base.getprofilestring, winbase/GetProfileString, winbase/GetProfileStringA, winbase/GetProfileStringW
 ms.prod: windows
 ms.technology: windows-sdk

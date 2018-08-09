@@ -4,10 +4,10 @@ title: ITAgentEvent::get_Agent
 author: windows-sdk-content
 description: The get_Agent method gets the interface for the agent on which the event occurred.
 old-location: tapi3\itagentevent_get_agent.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 90a1684d-5cb0-4d1b-ac38-b03f9f1ff838
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITAgentEvent interface [TAPI 2.2],get_Agent method, ITAgentEvent.get_Agent, ITAgentEvent::get_Agent, _tapi3_itagentevent_get_agent, get_Agent, get_Agent method [TAPI 2.2], get_Agent method [TAPI 2.2],ITAgentEvent interface, tapi3.itagentevent_get_agent, tapi3cc/ITAgentEvent::get_Agent
 ms.prod: windows
 ms.technology: windows-sdk

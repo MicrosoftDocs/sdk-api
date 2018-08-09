@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxloggingoptions_activitylogging_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0mav.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: ActivityLogging property [Fax Service], ActivityLogging property [Fax Service],FaxLoggingOptions object, FaxLoggingOptions object [Fax Service],ActivityLogging property, FaxLoggingOptions.ActivityLogging, IFaxLoggingOptions.get_ActivityLogging, IFaxLoggingOptions::get_ActivityLogging, _mfax_faxloggingoptions.activitylogging, fax._mfax_faxloggingoptions_activitylogging, fax._mfax_faxloggingoptions_activitylogging_vb, get_ActivityLogging
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>ActivityLogging</b> property retrieves the <a href="https://msdn.microsoft.com/library/ms684576(v=VS.85).aspx">FaxActivityLogging</a> configuration object.
+The <b>ActivityLogging</b> property retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms684576(v=VS.85).aspx">FaxActivityLogging</a> configuration object.
 
 This property is read-only.
 
@@ -64,15 +64,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686863(v=VS.85).aspx">FaxLoggingOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686863(v=VS.85).aspx">FaxLoggingOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686873(v=VS.85).aspx">IFaxLoggingOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686873(v=VS.85).aspx">IFaxLoggingOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693401(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693401(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

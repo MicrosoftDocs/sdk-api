@@ -7,7 +7,7 @@ old-location: multimedia\igetframe_begin.htm
 old-project: Multimedia
 ms.assetid: 2d2c1872-e0c3-4fea-bfb9-45b814973072
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Begin, Begin method [Windows Multimedia], Begin method [Windows Multimedia],IGetFrame interface, IGetFrame interface [Windows Multimedia],Begin method, IGetFrame.Begin, IGetFrame::Begin, _win32_IGetFrame_Begin, multimedia.igetframe_begin, vfw/IGetFrame::Begin
 ms.prod: windows
 ms.technology: windows-sdk

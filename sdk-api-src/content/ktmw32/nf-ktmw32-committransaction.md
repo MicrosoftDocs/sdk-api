@@ -4,10 +4,10 @@ title: CommitTransaction function
 author: windows-sdk-content
 description: Requests that the specified transaction be committed.
 old-location: fs\committransaction.htm
-old-project: Ktm
+old-project: ktm
 ms.assetid: 17db5e1f-685b-46f0-bac6-dff4c18bb515
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: CommitTransaction, CommitTransaction function [Files], fs.committransaction, ktmw32/CommitTransaction
 ms.prod: windows
 ms.technology: windows-sdk

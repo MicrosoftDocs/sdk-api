@@ -7,7 +7,7 @@ old-location: nla\inetwork_setdescription.htm
 old-project: nla
 ms.assetid: d21fc8ca-d097-4099-8c64-f449d1fd49ef
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: INetwork interface [Network Awareness],SetDescription method, INetwork.SetDescription, INetwork::SetDescription, SetDescription, SetDescription method [Network Awareness], SetDescription method [Network Awareness],INetwork interface, netlistmgr/INetwork::SetDescription, nla.inetwork_setdescription
 ms.prod: windows
 ms.technology: windows-sdk

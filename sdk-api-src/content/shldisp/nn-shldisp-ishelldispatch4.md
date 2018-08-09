@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch4.htm
 old-project: shell
 ms.assetid: 4fe37e38-ee71-41f0-b620-35fdc18f9dbb
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IShellDispatch4, IShellDispatch4 object [Windows Shell], IShellDispatch4 object [Windows Shell],described, _shell_IShellDispatch4, shell.IShellDispatch4, shldisp/IShellDispatch4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -124,7 +124,7 @@ For a discussion of Windows services, see the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

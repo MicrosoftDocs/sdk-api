@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaHTextRangeFromVariantFunction.htm
 old-project: WinAuto
 ms.assetid: 139b970f-614c-42ff-b1d1-4d8644d98d06
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: UiaHTextRangeFromVariant, UiaHTextRangeFromVariant function [Windows Accessibility], uiauto.uiauto_UiaHTextRangeFromVariantFunction, uiauto_UiaHTextRangeFromVariantFunction, uiautomationcoreapi/UiaHTextRangeFromVariant, winauto.uiauto_UiaHTextRangeFromVariantFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,11 @@ req.product: Windows XP with SP1 and later
 
 
 
-### -param pvar
+### -param pvar [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>*</b>
+
+The text range.
 
 
 ### -param phtextrange [out]
@@ -70,13 +72,6 @@ Type: <b>HUIATEXTRANGE*</b>
 
 The address of a variable that receives the text range.
 				This parameter is passed uninitialized.
-
-
-#### - par [in]
-
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>*</b>
-
-The text range.
 
 
 ## -returns

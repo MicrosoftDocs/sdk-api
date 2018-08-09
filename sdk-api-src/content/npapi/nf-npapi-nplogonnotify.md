@@ -7,7 +7,7 @@ old-location: security\nplogonnotify.htm
 old-project: secauthn
 ms.assetid: 9b0e5646-ac57-4eae-bad7-a16c07b51f4b
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: NPLogonNotify, NPLogonNotify function [Security], SvcCtl, WinSta_0, _mnp_nplogonnotify, npapi/NPLogonNotify, security.nplogonnotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,9 @@ MPR calls this function to notify the credential manager that a logon event has 
 
 
 
-### -param lpLogonId
+### -param lpLogonId [in]
 
-TBD
+Pointer to the identifier of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">session</a> that just logged on.
 
 
 ### -param lpAuthentInfoType [in]
@@ -202,11 +202,6 @@ Pointer to a location where a pointer to a <b>null</b>-terminated string may be 
 
 After the function completes, this value may point to a <b>null</b>-terminated string that contains the name of a program to execute plus any parameters the program requires. 
 <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a> should be used to allocate the memory for the returned string. This memory will be freed by MPR when it is no longer needed.
-
-
-#### - lpLogon [in]
-
-Pointer to the identifier of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">session</a> that just logged on.
 
 
 ## -returns

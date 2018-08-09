@@ -7,7 +7,7 @@ old-location: security\checktokencapability.htm
 old-project: secauthz
 ms.assetid: 436A5110-B79E-4E64-92E8-1C9E713D0948
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: CheckTokenCapability, CheckTokenCapability function [Security], security.checktokencapability, securitybaseapi/CheckTokenCapability
 ms.prod: windows
 ms.technology: windows-sdk

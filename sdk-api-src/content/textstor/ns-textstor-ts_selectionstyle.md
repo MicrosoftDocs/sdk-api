@@ -7,7 +7,7 @@ old-location: tsf\ts_selectionstyle.htm
 old-project: TSF
 ms.assetid: 20d0efc2-604f-4ec6-820d-0f87a6d011b0
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: TS_SELECTIONSTYLE, TS_SELECTIONSTYLE structure [Text Services Framework], _tsf_ts_selectionstyle_ref, textstor/TS_SELECTIONSTYLE, tsf.ts_selectionstyle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,14 +86,12 @@ An interim character selection is the length of one character and is visually re
 
 
 
-<a href="https://msdn.microsoft.com/739c87c5-3e9c-41f3-ad79-0b417347604b">
-        TS_SELECTION_ACP
+<a href="https://msdn.microsoft.com/739c87c5-3e9c-41f3-ad79-0b417347604b">TS_SELECTION_ACP
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/56fbe145-1972-4b44-a730-17860e428dd0">
-        TS_SELECTION_ANCHOR
+<a href="https://msdn.microsoft.com/56fbe145-1972-4b44-a730-17860e428dd0">TS_SELECTION_ANCHOR
       </a>
 
 

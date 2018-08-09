@@ -4,10 +4,10 @@ title: InternetGoOnline function
 author: windows-sdk-content
 description: Prompts the user for permission to initiate connection to a URL.
 old-location: wininet\internetgoonline.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: ed1c0282-5469-49d5-8a8c-b7671d27ebd2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: INTERNET_GOONLINE_REFRESH, InternetGoOnline, InternetGoOnline function [WinINet], InternetGoOnlineA, InternetGoOnlineW, _inet_internetgoonline_function, wininet.internetgoonline, winineti/InternetGoOnline, winineti/InternetGoOnlineA, winineti/InternetGoOnlineW
 ms.prod: windows
 ms.technology: windows-sdk

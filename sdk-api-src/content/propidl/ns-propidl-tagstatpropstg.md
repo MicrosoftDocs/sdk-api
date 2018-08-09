@@ -7,7 +7,7 @@ old-location: stg\statpropstg.htm
 old-project: stg
 ms.assetid: 3b8de6d3-18a3-4c0a-94d1-04bcec05d41a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: STATPROPSTG, STATPROPSTG [Strctd Stg], STATPROPSTG structure [Structured Storage], _stg_statpropstg, propidlbase/STATPROPSTG, stg.statpropstg, tagSTATPROPSTG
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>STATPROPSTG</b> structure contains data about a single property in a property set. This data is the property ID and type tag, and the optional string name that may be associated with the property.
 
 

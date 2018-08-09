@@ -7,7 +7,7 @@ old-location: mstv\iservicelocationdescriptor_getelementlanguagecode.htm
 old-project: mstv
 ms.assetid: 8ffc0c58-1305-49bf-bdbd-efb18805516f
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetElementLanguageCode, GetElementLanguageCode method [Microsoft TV Technologies], GetElementLanguageCode method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetElementLanguageCode method, IServiceLocationDescriptor.GetElementLanguageCode, IServiceLocationDescriptor::GetElementLanguageCode, atscpsipparser/IServiceLocationDescriptor::GetElementLanguageCode, mstv.iservicelocationdescriptor_getelementlanguagecode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Gets the three-character ISO 639 language code  for an Advanced Television Syste
 ### -param bIndex [in]
 
 Specifies the elementary stream,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/134e4051-6a73-4420-b12d-3171738bd8ad">IServiceLocationDescriptor::GetNumberOfElements</a>
-  method to get the number of elementary streams in the descriptor.
+  indexed from zero. Call the <a href="https://msdn.microsoft.com/134e4051-6a73-4420-b12d-3171738bd8ad">IServiceLocationDescriptor::GetNumberOfElements</a>method to get the number of elementary streams in the descriptor.
 
 
 ### -param LangCode [out]

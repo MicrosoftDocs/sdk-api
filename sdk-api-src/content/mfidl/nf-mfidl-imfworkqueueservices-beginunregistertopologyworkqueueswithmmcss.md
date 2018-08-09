@@ -7,7 +7,7 @@ old-location: mf\imfworkqueueservices_beginunregistertopologyworkqueueswithmmcss
 old-project: medfound
 ms.assetid: af68b792-6e00-4ed1-91f8-f275288dc680
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: BeginUnregisterTopologyWorkQueuesWithMMCSS, BeginUnregisterTopologyWorkQueuesWithMMCSS method [Media Foundation], BeginUnregisterTopologyWorkQueuesWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],BeginUnregisterTopologyWorkQueuesWithMMCSS method, IMFWorkQueueServices.BeginUnregisterTopologyWorkQueuesWithMMCSS, IMFWorkQueueServices::BeginUnregisterTopologyWorkQueuesWithMMCSS, af68b792-6e00-4ed1-91f8-f275288dc680, mf.imfworkqueueservices_beginunregistertopologyworkqueueswithmmcss, mfidl/IMFWorkQueueServices::BeginUnregisterTopologyWorkQueuesWithMMCSS
 ms.prod: windows
 ms.technology: windows-sdk

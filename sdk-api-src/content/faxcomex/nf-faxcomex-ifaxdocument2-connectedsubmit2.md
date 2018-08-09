@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdocument2_connectedsubmit2_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxdocument2\connectedsubmit2.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: ConnectedSubmit2, ConnectedSubmit2 method [Fax Service], ConnectedSubmit2 method [Fax Service],FaxDocument object, FaxDocument object [Fax Service],ConnectedSubmit2 method, FaxDocument.ConnectedSubmit2, IFaxDocument2.ConnectedSubmit2, IFaxDocument2::ConnectedSubmit2, _mfax_faxdocument2.connectedsubmit2, fax._mfax_faxdocument2_connectedsubmit2, fax._mfax_faxdocument2_connectedsubmit2_vb
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-Submits one or more fax documents to the connected <a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a>. This method returns an array of fax job ID strings, one for each recipient of the fax.
+Submits one or more fax documents to the connected <a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>. This method returns an array of fax job ID strings, one for each recipient of the fax.
 
 
 <div class="alert"><b>Note</b>  This method is supported only in Windows Vista and later.</div><div> </div>
@@ -65,7 +65,7 @@ Submits one or more fax documents to the connected <a href="https://msdn.microso
 
 Type: <b>IFaxServer*</b>
 
-A <a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a> object that specifies a connected fax server.
+A <a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a> object that specifies a connected fax server.
 
 
 ### -param pvFaxOutgoingJobIDs [out]
@@ -105,9 +105,9 @@ You must set the <a href="https://msdn.microsoft.com/en-us/library/Aa359008(v=VS
 
 <div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545226">Body</a> property must be <b>NULL</b> to use <b>ConnectedSubmit2</b>.</div>
 <div> </div>
-This method is not supported for a remote connection to a fax server running Windows XP Home Edition or Windows XP Professional, and will return the error: <a href="https://msdn.microsoft.com/library/ms693490(v=VS.85).aspx">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>.
+This method is not supported for a remote connection to a fax server running Windows XP Home Edition or Windows XP Professional, and will return the error: <a href="https://msdn.microsoft.com/en-us/library/ms693490(v=VS.85).aspx">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>.
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/library/Aa359062(v=VS.85).aspx">far2SUBMIT_LOW</a>, <a href="https://msdn.microsoft.com/library/Aa359062(v=VS.85).aspx">far2SUBMIT_NORMAL</a>, or <a href="https://msdn.microsoft.com/library/Aa359062(v=VS.85).aspx">far2SUBMIT_HIGH</a> access set correctly, depending on the <a href="https://msdn.microsoft.com/library/ms687026(v=VS.85).aspx">Priority</a> of the fax document.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_LOW</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_NORMAL</a>, or <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_HIGH</a> access set correctly, depending on the <a href="https://msdn.microsoft.com/en-us/library/ms687026(v=VS.85).aspx">Priority</a> of the fax document.
 
 To illustrate <i>plErrorBodyFile</i>, here is an example: The following list of files is submitted as the value of <a href="https://msdn.microsoft.com/en-us/library/Aa359008(v=VS.85).aspx">Bodies</a>:
 
@@ -123,11 +123,11 @@ Because the "*.pdf" extension is not supported, the send operation will fail and
 
 
 
-<a href="https://msdn.microsoft.com/library/ms685958(v=VS.85).aspx">FaxDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa359010(v=VS.85).aspx">IFaxDocument2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359010(v=VS.85).aspx">IFaxDocument2</a>
  
 
  

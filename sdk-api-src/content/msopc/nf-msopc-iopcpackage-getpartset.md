@@ -7,7 +7,7 @@ old-location: opc\iopcpackage_getpartset.htm
 old-project: OPC
 ms.assetid: 9460e057-8fe8-46b8-b12e-ba761fcaf49b
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: GetPartSet, GetPartSet method [Open Packaging Conventions], GetPartSet method [Open Packaging Conventions],IOpcPackage interface, IOpcPackage interface [Open Packaging Conventions],GetPartSet method, IOpcPackage.GetPartSet, IOpcPackage::GetPartSet, msopc/IOpcPackage::GetPartSet, opc.iopcpackage_getpartset
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ITSGAccountingEngine::DoAccounting
 author: windows-sdk-content
 description: Provides information about the creation or closing of sessions for a connection.
 old-location: termserv\itsgaccountingengine_doaccounting.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: ebc57caa-804b-46a4-96bb-8b50c13029ab
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DoAccounting, DoAccounting method [Remote Desktop Services], DoAccounting method [Remote Desktop Services],ITSGAccountingEngine interface, ITSGAccountingEngine interface [Remote Desktop Services],DoAccounting method, ITSGAccountingEngine.DoAccounting, ITSGAccountingEngine::DoAccounting, termserv.itsgaccountingengine_doaccounting, tsgpolicyengine/ITSGAccountingEngine::DoAccounting
 ms.prod: windows
 ms.technology: windows-sdk

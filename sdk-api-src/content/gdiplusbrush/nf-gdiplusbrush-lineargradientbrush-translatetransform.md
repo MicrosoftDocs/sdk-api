@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_TranslateTransform_dx_d
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\translatetransform_38dx_dy_order.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: LinearGradientBrush class [GDI+],TranslateTransform method, LinearGradientBrush.TranslateTransform, LinearGradientBrush::TranslateTransform, TranslateTransform, TranslateTransform method [GDI+], TranslateTransform method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_TranslateTransform_dx_dy_order_, gdiplus._gdiplus_CLASS_LinearGradientBrush_TranslateTransform_dx_dy_order_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,9 +75,9 @@ Real number that specifies the vertical component of the translation.
 
 ### -param order [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534149(v=VS.85).aspx">MatrixOrder</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534149(v=VS.85).aspx">MatrixOrder</a></b>
 
-Optional. Element of the <a href="https://msdn.microsoft.com/library/ms534149(v=VS.85).aspx">MatrixOrder</a> enumeration that specifies the order of the multiplication. MatrixOrderPrepend specifies that the translation matrix is on the left, and MatrixOrderAppend specifies that the translation matrix is on the right. The default value is MatrixOrderPrepend. 
+Optional. Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534149(v=VS.85).aspx">MatrixOrder</a> enumeration that specifies the order of the multiplication. MatrixOrderPrepend specifies that the translation matrix is on the left, and MatrixOrderAppend specifies that the translation matrix is on the right. The default value is MatrixOrderPrepend. 
 
 
 ## -returns
@@ -151,47 +151,47 @@ The following example creates a linear gradient brush and uses it to fill a rect
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533806(v=VS.85).aspx">Filling Shapes with a Gradient Brush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533806(v=VS.85).aspx">Filling Shapes with a Gradient Brush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535338(v=VS.85).aspx">LinearGradientBrush::MultiplyTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535338(v=VS.85).aspx">LinearGradientBrush::MultiplyTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535339(v=VS.85).aspx">LinearGradientBrush::ResetTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535339(v=VS.85).aspx">LinearGradientBrush::ResetTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535340(v=VS.85).aspx">LinearGradientBrush::RotateTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535340(v=VS.85).aspx">LinearGradientBrush::RotateTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535341(v=VS.85).aspx">LinearGradientBrush::ScaleTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535341(v=VS.85).aspx">LinearGradientBrush::ScaleTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536397(v=VS.85).aspx">Matrix Representation of Transformations</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536397(v=VS.85).aspx">Matrix Representation of Transformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534149(v=VS.85).aspx">MatrixOrder</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534149(v=VS.85).aspx">MatrixOrder</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533810(v=VS.85).aspx">Transformations</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533810(v=VS.85).aspx">Transformations</a>
  
 
  

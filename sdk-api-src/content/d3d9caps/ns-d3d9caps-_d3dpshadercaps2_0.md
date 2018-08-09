@@ -7,7 +7,7 @@ old-location: direct3d9\d3dpshadercaps2_0.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\d3dpshadercaps2_0.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 469d4061-0c45-7081-5150-edc65b416901, D3DPSHADERCAPS2_0, D3DPSHADERCAPS2_0 structure [Direct3D 9], LPD3DPSHADERCAPS2_0, LPD3DPSHADERCAPS2_0 structure pointer [Direct3D 9], _D3DPSHADERCAPS2_0, d3d9caps/D3DPSHADERCAPS2_0, d3d9caps/LPD3DPSHADERCAPS2_0, direct3d9.d3dpshadercaps2_0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Pixel shader driver caps.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Instruction predication is supported if this value is nonzero. See <a href="https://msdn.microsoft.com/library/Bb147357(v=VS.85).aspx">setp_comp - vs</a>.
+Instruction predication is supported if this value is nonzero. See <a href="https://msdn.microsoft.com/en-us/library/Bb147357(v=VS.85).aspx">setp_comp - vs</a>.
 
 
 ### -field DynamicFlowControlDepth
@@ -83,7 +83,7 @@ The number of temporary registers supported. See <b>D3DPSHADERCAPS2_0</b>.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
 
-The depth of nesting of the <a href="https://msdn.microsoft.com/library/Bb174716(v=VS.85).aspx">loop - vs</a>/<a href="https://msdn.microsoft.com/library/Bb147331(v=VS.85).aspx">rep - vs</a> and <a href="https://msdn.microsoft.com/library/Bb172389(v=VS.85).aspx">call - vs</a>/<a href="https://msdn.microsoft.com/library/Bb172385(v=VS.85).aspx">callnz bool - vs</a> instructions. See <b>D3DPSHADERCAPS2_0</b>.
+The depth of nesting of the <a href="https://msdn.microsoft.com/en-us/library/Bb174716(v=VS.85).aspx">loop - vs</a>/<a href="https://msdn.microsoft.com/en-us/library/Bb147331(v=VS.85).aspx">rep - vs</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb172389(v=VS.85).aspx">call - vs</a>/<a href="https://msdn.microsoft.com/en-us/library/Bb172385(v=VS.85).aspx">callnz bool - vs</a> instructions. See <b>D3DPSHADERCAPS2_0</b>.
 
 
 ### -field NumInstructionSlots
@@ -98,7 +98,7 @@ The number of instruction slots supported. See <b>D3DPSHADERCAPS2_0</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb172513(v=VS.85).aspx">D3DCAPS9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb172513(v=VS.85).aspx">D3DCAPS9</a>
 
 
 

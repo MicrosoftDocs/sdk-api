@@ -7,7 +7,7 @@ old-location: mf\mfp_rate_set_event.htm
 old-project: medfound
 ms.assetid: 19e3bcb0-340a-46dc-bfda-62890ec9a8ae
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFP_RATE_SET_EVENT, MFP_RATE_SET_EVENT structure [Media Foundation], mf.mfp_rate_set_event, mfplay/MFP_RATE_SET_EVENT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,8 +84,7 @@ New playback rate. This value can differ from the requested rate.
 
 
 
-To get a pointer to this structure, cast the <i>pEventHeader</i>
-parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  method.  You can use the <a href="https://msdn.microsoft.com/c23436a7-6206-47fc-bd8e-4b8df31b26d9">MFP_GET_RATE_SET_EVENT</a> macro for this purpose.
+To get a pointer to this structure, cast the <i>pEventHeader</i>parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  method.  You can use the <a href="https://msdn.microsoft.com/c23436a7-6206-47fc-bd8e-4b8df31b26d9">MFP_GET_RATE_SET_EVENT</a> macro for this purpose.
 
 
 

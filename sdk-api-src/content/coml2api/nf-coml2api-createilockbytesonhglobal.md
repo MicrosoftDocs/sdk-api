@@ -7,7 +7,7 @@ old-location: stg\createilockbytesonhglobal.htm
 old-project: stg
 ms.assetid: e7963be7-ccd8-49fb-85bb-e22fbbb6dc5c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: CreateILockBytesOnHGlobal, CreateILockBytesOnHGlobal function [Structured Storage], _stg_createilockbytesonhglobal, coml2api/CreateILockBytesOnHGlobal, stg.createilockbytesonhglobal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,14 +73,7 @@ A memory handle allocated by the <a href="https://msdn.microsoft.com/06886545-bd
 A flag  that specifies whether the underlying handle for this byte array object should be automatically freed when the object is released. If set to <b>FALSE</b>, the caller must free the <i>hGlobal</i> after the final release. If set to <b>TRUE</b>, the final release will automatically free the <i>hGlobal</i> parameter.
 
 
-### -param pplkbyt
-
-TBD
-
-
-
-
-#### - ppLkbyt [out]
+### -param pplkbyt [out]
 
 The address of 
 <a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> pointer variable that receives the interface pointer to the new byte array object.
@@ -90,8 +83,7 @@ The address of
 
 
 
-
-						This function supports the standard return values <b>E_INVALIDARG</b> and <b>E_OUTOFMEMORY</b>, as well as the following:
+This function supports the standard return values <b>E_INVALIDARG</b> and <b>E_OUTOFMEMORY</b>, as well as the following:
 
 
 

@@ -7,7 +7,7 @@ old-location: nla\inetworkconnection_getconnectionid.htm
 old-project: nla
 ms.assetid: c8619fd1-2764-4f20-a258-fb4368e448b7
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: GetConnectionId, GetConnectionId method [Network Awareness], GetConnectionId method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetConnectionId method, INetworkConnection.GetConnectionId, INetworkConnection::GetConnectionId, netlistmgr/INetworkConnection::GetConnectionId, nla.inetworkconnection_getconnectionid
 ms.prod: windows
 ms.technology: windows-sdk

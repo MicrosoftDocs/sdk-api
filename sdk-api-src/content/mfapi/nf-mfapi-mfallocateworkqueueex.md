@@ -7,7 +7,7 @@ old-location: mf\mfallocateworkqueueex.htm
 old-project: medfound
 ms.assetid: 422b8bc2-0616-4f7f-9908-775940f8c1ab
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFAllocateWorkQueueEx, MFAllocateWorkQueueEx function [Media Foundation], MF_MULTITHREADED_WORKQUEUE, MF_STANDARD_WORKQUEUE, MF_WINDOW_WORKQUEUE, mf.mfallocateworkqueueex, mfapi/MFAllocateWorkQueueEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ Create a work queue without a message loop. Using this flag is equivalent to cal
 </dl>
 </td>
 <td width="60%">
-Create a work queue with a message loop. The thread that dispatches the work items for this queue will also call <a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a> and <a href="https://msdn.microsoft.com/library/ms644934(v=VS.85).aspx">DispatchMessage</a>. Use this option if your callback performs any actions that require a message loop.
+Create a work queue with a message loop. The thread that dispatches the work items for this queue will also call <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> and <a href="https://msdn.microsoft.com/en-us/library/ms644934(v=VS.85).aspx">DispatchMessage</a>. Use this option if your callback performs any actions that require a message loop.
 
 </td>
 </tr>

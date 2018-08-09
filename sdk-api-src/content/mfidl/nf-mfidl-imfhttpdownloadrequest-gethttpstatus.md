@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_gethttpstatus.htm
 old-project: medfound
 ms.assetid: E084CF25-BEFA-4061-AA77-2CFC57CF6DCE
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetHttpStatus, GetHttpStatus method [Media Foundation], GetHttpStatus method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetHttpStatus method, IMFHttpDownloadRequest.GetHttpStatus, IMFHttpDownloadRequest::GetHttpStatus, mf.imfhttpdownloadrequest_gethttpstatus, mfidl/IMFHttpDownloadRequest::GetHttpStatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ The HTTP status code of the response. For example, the value is  200 for a typic
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -109,8 +108,7 @@ The HTTP response has not yet been received.
 </dl>
 </td>
 <td width="60%">
-
-                The <i>pdwHttpStatus</i> parameter is an invalid pointer.
+The <i>pdwHttpStatus</i> parameter is an invalid pointer.
 
 </td>
 </tr>

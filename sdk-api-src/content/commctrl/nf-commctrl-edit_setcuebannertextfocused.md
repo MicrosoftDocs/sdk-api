@@ -7,7 +7,7 @@ old-location: controls\Edit_SetCueBannerTextFocused.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setcuebannertextfocused.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Edit_SetCueBannerTextFocused, Edit_SetCueBannerTextFocused macro [Windows Controls], _shell_Edit_SetCueBannerTextFocused, _shell_Edit_SetCueBannerTextFocused_cpp, commctrl/Edit_SetCueBannerTextFocused, controls.Edit_SetCueBannerTextFocused, controls._shell_Edit_SetCueBannerTextFocused
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the text that is displayed as the textual cue, or tip, for an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761639(v=VS.85).aspx">EM_SETCUEBANNER</a> message explicitly.
+Sets the text that is displayed as the textual cue, or tip, for an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761639(v=VS.85).aspx">EM_SETCUEBANNER</a> message explicitly.
 
 
 ## -parameters
@@ -97,15 +97,15 @@ An edit control that is used to begin a search may display "Enter search here" i
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761639(v=VS.85).aspx">EM_SETCUEBANNER</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761639(v=VS.85).aspx">EM_SETCUEBANNER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775458(v=VS.85).aspx">Edit Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775458(v=VS.85).aspx">Edit Controls</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761701(v=VS.85).aspx">Edit_SetCueBannerText</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761701(v=VS.85).aspx">Edit_SetCueBannerText</a>
 
 
 

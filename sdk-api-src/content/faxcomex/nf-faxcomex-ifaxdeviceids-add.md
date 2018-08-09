@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdeviceids_add_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4g2s.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],FaxDeviceIds object, FaxDeviceIds object [Fax Service],Add method, FaxDeviceIds.Add, IFaxDeviceIds.Add, IFaxDeviceIds::Add, _mfax_faxdeviceids.add, fax._mfax_faxdeviceids_add, fax._mfax_faxdeviceids_add_vb
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Add</b> method adds a fax device to the <a href="https://msdn.microsoft.com/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection, using the device's ID.
+The <b>Add</b> method adds a fax device to the <a href="https://msdn.microsoft.com/en-us/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection, using the device's ID.
 
 
 ## -parameters
@@ -70,11 +70,11 @@ A <b>Long</b> value that specifies the ID of the fax device to add to the collec
 
 
 
-This method can also return remote procedure call (RPC) return values. For more information, see <a href="https://msdn.microsoft.com/library/Aa378645(v=VS.85).aspx">RPC Return Values</a>.
+This method can also return remote procedure call (RPC) return values. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa378645(v=VS.85).aspx">RPC Return Values</a>.
 
-<div class="alert"><b>Note</b>  You cannot add devices to the special <b>All Devices</b> routing group. Also, you can only add valid device IDs. You can obtain the valid ID of a device in the <a href="https://msdn.microsoft.com/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection through the <a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">Id</a> property.</div>
+<div class="alert"><b>Note</b>  You cannot add devices to the special <b>All Devices</b> routing group. Also, you can only add valid device IDs. You can obtain the valid ID of a device in the <a href="https://msdn.microsoft.com/en-us/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection through the <a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">Id</a> property.</div>
 <div> </div>
-To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farMANAGE_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farMANAGE_CONFIG</a> access right.
 
 
 
@@ -84,15 +84,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686503(v=VS.85).aspx">IFaxDeviceIds</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686503(v=VS.85).aspx">IFaxDeviceIds</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

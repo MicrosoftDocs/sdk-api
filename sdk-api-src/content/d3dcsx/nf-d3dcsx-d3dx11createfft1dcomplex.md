@@ -7,7 +7,7 @@ old-location: direct3d11\d3dx11createfft1dcomplex.htm
 old-project: direct3d11
 ms.assetid: 3a7879fa-69d0-4c35-b5a8-ffb80665a22f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 198d836f-e656-5c8d-ac4c-cd5c594a32bd, D3DX11CreateFFT1DComplex, D3DX11CreateFFT1DComplex function [Direct3D 11], d3dcsx/D3DX11CreateFFT1DComplex, direct3d11.d3dx11createfft1dcomplex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ A pointer to a variable that receives a pointer to the <a href="https://msdn.mic
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 The return value is one of the values listed in <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

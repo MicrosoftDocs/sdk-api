@@ -7,7 +7,7 @@ old-location: shell\COMPONENTSOPT.htm
 old-project: shell
 ms.assetid: c56a2061-903a-4777-a3fc-bb1fae1f8c43
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPCOMPONENTSOPT, COMPONENTSOPT, COMPONENTSOPT structure [Windows Shell], _tagCOMPONENTSOPT, _win32_COMPONENTSOPT, shell.COMPONENTSOPT, shlobj_core/COMPONENTSOPT"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wcs\createcolorspace.htm
 old-project: WCS
 ms.assetid: c3fc798c-4bb9-4010-87d4-edc0005b7698
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: CreateColorSpace, CreateColorSpace function [Windows Color System], CreateColorSpaceA, CreateColorSpaceW, _color_CreateColorSpace, wcs.createcolorspace, wingdi/CreateColorSpace, wingdi/CreateColorSpaceA, wingdi/CreateColorSpaceW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,13 +64,6 @@ The <b>CreateColorSpace</b> function creates a logical <a href="https://msdn.mic
 
 
 ### -param lplcs
-
-TBD
-
-
-
-
-#### - lpLogColorSpace
 
 Pointer to the <a href="https://msdn.microsoft.com/b08aec07-6ac0-47be-8dc9-d604d94dedde">LOGCOLORSPACE</a> data structure.
 

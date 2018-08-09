@@ -4,10 +4,10 @@ title: MsiGetComponentPathExW function
 author: windows-sdk-content
 description: Returns the full path to an installed component.
 old-location: setup\msigetcomponentpathex.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 7501df09-170d-4f23-9404-d86e861ac7da
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_USERS, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiGetComponentPathEx, MsiGetComponentPathEx function [Setup API], MsiGetComponentPathExA, MsiGetComponentPathExW, NULL, User SID, msi/MsiGetComponentPathEx, msi/MsiGetComponentPathExA, msi/MsiGetComponentPathExW, s-1-1-0, setup.msigetcomponentpathex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -167,27 +167,9 @@ Include applications installed in the per-machine installation context. When <i>
  
 
 
-### -param lpOutPathBuffer
+### -param lpOutPathBuffer [out, optional]
 
-TBD
-
-
-### -param pcchOutPathBuffer
-
-TBD
-
-
-
-
-#### - pcchBuf [in, out, optional]
-
-Pointer to a location that receives the size of the buffer, in <b>TCHAR</b>, pointed to by the <i>szPathBuf</i> parameter.  The value in this location should be set to the count of  <b>TCHAR</b> in the string including the terminating null character. If the size of the  buffer  is too small, this parameter receives the length of the string value without including the terminating null character in the count.
-
-
-#### - szPathBuf [out, optional]
-
-
- A string value that receives the path to the component. This parameter can be <b>NULL</b>. If the component is a registry key, the registry roots are represented numerically. If this is a registry subkey path, there is a backslash at the end of the Key Path. If this is a registry value key path, there is no backslash at the end. For example, a registry path on a 32-bit operating system of <b>HKEY_CURRENT_USER</b>\<b>SOFTWARE</b>\<b>Microsoft</b> is returned as "01:\SOFTWARE\Microsoft\". The registry roots returned on 32-bit operating systems are defined as shown in the following table. 
+A string value that receives the path to the component. This parameter can be <b>NULL</b>. If the component is a registry key, the registry roots are represented numerically. If this is a registry subkey path, there is a backslash at the end of the Key Path. If this is a registry value key path, there is no backslash at the end. For example, a registry path on a 32-bit operating system of <b>HKEY_CURRENT_USER</b>\<b>SOFTWARE</b>\<b>Microsoft</b> is returned as "01:\SOFTWARE\Microsoft\". The registry roots returned on 32-bit operating systems are defined as shown in the following table. 
 
 
 
@@ -244,6 +226,11 @@ For example, a registry key path of <b>HKEY_CURRENT_USER</b>\<b>SOFTWARE</b>\<b>
 </tr>
 </table>
  
+
+
+### -param pcchOutPathBuffer [in, out, optional]
+
+Pointer to a location that receives the size of the buffer, in <b>TCHAR</b>, pointed to by the <i>szPathBuf</i> parameter.  The value in this location should be set to the count of  <b>TCHAR</b> in the string including the terminating null character. If the size of the  buffer  is too small, this parameter receives the length of the string value without including the terminating null character in the count.
 
 
 ## -returns

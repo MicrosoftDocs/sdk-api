@@ -4,10 +4,10 @@ title: QuerySecurityPackageInfoA function
 author: windows-sdk-content
 description: Retrieves information about a specified security package. This information includes the bounds on sizes of authentication information, credentials, and contexts.
 old-location: security\querysecuritypackageinfo.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 130ef0fe-bb13-4a65-b476-cd25ed234da1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: QuerySecurityPackageInfo, QuerySecurityPackageInfo function [Security], QuerySecurityPackageInfoA, QuerySecurityPackageInfoW, _ssp_querysecuritypackageinfo, security.querysecuritypackageinfo, sspi/QuerySecurityPackageInfo, sspi/QuerySecurityPackageInfoA, sspi/QuerySecurityPackageInfoW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,6 +44,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # QuerySecurityPackageInfoA function
@@ -60,15 +61,20 @@ Retrieves information about a specified <a href="https://msdn.microsoft.com/3e9d
 
 
 
-### -param pszPackageName [in]
+### -param pszPackageName
 
-Pointer to a null-terminated string that specifies the name of the security package.
+TBD
 
 
 ### -param ppPackageInfo [out]
 
 Pointer to a variable that receives a pointer to a 
 <a href="https://msdn.microsoft.com/d0bff3d8-63f1-4a4e-851f-177040af6bd2">SecPkgInfo</a> structure containing information about the specified security package.
+
+
+#### - pPackageName [in]
+
+Pointer to a null-terminated string that specifies the name of the security package.
 
 
 ## -returns

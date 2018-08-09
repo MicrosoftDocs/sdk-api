@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpixelformatinfo_getchannelmask.htm
 old-project: wic
 ms.assetid: da812e26-b0cc-49eb-a273-73b9bb579ba3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetChannelMask, GetChannelMask method [Windows Imaging Component], GetChannelMask method [Windows Imaging Component],IWICPixelFormatInfo interface, IWICPixelFormatInfo interface [Windows Imaging Component],GetChannelMask method, IWICPixelFormatInfo.GetChannelMask, IWICPixelFormatInfo::GetChannelMask, _wic_codec_iwicpixelformatinfo_getchannelmask, wic._wic_codec_iwicpixelformatinfo_getchannelmask, wincodec/IWICPixelFormatInfo::GetChannelMask
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetVisibleClipBounds_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsgetvisibleclipboundsmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetVisibleClipBounds, GetVisibleClipBounds methods [GDI+], Graphics.GetVisibleClipBounds, Graphics.GetVisibleClipBounds(OUT Rect), Graphics::GetVisibleClipBounds, Graphics::GetVisibleClipBounds(OUT Rect), _gdiplus_CLASS_Graphics_GetVisibleClipBounds_Methods, gdiplus._gdiplus_CLASS_Graphics_GetVisibleClipBounds_Methods, gdiplusgraphics/GetVisibleClipBounds
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,20 +65,20 @@ GetVisibleClipBounds methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535946(v=VS.85).aspx">GetVisibleClipBounds(Rect*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535946(v=VS.85).aspx">GetVisibleClipBounds(Rect*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535946(v=VS.85).aspx">Graphics::GetVisibleClipBounds</a>
+The <a href="https://msdn.microsoft.com/en-us/library/ms535946(v=VS.85).aspx">Graphics::GetVisibleClipBounds</a>
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a><b>Graphics</b> object and the clipping region of the window.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535947(v=VS.85).aspx">GetVisibleClipBounds(RectF*)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535947(v=VS.85).aspx">GetVisibleClipBounds(RectF*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535947(v=VS.85).aspx">Graphics::GetVisibleClipBounds</a>
+The <a href="https://msdn.microsoft.com/en-us/library/ms535947(v=VS.85).aspx">Graphics::GetVisibleClipBounds</a>
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a><b>Graphics</b> object and the clipping region of the window.
 
 </td>

@@ -7,7 +7,7 @@ old-location: mstv\idvb_bat_getcountofrecords.htm
 old-project: mstv
 ms.assetid: feb31eca-d746-48cf-8c1b-06dd7816725b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetCountOfRecords method, IDVB_BAT.GetCountOfRecords, IDVB_BAT::GetCountOfRecords, IDVB_BATGetCountOfRecords, dvbsiparser/IDVB_BAT::GetCountOfRecords, mstv.idvb_bat_getcountofrecords
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\mfcopyimage.htm
 old-project: medfound
 ms.assetid: e6bc2777-d33c-4d44-84c6-e7b35d308d33
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFCopyImage, MFCopyImage function [Media Foundation], e6bc2777-d33c-4d44-84c6-e7b35d308d33, mf.mfcopyimage, mfapi/MFCopyImage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Copies an image or image plane from one buffer to another.
+Copies an image or image plane from one buffer to another.
         
 
 
@@ -63,43 +62,37 @@ req.product: GDI+ 1.1
 
 ### -param pDest [in]
 
-
-            Pointer to the start of the first row of pixels in the destination buffer.
+Pointer to the start of the first row of pixels in the destination buffer.
           
 
 
 ### -param lDestStride [in]
 
-
-            Stride of the destination buffer, in bytes.
+Stride of the destination buffer, in bytes.
           
 
 
 ### -param pSrc [in]
 
-
-            Pointer to the start of the first row of pixels in the source image.
+Pointer to the start of the first row of pixels in the source image.
           
 
 
 ### -param lSrcStride [in]
 
-
-            Stride of the source image, in bytes.
+Stride of the source image, in bytes.
           
 
 
 ### -param dwWidthInBytes [in]
 
-
-            Width of the image, in bytes.
+Width of the image, in bytes.
           
 
 
 ### -param dwLines [in]
 
-
-            Number of rows of pixels to copy.
+Number of rows of pixels to copy.
           
 
 
@@ -116,15 +109,13 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-
-        This function copies a single plane of the image. For planar YUV formats, you must call the function once for each plane. In this case, <i>pDest</i> and <i>pSrc</i> must point to the start of each plane.
+This function copies a single plane of the image. For planar YUV formats, you must call the function once for each plane. In this case, <i>pDest</i> and <i>pSrc</i> must point to the start of each plane.
       
 
-
-        This function is optimized if the MMX, SSE, or SSE2 instruction sets are available on the processor. The function performs a non-temporal store (the data is written to memory directly without polluting the cache).
+This function is optimized if the MMX, SSE, or SSE2 instruction sets are available on the processor. The function performs a non-temporal store (the data is written to memory directly without polluting the cache).
       
 
-<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="https://msdn.microsoft.com/library/Ee663600(v=VS.85).aspx">Library Changes in Windows 7</a>.</div>
+<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Ee663600(v=VS.85).aspx">Library Changes in Windows 7</a>.</div>
 <div> </div>
 
 

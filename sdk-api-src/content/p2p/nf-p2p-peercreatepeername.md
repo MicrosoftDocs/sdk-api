@@ -7,7 +7,7 @@ old-location: p2p\peercreatepeername.htm
 old-project: p2psdk
 ms.assetid: 8248b0ae-5d35-4d6e-91ef-c210033c99ef
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerCreatePeerName, PeerCreatePeerName function [Peer Networking], p2p.peercreatepeername, p2p/PeerCreatePeerName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerCreatePeerName</b> function  creates a new name based on the existing name of the specified peer identity and classifier. However, a new identity is not created by a call to <b>PeerCreatePeerName</b>.
+The <b>PeerCreatePeerName</b> function  creates a new name based on the existing name of the specified peer identity and classifier. However, a new identity is not created by a call to <b>PeerCreatePeerName</b>.
 
 
 ## -parameters

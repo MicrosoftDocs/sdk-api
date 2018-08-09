@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_getgdisurface.htm
 old-project: directdraw
 ms.assetid: 4d0b827d-86f8-4d71-a193-9e330db0fbfd
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetGDISurface, GetGDISurface method [DirectDraw], GetGDISurface method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetGDISurface method, IDirectDraw7.GetGDISurface, IDirectDraw7::GetGDISurface, ddraw/IDirectDraw7::GetGDISurface, directdraw.idirectdraw7_getgdisurface
 ms.prod: windows
 ms.technology: windows-sdk

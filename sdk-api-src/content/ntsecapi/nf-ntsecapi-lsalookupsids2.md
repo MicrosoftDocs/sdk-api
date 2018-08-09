@@ -7,7 +7,7 @@ old-location: security\lsalookupsids2.htm
 old-project: secmgmt
 ms.assetid: 6B30D1FF-35DC-44E8-A765-36A5761EC0CE
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 08/06/2018
 ms.keywords: LSA_LOOKUP_DISALLOW_CONNECTED_ACCOUNT_INTERNET_SID, LSA_LOOKUP_PREFER_INTERNET_NAMES, LSA_LOOKUP_RETURN_LOCAL_NAMES, LsaLookupSids2, LsaLookupSids2 function [Security], ntsecapi/LsaLookupSids2, security.lsalookupsids2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The <b>LsaLookupSids2</b> function looks up the names that correspond to an array of <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifiers</a> (SIDs) and supports Internet provider identities. If <b>LsaLookupSids2</b> cannot find a name that corresponds to a SID, the function returns the SID in character form. You should use this function instead of the <a href="https://msdn.microsoft.com/69051bad-91e7-469d-9010-48ac3d20f8af">LsaLookupSids</a> function.
+The <b>LsaLookupSids2</b> function looks up the names that correspond to an array of <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifiers</a> (SIDs) and supports Internet provider identities. If <b>LsaLookupSids2</b> cannot find a name that corresponds to a SID, the function returns the SID in character form. You should use this function instead of the <a href="https://msdn.microsoft.com/69051bad-91e7-469d-9010-48ac3d20f8af">LsaLookupSids</a> function.
 
 
 ## -parameters
@@ -184,7 +183,7 @@ All of the SIDs were found and successfully translated.
  
 
 If the function fails, the return value is an <b>NTSTATUS</b> code, which can be one of the following values or one of the 
-<a href="https://msdn.microsoft.com/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

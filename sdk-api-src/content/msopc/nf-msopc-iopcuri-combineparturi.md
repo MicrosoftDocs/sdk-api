@@ -7,7 +7,7 @@ old-location: opc\iopcuri_combineparturi.htm
 old-project: OPC
 ms.assetid: 9bb4c351-12ef-4e26-bcb1-59f81a413588
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: CombinePartUri, CombinePartUri method [Open Packaging Conventions], CombinePartUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],CombinePartUri method, IOpcUri.CombinePartUri, IOpcUri::CombinePartUri, msopc/IOpcUri::CombinePartUri, opc.iopcuri_combineparturi
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-          Forms the part name of the part that is referenced by the specified relative URI.
+Forms the part name of the part that is referenced by the specified relative URI.
         The specified relative URI of the part is resolved against the URI represented as the current OPC URI object.
       
 
@@ -64,8 +63,7 @@ req.product: Rights Management Services client 1.0 or later
 
 ### -param relativeUri [in]
 
-
-              A pointer to the  <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface of the relative URI of the part.
+A pointer to the  <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface of the relative URI of the part.
 
 To form the part URI object that represents the part name, this input URI is resolved against the URI represented as the current OPC URI object. Therefore, the input URI must be relative to the URI represented by the current OPC URI object.
 
@@ -74,20 +72,17 @@ This URI may include a fragment component; however, the fragment will be ignored
 
 ### -param combinedUri [out, retval]
 
-
-              A pointer to the <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a> interface of the part URI object that represents the part name.
+A pointer to the <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a> interface of the part URI object that represents the part name.
             
 
-
-              The part URI object is formed by resolving the relative URI in <i>relativeUri</i> against the URI represented by the current OPC URI object.
+The part URI object is formed by resolving the relative URI in <i>relativeUri</i> against the URI represented by the current OPC URI object.
 
 
 ## -returns
 
 
 
-
-              The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
             
 
 <table>
@@ -113,8 +108,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-
-                The <a href="_inet_CoInternetCombineUrl_Function">CoInternetCombineUrl</a> function returned an invalid size.
+The <a href="_inet_CoInternetCombineUrl_Function">CoInternetCombineUrl</a> function returned an invalid size.
               
 
 </td>
@@ -126,8 +120,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-
-                At least one of the <i>relativeUri</i>, and <i>combinedUri</i> parameters is <b>NULL</b>.
+At least one of the <i>relativeUri</i>, and <i>combinedUri</i> parameters is <b>NULL</b>.
               
 
 </td>
@@ -139,8 +132,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-
-                The size of the buffer required by the <a href="_inet_CoInternetCombineUrl_Function">CoInternetCombineUrl</a> function changed unexpectedly.
+The size of the buffer required by the <a href="_inet_CoInternetCombineUrl_Function">CoInternetCombineUrl</a> function changed unexpectedly.
               
 
 </td>
@@ -153,8 +145,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-
-                  The part name does not conform to the rules specified in the <i>OPC</i> standards.
+The part name does not conform to the rules specified in the <i>OPC</i> standards.
                 
 
 </td>
@@ -179,8 +170,7 @@ A part name cannot be an absolute URI. An absolute URI begins with a schema comp
 </dl>
 </td>
 <td width="60%">
-
-                An <b>HRESULT</b> error code from the <a href="_inet_CoInternetCombineUrl_Function">CoInternetCombineUrl</a> function.
+An <b>HRESULT</b> error code from the <a href="_inet_CoInternetCombineUrl_Function">CoInternetCombineUrl</a> function.
               
 
 </td>
@@ -193,8 +183,7 @@ A part name cannot be an absolute URI. An absolute URI begins with a schema comp
 </dl>
 </td>
 <td width="60%">
-
-                An <b>HRESULT</b> error code from the <a href="inet_CreateUri_Function">CreateUri</a> function.
+An <b>HRESULT</b> error code from the <a href="inet_CreateUri_Function">CreateUri</a> function.
               
 
 </td>
@@ -207,8 +196,7 @@ A part name cannot be an absolute URI. An absolute URI begins with a schema comp
 </dl>
 </td>
 <td width="60%">
-
-                An <b>HRESULT</b> error code from a  <a href="https://msdn.microsoft.com/library/windows/hardware/mt147353">WinINet</a> API.
+An <b>HRESULT</b> error code from a  <a href="https://msdn.microsoft.com/library/windows/hardware/mt147353">WinINet</a> API.
               
 
 </td>
@@ -228,13 +216,10 @@ Example input and output:
 
 <table>
 <tr>
-<th>
-                Input relative <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a></th>
-<th>
-                Current <a href="https://msdn.microsoft.com/35ce7946-f7e7-4ac3-852f-e3fcca23d6d4">IOpcUri</a>
+<th>Input relative <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a></th>
+<th>Current <a href="https://msdn.microsoft.com/35ce7946-f7e7-4ac3-852f-e3fcca23d6d4">IOpcUri</a>
 </th>
-<th>
-                Formed <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a>
+<th>Formed <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a>
 </th>
 </tr>
 <tr>

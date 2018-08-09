@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9ex_getadapterluid.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9ex_getadapterluid.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetAdapterLUID, GetAdapterLUID method [Direct3D 9], GetAdapterLUID method [Direct3D 9],IDirect3D9Ex interface, IDirect3D9Ex interface [Direct3D 9],GetAdapterLUID method, IDirect3D9Ex.GetAdapterLUID, IDirect3D9Ex::GetAdapterLUID, d3d9/IDirect3D9Ex::GetAdapterLUID, direct3d9.idirect3d9ex_getadapterluid, f330bb92-02a0-089a-4923-b68cf9e2282b
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ A unique identifier for the given adapter.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -89,7 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174301(v=VS.85).aspx">IDirect3D9Ex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174301(v=VS.85).aspx">IDirect3D9Ex</a>
  
 
  

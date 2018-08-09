@@ -7,7 +7,7 @@ old-location: mscs\setclustergroupnodelist.htm
 old-project: mscs
 ms.assetid: 663ccafe-0456-406e-a50d-e17e6d85a9a1
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_GROUP_NODE_LIST, PCLUSAPI_SET_CLUSTER_GROUP_NODE_LIST function [Failover Cluster], SetClusterGroupNodeList, SetClusterGroupNodeList function [Failover Cluster], _wolf_setclustergroupnodelist, clusapi/PCLUSAPI_SET_CLUSTER_GROUP_NODE_LIST, clusapi/SetClusterGroupNodeList, mscs.setclustergroupnodelist
 ms.prod: windows
 ms.technology: windows-sdk

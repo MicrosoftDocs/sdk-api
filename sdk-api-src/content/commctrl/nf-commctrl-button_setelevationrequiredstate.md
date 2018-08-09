@@ -7,7 +7,7 @@ old-location: controls\Button_SetElevationRequiredState.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setelevationrequiredstate.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Button_SetElevationRequiredState, Button_SetElevationRequiredState macro [Windows Controls], _shell_Button_SetElevationRequiredState, _shell_Button_SetElevationRequiredState_cpp, commctrl/Button_SetElevationRequiredState, controls.Button_SetElevationRequiredState, controls._shell_Button_SetElevationRequiredState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the elevation required state for a specified button or command link to display an elevated icon. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775979(v=VS.85).aspx">BCM_SETSHIELD</a> message explicitly. 
+Sets the elevation required state for a specified button or command link to display an elevated icon. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775979(v=VS.85).aspx">BCM_SETSHIELD</a> message explicitly. 
 
 
 ## -parameters

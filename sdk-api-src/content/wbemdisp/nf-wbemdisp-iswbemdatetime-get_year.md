@@ -7,7 +7,7 @@ old-location: wmi\swbemdatetime_year.htm
 old-project: WmiSdk
 ms.assetid: eab3738a-c92a-4602-b1ee-e2547da88308
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemDateTime interface [Windows Management Instrumentation],Year property, ISWbemDateTime.get_Year, ISWbemDateTime.put_Year, ISWbemDateTime::get_Year, SWbemDateTime object [Windows Management Instrumentation],Year property, SWbemDateTime.Year, Year property [Windows Management Instrumentation], Year property [Windows Management Instrumentation],ISWbemDateTime interface, Year property [Windows Management Instrumentation],SWbemDateTime object, _hmm_swbemdatetime.year, get_Year, wmi.swbemdatetime_year
 ms.prod: windows
 ms.technology: windows-sdk

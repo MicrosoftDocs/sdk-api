@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTransformPattern.htm
 old-project: WinAuto
 ms.assetid: 276b44d9-a335-4d4e-8fe9-de03584dadb4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IUIAutomationTransformPattern, IUIAutomationTransformPattern interface [Windows Accessibility], IUIAutomationTransformPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTransformPattern, uiauto_IUIAutomationTransformPattern, uiautomationclient/IUIAutomationTransformPattern, winauto.uiauto_IUIAutomationTransformPattern
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

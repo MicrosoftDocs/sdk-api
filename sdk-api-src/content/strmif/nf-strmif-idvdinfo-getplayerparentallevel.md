@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getplayerparentallevel.htm
 old-project: DirectShow
 ms.assetid: 2b4111db-fbb1-4da7-85e1-ddd3f5718225
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: GetPlayerParentalLevel, GetPlayerParentalLevel method [DirectShow], GetPlayerParentalLevel method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetPlayerParentalLevel method, IDvdInfo.GetPlayerParentalLevel, IDvdInfo::GetPlayerParentalLevel, IDvdInfoGetPlayerParentalLevel, dshow.idvdinfo_getplayerparentallevel, strmif/IDvdInfo::GetPlayerParentalLevel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,14 +76,14 @@ Retrieves the current parental level and country/region code settings for the DV
 
 
 
-#### - pCountryCode [out]
-
-Pointer to a value indicating the current country/region code.
-
-
 #### - pParentalLevel [out]
 
 Pointer to a value indicating the current parental level.
+
+
+#### - pCountryCode [out]
+
+Pointer to a value indicating the current country/region code.
 
 
 ## -returns

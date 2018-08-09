@@ -7,7 +7,7 @@ old-location: shell\SHCreateDataObject.htm
 old-project: shell
 ms.assetid: d56cdafe-9463-43a5-8ef0-6cfaf0c524a8
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHCreateDataObject, SHCreateDataObject function [Windows Shell], _shell_SHCreateDataObject, shell.SHCreateDataObject, shlobj_core/SHCreateDataObject
 ms.prod: windows
 ms.technology: windows-sdk

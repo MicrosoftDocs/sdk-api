@@ -7,7 +7,7 @@ old-location: gdi\copymetafile.htm
 old-project: gdi
 ms.assetid: e9f97591-697b-47d0-a748-60fda4d5258c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CopyMetaFile, CopyMetaFile function [Windows GDI], CopyMetaFileA, CopyMetaFileW, _win32_CopyMetaFile, gdi.copymetafile, wingdi/CopyMetaFile, wingdi/CopyMetaFileA, wingdi/CopyMetaFileW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ TBD
 
 
 
-#### - hmfSrc [in]
+#### - [in]
 
 A handle to the source Windows-format metafile.
 

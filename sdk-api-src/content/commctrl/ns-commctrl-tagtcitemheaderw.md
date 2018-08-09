@@ -7,7 +7,7 @@ old-location: controls\TCITEMHEADER.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\structures\tcitemheader.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPTCITEMHEADERW, LPTCITEMHEADER, LPTCITEMHEADER structure pointer [Windows Controls], TCIF_IMAGE, TCIF_RTLREADING, TCIF_TEXT, TCITEMHEADER, TCITEMHEADER structure [Windows Controls], TCITEMHEADERA, TCITEMHEADERW, _win32_TCITEMHEADER, _win32_TCITEMHEADER_cpp, commctrl/LPTCITEMHEADER, commctrl/TCITEMHEADER, commctrl/TCITEMHEADERA, commctrl/TCITEMHEADERW, controls.TCITEMHEADER, controls._win32_TCITEMHEADER, tagTCITEMHEADERW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Specifies or receives the attributes of a tab. It is used with the <a href="https://msdn.microsoft.com/library/Bb760606(v=VS.85).aspx">TCM_INSERTITEM</a>, <a href="https://msdn.microsoft.com/library/Bb760589(v=VS.85).aspx">TCM_GETITEM</a>, and <a href="https://msdn.microsoft.com/library/Bb760631(v=VS.85).aspx">TCM_SETITEM</a> messages. This structure supersedes the
+Specifies or receives the attributes of a tab. It is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb760606(v=VS.85).aspx">TCM_INSERTITEM</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb760589(v=VS.85).aspx">TCM_GETITEM</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb760631(v=VS.85).aspx">TCM_SETITEM</a> messages. This structure supersedes the
 	<b>TC_ITEMHEADER</b> structure. 
 
 
